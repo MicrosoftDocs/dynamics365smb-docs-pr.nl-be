@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 016587045885ab8da18caa0bf740e3b6cdc5a8b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 061b62e50a327edc31f93672837c167927770236
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379604"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773299"
 ---
 # <a name="belgian-electronic-payments"></a>Belgische elektronische betalingen
 In de module voor elektronisch bankieren in [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u elektronische betalingen naar binnen- en buitenland, en SEPA en niet-Euro SEPA verzenden.  
@@ -42,17 +42,12 @@ U moet alle fouten corrigeren voordat u de regels met elektronische betalingen k
 
 Zie [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md) voor meer informatie.  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Belgische lokale functionaliteit](belgium-local-functionality.md)  
-[Elektronisch bankieren voor België](belgian-electronic-banking.md)   
-[Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)   
-[IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)   
-[Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
-[Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md)   
-[Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)   
-[Elektronische betalingen testen](how-to-test-electronic-payments.md)   
-[Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
-[Betalingsbestanden afdrukken](how-to-print-payment-files.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Elektronisch bankieren voor België](belgian-electronic-banking.md)  
+[Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md)  
+[Leveranciersbetalingen voorstellen](../../payables-how-suggest-vendor-payments.md)  
+[Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)  
+[Elektronische betalingen testen](how-to-test-electronic-payments.md)  
+[Betalingsbestanden afdrukken](how-to-print-payment-files.md)  

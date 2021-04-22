@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d184bdf9e5778cd786fa08941545604264e6f549
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: caf5a9726e5089b59a604471bc35ddb99d7ca2aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379514"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779206"
 ---
 # <a name="set-up-declaration-types"></a>Aangiftesoorten instellen
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] zijn er twee soorten aangiftes:  

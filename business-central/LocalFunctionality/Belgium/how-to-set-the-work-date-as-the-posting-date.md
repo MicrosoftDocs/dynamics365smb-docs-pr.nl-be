@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ff5384a403dcb71c67244ee1355e568ee7e7939e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3c932b74b327950858e88a5176e596021a06d032
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379769"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779218"
 ---
 # <a name="set-the-work-date-as-the-posting-date"></a>De werkdatum als boekingsdatum instellen
 U kunt het grootboek zo instellen dat de werkdatum als boekingsdatum wordt gebruikt voor openstaande klanten- of leveranciersposten in een factuur, betaling of creditnota.  
