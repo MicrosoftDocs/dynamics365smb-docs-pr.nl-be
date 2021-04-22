@@ -1,1 +1,1 @@
-> <span data-ttu-id="169f0-101">**VAN TOEPASSING OP:** Business Central online</span><span class="sxs-lookup"><span data-stu-id="169f0-101">**APPLIES TO:** Business Central online</span></span>
+<span data-ttu-id="6dfd6-101">**VAN TOEPASSING OP:** Business Central online</span><span class="sxs-lookup"><span data-stu-id="6dfd6-101">**APPLIES TO:** Business Central online</span></span>

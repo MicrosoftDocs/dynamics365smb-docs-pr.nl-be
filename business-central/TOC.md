@@ -82,14 +82,13 @@
 ##### [Ontwerpdetails: Wijzigingen in codeunit 12: Algemene variabelen toewijzen voor dagboekboekingsregel](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
 ##### [Designdetails: Wijzigingen in codeunit 12: Wijzigingen in procedures voor grootboekboekingen](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Ontwerpdetails: Dimensiesetposten
-##### [Dimensiesetposten - overzicht](design-details-dimension-set-entries.md)
 ##### [Ontwerpdetails: Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)  
 ##### [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)  
 ##### [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)  
 
 ## Proberen
 ### [Proefversies en abonnementen](across-preview.md)
-### [Aan de slag met Business Central](product-get-started.md)
+### [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
 ### [Probleemoplossing voor aanmelden bij Self-Service](ui-troubleshoot-self-signup.md)
 ### [Uw proefversie uitbreiden](admin-extend-trial.md)
 ### [Business Central verwijderen of het abonnement erop stoppen](admin-cancel.md)
@@ -98,7 +97,7 @@
 
 <!--setup-->
 ## Business Central instellen
-### [Business Central instellen](setup.md)
+### [Overzicht van taken](setup.md)
 ### Financiën instellen
 #### [Financiën instellen](finance-setup-finance.md)
 #### [Betalingsmethoden instellen](finance-payment-methods.md)
@@ -240,42 +239,51 @@
 #### [Klantgegevens migreren](admin-migrate-customer-data.md)
 #### [Aangepaste configuratiepakketten voor bedrijven maken](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-### Outlook gebruiken met Business Central
-#### [Business Central gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)
-#### [Synchroniseren met contacten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-#### [Business Central gebruiken met Outlook](admin-no-outlook.md)
-### Microsoft Teams gebruiken met Business Central
-#### [Overzicht](across-teams-overview.md)
-#### [Teams-integratie beheren](admin-teams-integration.md)
-#### [Business Central-app voor teams installeren](across-install-app-for-teams.md)
-#### [Werken met Business Central-gegevens in Teams](across-working-with-teams.md)
-#### [Veelgestelde vragen over Teams](teams-faq.md)
-#### [Problemen oplossen](admin-teams-troubleshooting.md)
-### Power BI gebruiken met Business Central
-#### [Inleiding](admin-powerbi.md)
-#### Beheerder
-##### [Overzicht van integratie](admin-powerbi-overview.md)
-##### [Power BI-integratie mogelijk maken](admin-powerbi-setup.md)
-#### Ontwerper
-##### [Aan de slag met het maken van rapporten](across-how-use-financials-data-source-powerbi.md)
-##### [Rapporten maken voor het weergeven van lijstgegevens](across-how-use-powerbi-reports-factbox.md)
-#### Consument
-##### [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md)
-##### [Werken met Business Central-gegevens in Power BI](across-working-with-business-central-in-powerbi.md)
-##### [De Business Central-apps gebruiken in Power BI](across-powerbi-business-central-apps.md)
-### Power Automate gebruiken met Business Central
-#### [Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)
-### Power Apps gebruiken met Business Central
-#### [Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met Power Apps](across-how-use-financials-data-source-powerapps.md)
-### [Overstappen van een QuickBooks-app naar Business Central](across-quickbooks-to-business-edition.md)
-### [Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)
-### [Massaal factureren voor Microsoft Bookings](finance-bookings.md)
-### [Hetzelfde Microsoft 365-account gebruiken in Business Central en Microsoft Invoicing](about-reuse-company-invoicing.md)
-### [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)
-### [E-mail instellen](admin-how-setup-email.md)
+### E-mail instellen
+#### [E-mail instellen](admin-how-setup-email.md)
+#### Uw bedrijfsinbox instellen in Outlook 
+##### [Business Central gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)
+##### [Synchroniseren met contacten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Business Central gebruiken met Outlook](admin-no-outlook.md)
+### Rapporten instellen
+#### [Rapportselectie](across-report-selections.md)
+### Verbindingen instellen
+#### Business Central gebruiken als uw bedrijfsinbox in Outlook 
+##### [Overzicht](admin-outlook.md)
+##### [Synchroniseren met contacten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Business Central gebruiken met Outlook](admin-no-outlook.md)
+#### Microsoft Teams gebruiken met Business Central
+##### [Overzicht](across-teams-overview.md)
+##### [Teams-integratie beheren](admin-teams-integration.md)
+##### [Business Central-app voor teams installeren](across-install-app-for-teams.md)
+##### [Zoeken naar klanten, leveranciers en andere contacten](across-search-contacts-teams.md)
+##### [Werken met Business Central-gegevens in Teams](across-working-with-teams.md)
+##### [Bedrijf en andere instellingen wijzigen](across-teams-settings.md)
+##### [Veelgestelde vragen over Teams](teams-faq.md)
+##### [Problemen oplossen](admin-teams-troubleshooting.md)
+#### Power BI gebruiken met Business Central
+##### [Inleiding](admin-powerbi.md)
+##### Beheerder
+###### [Overzicht van integratie](admin-powerbi-overview.md)
+###### [Power BI-integratie mogelijk maken](admin-powerbi-setup.md)
+##### Ontwerper
+###### [Aan de slag met het maken van rapporten](across-how-use-financials-data-source-powerbi.md)
+###### [Rapporten maken voor het weergeven van lijstgegevens](across-how-use-powerbi-reports-factbox.md)
+##### Consument
+###### [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md)
+###### [Werken met Business Central-gegevens in Power BI](across-working-with-business-central-in-powerbi.md)
+###### [De Business Central-apps gebruiken in Power BI](across-powerbi-business-central-apps.md)
+#### Power Automate gebruiken met Business Central
+##### [Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)
+#### Power Apps gebruiken met Business Central
+##### [Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met Power Apps](across-how-use-financials-data-source-powerapps.md)
+#### [Overstappen van een QuickBooks-app naar Business Central](across-quickbooks-to-business-edition.md)
+#### [Massaal factureren voor Microsoft Bookings](finance-bookings.md)
+#### [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)
 ### [Nummerreeksen maken](ui-create-number-series.md)
-### [Rapportselectie](across-report-selections.md)
 ### [Basisagenda's instellen](across-how-to-assign-base-calendars.md)
+### [Printers instellen](ui-specify-printer-selection-reports.md)
+### [Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)
 
 ## Veelgestelde vragen
 ### [Veelgestelde vragen](across-faq.md)
@@ -290,7 +298,6 @@
 
 ## Help en ondersteuning
 ### [Bronnen voor Help en ondersteuning](product-help-and-support.md)
-### [Help-systeem](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 ### [Bezoek onze videobibliotheek](across-videos.md)
 ### [Technische ondersteuning](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
@@ -299,10 +306,10 @@
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
@@ -354,8 +361,7 @@
 ### [Toetsenbordsneltoetsen](keyboard-shortcuts.md)
 ### [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)
 ## [Problemen oplossen: toegang tot camera en locatie](ui-troubleshooting-camera-location.md)
-## [Uw toegang tot de Intelligente cloud met Business Central](about-intelligent-cloud.md)
-## [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)
+## [Intelligente inzichten (alleen online)](about-intelligent-cloud.md)
 # Bedrijfsfunctionaliteit
 ## [Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)
 <!--general-->
@@ -618,12 +624,12 @@
 ### [Artikelen categoriseren](inventory-how-categorize-items.md)
 ### [Werken met artikelkenmerken](inventory-how-work-item-attributes.md)
 ### [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md)
-### [Voorraad tellen met documenten](inventory-how-count-inventory-with-documents.md)
+### [Voorraad tellen en aanpassen met documenten](inventory-how-count-inventory-with-documents.md)
 ### [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)
 ### [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
 ### [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)
 ### [Artikelen reserveren](inventory-how-to-reserve-items.md)
-### [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)
+### [Artikelen traceren met serie-, partij- en pakketnummers](inventory-how-work-item-tracking.md)
 ### [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)
 ### [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)
 ### [Artikelen blokkeren](inventory-how-block-items.md)
@@ -865,34 +871,27 @@
 ##### [Aangiftesoorten instellen](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Intrastat-aangiftes van derden exporteren](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Bankieren en betalingen
-##### [Bankrekeningen instellen voor CODA](LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda.md)
-##### [CODA-afschriften vereffenen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
-##### [CODA-afschriften automatisch overbrengen en boeken](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
-##### [CODA-bankafschriften](LocalFunctionality/Belgium/coda-bank-statements.md)
-##### [Elektronisch bankieren voor België](LocalFunctionality/Belgium/belgian-electronic-banking.md)
-##### [Elektronisch bankieren instellen](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
+##### [Elektronisch bankieren (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Elektronische betalingen (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
 ##### [Exportprotocollen instellen](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
-##### [Belgische elektronische betalingen](LocalFunctionality/Belgium/belgian-electronic-payments.md)
-##### [IBLC-BLWI-transactiecodes instellen](LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)
+##### [Betalingsregels en dagboekregels samenvatten](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
 ##### [Leveranciers voor automatische betalingsvoorstellen instellen](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Betalingsdagboeksjablonen en -batches maken](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Elektronische betalingen testen](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Betalingsvoorstellen genereren](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-##### [CODA-afschriften importeren](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
-##### [Regels voor elektronische betalingen beheren](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
-##### [CODA-afschriften handmatig overbrengen en boeken](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
 ##### [Betalingsbestanden afdrukken](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [SEPA-betalingen](LocalFunctionality/Belgium/sepa-payments.md)
 ##### [SEPA-betalingen activeren](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
 ##### [SEPA-betalingen in andere valuta's dan de euro indienen](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
-##### [SEPA-betalingen indienen](LocalFunctionality/Belgium/how-to-file-sepa-payments.md)
 ##### [Incasso via domiciliëring](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
 ##### [Domiciliëringen instellen](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
 ##### [Domiciliëringsregels bewerken en verwijderen](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
 ##### [Domiciliëringen testen](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
 ##### [Domiciliëringen exporteren en boeken](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 ##### [Domiciliëringsvoorstellen genereren](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
-##### [Betalingsregels en dagboekregels samenvatten](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
+##### [CODA-bankafschriften](LocalFunctionality/Belgium/coda-bank-statements.md)
+##### [CODA-afschriften vereffenen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
+##### [CODA-afschriften automatisch overbrengen en boeken](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
+##### [CODA-afschriften handmatig overbrengen en boeken](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
+##### [CODA-afschriften importeren](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### Hoofdfinanciën
 ##### [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Financiële dagboeken maken](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -918,6 +917,8 @@
 
 ### Tsjechië
 #### [Lokale functionaliteit in de Tsjechische versie](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Kernlokalisatiepakket voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Geavanceerd lokalisatiepakket voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Hoofdfinanciën  
 ##### [Financiën](LocalFunctionality/Czech/finance.md)
 ##### [Werkzaamheden jaarafsluiting](LocalFunctionality/Czech/year-close-operations.md)
@@ -928,6 +929,7 @@
 ##### [Btw-controlerapport](LocalFunctionality/Czech/vat-control-report.md)
 #### Vast activum
 ##### [Vaste activa](LocalFunctionality/Czech/fixed-assets.md)
+##### [Lokalisatie van vaste activa voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankieren en betalingen
 ##### [Bankfunctie](LocalFunctionality/Czech/bank-feature.md)
 ##### [Kasbeheer](LocalFunctionality/Czech/cash-desk-management.md)
@@ -943,7 +945,6 @@
 #### Alge&meen
 ##### [Uitgebreide gebruikerscontrole](LocalFunctionality/Czech/general.md)
 ##### [Aanbevolen procedures](LocalFunctionality/Czech/best-practices.md)
-##### [Kernlokalisatiepakket voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Denemarken
 #### [Lokale functionaliteit in de Deense versie](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1126,6 +1127,16 @@
 ###### [GST E-Way Bill](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [Aanpassing van GST-inputkrediet](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [Btw-vereffening](LocalFunctionality/India/GST-Settelement.md)
+###### [GST E-factuur](LocalFunctionality/India/GST-E-Invoice.md)
+##### GST Cess
+###### [GST Cess-basisinstellingen](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [GST Cess-berekening](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### GST op servicebeheer
+###### [GST op servicebeheer](LocalFunctionality/India/GST-Service-Management.md)
+##### GST-invoerservicedistributie
+###### [Overzicht van GST-invoerservicedistributie](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
+###### [Proces van GST-invoerservicedistributie](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
+###### [Transactie van GST-invoerservicedistributie](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### TDS
 ##### [TDS-overzicht](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS-transacties](LocalFunctionality/India/TDS-Transactions.md)
@@ -1143,9 +1154,23 @@
 ##### [TCS-drempel](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS-aanpassingsinvoer](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS-betaling aan autoriteit](LocalFunctionality/India/TCS-Payment-to-Authority.md)
+##### [206C-1H-Overzicht](LocalFunctionality/India/TCS-206C-1H-Overview.md)
+##### [206C-1H-transactie](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Voucher-interface
 ##### [Overzicht voucher-interface](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Voucher-interfacetransactie](LocalFunctionality/India/Voucher-Interface-Transactions.md)
+#### Vast activum
+##### [Overzicht van vaste activa](LocalFunctionality/India/FA_Overview.md)
+##### [Afschrijving van vaste activa](LocalFunctionality/India/FA_Depreciation.md)
+#### Gate Entry
+##### [Gate Entry-overzicht](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
+##### [Gate Entry inkomende transactie](LocalFunctionality/India/Gate-Entry-Inward_Transactions.md)
+##### [Gate Entry uitgaande transactie](LocalFunctionality/India/Gate-Entry-Outward_Transactions.md)
+#### Uitbesteding
+##### [Overzicht van uitbesteding](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
+##### [Uitbestedingstransacties](LocalFunctionality/India/Subcontracting-Transactions.md)
+##### [GST-aansprakelijkheid creëren](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
+##### [Uitbestedingsrapport](LocalFunctionality/India/Subcontracting-Reports.md)
 
 ### Italië
 #### [Lokale functionaliteit in de Italiaanse versie](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1585,8 +1610,8 @@
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Essentiële zakelijke inzichten](ui-extensions-essential-business-insights.md)
 #### [Afbeeldingsanalyse](ui-extensions-image-analyzer.md)
-#### [Intelligente cloud](ui-extensions-data-replication.md)
-#### [Intelligente cloud Basis](ui-extensions-intelligent-cloud.md)
+#### [Extensies voor cloudmigratie](ui-extensions-data-replication.md)
+#### [Cloud-migratiebasis](ui-extensions-intelligent-cloud.md)
 #### [Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md)
 #### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
@@ -1622,7 +1647,7 @@
 ### [Migreren vanuit Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Migreren vanuit Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
 ### [Migreren vanuit Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Veelgestelde vragen over verbinding maken met de intelligente cloud](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+### [Veelgestelde vragen over migreren naar de cloud](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
 ## [Beheer van Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Ontwikkeling](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Beveiliging en bescherming](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
