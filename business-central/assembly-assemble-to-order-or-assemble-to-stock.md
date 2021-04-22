@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c9341e68ef47bbb2614db2b5c9db40bf6cac2403
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 80164400380a600674061349b873e5d1159d2cb3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380693"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773041"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Op voorraad assembleren of Op order assembleren begrijpen
 Assemblage-artikelen kunnen worden opgegeven in de volgende twee processen:  
@@ -72,8 +72,8 @@ Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoo
 
  In de volgende tabel worden de regels uitgelegd voor het definiëren van de minimum- en maximumwaarden die u handmatig in het veld **Te assembleren aantal** kunt invoeren wanneer u in een combinatiescenario wilt afwijken van de standaardwaarde. In de tabel wordt een combinatiescenario weergegeven waarbij het veld **Te verzenden aantal** op de gekoppelde verkooporderregel wordt gewijzigd van 7 in 4, waardoor **Te assembleren aantal** wordt ingesteld op de standaardwaarde 4.  
 
-|-|Verkooporderregel|Assemblageorderkop|  
-|-|----------------------|---------------------------|  
+|-|Verkooporderregel|Assemblageorderkop|||||||  
+|-|----------------------|---------------------------|-|-|-|-|-|-|  
 ||**Aantal**|**Te verzenden aantal**|**Aant. op order assembleren**|**Verzonden aantal**|**Aantal**|**Te assembleren aantal**|**Geassembleerde hoeveelheid**|**Resterend aantal**|  
 |Eerste|10|7|7|0|7|7|0|7|  
 |Wijzigen||4||||4 (standaard ingevoegd)|||  

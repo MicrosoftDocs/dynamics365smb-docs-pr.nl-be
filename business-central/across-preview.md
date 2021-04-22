@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379110"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777503"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Proefversies en abonnementen
 
@@ -27,7 +27,7 @@ U kunt zich [hier](https://go.microsoft.com/fwlink/?linkid=847861) aanmelden voo
 
 Afhankelijk van uw land of regio bevat de proefversie de talen en functionaliteit die uw land of regio vereist. Zie voor meer informatie [Taal en landinstelling wijzigen](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] zullen bepaalde dingen vertrouwd voor u zijn en andere dingen niet. Wanneer u zich voor de eerste keer aanmeldt bij het demonstratiebedrijf, krijgt u toegang tot een pagina Aan de slag met koppelingen naar video's die u op weg kunnen helpen. Zie voor meer informatie [Aan de slag met [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)] zullen bepaalde dingen vertrouwd voor u zijn en andere dingen niet. Wanneer u zich voor de eerste keer aanmeldt bij het demonstratiebedrijf, krijgt u toegang tot een pagina Aan de slag met koppelingen naar begeleide instellingen die u op weg kunnen helpen. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 Als u problemen ondervindt, kan de pagina [Veelgestelde Vragen](across-faq.md) u helpen enkele van uw vragen te beantwoorden. Als u zich niet kon aanmelden voor de proef, kan de pagina [Problemen met aanmelden voor zelfbediening oplossen](ui-troubleshoot-self-signup.md) helpen. U kunt ook contact opnemen met een [partner](across-faq.md#findpartner) en hen vragen om een gratis proefversie of een ander type preview van [!INCLUDE[prod_short](includes/prod_short.md)] voor u te maken.  
 
@@ -89,7 +89,7 @@ De beheerder van uw [!INCLUDE[prod_short](includes/prod_short.md)] en uw wederve
 
 ## <a name="see-also"></a>Zie ook
 
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Uw proefversie uitbreiden](admin-extend-trial.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Veelgestelde vragen](across-faq.md)  

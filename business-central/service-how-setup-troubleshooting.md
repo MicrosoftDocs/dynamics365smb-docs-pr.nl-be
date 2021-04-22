@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7fdbc30e20e7d5a8feeb17a97ccdee3688fa7607
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 214c83c4614a92a8cc94c7dc88efe527686ef397
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380418"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773692"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Troubleshooting voor serviceartikelen instellen
 U kunt richtlijnen voor troubleshooting opstellen waarmee technici problemen kunnen oplossen wanneer ze service bieden. Richtlijnen kunnen bijvoorbeeld uit een lijst met stappen bestaan om een herstelbewerking, een aantal vragen om over de artikelen te stellen, uit te voeren. Nadat u richtlijnen voor troubleshooting hebt opgesteld, kunt u deze toewijzen aan serviceartikelgroepen, serviceartikelen en artikelen. Voor richtlijnen bestaat een overnamehiërarchie. Als u deze toewijst aan een serviceartikelgroep, nemen de artikelen in de groep de richtlijnen over tenzij u aparte richtlijnen opgeeft voor de artikelen. Op dezelfde manier nemen serviceartikelen richtlijnen over van artikelen.  

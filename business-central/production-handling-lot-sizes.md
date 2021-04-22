@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4d119b5ea35ba41d658226f108f9bd14014ef644
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376749"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779394"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Omgaan met lotgroottes in productie
 In termen van hoeveelheid komt het aantal artikelen dat u in een productiebewerking produceert mogelijk niet overeen met hoe ze worden verkocht. U kunt bijvoorbeeld honderden artikelen in één lot produceren, maar elk artikel afzonderlijk verkopen. Wanneer u uw productieroutes en stuklijsten (BOM's) configureert, zijn er enkele nuances waarmee u rekening moet houden met betrekking tot lotgroottes. In dit onderwerp wordt beschreven hoe lotgroottes van invloed zijn op kostenberekeningen en resourceplanning.

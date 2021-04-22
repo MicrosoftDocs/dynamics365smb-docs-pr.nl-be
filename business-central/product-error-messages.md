@@ -1,17 +1,17 @@
 ---
-title: Waarschuwingen en foutmeldingen | Microsoft Docs
+title: Waarschuwingen en foutmeldingen
 description: Leer hoe u problemen kunt oplossen en oplossingen kunt vinden voor foutmeldingen wanneer u in Business Central werkt.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387185"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779494"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Waarschuwingen en foutmeldingen in Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ Tijdens uw werkdag ziet u mogelijk meldingen in [!INCLUDE [prod_short](includes/
 
 ## <a name="in-product-user-assistance"></a>Gebruikersassistentie in het product
 
-De standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] bevat beschrijvingen voor de meeste velden, kolommen en acties die toegankelijk zijn wanneer u de naam kiest. In combinatie met beschrijvende bijschriften en instructietekst vormt deze knopinfo, of toelichtingen, onze huidige implementatie van *ingebouwde gebruikersondersteuning*, wat een belangrijk principe is in de huidige wereld van softwareontwerp.  
+De standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] bevat beschrijvingen voor de meeste velden, kolommen en acties die toegankelijk zijn wanneer u de naam kiest. In combinatie met instructietips voor belangrijke pagina's, beschrijvende bijschriften en instructietekst vormt deze knopinfo, of toelichtingen, onze huidige implementatie van *ingebouwde gebruikersondersteuning*, wat een belangrijk principe is in de huidige wereld van softwareontwerp.  
 
 Als u een vraag hebt over een veld of een ander element van de gebruikersinterface, kies dan de naam en er verschijnt een korte beschrijving. Kies de koppeling *Meer informatie* als dat niet genoeg is.  
 
@@ -41,7 +41,7 @@ Als u een beheerder of superuser bent, kunt u anderen helpen door foutmeldingen 
 [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)  
 [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

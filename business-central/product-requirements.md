@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 01/08/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea421a1e4c1961bd5df2fac9a8112c9969f206ac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5273539fa1dfa3916443bc3e0bf21efb19a4571b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393686"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779469"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
 
@@ -23,32 +23,34 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 
 ## <a name="browsers"></a>Browsers
 
-### <a name="recommended-browsers"></a>Aanbevolen browsers
-
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van de nieuwe Microsoft Edge.  
-**Chrome voor Windows en Firefox voor Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van deze desktopbrowsers.  
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van de nieuwe Microsoft Edge.
+  
+**Chrome voor Windows en Firefox voor Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van deze desktopbrowsers. 
+ 
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van Safari onder macOS.  
-
-### <a name="other-supported-browsers"></a>Andere ondersteunde browsers
-
-**Microsoft Edge Legacy:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de oudere versie van Microsoft Edge, maar we raden u aan om over te schakelen naar de nieuwe Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met Internet Explorer 11 (build 11.0.9600.17239) voor Windows 10 (32-bits en 64-bits versies). Het is raadzaam te upgraden naar de nieuwste versie van Internet Explorer die wordt ondersteund door uw versie van Windows. U kunt ook de nieuwe Microsoft Edge gebruiken en toch toegang krijgen tot andere websites die Internet Explorer vereisen. Zie voor meer informatie de [documentatie van Microsoft Edge](/deployedge/edge-ie-mode).
-
-> [!IMPORTANT]
-> Vanaf april 2021 worden Internet Explorer 11 en Microsoft Edge Legacy niet langer ondersteund. We raden u aan om zo snel mogelijk over te schakelen naar een van de aanbevolen moderne browsers.
 
 ## <a name="mobile-devices"></a>Mobiele apparaten
 
-**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] voor Windows kan worden geïnstalleerd op apparaten met ten minste 1 GB RAM en Windows 10 Home, Pro, Enterprise of Education (32-bits en 64-bits versies).  
-**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] voor iPad en iPhone vereist iOS 10.0 of later.  
-**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] voor Android-tablet en Android-telefoon kan worden geïnstalleerd op apparaten met ten minste 1 GB RAM en Android 6.0 of hoger.  
-**Apparaatgrootte:** [!INCLUDE[prod_short](includes/prod_short.md)] wordt ondersteund op smartphones met een minimale schermgrootte van 4 inch en tablets met een minimale schermgrootte van 7 inch.  
+**Windows:** Windows 10 S, Home, Pro, Enterprise of Education (32-bits en 64-bits edities).
 
+**Android (tablet en telefoon):** Een van de laatste drie grote versies en hun updates.
+
+**iOS (iPad en iPhone):** Een van de laatste drie grote versies en hun updates.
+
+<!--
+
+**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
+**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] for iPad and iPhone requires iOS 10.0 or later.  
+**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1 GB of RAM and Android 6.0 or higher.  
+**Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smart phones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
+-->
 ## <a name="outlook"></a>Outlook
 
-**Outlook-toepassingen:** als u [!INCLUDE[prod_short](includes/prod_short.md)] online wilt gebruiken als uw zakelijke Postvak IN in Outlook, hebt u Outlook 2019 of hoger, Outlook op het web, Outlook voor iPhone, Outlook voor iPad of Outlook voor Android nodig. Uw organisatie moet ook Microsoft 365 gebruiken. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt.  
-**Browsers:** Wanneer u [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt als uw zakelijke Postvak IN in Outlook in een browser, is het voor de invoegtoepassing nodig dat op uw computer een van de ondersteunde browsers is geïnstalleerd die eerder in dit artikel zijn vermeld.  
-**Platforms:** Wanneer u de Outlook-invoegtoepassing [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt in Outlook voor iPhone, Outlook voor iPad of Outlook voor Android, moet op uw mobiele apparaat een van de vermelde ondersteunde mobiele apparaten voor [!INCLUDE[prod_short](includes/prod_short.md)] worden uitgevoerd.  
+**Outlook-toepassingen**: als u [!INCLUDE[prod_short](includes/prod_short.md)] online wilt gebruiken als uw zakelijke Postvak IN in Outlook, hebt u Outlook 2019 of hoger, Outlook op het web, Outlook voor iOS of Outlook voor Android nodig. Uw organisatie moet ook Microsoft 365 gebruiken. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt. 
+ 
+**Browsers:** Wanneer u [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt als uw zakelijke Postvak IN in Outlook in een browser, is het voor de invoegtoepassing nodig dat op uw computer een van de ondersteunde browsers is geïnstalleerd die eerder in dit artikel zijn vermeld. 
+ 
+**Platforms:** wanneer u de [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-invoegtoepassing gebruikt in Outlook voor iOS of Outlook voor Android, moet op uw mobiele apparaat een van de vermelde ondersteunde mobiele apparaten voor [!INCLUDE[prod_short](includes/prod_short.md)] worden uitgevoerd.  
 
 ## <a name="teams"></a>Teams
 
@@ -73,12 +75,11 @@ Het beheercentrum is ontworpen om te werken met de huidige versie van de volgend
 
 ## <a name="using-business-central-on-premises"></a>Business Central on-premises gebruiken
 
-Als u Business Central on-premises wilt implementeren, moet u de systeemvereisten controleren. Zie voor meer informatie [Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17) en [Implementatieoverzicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Als u Business Central on-premises wilt implementeren, moet u de systeemvereisten controleren. Zie voor meer informatie [Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) en [Implementatieoverzicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>Zie ook
 
-[Aan de slag](product-get-started.md)  
-[Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
-
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 03/09/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573438"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778630"
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
 
@@ -27,7 +27,7 @@ Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes inst
 
 ## <a name="adding-new-customers"></a>Nieuwe klanten toevoegen
 
-Als u een nieuwe klant wilt registreren, moet u een klantenkaart invullen. U kunt sjablonen maken voor verschillende klantprofielen of u kunt klanten zonder sjablonen toevoegen.  
+Als u een nieuwe klant wilt registreren, moet u een klantenkaart invullen. U kunt sjablonen maken voor verschillende klantprofielen of u kunt klanten zonder sjablonen toevoegen. U kunt ook een klant maken op basis van een contact. Zie voor meer informatie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 > [!NOTE]  
 > Als er klantsjablonen voor verschillende klantsoorten bestaan, wordt een pagina weergegeven wanneer u een nieuwe klantenkaart maakt waar u een geschikte sjabloon kunt selecteren. Als er slechts één klantensjabloon bestaat, gebruiken nieuwe klantenkaarten altijd deze sjabloon.  

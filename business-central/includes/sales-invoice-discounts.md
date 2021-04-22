@@ -2,16 +2,16 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 01/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 539ee2eb2c9e4a71eacfb78d95320870128fb1d9
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 95121642b62f33ea1fc160c103ee845816706530
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470299"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778659"
 ---
-Wanneer alle artikelen op de orderregels zijn ingevoerd, kunt u de factuurkorting voor het hele document berekenen door de actie **Factuurkorting berekenen** te kiezen.
+Wanneer alle artikelen als regels zijn ingevoerd, kunt u de factuurkorting voor het hele verkoopdocument berekenen door de actie **Factuurkorting berekenen** te kiezen.
 
 De korting wordt berekend op basis van alle regels in het verkoopdocument voor artikelen waarvan het veld **Factuurkorting toestaan** op de verkooporderregel **Ja** bevat. Dit is de standaardinstelling voor artikelen. Regels met artikeltoeslagen worden bijvoorbeeld niet meegenomen in de berekening van de factuurkorting. Als u op dergelijke regels een korting wilt toepassen, moet u het veld **Regelkorting %** instellen op de relevante regels.  
 

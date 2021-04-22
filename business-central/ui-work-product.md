@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393586"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772141"
 ---
 # <a name="working-with-prod_short"></a>Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
@@ -61,18 +61,18 @@ Hier volgt een korte video van hoe u werkt in [!INCLUDE[prod_short](includes/pro
 
 ## <a name="choosing-a-desktop-browser"></a>Een desktopbrowser kiezen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt meerdere browsers die elk verschillende functies en mogelijkheden bieden. De browser speelt een belangrijke rol in het reactievermogen en de soepelheid van de gebruikersinterface. Zie de lijst met ondersteunde, aanbevolen browsers voor [Business Central online](https://go.microsoft.com/fwlink/?linkid=2110804) en browsers voor [Business Central on-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
+[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt meerdere browsers die elk verschillende functies en mogelijkheden bieden. De browser speelt een belangrijke rol in het reactievermogen en de soepelheid van de gebruikersinterface. Zie de lijst met ondersteunde, aanbevolen browsers voor [Business Central online](./product-requirements.md) en browsers voor [Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
 - Vermijd waar mogelijk oudere browsers zoals Internet Explorer en schakel over naar een van onze aanbevolen moderne browsers, zoals de [nieuwe Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer wordt nog steeds ondersteund, maar aangezien de nieuwe Microsoft Edge-browser nu beschikbaar is voor Windows Server zien we een afnemend gebruik voor Internet Explorer. U kunt ook [een pilot van Microsoft Edge in IE-modus krijgen](https://www.microsoft.com/edge/business). Zie voor meer informatie de [documentatie van Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer wordt niet langer ondersteund. Zie voor meer informatie de [documentatie van Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Houd uw browser altijd bijgewerkt naar de nieuwste versie.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Business Central instellen](setup.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Prestatietips voor zakelijke gebruikers](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

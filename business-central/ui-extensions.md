@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493290"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771351"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online aanpassen met extensies
 
@@ -79,6 +79,27 @@ Microsoft biedt de volgende extensies:
 > [!NOTE]  
 > U kunt op de hoogte blijven van nieuwe extensies van Microsoft en andere leveranciers op [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+
+## <a name="extensions-and-data-transfer"></a>Extensies en gegevensoverdracht
+
+Aangezien de volgende extensies communiceren met andere services, kunnen ze gegevens uit de geografie van de [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving overdragen:
+
+* AMC Banking 365 Fundamentals-extensie
+* Afbeeldingsanalyse
+* Voorspelling van te late betaling
+* PayPal Payments Standard
+* Verkoop- en voorraadprognose
+* WorldPay Payments Standard
+
+Dit geldt ook voor bepaalde functionaliteit in de basistoepassing, zoals de volgende mogelijkheden:
+
+* Cashflowprognose
+* Documentuitwisselingsservice
+* Dataverse-verbindingen
+* OCR-service
+* Online Map
+* EU btw-nummers Service
+
 ## <a name="see-also"></a>Zie ook
 
 [Business Central aanpassen](ui-customizing-overview.md)  
@@ -88,7 +109,7 @@ Microsoft biedt de volgende extensies:
 [Bedrijfsgegevens migreren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [De extensie GetAddress.io UK Postcode instellen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Extensies door andere providers](ui-extensions-other.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

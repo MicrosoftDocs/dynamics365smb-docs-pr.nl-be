@@ -1,5 +1,5 @@
 ---
-title: Gebruikers maken op basis van licenties | Microsoft Docs
+title: Gebruikers maken volgens licenties
 description: Beschrijft hoe u gebruikers aan Business Central Online of on-premises kunt toevoegen op basis van licenties.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc6a32653d443d45a8cb037be275ff84e449ca02
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 852eb61a479f03b61c648904e2179168a5c18001
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573363"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774498"
 ---
 # <a name="create-users-according-to-licenses"></a>Gebruikers maken volgens licenties
 
 Dit artikel beschrijft hoe beheerders gebruikers maken en definiëren wie zich kunnen aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)] en welke machtigingen worden gegeven aan verschillende gebruikerstypen volgens de licenties.
 
-Wanneer u gebruikers maakt in [!INCLUDE[prod_short](includes/prod_short.md)], kunt u hen specifieke machtigingen toewijzen via machtigingensets en gebruikers in gebruikersgroepen indelen. Gebruikersgroepen maken het gemakkelijker om toestemmingen voor meerdere gebruikers tegelijkertijd te beheren. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie. 
+Wanneer u gebruikers maakt in [!INCLUDE[prod_short](includes/prod_short.md)], kunt u hen specifieke machtigingen toewijzen via machtigingensets en gebruikers in gebruikersgroepen indelen. Gebruikersgroepen maken het gemakkelijker om toestemmingen voor meerdere gebruikers tegelijkertijd te beheren. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.  
 
-Voor meer informatie over de verschillende soorten licenties en hoe licenties werken in [!INCLUDE[prod_short](includes/prod_short.md)] raadpleegt u de Dynamics 365 Licensing Guide, die u kunt downloaden van [https://go.microsoft.com/fwlink/?LinkId=866544](https://go.microsoft.com/fwlink/?LinkId=866544).
+Voor meer informatie over de verschillende soorten licenties en hoe licenties werken in [!INCLUDE[prod_short](includes/prod_short.md)] [downloadt u de Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 > [!NOTE]
 > Het proces van het beheren van gebruikers en licenties is afhankelijk van of [!INCLUDE[prod_short](includes/prod_short.md)] online of on-premises wordt geïmplementeerd. Voor [!INCLUDE [prod_short](includes/prod_short.md)] online moet u gebruikers toevoegen vanuit Microsoft 365. In on-premises implementaties kunt u rechtstreeks gebruikers maken, bewerken en verwijderen.  
@@ -34,7 +34,7 @@ In de online versie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt het
 
 Om te bepalen wie zich kan aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)], moet u productlicenties toewijzen aan gebruikers op basis van de rollen die zij zullen vervullen in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit kan op de volgende manieren worden gedaan:
 
-- De Microsoft 365-beheerder van uw bedrijf kan dit doen in het [Microsoft 365-beheercentrum](https://admin.microsoft.com). Zie voor meer informatie [Gebruikers afzonderlijk of in bulk toevoegen aan Microsoft 365](https://aka.ms/CreateOffice365Users).  
+- De Microsoft 365-beheerder van uw bedrijf kan dit doen in het [Microsoft 365-beheercentrum](https://admin.microsoft.com). Zie voor meer informatie [Gebruikers afzonderlijk of in bulk toevoegen aan Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - Een Microsoft-partner kan licenties toewijzen in het Microsoft 365-beheercentrum of in het Microsoft Partner Center. Zie voor meer informatie [Gebruikersbeheertaken voor klantaccounts](/partner-center/assign-licenses-to-users) in de Microsoft Partner Center Help.
 
 Zie voor meer informatie [Beheer van Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in de Help voor beheerders.
@@ -44,7 +44,7 @@ Nadat u gebruikers heeft toegevoegd of gebruikersinformatie heeft gewijzigd in h
 
 1. Meld u met een beheerdersaccount aan bij [!INCLUDE[prod_short](includes/prod_short.md)].
 2. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.  
-3. Kies **Gebruikers bijwerken vanuit Office 365**.
+3. Kies **Gebruikers bijwerken vanuit Microsoft 365**.
 
 Als u nieuwe gebruikers toevoegt, is de volgende stap het toewijzen van gebruikersgroepen en machtigingen. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie. Als u gebruikersinformatie bijwerkt en de update een licentiewijziging omvat, worden de gebruikers toegewezen aan de juiste gebruikersgroep en worden hun machtigingensets bijgewerkt. Zie [Machtigingen beheren via gebruikersgroepen](ui-define-granular-permissions.md) voor meer informatie.  
 
@@ -62,15 +62,15 @@ Bij online implementaties kunt u de toegang van een gebruiker tot [!INCLUDE[prod
 
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.
 2. Open de pagina **Gebruikerskaart** voor de relevante gebruiker en selecteer in het veld **Status** de optie **Uitgeschakeld**.
-3. Als u de gebruiker weer toegang wilt geven, stelt u het veld **Staat** in op **Ingeschakeld**.
+3. Als u de gebruiker weer toegang wilt geven, stelt u het veld **Status** in op **Ingeschakeld**.
 
-U kunt de licentie ook verwijderen van een gebruiker in het Microsoft 365-beheercentrum. De gebruiker kan zich dan niet meer aanmelden. Zie voor meer informatie [Licenties van gebruikers verwijderen](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+U kunt de licentie ook verwijderen van een gebruiker in het Microsoft 365-beheercentrum. De gebruiker kan zich dan niet meer aanmelden. Zie voor meer informatie [Licenties van gebruikers verwijderen](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synchronisatie met Microsoft 365
 
 Wanneer u een licentie voor [!INCLUDE[prod_short](includes/prod_short.md)] toewijst aan een gebruiker in Microsoft 365, zijn er twee manieren om de gebruiker te maken in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-- De beheerder kan de gebruiker toevoegen door de actie **Gebruikers bijwerken vanuit Office 365** te kiezen op de pagina **Gebruikers** zoals beschreven in de sectie [Een gebruiker toevoegen of gebruikersgegevens bijwerken in Business Central](#adduser).
+- De beheerder kan de gebruiker toevoegen door de actie **Gebruikers bijwerken vanuit Microsoft 365** te kiezen op de pagina **Gebruikers** zoals beschreven in de sectie [Een gebruiker toevoegen of gebruikersgegevens bijwerken in Business Central](#adduser).
 - De licentie-informatie wordt automatisch bijgewerkt wanneer de gebruiker zich voor de eerste keer aanmeldt.
 
 In beide gevallen wordt automatisch een aantal instellingen gemaakt. Deze worden vermeld in de tweede en derde kolom in de onderstaande tabel.
@@ -78,13 +78,13 @@ In beide gevallen wordt automatisch een aantal instellingen gemaakt. Deze worden
 Als u gebruikersgegevens wijzigt in Microsoft 365, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] bijwerken om de verandering te weerspiegelen. Gebruik een van de acties op de pagina **Gebruikers**, afhankelijk van wat u wilt bijwerken. Deze acties worden beschreven in de laatste drie kolommen in de onderstaande tabel.
 
 > [!NOTE]
-> De acties die in de volgende tabel worden beschreven, zijn nauwkeurig, maar de enige die u nodig heeft, is **Gebruikers bijwerken vanuit Office 365**, die is toegevoegd om het proces te vereenvoudigen. De andere acties worden verwijderd in een toekomstige versie van [!INCLUDE[prod_short](includes/prod_short.md)].
+> De acties die in de volgende tabel worden beschreven, zijn correct, maar de enige die u nodig heeft, is **Gebruikers bijwerken vanuit Microsoft 365**, die is toegevoegd om het proces te vereenvoudigen. De andere acties worden verwijderd in een toekomstige versie van [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Wat gebeurt er wanneer:|Eerste gebruiker, eerste aanmelding|Gebruikers ophalen uit Microsoft 365|Gebruikers bijwerken vanuit Microsoft 365|Standaardgebruikersgroepen van gebruiker herstellen|Gebruikersgroepen vernieuwen|Gebruikersgegevens bijwerken vanuit Microsoft 365|
 |-|-|-|-|-|-|-|
 |Bereik:|Huidige gebruiker|Nieuwe gebruikers in Microsoft 365|Meerdere geselecteerde gebruikers|Eén geselecteerde gebruiker (behalve huidige)|Meerdere geselecteerde gebruikers|Meerdere geselecteerde gebruikers|
 |Maak de nieuwe gebruiker en wijs SUPER-machtigingenset toe.<br /><br /><!--Platform-->|**X**||**X** | | | |
-|Werk de gebruiker bij op basis van informatie in Microsoft 365: Staat, Volledige naam, Contact-e-mail, E-mailadres voor verificatie.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
+|Werk de gebruiker bij op basis van informatie in Microsoft 365: Status, Volledige naam, Contact-e-mail, E-mailadres voor verificatie.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
 |Synchroniseer gebruikersplannen (licenties) met toegewezen licenties en rollen in Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
 |Voeg de gebruiker toe aan gebruikersgroepen volgens de huidige gebruikersplannen. Verwijder de SUPER-machtigingenset voor alle gebruikers behalve de eerste gebruiker die zich aanmeldt en [beheerders](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Er is ten minste één SUPER nodig.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Verwijdert handmatig toegewezen gebruikersgroepen en machtigingen.|**X**<br /><br />Werk gebruikersgroepstoewijzingen bij.| |
 
@@ -110,11 +110,11 @@ Gebruikers met de apparaatlicentie kunnen de volgende taken niet uitvoeren in [!
 4. Voer op de pagina **Grondbeginselen** **Dynamics 365 Business Central-apparaatgebruikers** als de naam van de groep in.
   
    >[!NOTE]
-   >De naam van de groep moet precies in het Engels worden gespeld zoals weergegeven in stap 4, zelfs als u een andere taal gebruikt.
+   >De naam van de groep moet precies in het Engels worden gespeld zoals weergegeven in stap 4, zelfs als u een andere taal gebruikt. Als u de naam van de groep uit een document, zoals een pdf, heeft gekopieerd, controleer dan of de naam geen extra spaties bevat.
 5. Kies de knop **Sluiten**.
 
 > [!NOTE]
-> U kunt ook een groep maken van het type Microsoft 365. Zie [Groepen vergelijken](https://docs.microsoft.com/office365/admin/create-groups/compare-groups) voor meer informatie
+> U kunt ook een groep maken van het type Microsoft 365. Zie [Groepen vergelijken](/microsoft-365/admin/create-groups/compare-groups) voor meer informatie
 
 ### <a name="to-add-members-to-the-group"></a>Leden toevoegen aan de groep
 
@@ -155,7 +155,7 @@ Voor on-premises implementaties maakt de beheerder gebruikers rechtstreeks op de
 [Aanpassen [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Beheer](admin-setup-and-administration.md)  
-[Gebruikers toevoegen aan Microsoft 365 voor bedrijven](https://aka.ms/CreateOffice365Users)  
+[Gebruikers toevoegen aan Microsoft 365 voor bedrijven](/microsoft-365/admin/add-users/add-users)  
 [Beveiliging en bescherming in Business Central (beheerinhoud)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 
 

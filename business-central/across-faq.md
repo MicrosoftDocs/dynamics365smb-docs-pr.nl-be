@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
-ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
+ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5498574"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776159"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Veelgestelde vragen over het gebruik van Business Central
 
@@ -44,8 +44,9 @@ Dit heeft betrekking op [!INCLUDE [prod_short](includes/prod_short.md)] online e
 
 Als de mogelijkheid is gepubliceerd als een extensie in AppSource, is er ook een vertraging tussen de extensieaankondiging en de beschikbaarheid ervan in AppSource. Dit heeft alleen betrekking op [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
-## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Zijn er verschillen tussen een on-premises implementatie en de cloudversie van Business Central?
-Ja. Sommige cloudgebaseerde functies kunnen in bepaalde gevallen on premises worden uitgevoerd en andere worden helemaal niet ondersteund. Zie voor meer informatie [Functies die niet zijn geïmplementeerd in on-premises implementaties van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-business-central-online"></a>Zijn er verschillen tussen een on-premises implementatie en Business Central online?
+
+Ja. [!INCLUDE [prod_short](includes/prod_short.md)] is geoptimaliseerd voor online implementatie en sommige mogelijkheden kunnen alleen onder bepaalde omstandigheden op locatie worden uitgevoerd, terwijl andere helemaal niet worden ondersteund. Zie voor meer informatie [Functies die niet zijn geïmplementeerd in on-premises implementaties van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (alleen beschikbaar in het Engels).
 
 ## <a name="can-i-get-training-in-prod_short"></a>Kan ik training krijgen in [!INCLUDE[prod_short](includes/prod_short.md)]?
 Ja, dat kan. U vindt gratis eLearning-inhoud op de [Microsoft Learn-site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). U kunt uw wederverkoper ook om extra training vragen. Zie de sectie [Hoe vind ik een partner-reseller?](#findpartner) als u niet weet wie dat is.  
@@ -60,12 +61,23 @@ Aanvullend materiaal vindt u in de [!INCLUDE[prod_short](includes/prod_short.md)
 
 Zie de secties [Help en ondersteuning](product-help-and-support.md) en [Hoe vind ik een partner-reseller?](#findpartner) voor meer informatie.  
 
-## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Waarom beschrijft de Help functionaliteit waartoe ik geen toegang heb?
-Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
-
 ## <a name="where-is-the-save-button"></a>Waar is de knop Opslaan?
 
-Er is geen knop *Opslaan* op pagina's zoals in andere programma's waarmee u mogelijk vertrouwd bent. In [!INCLUDE[prod_short](includes/prod_short.md)] worden wijzigingen die u aanbrengt in een veld, automatisch opgeslagen zodra u naar het volgende veld gaat of de pagina sluit, zo lang er geen fouten zijn. Wanneer u wijzigingen in een veld aanbrengt en naar een ander veld gaat, ziet u de tekst **Opslaan** in de rechterbovenhoek van de pagina, wat snel verandert in **Opgeslagen** als er geen fouten optreden. Als er een fout is opgetreden, wordt de tekst gewijzigd in **Niet opgeslagen**.
+Er is geen knop *Opslaan* op pagina's zoals in andere programma's waarmee u mogelijk vertrouwd bent. In [!INCLUDE[prod_short](includes/prod_short.md)] worden wijzigingen die u aanbrengt in een veld, automatisch opgeslagen zodra u naar het volgende veld gaat of de pagina sluit, zo lang er geen fouten zijn. Wanneer u wijzigingen in een veld aanbrengt en naar een ander veld gaat, ziet u de tekst **Opslaan** in de rechterbovenhoek van de pagina, wat snel verandert in **Opgeslagen** als er geen fouten optreden. Als er een fout is opgetreden, wordt de tekst gewijzigd in **Niet opgeslagen**.  
+
+## <a name="where-do-i-find-that-line-number"></a>Waar vind ik dat regelnummer?
+
+Documenten zoals verkooporders of inkoopfacturen bestaan uit kopteksten en regels. Elke regel heeft een nummer dat [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt om deze specifieke regel te identificeren. Als gevolg hiervan ziet u mogelijk een waarschuwing of een foutmelding dat er iets mis is in regelnummer 1000, bijvoorbeeld. In de standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] zijn regelnummers verborgen. Als u de regelnummers wilt zien, moet u de huidige pagina personaliseren en het veld **Regelnr.** veld. Zie [Uw werkruimte personaliseren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.  
+
+
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Waarom beschrijft de Help functionaliteit waartoe ik geen toegang heb?
+Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Waarom is nieuwe informatie niet beschikbaar in mijn taal?
+
+Op de docs.microsoft.com-site wordt inhoud over bedrijfsfunctionaliteit in een aantal talen gepubliceerd. De inhoud is geschreven in het Engels en gepubliceerd op URL's met *en-us* als de taalcode. Wanneer nieuwe informatie in het Engels wordt gepubliceerd, wordt deze verzonden voor vertaling in de ondersteunde talen. Dit betekent dat u deze nieuwe inhoud maximaal 4 weken niet in uw eigen taal kunt lezen.  
+
+We begrijpen de problemen die dit kan veroorzaken en we moedigen gebruikers aan om in het Engels te zoeken naar wat ze zoeken als ze het niet in hun eigen taal kunnen vinden.  
 
 ## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Welk e-mailadres kan ik gebruiken voor [!INCLUDE[prod_short](includes/prod_short.md)] online?
 
@@ -80,7 +92,7 @@ Nee. Maar als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt uitproberen 
 
 Als het account waarmee u zich aanmeldt, een niet-Microsoft 365-werkaccount is (bijvoorbeeld joe@mysolution.com) en u een Microsoft 365-abonnement hebt, kunt u uw domein (*mysolution.com*) koppelen aan het abonnement op Microsoft 365. Zie voor meer informatie [Wat is een domein?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in de Microsoft 365-inhoud.  
 
-Als u geen abonnement op Microsoft 365 hebt en u er geen wilt aanschaffen, leveren we u, als u zich aanmeldt, een Azure Active Directory-tenant, zodat u toegang hebt tot de Azure Portal, waar u gebruik kunt maken van geavanceerde beheertools.  
+Als u geen abonnement op Microsoft 365 hebt en u er geen wilt aanschaffen, leveren we u, als u zich aanmeldt, een nieuwe Azure Active Directory-tenant, zodat u toegang hebt tot de geavanceerde beheertools in de Azure Portal.  
 
 ## <a name="what-is-the-integration-with-microsoft-365-about"></a>Waar gaat de integratie met Microsoft 365 over?
 [!INCLUDE[prod_short](includes/prod_short.md)] online is volledig geïntegreerd met Microsoft 365 zodat u vrij kunt navigeren tussen Microsoft 365-toepassingen en [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[prod_short](includes/prod_short.md)] in Outlook bijvoorbeeld. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] als uw bedrijfsinbox gebruiken in Outlook](admin-outlook.md).  
@@ -104,7 +116,7 @@ Dit is een beetje ingewikkeld, maar uw beheerder heeft waarschijnlijk uw toegewe
 Ja, maar afhankelijk van de wijze waarop u zich hebt aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], kunnen uw gegevens worden verwijderd of bewaard. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md) annuleren.  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Kan ik multifactorverificatie gebruiken?
-Ja. Als u dat doet, hebt u mogelijk een app-wachtwoord nodig om e-mailberichten te verzenden. App-wachtwoorden geven een app of apparaat toegang tot uw e-mailaccount. De stappen voor het ophalen van een app-wachtwoord variëren, afhankelijk van uw e-mailprovider. Zie de Help van uw provider voor meer informatie. Als u bijvoorbeeld Outlook gebruikt, raadpleegt u [Multifactorverificatie voor Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Ja. Als u dat doet, hebt u mogelijk een app-wachtwoord nodig om e-mailberichten te verzenden. App-wachtwoorden geven een app of apparaat toegang tot uw e-mailaccount. De stappen voor het ophalen van een app-wachtwoord variëren, afhankelijk van uw e-mailprovider. Zie de Help van uw provider voor meer informatie. Als u bijvoorbeeld Outlook gebruikt, raadpleegt u [Multifactorverificatie voor Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hoe vind ik een partner-reseller?
 
@@ -116,23 +128,13 @@ Als u advies van Microsoft wilt, kunt u contact opnemen met het [Microsoft Sales
 
 Uw partner-reseller zal ook technische ondersteuning regelen. Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.  
 
-## <a name="where-do-i-find-that-line-number"></a>Waar vind ik dat regelnummer?
-
-Documenten zoals verkooporders of inkoopfacturen bestaan uit kopteksten en regels. Elke regel heeft een nummer dat [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt om deze specifieke regel te identificeren. Als gevolg hiervan ziet u mogelijk een waarschuwing of een foutmelding dat er iets mis is in regelnummer 1000, bijvoorbeeld. In de standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] zijn regelnummers verborgen. Als u de regelnummers wilt zien, moet u de huidige pagina personaliseren en het veld **Regelnr.** veld. Zie [Uw werkruimte personaliseren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.  
-
-## <a name="why-is-new-information-not-available-in-my-language"></a>Waarom is nieuwe informatie niet beschikbaar in mijn taal?
-
-Op de docs.microsoft.com-site wordt inhoud over bedrijfsfunctionaliteit in een aantal talen gepubliceerd. De inhoud is geschreven in het Engels en gepubliceerd op URL's met *en-us* als de taalcode. Wanneer nieuwe informatie in het Engels wordt gepubliceerd, wordt deze verzonden voor vertaling in de ondersteunde talen. Dit betekent dat u deze nieuwe inhoud maximaal 4 weken niet in uw eigen taal kunt lezen.  
-
-We begrijpen de problemen die dit kan veroorzaken en we moedigen gebruikers aan om in het Engels te zoeken naar wat ze zoeken als ze het niet in hun eigen taal kunnen vinden.  
-
 ## <a name="is-the-windows-client-supported"></a>Wordt de Windows-client ondersteund?
 
 De eerste releases van [!INCLUDE[prod_short](includes/prod_short.md)] on premises omvatte een geïnstalleerde client afgeleid van Microsoft Dynamics NAV. Vanaf 2019 releasewave 2 zal dit oudere onderdeel, 'de Windows-client' genoemd, niet langer beschikbaar zijn voor [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Veelgestelde vragen over de Windows Client en Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Zie ook
 
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Veelgestelde vragen over Vertel me](ui-search-faq.md)  
 [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)  
 [Veelgestelde vragen over lijstweergaven](ui-views-faq.md)  

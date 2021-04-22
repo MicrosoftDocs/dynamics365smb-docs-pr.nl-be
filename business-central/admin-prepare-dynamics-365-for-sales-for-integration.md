@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 02633c21025fe13b3cb781d8750d7c839640289c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385386"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777358"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integreren met Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -71,11 +71,11 @@ Voer de volgende gegevens in voor de verbinding van [!INCLUDE[crm_md](includes/c
 |--|--|
 | **Dynamics 365 Sales-URL** | De URL van uw [!INCLUDE[crm_md](includes/crm_md.md)]-exemplaar. Hierdoor kunnen gebruikers in [!INCLUDE[prod_short](includes/prod_short.md)] bijbehorende records openen vanuit records in [!INCLUDE[crm_md](includes/crm_md.md)], zoals een account of product. De [!INCLUDE[prod_short](includes/prod_short.md)]-records worden geopend in [!INCLUDE[prod_short](includes/prod_short.md)]. |
 |**Dynamics 365 Sales-URL**|De URL van uw [!INCLUDE[crm_md](includes/crm_md.md)]-exemplaar. Hierdoor kunnen gebruikers in [!INCLUDE[prod_short](includes/prod_short.md)] bijbehorende records openen vanuit records in [!INCLUDE[crm_md](includes/crm_md.md)], zoals een account of product. De [!INCLUDE[prod_short](includes/prod_short.md)]-records worden geopend in [!INCLUDE[prod_short](includes/prod_short.md)].|
-|**Webservice Artikelbeschikbaarheid ingeschakeld**|Zorg dat personen die [!INCLUDE[crm_md](includes/crm_md.md)] gebruiken de beschikbaarheid van producten (artikelen) in voorraad in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen bekijken. Als u dit inschakelt, moet u ook een gebruikersnaam en een toegangssleutel opgeven die de [!INCLUDE[crm_md](includes/crm_md.md)] moet gebruiken om bij de OData webservice te vragen naar beschikbaarheid van (artikelen). Zie voor meer informatie [OData-webservices](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
+|**Webservice Artikelbeschikbaarheid ingeschakeld**|Zorg dat personen die [!INCLUDE[crm_md](includes/crm_md.md)] gebruiken de beschikbaarheid van producten (artikelen) in voorraad in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen bekijken. Als u dit inschakelt, moet u ook een gebruikersnaam en een toegangssleutel opgeven die de [!INCLUDE[crm_md](includes/crm_md.md)] moet gebruiken om bij de OData webservice te vragen naar beschikbaarheid van artikelen (producten). Zie voor meer informatie [OData-webservices](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**URL van Dynamics 365 Business Central OData-webservice**|Als u de webservice Artikelbeschikbaarheid inschakelt, wordt de URL van de OData-webservice voor u verschaft. Stel dit veld in op de URL van het te gebruiken [!INCLUDE[prod_short](includes/prod_short.md)]-exemplaar.<br /><br /> Als u het veld opnieuw wilt instellen op de standaard-URL voor de [!INCLUDE[prod_short](includes/prod_short.md)], kiest u de actie **Webclient-URL opnieuw instellen**.<br /><br /> Dit veld is alleen van belang als de [!INCLUDE[prod_short](includes/prod_short.md)]-integratieoplossing is geïnstalleerd in [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Gebruikersnaam van Dynamics 365 Business Central OData-webservice**|De naam van het gebruikersaccount dat de [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid in [!INCLUDE[prod_short](includes/prod_short.md)] op te halen met de OData-webservice.|
 |**Toegangssleutel van Dynamics 365 Business Central OData-webservice**|De toegangssleutel voor het gebruikersaccount dat de [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid uit [!INCLUDE[prod_short](includes/prod_short.md)] op te halen met de OData-webservice. De sleutel wordt toegewezen aan de gebruiker die is gekozen in het veld **Gebruikersnaam van Dynamics 365 Business Central OData-webservice**. Als u de sleutel wilt krijgen, kiest u de knop **Opzoekwaarde** naast de gebruikersnaam, kiest u de gebruiker, kiest u **Beheren** en klikt u vervolgens op **Bewerken**. Kies op de gebruikerskaart **Acties**, **Verificatie** en kies vervolgens **Sleutel van webservice wijzigen**|
-|**Dynamics 365 SDK-versie**|Als u integreert met een on-premises versie van [!INCLUDE[crm_md](includes/crm_md.md)], is dit de Dynamics 365-softwareontwikkelingskit (ook Xrm genoemd) die u gebruikt om [!INCLUDE[prod_short](includes/prod_short.md)] te verbinden met [!INCLUDE[crm_md](includes/crm_md.md)]. De versie die u selecteert moet compatibel zijn met de SDK-versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)]. Deze versie is gelijk aan of nieuwer dan de versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)].|-->
+|**Dynamics 365 SDK-versie**|Als u integreert met een on-premises versie van [!INCLUDE[crm_md](includes/crm_md.md)], is dit de Dynamics 365-softwareontwikkelingskit (ook Xrm genoemd) die u gebruikt om [!INCLUDE[prod_short](includes/prod_short.md)] te verbinden met [!INCLUDE[crm_md](includes/crm_md.md)]. De versie die u selecteert moet compatibel zijn met de SDK-versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)]. Deze versie is gelijk aan of nieuwer dan de versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 Voer naast de bovenstaande instellingen de volgende instellingen in voor [!INCLUDE[crm_md](includes/crm_md.md)].
 
@@ -110,7 +110,7 @@ In de volgende tabel staat de standaardtoewijzing tussen tabellen in [!INCLUDE[p
 
 ### <a name="synchronization-rules"></a>Synchronisatieregels
 
-De volgende tabel beschrijft de regels die de synchronisatie tussen de [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)] bepalen. Deze komen boven op de regels die zijn gedefinieerd voor Dataverse, die ook van toepassing zijn. Zie [Standaardentiteitstoewijzing](/dynamics365/business-central/admin-synchronizing-business-central-and-sales?branch=master-cds-crm#standard-table-mapping-for-synchronization) voor meer informatie.
+De volgende tabel beschrijft de regels die de synchronisatie tussen de [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)] bepalen. Deze komen boven op de regels die zijn gedefinieerd voor Dataverse, die ook van toepassing zijn. Zie [Standaardentiteitstoewijzing](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization) voor meer informatie.
 
 > [!NOTE]  
 > Wijzigingen in gegevens die zijn gemaakt door het integratiegebruikersaccount, worden niet gesynchroniseerd. Daarom raden we aan dat u geen gegevens wijzigt terwijl u dat account gebruikt. Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
@@ -128,7 +128,7 @@ De volgende tabel beschrijft de regels die de synchronisatie tussen de [!INCLUDE
 
 ### <a name="synchronization-jobs-for-a-sales-integration"></a>Synchronisatietaken voor een Sales-integratie
 
-De taken worden uitgevoerd in de volgende volgorde om koppelingsafhankelijkheden tussen tabellen te voorkomen. Er zijn extra banen beschikbaar vanaf Dataverse. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+De taken worden uitgevoerd in de volgende volgorde om koppelingsafhankelijkheden tussen tabellen te voorkomen. Er zijn extra banen beschikbaar vanaf Dataverse. Zie voor meer informatie [Taakwachtrijen gebruiken om taken te plannen](./admin-job-queues-schedule-tasks.md).
 
 1. MAATEENHEID - Dynamics 365 Sales-synchronisatietaak  
 2. RESOURCE-PRODUCT - Dynamics 365 Sales-synchronisatietaak  
@@ -154,12 +154,22 @@ De volgende tabel beschrijft de standaardsynchronisatietaken voor Sales.
 ## <a name="connecting-business-central-on-premises-versions-earlier-than-version-16"></a>Verbinding maken met Business Central On-Premises-versies ouder dan versie 16
 Het Microsoft Power Platform-team heeft [bekend gemaakt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) dat het Office365-verificatietype wordt afgeschaft. Als u een versie van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt die ouder is dan versie 16, moet u het OAuth-verificatietype gebruiken om verbinding te maken met [!INCLUDE[crm_md](includes/crm_md.md)] online. In de stappen in deze sectie wordt beschreven hoe u de verbinding tot stand brengt.
 
-### <a name="requirements"></a>Vereisten
-U moet een Microsoft Azure-abonnement hebben. Een proefaccount werkt voor registratie van de toepassing.
+### <a name="prerequisites"></a>Vereisten
+
+- U moet een Microsoft Azure-abonnement hebben. Een proefaccount werkt voor registratie van de toepassing.
+- [!INCLUDE[crm_md](includes/crm_md.md)] is geconfigureerd om een van de volgende verificatietypen te gebruiken:
+
+   - Office365 (oud)
+
+     > [!IMPORTANT]
+     > Met ingang van april 2022 wordt Office365 (oud) niet langer ondersteund. Zie voor meer informatie [Belangrijke veranderingen (afschrijvingen) die aanstaande zijn in Power Apps, Power Automate en apps voor klantbetrokkenheid](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+
+   - OAuth
 
 ### <a name="to-connect-a-version-of-business-central-earlier-than-version-16"></a>Verbinding maken met Business Central On-Premises-versies ouder dan versie 16
+
 1. Importeer de Microsoft Dynamics 365 Business Central-integratieoplossing in uw [!INCLUDE[crm_md](includes/crm_md.md)]-omgeving. De integratieoplossing is beschikbaar in de map CrmCustomization op uw Business Central-installatie-dvd. Er zijn meerdere versies van de oplossing, zoals DynamicsNAVIntegrationSolution_v8 of DynamicsNAVIntegrationSolution_v9 of DynamicsNAVIntegrationSolution_v91. Welke oplossing u moet importeren, is afhankelijk van de versie van [!INCLUDE[crm_md](includes/crm_md.md)] waarmee u verbinding maakt. [!INCLUDE[crm_md](includes/crm_md.md)] online vereist de DynamicsNAVIntegrationSolution_v91-integratieoplossing.
-2. Maak een niet-interactieve integratiegebruiker in uw [!INCLUDE[crm_md](includes/crm_md.md)]-omgeving en wijs de gebruiker de volgende beveiligingsrollen toe. Zie voor meer informatie [Een niet-interactief gebruikersaccount maken](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+2. Maak een niet-interactieve integratiegebruiker in uw [!INCLUDE[crm_md](includes/crm_md.md)]-omgeving en wijs de gebruiker de volgende beveiligingsrollen toe. Zie voor meer informatie [Een niet-interactief gebruikersaccount maken](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
    * Dynamics 365 Business Central-integratiebeheerder
    * Dynamics 365 Business Central-integratiegebruiker
@@ -167,7 +177,7 @@ U moet een Microsoft Azure-abonnement hebben. Een proefaccount werkt voor regist
    > [!Important]
    > Deze gebruiker mag niet de beveiligingsrol Systeembeheerder hebben. U kunt het systeembeheerdersaccount ook niet gebruiken als integratiegebruiker.
 
-3.  Maak in de Azure Portal een app-registratie voor [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor de stappen [Een toepassing registreren in Azure Active Directory](/business-central/dev-itpro/administration/register-app-azure?branch=live#register-an-application-in-azure-active-directory). De instellingen die specifiek zijn voor het verbinden met [!INCLUDE[crm_md](includes/crm_md.md)], zijn de gedelegeerde machtigingen. De volgende tabel bevat en beschrijft de machtigingen.
+3.  Maak in de Azure Portal een app-registratie voor [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor de stappen [Een toepassing registreren in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). De instellingen die specifiek zijn voor het verbinden met [!INCLUDE[crm_md](includes/crm_md.md)], zijn de gedelegeerde machtigingen. De volgende tabel bevat en beschrijft de machtigingen.
 
    |API-/machtigingsnaam |Soort  |Omschrijving  |
    |---------|---------|---------|
@@ -193,7 +203,7 @@ U moet een Microsoft Azure-abonnement hebben. Een proefaccount werkt voor regist
 9. Schakel de verbinding in.
 
 > [!Note]
-> Als u een verbinding met een [!INCLUDE[crm_md](includes/crm_md.md)]-exemplaar wilt configureren met een bepaald verificatietype, vult u de velden op het sneltabblad **Gegevens van verificatietype** in. Zie voor meer informatie [Verbindingstekenreeken in XRM tooling gebruiken om verbinding te maken met Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). Deze stap is niet vereist wanneer u verbinding maakt met een online versie van [!INCLUDE[prod_short](includes/prod_short.md)].
+> Als u een verbinding met een [!INCLUDE[crm_md](includes/crm_md.md)]-exemplaar wilt configureren met een bepaald verificatietype, vult u de velden op het sneltabblad **Gegevens van verificatietype** in. Zie voor meer informatie [Verificatie met Microsoft Dataverse-webservices](/powerapps/developer/data-platform/authentication). Deze stap is niet vereist wanneer u verbinding maakt met een online versie van [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="see-also"></a>Zie ook
 

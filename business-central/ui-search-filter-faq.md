@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 11/16/2020
+ms.date: 04/01/2021
 ms.author: mikebc
-ms.openlocfilehash: debbf621795564344f11609236b2faac397c6762
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7ed2b43a1269e97e22de78ff3c6a9a1e0666eb3a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386811"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772241"
 ---
 # <a name="searching-and-filtering-faq"></a>Veelgestelde vragen over zoeken en filteren
 In dit artikel worden veelgestelde vragen beantwoord over zoeken en filteren.
@@ -59,7 +59,7 @@ Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende ge
 [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

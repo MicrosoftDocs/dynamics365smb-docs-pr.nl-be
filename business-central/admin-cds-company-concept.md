@@ -8,24 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378735"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773348"
 ---
 # <a name="data-ownership-models"></a>Modellen voor gegevenseigendom
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] vereist dat u een eigenaar opgeeft voor de gegevens die u opslaat. Zie voor meer informatie [Entiteiteigendom](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) in de Power Apps-documentatie. Wanneer u integratie instelt tussen [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)] , moet u een van de twee eigendomsmodellen kiezen voor records die worden gesynchroniseerd:
-
-* Team 
-* Persoon (gebruiker)
-
-Acties die op deze records kunnen worden uitgevoerd, kunnen op gebruikersniveau worden beheerd. Zie voor meer informatie [Gebruikers- en teamtabellen](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). We raden het teameigendomsmodel aan, omdat het beheer van eigendom voor meerdere mensen gemakkelijker maakt.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] vereist dat u een eigenaar opgeeft voor de gegevens die u opslaat. Zie voor meer informatie [Typen tabellen](/powerapps/maker/data-platform/types-of-entities) in de Power Apps-documentatie. Wanneer u integratie instelt tussen [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)], moet u het eigendomsmodel **Gebruiker of team** kiezen voor records die worden gesynchroniseerd. Acties die op deze records kunnen worden uitgevoerd, kunnen op gebruikersniveau worden beheerd. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## <a name="team-ownership"></a>Teameigendom
 In [!INCLUDE[prod_short](includes/prod_short.md)] is een bedrijf een juridische en zakelijke entiteit die manieren biedt om bedrijfsgegevens te beveiligen en te visualiseren. Gebruikers werken altijd in de context van een bedrijf. [!INCLUDE[prod_short](includes/cds_long_md.md)] komt hier het dichtst bij in de buurt met de entiteit bedrijfsunit, die geen juridische of zakelijke implicaties heeft.

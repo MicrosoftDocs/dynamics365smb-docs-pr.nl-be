@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493340"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774167"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Afschrijvingsmethoden voor vaste activa
 
@@ -154,16 +154,16 @@ Berekeningsmethode:
 
 De formule voor het berekenen van de afschrijvingsbedragen luidt als volgt:  
 
-*DA* = *BV* x (1 – (1 –P)<sup>D<sup> 
+*AB* = *BW* x (1 – (1 –P)<sup>D</sup>)
 
 De afschrijvingswaarden zijn:  
 
 | Datum | Berekening |
 | --- | --- |
-| 06/30/20 |AB = 100.000,00 x (1 -(1 - 0,25)<sup>0,5<sup>) = 13.397,46 |
-| 12/31/20 |AB = 86.602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11.602,54 |
-| 06/30/21 |AB = 75.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
-| 12/31/21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8.701,91 |
+| 06/30/20 |AB = 100.000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 13.397,46 |
+| 12/31/20 |AB = 86.602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11.602,54 |
+| 06/30/21 |AB = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
+| 12/31/21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
 
 ## <a name="db1sl-depreciation"></a>BW1/Lineaire afschrijving
 
@@ -205,7 +205,7 @@ De VA-posten zien er als volgt uit:
 
 Berekeningsmethode:  
 
-* Jaar 1:  
+* Jaar 1 (2020):  
 
     *Boekwaarde-afschrijvingsbedrag: 25% van 100.000 = 25.000 = 12.500 + 12.500*  
 
@@ -370,10 +370,10 @@ Als u een post boekt in B1 in het financieel dagboek voor vaste activa en het ve
 
 ## <a name="see-also"></a>Zie ook
 
-[Vast activum](fa-manage.md)  
+[Vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

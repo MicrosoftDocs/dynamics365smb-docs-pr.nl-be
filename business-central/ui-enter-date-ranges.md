@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381227"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773542"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
 
@@ -76,7 +76,7 @@ Voer voor vandaag in de taal die is ingesteld door **Taal**, het woord in waarme
 
 ### <a name="period"></a>Periode
 
-Als u wilt filteren op een specifieke boekingsperiode, voert u in een datumveld de letter p of het woord periode in, gevolgd door een nummer dat de boekingsperiode aangeeft, zoals p2 of periode4. De boekhoudperiode is relatief aan het boekjaar van de huidige werkdatum die u instelt in uw rolcentrum. Als de werkdatum bijvoorbeeld **21.3.20** is, wordt met p1 of alleen p gefilterd op de eerste boekingsperiode van het boekjaar 2020 (bijvoorbeeld 1.1.20..31.1.20). Met p15 wordt gefilterd op de vijftiende boekingsperiode vanaf het begin van het boekjaar 2020 (bijvoorbeeld 1.3.21..31.3.21).
+Als u wilt filteren op een specifieke boekingsperiode, voert u in een datumveld de letter p of het woord periode in, gevolgd door een nummer dat de boekingsperiode aangeeft, zoals p2 of periode4. De boekhoudperiode is relatief aan het boekjaar van de huidige werkdatum die u instelt in uw rolcentrum. Als de werkdatum bijvoorbeeld **21/3/22** is, wordt met p1 of alleen p gefilterd op de eerste boekingsperiode van het boekjaar 2022 (bijvoorbeeld 01/01/22..01/31/22). Met p15 wordt gefilterd op de vijftiende boekingsperiode vanaf het begin van het boekjaar 2022 (bijvoorbeeld 03/01/23..03/31/23).
 
 De boekhoudperioden worden gedefinieerd op de pagina **Boekingsperioden**. Als u de boekingsperioden wilt weergeven of wijzigen, opent u de pagina [hier](https://businesscentral.dynamics.com/?page=100).
 
@@ -102,12 +102,12 @@ De volgende tabel bevat voorbeelden van datums met alle indelingen. Er wordt uit
 
 |**Invoer**      |**Interpretatie**      |
 |---------------|------------------------|
-|2018.12.31.|31.12.2018.|
-|181231|31.12.2018.|
-|18.12.31.|31.12.2018.|
-|18.12.31.|31.12.2018.|
-|20181231|31.12.2018.|
-|18/12,31|31.12.2018.|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|jaar van werkdatum.maand van werkdatum.11.|
 |1112|jaar van werkdatum.11.12.|
 |h of huidige datum|datum van vandaag|
@@ -194,7 +194,7 @@ In het volgende voorbeeld ziet u hoe u een minteken gebruikt om een datum in het
 |-1J|1 jaar geleden vanaf vandaag|
 
 > [!IMPORTANT]
->  Als de vestiging een basisagenda gebruikt, wordt de datumformule die u invoert in dit veld, bijvoorbeeld het veld **Verzendtijd** beschouwd als agendawerkdag. Bijvoorbeeld: 1W betekent zeven werkdagen.
+> Als de vestiging een basisagenda gebruikt, wordt de datumformule die u invoert in dit veld, bijvoorbeeld het veld **Verzendtijd** beschouwd als agendawerkdag. Bijvoorbeeld: 1W betekent zeven werkdagen.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -315,35 +315,8 @@ U kunt 24:00 niet voor middernacht gebruiken of een waarde groter dan 24:00 gebr
 Het woord voor 'tijd' in de taal die [!INCLUDE[prod_short](includes/prod_long.md)] gebruikt, wordt geëvalueerd als de huidige tijd op uw computer of mobiele apparaat. U kunt elk deel van het woord invoeren, beginnend bij het begin, zoals t of TIJ.
 
 ## <a name="entering-combined-dates-and-times"></a>Gecombineerde datums en tijden invoeren
-Wanneer u een datumtijd invoert (een datum en een tijd gecombineerd tot één veld), moet u een spatie invoeren tussen de datum en de tijd. Het datumdeel kan alleen spaties in de vorm van het officiële datumscheidingsteken van uw regio-instellingen bevatten. De tijd kan spaties bevatten rond de AM/PM-indicator.
 
-Het is ook mogelijk alleen een datum in een datumtijdveld in te voeren, maar u kunt niet alleen een tijd invoeren.
-
-In de volgende tabel staan enkele voorbeelden van datum/tijd-combinaties. Met de regio-instellingen in de voorbeelden worden datums weergegeven in de notatie dag\-maand\-jaar, met AM/PM-indicatoren, Engelse taal en zondag als begin van de week.
-
-|**Invoer**      |**Interpretatie**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|08.01.2016 17:48:12|
-|131202 132455|13.12.2002 13:24:55|
-|1-12-02 10|01.12.2002 10:00:00|
-|1.12.02 5|01.12.2002 05:00:00|
-|1.12.02|01.12.2002 00:00:00|
-|11 12|11.werkdatummaand.werkdatumjaar 12:00:00|
-|1112 12|11.12.werkdatumjaar 12:00:00|
-|h of huidige datum|huidige datum 00:00:00|
-|h 10:30|huidige datum 10:30:00|
-|h 3:3:3|huidige datum 03:03:03|
-|w of werkdatum|de werkdatum 00:00:00|
-|ma of maandag|Maandag van de werkdatumweek 00:00:00|
-|di of dinsdag|Dinsdag van de werkdatumweek 00:00:00|
-|za of zaterdag|Zaterdag van de werkdatumweek 00:00:00|
-|z of zondag|Zondag van de werkdatumweek 00:00:00|
-|di 10:30|Dinsdag van de werkdatumweek 10:30:00|
-|di 3:3:3|Dinsdag van de werkdatumweek 03:03:03|
-|d23 t|Dinsdag van week 23 van het werkdatumjaar huidige tijd van dag|
-|d23|Dinsdag van week 23 van het werkdatumjaar|
-|d 23|Vandaag 23:00:00|
-|d-1|Dinsdag van week 1 van het werkdatumjaar|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Duur invoeren
 Sommige velden in toepassingsmodule vertegenwoordigen een duur of hoeveelheid verstreken tijd, in plaats van een specifieke datum of tijd. De duur moet worden ingevoerd als een getal gevolgd door de eenheid.

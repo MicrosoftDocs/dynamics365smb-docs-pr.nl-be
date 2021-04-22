@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c9d267df2fb58da3b4a7aa1505030c9510bdf4f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1ccada415d506193e52ac37981252a47e6088971
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386111"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777178"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Contacten in Business Central synchroniseren met contacten in Microsoft Outlook
 U kunt in [!INCLUDE[prod_short](includes/prod_short.md)] dezelfde contactpersonen zien als in Outlook als u synchronisatie van contactpersonen instelt. Als u bijvoorbeeld een verkoper bent, doet u mogelijk werk in Outlook en werk in [!INCLUDE[prod_short](includes/prod_short.md)]. Als de contactpersonen op beide plaatsen hetzelfde zijn, is uw werk eenvoudiger.  
@@ -32,15 +32,15 @@ Wanneer deze synchronisatie is ingesteld, worden wijzigingen die u in de contact
 Elk van uw collega's kan tevens hun eigen Exchange-synchronisatie instellen en hun eigen filter instellen op basis waarvan contactpersonen worden gesynchroniseerd.  
 
 ## <a name="synchronize-contacts"></a>Contactpersonen synchroniseren
-Als u gewend bent met contactpersonen te werken in [!INCLUDE[prod_short](includes/prod_short.md)], is het gemakkelijk de synchronisatie handmatig wanneer het u uitkomt te starten vanuit de lijst **Contactpersonen**. Kies gewoon de actie **Synchroniseren met Office 365** en beslis of u het filter wilt wijzigen dat u hebt ingesteld. Wanneer u OK kiest, begint de synchronisatie direct en worden de nieuwste wijzigingen toegepast op uw contactpersonen in Outlook.  
+Als u gewend bent met contactpersonen te werken in [!INCLUDE[prod_short](includes/prod_short.md)], is het gemakkelijk de synchronisatie handmatig wanneer het u uitkomt te starten vanuit de lijst **Contactpersonen**. Kies gewoon de actie **Synchroniseren met Microsoft 365** en beslis of u het filter wilt wijzigen dat u hebt ingesteld. Wanneer u OK kiest, begint de synchronisatie direct en worden de nieuwste wijzigingen toegepast op uw contactpersonen in Outlook.  
 
 In de lijst **Contactpersonen** kunt u contactpersonen op twee manieren synchroniseren:
 
-* **Synchroniseren met Office 365**
+* **Synchroniseren met Microsoft 365**
 
   Deze actie synchroniseert alle wijzigingen sinds de vorige synchronisatie vanuit [!INCLUDE[prod_short](includes/prod_short.md)] naar Microsoft 365, op basis van de datum van laatste wijziging. Nieuwe contactpersonen vanuit Microsoft 365 worden ook terug gesynchroniseerd naar [!INCLUDE[prod_short](includes/prod_short.md)]. Dit gaat meestal sneller dan een hele synchronisatie.  
 
-* **Volledig synchroniseren met Office 365**
+* **Volledig synchroniseren met Microsoft 365**
 
   Deze actie synchroniseert alle contacten in beide richtingen, ongeacht de datum van laatste synchronisatie en laatste wijziging.  
 
@@ -49,7 +49,7 @@ In beide gevallen worden contacten alleen gesynchroniseerd vanuit Outlook als ze
 In Outlook worden de contacten uit [!INCLUDE[prod_short](includes/prod_short.md)] weergegeven in een map onder **Overige contactpersonen** in de weergave **Mensen**. Als u niet vertrouwd bent met de weergave Mensen in Outlook, kunt u erheen gaan vanuit de navigatieopties in de linkerbenedenhoek van Outlook.  
 
 ## <a name="see-also"></a>Zie ook
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Financiën](finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

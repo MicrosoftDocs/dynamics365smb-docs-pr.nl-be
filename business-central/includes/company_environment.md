@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dcfc54d36b212b296747d28945324ac46c38cada
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fa7e5a51696c149e66da0d76cf1042c5e8f7e7e3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753629"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776408"
 ---
 Mensen ondersteunen soms meer dan één bedrijf en moeten gemakkelijk kunnen overschakelen van het ene naar het andere bedrijf in [!INCLUDE [prod_short](prod_short.md)]. Een bedrijf kan bijvoorbeeld verkoopkantoren hebben in steden en meerdere landen/regio's, dus heeft het voor elk kantoor een afzonderlijke bedrijfseenheid gemaakt. De kantoren in hetzelfde land/regio zijn opgezet als aparte bedrijven in een gedeelde omgeving. Andere kantoren zijn gemaakt als bedrijven in afzonderlijke omgevingen omdat ze geografisch gevestigd zijn in andere landen/regio's.<br><br>  
 

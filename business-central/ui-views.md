@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 04a7040f23304408fb30d65590663de43d447cd4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392441"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772184"
 ---
 # <a name="save-and-personalize-list-views"></a>Lijstweergaven opslaan en personaliseren
 Wanneer u een filter op een lijst hebt ingesteld en u het filter voor later wilt bewaren, kunt u het opslaan als een weergave. Zie voor meer informatie over het filteren van lijsten [Filters instellen op lijsten](ui-enter-criteria-filters.md#setting-filters-on-lists).

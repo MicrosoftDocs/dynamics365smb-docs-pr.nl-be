@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7dad6212361eaebc4e08cc2c638a84c41850e9d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385086"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776459"
 ---
 # <a name="changing-language-and-region"></a>Taal en regio-instellingen wijzigen
 
@@ -39,7 +39,7 @@ Regio is iets anders dan taal en wettelijke vereisten in lokale markten. Regio-i
 U kunt de regio-instellingen wijzigen op het browsertabblad dat u gebruikt om te werken in [!INCLUDE[prod_short](includes/prod_short.md)]. De wijziging geldt alleen voor u, niet voor de andere gebruikers in uw bedrijf.  De regiokeuze wordt teruggezet naar uw instelling in uw Microsoft 365-profiel als uw beheerder gebruikers synchroniseert van Microsoft 365 naar [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
->  Wanneer u de regio-instellingen wijzigt, wordt er een lange lijst met talen en regio's weergegeven. De taal wordt echter niet beïnvloed door de keuze van de regio.  
+> Wanneer u de regio-instellingen wijzigt, wordt er een lange lijst met talen en regio's weergegeven. De taal wordt echter niet beïnvloed door de keuze van de regio.  
 
 Als u de regio wilt wijzigen, gaat u naar de pagina **Mijn instellingen**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
@@ -48,19 +48,21 @@ Als u de regio wilt wijzigen, gaat u naar de pagina **Mijn instellingen**. Zie v
 Op de pagina **Help en ondersteuning** ziet u op welke versie van [!INCLUDE[prod_short](includes/prod_short.md)] uw bedrijf is gebaseerd. Als u een bedrijf een andere basis wilt geven, kan de systeembeheerder een nieuwe productieomgeving maken. Zie [Een nieuwe productieomgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) voor meer informatie.  
 
 ## <a name="languages-of-the-prod_short-help"></a>Talen van de [!INCLUDE[prod_short](includes/prod_short.md)] Help
+
 De helpinhoud voor de kernfunctionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] publiceert naar de Microsoft Docs-site en is beschikbaar in een aantal verschillende talen. Als u toegang tot de documenten hebt vanuit [!INCLUDE[prod_short](includes/prod_short.md)], wordt de inhoud in uw taal weergegeven. Als een bepaalde pagina nog niet beschikbaar in uw taal is, blijft deze in het Engels worden weergegeven.
 
-### <a name="how-do-i-change-the-language"></a>Hoe kan de ik de taal veranderen?
+### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Hoe verander ik de taal van de Microsoft Docs-site?
+
 Het is eenvoudig: schuif naar de onderzijde van de browserpagina en kies het wereldbolsymbool in de linkerbenedenhoek.
 
 > [!NOTE]  
-> De lijst bevat alle talen die door de Microsoft Docs-site worden ondersteund. [!INCLUDE[prod_short](includes/prod_short.md)] is beschikbaar in een beperkt aantal landen/regio's, maar de Helpinhoud is beschikbaar gemaakt in meer talen. Echter, de Helpinhoud is niet beschikbaar in alle talen die de Microsoft Docs-site ondersteunt.
+> De lijst bevat alle talen die door de Microsoft Docs-site worden ondersteund. [!INCLUDE[prod_short](includes/prod_short.md)] is beschikbaar in een beperkt aantal landen/regio's en de [!INCLUDE [prod_short](includes/prod_short.md)] Help-inhoud is niet beschikbaar in alle talen die de Microsoft Docs-site ondersteunt.
 
 ## <a name="see-also"></a>Zie ook
 
-[Resources voor Help en Ondersteuning](product-help-and-support.md)  
+[Bronnen voor Help en ondersteuning](product-help-and-support.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
