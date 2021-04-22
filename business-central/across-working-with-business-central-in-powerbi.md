@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6c53fa5aeb615db809887ae96d51101789c312e3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384161"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786919"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Werken met [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens in Power BI
 
-In dit artikel leert u enkele basisbeginselen kennen van het werken met rapporten en dashboards in Power BI, dat gebruikmaakt van [!INCLUDE [prod_short](includes/prod_short.md)] als gegevensbron. In het artikel worden enkele aspecten besproken die u op weg helpen als [!INCLUDE[prod_short](includes/prod_short.md)]-gebruiker. Raadpleeg voor algemene richtlijnen en instructies voor het gebruik van Power BI de [Power BI-documentatie voor consumenten](https://review.docs.microsoft.com/en-us/power-bi/consumer).
+In dit artikel leert u enkele basisbeginselen kennen van het werken met rapporten en dashboards in Power BI, dat gebruikmaakt van [!INCLUDE [prod_short](includes/prod_short.md)] als gegevensbron. In het artikel worden enkele aspecten besproken die u op weg helpen als [!INCLUDE[prod_short](includes/prod_short.md)]-gebruiker. Raadpleeg voor algemene richtlijnen en instructies voor het gebruik van Power BI de [Power BI-documentatie voor consumenten](/power-bi/consumer).
 
 ## <a name="get-ready"></a>Bereid u voor
 
@@ -89,7 +89,7 @@ Als u een rapport wilt delen, selecteert u in een lijst met rapporten of in een 
 [Snelle start: verbinding maken met uw gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-documentatie](/power-bi/)  
 [Bedrijfsinformatie](bi.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  

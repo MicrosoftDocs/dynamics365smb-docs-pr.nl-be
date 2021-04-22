@@ -1,5 +1,5 @@
 ---
-title: Business Central Intelligente cloud-extensies voor Cloudmigratie | Microsoft Docs
+title: Extensies voor cloudmigratie
 description: Gebruik de cloudmigratie-extensies om uw on-premises gegevens naar Business Central online te migreren. Deze extensies verplaatsen uw on-premises gegevens naar de cloud, zodat u Business Central online kunt gebruiken met uw bestaande gegevens.
 author: jenolson
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d6110744f14cb959494e2fd5c9b970bd339a77f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f02face497affd1fd1467c118e10e69f2be39b85
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377360"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889136"
 ---
-# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligente cloud-extensies voor cloudmigratie
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Cloudmigratie-extensies voor migratie naar Business Central Online
 
 Afhankelijk van uw on-premises oplossing moet u verschillende extensies gebruiken om uw gegevens te verbinden met [!INCLUDE[prod_short](includes/prod_short.md)] online om uw oplossing naar de cloud te migreren.  
 
@@ -43,8 +43,7 @@ Als u Dynamics SL gebruikt, verkrijgt u de extensie **Intelligente cloud Basis**
 
 ## <a name="see-also"></a>Zie ook
 
-[Intelligente inzichten](about-intelligent-cloud.md)  
-[Extensie Intelligente cloud Basis](ui-extensions-intelligent-cloud.md)  
-
+[Extensie Cloud-migratiebasis](ui-extensions-intelligent-cloud.md)  
+[On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

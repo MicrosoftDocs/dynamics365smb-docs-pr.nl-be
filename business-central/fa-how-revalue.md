@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a2d6e2a115c39045f0a0d6221df0f74d8b3c7ace
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c17aec818a65aef9e298b40301142cbb40715306
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381100"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782345"
 ---
 # <a name="revalue-fixed-assets"></a>Vaste activa herwaarderen
 De herwaardering van vaste activa kan bestaan uit waardevermeerderingen, waardeverminderingen of algemene waardecorrecties.
@@ -117,10 +117,10 @@ Als u het selectievakje **Afschrijving tot VA-boekingsdatum** niet hebt ingescha
 *Totale afschrijving = 100 +15 + 55,54 = LV 170,54*
 
 ## <a name="see-also"></a>Zie ook
-[Vast activum](fa-manage.md)  
+[Vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

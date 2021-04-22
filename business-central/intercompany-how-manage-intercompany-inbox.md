@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a17970d78077e23bd176da6926d5406c7194dc9d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 17c9c5202f7a7f7dae6a9eee14109c608db14c46
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390186"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786310"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>De intercompany-inbox en outbox beheren
 Alle IC-transacties die u via elektronische weg ontvangt van uw IC-partners, worden weergegeven in de IC-inbox.  

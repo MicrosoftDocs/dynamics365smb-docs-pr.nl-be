@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d2b00766cb01a41678b3e39f361e550de8cf8132
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 626e023d97c869d9d0fe63346053ecb42120a0ee
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391986"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782746"
 ---
 # <a name="calculate-bin-replenishment"></a>Opslaglocatieaanvulling berekenen
 Als de vestiging is ingesteld voor het gebruik van gestuurde opslag en pick, worden de prioriteiten van de opslagsjabloon voor de vestiging in aanmerking genomen wanneer de ontvangsten worden opgeslagen. Prioriteiten omvatten de minimale en maximale aantallen van de opslaglocatie-inhoud die zijn vastgesteld voor een bepaalde opslaglocatie en de zonevolgordes. Dus als er in een rustig tempo artikelen worden afgeleverd, worden de meestgebruikte opslaglocaties gevuld met de artikelen.  

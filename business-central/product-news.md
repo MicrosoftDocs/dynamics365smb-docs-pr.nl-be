@@ -1,30 +1,30 @@
 ---
-title: Nieuw in Business Central | Microsoft Docs
-description: Hoe u het laatste nieuws en updates krijgt uit Business Central.
+title: Nieuw en gepland in de standaardversie
+description: Lees waar u het laatste nieuws en updates voor de standaardversie van Business Central kunt vinden.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 51fc33167fdd4cc86859048041896fc27ebeff8d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 563c7bba28fec8d8bf7c212410227c1fb32c8b59
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388453"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788064"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Nieuw en gepland voor Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
-U kunt altijd het releaseplan raadplegen voor een overzicht van nieuwe en aankomende functionaliteit. Hier in de documentatie vindt u vervolgens onderwerpen die u kunnen helpen meer te weten te komen over nieuwe en bestaande functies in [!INCLUDE[prod_long](includes/prod_long.md)]. 
+U kunt altijd het releaseplan raadplegen voor een overzicht van nieuwe en aankomende functionaliteit. Hier in de documentatie vindt u vervolgens onderwerpen die u kunnen helpen meer te weten te komen over nieuwe en bestaande functies in de standaardversie van [!INCLUDE[prod_long](includes/prod_long.md)].  
 
 De volgende lijst bevat informatie over de nieuwste versies van [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+* [Releasewave 1 van 2021](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
 * [Releasewave 2 van 2020](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
 * [Releasewave 1 van 2020](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
-* [Releasewave 2 van 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/planned-features)  
 
 U kunt ook de site [Dynamics 365 Business Central-mogelijkheden](https://dynamics.microsoft.com/business-central/capabilities/) en de site [Dynamics 365 Business Central-routekaart](https://dynamics.microsoft.com/roadmap/business-central/) bekijken.  
 
@@ -40,6 +40,5 @@ U kunt ook de site [Dynamics 365 Business Central-mogelijkheden](https://dynamic
 [Dynamics 365 Business Central-community](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db90c35bde2a08d6131e4a7102f9cdda1f36dfe8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385961"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5870010"
 ---
 # <a name="create-number-series"></a>Nummerreeksen maken
 Voor elk bedrijf dat u instelt, moet u unieke id-codes toewijzen aan zaken als grootboekrekeningen, klanten- en leveranciersrekeningen, facturen en overige documenten. De nummering is niet alleen belangrijk voor identificatie. Met een goed opgezet nummeringssysteem kan het bedrijf ook beter worden beheerd en geanalyseerd en kan het aantal fouten tijdens gegevensinvoer worden beperkt.
@@ -29,6 +29,9 @@ Als u hiaten in bepaalde nummerreeksen wilt toestaan, raadpleegt u eerst uw audi
 >   Het wordt aanbevolen om dezelfde nummerreekscodes te gebruiken die worden vermeld op de pagina **Nr.-reeksoverzicht** in het voorbeeldbedrijf CRONUS. Codes zoals *I-FACT+* lijken in het begin mogelijk betekenisloos, maar [!INCLUDE[prod_short](includes/prod_short.md)] kent een aantal standaardinstellingen die afhankelijk zijn van deze codes.
 
 U maakt een nummeringssysteem door een of meer codes in te stellen voor elk soort hoofdgegevens of document. U kunt bijvoorbeeld een code instellen voor het nummeren van klanten, een andere code voor het nummeren van verkoopfacturen en weer een andere code voor het nummeren van documenten in algemene dagboeken. Nadat u een code hebt ingesteld, moet u minimaal één nummerreeksregel instellen. De nummerreeksregel bevat gegevens, zoals het eerste en laatste nummer in de reeks en de begindatum. U kunt meer dan één nummerreeksregel per nummerreekscode invoeren, met een andere begindatum voor elke regel. De reeks wordt opeenvolgend gebruikt, waarbij elke reeks wordt gestart op de betreffende begindatum.
+
+> [!NOTE]
+> De maximale lengte van een nummer in een cijferreeks is 20 tekens. Er zijn enkele situaties waarin [!INCLUDE[prod_short](includes/prod_short.md)] een nummer toevoegt met een door het systeem gegenereerde id. Bijvoorbeeld wanneer documenten zoals facturen worden gebruikt om transacties toe te passen, zoals betalingen, genereert [!INCLUDE[prod_short](includes/prod_short.md)] identifiers voor de toegepaste transacties. De id bestaat uit een nummer uit een nummerreeks en een door het systeem toegewezen id van zes tekens, zoals -12345. Als u verwacht meer dan 9999 documenten in bank- of girojournalen of ontvangstendagboeken te verwerken, stelt u nummerreeksen in voor die typen documenten om minder dan 14 tekens te bevatten.
 
 U configureert normaal gesproken de nummerreeks zodanig dat automatisch het eerstvolgende nummer wordt ingevoegd op nieuwe kaarten of documenten die u maakt. U kunt echter ook een nummerreeks instellen die toestaat dat u handmatig het nieuwe nummer invoert. U geeft dit aan met het selectievakje **Handm. nummering**.
 

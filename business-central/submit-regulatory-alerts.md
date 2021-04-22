@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380368"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784852"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Waarschuwingen verzenden over land/regio-specifieke wettelijke functies
 
@@ -52,7 +52,7 @@ We nodigen u uit Microsoft Dynamics Lifecycle Services (LCS) te gebruiken om wet
         |Description  | Voer een kort overzicht van de wet in. Uw omschrijving moet zich richten op problemen die relevant zijn voor Enterprise Resource Planning (ERP), zodat gebruikers de vereisten op een hoog niveau begrijpen zonder eerst de wetgeving te lezen.|
         |Land  | Geef het land of de regio op waarop de wetgeving van toepassing is.|
         |Sector| Geef de branche op als de vereiste alleen op bepaalde branches van toepassing is. Kies bijvoorbeeld **Openbare sector**, **Detailhandel** of **Productie**.|
-        |Functiereferentie  | Dit is niet relevant voor Dynamics 365 Business Central, maar u kunt een functiereferentie invoeren, als u deze kent. De lijst van functies voor het specifieke land/regio kan worden gevonden in de [Lokalisatieportal](https://docs.microsoft.com/dynamics/s-e/) op de CustomerSource-site. |
+        |Functiereferentie  | Dit is niet relevant voor Dynamics 365 Business Central, maar u kunt een functiereferentie invoeren, als u deze kent. De lijst van functies voor het specifieke land/regio kan worden gevonden in de [Lokalisatieportal](/dynamics/s-e/) op de CustomerSource-site. |
         |Datum van wetgeving  | Geef de datum op waarop betrokken klanten moeten beginnen te voldoen aan de wet.|
         |Datum van overheidsaankondiging  | Geef de datum op waarop de autoriteit de wijziging aankondigde.|
         |Laatste archiveringsdatum  | Selecteer de deadline voor de eerste indiening van het nieuwe of gewijzigde rapport.|
@@ -76,7 +76,7 @@ We nodigen u uit Microsoft Dynamics Lifecycle Services (LCS) te gebruiken om wet
 
 [Lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Taal en landinstellingen wijzigen](about-locale-language.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Welkom bij Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

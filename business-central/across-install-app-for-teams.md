@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 10/08/2020
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 34d8ae185ba705e42c700a0c2089dea77351cee6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 868915ebe6a41153d59550f74a955a3ce00b4b15
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379185"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882142"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams
 
@@ -24,6 +24,10 @@ ms.locfileid: "5379185"
 In dit artikel leert u hoe u de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) installeert. De app is beschikbaar op de Teams-marktplaats en u kunt deze gebruiken met de web-, desktop- of mobiele app van Teams.
 
 ## <a name="prerequisites"></a>Vereisten
+
+- Er is een [!INCLUDE [prod_short](includes/prod_short.md)] online-gebruikersaccount is vereist voor de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Teams.
+
+    Als u niet zeker weet of u een account hebt of als u uw referenties niet weet om u aan te melden, neemt u contact op met de beheerder van uw bedrijf om u op weg te helpen.
 
 - Open de Teams-desktop-app of Teams in de browser. U kunt [!INCLUDE [prod_short](includes/prod_short.md)] niet installeren met behulp van de mobiele Teams-app.
 
@@ -43,7 +47,7 @@ Deze optie is de snelste manier om de app te installeren.
 
     ![Business Central-app in Teams installeren](media/teams-install-app.png)
 
-3. Selecteer **Voor mij toevoegen**.
+3. Selecteer **Toevoegen**.
 
 **Optie 2**
 
@@ -51,7 +55,10 @@ Deze optie is de snelste manier om de app te installeren.
 2. Selecteer aan de linkerkant **Apps**.
 3. Zoek naar **Business Central**.
 4. Selecteer de app wanneer u deze vindt.
-5. Selecteer **Voor mij toevoegen**.
+5. Selecteer **Toevoegen**.
+
+> [!NOTE]
+> Bij beide opties wordt u mogelijk gevraagd om u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)]. Selecteer de koppeling **Aanmelden** en volg de instructies om de aanmeldingsnaam en het wachtwoord in te voeren voor [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Volgende stap
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393311"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784827"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
@@ -242,34 +242,9 @@ In de volgende tabel wordt aangegeven op welke manieren u tijden kunt invoeren e
 
  Als u geen scheidingsteken invoert, voert u twee cijfers in voor elke tijdseenheid.  
 
-## <a name="entering-datetimes"></a>Datum/tijd invoeren
+## <a name="entering-combined-datetimes"></a>Gecombineerde datums en tijden invoeren
 
-Wanneer u datum/tijd invoert, moet u een spatie plaatsen tussen de datum en de tijd.  
-
-In de volgende tabel wordt aangegeven op welke manier u de datum/tijd kunt invoeren en hoe de verschillende manieren worden geïnterpreteerd.  
-
-|Post|Interpretatie|  
-|---------------|------------------------|  
-|`131202` 132455|13.12.02 13:24:55|  
-|1-12-02 10|01.12.02 10:00:00|  
-|1.12.02 5|01.12.02 05:00:00|  
-|1.12.02|01.12.02 00:00:00|  
-|11 12|11.huidige maand.huidig jaar 12:00:00|  
-|1112 12|11.12.huidig jaar 12:00:00|  
-|h of huidige datum|huidige datum 00:00:00|  
-|h tijd|huidige datum werkelijke tijd|  
-|h 10:30|huidige datum 10:30:00|  
-|h 3:3:3|huidige datum 03:03:03|  
-|w of werkdatum|de werkdatum 00:00:00|  
-|ma of maandag|Maandag van de huidige week 00:00:00|  
-|di of dinsdag|Dinsdag van de huidige week 00:00:00|  
-|wo of woensdag|Woensdag van de huidige week 00:00:00|  
-|do of donderdag|Donderdag van de huidige week 00:00:00|  
-|vr of vrijdag|Vrijdag van de huidige week 00:00:00|  
-|za of zaterdag|Zaterdag van de huidige week 00:00:00|  
-|zo of zondag|Zondag van de huidige week 00:00:00|  
-|di 10:30|Dinsdag van de huidige week 10:30:00|  
-|di 3:3:3|Dinsdag van de huidige week 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Duur invoeren
 

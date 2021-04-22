@@ -1,6 +1,6 @@
 ---
-title: 'Ontwerpdetails: Ontwerp artikeltracering | Microsoft Docs'
-description: In dit onderwerp komt het ontwerp achter artikeltracering in Business Central aan bod.
+title: 'Ontwerpdetails: Ontwerp artikeltracering'
+description: Dit onderwerp beschrijft het ontwerp achter artikeltracering in Business Central naarmate het productversies doorloopt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a0c60381634543f367e85a465c4ee74c3396d5ad
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c41b131c538337db81b30956a7871040d11f9ce3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391010"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780969"
 ---
 # <a name="design-details-item-tracking-design"></a>Ontwerpdetails: Ontwerp artikeltracering
-In de eerste versie van Artikeltracering in [!INCLUDE[prod_short](includes/prod_short.md)] 2.60 werden serienummers of lotnummers direct geregistreerd in artikelposten. Dit ontwerp bood volledige beschikbaarheidsgegevens en eenvoudige tracering van historische posten, maar het miste flexibiliteit en functionaliteit.  
 
-Vanaf [!INCLUDE[prod_short](includes/prod_short.md)] 3.00 bevond de artikeltraceringfunctionaliteit zich in een afzonderlijke objectstructuur met complexe koppelingen naar geboekte documenten en artikelposten. Dit ontwerp was flexibel en bood uitgebreide functionaliteit, maar artikeltraceringsposten werden niet volledig betrokken bij beschikbaarheidsberekeningen.  
+Artikeltracering in [!INCLUDE[prod_short](includes/prod_short.md)] begon met [!INCLUDE [navnow_md](includes/navnow_md.md)]. De artikeltracering bevindt zich in een aparte objectstructuur met ingewikkelde koppelingen naar geboekte documenten en artikelposten, en is geïntegreerd met het reserveringssysteem, dat de reservering, ordertracering en actieberichten afhandelt. Zie voor meer informatie [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md) in de ontwerpdetails van voorzieningplanning.  
 
-Vanaf [!INCLUDE[prod_short](includes/prod_short.md)] 3.60 is de artikeltraceringfunctionaliteit geïntegreerd in het reserveringsysteem, waarmee reserveringen, ordertracering en planningsboodschappen worden verwerkt. Zie voor meer informatie "Ontwerpdetails: Reservering, ordertracering en planningsboodschappen" in "Ontwerpdetails: Voorraadplanning".  
+Dit ontwerp integreert artikeltraceringsposten in berekeningen van de totale beschikbaarheid in het hele systeem, inclusief planning, productie en magazijnactiviteiten. Serie- en lotnummers worden toegepast op de artikelposten om te zorgen voor eenvoudige toegang tot historische gegevens voor artikeltracering. Met releasewave 1 van 2021 omvat artikeltracering in [!INCLUDE [prod_short](includes/prod_short.md)] pakketnummers.  
 
-Dit laatste ontwerp integreert artikeltraceringsposten in berekeningen van de totale beschikbaarheid in het hele systeem, inclusief planning, productie en magazijnactiviteiten. Het klassieke concept van het overzetten van serie- en lotnummers in de artikelposten, wordt opnieuw gebruikt om te zorgen voor eenvoudige toegang tot historische gegevens voor artikeltracering. In verband met verbeteringen in de artikeltracering in [!INCLUDE[prod_short](includes/prod_short.md)] 3.60 is het reserveringsysteem uitgebreid tot niet-order netwerkentiteiten, zoals dagboeken, facturen en creditnota's.  
-
-Met het toevoegen van serie- of lotnummers verwerkt het reserveringssysteem permanente artikelkenmerken terwijl ook cyclische koppelingen tussen voorziening en vraag in de vorm van ordertraceringsposten en reserveringsposten worden verwerkt. Een ander kenmerk van serie- of lotnummers in vergelijking met de conventionele reserveringsgegevens is het feit dat deze gedeeltelijk of volledig kunnen worden geboekt. De tabel **Reserveringspost** (T337) werkt daarom nu met een gekoppelde tabel, de tabel **Traceringsspecificatie** (T336), waarmee optellingen tussen traceringsaantallen actieve en geboekte artikelen worden beheerd en weergegeven. Zie voor meer informatie [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md).  
+Met het toevoegen van serie-, lot- en pakketnummers verwerkt het reserveringssysteem permanente artikelkenmerken terwijl ook cyclische koppelingen tussen voorziening en vraag in de vorm van ordertraceringsposten en reserveringsposten worden verwerkt. Een ander kenmerk van serie- of lotnummers in vergelijking met de conventionele reserveringsgegevens is het feit dat deze gedeeltelijk of volledig kunnen worden geboekt. De tabel **Reserveringspost** (T337) werkt daarom nu met een gekoppelde tabel, de tabel **Traceringsspecificatie** (T336), waarmee optellingen tussen traceringsaantallen actieve en geboekte artikelen worden beheerd en weergegeven. Zie voor meer informatie [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md).  
 
 In het volgende diagram wordt het ontwerp van artikeltraceringfunctionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] aangegeven.  
 
@@ -43,8 +40,8 @@ Codeunit 22, **Artikeldagboek. - Regel boeken** splitst nu de boeking volgens de
 
 Zie voor meer informatie [Ontwerpdetails: Boekingsstructuur artikeltracering](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e53ef4e33d489de7ff92e537b01b8563e62ba77
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6991b640319abf43718c1832b8bbea17bce0a0f1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379645"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784304"
 ---
 # <a name="change-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
 [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht de grootte en complexiteit. In de kern van het product vindt u essentiële functies, zoals financiële rapportage, verkoop-, inkoop- en voorraadbeheer. Naarmate de bedrijfscomplexiteit toeneemt, kunt u bijvoorbeeld functionaliteit inschakelen voor productie en servicebeheer.
@@ -30,7 +30,7 @@ In de volgende tabel worden de ervaringen beschreven die momenteel beschikbaar z
 | **Essential** |Hier worden alle acties en velden voor alle gemeenschappelijke bedrijfsfuncties weergegeven.|
 | **Premium** |Hier worden alle acties en velden voor alle bedrijfsfuncties weergegeven, inclusief Productie en Servicebeheer.|
 
-De ervaringen die in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen worden geselecteerd, weerspiegelen de oplossingslicenties, gebruikte plannen, die zijn gedefinieerd voor het product. Informatie over de plannen Essential en Premium vindt u op [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) de site van Microsoft Dynamics 365 Marketing. Zie ook de [[!INCLUDE[prod_short](includes/prod_short.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?linkid=2068931) (vereist toegang tot CustomerSource of PartnerSource).
+De ervaringen die in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen worden geselecteerd, weerspiegelen de oplossingslicenties, gebruikte plannen, die zijn gedefinieerd voor het product. Informatie over de plannen Essential en Premium vindt u op [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) de site van Microsoft Dynamics 365 Marketing. Zie ook de [[!INCLUDE[prod_short](includes/prod_short.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?linkid=2068931).
 
 > [!IMPORTANT]  
 > Alle normale gebruikers in een oplossing moeten aan hetzelfde plan worden toegewezen, Essential of Premium, voordat die ervaring kan worden geselecteerd voor het bedrijf. Een gebruiker kan daarom geen Premium-functies gebruiken als een of meer andere gebruikers alleen toegang hebben tot Essential-functies. Dit geldt niet voor niet-normale gebruikers van het type Teamlid, Interne admin, Externe accountant en Gedelegeerde admin, die allemaal aan een ander plan kunnen zijn toegewezen dan andere gebruikers in de oplossing.<br /><br /> Alleen gebruikers van het type Evaluation of Premium kunnen de waarde in het veld **Ervaring** wijzigen van Essential in Premium.

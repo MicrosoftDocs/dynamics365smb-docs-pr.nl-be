@@ -1,6 +1,6 @@
 ---
-title: Artikelen met artikeltracering traceren | Microsoft Docs
-description: U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en wanneer dit is ontvangen of geproduceerd, overgebracht, verkocht, verbruikt of geretourneerd. U kunt tevens alle huidige exemplaren van een bepaald serie- of lotnummer in de database vinden. Dit doet u met behulp van de functies Artikeltracering en Navigeren.
+title: Artikelen met artikeltracering traceren
+description: U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en wanneer dit is ontvangen of geproduceerd, overgebracht, verkocht, verbruikt of geretourneerd. U kunt tevens alle huidige exemplaren van een bepaald serie- of lotnummer in de database vinden. Dit doet u met behulp van de functies Artikeltracering en Posten zoeken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 50de593aa3ff2416461aa4468f8c063c22f7b085
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a425b974bf37b440de27f2b469694f9e8eac07de
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377685"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785717"
 ---
 # <a name="trace-item-tracked-items"></a>Artikelen met artikeltracering traceren
 U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en wanneer dit is ontvangen of geproduceerd, overgebracht, verkocht, verbruikt of geretourneerd. U kunt tevens alle huidige exemplaren van een bepaald serie- of lotnummer in de database vinden. Dit doet u met behulp van de functies Artikeltracering en [Posten zoeken](ui-find-entries.md).  
@@ -64,12 +64,14 @@ Deze functies zijn vooral handig tijdens het uitvoeren van kwaliteitscontroles w
 3. Voer in de velden **Serienr.** en **Lotnr.** de artikeltraceringsnummers in die u wilt traceren.  
 4. Kies de actie **Zoeken** om alle exemplaren van het serie- of lotnummer in de database te zoeken.  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Voorraad](inventory-manage-inventory.md)  
-[Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
+[Werken met serie-, lot- en pakketnummers](inventory-how-work-item-tracking.md)  
+[Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)  
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 [Artikelen reserveren](inventory-how-to-reserve-items.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)  
 [Posten zoeken](ui-find-entries.md)  
 

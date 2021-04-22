@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72755bb2b83a3560c79cd004987003d3d7585f6b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 64e3a85a4a57a229d23070d7453729b46979d97e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381579"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785172"
 ---
 # <a name="design-details-transfers-in-planning"></a>Ontwerpdetails: Transfers in planning
 Transferorders zijn ook een voorzieningenbron bij het werken op SKU-niveau. Als meerdere vestigingen (magazijnen) worden gebruikt, kan de SKU-aanvullingsmethode worden ingesteld op Transfer, wat aangeeft dat de vestiging wordt aangevuld door goederen van een andere vestiging over te brengen. In een situatie met meerdere magazijnen hebben bedrijven mogelijk een transferketen waarbij voorziening aan de GROENE vestiging wordt overgebracht vanuit GEEL, voorziening aan GEEL wordt overgebracht vanuit ROOD, enzovoort. Aan het begin van de keten is er een aanvullingssysteem Prod.-order of Inkoop.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5d3d39cc721f5157487fbe55f799a5a462a2be10
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4e9a121efe984e075c54c747fc426bf9a4519b81
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386186"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787414"
 ---
 # <a name="the-c5-data-migration-extension"></a>De extensie C5-gegevensmigratie
 
@@ -160,7 +160,7 @@ U kunt de migratie van gegevens stoppen door **Alle migraties stoppen** te kieze
 ## <a name="see-also"></a>Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

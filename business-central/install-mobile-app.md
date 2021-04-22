@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/15/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cd6b60a284b060fd44339d6f9e10ac7acbb5d159
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a751254ae127e3bcde2a5313ca6d5bcfe3ec1117
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387236"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786235"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Business Central op uw mobiele apparaat krijgen
 
-Toegang tot uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens krijgen vanaf uw mobiele apparaat. U kunt door uw bedrijfsgegevens navigeren, functies gebruiken zoals verzenden naar Excel of Office 365, up-to-date diagrammen en KPI's weergeven, verkoopoffertes en facturen e-mailen en foto's maken met uw camera en koppelen. Volg de onderstaande stappen om de app te downloaden en aan de slag te gaan.
+Toegang tot uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens krijgen vanaf uw mobiele apparaat. U kunt door uw bedrijfsgegevens navigeren, functies gebruiken zoals verzenden naar Excel of Microsoft 365, up-to-date diagrammen en KPI's weergeven, verkoopoffertes en facturen e-mailen en foto's maken met uw camera en koppelen. Volg de onderstaande stappen om de app te downloaden en aan de slag te gaan.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
@@ -64,7 +64,7 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt 
 ## <a name="see-also"></a>Zie ook
 
 [Veelgestelde vragen over mobiele apps](ui-mobile-faq.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

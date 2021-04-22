@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae07bc4f1d9f348f08f591e5e4341938ec4b5f16
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3a47c9daeeab036055a0644e1b389735f7440106
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382216"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784079"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Artikelen picken volgens FEFO inschakelen
 First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.  
@@ -25,9 +25,7 @@ First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de 
 -   Het artikel moet een serie-/partijnummer hebben.  
 -   Op de tracking-code van het artikel moet het veld **Magazijnserienr.-tracering** of **Magazijnlottracering** worden geselecteerd.  
 -   Het artikel moet met een verloopdatum naar de voorraad worden geboekt.  
--   Op de vestigingskaart moet het selectievakje **Picken vereisen** zijn ingeschakeld.  
--   Op de vestigingskaart moet het selectievakje **Picken volgens FEFO** zijn ingeschakeld.  
--   Op de vestigingskaart moet het selectievakje **Opslaglocatie verplicht** zijn ingeschakeld.  
+-   Op de locatie moeten de schakelaars **Pick vereist**, **Picken volgens FEFO** en **Opslaglocatie verplicht** zijn ingeschakeld.  
 
  Wanneer aan alle criteria wordt voldaan, worden artikelen met serie- of partijnummers die moeten worden gepickt, gesorteerd met de oudste eerst bij alle picks en verplaatsingen, behalve artikelen waarvoor specifieke tracering van Serienr. of partijnummer plaatsvindt.  
 
@@ -36,11 +34,11 @@ First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de 
 <br /><br />
 Als twee artikelen met serie- of lotnummer dezelfde vervaldatum hebben, wordt het artikel met het laagste lot- of serienummer geselecteerd.
 <br /><br />
-Tijdens het picken van artikelen met een serie-/lotnummer op locaties die zijn ingesteld op gestuurde opslag en pick, worden alleen aantallen in locaties van het type *Pick* gepicked volgens FEFO.  
+Tijdens het picken van artikelen met een serie- of lotnummer op locaties die zijn ingesteld op gestuurde opslag en pick, worden alleen aantallen in locaties van het type *Pick* gepickt volgens FEFO.  
 <br /><br />
-U kunt verplaatsingen volgens FEFO mogelijk maken, hetzij op de pagina **Voorraadverplaatsing** of **Verplaatsingsvoorstel**, door het veld **Uit opslaglocatie** leeg te maken.  
+Als u verplaatsingen volgens FEFO mogelijk wilt maken, laat u het veld **Van opslaglocatie** leeg op de pagina **Voorraadverplaatsing** of **Verplaatsingsvoorstel**.  
 <br /><br />
-Als het veld **Strikte vervaldatumboeking** is ingeschakeld, worden alleen artikelen die niet zijn verlopen, opgenomen in de pick. Dit geldt ook als u niet picken volgens FEFO gebruikt.
+Als het veld **Strikte verloopdatumboeking** is geselecteerd op de kaart met de **Artikeltraceringscode**, worden alleen artikelen die niet zijn verlopen, in de pick opgenomen en worden de regels gesorteerd volgens het FEFO-principe.
 
 ## <a name="see-also"></a>Zie ook  
 [artikelen picken](warehouse-pick-items.md)   

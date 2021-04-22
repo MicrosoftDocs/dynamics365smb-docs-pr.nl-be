@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e7298cd5408f8c8a1277ce2e1f455e3c923fbe52
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2f4cae6c25a2ea75e93a588ab987acab3835b750
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376648"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781098"
 ---
 # <a name="about-calculating-standard-cost"></a>Informatie over het berekenen van vaste verrekenprijzen
 Veel productiebedrijven kiezen een waarderingsbasis voor de vaste verrekenprijs. Dit geldt ook voor bedrijven die lichte productie zoals assemblage en kitting uitvoeren. In een vaste-verrekenprijssysteem wordt de voorraadkostprijs bepaald op basis van redelijkerwijs te verwachten of historische kosten. Onderzoek van in het verleden gebruikte en voor de toekomst geschatte kosten vormen de basis voor de vaste verrekenprijs. Deze prijs ligt vast totdat wordt besloten deze prijs te wijzigen. Het is mogelijk dat de feitelijke productiekosten van een product afwijken van de geschatte vaste verrekenprijs. Vanuit managementoverwegingen wordt de feitelijke prijs voor een bepaald artikel vergeleken met de vaste verrekenprijs en worden eventuele *verschillen* geïdentificeerd en geanalyseerd.  

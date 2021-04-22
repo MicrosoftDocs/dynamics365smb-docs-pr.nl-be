@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7fe5d0870cfc18ab103dc57044fd0ba84b151662
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 81df1625531b3b4c5bf1a55a9e09d37af8b6f7fe
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392460"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782996"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Werken met rapporten, batchverwerkingen en XMLports
 
@@ -42,14 +42,7 @@ Het veld **Standaardwaarden gebruiken uit** biedt een snelle en betrouwbare mani
 
 >[!NOTE]
 > De vooraf gedefinieerde instellingen worden doorgaans ingesteld en beheerd door een beheerder. Als u meer wilt weten, raadpleegt u [Opgeslagen instellingen voor rapporten en batchtaken beheren](reports-saving-reusing-settings.md).
-<!--
-Depending on the report, the request page might include the **Use default values from** field. This field lets you select a predefined set of can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
 
-Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
-
->[!NOTE]
->If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
--->
 ## <a name="specifying-the-data-to-include-in-reports"></a>De gegevens opgeven die in rapporten moeten worden opgenomen
 
 Gebruik de velden onder **Opties** en **Filters** om de informatie die u in het rapport wilt, te wijzigen. U stelt filters in een rapport op ongeveer dezelfde manier in als filters in lijsten. Zie [Filteren](ui-enter-criteria-filters.md#filtering) voor meer informatie.
@@ -63,7 +56,7 @@ Gebruik de velden onder **Opties** en **Filters** om de informatie die u in het 
 
 ## <a name="previewing-a-report"></a>Een voorbeeld van een rapport bekijken
 
-Als u een voorbeeld van een rapport bekijkt, kunt u zien hoe het rapport eruitziet voordat u het afdrukt. Het voorbeeld zal het rapport opmaken op basis van de [printer](#Printer) die wordt weergegeven in het veld **Printer** op de aanvraagpagina. Nadat u een voorbeeld hebt bekeken, kunt u teruggaan naar de aanvraagpagina en indien nodig wijzigingen aanbrengen in opties en filters.
+Als u een voorbeeld van een rapport bekijkt, kunt u zien hoe het rapport eruitziet voordat u het afdrukt. Het voorbeeld is niet gebaseerd op de geselecteerde printer in het veld **Printer** op de aanvraagpagina. Het wordt bestuurd door de browser. Nadat u een voorbeeld hebt bekeken, kunt u teruggaan naar de aanvraagpagina en indien nodig wijzigingen aanbrengen in opties en filters.
 
 Om een voorbeeld van een rapport te bekijken kiest u de knop **Voorbeeld** of **Voorbeeld en sluiten** op de rapportverzoekpagina. De knop die wordt weergegeven, is afhankelijk van het rapport, dus sommige rapporten hebben de knop **Voorbeeld** terwijl andere de knop **Voorbeeld en sluiten** hebben. Beide knoppen openen een voorbeeld van het rapport. Het verschil is dat **Voorbeeld** de aanvraagpagina open houdt, zodat u ernaar kunt terugkeren, wijzigingen kunt aanbrengen, opnieuw een voorbeeld kunt bekijken of kunt afdrukken. Met **Voorbeeld en sluiten** wordt de aanvraagpagina gesloten, dus u moet het rapport opnieuw openen om wijzigingen aan te brengen of af te drukken.
 
@@ -103,37 +96,16 @@ U kunt ervoor kiezen het rapport op te slaan in een bestand, zoals een Excel-, W
 
 Als u een rapport wilt afdrukken, kiest u de knop **Afdrukken** op de aanvraagpagina of op de menubalk op de pagina **Voorbeeld**.
 
-<!--
-### Printer selection
-
-The report prints to the printer shown in the **Selected printer** field on the report request page. You can't change the printer from this page.
-
-The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another printer, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
-
-If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the **Selected printer** field on the report request page.
--->
 ### <a name="printer"></a><a name="Printer"></a>Printer
 
-Het veld **Printer** op de aanvraagpagina bevat de naam van de printer waar het rapport heen wordt gestuurd. **(Door de browser afgehandeld)** geeft aan dat er geen aangewezen printer is voor het rapport. In dit geval zal de browser de afdruk afhandelen en een standaardervaring weergeven, waarbij u een lokale printer kunt kiezen die op uw apparaat is aangesloten.
-
-U kunt de printer niet wijzigen met het veld **Printer**. Om de printer te wijzigen moet u naar de pagina **Printerselecties** of **Printerbeheer** gaan. Het instellen van de printer is doorgaans een beheerderstaak. Als u meer wilt weten, raadpleegt u [Printers instellen](ui-specify-printer-selection-reports.md).
-
-<!--
-### Browser printing
-
-Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
-
-If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
+Het veld **Printer** op de aanvraagpagina bevat de naam van de printer waar het rapport heen wordt gestuurd. Om een printer te wijzigen selecteert u de printer in de lijst.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
+> **(Door de browser afgehandeld)** geeft aan dat er geen aangewezen printer is voor het rapport. In dit geval zal de browser de afdruk afhandelen en een standaardervaring weergeven, waarbij u een lokale printer kunt kiezen die op uw apparaat is aangesloten. **(Afgehandeld door de browser)** is niet beschikbaar in de mobiele [!INCLUDE[prod_short](includes/prod_short.md)]-app of de app voor Microsoft Teams.
 
-<!-- 
-On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+> [!TIP]
+> De printer die standaard voor u is geselecteerd, wordt ingesteld op de pagina **Printerselecties**. Zie voor informatie over het wijzigen van de standaardprinter [Selecteren welke printers welke rapporten afdrukken](ui-specify-printer-selection-reports.md#default).
 
-> [!NOTE]
-> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
--->
 ### <a name="printing-reports-in-thai"></a>Rapporten afdrukken in het Thai
 
 Specifiek voor de Thaise versie van [!INCLUDE[prod_short](includes/prod_short.md)] kan de knop **Afdrukken** geen rapporten correct afdrukken vanwege beperkingen in de service die het afdrukbare PDF-bestand genereert. In plaats hiervan kunt u het rapport openen in Word en vervolgens opslaan als een afdrukbare PDF.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376699"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787489"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Een bladwijzer van een pagina of rapport maken in uw rolcentrum
 Met het bladwijzerpictogram kunt u een actie toevoegen waarmee een pagina of rapport wordt geopend vanuit het navigatiemenu van uw rolcentrum. Hierdoor bereikt u snel uw favoriete inhoud of zakelijke taken. U voegt de bladwijzer toe vanaf de doelpagina of het doelrapport, dat wil zeggen het scherm dat u wilt dat de koppeling in het rolcentrum opent.
@@ -60,7 +60,7 @@ De mogelijkheid om een pagina of rapport als bladwijzer in te stellen is een van
 - **Waarom kan ik geen bladwijzers maken van bepaalde pagina's of rapporten?**  
 Niet van alle pagina's en rapporten kan een bladwijzer worden gemaakt. Wanneer een pagina of rapport wordt uitgevoerd binnen een speciale context die wordt beheerst door de bedrijfstoepassing, wordt het bladwijzerpictogram niet weergegeven. Bijvoorbeeld pagina's die niet in het venster **Vertel me** kunnen worden gevonden, maar vanuit elders worden gestart, bevatten geen bladwijzerpictogram. Evenzo zullen rapportaanvraagpagina's die alleen worden gebruikt om filters te verzamelen zonder het rapport uit te voeren, geen bladwijzerpictogram bevatten.
 
-Zie technische details over [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) en [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+Zie technische details over [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) en [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Worden mijn bladwijzers ook gewist bij het wissen van mijn personalisatie?**  
 Ja. Bladwijzers bevinden zich in het navigatiemenu. Als u wijzigingen in het navigatiemenu op een pagina wist of alle personalisatie in het rolcentrum wist, worden al uw nieuwe acties permanent verwijderd.

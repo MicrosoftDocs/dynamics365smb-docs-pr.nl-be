@@ -1,1 +1,1 @@
-> **VAN TOEPASSING OP:** Business Central online
+**VAN TOEPASSING OP:** Business Central online

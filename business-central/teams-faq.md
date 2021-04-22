@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 03/04/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: d95e97a232cfb7fda8f40f68875b747723abbd4b
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 86e540a34efba3fccbc0615cac692fd6c405bee0
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573388"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882242"
 ---
 # <a name="teams-faq"></a>Veelgestelde vragen over Teams
 
@@ -25,13 +25,13 @@ In dit artikel worden enkele van de vragen beantwoord die u mogelijk hebt over h
 
 ## <a name="general"></a>[Alge&meen](#tab/general)
 
-### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>Hoe log ik in bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in Teams? 
+### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>Hoe log ik in bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in Teams?
 
-Nadat u de app heeft geïnstalleerd, wordt u gevraagd om in te loggen wanneer u voor het eerst een [!INCLUDE [prod_short.md](includes/prod_short.md)]-koppeling in Teams-chat plakt of wanneer u de actie **Details** kiest op een kaart in Teams. Afhankelijk van uw Teams-client, moet u mogelijk uw inloggegevens invoeren die u gebruikt om toegang te krijgen tot [!INCLUDE [prod_short.md](includes/prod_short.md)]. 
+Nadat u de app hebt geïnstalleerd, wordt u gevraagd om in te loggen wanneer u de app voor het eerst gebruikt, wanneer u een [!INCLUDE [prod_short.md](includes/prod_short.md)]-koppeling in Teams-chat plakt of wanneer u de actie **Details** kiest op een kaart in Teams. Afhankelijk van uw Teams-client, moet u mogelijk uw inloggegevens invoeren die u gebruikt om toegang te krijgen tot [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-### <a name="how-do-i-sign-out-of-the-prod_shortmd-app-in-teams"></a>Hoe log ik uit bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in Teams? 
+### <a name="how-do-i-sign-out-of-the-prod_shortmd-app-in-teams"></a>Hoe log ik uit bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in Teams?
 
-Om u af te melden bij uw huidige gebruikersidentiteit in Teams waarmee u verbinding heeft gemaakt met [!INCLUDE [prod_short.md](includes/prod_short.md)], gaat u naar een willekeurig chatvak en kiest u het pictogram [!INCLUDE [prod_short.md](includes/prod_short.md)] eronder. Als het venster verschijnt, controleert u uw momenteel aangemelde identiteit en kiest u vervolgens **Afmelden**. Als u Teams in de browser gebruikt, wordt u ook uitgelogd bij een eventuele [!INCLUDE [prod_short.md](includes/prod_short.md)]-webclient in hetzelfde browservenster.
+Om u af te melden bij uw huidige gebruikersidentiteit in Teams waarmee u verbinding hebt gemaakt met [!INCLUDE [prod_short.md](includes/prod_short.md)], gaat u naar een willekeurig chatvak, klikt u met de rechtermuisknop op het pictogram [!INCLUDE [prod_short.md](includes/prod_short.md)] eronder en kiest u **Instellingen**. Wanneer het venster verschijnt, controleert u uw momenteel aangemelde identiteit en kiest u vervolgens **Afmelden**.
 
 ### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>Maakt de app voor Teams verbinding met [!INCLUDE [prod_short.md](includes/prod_short.md)] on premises? 
 
@@ -39,7 +39,7 @@ Nee. De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor teams werkt 
 
 ### <a name="does-the-app-work-with-multiple-companies-and-environments"></a>Werkt de app met meerdere bedrijven en omgevingen? 
 
-Ja. Wanneer de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app een koppeling uitbreidt tot een kaart, moet de koppeling de omgeving en bedrijfsnamen voor de app bevatten om overeen te komen met de record in het juiste bedrijf. U kunt koppelingen plakken naar alle bedrijven en omgevingen waartoe u toegang heeft binnen uw organisatie en vanuit het [!INCLUDE [prod_short.md](includes/prod_short.md)]-account waarmee u zich heeft aangemeld. Deelnemers aan de chat zien de kaart. Maar ze kunnen de kaartgegevens niet bekijken, tenzij ze machtigingen hebben voor het bedrijf of de omgeving waar die record is opgeslagen.
+Ja. Als u contacten in een ander bedrijf wilt zoeken, gaat u naar [Instellingen](across-teams-settings.md). Wanneer de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app een koppeling uitbreidt tot een kaart, moet de koppeling de omgeving en bedrijfsnamen voor de app bevatten om overeen te komen met de record in het juiste bedrijf. U kunt koppelingen plakken naar alle bedrijven en omgevingen waartoe u toegang heeft binnen uw organisatie en vanuit het [!INCLUDE [prod_short.md](includes/prod_short.md)]-account waarmee u zich heeft aangemeld. Deelnemers aan de chat zien de kaart. Maar ze kunnen de kaartgegevens niet bekijken, tenzij ze machtigingen hebben voor het bedrijf of de omgeving waar die record is opgeslagen.
 
 ### <a name="in-which-countries-or-regions-is-the-prod_shortmd-app-available"></a>In welke landen of regio's is de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app beschikbaar? 
 
@@ -65,9 +65,12 @@ In de volgende tabel wordt uitgelegd hoe de ervaring verschilt voor berichtauteu
 
 Voor de lijst met ondersteunde talen voor [!INCLUDE [prod_short.md](includes/prod_short.md)] raadpleegt u [Ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
-### <a name="does-the-business-central-app-work-with-industry-solutions"></a>Werkt de Business Central-app met brancheoplossingen?
+### <a name="does-the-prod_shortmd-app-work-with-industry-solutions"></a>Werkt de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app met brancheoplossingen?
 
-Ja. De app werkt met koppelingen op basis van het patroon **\*.bc.dynamics.com**, dat doorgaans wordt gebruikt met [Apps insluiten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+Ja. Maar slechts enkele functies van de app werken met [Apps insluiten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+
+- De app werkt met koppelingen op basis van het patroon **\*.bc.dynamics.com**, dat doorgaans wordt gebruikt met Apps insluiten.
+- Zoeken naar contactpersonen is niet beschikbaar voor Apps insluiten die de basistoepassing van Microsoft vervangen.
 
 ### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Waar kan ik Teams-integratie vinden in de [!INCLUDE [prod_short.md](includes/prod_short.md)]-webclient? 
 
@@ -75,7 +78,7 @@ Er is momenteel geen insluiting van Teams-besturingselementen of aanwezigheid va
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Werkt [!INCLUDE [prod_short.md](includes/prod_short.md)] met de mobiele Teams-app?
 
-Ja. De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app kan worden geïnstalleerd vanuit de Teams-desktopapp of browser, of door een beheerder voor alle gebruikers. Eenmaal geïnstalleerd is de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app automatisch beschikbaar in Teams voor iOS en Android. Op mobiele apparaten kunt u kaarten bekijken die door anderen zijn verzonden, toegang krijgen tot details of de kaart eruit laten springen voor de volledige ervaring in de mobiele [!INCLUDE [prod_short.md](includes/prod_short.md)]-app. U kunt bij het opstellen van berichten echter geen koppelingen plakken die tot kaarten worden uitgevouwen. Zie voor minimumvereisten voor mobiel [Minimumvereisten voor het gebruik van Business Central](product-requirements.md).
+Ja. De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app kan worden geïnstalleerd vanuit de Teams-desktopapp of browser, of door een beheerder voor alle gebruikers. Eenmaal geïnstalleerd is de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app automatisch beschikbaar in Teams voor iOS en Android. Op mobiele apparaten kunt u alleen kaarten bekijken die door anderen zijn verzonden, toegang krijgen tot details of de kaart eruit laten springen voor de volledige ervaring in de mobiele [!INCLUDE [prod_short.md](includes/prod_short.md)]-app. U kunt bij het opstellen van berichten geen koppelingen plakken die tot kaarten worden uitgevouwen, of contacten zoeken. Zie voor minimumvereisten voor mobiel [Minimumvereisten voor het gebruik van Business Central](product-requirements.md).
 
 ### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Is de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor teams hetzelfde als de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor iOS en Android?
 
@@ -98,7 +101,8 @@ Zie voor informatie over de keuze van Teams-clients en hoe u deze kunt installer
 
 Er zijn slechts kleine verschillen en beperkingen tussen Teams-clients die van invloed kunnen zijn op uw ervaring met de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams. Houd bij het kiezen van een Teams-client rekening met het volgende:
 
-- De camera en locatie zijn niet toegankelijk vanuit het detailvenster in de Teams-desktopapp 
+- De camera en locatie zijn niet toegankelijk vanuit het detailvenster in de Teams-desktopapp.
+- Telefoonnummers kunnen niet worden geactiveerd vanuit het detailvenster in Teams voor iOS, Teams voor Android of Teams in de browser.
 - Als u Microsoft Edge met Teams in de browser gebruikt, kunt u gemakkelijk met meerdere identiteiten en accounts werken door vanuit verschillende profielen in te loggen bij Teams. Voor meer informatie over het gebruik van profielen in Microsoft Edge raadpleegt u [Aanmelden en meerdere profielen maken in Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) bij Microsoft Ondersteuning.
 
 ### <a name="what-is-the-best-way-for-me-to-demonstrate-prod_shortmd-and-microsoft-teams-to-prospective-customers"></a>Wat is voor mij de beste manier om [!INCLUDE [prod_short.md](includes/prod_short.md)] en Microsoft Teams te demonstreren aan potentiële klanten?
@@ -110,6 +114,8 @@ Als u een doorverkopende partner bent, wilt u misschien een omgeving hebben die 
 De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams kan kaarten weergeven voor koppelingen naar klantpagina's en tabellen in [!INCLUDE [prod_short.md](includes/prod_short.md)], zoals de pagina's en tabellen die afkomstig zijn van uw eigen aangepaste extensies of van AppSource.
 
 De velden die op een kaart in Teams worden weergegeven, kunnen ook worden beïnvloed door [!INCLUDE [prod_short.md](includes/prod_short.md)]-aanpassingen die voor uw organisatie zijn geïnstalleerd. Kaarten houden geen rekening met rolspecifieke aanpassingen of gebruikerspersonalisatie. Het venster met kaartdetails toont echter de recorddetails zoals u ze zou zien in [!INCLUDE [prod_short.md](includes/prod_short.md)], inclusief eventuele extensies, rolaanpassingen en gebruikerspersonalisatie.
+
+Wanneer u contacten zoekt, worden de velden die overeenkomen in de tabel **Contacten** en velden die in de zoekresultaten worden weergegeven, niet beïnvloed door enige aanpassing of personalisatie.
 
 ### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Hoe beïnvloeden de machtigingen die vereist zijn door de app mijn privacy?
 
@@ -132,13 +138,105 @@ Neem contact op met uw beheerder voor informatie over hoe uw organisatie omgaat 
 
 ### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Hoe verwijder ik de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams?
 
-Om de app te verwijderen die u voor uzelf hebt geïnstalleerd, gaat u naar een chatvak en zoekt u het pictogram [!INCLUDE [prod_short.md](includes/prod_short.md)] onderaan, klikt u met de rechtermuisknop op het pictogram en kiest u Verwijderen.  
+Om de app te verwijderen die u voor uzelf hebt geïnstalleerd, gaat u naar een chatvak en zoekt u het pictogram [!INCLUDE [prod_short.md](includes/prod_short.md)] onderaan, klikt u met de rechtermuisknop op het pictogram en kiest u **Verwijderen**.  
 
 ### <a name="will-microsoft-continue-to-improve-the-prod_shortmd-app-for-teams"></a>Zal Microsoft de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams blijven verbeteren?
 
-Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende gebruikerscommunity en handelen we naar de beste suggesties. Om te weten wat de toekomst biedt voor de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams raadpleegt u het [Releaseplan voor Dynamics 365](https://aka.ms/dynamics365releaseplan).
+Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende gebruikerscommunity en handelen we naar de beste suggesties. Om te weten wat de toekomst biedt voor de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams raadpleegt u het [Releaseplan voor Dynamics 365](/dynamics365-release-plan/2021wave1/).
 
-Als u wilt deelnemen aan het verbeteren van de app voor Teams, of als u een geweldig idee hebt dat uw werk- of samenwerkingservaringen in Teams zou vereenvoudigen, voeg dan een idee toe of stem op bestaande ideeën op [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
+Als u wilt deelnemen aan het verbeteren van de app voor Teams, of als u een idee hebt dat uw werk- of samenwerkingservaringen in Teams zou vereenvoudigen, voeg dan een idee toe of stem op bestaande ideeën op [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
+
+## <a name="searching-for-contacts"></a>[Contacten zoeken](#tab/contacts)
+
+### <a name="which-tables-does-the-app-search-in"></a>In welke tabellen zoekt de app?
+
+Bij het zoeken naar contacten vanuit de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams, worden uw zoektermen vergeleken met records in de tabel **Contacten** in [!INCLUDE [prod_short.md](includes/prod_short.md)]. 
+
+### <a name="which-fields-in-the-contacts-table-can-i-search"></a>Welke velden in de contactentabel kan ik zoeken?
+
+Terwijl u uw zoektermen in het zoekvak typt, worden de termen vergeleken met de meeste velden in de tabel **Contacten**. De velden omvatten bijvoorbeeld de velden **Nee.**, **Naam**, **Adres**-velden, **Telefoonnr.** of **Mobiel telefoonnr.** en **E-mail**.  
+
+### <a name="do-search-results-include-companies-and-persons"></a>Bevatten zoekresultaten bedrijven en personen?
+
+Ja. In [!INCLUDE [prod_short.md](includes/prod_short.md)] kunnen contacten van het type **Bedrijf** of **Persoon** zijn, waarbij een of meer personen aan een bedrijf kunnen zijn verbonden. In de zoekresultaten hebben bedrijven en personen verschillende pictogrammen.
+
+### <a name="do-contacts-of-any-business-relationship-appear-in-the-results"></a>Komen contacten van een zakelijke relatie in de resultaten voor?
+
+Ja. Sommige contacten vertegenwoordigen mogelijk klanten of leveranciers of beide. Andere contacten zonder gedefinieerde zakelijke relatie vertegenwoordigen doorgaans potentiële klanten. Contacten met andere zakelijke relaties, inclusief eventuele aangepaste relaties die u hebt geconfigureerd in [!INCLUDE [prod_short.md](includes/prod_short.md)], worden ook weergegeven in de zoekresultaten.
+
+### <a name="can-i-look-up-contact-details-during-meetings"></a>Kan ik tijdens vergaderingen contactgegevens opzoeken?
+
+Ja. U kunt contactgegevens, interactiegeschiedenis en gerelateerde documenten voor uw klant of leverancier opzoeken tijdens een Teams-vergadering of bellen terwijl de vergadering plaatsvindt, zonder Teams te verlaten.
+
+U kunt zelfs overal in Teams contactgegevens opzoeken met behulp van het opdrachtvak. U kunt bijvoorbeeld contactgegevens opzoeken in de Teams-agenda om u te helpen bij het opzetten van vergaderingen.
+
+### <a name="how-do-i-view-my-last-interactions-with-a-contact"></a>Hoe bekijk ik mijn laatste interacties met een contact?
+
+In het detailvenster voor een contact worden interactielogboekvermeldingen weergegeven. De interactielogboekvermeldingen geven de geschiedenis weer van interacties die uw organisatie heeft gehad met het specifieke contact. De interacties kunnen bestaan uit e-mails die u hebt uitgewisseld, telefoontjes die u hebt ontvangen of documenten die u hebt verzonden.
+
+Om interacties weer te geven, moet [!INCLUDE [prod_short.md](includes/prod_short.md)] geconfigureerd zijn om interacties bij te houden. Zie voor meer informatie over het loggen van interacties [Interacties met contacten vastleggen](marketing-interactions.md).
+
+### <a name="how-do-i-register-a-teams-call-or-meeting-as-an-interaction"></a>Hoe registreer ik een Teams-gesprek of -vergadering als een interactie?
+
+Zoek in het detailvenster voor een contact de actie **Interactie maken** en kies uit de inkomende of uitgaande oproepen als interactiesjablonen. U kunt ook uw eigen aangepaste interactiesjablonen maken, specifiek voor gebruik met Teams-gesprekken.
+
+### <a name="can-i-call-a-contact-from-the-prod_shortmd-app-for-teams"></a>Kan ik een contactpersoon bellen vanuit de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams?
+
+[!INCLUDE [prod_short.md](includes/prod_short.md)] heeft een beperkte integratie met de belmogelijkheden van Teams. Het is niet mogelijk om direct een VOIP-gesprek te starten vanuit de contactkaart of het venster met contactgegevens. Wanneer u echter de contactgegevens in de Teams-desktopapp bekijkt, kunt u het telefoonnummerveld selecteren om dat nummer te bellen als Teams is ingesteld als uw standaardbel-app op uw apparaat. Om vaste lijnen of mobiele telefoonnummers te bellen met PSTN, het traditionele telefoonsysteem, heeft Teams de Microsoft 365 Business Voice-app nodig. Zie voor meer informatie [Wat is Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
+
+### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>Hoe bekijk ik recente documenten voor een klant of leverancier?
+
+[!INCLUDE [prod_short.md](includes/prod_short.md)] relateert een contact doorgaans aan een klant- of leveranciersrecord die op zijn beurt weer gerelateerd is aan zakelijke transactierecords, zoals verkoopoffertes of inkoopfacturen. Om gerelateerde documenten voor een contactpersoon te bekijken, gaat u naar het detailvenster van het contact en kiest u de veldwaarde **Zakenrelatie** of gebruikt u de acties om naar de gekoppelde klant of leverancier te navigeren. Vouw op de klant- of leverancierspagina het feitenblokvenster uit om statistieken weer te geven voor verschillende documenten waarop u kunt inzoomen. Uw ervaring kan verschillen op basis van uw aanpassingen en personalisatie.
+
+### <a name="how-do-i-search-for-contacts-using-special-characters"></a>Hoe zoek ik contacten met speciale tekens?
+
+U kunt zoekcriteria invoeren met bijna alle Unicode-tekens. [!INCLUDE [prod_short.md](includes/prod_short.md)] reserveert echter de volgende symbolen voor ander gebruik: **=**, **.**, **\**_ en _*@**. Als u deze symbolen in uw zoektermen gebruikt, levert dit mogelijk niet de verwachte resultaten op. Als u de verwachte resultaten niet ziet, plaatst u de symbolen in uw zoektermen tussen enkele aanhalingstekens, bijvoorbeeld **Contoso'='2**.
+
+### <a name="how-can-i-search-contacts-stored-in-a-different-company"></a>Hoe kan ik zoeken naar contacten die in een ander bedrijf zijn opgeslagen?
+
+De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams kan zoeken naar klanten, leveranciers en andere contacten in één bedrijf tegelijk.  
+Om contacten te zoeken die zijn opgeslagen in een ander [!INCLUDE [prod_short.md](includes/prod_short.md)]-bedrijf, opent u [Instellingen](across-teams-settings.md) en verandert u de omgeving en het bedrijf van daaruit.
+
+### <a name="are-prod_shortmd-contacts-different-than-the-ones-in-the-teams-contacts-screen"></a>Zijn [!INCLUDE [prod_short.md](includes/prod_short.md)]-contacten anders dan de contacten in het Teams-contactenscherm?
+
+Ja. Contacten die zijn opgeslagen in [!INCLUDE [prod_short.md](includes/prod_short.md)], vertegenwoordigen zakelijke contacten die beschikbaar zijn voor uw organisatie. Het zijn contacten waarmee u een gevestigde en goed gedefinieerde zakelijke relatie hebt, of contacten die potentiële klanten vertegenwoordigen. Deze contacten zijn doorgaans externe contacten. Ter vergelijking: de contacten die in de lijst Contacten bellen van Teams worden weergegeven, zijn uw eigen contacten. Deze contacten worden niet noodzakelijkerwijs gedeeld met anderen in uw organisatie en vertegenwoordigen doorgaans interne contacten binnen uw organisatie.
+
+### <a name="does-prod_shortmd-synchronize-contacts-with-teams"></a>Synchroniseert [!INCLUDE [prod_short.md](includes/prod_short.md)] contacten met Teams?
+
+Nee. Contacten die zijn opgeslagen in [!INCLUDE [prod_short.md](includes/prod_short.md)], blijven gescheiden van uw contacten die zijn opgeslagen in Teams.
+Er zijn momenteel geen plannen om de twee lijsten samen te synchroniseren.
+
+### <a name="what-is-the-minimum-version-of-prod_shortmd-for-contact-search"></a>Wat is de minimumversie van [!INCLUDE [prod_short.md](includes/prod_short.md)] voor contacten zoeken?
+
+Voor het zoeken naar contacten moet u de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams versie 1.0.4 of hoger hebben geïnstalleerd en u maakt verbinding met [!INCLUDE [prod_short.md](includes/prod_short.md)]-omgevingen van versie 18 of hoger.
+
+### <a name="can-i-search-from-my-mobile-device"></a>Kan ik zoeken vanaf mijn mobiele apparaat?
+
+Zoeken naar contacten is momenteel niet beschikbaar vanuit Teams voor iOS en Teams voor Android.
+
+### <a name="which-permissions-do-i-need-for-contact-search"></a>Welke machtigingen heb ik nodig om contacten te zoeken?
+
+Als u contacten wilt zoeken, hebt u machtiging op objectniveau nodig voor de tabel **Contacten** binnen het [!INCLUDE [prod_short.md](includes/prod_short.md)]-bedrijf dat wordt doorzocht. Om het detailvenster van een contact te bekijken, heeft u ten minste leestoestemming nodig voor de pagina **Contact** binnen het [!INCLUDE [prod_short.md](includes/prod_short.md)]-bedrijf en andere gerelateerde objecten.
+
+### <a name="can-i-use-contact-search-if-im-a-delegated-admin"></a>Kan ik contacten zoeken gebruiken als ik een gedelegeerde beheerder ben?
+
+Ja. U kunt ook contacten en contactgegevens opzoeken als u een gedelegeerde beheerdersrol heeft in een organisatie.
+
+### <a name="is-contact-search-affected-by-api-limits"></a>Wordt het zoeken naar contacten beïnvloed door API-limieten?
+
+Ja. Zoeken naar contacten vanuit Teams is gebaseerd op [!INCLUDE [prod_short.md](includes/prod_short.md)] v2.0-API's en onderhevig aan eventuele API-limieten die het gebruik beheren. U kunt meer lezen over de limieten op [Huidige API-limieten](/dynamics-nav/api-reference/v2.0/dynamics-current-limits).
+
+### <a name="why-does-it-sometimes-ask-me-to-set-up-the-app"></a>Waarom word ik soms gevraagd om de app in te stellen?
+
+Nadat u zich voor de eerste keer hebt aangemeld bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams, zal de app proberen uw voorkeursbedrijf te bepalen in [!INCLUDE [prod_short.md](includes/prod_short.md)]. Als de app het bedrijf niet kan bepalen, moet u mogelijk naar de **Instellingen** gaan en het bedrijf kiezen waarin u wilt zoeken. Deze situatie doet zich bijvoorbeeld voor als u toegang heeft tot meerdere bedrijven in verschillende omgevingen in uw organisatie. In dat geval moet u een bedrijf kiezen voordat u kunt gaan zoeken.  
+
+De app kan u ook vragen naar **Instellingen** te gaan als u geen [!INCLUDE [prod_short.md](includes/prod_short.md)]-abonnement lijkt te hebben of geen [!INCLUDE [prod_short.md](includes/prod_short.md)]-omgevingen of als uw account geen [!INCLUDE [prod_short.md](includes/prod_short.md)]-licentie heeft.
+
+### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Ik zou graag willen zoeken naar items of records uit andere tabellen. Kan ik dit vanuit Teams doen?
+
+Zoeken in andere tabellen is op dit moment niet mogelijk. De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams zoekt alleen in de [!INCLUDE [prod_short.md](includes/prod_short.md)]-contactenlijst, die leveranciers, klanten en andere contacten kan bevatten.
+
+Als u wilt dat de zoekmogelijkheden evolueren en andere tabellen gaan omvatten, moedigen we onze gemeenschap aan om een idee toe te voegen of op bestaande ideeën te stemmen op https://aka.ms/BusinessCentralIdeas.
 
 ## <a name="working-with-cards"></a>[Werken met kaarten](#tab/cards)
 
@@ -153,7 +251,7 @@ De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams reageert op
 
 Bij het plakken van een koppeling naar de root-URL van de webclient, zoals https://businesscentral.dynamics.com, geeft de kaart in plaats daarvan informatie weer om nieuwe gebruikers op weg te helpen met toegang tot [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-### <a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a>Hoe verwijder ik een kaart die ik naar een chat heb gestuurd? 
+### <a name="how-do-i-delete-a-card-i-sent-to-a-chat"></a>Hoe verwijder ik een kaart die ik naar een chat heb gestuurd?
 
 U kunt een kaart die u al naar chat hebt verzonden, niet verwijderen. Maar u kunt het hele bericht waarvan de kaart deel uitmaakt, verwijderen.
 
@@ -167,7 +265,7 @@ Nee. De veldwaarden op een kaart in Teams, inclusief eventuele afbeeldingen, zij
 
 ### <a name="will-others-see-my-card-if-they-dont-have-the-prod_shortmd-app-for-teams"></a>Zullen anderen mijn kaart zien als ze de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams niet hebben? 
 
-Wanneer u een chatbericht opstelt en verzendt dat een kaart bevat, zullen alle gebruikers de kaart zien, zelfs als ze de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams niet hebben geïnstalleerd.
+Wanneer u een chatbericht opstelt en verzendt dat een kaart bevat, zullen alle gebruikers de kaart zien&mdash;zelfs als ze de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams niet hebben geïnstalleerd.
 
 ### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Hoe kom ik erachter tot welk bedrijf een kaart in Teams behoort?
 
@@ -181,13 +279,13 @@ Als u in meerdere [!INCLUDE [prod_short.md](includes/prod_short.md)]-bedrijven w
 
 ### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Als ik ervoor kies om details van een kaart te bekijken, zien andere gebruikers dan mijn detailvenster?
 
-Nee. Hoewel iedereen in de chat de kaart zelf kan zien, verschijnt het detailvenster alleen voor u op uw apparaat wanneer u **Details** kiest. Andere gebruikers moeten **Details** kiezen als ze het detailvenster op hun apparaat willen zien.
+Nee. Hoewel iedereen in de chat of vergadering de kaart zelf kan zien, verschijnt het detailvenster alleen voor u op uw apparaat wanneer u **Details** kiest. Andere gebruikers moeten **Details** kiezen als ze het detailvenster op hun apparaat willen zien.
 
 ### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Kan ik een Teams-gesprek starten vanuit het detailvenster in Teams?
 
-Ja. U kunt een gesprek starten door het gekoppelde nummer te kiezen in een telefoonnummerveld, zoals het veld **Mobiel telefoonnr.** op de kaart **Contact**. Teams moet uw aangewezen belapp zijn.
+Ja. Als u de Teams-desktopapp gebruikt, start u een gesprek door het gekoppelde nummer te kiezen in een telefoonnummerveld, zoals het veld **Mobiel telefoonnr.** op de kaart **Contact**. Teams moet uw aangewezen belapp zijn.
 
-Als u vanuit Teams lokale of internationale vaste lijnen en mobiele telefoons wilt bellen, moet u een Teams-licentie hebben voor zakelijk bellen. Ook moet u Teams instellen als uw gespreksoplossing. Zie voor meer informatie [Uw Teams-spraakoplossing plannen](/microsoftteams/cloud-voice-landing-page) in de Teams-documentatie.
+Als u vanuit Teams lokale of internationale vaste lijnen en mobiele telefoons wilt bellen, vereist Teams dat u een Business Voice-licentie hebt voor zakelijk bellen. Ook moet u Teams instellen als uw gespreksoplossing. Zie voor meer informatie [Uw Teams-spraakoplossing plannen](/microsoftteams/cloud-voice-landing-page) in de Teams-documentatie.
 
 ### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Kan ik documenten afdrukken vanuit het detailvenster in Teams?
 
@@ -211,7 +309,7 @@ Ja. Wanneer u een bericht opstelt en verzendt dat een kaart bevat, zien alle ont
 
 ### <a name="is-the-experience-any-different-for-users-that-are-guests"></a>Is de ervaring anders voor gebruikers die gasten zijn?
 
-Ja. Door gastgebruikers van buiten uw organisatie uit te nodigen om deel te nemen aan chat of een kanaal, krijgen ze een vergelijkbare, maar niet identieke ervaring als gebruikers binnen uw organisatie. Als een gast een bericht ontvangt met een kaart, kan hij of zij dit bekijken. Gasten kunnen ook het detailvenster openen als ze toestemming hebben gekregen voor toegang tot die gegevens in [!INCLUDE [prod_short.md](includes/prod_short.md)] en een [!INCLUDE [prod_short.md](includes/prod_short.md)]-licentie binnen uw organisatie toegewezen hebben gekregen. Als een gast een bericht opstelt, worden koppelingen naar uw [!INCLUDE [prod_short.md](includes/prod_short.md)] niet uitgebreid naar kaarten.
+Ja. Door gastgebruikers van buiten uw organisatie uit te nodigen om deel te nemen aan chat of een kanaal, krijgen ze een vergelijkbare, maar niet identieke ervaring als gebruikers binnen uw organisatie. Als een gast een bericht ontvangt met een kaart, kan hij of zij dit bekijken. Gasten kunnen ook het detailvenster openen als ze toestemming hebben gekregen voor toegang tot die gegevens in [!INCLUDE [prod_short.md](includes/prod_short.md)] en een [!INCLUDE [prod_short.md](includes/prod_short.md)]-licentie binnen uw organisatie toegewezen hebben gekregen. Als een gast een bericht opstelt, worden koppelingen naar hun [!INCLUDE [prod_short.md](includes/prod_short.md)] of de uwe niet uitgebreid naar kaarten.
 
 Zie voor meer informatie over overeenkomsten en verschillen tussen gasten en teamleden [Gastervaring in Teams](/MicrosoftTeams/guest-experience) in de Teams-documentatie.
 
@@ -219,7 +317,6 @@ Zie voor meer informatie over overeenkomsten en verschillen tussen gasten en tea
 
 Gasten hebben geen toegang tot de app-marktplaats om zelf apps te installeren. De app kan echter automatisch voor hen worden geïnstalleerd op basis van het beleid van uw organisatie. Een andere manier voor een gastgebruiker om de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app te installeren is wanneer ze een chatbericht ontvangen met een [!INCLUDE [prod_short.md](includes/prod_short.md)]-kaart. In dit geval kiest de gebruiker de knop **Details** of het menu op de kaart en installeert deze vervolgens de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor gebruik met uw organisatie. Na het installeren van de app krijgt een gebruiker niet automatisch toestemming om toegang te krijgen tot gegevens uit uw [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-<!--TODO - check with Mike on this -->
 ---
 
 ## <a name="see-also"></a>Zie ook

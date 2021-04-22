@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 259fe5539482dfe893c230cb5574e4816788b56e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 19e784695c3864642dd13460e1cb93f6f58d706d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386211"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784802"
 ---
 # <a name="the-basic-experience-extension"></a>De extensie Basiservaring
 Als u Microsoft Dynamics C5 gewend bent, kunnen Microsoft-partners u helpen bij de overgang naar een modernere oplossing die is gebaseerd op [!INCLUDE[prod_short](includes/prod_short.md)], zodat u kunt blijven genieten van dezelfde gestroomlijnde mogelijkheden als Dynamics C5.

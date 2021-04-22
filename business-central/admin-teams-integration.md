@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fc5957695145ad3bbc4225c7c7e18dd7ca0c728
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386311"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882217"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Microsoft Teams-integratie met [!INCLUDE [prod_short](includes/prod_short.md)] beheren
 
@@ -35,6 +35,7 @@ In dit gedeelte worden de minimumvereisten voor de functies van de [!INCLUDE [pr
 
     |Wat|Teams-licentie|[!INCLUDE [prod_short](includes/prod_short.md)]-licentie|
     |----|---|---|
+    |Zoeken naar [!INCLUDE [prod_short](includes/prod_short.md)]-contacten.|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
     |Een link naar een [!INCLUDE [prod_short](includes/prod_short.md)]-record opnemen in een gesprek en het verzenden als een kaart.|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
     |Een kaart van een [!INCLUDE [prod_short](includes/prod_short.md)]-record weergeven in een gesprek.|![vinkje](media/check.png "vinkje")||
     |Meer details van een kaart voor een [!INCLUDE [prod_short](includes/prod_short.md)]-record weergeven in een gesprek.|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
@@ -49,8 +50,8 @@ Als Teams-beheerder kunt u alle apps voor uw organisatie beheren, inclusief de [
 
 Zie de volgende artikelen in de Microsoft Teams-documentatie voor meer informatie:
 
-- [Uw apps beheren in het Microsoft Teams-beheercentrum](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
-- [Installatiebeleid voor apps beheren in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+- [Uw apps beheren in het Microsoft Teams-beheercentrum](/MicrosoftTeams/manage-apps)
+- [Installatiebeleid voor apps beheren in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="in-prod_short"></a>In [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -58,7 +59,7 @@ Zie de volgende artikelen in de Microsoft Teams-documentatie voor meer informati
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-versie:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)]-releasewave 2 van 2020, update 17.3 of hoger. Teams-integratie wordt alleen ondersteund voor [!INCLUDE [prod_short](includes/prod_short.md)] online; niet on-premises.
+    [!INCLUDE [prod_short](includes/prod_short.md)] 2021 releasewave 1 of hoger. Teams-integratie wordt alleen ondersteund voor [!INCLUDE [prod_short](includes/prod_short.md)] online; niet on-premises.
 
 - Codeunit **2718 Page Summary Provider** wordt gepubliceerd als een webservice:
 
@@ -66,8 +67,9 @@ Zie de volgende artikelen in de Microsoft Teams-documentatie voor meer informati
 
 - <a name="permissions"></a>Gebruikersmachtigingen:
 
-    De pagina's en gegevens die gebruikers kunnen bekijken en bewerken in een Teams-gesprek worden voor het grootste deel bepaald door hun machtigingen in [!INCLUDE [prod_short](includes/prod_short.md)].
+    De contactzoekopdrachten, pagina's en gegevens die gebruikers kunnen bekijken en bewerken in een Teams-gesprek worden voor het grootste deel bepaald door hun machtigingen in [!INCLUDE [prod_short](includes/prod_short.md)].
     
+    - Om contacten te zoeken moeten gebruikers ten minste leesbevoegdheid hebben voor de tabel **Contacten**. 
     - Om een [!INCLUDE [prod_short](includes/prod_short.md)]-koppeling te plakken in een Teams-gesprek en deze te laten uitbreiden naar een kaart, moeten gebruikers ten minste leesrechten hebben voor de pagina en de gegevens ervan.
     - Zodra een kaart in een gesprek is ingediend, kan elke gebruiker in dat gesprek die kaart bekijken zonder toestemming voor [!INCLUDE [prod_short](includes/prod_short.md)].
     - Om meer details van een kaart te zien of de record te openen in [!INCLUDE [prod_short](includes/prod_short.md)] moeten gebruikers leesbevoegdheid hebben voor de pagina en de gegevens ervan.
@@ -92,13 +94,13 @@ U voorkomt dat specifieke gebruikers of groepen kaarten naar chats of kanalen st
 
 U kunt ook informatiebarrières gebruiken om te voorkomen dat personen of groepen met elkaar communiceren. Zie voor meer informatie [Informatiebarrières in Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Functies voor het voorkomen van gegevensverlies in het Microsoft 365 Security & Compliance Center kunnen niet specifiek op kaarten worden toegepast. Maar ze kunnen worden toegepast op de chatberichten die de kaarten bevatten. Zie voor het volgen van toekomstige geavanceerde functies, waaronder het inschakelen van DLP voor kaarten [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+Functies voor het voorkomen van gegevensverlies in het Microsoft 365 Security & Compliance Center kunnen niet specifiek op kaarten worden toegepast. Maar ze kunnen worden toegepast op de chatberichten die de kaarten bevatten. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Reageren op gegevensaanvragen
 
 U staat teamleden en teameigenaren toe om berichten te verwijderen die gevoelige kaarten bevatten door een berichtenbeleid in te stellen, zoals: **Eigenaren kunnen verzonden berichten verwijderen** en **Gebruikers kunnen verzonden berichten verwijderen**. Zie voor meer informatie [Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams).
 
-Functies voor het zoeken van inhoud en eDiscovery-naleving in het Microsoft 365 Security & Compliance Center kunnen niet specifiek op kaarten worden toegepast. Maar ze kunnen worden toegepast op de chatberichten die kaarten bevatten. Zie voor het volgen van aankomende nalevingsfuncties voor kaarten [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+Functies voor het zoeken van inhoud en eDiscovery-naleving in het Microsoft 365 Security & Compliance Center kunnen ook op kaarten worden toegepast.
 
 Omdat kaartgegevens in Teams een kopie zijn van gegevens in [!INCLUDE [prod_short](includes/prod_short.md)], kunt u ook [!INCLUDE [prod_short](includes/prod_short.md)]-functies gebruiken om gegevens van een klant op verzoek te exporteren. Zie voor meer informatie over privacy in [!INCLUDE [prod_short](includes/prod_short.md)] [Veelgestelde vragen over privacy voor Business Central-klanten](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

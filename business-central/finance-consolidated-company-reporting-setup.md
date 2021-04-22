@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381050"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786260"
 ---
 # <a name="set-up-company-consolidation"></a>Een bedrijfsconsolidatie instellen
 
@@ -30,6 +30,7 @@ Afhankelijk van de complexiteit van uw bedrijven kunt u consolidatie op twee man
 
 ## <a name="simple-consolidation-setup"></a>Eenvoudige consolidatie instellen
 
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Als de consolidatie ongecompliceerd is, bijvoorbeeld omdat u de enige eigenaar van de te consolideren bedrijfsunits bent, wordt u door de begeleide instellingen **Bedrijfconsolidatie** door de volgende stappen geleid:
 
 * Geef op of er een nieuw geconsolideerd bedrijf moet worden gemaakt of dat de gegevens moeten worden geconsolideerd in een bedrijf dat u al voor de consolidatie hebt gemaakt. Het bedrijf moet geen transacties bevatten.

@@ -1,6 +1,6 @@
 ---
-title: Intelligente inzichten en cloudmigratie | Microsoft Docs
-description: Verbinding maken met intelligente inzichten met Business Central vanuit uw on-premises oplossing. Leer hoe u naar de cloud kunt migreren.
+title: Intelligente inzichten en cloudmigratie
+description: In Business Central online hebt u toegang tot andere online diensten en kunt u intelligente inzichten krijgen die bijvoorbeeld zijn gebaseerd op Azure AI. Lees verder als u overweegt om van on-premises naar de cloud te migreren.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,27 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms. search.keywords: cloud, edge
-ms.date: 10/01/2020
+ms. search.keywords: cloud, migrate, insights
+ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: ca7fd910e70deaebbf8912eecfe6d9c25ddfcc4e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b64b1ad037743364b7bd0f4544dbcdb351e2daba
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385136"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889267"
 ---
-# <a name="intelligent-insights-with-prod_short-online"></a>Intelligente inzichten met [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# <a name="intelligent-insights-in-prod_short-online"></a>Intelligente inzichten in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-Als gebruiker van [!INCLUDE[prod_short](includes/prod_short.md)] online hebt u volledige toegang tot scenario's die zijn gebaseerd op de Intelligente cloud, zoals KPI's die zijn gebaseerd op Machine Learning of wanneer u uw gegevens bekijkt in Power BI. Terwijl [!INCLUDE[prod_short](includes/prod_short.md)] echter een cloud-eerst service is, kunnen ook klanten die hun volledige werklast on-premises of op de intelligente rand, verbonden met de cloud, moeten uitvoeren, dat ook doen.  
+Als gebruiker van [!INCLUDE[prod_short](includes/prod_short.md)] online hebt u volledige toegang tot scenario's die zijn gebaseerd op de Intelligente cloud, zoals KPI's die zijn gebaseerd op Machine Learning of wanneer u uw gegevens bekijkt in Power BI.  
 
-Als u geïnteresseerd bent in [!INCLUDE[prod_short](includes/prod_short.md)], kunt u zich online aanmelden voor een gratis proefversie of kunt u ervoor kiezen te werken met een partner om [!INCLUDE[prod_short](includes/prod_short.md)] lokaal te implementeren op uw keuze van hardware. Vervolgens kunt u bepalen of u intelligente inzichten wilt door verbinding te maken met een tenant in de cloud. Dientengevolge worden de gegevens uit uw geïmplementeerde [!INCLUDE[prod_short](includes/prod_short.md)] on-premises naar de cloud gerepliceerd voor intelligente cloudscenario's.  
+Als u echter [!INCLUDE [prod_short](includes/prod_short.md)] on-premises gebruikt, hebt u geen toegang tot dezelfde inzichten. Als u wilt profiteren van online scenario's, moet u migreren naar [!INCLUDE [prod_short](includes/prod_short.md)] online. Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud voor [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Verbinding maken met de Intelligente cloud vanuit een on-premises oplossing vereist dat uw beheerder informatie over uw database opgeeft. De tools waarmee u uw on-premises implementatie kunt verbinden met [!INCLUDE[prod_short](includes/prod_short.md)] online zijn hetzelfde als die ook worden gebruikt voor migratie van on-premises naar online. Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud voor [!INCLUDE[prod_short](includes/prod_short.md)].  
+## <a name="viewing-insights-in-prod_short-online"></a>Inzichten bekijken in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-## <a name="viewing-intelligent-cloud-insights-in-prod_short-online"></a>Intelligente cloud-inzichten weergeven in [!INCLUDE[prod_short](includes/prod_short.md)] Online
-
-In uw [!INCLUDE[prod_short](includes/prod_short.md)] online-bedrijf bevat de pagina **Intelligente cloud-inzichten** vier belangrijke aandachtspunten voor de meeste bedrijven:
+In [!INCLUDE[prod_short](includes/prod_short.md)] online bevat de pagina **Intelligente cloud-inzichten** vier belangrijke aandachtspunten voor de meeste bedrijven:
 
 - Cashbeschikbaarheid
 - Winstgevendheid van verkoop
@@ -38,19 +36,14 @@ In uw [!INCLUDE[prod_short](includes/prod_short.md)] online-bedrijf bevat de pag
 Naast de KPI-grafieken krijgt u informatie over potentiële aandachtspunten, inclusief achterstallige betalingen. Kies elk inzicht om in te zoomen op de gegevens.  
 
 > [!div class="mx-imgBorder"]
-> ![Intelligente cloud-inzichten](media/across-intelligent-cloud/intelligentcloudApril19.png "Geeft de pagina Intelligente cloud-inzichten weer in Business Central")
+> ![Intelligente cloud-inzichten](media/across-intelligent-cloud/intelligentcloudApril19.png "Geeft de pagina Intelligente cloud-inzichten weer in Business Central online")
 
-De pagina maakt ook verbinding met Power BI voor nog meer inzichten.
-
-## <a name="viewing-intelligent-insights-on-premises"></a>Intelligente cloud-inzichten on-premises weergeven
-
-Wanneer uw Dynamics 365 doorverkopende partner de juiste licentie heeft verkregen voor uw on-premises oplossing om verbinding met de cloud te maken via [!INCLUDE[prod_short](includes/prod_short.md)], kan uw beheerder de verbinding instellen. Als dat is gebeurd, kunt u dezelfde inzichten uit de cloud weergeven in uw on-premises toepassing Afhankelijk van de on-premises oplossing kan de pagina **Intelligente cloud-inzichten** in de homepage worden ingesloten of een aparte pagina zijn, zoals in [!INCLUDE[prod_short](includes/prod_short.md)] online en on-premises.  
+De pagina maakt ook verbinding met Power BI voor nog meer inzichten. Maak eventueel verbinding met Azure AI voor nog meer intelligente inzichten. Zie voor meer informatie [De extensie Verkoop- en voorraadprognose](ui-extensions-sales-forecast.md).  
 
 ## <a name="see-also"></a>Zie ook
 
 [Welkom bij Business Central](index.md)  
-[Intelligente cloud-extensies voor cloudmigratie](ui-extensions-data-replication.md)  
+[Extensies voor cloudmigratie](ui-extensions-data-replication.md)  
 [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

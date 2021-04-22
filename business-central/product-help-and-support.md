@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 10/01/2020
-ms.openlocfilehash: e750221d18c2c4164fb87b575f8f4412392db250
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.date: 04/09/2021
+ms.openlocfilehash: 0487bd06f6a28313e90d6353aecf123a7fc3a708
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388511"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882267"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
@@ -20,7 +20,10 @@ In [!INCLUDE[prod_long](includes/prod_long.md)] geeft de menuoptie Help (het vra
 
 Deze pagina beschrijft de resources die beschikbaar voor u zijn in de verschillende secties van de pagina **Help en ondersteuning**.  
 
-## <a name="finding-answers"></a>Antwoorden zoeken
+> [!TIP]
+> [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
+
+## <a name="find-answers"></a>Antwoorden krijgen
 
 De sectie **Zoeken** bevat koppelingen naar de meest gebruikte plaatsen om antwoorden op uw vragen te vinden. De koppelingen vallen in vier categorieën en worden in de volgende subsecties uitgelegd. Sommige koppelingen kunnen door uw [!INCLUDE[prod_short](includes/prod_short.md)]-partner worden geconfigureerd en daardoor kan het gedrag enigszins anders zijn.  
 
@@ -30,16 +33,16 @@ De sectie **Zoeken** bevat twee koppelingen naar product-Help:
 
 - Help over de pagina die u zojuist bekeek in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Deze koppeling wordt automatisch gegenereerd. Als [!INCLUDE[prod_short](includes/prod_short.md)] de relevante koppeling niet kan vinden, wordt de landingspagina op [Docs.microsoft.com](index.md) voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] weergegeven. Dit kan bijvoorbeeld gebeuren als de pagina onderdeel was van een app die geen contextgevoelige Help heeft toegevoegd aan [!INCLUDE[prod_short](includes/prod_short.md)].  
+  Deze koppeling wordt automatisch gegenereerd. Als [!INCLUDE[prod_short](includes/prod_short.md)] de relevante koppeling niet kan vinden, wordt de landingspagina op [Docs.microsoft.com](index.md) voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] weergegeven. Als de pagina bijvoorbeeld deel uitmaakte van een app die geen contextgevoelige Help-toewijzing toevoegde aan [!INCLUDE[prod_short](includes/prod_short.md)], is de *Leren-koppeling* standaard ingesteld op de landingspagina.  
 - Help-landingspagina voor [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  De functionaliteit in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt beschreven op de site [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central). Zie voor meer informatie de sectie [De site docs.microsoft.com gebruiken voor meer informatie](#using-the-docsmicrosoftcom-site-to-learn-more). Naast de standaardversie kunt u [!INCLUDE[prod_short](includes/prod_short.md)] uitbreiden en aanpassen met apps uit AppSource. Alle apps bieden koppelingen naar de betreffende product-Help zodat u altijd begeleiding kunt vinden voor verschillende werkstromen in uw versie van [!INCLUDE[prod_short](includes/prod_short.md)].  
+  De functionaliteit in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt beschreven op de site [Docs.microsoft.com](/dynamics365/business-central). Zie voor meer informatie de sectie [De site docs.microsoft.com gebruiken voor meer informatie](#use-the-docsmicrosoftcom-site-to-learn-more). U kunt [!INCLUDE[prod_short](includes/prod_short.md)] ook uitbreiden en aanpassen met apps vanuit AppSource. Alle apps bieden koppelingen naar de betreffende product-Help zodat u altijd begeleiding kunt vinden voor verschillende werkstromen in uw versie van [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="community"></a>Community
 
 In het [Business Central-forum](https://community.dynamics.com/business/f) kunt u een vraag indienen en leren van andere leden van de [!INCLUDE[prod_short](includes/prod_short.md)]-community. Partners en Microsoft-werknemers nemen deel aan de conversaties.  
 
-Als u een proefversie van [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt en nog geen partner hebt, kan de community u helpen als u vragen hebt.  
+Als u nog geen partner hebt, kan de community u ook helpen als u vragen hebt. Als u zich bijvoorbeeld hebt aangemeld voor een proefperiode, kan de community een goed startpunt zijn.  
 
 ### <a name="blog"></a>Blog
 
@@ -47,7 +50,7 @@ We spreken ook over nieuwe mogelijkheden op [het Dynamics 365-blog](https://clou
 
 ### <a name="capabilities-coming-soon"></a>Mogelijkheden die binnenkort komen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] wordt elke 6 maanden bijgewerkt met belangrijke functie-updates en met maandelijkse service-updates. Kies de koppeling om het recentste versieplan te bekijken. U kunt ook een overzicht krijgen van aankomende en recent vrijgegeven mogelijkheden in het versieplan van Dynamics 365 op [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
+[!INCLUDE[prod_short](includes/prod_short.md)] wordt elke zes maanden bijgewerkt met belangrijke functie-updates en met maandelijkse service-updates. Kies de koppeling om het recentste versieplan te bekijken. U kunt ook een overzicht krijgen van aankomende en recent vrijgegeven mogelijkheden in [de releaseplannen van Dynamics 365](/dynamics365/release-plans/).  
 
 Voor het overzicht op de langere termijn bevat de [!INCLUDE[prod_short](includes/prod_short.md)] [routekaartpagina](https://dynamics.microsoft.com/roadmap/business-central/) de algemene prioriteiten voor [!INCLUDE[prod_short](includes/prod_short.md)] in de komende jaren.  
 
@@ -72,30 +75,44 @@ Als interne beheerder hebt u toegang tot het beheercentrum waar u de probleemopl
 
 ## <a name="report-a-problem"></a>Een probleem melden
 
-Uw [!INCLUDE[prod_short](includes/prod_short.md)]-resellerpartner helpt u met technische ondersteuning. [!INCLUDE[prod_short](includes/prod_short.md)] wordt verkocht via partners en deze sectie maakt het gemakkelijker voor u om contact met uw resellerpartner op te nemen als zij hun contactgegevens voor ondersteuning hebben ingediend. Als uw [!INCLUDE[prod_short](includes/prod_short.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft. Zie voor meer informatie [Ondersteuningsproblemen escaleren naar Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in de beheerinformatie.  
+Uw [!INCLUDE[prod_short](includes/prod_short.md)]-resellerpartner helpt u met technische ondersteuning. Deze sectie maakt het gemakkelijker voor u om contact met uw resellerpartner op te nemen als zij hun contactgegevens voor ondersteuning hebben ingediend. Als uw [!INCLUDE[prod_short](includes/prod_short.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft. Zie voor meer informatie [Ondersteuningsproblemen escaleren naar Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in de beheerinformatie.  
 
 > [!NOTE]
 > Deze sectie is alleen beschikbaar als u hebt betaald voor een [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Als u zich hebt aangemeld voor een proefversie en [!INCLUDE[prod_short](includes/prod_short.md)] nog niet hebt aangeschaft, hebt u geen resellerpartner en kunt u geen contact opnemen met het ondersteuningsteam van Microsoft. U vindt een [!INCLUDE[prod_short](includes/prod_short.md)] Central-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) voor meer informatie.  
 
 ### <a name="support-contacts"></a>Contactgegevens voor ondersteuning
 
-De sectie **Een probleem melden** toont een e-mailadres of een hyperlink waarmee u contact kunt opnemen met de klantenservice of het team. Als u de [!INCLUDE[prod_short](includes/prod_short.md)]-resellerpartner van een tenant bent, kunt u uw geprefereerde contactgegevens instellen in het beheercentrum. Zie voor meer informatie [De ondersteuning configureren](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in de beheerinhoud voor [!INCLUDE[prod_short](includes/prod_short.md)].  
+De sectie **Een probleem melden** toont een e-mailadres of een hyperlink waarmee u contact kunt opnemen met de klantenservice of het team. Als u de [!INCLUDE[prod_short](includes/prod_short.md)]-resellerpartner van een tenant bent, kunt u uw geprefereerde contactgegevens instellen in het beheercentrum. Zie voor meer informatie [De ondersteuning configureren](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in de beheerinhoud.  
 
 Om uw partner op de hoogte te stellen van een probleem, kiest u de koppeling om een e-mail te sturen of hun ondersteuningssite te openen in een nieuw browsertabblad. U kunt vervolgens de technische informatie over uw Azure Active Directory-tenant toevoegen vanuit de sectie **Problemen oplossen** en alle andere informatie die u relevant vindt.  
 
-## <a name="using-the-docsmicrosoftcom-site-to-learn-more"></a>De site docs.microsoft.com gebruiken voor meer informatie
+## <a name="use-the-docsmicrosoftcom-site-to-learn-more"></a>De site docs.microsoft.com gebruiken voor meer informatie
 
-De site docs.microsoft.com is de standaardlocatie voor informatie over de mogelijkheden van [!INCLUDE[prod_short](includes/prod_short.md)]. De site host [conceptuele inhoud over zakelijke functionaliteit](index.md), [documentatie voor ontwikkelaars](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), gratis [leerpaden en e-learning modules](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) in meerdere gebruikersprofielen en nog veel meer. In deze sectie leert u hoe u door de inhoud van de bedrijfsfunctionaliteit navigeert.  
+De basisversie van [!INCLUDE [prod_short](includes/prod_short.md)] wordt uitgebreid en aangepast door een grote gemeenschap van partners. Elke partner en veel klanten zetten hun eigen Help op hun eigen website in. Maar u kunt altijd naar de site [docs.microsoft.com](index.md) gaan voor meer informatie. De site bevat verschillende soorten inhoud, zoals de volgende:
+
+- [Conceptuele inhoud over zakelijke functionaliteit](index.md)  
+- [Documentatie voor ontwikkelaars](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
+- [Gratis leertrajecten en e-learningmodules voor meerdere gebruikersprofielen](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+
+In deze sectie leert u hoe u door de inhoud van de bedrijfsfunctionaliteit navigeert.  
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
 ### <a name="content-on-the-site"></a>Inhoud op de site
 
-De inhoud die Microsoft publiceert onder het concept voor gebruikersondersteuning *Meer informatie* is gedeeltelijk bedoeld om die vragen te beantwoorden die de gebruikersinterface niet kan beantwoorden, zoals waar die pagina in de grotere werkstroom past, wat er daarna komt, of wat het alternatief zou zijn, enzovoort. Vanuit het product hebt u toegang tot deze inhoud via de koppeling *Meer informatie* in knopinfo of met behulp van de sneltoetscombinatie *Ctrl+F1*.  
+[Deze sectie](index.md) van de docs.microsoft.com-site host inhoud van Microsoft die de *Meer informatie*-pijler in het gebruikersondersteuningsmodel vertegenwoordigt. Gedeeltelijk is de *Meer informatie*-content is bedoeld om die vragen te beantwoorden die de gebruikersinterface niet kan beantwoorden, zoals de volgende:
+
+- Waar past deze pagina in de grotere werkstroom?  
+- Wat komt hierna?  
+- Wat zou het alternatief zijn?  
+
+Vanuit het product hebt u toegang tot deze inhoud via de koppeling *Meer informatie* in knopinfo en instructietips of met behulp van de sneltoetscombinatie *Ctrl+F1*.  
 
 Het navigatievenster aan de linkerkant, de inhoudsopgave, groepeert artikelen op bedrijfsgebied. U leest bijvoorbeeld het artikel [Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md) en dan blijkt uit de inhoudsopgave dat er ook een artikel is met de naam [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Beide artikelen zitten in de groep genaamd *Inkoop*, die artikelen bevat die gerelateerd zijn aan de inkoopmodule in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-De inhoudsopgave bevat een groep inhoud die lokale functionaliteit beschrijft voor de landen/regio's die Microsoft ondersteunt. Als u uw land/regio daar niet ziet staan, komt dat waarschijnlijk omdat uw land/regio is gelokaliseerd door een partner. Zie voor meer informatie [Beschikbaarheid per land/regio en ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+De inhoudsopgave bevat een groep inhoud die [lokale functionaliteit](about-localization.md) beschrijft voor de landen/regio's die Microsoft ondersteunt. Als u uw land/regio daar niet ziet staan, komt dat waarschijnlijk omdat uw land/regio is gelokaliseerd door een partner. Zie voor meer informatie [Beschikbaarheid per land/regio en ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-De inhoud van de lokale functionaliteit beschrijft de mogelijkheden in [!INCLUDE [prod_short](includes/prod_short.md)] die u kunnen helpen compliant te zijn in de ondersteunde markten, zoals belastingaangiftes en andere rapporten. In sommige gevallen is het verschil tussen de standaardversie en de landspecifieke versie onzichtbaar voor gebruikers. In andere gevallen moeten gebruikers op een specifieke manier rapportage of elektronische facturering instellen. Als u een beschrijving van een bepaalde knop of actie niet kunt vinden in het standaardgedeelte van de inhoud op de site docs.microsoft.com, kunt u deze hopelijk vinden in de sectie *Lokale functionaliteit*.  
+De inhoud van de lokale functionaliteit beschrijft de mogelijkheden in [!INCLUDE [prod_short](includes/prod_short.md)] die u kunnen helpen compliant te zijn in de ondersteunde markten, zoals belastingaangiftes en andere rapporten. In sommige gevallen is het verschil tussen de standaardversie en de landspecifieke versie onzichtbaar voor gebruikers. In andere gevallen moeten gebruikers op een specifieke manier rapportage of elektronische facturering instellen. Als u een beschrijving van een bepaalde knop of actie niet kunt vinden in het algemene gedeelte, kunt u deze hopelijk vinden in het gedeelte *Lokale functionaliteit*.  
 
 ### <a name="finding-other-content"></a>Andere inhoud zoeken
 
@@ -106,7 +123,7 @@ Als u op een artikel terechtkomt dat uw vraag niet beantwoordt, kunt u op twee m
   Op deze manier kunt u filteren op woorden die worden gebruikt in de titels van de verschillende artikelen. Typ bijvoorbeeld *factuur* en kies vervolgens een van de aangeboden koppelingen, zoals [Factuurafronding instellen](finance-set-up-invoice-rounding.md) of [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md).  
 
   Onder elke koppeling kunt u zien waar dat artikel staat in de inhoudsopgave. Op die manier kunt u gemakkelijk zien of het artikel zich bijvoorbeeld in de sectie Inkoop of in de sectie voor Australische lokale functionaliteit bevindt.  
-- Gebruik het veld **Zoeken** in de rechterbovenhoek van de website
+- Het veld **Zoeken** in de rechterbovenhoek van de website gebruiken
 
   Op deze manier kunt u op elke term zoeken. De site doorzoekt vervolgens alle inhoud op die term of uitdrukking. Zoek naar *factuur* en blader door de lijst met honderden artikelen in de [!INCLUDE [prod_short](includes/prod_short.md)]-inhoud die dat woord ergens in de tekst gebruiken.  
 
@@ -120,9 +137,13 @@ De inhoud is geschreven in het Engels en gepubliceerd op URL's met *en-us* als d
 
 Voor elke taal wordt de inhoudsopgave vertaald, maar de inhoud in de sectie *Lokale functionaliteit* is in het Engels, behalve voor het land/regio dat overeenkomt met de huidige taal. Bijvoorbeeld in de Deense versie van de docs.microsoft.com-site (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`) kunt u de vermeldingen voor lokale Australische functionaliteit in het Deens zien in de inhoudsopgave, maar de artikelen zijn in het Engels. Alleen de artikelen voor Deense lokale functionaliteit worden in het Deens vertaald.  
 
-### <a name="providing-feedback"></a>Feedback geven
+### <a name="recommended-content"></a>Aanbevolen inhoud
 
-Op docs.microsoft.com heeft elk artikel twee knoppen aan het einde van het artikel. De knop *Productfeedback* stuurt u naar de Ideeën-site en de knop *Aanmelden om documentatiefeedback te geven* laat u feedback geven over de inhoud via GitHub. In beide gevallen moet u een account maken als u er nog geen hebt. Voor *productfeedback* moet u zich aanmelden met het e-mailadres van uw werk of organisatie. Voor *toegang tot GitHub* kunt u elk e-mailadres gebruiken wanneer u een account maakt.  
+In maart 2021 verscheen onder de meeste artikelen op de site docs.microsoft.com een nieuwe sectie. De sectie **Aanbevolen inhoud** wordt automatisch gegenereerd op basis van hoe elk artikel wordt gebruikt met de rest van de site. De koppelingen zijn niet statisch en zullen in de loop van de tijd veranderen.
+
+### <a name="tell-us-what-you-think"></a>Vertel ons wat u denkt
+
+Op docs.microsoft.com heeft elk artikel twee knoppen aan het einde van het artikel. De knop *Dit product* stuurt u naar de Ideeën-site en met de knop *Deze pagina* kunt u feedback geven over de inhoud via GitHub. In beide gevallen moet u een account maken als u er nog geen hebt. Voor *productfeedback* moet u zich aanmelden met het e-mailadres van uw werk of organisatie. Voor *toegang tot GitHub* kunt u elk e-mailadres gebruiken wanneer u een account maakt.  
 
 We verwelkomen uw bijdragen, zowel als pull-verzoeken met suggesties of correcties voor de inhoud, en als GitHub-problemen met bugs of vragen. Maar houd er rekening mee dat feedback en bijdragen aan de *dynamics365smb-docs*-repo gaan over de inhoud, niet over het product.  
 
@@ -131,16 +152,23 @@ We verwelkomen uw bijdragen, zowel als pull-verzoeken met suggesties of correcti
 
 ### <a name="navigating-to-other-parts-of-the-site"></a>Navigeren naar andere delen van de site
 
-De site docs.microsoft.com host inhoud voor andere producten, evenals andere soorten inhoud. Gebruik de koppelingen boven aan de site bijvoorbeeld om naar de site [Leren](/learn/) te navigeren of naar [Releaseplannen voor Dynamics 365](/dynamics365/release-plans/). U kunt bijvoorbeeld ook een koppeling naar de site [Dynamics 365-community](https://community.dynamics.com/) vinden.  
+De site docs.microsoft.com host inhoud voor andere producten en andere soorten inhoud. Gebruik de koppelingen boven aan de site bijvoorbeeld om naar de [Microsoft Learn-site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) of de [Dynamics 365-releaseplannen](/dynamics365/release-plans/) te gaan. U kunt bijvoorbeeld ook een koppeling naar de site [Dynamics 365-community](https://community.dynamics.com/) vinden.  
+
+## <a name="apps-and-other-solutions"></a>Apps en andere oplossingen
+
+Als uw [!INCLUDE [prod_short](includes/prod_short.md)] functionaliteit bevat die niet door Microsoft wordt geleverd, dan levert de aanbieder van die functionaliteit ook *Meer informatie*-inhoud op hun eigen website. U kunt deze inhoud op dezelfde manier openen als in de standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)], zoals door de sneltoets *Ctrl+F1* te gebruiken.  
+
+Hetzelfde geldt als u [!INCLUDE [prod_short](includes/prod_short.md)] on-premises gebruikt.  
 
 ## <a name="see-also"></a>Zie ook
 
 [Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)  
 [Hoe vind ik een partner-reseller?](across-faq.md#findpartner)  
+[Help-systeem (alleen beschikbaar in het Engels)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blog-bericht: De juiste resources zoeken en feedback geven](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Documenten voor Business Central-ontwikkelaars en beheerders](/dynamics365/business-central/dev-itpro/)  
 [Resources voor Help en ondersteuning voor partners](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Technische ondersteuning](/dynamics365/business-central/dev-itpro/technical-support)  
-
+[Microsoft Learn-site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

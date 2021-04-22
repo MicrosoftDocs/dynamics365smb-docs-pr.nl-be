@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d61b235369a25fe04157b7af280f8756900d3f8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8bac106f5f75cd5ebdce8b5da392a1e316184144
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376674"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783909"
 ---
 # <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
 U gebruikt bankrekeningen in [!INCLUDE[prod_short](includes/prod_short.md)] om uw banktransacties bij te houden. Bedragen op rekeningen kunnen worden uitgedrukt in de lokale valuta of in een vreemde valuta. Nadat u bankrekeningen hebt ingesteld, kunt u ook de optie voor het afdrukken van cheques gebruiken.<br><br>  
@@ -28,7 +28,7 @@ U gebruikt bankrekeningen in [!INCLUDE[prod_short](includes/prod_short.md)] om u
 3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie. U kunt echter ook het beginsaldo toepassen als onderdeel van het proces voor het maken van algemene gegevens in nieuwe bedrijven. U kunt dit doen met behulp van de begeleide-instelling **Bedrijfsgegevens migreren**. Zie voor meer informatie [Aan de slag](product-get-started.md).
+> Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie. U kunt echter ook het beginsaldo toepassen als onderdeel van het proces voor het maken van algemene gegevens in nieuwe bedrijven. U kunt dit doen met behulp van de begeleide-instelling **Bedrijfsgegevens migreren**. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Uw bankrekening instellen om bankbestanden te importeren of te exporteren
 Velden op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart** zijn gerelateerd om bankfeeds en -bestanden te importeren en te exporteren. Zie voor meer informatie [De AMC Banking 365 Fundamentals-extensie](ui-extensions-amc-banking.md) gebruiken en [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).

@@ -8,20 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385211"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882191"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problemen met Microsoft Teams-integratie oplossen met [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Dit artikel bevat informatie over het identificeren en oplossen van problemen die u kunt ondervinden tijdens het gebruik van Microsoft Teams met [!INCLUDE [prod_short](includes/prod_short.md)], als een typische gebruiker of beheerder.
+
+## <a name="the-sign-in-link-doesnt-work"></a>De aanmeldkoppeling werkt niet
+
+Als u probeert in te loggen bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams, onmiddellijk na het installeren van de app, en de aanmeldkoppeling niet reageert, kan het zijn dat de app de installatie niet volledig heeft voltooid. Om het probleem op te lossen logt u uit bij uw Teams-client en logt u vervolgens opnieuw in.
+
+## <a name="the-settings-page-is-empty"></a>De pagina Instellingen is leeg
+
+U moet eerst inloggen om bij uw instellingen te komen. Om in te loggen op de app, plakt u een koppeling naar een [!INCLUDE [prod_short.md](includes/prod_short.md)]-record of probeert u contacten te zoeken. Beide acties leiden u door een aanmeldingservaring, waarna u de pagina **Instellingen** kunt gebruiken.
+
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Ik ben van bedrijf veranderd, maar het lijkt niet te werken
+
+Nadat u het bedrijf op de pagina **Instellingen** hebt gewijzigd, merkt u misschien dat de vervolgkeuzelijst met het opdrachtvak aangeeft dat u nog steeds naar het vorige bedrijf zoekt. Dit probleem treedt op wanneer u de pagina **Instellingen** rechtstreeks vanuit het opdrachtvenster opent. In dit geval is het bedrijf succesvol gewijzigd en zoekt u in feite in het bedrijf waarnaar u bent overgeschakeld. Het probleem is dat de vervolgkeuzelijst met het opdrachtvak nog niet is bijgewerkt. Als u wilt dat de vervolgkeuzelijst nauwkeurig het bedrijf weergeeft waarin u zoekt, sluit u [!INCLUDE [prod_short.md](includes/prod_short.md)] of maakt u het los vanuit het opdrachtvenster en opent u de app opnieuw.
+
+
+<!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
+
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Fout 'Er is iets fout gegaan' bij het zoeken naar contacten
+
+Deze fout kan optreden wanneer u zoekt in een bedrijf dat niet is geïnitialiseerd of niet meer reageert. U kunt bijvoorbeeld niet zoeken in een nieuw proefbedrijf dat de gebruiksvoorwaarden nog niet heeft geaccepteerd. Om dit probleem op te lossen probeert u zich aan te melden bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-webclient, en handelt u naar of sluit u eventuele initiële dialoogvensters die verschijnen.
+
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Fout 'De contacten-API is niet gevonden' bij het zoeken naar contacten
+
+Dit probleem kan worden veroorzaakt door aanpassingen of brancheoplossingen die een contact-API beïnvloeden, wijzigen of niet bieden in [!INCLUDE [prod_short.md](includes/prod_short.md)]. Neem contact op met uw beheerder of ondersteunende partner als het probleem zich blijft voordoen.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Geen van mijn koppelingen breidt zich uit tot een kaart 
 
@@ -36,7 +59,7 @@ Als u dit probleem ondervindt, kunt u het volgende proberen:
 
 2. Controleer vervolgens of u bent aangemeld met de juiste identiteit.
 
-    Ga in Teams naar een willekeurige chat en kies onder het vak voor het opstellen van berichten het pictogram [!INCLUDE [prod_short](includes/prod_short.md)]. Als het venster verschijnt, controleert u of de gebruiker als wie u bent verbonden, overeenkomt met wat u gebruikt om verbinding te maken met [!INCLUDE [prod_short](includes/prod_short.md)].
+    In Teams gaat u naar een chat, onder het vak voor het samenstellen van een bericht, klikt u met de rechtermuisknop op het pictogram [!INCLUDE [prod_short](includes/prod_short.md)] en kiest u vervolgens **Instellingen**. Als het venster verschijnt, controleert u of de gebruiker als wie u bent verbonden, overeenkomt met wat u gebruikt om verbinding te maken met [!INCLUDE [prod_short](includes/prod_short.md)].
 
 3. Zorg dat codeunit 2718 **Page Summary Provider** is gepubliceerd als een webservice.
 
@@ -48,9 +71,8 @@ Als u dit probleem ondervindt, kunt u het volgende proberen:
 
 Een koppeling wordt in de volgende situaties niet uitgebreid naar een kaart:
 
-- De koppeling is gericht op een pagina van een type dat geen record vertegenwoordigt. Het kan bijvoorbeeld een koppeling zijn naar het rolcentrum van [!INCLUDE [prod_short](includes/prod_short.md)]. U kunt het paginatype controleren met behulp van het pagina-inspectievenster in de webclient in [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie over pagina-inspectie [Pagina's inspecteren](across-inspect-page.md).
-- De koppeling is gericht op een pagina die (op technisch niveau) niet is verbonden met een brontabel in [!INCLUDE [prod_short](includes/prod_short.md)]. U kunt controleren of een pagina een brontabel heeft met het pagina-inspectievenster in de webclient in [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie over pagina-inspectie [Pagina's inspecteren](across-inspect-page.md). 
-- Teams ondersteunt in sommige functies geen koppelingsvoorbeelden. Wanneer u bijvoorbeeld een chat opent, u in een vergadering zit of u een gast bent bij een andere organisatie.
+- De koppeling is gericht op een pagina die (op technisch niveau) niet is verbonden met een brontabel in [!INCLUDE [prod_short](includes/prod_short.md)]. U kunt controleren of een pagina een brontabel heeft met het pagina-inspectievenster in de webclient in [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie over pagina-inspectie [Pagina's inspecteren](across-inspect-page.md).
+- Teams ondersteunt in sommige functies geen koppelingsvoorbeelden. Wanneer u bijvoorbeeld een chat uitklapt of u een gast bent bij een andere organisatie.
 - Teams stopt geruisloos na 15 seconden met proberen de kaart weer te geven, bijvoorbeeld vanwege netwerkproblemen.
 - Teams mag de koppeling niet uitvouwen als u al een koppeling in hetzelfde berichtopstelvak hebt geplakt en de kaart hebt verwijderd.
 
@@ -66,10 +88,6 @@ Voorbeeld:
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
 Voor technische details over [!INCLUDE [prod_short](includes/prod_short.md)]-URL's, zie [Webclient-URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) in de [!INCLUDE [prod_short](includes/prod_short.md)] Help voor ontwikkelaars en IT Pro.
-
-## <a name="the-card-is-displayed-in-the-message-compose-box-but-selecting-the-details-button-does-nothing"></a>De kaart wordt weergegeven in het berichtopstelvak, maar het selecteren van de knop Details doet niets 
-
-Nadat een koppeling is uitgevouwen tot een kaart in het berichtopstelvak, moet u het bericht naar de chat sturen voordat u de knop **Details** kunt gebruiken.
 
 ## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Het detailvenster wordt geopend, maar toont een fout voordat details worden weergegeven
 
@@ -89,7 +107,7 @@ Dit probleem kan worden veroorzaakt door een paar dingen: gebrek aan machtiginge
 
     Zie voor meer informatie over minimale browservereisten [Minimumvereisten voor gebruik van [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Ik heb problemen met de camera of locatie in Teams 
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Ik heb problemen met de camera of locatie in Teams
 
 Tijdens gebruik van [!INCLUDE [prod_short](includes/prod_short.md)]-functies in het detailvenster waarvoor toegang tot uw locatie of apparaatcamera is vereist, moet u Teams eerst toestemming geven om toegang te krijgen tot deze apparaatfuncties.  
 

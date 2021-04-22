@@ -1,5 +1,5 @@
 ---
-title: E-mail instellen in Business Central | Microsoft Docs
+title: E-mail instellen in Business Central
 description: Beschrijft hoe u e-mailaccounts verbindt met Business Central, zodat u uitgaande berichten kunt verzenden zonder een andere app te hoeven openen.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.date: 06/15/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470449"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889164"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Mensen in bedrijven sturen dagelijks informatie en documenten, zoals verkoop- en inkooporders en facturen, per e-mail. Beheerders kunnen dat gemakkelijker maken door een of meer e-mailaccounts te verbinden met [!INCLUDE[prod_short](includes/prod_short.md)], zodat u documenten kunt verzenden zonder een e-mailapp te hoeven openen. U kunt elk bericht afzonderlijk opstellen met basisopmaakhulpmiddelen, zoals lettertypen, stijlen, kleuren, enzovoort, en bijlagen tot 100 MB toevoegen. Beheerders kunnen ook rapportlay-outs instellen die alleen de belangrijkste informatie uit documenten bevatten. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
@@ -37,12 +37,12 @@ De volgende tabel beschrijft de e-mailextensies die standaard beschikbaar zijn.
 
 |Extensie  |Omschrijving  |Voorbeelden van wanneer te gebruiken  |
 |---------|---------|---------|
-|**Microsoft 365**|Iedereen verstuurt e-mail vanuit een gedeelde mailbox in Exchange Online.|Wanneer alle berichten bijvoorbeeld van dezelfde afdeling komen, verstuurt uw verkooporganisatie berichten vanaf een sales@cronus.com-account. Dit vereist dat u een gedeelde mailbox instelt in het Office 365-beheercentrum. Zie voor meer informatie [Gedeelde mailboxen](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365**|Iedereen verstuurt e-mail vanuit een gedeelde mailbox in Exchange Online.|Wanneer alle berichten bijvoorbeeld van dezelfde afdeling komen, verstuurt uw verkooporganisatie berichten vanaf een sales@cronus.com-account. Dit vereist dat u een gedeelde mailbox instelt in het Microsoft 365-beheercentrum. Zie voor meer informatie [Gedeelde mailboxen](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |**Huidige gebruiker**|Iedereen verstuurt e-mail vanaf het account waarmee ze zich hebben aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)].|Communicatie vanuit individuele accounts toestaan.|
 |**Overige (SMTP)**|SMTP-protocol gebruiken om e-mails te verzenden.|Communicatie via uw SMTP-mailserver toestaan. |
 
 > [!NOTE]
-> De extensies **Microsoft 365** en **Huidige gebruiker** gebruiken de accounts die u voor gebruikers instelt in het Microsoft 365-beheercentrum, voor uw Office 365-abonnement. Om e-mail te verzenden met de extensies moeten gebruikers een geldige licentie hebben voor Exchange Online. 
+> De extensies **Microsoft 365** en **Huidige gebruiker** gebruiken de accounts die u voor gebruikers instelt in het Microsoft 365-beheercentrum, voor uw Microsoft 365-abonnement. Om e-mail te verzenden met de extensies moeten gebruikers een geldige licentie hebben voor Exchange Online. 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
@@ -51,6 +51,9 @@ Als u al gebruikmaakt van [!INCLUDE[prod_short](includes/prod_short.md)] en e-ma
 
 > [!NOTE]
 > Als u aanpassingen heeft die afhankelijk zijn van de oude SMTP-e-mailconfiguratie, bestaat de kans dat er iets misgaat met uw aanpassingen als u e-mailextensies gaat gebruiken. We raden u aan de extensies in te stellen en te testen voordat u de functieschakelaar inschakelt voor verbeterde e-mailmogelijkheden.
+
+> [!IMPORTANT]
+> Als u [!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt, kunt u de OAuth 2.0-verificatiemethode niet gebruiken.<br> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt u OAuth 2.0 gebruiken voor verificatie, maar u moet een toepassingsregistratie maken in de Azure-portal en vervolgens de begeleide instelling **Azure Active Directory instellen** in [!INCLUDE[prod_short](includes/prod_short.md)] gebruiken om verbinding te maken met Azure AD. Zie voor meer informatie [Een app-registratie voor Business Central maken in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>E-mailaccounts toevoegen
 De begeleide instelling **E-mail instellen** kan u helpen snel aan de slag te gaan met e-mails.
@@ -61,9 +64,10 @@ De begeleide instelling **E-mail instellen** kan u helpen snel aan de slag te ga
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **E-mailaccounts instellen** in en kies de desbetreffende koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
+
 <!--
 > [!NOTE]
-> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>E-mailscenario's toewijzen aan e-mailaccounts
@@ -89,10 +93,10 @@ U kunt rapporten gebruiken om belangrijke informatie uit verkoop- en inkoopdocum
 2. Selecteer op de pagina **Rapportselectie - Verkoop** in het veld **Gebruik** de optie **Factuur**.
 3. Selecteer op een nieuwe regel in het veld **Rapport-ID** bijvoorbeeld standaardrapport 1306.
 4. Schakel het selectievakje **Gebruiken voor hoofdtekst van e-mailbericht** in.
-5. Kies het veld **Indelingscode van hoofdtekst van e-mailbericht** en selecteer een indeling in de vervolgkeuzelijst.
+5. Kies het veld **Indelingsomschrijving van hoofdtekst van e-mailbericht** en selecteer vervolgens een lay-out in de lijst.
 
-    Met rapportlay-outs wordt zowel de stijl als de inhoud van de e-mailhoofdtekst gedefinieerd, inclusief teksten zoals een begroeting, die voorafgaan aan de documentinformatie. U kunt alle beschikbare rapportindelingen bekijken als u **Selecteren vanuit volledige lijst** kiest.
-6. Als u de lay-out wilt weergeven of bewerken waarop de e-mailtekst is gebaseerd, selecteert u op de pagina **Aangepaste rapportlay-outs** de lay-out en vervolgens de actie **Lay-out bewerken**.
+    Met rapportlay-outs wordt zowel de stijl als de inhoud van de e-mailhoofdtekst gedefinieerd, inclusief teksten zoals een begroeting, die voorafgaan aan de documentinformatie. Als uw organisatie veel lay-outs heeft, kunt u alle beschikbare rapportlay-outs zien als u **Selecteren vanuit volledige lijst** kiest.
+6. Als u de lay-out wilt weergeven of bewerken waarop de e-mailtekst is gebaseerd, selecteert u op de pagina **Aangepaste rapportlay-outs** de lay-out en kiest u vervolgens de actie **Lay-out bijwerken**.
 7. Als u klanten wilt aanbieden om voor verkoop elektronisch te betalen, kunt u de gerelateerde betalingsservice, zoals PayPal, instellen en vervolgens ook de PayPal-informatie en -koppeling in de e-mailtekst invoegen. Zie [Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 8. Kies de knop **OK**.
 
@@ -140,7 +144,7 @@ Vervolgens verbindt u [!INCLUDE[prod_short](includes/prod_short.md)] met Exchang
 ## <a name="setting-up-email-for-business-central-on-premises"></a>E-mail instellen voor Business Central On-Premises 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan worden geïntegreerd met services die zijn gebaseerd op Microsoft Azure. U kunt bijvoorbeeld Cortana Intelligence voor slimmere cashflowprognoses gebruiken, Power BI gebruiken om uw bedrijf te visualiseren en Exchange Online gebruiken voor het verzenden van e-mail. Integratie met deze services is gebaseerd op een app-registratie in Azure Active Directory. De app-registratie biedt verificatie- en autorisatieservices voor communicatie. Om de e-mailmogelijkheden in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises te gebruiken, moet u [!INCLUDE[prod_short](includes/prod_short.md)] registreren als een app in de Azure Portal en vervolgens [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met de app-registratie. In de volgende secties wordt uitgelegd hoe u dat doet.
 
-### <a name="create-an-app-registration-for-prod_short-in-azure-portal"></a>Maak een app-registratie voor [!INCLUDE[prod_short](includes/prod_short.md)] in Azure Portal
+### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Een app-registratie voor Business Central maken in Azure Portal
 De stappen om [!INCLUDE[prod_short](includes/prod_short.md)] te registreren in Azure Portal worden beschreven in [Een toepassing registreren in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). De instellingen die specifiek zijn voor de e-mailmogelijkheden, zijn de gedelegeerde machtigingen die u verleent aan uw app-registratie. De volgende tabel bevat de minimale machtigingen.
 
 |API-/machtigingsnaam  |Soort  |Omschrijving  |
@@ -148,16 +152,28 @@ De stappen om [!INCLUDE[prod_short](includes/prod_short.md)] te registreren in A
 |Microsoft Graph/User.Read |Gedelegeerd|Aanmelden en gebruikersprofiel lezen.         |
 |Microsoft Graph/Mail.ReadWrite |Gedelegeerd|E-mailberichten opstellen.         |
 |Microsoft Graph/Mail.Send|Gedelegeerd|E-mailberichten verzenden.         |
-|Microsoft Graph/offline_access|Gedelegeerd|Toestemming voor gegevenstoegang behouden. <!--need to verify this-->|
+|Microsoft Graph/offline_access|Gedelegeerd|Toestemming voor gegevenstoegang behouden.|
 
-> [!TIP]
-> Wanneer u de app-registratie maakt, moet u rekening houden met de volgende informatie. U hebt deze nodig om [!INCLUDE[prod_short](includes/prod_short.md)] te verbinden met uw app-registratie.
-> 
-> * Id van toepassing (client) 
-> * Omleidings-URI (optioneel)
-> * Clientgeheim
+Als u een oude SMTP-instelling of de SMTP-connector gebruikt en OAuth voor verificatie wilt gebruiken, zijn de machtigingen iets anders. De volgende tabel bevat de machtigingen.
+
+|API-/machtigingsnaam  |Soort  |Omschrijving  |
+|---------|---------|---------|
+|Microsoft Graph / offline_access|Gedelegeerd|Toestemming voor gegevenstoegang behouden.|
+|Microsoft Graph / openid|Gedelegeerd|Log gebruikers in.|
+|Microsoft Graph/User.Read |Gedelegeerd|Aanmelden en gebruikersprofiel lezen.         |
+|Microsoft Graph / SMTP.Send|Gedelegeerd|Verzend e-mails vanuit mailboxen met SMTP AUTH.         |
+|Office 365 Exchange Online / User.Read |Gedelegeerd|Meld u aan en lees het gebruikersprofiel.         |
+
+Wanneer u de app-registratie maakt, moet u rekening houden met de volgende informatie. U hebt deze nodig om [!INCLUDE[prod_short](includes/prod_short.md)] te verbinden met uw app-registratie.
+ 
+* Id van toepassing (client) 
+* Omleidings-URI (optioneel)
+* Clientgeheim
 
 Voor algemene richtlijnen voor het registreren van een app raadpleegt u [Quickstart: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app). 
+
+> [!NOTE]
+Als u problemen ondervindt bij het gebruik van de oude SMTP-instelling om e-mail te verzenden nadat u [!INCLUDE[prod_short](includes/prod_short.md)] hebt verbonden met uw app-registratie, kan het zijn dat SMTP AUTH niet is ingeschakeld voor uw tenant. We raden u aan om in plaats daarvan de e-mailconnectoren Microsoft 365 en Huidige gebruiker te gebruiken, omdat deze de API's van Microsoft Graph Mail gebruiken. Als u echter de SMTP-instellingen moet gebruiken, kunt u SMTP AUTH inschakelen. Zie voor meer informatie [Geverifieerde client SMTP-verzending (SMTP AUTH) in- of uitschakelen Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>[!INCLUDE[prod_short](includes/prod_short.md)] verbinden met uw app-registratie
 Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUDE[prod_short](includes/prod_short.md)] de begeleide instelling **AAD-registratie van e-mailtoepassing** om [!INCLUDE[prod_short](includes/prod_short.md)] ermee te verbinden.
@@ -199,6 +215,7 @@ Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUD
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] installeren op mijn mobiele apparaat](install-mobile-app.md)
-
+[[!INCLUDE[prod_short](includes/prod_short.md)] installeren op mijn mobiele apparaat](install-mobile-app.md)
+[E-mailtelemetrie analyseren (beheerinhoud)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

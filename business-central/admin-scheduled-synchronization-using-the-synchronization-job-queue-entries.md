@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385336"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889218"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Een synchronisatie plannen tussen Business Central en Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

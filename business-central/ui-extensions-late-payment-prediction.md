@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386861"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787364"
 ---
 # <a name="the-late-payment-prediction-extension"></a>De extensie Voorspelling van te late betaling  
 Effectief beheer van tegoeden is belangrijk voor de algemene financiële status van een bedrijf. De extensie Voorspelling van te late betaling kan u helpen uitstaande tegoeden te reduceren en uw inningsstrategie af te stemmen door te voorspellen of verkoopfacturen op tijd worden betaald. Als bijvoorbeeld wordt voorspeld dat een betaling te laat zal zijn, kunt u besluiten de betalingsvoorwaarden of de betalingsmethode voor de klant aan te passen.
@@ -108,7 +108,7 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 8. Voer op het sneltabblad **Aanmeldingsgegevens van mijn model** de API-URL en API-sleutel voor uw model op.  .  
 
 ## <a name="see-also"></a>Zie ook  
-[Documentatie van Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
+[Documentatie van Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Business Central aanpassen met extensies](ui-extensions.md)  
 [Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
 

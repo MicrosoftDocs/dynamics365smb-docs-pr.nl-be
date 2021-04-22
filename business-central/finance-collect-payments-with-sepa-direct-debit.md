@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 31614ffce745213f8af7b3440e886d96a02d39a6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f18bc08a6bb0a2581c8e0983ffa029c07a34cb64
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380543"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786360"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Betalingen verzamelen via automatische incasso van SEPA
 Met instemming van de klant kunt u betalingen rechtstreeks vanaf de bankrekening van de klant verzamelen volgens de SEPA-indeling.  

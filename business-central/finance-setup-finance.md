@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a659fd4edfcbeccf65204f30685ce5b3cf527399
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f93eaa38b07a5135aafa22b21253d1e99a8d0406
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381943"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788114"
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
 Voordat u kunt beginnen met de uitvoering van uw bedrijf, moet u regels en standaardinstellingen opgeven voor de manier waarop u financiële processen voor het bedrijf wilt beheren. Ten eerste moet u de kern van de boekhoudadministratie van het bedrijf instellen: het rekeningschema. Vervolgens stelt u de boekingsgroepen in, waarmee standaard-grootboekrekeningen efficiënter kunnen worden toegewezen aan klanten, leveranciers en artikelen.

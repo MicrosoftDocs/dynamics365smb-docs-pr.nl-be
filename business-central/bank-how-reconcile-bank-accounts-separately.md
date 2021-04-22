@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08b7f6c092267b965af491cd80144950db138c3d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388711"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786819"
 ---
 # <a name="reconcile-bank-accounts"></a>Bankrekeningen afstemmen
 
@@ -40,11 +40,11 @@ Wanneer de waarde in het veld **Totaalsaldo** in het deelvenster **Bankafschrift
 
 Regels die niet kunnen worden afgestemd, aangeduid met een waarde in het veld **Verschil**, blijven na boeking op de pagina **Bankreconciliatie** staan. Er is daarmee een verschil geconstateerd dat u moet oplossen voordat u de afstemming van de bankrekening kunt afronden. Veel voorkomende bedrijfssituaties die verschillen kunnen veroorzaken:
 
-|Verschil|Reden |Oplossing|
-|-|-|
-|Een transactie op de interne bankrekening staat niet op het bankafschrift.|De banktransactie heeft niet plaatsgevonden, hoewel er wel een boeking is gedaan in [!INCLUDE[prod_short](includes/prod_short.md)].|Voer de ontbrekende geldtransactie uit (of vraag een debiteur om deze uit te voeren) en importeer vervolgens het bankafschriftbestand of voer de transactie handmatig in.|
-|Een transactie op het bankafschrift is niet een document of journaalregel in [!INCLUDE[prod_short](includes/prod_short.md)].|Er is een banktransactie uitgevoerd zonder een overeenkomstige boeking in [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld een boeking in een dagboekregel voor een uitgave.|Maak en plaats de ontbrekende post. Zie [Ontbrekende posten maken om banktransacties mee af te stemmen](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with) voor informatie over een snelle manier om dit te doen.|
-|Een transactie op de interne bankrekening komt overeen met een banktransactie, maar bepaalde informatie is te verschillend om een match te geven.|Informatie, zoals het bedrag of de naam van de klant, ios anders ingevoerd in verband met de banktransactie of de interne boeking.|Controleer de informatie en stem deze vervolgens handmatig af. Corrigeer eventueel de niet-overeenkomende informatie.||
+| Verschil | Reden  | Oplossing |
+|------------|--------|------------|
+| Een transactie op de interne bankrekening staat niet op het bankafschrift. | De banktransactie heeft niet plaatsgevonden, hoewel er wel een boeking is gedaan in [!INCLUDE[prod_short](includes/prod_short.md)]. | Voer de ontbrekende geldtransactie uit (of vraag een debiteur om deze uit te voeren) en importeer vervolgens het bankafschriftbestand of voer de transactie handmatig in. |
+| Een transactie op het bankafschrift is niet een document of journaalregel in [!INCLUDE[prod_short](includes/prod_short.md)]. | Er is een banktransactie uitgevoerd zonder een overeenkomstige boeking in [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld een boeking in een dagboekregel voor een uitgave. | Maak en plaats de ontbrekende post. Zie [Ontbrekende posten maken om banktransacties mee af te stemmen](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with) voor informatie over een snelle manier om dit te doen. |
+| Een transactie op de interne bankrekening komt overeen met een banktransactie, maar bepaalde informatie is te verschillend om een match te geven. | Informatie, zoals het bedrag of de naam van de klant, ios anders ingevoerd in verband met de banktransactie of de interne boeking. | Controleer de informatie en stem deze vervolgens handmatig af. Corrigeer eventueel de niet-overeenkomende informatie. |
 
 U moet de verschillen oplossen, bijvoorbeeld door ontbrekende posten te maken en niet-overeenkomende informatie te corrigeren, of door ontbrekende geldtransacties in te voeren, totdat de afstemming van de bankrekening is voltooid en geboekt.
 
@@ -57,7 +57,10 @@ U kunt het deelvenster **Bankafschriftregels** op de pagina **Bankreconciliatie*
 
 Het deelvenster **Bankafschriftregels** wordt gevuld met banktransacties volgens een geïmporteerd bestand of een stream die door de bank is aangeleverd.
 
-Als u de import van bankafschriften als bankfeeds wilt inschakelen, moet u eerst de service Envestnet Yodlee Bank Feeds instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).
+Als u de import van bankafschriften als bankfeeds wilt inschakelen, moet u eerst de service Envestnet Yodlee Bank Feeds instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).  
+
+> [!TIP]
+> U kunt ook bankafschriftbestanden importeren in een door komma's of puntkomma's gescheiden indeling (.CSV). Gebruik de begeleide instelling **Een importindeling voor het bankafschriftbestand instellen** om de importindelingen voor bankafschriften te definiëren en de indeling aan een bankrekening te koppelen. U kunt deze indelingen vervolgens gebruiken wanneer u bankafschriften importeert op de pagina **Bankreconciliatie**.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankreconciliatie** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw**.

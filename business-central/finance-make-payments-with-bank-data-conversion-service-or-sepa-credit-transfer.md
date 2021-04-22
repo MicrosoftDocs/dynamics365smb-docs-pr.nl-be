@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/13/2021
 ms.author: bholtorf
-ms.openlocfilehash: 210dbfd3450d4cc703f73fc2cd078b0155c599da
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d48172569ba8e93410dfb20a22eed785574f3989
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391861"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889243"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht
 
@@ -46,6 +46,9 @@ Voordat u elektronische betaling kunt verwerken door betalingsbestanden te expor
 * De gerelateerde dagboekbatch instellen om betalingexports via de pagina **Betalingsdagboek** in te schakelen  
 * De definitie van gegevensuitwisseling voor een of meer betalingstypen verbinden met de relevante betalingsmethode(n)  
 
+> [!TIP]
+> Dit artikel is van toepassing op de generieke versie van [!INCLUDE [prod_short](includes/prod_short.md)]. In uw land of regio zijn mogelijk extra verplichte velden toegevoegd aan de verschillende pagina's. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
 ### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Een bankrekening instellen voor SEPA-kredietoverboekingen
 
 1. Voer in het tekstvak **Zoeken** de tekst **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
@@ -64,15 +67,14 @@ Voordat u elektronische betaling kunt verwerken door betalingsbestanden te expor
 3. Kies op het sneltabblad **Betaling** in het veld **Betalingswijze** de optie **BANK**.  
 4. In het veld **Bankrekeningcode van voorkeur** kiest u de bank waarnaar het geld wordt overgemaakt wanneer het door uw elektronische bank wordt verwerkt.  
 
-     De waarde in het veld **Bankrekeningcode van voorkeur** wordt gekopieerd naar het veld **Bankrekening ontvanger** op de pagina **Betalingsdagboek**.  
+     Als u voor deze leverancier nog geen bank heeft opgezet, kunt u dat nu doen. Zie voor meer informatie [Bankrekeningen van leveranciers instellen voor het exporteren van bankbestanden](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). De waarde in het veld **Bankrekeningcode van voorkeur** wordt gekopieerd naar het veld **Bankrekening ontvanger** op de pagina **Betalingsdagboek**.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Het betalingsdagboek instellen om betalingsbestanden te exporteren
 
 1. Voer in het tekstvak **Zoeken** **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
-2. Open het betalingsdagboek dat u gebruikt om betalingen te verwerken door bestanden te exporteren in de SEPA-overmakingsindeling.  
-3. Kies de vervolgkeuzeknop in het veld **Batchnaam**.  
-4. Kies op de pagina **Algemene journaalbatches** de actie **Lijst bewerken**.  
-5. Op de regel voor het betalingsdagboek dat u wilt gebruiken om betalingen te exporteren, schakelt u het selectievakje **Exporteren betaling toestaan** in.  
+2. Kies de vervolgkeuzeknop in het veld **Batchnaam**.  
+3. Kies op de pagina **Algemene journaalbatches** de actie **Lijst bewerken**.  
+4. Op de regel voor het betalingsdagboek dat u wilt gebruiken om betalingen te exporteren, schakelt u het selectievakje **Exporteren betaling toestaan** in.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>De definitie van gegevensuitwisseling voor een of meer betalingstypen verbinden met de relevante betalingsmethode(n)
 

@@ -1,31 +1,32 @@
 ---
-title: Voorraad tellen met op documenten gebaseerde functionaliteit
-description: Beschrijft hoe u inventarisaties uitvoert met behulp van de pagina's Inventarisatieorder en Inventarisatieregistratie.
+title: Voorraad tellen en corrigeren
+description: Beschrijft hoe u fysieke voorraadtelling uitvoert met behulp van de pagina's Inventarisatieorders en Inventarisatieregistratie en hoe u negatieve of positieve correcties aanbrengt met voorraaddocumenten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/20/2020
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: be22209240f3bff70619a31f60cb0acac7e51228
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393186"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785960"
 ---
-# <a name="count-inventory-using-documents"></a>Voorraad tellen met documenten
+# <a name="count-and-adjust-inventory-using-documents"></a>Voorraad tellen en aanpassen met documenten
 
 U kunt een inventarisatie van uw artikelen maken met behulp van inventarisatieorder- en inventarisatieregistratiedocumenten. De pagina **Inventarisatieorder** wordt gebruikt om het hele inventarisatieproject te organiseren, bijvoorbeeld één per vestiging. De pagina **Inventarisatieregistratie** wordt gebruikt om de werkelijke telling van artikelen te communiceren en vast te leggen. U kunt meerdere registraties voor één order maken, bijvoorbeeld om groepen artikelen naar verschillende werknemers te distribueren.
 
 Het rapport **Inventarisatieregistratie** kan worden afgedrukt vanuit elke registratie en bevat lege aantalvelden voor het invoeren van de getelde voorraad. Wanneer een gebruiker klaar is met tellen en de aantallen worden ingevoerd op de pagina **Inventarisatieregistratie**, kiest u de actie **Voltooien**. Hierdoor worden de aantallen overgebracht naar de gerelateerde regels op de pagina **Inventarisatieorder**. Functionaliteit zorgt dat een artikeltelling niet tweemaal kan worden geregistreerd.  
 
 > [!NOTE]
-> In dit artikel wordt beschreven hoe u een inventarisatie uitvoert met documenten, een methode die meer controle biedt en distributie ondersteunt van de telling naar meerdere werknemers. U kunt de taak ook uitvoeren met dagboeken, zoals de pagina's **Inventarisatiedagboeken** en **Mag.-inventarisatiedagboeken**. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)<br /><br />
-> Als u de functionaliteit Zones gebruikt, kunt u geen inventarisatieorders gebruiken. Gebruik in plaats daarvan **Mag.-inventarisatiedagboek** om uw magazijnposten te tellen voordat u deze synchroniseert met artikelposten.
+> Documenten gebruiken om een inventarisatie uit te voeren biedt meer controle en ondersteunt distributie van de telling naar meerdere werknemers. U kunt de taak ook uitvoeren met dagboeken, zoals de pagina's **Inventarisatiedagboeken** en **Mag.-inventarisatiedagboeken**. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md) In dit artikel wordt beschreven hoe u een fysieke inventarisatie uitvoert met behulp van documenten.
+>
+> Als u zones gebruikt, kunt u geen fysieke voorraadorders gebruiken. Gebruik in plaats daarvan de pagina **Mag.-inventarisatiedagboek** om uw magazijnposten te tellen voordat u deze synchroniseert met artikelposten.
 
 Inventariseren met behulp van documenten bestaat uit de volgende algemene stappen:
 
@@ -77,7 +78,6 @@ In het geval van handmatig tellen kunt u een lijst, het rapport **Inventarisatie
 9. Kies de actie **Afdrukken** om het fysieke document voor te bereiden dat werknemers gaan gebruiken om de getelde aantallen te noteren.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Een inventarisatieregistratie voltooien
-
 Als de medewerkers de voorraadaantallen hebben geteld, moet u voorbereidingen treffen om deze in het systeem te registreren.
 
 1. Klik op de pagina **Nieuwe inventarisatieregistratielijst**, selecteer de inventarisatieregistratie die u wilt voltooien, en kies vervolgens de actie **Bewerken**.
@@ -185,8 +185,52 @@ Een artikel met lottracering wordt in voorraad opgeslagen met de nummerreeks 'LO
 
 Op de pagina **Inventarisatieorder** bevat het veld **Negatief aantal (basis)** *8*. Voor de desbetreffende orderregel bevat de pagina **Artikeltraceringslijst van inventarisatie** de positieve of negatieve aantallen voor de individuele lotnummers.
 
-## <a name="see-also"></a>Zie ook
+## <a name="inventory-documents"></a>Voorraaddocumenten
+De volgende soorten documenten zijn handig voor het beheren van uw magazijn:
 
+- Gebruik **Voorraadontvangsten** om positieve aanpassingen van artikelen te registreren op basis van kwaliteit, kwantiteit en kosten.
+- Gebruik **Voorraadzendingen** om ontbrekende of beschadigde goederen af te schrijven.
+
+U kunt deze documenten in elk stadium afdrukken, vrijgeven en opnieuw openen, en gemeenschappelijke waarden, inclusief dimensies, toewijzen in de koptekst. Als u de documenten opnieuw wilt afdrukken nadat ze zijn geboekt, kunt u dat doen op de pagina's **Geboekte voorraadontvangst** en **Geboekte voorraadverzending**.
+
+> [!NOTE]
+> Voordat u deze documenten kunt gebruiken, moet u een nummerreeks specificeren om hun id's te creëren. Zie de volgende sectie voor meer informatie.
+
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Nummering voor inventarisdocumenten instellen
+In de volgende procedure wordt beschreven hoe u nummering instelt voor voorraaddocumenten.
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadinstellingen** in en kies de desbetreffende koppeling.
+2. Geef op het sneltabblad **Nummering** in de volgende velden de reeks getallen voor documenten op:
+   - **Voorraadontvangstnrs.**  
+   - **Geboekte voorraadontvangstnrs.**  
+   - **Voorraadverzendingsnrs.**  
+   - **Geboekte voorraadverzendingsnrs.**  
+
+### <a name="to-create-and-post-an-inventory-document"></a>Een voorraaddocument maken en boeken
+De volgende procedure laat zien hoe u een voorraadontvangst maakt, afdrukt en boekt. De stappen zijn vergelijkbaar voor voorraadverzendingen.
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadontvangsten** in en kies de desbetreffende koppeling.  
+2. Kies in de kop van de pagina **Voorraadontvangst** de locatie in het veld **Locatie** en vul vervolgens de overige velden in, indien nodig.
+3. Kies op het sneltabblad **Regels** in het **Artikel** het voorraadartikel. Geef in het veld **Aantal** op hoeveel artikelen moeten worden toegevoegd. 
+4. Om een **Voorraadontvangst**-rapport af te drukken vanaf de pagina **Voorraadontvangst**, kiest u de actie **Afdrukken**.
+
+De volgende functies zijn beschikbaar op de pagina **Voorraadontvangst**:
+
+- Kies de actie **Vrijgeven** of **Opnieuw openen** om de status voor de volgende verwerkingsfase in te stellen  
+- Kies de actie **Boeken** om de voorraadontvangst te boeken of kies **Boeken en afdrukken** om de ontvangst te boeken en het testrapport af te drukken  
+
+## <a name="printing-inventory-documents"></a>Voorraaddocumenten afdrukken
+U kunt de rapporten specificeren die in verschillende stadia moeten worden afgedrukt door een van de volgende opties te kiezen in het veld **Gebruik** van de pagina **Rapportselectie - Voorraad**:
+
+- Voorraadontvangst
+- Voorraadverzending
+- Geboekte voorraadontvangst
+- Geboekte voorraadverzending
+
+> [!NOTE]
+> De beschikbare rapporten kunnen variëren, afhankelijk van de locatie van uw land/regio. De basistoepassing bevat geen lay-outs.
+
+## <a name="see-also"></a>Zie ook
 [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)  
 [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  
 [Voorraad](inventory-manage-inventory.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a85b85717d65ed0845f02387cc34a0ad4d1e79e7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1a3adebe30e63ea295aed6aa7beffbf581ba1be3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377764"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784902"
 ---
 # <a name="create-gl-budgets"></a>Grootboekbudgetten maken
 U kunt budgetten met aparte namen maken als u meerdere budgetten wilt gebruiken voor dezelfde perioden. Eerst stelt u de begrotingsnaam in en voert u de begrotingscijfers in. De begrotingsnaam wordt vervolgens opgenomen op alle begrotingsposten die u maakt.  

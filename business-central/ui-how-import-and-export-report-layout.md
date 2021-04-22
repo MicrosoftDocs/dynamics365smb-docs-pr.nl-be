@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d718553661c7fcfa44c010b7b9dbc4d0d2716d14
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385811"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784677"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Aangepaste rapportlay-outs importeren en exporteren
 U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een bestand van en naar een locatie op uw computer of in uw netwerk. U kunt bijvoorbeeld een rapportlay-out exporteren en het bestand vervolgens voor wijziging naar iemand anders verzenden. Die persoon kan vervolgens de wijzigingen in de lay-out aanbrengen en het bestand aan u retourneren zodat u het weer kunt importeren.  

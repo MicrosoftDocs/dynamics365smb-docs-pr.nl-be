@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce17373d3355c795c8a3c8d4c70aea904432b80e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f72ef570151babaa9bf32150c214e82374ddd0ec
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389361"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780769"
 ---
 # <a name="inventory"></a>Voorraad
 Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het soort **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
@@ -51,7 +51,6 @@ De volgende tabel geeft een overzicht van gerelateerde taken.
 |Beschikbaarheid van artikelen weergeven op vestiging, periode, verkoop- of inkoopgebeurtenis, of het gebruik in assemblage- of productiestuklijsten.|[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)|
 |Voorraadartikelen verplaatsen tussen vestigingen met transferorders, om magazijnactiviteiten te beheren, of met het artikelherindelingsdagboek.|[Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)|
 |Reserveer voorraad of inkomende artikelen voor verkooporders, inkooporders, serviceorders, assemblageorders of productieorders.|[Artikelen reserveren](inventory-how-to-reserve-items.md)|
-|Stel een eigen artikelbeschrijving van de leverancier of klant in, zodat u hun artikelbeschrijving gemakkelijk kunt invoegen op handelsdocumenten.|[Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)|
 |Wijs serienummers of lotnummers toe aan elk uitgaand of inkomend document of dagboekregel, bijvoorbeeld om artikelen te traceren bij terugroepacties.|[Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)|
 |Stel een eigen artikelbeschrijving van de leverancier of klant in op uw artikelkaart, zodat u hun artikelbeschrijving snel kunt invoegen op handelsdocumenten.|[Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)|
 |Bepalen waar elk serie- of lotnummer is gebruikt in de voorraadketen, bijvoorbeeld in situaties waarin producten moeten worden teruggeroepen.|[Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)|

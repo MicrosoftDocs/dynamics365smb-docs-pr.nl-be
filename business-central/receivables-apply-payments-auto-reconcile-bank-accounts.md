@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e89a21ddecdce2bab0da44c447612a24d2173ec7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6b1009c028bab2204c359e09a69472ecd3ecbf42
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5394136"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781825"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Betalingen automatisch vereffenen en bankrekeningen reconciliëren
 U moet regelmatig uw bankrekening en de rekeningen met tegoeden en betalingsverplichtingen reconciliëren, door betalingen die op de bank zijn vastgelegd te vereffenen met de gerelateerde openstaande (onbetaalde) facturen en creditnota's of andere openstaande posten in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -29,6 +29,9 @@ De logica die bepaalt hoe betalingstekst automatisch wordt afgestemd op invoerin
 U kunt ook bankrekeningen reconciliëren zonder tegelijkertijd betalingen te vereffenen. U doet dit werk op de pagina **Bankreconciliatie**. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.   
 
 Als u bankafschriften als een bankfeed wilt importeren, moet u eerst de service Envestnet Yodlee Bank Feeds instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).  
+
+> [!TIP]
+> U kunt ook bankafschriftbestanden importeren in een door komma's of puntkomma's gescheiden indeling (.CSV). Gebruik de begeleide instelling **Een importindeling voor het bankafschriftbestand instellen** om de importindelingen voor bankafschriften te definiëren en de indeling aan een bankrekening te koppelen. U kunt deze indelingen vervolgens gebruiken wanneer u bankafschriften importeert op de pagina **Bankreconciliatie**.
 
 U kunt ook de extensie AMC Banking 365 Fundamentals gebruiken om een bankafschriftenbestand te converteren van elke denkbare indeling naar een gegevensstroom die u kunt importeren in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md).  
 

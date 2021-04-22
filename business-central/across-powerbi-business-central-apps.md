@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7defa26581c963241aef7aabd5f01e035ab3f564
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 855f071f624c2a99bd9b637111b67d3a59e61350
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379135"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781323"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
 
@@ -161,10 +161,10 @@ De Power BI-app toont alleen gegevens van het [!INCLUDE[prod_short](includes/pro
 [Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md)  
 [Power BI voor consumenten](/power-bi/consumer/end-user-consumer)  
 [De 'nieuwe look' van de Power BI-service](/power-bi/service-new-look)  
-[Snelle start: Uw gegevens verbinden in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Snelle start: verbinding maken met uw gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-documentatie](/power-bi/)  
 [Bedrijfsinformatie](bi.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  

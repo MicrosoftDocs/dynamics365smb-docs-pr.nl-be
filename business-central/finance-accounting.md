@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/05/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5fbe696c8f85327ad775ad3bcf071b3e7ec16dd6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391261"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780947"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Accountantervaringen binnen [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -92,7 +92,7 @@ De accountant ontvangt een e-mail met de melding dat hij of zij toegang heeft ge
 
 1. Open het [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijf waarvoor u de accountant toegang wilt geven op [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.  
-3. Kies de actie **Nieuwe gebruikers ophalen uit Office 365**.
+3. Kies de actie **Nieuwe gebruikers ophalen uit Microsoft 365**.
 
 Hiermee wordt het gebruikersaccount dat u in de Azure Portal hebt gemaakt, naar het bedrijf geïmporteerd. Zie [Een gebruiker toevoegen in Business Central](ui-how-users-permissions.md#adduser) voor meer informatie.  
 

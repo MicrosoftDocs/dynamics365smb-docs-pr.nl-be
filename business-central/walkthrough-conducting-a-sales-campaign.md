@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c28da7c565471e1a0bc96e1ae4e0fd57155076df
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4e83d43f03601568f46758deae74670d4eee9043
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389586"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782946"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procedure: Een verkoopcampagne uitvoeren
 Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zijn betrokken. Een belangrijk deel van het opzetten van een campagne bestaat uit het selecteren van de doelgroep voor de campagne. In [!INCLUDE[prod_short](includes/prod_short.md)] maakt u hiervoor met behulp van filters een segment, oftewel een groep contacten.  

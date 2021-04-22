@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385561"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781468"
 ---
-# <a name="setting-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)] instellen
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>Overzicht van taken om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw organisatie.
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw organisatie.  
 
 Zo is uw rekeningschema bijvoorbeeld al ingevuld met een aantal boekingsrekeningen die gereed zijn voor gebruik. Natuurlijk kunt u het rekeningschema aanpassen aan uw wensen. Zie [Financiën](finance.md) voor meer informatie.
 
-Met het ![pictogram Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) hebt u toegang tot begeleide instellingen die u helpen bij het configureren van bepaalde scenario's en het toevoegen van functies aan [!INCLUDE[prod_short](includes/prod_short.md)]. Voor informatie over hoe u alle begeleide en handmatige instellingspagina's opent raadpleegt u [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
+Met het ![pictogram Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) hebt u toegang tot begeleide instellingen die u helpen bij het configureren van bepaalde scenario's en het toevoegen van functies aan [!INCLUDE[prod_short](includes/prod_short.md)]. Voor informatie over hoe u alle begeleide en handmatige instellingspagina's opent raadpleegt u [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, kan handmatig worden ingesteld, naast de begeleide instelling. Hieronder volgt een overzicht van enkele functies die u handmatig kunt configureren.
 
@@ -73,7 +76,7 @@ Voor sommige gebieden moet u een beheerder in uw [!INCLUDE[prod_short](includes/
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
