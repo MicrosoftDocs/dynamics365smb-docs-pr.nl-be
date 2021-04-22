@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5a8e71aacee92b77e5da3ebdfab720723c9f6326
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4199cfc818aed1baacd5d1c70b74d27883000829
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392387"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772166"
 ---
-# <a name="add-and-view-notes-on-records"></a><span data-ttu-id="d5f58-104">Notities aan records toevoegen en weergeven</span><span class="sxs-lookup"><span data-stu-id="d5f58-104">Add and View Notes on Records</span></span>
- <span data-ttu-id="d5f58-105">U</span><span class="sxs-lookup"><span data-stu-id="d5f58-105">You</span></span> <!--OnPrem and your colleagues --><span data-ttu-id="d5f58-106">kunt notities aan records toevoegen in de toepassing.</span><span class="sxs-lookup"><span data-stu-id="d5f58-106">can add notes to records in the application.</span></span> <span data-ttu-id="d5f58-107">Veel pagina's, met name pagina's die een lijst met records bevatten, zoals de pagina **Verkooporders**, bevatten de actie **Notities** of het feitenblok **Notities**.</span><span class="sxs-lookup"><span data-stu-id="d5f58-107">Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox.</span></span> <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
+# <a name="add-and-view-notes-on-records"></a><span data-ttu-id="017b4-104">Notities aan records toevoegen en weergeven</span><span class="sxs-lookup"><span data-stu-id="017b4-104">Add and View Notes on Records</span></span>
+ <span data-ttu-id="017b4-105">U</span><span class="sxs-lookup"><span data-stu-id="017b4-105">You</span></span> <!--OnPrem and your colleagues --><span data-ttu-id="017b4-106">kunt notities aan records toevoegen in de toepassing.</span><span class="sxs-lookup"><span data-stu-id="017b4-106">can add notes to records in the application.</span></span> <span data-ttu-id="017b4-107">Veel pagina's, met name pagina's die een lijst met records bevatten, zoals de pagina **Verkooporders**, bevatten de actie **Notities** of het feitenblok **Notities**.</span><span class="sxs-lookup"><span data-stu-id="017b4-107">Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox.</span></span> <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
- >  <span data-ttu-id="d5f58-108">Deze functie is niet beschikbaar.</span><span class="sxs-lookup"><span data-stu-id="d5f58-108">This feature is currently not available.</span></span>  
+ >  <span data-ttu-id="017b4-108">Deze functie is niet beschikbaar.</span><span class="sxs-lookup"><span data-stu-id="017b4-108">This feature is currently not available.</span></span>  
 
 <!--OnPrem
 > [!NOTE]  
@@ -47,8 +47,8 @@ ms.locfileid: "5392387"
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## <a name="see-also"></a><span data-ttu-id="d5f58-109">Zie ook</span><span class="sxs-lookup"><span data-stu-id="d5f58-109">See Also</span></span>
-<span data-ttu-id="d5f58-110">[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d5f58-110">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="017b4-109">Zie ook</span><span class="sxs-lookup"><span data-stu-id="017b4-109">See Also</span></span>
+<span data-ttu-id="017b4-110">[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="017b4-110">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

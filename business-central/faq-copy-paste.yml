@@ -2,12 +2,12 @@
 metadata:
   title: Veelgestelde vragen over gegevens kopiëren en plakken
   description: Krijg antwoorden op veelgestelde vragen over het kopiëren en plakken van gegevens uit velden en rijen van Business Central-pagina's.
-  ms.openlocfilehash: 7d3d0e29bb6751913297974f611aa9695677ed66
-  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
+  ms.openlocfilehash: 41f92191cf00ff7cbf0a3be2d0902bb9386efc56
+  ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 02/15/2021
-  ms.locfileid: "5181841"
+  ms.lasthandoff: 03/31/2021
+  ms.locfileid: "5775587"
 title: Veelgestelde vragen over kopiëren en plakken
 summary: "U kunt een of meer rijen (records) uit een lijst of een enkel veld op een pagina kopiëren en vervolgens wat u hebt gekopieerd, plakken op dezelfde pagina, een andere pagina of een extern document (zoals Microsoft Excel en Outlook-e-mail).  \n\nAls u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs). Er zijn verschillende andere toetsenbordsneltoetsen voor het kopiëren en plakken die u helpen tijd te besparen wanneer u gegevens invoert. Zie voor meer informatie hierover [Toetsenbordsneltoetsen](keyboard-shortcuts.md#CopyRows). In dit artikel worden veelgestelde vragen beantwoord over kopiëren en plakken.  \n"
 sections:
@@ -72,4 +72,4 @@ sections:
   - question: Waarom krijg ik fouten wanneer ik rijen plak?
     answer: >
       Wanneer u plakt in [!INCLUDE[prod_short](includes/prod_short.md)], wordt elke rij gecontroleerd om ervoor te zorgen dat waarden in elke kolom geldig zijn. Als een kolom een waarde bevat die niet geldig is, wordt het plakken gestopt en wordt een foutbericht weergegeven. Als u dit wilt vermijden, zorgt u dat de kolommen geldige waarden bevatten voordat u deze plakt.
-additionalContent: "## <a name=\"next-steps\"></a>Volgende stappen\nVind hier gerelateerde informatie: \n  - [Assisterende functies](ui-accessibility.md)  \n  - [Aan de slag](product-get-started.md)  \n  - [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Veelgestelde vragen](across-faq.md)"
+additionalContent: "## <a name=\"next-steps\"></a>Volgende stappen\nVind hier gerelateerde informatie: \n  - [Assisterende functies](ui-accessibility.md)  \n  - [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  \n  - [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Veelgestelde vragen](across-faq.md)"
