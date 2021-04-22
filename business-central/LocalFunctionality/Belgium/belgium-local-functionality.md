@@ -5,14 +5,14 @@ author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 034fc5690abf416a7bf30e047aa7f2009ea54acb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: eab5fe3dcfbb53c246ea6495883b1f556f5f9754
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379598"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889116"
 ---
 # <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
 
@@ -47,13 +47,10 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Elektronische betalingen testen](how-to-test-electronic-payments.md) **Nu beschikbaar**
     * [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md) **Nu beschikbaar**
     * [CODA-afschriften importeren](how-to-import-coda-statements.md) **Nu beschikbaar**
-    * [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md) **Nu beschikbaar**
     * [CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md) **Nu beschikbaar**
     * [Betalingsbestanden afdrukken](how-to-print-payment-files.md) **Nu beschikbaar**
-    * [SEPA-betalingen](sepa-payments.md) **Nu beschikbaar**
     * [SEPA-betalingen activeren](how-to-activate-sepa-payments.md) **Nu beschikbaar**
     * [SEPA-betalingen in andere valuta's dan de euro indienen](how-to-file-non-euro-sepa-payments.md) **Nu beschikbaar**
-    * [SEPA-betalingen indienen](how-to-file-sepa-payments.md) **Nu beschikbaar**
     * [Incasso via domiciliëring](direct-debit-using-domiciliation.md) **Nu beschikbaar**
     * [Domiciliëringen instellen](how-to-set-up-domiciliations.md) **Nu beschikbaar**
     * [Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md) **Nu beschikbaar**
