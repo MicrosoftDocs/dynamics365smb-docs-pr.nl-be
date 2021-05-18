@@ -1,86 +1,90 @@
 ---
 title: Ondersteunende functies
 description: Sneltoetsen en andere ondersteunende functies.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c303c39850e22d3df375838d42703133428b4c7d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
+ms.date: 04/29/2021
+ms.author: jswymer
+ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772366"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961564"
 ---
-# <a name="accessibility-and-keyboard-shortcuts"></a><span data-ttu-id="2b0a5-103">Toegankelijkheid en sneltoetsen</span><span class="sxs-lookup"><span data-stu-id="2b0a5-103">Accessibility and Keyboard Shortcuts</span></span>
+# <a name="accessibility-and-keyboard-shortcuts"></a><span data-ttu-id="bebc2-103">Toegankelijkheid en sneltoetsen</span><span class="sxs-lookup"><span data-stu-id="bebc2-103">Accessibility and Keyboard Shortcuts</span></span>
 
-<span data-ttu-id="2b0a5-104">Dit onderwerp bevat informatie over de functies die [!INCLUDE[prod_short](includes/prod_short.md)] toegankelijk maken voor mensen met een handicap.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-104">This topic provides information about the features that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities.</span></span> [!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="2b0a5-105">ondersteunt de volgende toegankelijkheidsfuncties:</span><span class="sxs-lookup"><span data-stu-id="2b0a5-105">supports the following accessibility features:</span></span>  
+<span data-ttu-id="bebc2-104">Dit artikel bevat informatie over de functies die [!INCLUDE[prod_short](includes/prod_short.md)] toegankelijk maken voor mensen met een handicap.</span><span class="sxs-lookup"><span data-stu-id="bebc2-104">This article provides information about the features that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities.</span></span> [!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="bebc2-105">ondersteunt de volgende toegankelijkheidsfuncties:</span><span class="sxs-lookup"><span data-stu-id="bebc2-105">supports the following accessibility features:</span></span>  
 
-- <span data-ttu-id="2b0a5-106">Sneltoetsen</span><span class="sxs-lookup"><span data-stu-id="2b0a5-106">Keyboard shortcuts</span></span>
+- <span data-ttu-id="bebc2-106">Toetsenbordsneltoetsen.</span><span class="sxs-lookup"><span data-stu-id="bebc2-106">Keyboard shortcuts.</span></span> <span data-ttu-id="bebc2-107">Zie [Toetsenbordsneltoetsen](keyboard-shortcuts.md).</span><span class="sxs-lookup"><span data-stu-id="bebc2-107">See [Keyboard Shortcuts](keyboard-shortcuts.md).</span></span>
+- <span data-ttu-id="bebc2-108">Aanraak- en penbewegingen op tablets en telefoons.</span><span class="sxs-lookup"><span data-stu-id="bebc2-108">Touch and pen gestures on tablets and phones.</span></span> <span data-ttu-id="bebc2-109">Zie [Aanraak- en penbewegingen](touch-gestures.md).</span><span class="sxs-lookup"><span data-stu-id="bebc2-109">See [Touch and Pen Gestures](touch-gestures.md).</span></span>
+- <span data-ttu-id="bebc2-110">Navigatie</span><span class="sxs-lookup"><span data-stu-id="bebc2-110">Navigation</span></span>  
+- <span data-ttu-id="bebc2-111">Koppen</span><span class="sxs-lookup"><span data-stu-id="bebc2-111">Headings</span></span>  
+- <span data-ttu-id="bebc2-112">Alternatieve tekst voor afbeeldingen en koppelingen</span><span class="sxs-lookup"><span data-stu-id="bebc2-112">Alternative text for images and links</span></span>  
+- <span data-ttu-id="bebc2-113">Ondersteuning voor algemene ondersteunende technologieën</span><span class="sxs-lookup"><span data-stu-id="bebc2-113">Support for common assistive technologies</span></span> 
+- <span data-ttu-id="bebc2-114">In- en uitzoomen op een pagina</span><span class="sxs-lookup"><span data-stu-id="bebc2-114">Zoom in or out on any page</span></span>
+- <span data-ttu-id="bebc2-115">Knopinfo over elementen in de gebruikersinterface</span><span class="sxs-lookup"><span data-stu-id="bebc2-115">Tooltips on elements in the user interface</span></span>
 
-    <span data-ttu-id="2b0a5-107">Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md)</span><span class="sxs-lookup"><span data-stu-id="2b0a5-107">For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md)</span></span>
+## <a name="navigation"></a><a name="Navigation"></a> <span data-ttu-id="bebc2-116">Navigatie</span><span class="sxs-lookup"><span data-stu-id="bebc2-116">Navigation</span></span>
+  
+<span data-ttu-id="bebc2-117">U kunt verschillende combinaties van Tab, Shift en pijltoetsen van uw toetsenbord gebruiken om tussen elementen op een pagina te schakelen.</span><span class="sxs-lookup"><span data-stu-id="bebc2-117">You can use different combinations of the Tab, Shift, and arrow keys of your keyboard to move between elements on a page.</span></span> <span data-ttu-id="bebc2-118">Elementen zijn onder meer acties, velden en kolommen, onderdelen en andere besturingselementen.</span><span class="sxs-lookup"><span data-stu-id="bebc2-118">Elements include actions, fields and columns, parts, and other controls.</span></span> <span data-ttu-id="bebc2-119">Over het algemeen kunt u op Tab of Shift+Tab drukken om naar het volgende of vorige element te gaan.</span><span class="sxs-lookup"><span data-stu-id="bebc2-119">In general, press Tab or Shift+Tab to move to the next or previous element.</span></span>
 
-- <span data-ttu-id="2b0a5-108">Navigatie</span><span class="sxs-lookup"><span data-stu-id="2b0a5-108">Navigation</span></span>  
+<span data-ttu-id="bebc2-120">Wanneer u zich concentreert op een gebied dat acties bevat, zoals de navigatiebalk boven aan het rolcentrum of de actiebalk op andere pagina's, gebruikt u de pijltjestoetsen om door de verschillende acties en groepen te bladeren.</span><span class="sxs-lookup"><span data-stu-id="bebc2-120">When you focus on an area that contains actions, like the navigation bar on the top of role center or action bar on other pages, use the arrows keys to move through the different actions and groups.</span></span> <span data-ttu-id="bebc2-121">Druk op Enter voor een groep om de onderliggende acties te openen en ga verder met het gebruik van de pijltjestoetsen.</span><span class="sxs-lookup"><span data-stu-id="bebc2-121">Press Enter on a group to open its underlying actions, and then continue using the arrows keys.</span></span> <span data-ttu-id="bebc2-122">Druk op Tab of Shift+Tab om het actiegebied te verlaten.</span><span class="sxs-lookup"><span data-stu-id="bebc2-122">Press Tab or Shift+Tab to move out of the action area.</span></span>
 
-- <span data-ttu-id="2b0a5-109">Koppen</span><span class="sxs-lookup"><span data-stu-id="2b0a5-109">Headings</span></span>  
+<span data-ttu-id="bebc2-123">Met Tab kunt u ook schakelen tussen de hoofdbrowserpagina en dialoogvensters waarin bijvoorbeeld om bevestiging wordt gevraagd of de aanmeldingspagina.</span><span class="sxs-lookup"><span data-stu-id="bebc2-123">By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the sign-in page.</span></span>  
 
-- <span data-ttu-id="2b0a5-110">Alternatieve tekst voor afbeeldingen en koppelingen</span><span class="sxs-lookup"><span data-stu-id="2b0a5-110">Alternative text for images and links</span></span>  
+## <a name="headings-in-content"></a><a name="Headings"></a> <span data-ttu-id="bebc2-124">Koppen in inhoud</span><span class="sxs-lookup"><span data-stu-id="bebc2-124">Headings in Content</span></span>
 
-- <span data-ttu-id="2b0a5-111">Ondersteuning voor algemene ondersteunende technologieën</span><span class="sxs-lookup"><span data-stu-id="2b0a5-111">Support for common assistive technologies</span></span>  
+<span data-ttu-id="bebc2-125">In de HTML-bron voor [!INCLUDE[prod_short](includes/prod_short.md)]-inhoud worden tags gebruikt om gebruikers van ondersteunende technologie te helpen de structuur en inhoud van de pagina te begrijpen.</span><span class="sxs-lookup"><span data-stu-id="bebc2-125">The HTML source for [!INCLUDE[prod_short](includes/prod_short.md)] content uses tags to help users of assistive technology to understand the structure and content of the page.</span></span> <span data-ttu-id="bebc2-126">Op pagina's met lijsten worden de kolommen bijvoorbeeld gedefinieerd in TH-tags en de kolomkoppen worden ingesteld met het kenmerk TITLE in de tag.</span><span class="sxs-lookup"><span data-stu-id="bebc2-126">For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag.</span></span> <span data-ttu-id="bebc2-127">Bijschriften voor elementen, zoals sneltabbladen, feitenblokken en velden, zijn opgenomen in koptags (H1, H2, H3 en H4).</span><span class="sxs-lookup"><span data-stu-id="bebc2-127">Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).</span></span>  
 
-- <span data-ttu-id="2b0a5-112">Sneltoetsen gebruiken om in of uit te zoomen op een pagina</span><span class="sxs-lookup"><span data-stu-id="2b0a5-112">Use keyboard shortcuts to zoom in or out on any page</span></span>
+## <a name="image-and-links"></a><a name="Images"></a> <span data-ttu-id="bebc2-128">Afbeelding en koppelingen</span><span class="sxs-lookup"><span data-stu-id="bebc2-128">Image and Links</span></span>
 
-<!-- moved to separate article
-##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[prod_short](includes/prod_short.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
+<span data-ttu-id="bebc2-129">Een omschrijvende tekst voor afbeeldingen wordt ingesteld met het kenmerk ALT in de IMG-tag.</span><span class="sxs-lookup"><span data-stu-id="bebc2-129">A descriptive text for images is set with the ALT attribute inside the IMG tag.</span></span> <span data-ttu-id="bebc2-130">Een omschrijvende tekst voor hyperlinks wordt ingesteld met het titelkenmerk in de A-tag.</span><span class="sxs-lookup"><span data-stu-id="bebc2-130">A descriptive text for hyperlinks is set with the title attribute inside the A tag.</span></span>  
 
-|To do this|Press|  
-|----------------|-----------|  
-|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
-|To enable or access the element or control that is in focus.|Enter|  
-|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
-|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
-|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
-|To move focus to the next element outside the list.|Ctrl + Enter|  
-|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> <span data-ttu-id="bebc2-131">Ondersteunende technologieën</span><span class="sxs-lookup"><span data-stu-id="bebc2-131">Assistive Technologies</span></span>
+
+[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="bebc2-132">ondersteunt meerdere ondersteunende technologieën, zoals hoog contrast, schermlezers en spraakherkenningssoftware.</span><span class="sxs-lookup"><span data-stu-id="bebc2-132">supports various assistive technologies, such as high contrast, screen readers, and voice recognition software.</span></span> <span data-ttu-id="bebc2-133">Sommige ondersteunende technologieën werken mogelijk niet goed met bepaalde elementen op [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's.</span><span class="sxs-lookup"><span data-stu-id="bebc2-133">Some assistive technologies may not work well with certain elements in [!INCLUDE[prod_short](includes/prod_short.md)] pages.</span></span>  
+
+## <a name="zoom"></a><a name="zoom"></a> <span data-ttu-id="bebc2-134">In-/uitzoomen</span><span class="sxs-lookup"><span data-stu-id="bebc2-134">Zoom</span></span>
+
+<span data-ttu-id="bebc2-135">De meeste browsers gebruiken standaardsneltoetsen om in en uit te zoomen op de huidige pagina.</span><span class="sxs-lookup"><span data-stu-id="bebc2-135">Most browsers use standard keyboard shortcuts to zoom in and out on the current page.</span></span> <span data-ttu-id="bebc2-136">Deze sneltoetsen zijn niet specifiek voor [!INCLUDE [prod_short](includes/prod_short.md)], maar ze werken als u [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt in een browser.</span><span class="sxs-lookup"><span data-stu-id="bebc2-136">These keyboard shortcuts aren't specific to [!INCLUDE [prod_short](includes/prod_short.md)], but they work when you use [!INCLUDE [prod_short](includes/prod_short.md)] in a browser.</span></span> <span data-ttu-id="bebc2-137">Zie voor een lijst met ondersteunde sneltoetsen [Sneltoetsen voor het in- en uitzoomen](keyboard-shortcuts.md#zoomshortcuts).</span><span class="sxs-lookup"><span data-stu-id="bebc2-137">For a list of supported keyboard shortcuts, see [Keyboard Shortcuts for Zooming In and Out](keyboard-shortcuts.md#zoomshortcuts).</span></span>
+
+## <a name="tooltips"></a><span data-ttu-id="bebc2-138">Knopinfo</span><span class="sxs-lookup"><span data-stu-id="bebc2-138">Tooltips</span></span>
+
+<span data-ttu-id="bebc2-139">Knopinfo is beschikbaar voor de meeste elementen in de gebruikersinterface, zoals paginavelden en kolommen, acties, tegels met indicatiestapels en grafieken.</span><span class="sxs-lookup"><span data-stu-id="bebc2-139">Tooltips are available on most elements in the user interface, like page fields and columns, actions, cues tiles, and charts.</span></span> <span data-ttu-id="bebc2-140">Knopinfo biedt extra tekst waarin een element wordt uitgelegd, zodat u het doel ervan beter kunt begrijpen.</span><span class="sxs-lookup"><span data-stu-id="bebc2-140">A tooltip provides extra text that explains an element to help you better understand its purpose.</span></span> 
+
+<span data-ttu-id="bebc2-141">Knopinfo is op verschillende manieren toegankelijk, afhankelijk van de client (web of mobiel) en het apparaat waarmee u werkt.</span><span class="sxs-lookup"><span data-stu-id="bebc2-141">Tooltips are accessed in different ways, depending on the client (web or mobile) and the device that you're working with.</span></span> <span data-ttu-id="bebc2-142">Gebruik de volgende tabel als richtlijn.</span><span class="sxs-lookup"><span data-stu-id="bebc2-142">Use the following table as a guide.</span></span> <span data-ttu-id="bebc2-143">Sommige knopinfo kan worden gelezen door schermlezers.</span><span class="sxs-lookup"><span data-stu-id="bebc2-143">Some tooltips can be read by screen-readers.</span></span> <span data-ttu-id="bebc2-144">In dit geval opent u de knopinfo zoals beschreven in de tabel en gebruikt u vervolgens de schermlezer om naar de tooltip te navigeren, zoals u met elk ander element zou doen.</span><span class="sxs-lookup"><span data-stu-id="bebc2-144">In this case, you access the tooltips as described in the table, then use the screen reader to navigate to the tooltip as you would with any other element.</span></span>
+
+#### <a name="accessing-tooltips"></a><span data-ttu-id="bebc2-145">Toegang tot knopinfo</span><span class="sxs-lookup"><span data-stu-id="bebc2-145">Accessing tooltips</span></span>
+
+|<span data-ttu-id="bebc2-146">Element</span><span class="sxs-lookup"><span data-stu-id="bebc2-146">Element</span></span>|<span data-ttu-id="bebc2-147">Muisactie voor webclient</span><span class="sxs-lookup"><span data-stu-id="bebc2-147">Mouse action for web client</span></span>|<span data-ttu-id="bebc2-148">Sneltoets voor webclient</span><span class="sxs-lookup"><span data-stu-id="bebc2-148">Keyboard shortcut for web client</span></span>|<span data-ttu-id="bebc2-149">Aanraakgebaar op tablet/telefoon voor mobiele app</span><span class="sxs-lookup"><span data-stu-id="bebc2-149">Touch gesture on tablet/phone for mobile app</span></span>|<span data-ttu-id="bebc2-150">Ondersteuning voor schermlezer</span><span class="sxs-lookup"><span data-stu-id="bebc2-150">Screen reader support</span></span>|
+|-------|-----------------|------------|--------------------------|---------------------|
+|<span data-ttu-id="bebc2-151">Paginavelden en kolomkoppen</span><span class="sxs-lookup"><span data-stu-id="bebc2-151">Page fields and column headings</span></span>|<span data-ttu-id="bebc2-152">De muisaanwijzer op het veldbijschrift of de kolomkop plaatsen of hierop klikken</span><span class="sxs-lookup"><span data-stu-id="bebc2-152">Hover over or click the field caption or column heading</span></span>|<span data-ttu-id="bebc2-153">Focus naar de veld- of kolomkop verplaatsen en op Alt+pijl-omhoog drukken</span><span class="sxs-lookup"><span data-stu-id="bebc2-153">Move focus to the field or column heading, and press Alt+Up Arrow keys</span></span>|<span data-ttu-id="bebc2-154">Tikken op het veldbijschrift</span><span class="sxs-lookup"><span data-stu-id="bebc2-154">Tap the field caption</span></span> |<span data-ttu-id="bebc2-155">ja</span><span class="sxs-lookup"><span data-stu-id="bebc2-155">yes</span></span>|
+|<span data-ttu-id="bebc2-156">Grafiekelementen, zoals een staaf, lijn, taartpunt</span><span class="sxs-lookup"><span data-stu-id="bebc2-156">Charts elements, like a bar, line, pie slice</span></span>|<span data-ttu-id="bebc2-157">De muisaanwijzer op het element plaatsen</span><span class="sxs-lookup"><span data-stu-id="bebc2-157">Hover over the element</span></span>|<span data-ttu-id="bebc2-158">De focus naar het element verplaatsen, bijvoorbeeld met pijltoetsen</span><span class="sxs-lookup"><span data-stu-id="bebc2-158">Move focus to element, for example, by using arrow keys</span></span>|<span data-ttu-id="bebc2-159">Op het element tikken en vasthouden</span><span class="sxs-lookup"><span data-stu-id="bebc2-159">Tap and hold the element</span></span>|<span data-ttu-id="bebc2-160">ja</span><span class="sxs-lookup"><span data-stu-id="bebc2-160">yes</span></span>|
+|<span data-ttu-id="bebc2-161">Acties</span><span class="sxs-lookup"><span data-stu-id="bebc2-161">Actions</span></span>|<span data-ttu-id="bebc2-162">De muisaanwijzer op de actie plaatsen</span><span class="sxs-lookup"><span data-stu-id="bebc2-162">Hover over the action</span></span>|<span data-ttu-id="bebc2-163">geen</span><span class="sxs-lookup"><span data-stu-id="bebc2-163">none</span></span>|<span data-ttu-id="bebc2-164">geen</span><span class="sxs-lookup"><span data-stu-id="bebc2-164">none</span></span> |<span data-ttu-id="bebc2-165">nee</span><span class="sxs-lookup"><span data-stu-id="bebc2-165">no</span></span>|
+|<span data-ttu-id="bebc2-166">Tegels met indicatiestapels</span><span class="sxs-lookup"><span data-stu-id="bebc2-166">Cue tiles</span></span>|<span data-ttu-id="bebc2-167">De muisaanwijzer op de tegel plaatsen</span><span class="sxs-lookup"><span data-stu-id="bebc2-167">Hover over the tile</span></span> |<span data-ttu-id="bebc2-168">geen</span><span class="sxs-lookup"><span data-stu-id="bebc2-168">none</span></span>|<span data-ttu-id="bebc2-169">geen</span><span class="sxs-lookup"><span data-stu-id="bebc2-169">none</span></span>|<span data-ttu-id="bebc2-170">nee</span><span class="sxs-lookup"><span data-stu-id="bebc2-170">no</span></span>|
+
+
+<!--
+- With a mouse, hover over the element.
+- With keyboard, press the Alt+Up Arrow keys.
+- On a tablet or phone, tap and hold on the element. To learn about more gestures, see [Touch and Pen Gestures](touch-gestures.md)
 
 -->
 
-## <a name="navigation"></a><a name="Navigation"></a> <span data-ttu-id="2b0a5-113">Navigatie</span><span class="sxs-lookup"><span data-stu-id="2b0a5-113">Navigation</span></span>  
- <span data-ttu-id="2b0a5-114">Met het toetsenbord kunt u navigeren tussen de tabbladen en acties in het lint, elementen op de navigatiebalk en andere besturingselementen in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's en -rapporten.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-114">You can navigate between the tabs and actions in the ribbon, elements in the navigation bar, and other controls on [!INCLUDE[prod_short](includes/prod_short.md)] pages and reports using the keyboard.</span></span> <span data-ttu-id="2b0a5-115">Als u de focus wilt verplaatsen naar het volgende tabblad, de volgende actie of het volgende besturingselement, drukt u op Tab.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-115">To move the focus from one tab, action, or control to another, press the Tab key to move forward.</span></span> <span data-ttu-id="2b0a5-116">Druk op Shift+Tab om naar het vorige tabblad, de vorige actie of het vorige besturingselement te gaan.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-116">Press Shift+Tab to move backward.</span></span>  
+## <a name="for-more-accessibility-information"></a><span data-ttu-id="bebc2-171">Meer informatie over toegankelijkheid</span><span class="sxs-lookup"><span data-stu-id="bebc2-171">For more accessibility information</span></span>
 
- <span data-ttu-id="2b0a5-117">Met Tab kunt u ook schakelen tussen de hoofdbrowserpagina en dialoogvensters waarin bijvoorbeeld om bevestiging wordt gevraagd of de aanmeldingspagina.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-117">By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the login page.</span></span>  
+<span data-ttu-id="bebc2-172">Meer informatie over toegankelijkheid voor Microsoft-producten en ondersteunende technologieën vindt u op de site [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160).</span><span class="sxs-lookup"><span data-stu-id="bebc2-172">You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.</span></span>
 
-## <a name="headings-in-content"></a><a name="Headings"></a> <span data-ttu-id="2b0a5-118">Koppen in inhoud</span><span class="sxs-lookup"><span data-stu-id="2b0a5-118">Headings in Content</span></span>
- 
- <span data-ttu-id="2b0a5-119">In de HTML-bron voor [!INCLUDE[prod_short](includes/prod_short.md)]-inhoud worden tags gebruikt om gebruikers van ondersteunende technologie te helpen de structuur en inhoud van de pagina te begrijpen.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-119">The HTML source for [!INCLUDE[prod_short](includes/prod_short.md)] content uses tags to help users of assistive technology to understand the structure and content of the page.</span></span> <span data-ttu-id="2b0a5-120">Op pagina's met lijsten worden de kolommen bijvoorbeeld gedefinieerd in TH-tags en de kolomkoppen worden ingesteld met het kenmerk TITLE in de tag.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-120">For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag.</span></span> <span data-ttu-id="2b0a5-121">Bijschriften voor elementen, zoals sneltabbladen, feitenblokken en velden, zijn opgenomen in koptags (H1, H2, H3 en H4).</span><span class="sxs-lookup"><span data-stu-id="2b0a5-121">Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).</span></span>  
+## <a name="see-also"></a><span data-ttu-id="bebc2-173">Zie ook</span><span class="sxs-lookup"><span data-stu-id="bebc2-173">See Also</span></span>
 
-## <a name="image-and-links"></a><a name="Images"></a> <span data-ttu-id="2b0a5-122">Afbeelding en koppelingen</span><span class="sxs-lookup"><span data-stu-id="2b0a5-122">Image and Links</span></span>
-
- <span data-ttu-id="2b0a5-123">Een omschrijvende tekst voor afbeeldingen wordt ingesteld met het kenmerk ALT in de IMG-tag.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-123">A descriptive text for images is set with the ALT attribute inside the IMG tag.</span></span> <span data-ttu-id="2b0a5-124">Een omschrijvende tekst voor hyperlinks wordt ingesteld met het titelkenmerk in de A-tag.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-124">A descriptive text for hyperlinks is set with the title attribute inside the A tag.</span></span>  
-
-## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> <span data-ttu-id="2b0a5-125">Ondersteunende technologieën</span><span class="sxs-lookup"><span data-stu-id="2b0a5-125">Assistive Technologies</span></span>
-
-[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="2b0a5-126">ondersteunt meerdere ondersteunende technologieën, zoals hoog contrast, schermlezers en spraakherkenningssoftware.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-126">supports various assistive technologies, such as high contrast, screen readers, and voice recognition software.</span></span> <span data-ttu-id="2b0a5-127">Sommige ondersteunende technologieën werken mogelijk niet goed met bepaalde elementen op [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-127">Some assistive technologies may not work well with certain elements in [!INCLUDE[prod_short](includes/prod_short.md)] pages.</span></span>  
-
-## <a name="zoom"></a><a name="zoom"></a> <span data-ttu-id="2b0a5-128">In-/uitzoomen</span><span class="sxs-lookup"><span data-stu-id="2b0a5-128">Zoom</span></span>
-
-<span data-ttu-id="2b0a5-129">De meeste browsers gebruiken standaardsneltoetsen om in en uit te zoomen op de huidige pagina.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-129">Most browsers use standard keyboard shortcuts to zoom in and out on the current page.</span></span> <span data-ttu-id="2b0a5-130">Deze sneltoetsen zijn niet specifiek voor [!INCLUDE [prod_short](includes/prod_short.md)], maar ze werken als u [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt in een browser.</span><span class="sxs-lookup"><span data-stu-id="2b0a5-130">These keyboard shortcuts are not specific to [!INCLUDE [prod_short](includes/prod_short.md)], but they work when you use [!INCLUDE [prod_short](includes/prod_short.md)] in a browser.</span></span> <span data-ttu-id="2b0a5-131">Zie voor een lijst met ondersteunde sneltoetsen [Sneltoetsen voor het in- en uitzoomen](keyboard-shortcuts.md#zoomshortcuts).</span><span class="sxs-lookup"><span data-stu-id="2b0a5-131">For a list of supported keyboard shortcuts, see [Keyboard Shortcuts for Zooming In and Out](keyboard-shortcuts.md#zoomshortcuts).</span></span>  
-
-## <a name="for-more-accessibility-information"></a><span data-ttu-id="2b0a5-132">Meer informatie over toegankelijkheid</span><span class="sxs-lookup"><span data-stu-id="2b0a5-132">For more accessibility information</span></span>
-
-<span data-ttu-id="2b0a5-133">Meer informatie over toegankelijkheid voor Microsoft-producten en ondersteunende technologieën vindt u op de site [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160).</span><span class="sxs-lookup"><span data-stu-id="2b0a5-133">You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.</span></span>
-
-## <a name="see-also"></a><span data-ttu-id="2b0a5-134">Zie ook</span><span class="sxs-lookup"><span data-stu-id="2b0a5-134">See Also</span></span>
-
-[<span data-ttu-id="2b0a5-135">Voorbereid zijn om zaken te doen</span><span class="sxs-lookup"><span data-stu-id="2b0a5-135">Getting Ready for Doing Business</span></span>](ui-get-ready-business.md)  
-<span data-ttu-id="2b0a5-136">[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2b0a5-136">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="2b0a5-137">Veelgestelde vragen</span><span class="sxs-lookup"><span data-stu-id="2b0a5-137">Frequently Asked Questions</span></span>](across-faq.md)  
-
+[<span data-ttu-id="bebc2-174">Voorbereid zijn om zaken te doen</span><span class="sxs-lookup"><span data-stu-id="bebc2-174">Getting Ready for Doing Business</span></span>](ui-get-ready-business.md)  
+<span data-ttu-id="bebc2-175">[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="bebc2-175">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="bebc2-176">Veelgestelde vragen</span><span class="sxs-lookup"><span data-stu-id="bebc2-176">Frequently Asked Questions</span></span>](across-faq.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
