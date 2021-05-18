@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e3b79d6245a0f1b8277c94faa58c24edc66662e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 772052fc88e0b8be7ec5276600b0c237e2d2f8b2
+ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777028"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025820"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Een integratie met Dynamics 365 Sales upgraden
 [!INCLUDE[prod_short](includes/prod_short.md)] integreert ook met [!INCLUDE[prod_short](includes/cds_long_md.md)], waardoor het eenvoudig is om gegevens te verbinden en te synchroniseren met andere Dynamics 365-toepassingen, zoals [!INCLUDE[crm_md](includes/crm_md.md)], of zelfs apps die u zelf bouwt. Als u voor de eerste keer integreert, raden we u aan dit te doen via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Zie voor meer informatie [Integratie met Dataverse](admin-common-data-service.md).
@@ -38,6 +38,9 @@ Als u al [!INCLUDE[crm_md](includes/crm_md.md)] hebt geïntegreerd met [!INCLUDE
    > Nadat u de verbinding hebt ingeschakeld, wordt de Business Central-integratieoplossing geïmplementeerd naar [!INCLUDE[prod_short](includes/prod_short.md)]. Dit maakt integratie mogelijk met tabellen die specifiek zijn voor [!INCLUDE[crm_md](includes/crm_md.md)], zoals verkooporders, offertes en facturen.
 5. Kies **Integratieoplossing opnieuw implementeren** om de Business Central-integratieoplossing opnieuw te installeren.
 6. Kies op de pagina **Sales-verbinding instellen** **Standaardsynchronisatie-instellingen** om de integratietabeltoewijzingen te initialiseren voor [!INCLUDE[crm_md](includes/crm_md.md)].
+
+   > [!IMPORTANT]
+   > Als de actie **Standaardsynchronisatie-instellingen gebruiken** wordt gebruikt, worden de standaardtoewijzingen van de integratietabel toegepast. Alle aangepaste toewijzingen worden overschreven. Als u aangepaste toewijzingen hebt die u wilt behouden, raden we u aan deze naar Excel te exporteren of met uw Microsoft-partner te overleggen over andere manieren om uw aangepaste toewijzingen te behouden.    
 
 ## <a name="see-also"></a>Zie ook
 [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

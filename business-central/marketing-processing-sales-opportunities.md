@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784454"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017261"
 ---
 # <a name="process-sales-opportunities"></a>Verkoopopportunity's verwerken
 Nadat u een opportunity hebt gemaakt, zijn er verschillende functies voor het beheren van de opportunity en het verplaatsen ervan naar voltooiing.
@@ -44,7 +44,8 @@ U kunt opportunities afsluiten wanneer de onderhandelingen zijn afgerond. Wannee
    In het veld **Opportunitycode afsluiten** kunt u een van de bestaande codes voor het sluiten van opportunities kiezen of een nieuwe code toevoegen. Als u een nieuwe code wilt toevoegen, kiest u in de vervolgkeuzelijst **Selecteren vanuit volledige lijst** en kiest u vervolgens **nieuw**. Vul op de nieuwe, lege regel de velden **Code**, **Soort** en **Omschrijving** in en kies vervolgens de knop **OK**.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Offertes maken voor opportunity's
-U kunt verkoopoffertes maken voor contactpersonen die niet zijn geregistreerd als klant.
+> [!NOTE]
+> U kunt alleen verkoopoffertes maken van opportunities waarvan het contacttype Bedrijf is.
 
 1. Selecteer op de pagina **Opportunity-overzicht** de opportunity en kies vervolgens de actie **Verkoopofferte toekennen**. De pagina **Verkoopofferte** wordt geopend.
 2. Vul de betreffende velden in.

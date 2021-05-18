@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 67e6c0fe9a9653d243b7fd221ed004a1f1495ddf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783146"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985424"
 ---
 # <a name="set-up-printers"></a>Printers instellen
 
@@ -36,11 +36,13 @@ Om uw printbehoeften te ondersteunen, biedt [!INCLUDE[prod_short](includes/prod_
 
 Universeel afdrukken is een service op basis van een Microsoft 365-abonnement die volledig draait op Microsoft Azure. Het biedt u gecentraliseerd printerbeheer via de Universeel afdrukken-portal. [!INCLUDE[prod_short](includes/prod_short.md)] maakt printers die zijn ingesteld in Universeel afdrukken, beschikbaar voor clientgebruikers via de extensie **Integratie met Universeel afdrukken**.
 
+![Universele afdrukinstellingen](media/Universal-Print-arch.png)
+
 De volledige installatie vereist dat u werkt in Microsoft Azure, met behulp van de [Azure-portal](https://posrtal.azure.com), en in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Ondersteunde printers
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt dezelfde printers als Universeel afdrukken. Dat kunnen zowel Universeel afdrukken-compatibele als niet-compatibele printers zijn. Niet-compatibele printers kunnen niet rechtstreeks met Universeel afdrukken communiceren, dus hebben ze extra connectorsoftware nodig, die wordt geleverd door Universeel afdrukken. Sommige oudere printers worden mogelijk niet ondersteund.
+[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt dezelfde printers als Universeel afdrukken. Dat kunnen zowel Universeel afdrukken-compatibele als niet-compatibele printers zijn. Niet-compatibele printers kunnen niet rechtstreeks met Universeel afdrukken communiceren, dus hebben ze extra connectorsoftware nodig, die wordt geleverd door Universeel afdrukken. Sommige oudere printers worden mogelijk niet ondersteund. 
 
 <!-- TODO If not installed, go to AppSource -->
 

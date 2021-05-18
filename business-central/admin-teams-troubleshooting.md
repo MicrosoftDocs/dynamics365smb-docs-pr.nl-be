@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: a26414ae33b0139257c542966ba9ccd934241a66
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882191"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017136"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problemen met Microsoft Teams-integratie oplossen met [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -42,9 +42,9 @@ Nadat u het bedrijf op de pagina **Instellingen** hebt gewijzigd, merkt u missch
 
 Deze fout kan optreden wanneer u zoekt in een bedrijf dat niet is geïnitialiseerd of niet meer reageert. U kunt bijvoorbeeld niet zoeken in een nieuw proefbedrijf dat de gebruiksvoorwaarden nog niet heeft geaccepteerd. Om dit probleem op te lossen probeert u zich aan te melden bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-webclient, en handelt u naar of sluit u eventuele initiële dialoogvensters die verschijnen.
 
-## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Fout 'De contacten-API is niet gevonden' bij het zoeken naar contacten
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>De fout Kan de contact-/contactoverzicht-API niet vinden bij het zoeken naar contactpersonen
 
-Dit probleem kan worden veroorzaakt door aanpassingen of brancheoplossingen die een contact-API beïnvloeden, wijzigen of niet bieden in [!INCLUDE [prod_short.md](includes/prod_short.md)]. Neem contact op met uw beheerder of ondersteunende partner als het probleem zich blijft voordoen.
+Dit probleem kan worden veroorzaakt door aanpassingen of brancheoplossingen die van invloed zijn op [!INCLUDE [prod_short.md](includes/prod_short.md)] of ze bieden geen contact- of contactoverzicht-API. Neem contact op met uw beheerder of ondersteunende partner als het probleem zich blijft voordoen.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Geen van mijn koppelingen breidt zich uit tot een kaart 
 

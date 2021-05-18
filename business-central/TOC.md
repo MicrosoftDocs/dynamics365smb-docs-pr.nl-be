@@ -273,6 +273,7 @@
 ###### [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md)
 ###### [Werken met Business Central-gegevens in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [De Business Central-apps gebruiken in Power BI](across-powerbi-business-central-apps.md)
+##### [Veelgestelde vragen](power-bi-faq.md)
 #### Power Automate gebruiken met Business Central
 ##### [Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)
 #### Power Apps gebruiken met Business Central
@@ -288,8 +289,8 @@
 ## Veelgestelde vragen
 ### [Veelgestelde vragen](across-faq.md)
 ### [Veelgestelde vragen over Vertel me](ui-search-faq.md)
-### [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)
-### [Veelgestelde vragen over lijstweergaven](ui-views-faq.md)
+### [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.yml)
+### [Veelgestelde vragen over lijstweergaven](ui-views-faq.yml)
 ### [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml)
 ### [Veelgestelde vragen over mobiele apps](ui-mobile-faq.md)
 ### [Veelgestelde vragen over Teams](teams-faq.md)
@@ -321,7 +322,7 @@
 ## [Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)
 ## [Veelgestelde vragen over Vertel me](ui-search-faq.md)
 ## [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)
-## [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)
+## [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.yml)
 ## [Gegevens invoeren](ui-enter-data.md)
 ## [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml)
 ## [Werken met agendadatums en -tijden](ui-enter-date-ranges.md)
@@ -356,10 +357,11 @@
 ### [Documentlay-outs definiëren voor klanten en leveranciers](ui-define-customer-vendor-document-layouts.md)
 ### [Velden toevoegen aan een Word-rapportlay-out](ui-how-add-fields-word-report-layout.md)
 ### [Beschikbare lettertypen](ui-fonts.md)
-## Sneltoetsen gebruiken
-### [Toegankelijkheid en sneltoetsen](ui-accessibility.md)
+## Toegankelijkheid, sneltoetsen en aanraakbewegingen
+### [Toegankelijkheid](ui-accessibility.md)
 ### [Toetsenbordsneltoetsen](keyboard-shortcuts.md)
 ### [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)
+### [Aanraak- en penbewegingen](touch-gestures.md)
 ## [Problemen oplossen: toegang tot camera en locatie](ui-troubleshooting-camera-location.md)
 ## [Intelligente inzichten (alleen online)](about-intelligent-cloud.md)
 # Bedrijfsfunctionaliteit
@@ -429,9 +431,10 @@
 ##### [De bankafschriftservice instellen](bank-how-setup-bank-statement-service.md)
 ##### [Bankrekeningen instellen](bank-how-setup-bank-accounts.md)
 ##### [Gebruik XML-schema's om definities voor gegevensuitwisseling voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Gegevens uitwisselen
 ##### [Gegevensuitwisseling](across-exchange-data.md)
+##### [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Elektronische documenten verzenden](sales-how-to-send-electronic-documents.md)
 ##### [OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md)
 ##### [Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -550,6 +553,7 @@
 #### [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md)
 ### [Het grootboek en COA begrijpen](finance-general-ledger.md)
 ### [Werken met dimensies](finance-dimensions.md)
+### [Problemen met dimensies oplossen en dimensies corrigeren](finance-troubleshooting-correcting-dimensions.md)
 ### [Grootboekbudgetten maken](finance-how-create-budgets.md)
 ### [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
 ### [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)
@@ -567,6 +571,7 @@
 ### [Financiële overzichten analyseren in Excel:](finance-analyze-excel.md)
 ### [Bankfondsen overboeken](bank-how-transfer-bank-funds.md)
 ### [Accountantervaringen in Business Central](finance-accounting.md)
+### [Multi-site en internationale organisaties](finance-multi-site-organizations.md)
 
 ## Bedrijfsinformatie en financiële rapportage
 ### [Overzicht van bedrijfsinformatie en financiële rapportage](bi.md)
@@ -705,6 +710,8 @@
 ### [Volledige planning, MPS of MRP uitvoeren](production-how-to-run-mps-and-mrp.md)
 ### [Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md)
 ### [Relaties tussen vraag en aanbod bijhouden](production-how-track-demand-supply.md)
+### [Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)
+### [Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Assemblagebeheer
@@ -745,8 +752,6 @@
 #### [Productie- of assemblageoutput opslaan](warehouse-how-to-put-away-production-output.md)
 #### [Opslag in voorstellen plannen](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Procedure: Ontvangen en opslaan in geavanceerde magazijnconfiguraties](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Artikelen verplaatsen
 #### [Artikelen verplaatsen](warehouse-move-items.md)
 #### [Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +775,6 @@
 ### [Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Procedure: Ontvangen en opslaan in geavanceerde magazijnconfiguraties](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)
-### [Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)
 
 ## CRM - Service
 ### [Servicebeheer](service-service.md)

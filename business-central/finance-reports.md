@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783784"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935298"
 ---
 # <a name="financial-reports-in-business-central"></a>Financiële rapporten in Business Central
 
@@ -24,7 +24,6 @@ De volgende tabel beschrijft enkele van de belangrijkste rapporten in financiël
 
 |Rapport |Omschrijving  |
 |---------|---------|
-|**Kostprijs herwaarderen - Artikelposten** | Hiermee kunt u voorraadwaarden in waardeposten herwaarderen, zodat u de juiste geherwaardeerde kosten gebruikt voor het bijwerken van het grootboek en zodat de verkoop- en winststatistieken up-to-date zijn. Door de kostenherwaardering worden kostenwijzigingen uit inkomende posten, zoals kosten voor aankopen of productie-output, doorgeschoven naar de gerelateerde uitgaande posten, zoals verkopen of transfers.  |
 |**Proefbalans**| Geeft het rekeningschema weer met saldo's en mutaties. U kunt een proefbalans bekijken voor geselecteerde dimensies. U kunt het rapport gebruiken bij het afsluiten van een boekhoudperiode of boekjaar. |
 |**Proefbalans per periode**  | Geeft het beginsaldo per grootboekrekening, de verplaatsingen in de geselecteerde periode (maand, kwartaal of jaar) en het resulterende eindsaldo weer.         |
 |**Proefbalans/Budget** | Geeft een proefbalans weer in vergelijking met een budget. U kunt een proefbalans bekijken voor geselecteerde dimensies. U kunt het rapport gebruiken bij het afsluiten van een boekhoudperiode of boekjaar.        |

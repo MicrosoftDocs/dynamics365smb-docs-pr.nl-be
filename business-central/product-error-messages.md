@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 30ae76f4347a8297a84092573a59835be5569ec4
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779494"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017211"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Waarschuwingen en foutmeldingen in Dynamics 365 Business Central
 
@@ -38,7 +38,7 @@ Als u een beheerder of superuser bent, kunt u anderen helpen door foutmeldingen 
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
 [Veelgestelde vragen](across-faq.md)  
 [Veelgestelde vragen over Vertel me](ui-search-faq.md)  
-[Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)  
+[Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.yml)  
 [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  

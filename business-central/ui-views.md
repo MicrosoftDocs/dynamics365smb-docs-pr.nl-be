@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772184"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017086"
 ---
 # <a name="save-and-personalize-list-views"></a>Lijstweergaven opslaan en personaliseren
 Wanneer u een filter op een lijst hebt ingesteld en u het filter voor later wilt bewaren, kunt u het opslaan als een weergave. Zie voor meer informatie over het filteren van lijsten [Filters instellen op lijsten](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -35,7 +35,7 @@ Als er weergaven bestaan, wordt de groep **Weergaven** boven aan het filterdeelv
 Als u de weergave geen naam geeft, krijgt deze de naam **Alles (kopiëren)**.
 
 > [!TIP]
-> Zie u het pictogram ![Weergave opslaan](media/save_view_icon.png "Weergave opslaan") niet? Zie voor meer informatie [Waarom heb ik geen pictogram Opslaan?](ui-views-faq.md#save).
+> Zie u het pictogram ![Weergave opslaan](media/save_view_icon.png "Weergave opslaan") niet? Zie voor meer informatie [Waarom heb ik geen pictogram Opslaan?](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Een weergave hernoemen of verwijderen
 1. Kies voor de weergave waarin de lijst wordt weergegeven het pictogram ![Meer opties weergeven](media/show-more-options-icon.png "Meer opties weergeven") om te zien welke opties beschikbaar zijn.
@@ -45,7 +45,7 @@ Als u de weergave geen naam geeft, krijgt deze de naam **Alles (kopiëren)**.
 Naarmate het aantal weergaven op een pagina groeit, hebt u mogelijk extra controle nodig over hoe weergaven worden gepresenteerd in het filtervenster. Met de banner **Personaliseren** kunt u ongewenste weergaven verbergen of uw weergaven opnieuw ordenen om de perfecte volgorde te krijgen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[Veelgestelde vragen over lijstweergaven](ui-views-faq.md)  
+[Veelgestelde vragen over lijstweergaven](ui-views-faq.yml)  
 [Uw werkruimte personaliseren](ui-personalization-user.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  

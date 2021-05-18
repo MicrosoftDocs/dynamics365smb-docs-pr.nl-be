@@ -1,0 +1,72 @@
+### YamlMime:FAQ
+metadata:
+  title: Over zoeken en filteren in Business Central
+  description: Beantwoordt veelgestelde vragen over zoeken en filteren.
+  author: mikebcMSFT
+  ms.service: dynamics365-business-central
+  ms.topic: conceptual
+  ms.reviewer: edupont04
+  ms.search.keywords: keyboarding, productivity, how do i, filter pane
+  ms.date: 04/01/2021
+  ms.author: mikebc
+  ms.openlocfilehash: 782afb4a5cc811f950226d5812558055772edcad
+  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.translationtype: HT
+  ms.contentlocale: nl-BE
+  ms.lasthandoff: 05/11/2021
+  ms.locfileid: "6017331"
+title: Veelgestelde vragen over zoeken en filteren
+summary: In dit artikel worden veelgestelde vragen beantwoord over zoeken en filteren.
+sections:
+- name: Genegeerd
+  questions:
+  - question: >
+      Is er een verschil tussen zoeken en filteren?
+    answer: >
+      Ja.
+
+      - Zoeken is eenvoudig en breed: er worden records gezocht die de zoektekst bevatten in zichtbare velen op de pagina. Er wordt geen onderscheid gemaakt tussen hoofdletters en kleine letters.
+
+      - Filteren is zeer flexibel en kan op specifieke velden worden toegepast, inclusief velden die niet zichtbaar zijn op de pagina: er worden records weergegeven met exacte, hoofdlettergevoelige overeenkomsten, maar filtering kan worden aangepast met krachtige zoeksymbolen, tokens en formules. Voor meer informatie over hoe u deze functies gebruikt raadpleegt u [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md).
+  - question: >
+      Welke velden komen precies overeen bij het zoeken?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] past de zoekcriteria toe op alle velden die op de pagina zichtbaar zijn. Als een veld is verborgen, bijvoorbeeld door personalisatie, wordt bij het zoeken geen rekening gehouden met dit veld. Zoekcriteria worden alleen op velden toegepast als hun gegevenstype overeenkomt met dat van de zoekcriteria. Zoek bijvoorbeeld naar de term *vandaag* en dan zullen alle tekst- en codevelden worden doorzocht op de letterlijke waarde 'vandaag' en ook alle datumvelden waar *vandaag* wordt geëvalueerd als een uitdrukking voor de huidige datum, maar er wordt niet gezocht in numerieke velden. Zie voor meer informatie over filtercriteria [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md#-filter-criteria-and-operators).
+  - question: >
+      Is er een toetsenbordervaring voor zoeken en filteren?
+    answer: >
+      Zoeken en filteren zijn zeer geoptimaliseerd voor gebruikers die muisvrije interactie prefereren om efficiënt met hun gegevens te werken. Er zijn allerlei sneltoetsen die na elkaar worden gebruikt om zeer snel te werken. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
+  - question: >
+      Is het filterdeelvenster beschikbaar voor alle lijsten?
+    answer: >
+      Het filterdeelvenster is beschikbaar op pagina's waar de lijst de primaire inhoud op de pagina is, zoals werkbladen en lijstpagina's, inclusief lijsten die bereikbaar zijn vanaf de navigatiebalk. Het filtervenster is nog niet beschikbaar voor lijsten die worden weergegeven als onderdelen, zoals feitenblokken of rolcentrumonderdelen, of voor lijsten die worden weergegeven als dialoogvensters, zoals bij opzoekopdrachten. Wanneer een lijst wordt ingesloten op een pagina, zoals verkoopregels op een verkooporder, is het filterdeelvenster beschikbaar wanneer op die lijst wordt gefocust met de focusmodusknop. Zie voor meer informatie [Focussen op regelitems](ui-enter-data.md#Focus).
+  - question: >
+      Hoe kan ik mijn filters opslaan?
+    answer: >
+      Uw filters en wijzigingen in vooraf gedefinieerde filters worden de hele sessie onthouden (zolang u aangemeld blijft), zelfs als u van de pagina weg navigeert. U kunt filters permanent opslaan als een benoemde weergave van de lijst door het pictogram ![Weergave opslaan](media/save_view_icon.png "Weergave opslaan") in het filtervenster te kiezen. Zie voor meer informatie [Veelgestelde vragen over lijstweergaven](ui-views-faq.yml). In tegenstelling tot filters wordt zoektekst niet onthouden wanneer u weg van een pagina navigeert en wordt deze niet opgeslagen wanneer u een weergave opslaat.
+
+
+      Op pagina's met rapportaanvragen kunt u ook filters opslaan of vooraf gedefinieerde filters gebruiken. Zie voor meer informatie [Opgeslagen instellingen gebruiken](ui-work-report.md#SavedSettings).
+  - question: >
+      Is dit hetzelfde als Geavanceerde Filters en Limiettotalen in Microsoft Dynamics NAV?
+    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] bouwt voort op deze populaire functies en levert een moderne en zeer praktische ervaring voor het zoeken en analyseren van uw gegevens. Dankzij meer toetsenbordsneltoetsen en de invoering van zoeken overtreft [!INCLUDE[prod_short](includes/prod_short.md)] de functionaliteit in Dynamics NAV.  \n"
+  - question: >
+      Kan ik zoeken en filteren met de bijbehorende apps en de Microsoft 365-Invoegtoepassing?
+    answer: >
+      Op verschillende weergavebestemmingen, zoals mobiele apparaten of in Outlook, kunt u zoeken in lijsten, maar kunt u meestal niet filteren op afzonderlijke velden. In de [!INCLUDE[prod_short](includes/prod_short.md)]-app voor Microsoft Teams zijn zowel zoeken als filteren beschikbaar voor lijsten.
+  - question: >
+      Hoe kan ik zien hoe mijn zoektermen zijn toegepast op velden in de lijst?
+    answer: >
+      Nadat u zoektermen in het zoekvak hebt ingevoerd, kunt u de exacte zoekcriteria en de velden waarop ze zijn toegepast zien door het pagina-inspectievenster (**Ctrl+Alt+F1**) te openen en het tabblad **Paginafilters** te kiezen.
+  - question: >
+      Kan ik niets doen aan het bericht "Zoeken naar rijen duurt te lang"?
+    answer: >
+      Er is een tijdslimiet voor hoe lang een zoekbewerking kan duren. Probeer eerst de zoekcriteria te wijzigen en opnieuw te zoeken. Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, neemt u contact op met de systeembeheerder, omdat een beheerder de tijdslimiet voor zoekopdrachten kan verlengen.
+
+
+      Als on-premises beheerder verlengt u de tijdslimiet voor zoekopdrachten door de instelling **Time-out voor zoeken** van de [!INCLUDE[prod_short](includes/prod_short.md)]-server te wijzigen. Zie voor meer informatie [Business Central Server configureren](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) in de Business Central Developer en IT Pro Help.
+  - question: >
+      Zal Microsoft het filterdeelvenster uitbreiden?
+    answer: >
+      Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende gebruikers en handelen we naar de beste suggesties. Als u geïnteresseerd bent in het uitbreiden van het filterdeelvenster naar meer formulierfactoren en meer typen lijsten, of een goed idee hebt om het te verbeteren, voegt u een idee of een stem op bestaande ideeën toe aan [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas)
+additionalContent: "\n## <a name=\"see-also\"></a>Zie ook\n   [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  \n   [Pagina's en informatie zoeken met Vertel me](ui-search.md)  \n   [Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)  \n   [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  \n        \n        \n   [!INCLUDE[footer-include](includes/footer-banner.md)]"

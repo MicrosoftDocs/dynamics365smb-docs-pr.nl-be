@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776159"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017161"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Veelgestelde vragen over het gebruik van Business Central
 
@@ -136,8 +136,8 @@ De eerste releases van [!INCLUDE[prod_short](includes/prod_short.md)] on premise
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Veelgestelde vragen over Vertel me](ui-search-faq.md)  
-[Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)  
-[Veelgestelde vragen over lijstweergaven](ui-views-faq.md)  
+[Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.yml)  
+[Veelgestelde vragen over lijstweergaven](ui-views-faq.yml)  
 [Taal en landinstellingen wijzigen](about-locale-language.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken zonder Outlook](admin-no-outlook.md)  

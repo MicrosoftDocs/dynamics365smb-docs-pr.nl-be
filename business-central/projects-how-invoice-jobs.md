@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9290bda4437ea43edcaa19d7759f2fdee24e8c4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775077"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938158"
 ---
 # <a name="invoice-jobs"></a>Projecten factureren
 Tijdens het project kunnen projectkosten van resourceverbruik, materialen en aan het project gerelateerde inkopen, zich ophopen. Naarmate het project vordert, worden deze transacties geboekt in het projectdagboek. Het is van belang dat alle kosten worden vastgelegd in het projectdagboek voordat u het project aan de klant factureert.
@@ -61,21 +61,6 @@ U kunt een factuur maken vanuit een projectplanningsregel en op dat moment de ho
 > [!NOTE]  
 >   De bovengenoemde procedure is soortgelijk voor het maken, controleren en boeken van een aan een project gerelateerde verkoopcreditnota.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Projectvoltooiingsposten berekenen en boeken
-Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiksboekingen en -facturering, moet u het project bijwerken om de **Status** in te stellen op **Voltooid**. Vervolgens moet u eventueel OHW tegenboeken dat naar het grootboek is geboekt.
-
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
-2. Selecteer een open project en kies vervolgens de actie **Bewerken**.
-3. Selecteer in het veld **Status** de optie **Voltooid**.
-4. Volg de hulpstappen om OHW te berekenen en te boeken. Of volg stap 5 en 6 om dit handmatig te doen.  
-5. Kies de actie **OHW berekenen**.
-6. Vul op de pagina **OHW voor project berekenen** indien nodig de velden in.  
-
-     De OHW-posten voor het project die worden gemaakt door het uitvoeren van de batchverwerking, hebben nu een vinkje in het selectievak **Project voltooid** om aan te geven dat het voltooiingsposten zijn.  
-7. Kies de actie **Project-OHW naar GB boeken**.
-8. Vul op de pagina **Project-OHW naar GB boeken** indien nodig de velden in.  
-
-     De OHW-grootboekposten voor het project die worden gemaakt door het uitvoeren van de batchverwerking hebben nu een vinkje in het selectievak **Project voltooid** om aan te geven dat het voltooide posten zijn.
 
 ## <a name="see-also"></a>Zie ook
 [Projecten beheren](projects-manage-projects.md)  

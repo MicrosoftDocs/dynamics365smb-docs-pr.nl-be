@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 418da0f0e30fb36345508f36e943b68c930e1ca7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770925"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947400"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Gegevens analyseren per dimensie
 In financiële analyses is een dimensie informatie die u kunt toevoegen aan een post als een soort kenteken. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. Dimensies kunnen worden gebruikt op posten in dagboeken, documenten en budgetten. De term dimensie beschrijft hoe analyse plaatsvindt. Een tweedimensionale analyse is bijvoorbeeld verkoop per gebied. Door echter meer dan twee dimensies te gebruiken bij het maken van een post, kunt u complexere analyses uitvoeren, zoals verkoop per verkoopcampagne per klantengroep per gebied. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
@@ -26,6 +26,9 @@ Door gegevens met dimensies te analyseren krijgt u een beter inzicht in uw bedri
 
 > [!TIP]
 > Als snelle manier om transactiegegevens te analyseren per dimensie kunt u totalen in het rekeningschema en posten op de pagina's **Posten** filteren op dimensie. Zoek de actie **Dimensiefilter instellen**.
+
+> [!NOTE]
+> Als u ontdekt dat een onjuiste dimensie is gebruikt voor geboekte grootboekposten, kunt u de dimensiewaarden corrigeren en uw analyseweergaven bijwerken. Zie [Problemen met dimensies oplossen en dimensies corrigeren](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting) voor meer informatie
 
 ## <a name="to-set-up-an-analysis-view"></a>Een analyseweergave instellen  
 Met een analyse op basis van dimensies geeft u een geselecteerde combinatie van dimensies weer. U kunt elke ingestelde analyse opslaan en ophalen. De gegevens voor het instellen van een analyse worden op een **Analyseweergave** kaart opgeslagen om analyse in de toekomst te vereenvoudigen.  

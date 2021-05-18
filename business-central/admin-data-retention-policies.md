@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780069"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935348"
 ---
 # <a name="define-retention-policies"></a>Bewaarbeleid definiëren
 Beheerders kunnen bewaarbeleid definiëren om aan te geven hoe vaak ze willen dat [!INCLUDE[prod_short](includes/prod_short.md)] verouderde gegevens verwijdert in tabellen die logboekvermeldingen en gearchiveerde records bevatten. Het opschonen van logboekvermeldingen kan het bijvoorbeeld gemakkelijker maken om te werken met de gegevens die echt relevant zijn. Beleid kan alle gegevens in de tabellen omvatten die de vervaldatum hebben overschreden, of u kunt filtercriteria toevoegen die alleen bepaalde verlopen gegevens in het beleid opnemen. 
@@ -67,7 +67,7 @@ Wanneer ontwikkelaars een tabel toevoegen, kunnen ze verplichte en standaardfilt
 
 Hieronder volgen voorbeelden van hoe u een tabel kunt toevoegen aan de lijst met toegestane tabellen met en zonder verplichte of standaardfilters. Voor een complex voorbeeld raadpleegt u codeunit 3999 'Bewaarbeleid installeren - BaseApp'. 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Hieronder volgen voorbeelden van hoe u een tabel kunt toevoegen aan de lijst met
 
 Het volgende voorbeeld bevat een verplicht filter.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,9 +98,12 @@ Het volgende voorbeeld bevat een verplicht filter.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 Nadat een ontwikkelaar tabellen aan de lijst heeft toegevoegd, kan een beheerder deze opnemen in een bewaarbeleid. 
 
 ## <a name="see-also"></a>Zie ook
+
+[Traceringstelemetrie voor bewaarbeleid analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Wijzigingen controleren in Business Central](across-log-changes.md)  
 [Filteren](ui-enter-criteria-filters.md#filtering)  
 [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)  

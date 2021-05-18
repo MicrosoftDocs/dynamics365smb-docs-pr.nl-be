@@ -1,6 +1,6 @@
 ---
-title: Verbinden met Microsoft Dataverse | Microsoft Docs
-description: U kunt via Microsoft Dataverse andere apps integreren met Business Central.
+title: Verbinding maken met Microsoft Dataverse
+description: U kunt via Microsoft Dataverse andere apps integreren met Business Central. Dit artikel bevat tips en trucs voor het instellen van de verbindingen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/26/2021
 ms.author: bholtorf
-ms.openlocfilehash: 96ba755a1a32a23197b2bb839e50ebe6a0a1e63b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 00034e8f1be2f88074fb33b53a1c048f81f69ede
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779794"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941675"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Verbinding maken met Microsoft Dataverse
+
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een verbinding tot stand brengt tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Bedrijven maken doorgaans de verbinding om gegevens te integreren en te synchroniseren met een andere Dynamics 365-bedrijfsapp, zoals [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -29,6 +30,7 @@ Voordat u de verbinding maakt, moet u een aantal gegevens gereed hebben:
 * De URL van de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving waarmee u verbinding wilt maken. Als u de begeleide instelling **Dataverse-verbinding instellen** gebruikt om de verbinding tot stand te brengen, ontdekken we uw omgevingen, maar u kunt ook de URL van een andere omgeving in uw tenant invoeren.  
 * De gebruikersnaam en het wachtwoord van een account dat beheerdersmachtigingen heeft in [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Als u een on-premises [!INCLUDE[prod_short](includes/prod_short.md)] 2020 releasewave 1, versie 16.5, hebt, leest u het artikel [Enkele bekende problemen](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). U moet de beschreven tijdelijke oplossing voltooien voordat u verbinding kunt maken met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+* De lokale valuta voor het bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)] moet dezelfde zijn als de basistransactievaluta in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Nadat een basistransactie is ingesteld in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], kan deze niet worden gewijzigd. Zie voor meer informatie [De entiteit Transactievaluta (valuta)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Dit betekent dat alle [!INCLUDE[prod_short](includes/prod_short.md)] bedrijven waarmee u verbinding maakt met een [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-organisatie dezelfde valuta moeten gebruiken.
 
 > [!IMPORTANT]
 > Uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving mag niet in de beheermodus zijn. De beheermodus zorgt ervoor dat de verbinding mislukt omdat het integratiegebruikersaccount voor de verbinding geen beheerdersmachtigingen heeft. Zie [Beheermodus](/power-platform/admin/admin-mode) voor meer informatie.
@@ -86,17 +88,16 @@ In de volgende procedure wordt beschreven hoe u de verbinding op de pagina **Dat
     <!--Need to verify the details in this table, are these specific to Sales maybe?  IK: No they are not and no longer relevant 
     Enter the following advanced settings.-->
 
-   <!-- |Field|Description|
+    <!-- |Field|Description|
     |-----|-----|
     |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field-->|
-
 4. Als u de verbindingsinstellingen wilt testen, kiest u **Verbinding** en vervolgens **Verbinding testen**.  
 
     > [!NOTE]  
     > Als gegevensversleuteling niet is ingeschakeld in [!INCLUDE[prod_short](includes/prod_short.md)], wordt u gevraagd of u het wilt inschakelen. Als u gegevensversleuteling wilt inschakelen, kiest u **Ja** en geeft u de vereiste informatie op. Anders kiest u **Nee**. U kunt gegevenscodering later inschakelen. Zie voor meer informatie [Gegevens versleutelen in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in de Help voor ontwikkelaars en beheerders.  
-
 5. Als [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-synchronisatie niet al is ingesteld, wordt u gevraagd of u de standaardinstellingen voor synchronisatie wilt gebruiken. Afhankelijk van of u records uitgelijnd wilt houden in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)], kiest u **Ja** of **Nee**.
+
 <!--
 ## Show Me the Process
 
@@ -116,12 +117,12 @@ Als u verbinding wilt maken met een Azure Active Directory (Azure AD)-account, m
 
 Dataverse moet een van de volgende verificatietypen gebruiken:
 
-- Office365 (oud)
+* Office365 (oud)
 
   > [!IMPORTANT]
   > Met ingang van april 2022 wordt Office365 (oud) niet langer ondersteund. Zie voor meer informatie [Belangrijke veranderingen (afschrijvingen) die aanstaande zijn in Power Apps, Power Automate en apps voor klantbetrokkenheid](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-- Office365 (modern, gebaseerd op OAuth2-clientgeheim)
-- OAuth
+* Office365 (modern, gebaseerd op OAuth2-clientgeheim)
+* OAuth
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Een toepassing registreren in Azure AD voor verbinding van Business Central met Dataverse
 
@@ -148,7 +149,7 @@ Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identit
 
 #### <a name="using-another-identity-and-access-management-service"></a>Een andere identiteits- en toegangsbeheerservice gebruiken
 
-Als u Azure Active Directory niet gebruikt om identiteiten en toegang te beheren, hebt u wat hulp nodig van een ontwikkelaar. Als u de app-id en het geheim liever op een andere locatie opslaat, kunt u de velden Client-id en Clientgeheim leeg laten en een extensie schrijven om de id en het geheim van de locatie op te halen. U kunt het geheim tijdens runtime verstrekken door u te abonneren op de gebeurtenissen OnGetCDSConnectionClientId en OnGetCDSConnectionClientSecret in codeunit 7201 'CDS Integration Impl.'
+Als u Azure Active Directory niet gebruikt om identiteiten en toegang te beheren, hebt u wat hulp nodig van een ontwikkelaar. Als u de app-id en het geheim liever op een andere locatie opslaat, kunt u de velden Client-id en Clientgeheim leeg laten en een extensie schrijven om de id en het geheim van de locatie op te halen. U kunt het geheim tijdens runtime opgeven door u te abonneren op de `OnGetCDSConnectionClientId`- en `OnGetCDSConnectionClientSecret`-gebeurtenissen in codeunit 7201 `CDS Integration Impl.`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verbreken
 
@@ -158,6 +159,5 @@ Als u Azure Active Directory niet gebruikt om identiteiten en toegang te beheren
 ## <a name="see-also"></a>Zie ook
 
 [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

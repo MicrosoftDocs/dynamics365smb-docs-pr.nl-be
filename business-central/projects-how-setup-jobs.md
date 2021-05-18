@@ -1,5 +1,5 @@
 ---
-title: Projectprijzen en projectboekingsgroepen instellen| Microsoft Docs
+title: Projecten, prijzen en projectboekingsgroepen instellen
 description: Beschrijft hoe u algemene projectgegevens instelt en prijzen instelt voor projectartikelen, resources en grootboekrekeningen, en projectboekingsgroepen.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 597d0ceb94e72305675b446af0031d97e0bc6478
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780494"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938083"
 ---
-# <a name="set-up-jobs"></a>Projecten instellen
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Projecten, prijzen en projectboekingsgroepen instellen
 
 Als projectmanager kunt u taken instellen die alle projecten definiëren die u beheert in [!INCLUDE[prod_short](includes/prod_short.md)]. Op de pagina **Projectinstellingen** moet u opgeven hoe u bepaalde functies wilt gebruiken.
 
@@ -26,26 +26,27 @@ Voor elk project kunt u afzonderlijke projectkaarten opgeven met informatie over
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> De invloed van het veld **Gebruikslink standaard toepassen** is tamelijk complex en wordt daarom in het volgende gedeelte uitgelegd.
+> In het veld **Gebruikslink standaard toepassen** wordt aangegeven of projectposten standaard zijn gekoppeld aan projectplanningsregels. Kies het veld als u deze instelling wilt toepassen op alle nieuwe projecten die u maakt. U kunt het bijhouden van het projectgebruik voor een specifiek project in- of uitschakelen door de waarde van het veld **Gebruikslink toepassen** op de individuele taakkaart te wijzigen. De gevolgen worden in de volgende sectie uitgelegd.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Bijhouden van projectgebruik instellen
 
-Als u een project uitvoert, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om dit gemakkelijk te doen, kunt u een koppeling tussen het werkelijke verbruik en uw projectplanningsregels maken. Hiermee kunt u uw kosten bijhouden en gemakkelijk zien hoeveel werk nog moet worden gedaan. Standaard is het soort projectplanningsregel **Budget**, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
+Als u aan een project werkt, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om dit gemakkelijk te doen, kunt u een koppeling tussen het werkelijke verbruik en uw projectplanningsregels maken. Hiermee kunt u uw kosten bijhouden en gemakkelijk zien hoeveel werk nog moet worden gedaan. Standaard is het soort projectplanningsregel *Budget*, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
 
-Als u het veld **Gebruikslink standaard toepassen** inschakelt, kunt u gegevens op de projectplanningsregel controleren. U kunt de hoeveelheid van de resource, artikel of grootboekrekening instellen en vervolgens aangeven welke hoeveelheid u wilt overdragen naar het projectdagboek. Het veld **Resterend aantal** op de projectplanningsregel geeft aan wat nog moet worden overgebracht en geboekt naar het projectdagboek.
+Als u het veld **Gebruikslink toepassen** inschakelt, kunt u gegevens op de projectplanningsregel controleren. U kunt de hoeveelheid van de resource, artikel of grootboekrekening instellen en vervolgens aangeven welke hoeveelheid u wilt overdragen naar het projectdagboek. Het veld **Resterend aantal** op de projectplanningsregel geeft aan wat nog moet worden overgebracht en geboekt naar het projectdagboek.
 
-> [!TIP]  
-> U kunt tracking van projectgebruik in- of uitschakelen voor een bepaald project. De waarde van het veld **Gebruikslink toepassen** op de individuele projectkaart heeft voorrang op de instelling op de pagina **Projectinstellingen**.  
-
-Wanneer het selectievakje **Gebruikslink standaard toepassen** is ingeschakeld en het soort projectplanningsregel **Factureerbaar** is, wordt een projectplanningsregel van het soort **Budget** gemaakt nadat u een projectdagboekregel hebt geboekt.
+>[!NOTE]
+> Als het selectievakje **Gebruikslink toepassen** voor de afzonderlijke opdracht is ingeschakeld en het veld **Regelsoort** op de journaalregel of inkoopregel *Factureerbaar* is, worden er nieuwe projectplanningregels van het type *Budget* gemaakt wanneer u het opdrachtjournaal of inkoopdocument boekt.  
+> Zie voor meer informatie [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md) en [Projectvoorraden beheren](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Als tracking van projectgebruik is ingeschakeld op de pagina **Projectinstellingen** of voor het afzonderlijke project, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er nieuwe projectplanningregels van het type **Budget** gemaakt wanneer u projectjournaalregels boekt.  
->  
-> Als tracking van projectgebruik *niet* is ingeschakeld op de pagina **Projectinstellingen** of voor het afzonderlijke project, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er geen nieuwe projectplanningregels gemaakt wanneer u projectjournaalregels boekt. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
+> Als het veld **Regeltype** op de opdrachtjournaalregel of inkoopregel leeg is, worden er geen opdrachtplanningsregels aangemaakt wanneer u het opdrachtjournaal of inkoopdocument boekt.
 
-1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Projectinstellingen** in en kies de desbetreffende koppeling.
-2. Schakel het selectievakje **Gebruikslink standaard toepassen** in.
+<!--
+>[!Important]
+If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
+If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
+-->
+
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Prijzen instellen voor resources, artikelen en grootboekrekeningen voor projecten
 > [!NOTE]

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780094"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961514"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven
 
@@ -77,12 +77,16 @@ De eerste taak bij het maken van rapporten is het toevoegen van [!INCLUDE[prod_s
 
     De wizard Power BI bevat een lijst met Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]-omgevingen, -bedrijven en -gegevensbronnen. Deze gegevensbronnen vertegenwoordigen alle webservices die u hebt gepubliceerd vanuit [!INCLUDE [prod_short](includes/prod_short.md)].
 6. Geef de gegevens op die u aan uw gegevensmodel wilt toevoegen en kies vervolgens de knop **Laden**.
-7. Herhaal de vorige stappen om aanvullende [!INCLUDE [prod_short](includes/prod_short.md)]- of andere gegevens aan uw Power BI-gegevensmodel toe te voegen.
+7. Herhaal de vorige stappen om meer [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens of andere gegevens aan uw Power BI-gegevensmodel toe te voegen.
 
 Zodra de gegevens zijn geladen, ziet u deze in de rechternavigatie op de pagina. U hebt nu met succes verbinding gemaakt met uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens en u kunt uw Power BI-rapport gaan maken.  
 
 > [!TIP]
 > Zie [Aan de slag met Power BI Desktop](/power-bi/fundamentals/desktop-getting-started) voor meer informatie over het gebruik van Power BI Desktop.
+
+## <a name="creating-accessible-reports"></a>Toegankelijke rapporten maken
+
+Het is belangrijk om uw rapporten bruikbaar te maken voor zoveel mogelijk mensen. Probeer rapporten zo te ontwerpen dat ze geen speciale aanpassingen nodig hebben om aan specifieke behoeften van verschillende gebruikers te voldoen. Zorg ervoor dat gebruikers dankzij het ontwerp kunnen profiteren van standaard ondersteunende technologieën, zoals schermlezers. Power BI bevat verschillende toegankelijkheidsfuncties, tools en richtlijnen om dit doel te bereiken. Zie voor meer informatie [Power BI-rapporten voor toegankelijkheid](/power-bi/create-reports/desktop-accessibility-creating-reports) in de Power BI-documentatie.
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Rapporten maken om gegevens weer te geven die aan een lijst zijn gekoppeld
 

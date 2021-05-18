@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2021
+ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: a600b24e16172134d4f8e78cf47efa4e262cac09
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777528"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941625"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_long](includes/prod_long.md)] bevat een Power BI-feitenblokbesturingselement op veel belangrijke lijstpagina's. Het doel van dit feitenblok is om Power BI-rapporten weer te geven die betrekking hebben op records in de lijsten, waardoor extra inzicht in de gegevens ontstaat. Het idee is dat terwijl u van de ene naar de andere rij gaat, het rapport wordt bijgewerkt en gefilterd op de geselecteerde vermelding.
+[!INCLUDE[prod_long](includes/prod_long.md)] bevat een Power BI-feitenblokbesturingselement op veel belangrijke lijstpagina's. Het doel van dit feitenblok is om Power BI-rapporten weer te geven die betrekking hebben op records in de lijsten, waardoor extra inzicht in de gegevens ontstaat. Het idee is dat terwijl u van de ene naar de andere rij gaat, het rapport wordt bijgewerkt voor de geselecteerde vermelding.
 
 [!INCLUDE[prod_long](includes/prod_long.md)] wordt geleverd met enkele van deze rapporten. U kunt ook uw eigen aangepaste rapporten maken die in dit feitenblok worden weergegeven. Het maken van deze rapporten is vergelijkbaar met andere rapporten. Maar er zijn een paar ontwerpregels die u moet volgen om ervoor te zorgen dat de rapporten worden weergegeven zoals verwacht. Deze regels worden in dit artikel uitgelegd.
 
@@ -39,7 +39,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 1. Start Power BI Desktop.
 2. Selecteer **Gegevens verkrijgen** en begin met het kiezen van de gegevensbron voor het rapport.
 
-    In deze stap geeft u de Business Central-lijstpagina's op die de gegevens bevatten die u in het rapport wilt hebben. Als u bijvoorbeeld een rapport wilt maken voor de lijst Verkoop, moet u ervoor zorgen dat de gegevensset informatie bevat die verband houdt met de verkoop.
+    Geef de Business Central-lijstpagina's op die de gegevens bevatten die u in het rapport wilt hebben. Als u bijvoorbeeld een rapport wilt maken voor de lijst **Verkoopfacturen**, moet u pagina's opnemen die verband houden met de verkoop.
 
     Volg de instructies voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] toevoegen als gegevensbron in Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
 
@@ -62,9 +62,9 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 6. Sla het rapport op en geef het een naam.
 
-    Het is belangrijk het rapport een naam te geven die de naam bevat van de lijstpagina die aan het rapport is gekoppeld. Is het rapport bijvoorbeeld gemaakt voor de lijstpagina **Artikelen**, neem dan het woord *artikelen* op in de naam.  
+    Geef het rapport een naam die de naam bevat van de lijstpagina die aan het rapport is gekoppeld, zoals in de client. De naam is echter niet hoofdlettergevoelig. Stel dat het rapport voor de lijstpagina **Verkoopfacturen** bedoeld is. Voeg in dat geval het woord **verkoopfacturen** ergens in de naam toe, bijvoorbeeld **mijn verkoopfacturen.pbix** of **Mijn_Verkoopfacturen_lijst.pbix**.
 
-    Deze naamgevingsconventie is geen vereiste. Deze zorgt er echter wel voor dat gebruikers de gewenste rapporten sneller kunnen selecteren in [!INCLUDE[prod_short](includes/prod_short.md)]. Wanneer de rapportselectiepagina wordt geopend vanuit een lijstpagina, wordt de lijst met rapporten automatisch gefilterd op basis van de paginanaam. De rapporten worden gefilterd om het aantal weergegeven rapporten te beperken. Gebruikers kunnen het filter ook verwijderen als ze de volledige lijst met rapporten die beschikbaar zijn in Power BI, willen bekijken.
+    Deze naamgevingsconventie is geen vereiste. Deze zorgt er echter wel voor dat gebruikers de gewenste rapporten sneller kunnen selecteren in [!INCLUDE[prod_short](includes/prod_short.md)]. Wanneer de rapportselectiepagina wordt geopend vanuit een lijstpagina, wordt deze automatisch gefilterd op basis van de paginanaam. Het filter heeft de syntaxis: `@*<caption>*`, zoals `@*Sales Invoices*`. De rapporten worden gefilterd om het aantal weergegeven rapporten te beperken. Gebruikers kunnen het filter ook verwijderen als ze de volledige lijst met rapporten die beschikbaar zijn in Power BI, willen bekijken.
 
 7. Als u klaar bent, publiceert u het rapport zoals u gewend bent.
 
@@ -72,7 +72,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 8. Test het rapport.
 
-    Zodra de rapporten naar uw werkruimte zijn gepubliceerd, zou het beschikbaar moeten zijn in het feitenblok Power BI op de lijstpagina in [!INCLUDE[prod_short](includes/prod_short.md)].
+    Zodra het rapport naar uw werkruimte is gepubliceerd, zou het beschikbaar moeten zijn in het feitenblok Power BI op de lijstpagina in [!INCLUDE[prod_short](includes/prod_short.md)].
 
     Voer de volgende stappen uit om het te testen.
 
@@ -109,7 +109,7 @@ Standaard is het feitenblok Power BI verborgen. Als u het feitenblok op een pagi
 
 ### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>U kunt het rapport niet zien in het deelvenster Rapport selecteren
 
-Dit komt waarschijnlijk omdat de naam van het rapport niet de naam bevat van de lijstpagina die wordt weergegeven. Wis het filter om de volledige lijst met rapporten die beschikbaar zijn in Power BI, weer te geven.  
+De naam van het rapport bevat niet de naam bevat van de lijstpagina die wordt weergegeven. Wis het filter om de volledige lijst met rapporten die beschikbaar zijn in Power BI, weer te geven.  
 
 ### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Het rapport is geladen, maar is leeg, niet gefilterd of onjuist gefilterd
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 86e540a34efba3fccbc0615cac692fd6c405bee0
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882242"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935223"
 ---
 # <a name="teams-faq"></a>Veelgestelde vragen over Teams
 
@@ -230,7 +230,7 @@ Ja. Zoeken naar contacten vanuit Teams is gebaseerd op [!INCLUDE [prod_short.md]
 
 Nadat u zich voor de eerste keer hebt aangemeld bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams, zal de app proberen uw voorkeursbedrijf te bepalen in [!INCLUDE [prod_short.md](includes/prod_short.md)]. Als de app het bedrijf niet kan bepalen, moet u mogelijk naar de **Instellingen** gaan en het bedrijf kiezen waarin u wilt zoeken. Deze situatie doet zich bijvoorbeeld voor als u toegang heeft tot meerdere bedrijven in verschillende omgevingen in uw organisatie. In dat geval moet u een bedrijf kiezen voordat u kunt gaan zoeken.  
 
-De app kan u ook vragen naar **Instellingen** te gaan als u geen [!INCLUDE [prod_short.md](includes/prod_short.md)]-abonnement lijkt te hebben of geen [!INCLUDE [prod_short.md](includes/prod_short.md)]-omgevingen of als uw account geen [!INCLUDE [prod_short.md](includes/prod_short.md)]-licentie heeft.
+De app kan u ook vragen naar **Instellingen** te gaan als u geen [!INCLUDE [prod_short.md](includes/prod_short.md)]-abonnement hebt, zijn er geen [!INCLUDE [prod_short.md](includes/prod_short.md)]-omgevingen of als uw account geen [!INCLUDE [prod_short.md](includes/prod_short.md)]-licentie heeft.
 
 ### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Ik zou graag willen zoeken naar items of records uit andere tabellen. Kan ik dit vanuit Teams doen?
 
