@@ -1,5 +1,5 @@
 ---
-title: 'Procedure: Ordertoezeggingsdatums berekenen | Microsoft Docs'
+title: Ordertoezeggingsdatums berekenen
 description: Met de functie Ordertoezegging wordt de vroegst mogelijke datum berekend waarop een artikel beschikbaar is voor verzending of levering. Met deze functie worden ook behoefteregels gemaakt voor de datums die u accepteert.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0fda3e2cdbbb04d025d0142b94add8c75eb98c5a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778484"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115602"
 ---
 # <a name="calculate-order-promising-dates"></a>Ordertoezeggingsdatums berekenen
-Een bedrijf moet de klanten op de hoogte kunnen stellen van leverdatums van orders. Met de pagina **Ordertoezeggingsregels** kunt u dit doen vanuit een verkooporderregel.  
+Een bedrijf moet de klanten op de hoogte kunnen stellen van leverdatums van orders. Met de pagina **Ordertoezeggingsregels** kunt u dit doen vanuit een verkooporder.  
 
 Op basis van de bekende en verwachte beschikbaarheidsdatums van een item berekent [!INCLUDE[prod_short](includes/prod_short.md)] onmiddellijk verzend- en leverdatums, die vervolgens aan de klant kunnen worden toegezegd.  
 
@@ -35,7 +35,7 @@ Als u geen aangevraagde leverdatum op een verkooporderregel hebt opgegeven of al
 - Geplande verzenddatum + Verzendtijd = Geplande leverdatum  
 
 ## <a name="about-order-promising"></a>Informatie over ordertoezeggingen
-Met de functionaliteit Ordertoezegging kunt u orders toezeggen, die op een bepaalde datum moeten worden verzonden of geleverd. De datum voor ATP (Available To Promise) of CTP (Capable To Promise) van een artikel wordt berekend en er worden orderregels gemaakt voor de datums die u accepteert. Met deze functionaliteit wordt de vroegst mogelijke datum berekend waarop een artikel beschikbaar is voor verzending of levering. De functie maakt ook aanvraagregeles, voor het geval dat de artikelen eerst moeten worden ingekocht, voor de datums die u accepteert.
+Met de functionaliteit Ordertoezegging kunt u orders toezeggen, die op een bepaalde datum moeten worden verzonden of geleverd. De datum voor ATP (Available To Promise) of CTP (Capable To Promise) van een artikel wordt berekend en er worden orderregels gemaakt voor de datums die u accepteert. Met deze functionaliteit wordt de vroegst mogelijke datum berekend waarop een artikel beschikbaar is voor verzending of levering. De functie maakt ook aanvraagregels, voor het geval dat de artikelen eerst moeten worden ingekocht of geproduceerd, voor de datums die u accepteert.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] maakt gebruik van twee fundamentele begrippen:  
 

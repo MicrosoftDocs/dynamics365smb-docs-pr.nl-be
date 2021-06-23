@@ -10,17 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d1448b9105426103d70abfb820bd38b6adb41db8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779265"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115877"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Onderdelen afboeken op basis van de uitvoer van een bewerking
 U kunt verschillende afboekingsstrategieën definiëren om de registratie van het verbruik van componenten te automatiseren. 
-
-Als bijvoorbeeld een productieorder voor het vervaardigen van 800 meter 8 kg van een component vereist, worden als u 200 meter als uitvoer boekt automatisch 2 kg als verbruik geboekt. 
 
 Deze functionaliteit is handig om de volgende redenen:  
 
@@ -34,7 +32,62 @@ Deze functionaliteit is handig om de volgende redenen:
 
     Via de mogelijkheid om producten aan te passen aan de vraag van de klant kunt u verspilling tot een minimum beperken door ervoor te zorgen dat werk en systeemwijzigingen alleen optreden wanneer het nodig is.  
 
-U kunt dat bereiken door de achterwaartse afboekingsmethode te combineren met codes van bewerkingsplankoppelingen, zodat het aantal dat per bewerking wordt afgeboekt, in verhouding staat tot de werkelijke uitvoer van de voltooide bewerking. Voor artikelen die zijn ingesteld met de achterwaartse afboekingsmethode wordt standaard het verbruik van onderdelen berekend en geboekt wanneer u de status van een vrijgegeven productieorder wijzigt in **Voltooid**. Als u ook bewerkingsplankoppelingen definieert, vinden berekening en boeking plaats wanneer elke bewerking is voltooid en wordt de hoeveelheid geboekt die daadwerkelijk is verbruikt in de bewerking. Zie voor meer informatie [Bewerkingsplannen maken](production-how-to-create-routings.md).  
+- **Gegevensinvoer verminderen**
+
+    Met de mogelijkheid om een bewerking automatisch af te boeken, kan het hele verbruik- en outputregistratieproces worden geautomatiseerd. Het nadeel van automatisch afboeken is dat u mogelijk dat u uitval niet nauwkeurig registreert, of zelfs niet eens opmerkt.
+
+## <a name="automatic-consumption-posting-flushing-methods"></a>Methoden voor automatisch verbruik boeken (afboeken)  
+
+- De hele order voorwaarts afboeken  
+- Voorwaarts afboeken per bewerking  
+- Achterwaarts afboeken per bewerking  
+- De hele order achterwaarts afboeken  
+
+### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatische rapportage - de hele order voorwaarts afboeken  
+Als u de productieorder voorwaarts afboekt bij het begin van het project, werkt de toepassing op vergelijkbare wijze als bij handmatig verbruik. Het belangrijkste verschil is dat het verbruik automatisch plaatsvindt.  
+
+- De volledige inhoud van de productiestuklijst wordt verbruikt en afgetrokken van de voorraad op het moment waarop de vrijgegeven productieorder wordt bijgewerkt.  
+- Het verbruikte aantal is het aantal per montage zoals vermeld op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat u maakt.  
+- U hoeft geen informatie vast te leggen in het verbruiksdagboek als alle artikelen moeten worden afgeboekt.  
+- Wanneer artikelen vanuit de voorraad worden verbruikt, maakt het niet uit wanneer outputdagboekposten worden aangemaakt, want het outputdagboek heeft geen effect op deze manier van verbruikboeking.  
+- Er kunnen geen bewerkingsplankoppelingen worden ingesteld.  
+
+Het voorwaarts afboeken van een hele order is nuttig in productieomgevingen met:  
+
+-   Een klein aantal beschadigde artikelen  
+-   Een klein aantal bewerkingen  
+-   Hoog materiaalverbruik in eerste bewerkingen  
+
+### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatische rapportage - voorwaarts afboeken per bewerking  
+Bij afboeken per bewerking kunt u voorraad aftrekken tijdens een specifieke bewerking in het bewerkingsplan van het hoofdartikel. Materiaal wordt gekoppeld aan het bewerkingsplan met behulp van bewerkingsplankoppelingen, die overeenkomen met de bewerkingsplankoppelingen die worden toegepast op onderdelen in de productiestuklijst.  
+
+De afboeking vindt plaats wanneer de bewerking die dezelfde bewerkingsplankoppeling heeft, wordt gestart. Gestart betekent dat enige activiteit is geregistreerd in het outputdagboek voor die bewerking. En die activiteit kan ook bestaan uit het invoeren van een insteltijd.  
+
+Het bedrag van de afboeking is voor het aantal per montage dat vermeld staat op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat wordt gemaakt (verwachte aantal).  
+
+Deze techniek kan het beste worden toegepast wanneer er veel bewerkingen zijn en bepaalde onderdelen pas later in de montagevolgorde nodig zijn. In feite kan het bij een Just-in-Time (JIT)-omgeving zelfs zo zijn dat de artikelen niet eens voorhanden zijn wanneer de RPO van start gaat.  
+
+Materiaal kan tijdens bewerkingen worden verbruikt met behulp van bewerkingsplankoppelingen. Sommige onderdelen worden mogelijk pas gebruikt bij de eindmontage en mogen pas op dat moment aan de voorraad worden onttrokken.  
+
+### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatische rapportage - achterwaarts afboeken per bewerking  
+Bij achterwaarts afboeken per bewerking wordt het verbruik geregistreerd nadat de bewerking in het outputdagboek is geboekt.  
+
+Het voordeel van deze methode is dat het aantal hoofdonderdelen dat is gereedgemeld in de bewerking bekend is.  
+
+Het materiaal in de productiestuklijst wordt gekoppeld aan de bewerkingsplanrecords met behulp van bewerkingsplankoppelingen. Het achterwaarts afboeken vindt plaats wanneer een bewerking met een bepaalde bewerkingsplankoppeling wordt geboekt met een gereedgemeld aantal.  
+
+Het bedrag van de afboeking is voor het aantal per montage dat vermeld staat op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat is geboekt als outputaantal bij die bewerking. Dit kan afwijken van het verwachte aantal.  
+
+### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatische rapportage - de hele order achterwaarts afboeken  
+Bij deze rapportagemethode wordt geen rekening gehouden met bewerkingsplankoppelingen.  
+
+Er worden geen onderdelen gepickt totdat de status van de vrijgegeven productieorder is gewijzigd in *Gereedgemeld*. Het bedrag van de afboeking is het aantal per montage dat vermeld staat op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat is gereedgemeld en in voorraad is geplaatst.  
+
+Voor achterwaarts afboeken van de hele productieorder moeten dezelfde instellingen worden gebruikt als bij voorwaarts afboeken: de rapportagemethode moet worden ingesteld op achterwaarts bij elk artikel voor alle artikelen in de hoofdstuklijst waarvoor de rapportage is bedoeld. Bovendien moeten alle bewerkingsplankoppelingen zijn verwijderd uit de productiestuklijst. 
+
+
+
+Als bijvoorbeeld een productieorder voor het vervaardigen van 800 meter 8 kg van een component vereist, worden als u 200 meter als uitvoer boekt automatisch 2 kg als verbruik geboekt. U kunt dat bereiken door de achterwaartse afboekingsmethode te combineren met codes van bewerkingsplankoppelingen, zodat het aantal dat per bewerking wordt afgeboekt, in verhouding staat tot de werkelijke uitvoer van de voltooide bewerking. Voor artikelen die zijn ingesteld met de achterwaartse afboekingsmethode wordt standaard het verbruik van onderdelen berekend en geboekt wanneer u de status van een vrijgegeven productieorder wijzigt in **Voltooid**. Als u ook bewerkingsplankoppelingen definieert, vinden berekening en boeking plaats wanneer elke bewerking is voltooid en wordt de hoeveelheid geboekt die daadwerkelijk is verbruikt in de bewerking. Zie voor meer informatie [Bewerkingsplannen maken](production-how-to-create-routings.md).  
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Onderdelen afboeken op basis van de uitvoer van een bewerking
 

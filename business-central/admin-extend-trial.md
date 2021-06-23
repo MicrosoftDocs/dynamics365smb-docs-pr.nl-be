@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a061eb42342859cb6b2d138bee2ba0b6b881d517
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780044"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184286"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hebt u meer tijd nodig om na te denken over een abonnement?
 
 Het is belangrijk de juiste bedrijfstoepassing te kiezen en we weten dat het tijd kost om alle aspecten van [!INCLUDE[prod_short](includes/prod_short.md)] te bekijken. Als u meer tijd nodig hebt om de evaluatie te voltooien, kunt u de proefperiode zelf nog eens 30 dagen verlengen. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids.
 
-U kunt slechts eenmaal de proefperiode zelf verlengen. U kunt deze niet tweemaal verlengen, althans niet zelf. Als u de periode al hebt verlengd, kan uw Microsoft-partner dat nog een keer voor u doen. Dat is ook eenmalig. Zie [Hoe vind ik een partner-reseller?](across-faq.md#findpartner) als u nog niet met een partner werkt.  
+U kunt slechts eenmaal de proefperiode zelf verlengen. U kunt deze niet tweemaal verlengen, althans niet zelf. Als u de periode al hebt verlengd, kan uw Microsoft-partner dat nog een keer voor u doen. Dat is ook eenmalig. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner) als u nog niet met een partner werkt.  
 
 ## <a name="to-extend-your-trial-period"></a>Uw proefperiode verlengen
 
@@ -49,11 +49,13 @@ Na deze tweede verlenging die uw organisatie een proef van 90 dagen heeft gebrac
 
 Als uw verlengde proefperiode is verstreken, kunt u zich binnen 90 dagen [abonneren](https://go.microsoft.com/fwlink/?linkid=828659) op [!INCLUDE[prod_short](includes/prod_short.md)] en doorwerken in het bedrijf dat u hebt gemaakt. 90 dagen nadat de verlengde proefperiode is verlopen, zullen we uw bedrijf en gegevens verwijderen, tenzij u zich abonneert.  
 
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe bedrijven maken](about-new-company.md)  
 [Proefversies en abonnementen](across-preview.md)  
-[Hoe vind ik een partner-reseller?](across-faq.md#findpartner)  
+[Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner)  
 [Proeven verlengen (als beheerder)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Aan de slag gaan als reseller van Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

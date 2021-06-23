@@ -8,27 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3ea2ea8a4ef5bbdff70346022ee226fd5e26748d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8492c83437be4cd850bafdaaa5dc70d00a075674
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777835"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215240"
 ---
 # <a name="design-details-general-journal-post-line"></a>Ontwerpdetails: dagboekboekingsregel
-Deze documentatie biedt gedetailleerd technisch inzicht in de concepten en principes die worden gebruikt om de functie voor dagboekboekingsregels in [!INCLUDE[prod_short](includes/prod_short.md)] opnieuw te ontwerpen. Door het nieuwe ontwerp wordt codeunit 12 eenvoudiger en makkelijker te beheren. In de documentatie wordt als eerste het conceptoverzicht van het nieuwe ontwerp beschreven. Vervolgens wordt de technische architectuur uitgelegd om de wijzigingen door het nieuwe ontwerp te tonen.  
 
-## <a name="in-this-section"></a>In dit gedeelte  
+Deze documentatie biedt gedetailleerd technisch inzicht in de concepten en principes die werden gebruikt om de functie voor dagboekboekingsregels in [!INCLUDE[prod_short](includes/prod_short.md)] opnieuw te ontwerpen. Door het nieuwe ontwerp werd codeunit 12 eenvoudiger en makkelijker te beheren. In de documentatie wordt als eerste het conceptoverzicht van het nieuwe ontwerp beschreven. Vervolgens wordt de technische architectuur uitgelegd om de wijzigingen door het nieuwe ontwerp te tonen.  
+
+> [!IMPORTANT]
+> De informatie in deze sectie is van toepassing op het herontwerp in een eerdere versie van het product, Microsoft Dynamics NAV 2013 R2.
+
+## <a name="in-this-section"></a>In dit gedeelte
+
 [Overzicht dagboekboekingsregel](design-details-general-journal-post-line-overview.md)  
 [Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)  
 [Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)  
-[Wijzigingen in codeunit 12: Algemene variabelen toewijzen voor dagboekboekingsregel](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-[Wijzigingen in codeunit 12: Wijzigingen in procedures voor grootboekboekingen](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)  
 
-## <a name="see-also"></a>Zie ook  
-[Werken met diversendagboeken](ui-work-general-journals.md)
+## <a name="see-also"></a>Zie ook
 
+[Werken met dagboeken](ui-work-general-journals.md)
+[Ontwerpdetails: Dagboekboekingsregel (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

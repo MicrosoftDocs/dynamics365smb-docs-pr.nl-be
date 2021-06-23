@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777860"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215265"
 ---
 # <a name="general-journal-post-line-overview"></a>Overzicht dagboekboekingsregel
+
 Codeunit 12, **Dagboek - Boekingsregel**, is het belangrijkste toepassingsobject voor grootboekboekingen en is de enige plaats om grootboek-, btw, klanten- en leveranciersposten in te voegen. Deze codeunit wordt ook gebruikt voor de bewerkingen Vereffenen, Vereffening ongedaan maken en Tegenboeken.  
   
-Terwijl de codeunit in elke versie gedurende de laatste tien jaar is verbeterd, bleef de architectuur hoofdzakelijk ongewijzigd. De codeunit werd zeer groot, met ongeveer 7.600 coderegels. In deze versie van [!INCLUDE[prod_short](includes/prod_short.md)] is de architectuur gewijzigd en is de codeunit eenvoudiger en makkelijker te beheren. Deze documentatie introduceert de wijzigingen en bevat informatie die u nodig hebt voor upgrades.  
+In Microsoft Dynamics NAV 2013 R2 werd de codeunit opnieuw ontworpen omdat deze erg groot was geworden, met ongeveer 7.600 coderegels. De architectuur is gewijzigd en de codeunit is eenvoudiger en makkelijker te beheren gemaakt. Deze documentatie beschrijft de wijzigingen en bevat informatie die u nodig hebt voor upgrades.  
   
 ## <a name="old-architecture"></a>Oude architectuur  
 De oude architectuur had de volgende functies:  
@@ -43,9 +44,11 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] heeft codeunit 12 de volgende 
 * Veel Help-functies zijn overgebracht naar overeenkomstige tabellen voor klant- en leveranciersposten.  
 * Het gebruik van algemene variabelen is geminimaliseerd, zodat elke procedure parameters gebruikt en een eigen toepassingslogica omvat.  
   
-## <a name="see-also"></a>Zie ook  
-[Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)   
-[Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Zie ook
+
+[Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)  
+[Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)  
+[Ontwerpdetails: dagboekboekingsregel (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

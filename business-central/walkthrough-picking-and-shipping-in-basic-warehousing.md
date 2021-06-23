@@ -1,25 +1,25 @@
 ---
-title: Picken en verzenden in standaardmagazijnconfiguraties | Microsoft Docs
+title: Picken en verzenden in standaardmagazijnconfiguraties
 description: In Business Central kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.
-author: SorenGP
+author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 68b35b6c007dd22c964bd616b1d59df2841db411
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772091"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214665"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)] -->
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.  
 
@@ -34,23 +34,17 @@ Zie voor meer informatie [Ontwerpdetails: Uitgaande magazijnstroom](design-detai
 
 De volgende procedure geeft methode B in de vorige tabel weer.  
 
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
-
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure
 
 In standaardmagazijnconfiguraties waarbij voor uw vestiging wel een pickverwerking vereist is, maar geen verzendingsverwerking, gebruikt u de pagina **Voorraadpick** om pick- en verzendingsinformatie voor de uitgaande brondocumenten te verzamelen en boeken. Het uitgaand brondocument kan een verkooporder zijn, maar ook een inkoopretourorder, een uitgaande transferorder of een productieorder met daarop de materiaalbehoefte.  
 
 In deze procedure worden de volgende taken gedemonstreerd:  
 
-- Locatie ZILVER instellen voor voorraadpicks.  
-- Maak een verkooporder voor klant 10000 voor 30 luidsprekers.  
+- Locatie ZUID instellen voor voorraadpicks.  
+- Maak een verkooporder voor klant 10000 voor 30 lampen.  
 - De verkooporder vrijgeven voor magazijnverwerking.  
 - Een voorraadpick maken op basis van een vrijgegeven brondocument.  
 - De magazijnverplaatsing van het magazijn vastleggen en tegelijkertijd de verkoopverzending voor de bronverkooporder boeken.  
-
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Rollen
 
@@ -60,43 +54,54 @@ In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:
 - Orderverwerker  
 - Magazijnmedewerker  
 
-## <a name="prerequisites"></a>Vereisten
+<!-- ## Prerequisites
 
-U moet het volgende doen om deze procedure uit te voeren:  
+To complete this walkthrough, you will need:  
 
-- Voor [!INCLUDE[prod_short](includes/prod_short.md)] online, een bedrijf gebaseerd op de optie **Geavanceerde evaluatie - volledige voorbeeldgegevens** in een sandboxomgeving. Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS International Ltd. geïnstalleerd.  
-- Maak van uzelf een magazijnwerknemer bij de vestiging ZILVER door de volgende stappen uit te voeren:  
+- For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
+ -->
+
+## <a name="story"></a>Scenario
+
+Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZUID in voor basispickverwerking waarbij magazijnmedewerkers uitgaande orders afzonderlijk verwerken. De orderverwerker Suzanne maakt een verkooporder voor 30 eenheden van het artikel 1928-S om aan klant 10000 vanuit het magazijn ZUID te worden verzonden. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken op de pagina **Voorraadpick**, die automatisch verwijst naar de opslaglocaties waar 1928-S is opgeslagen.
+
+[!INCLUDE[set_up_location.md](includes/set_up_location.md)]
+
+### <a name="setting-up-the-bin-codes"></a>De opslaglocatiecodes instellen
+Nadat u de locatie hebt ingesteld, moet u twee opslaglocaties toevoegen.
+
+#### <a name="to-setup-the-bin-codes"></a>De opslaglocatiecodes instellen
+
+1. Selecteer de acties **Opslaglocaties**.
+2. Maak twee opslaglocaties met de codes *S-01-0001* en *S-01-0002*.
+
+### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Uzelf magazijnmedewerker maken op locatie ZUID
+
+Om van deze functionaliteit gebruik te kunnen maken, moet u zichzelf als magazijnmedewerker toevoegen aan de locatie. 
+
+#### <a name="to-make-yourself-a-warehouse-employee"></a>Uzelf magazijnmedewerker maken
 
   1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies de gerelateerde koppeling.  
-  2. Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
-  3. Voer ZILVER in het veld **Vestiging** in.  
-  4. Selecteer het veld **Standaard**.  
+  2. Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Magazijnmedewerkers**.
+  3. Kies ZUID in het veld **Vestiging**.  
+  4. Selecteer het veld **Standaard** en selecteer vervolgens de knop **Ja**.  
 
-- Maak artikel LS-81 beschikbaar op locatie ZILVER door deze stappen te volgen:  
+### <a name="making-item-1928-s-available"></a>Artikel 1928-S beschikbaar maken
+
+Als u artikel 1928-S op locatie ZUID beschikbaar wilt maken, volgt u deze stappen:  
 
   1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies de gerelateerde koppeling.  
   2. Open het standaarddagboek en maak twee artikeldagboekregels met de volgende informatie over de werkdatum (23 januari).  
 
         |Boekingssoort|Artikelnummer|Vestiging|Opslaglocatie|Aantal|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Pos. correctie|LS-81|ZILVER|S-01-0001|20|  
-        |Pos. correctie|LS-81|ZILVER|S-01-0002|20|  
+        |Pos. correctie|1928-S|ZUID|S-01-0001|20|  
+        |Pos. correctie|1928-S|ZUID|S-01-0002|20|  
 
-  3. Kies de actie **Boeken** en selecteer de knop **Ja**.  
+        Standaard is het veld **Opslaglocatie** op de verkoopregels verborgen, dus u moet het weergeven. Hiervoor moet u de pagina personaliseren. Zie voor meer informatie [Een pagina personaliseren via de banner Personaliseren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-## <a name="story"></a>Scenario
-
-Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZILVER in voor basispickverwerking waarbij magazijnmedewerkers uitgaande orders afzonderlijk verwerken. De orderverwerker Suzanne maakt een verkooporder voor 30 eenheden van het artikel LS-81 om aan klant 10000 vanuit het ZILVER Magazijn te worden verzonden. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken op de pagina **Voorraadpick**, dat automatisch wijst naar de opslaglocaties waar LS-81 is opgeslagen.  
-
-## <a name="setting-up-the-location"></a>De locatie instellen
-
-De instellingen van de pagina **Vestiging** definiëren de magazijnstromen van het bedrijf.  
-
-### <a name="to-set-up-the-location"></a>De vestiging instellen
-
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.  
-2. Open de vestigingskaart ZILVER.  
-3. Schakel op het sneltabblad **Magazijn** het selectievakje **Pick vereist** in.  
+  3. Kies **Acties**, vervolgens **Boeking** en kies vervolgens **Boeken**.  
+  4. Selecteer de knop **Ja**.  
 
 ## <a name="creating-the-sales-order"></a>De verkooporder maken
 
@@ -110,7 +115,7 @@ Verkooporders zijn de meest gebruikte soort uitgaand brondocument.
 
     |Artikel|Vestiging|Aantal|  
     |----|-------------|--------|  
-    |LS_81|ZILVER|30|  
+    |1928-S|ZUID|30|  
 
      Ga door om het magazijn te informeren dat de verkooporder klaar is voor magazijnverwerking.  
 
@@ -137,7 +142,7 @@ Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor ee
     Of voer in het veld **Te verwerken aantal** respectievelijk 10 en 20 in op de twee voorraadpickregels.  
 6. Kies de actie **Boeken**, selecteer **Verzenden** en kies de knop **OK**.  
 
-    Nu zijn de 30 luidsprekers geregistreerd als gepickt uit de opslaglocaties S-01-0001 en S-01-0002, en een negatieve artikelpost is gemaakt om de geboekte verkoopverzending te weerspiegelen.  
+    Nu zijn de 30 lampen geregistreerd als gepickt uit de opslaglocaties S-01-0001 en S-01-0002, en een negatieve artikelpost is gemaakt om de geboekte verkoopverzending te weerspiegelen.  
 
 ## <a name="see-also"></a>Zie ook
 

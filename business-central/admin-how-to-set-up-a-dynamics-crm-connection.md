@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/26/2021
 ms.author: bholtorf
-ms.openlocfilehash: 00034e8f1be2f88074fb33b53a1c048f81f69ede
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941675"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063489"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Verbinding maken met Microsoft Dataverse
 
@@ -126,7 +126,7 @@ Dataverse moet een van de volgende verificatietypen gebruiken:
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Een toepassing registreren in Azure AD voor verbinding van Business Central met Dataverse
 
-Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identiteiten en toegang te beheren. Voor meer informatie over het registreren van een toepassing in Azure AD raadpleegt u [Quickstart: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app). Als u Azure AD niet gebruikt, raadpleegt u [Een andere identiteits- en toegangsbeheerservice gebruiken](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
+Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identiteiten en toegang te beheren. Voor meer informatie over het registreren van een toepassing in Azure AD raadpleegt u [Quickstart: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app). 
 
 1. Kies in de Azure Portal onder **Beheren** in het navigatiedeelvenster **Verificatie**.  
 2. Voeg onder **URL's omleiden** de omleidings-URL toe die wordt voorgesteld op de pagina **Dataverse-verbinding instellen** in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -146,10 +146,6 @@ Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identit
 
    > [!NOTE]
    > Als u niet wordt gevraagd om u aan te melden met uw beheerdersaccount, komt dit waarschijnlijk omdat pop-ups worden geblokkeerd. Sta pop-ups vanaf `https://login.microsoftonline.com` toe om u aan te melden.
-
-#### <a name="using-another-identity-and-access-management-service"></a>Een andere identiteits- en toegangsbeheerservice gebruiken
-
-Als u Azure Active Directory niet gebruikt om identiteiten en toegang te beheren, hebt u wat hulp nodig van een ontwikkelaar. Als u de app-id en het geheim liever op een andere locatie opslaat, kunt u de velden Client-id en Clientgeheim leeg laten en een extensie schrijven om de id en het geheim van de locatie op te halen. U kunt het geheim tijdens runtime opgeven door u te abonneren op de `OnGetCDSConnectionClientId`- en `OnGetCDSConnectionClientSecret`-gebeurtenissen in codeunit 7201 `CDS Integration Impl.`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verbreken
 

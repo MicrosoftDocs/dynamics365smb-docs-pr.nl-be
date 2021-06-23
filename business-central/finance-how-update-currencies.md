@@ -5,20 +5,127 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 04/01/2021
+ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: d6132d84909509a76b196d6ae20d1fb8a2566309
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782317"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184461"
 ---
 # <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
 
-Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij kunnen handelen en financiën in meer dan één valuta kunnen controleren of rapporteren. U moet een code instellen voor elke gebruikte valuta als u in andere valuta's dan uw lokale valuta inkoopt of verkoopt, in een andere valuta tegoeden of schulden hebt of grootboektransacties in verschillende valuta's vastlegt.
+Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij kunnen handelen en de financiële gegevens kunnen controleren en rapporteren in meer dan één valuta. De lokale valuta (LV) wordt gedefinieerd op de pagina **Grootboek instellen**, zoals beschreven in het artikel [Financiën instellen](finance-setup-finance.md). Zodra de lokale valuta (LV) is gedefinieerd, wordt deze weergegeven als een blanco valuta, dus wanneer het veld **Valuta** leeg is, betekent dit dat de valuta LV is.  
 
-Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het ook instellen om een andere valuta te gebruiken, waaraan een huidige wisselkoers is toegewezen. Door een tweede valuta in te stellen als een zogenaamde aanvullende rapportagevaluta, legt [!INCLUDE[prod_short](includes/prod_short.md)] bedragen automatisch vast in zowel de LV als deze aanvullende rapportagevaluta voor elke grootboekpost en andere posten, zoals btw-posten. Zie voor meer informatie [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md).
+Vervolgens moet u valutacodes instellen voor elke valuta die u gebruikt als u koopt of verkoopt in andere valuta's dan uw lokale valuta (LV). Ook kunnen bankrekeningen worden gemaakt met valuta. Het is mogelijk om grootboektransacties in verschillende valuta's vast te leggen, maar de grootboektransactie wordt altijd geboekt in de lokale valuta (LV).
+
+> [!Important]
+> Maak de lokale valutacode niet zowel op de pagina **Grootboek instellen** als op de pagina **Valuta's**. Hierdoor ontstaat er verwarring tussen de blanco valuta en de LV-code in de valutatabel en kunnen per ongeluk bankrekeningen, klanten of leveranciers worden gemaakt, sommige met de blanco valuta en sommige met de LV-code.
+
+Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het ook instellen om een andere valuta te gebruiken, waaraan een valutawisselkoers is toegewezen. Door een tweede valuta in te stellen als een zogenaamde aanvullende rapportagevaluta, legt [!INCLUDE[prod_short](includes/prod_short.md)] bedragen automatisch vast in zowel de LV als deze aanvullende rapportagevaluta voor elke grootboekpost en andere posten, zoals btw-posten. Zie voor meer informatie [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md). De aanvullende rapportagevaluta wordt meestal gebruikt om financiële rapportage te vergemakkelijken voor eigenaren die woonachtig zijn in landen/regio's die andere valuta's gebruiken dan de lokale valuta (LV).
+
+## <a name="currencies"></a>Valuta's
+
+U geeft de valutacodes op de pagina **Valuta's** op, inclusief extra informatie en instellingen die nodig zijn voor elke valutacode.
+
+> [!TIP]
+> Maak de valuta's met de internationale ISO-code als code om het werken met de valuta in de toekomst te vereenvoudigen.
+
+|Veld|Omschrijving|  
+|---------------------------------|---------------------------------------|  
+|**Code**|De identifier voor de valuta.|
+|**Beschrijving**|Een vrije tekstbeschrijving van de valuta.|
+|**ISO-code**|De internationale drielettercode voor de valuta, die is gedefinieerd in ISO 4217.|
+|**Numerieke ISO-code**|De internationale numerieke verwijzing naar de valuta, die is gedefinieerd in ISO 4217.|
+|**Wisselkoersdatum**|De laatste actuele wisselkoersdatum.|
+|**EMU-valuta**|Geeft aan of de valuta een EMU-valuta (Economische en Monetaire Unie) is, zoals de EUR.|
+|**Gerealiseerde winstrekening**|De rekening waarop de werkelijke winst wordt geboekt wanneer u betalingen voor vorderingen ontvangt of de werkelijke valutakoers voor betalingen aan schulden registreert. Zie het voorbeeld onder deze tabel voor een voorbeeld van een te ontvangen valutatransactie. |
+|**Gerealiseerde verliesrekening**|De rekening waarop het werkelijke verlies wordt geboekt wanneer u betalingen voor vorderingen ontvangt of de werkelijke valutakoers voor betalingen aan schulden registreert. Zie het voorbeeld onder deze tabel voor een voorbeeld van een te ontvangen valutatransactie. |
+|**Ongerealiseerde winstrekening**|De rekening waarop de theoretische winst wordt geboekt wanneer u een valutacorrectie uitvoert.|
+|**Ongerealiseerde verliesrekening**|De rekening waarop het theoretische verlies wordt geboekt wanneer u een valutacorrectie uitvoert.|
+|**Bedragafrondingsprecisie**|Sommige valuta's hebben andere notaties voor factuurbedragen dan zijn gedefinieerd op de pagina **Grootboek instellen**. Als u de bedragafrondingsprecisie voor een valuta wijzigt, worden alle factuurbedragen in die valuta afgerond met de bijgewerkte precisie.|
+|**Bedragdecimalen**|Sommige valuta's hebben andere notaties voor factuurbedragen dan zijn gedefinieerd op de pagina **Grootboek instellen**. Als u de bedragdecimalen voor een valuta wijzigt, worden alle factuurbedragen in die valuta afgerond met de bijgewerkte decimalen|
+|**Factuurafrondingsmethode**|Specificeert de methode die moet worden gebruikt als de bedragen moeten worden afgerond. De opties zijn: **Dichtstbijzijnd**, **Omhoog** en **Omlaag**.|
+|**Afrondingsprecisie van eenheidsbedragen**|Sommige valuta's hebben andere notaties voor eenheidsbedragen dan zijn gedefinieerd op de pagina **Grootboek instellen**. Als u de afrondingsprecisie van eenheidsbedragen voor een valuta wijzigt, worden alle eenheidsbedragen in die valuta afgerond met de bijgewerkte precisie.|
+|**Eenheidsbedragdecimalen**|Sommige valuta's hebben andere notaties voor eenheidsbedragen dan zijn gedefinieerd op de pagina **Grootboek instellen**. Als u de eenheidsbedragdecimalen voor een valuta wijzigt, worden alle eenheidsbedragen in die valuta afgerond met de bijgewerkte decimalen.|
+|**Vereffeningsafrondingsprecisie**|Hiermee wordt de grootte opgegeven van het interval dat is toegestaan als afrondingsverschil wanneer u posten in verschillende valuta's met elkaar vereffent.|
+|**Debetrekening afronding conversievaluta**|Hiermee worden conversiegegevens opgegeven die ook een debetrekening moeten bevatten als u correctieregels voor afrondingsverschillen in de dagboeken wilt invoegen met de actie **Afr.-bedragregels van conv.-LV invoegen**.|
+|**Creditrekening afronding conversievaluta**|Hiermee worden conversiegegevens opgegeven die ook een creditrekening moeten bevatten als u correctieregels voor afrondingsverschillen in de dagboeken wilt invoegen met de actie **Afr.-bedragregels van conv.-LV invoegen**.|
+|**Geherwaardeerd op**|De datum van de laatste valuta-aanpassing.|
+|**Laatst gewijzigd**|De datum van de wijziging in de instelling van de valuta.|
+|**Betalingstolerantie %**|Het maximale betalingstolerantie % ingesteld voor deze valuta. Zie voor meer informatie [Betalingstolerantie en betalingskortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md). |
+|**Max. betalingstolerantiebedrag**|Het maximale betalingstolerantiebedrag ingesteld voor deze valuta. Zie voor meer informatie [Betalingstolerantie en betalingskortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md). |
+|**Valutafactor**|Hiermee wordt de relatie opgegeven tussen de valuta en de lokale valuta met de huidige valutakoers.|
+|**Gereal. grootboekwinstrek.**|Geeft de grootboekrekening op die wordt gebruikt om wisselkoerswinsten te boeken bij valutaherwaarderingen tussen de lokale valuta (LV) en de rapportagevaluta. De wisselkoerswinsten worden berekend wanneer de batchverwerking Wisselkoersen aanpassen wordt uitgevoerd om grootboekrekeningen aan te passen. Dit veld is mogelijk niet standaard zichtbaar. Het kan worden opgehaald door de pagina te personaliseren.|
+|**Gereal. grootboekverliesrek.**|Geeft de grootboekrekening op die wordt gebruikt om wisselkoersverliezen te boeken bij valutaherwaarderingen tussen de lokale valuta (LV) en de rapportagevaluta. De wisselkoerswinsten worden berekend wanneer de batchverwerking Wisselkoersen aanpassen wordt uitgevoerd om grootboekrekeningen aan te passen. Dit veld is mogelijk niet standaard zichtbaar. Het kan worden opgehaald door de pagina te personaliseren.|
+|**Verschillenrekening (Winst)**|Specificeert de grootboekrekening die wordt gebruikt om resterende winstbedragen (afrondingsverschillen) te boeken wanneer een extra rapportagevaluta wordt gebruikt in het grootboekvereffeningsgebied. Dit veld is mogelijk niet standaard zichtbaar. Het kan worden opgehaald door de pagina te personaliseren.|
+|**Verschillenrekening (Verlies)**|Specificeert de grootboekrekening die wordt gebruikt om resterende verliesbedragen (afrondingsverschillen) te boeken wanneer een extra rapportagevaluta wordt gebruikt in het grootboekvereffeningsgebied. Dit veld is mogelijk niet standaard zichtbaar. Het kan worden opgehaald door de pagina te personaliseren.|
+|**Max. toegestaan btw-verschil**|Het maximaal toegestane bedrag voor btw-verschillen in deze valuta. Zie voor meer informatie [Btw-bedragen handmatig corrigeren in verkoop- en inkoopdocumenten](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Dit veld is mogelijk niet standaard zichtbaar. Het kan worden opgehaald door de pagina te personaliseren.|
+|**Btw-afrondingssoort**|Specificeert de afrondingsmethode voor het handmatig corrigeren van btw-bedragen in verkoop- en inkoopdocumenten. Dit veld is mogelijk niet standaard zichtbaar. Het kan worden opgehaald door de pagina te personaliseren.|
+
+### <a name="example-of-a-receivable-currency-transaction"></a>Voorbeeld van een te ontvangen valutatransactie
+
+In het volgende voorbeeld wordt op 1 januari een factuur ontvangen met het valutabedrag 1000. Op dat moment is de wisselkoers 1,123.
+
+|Datum|Actie|Valutabedrag|Documentkoers|LV-bedrag in document|Vereffeningskoers|Ongerealiseerd winstbedrag|Betalingskoers|Gerealiseerd verliesbedrag|  
+|-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
+|1/1|**Factuur**|1000|1,123|1123|||||
+|1/31|**Herwaardering**|1000||1125|1,125|2|||
+|2/15|**Herwaarderingsterugboeking bij betaling**|1000||||-2|||
+|2/15|**Betaling**|1000||1120|||1,120|-3|
+
+Aan het einde van de maand wordt een valuta-aanpassing uitgevoerd waarbij de aanpassingsvalutakoers is ingesteld op 1,125, wat een niet-gerealiseerde winst van 2 veroorzaakt.
+
+Op het moment van betaling toont de werkelijke valutakoers die is geregistreerd voor de banktransactie, een valutakoers van 1,120.
+
+Hier is sprake van een niet-gerealiseerde transactie en het wordt daarom samen met de betaling teruggeboekt.
+
+Ten slotte wordt de betaling geregistreerd en wordt het werkelijke verlies geboekt op de rekening voor gerealiseerde verliezen.
+
+## <a name="available-currency-functions"></a>Beschikbare valutafuncties
+
+de volgende tabel geeft een overzicht van de belangrijkste acties op de pagina **Valuta's**. Enkele van de acties worden in de volgende secties uitgelegd.  
+
+|Menu|Actie|Omschrijving|
+|-------------|--------------|------------------------------|
+|**Verwerken**|**Rekeningen voorstellen**|Rekeningen gebruiken van de andere valuta's. De meest gebruikte rekeningen worden ingevoegd.|
+||Betalingstolerantie wijzigen|De maximale betalingstolerantie en/of het betalingstolerantiepercentage wijzigen en filteren op valuta. Zie voor meer informatie [Betalingstolerantie en betalingskortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+||**Wisselkoersen**|Bijgewerkte wisselkoersen weergeven voor de valuta die u gebruikt.|
+||**Wisselkoersen herwaarderen**|Grootboek-, klanten-, leveranciers- en bankposten herwaarderen om een beter bijgewerkt saldo te krijgen als de wisselkoers is gewijzigd na het boeken van de posten.|
+||**Register van wisselkoersaanpassing**|Bekijk de resultaten van het uitvoeren van de batchverwerking **Wisselkoersen herwaarderen**. Er wordt een regel gemaakt voor elke valuta of combinatie van valuta en boekingsgroep die in de herwaardering is opgenomen.|
+|**Wisselkoersservice**|**Wisselkoersservices**|De instelling weergeven of bewerken van de services die zijn ingesteld om bijgewerkte valutawisselkoersen op te halen wanneer u de actie **Wisselkoersen bijwerken** kiest.|
+||**Wisselkoersen bijwerken**|De laatste valutawisselkoersen ophalen van een serviceprovider.|
+|**Rapporten**|**Saldo in vreemde valuta**|De saldi voor de klanten en leveranciers weergeven in vreemde valuta's en de lokale valuta (LV). In het rapport worden twee saldi in lokale valuta weergegeven. Een daarvan is het saldo in vreemde valuta omgerekend naar lokale valuta met behulp van de wisselkoers op het moment van de transactie. De ander is het saldo in vreemde valuta omgerekend naar lokale valuta met behulp van de wisselkoers op het moment van de werkdatum.|
+
+## <a name="exchange-rates"></a>Wisselkoersen
+
+De wisselkoersen zijn het hulpmiddel om de lokale valutawaarde (LV) van elke valutatransactie te berekenen. De pagina **Wisselkoersen** bevat de volgende velden:
+
+|Veld|Omschrijving|  
+|---------------------------------|---------------------------------------|  
+|**Begindatum**|De datum waarop de valutakoers is geëffectueerd|  
+|**Valutacode**|De valutacode met betrekking tot deze wisselkoers|  
+|**Relationele valutacode**|Als deze valuta deel uitmaakt van een driehoeksvalutaberekening, dan kan de bijbehorende valutacode hier worden ingesteld|  
+|**Wisselkoersbedrag**|Het wisselkoersbedrag is de koers die moet worden gebruikt voor de valutacode die op de regel is geselecteerd. Normaal 1 of 100|  
+|**Relationeel wisselkoersbedrag**|Het relationele wisselkoersbedrag is de koers die moet worden gebruikt voor de relationele valutacode|  
+|**Wisselkoersbedrag (Herw.)**|Het bedrag van de herwaarderingswisselkoers is de koers die moet worden gebruikt voor de valutacode die is geselecteerd op de regel voor gebruik van de batchverwerking **Wisselkoersen aanpassen**|  
+|**Gereal. wisselkoersbedr. (Herw.)**|Het relationele bedrag van de herwaarderingswisselkoers is de koers die moet worden gebruikt voor de valutacode die is geselecteerd op de regel voor gebruik van de batchverwerking **Wisselkoersen aanpassen**|  
+|**Vast wisselkoersbedrag**|Hiermee wordt opgegeven of de wisselkoers van de valuta kan worden gewijzigd in facturen en op dagboekregels.|  
+
+Over het algemeen worden de waarden van de velden **Wisselkoersbedrag** en **Relationeel wisselkoersbedrag** gebruikt als de standaardvalutakoers voor alle nieuwe debiteuren- en crediteurendocumenten die in de toekomst worden gemaakt. Het document krijgt de valutakoers toegewezen op basis van de huidige werkdatum.  
+
+> [!Note]
+> De huidige valutakoers wordt berekend met behulp van deze formule:
+> 
+> `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
+
+Het correctiewisselkoersbedrag of het relationele correctiekoersbedrag wordt gebruikt om alle openstaande bank-, te ontvangen of te betalen transacties bij te werken.  
+
+> [!Note]
+> De huidige valutakoers wordt berekend met behulp van deze formule:
+> 
+> `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Wisselkoersen corrigeren
 
@@ -61,7 +168,11 @@ U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, z
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valutawisselkoersservices** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul op de pagina **Valutawisselkoersservice** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Kies het selectievakje **Ingeschakeld** om de service in te schakelen.
+4. Zet de schakelaar **Ingeschakeld** aan om de service in te schakelen.
+
+> [!NOTE]
+> De volgende video toont een voorbeeld van hoe u verbinding kunt maken met een valutawisselkoersservice, waarbij de Europese Centrale Bank als voorbeeld wordt gebruikt. In het segment dat beschrijft hoe u veldtoewijzingen instelt, retourneert de instelling in de kolom **Bron** voor de **Hoofdknooppunt voor valutacode** alleen de eerste gevonden valuta. De instelling moet zijn **/gesmes:Envelop/Code/Code/Code**.
+
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]

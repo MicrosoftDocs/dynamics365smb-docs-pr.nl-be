@@ -1,5 +1,5 @@
 ---
-title: Aangepaste Power BI-rapporten voor Business Central-gegevens weergeven | Microsoft Docs
+title: Aangepaste Power BI-rapporten voor Business Central-gegevens weergeven
 description: U kunt Power BI-rapporten gebruiken om extra inzicht te krijgen in gegevens in lijsten.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941625"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087706"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prod_short](includes/prod_short.md)]
 

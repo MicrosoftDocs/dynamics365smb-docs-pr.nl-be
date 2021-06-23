@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.date: 05/17/2021
 ms.author: jswymer
-ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985424"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063464"
 ---
 # <a name="set-up-printers"></a>Printers instellen
 
@@ -38,7 +38,7 @@ Universeel afdrukken is een service op basis van een Microsoft 365-abonnement di
 
 ![Universele afdrukinstellingen](media/Universal-Print-arch.png)
 
-De volledige installatie vereist dat u werkt in Microsoft Azure, met behulp van de [Azure-portal](https://posrtal.azure.com), en in [!INCLUDE[prod_short](includes/prod_short.md)].
+De volledige installatie vereist dat u werkt in Microsoft Azure, met behulp van de [Azure-portal](https://portal.azure.com), en in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Ondersteunde printers
 
@@ -78,7 +78,7 @@ De volledige installatie vereist dat u werkt in Microsoft Azure, met behulp van 
 
 Voordat u Universeel afdrukken-printers in Business Central kunt gaan beheren, zijn er verschillende taken die u moet doorlopen om Universeel afdrukken in Azure te laten werken met de printers die u wilt gebruiken.
 
-Zie voor gedetailleerde instructies voor het instellen [Aan de slag: Universeel afdrukken instellen](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) in de documentatie van Universeel afdrukken. Hier is een overzicht van de stappen die u moet doorlopen. De meeste van deze stappen worden uitgevoerd in de Azure-portal.
+Zie voor gedetailleerde instructies voor het instellen [Aan de slag: Universeel afdrukken instellen](/universal-print/fundamentals/universal-print-getting-started) in de documentatie van Universeel afdrukken. Hier is een overzicht van de stappen die u moet doorlopen. De meeste van deze stappen worden uitgevoerd in de Azure-portal.
 
 1. Wijs Universeel afdrukken-licenties toe aan uzelf en andere gebruikers.
 
@@ -104,29 +104,34 @@ Zie voor gedetailleerde instructies voor het instellen [Aan de slag: Universeel 
 
     - Registreer voor andere printers de printers met behulp van de Universeel afdrukken-connector. 
 
-      Zie voor meer informatie [Printerregistratie](/universal-print-connector-printer-registration).
+      Zie voor meer informatie [Printerregistratie](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Printereigenschappen wijzigen (optioneel)
 
     Nadat een printer is geregistreerd, kunt u printereigenschappen bekijken en wijzigen, zoals standaardvoorkeuren.
 
-    Zie voor meer informatie [Instellingen van printermetagegevens beheren](/universal-print/fundamentals/universal-print-printer-property-settings).
+    Voor meer informatie, zie [Printerinstellingen beheren met de Universeel afdrukken-portal](/universal-print/portal/configure-printer-settings).
 
-5. Gebruikers machtiging voor de printers geven.
-
-    Zie voor meer informatie [Printermachtigingen](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Deel de printers.
+5. Deel de printers.
 
     Elke printer die u wilt gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)] moet worden gedeeld in Universeel afdrukken.
 
-    Zie voor meer informatie [Een printer delen](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    Zie voor meer informatie [Een printer delen](/universal-print/portal/share-printers).
+
+6. Gebruikers machtiging voor de gedeelde printers geven.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    Zie voor meer informatie [Printermachtigingen](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Documentconversie inschakelen.
 
     Universeel afdrukken maakt inhoud gereed voor afdrukken in XPS-indeling. Sommige oudere printers op de markt ondersteunen geen weergave van XPS-content&mdash;in veel gevallen alleen pdf-indeling. Afdrukken naar deze printers zal mislukken, tenzij Universeel afdrukken is ingesteld om documenten naar het door de printer ondersteunde formaat te converteren.
 
-    Zie voor meer informatie [Overzicht van documentconversie](/universal-print/fundamentals/universal-print-document-conversion).
+    Zie voor meer informatie [Overzicht van documentconversie](/universal-print/portal/document-conversion).
 
     > [!TIP]
     > Als geen van uw printers het weergaveformaat voor PDF-inhoud nodig heeft, raden we u aan om documentconversie niet in te schakelen, omdat dit de afdrukkwaliteit kan beïnvloeden.

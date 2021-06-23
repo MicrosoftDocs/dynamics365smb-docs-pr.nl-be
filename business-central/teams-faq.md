@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 04/12/2021
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f3c9626fa73247b2109e5f179aef405e80b44b07
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935223"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074652"
 ---
 # <a name="teams-faq"></a>Veelgestelde vragen over Teams
 
@@ -154,7 +154,9 @@ Bij het zoeken naar contacten vanuit de [!INCLUDE [prod_short.md](includes/prod_
 
 ### <a name="which-fields-in-the-contacts-table-can-i-search"></a>Welke velden in de contactentabel kan ik zoeken?
 
-Terwijl u uw zoektermen in het zoekvak typt, worden de termen vergeleken met de meeste velden in de tabel **Contacten**. De velden omvatten bijvoorbeeld de velden **Nee.**, **Naam**, **Adres**-velden, **Telefoonnr.** of **Mobiel telefoonnr.** en **E-mail**.  
+Terwijl u uw zoektermen in het zoekvak typt, worden de termen vergeleken met de meeste velden in de tabel **Contacten**. De velden omvatten bijvoorbeeld de velden **Nee.**, **Naam**, **Adres**-velden, **Telefoonnr.** of **Mobiel telefoonnr.** en **E-mail**. 
+
+Zoektermen komen niet overeen met aangepaste velden die zijn toegevoegd aan de tabel **Contacten** door apps en extensies.
 
 ### <a name="do-search-results-include-companies-and-persons"></a>Bevatten zoekresultaten bedrijven en personen?
 

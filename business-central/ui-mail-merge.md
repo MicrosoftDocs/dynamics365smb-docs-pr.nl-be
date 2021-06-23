@@ -10,15 +10,18 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 118d8db1266bb7150965ec4d1ce44ece77638764
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788644"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110966"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Word-sjablonen gebruiken voor bulkcommunicatie
 Microsoft Word-sjablonen kunnen het gemakkelijker maken om massaal te communiceren met entiteiten zoals klanten en leveranciers. U kunt bijvoorbeeld brochures maken om klanten te attenderen op een verkoopcampagne, brieven om leveranciers te informeren over een nieuw aankoopbeleid of uitnodigingen om contacten aan te trekken voor een aankomend evenement.
+
+> [!NOTE]
+> U kunt Word-sjablonen alleen gebruiken op apparaten met Microsoft Word 2019 en het Windows-besturingssysteem geïnstalleerd.
 
 U kunt entiteiten gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)] als de gegevensbron voor de sjabloon en samenvoegvelden toevoegen om documenten voor elke entiteit te personaliseren. De samenvoegvelden zijn afkomstig van de entiteit in [!INCLUDE[prod_short](includes/prod_short.md)]. Wanneer u een Word-sjabloon toepast op een entiteit, worden gegevens uit de samenvoegvelden in het document ingevoegd.
 

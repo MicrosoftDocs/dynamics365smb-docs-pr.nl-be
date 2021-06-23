@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771222"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074674"
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
 
 Gefeliciteerd. U hebt zojuist uw eerste bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)] opgezet.
 
-Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar de pagina **Begeleide instelling**. Daar vindt u begeleide instellingen, video's of helponderwerpen voor bepaalde configuratietaken. Om toegang te krijgen tot de pagina kiest u gewoon het pictogram ![Tand om het menu instellingen te openen](media/ui-experience/settings_icon_small.png) en vervolgens de actie **Begeleide instelling**.
+Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar de pagina **Begeleide instelling**. Daar vindt u begeleide instellingen, video's of helponderwerpen voor bepaalde configuratietaken. Om toegang te krijgen tot de pagina kiest u [deze koppeling](https://businesscentral.dynamics.com/?page=1801).  
 
-U kunt de lijst met gidsen van begeleide instellingen ook voor een willekeurige rol openen door het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") te kiezen, **Begeleide instelling** in te voeren en de gerelateerde koppeling te kiezen.  
+Of kies het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) en vervolgens de actie **Begeleide instelling**.
+
+U vindt de lijst met begeleide instellingen ook als u het ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") kiest, **Begeleide instelling** invoert en de gerelateerde koppeling kiest.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]

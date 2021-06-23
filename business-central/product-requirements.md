@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5273539fa1dfa3916443bc3e0bf21efb19a4571b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1dafd874523be75e00e224fd5b1d3f3d33a7e712
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779469"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063514"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
 
@@ -47,7 +47,10 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 ## <a name="outlook"></a>Outlook
 
 **Outlook-toepassingen**: als u [!INCLUDE[prod_short](includes/prod_short.md)] online wilt gebruiken als uw zakelijke Postvak IN in Outlook, hebt u Outlook 2019 of hoger, Outlook op het web, Outlook voor iOS of Outlook voor Android nodig. Uw organisatie moet ook Microsoft 365 gebruiken. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt. 
- 
+
+> [!IMPORTANT]
+> Vanaf Business Central 2021 releasewave 2 kunt u zich niet langer aanmelden bij de Business Central-invoegtoepassing vanuit Outlook-versies eerder dan 2012.
+  
 **Browsers:** Wanneer u [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt als uw zakelijke Postvak IN in Outlook in een browser, is het voor de invoegtoepassing nodig dat op uw computer een van de ondersteunde browsers is geïnstalleerd die eerder in dit artikel zijn vermeld. 
  
 **Platforms:** wanneer u de [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-invoegtoepassing gebruikt in Outlook voor iOS of Outlook voor Android, moet op uw mobiele apparaat een van de vermelde ondersteunde mobiele apparaten voor [!INCLUDE[prod_short](includes/prod_short.md)] worden uitgevoerd.  
@@ -63,6 +66,9 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 ## <a name="excel"></a>Excel
 
 **Bewerken Excel:** als u de Excel-invoegtoepassing wilt gebruiken om wijzigingen in Excel aan te brengen en de wijzigingen naar [!INCLUDE[prod_short](includes/prod_short.md)] terug te sturen, hebt u Excel 2019 of hoger nodig. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
+
+> [!IMPORTANT]
+> Vanaf Business Central 2021 releasewave 2 ondersteunt de Excel-invoegtoepassing alleen Excel-versie 2012 of hoger.
 
 ## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Het beheercentrum van Business Central gebruiken
 

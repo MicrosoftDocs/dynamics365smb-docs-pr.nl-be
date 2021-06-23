@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c8746098081a8f0b961f6ab2efd11c491104acc
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777453"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115398"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
 
@@ -68,7 +68,7 @@ In beide gevallen moet u, als [!INCLUDE[prod_short](includes/prod_short.md)] nog
 
 ## <a name="using-other-email-accounts"></a>Andere e-mailaccounts gebruiken
 
-De invoegtoepassingen zijn ontworpen om te worden gebruikt met Microsoft 365. Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, zal uw beheerder weten of u de [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassingen in Outlook kunt gebruiken. Zie voor meer informatie [Welk e-mailadres kan ik gebruiken met [!INCLUDE[prod_short](includes/prod_short.md)] ?](across-faq.md#email), en het artikel [Functies die specifieke omstandigheden vereisen](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) en de sectie [Waarom werkt de Outlook-invoegtoepassing niet voor mijn gebruikers?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) in de algemene FAQ in de beheerinhoud.  
+De invoegtoepassingen zijn ontworpen om te worden gebruikt met Microsoft 365. Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, zal uw beheerder weten of u de [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassingen in Outlook kunt gebruiken. Zie voor meer informatie [Welk e-mailadres kan ik gebruiken met [!INCLUDE[prod_short](includes/prod_short.md)] ?](/dynamics365/business-central/across-faq#email) en het artikel [Functies die specifieke omstandigheden vereisen](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) en de sectie [Waarom werkt de Outlook-invoegtoepassing niet voor mijn gebruikers?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) in de algemene veelgestelde vragen in de beheerinhoud.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

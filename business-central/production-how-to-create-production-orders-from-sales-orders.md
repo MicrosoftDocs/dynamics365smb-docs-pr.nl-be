@@ -1,6 +1,6 @@
 ---
-title: Productieorders maken op basis van verkooporders | Microsoft Docs
-description: U kunt productieorders van verkooporders maken in de module Verkoop & Marketing.
+title: Productieorders maken op basis van verkooporders
+description: U kunt productieorders maken op basis van verkooporders.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: 8765bf3af62444712e8de8c40408a30c95f2374e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 438f4d4e1833ba607ceedb9f5d9450c0a4dbb680
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779290"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115248"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Productieorders maken op basis van verkooporders
 U kunt direct op basis van verkooporders productieorders maken voor geproduceerde artikelen.  
@@ -27,9 +27,22 @@ U kunt direct op basis van verkooporders productieorders maken voor geproduceerd
 3.  Kies de actie **Planning**. Op de pagina **Verkooporderplanning** kunt u de beschikbaarheid van het verkooporderartikel weergeven.  
 4.  Kies de actie **Prod.-order maken**.  
 5.  Selecteer de status en het ordersoort.  
-6.  Kies de knop **Ja** knop om de productieorder te maken.
+6.  Kies de knop **Ja** om een of meer productieorders te maken voor de regels die **Prod.order** in het veld **Aanvullingsmethode** hebben.
 
-U kunt er ook voor kiezen om een projectproductieorder te maken. Zie [Projectorders plannen](production-how-to-plan-project-orders.md) voor meer informatie.   
+
+> [!NOTE]  
+> Vraagregels in de gemaakte productieorder die **Prod.-order** hebben in het veld **Aanvullingsmethode**, vertegenwoordigen onderliggende productieorders. Nadat u deze productieorders hebt gemaakt, moet u er onvervulde componentvraag voor bepalen met de pagina **Orderplanning** of de functie **Opnieuw plannen** vanuit gemaakte orders. 
+
+## <a name="order-type"></a>Ordersoort  
+U kunt kiezen uit twee manieren om de productieorders te maken, zoals beschreven in de volgende tabel.
+
+|Optie|Omschrijving|
+|------|-----------|
+|Artikelorder|Eén productieorder wordt gemaakt voor elke benodigde productieorder die wordt vertegenwoordigd door een regel in het venster **Verkooporderplanning**.|
+|Projectorder|Eén productieorder wordt gemaakt voor alle benodigde productieorders die worden vertegenwoordigd door regels in het venster **Verkooporderplanning**. |
+
+Wanneer u projectorders gebruikt, bevat het veld **Bronsoort** van de productieorder **Verkoopkop** en heeft de order heeft meerdere regels (één voor elk verkoopregelartikel dat moet worden geproduceerd).  
+
 
 ## <a name="see-also"></a>Zie ook  
 [Productie instellen](production-configure-production-processes.md)  

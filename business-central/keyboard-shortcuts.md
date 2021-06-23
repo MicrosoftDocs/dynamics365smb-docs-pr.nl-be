@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ce26aa8923ffd706e0331a7641b443fdf99e25f3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4e0e225df3d3d212165a8a94eaab964b079ca868
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774776"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115652"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -231,7 +231,7 @@ Rollenverkenner geeft u een overzicht en snelle toegang tot alle zakelijke funct
 [Assisterende functies](ui-accessibility.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Veelgestelde vragen](across-faq.md)  
+[Veelgestelde vragen](across-faq.yml)  
 [Posten zoeken](ui-find-entries.md)  
 
 

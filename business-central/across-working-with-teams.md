@@ -1,5 +1,5 @@
 ---
-title: Werken met Business Central-gegevens in Microsoft Teams | Microsoft Docs
+title: Business Central-records delen in Microsoft Teams
 description: Lees hoe u de Business Central-app gebruikt voor Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,21 +7,21 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/01/2021
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: e20208d50eb65f1a92e6661396bf53007ab88eb8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786894"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074599"
 ---
-# <a name="working-with-business-central-data-in-microsoft-teams"></a>Werken met Business Central-gegevens in Microsoft Teams
+# <a name="sharing-business-central-records-in-microsoft-teams"></a>Business Central-records delen in Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[!INCLUDE [prod_short](includes/prod_short.md)] biedt een app die Microsoft Teams verbindt met uw bedrijfsgegevens in [!INCLUDE [prod_short](includes/prod_short.md)], zodat u snel details met teamleden kunt delen en sneller op vragen kunt reageren. In dit artikel leert u hoe u de app gebruikt om [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens te delen met collega's in een Teams-gesprek.
+[!INCLUDE [prod_short](includes/prod_short.md)] biedt een app die Microsoft Teams verbindt met uw bedrijfsgegevens in [!INCLUDE [prod_short](includes/prod_short.md)], zodat u snel details met teamleden kunt delen en sneller op vragen kunt reageren. In dit artikel leert u hoe u de app gebruikt om [!INCLUDE [prod_short](includes/prod_short.md)]-records te delen, zoals een klant, verkooporder of factuur, met collega's in een Teams-gesprek.
 
 ## <a name="overview"></a>Overzicht
 

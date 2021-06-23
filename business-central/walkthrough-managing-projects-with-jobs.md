@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8129028749f0f0bb6a809d66dbba8d623034769f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0d65485275ce4e7516a0b19aafa609429b8d7616
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782921"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214740"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedure: Projecten plannen
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 In deze procedure maakt u kennis met de functies voor projectbeheer in taken (projecten). Projecten zijn een manier waarop u het verbruik van de bedrijfsresources kunt plannen en de diverse kosten kunt bijhouden die samenhangen met de resources voor een bepaald project. Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die u mogelijk wilt bijhouden terwijl het project voortduurt.  
 
@@ -64,11 +64,11 @@ In deze procedure maakt u kennis met de functies voor projectbeheer in taken (pr
 ## <a name="prerequisites"></a>Vereisten  
  Voordat u de stappen in deze procedure kunt uitvoeren, moet u het volgende doen:  
 
-- Installeer de demodatabase CRONUS International Ltd.
+- Installeer de CRONUS-demonstratiedatabase.
 - Maak voorbeeldgegevens met behulp van de stappen in het volgende gedeelte.  
 
 ## <a name="story"></a>Scenario  
-In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- en consultancyfirma die nieuwe infrastructuren ontwerpt (conferentiezalen en kantoren) en inricht met meubels, accessoires en opslagruimten. Het bedrijf werkt meestal met projecten. Prakash is projectmanager bij CRONUS. Hij gebruikt projecten om een overzicht te bieden van alle lopende projecten die met CRONUS zijn gestart, alsmede van de projecten die zijn afgerond. Hij is gewoonlijk degene die afspraken met klanten maakt en het grootste deel van het project, zoals taak- en planningsregels en prijzen, invoert in [!INCLUDE[prod_short](includes/prod_short.md)]. Hij constateert dat het maken, onderhouden en redigeren van informatie eenvoudig is. Prakash is tevens te spreken over de manier waarop projecten kunnen worden gekopieerd in [!INCLUDE[prod_short](includes/prod_short.md)] en de mogelijkheid om te betalen in termijnen.
+Dit overzicht draait om CRONUS, een design- en consultancyfirma die nieuwe infrastructuren ontwerpt en installeert, zoals conferentiezalen, kantoren, meubels, accessoires en opslagruimten. Het bedrijf werkt meestal met projecten. Prakash is projectmanager bij CRONUS. Hij gebruikt projecten om een overzicht te bieden van alle lopende projecten die met CRONUS zijn gestart, alsmede van de projecten die zijn afgerond. Hij is gewoonlijk degene die afspraken met klanten maakt en het grootste deel van het project, zoals taak- en planningsregels en prijzen, invoert in [!INCLUDE[prod_short](includes/prod_short.md)]. Hij constateert dat het maken, onderhouden en redigeren van informatie eenvoudig is. Prakash is tevens te spreken over de manier waarop projecten kunnen worden gekopieerd in [!INCLUDE[prod_short](includes/prod_short.md)] en de mogelijkheid om te betalen in termijnen.
 
  Tricia, een lid van het projectteam dat aan Prakash rapporteert, is verantwoordelijk voor de dagelijkse controle van het project. Behalve haar eigen werk, voert zij ook het werk in dat voor elke taak door technici wordt uitgevoerd. Zij legt de artikelen die zij hebben gebruikt en de kosten die zij hebben gemaakt vast.  
 

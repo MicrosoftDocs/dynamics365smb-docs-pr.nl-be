@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889164"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063439"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Mensen in bedrijven sturen dagelijks informatie en documenten, zoals verkoop- en inkooporders en facturen, per e-mail. Beheerders kunnen dat gemakkelijker maken door een of meer e-mailaccounts te verbinden met [!INCLUDE[prod_short](includes/prod_short.md)], zodat u documenten kunt verzenden zonder een e-mailapp te hoeven openen. U kunt elk bericht afzonderlijk opstellen met basisopmaakhulpmiddelen, zoals lettertypen, stijlen, kleuren, enzovoort, en bijlagen tot 100 MB toevoegen. Beheerders kunnen ook rapportlay-outs instellen die alleen de belangrijkste informatie uit documenten bevatten. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
@@ -53,7 +53,7 @@ Als u al gebruikmaakt van [!INCLUDE[prod_short](includes/prod_short.md)] en e-ma
 > Als u aanpassingen heeft die afhankelijk zijn van de oude SMTP-e-mailconfiguratie, bestaat de kans dat er iets misgaat met uw aanpassingen als u e-mailextensies gaat gebruiken. We raden u aan de extensies in te stellen en te testen voordat u de functieschakelaar inschakelt voor verbeterde e-mailmogelijkheden.
 
 > [!IMPORTANT]
-> Als u [!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt, kunt u de OAuth 2.0-verificatiemethode niet gebruiken.<br> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt u OAuth 2.0 gebruiken voor verificatie, maar u moet een toepassingsregistratie maken in de Azure-portal en vervolgens de begeleide instelling **Azure Active Directory instellen** in [!INCLUDE[prod_short](includes/prod_short.md)] gebruiken om verbinding te maken met Azure AD. Zie voor meer informatie [Een app-registratie voor Business Central maken in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt u OAuth 2.0 gebruiken voor verificatie, maar u moet een toepassingsregistratie maken in de Azure-portal en vervolgens de begeleide instelling **Azure Active Directory instellen** in [!INCLUDE[prod_short](includes/prod_short.md)] gebruiken om verbinding te maken met Azure AD. Zie voor meer informatie [Een app-registratie voor Business Central maken in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>E-mailaccounts toevoegen
 De begeleide instelling **E-mail instellen** kan u helpen snel aan de slag te gaan met e-mails.

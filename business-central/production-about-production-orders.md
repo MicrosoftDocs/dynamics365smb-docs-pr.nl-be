@@ -1,5 +1,5 @@
 ---
-title: Informatie over productieorders | Microsoft Docs
+title: Informatie over productieorders
 description: Productieorders worden gebruikt voor het beheren van de conversie van ingekochte materialen naar geproduceerde artikelen. Productieorders (project- of werkorders) leiden het werk door verschillende faciliteiten (afdelingen of bewerkingsplaatsen) op de shopfloor.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ecf65fef85d7f7f184ec8cddd8551eeaa990d92d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb0d2a369e81636fab8af9ffb58c09ffc7614625
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779444"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115348"
 ---
 # <a name="about-production-orders"></a>Informatie over productieorders
 Productieorders worden gebruikt voor het beheren van de conversie van ingekochte materialen naar geproduceerde artikelen. Productieorders leiden het werk door verschillende afdelingen of bewerkingsplaatsen op de shopfloor.  
@@ -51,17 +51,17 @@ Productieorders worden opgesteld met informatie uit:
 ## <a name="limitations-on-production-order-creation"></a>Beperkingen aangaande het opstellen van productieorders  
 Productieorders worden automatisch gereserveerd en getraceerd naar de bron wanneer:  
 
--   Opgesteld vanuit het **Planningsvoorstel**  
--   Gemaakt met behulp van de orderfunctie op de pagina **Verkooporderplanning**  
--   Gemaakt vanuit de pagina **Orderplanning**  
--   Met behulp van de functie **Herplannen** in productieorders  
+-   Gemaakt vanuit het **[Planningsvoorstel](production-how-to-run-mps-and-mrp.md)**.  
+-   Gemaakt vanuit de pagina **[Verkooporderplanning](production-how-to-create-production-orders-from-sales-orders.md)**  
+-   Gemaakt vanuit de pagina **[Orderplanning](production-how-to-plan-for-new-demand.md)**  
+-   Met behulp van de functie **[Herplannen](production-how-to-replan-refresh-production-orders.md)** in productieorders  
 
 Zie [Relatie tussen vraag en voorzieningen bijhouden](production-how-track-demand-supply.md) voor meer informatie.
 
 Productieorders die op een andere manier tot stand komen, worden niet automatisch gereserveerd en getraceerd.   
 
 ## <a name="production-order-status"></a>Productieorderstatus  
-De productieorderstatus bepaalt hoe de productieorder wordt behandeld in de toepassing. De vorm en inhoud van de productie worden bepaald door de status van de order. Afhankelijk van de status worden de productieorders op verschillende pagina's weergegeven. U kunt de status van een productieorder niet handmatig wijzigen; dit gebeurt met de functie **Status wijzigen**.  
+De productieorderstatus bepaalt hoe de productieorder wordt behandeld in de toepassing. De vorm en inhoud van de productie worden bepaald door de status van de order. Afhankelijk van de status worden de productieorders op verschillende pagina's weergegeven. U kunt de status van een productieorder niet handmatig wijzigen; u moet de functie **Status wijzigen** gebruiken in de individuele productieorder of in het venster **Productieorderstatus wijzigen**.  
 
 ### <a name="simulated-production-order"></a>Gesimuleerde productieorder  
 Een gesimuleerde productieorder is uniek vanwege de volgende kenmerken:  
@@ -110,12 +110,12 @@ Wanneer een productieorder is opgesteld en gepland, moet deze worden vrijgegeven
 - Hoeveel tijd er is besteed aan het werken aan de order  
 - Het aantal hoofdartikelen dat is geproduceerd  
 
-Deze informatie kan handmatig worden vastgelegd of via automatische rapportage, volgens de instelling van de artikelen in het veld Afboekingsmethode.  
+Deze informatie kan handmatig worden vastgelegd of via automatische rapportage, volgens de instelling in het veld Afboekingsmethode van het artikel en de afdeling.  
 
 ### <a name="material-consumption"></a>Materiaalverbruik  
 De toepassing biedt diverse opties voor de manier waarop een productiebedrijf mogelijk materiaalverbruik wil vastleggen. Het materiaalverbruik kan bijvoorbeeld handmatig worden geregistreerd. Dit is bijvoorbeeld wenselijk wanneer er vaak onderdelen moeten worden vervangen of er een hoger uitvalpercentage is dan verwacht.  
 
-Het materiaalverbruik kan worden verwerkt via het verbruiksdagboek, maar kan ook automatisch worden geregistreerd door de toepassing. Dit wordt automatische rapportage genoemd. De rapportagemethoden zijn als volgt: De rapportagemethoden zijn:  
+Het materiaalverbruik kan worden verwerkt via het [verbruiksdagboek](production-how-to-post-consumption.md), maar kan ook automatisch worden geregistreerd door de toepassing. Dit wordt automatische rapportage genoemd. De rapportagemethoden zijn:  
 
 -   Handmatig  
 -   Voorwaarts  
@@ -130,62 +130,14 @@ Bij voorwaartse verbruiksrapportage wordt ervan uitgegaan dat de verwachte aanta
 
 Bij achterwaartse verbruiksrapportage worden de werkelijke aantallen geregistreerd van alle materialen die zijn gepickt of verbruikt wanneer de status van een productieorder wordt gewijzigd in *Gereedgemeld*, tenzij bewerkingsplankoppelingen worden gebruikt. Wanneer bewerkingsplankoppelingen worden gebruikt, wordt het materiaal verbruikt nadat een aantal van de hoofdartikelen wordt geregistreerd voor de bewerkingsstap in het Outputdagboek.  
 
-Wanneer de productieorder wordt bijgewerkt, wordt de afboekingsmethode gekopieerd van de artikelkaart. Omdat de afboekingsmethode voor elk onderdeel van de productieorder bepaalt hoe en wanneer het verbruik wordt geregistreerd, is het belangrijk te weten dat u de afboekingsmethode voor specifieke artikelen direct kunt wijzigen in de productieorder.  
+Wanneer de productieorder wordt bijgewerkt, wordt de afboekingsmethode gekopieerd van de artikelkaart. Omdat de afboekingsmethode voor elk onderdeel van de productieorder bepaalt hoe en wanneer het verbruik wordt geregistreerd, is het belangrijk te weten dat u de afboekingsmethode voor specifieke artikelen direct kunt wijzigen in de productieorder. 
 
-#### <a name="automatic-consumption-posting-flushing"></a>Automatisch verbruik boeken (afboeken)  
-Het voordeel van automatisch afboeken is dat de invoer van gegevens sterk wordt beperkt. Met de mogelijkheid om een bewerking automatisch af te boeken, kan het hele verbruik- en outputregistratieproces worden geautomatiseerd. Het nadeel van automatisch afboeken is dat u mogelijk dat u uitval niet nauwkeurig registreert, of zelfs niet eens opmerkt. De automatische rapportagemethoden zijn als volgt:  
-
-- De hele order voorwaarts afboeken  
-- Voorwaarts afboeken per bewerking  
-- Achterwaarts afboeken per bewerking  
-- De hele order achterwaarts afboeken  
-
-#### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatische rapportage - de hele order voorwaarts afboeken  
-Als u de productieorder voorwaarts afboekt bij het begin van het project, werkt de toepassing op vergelijkbare wijze als bij handmatig verbruik. Het belangrijkste verschil is dat het verbruik automatisch plaatsvindt.  
-
-- De volledige inhoud van de productiestuklijst wordt verbruikt en afgetrokken van de voorraad op het moment waarop de vrijgegeven productieorder wordt bijgewerkt.  
-- Het verbruikte aantal is het aantal per montage zoals vermeld op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat u maakt.  
-- U hoeft geen informatie vast te leggen in het verbruiksdagboek als alle artikelen moeten worden afgeboekt.  
-- Wanneer artikelen vanuit de voorraad worden verbruikt, maakt het niet uit wanneer outputdagboekposten worden aangemaakt, want het outputdagboek heeft geen effect op deze manier van verbruikboeking.  
-- Er kunnen geen bewerkingsplankoppelingen worden ingesteld.  
-
-Het voorwaarts afboeken van een hele order is nuttig in productieomgevingen met:  
-
--   Een klein aantal beschadigde artikelen  
--   Een klein aantal bewerkingen  
--   Hoog materiaalverbruik in eerste bewerkingen  
-
-#### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatische rapportage - voorwaarts afboeken per bewerking  
-Bij afboeken per bewerking kunt u voorraad aftrekken tijdens een specifieke bewerking in het bewerkingsplan van het hoofdartikel. Materiaal wordt gekoppeld aan het bewerkingsplan met behulp van bewerkingsplankoppelingen, die overeenkomen met de bewerkingsplankoppelingen die worden toegepast op onderdelen in de productiestuklijst.  
-
-De afboeking vindt plaats wanneer de bewerking die dezelfde bewerkingsplankoppeling heeft, wordt gestart. Gestart betekent dat enige activiteit is geregistreerd in het outputdagboek voor die bewerking. En die activiteit kan ook bestaan uit het invoeren van een insteltijd.  
-
-Het bedrag van de afboeking is voor het aantal per montage dat vermeld staat op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat wordt gemaakt (verwachte aantal).  
-
-Deze techniek kan het beste worden toegepast wanneer er veel bewerkingen zijn en bepaalde onderdelen pas later in de montagevolgorde nodig zijn. In feite kan het bij een Just-in-Time (JIT)-omgeving zelfs zo zijn dat de artikelen niet eens voorhanden zijn wanneer de RPO van start gaat.  
-
-Materiaal kan tijdens bewerkingen worden verbruikt met behulp van bewerkingsplankoppelingen. Sommige onderdelen worden mogelijk pas gebruikt bij de eindmontage en mogen pas op dat moment aan de voorraad worden onttrokken.  
-
-#### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatische rapportage - achterwaarts afboeken per bewerking  
-Bij achterwaarts afboeken per bewerking wordt het verbruik geregistreerd nadat de bewerking in het outputdagboek is geboekt.  
-
-Het voordeel van deze methode is dat het aantal hoofdonderdelen dat is gereedgemeld in de bewerking bekend is.  
-
-Het materiaal in de productiestuklijst wordt gekoppeld aan de bewerkingsplanrecords met behulp van bewerkingsplankoppelingen. Het achterwaarts afboeken vindt plaats wanneer een bewerking met een bepaalde bewerkingsplankoppeling wordt geboekt met een gereedgemeld aantal.  
-
-Het bedrag van de afboeking is voor het aantal per montage dat vermeld staat op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat is geboekt als outputaantal bij die bewerking. Dit kan afwijken van het verwachte aantal.  
-
-#### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatische rapportage - de hele order achterwaarts afboeken  
-Bij deze rapportagemethode wordt geen rekening gehouden met bewerkingsplankoppelingen.  
-
-Er worden geen onderdelen gepickt totdat de status van de vrijgegeven productieorder is gewijzigd in *Gereedgemeld*. Het bedrag van de afboeking is het aantal per montage dat vermeld staat op de productiestuklijst, vermenigvuldigd met het aantal hoofdartikelen dat is gereedgemeld en in voorraad is geplaatst.  
-
-Voor achterwaarts afboeken van de hele productieorder moeten dezelfde instellingen worden gebruikt als bij voorwaarts afboeken: de rapportagemethode moet worden ingesteld op achterwaarts bij elk artikel voor alle artikelen in de hoofdstuklijst waarvoor de rapportage is bedoeld. Bovendien moeten alle bewerkingsplankoppelingen zijn verwijderd uit de productiestuklijst.  
+Zie voor meer informatie [Materialen afboeken op basis van de uitvoer van een bewerking](production-how-to-flush-components-according-to-operation-output.md)
 
 ### <a name="production-output"></a>Productieoutput  
 De toepassing biedt u de mogelijkheid om te traceren hoeveel werktijd wordt besteed aan een productieorder, naast het registreren van het aantal dat is geproduceerd. Met behulp van deze informatie kunt u de productiekosten nauwkeuriger bepalen. Daarnaast willen producenten die gebruikmaken van een standaard waarderingssysteem misschien de werkelijke informatie registreren om daarmee betere standaarden te kunnen ontwikkelen.  
 
-De output kan worden verwerkt via het outputdagboek, maar kan ook automatisch worden geregistreerd door de toepassing. De toepassing kopieert bij het bijwerken de afboekingsmethode van de bewerkingsplaats of de afdeling naar het productieorderbewerkingsplan. Net als bij het materiaalverbruik zijn er drie rapportagemethoden voor output:  
+De output kan worden verwerkt via het [outputdagboek](production-how-to-post-output-quantity.md), maar kan ook automatisch worden geregistreerd door de toepassing. De toepassing kopieert bij het bijwerken de afboekingsmethode van de bewerkingsplaats of de afdeling naar het productieorderbewerkingsplan. Net als bij het materiaalverbruik zijn er drie rapportagemethoden voor output:  
 
 - Handmatig  
 - Voorwaarts  
@@ -203,7 +155,7 @@ U kunt elke combinatie van automatische afboeking en handmatig geregistreerde in
 Tot slot is het zo dat als u het verbruik en de output handmatig invoert, u moet bepalen in welke volgorde u deze informatie wilt vastleggen. U kunt eerst het verbruik registreren en met behulp van een snelkoppelingsmethode de informatie invoeren die is gebaseerd op het verwachte aantal van de output. Of u kunt eerst de output invoeren, met behulp van de functie **Bewerkingsplan weergeven**. U registreert dan het verbruik op basis van het werkelijke aantal van de output.  
 
 ### <a name="production-journal"></a>Productiedagboek  
-Het productiedagboek combineert de functies van het verbruiksdagboek en outputdagboeken in één dagboek, dat direct toegankelijk is vanuit de vrijgegeven productieorder.  
+Het [productiedagboek](production-how-to-register-consumption-and-output.md) combineert de functies van het verbruiksdagboek en outputdagboeken in één dagboek, dat direct toegankelijk is vanuit de vrijgegeven productieorder.  
 
 Het doel van het productiedagboek is het bieden van één interface waarin u het verbruik en de output van een productieorder kunt registreren.  
 

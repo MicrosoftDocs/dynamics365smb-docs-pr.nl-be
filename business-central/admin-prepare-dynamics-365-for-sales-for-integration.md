@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777358"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184511"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integreren met Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -44,7 +44,6 @@ Wanneer u de integratieoplossing installeert, worden machtigingen voor het integ
 * Dynamics 365 Business Central-gebruiker van productbeschikbaarheid
 
 ### <a name="connection-settings-in-the-setup-guide"></a>Verbindingsinstellingen in de installatiehandleiding
-
 U kunt een begeleide instelling gebruiken om snel de verbinding in te stellen en geavanceerde functies op te geven, zoals koppeling tussen records.
 
 1. Kies **Instellingen en extensies** en kies vervolgens **Begeleide instelling**.
@@ -56,11 +55,10 @@ U kunt een begeleide instelling gebruiken om snel de verbinding in te stellen en
 |--|--|
 | **Dynamics 365 Sales-oplossing importeren** | Schakel dit in om de integratieoplossing te installeren en configureren in [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 | **Webservice Artikelbeschikbaarheid publiceren** | Zorg dat personen die [!INCLUDE[crm_md](includes/crm_md.md)] gebruiken de beschikbaarheid van producten (artikelen) in voorraad in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen bekijken. Dit vereist een [!INCLUDE[prod_short](includes/prod_short.md)]-gebruikersaccount met een webservicetoegangssleutel. De sleutel toewijzen is een proces van twee stappen. In het gebruikersaccount in [!INCLUDE[prod_short](includes/prod_short.md)] moet u de actie **Sleutel van webservice wijzigen** kiezen. In de begeleide instelling Dynamics 365 Sales-verbinding instellen moet u de URL van de Dynamics 365 Business Central OData-webservice opgeven en [!INCLUDE[prod_short](includes/prod_short.md)]-gebruikersreferenties opgeven voor toegang tot de service. Zie voor meer informatie [OData-webservices](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
-| **URL van Business Central OData-webservice** | Als u de webservice voor het weergeven van artikelbeschikbaarheid inschakelt, wordt de URL van de OData-webservice voor u verschaft. |
-| **Gebruikersnaam van Business Central OData-webservice** | De naam van het [!INCLUDE[prod_short](includes/prod_short.md)]-gebruikersaccount dat [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid in [!INCLUDE[prod_short](includes/prod_short.md)] op te halen met de OData-webservice. |
+|**Gebruikersnaam van Business Central OData-webservice** | De naam van het [!INCLUDE[prod_short](includes/prod_short.md)]-gebruikersaccount dat [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid in [!INCLUDE[prod_short](includes/prod_short.md)] op te halen met de OData-webservice. |
 | **Toegangssleutel van Business Central OData-webservice** | De toegangssleutel voor het gebruikersaccount dat [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid uit [!INCLUDE[prod_short](includes/prod_short.md)] op te halen met de OData-webservice. De sleutel wordt toegewezen aan de gebruiker die is gekozen in het veld **Gebruikersnaam van Business Central OData-webservice**. Als u de sleutel wilt krijgen, kiest u de knop **Opzoekwaarde** naast de gebruikersnaam, kiest u de gebruiker, kiest u **Beheren** en klikt u vervolgens op **Bewerken**. Kies op de gebruikerskaart **Acties**, **Verificatie** en kies vervolgens **Sleutel van webservice wijzigen** |
 | **Integratie van verkooporders inschakelen** | Wanneer mensen verkooporders maken in [!INCLUDE[crm_md](includes/crm_md.md)] en bestellingen uitvoeren in [!INCLUDE[prod_short](includes/prod_short.md)], integreert dit het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Hiervoor moet u referenties opgeven voor een beheerdersaccount in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie het gedeelte [Verkoopordergegevens verwerken](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
-| **CDS-verbinding inschakelen** | De verbinding met [!INCLUDE[prod_short](includes/cds_long_md.md)] inschakelen. |
+|**Dynamics 365 Sales-verbinding inschakelen** | De verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] inschakelen. |
 | **Dynamics 365 SDK-versie** | Dit is alleen relevant als u integreert met een on-premises versie van [!INCLUDE[crm_md](includes/crm_md.md)]. Dit is de software-ontwikkelingskit van Dynamics 365 (ook Xrm genoemd) die u gebruikt om [!INCLUDE[prod_short](includes/prod_short.md)] te verbinden met [!INCLUDE[crm_md](includes/crm_md.md)]. De versie moet compatibel zijn met de SDK-versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)] en gelijk zijn aan of nieuwer zijn dan de versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
 ### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Verbindingsinstellingen op de pagina Microsoft Dynamics 365-verbinding instellen

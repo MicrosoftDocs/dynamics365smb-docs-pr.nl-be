@@ -1,5 +1,5 @@
 ---
-title: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken | Microsoft Docs
+title: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
 description: U kunt het proces van het goedkeuren van nieuwe of gewijzigde records, zoals documenten, dagboekregels en klantenkaarten automatiseren door werkstromen te maken met stappen voor de goedkeuringen in kwestie. Voordat u goedkeuringswerkstromen maakt, moet u eerst een fiatteur en een vervangende fiatteur instellen voor elke goedkeuringsgebruiker. U kunt ook limietbedragen instellen voor fiatteurs om te definiëren welke verkoop- en inkooporders zij mogen goedkeuren. U kunt goedkeuringsverzoeken en andere berichten als e-mail of interne notitie verzenden. Voor elke instelling van een goedkeuringsgebruiker kunt u ook instellen wanneer zij berichten ontvangen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/26/2021
 ms.author: edupont
-ms.openlocfilehash: 11a4bd84395d50a1b39417c5c3abab0dd757e7ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782821"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110991"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
 
@@ -30,11 +30,11 @@ U kunt het proces van het goedkeuren van nieuwe of gewijzigde records, zoals doc
 
 In deze procedure worden de volgende taken beschreven:  
 
-- Goedkeuringsgebruikers instellen.  
-- Berichten instellen voor goedkeuringsgebruikers.  
-- Een goedkeuringswerkstroom wijzigen en inschakelen.  
-- Goedkeuring aanvragen voor een inkooporder, als Alicia.  
-- Een bericht ontvangen en vervolgens de aanvraag goedkeuren, als Sean.  
+- Goedkeuringsgebruikers instellen  
+- Berichten instellen voor goedkeuringsgebruikers  
+- Een goedkeuringswerkstroom wijzigen en inschakelen  
+- Goedkeuring aanvragen voor een inkooporder, als Alicia  
+- Een bericht ontvangen en vervolgens de aanvraag goedkeuren, als Sean  
 
 ## <a name="story"></a>Scenario
 
@@ -87,8 +87,8 @@ Maak de werkstroom voor inkoopordergoedkeuring door de stappen van de werkstroom
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Een werkstoorm voor goedkeuring van inkooporders maken en inschakelen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
-2. Kies op de pagina **Werkstromen** de actie **Nieuwe werkstroom uit sjabloon**.  
-3. Selecteer op de pagina **Werkstroomsjablonen** de werkstroomsjabloon genaamd **Goedkeuringswerkstroom inkooporder** en kies vervolgens de knop **OK**.  
+2. Selecteer op de pagina **Werkstromen** **Acties**, selecteer vervolgens **Nieuw** en kies vervolgens de actie **Nieuwe werkstroom uit sjabloon**.  
+3. Selecteer op de pagina **Werkstroomsjablonen** de werkstroomsjabloon genaamd **Goedkeuringswerkstroom inkooporder**.  
 
     De pagina **Werkstroom** wordt geopend voor een nieuwe werkstroom die alle gegevens van de geselecteerde sjabloon bevat. Aan de waarde in het veld **Code** wordt *- 01* toegevoegd, om aan te geven dat dit de eerste werkstroom is die is gemaakt vanuit de werkstroomsjabloon **Goedkeuringswerkstroom inkooporder**.  
 4. Schakel in de koptekst van de pagina **Werkstroom** het selectievakje **Ingeschakeld** in.  
@@ -101,8 +101,8 @@ Gebruik de nieuwe werkstroom voor goedkeuring van inkooporders door u eerst aan 
 
 1. Meld u aan als Alicia.
 2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
-3. Selecteer de regel voor open inkooporder 106001 en kies de actie **Bewerken**.  
-4. Kies op de pagina **Inkooporder** de actie **Goedkeuringsaanvraag verzenden**.  
+3. Selecteer de regel om inkooporder 106001 te openen.  
+4. Kies op de pagina **Inkooporder** **Acties**, dan **Goedkeuring aanvragen** en kies vervolgens de actie **Goedkeuringsverzoek verzenden**.  
 
 Zoals u ziet is de waarde in het veld **Status** veranderd in **Wacht op goedkeuring**.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: bc4e39727abcb0bfabb9580ad79e47e9c0b4495b
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882177"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074699"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integratie tussen Business Central en Microsoft Teams
 
@@ -49,7 +49,7 @@ Een koppeling naar een Business Central-record kopiëren en plakken in een Teams
 
 Eenmaal in het gesprek kunnen u en collega's meer details over de record bekijken, gegevens bewerken en actie ondernemen zonder Teams te verlaten.
 
-Zie [Werken met Business Central in Microsoft Teams](across-working-with-teams.md) voor meer informatie.
+Zie voor meer informatie [Records delen in Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="get-started"></a>Aan de slag
 
@@ -62,7 +62,7 @@ Zie [Werken met Business Central in Microsoft Teams](across-working-with-teams.m
 
 2. Zie als beheerder [Microsoft Teams-integratie met Business Central beheren](admin-teams-integration.md) voor informatie over het instellen van gebruikers om te werken met [!INCLUDE [prod_short](includes/prod_short.md)] en Teams.
 3. [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren in Teams. Zie [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md).
-4. Zodra de app is geïnstalleerd, bent u klaar om te beginnen. Zie [Werken met Business Central-gegevens in Teams](across-working-with-teams.md). 
+4. Zodra de app is geïnstalleerd, bent u klaar om te beginnen. Voor meer informatie, zie [Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams](across-search-contacts-teams.md) en [Records delen in Microsoft Teams](across-working-with-teams.md). 
 
 ## <a name="see-also"></a>Zie ook
 
