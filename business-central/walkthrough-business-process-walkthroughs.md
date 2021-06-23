@@ -10,37 +10,38 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce4823a243a6f1f25d4cea9d417e12211877d9a9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f0fae0ff46cbfedfd78749e591e34e5a284063fd
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782971"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216115"
 ---
 # <a name="business-process-walkthroughs"></a>Procedures voor bedrijfsprocessen
 
-Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen die u kunt uitvoeren met behulp van het demobedrijf CRONUS International Ltd. De scenario's bestaan uit meerdere procedures, waarvan sommige normaliter zouden worden uitgevoerd door één gebruiker, terwijl bij andere diverse verschillende gebruikersrollen zijn betrokken. Teneinde de werkomgeving na te bootsen, bevatten sommige van de scenario's instellingsstappen die nodig zijn voor het uitvoeren van de oefeningen zoals beschreven. Deze stappen kunnen inzicht bieden in de aard van de informatie die gebruikers moeten delen met de IT-professionals van hun bedrijf.  
+Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen die u kunt uitvoeren met behulp van het demobedrijf CRONUS. De scenario's bestaan uit meerdere procedures, waarvan sommige normaliter zouden worden uitgevoerd door één gebruiker, terwijl bij andere diverse verschillende gebruikersrollen zijn betrokken. Teneinde de werkomgeving na te bootsen, bevatten sommige van de scenario's instellingsstappen die nodig zijn voor het uitvoeren van de oefeningen zoals beschreven. Deze stappen kunnen inzicht bieden in de aard van de informatie die gebruikers moeten delen met de IT-professionals van hun bedrijf.  
 
  De procedures zijn complete scenario's en geven het beste resultaat als ze van begin tot eind worden uitgevoerd. Veel procedures zijn gebaseerd op de demogegevens van [!INCLUDE[prod_short](includes/prod_short.md)] en u kunt deze zelf uitproberen in uw eigen tempo.  
 
 > [!NOTE]
-> Sommige procedures vereisen voorbeeldgegevens die niet beschikbaar zijn in het standaarddemonstratiebedrijf [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Een bedrijf maken met volledige voorbeeldgegevens in een sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Sommige procedures vereisen voorbeeldgegevens die niet beschikbaar zijn in het standaarddemonstratiebedrijf [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
 
 |Als u dit wilt doen:|Zie|  
 |--------|---------|  
 |Stel een marketingcampagne in.|[Procedure: Een verkoopcampagne uitvoeren](walkthrough-conducting-a-sales-campaign.md)|  
-|Gebruik vooruitbetalingen om deelbetalingen te beheren voor verkopen en inkopen. **Vereist volledige voorbeeldgegevens** |[Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
+|Gebruik vooruitbetalingen om deelbetalingen te beheren voor verkopen en inkopen. <!-- **Requires complete sample data** --> |[Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Stel goedkeuringsgebruikers in, geef aan wanneer en hoe de gebruikers bericht ontvangen over goedkeuringswerkstromen en wijzig en schakel vervolgens de relevante goedkeuringswerkstroom in.|[Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Ontvangen artikelen opslaan in standaardmagazijnconfiguraties. **Vereist volledige voorbeeldgegevens**|[Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
-|Ontvangen artikelen opslaan in geavanceerde magazijnconfiguraties. **Vereist volledige voorbeeldgegevens**|[Procedure: ontvangen en opslaan in geavanceerde magazijnconfiguraties](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
-|Aanvulorders plannen om handmatig aan vraag te voldoen. **Vereist volledige voorbeeldgegevens**|[Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)|  
-|Aanvulorders plannen om automatisch aan vraag te voldoen. **Vereist volledige voorbeeldgegevens**|[Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)|  
-|Artikelen samenstellen en verzenden die zijn aangepast op de verkooporder. **Vereist volledige voorbeeldgegevens**|[Procedure: Kits verkopen, assembleren en verzenden](walkthrough-selling-assembling-and-shipping-kits.md)|  
-|Een project plannen van begin tot eind. **Vereist volledige voorbeeldgegevens**|[Procedure: Projecten plannen](walkthrough-managing-projects-with-jobs.md)|  
-|De kosten van een project rapporteren. **Vereist volledige voorbeeldgegevens**|[Procedure: Onderhanden werk voor een project berekenen](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Artikelen voor verzending in standaardmagazijnconfiguraties picken. **Vereist volledige voorbeeldgegevens**|[Procedure: picken en verzenden in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Tekortenbeheer uitvoeren. **Vereist volledige voorbeeldgegevens**|[Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)|
+|Een project plannen van begin tot eind. <!-- **Requires complete sample data** --> |[Procedure: Projecten plannen](walkthrough-managing-projects-with-jobs.md)|  
+|De kosten van een project rapporteren. <!-- **Requires complete sample data** --> |[Procedure: Onderhanden werk voor een project berekenen](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Artikelen voor verzending in standaardmagazijnconfiguraties picken. <!-- **Requires complete sample data** --> |[Procedure: picken en verzenden in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
 |Bedrijfsgegevens exporteren voor controledoeleinden in Duitsland.|[Procedure: Gegevens exporteren voor een digitale controle](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
+
+<!-- |Assemble and ship items that are customized on the sales order. **Requires complete sample data** |[Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)|   -->
+<!-- |Plan supply orders to fulfill demand automatically. **Requires complete sample data** |[Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)|   -->
+<!-- |Plan supply orders to fulfill demand manually. **Requires complete sample data** |[Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)|   -->
+<!-- |Put received items away in basic warehouse configurations. **Requires complete sample data** |[Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|   -->
+<!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
+<!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
 ## <a name="see-also"></a>Zie ook
 

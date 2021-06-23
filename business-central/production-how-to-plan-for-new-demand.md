@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab3929a410a280494d806e7aeea5c54ce966769e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787989"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216242"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Nieuwe vraag order voor order plannen
 Deze planningstaak kan worden uitgevoerd op de pagina **Orderplanning**, waarin alle nieuwe vraag samen met beschikbaarheidsinformatie en suggesties voor levering worden weergegeven. Zo beschikt u over een helder hulpmiddel om op effectieve wijze op basis van verkoop- en onderdeelregels te plannen voor de vraag. Vervolgens maakt u direct verschillende soorten orders voor voorzieningen aan.  
@@ -109,7 +109,7 @@ Wanneer u klaar bent met de planning op de pagina **Orderplanning** (als u bijvo
 >  Door de voorzieningenorders die u maakt kan weer nieuwe afhankelijke vraag ontstaan, bijvoorbeeld naar onderliggende productieorders. Kies daarom altijd **Planning berekenen**, zodat u deze productieorders kunt bekijken en afhandelen voordat u verdergaat vanuit het overzicht.  
 
 ## <a name="see-also"></a>Zie ook  
-[Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Gepland](production-planning.md)  
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)    

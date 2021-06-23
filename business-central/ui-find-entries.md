@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a29cea15cba15da1bc68816e07f76de59f43958b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771173"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216140"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Gerelateerde posten zoeken voor geboekte documenten 
 
@@ -67,7 +67,7 @@ U kunt posten zoeken op basis van informatie over het document, de zakelijke con
 Nadat u een selectie hebt gemaakt, voert u de relevante zoekinformatie in de velden bovenaan in. Gebruik de knopinfo van de velden om te helpen. Kies als u klaar bent **Zoeken** om het zoeken te starten. Als u een filter wijzigt, moet u opnieuw **Zoeken** kiezen.
 
 > [!TIP]
-> Voor een paar voorbeelden over het gebruik van **Posten zoeken** raadpleegt u [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md) en [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md).
+> Voor een paar voorbeelden over het gebruik van **Posten zoeken** zie [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
