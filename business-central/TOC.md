@@ -11,15 +11,15 @@
 #### [Procedure: Een verkoopcampagne uitvoeren](walkthrough-conducting-a-sales-campaign.md)
 #### [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Procedure: Ontvangen en opslaan in geavanceerde magazijnconfiguraties](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-#### [Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)
-#### [Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)
-#### [Procedure: Kits verkopen, assembleren en verzenden](walkthrough-selling-assembling-and-shipping-kits.md)
+<!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+<!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+<!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Procedure: Projecten plannen](walkthrough-managing-projects-with-jobs.md)
 #### [Procedure: Onderhanden werk voor een project berekenen](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Procedure: picken en verzenden in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)
+<!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Procedure: cashflow met behulp van rapportageschema's maken](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Ontwerpdetails
@@ -79,8 +79,6 @@
 ##### [Overzicht dagboekboekingsregel](design-details-general-journal-post-line-overview.md)  
 ##### [Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)  
 ##### [Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)  
-##### [Ontwerpdetails: Wijzigingen in codeunit 12: Algemene variabelen toewijzen voor dagboekboekingsregel](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Designdetails: Wijzigingen in codeunit 12: Wijzigingen in procedures voor grootboekboekingen](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Ontwerpdetails: Dimensiesetposten
 ##### [Ontwerpdetails: Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)  
 ##### [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)  
@@ -241,9 +239,10 @@
 #### [Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### E-mail instellen
 #### [E-mail instellen](admin-how-setup-email.md)
-#### Uw bedrijfsinbox instellen in Outlook 
+#### Uw bedrijfsinbox instellen in Microsoft Outlook 
 ##### [Business Central gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)
-##### [Synchroniseren met contacten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Synchroniseren met contacten in Outlook](admin-synchronize-outlook-contacts.md)
+##### [Outlook optimaliseren](admin-outlook-optimize.md)
 ##### [Business Central gebruiken met Outlook](admin-no-outlook.md)
 ### Rapporten instellen
 #### [Rapportselectie](across-report-selections.md)
@@ -257,7 +256,7 @@
 ##### [Teams-integratie beheren](admin-teams-integration.md)
 ##### [Business Central-app voor teams installeren](across-install-app-for-teams.md)
 ##### [Zoeken naar klanten, leveranciers en andere contacten](across-search-contacts-teams.md)
-##### [Werken met Business Central-gegevens in Teams](across-working-with-teams.md)
+##### [Records delen in teams](across-working-with-teams.md)
 ##### [Bedrijf en andere instellingen wijzigen](across-teams-settings.md)
 ##### [Veelgestelde vragen over Teams](teams-faq.md)
 ##### [Problemen oplossen](admin-teams-troubleshooting.md)
@@ -287,12 +286,12 @@
 ### [Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)
 
 ## Veelgestelde vragen
-### [Veelgestelde vragen](across-faq.md)
+### [Veelgestelde vragen](across-faq.yml)
 ### [Veelgestelde vragen over Vertel me](ui-search-faq.md)
 ### [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.yml)
 ### [Veelgestelde vragen over lijstweergaven](ui-views-faq.yml)
 ### [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml)
-### [Veelgestelde vragen over mobiele apps](ui-mobile-faq.md)
+### [Veelgestelde vragen over mobiele apps](ui-mobile-faq.yml)
 ### [Veelgestelde vragen over Teams](teams-faq.md)
 ### [Veelgestelde vragen over elektronische facturering](faq-electronic-invoicing.yml)
 ### [Minimumbehoeften](product-requirements.md)
@@ -534,6 +533,10 @@
 #### [Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
+### Cashflow beheren
+#### [Cashflowoverzicht](finance-cash-flow-overview.md)
+#### [Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md)
+
 ### Afsluitingsjaren en -perioden
 #### [Overzicht van jaarafsluiting](year-close-years-periods.md)
 #### [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)
@@ -566,7 +569,6 @@
 ### [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)
 ### [Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)
 ### [Wijzigingen in btw-tarieven beheren](finance-how-use-vat-rate-change-tool.md)
-### [Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md)
 ### [Procedure: cashflow met behulp van rapportageschema's maken](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Financiële overzichten analyseren in Excel:](finance-analyze-excel.md)
 ### [Bankfondsen overboeken](bank-how-transfer-bank-funds.md)
@@ -586,6 +588,7 @@
 
 ## Verkoop
 ### [Verkoopoverzicht](sales-manage-sales.md)
+### [Verkooprapporten](sales-reports.md)
 ### [Procedure: Een verkoopcampagne uitvoeren](walkthrough-conducting-a-sales-campaign.md)
 ### [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Nieuwe klanten registreren](sales-how-register-new-customers.md)
@@ -606,9 +609,11 @@
 ### [Datumberekening voor verkoop](sales-date-calculation-for-sales.md)
 ### [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)
 ### [Werken met periodieke inkomsten](finance-recurring-invoicing.md)
+### [Externe documentnummers invoeren](across-enter-external-document-numbers.md)
 
 ## Inkopen
 ### [Inkoopoverzicht](purchasing-manage-purchasing.md)
+### [Inkooprapporten](purchase-reports.md)
 ### [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Inkopen vastleggen](purchasing-how-record-purchases.md)
 ### [Offertes aanvragen](purchasing-how-request-quotes.md)
@@ -620,10 +625,14 @@
 ### [Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)
 ### [Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)
 ### [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)
-### [Werken met afroepinkooporders](sales-how-to-create-blanket-sales-orders.md)
+### [Werken met inkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)
+### [Externe documentnummers op inkoopdocumenten](purchasing-ext-doc-no.md)
+### [Externe documentnummers invoeren](across-enter-external-document-numbers.md)
+
 
 ## Voorraad
 ### [Voorraadoverzicht](inventory-manage-inventory.md)
+### [Voorraad- en magazijnrapporten](inventory-WMS-reports.md)
 ### [Nieuwe artikelen registreren](inventory-how-register-new-items.md)
 ### [Werken met stuklijsten](inventory-how-work-BOMs.md)
 ### [Artikelen categoriseren](inventory-how-categorize-items.md)
@@ -642,6 +651,7 @@
 
 ## Projectbeheer
 ### [Overzicht van projectbeheer](projects-manage-projects.md)
+### [Projectrapporten](project-reports.md)
 ### [Projecten maken](projects-how-create-jobs.md)
 ### [Resources gebruiken voor projecten](projects-how-use-resources.md)
 ### [Urenstaten gebruiken voor projecten](projects-how-use-time-sheets.md)
@@ -701,21 +711,20 @@
 ## Planning
 ### [Productieplanning](production-planning.md)
 ### [Informatie over het plannen van functionaliteit](production-about-planning-functionality.md)
-### [Productie uitbesteden](production-how-to-subcontract-manufacturing.md)
 ### [Planning met of zonder vestigingen](production-planning-with-without-locations.md)
 ### [Een prognose maken](production-how-to-create-a-forecast.md)
 ### [Productieorders maken op basis van verkooporders](production-how-to-create-production-orders-from-sales-orders.md)
-### [Projectorders plannen](production-how-to-plan-project-orders.md)
 ### [Nieuwe vraag order voor order plannen](production-how-to-plan-for-new-demand.md)
 ### [Volledige planning, MPS of MRP uitvoeren](production-how-to-run-mps-and-mrp.md)
 ### [Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md)
 ### [Relaties tussen vraag en aanbod bijhouden](production-how-track-demand-supply.md)
-### [Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)
-### [Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)
+<!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Assemblagebeheer
 ### [Artikelen samenstellen](assembly-assemble-items.md)
+### [Assemblagerapporten](assembly-reports.md)
 ### [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Een offerte maken voor een assembleren voor order-verkoop](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Artikelen samenstellen](assembly-how-to-assemble-items.md)
@@ -729,6 +738,7 @@
 
 ## Productie
 ### [Overzicht van productie](production-manage-manufacturing.md)
+### [Productierapporten](production-reports.md)
 ### [Informatie over productieorders](production-about-production-orders.md)
 ### [Productieorders maken](production-how-to-create-production-orders.md)
 ### [Productie uitbesteden](production-how-to-subcontract-manufacturing.md)
@@ -743,6 +753,7 @@
 
 ## Magazijnbeheer
 ### [Magazijnbeheer](warehouse-manage-warehouse.md)
+### [Voorraad- en magazijnrapporten](inventory-WMS-reports.md)
 ### [Artikelen ontvangen](warehouse-how-receive-items.md)
 ### [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md)
 ### Artikelen opslaan
@@ -773,8 +784,8 @@
 ### [Artikelen verzenden](warehouse-how-ship-items.md)
 ### [Magazijntoewijzingen zoeken](warehouse-how-to-find-your-warehouse-assignments.md)
 ### [Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken](warehouse-use-automated-data-capture-systems-adcs.md)
-### [Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Procedure: Ontvangen en opslaan in geavanceerde magazijnconfiguraties](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 
 ## CRM - Service
 ### [Servicebeheer](service-service.md)
@@ -840,6 +851,7 @@
 ##### [Verkoopprijs bepalen door kosten plus percentage](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Australian Business Numbers en aanpassingsnotities](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Australian Business Numbers invoeren](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
+##### [Betalingstijden rapporteren](LocalFunctionality/Australia/payment-times-reporting.md)
 
 ### Oostenrijk
 #### [Lokale functionaliteit in de Oostenrijkse versie](LocalFunctionality/Austria/austria-local-functionality.md)
@@ -1544,7 +1556,6 @@
 ##### [Wettelijke informatie invoeren](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [De extensie GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [De extensie GetAddress.io UK Postcodes instellen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-##### [Externe documentnummers invoeren](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### Verenigde Staten
 #### [Lokale functionaliteit in de Amerikaanse versie](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -1599,6 +1610,7 @@
 ### [Tabelgegevens weergeven](admin-view-table-information.md)
 ### [Een sandboxomgeving maken](across-how-create-sandbox-environment.md)
 ### [Nieuwe functies van tevoren inschakelen](admin-feature-management.md)
+### [Gebruikers onboarden met controlelijsten](admin-checklist.md)
 ## Business Central aanpassen
 ### [Overzicht van aanpassing](ui-customizing-overview.md)
 ### [Pagina's aanpassen voor profielen](ui-personalization-manage.md)
