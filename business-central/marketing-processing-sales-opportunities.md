@@ -1,6 +1,6 @@
 ---
-title: Verkoopopportunities verwerken in verkoopcycli| Microsoft Docs
-description: U kunt verkoopopportunities weergeven sluiten of verwijderen en u kunt ook offertes en verkooporders voor opportunity's maken en een opportunity verplaatsen door de fasen van een verkoopcyclus.
+title: Verkoopopportunities verwerken in verkoopcycli
+description: In dit onderwerp worden de verschillende manieren beschreven waarop u verkoopkansen in verkoopcycli kunt verwerken en een verkoopkans door de fasen van een verkoopcyclus kunt verplaatsen.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: d67e1d1eda6cf3ae80ebad185a0db3fadd3eec1b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017261"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437614"
 ---
 # <a name="process-sales-opportunities"></a>Verkoopopportunity's verwerken
 Nadat u een opportunity hebt gemaakt, zijn er verschillende functies voor het beheren van de opportunity en het verplaatsen ervan naar voltooiing.
@@ -27,9 +27,9 @@ De bestaande verkoopopportunities zijn beschikbaar op de pagina **Opportunity-ov
 
 | Opportunities weergeven voor | Dan |
 | --- | --- |
-| Alle verkopers en contacten |Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunity-overzicht** in en kies de desbetreffende koppeling. |
-| Een bepaalde verkoper |Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers** in en kies de desbetreffende koppeling. Selecteer de verkoper, kies de actie **Opportunities** en kies vervolgens de actie **Overzicht**. |
-| Een bepaald contact |Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling. Selecteer het contact in de lijst en kies vervolgens de actie **Opportunities**. |
+| Alle verkopers en contacten |Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Opportunity-overzicht** in en kies vervolgens de gerelateerde koppeling. |
+| Een bepaalde verkoper |Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkopers** in en kies vervolgens de gerelateerde koppeling. Selecteer de verkoper, kies de actie **Opportunities** en kies vervolgens de actie **Overzicht**. |
+| Een bepaald contact |Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling. Selecteer het contact in de lijst en kies vervolgens de actie **Opportunities**. |
 
 Al deze taken openen de pagina **Opportunity-overzicht**.
 
@@ -66,7 +66,7 @@ Als u gesloten afgesloten opportunities wilt verwijderen vanuit de pagina **Oppo
 
 Als u afgesloten opportunities wilt verwijderen met de batchverwerking **Afgesloten opportunities verwijderen**, volgt u deze stappen:
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunities verwijderen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Opportunities verwijderen** in en kies vervolgens de gerelateerde koppeling.
 2. Stel in het gedeelte **Opportunity** de filters in die opgeven welke gesloten opportunities moeten worden verwijderd.
 3. Kies de knop **Ok**.
 

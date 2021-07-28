@@ -1,5 +1,5 @@
 ---
-title: CODA-afschriften automatisch overbrengen en boeken
+title: CODA-afschriften automatisch overbrengen en boeken [BE]
 description: Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels overbrengen naar een financieel dagboek.
 services: project-madeira
 documentationcenter: ''
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: cd75a5ab247b82792c8a9f1446dcbb01cd782f4a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 370b96acf0ce9fed9f04f6b2cae391980586318b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773285"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437200"
 ---
-# <a name="automatically-transfer-and-post-coda-statements"></a>CODA-afschriften automatisch overbrengen en boeken
+# <a name="automatically-transfer-and-post-coda-statements-in-the-belgian-version"></a>CODA-afschriften automatisch overbrengen en boeken in de Belgische versie
 Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels overbrengen naar een financieel dagboek.  
 
 Na het overbrengen van de afschriftregels kunt u de regels boeken in een corresponderend dagboek. Als een dergelijk dagboek niet bestaat, kunt u de regels niet overbrengen. U kunt een dagboek maken om CODA-afschriften te verwerken. Zie voor meer informatie [Financiële dagboeken maken](how-to-create-financial-journals.md).  
@@ -28,7 +28,7 @@ U kunt CODA-afschriften ook handmatig overbrengen en boeken. Zie voor meer infor
 
 ## <a name="to-automatically-transfer-statement-lines"></a>Afschriftregels automatisch overbrengen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de bankrekening en kies de actie **CODA-afschriften**.  
 3.  Selecteer het CODA-afschrift en kies vervolgens de actie **Bewerken**.  
 4.  Kies de actie **Naar dagboek overbrengen**.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778630"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436763"
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
 
@@ -34,7 +34,7 @@ Als u een nieuwe klant wilt registreren, moet u een klantenkaart invullen. U kun
 
 ### <a name="to-create-a-new-customer-card"></a>Een nieuwe klantenkaart maken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Klanten** de actie **Nieuw**.
 
     Als er slechts één klantensjabloon bestaat, wordt vervolgens een nieuwe klantenkaart geopend waarin sommige velden zijn ingevuld met informatie van de sjabloon.
@@ -76,7 +76,7 @@ U kunt ervoor kiezen om geen waarschuwingen te ontvangen die u vertellen dat de 
 
 ### <a name="to-specify-credit-limit-warnings"></a>Waarschuwingen voor kredietlimieten opgeven
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
 
 2. Kies op het sneltabblad **Algemeen** in het veld **Waarschuwingen** de relevante optie zoals beschreven in de volgende tabel:
 

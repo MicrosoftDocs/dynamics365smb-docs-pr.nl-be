@@ -1,6 +1,6 @@
 ---
-title: Verkoopretouren of annuleringen verwerken | Microsoft Docs
-description: Beschrijft hoe u een verkoopcreditnota maakt, rechtstreeks of via een verkoopretourorder, om een retour, een annulering of terugbetaling te verwerken voor artikelen of diensten waarvoor u betaling hebt ontvangen.
+title: Verkoopretouren of annuleringen verwerken
+description: Beschrijft hoe u een verkoopcreditnota maakt om een retour, een annulering of terugbetaling te verwerken voor artikelen of diensten waarvoor u betaling hebt ontvangen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5f6daba9251dad73b8924312e35a5cb1474bdb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b668e37e7cbe9348aab84b2892543a73bc658b43
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778709"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436813"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Verkoopretouren of annuleringen verwerken
 Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Als u de correcte verkoopfactuurinformatie wilt opnemen, kunt u de verkoopcreditnota rechtstreeks vanuit de geboekte verkoopfactuur maken, of een nieuwe verkoopcreditnota maken met gekopieerde informatie uit de factuur.
@@ -51,7 +51,7 @@ Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld *
 Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Een verkoopcreditnota maken op basis van een geboekte verkoopfactuur
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Geboekte verkoopfacturen** de geboekte verkoopfactuur die u wilt tegenboeken en kies vervolgens de actie **Corrigerende creditnota maken**.
 
     De koptekst van de verkoopcreditnota bevat enkele gegevens uit de geboekte verkoopfactuur. U kunt deze gegevens bewerken, bijvoorbeeld met nieuwe gegevens die overeenkomen met de retourovereenkomst.  
@@ -73,7 +73,7 @@ Het dialoogvenster **Boeken en verzenden bevestigen** wordt geopend met de gepre
 De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu tegengeboekt en een terugbetaling kan worden gemaakt voor de klant. De verkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de lijst met geboekte verkoopcreditnota's.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Een verkoopcreditnota maken door een geboekte verkoopfactuur te kopiëren
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopcreditnota's** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopcreditnota's** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** om een nieuwe lege verkoopcreditnota te openen.
 3. Voer in het veld **Klant** de naam in van een bestaande klant.
 4. Kies de actie **Kopiëren uit document**.
@@ -84,7 +84,7 @@ De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu t
 9. Voltooi de verkoopcreditnota zoals is uitgelegd in [Een verkoopcreditnota maken op basis van een geboekte verkoopfactuur](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Een verkoopretourorder maken op basis van een of meer geboekte verkoopdocumenten
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopretourorders** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopretourorders** in en kies vervolgens de gerelateerde koppeling
 2. Kies de actie **Nieuw**.  
 3. Vul de velden op het sneltabblad **Algemeen** in met de benodigde gegevens.
 4. Vul op het sneltabblad **Regels** de regels handmatig in of kopieer informatie vanuit andere documenten om de regels automatisch in te vullen:
@@ -164,7 +164,7 @@ Wanneer u de verkoopretourorder boekt, wordt de toeslag opnieuw bevoorraden toeg
 U kunt een klant een creditnota sturen met een korting omdat de klant de artikelen bijvoorbeeld met lichte beschadigingen of te laat heeft ontvangen.  
 U kunt deze gereduceerde prijs als artikeltoeslag boeken in een creditnota of retourorder en vervolgens toewijzen aan de geboekte verzending. De volgende beschrijving behandelt dit voor een verkoopcreditnota, maar dezelfde stappen zijn van toepassing op een verkoopretourorder.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopcreditnota's** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopcreditnota's** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** om een nieuwe lege verkoopcreditnota te openen.
 3. Vul in de creditnotakop de betreffende gegevens in over de klant aan wie u de verkoopprijskorting wilt geven.  
 4. Selecteer **Toeslag (artikel)** in het veld **Soort** op het sneltabblad **Regels**.  
@@ -187,7 +187,7 @@ Om retourverzendingen te combineren moet het selectievakje **Verzendingen combin
 
 ### <a name="to-manually-combine-return-receipts"></a>Retourontvangsten handmatig combineren  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopcreditnota** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopcreditnota** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden op het sneltabblad **Algemeen** in.  
 4. Kies de actie **Retourontvangstregels ophalen**.  
@@ -203,7 +203,7 @@ Om retourverzendingen te combineren moet het selectievakje **Verzendingen combin
 ### <a name="to-automatically-combine-return-receipts"></a>Retourontvangsten automatisch combineren  
 U kunt retourontvangsten automatisch combineren en beschikken over de optie om de creditnota's automatisch te boeken met de functie **Retourontvangsten combineren**.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Retourontvangsten combineren** in en kies de desbetreffende koppeling.
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Retourontvangsten combineren** in en kies vervolgens de gerelateerde koppeling
 2. Vul op de pagina **Retourontvangsten combineren** de velden in om de relevante retourontvangsten te selecteren.
 3. Schakel het selectievakje **Creditnota's boeken** in. Als u dit niet doet, moet u de resulterende inkoopcreditnota's handmatig boeken.
 4.  Kies de knop **OK**.  
@@ -212,7 +212,7 @@ U kunt retourontvangsten automatisch combineren en beschikken over de optie om d
 Als u op deze manier retourontvangsten factureert, blijven de retourorders van waaruit de retourontvangsten zijn geboekt bestaan, ook als ze volledig zijn ontvangen en gefactureerd.  
 
 Als retourontvangsten worden gecombineerd op een creditnota en worden geboekt, wordt er een geboekte verkoopcreditnota gemaakt voor de gecrediteerde regels. Het veld **Verzonden aantal** op de oorspronkelijke verkoopretourorder wordt bijgewerkt op basis van het gefactureerde aantal.   
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefactureerde verkoopretourorders verwijderen** in en selecteer de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gefactureerde verkoopretourorders verwijderen** in en kies vervolgens de gerelateerde koppeling  
 2.  Geef in het filterveld **Nr.** op welke retourorders moeten worden verwijderd.  
 3.  Kies de knop **Ok**.  
 

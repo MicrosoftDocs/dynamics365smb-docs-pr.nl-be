@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a16c48821aef828aeba61e8bc859007b5678a473
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 07fa5963f79f091dffd49af7d20669616923797f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778534"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436663"
 ---
 # <a name="set-up-salespeople"></a>Verkopers instellen
 Veel bedrijven willen de individuele prestaties van een werknemer volgen om op basis daarvan de verkoopcommissie of bonus te kunnen berekenen. Zie bijvoorbeeld het rapport met **verkoperscommissies**. Mogelijk wil een bedrijf ook een verkoper aan elk contact toewijzen.
@@ -25,7 +25,7 @@ Wanneer u een verkoper op de pagina **Verkopers** hebt ingesteld, kunt u deze in
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Een verkoperscode instellen
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkopers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Verkopers** de actie **Nieuw**.
 
 U kunt verkopers in divers relatiebeheer en marketingwerk gebruiken. U kunt bijvoorbeeld taken toewijzen aan verkopers, zodat de taken worden opgenomen in verkoopopportunity's waaraan de verkoper is toegewezen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).

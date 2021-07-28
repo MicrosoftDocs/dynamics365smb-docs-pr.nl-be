@@ -1,6 +1,6 @@
 ---
-title: Een service voor documentuitwisseling instellen | Microsoft Docs
-description: U gebruikt een externe serviceprovider om elektronische documenten uit te wisselen met uw handelspartners.
+title: Een service voor documentuitwisseling instellen
+description: U gebruikt een externe serviceprovider om elektronische documenten uit te wisselen met uw handelspartners door middel van 'Instellingen service doc.uitw.'.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a89cf3988e7576070a58a798e0f88693e598ef92
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 357c48c6b7ed8e2d44316805bba04ff9236f0e9b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787294"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436310"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Een service voor documentuitwisseling instellen
 U gebruikt een externe serviceprovider om elektronische documenten uit te wisselen met uw handelspartners. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Een service voor documentuitwisseling instellen  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen service doc.uitw.** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instellingen service doc.uitw.** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Omschrijving|  

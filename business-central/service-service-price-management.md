@@ -1,6 +1,6 @@
 ---
-title: Beheer serviceprijs | Microsoft Docs
-description: In dit onderwerp wordt beschreven hoe u de juiste prijs kunt toepassen op serviceorders, persoonlijke serviceprijsovereenkomsten kunt opzetten voor klanten, de efficiëntie van uw werknemers kunt verbeteren en het factureringsproces kunt versnellen.
+title: Beheer serviceprijs
+description: Met serviceprijsbeheer kunt u serviceprijsgroepen, serviceprijzen, aanpassing van serviceprijzen en meer instellen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: af69e0aeb80b3406e26200a7a2f8f04aceb10914
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776778"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438294"
 ---
 # <a name="service-price-management"></a>Beheer serviceprijs
 Met de functionaliteit voor serviceprijsbeheer kunt u de juiste prijs toepassen op serviceorders, persoonlijke serviceprijsovereenkomsten opzetten voor klanten, de efficiëntie van uw werknemers verbeteren en het factureringsproces versnellen.  
@@ -52,7 +52,7 @@ U stelt de werkelijke soorten serviceprijs (prijsherwaarderingssoort en prijs) i
 U kunt bijvoorbeeld soorten serviceprijzen instellen voor een radioserviceprijsgroep. Voor klanten zonder prijsgroep kunt u serviceprijzen met maximumarbeidskosten vastleggen. Dit is de herwaarderingsgroep voor arbeidskosten. Voor klanten met een bepaalde prijsgroep kunt u serviceprijzen met vaste arbeidskosten vastleggen, in dezelfde herwaarderingsgroep voor arbeidskosten.  
 
 #### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceartikelen** in en kies vervolgens de gerelateerde koppeling  
 2. Selecteer het serviceartikel, vouw het sneltabblad **Prijzen en verkoop** uit en kies de actie **Resource**, **Artikel** of **Grootboekrekening**.
 3. Vul op de pagina **Resourceprijzen project**, **Artikelprijzen project** of **GB-rekeningprijzen project** de velden zoals nodig in.
 

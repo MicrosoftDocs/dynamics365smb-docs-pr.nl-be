@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31cfe9390e3f31253d60ba55a95f5507cdcac622
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215115"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436963"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost
 Dit artikel begeleidt gebruikers bij de functionaliteit Voorraadwaardering in [!INCLUDE[prod_short](includes/prod_short.md)]. Het specifieke artikel legt uit hoe de batchverwerking **Kostprijs herwaarderen - Artikelposten** een boekingsdatum bepaalt en toewijst aan de waardeposten die de batchverwerking gaat maken.  
@@ -33,7 +33,7 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** wijst een boekings
 
  Laten we dit proces eens in de praktijk bekijken. Stel dat we een artikelpost Verkoop hebben. Het artikel is verzonden op 5 september 2013 en de dag erna gefactureerd.  
 
-![Status van artikelposten in het scenario](media/helene/TechArticleAdjustcost1.png "Status van artikelposten in het scenario")  
+![Status van artikelposten in het scenario.](media/helene/TechArticleAdjustcost1.png "Status van artikelposten in het scenario")  
 
 Hieronder vertegenwoordigt de eerste waardepost (379) de verzending en heeft dezelfde boekingsdatum als de bovenliggende artikelpost.  
 
@@ -41,7 +41,7 @@ De tweede artikelpost (381) vertegenwoordigt de factuur.
 
  De derde waardepost (391) is een herwaardering van de factuurwaardepost (381)  
 
- ![Status van waardeposten in het scenario](media/helene/TechArticleAdjustcost2.png "Status van waardeposten in het scenario")  
+ ![Status van waardeposten in het scenario.](media/helene/TechArticleAdjustcost2.png "Status van waardeposten in het scenario")  
 
  Stap 1: De te maken herwaarderingspost krijgt dezelfde boekingsdatum toegewezen als de post die ermee wordt geherwaardeerd, hierboven geïllustreerd door waardepost 391.  
 
@@ -53,13 +53,13 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 
  Voorraadperioden:  
 
-![Voorraadperioden in het scenario](media/helene/TechArticleAdjustcost3.png "Voorraadperioden in het scenario")
+![Voorraadperioden in het scenario.](media/helene/TechArticleAdjustcost3.png "Voorraadperioden in het scenario")
 
  De eerste toegestane boekingsdatum is de eerste dag van de eerste open periode. 1 september 2013.  
 
  Grootboekinstellingen:  
 
-![Grootboekinstellingen in het scenario](media/helene/TechArticleAdjustcost4.png "Grootboekinstellingen in het scenario")
+![Grootboekinstellingen in het scenario.](media/helene/TechArticleAdjustcost4.png "Grootboekinstellingen in het scenario")
 
  De eerste toegestane boekingsdatum is de datum in het veld Boeken toegest. vanaf: 10 september 2013.  
 
@@ -69,7 +69,7 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 
  De aanvankelijke toegewezen Boekingsdatum was 6 september, zoals in stap 1 wordt beschreven. Echter, in de tweede stap identificeert de batchverwerking Kostprijs herwaarderen - Artikelposten dat de vroegste toegestane boekingsdatum 10 september is en wijst dus 10 september toe aan de herwaarderingswaardepost, onder.  
 
- ![Status van waardeposten in scenario 2](media/helene/TechArticleAdjustcost5.png "Status van waardeposten in scenario 2")
+ ![Status van waardeposten in scenario 2.](media/helene/TechArticleAdjustcost5.png "Status van waardeposten in scenario 2")
 
  We hebben nu het concept bekeken voor het toewijzen van Boekingsdatums aan waardeposten die worden gemaakt door de batchverwerking Kostprijs herwaarderen - Artikelposten.  
 
@@ -82,15 +82,15 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 
  In de vorige sectie, waar het concept van het toewijzen van boekingsdatums wordt besproken, is het de bedoeling van de batchverwerking Kostprijs herwaarderen - Artikelposten een waardepost te maken met de boekingsdatum 10 september.  
 
-![Foutbericht over boekingsdatum](media/helene/TechArticleAdjustcost6.png "Foutbericht over boekingsdatum")
+![Foutbericht over boekingsdatum.](media/helene/TechArticleAdjustcost6.png "Foutbericht over boekingsdatum")
 
  We gaan door op de gebruikersinstelling:  
 
-![Instelling van toegestane boekingsdatums van gebruiker](media/helene/TechArticleAdjustcost7.png "Instelling van toegestane boekingsdatums van gebruiker")
+![Instelling van toegestane boekingsdatums van gebruiker.](media/helene/TechArticleAdjustcost7.png "Instelling van toegestane boekingsdatums van gebruiker")
 
  De gebruiker heeft in dit geval een toegestane boekingsdatumreeks van 11 september tot 30 september en mag daardoor de herwaarderingswaardepost niet boeken met boekingsdatum 10 september.  
 
-![Overzicht van betrokken instelling van boekingsdatum](media/helene/TechArticleAdjustcost8.png "Overzicht van betrokken instelling van boekingsdatum")
+![Overzicht van betrokken instelling van boekingsdatum.](media/helene/TechArticleAdjustcost8.png "Overzicht van betrokken instelling van boekingsdatum")
 
  Knowledge Base-artikel [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) bespreekt meer scenario's in verband met het genoemde foutbericht.  
 
@@ -173,9 +173,9 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 
  De volgende artikel- en waardeposten zijn geboekt:  
 
-![Overzicht van resulterende artikel- en waardeposten 1](media/helene/TechArticleAdjustcost9.png "Overzicht van resulterende artikel- en waardeposten 1")
+![Overzicht van resulterende artikel- en waardeposten 1.](media/helene/TechArticleAdjustcost9.png "Overzicht van resulterende artikel- en waardeposten 1")
 
- ![Overzicht van resulterende artikel- en waardeposten 2](media/helene/TechArticleAdjustcost10.png "Overzicht van resulterende artikel- en waardeposten 2")
+ ![Overzicht van resulterende artikel- en waardeposten 2.](media/helene/TechArticleAdjustcost10.png "Overzicht van resulterende artikel- en waardeposten 2")
 
  De batchverwerking Kostprijs herwaarderen - Artikelposten heeft een wijziging in kosten herkend en de negatieve herwaarderingen aangepast.  
 
@@ -290,7 +290,7 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 
      Ontvangst en factuur boeken.  
 
-     ![Overzicht van resulterende artikel- en waardeposten 3](media/helene/TechArticleAdjustcost11.png "Overzicht van resulterende artikel- en waardeposten 3")
+     ![Overzicht van resulterende artikel- en waardeposten 3.](media/helene/TechArticleAdjustcost11.png "Overzicht van resulterende artikel- en waardeposten 3")
 
 6.  Op werkdatum 3 januari arriveert een inkoopfactuur met een aanvullende artikeltoeslag bovenop de inkoop die in stap 2 is gedaan. Deze factuur heeft documentdatum 30 december en is dus geboekt met boekingsdatum 30 december 2013.  
 
@@ -314,11 +314,11 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 
      Ontvangst en factuur boeken.  
 
-   ![Overzicht van resulterende artikel- en waardeposten 4](media/helene/TechArticleAdjustcost12.png "Overzicht van resulterende artikel- en waardeposten 4")
+   ![Overzicht van resulterende artikel- en waardeposten 4.](media/helene/TechArticleAdjustcost12.png "Overzicht van resulterende artikel- en waardeposten 4")
 
  Het rapport Voorraadwaardering wordt afgedrukt vanaf 31 december 2013  
 
-![Inhoud van het voorraadwaarderingsrapport](media/helene/TechArticleAdjustcost13.png "Inhoud van het voorraadwaarderingsrapport")
+![Inhoud van het voorraadwaarderingsrapport.](media/helene/TechArticleAdjustcost13.png "Inhoud van het voorraadwaarderingsrapport")
 
  **Overzicht van scenario:**  
 
@@ -341,7 +341,7 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** bepaalt of de oors
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Historie van batchverwerking Voorraadwaarde boeken.  
  De batchverwerking Voorraadwaarde boeken is nauw verbonden met de batchverwerking Kostprijs herwaarderen - Artikelposten. Daarom wordt de historie van deze batchverwerking hier ook samengevat en gedeeld.  
  
-![Werkelijke kosten versus verwachte kosten](media/helene/TechArticleAdjustcost14.png "Werkelijke kosten versus verwachte kosten")
+![Werkelijke kosten versus verwachte kosten.](media/helene/TechArticleAdjustcost14.png "Werkelijke kosten versus verwachte kosten")
 
 ### <a name="about-the-posting-date"></a>Over de boekingsdatum
  Er hoeft geen boekingsdatum meer te worden vermeld in het aanvraagformulier van de batchverwerking Voorraadwaarde boeken. De grootboekpost wordt gemaakt met dezelfde boekingsdatum als de gerelateerde waardepost. Als u de batchverwerking wilt voltooien, moet het toegestane boekingsdatumbereik de boekingsdatum van de gemaakte grootboekpost toestaan. Als dit niet het geval is, moet de toegestane boekingsdatumreeks tijdelijk opnieuw worden geopend door de datums in het veld Boeken toegest. vanaf en tot in Boekhoudinstellingen te wijzigen of te verwijderen. Om reconciliatieproblemen te voorkomen is het vereist dat de boekingsdatum van de grootboekpost correspondeert met de boekingsdatum van de waardepost.  

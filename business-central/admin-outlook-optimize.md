@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 24718b65fe5a5795d2a5a92a20fe4eb32aa4b2ac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6064868"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437503"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Outlook optimaliseren voor uw bedrijfsinbox 
 
@@ -50,7 +50,7 @@ Om te controleren of u Microsoft Edge WebView2 hebt geïnstalleerd op een comput
 
 Vanuit het startmenu:
 
-1. Kies **Start** ![Windows Start](media/windows-start-icon.png "Pictogram Windows Start") > **Instellingen** ![Windows-instellingen](media/windows-settings-icon.png "Pictogram Windows-instellingen") > **Apps en functies**.
+1. Kies **Start** ![Windows start.](media/windows-start-icon.png "Pictogram Windows Start") > **Instellingen** ![Windows-instellingen](media/windows-settings-icon.png "Pictogram Windows-instellingen") > **Apps en functies**.
 2. Typ **WebView2** in het zoekvak. Als Microsoft Edge WebView2 is geïnstalleerd, ziet u een item met de naam **Microsoft Edge WebView2 Runtime**.
 
 Vanuit het Configuratiescherm:

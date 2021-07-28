@@ -1,5 +1,5 @@
 ---
-title: Leveranciers voor automatische betalingsvoorstellen instellen (BE)
+title: Leveranciers voor automatische betalingsvoorstellen instellen [BE]
 description: U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier automatisch worden opgenomen in betalingsvoorstellen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 84778eba9db5e354dea35cb5bc1a167044a23b7d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 029b4c6331aff5151a591d8dfd17329fbf77591d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775726"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437829"
 ---
-# <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Leveranciers voor automatische betalingsvoorstellen instellen
+# <a name="set-up-vendors-for-automatic-payment-suggestions-in-the-belgian-version"></a>Leveranciers voor automatische betalingsvoorstellen instellen in de Belgische versie
 
 U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier automatisch worden opgenomen in betalingsvoorstellen. Voor elke leverancier moet u bepalen of er automatisch betalingsvoorstellen moeten worden gegenereerd. Als u geen betalingsvoorstellen voor een leverancier wilt genereren, schakelt u het selectievakje **Betalingen voorstellen** niet in. In dat geval worden de openstaande posten voor de leverancier niet opgenomen in betalingsvoorstellen.  
 
 ## <a name="to-set-up-a-vendor-to-be-included-in-the-payment-suggestion-batch"></a>Instellen dat een leverancier wordt opgenomen in de betalingsvoorstelbatch  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Leveranciers** een relevante leverancier en kies de actie **Bewerken**.  
 3. Schakel het selectievakje **Betalingen voorstellen** in.  
 

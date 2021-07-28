@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8390c95083eb02c208e97f0309a725e8ec4d7730
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ee6cdceb716331e2d8338e178def4b8b1e5cfe8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778584"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436713"
 ---
 # <a name="set-up-shipment-methods"></a>Verzendmethoden instellen
 
@@ -25,7 +25,7 @@ U stelt de omschrijving en de code voor elke verzendmethode in op de pagina **Ve
 
 ## <a name="to-set-up-a-shipment-method"></a>Een verzendwijze instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendmethoden** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzendmethoden** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Verzendmethoden** de actie **Nieuw**.
 3. Geef op de nieuwe regel een code en omschrijving op voor de verzendwijze.
 

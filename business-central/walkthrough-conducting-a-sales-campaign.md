@@ -1,6 +1,6 @@
 ---
 title: 'Procedure: Een verkoopcampagne uitvoeren'
-description: Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zijn betrokken. Een belangrijk deel van het opzetten van een campagne bestaat uit het selecteren van de doelgroep voor de campagne. In Business Central maakt u hiervoor met behulp van filters een segment, oftewel een groep contacten.
+description: Dit overzicht geeft een gedetailleerd overzicht van alle taken die betrokken zijn bij het uitvoeren van een verkoopcampagne in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
-ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
+ms.openlocfilehash: 63e2c298c7830fb993c99587a0b7475d1ece7223
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102445"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437849"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procedure: Een verkoopcampagne uitvoeren
 
@@ -69,7 +69,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 
 ### <a name="to-set-up-a-campaign"></a>Een campagne instellen  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Campagnes** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Campagnes** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** om een nieuwe campagne te maken. Ga naar de campagnekaart en druk op **Enter** om automatisch een campagnenummer in te voegen.  
 3. Geef in het veld **Omschrijving** een omschrijving op voor de campagne, bijvoorbeeld **Office Futurus-beurs**.  
 4. Kies het veld **Statuscode** en selecteer de statuscode "1-PLAN". 
@@ -161,11 +161,11 @@ De marketingmanager besluit dat de gereduceerde lijst de definitieve lijst met c
 
 De bijlagen worden verzonden. Wanneer het proces is voltooid, kiest u de knop **OK** voor het bericht dat aangeeft dat het segment is geregistreerd.  
 
- De brieven worden automatisch afgedrukt en het segment wordt geregistreerd. Omdat het segment is geregistreerd, staat het niet langer in de lijst met segmenten maar is het verplaatst naar de lijst met geregistreerde segmenten. Als u die lijst wilt zien, kiest u het ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geregistreerde segmenten** in en kiest u de desbetreffende koppeling.  
+ De brieven worden automatisch afgedrukt en het segment wordt geregistreerd. Omdat het segment is geregistreerd, staat het niet langer in de lijst met segmenten maar is het verplaatst naar de lijst met geregistreerde segmenten. Als u die lijst wilt zien, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geregistreerde segmenten** in en kies vervolgens de gerelateerde koppeling.  
 
 Nadat het segment is geregistreerd, wordt elke brief die wordt verzonden geregistreerd als een interactie, die u in het logboek kunt bekijken.  
 
-Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interactielogposten** in en kies de desbetreffende koppeling. Er is een vermelding voor elke verzonden brief.  
+Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interactielogposten** in en kies vervolgens de gerelateerde koppeling. Er is een vermelding voor elke verzonden brief.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Een e-mailbericht verzenden naar een contactpersoon  
 
@@ -178,7 +178,7 @@ Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/sear
 7. Schakel het selectievakje **Opvolgingssegm. maken** in.  
 8. Kies de knop **OK**.  
 
- De brieven worden automatisch per e-mail verzonden en het segment wordt geregistreerd. Omdat het segment is geregistreerd, staat het niet langer in de lijst met segmenten maar is het opgeslagen in de lijst met geregistreerde segmenten. Als u die lijst wilt zien, kiest u het ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geregistreerde segmenten** in en kiest u de desbetreffende koppeling.  
+ De brieven worden automatisch per e-mail verzonden en het segment wordt geregistreerd. Omdat het segment is geregistreerd, staat het niet langer in de lijst met segmenten maar is het opgeslagen in de lijst met geregistreerde segmenten. Als u die lijst wilt zien, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geregistreerde segmenten** in en kies vervolgens de gerelateerde koppeling.  
 
 ## <a name="registering-campaign-responses"></a>Campagnerespons vastleggen
 

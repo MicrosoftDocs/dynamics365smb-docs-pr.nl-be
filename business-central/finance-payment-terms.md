@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 82c60333f038f647fa4c9c2bbd68019b9c1f8026
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10ae5c1932e21b452efd41a1212f1840101a277b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783809"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437328"
 ---
 # <a name="set-up-payment-terms"></a>Betalingscondities instellen
 
@@ -28,7 +28,7 @@ Als u uw klanten herinneringen wilt sturen over achterstallige betalingen, moet 
 
 ## <a name="to-set-up-payment-terms"></a>Betalingscondities instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsvoorwaarden** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsvoorwaarden** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Nadat u de betalingscondities hebt ingesteld, wijst u deze toe aan klanten en leveranciers. Wijs eventueel betalingsvoorwaarden toe aan uw betalingsmethoden.  

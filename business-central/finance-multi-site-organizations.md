@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087681"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437378"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central voor organisaties met meerdere vestigingen en internationale organisaties
 Organisaties met meerdere vestigingen gebruiken vaak een hub en spoke-bedrijfsmodel waarbij een moedermaatschappij of hoofdkantoor de algehele activiteiten van het bedrijf beheert, terwijl elke vestiging fungeert als een enkele, op zichzelf staande entiteit. Vestigingen zijn vaak geografisch verspreid en hebben verschillende behoeften wat betreft het delen van informatie met het hoofdkantoor. Bovendien hebben vestigingen doorgaans niet hetzelfde niveau van complexiteit nodig en hebben ze vaak niet de middelen om een groot systeem te onderhouden.
@@ -30,7 +30,7 @@ In dit artikel worden enkele manieren besproken waarop [!INCLUDE[prod_short](inc
 
 Het volgende diagram biedt een voorbeeld van verschillende vestiging die zijn geïntegreerd met een hoofdkantoor.
 
-![Diagrambeschrijving automatisch gegenereerd](media/multisite-headquarter-sites.png)
+![Diagrambeschrijving automatisch gegenereerd.](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Voldoen aan de behoeften van binnenlandse en internationale vestigingen
 
@@ -101,7 +101,7 @@ Vestigingen hebben vaak toegang nodig tot de toeleveringsketen en de mogelijkhei
 
 Het hoofdkantoor moet snel kunnen reageren op bedrijfsveranderingen bij elke vestiging. Gecombineerd met Power Automate kan [!INCLUDE[prod_short](includes/prod_short.md)] dienen als een mechanisme voor vroegtijdige waarschuwing.
 
-![Een schermafbeelding waarbij een beschrijving van een bericht op sociale media automatisch wordt gegenereerd](media/multisite-apps.png)
+![Een schermafbeelding waarbij een beschrijving van een bericht op sociale media automatisch wordt gegenereerd.](media/multisite-apps.png)
 
 | **Bedrijfsvereiste** | **Hoe Business Central deze ondersteunt** | **Meer informatie** |
 |-------------------------|-------------------------|-------------------------|

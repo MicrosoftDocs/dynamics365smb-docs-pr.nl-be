@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e3926db3bcc1b34e2f75e6b338a86f2ddc2c20b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4849f1a1b6c802a597ff9a70abfb8133f85baed0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783371"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438017"
 ---
 # <a name="customize-pages-for-profiles"></a>Pagina's aanpassen voor profielen
 Gebruikers kunnen pagina's die hun werkruimte vormen, aan hun eigen voorkeuren aanpassen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
@@ -25,7 +25,7 @@ Beheerders kunnen pagina's voor een profiel aanpassen, bijvoorbeeld op basis van
 Pagina-aanpassing begint vanaf de pagina **Profielen (rollen)**, het startpunt van de beheerder voor het beheren van gebruikersprofielen op individuele profielkaarten. Naast het aanpassen van de pagina-indeling kunt u verschillende andere instellingen voor profielen kiezen op de pagina **Profiel (rol)** voor elk profiel. Zie [Profielen beheren](admin-users-profiles-roles.md) voor meer informatie.
 
 ## <a name="to-customize-pages-for-a-profile"></a>Pagina's aanpassen voor een profiel
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Profielen (rollen)** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Profielen (rollen)** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel voor het profiel waarvoor u pagina's wilt aanpassen en kies de actie **Bewerken**.
 3. Kies de actie **Pagina's aanpassen**.
 

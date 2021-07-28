@@ -1,6 +1,6 @@
 ---
-title: Servicecontracten opstellen | Microsoft Docs
-description: Leer hoe u servicecontracten opstelt.
+title: Servicecontracten instellen
+description: Leer hoe u servicecontracten met vereisten instelt, waaronder servicecontractgroepen, contractsjablonen en klantsjablonen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 216bbd775c66fca619d792ff578d198405fc7612
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 65bee9492ebf24eb90ef8b22025a09e36d3602fa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781543"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436588"
 ---
 # <a name="set-up-service-contracts"></a>Servicecontracten instellen
 Voordat u met contracten kunt werken, moet u het volgende instellen: 
@@ -26,19 +26,19 @@ Voordat u met contracten kunt werken, moet u het volgende instellen:
 * **Klantensjablonen** waarmee u offertes voor contacten of potentiële klanten kunt maken die niet als klant zijn geregistreerd in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Servicecontractgroepen instellen  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontractgroepen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicecontractgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Schakel het selectievakje **Alleen kort. op contr.-orders** in als u wilt dat contract- of servicekortingen alleen geldig zijn voor contractserviceorders, zoals onderhoud.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Servicecontractboekingsgroepen instellen  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontractboekingsgroepen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicecontractboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe servicecontractboekingsgroep.   
 3. Vul de velden **Code** en **Omschrijving** in. Met deze velden wordt de servicecontractboekingsgroep omschreven.  
 4. Vul het veld **Niet-vooruitbetaalde contractenrekening** in. Kies het nummer van de niet-vooruitbetaalde grootboekrekening.  
 5. Kies in het veld **Vooruitbetaalde contractenrekening** het nummer van de vooruitbetaalde grootboekrekening.  
 
 ## <a name="to-set-up-a-contract-template"></a>Contractsjablonen instellen  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontractsjablonen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontractsjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe servicecontractsjabloon.  
 3. Selecteer in het veld **Nr.** een nummer voor de contractsjabloon.  
   
@@ -48,7 +48,7 @@ Voordat u met contracten kunt werken, moet u het volgende instellen:
 5. Kies de actie **Servicekortingen** om contractkortingen toe te voegen.  
 
 ## <a name="to-set-up-a-customer-template"></a>Klantsjablonen instellen  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klantsjablonen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klantensjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe klantensjabloonkaart.  
 3. Typ op het sneltabblad **Algemeen** een code en omschrijving voor de klantensjabloonkaart in de velden **Code** en **Omschrijving**. 
 4. Als u zoekcriteria wilt opgeven, vult u de andere velden in, zoals **Land-/regiocode**, **Regio** en **Taal**.  

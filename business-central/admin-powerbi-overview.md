@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a1d0d0403798f8cd2af6b29249f01f529fb789be
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: b1328b618761a33d3dc0856c7623bd986008d283
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935248"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437453"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI-integratieonderdeel en architectuuroverzicht voor [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -42,19 +42,19 @@ In de volgende tabel worden de beschikbare functies beschreven.
 |Ingesloten gedeelte voor het weergeven van een bepaald rapport in een feitenblok in [!INCLUDE[prod_short](includes/prod_short.md)]|Beide. Vereist configuratie om rapporten weer te geven voor on-premises.|
 |Power BI-rapportbeheer vanuit [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Standaard Power BI-rapporten in rolcentra die zijn geïmplementeerd in Power BI|Online|
-|Power BI-apps in Microsoft AppSource|Online.|
+|Power BI-apps in Microsoft AppSource|Online|
 
 ## <a name="architecture"></a>Architectuur
 
-[!INCLUDE[prod_short](includes/prod_short.md)] kan worden geïntegreerd met Power BI via een connector die OData gebruikt. De gegevensbron voor Power BI-rapporten wordt beschikbaar gemaakt in de vorm van OData-webservices.
+[!INCLUDE[prod_short](includes/prod_short.md)] kan worden geïntegreerd met Power BI via een connector die OData gebruikt. De gegevensbron voor Power BI-rapporten wordt beschikbaar gemaakt in de vorm van API-pagina's en OData-webservices.
 
-![Power BI-architectuur voor integratie met Business Central](./media/power-bi-architecture.png)
+![Power BI-architectuur voor integratie met Business Central.](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Algemene stroom
 
 In het volgende diagram wordt de basiswerkstroom voor gebruikers getoond wanneer ze [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met Power BI.
 
-![Power BI-werkstroom voor integratie met Business Central](./media/power-bi-flow.png)
+![Power BI-werkstroom voor integratie met Business Central.](./media/power-bi-flow.png)
 
 1. Gebruiker meldt zich aan voor een Power BI-account.
 2. Gebruiker maakt verbinding met Power BI vanuit [!INCLUDE[prod_short](includes/prod_short.md)].

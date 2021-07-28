@@ -1,6 +1,6 @@
 ---
-title: Over kostenboekhouding | Microsoft Docs
-description: Kostprijsboekhouding kan u helpen begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf.
+title: Kostprijsboekhouding
+description: Kostprijsboekhouding kan u helpen begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Gegevens van de kostprijsboekhouding zijn gemaakt om verschillende problemen te analyseren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ba956c883c567e7acc2cd625d8d5e51d94ee753
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 461bdff64d785291923fe5f954887eb052805124
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784927"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436285"
 ---
 # <a name="about-cost-accounting"></a>Kostprijsboekhouding
 Kostprijsboekhouding kan u helpen begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Gegevens van de kostprijsboekhouding zijn gemaakt om het volgende te analyseren:  
@@ -37,7 +37,7 @@ kostprijsboekhouding heeft de volgende hoofdonderdelen:
 
 Het volgende diagram toont de werkstroom in kostprijsboekhouding.  
 
-![Overzicht van kostprijsboekhouding](media/costaccountingoverview.png "CostAccountingOverview")  
+![Overzicht van kostprijsboekhouding.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostensoorten, kostenplaatsen en kostenobjecten  
 U definieert kostensoorten, kostenplaatsen en kostenobjecten als u wilt analyseren wat de kosten zijn, waar de kosten vandaan en wie de kosten moet dragen.  

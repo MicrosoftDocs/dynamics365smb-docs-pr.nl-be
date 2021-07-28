@@ -1,6 +1,6 @@
 ---
 title: Een sandboxomgeving maken
-description: Maak een omgeving voor verkennen, leren, demonstreren, ontwikkelen en testen vanuit Business Central.
+description: Maak een sandboxomgeving voor verkennen, leren, demonstreren, ontwikkelen, problemen oplossen en testen vanuit Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 06/08/2021
 ms.author: solsen
-ms.openlocfilehash: a76ae33815b8e9368f45b72fd8703bfc47cbd079
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2f4ca6a98aac49fa5fea7d8658ef51a9510c97d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215640"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437689"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Een sandboxomgeving maken in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -30,8 +30,8 @@ Uw beheerder beheert sandboxomgevingen in het [beheercentrum](/dynamics365/busin
 
 1. Meld u aan bij uw productie-exemplaar van [!INCLUDE[prod_short](includes/prod_short.md)].
 
-2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Sandboxomgeving** in en kies de gerelateerde koppeling.
-    <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Sandboxomgeving** in en kies vervolgens de gerelateerde koppeling.
+    <!-- ![Sandbox Environment Setup.](./media/across-sandbox/sandbox-environment-setup.png) -->
 3. Kies de knop **Maken**.  
 
     Er wordt een ander tabblad met [!INCLUDE[prod_short](includes/prod_short.md)] geopend, waar u de installatie van uw sandbox-omgeving kunt voltooien.
@@ -40,12 +40,12 @@ Uw beheerder beheert sandboxomgevingen in het [beheercentrum](/dynamics365/busin
     >  Als u pop-upblokkering hebt ingeschakeld in uw browser, wijzigt u deze om URL's van het adres *.businesscentral.dynamics.com toe te staan.
 
 Wanneer de sandboxomgeving gereed is, wordt u omgeleid naar de welkomstwizard van de sandboxomgeving.
-<!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
+<!-- ![Sandbox Welcome Wizard.](./media/across-sandbox/sandbox-wizard.png) -->
 
 U kunt de knop **Meer informatie** kiezen om te lezen over ontwikkelaarsscenario's die u in een sandboxomgeving kunt proberen of kies de knop **Sluiten** om door te gaan naar het rolcentrum van uw [!INCLUDE[prod_short](includes/prod_short.md)]-sandboxexemplaar.
 
 Boven in het rolcentrum verschijnt een bericht om u te laten weten dat dit een sandboxomgeving is. Ook in de titelbalk van de client wordt de soort omgeving weergegeven.
-    <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
+    <!-- ![Sandbox RoleCenter Notification.](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
 > [!NOTE]
 > Een sandbox-omgeving die op deze manier is gemaakt, bevat alleen de standaarddemonstratiegegevens voor het CRONUS-bedrijf. Er worden geen gegevens gekopieerd of anderszins overgedragen vanuit de productieomgeving.
@@ -53,11 +53,11 @@ Boven in het rolcentrum verschijnt een bericht om u te laten weten dat dit een s
 > U kunt ook een sandbox-omgeving maken op basis van productiegegevens. U moet dit doen via het beheercentrum. Zie voor meer informatie [Omgevingen beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in de ontwikkelaar- en beheercontent.  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
-    ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
+    ![Sandbox Dynamics365 Menu.](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
 Een beheerder kan voor sommige gebruikers de toegang tot de sandboxomgeving beperken of zelfs blokkeren. Dit kunt u doen met de standaardbeveiligingsfuncties van het product, zoals de gebruikerskaart, gebruikersgroepen en machtigingensets. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.  
 
-<!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
+<!-- ![Sandbox Permission Sets.](./media/across-sandbox/sandbox-permission-sets.png) -->
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Geavanceerde functionaliteit in de sandboxomgeving
 
@@ -69,9 +69,9 @@ De sandboxomgeving is onder andere nuttig omdat deze een aantal handige functies
 
 ### <a name="advanced-user-experience"></a>Geavanceerde gebruikerservaring
 
-Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen":::.  
+Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen.":::    
 
-Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq.yml#findpartner) voor meer informatie.  
+Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook een evaluatiebedrijf maken dat volledig is ingesteld, inclusief demonstratiegegevens en toegang tot de geavanceerde gebieden van het product. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.yml#how-do-i-find-a-reselling-partner) voor meer informatie.  
 
 ### <a name="complete-sample-data"></a>Volledige voorbeeldgegevens
 
@@ -80,7 +80,7 @@ Neem voor situaties waarin u aanvullende voorbeeldgegevens nodig heeft, contact 
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Een bedrijf maken met volledige voorbeeldgegevens in een sandbox
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijven** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijven** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en kies vervolgens **Nieuw bedrijf maken**.  
 3. Kies op de pagina **Begeleide instelling voor het maken van een bedrijf** **Volgende**.  
 4. Geef een naam op voor het nieuwe bedrijf en kies vervolgens in het veld **Selecteer de gegevens en de instelling om aan de slag te gaan** **Geavanceerde evaluatie - volledige voorbeeldgegevens**.  
@@ -90,11 +90,11 @@ Wanneer de begeleide instelling is voltooid, kunt u beginnen met het verkennen v
 
 ### <a name="designer"></a>Ontwerper
 
-In een sandboxomgeving is de **Ontwerper** ingeschakeld. U kunt de Ontwerper activeren door het ontwerppictogram ![Ontwerper](./media/across-sandbox/sandbox-inclient-design-icon.png) te selecteren op een pagina of door de menuoptie **Ontwerp** te kiezen in het menu ![Instellingen](media/ui-experience/settings_icon_small.png).  
+In een sandboxomgeving is de **Ontwerper** ingeschakeld. U kunt Designer activeren door het ontwerppictogram te selecteren ![Ontwerper](./media/across-sandbox/sandbox-inclient-design-icon.png) op een pagina of door het menu-item **Ontwerp** te kiezen in het menu ![Instellingen](media/ui-experience/settings_icon_small.png) Instellingen.  
 
 Voor meer informatie zie [Designer gebruiken](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) in de inhoud voor ontwikkelaars en beheerders (alleen in het Engels).  
 
-<!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
+<!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ## <a name="see-also"></a>Zie ook
 

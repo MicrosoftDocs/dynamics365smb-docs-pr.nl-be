@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 50c0a9836a45bac0dfd4a190040c908d28d5617f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115473"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436838"
 ---
 # <a name="print-the-picking-list"></a>De picklijst afdrukken
 
@@ -27,7 +27,7 @@ Dit rapport wordt doorgaans gebruikt in bedrijven zonder speciale functionalitei
 
 De volgende procedure is gebaseerd op een verkooporder. De stappen zijn vergelijkbaar voor alle andere verkoopdocumenten die kunnen worden gebruikt om de verzending van artikelen te starten, zoals een transferorder.
 
-1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Verkooporders** in en kies de desbetreffende koppeling.  
+1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de verkooporder waarvoor u artikelen wilt picken.  
 3. Kies de actie **Rapporteren** en kies vervolgens de actie **Picklijst per order**.  
 4. Kies de knop **Afdrukken** om de picklijst af te drukken of kies de knop **Voorbeeld** om deze op het scherm weer te geven.
