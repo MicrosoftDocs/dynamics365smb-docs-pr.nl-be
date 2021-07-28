@@ -1,19 +1,19 @@
 ---
-title: Projecttaken die resources en urenstaten gebruiken | Microsoft Docs
-description: Hier wordt beschreven hoe u resources, urenstaten en taken gebruikt om projecten te beheren.
+title: Projecttaken die resources en urenstaten gebruiken
+description: In dit onderwerp wordt beschreven hoe u resources, urenstaten en taken gebruikt om projecten en hun budgetten te beheren.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2dbe4a82f6cc2e9f28fbd06a3f235d9630a75cca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780344"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321101"
 ---
 # <a name="project-management"></a>Projectbeheer
 In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u algemene taken voor projectbeheer uitvoeren, zoals het configureren van een project en het plannen van een resource, alsmede het verstrekken van de informatie die nodig is voor het beheren van budgetten en het bijhouden van de voortgang. U kunt machine- en werknemeruren voor het project bijhouden door gebruik te maken van urenstaten. Als projectbeheerder hebt u een goed overzicht niet alleen van afzonderlijke projecten, maar ook van de toewijzing van werknemers, machines en andere bronnen die worden gebruikt in alle projecten.

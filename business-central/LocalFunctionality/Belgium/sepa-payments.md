@@ -1,6 +1,6 @@
 ---
-title: SEPA-betalingen
-description: SEPA (Single Euro Payments Area) verenigt de betalingsmethoden in deelnemende Europese landen. Hierdoor worden internationale betalingen even gemakkelijk te verwerken als binnenlandse betalingen. Ongeacht de locatie, kunnen Europese burgers en bedrijven betalingen in euro's verrichten en ontvangen, binnen of buiten nationale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen.
+title: SEPA-betalingen [BE]
+description: Single Euro Payments Area (SEPA) verenigt de betalingsmethoden in deelnemende Europese landen waardoor zodat internationale betalingen even gemakkelijk te verwerken worden als binnenlandse betalingen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 0f247774006e8373052e92f52d6d9a1a79a48918
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: 3dd5ddc0237008553894cb47f5fc9d78007b7531
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889109"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323503"
 ---
-# <a name="sepa-payments"></a>SEPA-betalingen
+# <a name="sepa-payments-in-the-belgian-version"></a>SEPA-betalingen in de Belgische versie
 SEPA (Single Euro Payments Area) verenigt de betalingsmethoden in deelnemende Europese landen. Hierdoor worden internationale betalingen even gemakkelijk te verwerken als binnenlandse betalingen. Ongeacht de locatie, kunnen Europese burgers en bedrijven betalingen in euro's verrichten en ontvangen, binnen of buiten nationale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen.  
 
 ## <a name="see-also"></a>Zie ook

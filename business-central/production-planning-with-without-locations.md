@@ -1,6 +1,6 @@
 ---
-title: Planning met of zonder vestigingen | Microsoft Docs
-description: Het is belangrijk dat u planningen met of zonder vestigingscodes op vraagregels begrijpt.
+title: Planning met of zonder vestigingen
+description: In dit onderwerp leert u over productie en fabricage, inclusief leveringsplanning, in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b182a66984ea0345e7f33e1292839d1ecfad4bfd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4f67eab27c95e4786b8f1d5949d678105ea21999
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787564"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319161"
 ---
 # <a name="planning-with-or-without-locations"></a>Planning met of zonder vestigingen
 Ten aanzien van de planning met of zonder vestigingscodes op vraagregels, werkt het planningssysteem eenvoudig en duidelijk wanneer:  

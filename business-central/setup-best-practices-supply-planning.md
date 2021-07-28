@@ -1,6 +1,6 @@
 ---
-title: 'Aanbevolen procedures instellen: Voorraadplanning | Microsoft Docs'
-description: Voorraadplanning is essentieel zakelijk gebied. Wanneer voorraadplanning goed is ingesteld en wordt gebruikt, helpt het een bedrijf nulvoorraad te voorkomen en zowel bestelkosten als voorraadkosten te reduceren.
+title: 'Aanbevolen procedures instellen: Voorraadplanning'
+description: Wanneer voorraadplanning goed is ingesteld en wordt gebruikt, helpt het een bedrijf nulvoorraad te voorkomen en zowel bestelkosten als voorraadkosten te reduceren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c583598038a1c79c0bba32aec24363a56b2830e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778059"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320043"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Aanbevolen procedures instellen: Voorraadplanning
 Voorraadplanning is essentieel zakelijk gebied. Wanneer voorraadplanning goed is ingesteld en wordt gebruikt, helpt het een bedrijf nulvoorraad te voorkomen en zowel bestelkosten als voorraadkosten te reduceren.  

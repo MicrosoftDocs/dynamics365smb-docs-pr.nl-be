@@ -1,6 +1,6 @@
 ---
-title: CODA-bankafschriften
-description: CODA (geCOdeerd DAgafschrift) is een nationale bankstandaard, ontworpen door de Belgische Vereniging van Banken, waarmee elektronische bankafschriften automatisch kunnen worden verwerkt.
+title: Belgische CODA-bankafschriften [BE]
+description: CODA (geCOdeerd DAgafschrift) is een nationale bankstandaard, ontworpen door de Belgische Vereniging van Banken, om elektronische bankafschriften automatisch te verwerken.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 86b2be248c852482ec87e336ddd7ce9249926197
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 50e2690f6534e11be8cfb96c2f016ab4c63332e5
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771492"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318892"
 ---
-# <a name="coda-bank-statements"></a>CODA-bankafschriften
+# <a name="belgian-coda-bank-statements-in-the-belgian-version"></a>Belgische CODA-bankafschriften in de Belgische versie
 CODA (geCOdeerd DAgafschrift) is een nationale bankstandaard, ontworpen door de Belgische Vereniging van Banken, waarmee elektronische bankafschriften automatisch kunnen worden verwerkt.  
 
 Aan elke soort transactie in een CODA-afschrift wordt een unieke code toegewezen. [!INCLUDE[prod_short](../../includes/prod_short.md)] gebruikt deze code om transacties te interpreteren en deze te vereffenen met de betreffende posten.  

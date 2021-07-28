@@ -1,6 +1,6 @@
 ---
 title: Belgische btw
-description: Met Belgische uitbreidingen van de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken.
+description: Met Belgische uitbreidingen van de btw-rapportagefunctie kunt u eenvoudig btw-transactiedetails afdrukken.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 32bbc821fb3b8182b6999f5c65188ee4cfb3acb0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f6a0190405b0ba08155e30385fca009905ba4c89
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771503"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318904"
 ---
 # <a name="belgian-vat"></a>Belgische btw
 [!INCLUDE[prod_short](../../includes/prod_short.md)] bevat Belgische uitbreidingen op de btw-rapportagefunctie waarmee u btw-transactiedetails kunt afdrukken. U moet de volgende rapporten aan de Belgische belastingdienst versturen:  

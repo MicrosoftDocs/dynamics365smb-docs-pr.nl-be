@@ -1,21 +1,21 @@
 ---
 title: Reageren op aanvragen over persoonlijke gegevens
-description: U moet reageren op aanvragen van gegevensonderwerpen.
+description: In dit onderwerp leest u hoe u kunt reageren op verzoeken over persoonlijke gegevens. Dit wordt een aanvraag van een gegevensonderwerp genoemd.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: b7762f9da2a6e3acfbd57a4b5af4806ead710c9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777393"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321974"
 ---
-# <a name="responding-to-requests-about-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens  
+# <a name="responding-to-requests-about-users-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens van gebruikers  
 Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt geclassificeerd en zeker weet dat deze correct zijn, kan een beheerder op verzoeken reageren met behulp van de opties onder het tabblad **Gegevensprivacy** in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[prod_long](includes/prod_long.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Soorten aanvragen

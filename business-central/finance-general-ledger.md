@@ -1,6 +1,6 @@
 ---
-title: Leren over grootboek en COA| Microsoft Docs
-description: Beschrijft het grootboek, het rekeningschema en rekeningcategorieën.
+title: Het grootboek en rekeningschema begrijpen
+description: Beschrijft het grootboek, het rekeningschema en rekeningcategorieën. Gebruik de pagina Grootboekinstellingen om op te geven hoe boekhoudkwesties in uw bedrijf worden afgehandeld.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f242bce26f55fe446ac8dc96335a8da835dd259c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774017"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321126"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Het grootboek en COA begrijpen
 
@@ -58,19 +58,29 @@ U maakt een categoriegroep door andere subcategorieën onder een regel te laten 
 
 U kunt opgeven of de rekeningen in elke subcategorie moeten worden opgenomen in bepaalde soorten rapporten. De rekeningcategorieën helpen de indeling te definiëren van uw financiële overzichten.  
 
-Het standaardsaldo-overzicht heeft bijvoorbeeld één subcategorie voor Kas onder Huidige activa. Als u wilt dat kleine kas en de betaalrekening worden meegenomen in het saldo-overzicht, kunt u het volgende doen:  
+### <a name="example"></a>Voorbeeld
 
-1. Voeg twee nieuwe subcategorieën toe. Een voor kleine kas en een voor uw betaalrekening.  
+Het standaardsaldo-overzicht heeft bijvoorbeeld één subcategorie voor *Kas* onder *Huidige activa*. U wilt dat het saldo-overzicht rekening houdt met kleingeld en cheques, dus onderneemt u de volgende stappen:  
+
+1. Voeg twee nieuwe subcategorieën toe:
+
+    * Een voor kleingeld  
+    * Een voor uw betaalrekening  
 2. Geef de extra rapportdefinitie **Kasrekeningen** voor deze subcategorieën op.  
 3. Laat ze inspringen onder de subcategorie **Kas**.  
 
 De volgende keer dat u rapportageschema's genereert, bevat uw saldo-overzicht een totaalsaldo voor kas en twee regels met saldi voor kleine kas en de betaalrekening.  
+
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Toegang om accounts en accountcategorieën te maken en te bewerken
+
+In een kleine organisatie, zoals het CRONUS-demonstratiebedrijf, kunnen de meeste gebruikers het rekeningschema bewerken, behalve gebruikers met een TEAMLID-licentie. In grotere organisaties wordt de toegang om het rekeningschema te bewerken echter beperkt door rollen en machtigingen. Als u een beheerder bent of de rol *Bedrijfsmanager* of *Accountant* hebt, kunt u de machtigingen voor alle gebruikers controleren om er zeker van te zijn dat de juiste mensen toegang hebben tot de relevante tabellen. Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>Zie ook
 
 [Financiën](finance.md)  
 [De rekeningschema's instellen of wijzigen](finance-setup-chart-accounts.md)  
 [Bedrijfsinformatie](bi.md)  
+[Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

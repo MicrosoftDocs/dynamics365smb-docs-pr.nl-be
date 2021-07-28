@@ -1,5 +1,5 @@
 ---
-title: Configuratie toepassen op nieuwe bedrijven | Microsoft Docs
+title: Configuratie toepassen op nieuwe bedrijven
 description: Nadat u een configuratiepakket hebt gemaakt, bestaat de volgende stap uit het leveren van het pakket aan uw klant voor implementatie. U gebruikt de configuratie met een nieuw, leeg bedrijf.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 22b4c770f182aa9e5df72ff3d625dc32c5a6f827
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8eaffa61361a9cbcc01af3585090dc0939eaa4d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773373"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324112"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Configuraties toepassen op nieuwe bedrijven
 Nadat u een configuratiepakket hebt gemaakt, bestaat de volgende stap uit het leveren van het pakket aan uw klant voor implementatie. U werkt met het configuratiepakket binnen een nieuw, leeg bedrijf.  

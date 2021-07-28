@@ -1,21 +1,21 @@
 ---
-title: Gegevens uitwisselen | Microsoft Docs
-description: U kunt gegevens uitwisselen tussen Business Central en externe bestanden of streams voor veelvoorkomende bedrijfstaken, zoals het verzenden en ontvangen van elektronische documenten en het importeren en exporteren van bankbestanden.
+title: Gegevens uitwisselen
+description: Wissel elektronische zakelijke documenten, bijvoorbeeld bankbestanden, uit tussen Business Central en externe partijen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 1b0d690254378de23655c73aaedccd03535ba586
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 85f8a69d05366585bd11d651a6c093a4388433d9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776184"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319652"
 ---
 # <a name="exchanging-data"></a>Gegevens uitwisselen
 U kunt gegevens uitwisselen tussen [!INCLUDE[prod_short](includes/prod_short.md)] en externe bestanden of streams voor veelvoorkomende bedrijfstaken, zoals het verzenden en ontvangen van elektronische documenten en het importeren en exporteren van bankbestanden.  

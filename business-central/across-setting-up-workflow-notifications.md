@@ -1,19 +1,19 @@
 ---
-title: Werkstroomberichten
-description: In veel werkstroomantwoorden wordt aan een gebruiker gemeld dat er een gebeurtenis is opgetreden waarop deze moet reageren. De gebeurtenis in een werkstroomstap kan bijvoorbeeld zijn dat Gebruiker 1 de goedkeuring van een nieuwe record aanvraagt, en het antwoord is dat er een bericht wordt verzonden naar Gebruiker 2, de fiatteur. In de volgende werkstroomstap kan de gebeurtenis zijn dat Gebruiker 2 de record goedkeurt, en het antwoord is dat er een bericht wordt verzonden naar Gebruiker 3, die een gerelateerde bewerking van de goedgekeurde record start. Voor werkstroomstappen die betrekking hebben op goedkeuring, is elk bericht gekoppeld aan een goedkeuringspost.
+title: Werkstroomberichten instellen
+description: In dit onderwerp wordt uitgelegd hoe u werkstroommeldingen instelt om een gebruiker te waarschuwen dat er een gebeurtenis is opgetreden waarop hij of zij moet reageren; een werkstroomreactie is vereist.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d72c3ba220c98d0c77806466f467ab233b3db65c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787058"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320626"
 ---
 # <a name="workflow-notifications"></a>Werkstroomberichten
 

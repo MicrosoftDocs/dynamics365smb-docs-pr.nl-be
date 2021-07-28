@@ -1,6 +1,6 @@
 ---
 title: Belgische Intrastat-rapportage
-description: Bedrijven uit EU-landen/regio's moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. Dit rapportageproces verloopt via Intrastat-rapportage of VIES (btw-informatie-uitwisselingssysteem).
+description: Bedrijven binnen de Europese Unie (EU) zijn verplicht handel met andere EU-landen of -regio's te rapporteren via Intrastat-rapportage of VIES (btw-informatie-uitwisselingssysteem).
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 9bce3b468ad362660c9e1ff3a504e97dfe2e4cdd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 25c78491bd8bad192ea374dba615b19d2da26e68
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774409"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318901"
 ---
 # <a name="belgian-intrastat-reporting"></a>Belgische Intrastat-rapportage
 Bedrijven uit EU-landen/regio's moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. Dit rapportageproces verloopt via Intrastat-rapportage of VIES (btw-informatie-uitwisselingssysteem). Er zijn twee soorten Intrastat-aangiften:  

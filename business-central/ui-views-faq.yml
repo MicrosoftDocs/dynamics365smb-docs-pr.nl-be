@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
   title: Veelgestelde vragen over lijstweergaven
-  description: Gedetailleerde informatie over het opslaan van filters als lijstweergaven.
+  description: Dit artikel beantwoordt uw veelgestelde vragen over lijstweergaven en biedt gedetailleerde informatie over het opslaan van en werken met filters als lijstweergaven.
   author: mikebcMSFT
   ms.service: dynamics365-business-central
   ms.topic: conceptual
@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 04/01/2021
+  ms.date: 06/24/2021
   ms.author: mikebc
-  ms.openlocfilehash: 4406c6a87826dcbc4626bc48db86d1f9d3635ccf
-  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.openlocfilehash: 8c046697ce13b6079c54fa6d569cb4a40e1a4cc0
+  ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 05/11/2021
-  ms.locfileid: "6017330"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "6322234"
 title: Veelgestelde vragen over lijstweergaven
 summary: Dit artikel beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over het werken met lijstweergaven en het opslaan van filters.
 sections:

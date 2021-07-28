@@ -1,6 +1,6 @@
 ---
-title: Serviceaanbod instellen | Microsoft Docs
-description: Leer hoe u de services instelt die u aan uw klanten aanbiedt.
+title: Serviceaanbiedingen instellen
+description: Bij het instellen van servicebeheer dient u te bepalen welke services u aan klanten wilt bieden en welk schema u voor die services wilt gebruiken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fd53cd8d78641bc2fb4e45b5776ba263e04ef49c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a3a61ba65136aa15836039ac54057eefff37f29d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770775"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323897"
 ---
 # <a name="set-up-service-offerings"></a>Serviceaanbiedingen instellen
-Bij het instellen van servicebeheer dient u te bepalen welke services u aan klanten wilt bieden en welk schema u voor die services wilt gebruiken. Een service is een type taak die door een of meerdere resources wordt uitgevoerd en die aan een klant wordt geleverd. Een service kan bijvoorbeeld een type computerreparatie zijn. Een serviceartikel bestaat uit de apparatuur of het artikel waarvoor de service moet worden uitgevoerd, bijvoorbeeld de computer die moet worden gerepareerd en ter plekke bij een klant is geïnstalleerd. U kunt services instellen als onderdeel van een groep aan elkaar gerelateerde reparatie- en onderhoudsartikelen.  
+Bij het instellen van servicebeheer dient u te bepalen welke services u aan klanten wilt bieden en welk schema u voor die services wilt gebruiken. Een service is een type taak die door een of meerdere resources wordt uitgevoerd en die aan een klant wordt geleverd. Een service kan bijvoorbeeld een type computerreparatie zijn. Een serviceartikel bestaat uit de apparatuur of het artikel waarvoor de service moet worden uitgevoerd, bijvoorbeeld de computer die moet worden gerepareerd en ter plekke bij een klant is geïnstalleerd. U kunt services instellen als een onderdeel van een groep aan elkaar gerelateerde artikelen met betrekking tot herstel en onderhoud.  
   
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.  
   
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  

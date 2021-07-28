@@ -1,6 +1,6 @@
 ---
-title: Vaste activa beheren| Microsoft Docs
-description: Leren over de vaste-activafunctionaliteit en een overzicht krijgen van hoe u met vaste activa werkt.
+title: Vaste activa beheren
+description: Leren over de vaste-activafunctionaliteit en een overzicht krijgen van hoe u met vaste activa werkt en deze beheert.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: feb3d677c2c55166b71f825315ee1805b28b3a5e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d6cf9a0efeca2c484d0fd2e1ce06db63f2ac91f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770503"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323239"
 ---
-# <a name="fixed-assets"></a>Vast activum
+# <a name="managing-fixed-assets"></a>Vaste activa beheren
 De functionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.
 
 Voor elk vast activum moet u een kaart maken met informatie over het activum. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. Vervolgens kunt u beginnen met het aanschaffen, onderhouden en verkopen van de vaste activa. U kunt ook gebudgetteerde activa instellen. Hierdoor is het mogelijk om verwachte aan- en verkopen op te nemen in lijsten.

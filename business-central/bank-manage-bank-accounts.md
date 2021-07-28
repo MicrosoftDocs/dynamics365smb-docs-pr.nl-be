@@ -1,5 +1,5 @@
 ---
-title: Bankrekeningen beheren| Microsoft Docs
+title: Bankrekeningen beheren
 description: U moet regelmatig bankposten reconciliëren met de gerelateerde banktransacties in uw bankrekeningen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: db4afccdd67e400f2effd34b2db3c449db10432a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0e98609dfe176a685d46112a233d3394eb312eaf
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779719"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323780"
 ---
-# <a name="reconciling-bank-accounts"></a>Bankrekeningen reconciliëren
+# <a name="manage-and-reconcile-your-bank-accounts"></a>Uw bankrekeningen beheren en reconciliëren
 
 Voor al uw bankrekeningen moet op gezette tijden een bankafstemming worden uitgevoerd om ervoor te zorgen dat de kasgegevens van het bedrijf correct zijn. U doet dit door boekingen op uw interne bankrekeningen te vergelijken en af te stemmen met banktransacties bij uw bank en vervolgens de saldi op uw interne bankrekeningen te boeken om totalen beschikbaar te stellen voor financiële managers. Bankafstemming is ook een praktische manier om ontbrekende betalingen en boekhoudfouten te ontdekken en op te lossen.
 

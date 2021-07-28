@@ -1,6 +1,6 @@
 ---
-title: 'Aanbevolen procedures instellen: Planningsparameters | Microsoft Docs'
-description: Het sneltabblad Planning op de artikelkaart is het hart van de toeleveringsketen van een bedrijf. De juiste planningsparameters instellen is zeer belangrijk voor efficiënt voorraadbeheer en sterke klantenservice.
+title: 'Aanbevolen procedures instellen: Planningparameters'
+description: In dit onderwerp worden aanbevolen procedures beschreven voor het instellen van geselecteerde planningsparametervelden met het sneltabblad Planning op de artikelkaart.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: cba27162e4bbc702eb6451e73b809a59c2d3ec1d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 72d6f07ca98fad0bed123c648025665add723c23
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784379"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320068"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Aanbevolen procedures instellen: Planningparameters
 Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsketen van een bedrijf. De juiste planningsparameters instellen is zeer belangrijk voor efficiënt voorraadbeheer en sterke klantenservice.  
