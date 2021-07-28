@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef6d7a5882829bb12620337c5985c31f85d69c5c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787219"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440986"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Opmerkingen toevoegen aan kaarten en documenten
 U kunt extra informatie toevoegen aan grootboekrekeningen, klantenkaarten of verkooporders om uitzonderingen of speciale overeenkomsten te doen toekomen aan andere gebruikers.
@@ -31,7 +31,7 @@ Daarnaast kunt u aangeven of u wilt dat opmerkingen worden overgenomen van het e
 Hierna wordt beschreven hoe u een opmerking aan een artikelkaart toevoegt. De stappen zijn vergelijkbaar voor alle andere kaarten en documenten, behalve documentregels: de actie **Opmerkingen** wordt geplaatst in het actiemenu van een regel.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Een opmerking toevoegen aan een artikelkaart
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante artikelkaart.
 3. Kies de actie **Opmerkingen**.
 4. Voer op de pagina **Opmerkingen** tekst in en kies de knop **OK**.

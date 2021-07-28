@@ -1,6 +1,6 @@
 ---
-title: Artikelkosten handmatig herwaarderen| Microsoft Docs
-description: U kunt de voorraadwaarde van een artikel herwaarderen met de waarderingsmethoden FIFO of Gemiddeld, bijvoorbeeld als de kosten van een artikel veranderen om andere redenen dan transacties.
+title: Artikelkosten handmatig herwaarderen
+description: U kunt de voorraadwaardering van een artikel handmatig aanpassen met behulp van de FIFO- of Gemiddelde-waarderingsmethoden wanneer de kosten van producten veranderen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 43a99fb56bd2d941faca34f72f9100b3cc9fd0fb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7ed2e9ebad96d29c9fc2d73e426b6e37f577f9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786105"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441230"
 ---
 # <a name="adjust-item-costs"></a>Artikelkosten herwaarderen
 De kostprijs van een artikel (voorraadwaarde) dat u inkoopt en later verkoopt, kan tijdens de levensduur veranderen, bijvoorbeeld omdat vrachtkosten worden toegevoegd aan aanschafkosten nadat u het artikel hebt verkocht. Kostenherwaardering is met name belangrijk als u goederen verkoopt voordat u de inkoop van deze goederen factureert. Als u altijd de juiste voorraadwaarde wilt weten, moeten artikelkosten daarom regelmatig worden geherwaardeerd. Hierdoor worden verkoop- en winststatistieken bijgewerkt en gezorgd dat de financiële KPI's kloppen. Zie [Ontwerpdetails: kostenwaardering](design-details-cost-adjustment.md) voor meer informatie.
@@ -37,7 +37,7 @@ Als u de waarderingsmethode Gemiddeld gebruikt, worden de eenheidskosten van een
 De kostenherwaardering verwerkt alleen posten die nog niet zijn geherwaardeerd. Als de functie een post aantreft waarbij gewijzigde inkomende kosten moeten worden doorgeschoven naar de bijbehorende uitgaande posten, worden nieuwe waardeposten gemaakt. Deze posten zijn op de gegevens van de oorspronkelijke waardeposten gebaseerd, maar bevatten het geherwaardeerde bedrag. De kostenherwaarderingsfunctie gebruikt de boekingsdatum van de oorspronkelijke waardepost in de herwaarderingspost, tenzij die datum in een afgesloten voorraadperiode valt. In dat geval wordt de begindatum van de volgende open voorraadperiode gehanteerd. Als de voorraadperioden niet worden gebruikt, bepaalt de datum in het veld **Boeken toegest. vanaf** op de pagina **Boekhoudinstellingen** wanneer de herwaarderingspost wordt geboekt.
 
 ## <a name="to-adjust-item-costs-manually"></a>Artikelkosten handmatig herwaarderen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostprijs herwaarderen - Artikelposten** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostprijs herwaarderen - Artikelposten** in en kies vervolgens de gerelateerde koppeling.
 2. Geef op de pagina **Kostprijs herwaarderen - Artikelposten** op voor welke artikelen kosten moeten worden aangepast.
 3. Kies de knop **OK**.
 
@@ -46,7 +46,7 @@ Als u de directe kostprijs voor een aantal artikelen moet wijzigen, kunt u de ba
 
  De batchverwerking past de inhoud aan van het veld **Eenheidsprijs** op de artikelkaart. Dit veld wordt gewijzigd voor alle artikelen of voor geselecteerde artikelen. De batchverwerking vermenigvuldigt de waarde in het veld met een aanpassingsfactor die u opgeeft.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelprijzen herwaarderen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelkosten/-prijzen herwaarderen** in en kies vervolgens de gerelateerde koppeling.  
 2. Geef in het veld **Aan te passen prijs** op welk artikel- of SKU-kaartveld u wilt aanpassen.  
 3. Geef in het veld **Herwaarderingsfactor** de factor op waarmee de waarde wordt aangepast. Voer bijvoorbeeld **1.5** in om de waarde met 50% te verhogen.  
 4. Stel op het sneltabblad **Artikel** filters in om, bijvoorbeeld, op te geven welke artikelen moeten worden verwerkt met de batchverwerking.  

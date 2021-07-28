@@ -1,21 +1,21 @@
 ---
 title: Power BI-integratie met Business Central inschakelen
-description: Leer hoe u de verbinding met Power Bi instelt, zodat u inzichten, business intelligence en KPI's uit uw Business Central-gegevens kunt halen met de Business Central-apps voor Power BI.
+description: Leer hoe u de verbinding met Power BI instelt. Met Power BI-rapporten kunt u inzicht, bedrijfsinformatie en KPI's krijgen uit uw Business Central-gegevens.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b8fbdb89f47a05d4265751fddc10ab208901831
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: a9d8479ad1caddef3ac640ba49a8fe101f96a375
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935123"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440711"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Power BI-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] mogelijk maken
 
@@ -27,10 +27,34 @@ Bij [!INCLUDE[prod_short](includes/prod_short.md)] krijgen gebruikers een gratis
 
 |Power-licentie|Rapporten weergeven|Rapporten maken|Rapporten delen|Rapporten vernieuwen| [!INCLUDE[prod_short](includes/prod_short.md)]-apps|
 |-------------|--------||
-|Power BI gratis|![een vinkje](media/check.png)|![nog een vinkje](media/check.png)|(beperkt)|(beperkt)||
-|Power BI Pro|![en nog een vinkje](media/check.png)|![het is een vinkje](media/check.png)|![weer een vinkje](media/check.png)|(uitgebreid)|![laatste vinkje](media/check.png)|
+|Power BI gratis|![een vinkje.](media/check.png)|![nog een vinkje](media/check.png)|(beperkt)|(beperkt)||
+|Power BI Pro|![nog een vinkje.](media/check.png)|![het is een vinkje](media/check.png)|![weer een vinkje](media/check.png)|(uitgebreid)|![laatste vinkje](media/check.png)|
 
 Zie [Licenties voor de Power BI-service voor gebruikers in uw organisatie](/power-bi/admin/service-admin-licensing-organization) of [U aanmelden voor de Power BI-service als individu](/power-bi/fundamentals/service-self-service-signup-for-power-bi) voor meer informatie.
+
+## <a name="expose-data-through-api-pages-or-odata-web-services"></a><a name="exposedata"></a>Gegevens beschikbaar stellen via API-pagina's of OData-webservices
+
+Business Central biedt twee manieren om gegevens beschikbaar te stellen die kunnen worden gebruikt door Power BI-rapporten: API-pagina's en Open Data Protocol (OData) webservices.
+
+### <a name="api-pages"></a>API-pagina's
+
+> **VAN TOEPASSING OP:** alleen Business Central online 
+
+Een API-pagina is een specifiek paginatype dat is gemaakt in AL-code en dat toegang biedt tot databasetabellen via een webhook-ondersteunde, OData v4 REST-service. Dit type pagina kan niet worden weergegeven in de gebruikersinterface, maar is bedoeld voor het bouwen van betrouwbare integratieservices.
+
+Business Central online wordt geleverd met een set ingebouwde API's, die u kunt gebruiken om gegevens op te halen voor de meest voorkomende zakelijke entiteiten, zoals klanten, artikelen, verkooporders en meer. Er is geen extra werk of configuratie vereist om deze API's als gegevensbron te gebruiken voor Power BI-rapporten. Voor meer informatie over deze API's zie [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+
+Business Central online ondersteunt ook aangepaste API's. Applicatieontwikkelaars van Business Central-oplossingen kunnen hun eigen API-pagina's maken en deze in extensies verpakken. U kunt de extensies op uw tenant installeren. Eenmaal geïnstalleerd kunt u de API-pagina's gebruiken voor uw Power BI-rapporten, zoals u zou doen met de ingebouwde API's (v2.0). Voor meer informatie over het maken van API-pagina's zie [Een aangepaste API ontwikkelen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+### <a name="odata-web-services"></a>OData-webservices
+
+U kunt Business Central-toepassingsobjecten, zoals codeunits, pagina's en query's, publiceren als [OData-webservices](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Met Business Central online worden standaard veel webservices gepubliceerd. Een eenvoudige manier om de webservices te vinden is te zoeken naar *webservices* in [!INCLUDE[prod_short](includes/prod_short.md)]. Zorg dat op de pagina **Webservices** het veld **Publiceren** is geselecteerd voor de hierboven genoemde webservices. Zie [Een webservice publiceren](across-how-publish-web-service.md) voor meer informatie over het publiceren van webservices.
+
+Als u wilt weten wat u kunt doen om ervoor te zorgen dat de webservices optimaal presteren, gezien vanuit de Business Central-server (het eindpunt) en vanuit de consument (de client), leest u [Efficiënte webservices creëren](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
+
+### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>Kiezen of u API-pagina's of OData-webservices wilt gebruiken
+
+Waar mogelijk wordt u aangemoedigd om API-pagina's te gebruiken in plaats van de OData-webservice. API-pagina's zijn over het algemeen sneller in het laden van gegevens in Power BI-rapporten dan OData-webservices. Bovendien zijn ze flexibeler omdat u gegevens kunt ophalen uit tabelvelden die niet in een paginaobject zijn gedefinieerd.
 
 ## <a name="set-up-prod_short-on-premises-for-power-bi-integration"></a><a name="setup"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises configureren voor integratie met Power BI
 
@@ -67,15 +91,6 @@ In dit gedeelte wordt uitgelegd wat de vereisten zijn voor de integratie van een
     Voordat eindgebruikers Power BI in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen gebruiken, zal een Azure-applicatiebeheerder toestemming moeten geven voor de Power BI-service.
 
     Open om de eerste verbinding te maken [!INCLUDE[prod_short](includes/prod_short.md)] en voer **Aan de slag met Power BI** uit vanuit het rolcentrum. Deze actie leidt u door het toestemmingsproces en controleert uw Power BI-licentie. Meld u aan met een Azure-beheerdersaccount wanneer daarom wordt gevraagd. Zie voor meer informatie [Verbinding maken met Power BI - eenmalig](across-working-with-powerbi.md#connect).
-
-## <a name="publish-data-as-web-services"></a>Gegevens als webservices publiceren
-
-Codeunits, pagina's en query's die u wilt gebruiken als gegevensbron in Power BI-rapporten, moeten als webservices worden gepubliceerd. Er worden standaard veel webservices gepubliceerd. Een eenvoudige manier om de webservices te vinden, is te zoeken naar *webservices* in [!INCLUDE[prod_short](includes/prod_short.md)]. Zorg dat op de pagina **Webservices** het veld **Publiceren** is geselecteerd voor de hierboven genoemde webservices. Deze taak is gewoonlijk een beheertaak.
-
-Zie [Een webservice publiceren](across-how-publish-web-service.md) voor meer informatie over het publiceren van webservices.
-
-> [!TIP]
-> Als u wilt weten wat u kunt doen om ervoor te zorgen dat de webservices optimaal presteren, gezien vanuit de Business Central-server (het eindpunt) en vanuit de consument (de client), leest u [Efficiënte webservices creëren](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

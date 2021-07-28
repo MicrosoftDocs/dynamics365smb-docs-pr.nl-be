@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 923f68b13619013dd54062438c66192a682868bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4bce7a2e07f9d559df74f4862e9aa841f4cfe6f0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787889"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441609"
 ---
 # <a name="batch-post-output-and-run-times"></a>Output en bewerkingstijden in batches boeken
 De outputhoeveelheid geeft de voortgang van het werk weer in de vorm van de voltooide hoeveelheid en de gebruikte capaciteit van de afdeling of de bewerkingsplaats.
@@ -31,7 +31,7 @@ U kunt ook het outputdagboek gebruiken om:
 Met het venster **Productiedagboek** kunt u dezelfde taken uitvoeren als in het venster **Outputdagboek** en tegelijkertijd de gerelateerde taken voor verbruiksboeking uitvoeren. Zie voor meer informatie [Verbruik en output registreren voor één vrijgegeven productieorderregel](production-how-to-register-consumption-and-output.md).
 
 ## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Outputaantallen boeken en/of looptijden registreren voor een of meer productieorderregels
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in de velden informatie over de productieorder en output en/of looptijd in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
     U kunt de functie **Bewerkingsplan weergeven** om dagboekregels te genereren op basis van productieorders.

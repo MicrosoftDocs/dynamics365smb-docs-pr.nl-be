@@ -1,6 +1,6 @@
 ---
 title: Verbinding maken met Microsoft Dataverse
-description: U kunt via Microsoft Dataverse andere apps integreren met Business Central. Dit artikel bevat tips en trucs voor het instellen van de verbindingen.
+description: Een verbinding instellen tussen Business Central en Dataverse. Bedrijven maken doorgaans de verbinding om gegevens te integreren met een andere Dynamics 365-bedrijfsapp.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/26/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: a29fb1e0a8e10e91a811914a9188548149d5125a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063489"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441355"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Verbinding maken met Microsoft Dataverse
 
@@ -64,7 +64,7 @@ De begeleide instelling Dataverse-verbinding instellen kan het gemakkelijker mak
 > [!IMPORTANT]
 > Normaal gesproken gebruikt u alleen volledige synchronisatie wanneer u de applicaties voor de eerste keer integreert en bevat slechts één applicatie gegevens. Volledige synchronisatie kan handig zijn in een demonstratieomgeving omdat het automatisch records maakt en koppelt in elke applicatie, waardoor het sneller wordt om met gesynchroniseerde gegevens te werken. U moet echter alleen volledige synchronisatie uitvoeren als u één rij wilt in [!INCLUDE[prod_short](includes/prod_short.md)] voor elke rij in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] voor de tabeltoewijzingen. Anders kan het resultaat dubbele records zijn.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Begeleide instelling** in en kies vervolgens de gerelateerde koppeling.
 2. Kies **Een verbinding instellen met Microsoft Dataverse** om de begeleide instelling te starten.
 3. Vul de vereiste velden in.
 
@@ -75,7 +75,7 @@ De begeleide instelling Dataverse-verbinding instellen kan het gemakkelijker mak
 
 In de volgende procedure wordt beschreven hoe u de verbinding op de pagina **Dataverse-verbinding instellen** handmatig instelt. Dit is ook de pagina waar u instellingen voor de integratie beheert.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dataverse-verbinding instellen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dataverse-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
 2. Voer de volgende gegevens in voor de verbinding van [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Veld|Omschrijving|
@@ -106,6 +106,28 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
+
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Verbindingen vanuit Business Central Online upgraden om op certificaten gebaseerde verificatie te gebruiken
+> [!NOTE]
+> Deze sectie is alleen relevant voor Business Central online-tenants die worden gehost door Microsoft. Online tenants die worden gehost door ISV's en installaties op locatie worden niet beïnvloed.
+
+In april 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is het verificatietype van Office365 (gebruikersnaam/wachtwoord) aan het aflopen. Voor meer informatie zie [Afschaffing van het Office365-verificatietype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Bovendien beëindigt [!INCLUDE[prod_short](includes/prod_short.md)] in maart 2022 het gebruik van op clientgeheimen gebaseerde service-to-service-verificatie voor online tenants, en vereist het gebruik van op certificaten gebaseerde service-to-service-verificatie voor verbindingen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] online-tenants die worden gehost door ISV's en installaties op locatie kunnen de Office365-verificatie blijven gebruiken die is ingesteld door hun Microsoft-partner.
+
+Om te voorkomen dat integraties worden verstoord _moet u upgraden_ om op certificaten gebaseerde verificatie te gebruiken. Hoewel de wijziging is gepland voor maart 2022, raden we u ten zeerste aan zo snel mogelijk te upgraden. In de volgende stappen wordt beschreven hoe u kunt upgraden naar verificatie op basis van certificaten. 
+
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Uw Business Central online-verbinding upgraden om op certificaten gebaseerde verificatie te gebruiken
+> [!NOTE]
+> Verificatie op basis van certificaten is beschikbaar in Business Central 2021 releasewave 1 en hoger. Als u een eerdere versie gebruikt, moet u vóór maart 2022 een update naar Business Central 2021-releasewave 1 plannen. Zie [Updates plannen](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates) voor meer informatie. Als u problemen ondervindt, neemt u contact op met uw partner of ondersteuning.
+
+1. Controleer in het [Business Central-beheercentrum]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center of u Business Central 2021-releasewave 1 of hoger (versie 18 of hoger) gebruikt.
+2. Afhankelijk van of u integreert met Dynamics 365 Sales, voert u een van de volgende handelingen uit:
+   * Als u dat doet, opent u de pagina **Microsoft Dynamics 365-verbinding instellen**.
+   * Als u dat niet doet, opent u de pagina **Dataverse 365-verbinding instellen**.
+3. Kiezen **Verbinding** en dan **Certificaatverificatie gebruiken** om de verbinding te upgraden om verificatie op basis van certificaten te gebruiken.
+4. Meld u aan met beheerdersreferenties voor Dataverse. Aanmelden duurt minder dan een minuut.
+
+> [!NOTE]
+> U moet deze stappen herhalen in elke [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving, inclusief zowel productie- als sandbox-omgevingen, en in elk bedrijf waar u een verbinding mee hebt [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ## <a name="connecting-on-premises-versions"></a>Verbinding maken met on-premises versies
 
@@ -149,7 +171,7 @@ Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identit
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verbreken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dataverse-verbinding instellen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dataverse-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
 2. Schakel op de pagina **Dataverse-verbinding instellen** de schakelaar **Geactiveerd** uit.  
 
 ## <a name="see-also"></a>Zie ook

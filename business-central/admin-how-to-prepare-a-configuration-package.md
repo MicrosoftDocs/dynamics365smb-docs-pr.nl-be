@@ -1,6 +1,6 @@
 ---
-title: Een configuratiepakket voorbereiden | Microsoft Docs
-description: Leer nu om een RapidStart-configuratiepakket te configureren dat kan helpen bij het opzetten van nieuwe bedrijven op basis van bestaande gegevens.
+title: Een configuratiepakket voorbereiden
+description: Leer nu om een RapidStart-configuratiepakket te configureren dat u kan helpen bij het opzetten van nieuwe bedrijven op basis van bestaande gegevens.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: f90ba5929cad841e16a6a1a719024fdf085b05be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781298"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440736"
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
 
@@ -56,7 +56,7 @@ U kunt een configuratiepakket importeren dat is geëxporteerd uit een database m
 
 ## <a name="to-create-a-configuration-package"></a>Een configuratiepakket maken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul op het sneltabblad **Algemeen** de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Als u de tabellen voor configuratievragenlijsten, -sjablonen en -werkblad niet in het pakket wilt opnemen, schakelt u het selectievakje **Configuratietabellen uitsluiten** in. Anders worden deze tabellen automatisch toegevoegd aan de lijst met pakkettabellen bij het exporteren van het pakket.  
@@ -107,7 +107,7 @@ U kunt het bestand opslaan met een naam die voor u zinvol is, maar u kunt de ext
 
 Nadat u een pakket hebt gemaakt dat voldoet aan de meeste van uw behoeften, kunt u dit als basis gebruiken voor het maken van vergelijkbare pakketten. Hiermee kan de implementatie worden versneld en de herhaalbaarheid van RapidStart Services worden verbeterd.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een pakket in de lijst en kies vervolgens de actie **Pakket kopiëren**.  
 3. Voer in het veld **Nieuwe pakketcode** een code in voor het nieuwe pakket.  
 4. Schakel het selectievakje **Gegevens kopiëren** in als u ook databasegegevens wilt kopiëren vanuit het bestaande pakket.  
@@ -117,7 +117,7 @@ Nadat u een pakket hebt gemaakt dat voldoet aan de meeste van uw behoeften, kunt
 
 Gebruik het configuratiewerkblad voor het verzamelen en categoriseren van de gegevens die u wilt gebruiken voor het configureren van een nieuw bedrijf en voor het op een logische manier rangschikken van tabellen. De opmaak van het werkblad is gebaseerd op een eenvoudige hiërarchie: gebieden bevatten groepen, die weer tabellen bevatten. Gebieden en groepen zijn optioneel, maar zijn nodig als u een overzicht van het configuratieproces wilt inschakelen in het rolcentrum RapidStart Services.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het veld **Regelsoort** de optie **Gebied**. Voer in het veld **Naam** een beschrijvende naam in.  
 3. Kies in het veld **Regelsoort** de optie **Groep**. Voer in het veld **Naam** een beschrijvende naam in.  
 4. Kies in het veld **Regelsoort** de optie **Tabel**. Selecteer in het veld **Tabel-id** de tabel die u wilt opnemen in het werkblad.  
@@ -136,7 +136,7 @@ Nadat u de tabellen hebt gedefinieerd die u wilt behandelen als onderdeel van de
 > [!NOTE]  
 > U kunt ook rechtstreeks een pakket maken en hier tabellen aan toevoegen. Zie [Een configuratiepakket maken](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) voor meer informatie.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer in het configuratiewerkblad een regel of groep regels die u wilt toewijzen aan een configuratiepakket en kies vervolgens **Pakket toewijzen**.  
 3. Selecteer een pakket in de lijst of kies de actie **Nieuw** om een nieuw pakket te maken en kies vervolgens de knop **OK**.  
 
@@ -147,7 +147,7 @@ Nadat u de tabellen hebt gedefinieerd die u wilt behandelen als onderdeel van de
 
 Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare databasegegevens weergeven en aanpassen aan de behoeften van uw klant. De databasetabel moet over een bijbehorende pagina beschikken.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
 2. Bepaal in het configuratiewerkblad van welke tabellen u de gegevens wilt bekijken of aanpassen.  
 
     > [!NOTE]  
@@ -161,7 +161,7 @@ Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare dat
 Nadat u alle instellingsgegevens hebt ingevoerd en getest, kunt u doorgaan met het kopiëren van gegevens naar uw productieomgeving. U maakt een nieuw bedrijf in dezelfde database.
 
 1. Open en initialiseer het nieuwe bedrijf.  
-2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.  
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies de actie **Gegevens kopiëren van bedrijf**.  
 4. Kies op de pagina **Bedrijfsgegevens kopiëren** het veld **Kopiëren van**. De pagina **Bedrijven** wordt geopend.  
 5. Selecteer het bedrijf waaruit u gegevens wilt kopiëren en kies vervolgens de knop **OK**. Er wordt een lijst geopend met tabellen die zijn geselecteerd op het configuratiewerkblad. In deze lijst worden alleen tabellen opgenomen die records bevatten.

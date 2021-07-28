@@ -1,6 +1,6 @@
 ---
-title: De status van synchronisatietaken weergeven | Microsoft Docs
-description: Leer hoe u de status kunt bekijken na het synchroniseren van gekoppelde records.
+title: De status van synchronisatietaken weergeven
+description: Gebruik de pagina Synchronisatiefouten met gekoppelde gegevens om de status weer te geven van synchronisatietaken die zijn uitgevoerd voor gekoppelde records in integraties.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b87bd1061adbcaae3a5497fa1af020cfaa412593
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781273"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441330"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>De status van synchronisatietaken weergeven
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -35,7 +35,7 @@ Gebruik de pagina **Synchronisatiefouten met gekoppelde gegevens** om de status 
 -->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Synchronisatiefouten voor gekoppelde records weergeven en oplossen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Synchronisatiefouten met gekoppelde gegevens** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Synchronisatiefouten met gekoppelde gegevens** in en kies vervolgens de gerelateerde koppeling.
 2. De pagina **Synchronisatiefouten met gekoppelde gegevens** bevat problemen die zijn opgetreden toen u gekoppelde records synchroniseerde. De volgende tabel bevat acties die u kunt gebruiken om problemen één voor één op te lossen:
 
 |Actie|Omschrijving|

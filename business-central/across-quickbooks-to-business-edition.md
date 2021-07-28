@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9cf2d377476eed7dd8b38dc824bd6e23f2902818
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 12ac21b237188b391dac943dd1f0352cddb82602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787144"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440786"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Overstappen van een QuickBooks-app op Dynamics 365 Business Central
 Steeds meer groeiende bedrijven schakelen van financiële apps als QuickBooks Desktop en QuickBooks Online, die zijn ontworpen voor startups en andere kleine bedrijven, over naar [!INCLUDE[prod_short](includes/prod_short.md)], dat ook grotere, complexere organisaties ondersteunt. 
@@ -32,7 +32,7 @@ Lees voor meer informatie het artikel over de extensie voor uw QuickBooks-app:
 * [De extensie QuickBooks Online-gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>Klaar?
-Als u klaar bent om nu aan de slag te gaan, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Begeleide instelling** in en kiest u vervolgens de gerelateerde koppeling. Kies **Bedrijfsgegevens migreren** en voer de stappen in de handleiding uit.
+Als u klaar bent om nu aan de slag te gaan, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies vervolgens de gerelateerde koppeling. Kies **Bedrijfsgegevens migreren** en voer de stappen in de handleiding uit.
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  

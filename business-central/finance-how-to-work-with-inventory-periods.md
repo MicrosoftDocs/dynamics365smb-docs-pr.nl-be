@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 019767f671f48f7ae5bb1c0d795c8085d8a97472
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7d946020bb6f9a1eabf5ab68d3dd64a9af344993
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786424"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442072"
 ---
 # <a name="work-with-inventory-periods"></a>Werken met voorraadperioden
 Een voorraadperiode is een periode waarin gewijzigde voorraadwaarden kunnen worden geboekt. Een voorraadperiode wordt begrensd door een einddatum. Als u een voorraadperiode hebt afgesloten, kunt u geen verwachte of gefactureerde voorraadwaarden vóór de einddatum meer boeken. U kunt geen nieuwe waarden naar de voorraad boeken vóór de einddatum. Als er nog open artikelposten, d.w.z. positieve aantallen die nog niet zijn vereffend met uitgaande transacties, zijn die binnen de afgesloten periode vallen, kunt u de uitgaande aantallen ook nadat de periode is afgesloten nog met deze posten vereffenen.  
@@ -27,7 +27,7 @@ In de volgende secties wordt uitgelegd hoe u:
 * Voorraadperioden opnieuw openen.  
 
 ## <a name="to-create-an-inventory-period"></a>Een voorraadperiode maken  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadperioden** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadperioden** in en kies vervolgens de gerelateerde koppeling.  
 2. Een nieuwe regel maken.  
 3. Voer in het veld **Einddatum** de laatste datum van de voorraadperiode in die u wilt definiëren. Wanneer de periode is afgesloten, kunt u geen voorraadwijzigingen vóór deze datum boeken.  
 4. Typ een beschrijvende naam in het veld **Naam**. Kies de knop **Ok**.  
@@ -59,7 +59,7 @@ Dit betekent dat alle uitgaande transactieaantallen, zoals de aantallen van verk
 Nadat u de voorraadperiode hebt afgesloten, kunt u deze niet verwijderen. U kunt de periode echter wel weer opnieuw openen als u boekingen vóór de einddatum van de voorraadperiode wilt toestaan. Wanneer u een periode opnieuw opent, worden alle voorraadperioden met latere einddatums ook weer geopend.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Een voorraadperiode opnieuw openen  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadperioden** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadperioden** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de voorraadperiode die u opnieuw wilt openen.  
 3. Kies de periodeactie **Periode opnieuw openen**. Bevestig dat u de periode opnieuw wilt openen.  
 4. Alle voorraadperioden met latere einddatums dan de geselecteerde periode worden eveneens opnieuw geopend.  

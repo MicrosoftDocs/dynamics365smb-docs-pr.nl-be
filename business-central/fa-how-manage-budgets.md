@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: forecast
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3b435d1e9edae7a13514786f2de51e32237aaf94
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f3654610847a4110517e88f98205da780bafdf21
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783571"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441659"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Budgetten voor vaste activa beheren.
 U kunt gebudgetteerde vaste activa instellen. Hiermee kunt u bijvoorbeeld verwachte aan- en verkopen opnemen in lijsten.  
@@ -29,7 +29,7 @@ U kunt een budget voorbereiden door kaarten in stellen voor de vaste activa die 
 
 Wanneer u de aanschafkosten boekt, voert u het nummer van het gebudgetteerde vaste activum in het veld **VA-nr. (Budget)** in. Hierdoor worden de aanschafkosten geboekt met een tegengesteld teken voor het gebudgetteerde activum. Dit betekent dat de totale aanschafkosten voor het gebudgetteerde activum worden gevormd door het verschil tussen de gebudgetteerde en de werkelijke aanschafkosten.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Als u een nieuwe VA-kaart wilt maken voor het gebudgetteerde vaste activum, kiest u de actie **Nieuw**.
 3. Schakel het selectievakje **Gebudgetteerd activum** in om boekingen naar het grootboek te voorkomen.
 4. Vul de overige velden in, wijs een afschrijvingsboek toe en boek vervolgens de eerste aanschafkosten met het gebudgetteerde vaste activum dat in het veld **VA-nr. (budget)** op de dagboekregel is ingevoerd Zie [Vaste activa aanschaffen](fa-how-acquire.md) voor meer informatie.
@@ -37,21 +37,21 @@ Wanneer u de aanschafkosten boekt, voert u het nummer van het gebudgetteerde vas
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>De buitengebruikstelling van een vast activum budgetteren
 Als u activa binnen de budgetperiode wilt verkopen, kunt u informatie over verkoopprijzen en -datums opgeven.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum dat buiten gebruik moet worden gesteld en kies vervolgens de actie **Afschrijvingsboeken**.
 3. Op de pagina **VA-afschrijvingsboeken** vult u de velden **Verwachte BGS-datum** en **Verwachte opbrengst bij BGS** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Geschatte buitengebruikstellingswaarden bekijken
 Als u de geschatte buitengebruikstellingswaarden wilt bekijken en verlies en winst wilt berekenen, kunt u het rapport **Geschatte waarde VA** gebruiken.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geschatte waarde VA** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geschatte waarde VA** in en kies vervolgens de gerelateerde koppeling.
 2. Vul indien nodig de velden in.
 3. Kies de knop **Afdrukken** of **Voorbeeld**.
 
 ## <a name="to-budget-depreciation"></a>Afschrijvingen budgetteren
 U kunt het rapport **Vast activum - Geschatte waarde** gebruiken om toekomstige afschrijving te berekenen. Het rapport laat de boekwaarde en gecumuleerde afschrijving aan het begin van de geselecteerde periode zien, wijzigingen gedurende de periode en de boekwaarde en gecumuleerde afschrijving aan het eind van de geselecteerde periode.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geschatte waarde van vaste activa** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geschatte waarde van vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de velden in.
 3. Als u de totale waarden voor alle activa wilt bekijken, schakelt u het selectievakje **Per VA afdrukken** uit.
 4. Laat het sneltabblad **Vast activum** leeg, zodat alle activa in de lijst worden opgenomen. Stel het veld **Alleen budget** in op **Nee** om gebudgetteerde activa uit te sluiten, of stel het veld in op **Ja** om alleen gebudgetteerde activa te zien.

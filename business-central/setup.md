@@ -1,6 +1,6 @@
 ---
 title: Overzicht van taken om Business Central in te stellen
-description: Beschrijft taken om Business Central in te stellen, te initialiseren en te configureren naar uw behoeften.
+description: Lees een overzicht van de taken om Business Central in te stellen, te initialiseren en te configureren naar uw behoeften.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781468"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441434"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Overzicht van taken om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781468"
 
 Zo is uw rekeningschema bijvoorbeeld al ingevuld met een aantal boekingsrekeningen die gereed zijn voor gebruik. Natuurlijk kunt u het rekeningschema aanpassen aan uw wensen. Zie [Financiën](finance.md) voor meer informatie.
 
-Met het ![pictogram Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) hebt u toegang tot begeleide instellingen die u helpen bij het configureren van bepaalde scenario's en het toevoegen van functies aan [!INCLUDE[prod_short](includes/prod_short.md)]. Voor informatie over hoe u alle begeleide en handmatige instellingspagina's opent raadpleegt u [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+Vanuit het ![pictogram Tand om het menu Instellingen te openen.](media/ui-experience/settings_icon_small.png) menu kunt u toegang krijgen tot begeleide instellingen die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[prod_short](includes/prod_short.md)]. Voor informatie over hoe u alle begeleide en handmatige instellingspagina's opent raadpleegt u [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]

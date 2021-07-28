@@ -1,6 +1,6 @@
 ---
-title: Vaste activa verzekeren| Microsoft Docs
-Description: U kunt een vast activum aan een verzekeringspolis toewijzen, die wordt vertegenwoordigd door een verzekeringskaart.
+title: Vaste activa verzekeren
+description: U kunt een of meer vaste activa toewijzen aan één verzekeringspolis door te boeken naar de verzekeringsdekkingsposten via de pagina **Verzekeringsdagboek**.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 134342fac90d133bc0891b72310f73aa807ab7ed
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 89db12527ae6e2656f29277d9bb63c3dd258fb1f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777735"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441709"
 ---
 # <a name="insure-fixed-assets"></a>Vaste activa verzekeren
 Een verzekeringspolis voor een vast activum wordt vertegenwoordigd door een verzekeringskaart. U kunt één vast activum aan één verzekeringspolis toewijzen, maar u kunt ook meerdere vaste activa aan één verzekeringspolis toewijzen.
@@ -38,7 +38,7 @@ Een verzekeringspolis voor een vast activum moet worden vertegenwoordigd door ee
 
 Als u informatie ontvangt over wijzigingen in het verzekerd bedrag, moet u de nieuwe informatie invoeren op de pagina **Verzekering**, zodat de polisdekking correct wordt geanalyseerd.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekering** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** om een nieuwe kaart voor een verzekeringspolis te maken. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. U kunt ook de verzekeringspolis selecteren die u wilt wijzigen en vervolgens de actie **Bewerken** kiezen.
 
@@ -47,7 +47,7 @@ U wijst een vast activum aan een verzekeringspolis toe door het naar de verzeker
 
 In de volgende procedure wordt uitgelegd hoe u een verzekeringsdagboekregel handmatig maakt. Als het selectievakje **Autom. verzekering boeken** op de pagina **VA-instellingen** is ingeschakeld, worden er automatisch verzekeringsdagboekregels gemaakt wanneer u aanschafkosten boekt. In dat geval hoeft u alleen het dagboek te boeken.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekeringsdagboeken** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzekeringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het relevante dagboek en vul indien nodig de dagboekregels in.  
 3. Als u meerdere vaste activa wilt toewijzen aan één verzekeringspolis, maakt u dagboekregels met dezelfde waarde in het veld **Verzekeringsnr.** en verschillende waarden in het veld **VA-nr.**  
 4. Kies de actie **Boeken**.  
@@ -58,7 +58,7 @@ In de volgende procedure wordt uitgelegd hoe u een verzekeringsdagboekregel hand
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>De verzekeringswaarde van een vast activum bijwerken
 Met de batchverwerking **Verzekering indexeren** kunt u de waarde wijzigen van de vaste activa die onder de dekking vallen.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekering indexeren** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekering indexeren** in en kies vervolgens de gerelateerde koppeling.
 2. Vul indien nodig de velden in.
 
     > [!NOTE]  
@@ -66,7 +66,7 @@ Met de batchverwerking **Verzekering indexeren** kunt u de waarde wijzigen van d
 3. Kies de knop **Ok**.  
 
    Met de batchverwerking wordt het nieuwe bedrag als een percentage van de totale verzekerde waarde berekend, zoals vermeld op de pagina **Verzekeringsstatistiek**, en vervolgens wordt een regel in het verzekeringsdagboek gemaakt.  
-4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekeringsdagboeken** in en kies de desbetreffende koppeling.  
+4. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzekeringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 5. Open het relevante verzekeringsdagboek, controleer de gemaakte waarden en boek deze naar de dekkingsposten.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Verzekeringsdekking controleren
@@ -92,13 +92,13 @@ U kunt controleren of u niet bent vergeten om een vast activum toe te wijzen aan
 ## <a name="to-view-insurance-coverage-ledger-entries"></a>Verzekeringsdekkingsposten bekijken
 Het is mogelijk om de posten te bekijken die u hebt gemaakt in de dekkingsposten.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekering** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de betreffende verzekeringspolis en kies vervolgens de actie **Verzekeringsdekkingsposten**.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>De totale verzekerde waarde van vaste activa bekijken
 In een speciale matrixpagina worden de verzekeringswaarden weergegeven die voor elke verzekeringspolis zijn geregistreerd voor elk vast activum als een resultaat van verzekeringsgerelateerde bedragen die u hebt geboekt.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekering** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de betreffende verzekeringspolis en kies vervolgens de actie **Totale verzekerde waarde per VA**.  
 3. Vul indien nodig de velden in.  
 4. Kies de actie **Matrix weergeven**.  
@@ -107,7 +107,7 @@ In een speciale matrixpagina worden de verzekeringswaarden weergegeven die voor 
 ## <a name="to-correct-insurance-coverage-entries"></a>Dekkingsposten corrigeren
 Als een vast activum is gekoppeld aan de verkeerde verzekeringspolis, kunt u dit corrigeren door twee herindelingsposten in het verzekeringsdagboek te maken.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekeringsdagboeken** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzekeringsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak één dagboekregel voor een vast activum en de juiste verzekeringspolis waarvoor de waarde in het veld **Bedrag** positief is.  
 3. Maak een andere dagboekregel voor het vaste activum en de onjuiste verzekeringspolis waarvoor de waarde in het veld **Bedrag** negatief is.  
 4. Kies de actie **Boeken**.  

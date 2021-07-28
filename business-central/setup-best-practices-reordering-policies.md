@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a0eb78d64948498b315679c45eb9a8b48fd5606
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784354"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441459"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Aanbevolen procedures instellen: Bestelbeleid
 Het veld **Bestelbeleid** op artikelkaarten biedt vier verschillende planningmethodes die de interactie tussen de afzonderlijke planningsparameters aansturen.  
@@ -30,7 +30,7 @@ De aanbevolen procedure voor het selecteren van een bestelbeleid is de ABC-class
 
 De ABC-classificatie stelt dat inspanningen en geld bespaard kunnen worden door minder controle toe te passen op items met een lage waarde/volume-verhouding dan op items met een hoge waarde/volume-verhouding. De volgende illustratie toont welk bestelbeleid in [!INCLUDE[prod_short](includes/prod_short.md)] het geschiktst is voor respectievelijk items van het type A, B of C.
 
-![ABC-classificatie](media/abc_classification.png "abc_classification")
+![ABC-classificatie.](media/abc_classification.png "abc_classification")
 
 De volgende tabel bevat de aanbevolen procedures voor het selecteren van de vier beleidsterreinen.  
 

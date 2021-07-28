@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935323"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440886"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
 
@@ -63,7 +63,7 @@ Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u 
 1. Open uw browser, ga naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com) en meld u aan bij uw account.
 2. Selecteer **Gegevens ophalen** onder in het linkernavigatiedeelvenster.  
 
-    ![Navigeren om gegevens op te halen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Navigeren om gegevens op te halen.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     U kunt ook aan de slag gaan vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. Navigeer vanaf uw startpagina naar **Rapportselectie** in de sectie Power BI. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Nu wordt de Organisatiegalerie in Power BI of Microsoft AppSource geopend en hierin is een filter toegepast, zodat alleen die apps worden weergegeven die zijn gerelateerd aan [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -89,7 +89,7 @@ Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u 
 5. Voer desgevraagd de gebruikersnaam en het wachtwoord in om u aan te melden bij [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Eenmaal verbonden worden een dashboard en rapporten aan uw Power BI-werkruimte toegevoegd. Wanneer dit is voltooid, bevatten de tegels gegevens uit uw [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijf.
 
-    ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Problemen oplossen
 

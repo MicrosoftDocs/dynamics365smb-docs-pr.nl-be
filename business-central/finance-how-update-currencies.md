@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184461"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441634"
 ---
 # <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
 
@@ -23,7 +23,10 @@ Vervolgens moet u valutacodes instellen voor elke valuta die u gebruikt als u ko
 > [!Important]
 > Maak de lokale valutacode niet zowel op de pagina **Grootboek instellen** als op de pagina **Valuta's**. Hierdoor ontstaat er verwarring tussen de blanco valuta en de LV-code in de valutatabel en kunnen per ongeluk bankrekeningen, klanten of leveranciers worden gemaakt, sommige met de blanco valuta en sommige met de LV-code.
 
-Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het ook instellen om een andere valuta te gebruiken, waaraan een valutawisselkoers is toegewezen. Door een tweede valuta in te stellen als een zogenaamde aanvullende rapportagevaluta, legt [!INCLUDE[prod_short](includes/prod_short.md)] bedragen automatisch vast in zowel de LV als deze aanvullende rapportagevaluta voor elke grootboekpost en andere posten, zoals btw-posten. Zie voor meer informatie [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md). De aanvullende rapportagevaluta wordt meestal gebruikt om financiële rapportage te vergemakkelijken voor eigenaren die woonachtig zijn in landen/regio's die andere valuta's gebruiken dan de lokale valuta (LV).
+Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het ook instellen om een andere valuta te gebruiken, waaraan een valutawisselkoers is toegewezen. Door een tweede valuta in te stellen als een zogenaamde aanvullende rapportagevaluta, legt [!INCLUDE[prod_short](includes/prod_short.md)] bedragen automatisch vast in zowel de LV als deze aanvullende rapportagevaluta voor elke grootboekpost en andere posten, zoals btw-posten. Zie voor meer informatie [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md). De aanvullende rapportagevaluta wordt meestal gebruikt om financiële rapportage te vergemakkelijken voor eigenaren die woonachtig zijn in landen/regio's die andere valuta's gebruiken dan de lokale valuta (LV).  
+
+> [!IMPORTANT]
+> Als u een extra rapportagevaluta wilt gebruiken voor financiële rapportage, zorg er dan voor dat u de beperkingen begrijpt. Zie voor meer informatie [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Valuta's
 
@@ -66,6 +69,8 @@ U geeft de valutacodes op de pagina **Valuta's** op, inclusief extra informatie 
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Voorbeeld van een te ontvangen valutatransactie
 
+Wanneer u een factuur van een bedrijf in een vreemde valuta ontvangt, is het vrij eenvoudig om de LV-waarde van de factuur te berekenen op basis van de huidige valutakoers. De factuur wordt echter vaak geleverd met betalingsvoorwaarden, zodat u de betaling kunt uitstellen naar een latere datum, wat een mogelijk andere valutakoers impliceert. Dit probleem in combinatie met het feit dat de bankvaluta's altijd verschillen van de officiële valutakoersen, maakt het onmogelijk om het exacte bedrag in lokale valuta (LV) te voorspellen dat nodig is om de factuur te dekken. Als de vervaldatum van de factuur zich uitstrekt tot de volgende maand, moet u mogelijk ook het bedrag in lokale valuta (LV) aan het einde van de maand herwaarderen. De valutacorrectie is nodig omdat de nieuwe LV-waarde die nodig is om het factuurbedrag te dekken mogelijk anders is en de bedrijfsschuld aan de leverancier mogelijk is gewijzigd. Het nieuwe LV-bedrag kan hoger of lager zijn dan het vorige bedrag en zal daarom een winst of een verlies vertegenwoordigen. Aangezien de factuur echter nog niet is betaald, wordt de winst of het verlies beschouwd als *niet gerealiseerd*. Later wordt de factuur betaald en komt de bank met de werkelijke valutakoers voor de betaling. Nu pas wordt de *gerealiseerde* winst of verlies berekend. Deze niet-gerealiseerde winst of verlies wordt vervolgens teruggeboekt en in plaats daarvan wordt de gerealiseerde winst of het gerealiseerde verlies geboekt.
+
 In het volgende voorbeeld wordt op 1 januari een factuur ontvangen met het valutabedrag 1000. Op dat moment is de wisselkoers 1,123.
 
 |Datum|Actie|Valutabedrag|Documentkoers|LV-bedrag in document|Vereffeningskoers|Ongerealiseerd winstbedrag|Betalingskoers|Gerealiseerd verliesbedrag|  
@@ -85,7 +90,7 @@ Ten slotte wordt de betaling geregistreerd en wordt het werkelijke verlies geboe
 
 ## <a name="available-currency-functions"></a>Beschikbare valutafuncties
 
-de volgende tabel geeft een overzicht van de belangrijkste acties op de pagina **Valuta's**. Enkele van de acties worden in de volgende secties uitgelegd.  
+De volgende tabel geeft een overzicht van de belangrijkste acties op de pagina **Valuta's**. Sommige van de acties worden in de volgende secties uitgelegd.  
 
 |Menu|Actie|Omschrijving|
 |-------------|--------------|------------------------------|
@@ -117,21 +122,21 @@ Over het algemeen worden de waarden van de velden **Wisselkoersbedrag** en **Rel
 
 > [!Note]
 > De huidige valutakoers wordt berekend met behulp van deze formule:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
-Het correctiewisselkoersbedrag of het relationele correctiekoersbedrag wordt gebruikt om alle openstaande bank-, te ontvangen of te betalen transacties bij te werken.  
+Het correctiewisselkoersbedrag of het relationele correctiekoersbedrag wordt gebruikt om alle openstaande banktransacties en te ontvangen of te betalen transacties bij te werken.  
 
 > [!Note]
 > De huidige valutakoers wordt berekend met behulp van deze formule:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Wisselkoersen corrigeren
 
 Aangezien valutakoersen constant wisselen, moeten de extra valuta-equivalenten in uw systeem periodiek worden gecorrigeerd. Als deze correcties niet worden uitgevoerd, kunnen de bedragen die omgerekend zijn van vreemde (of extra) valuta's en geboekt zijn in het grootboek in LV misleidend zijn. Bovendien moeten dagelijkse posten die geboekt zijn doordat een dagwisselkoers is ingevoerd in de toepassing, worden bijgewerkt nadat de dagwisselkoersgegevens zijn ingevoerd.
 
-De batchverwerking **Wisselkoers herwaarderen** wordt gebruikt om de wisselkoersen van de geboekte klant, leverancier en bankrekeningposten handmatig te corrigeren. U kunt er tevens extra rapportagevalutabedragen in grootboekposten mee bijwerken.  
+De batchverwerking **Wisselkoersen herwaarderen** wordt gebruikt om de wisselkoersen van de geboekte klanten-, leveranciers- en bankrekeningposten handmatig te corrigeren. U kunt er tevens extra rapportagevalutabedragen in grootboekposten mee bijwerken.  
 
 > [!TIP]
 > U kunt een service gebruiken om de wisselkoersen in het systeem automatisch bij te werken. Zie [Een wisselkoersservice instellen](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service) voor meer informatie. Hiermee past u echter de wisselkoersen van reeds geboekte transacties niet aan. Als u de wisselkoersen van geboekte posten wilt bijwerken, moet u de batchtaak **Wisselkoersen herwaarderen** gebruiken.
@@ -143,12 +148,15 @@ Voor klanten- en leveranciersrekeningen wordt de valuta tijdens de batchverwerki
 In de batchverwerking worden alle open klantenposten en leveranciersposten verwerkt. Als er sprake is van een wisselkoersverschil voor een post, wordt in de batchverwerking een nieuwe gedetailleerde klanten- of leverancierspost gemaakt. Deze post staat voor het aangepaste bedrag op de klanten- of leverancierspost.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensies in klanten- en leveranciersposten
+
 De herwaarderingsposten krijgen de dimensies van de klanten-/leveranciersposten toegewezen en de herwaarderingen worden geboekt per combinatie van dimensiewaarden.
 
 ### <a name="effect-on-bank-accounts"></a>Effect op bankrekeningen
+
 Voor bankrekeningen wordt de valuta tijdens de batchverwerking geherwaardeerd met de wisselkoers die geldig is op de opgegeven boekingsdatum. Tijdens de batchverwerking worden de verschillen voor elke bankrekening met een valutacode berekend en worden de bedragen geboekt naar de opgegeven grootboekrekening in het veld **Gereal. koerswinstrekening** of **Gereal. koersverliesrekening** in de tabel **Valuta's**. Tegenposten worden automatisch geboekt naar de grootboekrekeningen die in de bankboekingsgroepen zijn opgegeven. Tijdens de batchverwerking wordt één post per valuta per boekingsgroep berekend.
 
 #### <a name="dimensions-on-bank-account-entries"></a>Dimensies op bankrekeningposten
+
 De herwaarderingsposten voor de grootboekrekening van de bankrekening en voor de winst-/verliesrekening krijgen de standaarddimensies van de bankrekening toegewezen.
 
 ### <a name="effect-on-gl-accounts"></a>Effect op grootboekbankrekeningen
@@ -165,20 +173,20 @@ De herwaarderingsposten krijgen de standaarddimensies toegewezen van de rekening
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Een wisselkoersservice instellen
 U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, zoals FloatRates.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valutawisselkoersservices** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Valutawisselkoersservices** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul op de pagina **Valutawisselkoersservice** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Zet de schakelaar **Ingeschakeld** aan om de service in te schakelen.
 
 > [!NOTE]
-> De volgende video toont een voorbeeld van hoe u verbinding kunt maken met een valutawisselkoersservice, waarbij de Europese Centrale Bank als voorbeeld wordt gebruikt. In het segment dat beschrijft hoe u veldtoewijzingen instelt, retourneert de instelling in de kolom **Bron** voor de **Hoofdknooppunt voor valutacode** alleen de eerste gevonden valuta. De instelling moet zijn **/gesmes:Envelop/Code/Code/Code**.
+> De volgende video toont een voorbeeld van hoe u verbinding kunt maken met een valutawisselkoersservice, waarbij de Europese Centrale Bank als voorbeeld wordt gebruikt. In het segment dat beschrijft hoe u veldtoewijzingen instelt, retourneert de instelling in de kolom **Bron** voor de **Hoofdknooppunt voor valutacode** alleen de eerste gevonden valuta. De instelling moet zijn `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Valutawisselkoersen bijwerken met een service
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valuta's** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Valuta's** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Wisselkoersen bijwerken**.
 
 De waarde in het veld **Wisselkoers** op de pagina **Valuta's** wordt bijgewerkt met de laatste wisselkoers.

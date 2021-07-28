@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784677"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441080"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Aangepaste rapportlay-outs importeren en exporteren
 U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een bestand van en naar een locatie op uw computer of in uw netwerk. U kunt bijvoorbeeld een rapportlay-out exporteren en het bestand vervolgens voor wijziging naar iemand anders verzenden. Die persoon kan vervolgens de wijzigingen in de lay-out aanbrengen en het bestand aan u retourneren zodat u het weer kunt importeren.  
@@ -25,7 +25,7 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Een rapportlay-out exporteren naar een bestand  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie van rapportlay-out** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
 
 2.  Selecteer de rij voor het rapport dat de aangepaste rapportlay-outs bevat die u wilt exporteren. Kies vervolgens de actie **Aangepaste lay-outs**.  
 
@@ -39,7 +39,7 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
      Een bestand met een Word-rapportlay-out moet de bestandsextensie .docx hebben. Een bestand met een RDLC-rapportlay-out moet de bestandsextensie .rdlc of .rdl hebben.  
 
-2.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie van rapportlay-out** in en kies de gerelateerde koppeling.  
+2.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
 
 3.  Selecteer de rij voor het rapport waarin u de rapportlay-out wilt importeren en kies de actie **Aangepaste lay-outs**.  
 

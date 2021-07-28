@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 55196b8026e5efc5a79ce1a547e2ff594fae231c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b831443bd9e068b4c20f583cc8e0e7132d75ac5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786035"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441155"
 ---
 # <a name="categorize-items"></a>Artikelen categoriseren
 
@@ -27,7 +27,7 @@ Als u artikelen op basis van kenmerken wilt zoeken, kunt u artikelkenmerken aan 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
 ## <a name="to-create-an-item-category"></a>Een artikelcategorie maken
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelcategorieën** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelcategorieën** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Artikelcategorieën** de actie **Nieuw**.
 3. Vul indien nodig de velden op de pagina **Artikelcategoriekaart** op het sneltabblad **Algemeen** in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Geef op het sneltabblad **Kenmerken** alle artikelkenmerken voor de artikelcategorie op. Zie voor meer informatie [Artikelkenmerken aan artikelcategorieën toewijzen](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
@@ -42,7 +42,7 @@ Als u van gedachten verandert over een artikelcategorie, kunt u deze verwijderen
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Een artikelcategorie aan een artikel toewijzen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor het artikel dat u aan een artikelcategorie wilt toewijzen.
 3. Kies in het veld **Artikelcategoriecode** de zoekknop en selecteer een bestaande artikelcategorie. U kunt ook de actie **Nieuw** kiezen om eerst een nieuwe artikelcategorie te maken, zoals is uitgelegd in het gedeelte [Een artikelcategorie maken](inventory-how-categorize-items.md#to-create-an-item-category).
 

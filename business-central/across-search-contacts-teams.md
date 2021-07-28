@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935173"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440761"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams
 
@@ -42,13 +42,13 @@ Het opdrachtvak staat bovenaan elk scherm in Teams. Hiermee kunt u zoeken, snell
 
 1. Typ in het opdrachtvak **@Business Central** en selecteer vervolgens de Business Central-app uit de resultaten.
 
-    ![De Business Central-app openen om vanuit het opdrachtvak naar contacten te zoeken](media/teams-contacts-command-1.png)
+    ![De Business Central-app openen om vanuit het opdrachtvak naar contacten te zoeken.](media/teams-contacts-command-1.png)
 
 2. Begin in het **Business Central**-vak met het typen van zoektekst, zoals een naam, adres of telefoonnummer.
 
     Terwijl u typt, worden overeenkomende resultaten weergegeven.
 
-    ![Business Central-contacten zoeken vanuit het opdrachtvak in Teams](media/teams-contacts-command-2.png)
+    ![Business Central-contacten zoeken vanuit het opdrachtvak in Teams.](media/teams-contacts-command-2.png)
 3. Selecteer een contact uit de resultaten.
 
     De contactkaart verschijnt onder het opdrachtvak.
@@ -65,13 +65,13 @@ Het voordeel van het opstellen van berichten is dat u een contactkaart rechtstre
 
     Als u het **Business Central**-pictogram niet ziet, selecteert u **... (Berichtextensies)**.
 
-    ![De Business Central-app openen om vanuit het berichtvak naar contacten te zoeken](media/teams-contacts-message-box.png)
+    ![De Business Central-app openen om vanuit het berichtvak naar contacten te zoeken.](media/teams-contacts-message-box.png)
 
 2. Begin in het **Business Central**-vak met het typen van zoektekst, zoals een naam, adres of telefoonnummer.
 
     Terwijl u typt, worden overeenkomende resultaten weergegeven.
 
-    ![Business Central-contacten zoeken vanuit het berichtvak](media/teams-contacts-5.png)
+    ![Business Central-contacten zoeken vanuit het berichtvak.](media/teams-contacts-5.png)
 3. Selecteer een contact uit de resultaten.
 
     De contactkaart wordt weergegeven in het berichtvak.
@@ -101,6 +101,8 @@ De contactkaart werkt net als kaarten voor records, zoals artikelen, klanten of 
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  
 [Veelgestelde vragen over Teams](teams-faq.md)  
+[Bedrijfs- en andere instellingen in Teams wijzigen](across-teams-settings.md)  
+[Records delen in Microsoft Teams](across-working-with-teams.md)  
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

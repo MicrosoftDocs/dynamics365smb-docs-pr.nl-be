@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c17aec818a65aef9e298b40301142cbb40715306
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2e178778e51d63c3398fd4a870bf41fa8b1a086f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782345"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442222"
 ---
 # <a name="revalue-fixed-assets"></a>Vaste activa herwaarderen
 De herwaardering van vaste activa kan bestaan uit waardevermeerderingen, waardeverminderingen of algemene waardecorrecties.
@@ -28,7 +28,7 @@ Als de waarde van een vast activum is gedaald, boekt u een dagboekregel met een 
 Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op basis van algemene prijswijzigingen. Met de batchverwerking **Vaste activa indexeren** kunt u diverse bedragen wijzigen, zoals waardeverminderingsbedragen en waardevermeerderingsbedragen.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Een waardevermeerdering boeken vanuit het financieel dagboek voor vaste activa
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboeken** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een eerste dagboekregel en vul de velden indien nodig in.
 3. In het veld **VA-boekingssoort** selecteert u **Herwaardering**.
 4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van de waardevermeerdering is ingesteld.
@@ -38,7 +38,7 @@ Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op
 5. Kies de actie **Boeken**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Een waardevermindering boeken vanuit het financieel dagboek voor vaste activa
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboeken** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een eerste dagboekregel en vul de velden indien nodig in.
 3. In het veld **VA-boekingssoort** selecteert u **Waardevermindering**.
 4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van de waardevermindering is ingesteld.
@@ -50,12 +50,12 @@ Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Algemene herwaardering van vaste activa uitvoeren
 Indexering wordt gebruikt om meerdere waarden voor vaste activa aan te passen op basis van algemene prijswijzigingen. Met de batchverwerking **Vaste activa indexeren** kunt u diverse bedragen wijzigen, zoals waardeverminderingsbedragen en waardevermeerderingsbedragen. Het selectievakje **Indexering toegestaan** op de pagina **Afschrijvingsboek** moet zijn ingeschakeld.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast activum indexeren** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast activum indexeren** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
 3. Kies de knop **Ok**.
 
     De herwaardering regels worden gemaakt op basis van uw instellingen in stap 2. De regels worden gemaakt in het dagboek voor vaste activa of het financieel dagboek voor vaste activa, afhankelijk van uw sjabloon en batchinstellingen op de pagina **VA-dagboekinstellingen**. Zie [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md) voor meer informatie.
-4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboeken** in en kies de gerelateerde koppeling.  
+4. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 5. Selecteer het dagboek met de vaste activa die u wilt herwaarderen en kies vervolgens de actie **Posten**.  
 6. Controleer de gemaakte posten en kies vervolgens de actie **Boeken** om het dagboek te boeken.
 

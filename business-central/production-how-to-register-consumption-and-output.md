@@ -1,6 +1,6 @@
 ---
-title: Verbruik en output registreren voor één productieorder | Microsoft Docs
-description: 'Het gaat hier om een uitvoeringstaak die wordt uitgevoerd op de pagina **Productiedagboek**. Hierin worden de functies van de dagboeken voor afzonderlijk gebruik en voor output in één dagboek gecombineerd. Het gecombineerde dagboek kan rechtstreeks vanuit een vrijgegeven productieorder worden geopend. De belangrijkste doelen van het dagboek zijn: het handmatig boeken van materiaalverbruik, het aantal geproduceerde eindartikelen en de tijd die bewerkingen kosten.'
+title: Verbruiksoutput registreren voor productieorder
+description: In dit onderwerp wordt uitgelegd hoe u verbruik en output registreert voor een vrijgegeven productieorderregel die wordt weergegeven op de pagina Productiedagboek.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3b73c2cde88292a38c43e9fcc3bd63b031cd6591
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2ecf59472adb8b153b2b6feeea62591e0565085
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787839"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441559"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Verbruik en output registreren voor één vrijgegeven productieorderregel
 Het gaat hier om een uitvoeringstaak die wordt uitgevoerd op de pagina **Productiedagboek**. Hierin worden de functies van de dagboeken voor afzonderlijk gebruik en voor output in één dagboek gecombineerd. Het gecombineerde dagboek kan rechtstreeks vanuit een vrijgegeven productieorder worden geopend. De belangrijkste doelen van het dagboek zijn: het handmatig boeken van materiaalverbruik, het aantal geproduceerde eindartikelen en de tijd die bewerkingen kosten. De waarden worden geboekt naar posten onder de vrijgegeven productieorder. Verbruiksaantallen worden geboekt als negatieve artikelposten, outputaantallen worden geboekt als positieve artikelposten en bestede tijd wordt geboekt als capaciteitspost. Die geboekte waarden kunnen ook onder in het dagboek worden weergegeven als werkelijke aantallen.  
@@ -27,7 +27,7 @@ Het gaat hier om een uitvoeringstaak die wordt uitgevoerd op de pagina **Product
 >  materialen zonder bewerkingsplankoppelingen worden in het dagboek als eerste weergegeven.  
 
 ## <a name="to-register-consumption-and-output"></a>Verbruik en output registreren  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open een vrijgegeven productieorderregel die gereed is voor registratie en kies op het sneltabblad **Regels** de actie **Regel** en kies vervolgens de actie **Productiedagboek**.  
 
     De pagina **Productiedagboek** wordt geopend met dagboekregels voor de productieorderregel volgens de pagina's **Materiaalregel** en **Prod.-orderbewerkingsplan**. Deze regels zijn afkomstig uit de productiestuklijst en het bewerkingsplan die zijn toegewezen aan het artikel dat wordt geproduceerd. Zie voor meer informatie [Productiestuklijsten maken](production-how-to-create-routings.md).  

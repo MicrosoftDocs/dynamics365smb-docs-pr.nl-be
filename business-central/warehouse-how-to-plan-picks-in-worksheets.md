@@ -1,6 +1,6 @@
 ---
-title: Picks plannen in het voorstel | Microsoft Docs
-description: Als voor het magazijn zowel pick- als verzendingsverwerking is vereist, hebt u de keuze om van de regels op verzenddocumenten niet automatisch pickinstructies te maken, maar de regels beschikbaar te stellen in het pickvoorstel.
+title: Picks plannen in het voorstel
+description: Ontdek hoe het magazijn ervoor kan kiezen om zo te werken dat de regels op verzenddocumenten beschikbaar worden gemaakt voor het pickwerkblad.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 55ac86ff992709bb454eaadfa65d8d5eed98732e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46032a3a3ef44d56953ca9db7185e96eacf0770e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782596"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441847"
 ---
 # <a name="plan-picks-in-worksheets"></a>Picks plannen in het voorstel
 
@@ -39,11 +39,11 @@ Bij een sortering op vervaldatum hebt u de keuze om de regels die geen directe a
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>U kunt als volgt picks plannen in het voorstel
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Magazijndocumenten ophalen**.  
 3. Selecteer de verzendingen waarvoor u een pick wilt voorbereiden. Hoewel u de regels nog in beperkte mate kunt sorteren, zal de sortering niet meer worden overgenomen op de pickinstructie. U kunt ook bepaalde regels verwijderen om een nog efficiëntere pick te maken. Als er bijvoorbeeld regels zijn met artikelen die in cross-docklocaties zijn geplaatst, kunt u een pick maken voor alle regels die verbonden zijn aan deze regels. De cross-dockartikelen worden dan verzonden, samen met de andere artikelen in de verzending, en in de cross-docklocaties komt ruimte vrij voor andere binnenkomende artikelen.  
 4. Kies de actie **Pick maken** en vul de aanvraagpagina **Pick maken** in. De nieuwe pickregels worden gesorteerd volgens de methode die u hier kiest. Stel dat u voor elke zone één pick maakt, dan kunt u de regels binnen elke pick sorteren op rangorde van opslaglocatie.  
-5. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies de desbetreffende koppeling. Het venster **Magazijnpicks** wordt geopend.  
+5. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling. Het venster **Magazijnpicks** wordt geopend.  
 6. U kunt de pickopdracht die u hebt gemaakt nu opzoeken door op Pick, Overzicht te klikken en de pick met het hoogste nummer te selecteren.  
 7. U kunt indien nodig de toegewezen gebruikers-id en sortering van de regels van de pick nog wijzigen.  
 8. Kies de actie **Afdrukken** om de pickinstructies af te drukken.  

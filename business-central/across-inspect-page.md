@@ -10,16 +10,18 @@ ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 09dba629e977707921129261ea2540cc223c15dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 99dd133c3f3ab05806976c5fe840f81dcd8e1403
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784952"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440911"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Pagina's inspecteren in Business Central
 
 Met de pagina-inspectiefunctie kunt u details opvragen over een pagina, wat inzicht biedt in het paginaontwerp, de verschillende onderdelen waaruit de pagina bestaat en de bron achter de gegevens op de pagina. Pagina-inspectie is speciaal ontworpen voor beheerders, geavanceerde gebruikers, ondersteuningsmedewerkers en ontwikkelaars. Het is ideaal voor het leren van het gegevensmodel achter een pagina en voor het oplossen van problemen. Als u bijvoorbeeld een probleem met een pagina hebt, kunt u pagina-inspectie gebruiken om informatie te krijgen die u kunt doorgeven aan uw systeembeheerder of ondersteuningsmedewerkers.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Werken met Pagina-inspectie
 
@@ -27,7 +29,7 @@ U begint pagina-inspectie vanaf de pagina **Help en ondersteuning**. Kies het vr
 
 Het deelvenster **Pagina-inspectie** opent aan de zijkant. In de volgende afbeelding ziet u het deelvenster **Pagina-inspectie** op de pagina **Verkooporder**.
 
-![Pagina-inspectie](media/page-inspection-example.png)
+![Pagina-inspectie.](media/page-inspection-example.png)
 
 Wanneer het deelvenster **Pagina-inspectie** wordt geopend, bevat het informatie over het hoofdpaginaobject.
 

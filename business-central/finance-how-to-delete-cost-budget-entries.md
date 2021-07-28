@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2f05388149e9e6587f916db79b652e64ad5d02e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d506a6f1a5aa40a7dcc77bab66d5a13085d364c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774851"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442172"
 ---
 # <a name="delete-cost-budget-entries"></a>Kostenbudgetposten verwijderen
 Door middel van de batchtaak **Kostenbudgetposten verwijderen** annuleert u kostenbegrotingsposten uit het kostenbudgetregister.  
@@ -24,7 +24,7 @@ Om hiaten in de kostenbudgetposten en kostenregisterposten te voorkomen, kunt u 
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Kostenbudgetposten verwijderen  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenbudgetposten verwijderen** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostenbudgetposten verwijderen** in en kies vervolgens de gerelateerde koppeling.  
 
     Het veld **Naar journaalnr.** bevat het nummer van de laatste journaalpost en kan niet worden gewijzigd.  
 

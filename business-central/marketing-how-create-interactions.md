@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 92965b353dadb78e50b11138a832115885518f4f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19cfc6b241e72d63a0f2c00ee43b32682cdeefae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780719"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441105"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Interacties maken voor contacten en segmenten
 U kunt interacties maken om alle interacties en communicatie vast te leggen die u hebt met uw contacten en segmenten, bijvoorbeeld direct mail.
@@ -38,7 +38,7 @@ Voordat u interacties maakt, moet u interactiesjablonen instellen. Zie voor meer
 3. Selecteer de interactie die u wilt voltooien, en kies vervolgens de actie **Hervatten**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Een interactie voor een segment maken
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Segmenten** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Segment** in het gedeelte **Interactie** de velden in waarmee u wilt opgeven welke interactie u wilt toewijzen aan het segment.
 
     Nadat u een interactie aan het segment hebt toegewezen, kunt u de interactie persoonlijk aanpassen voor de verschillende contacten in het segment, bijvoorbeeld door een andere interactiesjabloon te selecteren of door de bijlage te wijzigen op de regels op de pagina **Segment**.  

@@ -1,6 +1,6 @@
 ---
-title: 'Ontwerpdetails: Inkomende magazijnstromen | Microsoft Docs'
-description: De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op het picken van onderdelen en het opslaan van eindartikelen voor assemblage of productieorders en ad hoc verplaatsingen, zoals opslaglocatieaanvullingen, zonder een relatie met brondocumenten.
+title: 'Ontwerpdetails: Interne magazijnstromen'
+description: De stroom tussen opslaglocaties draait om het picken van componenten en het wegzetten van eindproducten voor assemblage- of productieorders en ad-hocbewegingen, zonder brondocumenten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7be0a3907b59a17e6f77e4ae8eb3a36fc62d8f7a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215140"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441759"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Ontwerpdetails: Inkomende magazijnstromen
 De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op het picken van onderdelen en het opslaan van eindartikelen voor assemblage of productieorders en ad hoc verplaatsingen, zoals opslaglocatieaanvullingen, zonder een relatie met brondocumenten. De omvang en aard van de betrokken activiteiten verschillen tussen de basis- en geavanceerde magazijnfuncties.  
@@ -114,7 +114,7 @@ De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op 
 
  De volgende illustratie geeft aan wanneer het veld **Opslaglocatie** in de materialenlijst wordt gevuld volgens de instelling van uw vestiging of bewerkingsplaats/afdeling.  
 
- ![Overzicht van wanneer/hoe het veld Opslaglocatie wordt ingevuld](media/binflow.png "Overzicht van wanneer/hoe het veld Opslaglocatie wordt ingevuld")  
+ ![Overzicht van wanneer/hoe het veld Opslaglocatie wordt ingevuld.](media/binflow.png "Overzicht van wanneer/hoe het veld Opslaglocatie wordt ingevuld")  
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)

@@ -1,6 +1,6 @@
 ---
-title: Een beschikbaarheidsoverzicht krijgen| Microsoft Docs
-description: U kunt informatie verkrijgen over de beschikbaarheid van artikelen of voorraad in verschillende vestigingen, per verkoop- of inkoopgebeurtenis, per periode of per positie van het artikel in een assemblage- of productiestuklijst.
+title: Een beschikbaarheidsoverzicht verkrijgen
+description: U kunt informatie verkrijgen over de beschikbaarheid van artikelen of voorraad in verschillende vestigingen, per verkoop- of inkoopgebeurtenis, per periode en meer.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e5be238c74496ca92c0f26ef0c2a1377a6c93466
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786080"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441205"
 ---
 # <a name="view-the-availability-of-items"></a>Beschikbaarheid van artikelen weergeven
 Vanuit de context van een zakelijke taak kunt u geavanceerde informatie krijgen over waar en wanneer een artikel beschikbaar is, zoals wanneer u met een klant praat over een leverdatum.
 
-U kunt de beschikbaarheid van alle artikelen per vestiging bekijken en u kunt de beschikbaarheid van elk artikel per gebeurtenis, per periode, of per vestiging weergegeven. Een gebeurtenis is elke geplande artikeltransactie, bijvoorbeeld een verkoopverzending of een inkomende transferontvangst.
+U kunt de beschikbaarheid van alle artikelen per vestiging bekijken en u kunt ook de beschikbaarheid van elk artikel per gebeurtenis of per periode bekijken. Een gebeurtenis is elke geplande artikeltransactie, bijvoorbeeld een verkoopverzending of een inkomende transferontvangst.
 
 > [!NOTE]  
 >   Beschikbaarheidsweergaven per vestiging vereisen dat u voorraad onderhoudt op meerdere vestigingen. Zie [Vestigingen instellen](inventory-how-setup-locations.md) voor meer informatie.
@@ -42,7 +42,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] worden de beschikbaarheidscijf
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>U kunt de beschikbaarheid van een artikel weergeven op basis van wanneer het wordt verzonden of ontvangen
 U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltransacties op de pagina **Artikelbeschikbaarheid per gebeurtenis**.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
 3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Gebeurtenis**.
 
@@ -52,7 +52,7 @@ U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltra
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>De beschikbaarheid van een artikel in verschillende perioden weergeven
 U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde perioden weer op de pagina **Beschikbaarheid per periode**.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
 3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Periode**.
 
@@ -62,7 +62,7 @@ U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>De beschikbaarheid weergeven van een artikel op de vestigingen waar het is opgeslagen
 U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar het is opgeslagen, weer op de pagina **Artikelbeschikbaarheid per vestiging**.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
 3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Vestiging**.
 
@@ -73,7 +73,7 @@ U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>De beschikbaarheid weergeven van alle artikelen op de vestiging waar ze zijn opgeslagen
 U geeft de beschikbaarheid van al uw artikelen in al uw vestigingen weer op de pagina **Artikelen per vestiging**.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Artikelen per vestiging**.
 
     De pagina **Artikelen per vestiging** toont voor al uw artikelen hoeveel er in elke vestiging beschikbaar zijn.

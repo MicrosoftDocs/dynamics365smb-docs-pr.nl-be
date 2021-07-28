@@ -1,6 +1,6 @@
 ---
-title: Serviceorders maken | Microsoft Docs
-description: Op de pagina **Serviceorder** kunt u documenten maken waarin u op aanvraag van de klant voor serviceartikelen gegevens invoert over een service, als bijvoorbeeld herstel en onderhoud.
+title: Serviceorders maken
+description: Leer de verschillende taken die betrokken zijn bij het maken van serviceorders in Business Central, zoals het maken van een nieuwe serviceorder of -orders op basis van een servicecontract.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fe6d0d5d4e56eac907e6b29f7958cd690ebaced7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: adac8451aadd5aa5d6c772b16baefe60dea317b1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781497"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441947"
 ---
 # <a name="create-service-orders"></a>Serviceorders maken
 Op de pagina **Serviceorder** kunt u documenten maken waarin u op aanvraag van de klant voor serviceartikelen gegevens invoert over een service, als bijvoorbeeld herstel en onderhoud.  
@@ -23,7 +23,7 @@ Op de pagina **Serviceorder** kunt u documenten maken waarin u op aanvraag van d
 Wanneer u een serviceorder maakt, hoeft u slechts een paar velden in te vullen. Sommige velden zijn optioneel en veel worden automatisch ingevuld wanneer u verwante velden invult.  
 
 ## <a name="to-create-a-service-order"></a>Serviceorders maken    
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling  
 2. Maak een nieuwe serviceorder.  
 3. Selecteer in het veld **Nr.** een nummer voor de serviceorder in.  
 
@@ -38,7 +38,7 @@ Wanneer u een serviceorder maakt, hoeft u slechts een paar velden in te vullen. 
 ## <a name="to-create-a-service-order-from-a-contract"></a>Serviceorders maken van contracten  
 U kunt automatisch serviceorders voor het onderhoud van serviceartikelen maken op basis van servicecontracten.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contractserviceorders maken** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceorders maken** in en kies vervolgens de gerelateerde koppeling.  
 2. Stel op het sneltabblad **Servicecontractkop** de gewenste filters in.  
 3. Op het Sneltabblad **Opties** vult u de velden **Begindatum** en **Einddatum** in met de begindatum en einddatum van de periode waarvoor u contractserviceorders wilt maken. Met de batchverwerking maakt u serviceorders waarin serviceartikelen in servicecontracten zijn opgenomen met de volgende geplande servicedatums in deze periode.  
 
@@ -54,14 +54,14 @@ Wanneer een klant een servicecontractofferte heeft geaccepteerd, zet u deze om i
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] wordt gezocht naar toewijzingsposten voor alle serviceartikelen met de status **Actief** in de serviceofferte. Als dergelijke toewijzingsposten worden gevonden, wordt de toewijzingsstatus gewijzigd in **Hertoewijzing vereist**. Wanneer u de serviceartikelen in de serviceorder opnieuw toewijst, wordt de status van de geregistreerde toewijzingsposten voor de order gewijzigd in **Gereedgemeld**.   
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontractoffertes** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontractoffertes** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de serviceofferte die u wilt omzetten in een serviceorder.  
 3. Kies de actie **Order maken**.  
 
 ## <a name="to-check-item-availability-for-one-or-more-orders"></a>Artikelbeschikbaarheid voor een of meer orders controleren  
 U kunt controleren en bekijken of een artikel dat u nodig hebt om een order af te handelen op voorraad is en als dat niet het geval is, wanneer het artikel beschikbaar zal zijn. Daarna kunt u dan, als een artikel beschikbaar is voor reservering, dit artikel reserveren om er zeker van te zijn dat het beschikbaar is voor uw gebruik. U kunt de beschikbaarheid voor een bepaalde order of voor alle orders controleren.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planbord** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planbord** in en kies vervolgens de gerelateerde koppeling.  
 2. Ga op een van de volgende manieren te werk:  
 
     * Als u de beschikbaarheid voor een bepaalde order wilt controleren, kiest u de actie **Vraagoverzicht**.  
@@ -81,7 +81,7 @@ Als u er zeker van wilt zijn dat een artikel voor een serviceorder beschikbaar i
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Regels invoegen op basis van standaardservicecodes  
 Als u standaardservicecodes hebt ingesteld en deze hebt toegewezen aan serviceartikelgroepen, kunt u de standaardregels invoegen die zijn gekoppeld aan de standaardservicecodes op servicedocumenten. Zie voor meer informatie [Standaardservicecodes instellen](service-how-setup-service-coding.md).   
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling  
 2. Maak een nieuwe serviceorder.  
 3. Vul de velden in.  
 4. Vul de vereiste gegevens in op de serviceartikelregels.  
@@ -99,7 +99,7 @@ Wanneer orders volledig zijn gefactureerd, worden ze doorgaans automatisch verwi
 
 Serviceorders worden echter niet automatisch verwijderd als het totale aantal op de order niet vanuit de serviceorder zelf is geboekt, maar vanuit de pagina **Servicefactuur**. In dit geval zult u wellicht gefactureerde orders die niet zijn verwijderd, zelf moeten verwijderen. Hiervoor kunt u de batchverwerking **Gefactureerde serviceorders verwijderen** uitvoeren.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefactureerde serviceorders verwijderen** in en kies de desbetreffende koppeling. De opvraagpagina voor de batchverwerking **Gefactureerde serviceorders verwijderen** wordt geopend.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gefactureerde serviceorders verwijderen** in en kies vervolgens de gerelateerde koppeling. De opvraagpagina voor de batchverwerking **Gefactureerde serviceorders verwijderen** wordt geopend.  
 2. U kunt de orders selecteren die u wilt verwijderen door filters in te stellen in de velden **Nr.**, **Klantnr.** en **Factureren aan**. in.  
 3. Klik op **OK**.  
 

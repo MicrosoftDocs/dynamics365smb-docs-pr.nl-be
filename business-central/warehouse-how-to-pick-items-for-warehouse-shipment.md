@@ -1,6 +1,6 @@
 ---
-title: Artikelen picken voor magazijnverzending | Microsoft Docs
-description: Als voor de locatie zowel magazijnpickverwerking als magazijnverzendingsverwerking is vereist, gebruikt u magazijnpickdocumenten om de pickinformatie te beheren voordat u de magazijnverzending boekt.
+title: Picken van artikelen voor magazijnverzending
+description: Leer hoe u de magazijnpickdocumenten kunt gebruiken om pickinformatie te maken en te verwerken voordat u de magazijnverzending boekt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7f9cc098fc414afcf015821dadbfbe438ca157ef
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b5b92c04fea101959c32775c768bbbaab22a7c3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771766"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441872"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
 Als voor de locatie zowel magazijnpickverwerking als magazijnverzendingsverwerking is vereist, gebruikt u magazijnpickdocumenten om de pickinformatie te beheren voordat u de magazijnverzending boekt.  
@@ -38,7 +38,7 @@ U kunt ook magazijn-pickdocumenten op push-wijze vanuit de pagina **Magazijnverz
 >  Zie [Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md) voor informatie over het picken van onderdelen voor assemblageorders in het algemeen, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Picks** in en kies vervolgens de gerelateerde koppeling.  
 
     Als u een bepaalde pick wilt bewerken, selecteert u het pickformulier of het overzicht. U kunt het overzicht ook filteren op picks die speciaal aan u zijn toegewezen. De pickkaart openen.  
 2.  Indien het veld **Toegewezen gebruikers-ID** leeg is, voert u uw ID in om uzelf te identificeren indien nodig.  

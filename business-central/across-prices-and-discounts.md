@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d9dd61f073567dd38c4f80e77bb4ecd0584f558f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7988d7f1b40fed65078032d05c8b12d8e174bc90
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787244"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440836"
 ---
 # <a name="set-up-prices-and-discounts"></a>Prijzen en kortingen instellen
 > [!NOTE]
@@ -47,7 +47,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 #### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de klant en kies vervolgens de actie **Prijzen**.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vul een regel in voor elke combinatie waarmee een speciale verkoopprijs aan de klant wordt verleend.
 
@@ -58,7 +58,7 @@ Standaard is de status van nieuwe prijslijsten **Concept**. Als u klaar bent om 
 
 Als u prijslijsten en prijzen wilt bekijken die van toepassing zijn op specifieke klanten of leveranciers, kiest u op de pagina **Klant** of **Verkoper** de actie **Verkoopprijslijsten** of **Inkoopprijslijsten**. Voor artikelen en resources kunt u prijslijstregels bekijken door **Verkoopprijzen** of **Inkoopprijzen** te kiezen op de pagina's **Artikel** en **Resource**.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de klant en kies vervolgens de actie **Verkoopprijslijsten**. 
 3. Kies **Nieuw** om een nieuwe verkoopprijslijst te maken.
 4. Vul indien nodig de velden in op de sneltabbladen **Algemeen** en **Btw**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,7 +75,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 #### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Regelkortingen**.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vul een regel in voor elke combinatie waarmee een speciale verkoopregelkorting aan de klant wordt verleend.
 
@@ -86,7 +86,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 #### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience/)  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de klant en kies vervolgens de actie **Verkoopprijslijsten**.
 3. Open de prijslijst waarvoor u de regelkorting wilt opgeven.
 4. Zet de schakelaar **Regelkorting toestaan** aan.
@@ -118,7 +118,7 @@ Naast (of in plaats van) een kortingspercentage kunt u administratiekosten aan e
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Een factuurkorting voor een klant instellen
 Nadat u hebt bepaald welke klanten in aanmerking komen voor factuurkortingen, geeft u de factuurkortingscode op de klantenkaarten op en stelt u de voorwaarden voor elke code in.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de klantenpagina voor een klant die voor factuurkortingen in aanmerking komt.
 3. Selecteer in het veld **Factuurkortingscode** een code voor de desbetreffende factuurkortingsvoorwaarden die moeten worden gehanteerd voor het berekenen van factuurkortingen voor de klant. <!--Looks like I can only choose customers in this list-->
 
@@ -142,7 +142,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 Als u verkoopprijzen wilt kopiëren, bijvoorbeeld om de verkoopprijzen van een individuele klant voor een klantenprijsgroep te gebruiken, moet u de batchverwerking **Verkoopprijsvoorstellen maken**. uitvoeren op de pagina **Verkoopprijsvoorstel**.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijsvoorstel** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopprijsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Verkoopprijsvoorstellen maken** .  
 3. Vul op het sneltabblad **Verkoopprijzen** in de velden **Verkoopsoort** en **Verkoopcode** de waarden in van de oorspronkelijke verkoopprijzen die u wilt kopiëren.  
 4. Vul in het bovenste gedeelte van de aanvraagpagina de velden **Verkoopsoort** en **Verkoopcode** in met het type en de naam waarnaar u de verkoopprijzen wilt kopiëren.  
@@ -156,7 +156,7 @@ Als u verkoopprijzen wilt kopiëren, bijvoorbeeld om de verkoopprijzen van een i
 
 De status van de prijslijstregel moet **Concept** zijn. 
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijslijsten** in en kies de desbetreffende koppeling. 
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopprijslijsten** in en kies vervolgens de gerelateerde koppeling. 
 2. Kies de prijslijst die u wilt kopiëren en kies vervolgens **Regels kopiëren**.
 3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -172,7 +172,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 Als u artikelprijzen bulksgewijs wilt bijwerken, bijvoorbeeld alle artikelprijzen met een bepaald percentage wilt verhogen, moet u de batchverwerking **Artikelprijsvoorstellen maken**. uitvoeren. U vindt een koppeling voor de batchverwerking op de pagina **Verkoopprijsvoorstel**.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijsvoorstel** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopprijsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Artikelprijsvoorstellen maken** .  
 3. Voer op het sneltabblad **Artikel** het veld **Nr.** of **Voorraadboekingsgroep** of overige velden in met de oorspronkelijke artikelprijzen die u wilt bijwerken.  
 4. Gebruik in het bovenste gedeelte van de aanvraagpagina de velden **Verkoopsoort** en **Verkoopcode** om aan te geven waarnaar u de verkoopprijzen wilt kopiëren.

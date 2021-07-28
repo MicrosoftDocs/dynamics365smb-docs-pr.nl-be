@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Vooruitbetalingsfacturen maken | Microsoft Docs'
-description: Leer omgaan met situaties waarin u of uw leverancier vooruitbetaling verlangt.
+title: 'Procedure: vooruitbetalingsfacturen maken'
+description: Leer omgaan met situaties waarin u of uw leverancier vooruitbetaling vereist. Gebruik de standaardpercentages voor elke verkoop- of inkoopregel, of u kunt het bedrag naar wens aanpassen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 72a073fcde9ddf20df7c138ab544afb6719b93ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782175"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442197"
 ---
 # <a name="create-prepayment-invoices"></a>Vooruitbetalingsfacturen maken
 
@@ -29,7 +29,7 @@ In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een ver
 
 ## <a name="to-create-a-prepayment-invoice"></a>Een vooruitbetalingsfactuur maken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe verkooporder voor de relevante klant. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 
     Op het sneltabblad **Vooruitbetaling** geeft het veld **Vooruitbetaling %** het percentage aan dat moet worden gebruikt om het vooruitbetalingsbedrag te berekenen. Als er een standaard vooruitbetalingspercentage is op de klantenkaart, wordt het veld automatisch ingevuld. U kunt het percentage wijzigen. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  

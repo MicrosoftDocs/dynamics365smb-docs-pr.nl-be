@@ -1,6 +1,6 @@
 ---
-title: Aangepaste Power BI-rapporten voor Business Central-gegevens weergeven
-description: U kunt Power BI-rapporten gebruiken om extra inzicht te krijgen in gegevens in lijsten.
+title: Aangepaste Power BI-rapporten weergeven
+description: U kunt het Power BI-feitenblok gebruiken om Power BI-rapporten weer te geven en extra inzicht te krijgen in recordgegevens in belangrijke lijsten.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/26/2021
+ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087706"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440936"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -53,7 +53,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
     2. Sleep het veld naar het deelvenster **Filters** en zet het neer in het vak **Filters op alle pagina's**.
     3. Stel het **Filtertype** in op **Basisfiltering**. Het kan geen pagina, visueel element of geavanceerd filter zijn.
 
-    ![Het rapportfilter instellen voor het rapport Verkoopfactuuractiviteit](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+    ![Het rapportfilter instellen voor het rapport Verkoopfactuuractiviteit.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 4. Ontwerp de rapportlay-out.
 
     Maak de lay-out door velden te slepen en visualisaties toe te voegen. Zie voor meer informatie [Werken met de rapportweergave in Power BI Desktop](/power-bi/create-reports/desktop-report-view) in de Power BI-documentatie.
@@ -86,7 +86,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 De grootte van het rapport moet worden ingesteld op 325 bij 310 pixels. Deze grootte is vereist voor een juiste schaling van het rapport in de beschikbare ruimte van het Power BI-besturingselement Feitenblok in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de grootte van het rapport wilt definiëren, plaatst u de focus buiten het rapportlay-outgebied en kiest u vervolgens het pictogram met de verfroller.
 
-![De breedte en hoogte van het rapport instellen voor het rapport Verkoopfactuuractiviteit](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
+![De breedte en hoogte van het rapport instellen voor het rapport Verkoopfactuuractiviteit.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 U kunt de breedte en hoogte van het rapport wijzigen door **Aangepast** in het veld **Soort** te kiezen.
 

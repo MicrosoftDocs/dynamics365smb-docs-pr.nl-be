@@ -1,6 +1,6 @@
 ---
-title: Serviceoffertes maken | Microsoft Docs
-description: Op de pagina **Serviceofferte** kunt u documenten maken waarin u op aanvraag van de klant voor serviceartikelen gegevens invoert over een service, als bijvoorbeeld herstel en onderhoud. U kunt een serviceofferte gebruiken als voorlopig ontwerp voor een serviceorder en de offerte vervolgens omzetten in een serviceorder.
+title: Serviceoffertes maken
+description: Leer hoe u een serviceofferte gebruikt als voorlopig ontwerp voor een serviceorder en de offerte vervolgens omzet in een serviceorder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 09c3426a690ed2541426f586b314abd4778c0051
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a28ee7522faa1e08608deb00718bf955e0e4984
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778209"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441922"
 ---
 # <a name="create-service-quotes"></a>Serviceoffertes maken:
 U kunt serviceoffertes als de basis voor serviceorders zien. Ze zijn zelfs vrijwel identiek. Ze bevatten beide informatie, bijvoorbeeld over wie de klant is, het soort order, het artikel dat service vereist, facturerings- en verzendingsgegevens, en informatie over het werkelijke servicewerk.
@@ -23,7 +23,7 @@ U kunt serviceoffertes als de basis voor serviceorders zien. Ze zijn zelfs vrijw
 U kunt een serviceofferte gebruiken als voorlopig ontwerp voor een serviceorder en de offerte vervolgens omzetten in een serviceorder.  
   
 ## <a name="to-create-a-service-quote"></a>Serviceoffertes maken  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceoffertes** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceoffertes** in en kies vervolgens de gerelateerde koppeling  
 2. Een nieuwe serviceofferte maken.  
 3. Selecteer in het veld **Nr.** een nummer op voor de serviceofferte. Als u op de pagina **Servicebeheerinstellingen** nummerreeksen voor serviceoffertes hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare serviceoffertenummer in te voeren.  
 4. Voer in het veld **Klantnr.**  de betreffende klant uit de lijst.  

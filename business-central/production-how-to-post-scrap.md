@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0abd3da4abd0b91b7541fb545606c569f98b987
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d13bfaf069a10cb1ff92806dbceb46811a770fac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787864"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441584"
 ---
 # <a name="post-scrap-manually"></a>Uitval handmatig boeken
 Als er uitval wordt geproduceerd tijdens de verwerking, kan dit worden ingevoerd in het outputdagboek. 
@@ -24,7 +24,7 @@ Als er uitval wordt geproduceerd tijdens de verwerking, kan dit worden ingevoerd
 > Het outputaantal neemt echter niet toe door het uitvalaantal.  
 
 ## <a name="to-post-scrap-manually"></a>Uitval handmatig boeken  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Voer in het veld **Uitgevallen aantal** het uitvalaantal in.  
 4. Voer in het veld **Uitvalcode** de uitvalcode in.  

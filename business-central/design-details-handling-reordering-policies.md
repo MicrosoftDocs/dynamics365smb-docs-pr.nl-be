@@ -1,6 +1,6 @@
 ---
-title: 'Ontwerpdetails: Bestelbeleid verwerken | Microsoft Docs'
-description: Overzicht van taken voor het definiëren van een bestelbeleid in voorraadplanning.
+title: 'Ontwerpdetails: Bestelbeleid verwerken'
+description: Dit artikel geeft een overzicht van de taken die betrokken zijn bij het afhandelen van bestelbeleid en het definiëren van het bestelbeleid in de leveringsplanning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 37469fd8963131984323827f1f3d9f0b23476b70
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2bc1a4406b82e34db8ecbfa491341606a99dbee7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215215"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441808"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Ontwerpdetails: Bestelbeleid verwerken
 Om een artikel deel te laten nemen aan voorraadplanning, moet een bestelbeleid worden gedefinieerd. Er zijn vier soorten bestelbeleid:  
@@ -67,7 +67,7 @@ In de volgende reeks wordt beschreven hoe het voorspelde voorraadniveau wordt be
 
 Hierna wordt een grafische illustratie van dit principe getoond:  
 
-![Het verwachte voorraadniveau bepalen](media/nav_app_supply_planning_2_projected_inventory.png "Het verwachte voorraadniveau bepalen")  
+![Het verwachte voorraadniveau bepalen.](media/nav_app_supply_planning_2_projected_inventory.png "Het verwachte voorraadniveau bepalen")  
 
 1. Voorziening **Sa** van 4 (vast) sluit vraag **Da** van -3 af.  
 2. CloseDemand: Maak een afnameaanmaning van -3 (niet weergegeven).  
@@ -94,7 +94,7 @@ Voor bestelbeleid dat een bestelpunt gebruikt, kunt u een tijdsinterval opgeven.
 
 Het tijdsinterval geeft het handmatige proces aan om het voorraadniveau op frequente basis te controleren in plaats van voor elke transactie. De gebruiker moet de frequentie (het tijdsinterval) definiëren. De gebruiker verzamelt bijvoorbeeld alle artikelbehoeften van één leverancier om een wekelijkse order te plaatsen.  
 
-![Voorbeeld van tijdsinterval in planning](media/nav_app_supply_planning_2_reorder_cycle.png "Voorbeeld van tijdsinterval in planning")  
+![Voorbeeld van tijdsinterval in planning.](media/nav_app_supply_planning_2_reorder_cycle.png "Voorbeeld van tijdsinterval in planning")  
 
 Het tijdsinterval wordt doorgaans gebruikt om een watervaleffect te voorkomen. Een vereffende rij van vraag en aanbod waarbij bijvoorbeeld een vroege vraag wordt geannuleerd of een nieuwe wordt gemaakt. Het resultaat is dat elke voorzieningenorder (behalve de laatste) opnieuw wordt gepland.
 
@@ -103,7 +103,7 @@ Wanneer de beleidsopties Maximum aantal en Vast bestelaantal worden gebruikt, ri
 
 *Let op: De geplande voorraad [xx] is groter dan het overflowniveau [xx] op de Vervaldatum [xx].*  
 
-![Overflowniveau van voorraad](media/supplyplanning_2_overflow1_new.png "Overflowniveau van voorraad")  
+![Overflowniveau van voorraad.](media/supplyplanning_2_overflow1_new.png "Overflowniveau van voorraad")  
 
 ###  <a name="calculating-the-overflow-level"></a>Het overflowniveau berekenen  
 Het overflowniveau wordt op verschillende manieren berekend, afhankelijk van de planningsinstelling.  
@@ -179,7 +179,7 @@ In dit scenario verandert een klant een verkooporder van 70 in 40 stuks tussen t
 #### <a name="resulting-planning-lines"></a>Resulterende planningsregels  
  Er wordt één planningsregel (waarschuwing) gemaakt om de inkoop met 30 te reduceren, van 90 tot 60, om de geplande voorraad op 100 te houden, op basis van het overflowniveau.  
 
-![Plannen volgens overloopniveau](media/nav_app_supply_planning_2_overflow2.png "Plannen volgens overloopniveau")  
+![Plannen volgens overloopniveau.](media/nav_app_supply_planning_2_overflow2.png "Plannen volgens overloopniveau")  
 
 > [!NOTE]  
 >  Zonder de overflowfunctie wordt er geen waarschuwing gemaakt als het geplande voorraadniveau boven de maximale voorraad is. Dit kan een overbodige voorziening van 30 genereren.
@@ -193,7 +193,7 @@ Het bestelpunt drukt de verwachte vraag uit tijdens de doorlooptijd van het arti
 
  In de volgende illustratie staat aanbod D voor een noodorder om een correctie uit te voeren voor negatieve voorraad.  
 
- ![Suggestie voor noodplanning om negatieve inventaris te voorkomen](media/nav_app_supply_planning_2_negative_inventory.png "Suggestie voor noodplanning om negatieve inventaris te voorkomen")  
+ ![Suggestie voor noodplanning om negatieve inventaris te voorkomen.](media/nav_app_supply_planning_2_negative_inventory.png "Suggestie voor noodplanning om negatieve inventaris te voorkomen")  
 
 1.  Voorziening **A**, de oorspronkelijk geplande voorraad, is onder het bestelpunt.  
 2.  Er is een nieuwe voorwaarts-geplande voorziening gemaakt (**C**).  
