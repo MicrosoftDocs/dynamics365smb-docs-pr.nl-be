@@ -1,6 +1,6 @@
 ---
-title: Productieagenda's instellen | Microsoft Docs
-description: 'Op een afdelingsagenda staan de werkdagen en -tijden, de diensten, vakanties en afwezigheid genoteerd die bepalend zijn voor de brutocapaciteit. gemeten in tijd, van de afdeling op basis van de gedefinieerde efficiëntie en capaciteitswaarden. Voordat er een afdelingsagenda kan worden gemaakt, moet diverse voorbereidingen worden getroffen:'
+title: Productieagenda's instellen
+description: Het maken en inschakelen van een afdelingskalender omvat verschillende taken, waaronder het opzetten van productieagenda's en het maken van ploegendiensten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e542d67f3cd0516cf435b0a7110e50431aab1a1f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d473d6c1e657828ce2d47e33608b691ee45fd38
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781961"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440415"
 ---
 # <a name="set-up-shop-calendars"></a>Productieagenda's instellen
 Een afdelings- of bewerkingsplaatsagenda bevat de werkdagen en -tijden, de diensten, vakanties en afwezigheid die bepalend zijn voor de brutocapaciteit, gemeten in tijd, van de afdeling op basis van de gedefinieerde efficiëntie- en capaciteitswaarden.
@@ -25,7 +25,7 @@ Voordat een bepaalde afdelings- of bewerkingsplaatsagenda kan worden berekend, m
 Hier wordt beschreven hoe u afdelingsagenda's instelt. Voor het instellen van bewerkingsplaatsagenda's zijn de stappen vergelijkbaar.  
 
 ## <a name="to-create-work-shifts"></a>Ploegen maken  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ploegen** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Ploegen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Geef op een lege regel in het veld **Code** een nummer op om de ploeg aan te duiden, bijvoorbeeld **1**.  
 3.  Geef een omschrijving voor de ploeg in het veld **Omschrijving**, bijvoorbeeld **Vroege ploeg**.  
 4.  Vul eventueel regels voor een tweede of derde ploeg in.  
@@ -33,7 +33,7 @@ Hier wordt beschreven hoe u afdelingsagenda's instelt. Voor het instellen van be
 Ook als de afdeling niet met ploegen werkt, moet er toch minstens één ploegcode worden opgegeven.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Een productieagenda instellen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productieagenda's** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Productieagenda's** in en kies vervolgens de gerelateerde koppeling.  
 2.  Geef op een lege regel in het veld **Code** een nummer op ter aanduiding van de productieagenda.  
 3.  Beschrijf de productieagenda in het veld **Omschrijving**.  
 4.  Kies de actie **Werkdagen**.
@@ -68,7 +68,7 @@ Nu kan de productieagenda worden toegewezen aan een afdeling om de afdelingsagen
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Een afdelingsagenda berekenen  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies de gerelateerde koppeling.
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de afdeling die u wilt bijwerken.  
 3. Geef in het veld **Productieagendacode** op welke productieagenda moet worden gebruikt als basis voor de agenda van de afdeling.  
 4. Kies de actie **Agenda**.  

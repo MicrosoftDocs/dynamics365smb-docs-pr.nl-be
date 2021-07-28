@@ -1,6 +1,6 @@
 ---
 title: Een vraagprognose maken
-description: U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.
+description: Lees meer over de prognosefunctie in Business Central en hoe u verkoop- en productieprognoses kunt maken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779340"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438699"
 ---
 # <a name="create-a-demand-forecast"></a>Een vraagprognose maken
 U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.  
@@ -62,7 +62,7 @@ Beschouw dit voorbeeld eens: uw bedrijf koopt en verkoopt artikelen op twee loca
 Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 12 stuks. Het planningssysteem stelt voor dat u het volgende doet:
 
 - Vul 10 stuks aan voor locatie OOST, op basis van gegevens uit de prognose.  
-- Vul 12 stuks aan voor locatie WEST, op basis van verkooporder. De 4 stuks die in de prognose zijn gespecificeerd, worden volledig verbruikt door de werkelijke vraag van de verkooporder. Zie voor meer informatie [Prognosevraag wordt verlaagd door verkooporders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Vul 12 stuks aan voor vestiging WEST, op basis van de verkooporder. De vier stuks die in de prognose zijn gespecificeerd, worden volledig verbruikt door de werkelijke vraag van de verkooporder. Zie voor meer informatie [Prognosevraag wordt verlaagd door verkooporders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  Als op locatie gebaseerde prognoses los van elkaar worden bekeken, is de totale prognose mogelijk niet representatief.
@@ -85,7 +85,7 @@ Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 1
 
 ## <a name="to-create-a-demand-forecast"></a>Een vraagprognose maken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vraagprognose** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vraagprognose** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op het sneltabblad **Algemeen** een prognose in het veld **Vraagprognosenaam**. Meerdere prognoses zijn mogelijk: deze zijn van elkaar te onderscheiden door de naam en het prognosetype.  
 3. Selecteer in het veld **Vestigingsfilter** de vestiging waarop deze prognose van toepassing is.
 4. In het veld **Weergeven per** om de periode te wijzigen die in elke kolom wordt weergegeven. U kunt kiezen uit de volgende intervallen: **Dag**, **Week**, **Maand**, **Kwartaal**, **Jaar** of de **Boekingsperiode**, zoals ingesteld in financiële gebied.    

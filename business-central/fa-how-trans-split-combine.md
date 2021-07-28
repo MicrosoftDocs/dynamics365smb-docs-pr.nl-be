@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40dcb4a758f2ac98903e61df27863b9fee854922
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74013be6664db6ea62c2da66fb38b076c08ffea2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770328"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440586"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Vaste activa overboeken, splitsen of combineren
 
@@ -26,12 +26,12 @@ Mogelijk moet u een vast activum verplaatsen naar een andere afdeling wanneer u 
 
 1. Stel een nieuw vast activum in. Voer de nieuwe afdeling in als een dimensie.  
 2. Wijs een afschrijvingsboek voor vaste activa aan het nieuwe vaste activum toe. Zie [Vaste activa aanschaffen](fa-how-acquire.md) voor meer informatie.
-3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Herindelingsdagboeken van vaste activa** in en kies de gerelateerde koppeling.
+3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Herindelingsdagboeken van vaste activa** in en kies vervolgens de gerelateerde koppeling.
 4. Maak een dagboekregel waarop het veld **VA-nr.** het oorspronkelijke vaste activum bevat en het veld **Nieuw VA-nr.** het nieuwe vaste activum bevat dat moet worden verplaatst. Vul desgewenst de andere velden in.  
 5. Kies de actie **Herindelen**.
 
     Er worden nu twee regels gemaakt in het financieel dagboek voor vaste activa met behulp van de sjabloon en batch die u hebt opgegeven op de pagina **VA-dagboekinstellingen** voor het opgegeven afschrijvingsboek. Zie [Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
-6. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboeken** in en kies de gerelateerde koppeling.    
+6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.    
 7. Kies op de pagina **Financieel dagboek voor vaste activa** de actie **Boeken** om de herindeling te boeken die u in stap 4 en 5 hebt uitgevoerd.
 
 Als u aanschafkosten voor één activum hebt geboekt, kunt u het herindelingsdagboek voor vaste activa gebruiken om de aanschafkosten over meerdere activa te verdelen.  
@@ -41,7 +41,7 @@ U kunt één vast activum in meerdere vaste activa splitsen, bijvoorbeeld als u 
 
 1. Stel twee nieuwe vaste activa in. Voer de relevante afdelingen in als dimensies.  
 2. Wijs afschrijvingsboeken voor vaste activa aan de nieuwe vaste activa toe. Zie [Vaste activa aanschaffen](fa-how-acquire.md) voor meer informatie.
-3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Herindelingsdagboeken van vaste activa** in en kies de gerelateerde koppeling.
+3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Herindelingsdagboeken van vaste activa** in en kies vervolgens de gerelateerde koppeling.
 4. Maak twee herindelingsdagboekregels, één voor elk nieuw vast activum.
 5. Geef op de eerste regel het tweede vaste activum op in het veld **Nieuw VA-nr.** en 25 in het veld **Herind. aanschafk.-%**.
 6. Geef op de tweede regel het derde vaste activum op in het veld **Nieuw VA-nr.** en 40 in het veld **Herind. aanschafk.-%**.
@@ -49,26 +49,26 @@ U kunt één vast activum in meerdere vaste activa splitsen, bijvoorbeeld als u 
 8. Kies de actie **Herindelen**.  
 
     Er worden nu twee regels gemaakt in het financieel dagboek voor vaste activa met behulp van de sjabloon en batch die u hebt opgegeven op de pagina **VA-dagboekinstellingen** voor het opgegeven afschrijvingsboek. Zie [Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.    
-9. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboeken** in en kies de gerelateerde koppeling.
+9. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.
 10. Kies op de pagina **Financieel dagboek voor vaste activa** de actie **Boeken** om de herindeling te boeken die u in stap 4 tot en met 8 hebt uitgevoerd.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Twee vaste activa combineren in één vast activum
 
 U kunt meerdere vaste activa combineren in één vast activum, bijvoorbeeld als u gedistribueerde vaste activa in één afdeling verplaatst. Als u aanschafkosten en afschrijving hebt geboekt voor het vaste activum dat moet worden verplaatst, worden deze waarden gecombineerd in het ene vaste activum.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Herindelingsdagboeken van vaste activa** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Herindelingsdagboeken van vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een herindelingsdagboek waarin het veld **VA-nr.** het vaste activum bevat dat moet worden verplaatst/gecombineerd en het veld **Nieuw VA-nr.** het vaste activum bevat waarmee wordt gecombineerd.
 3. Laat het veld **Herindeling aanschafkosten-%** leeg om de gehele aanschafkosten te verplaatsen/combineren.  
 4. Schakel de selectievakjes **Herindeling aanschafkosten** en **Herindeling afschrijving** in.
 5. Kies de actie **Herindelen**.
 
     Er worden nu twee regels gemaakt in het financieel dagboek voor vaste activa met behulp van de sjabloon en batch die u hebt opgegeven op de pagina **VA-dagboekinstellingen** voor het opgegeven afschrijvingsboek. Zie [Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.   
-6. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA fin. dagboeken** in en kies de gerelateerde koppeling.
+6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.
 7. Kies op de pagina **Financieel dagboek voor vaste activa** de actie **Boeken** om de herindeling te boeken die u in stap 2 tot en met 5 hebt uitgevoerd.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Gewijzigde afschrijvingsboekwaarden wegens herindeling van vaste activa bekijken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Boekwaarde 02 van vaste activa** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vast activum - Boekwaarde 02** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in.
 3. Kies de knop **Afdrukken** of **Voorbeeld**.  
 

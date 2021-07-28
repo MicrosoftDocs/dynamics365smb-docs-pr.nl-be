@@ -1,6 +1,6 @@
 ---
-title: Volledige planning, MPS en MRP uitvoeren | Microsoft Docs
-description: De termen "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte. Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.
+title: Volledige planning, MPS en MRP uitvoeren
+description: Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e80b7f3c072556453f441d7b9980c7308ed3cb61
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787764"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440340"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Volledige planning, MPS of MRP uitvoeren
 De termen "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte. Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.  
@@ -45,7 +45,7 @@ Voor elke geplande methode, maakt [!INCLUDE[prod_short](includes/prod_short.md)]
 >  De functie Planningsboodschappen ophalen kan worden uitgevoerd tussen de uitvoering van mutatieplanberekening en regeneratieve planning om onmiddellijk een overzicht te krijgen van de effecten van wijzigingen in het schema, maar is niet bedoeld als vervanging voor volledige mutatieplanberekening of regeneratieve planning.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Een planningsvoorstel berekenen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstellen** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planningsvoorstellen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Regeneratief plan berekenen** om de pagina **Planning berekenen** te openen.  
 3.  Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
 

@@ -1,6 +1,6 @@
 ---
 title: Picken en verzenden in standaardmagazijnconfiguraties
-description: In Business Central kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.
+description: In Business Central kunnen uitgaande processen voor picken en verzending op de volgende vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/27/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214665"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439080"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
 
@@ -81,7 +81,7 @@ Om van deze functionaliteit gebruik te kunnen maken, moet u zichzelf als magazij
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Uzelf magazijnmedewerker maken
 
-  1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies de gerelateerde koppeling.  
+  1. Kies het ![Lampje dat de functie Vertel me opent eerste.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnmedewerkers** in en kies vervolgens de gerelateerde koppeling.  
   2. Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Magazijnmedewerkers**.
   3. Kies ZUID in het veld **Vestiging**.  
   4. Selecteer het veld **Standaard** en selecteer vervolgens de knop **Ja**.  
@@ -90,7 +90,7 @@ Om van deze functionaliteit gebruik te kunnen maken, moet u zichzelf als magazij
 
 Als u artikel 1928-S op locatie ZUID beschikbaar wilt maken, volgt u deze stappen:  
 
-  1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies de gerelateerde koppeling.  
+  1. Kies het ![Lampje dat de functie Vertel me opent tweede.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.  
   2. Open het standaarddagboek en maak twee artikeldagboekregels met de volgende informatie over de werkdatum (23 januari).  
 
         |Boekingssoort|Artikelnummer|Vestiging|Opslaglocatie|Aantal|  
@@ -109,7 +109,7 @@ Verkooporders zijn de meest gebruikte soort uitgaand brondocument.
 
 ### <a name="to-create-the-sales-order"></a>De verkooporder maken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent derde.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Maak een verkooporder voor klant 10000 op 23 januari (werkdatum) met de volgende verkooporderregel.  
 
@@ -129,7 +129,7 @@ Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor ee
 
 ### <a name="to-pick-and-ship-items"></a>U kunt als volgt artikels picken en verzenden
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadpicks** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent vierde.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadpicks** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 
     Zorg ervoor dat het veld **Nee.** op het sneltabblad **Algemeen** is ingevuld.

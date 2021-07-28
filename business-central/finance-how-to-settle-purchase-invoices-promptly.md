@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d7962031aa7dda7dafa96ade8e11339c06ebb305
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 76dff6fb1977ea4333e326f8a3456aeb5530cfd8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784604"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439497"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Inkoopfacturen meteen vereffenen
 
@@ -23,7 +23,7 @@ Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boek
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>Een inkoopfactuur meteen vereffenen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Voor contante betalingen of bankoverboekingen voert u in het veld **Tegenrekeningnr.** het nummer in van de grootboekrekening of bankrekening.  
 

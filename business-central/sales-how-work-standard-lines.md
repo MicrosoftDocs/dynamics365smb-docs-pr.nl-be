@@ -1,6 +1,6 @@
 ---
-title: Standaardregels instellen voor periodieke verkoop en inkopen | Microsoft Docs
-description: U kunt verkoopregels en inkoopregels instellen die u vaak maakt en deze vervolgens invoeren op verkoop- en inkoopdocumenten om de regels snel te vullen met standaardgegevens.
+title: Standaard periodieke verkoop- en inkoopregels
+description: Stel veelgebruikte verkoopregels en inkoopregels in om in te voegen in verkoop- en inkoopdocumenten en snel de regels in te vullen met standaardgegevens.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 32a42f9d420ccab90a733d031c69d0fb6aa1182a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9704d088a92ef2a7799eaccebee0fff3fc35bcfd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770805"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440190"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Periodieke verkoop- en inkoopregels maken
 Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u standaardregels instellen die u dan kunt invoegen op periodieke verkoop- en inkoopdocumenten, bijvoorbeeld voor periodieke aanvullingsorders.  
@@ -24,7 +24,7 @@ In de volgende procedures wordt beschreven hoe u werkt met standaardverkoopregel
 
 ## <a name="to-set-up-recurring-sales-lines"></a>Periodieke verkoopregels instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Periodieke verkoopregels** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Periodieke verkoopregels** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Periodieke verkoopregels** de actie **Nieuw**.  
 3. Vul de benodigde velden in op het sneltabblad **Algemeen**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Voer op het sneltabblad **Regels** gegevens in de velden in om verkoopregels voor te bereiden die de standaardregels reflecteren die u verwacht te gebruiken als terugkerende regels in verkoopdocumenten.  
@@ -38,7 +38,7 @@ In de volgende procedures wordt beschreven hoe u werkt met standaardverkoopregel
 
 Wijs een of meer periodieke verkoopregels aan een klant toe zodat deze beschikbaar zijn om te worden ingevoegd op verkoopdocumenten voor die klant.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de projectkaart voor een relevante klant.
 3. Kies de actie **Periodieke verkoopregels**.
 4. Selecteer op de pagina **Periodieke verkoopregels** codes voor de periodieke verkoopregels die u wilt kunnen invoegen op verkoopdocumenten voor de klant.
@@ -60,7 +60,7 @@ Wijs een of meer periodieke verkoopregels aan een klant toe zodat deze beschikba
 
 Als er periodieke verkoopregels voor de klant zijn, kunt u deze invoegen of laten invoegen op alle typen verkoopdocumenten, zoals een verkoopfactuur. Als u de **Altijd vragen**-opties hebt geactiveerd, wordt u geïnformeerd als er periodieke verkoopregels zijn.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Facturen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Facturen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de verkoopfactuur waarin u een of meer standaardverkoopregels wilt invoegen.
 3. Kies de actie **Periodieke verkoopregels ophalen**.
 4. Kies op de pagina **Periodieke verkoopregels** de opzoekknop in het veld **Code** en selecteer een set standaardverkoopregels.
@@ -69,7 +69,7 @@ Als er periodieke verkoopregels voor de klant zijn, kunt u deze invoegen of late
 ## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Meerdere verkoopfacturen maken op basis van periodieke verkoopregels
 U kunt de batchverwerking **Periodieke verkoopfacturen maken** gebruiken om verkoopfacturen te maken volgens de standaardverkoopregels die zijn toegewezen aan de klanten, en met boekingsdatums binnen de datums voor geldig vanaf en geldig tot die u op de standaardverkoopregels opgeeft.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Periodieke verkoopfacturen maken** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Periodieke verkoopfacturen maken** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de velden op de pagina **Periodieke verkoopfacturen maken** in met de benodigde gegevens.
 3. In het filterveld **Code** voert u de code in voor standaardverkoopregels die aan een klant worden toegewezen voor wie u verkoopfacturen wilt maken.
 4. Kies de knop **OK**.

@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Leveringen automatisch plannen | Microsoft Docs'
-description: Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte.
+title: Procedure - Goederen automatisch plannen
+description: Deze procedure laat zien hoe u het leveringsplanningssysteem kunt gebruiken om automatisch inkoop- en productieorders voor verschillende verkooporders te plannen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214715"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439372"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedure: Goederen automatisch plannen
 
@@ -74,7 +74,7 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
 
 ### <a name="to-change-selected-planning-parameters"></a>Geselecteerde planningsparameters wijzigen  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SKU's** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **SKU's** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de SKU-kaart van OOST voor artikel 1100, Voorwiel.  
 3.  Vul de velden op het sneltabblad **Gepland** in, zoals in de volgende tabel is beschreven.  
 
@@ -91,7 +91,7 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
 
 ### <a name="to-create-the-sales-order"></a>De verkooporder maken  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul op de pagina **Verkooporder** de velden in, zoals is beschreven in de volgende tabel.  
 
@@ -103,7 +103,7 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Een regeneratief plan maken om aan de vraag op de vestiging OOST te voldoen  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Regeneratief plan berekenen**.  
 3.  Vul op de pagina **Plan berekenen - Planningsvoorstel** de velden in zoals beschreven in de volgende tabel.  
 
@@ -126,7 +126,7 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>MRP berekenen om onderliggende materiaalbehoeften op te nemen  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Regeneratief plan berekenen**.  
 3.  Vul op de pagina **Plan berekenen - Planningsvoorstel** de velden in zoals beschreven in de volgende tabel.  
 
@@ -220,7 +220,7 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
 
 3.  Accepteer de beschikbaarheidswaarschuwing en klik op **Ja** om het gevraagde aantal vast te leggen.  
 4.  Plan vervolgens opnieuw voor aanpassing van het huidige voorraadplan.  
-5.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies de gerelateerde koppeling.  
+5.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 6.  Kies de actie **Mutatieplan berekenen**.  
 7.  Vul op de pagina **Plan berekenen - Planningsvoorstel** de velden in zoals beschreven in de volgende tabel.  
 

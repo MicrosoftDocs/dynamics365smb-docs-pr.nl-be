@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783196"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440014"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me  
 In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en aanvullende apps en consultingservices ontdekt voor [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -23,7 +23,7 @@ In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoa
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Wanneer u hulp nodig hebt om iets te vinden, gebruikt u het ![Vertel me wat u wilt doen](media/ui-search/search.png "Zoeken naar pagina of rapport") **pictogram Vertel me wat u wilt doen** om ernaar te zoeken. U kunt ook ALT+Q gebruiken om Vertel me te gebruiken.
+Als u hulp nodig hebt bij het vinden van iets, gebruikt u het pictogram ![Vertel me wat u wilt doen.](media/ui-search/search.png "Zoeken naar pagina of rapport") **Vertel me wat u wilt doen** om ernaar te zoeken. U kunt ook ALT+Q gebruiken om Vertel me te gebruiken.
 
 Als u begint met het typen van tekens, geeft [!INCLUDE[prod_short](includes/prod_short.md)] direct overeenkomsten weer. Resultaten in de lijst veranderen naarmate u meer tekens typt. Als u merkt dat wanneer u het woord 'product' invoert de resultaten **artikelen** bevatten, is dat omdat Vertel me synoniemen en alternatieve zoektermen gebruikt om het gemakkelijk te maken acties, pagina's en rapporten te vinden.
 

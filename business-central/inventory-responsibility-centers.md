@@ -1,6 +1,6 @@
 ---
-title: Werken met divisies | Microsoft Docs
-description: Divisies bieden de mogelijkheid tot beheercentra. Een divisie kan een kostencentrum, een winstcentrum, een investeringscentrum of een ander door het bedrijf gedefinieerd administratief centrum zijn.
+title: Werken met divisies
+description: Divisie als beheercentra helpen bedrijven gebruikersspecifieke weergaven in te stellen van verkoop- en inkoopdocumenten die uitsluitend betrekking hebben op een bepaalde divisie.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e552378625325710b50989c513d303acd9c480af
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 62cfc68f8c5cfca3a152aa1de7054f872c47f911
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774801"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439397"
 ---
 # <a name="work-with-responsibility-centers"></a>Werken met divisies
 
@@ -27,12 +27,12 @@ Met meerdere locaties kunnen bedrijven hun voorraad in verschillende locaties me
 
 ## <a name="to-set-up-a-responsibility-center"></a>Een divisie instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Divisies** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Divisies** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Als u divisies gebruikt om uw bedrijf te beheren, kan het handig zijn om een standaarddivisie voor uw bedrijf te hebben.
-4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies de gerelateerde koppeling.
+4. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
 5. Voer in het veld **Divisie** een divisiecode in.
 
 Deze code wordt in alle inkoop-, verkoop- of servicedocumenten gebruikt als de gebruiker, klant of leverancier geen standaarddivisie heeft. In elk verkoop-, inkoop- of servicedocument kunt u een andere divisie invoeren dan de standaarddivisie.
@@ -46,7 +46,7 @@ Voor gebruikers kunt u instellen dat tijdens de dagelijkse handelingen alleen de
 
 Als u dit wilt instellen, moet u divisies toewijzen aan gebruikers in drie basismodules: Inkoop, Verkoop en CRM - Service.  
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruiker instellen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Ga op de pagina **Gebruikersinstellingen** naar de gebruiker waaraan u een divisie wilt toewijzen. Als de gebruiker niet voorkomt in het overzicht, moet u een gebruikers-id invoeren in het veld **Gebruikers-id**.  
 3. In het veld **Verkoopdivisiefilter** voert u de divisie in waaraan de verkooptaken van de gebruiker zijn gekoppeld.  
 4. In het veld **Inkoopdivisiefilter** voert u de divisie in waaraan de inkooptaken van de gebruiker zijn gekoppeld.  
@@ -58,8 +58,8 @@ Als u dit wilt instellen, moet u divisies toewijzen aan gebruikers in drie basis
 ## <a name="see-also"></a>Zie ook
 
 [Voorraad instellen](inventory-setup-inventory.md)  
-[Magazijnbeheer instellen](warehouse-setup-warehouse.md)
-[Voorraad](inventory-manage-inventory.md)[Voorraadbeheer](warehouse-manage-warehouse.md)  
+[Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
+[Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

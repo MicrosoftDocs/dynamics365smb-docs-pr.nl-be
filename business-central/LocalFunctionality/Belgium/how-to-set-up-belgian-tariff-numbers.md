@@ -1,5 +1,5 @@
 ---
-title: Belgische tariefcodes instellen
+title: Belgische tariefcodes instellen [BE]
 description: De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.
 services: project-madeira
 documentationcenter: ''
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: c80f78909526da1f204966815a086dc2fb33e06e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f5b12503247bec4ff41b8e0bc9fc924bc2eab451
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779209"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438484"
 ---
-# <a name="set-up-belgian-tariff-numbers"></a>Belgische tariefcodes instellen
+# <a name="set-up-belgian-tariff-numbers-in-the-belgian-version"></a>Belgische tariefcodes instellen in de Belgische versie
 De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.  
 
 ### <a name="to-set-up-tariff-numbers"></a>Tariefcodes instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Tariefcodes** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Tariefcodes** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul op de pagina **Tariefcodes** de velden in zoals wordt beschreven in de volgende tabel.  
 

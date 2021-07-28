@@ -1,5 +1,5 @@
 ---
-title: Intrastat-nummers instellen
+title: Intrastat-nummers instellen [BE]
 description: Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.
 services: project-madeira
 documentationcenter: ''
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 37bc7896141cbfe61e4a0d52baba65b83c919c51
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4a264d4c756c430b2d94ddd24436306f1df08cf3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775725"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438460"
 ---
-# <a name="set-up-intrastat-establishment-numbers"></a>Intrastat-nummers instellen
+# <a name="set-up-intrastat-establishment-numbers-in-the-belgian-version"></a>Intrastat-nummers instellen in de Belgische versie
 Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.  
 
 ## <a name="to-set-up-an-intrastat-establishment-number"></a>Een Intrastat-nummer instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voer in het veld **Intrastat-nr.** het Intrastat-nummer in. invoeren.  
 3.  Kies de knop **OK**.  
   

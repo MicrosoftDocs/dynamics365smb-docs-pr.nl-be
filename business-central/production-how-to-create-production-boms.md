@@ -1,6 +1,6 @@
 ---
 title: Productiestuklijsten maken
-description: Een productiestuklijst bevat hoofdgegevens waarmee de onderdelen en subverzamelingen worden beschreven die worden gebruikt bij de productie van een hoofdartikel. Nadat een productieorder voor dat hoofdartikel is gemaakt, bepaalt de productiestuklijst de berekening van materiaalbehoeften zoals weergegeven op de pagina **Prod.-ordermaterialen**.
+description: Leer hoe u een productiestuklijst (BOM), nieuwe versies van een productiestuklijst maakt en hoe u de formule voor het berekenen van hoeveelheden gebruikt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 122a907e7b61c9fe19853226de8549a073f0cddd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782000"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438714"
 ---
 # <a name="create-production-boms"></a>Productiestuklijsten maken
 
@@ -29,7 +29,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 - Er zijn productieresources ingesteld. Zie voor meer informatie [Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Een productiestuklijst maken  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productiestuklijst** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Productiestuklijst** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Als u de stuklijst wilt bewerken, stelt u het veld **Status** in op **Nieuw** of **In ontwikkeling**. Als u het wilt inschakelen, stelt u het veld **Status** in op **Gecertificeerd**.  
@@ -56,7 +56,7 @@ Nieuwe versies van productiestuklijsten worden bijvoorbeeld gebruikt wanneer een
 
 De begindatum geeft het begin aan van de periode waarin deze versie geldig is. De begindatum wordt gebruikt als filtercriterium voor berekeningen en evaluaties. De stuklijstversie is geldig tot aan de begindatum van de volgende versie.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productiestuklijst** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Productiestuklijst** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de productiestuklijst die u wilt kopiëren en kies de actie **Versies**.  
 3.  Kies de actie **Nieuw**.  
 4. Vul de velden in.

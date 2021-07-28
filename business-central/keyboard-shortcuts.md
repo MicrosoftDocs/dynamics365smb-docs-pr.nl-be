@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e0e225df3d3d212165a8a94eaab964b079ca868
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115652"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438939"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -25,7 +25,7 @@ Zie [Sneltoetsen (alleen pc)](keyboard-shortcuts-cheatsheet.md) voor een overzic
 
 > [!TIP]
 > Kies de volgende afbeelding voor een grafische weergave van de meestgebruikte sneltoetsen en download het PDF-bestand.  
-> [ ![Pictogram voor het PDF-bestand](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Pictogram dat een PDF opent")
+> [ ![Pictogram voor het PDF-bestand.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Pictogram dat een PDF opent")
 
 ## <a name="overview"></a>Overzicht
 
@@ -55,7 +55,7 @@ De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschill
 |Alt+N |Een pagina openen om een nieuwe record te maken. (Gelijk aan het kiezen van de acties **Nieuw** en **+**.)|
 |Alt+Shift+N |Een nieuw gemaakte pagina sluiten en een nieuwe openen om een nieuwe record te maken. Met Alt+F9 publiceert u een document en maakt u een nieuw.|
 |Alt+T|De pagina **Mijn instellingen** openen.|
-|Alt+Pijl rechts|Zoek aanvullende informatie of onderliggende waarden voor een veld dat de knop ![AssistEdit](media/assist-edit-icon.png "Knop AssistEdit") bevat. Dit wordt gebruikt wanneer de gebruikelijke vervolgkeuzeknop (Alt+Pijl-omlaag) in hetzelfde veld voor een ander doel wordt gebruikt.|
+|Alt+Pijl rechts|Zoek aanvullende informatie of onderliggende waarden voor een veld dat de knop ![AssistEdit](media/assist-edit-icon.png "Knop AssistEdit") bevat.   Dit wordt gebruikt wanneer de gebruikelijke vervolgkeuzeknop (Alt+Pijl-omlaag) in hetzelfde veld voor een ander doel wordt gebruikt.|
 |Ctrl+Alt+Shift+C|Informatie weergeven in de bedrijfsbadge.|
 |Ctrl+Alt+F1|Het pagina-inspectiedeelvenster openen en sluiten. Het pagina-inspectiedeelvenster bevat informatie over de pagina, zoals de brontabel, velden, filters, extensies en meer.<br /><br />Zie [Pagina's inspecteren](across-inspect-page.md) voor meer informatie.|
 |Ctrl+C |De waarde van het veld kopiëren. Als het veld de focus heeft en u geen tekst in het veld hebt geselecteerd, wordt hiermee de hele waarde gekopieerd. Als u een tekst in het veld hebt geselecteerd, wordt alleen de geselecteerde tekst gekopieerd.|

@@ -1,6 +1,6 @@
 ---
-title: Werknemers instellen en informatie wijzigen| Microsoft Docs
-description: Beschrijft hoe u nieuwe werknemers registreert of informatie voor bestaande werknemers bewerkt.
+title: Werknemers instellen en informatie wijzigen
+description: Beschrijft hoe u de Human Resources-functionaliteit kunt gebruiken om nieuw personeel te registreren of werknemersinformatie voor bestaand personeel te bewerken.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 30196087931f522be57cc920cd1f41d96d795399
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773826"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440561"
 ---
 # <a name="register-employees"></a>Werknemers registreren
 Als u de Human Resources-functionaliteit wilt gebruiken, moet u eerst elke werknemer registreren door een kaart met alle kern- en bijbehorende gegevens te maken.
@@ -30,14 +30,14 @@ In de volgende procedures wordt beschreven hoe u een eerste werknemerskaart maak
 > U kunt werknemers voor hun kosten tijdens zakelijke activiteiten terugbetalen. Hiervoor moet u de velden invullen op het sneltabblad **Betalingen** op de pagina **Werknemer**. Zie voor meer informatie [Uitgaven van werknemers vastleggen en terugbetalen](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Werknemers instellen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden op de pagina **Werknemerskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Een afbeelding van een werknemer invoegen
 Als u een afbeelding van een werknemer in BMP-indeling hebt, kunt u deze afbeelding invoegen op de werknemerskaart.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor de betreffende werknemer.
 3. In het feitenblok **Werknemerafbeelding** kiest u de vervolgkeuzeknop en vervolgens **Importeren**.
 4. Op de pagina **Een afbeelding selecteren om te uploaden** kiest u de knop **Kiezen**.
@@ -50,7 +50,7 @@ Op de werknemerskaart kunt u gegevens instellen, zoals vakbondslidmaatschap, fam
 
 U kunt alternatieve adressen gebruiken om uw werknemers te traceren, als deze bijvoorbeeld in het buitenland zijn gestationeerd, een lange zakenreis maken, of tijdelijk in een vakantiehuisje wonen.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor de betreffende werknemer.
 3. Kies de actie **Alternatieve adressen**.
 4. Vul op de pagina **Alt. adressenoverzicht** indien nodig de velden in.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778259"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440115"
 ---
 # <a name="set-up-a-loaner-program"></a>Uitleenprogramma instellen
 Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer uw klantenserviceteam herstelwerkzaamheden uitvoert. In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u een leenprogramma instellen, artikelen aan uw klanten uitlenen en bijhouden wanneer de artikelen worden geretourneerd. Bovendien kunt u opmerkingen over uitleenartikelen op twee manieren toevoegen:  
@@ -24,7 +24,7 @@ Soms moet u aan uw klant een uitleenartikel ter beschikking te stellen wanneer u
 * Een notitie over een serviceartikel invoeren over de behoefte aan een uitleenartikel.  
 
 ## <a name="to-set-up-a-loaner"></a>Een uitleenartikel instellen  
-1. Kies het pictogram ![Service-instellingen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitleenartikelen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Uitleenartikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe uitleenartikelkaart. 
 3. Selecteer in het veld **Nr.** een nummer voor het uitleenartikel in. Als u op de pagina **Servicebeheerinstellingen** nummerreeksen voor uitleenartikelen hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare uitleenartikelnummer in te voeren.  
 4. Vul de velden **Omschrijving**, **Omschrijving 2** en **Serienummer** in.  

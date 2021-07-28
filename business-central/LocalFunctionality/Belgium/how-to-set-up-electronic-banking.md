@@ -1,5 +1,5 @@
 ---
-title: Elektronisch bankieren instellen
+title: Elektronisch bankieren instellen [BE]
 description: Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en klanten in binnen- en buitenland, en SEPA-leveranciers en -klanten binnen en buiten de eurozone verzenden.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f3848bc286c57568299cca89ba8bb8f369289c2b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c0fe47ac344b5faee3e727f31ae0612326f45ff2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779203"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438466"
 ---
-# <a name="set-up-electronic-banking"></a>Elektronisch bankieren instellen
+# <a name="set-up-electronic-banking-in-the-belgian-version"></a>Elektronisch bankieren instellen in de Belgische versie
 Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en klanten in binnen- en buitenland, en SEPA-leveranciers en -klanten binnen en buiten de eurozone verzenden. Voordat u met elektronisch bankieren kunt werken, moet u de volgende gegevens instellen:  
 
 - Configuratie van elektronisch bankieren.  
@@ -25,7 +25,7 @@ Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en 
 
 ## <a name="to-set-up-electronic-banking"></a>Elektronisch bankieren instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elektronisch bankieren instellen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Elektronische bankieren instellen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op de pagina **Elektronisch bankieren instellen** de velden in zoals wordt beschreven in de volgende tabel.   
 
     |Veld|Description|  

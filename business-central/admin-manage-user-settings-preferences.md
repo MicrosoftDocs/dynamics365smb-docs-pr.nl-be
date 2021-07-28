@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 36850a2d0d8f85a0436b5d268c3cd2653b2f785f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779769"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438964"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Gebruikersinstellingen en voorkeuren beheren
 
@@ -74,7 +74,7 @@ Als beheerder krijgt u een overzicht van individuele wijzigingen in [!INCLUDE [p
 
 ## <a name="to-review-or-delete-user-personalizations"></a>Gebruikerspersonalisaties bekijken of verwijderen
 
-1. Kies het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Aangepaste pagina's** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Gepersonaliseerde pagina's** in en kies vervolgens de gerelateerde koppeling.
 2. Dit toont de lijst met gebruikers en hun aangepaste pagina's. Om de personalisatie van een gebruiker te wissen, klikt u op de relevante rij of kiest u **Beheren** en kiest u vervolgens **Verwijderen**.
 
 Hierdoor wordt de personalisatie verwijderd en keert de gebruikerservaring van de relevante pagina terug naar de standaardstatus.

@@ -1,6 +1,6 @@
 ---
 title: Elektronische documenten verzenden
-description: Leer hoe u facturen elektronisch verzendt.
+description: Leer hoe u Business Central gebruikt om elektrische facturen en creditnota's in PEPPOL-indeling te verzenden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8056aa66531740634fb155e0b3b4419a7f014ffc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: abfc8b77ed4b6cc748898e8d4af8f68e036b468e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778384"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440290"
 ---
 # <a name="send-electronic-documents"></a>Elektronische documenten verzenden
 
@@ -27,7 +27,7 @@ De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteun
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Een elektronische verkoopfactuur verzenden
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies de gerelateerde koppeling  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 
 2. Maak een nieuwe verkoopfactuur.  
 

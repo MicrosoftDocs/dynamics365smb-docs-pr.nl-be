@@ -1,6 +1,6 @@
 ---
-title: Het rapport Intrastat - Formulier afdrukken
-description: Het rapport Intrastat - Formulier moet worden gebruikt voor Intrastat-rapportage. In België moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en er moet aangifte bij de belastingdienst worden gedaan.
+title: Het rapport Intrastat - Formulier afdrukken [BE]
+description: Het rapport Intrastat - Formulier moet worden gebruikt voor het doorgeven van de beweging van goederen aan Intrastat.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 0a7ade25be026ca8248606e463e6d4bf4312b5f2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5606dfd1b86235a0f00e1f4593411c7a23d33016
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779215"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438478"
 ---
-# <a name="print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken
+# <a name="print-the-intrastat-form-report-in-the-belgian-version"></a>Het rapport Intrastat - Formulier afdrukken in de Belgische versie.
 Het rapport **Intrastat - Formulier** moet worden gebruikt voor Intrastat-rapportage. In België moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en er moet aangifte bij de belastingdienst worden gedaan.  
 
 Voordat u het rapport **Intrastat - Formulier** afdrukt, kunt u ook het rapport **Intrastat - Controlelijst** afdrukken om de inhoud van het rapport te verifiëren.  
 
 ## <a name="to-print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat - Formulier** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Intrastat - Formulier** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  

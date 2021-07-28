@@ -1,6 +1,6 @@
 ---
-title: Pagina's per rol verkennen en navigeren | Microsoft Docs
-description: ''
+title: Pagina's per rol verkennen en navigeren
+description: U kunt een overzicht krijgen van alle zakelijke functies die beschikbaar zijn voor uw rol en voor andere rollen met de Rolverkenner.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9b0c85b181f68e0fd6078b85d43b7b0d08bccd80
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c6acdd0370144c4a49f068a26c5f5f6c6f6a9a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783246"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440039"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Pagina's zoeken met de Rolverkenner
 U kunt een overzicht krijgen van alle zakelijke functies die beschikbaar zijn voor uw rol en voor andere rollen als u nog een stap verder gaat. In de volgende documentatie wordt dit functieoverzicht de *Rolverkenner* genoemd.
@@ -24,7 +24,7 @@ Elk element in de rolverkenner is een actie waarmee een pagina wordt geopend. Di
 
 U kunt de rolverkenner openen vanuit het Rolcentrum en alle lijstpagina's en vanuit het venster **Vertel me**.
 
-- Kies in uw Rolcentrum of een willekeurige lijstpagina de knop ![Menu-knop](media/ui_menu_button.png "Menu-knop") rechts van de navigatiebalk of druk op Shift+F12.
+- Kies in uw Rollencentrum of op een lijstpagina de ![Menuknop.](media/ui_menu_button.png "Menu-knop") rechts van de navigatiebalk of druk op Shift+F12.
 - Kies in het venster **Vertel me** de actie **Verkennen** onderaan.
 
 Kies de actie **Zoeken** bovenaan de rolverkenner om snel functienamen te vinden die een bepaalde term bevatten.

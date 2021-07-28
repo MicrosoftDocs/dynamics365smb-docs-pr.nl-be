@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0726cdc74474669aaf4cadc94e88dc79e790411d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34f4582eabfcace038c54cb0b6a60d0e7217496b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775784"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438369"
 ---
 # <a name="enable-workflows"></a>Werkstromen inschakelen
 Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.  
@@ -23,7 +23,7 @@ Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te s
  Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>Een workflow inschakelen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de werkstroom die u wilt inschakelen.  
 3.  Schakel op de pagina **Werkstroom** het selectievakje **Ingeschakeld** in.  
 

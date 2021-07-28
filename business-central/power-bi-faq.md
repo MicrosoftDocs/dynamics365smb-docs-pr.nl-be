@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 939b280e631113d3196f6fbbc90d9bf19b9fc408
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025845"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438764"
 ---
 # <a name="power-bi--faq"></a>Veelgestelde vragen over Power BI
 
@@ -65,8 +65,20 @@ We hebben geen controle over deze vereiste. Deze vereiste wordt gesteld door Pow
 <!-- 7 -->
 ### <a name="does-the-connector-work-with-api-pages"></a>Werkt de connector met API-pagina's?
 
-Nog niet. Maar vanaf juni 2021 ondersteunt de nieuwe Power BI-connector zowel Business Central-webservices als API-pagina's. Zie voor meer informatie [Power BI-connector inschakelen om te werken met Business Central-API's in plaats van alleen met webservices](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Ja. Vanaf juni 2021 ondersteunt de nieuwe Power BI-connector zowel Business Central-webservices als API-pagina's. Zie voor meer informatie [Power BI-connector inschakelen om te werken met Business Central-API's in plaats van alleen met webservices](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
+### <a name="can-i-build-a-power-bi-report-using-the-sales-invoice-lines-or-journal-lines-apis"></a>Kan ik een Power BI-rapport maken met de Verkoopfactuurregels- of Journaalregels-API's?
+
+De meest gebruikte regelrecords zijn beschikbaar in de [Business Central-API's v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). U kunt ze dus gebruiken om rapporten in Power BI te maken door ze te selecteren in de **Dynamics 365 Business Central**-connector. Echter, de **Regels**-API's zijn ontworpen om alleen te worden gebruikt met enkele zeer specifieke filters en werken mogelijk niet in uw scenario. U krijgt mogelijk een foutmelding die lijkt op "U moet een id of een document-id opgeven om de regels te krijgen". Om dit probleem op te lossen voert u de volgende stappen uit bij het ophalen van gegevens van Business Central voor het rapport in Power BI Desktop:
+
+1. Voeg de bovenliggende gegevensbron toe in plaats van de gegevensbron voor de regelentiteit op te nemen. Voeg bijvoorbeeld **Verkoopfactuur** toe in plaats van **Verkoopfactuurregels**.
+2. Selecteer **Gegevens transformeren** in de Power BI Desktop-actiebalk.
+3. Selecteer de query die u zojuist heeft toegevoegd, bijvoorbeeld **Verkoopfacturen**.
+4. Pas eventueel benodigde filtering op de records toe om het aantal records dat in uw rapport wordt geladen te verminderen.
+5. Schuif naar rechts totdat u een kolom vindt met de naam regels, bijvoorbeeld **Verkoopfactuurregels**.
+6. Selecteer de uitvouwknop in de kop van de kolom, naast de kolomnaam.
+
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Toont de kolom Verkoopfactuurregels in Power BI Desktop.":::
 <!-- 11 --> 
 ### <a name="is-it-possible-to-choose-which-business-central-environment-to-get-data-from-for-power-bi-for-example-like-a-sandbox-or-production-environment"></a>Is het mogelijk om te kiezen uit welke Business Central-omgeving de gegevens moeten worden opgehaald voor Power BI, bijvoorbeeld een sandbox- of productieomgeving? 
 
@@ -137,14 +149,23 @@ Als het om webservices gaat, zijn gepubliceerde zoekopdrachten meestal sneller d
 Wanneer de nieuwe connector in juni 2021 beschikbaar is, wordt u aangemoedigd om API-pagina's te gebruiken in plaats van query's die als webservices zijn gepubliceerd.
 
 <!-- 13 --> 
-### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-developer-have-to-create-a-custom-query"></a>Is er een manier voor een eindgebruiker om een webservice te maken met een kolom die in een Business Central-tabel staat, maar geen pagina? Of moet de ontwikkelaar een aangepaste query maken? 
+### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Is er een manier voor een eindgebruiker om een webservice te maken met een kolom die in een Business Central-tabel staat, maar geen pagina? Of moet de ontwikkelaar een aangepaste query maken? 
 
-Nog niet. Maar wanneer de nieuwe connector in juni 2021 beschikbaar is, kan een ontwikkelaar een nieuwe API-pagina maken om aan deze vereiste te voldoen. 
+Ja. Met de release van de nieuwe connector in juni 2021 kan een ontwikkelaar een nieuwe API-pagina maken om aan deze vereiste te voldoen. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Kan ik Power BI verbinden met een alleen-lezen databaseserver van Business Central Online? 
 
 Nee. We hebben deze functie echter wel op onze langetermijnplanning staan. 
+
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Hoe wijzig of wis ik het gebruikersaccount dat ik momenteel gebruik om verbinding te maken met Business Central vanuit Power BI Desktop?
+
+Ga in Power BI Desktop op een van de volgende manieren te werk:
+
+1. Selecteer in het menu Bestand **Opties en instellingen** > **Instellingen van gegevensbron**.
+2. Selecteer **Dynamics Business Central** uit de lijst en selecteer vervolgens **Machtigingen wissen** > **Verwijderen**.
+
+De volgende keer dat u verbinding maakt met Business Central om gegevens op te halen, wordt u gevraagd u aan te melden.
 
 ## <a name="performance"></a>[Prestaties](#tab/performance)
 
@@ -207,7 +228,7 @@ Met de aanstaande versie van de Power BI-connector kunt u verbinding maken met d
 [Power BI inschakelen in Business Central](admin-powerbi-setup.md)  
 [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md)  
 [Werken met Business Central-gegevens in Power BI](across-working-with-business-central-in-powerbi.md)  
-[Power BI-rapporten maken om Business Central-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md)  
+[Power BI-rapporten maken om Business Central-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md)    
 [Power BI-documentatie](/power-bi/)  
 
 

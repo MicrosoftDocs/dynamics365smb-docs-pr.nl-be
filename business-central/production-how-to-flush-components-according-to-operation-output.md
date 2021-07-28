@@ -1,6 +1,6 @@
 ---
 title: Onderdelen afboeken op basis van de uitvoer van een bewerking
-description: Voor artikelen die zijn ingesteld met de achterwaartse afboekingsmethode, wordt standaard het verbruik van onderdelen berekend en geboekt wanneer u de status van een vrijgegeven productieorder wijzigt in Voltooid.
+description: In dit onderwerp wordt beschreven hoe u componenten moet afboeken op basis van de bewerkingsoutput en andere betrokken afboekingsmethoden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115877"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439105"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Onderdelen afboeken op basis van de uitvoer van een bewerking
 U kunt verschillende afboekingsstrategieën definiëren om de registratie van het verbruik van componenten te automatiseren. 
@@ -91,18 +91,18 @@ Als bijvoorbeeld een productieorder voor het vervaardigen van 800 meter 8 kg van
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Onderdelen afboeken op basis van de uitvoer van een bewerking
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Bewerken**.  
 3.  Selecteer op het sneltabblad **Aanvulling** in het veld **Afboekingsmethode** de optie **Achterwaarts**.  
 
     > [!NOTE]  
     >  Selecteer **Pick + Achterwaarts** als het onderdeel wordt gebruikt op een locatie die is ingesteld voor gestuurde opslag en pick.  
 
-4.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.  
+4.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
 5.  Definieer bewerkingsplankoppelingen voor elke bewerking waarbij het onderdeel wordt verbruikt. Zie voor meer informatie [Bewerkingsplannen maken](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > Gebruik niet dezelfde routeringskoppeling voor verschillende bewerkingen in de routering, aangezien dit zal leiden tot registratie van het verbruik van een component voor elke gekoppelde bewerking.  
-6.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productiestuklijst** in en kies de desbetreffende koppeling.  
+6.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productiestuklijst** in en kies vervolgens de gerelateerde koppeling.  
 7.  Definieer bewerkingsplankoppelingen op basis van elk exemplaar van de component voor de bewerking waarbij de component wordt verbruikt.
 
 Het verbruik wordt automatisch geboekt wanneer u output registreert. Zie voor meer informatie [Output en bewerkingstijden in batches boeken](production-how-to-post-output-quantity.md)

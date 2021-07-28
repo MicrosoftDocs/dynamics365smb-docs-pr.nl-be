@@ -1,5 +1,5 @@
 ---
-title: Periodieke btw-rapporten afdrukken
+title: Periodieke btw-rapporten afdrukken [BE]
 description: Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet drie btw-rapporten aan de Belgische belastingdienst versturen.
 services: project-madeira
 documentationcenter: ''
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: cd4136d3a714a9ac452f6205d3c0b4943ca79dbc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8d04a0d09e30481ef9d9620c0446738164b34c8d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775737"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438481"
 ---
-# <a name="print-periodic-vat-reports"></a>Periodieke btw-rapporten afdrukken
+# <a name="print-periodic-vat-reports-in-the-belgian-version"></a>Periodieke btw-rapporten afdrukken in de Belgische versie
 Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de volgende btw-rapporten aan de Belgische belastingdienst versturen:  
 
 - Aangifte per maand/kwartaal  
@@ -28,7 +28,7 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 
 ## <a name="to-print-the-monthlyquarterly-declaration"></a>De aangifte per maand/kwartaal afdrukken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Formulier/Intervat-aangifte** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Formulier/Intervat-aangifte** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden op de pagina **BTW - Formulier** in.  
 
     |Veld|Description|  
@@ -44,7 +44,7 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 
 ## <a name="to-print-the-vat-annual-listing-on-disk"></a>De jaarlijkse btw-lijst op diskette afdrukken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Jaarlijkse lijst - Schijf** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Jaarlijkse btw-lijst - Schijf** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op de pagina **Jaarlijkse btw-lijst - Schijf** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
@@ -60,9 +60,9 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 
 ## <a name="to-print-the-vat-vies-declaration-report-to-disk"></a>Btw-VIES-aangifterapport op schijf afdrukken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw - Intracommunautaire opgave - Schijf** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Btw - Intracommunautaire opgave - Schijf** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voer de gewenste informatie in en kies de knop **OK** om de batchverwerking te starten, waarmee een XML-bestand wordt gemaakt. Zie voor meer informatie Btw-VIES-opgaveschijf.  
-3.  Als u een correctie moet aanbrengen, kiest u het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Btw-VIES-correctie** in en kiest u vervolgens de gerelateerde koppeling.  
+3.  Als u een correctie moet aanbrengen: kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Btw-VIES-correctie** in en kies vervolgens de gerelateerde koppeling.  
 4.  Kies de actie **Lijst bewerken** en voer vervolgens de informatie in die moet worden aangepast. Kies de knop **Ok**.  
 
 ## <a name="see-also"></a>Zie ook  

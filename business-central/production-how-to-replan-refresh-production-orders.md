@@ -1,6 +1,6 @@
 ---
-title: Productieorders direct opnieuw plannen of vernieuwen | Microsoft Docs
-description: De productieorderregels bevatten de artikelen die moeten worden geproduceerd in de productieorder.
+title: Productieorders direct opnieuw plannen of vernieuwen
+description: In dit onderwerp worden de procedures beschreven voor het rechtstreeks opnieuw plannen van productieorders en het vernieuwen van productieorders.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e3e1fa5535637f204c942aa8d3589dfff0392333
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787814"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440390"
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a>Productieorders direct opnieuw plannen of vernieuwen
+# <a name="replan-or-refresh-production-orders-directly"></a>Productieorders rechtstreeks opnieuw plannen of vernieuwen
 De functie **Herplannen** in productieorders wordt doorgaans gebruikt nadat er materialen zijn toegevoegd of gewijzigd die onderliggende productieorders hebben. Met de functie worden wijzigingen berekend die in materiaal- en bewerkingsplanregels zijn aangebracht. De functie heeft betrekking op lagere productiestuklijstniveaus en er kunnen nieuwe productieorders mee worden gegenereerd.  
 
 Op basis van de wijzigingen die u hebt aangebracht in de materiaal- en bewerkingsplanregels, zorgt de functie Herplannen voor het berekenen en plannen van alle nieuwe vraagregels voor de productieorder.  
@@ -35,7 +35,7 @@ U kunt de productieorderregels handmatig invoegen of de functie gebruiken waarme
 > Als u de functie Vernieuwen gebruikt om productieorderregels opnieuw te berekenen, worden de oude productieorderregels verwijderd en nieuwe regels berekend.  
 
 ## <a name="to-replan-a-production-order"></a>Een productieorder herplannen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorders** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vast geplande productieorders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de productieorderregel die u opnieuw wilt plannen.  
 3.  Kies op het sneltabblad **Regels** de actie **Regels** en vervolgens de actie **Materialen**.  
 4.  Voeg een materiaal toe. (Dat is een geproduceerd artikel of subassemblage.)  
@@ -65,12 +65,12 @@ U kunt de productieorderregels handmatig invoegen of de functie gebruiken waarme
 ## <a name="to-refresh-a-production-order"></a>Een productieorder vernieuwen  
 Als u productieorderregels, materialen of bewerkingsplanregels hebt aangepast, moet u de informatie in de productieorder ook vernieuwen. In de volgende procedure worden de materialen berekend voor een vast geplande productieorder. De stappen zijn vergelijkbaar voor bewerkingsplanregels.
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**. Zie voor meer informatie [Productieorders maken](production-how-to-create-production-orders.md).  
 3.  Kies de actie **Vernieuwen**.
 4. Selecteer op de pagina **Productieorder vernieuwen** een van de volgende opties:
 
-    |Optie|Description|  
+    |Optie||Description|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Planningsrichting**|**Voorwaarts**|De planning begint op de begindatum en verloopt in de richting van de einddatum. U moet de begindatum voor het gebruik van deze optie invullen.|  
     ||**Achterwaarts**|De planning begint op de einddatum en verloopt in de richting van de begindatum.|  

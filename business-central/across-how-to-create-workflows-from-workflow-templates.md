@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Werkstromen maken van werkstroomsjablonen | Microsoft Docs'
-description: Om tijd te besparen bij het maken van nieuwe werkstromen kunt u werkstromen maken van werkstroomsjablonen.
+title: Werkstromen maken van werkstroomsjablonen
+description: Om tijd te besparen bij het maken van nieuwe werkstromen, kunt u niet-bewerkbare werkstromen maken van werkstroomsjablonen met het voorvoegsel "MS".
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2540632936a502cd1873c7db34733f5dd83db4b9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4c3c8011802d9deb1b7a3804758333f08fc2403b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775859"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438444"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Werkstromen maken van werkstroomsjablonen
 Om tijd te besparen bij het maken van nieuwe werkstromen kunt u werkstromen maken van werkstroomsjablonen.  
@@ -29,7 +29,7 @@ Om tijd te besparen bij het maken van nieuwe werkstromen kunt u werkstromen make
 Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Een werkstroom maken van een werkstroomsjabloon  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Werkstroom maken van sjabloon**. De pagina **Werkstroomsjablonen** verschijnt.  
 3.  Selecteer een werkstroomsjabloon en kies vervolgens de knop **OK**.  
 

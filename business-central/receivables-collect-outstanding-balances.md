@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c59ce4576f4c7916ef6b587d4bc6b21cb1047acb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781775"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439422"
 ---
 # <a name="collect-outstanding-balances"></a>Openstaande saldi innen
 
@@ -29,7 +29,7 @@ Vanaf de klantenkaart kunt u een overzicht maken met de transacties van die klan
 
 ### <a name="to-send-the-customer-statement-report"></a>Het rekeningoverzichten van de klant verzenden
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningoverzicht van klant** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningoverzicht van klant** in en kies vervolgens de gerelateerde koppeling.
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Geef onder **Uitvoeropties** aan hoe de lijst aan het rapport aan de klant moet worden verzonden.
 
@@ -52,7 +52,7 @@ Nadat u aanmaningen hebt gemaakt en eventuele aanpassingen hebt gedaan, kunt u t
 
 Een herinnering is te vergelijken met een factuur. Wanneer u een aanmaning maakt, moeten een aanmaningskop, evenals een of meer aanmaningsregels, worden ingevuld. U kunt een functie gebruiken om automatisch aanmaningen te maken voor alle klanten.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Aanmaningen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Aanmaning** de actie **Aanmaningen maken**.
 3. Vul op de pagina **Aanmaningen maken** de velden in om te definiëren hoe en naar wie de aanmaningen worden gemaakt.
 4. Kies de knop **OK**.
@@ -61,7 +61,7 @@ Een herinnering is te vergelijken met een factuur. Wanneer u een aanmaning maakt
 
 Op de pagina **Aanmaning** kunt u het sneltabblad **Algemeen** handmatig invullen en de regels vervolgens automatisch laten invullen.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden op het sneltabblad **Algemeen** in.
 4. Kies de actie **Aanmaningsregels voorstellen**.
@@ -78,7 +78,7 @@ Op de pagina **Aanmaning** kunt u het sneltabblad **Algemeen** handmatig invulle
 
 U kunt op verschillende manieren bepalen hoe u tekst wilt weergegeven op de afgedrukte aanmaning. In sommige gevallen kunt u de begin- en eindtekst die u hebt gedefinieerd voor het huidige niveau vervangen door de tekst van een ander niveau.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Aanmaningen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante aanmaning en kies de actie **Aanmaningstekst bijwerken**.
 3. Voer op de pagina **Aanmaningstekst bijwerken** het vereiste niveau in het veld **Aanmaningsniveau** in.
 4. Klik op **OK** om de begin- en eindtekst bij te werken.
@@ -101,7 +101,7 @@ Als de selectievakjes **Rente boeken** of **Toeslag boeken** op de pagina **Aanm
 
 Daarnaast kunnen btw-posten worden gemaakt als u de aanmaning verzendt.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Aanmaningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de desbetreffende aanmaning en kies vervolgens de actie **Verzenden**.
 3. Vul op de pagina **Aanmaningen verzenden** de benodigde velden in.
 4. Kies de knop **Ok**.
@@ -134,7 +134,7 @@ Nadat u de rentefacturen hebt gemaakt en eventuele aanpassingen hebt gedaan, kun
 
 Een rentefactuur is te vergelijken met een factuur. U kunt een kop handmatig en de regels automatisch invullen of u kunt automatisch rentefacturen voor alle klanten maken.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rentefacturen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rentefacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul indien nodig de velden in.  
 3. Kies de actie **Rentefactuurregels voorstellen**.
 4. Stel op de pagina **Rentefactuur** een filter in op het sneltabblad **Klantenpost** als u alleen rentefacturen voor specifieke posten wilt maken.
@@ -146,7 +146,7 @@ Een rentefactuur is te vergelijken met een factuur. U kunt een kop handmatig en 
 ### <a name="to-update-finance-charge-memo-texts"></a>De rentefactuurteksten bijwerken  
 Het kan zijn dat u de begin- en eindtekst die u voor de rentefactuurcondities hebt ingesteld, wilt bijwerken. Als u dat doet op een moment waarop u de rentefacturen hebt gemaakt, maar nog niet hebt verzonden, kunt u de facturen bijwerken met de gewijzigde tekst.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rentefactuur** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rentefactuur** in en kies vervolgens de gerelateerde koppeling.  
 2. open de rentefactuur waarvoor u tekst wilt wijzigen en kies vervolgens de actie **Rentefactuurtekst bijwerken**.
 3. Op de pagina **Rentefactuurtekst bijwerken** kunt u een filter instellen als u verschillende facturen wilt bijwerken.
 4. Klik op **OK** om de begin- en eindtekst bij te werken.  
@@ -166,7 +166,7 @@ Als de selectievakjes **Rente boeken** of **Toeslag boeken** op de pagina **Rent
 
 Daarnaast kunnen btw-posten worden gemaakt als u de rentefactuur verzendt.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rentefacturen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rentefacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de desbetreffende rentefactuur en kies vervolgens de actie **Verzenden**.
 3. Vul op de pagina **Rentefacturen verzenden** de benodigde velden in.
 4. Kies de knop **Ok**.
@@ -180,7 +180,7 @@ Als rentefacturen ten onrechte zijn uitgegeven, kunt u ze annuleren voordat ze w
 
 ### <a name="to-view-reminder-and-finance-charge-entries"></a>Aanmanings- en renteposten weergeven  
 Zodra u een aanmaning verzendt, wordt op de pagina **Aanmanings-/renteposten** een aanmaningspost gemaakt voor elke aanmaningsregel met een klantenpost. U kunt vervolgens in een overzicht weergeven welke aanmaningsposten u voor een bepaalde klant hebt gemaakt.    
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Posten**.
 3. Selecteer op de pagina **Klantenposten** de regel met de post waarvan u de aanmaningsposten wilt weergeven, en kies de actie **Aanmanings-/rentefactuurposten**.
 

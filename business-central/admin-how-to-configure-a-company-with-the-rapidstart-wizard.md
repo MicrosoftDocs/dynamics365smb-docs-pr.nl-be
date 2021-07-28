@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 815a4a6d66fad42a5d1467b87eaef7d6a1688ee1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780019"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439672"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Een bedrijf configureren met de wizard RapidStart
 U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services-configuratiewizard.
@@ -39,7 +39,7 @@ In de volgende procedure hebt u het configuratiepakket aan de klant geleverd, da
     >  Wijzig uw Rolcentrum pas nadat u de configuratie van het bedrijf hebt voltooid. Als u met meer instellingsgegevens rekening moet houden en meer wijzigingen moet doorvoeren, moet u eerst het configuratiewerkblad gebruiken om door te gaan met uw werk. Ga vervolgens terug naar de wizard voor het bijwerken van uw Rolcentrum-profiel of kies de actie **Volledige installatie**.
 
 7. Kies de knop **OK**.  
-8. U kunt controleren of de configuratiegegevens zijn toegepast op het nieuwe bedrijf. Kies het ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies en vervolgens de gerelateerde koppeling.
+8. Om te controleren of de configuratie-informatie is toegepast op het nieuwe bedrijf, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
 
 De pagina **Bedrijfsgegevens** bevat gegevens die u hebt opgegeven.   
 

@@ -1,21 +1,21 @@
 ---
-title: Over het kader voor gegevensuitwisseling | Microsoft Docs
-description: De notatie van bestanden voor het uitwisselen van gegevens in de bankbestanden, elektronische documenten, valutawisselkoersen en andere met ERP-systemen variëren afhankelijk van de aanbieder van het gegevensbestand of de stream en van het land of de regio.
+title: Over het kader voor gegevensuitwisseling
+description: In dit onderwerp wordt uitgelegd hoe u het Data Exchange Framework kunt gebruiken om de uitwisseling van gegevens in zakelijke documenten zoals facturen met uw zakelijke partners te beheren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 6ae76aa8f8522b7d93dd442d6d8cc748f1d2dac4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 53c0bcbf03f989175783ebb93228815712c25552
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776334"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439130"
 ---
 # <a name="about-the-data-exchange-framework"></a>Over het kader voor gegevensuitwisseling
 
@@ -25,9 +25,9 @@ Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefunct
 
  De volgende diagrammen bevatten de architectuur van het kader voor gegevensuitwisseling.  
 
- ![Raamwerk voor gegevensuitwisseling &#45; import](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Raamwerk voor gegevensuitwisseling &#45; importeren.](media/across-data-exchange/dataexchangeframework_import.png)  
 
- ![Raamwerk voor gegevensuitwisseling &#45; export](media/across-data-exchange/dataexchangeframework_export.png)  
+ ![Raamwerk voor gegevensuitwisseling &#45; exporteren.](media/across-data-exchange/dataexchangeframework_export.png)  
 
 ## <a name="electronic-documents"></a>Elektronische documenten
 

@@ -1,5 +1,5 @@
 ---
-title: Intrastat-aangiftes van derden exporteren
+title: Intrastat-aangiftes van derden exporteren [BE]
 description: In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn.
 services: project-madeira
 documentationcenter: ''
@@ -10,22 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: 0cd44ebf58ab72bfd4825473e38915a2b993684c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cea16902760c10e07c5da10852388dd8019860d9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775004"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438487"
 ---
-# <a name="export-intrastat-third-party-declarations"></a>Intrastat-aangiftes van derden exporteren
+# <a name="export-intrastat-third-party-declarations-in-the-belgian-version"></a>Intrastat-aangiftes van derden exporteren in de Belgische versie
 In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn. 
 
 ## <a name="to-export-the-third-party-declaration"></a>De aangifte van derden exporteren  
 Voordat u het bestand exporteert, is het verstandig een voorbeeld van het rapport te bekijken. Zie voor meer informatie [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md).  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Bestand maken**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 

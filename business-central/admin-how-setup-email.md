@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063439"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439722"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Mensen in bedrijven sturen dagelijks informatie en documenten, zoals verkoop- en inkooporders en facturen, per e-mail. Beheerders kunnen dat gemakkelijker maken door een of meer e-mailaccounts te verbinden met [!INCLUDE[prod_short](includes/prod_short.md)], zodat u documenten kunt verzenden zonder een e-mailapp te hoeven openen. U kunt elk bericht afzonderlijk opstellen met basisopmaakhulpmiddelen, zoals lettertypen, stijlen, kleuren, enzovoort, en bijlagen tot 100 MB toevoegen. Beheerders kunnen ook rapportlay-outs instellen die alleen de belangrijkste informatie uit documenten bevatten. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
@@ -23,6 +23,8 @@ Mensen in bedrijven sturen dagelijks informatie en documenten, zoals verkoop- en
 De e-mailmogelijkheden in [!INCLUDE[prod_short](includes/prod_short.md)] zijn alleen voor uitgaande berichten. U kunt geen antwoorden ontvangen, dat wil zeggen, er is geen inboxpagina in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
+> U kunt de e-mailmogelijkheden van [!INCLUDE[prod_short](includes/prod_short.md)] online alleen met Exchange Online gebruiken. We ondersteunen geen hybride scenario's, zoals [!INCLUDE[prod_short](includes/prod_short.md)] online verbinden met een on-premises versie van Exchange.
+> 
 > Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, moet u voordat u e-mail kunt instellen, een app-registratie maken voor [!INCLUDE[prod_short](includes/prod_short.md)] in Azure Portal. Door de app-registratie kan [!INCLUDE[prod_short](includes/prod_short.md)] autoriseren en verifiëren bij uw e-mailprovider. Zie voor meer informatie [E-mail instellen voor Business Central On-premises](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). In [!INCLUDE[prod_short](includes/prod_short.md)] online regelen wij dit voor u.
 
 ## <a name="required-permissions"></a>Vereiste machtigingen
@@ -37,7 +39,7 @@ De volgende tabel beschrijft de e-mailextensies die standaard beschikbaar zijn.
 
 |Extensie  |Omschrijving  |Voorbeelden van wanneer te gebruiken  |
 |---------|---------|---------|
-|**Microsoft 365**|Iedereen verstuurt e-mail vanuit een gedeelde mailbox in Exchange Online.|Wanneer alle berichten bijvoorbeeld van dezelfde afdeling komen, verstuurt uw verkooporganisatie berichten vanaf een sales@cronus.com-account. Dit vereist dat u een gedeelde mailbox instelt in het Microsoft 365-beheercentrum. Zie voor meer informatie [Gedeelde mailboxen](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Iedereen verstuurt e-mail vanuit een gedeelde mailbox in Exchange Online.|Wanneer alle berichten bijvoorbeeld van dezelfde afdeling komen, verstuurt uw verkooporganisatie berichten vanaf een sales@cronus.com-account. Dit vereist dat u een gedeelde mailbox instelt in het Microsoft 365-beheercentrum. Zie voor meer informatie [Gedeelde mailboxen](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Huidige gebruiker**|Iedereen verstuurt e-mail vanaf het account waarmee ze zich hebben aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)].|Communicatie vanuit individuele accounts toestaan.|
 |**Overige (SMTP)**|SMTP-protocol gebruiken om e-mails te verzenden.|Communicatie via uw SMTP-mailserver toestaan. |
 
@@ -61,7 +63,7 @@ De begeleide instelling **E-mail instellen** kan u helpen snel aan de slag te ga
 > [!NOTE]
 > U moet een standaard e-mailaccount hebben, zelfs als u slechts één account toevoegt. Het standaardaccount wordt gebruikt voor alle e-mailscenario's die niet aan een account zijn toegewezen. Zie voor meer informatie [E-mailscenario's toewijzen aan e-mailaccounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **E-mailaccounts instellen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **E-mailaccounts instellen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
@@ -75,7 +77,7 @@ E-mailscenario's zijn processen waarbij een document wordt verzonden, zoals een 
  
 <!--
 ## To set up email
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
@@ -89,7 +91,7 @@ E-mailscenario's zijn processen waarbij een document wordt verzonden, zoals een 
 ## <a name="set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents"></a>Herbruikbare e-mailteksten en lay-outs instellen voor verkoop- en inkoopdocumenten
 U kunt rapporten gebruiken om belangrijke informatie uit verkoop- en inkoopdocumenten op te nemen in teksten voor e-mails. Deze procedure beschrijft hoe u het rapport **Verkoop - Factuur** voor geboekte verkoopfacturen instelt, maar het proces is vergelijkbaar voor andere rapporten.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselectie - Verkoop** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rapportselectie - Verkoop** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Rapportselectie - Verkoop** in het veld **Gebruik** de optie **Factuur**.
 3. Selecteer op een nieuwe regel in het veld **Rapport-ID** bijvoorbeeld standaardrapport 1306.
 4. Schakel het selectievakje **Gebruiken voor hoofdtekst van e-mailbericht** in.
@@ -115,17 +117,17 @@ Hierna volgen voorbeelden van hoe Verzenden als en Verzenden namens worden gebru
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Een vervangend afzenderadres instellen voor alle uitgaande e-mailberichten
 1. Zoek in het **Exchange-beheercentrum** voor uw Microsoft 365-account de postbus die u als vervangend adres wilt gebruiken en kopieer of noteer het adres. Als u een nieuw adres nodig hebt, gaat u naar uw Microsoft 365-beheercentrum om een nieuwe gebruiker te maken en hun mailbox in te stellen.
-2. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.
+2. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"). voer **SMTP-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.
 3. Voer in het veld **Verzenden als** het vervangende adres in.
 4. Kopieer of noteer het adres in het veld **Gebruikersnaam**.
-5. Zoek in het **Exchange-beheercentrum** de postbus die u als vervangend adres wilt gebruiken en voer vervolgens het adres uit het veld **Gebruikersnaam** in het veld **Verzenden als** in. Zie voor [De EAC gebruiken om machtigingen toe te wijzen aan afzonderlijke mailboxen](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes) voor meer informatie.
+5. Zoek in het **Exchange-beheercentrum** de postbus die u als vervangend adres wilt gebruiken en voer vervolgens het adres uit het veld **Gebruikersnaam** in het veld **Verzenden als** in. Zie voor meer informatie [De EAC gebruiken om machtigingen toe te wijzen aan afzonderlijke mailboxen](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes) voor meer informatie.
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Het vervangende adres gebruiken in goedkeuringswerkstromen
-1. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.
+1. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"). voer **SMTP-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Kopieer of noteer het adres in het veld **Gebruikersnaam**.
-3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies de gerelateerde koppeling.
-4. Zoek in het **Exchange-beheercentrum** de postvakken voor elke gebruiker die wordt vermeld op de pagina **Gebruikersinstellingen voor goedkeuring** en voer in het veld **Verzenden als** het adres uit het veld **Gebruikersnaam** van de pagina **SMTP-e-mailinstellingen** in [!INCLUDE[prod_short](includes/prod_short.md)] in. Zie [Machtigingen beheren voor ontvangers](/Exchange/recipients/mailbox-permissions?view=exchserver-2019) voor meer informatie.
-5. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SMTP-e-mailinstellingen** in en kies de desbetreffende koppeling.
+3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikersinstellingen voor goedkeuring** in en kies vervolgens de gerelateerde koppeling.
+4. Zoek in het **Exchange-beheercentrum** de postvakken voor elke gebruiker die wordt vermeld op de pagina **Gebruikersinstellingen voor goedkeuring** en voer in het veld **Verzenden als** het adres uit het veld **Gebruikersnaam** van de pagina **SMTP-e-mailinstellingen** in [!INCLUDE[prod_short](includes/prod_short.md)] in. Zie [Machtigingen beheren voor ontvangers](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true) voor meer informatie.
+5. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"). voer **SMTP-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.
 6. Als u vervanging wilt inschakelen, zet u de schakelaar **Vervanging van afzender toestaan** aan.
 
 > [!Note]
@@ -178,7 +180,7 @@ Als u problemen ondervindt bij het gebruik van de oude SMTP-instelling om e-mail
 ### <a name="connect-prod_short-to-your-app-registration"></a>[!INCLUDE[prod_short](includes/prod_short.md)] verbinden met uw app-registratie
 Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUDE[prod_short](includes/prod_short.md)] de begeleide instelling **AAD-registratie van e-mailtoepassing** om [!INCLUDE[prod_short](includes/prod_short.md)] ermee te verbinden.
 
-1. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **AAD-registratie van e-mailtoepassing** in en kies de desbetreffende koppeling.
+1. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"). voer **AAD-registratie van e-mailtoepassing** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
@@ -207,7 +209,10 @@ Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUD
 
 -->
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/set-up-email/)
+
 ## <a name="see-also"></a>Zie ook
+
 [Gedeelde postbussen in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
