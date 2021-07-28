@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947501"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373250"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Problemen met dimensies oplossen en dimensies corrigeren
 Financiële rapportage en analyseweergaven zijn vaak gebaseerd op gegevens uit dimensies. Ondanks de voorzorgsmaatregelen die er zijn, doet zich soms een fout voor die tot onnauwkeurigheden kan leiden. In dit onderwerp worden enkele van de typische fouten beschreven en wordt uitgelegd hoe u dimensietoewijzingen op geboekte transacties kunt corrigeren, zodat financiële rapporten nauwkeurig zijn.
@@ -109,3 +109,17 @@ Als een correctie niet wordt voltooid, wordt er een waarschuwing weergegeven op 
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Kostprijsboekhouding gebruiken met gecorrigeerde grootboekboekingen
 Nadat u de dimensies heeft aangepast, zijn uw gegevens voor kostprijsboekhouding niet meer gesynchroniseerd. Kostprijsboekhouding gebruikt dimensies om bedragen voor kostenplaatsen en kostenobjecten te aggregeren en om kostentoewijzingen uit te voeren. Als u de dimensies voor grootboekboekingen wijzigt, betekent dit waarschijnlijk dat u uw kostenberekeningsmodellen opnieuw uitvoert. Of u slechts een paar kostenregisters moet verwijderen en toewijzingen opnieuw moet uitvoeren of dat u alles moet verwijderen en al uw modellen opnieuw moet uitvoeren, hangt af van de gegevens die zijn bijgewerkt en hoe uw kostenberekeningsmogelijkheden zijn ingesteld. Bepalen waar dimensiecorrecties van invloed zijn op de kostenberekening en waar updates nodig zijn, is een handmatig proces. [!INCLUDE[prod_short](includes/prod_short.md)] biedt momenteel geen geautomatiseerde manier om dat te doen.
+
+## <a name="correcting-number-assignments-for-global-dimensions"></a>Nummertoewijzingen corrigeren voor globale dimensies
+In de tabel Dimensiesetpost wordt aan globale dimensies **0** toegewezen in het veld Shortcutdimensienr. en wordt aan snelkoppelingsdimensies hun shortcutdimensienummer toegewezen, dat 1 tot en met 8 kan zijn. Sommige rapporten gebruiken deze nummertoewijzingen om de waarden te bepalen die in berekeningen moeten worden gebruikt.
+
+Wanneer dimensiewaarden worden geïmporteerd met behulp van configuratiepakketten die zijn gemaakt zonder validatietriggers uit te voeren, of door aangepaste code te gebruiken om de methoden Invoegen of Wijzigen aan te roepen zonder de validatietriggers OnInsert of OnModify uit te voeren, wordt soms aan shortcutdimensies een nummer toegewezen dat niet 0 is. Wanneer dit gebeurt, zijn de berekeningen onjuist voor dimensies in periodieke dagboeken die de terugkerende methoden BD-saldo per rekening of BD-saldo per dimensie gebruiken. 
+
+Als een onjuist nummer is toegewezen en u probeert dagboeken te boeken of een voorbeeld te bekijken op de pagina **Periodieke dagboeken**, wordt de pagina **Foutmeldingen** weergegeven. Op de pagina Foutmeldingen kunt u de koppeling in het veld **Bron** kiezen om een rapport uit te voeren dat de toewijzingen van shortcutdimensienummers in de tabel Dimensiesetpost corrigeert. Als alternatief kunt u ook zoeken naar **Shortcutdimensienummer bijwerken voor dimensiesetposten** om het rapport uit te voeren.
+
+Nadat u het rapport hebt uitgevoerd, kunt u op de pagina **Wijzigingslogposten** de wijzigingen bekijken die zijn aangebracht in het nummer in het veld Nr. globale dimensie. [!INCLUDE[prod_short](includes/prod_short.md)] registreert altijd de vorige en nieuwe waarden. 
+
+## <a name="see-also"></a>Zie ook
+[Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)
+[Werken met afmetingen](finance-dimensions.md)
+[Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)

@@ -1,6 +1,6 @@
 ---
 title: Zakelijke contacten maken
-description: Geeft een overzicht van de taken om contacten te maken en uw zakelijke relaties te definiëren.
+description: Geeft een overzicht van de taken die betrokken zijn bij het maken van contacten en het definiëren van uw zakelijke relaties op de contactkaart.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 305d1460b93c1294335b5a8afcf42593c465ebe4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ab9b6051f93daa9f1b342ed8a5fbaa7bbd9c4b2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780810"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435331"
 ---
 # <a name="create-contacts"></a>Contacten maken
+
 Wanneer u een zakelijke relatie ontwikkelt met iemand in een ander bedrijf, voegt u deze persoon toe als contact in [!INCLUDE[prod_short](includes/prod_short.md)]. Voeg vervolgens alle informatie over hen of hun bedrijf toe die nuttig kan zijn voor toekomstige communicatie. Op de pagina **Contactkaart** kunt u de volgende soorten contacten maken:
 
 * **Persoon** - Dit is meestal wanneer u direct contact met iemand hebt gehad en hun contactgegevens heeft.
@@ -29,8 +30,13 @@ U kunt de waarde van het veld **Type** later wijzigen. U kunt ook de velden op h
 
 Wanneer een contact bijvoorbeeld wordt omgezet in een klant, wordt de contactpersoon of het contactbedrijf de naam van de klant. De record voor het contact wordt bewaard en u kunt het contact en de klant koppelen zodat hun gegevens in de toekomst worden gesynchroniseerd.
 
+> [!NOTE]
+> Als u de [functie-update voor conversiesjablonen](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees) inschakelt, kunt u ook leveranciers of werknemers maken vanuit zakelijke contacten.
+>
+> Als u echter al gebruikmaakt van de ingebouwde functionaliteit voor het automatisch maken van klanten of artikelen, dan ondersteunt deze functie-update geen aangepaste velden en bevatten nieuwe klanten of artikelen dergelijke gegevens niet.
+
 ## <a name="to-create-a-contact-manually"></a>Handmatig een contact maken
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Voer in het veld **Nr.** een nummer voor het contact in.
 
@@ -43,7 +49,7 @@ Als u klanten, leveranciers en bankrekeningen hebt waarvoor u contactkaarten wil
 > [!NOTE]  
 > Voordat u contacten kunt maken op basis van bestaande gegevens, moet u een zakenrelatiecode opgeven voor klanten, leveranciers of bankrekeningen op het sneltabblad **Interacties** van de pagina **Marketinginstellingen**. Zie [Contacten instellen](marketing-setup-contacts.md) voor meer informatie.
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer een van de volgende opties in, afhankelijk van de bron van uw contactpersonen en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer een van de volgende in, afhankelijk van waaruit u contacten wilt maken, en kies vervolgens de gerelateerde koppeling.
    * **Contacten maken van klanten**
    * **Contacten maken van leveranciers**
    * **Contacten maken van bankrekeningen**
@@ -61,7 +67,7 @@ Als u een klant, leverancier, werknemer of bankrekening hebt voor het bedrijf wa
 > [!NOTE]  
 > Voordat u klanten, leveranciers, werknemers of bankrekeningen kunt maken, moet u een zakenrelatiecode opgeven op het sneltabblad **Interacties** van de pagina **Marketinginstellingen**. Zie voor meer informatie [Contacten instellen](marketing-setup-contacts.md).
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het contact dat u als klant, leverancier, werknemer of bankrekening wilt maken.
 3. Kies de actie **Maken als** en kies vervolgens **Klant**, **Leverancier**, **Bank** of **Werknemer**.
 4. Kies de knop **OK**.
@@ -109,7 +115,7 @@ Er zijn drie manieren om gegevenssynchronisatie in te schakelen tussen contacten
 * Wanneer u contacten koppelt aan bestaande klanten, leveranciers, werknemers of bankrekeningen vanuit de contactkaart. Zie [Een contact koppelen aan een bestaande klant, leverancier of bankrekening](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Zien aan welke klant, leverancier, werknemer of bankrekening een contact is gerelateerd
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel voor een contact, kies de actie **Gerelateerde informatie** en kies vervolgens de actie **Klant/Leverancier/Bankrek./Werknemer**.
 
 ## <a name="see-also"></a>Zie ook

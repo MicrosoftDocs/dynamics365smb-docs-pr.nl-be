@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f55bad5c26e1f1fbb336090ff862e0e931ff9c39
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 86ff1e678882e4bfb7e95c253f55558c5b57defd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784752"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434846"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>De extensie Verkoop- en voorraadprognose
 Voorraadbeheer is een wisselwerking tussen klantenservice en het beheren van uw kosten. Enerzijds is voor weinig voorraad minder werkkapitaal nodig, maar anderzijds leiden nulvoorraden mogelijk tot gemiste verkopen. De extensie Verkoop- en voorraadprognose voorspelt potentiële verkopen aan de hand van historische gegevens en biedt een helder overzicht van verwachte nulvoorraden. Op basis van de prognose helpt de extensie aanvullingsaanvragen aan leveranciers te maken en bespaart u tijd.  
@@ -56,7 +56,7 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 3. Gebruik het Microsoft-account om u aan te melden voor een werkruimte en kopieer vervolgens het model.  
 4. Voer het model uit en publiceer het als een webservice.  
 5. Noteer de API-URL en de API-sleutel. U kunt deze aanmeldingsgegevens voor een cashflowinstelling gebruiken.  
-6. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van verkoop- en voorraadprognose** in en kies de desbetreffende koppeling.  
+6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling van verkoop- en voorraadprognose** in en kies vervolgens de gerelateerde koppeling.  
 7. Vouw het sneltabblad **Algemeen** uit en vul de velden API-URL en API-sleutel in.  
 
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e96cf7edd4a2080b92c88215f67e93bc4e0f7f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a62d2b1d84d1139a0e5472d8e95f1c87f13bfa6c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772991"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435481"
 ---
 # <a name="create-blanket-assembly-orders"></a>Afroepassemblyorders maken
 U kunt assemblagebeheer gebruiken om een assemblageartikel op verzoek van een klant aan te passen tijdens het verkoopproces. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ U kunt assemblagebeheer gebruiken om een assemblageartikel op verzoek van een kl
 >  Net als alle raamcontracten zijn hoeveelheden op assemblageraamcontracten alleen prognoses en niet operationeel totdat ze worden geconverteerd naar werkelijke assemblage orders. Orderfunctionaliteit, zoals beschikbaarheidsberekening, reservering en artikeltracering is dan ook niet actief op assemblageraamcontracten.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Een afroepassemblyorder maken voor een voor-order-assembleren-artikel  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopraamcontracten** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopraamcontracten** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuw verkoopraamcontract met één regel voor een assemblageartikel. Zie [Verkoopraamcontracten maken](sales-how-to-create-blanket-sales-orders.md) voor meer informatie.  
 3. Voer het volledige aantal in het veld **Aant. op order assembleren** in op de afroepassemblageorderregel.
 

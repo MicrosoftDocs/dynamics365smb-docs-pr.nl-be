@@ -7,15 +7,15 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: 9c015d60d0f34b35b12e0a39ca8d2b99c6e09848
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: b5df66798db4a77504176d03bd46156d5d99fc56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773191"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326550"
 ---
-# <a name="classifying-data-sensitivity"></a>Gegevensvertrouwelijkheid classificeren
+# <a name="classifying-data-sensitivity-fields"></a>Gegevensvertrouwelijkheidsvelden classificeren
 Om velden te classificeren die vertrouwelijke of persoonlijke gegevens bevatten, kan een Microsoft-partner de eigenschap ```DataClassification``` van velden instellen. Dit vereist toegang tot de databasetabellen, met de ontwikkelingsomgeving of door een Windows PowerShell-script uit te voeren. Zie voor meer informatie [Gegevens classificeren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Als klant kunt u een tweede niveau van classificatie toevoegen door gevoeligheidsniveaus voor de gegevens op te geven die u in standaard- en aangepaste velden opslaat. Gegevensvertrouwelijkheid classificeren helpt zorgen dat u weet waar u persoonlijke gegevens in uw systeem bewaart en maakt het gemakkelijker te reageren op aanvragen van gegevensonderwerpen. Als een contact of klant u bijvoorbeeld vraagt hun persoonlijke gegevens te exporteren. Zie voor meer informatie [Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md).

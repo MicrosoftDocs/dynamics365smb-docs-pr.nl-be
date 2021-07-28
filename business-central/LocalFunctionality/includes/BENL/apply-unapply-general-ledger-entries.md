@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 26683f68ae60db3651d7caf3e1487a35ca867851
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4c218991f26466c86ce961241e7edf653377c8f9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779349"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435869"
 ---
 Door tijdelijke grootboekposten toe te passen, kunnen bedrijven werken met tijdelijke en transferaccounts in het grootboek. Tijdelijke en transferrekeningen worden gebruikt om tijdelijke posten op te slaan die op verdere verwerking in het grootboek wachten.  
 
@@ -25,7 +25,7 @@ U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervol
 
 ## <a name="to-apply-general-ledger-entries"></a>Grootboekposten vereffenen  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](../../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
 3. Kies op de pagina **Grootboekposten** de actie **Posten vereffenen**.  
 
@@ -54,7 +54,7 @@ U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervol
 
 ## <a name="to-view-the-applied-general-ledger-entries"></a>De vereffende grootboekposten weergeven  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](../../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
 3. Selecteer de betreffende grootboekpost en kies de actie **Vereffende posten**.  
 

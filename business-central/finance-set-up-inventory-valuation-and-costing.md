@@ -1,18 +1,18 @@
 ---
-title: Voorraadwaardering en kostprijsberekening instellen | Microsoft Docs
-description: In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
+title: Voorraadwaardering en kostprijsberekening instellen
+description: Als u ervoor wilt zorgen dat voorraadkosten correct worden vastgelegd, moet u verschillende velden en pagina's instellen voordat u artikeltransacties gaat maken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2194a29247b6ec3c2ee87dfbfe6631f433d0514e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fa04fa90e749434d6ccf19e10e1a7daa1a4eaba8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783734"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327151"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Voorraadwaardering en kostprijsberekening instellen
 

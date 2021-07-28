@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1430123f433cfc101e0ae94ce0598d9c0cdd58b2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785835"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435634"
 ---
 # <a name="set-up-general-inventory-information"></a>Algemene voorraadgegevens instellen
 
@@ -23,7 +23,7 @@ U geeft uw algemene voorraadinstellingen op de pagina **Voorraadinstelling** op.
 
 ## <a name="to-set-up-general-inventory-information"></a>Algemene voorraadgegevens instellen
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraad instellen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Voorraadinstelling** de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Voor gedetailleerde informatie over de kostprijsvelden **Autom. voorraadwaarde boeken**, **Verw. kostprijs naar GB boeken** en **Standaardwaarderingsmethode** raadpleegt u [Voorraadkosten afstemmen op grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md) en [Ontwerpdetails: Verwachte kostenboeking](design-details-expected-cost-posting.md). Zie voor meer informatie over kostprijsberekening in het algemeen [Voorraadkosten beheren](finance-manage-inventory-costs.md).  

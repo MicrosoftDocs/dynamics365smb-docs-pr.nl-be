@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 45a120bd56ea53bf0ba885f04f9bdcedbeba4c5d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781183"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435534"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Handmatig tabeltoewijzingen synchroniseren
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -43,7 +43,7 @@ Of en waar een rij wordt gemaakt, is afhankelijk van de synchronisatierichting. 
 >  U kunt meestal alleen de hele synchronisatie gebruiken wanneer u integratie voor het eerst instelt tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)] en slechts één oplossing gegevens bevat, die u naar de andere oplossing wilt kopiëren. Een volledige synchronisatie kan nuttig zijn in een demonstratieomgeving. Omdat de hele synchronisatie automatisch records maakt en koppelt tussen de oplossingen, wordt het sneller om te beginnen met werken met het synchroniseren van gegevens tussen records. Van de andere kant moet u alleen een volledige synchronisatie uitvoeren als u een rij in [!INCLUDE[prod_short](includes/prod_short.md)] wilt voor elke rij in [!INCLUDE[prod_short](includes/cds_long_md.md)], voor de betrokken tabeltoewijzingen. Anders kunt u ongewenste of dubbele records [!INCLUDE[prod_short](includes/prod_short.md)] of [!INCLUDE[prod_short](includes/cds_long_md.md)] hebben.  
 
 ### <a name="to-run-a-full-synchronization"></a>Een volledige synchronisatie uitvoeren  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dataverse-verbinding instellen** in en kies de gerelateerde koppeling.
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dataverse-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
 
     > [!NOTE]
     > Als u een volledige synchronisatie voor tabellen wilt uitvoeren via Dynamics 365 Sales, gebruikt u de pagina **Microsoft Dynamics 365 Sales-verbinding instellen**.
@@ -72,14 +72,14 @@ U kunt de resultaten van de synchronisatie bekijken op de pagina **Synchronisati
 >  Door de integratietabeltoewijzing vooraf te wijzigen kunt u filters maken om te bepalen welke gegevens worden gesynchroniseerd of toewijzingen configureren om nieuwe gegevens te maken in de doeloplossing voor niet-gekoppelde records of rijen in de bron. Zie voor meer informatie [Tabeltoewijzingen wijzigen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-data-for-all-tables"></a>Gegevens voor alle tabellen synchroniseren  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365 Sales-verbinding instellen** in en kies de gerelateerde koppeling.
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instellingen Microsoft Dynamics 365 Sales-verbinding** in en kies vervolgens de gerelateerde koppeling.
 2.  Kies de actie **Gewijzigde records synchroniseren**, en kies vervolgens **Ja**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Afzonderlijke tabeltoewijzingen synchroniseren
 U kunt de pagina **Toewijzingen van integratietabellen** gebruiken om een synchronisatietaak uit te voeren voor tabeltoewijzingen. Gegevens worden dan gesynchroniseerd voor alle gekoppelde records en rijen in de [!INCLUDE[prod_short](includes/prod_short.md)]-tabel en de [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabel die worden gedefinieerd door de tabeltoewijzing. Standaard worden alleen gegevens gesynchroniseerd die zijn gewijzigd na de laatste synchronisatie.  
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Records synchroniseren van een integratietabeltoewijzing  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingen van integratietabellen** in en kies de desbetreffende koppeling.
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingen van integratietabellen** in en kies vervolgens de gerelateerde koppeling.
 2.  Kies de actie **Gewijzigde records synchroniseren**, en kies vervolgens **Ja**.  
 
 ## <a name="see-also"></a>Zie ook  

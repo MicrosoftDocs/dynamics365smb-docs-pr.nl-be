@@ -1,5 +1,5 @@
 ---
-title: QuickBooks Online Migratie-extensie | Microsoft Docs
+title: De extensie QuickBooks Online-gegevensmigratie
 description: Beschrijft hoe u de extensie gebruikt om klanten, leveranciers, artikelen en rekeningen van QuickBooks Online naar Business Central te migreren.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6481eeb46116d02240c6f6a0201cb633f572822a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da9317d338c095f20ab18fb157bec0270d4a9c8f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785022"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434948"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>De extensie QuickBooks Online-gegevensmigratie
 
@@ -54,7 +54,7 @@ Als transacties in QuickBooks Online belastingbedragen hebben, moet u eerst een 
 
 Aan de slag gaan is eenvoudig. Het enige wat u moet doen is de begeleide instelling **Gegevensmigratie** uitvoeren. U doet dat als volgt:
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies **Bedrijfsgegevens migreren**.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Begeleide instelling** in en kies vervolgens **Bedrijfsgegevens migreren**.
 2. Volg de instructies in elke stap in de begeleide instelling.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Wat doe ik nadat ik gegevens heb gemigreerd?

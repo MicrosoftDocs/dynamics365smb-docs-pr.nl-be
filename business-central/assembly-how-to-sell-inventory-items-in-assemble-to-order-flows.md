@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Voorraadartikelen verkopen in assembleren-op-order-stromen | Microsoft Docs'
-description: Als het artikel is ingesteld voor assembleren-op-order, neemt het standaardproces voor de verkooporder aan dat het item niet in voorraad is en voor deze verkooporder geassembleerd moet worden. Daarom wordt er automatisch een gekoppelde assemblageorder gemaakt wanneer u een artikel aan de verkooporderregel wilt toevoegen.
+title: Voorraadartikelen in assembleren-op-order-stromen verkopen
+description: Als een artikel is ingesteld voor op order assembleren, moet het artikel worden geassembleerd voor verkooporders en wordt er automatisch een gekoppelde assemblageorder aangemaakt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e9c9ba52d6f4f4a7f9af82e381040e545e46f746
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 35fa56c5a0b465f07a38bddc44f5f569283b2a1d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770580"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435416"
 ---
-# <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Voorraadartikelen in assembleren-op-order-stromen verkopen
+# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Voorraadartikelen in assembleren-op-order-stromen verkopen
 Als het veld **Assemblagebeleid** op de artikelkaart van assemblageartikel **Op order assembleren** bevat, neemt het standaardproces voor de verkooporder aan dat het item niet in voorraad is en voor deze verkooporder geassembleerd moet worden. Daarom wordt er automatisch een gekoppelde assemblageorder gemaakt wanneer u een artikel aan de verkooporderregel wilt toevoegen. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md). Echter als een deel van de hoeveelheid van de verkooporder al beschikbaar in voorraad is, kunt u de assemblageorder verkleinen door het veld **Aantal voor op order assembleren** op de verkooporderregel te veranderen.  
 
 Dit scenario is zeldzaam omdat op-order-assembleren-artikelen altijd worden aangepast en de kans dat ze in voorraad zijn in de configuratie die is aangevraagd door een andere klant laag is. Maar als een bedrijf aantallen voor assembleren op basis van orders in voorraad heeft als gevolg van retouren of annuleringen, moeten deze hoeveelheden worden verzameld en verkocht voordat nieuwe worden samengesteld.  
@@ -33,7 +33,7 @@ Vergelijkbare functionaliteit is beschikbaar wanneer u assemblageartikelen uit v
 Vervang in deze procedure de aantallen voor assembleren op basis van orders met de voorraadaantallen op een verkooporderregel. De stappen omvatten het opsporen of beschikbaarheid bestaat, het aftrekken van die hoeveelheid van de gekoppelde assemblageorder en vervolgens het reserveren van de voorraadhoeveelheid om ervoor te zorgen dat deze wordt gepickt en voor de order worden verzonden.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Voorraadartikelen in assembleren-op-order-stromen verkopen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Een verkooporder maken. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 3.  Op een verkooporderregel voor een op-order-assembleren-artikel voert u in het veld **Hoeveelheid** de gevraagde hoeveelheid in.  
 4.  In het feitenblok **Verkoopregeldetails** bepaalt u of de gevraagde hoeveelheid geheel of gedeeltelijk beschikbaar is.  

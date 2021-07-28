@@ -1,5 +1,5 @@
 ---
-title: De extensie Betalingen en afstemmingen (DK) gebruiken | Microsoft Docs
+title: De extensie Betalingen en afstemmingen (DK)
 description: Deze extensie maakt het eenvoudig bestanden te exporteren die vooraf zijn ingedeeld om te voldoen aan de vereisten van de bank betreffende elektronische verzendingen.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: fdd8fced06d8efd5ab6959267bfc0171c4decdd2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ef87f41ec58dbc37caff647ad577f1cfcc205dfc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785097"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434937"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>De extensie Betalingen en afstemmingen (DK)
 
@@ -55,7 +55,7 @@ Daarnaast moet u leveranciers toewijzen aan een binnenlandse **bedrijfsboekingsg
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)] toestaan betalingsgegevens te exproteren
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Betalingsdagboek bewerken** de batch **Bank**.  
 3. Schakel het selectievakje **Exporteren betaling toestaan** in.  
 
@@ -69,19 +69,19 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 |Bericht aan ontvanger toestaan? | Ja |Nee |Nee | Ja |
 |Bevat betalingreferentienummer? | Nr. | Ja, 16 cijfers. | Ja, 15 cijfers. | Nee|
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de kaart, vouw het tabblad **Betalingen** uit, kies in het veld **Betalingswijze** de betalingswijze.  
 3. Afhankelijk van uw selectie moet u andere velden invullen. Zie de bovenstaande tabel voor een omschrijving van de combinaties.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>De indeling opgeven die voor een bankrekening moet worden gebruikt
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de kaart voor de bankrekening.  
 3. In het veld **Exportindeling betaling** kiest u de indeling voor uw exportbestand.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>De betalingsgevens FIK of Giro voor facturen van leveranciers kiezen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de leverancier. Dit moet een Deense leverancier zijn met een adres in Denemarken.
 3. Maak een factuur. De velden **Betalingswijze** en **Leveranciersnummer** worden ingevuld op basis van instellingen op de leverancierskaart. U kunt desgewenst wijzigingen aanbrengen.
 4. In het veld **Betalingsreferentie** voert u het nummer van 15 cijfers van de factuur van de leverancier in.  
@@ -93,7 +93,7 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>De extensie gebruiken om betalingsgegevens te exporteren
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Leveranciersbetalingsdagboeken voorstellen**.  
 
     > [!Tip]

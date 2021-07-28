@@ -1,6 +1,6 @@
 ---
 title: Een vestigingskaart instellen en transferroutes definiëren
-description: U maakt een vestigingskaart voor elke plaats waar u voorraadartikelen opslaat, bijvoorbeeld een magazijn of een distributiecentrum, en u stelt routes in om artikelen tussen vestigingen over te brengen.
+description: Als u artikelen op meer dan één plaats of magazijn koopt, opslaat of verkoopt, moet u elke vestiging instellen met een vestigingskaart en transferroutes definiëren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 06/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0319f0c64dd46610aa82705257091bd9478ac14f
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: d22bbea911bed7e1ea3c756e0861111a26b5df0a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184336"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435584"
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
 
@@ -38,7 +38,7 @@ Kies de actie **Zones** of **Opslaglocaties** voor informatie over zones en opsl
 
 ### <a name="to-create-a-location-card"></a>Een vestigingskaart maken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden op de pagina **Vestiging** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Herhaal stap 2 en 3 voor elke locatie waar u voorraad wilt houden.
@@ -52,7 +52,7 @@ Als u meerdere vestigingen heeft, kunt u vervolgens transferroutes tussen vestig
 
 ### <a name="to-create-a-transfer-route"></a>Een transferroute maken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transferroutes** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Transferroutes** in en kies vervolgens de gerelateerde koppeling
 2. U kunt ook vanuit elke **Vestiging**-pagina de actie **Transferroutes** kiezen.
 3. Kies de actie **Nieuw**.
 4. Vul indien nodig de velden op de pagina **Vestiging** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

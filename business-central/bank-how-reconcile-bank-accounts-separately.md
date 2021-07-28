@@ -1,6 +1,6 @@
 ---
-title: Bankrekeningen afstemmen | Microsoft Docs
-description: Beschrijft hoe uw voorraadwaarde wordt gereconcilieerd met het grootboek.
+title: Bankrekeningen afstemmen
+description: Hierin wordt beschreven hoe u een bankreconciliatie kunt uitvoeren met de pagina **Bankreconciliatie**; hoe uw voorraadwaarde wordt afgestemd met het grootboek.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786819"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435432"
 ---
 # <a name="reconcile-bank-accounts"></a>Bankrekeningen afstemmen
 
@@ -62,7 +62,7 @@ Als u de import van bankafschriften als bankfeeds wilt inschakelen, moet u eerst
 > [!TIP]
 > U kunt ook bankafschriftbestanden importeren in een door komma's of puntkomma's gescheiden indeling (.CSV). Gebruik de begeleide instelling **Een importindeling voor het bankafschriftbestand instellen** om de importindelingen voor bankafschriften te definiëren en de indeling aan een bankrekening te koppelen. U kunt deze indelingen vervolgens gebruiken wanneer u bankafschriften importeert op de pagina **Bankreconciliatie**.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankreconciliatie** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankreconciliatie** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Selecteer in het veld **Bankrekeningnr.** de relevante bankrekening. De bankposten die bestaan voor de bankrekening, worden weergegeven in het deelvenster **Bankposten**.
 4. Voer de datum van het rekeningoverzicht van de bank in het veld **Afschriftdatum** in.

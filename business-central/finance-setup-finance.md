@@ -1,6 +1,6 @@
 ---
-title: Financiële processen instellen| Microsoft Docs
-description: Meer informatie over de taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften.
+title: Financiële processen instellen
+description: Meer informatie over de vereiste taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f93eaa38b07a5135aafa22b21253d1e99a8d0406
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d2763e42ae6c31a4f631457ea16b6a5bdcad40db
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788114"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327025"
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
 Voordat u kunt beginnen met de uitvoering van uw bedrijf, moet u regels en standaardinstellingen opgeven voor de manier waarop u financiële processen voor het bedrijf wilt beheren. Ten eerste moet u de kern van de boekhoudadministratie van het bedrijf instellen: het rekeningschema. Vervolgens stelt u de boekingsgroepen in, waarmee standaard-grootboekrekeningen efficiënter kunnen worden toegewezen aan klanten, leveranciers en artikelen.

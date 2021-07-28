@@ -1,6 +1,6 @@
 ---
-title: CODA-afschriften vereffenen
-description: Nadat een CODA-afschrift is geïmporteerd, kunnen de afschriftregels worden geopend vanuit de pagina Bankrekeningkaart. De vereffeningsstatus is op elke regel leeg omdat de afschriftbedragen niet zijn vereffend met openstaande posten.
+title: CODA-afschriften vereffenen [BE]
+description: Nadat een CODA-afschrift is geïmporteerd, kunnen de afschriftregels worden geopend vanuit de pagina Bankrekeningkaart.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: a78bf86e6a9f2dd169d01102e8a1da316ea77931
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b58f4ce41c71f79a9099bd1df3345d3d9cb0f670
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773288"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435899"
 ---
-# <a name="apply-coda-statements"></a>CODA-afschriften vereffenen
+# <a name="apply-coda-statements-in-the-belgian-version"></a>CODA-afschriften vereffenen in de Belgische versie
 Nadat een CODA-afschrift is geïmporteerd, kunnen de afschriftregels worden geopend vanuit de pagina **Bankrekeningkaart**. De vereffeningsstatus is op elke regel leeg omdat de afschriftbedragen niet zijn vereffend met openstaande posten.  
 
 Afschriftbedragen kunnen als volgt worden vereffend met openstaande posten:  
@@ -27,7 +27,7 @@ Afschriftbedragen kunnen als volgt worden vereffend met openstaande posten:
 
 ## <a name="to-manually-apply-the-coda-statement-lines"></a>De CODA-afschriftregels handmatig vereffenen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de bankrekening en kies de actie **CODA-afschriften**.  
 3.  Selecteer het CODA-afschrift en kies vervolgens de actie **Bewerken**.  
 4.  Vul voor elke bankafschriftregel de velden in zoals in de volgende tabel is beschreven.  
@@ -41,7 +41,7 @@ Afschriftbedragen kunnen als volgt worden vereffend met openstaande posten:
 
 ## <a name="to-automatically-apply-the-coda-statement-lines"></a>De CODA-afschriftregels automatisch vereffenen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de bankrekening en kies de actie **CODA-afschriften**.  
 3.  Selecteer het CODA-afschrift en kies vervolgens de actie **Bewerken**.  
 4.  Kies de actie **CODA-afschriftregels**.  

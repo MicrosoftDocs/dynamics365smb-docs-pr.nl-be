@@ -1,6 +1,6 @@
 ---
-title: Voorraad beheren| Microsoft Docs
-description: Beschrijft hoe u de fysieke producten beheert waarin u handelt, bijvoorbeeld de voorraad in uw magazijn.
+title: Voorraad beheren
+description: In dit onderwerp wordt beschreven hoe u de fysieke producten die u inruilt, kunt beheren door een voorraadartikelkaart te maken.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f72ef570151babaa9bf32150c214e82374ddd0ec
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24337d2cd96e4511f1917980c94af407381e96d2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780769"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325330"
 ---
-# <a name="inventory"></a>Voorraad
+# <a name="how-to-manage-inventory"></a>Procedure: Voorraad beheren
 Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het soort **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
 
 Positieve en negatieve voorraadmutaties worden natuurklijk ook geregistreerd wanneer u respectievelijk inkoop- en verkoopdocumenten boekt. Zie voor meer informatie [Inkopen registreren](purchasing-how-record-purchases.md), [Producten verkopen](sales-how-sell-products.md) en [Verkopen factureren](sales-how-invoice-sales.md). De transfers tussen vestigingen wijzigen de voorraadaantallen in alle magazijnen van het bedrijf.   

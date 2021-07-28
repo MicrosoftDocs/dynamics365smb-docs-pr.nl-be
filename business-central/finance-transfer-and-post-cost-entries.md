@@ -1,6 +1,6 @@
 ---
-title: Kostenposten overbrengen en boeken | Microsoft Docs
-description: Voordat u kostenverdelingen definieert, moet u begrijpen waar kostenposten vandaankomen.
+title: Kostenposten overbrengen en boeken
+description: Voordat u kostenverdelingen definieert, moet u de verschillende bronnen begrijpen waaruit kostenposten afkomstig zijn.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 44e4cd72043d2079a969292cfd71f16c393da582
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770950"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435834"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Kostenposten overbrengen en boeken
 Voordat u kostenverdelingen definieert, moet u begrijpen hoe kostenposten uit de volgende bronnen worden opgehaald:  
@@ -52,16 +52,16 @@ Voordat u begint met de bewerking om grootboekposten over te brengen naar kosten
 
 ### <a name="to-prepare-the-transfer"></a>De overdracht voorbereiden  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling kostprijsboekhouding** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling kostprijsboekhouding** in en kies vervolgens de gerelateerde koppeling.  
 2.  Controleer op de pagina **Instelling kostprijsboekhouding** of het veld **Begindatum voor GB-overdracht** op de juiste waarde is ingesteld.  
-3.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostensoortschema** in en kies de desbetreffende koppeling.  
+3.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostensoortschema** in en kies de gerelateerde koppeling.  
 4.  Controleer op de pagina **Kostensoortkaart** of het veld **Grootboekrekeningbereik** juist gekoppeld is voor elke kostensoort om posten uit het grootboek te halen.  
-5.  Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de desbetreffende koppeling.  
+5.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de gerelateerde koppeling.  
 6.  Voor elke gewenste grootboekrekening controleert u op de pagina **Grootboekrekening** of het veld **Nr. kostensoort** juist is gekoppeld aan een kostensoort. Zie [Kostenboekhouding instellen](finance-set-up-cost-accounting.md) voor meer informatie.  
 7.  Controleer of alle relevante grootboekposten over dimensiewaarden beschikken die overeenkomen met een kostenplaats en een kostenobject.  
 
 ### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Grootboekposten overbrengen naar kostenposten.  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekposten overbrengen naar kostprijsboekhouding** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekposten overbrengen naar kostprijsboekhouding** in en kies vervolgens de gerelateerde koppeling.  
 2.  Klik op **Ja** om de overdracht te starten. Tijdens de bewerking worden alle grootboekposten overgebracht die niet al zijn overgebracht.  
 
     Tijdens de overdracht worden door het proces verbindingen in de posten in de tabel **Kostenpost** en de tabel **Kostenregister** gemaakt. Hierdoor kunt de bron van de kostenposten traceren.

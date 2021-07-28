@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4437d723834a8189a7155d59812c8e2e1f16b933
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d83597057975757354da06668a7e71e94e5273f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778934"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435775"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Opgeslagen instellingen beheren voor rapporten en batchtaken
 Wanneer gebruikers rapporten uitvoeren, zien ze meestal een pagina waarmee ze opties kunnen selecteren en filters kunnen instellen om de gegevens te wijzigen die in het gegenereerde rapport worden opgenomen. Deze pagina wordt de aanvraagpagina genoemd. Een rapport kan een of meer *opgeslagen instellingen* bevatten die gebruikers op het rapport kunnen toepassen vanaf de aanvraagpagina. *Opgeslagen instellingen* zijn in wezen vooraf gedefinieerde opties en filters. Met behulp van opgeslagen instellingen kunt u snel en betrouwbaar rapporten genereren die de juiste gegevens bevatten. Zie voor meer informatie [Opgeslagen instellingen gebruiken](ui-work-report.md#SavedSettings).
@@ -38,7 +38,7 @@ Als u de juiste machtigingen hebt, kunt u de opgeslagen instellingen voor alle g
 
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Opgeslagen instellingen maken en wijzigen voor alle gebruikers
 U beheert opgeslagen instellingen op de pagina **Rapportinstellingen**. Er zijn twee manieren om deze pagina te openen:
--   Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportinstellingen** in en kies de gerelateerde koppeling.
+-   Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rapportinstellingen** in en kies vervolgens de gerelateerde koppeling.
 -   Open een rapport, kies de opzoekactie in het veld **Standaardwaarden gebruiken uit** en kies vervolgens de actie **Selecteren vanuit volledige lijst**.
 
 De pagina bevat alle bestaande opgeslagen instellingsvermeldingen voor alle gebruikers. Als er een gebruikersnaam in het veld **Toegewezen aan** staat, kan alleen deze gebruiker de opgeslagen instellingen voor het corresponderende rapport gebruiken. Als er een vinkje in het veld **Gedeeld met alle gebruikers** staat, kunnen alle gebruikers de opgeslagen instellingen voor het rapport gebruiken.

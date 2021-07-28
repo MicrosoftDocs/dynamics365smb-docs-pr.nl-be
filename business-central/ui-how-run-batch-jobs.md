@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 05b65f5b001259fff25d0f59dfc6267d9ee00c7f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42cb5f19dde06211136b0b3b276fed2ba267ec62
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782265"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435281"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Batchtaken en XMLports uitvoeren
 Een batchtaak is een routine waarmee gegevens in batches worden verwerkt, zoals bij de batchtaak **Wisselkoers herwaarderen**. Er zijn batchverwerkingen die periodieke boekhoudingactiviteiten uitvoeren, zoals het afsluiten van de resultatenrekening aan het einde van een boekjaar. Veel batchtaken voeren berekeningswerk uit, zoals de berekening van de financieringskosten, herwaardering van de wisselkoers en de berekening van eenheidsprijzen.
@@ -27,7 +27,7 @@ Een batchverwerking lijkt op een lijst, alleen wordt bij een batchverwerking het
 U kunt plannen wanneer een batchtaak wordt uitgevoerd. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-run-a-batch-job"></a>Een batchverwerking uitvoeren
-1. Als u de aanvraagpagina wilt openen voor de relevante batchverwerking, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u de naam van de batchverwerking in en kiest u de gerelateerde koppeling.
+1. Om de aanvraagpagina voor de relevante batchverwerking te openen, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u de naam van de batchverwerking in en kiest u vervolgens de gerelateerde koppeling.
 2. Als het sneltabblad **Opties** aanwezig is voor de batchverwerking, vult u de velden in om te bepalen wat er met de batchverwerking gebeurt.
 3. De pagina kan een of meer sneltabbladen met filters bevatten waarmee u kunt beperken welke gegevens worden gebruikt in de batchverwerking. U kunt criteria in de voorgestelde velden invoeren of meer filters toevoegen.
 4. Kies **OK** om de batchverwerking te starten.

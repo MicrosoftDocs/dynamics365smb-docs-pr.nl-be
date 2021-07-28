@@ -1,6 +1,6 @@
 ---
-title: Regels instellen voor automatische vereffening van betalingen
-description: Op de pagina Regels betalingsvereffening stelt u de regels in die bepalen hoe betalingen/banktransacties automatisch moeten worden vereffend met de gerelateerde openstaande dagboekposten wanneer u de functie Automatisch vereffenen gebruikt in het venster Betalingsreconciliatiedagboek.
+title: Regels voor automatische vereffening van betalingen
+description: Lees over het instellen van regels voor de automatische vereffening van betalingen op de pagina Regels betalingsvereffening.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 57f9fa038c8631db87d03d9054dcf8a17a874345
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778984"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435071"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Regels instellen voor automatische vereffening van betalingen
 
@@ -40,7 +40,7 @@ Behalve de afstemmingscriteria is het volgende van toepassing met betrekking tot
 - Voor positieve bedragen wordt eerst een afstemming uitgevoerd met openstaande posten die leveranciersfacturen vertegenwoordigen en dan met creditnota's van klanten.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Een betalingsvereffeningsregel instellen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Regels betalingsvereffening** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Regels betalingsvereffening** in en kies vervolgens de gerelateerde koppeling.
 2. Definieer een nieuwe of bewerkte betalingsvereffeningsregel door de velden op een regel in te vullen, zoals beschreven in de volgende tabel.
 
 |Veld|Omschrijving|

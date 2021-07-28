@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f58ee0ab43e8d43ae2d08e67cec52a9dd63ac202
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dadfa25189aa44c032dd03aee053be39d87bc4d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776653"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435921"
 ---
 # <a name="preparing-closing-statements"></a>Afsluitingsoverzichten voorbereiden
 Er staat een aantal standaardrapporten tot uw beschikking voor het verzamelen van de informatie die u nodig hebt voor het voorbereiden van de afsluitingsoverzichten van uw bedrijf.
@@ -32,7 +32,7 @@ In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die
 | Een rapportageschema af te drukken om de cijfers in grootboekrekeningen te analyseren, of om werkelijke grootboekposten te vergelijken met budgetposten voor het grootboek. |**Rapportageschema** |
 | Te controleren of klant- en leveranciersposten overeenkomen met corresponderende grootboekposten. |**Recon. klant- en lev.-rek.** |
 
-Als u een rapport wilt zien, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel staat en kiest u de gerelateerde koppeling.
+Als u een rapport wilt zien, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  

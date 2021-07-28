@@ -1,6 +1,6 @@
 ---
-title: Boekingsperioden afsluiten voor een boekjaar | Microsoft Docs
-description: Beschrijft hoe u de boekhoudperioden afsluit die een boekjaar vormen.
+title: Boekingsperioden afsluiten voor een boekjaar
+description: In dit artikel wordt beschreven hoe u de boekhoudperioden afsluit die deel uitmaken van het boekjaar voor jaarafsluiting.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: a26baaf947fdac133e3bfcd50489d680231d9971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786694"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436010"
 ---
 # <a name="close-accounting-periods"></a>Boekhoudperioden afsluiten
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten.
 
 ## <a name="to-close-accounting-periods"></a>Boekhoudperioden afsluiten
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Boekhoudperioden** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Boekhoudperioden afsluiten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Boekingsperioden** de actie **Jaar afsluiten**.
 
     Als er meerdere boekjaren zijn geopend, wordt het vroegste boekjaar automatisch geselecteerd om te worden afgesloten. Er verschijnt een bericht waarin wordt aangegeven welk jaar wordt afgesloten en welke gevolgen dit heeft.

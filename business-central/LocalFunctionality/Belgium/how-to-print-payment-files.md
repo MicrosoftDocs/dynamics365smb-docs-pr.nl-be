@@ -1,5 +1,5 @@
 ---
-title: Betalingsbestanden afdrukken in de Belgische versie
+title: Betalingsbestanden exporteren in de Belgische versie
 description: Als u een testrapport hebt afgedrukt en alle fouten hebt gecorrigeerd, kunt u betalingsdagboekregels naar een betalingsbestand afdrukken in de Belgische versie van Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -7,24 +7,24 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a2536af3bc33354a782a840c4320cc61a217af7a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 73c142f460f208a6350e48bba54535fd2d77c7d6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779221"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435205"
 ---
-# <a name="print-payment-files"></a>Betalingsbestanden afdrukken
+# <a name="export-payment-files-in-the-belgian-version"></a>Betalingsbestanden exporteren in de Belgische versie
 
-Als u een testrapport hebt afgedrukt en alle fouten hebt gecorrigeerd, kunt u betalingsdagboekregels naar een betalingsbestand afdrukken.  
+Als u een testrapport hebt afgedrukt en alle fouten hebt gecorrigeerd, kunt u betalingsdagboekregels naar een betalingsbestand exporteren.  
 
-Een betalingsbestand bevat binnenlandse, internationale of SEPA-betalingen (in euro's of in een andere valuta). Het bestand kan per schijf of via een modem of Isabel (Interbanks Standards Association Belgium) worden verzonden. U kunt slechts één bestand per boekingsdatum en valutacode maken. Wanneer u de betalingen naar een bestand exporteert, wordt er een bijbehorende notitie afgedrukt die ook naar de bank kan worden verzonden.  
+Een betalingsbestand bevat binnenlandse, internationale of SEPA-betalingen (in euro's of in een andere valuta). Het bestand kan elektronisch naar een bank worden verzonden. U kunt slechts één bestand per boekingsdatum en valutacode maken. Wanneer u de betalingen naar een bestand exporteert, wordt er een bijbehorende notitie afgedrukt die ook naar de bank kan worden verzonden.  
 
 In het betalingsdagboek wordt het veld **Status** op de geëxporteerde regels ingesteld op **Geboekt**.  
 
 ## <a name="to-print-a-payment-file"></a>Een betalingsbestand afdrukken  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies vervolgens de koppeling om de pagina **EB-betalingsdagboek** te openen.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboek** in en kies de koppelingen om de pagina **EB-betalingsdagboek** te openen.  
 2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3. Selecteer in het veld **Exportprotocol** het exportprotocol.  
 
@@ -38,9 +38,7 @@ In het betalingsdagboek wordt het veld **Status** op de geëxporteerde regels in
 
 5. Als er geen fouten zijn, kiest u de actie **Betalingsregels exporteren**.  
 
-    Vervolgens wordt het rapport geopend dat u in het veld **Testrapport-id** in **Betalingsdagboeksjablonen** hebt opgegeven.  
-
-6. Klik op **Afdrukken**.  
+    Het rapport dat u in het betreffende exportprotocol hebt opgegeven, verwerkt de betalingregels en genereert het bestand.  
 
 ## <a name="see-also"></a>Zie ook
 

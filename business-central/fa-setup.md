@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 54ade14f58d9be5957c77a768096b5f475db5798
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770428"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343561"
 ---
 # <a name="setting-up-fixed-assets"></a>Vaste activa instellen
 Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:  
@@ -40,6 +40,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Verzekering van vaste activa inschakelen, algemene verzekeringsinformatie en een verzekeringskaart per polis instellen en dagboeken voorbereiden om verzekeringskosten te boeken. |[Verzekering van vaste activa instellen](fa-how-setup-insurance.md) |
 | Onderhoud van vaste activa inschakelen, algemene onderhoudsgegevens instellen, boekingsrekeningen voor onderhoud instellen en soorten onderhoudswerk definiëren. |[Onderhoud van vaste activa instellen](fa-how-setup-maintenance.md) |
 | Meer informatie over andere afschrijvingsmethoden voor vaste activa. |[Afschrijvingsmethoden](fa-depreciation-methods.md) |
+| Meer informatie over het toepassen van door de gebruiker gedefinieerde afschrijvingsmethoden. |[Eigen afschrijvingsmethoden instellen](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Zie ook
 [Vaste activa](fa-manage.md)  

@@ -1,6 +1,6 @@
 ---
-title: Relatiebeheer | Microsoft Docs
-description: De functies van het relatiebeheer in Business Central ondersteunen uw verkoopinspanningen en u kunt gegevens over contacten en prospects openen zodat u klanten efficiënter kunt bedienen.
+title: Relatiebeheer
+description: De functies van het relatiebeheer ondersteunen uw verkoopinspanningen en u kunt gegevens over contacten en prospects openen om klanten efficiënter te kunnen bedienen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3f3a6e729adcb5057b52aebd996778e74c83e01d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f37fa1be83c422062af1aafa7c19a36ee0455a2e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780619"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325698"
 ---
 # <a name="managing-relationships"></a>Relaties beheren
 De relatiebeheerfuncties van [!INCLUDE[prod_short](includes/prod_short.md)] helpen u bij het beheer en de ondersteuning van uw verkoopactiviteiten. Met deze functies hebt u toegang tot volledige en nauwkeurige informatie, zodat u zich kunt richten op uw interacties met de klant/contact-segmenten van uw voorkeur.

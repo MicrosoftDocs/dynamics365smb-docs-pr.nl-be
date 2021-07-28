@@ -1,6 +1,6 @@
 ---
-title: Artikelen verzenden | Microsoft Docs
-description: Afhankelijk van de magazijnconfiguratie, kunt u de verzending direct registreren in het gerelateerde uitgaande bedrijfsdocument, zoals een verkooporder, of magazijnverzendingsdocumenten gebruiken die deel uitmaken van een werkstroom en met verschillende magazijnactiviteiten zijn geïntegreerd.
+title: Artikelen verzenden
+description: In dit onderwerp wordt beschreven hoe u artikelen vanuit uw magazijn verzendt, afhankelijk van uw magazijnconfiguratie voor verzendingsverwerking.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 22404e97c578f6bcaaa5f74ec40408beca7fe3c8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60274947bb0f38ed6e116767ac5c74357482298c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782771"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435946"
 ---
 # <a name="ship-items"></a>Artikelen verzenden
 
 Wanneer u artikelen verzendt vanuit een magazijn waarvoor magazijnverzendingsverwerking niet is ingesteld, registreert u de verzending in het gerelateerde bedrijfsdocument, zoals een verkooporder, serviceorder, inkoopretourorder of uitgaande transferorder.
 
-Als u artikelen verzendt vanuit een magazijn met magazijnverzendingsverwerking, kunt u artikelen alleen verzenden op basis van brondocumenten die door andere afdelingen zijn vrijgegeven voor magazijnactiviteiten.
+Als u artikelen verzendt vanuit een magazijn dat is ingesteld voor magazijnverzendingsverwerking, kunt u artikelen alleen verzenden op basis van brondocumenten die door andere afdelingen zijn vrijgegeven voor magazijnactiviteiten.
 
 > [!NOTE]
 > Als u in uw magazijn met cross-docking en opslaglocaties werkt, kunt u voor elke regel u zien hoeveel artikelen in de cross-dockopslaglocaties zijn geplaatst. Deze aantallen worden automatisch berekend wanneer de velden op de verzending worden bijgewerkt. Als dit de artikelen voor de voorbereide verzending zijn, kunt u een pick maken voor alle regels en de verzendingen vervolgens voltooien. Zie [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md) voor meer informatie.
@@ -30,7 +30,7 @@ Als u artikelen verzendt vanuit een magazijn met magazijnverzendingsverwerking, 
 
 Hieronder wordt beschreven hoe u artikelen verzendt vanuit een verkooporder. De stappen zijn vergelijkbaar voor inkoopretourorders, serviceorders en uitgaande transferorders.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Open een bestaande verkooporder of maak een nieuwe. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 3. Voer in het veld **Te verzenden aantal** het aantal in dat u hebt verzonden.
 
@@ -48,7 +48,7 @@ Eerst maakt u een verzendingsdocument op basis van een bedrijfsbrondocument. Ver
 
 Gewoonlijk maakt de werknemer die verantwoordelijk voor verzendingen is, een magazijnverzending. De volgende procedure beschrijft hoe u de zending handmatig kunt maken in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)], maar uw organisatie heeft mogelijk een geautomatiseerd deel van het proces, zoals het gebruik van draagbare of gemonteerde scanners die worden ondersteund door externe providers.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnverzendingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 
     Vul de velden op het sneltabblad **Algemeen** in. Bij het ophalen van brondocumentregels worden bepaalde gegevens automatisch naar elke regel gekopieerd.  
@@ -83,12 +83,12 @@ Als u alle regels voor de verzending hebt, kunt u het proces starten dat deze do
 
 Doorgaans wordt een nieuw pickdocument gemaakt of een bestaand pickdocument geopend door een magazijnmedewerker die verantwoordelijk is voor pickactiviteiten.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de magazijnverzending waarvoor u wilt picken en kies de actie **Pick maken**.
 3. Vul de velden op de pagina in en klik vervolgens op de knop **OK**. Het opgegeven magazijnpickdocument wordt gemaakt.
 
     U kunt ook een bestaande magazijnpick openen.
-4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies de desbetreffende koppeling. Selecteer de magazijnpick waaraan u wilt werken.
+4. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Picks** in en kies vervolgens de gerelateerde koppeling. Selecteer de magazijnpick waaraan u wilt werken.
 
     Als het magazijn met opslaglocaties werkt, zijn de pickregels omgezet in Nemen- en Plaatsen-regels.
 

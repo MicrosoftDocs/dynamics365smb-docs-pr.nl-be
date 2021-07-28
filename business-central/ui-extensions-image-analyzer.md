@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: bbeffd4175751e08043d79f596027a79c88503bc
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c2726efed6050dd4a2ada5e3056d446e16fb4e5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074624"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435006"
 ---
 # <a name="the-image-analyzer-extension"></a>De extensie Afbeeldingsanalyse
 
@@ -49,7 +49,7 @@ De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[prod_short](includes/pr
 Als u de extensie Afbeeldingsanalyse wilt inschakelen, voert u een van de volgende handelingen uit:
 
 * Open een artikel- of contactkaart. Kies op de berichtbalk **Afbeeldingen analyseren** en volg vervolgens de stappen in de begeleide instelling.  
-* Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies **Instelling van afbeeldingsanalyse**. Kies het selectievakje **Afbeeldingsanalyse inschakelen** en volg vervolgens de stappen in de begeleide instelling.  
+* Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer in **Serviceverbindingen** en kies vervolgens **Afbeeldingsanalyse instellen**. Kies het selectievakje **Afbeeldingsanalyse inschakelen** en volg vervolgens de stappen in de begeleide instelling.  
 
     > [!TIP]  
     > De pagina **Instelling van afbeeldingsanalyse** is ook waar u de mate van vertrouwen voor kenmerksuggesties kunt wijzigen. Als u bijvoorbeeld een grotere mate van vertrouwen wilt vereisen, kunt u een hoger percentage invoeren.
@@ -58,7 +58,7 @@ Als u de extensie Afbeeldingsanalyse wilt inschakelen, voert u een van de volgen
 
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het artikel en kies vervolgens de actie **Afbeelding analyseren**.  
 3. De pagina **Kenmerken van afbeeldinganalyse** bevat de ontdekte kenmerken, het vertrouwensniveau en andere informatie over het kenmerk. Gebruik de **Uit te voeren actie**-opties om te specificeren wat te doen met het kenmerk of kies **Toevoegen aan artikelbeschrijving** om de naam van het kenmerk toe te voegen aan de artikelbeschrijving. Bijvoorbeeld, het kan handig zijn om snel details toe te voegen. 
 
@@ -75,7 +75,7 @@ De actie **Uit te voeren actie** heeft de volgende opties:
     De geselecteerde waarde wordt als categorie toegevoegd. Zie [Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie
   * *Toevoegen aan blokkeringslijst*
 
-    Als de analyse een kenmerk voorstelt dat u niet wilt zien, kunt u het blokkeren. Wees echter voorzichtig. Geblokkeerde kenmerken worden ook niet voorgesteld voor andere artikelen. Als u betreurt dat een kenmerk is geblokkeerd, kunt u **Kenmerken op blokkeringslijst weergeven** kiezen en het kenmerk van de lijst verwijderen.
+    Als de analyse een kenmerk voorstelt dat u niet wilt zien, kunt u het blokkeren. Wees echter voorzichtig. Geblokkeerde kenmerken worden ook niet voorgesteld voor andere artikelen. Als u betreurt dat een kenmerk is geblokkeerd, kunt u **Geblokkeerde kenmerken weergeven** kiezen en het kenmerk van de lijst verwijderen.
   
     > [!NOTE]  
     > Standaard geeft **Artikelkenmerken** kenmerken weer waarbij **Zekerheidsscore** ligt boven **Drempelpercentage voor zekerheidsscore**, zoals gedefinieerd in de **Instelling van afbeeldingsanalyse**. Om alle gedetecteerde kenmerken te zien kiest u de actie **Alle kenmerken weergeven**.
@@ -84,7 +84,7 @@ De actie **Uit te voeren actie** heeft de volgende opties:
 
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de contactpersoon en kies vervolgens de actie **Afbeelding analyseren**.  
 3. Op het sneltabblad **Profielvragenlijst** controleert u de voorstellen en maakt u correcties, indien nodig. Zie voor meer informatie [Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren](marketing-create-contact-profile-questionnaire.md).  
 
@@ -104,7 +104,7 @@ In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is g
 
 U kunt ook uw eigen account gebruiken voor de Computer Vision-API, bijvoorbeeld als u meer afbeeldingen wilt analyseren dan we toestaan.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van afbeeldingsanalyse** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling van afbeeldingsanalyse** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de **API-URI** en **API-sleutel** in die u voor de Computer Vision-API hebt ontvangen.  
 
     > [!NOTE]  
@@ -114,12 +114,12 @@ U kunt ook uw eigen account gebruiken voor de Computer Vision-API, bijvoorbeeld 
 
 U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de huidige periode nog kunt doen.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van afbeeldingsanalyse** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling van afbeeldingsanalyse** in en kies vervolgens de gerelateerde koppeling.  
 2. De **Limietsoort**, **Limietwaarde** en **Analyses uitgevoerd** bieden de gebruiksinformatie.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Stoppen met het gebruik van de extensie Afbeeldingsanalyse
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies **Instelling van afbeeldingsanalyse**.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceverbindingen** en kies vervolgens **Afbeeldingsanalyse instellen**.  
 2. Schakel het selectievakje **Afbeeldingsanalyse inschakelen** uit.  
 
 U kunt de extensie ook volledig verwijderen. U kunt deze altijd weer ophalen van AppSource. Zie [Extensies installeren en verwijderen in Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension) voor meer informatie.  

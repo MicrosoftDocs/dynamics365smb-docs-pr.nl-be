@@ -1,5 +1,5 @@
 ---
-title: Business Central en Dataverse synchroniseren | Microsoft Docs
+title: Business Central en Dataverse synchroniseren
 description: Leer over het synchroniseren van gegevens tussen Business Central en Dataverse.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: 07eaab3182d51bd7b76d1ffbbfb7ad18338faeb7
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889218"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325454"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Een synchronisatie plannen tussen Business Central en Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

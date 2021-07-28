@@ -1,6 +1,6 @@
 ---
-title: Overzicht van taken om aan servicecontracten te voldoen | Microsoft Docs
-description: Hier worden de taken voor het beheren van servicecontracten met klanten beschreven.
+title: Overzicht van taken om aan servicecontracten te voldoen
+description: Geeft een overzicht van taken die betrokken zijn bij het vervullen van servicecontracten met uw klanten, zoals het opzetten van standaard contractuele overeenkomsten met aanpasbare sjablonen en meer.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 271e9ef14937ebd1b2bb7a8932f2f561d7a6f2ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 343308cb004ada356eaad14e620f29fb9cf043ee
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778309"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326825"
 ---
 # <a name="fulfilling-service-contracts"></a>Servicecontracten voldoen 
 Een van de manieren waarop u servicebeheerdiensten kunt bieden, is door middel van het gebruik van standaard contractuele overeenkomsten tussen u en uw klanten, waarin het serviceniveau en de serviceverwachtingen zijn uiteengezet. U kunt contractsjablonen maken waarin de benodigde gegevens, zoals de klant, de ingangsdatum van het contract en de factureringsperiode, zijn opgenomen.  

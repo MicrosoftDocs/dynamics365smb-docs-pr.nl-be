@@ -1,6 +1,6 @@
 ---
-title: Assemblagebeheer | Microsoft Docs
-description: Ondersteun bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien, maar met functies om artikelen te assembleren, die worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.
+title: Assemblagebeheer
+description: Ondersteun bedrijven die producten aan hun klanten leveren door componenten te combineren in eenvoudige processen zonder de noodzaak van productiefunctionaliteit.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 111f78578f298c662cc5a923a0b05c487f68b4c7
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d149ed0da02124a442668bb67a659c0dde36dad3
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215615"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326375"
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  

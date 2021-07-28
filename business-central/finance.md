@@ -1,6 +1,6 @@
 ---
 title: Financieel beheer
-description: Lees meer over hoe Business Central uw behoeften op het gebied van financieel beheer, boekhouding, audits of boekhouding ondersteunt.
+description: Lees meer over hoe Business Central uw behoeften op het gebied van financieel beheer, boekhouding, audits en boekhouding ondersteunt.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e6f6769ec8aefebaf1cabd6c2ec764c454780426
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 842c2723fb62775e35673614c609257fe9439115
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773767"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326900"
 ---
-# <a name="finance"></a>Financiën
+# <a name="financial-management"></a>Financieel beheer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
 
@@ -44,7 +44,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Wijs extra kosten toe, zoals vracht en fysieke verwerking die u oploopt tijdens handel, aan de betrokken artikelen, zodat de kosten worden gereflecteerd in voorraadwaarde. |[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) |
 |Boek persoonlijke kosten van werknemers voor zakelijke bezigheden en betaal werknemers terug door te betalen naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
 | Kosten en inkomsten verantwoorden in andere perioden dan wanneer de transacties zijn geboekt. |[Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)|
-| Meer informatie over de beschikbare opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. |[Periodieke (abonnements)inkomsten](finance-recurring-invoicing.md)|
+| Meer informatie over de beschikbare opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. |[Werken met periodieke inkomsten](finance-recurring-invoicing.md)|
 |Leren hoe u extra valuta's gebruikt en valutawisselkoersen automatisch bijwerkt. |[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|
 | Importeer salaristransacties van uw leverancier van salarisverwerking in het grootboek. |[Salaristransacties importeren](finance-how-import-payroll-transactions.md)|
 |Gebruik functies om btw te berekenen op verkoop- en inkooptransacties, zodat u de bedragen kunt rapporteren aan de belastingdienst.|[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)|

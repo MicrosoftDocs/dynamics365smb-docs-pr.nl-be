@@ -1,6 +1,6 @@
 ---
-title: Integratie met Dynamics 365 Sales | Microsoft Docs
-description: Leren hoe u Dynamics 365 Business Central voorbereidt op integratie met Dynamics 365 Sales.
+title: Integreren met Dynamics 365 Sales
+description: Leer hoe u Dynamics 365 Business Central gereed maakt om te integreren met Dynamics 365 Sales om te zien wat er in de backend gebeurt.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 437287401003cc008e3a998e7d28fb7862415abc
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184511"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325480"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integreren met Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -67,7 +67,6 @@ Voer de volgende gegevens in voor de verbinding van [!INCLUDE[crm_md](includes/c
 
 | Veld | Omschrijving |
 |--|--|
-| **Dynamics 365 Sales-URL** | De URL van uw [!INCLUDE[crm_md](includes/crm_md.md)]-exemplaar. Hierdoor kunnen gebruikers in [!INCLUDE[prod_short](includes/prod_short.md)] bijbehorende records openen vanuit records in [!INCLUDE[crm_md](includes/crm_md.md)], zoals een account of product. De [!INCLUDE[prod_short](includes/prod_short.md)]-records worden geopend in [!INCLUDE[prod_short](includes/prod_short.md)]. |
 |**Dynamics 365 Sales-URL**|De URL van uw [!INCLUDE[crm_md](includes/crm_md.md)]-exemplaar. Hierdoor kunnen gebruikers in [!INCLUDE[prod_short](includes/prod_short.md)] bijbehorende records openen vanuit records in [!INCLUDE[crm_md](includes/crm_md.md)], zoals een account of product. De [!INCLUDE[prod_short](includes/prod_short.md)]-records worden geopend in [!INCLUDE[prod_short](includes/prod_short.md)].|
 |**Webservice Artikelbeschikbaarheid ingeschakeld**|Zorg dat personen die [!INCLUDE[crm_md](includes/crm_md.md)] gebruiken de beschikbaarheid van producten (artikelen) in voorraad in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen bekijken. Als u dit inschakelt, moet u ook een gebruikersnaam en een toegangssleutel opgeven die de [!INCLUDE[crm_md](includes/crm_md.md)] moet gebruiken om bij de OData webservice te vragen naar beschikbaarheid van artikelen (producten). Zie voor meer informatie [OData-webservices](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**URL van Dynamics 365 Business Central OData-webservice**|Als u de webservice Artikelbeschikbaarheid inschakelt, wordt de URL van de OData-webservice voor u verschaft. Stel dit veld in op de URL van het te gebruiken [!INCLUDE[prod_short](includes/prod_short.md)]-exemplaar.<br /><br /> Als u het veld opnieuw wilt instellen op de standaard-URL voor de [!INCLUDE[prod_short](includes/prod_short.md)], kiest u de actie **Webclient-URL opnieuw instellen**.<br /><br /> Dit veld is alleen van belang als de [!INCLUDE[prod_short](includes/prod_short.md)]-integratieoplossing is geïnstalleerd in [!INCLUDE[crm_md](includes/crm_md.md)].|
@@ -149,8 +148,11 @@ De volgende tabel beschrijft de standaardsynchronisatietaken voor Sales.
 |GEBOEKTEVERKOOPFACTUUR-FACT - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-facturen met [!INCLUDE[prod_short](includes/prod_short.md)] geboekte verkoopfacturen.|Van [!INCLUDE[prod_short](includes/prod_short.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|FACTUREN-GEBOEKTE VERKOOPFACTUREN|30|1440<br> (24 uur)|
 |Klantstatistieken - Dynamics 365 Sales-synchronisatie|Werkt [!INCLUDE[crm_md](includes/crm_md.md)]-rekeningen bij met de recentste [!INCLUDE[prod_short](includes/prod_short.md)]-klantgegevens In [!INCLUDE[crm_md](includes/crm_md.md)] wordt deze informatie in het snelle weergaveformulier **Statistiek van Business Central-account** weergegeven van accounts die zijn gekoppeld aan [!INCLUDE[prod_short](includes/prod_short.md)]-klanten.<br /><br /> Deze gegevens kunnen ook handmatig worden bijgewerkt vanuit van elke klantrecord. Zie voor meer informatie [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Opmerking:** Dit taakwachtrij-item is alleen van belang als de [!INCLUDE[prod_short](includes/prod_short.md)]-integratieoplossing is geïnstalleerd in [!INCLUDE[crm_md](includes/crm_md.md)]. |Niet van toepassing|Niet van toepassing|30|Niet van toepassing| 
 
-## <a name="connecting-business-central-on-premises-versions-earlier-than-version-16"></a>Verbinding maken met Business Central On-Premises-versies ouder dan versie 16
-Het Microsoft Power Platform-team heeft [bekend gemaakt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) dat het Office365-verificatietype wordt afgeschaft. Als u een versie van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt die ouder is dan versie 16, moet u het OAuth-verificatietype gebruiken om verbinding te maken met [!INCLUDE[crm_md](includes/crm_md.md)] online. In de stappen in deze sectie wordt beschreven hoe u de verbinding tot stand brengt.
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Verbinding maken met on-premises versies van Business Central 2019 releasewave 1 en Microsoft Dynamics NAV 2018
+Het Microsoft Power Platform-team heeft [bekend gemaakt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) dat het Office365-verificatietype wordt afgeschaft. Als u een versie van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt die ouder is dan Business Central 2019 releasewave 1, moet u het OAuth-verificatietype gebruiken om verbinding te maken met [!INCLUDE[crm_md](includes/crm_md.md)] online. In de stappen in deze sectie wordt beschreven hoe u verbinding maakt met de volgende productversies:
+
+* Business Central 2019 releasewave 1
+* Microsoft Dynamics NAV 2018
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -164,9 +166,13 @@ Het Microsoft Power Platform-team heeft [bekend gemaakt](/power-platform/importa
 
    - OAuth
 
-### <a name="to-connect-a-version-of-business-central-earlier-than-version-16"></a>Verbinding maken met Business Central On-Premises-versies ouder dan versie 16
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Verbinding maken met Business Central 2019 releasewave 1 en Dynamics NAV 2018
 
-1. Importeer de Microsoft Dynamics 365 Business Central-integratieoplossing in uw [!INCLUDE[crm_md](includes/crm_md.md)]-omgeving. De integratieoplossing is beschikbaar in de map CrmCustomization op uw Business Central-installatie-dvd. Er zijn meerdere versies van de oplossing, zoals DynamicsNAVIntegrationSolution_v8 of DynamicsNAVIntegrationSolution_v9 of DynamicsNAVIntegrationSolution_v91. Welke oplossing u moet importeren, is afhankelijk van de versie van [!INCLUDE[crm_md](includes/crm_md.md)] waarmee u verbinding maakt. [!INCLUDE[crm_md](includes/crm_md.md)] online vereist de DynamicsNAVIntegrationSolution_v91-integratieoplossing.
+1. Importeer de Microsoft Dynamics 365 Business Central-integratieoplossing in uw [!INCLUDE[crm_md](includes/crm_md.md)]-omgeving. De integratieoplossing is beschikbaar in de map CrmCustomization op uw [!INCLUDE[prod_short](includes/prod_short.md)]- of Dynamics NAV 2018-installatie-dvd. Importeer een van de volgende opties, afhankelijk van uw productversie:
+
+   * Voor [!INCLUDE[prod_short](includes/prod_short.md)] bevat de map de DynamicsNAVIntegrationSolution_v9 en DynamicsNAVIntegrationSolution_v91. oplossingen. Welke oplossing u moet importeren, is afhankelijk van de versie van [!INCLUDE[crm_md](includes/crm_md.md)] waarmee u verbinding maakt. [!INCLUDE[crm_md](includes/crm_md.md)] online vereist de DynamicsNAVIntegrationSolution_v91-integratieoplossing.
+   * Voor Dynamics NAV 2018 installeert u de oplossing DynamicsNAVIntegrationSolution.
+
 2. Maak een niet-interactieve integratiegebruiker in uw [!INCLUDE[crm_md](includes/crm_md.md)]-omgeving en wijs de gebruiker de volgende beveiligingsrollen toe. Zie voor meer informatie [Een niet-interactief gebruikersaccount maken](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
    * Dynamics 365 Business Central-integratiebeheerder
@@ -175,17 +181,29 @@ Het Microsoft Power Platform-team heeft [bekend gemaakt](/power-platform/importa
    > [!Important]
    > Deze gebruiker mag niet de beveiligingsrol Systeembeheerder hebben. U kunt het systeembeheerdersaccount ook niet gebruiken als integratiegebruiker.
 
-3.  Maak in de Azure Portal een app-registratie voor [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor de stappen [Een toepassing registreren in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). De instellingen die specifiek zijn voor het verbinden met [!INCLUDE[crm_md](includes/crm_md.md)], zijn de gedelegeerde machtigingen. De volgende tabel bevat en beschrijft de machtigingen.
+3.  Maak in de Azure Portal een app-registratie voor [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Een toepassing registreren in Azure Active Directory](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+  
+   > [!NOTE]
+   > We raden u aan de app te registreren in dezelfde tenant als uw Dataverse-omgeving, zodat u geen toestemming hoeft te geven om de app toegang te geven tot de omgeving. Als u de app in een andere omgeving registreert, moet u inloggen op Azure AD met behulp van het beheerdersaccount voor uw Dataverse-omgeving en toestemming geven.
+   >
+   > Bovendien mag de app die u registreert geen geheim hebben. Een app met een geheim verbinden met Dataverse is alleen beschikbaar in Business Central 2020 releasewave 1 en hoger.
+  
+4. Doe een van de volgende dingen, afhankelijk van uw productversie:
 
-   |API-/machtigingsnaam |Soort  |Omschrijving  |
-   |---------|---------|---------|
-   |Financieel.ReadWrite.All     |Gedelegeerd|Vereist voor [!INCLUDE[prod_short](includes/prod_short.md)].    |
-   |user_impersonation     |Gedelegeerd|Vereist voor [!INCLUDE[crm_md](includes/crm_md.md)].|
-   
-4. Zoek in [!INCLUDE[prod_short](includes/prod_short.md)] naar **Microsoft Dynamics 365-verbinding instellen** en kies vervolgens de gerelateerde koppeling. 
-5. Kies op de pagina **Microsoft Dynamics 365-verbinding instellen** in het veld **Verificatietype** de optie voor OAuth. 
+    * Zoek in [!INCLUDE[prod_short](includes/prod_short.md)] naar **Microsoft Dynamics 365-verbinding instellen** en kies vervolgens de gerelateerde koppeling. 
+    * Zoek in Dynamics NAV 2018 naar **Microsoft Dynamics 365 for Sales-verbinding instellen** en kies vervolgens de gerelateerde koppeling.
+
+5. Kies in het veld **Verificatietype** de optie voor OAuth. 
 6. Kies de CRM SDK-versie die overeenkomt met de oplossingsversie die u in stap 1 hebt geïmporteerd.
-7. Voer in het veld **Serveradres** de URL van uw [!INCLUDE[crm_md](includes/crm_md.md)]-omgeving in en voer vervolgens de gebruikersnaam en het wachtwoord voor de integratiegebruiker in.
+
+   > [!NOTE]
+   > Deze stap is alleen relevant voor [!INCLUDE[prod_short](includes/prod_short.md)].
+
+7. Voer de URL van uw [!INCLUDE[crm_md](includes/crm_md.md)]-omgeving in en voer vervolgens de gebruikersnaam en het wachtwoord voor de integratiegebruiker in. 
+
+   * Gebruik in [!INCLUDE[prod_short](includes/prod_short.md)] het veld **Serveradres**.
+   * Gebruik in Dynamics NAV 2018 het veld **Dynamics 365 Sales-URL**.
+
 8. Geef in het veld **Verbindingstekenreeks** de id van de app-registratie op. Dit veld heeft twee tokens waarin de id van uw toepassing moet worden opgegeven.
 
    |Token           |Omschrijving  |

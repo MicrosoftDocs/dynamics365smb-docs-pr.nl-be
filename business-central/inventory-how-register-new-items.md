@@ -1,6 +1,6 @@
 ---
-title: Artikelkaarten maken voor goederen of services| Microsoft Docs
-description: U maakt artikelkaarten voor services die u als uren en voor fysieke producten verkoopt, zoals componenten, gereedgemelde goederen, onderdelen of grondstoffen, die u uit uw voorraad verkoopt.
+title: Artikelkaarten maken voor goederen of services
+description: U maakt artikelkaarten voor services die u als uren en voor fysieke producten verkoopt, zoals componenten, gereedgemelde goederen die u uit uw voorraad verkoopt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8948024ea1dc0bbbdbd6f2a2262e2616b35671e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785885"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435655"
 ---
 # <a name="register-new-items"></a>Nieuwe artikelen registreren
 
@@ -40,7 +40,7 @@ In de volgende procedure wordt uitgelegd hoe u een geheel nieuwe artikelkaart ma
 
 ## <a name="to-create-a-new-item-card"></a>Een nieuwe artikelkaart maken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Artikelen** de actie **Nieuw**.
 
     Als er slechts één artikelsjabloon bestaat, wordt vervolgens een nieuwe artikelkaart geopend waarin enkele velden zijn ingevuld met informatie van de sjabloon.
@@ -77,7 +77,7 @@ Als u artikelen wilt registreren die vervolgens in productieorders worden gebrui
 
 Als u hetzelfde artikel bij meerdere leveranciers inkoopt, moet u informatie over elk van deze leveranciers invoeren, bijvoorbeeld informatie over prijzen, levertermijn, kortingen, enzovoort.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende artikel en kies vervolgens de actie **Bewerken**.  
 3. Kies de actie **Leveranciers**.  
 4. Klik op het veld **Leveranciersnr.** en selecteer vervolgens de leverancier waarvoor u het artikel wilt instellen.  
@@ -100,6 +100,12 @@ Wanneer u een nieuw artikel registreert, ziet u velden die betrekking hebben op 
 
 Als uw organisatie later magazijnbeheer instelt, moet u in de meeste gevallen teruggaan naar elk bestaand artikel om er zeker van te zijn dat het de juiste informatie in de verschillende velden heeft, zodat de magazijnprocessen kunnen verlopen zoals verwacht. Deze informatie kan velden bevatten zoals **Magazijnklassecode** of **Opslagsjabloon**. Zie voor meer informatie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md).  
 
+## <a name="planning"></a>Planning
+
+Wanneer uw bedrijf de leveringsplanningsprocessen gebruikt in [!INCLUDE [prod_short](includes/prod_short.md)], moet u de relevante velden invullen op het sneltabblad **Planning**. Voor een inleiding tot het planningsgebied zie [Ontwerpdetails: centrale concepten van het planningssysteem](design-details-central-concepts-of-the-planning-system.md).  
+
+Voor voorbeelden van hoe u de velden op het sneltabblad **Planning** gebruikt zie [Best practices instellen: planningsparameters](setup-best-practices-planning-parameters.md).  
+
 ## <a name="see-also"></a>Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
@@ -110,6 +116,12 @@ Als uw organisatie later magazijnbeheer instelt, moet u in de meeste gevallen te
 [Boekingsgroepen instellen](finance-posting-groups.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
+[Informatie over het plannen van functionaliteit](production-about-planning-functionality.md)  
+[Aanbevolen procedures instellen: Planningparameters](setup-best-practices-planning-parameters.md)  
+[Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
+[Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)  
+[Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
+[Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

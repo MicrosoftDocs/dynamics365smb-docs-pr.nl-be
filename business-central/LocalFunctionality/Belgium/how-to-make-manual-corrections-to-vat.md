@@ -1,6 +1,6 @@
 ---
-title: Handmatig btw-correcties doorvoeren
-description: U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboekposten te boeken. Dit is handig als u de btw-bedragen voor de totale verkoop of inkoop moet wijzigen zonder de btw-basis te wijzigen. U kunt btw bijvoorbeeld handmatig corrigeren als u een factuur ontvangt van een leverancier die de btw verkeerd heeft berekend.
+title: Handmatig btw-correcties doorvoeren [BE]
+description: U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboekposten te boeken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 1a7ee1808f5f94cbc625c2bd46ed5efa0fced4f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2fedbc2cda35e8e8191625b9b2a3c02c75a4e727
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779227"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435208"
 ---
-# <a name="make-manual-corrections-to-vat"></a>Handmatig btw-correcties doorvoeren
+# <a name="make-manual-corrections-to-vat-in-the-belgian-version"></a>Handmatig btw-correcties doorvoeren in de Belgische versie
 U kunt geboekte btw-posten corrigeren zonder de correctie in de btw- of grootboekposten te boeken. Dit is handig als u de btw-bedragen voor de totale verkoop of inkoop moet wijzigen zonder de btw-basis te wijzigen. U kunt btw bijvoorbeeld handmatig corrigeren als u een factuur ontvangt van een leverancier die de btw verkeerd heeft berekend.  
 
 ## <a name="to-make-manual-corrections-to-vat"></a>Handmatig btw-correcties doorvoeren  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-aangiftevoorbeeld** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Btw-aangiftevoorbeeld** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de regel die moet worden gecorrigeerd. U kunt de btw-correctie voor de rijen **Vak-/Rubrieksamentelling** en **Btw-postentotaal** doorvoeren bij **Soort**.  
 3.  Kies het veld **Correctiebedrag** om de correctie door te voeren. De pagina **Lijst met handmatige btw-correcties** wordt geopend.  
 4.  Kies de actie **Lijst bewerken**. Vul op de pagina **Lijst met handmatige btw-correcties** de velden in zoals wordt beschreven in de volgende tabel.  

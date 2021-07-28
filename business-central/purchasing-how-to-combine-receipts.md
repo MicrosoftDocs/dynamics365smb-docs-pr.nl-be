@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86617934ecdb0ac2f14f6cf717f8091ba96caf95
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 83b2e9c488a429603158d800e9c7e7b96be3bd8b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772591"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435122"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Ontvangsten combineren op één factuur
 
@@ -30,7 +30,7 @@ Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, word
 
 ## <a name="to-combine-receipts"></a>Ontvangsten combineren
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
 3. Op het sneltabblad **Regels** selecteert u de actie **Ontvangstregels ophalen**.  
 4. Selecteer meerdere ontvangstregels die u wilt opnemen in de factuur.  
@@ -40,7 +40,7 @@ Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, word
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Open inkooporders verwijderen na gecombineerde ontvangstboeking
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefactureerde inkooporders verwijderen** in en selecteer de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gefactureerde inkooporders verwijderen** in en kies vervolgens de gerelateerde koppeling  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Kies de knop **OK**.  
 

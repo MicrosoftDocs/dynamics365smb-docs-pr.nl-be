@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 564b9574188acd63acaa660f4a440be791846ef7
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216217"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435048"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Extensies installeren en verwijderen in Business Central
 
@@ -32,7 +32,7 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door extensies te
 
 ## <a name="installing-an-extension"></a>Een extensie installeren
 
-U beheert de extensies op de pagina **Extensiebeheer**. U kunt tot deze pagina toegang krijgen via de startpagina. Of kies het pictogram **Zoeken naar pagina of rapport** ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") in de rechterbovenhoek, voer **Extensie** in en kies vervolgens de gerelateerde koppeling.  
+U beheert de extensies op de pagina **Extensiebeheer**. U kunt tot deze pagina toegang krijgen via de startpagina. Of kies het pictogram **Pagina of rapport zoeken** ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") in de rechterbovenhoek, voer **Extensie** in en kies vervolgens de gerelateerde koppeling.  
 
 U kunt nieuwe extensies verkrijgen via de marktplaats op [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Hier kunt u alle beschikbare extensies voor [!INCLUDE[prod_short](includes/prod_short.md)] bekijken en kunt u apps, extensies en inhoudpakketten voor andere Microsoft-producten verkrijgen. Stel de gewenste filters in, bekijk de gegevens voor elke extensie en haal een extensie voor uw [!INCLUDE[prod_short](includes/prod_short.md)] op.  
 

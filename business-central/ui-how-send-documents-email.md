@@ -1,5 +1,5 @@
 ---
-title: Documentspecifieke e-mailinhoud instellen | Microsoft Docs
+title: Documenten en e-mails verzenden
 description: U kunt inhoud definiëren die moet worden ingevoegd in het hoofdgedeelte van een e-mailbericht, bijvoorbeeld een PayPal-koppeling. U kunt ook documenten koppelen aan e-mailberichten.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,15 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063414"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435256"
 ---
 # <a name="send-documents-and-emails"></a>Documenten en e-mails verzenden
-U kunt eenvoudig informatie en documenten, zoals verkoop- en inkooporders en facturen, rechtstreeks per e-mail delen vanuit [!INCLUDE[prod_short](includes/prod_short.md)], zonder een e-mailapp te hoeven openen. 
+
+U kunt eenvoudig informatie en documenten, zoals verkoop- en inkooporders en facturen, rechtstreeks per e-mail delen vanuit [!INCLUDE[prod_short](includes/prod_short.md)], zonder een e-mailapp te hoeven openen.  
 
 U kunt bijna alle soorten documenten als pdf-bijlage verzenden. U kunt ook een rapportlay-out instellen die informatie uit het document in de e-mailtekst bevat, samen met tekst die de e-mail vriendelijker maakt, bijvoorbeeld een standaardbegroeting. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -25,12 +26,13 @@ Wanneer u facturen verzendt, kunt u het klanten gemakkelijker maken om betalinge
 Als u e-mails vanuit [!INCLUDE[prod_short](includes/prod_short.md)] wilt inschakelen, start u de begeleide instelling **E-mail instellen**. Zie [E-mail instellen](admin-how-setup-email.md) voor meer informatie.
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)]] ondersteunt alleen uitgaande e-mailcommunicatie. U kunt ook geen antwoorden ontvangen vanuit de app.
+> [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt alleen uitgaande e-mailcommunicatie. U kunt ook geen antwoorden ontvangen vanuit de app.
 
 ## <a name="to-send-documents-by-email"></a>Documenten per e-mail verzenden
+
 In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-bestand en met documentspecifieke e-mailtekst aan een e-mail wordt toegevoegd. <!--update this-->
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de factuur en kies de actie **Afdrukken/Verzenden**.
 3. Kies in het veld **E-mail** **Ja (prompt voor instellingen)**. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
     
@@ -49,21 +51,27 @@ In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-besta
 > Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van de pagina **Document verzenden naar** selecteren. In dat geval wordt de pagina **E-mail verzenden** niet geopend. Zie stap 4. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
 
 ## <a name="to-compose-and-send-an-email"></a>Een e-mail opstellen en verzenden
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **E-mailaccounts** in en kies de desbetreffende koppeling.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **E-mailaccounts** in en kies vervolgens de gerelateerde koppeling.
 2. Kies het account van waaruit u de e-mail wilt verzenden en kies vervolgens de actie **E-mail opstellen**.
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
+
 Sommige documenten in [!INCLUDE[prod_short](includes/prod_short.md)] hebben een veld dat aangeeft hoe vaak het document is afgedrukt. Het nummer in dat veld <!--"that field?" need a name...--> wordt ook bijgewerkt als u het document per e-mail verstuurt, omdat er een pdf-bestand voor wordt gegenereerd. Het nummer wordt bijgewerkt, zelfs als u de e-mail niet verzendt. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## <a name="sent-emails-and-your-email-outbox"></a>Verzonden e-mails en uw e-mailpostvak
+
 [!INCLUDE[prod_short](includes/prod_short.md)] slaat de e-mails die u verzendt, op de pagina **Verzonden items** op. Dat is om u e-mails opnieuw te laten verzenden of door te sturen naar iemand anders. Als u geen e-mail kunt vinden in uw verzonden items, zoekt u deze op de pagina **E-mail-outbox**. 
 
 > [!NOTE]
 > Afhankelijk van de extensie die uw bedrijf gebruikt voor e-mail, kunnen beheerders een lijst zien met berichten die iedereen heeft verzonden, maar niet de inhoud van de berichten
 
-In de **E-mailoutbox** vindt u de e-mails die u als concept hebt opgeslagen en e-mails die niet konden worden verzonden, bijvoorbeeld als het e-mailadres ongeldig was. Voor berichten die niet zijn verzonden, kunt u **Fout weergeven** of **Fout onderzoeken** kiezen om het probleem op te lossen.
+In de **E-mailoutbox** vindt u de e-mails die u als concept hebt opgeslagen en e-mails die niet konden worden verzonden, bijvoorbeeld als het e-mailadres ongeldig was. Voor berichten die niet zijn verzonden, kunt u **Fout weergeven** of **Fout onderzoeken** kiezen om het probleem op te lossen.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/set-up-email/)
 
 ## <a name="see-also"></a>Zie ook
+
 [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
 [E-mail instellen](admin-how-setup-email.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  

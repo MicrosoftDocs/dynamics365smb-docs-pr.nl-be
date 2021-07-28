@@ -1,6 +1,6 @@
 ---
-title: Gegevensuitwisseling instellen | Microsoft Docs
-description: Het kader voor gegevensuitwisseling instellen in Business Central.
+title: Gegevensuitwisseling instellen om bestanden te verzenden en ontvangen
+description: Stel het raamwerk voor gegevensuitwisseling in om gegevens uit te wisselen met externe bestanden, om elektronische documenten te verzenden en ontvangen of om bankbestanden te importeren en exporteren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70672fcab8c2614de58bd152288ba3543fe6955a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0b94d258a07ba65c81f329144d12a8b4e10093a9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787094"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325105"
 ---
 # <a name="setting-up-data-exchange"></a>Gegevensuitwisseling instellen
 Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden kunt importeren en exporteren, moet u het kader voor gegevensuitwisseling instellen om de betreffende bestanden te verwerken. Daarnaast moet u gerelateerde gebieden instellen, zoals de klanten naar wie u elektronische facturen stuurt of de extensie AMC Banking 365 Fundamentals als u de externe serviceprovider gebruikt om uw bankbestanden te converteren. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  

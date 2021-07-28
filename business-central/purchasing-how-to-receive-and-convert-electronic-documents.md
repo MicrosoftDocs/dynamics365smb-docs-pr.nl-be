@@ -1,6 +1,6 @@
 ---
-title: Elektronische documenten ontvangen en converteren | Microsoft Docs
-description: U kunt elektronische documenten rechtstreeks van handelspartners of via een OCR-service ontvangen.
+title: Elektronische documenten ontvangen en converteren
+description: Dit onderwerp beschrijft hoe u elektronische documenten rechtstreeks van handelspartners of via een OCR-service ontvangt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772566"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435096"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Elektronische documenten ontvangen en converteren
 De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt het ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Als u bijvoorbeeld een factuur van een leverancier wilt ontvangen als elektronisch PEPPOL-document, verwerkt u het document op de pagina Inkomende documenten om het te converteren naar een inkoopfactuur of dagboekregel in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,7 +41,7 @@ De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteun
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Een elektronische factuur ontvangen en converteren naar een inkoopfactuur  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkomende documenten** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkomende documenten** in en kies vervolgens de gerelateerde koppeling.  
 
 2.  Selecteer de regel voor het inkomende documentrecord dat staat voor een nieuwe inkomende elektronische factuur en kies de actie **Bewerken**.  
 

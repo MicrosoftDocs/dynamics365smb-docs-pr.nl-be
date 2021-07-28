@@ -1,5 +1,5 @@
 ---
-title: Elektronische betalingen testen in de Belgische versie
+title: Elektronische betalingen testen [BE]
 description: Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: d978afd9acc11bd574af42bc93d265a509568334
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ce10537ce6723129328d6dc0c34868138a725908
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779191"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435199"
 ---
-# <a name="test-electronic-payments"></a>Elektronische betalingen testen
+# <a name="test-electronic-payments-in-the-belgian-version"></a>Elektronische betalingen testen in de Belgische versie
 
 Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.  
 
@@ -37,7 +37,7 @@ U kunt de fouten bekijken op de pagina **Logboeken voor controlefouten exportere
 
 ## <a name="to-test-payment-journal-lines"></a>Betalingsdagboekregels testen  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de koppeling om de pagina **EB-betalingsdagboeken** te openen.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies de koppelingen om de pagina **EB-betalingsdagboeken** te openen.  
 2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3. Selecteer in het veld **Exportprotocol** het exportprotocol.  
 4. Voer de betalingsdagboekregelinformatie in en kies vervolgens de actie **Betalingsregels controleren** om de betalingsdagboekregels te valideren. Welke validatie op de dagboekregels wordt uitgevoerd, is afhankelijk van de soort controle die op de pagina **Exportprotocollen** is opgegeven.  

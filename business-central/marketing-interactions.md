@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f51679cfb1481632ea1f425e4a614764410c679
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d72025a95f6d12ab64ba6ec29de754bb9c318ab0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784479"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435809"
 ---
 # <a name="record-interactions-with-contacts"></a>Interacties met contacten vastleggen
 Uw toepassing instellen om interacties te registreren bestaat uit deze taken:
@@ -50,7 +50,7 @@ Op deze pagina kunt u het volgende doen:
 * De status van interacties weergegeven.
 * Interacties markeren als geannuleerd.
 
-U kunt interactielogposten verwijderen die zijn geannuleerd. Als u interactielogposten wilt verwijderen, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geannuleerde interactielogposten verwijderen** in en kiest u vervolgens de gerelateerde koppeling.
+U kunt interactielogposten verwijderen die zijn geannuleerd. Als u interactielogposten wilt verwijderen, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geannuleerde interactielogposten verwijderen** in, kiest u vervolgens de gerelateerde koppeling en vult u de informatie in.
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  

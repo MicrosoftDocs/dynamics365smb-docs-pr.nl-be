@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe164e6e71756ee56990610bc6c6cb0557ad2c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 01710b23c56634b91b86f3f1c6e6c87415a787c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785860"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435609"
 ---
 # <a name="revalue-inventory"></a>Voorraad herwaarderen
 Gebruik het herwaarderingsdagboek als u de voorraadwaarde van een artikel of een bepaalde artikelpost wilt vermeerderen of verminderen.
 
 ## <a name="to-revalue-inventory"></a>Voorraad herwaarderen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Herwaarderingsdagboek** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Herwaarderingsdagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Voorraadwaarde berekenen**.
 3. Vul op de pagina **Voorraadwaarde berekenen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de knop **OK**.

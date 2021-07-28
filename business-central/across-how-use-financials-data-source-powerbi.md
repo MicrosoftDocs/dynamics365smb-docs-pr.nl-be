@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
-ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
+ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961514"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341345"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven
 
@@ -27,28 +27,28 @@ In dit artikel wordt beschreven hoe u aan de slag kunt met Power BI Desktop om r
 
 - Meld u aan voor de Power BI-service.
 
-    Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt uw zakelijke e-mailadres en wachtwoord.
+  Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt uw zakelijke e-mailadres en wachtwoord.
 
 - Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-   Power BI Desktop is een gratis toepassing die u op uw lokale computer installeert. Zie voor meer informatie [Snelle start: verbinden met gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+  Power BI Desktop is een gratis toepassing die u op uw lokale computer installeert. Zie voor meer informatie [Snelle start: verbinden met gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Zorg ervoor dat de gegevens die u in het rapport wilt opnemen, als webservice worden gepubliceerd.
-    
-    Er worden standaard veel webservices gepubliceerd. Een eenvoudige manier om de webservices te vinden, is te zoeken naar *webservices* in [!INCLUDE[prod_short](includes/prod_short.md)]. Zorg ervoor dat op de pagina **Webservices** het veld **Publiceren** is geselecteerd. Deze taak is gewoonlijk een beheertaak.
-    
-    Zie [Een webservice publiceren](across-how-publish-web-service.md) voor meer informatie over het publiceren van webservices.
+- Zorg dat de gegevens die u in het rapport wilt, beschikbaar zijn als een API-pagina of zijn gepubliceerd als een webservice.
+
+  Voor meer informatie zie [Gegevens beschikbaar stellen via API-pagina's of OData-webservices](admin-powerbi-setup.md#exposedata).
 
 - Zorg dat u voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises over de volgende informatie beschikt:
 
-    - De OData-URL voor [!INCLUDE[prod_short](includes/prod_short.md)]. Deze URL heeft doorgaans de indeling `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, bijvoorbeeld `https://localhost:7048/BC160/ODataV4`. Als u een implementatie met meerdere tenants hebt, neemt u de tenant op in de URL, bijvoorbeeld `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
-    - Een gebruikersnaam en een webservicetoegangssleutel van een [!INCLUDE[prod_short](includes/prod_short.md)]-account.
+  - De OData-URL voor [!INCLUDE[prod_short](includes/prod_short.md)].
+  
+    Deze URL heeft doorgaans de indeling `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, bijvoorbeeld `https://localhost:7048/BC160/ODataV4`. Als u een implementatie met meerdere tenants hebt, neemt u de tenant op in de URL, bijvoorbeeld `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+  - Een gebruikersnaam en een webservicetoegangssleutel van een [!INCLUDE[prod_short](includes/prod_short.md)]-account.
 
-      Power BI maakt gebruik van basisverificatie om gegevens op te halen uit [!INCLUDE[prod_short](includes/prod_short.md)]. U hebt dus een gebruikersnaam en een webservicetoegangssleutel nodig om verbinding te maken. Het account kan uw eigen gebruikersaccount zijn. Het kan ook zijn dat uw organisatie een specifiek account heeft voor dit doel.
+    Power BI maakt gebruik van basisverificatie om gegevens op te halen uit [!INCLUDE[prod_short](includes/prod_short.md)]. U hebt dus een gebruikersnaam en een webservicetoegangssleutel nodig om verbinding te maken. Het account kan uw eigen gebruikersaccount zijn. Het kan ook zijn dat uw organisatie een specifiek account heeft voor dit doel.
 
 - Download het [!INCLUDE [prod_short](includes/prod_short.md)]-rapportthema (optioneel).
 
-    Zie [Het [!INCLUDE [prod_short](includes/prod_short.md)]-rapportthema gebruiken](#theme) in dit artikel voor meer informatie.
+  Zie [Het [!INCLUDE [prod_short](includes/prod_short.md)]-rapportthema gebruiken](#theme) in dit artikel voor meer informatie.
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)] als gegevensbron toevoegen in Power BI Desktop
 
@@ -58,26 +58,46 @@ De eerste taak bij het maken van rapporten is het toevoegen van [!INCLUDE[prod_s
 2. Selecteer **Gegevens ophalen**.
 
     Als u de optie **Gegevens ophalen** niet ziet, selecteert u het menu **Bestand** en vervolgens de optie **Gegevens ophalen**.
-2. Selecteer op de pagina **Gegevens ophalen** de optie **Onlineservices**.
-3. Voer in het deelvenster **Onlineservices** een van de volgende stappen uit:
+3. Selecteer op de pagina **Gegevens ophalen** de optie **Onlineservices**.
+4. Voer in het deelvenster **Onlineservices** een van de volgende stappen uit:
 
-    1. Als u online verbinding wilt maken met [!INCLUDE [prod_short](includes/prod_short.md)], kiest u **Dynamics 365 Business Central** en vervolgens **Verbinden**.
-    2. Als u on-premises verbinding wilt maken met [!INCLUDE [prod_short](includes/prod_short.md)], kiest u **Dynamics 365 Business Central (on-premises)** en vervolgens **Verbinden**.
+    - Om verbinding te maken met [!INCLUDE [prod_short](includes/prod_short.md)] online selecteert u **Dynamics 365 Business Central** en dan **Verbinden**.
+    - Om verbinding te maken met [!INCLUDE [prod_short](includes/prod_short.md)] on-premises selecteert u **Dynamics 365 Business Central (on-premises)** en dan **Verbinden**.
 
-4. Power BI geeft een wizard weer die u door het verbindingsproces begeleidt, inclusief aanmelden bij [!INCLUDE [prod_short](includes/prod_short.md)].
+5. Meld u aan bij [!INCLUDE [prod_short](includes/prod_short.md)] (eenmalig).
 
-    Maakt u online verbinding, kies dan **Aanmelden** en kies vervolgens het relevante account. Gebruik hetzelfde account dat u gebruikt om u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)].
-    
-    Maakt u on-premises verbinding, voer dan de OData-URL in voor [!INCLUDE[prod_short](includes/prod_short.md)] en desgewenst de bedrijfsnaam. Voer vervolgens, wanneer daarom wordt gevraagd, de gebruikersnaam en het wachtwoord in van het account dat u wilt gebruiken voor het maken van een verbinding met [!INCLUDE[prod_short](includes/prod_short.md)]. Voer in het vak **Wachtwoord** de toegangssleutel voor de webservice in.
+    Als u zich niet eerder hebt aangemeld bij [!INCLUDE [prod_short](includes/prod_short.md)] vanuit Power BI desktop, wordt u gevraagd zich aan te melden.
+
+    - Voor [!INCLUDE [prod_short](includes/prod_short.md)] online selecteert u **Aanmelden** en kiest u het relevante account. Gebruik hetzelfde account dat u gebruikt om u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)]. Wanneer u klaar bent, selecteert u **Verbinden**.
+
+    - Voor [!INCLUDE [prod_short](includes/prod_short.md)] on-premises voert u eerst de OData-URL in voor [!INCLUDE[prod_short](includes/prod_short.md)] en selecteert u vervolgens **OK**. Voer wanneer daarom wordt gevraagd de gebruikersnaam en het wachtwoord in van het account dat u wilt gebruiken voor het maken van verbinding met [!INCLUDE[prod_short](includes/prod_short.md)]. Voer in het vak **Wachtwoord** de toegangssleutel voor de webservice in. Wanneer u klaar bent, selecteert u **Verbinden**.
 
     > [!NOTE]  
-    > Zodra u met succes verbinding hebt gemaakt met [!INCLUDE[prod_short](includes/prod_short.md)], wordt u niet opnieuw gevraagd zich aan te melden.
-    
-5. Kies **Verbinden** om door te gaan.
+    > Zodra u met succes verbinding hebt gemaakt met [!INCLUDE[prod_short](includes/prod_short.md)], wordt u niet opnieuw gevraagd zich aan te melden. [Hoe wijzig of wis ik het account dat ik momenteel gebruik om verbinding te maken met Business Central vanuit Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-    De wizard Power BI bevat een lijst met Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]-omgevingen, -bedrijven en -gegevensbronnen. Deze gegevensbronnen vertegenwoordigen alle webservices die u hebt gepubliceerd vanuit [!INCLUDE [prod_short](includes/prod_short.md)].
-6. Geef de gegevens op die u aan uw gegevensmodel wilt toevoegen en kies vervolgens de knop **Laden**.
-7. Herhaal de vorige stappen om meer [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens of andere gegevens aan uw Power BI-gegevensmodel toe te voegen.
+6. Eenmaal verbonden neemt Power BI contract op met de Business Central-service. Het **navigatie** venster verschijnt en toont beschikbare gegevensbronnen voor het maken van rapporten. Selecteer een map om deze uit te vouwen en de beschikbare gegevensbronnen te bekijken. 
+
+   Deze gegevensbronnen vertegenwoordigen alle webservices en API-pagina's die zijn gepubliceerd vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. De gegevensbronnen zijn gegroepeerd op de Business Central-omgevingen en -bedrijven. Met Business Central online heeft **Navigator** de volgende opbouw:
+
+    - **Omgevingsnaam**
+      - **Bedrijfsnaam**
+        - **Geavanceerde API's**
+
+          Deze map bevat geavanceerde API-pagina's die door Microsoft zijn gepubliceerd, zoals de [API's voor Business Central-automatisering](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) en [aangepaste API-pagina's voor Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Aangepaste API-pagina's zijn verder gegroepeerd in mappen op de eigenschappen [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) van de broncode van de API-pagina.
+
+        - **Standaard API's v2.0**
+
+          Deze map bevat de API-pagina's die worden weergegeven door de [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+
+        - **Webservices \(legacy)**
+
+          Deze map bevat pagina's, codeunits en query's die zijn gepubliceerd als webservices in Business Central.
+
+    > [!NOTE]
+    > De structuur voor Business Central on-premises is anders omdat het geen API-pagina's ondersteunt.
+
+7. Selecteer de gegevensbron of -bronnen die u aan uw gegevensmodel wilt toevoegen en selecteer vervolgens de knop **Laden**.
+8. Als u later meer Business Central-gegevens wilt toevoegen, kunt u de vorige stappen herhalen.
 
 Zodra de gegevens zijn geladen, ziet u deze in de rechternavigatie op de pagina. U hebt nu met succes verbinding gemaakt met uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens en u kunt uw Power BI-rapport gaan maken.  
 

@@ -1,5 +1,5 @@
 ---
-title: Resultatenrekeningen sluiten | Microsoft Docs
+title: Resultatenrekeningen sluiten
 description: Bij jaarafsluiting moet u de batchverwerking Afsluiten WenV-rekening uitvoeren om de boekhoudperioden te sluiten die het boekjaar vormen.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 843d5b766d9b840e27f4423854caaae66efb0805
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 44e2d34ee4af32bcb901a66ae7e45b45ac274bd5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775027"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435784"
 ---
-# <a name="close-income-statement-accounts"></a>Resultatenrekeningen sluiten
+# <a name="closing-income-statement-accounts"></a>Resultatenrekeningen sluiten
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten. Voer hiervoor de batchverwerking **Afsluiten WenV-rekening** uit. Met deze taak wordt het jaarresultaat overgeboekt naar een rekening op de balans en worden de resultatenrekeningen afgesloten. In een dagboek worden regels gemaakt die u vervolgens kunt boeken.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>De batchverwerking Afsluiten WenV-rekening uitvoeren
 1. Sluit het boekjaar. Het boekjaar moet zijn afgesloten voordat u de batchverwerking kunt uitvoeren. Zie [Boekingsperioden afsluiten](year-close-account-periods.md) voor meer informatie.
-2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afsluiten WenV-rekening** in en kies de desbetreffende koppeling.
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Resultatenrekening sluiten** in en kies vervolgens de gerelateerde koppeling.
 3. Kies **OK** om de batchverwerking te starten.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Informatie over de batchverwerking Afsluiten WenV-rekening

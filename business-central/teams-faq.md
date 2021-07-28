@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: f3c9626fa73247b2109e5f179aef405e80b44b07
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 325783df3cacd37250c1efa75320386ef9c4cb19
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074652"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341520"
 ---
 # <a name="teams-faq"></a>Veelgestelde vragen over Teams
 
@@ -325,7 +325,10 @@ Gasten hebben geen toegang tot de app-marktplaats om zelf apps te installeren. D
 
 Overzicht van integratie tussen [[!INCLUDE [prod_short](includes/prod_short.md)] en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  
+[Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams](across-search-contacts-teams.md)  
+[Records delen in Microsoft Teams](across-working-with-teams.md)  
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
+[Bedrijfs- en andere instellingen in Teams wijzigen](across-teams-settings.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785960"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435684"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Voorraad tellen en aanpassen met documenten
 
@@ -40,7 +40,7 @@ Een inventarisatieorder is een volledig document dat bestaat uit een inventarisa
 
 Als u de inventarisatieorderregels wilt maken, gebruikt u meestal de functie **Regels berekenen** om de huidige voorraad als regels in de order te krijgen. U kunt ook de functie **Kopiëren uit document** gebruiken om de regels te vullen met de inhoud van een andere open of geboekte inventarisatieorder. In de volgende procedure wordt beschreven hoe u de functie **Regels berekenen** gebruikt.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatieorders** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inventarisatieorders boeken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul de vereiste velden op het sneltabblad **Algemeen** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de actie **Regels berekenen**.
@@ -100,7 +100,7 @@ U kunt ook de actie **Verschillen van inventarisatieorder** kiezen om eventuele 
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Dubbele inventarisatieorderregels zoeken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatieorders** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inventarisatieorders boeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de inventarisatieorder waarvoor u dubbele regels wilt weergeven.
 3. Kies de actie **Dubbele regels weergeven**.
 
@@ -113,7 +113,7 @@ Na voltooiing van een inventarisatieorder en de wijziging van de status ervan in
 - Elke inventarisatieorderregel is geteld door ten minste één inventarisatieorderregel
 - De selectievakjes **Op registratieregels** en **Verwacht aantal (berekend)** zijn geselecteerd voor alle inventarisatieorderregels.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatieorders** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inventarisatieorders boeken** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de inventarisatieorder die u wilt voltooien en kies de actie **Bewerken**.
 
     Op de pagina **Inventarisatieorder** ziet u het aantal dat is geregistreerd in het veld **Geregistreerd aantal (basis)**.
@@ -127,7 +127,7 @@ De betreffende artikelposten worden bijgewerkt samen met eventuele gerelateerde 
 ### <a name="to-view-posted-physical-inventory-orders"></a>Geboekte inventarisatieorders weergeven
 Na het boeken wordt de inventarisatieorder verwijderd en kunt u het document weergeven en evalueren als een geboekte inventarisatieorder, inclusief de inventarisatieregistraties ervan en eventuele gemaakte opmerkingen.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inventarisatieorders** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte inventarisatieorders** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Geboekte inventarisatieorders** de geboekte voorraadorder die u wilt weergeven en kies vervolgens de actie **Weergeven**.
 3. Als u een lijst met gerelateerde inventarisatieregistraties wilt weergeven, kiest u de actie **Registraties**.
 
@@ -199,7 +199,7 @@ U kunt deze documenten in elk stadium afdrukken, vrijgeven en opnieuw openen, en
 ### <a name="to-set-up-numbering-for-inventory-documents"></a>Nummering voor inventarisdocumenten instellen
 In de volgende procedure wordt beschreven hoe u nummering instelt voor voorraaddocumenten.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadinstellingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Geef op het sneltabblad **Nummering** in de volgende velden de reeks getallen voor documenten op:
    - **Voorraadontvangstnrs.**  
    - **Geboekte voorraadontvangstnrs.**  
@@ -209,7 +209,7 @@ In de volgende procedure wordt beschreven hoe u nummering instelt voor voorraadd
 ### <a name="to-create-and-post-an-inventory-document"></a>Een voorraaddocument maken en boeken
 De volgende procedure laat zien hoe u een voorraadontvangst maakt, afdrukt en boekt. De stappen zijn vergelijkbaar voor voorraadverzendingen.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadontvangsten** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadontvangsten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in de kop van de pagina **Voorraadontvangst** de locatie in het veld **Locatie** en vul vervolgens de overige velden in, indien nodig.
 3. Kies op het sneltabblad **Regels** in het **Artikel** het voorraadartikel. Geef in het veld **Aantal** op hoeveel artikelen moeten worden toegevoegd. 
 4. Om een **Voorraadontvangst**-rapport af te drukken vanaf de pagina **Voorraadontvangst**, kiest u de actie **Afdrukken**.

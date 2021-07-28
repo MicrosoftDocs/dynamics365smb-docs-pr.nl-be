@@ -1,6 +1,6 @@
 ---
-title: Te late betaling voorspellen voor verkoopdocumenten | Microsoft Docs
-description: Gebruik ons voorspellend model om te voorspellen of een factuur op tijd betaald zal worden.
+title: Te late betaling voorspellen voor verkoopdocumenten
+description: Dit onderwerp legt uit hoe u ons voorspellende model gebruikt om te voorspellen of een factuur op tijd wordt betaald.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787364"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434920"
 ---
 # <a name="the-late-payment-prediction-extension"></a>De extensie Voorspelling van te late betaling  
 Effectief beheer van tegoeden is belangrijk voor de algemene financiële status van een bedrijf. De extensie Voorspelling van te late betaling kan u helpen uitstaande tegoeden te reduceren en uw inningsstrategie af te stemmen door te voorspellen of verkoopfacturen op tijd worden betaald. Als bijvoorbeeld wordt voorspeld dat een betaling te laat zal zijn, kunt u besluiten de betalingsvoorwaarden of de betalingsmethode voor de klant aan te passen.
@@ -26,7 +26,7 @@ Wanneer u een geboekt verkoopdocument opent, wordt boven op de pagina een berich
 
 Als u de extensie handmatig wilt inschakelen, voert u de volgende stappen uit:
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorspelling van te late betalingen instellen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorspelling van te late betalingen instellen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de vereiste velden in.
 
 > [!Note]
@@ -91,7 +91,7 @@ Als blijkt dat uw processen niet overeenkomen met het standaardmodel, kunt u de 
 [!INCLUDE[prod_short](includes/prod_short.md)] voert training en evaluatie automatisch uit wanneer er voldoende betaalde en te late facturen beschikbaar zijn. U kunt het echter handmatig uitvoeren wanneer u maar wilt.
 
 #### <a name="to-train-and-use-your-model"></a>Uw model trainen en gebruiken
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorspelling van te late betalingen instellen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorspelling van te late betalingen instellen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het veld **Geselecteerd model** de optie **Mijn model**.
 3. Kies de actie **Mijn model maken** om het model met uw gegevens te trainen.  
 
@@ -103,7 +103,7 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 3. Gebruik het Microsoft-account om u aan te melden voor een werkruimte en kopieer vervolgens het model.  
 4. Voer het model uit en publiceer het als een webservice.  
 5. Noteer de API-URL en de API-sleutel. U kunt deze aanmeldingsgegevens voor een cashflowinstelling gebruiken.  
-6. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorspelling van te late betalingen instellen** in en kies de desbetreffende koppeling.  
+6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorspelling van te late betalingen instellen** in en kies vervolgens de gerelateerde koppeling.  
 7. Kies het selectievakje **Mijn Azure-abonnement gebruiken**.
 8. Voer op het sneltabblad **Aanmeldingsgegevens van mijn model** de API-URL en API-sleutel voor uw model op.  .  
 

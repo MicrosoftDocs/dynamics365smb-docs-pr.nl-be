@@ -1,5 +1,5 @@
 ---
-title: CODA-afschriften handmatig overbrengen en boeken
+title: CODA-afschriften handmatig overbrengen en boeken [BE]
 description: Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels handmatig overbrengen naar een financieel dagboek.
 services: project-madeira
 documentationcenter: ''
@@ -12,21 +12,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab249e7001c791d6e942dc0d3b73d12a27052f23
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 20d2f023d2077293e66278da278fbf7ef6135e29
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779224"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435200"
 ---
-# <a name="manually-transfer-and-post-coda-statements"></a>CODA-afschriften handmatig overbrengen en boeken
+# <a name="manually-transfer-and-post-coda-statements-in-the-belgian-version"></a>CODA-afschriften handmatig overbrengen en boeken in de Belgische versie
 Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels handmatig overbrengen naar een financieel dagboek. In het financiële dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen. Boeken is niet toegestaan als de afschriftregelbedragen niet overeenkomen met het afschrifteindsaldo.  
 
 Zie [CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-transfer-and-post-coda-statements.md) voor informatie over het automatisch overbrengen van afschriften.  
 
 ## <a name="to-manually-transfer-and-post-statement-lines"></a>Afschriftregels handmatig overbrengen en boeken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Diversendagboek** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dagboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het dagboek en kies de knop **OK**.  
 3.  Voer een waarde in het veld **Eindsaldo afschrift** in.  
 4.  Vul elke regel van het afschrift handmatig in.  

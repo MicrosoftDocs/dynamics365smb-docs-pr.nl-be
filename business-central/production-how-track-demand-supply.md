@@ -1,6 +1,6 @@
 ---
-title: Relatie tussen vraag en aanbod bijhouden | Microsoft Docs
-description: Vanuit elk document voor aanbod of vraag in het zogenaamde ordernetwerk kunt u de ordervraag (getraceerd aantal), prognose , raamverkooporder of planningsparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.
+title: Relaties tussen vraag en aanbod bijhouden
+description: In dit onderwerp worden de verschillende manieren uitgelegd om relaties tussen vraag en aanbod te volgen, zoals het volgen van gekoppelde artikelen en het omgaan met niet-getraceerde planningselementen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8ff7653ec28e70c13842f9b66bff91b7d8b48f98
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ccf2b753e11d0f6a23235125e99f58a011606788
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787639"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435306"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Relaties tussen vraag en aanbod bijhouden
 Vanuit elk document voor aanbod of vraag in het zogenaamde ordernetwerk kunt u de ordervraag (getraceerd aantal), prognose , raamverkooporder of planningsparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.
@@ -27,7 +27,7 @@ Met behulp van ordertracering kunt u nagaan hoe verkooporders, productieorders e
 
 Hieronder wordt beschreven hoe u gekoppelde artikelen in een vast geplande productieorder traceert. De stappen voor alle andere soorten orders en vanuit planningsvoorstelregels zijn vergelijkbaar.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.
 2. Open de betreffende vast geplande productieorder in de lijst.
 3. Op het sneltabblad **Regels** kiest u de actie **Functies** en vervolgens **Ordertracering**.
 
