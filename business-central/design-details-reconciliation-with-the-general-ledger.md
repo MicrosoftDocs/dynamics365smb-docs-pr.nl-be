@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: ad155e604780af087c93e4e245002f3511d3d5a9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215814"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442347"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Ontwerpdetails: Reconciliatie met het grootboek
 Als u voorraadtransacties, zoals verkoopverzendingen, productie-output, of negatieve herwaarderingen boekt, worden de gewijzigde aantallen en waarden van de voorraad vastgelegd in de artikel- en waardeposten. Vervolgens boekt u de voorraadwaarden naar de voorraadrekeningen in het grootboek.  
@@ -82,16 +82,16 @@ De volgende tabel toont hoe de afdeling op de afdelingskaart is ingesteld.
     1. De tussenrekeningen worden leeg gemaakt. (Verkoop)  
     2. Kosten van verkochte goederen (KPV) worden geboekt. (Verkoop)  
 
-        ![Resultaten van verkoopboeking naar GB-rekeningen](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultaten van verkoopboeking naar GB-rekeningen")  
+        ![Resultaten van verkoopboeking naar GB-rekeningen.](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultaten van verkoopboeking naar GB-rekeningen")  
 5. De gebruiker boekt het verbruik van 150 schakels, wat het aantal schakels is dat wordt gebruikt om één ketting te genereren. (Verbruik, materiaal)  
 
-    ![Resultaten van materiaalboeking naar GB-rekeningen](media/design_details_inventory_costing_3_gl_posting_material.png "Resultaten van materiaalboeking naar GB-rekeningen")  
+    ![Resultaten van materiaalboeking naar GB-rekeningen.](media/design_details_inventory_costing_3_gl_posting_material.png "Resultaten van materiaalboeking naar GB-rekeningen")  
 6. De afdeling gebruikt 60 minuten om de ketting te genereren. De gebruiker boekt de conversiekosten. (Verbruik, Capaciteit)  
 
     1. De directe kosten worden geboekt. (Verbruik, Capaciteit)  
     2. De indirecte kosten worden berekend en geboekt. (Verbruik, Capaciteit)  
 
-        ![Resultaten van capaciteitboeking naar GB-rekeningen](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultaten van capaciteitboeking naar GB-rekeningen")  
+        ![Resultaten van capaciteitboeking naar GB-rekeningen.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultaten van capaciteitboeking naar GB-rekeningen")  
 7. De gebruiker boekt de verwachte kosten van één ketting. (Output)  
 8. De gebruiker eindigt de productieorder en voert de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit. (Output)  
 
@@ -100,7 +100,7 @@ De volgende tabel toont hoe de afdeling op de afdelingskaart is ingesteld.
     3. De indirecte kosten (overhead) worden overgemaakt van de rekening voor indirecte kosten naar de voorraadrekening. (Output)  
     4. Dit resulteert in een verschilbedrag van LV 157,00. Verschillen worden alleen berekend voor artikelen met een vaste verrekenprijs. (Output)  
 
-        ![Resultaten van outputboeking naar GB-rekeningen](media/design_details_inventory_costing_3_gl_posting_output.png "Resultaten van outputboeking naar GB-rekeningen")  
+        ![Resultaten van outputboeking naar GB-rekeningen.](media/design_details_inventory_costing_3_gl_posting_output.png "Resultaten van outputboeking naar GB-rekeningen")  
 
         > [!NOTE]  
         >  Omwille van de eenvoud wordt slechts één verschilrekening weergegeven. In werkelijkheid bestaan er vijf verschillende rekeningen:  
@@ -113,7 +113,7 @@ De volgende tabel toont hoe de afdeling op de afdelingskaart is ingesteld.
 
 9. De gebruiker herwaardeert de ketting van LV 150,00 naar LV 140,00. (Correctie/Herwaardering/Afronding/Transfer)  
 
-    ![Resultaten van herwaarderingsboeking naar GB-rekeningen](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultaten van herwaarderingsboeking naar GB-rekeningen")  
+    ![Resultaten van herwaarderingsboeking naar GB-rekeningen.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultaten van herwaarderingsboeking naar GB-rekeningen")  
 
 Voor meer informatie over de relatie tussen de rekeningsoorten en de verschillende typen waardeposten raadpleegt u [Ontwerpdetails: rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)  
 

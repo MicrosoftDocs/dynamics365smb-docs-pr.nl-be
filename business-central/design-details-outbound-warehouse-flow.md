@@ -1,6 +1,6 @@
 ---
-title: 'Ontwerpdetails: Uitgaande magazijnstroom | Microsoft Docs'
-description: De uitgaande stroom in het magazijn begint met een aanvraag vanuit vrijgegeven brondocumenten om de artikelen uit de magazijnvestiging te halen, ofwel om te worden verzonden naar een externe partij of naar een andere bedrijfsvestiging. Vanuit het opslaggebied worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen naar de verzenddoks te brengen.
+title: 'Ontwerpdetails: Uitgaande magazijnstroom'
+description: In dit onderwerp wordt de volgorde besproken van de uitgaande magazijnstroom van vrijgegeven brondocumenten tot verzendklare artikelen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777785"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442397"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Ontwerpdetails: Uitgaande magazijnstroom
 
@@ -54,7 +54,7 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
 
  In het volgende diagram worden de uitgaande magazijnstromen aangegeven op documentsoort in standaardmagazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
- ![Uitgaande stroom in standaardmagazijnconfiguraties](media/design_details_warehouse_management_outbound_basic_flow.png "Uitgaande stroom in standaardmagazijnconfiguraties")  
+ ![Uitgaande stroom in standaardmagazijnconfiguraties.](media/design_details_warehouse_management_outbound_basic_flow.png "Uitgaande stroom in standaardmagazijnconfiguraties")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Brondocument vrijgeven/Voorraadpick of verplaatsing maken
 
@@ -81,7 +81,7 @@ Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande 
 
  In het volgende diagram wordt de uitgaande magazijnstroom aangegeven op documentsoort in geavanceerde magazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
- ![Uitgaande stroom in geavanceerde magazijnconfiguraties](media/design_details_warehouse_management_outbound_advanced_flow.png "Uitgaande stroom in geavanceerde magazijnconfiguraties")  
+ ![Uitgaande stroom in geavanceerde magazijnconfiguraties.](media/design_details_warehouse_management_outbound_advanced_flow.png "Uitgaande stroom in geavanceerde magazijnconfiguraties")  
 
 ### <a name="1-release-source-document"></a>1: Brondocument vrijgeven
 

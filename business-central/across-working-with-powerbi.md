@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7f2e2fe9719d25e13a33cf1943e7a054a70edffd
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935373"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444055"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -27,7 +27,7 @@ Power BI-rapporten geven u inzicht in uw [!INCLUDE[prod_short](includes/prod_sho
 
 [!INCLUDE [prod_short](includes/prod_short.md)] werkt samen met de Power BI-service. Rapporten die bestemd zijn om te worden weergegeven in [!INCLUDE [prod_short](includes/prod_short.md)], worden opgeslagen in een Power BI-service. In [!INCLUDE [prod_short](includes/prod_short.md)] kunt u het rapport dat wordt weergegeven in het Power BI-gedeelte, veranderen in elk ander Power BI-rapport dat beschikbaar is in de Power BI-service. De eerste keer dat u zich aanmeldt bij [!INCLUDE [prod_short](includes/prod_short.md)] zijn de gedeelten voor Power BI-rapporten leeg en dat blijft zo totdat u verbinding maakt met een Power BI-service, zoals hier wordt weergegeven:
 
-![Power BI-gedeelte in Business Central](./media/power-bi-part.png)
+![Power BI-gedeelte in Business Central.](./media/power-bi-part.png)
 
 ## <a name="get-started"></a>Aan de slag
 

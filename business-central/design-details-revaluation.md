@@ -1,6 +1,6 @@
 ---
-title: Ontwerpdetails - Herwaardering | Microsoft Docs
-description: U kunt de voorraad herwaarderen op basis van de waarderingsbasis die de voorraadwaarde het nauwkeurigst weergeeft. U kunt een herwaardering ook antedateren , zodat de kostprijs van verkochte goederen (KPV) correct wordt bijgewerkt voor artikelen die al zijn verkocht. Artikelen die de waarderingsmethode Standaard gebruiken en die niet volledig zijn gefactureerd, kunnen ook worden geherwaardeerd.
+title: 'Ontwerpdetails: Herwaardering'
+description: U kunt de voorraad herwaarderen op basis van de waarderingsbasis die de voorraadwaarde het nauwkeurigst weergeeft.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a052f726169fde9e09e83aeb690169580eaee948
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215790"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444317"
 ---
 # <a name="design-details-revaluation"></a>Ontwerpdetails: Herwaardering
 U kunt de voorraad herwaarderen op basis van de waarderingsbasis die de voorraadwaarde het nauwkeurigst weergeeft. U kunt een herwaardering ook antedateren , zodat de kostprijs van verkochte goederen (KPV) correct wordt bijgewerkt voor artikelen die al zijn verkocht. Artikelen die de waarderingsmethode Standaard gebruiken en die niet volledig zijn gefactureerd, kunnen ook worden geherwaardeerd.  
@@ -39,7 +39,7 @@ Omdat de herwaardering op elke datum kan worden uitgevoerd, moet u conventies he
 ### <a name="example"></a>Opmerking  
 In het volgende voorbeeld ziet u wanneer een OHW-artikel evolueert om deel van de voorraad te worden. Het voorbeeld is gebaseerd op de productie van een ketting met 150 schakels.  
 
-![OHW-voorraad en -herwaardering](media/design_details_inventory_costing_10_revaluation_wip.png "OHW-voorraad en -herwaardering")  
+![OHW-voorraad en -herwaardering.](media/design_details_inventory_costing_10_revaluation_wip.png "OHW-voorraad en -herwaardering")  
 
 **1A**: De gebruiker boekt de ingekochte schakels als ontvangen. De volgende tabel toont de resulterende artikelpost.  
 

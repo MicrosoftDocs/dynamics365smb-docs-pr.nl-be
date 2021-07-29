@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882217"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443218"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Microsoft Teams-integratie met [!INCLUDE [prod_short](includes/prod_short.md)] beheren
 
@@ -35,7 +35,7 @@ In dit gedeelte worden de minimumvereisten voor de functies van de [!INCLUDE [pr
 
     |Wat|Teams-licentie|[!INCLUDE [prod_short](includes/prod_short.md)]-licentie|
     |----|---|---|
-    |Zoeken naar [!INCLUDE [prod_short](includes/prod_short.md)]-contacten.|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
+    |Zoeken naar [!INCLUDE [prod_short](includes/prod_short.md)]-contacten.|![vinkje.](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
     |Een link naar een [!INCLUDE [prod_short](includes/prod_short.md)]-record opnemen in een gesprek en het verzenden als een kaart.|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
     |Een kaart van een [!INCLUDE [prod_short](includes/prod_short.md)]-record weergeven in een gesprek.|![vinkje](media/check.png "vinkje")||
     |Meer details van een kaart voor een [!INCLUDE [prod_short](includes/prod_short.md)]-record weergeven in een gesprek.|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|

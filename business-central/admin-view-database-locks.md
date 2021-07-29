@@ -1,20 +1,20 @@
 ---
 title: Databasevergrendelingen weergeven
-description: Lees hoe u informatie over databasevergrendelingen rechtstreeks vanuit de clientinterface in Business Central kunt bekijken.
+description: Leer hoe u informatie over klantdatabasevergrendelingen rechtstreeks vanuit de clientinterface in Business Central kunt bekijken.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: b53677ab57d6c48b015bb0dd47ea6e315f8e80c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb42b07832d33c995299d5033b8c548a37a86f56
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776928"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443116"
 ---
 # <a name="viewing-database-locks"></a>Databasevergrendelingen weergeven
 
@@ -24,7 +24,7 @@ Gebruikers kunnen worden geblokkeerd voor het voltooien van transacties op de ve
 
 ## <a name="to-view-database-locks"></a>Databasevergrendelingen weergeven
 
-Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Databasevergrendelingen** in en kies de desbetreffende koppeling.
+Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Databasevergrendelingen** in en kies vervolgens de gerelateerde koppeling.
 
 De pagina **Databasevergrendelingen** geeft een momentopname van alle huidige databasevergrendelingen.
 

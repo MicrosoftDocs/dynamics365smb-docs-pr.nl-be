@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 626e023d97c869d9d0fe63346053ecb42120a0ee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d4987502db2d278dfe7757cd9e5a71cd516c1ca5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782746"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443344"
 ---
 # <a name="calculate-bin-replenishment"></a>Opslaglocatieaanvulling berekenen
 Als de vestiging is ingesteld voor het gebruik van gestuurde opslag en pick, worden de prioriteiten van de opslagsjabloon voor de vestiging in aanmerking genomen wanneer de ontvangsten worden opgeslagen. Prioriteiten omvatten de minimale en maximale aantallen van de opslaglocatie-inhoud die zijn vastgesteld voor een bepaalde opslaglocatie en de zonevolgordes. Dus als er in een rustig tempo artikelen worden afgeleverd, worden de meestgebruikte opslaglocaties gevuld met de artikelen.  
@@ -27,7 +27,7 @@ Het kan ook voorkomen dat het magazijn op korte termijn een nieuwe voorraad verw
 Als u aan de bulkopslaglocaties alleen de activiteit **Opslag** hebt toegewezen, waarbij de activiteit **Pick** is niet geselecteerd voor de opslaglocatiesoort, moet u er altijd zelf voor zorgen dat de pickopslaglocaties worden aangevuld. Er worden namelijk geen voorstellen gedaan voor pickactiviteiten uit opslaglocaties.  
 
 ## <a name="to-replenish-pick-bins"></a>U kunt als volgt pickopslaglocaties aanvullen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verplaatsingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Opslaglocatieaanvulling berekenen** om de rapportaanvraagpagina te openen.  
 3.  Geef op de opvraagpagina voor de batchverwerking criteria op om het aantal aanvullingsvoorstellen te beperken dat wordt berekend. Wellicht bent u alleen geïnteresseerd in bepaalde artikelen, zones of opslaglocaties.  
 4.  Kies de knop **Ok**. Er worden regels gemaakt voor de aanvullingsverplaatsingen die moeten worden uitgevoerd. Dit gebeurt op basis van de voorschriften die zijn opgesteld voor de opslaglocaties en de bijhorende inhoud, zijnde artikelen in de opslaglocaties.  

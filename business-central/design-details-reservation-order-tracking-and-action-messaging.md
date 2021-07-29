@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d53d813871b154a705676483559f7464bf8469fd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214915"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442322"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Ontwerpdetails: Reservering, ordertracering en planningsboodschappen
 Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parallelle functies van ordertracering en planningsboodschappen.  
@@ -138,7 +138,7 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 
  Er bestaan de volgende ordertraceringsposten in de tabel **Reserveringspost** op basis van de gegevens in de tabel.  
 
- ![Eerste voorbeeld van ordertraceringsposten in de tabel Reserveringspost](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Eerste voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Volgnummers 8 en 9  
  Voor de onderdelenlijst voor respectievelijk LOTA en LOTB worden ordertraceringskoppelingen gemaakt van de vraag in tabel 5407, **Materiaalregel**, naar het aanbod in tabel 32, **Artikelpost**. Het veld **Status reservering** bevat **Tracering** om aan te geven dat deze posten dynamische ordertraceringkoppelingen tussen voorzieningen en vraag.  
@@ -156,7 +156,7 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 
  Nu bevat de tabel **Reserveringspost** de volgende ordertraceringsposten.  
 
- ![Tweede voorbeeld van ordertraceringsposten in de tabel Reserveringspost](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Tweede voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Volgnummers 8 en 9  
  De reserveringsstatus van ordertraceringsposten voor de twee lots van het onderdeel die vraag reflecteren in tabel 5407, verandert van **Tracering** in **Overschot**. De reden is dat de goederen waaraan ze eerder zijn gekoppeld, in tabel 32, zijn gebruikt door de verzending van de transferorder.  
@@ -170,7 +170,7 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 
  Nu bevat de tabel **Reserveringspost** de volgende ordertraceringsposten.  
 
- ![Derde voorbeeld van ordertraceringsposten in de tabel Reserveringspost](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Derde voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
  De ordertraceringsposten zijn nu gelijk aan het eerste punt in het eerste scenario voordat de transferorder werd geboekt als alleen-verzenden, behalve dat posten voor het onderdeel nu de reserveringstatus **Overschot** hebben. Dit komt doordat er nog materiaalbehoefte is op de WEST-vestiging, wat aangeeft dat het veld **Vestiging** op de materiaalregel op de productieorder **WEST** bevat, zoals ingesteld in het venster **Onderdelen op vestiging**. De voorziening die eerder is toegewezen voor deze vraag, is overgebracht naar de OOST-vestiging en kan nu niet volledig worden getraceerd tenzij de materiaalbehoefte op de productieorderregel wordt veranderd in de OOST-vestiging.  
 
@@ -178,7 +178,7 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 
  Nu bevat de tabel **Reserveringspost** de volgende ordertraceringsposten.  
 
- ![Vierde voorbeeld van ordertraceringsposten in de tabel Reserveringspost](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Vierde voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Volgnummers 21 en 22  
  Aangezien de materiaalbehoefte is gewijzigd naar de OOST-vestiging en de voorziening beschikbaar is als artikelposten op de OOST-vestiging, worden alle ordertraceringsposten voor de twee lotnummers nu volledig getraceerd, wat wordt aangegeven door de reserveringstatus **Tracering**.  

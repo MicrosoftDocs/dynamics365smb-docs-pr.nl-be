@@ -1,6 +1,6 @@
 ---
-title: 'Ontwerpdetails: Centrale begrippen van het planningssysteem | Microsoft Docs'
-description: De planningsfuncties bevinden zich in een batchverwerking waarmee eerst de relevante artikelen en periode voor de planning worden geselecteerd en vervolgens mogelijke acties voor de gebruiker worden voorgesteld op basis van de vraag-aanbodsituatie en de planningsparameters van de artikelen.
+title: 'Ontwerpdetails: Centrale begrippen van het planningssysteem'
+description: De planningsfuncties suggereren mogelijke acties die de gebruiker kan ondernemen op basis van de vraag/aanbod-situatie en de planningsparameters van de artikelen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7c08623ccabfc01f5360073db98455cc8f88c8e9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215465"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442497"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Ontwerpdetails: Centrale begrippen van het planningssysteem
 
 De planningsfuncties bevinden zich in een batchverwerking die eerst de relevante artikelen en periode selecteert voor de planning. Vervolgens roept de batchverwerking op basis van de low-levelcode van elk artikel (stuklijstpositie) een codeunit aan, die een voorzieningenplan berekent door combinaties van voorziening en vraag in overeenstemming te brengen en mogelijke acties voor de gebruiker voor te stellen. De voorgestelde acties worden als regels weergegeven in het planningsvoorstel of inkoopvoorstel.  
 
-![Inhoud van de pagina Planningsvoorstellen](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Inhoud van de pagina Planningsvoorstellen")  
+![Inhoud van de pagina Planningsvoorstellen.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Inhoud van de pagina Planningsvoorstellen")  
 
 De planner van het bedrijf, bijvoorbeeld een inkoper of productieplanner, wordt naar verwachting de gebruiker van het planningssysteem. Het planningssysteem ondersteunt de gebruiker door de uitgebreide maar redelijk eenvoudige berekeningen van een planning uit te voeren. De gebruiker kan zich vervolgens richten op het oplossen van complexere problemen, zoals wanneer zaken afwijken van normaal.  
 
@@ -59,7 +59,7 @@ Als de gebruiker bijvoorbeeld een verkooporder invoert of wijzigt, zoekt het dyn
 
 Dynamische ordertracering kan worden beschouwd als een tool die de gebruiker helpt beoordelen of suggesties voor voorzieningenorders moeten worden geaccepteerd. Van de aanbodzijde kan een gebruiker zien welke vraag tot het aanbod heeft geleid en van de vraagzijde welk aanbod aan de vraag moet voldoen.  
 
-![Voorbeeld van dynamische ordertracering](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Voorbeeld van dynamische ordertracering")  
+![Voorbeeld van dynamische ordertracering.](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Voorbeeld van dynamische ordertracering")  
 
 Zie voor meer informatie [Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -73,11 +73,11 @@ Het planningssysteem verwerkt het volledige vraag-voorzieningpatroon van een bep
 
 Tijdens dynamische ordertracering worden koppelingen gecreëerd tussen vraag en aanbod wanneer gegevens worden ingevoerd op een first-come/first-served basis. Dit kan leiden tot enige verstoring van prioriteiten. Een verkooporder die eerst is ingevoerd, met een vervaldatum van volgende maand, kan bijvoorbeeld zijn gekoppeld aan het aanbod in voorraad, terwijl de volgende verkooporder die morgen vervalt, ertoe kan leiden dat een planningsboodschap een nieuwe inkooporder maakt om deze te dekken, zoals hieronder geïllustreerd.  
 
-![Voorbeeld van ordertracering in leveringsplanning 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Voorbeeld van ordertracering in leveringsplanning 1")  
+![Voorbeeld van ordertracering in leveringsplanning 1.](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Voorbeeld van ordertracering in leveringsplanning 1")  
 
 Het planningssysteem werkt echter met alle vraag en aanbod voor een bepaald artikel, in volgorde van prioriteit op basis van vervaldatums en ordersoorten, dat wil zeggen op basis van eerst nodig eerst bediend. Het verwijdert alle ordertraceringskoppelingen die dynamisch zijn gemaakt en maakt ze opnieuw op basis van de prioriteit van de vervaldatum. Wanneer het planningssysteem is uitgevoerd, zijn alle verstoringen van het evenwicht tussen vraag en voorziening opgelost, zoals hieronder wordt aangegeven voor dezelfde gegevens.  
 
-![Voorbeeld van ordertracering in leveringsplanning 2](media/NAV_APP_supply_planning_1_planning_graph.png "Voorbeeld van ordertracering in leveringsplanning 2")  
+![Voorbeeld van ordertracering in leveringsplanning 2.](media/NAV_APP_supply_planning_1_planning_graph.png "Voorbeeld van ordertracering in leveringsplanning 2")  
 
 Na de planning blijven geen planningsboodschappen achter in de tabel Planningsboodschappost, omdat ze door de voorgestelde acties in het planningsvoorstel zijn vervangen.  
 
@@ -93,7 +93,7 @@ Het planningssysteem in [!INCLUDE[prod_short](includes/prod_short.md)] wordt ges
 
 In een productieomgeving leidt de vraag naar een voltooid, verkoopbaar artikel tot afgeleide vraag naar onderdelen die het voltooide artikel vormen. De stuklijststructuur bepaalt de onderdeelstructuur en kan verschillende niveaus half afgewerkte artikelen verwerken. Een artikel op één niveau plannen leidt tot afgeleide vraag voor onderdelen op het volgende niveau, enzovoort. Uiteindelijk leidt dit tot afgeleide vraag naar ingekochte artikelen. Daarom plant het planningssysteem voor artikelen in de volgorde van hun rangorde in de totale stuklijsthiërarchie, te beginnen met verkoopbare voltooide artikelen op het hoogste niveau, en dan omlaag door de productstructuur naar de artikelen van het lagere niveau (op basis van de low-levelcode).  
 
-![Planning voor stuklijsten](media/NAV_APP_supply_planning_1_BOM_planning.png "Planning voor stuklijsten")  
+![Planning voor stuklijsten.](media/NAV_APP_supply_planning_1_BOM_planning.png "Planning voor stuklijsten")  
 
 De cijfers laten zien in welke volgorde voorstellen worden gemaakt voor voorzieningenorders op het hoogste niveau en, ervan uitgaande dat de gebruiker deze voorstellen accepteert, ook voor de artikelen op een lager niveau.  
 
@@ -116,7 +116,7 @@ Dit wordt ondersteund met het gebruik van SKU's, waar individuele planningsparam
 
 In principe kan elk artikel op elke locatie worden afgehandeld, maar de benadering door de toepassing van het vestigingsconcept is tamelijk strikt. Een verkooporder op de ene vestiging kan bijvoorbeeld niet worden vervuld door beschikbare voorraad op een andere vestiging. Het aantal op voorraad moet eerst worden overgebracht naar de vestiging die op de verkooporder is opgegeven.  
 
-![Planning van voorraadhoudende eenheden](media/NAV_APP_supply_planning_1_SKU_planning.png "Planning van voorraadhoudende eenheden")  
+![Planning van SKU's.](media/NAV_APP_supply_planning_1_SKU_planning.png "Planning van voorraadhoudende eenheden")  
 
 Zie [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md) voor meer informatie.  
 
@@ -130,7 +130,7 @@ Zie [Orders in prioriteitsvolgorde plaatsen](design-details-balancing-demand-and
 
 Prognoses en raamcontracten vertegenwoordigen beide verwachte vraag. Het raamcontract omvat de bedoelde inkoop van een klant over een bepaalde periode en is bedoeld om de onzekerheid van de algemene prognose te verminderen. Het raamcontract is een klantspecifieke prognose in aanvulling op de niet-opgegeven prognose zoals hieronder beschreven.  
 
-![Planning met prognoses](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planning met prognoses")  
+![Planning met prognoses.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planning met prognoses")  
 
 Zie voor meer informatie [Prognosevraag wordt verlaagd door verkooporders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
@@ -226,7 +226,7 @@ Het planningssysteem neemt echter toch gereserveerde aantallen op in het verwach
 
 De volgende illustratie geeft aan hoe reserveringen het meest haalbare plan kunnen belemmeren.  
 
-![Planning met reserveringen](media/NAV_APP_supply_planning_1_reservations.png "Planning met reserveringen")  
+![Planning met reserveringen.](media/NAV_APP_supply_planning_1_reservations.png "Planning met reserveringen")  
 
 Zie voor meer informatie [Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -242,7 +242,7 @@ De waarschuwingsgegevens worden op de pagina **Niet-getraceerde planningselement
 -   Uitzondering  
 -   Opmerking  
 
-![Waarschuwingen in het planningswerkblad](media/NAV_APP_supply_planning_1_warnings.png "Waarschuwingen in het planningswerkblad")  
+![Waarschuwingen in het planningswerkblad.](media/NAV_APP_supply_planning_1_warnings.png "Waarschuwingen in het planningswerkblad")  
 
 ### <a name="emergency"></a>Noodgeval
 
@@ -283,7 +283,7 @@ Op de aanvraagpagina Planning berekenen kan de gebruiker het veld **Stoppen en e
 
 Als het veld niet is geselecteerd, wordt de batchverwerking Planning berekenen voortgezet totdat deze is voltooid. Fouten onderbreken de batchverwerking niet. Als er een of meer fouten zijn, wordt na afloop een bericht weergegeven waarin staat hoeveel artikelen dit betreft aan de hand van fouten. Vervolgens wordt de pagina **Planningfoutenlogboek** geopend met meer informatie over de fout en koppelingen naar de betreffende documenten of instellingskaart(en).  
 
-![Foutmeldingen in het planningswerkblad](media/NAV_APP_supply_planning_1_error_log.png "Foutmeldingen in het planningswerkblad")  
+![Foutmeldingen in het planningswerkblad.](media/NAV_APP_supply_planning_1_error_log.png "Foutmeldingen in het planningswerkblad")  
 
 ## <a name="planning-flexibility"></a>Planningsflexibiliteit
 

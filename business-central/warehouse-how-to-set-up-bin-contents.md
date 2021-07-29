@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: abe79973022927c899aaa69a7ac28f76e8c8de39
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 575b2fdd00b7761fa615b9265fa5f21d402e096d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771741"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443016"
 ---
 # <a name="create-bin-contents"></a>Opslaglocatie-inhoud maken
 
@@ -23,7 +23,7 @@ Nadat u opslaglocaties hebt gemaakt, kunt u de opslaglocatie-inhoud instellen. U
 
 ## <a name="to-create-bin-content-manually"></a>Opslaglocatie-inhoud handmatig maken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de locatie waarin u opslaglocatie-inhoud wilt instellen en kies de actie **Opslaglocaties**.  
 3. Selecteer de opslaglocatie waarin u opslaglocatie-inhoud wilt instellen en kies de actie **Inhoud**.  
 4. Voor elk artikel dat u in de vestiging wilt opslaan voert u de juiste informatie in op een regel op de pagina **Opslaglocatie-inhoud**. Sommige velden zijn al automatisch ingevuld met gegevens over de opslaglocatie.  
@@ -42,7 +42,7 @@ Als u het veld **Vast** selecteert, koppelt u het artikel aan de opslaglocatie. 
 
 Wanneer u de opslaglocaties hebt gemaakt, kunt u in het maakvoorstel voor opslaglocatie-inhoud instellen wat u in per opslaglocatie wilt opslaan.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorstel opslaglocatie-inhoudaanmaak** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorstel opslaglocatie-inhoudaanmaak** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het voorstel van de vestiging waarvoor u de opslaglocatie-inhoud wilt maken in het veld **Naam** op de voorstelkop.  
 3. Selecteer de opslaglocatie waarvan u de inhoud wilt definiëren in het veld **Opslaglocatie**.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd35c0af4d2b66f99c0a4a3a65f77826cd9af806
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 313de95353fc42b222fa95cd36d320881a7fbdb8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775934"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442597"
 ---
 # <a name="set-up-incoming-documents"></a>Inkomende documenten instellen
 
@@ -29,7 +29,7 @@ Wanneer de functie Inkomende documenten is ingesteld, kunt u verschillende funct
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>De functie Inkomende documenten instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen inkomende documenten** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instellingen inkomende documenten** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Als onderdeel van de instelling moet u beslissen of u goedkeuring van inkomende documenten wilt hebben. Om goedkeuring te vereisen moet u goedkeurders en goedkeuringswerkstromen instellen. Als uw organisatie niet van plan is goedkeuring te vereisen, kunt u de volgende sectie overslaan.  
@@ -44,7 +44,7 @@ Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomge
 
 ## <a name="to-set-up-an-ocr-service"></a>Een OCR-service instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **OCR-service-instellingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **OCR-service instellen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  

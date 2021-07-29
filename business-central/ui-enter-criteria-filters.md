@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017186"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443705"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorteren, zoeken en filteren
 
@@ -24,7 +24,7 @@ U kunt een paar dingen doen om records in een lijst, in een rapport of XMLport t
 Voor rapporten en XMLports, kunt u filters instellen zoals in lijsten om af te bakenen welke gegevens in het rapport of de XMLport moeten worden opgenomen, maar u kunt niet sorteren en zoeken.
 
 > [!TIP]
-> Wanneer u uw gegevens weergeeft als tegels, kunt u zoeken en filtering gebruiken. Als u de volledige set functies wilt gebruiken voor sorteren, zoeken en filteren, kiest u het pictogram ![Als overzicht weergeven](media/ui_show_as_list_icon.png "Weergeven als lijst pijl naar links") om de records als lijst weer te geven.
+> Wanneer u uw gegevens weergeeft als tegels, kunt u zoeken en filtering gebruiken. Als u de volledige set functies wilt gebruiken voor sorteren, zoeken en filteren, kiest u het pictogram ![Als overzicht weergeven](media/ui_show_as_list_icon.png "Weergeven als lijst pijl naar links"). om de records als een lijst te bekijken.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Om een lijst te sorteren, kunt u:
 ## <a name="searching"></a>Zoeken
 
 <!--## Searching by using the Quick Filter -->
-Boven aan elke lijstpagina staat een actie ![Zoeken in lijst](media/ui-search/search-list.png "Pictogram Zoeken in lijst") **Zoeken** die een snelle en gemakkelijke manier biedt om de records in een lijst te reduceren en alleen de records weer te geven die de gegevens bevatten die u wilt zien.
+Boven aan elke lijstpagina staat een ![Zoeklijst.](media/ui-search/search-list.png "Pictogram Zoeken in lijst") actie **Zoeken** die een snelle en gemakkelijke manier biedt om de records in een lijst te reduceren en alleen de records weer te geven die de gegevens bevatten die u wilt zien.
 
 Als u wilt zoeken, kiest u gewoon de actie **Zoeken** en typt u de tekst die u zoekt, in het vak. U kunt letters, cijfers en andere symbolen invoeren.
 
@@ -144,7 +144,7 @@ Zowel in het filtervenster als op een aanvraagpagina voert u uw filtercriteria i
 
 Het type filterveld bepaalt welke criteria u kunt invoeren. Als u bijvoorbeeld filtert op een veld dat vaste waarden heeft, kunt u alleen kiezen uit die waarden. Voor meer informatie over speciale filtersymbolen raadpleegt u [Filtercriteria](#FilterCriteria) en [Filtertokens](#FilterTokens)
 
-Kolommen die al filters bevatten, worden aangegeven door het pictogram ![Filterpictogram](media/ui-search/filter-icon.png "Pictogram Filter") in de kolomkop. Als u een filter wilt verwijderen, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter wissen**.
+Kolommen die al filters hebben, worden aangegeven met het ![pictogram Filter.](media/ui-search/filter-icon.png "Pictogram Filter") in de kolomkop. Als u een filter wilt verwijderen, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter wissen**.
 
 > [!TIP]
 > Versnel het zoeken en analyseren van uw gegevens met combinaties van toetsenbordsneltoetsen. Selecteer bijvoorbeeld een veld, gebruik **Shift+Alt+F3** om dat veld aan het filterdeelvenster toe te voegen, typ het filtercriterium, gebruik **Ctrl+Enter** om terug te keren naar de rijen, selecteer een ander veld en gebruik **Alt+F3** om op die waarde te filteren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).

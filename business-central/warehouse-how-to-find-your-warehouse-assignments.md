@@ -1,6 +1,6 @@
 ---
-title: Magazijntoewijzingen zoeken | Microsoft Docs
-description: Als uw magazijntoewijzingen wilt weergeven, opent u de kaartpagina voor een geselecteerd artikel. Als er magazijninstructies zijn gemaakt, zijn de Nemen- en Plaatsen-regels zichtbaar en kunt u beginnen aan een toewijzing. In sommige magazijnen heeft de manager wellicht specifieke instructies toegewezen aan elke werknemer.
+title: Magazijntoewijzingen zoeken
+description: In dit onderwerp wordt uitgelegd hoe u de magazijntoewijzingen kunt vinden die aan u zijn toegewezen op de pagina Artikelkaart wanneer instructies voor u zijn gemaakt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 20035f02f2a103123a1f0f8ced0c8f1cc8b587fd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6c861ed1f068d6381d99ef0761244befd08ba43a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771791"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444142"
 ---
 # <a name="find-your-warehouse-assignments"></a>Magazijntoewijzingen zoeken
 Als uw magazijntoewijzingen wilt weergeven, opent u de kaartpagina voor een geselecteerd artikel. Als er magazijninstructies zijn gemaakt, zijn de Nemen- en Plaatsen-regels zichtbaar en kunt u beginnen aan een toewijzing. In sommige magazijnen heeft de manager wellicht specifieke instructies toegewezen aan elke werknemer. Zie voor meer informatie [Magazijnmedewerkers instellen](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>U kunt als volgt zoeken naar een instructie die aan u is toegewezen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnopslag**, **Magazijnpicks** of **Magazijnverplaatsing** in en kies vervolgens de gerelateerde koppeling.
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnopslag**, **Magazijnpicks** of **Magazijnverplaatsing** in en kies vervolgens de gerelateerde koppeling.
 
     Op alle drie de pagina's worden toewijzingen voor alle magazijnvestigingen weergegeven.  
 

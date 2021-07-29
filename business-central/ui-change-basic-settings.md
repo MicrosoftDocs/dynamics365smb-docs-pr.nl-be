@@ -1,6 +1,6 @@
 ---
 title: Basisinstellingen wijzigen voor de huidige gebruiker
-description: Leer hoe u enkele basisinstellingen wijzigt, bijvoorbeeld uw rolcentrum, bedrijf of werkdatum.
+description: Leer hoe u enkele basisinstellingen in Business Central kunt wijzigen, bijvoorbeeld uw rol en rolcentrum, bedrijf, werkdatum en tijdzones.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787464"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443780"
 ---
 # <a name="change-basic-settings"></a>Basisinstellingen wijzigen
 
@@ -33,7 +33,7 @@ Het rolcentrum vertegenwoordigt de startpagina, een startscherm dat is ontworpen
 
 De standaardrol is **Bedrijfsmanager**, maar u kunt een andere rol selecteren om een rolcentrum te selecteren dat beter aan uw behoeften voldoet.  
 
-1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen**.
+1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen.](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen**.
 2. Selecteer op de pagina **Instellingen** in het veld **Rol** de rol die u als standaard wilt gebruiken. Selecteer bijvoorbeeld **Accountant**.
 3. Kies de knop **Ok**.
 
@@ -47,7 +47,7 @@ Het standaardbedrijf heet CRONUS en bevat alleen demogegevens. U kunt een nieuw 
 
 De bedrijfsnaam wordt altijd in de linkerbovenhoek weergegeven en werkt als een actie die u kunt kiezen om terug te gaan naar het rolcentrum. U kunt deze naam wijzigen op de pagina **Bedrijfsgegevens**.
 
-1. Kies het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) en kies vervolgens de actie **Bedrijfsgegevens**.
+1. Kies het ![pictogram Tand om het menu Instellingen te openen.](media/ui-experience/settings_icon_small.png) en kies vervolgens de actie **Bedrijfsgegevens**.
 2. Voer in het veld **Naam** de nieuwe bedrijfsnaam in.
 3. Verlaat de pagina. Het systeem start opnieuw op en geeft het nieuwe bedrijf in de linkerbovenhoek weer.
 
@@ -55,7 +55,7 @@ De bedrijfsnaam wordt altijd in de linkerbovenhoek weergegeven en werkt als een 
 
 U kunt een aangepaste badge in de rechterbovenhoek toevoegen, die u kunt kiezen om de bedrijfsnaam en tenantinformatie snel in een pop-upvenster te bekijken. De bedrijfsbadge is ook handig wanneer [!INCLUDE[prod_short](includes/prod_short.md)] is ingebed in een andere toepassing, zoals Microsoft Teams of in een andere webtoepassing. In deze gevallen, omdat de [!INCLUDE[web_client](includes/web_client.md)] minder omgevingscontextuele informatie weergeeft, dient de bedrijfsbadge als de enige manier om te bepalen tot welk bedrijf of welke omgeving een record behoort.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op het sneltabblad **Bedrijfsbadge** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

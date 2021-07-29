@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 966760ae57f9908ec7245f8e97f6d35591142332
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214890"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442372"
 ---
 # <a name="design-details-production-order-posting"></a>Ontwerpdetails: Productieorderboeking
 Net als bij assemblageorderboeking worden de verbruikte materialen en de gebruikte computertijd omgezet en uitgevoerd als het geproduceerde artikel wanneer de productieorder is voltooid. Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie. De kostenstroom voor assemblageorders is echter minder complex, met name omdat de assemblagekostenboeking slechts eenmaal plaatsvindt en daarom geen OHW-voorraad genereert.
@@ -58,11 +58,11 @@ Het boeken van productieorders naar OHW-voorraad betreft output, verbruik en cap
 
 Het volgende diagram bevat de betrokken boekingsroutines in codeunit 22.  
 
-![Productieorderboekingsroutines](media/design_details_inventory_costing_14_production_posting_1.png "Productieorderboekingsroutines")  
+![Productieorderboekingsroutines.](media/design_details_inventory_costing_14_production_posting_1.png "Productieorderboekingsroutines")  
 
 Het volgende diagram bevat de koppelingen tussen de resulterende posten en de kostenobjecten.  
 
-![Productie-invoerstroom](media/design_details_inventory_costing_14_production_posting_2.png "Productie-invoerstroom")  
+![Productie-invoerstroom.](media/design_details_inventory_costing_14_production_posting_2.png "Productie-invoerstroom")  
 
 De capaciteitspost beschrijft het capaciteitsverbruik in termen van tijdseenheden, terwijl de gerelateerde waardepost de waarde van het specifieke capaciteitsverbruik omschrijft.  
 

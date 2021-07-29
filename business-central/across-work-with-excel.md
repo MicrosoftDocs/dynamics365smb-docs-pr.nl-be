@@ -10,37 +10,41 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7e3abf36444c4701229ffaac7ceade11bb1879cc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6bf12f55f6bce843c4ed12f2a40db542367fffde
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786944"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443494"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Weergeven en bewerken in Excel vanuit Business Central
 
-Met pagina's die een lijst met records in rijen en kolommen weergeven, zoals een lijst met klanten, verkooporders of facturen, kunt u ook de records weergeven met Microsoft Excel. U hebt hiervoor twee opties. U kunt de actie **Openen in Excel** of de actie **Bewerken in Excel** op de pagina selecteren. Dit zijn de verschillen tussen de twee acties:  
+Met pagina's die een lijst met records in rijen en kolommen weergeven, zoals een lijst met klanten, verkooporders of facturen, kunt u ook de records weergeven met Microsoft Excel. Afhankelijk van de pagina hebt u twee opties voor weergave in Excel. U kunt de actie **Openen in Excel** of de actie **Bewerken in Excel** op de pagina selecteren. In dit artikel worden de verschillen tussen de twee acties uitgelegd.
 
 ## <a name="open-in-excel"></a>Openen in Excel
 
+Met de actie **Openen in Excel** kunt u wijzigingen aanbrengen in de records in Excel, maar u kunt de wijzigingen niet terug publiceren naar [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt de wijzigingen alleen opslaan in het Excel-bestand op uw computer.
+
 - Met deze actie houdt Excel rekening met alle filters op de pagina waarmee de weergegeven records worden beperkt. De Excel-werkmap zal dezelfde rijen en kolommen bevatten die worden weergegeven op de pagina in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-- U kunt wijzigingen in de records aanbrengen in Excel, maar u kunt de wijzigingen niet terug publiceren naar [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt de wijzigingen alleen opslaan in het Excel-bestand op uw computer.
-
 - Deze actie werkt zowel onder Windows als MacOS.
+
+- Vanaf update 18.3 kunt u ook lijsten bekijken die in paginaonderdelen worden getoond, zoals de regels in een verkooporder. Voorlopig is deze mogelijkheid een optionele functie, waarvoor u **Een lijstonderdeel exporteren naar Excel** moet inschakelen in **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management). 
 
 > [!NOTE]
 > Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises is de actie **Openen in Excel** standaard beschikbaar. Als u echter [!INCLUDE[prod_short](includes/prod_short.md)] on-premises instelt om gegevens in Excel te bewerken, wordt de actie **Openen in Excel** vervangen door de actie **Bewerken in Excel**.
 
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]  
+
 ## <a name="edit-in-excel"></a>Bewerken in Excel
+
+Met de actie **Bewerken in Excel** kunt u wijzigingen aanbrengen in de records in Excel en de wijzigingen dan terug publiceren naar [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Met deze actie respecteert Excel de meeste filters op de pagina die het aantal weergegeven records beperken, dus de Excel-werkmap bevat bijna dezelfde records en kolommen.
 
-- Het voordeel van de actie **Bewerken in Excel** is dat u er wijzigingen in records in Excel mee kunt aanbrengen en de wijzigingen weer naar [!INCLUDE[prod_short](includes/prod_short.md)] kunt publiceren.
-
 - Dit werkt alleen onder Windows, niet onder MacOS.
 
-- U kunt het bedrijf waarmee u werkt wijzigen. Als u van bedrijf wilt veranderen, selecteert u het pictogram **Opties** ![Opties voor Excel-invoegtoepassingen](media/cogwheel.png "Opties van Excel-invoegtoepassing") in het Excel-invoegtoepassingsvenster en selecteer vervolgens het bedrijf in het veld **Bedrijf**.  
+- U kunt het bedrijf waarmee u werkt wijzigen. Om van bedrijf te veranderen selecteert u het pictogram **Opties** ![Opties van Excel-invoegtoepassing.](media/cogwheel.png "Opties van Excel-invoegtoepassing") In het Excel-invoegtoepassingsvenster en selecteert u vervolgens het bedrijf in het veld **Bedrijf**.  
 
     > [!IMPORTANT]
     > Zorg er bij het veranderen van bedrijf voor dat het veld **Omgeving** niet leeg is. Als dat zo is, stel het dan in op een van de beschikbare opties; anders werkt de invoegtoepassing niet correct.  

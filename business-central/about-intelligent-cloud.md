@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, migrate, insights
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: b64b1ad037743364b7bd0f4544dbcdb351e2daba
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889267"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442622"
 ---
 # <a name="intelligent-insights-in-prod_short-online"></a>Intelligente inzichten in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
@@ -36,7 +36,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] online bevat de pagina **Intel
 Naast de KPI-grafieken krijgt u informatie over potentiële aandachtspunten, inclusief achterstallige betalingen. Kies elk inzicht om in te zoomen op de gegevens.  
 
 > [!div class="mx-imgBorder"]
-> ![Intelligente cloud-inzichten](media/across-intelligent-cloud/intelligentcloudApril19.png "Geeft de pagina Intelligente cloud-inzichten weer in Business Central online")
+> ![Intelligente cloud-inzichten.](media/across-intelligent-cloud/intelligentcloudApril19.png "Geeft de pagina Intelligente cloud-inzichten weer in Business Central online")
 
 De pagina maakt ook verbinding met Power BI voor nog meer inzichten. Maak eventueel verbinding met Azure AI voor nog meer intelligente inzichten. Zie voor meer informatie [De extensie Verkoop- en voorraadprognose](ui-extensions-sales-forecast.md).  
 

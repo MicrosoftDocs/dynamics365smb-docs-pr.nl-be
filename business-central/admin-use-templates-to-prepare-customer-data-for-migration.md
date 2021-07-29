@@ -1,6 +1,6 @@
 ---
-title: Migratie van klantgegevens met sjablonen voorbereiden | Microsoft Docs
-description: Leer hoe u configuratiesjablonen gebruikt om bestaande klantgegevens te structureren voordat u de gegevens migreert naar het nieuwe bedrijf in Business Central.
+title: Migratie van klantgegevens met sjablonen voorbereiden
+description: Leer hoe u configuratiesjablonen gebruikt om bestaande klantgegevens te structureren voordat u de hoofdgegevens migreert naar het nieuwe bedrijf in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dca94e321e6a244bdea27b16ec4c041bd97e89b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777003"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443166"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Migratie van klantgegevens met sjablonen voorbereiden
 
@@ -47,7 +47,7 @@ Wanneer u een bestaande gegevenssjabloon selecteert, moet u beoordelen of de sja
 > [!TIP]  
 > U kunt gegevenssjablonen ook gebruiken om snel nieuwe lijsten te maken. Gebruik deze om sneller en nauwkeuriger gegevens te maken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiesjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Configuratiesjablonen** een gegevenssjabloon in de lijst, en kies de actie **Bewerken**.  
 
 Als de standaardsjablonen niet aan uw behoeften voldoen, kunt u nieuwe sjablonen maken of velden toevoegen aan een bestaande sjabloon. Als de standaardsjablonen voldoende zijn, kunt u deze gebruiken om records te maken op basis van hoofdgegevenssjablonen.
@@ -100,7 +100,7 @@ De tabel-id, tabelnaam en regels van de bestaande gegevenssjabloon worden ingevo
 
 U kunt snel een Excel-werkmap maken als sjabloon die is gebaseerd op de structuur van een bestaande databasetabel. U kunt vervolgens de sjabloon gebruiken om klantgegevens te verzamelen in een consistente indeling die u later kunt importeren in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
 2. Voeg een tabel toe aan de lijst of selecteer een bestaande tabel. Zie voor meer informatie [De bedrijfsconfiguratie beheren in een werkblad](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Kies de actie **Geeft velden weer** om de velden uit de tabel te definiëren die u in de sjabloon wilt opnemen.
 4. Kies de actie **Exporteren naar sjabloon**.
@@ -130,11 +130,11 @@ U kunt de structuur van de gegevens in de gegevenssjablonen gebruiken om uw info
 
 De volgende stappen illustreren hoe u een artikelkaart maakt van een artikelgegevenssjabloon. U kunt met dezelfde procedure een record maken van elke gegevenssjabloon.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de **artikel** sjabloon en kies vervolgens de actie **Bewerken**. Zie voor meer informatie [Een gegevenssjabloon maken](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Kies de actie **Instantie maken**. Er wordt een artikelkaart gemaakt.  
 4. Kies de knop **OK**.  
-5. Als u de nieuwe artikelkaart wilt bekijken, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Artikelen** in en kiest u vervolgens de gerelateerde koppeling.  
+5. Om de nieuwe artikelkaart te bekijken kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 6. Open de nieuwe artikelkaart.  
 7. Vouw verschillende sneltabbladen uit en controleer of de gegevens erop kloppen.  
 

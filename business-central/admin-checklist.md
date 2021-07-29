@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, wizard, checklist
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c4c636f6030f9ee8d9c2fde849c9b86fc04670ad
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 48a293f0cfedc257f8efcae6b4e8ea958e975ca6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788642"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443980"
 ---
 # <a name="onboard-users-with-checklists"></a>Gebruikers onboarden met controlelijsten
 
@@ -22,7 +22,7 @@ De eerste keer dat een gebruiker zich aanmeldt bij een nieuw [!INCLUDE [prod_sho
 
 1. Meld u aan bij [!INCLUDE[prod_short](includes/prod_short.md)] op [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
-2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Controlelijstbeheer** in en kies de gerelateerde koppeling.  
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Controlelijstbeheer** in en kies vervolgens de gerelateerde koppeling.  
 
 3. Kies de actie **Nieuw** en kies vervolgens **Nieuw controlelijstitem maken**.  
 

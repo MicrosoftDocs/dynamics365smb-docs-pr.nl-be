@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 7d39262993a173fec1eae68bcb44a85332a9866a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773116"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444005"
 ---
 # <a name="configuring-api-templates"></a>API-sjablonen configureren
 De API-bibliotheek voor [!INCLUDE[prod_short_md](includes/prod_short.md)] biedt een vereenvoudigde weergave van de onderliggende entiteiten. Niet alle eigenschappen in de toepassing zijn beschikbaar via de bijbehorende API. Met de pagina **API-instelling** kunt u sjablonen definiëren die worden gebruikt om lege eigenschappen te vullen van een entiteit wanneer u een POST-actie maakt met behulp van de API. 
@@ -31,7 +31,7 @@ Als u sjablonen wilt gebruiken met de API-bibliotheek, moet u eerst eigenschappe
 
 Als u een sjabloon wilt toewijzen aan een API, moet u de volgende stappen uitvoeren.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **API-instelling** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **API-instelling** in en kies vervolgens de gerelateerde koppeling.
 2. Kies **Nieuw** en kies de waarde **Volgorde** voor de record.  
 Als er meer dan één sjabloon is geselecteerd voor een API (Pagina-id), worden de sjablonen toegepast in de volgorde die is gedefinieerd in de kolom **Volgorde**.   
 Wanneer elke sjabloon wordt toegepast, worden veldwaarden die in de sjabloon zijn gedefinieerd, alleen toegepast op velden waarvoor nog geen waarde is gedefinieerd, hetzij expliciet in de sjabloon, hetzij in een eerder toegepaste sjabloon in de volgorde. 

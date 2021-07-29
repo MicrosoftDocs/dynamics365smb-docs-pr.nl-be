@@ -1,6 +1,6 @@
 ---
-title: Waarden van klantinstellingen verzamelen | Microsoft Docs
-description: U gebruikt de configuratievragenlijst om uw implementatiewerklast te verminderen door het stroomlijnen van de taak voor het instellen van het nieuwe bedrijf. U kunt de configuratievragenlijst genereren in Business Central en vervolgens als een Excel-bestand (.xlsx) of een XML-bestand aan de klant geven.
+title: Waarden van klantinstellingen verzamelen
+description: Configuratievragenlijst helpt de implementatie te verminderen door het opzetten van nieuwe bedrijven te stroomlijnen en klanten een Excel- of XML-bestand aan te bieden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: af8d2bb31b5f76912d69b123803243cfce1445bd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783986"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443905"
 ---
 # <a name="gather-customer-setup-values"></a>Waarden van klantinstellingen verzamelen
 U gebruikt de configuratievragenlijst om uw implementatiewerklast te verminderen door het stroomlijnen van de taak voor het instellen van het nieuwe bedrijf. U kunt de configuratievragenlijst genereren in [!INCLUDE[prod_short](includes/prod_short.md)] en vervolgens als een Excel-bestand (.xls) of een XML-bestand aan de klant geven.  
@@ -50,9 +50,9 @@ U kunt een vragenlijst gebruiken om de reikwijdte en de behoeften van de configu
 -   Magazijninstellingen  
 
 > [!NOTE]  
->  Als u een complete lijst met instellingstabellen wilt zien, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Instelling** in en kiest u de desbetreffende koppeling. Gebruik migratiefunctionaliteit om de omvang van de migratie van recordgegevens te bepalen. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
+>  Als u een volledige lijst wilt zien met instellingstabellen, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instellen** in en kies vervolgens de gerelateerde koppeling. Gebruik migratiefunctionaliteit om de omvang van de migratie van recordgegevens te bepalen. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.   
 3. Voer op de pagina **Vragenlijst voor configuratie** in het veld **Code** het volgende in... 
 <!--4. In the **Name** field, enter...
@@ -98,7 +98,7 @@ U gebruikt de configuratievragenlijst om een uitvoerige discussie te structurere
 >  U kunt ook uw eigen configuratievragenlijst maken die aan uw behoeften voldoet.  
 
 1. Open het bedrijf waarvoor u de vragenlijst wilt voltooien.
-2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies de desbetreffende koppeling.  
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
 3. Selecteer de vragenlijst voor het bedrijf en kies de actie **Naar Excel exporteren**, optioneel de actie **Naar XML exporteren**.
 4. Laat de klant de configuratievragenlijst invullen door de antwoorden in te voeren in de Excel-werkmap. Er zijn werkbladen voor elk vraaggebied dat is gemaakt voor de vragenlijst.   
 5. Sla de Excel-werkmap op als *XML-gegevens*. Kies de actie **Vanuit XML importeren** en selecteer het .xml-bestand met de antwoorden van de klant.
@@ -131,7 +131,7 @@ Wanneer u de validatie hebt voltooid, zijn de gegevens gereed om te worden toege
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Antwoorden uit de configuratievragenlijst toepassen
 Nadat u informatie uit een configuratievragenlijst hebt geïmporteerd en gevalideerd, kunt u de installatiegegevens overbrengen naar of toepassen op de bijbehorende tabellen in de [!INCLUDE[prod_short](includes/prod_short.md)]-database.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies de desbetreffende koppeling. De pagina **Vragenlijst voor configuratie** wordt geopend.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling. De pagina **Vragenlijst voor configuratie** wordt geopend.  
 2. Selecteer een configuratievragenlijst in de lijst en kies vervolgens de actie **Lijst bewerken**.  
 3. U kunt antwoorden op twee manieren toepassen.  
 

@@ -1,6 +1,6 @@
 ---
-title: Ontwerpdetails - Kostenwaardering | Microsoft Docs
-description: Het belangrijkste doel van kostenherwaardering is wijzigingen in kosten van kostenbronnen door te sturen naar kostenontvangers, volgens de waarderingsmethode van een artikel, om de juiste voorraadwaardering te bieden.
+title: 'Ontwerpdetails: Kostenwaardering'
+description: Kostenherwaardering stuurt wijzigingen in kosten van kostenbronnen door naar kostenontvangers, volgens de waarderingsmethode van een artikel, om de juiste voorraadwaardering te bieden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0c0d46c75ca160ba5baa58bd637ead2e0339d368
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4fdf131d9f32940ed3b909c4bc98a1516f44bf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215415"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442472"
 ---
 # <a name="design-details-cost-adjustment"></a>Ontwerpdetails: Kostenwaardering
 
@@ -67,7 +67,7 @@ Deze detectiefunctie wordt gebruikt voor conversiescenario's, productie en assem
 
 De functie op orderniveau wordt gebruikt om correcties in assemblageboekingen te detecteren. De volgende afbeelding toont de structuur van de herwaarderingspost:  
 
-![Stroom van posten in kostencorrectie](media/design_details_assembly_posting_3.png "Stroom van posten in kostencorrectie")  
+![Stroom van posten in kostencorrectie.](media/design_details_assembly_posting_3.png "Stroom van posten in kostencorrectie")  
 
 Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie.  
 

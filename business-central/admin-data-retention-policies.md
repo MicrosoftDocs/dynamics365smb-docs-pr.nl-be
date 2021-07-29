@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935348"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443930"
 ---
 # <a name="define-retention-policies"></a>Bewaarbeleid definiëren
 Beheerders kunnen bewaarbeleid definiëren om aan te geven hoe vaak ze willen dat [!INCLUDE[prod_short](includes/prod_short.md)] verouderde gegevens verwijdert in tabellen die logboekvermeldingen en gearchiveerde records bevatten. Het opschonen van logboekvermeldingen kan het bijvoorbeeld gemakkelijker maken om te werken met de gegevens die echt relevant zijn. Beleid kan alle gegevens in de tabellen omvatten die de vervaldatum hebben overschreden, of u kunt filtercriteria toevoegen die alleen bepaalde verlopen gegevens in het beleid opnemen. 
@@ -40,7 +40,7 @@ Bewaarperioden kunnen zo lang of kort zijn als u wilt. Om bewaartermijnen te mak
 > Om complianceredenen hebben we voor sommige tabellen een minimale bewaartermijn gedefinieerd. Als u een bewaartermijn instelt die korter is dan vereist, wordt een bericht weergegeven met de verplichte periode.
 
 ### <a name="set-up-a-retention-policy"></a>Een bewaarbeleid instellen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewaarbeleid** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewaarbeleid** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het veld **Tabel-id** de tabel die u wilt opnemen in het beleid.
 3. Geef in het veld **Bewaarperiode** op hoe lang de gegevens in de tabel moeten worden bewaard.
 4. Optioneel: als u het beleid op specifieke gegevens in een tabel wilt toepassen, schakelt u de schakelaar Toepassen op alle records uit. Het sneltabblad Bewaarbeleid van record wordt weergegeven, waar u filters kunt instellen om subsets met gegevens voor elke regel te maken. Zie [Filteren](ui-enter-criteria-filters.md#filtering) voor meer informatie.

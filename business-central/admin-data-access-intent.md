@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fe04fc290f10324105d4d9ca01e13166bf2ad8f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a85a8acda1789997639c78c5d6028a14dbb75af
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773091"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443955"
 ---
 # <a name="managing-database-access-intent"></a>Databasetoegangsintentie beheren 
 
@@ -33,7 +33,7 @@ In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor 
 
 ## <a name="to-change-the-database-access-intent"></a>De intentie van de databasetoegang wijzigen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Lijst met intenties voor databasetoegang** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerken - Lijst met intenties voor databasetoegang** in en kies vervolgens de gerelateerde koppeling.
 
     De pagina bevat alle rapporten, pagina's en query's. De kolom **Toegangsintentie** bevat een van de volgende waarden:
 

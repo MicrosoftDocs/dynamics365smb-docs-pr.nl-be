@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: caacf8eb62dd9539f050dbf55543dee862a6d7f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779134"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444499"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Btw rapporteren aan de belastingdienst
 Dit onderwerp beschrijft de rapporten in [!INCLUDE[prod_short](includes/prod_short.md)] die u kunt gebruiken om gegevens over btw-bedragen voor verkopen en inkopen in te dienen bij de belastingdienst in uw regio. 
@@ -25,7 +25,7 @@ U kunt de volgende rapporten gebruiken:
 * Het **Verkoopoverzicht EU** bevat de btw-bedragen die u hebt geïnd voor verkopen aan btw-plichtige klanten in EU-landen/regio's.  
 * Het rapport **BTW-aangifte** bevat btw voor verkopen en inkopen aan klanten en van leveranciers in alle landen/regio's die btw gebruiken.
 
-Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking waarop btw van toepassing is, een post op de pagina **Btw-posten**. Met deze posten wordt het btw-vereffeningsbedrag, dat uit een betaling of vergoeding kan bestaan, berekend voor een bepaalde periode. Als u btw-posten wilt zien, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Btw-posten** in en kiest u de desbetreffende koppeling.
+Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking waarop btw van toepassing is, een post op de pagina **Btw-posten**. Met deze posten wordt het btw-vereffeningsbedrag, dat uit een betaling of vergoeding kan bestaan, berekend voor een bepaalde periode. Als u btw-posten wilt zien, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-posten** in en kies vervolgens de gerelateerde koppeling.
 
 > [!NOTE]
 > Elke [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving is bedoeld voor het afhandelen van wettelijke rapportage in één enkel land/regio. Bijvoorbeeld de Nederlandse versie van [!INCLUDE[prod_short](includes/prod_short.md)] verzorgt btw-aangifte in Nederland maar niet in andere landen/regio's. Evenzo verwerkt de Amerikaanse versie van [!INCLUDE[prod_short](includes/prod_short.md)] 1099-rapportage in de Verenigde Staten en biedt deze geen ondersteuning voor het claimen van btw-aangifte in andere landen/regio's, tenzij door een extensie geleverd door ons partnerecosysteem of een klantspecifieke codewijziging.
@@ -58,19 +58,19 @@ Voor de btw-aangifte kunt u de posten opgeven die u wilt opnemen:
 
 Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met de webservice van de belastingdienst. Hiertoe moet u een account instellen bij uw belastingdienst. Wanneer u een account hebt ingesteld, kunt u een serviceverbinding inschakelen die we aanbieden in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceverbindingen** in en kies vervolgens de juiste koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     > Het is aan te raden de verbinding te testen. Kies hiervoor het selectievakje **Testmodus** en bereid uw btw-aangifte voor en verzend deze zoals beschreven in de sectie _Een btw-aangifte voorbereiden en indienen_. In de testmodus test de service of de belastingdienst uw aangifte kan ontvangen en de status van de aangifte geeft aan of de testindiening succesvol was. Vergeet niet dat dit geen werkelijke indiening is. Als u de aangifte echt wilt indienen, moet u het selectievakje **Testmodus** uitzetten en de indiening herhalen.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>Btw-rapporten instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-rapportinstellingen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-rapportinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Als u gebruikers deze lijst wilt laten wijzigen en opnieuw verzenden, kiest u het selectievakje **Verzonden rapporten aanpassen**.  
 3. Kies de nummerreeks die voor elke aangifte moet worden gebruikt.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Een btw-aangifte voorbereiden en indienen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopoverzicht EU** of **Btw-aangifte** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopoverzicht EU** of **Btw-aangifte** in en kies vervolgens de gerelateerde koppeling  
 2. Kies **Nieuw** en vul vervolgens de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Als u de inhoud van de lijst wilt genereren, kiest u de actie **Regels voorstellen**.  
 

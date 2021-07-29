@@ -1,6 +1,6 @@
 ---
-title: Boekingsperioden opgeven| Microsoft Docs
-description: U geeft boekingsbegin- en einddatums op om in te stellen wanneer gebruikers naar het grootboek kunnen boeken.
+title: Boekingsperioden opgeven
+description: U geeft boekingsperioden (begin- en einddatums) op om in te stellen wanneer gebruikers naar het grootboek kunnen boeken.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,20 +11,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6f1745dfec453f5864b748d0c876e5ef040fc2df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e4fb495fc29f28dffd34e492cb33d162d671fbd3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775486"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444374"
 ---
-# <a name="specify-posting-periods"></a>Boekingsperioden opgeven
+# <a name="how-to-specify-posting-periods"></a>Procedure: boekingsperioden opgeven
 Gebruik boekingsperioden om op te geven wanneer gebruikers naar het grootboek kunnen boeken.  
 
 ## <a name="to-specify-posting-periods"></a>Boekingsperioden opgeven
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Op de pagina **Grootboekinstellingen** definieert u de periode door datums in te voeren in het veld **Boeken toegestaan vanaf** en het veld **Boeken toegestaan tot**.  
 
 > [!NOTE]  

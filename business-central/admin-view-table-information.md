@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a01143dd7928d5996c1620676a758ea634bdf5d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 581d92010fa566c33775ffd6238ca6e0cfca0837
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776903"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443091"
 ---
 # <a name="viewing-table-information"></a>Tabelgegevens weergeven
 
@@ -24,7 +24,7 @@ Deze informatie is handig voor het oplossen van prestatieproblemen, omdat het u 
 
 ## <a name="viewing-table-information"></a>Tabelgegevens weergeven
 
-Als u deze pagina wilt openen, selecteert u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voert u **Tabelgegevens** in en kiest u vervolgens de gerelateerde koppeling.
+Om deze pagina te openen, selecteert u het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voert u **Tabelgegevens** in en kiest u vervolgens de gerelateerde koppeling.
 
 In de volgende tabel wordt de informatie voor elke tabel beschreven:
 

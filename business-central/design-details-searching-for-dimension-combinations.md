@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 544cb3a1844aaf85ab937031a23d6d00506ffa74
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: c93bf82f92a5e24e023bd59033c31877ab72993b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215766"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444292"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Ontwerpdetails: Dimensiecombinaties zoeken
 Wanneer u een pagina sluit nadat u een dimensieset hebt bewerkt, evalueert [!INCLUDE[prod_short](includes/prod_short.md)] of de bewerkte dimensieset bestaat. Als de verzameling niet bestaat, wordt een nieuwe verzameling gemaakt en wordt de dimensiecombinatie-id geretourneerd.  
@@ -26,7 +26,7 @@ Wanneer u een pagina sluit nadat u een dimensieset hebt bewerkt, evalueert [!INC
 ### <a name="example-1"></a>Voorbeeld 1  
  Het volgende diagram vertegenwoordigt een zoekactiestructuur met zes dimensiesets. Alleen de onderscheidende dimensiesetpost wordt weergegeven in het diagram.  
 
- ![Voorbeeld van een dimensieboomstructuur](media/nav2013_dimension_tree.png "Voorbeeld van een dimensieboomstructuur")  
+ ![Voorbeeld van een dimensieboomstructuur.](media/nav2013_dimension_tree.png "Voorbeeld van een dimensieboomstructuur")  
 
  In de volgende tabel wordt een volledig overzicht beschreven van dimensiesetposten waaruit elke dimensieset bestaan.  
 
@@ -45,7 +45,7 @@ Wanneer u een pagina sluit nadat u een dimensieset hebt bewerkt, evalueert [!INC
 
  Eerst werkt [!INCLUDE[prod_short](includes/prod_short.md)] ook de tabel **Boomstructuurpunt dimensieset** bij om ervoor te zorgen dat de zoekstructuur lijkt op het volgende diagram. Zodoende wordt dimensieset 7 een onderliggend niveau van dimensieset 5.  
 
- ![Voorbeeld van een dimensieboomstructuur in NAV 2013](media/nav2013_dimension_tree_example2.png "Voorbeeld van een dimensieboomstructuur in NAV 2013")  
+ ![Voorbeeld van een dimensieboomstructuur in NAV 2013.](media/nav2013_dimension_tree_example2.png "Voorbeeld van een dimensieboomstructuur in NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Dimensieset-id zoeken  
  Op conceptueel niveau zijn **Hoofd-id**, **Dimensie** en **Dimensiewaarde** in de zoekstructuur gecombineerd en gebruikt als de primaire sleutel omdat [!INCLUDE[prod_short](includes/prod_short.md)] de structuur doorloopt in dezelfde volgorde als de dimensieposten. De functie GET (record) wordt gebruikt om te zoeken naar dimensieset-id. In het volgende codevoorbeeld wordt aangegeven hoe u de dimensieset-id kunt vinden als er drie dimensiewaarden zijn.  

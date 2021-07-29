@@ -1,6 +1,6 @@
 ---
-title: Overzicht van dimensiesetposten | Microsoft Docs
-description: In dit onderwerp wordt beschreven hoe dimensiesetposten worden opgeslagen en geboekt in Dynamics 365.
+title: Overzicht dimensiesetposten
+description: Dit artikel geeft u een overzicht van hoe dimensiesetposten worden opgeslagen als dimensiesetposten en hoe ze worden geboekt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c6e3df748269e2f40e3acf0a28ce0f6bc48ca944
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215315"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442422"
 ---
 # <a name="dimension-set-entries-overview"></a>Overzicht dimensiesetposten
 In dit onderwerp wordt beschreven hoe dimensiesetposten worden opgeslagen en geboekt in [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -34,7 +34,7 @@ In het volgende voorbeeld ziet u een dimensieset met drie dimensiesetposten. De 
 ## <a name="dimension-set-entries"></a>Dimensiesetposten  
 Dimensiesets worden opgeslagen in de tabel **Dimensiesetpost** als dimensiesetposten met dezelfde dimensieset-id.  
 
-![Stroom van dimensiesetposten](media/dimensionentrynav7.png "Stroom van dimensiesetposten")  
+![Stroom van dimensiesetposten.](media/dimensionentrynav7.png "Stroom van dimensiesetposten")  
 
 Wanneer u een nieuwe dagboekregel, documentkop of documentregel maakt, kunt u een combinatie van dimensiewaarden opgeven. In plaats van elke dimensiewaarde expliciet in de database op te slaan, wordt een dimensieset-id toegewezen aan de dagboekregel, documentkop of documentregel om zo de dimensieset op te geven.  
 

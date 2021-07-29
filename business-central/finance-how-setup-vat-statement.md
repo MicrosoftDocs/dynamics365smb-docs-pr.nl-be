@@ -1,6 +1,6 @@
 ---
-title: Een btw-aangifte instellen | Microsoft Docs
-description: Een btw-aangifte instellen
+title: Een btw-aangifte instellen
+description: In dit onderwerp wordt uitgelegd hoe u een sjabloon voor btw-aangiften en namen voor btw-aangiften instelt om te voldoen aan de veranderende vereisten van de belastingdienst.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8a7373a22cff16a32fe92bf2f2d9064d2f12e950
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 322a501a4b1d404ef39523e93b45409eb60d7c4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775463"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444399"
 ---
 # <a name="set-up-a-vat-statement"></a>Een btw-aangifte instellen
 
@@ -25,7 +25,7 @@ De belastingdienst kan de vereisten om btw te boeken wijzigen en doet dat ook. M
 ## <a name="to-define-a-vat-statements"></a>Btw-overzichten definiëren
 Met btw-aangiften kunt u het btw-vereffeningsbedrag voor een bepaalde periode berekenen, bijvoorbeeld voor een kwartaal.
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-overzichten** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Btw-aangiften** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het veld **Naam** kies vervolgens **Nieuw** op de pagina **Btw-aangiftes**.
 3. Vul de vereiste velden in. Gewoonlijk wilt u een instelling voor elke combinatie van btw-bedrijfsboekingsgroep en btw-productboekingsgroep hebben. Voor rijnummers is het logisch om equivalente nummers of codes te gebruiken zoals in uw officiële btw-overzicht [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

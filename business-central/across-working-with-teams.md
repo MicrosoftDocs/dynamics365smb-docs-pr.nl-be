@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: fb134ce04cb6b53f2432f0f371d7ca82411f0cee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074599"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444030"
 ---
 # <a name="sharing-business-central-records-in-microsoft-teams"></a>Business Central-records delen in Microsoft Teams
 
@@ -30,7 +30,7 @@ Met de [!INCLUDE [prod_short](includes/prod_short.md)]-app kunt u:
 - Een koppeling naar een Business Central-record kopiëren en plakken in een Teams-gesprek om met uw collega's te delen. De app breidt de koppeling dan uit tot een compacte, interactieve kaart die informatie over de record weergeeft.
 - Eenmaal in het gesprek kunnen u en collega's meer details over de record bekijken, gegevens bewerken en actie ondernemen&mdash;zonder Teams te verlaten.
 
-[![Teams-integratie met Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integratie met Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -49,13 +49,13 @@ Met de [!INCLUDE [prod_short](includes/prod_short.md)]-app kunt u:
 
 3. Kopieer de volledige URL uit de adresbalk van de browser.
 
-   ![Kopieer de Business Central-URL vanuit de browser](media/teams-url-v2.png)
+   ![De Business Central-URL kopiëren vanuit de browser.](media/teams-url-v2.png)
 4. Ga naar Teams en start een gesprek. Dat kan chatten met een persoon, een groep personen of een teamkanaal zijn.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
 5. Plak de URL in het berichtvak waarin u een bericht opstelt.
 
-   ![Plak de Business Central-URL in Teams](media/teams-paste-url-v2.png)
+   ![Plak de Business Central-URL in Teams.](media/teams-paste-url-v2.png)
 6. De eerste keer dat u een koppeling in een gesprek plakt, wordt u gevraagd u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)] en toestemming te geven aan de app om gegevens op te halen. Volg gewoon de instructies op het scherm.
 
     > [!NOTE]
@@ -90,6 +90,8 @@ Zie voor meer informatie over het werken met kaarten en kaartdetails [Veelgestel
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  
 [Veelgestelde vragen over Teams](teams-faq.md)  
+[Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams](across-search-contacts-teams.md)  
+[Bedrijfs- en andere instellingen in Teams wijzigen](across-teams-settings.md)  
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

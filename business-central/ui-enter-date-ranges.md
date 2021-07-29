@@ -1,6 +1,6 @@
 ---
-title: Datums en tijden invoeren in Business Central | Microsoft Docs
-description: Leren hoe u datums en tijden invoert, inclusief verschillende productiviteitstips, zoals steno, en expressies en bereiken. Lijsten of rapporten filteren op specifieke datums of perioden.
+title: Datums en tijden invoeren in Business Central
+description: Leren hoe u datums en tijden invoert, inclusief verschillende productiviteitstips, zoals steno, en expressies en bereiken.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8254afc467474906dd80ae76ba134a0bce88c3a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773542"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443655"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
 
@@ -48,7 +48,7 @@ Als u productiever met datums en tijden wilt werken, kunt u elke methode of nota
 
 Een veld waarbij een kalenderpictogram wordt weergegeven, kan worden ingesteld met de kalenderdatumkiezer. Als u de kalenderdatumkiezer wilt weergeven, activeert u het kalenderpictogram of drukt u op de toetsenbordsneltoets Ctrl+Home in het veld.
 
-![Datumvelden](media/ui-date-field.png "Voorbeeld van een datumveld")
+![Datumvelden.](media/ui-date-field.png "Voorbeeld van een datumveld")
 
 Zie ook [Sneltoetsen in de kalenderdatumkiezer](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -72,7 +72,7 @@ Een datumveld kan twee, vier, zes of acht cijfers bevatten:
 
 ### <a name="today"></a>Vandaag
 
-Voer voor vandaag in de taal die is ingesteld door **Taal**, het woord in waarmee de datum op de huidige datum wordt ingesteld. In plaats van het hele woord in te voeren kunt u een deel van het woord invoeren, te beginnen met het begin, bijvoorbeeld v of van, zolang het niet ook het begin van een ander woord is.
+Voer het woord in voor _vandaag_, in de taal vermeld op de pagina **Mijn instellingen**, om de datum in een record in te stellen op de datum van vandaag. U kunt in plaats van het volledige woord een deel van het woord invoeren, vanaf het begin. In het Engels kunt u bijvoorbeeld _t_ of _tod_ invoeren, zolang het niet ook het begin is van een ander woord.
 
 ### <a name="period"></a>Periode
 
@@ -80,15 +80,13 @@ Als u wilt filteren op een specifieke boekingsperiode, voert u in een datumveld 
 
 De boekhoudperioden worden gedefinieerd op de pagina **Boekingsperioden**. Als u de boekingsperioden wilt weergeven of wijzigen, opent u de pagina [hier](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="current-work-date"></a>Huidige werkdatum
+### <a name="work-date"></a>Werkdatum
 
-Met de werkdatumfunctie kunt u transacties vastleggen met een datum die afwijkt van de huidige datum.
+Gebruik een werkdatum om een datum op te geven die niet de huidige datum in records is. Een werkdatum is bijvoorbeeld handig wanneer u een bepaalde datum voor meerdere records moet instellen. U geeft de werkdatum op de pagina **Mijn instellingen** op. 
 
-Het woord voor 'werkdatum' in de taal die is ingesteld door de instelling **Taal**, stelt de datum in op de huidige ingestelde werkdatum die wordt opgegeven op de pagina **Mijn instellingen**. U kunt in plaats van het volledige woord een deel van het woord invoeren, vanaf het begin, bijvoorbeeld 'w' of 'werk'.
+Een snelle manier om de werkdatum in records in te voeren, is door een deel van of het hele woord _werk_ in te voeren, beginnend bij het begin van het woord, in de taal waarin u [!INCLUDE[prod_short](includes/prod_long.md)] gebruikt. In het Engels kunt u bijvoorbeeld _w_ of _werk_ invoeren. De taal staat ook vermeld op de pagina **Mijn instellingen**.
 
-Als u geen werkdatum hebt gedefinieerd, wordt de huidige datum als de werkdatum gebruikt. Het gebruik van een werkdatum is handig als u veel transacties hebt met een andere datum dan de huidige.
-
-Zie ook [Basisinstellingen wijzigen, zoals de werkdatum](ui-change-basic-settings.md#work-date).
+Als u geen werkdatum heeft opgegeven, wordt de datum van vandaag gebruikt. Zie voor meer informatie [Basisinstellingen wijzigen, zoals de werkdatum](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Ultimodatum
 
@@ -199,7 +197,7 @@ In het volgende voorbeeld ziet u hoe u een minteken gebruikt om een datum in het
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:

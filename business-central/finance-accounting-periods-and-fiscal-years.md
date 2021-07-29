@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b4daacd73987e4e747f97d288ecfb51b564de7e6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e348ce883493ec621b6dbe4bc5855e0c8318178b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781048"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442837"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Werken met boekingsperioden en boekjaren
 
@@ -35,7 +35,7 @@ U kunt boekhoudperioden in bulk maken door de batchtaak **Boekjaar maken** te ge
 
 Gebruik de batchverwerking **Boekjaar maken** om een boekjaar in perioden van gelijke lengte op te delen.  
 
-1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden** in en kies de desbetreffende koppeling.  
+1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden afsluiten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Jaar maken**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. Voer in het veld **Begindatum** de datum in waarop het boekjaar begint.  
 4. Voer in het veld **Aantal perioden** het aantal boekhoudperioden in waarin u het boekjaar wilt verdelen. Er kunnen maximaal 365 perioden in een jaar vallen.  
@@ -46,7 +46,7 @@ Gebruik de batchverwerking **Boekjaar maken** om een boekjaar in perioden van ge
 
 Als de boekhoudperioden in uw boekjaar verschillende duren hebben, zoals de 4-4-5 agenda die in detailhandel wordt gebruikt, kunt u het handmatig instellen.  
   
-1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden** in en kies de desbetreffende koppeling.  
+1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden afsluiten** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in het veld **Begindatum** de datum in waarop het boekjaar begint. Het veld **Naam** bevat de naam van de maand.  
 3. Kies het selectievakje **Nieuw boekjaar** om aan te geven dat dit de eerste periode in het jaar is. [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt deze periode om te bepalen welke perioden aan het einde van het jaar moeten worden afgesloten.
 4. Herhaal stap 2 en 3 voor elke resterende periode.  
@@ -58,7 +58,7 @@ Het afsluiten van het boekjaar is een van de taken voor het afsluiten van de boe
 > [!NOTE]  
 > U moet altijd minimaal één open boekjaar hebben. Wanneer u een jaar afsluit, moet u ervoor zorgen dat een nieuw jaar is gemaakt. Houd er ook rekening mee dat als u een jaar afsluit, u de begindatum van het volgende jaar niet kunt wijzigen.
 
-1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden** in en kies de desbetreffende koppeling.  
+1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden afsluiten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Jaar afsluiten**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Posten boeken naar een afgesloten boekjaar

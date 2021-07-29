@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 184591134706432ed1ea04afa86e1274b748cfe0
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215515"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442547"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Ontwerpdetails: Beschikbaarheid in het magazijn
 Het systeem moet een constante controle op artikelbeschikbaarheid in het magazijn hebben, zodat uitgaande orders efficiënt kunnen stromen en optimale leveringen kunnen worden geboden.  
@@ -47,7 +47,7 @@ Als aan een of meer voorwaarden niet wordt voldaan, kunnen verschillende foutmel
 
  Het volgende diagram bevat de verschillende elementen van de berekening.  
 
- ![Beschikbaar om te picken met reserveringoverlap](media/design_details_warehouse_management_availability_2.png "Beschikbaar om te picken met reserveringoverlap")  
+ ![Beschikbaar om te picken met reserveringoverlap.](media/design_details_warehouse_management_availability_2.png "Beschikbaar om te picken met reserveringoverlap")  
 
 ## <a name="quantity-available-to-reserve"></a>Beschikbaar aantal voor reserveren  
  Omdat de concepten opslaglocatie en reservering naast elkaar bestaan, moet het aantal artikelen dat beschikbaar is om te reserveren, worden afgestemd met toewijzingen aan uitgaande magazijndocumenten.  
@@ -72,7 +72,7 @@ Als aan een of meer voorwaarden niet wordt voldaan, kunnen verschillende foutmel
 
  Het volgende diagram bevat de verschillende elementen van de berekening.  
 
- ![Beschikbaar om te reserveren per magazijntoewijzing](media/design_details_warehouse_management_availability_3.png "Beschikbaar om te reserveren per magazijntoewijzing")  
+ ![Beschikbaar om te reserveren per magazijntoewijzing.](media/design_details_warehouse_management_availability_3.png "Beschikbaar om te reserveren per magazijntoewijzing")  
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  

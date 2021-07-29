@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786335"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444267"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kosten toewijzen aan intercompany-partners
 Wanneer u intercompany-boekingen gebruikt om documenten tussen partnerbedrijven over te dragen, bepalen de btw-instellingen (voornamelijk de btw-bedrijfsboekingsgroep) die zijn toegewezen aan de klant- of leveranciersrekeningen (gekoppeld aan de intercompany-partner) of en hoe btw wordt berekend en geregistreerd. U kunt ook kostendistributies rechtstreeks vanuit een inkooporder naar partnerbedrijven uitvoeren. Als u bijvoorbeeld een inkoopfactuur van een externe leverancier registreert en u een deel of alle kosten wilt verdelen over een of meer intercompany-partners.
@@ -30,7 +30,7 @@ U kunt kosten toewijzen aan een of meer intercompany-partners met behulp van het
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Kosten toewijzen met behulp van een intercompany-dagboek
 Volg deze stappen om een regel in een intercompany-dagboek in te voeren. 
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-grootboek** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Intercompany-dagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Voer indien nodig in het veld **Extern documentnr.** het documentnummer in op de factuur van de leverancier.
 3. Kies in het veld **Documentsoort** **Factuur**.
 4. Kies **Leverancier** in het veld **Rekeningsoort** .
@@ -57,7 +57,7 @@ De volgende procedure beschrijft hoe u kosten kunt toewijzen met behulp van een 
 > [!NOTE]
 > Om deze stappen te voltooien moet u de pagina **Inkoopfactuur** personaliseren door de velden **IC-partnercode**, **IC-partnerreferentiesoort** en **IC-partner** toe te voegen. Zie voor meer informatie [Een pagina personaliseren via de banner Personaliseren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfactuur** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") Voer **Inkoopfactuur** in en kies vervolgens de gerelateerde koppeling.
 2. Kies **Grootboekrekening** in het veld **Soort**.
    
    Grootboekrekening is de enige optie die u kunt gebruiken om kosten toe te wijzen.  
@@ -70,7 +70,7 @@ De volgende procedure beschrijft hoe u kosten kunt toewijzen met behulp van een 
 1. Kies om de inkooporder te plaatsen **Boeken**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>De toegewezen kosten naar intercompany-partners verzenden
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-outboxtransacties** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-outboxtransacties** in en kies de gerelateerde koppeling.
 2. Kies regels om te verzenden en kies vervolgens de actie **Verzenden naar IC-partner**. 
 3. Om de kosten toe te wijzen kiest u de actie **Regelacties voltooien**.
 

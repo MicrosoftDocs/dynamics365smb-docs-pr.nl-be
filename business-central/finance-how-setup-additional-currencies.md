@@ -1,9 +1,7 @@
 ---
-title: Aanvullende valuta's instellen | Microsoft Docs
+title: Extra valuta's instellen
 description: Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken en er is een andere valuta ingesteld als aanvullende valuta, waaraan een huidige wisselkoers is toegewezen.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -12,20 +10,23 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 96ca4139f7a19ea9a5bb3361099cde9910491488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775537"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444449"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Een extra rapportagevaluta instellen.
+
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij de financiële gegevens in meer dan één valuta kunnen controleren en rapporteren.
 
 Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het ook instellen om een andere valuta te gebruiken, waaraan een huidige wisselkoers is toegewezen. Door een tweede valuta in te stellen als een zogenaamde aanvullende rapportagevaluta, legt [!INCLUDE[prod_short](includes/prod_short.md)] bedragen automatisch vast in zowel de LV als deze aanvullende rapportagevaluta voor elke grootboekpost en andere posten, zoals btw-posten.
 
 > [!Warning]
-> De functie Extra rapportagevaluta mag niet worden gebruikt als basis voor de vertaling van een financieel overzicht. Het is geen programma dat een vertaling kan uitvoeren van financiële overzichten van buitenlandse dochterondernemingen als onderdeel van een bedrijfsconsolidatie. De extra rapportagevalutafunctie kan alleen worden gebruikt om rapporten in een andere valuta voor te bereiden, alsof die valuta de lokale valuta van het bedrijf was.
+> De functionaliteit Extra rapportagevaluta maken moet niet worden gebruikt als een basis voor vertaling van financiële overzichten, tenzij u de beperkingen begrijpt. Het is geen programma dat een vertaling kan uitvoeren van financiële overzichten van buitenlandse dochterondernemingen als onderdeel van een bedrijfsconsolidatie. De extra rapportagevalutafunctie kan alleen worden gebruikt om rapporten in een andere valuta voor te bereiden, alsof die valuta de lokale valuta van het bedrijf was.
+>
+> U hebt bijvoorbeeld een groot aantal debiteuren in Britse ponden (GBP) en u hebt uw aanvullende rapportagevaluta (ACY) ingesteld op GBP. In dit scenario worden bedragen in de debiteuren die GBP gebruiken niet gecorrigeerd voor valutakoerswinsten/-verliezen in de aanvullende rapportagevaluta, alleen bedragen op de debiteuren die in andere valuta's zijn. Dat betekent dat als u aanvullende rapportagevaluta gebruikt om uw financiële overzichten te rapporteren, dit kan leiden tot te lage of te hoge uitstaande saldi van debiteuren.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Rapporten en bedragen weergeven in de extra rapportagevaluta
 Het gebruik van een extra rapportagevaluta kan in de volgende gevallen hulp bieden bij het rapportageproces voor een bedrijf:
@@ -48,7 +49,7 @@ Volg deze stappen om een extra rapportagevaluta in te stellen:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Grootboekrekeningen opgeven voor het boeken van wisselkoerscorrecties  
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valuta's** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Valuta's** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul op de pagina **Valuta's** de volgende velden in voor de extra rapportagevaluta.  
 
 |Veld|Description|  
@@ -64,7 +65,7 @@ Volg deze stappen om een extra rapportagevaluta in te stellen:
 U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekening worden gecorrigeerd bij wisselkoersschommelingen tussen de LV en de extra rapportagevaluta.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>De wisselkoerscorrectiemethode opgeven voor alle grootboekrekeningen  
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies de gerelateerde koppeling.  
 2. Selecteer op de pagina **Rekeningschema** de relevante rekening en kies de actie **Bewerken**.  
 3. Selecteer op de pagina **Grootboekrekening** de relevante methode in het veld **Wisselkoersherwaardering**.  
 
@@ -81,7 +82,7 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
 4.  Sluit de pagina **Grootboekrekening**.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Wisselkoersherwaarderingsmethode opgeven voor btw-boekingen  
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Boekhoudinstellingen** de relevante methode in het veld **Btw-herwaardering**.  
 3. Als u in een extra valuta boekt, kunt u in het veld **Btw-herwaardering** aangeven hoe de rekeningen die zijn ingesteld voor btw-boekingen op de pagina **Btw-boekingsinstellingen** worden geherwaardeerd bij wisselkoersschommelingen tussen de LV en de extra rapportagevaluta.  
 
@@ -96,7 +97,7 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
     |**Bedrag (Rapp.-val.)**|De extra rapportagevaluta is aangepast voor eventuele wisselkoerswinsten of -verliezen. Wisselkoerswinsten of -verliezen worden geboekt naar de grootboekrekening in het veld **Bedrag (Rapp.-val.)** en de rekeningen die u hebt gespecificeerd voor winsten of verliezen in de velden **Gereal. grootbk.-winstrek.** en **Gereal. grootbk.-verliesrek.** op de pagina **Valuta's**.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>De extra rapportagevaluta activeren  
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Boekhoudinstellingen** het veld **Extra rapportagevaluta** om de extra valuta te selecteren die u voor de rapportage wilt gebruiken.  
 3. Wanneer u het veld verlaat, geeft [!INCLUDE[prod_short](includes/prod_short.md)] een bevestigingsbericht weer waarin de effecten worden beschreven die het activeren van de rapportagevaluta tot gevolg heeft.  
 4. Kies de knop **Ja** om te bevestigen dat u de valuta wilt activeren.  

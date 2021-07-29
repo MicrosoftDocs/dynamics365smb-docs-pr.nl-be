@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdbf4b682b4ad99524ea0aace9a123283668fb43
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc759d1fdb08b847028bf4a24157c17c4d2f74e1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779109"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444474"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken
 Om een foutieve dagboekpost ongedaan te maken, selecteert en maakt u een tegenboeking (posten die identiek zijn aan de oorspronkelijke post, maar met een tegenovergesteld teken in het bedragveld) met hetzelfde documentnummer en dezelfde boekingsdatum als de originele post. Nadat een post is tegengeboekt, moet u de juiste post maken.
@@ -32,7 +32,7 @@ Als u een onjuist positief aantal hebt geboekt, dat wil zeggen, als u een verkoo
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>De dagboekboeking van een grootboekpost tegenboeken
 U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure is gebaseerd op de pagina **Grootboekposten**.
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekposten** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekposten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de post die u wilt tegenboeken en kies vervolgens de actie **Transactie tegenboeken**. Het moet afkomstig zijn uit een dagboekboeking.
 3. Kies op de pagina **Transactieposten tegenboeken** de actie **Tegenboeken**.
 4. Kies de knop **Ja** in het bevestigingsbericht.
@@ -43,7 +43,7 @@ U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure
 ## <a name="to-post-a-negative-entry"></a>Een negatieve post boeken  
 U kunt het veld **Storno** gebruiken om een negatief debetbedrag in plaats van een creditbedrag te boeken, of om een negatief creditbedrag in plaats van een debetbedrag op een rekening te boeken. Om aan juridische vereisten te voldoen is dit veld standaard zichtbaar in alle dagboeken. De velden **Debetbedrag** en **Creditbedrag** bevatten beide zowel de oorspronkelijke post als de gecorrigeerde post. Deze velden hebben geen invloed op het rekeningsaldo.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling  
 2.  Selecteer in het veld **Batchnaam** de juiste batchnaam.  
 3.  Voer informatie in de relevante velden in.  
 4.  Selecteer op de dagboekregel die u wilt activeren voor negatieve posten het selectievakje **Storno**.  
@@ -52,7 +52,7 @@ U kunt het veld **Storno** gebruiken om een negatief debetbedrag in plaats van e
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Een aantalsboeking ongedaan maken op een geboekte inkoopontvangst  
 Hieronder wordt beschreven hoe u een geboekte ontvangst van artikelen of resources ongedaan kunt maken. De stappen zijn vergelijkbaar met de stappen voor geboekte verzendingen.
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inkoopontvangsten** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inkoopontvangsten** in en kies vervolgens de gerelateerde koppeling  
 2.  Open de geboekte ontvangst die u ongedaan wilt maken.  
 3.  Selecteer de regel(s) die u ongedaan wilt maken.  
 4.  Kies de actie **Ontvangst ongedaan maken**.
@@ -64,7 +64,7 @@ De velden **Ontvangen aantal** en **Niet geboekt aantal** op de bijbehorende ink
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Een aantalboeking ongedaan maken en opnieuw uitvoeren voor een geboekte retourzending
 Hieronder wordt beschreven hoe u een geboekte retourzending van artikelen of resources ongedaan kunt maken en vervolgens de inkoopretour opnieuw kunt boeken met een nieuwe hoeveelheid. De stappen zijn vergelijkbaar met de stappen voor geboekte ontvangsten.
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte retourverzendingen** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte retourverzendingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de geboekte retourzending die u ongedaan wilt maken.
 3. Selecteer de regel(s) die u ongedaan wilt maken.  
 
@@ -74,8 +74,8 @@ Hieronder wordt beschreven hoe u een geboekte retourzending van artikelen of res
 
     Ga nu terug naar de inkoopretourorder om opnieuw te boeken.  
 
-5.  Let op de pagina **Geboekte retourverzending** op het nummer in het **Retourordernr.** veld.  
-6.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopretourorders** in en selecteer de desbetreffende koppeling.  
+5.  Let op de pagina **Geboekte retourverzending** op het nummer in het **Retourordernr.** toevoegen.  
+6.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopretourorders** in en selecteer vervolgens de gerelateerde koppeling.  
 7.  Open de retourorder en kies de actie **Opnieuw openen**.  
 8.  Corrigeer de post in het veld **Aantal** en boek de inkoopretourorder opnieuw.  
 

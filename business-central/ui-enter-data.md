@@ -1,6 +1,6 @@
 ---
-title: Gegevens invoeren in Business Central | Microsoft Docs
-description: Leer over algemene functies die u helpen gegevens in velden in te voeren.
+title: Gegevens invoeren in Business Central
+description: Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker en accurater in te voeren. De basisprincipes en geavanceerde functies worden hier beschreven.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784827"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443680"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
@@ -136,9 +136,9 @@ U profiteert er vooral van wanneer u met grote lijsten met regelitems werkt en u
 
 ### <a name="switching-the-focus-on-and-off"></a>De focus aan- en uitzetten
 
-Als u op regelartikelen wilt focussen, selecteert u iets in het onderdeel met regelitems en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") in de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
+Als u zich wilt concentreren op regelartikelen, selecteert u ergens in het regelartikelgedeelte en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") In de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
 
-Als u terug wilt naar de gewone weergave, kiest u opnieuw het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") of drukt opnieuw op Ctrl+Shift+F12.
+Om terug te gaan naar de normale weergave, kiest u het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") of drukt u nogmaals op Ctrl+Shift+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking over meerdere pagina's
 
@@ -148,12 +148,12 @@ U kunt een kaart- of documentpagina openen in een nieuw venster. Door een nieuw 
 - Onderbrekingen van de huidige taak beheren, zoals het aannemen van een inkomend gesprek.
 - Een venster open houden voor een lopende taak terwijl u een andere taak in Windows start of voltooit.
 
-Kies om de huidige kaart of het huidige document in een nieuw venster te openen ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") in de rechterbovenhoek of druk op Alt + Shift+W.
+Om de huidige kaart of het huidige document in een nieuw venster te openen, kiest u ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") In de rechterbovenhoek of drukt u op Alt+Shift+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Kies om de huidige kaart of het huidige document in een nieuw venster te openen ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") in de rechterbovenhoek of druk op Alt + Shift+W.
+Om de huidige kaart of het huidige document in een nieuw venster te openen, kiest u ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") In de rechterbovenhoek of drukt u op Alt+Shift+W.
 
 > [!NOTE]
 > Wanneer u andere pagina's opent vanaf een kaart of document dat in een nieuw venster is geopend, worden die pagina's in een nieuw venster geopend, ook al kiest u niet ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen").

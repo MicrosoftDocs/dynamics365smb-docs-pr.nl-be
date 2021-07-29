@@ -1,6 +1,6 @@
 ---
-title: 'Ontwerpdetails: Assemblageorderboeking | Microsoft Docs'
-description: Assemblageorderboeking wordt gebaseerd op dezelfde principes als wanneer de soortgelijke activiteiten van verkooporders en productieverbruik/-output worden geboekt. De principes worden echter gecombineerd in de zin dat assemblageorders hun eigen boeking-UI hebben, zoals die voor verkooporders, terwijl de feitelijke postboeking op de achtergrond wordt uitgevoerd als directe artikel- en resourcedagboekboekingen, zoals die voor productieverbruik, output en capaciteit.
+title: 'Ontwerpdetails: Assemblageorderboeking'
+description: Assemblageorderboeking wordt gebaseerd op dezelfde principes als wanneer de soortgelijke activiteiten van verkooporders en productieverbruik/-output worden geboekt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e855a7c1392b84a45c588c8a7dbe01de389a3377
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216015"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442572"
 ---
 # <a name="design-details-assembly-order-posting"></a>Ontwerpdetails: Assemblageorderboeking
 Assemblageorderboeking wordt gebaseerd op dezelfde principes als wanneer de soortgelijke activiteiten van verkooporders en productieverbruik/-output worden geboekt. De principes worden echter gecombineerd in de zin dat assemblageorders hun eigen boeking-UI hebben, zoals die voor verkooporders, terwijl de feitelijke postboeking op de achtergrond wordt uitgevoerd als directe artikel- en resourcedagboekboekingen, zoals die voor productieverbruik, output en capaciteit.  
@@ -31,14 +31,14 @@ De volgende dagboekboekingen treden op tijdens assemblageorderboekingen:
 
 Het volgende diagram bevat de structuur van artikel- en resourceposten die het gevolg zijn van assemblageorderboeking.  
 
-![Artikel-, resource- en capaciteitsboekingen als gevolg van het boeken van assemblageorders](media/design_details_assembly_posting_1.png "Artikel-, resource- en capaciteitsboekingen als gevolg van het boeken van assemblageorders")  
+![Artikel-, resource- en capaciteitsboekingen als gevolg van het boeken van assemblageorders.](media/design_details_assembly_posting_1.png "Artikel-, resource- en capaciteitsboekingen als gevolg van het boeken van assemblageorders")  
 
 > [!NOTE]  
 >  Bewerkingsplaatsen en afdelingen zijn opgenomen om te illustreren dat capaciteitsposten zowel worden gemaakt vanuit productie als vanuit assemblage.  
 
 In het volgende diagram wordt aangegeven hoe assemblagegegevens in posten stromen tijdens het boeken:  
 
-![Aan assemblage gerelateerde invoerstroom tijdens boeken](media/design_details_assembly_posting_2.png "Aan assemblage gerelateerde invoerstroom tijdens boeken")  
+![Aan assemblage gerelateerde invoerstroom tijdens boeken.](media/design_details_assembly_posting_2.png "Aan assemblage gerelateerde invoerstroom tijdens boeken")  
 
 ## <a name="posting-sequence"></a>Boekingsvolgorde  
 De boeking van een assemblageorder vindt plaats in de volgende volgorde:  
@@ -69,7 +69,7 @@ De detectiefunctie op orderniveau wordt gebruikt voor conversiescenario's, produ
 
 De volgende afbeelding toont de structuur van de herwaarderingspost en hoe assemblagekosten worden aangepast.  
 
-![Aan assemblage gerelateerde invoerstroom tijdens kostenwaardering](media/design_details_assembly_posting_3.png "Aan assemblage gerelateerde invoerstroom tijdens boeken")  
+![Aan assemblage gerelateerde invoerstroom tijdens kostenwaardering.](media/design_details_assembly_posting_3.png "Aan assemblage gerelateerde invoerstroom tijdens boeken")  
 
 ### <a name="performing-the-adjustment"></a>De aanpassing doorvoeren  
 De spreiding van gedetecteerde correcties van materiaal en resourcekosten op de assemblyuitvoerposten wordt uitgevoerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten**. Deze bevat de functie Aanpassing op meerdere niveaus aanbrengen, die bestaat uit de volgende twee elementen:  
@@ -77,7 +77,7 @@ De spreiding van gedetecteerde correcties van materiaal en resourcekosten op de 
 -   Assemblageordercorrectie aanbrengen - hiermee worden kosten van materiaal en resourcegebruik doorgestuurd naar de assemblage-uitvoerpost. Regel 5 en 6 in het algoritme hieronder zijn hiervoor verantwoordelijk.  
 -   Correcties op één niveau aanbrengen - hiermee worden kosten voor afzonderlijke artikelen doorgestuurd met behulp van de waarderingsmethode ervan. Regels 9 en 10 in het algoritme hieronder zijn hiervoor verantwoordelijk.  
 
-![Samenvatting van het kostenwaarderingsalgoritme voor assemblageboeking](media/design_details_assembly_posting_4.jpg "Samenvatting van het kostenwaarderingsalgoritme voor assemblageboeking")  
+![Samenvatting van het kostenwaarderingsalgoritme voor assemblageboeking.](media/design_details_assembly_posting_4.jpg "Samenvatting van het kostenwaarderingsalgoritme voor assemblageboeking")  
 
 > [!NOTE]  
 >  Het element voor het maken van OHW- herwaarderingen op regel 7 en 8 is verantwoordelijk voor het doorsturen van productiemateriaal en capaciteitsverbruik naar de output van onvoltooide productieorders. Dit wordt niet gebruikt bij het aanpassen van assemblageorderkosten aangezien het concept OHW niet van toepassing is op assemblage.  

@@ -1,5 +1,5 @@
 ---
-title: 'Ontwerpdetails: Waarderingsmethoden | Microsoft Docs'
+title: 'Ontwerpdetails: Waarderingsmethoden'
 description: Dit onderwerp beschrijft hoe de waarderingsmethode bepaalt of werkelijke of gebudgetteerde waarden worden gekapitaliseerd en gebruikt in de kostenberekening.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9f42e2ba8bf5f281be509bd58c5f88fa53ef7ba1
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: b3bfdbc2fb163d48edb6bf22eb79efa01b63090f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215390"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442447"
 ---
 # <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
 
@@ -36,7 +36,7 @@ De volgende methoden worden ondersteund in [!INCLUDE[prod_short](includes/prod_s
 
  De volgende afbeelding toont hoe de kosten door de voorraad stromen voor elke waarderingsmethode.  
 
- ![Waarderingsmethoden](media/design_details_inventory_costing_7_costing_methods.png "Waarderingsmethoden")  
+ ![Waarderingsmethoden.](media/design_details_inventory_costing_7_costing_methods.png "Waarderingsmethoden")  
 
  Waarderingsmethoden verschillen in de manier waarop ze voorraadafnamen waarderen en of ze werkelijke kosten of standaardkosten gebruiken als de waarderingsbasis. In de volgende tabel worden de verschillende kenmerken toegelicht. (De LIFO-methode is uitgesloten, omdat deze erg lijkt op de FIFO-methode.)  
 

@@ -1,20 +1,20 @@
 ---
-title: Gebruikers en rollen beheren | Microsoft Docs
-description: Leren hoe u gebruikers en rolcentra beheert in Business Central.
+title: Gebruikers en rollen beheren
+description: Leer hoe u gebruikersprofielen en rolcentra beheert in Business Central. Met profielen kunnen beheerders centraal definiëren en beheren wat gebruikers kunnen zien en doen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8ccfd6b7e39acc460fcd32dbc2f20fb71fc01ae0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776978"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443141"
 ---
-# <a name="manage-profiles"></a>Profielen beheren
+# <a name="manage-user-profiles"></a>Gebruikersprofielen beheren
 
 Alle gebruikers van [!INCLUDE[prod_short](includes/prod_short.md)] krijgen een profiel toegewezen dat een afspiegeling is van hun zakelijke rol, de afdeling waarin ze werken of een andere categorisatie. Met profielen kunnen beheerders centraal definiëren en beheren wat verschillende gebruikerstypen in de gebruikersinterface kunnen zien en doen, zodat zij hun zakelijke taken efficiënt kunnen uitvoeren.
 
@@ -31,7 +31,7 @@ U kunt paginalay-outs voor een profiel aanpassen, zodat alle gebruikers aan wie 
 ## <a name="to-create-a-profile"></a>Een profiel maken
 Als u geen bestaand profiel kunt kopiëren, kunt u handmatig een nieuw profiel maken.
 
-1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Profielen (rollen)** in en kies de desbetreffende koppeling.  
+1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Profielen (rollen)** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Profielen (rollen)** de actie **Nieuw**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +66,7 @@ Op de pagina **Mijn instellingen** kunnen gebruikers basisgedrag van hun account
 
 Als beheerder kunt u deze instelling voor een profiel definiëren en daarmee de instellingen toepassen op alle gebruikers van de gerelateerde rol.
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Profielen (rollen)** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Profielen (rollen)** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel voor het profiel waarvoor u de gebruikersinstellingen wilt wijzigen, kies de actie Navigeren en kies vervolgens de actie **Lijst persoonlijke gebruikersinstellingen**.
 3. Open op de pagina **Persoonlijke gebruikersinstellingen** de kaart voor de gebruiker van wie u de instellingen wilt wijzigen.
 4. Bewerk indien nodig op de pagina **Gebruikerspersonalisatiekaart** de velden.
@@ -106,9 +106,9 @@ U kunt een profiel verwijderen door de actie **Verwijderen** te kiezen op de pag
 - U kunt slechts één profiel tegelijk verwijderen.
 
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Alle aanpassingen verwijderen die door een gebruiker zijn aangebracht.
-U kunt alle wijzigingen verwijderen die een gebruiker heeft aangebracht in pagina's die deel uitmaken van hun werkruimte. Dit kan bijvoorbeeld handig zijn als een werknemer van rol is veranderd en de personalisaties niet langer nodig heeft. Als u de personalisaties van gebruikers verwijdert, wordt de paginalay-out teruggezet naar wat wordt gedefinieerd door het profiel.
+U kunt alle wijzigingen verwijderen die een gebruiker heeft aangebracht in pagina's die deel uitmaken van hun werkruimte. Dit kan bijvoorbeeld handig zijn als een werknemer van rol is veranderd en de personalisaties niet langer nodig heeft. Als u de aanpassingen van gebruikers verwijdert, wordt de pagina-indeling teruggezet naar de in het profiel gedefinieerde indeling.
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersaanpassingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Persoonlijke gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.
 
     De pagina **Persoonlijke gebruikersinstellingen** bevat alle gebruikers die persoonlijke instellingen hebben aangebracht.
 
@@ -122,7 +122,7 @@ U kunt ook alle pagina-aanpassingen voor een profiel verwijderen. Zie voor meer 
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Personalisaties voor specifieke pagina's verwijderen
 U kunt personalisaties verwijderen die een of meer gebruikers hebben aangebracht op specifieke pagina's waaruit hun werkruimte bestaat. Dit kan bijvoorbeeld handig zijn als een gewijzigd bedrijfsproces betekent dat een personalisatie niet langer door gebruikers mag worden gebruikt. Als u de aanpassingen van gebruikers verwijdert, wordt de pagina-indeling teruggezet naar de in het profiel gedefinieerde indeling.
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersaanpassingen voor pagina** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Persoonlijke gebruikersinstellingen van pagina** in en kies vervolgens de gerelateerde koppeling.
 
     De pagina **Persoonlijke gebruikersinstellingen van pagina** bevat alle pagina's die zijn gepersonaliseerd en de gebruiker waartoe ze behoren.
 
