@@ -1,6 +1,6 @@
 ---
 title: Artikelkruisverwijzingen gebruiken
-description: Stel verwijzingen in tussen de beschrijvingen die u en uw leverancier voor een artikel gebruiken, zodat u de artikelbeschrijving van de leverancier op inkoopdocumenten kunt invoegen.
+description: Stel kruisverwijzingen in tussen de beschrijvingen die u en uw leverancier voor een artikel gebruiken om de artikelbeschrijving van de leverancier op inkoopdocumenten in te voegen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a9f84522598344435ad9c1263fe8cdea2e2a1e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 853c574f5b262f7b826bc92dd8e35484e902c1f4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785660"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444957"
 ---
 # <a name="use-item-cross-references"></a>Artikelkruisverwijzingen gebruiken
 Als u een kruisverwijzing instelt tussen de artikelbeschrijving die u voor een artikel gebruikt, en de beschrijving die de leverancier van dat artikel gebruikt, wordt de artikelbeschrijving van de leverancier automatisch in inkoopdocumenten voor de leverancier ingevuld wanneer u het veld **Kruisverwijzingsnr..** invult. Dezelfde functionaliteit geldt voor klantartikelnummers in verkoopdocumenten.
@@ -27,7 +27,7 @@ In de volgende procedures wordt beschreven hoe u artikelkruisverwijzingen aan de
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Een artikelkruisverwijzing naar de artikelbeschrijving van een leverancier instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een artikel waarvoor u een kruisverwijzing wilt maken naar de artikelomschrijving die de leverancier gebruikt voor het artikel.
 3. Kies de actie **Kruisverwijzingen**.
 
@@ -37,7 +37,7 @@ In de volgende procedures wordt beschreven hoe u artikelkruisverwijzingen aan de
 
 ## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>De artikelomschrijving van een leverancier invoeren in een inkooporder
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling
 2. Maak een inkooporder voor de leverancier voor wie u een artikelkruisverwijzing hebt ingesteld in de vorige procedure.
 3. Maak een inkoopregel voor het artikel waarvoor u een artikelkruisverwijzing hebt ingesteld in de vorige procedure.
 4. Selecteer in het veld **Kruisverwijzingssoortnr.** de artikelkruisverwijzing die u hebt gemaakt, en kies vervolgens de knop **OK**.

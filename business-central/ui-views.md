@@ -1,6 +1,6 @@
 ---
-title: Lijstweergaven opslaan en personaliseren | Microsoft Docs
-description: Leer hoe u uw eigen weergaven van gefilterde lijsten kunt maken.
+title: Lijstweergaven opslaan en personaliseren
+description: Leer hoe u uw eigen weergaven voor gefilterde lijsten kunt maken en hoe u deze weergaven kunt opslaan, hernoemen en beheren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 6ac3489151d9e4e0ebf0867b94b59678bba0f35e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017086"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445363"
 ---
 # <a name="save-and-personalize-list-views"></a>Lijstweergaven opslaan en personaliseren
 Wanneer u een filter op een lijst hebt ingesteld en u het filter voor later wilt bewaren, kunt u het opslaan als een weergave. Zie voor meer informatie over het filteren van lijsten [Filters instellen op lijsten](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,9 +24,9 @@ Als er weergaven bestaan, wordt de groep **Weergaven** boven aan het filterdeelv
 
 ## <a name="to-save-a-view"></a>Een weergave opslaan
 1. Open een willekeurige lijstpagina.
-2. Selecteer het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of druk op Shift+F3 om het filterdeelvenster te openen.
+2. Selecteer het ![pictogram Filterdeelvenster.](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of druk op Shift+F3 om het filterdeelvenster te openen.
 3. Stel een of meer nieuwe filters in. Zie voor meer informatie [Filters instellen voor lijsten](ui-enter-criteria-filters.md#setting-filters-on-lists).
-4. Wanneer u de filters hebt ingesteld, kiest u het pictogram ![Weergave opslaan](media/save_view_icon.png "Weergave opslaan").
+4. Wanneer u de filters hebt ingesteld, kiest u het pictogram ![Weergave opslaan.](media/save_view_icon.png "Weergave opslaan")  
 
     Als u een filter instelt voor een lijstweergave die al is opgeslagen als een weergave, wordt de bestaande weergave bijgewerkt wanneer u opslaat.
 5. Als u een nieuwe weergave opslaat, voert u een naam in voor de weergave in het vak **Alles (kopiëren)**, bijvoorbeeld 'Mijn items'.
@@ -38,7 +38,7 @@ Als u de weergave geen naam geeft, krijgt deze de naam **Alles (kopiëren)**.
 > Zie u het pictogram ![Weergave opslaan](media/save_view_icon.png "Weergave opslaan") niet? Zie voor meer informatie [Waarom heb ik geen pictogram Opslaan?](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Een weergave hernoemen of verwijderen
-1. Kies voor de weergave waarin de lijst wordt weergegeven het pictogram ![Meer opties weergeven](media/show-more-options-icon.png "Meer opties weergeven") om te zien welke opties beschikbaar zijn.
+1. Voor de weergave waarin de lijst momenteel wordt weergegeven, kiest u het pictogram ![Meer opties weergeven.](media/show-more-options-icon.png "Meer opties weergeven") om te zien welke opties beschikbaar zijn.
 2. Kies de actie **Naam wijzigen** of **Verwijderen**.
 
 ## <a name="managing-many-views"></a>Veel weergaven beheren

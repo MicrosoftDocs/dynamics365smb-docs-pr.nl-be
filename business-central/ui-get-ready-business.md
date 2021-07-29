@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074674"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444832"
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
 
@@ -23,9 +23,9 @@ Gefeliciteerd. U hebt zojuist uw eerste bedrijf in [!INCLUDE[prod_short](include
 
 Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar de pagina **Begeleide instelling**. Daar vindt u begeleide instellingen, video's of helponderwerpen voor bepaalde configuratietaken. Om toegang te krijgen tot de pagina kiest u [deze koppeling](https://businesscentral.dynamics.com/?page=1801).  
 
-Of kies het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) en vervolgens de actie **Begeleide instelling**.
+U kunt ook het ![pictogram Tand kiezen om het menu Instellingen te openen.](media/ui-experience/settings_icon_small.png) en dan de actie **Begeleide instelling**.
 
-U vindt de lijst met begeleide instellingen ook als u het ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") kiest, **Begeleide instelling** invoert en de gerelateerde koppeling kiest.  
+U kunt ook de lijst met begeleide instellingen vinden als u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") kiest, voer **Begeleide instelling** in en kies vervolgens de gerelateerde koppeling.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -36,7 +36,7 @@ Vanaf releasewave 1 van 2021, wanneer u voor de eerste keer inlogt of een nieuw 
 
 Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen in de lijst u kunnen helpen.
 
-Als een gebied niet wordt gedekt door een begeleide instelling, kiest u het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) pictogram en vervolgens de actie **Geavanceerde instellingen**. In **Geavanceerde instellingen** biedt de sectie **Handmatige instelling** toegang tot instellingspagina's waar u de velden voor alle gebieden handmatig kunt invullen. Zie voor meer informatie ook [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen.
+Als een gebied niet wordt gedekt door een begeleide instelling, kiest u het ![pictogram Tand om het menu Instellingen te openen.](media/ui-experience/settings_icon_small.png) en dan de actie **Begeleide instelling**. In **Geavanceerde instellingen** biedt de sectie **Handmatige instelling** toegang tot instellingspagina's waar u de velden voor alle gebieden handmatig kunt invullen. Zie voor meer informatie ook [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen.
 
 > [!NOTE]  
 > De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring die u voor uw bedrijf kiest. De **Essential**-ervaring geeft toegang tot minder dan de **Premium**-ervaring.

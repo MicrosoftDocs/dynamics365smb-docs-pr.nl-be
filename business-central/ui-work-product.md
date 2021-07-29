@@ -7,16 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772141"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445263"
 ---
 # <a name="working-with-prod_short"></a>Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
 
 U kunt bijvoorbeeld de grootte en positie van elke pagina aanpassen, de breedte van kolommen en de hoogte van kolomkoppen vergroten en de sortering van gegevens in kolommen wijzigen. En als u de horizontale schuifbalk wilt gebruiken om alle kolommen op een lijstpagina of documentregels weer te geven, ziet u dat er een verticaal bevroren paneel is om ervoor te zorgen dat sommige kolommen niet verschuiven.
@@ -26,7 +27,7 @@ U kunt bijvoorbeeld de grootte en positie van elke pagina aanpassen, de breedte 
 > [!TIP]
 > Voor een printvriendelijk overzicht van de meest gebruikte functies kiest u de volgende afbeelding en downloadt u het PDF-bestand.
 >
-> [ ![Pictogram voor het PDF-bestand](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Pictogram dat een PDF opent")
+> [ ![Pictogram voor het PDF-bestand.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Pictogram dat een PDF opent")
 
 ## <a name="links-to-learn-more"></a>Koppelingen voor meer informatie
 
@@ -67,6 +68,21 @@ Hier volgt een korte video van hoe u werkt in [!INCLUDE[prod_short](includes/pro
 
     Internet Explorer wordt niet langer ondersteund. Zie voor meer informatie de [documentatie van Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Houd uw browser altijd bijgewerkt naar de nieuwste versie.
+
+## <a name="action-bars"></a>Actiebalken
+
+Binnen [!INCLUDE [prod_short](includes/prod_short.md)] doet u het meeste van uw werk in een lijst, een document of een kaart. Alle drie soorten pagina's hebben een balk met acties die relevant zijn voor de specifieke pagina, en de acties zijn bijna hetzelfde voor de individuele kaart of het document en voor de lijst met entiteiten. Op deze manier kunt u een individuele verkooporder beheren op de pagina **Verkooporder** en in de lijst **Verkooporders**, inclusief het boeken en factureren ervan.  
+
+Maar de acties kunnen er ook anders uitzien, of zelfs helemaal niet aanwezig zijn, afhankelijk van hoe u de pagina opent. Specifiek voor lijstpagina's, de lijstpagina die u opent vanaf de startpagina en de pagina die wordt weergegeven wanneer u ernaar zoekt met behulp van het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") zijn niet identiek.  
+
+Wanneer u zoekt naar een open lijstpagina, zoals de lijst **Verkooporders**, is deze in de weergavemodus. De acties voor het bewerken, bekijken of verwijderen van een afzonderlijke entiteit, zoals een verkooporder, worden weergegeven wanneer u de actie **Beheren** kiest.  
+
+> [!TIP]
+> Als u weet dat u de acties op dit tweede niveau van de actiebalk vaak zult gebruiken, kiest u het pictogram :::image type="icon" source="media/pin.png" border="false"::: om de actiebalk vast te zetten en de acties onder de verschillende menu's direct vindbaar te maken.
+>
+> Om het tweede niveau van de actiebalk weer te laten verdwijnen, kiest u het pictogram :::image type="icon" source="media/unpin.png" border="false":::.
+
+Maar wanneer u dezelfde lijstpagina opent vanaf uw startpagina, is de actie **Beheren** niet aanwezig. Kies in plaats daarvan, om een individuele verkooporder te openen, gewoon het veld **Aantal**. In deze weergave kunt u de actiebalk niet vastzetten.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 

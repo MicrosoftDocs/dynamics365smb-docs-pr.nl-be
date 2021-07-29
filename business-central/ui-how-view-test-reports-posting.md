@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 9c2d32fd87112b839e6f60362fbd929870d47138
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774473"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445437"
 ---
 # <a name="view-test-reports-before-posting"></a>Controlelijsten weergeven vóór boeken
 Wanneer u een document, zoals een order, factuur of een creditnota, wilt boeken, kunt u het document testen om ervoor te zorgen dat er geen problemen bestaan die de boeking kunnen blokkeren.
@@ -25,7 +25,7 @@ Wanneer u een document, zoals een order, factuur of een creditnota, wilt boeken,
 >   De volgende procedure is over het testen vóór het boeken van een inkoopdocument. De functionaliteit werkt op dezelfde manier voor verkoopdocumenten.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Een controlelijst afdrukken vóór het boeken van een inkoopfactuur
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en selecteer de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en selecteer vervolgens de gerelateerde koppeling
 2. Open de inkoopfactuur die u wilt controleren.
 3. Kies de actie **Testrapport**.  
 

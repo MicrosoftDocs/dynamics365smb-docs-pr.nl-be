@@ -1,5 +1,5 @@
 ---
-title: Bijlagen, koppelingen en notities aan records toevoegen | Microsoft Docs
+title: Bijlagen, koppelingen en notities aan records toevoegen
 description: Koppel een hyperlink aan een document of een website aan een bepaalde record, zoals een klant of document.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771147"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444780"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Bijlagen, koppelingen en notities op kaarten en in documenten beheren
 
@@ -38,7 +38,7 @@ U kunt elk type bestand met tekst, afbeelding of video aan een kaart of document
 
 De volgende procedure is gebaseerd op een inkoopfactuur. De stappen lijken op alle andere ondersteunde documenten en kaarten.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de verkooporder waaraan u een bestand wilt koppelen.
 3. Open het feitenblok **Bijlagen**.
 4. Kies de waarde achter het veld **Documenten**, zoals '0'.
@@ -58,7 +58,7 @@ Wanneer u een document als bestand moet opslaan, kunt u de actie **Bijvoegen als
 
 De volgende procedure is gebaseerd op een verkooporder. De stappen zijn vergelijkbaar voor alle ondersteunde documenten.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een verkooporder en kies de actie **Bijvoegen als PDF**.
 
 Een PDF-bestand met de huidige inhoud van de verkooporder wordt toegevoegd aan het tabblad **Bijlagen** in het feitenblok.
@@ -68,7 +68,7 @@ U kunt een koppeling vanuit een kaart of document toevoegen aan een URL of pad. 
 
 De volgende procedure is gebaseerd op een artikelkaart. De stappen lijken op alle andere ondersteunde documenten en kaarten.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het item waaruit u een koppeling wilt toevoegen en kies vervolgens het tabblad **Bijlagen** in het feitenblok.
 3. Kies in de **Koppelingen** het pictogram **+**.
 4. Voer in het veld **Koppelingsadres** de koppeling in.
@@ -88,7 +88,7 @@ U kunt bijvoorbeeld een notitie op een document of kaart schrijven om speciale i
 
 De volgende procedure is gebaseerd op een verkooporder. De stappen lijken op alle andere ondersteunde documenten en kaarten.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de verkooporder waarin u een notitie wilt schrijven en kies vervolgens het tabblad **Bijlagen** in het feitenblok.
 3. Kies in de sectie **Notities** het pictogram **+**.
 4. Schrijf in het veld **Notitie** tekst, zoals "Dit is een dringende bestelling."

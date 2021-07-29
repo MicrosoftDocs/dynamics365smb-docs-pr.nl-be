@@ -1,6 +1,6 @@
 ---
-title: 'Procedure: Vooruitbetalingen verkoop instellen en factureren'
-description: Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U kunt een aanbetaling vragen voordat u bestelde artikelen fabriceert, of u kunt een betaling vragen voordat u artikelen naar een klant verzendt. Met de vooruitbetalingsfunctionaliteit in Business Central kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur.
+title: Vooruitbetalingen verkoop instellen en factureren
+description: Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: dacf9e5492f583513e69f2316a0440fce2597269
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6671db4d40b8c57d5144ca23f01bb8c5c176ac42
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216192"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445188"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedure: Vooruitbetalingen verkoop instellen en factureren
 
@@ -72,7 +72,7 @@ In de volgende procedures wordt beschreven hoe de taken van Phyllis worden uitge
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Nummerreeks voor vooruitbetalingen instellen
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vouw op de pagina **Verkoopinstellingen** het sneltabblad **Nummerreeks** uit.  
 3.  Controleer of de nummerreeks voor geboekte vooruitbetalingsfacturen in het veld **Geboekte vooruitbetalingsfactuurnrs.** overeenkomt met de reeks voor geboekte verkoopfacturen (**Factuurnrs. (Geboekt)**) en of de nummerreeks voor geboekte vooruitbetalingscreditnota's (**Geboekte vooruitbetalingscreditnotanrs.**) overeenkomt met de reeks voor geboekte creditnota's (**Creditnotanrs. (Geboekt)**).  
 
@@ -88,7 +88,7 @@ Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Standaardpercentages voorvooruitbetaling toewijzen aan klanten en artikelen
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de kaart voor klant 20000 (Trey Research).
 3.  Typ **30** in het veld **Vooruitbetaling %**.  
 4.  Selecteer **Verwant**, selecteer dan **Verkoop** en dan **Vooruitbetalingspercentages**
@@ -106,7 +106,7 @@ Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Een vooruitbetalingsrekening verkoop opgeven in de boekingsgroepinstellingen
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Boekingsgroepinstellingen** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Boekingsgroepinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de regel waar de **Bedrijfsboekingsgroep** is ingesteld op **BINNENLAND** en de **Productboekingsgroep** op **DETAILHANDEL**.  
 3.  Geef in het veld **Vooruitbetalingsrekening verkoop** de relevante rekening op. Uw selectie wordt automatisch opgeslagen.  
 
@@ -120,7 +120,7 @@ Susan maakt de vooruitbetalingsfactuur en verzendt deze naar de klant.
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Een verkooporder maken met een vooruitbetaling
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Kies in het veld **Klantnr.** de waarde **20000**.  
 4.  Accepteer de waarschuwing voor openstaand saldo die verschijnt.  
@@ -184,7 +184,7 @@ De klant betaalt het vooruitbetalingsbedrag en Arnie, die op de afdeling Vorderi
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Een betaling vereffenen met vooruitbetalingsfacturen
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Ontvangstendagboeken** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Ontvangstendagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op een dagboekregel de volgende gegevens in.  
 
     |Veldnaam|Voer in|  
@@ -218,7 +218,7 @@ Arnie heeft nu doorgekregen dat de artikelen voor de order zijn verzonden en dat
 
 Arnie kan de geschiedenis bekijken om te controleren of de verkoopfactuur volgens plan is gemaakt.
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 
 ## <a name="next-steps"></a>Volgende stappen
 

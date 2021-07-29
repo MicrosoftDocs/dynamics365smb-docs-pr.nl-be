@@ -1,6 +1,6 @@
 ---
 title: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
-description: U kunt het proces van het goedkeuren van nieuwe of gewijzigde records, zoals documenten, dagboekregels en klantenkaarten automatiseren door werkstromen te maken met stappen voor de goedkeuringen in kwestie. Voordat u goedkeuringswerkstromen maakt, moet u eerst een fiatteur en een vervangende fiatteur instellen voor elke goedkeuringsgebruiker. U kunt ook limietbedragen instellen voor fiatteurs om te definiëren welke verkoop- en inkooporders zij mogen goedkeuren. U kunt goedkeuringsverzoeken en andere berichten als e-mail of interne notitie verzenden. Voor elke instelling van een goedkeuringsgebruiker kunt u ook instellen wanneer zij berichten ontvangen.
+description: Deze procedure leidt u door alle fasen van het opzetten en gebruiken van een inkoopgoedkeuringswerkstroom in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/26/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 5c7575f0b3a35536e412757fe90993b764fc3ba5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110991"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445163"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
 
@@ -52,7 +52,7 @@ Wanneer u bent aangemeld als uzelf, stelt u Alicia in als een goedkeuringsgebrui
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Uzelf en Alicia instellen als goedkeuringsgebruikers
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikersinstellingen voor goedkeuring** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Gebruikersinstellingen voor goedkeuring** die wordt geopend, de actie **Nieuw**.  
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ Maak de werkstroom voor inkoopordergoedkeuring door de stappen van de werkstroom
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Een werkstoorm voor goedkeuring van inkooporders maken en inschakelen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Werkstromen** **Acties**, selecteer vervolgens **Nieuw** en kies vervolgens de actie **Nieuwe werkstroom uit sjabloon**.  
 3. Selecteer op de pagina **Werkstroomsjablonen** de werkstroomsjabloon genaamd **Goedkeuringswerkstroom inkooporder**.  
 
@@ -100,7 +100,7 @@ Gebruik de nieuwe werkstroom voor goedkeuring van inkooporders door u eerst aan 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Goedkeuring aanvragen voor een inkooporder als Alicia
 
 1. Meld u aan als Alicia.
-2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling  
 3. Selecteer de regel om inkooporder 106001 te openen.  
 4. Kies op de pagina **Inkooporder** **Acties**, dan **Goedkeuring aanvragen** en kies vervolgens de actie **Goedkeuringsverzoek verzenden**.  
 

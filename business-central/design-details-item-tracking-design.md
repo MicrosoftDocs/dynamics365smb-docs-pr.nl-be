@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5bb97f1c26ca9264718a96a9f2f7803e248927b3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214990"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445032"
 ---
 # <a name="design-details-item-tracking-design"></a>Ontwerpdetails: Ontwerp artikeltracering
 
@@ -27,7 +27,7 @@ Met het toevoegen van serie-, lot- en pakketnummers verwerkt het reserveringssys
 
 In het volgende diagram wordt het ontwerp van artikeltraceringfunctionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] aangegeven.  
 
-![Voorbeeld van een artikeltraceringsstroom](media/design_details_item_tracking_design.png "Voorbeeld van een artikeltraceringsstroom")  
+![Voorbeeld van een artikeltraceringsstroom.](media/design_details_item_tracking_design.png "Voorbeeld van een artikeltraceringsstroom")  
 
 Het centrale boekingsobject is opnieuw ontworpen om de unieke subclassificatie van een documentregel te verwerken in de vorm van serie- of lotnummers. Er zijn speciale relatietabellen toegevoegd om de één-op-veel relaties tussen geboekte documenten en de gesplitste artikelposten en waardeposten te maken.  
 

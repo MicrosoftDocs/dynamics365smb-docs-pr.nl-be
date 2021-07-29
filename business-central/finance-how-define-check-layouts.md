@@ -1,6 +1,6 @@
 ---
-title: De lay-out opgeven van een cheque| Microsoft Docs
-description: U kunt uw cheques ontwerpen en afdrukken in verschillende indelingen, om te voldoen aan standaards.
+title: De lay-out opgeven van een cheque
+description: U kunt uw cheques ontwerpen en afdrukken in verschillende indelingen, om te voldoen aan standaards van uw lokale autoriteiten.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24d046d9284797e371a9cca98ad68618bf248be7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d083e3eea85fde087a431d21bb9eae8bb4b8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781618"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444649"
 ---
 # <a name="select-a-check-layout"></a>Een cheque-indeling selecteren
 U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn ingesteld door de plaatselijke autoriteiten. Chequeafbeeldingen kunnen worden afgedrukt in het Engels, Frans of Spaans.
@@ -23,7 +23,7 @@ U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn 
 Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canadese chequeafbeeldingsindelingen, in een cheque-strook-cheque indeling of een strook-strook-cheque indeling.
 
 ## <a name="to-select-a-check-layout"></a>Een cheque-indeling selecteren
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselecties - Bankrekening** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekening van rapportselecties** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Rapportselectie - Bank** in het veld **Gebruik** de optie **Cheque**.
 3. Selecteer een van de volgende rapport-id's.
 
@@ -52,10 +52,10 @@ In update 15.3 en nieuwer zijn MICR-lettertypen (Magnetic Ink Character Recognit
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B-specificaties
 Hieronder volgt een samenvatting van de specificaties voor de MICR E-13B-lettertypen die nuttig kunnen zijn bij het kalibreren van lettertypen voor cheque-indelingen met specifieke MICR-printers.
 
-![MICR E-13B-specificaties](media/font_MICR_E-13B_Specifications.png "MICR E-13B-specificaties")
+![MICR E-13B-specificaties.](media/font_MICR_E-13B_Specifications.png "MICR E-13B-specificaties")
 
 ### <a name="delimiter-characters"></a>Scheidingstekens
-![Scheidingstekens](media/font-micr-letters.png "Scheidingstekens")
+![Scheidingstekens.](media/font-micr-letters.png "Scheidingstekens")
 
 De volledige specificatie van MICR E-13B-lettertypen vindt u in de documentatie van de leverancier: (https://www.idautomation.com/micr-fonts/e13b/).
 
@@ -69,17 +69,17 @@ De volgende CMC-7-lettertypen zijn beschikbaar in [!INCLUDE[prod_short](includes
 
 Hieronder volgt een samenvatting van de specificaties voor de MICR CMC-7-lettertypen die nuttig kunnen zijn bij het kalibreren van lettertypen voor cheque-indelingen met specifieke MICR-printers.
 
-![MICR CMC-7-specificaties](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-specificaties")
+![MICR CMC-7-specificaties.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-specificaties")
 
 ### <a name="delimiter-characters"></a>Scheidingstekens
-![Scheidingstekens](media/font-cmc7-letters.png "Scheidingstekens")
+![Scheidingstekens voor CMC-7.](media/font-cmc7-letters.png "Scheidingstekens voor CMC-7")
 
 De volledige specificatie van MICR CMC-7-lettertypen vindt u in de documentatie van de leverancier: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Specificaties voor veilige lettertypen
 Hieronder volgt een samenvatting van de specificaties voor de chequebeveiligingslettertypen die nuttig kunnen zijn bij het kalibreren van lettertypen voor cheque-indelingen met specifieke MICR-printers.
 
-![Specificaties van chequebeveiligingslettertypen](media/font_check-security-font_Specifications.png "Specificaties van chequebeveiligingslettertypen")
+![Specificaties van chequebeveiligingslettertypen.](media/font_check-security-font_Specifications.png "Specificaties van chequebeveiligingslettertypen")
 
 De volledige specificatie van chequebeveiligingslettertypen vindt u hier in de documentatie van de leverancier: (https://www.idautomation.com/security-fonts/).
 

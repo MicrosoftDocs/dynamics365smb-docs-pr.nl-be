@@ -1,6 +1,6 @@
 ---
-title: Opslagsjablonen instellen | Microsoft Docs
-description: Dankzij gestuurde opslag en pick kan op elk tijdstip de meest geschikte opslaglocatie worden gevonden. Dit gebeurt op basis van de opslagsjabloon dat u voor het magazijn hebt ingesteld, de opslaglocatievolgorde die u aan de verschillende opslaglocaties hebt toegewezen en de minimum- en maximumaantallen die u voor vaste opslaglocaties hebt ingesteld.
+title: 'Procedure: Opslagsjablonen instellen'
+description: Gebruik opslagsjablonen om op elk moment de meest geschikte opslaglocaties voor uw artikelen aan u voor te stellen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 336a9aa748d997d2cf4c5ae9a93cab6f96495fd6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 715c2f0c862d720d7123bc585d9b67c642d22005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784204"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445088"
 ---
 # <a name="set-up-put-away-templates"></a>Opslagsjablonen instellen
 
@@ -25,7 +25,7 @@ U kunt een aantal opslagsjablonen instellen en er vervolgens een van selecteren 
 
 ## <a name="to-set-up-put-away-templates"></a>U kunt als volgt opslagsjablonen instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslagsjablonen** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Opslagsjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Voer een unieke id in voor de sjabloon die u wilt maken.  
 4. Typ desgewenst een korte omschrijving.  

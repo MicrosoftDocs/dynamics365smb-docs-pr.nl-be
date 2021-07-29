@@ -1,6 +1,6 @@
 ---
-title: Artikelen ontvangen | Microsoft Docs
-description: Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking is ingesteld, moet u de regels ophalen van het vrijgegeven brondocument waaruit de ontvangst voortkomt.
+title: 'Procedure: Artikelen ontvangen'
+description: Dit onderwerp is een overzicht van de verschillende manieren om artikelen in een magazijn te ontvangen, bijvoorbeeld artikelen met een inkooporder of artikelen met een magazijnontvangst.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5bf683be6e6d0976464240d08e0546639a46362a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771916"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445138"
 ---
 # <a name="receive-items"></a>Artikelen ontvangen
 
@@ -27,7 +27,7 @@ Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking
 
 Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stappen zijn vergelijkbaar voor verkoopretourorders en transferorders.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling
 2. Open een bestaande inkooporder of maak een nieuwe. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 3. Voer in het veld **Te ontvangen aantal** het aantal in dat u hebt ontvangen.
 
@@ -43,7 +43,7 @@ Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. De stap
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Artikelen ontvangen met een magazijnontvangst
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 
     Vul de velden op het sneltabblad **Algemeen** in. Bij het ophalen van brondocumentregels worden bepaalde gegevens automatisch naar elke regel gekopieerd.  
@@ -96,7 +96,7 @@ U moet een percentage definiëren waarmee u toestaat dat de bestelde hoeveelheid
 
 Hieronder wordt beschreven hoe u een meerontvangstcode instelt en toewijst aan een artikel. De stappen zijn vergelijkbaar voor een leverancier.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een artikel waarvan u vermoedt dat het soms wordt geleverd met een grotere hoeveelheid dan besteld.
 3. Kies de opzoekknop in het veld **Meerontvangstcode**.
 4. Kies de actie **Nieuw**.

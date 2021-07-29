@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985374"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444882"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Microsoft Dynamics 365 Sales gebruiken vanuit Business Central
 Als u Dynamics 365 Sales gebruikt voor contacten met klanten, kunt u profiteren van naadloze integratie in het lead-naar-cash proces door [!INCLUDE[prod_short](includes/prod_short.md)] te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.
@@ -115,7 +115,7 @@ In de huidige verkoopprijservaring synchroniseert [!INCLUDE[prod_short](includes
     1. Koppel de artikelen waarvoor de prijzen zijn bepaald door de klantprijsgroep.
     2. Op de pagina **Klantprijsgroepen** koppelt u de klantprijsgroep door **Verwant**, **Dynamics 365 Sales**, **Koppelen** en **Koppeling instellen** te kiezen. Door de koppeling wordt een actieve prijslijst in [!INCLUDE[prod_short](includes/prod_short.md)] gemaakt die dezelfde naam heeft als de klantprijsgroep in [!INCLUDE[crm_md](includes/crm_md.md)] en worden automatisch alle artikelen gesynchroniseerd waarvoor de klantprijsgroep de prijs definieert.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="De pagina Klantprijsgroep":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Pagina Klantenprijsgroep":::
 
 #### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ Met de nieuwe verkoopprijservaring worden prijslijsten gesynchroniseerd die aan 
 
 Als u prijslijsten wilt synchroniseren, kiest u op de pagina **Verkoopprijslijst** de optie **Verwant**, **Dynamics 365 Sales**, **Koppelen** en **Koppeling instellen**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="De pagina Verkoopprijslijst":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Pagina Verkoopprijslijst.":::
 
 ---
 

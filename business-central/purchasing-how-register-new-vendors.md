@@ -1,6 +1,6 @@
 ---
-title: Een leverancierskaart maken om nieuwe leveranciers te registreren | Microsoft Docs
-description: Meer informatie over hoe u een leverancierskaart maakt om een nieuwe leverancier te registreren.
+title: Een leverancierskaart maken om een nieuwe leverancier te registreren
+description: In dit onderwerp leert u hoe u een leverancierskaart maakt om een nieuwe leverancier te registreren en leverancierskaarten als sjabloon op te slaan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f1028b91101f8faa38d4d4d5d2695ee498ff6d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772666"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445389"
 ---
 # <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
 
@@ -40,7 +40,7 @@ Als u een nieuwe leverancier wilt registreren, moet u een leverancierskaart invu
 
 ### <a name="to-create-a-new-vendor-card"></a>Een nieuwe leverancierskaart maken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Leveranciers** de optie **Nieuw**.
 
     Wanneer er meer dan één leveranciersjabloon bestaat, opent er een pagina waarin u een leveranciersjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.
