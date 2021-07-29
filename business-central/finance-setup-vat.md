@@ -1,6 +1,6 @@
 ---
 title: Btw instellen
-description: Controleer of u btw voor verkopen en inkopen op de juiste wijze berekent, boekt en aangeeft.
+description: Controleer of u btw voor verkopen en inkopen op de juiste wijze berekent, boekt en aangeeft. Het is raadzaam de begeleide instelling te gebruiken om btw in te stellen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 36714bb2e211c72bf2d953b7c64b9ea58e11f6e7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d0cea6be92becb3d44507687954f59fcdc6d5de3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770825"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446177"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berekeningen en boekingsmethoden voor btw instellen
 
@@ -39,7 +39,7 @@ Het is raadzaam de begeleide instelling Btw-instelling te gebruiken om btw in te
 
 Ga als volgt te werk om de begeleide instelling te starten:
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide setup** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Begeleide instelling** in.  
 2. Kies **Btw instellen** en voer alle stappen uit.
 3. Wanneer u de begeleide instelling hebt voltooid, gaat u naar de pagina **Btw-boekingsgroepinstellingen** en controleert u of u extra velden moet invullen volgens de lokale vereisten in uw versie van [!INCLUDE [prod_short](includes/prod_short.md)]. Zie [Lokale functionaliteit in Business Central](about-localization.md) voor meer informatie  
 
@@ -49,7 +49,7 @@ Als u ervoor wilt zorgen dat gebruikers geldige btw-nummers invoeren, kunt u not
 
 Als u btw-nummers wilt instellen, gaat u als volgt te werk:
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Landen/regio's** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Landen/regio's** in.
 2. Kies het land of de regio, en kies de actie **Btw-nummernotaties**.
 3. Definieer in het veld **Notaties** de notatie door een of meer van de volgende tekens in te voeren:  
 
@@ -65,9 +65,9 @@ Met btw-bedrijfsboekingsgroepen worden de markten vertegenwoordigd waarin u zake
 
 Gebruik codes die eenvoudig te onthouden zijn en die de bedrijfsboekinggroep beschrijven, zoals **EU**, **Niet-EU** of **Binnenlands**. Deze code moet uniek zijn. U kunt zoveel codes instellen als u nodig hebt, maar u kunt dezelfde code niet meer dan één keer in een tabel gebruiken.
 
-Ga als volgt te werk om een btw-bedrijfsboekingsgroep in te stellen:
+Ga als volgt te werk om een btw-groep voor zakelijke boekingen in te stellen:
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-groep zakelijke boekingen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-bedrijfsboekingsgroep** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
 
 Als u standaard btw-bedrijfsboekingsgroepen wilt instellen, koppelt u deze aan bedrijfsboekingsgroepen. [!INCLUDE[prod_short](includes/prod_short.md)] wijst de btw-bedrijfsboekingsgroep automatisch toe wanneer u de bedrijfsboekingsgroep toewijst aan een klant, leverancier of grootboekrekening.
@@ -78,7 +78,7 @@ Het is aan te raden codes te gebruiken die u gemakkelijk kunt onthouden en waarm
 
 Ga als volgt te werk om een btw-groep voor zakelijke boekingen in te stellen:
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-groepen productboekingen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Btw-bedrijfsboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Btw-boekingsgroepen in btw-boekingsinstellingen combineren
@@ -88,7 +88,7 @@ U kunt zo veel combinaties instellen als u nodig hebt. Als u combinaties van btw
 
 Ga als volgt te werk om btw-boekingsinstellingen te combineren:
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-boekingen instellen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VAT-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de velden in.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Standaard btw-boekingsgroepen toewijzen aan meerdere entiteiten
@@ -103,18 +103,18 @@ De btw-bedrijfsboekingsgroep of btw-productboekingsgroep wordt toegewezen wannee
 In de volgende gedeelten wordt beschreven hoe u btw-boekingsgroepen aan afzonderlijke entiteiten kunt toewijzen.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Btw-boekingsgroepen toewijzen aan afzonderlijke grootboekrekeningen
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies de gerelateerde koppeling.  
 2. Open de **Grootboekrekening** voor de rekening.  
 3. Kies op het sneltabblad **Boeken** in het veld **Algemeen boekingssoort** **Verkoop** of **Inkoop**.  
 5. Kies de btw-boekingsgroepen die u wilt gebruiken voor de verkoop- of inkooprekening.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Btw-bedrijfsboekingsgroepen toewijzen aan klanten en leveranciers  
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klant** of **Leverancier** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klant** of **Leverancier** in en kies vervolgens de gerelateerde koppeling.  
 2. Vouw op de kaart **Klant** of **Leverancier** het sneltabblad **Facturering** uit.  
 3. Kies de btw-bedrijfsboekingsgroep.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Btw-productboekingsgroepen toewijzen aan afzonderlijke artikelen en resources.  
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikel** of **Resource** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikel** of **Bron** in en kies vervolgens de gerelateerde koppeling.  
 2. Ga op een van de volgende manieren te werk:  
 
 * Vouw op de **Artikel** kaart het sneltabblad **Prijs en boeking** uit en kies vervolgens **Meer weergeven** om het veld **Btw-productboekingsgroep** weer te geven.  
@@ -131,7 +131,7 @@ Wanneer in verschillende soorten documenten (bijvoorbeeld facturen of creditnota
 U kunt een btw-clausule wijzigen of verwijderen, en uw wijzigingen worden in een gegenereerde lijst weergegeven. [!INCLUDE[prod_short](includes/prod_short.md)] houdt echter geen historie van de wijziging bij. Op de lijst worden de omschrijvingen van btw-clausules afgedrukt en weergegeven voor alle regels in de lijst naast het btw-bedrag en het btw-basisbedrag. Als er geen btw-clausule is gedefinieerd voor de regels op het verkoopdocument, wordt het hele gedeelte weggelaten wanneer de lijst wordt afgedrukt.
 
 ### <a name="to-set-up-vat-clauses"></a>Btw-clausules instellen
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-clausules** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Btw-clausules** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe regel op de pagina **Btw-clausules**.  
 3. Voer in het veld **Code** een ID voor de clausule in. U gebruikt deze code om de clausule toe te wijzen aan btw-boekingsgroepen.  
 4. Voer in het veld **Omschrijving** tekst voor de btw-vrijstelling die u wilt weergeven in documenten waarop btw-bedragen kunnen worden vermeld. Geef indien nodig in het veld **Omschrijving 2** eventuele aanvullende tekst op. De tekst wordt weergegeven in nieuwe documentregels.
@@ -141,11 +141,11 @@ U kunt een btw-clausule wijzigen of verwijderen, en uw wijzigingen worden in een
 8. Optioneel: als u wilt opgeven hoe de btw-clausule moet worden vertaald, kiest u de actie **Vertalingen**.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Een btw-clausule aan een btw-boekingsgroepinstelling toewijzen
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-boekingen instellen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VAT-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in de kolom **Btw-clausule** de clausule die u wilt gebruiken voor elke btw-boekingsinstelling waarop deze van toepassing is.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Vertalingen opgeven voor btw-clausules
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-clausules** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Btw-clausules** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Vertalingen**.  
 3. Kies in het veld **Taalcode** de taal waarin u vertaalt.  
 4. Voer de vertalingen van de omschrijvingen in de velden **Omschrijving** en **Omschrijving 2** in. Deze tekst wordt weergegeven in de vertaalde btw-rapportdocumenten.  
@@ -154,9 +154,9 @@ U kunt een btw-clausule wijzigen of verwijderen, en uw wijzigingen worden in een
 U gebruikt de functie voor import-btw wanneer u een document moet boeken waarbij het volledige bedrag btw is. U gebruikt dit als u een factuur van de belastingdienst ontvangt voor btw op geïmporteerde goederen.  
 
 Ga als volgt te werk om codes voor import-btw in te stellen:  
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-groepen productboekingen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Btw-bedrijfsboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Stel op de pagina Btw-productboekingsgroepen een nieuwe btw-productboekingsgroep in voor import-btw.  
-3. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-boekingen instellen** in en kies de desbetreffende koppeling.  
+3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VAT-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 4. Open de pagina Btw-boekingsinstellingen, maak een nieuwe regel of gebruik een bestaande btw-bedrijfsboekingsgroep in combinatie met de nieuwe btw-productboekingsgroep voor import-btw.  
 5. Kies in het veld **Btw-berekening** **Volledig**.  
 6. Voer in het veld **Inkoop-btw-rekening** de grootboekrekening in die moet worden gebruikt om import-btw te boeken. Alle andere rekeningen zijn optioneel.  

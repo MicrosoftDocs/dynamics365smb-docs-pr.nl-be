@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 84b6a9fa74cea99f8b939edcf0cd883e39eb6937
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110966"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445984"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Word-sjablonen gebruiken voor bulkcommunicatie
 Microsoft Word-sjablonen kunnen het gemakkelijker maken om massaal te communiceren met entiteiten zoals klanten en leveranciers. U kunt bijvoorbeeld brochures maken om klanten te attenderen op een verkoopcampagne, brieven om leveranciers te informeren over een nieuw aankoopbeleid of uitnodigingen om contacten aan te trekken voor een aankomend evenement.
@@ -38,7 +38,7 @@ Wanneer u de sjabloon in Word instelt, kunt u op het tabblad **Mailings** samenv
 Als uw Word-sjabloon klaar is, kunt u op de pagina **Word-sjablonen** **Toepassen** kiezen om de documenten te genereren. U kunt één document maken dat secties voor elke entiteit bevat, of de bewerking splitsen om voor elke entiteit een nieuw document te maken.
 
 ## <a name="to-create-a-word-template"></a>Een Word-sjabloon maken
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Word-sjablonen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Word-sjablonen** in en kies vervolgens de gerelateerde koppeling.
 2. Volg de stappen in het begeleide instelling. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Zie ook

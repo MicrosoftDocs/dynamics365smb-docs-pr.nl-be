@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779819"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446402"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>De te synchroniseren tabellen en velden toewijzen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -68,7 +68,7 @@ Koppelingen kunnen automatisch worden ingesteld met behulp van de synchronisatie
 Als u niet alle rijen voor een bepaalde tabel in [!INCLUDE[prod_short](includes/cds_long_md.md)] of [!INCLUDE[prod_short](includes/prod_short.md)] wilt synchroniseren, kunt u filters instellen om de gegevens te beperken die worden gesynchroniseerd. U stelt filters in op de pagina **Toewijzingen van integratietabellen**.  
 
 #### <a name="to-filter-records-or-rows-for-synchronization"></a>Records of rijen filteren voor synchronisatie  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingen van integratietabellen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Toewijzingen van integratietabellen** in en kies vervolgens de gerelateerde koppeling.
 
 2.  Als u de [!INCLUDE[prod_short](includes/prod_short.md)]-records wilt filteren, stelt u het veld **Tabelfilter** in.  
 
@@ -80,7 +80,7 @@ Standaard worden alleen records in [!INCLUDE[prod_short](includes/prod_short.md)
 De Dynamics 365 Sales-synchronisatietaak gebruikt bijvoorbeeld de tabeltoewijzing VERKOPERS. De synchronisatietaak kopieert gegevens uit gebruikers in [!INCLUDE[prod_short](includes/cds_long_md.md)] naar verkopers in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de tabeltoewijzing instelt om nieuwe records te maken, wordt voor elke gebruiker in [!INCLUDE[prod_short](includes/cds_long_md.md)] die niet al is gekoppeld aan een verkoper in [!INCLUDE[prod_short](includes/prod_short.md)], een nieuwe verkopersrij gemaakt in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Nieuwe records maken tijdens synchronisatie  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingen van integratietabellen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Toewijzingen van integratietabellen** in en kies vervolgens de gerelateerde koppeling.
 
 2.  Wis in het tabeltoewijzingsitem in de lijst het veld **Alleen gekoppelde records synchr.**.  
 
@@ -96,7 +96,7 @@ Als u de standaardsynchronisatie-instelling installeert, worden meestal automati
 -   **CDSACCOUNT** maakt en synchroniseert nieuwe accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)] op basis van een account in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Configuratiesjablonen opgeven voor een tabeltoewijzing  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingen van integratietabellen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingen van integratietabellen** in en kies vervolgens de gerelateerde koppeling.
 
 2.  Kies in de tabeltoewijzingspost in de lijst in het veld **Sjablooncode voor tabelconfiguratie** de configuratiesjabloon die moet worden gebruikt voor nieuwe records in [!INCLUDE[prod_short](includes/prod_short.md)].  
 

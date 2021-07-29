@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 5fc64db4120b80203f99742ed3ed834b23370c47
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216448"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543182"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Inkooprapporten en analyses in Business Central
 
@@ -24,8 +24,7 @@ De volgende tabel beschrijft enkele van de belangrijkste rapporten in inkooprapp
 
 |Rapport |Object-id|Omschrijving  |
 |---------|---------|---------|
-|**Inkoopstatistiek**|312|Toont inkoopstatistieken voor elke leverancier. Dit omvat informatie voor vijf perioden, beginnend op de datum die u opgeeft.<br>
-Het rapport bevat de totale aankopen, betalingen, financieringskosten en kortingsinformatie, inclusief de genomen en verloren betalingskortingen. Statistieken worden berekend voor aankopen vóór de ingevoerde datum, met drie intervallen van één maand vanaf de ingevoerde datum, en voor een periode die alle aankopen omvat die zijn gedaan na het derde interval van één maand.|
+|**Inkoopstatistiek**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
 |**Leverancier - Top 10**|311|Hier wordt voor een geselecteerde periode informatie weergegeven over de inkoop bij leveranciers. U kunt het aantal leveranciers opgeven dat u wilt opnemen in de lijst.<br>De leveranciers worden op bedrag gesorteerd en u kunt aangeven of op inkoopbedrag of op saldo moet worden gesorteerd. De lijst biedt u een kort overzicht van de leveranciers waarbij u het meeste inkoopt of de grootste schulden hebt.|
 |**Verkoperartikelcatalogus** of **Artikelleverancierscatalogus**|320 of 720|Toont een lijst met leveranciers voor de geselecteerde artikelen of artikelen voor geselecteerde leveranciers. Voor elke combinatie van artikel en leverancier worden de directe kostprijs, de berekening van de doorlooptijd en het artikelnummer van de leverancier weergegeven.<br>In de VS, Canada en Mexico is dit rapport niet beschikbaar. Gebruik in plaats daarvan het rapport **Artikel-/leverancierscatalogus** (10164).|
 |**Leverancier-/artikelinkoop**|313|Bevat een overzicht van artikelposten per leverancier in een geselecteerde periode. De lijst bevat informatie over gefactureerde aantallen, bedragen en mogelijke kortingen. U kunt de lijst bijvoorbeeld gebruiken voor een analyse van de artikelen die door het bedrijf zijn ingekocht en om aan te tonen of er een relatie is tussen kortingen en ingekochte artikelen.|

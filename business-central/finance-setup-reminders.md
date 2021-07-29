@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 06853911f5b2858fbde4ff5371971c86f2960543
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba76f1f48249de12af6dc99057a92ef6aaeef13a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783496"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446252"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>De termijnen en niveaus van aanmaningen instellen
 
@@ -30,7 +30,7 @@ Als klanten betalingen hebben openstaan, moet u bepalen wanneer en hoe u hen wil
 
 ### <a name="to-set-up-reminder-terms"></a>U kunt aanmaningscondities als volgt instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningscondities** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Aanmaningscondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Als u meer dan één combinatie van aanmaningscondities wilt gebruiken, stelt u een code in voor elke.
 
@@ -42,7 +42,7 @@ Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden d
 
 ### <a name="to-set-up-reminder-levels"></a>Aanmaningsniveaus volgt instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningscondities** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Aanmaningscondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Aanmaningscondities** de regel met de condities waarvoor u niveaus wilt instellen en kies vervolgens de actie **Niveaus**.  
 3. Vul de vereiste velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 

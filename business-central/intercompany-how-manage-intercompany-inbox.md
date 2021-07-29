@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17c9c5202f7a7f7dae6a9eee14109c608db14c46
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 309d41995ae88332808e363f8a6838a40ee6a679
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786310"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445713"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>De intercompany-inbox en outbox beheren
 Alle IC-transacties die u via elektronische weg ontvangt van uw IC-partners, worden weergegeven in de IC-inbox.  
@@ -56,9 +56,9 @@ In dat geval, kunt u in het systeem instellen om de inbox en de outbox over te s
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>IC-transacties importeren uit een bestand  
 Als u een IC-partner hebt die zich niet in dezelfde database bevindt als uw bedrijf, kunt u IC-transacties van die partner ophalen in een XML-bestand. Vervolgens moet u de transacties importeren in uw inbox.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies de gerelateerde koppeling.
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
 2. Sla het bestand op naar de locatie die u hebt opgegeven in het veld **Details IC-inbox** op de pagina **Bedrijfsgegevens**.  
-3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-inboxtransacties** in en kies de desbetreffende koppeling.
+3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-inboxtransacties** in en kies de gerelateerde koppeling.
 4. Kies op de pagina **IC-inboxtransacties** de actie **Transactiebestand importeren**.  
 5. Selecteer op de pagina die wordt geopend het .xml-bestand dat de transacties bevat en klik vervolgens op **Openen**.  
 
@@ -67,7 +67,7 @@ De transacties worden geïmporteerd in de inbox en u kunt ze nu verwerken.
 ## <a name="to-process-incoming-intercompany-transactions"></a>Inkomende IC-transacties verwerken  
 Wanneer uw IC-partners u IC-transacties toesturen, komen de transacties terecht in uw IC-inbox. U moet elke transactie in uw inbox evalueren en verwerken.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-inboxtransacties** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-inboxtransacties** in en kies de gerelateerde koppeling.  
 2. Selecteer op de pagina **IC-inboxtransacties** een regel en kies een actie om de regel te verwerken, zoals bijvoorbeeld **Goedkeuren**.
 3. Vul op de pagina **Bewerking IC-inbox voltooien** de velden in met de benodigde gegevens. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de knop **OK**.  
@@ -81,7 +81,7 @@ Voor regels die u verwerkt met de actie **Retour door partner** moet u nu een co
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Uitgaande IC-transacties verwerken  
 Wanneer u een IC-dagboek of -document boekt of een IC-orderbevestiging verzendt, worden de transacties verzonden naar uw IC-outbox. Als u deze wilt doorsturen naar uw IC-partners, moet u de outbox openen en de transacties verwerken.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-outboxtransacties** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-outboxtransacties** in en kies de gerelateerde koppeling.  
 2. Selecteer op de pagina **IC-outboxtransacties** een regel en kies een actie om de regel te verwerken, zoals bijvoorbeeld **Terug naar inbox**.
 
 Regels die u verwerkt met de actie **Verzenden naar IC-partner** worden verzonden naar de inbox van de betreffende partner.
@@ -95,7 +95,7 @@ Het kan voorkomen dat u een transactie in de inbox of outbox opnieuw wilt maken.
 
 In de volgende procedure wordt beschreven hoe u inboxtransacties opnieuw kunt maken. De procedure voor de outbox is hetzelfde.
 
-  1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verwerkte IC-inboxtransacties** in en kies de desbetreffende koppeling.  
+  1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verwerkte IC-inboxtransacties** in en kies de gerelateerde koppeling.  
 
   2.  Open de pagina **Verwerkte IC-inboxtransacties**, selecteer de regel met de transactie die u opnieuw wilt maken in de inbox en selecteer de actie **Inboxtransacties opnieuw maken**.  
 

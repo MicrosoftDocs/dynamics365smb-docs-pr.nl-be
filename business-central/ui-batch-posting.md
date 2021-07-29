@@ -1,6 +1,6 @@
 ---
-title: Hoe u meerdere documenten tegelijkertijd boekt | Microsoft Docs
-description: In plaats van afzonderlijke documenten een voor een te boeken kunt u meerdere niet-geboekte documenten in een lijst selecteren voor batchboeking, hetzij voor onmiddellijke boeking, hetzij gepland voor bijvoorbeeld het einde van de dag.
+title: Meerdere documenten tegelijkertijd boeken
+description: In plaats van afzonderlijke documenten één voor één te boeken kunt u meerdere niet-geboekte documenten in een lijst selecteren voor directe of geplande batchboeking.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d26b98bac791bca2dc910f010c135fe187d6abff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773642"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446059"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Meerdere documenten tegelijkertijd boeken
 
@@ -25,7 +25,7 @@ In plaats van afzonderlijke documenten een voor een te boeken kunt u meerdere ni
 
 In de volgende procedure wordt uitgelegd hoe u meerdere inkooporders onmiddellijk kunt boeken. De stappen zijn vergelijkbaar voor alle inkoop- en verkoopdocumenten.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling
 2. Ga op de pagina **Inkooporders** door met het selecteren van alle te boeken orders:
 3. Voer in het veld **Nr.** de drie verticale stippen om het contextmenu te openen en kies vervolgens de actie **Meer selecteren**.
 4. Schakel het selectievakje in voor alle regels die orders vertegenwoordigen die u tegelijkertijd wilt boeken.
@@ -36,7 +36,7 @@ In de volgende procedure wordt uitgelegd hoe u meerdere inkooporders onmiddellij
 
 In de volgende procedure wordt uitgelegd hoe u inkooporders in een batch boekt. De stappen zijn vergelijkbaar voor alle inkoop- en verkoopdocumenten waarbij de actie **Batchboeken** beschikbaar is.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling  
 2. Ga op de pagina **Inkooporders** door met het selecteren van alle te boeken orders:
 3. Voer in het veld **Nr.** de drie verticale stippen om het contextmenu te openen en kies vervolgens de actie **Meer selecteren**.
 4. Schakel het selectievakje in voor alle regels die orders vertegenwoordigen die u tegelijkertijd wilt boeken.
@@ -53,7 +53,7 @@ Taakwachtrijen zijn een effectief hulpmiddel om de uitvoering van bedrijfsproces
 
 In de volgende procedure wordt uitgelegd hoe u achtergrondboeking van verkooporders instelt. De stappen zijn vergelijkbaar voor de inkoop.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Verkoopinstellingen** het selectievakje **Boeken via taakwachtrij**.
 3. Kies het veld **Taakwachtrijcategoriecode** en selecteer vervolgens de code **VRKBOEKING**.
 
@@ -86,7 +86,7 @@ U kunt eventueel ook boekingen uitstellen naar tijdstippen die handiger zijn voo
 
 In de volgende procedure wordt getoond hoe u het rapport **Batchboeken verkooporders** instelt om automatisch verkooporders te boeken om 16:00 uur op werkdagen.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Selecteer in het veld **Uit te voeren objecttype** **Rapport**.  
 4. Selecteer in het veld **Uit te voeren object-id** 296, **Batchboeken verkooporders**.

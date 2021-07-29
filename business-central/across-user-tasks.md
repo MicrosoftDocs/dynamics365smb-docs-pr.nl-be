@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71e9c93eede8b39561dc78ff61732273003ce8de
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6c1e9a1e296abab8a77e47564eb70e97bfa7d57e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786994"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446427"
 ---
 # <a name="define-user-tasks"></a>Gebruikerstaken definiëren
 
@@ -27,7 +27,7 @@ De pagina **Gebruikerstaken** bevat alle taken en u kunt gemakkelijk nieuwe take
 
 U kunt bijvoorbeeld u een taak voor uzelf of een collega maken om alle geboekte verkoopfacturen te bekijken. In dat geval koppelt u de taak een pagina 143, **Geboekte verkoopfacturen**. In de volgende schermafbeelding maakt iemand een taak voor MeganB om de geboekte verkoopfacturen te bekijken.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Voorbeeld van een gebruikerstaak":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Voorbeeld van een gebruikerstaak.":::
 
 > [!TIP]  
 > Gebruik de opzoekfunctie in het veld **Pagina** en gebruik vervolgens het veld **Zoeken** om de pagina te vinden die u nodig hebt.  

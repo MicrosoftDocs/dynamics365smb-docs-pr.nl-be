@@ -1,6 +1,6 @@
 ---
-title: Een bladwijzer maken van een koppeling naar een pagina of rapport in uw rolcentrum | Microsoft Docs
-description: Leer hoe u een koppeling toevoegt aan uw rolcentrum.
+title: Een bladwijzer van een pagina of rapport maken in uw rolcentrum
+description: Met het bladwijzerpictogram kunt u een actie toevoegen waarmee een pagina of rapport wordt geopend vanuit het navigatiemenu van uw rolcentrum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ec89d35da258020ce08710d3eafc4bce32cf81a8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787489"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446034"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Een bladwijzer van een pagina of rapport maken in uw rolcentrum
-Met het bladwijzerpictogram kunt u een actie toevoegen waarmee een pagina of rapport wordt geopend vanuit het navigatiemenu van uw rolcentrum. Hierdoor bereikt u snel uw favoriete inhoud of zakelijke taken. U voegt de bladwijzer toe vanaf de doelpagina of het doelrapport, dat wil zeggen het scherm dat u wilt dat de koppeling in het rolcentrum opent.
+Met het bladwijzerpictogram kunt u een actie toevoegen waarmee een pagina of rapport wordt geopend vanuit het navigatiemenu van uw rolcentrum. Met bladwijzers bereikt u snel uw favoriete inhoud of zakelijke taken. U voegt de bladwijzer toe vanaf de doelpagina of het doelrapport, dat wil zeggen het scherm dat u wilt dat de koppeling in het rolcentrum opent.
 
 Het bladwijzerpictogram wordt weergegeven in de rechterbovenhoek van een pagina's en ook in het venster **Vertel me**, waar u efficiënt bladwijzers kunt maken van meerdere pagina's of rapporten. Als er al een bladwijzer voor de pagina bestaat, is het pictogram donker en bevat de knopinfo 'Bladwijzer'.
 
 ## <a name="to-bookmark-the-target-page"></a>Een bladwijzer maken van de doelpagina
 1. Open een pagina waarvoor u een koppeling wilt maken in uw rolcentrum.
-2. Kies het pictogram ![Bladwijzer](media/ui_bookmark_icon.png "Bladwijzer").
+2. Kies het pictogram ![Bladwijzer](media/ui_bookmark_icon.png "Bladwijzer").  
 
 Een naar de pagina genoemde actie wordt nu toegevoegd aan het navigatiemenu in uw rolcentrum.
 
 ## <a name="to-bookmark-the-target-report"></a>Een bladwijzer maken van het doelrapport
 1. Open een rapportaanvraagpagina waarvoor u een koppeling wilt maken in uw rolcentrum.
-2. Kies het pictogram ![Bladwijzer](media/ui_bookmark_icon.png "Bladwijzer").
+2. Kies het pictogram ![Bladwijzer](media/ui_bookmark_icon.png "Bladwijzer").  
 
 Een naar het rapport genoemde actie wordt nu toegevoegd aan het navigatiemenu in uw rolcentrum.
 
 ## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Een bladwijzer voor een pagina of rapport maken vanuit het venster Vertel me
 1. Open het venster **Vertel me** en voer bijvoorbeeld **Verkooporders** in.
-2. Plaats de aanwijzer boven het zoekresultaat voor de pagina of het rapport **Verkooporders** en kies vervolgens het pictogram ![Bladwijzer](media/ui_bookmark_icon.png "Bladwijzer").
+2. Plaats de aanwijzer boven het zoekresultaat voor de pagina of het rapport **Verkooporders** en kies vervolgens het pictogram ![Bladwijzer](media/ui_bookmark_icon.png "Bladwijzer").  
 
 Een naar de pagina of het rapport genoemde actie wordt nu toegevoegd aan het navigatiemenu in uw rolcentrum.
 
@@ -60,7 +60,7 @@ De mogelijkheid om een pagina of rapport als bladwijzer in te stellen is een van
 - **Waarom kan ik geen bladwijzers maken van bepaalde pagina's of rapporten?**  
 Niet van alle pagina's en rapporten kan een bladwijzer worden gemaakt. Wanneer een pagina of rapport wordt uitgevoerd binnen een speciale context die wordt beheerst door de bedrijfstoepassing, wordt het bladwijzerpictogram niet weergegeven. Bijvoorbeeld pagina's die niet in het venster **Vertel me** kunnen worden gevonden, maar vanuit elders worden gestart, bevatten geen bladwijzerpictogram. Evenzo zullen rapportaanvraagpagina's die alleen worden gebruikt om filters te verzamelen zonder het rapport uit te voeren, geen bladwijzerpictogram bevatten.
 
-Zie technische details over [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) en [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+  Zie technische details over [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) en [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Worden mijn bladwijzers ook gewist bij het wissen van mijn personalisatie?**  
 Ja. Bladwijzers bevinden zich in het navigatiemenu. Als u wijzigingen in het navigatiemenu op een pagina wist of alle personalisatie in het rolcentrum wist, worden al uw nieuwe acties permanent verwijderd.
@@ -77,6 +77,8 @@ Nee. Op dit moment is het toevoegen van acties om XMLports te openen niet mogeli
 
 - **Worden mijn bladwijzers vertaald wanneer ik mijn taal wijzig in Business Central?**  
 Wanneer u een nieuwe actie toevoegt, wordt alle vertaalde tekst die op dat moment beschikbaar was gebruikt voor de bladwijzer. Als er later nieuwe vertaalde tekst wordt toegevoegd, omvat de nieuwe actie niet de nieuwere vertalingen.
+
+- **Waarom kan ik niet direct tekst op een pagina toevoegen nadat ik deze met de bladwijzer heb geopend?**<br> Wanneer een pagina een bladwijzer heeft, wordt de pagina altijd geopend in de weergavemodus vanuit de bladwijzer&mdash;zelfs als het in de bewerkingsmodus was toen het werd gemarkeerd als bladwijzer. Selecteren van het pictogram **Breng wijzigingen op de pagina aan** ![Toont het potloodpictogram voor het bewerken van de pagina.](media/edit-pencil.png) kunt u tekst toevoegen in de velden die bewerkbaar zijn.
 
 
 ## <a name="see-also"></a>Zie ook

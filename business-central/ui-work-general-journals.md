@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 349dd312ae709c29138555ba6e8554a4f5e18122
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087731"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445488"
 ---
 # <a name="working-with-general-journals"></a>Werken met diversendagboeken
 
@@ -152,7 +152,7 @@ Wanneer u artikeldagboekregels hebt gemaakt waarvan u weet dat u ze waarschijnli
 >   De volgende procedure heeft betrekking op het artikeldagboek, maar de informatie is ook van toepassing op het standaarddagboek.
 
 ### <a name="to-save-a-standard-journal"></a>Opslaan als standaarddagboek
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Voer een of meer dagboekregels in.
 3. Selecteer de dagboekregels die u opnieuw wilt gebruiken.
 4. Kies de actie **Opslaan als standaarddagboek**.
@@ -168,7 +168,7 @@ Wanneer u het standaardartikeldagboek hebt opgeslagen, wordt de pagina Artikelda
 
 ### <a name="to-reuse-a-standard-journal"></a>Een standaarddagboek opnieuw gebruiken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Standaarddagboeken ophalen**.
 
     De pagina Standaardartikeldagboeken wordt weergegeven, met de codes en omschrijvingen van alle standaardartikeldagboeken.
@@ -205,7 +205,7 @@ Het wijzigen van documentnummers in verband met verwante vereffeningen, zoals ee
 
 De volgende procedure is gebaseerd op de pagina **Diversendagboek**, maar is van toepassing op alle overige journalen die u op het dagboek zijn gebaseerd, zoals de pagina **Betalingsdagboek**.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Als u klaar bent om het dagboek te boeken, kiest u de actie **Documentnummers opnieuw nummeren**.
 
 De waarden in het veld **Documentnr.** worden gewijzigd, wanneer dit is vereist, zodat het documentnummer op afzonderlijke of gegroepeerde dagboekregels in sequentiële volgorde wordt weergegeven. Nadat de documenten opnieuw zijn genummerd, kunt u doorgaan met het boeken van het dagboek.

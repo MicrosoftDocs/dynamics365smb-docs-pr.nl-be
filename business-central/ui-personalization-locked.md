@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd90f7bf90209496f67d52ab32a93cfdbaf803f
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 74fbbefaaf9ef62c1241032b09cdf1f40b1b4bd1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087656"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445909"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Waarom een pagina is vergrendeld voor personaliseren
 
-Er zijn twee voorwaarden die voorkomen dat u een pagina personaliseert. Of de pagina is vergrendeld (zoals aangegeven door het pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling")) of de pagina is geblokkeerd (zoals aangegeven door het pictogram ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd")).
+Er zijn twee voorwaarden die voorkomen dat u een pagina personaliseert. Of de pagina is vergrendeld (zoals aangegeven door het pictogram ![Personaliseringsvergrendeling.](media/personalization-lock-icon.png "Personalisatievergrendeling")) of de pagina is geblokkeerd (zoals aangegeven door het pictogram ![Personalisatie geblokkeerd.](media/personalization-blocked-icon.png "Personalisatie geblokkeerd")).  
 
 ## <a name="locked-from-personalizing"></a>Vergrendeld tegen personaliseren
 
-Als er een pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling") is te zien in de banner **Personaliseren** wanneer u een pagina opent, kunt u op dit moment geen persoonlijke instellingen meer wijzigen op de pagina.
+Als er een pictogram ![Personaliseringsvergrendeling.](media/personalization-lock-icon.png "Personalisatievergrendeling") is te zien is op de banner **Personaliseren** wanneer u een pagina opent, kunt u op dit moment geen persoonlijke instellingen meer wijzigen op de pagina.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -50,7 +50,7 @@ Voordat u de pagina ontgrendelt, houdt u rekening met het volgende:
 
 Als de banner **Personaliseren** het pictogram ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd") bevat, betekent dit dat u geblokkeerd wordt om personalisatie op de pagina aan te brengen.
 
-<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
 
 De reden hiervoor is dat het rolcentrum of de rol die op dat moment aan uw gebruikersaccount is gekoppeld, deze pagina specifiek voor uw rol wijzigt. Neem contact op met uw beheerder voor hulp. U kunt ook overschakelen naar een rolcentrum met rolaanpassing voor deze pagina. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
 

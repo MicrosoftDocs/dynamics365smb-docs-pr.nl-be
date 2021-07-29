@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773851"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446227"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Broncodes en redencodes instellen voor audittrails
 
@@ -33,7 +33,7 @@ Wanneer u een batchverwerking boekt of uitvoert, wordt de juiste broncode automa
 
 ### <a name="to-define-source-codes"></a>Broncodes definiëren
 
-1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncode-instelling** in en kies de desbetreffende koppeling.  
+1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncode-instelling** in en kies vervolgens de gerelateerde koppeling.  
 
 2. Geef in het venster **Broncode-instelling** voor elk boekingstype en elke batchtaak de relevante broncode op.  
 
@@ -45,7 +45,7 @@ U wilt wellicht een broncode wijzigen. U wilt bijvoorbeeld de broncode *DAGBOEK*
 
 ### <a name="to-change-source-codes"></a>Broncodes wijzigen
 
-1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncodes** in en kies de desbetreffende koppeling.
+1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncodes** in en kies vervolgens de gerelateerde koppeling.
 
 2. Selecteer op de regel met de te wijzigen code de code in het veld **Code**.
 
@@ -59,7 +59,7 @@ Redencodes vullen de broncodes aan en worden gebruikt om aan te geven waarom een
 
 ### <a name="to-set-up-reason-codes"></a>Redencodes instellen
 
-1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Redencodes** in en kies de desbetreffende koppeling.
+1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"),  voer **Redencodes** in en kies vervolgens de gerelateerde koppeling.
 
 2. Voer in het venster **Redencodes** de eerste code in het veld **Code** in. Typ een uitleg in het veld **Omschrijving**.
 
@@ -69,7 +69,7 @@ De volgende procedure beschrijft hoe u een redencode aan een dagboeksjabloon kun
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Redencodes toewijzen aan dagboeksjablonen
 
-1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Fin. dagboeksjablonen** in en kies de desbetreffende koppeling.
+1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"),  voer **Fin. dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.
 
 2. Geef in het veld **Redencode** op de regel met de geselecteerde dagboeksjabloon de relevante code op.
 

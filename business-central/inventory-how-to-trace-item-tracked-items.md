@@ -1,6 +1,6 @@
 ---
 title: Artikelen met artikeltracering traceren
-description: U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en wanneer dit is ontvangen of geproduceerd, overgebracht, verkocht, verbruikt of geretourneerd. U kunt tevens alle huidige exemplaren van een bepaald serie- of lotnummer in de database vinden. Dit doet u met behulp van de functies Artikeltracering en Posten zoeken.
+description: U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en wanneer dit is ontvangen, geproduceerd of geretourneerd, met de functies Artikeltracering en Posten zoeken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: bbfe0237beb58f22d3be7bc388d7b2726f05d4ba
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a511cc2496d32f2feee7c684d073395db2ef8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214765"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445638"
 ---
 # <a name="trace-item-tracked-items"></a>Artikelen met artikeltracering traceren
 U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en wanneer dit is ontvangen of geproduceerd, overgebracht, verkocht, verbruikt of geretourneerd. U kunt tevens alle huidige exemplaren van een bepaald serie- of lotnummer in de database vinden. Dit doet u met behulp van de functies Artikeltracering en [Posten zoeken](ui-find-entries.md).  
@@ -30,7 +30,7 @@ Deze functies zijn vooral handig tijdens het uitvoeren van kwaliteitscontroles w
 
 ## <a name="to-trace-item-tracked-items"></a>Artikelen met artikeltracering traceren  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeltracering** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeltracering** in en kies vervolgens de gerelateerde koppeling.  
 2.  In de filtervelden boven aan de pagina geeft u de specifieke artikelnummers op of een filter voor de artikelnummers die u wilt traceren.  
 3.  Selecteer in het veld **Onderdelen weergeven** of u ook wilt zien waar de onderdelen voor de artikelen vandaan komen. U beschikt over de volgende opties in dit veld.  
 
@@ -59,7 +59,7 @@ Deze functies zijn vooral handig tijdens het uitvoeren van kwaliteitscontroles w
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>Artikelen met artikeltracering zoeken met Posten zoeken  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Posten zoeken** in en selecteer de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Posten zoeken** in en selecteer vervolgens de gerelateerde koppeling  
 2. Kies **Acties** > **Zoeken op** > **Zoeken op artikelverwijzing**.
 3. Voer in de velden **Serienr.** en **Lotnr.** de artikeltraceringsnummers in die u wilt traceren.  
 4. Kies de actie **Zoeken** om alle exemplaren van het serie- of lotnummer in de database te zoeken.  

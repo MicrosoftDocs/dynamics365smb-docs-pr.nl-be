@@ -1,21 +1,21 @@
 ---
-title: Vooruitbetalingen instellen | Microsoft Docs
-description: Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U vereist mogelijk een borgsom voordat u artikelen produceert in opdracht, of u vereist mogelijk betaling voordat u artikelen naar een klant verscheept. Met de vooruitbetalingsfunctionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur.
+title: Vooruitbetalingen instellen
+description: Leer hoe u Business Central zo configureert dat u vooruitbetalingen in Business Central kunt gebruiken om borgsommen te factureren en te innen van klanten en borgsommen over te maken aan leveranciers.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: prepayment
-ms.date: 04/01/2021
+ms.search.keyword: prepayment
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 22afcee500b852395627cc28cb66f8863f8a198b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a8b647e52457fc4bc2c7377ad6d4fb4f40d6dc58
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773917"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446327"
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
-Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie Vooruitbetaling gebruiken. Met de functionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers, en ervoor zorgen dat alle gedeeltelijke betalingen worden geboekt tegen een factuur. Zie voor meer informatie [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md).
+Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie Vooruitbetaling gebruiken. Met de functionaliteit voor vooruitbetalingen kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers, en ervoor zorgen dat alle gedeeltelijke betalingen worden geboekt tegen een factuur. Zie voor meer informatie [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md).
 
 Voor u vooruitbetalingsfacturen kunt boeken, moet u de boekingsrekening instellen in het grootboek en moet u nummerreeksen instellen voor de vooruitbetalingsdocumenten. U moet een account opgeven voor vooruitbetalingen met betrekking tot verkopen en een account voor vooruitbetalingen met betrekking tot aankopen. U kunt dezelfde boekingsrekeningen opgeven die moeten worden gebruikt voor alle vooruitbetalingen die betrekking hebben op alle algemene bedrijfsboekingsgroepen of algemene productboekingsgroepen, of u kunt specifieke accounts voor specifieke boekingsgroepen opgeven voor respectievelijk verkoop en inkoop. Dit is afhankelijk van de vereisten van uw bedrijf voor het bijhouden van vooruitbetalingen.  
 
@@ -32,7 +32,7 @@ Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of d
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Vooruitbetalingsrekeningen toevoegen aan de boekingsgroepinstellingen  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Boekingsgroepinstellingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Boekingsgroepinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Op de pagina **Boekingsgroepinstellingen** vult u de volgende velden in:  
 
     - **Vooruitbetalingsrekening verkoop**  
@@ -45,13 +45,13 @@ Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Nummerreeks instellen voor vooruitbetalingsdocumenten  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Instellingen van verkoop en tegoeden** de volgende velden in:  
 
    - **Geboekte vooruitbetalingsfactuurnrs.**
    - **Geboekte vooruitbetalingscreditnotanrs.**
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Inkoopinstellingen** de volgende velden in:
 
     - **Geboekte vooruitbetalingsfactuurnrs.**
@@ -63,13 +63,13 @@ Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Vooruitbetalingspercentages instellen voor artikelen, klanten en leveranciers  
 Voor een artikel kunt u een standaardvooruitbetalingspercentage instellen voor alle klanten, een specifieke klant of een klantenprijsgroep.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een artikel en kies vervolgens de actie **Vooruitbetalingspercentages**.  
 3. Vul op de pagina **Vooruitbetalingspercentages verkoop** de benodigde velden in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Voor een klant of leverancier kunt u één standaardvooruitbetalingspercentage instellen voor alle artikelen en alle typen verkoopregels. U voert dit op de klanten- of leverancierskaart in.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een klant.
 3. Vul het veld **Vooruitbetaling %** in.
 4. Herhaal de stappen voor andere voor klanten of leveranciers.  

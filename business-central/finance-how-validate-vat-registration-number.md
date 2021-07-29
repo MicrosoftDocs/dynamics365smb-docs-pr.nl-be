@@ -1,19 +1,19 @@
 ---
 title: Btw-nummers valideren
-description: Laat Business Central btw-registratienummers en andere bedrijfsinformatie voor uw contacten, klanten en leveranciers valideren, op basis van de VIES btw-nummervalidatieservice van de Europese Unie.
+description: Laat Business Central btw-registratienummers en andere bedrijfsinformatie voor uw contacten, klanten en leveranciers valideren, op basis van de EU VIES btw-nummervalidatieservice.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9e7c60e884ad65e209a2513d63c9434a90d9b449
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 093fec7b7d456f4145e8450d06f17f1aa78ad4c1
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770303"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543234"
 ---
 # <a name="validate-vat-registration-numbers"></a>Btw-nummers valideren
 
@@ -43,8 +43,6 @@ Er zijn een paar dingen waarmee u rekening moet houden met betrekking tot de VIE
 > Het is uw verantwoordelijkheid om te controleren of de gegevens kloppen. Soms worden gegevens met fouten geretourneerd door de VIES-service voor btw-nummervalidatie. Als de validatie mislukt, valideert u de btw-registratienummers op de [website](https://ec.europa.eu/taxation_customs/vies/), drukt u het resultaat af of slaat u het op een gedeelde locatie op, en voegt u vervolgens de koppeling toe aan de record voor uw klant, leverancier of contactpersoon. Zie voor meer informatie [Bijlagen, koppelingen en notities op kaarten en in documenten beheren](ui-how-add-link-to-record.md).
 
 ## <a name="validation-templates"></a>Validatiesjablonen
-
-[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
 
 U kunt de VIES-service gebruiken om ook andere bedrijfsinformatie, zoals het adres en het btw-nummer, te controleren. Maak op de pagina **Validatiesjablonen voor btw-nummers** een vermelding voor elk land/regio waarvoor u verdere validatie wilt krijgen, en specificeer vervolgens de informatie die u automatisch wilt laten valideren.  
 

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc1bf44ddf3886d57729fb28ba81c6e7580ce40
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1757f1c02bb6623f59996d372f544f224b94237e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775201"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445738"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Werk beheren tussen meerdere bedrijven in de bedrijfshub
 

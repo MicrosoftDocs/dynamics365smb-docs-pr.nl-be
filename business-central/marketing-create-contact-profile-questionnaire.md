@@ -1,6 +1,6 @@
 ---
 title: Profielen gebruiken om contacten te classificeren
-description: Profielvragenlijsten instellen om te helpen uw bedrijfscontactpersonen te classificeren
+description: Lees over het instellen van profielvragenlijsten om de profielen van uw zakelijke contacten te classificeren.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2021
-ms.openlocfilehash: 31321ce4cafd17efc8a7732c81e874df1a1d763a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/22/2021
+ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785510"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445538"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren
 U kunt profielvragenlijsten instellen die u wilt gebruiken wanneer u gegevens voor de profielen van de contacten invoert. Binnen elke vragenlijst kunt u de verschillende vragen instellen die u aan uw contacten wilt stellen.  
@@ -23,7 +23,7 @@ U kunt profielvragenlijsten instellen die u wilt gebruiken wanneer u gegevens vo
 U kunt ook de vragenlijst uitvoeren om automatisch een aantal vragen te beantwoorden op basis van de contact-, klant- of leveranciersgegevens.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Een profielvragenlijst toevoegen
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijstinstellingen** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Profielvragenlijstinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

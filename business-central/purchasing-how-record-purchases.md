@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115852"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445513"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Aankopen registreren met inkoopfacturen
 
@@ -49,7 +49,7 @@ U kunt leveranciersvelden op de inkoopfactuur op twee manieren invullen afhankel
 
 Hieronder wordt beschreven hoe u een inkoopfactuur maakt. De stappen zijn vergelijkbaar met de stappen voor een inkooporder. Het belangrijkste verschil is dat inkooporders extra velden en acties hebben voor de fysieke afhandeling van artikelen.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in het veld **Leverancier** de naam in van een bestaande leverancier.
 
     Overige velden op de pagina **Inkoopfactuur** worden nu ingevuld met de standaardinformatie over de geselecteerde leverancier. Als de leverancier niet is geregistreerd, volgt u deze stappen:

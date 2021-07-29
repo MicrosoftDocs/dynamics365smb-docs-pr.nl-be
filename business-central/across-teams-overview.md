@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074699"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446477"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integratie tussen Business Central en Microsoft Teams
 
@@ -33,11 +33,11 @@ De [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Teams biedt de volge
 
 Waar u zich ook bevindt in Teams, u kunt details over klanten, leveranciers en andere [!INCLUDE [prod_short](includes/prod_short.md)]-contacten opzoeken. Met deze functie kunt u niet alleen algemene informatie over contacten bekijken, maar krijgt u ook toegang tot interactiegeschiedenis, gerelateerde documenten en meer.
 
- [![Business Central-contacten opzoeken vanuit het opdrachtvak in Teams](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Business Central-contacten opzoeken vanuit het opdrachtvak in Teams.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 U kunt ook contactgegevens delen in een gesprek. Van daaruit hebben deelnemers ook toegang tot nog meer details over het contact.
 
- [![Business Central-contacten opzoeken vanuit het samenstelvak in Teams](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Business Central-contacten opzoeken vanuit het samenstelvak in Teams.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Zie voor meer informatie [Zoeken naar contacten vanuit Microsoft Teams](across-search-contacts-teams.md).
 
@@ -45,7 +45,7 @@ Zie voor meer informatie [Zoeken naar contacten vanuit Microsoft Teams](across-s
 
 Een koppeling naar een Business Central-record kopiëren en plakken in een Teams-gesprek om met uw collega's te delen. De app breidt de koppeling dan uit tot een compacte, interactieve kaart die informatie over de record weergeeft.
 
-[![Teams-integratie met Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integratie met Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Eenmaal in het gesprek kunnen u en collega's meer details over de record bekijken, gegevens bewerken en actie ondernemen zonder Teams te verlaten.
 
@@ -68,6 +68,7 @@ Zie voor meer informatie [Records delen in Microsoft Teams](across-working-with-
 
 [Veelgestelde vragen over Teams](teams-faq.md)  
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
+[Bedrijfs- en andere instellingen in Teams wijzigen](across-teams-settings.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

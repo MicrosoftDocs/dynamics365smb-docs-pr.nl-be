@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783414"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445934"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Overschakelen naar een ander bedrijf of een andere omgeving
 
@@ -23,7 +23,7 @@ ms.locfileid: "5783414"
 
 ## <a name="switch-to-another-environment"></a>Overschakelen op een andere omgeving
 
-Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], zijn de omgevingen waartoe u toegang hebt, beschikbaar op de Dynamics 365-startpagina. U kunt de pagina openen door het pictogram **Startprogramma** ![Startprogramma](media/app-launcher-icon.png "Het startprogramma biedt toegang tot meer functies") te kiezen en **Dynamics 365** te kiezen. Kies de tegel om naar uw standaardbedrijf in die omgeving te gaan. Er is één tegel voor elk type omgeving. Als u meer dan één omgeving van een bepaald type hebt, kunt u bij het kiezen van de tegel de omgeving kiezen die u wilt openen.
+Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], zijn de omgevingen waartoe u toegang hebt, beschikbaar op de Dynamics 365-startpagina. U kunt de pagina openen door het pictogram **Startprogramma** ![Startprogramma.](media/app-launcher-icon.png "Het startprogramma biedt toegang tot meer functies") te kiezen en **Dynamics 365** te kiezen. Kies de tegel om naar uw standaardbedrijf in die omgeving te gaan. Er is één tegel voor elk type omgeving. Als u meer dan één omgeving van een bepaald type hebt, kunt u bij het kiezen van de tegel de omgeving kiezen die u wilt openen.
 
 De volgende afbeelding toont tegels voor toegang tot productie- en sandboxomgevingen op de Dynamics 365-startpagina.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cb6ba334d4584d6e3ead25606a612686258eae9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ba9b99a7c205106b77386f297a361067b2227cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776828"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446084"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Statussen instellen voor serviceorders en reparaties
 
@@ -29,7 +29,7 @@ Voordat u een reparatiestatus kunt instellen, moet u servicestatusprioriteiten i
 
 ## <a name="to-set-up-service-status-priorities"></a>Servicestatusprioriteiten instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorderstatus** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceorderstatus** in en kies vervolgens de gerelateerde koppeling  
 2. Selecteer de serviceorderstatus waarvoor u een prioriteit wilt instellen.  
 3. Kies de gewenste prioriteit voor deze serviceorderstatus in het veld **Prioriteit**.  
 
@@ -37,7 +37,7 @@ Herhaal stap 2 en 3 totdat u de prioriteit voor elk van de vier statusopties heb
 
 ## <a name="to-set-up-a-repair-status"></a>Herstelstatus instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Herstelstatus** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Herstelstatus** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een nieuwe herstelstatus.  
 3. Vul de velden **Code** en **Omschrijving** in.  
 4. In het veld **Serviceorderstatus** kiest u de orderstatus waaraan u de herstelstatus wilt koppelen. In het veld **Prioriteit** wordt de prioriteit weergegeven van de serviceorderstatus die u hebt gekozen.  

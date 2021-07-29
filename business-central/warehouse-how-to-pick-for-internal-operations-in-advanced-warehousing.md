@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea056bf4255cf557c711113854821f9dece17cad
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771047"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445784"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Picken voor assemblage of productie in geavanceerde magazijnconfiguraties
 In geavanceerde magazijnconfiguraties waarbij de locatie is ingesteld voor het gebruik van picken en verzending, kunt u componenten voor productie- en assemblageactiviteiten kiezen via de pagina **Magazijnpick**.  
@@ -40,7 +40,7 @@ Als u een pick-verzoek wilt maken, bij zowel een pull- als een push-scenario, mo
 |Assemblageorder|Status wijzigen in Vrijgegeven.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Onderdelen picken op basis van het pickvoorstel  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Magazijndocumenten ophalen** en selecteer vervolgens de onderdeelregels van de vrijgegeven productieorder.  
 3.  Inspecteer en sorteer de regels om een efficiënte pickronde samen te stellen en combineer ze eventueel met andere voorstelregels zodat de werknemer zo min mogelijk tijd nodig heeft.  
 4.  Kies de actie **Pick maken**.  
@@ -52,7 +52,7 @@ Indien het gebied voor interne activiteit, zoals een productie-shopfloor, een st
 ## <a name="filling-the-consumption-bin"></a>De verbruiksopslaglocatie vullen
 In dit stroomdiagram wordt weergegeven hoe het veld **Opslaglocatie** op de productieordercomponentregels wordt ingevuld op basis van uw locatie-instellingen.
 
-![Stroomdiagram Opslaglocatie](media/binflow.png "BinFlow")  
+![Stroomdiagram Opslaglocatie.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Zie ook
 [Magazijnbeheer](warehouse-manage-warehouse.md)  

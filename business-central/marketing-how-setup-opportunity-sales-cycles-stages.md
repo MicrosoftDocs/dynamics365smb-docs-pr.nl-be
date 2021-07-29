@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: abd76dc3ee29f1e90ea067c2a915f635c3ec1a1e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ed6597816347830b6f304ea0c50976c67ed5c5d5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785460"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446136"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Verkoopcycli instellen voor opportunities en cyclusfasen
 Voordat u verkoopopportunities in gebruik kunt nemen, moet u verkoopcycli en verkoopcyclusfasen instellen. Een verkoopcyclus bestaat uit een reeks fasen vanaf het eerste contact tot aan het sluiten van een verkoop. Elke fase kan bepaalde vereisten hebben waaraan moet worden voldaan, zoals een verkoopofferte, voordat een opportunity naar de volgende fase kan gaan. U kunt ook aangeven of een fase kan worden overgeslagen. U kunt elk gewenst aantal verkoopcycli instellen en u kunt binnen een verkoopcyclus elk gewenst aantal verkoopcyclusfasen instellen.
@@ -25,7 +25,7 @@ Het implementeren van opportunityverkoopcycli betreft het instellen van de verko
 In dit onderwerp wordt ook beschreven hoe u taken en activiteiten instelt en hoe u taken toewijst aan activiteiten. Zie voor meer informatie [Activiteiten instellen met taken](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Opportunityverkoopcycluscodes instellen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopcycli** in en kies de gerelateerde koppeling. De pagina **Verkoopcycli** wordt geopend en bevat alle bestaande verkoopcycli.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopcycli** in en kies vervolgens de gerelateerde koppeling. De pagina **Verkoopcycli** wordt geopend en bevat alle bestaande verkoopcycli.
 2. Kies de actie **Nieuw** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Herhaal deze stappen om het gewenste aantal verkoopcycli in te stellen. Nadat u de opportunityverkoopcycli hebt ingesteld, kunt u de verschillende fases instellen binnen elke cyclus.
@@ -42,7 +42,7 @@ Nadat u de opportunityfasecyclus toevoegt, kunt u beginnen om verkoopopportuniti
 ## <a name="to-set-up-activities-with-tasks"></a>Activiteiten instellen met taken
 U kunt meerdere taken combineren, bijvoorbeeld taken die elk een stap in activiteiten vertegenwoordigen. Activiteittaken worden gerelateerd aan elkaar met een datumformule. U kunt activiteiten aan opportunities, verkopers of contacten toewijzen.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Activiteiten** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Activiteiten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** en vul indien nodig de velden in.
 3. Vul op het sneltabblad **Regels** de velden indien nodig in om een of meer taken in de activiteit te definiëren.
 
@@ -52,7 +52,7 @@ Wanneer u een taak hebt ingesteld, kunt u deze toewijzen aan een verkoopopportun
 > [!NOTE]  
 >   In deze procedure wordt beschreven hoe u activiteittaken toekent aan opportunities. de stappen zijn soortgelijk wanneer u taken toewijst aan contacten en verkopers.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunity's** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunities** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een opportunity en kies vervolgens de actie **Taken**.
 3. Kies op de pagina **Taakoverzicht** de actie **Taak maken**.
 4.  Vul op de pagina **Taak maken** de benodigde velden in.

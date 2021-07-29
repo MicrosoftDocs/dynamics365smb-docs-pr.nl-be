@@ -165,6 +165,7 @@
 #### [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md)
 #### [Afschrijving van vaste activa instellen](fa-how-setup-depreciation.md)
 #### [Afschrijvingsmethoden definiëren](fa-depreciation-methods.md)
+#### [Eigen afschrijvingsmethoden instellen](fa-how-setup-user-defined-depreciation-method.md)
 #### [Verzekering van vaste activa instellen](fa-how-setup-insurance.md)
 #### [Onderhoud van vaste activa instellen](fa-how-setup-maintenance.md)
 ### Magazijnbeheer instellen
@@ -265,10 +266,10 @@
 ##### Beheerder
 ###### [Overzicht van integratie](admin-powerbi-overview.md)
 ###### [Power BI-integratie mogelijk maken](admin-powerbi-setup.md)
-##### Ontwerper
+##### Rapportmaker
 ###### [Aan de slag met het maken van rapporten](across-how-use-financials-data-source-powerbi.md)
 ###### [Rapporten maken voor het weergeven van lijstgegevens](across-how-use-powerbi-reports-factbox.md)
-##### Consument
+##### Zakelijke gebruiker
 ###### [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md)
 ###### [Werken met Business Central-gegevens in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [De Business Central-apps gebruiken in Power BI](across-powerbi-business-central-apps.md)
@@ -449,6 +450,7 @@
 ### [Financiële rapporten](finance-reports.md)
 ### Tegoeden beheren
 #### [Overzicht van debiteuren](receivables-manage-receivables.md)
+#### [Debiteurenrapporten en -analyses](receivables-reports.md)
 #### Betalingen automatisch vereffenen en bankrekeningen reconciliëren
 ##### [Overzicht van betalingsvereffening](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)
@@ -466,6 +468,7 @@
 
 ### Betalingsverplichtingen beheren
 #### [Overzicht van crediteuren](payables-manage-payables.md)
+#### [Crediteurenrapporten en -analyses](payables-reports.md)
 #### Betalingen uitvoeren
 ##### [Betalingen uitvoeren](payables-make-payments.md)
 ##### [Werken met dagboeken](ui-work-general-journals.md)
@@ -664,6 +667,7 @@
 
 ## Vast activum
 ### [Overzicht van vaste activa](fa-manage.md)
+### [Rapporten en analyses voor vaste activa](fa-reports.md)
 ### [Vaste activa aanschaffen](fa-how-acquire.md)
 ### [Vaste activa onderhouden](fa-how-maintain.md)
 ### [Vaste activa verzekeren](fa-how-insure.md)
@@ -893,15 +897,8 @@
 ##### [Leveranciers voor automatische betalingsvoorstellen instellen](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Betalingsdagboeksjablonen en -batches maken](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Elektronische betalingen testen](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Betalingsbestanden afdrukken](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [SEPA-betalingen activeren](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
-##### [SEPA-betalingen in andere valuta's dan de euro indienen](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
+##### [Betalingsbestanden exporteren](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Incasso via domiciliëring](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [Domiciliëringen instellen](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
-##### [Domiciliëringsregels bewerken en verwijderen](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
-##### [Domiciliëringen testen](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
-##### [Domiciliëringen exporteren en boeken](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
-##### [Domiciliëringsvoorstellen genereren](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 ##### [CODA-bankafschriften](LocalFunctionality/Belgium/coda-bank-statements.md)
 ##### [CODA-afschriften vereffenen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [CODA-afschriften automatisch overbrengen en boeken](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
@@ -1002,16 +999,14 @@
 ##### [Grootboekposten exporteren naar een XML-bestand](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Vereisten voor rapporteren van verklaringen over handel in goederen](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Bankieren en betalingen
+##### [Betalingsbeheer](LocalFunctionality/France/payment-management.md)
 ##### [Betalingsadressen instellen](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
-##### [Betalingsstatussen instellen](LocalFunctionality/France/how-to-set-up-payment-statuses.md)
-##### [Betalingsstappen instellen](LocalFunctionality/France/how-to-set-up-payment-steps.md)
 ##### [Betalingsklassen instellen](LocalFunctionality/France/how-to-set-up-payment-classes.md)
-##### [Betalingsstroken archiveren](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Betalingsstroken maken](LocalFunctionality/France/how-to-create-payment-slips.md)
 ##### [Betalingen exporteren](LocalFunctionality/France/how-to-export-payments.md)
-##### [Instellingsparameters voor betalingsbeheer exporteren of importeren](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-##### [Betalingsbeheer](LocalFunctionality/France/payment-management.md)
 ##### [Betalingsstroken boeken](LocalFunctionality/France/how-to-post-payment-slips.md)
+##### [Betalingsstroken archiveren](LocalFunctionality/France/how-to-archive-payment-slips.md)
+##### [Instellingsparameters voor betalingsbeheer exporteren of importeren](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### Hoofdfinanciën
 ##### [Grootboek](LocalFunctionality/France/general-ledger.md)
 ##### [Grootboekposten vereffenen](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -1554,6 +1549,7 @@
 #### Alge&meen
 ##### [Een boekingsdatumwaarschuwing instellen](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Wettelijke informatie invoeren](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+##### [Gegevens over fraudepreventie verzenden](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [De extensie GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [De extensie GetAddress.io UK Postcodes instellen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 
@@ -1577,7 +1573,7 @@
 ## Beveiliging en bescherming
 ### [Overzicht van beveiliging en bescherming (alleen in het Engels)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Privacy
-### [Privacy (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+### [Privacy (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Naleving
 ### [Conformiteitsoverzicht](compliance/compliance-overview.md)
 ### [Toepassingsnaleving](compliance/compliance-application-compliance.md)

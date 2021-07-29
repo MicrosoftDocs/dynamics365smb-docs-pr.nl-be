@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: a8ada1c8488e8c5dec581db98dccf02d89da21c3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216444"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543259"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Verkooprapporten en analyses in Business Central
 
@@ -31,7 +31,7 @@ De volgende tabel beschrijft enkele van de belangrijkste rapporten in verkooprap
 |**Klant - Verkooplijst**|119|Toont het verkoopoverzicht voor een periode. De lijst is bedoeld voor de belastingdienst en de douane. U kunt desgewenst alleen klanten opnemen voor wie de totale verkoopcijfers een minimumbedrag overschrijden. U kunt ook aangeven of u de adresgegevens van de klanten in de lijst wilt weergeven.<br>De lijst is gebaseerd op de verkoop (LV) die is vastgelegd in klantenposten. Onder aan de lijst wordt de totale gerapporteerde verkoop weergegeven in lokale valuta. Het totaal is gebaseerd op de klanten die in de lijst zijn opgenomen, dat wil zeggen: de klanten die zijn geselecteerd met de filters op het sneltabblad Klant en waarvan de totale verkoop groter is dan het bedrag in het veld **Bedragen (LV) groter dan** op het sneltabblad **Opties**.|
 |**Klant - Saldo t/m datum**|121|Bevat een gedetailleerd saldo voor geselecteerde klanten. Gebruik het rapport bijvoorbeeld bij het afsluiten van een boekhoudperiode of boekjaar.|
 |**Klant - Proefbalans**|129|Bevat een gedetailleerd saldo voor geselecteerde klanten. Met de lijst kunt u controleren dat het saldo van een klantboekingsgroep op een bepaalde datum gelijk is aan het saldo van de bijhorende grootboekrekening. Gebruik het rapport bijvoorbeeld bij het afsluiten van een boekhoudperiode of boekjaar. Als u een meer gedetailleerde versie van dit type rapport nodig heeft, gebruikt u het rapport **Proef- en saldibalans klantgegevens** (104).|
-|**Verkoopstatistiek**|112|Bevat verkoop, winst, factuur- en contantkortingen in de lokale valuta en winstpercentages per klant. De kosten en winst worden gegeven als oorspronkelijk en geherwaardeerd. De oorspronkelijke kosten en winst zijn berekend op het moment van boeken en de geherwaardeerde kosten en winst weerspiegelen wijzigingen in de oorspronkelijke kosten van de verkochte artikelen. Het kostenwaarderingsbedrag in het rapport is het verschil tussen de oorspronkelijke kosten en de geherwaardeerde kosten.<br>De cijfers zijn verdeeld in drie perioden. U kunt de lengte van deze perioden selecteren, waarbij ze beginnen op een geselecteerde datum. De lijst bevat ook kolommen voor bedragen vóór en na de drie perioden. Gebruik het rapport om bijvoorbeeld een analyse te maken van de opbrengsten per klant en opbrengstenontwikkeling. |
+|**Verkoopstatistiek**|112|[!INCLUDE [reports-sales-statistics](includes/reports-sales-statistics.md)] |
 |**Beschikbaar voor levering**|209|Bevat informatie over de beschikbaarheid van artikelen voor verzending op verkoopdocumenten. U bepaalt of u de status van elk document of van elke verkoopregel in de lijst wilt weergeven. Wanneer u de lijst afdrukt, kunt u ook het aantal dat voor verzending beschikbaar is, bijwerken in het veld **Te verzenden aantal** op de verkoopregels. Vervolgens kunt u op basis van de lijst bepalen welke documenten u wilt boeken.<br>Er is ook een mogelijkheid waarmee u de hoeveelheid te verzenden goederen kunt instellen. **opmerking**: dit rapport is niet beschikbaar voor geavanceerde magazijnfunctionaliteit.|
 |**Status van magazijnverzending**|7313|Dit rapport kan gebruikt worden voor alle locaties waar het veld **Verzending vereist** is geselecteerd. Het rapport **Verzendstatus magazijn** toont alle niet-geboekte magazijnverzendingsdocumenten, inclusief de locaties, magazijncodes, documentstatus, hoeveelheden, enzovoort. Dit rapport is perfect om een overzicht te krijgen.|
 |**Voorraad - Picklijst**|813|Geeft een lijst met verkooporders weer waarin een artikel is opgenomen. De volgende gegevens worden voor elk artikel weergegeven: verkooporderregel met naam van de klant, variantcode, vestigingscode, opslaglocatiecode, verzenddatum, te verzenden aantal en maateenheid. Het te verzenden aantal wordt voor elk artikel opgeteld. U kunt de lijst gebruiken wanneer artikelen uit de voorraad worden verzameld.<br>**opmerking**: dit rapport is niet beschikbaar voor geavanceerde magazijnfunctionaliteit.|

@@ -1,18 +1,18 @@
 ---
-title: Help en ondersteuning
+title: Resources voor Help en ondersteuning
 description: Zoek producthelp, begeleiding en probleemoplossingstips, en leer hoe u technische ondersteuning krijgt voor Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/09/2021
-ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.date: 07/09/2021
+ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115423"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543082"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
@@ -71,11 +71,20 @@ Zoek in de lijst met ingediende suggesties. Het kan zijn dat iemand al iets soor
 
 De sectie **Problemen oplossen** bevat technische informatie die uw beheerder of [!INCLUDE[prod_short](includes/prod_short.md)]-partner kan gebruiken om gebruikers te deblokkeren. Dit omvat informatie over het laatste foutbericht, de huidige versie van uw [!INCLUDE[prod_short](includes/prod_short.md)] en een koppeling om naar de pagina **Pagina-inspectie** te gaan. Zie voor meer informatie [Pagina's inspecteren in Business Central](across-inspect-page.md).  
 
-Als interne beheerder hebt u toegang tot het beheercentrum waar u de probleemoplossing kunt voortzetten. U kunt telemetrie bekijken, omgevingen beheren en u kunt gebruikerssessies beheren. Zie voor meer informatie [Technische informatie zoeken](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) en [Omgevingen beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) in de beheerinformatie.  
+Om u of uw ondersteunende partner te helpen bij het oplossen van problemen, kunt u extra logboekregistratie inschakelen in het gedeelte **Een probleem melden**. Vervolgens kunt u de aanvullende telemetrie analyseren in het beheercentrum of Application Insights, bijvoorbeeld.  
+
+Als interne beheerder hebt u toegang tot het beheercentrum waar u de probleemoplossing kunt voortzetten. U kunt telemetrie bekijken, omgevingen beheren en u kunt gebruikerssessies beheren. De volgende artikelen in het beheercentrum bevatten meer informatie:
+
+- [Technische informatie zoeken](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
+- [Omgevingen beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+- [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
+- [Verzenden van telemetrie inschakelen naar Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
 ## <a name="report-a-problem"></a>Een probleem melden
 
-Uw [!INCLUDE[prod_short](includes/prod_short.md)]-resellerpartner helpt u met technische ondersteuning. Deze sectie maakt het gemakkelijker voor u om contact met uw resellerpartner op te nemen als zij hun contactgegevens voor ondersteuning hebben ingediend. Als uw [!INCLUDE[prod_short](includes/prod_short.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft. Zie voor meer informatie [Ondersteuningsproblemen escaleren naar Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in de beheerinformatie.  
+Uw [!INCLUDE[prod_short](includes/prod_short.md)]-resellerpartner helpt u met technische ondersteuning. Deze sectie maakt het gemakkelijker voor u om contact met uw resellerpartner op te nemen als zij hun contactgegevens voor ondersteuning hebben ingediend. Als uw [!INCLUDE[prod_short](includes/prod_short.md)]-partner het probleem niet kan oplossen, kunnen zij een ondersteuningsticket openen bij Microsoft.  
+
+Zie voor meer informatie [Ondersteuningsproblemen escaleren naar Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in de beheerinformatie.  
 
 > [!NOTE]
 > Deze sectie is alleen beschikbaar als u hebt betaald voor een [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Als u zich hebt aangemeld voor een proefversie en [!INCLUDE[prod_short](includes/prod_short.md)] nog niet hebt aangeschaft, hebt u geen resellerpartner en kunt u geen contact opnemen met het ondersteuningsteam van Microsoft. U vindt een [!INCLUDE[prod_short](includes/prod_short.md)] Central-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner) voor meer informatie.  

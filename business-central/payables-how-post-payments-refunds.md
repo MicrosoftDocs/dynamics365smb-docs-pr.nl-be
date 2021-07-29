@@ -1,21 +1,21 @@
 ---
-title: Betalingen vereffenen met gerelateerde documenten en deze boeken | Microsoft Docs
-description: Beschrijft hoe u betalingen vastlegt die u doet aan leveranciers en terugbetalingen die u doet aan klanten.
+title: Betalingen en terugbetalingen vastleggen in het betalingsdagboek
+description: Lees hoe u op de pagina Betalingsdagboek betalingen vastlegt die u doet aan leveranciers en terugbetalingen die u doet aan klanten.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2021
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 1316bb7c5f1385ffef2ebe330d02e5a352e8561a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61a47f68de6466c177ab8683f4167a77ec04dc3f
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782075"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543209"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Betalingen en terugbetalingen vastleggen in het betalingsdagboek
 
@@ -37,16 +37,31 @@ Het betalingsdagboek is een dagboek dat voor het doen van betalingen is geoptima
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Betalingen in het betalingsdagboek doen
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsjournalen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de dagboekbatch die bedoeld is voor betalingen.
-3. Als u weet wie u wilt betalen of terugbetalen, vult u de velden handmatig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Als u weet wie u wilt betalen, vult u de velden handmatig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Als u de betaling wilt vereffenen met de gerelateerde factuur of creditnota, kiest u het veld **Vereffeningsnr.** op de pagina **Leveranciersposten vereffenen**, selecteert u de desbetreffende factuur of creditnota en kiest u vervolgens de knop **OK**.
 
     Veel velden, zoals **Documentbedrag** en **Vervaldatum** worden nu ingevuld met gegevens uit het geselecteerde document.
 5. U kunt ook de functie **Leveranciersbetalingen voorstellen** gebruiken. Alle vereffeningsinformatie en bedragen worden vervolgens ook ingevoerd op de dagboekregels. Zie voor meer informatie [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).
 
     Berichten begeleiden u bij het juist invullen van de vereiste velden.
-6.  Wanneer alle betalingsdagboekregels zijn ingevuld, kiest u de actie **Boeken**.
+6. Wanneer alle betalingsdagboekregels zijn ingevuld, kiest u de actie **Boeken**.
+
+
+## <a name="to-issue-a-refund-check"></a>Een terugbetalingscheque uitgeven
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies de gerelateerde koppeling.
+2. Selecteer **Terugbetaling** in het veld **Documentsoort**.  
+3. Gebruik in het veld **Extern documentnr.** dit als referentie voor de terugbetalingscontrole (bijvoorbeeld het retourordernummer).  
+4. Selecteer **Klant** in het veld **Rekeningsoort** .  
+5. In het veld **Rekeningnummer** selecteert u het rekeningnummer van de klant waaraan de terugbetalingscheque wordt uitgegeven.  
+6. Voer in het veld **Bedrag** het bedrag in dat u wilt terugbetalen.  
+7. Selecteer in het veld **Tegenrekeningsoort** **Bankrekening**.  
+8. Selecteer in het veld **Tegenrekeningnr.** de bankrekening waarvan de cheque afkomstig zal zijn.  
+9. Kies in het veld **Vereffeningsnr.** de documenten die een terugbetaling vereisen.  
+10. Wanneer alle betalingsdagboekregels zijn voltooid, kiest u de actie **Boeken/afdrukken**, kies dan de actie **Boeken en afdrukken** en selecteer **Ja**.  
+  
 
 ## <a name="see-also"></a>Zie ook
 [Chequebetalingen doen](payables-how-work-checks.md)  
