@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443166"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649899"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Migratie van klantgegevens met sjablonen voorbereiden
 
@@ -124,6 +124,7 @@ Een record waarvan de gegevens op deze manier worden toegepast is voltooid, omda
 > [!NOTE]
 > Als de gegevens in de tabellen in het configuratiepakket datums bevatten, bijvoorbeeld boekingsdatums in facturen, worden de datums in aanmerking genomen in de tijdzone die is gespecificeerd in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Een record maken vanuit een configuratiesjabloon
 
 U kunt de structuur van de gegevens in de gegevenssjablonen gebruiken om uw informatie een voor een te converteren naar records in de database. Hiervoor gebruikt u de functie **Instance maken**. Dit is een miniatuurversie van de gegevensmigratie en kan nuttig zijn voor het maken van prototypen of het behandelen van kleinere taken voor het maken van gegevens.  
@@ -137,6 +138,15 @@ De volgende stappen illustreren hoe u een artikelkaart maakt van een artikelgege
 5. Om de nieuwe artikelkaart te bekijken kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 6. Open de nieuwe artikelkaart.  
 7. Vouw verschillende sneltabbladen uit en controleer of de gegevens erop kloppen.  
+
+## <a name="to-use-conversion-templates"></a>Conversiesjablonen gebruiken
+
+U kunt contacten omzetten in klanten, leveranciers en medewerkers. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Een contact omzetten in een klant, leverancier of medewerker
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en selecteer vervolgens het juiste contact. 
+2. Selecteer op de contactkaart **Acties**, vervolgens **Functies** en selecteer vervolgens **Maken als klant, leverancier, bank of werknemer**.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Een configuratiesjabloon gebruiken voor een record
 
@@ -152,6 +162,9 @@ De volgende procedure is gebaseerd op een nieuwe klantenkaart.
 3. Selecteer op de pagina **Klantensjablonen** een van de sjablonen en kies vervolgens de knop **OK**.  
 
 De standaardwaarden van de gekozen klantensjabloon worden ingevoegd in de klantenkaart.
+
+> [!NOTE]
+> U kunt Sjabloon toepassen niet gebruiken om velden voor klanten, leveranciers en dergelijke leeg te maken. In plaats daarvan moet u de functionaliteit **Bewerken in Excel** gebruiken. Zie voor meer informatie [Bewerken in Excel](across-work-with-excel.md#edit-in-excel).
 
 ## <a name="see-also"></a>Zie ook
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 813ac2b7c8fe074e9c1f2572f947b92156a56d1a
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325440"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649799"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Een bedrijf instellen met RapidStart Services
 U kunt een nieuw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen.  
@@ -42,7 +42,7 @@ Met de volgende onderdelen kunt u de instelling van uw bedrijf versnellen:
 |Definieer en valideer de instellingswaarden van de klant voor al uw kerngebieden, zoals bedrijfsgegevens grootboek, verkoop of productie.|[Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md)|  
 |Configureer hoofdgegevensrecords met behulp van sjablonen om bestaande klantgegevens voor te bereiden op migratie.|[Migratie van klantgegevens voorbereiden](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Definieer tabellen en velden, valideer bestaande klantgegevens en migreer gegevens naar de [!INCLUDE[prod_short](includes/prod_short.md)]-database.|[Klantgegevens migreren](admin-migrate-customer-data.md)|
-|Hergebruik van bedrijfsconfiguraties in andere bedrijven voorbereiden|[Aangepaste configuratiepakketten voor bedrijven maken](admin-how-to-create-custom-company-configuration-packages.md)|
+|Bereid u voor om bedrijfsconfiguraties in andere bedrijven opnieuw te gebruiken (in de inhoud voor ontwikkelaars en beheerders).|[Aangepaste configuratiepakketten voor bedrijven maken](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
 |Oplossingen zoeken voor bekende problemen in de RapidStart Services-toolkit.|[Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Zie ook  

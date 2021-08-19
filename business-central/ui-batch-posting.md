@@ -1,6 +1,6 @@
 ---
 title: Meerdere documenten tegelijkertijd boeken
-description: In plaats van afzonderlijke documenten één voor één te boeken kunt u meerdere niet-geboekte documenten in een lijst selecteren voor directe of geplande batchboeking.
+description: Leer hoe u meerdere niet-geboekte documenten in een lijst selecteert voor onmiddellijke of geplande batchboeking in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446059"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649699"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Meerdere documenten tegelijkertijd boeken
 
@@ -78,7 +78,7 @@ Als de taakwachtrij de verkooporder niet kan boeken, wordt de status gewijzigd i
 1. Kies vanuit het document dat u hebt geprobeerd te boeken via boeken op de achtergrond, het veld **Status taakwachtrij** dat de waarde **Fout** bevat.
 2. Bekijk de foutmelding en los het probleem op.
 
-U kunt ook op de pagina **Logposten taakwachtrij** kijken of de verkooporder met succes is geboekt. Zie voor meer informatie [Status of fouten in de projectwachtrij weergeven](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+U kunt ook op de pagina **Logposten taakwachtrij** kijken of de verkooporder met succes is geboekt. Voor meer informatie zie het gedeelte [De taakwachtrij bewaken](#monitor-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Een taakwachtrijpost maken voort batchboeking van verkooporders
 
@@ -115,8 +115,13 @@ In de volgende procedure wordt getoond hoe u het rapport **Batchboeken verkoopor
 8. Voer in het veld **Begintijd** 4 PM in.
 9. Kies de actie **Status instellen op Gereed**.
 
-Verkooporders die binnen de gedefinieerde filters vallen, worden nu elke week om 16:00 uur geboekt.
+Verkooporders die binnen de gedefinieerde filters vallen, worden nu elke werkdag om 16:00 uur geboekt.
 
+## <a name="monitor-the-job-queue"></a>De taakwachtrij bewaken
+
+Als u boeken op de achtergrond instelt met taakwachtrijen, maak er dan een regelmatige taak van om de taakwachtrij te controleren om eventuele problemen op te vangen. U kunt de status volgen op de pagina **Taakwachtrijposten**. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).  
+
+Als beheerder kunt u [Application Insights](/azure/azure-monitor/app/app-insights-overview) gebruiken om telemetrie te verzamelen en te analyseren die u kunt gebruiken om problemen te identificeren. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in de ontwikkelaar- en beheerinhoud.  
 
 ## <a name="see-also"></a>Zie ook
 

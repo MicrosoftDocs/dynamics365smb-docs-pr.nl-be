@@ -1,5 +1,5 @@
 ---
-title: Administratieve taken in Business Central | Microsoft Docs
+title: Beheertaken in Business Central
 description: Sommige taken in Business Central moeten centraal worden beheerd en ingesteld. Zie om welke taken het gaat en wat u hiermee doet.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 13f713756fc1f771243686c549c22f3ce0974b6b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 959a56e4bb7fcaac57b05d30dca4939ed2f8576d
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777228"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660143"
 ---
 # <a name="administration"></a>Beheer
 
@@ -23,17 +23,17 @@ Centrale beheertaken worden meestal uitgevoerd door één rol in het bedrijf. De
 
 Voor het succes van nieuwe zakelijke software is het van belang dat vanaf het begin de juiste instellingswaarden worden ingevoerd. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een aantal begeleide instellingen waarmee u hoofdgegevens kunt instellen. Zie [Business Central instellen](setup.md) voor meer informatie.
 
+> [!NOTE]
+> U kunt een nieuw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Zie voor meer informatie [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
 Ongeacht of u RapidStart Services gebruikt om instellingswaarden te implementeren of ze handmatig invoert in het nieuwe bedrijf, u kunt uw installatiebeslissingen ondersteunen met enkele algemene aanbevelingen voor bepaalde instellingsvelden die, als ze niet goed zijn ingesteld, de oplossing inefficiënt laten werken.  
 
 Een supergebruiker of gebruiker kan het kader voor gegevensuitwisseling instellen zodat gebruikers gegevens in bank- en salarisbestanden kunnen importeren en exporteren. bijvoorbeeld voor verschillende processen in kasbeheer. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.
 
-> [!NOTE]
-> U kunt een nieuw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Zie voor meer informatie [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
-
-De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.  
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.  
 
 |**Als u dit wilt doen**|**Zie**|  
-|------------|-------------|  
+|------------|-------------|
 |Definiëren wie zich mag aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)] door gebruikers te maken in het Microsoft 365-beheercentrum volgens de productlicenties.|[Gebruikers maken volgens licenties](ui-how-users-permissions.md)|
 |Machtigingen toewijzen aan gebruikers, machtigingssets wijzigen en gebruikers groeperen voor eenvoudig machtigingsbeheer.|[Machtigingen toewijzen aan gebruikers en groepen](ui-how-users-permissions.md)|
 |Gebruikers toevoegen, machtigingen en de toegang tot gegevens beheren en rollen toewijzen.|[Profielen beheren](admin-users-profiles-roles.md)|
@@ -50,8 +50,17 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 |Versleutel gegevens op de [!INCLUDE[prod_short](includes/prod_short.md)]-server door nieuwe coderingssleutels te genereren of bestaande sleutels te importeren die u op de server inschakelt.|[Gegevensversleuteling beheren](admin-manage-data-encryption.md)|
 |Verbind Dynamics 365 Sales met [!INCLUDE[prod_short](includes/prod_short.md)] om naadloze integratie te krijgen tussen klantrelaties en orderverwerking in het potentiële klant-naar-contanten proces.|[Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen en de oplossing uitbreiden met apps.|[Aanpassen [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
-|Controleer het gebruik en probleemoplossingssessies.|[Omgevingstelemetrie in het Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Beheer gebruikerssessies, inclusief het annuleren van een sessie als de gebruiker is geblokkeerd.|[Sessies beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|  
+
+## <a name="administration-in-the-admin-center"></a>Beheer in het beheercentrum
+
+Interne en gedelegeerde beheerders hebben toegang tot het [!INCLUDE [prod_short](includes/prod_short.md)]-beheercentrum, waar ze [!INCLUDE [prod_short](includes/prod_short.md)]-omgevingen kunnen configureren, bewaken en er problemen mee kunnen oplossen. De volgende tabel beschrijft enkele van de taken, met koppelingen naar de artikelen waarin deze worden beschreven.  
+
+|**Als u dit wilt doen**|**Zie**|  
+|------------|-------------|
+|Lees meer over de tools die voor u beschikbaar zijn om u te helpen bij het oplossen van problemen.|[Technische ondersteuning](/dynamics365/business-central/dev-itpro/technical-support)|
+|Gebruik bewaken en problemen met sessies oplossen|[Omgevingstelemetrie in het Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
+|Beheer gebruikerssessies, inclusief het annuleren van een sessie als de gebruiker is geblokkeerd.|[Sessies beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Configureer de tenant om telemetriegegevens naar Azure Application Insights te verzenden voor een betere analyse en probleemoplossing.|[Verzenden van telemetrie inschakelen naar Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 

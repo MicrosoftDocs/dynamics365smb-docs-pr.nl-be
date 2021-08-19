@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b1d9893364d7472759a478877ebec49ace5e9647
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441305"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649874"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
 
@@ -37,9 +37,10 @@ Nadat taakwachtrijen zijn ingesteld en werken, kan de status als volgt verandere
 
 Nadat een taak is voltooid, wordt deze verwijderd uit de lijst met taakwachtrijposten, tenzij het een terugkerende taak is. Als het een terugkerende taak is, wordt het veld **Vroegste begintijd** aangepast, zodat het de volgende keer weergeeft dat de taak naar verwachting wordt uitgevoerd.  
 
-## <a name="to-view-status-or-errors-in-the-job-queue"></a>Status of fouten in de taakwachtrij weergeven
+## <a name="monitor-status-or-errors-in-the-job-queue"></a>Status of fouten in de taakwachtrij bewaken
 
 Gegevens die worden gegenereerd wanneer een taakwachtrij wordt uitgevoerd, worden opgeslagen in de database, zodat u taakwachtrijfouten kunt oplossen.  
+
 Voor elk item in de wachtrij kunt u de status bekijken en wijzigen. Wanneer u een taakwachtrij-item maakt, wordt de status ingesteld op **Afwachten**. U kunt de status bijvoorbeeld instellen op **Klaar** en weer op **Afwachten**. Als u dat niet doet, wordt statusinformatie automatisch bijgewerkt.
 
 De volgende tabel beschrijft de waarden van het veld **Status**.
@@ -53,11 +54,12 @@ De volgende tabel beschrijft de waarden van het veld **Status**.
 | Gereedgemeld | Geeft aan dat de taakwachtrijpost is voltooid. |
 
 ### <a name="to-view-status-for-any-job"></a>De status voor een taak weergeven
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Taakwachtrijposten** een taakwachtrijpost en kies vervolgens de actie **Logboekvermeldingen**.  
 
 > [!TIP]
-> Met [!INCLUDE [prod_short](includes/prod_short.md)] online kunt u ook de status van taakwachtrijposten bekijken met Application Insights in Microsoft Azure. Zie voor meer informatie [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in de [!INCLUDE [prod_short](includes/prod_short.md)] Help voor ontwikkelaars en beheerders.
+> U kunt de status van items in de wachtrij ook bekijken met Application Insights in Microsoft Azure voor meer diepgaande analyse op basis van telemetrie. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) en [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in de [!INCLUDE [prod_short](includes/prod_short.md)] ontwikkelaar- en beheerinhoud.
 
 ## <a name="the-my-job-queue-part"></a>Het onderdeel Mijn taakwachtrij
 In het onderdeel **Mijn taakwachtrij** in uw rolcentrum worden de taakwachtrijposten weergegeven die u hebt gestart, maar die nog niet zijn voltooid. Standaard is het onderdeel niet zichtbaar, zodat u het moet toevoegen aan uw rolcentrum. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.  
@@ -65,9 +67,9 @@ In het onderdeel **Mijn taakwachtrij** in uw rolcentrum worden de taakwachtrijpo
 Dit onderdeel toont welke documenten met uw id in het veld **Toegewezen gebruikers-id** worden verwerkt of in de wachtrij staan, inclusief posten die verband houden met boeking op de achtergrond. Het onderdeel kan u in één oogopslag laten zien of er een fout is opgetreden bij het boeken van een document en of er fouten zijn opgetreden in een taakwachtrijpost. Met het onderdeel kunt u een documentboeking annuleren als deze niet wordt uitgevoerd.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Een fout in het gedeelte Mijn taakwachtrij weergeven
+
 1. Kies in een post met de status **Fout** de actie **Fout weergeven**.
 2. Bekijk de foutmelding en los het probleem op.
-
 
 ## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Voorbeelden van wat kan worden gepland met behulp van een taakwachtrij
 
@@ -86,6 +88,10 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] hebt geïntegreerd met [!IN
 Taakwachtrijen zijn een effectief hulpmiddel om de uitvoering van bedrijfsprocessen op de achtergrond te plannen, zoals wanneer meerdere gebruikers proberen verkooporders te boeken, maar er slechts één order tegelijk kan worden verwerkt.  
 
 Zie voor meer informatie [Boeking op de achtergrond instellen met taakwachtrijen](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+
+## <a name="monitor-the-job-queue-with-telemetry"></a>De taakwachtrij bewaken met telemetrie
+
+Als beheerder kunt u [Application Insights](/azure/azure-monitor/app/app-insights-overview) gebruiken om telemetrie te verzamelen en te analyseren die u kunt gebruiken om problemen te identificeren. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in de ontwikkelaar- en beheerinhoud.  
 
 ## <a name="see-also"></a>Zie ook
 

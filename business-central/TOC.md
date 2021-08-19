@@ -236,7 +236,6 @@
 #### [Instellingsgegevens van klanten verzamelen](admin-gather-customer-setup-values.md)
 #### [Migratie van klantgegevens met sjablonen voorbereiden](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Klantgegevens migreren](admin-migrate-customer-data.md)
-#### [Aangepaste configuratiepakketten voor bedrijven maken](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### E-mail instellen
 #### [E-mail instellen](admin-how-setup-email.md)
@@ -534,7 +533,11 @@
 #### [Vaste verrekenprijs bijwerken](finance-how-to-update-standard-costs.md)
 #### [Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Kosten rapporteren en afstemmen met het grootboek
+##### [Rapportage van kosten](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md)
+#### [Voorraadkosten aanpassen en afstemmen met grootboek met taakwachtrij](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Cashflow beheren
 #### [Cashflowoverzicht](finance-cash-flow-overview.md)
@@ -722,6 +725,8 @@
 ### [Volledige planning, MPS of MRP uitvoeren](production-how-to-run-mps-and-mrp.md)
 ### [Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md)
 ### [Relaties tussen vraag en aanbod bijhouden](production-how-track-demand-supply.md)
+### [Inkoopvoorstel](production-about-planning-functionality.md#requisition-worksheet)
+### [Planningsboodschappen](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
@@ -1604,9 +1609,9 @@
 ### [Pagina's inspecteren](across-inspect-page.md)
 ### [Databasevergrendelingen weergeven](admin-view-database-locks.md)
 ### [Tabelgegevens weergeven](admin-view-table-information.md)
-### [Een sandboxomgeving maken](across-how-create-sandbox-environment.md)
 ### [Nieuwe functies van tevoren inschakelen](admin-feature-management.md)
 ### [Gebruikers onboarden met controlelijsten](admin-checklist.md)
+### [Sandbox-omgevingen](across-how-create-sandbox-environment.md)
 ## Business Central aanpassen
 ### [Overzicht van aanpassing](ui-customizing-overview.md)
 ### [Pagina's aanpassen voor profielen](ui-personalization-manage.md)

@@ -4,15 +4,15 @@ description: Houd bedragen in verschillende valuta's bij met valutacodes en laat
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/03/2021
+ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441634"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660193"
 ---
 # <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
 
@@ -29,6 +29,9 @@ Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het
 > Als u een extra rapportagevaluta wilt gebruiken voor financiële rapportage, zorg er dan voor dat u de beperkingen begrijpt. Zie voor meer informatie [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Valuta's
+
+> [!NOTE]  
+> In [!INCLUDE[prod_short](includes/prod_short.md)] wordt dit valuta genoemd als u op zoek bent naar realtime informatie over wisselkoersen of historische koersen. Zie naast dit artikel ook [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md).
 
 U geeft de valutacodes op de pagina **Valuta's** op, inclusief extra informatie en instellingen die nodig zijn voor elke valutacode.
 

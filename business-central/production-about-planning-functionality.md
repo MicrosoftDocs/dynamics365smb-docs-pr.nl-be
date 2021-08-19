@@ -1,6 +1,6 @@
 ---
-title: Informatie over het plannen van functionaliteit | Microsoft Docs
-description: Het planningssysteem houdt rekening met alle gegevens over vraag en voorzieningen, berekent het nettoresultaat, en doet suggesties voor het in overeenstemming brengen van de voorzieningen en de vraag.
+title: Informatie over het plannen van functionaliteit
+description: Het planningssysteem in Dynamics 365 Business Central houdt rekening met alle gegevens over vraag en aanbod, berekent het nettoresultaat, en doet suggesties voor het in overeenstemming brengen van het aanbod en de vraag.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: dc3ef67f2f7578d81878b24662b97e47bc87a327
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782050"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6636028"
 ---
 # <a name="about-planning-functionality"></a>Informatie over het plannen van functionaliteit
 
@@ -37,9 +37,12 @@ Een ander doel van het planningssysteem is ervoor te zorgen dat de voorraad niet
 
 ## <a name="planning-calculation"></a>Planningsberekening
 
-Het planningssysteem wordt gestuurd door de verwachte en werkelijke vraag van klanten, alsmede de parameters van de voorraadinkoopvoorstellen. Het uitvoeren van de planningsberekening leidt ertoe dat de toepassing specifieke acties (planningsboodschappen) voorstelt die genomen dienen te worden met betrekking tot mogelijke aanvullingen door leveranciers, transfers tussen magazijnen of productie. Als er al aanvullingsorders zijn, kunnen de voorgestelde acties bestaan uit het vergroten of versnellen van de orders om te voorzien in veranderingen in de vraag.  
+Het planningssysteem wordt gestuurd door de verwachte en werkelijke vraag van klanten, alsmede de parameters van de voorraadinkoopvoorstellen. Het uitvoeren van de planningsberekening leidt ertoe dat de toepassing specifieke acties ([planningsboodschappen](production-how-to-run-mps-and-mrp.md#action-messages)) voorstelt die genomen dienen te worden met betrekking tot mogelijke aanvullingen door leveranciers, transfers tussen magazijnen of productie. Als er al aanvullingsorders zijn, kunnen de voorgestelde acties bestaan uit het vergroten of versnellen van de orders om te voorzien in veranderingen in de vraag.  
 
 De basis van de planningsroutine is gelegen in de bruto-naar-netto-berekening. De nettobehoeften sturen de geplande ordervrijgaven, die worden gepland op basis van de bewerkingsplaninformatie (geproduceerde artikelen) of de artikeldoorlooptijd (ingekochte artikelen). De aantallen van geplande ordervrijgaven zijn gebaseerd op de planningsberekening en worden beïnvloed door de parameters die zijn ingesteld op de afzonderlijke artikelkaarten.  
+
+> [!TIP]
+> Het planningssysteem is afhankelijk van hoe uw organisatie vestigingen gebruikt. Zie voor meer informatie [Plannen met of zonder vestigingen](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planning met handmatige transferorders
 

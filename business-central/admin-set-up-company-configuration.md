@@ -1,6 +1,6 @@
 ---
-title: Bedrijfsconfiguratie instellen | Microsoft Docs
-description: Het implementatieproces begint met de gegevens die de Business Central-oplossing vereist. U bundelt al deze gegevens in configuratiepakketten.
+title: Een bedrijfsconfiguratie instellen
+description: Stel als partner Business Central goed in voor uw klant met standaard- of klantspecifieke configuraties die u bundelt in configuratiepakketten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3eefa0fcb40b4e925ca653f223f2d97ed10f370e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777253"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649724"
 ---
 # <a name="set-up-company-configuration"></a>Een bedrijfsconfiguratie instellen
-Het implementatieproces begint met de Microsoft-partner. Het is de verantwoordelijkheid van de partner om de configuratiedetails uit te werken en een pakket op te stellen dat een klant eenvoudig kan toepassen. Voordat u een nieuw bedrijf maakt, moet u plannen hoe dit zal worden geconfigureerd. U moet rekening houden met elementaire instellingsgegevens en de soorten gegevens die uw [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing nodig zal hebben. U bundelt al deze gegevens in configuratiepakketten.
+Het implementatieproces begint met de Microsoft-partner. Het is uw verantwoordelijkheid als partner om de configuratiedetails uit te werken en een pakket te maken dat een klant eenvoudig kan toepassen. Voordat u een nieuw bedrijf maakt in [!INCLUDE [prod_short](includes/prod_short.md)] online of on-premises, moet u plannen hoe het wordt geconfigureerd. U moet rekening houden met elementaire instellingsgegevens en de soorten gegevens die uw [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing nodig zal hebben. U bundelt al deze gegevens in configuratiepakketten.
 
-RapidStart Services bieden u ook de hulpmiddelen die u gebruikt om uw oude gegevens te migreren, zoals klanten en leveranciers.  
+RapidStart Services biedt u ook de hulpmiddelen die u gebruikt om eventuele oude gegevens te migreren, zoals klanten en leveranciers.  
 
 Het is raadzaam om configuratiepakketten te maken met de meeste van de instellingentabellen al ingevuld, zodat klanten slechts enkele instellingen hoeven te wijzigen nadat het pakket is toegepast. Bijvoorbeeld wanneer u een nieuw bedrijf maakt, worden de tabellen, **Nr.-reeksen** en **Nr.-reeksregel**, gevuld met een verzameling nummerreeksen en begingetallen. De bijbehorende **Nr.-reeks**-velden in de instellingentabellen worden ook automatisch ingevuld. U hoeft de nummerreeksen en andere basisinstellingsgegevens niet zelf in te voeren. U kunt alle standaardgegevens die worden gebruikt met RapidStart Services, ook handmatig wijzigen met behulp van het configuratiewerkblad.  
 
@@ -33,11 +33,14 @@ In de volgende tabel wordt een reeks taken beschreven met koppelingen naar de be
 |**Als u dit wilt doen**|**Onderwerp**|  
 |------------|-------------|  
 |Plan een bedrijfsconfiguratie door het configuratiewerkblad in te vullen.|[De bedrijfsconfiguratie beheren in een werkblad](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Maak een configuratiepakket, pas een pakket aan, wijs tabellen aan een pakket toe, controleer of bewerk bestaande klantgegevens, maak het nieuwe bedrijf en verplaats vervolgens testgegevens naar de productieomgeving.|[Een configuratiepakket voorbereiden](admin-how-to-prepare-a-configuration-package.md)| 
+|Maak een configuratiepakket, pas een pakket aan, wijs tabellen aan een pakket toe, controleer of bewerk bestaande klantgegevens, maak het nieuwe bedrijf en verplaats vervolgens testgegevens naar de productieomgeving.|[Een configuratiepakket voorbereiden](admin-how-to-prepare-a-configuration-package.md)|
 
-## <a name="see-also"></a>Zie ook  
+U kunt ook configuratiepakketten maken met standaardconfiguraties die u steeds opnieuw kunt gebruiken. Zie voor meer informatie [Standaardconfiguratiepakketten voor bedrijven instellen](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) in de ontwikkelaar- en beheerinhoud.  
+
+## <a name="see-also"></a>Zie ook
+
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Beheer](admin-setup-and-administration.md)
+[Beheer](admin-setup-and-administration.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: 'Ontwerpdetails: Verwachte kostenboeking | Microsoft Docs'
+title: 'Ontwerpdetails: verwachte kostenboeking'
 description: Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht artikel, die u vastlegt voordat u de factuur voor het artikel ontvangt.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: 181b0168dc73aba7bb4d09b7cda7a2ce7028e142
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215290"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649849"
 ---
 # <a name="design-details-expected-cost-posting"></a>Ontwerpdetails: Verwachte kostenboeking
 Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht artikel, die u vastlegt voordat u de factuur voor het artikel ontvangt.  
@@ -29,10 +29,22 @@ Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht
 
  Ter ondersteuning van reconciliatie en traceerbaarheid bevat de gefactureerde waardepost het verwachte kostenbedrag dat is geboekt om de interimrekeningen te vereffenen.  
 
-## <a name="example"></a>Opmerking  
- Het volgende voorbeeld toont verwachte kosten als het selectievakje **Autom. voorraadwaarde boeken** en **Verw. kostprijs naar GB boeken** zijn ingeschakeld op de pagina **Voorraadinstelling**.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Vereisten voor het boeken van verwachte kosten
 
- U boekt een inkooporder als ontvangen. De verwachte kosten zijn LV 95,00.  
+Om verwachte kosten te kunnen boeken moet u het volgende doen:
+1. Selecteer op de pagina **Voorraadinstellingen** het selectievakje **Autom. voorraadwaarde boeken** en het selectievakje **Verw. kostprijs naar GB boeken**.
+2. Stel in welke tussenrekeningen moeten worden gebruikt tijdens het boekingsproces van de verwachte kosten.  
+
+  Controleer op de pagina **Voorraadboekingsinstellingen** de velden **Voorraadrekening** en **Voorraadrekening (tussenrek.)** voor de **Vestigingscode en Voorraadboekingsgroepcode** van het artikel dat u gaat aanschaffen. Zie voor meer informatie over deze accounts [Ontwerpdetails - Rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md).
+3. Controleer op de pagina **Boekingsgroepinstellingen** het veld **Voorraadcorrectiesrek. (tussenrek.)** voor de **Bedrijfsboekingsgroep** en de **Prod.-boekingsgroep** die u gaat gebruiken.
+4. Wanneer u een inkooporder maakt, is de standaardinstelling dat het veld **Leveranciersfactuurnr** verplicht is. U moet dat uitschakelen op de pagina **Instellingen Inkoop en betalingen** door het veld **Extern documentnr. verplicht** uit te schakelen.
+
+## <a name="example"></a>Voorbeeld  
+
+> [!NOTE]  
+> De rekeningnummers die in dit voorbeeld worden gebruikt, zijn alleen ter referentie en zullen in uw systeem anders zijn. Stel ze in zoals aangegeven in de vereisten hierboven.
+
+U boekt een inkooporder als ontvangen. De verwachte kosten zijn LV 95,00.  
 
  **Waardeposten**  
 
@@ -73,7 +85,7 @@ Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht
 
  **Grootboekposten**  
 
-|Boekingsdatum|Grootboekrekening|Rekeningnr. (En-US demo)|Bedrag|Volgnummer|  
+|Boekingsdatum|Grootboekrekening|Rekeningnr. (slechts voorbeelden!)|Bedrag|Volgnummer|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |15-01-20|Voorraadtussenrekening (tussenrek.)|5530|95,00|4|  
 |15-01-20|Voorraadrekening (tussenrek.)|2131|-95,00|3|  
