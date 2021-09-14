@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435655"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440453"
 ---
 # <a name="register-new-items"></a>Nieuwe artikelen registreren
 
@@ -85,6 +85,23 @@ Als u hetzelfde artikel bij meerdere leveranciers inkoopt, moet u informatie ove
 6. Herhaal stap 2 t/m 5 voor elke leverancier waarbij u het artikel wilt kunnen inkopen.
 
 Deze leveranciers worden vervolgens weergegeven op de pagina **Artikelleveranciers**, dat u opent vanuit de artikelkaart, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
+
+## <a name="set-up-item-substitutions"></a>Artikelvervangingen instellen
+
+U kunt artikelen instellen om vervangende artikelen te hebben, zoals andere artikelen die kunnen worden gebruikt in plaats van het oorspronkelijke artikel.
+
+### <a name="to-make-an-item-substitution"></a>Een artikelvervanging maken
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
+2. Zoek het relevante artikel en klik vervolgens op **Artikelnr.** om de artikelkaart te openen.  
+3. Kies de actie **Verwant**, kies dan **Artikel** en dan **Vervangingen** om de pagina Artikelvervangingspost te openen.  
+4. Kies het veld **Vervangingsartikelnr.** en selecteer vervolgens het vervangingsartikel uit de lijst.
+5. Ga indien nodig door met het invullen of wijzigen van andere velden op de pagina.
+
+Wanneer het gevraagde aantal artikelen, bijvoorbeeld op een verkoopregel, de hoeveelheid die in voorraad beschikbaar is overschrijdt, wordt een bericht weergegeven dat er vervangende artikelen bestaan.
+
+> [!NOTE]  
+> Houd er rekening mee dat artikelvervangingen er niet automatisch toe leiden dat een artikel wordt vervangen door een ander artikel, bijvoorbeeld bij het maken van een verkooporder of in een stuklijst. In plaats daarvan wordt u erop gewezen dat er een vervanging voor u beschikbaar is.
 
 ## <a name="categories-attributes-and-variants"></a>Categorieën, kenmerken en varianten
 

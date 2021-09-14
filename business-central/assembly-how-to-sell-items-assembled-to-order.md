@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
+ms.search.keywords: kit, kitting, substitute items
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 34e869166ed3b556a91ba6c0793c60455cebfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 05060eaf315ac85f50509aec3df46ec3e9319deb
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435382"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440628"
 ---
 # <a name="sell-items-assembled-to-order"></a>Assembleren voor order-artikelen verkopen
 Als het veld **Assemblagebeleid** op de artikelkaart van assemblageartikel **Op order assembleren**, wordt niet verwacht dat het artikel in voorraad is, en moet het worden samengesteld op een verkooporder. Wanneer u het artikel invoert op een verkooporderregel, wordt automatisch een assemblageorder gemaakt en gekoppeld aan de verkooporder.  
@@ -57,12 +57,15 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 10. Kies in de verkooporder de actie **Vrijgeven** om de assemblageafdeling te informeren dat het assemblageproces kan worden gestart.  
 11. Voer de stappen uit van de montage van de artikelen die in deze procedure worden verkocht in de montageafdeling. Zie [Artikelen assembleren](assembly-how-to-assemble-items.md) voor meer informatie.  
 
+> [!NOTE]  
+> Houd er rekening mee dat artikelvervangingen er niet automatisch toe leiden dat een artikel wordt vervangen door een ander artikel, bijvoorbeeld bij het maken van een verkooporder of in een stuklijst. In plaats daarvan wordt u erop gewezen dat er een vervanging voor u beschikbaar is.
+
 ## <a name="see-also"></a>Zie ook  
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Nieuwe artikelen registreren](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

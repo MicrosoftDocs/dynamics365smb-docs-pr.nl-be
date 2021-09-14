@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 06/07/2021
+ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: c3d12e316e78516d355c7d1313cd37bbeedb7a29
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 06465c028c0721c5992a334400cdc975120bdeb7
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216065"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482465"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Proefversies en abonnementen
 
@@ -77,6 +77,11 @@ Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende ti
 [!INCLUDE[prod_short](includes/prod_short.md)] online maakt gebruik van Microsoft 365. Als uw bedrijf een ander type e-mailconfiguratie gebruikt, kan de wederverkoper u helpen beslissen hoe te migreren, en of u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises moet gebruiken.  
 
 U kunt ook contact opnemen met het [[!INCLUDE[prod_short](includes/prod_short.md)]-verkoopteam](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+Zie voor meer informatie over wat u kunt doen met [!INCLUDE [prod_short](includes/prod_short.md)] [Voorbereiden op zakendoen](ui-get-ready-business.md) en [Zakelijke functionaliteit](across-business-functionality.md).  
 
 ## <a name="getting-started-with-sandboxes"></a>Aan de slag met sandboxes
 

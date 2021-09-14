@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543259"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440403"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Verkooprapporten en analyses in Business Central
 
@@ -36,6 +36,7 @@ De volgende tabel beschrijft enkele van de belangrijkste rapporten in verkooprap
 |**Status van magazijnverzending**|7313|Dit rapport kan gebruikt worden voor alle locaties waar het veld **Verzending vereist** is geselecteerd. Het rapport **Verzendstatus magazijn** toont alle niet-geboekte magazijnverzendingsdocumenten, inclusief de locaties, magazijncodes, documentstatus, hoeveelheden, enzovoort. Dit rapport is perfect om een overzicht te krijgen.|
 |**Voorraad - Picklijst**|813|Geeft een lijst met verkooporders weer waarin een artikel is opgenomen. De volgende gegevens worden voor elk artikel weergegeven: verkooporderregel met naam van de klant, variantcode, vestigingscode, opslaglocatiecode, verzenddatum, te verzenden aantal en maateenheid. Het te verzenden aantal wordt voor elk artikel opgeteld. U kunt de lijst gebruiken wanneer artikelen uit de voorraad worden verzameld.<br>**opmerking**: dit rapport is niet beschikbaar voor geavanceerde magazijnfunctionaliteit.|
 |**Voorraad: verkoopbackorders**|718|Geeft een lijst met orderregels weer waarvoor de verzenddatum is overschreden. De volgende gegevens worden voor de afzonderlijke orders voor elk artikel weergegeven: nummer, klantnaam, telefoonnummer van de klant, verzenddatum, orderaantal en aantal in backorder. In de lijst wordt ook weergegeven of er andere artikelen voor de klant zijn nabesteld.|
+|**Voorraad - Verkooporders**|708|Geeft een lijst met orders weer die nog niet zijn verzonden, en de artikelen in die orders. Ordernummer, naam van de klant, verzenddatum, orderaantal, vertraagd aantal, openstaand aantal en eenheidsprijs, evenals potentieel kortingspercentage en -bedrag worden weergegeven. Het aantal nabestelde artikelen en het openstaande aantal en bedrag worden voor elk artikel opgeteld. Gebruik het rapport om vast te stellen of er momenteel verzendproblemen zijn of dat deze worden verwacht.|
 
 
 

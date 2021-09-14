@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f43141d4280fcadedc8072194f0d4d52e50cdf2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441280"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440478"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>IC-transactieboeking instellen
 
-Als u een transactie (zoals een verkoopdagboekregel) wilt verzenden vanaf een bedrijf en de bijbehorende transactie (zoals een inkoopdagboekregel) automatisch wilt maken in het partnerbedrijf, moeten de betrokken bedrijven afspreken welk rekeningschema en welke set dimensies ze willen gebruiken voor IC-transacties. Het IC-rekeningschema kan bijvoorbeeld een vereenvoudigde versie van het rekeningschema van het moederbedrijf zijn. Elk bedrijf koppelt het volledige rekeningschema aan het gedeelde IC-rekeningschema, en elk bedrijf koppelt de dimensies aan de IC-dimensies.  
+Als u een transactie (zoals een verkoopdagboekregel) wilt verzenden vanaf een bedrijf en de bijbehorende transactie (zoals een inkoopdagboekregel) automatisch wilt maken in het partnerbedrijf, moeten de betrokken bedrijven afspreken welk rekeningschema en welke set dimensies ze willen gebruiken met IC-transacties. Het IC-rekeningschema kan bijvoorbeeld een vereenvoudigde versie van het rekeningschema van het moederbedrijf zijn. Elk bedrijf koppelt het volledige rekeningschema aan het gedeelde IC-rekeningschema, en elk bedrijf koppelt de dimensies aan de IC-dimensies.  
 
-U moet ook een IC-partnercode instellen voor elk partnerbedrijf, waarover alle bedrijven het eens zijn, en deze vervolgens toewijzen aan klant- en leverancierskaarten respectievelijk door het veld **IC-partnercode** in te vullen.  
+U moet ook een IC-partnercode instellen voor elk partnerbedrijf, waarover alle bedrijven het eens zijn, en die vervolgens toewijzen aan klant- en leverancierskaarten respectievelijk door het veld **IC-partnercode** in te vullen.  
 
 Als u IC-regels maakt of ontvangt bij artikelen, kunt u uw eigen artikelnummer gebruiken of kunt u de artikelnummers van uw partner instellen voor elk gewenst artikel. Dit kunt u doen in het veld **Artikelnr. leverancier** of in het veld **Gemeenschappelijk artikelnr.** op de artikelkaart. U kunt ook de functie **Artikelkruisverwijzing** gebruiken. Als u de nummers van uw artikelen aan uw omschrijvingen van de leveranciersartikelen wilt toewijzen, opent u de kaart en kiest u vervolgens de actie **Kruisverwijzingen** om kruisverwijzingen tussen uw artikelomschrijvingen en die van de IC-partner in te stellen. Zie voor meer informatie [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md). 
 
@@ -34,7 +34,7 @@ Als u IC-verkooptransacties uitvoert waarin resources zijn opgenomen, moet u het
 ## <a name="to-set-intercompany-partners"></a>IC-partners instellen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-partners** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
-3. Vul op de pagina **IC-partner** indien nodig de velden in.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul op de pagina **IC-partner** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u geen bestandslocaties gebruiken om transacties over te brengen naar uw partners omdat [!INCLUDE[prod_short](includes/prod_short.md)] geen toegang heeft tot uw lokale netwerk. Daarom is als u **Bestandslocatie** kiest in het veld **Overdrachtstype**, het veld **Pad naar map** niet beschikbaar. In plaats daarvan wordt het bestand gedownload naar de map Downloads op uw computer. U kunt het bestand vervolgens bijvoorbeeld per e-mail naar iemand in het partnerbedrijf sturen. Voor een directer proces raden we u aan om geen bestandslocatie maar de optie **E-mail** te kiezen.
@@ -65,7 +65,7 @@ Als u uw IC-partners wilt toestaan het rekeningschema te importeren, moet u het 
 3. Geef de bestandsnaam en de locatie op waar u het XML-bestand wilt opslaan en klik vervolgens op **Opslaan**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Het IC-rekeningschema importeren  
-Wanneer een bestand bestaat voor het definiërende IC-rekeningschema, kunnen IC-partners het importeren om ervoor te zorgen dat ze dezelfde rekeningen hebben.  
+Wanneer een bestand bestaat voor het definiëren van het IC-rekeningschema, kunnen IC-partners het importeren om ervoor te zorgen dat ze dezelfde rekeningen hebben.  
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-rekeningschema** in en kies de gerelateerde koppeling.  
 2. Kies op de pagina **IC-rekeningschema** de actie **Importeren**.  
 3. Selecteer de bestandsnaam en de locatie van het XML-bestand en klik op **Openen**.  
@@ -82,7 +82,7 @@ Als rekeningen in het IC-rekeningschema dezelfde rekeningnummers hebben als de c
 3. Voor elke IC-grootboekrekening waarnaar die niet automatisch is gekoppeld, vult u het veld **Toegewezen grootboekrek.nr.** in.  
 
 ## <a name="to-set-up-default-intercompany-partner-general-ledger-accounts"></a>Standaardgrootboekrekeningen voor IC-partners instellen  
-Wanneer u een IC-verkoopregel of -inkoopregel maakt om te verzenden als uitgaande transactie, moet u een rekening uit het IC-rekeningschema opgeven als standaardrekening waarop het bedrag in het bedrijf van uw partner wordt geboekt. Op de pagina **Rekeningschema** kunt u een standaard IC-grootboekrekening voor partners opgeven voor rekeningen die u vaak gebruikt op uitgaande IC-verkoop- of inkoopregels. Voor uw tegoedenrekeningen kunt u bijvoorbeeld de corresponderende schuldenrekeningen opgeven uit het IC-rekeningschema.  
+Wanneer u een IC-verkoopregel of -inkoopregel maakt om te verzenden als uitgaande transactie, moet u een rekening uit het IC-rekeningschema opgeven als standaardrekening waarop het bedrag in het bedrijf van uw partner wordt geboekt. Op de pagina **Rekeningschema** kunt u een standaard IC-grootboekrekening voor partners opgeven voor rekeningen die u regelmatig gebruikt op uitgaande IC-verkoop- of inkoopregels. Voor uw tegoedenrekeningen kunt u bijvoorbeeld de corresponderende schuldenrekeningen opgeven uit het IC-rekeningschema.  
 
 Wanneer u nu een grootboekrekening opgeeft in het veld **Tegenrekeningnr.** op een IC-regel met **IC-partner** in het veld **Rekeningsoort**, wordt het veld **Grootboekrekeningnr. IC-partner** automatisch ingevuld.  
 

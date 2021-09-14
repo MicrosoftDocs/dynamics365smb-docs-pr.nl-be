@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0afad844bc58089548885b8e7dcce8c4b947cea9
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6636054"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440553"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Verbinding maken met Microsoft Dataverse
 
@@ -111,15 +111,16 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!NOTE]
 > Deze sectie is alleen relevant voor Business Central online-tenants die worden gehost door Microsoft. Online tenants die worden gehost door ISV's en installaties op locatie worden niet beïnvloed.
 
-In april 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is het verificatietype van Office365 (gebruikersnaam/wachtwoord) aan het aflopen. Voor meer informatie zie [Afschaffing van het Office365-verificatietype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Bovendien beëindigt [!INCLUDE[prod_short](includes/prod_short.md)] in maart 2022 het gebruik van op clientgeheimen gebaseerde service-to-service-verificatie voor online tenants, en vereist het gebruik van op certificaten gebaseerde service-to-service-verificatie voor verbindingen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] online-tenants die worden gehost door ISV's en installaties op locatie kunnen de Office365-verificatie blijven gebruiken die is ingesteld door hun Microsoft-partner.
+In april 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is het verificatietype van Office365 (gebruikersnaam/wachtwoord) aan het aflopen. Voor meer informatie zie [Afschaffing van het Office365-verificatietype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Bovendien beëindigt [!INCLUDE[prod_short](includes/prod_short.md)] in maart 2022 het gebruik van op clientgeheimen gebaseerde service-to-service-verificatie voor online tenants, en vereist het gebruik van op certificaten gebaseerde service-to-service-verificatie voor verbindingen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online-tenants die worden gehost door ISV's en on-premises installaties, kunnen clientgeheimauthenticatie blijven gebruiken om verbinding te maken met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 Om te voorkomen dat integraties worden verstoord _moet u upgraden_ om op certificaten gebaseerde verificatie te gebruiken. Hoewel de wijziging is gepland voor maart 2022, raden we u ten zeerste aan zo snel mogelijk te upgraden. In de volgende stappen wordt beschreven hoe u kunt upgraden naar verificatie op basis van certificaten. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Uw Business Central online-verbinding upgraden om op certificaten gebaseerde verificatie te gebruiken
+
 > [!NOTE]
 > Verificatie op basis van certificaten is beschikbaar in Business Central 2021 releasewave 1 en hoger. Als u een eerdere versie gebruikt, moet u vóór maart 2022 een update naar Business Central 2021-releasewave 1 plannen. Zie [Updates plannen](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates) voor meer informatie. Als u problemen ondervindt, neemt u contact op met uw partner of ondersteuning.
 
-1. Controleer in het [Business Central-beheercentrum]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center of u Business Central 2021-releasewave 1 of hoger (versie 18 of hoger) gebruikt.
+1. Controleer in het [Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) of u Business Central 2021 releasewave 1 of hoger (versie 18 of hoger) gebruikt.
 2. Afhankelijk van of u integreert met Dynamics 365 Sales, voert u een van de volgende handelingen uit:
    * Als u dat doet, opent u de pagina **Microsoft Dynamics 365-verbinding instellen**.
    * Als u dat niet doet, opent u de pagina **Dataverse 365-verbinding instellen**.

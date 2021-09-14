@@ -5,23 +5,26 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 06/23/2021
+ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: 073b89f7c80035da12f329f752b64dc8142f309d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325596"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440522"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online aanpassen met extensies
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services.
 
 > [!NOTE]
-> Als u extensies wilt installeren vanuit AppSource extensies per tenant wilt toevoegen, moet u de juiste machtigingen hebben. U moet lid zijn van de gebruikersgroep D365 EXTENSIEBEHEER of u moet beschikken over de machtigingenset D365 EXTENSIEBEHEER. Als u een beheerder bent, kunt u gebruikersgroepen en machtigingen toewijzen aan andere gebruikers in uw bedrijf.
+> Als u extensies wilt installeren of verwijderen vanuit AppSource of extensies per tenant wilt toevoegen, moet u de juiste machtigingen hebben. U moet ofwel lid zijn van de gebruikersgroep UITGEBREID BEHEER - - BEHEERDER of u moet de machtigingenset UITGEBR. BEHEER - - BEHEERDER hebben. Als u een beheerder bent, kunt u gebruikersgroepen en machtigingen toewijzen aan andere gebruikers in uw bedrijf.
+>
+> Als u de functionaliteit van een extensie wilt gebruiken, zoals pagina's openen, rapporten uitvoeren, acties selecteren, enzovoort, moeten aan u de machtigingensets zijn toegewezen die als onderdeel van de extensie zijn geïnstalleerd.
 
-Als u de functionaliteit van een extensie wilt gebruiken, zoals pagina's openen, rapporten uitvoeren, acties selecteren, enzovoort, moeten aan u de machtigingensets zijn toegewezen die als onderdeel van de extensie zijn geïnstalleerd.
+> [!NOTE]  
+> De machtigingenset **UITGEBREID BEHEER - BEHEERDER** is geïntroduceerd in Business Central 2021 releasewave 1, als vervanging voor de machtigingenset **D365 EXTENSIEBEHEER** in eerdere versies.
 
 > [!IMPORTANT]  
 > Het uploaden van extensies per huurder en de installatie van AppSource-extensies wordt niet ondersteund via de pagina **Extensiebeheer** voor lokale installaties. U kunt AppSource-extensies niet on-premises installeren, inclusief in op Docker gebaseerde implementaties.

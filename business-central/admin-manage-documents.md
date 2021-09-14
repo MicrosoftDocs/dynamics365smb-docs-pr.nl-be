@@ -6,19 +6,19 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e29e3c0c4ce7b6cfc5ce3f38cd67781c377991ad
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543057"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482182"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Opslag beheren door documenten te verwijderen of gegevens te comprimeren
 
 Een centrale rol, bijvoorbeeld de toepassingsbeheerder, moet regelmatig de verzamelde historische documenten verwijderen of comprimeren.  
 
 > [!TIP]
-> Zie voor informatie over andere manieren om de hoeveelheid gegevens die in een database is opgeslagen, te verminderen [Gegevens in Business Central-databases verminderen](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in de Help voor ontwikkelaars en IT-professionals.
+> Zie voor informatie over andere manieren om de hoeveelheid gegevens die in een database is opgeslagen, te verminderen [Gegevens in Business Central-databases verminderen](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in de documentatie voor ontwikkelaars en IT-professionals.
 
 ## <a name="delete-documents"></a>Documenten verwijderen
 
@@ -34,7 +34,13 @@ Serviceorders worden echter niet automatisch verwijderd als het totale aantal op
 
 ## <a name="compress-data-with-date-compression"></a>Gegevens comprimeren met datumcompressie
 
-U kunt gegevens comprimeren in [!INCLUDE [prod_short](includes/prod_short.md)] zodat u ruimte bespaart in de database, wat u in [!INCLUDE [prod_short](includes/prod_short.md)] online zelfs geld kan besparen. De compressie wordt gebaseerd op datums en werkt door meerdere oude vermeldingen te combineren tot één nieuwe vermelding. U kunt alleen posten uit afgesloten boekjaren comprimeren en alleen posten waarvan het veld **Open** is ingesteld op **Nee**.  
+U kunt gegevens comprimeren in [!INCLUDE [prod_short](includes/prod_short.md)] zodat u ruimte bespaart in de database, wat u in [!INCLUDE [prod_short](includes/prod_short.md)] online zelfs geld kan besparen. De compressie wordt gebaseerd op datums en werkt door meerdere oude vermeldingen te combineren tot één nieuwe vermelding. 
+
+U kunt posten comprimeren onder de volgende voorwaarden:
+
+* Ze komen uit afgesloten boekjaren
+* Het veld **Geopend** is ingesteld op **Nee**. 
+* Ze zijn minstens vijf jaar oud. Neem contact op met uw Microsoft-partner als u gegevens wilt comprimeren die minder dan vijf jaar oud zijn.
 
 U kunt bijvoorbeeld leveranciersposten van vorige boekjaren comprimeren zodat er voor elke rekening per maand slechts één creditpost en één debetpost is. De waarde van de nieuwe post is gelijk aan de som van alle gecomprimeerde posten. De toegewezen datum is de eerste dag van de gecomprimeerde periode, bijvoorbeeld de eerste dag van de maand (als u de posten per maand comprimeert). Na de compressie kunt u nog steeds van alle rekeningen de mutatie in het vorige boekjaar bekijken.
 
@@ -55,11 +61,12 @@ Wanneer u criteria voor de compressie definieert, kunt u de opties onder **Te be
 
 Na de compressie blijft de inhoud van de volgende velden altijd behouden: **Boekingsdatum**, **Leveranciersnr.**, **Documentsoort**, **Valutacode**, **Boekingsgroep**, **Bedrag**, **Restbedrag**, **Oorspronkelijk bedrag (LV)**, **Restbedrag (LV)**, **Bedrag (LV)**, **Inkoop (LV)**, **Factuurkorting (LV)**, **Contantkorting verleend (LV)** en **Contantkorting**.
 
-> [!NOTE]
-> Gecomprimeerde posten worden iets anders geboekt dan standaardboekingen. Dit is bedoeld om het aantal nieuwe grootboekposten dat wordt gecreëerd door datumcompressie te verminderen, en is vooral belangrijk wanneer u informatie bewaart, zoals dimensies en documentnummers. Met datacompressie worden als volgt nieuwe posten gemaakt:
->* Op de pagina **Grootboekposten** worden nieuwe posten gemaakt met nieuwe postnummers voor de gecomprimeerde posten. Het veld **Omschrijving** bevat **Datum gecomprimeerd** zodat de gecomprimeerde posten gemakkelijk te identificeren zijn. 
->* Op grootboekpagina's, zoals de pagina **Klantenposten** worden een of meer posten gemaakt met nieuwe postnummers. 
-> Het boekingsproces creëert hiaten in de nummerreeks voor posten op de pagina **Grootboekposten**. Die nummers worden alleen toegewezen aan de posten op de grootboekpagina's. Het nummerbereik dat aan de posten is toegewezen, is beschikbaar op de **pagina Grootboekjournaal** in de velden **Van volgnr.** en **Tot volgnr.**. 
+## <a name="posting-compressed-entries"></a>Gecomprimeerde posten boeken
+Gecomprimeerde posten worden iets anders geboekt dan standaardboekingen. Dit is bedoeld om het aantal nieuwe grootboekposten dat wordt gecreëerd door datumcompressie te verminderen, en is vooral belangrijk wanneer u informatie bewaart, zoals dimensies en documentnummers. Met datacompressie worden als volgt nieuwe posten gemaakt:
+* Op de pagina **Grootboekposten** worden nieuwe posten gemaakt met nieuwe postnummers voor de gecomprimeerde posten. Het veld **Omschrijving** bevat **Datum gecomprimeerd** zodat de gecomprimeerde posten gemakkelijk te identificeren zijn. 
+* Op grootboekpagina's, zoals de pagina **Klantenposten** worden een of meer posten gemaakt met nieuwe postnummers. 
+
+Het boekingsproces creëert hiaten in de nummerreeks voor posten op de pagina **Grootboekposten**. Die nummers worden alleen toegewezen aan de posten op de grootboekpagina's. Het nummerbereik dat aan de posten is toegewezen, is beschikbaar op de **pagina Grootboekjournaal** in de velden **Van volgnr.** en **Tot volgnr.**. 
 
 > [!NOTE]
 > Nadat u datacompressie heeft uitgevoerd, worden alle rekeningen in het grootboek vergrendeld. U kunt bijvoorbeeld leveranciers- of bankboekingen niet ongedaan maken voor rekeningen gedurende de periode waarvoor datums zijn gecomprimeerd.
@@ -67,13 +74,16 @@ Na de compressie blijft de inhoud van de volgende velden altijd behouden: **Boek
 Het aantal posten dat resulteert van een batchverwerking voor datumcompressie is afhankelijk van hoeveel filters u instelt, welke velden worden gecombineerd en welke periodelengte u kiest. Er zal steeds minstens één post worden gevormd. 
 
 > [!WARNING]
-> Tijdens de datumcompressie worden posten verwijderd. Het is daarom verstandig altijd eerst een reservekopie van de database te maken, voordat u de batchverwerking start.
+> Tijdens datumcompressie worden posten verwijderd. Het is daarom verstandig altijd eerst een reservekopie van de database te maken, voordat u de batchverwerking start.
 
 ### <a name="to-run-a-date-compression"></a>Een datumcompressie uitvoeren
 1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Gegevensbeheer** in en kies de desbetreffende koppeling.
 2. Ga op een van de volgende manieren te werk:
-    1. Als u een begeleide instelling wilt gebruiken om datumcompressie in te stellen voor een of meer soorten gegevens, kiest u **Guide voor gegevensbeheer**.
-    1. Om compressie in te stellen voor een individueel type gegevens, kiest u **Datumcompressie**, **Posten comprimeren** en kiest u vervolgens de gegevens die u wilt comprimeren.
+    * Als u een begeleide instelling wilt gebruiken om datumcompressie in te stellen voor een of meer soorten gegevens, kiest u **Guide voor gegevensbeheer**.
+    * Om compressie in te stellen voor een individueel type gegevens, kiest u **Datumcompressie**, **Posten comprimeren** en kiest u vervolgens de gegevens die u wilt comprimeren.
+
+   > [!NOTE]
+   > U kunt alleen gegevens comprimeren die ouder zijn dan vijf jaar. Neem contact op met uw Microsoft-partner als u gegevens wilt comprimeren die minder dan vijf jaar oud zijn.
 
 ## <a name="see-also"></a>Zie ook
 

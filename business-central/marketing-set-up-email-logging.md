@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437589"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482359"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>E-mailberichtuitwisselingen volgen tussen verkopers en contactpersonen
 
@@ -31,31 +31,36 @@ Vervolgens verbindt u [!INCLUDE[prod_short](includes/prod_short.md)] met Exchang
 
 Ga aan de slag met e-maillogboekregistratie in twee eenvoudige stappen:
 
-1. Verbind [!INCLUDE[prod_short](includes/prod_short.md)] met Exchange Online voor uw Microsoft 365-abonnement. Exchange Online behandelt uw e-mailberichten. We hebben deze stap eenvoudig gemaakt door een begeleide instelling te bieden. U hebt alleen uw beheerdersreferenties nodig voor uw beheerdersaccount in Microsoft 365. Start de guide door naar **Begeleide instelling** te gaan en vervolgens **E-maillogboekregistratie instellen** te kiezen.  
+1. Verbind [!INCLUDE[prod_short](includes/prod_short.md)] met Exchange Online voor uw Microsoft 365-abonnement. Exchange Online behandelt uw e-mailberichten. We hebben deze stap eenvoudig gemaakt door een begeleide instelling te bieden. U hebt alleen uw beheerdersreferenties nodig voor uw beheerdersaccount in Microsoft 365. Start de guide door naar **Begeleide instelling** te gaan en vervolgens de guide **E-maillogboekregistratie instellen** te kiezen.  
 
 2. Zorg ervoor dat geldige e-mailadressen zijn ingevoerd [!INCLUDE[prod_short](includes/prod_short.md)] voor uw verkopers en contacten, afhankelijk van of ze potentiële of bestaande klanten zijn. Om dit te doen opent u voor elke klant of verkoper de kaart **Contact** of **Verkoper/Koper** en kijkt u naar het veld **E-mail**.
 
 > [!Tip]
-> Nadat u de stappen in de guide hebt voltooid, kunt u controleren of de verbinding is geslaagd. Zoek **Marketinginstellingen**, kies **Proces**, dan **Functies** en dan **Instellingen voor e-maillogboekregistratie valideren**.
+> Nadat u de stappen in de guide hebt voltooid, kunt u controleren of de verbinding is geslaagd. Zoek **Marketinginstellingen** en selecteer **Toegang**, dan **Functies** en dan **Instellingen voor e-maillogboekregistratie valideren**.
 
 ## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Uitwisseling van e-mailberichten bekijken in het interactielogboek
-[!INCLUDE[prod_short](includes/prod_short.md)] maakt een post op de pagina **Interactielogboek** telkens wanneer een verkoper en een contactpersoon een e-mailbericht uitwisselen. Om het interactielogboek te bekijken opent u de kaart **Contact** of **Verkoper/Koper** voor de persoon en kiest u vervolgens **Historie** en vervolgens **Interactielogposten**. Er zijn een paar dingen die we met elke post in het logboek kunnen doen, bijvoorbeeld:
 
-- De inhoud bekijken van het e-mailbericht dat is uitgewisseld door te klikken op de actie **Bijlagen weergeven**.
-- Een e-mailuitwisseling veranderen in een opportunity. Als een item er veelbelovend uitziet, kunt u er een opportunity van maken en vervolgens de voortgang naar een verkoop beheren. Kies hiervoor de post en kies vervolgens de actie **Opportunity maken**. Zie voor meer informatie [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] maakt een post op de pagina **Interactielogboek** telkens wanneer een verkoper en een contactpersoon een e-mailbericht uitwisselen. Om het interactielogboek te bekijken opent u de kaart **Contact** voor de persoon, kiest u **Verwant**, dan **Historie** en vervolgens **Interactielogposten**. Er zijn een paar dingen die u met elke post in het logboek kunt doen, bijvoorbeeld:
+
+- De inhoud bekijken van het e-mailbericht dat is uitgewisseld door **Verwerken** te selecteren en vervolgens **Bijlagen weergeven**.
+- Een e-mailuitwisseling veranderen in een opportunity. Als een item er veelbelovend uitziet, kunt u er een opportunity van maken en vervolgens de voortgang naar een verkoop beheren. Om dit te doen selecteert u de post en selecteert u vervolgens **Verwerken** en dan **Opportunity maken**. Zie voor meer informatie [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md).
 
 ## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>On-premises versies verbinden met Microsoft Exchange
-U kunt [!INCLUDE[prod_short](includes/prod_short.md)] on-premises met Exchange on-premises of Exchange Online verbinden voor e-mailregistratie. Voor beide versies van Exchange zijn instellingen voor de verbinding beschikbaar op de pagina **Marketinginstellingen**. Voor Exchange Online kunt u ook een begeleide instelling gebruiken. 
+
+U kunt [!INCLUDE[prod_short](includes/prod_short.md)] on-premises met Exchange on-premises of Exchange Online verbinden voor e-mailregistratie. Voor beide versies van Exchange zijn instellingen voor de verbinding beschikbaar op de pagina **Marketinginstellingen**. Voor Exchange Online kunt u ook een begeleide instelling gebruiken.
 
 ### <a name="connecting-to-exchange-on-premises"></a>Verbinding maken met Exchange on-premises
-Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises wilt verbinden met Exchange on-premises, kunt u op de pagina **Marketinginstellingen** **Basis** gebruiken als het **Verificatietype** en vervolgens referenties invoeren voor het gebruikersaccount voor Exchange on-premises. Schakel vervolgens de schakelaar **Ingeschakeld** in om te beginnen met het registreren van e-mail. 
+
+Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises wilt verbinden met Exchange on-premises, kunt u op de pagina **Marketinginstellingen** **Basis** gebruiken als het **Verificatietype** en vervolgens referenties invoeren voor het gebruikersaccount voor Exchange on-premises. Schakel vervolgens de schakelaar **Ingeschakeld** in om te beginnen met het registreren van e-mail.
 
 ### <a name="connecting-to-exchange-online"></a>Verbinding maken met Exchange Online
-Om verbinding te maken met Exchange Online moet u **OAuth2** gebruiken als het **Verificatietype**. U moet ook een toepassing registreren in Azure Active Directory en de toepassings-id, het sleutelkluisgeheim en de omleidings-URL opgeven die moet worden gebruikt. De omleidings-URL wordt vooraf ingevuld en zou voor de meeste installaties moeten werken. Zie voor meer informatie [Een toepassing registreren in Azure AD voor verbinding van Business Central met Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
+
+Om verbinding te maken met Exchange Online moet u **OAuth2** gebruiken als het **Verificatietype**. U moet ook een toepassing registreren in Azure Active Directory en de toepassings-id, het sleutelkluisgeheim en de omleidings-URL opgeven die moet worden gebruikt. De omleidings-URL wordt vooraf ingevuld en zou voor de meeste installaties moeten werken. Zie voor meer informatie Een toepassing registreren in Azure AD voor verbinding vanuit Business Central met Exchange Online, hieronder.
 
 U moet uw installatie instellen om HTTPS te gebruiken. Zie voor meer informatie [SSL configureren om de Business Central Web Client-verbinding te beveiligen](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Als u uw server instelt om een andere startpagina te hebben, kunt u de URL wijzigen. Het clientgeheim wordt opgeslagen als een versleutelde tekenreeks in uw database.
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Een toepassing registreren in Azure AD voor verbinding van Business Central met Exchange Online
+
 Bij de volgende stappen wordt ervan uitgegaan dat u Azure Active Directory gebruikt om identiteiten en toegang te beheren. Zie voor meer informatie [Snelle start: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app). Als u Azure Active Directory niet gebruikt, raadpleegt u [Een andere identiteits- en toegangsbeheerservice gebruiken](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
 
 1. Kies in de Azure Portal onder **Beheren** **Verificatie**.

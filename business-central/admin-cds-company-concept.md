@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773348"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482207"
 ---
 # <a name="data-ownership-models"></a>Modellen voor gegevenseigendom
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ De volgende afbeelding toont een voorbeeld van deze gegevensconfiguratie in [!IN
 
 ![De hoofdbedrijfsunit staat bovenaan, de teams staan in het midden en de bedrijven staan onderaan.](media/cds_bu_team_company.png)
 
-In deze configuratie zijn records die gerelateerd zijn aan het Cronus US-bedrijf eigendom van een team dat is gekoppeld aan de Cronus US <ID> bedrijfseenheid in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Gebruikers die toegang hebben tot die bedrijfseenheid via een beveiligingsrol die is ingesteld op zichtbaarheid op bedrijfsunitniveau in [!INCLUDE[prod_short](includes/cds_long_md.md)] kunnen nu die records zien. In het volgende voorbeeld ziet u hoe u teams kunt gebruiken om toegang te verlenen tot die records.
+In deze configuratie zijn records die gerelateerd zijn aan het Cronus US-bedrijf, eigendom van een team dat is gekoppeld aan de Cronus US- bedrijfseenheid in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Gebruikers die toegang hebben tot die bedrijfseenheid via een beveiligingsrol die is ingesteld op zichtbaarheid op bedrijfsunitniveau in [!INCLUDE[prod_short](includes/cds_long_md.md)] kunnen nu die records zien. In het volgende voorbeeld ziet u hoe u teams kunt gebruiken om toegang te verlenen tot die records.
 
 * De rol van Verkoopmanager wordt toegewezen aan leden van het team Cronus US Sales.
 * Gebruikers met de rol van Verkoopmanager hebben toegang tot accountrecords voor leden van dezelfde bedrijfseenheid.
-* Het team Cronus US Sales is gekoppeld aan de eerder genoemde bedrijfsunit Cronus US. Leden van het team Cronus US Sales kunnen elk account zien dat eigendom is van de Cronus US <ID>-gebruiker, die afkomstig zal zijn van de bedrijfsentiteit Cronus US in [!INCLUDE[prod_short](includes/prod_short.md)].
+* Het team Cronus US Sales is gekoppeld aan de eerder genoemde bedrijfsunit Cronus US. Leden van het team Cronus US Sales kunnen elk account zien dat eigendom is van de Cronus US-gebruiker, die afkomstig zal zijn van de Cronus US-bedrijfseenheid in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 De 1: 1-toewijzing tussen bedrijfsunit, bedrijf en team is echter slechts een startpunt, zoals weergegeven in de volgende afbeelding.
 
@@ -51,7 +51,7 @@ De 1: 1-toewijzing tussen bedrijfsunit, bedrijf en team is echter slechts een st
 
 In dit voorbeeld wordt een nieuwe hoofdbedrijfsunit EUR (Europa) gecreëerd in [!INCLUDE[prod_short](includes/cds_long_md.md)] als bovenliggend element voor zowel Cronus DE (Duitsland) als Cronus ES (Spanje). De bedrijfsunit EUR is niet gerelateerd aan synchronisatie. Deze kan leden van het team EUR Sales echter toegang geven tot accountgegevens in zowel Cronus DE als Cronus ES door de zichtbaarheid van gegevens in te stellen op **Bovenliggende/onderliggende BU** in de bijbehorende beveiligingsrol in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-Synchronisatie bepaalt welk team records moet bezitten. Dit wordt bepaald door het veld **Standaardeigenaarsteam** in de BCI - <ID>-rij. Wanneer een BCI - <ID>-record is ingeschakeld voor synchronisatie, maken we automatisch de bijbehorende bedrijfseenheid en het eigenaarsteam (als het nog niet bestaat) en wordt het veld **Standaardeigenaarsteam** ingesteld. Als synchronisatie is ingeschakeld voor een tabel, kunnen beheerders het eigenaarsteam wijzigen, maar er moet altijd een team worden toegewezen.
+Synchronisatie bepaalt welk team records moet bezitten. Dit wordt bepaald door het veld **Standaardeigenaarsteam** in de BCI--rij. Wanneer een BCI-record is ingeschakeld voor synchronisatie, maken we automatisch de bijbehorende bedrijfseenheid en het eigenaarsteam (als het nog niet bestaat) en wordt het veld **Standaardeigenaarsteam** ingesteld. Als synchronisatie is ingeschakeld voor een tabel, kunnen beheerders het eigenaarsteam wijzigen, maar er moet altijd een team worden toegewezen.
 
 > [!NOTE]
 > Records worden alleen-lezen nadat een bedrijf is toegevoegd en opgeslagen, dus zorg ervoor dat u het juiste bedrijf kiest.

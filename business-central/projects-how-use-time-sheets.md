@@ -1,5 +1,5 @@
 ---
-title: Urenstaten gebruiken voor projecten| Microsoft Docs
+title: Werken met urenstaten voor projecten
 description: Beschrijft hoe u een urenstaat voor een project maakt, er planningsregels naar kopieert, werksoorten definieert, de urenstaat invult en deze verzendt voor goedkeuring.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.date: 04/01/2021
+ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5ebeb1d2491587afe03cc8f1e687e82bdbd2743d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436135"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440653"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Urenstaten gebruiken voor projecten
 
@@ -45,8 +45,8 @@ U kunt de urenstaten die u hebt gemaakt, bekijken op de pagina **Overzicht urens
 De volgende procedure beschrijft hoe u snel projectplanningsregels toevoegt aan een urenstaat.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer op de pagina **Overzicht urenstaat** een urenstaat voor de betreffende periode en kies vervolgens de actie **Urenstaat bewerken**.  
-3. Kies de actie **Regels maken van projectplanning**. Alle projectplanningsregels in de urenstaatperiode worden gekopieerd naar het veld **Resourcenr.** op de urenstaat voor de machine of persoon.
+2. Selecteer op de pagina **Overzicht urenstaat** een urenstaat voor de betreffende periode.  
+3. Kies de actie **Regel** en kies vervolgens de actie **Regels maken vanuit taakplanning**. Alle projectplanningsregels in de urenstaatperiode worden gekopieerd naar het veld **Resourcenr.** op de urenstaat voor de machine of persoon.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Werksoorten definiëren en er een toevoegen aan een urenstaat
 U kunt de werksoort voor alle urenstaatregels voor projecten definiëren. Op deze manier kunt u gegevens toevoegen die u nodig hebt om de klant te factureren voor verschillende soorten werk.
@@ -64,28 +64,28 @@ Als uw urenstaatinformatie van periode tot periode gelijk blijft, kunt u tijd be
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de urenstaat voor een periode na de periode voor een bestaande urenstaat met regels.  
-3. Kies de actie **Regels kopiëren van vorige urenstaat**.
+3. Kies de actie **Regel** en kies vervolgens de actie **Regels kopiëren uit vorige urenstaat**.
 
 De regels worden gekopieerd, inclusief details zoals het type en beschrijving. Als de regel bijvoorbeeld is gekoppeld aan een project, wordt het **Projectnr.** gekopieerd. Alle gekopieerde regels hebben de status **Open**. U kunt nu indien nodig de regels wijzigen.
 
-## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Urenstaatregels invullen en ter goedkeuring verzenden
+## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>Urenstaatregels invullen en ter goedkeuring verzenden
 Urenstaatregistratie wordt bijgehouden in uren, de standaard basiseenheid voor resources. Een urenstaat bevat standaard de algemene werkdagen van maandag tot en met vrijdag.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer een urenstaat voor de betreffende periode en kies vervolgens de actie **Urenstaat bewerken**.  
-3. Vul de velden indien nodig op een regel in. Voer het aantal uren in dat door de resource op elke dag van de week wordt gebruikt.
+2. Selecteer een urenstaat voor de betreffende periode.
+3. Vul de velden indien nodig op een regel in. Voer het aantal uren in dat door de resource op elke dag van de week wordt gebruikt.  
 
     > [!TIP]  
     >   U kunt de som controleren van de urenstaaturen die u hebt ingevoerd in het feitenblok **Overzicht van werkelijk/gebudgetteerd**.  
 4. Herhaal stap 3 voor andere werksoorten die de resource uitvoert.
-5. Kies de **Verzenden**-actie en kies vervolgens de actie **Alle geopende regels** om alle regels te verzenden of kies de actie **Alleen geselecteerde regel(s)** om alleen de regels te verzenden die zijn geselecteerd op de pagina **Urenstaat**.  
+5. Kies de actie **Verwerken** en kies vervolgens de actie **Indienen** en kies dan de actie **Alle geopende regels** om alle regels in te dienen of de actie **Alleen geselecteerde regel(s)** om alleen de regels in te dienen die zijn geselecteerd op de pagina **Urenstaat**.  
 
     > [!NOTE]  
     >   U kunt alleen urenstaatregels verzenden waarvoor u tijd hebt ingevoerd.  
 6. Als u gegevens wilt wijzigen op een regel die is ingesteld op **Ingediend**, selecteert u de regel en kiest u de actie **Opnieuw openen**.
 
     > [!NOTE]  
-    >   Een beheerder kan een urenstaatregel weigeren die ter goedkeuring is verzonden. Als u een regel de status **Geweigerd** heeft, kunt u wijzigingen aanbrengen in de regel en opnieuw **Indienen** kiezen.  
+    >   Een beheerder kan een urenstaatregel weigeren die ter goedkeuring is verzonden. Als een regel de status **Geweigerd** heeft, kunt u wijzigingen aanbrengen in de regel en opnieuw **Indienen** kiezen.  
 7. Kies de knop **Ok**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Een urenstaat goedkeuren of weigeren
@@ -96,7 +96,9 @@ Een urenstaat moet ter goedkeuring worden ingediend om te worden gebruikt. U kun
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Urenstatenmanager** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een urenstaat in de lijst.  
-3. Kies op de pagina **Urenstaat** de actie **Goedkeuren** en kies vervolgens de actie **Alle verzonden regels** om alle regels goed te keuren of kies de actie **Alleen geselecteerde regels** om alleen de regels toe te keuren die zijn geselecteerd op de pagina **Urenstaat**.
+3. Kies op de pagina **Urenstaat** 
+    1. de actie **Verwerken** en kies dan de actie **Goedkeuren**.
+    2. Kies de actie **Alle verzonden regels** om alle regels goed te keuren of de actie **Alleen geselecteerde regel(s)** om alleen de regels goed te keuren die zijn geselecteerd op de pagina **Urenstaat**.
 4. Kies de knop **OK**.  
 5. U kunt ook de actie **Weigeren** kiezen en stap 4 tot en met 5 volgen.  
 
@@ -123,14 +125,14 @@ U kunt voor een project een persoon opgeven die verantwoordelijk is voor het pro
 
 ### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Een urenstaat per project goedkeuren of weigeren
 
-1. Voer in het tekstvak **Zoeken** **Urenstaat manager op taak** in en kies vervolgens de gerelateerde koppeling. Microsoft Dynamics NAV geeft een lijst met urenregistratieregels weer die zijn gekoppeld aan de projecten waarvoor u verantwoordelijk bent.
-2. Kies op het tabblad **Start** de optie **Goedkeuren**. Kies **Alle** om alle regels goed te keuren. Kies **Geselecteerd** om alleen geselecteerde regels goed te keuren.
+1. Voer in het tekstvak **Zoeken** **Urenstaat manager op taak** in en kies vervolgens de gerelateerde koppeling. [!INCLUDE[prod_short](includes/prod_short.md)] geeft een lijst met urenstaatregels weer die zijn gekoppeld aan de projecten waarvoor u verantwoordelijk bent.
+2. Kies de actie **Goedkeuren** en kies vervolgens de actie **Alle verzonden regels** om alle regels goed te keuren of kies de actie **Alleen geselecteerde regel(s)** om alleen de regels goed te keuren die zijn geselecteerd op de pagina **Urenstaat**.
 
     > [!NOTE]
     > U kunt alleen urenstaten goedkeuren die de status **Ingediend** hebben.
 
-3. Voor meer informatie over de goedkeuring of weigering selecteert u een urenstaatregel en kiest u op het tabblad **Navigeren** de optie **Opmerkingen**. Voer in het veld **Datum** een datum in en voer vervolgens een opmerking in het veld **Opmerking** in.
-4. Kies de knop **OK**.
+3. Om aanvullende informatie over de goedkeuring of afwijzing te geven selecteert u de actie **Verwant** en selecteert u vervolgens **Opmerkingen** en dan **Regelopmerkingen** en voert u opmerkingen in.
+4. Kies de knop **Ok**.
 
 > [!NOTE]
 > Nadat u een urenstaatregel per project hebt goedgekeurd of geweigerd, kan deze niet meer worden geopend of gewijzigd in het venster **Urenstaat**.
@@ -138,20 +140,20 @@ U kunt voor een project een persoon opgeven die verantwoordelijk is voor het pro
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Urenstaatregels naar een resourcedagboek boeken
 Nadat u de urenstaatposten voor een resource hebt goedgekeurd, kunt u deze boeken naar het relevante resourcedagboek.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Resourcedagboek** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resourcedagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Regels voorstellen uit urenstaten**.  
-3. Vul indien nodig de velden in.  
-4. Kies de knop **Ok**. Posten voor gebruik worden gemaakt in het resourcedagboek, waarin u informatie desgewenst kunt wijzigen.  
+3. Vul op de pagina **Resourcedagboekregels voorstellen** de benodigde velden in.  
+4. Kies de knop **OK**. Posten voor gebruik worden gemaakt in het resourcedagboek, waarin u informatie desgewenst kunt wijzigen.  
 5. Kies de actie **Boeken**.  
 6. Als u de boeking wilt controleren, kiest u de actie **Posten**. De pagina **Resourceposten** wordt geopend met de resultaten van het boeken van het resourcedagboek.
 
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Urenstaatregels in een projectdagboek boeken
 Nadat u de urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken naar het relevante projectdagboek.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectdagboek** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Regels voorstellen uit urenstaten**.  
-3. Vul indien nodig de velden in.  
-4. Kies de knop **Ok**. Posten voor gebruik worden gemaakt in het projectdagboek, waarin u de informatie desgewenst kunt wijzigen.  
+3. Vul op de pagina **Projectdagboekregels voorstellen** de benodigde velden in.  
+4. Kies de knop **OK**. Posten voor gebruik worden gemaakt in het projectdagboek, waarin u de informatie desgewenst kunt wijzigen.  
 
     > [!NOTE]  
     >   Gegevens over het werksoort en of het werk factureerbaar is , wordt uit de urenstaatregel gekopieerd. U kunt indien nodig het aantal uren verminderen en een gedeeltelijke boeking doen. Als u het aantal vermindert, bevat de gemaakte regel de volgende keer dat u de actie **Regels voorstellen uit urenstaten** kiest, het resterende aantal uren.  
@@ -164,16 +166,17 @@ Nadat u urenstaten hebt geboekt, kunt u ze archiveren voor latere naslag. Alle u
 > [!NOTE]  
 >   Bij het archiveren van een urenstaat wordt de urenstaat verwijderd uit de lijst op de pagina **Urenstaten** en de pagina **Urenstaatmanager**.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Urenstaten verplaatsen naar archief** in en kies vervolgens de gerelateerde koppeling.  
-2. Vul de overige velden desgewenst in en kies de knop **OK**.  
-3. Om gearchiveerde urenstaten te bekijken kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Urenstaatarchieven** of **Urenstaatarchiefbeheer** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer de actie **Urenstaten verplaatsen naar archief**.  
+3. Vul op de pagina **Urenstaten verplaatsen naar archief** de benodigde velden in en kies de knop **OK**.  
+4. Om gearchiveerde urenstaten te bekijken kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Urenstaatarchieven** of **Urenstaatarchiefbeheer** in en kies vervolgens de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Projectbeheer](projects-manage-projects.md)  
-[Projectbeheer instellen](projects-setup-projects.md)    
+[Projectbeheer instellen](projects-setup-projects.md)  
 [Financiën](finance.md)  
-[Inkoop](purchasing-manage-purchasing.md)         
-[Verkoop](sales-manage-sales.md)     
+[Inkoop](purchasing-manage-purchasing.md)  
+[Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

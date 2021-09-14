@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 682b7dd383d2bd90a0364fbef831ee2768c3c85f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443705"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440603"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorteren, zoeken en filteren
 
@@ -220,6 +220,7 @@ U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaa
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  
 |`'man'`|Tekst die exact overeenkomt met **man** en hoofdlettergevoelig is.|  
+|`''`|Tekst die leeg is.|  
 
 #### <a name="-case-insensitive"></a>(@) Niet hoofdlettergevoelig  
 

@@ -11,19 +11,19 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf0dd21100fe9ec1fcc92320f04393c5385d2514
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435048"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440678"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Extensies installeren en verwijderen in Business Central
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services. Zie [Business Central aanpassen met extensies](ui-extensions.md) voor meer informatie.
 
 > [!NOTE]
-> Als u extensies wilt installeren vanuit AppSource of extensies per tenant wilt toevoegen, moet u de juiste machtigingen hebben. U moet ofwel lid zijn van de gebruikersgroep UITGEBREID BEHEER - - BEHEERDER of u moet de machtigingenset UITGEBR. BEHEER - - BEHEERDER hebben. Als u een beheerder bent, kunt u gebruikersgroepen en machtigingen toewijzen aan andere gebruikers in uw bedrijf.
+> Als u extensies wilt installeren of verwijderen vanuit AppSource of extensies per tenant wilt toevoegen, moet u de juiste machtigingen hebben. U moet ofwel lid zijn van de gebruikersgroep UITGEBREID BEHEER - - BEHEERDER of u moet de machtigingenset UITGEBR. BEHEER - - BEHEERDER hebben. Als u een beheerder bent, kunt u gebruikersgroepen en machtigingen toewijzen aan andere gebruikers in uw bedrijf.
 >
 > Als u de functionaliteit van een extensie wilt gebruiken, zoals pagina's openen, rapporten uitvoeren, acties selecteren, enzovoort, moeten aan u de machtigingensets zijn toegewezen die als onderdeel van de extensie zijn geïnstalleerd.
 

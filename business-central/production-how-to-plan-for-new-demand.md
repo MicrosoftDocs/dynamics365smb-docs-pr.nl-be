@@ -1,21 +1,20 @@
 ---
-title: Order voor order plannen
-description: Deze planningstaak kan worden uitgevoerd op de pagina Orderplanning, waarin alle nieuwe vraag samen met beschikbaarheidsinformatie en suggesties voor levering worden weergegeven.
+title: Nieuwe vraag order voor order plannen
+description: Deze planningstaak kan worden uitgevoerd op de pagina Orderplanning, waarin alle nieuwe vraag samen met beschikbaarheidsinformatie en suggesties voor levering worden weergegeven, inclusief artikelvervanging.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 63277d695f373c1914e55530a12cb921c8b6cc4f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444242"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440730"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Nieuwe vraag order voor order plannen
 Deze planningstaak kan worden uitgevoerd op de pagina **Orderplanning**, waarin alle nieuwe vraag samen met beschikbaarheidsinformatie en suggesties voor levering worden weergegeven. Zo beschikt u over een helder hulpmiddel om op effectieve wijze op basis van verkoop- en onderdeelregels te plannen voor de vraag. Vervolgens maakt u direct verschillende soorten orders voor voorzieningen aan.  
@@ -67,6 +66,9 @@ Op de pagina worden planningsregels weergegeven volgens het weergavefilter **Pro
 
     In het geval dat er voor het gevraagde artikel een vervangingsartikel voorhanden is, bevat het veld **Vervangingsartikel bestaat** de waarde **Ja**. U kunt vervolgens het vervangingsartikel opzoeken en selecteren op de pagina **Artikelvervangingsposten**.  
 
+    > [!NOTE]  
+    > Houd er rekening mee dat artikelvervangingen er niet automatisch toe leiden dat een artikel wordt vervangen door een ander artikel, bijvoorbeeld bij het maken van een verkooporder of in een stuklijst. In plaats daarvan wordt u erop gewezen dat er een vervanging voor u beschikbaar is.
+
 7.  Schakel het selectievakje **Reserveren** in wanneer u een reservering wilt maken tussen de order voor voorzieningen die u aan het maken bent en de vraagregel waarvoor deze wordt gemaakt. De optie is standaard uitgeschakeld.  
 
     > [!NOTE]  
@@ -117,7 +119,7 @@ Wanneer u klaar bent met de planning op de pagina **Orderplanning** (als u bijvo
 [Inkoop](purchasing-manage-purchasing.md)  
 [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Nieuwe artikelen registreren](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

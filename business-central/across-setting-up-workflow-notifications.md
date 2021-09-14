@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: f0db9d63257d37fe6be5d31fc58541caf968907a
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320626"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482456"
 ---
 # <a name="workflow-notifications"></a>Werkstroomberichten
 
@@ -40,6 +40,10 @@ U stelt verschillende aspecten van werkstroomberichten op de volgende plaatsen i
 * De e-mailberichten aanpassen
 
     Als u wilt, kunt u de inhoud van het e-mailbericht wijzigen door rapport 1320, Berichte-mail te wijzigen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).  
+
+    > [!NOTE]
+    > Als u e-mail wilt gebruiken als meldingsmethode, moet u e-mail instellen voor zowel de afzender als de ontvanger in [!INCLUDE [prod_short](includes/prod_short.md)]. Zie [E-mail instellen](admin-how-setup-email.md) voor meer informatie.
+
 * Reactieopties
 
     U stelt specifieke inhoud en regels van een werkstroombericht in als u de betreffende werkstroom maakt. U doet dit door opties te selecteren op de pagina **Opties werkstroomreactie** voor het werkstroomantwoord dat het bericht representeert. Zie voor meer informatie stap 9 in [Werkstromen maken](across-how-to-create-workflows.md).  

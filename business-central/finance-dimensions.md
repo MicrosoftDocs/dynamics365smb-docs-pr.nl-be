@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 982f61396f1d49eeaa688d580801c14ac9c33ccb
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444699"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482235"
 ---
 # <a name="working-with-dimensions"></a>Werken met dimensies
 Dimensies zijn waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren in documenten, zoals verkooporders. Dimensies kunnen bijvoorbeeld aangeven tot welk project of welke afdeling een post behoort.  
@@ -53,6 +53,9 @@ Als dimensies en waarden zijn ingesteld, kunt u globale dimensies en shortcutdim
 
 * **Globale dimensies** worden als filters gebruikt, bijvoorbeeld in rapporten, batchverwerkingen en XMLports. U kunt slechts twee globale dimensies gebruiken. Kies dus dimensies die u vaak gebruikt.
 * **Shortcutdimensies** zijn beschikbaar als velden in dagboeken, en documentregels en posten. U kunt er maximaal acht maken.  
+
+> [!NOTE]
+> Nadat u een nieuwe dimensie in een post hebt gebruikt, zoals een regel of een nieuwe record, kunt u de dimensie niet verwijderen, zelfs niet als u de post niet boekt. Dit komt doordat [!INCLUDE[prod_short](includes/prod_short.md)] onmiddellijk een dimensieset voor de regel of record maakt. Zie [Dimensiesets](finance-dimensions.md#dimension-sets) voor meer informatie.
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Standaarddimensies voor klanten, leveranciers en andere accounts instellen
 U kunt een standaarddimensie toewijzen voor een specifieke rekening. De dimensie wordt naar het dagboek of document gekopieerd wanneer u het rekeningnummer op een regel invoert, maar u kunt de code op de regel desgewenst verwijderen of wijzigen. U kunt ook een dimensie maken die is vereist om een post te boeken met een specifiek rekeningsoort.  

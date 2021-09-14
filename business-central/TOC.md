@@ -91,6 +91,7 @@
 ### [Uw proefversie uitbreiden](admin-extend-trial.md)
 ### [Business Central verwijderen of het abonnement erop stoppen](admin-cancel.md)
 ## Kopen
+### [Aan de slag met een abonnement](across-preview.md#getting-started-with-a-subscription)
 ### [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
 
 <!--setup-->
@@ -649,9 +650,10 @@
 ### [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
 ### [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)
 ### [Artikelen reserveren](inventory-how-to-reserve-items.md)
+### [Artikeltracering instellen met serie-, partij- en pakketnummers](inventory-how-setup-item-tracking.md)
 ### [Artikelen traceren met serie-, partij- en pakketnummers](inventory-how-work-item-tracking.md)
-### [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)
 ### [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)
+### [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)
 ### [Artikelen blokkeren](inventory-how-block-items.md)
 ### [Werken met divisies](inventory-responsibility-centers.md)
 

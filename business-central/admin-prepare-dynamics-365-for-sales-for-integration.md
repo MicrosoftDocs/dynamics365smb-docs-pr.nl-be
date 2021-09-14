@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 437287401003cc008e3a998e7d28fb7862415abc
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325480"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482335"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integreren met Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -80,7 +80,7 @@ Voer naast de bovenstaande instellingen de volgende instellingen in voor [!INCLU
 |--|--|
 | **Verkooporderintegratie is ingeschakeld** | Gebruikers de mogelijkheid bieden verkooporders en geactiveerde offertes in te dienen in [!INCLUDE[crm_md](includes/crm_md.md)] deze vervolgens weer te geven en te verwerken in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit integreert het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Automatisch verkooporders maken** | Maak een verkooporder in [!INCLUDE[prod_short](includes/prod_short.md)] wanneer een gebruiker er een maakt en indient in [!INCLUDE[crm_md](includes/crm_md.md)]. |
-| **Verkoopoffertes automatisch verwerken** | Verwerk een verkoopofferte in [!INCLUDE[prod_short](includes/prod_short.md)] als een gebruiker er een maakt en activeert in [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| **Verkoopoffertes automatisch verwerken** | Verwerk een verkoopofferte in [!INCLUDE[prod_short](includes/prod_short.md)] als een gebruiker er een maakt en activeert in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Verkoopoffertegegevens verwerken](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
 
 <!--
 ### User Account Settings

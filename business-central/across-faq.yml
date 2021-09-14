@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 04/01/2021
+  ms.date: 08/24/2021
   ms.author: edupont
-  ms.openlocfilehash: 4d4864b0baa6b8455e51931701d72eea8923545f
-  ms.sourcegitcommit: 0c8428e1468d4f5c18fbe35c79d6bbe509b79620
+  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
+  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 06/01/2021
-  ms.locfileid: "6124015"
+  ms.lasthandoff: 08/27/2021
+  ms.locfileid: "7440703"
 title: Veelgestelde vragen over het gebruik van Business Central
 summary: "Deze sectie bevat antwoorden op veelgestelde vragen over de aanmelding bij een proefversie, het aanschaffen van een abonnement en het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)]. U leest ook hoe u technische ondersteuning krijgt.  \n"
 sections:
@@ -67,6 +67,10 @@ sections:
       Wat zijn de serviceovereenkomsten voor de cloud?
     answer: >
       [!INCLUDE [service-terms](includes/service-terms.md)]
+  - question: >
+      Hoe vaak wordt Business Central online bijgewerkt?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] online is een service die bestaat uit een door Microsoft onderhouden platform en zakelijke functionaliteit. Veel Microsoft-partners bieden extra zakelijke functionaliteit, bijvoorbeeld voor specifieke branche- of lokalisatiebehoeften. Zowel de bedrijfsfunctionaliteit als de servicecomponenten worden continu bewaakt en waar nodig bijgewerkt. U kunt altijd het [releaseplan](/dynamics365/release-plans/) raadplegen voor een overzicht van nieuwe en aankomende functionaliteit. Zie voor meer informatie [Serviceoverzicht voor Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (alleen in het Engels) en [Nieuw en gepland](product-news.md).
   - question: >
       Onze beheerder heeft me naar een ander plan verplaatst om me een andere rol te geven, maar ik zie nog steeds dezelfde startpagina in Business Central.
     answer: "Dit is een beetje ingewikkeld, maar uw beheerder heeft waarschijnlijk uw toegewezen rolcentrum niet gewijzigd en gebruikersgroepen toegewezen die overeenkomen met de nieuwe licentie. In wezen wordt uw toegang tot [!INCLUDE[prod_short](includes/prod_short.md)] bepaald door het type plan (licentie) dat u hebt - hiermee worden machtigingen, uw toegewezen rol en uw standaardstartpagina ingesteld. U kunt uw huidige rol handmatig wijzigen in Mijn Instellingen, maar als u naar een ander plan wordt verplaatst, zoals van het Bedrijfsplan naar het Teamledenplan, ziet u mogelijk de oude startpagina omdat uw machtigingen niet zijn gewijzigd.  \n"

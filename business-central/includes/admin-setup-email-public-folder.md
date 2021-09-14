@@ -2,74 +2,83 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 09/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2867dbccab19226c16f761bb974528bbdcf0a21f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777660"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482309"
 ---
-Voordat u e-mailregistratie kunt instellen, moet u uw Exchange Online voorbereiden met [openbare mappen](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). U kunt dit doen in het [Exchange-beheercentrum](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) of u kunt de [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ) gebruiken.  
+> [!NOTE]
+> In de volgende secties wordt ervan uitgegaan dat u beheerderstoegang hebt tot Exchange Online.
+
+Voordat u e-mailregistratie kunt instellen, moet u [openbare mappen](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true) voor Office 365 voorbereiden. U kunt dit doen in het [Exchange-beheercentrum](/exchange/exchange-admin-center?preserve-view=true) of u kunt de [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true) gebruiken.
 
 > [!TIP]
-> Als u de [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ) wilt gebruiken, vindt u inspiratie voor het opzetten van uw script in een voorbeeldscript dat we hebben gepubliceerd [de BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
+> Als u de [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true) wilt gebruiken, vindt u inspiratie voor het instellen van uw script in een voorbeeldscript dat we hebben gepubliceerd in [de BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging)..
 
-De volgende lijst beschrijft de belangrijkste stappen met koppelingen voor meer informatie.  
+Volg de onderstaande stappen om Exchange Online in te stellen, met koppelingen naar waar u meer kunt leren.
 
-- Maak een beheerdersrol voor openbare mappen op basis van de informatie in de volgende tabel:
+### <a name="create-an-admin-role-group"></a>Een beheerdersrolgroep maken
 
-  |Eigenschap        |Waarde                     |
-  |----------------|--------------------------|
-  |Name            |Beheer van openbare mappen |
-  |Geselecteerde rollen  |Openbare mappen            |
-  |Geselecteerde leden|Het e-mailadres van het gebruikersaccount dat Business Central zal gebruiken om de e-mailregistratietaak uit te voeren|
+Maak een beheerdersrolgroep voor openbare mappen op basis van de informatie in de volgende tabel:
 
-  Zie [Rolgroepen beheren](/exchange/permissions/role-groups?view=exchserver-2019&preserve-view=true) voor meer informatie.
+|Eigenschap        |Waarde                     |
+|----------------|--------------------------|
+|Name            |Beheer van openbare mappen |
+|Geselecteerde rollen  |Openbare mappen            |
+|Geselecteerde gebruikers  |Het e-mailadres van het gebruikersaccount dat Business Central zal gebruiken om de e-mailregistratietaak uit te voeren|
 
-- Maak een nieuwe openbare mappostbus op basis van de informatie in de volgende tabel:
+Zie voor meer informatie [Rolgroepen beheren in Exchange Online](/exchange/permissions-exo/role-groups?preserve-view=true).
 
-  |Eigenschap        |Waarde                     |
-  |----------------|--------------------------|
-  |Name            |Openbare postbus            |
+### <a name="create-a-new-public-folder-mailbox"></a>Een nieuwe openbare mappostbus maken
 
-  Zie voor meer informatie [Een openbare mappostbus maken in Exchange Server](/exchange/collaboration/public-folders/create-public-folder-mailboxes).  
+Maak een nieuwe openbare mappostbus op basis van de informatie in de volgende tabel:
 
-- Nieuwe openbare mappen maken
+|Eigenschap        |Waarde                     |
+|----------------|--------------------------|
+|Name            |Openbare postbus            |
 
-  - Maak een nieuwe openbare map met de naam *E-mailregistratie* in de root zodat het volledige pad naar de map ```\Email Logging\``` wordt
-  - Maak twee submappen zodat het resultaat de volgende volledige paden naar de mappen is:
-    - ```\Email Logging\Queue\```
-    - ```\Email Logging\Storage\```
+Raadpleeg [Een openbare mappostbus maken](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true) voor meer informatie.
 
-  Raadpleeg [Een openbare map maken](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019&preserve-view=true) voor meer informatie.
+### <a name="create-new-public-folders"></a>Nieuwe openbare mappen maken
 
-- De openbare map *Wachtrij* inschakelen voor post
+1. Maak een nieuwe openbare map met de naam **E-mailregistratie** in de root, zodat het volledige pad naar de map `\Email Logging\` wordt.
+2. Maak twee submappen zodat het resultaat de volgende volledige paden naar de mappen is:
 
-  Zie voor meer informatie [Een openbare map in- of uitschakelen voor post](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019&preserve-view=true)
+    - `\Email Logging\Queue\`
+    - `\Email Logging\Storage\`
 
-- Het verzenden van e-mails naar de openbare map *Wachtrij* inschakelen met behulp van Outlook of de Exchange Management Shell
+Raadpleeg [Een openbare map maken](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true) voor meer informatie.
 
-  Zie voor meer informatie [Anonieme gebruikers toestaan om e-mail te verzenden naar een voor e-mail geschikte openbare map](/exchange/collaboration/public-folders/mail-enable-or-disable#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?view=exchserver-2019&preserve-view=true)
+### <a name="set-public-folder-ownership"></a>Eigendom van openbare mappen instellen
 
-- Stel de gebruiker van e-mailregistratie in als eigenaar van beide openbare mappen, *Wachtrij* en *Opslag*, die Outlook of de Exchange Management Shell gebruiken op basis van de informatie in de volgende tabel:
+Stel de gebruiker voor e-mailregistratie in als eigenaar van beide openbare mappen, *Wachtrij* en *Opslag*.
 
-  |Eigenschap        |Waarde                     |
-  |----------------|--------------------------|
-  |Gebruiker            |Het e-mailadres van het gebruikersaccount dat Business Central zal gebruiken om de e-mailregistratietaak uit te voeren|
-  |Machtigingsniveau|Eigenaar                     |
+Zie voor meer informatie [Machtigingen voor openbare mappen toewijzen](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-  Zie voor meer informatie [Machtigingen voor openbare mappen toewijzen](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
+### <a name="mail-enable-the-queue-public-folder"></a>De openbare map *Wachtrij* inschakelen voor post
 
-- Maak twee mapstroomregels op basis van de informatie in de volgende tabel
+  Zie voor meer informatie [Een openbare map in- of uitschakelen voor post](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true).
 
-  |Doel  |Name |Voorwaarden                        |Actie                                       |
-  |---------|-----|----------------------------------|---------------------------------------------|
-  |Een regel voor inkomende e-mail |Naar deze organisatie verzonden e-mail registreren|*De afzender* bevindt zich *buiten de organisatie* en *de ontvanger* bevindt zich *binnen de organisatie*|BCC het e-mailaccount dat is opgegeven voor de openbare map *Wachtrij*|
-  |Een regel voor uitgaande e-mail | Uit deze organisatie verzonden e-mail registreren |*De afzender* bevindt zich *binnen de organisatie* en *de ontvanger* bevindt zich *buiten de organisatie*|BCC het e-mailaccount dat is opgegeven voor de openbare map *Wachtrij*|
-  
-  Zie voor meer informatie [Poststroomregels beheren in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) en [Poststroomregelacties in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
+### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>E-mail inschakelen voor het verzenden van e-mails naar de openbare map *Wachtrij*
+
+Schakel e-mail in voor het verzenden van e-mails naar de openbare map *Wachtrij* met behulp van Outlook of de Exchange Management Shell.
+
+Zie voor meer informatie [Anonieme gebruikers toestaan om e-mail te verzenden naar een voor e-mail geschikte openbare map](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
+
+### <a name="create-mail-flow-rules"></a>Regels voor e-mailstroom maken
+
+Maak twee e-mailstroomregels op basis van de informatie in de volgende tabel:
+
+|Doel  |Name |Pas deze regel toe als...             |Ga als volgt te werk...                          |
+|---------|-----|----------------------------------|---------------------------------------------|
+|Een regel voor inkomende e-mail |Naar deze organisatie verzonden e-mail registreren|*De afzender* bevindt zich *buiten de organisatie* en *de ontvanger* bevindt zich *binnen de organisatie*|BCC het e-mailaccount dat is opgegeven voor de openbare map *Wachtrij*|
+|Een regel voor uitgaande e-mail | Uit deze organisatie verzonden e-mail registreren |*De afzender* bevindt zich *binnen de organisatie* en *de ontvanger* bevindt zich *buiten de organisatie*|BCC het e-mailaccount dat is opgegeven voor de openbare map *Wachtrij*|
+
+Zie voor meer informatie [Poststroomregels beheren in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) en [Poststroomregelacties in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
 > [!NOTE]
 > Als u wijzigingen aanbrengt in de Exchange Management Shell, worden de wijzigingen met vertraging zichtbaar in het Exchange-beheercentrum. De wijzigingen die in Exchange zijn aangebracht, zijn ook beschikbaar in [!INCLUDE[prod_short](prod_short.md)] na een vertraging. De vertraging kan enkele uren duren.

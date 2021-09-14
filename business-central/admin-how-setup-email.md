@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 791033d9b4077ad6e3bf37ab04956113183b5f2b
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439722"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440516"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Mensen in bedrijven sturen dagelijks informatie en documenten, zoals verkoop- en inkooporders en facturen, per e-mail. Beheerders kunnen dat gemakkelijker maken door een of meer e-mailaccounts te verbinden met [!INCLUDE[prod_short](includes/prod_short.md)], zodat u documenten kunt verzenden zonder een e-mailapp te hoeven openen. U kunt elk bericht afzonderlijk opstellen met basisopmaakhulpmiddelen, zoals lettertypen, stijlen, kleuren, enzovoort, en bijlagen tot 100 MB toevoegen. Beheerders kunnen ook rapportlay-outs instellen die alleen de belangrijkste informatie uit documenten bevatten. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
@@ -45,6 +45,8 @@ De volgende tabel beschrijft de e-mailextensies die standaard beschikbaar zijn.
 
 > [!NOTE]
 > De extensies **Microsoft 365** en **Huidige gebruiker** gebruiken de accounts die u voor gebruikers instelt in het Microsoft 365-beheercentrum, voor uw Microsoft 365-abonnement. Om e-mail te verzenden met de extensies moeten gebruikers een geldige licentie hebben voor Exchange Online. 
+>
+> Bovendien kunnen externe gebruikers, zoals gedelegeerde beheerders en externe accountants, deze extensies niet gebruiken om e-mailberichten te verzenden vanuit [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 

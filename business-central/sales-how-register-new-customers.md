@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436763"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440378"
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
 
@@ -44,7 +44,7 @@ Als u een nieuwe klant wilt registreren, moet u een klantenkaart invullen. U kun
 4. Kies de knop **Ok**. Een nieuwe klantenkaart wordt geopend waarin in sommige velden informatie uit de sjabloon is ingevuld.  
 5. Ga indien nodig door met het invullen of wijzigen van velden op de klantenkaart. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Op het sneltabblad **Verkoopprijzen** kunt u speciale prijzen of kortingen weergeven die u voor de klant verleent als aan bepaalde criteria, zoals artikel, minimaal orderaantal of einddatum, wordt voldaan. Elke rij vertegenwoordigt een speciale prijs of regelkorting. Elke kolom vertegenwoordigt een criterium dat moet worden toegepast om de speciale prijs te garanderen die u invoert in het veld **Eenheidsprijs** of de regelkorting die u invoert in het veld **Regelkorting %**. Zie voor meer informatie [Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md).
+De actie **Prijzen en kortingen** biedt opties voor het beheren van speciale prijzen of kortingen voor de klant wanneer een order aan bepaalde criteria voldoet. De criteria kunnen bijvoorbeeld zijn wanneer ze een bepaald artikel kopen, een minimale hoeveelheid bestellen of vóór een bepaalde datum kopen, zoals wanneer een campagne eindigt. Zie voor meer informatie [Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md).
 
 De klant is nu geregistreerd en de klantenkaart is klaar om voor verkoopdocumenten te worden gebruikt.
 
