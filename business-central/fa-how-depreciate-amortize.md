@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442272"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588313"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Vaste activa afschrijven of aflossen
 Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en apparatuur, te spreiden over de afschrijfbare levensduur. Voor elk vast activum moet u aangeven hoe de afschrijving wordt toegepast.  
@@ -48,7 +48,10 @@ U kunt de batchverwerking **Afschrijving berekenen** eens per maand, of op een t
 5. Kies de actie **Boeken**.  
 
 > [!NOTE]
-> Als u het veld **Vast aantal dagen gebruiken** selecteert en het veld **Vast aantal dagen** is ingesteld op een waarde die ertoe leidt dat de boekingsdatum minus de waarde van de **Aantal dagen**-velden een datum in het vorige kalenderjaar is, kunt u de afschrijving niet boeken. De oplossing is om de waarde van **Vast aantal dagen** te verlagen tot niet meer dan de berekende dagen tot de boekingsdatum met 30 dagen/maand OF het veld **Boekjaar (365 dagen)** te selecteren in het afschrijvingsboek. We raden de eerste optie aan, omdat u het gebruik van 30 dagen/maanden voor afschrijving misschien niet wilt wijzigen. Zie voor meer informatie [Afschrijving met veld Boekjaar (365 dagen)](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Bekende beperking: Als u het veld **Vast aantal dagen gebruiken** selecteert en het veld **Vast aantal dagen** is ingesteld op een waarde die ertoe leidt dat **Boekingsdatum** minus **Aantal dagen** een datum in het vorige kalenderjaar is, kunt u de afschrijving niet boeken.
+> U kunt dit voorkomen door het veld **Vast aantal dagen** te verlagen tot niet meer dan de berekende dagen tot de boekingsdatum met 30 dagen/maand OF het veld **Boekjaar (365 dagen)** te selecteren in het afschrijvingsboek.
+> We raden de eerste optie aan, omdat u het gebruik van 30 dagen/maanden voor afschrijving misschien niet wilt wijzigen. Zie voor meer informatie [Afschrijving met veld Boekjaar (365 dagen)](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Een afschrijving handmatig boeken vanuit het financieel dagboek voor vaste activa
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financieel dagboek voor vaste activa** in en kies vervolgens de gerelateerde koppeling.  

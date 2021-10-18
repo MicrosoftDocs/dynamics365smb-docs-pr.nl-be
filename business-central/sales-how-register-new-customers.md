@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3d014015946f9202d59127d6e871aa5dd0ec90bd
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440378"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588994"
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
 
@@ -26,23 +26,16 @@ Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes inst
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Nieuwe klanten toevoegen
+U kunt nieuwe klanten handmatig toevoegen door de velden op de pagina **Klantenkaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen klantprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe klanten en helpt ervoor te zorgen dat de informatie elke keer correct is. Als u sjablonen voor meer dan één type klant maakt, kunt u de sjabloon kiezen die u wilt gebruiken wanneer u een klant toevoegt. Als u slechts één sjabloon maakt, wordt deze voor alle nieuwe klanten gebruikt. Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebruiken om deze toe te passen op een of meer geselecteerde klanten. Om een sjabloon te maken vult u de informatie in die u opnieuw wilt gebruiken op de pagina Klantenkaart en slaat u deze vervolgens op als sjabloon. Zie voor meer informatie [De klantenkaart als sjabloon opslaan](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-Als u een nieuwe klant wilt registreren, moet u een klantenkaart invullen. U kunt sjablonen maken voor verschillende klantprofielen of u kunt klanten zonder sjablonen toevoegen. U kunt ook een klant maken op basis van een contact. Zie voor meer informatie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Het kan handig zijn om de pagina **Klantensjabloon** te personaliseren wanneer u een sjabloon maakt. U kunt bijvoorbeeld het veld **Kredietlimiet** aan een sjabloon toevoegen. Zie [Uw werkruimte personaliseren](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.
 
-> [!NOTE]  
-> Als er klantsjablonen voor verschillende klantsoorten bestaan, wordt een pagina weergegeven wanneer u een nieuwe klantenkaart maakt waar u een geschikte sjabloon kunt selecteren. Als er slechts één klantensjabloon bestaat, gebruiken nieuwe klantenkaarten altijd deze sjabloon.  
+U kunt ook een klant maken op basis van een contact. Zie voor meer informatie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Een nieuwe klantenkaart maken
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies op de pagina **Klanten** de actie **Nieuw**.
-
-    Als er slechts één klantensjabloon bestaat, wordt vervolgens een nieuwe klantenkaart geopend waarin sommige velden zijn ingevuld met informatie van de sjabloon.
-
-    Als er meer dan één klantensjabloon bestaat, wordt er een pagina geopend waarin u een klantensjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.
-3. Kies op de pagina **Selecteer een sjabloon voor een nieuwe klant** de sjabloon die u wilt gebruiken voor de nieuwe klantenkaart.
-4. Kies de knop **Ok**. Een nieuwe klantenkaart wordt geopend waarin in sommige velden informatie uit de sjabloon is ingevuld.  
-5. Ga indien nodig door met het invullen of wijzigen van velden op de klantenkaart. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 De actie **Prijzen en kortingen** biedt opties voor het beheren van speciale prijzen of kortingen voor de klant wanneer een order aan bepaalde criteria voldoet. De criteria kunnen bijvoorbeeld zijn wanneer ze een bepaald artikel kopen, een minimale hoeveelheid bestellen of vóór een bepaalde datum kopen, zoals wanneer een campagne eindigt. Zie voor meer informatie [Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -76,7 +69,7 @@ U kunt ervoor kiezen om geen waarschuwingen te ontvangen die u vertellen dat de 
 
 ### <a name="to-specify-credit-limit-warnings"></a>Waarschuwingen voor kredietlimieten opgeven
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
 
 2. Kies op het sneltabblad **Algemeen** in het veld **Waarschuwingen** de relevante optie zoals beschreven in de volgende tabel:
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776459"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588413"
 ---
 # <a name="changing-language-and-region"></a>Taal en regio-instellingen wijzigen
 
@@ -33,7 +33,7 @@ Deze meertalige functionaliteit heeft geen invloed op de taal waarin de toepassi
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] wordt slechts één tekenset voor gegevens ondersteund. Daarom worden bepaalde tekens mogelijk niet ondersteund in uw omgeving en kunnen er problemen optreden wanneer u gegevens ophaalt die zijn ingevoerd met een andere tekenset. Uw omgeving ondersteunt bijvoorbeeld alleen Engelse en Russische tekens en u voert gegevens in een andere taal in. De gegevens worden dan mogelijk niet juist opgeslagen. Neem contact op met de systeembeheerder om te informeren welke talen precies worden ondersteund voor uw versie van [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="changing-the-region"></a>De regio veranderen
+## <a name="changing-your-region-setting"></a>Uw regio-instelling wijzigen
 Regio is iets anders dan taal en wettelijke vereisten in lokale markten. Regio-instellingen bepalen hoe uw gegevens worden weergegeven, bijvoorbeeld welke scheidingstekens worden gebruikt, of een tekst links of rechts wordt uitgelijnd en bepaalde andere instellingen. De regio bepaalt ook enkele systeemelementen in de browser, zoals de actie om een nieuw artikel in een lijst te maken.  
 
 U kunt de regio-instellingen wijzigen op het browsertabblad dat u gebruikt om te werken in [!INCLUDE[prod_short](includes/prod_short.md)]. De wijziging geldt alleen voor u, niet voor de andere gebruikers in uw bedrijf.  De regiokeuze wordt teruggezet naar uw instelling in uw Microsoft 365-profiel als uw beheerder gebruikers synchroniseert van Microsoft 365 naar [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -42,6 +42,11 @@ U kunt de regio-instellingen wijzigen op het browsertabblad dat u gebruikt om te
 > Wanneer u de regio-instellingen wijzigt, wordt er een lange lijst met talen en regio's weergegeven. De taal wordt echter niet beïnvloed door de keuze van de regio.  
 
 Als u de regio wilt wijzigen, gaat u naar de pagina **Mijn instellingen**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
+
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>De regio-instelling voor klanten, contacten en leveranciers wijzigen
+Sommige bedrijven gebruiken een externe service die adresgegevens in hun land of regio valideert. Wanneer u echter adresgegevens moet bijwerken, is de gestructureerde aanpak die deze services gebruiken niet altijd de juiste voor sommige scenario's. Business Central biedt een flexibelere manier om adresgegevens in te voeren.
+
+Als u op de pagina **Grootboekinstellingen** de schakelaar **Land/regio-code in adres vereisen** aanzet, worden door wijzigingen in het veld **Land/regio-code** in adressen voor klanten, contacten of leveranciers, de waarden in andere adresvelden opnieuw ingesteld.
 
 ## <a name="application-version"></a>Toepassingsversie
 

@@ -1,21 +1,21 @@
 ---
 title: Business Central op uw mobiele apparaat krijgen
 description: Dit onderwerp beschrijft de verschillende manieren waarop u uw Business Central-gegevens kunt bekijken en bewerken, naar Excel kunt verzenden en meer op uw telefoon of tablet.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: phone, tablet
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 7f2d86ab1ba8f3ee0ae77aad16b64feb0fa1fe4f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.search.keywords: desktop, Windows, app
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1097689e7fc06e7d1f2f3dede95c978a3316e975
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324012"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588288"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Business Central op uw mobiele apparaat krijgen
 
@@ -23,11 +23,12 @@ Toegang tot uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens krijgen v
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
+> [!TIP]
+> Wilt u een app op uw Windows- of macOS-computerbureaublad? Zie [Business Central-desktop-app verkrijgen](install-desktop-app.md).
+
 ## <a name="get-the-app-on-my-mobile-device"></a>De app ophalen op mijn mobiele apparaat
 
-1. Installeer de [!INCLUDE[prod_short](includes/prod_short.md)]-app op uw mobiele apparaat door de app te downloaden van de Windows Store, App Store of Google Play.  
-
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (alleen pc)
+1. Installeer de [!INCLUDE[prod_short](includes/prod_short.md)]-app op uw mobiele apparaat door de app te downloaden van de App Store of Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Start de app vanaf uw mobiele apparaat.
@@ -44,9 +45,8 @@ U moet nu toegang tot [!INCLUDE[prod_short](includes/prod_short.md)] hebben en g
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt u ook profiteren van de voordelen van de mobiele app. De installatie is vergelijkbaar, maar met een paar uitzonderingen.
 
-1. Installeer de [!INCLUDE[prod_short](includes/prod_short.md)]-app op uw mobiele apparaat door de app te downloaden van de Windows Store, App Store of Google Play.  
+1. Installeer de [!INCLUDE[prod_short](includes/prod_short.md)]-app op uw mobiele apparaat door de app te downloaden van de App Store of Google Play.  
 
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (alleen pc)
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Start de app vanaf uw mobiele apparaat.

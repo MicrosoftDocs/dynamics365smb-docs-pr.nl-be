@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325825"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588388"
 ---
 # <a name="exchanging-data-electronically"></a>Gegevens elektronisch uitwisselen
 U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het beheren van de uitwisseling van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden met uw zakelijke partners.
 
-In de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt het raamwerk voor gegevensuitwisseling gebruikt in functies, zoals elektronische documenten, het importeren en exporteren van bankbestanden en het bijwerken van wisselkoersen. Zie voor meer informatie [Over het raamwerk voor gegevensuitwisseling](across-about-the-data-exchange-framework.md).
+In de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt het raamwerk voor gegevensuitwisseling gebruikt in processen, zoals uitwisseling van elektronische documenten, het importeren en exporteren van bankbestanden en het bijwerken van wisselkoersen voor valuta's. Zie voor meer informatie [Over het raamwerk voor gegevensuitwisseling](across-about-the-data-exchange-framework.md).
 
-Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefuncties gebruiken door in te stellen welke gegevens moeten worden uitgewisseld en hoe. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.
+Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefuncties gebruiken door op te geven welke gegevens moeten worden uitgewisseld en hoe. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.  
 

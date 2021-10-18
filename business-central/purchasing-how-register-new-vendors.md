@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 06/23/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445389"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587696"
 ---
 # <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
 
@@ -32,32 +32,31 @@ Leverancierskaarten bevatten de informatie die is vereist om producten van de le
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Nieuwe leveranciers toevoegen
+U kunt nieuwe leveranciers handmatig toevoegen door de velden op de pagina **Leverancierskaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen leveranciersprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe leveranciers en helpt ervoor te zorgen dat de informatie elke keer correct is. Als u sjablonen voor meer dan één type leverancier maakt, kunt u de sjabloon kiezen die u wilt gebruiken wanneer u een leverancier toevoegt. Als u slechts één sjabloon maakt, wordt deze voor alle nieuwe leveranciers gebruikt. Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebruiken om deze toe te passen op een of meer geselecteerde leveranciers. Om een sjabloon te maken vult u de informatie in die u opnieuw wilt gebruiken op de pagina Leverancierskaart en slaat u deze vervolgens op als sjabloon. Zie voor meer informatie [De pagina Leverancierskaart als sjabloon opslaan](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
-Als u een nieuwe leverancier wilt registreren, moet u een leverancierskaart invullen. U kunt sjablonen maken voor verschillende leveranciersprofielen of u kunt leveranciers zonder sjablonen toevoegen. U kunt ook een leverancier maken op basis van een contact. Zie voor meer informatie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Het kan handig zijn om de pagina **Leverancierssjabloon** te personaliseren wanneer u een sjabloon maakt. U wilt bijvoorbeeld een veld toevoegen dat nog niet op de pagina wordt weergegeven. Zie [Uw werkruimte personaliseren](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.
 
-> [!NOTE]  
-> Als leveranciersjablonen voor verschillende leveranciersoorten bestaan, wordt een pagina automatisch weergegeven wanneer u een nieuwe leverancierskaart maakt, van waaruit u een geschikte leveranciersjabloon kunt selecteren. Als er slechts één leveranciersjabloon bestaat, gebruiken nieuwe leverancierkaarten altijd deze sjabloon.  
+U kunt ook een leverancier maken op basis van een contact. Zie voor meer informatie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact). 
 
-### <a name="to-create-a-new-vendor-card"></a>Een nieuwe leverancierskaart maken
+### <a name="to-create-a-new-vendor"></a>Een nieuwe leverancier maken
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies op de pagina **Leveranciers** de optie **Nieuw**.
+[!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
-    Wanneer er meer dan één leveranciersjabloon bestaat, opent er een pagina waarin u een leveranciersjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.
-    1. Kies op de pagina **Selecteer een sjabloon voor een nieuwe leverancier** de sjabloon die u wilt gebruiken voor de nieuwe leverancierskaart.
-    2. Kies de knop **Ok**. Een nieuwe leverancierskaart wordt geopend met enkele velden ingevuld met informatie uit de sjabloon.
-3. Ga door met velden op de leverancierskaart in te vullen of te wijzigen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!TIP]  
-    > Als het factuuradres dat voor elke factuur van een leverancier wordt gebruikt, niet bij u bekend is, vult u het veld **Leveranciersnr.** niet in. Kies in dat geval het nummer van de factuurleverancier nadat u een inkoopofferte, inkooporder of inkoopkop hebt ingesteld.
+> [!TIP]  
+> Als het factuuradres dat voor elke factuur van een leverancier wordt gebruikt, niet bij u bekend is, vult u het veld **Leveranciersnr.** niet in. Kies in dat geval het nummer van de factuurleverancier nadat u een inkoopofferte, inkooporder of inkoopkop hebt ingesteld.
 
 De leverancier is nu geregistreerd en de leverancierskaart is klaar om voor inkoopdocumenten te worden gebruikt.
 
 Als u deze leverancierskaart als sjabloon wilt gebruiken wanneer u nieuwe leverancierskaarten maakt, kunt u deze opslaan als leveranciersjabloon. Zie voor meer informatie de sectie [De leverancierskaart als sjabloon opslaan](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-vendor-cards"></a>Leverancierskaarten verwijderen
+### <a name="deleting-and-editing-vendor-information"></a>Leveranciersinformatie verwijderen en bewerken
 
-Als u een transactie voor een leverancier hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor controle. Als u leverancierskaarten met grootboekposten wilt verwijderen, neemt u contact op met uw Microsoft-partner om dat via code te doen.
+U kunt de informatie op leverancierskaarten op elk gewenst moment bewerken. Als u echter een transactie voor een leverancier hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor controle. Als u leverancierskaarten met grootboekposten wilt verwijderen, neemt u contact op met uw Microsoft-partner om dat via code te doen.
+
+> [!TIP]
+> U kunt het IBAN op een bankrekening van een leverancier wijzigen zonder dat de wijziging van invloed is op uw historische journaalposten van krediettransfers. Journaalposten van krediettransfers slaan het IBAN van de ontvanger en het bankrekeningnummer van de ontvanger op die zijn opgegeven in de velden Bankrekening leverancier en Naam ontvanger op de pagina Leverancierskaart toen de boekingen werden gemaakt.
+
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>De leverancierskaart als sjabloon opslaan
 

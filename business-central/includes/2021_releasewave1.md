@@ -1,1 +1,1 @@
-<Token> **GELDT VOOR:** Business Central 2021 releasewave 1 en hoger</Token>
+> **GELDT VOOR:** Business Central 2021 releasewave 1 en hoger

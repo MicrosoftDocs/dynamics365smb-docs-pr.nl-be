@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 04/12/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 376d1bebd79c225a54ca8544b757a719a55bfebd
+ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341315"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7596684"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problemen met Microsoft Teams-integratie oplossen met [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -149,6 +149,13 @@ Als beheerder met Azure Active Directory-beheerdersmachtigingen kunt u de tegel 
 > [!NOTE]
 > Het zal even duren voordat deze wijziging van kracht wordt.
 
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Dubbele tekst in het venster Delen met Teams
+
+Wanneer u tekst in het berichtvenster plakt in het venster **Delen met Teams** wordt de tekst gedupliceerd. Dit probleem is bekend bij Microsoft en zal in een latere update worden verholpen. 
+
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Kan niet inloggen op het venster Delen met Teams 
+
+Dit probleem kan verschillende oorzaken hebben. De identiteit die u gebruikt om in te loggen, moet bijvoorbeeld toegang hebben tot Microsoft Teams, bijvoorbeeld via een Microsoft 365-abonnement.
 
 ## <a name="see-also"></a>Zie ook
 

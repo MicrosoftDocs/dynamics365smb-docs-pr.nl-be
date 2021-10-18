@@ -10,18 +10,21 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ef2c12ea5e956b9bfdaeb2c464ac74684b630c48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440862"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588188"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 In dit artikel leert u hoe u de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) installeert. De app is beschikbaar op de Teams-marktplaats en u kunt deze gebruiken met de web-, desktop- of mobiele app van Teams.
+
+> [!NOTE]
+> Uw beheerder heeft zaken mogelijk zo ingesteld dat de app automatisch voor u wordt geïnstalleerd. Om te controleren of de app is geïnstalleerd, opent u Teams en kiest u **Apps**. Zoek **Business Central** en kies het vervolgens wanneer u het vindt. Als u **Openen** ziet op de pagina **Business Central**, is de app al geïnstalleerd.  
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -35,9 +38,9 @@ In dit artikel leert u hoe u de [!INCLUDE [prod_short](includes/prod_short.md)]-
 
 ## <a name="add-the-business-central-app-to-teams"></a>De Business Central-app toevoegen aan Teams
 
-Er zijn twee manieren om de Business Central-app te installeren:
+Er zijn drie manieren om de Business Central-app te installeren:
 
-**Optie 1**
+**Optie 1: via een link**
 
 Deze optie is de snelste manier om de app te installeren.
 
@@ -49,16 +52,23 @@ Deze optie is de snelste manier om de app te installeren.
 
 3. Selecteer **Toevoegen**.
 
-**Optie 2**
+**Optie 2: vanuit Teams**
 
 1. Open en meld u aan bij Teams.
 2. Selecteer aan de linkerkant **Apps**.
 3. Zoek naar **Business Central**.
-4. Selecteer de app wanneer u deze vindt.
-5. Selecteer **Toevoegen**.
+4. Kies de app wanneer u deze vindt.
+5. Kies **Toevoegen**.
 
 > [!NOTE]
 > Bij beide opties wordt u mogelijk gevraagd om u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)]. Selecteer de koppeling **Aanmelden** en volg de instructies om de aanmeldingsnaam en het wachtwoord in te voeren voor [!INCLUDE [prod_short](includes/prod_short.md)].
+
+**Optie 3: vanuit Business Central**
+
+1. Open Business Central.
+2. Kies het ![Vergrootglas dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **De Business Central-app voor Teams ophalen** in en kies vervolgens de gerelateerde koppeling.  
+3. Kies **De app ophalen uit de winkel**.
+4. Wacht tot Teams wordt geopend en de Business Central-app verschijnt en kies vervolgens **Toevoegen**.
 
 ## <a name="next-step"></a>Volgende stap
 

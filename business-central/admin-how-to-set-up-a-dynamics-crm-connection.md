@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7711fc0dc0ad7256f6ed58962634e39bbad86cfe
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440553"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587771"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Verbinding maken met Microsoft Dataverse
 
@@ -107,9 +107,70 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="customize-the-match-based-coupling"></a>De koppeling op basis van overeenkomsten aanpassen
+
+Vanaf 2021 release wave 2 kunt u records koppelen in [!INCLUDE [prod_short](includes/prod_short.md)] en [!INCLUDE [cds_long_md](includes/cds_long_md.md)] op basis van door de beheerder gedefinieerde criteria.  
+
+Het algoritme voor het matchen van records kan worden gestart vanaf de volgende plaatsen in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+* Lijstpagina's die records tonen die zijn gesynchroniseerd met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], zoals de pagina's Klanten en Artikelen.  
+
+    Selecteer meerdere records en kies vervolgens de actie **Gerelateerd**, kies **Dataverse**, kies **Koppeling** en kies vervolgens **Koppeling op basis van overeenkomsten**.
+
+    Wanneer het op overeenkomsten gebaseerde koppelingsproces wordt gestart vanuit een hoofdgegevenslijst, wordt er direct een koppelingstaak gepland nadat u de koppelingscriteria hebt geselecteerd.  
+* De pagina Controle van volledige **Dataverse-synchronisatie**.  
+
+    Wanneer het volledige synchronisatieproces detecteert dat u ontkoppelde records in [!INCLUDE [prod_short](includes/prod_short.md)] en [!INCLUDE [cds_long_md](includes/cds_long_md.md)] hebt, wordt een koppeling **Koppelingscriteria selecteren** weergegeven voor de relevante integratietabel.  
+
+    U kunt het proces **Volledige synchronisatie uitvoeren** starten vanaf de pagina's **Dataverse-verbinding instellen** en **Dynamics 365-verbinding instellen** en het kan worden gestart als een stap in de begeleide instelling **Een verbinding instellen met Dataverse** wanneer u ervoor kiest om de installatie te voltooien en aan het einde volledige synchronisatie uit te voeren.  
+
+    Wanneer het op overeenkomsten gebaseerde koppelingsproces wordt gestart vanaf de pagina **Controle van volledige Dataverse-synchronisatie**, wordt er direct een koppelingstaak gepland nadat u de instelling hebt voltooid.  
+* De lijst **Toewijzingen van integratietabellen**.  
+
+    Selecteer een toewijzing, kies de actie **Koppeling** en kies vervolgens **Op overeenkomsten gebaseerde koppeling**.
+
+    Wanneer het op overeenkomsten gebaseerde koppelingsproces wordt gestart vanuit een integratietabeltoewijzing, wordt een koppelingstaak uitgevoerd voor alle ontkoppelde records in die toewijzing. Als het werd uitgevoerd voor een set geselecteerde records uit de lijst, wordt het alleen uitgevoerd voor de geselecteerde ontkoppelde records.
+
+In alle drie de gevallen wordt de pagina **Koppelingscriteria selecteren** geopend, zodat u de relevante koppelingscriteria kunt definiëren. Pas op deze pagina de koppeling aan met de volgende taken:
+
+* Kies op welke velden overeenkomsten met [!INCLUDE [prod_short](includes/prod_short.md)]-records en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteiten worden bepaald, en kies ook of de overeenkomst op dat veld hoofdlettergevoelig is of niet.  
+
+* Geef op of er een synchronisatie moet worden uitgevoerd na het koppelen van records en, als de record bidirectionele toewijzing gebruikt, kies ook wat er gebeurt als conflicten worden vermeld op de pagina **Updateconflicten oplossen**.  
+
+* Geef prioriteit aan de volgorde waarin records worden doorzocht door een *overeenkomstprioriteit* op te geven voor de relevante toewijzingsvelden. De overeenkomstprioriteiten zorgen ervoor dat het algoritme naar een overeenkomst zoekt in een aantal iteraties, zoals gedefinieerd door de **Prioriteit overeenkomst**-veldwaarden in oplopende volgorde. Een blanco waarde in het veld **Prioriteit overeenkomst** wordt geïnterpreteerd als prioriteit 0, dus velden met deze waarde worden als eerste beschouwd.  
+
+* Geef op of u een nieuw entiteitsexemplaar wilt maken in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in het geval dat er geen unieke ontkoppelde overeenkomst kan worden gevonden met behulp van de matchcriteria. Om deze mogelijkheid te activeren kiest u de actie **Nieuw maken als geen overeenkomst is gevonden**.  
+
+### <a name="view-the-results-of-the-coupling-job"></a>De resultaten van de koppelingstaak bekijken
+
+Om de resultaten van de koppelingstaak te bekijken opent u de pagina **Integratietabeltoewijzingen**, selecteert u de relevante toewijzing, kiest u de actie **Koppeling** actie en kiest u vervolgens de actie **Taaklogbestand voor integratiekoppeling**.  
+
+Als er records zijn die niet zijn gekoppeld, kunt u inzoomen op de waarde in de kolom Mislukt, waardoor een lijst met fouten wordt geopend die aangeeft waarom de records niet konden worden gekoppeld.  
+
+Mislukte koppeling komt vaak voor in de volgende gevallen:
+
+* Er zijn geen overeenkomstcriteria gedefinieerd
+
+    Voer in dit geval de op overeenkomsten gebaseerde koppeling opnieuw uit, maar vergeet niet om koppelingscriteria te definiëren.
+
+* Er is geen overeenkomst gevonden voor een aantal records, op basis van de gekozen overeenkomende velden
+
+    Herhaal in dit geval de koppeling met enkele andere overeenkomende velden.
+
+* Er zijn meerdere overeenkomsten gevonden voor een aantal records, op basis van de gekozen overeenkomende velden  
+
+    Herhaal in dit geval de koppeling met enkele andere overeenkomende velden.
+
+* Er is één overeenkomst gevonden, maar de overeenkomende record is al gekoppeld aan een andere record in [!INCLUDE [prod_short](includes/prod_short.md)]  
+
+    Herhaal in dit geval de koppeling met enkele andere overeenkomende velden of onderzoek waarom die [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteit is gekoppeld aan die andere record in [!INCLUDE [prod_short](includes/prod_short.md)].
+
+> [!TIP]
+> Om u te helpen een overzicht te krijgen van de voortgang van de koppeling, geeft het veld **Gekoppeld aan Dataverse** aan of een bepaalde record is gekoppeld aan een [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteit of niet. U kunt de lijst met records die worden gesynchroniseerd met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], filteren op dit veld.
+
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Verbindingen vanuit Business Central Online upgraden om op certificaten gebaseerde verificatie te gebruiken
 > [!NOTE]
-> Deze sectie is alleen relevant voor Business Central online-tenants die worden gehost door Microsoft. Online tenants die worden gehost door ISV's en installaties op locatie worden niet beïnvloed.
+> Deze sectie is alleen relevant voor [!INCLUDE[prod_short](includes/prod_short.md)] online-tenants die worden gehost door Microsoft. Online tenants die worden gehost door ISV's en installaties op locatie worden niet beïnvloed.
 
 In april 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is het verificatietype van Office365 (gebruikersnaam/wachtwoord) aan het aflopen. Voor meer informatie zie [Afschaffing van het Office365-verificatietype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Bovendien beëindigt [!INCLUDE[prod_short](includes/prod_short.md)] in maart 2022 het gebruik van op clientgeheimen gebaseerde service-to-service-verificatie voor online tenants, en vereist het gebruik van op certificaten gebaseerde service-to-service-verificatie voor verbindingen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online-tenants die worden gehost door ISV's en on-premises installaties, kunnen clientgeheimauthenticatie blijven gebruiken om verbinding te maken met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

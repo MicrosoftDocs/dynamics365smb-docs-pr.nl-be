@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440522"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587796"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online aanpassen met extensies
 
@@ -53,32 +53,6 @@ Als u een extensie verwijdert en vervolgens van gedachten verandert, kunt u deze
 
 Sommige extensies worden verstrekt door Microsoft en andere extensies worden verstrekt door [andere bedrijven](ui-extensions-other.md). Alle extensies worden getest voordat ze voor u beschikbaar worden gemaakt, maar het is raadzaam dat u toegang hebt tot de koppelingen die met elke extensie worden verschaft als u meer wilt weten over de extensie voordat u ervoor kiest deze te installeren.  
 
-Microsoft biedt de volgende extensies:  
-
-* [Extensie AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-* [Bedrijfshub](ui-extensions-company-hub.md)  
-* [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-* [Essentiële zakelijke inzichten](ui-extensions-essential-business-insights.md)
-* [Afbeeldingsanalyse](ui-extensions-image-analyzer.md)
-* [Intelligente cloud](ui-extensions-data-replication.md)
-* [Intelligente cloud Basis](ui-extensions-intelligent-cloud.md)  
-* [Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md)
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
-* [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)
-* [QuickBooks Online Gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)
-* [Salarisbestand importeren - Quickbooks](ui-extensions-quickbooks-payroll.md)
-* [Verkoop- en voorraadprognose](ui-extensions-sales-forecast.md)
-* [Btw-groep](ui-extensions-vat-group.md)
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [DK - C5 Gegevensmigratie](ui-extensions-c5-data-migration.md)
-* [DK - Betalingen en afstemmingen](ui-extensions-payments-reconciliation-formats-dk.md)
-* [DK - Btw-bestandsindelingen](ui-extensions-tax-file-formats-dk.md)
-* [De extensie GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [VS/CA/VK/AU/NZ/ZA - Overschrijvingsadvies verzenden](ui-extensions-send-remittance-advice.md)
-
 > [!NOTE]  
 > U kunt op de hoogte blijven van nieuwe extensies van Microsoft en andere leveranciers op [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
@@ -102,6 +76,12 @@ Dit geldt ook voor bepaalde functionaliteit in de basistoepassing, zoals de volg
 * OCR-service
 * Online Map
 * EU btw-nummers Service
+
+## <a name="recommended-apps"></a>Aanbevolen apps
+Microsoft-partners en -resellers kunnen extensies maken die ze kunnen gebruiken om lijsten met apps samen te stellen die ze vaak aan hun klanten aanbevelen. Als ze dat doen en de extensie in uw tenant hebben geïmplementeerd, zijn de apps beschikbaar op de pagina **Aanbevolen apps**. Daar kunt u over elke app lezen en beslissen of u deze wilt installeren.
+
+> [!NOTE]
+> Als u een Microsoft-partner of -wederverkoper bent en u een lijst met aanbevolen apps wilt geven, gaat u naar [Apps aanbevelen uit AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
 ## <a name="see-also"></a>Zie ook
 

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb71c71ec67514e4ed2df02a83afe2a56e36868e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440961"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587542"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten
 Vanuit PDF- of afbeeldingsbestanden die u ontvangt van uw handelspartners, kunt u elektronische documenten laten genereren door een externe OCR-service (Optical Character Recognition - optische tekenherkenning), die kunnen worden geconverteerd naar documentrecords in [!INCLUDE[prod_short](includes/prod_short.md)]. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze naar de OCR-service verzenden vanaf de pagina **Inkomende documenten**. Dit wordt in de eerste procedure beschreven.
@@ -69,11 +69,11 @@ U kunt nu doorgaan met het, handmatig of automatisch, maken van documentrecords 
 Met de volgende procedure wordt beschreven hoe u een inkoopfactuurrecord maakt op basis van een leveranciersfactuur die is ontvangen als een elektronisch document van de OCR-service. De procedure is hetzelfde wanneer u bijvoorbeeld een dagboekregel van een kostenontvangst maakt of een verkoopretourorder van een klant.
 
 > [!NOTE]  
->   De velden **Omschrijving** en **Nr.** op de gemaakte documentregels worden alleen ingevuld als u eerst tekst die is gevonden in het OCR-document, hebt toegewezen aan de twee velden in [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt deze toewijzing als artikelkruisverwijzingen uitvoeren, voor documentregels van het type Artikel. Zie voor meer informatie [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md). U kunt ook de functie Toewijzing tekst aan rekening gebruiken. Zie [Tekst in een inkomend document toewijzen aan een bepaalde leveranciers-, grootboek- of bankrekening](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account) voor meer informatie.
+>   De velden **Omschrijving** en **Nr.** op de gemaakte documentregels worden alleen ingevuld als u eerst tekst die is gevonden in het OCR-document, hebt toegewezen aan de twee velden in [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt deze toewijzing als artikelverwijzingen uitvoeren, voor documentregels van het type Artikel. Zie voor meer informatie [Artikelverwijzingen gebruiken](inventory-how-use-item-cross-refs.md). U kunt ook de functie Toewijzing tekst aan rekening gebruiken. Zie [Tekst in een inkomend document toewijzen aan een bepaalde leveranciers-, grootboek- of bankrekening](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account) voor meer informatie.
 
 1. Selecteer de regel voor het inkomende document en kies de actie **Document maken**.
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] wordt een inkoopfactuur gemaakt gebaseerd op de gegevens in het elektronische leveranciersdocument dat u van de OCR-service hebt ontvangen. Gegevens worden in de nieuwe inkoopfactuur ingevoegd op basis van de toewijzing die u als kruisverwijzing of als toewijzing van tekst aan rekening hebt opgegeven.
+In [!INCLUDE[prod_short](includes/prod_short.md)] wordt een inkoopfactuur gemaakt gebaseerd op de gegevens in het elektronische leveranciersdocument dat u van de OCR-service hebt ontvangen. Gegevens worden in de nieuwe inkoopfactuur ingevoegd op basis van de toewijzing die u als verwijzing of als toewijzing van tekst aan rekening hebt opgegeven.
 
 Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende mastergegevens in [!INCLUDE[prod_short](includes/prod_short.md)], worden weergegeven op het sneltabblad **Fouten en waarschuwingen**. Zie [Fouten afhandelen bij de ontvangst van elektronische documenten](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents) voor meer informatie.
 

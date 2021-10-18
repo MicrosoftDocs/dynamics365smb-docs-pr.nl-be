@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 384bbdbc3630928298367956da133b0b488559b8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783521"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588819"
 ---
 # <a name="setting-up-posting-groups"></a>Boekingsgroepen instellen
 Met boekingsgroepen worden entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten aan grootboekrekeningen gekoppeld. Hiermee wordt tijd bespaard en worden fouten voorkomen als u transacties boekt. De transactiewaarden gaan naar de rekeningen die in de boekingsgroep zijn opgegeven voor die bepaalde entiteit. De enige voorwaarde is dat u een rekeningschema hebt. Zie [Het rekeningschema instellen](finance-setup-chart-accounts.md) voor meer informatie.  
@@ -74,6 +74,14 @@ Uw instelling bepaalt wanneer de boeking plaatsvindt. Wanneer de boeking plaatsv
 
 ## <a name="copying-posting-setup-lines"></a>Boekingsinstellingsregels kopiëren
 Hoe meer product- en bedrijfsboekingsgroepen u hebt, des te meer regels u op de pagina Boekingsgroepinstellingen ziet. Dit kan veel gegevensinvoer impliceren voor het instellen van de boekingsgroepinstellingen voor het bedrijf. Hoewel er veel verschillende combinaties van bedrijfs- en productboekingsgroepen kunnen zijn, wordt door verschillende combinaties mogelijk toch naar dezelfde grootboekrekeningen geboekt. Om de hoeveelheid handmatige invoer te beperken, kopieert u de grootboekrekeningen van een bestaande regel op de pagina **Boekingsgroepinstellingen**.
+
+## <a name="troubleshooting-posting-group-errors"></a>Problemen met boekingsgroepfouten
+Boekingsgroepen zijn een van de meer geavanceerde concepten om in te stellen in [!INCLUDE[prod_short](includes/prod_short.md)]. Als ze niet correct zijn ingesteld, kunnen er fouten optreden bij het boeken van documenten of journaalregels. Deze fouten worden bijvoorbeeld meestal veroorzaakt door een fout in de manier waarop grootboekrekeningen worden toegewezen of hoe boekingsgroepen worden gecombineerd.
+
+Wanneer er iets mis is, geeft [!INCLUDE[prod_short](includes/prod_short.md)] de pagina **Foutmeldingen** weer. De pagina **Foutmeldingen** kan het gemakkelijker maken om het probleem te identificeren en op te lossen. De pagina biedt een beschrijving van de fout die verwijst naar de boekingsgroepinstelling die aandacht behoeft. Het bericht kan bijvoorbeeld luiden "Vooruitbetalingsrekening heeft geen boekingsgroepinstellingen." Er is ook een link om de pagina te openen die de oorzaak van het probleem is, zodat u het snel kunt oplossen.  
+
+> [!NOTE]
+> De hierboven beschreven foutafhandeling is niet beschikbaar voor artikel-, resource-, werknemers- en vaste-activajournalen, of voor grootboekrekeningen die zijn toegevoegd in lokale versies van boekingsgroepen.
 
 ## <a name="see-also"></a>Zie ook
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  

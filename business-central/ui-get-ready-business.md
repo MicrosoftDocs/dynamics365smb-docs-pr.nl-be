@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444832"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589144"
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
 
@@ -32,7 +32,7 @@ U kunt ook de lijst met begeleide instellingen vinden als u het ![Lampje dat de 
 
 ## <a name="get-started"></a>Aan de slag
 
-Vanaf releasewave 1 van 2021, wanneer u voor de eerste keer inlogt of een nieuw bedrijf start, begeleidt de controlelijst **Aan de slag** u door de stappen om u klaar te maken voor uw bedrijf. De stappen variëren afhankelijk van uw land/regio en eventuele branchespecifieke functionaliteit die u aan uw [!INCLUDE [prod_short](includes/prod_short.md)] hebt toegevoegd.  
+Wanneer u voor de eerste keer inlogt of een nieuw bedrijf start, begeleidt de controlelijst **Aan de slag** u door de stappen om u klaar te maken voor uw bedrijf. De stappen variëren afhankelijk van uw land/regio en eventuele branchespecifieke functionaliteit die u aan uw [!INCLUDE [prod_short](includes/prod_short.md)] hebt toegevoegd. Vanaf releasewave 2 van 2021, wanneer u voor het eerst inlogt op het CRONUS-demonstratiebedrijf, is uw startpagina geoptimaliseerd voor uw eerste ervaringen. Als u liever meer links naar meer pagina's ziet, schakelt u gewoon over naar de rol Bedrijfsmanager. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
 Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen in de lijst u kunnen helpen.
 
@@ -43,7 +43,7 @@ Als een gebied niet wordt gedekt door een begeleide instelling, kiest u het ![pi
 >
 > De eerste keer dat u zich aanmeldt, gebruikt u de **Essential**-ervaring. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
-Wanneer u een begeleide instelling uitvoert, wordt deze gemarkeerd als **Voltooid**. <!--VERIFY-->  
+Wanneer u een begeleide instelling uitvoert, wordt deze gemarkeerd als **Voltooid**.  
 
 ## <a name="teaching-tips-and-tours"></a>Instructietips en rondleidingen
 
@@ -80,13 +80,18 @@ Als gebruikers in Microsoft 365 zijn gemaakt, kunnen ze op de pagina **Gebruiker
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe verkoop- of inkoopdocumenten. Gebruik de sectie **Acties** van uw startpagina om snel een nieuwe verkoopofferte, verkoopfactuur, verkooporder, inkoopfactuur of betalingsregistratie te maken.
+Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe verkoop- of inkoopdocumenten. Gebruik de sectie **Acties** van uw startpagina om snel een nieuwe verkoopofferte, verkoopfactuur, verkooporder, inkoopfactuur of betalingsregistratie te maken. Bekijk de [snelstartgids](quick-start-business-central.md)artikelen om u te helpen de eerste stappen te zetten.  
 
 ## <a name="see-also"></a>Zie ook
 
+[Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Basisinstellingen wijzigen](ui-change-basic-settings.md)  
+[Toegankelijkheid en sneltoetsen](ui-accessibility.md)  
+[Proefversies en abonnementen](across-preview.md)  
+[Bedrijfsfunctionaliteit](across-business-functionality.md)  
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)]-proefversies en -abonnementen](across-preview.md)  
+[Zoeken in het Help-deelvenster](product-help-and-support.md#search-in-the-help-pane)  
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
 [Microsoft Learn-site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

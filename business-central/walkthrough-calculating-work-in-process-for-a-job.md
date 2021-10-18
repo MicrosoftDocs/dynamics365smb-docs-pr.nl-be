@@ -1,5 +1,5 @@
 ---
-title: 'Procedure: Onderhanden werk voor een project berekenen | Microsoft Docs'
+title: Procedure - Onderhanden werk voor een project berekenen
 description: Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die moeten worden bijgehouden terwijl het project voortduurt.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445238"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588129"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedure: Onderhanden werk voor een project berekenen
 
@@ -52,7 +52,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 |Veld|Description|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Leeg laten als de projecttaak deel uitmaakt van een groep taken.|  
+|**\<blank\>**|Leeg laten als de projecttaak deel uitmaakt van een groep taken.|  
 |**Totaal**|Definieert de reeks of groep taken die zijn opgenomen in de berekening van OHW en verantwoording. Binnen de groep wordt elke projecttaak waarvoor **Taaksoort project** is ingesteld op **Boeken**, opgenomen in het OHW-totaal tenzij het veld **OHW-totaal** is ingesteld op **Uitgesloten**.|  
 |**Uitgesloten**|Geldt alleen voor een taak met **Taaksoortproject** **Boeken**. De taak wordt niet meegenomen wanneer OHW en verantwoording worden berekend.|  
 

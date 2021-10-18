@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cbd8a674945fa5c33d502cffb865677c66bce39
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441434"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588488"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Overzicht van taken om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw organisatie.  
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw organisatie. De artikelen van de [snelstartgids voor Business Central](quick-start-business-central.md) kunnen u helpen de eerste stappen te zetten bij het maken van uw eigen [!INCLUDE [prod_short](includes/prod_short.md)]. Dit artikel geeft een overzicht van hoe u [!INCLUDE [prod_short](includes/prod_short.md)] kunt configureren voor uw organisatie.  
 
 Zo is uw rekeningschema bijvoorbeeld al ingevuld met een aantal boekingsrekeningen die gereed zijn voor gebruik. Natuurlijk kunt u het rekeningschema aanpassen aan uw wensen. Zie [Financiën](finance.md) voor meer informatie.
 
@@ -77,6 +77,7 @@ Voor sommige gebieden moet u een beheerder in uw [!INCLUDE[prod_short](includes/
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

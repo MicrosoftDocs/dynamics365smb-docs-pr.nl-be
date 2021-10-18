@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f4047e6d1a8a7533933fd8faefe9a43f22f23e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445588"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588563"
 ---
 # <a name="work-with-catalog-items"></a>Werken met catalogusartikelen
 U kunt bepaalde artikelen aan uw klanten aanbieden voor hun gemak. U wilt deze artikelen pas in uw systeem beheren als u ze gaat verkopen. Wanneer u deze artikelen wilt gaan beheren in uw systeem, kunt u ze op twee manieren naar normale artikelkaarten converteren.
@@ -51,7 +51,7 @@ Als u conversie van een catalogusartikelkaart naar een normale artikelkaart wilt
 2. Open de kaart voor een catalogusartikel dat u wilt converteren naar een normaal artikel.
 3. Kies op de pagina **Catalogusartikelkaart** de actie **Artikel maken**.
 
-Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het catalogusartikel, en een relevante artikelsjabloon gemaakt. U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
+Er worden een nieuwe vooraf ingevulde artikelkaart met gegevens van het catalogusartikel en een relevante artikelsjabloon gemaakt. U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Een catalogusartikel verkopen en converteren naar een normaal artikel
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
@@ -66,7 +66,7 @@ Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het ca
 U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Er wordt automatisch een artikelkruisverwijzingsrecord gemaakt voor de leverancier van het artikel tussen het artikelnummer van de leverancier en uw nieuwe artikelnummer. Zie voor meer informatie [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md).
+>   Er wordt automatisch een artikelverwijzing gemaakt tussen het artikelnummer van de leverancier en uw nieuwe artikelnummer. Zie voor meer informatie [Artikelverwijzingen gebruiken](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Zie ook
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  

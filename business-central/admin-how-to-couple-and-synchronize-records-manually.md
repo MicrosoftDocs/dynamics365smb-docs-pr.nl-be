@@ -1,8 +1,6 @@
 ---
-title: Koppelen en synchroniseren | Microsoft Docs
+title: Koppelen en synchroniseren
 description: Als een integratietabeltoewijzing wordt gesynchroniseerd, kunnen gegevens in alle records in een tabel in Business Central en Dynamics 365 Sales worden gesynchroniseerd die zijn gekoppeld.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 53b12b6ab7e53a20bb1b8fcc659b2f1454e85321
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779944"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588738"
 ---
-# <a name="coupling-and-synchronizing"></a>Koppelen en synchroniseren
+# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Records koppelen en synchroniseren tussen Dataverse en Business Central
+
 In dit onderwerp wordt beschreven hoe u een of meer records in [!INCLUDE[prod_short](includes/prod_short.md)] koppelt aan records in Dataverse of [!INCLUDE[crm_md](includes/crm_md.md)]. Door records te koppelen kunt u Dataverse-informatie vanuit [!INCLUDE[prod_short](includes/prod_short.md)]bekijken en andersom. Door de koppeling kunt u ook gegevens synchroniseren tussen de records. U kunt bestaande records koppelen of nieuwe records maken en koppelen.
 
 > [!Note]
@@ -48,6 +47,14 @@ In dit onderwerp wordt beschreven hoe u een of meer records in [!INCLUDE[prod_sh
 
 > [!Note]
 > U kunt één record alleen automatisch synchroniseren vanuit [!INCLUDE[crm_md](includes/crm_md.md)] wanneer **Alleen gekoppelde records synchr.** is uitgeschakeld en de synchronisatierichting is ingesteld op Bidirectioneel of Van integratietabel op de pagina **Toewijzing van integratietabel** voor de record. Zie voor meer informatie [De tabellen en velden toewijzen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+
+## <a name="to-couple-multiple-records-using-match-based-coupling"></a>Meerdere records koppelen met behulp van op overeenkomsten gebaseerde koppeling
+
+U kunt de gegevens opgeven die moeten worden gesynchroniseerd voor een entiteit, zoals een klant of contactpersoon, door records te koppelen op basis van overeenkomsten. U kunt de overeenkomsten verfijnen door de zoekopdracht hoofdlettergevoelig te maken en een prioriteit toe te kennen aan elke overeenkomst. Als er geen overeenkomst wordt gevonden, kunt u ook aangeven dat u de entiteit wilt maken in Dataverse. Voor meer informatie zie [De koppeling op basis van overeenkomsten aanpassen](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+
+1. Open in [!INCLUDE[prod_short](includes/prod_short.md)] de lijstpagina voor de record, zoals lijstpagina Klanten of Contact.
+2. Kies de actie **Op overeenkomsten gebaseerde koppeling**.
+3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-synchronize-multiple-records"></a>Meerdere records synchroniseren  
 1.  Open in [!INCLUDE[prod_short](includes/prod_short.md)] de lijstpagina voor de record, zoals lijstpagina Klanten of Contact.  

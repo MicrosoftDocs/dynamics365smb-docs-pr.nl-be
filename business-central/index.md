@@ -7,20 +7,20 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: e84f9df3d688ccd6e6355f90e3bf76069b371d83
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 14dd0aa40524ca1e261b0e57aa62bfcccd80afd4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341370"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588213"
 ---
 # <a name="welcome-to-prod_long"></a>Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Met [!INCLUDE[prod_short](includes/prod_short.md)], dat in hoge mate aanpasbaar is en uitgebreide functies biedt, kunnen bedrijven hun bedrijfsvoering, waaronder financiën, productie, verkoop, verzending, projectmanagement, services en meer, beheren. Bedrijven kunnen op eenvoudige wijze functionaliteit toevoegen die relevant is voor het toepassingsgebied en die is aangepast om zelfs aan zeer gespecialiseerde sectoren ondersteuning te bieden.  
 
-Als u [!INCLUDE[prod_short](includes/prod_short.md)] al hebt, meld u dan aan bij [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Anders [haalt u het overzicht op](https://dynamics.microsoft.com/business-central/overview/), [volgt u de rondleiding](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) en [start u vervolgens een gratis proefversie](https://go.microsoft.com/fwlink/?linkid=847861). Voor meer informatie over onboarding bij [!INCLUDE[prod_short](includes/prod_short.md)] zie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+Als u [!INCLUDE[prod_short](includes/prod_short.md)] al hebt, meld u dan aan bij [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Anders [haalt u het overzicht op](https://dynamics.microsoft.com/business-central/overview/), [volgt u de rondleiding](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) en [start u vervolgens een gratis proefversie](https://go.microsoft.com/fwlink/?linkid=847861). Bekijk de [snelstartgids](quick-start-business-central.md)artikelen om u te helpen kennis te maken met [!INCLUDE [prod_short](includes/prod_short.md)]. Voor meer informatie over onboarding bij [!INCLUDE[prod_short](includes/prod_short.md)] zie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 > [!TIP]
 > Bent u hier beland vanuit [!INCLUDE [prod_short](includes/prod_short.md)]? Als u niet zeker weet waar u kunt vinden wat u zoekt, kunt u **filteren op titels** in het navigatievenster aan de linkerkant of u kunt het veld **Zoeken** boven aan het browservenster gebruiken.  
@@ -102,6 +102,7 @@ Om u te abonneren op een RSS-feed (Really Simple Syndication) van alle updates d
 ## <a name="see-also"></a>Zie ook
 
 [Dynamics 365 Business Central op Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 [Aan de slag met Business Central](ui-get-ready-business.md)  
 [Bezoek onze videobibliotheek](across-videos.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  

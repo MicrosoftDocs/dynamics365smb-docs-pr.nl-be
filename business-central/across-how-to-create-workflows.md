@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438419"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588238"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Werkstromen maken om zakelijke procestaken met elkaar te verbinden
 
@@ -133,7 +133,7 @@ In het volgende voorbeeld is een nieuwe werkstroom gemaakt om wijzigingen in de 
     2. Kies in het veld **Op voorwaarde** het woord **Altijd** en kies dan op de pagina **Gebeurtenisvoorwaarden** de koppeling **Een voorwaarde toevoegen voor wanneer een veldwaarde verandert** en selecteer vervolgens het veld *Naam*.  
 
       Het resultaat van deze stap is dat de voorwaarde luidt als *Naam is gewijzigd*.  
-    3. Kies in het veld **Dan reactie** de koppeling **Reactie selecteren** en kies dan op de pagina **Werkstroomreacties** in het veld **Reactie selecteren** de reactie *Draai de waarde van het veld <Field> op de record terug en sla de wijziging op* en geef dan in het gedeelte **Opties voor de geselecteerde reactie** het veld *Naam* op.  
+    3. Kies in het veld **Dan reactie** de koppeling **Reactie selecteren** en kies dan op de pagina **Werkstroomreacties** in het veld **Reactie selecteren** de reactie *Draai de waarde van het veld \<Field\> op de record terug en sla de wijziging op* en geef dan in het gedeelte **Opties voor de geselecteerde reactie** het veld *Naam* op.  
     4. Kies de koppeling **Meer reacties toevoegen** en voeg vervolgens een item toe voor de reactie *Maak een goedkeuringsaanvraag voor de record met fiatteurstype <%1> en <%2> .*    
     5. Wijzig in het gedeelte **Opties voor de geselecteerde reactie** het veld **Soort fiatteur** in *Werkstroomgebruikersgroep* en geef vervolgens in het veld **Werkstroomgebruikersgroep** de relevante gebruikersgroep op.  
 

@@ -1,21 +1,21 @@
 ---
 title: Gegevens invoeren in Business Central
 description: Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker en accurater in te voeren. De basisprincipes en geavanceerde functies worden hier beschreven.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443680"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588969"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
@@ -35,7 +35,6 @@ Sommige bewerkbare velden bevatten een kiezer waarmee u een waarde kunt specific
 |Vervolgkeuzelijst          |Vervolgkeuzelijsten bieden een keuze uit vaste waarden of verwijzen naar records uit een andere tabel|
 |Schakelaar of selectievakje|Sommige velden bieden een eenvoudige keuze uit *Ja*- of *Nee*-waarden. De schakelaar wordt gebruikt om deze waarde op te geven en wordt altijd weergegeven als een selectievakje in lijsten|
 |AssistEdit       |Sommige velden bieden aangepaste kiezers die geschikt zijn om de beste waarde op te zoeken en voor dat veld te kiezen, zoals een pop-upvenster|
-
 
 ### <a name="modifying-a-field-value"></a>Een veldwaarde wijzigen
 
@@ -58,7 +57,6 @@ Als de cursor wordt weergegeven aan het einde van de veldwaarde:
 
 > [!NOTE]
 > Nadat u een waarde hebt opgegeven, controleert Business Central pas of deze geldig is nadat u buiten het veld hebt geklikt of de focus hebt ingesteld op een ander element, zoals het volgende veld.  
-
 
 ## <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -267,9 +265,16 @@ Hier volgen enkele voorbeelden.
 
  Het getal 5 wordt omgezet in 5 uur, als de eenheid uit uren bestaat.  
 
-## <a name="see-also"></a>Zie ook  
- [Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden
+
+Wanneer u de decimaaltekentoets van het numerieke toetsenbord gebruikt om gegevens in te voeren, wordt het daadwerkelijke decimaalteken dat in het veld wordt ingevoerd, bepaald door de regio-instelling van uw Business Central. U stelt de regio in Business Central in op de pagina **Mijn instellingen**.
+
+Stel dat u een numeriek toetsenbord gebruikt dat een punt (.) als decimaalscheidingsteken gebruikt. Maar u voert gegevens in voor een regionale taal die een komma gebruikt (**,**) voor het decimaalteken, zoals Deens (Denemarken) of Frans (Frankrijk). U wilt dus dat decimalen zoals "1.23" worden ingevoerd als "1,23". In dit geval kunt u naar de pagina **Mijn instellingen** gaan en de **Regio** instellen op de regionale doeltaal, zoals **Deens (Denemarken)** of **Frans (Frankrijk)**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Zie ook
+
+[Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

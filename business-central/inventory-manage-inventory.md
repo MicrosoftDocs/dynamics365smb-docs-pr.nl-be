@@ -1,7 +1,6 @@
 ---
 title: Voorraad beheren
 description: In dit onderwerp wordt beschreven hoe u de fysieke producten die u inruilt, kunt beheren door een voorraadartikelkaart te maken.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,14 +10,15 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 9290d61245eec3331be315adf00e3e71a7fb5e97
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482284"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587902"
 ---
-# <a name="how-to-manage-inventory"></a>Procedure: Voorraad beheren
+# <a name="manage-inventory"></a>Voorraad beheren
+
 Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het soort **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
 
 Positieve en negatieve voorraadmutaties worden natuurklijk ook geregistreerd wanneer u respectievelijk inkoop- en verkoopdocumenten boekt. Zie voor meer informatie [Inkopen registreren](purchasing-how-record-purchases.md), [Producten verkopen](sales-how-sell-products.md) en [Verkopen factureren](sales-how-invoice-sales.md). De transfers tussen vestigingen wijzigen de voorraadaantallen in alle magazijnen van het bedrijf.   
@@ -54,7 +54,7 @@ De volgende tabel geeft een overzicht van gerelateerde taken.
 |Stel artikeltracering in zodat u serienummers van artikelen kunt volgen, bijvoorbeeld om artikelen te volgen in geval van terugroepacties.|[Artikeltracering instellen met serie-, partij- en pakketnummers](inventory-how-setup-item-tracking.md)|
 |Wijs serienummers of lotnummers toe aan elk uitgaand of inkomend document of journaalregel.|[Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)|
 |Bepalen waar elk serie- of lotnummer is gebruikt in de voorraadketen, bijvoorbeeld in situaties waarin producten moeten worden teruggeroepen.|[Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)|
-|Stel een eigen artikelbeschrijving van de leverancier of klant in op uw artikelkaart, zodat u hun artikelbeschrijving snel kunt invoegen op handelsdocumenten.|[Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)|
+|Stel een eigen artikelbeschrijving van de leverancier of klant in op uw artikelkaart, zodat u hun artikelbeschrijving snel kunt invoegen op handelsdocumenten.|[Artikelverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)|
 |Het invoeren van artikelen op verkoop- of inkoopregels of het boeken van artikelen in transacties voorkomen.|[Artikelen blokkeren](inventory-how-block-items.md)|
 |De bedrijfsvoering in verkoop- of inkoopafdelingen of planningskantoren voor een fabriek voor meerdere vestigingen beheren.|[Werken met divisies](inventory-responsibility-centers.md)|
 |Gebruik resources met specifieke vaardigheden voor verschillende services en service-items.|[Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)|

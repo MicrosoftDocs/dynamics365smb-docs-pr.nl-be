@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437228"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547060"
 ---
 # <a name="set-up-printers"></a>Printers instellen
 
@@ -132,9 +132,6 @@ Zie voor gedetailleerde instructies voor het instellen [Aan de slag: Universeel 
     Universeel afdrukken maakt inhoud gereed voor afdrukken in XPS-indeling. Sommige oudere printers op de markt ondersteunen geen weergave van XPS-content&mdash;in veel gevallen alleen pdf-indeling. Afdrukken naar deze printers zal mislukken, tenzij Universeel afdrukken is ingesteld om documenten naar het door de printer ondersteunde formaat te converteren.
 
     Zie voor meer informatie [Overzicht van documentconversie](/universal-print/portal/document-conversion).
-
-    > [!TIP]
-    > Als geen van uw printers het weergaveformaat voor PDF-inhoud nodig heeft, raden we u aan om documentconversie niet in te schakelen, omdat dit de afdrukkwaliteit kan beïnvloeden.
 
 Nu bent u klaar om de printers toe te voegen aan [!INCLUDE[prod_short](includes/prod_short.md)], standaardprinters voor rapporten in te stellen en af te drukken.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438939"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588263"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -89,22 +89,22 @@ De volgende tabel beschrijft de sneltoetsen die u op een lijstpagina kunt gebrui
 
 Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rasters met rijen en kolommen, zoals lijstpagina's en **Regels**-onderdelen in documenten. Het verplaatsen van de ene cel naar de andere over een raster is volledig toetsenbordcompatibel.
 
-|Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Home<br />(Fn+Ctrl+pijl links)|De eerste rij in de lijst selecteren; de focus blijft in dezelfde kolom.|Naar de eerste tegel in de eerste rij gaan. |
-|Ctrl+End<br />(Fn+Ctrl+pijl rechts)|De laatste rij in de lijst selecteren; de focus blijft in dezelfde kolom.|Naar de laatste tegel in de laatste rij gaan.|
-|Thuis<br />(Fn+pijl links)|Naar het eerste veld in de rij gaan|Naar de eerste tegel in de rij gaan|
-|End<br />(Fn+pijl rechts)|Naar het laatste veld in de rij gaan.|Naar de laatste tegel in de rij gaan|
-|Voer in|De record openen die is gekoppeld aan het veld.<br /><br />Slechts van belang als een kaartpagina aan de record is gekoppeld.|Opent de record.<br /><br />Slechts van belang als een kaartpagina aan de record is gekoppeld.|
-|Ctrl+Enter|Focus naar het volgende element buiten de lijst verplaatsen.|Focus naar het volgende element buiten de lijst verplaatsen.|
-|Page up<br />(Fn+pijl omhoog)|Schuiven om de set rijen boven de huidige rijen in de weergave weer te geven. |Schuiven om de set tegels boven de huidige tegels in de weergave weer te geven. |
-|Page Down<br />(Fn+pijl omlaag)|Schuiven om de set rijen onder de huidige rijen in de weergave weer te geven.|Schuiven om de set tegels onder de huidige tegels in de weergave weer te geven.|
-|Pijl-omlaag|In dezelfde kolom naar het veld in de rij eronder gaan. |In dezelfde kolom naar de tegel in de rij eronder gaan. |
-|Pijl omhoog|Naar het veld in de bovenliggende rij in dezelfde kolom gaan.| In dezelfde kolom naar de tegel in de rij erboven gaan.  |
-|Pijl rechts|In een alleen-lezen lijst in dezelfde rij naar het volgende veld naar rechts gaan.<br /><br />In een bewerkbare lijst in het huidige veld naar rechts gaan.| In dezelfde rij naar de volgende tegel naar rechts gaan. |
-|Pijl links|In een alleen-lezen lijst in dezelfde rij naar het vorige veld naar links gaan. <br /><br />In een bewerkbare lijst in het huidige veld naar links gaan.| In dezelfde rij naar de vorige tegel naar links gaan. |
-|Tab|In een bewerkbare lijst in dezelfde rij naar het volgende veld naar rechts gaan.|Niet van toepassing.||
-|Shift + tab|In een bewerkbare lijst in dezelfde rij naar het vorige veld naar links gaan. | Niet van toepassing. |
+| Druk op deze toetsen<br />(in macOS) | Als u dit wilt doen in een lijstweergave | Als u dit wilt doen in een tegelweergave |
+|--|--|--|
+| Ctrl+Home<br />(Fn+Ctrl+pijl links) | De eerste rij in de lijst selecteren; de focus blijft in dezelfde kolom. | Naar de eerste tegel in de eerste rij gaan. |
+| Ctrl+End<br />(Fn+Ctrl+pijl rechts) | De laatste rij in de lijst selecteren; de focus blijft in dezelfde kolom. | Naar de laatste tegel in de laatste rij gaan. |
+| Thuis<br />(Fn+pijl links) | Naar het eerste veld in de rij gaan | Naar de eerste tegel in de rij gaan |
+| End<br />(Fn+pijl rechts) | Naar het laatste veld in de rij gaan. | Naar de laatste tegel in de rij gaan |
+| Voer in | De record openen die is gekoppeld aan het veld.<br /><br />Slechts van belang als een kaartpagina aan de record is gekoppeld. | Opent de record.<br /><br />Slechts van belang als een kaartpagina aan de record is gekoppeld. |
+| Ctrl+Enter | Focus naar het volgende element buiten de lijst verplaatsen. | Focus naar het volgende element buiten de lijst verplaatsen. |
+| Page up<br />(Fn+pijl omhoog) | Schuiven om de set rijen boven de huidige rijen in de weergave weer te geven. | Schuiven om de set tegels boven de huidige tegels in de weergave weer te geven. |
+| Page Down<br />(Fn+pijl omlaag) | Schuiven om de set rijen onder de huidige rijen in de weergave weer te geven. | Schuiven om de set tegels onder de huidige tegels in de weergave weer te geven. |
+| Pijl-omlaag | In dezelfde kolom naar het veld in de rij eronder gaan. | In dezelfde kolom naar de tegel in de rij eronder gaan. |
+| Pijl omhoog | Naar het veld in de bovenliggende rij in dezelfde kolom gaan. | In dezelfde kolom naar de tegel in de rij erboven gaan. |
+| Pijl rechts | In een alleen-lezen lijst in dezelfde rij naar het volgende veld naar rechts gaan.<br /><br />In een bewerkbare lijst in het huidige veld naar rechts gaan. | In dezelfde rij naar de volgende tegel naar rechts gaan. |
+| Pijl links | In een alleen-lezen lijst in dezelfde rij naar het vorige veld naar links gaan. <br /><br />In een bewerkbare lijst in het huidige veld naar links gaan. | In dezelfde rij naar de vorige tegel naar links gaan. |
+| Tab | In een bewerkbare lijst in dezelfde rij naar het volgende veld naar rechts gaan. | Niet van toepassing. |  |
+| Shift + tab | In een bewerkbare lijst in dezelfde rij naar het vorige veld naar links gaan. | Niet van toepassing. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selecteren, kopiëren en plakken
 

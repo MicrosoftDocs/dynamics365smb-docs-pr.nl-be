@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435256"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588463"
 ---
 # <a name="send-documents-and-emails"></a>Documenten en e-mails verzenden
 
@@ -33,7 +33,7 @@ Als u e-mails vanuit [!INCLUDE[prod_short](includes/prod_short.md)] wilt inschak
 In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-bestand en met documentspecifieke e-mailtekst aan een e-mail wordt toegevoegd. <!--update this-->
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer de factuur en kies de actie **Afdrukken/Verzenden**.
+2. Selecteer de factuur en kies de actie **Afdrukken/Verzenden** en kies vervolgens **Verzenden**.
 3. Kies in het veld **E-mail** **Ja (prompt voor instellingen)**. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
     
     Als het veld **E-mail** op de pagina **Document verzenden naar** is ingesteld op **Ja (prompt voor instellingen)**, wordt de pagina **E-mail verzenden** geopend en vooraf gevuld met de contactpersoon in het veld **Aan:** en het document is als een pdf-bestand bijgevoegd. In het veld **Hoofdtekst** kunt u tekst handmatig invoeren of kunt u in het veld een documentspecifieke e-mailhoofdtekst invoeren die u hebt ingesteld.
@@ -51,9 +51,10 @@ In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-besta
 > Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van de pagina **Document verzenden naar** selecteren. In dat geval wordt de pagina **E-mail verzenden** niet geopend. Zie stap 4. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
 
 ## <a name="to-compose-and-send-an-email"></a>Een e-mail opstellen en verzenden
+U kunt snel e-mails opstellen voor contactpersonen, klanten, leveranciers, verkopers/inkopers en bankrekeningen, rechtstreeks vanaf de pagina's voor die entiteiten. Kies gewoon **Verwerken** en dan **E-mail verzenden** om de e-maileditor te openen. Voor bankrekeningen bevindt de actie **E-mail verzenden** zich onder **Acties**.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **E-mailaccounts** in en kies vervolgens de gerelateerde koppeling.
-2. Kies het account van waaruit u de e-mail wilt verzenden en kies vervolgens de actie **E-mail opstellen**.
+> [!TIP]
+> Als u vaak e-mailberichten verstuurt die vergelijkbaar zijn, of een bulkcommunicatie wilt verzenden, bijvoorbeeld om reclame te maken voor een verkoopcampagne, kan het gebruik van Word-sjablonen met e-mail het proces versnellen. U kunt een sjabloon maken voor entiteiten zoals klanten, leveranciers en contactpersonen, die de inhoud van een e-mailbericht voor u zal genereren, en zelfs de inhoud voor de ontvanger personaliseren op basis van gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]. Voor meer informatie zie [Word-sjablonen gebruiken voor bulkcommunicatie](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
 

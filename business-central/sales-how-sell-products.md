@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
-ms.date: 08/17/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2ecf6884e37467504bc2f4573ef60c870993b799
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7156684c2b12af7e5b3e8b51791a702566824009
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440428"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588513"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Producten verkopen met een klantverkooporder  
 
@@ -67,8 +67,8 @@ U kunt zelfs direct betaalde orders voor niet-geregistreerde klanten maken door 
 8. In het veld **Regelkorting %** voert u een percentage in als u de klant een korting op het product wilt verlenen. De waarde in het veld **Regelbedrag** wordt dienovereenkomstig bijgewerkt.
 
     Als u speciale artikelprijzen hebt ingesteld op het sneltabblad **Verkoopprijzen en verkoopregelkortingen** op de klantenkaart of de artikelkaart, worden de prijs en het bedrag op de offerteregel automatisch bijgewerkt als aan de overeengekomen prijscriteria is voldaan. Zie voor meer informatie [Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Als u een opmerking over de offerteregel wilt toevoegen die de klant op de afgedrukte verkoopofferte kan zien, schrijft u een opmerking in het veld **Omschrijving** op een lege regel.  
-10. Herhaal stap 4 t/m 8 voor elk artikel dat u aan de klant wilt verkopen.
+9. Als u een opmerking over de orderregel wilt toevoegen die de klant op de afgedrukte verkooporder kan zien, schrijft u een opmerking in het veld **Omschrijving** op een lege regel.  
+10. Herhaal stap 5 t/m 9 voor elk artikel dat u aan de klant wilt verkopen.
 
     De totalenvelden onder de regels worden automatisch bijgewerkt wanneer u regels maakt of wijzigt om de bedragen weer te geven die naar de grootboeken worden geboekt.
 

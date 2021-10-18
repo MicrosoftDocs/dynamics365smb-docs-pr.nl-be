@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 08/24/2021
+  ms.date: 09/29/2021
   ms.author: edupont
-  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
-  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+  ms.openlocfilehash: 53f4a87fea747b59bed7942885b1374377381029
+  ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 08/27/2021
-  ms.locfileid: "7440703"
+  ms.lasthandoff: 10/01/2021
+  ms.locfileid: "7588131"
 title: Veelgestelde vragen over het gebruik van Business Central
 summary: "Deze sectie bevat antwoorden op veelgestelde vragen over de aanmelding bij een proefversie, het aanschaffen van een abonnement en het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)]. U leest ook hoe u technische ondersteuning krijgt.  \n"
 sections:
@@ -27,7 +27,7 @@ sections:
     answer: "U kunt zich aanmelden voor een gratis proefversie om [!INCLUDE[prod_short](includes/prod_short.md)] uit te proberen. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Als u meer tijd wilt om rond te kijken, kunt u [uw proeftijd verlengen](#can-i-extend-my-30-day--new-company--trial-period-).  \n\nStart voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten in [!INCLUDE[prod_short](includes/prod_short.md)] begeleide instellingen, video's of Help-onderwerpen voor geselecteerde instellingstaken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  \n\nWanneer u gereed bent om [!INCLUDE[prod_short](includes/prod_short.md)] aan te schaffen, vindt u een [!INCLUDE[prod_short](includes/prod_short.md)]-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie [Hoe vind ik een partner-reseller?](#how-do-i-find-a-reselling-partner) voor meer informatie.  \n"
   - question: >
       Waar ga ik met mijn vragen naartoe?
-    answer: "Als u vragen hebt over [!INCLUDE[prod_short](includes/prod_short.md)] waarvoor u geen antwoord in deze documentatie kunt vinden, kunt deze vragen stellen aan de Business Central-community. Zie [Dynamics 365 Business Central-community](https://community.dynamics.com/business) voor meer informatie.  \n\nOp de communityhomepage vindt u ook koppelingen naar onze blogs, waar u trucs en tips kunt vinden. Zie voor meer informatie [Microsoft Dynamics 365 Business Central in het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) en het oudere [Dynamics 365 Business Central-blog](https://community.dynamics.com/business/b/financials).  \n\nTen slotte kunt u contact opnemen met uw partner die [!INCLUDE[prod_short](includes/prod_short.md)] doorverkoopt. Zie de secties [Hoe krijg ik technische ondersteuning?](/dynamics365/business-central/across-faq#hdigetsupport) en [Hoe vind ik een partner-reseller?](#how-do-i-find-a-reselling-partner) voor meer informatie.  \n"
+    answer: "Als u vragen hebt over [!INCLUDE[prod_short](includes/prod_short.md)] waarvoor u geen antwoord in deze documentatie kunt vinden, kunt deze vragen stellen aan de Business Central-community. Zie [Dynamics 365 Business Central-community](https://community.dynamics.com/business) voor meer informatie.  \n\nOp de communityhomepage vindt u ook koppelingen naar onze blogs, waar u trucs en tips kunt vinden. Zie voor meer informatie [Microsoft Dynamics 365 Business Central in het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) en het oudere [Dynamics 365 Business Central-blog](https://community.dynamics.com/business/b/financials).  \n\nTen slotte kunt u contact opnemen met uw partner die [!INCLUDE[prod_short](includes/prod_short.md)] doorverkoopt. Zie de secties [Hoe krijg ik technische ondersteuning?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) en [Hoe vind ik een partner-reseller?](#how-do-i-find-a-reselling-partner) voor meer informatie.  \n"
   - question: >
       Waarom kan ik die mogelijkheid niet vinden in mijn Business Central?
     answer: "Hebt u onlangs in het releaseplan of ons blog gelezen over een nieuwe mogelijkheid? In dat het geval is uw [!INCLUDE[prod_short](includes/prod_short.md)] mogelijk nog niet geüpgraded naar de laatste versie. U kunt controleren op welke versie uw [!INCLUDE[prod_short](includes/prod_short.md)] is gebaseerd op de pagina [Help en ondersteuning](product-help-and-support.md).  \n\nDit heeft betrekking op [!INCLUDE [prod_short](includes/prod_short.md)] online en on-premises.  \n\nAls de mogelijkheid is gepubliceerd als een extensie in AppSource, is er ook een vertraging tussen de extensieaankondiging en de beschikbaarheid ervan in AppSource. Dit heeft alleen betrekking op [!INCLUDE [prod_short](includes/prod_short.md)] online.  \n"

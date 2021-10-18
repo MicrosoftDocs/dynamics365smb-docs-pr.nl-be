@@ -10,19 +10,20 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776284"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588363"
 ---
 # <a name="business-functionality"></a>Bedrijfsfunctionaliteit
+
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt functie voor algemene bedrijfsprocessen in kleinere en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening. Complexere processen, zoals assemblage, productie, service en gestuurd magazijnbeheer, worden echter ook ondersteund.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan uw zakelijke behoeften. Vanuit uw rolcentrum kunt u toegang krijgen tot begeleide instellingen die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[prod_short](includes/prod_short.md)]. Verschillende gebieden van bedrijfsfunctionaliteit moet u handmatig instellen. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] instellen](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan uw zakelijke behoeften. Vanuit uw rolcentrum kunt u toegang krijgen tot begeleide instellingen die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[prod_short](includes/prod_short.md)]. Verschillende gebieden van bedrijfsfunctionaliteit moet u handmatig instellen. De artikelen van de [snelstartgids voor Business Central](quick-start-business-central.md) kunnen u helpen de eerste stappen te zetten bij het maken van uw eigen [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] instellen](setup.md).
 
-| Aan | Zie |
+| Als u dit wilt doen: | Zie |
 | --- | --- |
 |Betalingen verrichten en innen, uw cashflow beheren, inkomsten en omzet uitstellen, jaarafsluiting voorbereiden en vaste activa beheren.|[Financiën](finance.md)|
 |Krijg inzicht in de prestaties van uw zakelijke activiteiten met budgetten, rapportageschema's en analyseweergaven.|[Bedrijfsinformatie](bi.md)|

@@ -41,7 +41,10 @@
 ##### [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
 ##### [Ontwerpdetails: bekend probleem met artikelvereffening](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)  
-##### [Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost
+###### [Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Foutbericht "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Boekingsdatum op correctiewaardepost in vergelijking met de bronpost](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Ontwerpdetails: Verwachte kostenboeking](design-details-expected-cost-posting.md)  
 ##### [Ontwerpdetails: Gemiddelde kostprijs](design-details-average-cost.md)  
 ##### [Ontwerpdetails: Verschil](design-details-variance.md)  
@@ -94,6 +97,12 @@
 ### [Aan de slag met een abonnement](across-preview.md#getting-started-with-a-subscription)
 ### [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
 
+## Snelstartgidsen
+### [Snelstartgidsen voor Business Central](quick-start-business-central.md)
+### [Bedrijfsgegevens instellen](quick-start-company-information.md)
+### [Producten en services verkopen](quick-start-sell-products-and-services.md)
+### [Producten en services kopen](quick-start-procurement.md)
+
 <!--setup-->
 ## Business Central instellen
 ### [Overzicht van taken](setup.md)
@@ -133,6 +142,7 @@
 #### [Nieuwe klanten registreren](sales-how-register-new-customers.md)
 #### [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md)
 #### [Speciale verkoopprijzen en kortingen registreren](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Klantenprijsgroepen instellen](sales-how-to-set-up-customer-price-groups.md)
 #### [Verkopers instellen](sales-how-setup-salespeople.md)
 #### [Verzendprofielen van documenten instellen](sales-how-setup-document-send-profiles.md)
 #### [Documenten per e-mail verzenden](ui-how-send-documents-email.md)
@@ -240,14 +250,16 @@
 #### [Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### E-mail instellen
 #### [E-mail instellen](admin-how-setup-email.md)
-#### Uw bedrijfsinbox instellen in Microsoft Outlook 
-##### [Business Central gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)
+#### Uw bedrijfsinbox instellen in Microsoft Outlook
+##### [De Business Central-invoegtoepassing voor Outlook verkrijgen](admin-outlook.md)
+##### [Business Central gebruiken als uw bedrijfsinbox in Outlook](work-outlook-addin.md)
 ##### [Synchroniseren met contacten in Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Outlook optimaliseren](admin-outlook-optimize.md)
-##### [Business Central gebruiken met Outlook](admin-no-outlook.md)
+##### [Business Central gebruiken zonder Outlook](admin-no-outlook.md)
 ### Rapporten instellen
 #### [Rapportselectie](across-report-selections.md)
 ### Verbindingen instellen
+#### [De Business Central-invoegtoepassing voor Excel verkrijgen](admin-deploy-excel-addin.md)
 #### Business Central gebruiken als uw bedrijfsinbox in Outlook 
 ##### [Overzicht](admin-outlook.md)
 ##### [Synchroniseren met contacten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
@@ -257,10 +269,15 @@
 ##### [Teams-integratie beheren](admin-teams-integration.md)
 ##### [Business Central-app voor teams installeren](across-install-app-for-teams.md)
 ##### [Zoeken naar klanten, leveranciers en andere contacten](across-search-contacts-teams.md)
-##### [Records delen in teams](across-working-with-teams.md)
+##### [Business Central-records en paginakoppelingen delen in Teams](across-working-with-teams.md)
 ##### [Bedrijf en andere instellingen wijzigen](across-teams-settings.md)
 ##### [Veelgestelde vragen over Teams](teams-faq.md)
 ##### [Problemen oplossen](admin-teams-troubleshooting.md)
+#### OneDrive voor Bedrijven gebruiken met Business Central
+##### [Overzicht](across-onedrive-overview.md)
+##### [Integratie met OneDrive voor Bedrijven beheren](admin-onedrive-integration.md)
+##### [Business Central-bestanden openen in OneDrive](across-share-onedrive.md)
+##### [Veelgestelde vragen over OneDrive](admin-onedrive-faq.md)
 #### Power BI gebruiken met Business Central
 ##### [Inleiding](admin-powerbi.md)
 ##### Beheerder
@@ -285,6 +302,8 @@
 ### [Basisagenda's instellen](across-how-to-assign-base-calendars.md)
 ### [Printers instellen](ui-specify-printer-selection-reports.md)
 ### [Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)
+### [Business Central op uw desktop krijgen](install-desktop-app.md)
+
 
 ## Veelgestelde vragen
 ### [Veelgestelde vragen](across-faq.yml)
@@ -329,7 +348,9 @@
 ## [Verplichte velden detecteren](ui-mandatory-fields.md)
 ## [Taal en regio wijzigen](about-locale-language.md)
 ## [Weergeven en bewerken in Excel](across-work-with-excel.md)
+## [Bestanden opslaan en delen in OneDrive](across-share-onedrive.md)
 ## [Bijlagen, koppelingen en notities op kaarten en in documenten beheren](ui-how-add-link-to-record.md)
+## [Word-sjablonen gebruiken voor bulkcommunicatie](ui-mail-merge.md)
 ## [Basisinstellingen wijzigen](ui-change-basic-settings.md)
 ## [Overschakelen naar een ander bedrijf of een andere omgeving](ui-organization-switch.md)
 ## [Berichten beheren](ui-smart-notifications.md)
@@ -608,6 +629,7 @@
 ### [Doorverzendingen uitvoeren](sales-how-drop-shipment.md)
 ### [Speciale orders maken:](sales-how-to-create-special-orders.md)
 ### [Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)
+### [Verkoopretourorders verwerken](sales-how-process-sales-returns-orders.md)
 ### [Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md)
 ### [Werken met verkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)
 ### [Verzendingen combineren op één factuur](sales-how-to-combine-shipments-on-a-single-invoice.md)
@@ -653,7 +675,7 @@
 ### [Artikeltracering instellen met serie-, partij- en pakketnummers](inventory-how-setup-item-tracking.md)
 ### [Artikelen traceren met serie-, partij- en pakketnummers](inventory-how-work-item-tracking.md)
 ### [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)
-### [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)
+### [Artikelverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)
 ### [Artikelen blokkeren](inventory-how-block-items.md)
 ### [Werken met divisies](inventory-responsibility-centers.md)
 
@@ -951,10 +973,12 @@
 ##### [Lokalisatie van vaste activa voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankieren en betalingen
 ##### [Bankfunctie](LocalFunctionality/Czech/bank-feature.md)
+##### [Lokalisatie van bankdocumenten voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Kasbeheer](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Lokalisatie van kas voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registratie van verkoop (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Geavanceerd](LocalFunctionality/Czech/advances.md)
+##### [Lokalisatie van vooruitbetalingen voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Schulden en tegoeden
 ##### [Schulden en tegoeden](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
@@ -1085,6 +1109,7 @@
 
 ### India
 #### [Overzicht](LocalFunctionality/India/india-local-functionality.md)
+#### [Boekingsnummerreeksen instellen](LocalFunctionality/India/posting-no-series-setup.md)
 #### Belastingberekenfunctie
 ##### [Overzicht](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configuratie van import en export door belastingberekenfunctie](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1161,6 +1186,8 @@
 ##### [TDS voorlopige invoer](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [TDS-aanpassingsinvoer](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [TDS-betaling aan autoriteit](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+##### [TDS 194Q Sectieoverzicht](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [TDS 194Q-transacties](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS voor klant
 ##### [Overzicht van TDS voor klant](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS-berekening voor klant](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1188,6 +1215,7 @@
 ##### [Uitbestedingstransacties](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [GST-aansprakelijkheid creëren](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Uitbestedingsrapport](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Verlopen cheque](LocalFunctionality/India/Stale-Check.md)
 
 ### Italië
 #### [Lokale functionaliteit in de Italiaanse versie](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1603,6 +1631,7 @@
 ### [Wijzigingen registreren](across-log-changes.md)
 ### [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md)
 ### [Opslag beheren door gegevens te comprimeren of documenten te verwijderen](admin-manage-documents.md)
+### [Archiefgegevens](admin-archive-data.md)
 ### [Beleid voor het bewaren van gegevens definiëren](admin-data-retention-policies.md)
 ### [Een webservice publiceren](across-how-publish-web-service.md)
 ### [API-sjablonen configureren](admin-configuring-api-template.md)
@@ -1613,7 +1642,7 @@
 ### [Tabelgegevens weergeven](admin-view-table-information.md)
 ### [Nieuwe functies van tevoren inschakelen](admin-feature-management.md)
 ### [Gebruikers onboarden met controlelijsten](admin-checklist.md)
-### [Sandbox-omgevingen](across-how-create-sandbox-environment.md)
+### [Sandboxomgevingen](admin-sandbox-environments.md)
 ## Business Central aanpassen
 ### [Overzicht van aanpassing](ui-customizing-overview.md)
 ### [Pagina's aanpassen voor profielen](ui-personalization-manage.md)

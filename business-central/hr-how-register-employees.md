@@ -12,19 +12,23 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9f25ea61c41bfeb08b9283153a96b8a78ce7c9b7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440561"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589294"
 ---
 # <a name="register-employees"></a>Werknemers registreren
-Als u de Human Resources-functionaliteit wilt gebruiken, moet u eerst elke werknemer registreren door een kaart met alle kern- en bijbehorende gegevens te maken.
+Om de Human Resources-functionaliteit te gebruiken moet u eerst elke werknemer toevoegen door de velden op de pagina **Werknemerskaart** in te vullen.
 
-U kunt de gegevens van werknemers op elk gewenst moment wijzigen. Door de gegevens over uw werknemers up-to-date te houden, maakt u de personeelsadministratie eenvoudiger. Stel bijvoorbeeld dat het adres van een werknemer verandert, dan kunt u dit registreren op de werknemerskaart.
+## <a name="adding-new-customers"></a>Nieuwe klanten toevoegen
+U kunt nieuwe werknemers handmatig toevoegen door de velden op de pagina **Werknemerskaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen werknemersprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe werknemers en helpt ervoor te zorgen dat de informatie elke keer correct is. Als u sjablonen voor meer dan één type werknemer maakt, kunt u de sjabloon kiezen die u wilt gebruiken wanneer u een werknemer toevoegt. Als u slechts één sjabloon maakt, wordt deze voor alle nieuwe werknemers gebruikt. Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebruiken om deze toe te passen op een of meer geselecteerde werknemers. Om een sjabloon te maken vult u de informatie in die u opnieuw wilt gebruiken op de pagina Werknemerskaart en slaat u deze vervolgens op als sjabloon.
 
-In de volgende procedures wordt beschreven hoe u een eerste werknemerskaart maakt en hoe u twee soorten werknemerdetails aan een werknemer toewijst. Daarnaast kunt u verschillende andere relevante informatie, zoals kwalificaties en redenen voor inactiviteit, toewijzen. U kunt werknemergegevens toewijzen door een veld of een actie te kiezen op de pagina **Werknemerskaart**.
+> [!TIP]
+> Het kan handig zijn om de pagina **Werknemerssjabloon** te personaliseren wanneer u een sjabloon maakt. U wilt bijvoorbeeld een veld toevoegen dat nog niet op de pagina wordt weergegeven. Zie [Uw werkruimte personaliseren](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.
+
+U kunt de gegevens van werknemers op elk gewenst moment wijzigen. Door de werknemersrecords up-to-date te houden, maakt u de personeelsadministratie eenvoudiger. Stel bijvoorbeeld dat het adres van een werknemer verandert, dan kunt u dit registreren op de pagina Werknemerskaart.
 
 > [!NOTE]  
 > U kunt werknemers voor hun kosten tijdens zakelijke activiteiten terugbetalen. Hiervoor moet u de velden invullen op het sneltabblad **Betalingen** op de pagina **Werknemer**. Zie voor meer informatie [Uitgaven van werknemers vastleggen en terugbetalen](finance-how-record-reimburse-employee-expenses.md).
@@ -35,7 +39,7 @@ In de volgende procedures wordt beschreven hoe u een eerste werknemerskaart maak
 3. Vul indien nodig de velden op de pagina **Werknemerskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Een afbeelding van een werknemer invoegen
-Als u een afbeelding van een werknemer in BMP-indeling hebt, kunt u deze afbeelding invoegen op de werknemerskaart.
+Als u een foto van een werknemer hebt, kunt u deze invoegen op de werknemerskaart.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor de betreffende werknemer.

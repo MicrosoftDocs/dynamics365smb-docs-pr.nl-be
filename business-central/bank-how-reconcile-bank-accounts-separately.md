@@ -1,7 +1,7 @@
 ---
 title: Bankrekeningen afstemmen
-description: Hierin wordt beschreven hoe u een bankreconciliatie kunt uitvoeren met de pagina **Bankreconciliatie**; hoe uw voorraadwaarde wordt afgestemd met het grootboek.
-author: SorenGP
+description: In dit onderwerp wordt beschreven hoe u de transacties op uw interne bankrekeningen afstemt met de transacties op afschriften van uw bank.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.author: bholtorf
+ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435432"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587821"
 ---
 # <a name="reconcile-bank-accounts"></a>Bankrekeningen afstemmen
 
@@ -42,7 +42,7 @@ Regels die niet kunnen worden afgestemd, aangeduid met een waarde in het veld **
 
 | Verschil | Reden  | Oplossing |
 |------------|--------|------------|
-| Een transactie op de interne bankrekening staat niet op het bankafschrift. | De banktransactie heeft niet plaatsgevonden, hoewel er wel een boeking is gedaan in [!INCLUDE[prod_short](includes/prod_short.md)]. | Voer de ontbrekende geldtransactie uit (of vraag een debiteur om deze uit te voeren) en importeer vervolgens het bankafschriftbestand of voer de transactie handmatig in. |
+| Een transactie op de interne bankrekening staat niet op het bankafschrift. | De banktransactie heeft niet plaatsgevonden, hoewel er wel een boeking is gedaan in [!INCLUDE[prod_short](includes/prod_short.md)]. | Voer de ontbrekende geldtransactie uit (of vraag een debiteur om deze uit te voeren) en importeer vervolgens het bankafschriftbestand opnieuw of voer de transactie handmatig in. |
 | Een transactie op het bankafschrift is niet een document of journaalregel in [!INCLUDE[prod_short](includes/prod_short.md)]. | Er is een banktransactie uitgevoerd zonder een overeenkomstige boeking in [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld een boeking in een dagboekregel voor een uitgave. | Maak en plaats de ontbrekende post. Zie [Ontbrekende posten maken om banktransacties mee af te stemmen](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with) voor informatie over een snelle manier om dit te doen. |
 | Een transactie op de interne bankrekening komt overeen met een banktransactie, maar bepaalde informatie is te verschillend om een match te geven. | Informatie, zoals het bedrag of de naam van de klant, ios anders ingevoerd in verband met de banktransactie of de interne boeking. | Controleer de informatie en stem deze vervolgens handmatig af. Corrigeer eventueel de niet-overeenkomende informatie. |
 
@@ -77,31 +77,44 @@ Het deelvenster **Bankafschriftregels** wordt ingevuld volgens facturen in [!INC
 1. Kies op de pagina **Bankreconciliatie** de actie **Regels voorstellen**.
 2. Voer in het veld **Begindatum** de vroegste boekingsdatum in voor de posten waarop u de reconciliatie wilt uitvoeren.
 3. Voer in het veld **Einddatum** de laatste boekingsdatum in voor de posten waarop u de reconciliatie wilt uitvoeren.
-4. Schakel het selectievakje **Inclusief cheques** in om chequeposten voor te stellen in plaats van de corresponderende bankposten.
-5. Kies de knop **Ok**.
+
+> [!NOTE]
+> Doorgaans komt de einddatum overeen met de datum die is opgegeven in het veld **Afschriftdatum**. Als u echter transacties voor slechts een deel van een periode wilt afstemmen, kunt u een andere einddatum invoeren. 
+
+1. Schakel het selectievakje **Inclusief cheques** in om chequeposten voor te stellen in plaats van de corresponderende bankposten.
+1. Kies de knop **Ok**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Bankafschriftregels automatisch afstemmen met bankrekeningposten
 
 De pagina **Bankreconciliatie** biedt automatische afstemmingsfunctionaliteit op basis van een afstemming van tekst op een bankafschriftregel (linkerdeelvenster) met tekst in een of meer bankposten (rechterdeelvenster). U kunt de voorgestelde automatische afstemming overschrijven en u kunt ervoor kiezen helemaal geen automatische afstemming te gebruiken. Zie [Bankafschriftregels handmatig afstemmen met bankrekeningposten](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually) voor meer informatie.
 
+Met automatisch afstemmen worden posten afgestemd op basis van een set regels voor betalingsvereffening. Zie [Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md) voor meer informatie. U kunt de basis voor overeenkomsten onderzoeken met behulp van de actie **Afstemmingsdetails**. De details bevatten bijvoorbeeld de namen van de velden die overeenkomende waarden bevatten.  
+
 1. Kies op de pagina **Bankreconciliatie** de actie **Automatisch afstemmen**. De pagina **Bankposten afstemmen** verschijnt.
 2. Geef in het veld **Datumtolerantie van transactie (dagen)** het aantal dagen op vóór en na de boekingsdatum van de bankpost waarbinnen de functie naar overeenkomstige transactiedatums in het bankafschrift zoekt.
 
-    Als u 0 typt of het veld leeg laat, zoekt de functie **Automatisch afstemmen** alleen naar overeenkomende transactiedatums op de bankpostboekingsdatum.
+    Als u 0 typt of het veld leeg laat, zoekt de actie **Automatisch afstemmen** alleen naar overeenkomende transactiedatums op de bankpostboekingsdatum.
 3. Kies de knop **Ok**.
 
     Alle bankafschriftregels en bankrekeningposten die kunnen worden afgestemd, worden in groene letters weergegeven, en het selectievakje **Vereffend** wordt geselecteerd.
 4. Als u een afstemming wilt verplaatsen, selecteert u de bankafschriftregel en kiest u vervolgens **Afstemming verwijderen**.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Bankafschriftregels handmatig afstemmen met bankrekeningposten
+> [!TIP]
+> U kunt een mix van handmatige en automatische afstemming gebruiken. Als u handmatig afgestemde posten hebt, zal automatische afstemming uw selecties niet overschrijven. 
 
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Bankafschriftregels handmatig afstemmen met bankrekeningposten
 1. Selecteer op de pagina **Bankreconciliatie** een niet-vereffende regel in het deelvenster **Bankafschriftregels**.
 2. Selecteer in het deelvenster **Bankposten** een of meer bankrekeningposten die met de geselecteerde bankafschriftregel kunnen worden afgestemd. Om meerdere regels te kiezen drukt u op de Ctrl-toets en houdt u deze ingedrukt.
+
+   > [!TIP]
+   > U kunt ook handmatig meerdere bankafschriftregels afstemmen met één bankrekeningpost. Dit kan bijvoorbeeld handig zijn als uw bankdeposito verschillende betaalmethoden bevat, zoals creditcards van verschillende uitgevers, en uw bank deze als afzonderlijke regels vermeldt. 
 3. Kies de actie **Handmatig afstemmen**.
 
     De geselecteerde bankafschriftregel en de geselecteerde bankrekeningposten worden in groene letters weergegeven en het selectievakje **Vereffend** in het rechtervenster wordt geselecteerd.
 4. Herhaal stap 1 t/m 3 voor alle bankafschriftregels die niet overeenkomen.
-5. Als u een afstemming wilt verplaatsen, selecteert u de bankafschriftregel en kiest u vervolgens **Afstemming verwijderen**.
+
+> [!TIP]
+> Als u een afstemming wilt verplaatsen, selecteert u de bankafschriftregel en kiest u vervolgens **Afstemming verwijderen**. Als u meerdere bankafschriftregels op een grootboekpost hebt afgestemd en een of meer van de afgestemde regels moet verwijderen, worden alle handmatige afstemmingen voor de grootboekboeking verwijderd wanneer u **Afstemming verwijderen** kiest. 
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Ontbrekende posten maken om bankafschriftregels mee af te stemmen
 

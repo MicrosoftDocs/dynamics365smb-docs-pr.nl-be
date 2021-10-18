@@ -2,13 +2,13 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: 3f7d32fafb7dbb98a3067a63b6499da2632432e7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6971b5f63a40a0308b645472f775ab74aeabe911
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788639"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587985"
 ---
-[!INCLUDE[prod_short](prod_short.md)] bevat knopinfo voor velden en acties en instructietips voor enkele van de belangrijkste pagina's die u kunnen helpen bij het doorlopen van de verschillende bedrijfsprocessen. Voor elke knopinfo en instructietip kiest u de koppeling **Meer informatie** om Help voor de pagina te openen. Gebruik op alle pagina's *Ctrl+F1* op uw toetsenbord om de Help voor de desbetreffende pagina te openen. Op elk apparaat opent het vraagteken in de rechterbovenhoek de pagina **Hulp en ondersteuning** en u kunt vanaf daar ook naar de Help van het product gaan.  
+[!INCLUDE[prod_short](prod_short.md)] bevat knopinfo voor velden en acties en instructietips voor enkele van de belangrijkste pagina's die u kunnen helpen bij het doorlopen van de verschillende bedrijfsprocessen. Voor elke knopinfo en instructietip kiest u de koppeling **Meer informatie** om Help voor de pagina te openen. Gebruik op alle pagina's *Ctrl+F1* op uw toetsenbord om de Help voor de desbetreffende pagina te openen. Op elk apparaat gebruikt u het vraagteken in de rechterbovenhoek om de pagina **Hulp en ondersteuning** en de Help van het product te openen.  

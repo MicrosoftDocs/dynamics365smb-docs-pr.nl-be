@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318596"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588663"
 ---
 # <a name="setting-up-sales"></a>Verkopen instellen
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.
 
-Eerst moet u de algemene instellingen configureren, zoals welke verkoopdocumenten vereist zijn en hoe de waarden daarvan worden geboekt. Deze algemene instellingen worden normaal gesproken tijdens de implementatie eenmalig ingevoerd.
+U moet de algemene instellingen definiëren op de pagina **Verkoopinstellingen**, zoals welke verkoopdocumenten vereist zijn, hoe hun waarden worden geboekt en het type regels dat standaard moet worden gemaakt. Deze algemene instellingen worden normaal gesproken tijdens de implementatie eenmalig ingevoerd.
 
-Een aparte reeks van taken die verband houdt met het registreren van nieuwe klanten is het vastleggen van alle speciale prijzen of kortingsovereenkomsten die u voor elke klant hanteert.
+Een aparte reeks van taken die verband houdt met het registreren van nieuwe klanten is het vastleggen van alle speciale prijzen of kortingsovereenkomsten die u voor elke klant hanteert. Zie voor meer informatie [Speciale verkoopprijzen en kortingen registreren](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en valuta's, worden behandeld in de sectie Instelling van financiën. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
 

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 09/07/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 06465c028c0721c5992a334400cdc975120bdeb7
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482465"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589319"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Proefversies en abonnementen
 
@@ -27,7 +27,7 @@ U kunt zich [hier](https://go.microsoft.com/fwlink/?linkid=847861) aanmelden voo
 
 Afhankelijk van uw land of regio bevat de proefversie de talen en functionaliteit die uw land of regio vereist. Zie voor meer informatie [Taal en landinstelling wijzigen](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] zullen bepaalde dingen vertrouwd voor u zijn en andere dingen niet. Wanneer u zich voor de eerste keer aanmeldt bij het demonstratiebedrijf, krijgt u toegang tot een pagina Aan de slag met koppelingen naar begeleide instellingen die u op weg kunnen helpen. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)] zullen bepaalde dingen vertrouwd voor u zijn en andere dingen niet. Wanneer u zich voor de eerste keer aanmeldt bij het demonstratiebedrijf, krijgt u toegang tot een pagina Aan de slag met koppelingen naar begeleide instellingen die u op weg kunnen helpen. Voor meer informatie zie [Voorbereiden zijn om zaken te doen](ui-get-ready-business.md) en de [snelstartgids](quick-start-business-central.md)artikelen.  
 
 Als u problemen ondervindt, kan de pagina [Veelgestelde Vragen](across-faq.yml) u helpen enkele van uw vragen te beantwoorden. Als u zich niet kon aanmelden voor de proef, kan de pagina [Problemen met aanmelden voor zelfbediening oplossen](ui-troubleshoot-self-signup.md) helpen. U kunt ook contact opnemen met een [partner](/dynamics365/business-central/across-faq#findpartner) en hen vragen om een gratis proefversie of een ander type preview van [!INCLUDE[prod_short](includes/prod_short.md)] voor u te maken.  
 
@@ -35,7 +35,7 @@ Als u besluit [!INCLUDE [prod_short](includes/prod_short.md)] niet te gebruiken,
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-### <a name="try-out-your-own-company"></a>Probeer uw eigen bedrijf uit
+### <a name="add-your-own-data-to-an-empty-trial-company"></a>Uw eigen gegevens toevoegen aan een leeg proefbedrijf
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt proberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen met een leeg bedrijf. De begeleide instellingshandleiding **Mijn bedrijf instellen** kan u helpen basisinformatie over uw bedrijf te specificeren. U kunt eventueel gegevens importeren uit uw bestaande bedrijfsbeheeroplossing, zodat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt evalueren met uw eigen gegevens. We raden u echter aan geen gratis proefversie te gebruiken om uw bedrijf te runnen. Neem contact met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) op voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -43,7 +43,7 @@ Als 30 dagen niet genoeg zijn om te beslissen, kunt u uw proefperiode verlengen.
 
 ### <a name="setting-up-your-company-in-prod_short"></a>Uw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Om u te helpen bij het opzetten van uw bedrijf bevat de pagina **Ondersteunde instellingen** de begeleide instellingen die u kunnen helpen. Afhankelijk van uw rol en land of regio, toont de pagina verschillende begeleide instellingen, zoals geïllustreerd in de volgende tabel:
+De [snelstartgids](quick-start-business-central.md)artikelen kunnen u helpen de eerste stappen te zetten bij het instellen van [!INCLUDE [prod_short](includes/prod_short.md)] voor uw organisatie. Binnen [!INCLUDE [prod_short](includes/prod_short.md)] bevat de pagina **Begeleide instelling** de begeleide instellingen die u kunnen helpen. Afhankelijk van uw rol en land of regio, toont de pagina verschillende begeleide instellingen, zoals geïllustreerd in de volgende tabel:
 
 | Begeleide instelling | Omschrijving |
 | -------------- | ----------- |
@@ -61,7 +61,7 @@ Om u te helpen bij het opzetten van uw bedrijf bevat de pagina **Ondersteunde in
 | Rapportagegegevens instellen|Hiermee worden gegevenssets ingesteld die u kunt gebruiken om krachtige rapporten te maken met bijvoorbeeld Excel of Power BI. |
 | Externe accountant uitnodigen |Als u een externe auditor gebruikt om uw boeken en financiële rapportage beheren, kunt u deze uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens. |
 
-De pagina **Begeleide instelling** kan andere vermeldingen bevatten. Wanneer u een instelling doorloopt, wordt deze gemarkeerd als **Voltooid**. U kunt extra gebieden van het bedrijf instellen met behulp van handmatige configuratie. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] instellen](setup.md).  
+De pagina **Begeleide instelling** kan andere vermeldingen bevatten. Wanneer u een instelling doorloopt, wordt deze gemarkeerd als **Voltooid**. U kunt andere gebieden van het bedrijf instellen met behulp van handmatige configuratie. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] instellen](setup.md).  
 
 ### <a name="resetting-your-prod_short-trial-experience"></a>Uw [!INCLUDE[prod_short](includes/prod_short.md)]-proefomgeving opnieuw instellen
 
@@ -72,7 +72,7 @@ Als u gegevens aan uw gratis [!INCLUDE[prod_short](includes/prod_short.md)]-proe
 
 ## <a name="getting-started-with-a-subscription"></a>Aan de slag met een abonnement
 
-Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prod_short](includes/prod_short.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prod_short](includes/prod_short.md)] aanpassen door apps toe te voegen vanuit [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prod_short](includes/prod_short.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prod_short](includes/prod_short.md)] aanpassen door apps toe te voegen uit [de commerciële marktplaats van Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online maakt gebruik van Microsoft 365. Als uw bedrijf een ander type e-mailconfiguratie gebruikt, kan de wederverkoper u helpen beslissen hoe te migreren, en of u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises moet gebruiken.  
 
@@ -85,21 +85,20 @@ Zie voor meer informatie over wat u kunt doen met [!INCLUDE [prod_short](include
 
 ## <a name="getting-started-with-sandboxes"></a>Aan de slag met sandboxes
 
-Sandbox-omgevingen kunnen een manier zijn om te oefenen met [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt een sandbox zien als een niet-productie omgeving die u kunt gebruiken naast uw productie-exemplaar van [!INCLUDE[prod_short](includes/prod_short.md)]. Als u bijvoorbeeld de gratis online training wilt volgen vanuit [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), kan uw systeembeheerder [een sandbox-omgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment), zodat u en uw collega's daar kunnen oefenen in plaats van in uw productieomgeving.  
+Sandbox-omgevingen kunnen een manier zijn om te oefenen met [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt een sandbox zien als een niet-productie omgeving die u kunt gebruiken naast uw productie-exemplaar van [!INCLUDE[prod_short](includes/prod_short.md)]. Als u bijvoorbeeld de gratis online training wilt volgen van [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), kan uw beheerder [een sandbox-omgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). Zo oefenen u en uw collega's op een veilige plek in plaats van in uw productieomgeving.  
 
 Als u een ontwikkelaar bent, kunt u met een sandbox veilig extensies maken en testen en nieuwe functionaliteit ontwikkelen om de service aan te passen, zonder gevolgen voor de gegevens en instellingen van uw productieomgeving.  
 
-Op dit moment kunnen alle klanten een sandbox gebruiken, inclusief organisaties die zich hebben aangemeld voor een proefversie. Voor meer informatie over hoe u aan de slag gaat met een sandbox raadpleegt u [Een sandboxomgeving maken](across-how-create-sandbox-environment.md).  
+Op dit moment kunnen alle klanten een sandbox gebruiken, inclusief organisaties die zich hebben aangemeld voor een proefversie. Voor meer informatie over hoe u aan de slag gaat met een sandbox raadpleegt u [Sandboxomgevingen](admin-sandbox-environments.md).  
 
 > [!NOTE]
 > Sandboxes bevatten demonstratiegegevens voor het fictieve CRONUS-bedrijf. Er worden geen gegevens gekopieerd of anderszins overgedragen vanuit de productieomgeving.   
 
-De beheerder van uw [!INCLUDE[prod_short](includes/prod_short.md)] en uw wederverkoper kunnen extra omgevingen creëren in het beheercentrum. Zie voor meer informatie [Het Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
-
-
+De beheerder van uw [!INCLUDE[prod_short](includes/prod_short.md)] en uw wederverkoper kunnen meer omgevingen maken in het beheercentrum. Zie voor meer informatie [Het Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## <a name="see-also"></a>Zie ook
 
+[Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Uw proefversie uitbreiden](admin-extend-trial.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

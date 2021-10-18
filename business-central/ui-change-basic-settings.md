@@ -1,21 +1,21 @@
 ---
 title: Basisinstellingen wijzigen voor de huidige gebruiker
 description: Leer hoe u enkele basisinstellingen in Business Central kunt wijzigen, bijvoorbeeld uw rol en rolcentrum, bedrijf, werkdatum en tijdzones.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 6197adc163d781f2d7588e7109b37649e1611551
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443780"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589194"
 ---
 # <a name="change-basic-settings"></a>Basisinstellingen wijzigen
 
@@ -82,7 +82,7 @@ Als de werkdatum niet is ingesteld op de huidige dag (vandaag) wordt op alle pag
 
 ## <a name="region"></a><a name="region"></a> Regio
 
-De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.
+De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's. Het bepaalt ook welk teken wordt gebruikt als decimaalteken bij het gebruik van een numeriek toetsenbord om gegevens in te voeren. Zie voor meer informatie [Gegevens invoeren](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Taal
 

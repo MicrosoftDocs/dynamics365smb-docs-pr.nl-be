@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446477"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587517"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integratie tussen Business Central en Microsoft Teams
 
@@ -51,9 +51,17 @@ Eenmaal in het gesprek kunnen u en collega's meer details over de record bekijke
 
 Zie voor meer informatie [Records delen in Microsoft Teams](across-working-with-teams.md).
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Koppeling vanuit pagina's in Business Central delen met Teams
+
+Direct vanaf de meeste collectie- en detailpagina's in Business Central kunt u de actie **Delen met Teams** gebruiken vanuit het pictogram ![!Het menupictogram Delen op pagina's.](media/share-icon.png "Het menu Delen weergegeven op een kaart.") om een bericht te typen, ontvangers te kiezen, zoals teamleden, groepen of kanalen, en het bericht te verzenden met een koppeling naar de Business Central-pagina.
+
+![!Het menu Delen weergegeven op een kaart.](media/teams-share-link.png "Het menu Delen weergegeven op een kaart.")
+
+Zie voor meer informatie [Records en paginakoppelingen delen in Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Aan de slag
 
-1. Er is een [!INCLUDE [prod_short](includes/prod_short.md)] online-gebruikersaccount is vereist voor de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Teams.
+1. Er is een [!INCLUDE [prod_short](includes/prod_short.md)] online-gebruikersaccount vereist voor de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Teams.
 
     Als u niet zeker weet of u een account hebt of als u uw referenties niet weet om u aan te melden, neemt u contact op met de beheerder van uw bedrijf om u op weg te helpen.
 
@@ -62,7 +70,7 @@ Zie voor meer informatie [Records delen in Microsoft Teams](across-working-with-
 
 2. Zie als beheerder [Microsoft Teams-integratie met Business Central beheren](admin-teams-integration.md) voor informatie over het instellen van gebruikers om te werken met [!INCLUDE [prod_short](includes/prod_short.md)] en Teams.
 3. [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren in Teams. Zie [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md).
-4. Zodra de app is geïnstalleerd, bent u klaar om te beginnen. Voor meer informatie, zie [Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams](across-search-contacts-teams.md) en [Records delen in Microsoft Teams](across-working-with-teams.md). 
+4. Zodra de app is geïnstalleerd, bent u klaar om te beginnen. Voor meer informatie, zie [Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams](across-search-contacts-teams.md) en [Records delen in Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Zie ook
 

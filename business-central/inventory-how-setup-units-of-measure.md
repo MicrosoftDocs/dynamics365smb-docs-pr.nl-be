@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 499ed3db4b82a92d147f4fcdffef4df516a80bf1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435559"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588588"
 ---
 # <a name="set-up-units-of-measure"></a>Maateenheden instellen
 
@@ -28,9 +28,11 @@ U kunt meerdere eenheden voor een artikel instellen zodat u eenheden kunt toewij
 
 Als een artikel in één eenheid in voorraad is, maar in een andere eenheid wordt geproduceerd, kan een productieorder worden gemaakt die gebruikmaakt van een productiebatcheenheid voor het berekenen van het juiste aantal onderdelen tijdens de batchverwerking **Productieorder vernieuwen**. Een voorbeeld van een berekening van een productiebatcheenheid is wanneer een geproduceerd artikel als stukgoed in voorraad is maar in tonnen gewicht wordt geproduceerd. Zie voor meer informatie [Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
 
+Een ander hulpmiddel dat het gemakkelijker maakt om met meerdere maateenheden voor artikelen te werken, is de mogelijkheid om een afrondingsprecisie op te geven voor basismaateenheden. Het specificeren van een afrondingsprecisie geeft richtlijnen over wat iemand moet invoeren voor een bepaald bedrijfsproces en helpt afrondingsproblemen te verminderen. Als u alternatieve maateenheden gebruikt, helpt de waarde in het veld **Aantal in eenheid** bij het berekenen van de hoeveelheid in de basiseenheid, wat kan leiden tot afrondingsproblemen. Stel u bijvoorbeeld voor dat u een doos ontvangt met zes artikelen. Wanneer de doos in uw magazijn aankomt, ontdekt u dat een van de zes artikelen ontbreekt. U besluit niet de ontvangst van één doos te boeken, maar in plaats daarvan de ontvangen hoeveelheid te wijzigen in vijf van zes stuks. Dat zou leiden tot een ontvangst van 4,99998 stukken in plaats van vijf. Op de pagina **Artikeleenheden** kunt u met het veld **Afrondingsprecisie voor aantal** een waarde opgeven waarmee de hoeveelheid wordt geconverteerd naar een getal dat gemakkelijker te begrijpen is. Als we doorgaan met het voorbeeld, zouden we **1** in het veld invoeren om af te ronden op vijf stuks.
+
 ## <a name="to-set-up-units-of-measure"></a>Maateenheden instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Eenheden** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Eenheden** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Een nieuwe lege regel wordt ingevoegd.  
 3. Vul de velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Als u weet dat uw organisatie artikelen met deze maateenheid zal verkopen aan klanten in andere landen/regio's, kunt u vertalingen toevoegen.  
@@ -57,11 +59,11 @@ Wanneer u een nieuw artikel registreert, kunt u de basismaateenheid kiezen uit d
 
     In het veld **Basiseenheid** onder in het venster kunt u de basiseenheid van het artikel weergeven of wijzigen. U kunt ook de basiseenheden wijzigen in het veld **Basiseenheid** op de artikelkaart. Op de pagina **Artikeleenheden** moet de basismaateenheid de waarde **1** hebben in het veld **Aantal per maateenheid**.
 
-U kunt nu de alternatieve maateenheden gebruiken voor aankoop-, productie- en verkoopdocumenten zoals beschreven in de sectie [Een standaardmaateenheidcode invoeren voor verkoop- en inkooptransacties](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
+U kunt nu afwisselende eenheden gebruiken op inkoop-, productie- en verkoopdocumenten. Zie voor meer informatie [Standaardeenheidscodes invoeren voor verkoop- en inkooptransacties](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Eenheidsvertalingen instellen
 
-Wanneer u artikelen aan buitenlandse klanten verkoopt, wilt u de eenheid mogelijk opgeven in de taal van de klant. Als u dit wilt doen, moet u de benodigde eenheidsvertalingen instellen.
+Wanneer u artikelen aan buitenlandse klanten verkoopt, wilt u de eenheid mogelijk opgeven in de taal van de klant. U kunt dat doen door vertalingen voor maateenheden op te geven.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Eenheden** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de code waarvoor u vertalingen wilt instellen en kies de actie **Vertalingen**.

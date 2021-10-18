@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 05/19/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 325783df3cacd37250c1efa75320386ef9c4cb19
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: cd53825ced18cafab27571671a203cda82d3dcc9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341520"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587877"
 ---
 # <a name="teams-faq"></a>Veelgestelde vragen over Teams
 
@@ -146,7 +146,11 @@ Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende ge
 
 Als u wilt deelnemen aan het verbeteren van de app voor Teams, of als u een idee hebt dat uw werk- of samenwerkingservaringen in Teams zou vereenvoudigen, voeg dan een idee toe of stem op bestaande ideeën op [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-## <a name="searching-for-contacts"></a>[Contacten zoeken](#tab/contacts)
+### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Waar kan ik Teams-integratie vinden in de Business Central-webclient? 
+
+Voor functionaliteit in de webclient die linkt naar Teams, zie [Records en paginakoppelingen delen in Microsoft Teams](across-working-with-teams.md#share-link).
+
+## <a name="search-for-contacts"></a>[Contacten zoeken](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>In welke tabellen zoekt de app?
 
@@ -240,7 +244,7 @@ Zoeken in andere tabellen is op dit moment niet mogelijk. De [!INCLUDE [prod_sho
 
 Als u wilt dat de zoekmogelijkheden evolueren en andere tabellen gaan omvatten, moedigen we onze gemeenschap aan om een idee toe te voegen of op bestaande ideeën te stemmen op https://aka.ms/BusinessCentralIdeas.
 
-## <a name="working-with-cards"></a>[Werken met kaarten](#tab/cards)
+## <a name="work-with-cards"></a>[Werken met kaarten](#tab/cards)
 
 ### <a name="which-types-of-links-does-the-app-support"></a>Welke soorten koppelingen ondersteunt de app?
 
@@ -273,7 +277,7 @@ Wanneer u een chatbericht opstelt en verzendt dat een kaart bevat, zullen alle g
 
 Als u in meerdere [!INCLUDE [prod_short.md](includes/prod_short.md)]-bedrijven werkt, overleg dan met uw beheerder over het inschakelen van een bedrijfsbadge voor elk bedrijf. Indien ingeschakeld, verschijnt deze in het oog springende hint in elk detailvenster in Teams en toont het bedrijf en de omgeving waartoe de record behoort. Zie voor meer informatie over het instellen van een bedrijfsbadge [Een bedrijfsbadge weergeven voor snelle toegang tot bedrijfsgegevens](ui-change-basic-settings.md#badge).
 
-## <a name="working-with-card-details"></a>[Werken met kaartgegevens](#tab/carddetails)
+## <a name="work-with-card-details"></a>[Werken met kaartgegevens](#tab/carddetails)
 
 ### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Waar is de knop Opslaan in het detailvenster in Teams?
 
@@ -303,7 +307,7 @@ Ja. Alle [!INCLUDE [prod_short.md](includes/prod_short.md)]-functies in het deta
 
 Als u functionaliteit gebruikt in [!INCLUDE [prod_short.md](includes/prod_short.md)] die toegang heeft tot uw huidige locatiecoördinaten, zoals bij kaarten, moet u Teams in de browser of de mobiele Teams-app gebruiken. Locatie is niet beschikbaar bij gebruik van de Teams-desktop-app. 
 
-## <a name="collaborating-with-guests"></a>[Samenwerken met gasten ](#tab/collaborating)
+## <a name="collaborate-with-guests"></a>[Samenwerken met gasten](#tab/collaborating)
 
 ### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Kan ik kaarten delen met gebruikers buiten mijn organisatie?
 
@@ -319,8 +323,37 @@ Zie voor meer informatie over overeenkomsten en verschillen tussen gasten en tea
 
 Gasten hebben geen toegang tot de app-marktplaats om zelf apps te installeren. De app kan echter automatisch voor hen worden geïnstalleerd op basis van het beleid van uw organisatie. Een andere manier voor een gastgebruiker om de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app te installeren is wanneer ze een chatbericht ontvangen met een [!INCLUDE [prod_short.md](includes/prod_short.md)]-kaart. In dit geval kiest de gebruiker de knop **Details** of het menu op de kaart en installeert deze vervolgens de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor gebruik met uw organisatie. Na het installeren van de app krijgt een gebruiker niet automatisch toestemming om toegang te krijgen tot gegevens uit uw [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
----
+## <a name="share-to-teams"></a>[Delen met Teams](#tab/share)
 
+### <a name="does-share-to-teams-send-a-compact-card"></a>Verstuurt Delen met Teams een compacte kaart? 
+
+Op dit moment wordt alleen een diepe koppeling naar de pagina gedeeld. Ontvangers zien een hyperlink in uw bericht, die ze kunnen selecteren om naar [!INCLUDE [prod_short.md](includes/prod_short.md)] te gaan in een apart browservenster. 
+
+### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Ontvangen ontvangers het bericht van mij of van een Business Central-serviceaccount? 
+
+Wanneer u Delen met Teams gebruikt, wordt het bericht naar een persoon, groep of kanaal verzonden, alsof u het bericht zelf vanuit Microsoft Teams hebt verzonden. Ontvangers zien het bericht van u op hun favoriete Teams-client en kunnen reageren en antwoorden zoals ze normaal zouden doen op een bericht van u. 
+
+### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>Is Delen met Teams beschikbaar in Business Central on premises? 
+
+Nee. Net als bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams is deze functie alleen beschikbaar voor de webclient in [!INCLUDE [prod_short.md](includes/prod_short.md)] online. Er zijn geen plannen om [!INCLUDE [prod_short.md](includes/prod_short.md)]-implementatietypen te ondersteunen&mdash;zoals on-premises, hybride cloud of privécloud&mdash;die Microsoft niet rechtstreeks host of beheert.
+
+### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>Verleent Delen met Teams machtigingen aan ontvangers? 
+
+Nee. Wanneer u deelt met een persoon, groep of kanaal, worden de machtigingen niet beïnvloed. Gebruikers die al gemachtigd zijn om de pagina en de door de koppeling getargete gegevens te bekijken, kunnen dit doen. Gebruikers die geen toestemming hebben om die pagina en gegevens te bekijken, of geen [!INCLUDE [prod_short.md](includes/prod_short.md)]-licentie hebben, krijgen een foutmelding te zien. 
+ 
+### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>Moet ik de Teams desktop-app hebben geïnstalleerd om Delen met Teams te kunnen gebruiken? 
+
+Nee. Het enige wat u nodig hebt, is een geldig account dat toegang heeft tot Microsoft Teams. 
+
+### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Is Delen met Teams beschikbaar in alle Business Central-clients? 
+
+Op dit moment is Delen met Teams exclusief beschikbaar in de desktopwebclient en in het detailvenster in Teams.  
+
+### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Waar vind ik Delen met teams in Business Central? 
+
+De actie **Delen met teams** is te vinden in het menu **Delen** op alle pagina's, zoals kaart- en documentpagina's, lijst- of werkbladpagina's, inclusief aangepaste pagina's. De actie is niet beschikbaar in dialoogvensters of pagina's die worden weergegeven als dialoogvensters, zoals opzoekpagina's of wizards.
+
+---
 ## <a name="see-also"></a>Zie ook
 
 Overzicht van integratie tussen [[!INCLUDE [prod_short](includes/prod_short.md)] en Microsoft Teams](across-teams-overview.md)  

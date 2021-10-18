@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438764"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588011"
 ---
 # <a name="power-bi--faq"></a>Veelgestelde vragen over Power BI
 
@@ -129,12 +129,6 @@ Hier zijn andere pagina's die het grotere, niet-gefilterde onderdeel **Power BI-
 Om grotere datasets te filteren, is de eenvoudigste manier om een filter voor uw Power BI-rapport in te stellen door de Power Query-formule rechtstreeks te bewerken. De meeste filters die u op deze manier instelt, worden doorgegeven aan Business Central via het opvouwen van query's. Zie [Incrementele vernieuwing voor datasets](/power-bi/admin/service-premium-incremental-refresh).
 
 Er is momenteel geen manier om een filter in te stellen voor de webservicegegevens vanuit Business Central. Als uw toepassing een filter moet instellen vanuit Business Central, moet u voor dit doel een aangepaste Business Central-app maken.
-
-<!-- 8 and 9 -->
-
-### <a name="for-embedding-reports-in-business-central-pages-right-now-its-only-possible-to-get-reports-from-my-workspace-in-power-bi-are-there-plans-to-make-it-possible-to-get-them-from-custom-workspaces"></a>Als u rapporten in Business Central-pagina's wilt insluiten, is het momenteel alleen mogelijk om rapporten uit *Mijn werkruimte* in Power BI op te nemen. Zijn er plannen om het mogelijk te maken om ze uit aangepaste werkruimten te halen?
-
-Ja. We zijn van plan om ondersteuning voor gedeelde werkplekken toe te voegen, maar we kunnen nu nog geen tijdlijn geven.  
 
 <!-- 10 -->
 ### <a name="from-power-bi-besides-using-a-query-is-there-another-way-to-get-data-from-business-central-tables-that-dont-have-an-associated-page-for-example-like-the-item-attributes-value-mapping-table"></a>Is het mogelijk om in Power BI, behalve met een query, ook nog op een andere manier gegevens uit Business Central-tabellen worden opgehaald die geen gekoppelde pagina hebben? Bijvoorbeeld zoals de tabel *Toewijzing van artikelkenmerkwaarde*.

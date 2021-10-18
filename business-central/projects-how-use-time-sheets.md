@@ -1,5 +1,5 @@
 ---
-title: Werken met urenstaten voor projecten
+title: Urenstaten gebruiken voor projecten
 description: Beschrijft hoe u een urenstaat voor een project maakt, er planningsregels naar kopieert, werksoorten definieert, de urenstaat invult en deze verzendt voor goedkeuring.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440653"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588844"
 ---
-# <a name="use-time-sheets-for-jobs"></a>Urenstaten gebruiken voor projecten
+# <a name="use-time-sheets-for-projects"></a>Urenstaten gebruiken voor projecten
 
 U gebruikt de batchverwerking **Urenstaten maken** om urenstaten in te stellen voor een opgegeven aantal perioden of weken. U moet machtigingen hebben om urenstaten te maken.
 
@@ -25,9 +25,12 @@ U kunt uw projectplanningsregels kopiëren en gebruiken in een urenstaat. Op die
 
 Nadat u urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken naar het relevante projectdagboek of resourcedagboek.
 
-Voordat u urenstaten kunt gebruiken, moet u algemene informatie instellen en een beheerder en een of meer fiatteurs van urenstaten opgeven. Zie [Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
+Voordat u urenstaten kunt gebruiken, moet u algemene informatie instellen en een beheerder en een of meer fiatteurs van urenstaten opgeven. Zie [Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.  
 
-## <a name="to-create-a-time-sheet"></a>Een urenstaat maken
+> [!TIP]
+> Vanaf releasewave 2 van 2021 kunt u toegewezen urenstaten beheren op een mobiel apparaat. Uw beheerder moet mogelijk echter de **Functie-update: nieuwe ervaring met urenstaten** inschakelen op de pagina [Functiebeheer](https://businesscentral.dynamics.com/?page=2610) om deze mogelijkheid te gebruiken. Zie [Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
+
+## <a name="to-create-time-sheets"></a>Urenstaten maken
 
 U kunt de batchverwerking **Urenstaten maken** gebruiken om urenstaten in te stellen voor een opgegeven aantal perioden of weken. Vervolgens kan de eigenaar van de urenstaat deze openen en tijd vastleggen die aan een taak is besteed.
 

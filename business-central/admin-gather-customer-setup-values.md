@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0f60976283aeba5a81c9e77e329e1ba91c82ea9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443905"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589269"
 ---
 # <a name="gather-customer-setup-values"></a>Waarden van klantinstellingen verzamelen
 U gebruikt de configuratievragenlijst om uw implementatiewerklast te verminderen door het stroomlijnen van de taak voor het instellen van het nieuwe bedrijf. U kunt de configuratievragenlijst genereren in [!INCLUDE[prod_short](includes/prod_short.md)] en vervolgens als een Excel-bestand (.xls) of een XML-bestand aan de klant geven.  
@@ -32,7 +32,7 @@ U kunt een vragenlijst gebruiken om de reikwijdte en de behoeften van de configu
 
 <!-- A configuration questionnaire has the following structure
 * The name of the questionnaire itself
-* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company information. Typically, configuration questionnaires have many question groups
 * Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  U kunt enkel vragenlijsten maken voor tabellen van het type instellen. U kunt bijvoorbeeld het hulpprogramma gebruiken om de volgende pagina's van informatie te voorzien:  
@@ -50,9 +50,9 @@ U kunt een vragenlijst gebruiken om de reikwijdte en de behoeften van de configu
 -   Magazijninstellingen  
 
 > [!NOTE]  
->  Als u een volledige lijst wilt zien met instellingstabellen, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instellen** in en kies vervolgens de gerelateerde koppeling. Gebruik migratiefunctionaliteit om de omvang van de migratie van recordgegevens te bepalen. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
+>  Als u een volledige lijst wilt zien met instellingstabellen, kiest u het ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instellen** in en kies vervolgens de gerelateerde koppeling. Gebruik migratiefunctionaliteit om de omvang van de migratie van recordgegevens te bepalen. Zie voor meer informatie [Klantgegevens migreren](admin-migrate-customer-data.md).  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me 2 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.   
 3. Voer op de pagina **Vragenlijst voor configuratie** in het veld **Code** het volgende in... 
 <!--4. In the **Name** field, enter...
@@ -82,7 +82,7 @@ U kunt een vragenlijst gebruiken om de reikwijdte en de behoeften van de configu
 5. Kies in het veld **Tabel-id** de ID van de tabel waarvoor u informatie wilt verzamelen. Het veld **Tabelnaam** wordt automatisch ingevuld.  
 6. Kies de actie **Vragen bijwerken**. Elk veld in de tabel wordt toegevoegd aan de vragenlijst met een vraagteken achter het label.
 
-U kunt het label herformuleren om duidelijk te maken hoe de vraag moet worden beantwoord. Indien een veld bijvoorbeeld de naam 'Naam' heeft, kunt u dit bewerken zodat er staat 'Wat is de naam van <data being collected>'. U kunt ook begeleiding bieden in het veld **Referentie**, inclusief een URL naar een pagina die meer informatie bevat.  
+U kunt het label herformuleren om duidelijk te maken hoe de vraag moet worden beantwoord. Als een veld bijvoorbeeld de naam 'Naam' heeft, kunt u dit bewerken zodat er staat 'Wat is de naam van \<data being collected\>'. U kunt ook begeleiding bieden in het veld **Referentie**, inclusief een URL naar een pagina die meer informatie bevat.  
 
 U kunt ook vragen verwijderen die u niet wilt opnemen in de vragenlijst.  
 
@@ -98,7 +98,7 @@ U gebruikt de configuratievragenlijst om een uitvoerige discussie te structurere
 >  U kunt ook uw eigen configuratievragenlijst maken die aan uw behoeften voldoet.  
 
 1. Open het bedrijf waarvoor u de vragenlijst wilt voltooien.
-2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies het pictogram ![Lampje dat de functie Vertel me 3 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling.  
 3. Selecteer de vragenlijst voor het bedrijf en kies de actie **Naar Excel exporteren**, optioneel de actie **Naar XML exporteren**.
 4. Laat de klant de configuratievragenlijst invullen door de antwoorden in te voeren in de Excel-werkmap. Er zijn werkbladen voor elk vraaggebied dat is gemaakt voor de vragenlijst.   
 5. Sla de Excel-werkmap op als *XML-gegevens*. Kies de actie **Vanuit XML importeren** en selecteer het .xml-bestand met de antwoorden van de klant.
@@ -131,15 +131,16 @@ Wanneer u de validatie hebt voltooid, zijn de gegevens gereed om te worden toege
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Antwoorden uit de configuratievragenlijst toepassen
 Nadat u informatie uit een configuratievragenlijst hebt geïmporteerd en gevalideerd, kunt u de installatiegegevens overbrengen naar of toepassen op de bijbehorende tabellen in de [!INCLUDE[prod_short](includes/prod_short.md)]-database.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling. De pagina **Vragenlijst voor configuratie** wordt geopend.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me 4 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijst voor configuratie** in en kies vervolgens de gerelateerde koppeling. De pagina **Vragenlijst voor configuratie** wordt geopend.  
 2. Selecteer een configuratievragenlijst in de lijst en kies vervolgens de actie **Lijst bewerken**.  
 3. U kunt antwoorden op twee manieren toepassen.  
 
 - Als u de hele vragenlijst wilt toepassen, kiest u de actie **Antwoorden toepassen**.  
 - Als u antwoorden alleen voor een specifiek **Vragengebied** wilt toepassen, kiest u de actie **Vraaggebieden**, selecteert u een **Vragengebied** in de lijst en kiest u de actie **Antwoorden toepassen**.  
 
-### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Controleren dat antwoorden met succes zijn toegepast  
-1. Controleer de installatiepagina's op de verschillende functionele gebieden van [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de pagina wilt vinden, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u de naam van de instellingenpagina in en kiest u de desbetreffende koppeling.  
+### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Controleren dat antwoorden met succes zijn toegepast
+
+1. Controleer de installatiepagina's op de verschillende functionele gebieden van [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de pagina wilt vinden, kiest u het pictogram ![Lampje dat de functie Vertel me 5 opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u de naam van de instellingenpagina in en kiest u de desbetreffende koppeling.  
 2. Controleer of de velden zijn gevuld met de juiste gegevens uit de verschillende vragengebieden in de configuratievragenlijst.  
 
 De installatie is nu geconfigureerd met de zakelijke gegevens en regels van de klant.

@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 04/01/2021
+ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ed814213bea50ceb8d69c107edff450b76d8f7b
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445934"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606397"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Overschakelen naar een ander bedrijf of een andere omgeving
 
@@ -23,12 +23,17 @@ ms.locfileid: "6445934"
 
 ## <a name="switch-to-another-environment"></a>Overschakelen op een andere omgeving
 
-Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], zijn de omgevingen waartoe u toegang hebt, beschikbaar op de Dynamics 365-startpagina. U kunt de pagina openen door het pictogram **Startprogramma** ![Startprogramma.](media/app-launcher-icon.png "Het startprogramma biedt toegang tot meer functies") te kiezen en **Dynamics 365** te kiezen. Kies de tegel om naar uw standaardbedrijf in die omgeving te gaan. Er is één tegel voor elk type omgeving. Als u meer dan één omgeving van een bepaald type hebt, kunt u bij het kiezen van de tegel de omgeving kiezen die u wilt openen.
+Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], zijn de omgevingen waartoe u toegang hebt, beschikbaar op Office.com. 
 
-De volgende afbeelding toont tegels voor toegang tot productie- en sandboxomgevingen op de Dynamics 365-startpagina.
+1. Selecteer het pictogram **Startprogramma** ![Startprogramma.](media/app-launcher-icon.png "Het startprogramma biedt toegang tot meer functies").
+2. Als u geen app ziet voor [!INCLUDE[prod_short](includes/prod_short.md)] in het deelvenster dat wordt geopend, kies dan **Office 365**. Voer dan **Business Central** in het vak **Zoeken** in of selecteer **Alle apps** > **Zakelijke apps**.   
+3. Er zal één [!INCLUDE[prod_short](includes/prod_short.md)]-app worden vermeld voor elk type omgeving, zoals productie en sandbox. Om over te schakelen naar een andere omgeving, kiest u de [!INCLUDE[prod_short](includes/prod_short.md)]-app voor het type omgeving dat het is. Als er meer dan één omgeving van een bepaald type is, wordt u gevraagd de omgeving te kiezen die u wilt openen.
 
-:::image type="content" source="media/app-picker-environments.png" alt-text="De Dynamics 365-startpagina met productie- en sandboxomgevingen.":::
+<!--
+The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
+:::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
+-->
 ## <a name="switch-to-another-company"></a>Overschakelen op een ander bedrijf
 
 Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], kunt u snel overschakelen naar een ander bedrijf. Nadat u de overstap hebt gemaakt, wordt het bedrijf dat u kiest uw standaardbedrijf en wordt het de volgende keer dat u zich aanmeldt weergegeven.

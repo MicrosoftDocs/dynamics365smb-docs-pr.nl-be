@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fda901d7737d7818b7ebc965d9babf1f0868f1de
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322184"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587492"
 ---
 # <a name="business-process-walkthroughs"></a>Procedures voor bedrijfsprocessen
 
@@ -24,7 +24,7 @@ Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen di
  De procedures zijn complete scenario's en geven het beste resultaat als ze van begin tot eind worden uitgevoerd. Veel procedures zijn gebaseerd op de demogegevens van [!INCLUDE[prod_short](includes/prod_short.md)] en u kunt deze zelf uitproberen in uw eigen tempo.  
 
 > [!NOTE]
-> Sommige procedures vereisen voorbeeldgegevens die niet beschikbaar zijn in het standaarddemonstratiebedrijf [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
+> Sommige procedures vereisen voorbeeldgegevens die niet beschikbaar zijn in het standaarddemonstratiebedrijf [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
 
 |Als u dit wilt doen:|Zie|  
 |--------|---------|  

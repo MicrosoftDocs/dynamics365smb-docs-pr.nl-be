@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649874"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588894"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
 
@@ -60,6 +60,15 @@ De volgende tabel beschrijft de waarden van het veld **Status**.
 
 > [!TIP]
 > U kunt de status van items in de wachtrij ook bekijken met Application Insights in Microsoft Azure voor meer diepgaande analyse op basis van telemetrie. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) en [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in de [!INCLUDE [prod_short](includes/prod_short.md)] ontwikkelaar- en beheerinhoud.
+
+## <a name="view-scheduled-tasks"></a>Geplande taken weergeven
+
+De pagina **Geplande taken** in [!INCLUDE [prod_short](includes/prod_short.md)] laat zien welke taken klaar zijn om te worden uitgevoerd in de taakwachtrij. De pagina toont ook informatie over het bedrijf waarvoor elke taak is ingesteld om te worden uitgevoerd. Alleen taken die zijn gemarkeerd als behorend tot de huidige omgeving kunnen echter worden uitgevoerd.  
+
+Als het huidige bedrijf zich bijvoorbeeld in een omgeving bevindt die een kopie is van een andere omgeving, worden alle geplande taken automatisch stopgezet. Gebruik de pagina **Geplande taken** om taken in te stellen als gereed om te worden uitgevoerd in de taakwachtrij.  
+
+> [!NOTE]
+> Interne beheerders en gebruikers kunnen taken plannen om te worden uitgevoerd. Gedelegeerde beheerders kunnen dat niet.
 
 ## <a name="the-my-job-queue-part"></a>Het onderdeel Mijn taakwachtrij
 In het onderdeel **Mijn taakwachtrij** in uw rolcentrum worden de taakwachtrijposten weergegeven die u hebt gestart, maar die nog niet zijn voltooid. Standaard is het onderdeel niet zichtbaar, zodat u het moet toevoegen aan uw rolcentrum. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.  

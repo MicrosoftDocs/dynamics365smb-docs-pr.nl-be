@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0ed9b58b9ceec962d7f55ef5687ac36e11fbd681
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7f6f79ba1f8005363204f48c5ea9b91073b517f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446377"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588688"
 ---
 # <a name="setting-up-cost-accounting"></a>Kostenboekhouding instellen
 Voordat u begint te werken met kostprijsboekhouding, moet u insteltaken uitvoeren.
@@ -36,7 +36,7 @@ Een kostensoortschema lijkt op het rekeningschema in het grootboek. U kunt het k
 -   Maak nieuwe kostensoortschema's of voeg nieuwe kostensoorten toe aan bestaande kostensoortschema's. U moet elke nieuwe kostensoort afzonderlijk maken.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Het grootboekrekeningschema overbrengen naar het kostensoortschema  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostensoortschema** in en kies de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostensoortschema** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Kostensoorten ophalen uit rekeningschema**. Kies in dialoogvenster de knop **Ja** om de overdracht te bevestigen. De functie maakt gebruik van het rekeningschema om een kostensoortschema te maken.  
 
     Het kostensoortschema bevat nu alle resultatenrekeningen in het grootboek inclusief koppen en subtotalen. U kunt het kostensoortschema zo nodig wijzigen. U kunt bijvoorbeeld dubbele kostensoorten verwijderen.  
@@ -80,8 +80,8 @@ Er bestaat een n:1-relatie tussen de grootboekrekeningen en kostensoorten Versch
 |------------------|------------------------------------------------|-------------------------------------------|  
 |Één grootboekrekening voor elk kostensoort|Eén grootboekrekening|Eén kostensoort|  
 |Verschillende grootboekrekeningen voor één kostensoort|Bijvoorbeeld rekeningenbereik grootboek 7110..7193 voor elke grootboekrekening|Voor elke grootboekrekening in het bereik is slechts één kostensoort|  
-|Kostensoorten zonder overeenkomende grootboekrekeningen|<Empty>||  
-|Grootboekrekeningen waarvan de posten niet overgebracht worden||<Empty>|  
+|Kostensoorten zonder overeenkomende grootboekrekeningen|\<Empty\>||  
+|Grootboekrekeningen waarvan de posten niet overgebracht worden||\<Empty\>|  
 
 ### <a name="cost-types-without-a-relationship-to-the-general-ledger"></a>Kostensoorten zonder relatie met het grootboek  
 Er bestaat mogelijk geen relatie tussen een kostensoort en grootboekrekeningen als aan een van de volgende voorwaarden wordt voldaan:  
@@ -98,7 +98,7 @@ Kostenplaatsen zijn afdelingen die verantwoordelijk zijn voor kosten en opbrengs
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Dimensiewaarden in het grootboek overbrengen naar het schema van kostenplaatsen  
 1.  Stel een dimensie als kostenplaats in met de pagina **Dimensies kostprijsboekhouding bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
-2.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostenplaatsschema** in en kies de gerelateerde koppeling.  
+2.  Kies het pictogram ![Lampje dat de functie Vertel me 2 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenplaatsschema** in en kies de gerelateerde koppeling.  
 3.  Op het tabblad **Acties** in de groep **Functies** kiest u **Kostenplaatsen ophalen uit dimensie** om dimensiewaarden over te brengen naar het schema van kostenplaatsen. Met deze functie worden de dimensiewaarden die u in stap 1 hebt gedefinieerd overgebracht.  
 
     > [!NOTE]  
@@ -131,7 +131,7 @@ Kostenobjecten zijn projecten, producten of diensten van een bedrijf. Het schema
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Door de dimensiewaarden vanuit het grootboek over te brengen naar het schema van kostenobjecten.  
 1.  Stel een dimensie als kostenobjectdimensie in op de pagina **CA-dimensies bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
-2.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenobjectschema** in en kies de gerelateerde koppeling.  
+2.  Kies het pictogram ![Lampje dat de functie Vertel me 3 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenobjectschema** in en kies de gerelateerde koppeling.  
 3.  Kies de actie **Kostenobjecten ophalen uit dimensie** om dimensiewaarden over te brengen naar het schema van kostenobjecten. Met deze functie worden de dimensiewaarden die u in stap 1 hebt gedefinieerd overgebracht.  
 
     > [!NOTE]  
