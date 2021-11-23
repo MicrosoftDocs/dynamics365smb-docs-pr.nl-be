@@ -1,6 +1,6 @@
 ---
 title: Picks plannen in het voorstel
-description: Ontdek hoe het magazijn ervoor kan kiezen om zo te werken dat de regels op verzenddocumenten beschikbaar worden gemaakt voor het pickwerkblad.
+description: Leer hoe regels op verzenddocumenten beschikbaar kunnen worden gemaakt op pickvoorstellen voor magazijnmedewerkers.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,52 +8,50 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 46032a3a3ef44d56953ca9db7185e96eacf0770e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92dd486b5b9ebb4fd67d3a28aa8f1eaab137513c
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441847"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643951"
 ---
 # <a name="plan-picks-in-worksheets"></a>Picks plannen in het voorstel
 
-Als voor het magazijn zowel pick- als verzendingsverwerking is vereist, hebt u de keuze om van de regels op verzenddocumenten niet automatisch pickinstructies te maken, maar de regels beschikbaar te stellen in het pickvoorstel.  
+Als uw magazijn is ingesteld om zowel pick- als verzendingsverwerking te vereisen, kunt u ervoor kiezen regels op verzenddocumenten beschikbaar te maken op pickvoorstellen in plaats van pickinstructies.  
 
 > [!NOTE]  
-> Als de pickinstructies voor het magazijn al zijn gemaakt maar u ze wilt combineren tot één efficiënte pickinstructie, moet u de afzonderlijke magazijnpicks verwijderen. De te picken regels kunnen nu in het voorstel worden geplaatst.  
+> Als de pickinstructies voor het magazijn al zijn gemaakt maar u ze wilt combineren tot één efficiënte pickinstructie, moet u de afzonderlijke magazijnpicks verwijderen. De te picken regels kunnen nu in een pickvoorstel worden geplaatst.  
 
-In het pickvoorstel kunt u picklijsten instellen voor werknemers. Deze picklijsten beperken de tijd die de werknemer nodig heeft om zich te verplaatsen voor het picken van artikelen in het magazijn. Er zijn velden die informatie over de beschikbare aantal artikelen in de cross-dockopslaglocaties bevatten. Dit is handig bij cross-dockgevallen om de werkopdrachten te plannen, omdat de toepassing altijd een pick voorstelt van een cross-dockopslaglocatie vóór een andere opslaglocatie, onafhankelijk van de eenheid. De regels in het voorstel kunnen afkomstig zijn uit een aantal brondocumenten en worden gesorteerd op artikel, schapnummer, brondocument, vervaldatum of verzendadres.  
-
-Bij een sortering op vervaldatum hebt u de keuze om de regels die geen directe aandacht behoeven uit het voorstel te verwijderen. De minder urgente regels worden niet feitelijk verwijderd, maar alleen teruggestuurd naar de **pickselectie**. Als u de pick maakt, zijn de regels al gesorteerd op vervaldatum en kunt u de pick vervolgens toewijzen aan een bepaalde werknemer.  
+Op de pagina **Pickvoorstellen** kunt u picklijsten instellen waarmee medewerkers artikelen in het magazijn kunnen verzamelen. De pagina toont de beschikbare hoeveelheden in cross-dockopslaglocaties, wat handig is voor het plannen van werktoewijzingen in cross-docksituaties. [!INCLUDE[prod_short](includes/prod_short.md)] stelt altijd eerst een pick uit een cross-dockopslaglocatie voor. De regels in het voorstel kunnen uit verschillende brondocumenten komen. Ze kunnen bijvoorbeeld afkomstig zijn van meer dan één verkooporder. 
 
 > [!NOTE]  
-> Het picken voor magazijnverzending van artikelen die worden samengesteld voor de verkooporder die wordt verzonden volgt dezelfde stappen als gewone magazijnpicks voor verzending, zoals beschreven in dit onderwerp. Het aantal pickregels per te verzenden aantal is mogelijk echter veel-op-één omdat u de componenten pickt, niet het assemblageartikel.  
+> Het picken van artikelen die worden samengesteld voor een verkooporder die wordt verzonden, volgt dezelfde stappen als gewone magazijnpicks voor verzendingen. Het aantal pickregels per te verzenden aantal is mogelijk echter veel-op-één omdat u de componenten pickt, niet het assemblageartikel.  
 >
-> De magazijnpickregels zijn gemaakt voor de waarde in het veld **Resterend aantal** op de regels van de assemblage die is gekoppeld aan de verkooporderregel die wordt verzonden. Dit zorgt ervoor dat alle onderdelen in één actie worden gepickt.  
->
-> Zie de sectie Op-order-assembleren-artikelen in magazijnverzendingen afhandelen in Magazijnverzending voor meer informatie.  
+> De magazijnpickregels zijn gemaakt voor de waarde in het veld **Resterend aantal** op de regels van de assemblage die is gekoppeld aan de verkooporderregel die wordt verzonden. Dit zorgt ervoor dat alle onderdelen in één actie worden gepickt. Zie voor meer informatie [Voorraadartikelen in assembleren-op-order-stromen verkopen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 >
 > Zie [Picken voor assemblage of productie in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) voor informatie over het picken van onderdelen voor assemblageorders in het algemeen, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
 
+## <a name="sorting-lines-on-a-pick-worksheet"></a>Regels sorteren in een pickvoorstel
+U kunt regels sorteren op artikel, schapnummer, brondocument, vervaldatum of bestemming. Hier volgen enkele voorbeelden van hoe sorteren nuttig kan zijn.
+
+* Bij een sortering op vervaldatum hebt u de keuze om alle regels, behalve regels die directe aandacht behoeven, te verwijderen. De minder urgente regels worden niet feitelijk verwijderd, maar alleen teruggestuurd naar de **pickselectie**. Als u de pick maakt, zijn de regels al gesorteerd op vervaldatum en kunt u de pick vervolgens toewijzen aan een werknemer.
+* Als uw opslaglocaties zo zijn genummerd dat ze overeenkomen met de fysieke lay-out van uw magazijn, kan het sorteren van regels op opslaglocatienummer het gemakkelijker maken om voor meerdere zendingen tegelijk te picken. 
+* Als u opslaglocatievolgorde gebruikt, kan het sorteren op volgorde enige tijd besparen. 
+* U kunt sorteren op bestemming, waardoor u orders per klant kunt samenstellen en verzenden.
+
 ## <a name="to-plan-picks-in-the-worksheet"></a>U kunt als volgt picks plannen in het voorstel
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Magazijndocumenten ophalen**.  
-3. Selecteer de verzendingen waarvoor u een pick wilt voorbereiden. Hoewel u de regels nog in beperkte mate kunt sorteren, zal de sortering niet meer worden overgenomen op de pickinstructie. U kunt ook bepaalde regels verwijderen om een nog efficiëntere pick te maken. Als er bijvoorbeeld regels zijn met artikelen die in cross-docklocaties zijn geplaatst, kunt u een pick maken voor alle regels die verbonden zijn aan deze regels. De cross-dockartikelen worden dan verzonden, samen met de andere artikelen in de verzending, en in de cross-docklocaties komt ruimte vrij voor andere binnenkomende artikelen.  
-4. Kies de actie **Pick maken** en vul de aanvraagpagina **Pick maken** in. De nieuwe pickregels worden gesorteerd volgens de methode die u hier kiest. Stel dat u voor elke zone één pick maakt, dan kunt u de regels binnen elke pick sorteren op rangorde van opslaglocatie.  
+3. Selecteer de verzendingen waarvoor u een pick wilt voorbereiden. U kunt de regels sorteren, maar de sortering wordt niet toegepast op de pick-instructie. U kunt ook bepaalde regels verwijderen om een nog efficiëntere pick te maken. Als er bijvoorbeeld meerdere regels zijn met artikelen in cross-dockopslaglocaties, kunt u een pick maken voor alle regels. De cross-dockartikelen worden dan verzonden, samen met de andere artikelen in de verzending, en in de cross-docklocaties komt ruimte vrij voor andere binnenkomende artikelen.  
+4. Kies de actie **Pick maken** en vul de pagina **Pick maken** in. De nieuwe pickregels worden gesorteerd volgens de methode die u hier kiest. Stel dat u voor elke zone één pick maakt, dan kunt u de regels binnen elke pick sorteren op rangorde van opslaglocatie.  
 5. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling. Het venster **Magazijnpicks** wordt geopend.  
-6. U kunt de pickopdracht die u hebt gemaakt nu opzoeken door op Pick, Overzicht te klikken en de pick met het hoogste nummer te selecteren.  
-7. U kunt indien nodig de toegewezen gebruikers-id en sortering van de regels van de pick nog wijzigen.  
+6. U kunt de pickopdracht nu zoeken door de pick met het hoogste nummer te selecteren.  
+7. Indien nodig kunt u een andere gebruiker toewijzen of de regels anders sorteren.  
 8. Kies de actie **Afdrukken** om de pickinstructies af te drukken.  
-9. Als u de pick hebt uitgevoerd, kiest u de actie **Registreren**.  
-
-Als de nummering van opslaglocaties een weerspiegeling vormt van de fysieke indeling van het magazijn en u hebt de regels gesorteerd op opslaglocatie, kan de picker in één rondgang door het magazijn artikelen voor verschillende verzendingen tegelijk picken. De medewerker haalt uit elke opslaglocatie per verzendregel het vereiste aantal artikelen en plaatst deze bij de overige artikelen voor een bepaalde verzending. De picker kan zo veel tijd besparen omdat hij of zij slechts één keer naar de opslaglocatie hoeft te gaan om voor verschillende verzendingen te picken.  
-
-De rangorde van opslaglocaties is een andere effectieve sorteeroptie, zeker als het magazijn fysiek gezien meer op rangorde van opslaglocatie is ingedeeld dan op opslaglocatie.  
-
-U kunt in het pickvoorstel ook op verzendadres sorteren, zodat u de orders voor verre klanten het eerst kunt samenstellen en verzenden.  
+9. Nadat de pick is voltooid, kiest u de actie **Registreren**.  
 
 ## <a name="see-also"></a>Zie ook
 

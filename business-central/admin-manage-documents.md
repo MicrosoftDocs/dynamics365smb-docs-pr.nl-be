@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482182"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724724"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Opslag beheren door documenten te verwijderen of gegevens te comprimeren
 
@@ -57,7 +57,7 @@ U kunt de volgende soorten gegevens comprimeren met behulp van batchtaken. Er is
 Wanneer u criteria voor de compressie definieert, kunt u de opties onder **Te bewaren velden** gebruiken om de inhoud van bepaalde velden te behouden. Welke velden beschikbaar zijn, hangt af van de gegevens die u comprimeert.
 
 > [!NOTE]
-> Voordat u datumcompressie kunt uitvoeren, moeten uw analyseweergaven up-to-date zijn. Zie voor meer informatie [Een analyseweergave bijwerken](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+> Voordat u datumcompressie kunt uitvoeren, moeten uw analyseweergaven up-to-date zijn. Zie voor meer informatie [Een analyseweergave bijwerken](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
 Na de compressie blijft de inhoud van de volgende velden altijd behouden: **Boekingsdatum**, **Leveranciersnr.**, **Documentsoort**, **Valutacode**, **Boekingsgroep**, **Bedrag**, **Restbedrag**, **Oorspronkelijk bedrag (LV)**, **Restbedrag (LV)**, **Bedrag (LV)**, **Inkoop (LV)**, **Factuurkorting (LV)**, **Contantkorting verleend (LV)** en **Contantkorting**.
 

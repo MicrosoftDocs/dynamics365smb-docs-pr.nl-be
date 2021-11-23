@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443193"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748973"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Problemen met connectiviteit voor Business Central oplossen
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443193"
 
 ## <a name="start-the-connectivity-check"></a>De verbindingscontrole starten 
 
-1. Selecteer [deze koppeling](https://businesscentral.dynamics.com/connectivity) of open uw internetbrowser en voer de volgende URL in het adres in:
+1. Open een internetbrowser.
+2. Voer in het adres de URL in die u gebruikt om Business Central te openen en voeg `/connectivity` aan het einde toe. 
+
+    Als u bijvoorbeeld `https://businesscentral.dynamics.com` gebruikt, voert u het volgende in:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. Kies op de pagina **Problemen met connectiviteit oplossen** **Controle starten**.
+    Of als de URL de tenant-id bevat, zoals `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, dan voert u het volgende in:
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. Kies op de pagina **Problemen met connectiviteit oplossen** **Controle starten**.
 
     Er wordt een reeks controles uitgevoerd en het resultaat van elke controle wordt weergegeven:
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443193"
     - ![Verbindingscontrole mislukt.](media/connectivity-failed.png) geeft aan dat de controle is mislukt. Bekijk het bericht onder de controle voor meer details.
     - ![De verbindingscontrole is niet uitgevoerd.](media/connectivity-blocked.png) geeft aan dat de controle niet is uitgevoerd, meestal vanwege het mislukken van een eerdere controle. Bekijk het bericht onder de controle voor meer details.
 
-3. Om de controle opnieuw uit te voeren kiest u **Controle opnieuw starten**.
+4. Om de controle opnieuw uit te voeren kiest u **Controle opnieuw starten**.
 
 In de volgende secties worden de uitgevoerde controles uitgelegd en worden enkele tips gegeven om eventuele problemen op te lossen.
 

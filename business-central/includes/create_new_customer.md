@@ -3,13 +3,13 @@ author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 09/24/2021
-ms.author: a-jillk
-ms.openlocfilehash: da33ea0ff0057034775ba153727d1681fe2ad9c5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.author: edupont
+ms.openlocfilehash: e5d6b2320e19eaaf8f2409ed0419da1e701b5174
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589651"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724510"
 ---
 1. Kies het pictogram ![Lampje dat de functie Vertel me 11 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Klanten** de actie **Nieuw**.

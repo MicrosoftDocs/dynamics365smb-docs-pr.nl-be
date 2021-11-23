@@ -1,5 +1,5 @@
 ---
-title: 'Procedure: vooruitbetalingsfacturen maken'
+title: Vooruitbetalingsfacturen maken
 description: Leer omgaan met situaties waarin u of uw leverancier vooruitbetaling vereist. Gebruik de standaardpercentages voor elke verkoop- of inkoopregel, of u kunt het bedrag naar wens aanpassen.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442197"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701577"
 ---
 # <a name="create-prepayment-invoices"></a>Vooruitbetalingsfacturen maken
 
 Als u van uw klanten wilt dat ze betalen voordat u een bestelling naar hen verzendt, kunt u de vooruitbetalingsfunctie gebruiken. Hetzelfde geldt als uw leverancier van u verlangt dat u een betaling doet voordat zij een bestelling naar u verzenden.  
 
-U kunt het vooruitbetalingsproces starten wanneer u een verkoop- of inkooporder maakt. Als u een standaard vooruitbetalingspercentage heeft voor deze klant of leverancier, wordt dat automatisch opgenomen in de resulterende vooruitbetalingsfactuur. U kunt ook een percentage voor vooruitbetaling opgeven voor het hele document.
+U kunt het vooruitbetalingsproces starten wanneer u een verkoop- of inkooporder maakt. Als u een standaard vooruitbetalingspercentage heeft voor een bepaald artikel in de order of voor de klant of leverancier, wordt dat automatisch opgenomen in de resulterende vooruitbetalingsfactuur. U kunt ook een percentage voor vooruitbetaling opgeven voor het hele document.
 
 Nadat u een verkoop- of inkooporder hebt gemaakt, kunt u een vooruitbetalingsnota maken. U kunt de standaardpercentages gebruiken voor elke verkoop- of inkoopregel, of u kunt het bedrag naar wens aanpassen. U kunt bijvoorbeeld een totaalbedrag opgeven voor de hele order.  
 

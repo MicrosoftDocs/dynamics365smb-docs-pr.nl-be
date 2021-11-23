@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 14dd0aa40524ca1e261b0e57aa62bfcccd80afd4
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 91faf4a1adeb6b53ffd8dbca81d8ef72df90b97e
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588213"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724849"
 ---
 # <a name="welcome-to-prod_long"></a>Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -90,12 +90,7 @@ U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze vi
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen via een RSS-feed
 
-Om u te abonneren op een RSS-feed (Really Simple Syndication) van alle updates die betrekking hebben op de inhoud op docs.microsoft.com over de inhoud van de zakelijke functionaliteit voor [!INCLUDE [prod_short](includes/prod_short.md)], gebruikt u de volgende koppeling:
-
-[RSS-feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
-
-> [!NOTE]
-> De RSS-feed retourneert een lijst met de 100 meest recent bijgewerkte artikelen. De lijst is niet gesorteerd op datum.  
+[!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 

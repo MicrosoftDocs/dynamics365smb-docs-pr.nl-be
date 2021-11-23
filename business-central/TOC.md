@@ -1229,6 +1229,8 @@
 ##### [Voorbereiden voor btw-transactierapporten](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [Grootboeken en btw-journalen afdrukken en opnieuw afdrukken](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Intrastat-rapporten afdrukken voor Italië](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
+#### Bronbelasting
+##### [Bronbelasting instellen in de Italiaanse versie](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Bronrapporten afdrukken](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Bankieren en betalingen
 ##### [Betalingsvoorwaarden instellen](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
@@ -1258,11 +1260,7 @@
 #### [Lokale functionaliteit in de Mexicaanse versie](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Btw
 ##### [DIOT-rapporten instellen en genereren](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Sales tax van Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)  
-##### [Gebruiks- en inkoopbelasting instellen](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Niet-gerealiseerde Sales Tax en verkoopcontantkortingen instellen](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-##### [Sales Tax rapporteren in Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)
-##### [Borgsommen maken](LocalFunctionality/Mexico/how-to-create-deposits.md)  
+##### [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)  
 ##### [Typen belastingidentificatie voor Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Btw-herberekening](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronische facturering
@@ -1274,12 +1272,13 @@
 #### Alge&meen
 ##### [PAC webservices instellen](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Problemen met rapporten oplossen](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
+##### [Borgsommen maken](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Nederland
 #### [Lokale functionaliteit in de Nederlandse versie](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### Btw
 ##### [Een auditfile voor de belastingdienst maken](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [Btw-categorieën instellen](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
+##### [Btw-categorieën instellen](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Elektronische btw- en ICP-aangiften](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Elektronische btw- en ICP-aangiften instellen](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Elektronische btw- en ICP-aangiften verzenden](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1290,7 +1289,7 @@
 ##### [Betalingsscenario 1 - binnenlandse betalingen (LV naar LV).](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Betalingsscenario 2 - buitenlandse betaling (VV naar VV)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Betalingsscenario 3 - een buitenlandse betaling (LV naar VV)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Voorstellen maken](LocalFunctionality\Netherlands\how-to-create-proposals.md)
+##### [Voorstellen maken](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Borderelrapporten](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Kasboeken, bankboeken of giroboeken invoeren en boeken](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Testrapporten afdrukken voor kasboeken, bankboeken of giroboeken](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1298,7 +1297,7 @@
 ##### [SEPA-betalingen activeren](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Leveranciersbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Betalingsrun maken en exporteren](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Bankafschriften importeren en reconciliëren](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
+##### [Bankafschriften importeren en reconciliëren](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
 #### Hoofdfinanciën
 ##### [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Verplichte beschrijvingen in grootboekposten](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)

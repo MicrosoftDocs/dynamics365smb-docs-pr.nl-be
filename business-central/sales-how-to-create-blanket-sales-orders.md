@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442712"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752592"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Werken met verkoopraamcontracten of inkoopraamcontracten
 
@@ -67,7 +67,7 @@ U kunt de status van een verkoopraamcontract op de pagina **Raamverkooporderstat
 - Op het sneltabblad **Facturering** kunt u een samenvatting bekijken gebaseerd op het totaal van de velden **Te factureren aantal** op de verkoopraamcontractregels.  
 - Op het sneltabblad **Verzending** kunt u een samenvatting bekijken gebaseerd op het totaal van de velden **Te ontvangen aantal** op de verkoopraamcontractregels.  
 - Op het sneltabblad **Vooruitbetaling** vindt u algemene informatie bekijken over eventuele vooruitbetaalde bedragen.  
-- Op het sneltabblad **Leverancier** kunt u bepaalde basisgegevens over de leverancier bekijken.    
+- Op het sneltabblad **Leverancier** kunt u bepaalde basisgegevens over de leverancier bekijken.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Niet-geboekte en geboekte verkoopraamcontractregels weergeven   
 De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder en een eventueel ander verkoopdocument blijft na het boeken behouden als een lijst van geboekte en niet-geboekte verkooporderfactuurregels.  
@@ -76,21 +76,21 @@ De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder e
 2. Open de verkoopraamorder die u wilt bekijken.
 3. Als u ongeboekte posten wilt weergeven, selecteert u de bewuste regel, klikt u op de actie **Regel** en kiest u vervolgens de actie **Ongeboekte regels**. Kies een van de volgende opties.  
 
-    |Optie|Description|
-    |--|--|
-    |**Orders**|Toont openstaande orders die zijn gerelateerd aan de geselecteerde regel.|
-    |**Facturen**|Toont openstaande facturen die zijn gerelateerd aan de geselecteerde regel. Openstaande facturen worden handmatig gerelateerd aan een raamcontract door het raamcontractnummer in te voeren op de verkoopfactuurregel.|
-    |**Retourorders**|Toont openstaande retourorders die zijn gerelateerd aan de geselecteerde regel.|
-    |**Creditnota's**|Toont openstaande creditnota's die zijn gerelateerd aan de geselecteerde regel.|
+|Optie|Description|
+|--|--|
+|**Orders**|Toont openstaande orders die zijn gerelateerd aan de geselecteerde regel.|
+|**Facturen**|Toont openstaande facturen die zijn gerelateerd aan de geselecteerde regel. Openstaande facturen worden handmatig gerelateerd aan een raamcontract door het raamcontractnummer in te voeren op de verkoopfactuurregel.|
+|**Retourorders**|Toont openstaande retourorders die zijn gerelateerd aan de geselecteerde regel.|
+|**Creditnota's**|Toont openstaande creditnota's die zijn gerelateerd aan de geselecteerde regel.|
 
 4. Als u geboekte posten wilt weergeven, selecteert u de bewuste regel, klikt u op de actie **Regel** en kiest u vervolgens de actie **Geboekte regels**. Kies een van de volgende opties.  
 
-    |Optie|Description|
-    |---|----|
-    |**Verzendingen**|Geboekte verzendingen die zijn gerelateerd aan de geselecteerde regel.|
-    |**Facturen**|Geboekte facturen die zijn gerelateerd aan de geselecteerde regel.|
-    |**Retourontvangsten**|Geboekte retourontvangsten die zijn gerelateerd aan de geselecteerde regel.|
-    |**Creditnota's**|Geboekte creditnota's die zijn gerelateerd aan de geselecteerde regel.|
+|Optie|Description|
+|---|----|
+|**Verzendingen**|Geboekte verzendingen die zijn gerelateerd aan de geselecteerde regel.|
+|**Facturen**|Geboekte facturen die zijn gerelateerd aan de geselecteerde regel.|
+|**Retourontvangsten**|Geboekte retourontvangsten die zijn gerelateerd aan de geselecteerde regel.|
+|**Creditnota's**|Geboekte creditnota's die zijn gerelateerd aan de geselecteerde regel.|
 
 5. Kies op de pagina **Verkoopregels** de actie **Document weergeven** om de post te bekijken.
 

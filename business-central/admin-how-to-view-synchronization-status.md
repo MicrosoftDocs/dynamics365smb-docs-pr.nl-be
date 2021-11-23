@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dce8b5b3d762d3e4d98668530685fdeb9cb58de4
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441330"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7751754"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>De status van synchronisatietaken weergeven
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -28,11 +28,11 @@ Gebruik de pagina **Synchronisatiefouten met gekoppelde gegevens** om de status 
 > [!Note]
 > De pagina **Synchronisatiefouten met gekoppelde gegevens** toont informatie over taken gerelateerd aan gekoppelde records. Als u alle fouten oplost maar records nog steeds niet synchroniseren, heeft dit mogelijk te maken met een instelling voor de integratie. Doorgaans moet uw beheerder dit soort fouten oplossen.   
 
-<!--
+## <a name="example"></a>Voorbeeld
+Deze video toont een voorbeeld van het oplossen van fouten die zijn opgetreden tijdens het synchroniseren met [!INCLUDE[prod_short](includes/cds_long_md.md)]. Het proces is voor alle integraties hetzelfde. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
--->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Synchronisatiefouten voor gekoppelde records weergeven en oplossen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Synchronisatiefouten met gekoppelde gegevens** in en kies vervolgens de gerelateerde koppeling.
@@ -51,6 +51,11 @@ Gebruik de pagina **Synchronisatiefouten met gekoppelde gegevens** om de status 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Het synchronisatielogboek weergeven voor een specifieke (handmatig gesynchroniseerde) record
 1. Open bijvoorbeeld een klant-, artikel- of andere record die gegevens synchroniseert tussen [!INCLUDE[prod_short](includes/prod_short.md)] en Dataverse of [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Kies de actie **Synchronisatielogbestand** om het synchronisatielogbestand voor een geselecteerde record weer te geven. Bijvoorbeeld een specifieke klant die u handmatig hebt gesynchroniseerd.
+
+## <a name="remove-couplings-between-records"></a>Koppelingen tussen records verwijderen
+Als er iets misgaat in uw integratie en u records moet ontkoppelen om ze niet meer te laten synchroniseren, kunt u dit voor één of meer records tegelijk doen. U kunt een of meer records loskoppelen van lijstpagina's of de pagina **Fouten met gekoppelde gegevenssynchronisatie** door een of meer regels te kiezen en **Koppeling verwijderen** te kiezen. U kunt ook alle koppelingen verwijderen voor een of meer tabeltoewijzingen op de pagina **Integratietabeltoewijzingen**. 
+
+Als een entiteit met een unidirectionele koppeling wordt verwijderd in [!INCLUDE[prod_short](includes/prod_short.md)], moet u de verbroken koppeling handmatig verwijderen. Om dat te doen, kiest u op de pagina **Synchronisatiefouten met gekoppelde gegevens**, kiest u de actie **Zoeken naar verwijderde** en verwijdert u vervolgens de koppelingen.
 
 ## <a name="see-also"></a>Zie ook  
 [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  

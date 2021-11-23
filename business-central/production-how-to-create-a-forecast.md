@@ -1,6 +1,6 @@
 ---
 title: Een vraagprognose maken
-description: Lees meer over de prognosefunctie in Business Central en hoe u verkoop- en productieprognoses kunt maken.
+description: Lees meer over de vraagprognosefuncties en hoe u verkoop- en productieprognoses kunt maken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438699"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643979"
 ---
 # <a name="create-a-demand-forecast"></a>Een vraagprognose maken
 U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.  
@@ -44,15 +44,14 @@ De materiaalprognose kan worden beschouwd als een optieprognose in relatie tot e
 Omdat de materiaalprognose is ontworpen om opties te definiëren voor een hoofdartikel, moet de materiaalprognose gelijk aan of kleiner zijn dan het prognoseaantal van het verkoopartikel. Als de materiaalprognose hoger is dan de verkoopartikelprognose, beschouwt het systeem het verschil tussen deze twee soorten prognoses als onafhankelijke vraag.  
 
 ## <a name="forecasting-periods"></a>Prognoseperioden  
- De prognoseperiode is geldig vanaf de begindatum tot de datum waarop de volgende prognose begint. Het tijdsintervalvenster biedt u meerdere keuzemogelijkheden om de vraag op en bepaalde datum in een periode in te voegen. Het is daarom raadzaam om het bereik van de prognoseperiode niet te wijzigen, tenzij u alle prognoseposten naar de begindatum van deze periode wilt verplaatsen.  
+De prognoseperiode is geldig vanaf de begindatum tot de datum waarop de volgende prognose begint. Het tijdsintervalvenster biedt u meerdere keuzemogelijkheden om de vraag op en bepaalde datum in een periode in te voegen. Het is daarom raadzaam om het bereik van de prognoseperiode niet te wijzigen, tenzij u alle prognoseposten naar de begindatum van deze periode wilt verplaatsen.  
 
 ## <a name="forecast-by-locations"></a>Prognose per locatie  
-
-Het kan op de pagina **Productie-instellingen** worden vermeld hoe u wilt omgaan met locaties die in prognoses zijn gedefinieerd wanneer u een plan berekent. 
+Op de pagina **Productie-instellingen** kunt u opgeven of de vestigingen die zijn gedefinieerd in prognoses, wilt overwegen wanneer u plannen berekent. 
 
 ### <a name="use-forecast-by-locations"></a>Prognose per vestiging gebruiken
 
-Als u het veld **Prognose per vestiging gebruiken** kiest, respecteert [!INCLUDE[prod_short](includes/prod_short.md)] alle locatiecodes die zijn opgegeven voor elke vraagprognose en berekent de resterende prognose voor elke locatie.  
+Als u de schakelaar **Prognose per vestiging gebruiken** inschakelt, respecteert [!INCLUDE[prod_short](includes/prod_short.md)] alle vestigingscodes die zijn opgegeven voor elk vraagprognose-item en berekent het de resterende prognose voor elke vestiging.  
 
 Beschouw dit voorbeeld eens: uw bedrijf koopt en verkoopt artikelen op twee locaties: OOST en WEST. Voor beide locaties heeft u een lot-naar-lot bestelbeleid geconfigureerd. U maakt een prognose voor de twee locaties:
 
@@ -68,7 +67,7 @@ Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 1
 >  Als op locatie gebaseerde prognoses los van elkaar worden bekeken, is de totale prognose mogelijk niet representatief.
 
 ### <a name="do-not-use-forecast-by-locations"></a>Gebruik prognose per vestiging niet
-Als u het veld **Prognose per vestiging gebruiken** uitschakelt, negeert [!INCLUDE[prod_short](includes/prod_short.md)] alle locatiecodes die zijn opgegeven voor elke vraagprognose en combineert de prognoses tot een prognose voor lege vestigingen.  
+Als u de schakelaar **Prognose per vestiging gebruiken** uitschakelt, negeert [!INCLUDE[prod_short](includes/prod_short.md)] alle vestigingscodes die zijn opgegeven voor elk vraagprognose-item en combineert het de prognoses tot een prognose voor lege vestigingen.  
 
 Beschouw dit voorbeeld eens: uw bedrijf koopt en verkoopt artikelen op twee locaties: OOST en WEST. Voor beide locaties heeft u een lot-naar-lot bestelbeleid geconfigureerd. U maakt een prognose voor de twee locaties:
 

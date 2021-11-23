@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: phone, tablet
-  ms.date: 04/01/2021
+  ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 81887822a3163a7fee0d027ac1969545990f749a
-  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+  ms.openlocfilehash: f0d31833373014ac5f1f089537bf03091540e223
+  ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 05/28/2021
-  ms.locfileid: "6116056"
+  ms.lasthandoff: 11/04/2021
+  ms.locfileid: "7752542"
 title: Veelgestelde vragen over mobiele apps
 summary: "Dit artikel beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over mobiele apps voor [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -85,4 +85,7 @@ sections:
   - question: >
       Kan ik de app verbinden met onze on-premise oplossing?
     answer: "Ja, dat kan. Het is een iets andere manier om aan te melden, dat is alles. Zie [Business Central on-premises gebruiken](install-mobile-app.md#using-business-central-on-premises) voor meer informatie.  \n"
+  - question: >
+      Kan een gastgebruiker de app gebruiken om toegang te krijgen tot onze Business Central-oplossing?
+    answer: "Nee. Gastgebruikers zijn uitgenodigde gebruikers van een andere Azure Active Directory (AD)-tenant dan de uwe. In dit geval zal de app zich authenticeren bij de primaire Azure AD-tenant van de gastgebruiker en proberen het Business Central-eindpunt op die tenant te openen in plaats van op die van u.  \n"
 additionalContent: "\n## <a name=\"see-also\"></a>Zie ook\n\n[Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)  \n[De Business Central-app voor Microsoft Teams installeren](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"

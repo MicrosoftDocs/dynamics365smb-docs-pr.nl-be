@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589640"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724624"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>De Business Central-invoegtoepassing voor Excel verkrijgen
 
@@ -25,7 +25,7 @@ ms.locfileid: "7589640"
 
 ### <a name="about-the-add-in"></a>Over de invoegtoepassing
 
-De invoegtoepassing heet **Microsoft Dynamics Office-invoegtoepassing** en is beschikbaar voor installatie vanuit de [Office Store (AppSource)](https://appsource.microsoft.com/). Met de invoegtoepassing geïnstalleerd is de **Bewerken in Excel**-actie beschikbaar op de meeste lijst- en lijstonderdeelpagina's vanuit het pictogram **Delen** ![Een pagina delen in een andere app.](media/share-icon.png). Zie voor meer informatie over het gebruik van de invoegtoepassing [Weergeven en bewerken in Excel vanuit Business Central](across-work-with-excel.md)
+De invoegtoepassing heet **Microsoft Dynamics Office-invoegtoepassing** en is beschikbaar voor installatie vanuit de [Office Store (AppSource)](https://appsource.microsoft.com/). Met de invoegtoepassing geïnstalleerd is de **Bewerken in Excel**-actie beschikbaar op de meeste lijst- en lijstonderdeelpagina's vanuit het pictogram **Delen** ![Een pagina delen in een andere app.](media/share-icon.png). Zie voor meer informatie over het gebruik van de invoegtoepassing [Weergeven en bewerken in Excel vanuit Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > De invoegtoepassing werkt alleen onder Windows, niet onder MacOS.
@@ -118,7 +118,7 @@ De invoegtoepassing is nu verbonden met [!INCLUDE [prod_short](includes/prod_sho
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Apparaten en netwerk voorbereiden voor de Excel-invoegtoepassing
 
-Netwerkservices zoals proxy's of firewalls moeten routering toestaan tussen elk clientapparaat waarop de invoegtoepassing is geïnstalleerd en vele service-eindpunten. Voor een lijst met eindpunten zie [Uw netwerk voorbereiden op de Excel-invoegtoepassing](/dev-itpro/administration/configuring-network-for-addins).
+Netwerkservices zoals proxy's of firewalls moeten routering toestaan tussen elk clientapparaat waarop de invoegtoepassing is geïnstalleerd en vele service-eindpunten. Zie voor een lijst met eindpunten [Uw netwerk voorbereiden op de Excel-invoegtoepassing](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 

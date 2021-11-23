@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
-ms.date: 06/29/2021
+ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a8b647e52457fc4bc2c7377ad6d4fb4f40d6dc58
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446327"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701535"
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
 Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie Vooruitbetaling gebruiken. Met de functionaliteit voor vooruitbetalingen kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers, en ervoor zorgen dat alle gedeeltelijke betalingen worden geboekt tegen een factuur. Zie voor meer informatie [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md).
@@ -60,16 +60,17 @@ Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u
 > [!NOTE]  
 > U kunt dezelfde nummerreeks gebruiken voor vooruitbetalingsnota's en normale facturen, of u kunt verschillende nummerreeksen gebruiken. Als u verschillende reeksen gebruikt, mogen deze elkaar niet overlappen omdat er geen nummers mogen zijn die in beide reeksen voorkomen.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Vooruitbetalingspercentages instellen voor artikelen, klanten en leveranciers  
-Voor een artikel kunt u een standaardvooruitbetalingspercentage instellen voor alle klanten, een specifieke klant of een klantenprijsgroep.  
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Vooruitbetalingspercentages instellen voor artikelen, klanten en leveranciers
+
+Voor een artikel kunt u een standaardvooruitbetalingspercentage instellen voor alle klanten, een specifieke klant of een klantenprijsgroep. Als u niet voor alle klanten hetzelfde vooruitbetalingspercentage wilt toepassen, moet u aangeven voor welke klanten of voor welke klantprijsgroepen het vooruitbetalingspercentage geldt.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een artikel en kies vervolgens de actie **Vooruitbetalingspercentages**.  
 3. Vul op de pagina **Vooruitbetalingspercentages verkoop** de benodigde velden in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Voor een klant of leverancier kunt u één standaardvooruitbetalingspercentage instellen voor alle artikelen en alle typen verkoopregels. U voert dit op de klanten- of leverancierskaart in.
+Voor een klant of leverancier kunt u één standaardvooruitbetalingspercentage instellen voor alle artikelen en alle typen verkoopregels. U voert dit op de klanten- of leverancierskaart in. De volgende procedure laat zien hoe u een vooruitbetalingspercentage voor een klant opgeeft, maar soortgelijke stappen zijn van toepassing op leveranciers.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een klant.
 3. Vul het veld **Vooruitbetaling %** in.
 4. Herhaal de stappen voor andere voor klanten of leveranciers.  

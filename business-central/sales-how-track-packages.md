@@ -5,30 +5,31 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
+ms.search.form: 103, 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440215"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752378"
 ---
 # <a name="track-packages"></a>Pakketten traceren
-
-Een aantal expediteurs biedt services via het Internet zodat u zendingen die u in handen van de expediteur hebt gegeven, kunt traceren. Als u met een of meer expediteurs werkt, kunt u bepaalde basisgegevens instellen en vervolgens geboekte verzendingen, geboekte verkoopfacturen, geboekte verkoopcreditnota's en geboekte retourontvangsten automatisch traceren. Zie [Expediteurs instellen](sales-how-to-set-up-shipping-agents.md) voor meer informatie.  
+De meeste expediteurs bieden een webservice waarmee u de status van uw pakketten kunt volgen terwijl ze onderweg zijn. Die informatie kan in veel bedrijfsprocessen van pas komen, bijvoorbeeld bij het verlenen van klantenservice. Als u met een of meer expediteurs werkt, kunt u bepaalde basisgegevens over hen invoeren en vervolgens hun service voor pakkettracering gebruiken, rechtstreeks vanaf de pagina's Geboekte verkoopverzendingen, Geboekte verkoopfacturen, Geboekte verkoopcreditnota's en Geboekte retourontvangst. Zie [Expediteurs instellen](sales-how-to-set-up-shipping-agents.md) voor meer informatie. 
 
 De volgende procedure laat zien hoe u een pakket kunt traceren vanaf een geboekte verkoopzending, maar dezelfde stappen zijn van toepassing om het traceren van pakketten mogelijk te maken vanaf de pagina's Geboekte verkoopfactuur, Geboekte verkoopkredietnota en Geboekte retourontvangst.  
 
 ## <a name="to-track-a-package"></a>Een zending traceren
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte verkoopverzending** in en kies vervolgens de gerelateerde koppeling.
-2. Open de betreffende zending.
-3. Kies de actie **Document bijwerken**.
-4. Voer in het veld **Traceringsnummer (zending)** het traceringsnummer in dat u van de expediteur hebt ontvangen. Werk **Expediteur** indien nodig bij en sluit de pagina.
-5. Kies de actie **Zending traceren**.
+> [!NOTE]
+> De volgende procedure gebruikt de pagina Geboekte verkoopverzending als voorbeeld. De stappen om een pakket te volgen zijn hetzelfde op de pagina's Geboekte verkoopfacturen, Geboekte verkoopcreditnota's en Geboekte retourontvangst.
 
-De traceringspagina van uw expediteur wordt geopend in uw standaardbrowser.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzending** in en kies vervolgens de gerelateerde koppeling.
+2. Open de verzending die u wilt volgen, en kies vervolgens de actie **Document bijwerken**.
+3. Voer in het veld **Traceringsnummer (zending)** het pakketnummer in dat u van de expediteur hebt ontvangen. 
+4. Zorg ervoor dat de juiste expediteur en het serviceniveau correct zijn en sluit vervolgens de pagina.
+5. Kies de actie **Pakket traceren** om de service voor pakkettracering van de expediteur te openen.
 
 ## <a name="see-also"></a>Zie ook
 

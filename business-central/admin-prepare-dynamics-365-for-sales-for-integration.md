@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482335"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651499"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integreren met Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -94,9 +94,12 @@ In de volgende tabel staat de standaardtoewijzing tussen tabellen in [!INCLUDE[p
 
 | [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[crm_md](includes/crm_md.md)] | Synchronisatierichting | Standaardfilter |
 |--|--|--|--|
-| Maateenheid | Eenhedengroep | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
+| Eenheid | Eenhedengroep | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Artikel | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales-contactfilter: **Producttype** is **Verkoopvoorraad** |
 | Bron | Product | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales-contactfilter: **Producttype** is **Services** |
+| Artikeleenheid | CRM-eenheid |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Resource-eenheid | CRM-eenheid |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Eenhedengroep | CRM-eenhedengroepen | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Klantenprijsgroep | Prijslijst | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Verkoopprijs | Productprijslijst | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)]-contactfilter: **Verkoopcode** is niet leeg, **Verkoopsoort** is **Klantenprijsgroep** |
 | Opportunity | Opportunity | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -104,6 +107,50 @@ In de volgende tabel staat de standaardtoewijzing tussen tabellen in [!INCLUDE[p
 | Verkoopfactuurregel | Factuurproduct | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Verkooporderkop | Verkooporder | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)]-verkoopkopfilter: **Documenttype** is Order, **Status** is Vrijgegeven |
 | Verkoopordernotities | Verkoopordernotities | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+
+> [!NOTE]
+> De toewijzingen voor de tabellen Artikeleenheid, Resource-eenheid en Eenheidsgroep zijn alleen beschikbaar als uw beheerder de functieschakelaar **Functie-update: synchronisatie van meerdere maateenheden met Dynamics 365 Sales** op de pagina **Functiebeheer** heeft aangezet. Zie voor meer informatie [Artikelen en resources synchroniseren met producten in verschillende eenheden](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Artikelen en resources synchroniseren met producten met verschillende eenheden
+Bedrijven produceren of kopen de artikelen vaak in één eenheid en verkopen ze vervolgens in een andere. Als u artikelen wilt synchroniseren die meerdere eenheden gebruiken, moet u de functieschakelaar **Functie-update: synchronisatie van meerdere maateenheden met Dynamics 365 Sales** aanzetten op de pagina **Functiebeheer**. 
+
+Als u dat doet, wordt er een nieuwe eenhedengroeptabel gemaakt en toegewezen aan elk artikel en elke resource in [!INCLUDE[prod_short](includes/prod_short.md)]. Hiermee kunt u de tabellen Eenhedengroep, Artikeleenheid en Resource-eenheid in [!INCLUDE[prod_short](includes/prod_short.md)] toewijzen aan de Dynamics 365 Sales-eenhedengroep <!--Need to verify this name--> in [!INCLUDE[crm_md](includes/crm_md.md)], zoals weergegeven in de volgende afbeelding.
+
+:::image type="content" source="media/unit group 1.png" alt-text="Tabeltoewijzingen voor eenhedengroepen":::
+
+U kunt meerdere eenheden maken voor elke eenhedengroep en de groepen toewijzen aan producten in [!INCLUDE[crm_md](includes/crm_md.md)]. Daarna kunt u de producten synchroniseren met artikelen en bronnen in [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt handmatig artikeleenheden of resource-eenheden koppelen aan een eenhedengroep. Wanneer u dat doet, als de eenhedengroep voor het artikel of de resource niet is gekoppeld aan een eenhedengroep in [!INCLUDE[crm_md](includes/crm_md.md)], bijvoorbeeld omdat de eenhedengroep niet bestond, maakt [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de eenhedengroep aan in [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="mapping-items-and-resources-to-products"></a>Artikelen en resources toewijzen aan producten
+Wanneer u de functieschakelaar **Functie-update: synchronisatie van meerdere maateenheden met Dynamics 365 Sales** aanzet, gebeurt het volgende:
+
+* Er worden nieuwe toewijzingen gemaakt voor artikelen en resources.
+* Bestaande toewijzingen worden verwijderd. <!--which mappings?-->
+* Een gegevensupgrade maakt eenhedengroepen voor artikelen en resources.
+
+Als u de nieuwe toewijzingen wilt gebruiken, moet u eenhedengroepen, artikeleenheid en resource-eenheden synchroniseren. U moet ook artikelen en resources opnieuw synchroniseren. 
+
+> [!NOTE]
+> [!INCLUDE[crm_md](includes/crm_md.md)] staat niet toe dat u een eenhedengroep voor een product wijzigt. Daarom moet u uw producten buiten gebruik stellen en de artikelen en resources ontkoppelen, en vervolgens synchroniseren door nieuwe producten te maken in [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+De volgende stappen beschrijven de stappen om te beginnen eenhedengroepen toe te wijzen:
+
+1. Zorg ervoor dat producten in [!INCLUDE[crm_md](includes/crm_md.md)] niet zijn gekoppeld aan artikelen of resources in [!INCLUDE[prod_short](includes/prod_short.md)]. Als dat wel zo is, ga dan naar de pagina **Artikelen** en/of **Resources**, gebruik de filteropties om de gekoppelde records te selecteren en kies vervolgens de actie **Dynamics 365 Sales** en selecteer **Ontkoppelen**. Hiermee wordt een achtergrondtaak gepland om de records te ontkoppelen. Terwijl de taak wordt uitgevoerd, kunt u de status controleren met behulp van de actie **Synchronisatielogboek**. Zie voor meer informatie [Koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md). 
+2. Omdat nieuwe producten worden gemaakt in [!INCLUDE[crm_md](includes/crm_md.md)] met nieuwe eenhedengroepen, doet u een van de volgende dingen om dubbele namen te voorkomen:
+    
+    * Hernoem uw producten en stel ze vervolgens buiten gebruik in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Producten terugtrekken (Verkoophub)](/dynamics365/sales-enterprise/retire-product). Om uw producten in bulk te bewerken in Microsoft Excel meldt u zich aan bij Power Apps, kiest u uw omgeving, gaat u naar de tabel **Product** en kiest u het tabblad **Gegevens**. Wis alle filters die zijn toegepast. Kies in de groep **Gegevens** de actie **Gegevens bewerken in Excel**. Voeg een voor- of achtervoegsel toe aan de gekoppelde producten en trek ze vervolgens in.
+    * Trek uw producten in en verwijder ze. 
+
+3. Volg deze stappen om **Eenhedengroepen**, **Eenheden**, **Artikelen** en **Resources** te synchroniseren:
+    1. Open in [!INCLUDE[prod_short](includes/prod_short.md)] de pagina **Instellingen Dynamics 365 Sales-verbinding**.
+    2. Gebruik de actie **Volledige synchronisatie uitvoeren** om de pagina **Controle van volledige Dataverse-synchronisatie** te openen.
+    3. Kies voor de toewijzingen **ARTIKELEENHEID**, **RESOURCE-EENHEID** en **EENHEDENGROEP** de actie **Volledige synchronisatie aanbevelen**.
+    4. Kies de actie **Alles synchroniseren**.
+
+    > [!NOTE]
+    > Voor toewijzingen die nog niet volledig zijn gesynchroniseerd, worden ze met deze actie volledig gesynchroniseerd. Om te voorkomen dat die toewijzingen worden gesynchroniseerd, verwijdert u de toewijzingen van de pagina. Hierdoor worden ze alleen verwijderd uit de huidige volledige synchronisatie en worden de toewijzingen niet verwijderd.
+    
+5. Kies de toewijzing **ARTIKEL-PRODUCT** en kies vervolgens de actie **Opnieuw starten**. Hierdoor ontstaan nieuwe producten vanuit de artikelen in [!INCLUDE[crm_md](includes/crm_md.md)] en wordt een nieuwe eenhedengroep toegewezen die specifiek is voor het artikel.
+6. Kies de toewijzing **RESOURCE-PRODUCT** en kies vervolgens de actie **Opnieuw starten**. Hierdoor ontstaan nieuwe producten vanuit de resources in [!INCLUDE[crm_md](includes/crm_md.md)] en wordt een nieuwe eenhedengroep toegewezen die specifiek is voor de resources.
 
 ### <a name="synchronization-rules"></a>Synchronisatieregels
 
@@ -140,7 +187,7 @@ De volgende tabel beschrijft de standaardsynchronisatietaken voor Sales.
 
 |Taakwachtrij-item|Omschrijving|Richting|Toewijzing van integratietabel|Standaardsynchronisatiefrequentie (minuten)|Standaardinactiviteitslaaptijd (minuten)|  
 |---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
-|MAATEENHEID - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-eenhedengroepen met [!INCLUDE[prod_short](includes/prod_short.md)]-maateenheden.|Van [!INCLUDE[prod_short](includes/prod_short.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|MAATEENHEID|30|720<br> (12 uur)|
+|MAATEENHEID - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-eenhedengroepen met [!INCLUDE[prod_short](includes/prod_short.md)]-maateenheden.|Van [!INCLUDE[prod_short](includes/prod_short.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|EENHEID|30|720<br> (12 uur)|
 |RESOURCE-PRODUCT - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-producten met [!INCLUDE[prod_short](includes/prod_short.md)]-resources.|Van [!INCLUDE[prod_short](includes/prod_short.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|RESOURCE-PRODUCT|30|720<br> (12 uur)|
 |ARTIKEL - PRODUCT - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-producten met [!INCLUDE[prod_short](includes/prod_short.md)]-artikelen.|Van [!INCLUDE[prod_short](includes/prod_short.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|ARTIKEL-PRODUCT|30|1440<br> (24 uur)|
 |KLANTENPRIJSGROEPPRIJS - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-verkoopprijslijsten met [!INCLUDE[prod_short](includes/prod_short.md)]-klantenprijsgroepen| |KLANTENPRIJSGROEPEN-VERKOOPPRIJSLIJSTEN|30|1440<br> (24 uur)|

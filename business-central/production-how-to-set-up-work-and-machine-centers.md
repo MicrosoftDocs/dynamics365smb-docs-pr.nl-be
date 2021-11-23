@@ -1,5 +1,5 @@
 ---
-title: Afdelingen en bewerkingsplaatsen instellen | Microsoft Docs
+title: Afdelingen en bewerkingsplaatsen instellen
 description: Op een **afdelingskaart** staan alle vaste waarden en behoeften van de desbetreffende productieresource bij elkaar. Op die manier wordt de productie-output die op die afdeling wordt uitgevoerd door de kaart bepaald.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b247cdc220ad522fe42085528df8a25200d6dd48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3cc89545cced46acbe5d148853ac46c4135d251e
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440315"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "7714534"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Afdelingen en bewerkingsplaatsen instellen
 
@@ -55,12 +55,12 @@ Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor h
 
     |Optie|Omschrijving|
     |------|-----------|
-    |**Handmatig**|Verbruik wordt handmatig geboekt in het outputdagboek of het productiedagboek.|
-    |**Voorwaarts**|Verbruik wordt automatisch berekend en geboekt wanneer de productieorder wordt vrijgegeven.|
-    |**Achterwaarts**|Verbruik wordt automatisch berekend en geboekt wanneer de productieorder wordt voltooid.|
+    |**Handmatig**| Gebruikte tijd, output en uitval worden handmatig geboekt in het outputdagboek of productiedagboek.|
+    |**Voorwaarts**|Output wordt automatisch geboekt wanneer de productieorder wordt vrijgegeven.|
+    |**Achterwaarts**|Output wordt automatisch geboekt wanneer de productieorder wordt voltooid.|
 
     > [!NOTE]
-    > Zo nodig kan de afboekingsmethode die hier en op de **artikelkaart** is geselecteerd, voor afzonderlijke bewerkingen worden overschreven. U doet dit door de instellingen op bewerkingsplanregels te wijzigen
+    > Zo nodig kan de afboekingsmethode die hier is geselecteerd, voor afzonderlijke bewerkingen worden overschreven. U doet dit door de instellingen op bewerkingsplanregels te wijzigen
 
 12. Voer in het veld **Code van maateenheid** de tijdseenheid in waarin de kostenberekening en capaciteitsplanning van deze afdeling worden gemaakt.
     Pas wanneer u een methode voor meten hebt ingesteld, kunt u het verbruik voortdurend controleren. De eenheden die u invoert, zijn basiseenheden. De verwerkingstijd wordt bijvoorbeeld gemeten in uren en minuten.
@@ -77,7 +77,81 @@ Hier wordt voornamelijk beschreven hoe u een afdeling instelt. De stappen voor h
 > [!NOTE]
 > Gebruik wachttijden om een buffer te bieden tussen het moment waarop een component aankomt op een bewerkingsplaats of afdeling en het moment waarop de bewerking daadwerkelijk begint. Een onderdeel wordt bijvoorbeeld om 10.00 uur afgeleverd bij een bewerkingsplaats, maar het duurt een uur om het op de machine te monteren, zodat de bewerking pas om 11.00 uur begint. Om rekening te houden met dat uur, zou de wachttijd een uur zijn. De waarde van het veld **Wachttijd voor bew.** op een bewerkings- of afdelingskaart, opgeteld bij de waarden in de velden **Insteltijd**, **Bewerkingstijd**, **Wachttijd na bew.** en **Transporttijd** op de bewerkingsplanregel vormen samen de productietijd van het artikel. Dit zorgt voor nauwkeurige totale productietijden.  
 
-## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Voorbeeld - Verschillende bewerkingsplaatsen die aan een afdeling zijn toegewezen
+## <a name="considerations-about-capacity"></a>Overwegingen over capaciteit
+
+De capaciteit en efficiëntie die voor een afdeling en bewerkingsplaats worden gespecificeerd, hebben niet alleen invloed op de beschikbare capaciteit. Ze hebben ook invloed op de totale productietijd die bestaat uit de insteltijd en de looptijd, die beide op de routeringsregel zijn gedefinieerd.  
+
+Wanneer een specifieke bewerkingsplanregel wordt toegewezen aan een afdeling of bewerkingsplaats, berekent het systeem hoeveel capaciteit nodig is en hoe lang het duurt om de bewerking te voltooien.  
+
+### <a name="run-time"></a>Bewerkingstijd
+
+Om de bewerkingstijd te berekenen wijst het systeem de exacte tijd toe die is gedefinieerd in het veld **Bewerkingstijd** van de bewerkingsplanregel. Noch efficiëntie, noch capaciteit hebben invloed op de toegewezen tijd. Als de bewerkingstijd bijvoorbeeld is gedefinieerd als 2 uur, is de toegewezen tijd 2 uur, ongeacht de waarden in de velden efficiëntie en capaciteit in de afdeling.  
+
+> [!NOTE]
+> De capaciteit die in de berekeningen wordt gebruikt, wordt gedefinieerd als de minimale waarde tussen de capaciteit die is gedefinieerd op de afdeling of de bewerkingsplaats, en de gelijktijdige capaciteit die is gedefinieerd voor de bewerkingsplanregel. Als een afdeling een capaciteit van 100 heeft, maar de gelijktijdige capaciteit voor de bewerkingsplanregel is 2, dan wordt *2* gebruikt in de berekeningen.
+
+De *duur* van een bewerking daarentegen houdt rekening met zowel efficiëntie als capaciteit. Duur wordt berekend als *Bewerkingstijd / Efficiëntie / Capaciteit*. De volgende lijst toont enkele voorbeelden van de berekening van de duur voor dezelfde bewerkingstijd, die is gedefinieerd als 2 uur voor de bewerkingsplanregel:
+
+- Efficiency 80% betekent dat u 2,5 uur nodig hebt in plaats van 2 uur  
+- Efficiëntie 200% betekent dat u het werk in één uur kunt voltooien. U kunt het gat twee keer zo snel graven als u een graafmachine heeft die twee keer zo groot is als de kleinere  
+
+    U kunt hetzelfde resultaat bereiken als u twee kleinere graafmachines gebruikt in plaats van een grote; gebruik *2* als de capaciteit en *100%* als de efficiëntie  
+
+De fractionele capaciteit is lastig en we zullen het later bespreken. 
+
+### <a name="setup-time"></a>Insteltijd
+
+Tijdtoewijzing voor de insteltijd is afhankelijk van de capaciteit en wordt berekend als *Insteltijd * Capaciteit*. Als de capaciteit bijvoorbeeld is ingesteld op *2*, wordt uw toegewezen insteltijd verdubbeld, omdat u twee machines moet instellen voor de bewerking.  
+
+*Duur* van de insteltijd is afhankelijk van de efficiëntie en wordt berekend als *Insteltijd / Efficiëntie*. 
+
+- Efficiency 80% betekent dat u 2,5 uur nodig hebt in plaats van 2 uur om in te stellen  
+- Efficiëntie 200% betekent dat u de installatie in 1 uur kunt voltooien in plaats van 2 uur, zoals gedefinieerd op de bewerkingsplanregel  
+
+De fractale capaciteit is niet gemakkelijk en wordt in zeer specifieke gevallen gebruikt.
+
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Afdeling die meerdere orders tegelijk verwerkt
+
+Laten we als voorbeeld een verfspuitcabine gebruiken. Deze heeft dezelfde instel- en bewerkingstijd voor elke verwerkte partij. Maar elke partij kan meerdere individuele orders bevatten die tegelijkertijd worden geverfd.  
+
+In dit geval worden de tijd en kosten die aan orders worden toegewezen, beheerd door de insteltijd en de gelijktijdige capaciteit. We raden u aan om geen bewerkingstijd te gebruiken in de bewerkingsplanregels.  
+
+De toegewezen insteltijd voor elke individuele order zal in omgekeerde volgorde zijn van het aantal orders (hoeveelheden) dat tegelijkertijd wordt uitgevoerd. Hier zijn nog enkele voorbeelden van de berekening van de insteltijd wanneer die is gedefinieerd als twee uur voor de bewerkingsplanregel:
+
+- Als er twee orders zijn, moet de gelijktijdige capaciteit op de bewerkingsplanregel de routeringsregel worden ingesteld op 0,5.
+
+    Als gevolg hiervan zal de toegewezen capaciteit voor elk één uur zijn, maar de duur voor elke order blijft twee uur.
+- Als er twee orders zijn met een hoeveelheid van respectievelijk één en vier, dan is de gelijktijdige capaciteit voor de bewerkingsplanregel van de eerste order 0,2 en 0,8 voor de tweede.  
+
+    Als gevolg hiervan is de toegewezen capaciteit voor de eerste order 24 minuten en voor de tweede 96. De duur voor beide orders blijft twee uur.  
+
+In beide gevallen is de totale toegewezen tijd voor alle orders twee uur.
+
+
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Efficiënte resource kan slechts een deel van de werkdatum aan productief werk besteden
+
+> [!NOTE]
+> Dit is geen aanbevolen scenario. We raden u aan om in plaats daarvan efficiëntie te gebruiken. 
+
+Een van uw afdelingen vertegenwoordigt een ervaren werknemer die met 100% efficiëntie aan taken werkt. Maar hij of zij kan maar 50% van de werktijd aan taken besteden omdat ze de rest van de tijd administratieve taken oplossen. Hoewel deze werknemer in staat is om een taak van twee uur in precies twee uur te voltooien, moet u gemiddeld nog twee uur wachten terwijl de persoon andere opdrachten afhandelt.  
+
+De toegewezen bewerkingstijd is twee uur en de duur is vier uur.  
+
+Gebruik geen insteltijd voor dergelijke scenario's, aangezien het systeem slechts 50% van de tijd zal toewijzen. Als de insteltijd is ingesteld op *2*, dan is de toegewezen insteltijd één uur en de duur twee uur.
+
+### <a name="consolidated-calendar"></a>Geconsolideerde agenda
+
+Wanneer het veld **Geconsolideerde agenda** is geselecteerd, heeft de afdeling geen eigen capaciteit. In plaats daarvan is de capaciteit gelijk aan de som van de capaciteiten van alle bewerkingsplaatsen die aan de afdeling zijn toegewezen.  
+
+> [!NOTE]
+>  De efficiëntie van de bewerkingsplaats wordt omgerekend naar de capaciteit van de afdeling.
+
+Als u bijvoorbeeld twee bewerkingsplaatsen heeft met een efficiëntie van respectievelijk 80 en 70, heeft het geconsolideerde agenda-item een efficiëntie van 100, een capaciteit van 1,5 en een totale capaciteit van 12 uur (ploeg van 8 uur * 1,5 capaciteit). 
+
+> [!NOTE]
+>  Gebruik het veld **Geconsolideerde agenda** wanneer u uw bewerkingsplannen structureert om productiebewerkingen te plannen op bewerkingsplaatsniveau, niet op afdelingsniveau. Wanneer u de agenda consolideert, worden de pagina en de rapporten **Werklast van afdeling** een overzicht van de totale belasting in alle bewerkingsplaatsen die aan de afdeling zijn toegewezen.
+
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Voorbeeld - Verschillende bewerkingsplaatsen die aan een afdeling zijn toegewezen
 
 Tijdens het instellen van bewerkingsplaatsen en afdelingen is het belangrijk dat u plant waaruit de totale capaciteit zal bestaan.
 
