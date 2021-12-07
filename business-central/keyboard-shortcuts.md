@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588263"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865454"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -37,7 +37,7 @@ Sneltoetsen vergroten de toegankelijkheid en maken het gemakkelijker en efficië
 De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is. Sommige sneltoetsen verschillen echter voor macOS. Deze snelkoppelingen worden aangegeven met haakjes in de volgende secties.
 
 > [!NOTE]
-> Naast de algemene sneltoetsen die in dit onderwerp worden beschreven, is er een aantal bedrijfsspecifieke sneltoetsen beschikbaar. Bijvoorbeeld in de generieke versie van [!INCLUDE[prod_short](includes/prod_short.md)] boekt F9 een document en toont Ctrl+F7 de financiële posten voor een record wanneer u de record opent in een kaart. (Deze kunnen in uw oplossing verschillen.) De sneltoets wordt weergegeven in de knopinfo voor de betreffende actie.
+> Naast de algemene sneltoetsen die in dit artikel worden beschreven, is er een aantal bedrijfsspecifieke sneltoetsen beschikbaar. Bijvoorbeeld in de generieke versie van [!INCLUDE[prod_short](includes/prod_short.md)] boekt F9 een document en toont Ctrl+F7 de financiële posten voor een record wanneer u de record opent in een kaart. Dit artikel bevat enkele van de meest voorkomende bedrijfsspecifieke sneltoetsen, die cursief worden weergegeven. Houd er rekening mee dat de daadwerkelijke snelkoppelingen in uw oplossing kunnen verschillen. In de gebruikersinterface wordt de sneltoets weergegeven in de knopinfo voor de betreffende actie.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Algemene sneltoetsen
 
@@ -83,7 +83,15 @@ De volgende tabel beschrijft de sneltoetsen die u op een lijstpagina kunt gebrui
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |De geselecteerde kolom sorteren in oplopende of aflopende volgorde.|Niet van toepassing.|
 |Alt+N|Een nieuwe regel invoegen in een bewerkbare lijst in, zoals de pagina **Grootboekbudgetten**.|Zelfde.|
+|Shift+F9|Een document boeken en afdrukken.|Zelfde.|
 |Shift+F10 |Een menu openen met opties die beschikbaar zijn voor de geselecteerde rij.|Zelfde.|
+|Alt+D|De dimensiesetposten openen.|Zelfde.|
+|Ctrl+F7|Posten, logboekposten, kostenposten, enzovoort openen.|
+|Ctrl+F9|Document vrijgeven.|Zelfde.|
+|*F7*|Statistieken openen.|Zelfde.|
+|*F9*|Document boeken, registreren of tegenboeken.|Zelfde.|
+|*Shift+Ctrl+F*|Voorgestelde regels op de pagina met cashflowvoorstellen verzenden.|Niet van toepassing.|
+|*Shift+Ctrl+I*|Serienummers en lotnummers weergeven of bewerken die zijn toegewezen aan het regelartikel in het document of dagboek.|Niet van toepassing.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigeren tussen rijen en kolommen
 
@@ -103,7 +111,7 @@ Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rast
 | Pijl omhoog | Naar het veld in de bovenliggende rij in dezelfde kolom gaan. | In dezelfde kolom naar de tegel in de rij erboven gaan. |
 | Pijl rechts | In een alleen-lezen lijst in dezelfde rij naar het volgende veld naar rechts gaan.<br /><br />In een bewerkbare lijst in het huidige veld naar rechts gaan. | In dezelfde rij naar de volgende tegel naar rechts gaan. |
 | Pijl links | In een alleen-lezen lijst in dezelfde rij naar het vorige veld naar links gaan. <br /><br />In een bewerkbare lijst in het huidige veld naar links gaan. | In dezelfde rij naar de vorige tegel naar links gaan. |
-| Tab | In een bewerkbare lijst in dezelfde rij naar het volgende veld naar rechts gaan. | Niet van toepassing. |  |
+| Tab | In een bewerkbare lijst in dezelfde rij naar het volgende veld naar rechts gaan. | Niet van toepassing. | 
 | Shift + tab | In een bewerkbare lijst in dezelfde rij naar het vorige veld naar links gaan. | Niet van toepassing. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selecteren, kopiëren en plakken
@@ -142,7 +150,9 @@ De volgende sneltoetsen zijn beschikbaar op kaartpagina's, zoals **Klant**, en d
 
 |Druk op deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
+|Alt+D|De dimensiesetposten openen.|
 |Alt+F6|Schakelen tussen samenvouwen en uitvouwen voor het huidige sneltabblad of onderdeel (subpagina).|
+|Alt+F9|Nieuw document en maken en boeken.|
 |Alt+G|Open de pagina **Posten zoeken** om posten te zoeken die betrekking hebben op het geboekte document. Werkt ook op lijsten.|
 |Alt+N |Een pagina openen om een nieuwe record te maken; dezelfde manier als de actie **Nieuw** kiezen. |
 |Alt+Shift+N |Een pagina sluiten en een nieuwe openen om een nieuwe record te maken; dezelfde manier als de actie **OK & nieuw** selecteren. |
@@ -152,9 +162,15 @@ De volgende sneltoetsen zijn beschikbaar op kaartpagina's, zoals **Klant**, en d
 |Ctrl + pijl-omhoog |De vorige record voor een entiteit openen.|
 |Ctrl+Insert |Een nieuwe regel in documenten invoegen.|
 |Ctrl+Delete |De regel verwijderen in documenten, dagboeken en werkbladen.|
+|Ctrl+F7|Posten, logboekposten, kostenposten, enzovoort openen.|
+|Ctrl+F9|Document vrijgeven.|
 |Ctrl+Shift+F12 |Het gedeelte met regelitems maximaliseren op een documentpagina. Druk nogmaals op de toetsen om terug te keren naar de normale weergave. Zie voor meer informatie [Focussen op regelitems](ui-enter-data.md#Focus).|
 |F6|Naar het volgende sneltabblad of onderdeel (subpagina) gaan.|
+|*F7*|Statistieken openen.|
+|*F9*|Document boeken, registreren of tegenboeken.|
+|*Shift+Ctrl+F9*|Magazijnontvangst boeken, afdrukken en opslaan.|
 |Shift+F6|Naar het vorige sneltabblad of onderdeel (subpagina) gaan.|
+|*Shift+F9*|Een document boeken en afdrukken.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Sneltoetsen voor snelle invoer voor velden
 

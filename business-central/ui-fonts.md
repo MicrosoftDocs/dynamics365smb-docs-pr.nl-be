@@ -1,6 +1,6 @@
 ---
 title: Beschikbare lettertypen
-description: De online versie van Business Central bevat vooraf geïnstalleerde lettertypen op de servers die kunnen worden gebruikt bij het genereren van rapporten.
+description: Lees meer over de vooraf geïnstalleerde lettertypen die u kunt gebruiken voor uw extern gerichte rapporten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
+ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588036"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7868313"
 ---
 # <a name="available-fonts"></a>Beschikbare lettertypen
 
@@ -48,15 +48,22 @@ Naast MICR-lettertypen zijn er speciale beveiligingslettertypen beschikbaar voor
 Zie voor meer informatie [Een cheque-indeling selecteren](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Lettertypen voor streepjescodes
-Lettertypen voor het genereren van eendimensionale streepjescodes zijn geïnstalleerd en beschikbaar voor gebruik in zowel Word- als RDLC-rapportlay-outs.
+Lettertypen voor het genereren van streepjescodes zijn geïnstalleerd en beschikbaar voor gebruik in zowel Word- als RDLC-rapportlay-outs.
 
-De volgende streepjescodesymbolen worden ondersteund:
+De volgende eendimensionale streepjescodesymbologieën worden ondersteund:
 * Code 3 van 9 (Code 39)
 * Code 128
 * Code 93
 * Codabar
 * MSI
 * Interleaved 2 van 5
+
+De volgende tweedimensionale streepjescodesymbologieën worden ondersteund:
+* Aztec
+* Data Matrix
+* Maxicode
+* PDF417
+* QR
 
 Zie voor meer informatie [Barcodelettertypen met Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 

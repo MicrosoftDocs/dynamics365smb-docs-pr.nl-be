@@ -24,27 +24,13 @@
 
 ### Ontwerpdetails
 #### [Overzicht van toepassingsontwerpdetails](design-details-application-design.md)
-#### Ontwerpdetails: Voorzieningsplanning
-##### [Overzicht van voorraadplanning](design-details-supply-planning.md)
-##### [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)  
-##### [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
-##### [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)  
-##### [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)  
-##### [Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)  
-##### [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md)  
-##### [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)
 #### Ontwerpdetails: Voorraadwaardering
-##### [Kostenoverzicht](design-details-inventory-costing.md)
+##### [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)
 ##### [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 ##### [Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen](design-details-changing-costing-methods.md)
 ##### [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
 ##### [Ontwerpdetails: bekend probleem met artikelvereffening](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)  
-##### Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost
-###### [Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Foutbericht "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Boekingsdatum op correctiewaardepost in vergelijking met de bronpost](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Ontwerpdetails: Verwachte kostenboeking](design-details-expected-cost-posting.md)  
 ##### [Ontwerpdetails: Gemiddelde kostprijs](design-details-average-cost.md)  
 ##### [Ontwerpdetails: Verschil](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Ontwerpdetails: Rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)
 ##### [Ontwerpdetails: Voorraadwaardering](design-details-inventory-valuation.md)  
 ##### [Ontwerpdetails: Herwaardering](design-details-revaluation.md)
+#### Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost
+##### [Overzicht: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Foutbericht "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Boekingsdatum op correctiewaardepost in vergelijking met de bronpost](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Ontwerpdetails: Dimensiesetposten
+##### [Ontwerpdetails: Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)
+##### [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)
+##### [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)
+#### Ontwerpdetails: Voorzieningsplanning
+##### [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)
+##### [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)  
+##### [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
+##### [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)  
+##### [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)  
+##### [Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)  
+##### [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md)  
+##### [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)
 #### Ontwerpdetails: Magazijnbeheer
-##### [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
+##### [Ontwerpdetails: Warehouse Management](design-details-warehouse-management.md)
 ##### [Ontwerpdetails: Magazijnoverzicht](design-details-warehouse-overview.md)  
 ##### [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md)  
 ##### [Ontwerpdetails: Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md)  
 ##### [Ontwerpdetails: Integratie met voorraad](design-details-integration-with-inventory.md)
 #### Ontwerpdetails: Artikeltracering
-##### [Artikeltraceringoverzicht](design-details-item-tracking.md)
+##### [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
 ##### [Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)  
 ##### [Ontwerpdetails: Boekingsstructuur artikeltracering](design-details-item-tracking-posting-structure.md)  
 ##### [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,14 +82,10 @@
 ##### [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 ##### [Ontwerpdetails: Artikeltracering in het magazijn](design-details-item-tracking-in-the-warehouse.md)
 #### Ontwerpdetails: dagboekboekingsregel
-##### [Dagboekboekingsregel](design-details-general-journal-post-line.md)
+##### [Ontwerpdetails: Dagboekboekingsregel](design-details-general-journal-post-line.md)
 ##### [Overzicht dagboekboekingsregel](design-details-general-journal-post-line-overview.md)  
 ##### [Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)  
 ##### [Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)  
-#### Ontwerpdetails: Dimensiesetposten
-##### [Ontwerpdetails: Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)  
-##### [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)  
-##### [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)  
 
 ## Proberen
 ### [Proefversies en abonnementen](across-preview.md)
@@ -703,6 +703,7 @@
 ### [Vaste activa afschrijven of aflossen](fa-how-depreciate-amortize.md)
 ### [Vaste activa afstoten of van de hand doen](fa-how-dispose-retire.md)
 ### [Budgetten voor vaste activa beheren.](fa-how-manage-budgets.md)
+### [Problemen oplossen met VA-posten](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Relatiebeheer
 ### [Overzicht van relatiebeheer](marketing-relationship-management.md)
@@ -1264,13 +1265,14 @@
 ##### [Typen belastingidentificatie voor Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Btw-herberekening](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronische facturering
-##### [Elektronische facturering](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Elektronische facturering instellen](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Elektronische facturen genereren](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Elektronische facturering (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [PAC webservices instellen](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Elektronische facturering instellen (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Elektronische facturen genereren (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de Porte-pakbonnen en -transferorders (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Alge&meen
 ##### [Elektronische boekhoudverordeningen in Mexico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Alge&meen
-##### [PAC webservices instellen](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Problemen met rapporten oplossen](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Borgsommen maken](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 

@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8b7943caba8482e39217307be904f368f0ec31c0
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 5d03e3c567ed6a2932691cee58685e522814a03f
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752455"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865558"
 ---
 # <a name="record-sales-prices-and-discounts"></a>Verkoopprijzen en kortingen registreren
 > [!NOTE]
@@ -52,15 +52,13 @@ U kunt voor verkoopkortingen de volgende typen instellen en gebruiken:
 
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. Als de functie-update niet is ingeschakeld, volgt u de stappen op het tabblad Huidige ervaring. 
 
-#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)
+## <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de klant en kies vervolgens de actie **Prijzen**.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vul een regel in voor elke combinatie waarmee een speciale verkoopprijs aan de klant wordt verleend.
 
----
-
-#### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience/)  
+## <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)  
 Standaard is de status van nieuwe prijslijsten Concept. Conceptprijslijsten worden niet meegenomen in prijsberekeningen. Als u klaar bent met het toevoegen van regels en u wilt de prijzen gaan gebruiken, wijzigt u de status in Actief.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
@@ -100,7 +98,7 @@ Wanneer u de functie-update **Nieuwe verkoopprijservaring** op de pagina **Funct
 
 Als u de nieuwe prijservaring al hebt ingeschakeld, kunt u handmatig standaardprijslijsten maken of een bestaande prijslijst als standaard opgeven. Om een bestaande prijslijst als standaard in te stellen zet u de schakelaar **Bijwerken van standaardinstellingen toestaan** aan in de prijslijst. Vervolgens stelt u de prijslijst als de standaard in op de pagina **Verkoopinstellingen**, **Inkoopinstellingen** of **Projectinstellingen**.
 
-### <a name="editing-active-price-lists"></a>Actieve prijslijsten bewerken
+## <a name="editing-active-price-lists"></a>Actieve prijslijsten bewerken
 Om mensen in staat te stellen prijzen te bewerken op actieve prijslijsten voor artikelen, resources, klanten, leveranciers of andere entiteiten die prijzen gebruiken, zet u de schakelaar **Bewerken van actieve prijs toestaan** aan op de pagina **Verkoopinstellingen** en **Inkoopinstellingen**. 
 
 Wanneer de schakelaar **Bewerken van actieve prijs toestaan** is uitgeschakeld, moet u om prijzen in een prijslijst bij te werken, de status van de prijslijst wijzigen in **Concept**, uw wijziging aanbrengen en de prijslijst vervolgens weer activeren.
@@ -121,7 +119,7 @@ Daarna kunt u de actie **Prijswijziging doorvoeren** gebruiken om de nieuwe prij
 ## <a name="to-copy-sales-prices"></a>Verkoopprijzen kopiëren
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. Als de functie-update niet is ingeschakeld, volgt u de stappen op het tabblad Huidige ervaring.
 
-#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)  
+## <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)  
 
 Als u verkoopprijzen wilt kopiëren, bijvoorbeeld om de verkoopprijzen van een individuele klant voor een klantenprijsgroep te gebruiken, moet u de batchverwerking **Verkoopprijsvoorstellen maken**. uitvoeren op de pagina **Verkoopprijsvoorstel**.  
 
@@ -135,9 +133,7 @@ Als u verkoopprijzen wilt kopiëren, bijvoorbeeld om de verkoopprijzen van een i
    > [!NOTE]  
    > Met deze batchverwerking worden alleen suggesties gemaakt en worden de voorgestelde wijzigingen niet geïmplementeerd. Als u tevreden bent met de suggesties en deze wilt implementeren (invoegen op de pagina **Verkoopprijzen**), kiest u de actie **Prijsaanpassing doorvoeren** op de pagina **Verkoopprijsvoorstel**.
 
----
-
-#### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience/)  
+## <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopprijslijsten** in en kies vervolgens de gerelateerde koppeling. 
 2. Kies de prijslijst die u wilt kopiëren en kies vervolgens **Regels kopiëren**.
@@ -151,7 +147,7 @@ Als u verkoopprijzen wilt kopiëren, bijvoorbeeld om de verkoopprijzen van een i
 ## <a name="to-bulk-update-item-prices"></a>Artikelprijzen bulksgewijs bijwerken
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. Als de functie-update niet is ingeschakeld, volgt u de stappen op het tabblad Huidige ervaring.
 
-#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)
+### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)
 
 Als u artikelprijzen in bulk wilt bijwerken, bijvoorbeeld om alle artikelprijzen met een bepaald percentage te verhogen, kunt u het **Verkoopprijsvoorstel** invullen door de volgende batchtaken te gebruiken:
 
@@ -167,14 +163,14 @@ Als u artikelprijzen in bulk wilt bijwerken, bijvoorbeeld om alle artikelprijzen
 7. Kies **OK** om de regels op de pagina **Verkoopprijsvoorstel** in te vullen met de voorgestelde nieuwe prijzen.
 8. Gebruik om de suggesties te implementeren de actie **Prijsaanpassing doorvoeren**. De batchtaak doet suggesties, maar implementeert ze niet.
 
----
-
-#### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience/)
+## <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)
 
 Om prijzen voor meerdere artikelen bij te werken moet u een nieuwe prijslijst maken en vervolgens de regels uit een bestaande prijslijst kopiëren. Wanneer u de regels kopieert, kunt u filters gebruiken om aan te geven wat u wilt kopiëren, en u kunt een geheel getal of decimaal getal specificeren in het veld **Herwaarderingsfactor** om prijzen te verhogen of te verlagen. De status van de prijslijst moet **Concept** zijn. Indien nodig kunt u vervolgens de oude prijslijst deactiveren.
 
 > [!NOTE]
 > U kunt geen twee regels hebben met dezelfde instellingen maar verschillende prijzen. Als dat gebeurt, wordt er een bericht weergegeven wanneer u een prijslijst activeert. U kunt de te gebruiken prijs kiezen door de lijst te openen en de verkeerde prijs te verwijderen.  
+
+---
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Verkoopfactuurkortingen en administratiekosten
 Wanneer u factuurkortingen gebruikt, wordt op basis van het totale bedrag op de factuur bepaald welke korting wordt verleend. Op de pagina **Verkoopfactuurkortingen** kunt u ook een bepaald bedrag aan administratiekosten toevoegen aan facturen.  
@@ -189,8 +185,6 @@ Naast (of in plaats van) een kortingspercentage kunt u administratiekosten aan e
 
 Zie [Kortingen instellen voor uw klanten](/learn/modules/customer-discounts-dynamics-365-business-central/index) op Microsoft Learn voor training in kortingen.  
 
----
-
 ### <a name="calculating-invoice-discounts-on-sales"></a>Factuurkortingen op verkopen berekenen
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
@@ -198,7 +192,7 @@ Zie [Kortingen instellen voor uw klanten](/learn/modules/customer-discounts-dyna
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Een verkoopregelkorting instellen voor een klant
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. Als de functie-update niet is ingeschakeld, volgt u de stappen op het tabblad Huidige ervaring.
 
-#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)  
+## <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Regelkortingen**.
@@ -209,9 +203,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 >
 > Als u prijzen of regelkortingen voor alle klanten, een klantprijsgroep of een campagne wilt instellen, moet u de pagina's vanuit een artikelkaart openen. Als alternatief kunt u voor verkoopprijzen de pagina **Verkoopprijsvoorstel** gebruiken. Zie voor meer informatie [Artikelprijzen in bulk bijwerken](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
----
-
-#### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience/)  
+## <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
 2. Kies de klant en kies vervolgens de actie **Verkoopprijslijsten**.
@@ -220,10 +212,12 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 5. Kies in het veld **Definieert** de optie **Prijs en korting** of alleen **Korting**. 
 6. Geef in het veld **Regelkorting %** het kortingspercentage op.
 
-    > [!TIP]
-    > U kunt de regels filteren door de juiste optie te kiezen in het veld **Kolommen weergeven voor**.
-    > [!NOTE]  
-    > Factuurkortingscodes worden vertegenwoordigd door bestaande klantenkaarten. Met behulp van klantnamen als codes kunt u snel factuurkortingsvoorwaarden aan klanten toewijzen door de naam van een andere klant te kiezen die dezelfde voorwaarden heeft. Om klantspecifieke kortingsvoorwaarden voor facturen in te stellen, stelt u het veld **Factuurkortingscode** in op de klantcode van de klant en gaat u verder met de volgende stap.
+   > [!TIP]
+   > U kunt de regels filteren door de juiste optie te kiezen in het veld **Kolommen weergeven voor**.   
+  
+   > [!NOTE]
+   > Factuurkortingscodes worden vertegenwoordigd door bestaande klantenkaarten. Met behulp van klantnamen als codes kunt u snel factuurkortingsvoorwaarden aan klanten toewijzen door de naam van een andere klant te kiezen die dezelfde voorwaarden heeft. Om klantspecifieke kortingsvoorwaarden voor facturen in te stellen, stelt u het veld **Factuurkortingscode** in op de klantcode van de klant en gaat u verder met de volgende stap.
+
 ---
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Een factuurkorting voor een klant instellen
@@ -243,8 +237,6 @@ Stel nu de voorwaarden voor de nieuwe verkoopfactuurkorting in.
 3. Geef in het veld **Minimumbedrag** op hoe hoog het factuurbedrag minimaal moet zijn voordat een korting wordt berekend.
 4. Voer in het veld **Korting %** de factuurkorting in als percentage van het factuurbedrag.
 5. Herhaal stap 5 tot en met 7 voor elke valuta waarvoor de klant een andere factuurkorting ontvangt.
-
----
 
 ## <a name="best-price-calculation"></a>Berekening van beste prijs
 Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen.

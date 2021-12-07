@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444807"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865350"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Velden toevoegen aan een Word-rapportlay-out
 Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeeldingen bevatten. In dit onderwerp wordt de procedure beschreven om velden uit een rapportgegevensset toe te voegen aan een bestaande Word-rapportlay-out voor een rapport. U voegt velden toe door het aangepaste Word XML-onderdeel voor het rapport te gebruiken en u voegt inhoudsbesturingselementen toe waarmee de velden worden toegewezen aan de rapportgegevensset. Het toevoegen van velden vereist dat u enige kennis van de gegevensset van het rapport hebt, zodat u kunt bepalen welke velden u aan de lay-out wilt toevoegen.  
@@ -35,7 +35,7 @@ Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeelding
   
 3.  Kies op het tabblad **Ontwikkelaar** de optie **deelvenster XML-toewijzing**.  
   
-4.  Kies in het deelvenster **XML-toewijzing**, in de vervolgkeuzelijst **Aangepast XML-onderdeel** het aangepaste XML-onderdeel voor ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> rapport, dat meestal het laatste in de lijst is. De naam van het aangepaste XML-gedeelte heeft de volgende indeling:  
+4.  Kies in het venster **XML-toewijzing** in de vervolgkeuzelijst **Aangepast XML-onderdeel** het aangepaste XML-onderdeel voor het [!INCLUDE[prod_short](includes/prod_short.md)]-rapport, dat meestal het laatste in de lijst is. De naam van het aangepaste XML-gedeelte heeft de volgende indeling:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -78,7 +78,7 @@ Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeelding
  Afbeeldingen worden in de linkerbovenhoek van het inhoudsbesturingselement uitgelijnd en de grootte ervan wordt automatisch aangepast aan het kader van het inhoudsbesturingselement.  
   
 > [!IMPORTANT]  
->  U kunt alleen afbeeldingen toevoegen die een indeling hebben die door Word wordt ondersteund (zoals .bmp, .jpeg en .png). Als u een afbeelding toevoegt met een indeling die niet door Word wordt ondersteund, treedt een fout op wanneer u het rapport uitvoert vanuit de ADD INCLUDE-<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> client.  
+>  U kunt alleen afbeeldingen toevoegen die een indeling hebben die door Word wordt ondersteund (zoals .bmp, .jpeg en .png). Als u een afbeelding toevoegt met een indeling die niet door Word wordt ondersteund, kan een fout optreden wanneer u het rapport uitvoert vanuit de [!INCLUDE[prod_short](includes/prod_short.md)]-client.  
   
 #### <a name="to-add-an-image"></a>Een afbeelding toevoegen  
   
@@ -107,7 +107,7 @@ De volgende tabel bevat een vereenvoudigd overzicht van de XML van een aangepast
 ### <a name="custom-xml-part-in-word"></a>Aangepast XML-onderdeel in Word  
  In Word opent u het aangepaste XML gedeelte in het deelvenster **XML-toewijzing** en gebruikt u het deelvenster om elementen toe te wijzen aan inhoudsbesturingselementen in het Word-document. Het deelvenster **XML-toewijzing** is toegankelijk vanaf het tabblad **Ontwikkelaar** (zie [Het tabblad Ontwikkelaar op het lint weergeven](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon) voor meer informatie).  
   
- De elementen in het deelvenster **XML-toewijzing** staan in een structuur die lijkt op de XML-bron. Labelvelden worden gegroepeerd onder een gemeenschappelijk **Labels**-element en gegevensitems en kolommen worden gerangschikt in een hiërarchische structuur die met de XML-bron overeenkomt, met de kolommen weergegeven in alfabetische volgorde. Elementen worden geïdentificeerd op basis van hun naam, zoals gedefinieerd door de eigenschap Naam in Report Dataset Designer in ADD INCLUDE.<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ De elementen in het deelvenster **XML-toewijzing** staan in een structuur die lijkt op de XML-bron. Labelvelden worden gegroepeerd onder een gemeenschappelijk **Labels**-element en gegevensitems en kolommen worden gerangschikt in een hiërarchische structuur die met de XML-bron overeenkomt, met de kolommen weergegeven in alfabetische volgorde. Elementen worden geïdentificeerd op basis van hun kolomnaam, zoals gedefinieerd in de gegevensset van het rapport, in AL-code. Zie voor meer informatie [Een rapportgegevensset definiëren](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  De volgende afbeelding illustreert het eenvoudige aangepaste XML-onderdeel uit de vorige sectie in het deelvenster **XML-toewijzing** van een Word-document.  
   

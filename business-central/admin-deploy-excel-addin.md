@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724624"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865504"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>De Business Central-invoegtoepassing voor Excel verkrijgen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] bevat een invoegtoepassing voor Excel waarmee gebruikers een **Bewerken in Excel**-actie op bepaalde pagina's kunnen selecteren om de gegevens in een Excel-werkblad te openen. Deze actie is anders dan de **Openen in Excel**-actie omdat het gebruikers in staat stelt wijzigingen aan te brengen in Excel en de wijzigingen vervolgens weer te publiceren naar [!INCLUDE[prod_short](includes/prod_short.md)]\
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat een invoegtoepassing voor Excel waarmee gebruikers een **Bewerken in Excel**-actie op bepaalde pagina's kunnen selecteren om de gegevens in een Excel-werkblad te openen. Deze actie is anders dan de actie **Openen in Excel** omdat het gebruikers in staat stelt wijzigingen aan te brengen in Excel en de wijzigingen vervolgens weer te publiceren naar [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## <a name="overview"></a>Overzicht
 
@@ -38,9 +38,9 @@ Voor de eindgebruiker is de installatie-ervaring verschillend voor de twee imple
 
 - Met individuele acquisitie wordt de eerste keer dat gebruikers de actie **Bewerken in Excel** kiezen het deelvenster **Nieuwe Office-invoegtoepassing** geopend in Excel. Om de invoegtoepassing te installeren kiest de gebruiker **Deze invoegtoepassing vertrouwen**, waardoor de invoegtoepassing rechtstreeks vanuit de Office Store wordt geïnstalleerd. Gebruikers melden zich vervolgens aan bij [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van hun gebruikersnaam en wachtwoord.
 
-- Met gecentraliseerde implementatie wordt de invoegtoepassing, wanneer gebruikers voor het eerst voor de actie **Bewerken in Excel** kiezen, automatisch geïnstalleerd in Excel vanuit gecentraliseerde implementatie; niet vanuit de Office Store. Het enige dat gebruikers hoeven te doen, is aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)]\
+- Met gecentraliseerde implementatie wordt de invoegtoepassing, wanneer gebruikers voor het eerst voor de actie **Bewerken in Excel** kiezen, automatisch geïnstalleerd in Excel vanuit gecentraliseerde implementatie; niet vanuit de Office Store. Het enige dat gebruikers hoeven te doen, is aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Met beide implementatieopties wordt de invoegtoepassing automatisch geconfigureerd om verbinding te maken met [!INCLUDE[prod_short](includes/prod_short.md)]\.Een derde implementatieoptie is een handmatige installatie van de invoegtoepassing rechtstreeks vanuit Excel. Met deze optie moeten gebruikers de invoegtoepassing configureren om verbinding te maken met [!INCLUDE[prod_short](includes/prod_short.md)]\
+Met beide implementatieopties wordt de invoegtoepassing automatisch geconfigureerd om verbinding te maken met [!INCLUDE[prod_short](includes/prod_short.md)]. Een derde implementatieoptie is een handmatige installatie van de invoegtoepassing rechtstreeks vanuit Excel. Met deze optie moeten gebruikers de invoegtoepassing configureren om verbinding te maken met [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Overschakelen van individuele acquisitie naar gecentraliseerde implementatie of andersom
 
@@ -63,13 +63,13 @@ Gecentraliseerde implementatie is een functie in het Microsoft 365-beheercentrum
 - Als u overstapt van individuele acquisitie, zie [Overschakelen van individuele acquisitie naar gecentraliseerde implementatie](#switch)
 
 > [!NOTE]
-> Het inschakelen van gecentraliseerde implementatie is van invloed op functies die gebruikmaken van de Excel-invoegtoepassing, zoals de actie **Bewerken in Excel**. Het heeft geen effect op andere Excel-gerelateerde functies en/of machtigingen die zijn toegewezen aan gebruikers in [!INCLUDE[prod_short](includes/prod_short.md)]\
+> Het inschakelen van gecentraliseerde implementatie is van invloed op functies die gebruikmaken van de Excel-invoegtoepassing, zoals de actie **Bewerken in Excel**. Het heeft geen effect op andere Excel-gerelateerde functies en/of machtigingen die zijn toegewezen aan gebruikers in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Gecentraliseerde implementatie van de invoegtoepassing instellen
 
 U werkt in [!INCLUDE[prod_short](includes/prod_short.md)] en het Microsoft 365-beheercentrum.
 
-1. Kies in [!INCLUDE[prod_short](includes/prod_short.md)]\, het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gecentraliseerde implementatie van Excel-invoegtoepassing** in en kies vervolgens de gerelateerde koppeling.
+1. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gecentraliseerde implementatie van Excel-invoegtoepassing** in en kies vervolgens de gerelateerde koppeling.
 2. Lees de informatie op de pagina **Instelling van Excel-invoegtoepassing van Business Central** en kies **Volgende**.
 3. Meld u aan bij het [Microsoft 365-beheercentrum](https://go.microsoft.com/fwlink/?linkid=2163967) en ga naar **Geïntegreerde apps**<!--**Add-ins**-->.
 
@@ -81,7 +81,7 @@ U werkt in [!INCLUDE[prod_short](includes/prod_short.md)] en het Microsoft 365-b
     5. Wacht tot het groene vinkje naast **Geïmplementeerd** verschijnt voor de invoegtoepassing en kies vervolgens **Gereed**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
        De invoegtoepassing verschijnt op de pagina **Invoegtoepassingen**. Zie voor meer informatie over het implementeren van invoegtoepassingen in het Microsoft 365-beheercentrum [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/manage-deployment-of-add-in).
-4. Ga terug naar de begeleide instelling **Gecentraliseerde implementatie van Excel-invoegtoepassing** in [!INCLUDE[prod_short](includes/prod_short.md)]\, en kies **Volgende**.
+4. Ga terug naar de begeleide instelling **Gecentraliseerde implementatie van Excel-invoegtoepassing** in [!INCLUDE[prod_short](includes/prod_short.md)] en kies **Volgende**.
 5. Zet **Gecentraliseerde implementatie gebruiken** aan en kies **Voltooien**.
 
     Als u deze schakelaar niet aanzet, haalt [!INCLUDE[prod_short](includes/prod_short.md)] de invoegtoepassing rechtstreeks uit de Office Store.
@@ -114,7 +114,7 @@ Als een gebruiker niet automatisch verbinding kan maken, kunt u de blokkering op
 4. Meld u wanneer daarom wordt gevraagd, aan met uw Business Central-gebruikersnaam en -wachtwoord.
 5. Kies desgewenst de omgeving en het bedrijf waarmee u verbinding wilt maken.
 
-De invoegtoepassing is nu verbonden met [!INCLUDE [prod_short](includes/prod_short.md)]\, en u kunt gegevens bewerken en de wijzigingen publiceren naar [!INCLUDE [prod_short](includes/prod_short.md)]\. 
+De invoegtoepassing is nu verbonden met [!INCLUDE [prod_short](includes/prod_short.md)] en u kunt gegevens bewerken en de wijzigingen publiceren naar [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Apparaten en netwerk voorbereiden voor de Excel-invoegtoepassing
 
@@ -127,9 +127,9 @@ Soms ondervinden gebruikers problemen met de Excel-invoegtoepassing. Dit gedeelt
 |Verzenden  |Oplossing of tijdelijke oplossing  |Opmerkingen  |
 |---------|---------|---------|
 |De invoegtoepassing start niet|Controleer of de invoegtoepassing centraal wordt geïmplementeerd. Of controleer of de gebruiker is geblokkeerd tegen lokale installatie. | De beheerder kan Office zo configureren dat gebruikers geen invoegtoepassingen kunnen verkrijgen. In die gevallen moet de beheerder de invoegtoepassing centraal implementeren. Voor meer informatie zie [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
-|Gegevens worden niet in Excel geladen|Test de verbinding door een andere lijst in Excel te openen vanuit [!INCLUDE [prod_short](includes/prod_short.md)]\. Of open de werkmap in Excel in een browser.|Als de gebruiker een bedrijfsnaam heeft opgegeven die speciale tekens bevat, kan de invoegtoepassing geen verbinding maken. |
-|Gegevens kunnen niet terug worden gepubliceerd naar [!INCLUDE [prod_short](includes/prod_short.md)]\.|Test de verbinding door de werkmap in Excel in een browser te openen. |Soms kan een extensie de publicatietaak blokkeren. Als de pagina is uitgebreid of aangepast, verwijdert u de extensies en probeert u het opnieuw.|
-|De datums zijn fout  |Excel toont mogelijk tijden en datums in een ander formaat dan [!INCLUDE [prod_short](includes/prod_short.md)]\. Ze zijn echter niet verkeerd en de gegevens in [!INCLUDE [prod_short](includes/prod_short.md)]\ blijven intact.|         |
+|Gegevens worden niet in Excel geladen|Test de verbinding door een andere lijst in Excel te openen vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. Of open de werkmap in Excel in een browser.|Als de gebruiker een bedrijfsnaam heeft opgegeven die speciale tekens bevat, kan de invoegtoepassing geen verbinding maken. |
+|Gegevens kunnen niet terug worden gepubliceerd naar [!INCLUDE [prod_short](includes/prod_short.md)].|Test de verbinding door de werkmap in Excel in een browser te openen. |Soms kan een extensie de publicatietaak blokkeren. Als de pagina is uitgebreid of aangepast, verwijdert u de extensies en probeert u het opnieuw.|
+|De datums zijn fout  |Excel toont mogelijk tijden en datums in een ander formaat dan [!INCLUDE [prod_short](includes/prod_short.md)]. Ze zijn echter niet verkeerd en de gegevens in [!INCLUDE [prod_short](includes/prod_short.md)] blijven intact.|         |
 |Voor sommige lijstpagina's veroorzaakt het bewerken van meerdere regels in Excel consequent fouten. Dit kan optreden als OData-aanroepen FlowFields en velden buiten het repeaterbesturingselement bevatten.|Selecteer op de pagina **Webservices** de selectievakjes **Niet-bewerkbare FlowFields uitsluiten** en **Velden buiten de repeater uitsluiten** voor de gepubliceerde pagina. Door deze selectievakjes in te schakelen worden niet-bewerkbare FlowFields en velden uitgesloten van de eTag-berekening. |Deze selectievakjes zijn standaard verborgen. Om ze te laten zien op de pagina **Webservices**, gebruikt u [personalisatie](/dynamics365/business-central/ui-personalization-user). |
 
 
@@ -162,7 +162,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 When the add-in is installed, it shows up as a panel in Excel. Next, you must configure the connection.
 
 > [!TIP]
-> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)]\.When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
+> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)].When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
 
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
