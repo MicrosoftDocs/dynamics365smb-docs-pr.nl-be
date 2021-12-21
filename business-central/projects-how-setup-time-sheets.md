@@ -1,6 +1,6 @@
 ---
 title: Urenstaten en de goedkeuring ervan instellen
-description: U stelt urenstaten in om de tijd te traceren die in projecten en resources wordt gebruikt, wat u helpt bij projectbeheer, personeelsbezetting en capaciteit
+description: U stelt urenstaten in om de tijd te traceren die in taken en projecten wordt gebruikt, wat u helpt bij projectbeheer, personeelsbezetting en capaciteit
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.date: 10/01/2021
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 72618aaeddae0a72a0c699f19a04a388ced0b9c1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589219"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920992"
 ---
 # <a name="set-up-time-sheets"></a>Urenstaten instellen
 
-Urenstaten in [!INCLUDE[prod_short](includes/prod_short.md)] verwerken tijdsregistraties in wekelijkse termijnen van zeven dagen. U gebruikt ze om de tijd te volgen die aan projecten wordt besteed en u kunt ze gebruiken om eenvoudige registratie van resourcetijd vast te leggen. Voordat u urenstaten kunt gebruiken, moet u opgeven hoe u wilt dat ze worden ingesteld en geconfigureerd.
+Urenstaten in [!INCLUDE[prod_short](includes/prod_short.md)] verwerken tijdsregistraties in wekelijkse termijnen van zeven dagen. U kunt ze gebruiken om de tijd te volgen die aan projecten wordt besteed en u kunt ze gebruiken om eenvoudige registratie van resourcetijd vast te leggen. Voordat u urenstaten kunt gebruiken, moet u specificeren welke gebruikers urenstaten moeten indienen en hoe u urenstaten wilt configureren.  
 
-Nadat u hebt ingesteld hoe uw organisatie urenstaten gaat gebruiken, kunt u opgeven of en hoe urenstaten worden goedgekeurd. Afhankelijk van de wensen van uw organisatie kunt u het volgende aangeven:
+> [!TIP]
+> In [!INCLUDE [prod_short](includes/prod_short.md)] zijn de gebruikers van urenstaten *resources*. Zo kunt u urenstaten gebruiken om bijvoorbeeld het werk van niet-werknemers bij te houden. Om het werk van uw eigen werknemers bij te houden of om urenstaten te gebruiken om de afwezigheid van werknemers bij te houden, moet u *medewerkers* koppelen aan *resources*.  
+
+Geef desgewenst op of en hoe urenstaten worden goedgekeurd. Afhankelijk van de wensen van uw organisatie kunt u het volgende aangeven:
 
 * Een of meer gebruikers als urenstatenbeheerders en fiatteurs voor alle urenstaten.
 * Een urenstaatgoedkeurder voor elke resource.
 
-Wanneer u urenstaten hebt ingesteld, kunt u urenstaten maken voor resources, ze toewijzen een projectplanningsregels en urenstaatregels boeken. Zie [Urenstaten gebruiken](projects-how-use-time-sheets.md) voor meer informatie.  
+Wanneer u urenstaten hebt ingesteld, kunt u urenstaten maken voor resources en de resources kunnen urenstaatregels boeken. Wijs desgewenst urenstaten toe aan projectplanningsregels. Zie [Urenstaten gebruiken](projects-how-use-time-sheets.md) voor meer informatie.  
 
 ## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Urenstaten instellen met de begeleide instelling
 
@@ -42,6 +45,8 @@ Vanaf releasewave 2 van 2021 kunt u een begeleide instelling gebruiken om u te h
 De begeleide instelling leidt u door de volgende stappen:
 
 1. De deelnemers in de urenstaatprocessen instellen
+
+    Op de eerste pagina van de gids ziet u het aantal gebruikers in uw [!INCLUDE [prod_short](includes/prod_short.md)]. Het toont ook andere vereiste en optionele informatie.  
 2. De eerste dag van een werkweek in deze organisatie opgeven
 
     De eerste dag van een werkweek is de standaard eerste dag voor alle urenstaten.
@@ -50,10 +55,7 @@ De begeleide instelling leidt u door de volgende stappen:
     Deze persoon kan alle urenstaten bewerken en verwijderen. Voeg optioneel dezelfde rol toe aan andere mensen op de pagina **Gebruikersinstellingen**.
 4. De resources instellen die urenstaten gebruiken en de mensen die urenstaten goedkeuren
 
-    > [!NOTE]
-    > Voor projecten en taken zijn de gebruikers van urenstaten *bronnen*, geen werknemers. Dus om het werk van uw werknemers te kunnen volgen, moet u resources koppelen aan werknemers in de begeleide instelling.
-
-Aan het einde van de begeleide instelling kunt u ervoor kiezen om [!INCLUDE [prod_short](includes/prod_short.md)] urenstaten te laten maken op basis van uw configuratie. U kunt ook de begeleide instelling opnieuw uitvoeren of de installatie handmatig voltooien.  
+Aan het einde van de begeleide instelling kunt u ervoor kiezen om [!INCLUDE [prod_short](includes/prod_short.md)] urenstaten te laten maken op basis van uw configuratie. Bekijk de nieuwe urenstaten op de pagina **Urenstaten**, die u [hier](https://businesscentral.dynamics.com/?page=951) kunt openen. U kunt ook de begeleide instelling opnieuw uitvoeren of de installatie handmatig voltooien.  
 
 ## <a name="set-up-time-sheets-manually"></a>Urenstaten handmatig instellen
 

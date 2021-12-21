@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701577"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889848"
 ---
 # <a name="create-prepayment-invoices"></a>Vooruitbetalingsfacturen maken
 
@@ -47,6 +47,9 @@ In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een ver
 
     Als u een standaard vooruitbetalingspercentage heeft opgegeven voor de klant of op het sneltabblad **Vooruitbetaling** voor dit document, wordt deze waarde naar elke regel gekopieerd. U kunt de inhoud van het veld **Vooruitbetaling %** op de regel wijzigen.  
 
+    > [!TIP]
+    > Als u het veld **Vooruitbetaling %** niet ziet, kunt u het toevoegen via personalisatie.  Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
+
 4. Als u het totale vooruitbetalingsbedrag wilt weergeven, kiest u de actie **Statistieken**.
 
     Als u het totale vooruitbetaalde bedrag voor de order wilt aanpassen, kunt u de inhoud van het veld **Vooruitbetaling** op de pagina **Verkooporderstatistiek** wijzigen.  
@@ -72,7 +75,8 @@ U kunt extra vooruitbetalingsnota's verzenden voor de order. Verhoog hiervoor he
 [Vooruitbetalingen factureren](finance-invoice-prepayments.md)  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Uw werkruimte personaliseren](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

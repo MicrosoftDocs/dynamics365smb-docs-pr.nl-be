@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701535"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889855"
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
+
 Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie Vooruitbetaling gebruiken. Met de functionaliteit voor vooruitbetalingen kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers, en ervoor zorgen dat alle gedeeltelijke betalingen worden geboekt tegen een factuur. Zie voor meer informatie [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md).
 
 Voor u vooruitbetalingsfacturen kunt boeken, moet u de boekingsrekening instellen in het grootboek en moet u nummerreeksen instellen voor de vooruitbetalingsdocumenten. U moet een account opgeven voor vooruitbetalingen met betrekking tot verkopen en een account voor vooruitbetalingen met betrekking tot aankopen. U kunt dezelfde boekingsrekeningen opgeven die moeten worden gebruikt voor alle vooruitbetalingen die betrekking hebben op alle algemene bedrijfsboekingsgroepen of algemene productboekingsgroepen, of u kunt specifieke accounts voor specifieke boekingsgroepen opgeven voor respectievelijk verkoop en inkoop. Dit is afhankelijk van de vereisten van uw bedrijf voor het bijhouden van vooruitbetalingen.  
@@ -23,6 +24,7 @@ U kunt het percentage van het regelbedrag definiëren dat wordt gefactureerd voo
 
 > [!NOTE]
 > We raden u aan om in de volgende gevallen geen vooruitbetalingspercentage van 100% te hanteren:
+>
 > * Als u zich in Noord-Amerika bevindt. Vanwege de manier waarop belastingen worden berekend, kan een vooruitbetalingspercentage van 100% leiden tot problemen met vooruitbetalingsfacturen.
 > * In alle regio's, als u handmatig een contantkorting van de factuur aftrekt. Bij een vooruitbetalingspercentage van 100% blijft er niet automatisch een bedrag over waarvan de korting kan worden afgetrokken. 
 
@@ -33,10 +35,10 @@ Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of d
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Vooruitbetalingsrekeningen toevoegen aan de boekingsgroepinstellingen  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Boekingsgroepinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Op de pagina **Boekingsgroepinstellingen** vult u de volgende velden in:  
+2. Vul op de pagina **Boekingsgroepinstellingen** de volgende velden in voor de relevante regels:  
 
-    - **Vooruitbetalingsrekening verkoop**  
-    - **Vooruitbetalingsrekening inkoop**  
+    * **Vooruitbetalingsrekening verkoop**  
+    * **Vooruitbetalingsrekening inkoop**  
 
 > [!TIP]
 > Als u de velden niet kunt zien op de pagina **Boekingsgroepinstellingen**, gebruikt u de horizontale schuifbalk onder aan de pagina om naar rechts te schuiven.  
@@ -46,16 +48,16 @@ Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Nummerreeks instellen voor vooruitbetalingsdocumenten  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul op de pagina **Instellingen van verkoop en tegoeden** de volgende velden in:  
+2. Vul op de pagina **Verkoopinstellingen** op het sneltabblad **Nummerreeks** de volgende velden in:  
 
-   - **Geboekte vooruitbetalingsfactuurnrs.**
-   - **Geboekte vooruitbetalingscreditnotanrs.**
+   * **Geboekte vooruitbetalingsfactuurnrs.**
+   * **Geboekte vooruitbetalingscreditnotanrs.**
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul op de pagina **Inkoopinstellingen** de volgende velden in:
+3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
+4. Vul op de pagina **Inkoopinstellingen** op het sneltabblad **Nummerreeks** de volgende velden in:
 
-    - **Geboekte vooruitbetalingsfactuurnrs.**
-    - **Geboekte vooruitbetalingscreditnotanrs.**
+    * **Geboekte vooruitbetalingsfactuurnrs.**
+    * **Geboekte vooruitbetalingscreditnotanrs.**
 
 > [!NOTE]  
 > U kunt dezelfde nummerreeks gebruiken voor vooruitbetalingsnota's en normale facturen, of u kunt verschillende nummerreeksen gebruiken. Als u verschillende reeksen gebruikt, mogen deze elkaar niet overlappen omdat er geen nummers mogen zijn die in beide reeksen voorkomen.  
@@ -74,6 +76,9 @@ Voor een klant of leverancier kunt u één standaardvooruitbetalingspercentage i
 2. Open de kaart voor een klant.
 3. Vul het veld **Vooruitbetaling %** in.
 4. Herhaal de stappen voor andere voor klanten of leveranciers.  
+
+> [!TIP]
+> U kunt ook toegang krijgen tot de pagina **Inkoopinstellingen** van de klanten- of leverancierskaart.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Bepalen welk vooruitbetalingspercentage de hoogste prioriteit heeft  
 

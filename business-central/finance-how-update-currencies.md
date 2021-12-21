@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 44dd13f986098283d29e58d3e8c4ce0218b4a083
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660193"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921070"
 ---
 # <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
 
@@ -174,9 +174,12 @@ De herwaarderingsposten krijgen de standaarddimensies toegewezen van de rekening
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Een wisselkoersservice instellen
-U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, zoals FloatRates.
+U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, zoals FloatRates. 
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Valutawisselkoersservices** in en kies vervolgens de gerelateerde koppeling.
+> [!NOTE]
+> De meeste wisselkoersservices bieden gegevens die compatibel zijn met het importproces in [!INCLUDE[prod_short](includes/prod_short.md)]. Soms zijn de gegevens echter anders opgemaakt en moet u uw importproces aanpassen. U kunt hiervoor het raamwerk voor gegevensuitwisseling gebruiken door uw eigen codeunit toe te voegen. U hebt waarschijnlijk wat hulp van een ontwikkelaar nodig om dat te doen. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Valutawisselkoersservices** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul op de pagina **Valutawisselkoersservice** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Zet de schakelaar **Ingeschakeld** aan om de service in te schakelen.

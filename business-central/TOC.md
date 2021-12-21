@@ -684,7 +684,7 @@
 ### [Projectrapporten](project-reports.md)
 ### [Projecten maken](projects-how-create-jobs.md)
 ### [Resources gebruiken voor projecten](projects-how-use-resources.md)
-### [Urenstaten gebruiken voor projecten](projects-how-use-time-sheets.md)
+### [Urenstaten gebruiken](projects-how-use-time-sheets.md)
 ### [Projectbudgetten maken](projects-how-manage-budgets.md)
 ### [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md)
 ### [Projectvoorraden beheren](projects-how-manage-project-supplies.md)
