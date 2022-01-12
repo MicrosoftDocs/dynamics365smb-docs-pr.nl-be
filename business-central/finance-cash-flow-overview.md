@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.date: 12/20/2021
 ms.author: edupont
 ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724824"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940213"
 ---
 # <a name="cash-flow-overview"></a>Cashflowoverzicht
 
@@ -26,7 +26,7 @@ Cash in en cash uit begrijpen is de sleutel tot een succesvol bedrijf. Cashflow 
 
 De term *cashflow* wordt gebruikt voor ontvangsten min contante betalingen gedurende een geselecteerde periode. Het is een schatting van de waarde van de geldstromen naar en uit uw bedrijf met daarin opgenomen de geraamde inkomsten en uitgaven.
 
-## <a name="cash-flow-overview"></a>Cashflowoverzicht
+## <a name="work-with-cash-flow"></a>Werken met cashflow
 
 In de volgende afbeelding ziet u een overzicht van hoe u met de cashflow kunt werken.
 
@@ -74,7 +74,10 @@ Nettocashflow of contanten in voorraad worden berekend als de totale ontvangsten
 De prognose kan vervolgens worden gebruikt als een hulpmiddel voor het nemen van interne managementbeslissingen. Ook u helpt de prognose u vooruit te plannen en bij het nemen van belangrijke strategische beslissingen over de bedrijfsvoering.
 
 ## <a name="see-also"></a>Zie ook
+
 [Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md)  
-[Cashflow analyseren](finance-analyze-cash-flow.md)
+[Cashflow analyseren](finance-analyze-cash-flow.md)  
+[Een prognose van uw cashflow geven in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Cashflowprognoses instellen met Azure AI in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

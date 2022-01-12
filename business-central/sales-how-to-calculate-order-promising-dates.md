@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: b7f23153fe59451b6fc943b0e1115ae0bc895b7c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7d7493f0bada0796ee910ca8df01465c3086cd2
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442762"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940513"
 ---
 # <a name="calculate-order-promising-dates"></a>Ordertoezeggingsdatums berekenen
 Een bedrijf moet de klanten op de hoogte kunnen stellen van leverdatums van orders. Met de pagina **Ordertoezeggingsregels** kunt u dit doen vanuit een verkooporder.  
 
-Op basis van de bekende en verwachte beschikbaarheidsdatums van een item berekent [!INCLUDE[prod_short](includes/prod_short.md)] onmiddellijk verzend- en leverdatums, die vervolgens aan de klant kunnen worden toegezegd.  
+Op basis van de bekende en verwachte beschikbaarheidsdatums van een item berekent [!INCLUDE[prod_short](includes/prod_short.md)] verzend- en leverdatums die u aan klanten kunt toezeggen.  
 
 Als u een aangevraagde leverdatum op een verkooporderregel plaatst, wordt automatisch deze datum gebruikt als uitgangspunt voor de volgende berekeningen:  
 
@@ -43,7 +43,7 @@ Met de functionaliteit Ordertoezegging kunt u orders toezeggen, die op een bepaa
 - Capable to promise (CTP)  
 
 ### <a name="available-to-promise"></a>Available to Promise  
-Available to promise (ATP, ook wel aangeduid als 'Beschikbare voorraad') berekent datums op basis van het reserveringssysteem. Het voert een beschikbaarheidscontrole uit van de niet-gereserveerde aantallen in voorraad met betrekking tot de geplande productie, inkoop, transfers en verkoopretouren. Op basis van deze informatie berekent [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de leverdatum van de order van de klant, omdat de artikelen beschikbaar zijn in voorraad of na geplande ontvangsten.  
+Available to promise (ATP, ook wel aangeduid als 'Beschikbare voorraad') berekent datums op basis van het reserveringssysteem. Het voert een beschikbaarheidscontrole uit van de niet-gereserveerde aantallen in voorraad met betrekking tot de geplande productie, inkoop, transfers en verkoopretouren. Op basis van deze informatie berekent [!INCLUDE[prod_short](includes/prod_short.md)] de leverdatum van de order van de klant, omdat de artikelen beschikbaar zijn in voorraad of na geplande ontvangsten.  
 
 ### <a name="capable-to-promise"></a>Capable to Promise  
 Capable to promise (CTP) gaat uit van een 'wat als'-scenario, dat uitsluitend van toepassing is op artikelaantallen die niet in voorraad zijn of op geplande orders staan. Op basis van dit scenario berekent [!INCLUDE[prod_short](includes/prod_short.md)] de vroegste datum waarop het artikel beschikbaar wordt als het wordt geproduceerd, gekocht of overgebracht.
@@ -92,38 +92,20 @@ Naast de externe ordertoezegging die u kunt uitvoeren op de pagina **Ordertoezeg
 4. Voer in het veld **Ordertoezeggingssjabloon** een ordertoezeggingsjabloon in door een regel te selecteren in het overzicht op de pagina **Overzicht ink.-voorstelsjabl.**  
 5. Voer in het veld **Ordertoezeggingsvoorstel** een inkoopvoorstel in door een regel te selecteren in het overzicht op de pagina **Inkoopvoorstelbatches**.
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Inslagtijd invoeren op de pagina met de voorraadinstellingen  
-Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op de inkoopregel, kunt u deze instellen als standaardwaarde voor de voorraad en de vestiging.    
+### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>In- en uitslagtijden in ordertoezeggingen  
+Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op de inkoopregel, kunt u op de pagina **Voorraadinstellingen** een standaardverwerkingstijd voor gebruik in verkoop- en inkoopdocumenten opgeven. Op de pagina **Locatiekaart** kunt u ook specifieke tijden invoeren voor elk van uw locaties. 
+
+#### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Standaardinslagtijd en -uitslagtijd invoeren voor verkoop- en inkoopdocumenten
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-2. Voer in het veld **Inslagtijd** op het sneltabblad **Algemeen** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
+2. Voer in de velden **Inslagtijd** en **Uitslagtijd** op het sneltabblad **Algemeen** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezeggingsberekeningen.  
 
-> [!NOTE]  
->  Als u het veld **Inslagtijd** op de **vestigingskaart** hebt ingevuld voor de vestiging, wordt de inhoud van het veld gebruikt als standaardinslagtijd.  
-
-### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Inslagtijd invoeren op vestigingskaarten  
+#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>In- en uitslagtijden invoeren voor locaties  
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locatie** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de relevante vestigingskaart.  
-3.  Voer in het veld **Inslagtijd** op het sneltabblad **Algemeen** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
+3.  Voer in de velden **Inslagtijd** en **Uitslagtijd** op het sneltabblad **Magazijn** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezeggingsberekeningen.  
 
 > [!NOTE]  
->  Als u het veld **Inslagtijd** leeg laat, wordt voor de berekening de waarde op de pagina **Voorraadinstellingen** gebruikt.
-
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Uitslagtijd invoeren op de pagina met de voorraadinstellingen  
-Als u een uitslagtijd wilt instellen voor de berekening van de ordertoezegging op de verkoopregel, kunt u deze instellen als standaardwaarde voor de voorraad.
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-2. Voer in het veld **Uitslagtijd** op het sneltabblad **Algemeen** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
-
-> [!NOTE]  
->  Als u het veld **Uitslagtijd** op de vestigingskaart hebt ingevuld voor de vestiging, wordt de inhoud van het veld gebruikt als standaarduitslagtijd.  
-
-### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Uitslagtijd invoeren op vestigingskaarten  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
-2.  Open de relevante vestigingskaart.  
-3.  Voer in het veld **Uitslagtijd** op het sneltabblad **Magazijn** het aantal dagen in dat u wilt opnemen in de berekening van de ordertoezegging.  
-
-> [!NOTE]  
->  Als u het veld **Uitslagtijd** leeg laat, wordt voor de berekening de waarde op de pagina **Voorraadinstellingen** gebruikt.
+>  Wanneer u een inkooporder maakt en **Locatie** in het veld **Verzenden naar** op het sneltabblad **Verzending en betaling** kiest en vervolgens een locatie in het veld **Locatiecode** kiest, gebruiken de velden **Uitslagtijd** en **Inslagtijd** de verwerkingstijd die is opgegeven voor de locatie. Voor verkooporders geldt hetzelfde als u een locatie kiest in het veld **Locatiecode**. Als er voor de locatie geen verwerkingstijd is opgegeven, zijn de velden **Uitslagtijd** en **Inslagtijd** leeg. Als u het veld **Locatiecode** leeg laat in verkoop- en inkoopdocumenten, wordt voor de berekening de verwerkingstijd op de pagina **Voorraadinstellingen** gebruikt.
 
 ## <a name="to-make-an-item-critical"></a>Artikelen als kritiek aanmerken  
 Voordat u een artikel in de ordertoezeggingsberekening kunt opnemen, moet het zijn gemarkeerd als kritiek. Deze instellingen zorgen dat de niet-kritieke artikelen niet leiden tot irrelevante ordertoezeggingsberekeningen   
@@ -132,7 +114,7 @@ Voordat u een artikel in de ordertoezeggingsberekening kunt opnemen, moet het zi
 3.  Selecteer op het sneltabblad **Planning** het veld **Kritisch**.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Een ordertoezeggingsdatum berekenen  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporder** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporder** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de betreffende verkooporder en selecteer de verkooporderregels die moeten worden berekend.  
 3.  Kies de actie **Ordertoezegging** en kies daarna de actie **Ordertoezeggingsregels**.  
 4.  Selecteer een regel en selecteer vervolgens een van de volgende opties:  

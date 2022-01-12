@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4671954cd059360e4f16db5cb4a4faf3ce01aff4
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442322"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949082"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Ontwerpdetails: Reservering, ordertracering en planningsboodschappen
 Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parallelle functies van ordertracering en planningsboodschappen.  
@@ -111,7 +111,7 @@ Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parall
 
  Dit principe geeft aan dat een wijziging in de vraagresultaten ertoe leidt dat de voorzieningenzijde van het ordernetwerk niet meer in evenwicht is. Andersom leidt een wijziging in voorzieningenresultaten tot een corresponderende onbalans aan de vraagzijde van het ordernetwerk. In werkelijkheid bevindt het ordernetwerk zich in een constante stroom terwijl gebruikers orders invoeren, wijzigen en verwijderen. Tijdens ordertracering worden orders dynamisch verwerkt, in reactie op elke wijziging op het moment dat deze het systeem binnenkomt en onderdeel wordt van het ordernetwerk. Zodra nieuwe ordertraceringsrecords worden gemaakt, is het ordernetwerk in balans, maar slechts tot de volgende wijziging zich voordoet.  
 
- Om de transparantie te verhogen van berekeningen in het planningssysteem, wordt op de pagina **Niet-getraceerde planningselementen** niet-getraceerde aantallen weergegeven, die het verschil in aantal aangeven tussen bekende vraag en voorgestelde voorziening. Elke regel op de pagina verwijst naar de oorzaak van het bovenmatige aantal, bijvoorbeeld **Raamcontract**, **Veiligheidsvoorraadniveau**, **Vast bestelaantal**, **Min. bestelaantal**, **Afronding** of **Demping**.  
+ Om de transparantie te verhogen van berekeningen in het planningssysteem, worden op de pagina **Niet-getraceerde planningselementen** niet-getraceerde aantallen weergegeven, die het verschil in aantal aangeven tussen bekende vraag en voorgestelde voorziening. Elke regel op de pagina verwijst naar de oorzaak van het bovenmatige aantal, bijvoorbeeld **Raamcontract**, **Veiligheidsvoorraadniveau**, **Vast bestelaantal**, **Min. bestelaantal**, **Afronding** of **Demping**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Compenseren in ordertracering  
  In tegenstelling tot reserveringen, die alleen kunnen worden gedaan op basis van beschikbare artikelaantallen, is ordertracering mogelijk op basis van alle ordernetwerkentiteiten die deel uitmaken van de berekening van nettovereisten van het planningssysteem. De nettobehoeften worden als volgt berekend:  

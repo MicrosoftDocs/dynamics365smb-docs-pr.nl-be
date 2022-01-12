@@ -1,5 +1,5 @@
 ---
-title: Een leverancierskaart maken om een nieuwe leverancier te registreren
+title: Een leverancierskaart maken om nieuwe leveranciers te registreren (bevat video)
 description: In dit onderwerp leert u hoe u een leverancierskaart maakt om een nieuwe leverancier te registreren en leverancierskaarten als sjabloon op te slaan.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 85842f5883b17d7386f65367efec4aa6dfea2b11
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587696"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939913"
 ---
 # <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
 

@@ -1,5 +1,5 @@
 ---
-title: Voorkeursmethoden voor verzending van verkoopdocumenten instellen | Microsoft Docs
+title: Voorkeursmethoden voor verzending van verkoopdocumenten instellen (bevat video) | Microsoft Docs
 description: Beschrijft hoe u voor elke klant de voorkeursmethode voor het verzenden van verkoopdocumenten instelt, bijvoorbeeld e-mailadres, PDF, elektronisch document, enzovoort.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b91a1c0566b6fb4736093ca9617a5a1566bf2bf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 676ac7ac1fb9f267221acc50e5b5f812b8460250
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436688"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939889"
 ---
 # <a name="set-up-document-sending-profiles"></a>Verzendprofielen van documenten instellen
 U kunt elke klant instellen met een voorkeursmethode voor de verzending van verkoopdocumenten, zodat u niet elke keer dat u de actie **Boeken en verzenden** kiest een verzendoptie hoeft te selecteren.

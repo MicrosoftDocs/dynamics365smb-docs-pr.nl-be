@@ -1,5 +1,5 @@
 ---
-title: Vaste activa beheren
+title: Vaste activa beheren (bevat video)
 description: Leren over de vaste-activafunctionaliteit en een overzicht krijgen van hoe u met vaste activa werkt en deze beheert.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6d6cf9a0efeca2c484d0fd2e1ce06db63f2ac91f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0022ae0c13009108064d758fdd0d6f4894b12bad
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323239"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940588"
 ---
 # <a name="managing-fixed-assets"></a>Vaste activa beheren
 De functionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.

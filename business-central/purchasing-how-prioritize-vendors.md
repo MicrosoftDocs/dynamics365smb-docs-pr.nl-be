@@ -1,5 +1,5 @@
 ---
-title: Een prioriteitsniveau toewijzen aan een leverancier | Microsoft Docs
+title: Een prioriteitsniveau toewijzen aan een leverancier (bevat video) | Microsoft Docs
 description: U kunt nummers toewijzen aan uw leveranciers om deze te prioriteren en betalingsvoorstellen in Business Central te vergemakkelijken.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d83fe736298e4cae3b6b86a495e0567057df2cc5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7e68c56422f4f3de33006297ec396fdd34169e8d
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443306"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940063"
 ---
 # <a name="prioritize-vendors"></a>De prioriteit van leveranciers bepalen
 [!INCLUDE[prod_short](includes/prod_short.md)] heeft een functie die voorstellen kan doen voor betalingen aan leveranciers, bijvoorbeeld bij betalingen die binnenkort moeten worden betaald, of als voor een betaling een korting mogelijk is. Zie voor meer informatie [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md).

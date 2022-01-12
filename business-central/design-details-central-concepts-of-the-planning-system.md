@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3c459ab6c4056b40c5e83db70a0cafab48359a1
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442497"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949106"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Ontwerpdetails: Centrale begrippen van het planningssysteem
 
@@ -87,7 +87,7 @@ Zie voor meer informatie [Ordertraceringskoppelingen tijdens planning](design-de
 
 Bij het vaststellen van een plan is de volgorde van de berekeningen belangrijk om de taak binnen een redelijke tijd te voltooien. Bovendien speelt de prioriteitsvolgorde van vereisten en resources een belangrijke rol in het behalen van de beste resultaten.  
 
-Het planningssysteem in [!INCLUDE[prod_short](includes/prod_short.md)] wordt gestuurd door de vraag. Artikelen op hoog niveau moeten worden gepland vóór artikelen op laag niveau, omdat de planning voor artikelen op hoog niveau aanvullende vraag kan genereren voor de artikelen op het lagere niveau. Dit betekent bijvoorbeeld dat detailhandelvestigingen moeten worden gepland voordat distributiecentra worden gepland, omdat het plan voor een detailhandelvestiging extra vraag voor het distributiecentrum kan inhouden. Op een gedetailleerd afstemmingsniveau betekent dit ook dat een verkooporder niet tot een nieuwe voorzieningenorder moet leiden als een reeds bestaande voorzieningenorder aan de verkooporder kan voldoen. Zo moet een voorziening met een specifiek lotnummer ook niet worden toegewezen om aan algemene vraag te voldoen als er andere vraag bestaat die deze specifieke lot vereist.  
+Het planningssysteem in [!INCLUDE[prod_short](includes/prod_short.md)] wordt gestuurd door de vraag. Artikelen op hoog niveau moeten worden gepland vóór artikelen op laag niveau, omdat de planning voor artikelen op hoog niveau aanvullende vraag kan genereren voor de artikelen op het lagere niveau. Dit betekent bijvoorbeeld dat detailhandelvestigingen moeten worden gepland voordat distributiecentra worden gepland, omdat het plan voor een detailhandelvestiging extra vraag voor het distributiecentrum kan inhouden. Op een gedetailleerd afstemmingsniveau betekent dit ook dat een verkooporder niet tot een nieuwe voorzieningenorder moet leiden als een bestaande voorzieningenorder aan de verkooporder kan voldoen. Zo moet een voorziening met een specifiek lotnummer ook niet worden toegewezen om aan algemene vraag te voldoen als er andere vraag bestaat die deze specifieke lot vereist.  
 
 ### <a name="item-priority--low-level-code"></a>Prioriteit/low-levelcode artikel
 
@@ -122,7 +122,7 @@ Zie [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning
 
 ### <a name="order-priority"></a>Orderprioriteit
 
-Binnen een bepaalde SKU staat de verzochte of beschikbare datum voor de hoogste prioriteit; de vraag van vandaag moet worden verwerkt vóór de vraag van de eerstvolgende dagen. Afgezien van dit soort prioriteit worden de verschillende soorten vraag en aanbod gesorteerd op basis van bedrijfsbelang om te beslissen aan welke vraag moet worden voldaan voordat aan andere vraag kan worden voldaan. Voor de aanbodzijde geeft de orderprioriteit aan welke voorzieningenbron moet worden toegepast voordat andere voorzieningenbronnen worden toegepast.  
+Binnen een bepaalde SKU staat de verzochte of beschikbare datum voor de hoogste prioriteit; de vraag van vandaag moet worden verwerkt vóór de vraag van de eerstvolgende dagen. Afgezien van dit type prioriteit worden de verschillende soorten vraag en aanbod gesorteerd op basis van bedrijfsbelang om te beslissen aan welke vraag moet worden voldaan voordat aan andere vraag kan worden voldaan. Voor de aanbodzijde geeft de orderprioriteit aan welke voorzieningenbron moet worden toegepast voordat andere voorzieningenbronnen worden toegepast.  
 
 Zie [Orders in prioriteitsvolgorde plaatsen](design-details-balancing-demand-and-supply.md#prioritizing-orders) voor meer informatie.  
 

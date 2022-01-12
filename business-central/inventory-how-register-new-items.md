@@ -1,5 +1,5 @@
 ---
-title: Artikelkaarten maken voor goederen of services
+title: Artikelkaarten maken voor goederen of services (bevat video)
 description: U maakt artikelkaarten voor services die u als uren en voor fysieke producten verkoopt, zoals componenten, gereedgemelde goederen die u uit uw voorraad verkoopt.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 34a7c73cd82d63a2ca5b549e7d1cedf582a32465
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 8768b1fc213b423b627dcbcc995be4bbcaf09d00
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587721"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940338"
 ---
 # <a name="register-new-items"></a>Nieuwe artikelen registreren
 

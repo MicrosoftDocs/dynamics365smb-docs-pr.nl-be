@@ -12,27 +12,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2541f509d02a584620c83903c3b92983aba1c2a8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0fc31469d13c0c84a7357ae99929d6efb30bbb47
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322806"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949072"
 ---
 # <a name="about-item-types"></a>Over artikeltypen
-In het veld **Soort** op de pagina **Artikel** kunt u selecteren waarvoor het artikel in uw bedrijf wordt gebruikt en dus hoe het wordt beheerd in het systeem. Er zijn drie opties:
+In het veld **Soort** op de pagina **Artikelkaart** kunt u selecteren waarvoor het artikel in uw bedrijf wordt gebruikt. Dit heeft invloed op de mate waarin u het artikel kunt beheren in de voorraad. In de volgende tabel worden de drie soorten artikelen vermeld en beschreven die beschikbaar zijn.
 
 |Optie|Gebruikelijk doel|
 |------|-----------|
-|Voorraad|Een fysieke eenheid, bijvoorbeeld een fiets, voor volledige bedrijfsondersteuning.|
-|Niet-voorraad|Een fysieke eenheid, zoals een bout, voor beperkte bedrijfsondersteuning, bijvoorbeeld omdat het artikel alleen intern wordt gebruikt en lage kosten heeft.|
+|Voorraad|Fysieke zaken, zoals fietsen, telefoons en bureaus, waarvoor u alle voorraadprocessen wilt kunnen gebruiken. Dit kunnen ook niet-fysieke items zijn, zoals softwarelicenties en abonnementen, als de items identificatienummers hebben, zoals serienummers. U kunt artikelwaarden en beschikbaarheid in de voorraad volledig volgen.|
+|Niet-voorraad|Doorgaans zijn niet-voorraadartikelen fysieke dingen, zoals bouten of pennen, die een bedrijf gebruikt, maar niet volledig in de voorraad wil bijhouden. Een reden hiervoor kan zijn dat het goedkope artikelen zijn die alleen intern worden gebruikt.|
 |Service|Een arbeidstijdseenheid, zoals een adviesuur, voor beperkte bedrijfsondersteuning.|
 
-Het soort **Voorraad** betreft volledige tracering van voorraadaantal en -waarde. Daarom worden alle artikeltransactiesoorten ondersteund en kunnen artikelen van het type voorraad worden gebruikt met alle functies voor artikelverwerking.
+> [!NOTE]
+> De typen **Service** en **Niet-voorraad** bieden geen ondersteuning voor het volgen van voorraadaantallen en -waarden. Alleen geselecteerde artikeltransactietypen en -functies worden ondersteund.
 
-De typen **Service** en **Niet-voorraad** betreffen geen tracering van voorraadaantal en -waarde. Daarom worden alleen geselecteerde artikeltransactietypen en -functies ondersteund.
-
-De drie artikeltypen ondersteunen respectievelijk de volgende functies.
+In de volgende tabel worden functies beschreven die de drie artikeltypen ondersteunen.
 
 |Artikelsoort|Verkoop|Inkopen|Projectverbruik|Serviceverbruik|Assemblageverbruik|Productieverbruik|Assemblage-uitvoer|Productieoutput|Locatietransfer|Fysieke telling|Voorraadherwaardering|Voorraadwaardering|Artikeltracering|Reservering|Magazijn|Planning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|

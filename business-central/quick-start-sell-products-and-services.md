@@ -1,5 +1,5 @@
 ---
-title: Snelstartgids Verkoop
+title: Snelstartgids Verkoop (bevat video)
 description: Leer hoe u de eerste kritieke velden over producten en klanten in Business Central invult, zodat u uw verkoopprocessen kunt starten.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 1310596bf328d6f9bc62f1021632137f56cbe8b4
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 9641d87dadc3b33683d1bab0bdc70d0b36b4d1ae
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724478"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940863"
 ---
 # <a name="sales-quick-start"></a>Snelstartgids Verkoop
 

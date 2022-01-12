@@ -1,8 +1,6 @@
 ---
 title: Financiële dagboeken maken [BE]
 description: In dit onderwerp wordt uitgelegd hoe u dagboeksjablonen kunt gebruiken om financiële dagboeken te maken in de Belgische versie van Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11300
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 9c65605ba12809e494216145b238f901c31be31e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 56218dba3d7b3b3a77cec7164f1df89863e971b3
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437197"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947159"
 ---
 # <a name="create-financial-journals-in-the-belgian-version"></a>Financiële dagboeken maken in de Belgische versie
 In financiële dagboeken worden bankrekeningtransacties geregistreerd. In een financieel dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen, zodat u kunt controleren of alle transacties zijn geregistreerd.  

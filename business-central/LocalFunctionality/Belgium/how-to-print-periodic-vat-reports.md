@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11306,11307,11308
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 8d04a0d09e30481ef9d9620c0446738164b34c8d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e9338643c542b3b586ef7fd322bcbba89c8f1bb3
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438481"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947164"
 ---
 # <a name="print-periodic-vat-reports-in-the-belgian-version"></a>Periodieke btw-rapporten afdrukken in de Belgische versie
 Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de volgende btw-rapporten aan de Belgische belastingdienst versturen:  

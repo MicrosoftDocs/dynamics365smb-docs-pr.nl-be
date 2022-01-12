@@ -1,5 +1,5 @@
 ---
-title: Artikeltoeslagen toewijzen aan verkopen en inkopen
+title: Artikeltoeslagen toewijzen aan verkoop en inkopen (bevat video)
 description: Wijs artikeltoeslagen toe wanneer u bij voorraadartikelen toegevoegde kosten wilt berekenen, zoals vracht en fysieke verwerking, die u maakt wanneer u artikelen inkoopt of verkoopt.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 9ef440a79cec7c59fe6aa7c6cfe34c441817bad5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f44b2133aca930f0009f7cb6efa25b89a89764ec
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436913"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940388"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden
 Als u wilt zorgen voor goede waardering, moeten voor uw voorraadartikelen toegevoegde kosten worden berekend, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt wanneer u de artikelen inkoopt of verkoopt. Voor inkopen bestaan de werkelijke kosten van een ingekocht artikel uit de inkoopprijs van de leverancier en alle bijkomende directe artikeltoeslagen die kunnen worden toegewezen voor afzonderlijke ontvangsten of retourzendingen. Voor verkopen is het belang van de verzendkosten van verkochte artikelen te weten net zo groot zijn als de leveringskosten van aangekochte artikelen te weten.

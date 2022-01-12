@@ -1,5 +1,5 @@
 ---
-title: Bankrekeningen instellen
+title: Bankrekeningen instellen (bevat video)
 description: Ontdek hoe bankrekeningen worden gebruikt in Business Central en hoe u bedragen kunt reconciliëren met uw bank.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 00e83bbf8c98a10e5a86f0341794bc125e8609c9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442887"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940613"
 ---
 # <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
 
@@ -84,9 +84,9 @@ Hoe beter uw toewijzingsgegevens in het betalingsreconciliatiedagboek hoe meer t
 > [!WARNING]
 > Sommige velden kunnen gevoelige gegevens bevatten, zoals de velden **Bankfiliaalnr.**, **Bankrekeningnr.**, **SWIFT-code** en **IBAN-code**. Zie voor meer informatie [Vertrouwelijke velden bewaken](across-log-changes.md#monitoring-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts&quot;></a>Bankrekeningen instellen
+## <a name="to-set-up-bank-accounts"></a>Bankrekeningen instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png &quot;Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Bankrekeningen** de actie **Nieuw**.
 3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

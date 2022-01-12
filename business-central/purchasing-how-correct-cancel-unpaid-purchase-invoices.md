@@ -1,5 +1,5 @@
 ---
-title: Niet-betaalde inkoopfacturen wijzigen of annuleren | Microsoft Docs
+title: Niet-betaalde inkoopfacturen wijzigen of annuleren (bevat video) | Microsoft Docs
 description: Verklaart hoe u een geboekte inkoopfactuur corrigeert, annuleert of ongedaan maakt, en hoe u automatisch een inkoopcreditnota gemaakt.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc930c319a1d1c6ae7ff0615bb6bf20cf125cf64
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5d82bb88d47d6fd6d85b62e7692a07350b43518a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436110"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940538"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Niet-betaalde inkoopfacturen corrigeren of annuleren
 

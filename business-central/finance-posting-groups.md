@@ -1,8 +1,6 @@
 ---
 title: Boekingsgroepinstellingen| Microsoft Docs
 description: Overzicht van de boekingsgroepen dat u kunt gebruiken om tijd te besparen en fouten te voorkomen wanneer u transacties boekt.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588819"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940763"
 ---
 # <a name="setting-up-posting-groups"></a>Boekingsgroepen instellen
 Met boekingsgroepen worden entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten aan grootboekrekeningen gekoppeld. Hiermee wordt tijd bespaard en worden fouten voorkomen als u transacties boekt. De transactiewaarden gaan naar de rekeningen die in de boekingsgroep zijn opgegeven voor die bepaalde entiteit. De enige voorwaarde is dat u een rekeningschema hebt. Zie [Het rekeningschema instellen](finance-setup-chart-accounts.md) voor meer informatie.  
@@ -74,6 +72,17 @@ Uw instelling bepaalt wanneer de boeking plaatsvindt. Wanneer de boeking plaatsv
 
 ## <a name="copying-posting-setup-lines"></a>Boekingsinstellingsregels kopiëren
 Hoe meer product- en bedrijfsboekingsgroepen u hebt, des te meer regels u op de pagina Boekingsgroepinstellingen ziet. Dit kan veel gegevensinvoer impliceren voor het instellen van de boekingsgroepinstellingen voor het bedrijf. Hoewel er veel verschillende combinaties van bedrijfs- en productboekingsgroepen kunnen zijn, wordt door verschillende combinaties mogelijk toch naar dezelfde grootboekrekeningen geboekt. Om de hoeveelheid handmatige invoer te beperken, kopieert u de grootboekrekeningen van een bestaande regel op de pagina **Boekingsgroepinstellingen**.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Boekingsgroepen onderweg instellen
+
+Om gebruikers sneller aan de slag te krijgen, biedt [!INCLUDE[prod_short](includes/prod_short.md)] assistentie door middel van berichten over ontbrekende grootboekrekeningen in verschillende boekingsgroepinstellingen in documenten. Om deze meldingen te ontvangen, moet u ervoor zorgen dat de melding **Grootboekrekening ontbreekt in boekingsgroep of instelling** is geselecteerd op de pagina **Mijn berichten** die u kunt openen via het veld **Wijzigen wanneer ik berichten ontvang** op de pagina **Mijn instellingen**.  
+
+Op deze manier krijgt u een bericht wanneer u aan een document werkt dat gebruikmaakt van een boekingsgroep of een instelling waarvoor een vereiste grootboekrekening ontbreekt. Kies de link in het bericht om een pagina te openen waar u de relevante wijzigingen kunt aanbrengen, mits u hiervoor toestemming hebt.  
+
+> [!NOTE]
+> Om u rechtstreeks naar de boekingsgroep of instelling te brengen waarvoor een grootboekrekening ontbreekt, wordt in [!INCLUDE[prod_short](includes/prod_short.md)] een tijdelijke plaatsingsgroep of instelling gemaakt. Boekingsgroepen en -instellingen zijn een manier voor de accountant om te bepalen hoe boekingen naar het grootboek worden geboekt, dus het net op tijd maken van boekingsgroepen en -instellingen is mogelijk niet toegestaan in uw organisatie.  
+> 
+> Schakel in dat geval het bericht **Grootboekrekening ontbreekt in boekingsgroep of instelling** uit en werk vervolgens samen met uw accountant om de relevante wijzigingen aan te brengen in de boekingsgroep, de instellingen of uw document. Dit is een belangrijke stap, want zodra documenten zijn geboekt, kunnen onjuist gebruikte boekingsgroepen of instellingen niet meer worden verwijderd omdat er grootboekposten voor zijn aangemaakt. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Problemen met boekingsgroepfouten
 Boekingsgroepen zijn een van de meer geavanceerde concepten om in te stellen in [!INCLUDE[prod_short](includes/prod_short.md)]. Als ze niet correct zijn ingesteld, kunnen er fouten optreden bij het boeken van documenten of journaalregels. Deze fouten worden bijvoorbeeld meestal veroorzaakt door een fout in de manier waarop grootboekrekeningen worden toegewezen of hoe boekingsgroepen worden gecombineerd.

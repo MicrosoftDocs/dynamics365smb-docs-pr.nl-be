@@ -9,18 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/27/2021
+ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: db390d1f4ee690b9e461bfccd77155ec0b66a2b6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589639"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940638"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandboxomgevingen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Met [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u eenvoudig een veilige omgeving krijgen waar u kunt testen, trainen of problemen oplossen zonder de werkprocessen of bedrijfsgegevens van uw bedrijf te verstoren. Een dergelijke niet-productieomgeving wordt een *sandbox* genoemd. Geïsoleerd van de productieomgeving is een sandboxomgeving de plaats om de service te ontdekken, te leren kennen, te demonstreren, te ontwikkelen en te testen, zonder het risico te lopen dat de gegevens en instellingen van uw productieomgeving worden beïnvloed.  
+
+> [!TIP]
+> Bent u op dit artikel gestuit nadat u de naam van uw [!INCLUDE [prod_short](includes/prod_short.md)]-omgeving in de bovenste balk hebt gekozen? Momenteel kunt u de naam of omgeving niet op die manier wijzigen. In plaats daarvan moet u uw beheerder vragen om de naam te wijzigen of de koppeling met een andere omgeving te delen.
 
 Uw beheerder beheert sandboxomgevingen in het [beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 
@@ -41,7 +44,7 @@ De sandboxomgeving is onder andere nuttig omdat deze een aantal handige functies
 
 ## <a name="advanced-user-experience"></a>Geavanceerde gebruikerservaring
 
-Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen.":::    
+Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen."::: .  
 
 Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.yml#how-do-i-find-a-reselling-partner) voor meer informatie.  
 

@@ -1,5 +1,5 @@
 ---
-title: Een vestigingskaart instellen en transferroutes definiëren
+title: Een vestigingskaart instellen en transferroutes definiëren (bevat video)
 description: Als u artikelen op meer dan één plaats of magazijn koopt, opslaat of verkoopt, moet u elke vestiging instellen met een vestigingskaart en transferroutes definiëren.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d22bbea911bed7e1ea3c756e0861111a26b5df0a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1d65213d81c2a615481e753adb380675ff2ee691
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435584"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940738"
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
 

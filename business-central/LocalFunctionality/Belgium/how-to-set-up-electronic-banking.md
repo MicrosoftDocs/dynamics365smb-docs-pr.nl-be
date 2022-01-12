@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c0fe47ac344b5faee3e727f31ae0612326f45ff2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 620f6dbbf1d5dbe94bd048d2c5f012d115faf694
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438466"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947111"
 ---
 # <a name="set-up-electronic-banking-in-the-belgian-version"></a>Elektronisch bankieren instellen in de Belgische versie
+
 Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en klanten in binnen- en buitenland, en SEPA-leveranciers en -klanten binnen en buiten de eurozone verzenden. Voordat u met elektronisch bankieren kunt werken, moet u de volgende gegevens instellen:  
 
 - Configuratie van elektronisch bankieren.  

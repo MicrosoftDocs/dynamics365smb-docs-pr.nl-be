@@ -1,5 +1,5 @@
 ---
-title: Een verkooporder koppelen aan een inkooporder voor een directe verzending | Microsoft Docs
+title: Een verkooporder koppelen aan een inkooporder voor een directe verzending (bevat video) | Microsoft Docs
 description: Hierin wordt beschreven hoe u een verkooporder kunt maken die is gekoppeld aan een inkooporder om verzending direct van de leverancier naar de klant mogelijk te maken.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c5ca9eb1dc14a75d84072f28e7f72fc8b5e89373
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1e4ce5185ba1a672784f2a1c893de82c3da69ee5
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443419"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939988"
 ---
 # <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
 

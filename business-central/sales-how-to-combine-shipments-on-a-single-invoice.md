@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442737"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7929592"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Verzendingen combineren op één factuur
 Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Verzamelfacturering gebruiken.  
@@ -34,6 +34,9 @@ Voordat u een verzamelfactuur kunt maken, moet u meerdere verkoopverzendingen vo
 
     Als u de verkeerde verzendregel hebt geselecteerd of als u opnieuw wilt beginnen, kunt u de regels op de factuur verwijderen en de functie **Verzendregels ophalen** opnieuw uitvoeren.  
 7. Kies de actie **Boeken** om de factuur te boeken.  
+
+> [!TIP]  
+> Als u orders hebt verzonden waarvoor de waarde voor **Orderklantnr.** anders is dan de waarde voor **Factuurklantnr.**, worden die regels niet weergegeven in het rapport **Verzendregels ophalen**. Gebruik personalisatie om het veld **Orderklant** toe te voegen aan de pagina en het filter te verwijderen. U kunt nu zendingsregels aan de factuur toevoegen, ongeacht de waarde in het veld **Orderklantnr.** zolang het veld **Factuurklantnr.** op de verzendregels overeenkomt met de waarde op de verkoopfactuur.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Verzendingen automatisch op één factuur combineren  
 [!INCLUDE[prod_short](includes/prod_short.md)] selecteert alleen verkooporders waar **Verzendingen combineren** is gekozen. 

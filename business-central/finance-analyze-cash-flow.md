@@ -1,8 +1,6 @@
 ---
-title: Cashflows analyseren| Microsoft Docs
+title: Cashflows analyseren
 description: Beschrijft hoe u de diagrammen Cashcyclus, Inkomsten en uitgaven, Cashflow, en Cashflowprognose gebruikt om verleden en toekomstige stroom van geld in en uit uw bedrijf te analyseren.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: aed1ce045e4dceb2467a901278300e404cd3e32b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d4cdac7b68e0ec59edfaf88d74cdfb4dde9e3a1
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780919"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940113"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Cashflow in uw bedrijf analyseren
 De diagrammen in het rolcentrum Accountant bevatten inzichten aan de hand waarvan u op een onderbouwde manier kunt bepalen wat u met uw contante geld moet doen.  
@@ -45,6 +43,7 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 * Dubbele verkooporders en inkooporders overslaat.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>Een cashflowvoorstel weergeven
+
 1. Zoek **Cashflowinstellingen** en kies vervolgens de verwante koppeling.  
 2. Kies een cashflowprognose en kies vervolgens de actie **Cashflowvoorstel**.  
 3. Kies op de pagina **Cashflowvoorstel** de actie **Voorstelregels voorstellen**.  
@@ -52,9 +51,11 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
+
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md)  
-
+[Een prognose van uw cashflow geven in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Cashflowprognoses instellen met Azure AI in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
