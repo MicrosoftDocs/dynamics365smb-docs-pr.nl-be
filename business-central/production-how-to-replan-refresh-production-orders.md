@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 901427baf8845505c264a6e06ec6aebacbfe1ee0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3cb90e09c5e4d23259dcaba23907bdaac7308c08
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589244"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971339"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Productieorders rechtstreeks opnieuw plannen of vernieuwen
+
 De functie **Herplannen** in productieorders wordt doorgaans gebruikt nadat er materialen zijn toegevoegd of gewijzigd die onderliggende productieorders hebben. Met de functie worden wijzigingen berekend die in materiaal- en bewerkingsplanregels zijn aangebracht. De functie heeft betrekking op lagere productiestuklijstniveaus en er kunnen nieuwe productieorders mee worden gegenereerd.  
 
 Op basis van de wijzigingen die u hebt aangebracht in de materiaal- en bewerkingsplanregels, zorgt de functie Herplannen voor het berekenen en plannen van alle nieuwe vraagregels voor de productieorder.  

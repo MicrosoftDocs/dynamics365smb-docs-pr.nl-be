@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.search.form: 11308
+ms.date: 01/10/2022
 ms.author: edupont
-ms.openlocfilehash: 6918790addeb3a3d315e41d537a6d1eefb66f432
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ec28c51ba356c279d89a3283fb94dd19e4357d97
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322027"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970876"
 ---
 # <a name="belgian-electronic-banking"></a>Elektronisch bankieren voor België
 
@@ -33,7 +33,7 @@ Voordat u elektronische betalingen en bankafschriften kunt verwerken, moet u ele
 
 |Veld|Omschrijving |
 |-----|------------|
-|**Alg. dagb.regels samenvatten**| Selecteer deze optie om aan te geven of u de betalingsdagboekregels voor elke leverancier wilt groeperen.  |
+|**Alg. dagb.regels samenvatten**| Selecteer deze optie om aan te geven of u de betalingsdagboekregels voor elke leverancier wilt groeperen. Betalingen met een gestructureerd bericht worden niet gegroepeerd. |
 |**Tekst van betaalberichten afbreken** |Selecteer deze optie om lange betaalberichten af te kappen. Berichten worden afgekapt als ze uit meer dan 106 tekens bestaan voor binnenlandse betalingen. Voor internationale betalingen is dit 140 tekens. |
 
 Zie [Betalingsregels en dagboekregels samenvatten](summarizing-payment-lines-and-general-journal-lines.md) voor meer informatie over de invloed van de twee velden op de wijze waarop betalingsdagboekregels worden overgedragen naar het dagboek.  

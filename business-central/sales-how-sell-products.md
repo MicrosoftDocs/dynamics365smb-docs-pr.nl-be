@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
 ms.search.form: 42, 48, 9305
-ms.date: 09/24/2021
+ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 543a334e087db85b15b5237a37702d410254f266
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: ee32f74c82360c6f001c5a7b40def4bcb459cb28
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752354"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011938"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Producten verkopen met een klantverkooporder  
 
@@ -84,6 +84,8 @@ U kunt zelfs direct betaalde orders voor niet-geregistreerde klanten maken door 
 12. Als u slechts een deel van het orderaantal wilt verzenden, voert u dat aantal in het veld **Te verzenden aantal** in. De waarde wordt gekopieerd naar **Te factureren aantal**.
 13. Als u slechts een deel van het verzonden aantal wilt factureren, voert u dat aantal in het veld **Te factureren aantal** in. Het aantal moet lager zijn dan de waarde in het veld **Te verzenden aantal**.  
 14. Wanneer de verkooporderregels zijn ingevuld, kiest u de actie **Boeken en verzenden**.
+
+[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
 Het dialoogvenster **Boeken en verzenden bevestigen** geeft de manier aan waarop de klant de documenten wil ontvangen. U kunt de verzendmethode wijzigen door de opzoekknop voor het veld **Document verzenden naar** te kiezen. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
 

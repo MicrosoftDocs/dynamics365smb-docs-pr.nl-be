@@ -7,43 +7,44 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1100, 1103, 1104, 1113
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92a7b0f4878f7cd23f4fc672e9723050ca7bde7e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435834"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970837"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Kostenposten overbrengen en boeken
+
 Voordat u kostenverdelingen definieert, moet u begrijpen hoe kostenposten uit de volgende bronnen worden opgehaald:  
 
--   Automatische overdracht van grootboekposten.  
--   Handmatig kostenboeking voor zuivere kostenposten, interne heffingen en handmatige toewijzingen.  
--   Automatisch toegewezen boekingen voor werkelijke kosten.  
--   Overdracht van budgetposten naar werkelijke posten.
+- Automatische overdracht van grootboekposten.  
+- Handmatig kostenboeking voor zuivere kostenposten, interne heffingen en handmatige toewijzingen.  
+- Automatisch toegewezen boekingen voor werkelijke kosten.  
+- Overdracht van budgetposten naar werkelijke posten.
 
 ## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criteria voor het overbrengen van grootboekposten naar kostenposten
 Het is belangrijk dat u een goed begrip heeft van de criteria voor het overbrengen van grootboekposten naar kostenposten. Tijdens de overdracht maakt de batchverwerking **Grootboekposten overbrengen naar kostprijsboekhouding** gebruik van de volgende criteria om te bepalen of en hoe de grootboekposten worden overgebracht.  
 
 Grootboekposten worden overgebracht in de volgende gevallen:  
 
--   De posten hebben dimensiewaarden die een bijbehorende kostenplaats of kostenobject hebben.  
--   De posten hebben dimensiewaarden die een bijbehorende kostenplaats en kostenobject hebben. Voor deze posten heeft de kostenplaats voorrang. Dit voorkomt de situatie waarin een kostensoort zowel in een kostenobject als kostenplaats wordt weergegeven, en daarom twee keer in de statistieken wordt meegeteld.  
--   Het documentnummer in de posten is leeg, en wordt daarom weergegeven met documentnummer 0000 in de kostenposten.  
--   De posten worden overgebracht naar een kostensoort dat gecombineerde posten toestaat, en deze posten worden maandelijks of dagelijks overgebracht als een gecombineerde post.  
+- De posten hebben dimensiewaarden die een bijbehorende kostenplaats of kostenobject hebben.  
+- De posten hebben dimensiewaarden die een bijbehorende kostenplaats en kostenobject hebben. Voor deze posten heeft de kostenplaats voorrang. Dit voorkomt de situatie waarin een kostensoort zowel in een kostenobject als kostenplaats wordt weergegeven, en daarom twee keer in de statistieken wordt meegeteld.  
+- Het documentnummer in de posten is leeg, en wordt daarom weergegeven met documentnummer 0000 in de kostenposten.  
+- De posten worden overgebracht naar een kostensoort dat gecombineerde posten toestaat, en deze posten worden maandelijks of dagelijks overgebracht als een gecombineerde post.  
 
 Grootboekposten worden niet overgebracht in de volgende gevallen:  
 
--   De posten hebben dimensiewaarden die geen bijbehorende kostenplaats of kostenobject hebben.  
--   De posten bevatten een bedrag met waarde nul.  
--   De posten zijn van een grootboekrekening die is verwijderd.  
--   De posten hebben een grootboekrekening die niet van het soort **Resultatenrekening** is.  
--   De posten hebben een grootboekrekening waaraan geen kostensoort is toegewezen.  
--   De posten hebben een boekingsdatum vóór de **Begindatum voor GB-overdracht**.  
--   De posten zijn geboekt met een ultimodatum. Dit zijn meestal de posten die een negatief effect hebben op het saldo van de resultatenrekening aan het einde van het jaar.
+- De posten hebben dimensiewaarden die geen bijbehorende kostenplaats of kostenobject hebben.  
+- De posten bevatten een bedrag met waarde nul.  
+- De posten zijn van een grootboekrekening die is verwijderd.  
+- De posten hebben een grootboekrekening die niet van het soort **Resultatenrekening** is.  
+- De posten hebben een grootboekrekening waaraan geen kostensoort is toegewezen.  
+- De posten hebben een boekingsdatum vóór de **Begindatum voor GB-overdracht**.  
+- De posten zijn geboekt met een ultimodatum. Dit zijn meestal de posten die een negatief effect hebben op het saldo van de resultatenrekening aan het einde van het jaar.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Grootboekposten overbrengen naar kostenposten.
 U kunt grootboekposten overbrengen naar kostenposten.  
@@ -64,7 +65,7 @@ Voordat u begint met de bewerking om grootboekposten over te brengen naar kosten
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekposten overbrengen naar kostprijsboekhouding** in en kies vervolgens de gerelateerde koppeling.  
 2.  Klik op **Ja** om de overdracht te starten. Tijdens de bewerking worden alle grootboekposten overgebracht die niet al zijn overgebracht.  
 
-    Tijdens de overdracht worden door het proces verbindingen in de posten in de tabel **Kostenpost** en de tabel **Kostenregister** gemaakt. Hierdoor kunt de bron van de kostenposten traceren.
+Tijdens de overdracht worden door het proces verbindingen in de posten in de tabel **Kostenpost** en de tabel **Kostenregister** gemaakt. Hierdoor kunt de bron van de kostenposten traceren.
 
 ## <a name="automatic-transfer-and-combined-entries"></a>Automatische overdracht en gecombineerde posten
 In kostprijsboekhouding kunt u grootboekposten overbrengen naar een kostensoort door middel van een gecombineerde boeking. U kunt opgeven of een kostensoort gecombineerde posten ontvangt in het veld **Posten combineren** in de definitie van het kostensoort. De volgende tabel beschrijft de verschillende opties.  

@@ -6,14 +6,15 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
+ms.search.form: 1803, 1801
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589319"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011558"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Proefversies en abonnementen
 
@@ -74,7 +75,7 @@ Als u gegevens aan uw gratis [!INCLUDE[prod_short](includes/prod_short.md)]-proe
 
 Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prod_short](includes/prod_short.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prod_short](includes/prod_short.md)] aanpassen door apps toe te voegen uit [de commerciële marktplaats van Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] online maakt gebruik van Microsoft 365. Als uw bedrijf een ander type e-mailconfiguratie gebruikt, kan de wederverkoper u helpen beslissen hoe te migreren, en of u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises moet gebruiken.  
+[!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt Microsoft 365. Als uw bedrijf een ander type e-mailconfiguratie gebruikt, kan de wederverkoper u helpen beslissen hoe te migreren, en of u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises moet gebruiken.  
 
 U kunt ook contact opnemen met het [[!INCLUDE[prod_short](includes/prod_short.md)]-verkoopteam](https://go.microsoft.com/fwlink/?linkid=828707).  
 

@@ -3,20 +3,20 @@ title: Cashflowoverzicht
 description: Een overzicht van cash in en cash uit om te helpen geld dat zal worden ontvangen en uitbetaald te voorspellen.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
+ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
 ms.author: edupont
-ms.reviewer: edupont
-ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: e5ce39c435c236719e6ee564217a0b1f7e338cf2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940213"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011108"
 ---
 # <a name="cash-flow-overview"></a>Cashflowoverzicht
 
@@ -49,9 +49,9 @@ In de volgende afbeelding ziet u een overzicht van hoe u met de cashflow kunt we
 
 Op basis van de geregistreerde werkbladregels kunt u periodiek een cashflowprognose maken. De volgende indeling is een veelgebruikte indeling voor een cashflowprognose. De indeling heeft drie secties:
 
-  - Ontvangsten  
-  - Kasvoorschotten  
-  - Nettocashflow of contanten in voorraad  
+- Ontvangsten  
+- Kasvoorschotten  
+- Nettocashflow of contanten in voorraad  
 
 Contante ontvangsten bevatten bijzonderheden over de inkomsten die het bedrijf ontvangt.
 

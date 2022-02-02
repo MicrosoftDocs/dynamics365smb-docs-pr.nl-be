@@ -1,5 +1,5 @@
 ---
-title: Wijzigingen controleren | Microsoft Docs
+title: Wijzigingen controleren
 description: U kunt een gebruikerslogboek activeren zodat u een historie hebt van eventuele wijzigingen in gegevens in getraceerde tabellen. U kunt ook activiteiten volgen met bepaalde soorten activiteitenlogboeken.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,20 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
+ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: 2101a37c62b232e72cf5e773aeb0b2e6d6709927
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606451"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011082"
 ---
 # <a name="auditing-changes-in-business-central"></a>Wijzigingen controleren in Business Central
+
 Een veelvoorkomende uitdaging bij veel bedrijfsbeheertoepassingen is het vermijden van ongewenste wijzigingen in gegevens. Het probleem kan variëren van een foutief telefoonnummer van een klant tot een foutieve boeking naar het grootboek. In dit onderwerp worden de mogelijkheden beschreven om erachter te komen wat er is gewijzigd, wie het heeft gewijzigd en wanneer de wijziging is aangebracht.
 
-## <a name="about-the-change-log"></a>Over het wijzigingslogbestand 
-Met het wijzigingslogbestand kunt u alle directe wijzigingen bijhouden die een gebruiker aanbrengt in de databasegegevens. U moet elke tabel en elk veld opgeven dat u door het systeem wilt laten registreren. Vervolgens activeert u het wijzigingslogbestand.  
+## <a name="about-the-change-log"></a>Over het wijzigingslogbestand
+
+Met het wijzigingslogbestand kunt u alle directe wijzigingen bijhouden die een gebruiker aanbrengt in de databasegegevens. U moet elke tabel en elk veld opgeven dat u door het systeem wilt laten registreren. Vervolgens activeert u het wijzigingslogbestand. Het wijzigingslogbestand is gebaseerd op wijzigingen die worden aangebracht in gegevens in de tabellen die u bijhoudt. Op de pagina **Wijzigingslogposten** worden posten chronologisch geordend en worden alle wijzigingen weergeven die worden aangebracht in de waarden in velden in tabellen die u opgeeft. 
 
 Het bijhouden van wijzigingen kan invloed hebben op de prestaties, doordat het tijd kan kosten en de database groter kan maken, wat u geld kan kosten. Houd rekening met het volgende om die kosten te verlagen:
 
@@ -29,7 +32,7 @@ Het bijhouden van wijzigingen kan invloed hebben op de prestaties, doordat het t
 - Voeg geen grootboekposten en geboekte documenten toe. Geef in plaats daarvan prioriteit aan systeemvelden zoals Gemaakt door en Aanmaakdatum.
 - Gebruik niet het trackingtype Alle velden. Kies in plaats daarvan Sommige velden en volg alleen de belangrijkste velden.
 
-Het wijzigingslogbestand is gebaseerd op wijzigingen die worden aangebracht in gegevens in de tabellen die u bijhoudt. Op de pagina **Wijzigingslogposten** worden posten chronologisch geordend en worden alle wijzigingen weergeven die worden aangebracht in de waarden in velden in tabellen die u opgeeft.
+Ook om prestatieredenen wordt het wijzigingslogboek uitgeschakeld tijdens het upgradeproces van [!INCLUDE [prod_short](includes/prod_short.md)] naar de volgende versie. Naast het versnellen van het upgradeproces, helpt dit ook om de rommel in het wijzigingslogboek te verminderen. Zodra de upgrade is voltooid, begint het logboek opnieuw met het bijhouden van wijzigingen.
 
 > [!Important]
 > Wijzigingen worden pas op de pagina **Wijzigingslogposten** weergegeven nadat de sessie van de gebruiker opnieuw is gestart, wat als volgt gebeurt:
@@ -39,6 +42,7 @@ Het wijzigingslogbestand is gebaseerd op wijzigingen die worden aangebracht in g
 > * De gebruiker heeft zich af- en weer aangemeld.
 
 ### <a name="working-with-the-change-log"></a>Werken met het wijzigingslogbestand
+
 U activeert en deactiveert het wijzigingslogbestand op de pagina **Wijzigingslogbestandinstellingen**. Wanneer een gebruiker het wijzigingslogbestand activeert of deactiveert, wordt deze activiteit geregistreerd, zodat u altijd kunt zien welke gebruiker het wijzigingslogbestand heeft gedeactiveerd of opnieuw heeft geactiveerd.
 
 Op de pagina **Wijzigingslogbestandinstellingen** kunt u als u de actie **Tabellen** kiest, opgeven voor welke tabellen u wijzigingen wilt bijhouden en welke wijzigingen moeten worden bijgehouden. [!INCLUDE[prod_short](includes/prod_short.md)] houdt ook verschillende systeemtabellen bij.
@@ -49,18 +53,22 @@ Op de pagina **Wijzigingslogbestandinstellingen** kunt u als u de actie **Tabell
 Nadat u het wijzigingslogbestand hebt ingesteld, hebt geactiveerd en gegevens hebt gewijzigd, kunt u de wijzigingen weergeven en filteren op de pagina **Wijzigingslogposten**. Als u posten wilt verwijderen, kunt u dat doen op de pagina **Wijzigingslogposten verwijderen**, waar u filters kunt instellen op basis van datums en tijd.  
 
 ## <a name="about-activity-logs"></a>Over activiteitenlogboeken
+
 Vanaf enkele pagina's in [!INCLUDE [prod_short](includes/prod_short.md)] kunt u een activiteitenlogboek bekijken dat de status en eventuele fouten weergeeft van bestanden waarnaar u exporteert vanuit of importeert in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ### <a name="working-with-activity-logs"></a>Werken met activiteitenlogboeken
+
 De informatie wordt weergegeven op de pagina **Activiteitenlogboek**, volgens de context van waaruit deze wordt geopend. U kunt de pagina bijvoorbeeld openen vanuit de pagina's **Documentuitwisselingsservice instellen**, **Inkomend document**, **Geboekte verkoopfactuur** en **Geboekte verkoopcreditnota**. U kunt de lijst met logboekvermeldingen leegmaken of gewoon de lijst met vermeldingen ouder dan zeven dagen wissen.  
 
 ## <a name="monitoring-sensitive-fields"></a>Vertrouwelijke velden controleren
+
 Het veilig en privé houden van gevoelige gegevens is voor de meeste bedrijven een belangrijk aandachtspunt. Om een beveiligingslaag toe te voegen kunt u belangrijke velden controleren en per e-mail een melding ontvangen wanneer iemand een waarde wijzigt. U wilt bijvoorbeeld een melding ontvangen als iemand het IBAN-nummer van uw bedrijf wijzigt.
 
 > [!NOTE]
 > Voor het verzenden van meldingen per e-mail moet u de e-mailfunctie instellen in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [E-mail instellen](admin-how-setup-email.md) voor meer informatie.
 
 ### <a name="setting-up-field-monitoring"></a>Veldcontrole instellen
+
 U kunt de begeleide instelling **Instelling van controle van veldwijziging** gebruiken om de velden te specificeren die u wilt bewaken op basis van filtercriteria, zoals de gegevensgevoeligheidsclassificatie voor de velden. Zie voor meer informatie [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md). In de handleiding kunt u ook de persoon specificeren die een e-mailmelding ontvangt wanneer er een wijziging plaatsvindt, en het e-mailaccount dat de e-mailmelding zal verzenden. Geef zowel de te informeren gebruiker op als het account van waaruit het bericht moet worden verzonden. Nadat u de begeleide instelling hebt voltooid, kunt u instellingen voor veldbewaking beheren op de pagina **Instelling van veldcontrole**. 
 
 > [!NOTE]
@@ -97,6 +105,7 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] instellen om veldbewakings
 U kunt bewaarbeleid maken om onnodige gegevens in logboeken te verwijderen na een door u opgegeven periode. Zo kan het aantal vermeldingen in een logboek na verloop van tijd toenemen. Door oude vermeldingen op te schonen kunt u het gemakkelijker maken om u te concentreren op recentere en waarschijnlijk relevantere vermeldingen. Zie voor meer informatie [Bewaarbeleid definiëren](admin-data-retention-policies.md).
 
 ## <a name="see-also"></a>Zie ook
+
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  

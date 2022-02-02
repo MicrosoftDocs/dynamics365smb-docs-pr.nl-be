@@ -1,5 +1,5 @@
 ---
-title: 'Procedure: capaciteit boeken'
+title: Capaciteit boeken
 description: Boek verbruikte capaciteiten die niet zijn toegewezen aan de productieorder in het capaciteitsjournaal en bekijk geboekte capaciteiten op de pagina met capaciteitsposten.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5832, 99000802, 99000820
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 024985cb4a2615f374465e5a387901976509a5db
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92e4a3cb7243a8e6e11e9744a2b308b7b1bcd4a0
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444217"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972316"
 ---
 # <a name="post-capacities"></a>Capaciteit boeken
 In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegewezen aan de productieorder. Onderhoudswerk moet bijvoorbeeld worden toegewezen aan capaciteit, maar niet aan een productieorder.  

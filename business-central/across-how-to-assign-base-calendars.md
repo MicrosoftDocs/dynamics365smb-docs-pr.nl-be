@@ -7,20 +7,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446502"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011873"
 ---
 # <a name="set-up-base-calendars"></a>Basisagenda's instellen
+
 U kunt een basisagenda toewijzen aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden berekend aan de hand van de werkdagen die zijn opgegeven in de agenda. De belangrijkste taak bij het instellen van een nieuwe basisagenda is het opgeven en definiëren van de vrije dagen die u wilt toepassen.  
 
-## <a name="to-set-up-a-base-calendar"></a>Een basisagenda instellen  
+## <a name="to-set-up-a-base-calendar"></a>Een basisagenda instellen
+
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Basisagenda** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul het veld **Code** in.  
@@ -42,6 +44,7 @@ Wanneer u een post aanmaakt, wordt het veld **Vrije dag** geselecteerd. U deze i
 Hiermee wordt een datumformule opgegeven voor de tijd die nodig is om het artikel aan te vullen. Het wordt gebruikt voor het berekenen van het veld **Geplande ontvangstdatum**, als er vooruit wordt gerekend, en het veld **Orderdatum**, als er achterwaarts wordt gerekend. Zie [Levertermijnberek.](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Levertermijnberek.
+
 Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen. De twee datumvelden op inkooporderregels worden dus als volgt berekend onder verschillende omstandigheden.
 
 |Richting van berekening|Leveranciersagenda gedefinieerd|Leveranciersagenda niet gedefinieerd|

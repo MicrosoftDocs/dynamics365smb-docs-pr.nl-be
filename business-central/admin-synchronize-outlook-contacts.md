@@ -1,5 +1,5 @@
 ---
-title: Deel contacten tussen Business Central en Outlook| Microsoft Docs
+title: Contacten delen tussen Business Central en Outlook
 description: Deze service heeft diepe integratie met Microsoft 365, zodat u contacten kunt delen tussen Outlook en Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,22 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
+ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1ccada415d506193e52ac37981252a47e6088971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61d5173f1f7baf9f463916b47fc38d6dde7f740f
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777178"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011002"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Contacten in Business Central synchroniseren met contacten in Microsoft Outlook
+
 U kunt in [!INCLUDE[prod_short](includes/prod_short.md)] dezelfde contactpersonen zien als in Outlook als u synchronisatie van contactpersonen instelt. Als u bijvoorbeeld een verkoper bent, doet u mogelijk werk in Outlook en werk in [!INCLUDE[prod_short](includes/prod_short.md)]. Als de contactpersonen op beide plaatsen hetzelfde zijn, is uw werk eenvoudiger.  
 
 Een speciale map in Outlook maakt het gemakkelijk contactpersonen te vinden en u kunt een filter instellen om alleen de contactpersonen uit [!INCLUDE[prod_short](includes/prod_short.md)] te synchroniseren die u in Outlook wilt zien. Als de synchronisatie van contactpersonen is ingesteld, kunt u de synchronisatie handmatig starten of een automatische synchronisatie instellen die de contacten op geplande basis gesynchroniseerd houdt.  
 
 ## <a name="set-up-synchronization"></a>Synchronisatie instellen
-U stelt in hoe u contactpersonen wilt synchroniseren met Outlook op de pagina **Instelling van Exchange-synchronisatie** in [!INCLUDE[prod_short](includes/prod_short.md)]. Als vereiste moet uw gebruikersprofiel in [!INCLUDE[prod_short](includes/prod_short.md)] uw Microsoft 365-e-mailaccount opgeven. U kunt dit controleren in de sectie **Microsoft 365-verificatie** van uw gebruikersprofiel in de lijst **Gebruikers**.  
+U stelt in hoe u contactpersonen wilt synchroniseren met Outlook op de pagina **Instelling van Exchange-synchronisatie** in [!INCLUDE[prod_short](includes/prod_short.md)]. Als vereiste moet uw gebruikersprofiel in [!INCLUDE[prod_short](includes/prod_short.md)] uw Microsoft 365 e-mailaccount opgeven. U kunt dit controleren in de sectie **Microsoft 365-verificatie** van uw gebruikersprofiel in de lijst **Gebruikers**.  
 
 Vervolgens kunt u op de pagina **Instelling van Exchange-synchronisatie** controleren of de verbinding met Exchange werkt en vervolgens synchronisatie van contactpersonen instellen. Open de pagina **Instelling van contactsynchronisatie** en start de synchronisatie. Stel desgewenst een filter in voor welke contactpersonen worden gesynchroniseerd tussen [!INCLUDE[prod_short](includes/prod_short.md)] en Outlook. U kunt bijvoorbeeld een filter instellen op naam, type, bedrijf of iets soortgelijks. U kunt ook de standaardnaam wijzigen van de map waarmee de contactpersonen in Outlook worden gesynchroniseerd. De standaardnaam is *Business Central*.  
 

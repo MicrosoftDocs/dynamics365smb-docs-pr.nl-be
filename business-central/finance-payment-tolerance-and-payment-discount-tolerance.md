@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: eac371e873cc5b1d4a1927bccb8cee8d7e2f6e9f
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: fa9e4abb37788b7aa8261ab0a5a705edef27e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724749"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972498"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Werken met betalingstolerantie en contantkortingstolerantie
 U kunt een betalingstolerantie instellen om een factuur te sluiten wanneer de betaling het bedrag op de factuur niet volledig dekt. Betalingstoleranties zijn bijvoorbeeld doorgaans voor kleine bedragen die meer zouden kosten om te corrigeren dan gewoon te accepteren. U kunt een contantkortingstolerantie instellen om een contantkorting te verlenen nadat de datum van de betalingskorting is verstreken.  

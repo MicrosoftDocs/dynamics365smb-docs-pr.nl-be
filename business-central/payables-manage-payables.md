@@ -1,21 +1,22 @@
 ---
-title: Overzicht van taken om crediteuren te beheren | Microsoft Docs
+title: Overzicht van taken om crediteuren te beheren
 description: Schetst taken om crediteuren te beheren, bijvoorbeeld crediteuren betalen of uitgaande betalingen vereffenen met posten om facturen of creditnota's te sluiten.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
+ms.search.form: 161, 254, 256, 347, 574, 599, 9002
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b69280502f9289449a5a652c8c0eb670a6c6d4ef
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e623c4ecb9a5a24370e4e261f3bbc7c98299eaa3
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779544"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011503"
 ---
 # <a name="managing-payables"></a>Betalingsverplichtingen beheren
 

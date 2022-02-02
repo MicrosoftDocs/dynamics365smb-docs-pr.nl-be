@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
+ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
-ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
+ms.openlocfilehash: 98aca02ceba638b65849ff8218bafe07be2190db
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928834"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973079"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Het grootboek en het rekeningschema
 
@@ -75,6 +76,7 @@ Het standaardsaldo-overzicht heeft bijvoorbeeld één subcategorie voor *Kas* on
 De volgende keer dat u rapportageschema's genereert, bevat uw saldo-overzicht een totaalsaldo voor kas en twee regels met saldi voor kleine kas en de betaalrekening.  
 
 ## <a name="getting-a-quick-overview"></a>Een snel overzicht krijgen
+
 Op de pagina Rekeningschema worden rekeningen weergegeven in een hiërarchische lijst die snelle toegang biedt tot de belangrijkste informatie voor elke rekening. De lijst is echter statisch en als u veel accounts hebt, moet u misschien een beetje bladeren om informatie voor verschillende accounts te bekijken. Als u gewoon een snel overzicht wilt van de basisprincipes, zoals nettowijzigingen en saldi, is de pagina **Overzicht van rekeningschema** een handig alternatief. De kolomindeling op de pagina is nu hetzelfde als op de pagina Rekeningschema (er zijn er alleen minder), dus u hoeft zich niet te heroriënteren en u kunt de hiërarchische niveaus uitvouwen of samenvouwen om de weergave te condenseren. Om het schakelen tussen de pagina's gemakkelijk te maken is de pagina **Overzicht van rekeningschema** beschikbaar op de pagina Rekeningschema.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Toegang om accounts en accountcategorieën te maken en te bewerken

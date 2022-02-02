@@ -1,7 +1,6 @@
 ---
-title: Voorraadkosten naar het grootboek boeken
+title: Voorraadkosten reconciliëren met het grootboek
 description: Aan het einde van boekhoudperioden moet een reeks kostenbeheersings- en controletaken worden uitgevoerd om een correcte en evenwichtige voorraadwaarde te rapporteren.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
+ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 74a2e257df3306a76d777559a5a157aa2b9ddec9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e59328df68eb4d936ea472c55a160be5fe13ecd6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442147"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971642"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Voorraadkosten reconciliëren met het grootboek
+
 Als u voorraadtransacties (bijvoorbeeld verkoopverzendingen, inkoopfacturen of voorraadherwaarderingen) boekt, worden de gewijzigde artikelkosten vastgelegd in artikelwaardeposten. Om deze wijziging van voorraadwaarde door te voeren in uw financiële boeken, worden de voorraadkosten automatisch geboekt naar de gerelateerde voorraadrekeningen in het grootboek. Voor iedere voorraadtransactie die u boekt, worden overeenkomende waarden geboekt naar de voorraadrekening, de correctierekening en de KPV-rekening in het grootboek.
 
 Automatisch voorraadwaarde boeken wordt gedefinieerd door het veld **Autom. voorraadwaarde boeken** op de pagina **Voorraadinstelling**.
@@ -26,6 +27,7 @@ Automatisch voorraadwaarde boeken wordt gedefinieerd door het veld **Autom. voor
 Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de kosten van goederen toch worden doorgestuurd naar de gerelateerde uitgaande verkooptransactie, vooral in situaties waarin u goederen verkoopt voordat u de inkoop van die goederen factureert. Dit wordt kostenwaardering genoemd. Artikelkosten worden automatisch aangepast als u artikeltransacties boekt, maar u kunt artikelkosten ook handmatig wijzigen. Zie [Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md) voor meer informatie.
 
 ## <a name="to-post-inventory-costs-manually"></a>Voorraadkosten handmatig boeken
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadwaarde boeken naar GB** in en kies vervolgens de gerelateerde koppeling.
 2. Voorraadkosten handmatig naar het grootboek boeken door de batchverwerking. Als u deze batchverwerking uitvoert, worden grootboekposten op basis van de waardeposten gemaakt. U kunt de posten boeken, zodat deze per boekingsgroep worden samengevat.
 

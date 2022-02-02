@@ -1,22 +1,21 @@
 ---
-title: Vaste activa herwaarderen| Microsoft Docs
+title: Vaste activa herwaarderen
 description: Leren hoe u de waarde van vaste activa aanpast, nieuwe bedragen vastlegt als waardevermindering of waardevermeerdering en extra aanschafkosten boekt.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5628
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e178778e51d63c3398fd4a870bf41fa8b1a086f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c79cbff9d6f16ad3c93b126f01f5c28794df4127
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442222"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029520"
 ---
 # <a name="revalue-fixed-assets"></a>Vaste activa herwaarderen
 De herwaardering van vaste activa kan bestaan uit waardevermeerderingen, waardeverminderingen of algemene waardecorrecties.

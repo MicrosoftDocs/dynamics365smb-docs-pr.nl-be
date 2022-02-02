@@ -1,5 +1,5 @@
 ---
-title: Volledige planning, MPS en MRP uitvoeren
+title: Volledige planning, MPS of MRP uitvoeren
 description: Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c3994dfa33e75379b2dcbc19c0f40e0262e032b2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440340"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971313"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Volledige planning, MPS of MRP uitvoeren
+
 De termen "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte. Met het planningssysteem kan op verzoek de MPS (Master Planning Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.  
 
 -   MPS is de berekening van een hoofdproductieschema op basis van de werkelijke vraag en de vraagprognose. De MPS-berekening wordt gebruikt voor eindartikelen met een voorspelling of een verkooporderregel. Deze artikelen worden MPS-artikelen genoemd en worden dynamisch geïdentificeerd wanneer de berekening start.  

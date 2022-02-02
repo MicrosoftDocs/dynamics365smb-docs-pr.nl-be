@@ -1,8 +1,6 @@
 ---
 title: CODA-afschriften handmatig overbrengen en boeken [BE]
 description: Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels handmatig overbrengen naar een financieel dagboek.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 20d2f023d2077293e66278da278fbf7ef6135e29
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328595f8eecce75e5ad12658346bf65cc56ba491
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435200"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971506"
 ---
 # <a name="manually-transfer-and-post-coda-statements-in-the-belgian-version"></a>CODA-afschriften handmatig overbrengen en boeken in de Belgische versie
 Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels handmatig overbrengen naar een financieel dagboek. In het financiële dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen. Boeken is niet toegestaan als de afschriftregelbedragen niet overeenkomen met het afschrifteindsaldo.  

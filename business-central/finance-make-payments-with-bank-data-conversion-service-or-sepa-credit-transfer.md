@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: f54abce68049db1a6ff9330eb5569f2c26cf12ed
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f26e06487925891e01544d107ee80a6c36426ce7
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437428"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953096"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht
 
@@ -67,7 +68,7 @@ Voordat u elektronische betaling kunt verwerken door betalingsbestanden te expor
 3. Kies op het sneltabblad **Betaling** in het veld **Betalingswijze** de optie **BANK**.  
 4. In het veld **Bankrekeningcode van voorkeur** kiest u de bank waarnaar het geld wordt overgemaakt wanneer het door uw elektronische bank wordt verwerkt.  
 
-     Als u voor deze leverancier nog geen bank heeft opgezet, kunt u dat nu doen. Zie voor meer informatie [Bankrekeningen van leveranciers instellen voor het exporteren van bankbestanden](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). De waarde in het veld **Bankrekeningcode van voorkeur** wordt gekopieerd naar het veld **Bankrekening ontvanger** op de pagina **Betalingsdagboek**.  
+    Als u voor deze leverancier nog geen bank heeft opgezet, kunt u dat nu doen. Zie voor meer informatie [Bankrekeningen van leveranciers instellen voor het exporteren van bankbestanden](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). De waarde in het veld **Bankrekeningcode van voorkeur** wordt gekopieerd naar het veld **Bankrekening ontvanger** op de pagina **Betalingsdagboek**.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Het betalingsdagboek instellen om betalingsbestanden te exporteren
 

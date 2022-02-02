@@ -1,7 +1,6 @@
 ---
 title: 'Procedure: Inkomsten en kosten uitstellen'
 description: Als u inkomsten en kosten wilt verantwoorden in perioden waarin de transactie niet is geboekt, kunt u kosten en inkomsten automatisch uitstellen via een opgegeven schema.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
+ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7df3f75a106503f63d4306bd05345c2fc6af9393
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a99b8e5e14d7224fb23da3f59a5fe5274b2eef33
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442787"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971157"
 ---
 # <a name="defer-revenues-and-expenses"></a>Procedure: Inkomsten en kosten uitstellen
+
 Als u inkomsten of kosten wilt verantwoorden in een andere periode dan waarin de transactie is geboekt, kunt u deze functionaliteit gebruiken om kosten en inkomsten automatisch uit te stellen via een opgegeven schema.
 
 Om kosten of omzet over de betrokken boekhoudperioden te verdelen stelt u een uitstelsjabloon in voor de bron, het artikel of de grootboekrekening waarnaar de inkomsten of kosten worden geboekt. Wanneer u het gerelateerde verkoop- of inkoopdocument boekt, worden de inkomsten of kosten uitgesteld tot de betrokken boekhoudperioden, volgens een uitstelschema dat wordt bepaald door instellingen in de uitstelsjabloon en de boekingsdatum.
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Een grootboekrekening instellen voor uitstel
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul de velden in om een grootboekrekening te maken voor uitgestelde inkomsten. Zie voor meer informatie [Het grootboek en het rekeningschema](finance-general-ledger.md).
@@ -32,6 +34,7 @@ Om kosten of omzet over de betrokken boekhoudperioden te verdelen stelt u een ui
 Selecteer voor beide soorten uitstel **Balans** in het veld **Type** en geef de rekeningen geschikte namen, zoals "Niet-gerealiseerde onkosten" voor uitgestelde inkomsten en "Niet-gerealiseerde onkosten" voor uitgestelde onkosten.
 
 ## <a name="to-set-up-a-deferral-template"></a>Een uitstelsjabloon instellen
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Uitstelsjablonen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden in.
@@ -53,15 +56,18 @@ Selecteer voor beide soorten uitstel **Balans** in het veld **Type** en geef de 
 Voorbeeld: de boekingsdatum is 06-02-2016. Als u 'Kosten uitgesteld voor %4%6' invoert, wordt de weergegeven beschrijving 'Kosten uitgesteld voor februari 2016'.
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Een uitstelsjabloon toewijzen aan een artikel
+
 > [!NOTE]  
->   De stappen in deze procedure zijn hetzelfde als wanneer u een uitstelsjabloon toewijst aan een grootboekrekening of een resource.
+> De stappen in deze procedure zijn hetzelfde als wanneer u een uitstelsjabloon toewijst aan een grootboekrekening of een resource.
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikel** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor het artikel waarvoor de inkomsten en de kosten moeten worden uitgesteld naar de boekhoudperioden waarin het artikel is verkocht of gekocht.
 3. Selecteer in het veld **Standaarduitstellingssjabloon** de relevante uitstelsjabloon.
 
 ## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>Een uitstelschema wijzigen vanuit een verkoopfactuur
+
 > [!NOTE]  
->   De stappen in deze procedure zijn hetzelfde als wanneer u een uitstelschema voor onkosten wijzigt vanuit een inkoopfactuur.
+> De stappen in deze procedure zijn hetzelfde als wanneer u een uitstelschema voor onkosten wijzigt vanuit een inkoopfactuur.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een verkoopfactuur voor een artikel waaraan een uitstelsjabloon is toegewezen. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
@@ -73,8 +79,9 @@ Voorbeeld: de boekingsdatum is 06-02-2016. Als u 'Kosten uitgesteld voor %4%6' i
 6. Kies de knop **Ok**. Het uitstelschema wordt bijgewerkt voor de verkoopfactuur. De relateerde uitstelsjabloon is ongewijzigd.
 
 ## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Zien hoe uitgestelde kosten of inkomsten naar het grootboek worden geboekt
+
 > [!NOTE]  
->   De stappen in deze procedure zijn hetzelfde als wanneer u bekijkt hoe uitgestelde onkosten worden geboekt.
+> De stappen in deze procedure zijn hetzelfde als wanneer u bekijkt hoe uitgestelde onkosten worden geboekt.
 
 1. Kies op de pagina **Verkoopfactuur** de actie **Voorbeeld van boeking weergeven**.
 2. Kies op de pagina **Voorbeeld van boeking weergeven** de actie **Grootboekpost** en kies vervolgens de actie **Verwante posten weergeven**.
@@ -82,14 +89,16 @@ Voorbeeld: de boekingsdatum is 06-02-2016. Als u 'Kosten uitgesteld voor %4%6' i
 Grootboekposten die moeten worden geboekt naar de opgegeven uitstelrekening, bijvoorbeeld Niet-gerealiseerde inkomsten, worden aangegeven door de beschrijving die u hebt ingevoerd in het veld **Periodebeschrijving** in de uitstelsjabloon, bijvoorbeeld 'Uitgestelde kosten voor februari 2016'.
 
 ## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Geboekte uitstellingen bekijken in het rapport Overzicht van verkoopuitstel
+
 > [!NOTE]  
->   De stappen in deze procedure zijn hetzelfde als wanneer u het rapport Overzicht van inkoopuitstel bekijkt.
+> De stappen in deze procedure zijn hetzelfde als wanneer u het rapport Overzicht van inkoopuitstel bekijkt.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Overzicht van verkoopuitstel** in en kies vervolgens de gerelateerde koppeling.
 2. Voer op de pagina **Overzicht van verkoopuitstel** in het veld **Saldo per** de datum in tot wanneer u uitgestelde inkomsten wilt zien.
 3. Kies de knop **Voorbeeld**.
 
 ## <a name="see-also"></a>Zie ook
+
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, foreign exchange rates
+ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: e1a6c902bdf4ce8270def3c830138511adf6eba3
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 601ed7ceb9817b8bf24c12a260fd346087eed86f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660218"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972056"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Een extra rapportagevaluta instellen.
 
@@ -41,15 +42,17 @@ Het gebruik van een extra rapportagevaluta kan in de volgende gevallen hulp bied
 Verschillende financiële rapporten worden gebaseerd op grootboekposten. Als u rapportgegevens in de extra rapportagevaluta wilt weergeven, plaatst u eenvoudigweg een vinkje in het veld **Bedragen in rapp.-valuta weergeven** van het sneltabblad **Opties** voor het betreffende grootboekrapport.
 
 ## <a name="adjusting-exchange-rates"></a>Wisselkoersen corrigeren
+
 Aangezien valutakoersen constant wisselen, moeten de extra valuta-equivalenten in uw systeem periodiek worden gecorrigeerd. Als deze correcties niet worden uitgevoerd, kunnen de bedragen die omgerekend zijn van vreemde (of extra) valuta's en geboekt zijn in het grootboek in LV misleidend zijn. Bovendien moeten dagelijkse posten die geboekt zijn doordat een dagwisselkoers is ingevoerd in de toepassing, worden bijgewerkt nadat de dagwisselkoersgegevens zijn ingevoerd. De batchverwerking **Wisselkoers herwaarderen** wordt gebruikt om de wisselkoersen van de geboekte klant, leverancier en bankrekeningposten te corrigeren. U kunt er tevens extra rapportagevalutabedragen in grootboekposten mee bijwerken. Zie voor meer informatie [Valutawisselkoersen bijwerken](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Een extra rapportagevaluta instellen
+
 Volg deze stappen om een extra rapportagevaluta in te stellen:
 
--   Geef grootboekrekeningen op voor het boeken van wisselkoerscorrecties.  
--   Geef de wisselkoerscorrectiemethode op voor alle grootboekrekeningen.  
--   Geef de wisselkoersherwaarderingsmethode op voor btw-boekingen.  
--   Activeer de extra rapportagevaluta.  
+- Geef grootboekrekeningen op voor het boeken van wisselkoerscorrecties.  
+- Geef de wisselkoerscorrectiemethode op voor alle grootboekrekeningen.  
+- Geef de wisselkoersherwaarderingsmethode op voor btw-boekingen.  
+- Activeer de extra rapportagevaluta.  
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Grootboekrekeningen opgeven voor het boeken van wisselkoerscorrecties  
 
@@ -68,7 +71,8 @@ Volg deze stappen om een extra rapportagevaluta in te stellen:
 
 U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekening worden gecorrigeerd bij wisselkoersschommelingen tussen de LV en de extra rapportagevaluta.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>De wisselkoerscorrectiemethode opgeven voor alle grootboekrekeningen  
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>De wisselkoerscorrectiemethode opgeven voor alle grootboekrekeningen
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies de gerelateerde koppeling.  
 2. Selecteer op de pagina **Rekeningschema** de relevante rekening en kies de actie **Bewerken**.  
 3. Selecteer op de pagina **Grootboekrekening** de relevante methode in het veld **Wisselkoersherwaardering**.  
@@ -85,7 +89,8 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
 
 4.  Sluit de pagina **Grootboekrekening**.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Wisselkoersherwaarderingsmethode opgeven voor btw-boekingen  
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Wisselkoersherwaarderingsmethode opgeven voor btw-boekingen
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Boekhoudinstellingen** de relevante methode in het veld **Btw-herwaardering**.  
 3. Als u in een extra valuta boekt, kunt u in het veld **Btw-herwaardering** aangeven hoe de rekeningen die zijn ingesteld voor btw-boekingen op de pagina **Btw-boekingsinstellingen** worden geherwaardeerd bij wisselkoersschommelingen tussen de LV en de extra rapportagevaluta.  
@@ -124,11 +129,12 @@ Nadat u de batchverwerking hebt uitgevoerd, staan de bedragen van de volgende be
 Bovendien hebben alle toekomstige posten van hetzelfde type bedragen in zowel de LV als de rapportagevaluta.  
 
 > [!NOTE]  
->  Het veld **Rapportagevaluta** wordt pas geactiveerd nadat u op de knop **OK** in de batchverwerking **Rapp.-val. herwaarderen** hebt geklikt.  
+> Het veld **Rapportagevaluta** wordt pas geactiveerd nadat u op de knop **OK** in de batchverwerking **Rapp.-val. herwaarderen** hebt geklikt.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
+
 [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)  
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

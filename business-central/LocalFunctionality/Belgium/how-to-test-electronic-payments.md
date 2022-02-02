@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 2000001
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: ce10537ce6723129328d6dc0c34868138a725908
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7b8ed40fa13eb6446dc2bfac62e74c007629c498
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435199"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972977"
 ---
 # <a name="test-electronic-payments-in-the-belgian-version"></a>Elektronische betalingen testen in de Belgische versie
 

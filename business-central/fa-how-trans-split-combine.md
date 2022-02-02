@@ -1,5 +1,5 @@
 ---
-title: Vaste activa opnieuw classificeren| Microsoft Docs
+title: Vaste activa opnieuw classificeren
 description: U herclassificeert een vast activum om het over te brengen naar een andere afdeling, het op te splitsen of te combineren met andere vaste activa.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 74013be6664db6ea62c2da66fb38b076c08ffea2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3f95096a2c4cfaf80e3473c405e527014e6697a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440586"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029234"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Vaste activa overboeken, splitsen of combineren
 

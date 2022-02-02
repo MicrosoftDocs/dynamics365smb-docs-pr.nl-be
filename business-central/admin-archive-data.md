@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 032c425f10bae29416cf8602d0c339f3ffaa3043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589646"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012089"
 ---
 # <a name="the-data-archive-extension"></a>De extensie Gegevensarchief
 Na verloop van tijd zal uw bedrijf een aanzienlijke hoeveelheid gegevens verzamelen en als beheerder is het waarschijnlijk een goed idee om een strategie te hebben voor het archiveren van gegevens. Het hebben van veel gegevens kan zaken vertragen. Het kan bijvoorbeeld iets langer duren om rapporten te genereren of zelfs records te vergrendelen. Bovendien kunnen grote hoeveelheden gegevens leiden tot hogere opslagkosten.
@@ -39,19 +39,19 @@ De gegevensarchiefextensies worden door de volgende batchverwerkingen gebruikt v
 
 |Batchverwerkingen  |
 |---------|
-|Datumcomp. Artikelbudgetposten     |
-|Bankposten comprimeren     |
-|Klantposten comprimeren     |
-|VA-posten comprimeren     |
-|Grootboekposten comprimeren     |
-|Verzekeringsposten comprimeren     |
-|Onderhoudsposten comprimeren     |
-|Onderhoudsposten comprimeren     |
-|Resourceposten comprimeren     |
-|Btw-posten comprimeren     |
-|Leverancierspost comprimeren     |
-|Magazijnposten comprimeren     |
-|Grootboekbudgetposten comprimeren     |
+|Datumcomp. Artikelbudgetposten |
+|Bankposten comprimeren |
+|Klantposten comprimeren |
+|VA-posten comprimeren |
+|Grootboekposten comprimeren |
+|Verzekeringsposten comprimeren |
+|Onderhoudsposten comprimeren |
+|Onderhoudsposten comprimeren |
+|Resourceposten comprimeren |
+|Btw-posten comprimeren |
+|Leverancierspost comprimeren |
+|Magazijnposten comprimeren |
+|Grootboekbudgetposten comprimeren |
 
 Om te beginnen met het archiveren van gegevens wanneer u een van de batchverwerkingen uitvoert, zet u de schakelaar **Verwijderde posten archiveren** aan.
 

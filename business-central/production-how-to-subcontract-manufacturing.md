@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2b3ecc4ac84c5b3958d2ada97c104e92dced9ed2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441534"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972735"
 ---
 # <a name="subcontract-manufacturing"></a>Productie uitbesteden
+
 Veel productiebedrijven besteden bepaalde bewerkingen uit aan leveranciers. Uitbesteden kan een eenmalig gebeuren zijn of een integraal onderdeel uitmaken van alle productieprocessen.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt verscheidene hulpmiddelen voor het beheren van uitbesteed werk:  

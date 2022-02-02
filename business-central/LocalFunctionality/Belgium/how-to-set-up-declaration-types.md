@@ -10,14 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: b2b3c531fbf2c1de29e71cae4c51bad4bfe29145
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ef5feeeef60146b608992cf700c3506a41adb475
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438469"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971503"
 ---
 # <a name="set-up-declaration-types-in-the-belgian-version"></a>Aangiftesoorten instellen in de Belgische versie
+
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] zijn er twee soorten aangiftes:  
 
 - Vereenvoudigde aangifte  
@@ -29,11 +30,12 @@ Wanneer u de uitgebreide aangifte gebruikt, moet u ook een Incoterm in Intrastat
 
 ## <a name="to-set-up-declaration-types"></a>Aangiftesoorten instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Schakel op het sneltabblad Algemeen het selectievakje **Vereenvoudigde Intrastat-aangifte** in om een vereenvoudigde aangiftesoort in te stellen. Schakel dit veld uit om uitgebreide aangifte te gebruiken.  
-3.  Kies de knop **OK**.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+2. Schakel op het sneltabblad Algemeen het selectievakje **Vereenvoudigde Intrastat-aangifte** in om een vereenvoudigde aangiftesoort in te stellen. Schakel dit veld uit om uitgebreide aangifte te gebruiken.  
+3. Kies de knop **OK**.  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
  [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)   
  [Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)   
  [Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)   

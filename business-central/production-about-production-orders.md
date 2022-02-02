@@ -7,35 +7,36 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 689fbf78a5337076e7f10a8825d01cd77018c670
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6a72c3ae54138d2d67f4fdd2025d385c35b92af2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321403"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972420"
 ---
 # <a name="about-production-orders"></a>Informatie over productieorders
+
 Productieorders worden gebruikt voor het beheren van de conversie van ingekochte materialen naar geproduceerde artikelen. Productieorders leiden het werk door verschillende afdelingen of bewerkingsplaatsen op de shopfloor.  
 
 Voordat wordt doorgegaan met de productie, voeren de meeste bedrijven een voorraadplanning uit, doorgaans een keer in de week, om te berekenen hoeveel productieorders en inkooporders moeten worden uitgevoerd om te voldoen aan de verkoopvraag van die week. Inkooporders vullen de componenten aan die volgens de productiestuklijst vereist zijn om de eindartikelen te produceren.
 
 Productieorders vormen de centrale onderdelen van de productiefunctionaliteit van de toepassing en bevatten de volgende informatie:  
 
--   Producten die zijn gepland voor productie  
--   Materialen die nodig zijn voor de geplande productieorders  
--   Producten die zojuist zijn geproduceerd  
--   Materialen die al zijn geselecteerd  
--   Producten die in het verleden zijn geproduceerd  
--   Materialen die in eerdere productiebewerkingen zijn gebruikt  
+- Producten die zijn gepland voor productie  
+- Materialen die nodig zijn voor de geplande productieorders  
+- Producten die zojuist zijn geproduceerd  
+- Materialen die al zijn geselecteerd  
+- Producten die in het verleden zijn geproduceerd  
+- Materialen die in eerdere productiebewerkingen zijn gebruikt  
 
 Productieorders vormen het beginpunt voor:  
 
--   Plannen van toekomstige productie  
--   Sturen van de huidige productie  
--   Traceren van gereedgemelde productie  
+- Plannen van toekomstige productie  
+- Sturen van de huidige productie  
+- Traceren van gereedgemelde productie  
 
 ## <a name="production-order-creation"></a>Productieorders opstellen  
 Productieorders kunnen handmatig worden opgesteld op basis van order voor order vanuit de pagina **Productieorder** of kunnen worden gegenereerd vanuit de pagina **Verkooporderplanning** of **Orderplanning**. Meerdere orders worden opgesteld vanuit de pagina **Planningsvoorstel**.  
@@ -51,10 +52,10 @@ Productieorders worden opgesteld met informatie uit:
 ## <a name="limitations-on-production-order-creation"></a>Beperkingen aangaande het opstellen van productieorders  
 Productieorders worden automatisch gereserveerd en getraceerd naar de bron wanneer:  
 
--   Gemaakt vanuit het **[Planningsvoorstel](production-how-to-run-mps-and-mrp.md)**.  
--   Gemaakt vanuit de pagina **[Verkooporderplanning](production-how-to-create-production-orders-from-sales-orders.md)**  
--   Gemaakt vanuit de pagina **[Orderplanning](production-how-to-plan-for-new-demand.md)**  
--   Met behulp van de functie **[Herplannen](production-how-to-replan-refresh-production-orders.md)** in productieorders  
+- Gemaakt vanuit het **[Planningsvoorstel](production-how-to-run-mps-and-mrp.md)**.  
+- Gemaakt vanuit de pagina **[Verkooporderplanning](production-how-to-create-production-orders-from-sales-orders.md)**  
+- Gemaakt vanuit de pagina **[Orderplanning](production-how-to-plan-for-new-demand.md)**  
+- Met behulp van de functie **[Herplannen](production-how-to-replan-refresh-production-orders.md)** in productieorders  
 
 Zie [Relatie tussen vraag en voorzieningen bijhouden](production-how-track-demand-supply.md) voor meer informatie.
 
@@ -117,9 +118,9 @@ De toepassing biedt diverse opties voor de manier waarop een productiebedrijf mo
 
 Het materiaalverbruik kan worden verwerkt via het [verbruiksdagboek](production-how-to-post-consumption.md), maar kan ook automatisch worden geregistreerd door de toepassing. Dit wordt automatische rapportage genoemd. De rapportagemethoden zijn:  
 
--   Handmatig  
--   Voorwaarts  
--   Achterwaarts  
+- Handmatig  
+- Voorwaarts  
+- Achterwaarts  
 
 Bij handmatige verbruiksrapportage wordt gebruikgemaakt van het verbruiksdagboek om het picken van materiaal te specificeren.  
 
@@ -181,9 +182,9 @@ Het productiedagboek verschilt echter als volgt van het verbruiks- en outputdagb
 In het productiedagboek worden verbruiksaantallen geboekt als negatieve artikelposten, outputaantallen worden geboekt als positieve artikelposten en bestede tijd wordt geboekt als capaciteitspost.  
 
 ## <a name="see-also"></a>Zie ook
-[Productie](production-manage-manufacturing.md)    
+[Productie](production-manage-manufacturing.md)
 [Productie instellen](production-configure-production-processes.md)  
-[Gepland](production-planning.md)      
+[Gepland](production-planning.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,8 +1,6 @@
 ---
-title: API-sjablonen configureren | Microsoft Docs
+title: API-sjablonen configureren
 description: De stappen beschrijven die u moet doorlopen om API-sjablonen te configureren voor Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
+ms.search.form: 5469
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f5f081e4d0042333549453a3ad6af5a05a0e6ca0
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444005"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011268"
 ---
 # <a name="configuring-api-templates"></a>API-sjablonen configureren
+
 De API-bibliotheek voor [!INCLUDE[prod_short_md](includes/prod_short.md)] biedt een vereenvoudigde weergave van de onderliggende entiteiten. Niet alle eigenschappen in de toepassing zijn beschikbaar via de bijbehorende API. Met de pagina **API-instelling** kunt u sjablonen definiëren die worden gebruikt om lege eigenschappen te vullen van een entiteit wanneer u een POST-actie maakt met behulp van de API. 
 
 Als bijvoorbeeld een configuratiesjabloon voor de artikelentiteit wordt gedefinieerd, wanneer een nieuwe artikelrecord wordt gemaakt met de artikelen-API, worden eigenschappen van het nieuwe artikel die niet zijn gedefinieerd in de API-aanroep, gevuld vanuit de geselecteerde sjabloon. Als met de API bijvoorbeeld geen waarde wordt gedefinieerd voor het veld **Productieboekingsgroep**, maar een waarde is gedefinieerd in de geselecteerde sjabloon, wordt de boekingsgroepswaarde die in de sjabloon is gedefinieerd, toegepast op het nieuwe artikel. 

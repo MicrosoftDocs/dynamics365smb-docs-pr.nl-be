@@ -1,21 +1,23 @@
 ---
-title: Projecttaken die resources en urenstaten gebruiken
+title: Projectbeheer
 description: In dit onderwerp wordt beschreven hoe u resources, urenstaten en taken gebruikt om projecten en hun budgetten te beheren.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: 89, 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8f08b42af793772c98c0671cdf44934638fb8db7
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321101"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972160"
 ---
 # <a name="project-management"></a>Projectbeheer
+
 In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u algemene taken voor projectbeheer uitvoeren, zoals het configureren van een project en het plannen van een resource, alsmede het verstrekken van de informatie die nodig is voor het beheren van budgetten en het bijhouden van de voortgang. U kunt machine- en werknemeruren voor het project bijhouden door gebruik te maken van urenstaten. Als projectbeheerder hebt u een goed overzicht niet alleen van afzonderlijke projecten, maar ook van de toewijzing van werknemers, machines en andere bronnen die worden gebruikt in alle projecten.
 
 Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt gebruiken om projecten te beheren, moet u resources, urenstaten en projecten instellen. Raadpleeg voor meer informatie [Projectbeheer instellen](projects-setup-projects.md).  

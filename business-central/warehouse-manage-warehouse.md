@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5774, 5776, 5777, 5785, 5793, 5797, 7318, 7364, 7401, 8909, 9000, 9008, 9009, 9050, 9053, 9056
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 95053f6017d6c84ebd39af5407ecb4e5b90c10f4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: af975b69973eab84efcb346e98600d8b2221ecea
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319350"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971533"
 ---
 # <a name="warehouse-management"></a>Magazijnbeheer
+
 Nadat goederen zijn ontvangen en voordat goederen worden verzonden, vindt een aantal interne magazijnactiviteiten plaats om een effectieve doorloop in het magazijn te waarborgen en om bedrijfsvoorraden te organiseren en bij te houden.
 
 Gebruikelijke magazijnactiviteiten zijn onder andere het in opslag brengen van artikelen, artikelen binnen of tussen magazijnen verplaatsen en artikelen picken voor assemblage, productie of verzending. Het assembleren van artikelen voor verkoop of voorraad kan ook als magazijnactiviteit worden beschouwd, maar dit wordt al ergens anders besproken. Zie voor meer informatie [Assemblagebeheer](assembly-assemble-items.md).  
@@ -33,16 +34,17 @@ De voorraadtaken tellen, aanpassen en herindelen van artikelen kunnen magazijnta
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
 |De ontvangst (inclusief meerontvangst) van artikelen in magazijnvestigingen registreren, alleen met een inkooporder, in eenvoudige vestigingsconfiguraties, of met een magazijnontvangst, in het geval van semi- of volledig geautomatiseerde magazijnverwerking in de vestiging.|[Artikelen ontvangen](warehouse-how-receive-items.md)|
-|De opslag- en pickprocessen omzeilen om een artikel van de ontvangst direct naar de productie of verzending door te sturen.|[Artikelen cross-docken](warehouse-how-to-cross-dock-items.md)|    
+|De opslag- en pickprocessen omzeilen om een artikel van de ontvangst direct naar de productie of verzending door te sturen.|[Artikelen cross-docken](warehouse-how-to-cross-dock-items.md)|
 |Artikelen opslaan die uit aankopen, verkoopretouren, transport of productieoutput zijn ontvangen, volgens het geconfigureerde magazijnproces.|[Artikelen opslaan](warehouse-put-away-items.md)|
 |Artikelen verplaatsen tussen opslaglocaties in het magazijn.|[Artikelen verplaatsen](warehouse-move-items.md)|
 |Artikelen picken die moeten worden verzonden, getransporteerd of gebruikt in assemblage of productie, volgens het geconfigureerde magazijnproces.|[Artikelen picken](warehouse-pick-items.md)|
 |De verzending van artikelen van magazijnvestigingen registreren, alleen met een verkooporder, in eenvoudige vestigingsconfiguraties, of met een magazijnverzending, in het geval van semi- of volledig geautomatiseerde magazijnprocessen in de vestiging.|[Artikelen verzenden](warehouse-how-ship-items.md)|  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Voorraad](inventory-manage-inventory.md)  
-[Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
-[Assemblagebeheer](assembly-assemble-items.md)    
+[Magazijnbeheer instellen](warehouse-setup-warehouse.md) 
+[Assemblagebeheer](assembly-assemble-items.md)
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

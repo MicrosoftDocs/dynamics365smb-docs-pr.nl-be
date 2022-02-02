@@ -1,8 +1,6 @@
 ---
 title: SEPA-betalingen [BE]
 description: Single Euro Payments Area (SEPA) verenigt de betalingsmethoden in deelnemende Europese landen waardoor zodat internationale betalingen even gemakkelijk te verwerken worden als binnenlandse betalingen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,14 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 3dd5ddc0237008553894cb47f5fc9d78007b7531
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 659a5cf716a24ed42d2a8fee5aeefaf27be534ae
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323503"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972584"
 ---
 # <a name="sepa-payments-in-the-belgian-version"></a>SEPA-betalingen in de Belgische versie
+
 SEPA (Single Euro Payments Area) verenigt de betalingsmethoden in deelnemende Europese landen. Hierdoor worden internationale betalingen even gemakkelijk te verwerken als binnenlandse betalingen. Ongeacht de locatie, kunnen Europese burgers en bedrijven betalingen in euro's verrichten en ontvangen, binnen of buiten nationale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen.  
 
 ## <a name="see-also"></a>Zie ook

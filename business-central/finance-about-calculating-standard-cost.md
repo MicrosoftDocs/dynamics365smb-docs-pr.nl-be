@@ -7,15 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: 3ef1aac08230477afefafee6afcaf05ac9c9cfff
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6b0b531c1a41d2f19941578f8f381d56e554cb96
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323214"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973712"
 ---
 # <a name="about-calculating-standard-cost"></a>Informatie over het berekenen van vaste verrekenprijzen
 Veel productiebedrijven kiezen een waarderingsbasis voor de vaste verrekenprijs. Dit geldt ook voor bedrijven die lichte productie zoals assemblage en kitting uitvoeren. In een vaste-verrekenprijssysteem wordt de voorraadkostprijs bepaald op basis van redelijkerwijs te verwachten of historische kosten. Onderzoek van in het verleden gebruikte en voor de toekomst geschatte kosten vormen de basis voor de vaste verrekenprijs. Deze prijs ligt vast totdat wordt besloten deze prijs te wijzigen. Het is mogelijk dat de feitelijke productiekosten van een product afwijken van de geschatte vaste verrekenprijs. Vanuit managementoverwegingen wordt de feitelijke prijs voor een bepaald artikel vergeleken met de vaste verrekenprijs en worden eventuele *verschillen* geïdentificeerd en geanalyseerd.  
@@ -33,22 +32,23 @@ Aangezien de vaste verrekenprijs van een geproduceerd of geassembleerd artikel u
 
 Een productiebedrijf dat vaste verrekenprijzen gebruikt, dient twee accountingtaken uit te voeren:  
 
--   Een vaste verrekenprijs schatten voor een voltooid artikel en deze prijs instellen op de artikelkaart.  
--   De feitelijke kosten van de belangrijke kostenelementen vastleggen en toewijzen, en een verantwoording afleggen voor verschillen  
+- Een vaste verrekenprijs schatten voor een voltooid artikel en deze prijs instellen op de artikelkaart.  
+- De feitelijke kosten van de belangrijke kostenelementen vastleggen en toewijzen, en een verantwoording afleggen voor verschillen  
 
 De kosten van alle onderdelen moeten bij elkaar worden opgeteld om de directe kosten van een voltooid artikel te kunnen bepalen. Een geassembleerd of geproduceerd artikel kan halffabricaten bevatten, die ook uit meerdere onderdelen bestaan.  
 
 De volgende belangrijke kostenelementen vormen samen de totale directe kosten van een afgewerkt artikel:  
 
--   Materiaalkosten.  
--   Capaciteitskosten.  
--   Kosten voor uitbesteden van enkel geproduceerde artikelen.  
+- Materiaalkosten.  
+- Capaciteitskosten.  
+- Kosten voor uitbesteden van enkel geproduceerde artikelen.  
 
-### <a name="material-costs"></a>Materiaalkosten  
- Onder materiaalkosten worden de kosten verstaan die te maken hebben met de subassemblages en de aangeschafte grondstoffen. Materiaalkosten kunnen bestaan uit directe en indirecte kostenelementen.  
+### <a name="material-costs"></a>Materiaalkosten
 
--   Directe materiaalkosten worden gevormd door een gefactureerd bedrag voor aangeschafte grondstoffen of de verwerkingskosten van een subassemblage.  
--   Indirecte materiaalkosten (ofwel *overheads*) kunnen bijvoorbeeld bestaan uit de opslagkosten voor voltooide artikelen nadat deze zijn geproduceerd.  
+Onder materiaalkosten worden de kosten verstaan die te maken hebben met de subassemblages en de aangeschafte grondstoffen. Materiaalkosten kunnen bestaan uit directe en indirecte kostenelementen.  
+
+- Directe materiaalkosten worden gevormd door een gefactureerd bedrag voor aangeschafte grondstoffen of de verwerkingskosten van een subassemblage.  
+- Indirecte materiaalkosten (ofwel *overheads*) kunnen bijvoorbeeld bestaan uit de opslagkosten voor voltooide artikelen nadat deze zijn geproduceerd.  
 
 De instelling van de materiaalkosten voor aangeschafte artikelen die invloed hebben op directe en indirecte kosten wordt bepaald door de waarderingsmethode die is geselecteerd voor het opgeven artikel. U stelt kostengegevens in voor beide waarderingsmethoden op de artikelkaart. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
@@ -66,13 +66,13 @@ Capaciteitskosten zijn de kosten die te maken hebben met interne kosten voor arb
 
 De instelling van de capaciteitskosten van geassembleerde artikelen bestaat uit de volgende elementen:  
 
--   Directe en indirecte kostprijs van de resource.  
--   Soorten vast of direct resourcegebruik.  
+- Directe en indirecte kostprijs van de resource.  
+- Soorten vast of direct resourcegebruik.  
 
 De instelling van de capaciteitskosten van geproduceerde artikelen bestaat uit de volgende elementen:  
 
--   Directe en indirecte kostprijs van de bewerkingsplaats of afdeling.  
--   Instelling van tijd en lotgrootte.  
+- Directe en indirecte kostprijs van de bewerkingsplaats of afdeling.  
+- Instelling van tijd en lotgrootte.  
 
 Teneinde de standaardcapaciteitskosten te berekenen, moet u de standaardtijdtarieven vaststellen die nodig zijn om bewerkingen uit te voeren in afdelingen en bewerkingsplaatsen. De totale tijd voor het uitvoeren van een bewerking omvat naast de insteltijd en de bewerkingstijd meestal ook de wachttijd na bewerking en de transporttijd.  
 
@@ -97,7 +97,7 @@ Het proces van bijwerken of berekenen van vaste verrekenprijzen bestaat gewoonli
 
 1.  Kosten bijwerken op het niveau van onderdeel en capaciteit. Zie voor meer informatie de batchverwerkingen **Vaste verrekenprijs artikel voorstellen** en **Vaste verrekenprijs capaciteit voorstellen**.  
 2.  Het consolideren en berekenen van de materiaal- en capaciteitskosten om de totale assemblage- of productiekosten van de artikelen te berekenen. Zie voor meer informatie [De vaste verrekenprijs van een assemblageartikel berekenen](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  De vaste verrekenprijzen implementeren die worden ingevoerd wanneer u de vorige batchverwerkingen uitvoert. De vaste verrekenprijzen worden pas van kracht nadat ze zijn geïmplementeerd. Zie voor meer informatie de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren**.  
+3.  De vaste verrekenprijzen implementeren die worden ingevoerd wanneer u de vorige batchverwerkingen uitvoert. De vaste verrekenprijzen worden pas van kracht nadat ze zijn geïmplementeerd. Gebruik de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren**, die de wijzigingen in de standaardkosten voor artikelen bijwerkt met die in de tabel Standaardkostenwerkblad.  
 4.  De wijzigingen implementeren om het veld **Kostprijs** op de artikelkaart bij te werken en voorraadherwaardering uit te voeren. Zie [Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook  

@@ -1,5 +1,5 @@
 ---
-title: 'Procedure: beginsaldi van dagboeken maken'
+title: Beginsaldi van dagboeken maken
 description: Batchverwerkingen worden geleverd om oude rekeningsaldi over te dragen naar een nieuw geconfigureerd bedrijf. U kunt deze gegevens gemakkelijk overbrengen met dagboekboekingen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ad338aaccb9bc912ff2861423e4ad3b170aa566d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319550"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029100"
 ---
 # <a name="create-journal-opening-balances"></a>Beginsaldi van dagboeken maken
 
@@ -45,6 +45,9 @@ Voordat u begint, moet u ervoor zorgen dat u de rolcentrumpagina Beheer gebruikt
 
 > [!TIP]
 > U kunt dezelfde batchtaken gebruiken om beginsaldi toe te voegen wanneer u een nieuwe klant of leverancier registreert waarmee u eerder zaken hebt gedaan, maar niet geregistreerd in [!INCLUDE [prod_short](includes/prod_short.md)]. Zoek gewoon naar de relevante taak en kies vervolgens de relevante koppeling.
+
+> [!IMPORTANT]
+> Volg specifiek voor beginsaldi voor bankrekeningen niet de stappen in dit artikel om rechtstreeks naar de grootboekrekeningen te boeken die aan de relevante bankrekeningen zijn gekoppeld. Zie voor meer informatie [Bankrekeningen instellen](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>Zie ook
 

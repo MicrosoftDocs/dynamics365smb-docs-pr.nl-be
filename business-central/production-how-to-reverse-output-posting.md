@@ -1,5 +1,5 @@
 ---
-title: Een outputboeking tegenboeken
+title: Outputboeking tegenboeken
 description: Het kan voorkomen dat een outputboeking moet worden tegengeboekt. In dit onderwerp wordt de procedure beschreven voor het terugboeken van outputboekingen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,31 +7,33 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b1d3d05876beb452d8a3fd1ac917e40f1ffe7320
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 43704140bf7dec64fdc38b073c722f79a15df4a6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440365"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970468"
 ---
 # <a name="reverse-output-posting"></a>Outputboeking tegenboeken
+
 Het kan voorkomen dat een outputboeking moet worden tegengeboekt. Dit is bijvoorbeeld het geval als er een gegevensinvoerfout is gemaakt en er een onjuiste hoeveelheid output is geboekt op een productieorder.  
 
-## <a name="to-reverse-an-output-posting"></a>Een outputboeking tegenboeken  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling. Selecteer uw batch.  
+## <a name="to-reverse-an-output-posting"></a>Een outputboeking tegenboeken
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling. Selecteer uw batch.  
 2. Vul de benodigde velden in. Zie voor meer informatie [Output en bewerkingstijd in batches boeken](production-how-to-post-output-quantity.md).
-3.  Selecteer in het veld **Vereffenen met post** de bijbehorende artikelpost. Hiermee voert u een tegenboeking uit van de capaciteit en artikelposten.  
+3. Selecteer in het veld **Vereffenen met post** de bijbehorende artikelpost. Hiermee voert u een tegenboeking uit van de capaciteit en artikelposten.  
 4. Boek de tegenboeking door het dagboek te boeken.  
 
 De posten van het outputdagboek worden als positieve herwaardering geboekt op de artikelposten.  
 
-## <a name="see-also"></a>Zie ook  
- [Productie](production-manage-manufacturing.md)    
- [Productie instellen](production-configure-production-processes.md)  
- [Gepland](production-planning.md)      
+## <a name="see-also"></a>Zie ook
+
+ [Productie](production-manage-manufacturing.md) [Productie instellen](production-configure-production-processes.md)  
+ [Gepland](production-planning.md)  
  [Voorraad](inventory-manage-inventory.md)  
  [Inkoop](purchasing-manage-purchasing.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

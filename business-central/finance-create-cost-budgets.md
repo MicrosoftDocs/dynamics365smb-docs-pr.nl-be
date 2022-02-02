@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 52ed39805c70fe686d96525b33ad82923628db82
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9b69af67128492122bb6d8ceada51572a5ab6e33
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436185"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970687"
 ---
 # <a name="creating-cost-budgets"></a>Kostenbudgetten maken
+
 Budgettering in kostprijsboekhouding lijkt op budgettering in het grootboek. Een kostenbudget wordt gemaakt op basis van kostensoorten zoals een budget voor het grootboek wordt gemaakt op basis van grootboekrekeningen.  
 
 Een kostenbudget wordt gemaakt voor een bepaalde periode, bijvoorbeeld een boekjaar. U kunt zoveel kostenbudgetten instellen als u nodig hebt. U kunt een nieuw kostenbudget handmatig maken, door een kostenbudget te importeren of door een bestaand kostenbudget als basisbudget te kopiëren. Zie [Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
@@ -32,7 +33,8 @@ U gebruikt de volgende pagina's om kostenbudgetten te maken en te analyseren. Ki
 |Zie de kostenbudgetregisters en de kostenbudgetposten.|Pagina **Kostenbudgetregisters**|  
 |Vergelijkingen tussen kostenbudgetten afdrukken met behulp van diverse rapporten.|Rapport **Saldo/Budget kostprijsboekhouding**<br /><br /> Rapport **Rekeningoverzicht/Budget kostprijsboekhouding**<br /><br /> Rapport **Kostenbudget per kostenplaats**<br /><br /> Rapport **Kostenbudget per kostenobject**|  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  
 [Grootboekbudgetten maken](finance-how-create-budgets.md)  
 [Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)   

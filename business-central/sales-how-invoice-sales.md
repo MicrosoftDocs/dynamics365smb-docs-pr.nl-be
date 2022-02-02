@@ -11,12 +11,12 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 125d28f1621e23f14cda9ce57a935a7da71e43cb
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: c3cc7613023c684469b0558e160d9400b5ca48db
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752480"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011399"
 ---
 # <a name="invoice-sales"></a>Verkopen factureren
 
@@ -28,7 +28,7 @@ Er zijn enkele scenario's waarin u een verkooporder moet gebruiken in plaats van
 * Als u producten verzendt nadat u de bijbehorende verkoopfacturen hebt geboekt.
 * Als u artikelen verkoopt die uw leverancier rechtstreeks aan uw klant levert, via zogeheten doorverzending. Zie [Doorverzendingen maken](sales-how-drop-shipment.md) voor meer informatie.  
 
-Wat betreft alle andere aspecten werken verkooporders en verkoopfacturen op dezelfde wijze. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
+Wat betreft alle andere aspecten werken verkooporders en verkoopfacturen op dezelfde wijze. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie over hoe u verkooporders gebruikt.
 
 U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u kunt omzetten in een verkoopfactuur wanneer er een overeenkomst is. Zie voor meer informatie [Verkoopoffertes maken](sales-how-make-offers.md).
 

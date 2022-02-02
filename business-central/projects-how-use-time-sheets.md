@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.form: 950, 951, 973
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: bd163b5e8c4d96a28a1dd557d53b04dafe6829fd
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920915"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973138"
 ---
 # <a name="use-time-sheets"></a>Urenstaten gebruiken
 
@@ -36,7 +36,7 @@ Voordat u urenstaten kunt gebruiken, moet u algemene informatie instellen en een
 U kunt de batchverwerking **Urenstaten maken** gebruiken om urenstaten in te stellen voor een opgegeven aantal perioden of weken. Vervolgens kan de eigenaar van de urenstaat deze openen en tijd vastleggen die aan een taak is besteed.  
 
 > [!IMPORTANT]
-> U moet machtigingen hebben om urenstaten te maken.
+> U moet machtigingen hebben om urenstaten te maken. Zie [Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Urenstaten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Urenstaten maken** op de pagina **Urenstaten**.

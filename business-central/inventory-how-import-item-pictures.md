@@ -1,7 +1,6 @@
 ---
-title: Veel artikelafbeeldingen uit een ZIP-bestand importeren | Microsoft Docs
+title: Veel artikelafbeeldingen uit een ZIP-bestand importeren
 description: Als u meerdere artikelafbeeldingen wilt importeren, geeft u uw afbeeldingsbestanden namen die corresponderen met uw artikelnummers, comprimeert u ze in een zip-bestand en gebruikt u vervolgens de pagina Artikelafbeeldingen importeren om te bepalen welke artikelafbeeldingen worden geïmporteerd.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
+ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ac8d68d067c03039433d78be475d74efb3fec1fd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 81e628a80fe170789bb174cd393842bdf2db9af5
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440536"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7975030"
 ---
 # <a name="import-multiple-item-pictures"></a>Meerdere artikelafbeeldingen importeren
  U kunt meerdere artikelafbeeldingen in één keer importeren. Geef uw afbeeldingsbestanden namen die corresponderen met uw artikelnummers, comprimeer ze in een zip-bestand en gebruik vervolgens de pagina Artikelafbeeldingen importeren om te bepalen welke artikelafbeeldingen worden geïmporteerd.

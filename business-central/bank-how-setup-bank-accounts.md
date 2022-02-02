@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/22/2021
+ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940613"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029286"
 ---
 # <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
 
@@ -90,6 +91,8 @@ Hoe beter uw toewijzingsgegevens in het betalingsreconciliatiedagboek hoe meer t
 2. Kies op de pagina **Bankrekeningen** de actie **Nieuw**.
 3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    Het veld **Boekingsgroep van bankrekening** verbindt de bankrekening bijvoorbeeld met de onderliggende grootboekrekening in de balans. Zie [Boekingsgroepen instellen](finance-posting-groups.md) voor meer informatie.
+
 > [!TIP]
 > Sommige velden zijn verborgen totdat u de actie **Meer tonen** kiest, meestal omdat ze zelden worden gebruikt. Andere moeten worden toegevoegd via personalisatie. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
@@ -152,7 +155,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie. U kunt echter ook het beginsaldo toepassen als onderdeel van het proces voor het maken van algemene gegevens in nieuwe bedrijven. U kunt dit doen met behulp van de begeleide-instelling **Bedrijfsgegevens migreren**. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md). Voor meer informatie over het maken van beginsaldi in [!INCLUDE[prod_short](includes/prod_short.md)] raadpleegt u [Beginsaldi van dagboeken maken](admin-how-to-create-journal-opening-balances.md).
+> Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.  
+>
+> U kunt echter ook het beginsaldo toepassen als onderdeel van het proces voor het maken van algemene gegevens in nieuwe bedrijven. U kunt dit doen met behulp van de begeleide-instelling **Bedrijfsgegevens migreren**. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> Het is belangrijk dat u het beginsaldo niet rechtstreeks in het grootboek boekt. Als boekingen in de grootboekrekening rechtstreeks op de grootboekrekening worden geboekt, zal dit er doorgaans toe leiden dat u de bankrekening niet kunt afstemmen, of, in het geval van bankrekeningen in vreemde valuta, resulteren in verschillen die zich opstapelen terwijl u meer bankafstemmingen boekt. Vaak boekt u het beginsaldo direct op de bankrekening en komt het bedrag dan op de grootboekrekening terecht. U kunt het ook later terugboeken naar een aangewezen grootboekrekening die u hebt gebruikt om het openingsgrootboeksaldo te compenseren. In beide gevallen moet u eventuele directe boekingen op de grootboekrekening uitbetalen voordat u uw eerste bankafstemming start, en vooral als de bankrekening in een vreemde valuta is.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Uw bankrekening instellen om bankbestanden te importeren of te exporteren
 

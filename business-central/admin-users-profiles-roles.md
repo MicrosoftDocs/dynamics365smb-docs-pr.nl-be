@@ -5,14 +5,15 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
+ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443141"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012509"
 ---
 # <a name="manage-user-profiles"></a>Gebruikersprofielen beheren
 
@@ -29,11 +30,15 @@ Voordat u gebruikersprofielen kunt beheren, moeten de gebruikers worden gemaakt 
 U kunt paginalay-outs voor een profiel aanpassen, zodat alle gebruikers aan wie het profiel is toegewezen de aangepaste pagina's kunnen zien. Als beheerder kunt u pagina's aanpassen met dezelfde functionaliteit die gebruikers gebruiken wanneer ze personaliseren. Zie voor meer informatie [Pagina's aanpassen voor profielen](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>Een profiel maken
+
 Als u geen bestaand profiel kunt kopiëren, kunt u handmatig een nieuw profiel maken.
 
 1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Profielen (rollen)** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Profielen (rollen)** de actie **Nieuw**.  
-3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Als u wilt dat een bepaald profiel alleen beschikbaar is voor zeer specifieke gebruikers, kunt u het veld **Beschrijving** instellen op `Navigation menu only.`. Op deze manier wordt het profiel uitgesloten van de lijst met beschikbare rollen in **Mijn instellingen**.
 
 ## <a name="to-copy-a-profile"></a>Een profiel kopiëren
 Om tijd te besparen kunt u een nieuw profiel maken door een bestaand profiel te kopiëren. Kopieer er een met vergelijkbare instellingen als die u wilt maken.

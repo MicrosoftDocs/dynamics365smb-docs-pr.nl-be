@@ -1,8 +1,6 @@
 ---
-title: Voorraad instellen| Microsoft Docs
+title: Voorraad instellen
 description: Beschrijft hoe u uw voorraad en voorraadprocessen instelt, inclusief transferroutes en locaties, zoals magazijnen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
+ms.search.form: 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2798031fcb9796d14daa94d6614bd5da1081d32e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61e8eab802c95e212e3ba871be87074130be2637
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785585"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974978"
 ---
 # <a name="setting-up-inventory"></a>Voorraad instellen
 Voordat u magazijnactiviteiten en voorraadwaardering kunt beheren, moet u de regels en waarden configureren die het voorraadbeleid van het bedrijf definiëren.

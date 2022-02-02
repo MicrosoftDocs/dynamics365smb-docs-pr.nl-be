@@ -1,24 +1,24 @@
 ---
-title: Overzicht van taken om kosten en inkomsten toe te wijzen | Microsoft Docs
+title: Overzicht van taken voor het toewijzen van kosten en inkomsten
 description: Beschrijft de taken om een post in een dagboek te verdelen over verschillende rekeningen wanneer u het dagboek boekt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 283
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f7b6089a3cdcba323d13a745ae2cb8e06f3bb8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a2b421d7cb6819656988e86296bd8fede95f1454
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439782"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012721"
 ---
 # <a name="allocate-costs-and-income"></a>Kosten en inkomsten toewijzen
+
 U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. De verdeling kan plaatsvinden op basis van drie verschillende methoden.
 
 * Aantal
@@ -31,7 +31,9 @@ De toewijzingsfuncties kunnen worden gebruikt met periodieke dagboeken en in VA-
 In de volgende procedures wordt beschreven hoe voorbereidingen moeten worden getroffen om kosten in een periodiek dagboek te verdelen door verdeelsleutels te definiëren. Wanneer verdeelsleutels worden gedefinieerd, voltooit en boekt u het dagboek zoals elk ander periodiek dagboek. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 
 ## <a name="to-set-up-allocation-keys"></a>Verdeelsleutels instellen
-U kunt een post in een periodiek dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. De verdeling kan plaatsvinden op basis van aantal, percentage of bedrag.
+
+U kunt een post in een periodiek dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. De verdeling kan plaatsvinden op basis van aantal, percentage of bedrag.  
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Periodiek dagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies het veld **Batchnaam** om de pagina **Fin. dagboekbatches** te openen.
 3. U kunt verdeelsleutels in een bestaande batch in de lijst wijzigen of u kunt een nieuwe batch met verdeelsleutels maken.

@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc8eb04682492b3e3cd7906c12cf73d3974cf79a
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 42e4b06ab258c99225aedc59a0854d7c9cbf7eaa
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321203"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972657"
 ---
 # <a name="manufacturing"></a>Productie
+
 > [!NOTE]
 > Functionaliteit die in dit onderwerp wordt beschreven, is alleen zichtbaar in de gebruikersinterface als u de **Premium**-ervaring hebt. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
@@ -29,7 +30,7 @@ Als alternatief voor het in batches boeken van output voor meerdere productieord
 
 Voordat u artikelen kunt gaan produceren, moet u verschillende zaken instellen, zoals afdelingen, bewerkingsplannen en productiestuklijsten. Zie [Productie instellen](production-configure-production-processes.md) voor meer informatie.
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
@@ -41,13 +42,14 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Het aantal voltooide artikelen en de bestede tijd per bewerking in een dagboek boeken waarin meerdere vrijgegeven productieorders kunnen worden verwerkt.|[Output en bewerkingstijden in batches boeken](production-how-to-post-output-quantity.md)|
 |Output ongedaan maken, bijvoorbeeld vanwege een opgetreden fout met gegevensinvoer en een verkeerd bedrag.  |[Outputboeking tegenboeken](production-how-to-reverse-output-posting.md)|  
 |Het aantal artikelen boeken dat is geproduceerd in elke voltooide bewerking, maar niet geldt als voltooide output maar als uitgevallen materiaal.|[Uitval boeken](production-how-to-post-scrap.md)|
-|De werklast voor de shopfloor als resultaat van geplande en vrijgegeven productieorders weergeven.|[De werklast in afdelingen en bewerkingsplaatsen weergeven](production-how-to-view-the-load-on-work-centers.md)|      
+|De werklast voor de shopfloor als resultaat van geplande en vrijgegeven productieorders weergeven.|[De werklast in afdelingen en bewerkingsplaatsen weergeven](production-how-to-view-the-load-on-work-centers.md)|  
 |De pagina **Capaciteitsdagboek** gebruiken om verbruikte capaciteit te boeken die niet is toegewezen aan een productieorder, zoals onderhoudswerkzaamheden.|[Capaciteit boeken](production-how-to-post-capacities.md)|  
 |De kosten van gereedgemelde productieartikelen en verbruikte materialen berekenen en aanpassen voor financiële reconciliatie.|[Over de kosten van de gereedgemelde productieorder](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Productie instellen](production-configure-production-processes.md)  
-[Gepland](production-planning.md)      
+[Gepland](production-planning.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

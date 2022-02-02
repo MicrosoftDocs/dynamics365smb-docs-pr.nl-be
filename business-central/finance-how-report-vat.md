@@ -1,5 +1,5 @@
 ---
-title: BTW-rapporten indienen bij de belastingdienst| Microsoft Docs
+title: Btw-aangiften indienen bij de belastingdienst
 description: Leren om rapporten voor te bereiden met btw van verkopen in een bepaalde periode, of van verkopen en inkopen, en het rapport verzenden aan de belastingdienst.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
+ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4a7452043a2626228fa066e5043c435e920f194c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444499"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970660"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Btw rapporteren aan de belastingdienst
+
 Dit onderwerp beschrijft de rapporten in [!INCLUDE[prod_short](includes/prod_short.md)] die u kunt gebruiken om gegevens over btw-bedragen voor verkopen en inkopen in te dienen bij de belastingdienst in uw regio. 
 
 U kunt de volgende rapporten gebruiken:

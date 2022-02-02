@@ -7,23 +7,24 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4bce7a2e07f9d559df74f4862e9aa841f4cfe6f0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441609"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970502"
 ---
 # <a name="batch-post-output-and-run-times"></a>Output en bewerkingstijden in batches boeken
 De outputhoeveelheid geeft de voortgang van het werk weer in de vorm van de voltooide hoeveelheid en de gebruikte capaciteit van de afdeling of de bewerkingsplaats.
 
 U kunt ook het outputdagboek gebruiken om:
-*  Voorraad aan te passen in verband met de output van voltooide artikelen vanuit productie.
-*  Hoeveelheden en uitval te registreren voor elke bewerking in productierouting.
-*  Instel- en looptijd te registreren voor afdelingen en bewerkingsplaatsen.
+
+* Voorraad aan te passen in verband met de output van voltooide artikelen vanuit productie.
+* Hoeveelheden en uitval te registreren voor elke bewerking in productierouting.
+* Instel- en looptijd te registreren voor afdelingen en bewerkingsplaatsen.
 
 > [!NOTE]
 > Als productierouting wordt gebruikt, wordt de voorraad alleen bijgewerkt wanneer u het outputaantal bij de laatste bewerking boekt.
@@ -31,22 +32,26 @@ U kunt ook het outputdagboek gebruiken om:
 Met het venster **Productiedagboek** kunt u dezelfde taken uitvoeren als in het venster **Outputdagboek** en tegelijkertijd de gerelateerde taken voor verbruiksboeking uitvoeren. Zie voor meer informatie [Verbruik en output registreren voor één vrijgegeven productieorderregel](production-how-to-register-consumption-and-output.md).
 
 ## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Outputaantallen boeken en/of looptijden registreren voor een of meer productieorderregels
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in de velden informatie over de productieorder en output en/of looptijd in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
     U kunt de functie **Bewerkingsplan weergeven** om dagboekregels te genereren op basis van productieorders.
   
-4. Als de bewerking is voltooid, selecteert u het veld **Voltooid**.  
-5. Kies de actie **Boeken** om de activiteiten te boeken. 
- 
-Capaciteitsboekingen worden bijgewerkt voor de gebruikte werk- of machinecentra met informatie over tijd en hoeveelheid output en uitval. Als u de laatste bewerking heeft geboekt, wordt het artikel aan de inventaris toegevoegd. 
+3. Als de bewerking is voltooid, selecteert u het veld **Voltooid**.  
+4. Kies de actie **Boeken** om de activiteiten te boeken. 
 
-## <a name="see-also"></a>Zie ook  
-[Handmatig uitval boeken](production-how-to-post-scrap.md)
-[Omgekeerde outputboeking](production-how-to-reverse-output-posting.md)
-[Productie](production-manage-manufacturing.md)    
+Capaciteitsboekingen worden bijgewerkt voor de gebruikte werk- of machinecentra met informatie over tijd en hoeveelheid output en uitval.  
+
+Als u de laatste bewerking heeft geboekt, wordt het artikel aan de inventaris toegevoegd.  
+
+## <a name="see-also"></a>Zie ook
+
+[Uitval handmatig boeken](production-how-to-post-scrap.md)
+[Outputboeking tegenboeken](production-how-to-reverse-output-posting.md)
+[Productie](production-manage-manufacturing.md)
 [Productie instellen](production-configure-production-processes.md)  
-[Gepland](production-planning.md)      
+[Gepland](production-planning.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

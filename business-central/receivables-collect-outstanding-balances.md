@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2c3e4bc2b75133b0a46d3d5746841d6caf76589c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439422"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971680"
 ---
 # <a name="collect-outstanding-balances"></a>Openstaande saldi innen
 
@@ -186,7 +186,7 @@ Zodra u een aanmaning verzendt, wordt op de pagina **Aanmanings-/renteposten** e
 
 ## <a name="multiple-interest-rates"></a>Meerdere rentepercentages
 
-Wanneer u rentefactuurcondities instelt en aanmaningscondities, als sanctie voor vertraagde betaling, kunt u meerdere rentepercentages opgeven zodat de sanctietoeslag wordt berekend op basis van verschillende rentepercentages in verschillende perioden. Als meerdere rentepercentages niet zijn ingesteld, worden het rentepercentage en de tijdsperiode die op de pagina's **Rentefactuurcondities** en **Aanmaningscondities** zijn gedefinieerd, voor de hele periode van berekening gebruikt. Zie voor meer informatie [Meerdere rentepercentages instellen](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Zie voor meer informatie [Meerdere rentepercentages instellen](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

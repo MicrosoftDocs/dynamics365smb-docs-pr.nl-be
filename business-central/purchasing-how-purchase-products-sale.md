@@ -1,5 +1,5 @@
 ---
-title: Artikelen voor een verkoop inkopen door inkoopfacturen te maken | Microsoft Docs
+title: Artikelen kopen voor een verkoop
 description: Vanuit een verkoopfactuur kunt u, om producten te kopen, een inkoopfactuur maken voor een leverancier.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
+ms.search.form: 50, 51, 56, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 157be841019a9b1a44f45f19fc0708ce7645d716
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 46057027e89a087105ca52969c8d5f40a2c0cd26
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440511"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953421"
 ---
-# <a name="purchase-items-for-a-sale"></a>Artikelen kopen voor een verkoop
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Artikelen voor een verkoop inkopen door inkoopfacturen te maken
+
 Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopdocumenten te maken voor ontbrekende artikelaantallen die vereist worden door de verkoop. U kunt twee verschillende functies gebruiken, afhankelijk van de documentsoort.
 
 > [!Note]

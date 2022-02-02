@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7c81a363fa76de82b79ea6afc589c7984d87ef6b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 5712722f58523d372feb10710013fdbf53a464b2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324801"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971261"
 ---
 # <a name="moving-items"></a>Artikelen verplaatsen
+
 De magazijnactiviteit van het verplaatsen van artikelen in het magazijn wordt op verschillende manieren uitgevoerd, afhankelijk van hoe de functies voor magazijnbeheer zijn geconfigureerd. De complexiteit varieert, van geen magazijnfuncties via standaardmagazijnconfiguraties voor de afzonderlijke verwerking van orders in een of meer activiteiten tot geavanceerde configuraties waarbij alle activiteiten in een gestuurde werkstroom moeten worden uitgevoerd. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
 Artikelen in één magazijnlocatie moeten soms tussen opslaglocaties worden verplaatst ter ondersteuning van de dagelijkse magazijnactiviteiten die worden uitgevoerd om artikelen in het magazijn te laten stromen. Sommige verplaatsingen houden rechtstreeks verband met interne bewerkingen, zoals een productieorder waarvoor componenten moeten worden geleverd of waarvoor eindartikelen moeten worden opgeslagen. Andere verplaatsingen vinden plaats ten behoeve van magazijnruimte-optimalisatie of als ad hoc verplaatsingen naar en van bewerkingen.
@@ -39,11 +40,12 @@ De voorraadtaken tellen, aanpassen en herindelen van artikelen kunnen magazijnta
 |De frequentie bijwerken waarmee opslaglocaties, zoals pickingopslaglocaties, moeten worden aangevuld als gevolg van schommelingen in de vraag.|[Opslaglocatieaanvulling berekenen](warehouse-how-to-calculate-bin-replenishment.md)|
 |De magazijnstructuur aanpassen met nieuwe opslaglocatiecodes en -kenmerken.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
-[Assemblagebeheer](assembly-assemble-items.md)    
+[Magazijnbeheer instellen](warehouse-setup-warehouse.md) 
+[Assemblagebeheer](assembly-assemble-items.md)
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.form: 130, 142, 1350
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0f3078a866d6d0a8197b4f44081d566a0bca08ad
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: ad339f8efb14cd3c4649a4cde46d882c8e69aed5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752567"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012695"
 ---
 # <a name="posting-sales"></a>Verkopen boeken
 
@@ -40,8 +40,7 @@ Voor elke verkooporder wordt een verkooppost gemaakt in de tabel **Grootboekpost
 
 Voor elke verkooporderregel wordt een artikelpost gemaakt in de tabel **Artikelpost** (als de verkoopregels artikelnummers bevatten) of wordt een grootboekpost gemaakt in de tabel **Grootboekpost** (als de verkoopregels een grootboekrekening bevatten). Daarnaast worden verkooporders altijd geregistreerd in de tabellen **Verkoopverzendkop** en **Verkoopfactuurkop**.
 
-> [!IMPORTANT]  
-> Wanneer u een order boekt, kunt u zowel een verzending als een factuur maken. Deze kunnen tegelijk of afzonderlijk worden uitgevoerd. U kunt ook een gedeeltelijke verzending en een gedeeltelijke factuur maken door de velden **Te verzenden aantal** en **Te factureren aantal** op de afzonderlijke verkooporderregels in te vullen voordat u de boeking uitvoert. U kunt geen factuur maken voor iets wat niet is verzonden. U kunt dus pas factureren nadat u een verzending hebt geregistreerd, of u moet ervoor kiezen om tegelijkertijd te verzenden en factureren.
+[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
 U kunt boeken of boeken en verzenden. Als u ervoor kiest om te boeken en te verzenden, wordt er een pdf-bestand gegenereerd dat u vervolgens kunt verzenden. U kunt ook de functie **Batchboeken** kiezen, waarmee u verschillende orders tegelijkertijd kunt boeken. Zie voor meer informatie [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md).
 

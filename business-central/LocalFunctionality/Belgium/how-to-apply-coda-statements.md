@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 2000040
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b58f4ce41c71f79a9099bd1df3345d3d9cb0f670
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c66b692778422ea90f1e3ad9539a9e740f7f23a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435899"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973723"
 ---
 # <a name="apply-coda-statements-in-the-belgian-version"></a>CODA-afschriften vereffenen in de Belgische versie
+
 Nadat een CODA-afschrift is geïmporteerd, kunnen de afschriftregels worden geopend vanuit de pagina **Bankrekeningkaart**. De vereffeningsstatus is op elke regel leeg omdat de afschriftbedragen niet zijn vereffend met openstaande posten.  
 
 Afschriftbedragen kunnen als volgt worden vereffend met openstaande posten:  

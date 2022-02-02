@@ -7,20 +7,21 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b4578a02405b2aa972dac81a1d8d8e30ad713f3c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7864b7dcb09d0528f6f0674ae7af3740ab7e5951
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324726"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973244"
 ---
 # <a name="setting-up-warehouse-management"></a>Magazijnbeheer instellen
+
 De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van zijn magazijnprocessen. Dit betreft onder andere definiëren hoe verschillende artikelen op verschillende magazijnlocaties worden afgehandeld, zoals de mate van opslaglocatiecontrole en de omvang van de werkstroom die nodig is voor activiteiten tussen magazijnen.  
 
- In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
@@ -42,10 +43,11 @@ De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie va
 |Streepjescodelezers integreren in de magazijnbeheeroplossing. Alleen voor on-premise implementatie.|[Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Assemblagebeheer](assembly-assemble-items.md)    
+[Assemblagebeheer](assembly-assemble-items.md)
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

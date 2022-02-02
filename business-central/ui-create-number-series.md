@@ -1,32 +1,33 @@
 ---
-title: Nummerreeksen maken | Microsoft Docs
-description: Leren hoe u nummerreeksen instelt die unieke ID-codes toewijzen aan rekeningen en documenten in Business Central.
-documentationcenter: ''
-author: SorenGP
+title: Nummerreeksen maken
+description: Leren hoe u nummerreeksen instelt die unieke id-codes toewijzen aan rekeningen en documenten in Business Central.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
+ms.search.form: 456
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e2404a0ab9de8a761d5721da669004e393cf55c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3379405e2d8c6c3b381caa9f4aa66191bb7a6579
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446009"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029652"
 ---
 # <a name="create-number-series"></a>Nummerreeksen maken
+
 Voor elk bedrijf dat u instelt, moet u unieke id-codes toewijzen aan zaken als grootboekrekeningen, klanten- en leveranciersrekeningen, facturen en overige documenten. De nummering is niet alleen belangrijk voor identificatie. Met een goed opgezet nummeringssysteem kan het bedrijf ook beter worden beheerd en geanalyseerd en kan het aantal fouten tijdens gegevensinvoer worden beperkt.
 
 > [!Important]
 > Standaard zijn hiaten niet toegestaan in nummerreeksen, omdat de exacte geschiedenis van financiële transacties wettelijk beschikbaar moet zijn en daarom een ononderbroken reeks zonder verwijderde nummers moet volgen.<br /><br />
-Als u hiaten in bepaalde nummerreeksen wilt toestaan, raadpleegt u eerst uw auditor of boekhoudkundige manager om ervoor te zorgen dat u zich houdt aan de wettelijke vereisten in uw land/regio. Zie voor meer informatie [Hiaten in nummerreeksen](ui-create-number-series.md#gaps-in-number-series).
+> Als u hiaten in bepaalde nummerreeksen wilt toestaan, raadpleegt u eerst uw auditor of boekhoudkundige manager om ervoor te zorgen dat u zich houdt aan de wettelijke vereisten in uw land/regio. Zie voor meer informatie de sectie [Hiaten in nummerreeksen](#gaps-in-number-series).
 
 > [!NOTE]  
->   Het wordt aanbevolen om dezelfde nummerreekscodes te gebruiken die worden vermeld op de pagina **Nr.-reeksoverzicht** in het voorbeeldbedrijf CRONUS. Codes zoals *I-FACT+* lijken in het begin mogelijk betekenisloos, maar [!INCLUDE[prod_short](includes/prod_short.md)] kent een aantal standaardinstellingen die afhankelijk zijn van deze codes.
+> Het wordt aanbevolen om dezelfde nummerreekscodes te gebruiken die worden vermeld op de pagina **Nr.-reeksoverzicht** in het voorbeeldbedrijf CRONUS. Codes zoals *I-FACT+* lijken in het begin mogelijk betekenisloos, maar [!INCLUDE[prod_short](includes/prod_short.md)] kent een aantal standaardinstellingen die afhankelijk zijn van deze codes.
 
 U maakt een nummeringssysteem door een of meer codes in te stellen voor elk soort hoofdgegevens of document. U kunt bijvoorbeeld een code instellen voor het nummeren van klanten, een andere code voor het nummeren van verkoopfacturen en weer een andere code voor het nummeren van documenten in algemene dagboeken. Nadat u een code hebt ingesteld, moet u minimaal één nummerreeksregel instellen. De nummerreeksregel bevat gegevens, zoals het eerste en laatste nummer in de reeks en de begindatum. U kunt meer dan één nummerreeksregel per nummerreekscode invoeren, met een andere begindatum voor elke regel. De reeks wordt opeenvolgend gebruikt, waarbij elke reeks wordt gestart op de betreffende begindatum.
 

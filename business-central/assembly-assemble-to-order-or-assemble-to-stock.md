@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: deaefbebf1520bc936c078ff7f74b18c34de4d89
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 4f47d2e60ae1adeab814ab630f8f90877881b4ae
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326350"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011190"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Op voorraad assembleren of Op order assembleren begrijpen
 Assemblage-artikelen kunnen worden opgegeven in de volgende twee processen:  
@@ -70,20 +70,29 @@ Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoo
 
  Een voorbeeld van waarom u het assemblage-aantal mogelijk wilt wijzigen, is dat u een gedeeltelijke verzending van voorraadaantallen wilt boeken voordat de assemblyuitvoer wordt verzonden.  
 
- In de volgende tabel worden de regels uitgelegd voor het definiëren van de minimum- en maximumwaarden die u handmatig in het veld **Te assembleren aantal** kunt invoeren wanneer u in een combinatiescenario wilt afwijken van de standaardwaarde. In de tabel wordt een combinatiescenario weergegeven waarbij het veld **Te verzenden aantal** op de gekoppelde verkooporderregel wordt gewijzigd van 7 in 4, waardoor **Te assembleren aantal** wordt ingesteld op de standaardwaarde 4.  
+ In de volgende tabellen worden de regels uitgelegd voor het definiëren van de minimum- en maximumwaarden die u handmatig in het veld **Te assembleren aantal** kunt invoeren wanneer u in een combinatiescenario wilt afwijken van de standaardwaarde. In de tabel wordt een combinatiescenario weergegeven waarbij het veld **Te verzenden aantal** op de gekoppelde verkooporderregel wordt gewijzigd van 7 in 4, waardoor **Te assembleren aantal** wordt ingesteld op de standaardwaarde 4.  
 
-|-|Verkooporderregel|Assemblageorderkop|||||||  
-|-|----------------------|---------------------------|-|-|-|-|-|-|  
-||**Aantal**|**Te verzenden aantal**|**Aant. op order assembleren**|**Verzonden aantal**|**Aantal**|**Te assembleren aantal**|**Geassembleerde hoeveelheid**|**Resterend aantal**|  
-|Eerste|10|7|7|0|7|7|0|7|  
-|Wijzigen||4||||4 (standaard ingevoegd)|||  
+- Verkooporderregel
 
- Gebaseerd op de bovenstaande situatie, kunt u het veld **Te assembleren aantal** alleen als volgt wijzigen:  
+    |                | **Aantal** | **Te verzenden aantal** | **Aant. op order assembleren** | **Verzonden aantal** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initiële waarde**| 10          | 7                | 7                             | 0                    |
+    |**Wijziging**      |              | 4                |                               |                      |
 
--   Het minimumaantal dat u kunt invoeren is 1. Dit is omdat u ten minste één eenheid moet assembleren om de vier eenheden te kunnen verkopen, waarbij wordt aangenomen dat de overige drie eenheden in de voorraad beschikbaar zijn.  
--   Het maximumaantal dat u kunt invoeren is 4. Zo wordt ervoor gezorgd dat u niet meer van dit assembleren-voor-order artikel assembleert dan wat nodig is voor de verkoop.  
+- Assemblageorderkop
 
-## <a name="see-also"></a>Zie ook  
+    |                | **Aantal** | **Te verzenden aantal** | **Op order te assembleren aantal** | **Verzonden aantal** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initiële waarde**| 7           | 7                | 0                             | 7                    |
+    |**Wijziging**      |              | 4 (standaard ingevoegd)|                         |                      |
+
+Gebaseerd op dit voorbeeld kunt u het veld **Te assembleren aantal** alleen als volgt wijzigen:  
+
+- Het minimumaantal dat u kunt invoeren is 1. Dit is omdat u ten minste één eenheid moet assembleren om de vier eenheden te kunnen verkopen, waarbij wordt aangenomen dat de overige drie eenheden in de voorraad beschikbaar zijn.  
+- Het maximumaantal dat u kunt invoeren is 4. Zo wordt ervoor gezorgd dat u niet meer van dit assembleren-voor-order artikel assembleert dan wat nodig is voor de verkoop.  
+
+## <a name="see-also"></a>Zie ook
+
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  

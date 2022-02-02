@@ -1,5 +1,5 @@
 ---
-title: Omgaan met lotgroottes | Microsoft Docs
+title: Lotgroottes hanteren
 description: In dit onderwerp worden verschillende manieren beschreven om met lotgroottes om te gaan.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 05e592d1f4ecd281b71ab4f182c5c535faa611a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779394"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973926"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Omgaan met lotgroottes in productie
 In termen van hoeveelheid komt het aantal artikelen dat u in een productiebewerking produceert mogelijk niet overeen met hoe ze worden verkocht. U kunt bijvoorbeeld honderden artikelen in één lot produceren, maar elk artikel afzonderlijk verkopen. Wanneer u uw productieroutes en stuklijsten (BOM's) configureert, zijn er enkele nuances waarmee u rekening moet houden met betrekking tot lotgroottes. In dit onderwerp wordt beschreven hoe lotgroottes van invloed zijn op kostenberekeningen en resourceplanning.

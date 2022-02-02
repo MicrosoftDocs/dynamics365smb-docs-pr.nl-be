@@ -1,5 +1,5 @@
 ---
-title: Opmerkingen toevoegen aan kaarten en documenten | Microsoft Docs
+title: Opmerkingen toevoegen aan kaarten en documenten
 description: Voeg extra informatie toe aan rekeningen, klantenkaarten of verkooporders om overeenkomsten, zoals een speciale prijs of leveringsmethode, te doen toekomen aan andere gebruikers.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
+ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 345faa9f872d924e91572303ce71d87ff3b77160
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440986"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011948"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Opmerkingen toevoegen aan kaarten en documenten
+
 U kunt extra informatie toevoegen aan grootboekrekeningen, klantenkaarten of verkooporders om uitzonderingen of speciale overeenkomsten te doen toekomen aan andere gebruikers.
 Vrijwel alle kaarten en documenten hebben een actie **Opmerkingen**, waarmee de pagina **Opmerkingen** wordt geopend. Op die pagina kunt u opmerkingen schrijven of lezen. In documenten kunt u ook opmerkingen toevoegen aan afzonderlijke regels.
 
@@ -31,12 +33,14 @@ Daarnaast kunt u aangeven of u wilt dat opmerkingen worden overgenomen van het e
 Hierna wordt beschreven hoe u een opmerking aan een artikelkaart toevoegt. De stappen zijn vergelijkbaar voor alle andere kaarten en documenten, behalve documentregels: de actie **Opmerkingen** wordt geplaatst in het actiemenu van een regel.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Een opmerking toevoegen aan een artikelkaart
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante artikelkaart.
 3. Kies de actie **Opmerkingen**.
 4. Voer op de pagina **Opmerkingen** tekst in en kies de knop **OK**.
 
 ## <a name="see-also"></a>Zie ook
+
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 

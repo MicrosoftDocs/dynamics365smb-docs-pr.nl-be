@@ -1,21 +1,22 @@
 ---
 title: Bankrekeningen beheren
 description: U moet regelmatig bankposten reconciliëren met de gerelateerde banktransacties in uw bankrekeningen.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
+ms.search.form: 377, 378, 165, 1284
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0e98609dfe176a685d46112a233d3394eb312eaf
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ee18708bfe8842cb8c865f2eed0bc49d83235333
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323780"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8028970"
 ---
 # <a name="manage-and-reconcile-your-bank-accounts"></a>Uw bankrekeningen beheren en reconciliëren
 

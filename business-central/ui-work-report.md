@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439962"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972212"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Werken met rapporten, batchverwerkingen en XMLports
 
@@ -139,6 +139,12 @@ Voor meer informatie over rapportontwerp zie [Rapportoverzicht](/dynamics365/bus
 
 > [!NOTE]
 > Sommige rapporten exporteren getallen als tekst, waardoor u geen berekeningen kunt maken of Power Pivot kunt gebruiken op de cellen in het Excel-werkblad. Na het exporteren is het een goed idee om de getallen in het werkblad te controleren. Als u de cijfers wilt analyseren en in kaart wilt brengen, wijzigt u het formaat van de relevante cellen van **Tekst** in **Getal**. Zie deze video voor meer informatie over het opmaken van getallen in cellen: [Getallen opmaken in cellen in Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Microsoft Word-document
+Gebruik de optie **Microsoft Word-document** om een rapport als Word-document te genereren.  
+
+> [!NOTE]
+> U kunt de lay-out specificeren die voor elk rapport moet worden gebruikt op de pagina **Rapportselectie** in het veld **Geselecteerde lay-out**. De standaardinstelling voor rapporten is **RDLC (ingebouwd)**, die rapporten produceert in dezelfde of vergelijkbare lay-out als de indeling **Microsoft Word-document**. Het belangrijkste verschil is echter of u een of meerdere rapportdocumenten wilt genereren. Voor afzonderlijke documenten kunt u de optie RDLC (ingebouwd) gebruiken. Stel voor meerdere documenten **Microsoft Word-document** als de standaardlay-out voor het rapport in. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a>Een rapport plannen voor uitvoering
 

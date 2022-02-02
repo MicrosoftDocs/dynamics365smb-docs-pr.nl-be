@@ -7,45 +7,52 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 89b1c6b6252cc91fb10c2698b0a8b4869dc39853
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b76c6aee2e986580d1c131688d87716e08d338f8
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440090"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972605"
 ---
 # <a name="create-bins"></a>Opslaglocaties maken
+
 De meest effectieve manier om opslaglocaties te maken voor uw magazijn, is door groepen van gelijke opslaglocaties te genereren. U doet dit in het opslaglocatiemaakvoorstel, maar u kunt uw opslaglocaties ook stuksgewijs maken via de vestigingskaart. U kunt ook een functie op de pagina **Voorstel opslaglocatieaanmaak** gebruiken om automatisch opslaglocaties te maken.  
 
-## <a name="to-create-a-bin-from-the-location-card"></a>Een opslaglocatie maken vanaf de vestigingskaart  
+## <a name="to-create-a-bin-from-the-location-card"></a>Een opslaglocatie maken vanaf de vestigingskaart
+
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de vestiging waarvan u een opslaglocatie wilt maken en kies de actie **Opslaglocaties**.  
 3. Kies de actie **Nieuw**.
-4. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="the-dedicated-field"></a>Het veld Speciaal
+
 Het veld **Speciaal** op de pagina **Opslaglocaties** geeft op dat aantallen op de opslaglocatie worden beschermd tegen picken voor andere vraag. Hoeveelheden op speciale opslaglocaties kunnen echter nog steeds worden gereserveerd. De hoeveelheden in specifieke opslaglocaties kunnen dus worden opgenomen in het veld **Totaal beschikbaar aantal** op de pagina **Reservering**.
 
 Een opslaglocatie speciaal maken biedt vergelijkbare functionaliteit als typen opslaglocaties in standaardmagazijnbeheer, die alleen beschikbaar is in geavanceerd magazijnbeheer. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.
 
-**Voorbeeld:** een afdeling wordt ingesteld met een opslaglocatiecode in het veld **Code verbruikslocatie**. Productieordermateriaalregels met deze opslaglocatie eisen dat voorwaarts afgeboekte materialen daar worden geplaatst. Echter, totdat de materialen uit de opslaglocatie worden verbruikt, kunnen andere eisen materialen uit die opslaglocatie picken of verbruiken omdat ze nog steeds worden beschouwd als beschikbare opslaglocatie-inhoud. Om ervoor te zorgen dat de opslaglocatie-inhoud alleen beschikbaar is voor materiaalvragen die deze opslaglocatie voor productie gebruiken, moet u het veld **Speciaal** kiezen op de regel voor die opslaglocatie.
+### <a name="example"></a>Voorbeeld
+
+Een afdeling wordt ingesteld met een opslaglocatiecode in het veld **Code verbruikslocatie**. Productieordermateriaalregels met deze opslaglocatie eisen dat voorwaarts afgeboekte materialen daar worden geplaatst. Echter, totdat de materialen uit de opslaglocatie worden verbruikt, kunnen andere eisen materialen uit die opslaglocatie picken of verbruiken omdat ze nog steeds worden beschouwd als beschikbare opslaglocatie-inhoud. Om ervoor te zorgen dat de opslaglocatie-inhoud alleen beschikbaar is voor materiaalvragen die deze opslaglocatie voor productie gebruiken, moet u het veld **Speciaal** kiezen op de regel voor die opslaglocatie.
 
 > [!Caution]
 > Artikelen in specifieke opslaglocaties worden niet beveiligd wanneer deze worden gepickt en verbruikt als productie- of assemblycomponenten met de pagina **Voorraadpick**. Zie voor meer informatie [Picken voor productie of assemblage in standaardmagazijnconfiguraties](warehouse-how-to-pick-for-production.md).
 
-## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Individuele opslaglocaties maken op het maakvoorstel voor opslaglocaties  
+## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Individuele opslaglocaties maken op het maakvoorstel voor opslaglocaties
+
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorstel opslaglocatieaanmaak** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op elke regel de velden in die nodig zijn om de opslaglocaties een naam te geven en er speciale kenmerken voor in te stellen.  
 3.  Kies de actie **Opslaglocaties maken**.  
 
-## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Automatisch opslaglocaties maken in het voorstel voor opslaglocatieaanmaak  
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Automatisch opslaglocaties maken in het voorstel voor opslaglocatieaanmaak
+
 Voordat u begint met het automatisch maken van opslaglocaties, moet u bepalen welke soort opslaglocatie essentieel is voor uw bedrijf. Bovendien moet u weten welke artikelenstroom het meest praktisch is voor de fysieke structuur van uw magazijn.  
 
 > [!NOTE]  
->  Zodra een opslaglocatie in gebruik is, kunt u deze alleen nog verwijderen als de opslaglocatie leeg is. Als u de namen van de huidige opslaglocaties echter wilt wijzigen, kunt u de artikelen naar een nieuw opslaglocatiesysteem verplaatsen met behulp van het herindelingsdagboek. Dit is een handmatig proces dat veel tijd in beslag neemt. U kunt de opslaglocaties daarom het beste vanaf het begin af aan correct instellen.  
+> Zodra een opslaglocatie in gebruik is, kunt u deze alleen nog verwijderen als de opslaglocatie leeg is. Als u de namen van de huidige opslaglocaties echter wilt wijzigen, kunt u de artikelen naar een nieuw opslaglocatiesysteem verplaatsen met behulp van het herindelingsdagboek. Dit is een handmatig proces dat veel tijd in beslag neemt. U kunt de opslaglocaties daarom het beste vanaf het begin af aan correct instellen.  
 
 Voor gebruik van de pagina **Voorstel opslaglocatieaanmaak** moet u zijn ingesteld als magazijnmedewerker op de locatie waar de opslaglocaties bestaan. Zie voor meer informatie [Magazijnmedewerkers instellen](warehouse-how-to-set-up-warehouse-employees.md).    
 
@@ -70,7 +77,8 @@ Voor gebruik van de pagina **Voorstel opslaglocatieaanmaak** moet u zijn ingeste
 
 Herhaal dit proces voor elke volgende set opslaglocaties, totdat u alle opslaglocaties van het magazijn hebt gemaakt.  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
