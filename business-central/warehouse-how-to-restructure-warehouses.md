@@ -1,5 +1,5 @@
 ---
-title: Magazijn herstructureren
+title: Magazijnen herstructureren
 description: Leer hoe u uw magazijn kunt herstructureren met nieuwe opslaglocatiecodes en nieuwe opslaglocatiekenmerken om een efficiëntere werking te bereiken of te behouden.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4fb323253d9eb27216ae1d340ace6978a05afe65
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fe027e43c91723c4e2a24d8afab373f2b96b07eb
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438069"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115242"
 ---
 # <a name="restructure-warehouses"></a>Magazijnen herstructureren
 Misschien wilt u op een dag de magazijnstructuur aanpassen en nieuwe opslaglocaties en kenmerken instellen. Dit zal niet vaak voorkomen, maar in sommige gevallen is een aanpassing van het magazijn noodzakelijk om een meer efficiënte bedrijfsvoering te bereiken of behouden. Voorbeeld:  

@@ -1,5 +1,5 @@
 ---
-title: Een rapportindeling actueel houden
+title: Aangepaste rapportlay-outs bijwerken
 description: Leer hoe u een aangepaste rapportlay-out kunt bijwerken die in een rapport wordt gebruikt, bijvoorbeeld wanneer er ontwerpwijzigingen zijn in de gegevensset van het rapport.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99b0f191bf9890683bb6cbb68f7baef0342f9737
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3d3aabe01a9969e8665f24479d8b11b26b54d5b
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445288"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101489"
 ---
 # <a name="update-custom-report-layouts"></a>Aangepaste rapportlay-outs bijwerken
+
 Soms moet u een aangepaste rapportlay-out die voor een rapport is gebruikt, bijwerken. Dit is vereist als er een ontwerpverandering in de gegevensset van het rapport is geweest, bijvoorbeeld een veld dat in de lay-out wordt gebruikt maar uit de gegevensset van het rapport is verwijderd. Als voor een rapportlay-out bijwerken vereist is, krijgt u een foutbericht wanneer u probeert een voorbeeld van het rapport te bekijken of het rapport af te drukken of op te slaan.  
 
 U kunt een rapportlay-out automatisch bijwerken vanuit het foutbericht dat wordt weergegeven wanneer u het rapport uitvoert. In dat geval kiest u de knop **Ja** in het foutbericht. In geavanceerde of actieve rapporten kunt u bepaalde rapportlay-outs of alle aangepaste rapportlay-outs bijwerken die mogelijk zijn beïnvloed door wijzigingen in gegevenssets.  

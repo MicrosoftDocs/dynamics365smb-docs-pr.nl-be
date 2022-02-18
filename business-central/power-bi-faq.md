@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3727faf800bf6ecf326009588eb3e1588a1bcfc3
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588011"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049444"
 ---
 # <a name="power-bi--faq"></a>Veelgestelde vragen over Power BI
 
@@ -126,7 +126,7 @@ Hier zijn andere pagina's die het grotere, niet-gefilterde onderdeel **Power BI-
 <!-- 5 -->
 ### <a name="is-there-any-way-to-filter-a-dataset-from-business-central-before-i-pull-it-into-power-bi-instead-of-applying-filters-afterwards"></a>Is er een manier om een gegevensset uit Business Central te filteren *voordat* ik deze in Power BI opneem in plaats van achteraf filters toe te passen?
 
-Om grotere datasets te filteren, is de eenvoudigste manier om een filter voor uw Power BI-rapport in te stellen door de Power Query-formule rechtstreeks te bewerken. De meeste filters die u op deze manier instelt, worden doorgegeven aan Business Central via het opvouwen van query's. Zie [Incrementele vernieuwing voor datasets](/power-bi/admin/service-premium-incremental-refresh).
+Om grotere datasets te filteren is de eenvoudigste manier een filter voor uw Power BI-rapport in te stellen door de Power Query-formule rechtstreeks te bewerken. De meeste filters die u op deze manier instelt, worden doorgegeven aan Business Central via het opvouwen van query's. Zie [Incrementele vernieuwing voor datasets](/power-bi/admin/service-premium-incremental-refresh).
 
 Er is momenteel geen manier om een filter in te stellen voor de webservicegegevens vanuit Business Central. Als uw toepassing een filter moet instellen vanuit Business Central, moet u voor dit doel een aangepaste Business Central-app maken.
 
@@ -140,18 +140,55 @@ Nee. Op dit moment niet.
 
 Als het om webservices gaat, zijn gepubliceerde zoekopdrachten meestal sneller dan gelijkwaardige gepubliceerde pagina's. De reden is dat query's zijn geoptimaliseerd voor het lezen van gegevens en geen dure triggers, zoals OnAfterGetRecord, bevatten.
 
-Wanneer de nieuwe connector in juni 2021 beschikbaar is, wordt u aangemoedigd om API-pagina's te gebruiken in plaats van query's die als webservices zijn gepubliceerd.
+Webservices zijn gebaseerd op pagina's of zoekopdrachten die zijn gebouwd voor toegang vanaf internet en meestal niet zijn geoptimaliseerd voor toegang vanaf externe services. Hoewel de Business Central-connector nog steeds ondersteuning biedt voor het ophalen van gegevens van webservices, raden we u aan om waar mogelijk API-pagina's te gebruiken in plaats van webservices.
 
 <!-- 13 --> 
 ### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Is er een manier voor een eindgebruiker om een webservice te maken met een kolom die in een Business Central-tabel staat, maar geen pagina? Of moet de ontwikkelaar een aangepaste query maken? 
 
-Ja. Met de release van de nieuwe connector in juni 2021 kan een ontwikkelaar een nieuwe API-pagina maken om aan deze vereiste te voldoen. 
+Er is momenteel geen manier om een nieuw veld toe te voegen aan een webservice. API-pagina's bieden volledige flexibiliteit in de paginastructuur, zodat een ontwikkelaar een nieuwe API-pagina kan maken om aan deze vereiste te voldoen. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Kan ik Power BI verbinden met een alleen-lezen databaseserver van Business Central Online? 
 
-Nee. We hebben deze functie echter wel op onze langetermijnplanning staan. 
+Deze functionaliteit zal binnenkort beschikbaar zijn. Vanaf februari 2022 proberen nieuwe rapporten die u maakt op basis van Business Central online-gegevens automatisch verbinding te maken met een alleen-lezen databasereplica. Hierdoor worden uw rapporten sneller vernieuwd en heeft dit minder invloed op de prestaties als u Business Central gebruikt terwijl een rapport wordt vernieuwd. We raden u toch aan om, indien mogelijk, uw rapporten zo te plannen dat ze buiten de normale werkuren worden vernieuwd.
 
+Als u oude rapporten hebt die zijn gebaseerd op Business Central-gegevens, maken ze geen verbinding met de alleen-lezen databasereplica.
+
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it"></a><a name="databasemods"></a>Ik heb de preview van de nieuwe connector voor de update van februari 2022 geprobeerd. Wanneer ik verbinding maak met mijn aangepaste Business Central API-pagina, krijg ik de foutmelding "Kan geen record invoegen. De huidige verbindingsintentie is alleen-lezen." Hoe kan ik dit herstellen?
+
+Met de nieuwe connector maken nieuwe rapporten die gebruikmaken van Business Central-gegevens standaard verbinding met een alleen-lezen replica van de Business Central-database. Deze wijziging zorgt voor een prestatieverbetering. In zeldzame gevallen kan dit echter de fout veroorzaken. Deze fout treedt meestal op omdat uw aangepaste API wijzigingen aanbrengt in Business Central-records terwijl Power BI probeert de gegevens op te halen. Het gebeurt met name als onderdeel van de AL-triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord en OnAfterGetCurrRecord.
+
+Als u dit probleem wilt oplossen door de Business Central-connector te dwingen dit gedrag toe te staan, raadpleegt u [Power BI-rapporten maken om Business Central-gegevens weer te geven - Problemen oplossen](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+
+<!--
+In general, we recommend avoiding any database modifications in API pages when they're opening or loading records, because they cause performance issues and might cause your report refresh to fail. In some cases, you might still need to make a database modification when your custom API page opens or loads records. You can force the Business Central connector to allow this behavior. Do the following steps when getting data from Business Central for the report in Power BI Desktop:
+
+1. Start Power BI Desktop.
+2. In the ribbon, select **Get Data** > **Online Services**.
+3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
+4. In the **Navigator** window, select the API endpoint that you want to load data from.
+5. In the preview pane on the right, you'll see the following error:
+
+   *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Cannot insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
+
+6.  Select **Transform Data** instead of **Load** as you might normally do.
+7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+8.  Replace the following line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
+   ```
+
+   with the line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false]),
+   ```
+
+9.  Select **Done**.
+10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
+
+-->
 ### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Hoe wijzig of wis ik het gebruikersaccount dat ik momenteel gebruik om verbinding te maken met Business Central vanuit Power BI Desktop?
 
 Ga in Power BI Desktop op een van de volgende manieren te werk:
@@ -207,9 +244,9 @@ Ja. Met geavanceerde scenario blijft Business Central goed presteren omdat de ge
 
 We onderzoeken deze functie. Power BI biedt uitgebreide API's om de implementatie van rapporten te beheren. Zie voor meer informatie [Inleiding op implementatiepijplijnen](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="ive-tried-the-preview-of-the-new-connector-which-will-be-live-in-june-2021-i-see-some-values-like-_x0020_-when-connecting-to-api-v20-what-are-these-values"></a>Ik heb de preview van de nieuwe connector geprobeerd, die in juni 2021 in gebruik wordt genomen. Ik zie waarden zoals _x0020_  wanneer ik verbinding maak met API v2.0. Wat zijn dit voor waarden?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values"></a>Wanneer ik gegevens van Business Central ontvang om te gebruiken in mijn Power BI-rapporten, zie ik enkele waarden zoals "_x0020_". Wat zijn dit voor waarden?
 
-Met de aanstaande versie van de Power BI-connector kunt u verbinding maken met de Business Central API-pagina's, inclusief API v2.0. Deze pagina's bevatten een aantal velden die zijn gebaseerd op [AL Enum-objecten](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Velden die zijn gebaseerd op AL Enum-objecten moeten namen hebben die consistent en altijd hetzelfde zijn, zodat rapportfilters altijd werken, ongeacht de taal die of het besturingssysteem dat u gebruikt. Om deze reden worden de velden die zijn gebaseerd op AL Enum niet vertaald en worden ze gecodeerd om speciale tekens, inclusief de spatie, te vermijden. Met name wanneer er een lege optie in het AL Enum-object is, wordt deze gecodeerd naar _x0020_. U kunt altijd een transformatie op uw gegevens toepassen in Power BI als u een andere waarde voor deze velden wilt weergeven, bijvoorbeeld Leeg.
+Sommige API-pagina's, waaronder de meeste API v2.0-pagina's, hebben velden die zijn gebaseerd op [AL Enum-objecten](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Velden die zijn gebaseerd op AL enum-objecten moeten namen hebben die consistent en altijd hetzelfde zijn, zodat rapportfilters altijd werken&mdash;ongeacht de taal die of het besturingssysteem dat u gebruikt. Om deze reden worden de velden die zijn gebaseerd op AL enums niet vertaald en worden ze gecodeerd om speciale tekens, inclusief de spatie, te vermijden. Met name wanneer er een lege optie in het AL Enum-object is, wordt deze gecodeerd naar _x0020_. U kunt altijd een transformatie op uw gegevens toepassen in Power BI als u een andere waarde voor deze velden wilt weergeven, bijvoorbeeld Leeg.
 
 
 ---

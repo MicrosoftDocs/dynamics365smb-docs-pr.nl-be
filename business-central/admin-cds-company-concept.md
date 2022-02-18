@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 0042d6b1ee8cdf1f7425c15075a73664f0aa1001
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482207"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049782"
 ---
 # <a name="data-ownership-models"></a>Modellen voor gegevenseigendom
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] vereist dat u een eigenaar opgeeft voor de gegevens die u opslaat. Zie voor meer informatie [Typen tabellen](/powerapps/maker/data-platform/types-of-entities) in de Power Apps-documentatie. Wanneer u integratie instelt tussen [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)], moet u het eigendomsmodel **Gebruiker of team** kiezen voor records die worden gesynchroniseerd. Acties die op deze records kunnen worden uitgevoerd, kunnen op gebruikersniveau worden beheerd. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 

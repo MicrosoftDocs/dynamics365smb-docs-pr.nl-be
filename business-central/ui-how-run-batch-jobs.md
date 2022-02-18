@@ -1,8 +1,6 @@
 ---
-title: Een batchverwerking maken en uitvoeren | Microsoft Docs
+title: Batchtaken en XMLports uitvoeren
 description: U voert batchverwerkingen uit om gegevens te verwerken en gegevens bij te werken om bijvoorbeeld periodieke boekhoudactiviteiten uit te voeren en berekeningen uit te voeren.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
+ms.search.form: 672, 676, 682
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 42cb5f19dde06211136b0b3b276fed2ba267ec62
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 84741ec7d98e405aeb5792a5d1a907221eef11f7
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435281"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100989"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Batchtaken en XMLports uitvoeren
+
 Een batchtaak is een routine waarmee gegevens in batches worden verwerkt, zoals bij de batchtaak **Wisselkoers herwaarderen**. Er zijn batchverwerkingen die periodieke boekhoudingactiviteiten uitvoeren, zoals het afsluiten van de resultatenrekening aan het einde van een boekjaar. Veel batchtaken voeren berekeningswerk uit, zoals de berekening van de financieringskosten, herwaardering van de wisselkoers en de berekening van eenheidsprijzen.
 
 Een batchverwerking lijkt op een lijst, alleen wordt bij een batchverwerking het resultaat van de bewerking niet gebruikt om de resultaten af te drukken, maar om gegevens direct bij te werken.

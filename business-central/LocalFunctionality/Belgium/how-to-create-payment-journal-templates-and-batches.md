@@ -4,15 +4,15 @@ description: In de Belgische versie worden betalingsvoorstellen gegenereerd en g
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.form: 256
+ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e4cf17525a8b5fdc5d41c2934212b8a1379dca9b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: a0657a571c231ae7162932aa39f011349a89f0ec
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973720"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100812"
 ---
 # <a name="create-payment-journal-templates-and-batches-in-the-belgian-version"></a>Betalingsdagboeksjablonen en -batches maken in de Belgische versie
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] worden betalingsvoorstellen gegenereerd en geboekt in betalingsdagboeken. De structuur van het betalingsdagboek lijkt op die van andere dagboeksoorten. Het betalingsdagboek bevat echter enkele velden die specifiek betrekking hebben op het verwerken van betalingen. Voordat u betalingsvoorstellen kunt genereren, moet u een betalingsdagboeksjabloon en een betalingsdagboekbatch instellen.  

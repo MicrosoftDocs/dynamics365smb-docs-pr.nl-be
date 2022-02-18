@@ -1,5 +1,5 @@
 ---
-title: Ontwerpdetails - Gemiddelde kosten | Microsoft Docs
+title: Ontwerpdetails - Gemiddelde kostprijs
 description: De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen gemiddelde, dat wordt gebaseerd op de periode voor gemiddelde kostprijsberekening die in Business Central is ingesteld.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 87bbd5d77bc677220b82789e343af1bda2300cbd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d670fb96b0f29c8a34f7076429d6a56f834d2e5d
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215490"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115104"
 ---
 # <a name="design-details-average-cost"></a>Ontwerpdetails: Gemiddelde kostprijs
 De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen gemiddelde, dat wordt gebaseerd op de periode voor gemiddelde kostprijsberekening die in [!INCLUDE[prod_short](includes/prod_short.md)] is ingesteld.  
@@ -28,7 +29,7 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 |Veld|Omschrijving|  
 |---------------------------------|---------------------------------------|  
 |**Periode gemiddelde kostprijsberekening**|Geeft op in welke periode de gemiddelde kostprijs is berekend. De volgende opties zijn mogelijk:<br /><br /> -   **Dag**<br />-   **Week**<br />-   **Maand**<br />-   **Boekingsperiode**<br /><br /> Aan alle voorraadafnamen die tijdens de gemiddelde-kostprijsperiode zijn geboekt, wordt de gemiddelde kostprijs toegewezen die voor die periode is berekend.|  
-|**Gem. kostprijsberekeningsoort**|Geeft aan hoe de gemiddelde kostprijs wordt berekend. De volgende opties zijn mogelijk:<br /><br /> -   **Artikel**<br />-   **Artikel, variant en vestiging**<br />     Met deze optie wordt de gemiddelde inkoopprijs berekend voor elk artikel, voor elke vestiging en voor elke variant van het artikel. Dit betekent dat de gemiddelde kostprijs van het artikel afhankelijk is van waar het is opgeslagen en van de variant die u hebt geselecteerd (bijvoorbeeld de kleur).|  
+|**Gem. kostprijsberekeningsoort**|Geeft aan hoe de gemiddelde kostprijs wordt berekend. De volgende opties zijn mogelijk:<br /><br /> -   **Artikel**<br />-   **Artikel, variant en vestiging**<br /> Met deze optie wordt de gemiddelde inkoopprijs berekend voor elk artikel, voor elke vestiging en voor elke variant van het artikel. Dit betekent dat de gemiddelde kostprijs van het artikel afhankelijk is van waar het is opgeslagen en van de variant die u hebt geselecteerd (bijvoorbeeld de kleur).|  
 
 > [!NOTE]  
 >  U kunt slechts één periode voor gemiddelde kostprijsberekening en één soort berekening voor de gemiddelde kostprijs gebruiken in een boekjaar.  
@@ -55,37 +56,37 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
  De volgende tabel toont artikelposten voor het voorbeeldartikel van gemiddelde kostprijsberekening, ART1, voordat de batchverwerking **Kostprijs herwaarderen - Artikelposten** is uitgevoerd.  
 
-|**Boekingsdatum**|**Artikelboekingssoort**|**Aantal**|**Tot. werk. kosten**|**Postnr.**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inkoop|1|20.00|1|  
-|01-01-20|Inkoop|1|40.00|2|  
-|01-01-20|Verkoop|-1|-20,00|3|  
-|01-02-20|Verkoop|-1|-40,00|4|  
-|02-02-20|Inkoop|1|100.00|5|  
-|03-02-20|Verkoop|-1|-100,00|6|  
+| **Boekingsdatum** | **Artikelboekingssoort** | **Aantal** | **Tot. werk. kosten** | **Postnr.** |
+|--|--|--|--|--|
+| 01-01-20 | Inkoop | 1 | 20.00 | 1 |
+| 01-01-20 | Inkoop | 1 | 40.00 | 2 |
+| 01-01-20 | Verkoop | -1 | -20,00 | 3 |
+| 01-02-20 | Verkoop | -1 | -40,00 | 4 |
+| 02-02-20 | Inkoop | 1 | 100.00 | 5 |
+| 03-02-20 | Verkoop | -1 | -100,00 | 6 |
 
 > [!NOTE]  
 >  Omdat de kostprijscorrectie nog niet is opgetreden, worden de waarden in het veld **Tot. werk. kosten** van de voorraad verlaagd in overeenstemming met de positieve voorraadmutatie waarop ze worden toegepast.  
 
  De volgende tabel toont de posten in de tabel **Gem. kostprijsaanpassing invoerhaven** die van toepassing zijn op de waardeposten die afkomstig zijn uit de artikelposten in de voorgaande tabel.  
 
-|**Artikelnr.**|**Variant**|**Vestiging**|**Waarderingsdatum**|**Kostprijs geherwaardeerd**|  
-|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ART1||BLAUW|01-01-20|Nee|  
-|ART1||BLAUW|01-02-20|Nee|  
-|ART1||BLAUW|02-02-20|Nee|  
-|ART1||BLAUW|03-02-20|Nee|  
+| **Artikelnr.** | **Variant** | **Vestiging** | **Waarderingsdatum** | **Kostprijs geherwaardeerd** |
+|--|--|--|--|--|
+| ART1 |  | BLAUW | 01-01-20 | Nee |
+| ART1 |  | BLAUW | 01-02-20 | Nee |
+| ART1 |  | BLAUW | 02-02-20 | Nee |
+| ART1 |  | BLAUW | 03-02-20 | Nee |
 
  De volgende tabel toont dezelfde artikelposten nadat de batchverwerking **Kostprijs herwaarderen - Artikelposten** is uitgevoerd. De gemiddelde kosten per dag worden berekend en toegepast op de voorraadafnames.  
 
-|**Boekingsdatum**|**Artikelboekingssoort**|**Aantal**|**Tot. werk. kosten**|**Postnr.**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inkoop|1|20.00|1|  
-|01-01-20|Inkoop|1|40.00|2|  
-|01-01-20|Verkoop|-1|-30,00|3|  
-|01-02-20|Verkoop|-1|-30,00|4|  
-|02-02-20|Inkoop|1|100.00|5|  
-|03-02-20|Verkoop|-1|-100,00|6|  
+| **Boekingsdatum** | **Artikelboekingssoort** | **Aantal** | **Tot. werk. kosten** | **Postnr.** |
+|--|--|--|--|--|--|
+| 01-01-20 | Inkoop | 1 | 20.00 | 1 |
+| 01-01-20 | Inkoop | 1 | 40.00 | 2 |
+| 01-01-20 | Verkoop | -1 | -30,00 | 3 |
+| 01-02-20 | Verkoop | -1 | -30,00 | 4 |
+| 02-02-20 | Inkoop | 1 | 100.00 | 5 |
+| 03-02-20 | Verkoop | -1 | -100,00 | 6 |
 
 ### <a name="example-average-cost-period--month"></a>Voorbeeld: Periode gemiddelde kostprijsberekening = Maand  
  In het volgende voorbeeld wordt het effect getoond van het berekenen van de gemiddelde kosten op basis van een periode voor gemiddelde kosten van één maand. Het veld **Gem. kostprijsberekeningsoort** op de pagina **Voorraadinstelling** is ingesteld op **Artikel**.  
@@ -94,24 +95,24 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
 
  De volgende tabel toont artikelposten voor het voorbeeldartikel van gemiddelde kostprijsberekening, ART1, voordat de batchverwerking **Kostprijs herwaarderen - Artikelposten** is uitgevoerd.  
 
-|**Boekingsdatum**|**Artikelboekingssoort**|**Aantal**|**Tot. werk. kosten**|**Postnr.**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inkoop|1|20.00|1|  
-|01-01-20|Inkoop|1|40.00|2|  
-|01-01-20|Verkoop|-1|-20,00|3|  
-|01-02-20|Verkoop|-1|-40,00|4|  
-|02-02-20|Inkoop|1|100.00|5|  
-|03-02-20|Verkoop|-1|-100,00|6|  
+| **Boekingsdatum** | **Artikelboekingssoort** | **Aantal** | **Tot. werk. kosten** | **Postnr.** |
+|--|--|--|--|--|
+| 01-01-20 | Inkoop | 1 | 20.00 | 1 |
+| 01-01-20 | Inkoop | 1 | 40.00 | 2 |
+| 01-01-20 | Verkoop | -1 | -20,00 | 3 |
+| 01-02-20 | Verkoop | -1 | -40,00 | 4 |
+| 02-02-20 | Inkoop | 1 | 100.00 | 5 |
+| 03-02-20 | Verkoop | -1 | -100,00 | 6 |
 
 > [!NOTE]  
 >  Omdat de kostprijscorrectie nog niet is opgetreden, worden de waarden in het veld **Tot. werk. kosten** van de voorraad verlaagd in overeenstemming met de positieve voorraadmutatie waarop ze worden toegepast.  
 
  De volgende tabel toont de posten in de tabel **Gem. kostprijsaanpassing invoerhaven** die van toepassing zijn op de waardeposten die afkomstig zijn uit de artikelposten in de voorgaande tabel.  
 
-|**Artikelnr.**|**Variant**|**Vestiging**|**Waarderingsdatum**|**Kostprijs geherwaardeerd**|  
-|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ART1||BLAUW|31-01-20|Nee|  
-|ART1||BLAUW|28-02-20|Nee|  
+| **Artikelnr.** | **Variant** | **Vestiging** | **Waarderingsdatum** | **Kostprijs geherwaardeerd** |
+|--|--|--|--|--|
+| ART1 |  | BLAUW | 31-01-20 | Nee |
+| ART1 |  | BLAUW | 28-02-20 | Nee |
 
 > [!NOTE]  
 >  De waarderingsdatum wordt ingesteld op de laatste dag in de periode voor gemiddelde kostprijsberekening, in dit geval de laatste dag van de maand.  

@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.search.form: 456
+ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3379405e2d8c6c3b381caa9f4aa66191bb7a6579
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: f886656262853acd34007118248a52af2184b36a
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029652"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115378"
 ---
 # <a name="create-number-series"></a>Nummerreeksen maken
 
@@ -61,30 +61,41 @@ Wanneer u een nieuwe kaart of document opent waarvoor een nummerreeks bestaat, w
 > Als u handmatige nummering moet inschakelen op, bijvoorbeeld, nieuwe artikelkaarten die zijn gemaakt met een gegevensmigratieproces, waarop het **Nr.** standaard is verborgen, gaat u naar de pagina **Voorraadinstellingen** en kiest u het veld **Artikelnrs.** om de gerelateerde nummerreeks te openen en in te stellen op **Handm. nummering**.
 
 ## <a name="to-create-a-new-number-series"></a>Een nieuwe nummerreeks maken
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Nr.-reeks** in en kies vervolgens de gerelateerde koppeling.
-2. Kies de actie **Nieuw**.
-3. Vul op de nieuwe regel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Kies de actie **Regels**.
-5. Vul op de pagina **Nr.-reeksregels** de velden in om het daadwerkelijke gebruik en de inhoud van de nummerreeks die u in stap 2 hebt gemaakt, te definiëren.
-6. Herhaal stap 5 voor zo veel verschillende toepassingen van de nummerreeks die u nodig hebt. Het veld **Begindatum** definieert welke nummerreeksregel actief is.
+2. Kies de actie **Nieuw**.  
+3. Vul op de nieuwe regel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Kies de actie **Regels**.  
+5. Vul op de pagina **Nr.-reeksregels** de velden in om het daadwerkelijke gebruik en de inhoud van de nummerreeks die u in stap 2 hebt gemaakt, te definiëren.  
+6. Herhaal stap 5 voor zo veel verschillende toepassingen van de nummerreeks die u nodig hebt. Het veld **Begindatum** definieert welke nummerreeksregel actief is.  
 
-## <a name="to-set-up-where-a-number-series-is-used"></a>Instellen waar een nummerreeks wordt gebruikt
-In de volgende procedure wordt beschreven hoe u nummerreeksen instelt voor de module Verkoop. De stappen zijn vergelijkbaar voor andere modules.
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer op de pagina **Verkopen en klanten** op het sneltabblad **Nummerreeksen** de gewenste nummerreeksen voor iedere verkoopkaart of -document.
+> [!TIP]
+> Om gebruikers in staat te stellen handmatig nummers op te geven wanneer ze bijvoorbeeld een nieuwe klant of leverancier registreren, kiest u het veld **Handm. nummering** voor de nummerreeks zelf. Wis het veld om handmatige nummering niet toe te staan.
 
-Het geselecteerde nummer wordt nu ingevuld op het veld **Nr.** op de kaart of het document, afhankelijk van de instellingen die u hebt ingevoerd op de nummerreeksregel.
+U kunt nummerreeksen toewijzen aan de sjablonen die u instelt voor de verschillende soorten klanten en leveranciers die uw verkopers en inkopers het vaakst toevoegen aan uw [!INCLUDE [prod_short](includes/prod_short.md)]. Stel in dat geval de relevante nummerreeksen in, koppel ze via relaties en voeg vervolgens de eerste nummerreeks in de relevante relatie toe aan de relevante instellingenpagina.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Relaties maken tussen nummerreeksen
-Als u meerdere nummerreekscodes hebt ingesteld voor hetzelfde soort basisgegevens of transacties, kunt u relaties tussen de codes instellen. Met deze functie kunt u een code kiezen wanneer u een nummer gebruikt.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Nr.-reeks** in en kies vervolgens de gerelateerde koppeling.
+Als u meerdere nummerreekscodes hebt ingesteld voor hetzelfde soort basisgegevens of transacties, kunt u relaties tussen de codes instellen. Met deze functie kunt u een code kiezen wanneer u een nummer gebruikt. Als u een relatie instelt tussen een verzameling nummerreeksen, koppelt u alle gekoppelde reeksen aan één nummerreekscode. Vervolgens kunt u die code invoeren in een veld op het sneltabblad **Nummering** op een van de relevante instellingenpagina's, zoals **Verkoopinstellingen**.  
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Nr.-reeks** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel met de nummerreeks waarvoor u relaties wilt instellen en kies vervolgens **Relaties**.
 3. Geef in het veld **Reeks** de code op voor de nummerreeks die u wilt koppelen aan de reeks die u in stap 2 hebt geselecteerd.
 4. Voeg een regel toe voor elke code die u wilt koppelen aan de geselecteerde nummerreeksen.
 5. Sluit de pagina.
 
 Wanneer u nu iets instelt waarvoor u een nummer nodig hebt, kunt u de relaties gebruiken die u hebt ingesteld om te kiezen tussen de gekoppelde nummerreeksen.
+
+## <a name="to-set-up-where-a-number-series-is-used"></a>Instellen waar een nummerreeks wordt gebruikt
+
+In de volgende procedure wordt beschreven hoe u nummerreeksen instelt voor de module Verkoop. De stappen zijn vergelijkbaar voor andere modules.  
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer op de pagina **Verkopen en klanten** op het sneltabblad **Nummerreeksen** de gewenste nummerreeksen voor iedere verkoopkaart of -document.
+
+Het geselecteerde nummer wordt nu ingevuld op het veld **Nr.** op de kaart of het document, afhankelijk van de instellingen die u hebt ingevoerd op de nummerreeksregel.  
+
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 

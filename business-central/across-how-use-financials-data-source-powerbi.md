@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: db872c8049550a497e2ee56a4a62bb69fa6a1854
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341345"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049860"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven
 
@@ -150,6 +150,39 @@ Er zijn een aantal manieren om rapporten beschikbaar te maken voor uw collega's 
 - Het rapport delen vanuit uw Power BI-service
 
     Als u een Power BI Pro-licentie hebt, kunt u het rapport rechtstreeks vanuit uw Power BI-service delen met anderen. Zie [Power BI - een dashboard of rapport delen](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report) voor meer informatie.
+
+## <a name="fixing-problems"></a>Problemen oplossen
+
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Kan geen record invoegen. De huidige verbindingsintentie is alleen-lezen." fout bij het verbinden met aangepaste API-pagina
+
+> **VAN TOEPASSING OP:** Business Central online
+
+Vanaf februari 2022 maken nieuwe rapporten die gebruikmaken van Business Central-gegevens, standaard verbinding met een alleen-lezen replica van de Business Central-database. In zeldzame gevallen, afhankelijk van het pagina-ontwerp, krijgt u een foutmelding wanneer u verbinding probeert te maken en gegevens van de pagina probeert op te halen.
+
+1. Start Power BI Desktop.
+2. Selecteer op het lint **Gegevens ophalen** > **Onlineservices**.
+3. Selecteer in het deelvenster **Onlineservices** **Dynamics 365 Business Central** en dan **Verbinden**.
+4. Selecteer in het venster **Navigator** het API-eindpunt waaruit u gegevens wilt laden.
+5. In het voorbeeldvenster aan de rechterkant ziet u de volgende fout:
+
+   *Dynamics365BusinessCentral: Aanvraag mislukt: de externe server heeft een fout geretourneerd: (400) Ongeldige aanvraag. (Kan geen record invoegen. Huidige verbindingsintentie is Alleen-lezen. CorrelationId: [...])".*
+
+6. Selecteer **Gegevens transformeren** in plaats van **Laden** zoals u normaal zou doen.
+7. Selecteer in de **Power Query-editor** **Geavanceerde editor** vanaf het lint.
+8. Vervang op de regel die begint met **Source =**, de volgende tekst:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+   door:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
+   ```
+
+9. Selecteer **Gereed**.
+10. Selecteer **Sluiten en toepassen** op het lint om de wijzigingen op te slaan en de Power Query-editor te sluiten.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

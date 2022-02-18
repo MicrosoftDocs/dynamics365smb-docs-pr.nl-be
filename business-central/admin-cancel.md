@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6330aeb05bf2f0ba84585c0cd8391b7cf3338de4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c7ecf1d5bcd9d59acccf0a300a9a126e9910c12b
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786869"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059528"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)] verwijderen of het abonnement erop stoppen
 
@@ -23,7 +23,7 @@ Als u wilt stoppen met het gebruik van [!INCLUDE[prod_short](includes/prod_short
 
 ## <a name="closing-your-free-trial-of-prod_short"></a>Uw gratis proef van [!INCLUDE[prod_short](includes/prod_short.md)] sluiten
 
-Als u zich hebt aangemeld voor de gratis proef en niet wilt doorgaan met [!INCLUDE[prod_short](includes/prod_short.md)], kunt u uw account op elk moment sluiten. Het is raadzaam eventuele gegevens te exporteren voordat u uw account sluit. 
+Als u zich hebt aangemeld voor de gratis proef en niet wilt doorgaan met [!INCLUDE[prod_short](includes/prod_short.md)], kunt u uw account op elk moment sluiten. Het is raadzaam eventuele gegevens te exporteren voordat u uw account sluit. U kunt lezen hoe u gegevens naar Excel exporteert in [Gegevens exporteren naar andere financiële systemen](about-export-data.md#exporting-data-to-other-finance-systems). Als u liever alle gegevens naar een Azure-opslagcontainer exporteert, kan uw Microsoft 365-beheerder dat doen in het beheercentrum. Zie voor meer informatie [Databases exporteren in het beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
 U moet uw Microsoft 365-beheerder vragen om het proefabonnement van uw bedrijfsaccount te verwijderen in het [Microsoft 365-beheercentrum](https://admin.microsoft.com/).  
 
@@ -38,14 +38,18 @@ Als uw bedrijf het abonnement op [!INCLUDE[prod_short](includes/prod_short.md)] 
 Gebruikersaccounts en licenties worden beheerd in het [Microsoft 365-beheercentrum](https://admin.microsoft.com/). Alleen beheerders kunnen [!INCLUDE[prod_short](includes/prod_short.md)]-licenties uit gebruikersaccounts verwijderen of het abonnement verwijderen uit het account van uw bedrijf.  
 
 ## <a name="removing-prod_short-from-your-app-launcher"></a>[!INCLUDE[prod_short](includes/prod_short.md)] verwijderen uit uw opstartprogramma voor apps
+
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] in uw opstartprogramma voor apps wilt verbergen, kunt u het eenvoudig losmaken. Er worden dan geen gegevens verwijderd en uw abonnement wordt niet geannuleerd.  
 
 ## <a name="see-also"></a>Zie ook
+
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Nieuwe bedrijven maken](about-new-company.md)  
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  
 [Microsoft 365-beheercentrum](https://admin.microsoft.com/)  
 [Hoe lang duurt de proeftijd en hoe kan ik opzeggen?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+[Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  
+[Databases exporteren in het beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

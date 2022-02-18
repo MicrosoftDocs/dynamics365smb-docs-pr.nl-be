@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 2000000, 2000001, 2000003
+ms.search.form: 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 0b423b6465fb07d99e7f0378672286223dfd1770
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 6643d03b5ef5fc6934656288e8a81749fe8578a5
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947221"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101182"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Incasso via domiciliëring
 

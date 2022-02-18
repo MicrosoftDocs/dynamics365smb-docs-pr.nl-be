@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 44729a82d50a925d9ad904f8035dd49daee24262
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: c7225981e11a8968c8fd698cda2373be133cea9e
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588713"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049730"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>De te synchroniseren tabellen en velden toewijzen
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 De basis voor de synchronisatie van gegevens is de toewijzing van de tabellen en velden in [!INCLUDE[prod_short](includes/prod_short.md)] aan tabellen en kolommen in [!INCLUDE[prod_short](includes/cds_long_md.md)], zodat de gegevens kunnen worden uitgewisseld. Toewijzing gebeurt via integratietabellen. 
 

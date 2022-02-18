@@ -1,5 +1,5 @@
 ---
-title: Voorgestelde veldwaarden instellen | Microsoft Docs
+title: Business Central waarden laten voorstellen
 description: Als u handmatige berekeningen wilt voorkomen en taken snel en accuraat wilt voltooien, kunt u automatische gegevensinvoer instellen, zodat Business Central geselecteerde velden invult.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 39, 251, 981
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9af79eccbfd180ce7d587a3cb2e420fde0f85a3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c7aaa366a237e2196aaa8a6e376220e5d5794d87
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445339"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100833"
 ---
 # <a name="letting-prod_short-suggest-values"></a>[!INCLUDE[prod_short](includes/prod_short.md)] waarden laten voorstellen
 [!INCLUDE[prod_short](includes/prod_short.md)] kan u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren. Hoewel dergelijke automatische gegevensinvoer altijd correct is, kunt u deze later wijzigen als u wilt.

@@ -1,5 +1,5 @@
 ---
-title: Klantenposten vereffenen om handmatig klantbetalingen te reconciliëren | Microsoft Docs
+title: Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten
 description: Beschrijft hoe u kasontvangsten of terugbetalingen van klanten vereffent met een of meer openstaande klantposten en klantbetalingen reconcilieert.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
+ms.search.form: 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef50dd0119922e7a67bdb10d0a3d3765bc54395f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 05b4d5074f77101e7158738b78126a562aabcc1e
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436085"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100963"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten
+
 Wanneer u een bedrag ontvangt van een klant of een terugbetaling doet, moet u bedenken of de ontvangst of betaling moet worden vereffend om een of meer openstaande debet- of creditposten te sluiten. U kunt het exacte bedrag opgeven dat u wilt vereffenen. U kunt bijvoorbeeld gedeeltelijke betalingen vereffenen met klantenposten. Het sluiten van klantenposten garandeert dat gegevens zoals bijvoorbeeld klantstatistieken, rekeningoverzichten, en rente correct zijn.
 
 > [!TIP]  

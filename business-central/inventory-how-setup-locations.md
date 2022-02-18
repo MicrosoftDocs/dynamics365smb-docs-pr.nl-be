@@ -8,18 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
+ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1d65213d81c2a615481e753adb380675ff2ee691
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 2482b25e6b8e29e5cff420db1700943ca4f1df51
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940738"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060102"
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
 
-Als u artikelen op meer dan één plaats of magazijn koopt, opslaat of verkoopt, moet u elke vestiging instellen met een vestigingskaart en transferroutes definiëren. [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt vestigingen om de voorraad bij te houden in zowel eenvoudigere gevallen als de meer complexe magazijnprocessen.
+Vestigingen zijn plaatsen zoals magazijnen waar u artikelen koopt, opslaat of verkoopt. [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt vestigingen om de voorraad bij te houden in zowel eenvoudige als complexere magazijnprocessen.
 
 U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarheid per locatie weergeven en voorraad tussen locaties overbrengen. Zie [Voorraad beheren](inventory-manage-inventory.md) voor meer informatie.
 <br><br>  
@@ -27,28 +28,27 @@ U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarh
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Vestigingskaarten
-
-Op de vestigingskaart staat informatie over een vestiging, zoals een magazijn of distributiecentrum. U wijst aan elke vestiging een naam toe en een code die de vestiging vertegenwoordigt. U kunt de vestigingscode in andere delen van het programma invoeren om transacties voor een bepaalde vestiging vast te leggen.  
+U geeft informatie over een vestiging, zoals een magazijn of een distributiecentrum, op de pagina **Vestiging** op. U wijst aan elke vestiging een naam toe en een code die de vestiging vertegenwoordigt. U kunt de vestigingscode in andere delen van het programma invoeren om transacties voor een bepaalde vestiging vast te leggen.  
 
 U kunt informatie invoeren over opslaglocaties en magazijnbeleid voor elke vestiging. Op basis van het geselecteerde magazijnbeleid gebruikt u de opties op het sneltabblad **Opslaglocaties** om de opslaglocaties te definiëren die als standaardopslaglocaties worden gebruikt wanneer u transacties uitvoert. Als u gestuurde opslag en pick gebruikt, gebruikt u de meeste opties op het sneltabblad **Opslaglocatiebeleid** om te definiëren hoe u de verschillende magazijnfuncties wilt gebruiken.  
 
-Sommige optievelden zijn niet beschikbaar en uitgeschakeld door andere instellingen op de pagina **Vestigingskaart** om niet-ondersteunde combinaties te beperken.  
+Sommige optievelden zijn afhankelijk van instellingen op de pagina **Vestiging** om niet-ondersteunde combinaties te beperken.  
 
 Kies de actie **Zones** of **Opslaglocaties** voor informatie over zones en opslaglocaties die zijn gedefinieerd voor de vestiging.
 
-### <a name="to-create-a-location-card"></a>Een vestigingskaart maken
+### <a name="to-set-up-a-location"></a>Een vestiging instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden op de pagina **Vestiging** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Herhaal stap 2 en 3 voor elke locatie waar u voorraad wilt houden.
 
 > [!NOTE]  
-> Veel velden op de vestigingskaart verwijzen naar de verwerking van artikelen in inkomende en uitgaande magazijnprocessen. De velden zijn niet relevant voor bedrijven die de meer complexe magazijnfunctionaliteit niet nodig hebben. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
+> Veel velden op de pagina Vestigingskaart verwijzen naar de verwerking van artikelen in inkomende en uitgaande magazijnprocessen. Deze velden zijn niet relevant voor bedrijven die de meer complexe magazijnfunctionaliteit niet nodig hebben. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
 U kunt de configuratie van een vestiging later wijzigen, maar u kunt de instellingen van vestigingen met artikelposten niet bewerken.  
 
-Als u meerdere vestigingen heeft, kunt u vervolgens transferroutes tussen vestigingen definiëren.  
+Als u meerdere vestigingen heeft, kunt u vervolgens transferroutes tussen vestigingen definiëren. Zie voor meer informatie [Een transferroute maken ](inventory-how-setup-locations.md#to-create-a-transfer-route). 
 
 ### <a name="to-create-a-transfer-route"></a>Een transferroute maken
 
@@ -61,14 +61,12 @@ U kunt nu voorraadartikelen tussen twee vestigingen overbrengen. Zie voor meer i
 
 ## <a name="bins"></a>Opslaglocaties
 
-Opslaglocaties vertegenwoordigen de standaard magazijnstructuur en worden gebruikt voor het doen van voorstellen over de plaatsing van artikelen. Wanneer u uw opslaglocaties hebt gemaakt, kunt u de inhoud die u in de afzonderlijke opslaglocaties wilt plaatsen precies definiëren. De opslaglocatie kan echter ook functioneren als een vrije opslaglocatie zonder opgegeven inhoud. Opslaglocaties worden voornamelijk gebruikt in basis- en geavanceerde magazijnactiviteiten. Als u voorraad op een eenvoudigere manier beheert, heeft u waarschijnlijk geen opslaglocaties nodig.
+Opslaglocaties vertegenwoordigen de standaard magazijnstructuur en worden gebruikt voor het doen van voorstellen over de plaatsing van artikelen. Wanneer u uw opslaglocaties hebt gemaakt, kunt u de inhoud ervan definiëren of kunnen ze functioneren als vrije opslaglocaties zonder opgegeven inhoud. Opslaglocaties worden voornamelijk gebruikt in basis- en geavanceerde magazijnactiviteiten. Als u voorraad op een eenvoudigere manier beheert, heeft u waarschijnlijk geen opslaglocaties nodig.
 
-Om de opslaglocatiefunctionaliteit op een vestiging te gebruiken, activeert u eerst de functionaliteit op de **vestigingskaart** door het veld **Opslaglocatie verplicht** op het sneltabblad **Magazijn** te selecteren. U ontwerpt vervolgens de artikelstroom op de locatie door de opslaglocatiecodes op te geven in de instellingsvelden voor de verschillende stromen.
+Om de opslaglocatiefunctionaliteit op een vestiging te gebruiken, activeert u eerst de functionaliteit op de pagina **Vestiging** door het veld **Opslaglocaties verplicht** op het sneltabblad **Magazijn** te selecteren. U ontwerpt vervolgens de artikelstroom op de locatie door de opslaglocatiecodes op te geven in de instellingsvelden voor de verschillende stromen.
 
 > [!NOTE]
-> Voordat u opslaglocatiecodes op de vestigingskaart kunt opgeven, moeten de opslaglocatiecodes worden gemaakt.
-
-Zie [Opslaglocaties maken](warehouse-how-to-create-individual-bins.md) en [Opslaglocatiesoorten instellen](warehouse-how-to-set-up-bin-types.md).  
+> Voordat u opslaglocatiecodes voor een vestiging kunt opgeven, moet u opslaglocatiecodes maken. Zie [Opslaglocaties maken](warehouse-how-to-create-individual-bins.md) en [Opslaglocatiesoorten instellen](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="zones"></a>Zones
 

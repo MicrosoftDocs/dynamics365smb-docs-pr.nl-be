@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2631307db3975eeb406662caac2edf2f9d83238c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323730"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101464"
 ---
 # <a name="application-compliance"></a>Toepassingsnaleving
 
@@ -77,7 +77,6 @@ Lever geïntegreerde gegevens, uitgelijnde processen en gemakkelijk te gebruiken
 - Tijd besparen wanneer u standaardrapporten maakt die veelgebruikte bedrijfsparameters en -criteria gebruiken om te voldoen aan gebruikelijke rapportagebehoeften, variërend van orderoverzichten tot vervallende tegoeden.
 - Complexe controles uitvoeren met elementaire of geavanceerde functionaliteit voor bedrijfsanalyse.
 - Maak aangepaste rapporten en weergave in producten en met behulp van integratie met Microsoft PowerBI.
-- Transmissie versnellen van financiële informatie naar klanten, aandeelhouders, regelgevende bureaus en het publiek, met op XML gebaseerde XBRL-documenten die de uitwisseling van financiële gegevens ondersteunen via uiteenlopende software en technologie, inclusief internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Helpen zorgen voor duidelijke audittrails
 

@@ -1,5 +1,5 @@
 ---
-title: Lay-outs van rapporten en documenten importeren en exporteren | Microsoft Docs
+title: Een rapport- of documentindeling importeren en exporteren
 description: U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een bestand van en naar een locatie op uw computer of in uw netwerk.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441080"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101359"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Aangepaste rapportlay-outs importeren en exporteren
 U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een bestand van en naar een locatie op uw computer of in uw netwerk. U kunt bijvoorbeeld een rapportlay-out exporteren en het bestand vervolgens voor wijziging naar iemand anders verzenden. Die persoon kan vervolgens de wijzigingen in de lay-out aanbrengen en het bestand aan u retourneren zodat u het weer kunt importeren.  
@@ -51,10 +51,11 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook  
- [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
- [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
- [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)    
+## <a name="see-also"></a>Zie ook
+
+[Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
+[Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
+[Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 06/21/2021
+ms.date: 02/09/2022
 ms.author: jswymer
-ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 142a9f826e200f06172b741e72e54d49ff9caf47
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972212"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102615"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Werken met rapporten, batchverwerkingen en XMLports
 
@@ -32,7 +32,7 @@ U vindt rapporten op het tabblad **Rapporten** op bepaalde pagina's of u kunt zo
 
 Wanneer u een rapport, batchtaak of XMLport opent, ziet u meestal een aanvraagpagina waarop u verschillende opties en filters kunt kiezen die bepalen wat er in het rapport wordt opgenomen. In de volgende secties wordt uitgelegd hoe u de aanvraagpagina gebruikt om een rapport te maken, te bekijken en af te drukken.
 
-## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Standaardwaarden gebruiken: vooraf gedefinieerde instellingen 
+## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Standaardwaarden gebruiken: vooraf gedefinieerde instellingen
 
 De meeste aanvraagpagina's bevatten het veld **Standaardwaarden gebruiken uit**. In dit veld kunt u vooraf gedefinieerde instellingen voor het rapport selecteren, waarmee automatisch opties en filters voor het rapport worden ingesteld. Selecteer een item in de vervolgkeuzelijst en u zult zien dat de opties en filters op de aanvraagpagina dienovereenkomstig veranderen.
 
@@ -84,67 +84,18 @@ Gebruik in het rapportvoorbeeld de menubalk om het volgende te doen:
 
 U kunt een rapport opslaan als een PDF-document, een Microsoft Word-document of een Microsoft Excel-werkblad. Kies hiervoor de knop **Verzenden naar** en maak uw selectie.
 
-### <a name="send-to-excel"></a>Verzenden naar Excel
+### <a name="about-sending-to-excel"></a>Over verzenden naar Excel
 
-<!-- The following table describes the options for saving the report results as a worksheet in an Excel workbook.
+U kunt werken met [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens in Excel voor verdere analyse. Zie voor meer informatie [Rapportgegevens analyseren met Excel](report-analyze-excel.md).  
+<!--
+### About sending to Word
 
-|Option  |Description  |
-|---------|---------|
-|Microsoft Excel Document (data and layout)|Export the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme. <br><br>**Note**: Some reports might export numbers as text, so it's a good idea to verify the numbers. |
-|Microsoft Excel Document (data only)|Export the report results and the criteria that was used to generate them, such as the parameters you specified on the request page, metadata, and the fields that control the layout of the printed report. Use this option when you want to do ad hoc analysis of the data or diagnose data issues in reports. For example, you can filter the data and use Power Pivot to display it.<br><br>This option exports all columns, including columns that hold formatting instructions for other values and filters. In columns that hold binary data like images, instead of actually values, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.<br><br>**NOTE** With Business Central on-premises, the Business Central Server includes a configurations setting, called **Max Data Rows Allowed to Send to Excel**. This setting limits the number of rows that can be exported to Excel. If you don't see the expected number of rows, it might be because of this setting. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.|-->
-
-Er zijn twee opties om de rapportresultaten op te slaan als een werkblad in een Excel-werkmap: **Microsoft Excel-document (gegevens en lay-out)** en **Microsoft Excel-document (alleen gegevens)**
-
-#### <a name="microsoft-excel-document-data-and-layout"></a>[Microsoft Excel-document (gegevens en lay-out)](#tab/data-and-layout)
-
-Deze optie is alleen beschikbaar voor rapporten die een RDLC-lay-out gebruiken. Het exporteert de rapportresultaten met de RDLC-lay-out. Gebruik deze optie als u de gegevens eenmalig wilt exporteren en alleen kleine wijzigingen wilt aanbrengen in het uiterlijk, zoals lettertype en kleurenschema.
-
-#### <a name="microsoft-excel-document-data-only"></a><a name="exportdataonly"></a>[Microsoft Excel-document (alleen gegevens)](#tab/data-only)
-
-De optie **Microsoft Excel-document (alleen gegevens)** exporteert de rapportresultaten en de criteria die werden gebruikt om ze te genereren&mdash;maar het omvat niet de rapportlay-out. Het Excel-bestand bevat de volledige dataset, als onbewerkte gegevens, gerangschikt in rijen en kolommen. Alle gegevenskolommen van de gegevensset van het rapport worden opgenomen, ongeacht of ze in de rapportlay-out worden gebruikt.  Gebruik deze optie wanneer u:
-
-- Adhoc-analyse van de gegevens uitvoert. U kunt bijvoorbeeld de gegevens filteren en Power Pivot gebruiken om ze weer te geven.
-
-  Elke keer dat u resultaten exporteert, wordt er een nieuw werkblad gemaakt. Met de optie **Microsoft Excel document (alleen gegevens)** kunt u hetzelfde rapport uitvoeren en opmaakwijzigingen opnieuw gebruiken. Bijvoorbeeld voor Power Pivot kunt u het rapport opnieuw uitvoeren voor een andere periode, de resultaten naar het werkblad kopiëren en het werkblad vervolgens vernieuwen. U vindt ook een rapportage-app op [AppSource](https://appsource.microsoft.com/).
-- Inspecteer de rapportgegevensset wanneer u aangepaste rapportlay-outs maakt of wijzigt.
-
-  Zie voor informatie over het maken van aangepaste rapportlay-outs: [Aangepaste rapportlay-outs maken of wijzigen](ui-how-create-custom-report-layout.md)
-- Diagnose van gegevensproblemen in rapporten.
-
-##### <a name="for-administrators"></a>Voor beheerders
-
-- **Microsoft Excel-document (alleen gegevens)** werd geïntroduceerd als een optionele functie in de releasewave 1 van 2021, update 18.3. Om gebruikers toegang te geven tot deze functie, schakelt u de functie-update **Rapportgegevensset opslaan in Microsoft Excel-document** in **Functiebeheer** in. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management). In releasewave 2 van 2021 wordt deze functie permanent, dus hoeft u deze niet in te schakelen.
-
-- Gebruikersaccounts hebben de machtiging **<!--Export Report Dataset To Excel-->Actie Rapportgegevensset exporteren naar Excel toestaan** nodig, die u kunt toepassen met behulp van de machtigingenset **Hulpprogramma's voor probleemoplossing** of **Rapport naar Excel exporteren**.  
-
-- U kunt geen rapport exporteren met meer dan 1,048,576 rijen of 16.384 kolommen.
-
-    > [!NOTE]
-    > Met Business Central on-premises is het maximum aantal geëxporteerde rijen mogelijk nog lager. Business Central Server bevat een configuratie-instelling, genaamd **Max. gegevensrijen die naar Excel kunnen worden verzonden**, voor het verlagen van de limiet vanaf de maximale waarde. Voor meer informatie zie [Business Central Server configureren](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) of neem contact op met uw beheerder.
-
-##### <a name="for-developers-and-advanced-users"></a>Voor ontwikkelaars en gevorderde gebruikers
-
-De optie **Microsoft Excel-document (alleen gegevens)** exporteert alle kolommen, inclusief kolommen die filters en opmaakinstructies voor andere waarden bevatten. Hier zijn een paar aandachtspunten:
-
-- Binaire gegevens in een veld, zoals een afbeelding, worden niet geëxporteerd.
-
-  In kolommen die binaire gegevens bevatten, bevatten velden de tekst **Binaire gegevens ({0} bytes)**, waar **{0}** het aantal bytes aangeeft.
-- Vanaf Business Central 2021 releasewave 2 bevat het Excel-bestand ook het werkblad **Metagegevens rapporteren**.
-
-  Dit werkblad toont de filters die zijn toegepast op het rapport en algemene rapporteigenschappen, zoals de naam, id en extensiedetails. De filters worden weergegeven in de kolom **Filter (DataItem::Table::FilterGroupNo::FieldName)**. De filters in deze kolom bevatten filters die zijn ingesteld op de aanvraagpagina van het rapport. Het bevat ook filters die zijn gedefinieerd in AL-code, bijvoorbeeld door de [eigenschap DataItemLink](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-reports-property) en de [eigenschap DataItemTableView](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property).
-
-Voor meer informatie over rapportontwerp zie [Rapportoverzicht](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
-
----
+Use the **Microsoft Word Document** option to generate a report as a Word document.  
 
 > [!NOTE]
-> Sommige rapporten exporteren getallen als tekst, waardoor u geen berekeningen kunt maken of Power Pivot kunt gebruiken op de cellen in het Excel-werkblad. Na het exporteren is het een goed idee om de getallen in het werkblad te controleren. Als u de cijfers wilt analyseren en in kaart wilt brengen, wijzigt u het formaat van de relevante cellen van **Tekst** in **Getal**. Zie deze video voor meer informatie over het opmaken van getallen in cellen: [Getallen opmaken in cellen in Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
-### <a name="microsoft-word-document"></a>Microsoft Word-document
-Gebruik de optie **Microsoft Word-document** om een rapport als Word-document te genereren.  
-
-> [!NOTE]
-> U kunt de lay-out specificeren die voor elk rapport moet worden gebruikt op de pagina **Rapportselectie** in het veld **Geselecteerde lay-out**. De standaardinstelling voor rapporten is **RDLC (ingebouwd)**, die rapporten produceert in dezelfde of vergelijkbare lay-out als de indeling **Microsoft Word-document**. Het belangrijkste verschil is echter of u een of meerdere rapportdocumenten wilt genereren. Voor afzonderlijke documenten kunt u de optie RDLC (ingebouwd) gebruiken. Stel voor meerdere documenten **Microsoft Word-document** als de standaardlay-out voor het rapport in. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).
+-->
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a>Een rapport plannen voor uitvoering
 

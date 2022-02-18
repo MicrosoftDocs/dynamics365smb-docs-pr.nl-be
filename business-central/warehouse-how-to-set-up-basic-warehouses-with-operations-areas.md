@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 35482dca465da05be01c4eed86e93d30a75e6dcf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441409"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115210"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Standaardmagazijnen met bewerkingsgebieden instellen
 Als interne bewerkingsgebieden zoals productie of assemblage deel uitmaken van standaard magazijnconfiguraties waarin locaties het instellingsveld **Opslaglocatie verplicht** en eventueel de instellingsvelden **Pick vereist** en **Opslag vereist** gebruiken, kunt u de volgende standaard magazijndocumenten gebruiken om uw magazijnactiviteiten voor interne bewerkingsgebieden te registreren:  
@@ -46,14 +47,15 @@ De volgende procedures zijn gebaseerd op het instellen van standaard magazijnact
 3.  Schakel op het sneltabblad **Magazijn** het selectievakje **Opslag vereist** in om aan te geven dat, wanneer een inkomend of intern brondocument met een opslaglocatiecode wordt vrijgegeven, er een voorraadopslag- of een voorraadverplaatsingdocument kan worden gemaakt.  
 4.  Schakel het selectievakje **Pick vereist** in om aan te geven dat, wanneer een uitgaand of intern brondocument met een opslaglocatiecode wordt gemaakt, er een voorraadpick- of een voorraadverplaatsingdocument moet worden gemaakt.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Een standaard opslaglocatiestructuur in het productiegebied definiëren  
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Een standaard opslaglocatiestructuur in het productiegebied definiëren
+
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Open de locatie die u wilt instellen.  
 3.  Voer op het sneltabblad **Opslaglocaties** in het veld **Open shopflooropslaglocatie** de code in van de opslaglocatie in het productiegebied met genoeg componenten die de machine-operator kan verbruiken, zonder dat er een magazijnactiviteit moet worden aangevraagd om deze naar de opslaglocatie te brengen. Artikelen die in deze opslaglocatie worden geplaatst, zijn doorgaans ingesteld op automatische boeking of afboeking. Dit betekent dat het veld **Afboekingsmethode** de waarde **Voorwaarts** of **Achterwaarts** bevat.  
 4. Voer in het veld **naar-opslagplaatslocatie voor productie** de code in van de opslaglocatie in het productiegebied waar onderdelen die zijn gepickt voor productie op deze vestiging standaard worden geplaatst voordat ze kunnen worden verbruikt. Artikelen die in deze opslaglocatie worden geplaatst, zijn doorgaans ingesteld op handmatige verbruiksboeking. Dit betekent dat het veld **Afboekingsmethode** de waarde **Handmatig** of **Pick + Voorwaarts** of **Pick + Achterwaarts** bevat voor magazijnpicks en voorraadverplaatsingen.  
 
     > [!NOTE]  
-    >  Bij gebruik van voorraadpicks definieert het veld **Bin Code** op de materiaalregel op een productieorder de opslaglocatie *nemen* waar materialen in mindering worden gebracht wanneer het verbruik wordt geboekt. Bij gebruik van voorraadpicks definieert het veld **Opslaglocatie** op materiaalregels op de productieorder de opslaglocatie *plaats* in het bewerkingsgebied waarin de magazijnmedewerker de materialen moet plaatsen.  
+    > Bij gebruik van voorraadpicks definieert het veld **Bin Code** op de materiaalregel op een productieorder de opslaglocatie *nemen* waar materialen in mindering worden gebracht wanneer het verbruik wordt geboekt. Bij gebruik van voorraadpicks definieert het veld **Opslaglocatie** op materiaalregels op de productieorder de opslaglocatie *plaats* in het bewerkingsgebied waarin de magazijnmedewerker de materialen moet plaatsen.  
 
 5. Voer op het sneltabblad **Opslaglocaties** in het veld **Van productieopslaglocatie** de code in van de opslaglocatie in het productiegebied waaruit standaard voltooide eindartikelen worden gehaald wanneer het proces een magazijnactiviteit omvat. De activiteit wordt bij standaard magazijnconfiguraties geregistreerd als een voorraadopslag of een voorraadverplaatsing.  
 
@@ -61,7 +63,7 @@ Productieordermateriaalregels met de standaard opslaglocatie eisen dat voorwaart
 
 In dit stroomdiagram is weergegeven hoe het veld **Opslaglocatie** op de productieordercomponentregels wordt ingevuld op basis van uw instellingen.  
 
-![Stroomdiagram Opslaglocatie.](media/binflow.png "BinFlow")    
+![Stroomdiagram Opslaglocatie.](media/binflow.png "BinFlow")
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Een standaard opslaglocatiestructuur in het assemblagegebied definiëren
 Materialen voor assemblageorders kunnen niet worden gepickt of geboekt met voorraadpicks. Gebruik in plaats daarvan de pagina **Voorraadverplaatsing**. Zie voor meer informatie [Onderdelen verplaatsen naar een bewerkingsgebied bij standaard magazijnbeheer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
@@ -136,8 +138,8 @@ Een specifieke opslaglocatie maken biedt vergelijkbare functies als voor het geb
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
-[Assemblagebeheer](assembly-assemble-items.md)    
+[Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
+[Assemblagebeheer](assembly-assemble-items.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

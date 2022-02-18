@@ -1,8 +1,6 @@
 ---
-title: Human Resources-functionaliteit gebruiken| Microsoft Docs
+title: Human Resources beheren
 description: U kunt nieuwe medewerkers registreren, informatie over werknemers bewerken en afwezigheid registreren en analyseren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
+ms.search.form: 5200, 5201, 5212, 5211
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9593eeb4b88b059079d95e438873f3b69ae783e9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: afeeb4c3d170fc137586dc83864ba78baad943a8
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782125"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101174"
 ---
 # <a name="manage-human-resources"></a>Human Resources beheren
+
 In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u gedetailleerde records van uw werknemers bijhouden. U kunt werknemergegevens vastleggen en onderhouden, waaronder gegevens over arbeidsovereenkomsten, contracten, vertrouwelijke informatie, kwalificaties en contactgegevens met betrekking tot werknemers.
 
 U kunt bovendien afwezigheidsgegevens van werknemers registreren, zodat u deze gegevens wanneer nodig kunt analyseren.
@@ -34,6 +34,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Leg afwezigheid van werknemers vast en geef afwezigheidsstatistieken weer met verschillende filters. |[Werknemersafwezigheid beheren](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Zie ook
+
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)        

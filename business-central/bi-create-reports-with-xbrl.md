@@ -12,14 +12,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f204c769a7a1fc8ddf3c6fd97fe485be8940dc43
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437138"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101333"
 ---
 # <a name="create-reports-with-xbrl"></a>Lijsten met XBRL maken
+
+> [!NOTE]
+> We zijn bezig met het verwijderen van de functies voor XBRL-rapportage vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Wijzigingen in releasewave 1 van 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
+
 XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde taal voor het coderen van financiële gegevens waardoor bedrijven efficiënt en nauwkeurig hun gegevens kunnen verwerken en delen. Door het XBRL-initiatief zijn talloze ERP-softwarebedrijven en internationale financiële organisaties in staat hun globale financiële rapportageactiviteiten uit te voeren. Het doel van het initiatief is een standaard vormen voor de uniforme rapportage van financiële gegevens voor banken, investeerders en overheidsinstanties. Dergelijke zakelijke rapportage kan omvatten:  
 
  • Financiële overzichten  

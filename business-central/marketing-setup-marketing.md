@@ -1,5 +1,5 @@
 ---
-title: Marketing- en contactbeheergegevens instellen| Microsoft Docs
+title: Marketing- en contactbeheergegevens instellen
 description: U kunt marketing- en contactpersonenbeheer in Business Central instellen om relaties met prospects of klanten te optimaliseren en campagnes en promoties te verbeteren.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
+ms.search.forms: 5172, 5173, 5170, 5094, 429
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e64624006c8760037acaab48ab351dad9636bfdb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: df435c1373b817442ca61b369810f1d407a29c27
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437564"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059920"
 ---
 # <a name="setting-up-relationship-management"></a>CRM instellen
 

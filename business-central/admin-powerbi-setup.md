@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 932bf57b8801c758c6bcaff4fbdad69265853487
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c8f12e98196d8dd22ff63c73ffd3967cf256244c
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724700"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049886"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Power BI-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] mogelijk maken
 
@@ -44,7 +44,12 @@ Een API-pagina is een specifiek paginatype dat is gemaakt in AL-code en dat toeg
 
 Business Central online wordt geleverd met een set ingebouwde API's, die u kunt gebruiken om gegevens op te halen voor de meest voorkomende zakelijke entiteiten, zoals klanten, artikelen, verkooporders en meer. Er is geen extra werk of configuratie vereist om deze API's als gegevensbron te gebruiken voor Power BI-rapporten. Voor meer informatie over deze API's zie [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
-Business Central online ondersteunt ook aangepaste API's. Applicatieontwikkelaars van Business Central-oplossingen kunnen hun eigen API-pagina's maken en deze in extensies verpakken. U kunt de extensies op uw tenant installeren. Eenmaal geïnstalleerd kunt u de API-pagina's gebruiken voor uw Power BI-rapporten, zoals u zou doen met de ingebouwde API's (v2.0). Voor meer informatie over het maken van API-pagina's zie [Een aangepaste API ontwikkelen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Business Central online ondersteunt ook aangepaste API's. Applicatieontwikkelaars van Business Central-oplossingen kunnen hun eigen API-pagina's maken en deze in extensies verpakken. U installeert de extensies vervolgens in uw tenant installeren. Eenmaal geïnstalleerd kunt u de API-pagina's gebruiken voor uw Power BI-rapporten, zoals u zou doen met de ingebouwde API's (v2.0). Voor meer informatie over het maken van API-pagina's zie [Een aangepaste API ontwikkelen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+> [!IMPORTANT]
+> Vanaf februari 2022 zijn Power BI-rapporten voor [!INCLUDE[prod_short](includes/prod_short.md)] online om prestatieredenen afkomstig van een secundaire, alleen-lezen databasereplica. Daarom moeten AL-ontwikkelaars vermijden om API-pagina's te ontwerpen die databasewijzigingen aanbrengen terwijl de pagina's records openen of laden. Overweeg met name de code van de AL-triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord en OnAfterGetCurrRecord. Deze databasewijzigingen kunnen in sommige gevallen prestatieproblemen veroorzaken en voorkomen dat het rapport gegevens ververst. Zie voor meer informatie [Prestatieartikelen voor ontwikkelaars](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) in de ontwikkelingshulp van Business Central.
+>
+> In zeldzame gevallen zal het gedrag een fout veroorzaken wanneer een gebruiker gegevens probeert op te halen vanuit de API-pagina voor een rapport in Power BI Desktop. Als er echter wijzigingen in de database nodig zijn op de aangepaste API-pagina, kunnen Power BI Desktop-gebruikers het gedrag forceren. Zie voor meer informatie [Power BI-rapporten maken om Business Central-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
 ### <a name="odata-web-services"></a>OData-webservices
 
@@ -91,6 +96,7 @@ In dit gedeelte wordt uitgelegd wat de vereisten zijn voor de integratie van een
     Voordat eindgebruikers Power BI in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen gebruiken, zal een Azure-applicatiebeheerder toestemming moeten geven voor de Power BI-service.
 
     Open om de eerste verbinding te maken [!INCLUDE[prod_short](includes/prod_short.md)] en voer **Aan de slag met Power BI** uit vanuit het rolcentrum. Deze actie leidt u door het toestemmingsproces en controleert uw Power BI-licentie. Meld u aan met een Azure-beheerdersaccount wanneer daarom wordt gevraagd. Zie voor meer informatie [Verbinding maken met Power BI - eenmalig](across-working-with-powerbi.md#connect).
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

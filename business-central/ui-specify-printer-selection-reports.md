@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547060"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102459"
 ---
 # <a name="set-up-printers"></a>Printers instellen
 
@@ -267,6 +267,9 @@ U of de beheerder kan ook de pagina **Printerselecties** gebruiken om andere afd
 
 > [!NOTE]
 > Specifiekere printerselecties hebben voorrang op algemenere printerselecties. Bijvoorbeeld een printerselectie met waarden in de velden **Gebruikers-ID**, **Rapport-id** en **Printernaam** heeft voorrang op een printerselectie met lege vermeldingen in de velden **Gebruikers-ID** of **Rapport-id**.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>De printer kiezen bij het uitvoeren van een rapport
+In plaats van de standaardprinter te gebruiken bij het uitvoeren van een rapport, kunt u deze instelling overschrijven vanaf de aanvraagpagina. Kies eenvoudig welke printer u wilt gebruiken voor deze aanroep van het rapport in het vervolgkeuzemenu **Printer**.
 
 ### <a name="sizing-print-jobs"></a>Formaat van afdruktaken
 

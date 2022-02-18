@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9ce0b5232a0629bb6248eaaaade69b7c7ebceb02
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6260edff16c0d9123d389f59f0d035b2e87766b4
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012353"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049523"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI-integratieonderdeel en architectuuroverzicht voor [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,7 +48,9 @@ In de volgende tabel worden de beschikbare functies beschreven.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan worden geïntegreerd met Power BI via een connector die OData gebruikt. De gegevensbron voor Power BI-rapporten wordt beschikbaar gemaakt in de vorm van API-pagina's en OData-webservices.
 
-![Power BI-architectuur voor integratie met Business Central.](./media/power-bi-architecture.png)
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Alt-tekst van afbeelding." lightbox="./media/power-bi-architecture.png":::
+
+Vanaf februari 2022 zijn Power BI-rapporten voor [!INCLUDE[prod_short](includes/prod_short.md)] online afkomstig van een secundaire, alleen-lezen databasereplica. De database-replica maakt deel uit van de ["read scale-out"](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview)-mogelijkheid in [!INCLUDE[prod_short](includes/prod_short.md)] online. Deze configuratie maakt de hoofddatabase vrij voor transacties, wat de prestaties van het systeem verbetert. Verbinding maken met de alleen-lezen databasereplica is een integraal onderdeel van de Business Central online-connector en vereist geen extra configuratie van uw kant. Alle nieuwe rapporten maken standaard verbinding met de alleen-lezen databasereplica. Oude rapporten zullen nog steeds de hoofddatabase gebruiken. Zie voor meer informatie [Business Central 2021 releasewave 2-abonnement](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
 ## <a name="general-flow"></a>Algemene stroom
 

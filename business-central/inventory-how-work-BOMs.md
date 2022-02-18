@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d058b15ad55713a22ee70862f666301d36d53e0a
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444932"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060050"
 ---
 # <a name="work-with-bills-of-material"></a>Werken met stuklijsten
 U gebruikt stuklijsten om bovenliggende artikelen te structureren die door resources of bewerkingsplaatsen moeten worden geassembleerd of geproduceerd van onderdelen. Er kan ook een assemblagestuklijst worden gebruikt om een hoofdartikel als pakketten bestaande uit de onderdelen te verkopen.
@@ -71,7 +72,7 @@ Vanuit de pagina **Assemblagestuklijst** kunt u een afzonderlijke pagina openen 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Het assemblageartikel in documentregels vervangen door de samenstellende onderdelen
 Vanuit ieder in- of verkoopdocument dat een assemblageartikel bevat, kunt u de regel voor dit artikel door middel van een speciale functie vervangen door nieuwe regels voor de samenstellende onderdelen ervan. Deze functie bijvoorbeeld nuttig als u de onderdelen wilt verkopen als een kit die samen het assemblageartikel vertegenwoordigen.
 
-De functie Stuklijst weergeven is ook beschikbaar op de pagina **Assemblagestuklijst** als een methode om onderliggende artikelen op subassemblages op een assemblagestuklijst te bekijken.
+De actie **Stuklijst weergeven** is ook beschikbaar op de pagina **Assemblagestuklijst** als een methode om subassemblageartikelen in een assemblagestuklijst te bekijken.
 
 > [!CAUTION]  
 >  Wanneer u de functie **Stuklijst weergeven** hebt gebruikt, kunt u dit niet gemakkelijk ongedaan maken. U moet dan de verkooporderregels die de onderdelen vertegenwoordigen verwijderen, en vervolgens opnieuw een verkooporderregel voor het assemblageartikel invoeren.

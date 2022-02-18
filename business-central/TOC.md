@@ -483,6 +483,7 @@
 #### [Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten](receivables-how-apply-sales-transactions-manually.md)
 #### [Openstaande saldi innen](receivables-collect-outstanding-balances.md)
 #### [Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Aanmaningen voor uitstaande saldi verzenden](receivables-send-reminders.md)
 #### [Klanten blokkeren](receivables-how-block-customers.md)
 #### [Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md)
@@ -1605,6 +1606,120 @@
 ##### [Problemen met rapporten oplossen](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Wettelijke waarschuwingen indienen](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Bedrijfsinformatie en rapportage 
+
+## [Overzicht](reports-bi-reporting.md)
+
+## Rapporten gebruiken in het dagelijkse werk
+### [Overzicht](reports-use-reports.md)
+### [Rapporten uitvoeren](ui-work-report.md)
+### [Bladwijzer maken van een rapport](ui-bookmarks.md)
+### [Rapportgegevens analyseren met Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Rapporten afdrukken](ui-specify-printer-selection-reports.md#default)
+### [Rapporten plannen](ui-work-report.md#ScheduleReport)
+### [Opgeslagen rapportinstellingen beheren](reports-saving-reusing-settings.md)
+### [De standaardrapportindeling wijzigen](ui-how-change-layout-currently-used-report.md)
+
+## Ingebouwde rapporten
+### [Rapportoverzicht](reports-available-reports.md)
+### Financiën
+#### [Financiële analyse](bi.md)
+#### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
+#### [Belangrijke financiële rapporten](finance-reports.md)
+#### [Debiteurenrapporten](receivables-reports.md)
+#### [Crediteurenrapporten](payables-reports.md)
+#### [Cashflowanalyse](finance-setup-cash-flow-analyses.md)
+#### [Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)
+
+### Verkoop
+#### [Verkooprapporten](sales-reports.md)
+#### [Status van verkoopraamcontract](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Pakkettracering](sales-how-track-packages.md)
+#### [Niet-geboekte en geboekte verkoopraamcontractregels weergeven](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Inkopen
+#### [Inkooprapporten](purchase-reports.md)
+#### [Inkoopposten bekijken](ui-post-purchases.md#viewing-ledger-entries)
+
+### Voorraad en magazijn
+#### [Voorraad- en magazijnrapporten](inventory-wms-reports.md)
+#### [Artikelbeschikbaarheid](inventory-how-availability-overview.md)
+#### [Artikelen traceren met serie-, partij- en pakketnummers](inventory-how-work-item-tracking.md)
+#### [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)
+#### [De reconciliatie controleren tussen het voorraadgrootboek en het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Cross-dockartikelen bekijken in een verzending of pickvoorstel](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Kostendrager
+#### [Projectrapporten](project-reports.md)
+#### [Schattingen van projectgebruik weergeven](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md)
+
+### Vast activum
+#### [VA-rapporten](fa-reports.md)
+#### [Onderhoudskosten controleren](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Verzekeringsdekking controleren](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Gewijzigde afschrijvingsboekwaarden bekijken](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Buitengebruikstellingsposten bekijken](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Geschatte buitengebruikstellingswaarden bekijken](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Assemblagebeheer
+#### [Assemblagebeheerrapporten](assembly-reports.md)
+#### [De stuklijststructuur bekijken](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Productie
+#### [Productierapporten](production-reports.md)
+#### [De werklast in afdelingen en bewerkingsplaatsen weergeven](production-how-to-view-the-load-on-work-centers.md)
+#### [Afdelingsposten weergeven](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### CRM - Service
+#### [Servicestatistieken weergeven](service-service-statistics.md)
+#### [Overzicht van serviceorders](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Overzicht van serviceoffertes](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Overzicht van geboekte servicedocumenten](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Ad-hoc gegevensanalyse
+### [Overzicht](reports-adhoc-analysis.md)
+### [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)
+### [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.yml)
+### [Paginagegevens analyseren in Excel](across-work-with-excel.md)
+### [Rapportgegevens analyseren met Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Financiële analyse](bi.md)
+
+## Ingebouwde analyse 
+### [Overzicht](reports-built-in-analytics.md)
+### [Intelligente inzichten](about-intelligent-cloud.md)
+### [Werken met Power BI-rapporten](across-working-with-powerbi.md)
+### [Financiële analyse](bi.md)
+### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
+### [Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)
+### [Gebruikstelemetrie rapporteren](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Gegevens analyseren in bedrijfsinformatietools
+### [Overzicht](reports-external-analysis.md)
+### [Power BI gebruiken met Business Central](admin-powerbi.md)
+### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
+### [Gegevens extraheren naar datawarehouses of data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Gegevens lezen met de Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Rapporten ontwikkelen
+### [Overzicht](reports-develop-reports.md)
+### Rapportindelingen ontwikkelen
+#### [Indelingstypen (Word en RDLC)](ui-manage-report-layouts.md)
+#### [Een nieuwe indeling maken](ui-how-create-custom-report-layout.md)
+#### [Lettertypen gebruiken in indelingen](ui-fonts.md)  
+#### [Werken met Word-indelingen](ui-how-add-fields-word-report-layout.md)
+#### [Een rapportindeling importeren](ui-how-import-and-export-report-layout.md)
+#### [Een indeling bijwerken](ui-update-report-layouts.md)
+#### [De standaardindeling wijzigen](ui-how-change-layout-currently-used-report.md)
+### Rapportgegevenssets ontwikkelen
+#### [Handleiding voor rapportontwikkeling](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Handleiding voor het afstemmen van rapportprestaties](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Beveiliging, privacy, compliance
 ## Beveiliging en bescherming
 ### [Overzicht van beveiliging en bescherming (alleen in het Engels)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

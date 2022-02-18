@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 07eaab3182d51bd7b76d1ffbbfb7ad18338faeb7
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 28a6a26e8065f16d201b8f1650685dd645805863
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325454"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049835"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Een synchronisatie plannen tussen Business Central en Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] synchroniseren met geplande intervallen door taken in te stellen in de taakwachtrij. De synchronisatietaken synchroniseren gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]-records en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-records die eerder zijn gekoppeld. Of voor records die niet al zijn gekoppeld kunnen de synchronisatietaken, afhankelijk van de synchronisatierichting en -regels, nieuwe records maken en koppelen in het doelsysteem. 
 

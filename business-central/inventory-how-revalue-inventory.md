@@ -1,7 +1,6 @@
 ---
 title: Nieuwe waardeposten maken voor artikelen in de voorraad| Microsoft Docs
-description: Beschrijft hoe u de waardeposten vermeerdert of vermindert van een of meer artikelen in de voorraad door de huidige, berekende waarde ervan te boeken.
-services: project-madeira
+description: Beschrijft hoe u de waardeposten vermeerdert of vermindert van een of meer artikelen in voorraad door de huidige, berekende waarde ervan te boeken.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
+ms.search.forms: 5803,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 01710b23c56634b91b86f3f1c6e6c87415a787c6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b07aba72be831dd68eea3475f3ee591a7c319051
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435609"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059608"
 ---
 # <a name="revalue-inventory"></a>Voorraad herwaarderen
 Gebruik het herwaarderingsdagboek als u de voorraadwaarde van een artikel of een bepaalde artikelpost wilt vermeerderen of verminderen.

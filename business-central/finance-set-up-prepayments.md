@@ -8,12 +8,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0e9fd6f09e428b067b240efd150166c32577ca92
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970413"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100917"
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
 
@@ -24,10 +24,12 @@ Voor u vooruitbetalingsfacturen kunt boeken, moet u de boekingsrekening instelle
 U kunt het percentage van het regelbedrag definiëren dat wordt gefactureerd voor een vooruitbetaling. Nadat u de instellingen hebt gemaakt, kunt u vooruitbetalingsfacturen genereren van verkoop- en inkooporders. U kunt de standaardpercentages gebruiken voor elke verkoop- of inkoopregel, of u kunt de bedragen op de factuur wijzigen zoals gewenst. U kunt bijvoorbeeld een totaalbedrag specificeren voor de volledige order.  
 
 > [!NOTE]
-> We raden u aan om in de volgende gevallen geen vooruitbetalingspercentage van 100% te hanteren:
+> We raden u aan om in de volgende gevallen geen vooruitbetalingspercentage van 100 te hanteren:
 >
-> * Als u zich in Noord-Amerika bevindt. Vanwege de manier waarop belastingen worden berekend, kan een vooruitbetalingspercentage van 100% leiden tot problemen met vooruitbetalingsfacturen.
-> * In alle regio's, als u handmatig een contantkorting van de factuur aftrekt. Bij een vooruitbetalingspercentage van 100% blijft er niet automatisch een bedrag over waarvan de korting kan worden afgetrokken. 
+> * Als u zich in Noord-Amerika bevindt. Vanwege de manier waarop belastingen worden berekend, kan een vooruitbetalingspercentage van 100 leiden tot problemen met vooruitbetalingsfacturen.
+> * In alle regio's, als u handmatig een contantkorting van de factuur aftrekt. Bij een vooruitbetalingspercentage van 100 blijft er niet automatisch een bedrag over waarvan de korting kan worden afgetrokken.
+>
+> Als u een vooruitbetalingspercentage van 100 gebruikt, moet [!INCLUDE[prod_short](includes/prod_short.md)] mogelijk compenserende afrondingsposten maken. Als dat gebeurt, moet u een grootboekrekening kiezen in het veld **Factuurafrondingsrekening** op de pagina **Klantenboekingsgroepen**. Dit geldt zelfs als u de schakelaar **Factuurafronding** op de pagina **Verkoopinstellingen** niet hebt ingeschakeld. Als u geen rekening opgeeft, kunt u geen vooruitbetalingsfacturen boeken. 
 
 Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of diensten heeft ontvangen, moet u grootboekrekeningen instellen waarop de vooruitbetaalde bedragen staan totdat de uiteindelijke factuur wordt geboekt. Vooruitbetaalde verkopen moeten worden vastgelegd op een passivarekening totdat de artikelen worden verzonden. Vooruitbetaalde inkopen moeten worden vastgelegd op een activarekening totdat de artikelen worden ontvangen. Daarnaast moet u een afzonderlijke grootboekrekening instellen voor elke btw-id.  
 

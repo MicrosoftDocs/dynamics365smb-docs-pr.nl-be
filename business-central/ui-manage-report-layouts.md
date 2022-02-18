@@ -1,8 +1,6 @@
 ---
-title: Aangepaste en ingebouwde lay-outs voor rapporten en documenten | Microsoft Docs
+title: Aangepaste en ingebouwde indelingen voor rapporten en documenten
 description: Gebruik rapportlay-outs om documenten aan te passen, bijvoorbeeld om het lettertype of logo aan te passen of pagina-instellingen of PDF-bestanden die u naar klanten verzendt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2b3dcc5c40346f6bd63d431b3024d64bc5a0d434
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 11467596a489c3d3ec550caa35353c72e548e675
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445959"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100885"
 ---
 # <a name="managing-report-and-document-layouts"></a>Lay-outs van rapporten en documenten beheren
 Een rapportlay-out bepaalt de inhoud en de indeling van het rapport, inclusief welke gegevensvelden van een rapportgegevensset in het rapport worden weergegeven, hoe ze worden gerangschikt, welke tekststijl en afbeeldingen worden gebruikt, enzovoort. Vanuit [!INCLUDE[prod_short](includes/prod_short.md)] kunt u bepalen welke lay-out wordt gebruikt in een rapport, een nieuwe lay-out maken of de huidige lay-outs wijzigen.
@@ -37,7 +36,7 @@ Een rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indi
 Er zijn twee soorten rapportlay-outs die u in rapporten kunt gebruiken: Word en RDLC.
 
 ## <a name="word-report-layout-overview"></a>Overzicht van de Word-rapportlay-out
-Een Word-rapportlay-out wordt gebaseerd op een Word-document (.docx-bestandstype). Met Word-rapportlay-outs kunt u rapportlay-outs ontwerpen door Microsoft Word 2013 of later te gebruiken. Een Word-rapportlay-out bepaalt de inhoud van het rapport: hoe de inhoudelementen worden gerangschikt en hoe ze eruit zien. Een Word-document met een rapportlay-out gebruikt meestal tabellen om inhoud te rangschikken. De cellen kunnen gegevensvelden, tekst of afbeeldingen bevatten.
+Een Word-rapportlay-out wordt gebaseerd op een Word-document (.docx-bestandstype). Met Word-rapportindelingen kunt u rapportindelingen ontwerpen met Microsoft Word. Een Word-rapportlay-out bepaalt de inhoud van het rapport: hoe de inhoudelementen worden gerangschikt en hoe ze eruit zien. Een Word-document met een rapportlay-out gebruikt meestal tabellen om inhoud te rangschikken. De cellen kunnen gegevensvelden, tekst of afbeeldingen bevatten.
 
  ![Voorbeeld van een Word-rapportlay-outdocument voor NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 

@@ -1,8 +1,6 @@
 ---
-title: Een voorbeeld van posten bekijken voordat u een document of dagboek boekt | Microsoft Docs
+title: Een voorbeeld van posten bekijken voordat u een document of dagboek boekt
 description: U kunt ervoor zorgen dat posten voor documenten en dagboeken correct zijn voordat u ze naar het grootboek boekt.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: fc137cb8c45d935be28d5ededc435d2d4648f8bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3392698c48cd4d1febdf1e37d396ceed1ac37bf5
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441056"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101515"
 ---
 # <a name="preview-posting-results"></a>Voorbeeld van boekingsresultaten weergeven
 In elk document en elk dagboek die kunnen worden geboekt, kunt u de knop **Voorbeeld van boeking weergeven** kiezen om de verschillende soorten posten te bekijken die worden gemaakt wanneer u het document of het dagboek boekt.

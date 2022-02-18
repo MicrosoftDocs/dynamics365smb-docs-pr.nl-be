@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 04/01/2021
+ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d51e1657d6c28581a49af9b65b7bee8a27baa57f
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971105"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049678"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat instellen en rapporteren
 
@@ -28,7 +28,11 @@ Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporte
 * **Intrastat-instellingen**: de pagina Intrastat-instellingen wordt gebruikt om Intrastat-rapportage in te schakelen en er standaarden voor in te stellen. U kunt opgeven of u Intrastat moet rapporteren vanuit verzendingen, ontvangsten (aankomsten) of beide, afhankelijk van drempelwaarden die door uw lokale verordeningen zijn ingesteld. U kunt ook standaardtransactiesoorten instellen voor normale en retourdocumenten, die worden gebruikt voor de aard van transactierapportage.
 * **Intrastat-dagboeksjablonen**: u moet de Intrastat-dagboeksjablonen en -batches instellen die u gaat gebruiken. Aangezien Intrastat maandelijks wordt gerapporteerd, moet u 12 Intrastat-dagboekbatches maken die gebaseerd zijn op dezelfde sjabloon.  
 * **Basisproductcodes**: de belastingdienst en de douane hebben numerieke codes om artikelen en service te classificeren. U geeft deze codes op voor artikelen.
-* **Transactieaardcode**: landen/regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes in verkoop- en inkoopdocumenten, en bij de verwerking van retouren.  
+* **Transactieaardcode**: landen/regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes in verkoop- en inkoopdocumenten, en bij de verwerking van retouren. 
+
+    > [!NOTE]
+    > Vanaf januari 2022 vereist Intrastat een andere transactie-aardcode voor verzendingen naar particulieren of niet-btw-geregistreerde bedrijven en btw-geregistreerde bedrijven. Om aan deze vereiste te voldoen raden we u aan om nieuwe transactie-aardcodes te bekijken en/of toe te voegen op de pagina **Transactietypes** volgens de vereisten in uw land/regio. U moet ook het veld **Partnertype** controleren en bijwerken naar *Persoon* voor particulieren of niet-btw-geregistreerde zakelijke klanten op de relevante pagina **Klant**. Als u niet zeker weet welk partner- of transactietype u moet gebruiken, raden we u aan een expert in uw land of regio te raadplegen. 
+ 
 * **Transportmethoden**: er zijn zeven eencijferige codes voor Intrastat-transportmethoden. **1** voor zee, **2** voor spoor, **3** voor weg, **4** voor lucht, **5** voor post, **7** voor vaste installaties en **9** voor eigen voortdrijving (bijvoorbeeld een auto verplaatsen door ermee te rijden). [!INCLUDE[prod_short](includes/prod_short.md)] vereist deze codes niet, maar we raden aan dat de beschrijvingen een soortgelijke betekenis hebben.  
 * **Transactieomschrijvingen**: gebruik deze als aanvulling op de omschrijvingen van de transactiesoorten.  
 * **Land van herkomst**: gebruik de tweeletterige ISO-alfacodes voor het land waar het goed is verkregen of geproduceerd. Als het goed in meer dan één land is geproduceerd, is het land van herkomst het laatste land waar het in belangrijke mate is verwerkt. 
@@ -110,13 +114,25 @@ Nadat u het Intrastat-dagboek hebt ingevuld, kunt u het rapport **Controlelijstr
 Met de batchverwerking worden alle artikelposten in de statistiekperiode opgehaald en als regels in het Intrastat-dagboek ingevoegd. U kunt de regels zo nodig bewerken.  
 
 > [!IMPORTANT]  
-> Tijdens de batchverwerking worden alleen de posten met een land-/regiocode opgehaald waarvoor u een Intrastat-code hebt ingevoerd op de pagina **Landen/regio's**. Het is dus belangrijk dat u Intrastat-codes invoert voor de land-/regiocodes waarvoor u de batchverwerking wilt uitvoeren.  
+> Tijdens de batchverwerking worden alleen de posten met een land-/regiocode opgehaald waarvoor u een Intrastat-code hebt ingevoerd op de pagina **Landen/regio's**. Het is dus belangrijk dat u Intrastat-codes invoert voor de land-/regiocodes waarvoor u de batchverwerking wilt uitvoeren. De batchverwerking stelt het veld **Btw-nummer van partner** in op *QV999999999999* voor particulieren of niet-btw-geregistreerde bedrijven (klanten met het veld **Partnertype** ingesteld op *Persoon*) en gebruikt de waarde van het veld **Transactietype** in de geboekte artikelpost of projectgrootboekpost. 
+
+### <a name="to-modify-intrastat-journals-lines"></a>Intrastat-journaalregels wijzigen
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Intrastat-dagboek** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies op de pagina **Intrastat-dagboek** de relevante dagboekbatch in het veld **Batchnaam** en kies **OK**.  
+3. Gebruik het filterdeelvenster om Intrastat-dagboekregels te filteren op basis van enkele criteria. Filter bijvoorbeeld op **Btw-nummer van partner**-velden met de waarde *QV999999999999*.
+4. Kies het pictogram **Delen** ![Een pagina delen in een andere app.](media/share-icon.png) en selecteer **Bewerken in Excel**
+5. Wijzig in Excel de Intrastat-journaalregels die u hebt weggefilterd. Wijzig bijvoorbeeld **Transactietype**-veldwaarden.  
+6. Publiceer de wijzigingen die u in Excel heeft aangebracht, terug naar [!INCLUDE[prod_short](includes/prod_short.md)]
+
+> [!Note]
+> In [!INCLUDE[prod_short](includes/prod_short.md)]-versies die geen ondersteuning bieden van [**Bewerken in Excel**](across-work-with-excel.md#edit-in-excel) voor dagboeken, kunt u [configuratiepakketten maken](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) om Intrastat-journaalregels te exporteren en importeren naar Excel. 
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Intrastat rapporteren in een formulier of een bestand
 
 Als u de gegevens wilt ophalen die nodig zijn op het Intrastat-formulier van de betreffende instanties voor statistiekbeheer, moet u de lijst **Intrastat - Formulier** afdrukken. Voordat u dit kunt doen, moet u het Intrastat-dagboek voorbereiden en invullen. Als u zowel verkoop- als inkooptransacties hebt, moet u een apart formulier invullen voor elke soort. U moet de lijst dus tweemaal afdrukken.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Intrastat-dagboek** de relevante dagboekbatch in het veld **Batchnaam**.  
 3. Als u dit nog niet hebt gedaan, vult u het journaal handmatig in of kiest u de actie **Regels voorstellen**.  
 4. Kies de actie **Hiermee wordt het Intrastat-dagboek afgedrukt**.  
@@ -139,7 +155,7 @@ U kunt het Intrastat-rapport indienen als bestand. Voordat u het bestand maakt, 
 
 Aangezien u elke maand een Intrastat-rapport moet indienen en u voor elk rapport een nieuwe dagboekbatch maakt, hebt u na verloop van tijd veel dagboekbatches. De dagboekregels worden niet automatisch verwijderd. U wilt de dagboekbatchnamen mogelijk periodiek wijzigen. Hiervoor verwijdert u de dagboekbatches die u niet meer gebruikt. De dagboekregels in deze batches worden ook verwijderd.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Als u de opties wilt zien, kiest u het veld **Batchnaam**.  
 3. Kies de journaalbatches die u wilt verwijderen en kies de knop **Verwijderen**.  
 

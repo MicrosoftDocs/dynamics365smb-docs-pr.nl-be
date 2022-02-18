@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e9cd03df1e26eca92f5a69d02d73caac902d2b6b
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435534"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049574"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Handmatig tabeltoewijzingen synchroniseren
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Een toewijzing van een integratietabel koppelt een [!INCLUDE[prod_short](includes/prod_short.md)]-tabel, zoals een klant, aan een [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabel, zoals een rekening. Als een integratietabeltoewijzing wordt gesynchroniseerd, kunt u gegevens in alle records van de [!INCLUDE[prod_short](includes/prod_short.md)]-tabel en de [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabel die zijn gekoppeld, synchroniseren. Bovendien kan synchronisatie, afhankelijk van de configuratie van de tabelkoppeling, nieuwe records maken en koppelen in de doeloplossing voor ongekoppelde records in de bron.  
 
