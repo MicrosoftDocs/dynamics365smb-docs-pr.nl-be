@@ -1,24 +1,24 @@
 ---
-title: Assemblagebeheer
-description: Ondersteun bedrijven die producten aan hun klanten leveren door componenten te combineren in eenvoudige processen zonder de noodzaak van productiefunctionaliteit.
+title: Assemblagebeheer | Microsoft Docs
+description: Ondersteun bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien, maar met functies om artikelen te assembleren, die worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: d149ed0da02124a442668bb67a659c0dde36dad3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 015d11ed2ec58fff09b0c4870a7c5a1ee11e7896
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326375"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186488"
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
-[!INCLUDE[prod_short](includes/prod_short.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
 
  Een assemblageartikel is gedefinieerd als een verkoopbaar artikel dat een assemblagestuklijst bevat. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
@@ -26,11 +26,11 @@ ms.locfileid: "6326375"
 
  Ter ondersteuning van een just-in-time voorraadstrategie en de mogelijkheid tot het aanpassen van producten op basis van klantaanvragen, kunnen assemblageorders zodra de verkooporderregel is gemaakt automatisch worden gemaakt en worden gekoppeld. De koppeling tussen de verkoopvraag en het assemblage-aanbod stelt de verkooporderverwerkers in staat om het assemblageartikel in een handomdraai aanpassen, om leveringsdatums af te spreken op basis van de beschikbaarheid van componenten en om de uitvoer en verzending van het geassembleerde artikel rechtstreeks vanuit hun verkooporderinterface te boeken. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
 
- U kunt op een verkooporderregel een beschikbaar aantal dat uit de voorraad moet worden gepickt, verkopen met een aantal dat op basis van de order moet worden geassembleerd. Er bestaan bepaalde regels voor het beheren van de distributie van dergelijke aantallen om ervoor te zorgen dat aantallen voor assemblage op basis van orders voorrang krijgen op voorraadaantallen die betrekking hebben op gedeeltelijke verzending. Zie voor meer informatie de sectie 'Combinatiescenario's' in [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).  
+ U kunt op een verkooporderregel een beschikbaar aantal dat uit de voorraad moet worden gepickt, verkopen met een aantal dat op basis van de order moet worden geassembleerd. Er bestaan bepaalde regels voor het beheren van de distributie van dergelijke aantallen om ervoor te zorgen dat aantallen voor assemblage op basis van orders voorrang krijgen op voorraadaantallen die betrekking hebben op gedeeltelijke verzending. Zie voor meer informatie de sectie Combinatiescenario's in [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
  Er bestaan speciale functies voor het beheren van aantallen voor assemblage op basis van orders. Wanneer een aantal voor assembleren op basis van orders klaar is om te worden verzonden, boekt de magazijnmedewerker die verantwoordelijk is voor een voorraadpick de verkooporderregel(s) in kwestie. Dit leidt vervolgens tot het maken van een voorraadverplaatsing voor de componenten, tot het boeken van de assemblage-uitvoer en tot de verkooporderverzending. Zie voor meer informatie de sectie 'Op-order-assembleren-artikelen in voorraadpicks afhandelen' in [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.   
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
@@ -48,17 +48,10 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
-
+## <a name="see-also"></a>Zie ook  
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)  
-<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
-<!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

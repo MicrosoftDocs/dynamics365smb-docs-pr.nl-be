@@ -1,26 +1,24 @@
 ---
 title: Synchronisatie en gegevensintegratie | Microsoft Docs
-description: Synchronisatie kopieert gegevens tussen Microsoft Dataverse-tabellen en Business Central-records en houdt de gegevens in beide systemen up-to-date.
+description: Synchronisatie kopieert gegevens tussen Dynamics 365 Sales-posten en Business Central-records en houdt de gegevens in beide systemen up-to-date.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
-ms.date: 06/14/2021
+ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a44777bce30cf4ab4cb07b5b1a05f36d8cbb87f7
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: bbc7da12176d2a5c8ab9a2ccc153ea4053d59656
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049808"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304267"
 ---
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Gegevens synchroniseren in Business Central en Microsoft Dataverse
-
-
-Wanneer u [!INCLUDE[prod_short](includes/cds_long_md.md)] met [!INCLUDE[prod_short](includes/prod_short.md)] integreert, kunt u bepalen of gegevens in geselecteerde velden van [!INCLUDE[prod_short](includes/prod_short.md)]-records (zoals klanten, contactpersonen en verkopers) worden gesynchroniseerd met equivalente rijen in [!INCLUDE[prod_short](includes/cds_long_md.md)] (zoals rekeningen, contacten en gebruikers). Afhankelijk van het type rij kunt u gegevens vanuit [!INCLUDE[prod_short](includes/cds_long_md.md)] synchroniseren met [!INCLUDE[prod_short](includes/prod_short.md)] of andersom. Zie voor meer informatie [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# <a name="synchronizing-data-in-business-central-and-dynamics-365-sales"></a>Gegevens synchroniseren in Business Central en Dynamics 365 Sales
+Wanneer u [!INCLUDE[crm_md](includes/crm_md.md)] met [!INCLUDE[d365fin](includes/d365fin_md.md)] integreert, kunt u bepalen of gegevens in geselecteerde velden van [!INCLUDE[d365fin](includes/d365fin_md.md)]-records (zoals klanten, contactpersonen en verkopers) worden gesynchroniseerd met equivalente records in [!INCLUDE[d365fin](includes/d365fin_md.md)] (zoals rekeningen, contacten en gebruikers). Afhankelijk van het type record kunt u gegevens vanuit [!INCLUDE[crm_md](includes/crm_md.md)] synchroniseren met [!INCLUDE[d365fin](includes/d365fin_md.md)] of andersom. Zie voor meer informatie [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Synchronisatie gebruikt de volgende elementen:
 
@@ -29,46 +27,74 @@ Synchronisatie gebruikt de volgende elementen:
 * Synchronisatieregels
 * Gekoppelde records
 
-Wanneer synchronisatie is ingesteld, kunt u [!INCLUDE[prod_short](includes/prod_short.md)]-records koppelen aan [!INCLUDE[prod_short](includes/cds_long_md.md)]-rijen om gegevens ervan te synchroniseren. U kunt een synchronisatie handmatig starten of op basis van een planning. In de volgende tabel vindt u een overzicht van de manieren waarop u kunt synchroniseren.  
+Wanneer synchronisatie is ingesteld, kunt u [!INCLUDE[d365fin](includes/d365fin_md.md)]-records koppelen aan [!INCLUDE[crm_md](includes/crm_md.md)]-records om gegevens ervan te synchroniseren. U kunt een synchronisatie handmatig starten of op basis van een planning. In de volgende tabel vindt u een overzicht van de manieren waarop u records kunt synchroniseren.  
 
 |  Soort  |  Methode  |  Zie  |  
 |--------|----------|-------|  
-|Handmatige synchronisatie|Synchroniseren op rijbasis.<br /><br /> U kunt afzonderlijke records in [!INCLUDE[prod_short](includes/prod_short.md)], zoals een klant, synchroniseren met een corresponderende [!INCLUDE[prod_short](includes/cds_long_md.md)]-rij, zoals een account. Zo werken gebruikers meestal met [!INCLUDE[prod_short](includes/cds_long_md.md)]-gegevens in [!INCLUDE[prod_short](includes/prod_short.md)].|[Records handmatig koppelen en synchroniseren](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
-|  |Synchroniseren op basis van tabeltoewijzing.<br /><br /> U kunt alle records in een [!INCLUDE[prod_short](includes/prod_short.md)]-tabel synchroniseren met een [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabel.|[Afzonderlijke tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
-||Alle gewijzigde records voor alle tabeltoewijzingen synchroniseren.<br /><br /> U kunt alle records synchroniseren die zijn gewijzigd in [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen sinds de laatste synchronisatie.|[Alle gewijzigde records synchroniseren](admin-manual-synchronization-of-table-mappings.md#synchronizing-all-modified-records)|
-||Volledige synchronisatie van alle gegevens van alle tabelkoppelingen.<br /><br /> U kunt alle gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen en [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabellen synchroniseren die zijn toegewezen en nieuwe records of rijen in de doeloplossing maken voor ongekoppelde records in de bronoplossing.<br /><br /> Volledige synchronisatie synchroniseert alle gegevens en negeert koppeling. Meestal voert u een volledige synchronisatie uit wanneer u de integratie instelt en slechts één van de oplossingen gegevens bevat. Een volledige synchronisatie kan ook nuttig zijn in een demonstratieomgeving.|[Een volledige synchronisatie uitvoeren](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
-|Geplande synchronisatie|Alle wijzigingen synchroniseren in gegevens voor alle tabeltoewijzingen.<br /><br /> U kunt [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[prod_short](includes/cds_long_md.md)] synchroniseren met geplande intervallen door taken in te stellen in de taakwachtrij.|[Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
+|Handmatige synchronisatie|Synchroniseren op recordbasis.<br /><br /> U kunt afzonderlijke records in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals een klant, synchroniseren met een corresponderende [!INCLUDE[crm_md](includes/crm_md.md)]-record, zoals een account. Zo werken gebruikers meestal met [!INCLUDE[crm_md](includes/crm_md.md)]-gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Records handmatig koppelen en synchroniseren](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
+|  |Synchroniseren op basis van tabeltoewijzing.<br /><br /> U kunt alle records in een [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel synchroniseren met een [!INCLUDE[crm_md](includes/crm_md.md)]-entiteit.|[Afzonderlijke tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
+||Alle gewijzigde records voor alle tabeltoewijzingen synchroniseren.<br /><br /> U kunt alle records synchroniseren die zijn gewijzigd in [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen sinds de laatste synchronisatie.|[Alle gewijzigde records synchroniseren](admin-manual-synchronization-of-table-mappings.md#synchronizing-all-modified-records)|
+||Volledige synchronisatie van alle gegevens van alle tabelkoppelingen.<br /><br /> U kunt alle gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen en [!INCLUDE[crm_md](includes/crm_md.md)]-entiteiten synchroniseren die zijn toegewezen en nieuwe records in de doeloplossing maken voor ongekoppelde records in de bronoplossing.<br /><br /> Volledige synchronisatie synchroniseert alle gegevens en negeert koppeling. Meestal voert u een volledige synchronisatie uit wanneer u de integratie instelt en slechts één van de oplossingen gegevens bevat. Een volledige synchronisatie kan ook nuttig zijn in een demonstratieomgeving.|[Een volledige synchronisatie uitvoeren](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
+|Geplande synchronisatie|Alle wijzigingen synchroniseren in gegevens voor alle tabeltoewijzingen.<br /><br /> U kunt [!INCLUDE[d365fin](includes/d365fin_md.md)] met [!INCLUDE[crm_md](includes/crm_md.md)] synchroniseren met geplande intervallen door taken in te stellen in de taakwachtrij.|[Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
-> [!NOTE]
-> De synchronisatie tussen [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)] is gebaseerd op de geplande uitvoering van taakwachtrij-items en garandeert geen realtime gegevensconsistentie tussen twee services. Voor realtime gegevensconsistentie moet u [Virtuele Business Central- tabellen](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) of Business Central-API's verkennen.   
+## <a name="standard-sales-entity-mapping-for-synchronization"></a>Standaardtoewijzing van Sales-entiteit voor synchronisatie
+Entiteiten in [!INCLUDE[crm_md](includes/crm_md.md)], zoals accounts, zijn geïntegreerd met equivalente soorten entiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals klanten. Als u wilt werken met [!INCLUDE[crm_md](includes/crm_md.md)]-gegevens, stelt u koppelingen in tussen entiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)].
 
+In de volgende tabel staat de standaardtoewijzing tussen entiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] die [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt.
 
-## <a name="standard-table-mapping-for-synchronization"></a>Standaardtabeltoewijzingen voor synchronisatie
-Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)], zoals accounts, zijn geïntegreerd met equivalente soorten tabellen in [!INCLUDE[prod_short](includes/prod_short.md)], zoals klanten. Als u wilt werken met [!INCLUDE[prod_short](includes/cds_long_md.md)]-gegevens, stelt u koppelingen in tussen tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)].
+|[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[crm_md](includes/crm_md.md)]|Synchronisatierichting|Standaardfilter|
+|-------------------------------------------|-----|-------------------------|--------------|
+|Verkoper/Inkoper|Gebruiker|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-contactfilter: **Status** is **Nee**, **Gebruiker licentie** is **Ja**, Modus Integratiegebruiker is **Nee**|
+|Klant|Rekening|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-accountfilter: **Relatietype** is **Klant** en **Status** is **Actief**.|
+|Contactpersoon|Contactpersoon|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-contactfilter: **Type** is **Persoon** en de contactpersoon is toegewezen aan een bedrijf. Sales-contactfilter: de contactpersoon is toegewezen aan een bedrijf en het bovenliggende klanttype is **Account**.|
+|Valuta|Transactievaluta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Eenheid|Eenhedengroep|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Artikel|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-contactfilter: **Producttype** is **Verkoopvoorraad**|
+|Bron|Product|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-contactfilter: **Producttype** is **Services**|
+|Klantenprijsgroep|Prijslijst|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Verkoopprijs|Productprijslijst|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-contactfilter: **Verkoopcode** is niet leeg, **Verkoopsoort** is **Klantenprijsgroep**|
+|Opportunity|Opportunity|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
+|Verkoopfactuur|Factureren|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Verkoopfactuurregel|Factuurproduct|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Verkooporderkop|Verkooporder|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-verkoopkopfilter: **Documenttype** is Order, **Status** is Vrijgegeven|
+|Verkoopordernotities|Verkoopordernotities|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 
-In de volgende tabel staat de standaardtoewijzing tussen tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] en die [!INCLUDE[prod_short](includes/cds_long_md.md)].
+### <a name="tip-for-admins-viewing-entity-mappings"></a>Tip voor beheerders: entiteittoewijzingen weergeven
+U kunt de koppeling tussen de entiteiten in [!INCLUDE[crm_md](includes/crm_md.md)] en de tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] bekijken op de pagina **Toewijzingen van integratietabellen**, waar u kunt ook filters kunt toepassen. U definieert de toewijzing tussen de velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen en de velden in [!INCLUDE[crm_md](includes/crm_md.md)]-entiteiten op de pagina **Toewijzing van integratieveld**, waar u aanvullende toewijzingslogica kunt toevoegen. Dat kan bijvoorbeeld handig zijn als u problemen met synchronisatie moet oplossen.
 
-> [!TIP]
-> U kunt configuratiewijzigingen die zijn aangebracht in integratietabel- en veldtoewijzingen terugzetten naar hun standaardinstellingen door de toewijzingen te selecteren en vervolgens **Standaardsynchronisatie-instellingen gebruiken** te kiezen.
+### <a name="tip-for-developers-mapping-fields-in-business-central-to-the-option-sets-in-sales"></a>Tip voor ontwikkelaars: velden in Business Central toewijzen aan de optiesets in Sales
+Als u een ontwikkelaar bent en opties wilt toevoegen aan de optiesets in [!INCLUDE[crm_md](includes/crm_md.md)], moet u dit weten. Er zijn drie tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] die zijn toegewezen aan de optievelden van de entiteit **Rekening** in [!INCLUDE[crm_md](includes/crm_md.md)]. Records in de tabellen die niet zijn gekoppeld aan opties in [!INCLUDE[crm_md](includes/crm_md.md)], worden niet gesynchroniseerd. Dit houdt in dat het veld **Optie** leeg is in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-| [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] | Synchronisatierichting | Standaardfilter |
-|---------------------------------------------|----------------------------------------------|---------------------------|----------------|
-| Verkoper/Inkoper | Gebruiker | [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)]-contactfilter: **Status** is **Nee**, **Gebruiker licentie** is **Ja**, Modus Integratiegebruiker is **Nee** |
-| Klant | Rekening | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)]-rekeningfilter: **Relatietype** is **Klant** en **Status** is **Actief**. [!INCLUDE[prod_short](includes/prod_short.md)]-filter: **Geblokkeerd** is leeg (klant is niet geblokkeerd). |
-| Leverancier | Rekening | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)]-rekeningfilter: **Relatietype** is **Leverancier** en **Status** is **Actief**. [!INCLUDE[prod_short](includes/prod_short.md)]-filter: **Geblokkeerd** is leeg (leverancier is niet geblokkeerd). |
-| Contactpersoon | Contactpersoon | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)]-contactfilter: **Type** is **Persoon** en de contactpersoon is toegewezen aan een bedrijf. [!INCLUDE[prod_short](includes/cds_long_md.md)]-contactfilter: de contactpersoon is toegewezen aan een bedrijf en het bovenliggende klanttype is **Klant**. |
-| Valuta | Transactievaluta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
+De volgende tabel bevat toewijzingen van [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen voor het veld **Optie** in de **Rekening**-entiteit in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-> [!NOTE]
-> De **Dataverse**-acties zijn niet beschikbaar op pagina's, bijvoorbeeld de pagina Klantenkaart, voor records die het tabelfilter voor de integratietabeltoewijzing niet respecteren.
+|Tafel|Optieveld in de rekeningentiteit|
+|----------------------|-------------------------------------------|
+|Betalingsvoorwaarden|Betalingsvoorwaarden|
+|Verzendwijze|Adres 1: vrachtvoorwaarden|
+|Expediteurs|Adres 1: verzendmethode|
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Tip voor beheerders: tabeltoewijzingen weergeven
-U kunt de koppeling tussen de tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] en de tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] bekijken op de pagina **Toewijzingen van integratietabellen**, waar u kunt ook filters kunt toepassen. U definieert de toewijzing tussen de velden in [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen en de kolommen in [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabellen op de pagina **Toewijzing van integratieveld**, waar u aanvullende toewijzingslogica kunt toevoegen. Dat kan bijvoorbeeld handig zijn als u problemen met synchronisatie moet oplossen.
+### <a name="synchronization-rules"></a>Synchronisatieregels
+De volgende tabel beschrijft regels die de synchronisatie tussen de apps bepalen.
+
+> [!NOTE]  
+> Wijzigingen in gegevens in [!INCLUDE[crm_md](includes/crm_md.md)] die zijn gemaakt door het gebruikersaccount van de [!INCLUDE[crm_md](includes/crm_md.md)]-verbinding worden niet gesynchroniseerd. Daarom raden we aan dat u geen gegevens wijzigt terwijl u dat account gebruikt. Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
+
+|Tafel|Regel|
+|-----|----|
+|Klanten|Voordat een klant met een rekening kan worden gesynchroniseerd, moet de verkoper die aan de klant is toegewezen, aan een gebruiker worden gekoppeld in [!INCLUDE[crm_md](includes/crm_md.md)]. Daarom, wanneer u de Dynamics 365 Sales-synchronisatietaak KLANTEN uitvoert en instelt om nieuwe records te maken, moet u ervoor zorgen dat u verkopers synchroniseert met [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikers voordat u klanten met accounts in [!INCLUDE[crm_md](includes/crm_md.md)] synchroniseert. <br /> <br />De Dynamics 365 Sales-synchronisatietaak KLANTEN synchroniseert alleen Sales-accounts die het relatietype Klant hebben.|
+|Contacten|Alleen contactpersonen in [!INCLUDE[crm_md](includes/crm_md.md)] die zijn gekoppeld aan een account, worden gemaakt in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De waarde van Verkoperscode definieert de eigenaar van de gekoppelde entiteit in [!INCLUDE[crm_md](includes/crm_md.md)].|
+|Valuta's|Valuta's worden aan transactievaluta's in [!INCLUDE[crm_md](includes/crm_md.md)] gekoppeld op basis van ISO-codes. Alleen valuta's die een standaard-ISO-code hebben, worden gekoppeld en gesynchroniseerd met transactievaluta's.|
+|Eenheden|Maateenheden worden gesynchroniseerd met eenheidsgroepen in [!INCLUDE[crm_md](includes/crm_md.md)]. Er kan slechts één eenheid worden gedefinieerd in de eenhedengroep.|
+|Artikelen|Wanneer artikelen worden gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]-producten, maakt [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch een prijslijst in [!INCLUDE[crm_md](includes/crm_md.md)]. Als u synchronisatiefouten wilt voorkomen, moet u deze prijslijst niet handmatig wijzigen.|
+|Verkopers|Verkopers worden gekoppeld aan systeemgebruikers in [!INCLUDE[crm_md](includes/crm_md.md)]. De gebruiker moet zijn ingeschakeld en een licentie hebben en moet niet de integratiegebruiker zijn. Dit is de eerste tabel die moet worden gesynchroniseerd, omdat deze wordt gebruikt in klanten, contactpersonen, opportunity's en verkoopfacturen.|
+|Resources|Resources worden gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]-producten van het producttype Service.|
+|Klantenprijsgroepen|Klantenprijsgroepen worden gesynchroniseerd met Sales-prijslijsten.|
+|Verkoopprijzen|Sales-prijzen die het verkoopsoort Klantenprijsgroep hebben en waarvoor een verkoopcode is gedefinieerd, worden gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]-prijslijstregels|
+|Opportunity's|Opportunity's worden gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]-opportunity's. De waarde van Verkoperscode definieert de eigenaar van de gekoppelde entiteit in [!INCLUDE[crm_md](includes/crm_md.md)].|
+|Geboekte verkoopfacturen|Geboekte verkoopfacturen worden gesynchroniseerd met verkoopfacturen. Voordat een factuur kan worden gesynchroniseerd, is het beter om alle andere entiteiten die deel kunnen nemen aan de factuur, te synchroniseren van verkopers naar prijslijsten. De waarde van Verkoperscode op de factuurkop definieert de eigenaar van de gekoppelde entiteit in Sales.|
+|Verkooporders|Wanneer integratie van verkooporders is ingeschakeld, worden verkooporders binnen [!INCLUDE[d365fin](includes/d365fin_md.md)] die zijn gemaakt op basis van ingediende verkooporders in [!INCLUDE[crm_md](includes/crm_md.md)], gesynchroniseerd met verkooporders in VERKOOP OPNEMEN wanneer ze worden vrijgegeven. Voordat u orders synchroniseert, raden we u aan eerst alle entiteiten te synchroniseren die bij de order betrokken zijn, zoals verkoopmedewerkers en prijslijsten. Het veld Verkoperscode in de orderkop definieert de eigenaar van de gekoppelde entiteit in [!INCLUDE[crm_md](includes/crm_md.md)].|  
 
 ## <a name="see-also"></a>Zie ook  
 [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

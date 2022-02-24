@@ -1,22 +1,23 @@
 ---
-title: Overzicht van taken om inkoop te beheren
+title: Overzicht van taken om inkoop te beheren | Microsoft Docs
 description: Schetst taken om uw inkoop- of verwervingsprocessen te beheren, onder andere hoe inkoopfacturen en inkooporders werken.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.search.form: 460
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 60887ebf12795464049fb403e832e4eae7118b18
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: aed5db94b7b028a972cf197cdc150a39e2df4ed6
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012115"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954199"
 ---
 # <a name="purchasing"></a>Inkopen
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u een voorraad moeten controleren, worden inkoopfacturen ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
@@ -41,13 +42,9 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Maak een inkoopcreditnota om een bepaalde geboekte inkoopfactuur terug te boeken om te weerspiegelen welke producten u naar de leverancier terugstuurt en welk betalingsbedrag u zult innen. |[Inkoopretouren of annuleringen verwerken](purchasing-how-register-new-vendors.md) |
 |Tref voorbereidingen om meerdere ontvangsten van dezelfde leverancier in één keer te factureren, door de ontvangsten in een factuur te combineren.|[Ontvangsten combineren op één factuur](purchasing-how-to-combine-receipts.md)|
 |Converteer bijvoorbeeld elektronische facturen van uw leveranciers naar inkoopfacturen in Business Central.|[Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Leer hoe [!INCLUDE[prod_short](includes/prod_short.md)] berekent wanneer u een artikel moet bestellen, zodat u het op een bepaalde datum ontvangt.|[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)|
+| Leer hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent wanneer u een artikel moet bestellen, zodat u het op een bepaalde datum ontvangt.|[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)|
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde leverancier.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 |Beheer uw toezegging aan een leverancier om grote hoeveelheden te kopen die in meerdere verzendingen worden geleverd.|[Werken met afroepinkooporders](sales-how-to-create-blanket-sales-orders.md)|
-
-## <a name="external-document-numbers"></a>Externe documentnummers
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
@@ -56,10 +53,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Projecten beheren](projects-manage-projects.md)    
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

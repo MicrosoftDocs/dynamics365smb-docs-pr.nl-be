@@ -1,242 +1,167 @@
 ---
-title: Verbinding maken met Microsoft Dataverse (bevat video)
-description: Een verbinding instellen tussen Business Central en Dataverse. Bedrijven maken doorgaans de verbinding om gegevens te integreren met een andere Dynamics 365-bedrijfsapp.
+title: Verbinden met Dynamics 365 Sales | Microsoft Docs
+description: U kunt integreren met Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.forms: 7200, 7201
-ms.date: 09/30/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bbe27c46562fa7550619283cb85cd1d7dcc76a3c
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059556"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910748"
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Verbinding maken met Microsoft Dataverse
+# <a name="set-up-a-connection-to-dynamics-365-sales"></a>Een Dynamics 365 Sales-verbinding instellen
+In dit onderwerp wordt beschreven hoe u een verbinding tot stand brengt tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)].
+<br><br>  
 
-
-
-In dit onderwerp wordt beschreven hoe u een verbinding tot stand brengt tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Bedrijven maken doorgaans de verbinding om gegevens te integreren en te synchroniseren met een andere Dynamics 365-bedrijfsapp, zoals [!INCLUDE[crm_md](includes/crm_md.md)].  
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Voordat u begint
-
 Voordat u de verbinding maakt, moet u een aantal gegevens gereed hebben:  
 
-* De URL van de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving waarmee u verbinding wilt maken. Als u de begeleide instelling **Dataverse-verbinding instellen** gebruikt om de verbinding tot stand te brengen, ontdekken we uw omgevingen, maar u kunt ook de URL van een andere omgeving in uw tenant invoeren.  
-* De gebruikersnaam en het wachtwoord van een account dat beheerdersmachtigingen heeft in [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
-* Als u een on-premises [!INCLUDE[prod_short](includes/prod_short.md)] 2020 releasewave 1, versie 16.5, hebt, leest u het artikel [Enkele bekende problemen](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). U moet de beschreven tijdelijke oplossing voltooien voordat u verbinding kunt maken met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-* De lokale valuta voor het bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)] moet dezelfde zijn als de basistransactievaluta in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Nadat een basistransactie is ingesteld in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], kan deze niet worden gewijzigd. Zie voor meer informatie [De entiteit Transactievaluta (valuta)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Dit betekent dat alle [!INCLUDE[prod_short](includes/prod_short.md)] bedrijven waarmee u verbinding maakt met een [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-organisatie dezelfde valuta moeten gebruiken.
-
-> [!IMPORTANT]
-> Uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving mag niet in de beheermodus zijn. De beheermodus zorgt ervoor dat de verbinding mislukt omdat het integratiegebruikersaccount voor de verbinding geen beheerdersmachtigingen heeft. Zie [Beheermodus](/power-platform/admin/admin-mode) voor meer informatie.
+* Een URL voor uw [!INCLUDE[crm_md](includes/crm_md.md)]-app. Een snelle manier om de URL te krijgen is [!INCLUDE[crm_md](includes/crm_md.md)] te openen, de URL te kopiëren en deze te plakken in het veld **Dynamics 365 Sales-URL** in [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] corrigeert de opmaak voor u.  
+* Een gebruikersnaam en wachtwoord van een gebruikersaccount dat alleen voor de integratie wordt gebruikt.  
+* De gebruikersnaam en het wachtwoord van het account dat beheerdersmachtigingen heeft.  
 
 > [!Note]
-> Deze stappen beschrijven de procedure voor [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt en geen Azure Active Directory-account gebruikt om verbinding te maken met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], moet u ook een gebruikersnaam en wachtwoord van een gebruikersaccount opgeven voor de integratie. Dit account wordt de 'integratiegebruiker' genoemd. Als u een Azure Active Directory-account gebruikt, is het gebruikersaccount voor integratie niet vereist of weergegeven. De integratiegebruiker wordt automatisch ingesteld en heeft geen licentie nodig.
+> Deze stappen beschrijven de procedure voor de online versie van [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-## <a name="set-up-a-connection-to-cds_long_md"></a>Een verbinding instellen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## <a name="set-up-test-and-enable-a-connection-to-crm_md"></a>Instellen, testen en een verbinding inschakelen met [!INCLUDE[crm_md](includes/crm_md.md)]  
+Voor alle verificatiesoorten anders dan Office 365-verificatie stelt u de verbinding met Dynamics 365 Sales in op de pagina **Microsoft Dynamics 365 Sales-verbinding instellen**. Voor Office 365-verificatie kunt u ook de begeleide instelling **Dynamics 365 Sales-verbinding instellen** gebruiken, die u helpt de vereiste informatie op te geven.
 
-Voor alle verificatiesoorten anders dan Microsoft 365-verificatie stelt u de verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] in op de pagina **Dataverse-verbinding instellen**. Het is raadzaam de begeleide instelling **Dataverse-verbinding instellen** te gebruiken voor Microsoft 365-verificatie. De begeleide instelling maakt het gemakkelijker om de verbinding in te stellen en geavanceerde functies op te geven, zoals het eigendomsmodel en initiële synchronisatie.  
+### <a name="to-use-an-assisted-setup-guide"></a>Een begeleide instelling gebruiken
+De begeleide instelling **Dynamics 365 Sales-verbinding instellen** kan u helpen de verbinding in te stellen en op te geven of geavanceerde functies moeten worden ingeschakeld, zoals koppeling tussen records.
 
-> [!IMPORTANT]
-> Tijdens het instellen van de verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] wordt de beheerder gevraagd om de volgende machtigingen te geven aan een geregistreerde Azure-toepassing met de naam [!INCLUDE[prod_short](includes/prod_short.md)]-integratie met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
->
-> * De machtiging **Toegang tot [!INCLUDE[cds_long_md](includes/cds_long_md.md)] krijgen als uzelf** is nodig, zodat [!INCLUDE[prod_short](includes/prod_short.md)] namens de beheerder automatisch een niet-gelicentieerde, niet-interactieve gebruiker van de [!INCLUDE[prod_short](includes/prod_short.md)]-integratietoepassing kan maken, beveiligingsrollen kan toewijzen aan deze gebruiker en de [!INCLUDE[prod_short](includes/prod_short.md)]-integratieoplossing kan implementeren naar [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Deze toestemming wordt slechts één keer gebruikt tijdens het instellen van de verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
-> * De machtiging **Volledige toegang tot Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]** hebben is nodig zodat de automatisch gemaakte gebruiker van de [!INCLUDE[prod_short](includes/prod_short.md)]-integratietoepassing toegang tot [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens kan krijgen die worden gesynchroniseerd.  
-> * De machtiging **Aanmelden en uw profiel lezen** is nodig om te verifiëren dat de gebruiker die zich aanmeldt de beveiligingsrol Systeembeheerder toegewezen heeft gekregen in [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
->
-> Door namens de organisatie toestemming te geven geeft de beheerder de geregistreerde Azure-toepassing genaamd [!INCLUDE[prod_short](includes/prod_short.md)]-integratie met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] het recht gegevens te synchroniseren met de referenties van de automatisch gemaakte gebruiker van de [!INCLUDE[prod_short](includes/prod_short.md)]-integratietoepassing.
+1. Kies **Instellingen en extensies** en kies vervolgens **Begeleide instelling**.
+2. Kies **Dynamics 365 Sales-verbinding instellen** om de begeleide instelling te starten.
+3. Vul de velden in.
+4. Eventueel zijn er geavanceerde instellingen die beveiliging kunnen vergroten en aanvullende [!INCLUDE[crm_md](includes/crm_md.md)]-mogelijkheden inschakelen, zoals verwerking van verkooporders en weergave van voorraadniveaus. De volgende tabel beschrijft de geavanceerde instellingen.  
 
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>De begeleide instelling Dataverse-verbinding instellen gebruiken
-De begeleide instelling Dataverse-verbinding instellen kan het gemakkelijker maken om de toepassingen te verbinden en kan u zelfs helpen bij het uitvoeren van een eerste synchronisatie. Als u ervoor kiest om de eerste synchronisatie uit te voeren, zal [!INCLUDE[prod_short](includes/prod_short.md)] de gegevens in beide applicaties bekijken en aanbevelingen doen voor het benaderen van de initiële synchronisatie. De volgende tabel beschrijft de verschillende aanbevelingen.
+|Veld|Omschrijving|
+|-----|-----|
+|**Dynamics 365 Sales-oplossing importeren**|Schakel dit in om de integratieoplossing te installeren en configureren in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Over de Business Central-integratieoplossing](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|
+|**Webservice Artikelbeschikbaarheid publiceren**|Zorg dat personen die [!INCLUDE[crm_md](includes/crm_md.md)] gebruiken de beschikbaarheid van producten (artikelen) in voorraad in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen bekijken. Hiervoor moet het [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikersaccount een webservicetoegangssleutel hebben. De sleutel toewijzen is een proces van twee stappen. In het gebruikersaccount in [!INCLUDE[d365fin](includes/d365fin_md.md)] moet u de actie **Sleutel van webservice wijzigen** kiezen. In de begeleide instelling Dynamics 365 Sales-verbinding instellen moet u de URL van de Dynamics 365 Business Central OData-webservice opgeven en [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikersreferenties opgeven voor toegang tot de service. Zie voor meer informatie [OData-webservices](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
+|**URL van Dynamics 365 Business Central OData-webservice**|Als u de webservice Artikelbeschikbaarheid inschakelt, wordt de URL van de OData-webservice voor u verschaft.|
+|**Gebruikersnaam van Dynamics 365 Business Central OData-webservice**|De naam van het [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikersaccount dat de [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid in [!INCLUDE[d365fin](includes/d365fin_md.md)] op te halen met de OData-webservice.|
+|**Toegangssleutel van Dynamics 365 Business Central OData-webservice**|De toegangssleutel voor het gebruikersaccount dat de [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid uit [!INCLUDE[d365fin](includes/d365fin_md.md)] op te halen met de OData-webservice. De sleutel wordt toegewezen aan de gebruiker die is gekozen in het veld **Gebruikersnaam van Dynamics 365 Business Central OData-webservice**. Als u de sleutel wilt krijgen, kiest u de knop **Opzoekwaarde** naast de gebruikersnaam, kiest u de gebruiker, kiest u **Beheren** en klikt u vervolgens op **Bewerken**. Kies op de gebruikerskaart **Acties**, **Verificatie** en kies vervolgens **Sleutel van webservice wijzigen**|
+|**Integratie van verkooporders inschakelen**|Wanneer mensen verkooporders maken in [!INCLUDE[crm_md](includes/crm_md.md)] en bestellingen uitvoeren in [!INCLUDE[d365fin](includes/d365fin_md.md)], integreert dit het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Hiervoor moet u referenties opgeven voor een beheerdersaccount in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie het gedeelte [Verkoopordergegevens verwerken](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
+|**Dynamics 365 for Sales-verbinding inschakelen**|De verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] inschakelen.|
+|**Dynamics 365 SDK-versie**|Dit is alleen relevant als u integreert met een on-premises versie van [!INCLUDE[crm_md](includes/crm_md.md)]. Dit is de software-ontwikkelingskit van Dynamics 365 (ook Xrm genoemd) die u gebruikt om [!INCLUDE[d365fin](includes/d365fin_md.md)] te verbinden met [!INCLUDE[crm_md](includes/crm_md.md)]. De versie moet compatibel zijn met de SDK-versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)] en gelijk zijn aan of nieuwer zijn dan de versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)].|
 
-|Aanbeveling  |Omschrijving  |
-|---------|---------|
-|**Volledige synchronisatie**|Gegevens bestaan alleen in [!INCLUDE[prod_short](includes/prod_short.md)] of alleen in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. De aanbeveling is om alle gegevens van de service die ze heeft te synchroniseren met de andere service.|
-|**Geen synchronisatie**|Er zijn gegevens in beide toepassingen en bij volledige synchronisatie worden de gegevens gedupliceerd. De aanbeveling is om records te koppelen.|
-|**Niet voldaan aan afhankelijkheid**|Er zijn gegevens in beide toepassingen, maar de rij of tabel kan niet worden gesynchroniseerd omdat deze afhankelijk is van een rij of tabel waarvoor de aanbeveling Geen synchronisatie geldt. Als klanten bijvoorbeeld niet kunnen worden gesynchroniseerd, kunnen gegevens voor contacten die afhankelijk zijn van de klantgegevens ook niet worden gesynchroniseerd.|
-
-> [!IMPORTANT]
-> Normaal gesproken gebruikt u alleen volledige synchronisatie wanneer u de applicaties voor de eerste keer integreert en bevat slechts één applicatie gegevens. Volledige synchronisatie kan handig zijn in een demonstratieomgeving omdat het automatisch records maakt en koppelt in elke applicatie, waardoor het sneller wordt om met gesynchroniseerde gegevens te werken. U moet echter alleen volledige synchronisatie uitvoeren als u één rij wilt in [!INCLUDE[prod_short](includes/prod_short.md)] voor elke rij in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] voor de tabeltoewijzingen. Anders kan het resultaat dubbele records zijn.
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Begeleide instelling** in en kies vervolgens de gerelateerde koppeling.
-2. Kies **Een verbinding instellen met Microsoft Dataverse** om de begeleide instelling te starten.
-3. Vul de vereiste velden in.
-
-> [!NOTE]
-> Als u niet wordt gevraagd om u aan te melden met uw beheerdersaccount, komt dit waarschijnlijk omdat pop-ups worden geblokkeerd. Sta pop-ups vanaf `https://login.microsoftonline.com` toe om u aan te melden.
+> [!Note]
+> De begeleide instelling **Dynamics 365 Sales-verbinding instellen** wijst automatisch de beveiligingsrollen **Integratiebeheerder** en **Integratiegebruiker** toe aan het gebruikersaccount dat wordt gebruikt voor integratie.
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>De verbinding handmatig maken of onderhouden
+In de volgende procedure wordt beschreven hoe u de velden op de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** handmatig invult. Dit is ook de pagina waar u instellingen voor de integratie beheert.
 
-In de volgende procedure wordt beschreven hoe u de verbinding op de pagina **Dataverse-verbinding instellen** handmatig instelt. Dit is ook de pagina waar u instellingen voor de integratie beheert.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365-verbinding instellen** in en kies de gerelateerde koppeling.
+2. Voer de volgende gegevens in voor de verbinding van [!INCLUDE[d365fin](includes/d365fin_md.md)] met [!INCLUDE[crm_md](includes/crm_md.md)].
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dataverse-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
-2. Voer de volgende gegevens in voor de verbinding van [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+|Veld|Omschrijving|
+|-----|-----|
+|**Dynamics 365 Sales-URL**|De URL voor uw exemplaar van [!INCLUDE[crm_md](includes/crm_md.md)]. Als u de URL wilt krijgen, opent u [!INCLUDE[crm_md](includes/crm_md.md)], kopieert u de URL vanaf de adresbalk in uw browser en plakt u de URL vervolgens in het veld. [!INCLUDE[d365fin](includes/d365fin_md.md)] zorgt dat de indeling klopt.|
+|**Gebruikersnaam** en **Wachtwoord**|De referenties van het gebruikersaccount voor de integratie. Zie voor meer informatie [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).|
+|**Ingeschakeld**|Begin de integratie te gebruiken. Als u de verbinding niet nu inschakelt, worden de verbindingsinstellingen opgeslagen, maar hebben gebruikers geen toegang tot [!INCLUDE[crm_md](includes/crm_md.md)]-gegevens uit [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt naar deze pagina terugkeren en de verbinding later inschakelen.  |
+|**Dynamics 365 SDK-versie**|Als u integreert met een on-premises versie van [!INCLUDE[crm_md](includes/crm_md.md)], is dit de Dynamics 365-softwareontwikkelingskit (ook Xrm genoemd) die u gebruikt om [!INCLUDE[d365fin](includes/d365fin_md.md)] te verbinden met [!INCLUDE[crm_md](includes/crm_md.md)]. De versie die u selecteert moet compatibel zijn met de SDK-versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)]. Deze versie is gelijk aan of nieuwer dan de versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)].|
 
-    |Veld|Omschrijving|
-    |-----|-----|
-    |**Omgevings-URL**|Als u eigenaar bent van omgevingen in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], vinden we die voor u wanneer u de instelling uitvoert. Als u verbinding wilt maken met een andere omgeving in een andere tenant, kunt u de beheerdersreferenties voor de omgeving invoeren en zullen we die ontdekken. |
-    |**Ingeschakeld**|Begin de integratie te gebruiken. Als u de verbinding niet nu inschakelt, worden de verbindingsinstellingen opgeslagen, maar hebben gebruikers geen toegang tot [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-gegevens uit [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt naar deze pagina terugkeren en de verbinding later inschakelen.  |
+> [!Note]
+> Als u een on-premises versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] verbindt met [!INCLUDE[crm_md](includes/crm_md.md)] en u een verbinding met een [!INCLUDE[crm_md](includes/crm_md.md)]-exemplaar wilt configureren met een specifiek verificatietype, vult u de velden op het sneltabblad **Gegevens van verificatietype** in. Zie voor meer informatie [Verbindingstekenreeken in XRM tooling gebruiken om verbinding te maken met Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). Deze stap is niet vereist wanneer u verbinding maakt met een online versie van [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-3. Kies in het veld **Eigendomsmodel** of u wilt dat een teamtabel in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] eigenaar is van nieuwe records of een of meer specifieke gebruikers. Als u **Persoon** kiest, moet u elke gebruiker opgeven. Als u **Team** kiest, wordt de standaardbedrijfsunit weergegeven in het veld **Gekoppelde bedrijfsunit**.
+3. Voer de volgende gegevens in voor de verbinding van [!INCLUDE[crm_md](includes/crm_md.md)] met [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-    <!--Need to verify the details in this table, are these specific to Sales maybe?  IK: No they are not and no longer relevant 
-    Enter the following advanced settings.-->
+|Veld|Omschrijving|
+|-----|-----|
+|**Dynamics 365 Business Central Webclient-URL**|De URL van uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-exemplaar. Hierdoor kunnen gebruikers in [!INCLUDE[crm_md](includes/crm_md.md)] bijbehorende records openen in [!INCLUDE[d365fin](includes/d365fin_md.md)] vanuit records in [!INCLUDE[crm_md](includes/crm_md.md)], zoals een account of product. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-records worden geopend in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Stel dit veld in op de URL van het te gebruiken [!INCLUDE[d365fin](includes/d365fin_md.md)]-exemplaar.<br /><br /> Als u het veld opnieuw wilt instellen op de standaard-URL voor de [!INCLUDE[d365fin](includes/d365fin_md.md)], kiest u de actie **Webclient-URL opnieuw instellen**.<br /><br /> Dit veld is alleen van belang als de [!INCLUDE[d365fin](includes/d365fin_md.md)]-integratieoplossing is geïnstalleerd in [!INCLUDE[crm_md](includes/crm_md.md)].|
+|**Webservice Artikelbeschikbaarheid ingeschakeld**|Zorg dat personen die [!INCLUDE[crm_md](includes/crm_md.md)] gebruiken de beschikbaarheid van producten (artikelen) in voorraad in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen bekijken. Als u dit inschakelt, moet u ook een gebruikersnaam en een toegangssleutel opgeven die de [!INCLUDE[crm_md](includes/crm_md.md)] moet gebruiken om bij de OData webservice te vragen naar beschikbaarheid van (artikelen). Zie voor meer informatie [OData-webservices](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md).|
+|**URL van Dynamics 365 Business Central OData-webservice**|Als u de webservice Artikelbeschikbaarheid inschakelt, wordt de URL van de OData-webservice voor u verschaft.|
+|**Gebruikersnaam van Dynamics 365 Business Central OData-webservice**|De naam van het gebruikersaccount dat de [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid in [!INCLUDE[d365fin](includes/d365fin_md.md)] op te halen met de OData-webservice.|
+|**Toegangssleutel van Dynamics 365 Business Central OData-webservice**|De toegangssleutel voor het gebruikersaccount dat de [!INCLUDE[crm_md](includes/crm_md.md)] gebruikt om informatie over artikelbeschikbaarheid uit [!INCLUDE[d365fin](includes/d365fin_md.md)] op te halen met de OData-webservice. De sleutel wordt toegewezen aan de gebruiker die is gekozen in het veld **Gebruikersnaam van Dynamics 365 Business Central OData-webservice**. Als u de sleutel wilt krijgen, kiest u de knop **Opzoekwaarde** naast de gebruikersnaam, kiest u de gebruiker, kiest u **Beheren** en klikt u vervolgens op **Bewerken**. Kies op de gebruikerskaart **Acties**, **Verificatie** en kies vervolgens **Sleutel van webservice wijzigen**|
 
-    <!-- |Field|Description|
-    |-----|-----|
-    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
-    |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
-4. Als u de verbindingsinstellingen wilt testen, kiest u **Verbinding** en vervolgens **Verbinding testen**.  
+4. Voer de volgende instellingen in voor [!INCLUDE[crm_md](includes/crm_md.md)].
+
+|Veld|Omschrijving|
+|-----|-----|
+|**Verkooporderintegratie is ingeschakeld**|Gebruikers de mogelijkheid bieden verkooporders en geactiveerde offertes in te dienen in [!INCLUDE[crm_md](includes/crm_md.md)] deze vervolgens weer te geven en te verwerken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit integreert het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
+|**Automatisch verkooporders maken**|Maak een verkooporder in [!INCLUDE[d365fin](includes/d365fin_md.md)] wanneer een gebruiker er een maakt en indient in [!INCLUDE[crm_md](includes/crm_md.md)].|
+|**Verkoopoffertes automatisch verwerken**|Verwerk een verkoopofferte in [!INCLUDE[d365fin](includes/d365fin_md.md)] als een gebruiker er een maakt en activeert in [!INCLUDE[crm_md](includes/crm_md.md)].|
+
+5. Voer de volgende geavanceerde instellingen in.
+
+|Veld|Omschrijving|
+|-----|-----|
+|**[!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikers moeten worden toegewezen aan Dynamics 365 Sales-gebruikers**|Geef op of [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikersaccounts overeenkomstige gebruikersaccounts in [!INCLUDE[crm_md](includes/crm_md.md)] moeten hebben. Het **Office 365 e-mailadres voor verificatie** van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruiker moet hetzelfde zijn als het **Primaire e-mailadres** van de [!INCLUDE[crm_md](includes/crm_md.md)]-gebruiker.<br /><br /> Als u de waarde instelt op **Ja**, hebben [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikers die geen overeenkomend [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikersaccount hebben, geen [!INCLUDE[d365fin](includes/d365fin_md.md)]-integratiemogelijkheden in de gebruikersinterface. Toegang tot [!INCLUDE[crm_md](includes/crm_md.md)]-gegevens, direct vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt uitgevoerd namens het [!INCLUDE[crm_md](includes/crm_md.md)]-gebruikersaccount.<br /><br /> Als u de waarde instelt op **Nee**, hebben alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-gebruikers [!INCLUDE[crm_md](includes/crm_md.md)]-integratiemogelijkheden in de gebruikersinterface. Toegang tot [!INCLUDE[crm_md](includes/crm_md.md)]-gegevens wordt uitgevoerd namens de gebruiker van de [!INCLUDE[crm_md](includes/crm_md.md)]-verbinding (integratie).|
+|**Huidige Business Central-gebruiker is toegewezen aan een Dynamics 365 Sales-gebruiker**|Geeft aan of uw gebruikersaccount is toegewezen aan een account in [!INCLUDE[crm_md](includes/crm_md.md)].|
+
+6. Als u de verbindingsinstellingen wilt testen, kiest u **Verbinding testen**.  
 
     > [!NOTE]  
-    > Als gegevensversleuteling niet is ingeschakeld in [!INCLUDE[prod_short](includes/prod_short.md)], wordt u gevraagd of u het wilt inschakelen. Als u gegevensversleuteling wilt inschakelen, kiest u **Ja** en geeft u de vereiste informatie op. Anders kiest u **Nee**. U kunt gegevenscodering later inschakelen. Zie voor meer informatie [Gegevens versleutelen in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in de Help voor ontwikkelaars en beheerders.  
-5. Als [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-synchronisatie niet al is ingesteld, wordt u gevraagd of u de standaardinstellingen voor synchronisatie wilt gebruiken. Afhankelijk van of u records uitgelijnd wilt houden in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)], kiest u **Ja** of **Nee**.
+    >  Als gegevensversleuteling niet is ingeschakeld in [!INCLUDE[d365fin](includes/d365fin_md.md)], wordt u gevraagd of u het wilt inschakelen. Als u gegevensversleuteling wilt inschakelen, kiest u **Ja** en geeft u de vereiste informatie op. Anders kiest u **Nee**. U kunt gegevenscodering later inschakelen. Zie voor meer informatie [Gegevens versleutelen in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) in Help voor ontwikkelaars en IT-pro.  
+
+7. Als [!INCLUDE[crm_md](includes/crm_md.md)]-synchronisatie niet al is ingesteld, wordt u gevraagd of u de standaardinstellingen voor synchronisatie wilt gebruiken. Afhankelijk van of u records uitgelijnd wilt houden in [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[d365fin](includes/d365fin_md.md)], kiest u **Ja** of **Nee**.
+
+> [!Note]
+> Voor het maken van verbinding met Dynamics 365 Sales met behulp van de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** moet u mogelijk de beveiligingsrollen Integratiebeheerder en Integratiegebruiker toewijzen aan het account dat wordt gebruikt voor integratie. Zie voor meer informatie [Een beveiligingsrol toewijzen aan een gebruiker](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+
+
+> [!Note]
+> Voor het maken van verbinding met Dynamics 365 Sales met behulp van de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** moet u mogelijk [de beveiligingsrollen **Integratiebeheerder** en **Integratiegebruiker** toewijzen](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) aan het gebruikersaccount dat wordt gebruikt voor integratie.
+
+
+### <a name="to-disconnect-from-crm_md"></a>Verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] verbreken  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Microsoft Dynamics 365 Sales-verbinding instellen** in en kies de gerelateerde koppeling.
+2. Schakel op de pagina **Microsoft Dynamics 365 Sales-verbinding instellen** het selectievakje **Ingeschakeld** uit.  
+
+<!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension?
+
+
+1.  From [!INCLUDE[d365fin](includes/d365fin_md.md)] installation media \(DVD\), copy the DynamicsNAVIntegrationSolution.zip file to your computer.  
+
+     The DynamicsNAVIntegrationSolution.zip file is located in the **CrmCustomization** folder. This file is the solution package.   
+
+2.  In [!INCLUDE[crm_md](includes/crm_md.md)], import the DynamicsNAVIntegrationSolution.zip as a solution.  
+
+     This step adds the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity and **[!INCLUDE[d365fin](includes/d365fin_md.md) Account Statistics** entity in the system and additional items such as [!INCLUDE[d365fin](includes/d365fin_md.md)] integration security roles.  
+
+     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [https://go.microsoft.com/fwlink/?LinkID=616519](https://go.microsoft.com/fwlink/?LinkID=616519).  
+
+3.  Optional: Set up the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity to display in the **Settings** area of [!INCLUDE[crm_md](includes/crm_md.md)].  
+
+     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](https://go.microsoft.com/fwlink/?LinkID=616521).  
+
+4.  Assign the **[!INCLUDE[d365fin](includes/d365fin_md.md) Integration Administrator** role to the user account for the connection to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+5.  Assign the **Business Central Integration User** role to all users who will use the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution.  
+
+If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.-->
+
+<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [Set Up a Microsoft Dynamics 365 Sales Connection]() -->
 
 <!--
-## Show Me the Process
+# View Item Availability - Support Matrix
+For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md) and Dynamics 365 Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
 
-The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
-  
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
+| |Dynamics 365 Sales version|2015/Update 1/Online|2016/Update 1/Online|Dynamics 365 Sales|
+|-|---------------------|---------------------|--------------------------|-----------------|
+|**Dynamics NAV version**|
+|**2016**||Not supported|Not supported|Not supported|
+|**2017**||Not supported - Install from 2016|Supported|Supported|
+|**Dynamics 365 for Financials**||Not supported - Install from 2016|Supported|Supported|
+
+
+> [Note]
+> You can obtain item availability support for combinations of Dynamics CRM 2015 and Business Central by running the DynamicsNAVIntegrationSolution.zip file on the Business Central product DVD.
+
+For more information, see [System Requirements for Business Central](../deployment/system-requirement-business-central.md).
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>De koppeling op basis van overeenkomsten aanpassen
-
-Vanaf 2021 release wave 2 kunt u records koppelen in [!INCLUDE [prod_short](includes/prod_short.md)] en [!INCLUDE [cds_long_md](includes/cds_long_md.md)] op basis van door de beheerder gedefinieerde criteria.  
-
-Het algoritme voor het matchen van records kan worden gestart vanaf de volgende plaatsen in [!INCLUDE [prod_short](includes/prod_short.md)]:
-
-* Lijstpagina's die records tonen die zijn gesynchroniseerd met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], zoals de pagina's Klanten en Artikelen.  
-
-    Selecteer meerdere records en kies vervolgens de actie **Gerelateerd**, kies **Dataverse**, kies **Koppeling** en kies vervolgens **Koppeling op basis van overeenkomsten**.
-
-    Wanneer het op overeenkomsten gebaseerde koppelingsproces wordt gestart vanuit een hoofdgegevenslijst, wordt er direct een koppelingstaak gepland nadat u de koppelingscriteria hebt geselecteerd.  
-* De pagina Controle van volledige **Dataverse-synchronisatie**.  
-
-    Wanneer het volledige synchronisatieproces detecteert dat u ontkoppelde records in [!INCLUDE [prod_short](includes/prod_short.md)] en [!INCLUDE [cds_long_md](includes/cds_long_md.md)] hebt, wordt een koppeling **Koppelingscriteria selecteren** weergegeven voor de relevante integratietabel.  
-
-    U kunt het proces **Volledige synchronisatie uitvoeren** starten vanaf de pagina's **Dataverse-verbinding instellen** en **Dynamics 365-verbinding instellen** en het kan worden gestart als een stap in de begeleide instelling **Een verbinding instellen met Dataverse** wanneer u ervoor kiest om de installatie te voltooien en aan het einde volledige synchronisatie uit te voeren.  
-
-    Wanneer het op overeenkomsten gebaseerde koppelingsproces wordt gestart vanaf de pagina **Controle van volledige Dataverse-synchronisatie**, wordt er direct een koppelingstaak gepland nadat u de instelling hebt voltooid.  
-* De lijst **Toewijzingen van integratietabellen**.  
-
-    Selecteer een toewijzing, kies de actie **Koppeling** en kies vervolgens **Op overeenkomsten gebaseerde koppeling**.
-
-    Wanneer het op overeenkomsten gebaseerde koppelingsproces wordt gestart vanuit een integratietabeltoewijzing, wordt een koppelingstaak uitgevoerd voor alle ontkoppelde records in die toewijzing. Als het werd uitgevoerd voor een set geselecteerde records uit de lijst, wordt het alleen uitgevoerd voor de geselecteerde ontkoppelde records.
-
-In alle drie de gevallen wordt de pagina **Koppelingscriteria selecteren** geopend, zodat u de relevante koppelingscriteria kunt definiëren. Pas op deze pagina de koppeling aan met de volgende taken:
-
-* Kies op welke velden overeenkomsten met [!INCLUDE [prod_short](includes/prod_short.md)]-records en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteiten worden bepaald, en kies ook of de overeenkomst op dat veld hoofdlettergevoelig is of niet.  
-
-* Geef op of er een synchronisatie moet worden uitgevoerd na het koppelen van records en, als de record bidirectionele toewijzing gebruikt, kies ook wat er gebeurt als conflicten worden vermeld op de pagina **Updateconflicten oplossen**.  
-
-* Geef prioriteit aan de volgorde waarin records worden doorzocht door een *overeenkomstprioriteit* op te geven voor de relevante toewijzingsvelden. De overeenkomstprioriteiten zorgen ervoor dat het algoritme naar een overeenkomst zoekt in een aantal iteraties, zoals gedefinieerd door de **Prioriteit overeenkomst**-veldwaarden in oplopende volgorde. Een blanco waarde in het veld **Prioriteit overeenkomst** wordt geïnterpreteerd als prioriteit 0, dus velden met deze waarde worden als eerste beschouwd.  
-
-* Geef op of u een nieuw entiteitsexemplaar wilt maken in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in het geval dat er geen unieke ontkoppelde overeenkomst kan worden gevonden met behulp van de matchcriteria. Om deze mogelijkheid te activeren kiest u de actie **Nieuw maken als geen overeenkomst is gevonden**.  
-
-### <a name="view-the-results-of-the-coupling-job"></a>De resultaten van de koppelingstaak bekijken
-
-Om de resultaten van de koppelingstaak te bekijken opent u de pagina **Integratietabeltoewijzingen**, selecteert u de relevante toewijzing, kiest u de actie **Koppeling** actie en kiest u vervolgens de actie **Taaklogbestand voor integratiekoppeling**.  
-
-Als er records zijn die niet zijn gekoppeld, kunt u inzoomen op de waarde in de kolom Mislukt, waardoor een lijst met fouten wordt geopend die aangeeft waarom de records niet konden worden gekoppeld.  
-
-Mislukte koppeling komt vaak voor in de volgende gevallen:
-
-* Er zijn geen overeenkomstcriteria gedefinieerd
-
-    Voer in dit geval de op overeenkomsten gebaseerde koppeling opnieuw uit, maar vergeet niet om koppelingscriteria te definiëren.
-
-* Er is geen overeenkomst gevonden voor een aantal records, op basis van de gekozen overeenkomende velden
-
-    Herhaal in dit geval de koppeling met enkele andere overeenkomende velden.
-
-* Er zijn meerdere overeenkomsten gevonden voor een aantal records, op basis van de gekozen overeenkomende velden  
-
-    Herhaal in dit geval de koppeling met enkele andere overeenkomende velden.
-
-* Er is één overeenkomst gevonden, maar de overeenkomende record is al gekoppeld aan een andere record in [!INCLUDE [prod_short](includes/prod_short.md)]  
-
-    Herhaal in dit geval de koppeling met enkele andere overeenkomende velden of onderzoek waarom die [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteit is gekoppeld aan die andere record in [!INCLUDE [prod_short](includes/prod_short.md)].
-
-> [!TIP]
-> Om u te helpen een overzicht te krijgen van de voortgang van de koppeling, geeft het veld **Gekoppeld aan Dataverse** aan of een bepaalde record is gekoppeld aan een [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteit of niet. U kunt de lijst met records die worden gesynchroniseerd met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], filteren op dit veld.
-
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Verbindingen vanuit Business Central Online upgraden om op certificaten gebaseerde verificatie te gebruiken
-> [!NOTE]
-> Deze sectie is alleen relevant voor [!INCLUDE[prod_short](includes/prod_short.md)] online-tenants die worden gehost door Microsoft. Online tenants die worden gehost door ISV's en installaties op locatie worden niet beïnvloed.
-
-In april 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is het verificatietype van Office365 (gebruikersnaam/wachtwoord) aan het aflopen. Voor meer informatie zie [Afschaffing van het Office365-verificatietype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Bovendien beëindigt [!INCLUDE[prod_short](includes/prod_short.md)] in maart 2022 het gebruik van op clientgeheimen gebaseerde service-to-service-verificatie voor online tenants, en vereist het gebruik van op certificaten gebaseerde service-to-service-verificatie voor verbindingen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online-tenants die worden gehost door ISV's en on-premises installaties, kunnen clientgeheimauthenticatie blijven gebruiken om verbinding te maken met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-
-Om te voorkomen dat integraties worden verstoord _moet u upgraden_ om op certificaten gebaseerde verificatie te gebruiken. Hoewel de wijziging is gepland voor maart 2022, raden we u ten zeerste aan zo snel mogelijk te upgraden. In de volgende stappen wordt beschreven hoe u kunt upgraden naar verificatie op basis van certificaten. 
-
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Uw Business Central online-verbinding upgraden om op certificaten gebaseerde verificatie te gebruiken
-
-> [!NOTE]
-> Verificatie op basis van certificaten is beschikbaar in Business Central 2021 releasewave 1 en hoger. Als u een eerdere versie gebruikt, moet u vóór maart 2022 een update naar Business Central 2021-releasewave 1 plannen. Zie [Updates plannen](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates) voor meer informatie. Als u problemen ondervindt, neemt u contact op met uw partner of ondersteuning.
-
-1. Controleer in het [Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) of u Business Central 2021 releasewave 1 of hoger (versie 18 of hoger) gebruikt.
-2. Afhankelijk van of u integreert met Dynamics 365 Sales, voert u een van de volgende handelingen uit:
-   * Als u dat doet, opent u de pagina **Microsoft Dynamics 365-verbinding instellen**.
-   * Als u dat niet doet, opent u de pagina **Dataverse 365-verbinding instellen**.
-3. Kiezen **Verbinding** en dan **Certificaatverificatie gebruiken** om de verbinding te upgraden om verificatie op basis van certificaten te gebruiken.
-4. Meld u aan met beheerdersreferenties voor Dataverse. Aanmelden duurt minder dan een minuut.
-
-> [!NOTE]
-> U moet deze stappen herhalen in elke [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving, inclusief zowel productie- als sandbox-omgevingen, en in elk bedrijf waar u een verbinding mee hebt [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-
-## <a name="connecting-on-premises-versions"></a>Verbinding maken met on-premises versies
-
-Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises wilt verbinden met [!INCLUDE[cds_long_md](includes/cds_long_md.md)], moet u wat informatie opgeven op de pagina **Dataverse-verbinding instellen**.
-
-Als u verbinding wilt maken met een Azure Active Directory (Azure AD)-account, moet u een toepassing registreren in Azure AD en de toepassings-id, het sleutelkluisgeheim en de omleidings-URL opgeven die moeten worden gebruikt. De omleidings-URL wordt vooraf ingevuld en zou voor de meeste installaties moeten werken. U moet uw installatie instellen om HTTPS te gebruiken. Zie voor meer informatie [SSL configureren om de Business Central Web Client-verbinding te beveiligen](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Als u uw server instelt om een andere startpagina te hebben, kunt u altijd de URL wijzigen. Het clientgeheim wordt opgeslagen als een versleutelde tekenreeks in uw database. 
-
-### <a name="prerequisites"></a>Vereisten
-
-Dataverse moet een van de volgende verificatietypen gebruiken:
-
-* Office365 (oud)
-
-  > [!IMPORTANT]
-  > Met ingang van april 2022 wordt Office365 (oud) niet langer ondersteund. Zie voor meer informatie [Belangrijke veranderingen (afschrijvingen) die aanstaande zijn in Power Apps, Power Automate en apps voor klantbetrokkenheid](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-* Office365 (modern, gebaseerd op OAuth2-clientgeheim)
-* OAuth
-
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Een toepassing registreren in Azure AD voor verbinding van Business Central met Dataverse
-
-Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identiteiten en toegang te beheren. Voor meer informatie over het registreren van een toepassing in Azure AD raadpleegt u [Quickstart: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app). 
-
-1. Kies in de Azure Portal onder **Beheren** in het navigatiedeelvenster **Verificatie**.  
-2. Voeg onder **URL's omleiden** de omleidings-URL toe die wordt voorgesteld op de pagina **Dataverse-verbinding instellen** in [!INCLUDE[prod_short](includes/prod_short.md)].
-3. Kies **Beheren** **API-machtigingen**.
-4. Kies onder **Geconfigureerde machtigingen** **Een machtiging toevoegen** en voeg daarna als volgt gedelegeerde machtigingen toe aan het tabblad **Microsoft-API's**:
-    * Voeg voor Business Central de machtiging **Financials.ReadWrite.All** toe.
-    * Voeg voor Dynamics CRM de **user-impersonation**-machtigingen toe.  
-
-    > [!NOTE]
-    > De naam van de Dynamics CRM-API kan veranderen.
-
-5. Kies onder **Beheren** **Certificaten en geheimen** en maak vervolgens een nieuw geheim voor uw app. U gebruikt het geheim in [!INCLUDE[prod_short](includes/prod_short.md)], in het veld **Clientgeheim** op de pagina **Dataverse-verbinding instellen** of slaat het op een veilige locatie op en verschaft het in een gebeurtenisabonnee zoals eerder in dit onderwerp beschreven.
-6. Kies **Overzicht** en zoek de waarde **Toepassing (client)-id**. Dit is de client-id van uw toepassing. U moet het invoeren op de pagina **Dataverse-verbinding instellen** in het veld **Client-id** of bewaren op een veilige locatie en verschaffen in een gebeurtenisabonnee.
-7. Voer in [!INCLUDE[prod_short](includes/prod_short.md)] op de pagina **Dataverse-verbinding instellen** in het veld **Omgeving-URL** de URL voor uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving in.
-8. Als u de verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] wilt inschakelen, zet u de schakelaar **Ingeschakeld** aan.
-9. Meld u aan met uw beheerdersaccount voor Azure Active Directory (dit account moet een geldige licentie hebben voor [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en een beheerder zijn in uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving). Nadat u zich hebt aangemeld, wordt u gevraagd toe te staan dat uw geregistreerde toepassing zich aanmeldt bij [!INCLUDE[cds_long_md](includes/cds_long_md.md)] namens de organisatie. U moet toestemming geven om de instelling te voltooien.
-
-   > [!NOTE]
-   > Als u niet wordt gevraagd om u aan te melden met uw beheerdersaccount, komt dit waarschijnlijk omdat pop-ups worden geblokkeerd. Sta pop-ups vanaf `https://login.microsoftonline.com` toe om u aan te melden.
-
-### <a name="to-disconnect-from-cds_long_md"></a>Verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verbreken
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dataverse-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
-2. Schakel op de pagina **Dataverse-verbinding instellen** de schakelaar **Geactiveerd** uit.  
-
-## <a name="see-also"></a>Zie ook
-
+## <a name="see-also"></a>Zie ook  
 [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

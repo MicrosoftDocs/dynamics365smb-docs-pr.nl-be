@@ -1,22 +1,21 @@
 ---
-title: Codes instellen voor audittrails
+title: Codes voor audittrails instellen | Microsoft Docs
 description: Lees meer over de taken om broncodes en redencodes in te stellen die u kunt gebruiken om audittrails bij te houden.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 257, 259, 279
-ms.date: 04/01/2021
+ms.date: 05/12/2020
 ms.author: edupont
-ms.openlocfilehash: c6327be4cdcd1e51096a8e19601556305b772011
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971952"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372699"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Broncodes en redencodes instellen voor audittrails
 
@@ -34,7 +33,7 @@ Wanneer u een batchverwerking boekt of uitvoert, wordt de juiste broncode automa
 
 ### <a name="to-define-source-codes"></a>Broncodes definiëren
 
-1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncode-instelling** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncode-instelling** in en kies de desbetreffende koppeling.  
 
 2. Geef in het venster **Broncode-instelling** voor elk boekingstype en elke batchtaak de relevante broncode op.  
 
@@ -46,7 +45,7 @@ U wilt wellicht een broncode wijzigen. U wilt bijvoorbeeld de broncode *DAGBOEK*
 
 ### <a name="to-change-source-codes"></a>Broncodes wijzigen
 
-1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncodes** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncodes** in en kies de desbetreffende koppeling.
 
 2. Selecteer op de regel met de te wijzigen code de code in het veld **Code**.
 
@@ -60,7 +59,7 @@ Redencodes vullen de broncodes aan en worden gebruikt om aan te geven waarom een
 
 ### <a name="to-set-up-reason-codes"></a>Redencodes instellen
 
-1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"),  voer **Redencodes** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Redencodes** in en kies de desbetreffende koppeling.
 
 2. Voer in het venster **Redencodes** de eerste code in het veld **Code** in. Typ een uitleg in het veld **Omschrijving**.
 
@@ -70,7 +69,7 @@ De volgende procedure beschrijft hoe u een redencode aan een dagboeksjabloon kun
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Redencodes toewijzen aan dagboeksjablonen
 
-1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"),  voer **Fin. dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Fin. dagboeksjablonen** in en kies de desbetreffende koppeling.
 
 2. Geef in het veld **Redencode** op de regel met de geselecteerde dagboeksjabloon de relevante code op.
 
@@ -95,9 +94,6 @@ Wanneer de factuur wordt geboekt, wordt de redencode gekopieerd naar elke grootb
 [Werken met dimensies](finance-dimensions.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,25 +1,25 @@
 ---
-title: Een boekjaar en boekingsperioden afsluiten
+title: Een boekjaar en boekingsperioden afsluiten | Microsoft Docs
 description: Schetst de taken om een boekjaar of boekhoudperiode te sluiten, bijvoorbeeld, ervoor zorgen dat documenten en dagboeken worden geboekt en banksaldi verifiëren.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 01/13/2020
 ms.author: jswymer
-ms.openlocfilehash: 3faa427363d2d30ce387bbfe911f320064d3276a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: ef2f3f5e11b9593dce1ba1eb2039c0c0edd32aba
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971796"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953143"
 ---
 # <a name="closing-years-and-periods"></a>Afsluitingsjaren en -perioden
-
 Aan het einde van een boekjaar moet u een aantal administratieve taken uitvoeren, zoals ervoor zorgen dat alle documenten en dagboeken worden geboekt, dat valutagegevens actueel zijn, de boeken afsluiten, enzovoort. De werkelijke taken hangen van uw bedrijf af.
 
 De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een jaar en periode af te sluiten.
@@ -39,11 +39,7 @@ De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
+[Een nieuw boekjaar openen](finance-how-open-new-fiscal-year.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-[Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

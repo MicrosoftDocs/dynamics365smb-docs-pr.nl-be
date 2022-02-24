@@ -1,51 +1,43 @@
 ---
-title: Standaardtaken instellen voor bewerkingen
-description: Meer informatie over het instellen van standaardtaken en het toevoegen van standaardtaken aan bewerkingen om het onderhoud van bewerkingsplannen te vereenvoudigen.
+title: 'Procedure: Standaardtaken instellen voor bewerkingen | Microsoft Docs'
+description: U kunt omschrijvingen voor standaardtaken invoeren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 7e6cc29c2968111cc581f8e615007ff70985e24c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a967136064b59cb0ff8ef7bdd9a3e8b684e54a8f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973027"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878035"
 ---
 # <a name="set-up-standard-routing-lines"></a>Standaardbewerkingsplanregels instellen
-
 Met behulp van standaardtaken vereenvoudigt u het maken en onderhouden van bewerkingsplannen. Hiermee kunt u snel aanvullende informatie aan terugkerende bewerkingen koppelen.
 
 ## <a name="to-set-up-a-standard-task"></a>Een standaardtaak instellen
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Standaardtaken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaardtaken** in en kies de desbetreffende koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Kies de actie **Extra**, **Medewerkers**, **Omschrijving**, of **Extra** en voeg vervolgens op de geopende pagina het relevante item toe.
+4. Kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.
+5. op de pagina die wordt geopend, beschrijft u de betreffende standaardtaak.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Een standaardtaak toevoegen aan een bewerking
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.
 2. Open het betreffende bewerkingsplan.
 3. Selecteer een relevant bewerkingsplan, kies de actie **Bewerkingen** en kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.
 
-Wanneer u het bewerkingsplanblad afdrukt, kunt u ervoor kiezen om de elementen op te nemen van de standaardtaak die u aan de bewerkingsplanregels hebt toegevoegd.
-
-## <a name="see-also"></a>Zie ook
-
+## <a name="see-also"></a>Zie ook  
 [Bewerkingsplannen maken](production-how-to-create-routings.md)  
-[Productiestuklijsten maken](production-how-to-create-production-boms.md)  
-[Productie instellen](production-configure-production-processes.md)  
-[Productie](production-manage-manufacturing.md)  
-[Gepland](production-planning.md)  
+[Productiestuklijsten maken](production-how-to-create-production-boms.md)     
+[Productie instellen](production-configure-production-processes.md)   
+[Productie](production-manage-manufacturing.md)    
+[Gepland](production-planning.md)   
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

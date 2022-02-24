@@ -1,21 +1,21 @@
 ---
-title: Werkstroomgebruikers instellen
-description: Voordat u werkstromen kunt maken, moet u de gebruikers die eraan deelnemen, instellen op de pagina Werkstroomgebruikersgroep.
+title: 'Procedure: Werkstroomgebruikers instellen| Microsoft Docs'
+description: Voordat u werkstromen kunt maken, moet u de gebruikers instellen die deelnemen aan werkstromen. Dit is nodig om bijvoorbeeld op te geven wie een bericht ontvangt als er moet worden gereageerd op een werkstroomstap.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 06/08/2020
+ms.author: sgroespe
+ms.openlocfilehash: ba6508c9679923836092ba4df9d3453a39f7fd9b
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439932"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454283"
 ---
 # <a name="set-up-workflow-users"></a>Werkstroomgebruikers instellen
 
@@ -32,7 +32,7 @@ Werkstroomgebruikers die fungeren als goedkeuringgebruikers, zowel aanvragers al
 
 ## <a name="to-set-up-a-workflow-user"></a>Een werkstroomgebruiker instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werkstroomgebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstroomgebruikersgroepen** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Nieuw**. De pagina **Werkstroomgebruikersgroep** wordt geopend.  
 3. Voer in het veld **Code** maximaal 20 tekens in om de werkstroom te identificeren.  
 4. Beschrijf de werkstroom in het veld **Omschrijving**.  
@@ -52,6 +52,3 @@ Werkstroomgebruikers die fungeren als goedkeuringgebruikers, zowel aanvragers al
 [Werkstromen gebruiken](across-use-workflows.md)  
 [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Werkstroom](across-workflow.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,25 +1,25 @@
 ---
-title: Batchverwerking Leveranciersbetalingen voorstellen
+title: De batchverwerking Betalingsvoorstellen maken gebruiken| Microsoft Docs
 description: U kunt leveranciersbetalingsinstellingen opgeven om voorstellen of voorstellen voor betalingen te krijgen die binnenkort moeten worden betaald of waar een korting beschikbaar is.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.search.form: 256
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 962a1fde49db09b3d739ac33eba43fa7316cc25d
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 9936a77c7afdc89d6d8c8485d01b4970e85fcb19
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953170"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1254011"
 ---
 # <a name="suggest-vendor-payments"></a>Leveranciersbetalingen voorstellen
-
 Op de pagina **Betalingsdagboek** kunt u door middel van de batchverwerking **Leveranciersbetalingen voorstellen** betalingsregels laten voorstellen. Regels voor betalingen die binnenkort moeten worden betaald, of betalingen waarbij een contantkorting beschikbaar is, worden weergegeven op basis van de instellingen.
 
 Om optimaal van voorgestelde betalingen te profiteren, moet u uw leveranciers eerst naar prioriteit indelen. Zie voor meer informatie [Leveranciers in een prioriteitsvolgorde plaatsen](purchasing-how-prioritize-vendors.md).  
@@ -34,7 +34,7 @@ Om optimaal van voorgestelde betalingen te profiteren, moet u uw leveranciers ee
     * Openstaande leveranciersposten die voor contantkortingen in aanmerking komen, geordend op leveranciersnummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>De functie Leveranciersbetalingen voorstellen gebruiken
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het desbetreffende dagboek en kies vervolgens de actie **Leveranciersbetalingen voorstellen**.  
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Kies de knop **Ok**.  
@@ -56,7 +56,4 @@ U kunt eventueel handmatig betalingsregels maken, waarbij de vervaldatum wordt g
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Betalingen uitvoeren](payables-make-payments.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

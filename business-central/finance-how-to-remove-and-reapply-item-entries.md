@@ -1,21 +1,21 @@
 ---
-title: Artikelposten verwijderen en opnieuw toepassen
+title: 'Procedure: artikelposten verwijderen en opnieuw toepassen | Microsoft Docs'
 description: U kunt bepaalde artikelvereffeningsposten die automatisch worden gemaakt tijdens voorraadtransacties inzien en handmatig wijzigen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 506, 521, 9125
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 9ec35c8f618a916661018719b4da05f7e2b43566
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971042"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183344"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Artikelposten verwijderen en opnieuw toepassen
 U kunt op de pagina **Vereffeningsvoorstel** bepaalde artikelvereffeningsposten die automatisch worden gemaakt tijdens voorraadtransacties inzien en handmatig wijzigen.  
@@ -36,13 +36,12 @@ Als het niet mogelijk is om een document te gebruiken voor het opnieuw uitvoeren
 > Houd het volgende in gedachten wanneer u met het toepassingsvoorstel werkt:
     - U moet het opnieuw uitvoeren van een vereffening voor vereffeningsposten niet langere tijd uitstellen, omdat andere gebruikers de artikelen niet kunnen verwerken totdat u de vereffeningsposten opnieuw vereffent of de pagina **Vereffeningsvoorstel** sluit. Gebruikers die acties willen uitvoeren voor een vereffeningspost waarvan de vereffening handmatig ongedaan is gemaakt, ontvangen het volgende foutmelding: "U kunt deze handeling niet uitvoeren omdat de posten voor artikel XXX niet vereffend zijn in het vereffeningsvoorstel door gebruiker XXX."
     - U moet artikelposten alleen buiten de gebruikelijke werktijden opnieuw vereffenen. Zo voorkomt u eventuele conflicten met andere gebruikers die transacties voor dezelfde artikelen boeken.
-    - Wanneer u het vereffeningsvoorstel sluit, voert [!INCLUDE[prod_short](includes/prod_short.md)] een controle uit om ervoor te zorgen dat alle posten zijn toegepast. Als u bijvoorbeeld een aantalvereffening verwijdert en geen nieuwe vereffening maakt, zal bij het sluiten van het vereffeningsvoorstel alsnog een nieuwe vereffening worden aangemaakt. Zo blijven de kosten intact. Als u echter een vaste vereffening verwijdert, wordt niet automatisch een nieuwe vaste vereffening gemaakt bij het sluiten van het voorstel. U moet dan zelf een nieuwe vereffening aanmaken in het voorstel.
+    - Wanneer u het vereffeningsvoorstel sluit, voert [!INCLUDE[d365fin](includes/d365fin_md.md)] een controle uit om ervoor te zorgen dat alle posten zijn toegepast. Als u bijvoorbeeld een aantalvereffening verwijdert en geen nieuwe vereffening maakt, zal bij het sluiten van het vereffeningsvoorstel alsnog een nieuwe vereffening worden aangemaakt. Zo blijven de kosten intact. Als u echter een vaste vereffening verwijdert, wordt niet automatisch een nieuwe vaste vereffening gemaakt bij het sluiten van het voorstel. U moet dan zelf een nieuwe vereffening aanmaken in het voorstel.
     - U kunt in het toepassingsvoorstel vereffeningen uit meerdere posten tegelijk verwijderen. Aangezien het vereffenen van posten echter invloed heeft op de posten die beschikbaar zijn voor vereffening, kunt u geen vereffening maken voor meerdere posten tegelijk.
     - Het toepassingsvoorstel kan onder de volgende omstandigheden geen vereffening maken: als er onvoldoende aantallen in voorraad zijn om te vereffenen, kan het toepassingsvoorstel geen vereffening maken wanneer u een negatieve voorraadmutatiepost zonder artikeltraceringsinformatie probeert te vereffenen met een positieve voorraadmutatiepost met artikeltraceringsinformatie.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Een artikelvereffening verwijderen met het Vereffeningsvoorstel
-
-1.  Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vereffeningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Een artikelvereffening verwijderen met het Vereffeningsvoorstel  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vereffeningsvoorstel** in en kies de desbetreffende koppeling.  
 2.  De pagina **Vereffeningsvoorstel** wordt geopend en toont bestaande artikelposten voor alle items.  
 3.  Voer filters in op het sneltabblad **Algemeen** om de artikelpost waarvoor u de vereffening wilt wijzigen makkelijker te kunnen vinden.  
 4.  Selecteer de artikelpost en kies de actie **Vereffende posten**. De pagina **Vereffende posten weergeven - Vereffende posten** wordt geopend, met daarin de artikelpost of de artikelposten die met de geselecteerde post zijn vereffend.  
@@ -55,11 +54,10 @@ Als het niet mogelijk is om een document te gebruiken voor het opnieuw uitvoeren
 > [!IMPORTANT]  
 >  U moet het opnieuw uitvoeren van een vereffening voor vereffeningsposten niet langere tijd uitstellen, omdat andere gebruikers de betrokken artikelen niet kunnen verwerken totdat u de vereffeningsposten opnieuw vereffent of de pagina **Vereffeningsvoorstel** sluit. De volgende foutmelding wordt weergegeven als u probeert bewerkingen uit te voeren waar een handmatig niet-vereffende vereffeningspost in is opgenomen:  
 >   
->  **U kunt deze actie niet uitvoeren omdat posten voor artikel \<item\> niet vereffend zijn in het Vereffeningsvoorstel door gebruiker \<user\>.**  
+>  **U kunt deze handeling niet uitvoeren omdat posten voor artikel <item> niet vereffend zijn in het Vereffeningsvoorstel door gebruiker <user>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Een artikelvereffening opnieuw vereffenen met het Vereffeningsvoorstel
-
-1.  Kies het pictogram ![Lampje dat de functie Vertel me 2 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vereffeningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Een artikelvereffening opnieuw vereffenen met het Vereffeningsvoorstel  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vereffeningsvoorstel** in en kies de desbetreffende koppeling.  
 2.  De pagina **Vereffeningsvoorstel** wordt geopend en toont bestaande artikelposten voor alle items.  
 3.  Als u items wilt terugzetten die sinds het openen van de werkmap zijn verwijderd, selecteert u het item in het dagboek dat u wilt terugzetten en kiest u de actie **Opnieuw toepassen**.  
 
@@ -74,13 +72,9 @@ Als het niet mogelijk is om een document te gebruiken voor het opnieuw uitvoeren
     >  Als u ervoor hebt gekozen een vereffening uit te voeren die tijdens het herwaarderen van de kosten tot een oneindige herhaling zou leiden, wordt de door u voorgestelde vereffening niet uitgevoerd. Dit kan voorkomen wanneer de originele posten negatieve voorraad hebben veroorzaakt. De vereffening wordt niet uitgevoerd. Daarom moet u een andere post selecteren voor de vereffening.  
 6.  Als het veld **Automatische kostenwaardering** in de **Voorraadinstelling** is ingesteld op **Altijd**, voert het programma de batchverwerking voor het herwaarderen van de kosten automatisch uit nadat u een vereffening opnieuw hebt uitgevoerd. Anders voert u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit om er zeker van zijn dat alle kosten up-to-date zijn.  
 
-## <a name="see-also"></a>Zie ook
-
+## <a name="see-also"></a>Zie ook  
 [Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Inkoopretouren of annuleringen verwerken](purchasing-how-process-purchase-returns-cancellations.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)   
  [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

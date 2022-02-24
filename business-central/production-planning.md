@@ -1,34 +1,32 @@
 ---
-title: Voorraadplanning
+title: Voorraadplanning | Microsoft Docs
 description: Bereid een gedetailleerd uitvoerbaar plan en het productieschema van de eindmontage voor verkoop- en productievraag voor.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c589fbccabed3f8e021e503ee8a1fbac17ad5db7
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 05/05/2020
+ms.author: sgroespe
+ms.openlocfilehash: f2389dad61a943520cf7e09a5d8e0118b61db5c8
+ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972631"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339982"
 ---
 # <a name="planning"></a>Planning
-
-De productiebewerkingen die vereist zijn om input om te zetten in gereed product, moeten per dag of per week worden gepland afhankelijk van het volume en de aard van de producten. [!INCLUDE[prod_short](includes/prod_short.md)] bevat functies voor de verwachte en werkelijke vraag van verkoop, montage en productie, en functies voor distributieplanning met SKU's en transfers.
+De productiebewerkingen die vereist zijn om input om te zetten in gereed product, moeten per dag of per week worden gepland afhankelijk van het volume en de aard van de producten. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat functies voor de verwachte en werkelijke vraag van verkoop, montage en productie, en functies voor distributieplanning met SKU's en transfers.
 
 > [!NOTE]
-> Dit onderwerp heeft hoofdzakelijk betrekking op de planning voor bedrijven die zich bezighouden met productie- of assemblagebeheer waar resulterende aanvulorders productie-, assemblage-, transfer- en inkooporders zijn. De belangrijkste interface voor dit planningswerk is de pagina **Planningsvoorstel**.
->
-> [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt ook voorraadplanning voor de groothandel, waar de resulterende aanvulorders alleen transfer- en inkooporders kunnen zijn. De belangrijkste interface voor dit planningswerk is de pagina **Inkoopvoorstel**, die indirect in dit onderwerp wordt beschreven aangezien de meeste planningsfunctionaliteiten op beide voorstellen van toepassing zijn.
+> Dit onderwerp heeft hoofdzakelijk betrekking op de planning voor bedrijven die zich bezighouden met productie- of assemblagebeheer waar resulterende aanvulorders productie-, assemblage-, transfer- en inkooporders zijn. De belangrijkste interface voor dit planningswerk is de pagina **Planningsvoorstel**.<br /><br />
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt ook voorraadplanning voor de groothandel, waar de resulterende aanvulorders alleen transfer- en inkooporders kunnen zijn. De belangrijkste interface voor dit planningswerk is de pagina **Inkoopvoorstel**, die indirect in dit onderwerp wordt beschreven aangezien de meeste planningsfunctionaliteiten op beide voorstellen van toepassing zijn.
 
 Planning kan worden beschouwd als de voorbereiding van vereiste aanvulorders in de inkoop-, assemblage- of productieafdelingen om te voldoen aan verkoop of vraag naar eindartikelen. Zie voor meer informatie [Inkoop](purchasing-manage-purchasing.md), [Assemblagebeheer](assembly-assemble-items.md) en [Productie](production-manage-manufacturing.md).
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
@@ -36,10 +34,11 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Begrijpen hoe alle aspecten van het planningssysteem werken en hoe de algoritmen kunnen worden aangepast om te voldoen aan planningsvereisten in verschillende omgevingen.|[Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)|
 |Leren hoe met de planninglogica onderscheid wordt gemaakt tussen de vraag bij vestigingen volgens de SKU-instellingen en de vraag zonder vestigingscodes.|[Planning met of zonder vestigingen](production-planning-with-without-locations.md)|
 |Vraag aan de hand van verwachte verkoop- en productiecomponenten voorspellen.|[Een vraagprognose maken](production-how-to-create-a-forecast.md)|  
-|Een-op-een-productieorders of projectproductieorders maken vanuit een verkooporder voor de exacte vraag van die verkooporder.|[Productieorders maken op basis van verkooporders](production-how-to-create-production-orders-from-sales-orders.md)|
+|Automatisch een-op-een-productieorders maken op basis van een verkooporder voor de exacte vraag van de betreffende verkooporderregel.|[Productieorders maken op basis van verkooporders](production-how-to-create-production-orders-from-sales-orders.md)|
+|Een projectproductieorder maken rechtstreeks op basis van een verkooporder met meerdere regels voor een productieproject.|[Projectorders plannen](production-how-to-plan-project-orders.md)|
 |De pagina **Orderplanning** gebruiken om een handmatige planning te maken voor de verkoop- of productievraag, voor één productiestuklijstniveau tegelijk.|[Nieuwe vraag order voor order plannen](production-how-to-plan-for-new-demand.md)|
 |De pagina **Planningsvoorstel** gebruiken om de MPS- en MRP-opties uit te voeren om automatisch een leveringsplan op hoog niveau of een gedetailleerd leveringsplan op alle artikelniveaus te maken.|[Volledige planning, MPS of MRP uitvoeren](production-how-to-run-mps-and-mrp.md)|
-|Gebruik de pagina **Inkoopvoorstel** om automatisch een gedetailleerd leveringsplan te maken voor artikelen die alleen worden aangevuld door inkopen of transfers.|[Inkoopvoorstel](production-about-planning-functionality.md#requisition-worksheet)|  
+|Het inkoopvoorstel gebruiken om automatisch een gedetailleerd leveringsplan te maken voor artikelen die alleen worden aangevuld door inkopen of transfers.|De pagina **Inkoopvoorstel**|  
 |Een productieorder starten of bijwerken als ruw geplande bewerkingen in het hoofdproductieschema.|[Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md)|
 |Afdelings- of bewerkingsplaatsagenda's opnieuw berekenen wegens planningswijzigingen.|[Een afdelingsagenda berekenen](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |De ordervraag (getraceerd aantal), prognose , raamverkooporder of planningparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.|[Relaties tussen vraag en aanbod bijhouden](production-how-track-demand-supply.md)|
@@ -54,9 +53,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Inkoop](purchasing-manage-purchasing.md)  
 [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)  
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

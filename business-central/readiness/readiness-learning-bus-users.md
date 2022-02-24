@@ -2,15 +2,15 @@
 title: Trainingscatalogus voor zakelijke gebruikers
 description: Vind alle beschikbare leermogelijkheden voor Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
-ms.topic: conceptual
-ms.author: margoc
-ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/20/2020
+ms.topic: article
+ms.author: v-lshann
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772441"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271954"
 ---
 # <a name="business-users-learning-catalog"></a>Trainingscatalogus voor zakelijke gebruikers
 
@@ -48,6 +48,3 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Artikelen retourneren in Microsoft Dynamics 365 Business Central](/learn/paths/return-items-dynamics-365-business-central/)                                                   | Moet u wel eens artikelen retourneren aan leveranciers en retouren van klanten aannemen? Dit traject helpt u bij het verwerken van retouren.                                                                                                                                                                         | Gratis online leertraject voor zelfstudie | 1 uur, 25 minuten  |
 | [Artikelen aanvullen in Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | Moet u voorraadartikelen aanvullen in uw bedrijf? Dit leertraject laat u zien hoe u artikelen efficiënt aanvult in Business Central.                                                                                                                                     | Gratis online leertraject voor zelfstudie | 1 uur, 46 minuten  |
 | [Artikelen monteren in Microsoft Dynamics 365 Business Central](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | Verkoopt u gemonteerde artikelen? Dit leertraject bevat de informatie die u nodig hebt om artikelen te monteren en de montages te beheren. Het bevat tevens stappen om gemonteerde artikelen naar voorraad of orders te produceren.                                                                                                                | Gratis online leertraject voor zelfstudie | 2 uur, 26 minuten |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,22 +1,22 @@
 ---
-title: Inzichten waarvoor een actie kan worden uitgevoerd weergeven in rolcentra
-description: Leren hoe de extensie Essentiële zakelijke inzichten een reeks zakelijke inzichten in rolcentra roteert.
+title: Inzichten waarvoor een actie kan worden uitgevoerd weergeven in rolcentra | Microsoft Docs
+description: De extensie Essentiële zakelijke inzichten roteert een reeks zakelijke inzichten in rolcentra.
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 06/23/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 458e7826979b75c370cb0a90d90c2d64c9ab599e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 08a955f9fb2698b95e8cc92648be0e7c0bfe6e6c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322681"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311272"
 ---
 # <a name="the-essential-business-insights-extension"></a>De extensie Essentiële zakelijke inzichten
 De extensie Essentiële zakelijke inzichten zoekt interessante bedrijfsfeiten in uw bedrijfsgegevens en geeft ze weer als krantenkoppen in rolcentra. Afhankelijk van wat de extensie in de gegevens vindt, worden de inzichten van de vorige week, maand, of drie maanden vanaf de huidige datum weergegeven. De inzichten worden om de 10 minuten bijgewerkt.  
@@ -37,7 +37,4 @@ De volgende tabel beschrijft de inzichten die deze extensie biedt voor elk rolce
 |Beheerder| Geeft een begroeting weer en een koppeling met productinformatie.|
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)

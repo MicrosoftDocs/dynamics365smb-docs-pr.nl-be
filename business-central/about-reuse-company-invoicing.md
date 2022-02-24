@@ -3,37 +3,37 @@ title: Invoicing en Business Central gebruiken | Microsoft Docs
 description: Oplossing om Microsoft Invoicing te kunnen openen wanneer u zich hebt aangemeld voor Dynamics 365 Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Invoicing, Microsoft 365
-ms.date: 04/01/2021
+ms.search.keywords: Invoicing, Office 365
+ms.date: 04/30/2020
 ms.author: bholtorf
-ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7776cd01218f5959734173226574bb4a0d043153
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439159"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333872"
 ---
-# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Dezelfde Microsoft 365-account gebruiken in [!INCLUDE[prod_short](includes/prod_long.md)] en Microsoft Invoicing
-Wanneer u zich aanmeldt voor de proefversie van [!INCLUDE[prod_short](includes/prod_short.md)], kunt u kiezen voor de evaluatiefase van 30 dagen, het abonnement laten ingaan of stoppen met het gebruiken van [!INCLUDE[prod_short](includes/prod_short.md)]. In alle gevallen hebt u op een gegeven moment misschien iets gezien dat **Microsoft Invoicing** heet en erop geklikt. Dit was een app die deel uitmaakte van wat nu Microsoft 365 Business Standard is en voorheen bekend stond als Microsoft 365 Business Premium-abonnement, dus niet iedereen zal die tegel in zijn of haar Microsoft 365 hebben gezien.  
+# <a name="using-the-same-office-365-account-in-d365fin-and-microsoft-invoicing"></a>Dezelfde Office 365-account gebruiken in [!INCLUDE[d365fin](includes/d365fin_long_md.md)] en Microsoft Invoicing
+Wanneer u zich aanmeldt voor de proefversie van [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u kiezen voor de evaluatiefase van 30 dagen, het abonnement laten ingaan of stoppen met het gebruiken van [!INCLUDE[d365fin](includes/d365fin_md.md)]. In alle gevallen hebt u op een gegeven moment misschien iets gezien dat **Microsoft Invoicing** heet en erop geklikt. Dit was een app die deel uitmaakte van wat nu Microsoft 365 Business Standard is en voorheen bekend stond als Office 365 Business Premium-abonnement, dus niet iedereen zal die tegel in zijn of haar Office 365 hebben gezien.  
 
-Microsoft Invoicing is niet langer beschikbaar, maar als u zich bij Invoicing moet aanmelden om uw gegevens op te halen, ziet u mogelijk een bericht dat u geen toegang hebt tot Microsoft Invoicing omdat uw account wordt gebruikt in [!INCLUDE[prod_short](includes/prod_short.md)].  
+Microsoft Invoicing is niet langer beschikbaar, maar als u zich bij Invoicing moet aanmelden om uw gegevens op te halen, ziet u mogelijk een bericht dat u geen toegang hebt tot Microsoft Invoicing omdat uw account wordt gebruikt in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Er wordt een vergelijkbaar bericht weergegeven als u de mobiele app voor Invoicing installeert.  
 
 ## <a name="workaround"></a>Oplossing
-Invoicing en [!INCLUDE[prod_short](includes/prod_short.md)] delen een platform. Dit betekent dat u als een bestaande gebruiker van [!INCLUDE[prod_short](includes/prod_short.md)] wordt herkend wanneer u op Invoicing klikt in het Microsoft 365-beheercentrum. De reden hiervoor is dat Invoicing niet hetzelfde bedrijf kan gebruiken als [!INCLUDE[prod_short](includes/prod_short.md)].  
+Invoicing en [!INCLUDE[d365fin](includes/d365fin_md.md)] delen een platform. Dit betekent dat u als een bestaande gebruiker van [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt herkend wanneer u op Invoicing klikt in het Microsoft 365-beheercentrum. De reden hiervoor is dat Invoicing niet hetzelfde bedrijf kan gebruiken als [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-U moet u daarom aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)], de naam van uw bestaande bedrijf wijzigen en vervolgens een nieuw bedrijf maken om in Invoicing te gebruiken. Er worden geen gegevens verplaatst of overschreven tijdens deze oplossingsprocedure.
+U moet u daarom aanmelden bij [!INCLUDE[d365fin](includes/d365fin_md.md)], de naam van uw bestaande bedrijf wijzigen en vervolgens een nieuw bedrijf maken om in Invoicing te gebruiken. Er worden geen gegevens verplaatst of overschreven tijdens deze oplossingsprocedure.
 
 ### <a name="to-rename-your-company"></a>De naam van uw bedrijf wijzigen
-1. Meld u aan bij [!INCLUDE[prod_short](includes/prod_short.md)].
-2. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen.](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens **Mijn instellingen**.
+1. Meld u aan bij [!INCLUDE[d365fin](includes/d365fin_md.md)].
+2. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens **Mijn instellingen**.
 3. Kies in het veld **Bedrijf** een ander bedrijf.
-4. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijven** in en kies vervolgens de gerelateerde koppeling.  
+4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijven** in en kies de gerelateerde koppeling.  
 5. Kies op de pagina **Bedrijven** **Lijst bewerken**.  
 6. Wijzig de naam van het item *Mijn bedrijf*.  
 
@@ -44,13 +44,10 @@ U moet u daarom aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)], de
 Dit kost opnieuw een aantal minuten. Wanneer het proces is voltooid, kunt u Invoicing openen als onderdeel van uw Microsoft 365 Business Standard-ervaring. Maar alleen om gegevens te exporteren omdat de Invoicing-app is verouderd.  
 
 ### <a name="what-about-my-data"></a>Hoe zit het met mijn gegevens?
-Wanneer u de naam van het oorspronkelijke Mijn bedrijf wijzigt, wordt de naam gewijzigd van de databasetabellen met de bestaande [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens, maar de gegevens zelf blijven ongewijzigd.  
+Wanneer u de naam van het oorspronkelijke Mijn bedrijf wijzigt, wordt de naam gewijzigd van de databasetabellen met de bestaande [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens, maar de gegevens zelf blijven ongewijzigd.  
 
-Als u zowel Invoicing als [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt, worden de gegevens in twee verschillende containers (de twee bedrijven) opgeslagen. Er wordt niets gedeeld, dus u moet de klanten en artikelen in beide bedrijven beheren.  
+Als u zowel Invoicing als [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt, worden de gegevens in twee verschillende containers (de twee bedrijven) opgeslagen. Er wordt niets gedeeld, dus u moet de klanten en artikelen in beide bedrijven beheren.  
 
 ## <a name="see-also"></a>Zie ook
-[Veelgestelde vragen](across-faq.yml)  
+[Veelgestelde vragen](across-faq.md)  
 [Beheer](admin-setup-and-administration.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

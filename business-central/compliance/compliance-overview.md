@@ -1,40 +1,36 @@
 ---
-title: Conformiteitsoverzicht
-description: Overzicht van hoe Business Central-functionaliteit is gebouwd op een platform dat het gemakkelijk voor klanten maakt te zorgen voor naleving en te voldoen aan regelgeving.
+title: Naleving | Microsoft Docs
+description: Deze inhoud bevat informatie over naleving in verband met Business Central.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 3995d8c22dbcadbff5aa19e3d1574d75802f9db4
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: f11428a5375627b5ec5529e2d667b598494fb5a9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011049"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185932"
 ---
-# <a name="compliance-overview"></a>Conformiteitsoverzicht
-
-Deze inhoud bevat informatie over naleving in verband met [!INCLUDE[prod_short](../includes/prod_short.md)].  
+# <a name="compliance"></a>Naleving
+Deze inhoud bevat informatie over naleving in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
 Naleving is een steeds interessanter onderwerp en gedurende de ontwikkeling van Business Central hebben we ervoor gezorgd dat het product klanten en partners uitgebreide mogelijkheden biedt en geen blokkeringen opwerpt met betrekking tot naleving. In tegendeel, Business Central bevat functionaliteit en is ontwikkeld op een platform dat het gemakkelijk voor klanten maakt te zorgen voor naleving en te voldoen aan regelgeving.
 
-In dit gedeelte leest u meer over onze benadering van naleving vanuit een toepassings-, service- en lokaal perspectief.
+In dit gedeelte leest u meer over onze benadering van naleving vanuit een toepassings-, service- en landspecifiek perspectief.
 
-|**Als u dit wilt doen**|**Zie**|  
+|**Als u dit wilt doen**|**Onderwerp**|  
 |------------|-------------|  
-|Leer over naleving vanuit een toepassingsperspectief, zoals AVG, International Accounting Standards en meer.|[Toepassingsnaleving](compliance-application-compliance.md)|  
+|Leer over naleving vanuit een toepassingsperspectief. zoals GDPR, International Accounting Standards en meer.|[Toepassingsnaleving](compliance-application-compliance.md)|  
 |Leer over naleving op het serviceniveau en wat op het platform is gedaan om te zorgen dat Business Central uitblinkt op het gebied van servicenaleving.|[Servicenaleving](compliance-service-compliance.md)|  
-|Zie informatie over verschillende certificeringen in verband met Business Central. Hier vindt u gegevens over algemene certificeringen en land/regio-specifieke certificeringen.|[Certificeringen](compliance-certifications.md)|  
+|Zie informatie over verschillende certificeringen in verband met Business Central. Hier vindt u gegevens over algemene certificeringen en landspecifieke certificeringen.|[Certificeringen](compliance-certifications.md)|  
 |Meer informatie over de voorwaarden van de dienstverleningsovereenkomst en andere voorwaarden voor de service|[Servicevoorwaarden](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

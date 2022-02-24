@@ -1,21 +1,21 @@
 ---
 title: Profielen gebruiken om contacten te classificeren
-description: Lees over het instellen van profielvragenlijsten om de profielen van uw zakelijke contacten te classificeren.
+description: Profielvragenlijsten instellen om te helpen uw bedrijfscontactpersonen te classificeren
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 06/22/2021
-ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 04/01/2020
+ms.openlocfilehash: 9cf4817cd85951f193ffadbcd3e7ebc971bcca36
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588538"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181592"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren
 U kunt profielvragenlijsten instellen die u wilt gebruiken wanneer u gegevens voor de profielen van de contacten invoert. Binnen elke vragenlijst kunt u de verschillende vragen instellen die u aan uw contacten wilt stellen.  
@@ -23,7 +23,7 @@ U kunt profielvragenlijsten instellen die u wilt gebruiken wanneer u gegevens vo
 U kunt ook de vragenlijst uitvoeren om automatisch een aantal vragen te beantwoorden op basis van de contact-, klant- of leveranciersgegevens.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Een profielvragenlijst toevoegen
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Profielvragenlijstinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vragenlijstinstellingen** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -46,39 +46,115 @@ U kunt de contacten automatisch indelen op basis van klant-, leveranciers- en co
 > [!NOTE]
 > Een classificatie op basis van klantgegevens kan alleen worden toegewezen aan contacten die als klant zijn geregistreerd. Een classificatie op basis van leveranciersgegevens kan alleen worden toegewezen aan contacten die als leverancier zijn geregistreerd. De automatische classificatie wordt niet automatisch bijgewerkt. Daarom wilt u de profielvragenlijsten mogelijk bijwerken, nadat u de klant-, leveranciers- of contactgegevens waarop de profielvragenlijsten zijn gebaseerd, hebt bijgewerkt.  
 
-Nadat u de automatisch beantwoorde profielvragen hebt ingesteld en als u de profielvragenlijst met deze vragen aan een contact toewijst, worden de juiste antwoorden voor het contact automatisch door [!INCLUDE[prod_short](includes/prod_short.md)] toegewezen.  
+Nadat u de automatisch beantwoorde profielvragen hebt ingesteld en als u de profielvragenlijst met deze vragen aan een contact toewijst, worden de juiste antwoorden voor het contact automatisch door [!INCLUDE[d365fin](includes/d365fin_md.md)] toegewezen.  
 
 ## <a name="example"></a>Opmerking
-
 U kunt de contacten indelen op basis van de aantallen die ze bij u hebben gekocht:
 
-|Antwoord|Van toepassing op|
-|--- |--- |
-|A|contacten die voor 500.000 LV of meer hebben gekocht|
-|B|contacten die voor tussen 100.000 en 499.999 LV hebben gekocht|
-|U|contacten die voor 99.999 LV of minder hebben gekocht|
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Antwoord</strong></th>
+<th><strong>Van toepassing op</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>A</p></td>
+<td><p>contacten die voor 500.000 LV of meer hebben gekocht</p></td>
+</tr>
+<tr class="even">
+<td><p>B</p></td>
+<td><p>contacten die voor tussen 100.000 en 499.999 LV hebben gekocht</p></td>
+</tr>
+<tr class="odd">
+<td><p>U</p></td>
+<td><p>contacten die voor 99.999 LV of minder hebben gekocht</p></td>
+</tr>
+</tbody>
+</table>
 
 Hiervoor moet u de pagina **Profielvragenlijstinstellingen** als volgt invullen:
 
-| Soort     | Omschrijving        | Automatische indeling     | Van waarde | Naar waarde |
-|----------|--------------------|------------------------------|------------|----------|
-| Vraag | ABC-classificatie | Klik op het selectievakje om het in te schakelen |            |          |
-| Antwoord   | A                  |                              | 500.000    |          |
-| Antwoord   | B                  |                              | 100,000    | 499,999  |
-| Antwoord   | U                  |                              |            | 99,999   |
+
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Soort</strong></th>
+<th><strong>Beschrijving</strong></th>
+<th><strong>Automatische indeling</strong></th>
+<th><strong>Van waarde</strong></th>
+<th><strong>Naar waarde</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Vraag</p></td>
+<td><p>ABC-classificatie</p></td>
+<td><p>Klik op het selectievakje om het in te schakelen</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr class="even">
+<td><p>Antwoord</p></td>
+<td><p>A</p></td>
+<td><p> </p></td>
+<td><p>500.000</p></td>
+<td><p> </p></td>
+</tr>
+<tr class="odd">
+<td><p>Antwoord</p></td>
+<td><p>B</p></td>
+<td><p> </p></td>
+<td><p>100,000</p></td>
+<td><p>499,999</p></td>
+</tr>
+<tr class="even">
+<td><p>Antwoord</p></td>
+<td><p>U</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p>99,999</p></td>
+</tr>
+</tbody>
+</table>
 
 Vul vervolgens de pagina **Profielvraagdetails** als volgt in:
-
-| Veld                         | Waarde         |
-|-------------------------------|---------------|
-| Veld Klantclassificatie | Verkoop (LV)   |
-| Indelingsmethode         | Gedefinieerde waarde |
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Veld</strong></th>
+<th><strong>Waarde</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Veld Klantclassificatie</strong></td>
+<td><emphasis>Verkoop (LV)</emphasis></td>
+</tr>
+<tr>
+<td><strong>Indelingsmethode</strong></td>
+<td><emphasis>Waarde</emphasis></td>
+</tr>
+</tbody>
+</table>
 
 Wanneer u de profielvragenlijst met deze vraag aan een contact toewijst, wordt het relevante antwoord voor dit contact automatisch ingevoerd op de profielregels van de contactkaart.
 
 ## <a name="see-also"></a>Zie ook
-
 [Contacten maken](marketing-create-contact-companies.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

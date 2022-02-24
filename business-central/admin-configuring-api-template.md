@@ -1,26 +1,26 @@
 ---
-title: API-sjablonen configureren
+title: API-sjablonen configureren | Microsoft Docs
 description: De stappen beschrijven die u moet doorlopen om API-sjablonen te configureren voor Dynamics 365 Business Central.
+services: project-madeira
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: f5f081e4d0042333549453a3ad6af5a05a0e6ca0
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7e21da444f8dc8858ebe0e5f65335311dfb2a5e7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011268"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187400"
 ---
 # <a name="configuring-api-templates"></a>API-sjablonen configureren
-
-De API-bibliotheek voor [!INCLUDE[prod_short_md](includes/prod_short.md)] biedt een vereenvoudigde weergave van de onderliggende entiteiten. Niet alle eigenschappen in de toepassing zijn beschikbaar via de bijbehorende API. Met de pagina **API-instelling** kunt u sjablonen definiëren die worden gebruikt om lege eigenschappen te vullen van een entiteit wanneer u een POST-actie maakt met behulp van de API. 
+De API-bibliotheek voor [!INCLUDE[d365fin_md](includes/d365fin_md.md)] biedt een vereenvoudigde weergave van de onderliggende entiteiten. Niet alle eigenschappen in de toepassing zijn beschikbaar via de bijbehorende API. Met de pagina **API-instelling** kunt u sjablonen definiëren die worden gebruikt om lege eigenschappen te vullen van een entiteit wanneer u een POST-actie maakt met behulp van de API. 
 
 Als bijvoorbeeld een configuratiesjabloon voor de artikelentiteit wordt gedefinieerd, wanneer een nieuwe artikelrecord wordt gemaakt met de artikelen-API, worden eigenschappen van het nieuwe artikel die niet zijn gedefinieerd in de API-aanroep, gevuld vanuit de geselecteerde sjabloon. Als met de API bijvoorbeeld geen waarde wordt gedefinieerd voor het veld **Productieboekingsgroep**, maar een waarde is gedefinieerd in de geselecteerde sjabloon, wordt de boekingsgroepswaarde die in de sjabloon is gedefinieerd, toegepast op het nieuwe artikel. 
 
@@ -31,7 +31,7 @@ Als u sjablonen wilt gebruiken met de API-bibliotheek, moet u eerst eigenschappe
 
 Als u een sjabloon wilt toewijzen aan een API, moet u de volgende stappen uitvoeren.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **API-instelling** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **API-instelling** in en kies de desbetreffende koppeling.
 2. Kies **Nieuw** en kies de waarde **Volgorde** voor de record.  
 Als er meer dan één sjabloon is geselecteerd voor een API (Pagina-id), worden de sjablonen toegepast in de volgorde die is gedefinieerd in de kolom **Volgorde**.   
 Wanneer elke sjabloon wordt toegepast, worden veldwaarden die in de sjabloon zijn gedefinieerd, alleen toegepast op velden waarvoor nog geen waarde is gedefinieerd, hetzij expliciet in de sjabloon, hetzij in een eerder toegepaste sjabloon in de volgorde. 
@@ -44,10 +44,8 @@ De gedefinieerde sjabloon wordt toegepast op een nieuwe record die met de API wo
 
 ## <a name="see-also"></a>Zie ook
 [API-documentatie](/dynamics-nav/fin-graph)  
-[Connect Apps ontwikkelen voor [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Connect Apps ontwikkelen voor [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [De API's inschakelen](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Eindpunten voor de API's](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

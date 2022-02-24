@@ -1,21 +1,21 @@
 ---
-title: 'Ontwerpdetails: Inkomende magazijnstroom'
-description: De inkomende magazijnstroom begint wanneer artikelen op de locatie van het magazijnbedrijf aankomen. Artikelen worden geregistreerd en uiteindelijk gematcht met inkomende brondocumenten.
+title: 'Ontwerpdetails: Inkomende magazijnstroom | Microsoft Docs'
+description: De inkomende stroom in een magazijn begint wanneer artikelen in het magazijn van de bedrijfsvestiging arriveren, ofwel ontvangen via externe bronnen of van een andere bedrijfsvestiging. Een werknemer registreert de artikelen, meestal door een barcode te scannen. Vanuit het ontvangstdok worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen in het opslaggebied te brengen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 1a20981117fd92751fd9890c8db6feda6120eab8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441786"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185432"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Ontwerpdetails: Inkomende magazijnstroom
 De inkomende stroom in een magazijn begint wanneer artikelen in het magazijn van de bedrijfsvestiging arriveren, ofwel ontvangen via externe bronnen of van een andere bedrijfsvestiging. Een werknemer registreert de artikelen, meestal door een barcode te scannen. Vanuit het ontvangstdok worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen in het opslaggebied te brengen.  
@@ -35,7 +35,7 @@ De laatste twee vertegenwoordigen inkomende stromen naar het magazijn vanuit int
 
 Processen en UI-documenten in inkomende magazijnstromen zijn verschillend voor standaard- en geavanceerde magazijnconfiguraties. Het belangrijkste verschil is dat de activiteiten per order worden uitgevoerd in standaardmagazijnconfiguraties en dat ze worden samengevoegd voor meerdere orders in geavanceerde magazijnconfiguraties. Voor meer informatie over de verschillende niveaus van de magazijncomplexiteit raadpleegt u [Ontwerpdetails: Magazijnoverzicht](design-details-warehouse-setup.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] kunnen inkomende processen voor ontvangst en opslag op vier manieren worden uitgevoerd met verschillende functionaliteiten, afhankelijk van het complexiteitsniveau van het magazijn.  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen inkomende processen voor ontvangst en opslag op vier manieren worden uitgevoerd met verschillende functionaliteiten, afhankelijk van het complexiteitsniveau van het magazijn.  
 
 |Methode|Inkomend proces|Opslaglocaties|Ontvangsten|Magazijnopslag|Complexiteitsniveau (zie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -51,7 +51,7 @@ Bij methode A, B en C worden de acties ontvangen en opslaan in één stap gecomb
 ## <a name="basic-warehouse-configurations"></a>Standaardmagazijnconfiguraties  
 In het volgende diagram worden de inkomende magazijnstromen aangegeven op documentsoort in standaardmagazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
-![Inkomende stroom in standaardmagazijnconfiguraties.](media/design_details_warehouse_management_inbound_basic_flow.png "Inkomende stroom in standaardmagazijnconfiguraties")  
+![Inkomende stroom in standaardmagazijnconfiguraties](media/design_details_warehouse_management_inbound_basic_flow.png "Inkomende stroom in standaardmagazijnconfiguraties")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Brondocument vrijgeven/Voorraadopslag maken  
 Wanneer artikelen worden ontvangen in het magazijn, geeft de gebruiker die verantwoordelijk is voor ontvangst, het brondocument vrij (zoals een inkooporder of inkomende transferorder) als teken voor magazijnmedewerkers dat de ontvangen artikelen in voorraad kunnen worden opgeslagen. Of de gebruiker maakt door pushing voorraadopslagdocumenten voor afzonderlijke orderregels, op basis van te verwerken specifieke opslaglocaties en aantallen.  
@@ -70,7 +70,7 @@ Er worden positieve artikelposten gemaakt, er worden magazijnposten gemaakt en h
 ## <a name="advanced-warehouse-configurations"></a>Geavanceerde magazijnconfiguraties  
 In het volgende diagram wordt de inkomende magazijnstroom aangegeven op documentsoort in geavanceerde magazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
-![Inkomende stroom in geavanceerde magazijnconfiguraties.](media/design_details_warehouse_management_inbound_advanced_flow.png "Inkomende stroom in geavanceerde magazijnconfiguraties")  
+![Inkomende stroom in geavanceerde magazijnconfiguraties](media/design_details_warehouse_management_inbound_advanced_flow.png "Inkomende stroom in geavanceerde magazijnconfiguraties")  
 
 ### <a name="1-release-source-document"></a>1: Brondocument vrijgeven  
 Wanneer artikelen worden ontvangen in het magazijn, geeft de gebruiker die verantwoordelijk is voor ontvangst, het brondocument vrij (zoals een inkooporder of inkomende transferorder) als teken voor magazijnmedewerkers dat de ontvangen artikelen in voorraad kunnen worden opgeslagen.  
@@ -110,6 +110,3 @@ Magazijnposten worden gemaakt en de magazijnopslagregels worden verwijderd, als 
 
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

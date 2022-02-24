@@ -1,21 +1,21 @@
 ---
-title: 'Ontwerpdetails: verwachte kostenboeking'
+title: 'Ontwerpdetails: Verwachte kostenboeking | Microsoft Docs'
 description: Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht artikel, die u vastlegt voordat u de factuur voor het artikel ontvangt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/20/2021
-ms.author: edupont
-ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 024d80039c2293924a53db31ea998a7b565c333b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649849"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185504"
 ---
 # <a name="design-details-expected-cost-posting"></a>Ontwerpdetails: Verwachte kostenboeking
 Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht artikel, die u vastlegt voordat u de factuur voor het artikel ontvangt.  
@@ -29,22 +29,10 @@ Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht
 
  Ter ondersteuning van reconciliatie en traceerbaarheid bevat de gefactureerde waardepost het verwachte kostenbedrag dat is geboekt om de interimrekeningen te vereffenen.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a>Vereisten voor het boeken van verwachte kosten
+## <a name="example"></a>Opmerking  
+ Het volgende voorbeeld toont verwachte kosten als het selectievakje **Autom. voorraadwaarde boeken** en **Verw. kostprijs naar GB boeken** zijn ingeschakeld op de pagina **Voorraadinstelling**.  
 
-Om verwachte kosten te kunnen boeken moet u het volgende doen:
-1. Selecteer op de pagina **Voorraadinstellingen** het selectievakje **Autom. voorraadwaarde boeken** en het selectievakje **Verw. kostprijs naar GB boeken**.
-2. Stel in welke tussenrekeningen moeten worden gebruikt tijdens het boekingsproces van de verwachte kosten.  
-
-  Controleer op de pagina **Voorraadboekingsinstellingen** de velden **Voorraadrekening** en **Voorraadrekening (tussenrek.)** voor de **Vestigingscode en Voorraadboekingsgroepcode** van het artikel dat u gaat aanschaffen. Zie voor meer informatie over deze accounts [Ontwerpdetails - Rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md).
-3. Controleer op de pagina **Boekingsgroepinstellingen** het veld **Voorraadcorrectiesrek. (tussenrek.)** voor de **Bedrijfsboekingsgroep** en de **Prod.-boekingsgroep** die u gaat gebruiken.
-4. Wanneer u een inkooporder maakt, is de standaardinstelling dat het veld **Leveranciersfactuurnr** verplicht is. U moet dat uitschakelen op de pagina **Instellingen Inkoop en betalingen** door het veld **Extern documentnr. verplicht** uit te schakelen.
-
-## <a name="example"></a>Voorbeeld  
-
-> [!NOTE]  
-> De rekeningnummers die in dit voorbeeld worden gebruikt, zijn alleen ter referentie en zullen in uw systeem anders zijn. Stel ze in zoals aangegeven in de vereisten hierboven.
-
-U boekt een inkooporder als ontvangen. De verwachte kosten zijn LV 95,00.  
+ U boekt een inkooporder als ontvangen. De verwachte kosten zijn LV 95,00.  
 
  **Waardeposten**  
 
@@ -85,7 +73,7 @@ U boekt een inkooporder als ontvangen. De verwachte kosten zijn LV 95,00.
 
  **Grootboekposten**  
 
-|Boekingsdatum|Grootboekrekening|Rekeningnr. (slechts voorbeelden!)|Bedrag|Volgnummer|  
+|Boekingsdatum|Grootboekrekening|Rekeningnr. (En-US demo)|Bedrag|Volgnummer|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |15-01-20|Voorraadtussenrekening (tussenrek.)|5530|95,00|4|  
 |15-01-20|Voorraadrekening (tussenrek.)|2131|-95,00|3|  
@@ -100,7 +88,4 @@ U boekt een inkooporder als ontvangen. De verwachte kosten zijn LV 95,00.
  [Ontwerpdetails: Verschil](design-details-variance.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  
- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

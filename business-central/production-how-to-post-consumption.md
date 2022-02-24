@@ -1,50 +1,38 @@
 ---
-title: Verbruik in batches boeken
-description: Als de afboekingsmethode Handmatig is, moet u de materialen handmatig boeken met behulp van een verbruiksdagboek.
+title: Verbruik in batches boeken | Microsoft Docs
+description: Als de afboekingsmethode **Handmatig** is, moet u de materialen handmatig boeken met behulp van een verbruiksdagboek.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000846, 99000850
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 4f110f6f6ada70ab739749d7dcc3522987c3a1d4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 9200256cec074e547bc594950b1eb2d975a8ad9b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973867"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877895"
 ---
 # <a name="batch-post-production-consumption"></a>Productieverbruik in batches boeken
+Als de afboekingsmethode **Handmatig** is, moet u de materialen handmatig boeken met behulp van een verbruiksdagboek.
 
-Als de afboekingsmethode **Handmatig** is, moet u de materialen handmatig boeken met behulp van een verbruiksdagboek.  
+U kunt het systeem ook zo instellen materialen automatisch worden geboekt (*afgeboekt*) als u productieorders start of voltooit. Zie voor meer informatie [Afboeking van materialen op basis van de uitvoer van een bewerking inschakelen](production-how-to-flush-components-according-to-operation-output.md).
 
->[!NOTE]
-> Als u het selectievakje **Pick vereist** op de vestigingskaart hebt ingeschakeld om aan te geven dat de vestiging voorraadpickverwerking vereist, hoeft u deze batchverwerking niet uit te voeren. [!INCLUDE[prod_short](includes/prod_short.md)] handelt het verbruik dan af wanneer u de voorraadpick boekt. Zie voor meer informatie [Picken voor productie in standaardmagazijnconfiguraties](warehouse-how-to-pick-for-production.md#pick-for-production-in-basic-warehouse-configurations).  
+## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Verbruik boeken voor een of meer productieorderregels  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verbruiksdagboek** in en kies de desbetreffende koppeling.  
+2.  Voer in de velden informatie over de productieorder en verbruik in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-U kunt [!INCLUDE[prod_short](includes/prod_short.md)] ook zo instellen materialen automatisch worden geboekt (*afgeboekt*) als u productieorders start of voltooit. Zie voor meer informatie [Afboeking van materialen op basis van de uitvoer van een bewerking inschakelen](production-how-to-flush-components-according-to-operation-output.md).
+    Als het magazijn waar de materialen zijn opgeslagen opslaglocaties gebruikt, maar geen pickverwerking vereist, kunt u een opslaglocatie toewijzen aan de dagboekregel om aan te geven waar de artikelen uit het magazijn moeten worden gehaald. Zie [Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md) voor meer informatie.  
+3.  Kies de actie **Boeken** om het verbruik te boeken. De betreffende artikelposten worden verminderd.
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Verbruik boeken voor een of meer productieorderregels
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verbruiksdagboek** in en kies vervolgens de gerelateerde koppeling.  
-2. Voer in de velden informatie over de productieorder en verbruik in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-    Gebruik de actie **Verbruik berekenen** om journaalregels vanuit productieorders te genereren gebaseerd op de werkelijke output (het aantal gereedgemelde goederen dat u hebt gemeld) of de verwachte output (het aantal gereedgemelde goederen dat u verwacht te produceren).
-
-    > [!NOTE]
-    > Als u de vestigingskaart zo hebt geconfigureerd dat magazijnpickverwerking vereist is, kunnen alleen hoeveelheden die al via een magazijnactiviteit zijn gepickt, worden ingevoerd in het veld **Aantal** op de pagina **Verbruiksdagboek**, niet een berekende hoeveelheid. Zie voor meer informatie [Picken voor productie of assemblage in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
-
-3. Kies de actie **Boeken** om het verbruik te boeken. De gerelateerde voorraden worden verminderd.
-
-## <a name="see-also"></a>Zie ook
-
-[Productie](production-manage-manufacturing.md)  
+## <a name="see-also"></a>Zie ook  
+[Productie](production-manage-manufacturing.md)    
 [Productie instellen](production-configure-production-processes.md)  
-[Gepland](production-planning.md)  
+[Gepland](production-planning.md)      
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,23 +1,23 @@
 ---
-title: Voorkeursmethoden voor verzending van verkoopdocumenten instellen (bevat video) | Microsoft Docs
+title: Voorkeursmethoden voor verzending van verkoopdocumenten instellen | Microsoft Docs
 description: Beschrijft hoe u voor elke klant de voorkeursmethode voor het verzenden van verkoopdocumenten instelt, bijvoorbeeld e-mailadres, PDF, elektronisch document, enzovoort.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 676ac7ac1fb9f267221acc50e5b5f812b8460250
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: e541fbf541ec317ea6517587159144a5ccf84058
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7939889"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911179"
 ---
 # <a name="set-up-document-sending-profiles"></a>Verzendprofielen van documenten instellen
 U kunt elke klant instellen met een voorkeursmethode voor de verzending van verkoopdocumenten, zodat u niet elke keer dat u de actie **Boeken en verzenden** kiest een verzendoptie hoeft te selecteren.
@@ -27,22 +27,19 @@ Op de pagina **Verzendprofielen van documenten** kunt u verschillende verzendpro
 Wanneer u de actie **Boeken en verzenden** in een verkoopdocument kiest, wordt in het dialoogvenster **Boeken en verzenden bevestigen** het gebruikte verzendprofiel getoond. Dit is het voor de klant ingestelde profiel of het standaardprofiel voor alle klanten. In het dialoogvenster kunt u het verzendprofiel voor het verkoopdocument wijzigen. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH]
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Een verzendprofiel voor documenten instellen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzendprofielen van documenten** in en kies de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendprofielen van document** in en kies de desbetreffende koppeling.
 2. Kies op de pagina **Verzendprofielen van documenten** de actie **Nieuw**.
 3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Een verzendprofiel op een klantenkaart opgeven
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
 2. Open de kaart van de klant voor wie u een verzendprofiel wilt instellen.
 3. Selecteer op het sneltabblad **Verzendprofiel van document** een profiel dat u hebt ingesteld, zoals beschreven in de vorige procedure.
 
 ## <a name="see-also"></a>Zie ook
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

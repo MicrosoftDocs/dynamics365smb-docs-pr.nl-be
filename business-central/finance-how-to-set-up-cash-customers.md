@@ -1,47 +1,41 @@
 ---
-title: Contant betalende klanten instellen
-description: Dit onderwerp beschrijft de stappen die nodig zijn om de factuur met een klantnummer in te stellen voor klanten die contant betalen.
+title: 'Procedure: Contant betalende klanten instellen| Microsoft Docs'
+description: In dit onderwerp worden de stappen voor het instellen van klanten die contant betalen beschreven.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 21, 22
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 7b021b957d2984d2b2ea239c1e8f737d90071215
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ebef3cd903472a22a9e2676d0856107da3be9c0a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973452"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183320"
 ---
 # <a name="set-up-cash-customers"></a>Contant betalende klanten instellen
-
 U kunt geen factuur zonder klantnummer maken. Dit geldt ook voor contante verkopen waarbij u geen gegevens voor een klantenrekening hoeft in te voeren.  
 
-## <a name="to-set-up-a-cash-customer"></a>Een contant betalende klant instellen
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klant** in en kies vervolgens de gerelateerde koppeling.  
-2. Maak een nieuwe **klant**-kaart. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).
-3. Selecteer in het veld **Nr.** bijvoorbeeld **Kas** in.  
-4. Geef in het veld **Naam** bijvoorbeeld **Contante verkoop** op.  
-5. Vul op het sneltabblad **Facturering** de velden **Klantboekingsgroep** en **Bedrijfsboekingsgroep** in.  
+## <a name="to-set-up-a-cash-customer"></a>Een contant betalende klant instellen  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klant** in en kies de gerelateerde koppeling.  
+2.  Maak een nieuwe **klant**-kaart. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).
+3.  Selecteer in het veld **Nr.** bijvoorbeeld **Kas** in.  
+4.  Geef in het veld **Naam** bijvoorbeeld **Contante verkoop** op.  
+5.  Vul op het sneltabblad **Facturering** de velden **Klantboekingsgroep** en **Bedrijfsboekingsgroep** in.  
 
  U hebt nu voldoende gegevens voor de klant ingesteld om deze te factureren.  
 
 > [!NOTE]  
-> Mogelijk hebt u een boekingsgroep gekozen die tevens wordt gebruikt voor binnenlandse verkopen op krediet. Als u afzonderlijke gegevens over contante verkopen wilt bijhouden, bijvoorbeeld met een speciale verkoop- of centralisatierekening, kunt u hiervoor een extra boekingsgroep instellen.  
->
-> U moet altijd een nummer opgeven voor een centralisatierekening in de boekingsgroep, ook al bedraagt het saldo op deze rekening altijd 0 nadat u een factuur hebt geboekt.  
+>  Mogelijk hebt u een boekingsgroep gekozen die tevens wordt gebruikt voor binnenlandse verkopen op krediet. Als u afzonderlijke gegevens over contante verkopen wilt bijhouden, bijvoorbeeld met een speciale verkoop- of centralisatierekening, kunt u hiervoor een extra boekingsgroep instellen.  
+>   
+>  U moet altijd een nummer opgeven voor een centralisatierekening in de boekingsgroep, ook al bedraagt het saldo op deze rekening altijd 0 nadat u een factuur hebt geboekt.  
 
 ## <a name="see-also"></a>Zie ook
-
 [Tegoeden beheren](receivables-manage-receivables.md)  
-[Nieuwe klanten registreren](sales-how-register-new-customers.md)
-[Finance](finance.md)  
+[Nieuwe klanten registreren](sales-how-register-new-customers.md)    
+[Financiën](finance.md)  
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,35 +1,34 @@
 ---
-title: 'Procedure: zendingen traceren'
-description: Gebruik de trackingservice van de expediteur op internet om pakketten te volgen en de voortgang van een levering te volgen.
+title: Zendingen traceren | Microsoft Docs
+description: Gebruik de traceerservice van de expediteurs om de voortgang van een zending te bekijken.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
-ms.date: 06/23/2021
+ms.date: 05/28/2020
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752378"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410704"
 ---
 # <a name="track-packages"></a>Pakketten traceren
-De meeste expediteurs bieden een webservice waarmee u de status van uw pakketten kunt volgen terwijl ze onderweg zijn. Die informatie kan in veel bedrijfsprocessen van pas komen, bijvoorbeeld bij het verlenen van klantenservice. Als u met een of meer expediteurs werkt, kunt u bepaalde basisgegevens over hen invoeren en vervolgens hun service voor pakkettracering gebruiken, rechtstreeks vanaf de pagina's Geboekte verkoopverzendingen, Geboekte verkoopfacturen, Geboekte verkoopcreditnota's en Geboekte retourontvangst. Zie [Expediteurs instellen](sales-how-to-set-up-shipping-agents.md) voor meer informatie. 
+
+Een aantal expediteurs biedt services via het Internet zodat u zendingen die u in handen van de expediteur hebt gegeven, kunt traceren. Als u met een of meer expediteurs werkt, kunt u bepaalde basisgegevens instellen en vervolgens geboekte verzendingen, geboekte verkoopfacturen, geboekte verkoopcreditnota's en geboekte retourontvangsten automatisch traceren. Zie [Expediteurs instellen](sales-how-to-set-up-shipping-agents.md) voor meer informatie.  
 
 De volgende procedure laat zien hoe u een pakket kunt traceren vanaf een geboekte verkoopzending, maar dezelfde stappen zijn van toepassing om het traceren van pakketten mogelijk te maken vanaf de pagina's Geboekte verkoopfactuur, Geboekte verkoopkredietnota en Geboekte retourontvangst.  
 
 ## <a name="to-track-a-package"></a>Een zending traceren
 
-> [!NOTE]
-> De volgende procedure gebruikt de pagina Geboekte verkoopverzending als voorbeeld. De stappen om een pakket te volgen zijn hetzelfde op de pagina's Geboekte verkoopfacturen, Geboekte verkoopcreditnota's en Geboekte retourontvangst.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzending** in en kies de desbetreffende koppeling.
+2. Open de betreffende zending.
+3. Kies de actie **Document bijwerken**.
+4. Voer in het veld **Traceringsnummer (zending)** het traceringsnummer in dat u van de expediteur hebt ontvangen. Werk **Expediteur** indien nodig bij en sluit de pagina.
+5. Kies de actie **Zending traceren**.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzending** in en kies vervolgens de gerelateerde koppeling.
-2. Open de verzending die u wilt volgen, en kies vervolgens de actie **Document bijwerken**.
-3. Voer in het veld **Traceringsnummer (zending)** het pakketnummer in dat u van de expediteur hebt ontvangen. 
-4. Zorg ervoor dat de juiste expediteur en het serviceniveau correct zijn en sluit vervolgens de pagina.
-5. Kies de actie **Pakket traceren** om de service voor pakkettracering van de expediteur te openen.
+De traceringspagina van uw expediteur wordt geopend in uw standaardbrowser.
 
 ## <a name="see-also"></a>Zie ook
 
@@ -37,7 +36,4 @@ De volgende procedure laat zien hoe u een pakket kunt traceren vanaf een geboekt
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

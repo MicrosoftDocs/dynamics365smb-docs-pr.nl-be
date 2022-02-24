@@ -3,19 +3,19 @@ title: Een bedrijf configureren met de wizard RapidStart | Microsoft Docs
 description: U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services-configuratiewizard.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 1a9d4c2a4a99ebec0aa1fc019871608948844b7a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439672"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187232"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Een bedrijf configureren met de wizard RapidStart
 U kunt snel een nieuw bedrijf configureren dat u hebt gemaakt met behulp van de RapidStart Services-configuratiewizard.
@@ -39,7 +39,7 @@ In de volgende procedure hebt u het configuratiepakket aan de klant geleverd, da
     >  Wijzig uw Rolcentrum pas nadat u de configuratie van het bedrijf hebt voltooid. Als u met meer instellingsgegevens rekening moet houden en meer wijzigingen moet doorvoeren, moet u eerst het configuratiewerkblad gebruiken om door te gaan met uw werk. Ga vervolgens terug naar de wizard voor het bijwerken van uw Rolcentrum-profiel of kies de actie **Volledige installatie**.
 
 7. Kies de knop **OK**.  
-8. Om te controleren of de configuratie-informatie is toegepast op het nieuwe bedrijf, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
+8. U kunt controleren of de configuratiegegevens zijn toegepast op het nieuwe bedrijf. Kies het ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies en vervolgens de gerelateerde koppeling.
 
 De pagina **Bedrijfsgegevens** bevat gegevens die u hebt opgegeven.   
 
@@ -49,6 +49,3 @@ U hebt nu het bedrijf geconfigureerd en gegevens hierop toegepast.
 [Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)  
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

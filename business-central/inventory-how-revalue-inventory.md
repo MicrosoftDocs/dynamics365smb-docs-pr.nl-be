@@ -1,29 +1,29 @@
 ---
 title: Nieuwe waardeposten maken voor artikelen in de voorraad| Microsoft Docs
-description: Beschrijft hoe u de waardeposten vermeerdert of vermindert van een of meer artikelen in voorraad door de huidige, berekende waarde ervan te boeken.
+description: Beschrijft hoe u de waardeposten vermeerdert of vermindert van een of meer artikelen in de voorraad door de huidige, berekende waarde ervan te boeken.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.search.forms: 5803,
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: b07aba72be831dd68eea3475f3ee591a7c319051
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: c961d15d04da5fcad18a460adc269f3099962f6a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059608"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182144"
 ---
 # <a name="revalue-inventory"></a>Voorraad herwaarderen
 Gebruik het herwaarderingsdagboek als u de voorraadwaarde van een artikel of een bepaalde artikelpost wilt vermeerderen of verminderen.
 
 ## <a name="to-revalue-inventory"></a>Voorraad herwaarderen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Herwaarderingsdagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Herwaarderingsdagboek** in en kies de gerelateerde koppeling.
 2. Kies de actie **Voorraadwaarde berekenen**.
 3. Vul op de pagina **Voorraadwaarde berekenen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de knop **OK**.
@@ -39,7 +39,4 @@ Nieuwe waardeposten worden nu gemaakt om de herwaarderingen weer te geven die u 
 [Voorraad](inventory-manage-inventory.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

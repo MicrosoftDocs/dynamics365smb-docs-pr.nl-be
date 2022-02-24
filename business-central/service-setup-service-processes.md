@@ -3,19 +3,19 @@ title: Processen voor CRM - Service instellen | Microsoft Docs
 description: Leer hoe u processen instelt om ervoor te zorgen dat uw klanten tevreden zijn over uw klantenservice.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 80f56b9572e8ff20c29174e738aff135243530b7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438244"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192319"
 ---
 # <a name="configure-service-processes"></a>Serviceprocessen configureren
 Hier volgende enkele voorbeelden van de instellingen die u op processen voor servicebeheer kunt toepassen:  
@@ -27,7 +27,7 @@ Hier volgende enkele voorbeelden van de instellingen die u op processen voor ser
 * De nummerreeksen die moeten worden gebruikt voor servicegerelateerde documenten en artikelen.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Algemene en verplichte instellingen opgeven
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicebeheerinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicebeheerinstellingen** in en kies de desbetreffende koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Zie ook  
@@ -37,6 +37,3 @@ Hier volgende enkele voorbeelden van de instellingen die u op processen voor ser
 [Aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)  
 [Troubleshooting instellen](service-how-setup-troubleshooting.md)  
 [Servicebeheer](service-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

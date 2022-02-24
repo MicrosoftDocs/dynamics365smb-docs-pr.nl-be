@@ -3,19 +3,19 @@ title: Verkoop aan klanten blokkeren
 description: Indien nodig kunt u voorkomen dat een klant wordt opgenomen in verkoopdocumenten en andere verkooptransacties.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a5ac7b1cd9d58c91584c2777442094bace0673fd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7cc82ab0aaf28b355117571d0d2cc5869141693f
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436035"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410728"
 ---
 # <a name="block-customers"></a>Klanten blokkeren
 U kunt een klant blokkeren, bijvoorbeeld vanwege insolventie, zodat de klant niet aan verkoopdocumenten kan worden toegevoegd of zodat geen transacties voor de klant kunnen worden geboekt.
@@ -32,7 +32,7 @@ De volgende tabel beschrijft de opties voor het blokkeren van klanten.
 |**Alle**|Voor deze klant is geen enkele transactie, inclusief betalingen, toegestaan.|  
 
 ## <a name="to-block-a-customer"></a>Een klant blokkeren  
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
 2. Selecteer een klant en kies vervolgens de actie **Bewerken**.
 3. Kies in het veld **Geblokkeerd** wat u wilt blokkeren, zoals beschreven in de bovenstaande tabel.
 
@@ -40,6 +40,3 @@ De volgende tabel beschrijft de opties voor het blokkeren van klanten.
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)  
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

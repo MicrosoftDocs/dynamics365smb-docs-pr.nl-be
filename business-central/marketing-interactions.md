@@ -1,23 +1,23 @@
 ---
-title: Interacties beheren met uw contacten
+title: Interacties met uw contacten beheren | Microsoft Docs
 description: U kunt alle soorten communicatie of interactie tussen uw bedrijf en uw contacten beheren. Bijvoorbeeld brieven, telefoongesprekken, vergaderingen, enzovoort.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082,
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6a923884e7ea28def6335f063d04e5fab9365d81
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059454"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181400"
 ---
 # <a name="record-interactions-with-contacts"></a>Interacties met contacten vastleggen
 Uw toepassing instellen om interacties te registreren bestaat uit deze taken:
@@ -50,12 +50,9 @@ Op deze pagina kunt u het volgende doen:
 * De status van interacties weergegeven.
 * Interacties markeren als geannuleerd.
 
-U kunt interactielogposten verwijderen die zijn geannuleerd. Als u interactielogposten wilt verwijderen, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geannuleerde interactielogposten verwijderen** in, kiest u vervolgens de gerelateerde koppeling en vult u de informatie in.
+U kunt interactielogposten verwijderen die zijn geannuleerd. Als u interactielogposten wilt verwijderen, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geannuleerde interactielogposten verwijderen** in en kiest u vervolgens de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Werken met Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Een configuratiepakket voorbereiden
-description: Leer nu om een RapidStart-configuratiepakket te configureren dat u kan helpen bij het opzetten van nieuwe bedrijven op basis van bestaande gegevens.
-author: bholtorf
+title: Een configuratiepakket voorbereiden | Microsoft Docs
+description: Leer nu om een RapidStart-configuratiepakket te configureren dat kan helpen bij het opzetten van nieuwe bedrijven op basis van bestaande gegevens.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2021
-ms.author: bholtorf
-ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.date: 07/06/2020
+ms.author: sgroespe
+ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
+ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660243"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535984"
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
 
@@ -30,12 +30,6 @@ Er zijn enkele dingen waaraan u moet denken voordat u een configuratiepakket maa
 ### <a name="tables-that-contain-posted-entries"></a>Tabellen met geboekte posten
 
 U kunt geen gegevens importeren in tabellen met geboekte posten, zoals de tabellen voor klant-, leverancier- en artikelposten, dus deze gegevens moet u niet opnemen in uw configuratiepakket. U kunt posten aan deze tabellen toevoegen nadat u het configuratiepakket hebt geïmporteerd met behulp van journaals om de posten te boeken. Zie [Boekingsdocumenten en journalen](ui-post-documents-journals.md) voor meer informatie.
-
-### <a name="table-names-that-contain-special-characters"></a>Tabelnamen die speciale tekens bevatten
-
-Wees voorzichtig als u tabellen of velden heeft die dezelfde tijdelijke naam hebben, maar die worden onderscheiden door speciale tekens, zoals %, &, <, >, (, en ). De tabel 'XYZ' kan bijvoorbeeld de velden "Veld 1" en "Veld 1%" bevatten.
-
-De XML-processor accepteert slechts enkele speciale tekens en zal andere verwijderen. Als het verwijderen van een speciaal teken, zoals het %-teken in 'Veld 1%', resulteert in twee of meer tabellen of velden met dezelfde naam, zal er een fout optreden wanneer u een configuratiepakket exporteert of importeert. 
 
 ### <a name="licensing"></a>Licenties
 
@@ -56,14 +50,14 @@ U kunt een configuratiepakket importeren dat is geëxporteerd uit een database m
 
 ## <a name="to-create-a-configuration-package"></a>Een configuratiepakket maken
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul op het sneltabblad **Algemeen** de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Als u de tabellen voor configuratievragenlijsten, -sjablonen en -werkblad niet in het pakket wilt opnemen, schakelt u het selectievakje **Configuratietabellen uitsluiten** in. Anders worden deze tabellen automatisch toegevoegd aan de lijst met pakkettabellen bij het exporteren van het pakket.  
 5. Kies de actie **Tabellen ophalen**. De batchverwerkingspagina **Pakkettabellen ophalen** wordt geopend.  
 6. Kies het veld **Tabellen selecteren**. De pagina **Selectie voor configuratie** wordt geopend.  
 7. Kies de actie **Alles selecteren** om alle tabellen aan het pakket toe te voegen of schakel het selectievakje **Geselecteerd** in voor elke tabel in de lijst die u wilt toevoegen.
-8. Kies de knop **Ok**. Het aantal tabellen dat u hebt geselecteerd wordt vermeld in het veld **Tabellen selecteren**. Geef extra opties op en kies de knop **OK**. [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen worden toegevoegd aan de regels van de pagina **Pakket voor configuratie**.  
+8. Kies de knop **Ok**. Het aantal tabellen dat u hebt geselecteerd wordt vermeld in het veld **Tabellen selecteren**. Geef extra opties op en kies de knop **OK**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen worden toegevoegd aan de regels van de pagina **Pakket voor configuratie**.  
 
     > [!NOTE]  
     >  U kunt dit ook doen in het configuratiewerkblad. Selecteer de tabellen die u wilt opnemen in het pakket en kies vervolgens de actie **Pakket toewijzen**.
@@ -74,20 +68,8 @@ Geef op welke velden worden opgenomen in het pakket. Standaard zijn alle velden 
     - Als u alleen de velden wilt selecteren die u wilt opnemen, kiest u de actie **Opgenomen items wissen**. U kunt alle velden toevoegen door de actie **Opgenomen items instellen** te kiezen.  
     - Als u wilt opgeven dat de veldgegevens niet moeten worden gevalideerd, schakelt u het selectievakje **Veld valideren** voor het veld uit.  
 
-10. Kies desgewenst, om verwerkingsfilters toe te passen op tabelgegevens, of om een codeunit toe te voegen met elke code die u in het pakket wilt opnemen, de regel voor de relevante tabel en kiest u vervolgens de actie **Verwerkingsregels**.
-
-    1. Vul de velden in op de pagina **Tabelverwerkingsregels config.**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-        - Om filters op gegevens toe te passen specificeert u de relevante actie in het veld **Actie**, kiest u de actie **Verwerkingsfilters** en vult u vervolgens de velden in.  
-
-            De configuratiepakketten van Microsoft voor de evaluatiebedrijven stellen bijvoorbeeld verwerkingsfilters in op de tabellen **Verkoopkop** en **Inkoopkop**.
-        - Om een verwerkingscodeunit toe te voegen specificeert u deze in het veld **Codeunit-id aangepaste verwerking**.
-
-          > [!NOTE]
-          > Deze codeunit moet tabel 8614 *Pakketrecord voor configuratie* als parameter voor de methode `OnRun` gebruiken.
-    2. Sluit de pagina.
-11. Bepaal of u mogelijke fouten hebt geïntroduceerd door de actie **Pakket valideren** te kiezen. Dit kan gebeuren wanneer u tabellen waarvan uw configuratie afhankelijk is niet opneemt.  
-12. Kies de knop **OK**.  
+10. Bepaal of u mogelijke fouten hebt geïntroduceerd door de actie **Pakket valideren** te kiezen. Dit kan gebeuren wanneer u tabellen waarvan uw configuratie afhankelijk is niet opneemt.  
+11. Kies de knop **OK**.  
 
 Nadat u de lijst met velden die u wilt opnemen uit een tabel hebt verfijnd, kunt u uw resultaten in Excel controleren.  
 
@@ -119,7 +101,7 @@ U kunt het bestand opslaan met een naam die voor u zinvol is, maar u kunt de ext
 
 Nadat u een pakket hebt gemaakt dat voldoet aan de meeste van uw behoeften, kunt u dit als basis gebruiken voor het maken van vergelijkbare pakketten. Hiermee kan de implementatie worden versneld en de herhaalbaarheid van RapidStart Services worden verbeterd.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.  
 2. Selecteer een pakket in de lijst en kies vervolgens de actie **Pakket kopiëren**.  
 3. Voer in het veld **Nieuwe pakketcode** een code in voor het nieuwe pakket.  
 4. Schakel het selectievakje **Gegevens kopiëren** in als u ook databasegegevens wilt kopiëren vanuit het bestaande pakket.  
@@ -129,7 +111,7 @@ Nadat u een pakket hebt gemaakt dat voldoet aan de meeste van uw behoeften, kunt
 
 Gebruik het configuratiewerkblad voor het verzamelen en categoriseren van de gegevens die u wilt gebruiken voor het configureren van een nieuw bedrijf en voor het op een logische manier rangschikken van tabellen. De opmaak van het werkblad is gebaseerd op een eenvoudige hiërarchie: gebieden bevatten groepen, die weer tabellen bevatten. Gebieden en groepen zijn optioneel, maar zijn nodig als u een overzicht van het configuratieproces wilt inschakelen in het rolcentrum RapidStart Services.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.  
 2. Kies in het veld **Regelsoort** de optie **Gebied**. Voer in het veld **Naam** een beschrijvende naam in.  
 3. Kies in het veld **Regelsoort** de optie **Groep**. Voer in het veld **Naam** een beschrijvende naam in.  
 4. Kies in het veld **Regelsoort** de optie **Tabel**. Selecteer in het veld **Tabel-id** de tabel die u wilt opnemen in het werkblad.  
@@ -148,7 +130,7 @@ Nadat u de tabellen hebt gedefinieerd die u wilt behandelen als onderdeel van de
 > [!NOTE]  
 > U kunt ook rechtstreeks een pakket maken en hier tabellen aan toevoegen. Zie [Een configuratiepakket maken](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) voor meer informatie.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.
 2. Selecteer in het configuratiewerkblad een regel of groep regels die u wilt toewijzen aan een configuratiepakket en kies vervolgens **Pakket toewijzen**.  
 3. Selecteer een pakket in de lijst of kies de actie **Nieuw** om een nieuw pakket te maken en kies vervolgens de knop **OK**.  
 
@@ -159,11 +141,11 @@ Nadat u de tabellen hebt gedefinieerd die u wilt behandelen als onderdeel van de
 
 Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare databasegegevens weergeven en aanpassen aan de behoeften van uw klant. De databasetabel moet over een bijbehorende pagina beschikken.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.
 2. Bepaal in het configuratiewerkblad van welke tabellen u de gegevens wilt bekijken of aanpassen.  
 
     > [!NOTE]  
-    >  Zorg ervoor dat aan elke tabel een pagina-id is toegewezen. Voor standaard [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen wordt de waarde automatisch ingevuld. Voor aangepaste tabellen moet u de id opgeven.
+    >  Zorg ervoor dat aan elke tabel een pagina-id is toegewezen. Voor standaard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen wordt de waarde automatisch ingevuld. Voor aangepaste tabellen moet u de id opgeven.
 
 3. Kies de actie **Databasegegevens**. De pagina voor de gerelateerde pagina wordt geopend.
 4. Bekijk de beschikbare informatie. Wijzig deze zo nodig door records te verwijderen die niet relevant zijn of door nieuwe records toe te voegen.  
@@ -173,7 +155,7 @@ Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare dat
 Nadat u alle instellingsgegevens hebt ingevoerd en getest, kunt u doorgaan met het kopiëren van gegevens naar uw productieomgeving. U maakt een nieuw bedrijf in dezelfde database.
 
 1. Open en initialiseer het nieuwe bedrijf.  
-2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.  
 3. Kies de actie **Gegevens kopiëren van bedrijf**.  
 4. Kies op de pagina **Bedrijfsgegevens kopiëren** het veld **Kopiëren van**. De pagina **Bedrijven** wordt geopend.  
 5. Selecteer het bedrijf waaruit u gegevens wilt kopiëren en kies vervolgens de knop **OK**. Er wordt een lijst geopend met tabellen die zijn geselecteerd op het configuratiewerkblad. In deze lijst worden alleen tabellen opgenomen die records bevatten.
@@ -186,7 +168,3 @@ Nadat u alle instellingsgegevens hebt ingevoerd en getest, kunt u doorgaan met h
 [Een bedrijfsconfiguratie instellen](admin-set-up-company-configuration.md)  
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)  
-[Traceringstelemetrie van configuratiepakketten analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

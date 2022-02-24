@@ -1,26 +1,26 @@
 ---
-title: Servicenaleving en serviceovereenkomst
-description: Vanuit een serviceperspectief voldoet Business Central aan de strenge eisen en SLA-compliance in verschillende ISO- en branchespecifieke certificeringen.
+title: Servicenaleving | Microsoft Docs
+description: Deze inhoud bevat informatie over servicenaleving in verband met Business Central.
 author: sorenfriisalexandersen
+documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: e1ecec00458dbe2872eda7654fab0ff555408868
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323680"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185927"
 ---
 # <a name="service-compliance"></a>Servicenaleving
-
-Deze inhoud bevat informatie over servicenaleving in verband met [!INCLUDE[prod_short](../includes/prod_short.md)] online  
+Deze inhoud bevat informatie over servicenaleving in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
 Business Central is een cloudservice met een globaal bereik en een globale schaal, die werkt op een van 's werelds grootste hyperscale-infrastructuren, Microsoft Azure, met datacenters in regio's over de hele wereld. Een cloudservice uitvoeren brengt ook de noodzaak met zich mee te conformeren aan bepaalde standaards op het gebied van beveiliging en naleving, dus vanuit een serviceperspectief voldoet Business Central aan de strenge vereisten uit verschillende ISO-specificaties en branchespecifieke specificaties.
 
@@ -30,7 +30,9 @@ Als u geïnteresseerd bent in het hele overzicht van nalevingsaanbod van Microso
 
 ## <a name="service-terms"></a>Servicevoorwaarden
 
-[!INCLUDE [service-terms](../includes/service-terms.md)]
+[!INCLUDE [prodshort](../includes/prodshort.md)] online valt onder de [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). De voorwaarden van de dienstverleningsovereenkomst worden beschreven in het document dat u kunt downloaden uit de sectie **Dienstverleningsovereenkomsten voor Microsoft Online Services** op de pagina [Licentievoorwaarden](https://www.microsoft.com/licensing/product-licensing/products).  
+
+Bovendien kunt u de gezondheid van uw tenant bewaken en upgradevensters opgeven in het [Tenantbeheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## <a name="see-also"></a>Zie ook
 
@@ -38,7 +40,4 @@ Als u geïnteresseerd bent in het hele overzicht van nalevingsaanbod van Microso
 [Toepassingsnaleving](compliance-application-compliance.md)  
 [Certificeringen](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

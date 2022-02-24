@@ -1,21 +1,20 @@
 ---
-title: Betalingsregels en dagboekregels [BE]
-description: Business Central geeft een overzicht van betalingsregels en dagboekregels voor binnenlands, internationale, SEPA- en niet-eurobetalingen.
+title: Betalingsregels en dagboekregels samenvatten
+description: Business Central geeft een overzicht van betalingsregels en dagboekregels.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.search.form: 11308
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 9dabf8220583daeaecea9cfc3a586284332f60c0
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.topic: article
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: cb58cbfe934b1df96412565e2be2e65b7e5b38b2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973087"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180844"
 ---
-# <a name="summarizing-payment-lines-and-general-journal-lines-in-the-belgian-version"></a>Betalingsregels en dagboekregels in de Belgische versie
-
+# <a name="summarizing-payment-lines-and-general-journal-lines"></a>Betalingsregels en dagboekregels samenvatten
 Business Central geeft een overzicht van betalingsregels en dagboekregels van de volgende typen betalingen:  
 
 - Binnenlandse betalingen  
@@ -23,39 +22,35 @@ Business Central geeft een overzicht van betalingsregels en dagboekregels van de
 - SEPA-betalingen  
 - Niet-euro SEPA-betalingen  
 
-## <a name="how-payment-journal-lines-are-transferred-to-the-general-journal"></a>Hoe betalingsdagboekregels naar het grootboek worden overgebracht
-
-Wanneer u de betalingsdagboekregels naar een bestand exporteert, brengt [!INCLUDE[prod_short](../../includes/prod_short.md)] de betalingsdagboekregels naar het opgegeven dagboek over. Standaard wordt een dagboekregel gemaakt voor elke betalingsdagboekregel.  
+## <a name="how-payment-journal-lines-are-transferred-to-the-general-journal"></a>Hoe betalingsdagboekregels naar het grootboek worden overgebracht  
+Wanneer u de betalingsdagboekregels naar een bestand exporteert, brengt [!INCLUDE[d365fin](../../includes/d365fin_md.md)] de betalingsdagboekregels naar het opgegeven dagboek over. Standaard wordt een dagboekregel gemaakt voor elke betalingsdagboekregel.  
 
 De volgende twee velden op de pagina **Elektronisch bankieren instellen** bepalen hoe de betalingsregels worden samengevat:  
 
 - **Alg. dagb.regels samenvatten**  
 - **Tekst van betaalberichten afbreken**  
 
-Als u het selectievakje **Alg. dagb.regels samenvatten** op de pagina **Elektronisch bankieren instellen** hebt geselecteerd, vat [!INCLUDE[prod_short](../../includes/prod_short.md)] alle betalingsdagboekregels voor een bepaalde leverancier in één dagboekregel samen. De algemene beschrijving "Betaling %1", waarbij %1 het nummer van de leverancier is, wordt gebruikt voor de beknopte journaalregelbeschrijving. Er worden een afzonderlijke betalingsregel en een aparte dagboekregel gemaakt om het volgende af te handelen:  
+Als u het selectievakje **Alg. dagb.regels samenvatten** op de pagina **Elektronisch bankieren instellen** hebt geselecteerd, vat [!INCLUDE[d365fin](../../includes/d365fin_md.md)] alle betalingsdagboekregels voor een bepaalde leverancier in één dagboekregel samen. De algemene beschrijving "Betaling %1", waarbij %1 het nummer van de leverancier is, wordt gebruikt voor de beknopte journaalregelbeschrijving. Er worden een afzonderlijke betalingsregel en een aparte dagboekregel gemaakt om het volgende af te handelen:  
 
 - Betalingsdagboekregels die gedeeltelijke betalingen bevatten, met zowel het veld **Gedeeltelijke betaling** als het veld **Afzonderlijke regel** ingeschakeld.  
 
 - Betalingsdagboekregels die een bericht met een standaardindeling bevatten (slagen voor de MOD97-test), waarmee **Bericht met standaardindeling** op Waar wordt ingesteld in het dagboek voor elektronisch bankieren.
 
-## <a name="example-1"></a>Voorbeeld 1
-
-In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. [!INCLUDE[prod_short](../../includes/prod_short.md)] maakt:  
+## <a name="example-1"></a>Voorbeeld 1  
+In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] maakt:  
 
 - Een gecombineerde betalingsregel in een XML-bestand met een samengevoegd betalingsbericht. Spaties zijn het scheidingsteken.  
 - Eén betalingsregel in het grootboek met een algemene beschrijving die de leveranciersnaam bevat.  
 
-## <a name="example-2"></a>Voorbeeld 2
-
-In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. Het selectievakje **Tekst van betaalberichten afbreken** wordt gewist en de gecombineerde SEPA- en niet-auto SEPA-betalingsregels overschrijden 140 tekens in het betalingsbericht. [!INCLUDE[prod_short](../../includes/prod_short.md)] maakt:  
+## <a name="example-2"></a>Voorbeeld 2  
+In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. Het selectievakje **Tekst van betaalberichten afbreken** wordt gewist en de gecombineerde SEPA- en niet-auto SEPA-betalingsregels overschrijden 140 tekens in het betalingsbericht. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] maakt:  
 
 - Twee gecombineerde betalingsregels in een XML-bestand. De eerste betalingsregel bevat de eerste samengevoegde betalingsberichten. De tweede betalingsregel bevat het betalingsbericht vanaf de derde regel.  
 
 - Eén betalingsregel in het grootboek met een algemene beschrijving die de leveranciersnaam bevat.  
 
-## <a name="example-3"></a>Voorbeeld 3
-
-In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. Het selectievakje **Tekst van betaalberichten afbreken** wordt ook ingeschakeld en de gecombineerde SEPA- en niet-SEPA betalingsregels overschrijden 140 tekens in het betalingsbericht. [!INCLUDE[prod_short](../../includes/prod_short.md)] maakt:  
+## <a name="example-3"></a>Voorbeeld 3  
+In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. Het selectievakje **Tekst van betaalberichten afbreken** wordt ook ingeschakeld en de gecombineerde SEPA- en niet-SEPA betalingsregels overschrijden 140 tekens in het betalingsbericht. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] maakt:  
 
 - Eén gecombineerde betalingsregel in een XML-bestand met twee samengevoegde betalingsberichten. Een beletselteken (…) wordt gebruikt om aan te geven dat het bericht afgekapt is.  
 
@@ -65,11 +60,7 @@ Op basis van de XML-structuur worden betalingen samengevat per rekeningnummer, b
 
 De EndToEndId in het SEPA-bericht wordt gehaald uit het betalingsbericht en kan worden afgekapt tot de maximumlengte van 45 tekens.  
 
-## <a name="see-also"></a>Zie ook
-
+## <a name="see-also"></a>Zie ook  
  [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)   
  [Financiën instellen](../../finance-setup-finance.md)  
  [Inkopen vastleggen](../../purchasing-how-record-purchases.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

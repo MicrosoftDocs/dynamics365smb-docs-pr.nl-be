@@ -1,42 +1,37 @@
 ---
-title: De functie Verschil overboeken naar account gebruiken om betalingen te reconciliëren
+title: De functie Verschil overboeken naar account gebruiken om betalingen te reconciliëren | Microsoft Docs
 description: Beschrijft hoe u betalingen verwerkt die niet met een document kunnen worden vereffend, bijvoorbeeld wanneer een wisselkoers ertoe leidt dat bedragen verschillen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 2964f1fb9a0944d87adf77e9c2127a2fde5b13dd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 95209af5fad9d673ca74a785e821ec1324636edf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445463"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192011"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Betalingen reconciliëren die niet automatisch kunnen worden vereffend
-U moet soms betalingen op uw bankrekening verwerken die niet kunnen worden vereffend met een gerelateerde openstaande klant-, leveranciers- of bankrekeningpost. Redenen kunnen zijn dat er geen document bestaat in [!INCLUDE[prod_short](includes/prod_short.md)] waarmee de betaling kan worden vereffend of dat het gerelateerde document in [!INCLUDE[prod_short](includes/prod_short.md)] een ander bedrag dan het transactiebedrag heeft, bijvoorbeeld vanwege de valutawisselkoers. Op de pagina **Dagboek betalingsreconciliatie** worden alle transactiebedragen voor betalingen die nog niet zijn vereffend, weergegeven in het veld **Verschil**, inclusief bedragen die niet kunnen worden vereffend om redenen zoals de bovengenoemde.
-
-De methoden om dit soort niet-vereffende betalingen op te lossen:
-* Handmatig vereffenen
-* Toewijzing van tekst aan rekening gebruiken
-* Een te hoog bedrag overmaken naar een journaalregel om de vereiste boeking te creëren en te boeken, zoals een terugbetaling van een te veel betaald bedrag.
+U moet soms betalingen op uw bankrekening verwerken die niet kunnen worden vereffend met een gerelateerde openstaande klant-, leveranciers- of bankrekeningpost. Redenen kunnen zijn dat er geen document bestaat in [!INCLUDE[d365fin](includes/d365fin_md.md)] waarmee de betaling kan worden vereffend of dat het gerelateerde document in [!INCLUDE[d365fin](includes/d365fin_md.md)] een ander bedrag dan het transactiebedrag heeft, bijvoorbeeld vanwege de valutawisselkoers. Op de pagina **Dagboek betalingsreconciliatie** worden alle transactiebedragen voor betalingen die nog niet zijn vereffend, weergegeven in het veld **Verschil**, inclusief bedragen die niet kunnen worden vereffend om redenen zoals de bovengenoemde.
 
 Betalingen die niet kunnen worden vereffend, kunnen op de volgende verschillende manieren op de dagboekregels van de betalingsreconciliatie worden weergegeven:
 
 * De waarde in het veld **Verschil** is gelijk aan de waarde in het veld **Transactiebedrag**, waarmee wordt aangegeven dat er geen gedeelte van de betaling kan worden vereffend met een gerelateerde openstaande klant-, leveranciers- of bankrekeningpost.
 * De waarde in het veld **Verschil** is lager dan de waarde in het veld **Transactiebedrag**, waarmee wordt aangegeven dat een gedeelte van de betaling kan worden vereffend met een gerelateerde openstaande klant-, leveranciers- of bankrekeningpost. Het resterende deel van de betaling kan niet worden vereffend en moet handmatig worden gereconcilieerd of moet rechtstreeks naar een rekening worden geboekt.
 
-Als u dergelijke betalingen wilt reconciliëren, kunt u de actie **Verschil overboeken naar rekening** kiezen en vervolgens opgeven naar welke rekening het bedrag in het veld **Verschil** wordt geboekt wanneer u het dagboek van de betalingsreconciliatie boekt. U kunt dit doen via de pagina **Betalingsreconciliatiedagboek** of vanaf de pagina **Controle van betalingsvereffening**, die u opent door de waarde in het veld **Zekerheid afstemming** te kiezen of door het veld **Verschil** te kiezen.
+Als u dergelijke betalingen wilt reconciliëren, kunt u de knop **Verschil overboeken naar rekening** kiezen en vervolgens opgeven naar welke rekening het bedrag in het veld **Verschil** wordt geboekt wanneer u het dagboek van de betalingsreconciliatie boekt.
 
 > [!TIP]  
 >   Er bestaat een vergelijkbare functionaliteit om automatische reconciliatie van terugkerende betalingen in te stellen die niet kunnen worden vereffend met gerelateerde openstaande klant-, leveranciers- of bankrekeningposten. Zie [Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) voor meer informatie.
 
 ## <a name="to-reconcile-payments-that-cannot-be-applied-automatically"></a>Betalingen reconciliëren die niet automatisch kunnen worden vereffend
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsreconciliatiedagboeken** in en kies de gerelateerde koppeling.
 2. Open een betalingreconciliatiedagboek. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 3. Kies **Verschil overboeken naar rekening**. De pagina **Verschil overboeken naar rekening** wordt geopend.
 4. Geef in het veld **Rekeningsoort** het soort rekening op waarnaar het betalingsbedrag wordt geboekt.
@@ -51,7 +46,4 @@ Als de waarde in het veld **Verschil** lager is dan de waarde in het **Transacti
 ## <a name="see-also"></a>Zie ook
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

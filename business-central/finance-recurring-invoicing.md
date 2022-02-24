@@ -1,28 +1,27 @@
 ---
-title: Werken met periodieke inkomsten
+title: Werken met periodieke inkomsten | Microsoft Docs
 description: Meer informatie over de beschikbare opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert.
 author: AndreiPanko
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
-ms.search.form: 283
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 05/27/2020
 ms.author: andreipa
-ms.openlocfilehash: 696ab59530c81cd19709f4e1bde3324bcaebbf5a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971001"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410799"
 ---
-# <a name="work-with-recurring-revenue-in-prod_short"></a>Werken met periodieke inkomsten in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-d365fin"></a>Werken met periodieke inkomsten in [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Veel bedrijven gaan over van een bedrijfsinkomstenmodel waarbij inkomsten worden gegenereerd uit de eenmalige aankoop van een klant naar een abonnementsmodel waarbij inkomsten worden verdiend op een periodieke basis, in ruil voor consistente toegang tot de levering van een goed of dienst.
-[!INCLUDE[prod_short](includes/prod_short.md)] heeft de volgende opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] heeft de volgende opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Inkomsten registreren met een periodiek dagboek
 
@@ -32,7 +31,7 @@ Een periodiek dagboek is een dagboek met specifieke velden voor het beheer van t
 
 Met deze optie definieert u flexibele factureringsperioden met [datumformules](ui-enter-date-ranges.md#using-date-formulas).
 
-Met deze optie kunt u echter geen facturen afdrukken en verzenden in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)].  
+Met deze optie kunt u echter geen facturen afdrukken en verzenden in de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Zie [Werken met periodieke dagboeken](ui-work-general-journals.md#working-with-recurring-journals) voor meer informatie.  
 
@@ -58,7 +57,7 @@ Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u p
 
 Met deze optie kunt u dezelfde terugkerende regels aan meerdere klanten toewijzen. U kunt een geldigheidsperiode definiëren voor de periodieke verkoopregels voor een specifieke klant. U kunt meerdere periodieke regels aan dezelfde klant toewijzen en ze worden allemaal op de factuur vermeld.
 
-Er is echter geen manier om vaste prijzen voor artikelen in te stellen, omdat [!INCLUDE[prod_short](includes/prod_short.md)] de werkelijke prijzen en kortingen zal gebruiken die geldig zijn op documentdatum, in een poging de beste combinatie te vinden die de laagste prijs oplevert.  
+Er is echter geen manier om vaste prijzen voor artikelen in te stellen, omdat [!INCLUDE[d365fin](includes/d365fin_md.md)] de werkelijke prijzen en kortingen zal gebruiken die geldig zijn op documentdatum, in een poging de beste combinatie te vinden die de laagste prijs oplevert.  
 
 Zie voor meer informatie [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md).
 
@@ -78,7 +77,7 @@ Voor deze optie is echter de Premium-licentie vereist. Servicebeheer instellen e
 Zie voor meer informatie [Werken met servicecontracten en offertes voor servicecontracten](service-how-to-create-service-contracts-and-service-contract-quotes.md) en [Meerdere servicecontracten factureren](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Gerelateerde functies
-Er zijn verschillende gerelateerde mogelijkheden in [!INCLUDE[prod_short](includes/prod_short.md)].
+Er zijn verschillende gerelateerde mogelijkheden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ### <a name="blanket-sales-orders"></a>Verkoopraamcontracten
 
@@ -104,11 +103,11 @@ Met deze optie kunt u kiezen tussen vaste en "beste" prijzen.
 
 Deze optie is echter alleen beschikbaar in Noorwegen. De geldigheidsperiode kan worden gedefinieerd op het periodieke groepsniveau.
 
-Zie [Periodieke orders](LocalFunctionality/Norway/recurring-orders.md) voor meer informatie.
+Zie [Periodieke orders (Noorwegen)](/localfunctionality/norway/recurring-orders.md) voor meer informatie.
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Periodieke inkomsten en abonnementsfacturering door andere providers
 
-Op [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies krijgen voor Business Central. Sommige extensies worden verstrekt door Microsoft en andere extensies worden verstrekt door andere bedrijven. Het overzicht van de extensies door andere bedrijven groeit elke maand. Houd [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) dus in de gaten en krijg apps om u te helpen met uw werk in Business Central.  
+Op [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies krijgen voor Business Central. Sommige extensies worden verstrekt door Microsoft en andere extensies worden verstrekt door andere bedrijven. Het overzicht van de extensies door andere bedrijven groeit elke maand. Houd [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) dus in de gaten en krijg apps om u te helpen met uw werk in Business Central.  
 
 ## <a name="see-also"></a>Zie ook
 
@@ -121,7 +120,4 @@ Op [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies 
 [Meerdere servicecontracten factureren](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Vraagprognoses en raamcontracten](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Werken met verkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)  
-[Periodieke orders (Noorwegen)](LocalFunctionality/Norway/recurring-orders.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Periodieke orders (Noorwegen)](/localfunctionality/norway/recurring-orders.md)  

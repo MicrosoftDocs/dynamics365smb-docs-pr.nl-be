@@ -3,19 +3,19 @@ title: Picken volgens FEFO inschakelen | Microsoft Docs
 description: Eerste-verlopen-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 3a47c9daeeab036055a0644e1b389735f7440106
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 466736905815efb0b013a66fd05854769da24be5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784079"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324018"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Artikelen picken volgens FEFO inschakelen
 First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.  
@@ -25,7 +25,9 @@ First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de 
 -   Het artikel moet een serie-/partijnummer hebben.  
 -   Op de tracking-code van het artikel moet het veld **Magazijnserienr.-tracering** of **Magazijnlottracering** worden geselecteerd.  
 -   Het artikel moet met een verloopdatum naar de voorraad worden geboekt.  
--   Op de locatie moeten de schakelaars **Pick vereist**, **Picken volgens FEFO** en **Opslaglocatie verplicht** zijn ingeschakeld.  
+-   Op de vestigingskaart moet het selectievakje **Picken vereisen** zijn ingeschakeld.  
+-   Op de vestigingskaart moet het selectievakje **Picken volgens FEFO** zijn ingeschakeld.  
+-   Op de vestigingskaart moet het selectievakje **Opslaglocatie verplicht** zijn ingeschakeld.  
 
  Wanneer aan alle criteria wordt voldaan, worden artikelen met serie- of partijnummers die moeten worden gepickt, gesorteerd met de oudste eerst bij alle picks en verplaatsingen, behalve artikelen waarvoor specifieke tracering van Serienr. of partijnummer plaatsvindt.  
 
@@ -34,11 +36,11 @@ First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de 
 <br /><br />
 Als twee artikelen met serie- of lotnummer dezelfde vervaldatum hebben, wordt het artikel met het laagste lot- of serienummer geselecteerd.
 <br /><br />
-Tijdens het picken van artikelen met een serie- of lotnummer op locaties die zijn ingesteld op gestuurde opslag en pick, worden alleen aantallen in locaties van het type *Pick* gepickt volgens FEFO.  
+Tijdens het picken van artikelen met een serie-/lotnummer op locaties die zijn ingesteld op gestuurde opslag en pick, worden alleen aantallen in locaties van het type *Pick* gepicked volgens FEFO.  
 <br /><br />
-Als u verplaatsingen volgens FEFO mogelijk wilt maken, laat u het veld **Van opslaglocatie** leeg op de pagina **Voorraadverplaatsing** of **Verplaatsingsvoorstel**.  
+U kunt verplaatsingen volgens FEFO mogelijk maken, hetzij op de pagina **Voorraadverplaatsing** of **Verplaatsingsvoorstel**, door het veld **Uit opslaglocatie** leeg te maken.  
 <br /><br />
-Als het veld **Strikte verloopdatumboeking** is geselecteerd op de kaart met de **Artikeltraceringscode**, worden alleen artikelen die niet zijn verlopen, in de pick opgenomen en worden de regels gesorteerd volgens het FEFO-principe.
+Als het veld **Strikte vervaldatumboeking** is ingeschakeld, worden alleen artikelen die niet zijn verlopen, opgenomen in de pick. Dit geldt ook als u niet picken volgens FEFO gebruikt.
 
 ## <a name="see-also"></a>Zie ook  
 [artikelen picken](warehouse-pick-items.md)   
@@ -46,7 +48,4 @@ Als het veld **Strikte verloopdatumboeking** is geselecteerd op de kaart met de 
 [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

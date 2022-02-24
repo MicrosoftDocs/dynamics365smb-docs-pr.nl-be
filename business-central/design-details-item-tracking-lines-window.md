@@ -1,21 +1,21 @@
 ---
-title: 'Ontwerpdetails: Pagina Artikeltraceringsregels'
-description: Lees hoe u de stroom van serie- en lotnummers in uw voorraad beheert met de pagina Artikeltraceringsregels.
+title: 'Ontwerpdetails: Pagina Artikeltraceringsregels | Microsoft Docs'
+description: Lees hoe u de stroom van serie- en lotnummers in uw voorraad beheert.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 50888b8d00696645841f37aa24b5cb3bc031fed2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 77d53f959d778b3355ad563fede1dfe106ad1ec8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320326"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184976"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Ontwerpdetails: Pagina Artikeltraceringsregels
 Artikeltraceringsrecords en reserveringsrecords worden gemaakt in het reserveringsysteem en hun beschikbaarheid wordt dynamisch berekend. Gegevens die op de pagina **Artikeltraceringsregels** worden ingevoerd, worden beheerd in een tijdelijke versie van de tabel **Traceringsspecificatie**. Wanneer de pagina is gesloten, worden de actieve gegevens vastgelegd in de tabel **Reserveringspost** en worden de historische gegevens vastgelegd in de tabel **Traceringsspecificatie**. Zie voor meer informatie [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md).  
@@ -32,5 +32,3 @@ De regels voor het invoeren van gegevens op de pagina **Artikeltraceringsregels*
   
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

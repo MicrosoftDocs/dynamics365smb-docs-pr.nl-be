@@ -1,28 +1,28 @@
 ---
-title: Relatiebeheer
-description: De functies van het relatiebeheer ondersteunen uw verkoopinspanningen en u kunt gegevens over contacten en prospects openen om klanten efficiënter te kunnen bedienen.
+title: Relatiebeheer | Microsoft Docs
+description: De functies van het relatiebeheer in Business Central ondersteunen uw verkoopinspanningen en u kunt gegevens over contacten en prospects openen zodat u klanten efficiënter kunt bedienen.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.search.forms: 9076, 9026
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 09b9ecdc1d8f0b2a36193a6f931b2ac3fc03f4d4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3e1dac4724209cc9020bf3d7f67a2d870f9b2b73
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059970"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181339"
 ---
 # <a name="managing-relationships"></a>Relaties beheren
-De relatiebeheerfuncties van [!INCLUDE[prod_short](includes/prod_short.md)] helpen u bij het beheer en de ondersteuning van uw verkoopactiviteiten. Met deze functies hebt u toegang tot volledige en nauwkeurige informatie, zodat u zich kunt richten op uw interacties met de klant/contact-segmenten van uw voorkeur.
+De relatiebeheerfuncties van [!INCLUDE[d365fin](includes/d365fin_md.md)] helpen u bij het beheer en de ondersteuning van uw verkoopactiviteiten. Met deze functies hebt u toegang tot volledige en nauwkeurige informatie, zodat u zich kunt richten op uw interacties met de klant/contact-segmenten van uw voorkeur.
 
-Goede verkoop- en marketingmethoden zijn gebaseerd op de juiste beslissingen op het juiste tijdstip. [!INCLUDE[prod_short](includes/prod_short.md)] biedt nauwkeurige en tijdige overzichten van uw contactgegevens, zodat u uw potentiële klanten efficiënter kunt bedienen en de klanttevredenheid kunt verhogen.
+Goede verkoop- en marketingmethoden zijn gebaseerd op de juiste beslissingen op het juiste tijdstip. [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt nauwkeurige en tijdige overzichten van uw contactgegevens, zodat u uw potentiële klanten efficiënter kunt bedienen en de klanttevredenheid kunt verhogen.
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
 
@@ -35,6 +35,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Verwerk inkomende potentiële klanten door opportunity's te maken en aan verkopers te koppelen, zodat u potentiële verkopen kunt bijhouden.|[Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)|
 |Maak marketingplannen om klanten te identificeren, aan te trekken en vast te houden.|[Marketingcampagnes beheren](marketing-campaigns.md)|
 |Gebruik Dynamics 365 Sales voor contacten met klanten en profiteer van naadloze integratie in het lead-naar-cash proces door Business Central te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.|[Integreren met Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

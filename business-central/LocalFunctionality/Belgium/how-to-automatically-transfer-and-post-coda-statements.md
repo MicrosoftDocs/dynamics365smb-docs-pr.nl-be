@@ -1,24 +1,25 @@
 ---
-title: CODA-afschriften automatisch overbrengen en boeken [BE]
+title: CODA-afschriften automatisch overbrengen en boeken
 description: Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels overbrengen naar een financieel dagboek.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 2000040
-ms.date: 06/17/2021
-ms.author: edupont
-ms.openlocfilehash: 05d8c1c08a229b4ddf75ef7d5823462b334397ab
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 66c074d5aa66db28a67016b90e98096576a67b45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971541"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180910"
 ---
-# <a name="automatically-transfer-and-post-coda-statements-in-the-belgian-version"></a>CODA-afschriften automatisch overbrengen en boeken in de Belgische versie
-
+# <a name="automatically-transfer-and-post-coda-statements"></a>CODA-afschriften automatisch overbrengen en boeken
 Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels overbrengen naar een financieel dagboek.  
 
 Na het overbrengen van de afschriftregels kunt u de regels boeken in een corresponderend dagboek. Als een dergelijk dagboek niet bestaat, kunt u de regels niet overbrengen. U kunt een dagboek maken om CODA-afschriften te verwerken. Zie voor meer informatie [Financiële dagboeken maken](how-to-create-financial-journals.md).  
@@ -27,7 +28,7 @@ U kunt CODA-afschriften ook handmatig overbrengen en boeken. Zie voor meer infor
 
 ## <a name="to-automatically-transfer-statement-lines"></a>Afschriftregels automatisch overbrengen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Bankrekeningen** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer de bankrekening en kies de actie **CODA-afschriften**.  
 3.  Selecteer het CODA-afschrift en kies vervolgens de actie **Bewerken**.  
 4.  Kies de actie **Naar dagboek overbrengen**.  
@@ -43,6 +44,3 @@ Als de afschriftregels naar het dagboek zijn overgebracht, kunt u de afschriftre
  [CODA-afschriften vereffenen](how-to-apply-coda-statements.md)   
  [Financiële dagboeken maken](how-to-create-financial-journals.md)   
  [CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Gegevens invoeren in Business Central
-description: Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker en accurater in te voeren. De basisprincipes en geavanceerde functies worden hier beschreven.
-author: jswymer
+title: Gegevens invoeren in Business Central | Microsoft Docs
+description: Leer over algemene functies die u helpen gegevens in velden in te voeren.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: decimal separator, data entry, focus
-ms.date: 10/01/2021
-ms.author: jswymer
-ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.search.keywords: ''
+ms.date: 04/03/2020
+ms.author: sgroespe
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588969"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262154"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
@@ -24,7 +24,7 @@ Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker 
 In de voorbeelden in dit artikel worden de demonstratiegegevens gebruikt.
 
 ## <a name="working-with-editable-fields"></a>Werken met bewerkbare gegevens
-Velden in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen verschillende bewerkbare gegevens bevatten, zoals tekst of valutabedragen. Bewerkbare velden geven doorgaans een invoervak weer waarin u kunt typen of een waarde kunt kiezen. Niet-bewerkbare velden worden doorgaans weergegeven met een grijze achtergrond.   
+Velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen verschillende bewerkbare gegevens bevatten, zoals tekst of valutabedragen. Bewerkbare velden geven doorgaans een invoervak weer waarin u kunt typen of een waarde kunt kiezen. Niet-bewerkbare velden worden doorgaans weergegeven met een grijze achtergrond.   
 
 Sommige bewerkbare velden bevatten een kiezer waarmee u een waarde kunt specificeren.  
 
@@ -36,6 +36,7 @@ Sommige bewerkbare velden bevatten een kiezer waarmee u een waarde kunt specific
 |Schakelaar of selectievakje|Sommige velden bieden een eenvoudige keuze uit *Ja*- of *Nee*-waarden. De schakelaar wordt gebruikt om deze waarde op te geven en wordt altijd weergegeven als een selectievakje in lijsten|
 |AssistEdit       |Sommige velden bieden aangepaste kiezers die geschikt zijn om de beste waarde op te zoeken en voor dat veld te kiezen, zoals een pop-upvenster|
 
+
 ### <a name="modifying-a-field-value"></a>Een veldwaarde wijzigen
 
 Om de waarde van een veld te wijzigen, moet u eerst de focus op dat veld instellen. U stelt de focus in door de volgende acties uit te voeren:
@@ -43,7 +44,7 @@ Om de waarde van een veld te wijzigen, moet u eerst de focus op dat veld instell
 - Gebruik de **Tab**-toets. De actie selecteert de volledige waarde.
 - Klik met de linkerknop van de muis of vergelijkbaar invoerapparaat. Deze actie selecteert alleen de volledige veldwaarde als het veld in een lijst staat.  
 
-Wanneer u interactie hebt met velden in de gebruikersinterface, selecteert [!INCLUDE[prod_short](includes/prod_short.md)] meestal de volledige veldwaarde, zodat u die gemakkelijker kunt vervangen.
+Wanneer u interactie hebt met velden in de gebruikersinterface, selecteert [!INCLUDE[d365fin](includes/d365fin_md.md)] meestal de volledige veldwaarde, zodat u die gemakkelijker kunt vervangen.
 
 Wanneer de volledige veldwaarde is geselecteerd:
 - Vervang de waarde door gewoon te typen om een nieuwe waarde op te geven. Als het veld een kiezer biedt, kunt u deze activeren met de sneltoets **Alt+Pijl-omlaag**.
@@ -57,6 +58,7 @@ Als de cursor wordt weergegeven aan het einde van de veldwaarde:
 
 > [!NOTE]
 > Nadat u een waarde hebt opgegeven, controleert Business Central pas of deze geldig is nadat u buiten het veld hebt geklikt of de focus hebt ingesteld op een ander element, zoals het volgende veld.  
+
 
 ## <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -83,7 +85,7 @@ De volgende lijst bevat wat nuttige informatie over het gebruik van snelinvoer.
 - Het is beschikbaar voor bewerkbare velden.
 - Het werkt ook over kolommen en rijen.
 - Het voorkomt geen toegang tot andere elementen van een pagina, zoals acties. Deze elementen zijn nog toegankelijk met behulp van Tab en Shift+Tab.  
-- Het is niet vereist dat sneltabbladen worden uitgevouwen om snelle invoer te laten werken. Als het volgende snelinvoerveld zich in een samengevouwen sneltabblad bevindt, wordt dat sneltabblad automatisch uitgevouwen en gaat de focus naar het gekozen veld. [!INCLUDE[prod_short](includes/prod_short.md)] onthoudt dat het sneltabblad de volgende keer dat u de pagina bezoekt, moet worden uitgevouwen.  
+- Het is niet vereist dat sneltabbladen worden uitgevouwen om snelle invoer te laten werken. Als het volgende snelinvoerveld zich in een samengevouwen sneltabblad bevindt, wordt dat sneltabblad automatisch uitgevouwen en gaat de focus naar het gekozen veld. [!INCLUDE[d365fin](includes/d365fin_md.md)] onthoudt dat het sneltabblad de volgende keer dat u de pagina bezoekt, moet worden uitgevouwen.  
 - Snelinvoer werkt ongeacht of velden verplicht zijn. Het is dus een goed idee te zorgen dat verplichte velden zijn opgenomen in snelinvoer.
 - Standaard worden de meeste velden automatisch opgenomen in snelinvoer. In eerste instantie moet u dus waarschijnlijk velden uitsluiten van snelinvoer.
 
@@ -118,7 +120,7 @@ U kunt een of meer rijen uit een lijst of een enkel veld op een pagina kopiëren
 
 Als u in een lijst het veld in dezelfde kolom van de bovenliggende rij wilt selecteren en het in de huidige rij wilt plakken, drukt u op F8.
 
-Zie voor meer informatie [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml).
+Zie voor meer informatie [Veelgestelde vragen over kopiëren en plakken](ui-copy-paste.md).
 
 ## <a name="filtering-line-items"></a>Regelitems filteren
 
@@ -134,9 +136,9 @@ U profiteert er vooral van wanneer u met grote lijsten met regelitems werkt en u
 
 ### <a name="switching-the-focus-on-and-off"></a>De focus aan- en uitzetten
 
-Als u zich wilt concentreren op regelartikelen, selecteert u ergens in het regelartikelgedeelte en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") In de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
+Als u op regelartikelen wilt focussen, selecteert u iets in het onderdeel met regelitems en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") in de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
 
-Om terug te gaan naar de normale weergave, kiest u het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") of drukt u nogmaals op Ctrl+Shift+F12.
+Als u terug wilt naar de gewone weergave, kiest u opnieuw het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") of drukt opnieuw op Ctrl+Shift+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking over meerdere pagina's
 
@@ -146,21 +148,21 @@ U kunt een kaart- of documentpagina openen in een nieuw venster. Door een nieuw 
 - Onderbrekingen van de huidige taak beheren, zoals het aannemen van een inkomend gesprek.
 - Een venster open houden voor een lopende taak terwijl u een andere taak in Windows start of voltooit.
 
-Om de huidige kaart of het huidige document in een nieuw venster te openen, kiest u ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") In de rechterbovenhoek of drukt u op Alt+Shift+W.
+Kies om de huidige kaart of het huidige document in een nieuw venster te openen ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") in de rechterbovenhoek of druk op Alt + Shift+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Om de huidige kaart of het huidige document in een nieuw venster te openen, kiest u ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") In de rechterbovenhoek of drukt u op Alt+Shift+W.
+Kies om de huidige kaart of het huidige document in een nieuw venster te openen ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") in de rechterbovenhoek of druk op Alt + Shift+W.
 
 > [!NOTE]
 > Wanneer u andere pagina's opent vanaf een kaart of document dat in een nieuw venster is geopend, worden die pagina's in een nieuw venster geopend, ook al kiest u niet ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen").
 
 > [!NOTE]
 > Als u in de Safari-browser werkt, kan een pop-upblokkering ervoor zorgen dat het nieuwe venster niet wordt geopend. Als dit het geval is, geeft u de product-URL op als een toegestane website. Zie voor informatie [Voorkeuren wijzigen in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
-> Hetzelfde kan gebeuren in andere browsers, zoals Firefox. Zie [Instellingen voor pop-upblokkering in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) voor meer informatie.  
+> Hetzelfde kan gebeuren in andere browsers, zoals Firefox. Zie voor meer informatie [Instellingen voor pop-upblokkering in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Een andere manier om te multitasken is om [!INCLUDE[prod_short](includes/prod_short.md)] te openen op twee of meer browsertabbladen. Wanneer u dit zo doet, moet u een nieuw tabblad maken en vervolgens de URL van het oorspronkelijke tabblad kopiëren en in het nieuwe tabblad plakken. Dit creëert een nieuwe sessie.   
+Een andere manier om te multitasken is om [!INCLUDE[d365fin](includes/d365fin_md.md)] te openen op twee of meer browsertabbladen. Wanneer u dit zo doet, moet u een nieuw tabblad maken en vervolgens de URL van het oorspronkelijke tabblad kopiëren en in het nieuwe tabblad plakken. Dit creëert een nieuwe sessie.   
 
 > [!NOTE]
 > Gebruik niet de functie **Dupliceren** van de browser om het nieuwe tabblad te maken, omdat hierdoor acties op één tabblad acties op andere tabbladen kunnen blokkeren omdat ze deel uitmaken van dezelfde sessie.
@@ -240,9 +242,34 @@ In de volgende tabel wordt aangegeven op welke manieren u tijden kunt invoeren e
 
  Als u geen scheidingsteken invoert, voert u twee cijfers in voor elke tijdseenheid.  
 
-## <a name="entering-combined-datetimes"></a>Gecombineerde datums en tijden invoeren
+## <a name="entering-datetimes"></a>Datum/tijd invoeren
 
-[!INCLUDE [datetimes](includes/datetimes.md)]
+Wanneer u datum/tijd invoert, moet u een spatie plaatsen tussen de datum en de tijd.  
+
+In de volgende tabel wordt aangegeven op welke manier u de datum/tijd kunt invoeren en hoe de verschillende manieren worden geïnterpreteerd.  
+
+|Post|Interpretatie|  
+|---------------|------------------------|  
+|`131202` 132455|13.12.02 13:24:55|  
+|1-12-02 10|01.12.02 10:00:00|  
+|1.12.02 5|01.12.02 05:00:00|  
+|1.12.02|01.12.02 00:00:00|  
+|11 12|11.huidige maand.huidig jaar 12:00:00|  
+|1112 12|11.12.huidig jaar 12:00:00|  
+|h of huidige datum|huidige datum 00:00:00|  
+|h tijd|huidige datum werkelijke tijd|  
+|h 10:30|huidige datum 10:30:00|  
+|h 3:3:3|huidige datum 03:03:03|  
+|w of werkdatum|de werkdatum 00:00:00|  
+|ma of maandag|Maandag van de huidige week 00:00:00|  
+|di of dinsdag|Dinsdag van de huidige week 00:00:00|  
+|wo of woensdag|Woensdag van de huidige week 00:00:00|  
+|do of donderdag|Donderdag van de huidige week 00:00:00|  
+|vr of vrijdag|Vrijdag van de huidige week 00:00:00|  
+|za of zaterdag|Zaterdag van de huidige week 00:00:00|  
+|zo of zondag|Zondag van de huidige week 00:00:00|  
+|di 10:30|Dinsdag van de huidige week 10:30:00|  
+|di 3:3:3|Dinsdag van de huidige week 03:03:03|  
 
 ## <a name="entering-duration"></a>Duur invoeren
 
@@ -265,16 +292,6 @@ Hier volgen enkele voorbeelden.
 
  Het getal 5 wordt omgezet in 5 uur, als de eenheid uit uren bestaat.  
 
-## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden
-
-Wanneer u de decimaaltekentoets van het numerieke toetsenbord gebruikt om gegevens in te voeren, wordt het daadwerkelijke decimaalteken dat in het veld wordt ingevoerd, bepaald door de regio-instelling van uw Business Central. U stelt de regio in Business Central in op de pagina **Mijn instellingen**.
-
-Stel dat u een numeriek toetsenbord gebruikt dat een punt (.) als decimaalscheidingsteken gebruikt. Maar u voert gegevens in voor een regionale taal die een komma gebruikt (**,**) voor het decimaalteken, zoals Deens (Denemarken) of Frans (Frankrijk). U wilt dus dat decimalen zoals "1.23" worden ingevoerd als "1,23". In dit geval kunt u naar de pagina **Mijn instellingen** gaan en de **Regio** instellen op de regionale doeltaal, zoals **Deens (Denemarken)** of **Frans (Frankrijk)**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md#region).
-
-## <a name="see-also"></a>Zie ook
-
-[Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Zie ook  
+ [Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
+ [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,22 +1,23 @@
 ---
-title: Voorraad instellen
+title: Voorraad instellen| Microsoft Docs
 description: Beschrijft hoe u uw voorraad en voorraadprocessen instelt, inclusief transferroutes en locaties, zoals magazijnen.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.form: 30, 461
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 870bcf2e7980ccf5717cbb93ada44087afe95c4d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: SorenGP
+ms.openlocfilehash: 14d98f971bcb075a94396ed59b560e5420100413
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059476"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181784"
 ---
 # <a name="setting-up-inventory"></a>Voorraad instellen
 Voordat u magazijnactiviteiten en voorraadwaardering kunt beheren, moet u de regels en waarden configureren die het voorraadbeleid van het bedrijf definiëren.
@@ -37,17 +38,12 @@ Als u uw voorraad hebt ingesteld, kunt u verschillende voorraadprocessen met bet
 |Als aanvulling op vestigingskaarten kunt u gegevens opnemen over de artikelen in een bepaalde vestiging of een bepaalde variant.|[SKU's instellen](inventory-how-to-set-up-stockkeeping-units.md)|
 | Artikelen toewijzen aan categorieën en er kenmerken aan toewijzen om u en klanten te helpen artikelen te vinden. |[Artikelen categoriseren](inventory-how-categorize-items.md) |
 |Importeer meerdere artikelafbeeldingen in één keer uit een zip-bestand waarin de bestanden zijn genoemd naar artikelnummers.|[Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md)|
-|Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
-
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Inkopen beheren](purchasing-manage-purchasing.md)  
 [Verkopen beheren](sales-manage-sales.md)    
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

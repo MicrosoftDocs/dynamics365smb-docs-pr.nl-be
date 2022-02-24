@@ -1,55 +1,56 @@
 ---
-title: Verzekering van vaste activa instellen
+title: VA-verzekering instellen| Microsoft Docs
 description: U stelt een verzekeringskaart en algemene verzekeringsbeleidsgegevens in om verzekeringsdekking voor vaste activa te beheren.
-author: edupont04
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.search.form: 5607, 5648, 5644, 5651
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: b981504f6a223e2558df8d67b4b8bb94859909a1
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: a7dfc768ff3de49a79c77ec187a7da40817764b6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029338"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184256"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Verzekering van vaste activa instellen
 Om de verzekeringsdekking voor vaste activa te beheren, moet u eerst enkele algemene verzekeringsgegevens en een verzekeringskaart per polis instellen.
 
 ## <a name="to-set-up-general-insurance-information"></a>Algemene verzekeringsinformatie instellen
-Als u de verzekeringsfuncties wilt gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)], moet u algemene verzekeringsinformatie instellen.  
+Als u de verzekeringsfuncties wilt gebruiken in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u algemene verzekeringsinformatie instellen.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-instellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-instellingen** in en kies de gerelateerde koppeling.  
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>Verzekeringssoorten instellen
 U kunt uw verzekeringspolissen in categorieën indelen, bijvoorbeeld diefstalverzekering of brandverzekering. De verzekeringssoorten worden gebruikt op de verzekeringskaarten.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzekeringssoorten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekeringssoorten** in en kies de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
 
 ## <a name="to-set-up-insurance-cards"></a>Verzekeringskaarten instellen
 Gegevens over verzekeringspolissen kunt u invoeren op de verzekeringskaart.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekering** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekering** in en kies de gerelateerde koppeling.  
 2. Kies op de pagina **Verzekering** de actie **Nieuw** om een nieuwe verzekeringskaart te maken.  
 3. Vul de benodigde velden in.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Verzekeringsdagboeksjablonen instellen
-Er wordt in [!INCLUDE[prod_short](includes/prod_short.md)] automatisch een verzekeringsdagboeksjabloon gemaakt als u de pagina **Verzekeringsdagboek** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
+Er wordt in [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch een verzekeringsdagboeksjabloon gemaakt als u de pagina **Verzekeringsdagboek** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzekeringsdagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekeringsdagboeksjablonen** in en kies de desbetreffende koppeling.  
 2. Vul indien nodig de velden in.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>Verzekeringsdagboekbatches instellen
 Het is mogelijk om batches in te stellen in een verzekeringsdagboeksjabloon. De waarden in de dagboekbatch worden als standaardwaarden gebruikt als de velden op de dagboekregels niet zijn ingevuld. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verzekeringsdagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekeringsdagboeksjablonen** in en kies de desbetreffende koppeling.  
 2. Selecteer een verzekeringsdagboeksjabloon en kies vervolgens de actie **Batches**.
 3. Vul op de pagina **Verzekeringsdagboekbatches** indien nodig de velden in.
 
@@ -60,8 +61,5 @@ Het is mogelijk om batches in te stellen in een verzekeringsdagboeksjabloon. De 
 [Vaste activa instellen](fa-setup.md)  
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Aan de slag](product-get-started.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

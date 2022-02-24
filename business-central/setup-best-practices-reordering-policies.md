@@ -3,19 +3,19 @@ title: 'Aanbevolen procedures instellen: Bestelbeleid | Microsoft Docs'
 description: Het veld Bestelbeleid op artikelkaarten biedt vier verschillende planningmethodes die de interactie tussen de afzonderlijke planningsparameters aansturen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7a6a7193d02d8d42987da7f7eeb9f5ed1ec3e2fd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441459"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192207"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Aanbevolen procedures instellen: Bestelbeleid
 Het veld **Bestelbeleid** op artikelkaarten biedt vier verschillende planningmethodes die de interactie tussen de afzonderlijke planningsparameters aansturen.  
@@ -28,9 +28,9 @@ De aanbevolen procedure voor het selecteren van een bestelbeleid is de ABC-class
 |B|20|20|
 |L|60-70|10-30|
 
-De ABC-classificatie stelt dat inspanningen en geld bespaard kunnen worden door minder controle toe te passen op items met een lage waarde/volume-verhouding dan op items met een hoge waarde/volume-verhouding. De volgende illustratie toont welk bestelbeleid in [!INCLUDE[prod_short](includes/prod_short.md)] het geschiktst is voor respectievelijk items van het type A, B of C.
+De ABC-classificatie stelt dat inspanningen en geld bespaard kunnen worden door minder controle toe te passen op items met een lage waarde/volume-verhouding dan op items met een hoge waarde/volume-verhouding. De volgende illustratie toont welk bestelbeleid in [!INCLUDE[d365fin](includes/d365fin_md.md)] het geschiktst is voor respectievelijk items van het type A, B of C.
 
-![ABC-classificatie.](media/abc_classification.png "abc_classification")
+![ABC-classificatie](media/abc_classification.png "abc_classification")
 
 De volgende tabel bevat de aanbevolen procedures voor het selecteren van de vier beleidsterreinen.  
 
@@ -45,7 +45,4 @@ De volgende tabel bevat de aanbevolen procedures voor het selecteren van de vier
  [Aanbevolen procedures instellen: Voorraadplanning](setup-best-practices-supply-planning.md)   
  [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
  [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  
- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

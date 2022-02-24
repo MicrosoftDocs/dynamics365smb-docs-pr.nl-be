@@ -1,29 +1,30 @@
 ---
-title: Overzicht van taken om verkoopprocessen te configureren
-description: Overzicht van taken die nodig zijn om regels en waarden in te stellen die uw verkoopbeleid en -processen definiëren, inclusief algemene instellingen en financiële instellingen voor verkoop.
+title: Overzicht van taken om verkoopprocessen te configureren | Microsoft Docs
+description: Schetst taken om regels en waarden in te stellen om uw verkoopbeleid en -processen te definiëren.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 63d9357d29fbfdc3c230c69602fd370c5d73f21b
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115462"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953407"
 ---
 # <a name="setting-up-sales"></a>Verkopen instellen
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.
 
-U moet de algemene instellingen definiëren op de pagina **Verkoopinstellingen**, zoals welke verkoopdocumenten vereist zijn, hoe hun waarden worden geboekt en het type regels dat standaard moet worden gemaakt. Deze algemene instellingen worden normaal gesproken tijdens de implementatie eenmalig ingevoerd.
+Eerst moet u de algemene instellingen configureren, zoals welke verkoopdocumenten vereist zijn en hoe de waarden daarvan worden geboekt. Deze algemene instellingen worden normaal gesproken tijdens de implementatie eenmalig ingevoerd.
 
-Een aparte reeks van taken die verband houdt met het registreren van nieuwe klanten is het vastleggen van alle speciale prijzen of kortingsovereenkomsten die u voor elke klant hanteert. Zie voor meer informatie [Speciale verkoopprijzen en kortingen registreren](sales-how-record-sales-price-discount-payment-agreements.md).
+Een aparte reeks van taken die verband houdt met het registreren van nieuwe klanten is het vastleggen van alle speciale prijzen of kortingsovereenkomsten die u voor elke klant hanteert.
 
 Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en valuta's, worden behandeld in de sectie Instelling van financiën. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
 
@@ -38,13 +39,9 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 |Verifieer het btw-nummer van een klant door middel van een EU-webservice.|[Btw-nummers controleren](finance-setup-vat.md)|
 |Definieer de verschillende incoterms die u aan klanten aanbiedt of die uw leveranciers u aanbieden.|[Verzendmethoden instellen](sales-how-set-up-shipment-methods.md)|
 |Informatie invoeren over de verschillende transporteurs die u gebruikt, met een koppeling naar hun service voor het traceren van pakketten.|[Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)|
-|Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,22 +1,23 @@
 ---
-title: Artikeltoeslagen toewijzen aan verkoop en inkopen (bevat video)
-description: Wijs artikeltoeslagen toe wanneer u bij voorraadartikelen toegevoegde kosten wilt berekenen, zoals vracht en fysieke verwerking, die u maakt wanneer u artikelen inkoopt of verkoopt.
+title: Artikeltoeslagen toewijzen aan verkoop en inkopen| Microsoft Docs
+description: Als u bij uw voorraadartikelen toegevoegde kosten wilt berekenen, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt wanneer u artikelen inkoopt of verkoopt, kunt u de functie Artikeltoeslagen gebruiken.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.search.form: 5709, 5800, 5805, 5814
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: c49b529bcb93544aef8393a5440b142e722efd1c
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953246"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878150"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden
 Als u wilt zorgen voor goede waardering, moeten voor uw voorraadartikelen toegevoegde kosten worden berekend, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt wanneer u de artikelen inkoopt of verkoopt. Voor inkopen bestaan de werkelijke kosten van een ingekocht artikel uit de inkoopprijs van de leverancier en alle bijkomende directe artikeltoeslagen die kunnen worden toegewezen voor afzonderlijke ontvangsten of retourzendingen. Voor verkopen is het belang van de verzendkosten van verkochte artikelen te weten net zo groot zijn als de leveringskosten van aangekochte artikelen te weten.
@@ -39,19 +40,19 @@ Voor zowel inkoop- als verkoopdocumenten kunt u een artikeltoeslag op twee manie
 ## <a name="example"></a>Voorbeeld
 Deze video laat zien hoe om te gaan met extra verzendkosten als onderdeel van voorraadkosten.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
 
 ## <a name="to-set-up-item-charge-numbers"></a>Artikeltoeslagnummers instellen
 De verschillende soorten artikeltoeslagen die in uw bedrijf worden gebruikt, onderscheidt u van elkaar met artikeltoeslagnummers.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeltoeslagen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeltoeslagen** in en kies de gerelateerde koppeling.
 2. Kies op de pagina **Artikeltoeslagen** de actie **Nieuw** om een nieuwe regel te maken.
 3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Een artikeltoeslag rechtstreeks toewijzen aan de inkoopfactuur voor het artikel
 Als u de artikeltoeslag kent wanneer u de inkoopfactuur van het artikel boekt, volgt u deze procedure.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.
 2. Een nieuwe inkoopfactuur maken. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 3. Zorg ervoor dat de inkoopfactuur een of meer regels van de soort Artikel bevat.
 4. Selecteer op een nieuwe regel in het veld **Type** **Toeslag (Artikel)**.
@@ -84,7 +85,4 @@ De artikeltoeslag op de afzonderlijke inkoopfactuur wordt nu toegewezen aan het 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

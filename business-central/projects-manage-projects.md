@@ -1,26 +1,24 @@
 ---
-title: Projectbeheer
-description: In dit onderwerp wordt beschreven hoe u resources, urenstaten en taken gebruikt om projecten en hun budgetten te beheren.
+title: Projecttaken die resources en urenstaten gebruiken | Microsoft Docs
+description: Hier wordt beschreven hoe u resources, urenstaten en taken gebruikt om projecten te beheren.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
-ms.date: 06/22/2021
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 2c53179960fc6b9ebd7a77193b13d271f22fe1b1
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: aa3158789f22cbb3a534bda2a83e2def209f9826
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101281"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312664"
 ---
 # <a name="project-management"></a>Projectbeheer
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u algemene taken voor projectbeheer uitvoeren, zoals het configureren van een project en het plannen van een resource, alsmede het verstrekken van de informatie die nodig is voor het beheren van budgetten en het bijhouden van de voortgang. U kunt machine- en werknemeruren voor het project bijhouden door gebruik te maken van urenstaten. Als projectbeheerder hebt u een goed overzicht niet alleen van afzonderlijke projecten, maar ook van de toewijzing van werknemers, machines en andere bronnen die worden gebruikt in alle projecten.
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u algemene taken voor projectbeheer uitvoeren, zoals het configureren van een project en het plannen van een resource, alsmede het verstrekken van de informatie die nodig is voor het beheren van budgetten en het bijhouden van de voortgang. U kunt machine- en werknemeruren voor het project bijhouden door gebruik te maken van urenstaten. Als projectbeheerder hebt u een goed overzicht niet alleen van afzonderlijke projecten, maar ook van de toewijzing van werknemers, machines en andere bronnen die worden gebruikt in alle projecten.
-
-Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt gebruiken om projecten te beheren, moet u resources, urenstaten en projecten instellen. Raadpleeg voor meer informatie [Projectbeheer instellen](projects-setup-projects.md).  
+Voordat u [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt gebruiken om projecten te beheren, moet u resources, urenstaten en projecten instellen. Raadpleeg voor meer informatie [Projectbeheer instellen](projects-setup-projects.md).  
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
@@ -38,7 +36,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 ## <a name="get-started-with-projects"></a>Aan de slag met projecten
 
-Projectbeheer is al gecompliceerd genoeg en leren hoe u projecten maakt en onderhanden werk beheert in een nieuwe tool kan nog een complicatie zijn. Om u te helpen aan de slag te gaan met projectbeheer in [!INCLUDE[prod_short](includes/prod_short.md)], kunt u [een video bekijken over het maken van projecten](https://www.youtube.com/watch?v=VqaPWr7BWmw) op het [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-kanaal.  
+Projectbeheer is al gecompliceerd genoeg en leren hoe u projecten maakt en onderhanden werk beheert in een nieuwe tool kan nog een complicatie zijn. Om u te helpen aan de slag te gaan met projectbeheer in [!INCLUDE [prodshort](includes/prodshort.md)], kunt u [een video bekijken over het maken van projecten](https://www.youtube.com/watch?v=VqaPWr7BWmw) op het [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-kanaal.  
 
 ## <a name="see-also"></a>Zie ook
 
@@ -48,9 +46,6 @@ Projectbeheer is al gecompliceerd genoeg en leren hoe u projecten maakt en onder
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

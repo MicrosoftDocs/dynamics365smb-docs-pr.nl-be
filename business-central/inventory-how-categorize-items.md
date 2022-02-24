@@ -1,25 +1,25 @@
 ---
-title: Artikelen categoriseren (bevat video) | Microsoft Docs
+title: Artikelen categoriseren| Microsoft Docs
 description: Om u te helpen zoeken naar artikelen kunt u artikelkenmerken toewijzen en artikelen categoriseren.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.search.form: 5730, 5733, 5401
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 3b3c3add698255293d4dbf6f5f7d9eb927b1c0c0
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d75a24a065d87cee1b40149e1a30f2bc595eaa88
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059842"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182288"
 ---
 # <a name="categorize-items"></a>Artikelen categoriseren
-
 Om een overzicht van uw artikelen bij te houden en u te helpen artikelen te sorteren en zoeken, is het handig om uw artikelen in artikelcategorieën te organiseren.
 
 Als u artikelen op basis van kenmerken wilt zoeken, kunt u artikelkenmerken aan artikelen en ook aan artikelcategorieën toewijzen. Zie [Werken met artikelkenmerken](inventory-how-work-item-attributes.md) voor meer informatie.
@@ -28,35 +28,24 @@ Als u artikelen op basis van kenmerken wilt zoeken, kunt u artikelkenmerken aan 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
 ## <a name="to-create-an-item-category"></a>Een artikelcategorie maken
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelcategorieën** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelcategorieën** in en kies de desbetreffende koppeling.
 2. Kies op de pagina **Artikelcategorieën** de actie **Nieuw**.
 3. Vul indien nodig de velden op de pagina **Artikelcategoriekaart** op het sneltabblad **Algemeen** in: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Geef op het sneltabblad **Kenmerken** alle artikelkenmerken voor de artikelcategorie op. Zie voor meer informatie [Artikelkenmerken aan artikelcategorieën toewijzen](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
 
 > [!NOTE]  
-> Als de artikelcategorie een bovenliggende artikelcategorie heeft, zoals aangegeven door het veld **Bovenliggende categorie**, worden alle artikelkenmerken die aan die bovenliggende artikelcategorie zijn toegewezen, vooraf ingevuld op het sneltabblad **Kenmerken**.
+>   Als de artikelcategorie een bovenliggende artikelcategorie heeft, zoals aangegeven door het veld **Bovenliggende categorie**, worden alle artikelkenmerken die aan die bovenliggende artikelcategorie zijn toegewezen, vooraf ingevuld op het sneltabblad **Kenmerken**.
 
 > [!NOTE]  
-> Opmerking: artikelkenmerken die u aan een artikelcategorie toewijst, worden automatisch toegepast op het artikel waaraan de artikelcategorie is toegewezen.
-
-Als u van gedachten verandert over een artikelcategorie, kunt u deze verwijderen. Als deze echter al aan een artikel is toegewezen, moet u die toewijzing verwijderen voordat u de artikelcategorie kunt verwijderen.
+>   Opmerking: artikelkenmerken die u aan een artikelcategorie toewijst, worden automatisch toegepast op het artikel waaraan de artikelcategorie is toegewezen.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Een artikelcategorie aan een artikel toewijzen
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
 2. Open de kaart voor het artikel dat u aan een artikelcategorie wilt toewijzen.
 3. Kies in het veld **Artikelcategoriecode** de zoekknop en selecteer een bestaande artikelcategorie. U kunt ook de actie **Nieuw** kiezen om eerst een nieuwe artikelcategorie te maken, zoals is uitgelegd in het gedeelte [Een artikelcategorie maken](inventory-how-categorize-items.md#to-create-an-item-category).
 
-## <a name="categories-attributes-and-variants"></a>Categorieën, kenmerken en varianten
-
-[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
-
 ## <a name="see-also"></a>Zie ook
-
 [Werken met artikelkenmerken](inventory-how-work-item-attributes.md)  
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

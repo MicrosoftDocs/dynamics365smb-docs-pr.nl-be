@@ -1,23 +1,23 @@
 ---
-title: Niet-aftrekbare btw instellen [BE]
-description: U kunt de btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk als btw kunnen worden aangegeven.
+title: Niet-aftrekbare btw instellen
+description: U kunt btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk als btw kunnen worden aangegeven.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/17/2021
-ms.author: edupont
-ms.openlocfilehash: 6b6a9ea17c07847de06a18fb8f489f794e86a2b2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6c55566a1d048461d5a02a6f124e1f81d00e70c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438457"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180850"
 ---
-# <a name="set-up-non-deductible-vat-in-the-belgian-version"></a>Niet-aftrekbare btw instellen in de Belgische versie
+# <a name="set-up-non-deductible-vat"></a>Niet-aftrekbare btw instellen
 U kunt btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk als btw kunnen worden aangegeven. Wanneer u op de pagina **Grootboekrekening** 75 opgeeft in het veld **% niet-aftrekbare btw**, wordt 75 procent van het normale btw-bedrag beschouwd als bijkomende kosten en tijdens het boeken toegevoegd aan het nettobedrag. De resterende 25 procent wordt als normale btw geboekt.  
 
 > [!NOTE]  
@@ -25,7 +25,7 @@ U kunt btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk al
 
 ## <a name="to-set-up-the-non-deductible-vat-percentage"></a>Het niet-aftrekbare btw-percentage instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies vervolgens de gerelateerde koppeling.  
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Rekeningschema** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer een onkostengrootboekrekening waarvoor de gedeeltelijke aftrek nodig is en kies vervolgens de actie **Bewerken**.  
 3.  Voer het bedrag in het veld **Niet-aftrekbare btw** in.  
 4.  Kies de knop **Ok**.  
@@ -33,6 +33,3 @@ U kunt btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk al
 ## <a name="see-also"></a>Zie ook  
  [Belgische btw](belgian-vat.md)   
  [Periodieke btw-rapporten afdrukken](how-to-print-periodic-vat-reports.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

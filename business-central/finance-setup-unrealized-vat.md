@@ -1,36 +1,32 @@
 ---
-title: Ongerealiseerde btw instellen
+title: Ongerealiseerde btw instellen | Microsoft Docs
 description: Als u op kas gebaseerde boekhouding gebruikt, kunt u opgeven hoe ongerealiseerde btw voor verkopen en inkopen moet worden verwerkt.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.search.form: 118, 472, 473
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 02ad408b55340bca218859d6742b0d74fbb1a294
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: f4d08d96621d5ff59b65a35e899d66afe0ddaa52
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971905"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182720"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen
-
-Als u op kas gebaseerde boekhoudingsmethoden gebruikt, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] instellen om ongerealiseerde btw te verwerken.
+Als u op kas gebaseerde boekhoudingsmethoden gebruikt, kunt u [!INCLUDE[d365fin](includes/d365fin_md.md)] instellen om ongerealiseerde btw te verwerken.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Grootboekrekeningen gebruiken voor ongerealiseerde btw
-
 U kunt ervoor kiezen btw-bedragen te laten berekenen en boeken naar een tijdelijke grootboekrekening wanneer een factuur wordt geboekt. Vervolgens wordt de factuur geboekt naar de juiste grootboekrekening en opgenomen in btw-aangiften wanneer de werkelijke betaling van de factuur is geboekt. Hiervoor moet u eerst de btw-boekingsinstellingen voltooien.
 
 Ga als volgt te werk om rekeningen voor ongerealiseerde btw te gebruiken:
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") en voer **Grootboek instellen** in.
+1. Kies het ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") en voer **Grootboekinstellingen** in.
 2. Selecteer op de pagina **Boekhoudinstellingen** het selectievakje **Ongereal. btw**.
-3. Kies het pictogram **Zoeken naar pagina of rapport** ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") en voer **Btw-boekingsinstellingen** in.
+3. Kies het pictogram **Zoeken naar pagina of rapport** ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") en voer **Btw-boekingsinstellingen** in.
 4. Op de pagina **Btw-boekingsinstellingen** kiest u de btw-boekingsgroep en vervolgens de actie **Bewerken**.
 5. In het veld **Ongerealiseerde btw-soort** kiest u een optie om op te geven hoe u betalingen toewijst aan het factuurbedrag (zonder btw) en het btw-bedrag zelf, en hoe btw-bedragen van de ongerealiseerde btw-rekening moeten worden overgeboekt naar de gerealiseerde rekening. De volgende tabel beschrijft de opties.
 
@@ -53,6 +49,4 @@ Ga als volgt te werk om rekeningen voor ongerealiseerde btw te gebruiken:
 > Het btw-bedrag wordt naar deze rekening geboekt en blijft daar tot de betaling van de klant is geboekt. Daarna wordt het bedrag overgeboekt naar de rekening voor inkoop-btw.
 
 ## <a name="see-also"></a>Zie ook
-[Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Btw instellen](finance-setup-vat.md)

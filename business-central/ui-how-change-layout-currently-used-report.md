@@ -1,25 +1,25 @@
 ---
-title: De weergave van een rapport wijzigen door een andere indeling te kiezen
+title: De weergave van een rapport wijzigen door een andere lay-out te kiezen | Microsoft Docs
 description: U kunt verschillende lay-outs voor een lijst gebruiken en schakelen tussen lay-outs om te bepalen hoe een rapport eruitziet.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a5115407dd7cfbb8760a5749432ca6fc37f9f933
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: b6c11e58694e68918ab5f4d5bd48bd7a43beb8f1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101093"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953263"
 ---
 # <a name="change-the-current-report-layout"></a>De huidige rapportindeling wijzigen
-
 Een rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indien nodig kunt schakelen.
 
 Afhankelijk van de lay-outs die voor een rapport beschikbaar zijn, kunt u ervoor kiezen een ingebouwde RDLC-rapportlay-out, een ingebouwde Word-rapportlay-out of een aangepaste lay-out te maken. Zie [Rapportlay-outs beheren](ui-manage-report-layouts.md) voor meer informatie over RDLC- en Word-rapportlay-outs, ingebouwde en aangepaste lay-outs.
@@ -30,8 +30,7 @@ Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit
 > Documentrapporten (niet -lijsten) die een Word-rapportindeling gebruiken zijn meestal sneller dan rapporten die een RDLC-rapportindeling gebruiken. Als u dus kunt kiezen tussen een Word- of een RDLC-rapportindeling voor een documentrapport, gebruik dan de Word-rapportindeling voor de beste prestaties.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Wijzigen welke rapportlay-out moet worden gebruikt voor een rapport of document
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie van rapportlay-out** in en kies de gerelateerde koppeling.  
    De pagina **Selectie van rapportlay-out** bevat een overzicht van alle rapporten die beschikbaar zijn voor het bedrijf dat in het veld **Bedrijf** boven aan de pagina wordt opgegeven. Met het veld **Geselecteerde lay-out** wordt de lay-out opgegeven die momenteel in het rapport wordt gebruikt.
 2. Stel het veld **Bedrijf** boven aan de pagina in op het bedrijf dat het rapport bevat.
 3. Als u de lay-out wilt wijzigen die door een rapport wordt gebruikt, stelt u in de rij voor het rapport het veld **Geselecteerde lay-out** in op een van de volgende opties:
@@ -60,7 +59,4 @@ U kunt nu naar uw klanten- en leverancierskaarten gaan om op te geven welke lay-
 
 ## <a name="see-also"></a>Zie ook
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

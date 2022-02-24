@@ -1,66 +1,48 @@
 ---
-title: De status van synchronisatietaken weergeven (bevat video)
-description: Gebruik de pagina Synchronisatiefouten met gekoppelde gegevens om de status weer te geven van synchronisatietaken die zijn uitgevoerd voor gekoppelde records in integraties.
+title: De status van synchronisatietaken weergeven | Microsoft Docs
+description: Leer hoe u de status kunt bekijken na het synchroniseren van gekoppelde records.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.search.form: 6250
-ms.date: 06/14/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a9f4f2442e9cb3f8efc46cc7c9fd1f92c002d0dd
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115325"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304504"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>De status van synchronisatietaken weergeven
+Gebruik de pagina **Synchronisatiefouten met gekoppelde gegevens** om de status weer te geven van synchronisatietaken die zijn uitgevoerd voor gekoppelde records in een [!INCLUDE[crm_md](includes/crm_md.md)]-integratie. Hieronder vallen taken die zijn uitgevoerd vanuit de verwerkingswachtrij en handmatige synchronisatietaken die zijn uitgevoerd op records vanuit de [!INCLUDE[d365fin](includes/d365fin_md.md)]-client. Het bekijken van hun status is bijvoorbeeld handig bij het oplossen van problemen omdat het u toegang geeft tot details over fouten met betrekking tot gekoppelde records. Meestal worden dit soort fouten veroorzaakt door gebruikersacties, bijvoorbeeld wanneer:  
 
-
-Gebruik de pagina **Synchronisatiefouten met gekoppelde gegevens** om de status weer te geven van synchronisatietaken die zijn uitgevoerd voor gekoppelde records in een Dataverse- of een [!INCLUDE[crm_md](includes/crm_md.md)]-integratie. Hieronder vallen taken die zijn uitgevoerd vanuit de verwerkingswachtrij en handmatige synchronisatietaken die zijn uitgevoerd op records vanuit de [!INCLUDE[prod_short](includes/prod_short.md)]-client. Het bekijken van hun status is bijvoorbeeld handig bij het oplossen van problemen omdat het u toegang geeft tot details over fouten met betrekking tot gekoppelde records. Meestal worden dit soort fouten veroorzaakt door gebruikersacties, bijvoorbeeld wanneer:  
-
-* Twee personen hebben in beide zakelijke apps een wijziging aangebracht in dezelfde gegevens.
-* Iemand heeft gegevens verwijderd in een van de apps, maar niet in beide.
+* Twee mensen hebben in beide zakelijke apps een wijziging aangebracht in dezelfde record.
+* Iemand heeft een record verwijderd in een van de apps, maar niet in beide.
 
 > [!Note]
 > De pagina **Synchronisatiefouten met gekoppelde gegevens** toont informatie over taken gerelateerd aan gekoppelde records. Als u alle fouten oplost maar records nog steeds niet synchroniseren, heeft dit mogelijk te maken met een instelling voor de integratie. Doorgaans moet uw beheerder dit soort fouten oplossen.   
 
-## <a name="example"></a>Voorbeeld
-Deze video toont een voorbeeld van het oplossen van fouten die zijn opgetreden tijdens het synchroniseren met [!INCLUDE[prod_short](includes/cds_long_md.md)]. Het proces is voor alle integraties hetzelfde. 
-
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
-
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Synchronisatiefouten voor gekoppelde records weergeven en oplossen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Synchronisatiefouten met gekoppelde gegevens** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Synchronisatiefouten met gekoppelde gegevens** in en kies vervolgens de gerelateerde koppeling.
 2. De pagina **Synchronisatiefouten met gekoppelde gegevens** bevat problemen die zijn opgetreden toen u gekoppelde records synchroniseerde. De volgende tabel bevat acties die u kunt gebruiken om problemen één voor één op te lossen:
 
 |Actie|Omschrijving|
 |----|----|
-|**Koppeling verwijderen**|Ontkoppelt de records en deze zullen niet langer synchroniseren. Om de synchronisatie te hervatten moet u ze opnieuw koppelen. |
-|**Opnieuw** en **Alles opnieuw proberen**|Voor elke record waarin een fout wordt gevonden, wordt de synchronisatie overgeslagen, tenzij u het probleem verhelpt. Met Opnieuw zal de geselecteerde record worden opgenomen in de volgende synchronisatie en met **Alles opnieuw proberen** worden alle records opgenomen.|
-|**Synchroniseren**|De app probeert een conflict op te lossen waarbij gegevens zijn gewijzigd in beide zakelijke apps. U kunt kiezen welke gegevens worden gebruikt.|
-|**Records herstellen** en **Records verwijderen**|Deze zijn handig wanneer een record in een van de bedrijfsapps is verwijderd. Records verwijderen verwijdert de record of rij in de app waar deze nog steeds bestaat. Met Records herstellen wordt de record of rij opnieuw gemaakt in de bedrijfsapp waarin deze is verwijderd.|
-
-> [!NOTE]
-> Om het aantal conflicten dat u moet oplossen te verminderen, kunt u uw integratietabeltoewijzingen zo instellen dat deze acties automatisch worden toegepast. Zie voor meer informatie [Integratietabellen toewijzen](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
+|**Koppeling verwijderen**|Ontkoppelt de records en deze zullen niet langer synchroniseren. Om het synchroniseren van de records te hervatten, moet u ze opnieuw koppelen.|
+|**Opnieuw**|Voor elke record waarin een fout wordt gevonden, wordt de synchronisatie overgeslagen, tenzij u het probleem handmatig verhelpt. Met Opnieuw wordt de record opgenomen in de volgende synchronisatie.|
+|**Synchroniseren**|De app probeert een conflict op te lossen waarbij een record is gewijzigd in beide zakelijke apps. U kunt de versie van de record kiezen die u in beide apps wilt gebruiken.|
+|**Records herstellen** en **Records verwijderen**|Deze zijn handig wanneer een record in een van de apps is verwijderd. Records verwijderen verwijdert de record in de app waar deze nog steeds bestaat. Met Herstellen wordt de record opnieuw gemaakt in de app waarin deze is verwijderd.|
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Het synchronisatielogboek weergeven voor een specifieke (handmatig gesynchroniseerde) record
-1. Open bijvoorbeeld een klant-, artikel- of andere record die gegevens synchroniseert tussen [!INCLUDE[prod_short](includes/prod_short.md)] en Dataverse of [!INCLUDE[crm_md](includes/crm_md.md)].
+1. Open bijvoorbeeld een klant-, artikel- of andere record die gegevens synchroniseert tussen [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Kies de actie **Synchronisatielogbestand** om het synchronisatielogbestand voor een geselecteerde record weer te geven. Bijvoorbeeld een specifieke klant die u handmatig hebt gesynchroniseerd.
-
-## <a name="remove-couplings-between-records"></a>Koppelingen tussen records verwijderen
-Als er iets misgaat in uw integratie en u records moet ontkoppelen om ze niet meer te laten synchroniseren, kunt u dit voor één of meer records tegelijk doen. U kunt een of meer records loskoppelen van lijstpagina's of de pagina **Fouten met gekoppelde gegevenssynchronisatie** door een of meer regels te kiezen en **Koppeling verwijderen** te kiezen. U kunt ook alle koppelingen verwijderen voor een of meer tabeltoewijzingen op de pagina **Integratietabeltoewijzingen**. 
-
-Als een entiteit met een unidirectionele koppeling wordt verwijderd in [!INCLUDE[prod_short](includes/prod_short.md)], moet u de verbroken koppeling handmatig verwijderen. Om dat te doen, kiest u op de pagina **Synchronisatiefouten met gekoppelde gegevens**, kiest u de actie **Zoeken naar verwijderde** en verwijdert u vervolgens de koppelingen.
 
 ## <a name="see-also"></a>Zie ook  
 [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Microsoft Dynamics 365 Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

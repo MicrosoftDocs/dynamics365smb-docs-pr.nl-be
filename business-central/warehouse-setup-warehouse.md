@@ -1,27 +1,28 @@
 ---
-title: Magazijnprocessen configureren
-description: De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van de magazijnprocessen ervan, bijvoorbeeld de magazijnlocaties.
+title: Magazijnprocessen configureren | Microsoft Docs
+description: De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van zijn magazijnprocessen. Dit betreft onder andere definiëren hoe verschillende artikelen op verschillende magazijnlocaties worden afgehandeld, zoals de mate van opslaglocatiecontrole en de omvang van de werkstroom die nodig is voor activiteiten tussen magazijnen.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 7864b7dcb09d0528f6f0674ae7af3740ab7e5951
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: df77998dc9e5ee06531f3be158a7d9ca2604fc05
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973244"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248721"
 ---
 # <a name="setting-up-warehouse-management"></a>Magazijnbeheer instellen
+De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van de magazijnprocessen. Dit betreft onder andere definiëren hoe verschillende artikelen op verschillende magazijnlocaties worden afgehandeld, zoals de mate van opslaglocatiecontrole en de omvang van de werkstroom die nodig is voor activiteiten tussen magazijnen.  
 
-De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van zijn magazijnprocessen. Dit betreft onder andere definiëren hoe verschillende artikelen op verschillende magazijnlocaties worden afgehandeld, zoals de mate van opslaglocatiecontrole en de omvang van de werkstroom die nodig is voor activiteiten tussen magazijnen.  
-
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
+ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
@@ -41,15 +42,10 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Het magazijn zo instellen dat het automatisch die artikelen voor picken voorstelt die het eerst vervallen.|[Picken volgens FEFO inschakelen](warehouse-picking-by-fefo.md)|
 |Tips krijgen over het reorganiseren van vestigingen, opslaglocaties of zones om de magazijnactiviteiten efficiënter te laten verlopen.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|
 |Streepjescodelezers integreren in de magazijnbeheeroplossing. Alleen voor on-premise implementatie.|[Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken](warehouse-use-automated-data-capture-systems-adcs.md)|
-|Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Zie ook
-
+## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Assemblagebeheer](assembly-assemble-items.md)
+[Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

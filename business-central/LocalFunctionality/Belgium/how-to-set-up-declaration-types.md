@@ -1,25 +1,24 @@
 ---
-title: Aangiftesoorten instellen [BE]
-description: 'In Business Central zijn er twee aangiftesoorten in de Belgische versie: de vereenvoudigde aangifte en de uitgebreide aangifte.'
+title: Aangiftesoorten instellen
+description: In Business Central zijn er twee soorten aangiftes.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/17/2021
-ms.author: edupont
-ms.openlocfilehash: ef5feeeef60146b608992cf700c3506a41adb475
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 61fdccfc6bcb82519e2022e9d05b5814b7b31bf5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971503"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180864"
 ---
-# <a name="set-up-declaration-types-in-the-belgian-version"></a>Aangiftesoorten instellen in de Belgische versie
-
-In [!INCLUDE[prod_short](../../includes/prod_short.md)] zijn er twee soorten aangiftes:  
+# <a name="set-up-declaration-types"></a>Aangiftesoorten instellen
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zijn er twee soorten aangiftes:  
 
 - Vereenvoudigde aangifte  
 - Uitgebreide aangifte  
@@ -30,17 +29,13 @@ Wanneer u de uitgebreide aangifte gebruikt, moet u ook een Incoterm in Intrastat
 
 ## <a name="to-set-up-declaration-types"></a>Aangiftesoorten instellen  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-2. Schakel op het sneltabblad Algemeen het selectievakje **Vereenvoudigde Intrastat-aangifte** in om een vereenvoudigde aangiftesoort in te stellen. Schakel dit veld uit om uitgebreide aangifte te gebruiken.  
-3. Kies de knop **OK**.  
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Grootboekinstellingen** in en klik vervolgens op de gerelateerde koppeling.  
+2.  Schakel op het sneltabblad Algemeen het selectievakje **Vereenvoudigde Intrastat-aangifte** in om een vereenvoudigde aangiftesoort in te stellen. Schakel dit veld uit om uitgebreide aangifte te gebruiken.  
+3.  Kies de knop **OK**.  
 
-## <a name="see-also"></a>Zie ook
-
+## <a name="see-also"></a>Zie ook  
  [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)   
  [Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)   
  [Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)   
  [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)   
  [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

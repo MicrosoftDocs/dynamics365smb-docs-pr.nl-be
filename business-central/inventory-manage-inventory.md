@@ -1,25 +1,24 @@
 ---
-title: Voorraad beheren
-description: In dit onderwerp wordt beschreven hoe u de fysieke producten die u inruilt, kunt beheren door een voorraadartikelkaart te maken.
+title: Voorraad beheren| Microsoft Docs
+description: Beschrijft hoe u de fysieke producten beheert waarin u handelt, bijvoorbeeld de voorraad in uw magazijn.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: fb7df1a8577648d306e2db2c7ef3a9bdf96b6c3e
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b606c01e694e95c7f539fb317f58304f4047a379
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060208"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181832"
 ---
-# <a name="manage-inventory"></a>Voorraad beheren
-
+# <a name="inventory"></a>Voorraad
 Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het soort **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
 
 Positieve en negatieve voorraadmutaties worden natuurklijk ook geregistreerd wanneer u respectievelijk inkoop- en verkoopdocumenten boekt. Zie voor meer informatie [Inkopen registreren](purchasing-how-record-purchases.md), [Producten verkopen](sales-how-sell-products.md) en [Verkopen factureren](sales-how-invoice-sales.md). De transfers tussen vestigingen wijzigen de voorraadaantallen in alle magazijnen van het bedrijf.   
@@ -29,18 +28,14 @@ Om het overzicht van artikelen te verhogen en deze te zoeken, kunt u artikelen c
 > [!NOTE]
 > Naar de fysieke verwerking van artikelen wordt verwezen als magazijnactiviteiten. Zie voor meer informatie [Magazijnbeheer](warehouse-manage-warehouse.md).
 
-Planning voor artikelen om aan vraag te voldoen, wordt behandeld als onderdeel van de functionaliteit voor vraagplanning. Zie [Planning](production-planning.md) voor meer informatie.  
+Planning voor artikelen om aan de vraag te voldoen, wordt behandeld als onderdeel van de functionaliteit voor vraagplanning. Zie [Planning](production-planning.md) voor meer informatie.  
 
 ## <a name="inventory-reconciliation"></a>Voorraadreconciliatie
 Als u voorraadtransacties (bijvoorbeeld verkoopverzendingen, inkoopfacturen of voorraadherwaarderingen) boekt, worden de gewijzigde artikelkosten vastgelegd in artikelwaardeposten. Om deze wijziging van voorraadwaarde door te voeren in uw financiële boeken, worden de voorraadkosten automatisch geboekt naar de gerelateerde voorraadrekeningen in het grootboek. Voor iedere voorraadtransactie die u boekt, worden overeenkomende waarden geboekt naar de voorraadrekening, de correctierekening en de KPV-rekening in het grootboek. Zie voor meer informatie [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de kosten van goederen toch worden doorgestuurd naar de gerelateerde uitgaande verkooptransactie, vooral in situaties waarin u goederen verkoopt voordat u de inkoop van die goederen factureert. Dit wordt kostenwaardering genoemd. Artikelkosten worden automatisch aangepast als u artikeltransacties boekt, maar u kunt artikelkosten ook handmatig wijzigen. Zie [Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md) voor meer informatie.  
+Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de kosten van goederen toch worden doorgestuurd naar de gerelateerde uitgaande verkooptransactie, vooral in situaties waarin u goederen verkoopt voordat u de inkoop van die goederen factureert. Dit wordt kostenwaardering genoemd. Artikelkosten worden automatisch aangepast als u artikeltransacties boekt, maar u kunt artikelkosten ook handmatig wijzigen. Zie [Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md) voor meer informatie.
 
-## <a name="related-tasks"></a>Verwante taken
-
-De volgende tabel geeft een overzicht van gerelateerde taken.
-
-|Als u dit wilt doen: |Zie |
+|Aan |Zie |
 |---|----|
 |Maak artikelkaarten voor voorraadartikelen waarin u handelt.|[Nieuwe artikelen registreren](inventory-how-register-new-items.md)|
 |Bovenliggende artikelen structureren die u als pakketten verkoopt bestaande uit de onderdelen van de bovenliggende artikelen, of die u op bestelling of voor voorraad monteert.|[Werken met stuklijsten](inventory-how-work-BOMs.md)|
@@ -52,23 +47,20 @@ De volgende tabel geeft een overzicht van gerelateerde taken.
 |Beschikbaarheid van artikelen weergeven op vestiging, periode, verkoop- of inkoopgebeurtenis, of het gebruik in assemblage- of productiestuklijsten.|[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)|
 |Voorraadartikelen verplaatsen tussen vestigingen met transferorders, om magazijnactiviteiten te beheren, of met het artikelherindelingsdagboek.|[Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)|
 |Reserveer voorraad of inkomende artikelen voor verkooporders, inkooporders, serviceorders, assemblageorders of productieorders.|[Artikelen reserveren](inventory-how-to-reserve-items.md)|
-|Stel artikeltracering in zodat u serienummers van artikelen kunt volgen, bijvoorbeeld om artikelen te volgen in geval van terugroepacties.|[Artikeltracering instellen met serie-, partij- en pakketnummers](inventory-how-setup-item-tracking.md)|
-|Wijs serienummers of lotnummers toe aan elk uitgaand of inkomend document of journaalregel.|[Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)|
+|Stel een eigen artikelbeschrijving van de leverancier of klant in, zodat u hun artikelbeschrijving gemakkelijk kunt invoegen op handelsdocumenten.|[Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)|
+|Wijs serienummers of lotnummers toe aan elk uitgaand of inkomend document of dagboekregel, bijvoorbeeld om artikelen te traceren bij terugroepacties.|[Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)|
+|Stel een eigen artikelbeschrijving van de leverancier of klant in op uw artikelkaart, zodat u hun artikelbeschrijving snel kunt invoegen op handelsdocumenten.|[Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)|
 |Bepalen waar elk serie- of lotnummer is gebruikt in de voorraadketen, bijvoorbeeld in situaties waarin producten moeten worden teruggeroepen.|[Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)|
-|Stel een eigen artikelbeschrijving van de leverancier of klant in op uw artikelkaart, zodat u hun artikelbeschrijving snel kunt invoegen op handelsdocumenten.|[Artikelverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)|
 |Het invoeren van artikelen op verkoop- of inkoopregels of het boeken van artikelen in transacties voorkomen.|[Artikelen blokkeren](inventory-how-block-items.md)|
 |De bedrijfsvoering in verkoop- of inkoopafdelingen of planningskantoren voor een fabriek voor meerdere vestigingen beheren.|[Werken met divisies](inventory-responsibility-centers.md)|
-|Gebruik resources met specifieke vaardigheden voor verschillende services en service-items.|[Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>Zie ook
 
+
+## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+[Verkoop](sales-manage-sales.md)    
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

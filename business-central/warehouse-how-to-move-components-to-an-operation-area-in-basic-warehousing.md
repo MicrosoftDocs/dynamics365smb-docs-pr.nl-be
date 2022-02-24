@@ -1,21 +1,21 @@
 ---
-title: Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties
-description: Indien artikelbewerkingen plaatsvinden in uw magazijnvestiging, moet u mogelijk artikelen tussen interne opslaglocaties verplaatsen om te reageren op interne brondocumenten.
+title: Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties | Microsoft Docs
+description: Indien artikelbewerkingen plaatsvinden in uw magazijnvestiging, moet u mogelijk artikelen tussen interne opslaglocaties verplaatsen om te reageren op interne brondocumenten, zoals productie-, assemblage- of serviceorders in de vestiging.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 117ae04d89d801eff79ecc7d2908eeb49d53f9e2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444167"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193119"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties
 Indien artikelbewerkingen plaatsvinden in uw magazijnvestiging, moet u mogelijk artikelen tussen interne opslaglocaties verplaatsen om te reageren op interne brondocumenten, zoals productie-, assemblage- of serviceorders in de vestiging.  
@@ -47,7 +47,7 @@ Ook kan een magazijnmedewerker deze maken door verwijzing naar de betreffende vr
 Deze procedure laat zien hoe u een voorraadverplaatsing uit de pagina **Voorraadverplaatsing** kunt maken door te verwijzen naar een vrijgegeven assemblageorder als brondocument. De procedure is hetzelfde als u onderdelen verplaatst voor productie- en serviceorders.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Onderdelen verplaatsen naar een bewerkingsgebied in standaardmagazijnconfiguraties  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadverplaatsing** in en kies vervolgens de relevante koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadverplaatsing** in en kies de relevante koppeling.  
 2.  Vul het veld **Nr.** op het sneltabblad **Algemeen** in . te kiezen. U kunt op de Enter-toets drukken om te selecteren uit de nummerreeks.  
 3.  Voer in het veld **Locatiecode** de locatie in waar de verplaatsing plaatsvindt.  
 4.  Kies de actie **Brondocumenten ophalen**. U kunt ook het veld **Brondocument** invullen en vervolgens de knop **AssistEdit** in het veld **Bronnr.** kiezen.  
@@ -76,7 +76,4 @@ Deze procedure laat zien hoe u een voorraadverplaatsing uit de pagina **Voorraad
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

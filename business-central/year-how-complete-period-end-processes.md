@@ -1,28 +1,28 @@
 ---
-title: Optionele activiteiten voor het afsluiten van periodes
+title: Optionele activiteiten voor het afsluiten van periodes | Microsoft Docs
 description: Dit onderwerp schetst de optionele processen en activiteiten voor het sluiten van boekingsperioden in Business Central.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 9442b0617691098b32e5012a5a708e14fe5a0187
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 2c1836d133c36ba5a8bf44bae0443c252bc13d8e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012037"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191775"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Overzicht van taken voor het sluiten van boekingsperioden
-
-[!INCLUDE[prod_short](includes/prod_short.md)] dwingt u niet om perioden te sluiten, maar er zijn veel activiteiten voor periode-einden (maandeinden) die u kunt uitvoeren. In dit onderwerp vindt u een overzicht van optionele processen en activiteiten voor het afsluiten van perioden.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] dwingt u niet om perioden te sluiten, maar er zijn veel activiteiten voor periode-einden (maandeinden) die u kunt uitvoeren. In dit onderwerp vindt u een overzicht van optionele processen en activiteiten voor het afsluiten van perioden.  
 
 ## <a name="general-ledger"></a>Grootboek
-
 * Geef de boekingsperioden voor het gehele systeem of een specifieke gebruiker op.  
 
     Hiermee worden de datums opgegeven waartussen u boekingen wilt toestaan. Afhankelijk van uw zakelijke processen wilt u het boeken mogelijk toestaan aan het begin of juist aan het einde van de periode. Zie [Boekingsperioden opgeven](finance-how-specify-posting-periods.md) voor meer informatie.  
@@ -33,7 +33,6 @@ ms.locfileid: "8012037"
   * Open de pagina **Rapportageschema** en kies de actie **Afdrukken**.  
 
 ## <a name="sales-and-receivables"></a>Verkopen en tegoeden
-
 * Boek alle verkooporders, facturen, creditnota's en retourorders.  
 * Boek alle ontvangstendagboeken.  
 * Wijzig en boek periodieke dagboeken die zijn gerelateerd aan Verkoop.  
@@ -41,34 +40,26 @@ ms.locfileid: "8012037"
 * Voer de batchverwerking **Gefactureerde verkooporders verwijderen** uit.  
 
 ## <a name="purchases-and-payables"></a>Inkopen en schulden
-
 * Boek alle inkooporders, facturen, creditnota's en retourorders.  
 * Boek alle betalingsdagboeken.  
 * Wijzig en boek periodieke dagboeken die zijn gerelateerd aan Inkoop.  
 * Voer het rapport **Vervallen betalingen** uit en reconcilieer leveranciers met het grootboek.  
 * Voer de batchverwerking **Gefactureerde inkooporders verwijderen** uit.  
 
-## <a name="fixed-assets"></a>Vast activum
-
+Vast activum
 * Boek alle onderhoudskosten via de VA-dagboeken of Facturen.
 * Boek herwaarderingen.
 * Boek waardevermeerdering.
 * Boek afschrijving.
 * Wijzig en boek het periodiek VA-dagboek.
 
-## <a name="intercompany"></a>Intercomp
-
+Intercomp
 * IC-transacties verwerken
 
 ## <a name="calculate-and-process-sales-tax"></a>Btw berekenen en verwerken
-
 * Vul belastingaangiften in.  
 
 ## <a name="see-also"></a>Zie ook
-
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Boeken afsluiten](year-close-books.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

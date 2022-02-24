@@ -1,21 +1,21 @@
 ---
-title: Assembleren voor order-artikelen verkopen
-description: Als het artikel is ingesteld voor assembleren-voor-order, wordt het artikel niet verwacht in voorraad te zijn en moet het specifiek voor een verkooporder worden geassembleerd.
+title: 'Procedure: op order geassembleerde artikelen verkopen | Microsoft Docs'
+description: Als het artikel is ingesteld voor assembleren-voor-order, wordt het artikel niet verwacht in voorraad te zijn en moet het specifiek voor een verkooporder worden geassembleerd. Wanneer u het artikel invoert op een verkooporderregel, wordt automatisch een assemblageorder gemaakt en gekoppeld aan de verkooporder.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting, substitute items
-ms.date: 07/29/2021
-ms.author: edupont
-ms.openlocfilehash: 05060eaf315ac85f50509aec3df46ec3e9319deb
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.search.keywords: kit, kitting
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: da4a854aa573599db2d2493219d4393366a995f9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440628"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186344"
 ---
 # <a name="sell-items-assembled-to-order"></a>Assembleren voor order-artikelen verkopen
 Als het veld **Assemblagebeleid** op de artikelkaart van assemblageartikel **Op order assembleren**, wordt niet verwacht dat het artikel in voorraad is, en moet het worden samengesteld op een verkooporder. Wanneer u het artikel invoert op een verkooporderregel, wordt automatisch een assemblageorder gemaakt en gekoppeld aan de verkooporder.  
@@ -29,7 +29,7 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 >  De volgende procedure bevat niet de standaard verkooporderstappen die u moet volgen vóór de stap waarin u het op-order-assembleren-artikel invoert op een verkooporderregel.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Een artikel verkopen dat is samengesteld voor een order  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 2.  Een verkooporder maken. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 3.  Selecteer in het veld **Nr.** een artikel in dat is ingesteld om op order te worden geassembleerd.  
 4.  Definieer vanuit welke vestiging het artikel moet worden verkocht in het veld **Vestiging**. Het assemblageproces wordt uitgevoerd in die vestiging.  
@@ -57,15 +57,9 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 10. Kies in de verkooporder de actie **Vrijgeven** om de assemblageafdeling te informeren dat het assemblageproces kan worden gestart.  
 11. Voer de stappen uit van de montage van de artikelen die in deze procedure worden verkocht in de montageafdeling. Zie [Artikelen assembleren](assembly-how-to-assemble-items.md) voor meer informatie.  
 
-> [!NOTE]  
-> Houd er rekening mee dat artikelvervangingen er niet automatisch toe leiden dat een artikel wordt vervangen door een ander artikel, bijvoorbeeld bij het maken van een verkooporder of in een stuklijst. In plaats daarvan wordt u erop gewezen dat er een vervanging voor u beschikbaar is.
-
 ## <a name="see-also"></a>Zie ook  
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Nieuwe artikelen registreren](inventory-how-register-new-items.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

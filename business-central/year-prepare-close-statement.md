@@ -3,19 +3,19 @@ title: Overzicht van rapporten om ultimoafschriften te helpen voorbereiden | Mic
 description: Levert een overzicht van de lijsten die u kunt gebruiken om gegevens te verzamelen om de ultimoafschriften van uw bedrijf voor te bereiden wanneer het financiële jaar wordt gesloten.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: c1ba1ecc8716586e661b8553f12319a87b4cb85c
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 78aa985e22f0324a752a876cc33e3b723bc111a0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011531"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191727"
 ---
 # <a name="preparing-closing-statements"></a>Afsluitingsoverzichten voorbereiden
 Er staat een aantal standaardrapporten tot uw beschikking voor het verzamelen van de informatie die u nodig hebt voor het voorbereiden van de afsluitingsoverzichten van uw bedrijf.
@@ -32,12 +32,9 @@ In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die
 | Een rapportageschema af te drukken om de cijfers in grootboekrekeningen te analyseren, of om werkelijke grootboekposten te vergelijken met budgetposten voor het grootboek. |**Rapportageschema** |
 | Te controleren of klant- en leveranciersposten overeenkomen met corresponderende grootboekposten. |**Recon. klant- en lev.-rek.** |
 
-Als u een rapport wilt zien, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
+Als u een rapport wilt zien, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel staat en kiest u de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Bedrijfsinformatie](bi.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

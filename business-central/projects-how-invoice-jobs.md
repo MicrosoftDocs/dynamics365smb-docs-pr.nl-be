@@ -1,22 +1,21 @@
 ---
-title: Een projectverkoopfactuur maken om een project te factureren
-description: Beschrijft hoe u klanten factureert voor projectonkosten terwijl een project loopt en kosten.
+title: Een projectverkoopfactuur maken om een project te factureren| Microsoft Docs
+description: Beschrijft hoe u klanten factureert voor projectkosten tijdens de voortgang van een project.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.search.form: 1002, 1007,
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 444ecd4ea765983d2cd4c7c80962f8d2e66a737e
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 05/25/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973796"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402498"
 ---
 # <a name="invoice-jobs"></a>Projecten factureren
 Tijdens het project kunnen projectkosten van resourceverbruik, materialen en aan het project gerelateerde inkopen, zich ophopen. Naarmate het project vordert, worden deze transacties geboekt in het projectdagboek. Het is van belang dat alle kosten worden vastgelegd in het projectdagboek voordat u het project aan de klant factureert.
@@ -34,7 +33,7 @@ U kunt een factuur maken voor een project of voor één of meer projecttaken voo
 
 In de volgende procedure wordt beschreven hoe u een batchverwerking gebruikt om meerdere projecten te factureren.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfactuur project maken** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfactuur project maken** in en kies de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Stel filters in als u de projecten wilt beperken die door de batchverwerking worden verwerkt.
 4. Kies de knop **OK** om de facturen te maken.  
@@ -47,8 +46,8 @@ U kunt gemaakte facturen bekijken en boeken in het venster **Verkoopfacturen**.
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Projectverkoopfacturen maken en boeken vanuit projectplanningsregels
 U kunt een factuur maken vanuit een projectplanningsregel en op dat moment de hoeveelheid van het artikel, resource of grootboekrekening die u wilt factureren, aangeven.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
-2. Open het betreffende project.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.
+2. Open een relevant project.
 3. Selecteer een projecttaak waarvoor **Boeking** de **projecttaaksoort** is, en kies vervolgens de actie **Projectplanningsregels**.  
 4. Voer op een projectplanningsregel in het veld **Aantal te verplaatsen naar factuur** de hoeveelheid van het artikel, de resource en het soort grootboekrekening dat u wilt factureren in.  
 5. Kies de actie **Verkoopfactuur maken**.
@@ -62,13 +61,25 @@ U kunt een factuur maken vanuit een projectplanningsregel en op dat moment de ho
 > [!NOTE]  
 >   De bovengenoemde procedure is soortgelijk voor het maken, controleren en boeken van een aan een project gerelateerde verkoopcreditnota.
 
+## <a name="to-calculate-and-post-job-completion-entries"></a>Projectvoltooiingsposten berekenen en boeken
+Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiksboekingen en -facturering, moet u het project bijwerken om de **Status** in te stellen op **Voltooid**. Vervolgens moet u eventueel OHW tegenboeken dat naar het grootboek is geboekt.
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
+2. Selecteer een open project en kies vervolgens de actie **Bewerken**.
+3. Selecteer in het veld **Status** de optie **Voltooid**.
+4. Volg de hulpstappen om OHW te berekenen en te boeken. Of volg stap 5 en 6 om dit handmatig te doen.  
+5. Kies de actie **OHW berekenen**.
+6. Vul op de pagina **OHW voor project berekenen** indien nodig de velden in.  
+
+     De OHW-posten voor het project die worden gemaakt door het uitvoeren van de batchverwerking, hebben nu een vinkje in het selectievak **Project voltooid** om aan te geven dat het voltooiingsposten zijn.  
+7. Kies de actie **Project-OHW naar GB boeken**.
+8. Vul op de pagina **Project-OHW naar GB boeken** indien nodig de velden in.  
+
+     De OHW-grootboekposten voor het project die worden gemaakt door het uitvoeren van de batchverwerking hebben nu een vinkje in het selectievak **Project voltooid** om aan te geven dat het voltooide posten zijn.
 
 ## <a name="see-also"></a>Zie ook
 [Projecten beheren](projects-manage-projects.md)  
 [Financiën](finance.md)  
 [Inkoop](purchasing-manage-purchasing.md)         
 [Verkoop](sales-manage-sales.md)      
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

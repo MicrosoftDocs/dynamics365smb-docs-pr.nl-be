@@ -1,21 +1,21 @@
 ---
-title: Velden toevoegen aan een Word-rapportlay-out
-description: In dit onderwerp wordt beschreven hoe u velden uit een rapportgegevensset toevoegt aan een bestaande Word-rapportlay-out voor een rapport.
+title: Velden toevoegen aan een Word-rapportlay-out | Microsoft Docs
+description: Hier wordt beschreven hoe u velden uit een rapportgegevensset toevoegt aan een bestaande Word-rapportlay-out voor een rapport.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/25/2021
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865350"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877027"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Velden toevoegen aan een Word-rapportlay-out
 Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeeldingen bevatten. In dit onderwerp wordt de procedure beschreven om velden uit een rapportgegevensset toe te voegen aan een bestaande Word-rapportlay-out voor een rapport. U voegt velden toe door het aangepaste Word XML-onderdeel voor het rapport te gebruiken en u voegt inhoudsbesturingselementen toe waarmee de velden worden toegewezen aan de rapportgegevensset. Het toevoegen van velden vereist dat u enige kennis van de gegevensset van het rapport hebt, zodat u kunt bepalen welke velden u aan de lay-out wilt toevoegen.  
@@ -31,11 +31,11 @@ Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeelding
   
 2.  Geef het tabblad **Ontwikkelaar** weer in het lint van Microsoft Word.  
   
-     Het tabblad **Ontwikkelaar** wordt standaard niet weergegeven in het lint. Zie voor meer informatie [Het tabblad Ontwikkelaar op het lint weergeven](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
+     Het tabblad **Ontwikkelaar** wordt standaard niet weergegeven in het lint. Zie voor meer informatie [Het tabblad Ontwikkelaar op het lint weergeven](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Kies op het tabblad **Ontwikkelaar** de optie **deelvenster XML-toewijzing**.  
   
-4.  Kies in het venster **XML-toewijzing** in de vervolgkeuzelijst **Aangepast XML-onderdeel** het aangepaste XML-onderdeel voor het [!INCLUDE[prod_short](includes/prod_short.md)]-rapport, dat meestal het laatste in de lijst is. De naam van het aangepaste XML-gedeelte heeft de volgende indeling:  
+4.  Kies in het deelvenster **XML-toewijzing**, in de vervolgkeuzelijst **Aangepast XML-onderdeel** het aangepaste XML-onderdeel voor ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> rapport, dat meestal het laatste in de lijst is. De naam van het aangepaste XML-gedeelte heeft de volgende indeling:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -78,7 +78,7 @@ Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeelding
  Afbeeldingen worden in de linkerbovenhoek van het inhoudsbesturingselement uitgelijnd en de grootte ervan wordt automatisch aangepast aan het kader van het inhoudsbesturingselement.  
   
 > [!IMPORTANT]  
->  U kunt alleen afbeeldingen toevoegen die een indeling hebben die door Word wordt ondersteund (zoals .bmp, .jpeg en .png). Als u een afbeelding toevoegt met een indeling die niet door Word wordt ondersteund, kan een fout optreden wanneer u het rapport uitvoert vanuit de [!INCLUDE[prod_short](includes/prod_short.md)]-client.  
+>  U kunt alleen afbeeldingen toevoegen die een indeling hebben die door Word wordt ondersteund (zoals .bmp, .jpeg en .png). Als u een afbeelding toevoegt met een indeling die niet door Word wordt ondersteund, treedt een fout op wanneer u het rapport uitvoert vanuit de ADD INCLUDE-<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> client.  
   
 #### <a name="to-add-an-image"></a>Een afbeelding toevoegen  
   
@@ -99,19 +99,19 @@ De volgende tabel bevat een vereenvoudigd overzicht van de XML van een aangepast
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Koptekst|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|XML-naamruimtespecificatie. `<reportname>` is de naam die aan het rapport is toegewezen. `<id>` is de id die aan het rapport is toegewezen.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Bevat alle labels voor het rapport.<!--OnPren The element includes labels that are related to columns that have the IncludeCaption Property.--><br />-   Labelelementen die gerelateerd zijn aan kolommen, hebben de indeling `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Labelelementen hebben de indeling `<LabelName>LabelName</LabelName`.<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Labels worden in alfabetische volgorde weergegeven.|  
-|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Gegevensitem en kolommen. van het hoogste niveau Kolommen worden in alfabetische volgorde weergegeven.<!--OnPrem <br /><br /> The element names and values are determined by the Name Property of the data item or column.-->|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Bevat alle labels voor het rapport.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Labelelementen die gerelateerd zijn aan kolommen, hebben de indeling `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`.<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Labelelementen hebben de indeling `<LabelName>LabelName</LabelName`.<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Labels worden in alfabetische volgorde weergegeven.|  
+|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Gegevensitem en kolommen. van het hoogste niveau Kolommen worden in alfabetische volgorde weergegeven.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Gegevensitems en kolommen die zijn genest in het gegevensitem van het hoogste niveau. Kolommen worden in alfabetische volgorde weergegeven onder het desbetreffende gegevensitem.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Afsluitend element.|  
   
 ### <a name="custom-xml-part-in-word"></a>Aangepast XML-onderdeel in Word  
- In Word opent u het aangepaste XML gedeelte in het deelvenster **XML-toewijzing** en gebruikt u het deelvenster om elementen toe te wijzen aan inhoudsbesturingselementen in het Word-document. Het deelvenster **XML-toewijzing** is toegankelijk vanaf het tabblad **Ontwikkelaar** (zie [Het tabblad Ontwikkelaar op het lint weergeven](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon) voor meer informatie).  
+ In Word opent u het aangepaste XML gedeelte in het deelvenster **XML-toewijzing** en gebruikt u het deelvenster om elementen toe te wijzen aan inhoudsbesturingselementen in het Word-document. Het deelvenster **XML-toewijzing** is toegankelijk vanaf het tabblad **Ontwikkelaar** (zie [Het tabblad Ontwikkelaar op het lint weergeven](https://go.microsoft.com/fwlink/?LinkID=389631) voor meer informatie).  
   
- De elementen in het deelvenster **XML-toewijzing** staan in een structuur die lijkt op de XML-bron. Labelvelden worden gegroepeerd onder een gemeenschappelijk **Labels**-element en gegevensitems en kolommen worden gerangschikt in een hiërarchische structuur die met de XML-bron overeenkomt, met de kolommen weergegeven in alfabetische volgorde. Elementen worden geïdentificeerd op basis van hun kolomnaam, zoals gedefinieerd in de gegevensset van het rapport, in AL-code. Zie voor meer informatie [Een rapportgegevensset definiëren](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
+ De elementen in het deelvenster **XML-toewijzing** staan in een structuur die lijkt op de XML-bron. Labelvelden worden gegroepeerd onder een gemeenschappelijk **Labels**-element en gegevensitems en kolommen worden gerangschikt in een hiërarchische structuur die met de XML-bron overeenkomt, met de kolommen weergegeven in alfabetische volgorde. Elementen worden geïdentificeerd op basis van hun naam, zoals gedefinieerd door de eigenschap Naam in Report Dataset Designer in ADD INCLUDE.<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
  De volgende afbeelding illustreert het eenvoudige aangepaste XML-onderdeel uit de vorige sectie in het deelvenster **XML-toewijzing** van een Word-document.  
   
- ![Clip van het venster XML-toewijzing in Word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Clip van het venster XML-toewijzing in word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Als u een label of veld aan de lay-out wilt toevoegen, voegt u een inhoudsbesturingselement in dat is gekoppeld aan het element in het deelvenster **XML-toewijzing**.  
   
@@ -119,10 +119,7 @@ De volgende tabel bevat een vereenvoudigd overzicht van de XML van een aangepast
   
 -   Voor labels is de werkelijke tekst die in het gegenereerde rapport wordt weergegeven, de waarde van de eigenschap **Bijschrift** voor het veld in de gegevensitemtabel (als het label gerelateerd is aan de kolom in de rapportgegevensset), of een label in Report Label Designer (als het label niet gerelateerd is aan een kolom in de gegevensset).  
   
--   De taal van het label dat wordt weergegeven wanneer u het rapport uitvoert, hangt af van de taalinstelling van het rapportobject.  
+-   De taal van het label dat wordt weergegeven wanneer u het rapport uitvoert, hangt af van de taalinstelling van het rapportobject. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
   
 ## <a name="see-also"></a>Zie ook  
  [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

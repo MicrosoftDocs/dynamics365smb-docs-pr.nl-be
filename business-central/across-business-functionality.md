@@ -1,5 +1,5 @@
 ---
-title: Bedrijfsfunctionaliteit die door Business Central wordt ondersteund
+title: Bedrijfsfunctionaliteit die door Business Central wordt ondersteund | Microsoft Docs
 description: Levert een functieoverzicht van alle afdelingen en bedrijfsfuncties die door toepassingsgebieden worden ondersteund, zoals Financiën, Voorraad, en Projectbeheer.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,22 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b54c72614eb3e55d7cc93a0f3f9587f47e0b29d3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588363"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188778"
 ---
 # <a name="business-functionality"></a>Bedrijfsfunctionaliteit
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functie voor algemene bedrijfsprocessen in kleinere en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening. Complexere processen, zoals assemblage, productie, service en gestuurd magazijnbeheer, worden echter ook ondersteund.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] biedt functie voor algemene bedrijfsprocessen in kleinere en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening. Complexere processen, zoals assemblage, productie, service en gestuurd magazijnbeheer, worden echter ook ondersteund.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan uw zakelijke behoeften. Vanuit uw rolcentrum kunt u toegang krijgen tot begeleide instellingen die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Verschillende gebieden van bedrijfsfunctionaliteit moet u handmatig instellen. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan uw zakelijke behoeften. Vanuit uw rolcentrum kunt u toegang krijgen tot begeleide instellingen die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[prod_short](includes/prod_short.md)]. Verschillende gebieden van bedrijfsfunctionaliteit moet u handmatig instellen. De artikelen van de [snelstartgids voor Business Central](quick-start-business-central.md) kunnen u helpen de eerste stappen te zetten bij het maken van uw eigen [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] instellen](setup.md).
-
-| Als u dit wilt doen: | Zie |
+| Aan | Zie |
 | --- | --- |
 |Betalingen verrichten en innen, uw cashflow beheren, inkomsten en omzet uitstellen, jaarafsluiting voorbereiden en vaste activa beheren.|[Financiën](finance.md)|
 |Krijg inzicht in de prestaties van uw zakelijke activiteiten met budgetten, rapportageschema's en analyseweergaven.|[Bedrijfsinformatie](bi.md)|
@@ -41,15 +40,10 @@ ms.locfileid: "7588363"
 |Plan serviceoproepen en stel serviceorders in, en houd reparatieonderdelen en verbruiksmaterialen bij.|[CRM - Service](service-service.md)|
 |Werkstromen instellen en gebruiken die taken verbinden die worden uitgevoerd door verschillende gebruikers of door het systeem, zoals automatisch boeken. Het aanvragen en verlenen van goedkeuringen om documenten te maken of te boeken, zijn voorbeelden van veelvoorkomende werkstroomstappen.|[Werkstroom](across-workflow.md)|
 |Gebruikers de mogelijkheid geven om gegevens uit te wisselen met externe bronnen voor dagelijkse taken, zoals het versturen/ontvangen van elektronische documenten, bankbestanden importeren/exporteren en wisselkoersen bijwerken.|[Gegevens elektronisch uitwisselen](across-data-exchange.md)|
-|Leg externe documenten vast in [!INCLUDE[prod_short](includes/prod_short.md)], inclusief de bestandbijlagen, en maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
+|Leg externe documenten vast in [!INCLUDE[d365fin](includes/d365fin_md.md)], inclusief de bestandbijlagen, en maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
 
 ## <a name="see-also"></a>Zie ook
-
-[De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Beheer](admin-setup-and-administration.md)  
-[Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Aan de slag](product-get-started.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

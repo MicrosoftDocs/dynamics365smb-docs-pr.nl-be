@@ -1,30 +1,30 @@
 ---
-title: OHW-methoden gebruiken om projectvooruitgang te berekenen en te registreren
+title: OHW-methoden gebruiken om projectvooruitgang te berekenen en te registreren| Microsoft Docs
 description: Beschrijft de verschillende OHW-methoden die u kunt gebruiken om financiële gegevens voor lopende projecten te boeken, te controleren en te berekenen die bezig zijn.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.search.form: 1010
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d7fbe8faa3fc4d75f068ad585faddeb1b5186e70
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 24dc65182bba549f624f8a66e7eecb1341f1aee1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970897"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192807"
 ---
-# <a name="understanding-wip-methods-in-project-management"></a>WIP-methoden in projectbeheer begrijpen
-
+# <a name="understanding-wip-methods"></a>OHW-methoden
 Naarmate een project vordert, worden materialen, resources en overige zaken verbruikt en moeten hiervoor boekingen plaatsvinden op het project. Onderhanden werk (OHW) is een functie waarmee u de financiële waarde van projecten in het grootboek kunt schatten gedurende de projecten. In veel gevallen kunt u kosten voor een project boeken voordat u het project factureert. Wanneer alleen kosten zijn geboekt, klopt het financiële afschrift niet.
 
 Als u de waarde in het grootboek wilt volgen, kunt u het OHW-bedrag berekenen en de waarde boeken in het grootboek. Zie voor meer informatie [Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt de volgende methoden om de waarde van onderhanden werk te berekenen en vast te leggen.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de volgende methoden om de waarde van onderhanden werk te berekenen en vast te leggen.
 
 | OHW-methode | Berekeningsformule | Omschrijving van berekening |
 | --- | --- | --- |
@@ -35,12 +35,8 @@ Als u de waarde in het grootboek wilt volgen, kunt u het OHW-bedrag berekenen en
 | Voltooid contract |OHW-bedrag = Totale OHW-kosten = Gebruik (totale kostprijs)<br /><br /> Omzet OHW = Factureerbaar (gefactureerde prijs) |Bij Contract voltooid worden de inkomsten en de kosten pas verantwoord als het project is voltooid. U kunt hiervoor kiezen als de geschatte kosten en inkomsten van het project nog niet zeker zijn.<br /><br /> Al het gebruik wordt op de OHW-kostenrekening (activum) geboekt, terwijl alle gefactureerde omzet op de rekening gefactureerde omzet OHW (passief) wordt geboekt totdat het project is voltooid. |
 
 ## <a name="see-also"></a>Zie ook
-
 [Projectbeheer](projects-manage-projects.md)  
 [Financiën](finance.md)  
-[Inkoop](purchasing-manage-purchasing.md)  
-[Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Inkoop](purchasing-manage-purchasing.md)         
+[Verkoop](sales-manage-sales.md)      
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

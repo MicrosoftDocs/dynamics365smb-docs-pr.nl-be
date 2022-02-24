@@ -1,24 +1,23 @@
 ---
-title: Verbruiksoutput registreren voor productieorder
-description: In dit onderwerp wordt uitgelegd hoe u verbruik en output registreert voor een vrijgegeven productieorderregel die wordt weergegeven op de pagina Productiedagboek.
+title: Verbruik en output registreren voor één productieorder | Microsoft Docs
+description: 'Het gaat hier om een uitvoeringstaak die wordt uitgevoerd op de pagina **Productiedagboek**. Hierin worden de functies van de dagboeken voor afzonderlijk gebruik en voor output in één dagboek gecombineerd. Het gecombineerde dagboek kan rechtstreeks vanuit een vrijgegeven productieorder worden geopend. De belangrijkste doelen van het dagboek zijn: het handmatig boeken van materiaalverbruik, het aantal geproduceerde eindartikelen en de tijd die bewerkingen kosten.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5510
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 43f49adcc182f279126fbb8d2d6652153a626b4d
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 747a38ae8390c45995091c377c5c05d3140949dc
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973825"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877915"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Verbruik en output registreren voor één vrijgegeven productieorderregel
-
 Het gaat hier om een uitvoeringstaak die wordt uitgevoerd op de pagina **Productiedagboek**. Hierin worden de functies van de dagboeken voor afzonderlijk gebruik en voor output in één dagboek gecombineerd. Het gecombineerde dagboek kan rechtstreeks vanuit een vrijgegeven productieorder worden geopend. De belangrijkste doelen van het dagboek zijn: het handmatig boeken van materiaalverbruik, het aantal geproduceerde eindartikelen en de tijd die bewerkingen kosten. De waarden worden geboekt naar posten onder de vrijgegeven productieorder. Verbruiksaantallen worden geboekt als negatieve artikelposten, outputaantallen worden geboekt als positieve artikelposten en bestede tijd wordt geboekt als capaciteitspost. Die geboekte waarden kunnen ook onder in het dagboek worden weergegeven als werkelijke aantallen.  
 
 > [!NOTE]  
@@ -28,7 +27,7 @@ Het gaat hier om een uitvoeringstaak die wordt uitgevoerd op de pagina **Product
 >  materialen zonder bewerkingsplankoppelingen worden in het dagboek als eerste weergegeven.  
 
 ## <a name="to-register-consumption-and-output"></a>Verbruik en output registreren  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies de gerelateerde koppeling.  
 2.  Open een vrijgegeven productieorderregel die gereed is voor registratie en kies op het sneltabblad **Regels** de actie **Regel** en kies vervolgens de actie **Productiedagboek**.  
 
     De pagina **Productiedagboek** wordt geopend met dagboekregels voor de productieorderregel volgens de pagina's **Materiaalregel** en **Prod.-orderbewerkingsplan**. Deze regels zijn afkomstig uit de productiestuklijst en het bewerkingsplan die zijn toegewezen aan het artikel dat wordt geproduceerd. Zie voor meer informatie [Productiestuklijsten maken](production-how-to-create-routings.md).  
@@ -38,15 +37,15 @@ Het gaat hier om een uitvoeringstaak die wordt uitgevoerd op de pagina **Product
     > [!NOTE]  
     >  Dit veld wordt overschreven door boekingsdatums die op de afzonderlijke regels worden ingevoerd.  
 
-4.  In het veld **Filter afboekingsmethode** boven aan het dagboek, kunt u aangeven dat het verbruik en de output die automatisch worden geboekt volgens de respectievelijk voor het artikel en de resource gedefinieerde afboekingsmethoden, moeten worden weergegeven. Zie voor meer informatie [Afboeking van materialen op basis van de uitvoer van een bewerking inschakelen](production-how-to-flush-components-according-to-operation-output.md).   
+4.  In het veld **Filter afboekingsmethode** boven aan het dagboek, kunt u aangeven dat het verbruik en de output die automatisch worden geboekt volgens de respectievelijk voor het artikel en de resource gedefinieerde afboekingsmethoden, moeten worden weergegeven.  
 
-5.  Ga door met het invoeren van aantallen in de bewerkbare velden voor verbruik en output.  
-  
     Alleen de relevante velden worden weergegeven voor elk soort regel in het dagboek. De overige regels zijn leeg en tegen schrijven beveiligd.  
 
     Wanneer het dagboek wordt geopend, zijn de aantallen die moeten worden geboekt al ingevuld. Wanneer er tot dusver nog niets is geboekt, wordt standaard in alle aantalvelden het verwachte aantal dat de productieorder zal opleveren, weergegeven. Als er deelboekingen zijn uitgevoerd, wordt op de aantalvelden op de regels het resterende aantal weergegeven. De aantallen en tijden die al geboekt zijn, worden onder in het dagboek weergegeven als werkelijke posten.  
 
     Wat betreft aantallen in het veld **Outputaantal** kunt u de waarden instellen die automatisch moeten worden weergegeven wanneer het dagboek voor het eerst wordt geopend. Dit doet u vanuit de pagina **Productie-instellingen**, op het sneltabblad **Algemeen** in het veld **Vooraf ingestelde outputaantal**.
+
+5.  Ga door met het invoeren van aantallen in de bewerkbare velden voor verbruik en output.  
 
     > [!NOTE]  
     >  Alleen met het outputaantal op de laatste dagboekregel van boekingssoort **Output** wordt de voorraadafdeling geherwaardeerd als het dagboek wordt geboekt. Zorg er dan ook voor dat u het dagboek niet boekt (met het verwachte outputaantal dat vooraf is ingesteld op de laatste outputregel) totdat alle eindartikelen ook daadwerkelijk zijn geproduceerd.  
@@ -71,7 +70,4 @@ Als er nog waarden moeten worden geboekt, bevat het dagboek deze resterende waar
 [Gepland](production-planning.md)      
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

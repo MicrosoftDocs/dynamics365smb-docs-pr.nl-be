@@ -1,6 +1,6 @@
 ---
-title: Lokale functionaliteit en lokalisatiestrategie
-description: Lees meer over de lokale beschikbaarheid en naleving van regelgeving in Business Central voor de landen/regio's waar Microsoft de lokale functionaliteit biedt.
+title: Lokale functionaliteit in Business Central | Microsoft Docs
+description: Meer informatie over de beschikbaarheid en wettelijke naleving van Dynamics 365 Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 06/11/2021
+ms.date: 01/10/2020
 ms.author: edupont
-ms.openlocfilehash: 6967e54999c1bb2a0a9e7fe095e8c3cca9543ec8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 572e56b6d1ba95a427faed89c2f86471c0fea929
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321707"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952902"
 ---
-# <a name="local-functionality-in-prod_long"></a>Lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-prodlong"></a>Lokale functionaliteit in [!INCLUDE[prodlong](includes/prodlong.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] heeft een gecombineerde lokalisatiestrategie die zowel door Microsoft geleide als door partners geleide modellen bevat. In dit gedeelte kunt u beschrijvingen van functionaliteit bekijken die geldt voor de landen/regio's waarin Microsoft de wettelijke naleving en andere lokale functionaliteit levert.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] heeft een gecombineerde lokalisatiestrategie die zowel door Microsoft geleide als door partners geleide modellen bevat. In dit gedeelte kunt u beschrijvingen van functionaliteit bekijken die geldt voor de landen/regio's waarin Microsoft de wettelijke naleving en andere lokale functionaliteit levert.  
 
 Zie voor een lijst van momenteel ondersteunde markten [Beschikbaarheid in landen en regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## <a name="local-functionality"></a>Lokale functionaliteit
 
-Kies voor meer informatie over de lokale functionaliteit voor elk land/regio de gerelateerde koppeling:
+Kies voor meer informatie over de lokale functionaliteit voor elk land de gerelateerde koppeling:
 
 | Regio | Land | Meer informatie |
 | --- | --- |--- |
@@ -51,20 +51,14 @@ Kies voor meer informatie over de lokale functionaliteit voor elk land/regio de 
 |        | Verenigde Staten|[Lokale functionaliteit voor de Verenigde Staten](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Azië/Pacific |       |  |
 |        | Australië | [Lokale functionaliteit voor Australië](localfunctionality/australia/australia-local-functionality.md) |
-|        | India | [Lokale functionaliteit voor India](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nieuw-Zeeland | [Lokale functionaliteit voor Nieuw Zeeland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Andere landen/regio's
-
-[!INCLUDE[prod_short](includes/prod_short.md)] is tevens in andere markten beschikbaar via lokalisatieapps. Als een Microsoft-partner een lokalisatieapp voor uw land/regio heeft ontwikkeld, kunt u deze vinden in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is tevens in andere markten beschikbaar via lokalisatieapps. Als een Microsoft-partner een lokalisatieapp voor uw land heeft ontwikkeld, kunt u deze vinden in [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Zie ook
-
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Aan de slag](product-get-started.md)  
 [Naleving](compliance/compliance-overview.md)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Internationale beschikbaarheid van Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Ontwikkeling van een lokalisatieoplossing](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

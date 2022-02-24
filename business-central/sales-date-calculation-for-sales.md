@@ -1,24 +1,24 @@
 ---
-title: Datumberekening voor verkoop
-description: De toepassing berekent automatisch de datum waarop u een artikel moet bestellen zodat u het op een bepaalde datum in voorraad hebt en beschikbaar hebt voor picken.
+title: Datumberekening voor verkoop | Microsoft Docs
+description: De toepassing berekent automatisch de datum waarop u een artikel moet bestellen zodat u het op een bepaalde datum in voorraad hebt. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 221580cebab85be781cd56d461e9d75bb321c15b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7cbaeda98b06b742175563646f513ca78f874b70
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320218"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191871"
 ---
 # <a name="date-calculation-for-sales"></a>Datumberekening voor verkoop
-[!INCLUDE[prod_short](includes/prod_short.md)] berekent automatisch de vroegst mogelijke datum waarop een artikel op een verkooporderregel kan worden verzonden.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] berekent automatisch de vroegst mogelijke datum waarop een artikel op een verkooporderregel kan worden verzonden.
 
 Als de klant om een specifieke leverdatum heeft verzocht, wordt berekend op welke datum de artikelen moeten kunnen worden gepickt, zodat ze op deze datum kunnen worden geleverd.
 
@@ -45,7 +45,4 @@ Als u geen aangevraagde leverdatum op de verkooporderregel hebt opgegeven of als
 ## <a name="see-also"></a>Zie ook  
  [Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)   
  [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)  
- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

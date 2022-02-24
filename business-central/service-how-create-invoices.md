@@ -1,28 +1,28 @@
 ---
-title: Facturen of creditnota's voor services maken
-description: Leer hoe u Business Central gebruikt om naadloos creditfacturen en creditnota's voor uw services te maken.
+title: Facturen of creditnota's maken voor services | Microsoft Docs
+description: Leer hoe u facturen maakt zodat u kunt worden betaald voor uw service.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 05/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: ad5003e8dac33ac5886caa698650ba211c9b89ae
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440165"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402537"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Servicefacturen of creditnota's maken
-Gemakkelijke facturering van uw serviceorders is een van de belangrijkste kenmerken van [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt uw [!INCLUDE[prod_short](includes/prod_short.md)] ook zo instellen dat een servicetechnicus op locatie een factuur kan maken voor een service die niet aan een contract of order is verbonden. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] ook instellen zodat u periodiek servicecontracten factureert. Met de factuurperiode voor elk contract wordt bepaald hoe vaak u dit factureert.
+Gemakkelijke facturering van uw serviceorders is een van de belangrijkste kenmerken van [!INCLUDE[prodshort](includes/prodshort.md)]. U kunt uw [!INCLUDE[prodshort](includes/prodshort.md)] ook zo instellen dat een servicetechnicus op locatie een factuur kan maken voor een service die niet aan een contract of order is verbonden. U kunt [!INCLUDE[prodshort](includes/prodshort.md)] ook instellen zodat u periodiek servicecontracten factureert. Met de factuurperiode voor elk contract wordt bepaald hoe vaak u dit factureert.
 
 ## <a name="to-invoice-several-service-contracts"></a>Meerdere servicecontracten factureren
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicecontractfacturen maken** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontractfacturen maken** in en kies de desbetreffende koppeling.  
 2. Stel de filters in die u wilt toepassen.  
 3. Voer in het veld **Boekingsdatum** de boekingsdatum in voor de gemaakte servicefacturen.  
 4. Geef in het veld **Factureren tot datum** aan tot welke datum u contracten wilt factureren. In de batchverwerking worden de contracten met de volgende factuurdatums tot deze datum opgenomen.  
@@ -32,7 +32,7 @@ Gemakkelijke facturering van uw serviceorders is een van de belangrijkste kenmer
 U kunt een servicecontract ook rechtstreeks factureren vanaf de pagina **Servicecontract**, als de volgende factuurdatum op het contract eerder is dan de werkdatum.
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Een servicecontract factureren via de pagina Servicecontract   
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicecontracten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** in en kies de desbetreffende koppeling.  
 2. Kies het servicecontract waarvoor u wilt factureren en open de contractkaart.  
 3. Kies de actie **Servicefactuur maken**. 
 4. Kies **Ja** om de servicefacturen te maken.  
@@ -43,7 +43,7 @@ U kunt een servicecontract ook rechtstreeks factureren vanaf de pagina **Service
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Een factuur boeken vanuit een serviceorder  
 In de volgende procedure wordt beschreven hoe u het servicedeel opgeeft dat u aan de klant in rekening brengt.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies de desbetreffende koppeling.  
 2. Kies de serviceorder waarvoor u wilt factureren en open de orderkaart.  
 3. Kies de actie **Serviceregels**.  
 4. Zoek de gewenste posten en geef in het veld **Te factureren aantal** het aantal op dat u in rekening gaat brengen aan de klant.  
@@ -62,7 +62,7 @@ In de volgende procedure wordt beschreven hoe u het servicedeel opgeeft dat u aa
 ## <a name="to-create-a-service-invoice-manually"></a>Een servicefactuur handmatig maken  
 Normaal gesproken, wanneer u een serviceorder boekt met de optie **Factureren** of **Verzenden en factureren**, wordt automatisch een servicefactuur geboekt. Toch kan het nodig zijn dat u een factuur moet verzenden die niet is gekoppeld aan een servicecontract of aan een serviceorder. In deze procedure wordt uitgelegd hoe u een factuur verzendt op hetzelfde moment dat de klant de service ontvangt.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicefacturen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicefacturen** in en kies de desbetreffende koppeling.  
 2. Maak een nieuwe servicefactuur.  
 3. Vul het veld **Nr.** toe te wijzen.  
   
@@ -80,7 +80,7 @@ Normaal gesproken, wanneer u een serviceorder boekt met de optie **Factureren** 
 ## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Een factuur maken die geboekte verzendingsregels van een of meer serviceorders combineert 
 Het kan voorkomen dat u een servicefactuur moet opstellen voor een service die al is geleverd, vanuit één of verschillende serviceorders, maar die nog niet is gefactureerd of verbruikt. U kunt de geselecteerde geboekte verzendregels voor een bepaalde klant automatisch laten invullen op de factuurregels.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicefacturen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicefacturen** in en kies de desbetreffende koppeling.  
 2. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 3. Maak factuurregels voor services die zijn verzonden maar die nog niet gefactureerd. U kunt ook de actie **Verzendregels ophalen** gebruiken om geboekte verzendregels aan de factuur toe te voegen.  
 4. Boek de servicefactuur.  
@@ -90,7 +90,7 @@ Het kan voorkomen dat u een servicefactuur moet opstellen voor een service die a
 ## <a name="to-create-a-service-credit-memo"></a>Een servicecreditnota maken  
 Servicecreditnotadocumenten worden meestal gebruikt wanneer klanten artikelen terugsturen, maar ze kunnen ook worden gebruikt om klanten te compenseren of om foutieve facturen te corrigeren.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicecreditnota's** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecreditnota's** in en kies de desbetreffende koppeling.  
 2. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. In de velden **Boekingsdatum** en **Documentdatum** wordt de werkdatum weergegeven. Indien nodig kunt u deze wijzigen.    
 4. Voer op de creditnotaregels gegevens in over de artikelen die zijn teruggestuurd of verwijderd of over de vergoeding die aan de klant zal worden gegeven.  
@@ -99,6 +99,3 @@ Servicecreditnotadocumenten worden meestal gebruikt wanneer klanten artikelen te
 [Servicefacturen boeken](service-how-to-post-service-orders.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [Serviceboekingen](service-service-posting.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

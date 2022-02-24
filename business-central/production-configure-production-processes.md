@@ -1,24 +1,23 @@
 ---
-title: Productieprocessen configureren
+title: Productieprocessen configureren | Microsoft Docs
 description: Als u materiaal wilt omzetten in geproduceerde eindartikelen, moeten productieresources, zoals stuklijsten, bewerkingsplannen, machinebedienden en machines worden ingesteld in het systeem.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000768, 99000779, 99000780, 99000866
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d15f1dd84a151224189a52ae73f5276ac14afbc9
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/22/2020
+ms.author: sgroespe
+ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972368"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324354"
 ---
 # <a name="setting-up-manufacturing"></a>Productie instellen
-
 Als u materiaal wilt omzetten in geproduceerde eindartikelen, moeten productieresources, zoals stuklijsten, bewerkingsplannen, machinebedienden en machines worden ingesteld in het systeem.
 
 Machinebedienden en machines worden in het systeem weergegeven als bewerkingsplaatsen die in afdelingen en afdelingsgroepen kunnen worden ingedeeld. Wanneer deze resources zijn ingesteld, kunnen hieraan bewerkingen worden toegewezen aan de hand van de gedefinieerde materiaal- (stuklijst) en processtructuur (bewerkingsplan) voor het artikel en volgens de capaciteit van de bewerkingsplaats of afdeling. U kunt ook de productiecapaciteit van elke afzonderlijke resource instellen. De capaciteit wordt gedefinieerd aan de hand van de beschikbare werktijd voor de machine en afdelingen en wordt bepaald door agenda's voor elk niveau. In een agenda voor een afdeling worden de gegevens voor het aantal werkdagen of -uren, de diensten, de vakantiedagen en de afwezigheid aangegeven die de bruto beschikbare capaciteit van de afdeling bepalen (gewoonlijk uitgedrukt in minuten). Dit alles wordt bepaald door de waarden die zijn gedefinieerd voor de efficiency en capaciteit.  
@@ -43,11 +42,8 @@ Wanneer u de productie hebt ingesteld, kunt u productieorders plannen en uitvoer
 |Afdelingen en bewerkingsplannen voor uitbestede productiebewerkingen voorbereiden.|[Productie uitbesteden](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Zie ook
-[Productie](production-manage-manufacturing.md)
-[Planning](production-planning.md)   
+[Productie](production-manage-manufacturing.md)    
+[Gepland](production-planning.md)   
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

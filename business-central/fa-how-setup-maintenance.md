@@ -1,22 +1,23 @@
 ---
-title: Onderhoud van vaste activa instellen
+title: VA-onderhoud instellen| Microsoft Docs
 description: Als u reparaties en service van vaste activa wilt beheren, geeft u algemene onderhoudsinformatie, codes voor het soort werk en een boekingsrekening voor kosten op.
-author: edupont04
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.search.form: 5600, 5642
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 1aefc5d0e1453b2f43b9e72f587c0d9f90d07b4e
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f5681caba59be7c573f8c85f1629dd05da86e243
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029494"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184232"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Onderhoud van vaste activa instellen
 Als u onderhoud voor vaste activa wilt beheren, moet u eerst enkele algemene onderhoudsgegevens instellen, een boekingsrekening voor onderhoudskosten en onderhoudscodes voor soorten werk, zoals periodiek onderhoud of reparatie.
@@ -24,20 +25,20 @@ Als u onderhoud voor vaste activa wilt beheren, moet u eerst enkele algemene ond
 ## <a name="to-set-up-general-maintenance-information"></a>Algemene onderhoudsgegevens instellen
 Als u de velden voor onderhoud instelt, kunt u onderhoudskosten boeken vanuit een dagboek voor vaste activa.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies de gerelateerde koppeling.
 2. Selecteer het vaste activum waarvoor u verzekeringsdekking wilt definiëren en kies vervolgens de actie **Bewerken**.
 3. Vul indien nodig de velden op het sneltabblad **Onderhoud** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>Onderhoudscodes instellen
 Als u onderhoudskosten boekt vanuit een algemeen dagboek, vult u het veld **Onderhoudscode** in om te registreren wat voor onderhoud is uitgevoerd, zoals periodiek onderhoud of reparatie.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Onderhoud** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Onderhoud** in en kies de gerelateerde koppeling.
 2. Stel op de pagina **Onderhoud** codes voor verschillende soorten onderhoudswerk in.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Onderhoudskostenrekeningen instellen
 Als u onderhoudskosten wilt boeken, moet u eerst een rekeningnummer invoeren op de pagina **VA-boekingsgroepen**.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-boekingsgroepen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-boekingsgroepen** in en kies de gerelateerde koppeling.
 2. Vul voor elke boekingsgroep het veld **Onderhoudskostenrek.** in.
 
 > [!NOTE]  
@@ -47,8 +48,5 @@ Als u onderhoudskosten wilt boeken, moet u eerst een rekeningnummer invoeren op 
 [Vaste activa instellen](fa-setup.md)  
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Aan de slag](product-get-started.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

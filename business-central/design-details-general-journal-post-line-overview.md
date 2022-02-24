@@ -1,27 +1,26 @@
 ---
-title: Overzicht dagboekboekingsregel
-description: Dit onderwerp introduceert wijzigingen in Codeunit 12, Dagboek - Boekingsregel, en is de enige plaats om grootboek-, btw- en klant- en leveranciersposten in te voeren.
+title: Overzicht dagboekboekingsregel | Microsoft Docs
+description: In dit onderwerp worden de wijzigingen beschreven die zijn doorgevoerd in Codeunit 12, **Dagboek - Boekingsregel**, het belangrijkste toepassingsobject voor grootboekboekingen en de enige plaats om grootboek-, btw-, klanten- en leveranciersposten in te voegen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 849bf54380aa7ee3abe09986a168aa946a1b3426
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ffe7e29d26b386f0a69cc3a7377bf9ff58f93abf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011045"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185456"
 ---
 # <a name="general-journal-post-line-overview"></a>Overzicht dagboekboekingsregel
-
 Codeunit 12, **Dagboek - Boekingsregel**, is het belangrijkste toepassingsobject voor grootboekboekingen en is de enige plaats om grootboek-, btw, klanten- en leveranciersposten in te voegen. Deze codeunit wordt ook gebruikt voor de bewerkingen Vereffenen, Vereffening ongedaan maken en Tegenboeken.  
   
-In Microsoft Dynamics NAV 2013 R2 werd de codeunit opnieuw ontworpen omdat deze erg groot was geworden, met ongeveer 7.600 coderegels. De architectuur is gewijzigd en de codeunit is eenvoudiger en makkelijker te beheren gemaakt. Deze documentatie beschrijft de wijzigingen en bevat informatie die u nodig hebt voor upgrades.  
+Terwijl de codeunit in elke versie gedurende de laatste tien jaar is verbeterd, bleef de architectuur hoofdzakelijk ongewijzigd. De codeunit werd zeer groot, met ongeveer 7.600 coderegels. In deze versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] is de architectuur gewijzigd en is de codeunit eenvoudiger en makkelijker te beheren. Deze documentatie introduceert de wijzigingen en bevat informatie die u nodig hebt voor upgrades.  
   
 ## <a name="old-architecture"></a>Oude architectuur  
 De oude architectuur had de volgende functies:  
@@ -35,7 +34,7 @@ De oude architectuur had de volgende functies:
 * Boeken, Vereffenen, Vereffening ongedaan maken, Tegenboeken, Contantkorting en betalingstolerantie, en Wisselkoersherwaardering waren aan elkaar gekoppeld in codeunit 12 met gebruik van een lange lijst van algemene variabelen.  
   
 ### <a name="new-architecture"></a>Nieuwe architectuur  
-In [!INCLUDE[prod_short](includes/prod_short.md)] heeft codeunit 12 de volgende verbeteringen:  
+In [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft codeunit 12 de volgende verbeteringen:  
   
 * Codeunit 12 is opnieuw gestructureerd in kleinere procedures (alle korter dan 100 coderegels).  
 * Gestandaardiseerde patronen voor de zoekopdracht van grootboekrekeningen zijn geïmplementeerd door het gebruik van Help-functies uit de boekingsgroeptabellen.  
@@ -44,11 +43,6 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] heeft codeunit 12 de volgende 
 * Veel Help-functies zijn overgebracht naar overeenkomstige tabellen voor klant- en leveranciersposten.  
 * Het gebruik van algemene variabelen is geminimaliseerd, zodat elke procedure parameters gebruikt en een eigen toepassingslogica omvat.  
   
-## <a name="see-also"></a>Zie ook
-
-[Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)  
-[Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)  
-[Ontwerpdetails: dagboekboekingsregel (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Zie ook  
+[Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)   
+[Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)

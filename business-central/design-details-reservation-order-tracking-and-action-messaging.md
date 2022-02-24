@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Reservering, ordertracering en planningsboodschappen | M
 description: Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parallelle functies van ordertracering en planningsboodschappen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, replenishment, reordering
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 4671954cd059360e4f16db5cb4a4faf3ce01aff4
-ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ec2162e28cba919bfee1069188be942c9e1676b6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "7949082"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184808"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Ontwerpdetails: Reservering, ordertracering en planningsboodschappen
 Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parallelle functies van ordertracering en planningsboodschappen.  
@@ -29,13 +29,10 @@ Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parall
 
  Het reserveringssysteem vormt ook de structurele basis voor het artikeltraceringsysteem. Zie [Ontwerpdetails: artikeltracering](design-details-item-tracking.md) voor meer informatie.  
 
- <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
-
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+ Voor meer gedetailleerde informatie over de werking van het reserveringssysteem raadpleegt u de whitepaper "Tabel Reserveringspost" op [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Reservering  
- Een reservering is een vaste koppeling die bepaalde vraag en een bepaald aanbod aan elkaar koppelt. Deze koppeling heeft rechtstreeks invloed op de verdere voorraadtransactie en zorgt voor de juiste vereffening van artikelposten voor waarderingsdoeleinden. Een reservering overschrijft de standaardwaarderingsmethode van een artikel. Zie [Ontwerpdetails: artikeltracering](design-details-item-tracking.md) voor meer informatie.  
+ Een reservering is een vaste koppeling die bepaalde vraag en een bepaald aanbod aan elkaar koppelt. Deze koppeling heeft rechtstreeks invloed op de verdere voorraadtransactie en zorgt voor de juiste vereffening van artikelposten voor waarderingsdoeleinden. Een reservering overschrijft de standaardwaarderingsmethode van een artikel. Zie “Ontwikkelingsdetails: waarderingsmethoden” voor meer informatie.  
 
  De pagina **Reservering** is toegankelijk vanaf alle orderregels van zowel soorten vraag als voorziening. Op deze pagina kan de gebruiker opgeven met welke vraag- of aanbodpost een reserveringskoppeling moet worden gemaakt. De reservering bestaat uit een paar records dat hetzelfde volgnummer deelt. Eén record heeft een negatief teken en verwijst naar de vraag. De andere record heeft een positief teken en wijst naar de voorziening. Deze records worden opgeslagen in de tabel **Reserveringspost** met statuswaarde **Reservering**. De gebruiker kan alle reserveringen bekijken op de pagina **Reserveringsposten**.  
 
@@ -74,7 +71,7 @@ Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parall
 |Vestiging, opslaglocatie, variant, serienummer of lotnummer wijzigen|De reservering is geannuleerd.|  
 
 > [!NOTE]  
->  Met de functie voor late binding kunnen ook reserveringen worden gewijzigd zonder de gebruiker te informeren, door niet-specifieke reserveringen van serie- of lotnummers te wisselen. Zie voor meer informatie 'Ontwerpdetails: Artikeltracering en reservering'.  
+>  Met de functie voor late binding kunnen ook reserveringen worden gewijzigd zonder de gebruiker te informeren, door niet-specifieke reserveringen van serie- of lotnummers te wisselen. Zie voor meer informatie “Ontwerpdetails: Artikeltracering en reservering”.  
 
 ### <a name="automatic-reservations"></a>Automatische reserveringen  
  De artikelkaart kan worden ingesteld om altijd automatisch te worden gereserveerd uit vraag, zoals verkooporders. In dat geval wordt de reservering gedaan op basis van voorraad, inkooporders, assemblageorders en productieorders. Er wordt een waarschuwing gegeven als het aanbod ontoereikend is.  
@@ -89,7 +86,7 @@ Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parall
 
 -   Een assemblageorder die automatisch voor een verkooporderregel wordt gemaakt om aan het aantal in het veld **($ T_37_900 Qty. to Assemble to Order $)** te voldoen. Deze automatische reservering koppelt de verkoopvraag en de assemblagevoorziening, zodat de verkooporderverwerkers de component rechtstreeks kunnen aanpassen en aan de klant kunnen toezeggen. Bovendien koppelt de reservering de assemblage-uitvoer aan de verkooporderregel door middel van de verzendactiviteit die voldoet aan de order van de klant.  
 
- In het geval van voorzieningen of vraag die niet is toegewezen, wijst het planningssysteem automatisch een reserveringsstatus van de soort **Overschot** toe. Dit kan resulteren uit vraag die het gevolg is van voorspelde aantallen of door de gebruiker ingevoerde planningsparameters. Dit is legitiem overschot, dat door het systeem wordt herkend en geen planningsboodschappen tot gevolg heeft. Overschot moet ook werkelijke, overtollige voorzieningen of vraag zijn die niet-getraceerd blijft. Dit is een aanduiding om aan te geven dat het ordernetwerk niet in evenwicht is, waardoor het systeem planningsboodschappen verzendt. Een planningsboodschap die een wijziging van aantal voorstelt, verwijst altijd naar de soort **Overschot**. Zie voor meer informatie het gedeelte 'Voorbeeld: Ordertracering in verkoop, productie en transfers' in dit onderwerp.  
+ In het geval van voorzieningen of vraag die niet is toegewezen, wijst het planningssysteem automatisch een reserveringsstatus van de soort **Overschot** toe. Dit kan resulteren uit vraag die het gevolg is van voorspelde aantallen of door de gebruiker ingevoerde planningsparameters. Dit is legitiem overschot, dat door het systeem wordt herkend en geen planningsboodschappen tot gevolg heeft. Overschot moet ook werkelijke, overtollige voorzieningen of vraag zijn die niet-getraceerd blijft. Dit is een aanduiding om aan te geven dat het ordernetwerk niet in evenwicht is, waardoor het systeem planningsboodschappen verzendt. Een planningsboodschap die een wijziging van aantal voorstelt, verwijst altijd naar de soort **Overschot**. Zie voor meer informatie het gedeelte "Voorbeeld: Ordertracering in verkoop, productie en transfers" in dit onderwerp.  
 
  Automatische reserveringen die worden gemaakt tijdens de planning, worden verwerkt op de volgende manieren:  
 
@@ -111,7 +108,7 @@ Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parall
 
  Dit principe geeft aan dat een wijziging in de vraagresultaten ertoe leidt dat de voorzieningenzijde van het ordernetwerk niet meer in evenwicht is. Andersom leidt een wijziging in voorzieningenresultaten tot een corresponderende onbalans aan de vraagzijde van het ordernetwerk. In werkelijkheid bevindt het ordernetwerk zich in een constante stroom terwijl gebruikers orders invoeren, wijzigen en verwijderen. Tijdens ordertracering worden orders dynamisch verwerkt, in reactie op elke wijziging op het moment dat deze het systeem binnenkomt en onderdeel wordt van het ordernetwerk. Zodra nieuwe ordertraceringsrecords worden gemaakt, is het ordernetwerk in balans, maar slechts tot de volgende wijziging zich voordoet.  
 
- Om de transparantie te verhogen van berekeningen in het planningssysteem, worden op de pagina **Niet-getraceerde planningselementen** niet-getraceerde aantallen weergegeven, die het verschil in aantal aangeven tussen bekende vraag en voorgestelde voorziening. Elke regel op de pagina verwijst naar de oorzaak van het bovenmatige aantal, bijvoorbeeld **Raamcontract**, **Veiligheidsvoorraadniveau**, **Vast bestelaantal**, **Min. bestelaantal**, **Afronding** of **Demping**.  
+ Om de transparantie te verhogen van berekeningen in het planningssysteem, wordt op de pagina **Niet-getraceerde planningselementen** niet-getraceerde aantallen weergegeven, die het verschil in aantal aangeven tussen bekende vraag en voorgestelde voorziening. Elke regel op de pagina verwijst naar de oorzaak van het bovenmatige aantal, bijvoorbeeld **Raamcontract**, **Veiligheidsvoorraadniveau**, **Vast bestelaantal**, **Min. bestelaantal**, **Afronding** of **Demping**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Compenseren in ordertracering  
  In tegenstelling tot reserveringen, die alleen kunnen worden gedaan op basis van beschikbare artikelaantallen, is ordertracering mogelijk op basis van alle ordernetwerkentiteiten die deel uitmaken van de berekening van nettovereisten van het planningssysteem. De nettobehoeften worden als volgt berekend:  
@@ -126,19 +123,19 @@ Het reserveringssysteem is uitgebreid en omvat de met elkaar verbonden en parall
 
  Stel dat er de volgende gegevens zijn voor twee artikelen die zijn ingesteld voor ordertracering.  
 
-|Artikel 1|Name|"Component"|
+|Artikel 1|Name|“Materiaal”|
 |-|-|-|
-||Beschikbaarheid|100 eenheden op WEST-vestiging<br /><br />- 30 eenheden van LOTA<br />- 70 eenheden van LOTB|  
+||Beschikbaarheid|100 eenheden op RODE vestiging<br /><br />- 30 eenheden van LOTA<br />- 70 eenheden van LOTB|  
 |Artikel 2|Name|“Gefabriceerd artikel”|
 ||Productiestuklijst|aant. 1 per "Component"|  
-||Vraag|Verkoop voor 100 eenheden op OOST-vestiging|  
+||Vraag|Verkoop voor 100 eenheden op BLAUWE vestiging|  
 ||Voorraad|Vrijgegeven productieorder (gegenereerd met de functie **Verkooporderplanning** voor de verkoop van 100 eenheden)|  
 
 Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging** ingesteld op **ROOD**.
 
  Er bestaan de volgende ordertraceringsposten in de tabel **Reserveringspost** op basis van de gegevens in de tabel.  
 
- ![Eerste voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Ordertraceringsposten in de tabel Reserveringspost](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Volgnummers 8 en 9  
  Voor de onderdelenlijst voor respectievelijk LOTA en LOTB worden ordertraceringskoppelingen gemaakt van de vraag in tabel 5407, **Materiaalregel**, naar het aanbod in tabel 32, **Artikelpost**. Het veld **Status reservering** bevat **Tracering** om aan te geven dat deze posten dynamische ordertraceringkoppelingen tussen voorzieningen en vraag.  
@@ -149,14 +146,14 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 ### <a name="entry-numbers-10"></a>Volgnummers 10  
  Vanuit de verkoopvraag in tabel 37, **Verkoopregel**, wordt een ordertraceringskoppeling gemaakt naar het aanbod in tabel 5406, **Prod.-orderregel**. Het veld **Status reservering** bevat **Reservering** en het veld **Binding** bevat het veld **Order-naar-order**. Dit komt doordat de vrijgegeven productieorder specifiek voor de verkooporder is gegenereerd en gekoppeld moet blijven, in tegenstelling tot ordertraceringskoppelingen met de reserveringstatus **Tracering**, die dynamisch worden gemaakt en gewijzigd. Zie het onderdeel “Automatische reserveringen” in dit onderwerp voor meer informatie.  
 
- Op dit punt in het scenario worden de 100 eenheden van LOTA en LOTB overgebracht naar de OOST-vestiging met een transferorder.  
+ Op dit punt in het scenario worden de 100 eenheden van LOTA en LOTB overgebracht naar de BLAUWE vestiging met een transferorder.  
 
 > [!NOTE]  
 >  Alleen de transferorderverzending wordt op dit moment geboekt, niet de ontvangst.  
 
  Nu bevat de tabel **Reserveringspost** de volgende ordertraceringsposten.  
 
- ![Tweede voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Ordertraceringsposten in de tabel Reserveringspost](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Volgnummers 8 en 9  
  De reserveringsstatus van ordertraceringsposten voor de twee lots van het onderdeel die vraag reflecteren in tabel 5407, verandert van **Tracering** in **Overschot**. De reden is dat de goederen waaraan ze eerder zijn gekoppeld, in tabel 32, zijn gebruikt door de verzending van de transferorder.  
@@ -166,22 +163,22 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 ### <a name="entry-numbers-12-to-16"></a>Volgnummers 12 tot 16  
  Omdat de twee lots van het materiaal op de transferorder worden geboekt als verzonden maar niet ontvangen, zijn alle gerelateerde positieve ordertraceringsposten van het reserveringsoort **Overschot**, wat aangeeft dat deze niet worden toegewezen aan vraag. Voor elk lotnummer heeft één post betrekking op tabel 5741, **Transferregel**, en één post op de artikelpost bij de in-transit vestiging.  
 
- Op dit punt in het scenario wordt de transferorder van de onderdelen van de OOST-vestiging naar de WEST-vestiging geboekt als ontvangen.  
+ Op dit punt in het scenario wordt de transferorder van de onderdelen van de BLAUWE naar de RODE vestiging geboekt als ontvangen.  
 
  Nu bevat de tabel **Reserveringspost** de volgende ordertraceringsposten.  
 
- ![Derde voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Ordertraceringsposten in de tabel Reserveringspost](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
- De ordertraceringsposten zijn nu gelijk aan het eerste punt in het eerste scenario voordat de transferorder werd geboekt als alleen-verzenden, behalve dat posten voor het onderdeel nu de reserveringstatus **Overschot** hebben. Dit komt doordat er nog materiaalbehoefte is op de WEST-vestiging, wat aangeeft dat het veld **Vestiging** op de materiaalregel op de productieorder **WEST** bevat, zoals ingesteld in het venster **Onderdelen op vestiging**. De voorziening die eerder is toegewezen voor deze vraag, is overgebracht naar de OOST-vestiging en kan nu niet volledig worden getraceerd tenzij de materiaalbehoefte op de productieorderregel wordt veranderd in de OOST-vestiging.  
+ De ordertraceringsposten zijn nu gelijk aan het eerste punt in het eerste scenario voordat de transferorder werd geboekt als alleen-verzenden, behalve dat posten voor het onderdeel nu de reserveringstatus **Overschot** hebben. Dit komt doordat er nog materiaalbehoefte is op de RODE vestiging, wat aangeeft dat het veld **Vestiging** op de materiaalregel op de productieorder **ROOD** bevat, zoals ingesteld in het venster **Onderdelen op vestiging**. De voorziening die eerder is toegewezen voor deze vraag, is overgebracht naar de BLAUWE vestiging en kan nu niet volledig worden getraceerd tenzij de materiaalbehoefte op de productieorderregel wordt veranderd in de BLAUWE vestiging.  
 
- Op dit punt in het scenario wordt het veld **Vestiging** op de productieorderregel ingesteld op **OOST**. Bovendien worden op de pagina **Artikeltraceringsregels** de 30 eenheden van LOTA en 70 eenheden van LOTB toegewezen aan de productieorderregel.  
+ Op dit punt in het scenario wordt het veld **Vestiging** op de productieorderregel ingesteld op **BLAUW**. Bovendien worden op de pagina **Artikeltraceringsregels** de 30 eenheden van LOTA en 70 eenheden van LOTB toegewezen aan de productieorderregel.  
 
  Nu bevat de tabel **Reserveringspost** de volgende ordertraceringsposten.  
 
- ![Vierde voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Ordertraceringsposten in de tabel Reserveringspost](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Volgnummers 21 en 22  
- Aangezien de materiaalbehoefte is gewijzigd naar de OOST-vestiging en de voorziening beschikbaar is als artikelposten op de OOST-vestiging, worden alle ordertraceringsposten voor de twee lotnummers nu volledig getraceerd, wat wordt aangegeven door de reserveringstatus **Tracering**.  
+ Aangezien de materiaalbehoefte is gewijzigd naar de BLAUWE vestiging en de voorziening beschikbaar is als artikelposten op de BLAUWE vestiging, worden alle ordertraceringsposten voor de twee lotnummers nu volledig getraceerd, wat wordt aangegeven door de reserveringstatus **Tracering**.  
 
  Het veld **Lotnr.** wordt nu gevuld in de ordertraceringspost voor tabel 5407, omdat de lotnummers zijn toegewezen aan de productieordermateriaalregels.  
 
@@ -233,6 +230,3 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)   
 [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

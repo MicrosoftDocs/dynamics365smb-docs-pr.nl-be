@@ -1,29 +1,29 @@
 ---
-title: Een inkoopofferte maken om een aanbod op te vragen
+title: Een inkooporder maken om een aanbod op te vragen | Microsoft Docs
 description: Beschrijft hoe u een verkoopaanbieding of een offerteaanvraagdocument maakt om uw aanbod aan een klant vast te leggen om producten onder bepaalde voorwaarden te verkopen.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.search.form: 49, 97, 9306, 9346
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 4608b9e3cace8445a1a4a364106c830fdfda301f
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 71c31fc15027d1f2d571afe97ae79f95709c9f06
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953346"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312424"
 ---
 # <a name="request-quotes"></a>Offertes aanvragen
-
 U kunt een inkoopofferte als conceptversie van de inkooporder gebruiken. De order kan vervolgens in een inkoopfactuur of een order worden omgezet.
 
+
 ## <a name="to-create-a-purchase-quote"></a>Een inkoopofferte maken
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopoffertes** in en kies vervolgens de gerelateerde koppeling
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopoffertes** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een nieuw document op dezelfde manier als u een inkooporder maakt. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Een inkoopofferte omzetten in een inkooporder
@@ -37,7 +37,4 @@ De inkoopofferte wordt verwijderd uit de database. Een inkoopfactuur of -order w
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

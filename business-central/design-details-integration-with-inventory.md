@@ -1,21 +1,21 @@
 ---
-title: 'Ontwerpdetails: Integratie met voorraad'
-description: De module Warehouse Management en het toepassingsgebied Voorraad kunnen met elkaar communiceren in inventarisatie en in voorraad- of magazijnherwaardering.
+title: 'Ontwerpdetails: Integratie met voorraad | Microsoft Docs'
+description: De module Magazijnbeheer en de module Voorraad kunnen met elkaar communiceren in inventarisatie en in voorraad- of magazijnherwaardering.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 209bf5b50f362b11d0ba4fdc6ae0cab47a3622fa
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bbc9c0e55041f4584ae7609f727179737adaa041
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319211"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185360"
 ---
 # <a name="design-details-integration-with-inventory"></a>Ontwerpdetails: Integratie met voorraad
 De module Magazijnbeheer en de module Voorraad kunnen met elkaar communiceren in inventarisatie en in voorraad- of magazijnherwaardering.  
@@ -48,5 +48,3 @@ De module Magazijnbeheer en de module Voorraad kunnen met elkaar communiceren in
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)   
  [Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
