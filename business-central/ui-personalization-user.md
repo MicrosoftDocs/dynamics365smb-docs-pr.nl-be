@@ -1,21 +1,21 @@
 ---
-title: Pagina's aanpassen | Microsoft Docs
-description: Meer informatie over hoe u de gebruikersinterface kunt aanpassen aan uw manier van werken in Business Central.
+title: Pagina's personaliseren (bevat video)
+description: Leer hoe u de gebruikersinterface kunt aanpassen en uw werkruimte kunt aanpassen aan uw manier van werken en persoonlijke voorkeuren in Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: cd25d18787f8f28b01974e59580f7e83425e54bf
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262202"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940288"
 ---
 # <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
 U kunt uw werkruimte aanpassen aan uw werk- en persoonlijke voorkeuren door pagina's te wijzigen zodat deze alleen de gegevens weergeven die u nodig hebt en waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat u ziet, niet wat andere gebruikers kunnen zien.
@@ -28,6 +28,11 @@ Afhankelijk van het soort pagina en wat de pagina bevat, kunt u verschillende wi
 > Beheerders kunnen dezelfde indelingswijzigingen uitvoeren als gebruikers door de werkruimte aan te passen voor een profiel dat aan meerdere gebruikers is toegewezen. Zie voor meer informatie [Pagina's aanpassen voor rollen](ui-personalization-manage.md).<br /><br />
 Beheerders kunnen ook personalisering van gebruikers overschrijven of uitschakelen en ze kunnen definiëren welke functies zelfs door gebruikers in alle of specifieke bedrijven kunnen worden gezien. Zie [Business Central aanpassen](ui-customizing-overview.md) voor meer informatie.
 
+## <a name="video-overview"></a>Video-overzicht
+De volgende video toont enkele manieren waarop u uw rolcentrum kunt personaliseren.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
+
 ## <a name="to-change-the-width-of-a-column"></a>De breedte van een kolom wijzigen
 U kunt het formaat van kolommen in elke lijst eenvoudig wijzigen door de grens tussen twee kolommen naar links of rechts te slepen.
 1. Selecteer in de koptekst van een lijst de grens tussen twee kolommen.
@@ -37,7 +42,7 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Een pagina personaliseren via de banner **Personaliseren**
 1. Open een pagina die u wilt personaliseren.
-2. In de rechterbovenhoek selecteert u het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en vervolgens kiest u de actie **Personaliseren**.
+2. Selecteer in de rechterbovenhoek het pictogram ![Instellingen.](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Personaliseren**.
 
     De banner **Personaliseren** verschijnt bovenin, waarmee wordt aangegeven dat u wijzigingen kunt gaan aanbrengen.
 
@@ -138,6 +143,9 @@ Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrij
 
 ## <a name="see-also"></a>Zie ook
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

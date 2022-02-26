@@ -1,23 +1,23 @@
 ---
-title: Segmenten beheren en contacten selecteren om op te nemen| Microsoft Docs
-description: Schetst de taken voor het maken van een segment om een groep contacten op basis van specifieke criteria te selecteren, bijvoorbeeld, contacten in een bepaalde branche waarop u zich wilt richten.
-services: project-madeira
+title: Segmenten beheren en contacten selecteren
+description: In dit onderwerp wordt beschreven hoe u een segment maakt door een groep contacten te selecteren op basis van specifieke criteria om dat segment later met een campagne te targeten.
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f4115e62b1350fe55019aca94cb1d8beb6d93ae
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4a782c0e4fcb98243f7902d2564c79ca831b0955
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181304"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059790"
 ---
 # <a name="managing-segments"></a>Segmenten beheren
 U kunt segmenten maken om een groep contacten te selecteren overeenkomstig een bepaald criterium. Een segment kan bijvoorbeeld de sector zijn waartoe de contacten behoren of uw zakenrelatie met de contacten. U kunt een segment maken om te selecteren op welke contacten u een campagne wilt richten.
@@ -38,4 +38,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 ## <a name="see-also"></a>Zie ook
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Contactpersonen beheren](marketing-contacts.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

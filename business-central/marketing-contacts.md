@@ -1,28 +1,30 @@
 ---
-title: Contactpersonen maken en beheren | Microsoft Docs
+title: Bedrijfscontacten maken en beheren
 description: U stelt alle externe entiteiten in waarmee u een zakelijke relatie hebt (zoals prospects, klanten, leveranciers en consultants) als contacten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99345104555d8cba2887361a1de4941b24b7499a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 581e89630782f4cfca364838002fa4eca4ddbb6d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181640"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060182"
 ---
 # <a name="managing-contacts"></a>Contactpersonen beheren
+
 Werknemers in uw bedrijf ontmoeten regelmatig potentiële zakenrelaties die in de toekomst formele zakenrelaties kunnen worden. Al dergelijke externe contacten en hun gedetailleerde informatie moeten in het systeem worden vastgelegd, zodat de communicatie succesvoller is en ze gemakkelijk kunnen worden omgezet in formele klant-, leverancier- of bankrelaties.
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
+Gebruik de lijst **Contacten** om uw contacten te beheren. Van daaruit kunt u opportunities creëren en andere interacties met individuele contacten beheren. U kunt ook statistieken over een contactpersoon bekijken en u hebt toegang tot een reeks rapporten. Zie voor informatie over het vinden van de juiste contactpersoon in de lijst [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md).  
+
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.
 
 | Aan | Zie |
 | --- | --- |
@@ -32,5 +34,10 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Los verwarring op wanneer twee of meer records bestaan voor hetzelfde contact.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Zie ook
+
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
+[Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  
 [Werken met Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

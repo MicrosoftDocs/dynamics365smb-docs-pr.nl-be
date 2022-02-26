@@ -1,35 +1,36 @@
 ---
-title: Grootboekbudgetten maken | Microsoft Docs
+title: Grootboekbudgetten maken
 description: Hier wordt beschreven hoe u grootboekbudgetten maakt om verschillende financiële activiteiten te prognosticeren en dimensies toewijst voor bedrijfsinformatiedoeleinden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b18322180f833a63b7f4565bd4000bdc3bd4f571
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 37be635e57090e6e661a76ac3c0d7ea8473796a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183728"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971718"
 ---
 # <a name="create-gl-budgets"></a>Grootboekbudgetten maken
+
 U kunt budgetten met aparte namen maken als u meerdere budgetten wilt gebruiken voor dezelfde perioden. Eerst stelt u de begrotingsnaam in en voert u de begrotingscijfers in. De begrotingsnaam wordt vervolgens opgenomen op alle begrotingsposten die u maakt.  
 
 Wanneer u een budget maakt, kunt u vier dimensies voor elk budget opgeven. Deze budgetspecifieke dimensies worden budgetdimensies genoemd. U selecteert de budgetdimensies voor elk budget uit de ingestelde dimensies. Met budgetdimensies kunnen budgetfilters worden ingesteld en dimensiegegevens aan budgetposten worden toegevoegd. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
 
 Budgetten spelen een belangrijke rol in bedrijfsinformatie, zoals in financiële overzichten gebaseerd op rapportageschema's die budgetposten bevatten, of wanneer gebudgetteerde en werkelijke bedragen in het rekeningschema worden geanalyseerd. Zie voor meer informatie [Bedrijfsinformatie](bi.md).
 
-In kostenadministratie werkt u met kostenbudgetten op een soortgelijke manier. Zie [Procedure: Kostenbudgetten maken](finance-create-cost-budgets.md) voor meer informatie.    
+In kostenadministratie werkt u met kostenbudgetten op een soortgelijke manier. Zie [Procedure: Kostenbudgetten maken](finance-create-cost-budgets.md) voor meer informatie.  
 
-## <a name="to-create-a-new-gl-budget"></a>Een nieuw grootboekbudget maken  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekbudgetten** in en kies de desbetreffende koppeling.  
+## <a name="to-create-a-new-gl-budget"></a>Een nieuw grootboekbudget maken
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekbudgetten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Lijst bewerken** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Kies de actie **Budget bewerken**.
 4. Vul boven aan de pagina **Budget** de benodigde velden in om te definiëren wat wordt weergegeven.  
@@ -40,9 +41,10 @@ In kostenadministratie werkt u met kostenbudgetten op een soortgelijke manier. Z
 7. Herhaal stap 5 tot en met 6 totdat u alle budgetbedragen hebt ingevoerd.  
 
 > [!NOTE]  
->  Op het sneltabblad **Filters** kunt u de budgetinformatie filteren op budgetdimensies die u hebt ingesteld onder de budgetnaam.
+> Op het sneltabblad **Filters** kunt u de budgetinformatie filteren op budgetdimensies die u hebt ingesteld onder de budgetnaam.
 
 ## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Grootboekbudgetten exporteren en importeren met Excel
+
 Zoals bij vrijwel alle overige pagina's kunt u gegevens op budgetpagina's naar Excel exporteren voor verdere verwerking of analyse. Zie voor meer informatie [Uw bedrijfsgegevens exporteren naar Excel](about-export-data.md).
 
 > [!NOTE]
@@ -51,9 +53,13 @@ Zoals bij vrijwel alle overige pagina's kunt u gegevens op budgetpagina's naar E
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
+
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  
 [Financiën](finance.md)  
 [Bedrijfsinformatie](bi.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

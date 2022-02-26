@@ -1,27 +1,29 @@
 ---
-title: Basisagenda's instellen | Microsoft Docs
-description: U kunt een basisagenda toewijzen aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden berekend aan de hand van de werkdagen die zijn opgegeven in de agenda.
+title: Basisagenda's instellen
+description: U kunt een basisagenda aan uw bedrijf en de zakenpartners ervan toewijzen om leverings- en ontvangstdatums te berekenen op basis van de opgegeven werkdagen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 52bbf5f1092ad449be003021642c30651f38e780
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 7600, 7601, 7602, 5703
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188432"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011873"
 ---
 # <a name="set-up-base-calendars"></a>Basisagenda's instellen
+
 U kunt een basisagenda toewijzen aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden berekend aan de hand van de werkdagen die zijn opgegeven in de agenda. De belangrijkste taak bij het instellen van een nieuwe basisagenda is het opgeven en definiëren van de vrije dagen die u wilt toepassen.  
 
-## <a name="to-set-up-a-base-calendar"></a>Een basisagenda instellen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Basisagenda** in en kies de desbetreffende koppeling.  
+## <a name="to-set-up-a-base-calendar"></a>Een basisagenda instellen
+
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Basisagenda** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul het veld **Code** in.  
 4. Kies de actie **Basisagendawijzigingen bewerken**.
@@ -42,6 +44,7 @@ Wanneer u een post aanmaakt, wordt het veld **Vrije dag** geselecteerd. U deze i
 Hiermee wordt een datumformule opgegeven voor de tijd die nodig is om het artikel aan te vullen. Het wordt gebruikt voor het berekenen van het veld **Geplande ontvangstdatum**, als er vooruit wordt gerekend, en het veld **Orderdatum**, als er achterwaarts wordt gerekend. Zie [Levertermijnberek.](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Levertermijnberek.
+
 Elke basisagenda die is gedefinieerd voor de leverancier of de locatie bepaalt mede hoe de datums worden berekend en afgerond naar werkdagen. De twee datumvelden op inkooporderregels worden dus als volgt berekend onder verschillende omstandigheden.
 
 |Richting van berekening|Leveranciersagenda gedefinieerd|Leveranciersagenda niet gedefinieerd|
@@ -64,7 +67,7 @@ In een basisagenda worden bijvoorbeeld alle zaterdagen gemarkeerd als vrije dage
 
 In de volgende procedure wordt de vestiging als voorbeeld gebruikt. De taak Een basisagenda instellen hebt u op dit moment al uitgevoerd.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vestigingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Open de locatie die u wilt bijwerken en selecteer het veld **Gepersonaliseerde agenda**. Houd er rekening mee dat een agenda moet worden geselecteerd in het veld **Basisagendacode**.
 3. Op de pagina **Gepersonaliseerde agendaposten** kiest u de actie **Gepers. agendawijzigingen bewerken**.
 4. In het venster **Gepersonaliseerde agendawijzigingen** voegt u regels toe voor gepersonaliseerde agendaposten.
@@ -100,7 +103,7 @@ Basiskalenders worden als volgt toegewezen aan uw eigen bedrijf, klanten, levera
 -   Op de kaart **Vestiging** wordt de basisagenda toegewezen op het sneltabblad **Magazijn**.  
 -   Op de pagina **Expediteurs** wordt de basisagenda toegewezen op de pagina **Expediteurservices**.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de **Klantenkaart** waarvoor u een aangepaste agenda wilt instellen.  
 3.  Op het sneltabblad **Verzending** in de het veld **Basisagendacode** selecteert u de basisagenda die u wilt toewijzen.  
 
@@ -116,4 +119,7 @@ Basiskalenders worden als volgt toegewezen aan uw eigen bedrijf, klanten, levera
 [Inkoop](purchasing-manage-purchasing.md)  
 [Productie](production-manage-manufacturing.md)    
 [Voorraad](inventory-manage-inventory.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

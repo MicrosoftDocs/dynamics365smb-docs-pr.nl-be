@@ -1,21 +1,21 @@
 ---
 title: Belgische Intrastat-rapportage
-description: Bedrijven uit EU-landen/regio's moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. Dit rapportageproces verloopt via Intrastat-rapportage of VIES (btw-informatie-uitwisselingssysteem).
+description: Bedrijven binnen de Europese Unie (EU) zijn verplicht handel met andere EU-landen of -regio's te rapporteren via Intrastat-rapportage of VIES (btw-informatie-uitwisselingssysteem).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c0e0bd1817d962d6f3358ca7a9ca695d6fdfb090
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: 25c78491bd8bad192ea374dba615b19d2da26e68
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180924"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318901"
 ---
 # <a name="belgian-intrastat-reporting"></a>Belgische Intrastat-rapportage
 Bedrijven uit EU-landen/regio's moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. Dit rapportageproces verloopt via Intrastat-rapportage of VIES (btw-informatie-uitwisselingssysteem). Er zijn twee soorten Intrastat-aangiften:  
@@ -26,7 +26,7 @@ Bedrijven uit EU-landen/regio's moeten handel met bedrijven uit andere landen/re
 Als u wilt bepalen wat voor soort aangifte u moet gebruiken, raadpleegt u de website van de [Nationale bank van België](https://aka.ms/BelgianNationalBank).  
 
 ## <a name="submitting-the-intrastat-report"></a>Het Intrastat-rapport indienen  
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u de Intrastat-aangiften exporteren naar een bestand dat u vervolgens indient op de OneGate-portal. Zie voor meer informatie [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md).  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u de Intrastat-aangiften exporteren naar een bestand dat u vervolgens indient op de OneGate-portal. Zie voor meer informatie [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md).  
 
 ## <a name="see-also"></a>Zie ook  
  [Belgische lokale functionaliteit](belgium-local-functionality.md)   
@@ -36,3 +36,6 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u de Intrastat-aangift
  [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)   
  [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)   
  [Intrastat-rapportage instellen](../../finance-how-setup-report-intrastat.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

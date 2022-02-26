@@ -3,22 +3,22 @@ title: Definiëren hoe gegevens elektronisch worden uitgewisseld | Microsoft Doc
 description: U kunt een externe provider van OCR-services gebruiken om PDF- of afbeeldingsbestanden te laten omzetten naar elektronische documenten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 44069b903df5426ae2aa3e851404c2b9e01f3979
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188192"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774698"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
-U kunt instellen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
+U kunt instellen dat [!INCLUDE[prod_short](includes/prod_short.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
 
 Als voorbereiding voor het maken van een gegevensuitwisselingdefinitie voor een gegevensbestand of -stroom kunt u het gerelateerde XML-schema gebruiken om te definiëren welke gegevenselementen moeten worden opgenomen in het sneltabblad **Kolomdefinities**. Zie stap 6 in [De opmaak van regels en kolommen in het bestand beschrijven](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Zie [XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md) voor meer informatie.  
 
@@ -37,7 +37,7 @@ Dit onderwerp bevat de volgende procedures:
 Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:  
 
 1. Op de pagina **Definitie van gegevensuitwisseling** beschrijft u de opmaak van regels en kolommen in het bestand.  
-2. Op de pagina **Toewijzing gegevensuitwisseling** wijst u kolommen in het gegevensbestand toe aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+2. Op de pagina **Toewijzing gegevensuitwisseling** wijst u kolommen in het gegevensbestand toe aan velden in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Dit wordt in de volgende procedures beschreven.  
 
@@ -55,7 +55,7 @@ Dit wordt in de volgende procedures beschreven.
     |**Naam**|Voer een naam in voor de definitie van gegevensuitwisseling.|  
     |**Bestandssoort**|Geef op voor welk soort bestand de definitie van gegevensuitwisseling wordt gebruikt. U kunt kiezen uit vier bestandstypen:<br /><br /> -   **XML**: laagsgewijze strings met inhoud en opmaak, omringd door labels die functies aangeven.<br />-   **Variabele tekst**: records hebben een variabele lengte en worden gescheiden door een teken, zoals een komma of puntkomma. Ook *gescheiden bestand* genoemd.<br />-   **Vaste tekst**: records hebben dezelfde lengte, gebruiken opvultekens en elke record staat op een afzonderlijke regel. Ook *bestand met vaste breedte* genoemd.<br />- **Json**: gelaagde strings met inhoud in JavaScript.|  
     |**Soort**|Geef op voor welke soort bedrijfsactiviteit de gegevensuitwisselingdefinitie wordt gebruikt, bijvoorbeeld **Betalingsexport**.|  
-    |**Codeunit geg.afhandeling**|Geef de codeunit op die gegevens overbrengt in en uit tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit geg.afhandeling**|Geef de codeunit op die gegevens overbrengt in en uit tabellen in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Codeunit validatie**|Geef de codeunit op die wordt gebruikt om gegevens te valideren tegen vooraf bepaalde bedrijfsregels.|  
     |**Codeunit lezen/schrijven**|Geef de codeunit op die geïmporteerde gegevens verwerkt vóór het toewijzen en geëxporteerde gegevens na het toewijzen.|  
     |**Lezen/schrijven XMLport**|De XMLport opgeven waardoor een geïmporteerd gegevensbestand of een service binnenkomt vóór de toewijzing en waardoor geëxporteerde gegevens naar buiten gaan wanneer deze na de toewijzing naar een gegevensbestand of een service worden geschreven.|  
@@ -95,22 +95,22 @@ Dit wordt in de volgende procedures beschreven.
     |**Kolomnr.**|Geef het nummer op dat de kolompositie op de regel in het bestand aangeeft.<br /><br /> Geef voor XML-bestanden het nummer op dat het type element in het bestand aangeeft dat de gegevens bevat.|  
     |**Naam**|Geef de naam van de kolom op.<br /><br /> Geef voor XML-bestanden de markering op waarmee de uit te wisselen gegevens worden gemarkeerd.|  
     |**Gegevenstype**|Geef op of de uit te wisselen gegevens van het type **Tekst**, **Datum** of **Decimaal** zijn.|  
-    |**Gegevensopmaak**|Geef de eventuele indeling van de gegevens op. Bijvoorbeeld **MM-dd-yyyy** als de gegevenssoort **Datum** is. **Opmerking:** voor exporteren geeft u de gegevensindeling op volgens [!INCLUDE[d365fin](includes/d365fin_md.md)]. Voor importeren geeft u de gegevensindeling op volgens .NET Framework. Zie [Standaardnotaties voor datum en tijd](https://go.microsoft.com/fwlink/?LinkID=323466) voor meer informatie.|  
-    |**Cultuur gegevensopmaak**|Geef de eventuele cultuur van de gegevensindeling op. Bijvoorbeeld **en-US** als het gegevenstype **Decimaal** is om te zorgen dat de komma wordt gebruikt als .000-scheidingsteken, volgens de Amerikaanse indeling. Zie [Standaardnotaties voor datum en tijd](https://go.microsoft.com/fwlink/?LinkID=323466) voor meer informatie. **Opmerking:** dit veld is alleen relevant voor importeren.|  
+    |**Gegevensopmaak**|Geef de eventuele indeling van de gegevens op. Bijvoorbeeld **MM-dd-yyyy** als de gegevenssoort **Datum** is. **Opmerking:** voor exporteren geeft u de gegevensindeling op volgens [!INCLUDE[prod_short](includes/prod_short.md)]. Voor importeren geeft u de gegevensindeling op volgens .NET Framework. Zie [Standaardnotaties voor datum en tijd](/dotnet/standard/base-types/standard-date-and-time-format-strings) voor meer informatie.|  
+    |**Cultuur gegevensopmaak**|Geef de eventuele cultuur van de gegevensindeling op. Bijvoorbeeld **en-US** als het gegevenstype **Decimaal** is om te zorgen dat de komma wordt gebruikt als .000-scheidingsteken, volgens de Amerikaanse indeling. Zie [Standaardnotaties voor datum en tijd](/dotnet/standard/base-types/standard-date-and-time-format-strings) voor meer informatie. **Opmerking:** dit veld is alleen relevant voor importeren.|  
     |**Lengte**|Geef de lengte op van de regel met vaste breedte die de kolom bevat als het gegevensbestand het type **Vaste tekst** is.|  
     |**Beschrijving**|Voer een omschrijving van de kolom in, ter informatie.|  
     |**Pad**|Geef de positie op van het element in het gerelateerde XML-schema.|  
     |**Identificatie voor een negatief teken**|Voer de waarde in die in het gegevensbestand wordt gebruikt om negatieve bedragen te identificeren in gegevensbestanden die geen negatieftekens kunnen bevatten. Deze id wordt vervolgens gebruikt om de geïdentificeerde aantallen naar negatieftekens tegen te boeken tijdens het importeren. **Opmerking:** dit veld is alleen relevant voor importeren.|  
     |**Constant**|Geef alle gegevens op die u wilt exporteren in deze kolom, zoals extra informatie over het betalingstype. **Opmerking:** dit veld is alleen relevant voor exporteren.|  
 
-9. Herhaal stap 8 voor alle kolommen of XML-elementen in het gegevensbestand met gegevens die u wilt uitwisselen met [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+9. Herhaal stap 8 voor alle kolommen of XML-elementen in het gegevensbestand met gegevens die u wilt uitwisselen met [!INCLUDE[prod_short](includes/prod_short.md)].  
 
- De volgende stap bij het maken van de definitie van een gegevensuitwisseling bestaat uit het bepalen van welke kolommen of XML-elementen in het gegevensbestand worden gekoppeld aan welke velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ De volgende stap bij het maken van de definitie van een gegevensuitwisseling bestaat uit het bepalen van welke kolommen of XML-elementen in het gegevensbestand worden gekoppeld aan welke velden in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
->  De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden. Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** op de pagina **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
+>  De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden. Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** op de pagina **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-prod_short"></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[prod_short](includes/prod_short.md)]  
 > [!TIP]
 > Soms verschillen de waarden in de velden die u wilt toewijzen. In de ene zakelijke app is de taalcode voor de Verenigde Staten bijvoorbeeld 'V.S.', maar in de andere 'VS'. Dat betekent dat u de waarde moet transformeren wanneer u gegevens uitwisselt. Dit gebeurt door middel van transformatieregels die u voor de velden definieert. Zie [Transformatieregels](across-how-to-set-up-data-exchange-definitions.md#transformation-rules) voor meer informatie.
 
@@ -120,13 +120,13 @@ Dit wordt in de volgende procedures beschreven.
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
     |**Tabel-id**|Geef de tabel op met de velden waarheen of vanwaar gegevens worden uitgewisseld volgens de toewijzing.|  
-    |**Gebruiken als tussentijdse tabel**|Geef op dat de tabel die u selecteert in het veld **Tabel-id** een tussentijdse tabel is waarin de geïmporteerde gegevens worden opgeslagen voordat deze aan de doeltabel worden toegewezen.<br /><br /> Meestal gebruikt u een tijdelijke tabel als de definitie van de gegevensuitwisseling wordt gebruikt om elektronische documenten te importeren en om te zetten, zoals leveranciersfacturen naar inkoopfacturen in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.|  
+    |**Gebruiken als tussentijdse tabel**|Geef op dat de tabel die u selecteert in het veld **Tabel-id** een tussentijdse tabel is waarin de geïmporteerde gegevens worden opgeslagen voordat deze aan de doeltabel worden toegewezen.<br /><br /> Meestal gebruikt u een tijdelijke tabel als de definitie van de gegevensuitwisseling wordt gebruikt om elektronische documenten te importeren en om te zetten, zoals leveranciersfacturen naar inkoopfacturen in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.|  
     |**Naam**|Voer een naam in voor de instelling van de toewijzing.|  
-    |**Codeunit toewijzing vooraf**|Geef de codeunit aan die de koppeling voorbereidt tussen velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe gegevens.|  
-    |**Toewijzing van codeunit**|Geef de codeunit op die wordt gebruikt om de opgegeven kolommen of XML-gegevenselementen toe te wijzen aan velden in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Codeunit toewijzing achteraf**|Geef de codeunit op die de koppeling voltooit tussen velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] en externe gegevens. **Opmerking:** wanneer de functie AMC Banking 365 Fundamentals-extensie wordt gebruikt, zet de codeunit geëxporteerde gegevens uit [!INCLUDE[d365fin](includes/d365fin_md.md)] om in een algemene indeling die gereed is voor export. Voor het importeren zet de codeunit externe gegevens om in een indeling die gereed is voor importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit toewijzing vooraf**|Geef de codeunit aan die de koppeling voorbereidt tussen velden in [!INCLUDE[prod_short](includes/prod_short.md)] en externe gegevens.|  
+    |**Toewijzing van codeunit**|Geef de codeunit op die wordt gebruikt om de opgegeven kolommen of XML-gegevenselementen toe te wijzen aan velden in [!INCLUDE[prod_short](includes/prod_short.md)].|  
+    |**Codeunit toewijzing achteraf**|Geef de codeunit op die de koppeling voltooit tussen velden in [!INCLUDE[prod_short](includes/prod_short.md)] en externe gegevens. **Opmerking:** wanneer de extensiefunctie AMC Banking 365 Fundamentals wordt gebruikt, zet de codeunit geëxporteerde gegevens uit [!INCLUDE[prod_short](includes/prod_short.md)] om in een algemene indeling die gereed is voor export. Voor het importeren zet de codeunit externe gegevens om in een indeling die gereed is voor importeren in [!INCLUDE[prod_short](includes/prod_short.md)].|  
 
-3.  Geef op het sneltabblad **Veldtoewijzing** op welke kolommen aan welke velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] zijn toegewezen door de velden in te vullen zoals beschreven in de volgende tabel.  
+3.  Geef op het sneltabblad **Veldtoewijzing** op welke kolommen aan welke velden in [!INCLUDE[prod_short](includes/prod_short.md)] zijn toegewezen door de velden in te vullen zoals beschreven in de volgende tabel.  
 
     |Veld|Omschrijving|  
     |---------------------------------|---------------------------------------|  
@@ -139,7 +139,7 @@ Dit wordt in de volgende procedures beschreven.
     |**Bijschrift bij doelveld**|Alleen zichtbaar als het selectievakje **Gebruiken als tussentijdse tabel** is ingeschakeld.<br /><br /> Geef de naam van het veld in de doeltabel op waaraan de waarde in het veld **Kolomomschrijving** wordt toegewezen wanneer u een tussentijdse tabel gebruikt voor gegevensimport.|  
     |**Optioneel**|Alleen zichtbaar als het selectievakje **Gebruiken als tussentijdse tabel** is ingeschakeld.<br /><br /> Geef aan of de toewijzing moet worden overgeslagen als het veld leeg is. Als u dit selectievakje niet inschakelt, treedt een exportfout op als het veld leeg is.|  
 
-De definitie van de gegevensuitwisseling is nu gereed en kan worden ingeschakeld voor gebruikers. Zie [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-krediettransfer instellen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Automatische incasso via SEPA instellen](finance-collect-payments-with-sepa-direct-debit.md) en [Betalingen verrichten met de AMC Banking 365 Fundamentals-extensie of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) voor meer informatie.  
+De definitie van de gegevensuitwisseling is nu gereed en kan worden ingeschakeld voor gebruikers. Zie [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md), [SEPA-krediettransfer instellen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Automatische incasso via SEPA instellen](finance-collect-payments-with-sepa-direct-debit.md) en [Betalingen verrichten met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) voor meer informatie.  
 
 ### <a name="transformation-rules"></a>Transformatieregels
 Als de waarden in de velden die u toewijst, verschillen, moet u transformatieregels gebruiken voor definities van gegevensuitwisseling om ze hetzelfde te maken. U definieert transformatieregels voor gegevensuitwisselingsdefinities door een bestaande definitie te openen of een nieuwe definitie te maken en vervolgens op het sneltabblad **Regeldefinities** de optie **Beheren** en **Veldtoewijzing** te kiezen. Er zijn vooraf gedefinieerde regels beschikbaar, maar u kunt ook uw eigen regels maken. De volgende tabel beschrijft de soorten transformaties die u kunt uitvoeren.
@@ -196,7 +196,10 @@ Wanneer u de definitie van gegevensuitwisseling hebt gemaakt voor een specifiek 
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
-[Betalingen doen met de AMC Banking 365 Fundamentals-extensie of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

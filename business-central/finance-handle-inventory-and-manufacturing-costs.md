@@ -1,21 +1,21 @@
 ---
-title: Voorraad- en productiekosten verwerken | Microsoft Docs
-description: Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, pagina's en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.
+title: Voorraad- en productiekosten verwerken
+description: Ontdek hoe een aantal velden, pagina's en rapporten zijn bedoeld voor gebruikers die direct of indirect de kosten van artikelen of bewerkingen beheren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 82221de7c57e6130a3259ae7cf7be095e3c0571e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183752"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323352"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Voorraad- en productiekosten verwerken
 Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, pagina's en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.  
@@ -38,3 +38,6 @@ Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt 
 ## <a name="see-also"></a>Zie ook  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)
 [Ontwerpdetails: Voorraadkosten](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,22 +1,22 @@
 ---
 title: Belgische lokale functionaliteit
-description: In de volgende onderwerpen wordt de lokale functionaliteit in de Belgische versie van Business Central beschreven.
+description: In de volgende onderwerpen worden verschillende lokale functionaliteiten in de Belgische versie van Business Central beschreven.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: 80494c1db48f3ed390ed6906f030b016a4a1e501
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 17ae6fbbf570ed8759c9b2a6e8fa7298b56461f2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454315"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318898"
 ---
 # <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
 
-In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[prod_short](../../includes/prod_short.md)]  
 
 ## <a name="feature-availability"></a>Beschikbaarheid van functies
 
@@ -47,13 +47,10 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Elektronische betalingen testen](how-to-test-electronic-payments.md) **Nu beschikbaar**
     * [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md) **Nu beschikbaar**
     * [CODA-afschriften importeren](how-to-import-coda-statements.md) **Nu beschikbaar**
-    * [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md) **Nu beschikbaar**
     * [CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md) **Nu beschikbaar**
     * [Betalingsbestanden afdrukken](how-to-print-payment-files.md) **Nu beschikbaar**
-    * [SEPA-betalingen](sepa-payments.md) **Nu beschikbaar**
     * [SEPA-betalingen activeren](how-to-activate-sepa-payments.md) **Nu beschikbaar**
     * [SEPA-betalingen in andere valuta's dan de euro indienen](how-to-file-non-euro-sepa-payments.md) **Nu beschikbaar**
-    * [SEPA-betalingen indienen](how-to-file-sepa-payments.md) **Nu beschikbaar**
     * [Incasso via domiciliëring](direct-debit-using-domiciliation.md) **Nu beschikbaar**
     * [Domiciliëringen instellen](how-to-set-up-domiciliations.md) **Nu beschikbaar**
     * [Domiciliëringsregels bewerken en verwijderen](how-to-edit-and-delete-domiciliation-lines.md) **Nu beschikbaar**
@@ -74,7 +71,10 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
 
 ## <a name="see-also"></a>Zie ook
 
-[Werken met [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Beschikbaarheid voor land/regio en ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,26 @@
 ---
-title: Bedrijfsinformatie| Microsoft Docs
-description: Bedrijfsgegevens vastleggen en analyseren, zoals verkoopcijfers, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, die waardevolle informatie kunnen zijn voor bedrijfsinformatie of besluitvorming.
+title: Bedrijfsinformatie
+description: Business Central bevat een aantal functies die u helpen bij het verzamelen, analyseren en delen van waardevolle bedrijfsgegevens voor business intelligence en besluitvorming.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186008"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323755"
 ---
 # <a name="business-intelligence"></a>Bedrijfsinformatie
-Bedrijven leggen een enorme hoeveelheid gegevens vast tijdens hun dagelijkse activiteiten. Deze gegevens, zoals de verkoopcijfers van de organisatie, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, kunnen waardevolle bedrijfsinformatie vormen voor besluitnemers. [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een aantal functies voor het verzamelen, analyseren en delen van uw bedrijfsgegevens.
+Bedrijven leggen een enorme hoeveelheid gegevens vast tijdens hun dagelijkse activiteiten. Deze gegevens, zoals de verkoopcijfers van de organisatie, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, kunnen waardevolle bedrijfsinformatie vormen voor besluitnemers. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een aantal functies voor het verzamelen, analyseren en delen van uw bedrijfsgegevens.
 
 De dimensiefunctionaliteit speelt een belangrijke rol in bedrijfsinformatie. Een dimensie bestaat uit gegevens die u kunt toevoegen aan een post als een soort markering. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. U kunt dimensies ook gebruiken wanneer u analyseweergaven definieert en wanneer u rapportageschema's voor rapportage maakt. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
 
@@ -44,6 +44,9 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Business Central gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [Boekperioden afsluiten](year-close-years-periods.md)  
 [Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

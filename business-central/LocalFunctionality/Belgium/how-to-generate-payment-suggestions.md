@@ -1,30 +1,28 @@
 ---
-title: Betalingsvoorstellen genereren
+title: Betalingsvoorstellen genereren [BE]
 description: Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 229bb14b2804188fb0c2063d45559a1367b48972
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 256
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: fd80d53cd87397154ab43b5b33e0bea00ed4767d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180890"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971512"
 ---
-# <a name="generate-payment-suggestions"></a>Betalingsvoorstellen genereren
+# <a name="generate-payment-suggestions-in-the-belgian-version"></a>Betalingsvoorstellen genereren in de Belgische versie
 Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.  
 
 ## <a name="to-generate-payment-suggestions"></a>Betalingsvoorstellen genereren  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de juiste dagboekbatch en kies vervolgens de actie **Leveranciersbetalingen voorstellen**.  
 3.  Vul op de pagina **Leveranciersbetalingen voorstellen** de velden in zoals wordt beschreven in de volgende tabel.  
 
@@ -49,3 +47,6 @@ Wanneer de batchverwerking is uitgevoerd, bevat het betalingsdagboek alle levera
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
  [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

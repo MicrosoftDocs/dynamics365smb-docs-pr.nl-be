@@ -1,23 +1,23 @@
 ---
-title: Interacties maken voor contacten en segmenten | Microsoft Docs
+title: Interacties maken voor contacten en segmenten
 description: Beschrijft hoe u interacties maakt voor communicatie die u hebt met uw contacten en segmenten in Business Central, bijvoorbeeld direct mail.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 79b92b3e7be6f226fb6c32a55e2ec37a4ac6a363
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 73e8b515b62ac1334b6c156ff4330fc46b7a7414
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181568"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059816"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Interacties maken voor contacten en segmenten
 U kunt interacties maken om alle interacties en communicatie vast te leggen die u hebt met uw contacten en segmenten, bijvoorbeeld direct mail.
@@ -38,7 +38,7 @@ Voordat u interacties maakt, moet u interactiesjablonen instellen. Zie voor meer
 3. Selecteer de interactie die u wilt voltooien, en kies vervolgens de actie **Hervatten**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Een interactie voor een segment maken
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Segmenten** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Segment** in het gedeelte **Interactie** de velden in waarmee u wilt opgeven welke interactie u wilt toewijzen aan het segment.
 
     Nadat u een interactie aan het segment hebt toegewezen, kunt u de interactie persoonlijk aanpassen voor de verschillende contacten in het segment, bijvoorbeeld door een andere interactiesjabloon te selecteren of door de bijlage te wijzigen op de regels op de pagina **Segment**.  
@@ -54,3 +54,6 @@ Als u het selectievakje **Opvolgingssegment maken** hebt ingeschakeld, wordt er 
 [Contactpersonen beheren](marketing-contacts.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Werken met Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

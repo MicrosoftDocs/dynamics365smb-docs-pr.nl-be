@@ -1,39 +1,39 @@
 ---
-title: Databasetoegangsintentie beheren in Business Central | Microsoft Docs
+title: Databasetoegangsintentie beheren in Business Central
 description: Wijzig de databasetoegangsintentie voor rapporten, API-pagina's en query's.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/30/2020
+ms.search.form: 9880
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: f1f77c4c1506db6d4f90d5d13f7c22ca54f44eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333920"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011216"
 ---
-# <a name="managing-database-access-intent"></a>Databasetoegangsintentie beheren 
+# <a name="managing-database-access-intent"></a>Databasetoegangsintentie beheren
 
 Als supergebruiker of beheerder kunt u de databasetoegangsintentie voor rapporten, pagina's van het type API en query's wijzigen om de prestaties van de service te verbeteren.
 
 ## <a name="overview"></a>Overzicht
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan worden ingesteld om alleen-lezen replica's van de primaire (lezen-schrijven) database te gebruiken. Het gebruik van de databasereplica vermindert de belasting van de primaire database. In sommige gevallen verbetert het ook de prestaties bij het bekijken van gegevens in de client. Replica's zijn gunstig voor objecten, zoals rapporten, query's en API-pagina's, die alleen worden gebruikt voor het bekijken van gegevens en niet voor het wijzigen van gegevens.
+[!INCLUDE[prod_short](includes/prod_short.md)] kan worden ingesteld om alleen-lezen replica's van de primaire (lezen-schrijven) database te gebruiken. Het gebruik van de databasereplica vermindert de belasting van de primaire database. In sommige gevallen verbetert het ook de prestaties bij het bekijken van gegevens in de client. Replica's zijn gunstig voor objecten, zoals rapporten, query's en API-pagina's, die alleen worden gebruikt voor het bekijken van gegevens en niet voor het wijzigen van gegevens.
 
 Wanneer objecten worden uitgevoerd, bepaalt de databasetoegangsintentie of een alleen-lezen replica, indien beschikbaar, of de primaire database moet worden gebruikt. Rapporten, API-pagina's en query's worden ontwikkeld met een vooraf gedefinieerde databasetoegangsintentie (zie [eigenschap DatabaseAccessIntent](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataaccessintent-property)).
 
 Met de pagina **Lijst met intenties voor databasetoegang** kunt u de vooraf gedefinieerde intentie voor databasetoegang voor objecten overschrijven wanneer ze worden uitgevoerd.
 
-In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor meer informatie over read scale-out en datatoegangsintentie in [!INCLUDE[prodshort](includes/prodshort.md)] raadpleegt u [Read scale-out gebruiken voor betere prestaties](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in de [!INCLUDE[prodshort](includes/prodshort.md)] Help voor ontwikkelaars en beheer.
+In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor meer informatie over read scale-out en datatoegangsintentie in [!INCLUDE[prod_short](includes/prod_short.md)] raadpleegt u [Read scale-out gebruiken voor betere prestaties](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in de [!INCLUDE[prod_short](includes/prod_short.md)] Help voor ontwikkelaars en beheer.
 
 ## <a name="to-change-the-database-access-intent"></a>De intentie van de databasetoegang wijzigen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Lijst met intenties voor databasetoegang** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerken - Lijst met intenties voor databasetoegang** in en kies vervolgens de gerelateerde koppeling.
 
     De pagina bevat alle rapporten, pagina's en query's. De kolom **Toegangsintentie** bevat een van de volgende waarden:
 
@@ -55,7 +55,10 @@ In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Aan de slag](product-get-started.md)    
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)    
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
-title: Een bedrijfsconfiguratie instellen met RapidStart Services | Microsoft Docs
-description: U kunt een nieuw bedrijf instellen in Business Central met behulp van RapidStart Services. Dit is een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen.
+title: Een bedrijf instellen met RapidStart Services
+description: U kunt een nieuw bedrijf instellen in Business Central met RapidStart Services om de productiviteit te verhogen door terugkerende taken te automatiseren en te vereenvoudigen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e5cbcbccab56ed4ab7c8ac4f165e991385878056
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 813ac2b7c8fe074e9c1f2572f947b92156a56d1a
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186728"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649799"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Een bedrijf instellen met RapidStart Services
-U kunt een nieuw bedrijf instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen.  
+U kunt een nieuw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen.  
 
 Met RapidStart Services krijgt u een overzicht van de instelling van het nieuwe bedrijf door middel van een werkblad waarin u de tabellen kunt opzetten die vaak bij het configuratieproces van nieuwe ondernemingen zijn betrokken. Als u dit doet, kunt u een vragenlijst maken om uw klanten te leiden aan de hand van het verzamelen van instellingsgegevens. Uw klanten hebben de mogelijkheid om de vragenlijst te gebruiken voor het instellen van toepassingsgebieden, of zij kunnen de instellingspagina rechtstreeks openen en hier de instelling uitvoeren. Het belangrijkste is dat RapidStart Services u, als klant, helpt bij het voorbereiden van het bedrijf met de standaardinstellingsgegevens die u kunt verfijnen en aanpassen. Ten slotte kunt u wanneer u RapidStart Services gebruikt, bestaande klantgegevens, zoals een lijst met klanten of artikelen, configureren en migreren naar het nieuwe bedrijf.
 
@@ -31,7 +31,7 @@ Met de volgende onderdelen kunt u de instelling van uw bedrijf versnellen:
 -   Configuratievragenlijst  
 
 > [!Note]  
->  Er zijn gebieden van [!INCLUDE[d365fin](includes/d365fin_md.md)] die u handmatig moet instellen. Deze omvatten het toevoegen van gebruikers, het instellen van boekhoudperiodes en het instellen van dimensies voor business intelligence. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md).
+>  Er zijn gebieden van [!INCLUDE[prod_short](includes/prod_short.md)] die u handmatig moet instellen. Deze omvatten het toevoegen van gebruikers, het instellen van boekhoudperiodes en het instellen van dimensies voor business intelligence. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] instellen](setup.md).
 
  In de volgende tabel wordt een reeks taken beschreven met koppelingen naar de beschrijvende onderwerpen.
 
@@ -41,11 +41,14 @@ Met de volgende onderdelen kunt u de instelling van uw bedrijf versnellen:
 |Installeer het geconfigureerde pakket voor uw klant voor implementatie.|[Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)|
 |Definieer en valideer de instellingswaarden van de klant voor al uw kerngebieden, zoals bedrijfsgegevens grootboek, verkoop of productie.|[Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md)|  
 |Configureer hoofdgegevensrecords met behulp van sjablonen om bestaande klantgegevens voor te bereiden op migratie.|[Migratie van klantgegevens voorbereiden](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Definieer tabellen en velden, valideer bestaande klantgegevens en migreer gegevens naar de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.|[Klantgegevens migreren](admin-migrate-customer-data.md)|
-|Hergebruik van bedrijfsconfiguraties in andere bedrijven voorbereiden|[Aangepaste configuratiepakketten voor bedrijven maken](admin-how-to-create-custom-company-configuration-packages.md)|
+|Definieer tabellen en velden, valideer bestaande klantgegevens en migreer gegevens naar de [!INCLUDE[prod_short](includes/prod_short.md)]-database.|[Klantgegevens migreren](admin-migrate-customer-data.md)|
+|Bereid u voor om bedrijfsconfiguraties in andere bedrijven opnieuw te gebruiken (in de inhoud voor ontwikkelaars en beheerders).|[Aangepaste configuratiepakketten voor bedrijven maken](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
 |Oplossingen zoeken voor bekende problemen in de RapidStart Services-toolkit.|[Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Zie ook  
 [Beheer](admin-setup-and-administration.md)  
-[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

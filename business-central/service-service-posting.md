@@ -1,21 +1,21 @@
 ---
-title: Serviceboekingen | Microsoft Docs
-description: Met de functionaliteit voor serviceboekingen kunt u uw documenten op een efficiënte manier verwerken en zorgen voor een geslaagd klantenservicebeleid. U kunt geboekte documenten maken en bijwerken, en posten maken zowel in het servicegebied als in andere modules om een juiste updateprocedure te waarborgen.
+title: Serviceboekingen
+description: Met de functionaliteit voor serviceboekingen kunt u uw documenten op een efficiënte manier verwerken en zorgen voor een geslaagd klantenservicebeleid.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6ecf6b203b7dd3264c3499f8b60bbdb29698e647
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192471"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443041"
 ---
 # <a name="service-posting"></a>Serviceboekingen
 Met de functionaliteit voor serviceboekingen kunt u uw documenten op een efficiënte manier verwerken en zorgen voor een geslaagd klantenservicebeleid. U kunt geboekte documenten maken en bijwerken, en posten maken zowel in het servicegebied als in andere modules om een juiste updateprocedure te waarborgen.  
@@ -26,7 +26,7 @@ Met de functionaliteit voor serviceboekingen kunt u uw documenten op een effici�
 >  Op een locatie waarvoor magazijnverwerking niet is ingesteld, boekt u rechtstreeks vanaf de pagina **Serviceregels**. In vestigingen met magazijnverwerking, worden de beschreven boekingen, met uitzondering van verzenden en verbruiken, indirect uitgevoerd met variërende verzendfuncties, afhankelijk van de instellingen. Zie voor meer informatie [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Verzenden  
-Met de optie Verzenden kunt u de betreffende artikelen en perioden registreren die zijn ingevoerd op de regels van een serviceorder nadat de service is uitgevoerd. Er wordt een geboekte verzending gemaakt en het uit voorraad halen van de artikelen en verzenden hiervan naar de klanten wordt bijgewerkt in de voorraadmodule en in andere modules in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit houdt in dat er artikelposten, waardeposten, serviceposten en garantieposten worden geproduceerd.  
+Met de optie Verzenden kunt u de betreffende artikelen en perioden registreren die zijn ingevoerd op de regels van een serviceorder nadat de service is uitgevoerd. Er wordt een geboekte verzending gemaakt en het uit voorraad halen van de artikelen en verzenden hiervan naar de klanten wordt bijgewerkt in de voorraadmodule en in andere modules in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit houdt in dat er artikelposten, waardeposten, serviceposten en garantieposten worden geproduceerd.  
 
 Als magazijnverwerking verplicht is voor de vestiging, dan verloopt het verzenden en verplaatsen van serviceregelartikelen net zoals bij andere brondocumenten. Het enige verschil is dat serviceregelartikelen extern of intern kunnen worden verbruikt, wat twee verschillende functies vereist voor het vrijgeven van orders.
 
@@ -49,7 +49,7 @@ Wanneer u een servicefactuur, een serviceverzending of een servicecreditnota boe
 
 In de volgende procedure wordt een geboekte servicefactuur als voorbeeld gebruikt, maar dezelfde procedure kan worden toegepast op geboekte serviceverzendingen en geboekte creditnota's.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte servicefactuur** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte servicefactuur** in en kies vervolgens de gerelateerde koppeling  
 2. Open de geboekte servicefactuur die u wilt bekijken.  
 3. Voor een overzicht van de geboekte factuur kiest u de actie **Statistieken**.  
 
@@ -58,3 +58,6 @@ In de volgende procedure wordt een geboekte servicefactuur als voorbeeld gebruik
 ## <a name="see-also"></a>Zie ook  
 [Serviceorders boeken](service-how-to-post-service-orders.md)   
 [Serviceorders maken](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

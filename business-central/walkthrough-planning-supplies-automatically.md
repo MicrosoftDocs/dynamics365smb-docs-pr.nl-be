@@ -1,29 +1,27 @@
 ---
-title: 'Procedure: Leveringen automatisch plannen | Microsoft Docs'
-description: Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte.
-services: project-madeira
-documentationcenter: ''
+title: Procedure - Goederen automatisch plannen
+description: Deze procedure laat zien hoe u het leveringsplanningssysteem kunt gebruiken om automatisch inkoop- en productieorders voor verschillende verkooporders te plannen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: e4bfcb21263e3e0b08874fe9b9397a35fc484881
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248088"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439372"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procedure: Goederen automatisch plannen
 
-**Opmerking**: deze procedure moet op een demonstratiebedrijf worden uitgevoerd met de optie **Volledige evaluatie - volledige voorbeeldgegevens**, dat in de sandboxomgeving beschikbaar is. Zie [Een sandboxomgeving maken](across-how-create-sandbox-environment.md) voor meer informatie.
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte.  
+Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte.  
 
 -   MPS is de berekening van een hoofdproductieschema op basis van de werkelijke vraag en de vraagprognose. De MPS-berekening wordt gebruikt voor eindartikelen met een voorspelling of een verkooporderregel. Deze artikelen worden "MPS-artikelen" genoemd en worden dynamisch geïdentificeerd wanneer de berekening start.  
 -   MRP is de berekening van het benodigde materiaal op basis van de werkelijke vraag naar materiaal en de vraagprognose op materiaalniveau. MRP wordt alleen berekend voor artikelen die geen MPS-artikelen zijn. Het uiteindelijke doel van MRP is om in tijd gefaseerde formele plannen te leveren, per artikel, om het juiste artikel op de juiste tijd te kunnen leveren, op de juiste plaats en in de juiste aantallen.  
@@ -33,7 +31,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
  Het planningsresultaat wordt deels berekend op basis van de vraag-aanbodsets in de database en deels op basis van de SKU-kaarten of artikelkaarten, productiestuklijsten en bewerkingsplannen.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
- In dit overzicht ziet u hoe u het voorraadplanningsysteem kunt gebruiken om automatisch alle inkoop- en productieorders te plannen die nodig zijn om 15 toerfietsen te produceren die worden gevraagd volgens verschillende verkooporders. Voor een duidelijk en realistisch overzicht wordt het aantal planningsregels beperkt door alle andere vraag-aanbodsets in het demobedrijf CRONUS International Ltd. uit te filteren behalve de verkoopvraag op de vestiging BLAUW.  
+ In dit overzicht ziet u hoe u het voorraadplanningsysteem kunt gebruiken om automatisch alle inkoop- en productieorders te plannen die nodig zijn om 15 toerfietsen te produceren die worden gevraagd volgens verschillende verkooporders. Voor een duidelijk en realistisch overzicht wordt het aantal planningsregels beperkt door alle andere vraag/aanbod-sets in het demobedrijf CRONUS International Ltd. uit te filteren behalve de verkoopvraag op de vestiging OOST.  
 
  In deze procedure worden de volgende taken beschreven:  
 
@@ -51,16 +49,16 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
  U moet het volgende doen om deze procedure uit te voeren:  
 
 -   Het voorbeeldbedrijf CRONUS International Ltd.  
--   Voor het wijzigen van diverse ingestelde waarden door de stappen in het gedeelte “Voorbeeldgegevens voorbereiden”, verderop in dit overzicht te volgen.  
+-   Voor het wijzigen van diverse ingestelde waarden door de stappen in het gedeelte 'Voorbeeldgegevens voorbereiden', verderop in dit overzicht te volgen.  
 
 ## <a name="story"></a>Scenario  
- De klant, Cannon Group PLC, bestelt vijf toerfietsen voor verzending op 5 februari 2014.  
+ De klant, Cannon Group PLC, bestelt vijf toerfietsen voor verzending op 5 februari 2021.  
 
- Eduardo, de productieplanner, voert de routinevoorraadplanning uit voor de eerste week van februari 2014. Hij filtert op zijn eigen vestiging, BLAUW, en voert een planningsinterval in voor de werkdatum (23 januari 2014) tot 7 februari 2014 voordat hij een voorlopig voorraadplan berekent.  
+ Eduardo, de productieplanner, voert de routinevoorraadplanning uit voor de eerste week van februari 2021. Hij filtert op zijn eigen vestiging, OOST, en voert een planningsinterval in voor de werkdatum (23 januari 2021) tot 7 februari 2021 voordat hij een voorlopig voorraadplan berekent.  
 
  De enige vraag voor die week is voor de verkooporder van de Cannon Group. Eduardo ziet dat geen van de planningsregels een waarschuwing bevat en hij gaat voorraadorders maken zonder wijzigingen voor de voorgestelde planningsregels.  
 
- De volgende dag, nog voordat een van de voorlopige voorraadorders is gestart of geboekt, krijgt Eduardo bericht dat een andere klant tien toerfietsen heeft besteld voor verzending op 12 februari 2014. Daarom berekent hij het voorraadplan opnieuw om het aan te passen aan de gewijzigde vraag. De herberekening leidt tot een mutatieplan met een voorstel om zowel de tijd als de hoeveelheid van een aantal voorraadorders te wijzigen die tijdens de eerste run zijn gemaakt.  
+ De volgende dag, nog voordat een van de voorlopige voorraadorders is gestart of geboekt, krijgt Eduardo bericht dat een andere klant tien toerfietsen heeft besteld voor verzending op 12 februari 2021. Daarom berekent hij het voorraadplan opnieuw om het aan te passen aan de gewijzigde vraag. De herberekening leidt tot een mutatieplan met een voorstel om zowel de tijd als de hoeveelheid van een aantal voorraadorders te wijzigen die tijdens de eerste run zijn gemaakt.  
 
  Tijdens de diverse stappen van de planning zoekt Eduardo de betreffende orders op en gebruikt de functie Ordertracering om te zien welke vraag door welk aanbod wordt gedekt.  
 
@@ -76,8 +74,8 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ### <a name="to-change-selected-planning-parameters"></a>Geselecteerde planningsparameters wijzigen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SKU's** in en kies vervolgens de gerelateerde koppeling.  
-2.  Open de BLAUW SKU-kaart voor artikel 1100, Voorwiel.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **SKU's** in en kies vervolgens de gerelateerde koppeling.  
+2.  Open de SKU-kaart van OOST voor artikel 1100, Voorwiel.  
 3.  Vul de velden op het sneltabblad **Gepland** in, zoals in de volgende tabel is beschreven.  
 
     |Bestelbeleid|Veiligheidsvoorraad|Lotaccumulatieperiode|Herplanningsperiode|  
@@ -89,61 +87,61 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
  Hiermee is de voorbereiding van voorbeeldgegevens voor het overzicht voltooid.  
 
 ## <a name="creating-a-regenerative-supply-plan"></a>Een regeneratief voorraadplan maken  
- In reactie op een nieuwe verkooporder voor vijf toerfietsen, start Ricardo het planningsproces door filters, opties, planningsinterval in te stellen en alle andere vraag, behalve die uit de eerste week van februari op de vestiging BLAUW, uit te sluiten. Hij begint met de berekening van een MPS (hoofdproductieschema) en berekent vervolgens een volledig voorraadplan voor alle vraag op lager niveau (MRP).  
+ In reactie op een nieuwe verkooporder voor vijf toerfietsen, start Ricardo het planningsproces door filters, opties, planningsinterval in te stellen en alle andere vraag, behalve die uit de eerste week van februari op de vestiging OOST, uit te sluiten. Hij begint met de berekening van een MPS (hoofdproductieschema) en berekent vervolgens een volledig voorraadplan voor alle vraag op lager niveau (MRP).  
 
 ### <a name="to-create-the-sales-order"></a>De verkooporder maken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul op de pagina **Verkooporder** de velden in, zoals is beschreven in de volgende tabel.  
 
-    |Naam van orderklant|Verzenddatum|Artikelnr.|Vestiging|Aantal|  
+    |Naam van orderklant|Verzenddatum|Artikelnr.|Locatie|Aantal|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Van Terp Kantoorinrichting|05-02-2014|1001|BLAUW|5|  
+    |Van Terp Kantoorinrichting|05-02-2014|1001|OOST|5|  
 
 4.  Accepteer de beschikbaarheidswaarschuwing en kies de knop **Ja** om het nieuwe gevraagde aantal vast te leggen.  
 
-### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Een regeneratief plan maken om aan de vraag op de vestiging BLAUW te voldoen  
+### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Een regeneratief plan maken om aan de vraag op de vestiging OOST te voldoen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Regeneratief plan berekenen**.  
 3.  Vul op de pagina **Plan berekenen - Planningsvoorstel** de velden in zoals beschreven in de volgende tabel.  
 
     |Planning berekenen|Begindatum|Einddatum|Resultaten weergeven:|Totalen beperken tot|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Ja<br /><br /> **MRP** = Nee|23-01-2014<br /><br /> (werkdatum)|07-02-2014|1001..1300|Vestigingsfilter = BLAUW|  
+    |**MPS** = Ja<br /><br /> **MRP** = Nee|23-01-2021<br /><br /> (werkdatum)|07-02-2021|1001..1300|Vestigingsfilter = OOST|  
 
 4.  Kies **OK** om de planning te starten.  
 
-     Er wordt één planningsregel gemaakt met het voorstel dat er een geplande productieorder wordt uitgegeven voor de productie van de tien toerfietsen, artikel 1001, vóór 5 februari 2014, de verzenddatum van de verkooporder.  
+     Er wordt één planningsregel gemaakt met het voorstel dat er een geplande productieorder wordt uitgegeven voor de productie van de tien toerfietsen, artikel 1001, vóór 5 februari 2021, de verzenddatum van de verkooporder.  
 
      Controleer vervolgens of deze planningsregel gaat over de Cannon Group-verkooporder met de functie **Ordertracering**, die vraag en gepland aanbod dynamisch koppelt.  
 
 5.  Selecteer de nieuwe planningsregel en kies de actie **Ordertracering**.  
 6.  Kies op de pagina **Ordertracering** de actie **Weergeven**.  
 
-     De verkooporder voor de verzending van vijf toerfietsen naar klantnummer 10000, op 05-02-2014, wordt weergegeven.  
+     De verkooporder voor de verzending van vijf toerfietsen naar klantnummer 10000, op 05-02-2021, wordt weergegeven.  
 
 7.  Sluit de pagina's **Verkooporder** en **Ordertracering**.  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>MRP berekenen om onderliggende materiaalbehoeften op te nemen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Regeneratief plan berekenen**.  
 3.  Vul op de pagina **Plan berekenen - Planningsvoorstel** de velden in zoals beschreven in de volgende tabel.  
 
     |Berekenen|Begindatum|Einddatum|Resultaten weergeven:|Totalen beperken tot:|  
     |---------------|-------------------|-----------------|-------------------|----------------------|  
-    |**MPS** = Ja<br /><br /> **MRP** = Ja|23-01-2014|07-02-2014|1001..1300|Vestigingsfilter = BLAUW|  
+    |**MPS** = Ja<br /><br /> **MRP** = Ja|23-01-2021|07-02-2021|1001..1300|Vestigingsfilter = OOST|  
 
-4.  Kies **OK** om de planning te starten.  
+4.  Kies de knop **OK** om de planning te starten.  
 
-     Er worden in totaal 14 planningsregels gemaakt met een voorstel voor voorraadorders voor alle vraag in verband met de verkooporder voor toerfietsen op de vestiging BLAUW.  
+     Er worden in totaal 14 planningsregels gemaakt met een voorstel voor voorraadorders voor alle vraag in verband met de verkooporder voor toerfietsen op de vestiging OOST.  
 
 ## <a name="analyzing-the-planning-result"></a>Het planningsresultaat analyseren  
  Voor het analyseren van de voorgestelde aantallen vouwt Eduardo de geselecteerde planningsregels uit om ordertraceringsposten en planningsparameters te zien.  
 
- Noteer op de pagina **Planningsvoorstel** in de kolom **Vervaldatum** dat de levering van de voorgestelde orders achterwaarts is gepland vanaf de vervaldatum van de verkooporder, 05-02-2014. De tijdlijn begint op de bovenste planningsregel met de productieorder voor het produceren van de voltooide toerfietsen. De tijdlijn eindigt op de onderste planningsregel met de inkooporder voor een van de artikelen op het laagste niveau, 1255, Socket (achter), met 01-30-2014 als vervaldatum. Evenals de planningsregel voor artikel 1251, Draagas achterwiel, staat deze regel voor een inkooporder voor materialen met een deadline op de begindatum van het bijbehorende geproduceerde hoofdartikel, subassemblageartikel 1250, dat een deadline heeft van 03-02-2014. In het voorstel ziet u dat alle onderliggende artikelen moeten worden voldaan op de begindatum van de bovenliggende artikelen.  
+ Noteer op de pagina **Planningsvoorstel** in de kolom **Vervaldatum** dat de levering van de voorgestelde orders achterwaarts is gepland vanaf de vervaldatum van de verkooporder, 05-02-2021. De tijdlijn begint op de bovenste planningsregel met de productieorder voor het produceren van de voltooide toerfietsen. De tijdlijn eindigt op de onderste planningsregel met de inkooporder voor een van de artikelen op het laagste niveau, 1255, Socket (achter), met 01-30-2021 als vervaldatum. Evenals de planningsregel voor artikel 1251, Draagas achterwiel, staat deze regel voor een inkooporder voor materialen met een deadline op de begindatum van het bijbehorende geproduceerde hoofdartikel, subassemblageartikel 1250, dat een deadline heeft van 03-02-2014. In het voorstel ziet u dat alle onderliggende artikelen moeten worden voldaan op de begindatum van de bovenliggende artikelen.  
 
  In de planningsregel voor artikel 1300, kettingmontage, worden tien stuks voorgesteld. Dit wijkt van de vijf stuks af die we verwachten nodig te hebben om de verkooporder te voldoen. Ga door om de ordertraceringsposten weer te geven.  
 
@@ -162,7 +160,7 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 1.  Op de pagina **Niet-getraceerde planningselementen** selecteert u de ordertraceringsregel van artikel 1300.  
 2.  Kies het veld **Artikelnr.** en kies vervolgens de actie **Geavanceerd**.  
 3.  Kies op de pagina **Artikeloverzicht** de actie **SKU's**.  
-4.  Open op de pagina **SKU-overzicht** de BLAUWE SKU-kaart.  
+4.  Open op de pagina **SKU-overzicht** de SKU-kaart van OOST.  
 5.  Op het sneltabblad **Planning** ziet u dat het veld **Min. bestelaantal** de waarde 10 bevat.  
 6.  Sluit alle pagina's behalve **Planningsvoorstel**.  
 
@@ -204,10 +202,10 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 4.  Klik op **OK** om automatisch alle voorgestelde voorraadorders te maken.  
 5.  Sluit de lege pagina **Planningsvoorstel**.  
 
- Hiermee is de oorspronkelijke berekening, de analyse en het maken van een voorraadplan voor de vraag op de vestiging BLAUW in de eerste week van februari voltooid. In het volgende gedeelte bestelt een andere klant tien toerfietsen en moet Eduardo opnieuw plannen.  
+ Hiermee is de oorspronkelijke berekening, de analyse en het maken van een voorraadplan voor de vraag op de vestiging OOST in de eerste week van februari voltooid. In het volgende gedeelte bestelt een andere klant tien toerfietsen en moet Eduardo opnieuw plannen.  
 
 ## <a name="creating-a-net-change-plan"></a>Een mutatieplan maken  
- De volgende dag, voordat er voorraadorders zijn gestart of geboekt, arriveert een nieuwe verkooporder van Libros S.A. voor tien toerfietsen die moeten worden verzonden op 12 februari 2014. Eduardo krijgt bericht van de nieuwe vraag en hij plant opnieuw om het huidige voorzieningsplan aan te passen. Eduardo gebruikt de functie Mutatieplan berekenen om alleen de wijzigingen te berekenen die zijn aangebracht in vraag of aanbod sinds de laatste planningsrun. Bovendien breidt hij de planningsperiode uit naar 14 februari 2014 om de nieuwe verkoopvraag op 12 februari 2014 mee te nemen.  
+ De volgende dag, voordat er voorraadorders zijn gestart of geboekt, arriveert een nieuwe verkooporder van Libros S.A. voor tien toerfietsen die moeten worden verzonden op 12 februari 2021. Eduardo krijgt bericht van de nieuwe vraag en hij plant opnieuw om het huidige voorzieningsplan aan te passen. Eduardo gebruikt de functie Mutatieplan berekenen om alleen de wijzigingen te berekenen die zijn aangebracht in vraag of aanbod sinds de laatste planningsrun. Bovendien breidt hij de planningsperiode uit naar 14 februari 2021 om de nieuwe verkoopvraag op 12 februari 2014 mee te nemen.  
 
  In het planningsysteem wordt de beste manier berekend om te voldoen aan de vraag naar deze twee identieke producten, zoals het samenvoegen van bepaalde inkoop- en productieorders, het opnieuw plannen van andere orders en het zo nodig maken van nieuwe orders.  
 
@@ -216,23 +214,23 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 1.  Kies de actie **Nieuw**.  
 2.  Vul op de pagina **Verkooporder** de velden in, zoals is beschreven in de volgende tabel.  
 
-    |Naam van orderklant|Verzenddatum|Artikelnr.|Vestiging|Aantal|  
+    |Naam van orderklant|Verzenddatum|Artikelnr.|Locatie|Aantal|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Libros S.A.|12-02-2014|1001|BLAUW|10|  
+    |Libros S.A.|12-02-2021|1001|OOST|10|  
 
 3.  Accepteer de beschikbaarheidswaarschuwing en klik op **Ja** om het gevraagde aantal vast te leggen.  
 4.  Plan vervolgens opnieuw voor aanpassing van het huidige voorraadplan.  
-5.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+5.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 6.  Kies de actie **Mutatieplan berekenen**.  
 7.  Vul op de pagina **Plan berekenen - Planningsvoorstel** de velden in zoals beschreven in de volgende tabel.  
 
     |Planning berekenen|Begindatum|Einddatum|Resultaten weergeven:|Totalen beperken tot|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Ja<br /><br /> **MRP** = Ja|23-01-2014|14-02-2014|1001..1300|Vestigingsfilter = BLAUW|  
+    |**MPS** = Ja<br /><br /> **MRP** = Ja|23-01-2021|14-02-2021|1001..1300|Vestigingsfilter = OOST|  
 
-8.  Kies **OK** om de planning te starten.  
+8.  Kies de knop **OK** om de planning te starten.  
 
- In totaal zijn er 14 planningsregels gemaakt. In de eerste planningsregel ziet u dat in het veld **Planningsboodschap** de tekst **Nieuw** wordt weergegeven, in het veld **Aantal** staat 10 en in het veld **Vervaldatum** staat 12 februari 2014. Deze nieuwe regel voor het bovenliggende artikel, 1001, toerfiets, is gemaakt omdat het artikel gebruikmaakt van een bestelbeleid volgens **Order**, wat betekent dat deze moet worden geleverd in een één-op-één-relatie met de vraag, de verkooporder van tien stuks.  
+ In totaal zijn er 14 planningsregels gemaakt. In de eerste planningsregel ziet u dat in het veld **Planningsboodschap** de tekst **Nieuw** wordt weergegeven, in het veld **Aantal** 10 staat en in het veld **Vervaldatum** 12 februari 2021 staat. Deze nieuwe regel voor het bovenliggende artikel, 1001, toerfiets, is gemaakt omdat het artikel gebruikmaakt van een bestelbeleid volgens **Order**, wat betekent dat deze moet worden geleverd in een één-op-één-relatie met de vraag, de verkooporder van tien stuks.  
 
  De volgende twee planningsregels zijn de productieorders voor de wielen van de toerfiets. Elke bestaande order van vijf, in het veld **Oorspr. aantal**, wordt verhoogd tot 15 in het veld **Aantal**. Beide productieorders hebben ongewijzigde vervaldatums, zoals aangegeven in het veld **Planningsboodschap** dat **Aantal wijzigen** bevat. Dit is ook het geval voor de planningsregel voor artikel 1300, behalve dat diens lotgrootte van 10,00 de getraceerde vraag voor 15 stuks afrondt naar 20.  
 
@@ -267,5 +265,8 @@ Termen zoals "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het
 
 ## <a name="see-also"></a>Zie ook  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   
- [Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)   
+<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

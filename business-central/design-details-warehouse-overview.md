@@ -1,21 +1,21 @@
 ---
-title: 'Ontwerpdetails: Magazijnoverzicht | Microsoft Docs'
-description: Om de fysieke verwerking van artikelen op het niveau van zones en opslaglocaties te ondersteunen, moeten alle gegevens worden getraceerd van elke transactie of verplaatsing in het magazijn. Dit wordt beheerd in de tabel **Magazijnpost**. Elke transactie wordt opgeslagen in een magazijnjournaal.
+title: 'Ontwerpdetails: Magazijnoverzicht'
+description: Om de fysieke verwerking van artikelen op het niveau van zones en opslaglocaties te ondersteunen, moeten alle gegevens worden getraceerd van elke transactie of verplaatsing in het magazijn.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 41f18acde6140ca67050391273e9ace61f48fbb5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 49c25082d8f43210011cc7f482c4f4af330c1a19
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184592"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011610"
 ---
 # <a name="design-details-warehouse-overview"></a>Ontwerpdetails: Magazijnoverzicht
 Om de fysieke verwerking van artikelen op het niveau van zones en opslaglocaties te ondersteunen, moeten alle gegevens worden getraceerd van elke transactie of verplaatsing in het magazijn. Dit wordt beheerd in de tabel **Magazijnpost**. Elke transactie wordt opgeslagen in een magazijnjournaal.  
@@ -28,10 +28,10 @@ Wanneer artikelboekingen buiten de magazijnmodule plaatsvinden, wordt een standa
 
 De volgende illustratie geeft gebruikelijke magazijnstromen aan.  
 
-![Overzicht van magazijnprocessen](media/design_details_warehouse_management_overview.png "Overzicht van magazijnprocessen")  
+![Overzicht van magazijnprocessen.](media/design_details_warehouse_management_overview.png "Overzicht van magazijnprocessen")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Elementaire of geavanceerde magazijnfuncties  
-De magazijnfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] kan in verschillende complexiteitsniveaus worden geïmplementeerd, afhankelijk van de processen en het ordervolume van een bedrijf. Het belangrijkste verschil is dat de activiteiten per order worden uitgevoerd bij standaardmagazijnbeheer, terwijl ze worden samengevoegd voor meerdere orders bij geavanceerd magazijnbeheer.  
+De magazijnfunctionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] kan in verschillende complexiteitsniveaus worden geïmplementeerd, afhankelijk van de processen en het ordervolume van een bedrijf. Het belangrijkste verschil is dat de activiteiten per order worden uitgevoerd bij standaardmagazijnbeheer, terwijl ze worden samengevoegd voor meerdere orders bij geavanceerd magazijnbeheer.  
 
  Om te onderscheiden tussen de verschillende complexiteitniveaus wordt in deze documentatie verwezen naar twee algemene denominaties, elementaire en geavanceerde magazijnfuncties. Dit eenvoudig onderscheid omvat meerdere verschillende complexiteitniveaus zoals gedefinieerd door productgranules en vestigingsinstellingen, waarbij elk wordt ondersteund door verschillende UI-documenten. Zie voor meer informatie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md).  
 
@@ -69,7 +69,7 @@ De magazijnfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] kan in
 Voor meer informatie over elk document raadpleegt u de respectievelijke paginaonderwerpen.  
 
 ### <a name="terminology"></a>Terminologie  
-Ter afstemming met de financiële begrippen van inkopen en verkopen verwijst de [!INCLUDE[d365fin](includes/d365fin_md.md)]-magazijndocumentatie naar de volgende termen voor artikelstromen in het magazijn.  
+Ter afstemming met de financiële begrippen van inkopen en verkopen verwijst de [!INCLUDE[prod_short](includes/prod_short.md)]-magazijndocumentatie naar de volgende termen voor artikelstromen in het magazijn.  
 
 |Term|Description|  
 |----------|---------------------------------------|  
@@ -79,3 +79,6 @@ Ter afstemming met de financiële begrippen van inkopen en verkopen verwijst de 
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

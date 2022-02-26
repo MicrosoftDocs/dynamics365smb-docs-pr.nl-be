@@ -1,21 +1,21 @@
 ---
-title: 'Ontwerpdetails: Tabel Planningstoewijzing | Microsoft Docs'
-description: Dit onderwerp biedt inzicht in wat er gebeurt wanneer u wijzigt hoe u plant voor een artikel.
+title: 'Ontwerpdetails: Tabel Planningstoewijzing'
+description: Dit onderwerp geeft inzicht in wat er gebeurt als een verandering in de vraag- of aanbodpatronen vereist dat u berekent hoe u een artikel plant.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4002bc464f012cfd279db91047ed98ec1193cb36
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: cdd16d0f3143701ca53125ef74f91ae5bd143f1c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184928"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321607"
 ---
 # <a name="design-details-planning-assignment-table"></a>Ontwerpdetails: Tabel Planningstoewijzing
 Alle artikelen moeten worden gepland, maar er is geen reden om een planning voor een artikel te berekenen tenzij er een verandering in het vraag- of aanbodpatroon is opgetreden sinds er voor het laatst een planning is berekend.  
@@ -67,3 +67,6 @@ Bij het berekenen van een MPS of MRP gelden de volgende beperkingen:
 [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
 [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)   
 [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 69e5cbb897527a903594af893c0af44a48dbee27
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: ed9a7b84798ac7b0bf103329c9e06ea0468aa03b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181267"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788089"
 ---
 # <a name="set-up-contacts"></a>Contacten instellen
 Wanneer u contacten maakt, kunt u specifieke gegevens invoeren, zoals de sector waartoe het contact behoort en uw zakenrelatie met de contacten.
@@ -149,7 +149,7 @@ Als u velden overneemt, worden de ingestelde standaardwaarden overschreven. Als 
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Contacten synchroniseren met klanten, leveranciers en bankrekeningen
 Als u de contactkaart wilt synchroniseren met een gekoppelde klant-, leveranciers- of bankrekeningkaart, moet u het relevante veld invullen in het gedeelte **Zakenrelatiecode voor** op het sneltabblad **Interacties** van de pagina **Marketinginstellingen**.  
 
-Zie voor meer informatie [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Zie voor meer informatie [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Dubbele contacten zoeken
 U kunt de toepassing automatisch laten zoeken naar dubbele records telkens wanneer u een contact maakt, of u kunt ervoor kiezen handmatig te zoeken nadat u contacten hebt gemaakt. U kunt de zoekstrings ook automatisch laten bijwerken door de toepassing, telkens wanneer u contactgegevens wijzigt of een contact maakt. U kunt zelf het zoekresultaatpercentage bepalen, dat wil zeggen, het percentage van identieke strings dat twee contactpersonen moeten hebben zodat ze als dubbele records worden beschouwd. U stelt dit in op het sneltabblad **Dubbele records** op de pagina **Marketinginstellingen**.
@@ -160,4 +160,7 @@ Wanneer u een dubbel contact hebt gevonden, kunt u de pagina **Dubbele records s
 [Contactpersonen beheren](marketing-contacts.md)  
 [Contacten maken](marketing-create-contact-companies.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

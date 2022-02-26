@@ -1,24 +1,24 @@
 ---
-title: Service- en werkuren instellen | Microsoft Docs
-description: U kunt de gebruikelijke servicewerkuren in het bedrijf opgeven. Deze service-uren worden gebruikt om de responsdatum en -tijd voor serviceorders en -offertes te berekenen, en om responstijdwaarschuwingen te verzenden.
+title: Service- en werkuren instellen
+description: Leer hoe u werk- en service-uren instelt die worden gebruikt om de responsdatum en -tijd berekend voor serviceorders en -offertes.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 6aaf78756f091d70a1a33532afbafb14a5b29bc7
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 2e5dac47a5d4e3ac8e707879b28660f3f62ed1ae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877291"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436488"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Service- en werkuren instellen
-Met een servicebeheersysteem worden de resource-uren en serviceorderstatus bijgehouden ten behoeve van het voorspellen van de werkbelasting en servicebehoeften. [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft ingebouwde tools die u kunt aanpassen om dit soort informatie vast te leggen.  
+Met een servicebeheersysteem worden de resource-uren en serviceorderstatus bijgehouden ten behoeve van het voorspellen van de werkbelasting en servicebehoeften. [!INCLUDE[prod_short](includes/prod_short.md)] heeft ingebouwde tools die u kunt aanpassen om dit soort informatie vast te leggen.  
   
 Nadat u de standaardservice-uren van uw bedrijf hebt ingesteld, kunt u responstijden voor serviceorders berekenen of waarschuwingen verzenden wanneer serviceoproepen worden ontvangen. De waarschuwingsfunctie wordt in combinatie met de projectplanner geïmplementeerd.   
   
@@ -27,7 +27,7 @@ Terwijl u aan serviceorder werkt, is het handig om de status te kunnen bijwerken
 ## <a name="to-set-up-default-service-hours"></a>Standaardservice-uren instellen  
 Op de pagina **Std. service-uren** kunt u de gebruikelijke servicewerkuren in het bedrijf instellen. Deze service-uren worden gebruikt om de responsdatum en -tijd voor serviceorders en -offertes te berekenen en om responstijdwaarschuwingen te verzenden. De standaardservice-uren voor servicecontracten worden gebruikt tenzij u speciale service-uren voor een contract opgeeft.  
   
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Std. service-uren** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Std. service-uren** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -36,7 +36,7 @@ Op de pagina **Std. service-uren** kunt u de gebruikelijke servicewerkuren in he
 ## <a name="to-set-up-work-hour-templates"></a>Werkuursjablonen instellen
 Op de pagina **Werkuursjabloon** kunt u sjablonen instellen met de standaardwerkuren in het bedrijf. U kunt bijvoorbeeld sjablonen maken voor technici met een volledige baan en voor technici met een deeltijdbaan. U kunt werkuursjablonen gebruiken wanneer u capaciteit toevoegt aan resources.  
   
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkuursjablonen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werkuursjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -47,7 +47,7 @@ Op de pagina **Service-uren** kunt u specifieke service-uren instellen voor de k
   
 Als u geen specifieke service-uren voor het servicecontract instelt, worden de standaardservice-uren voor servicecontracten gebruikt.  
   
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het servicecontract waarvoor u specifieke service-uren wilt instellen en kies **Service-uren**.  
 4. Als u service-uren op basis van standaardservice-uren wilt instellen, kiest u de actie **Std. service-uren kopiëren**.  
 5. De velden in de posten voor service-uren bewerken. Invoegen of verwijderen van vermeldingen voor het instellen van de service-uren voor het contract. Merk op dat de velden **Dag**, **Begintijd** en **Eindtijd** zijn vereist voor elke regel.  
@@ -58,3 +58,6 @@ Als u geen specifieke service-uren voor het servicecontract instelt, worden de s
 [Toewijzingsstatus en herstelstatus begrijpen](service-allocation-status-and-repair-status.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [Serviceorderstatus en herstelstatus begrijpen](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,27 +1,27 @@
 ---
-title: Overzicht van documenten en dagboeken boeken | Microsoft Docs
-description: Geeft een overzicht van boekingsacties en de manieren waarop u documenten en dagboeken kunt boeken.
+title: Overzicht van documenten en dagboeken boeken
+description: Dit onderwerp beschrijft boekingsacties en de manieren waarop u documenten en dagboeken in de verschillende bedrijfsgrootboeken kunt boeken.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 52a9330273dc82f349144e2d4392824f7c2ee33e
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310717"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012747"
 ---
 # <a name="posting-documents-and-journals"></a>Documenten en dagboeken boeken
 Boeking staat voor de boekhoudingsactie waarbij zakelijke transacties in de verschillende bedrijfsgrootboeken worden geregistreerd.
 
-Vrijwel elk document of dagboek in [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een groep **Boeking** waar u kunt kiezen uit verschillende boekingsacties, zoals **Boeken**, **Voorbeeld van boeking weergeven**, **Boeken en verzenden**, **Boeken en e-mailen**.
+Vrijwel elk document of dagboek in [!INCLUDE[prod_short](includes/prod_short.md)] bevat een groep **Boeking** waar u kunt kiezen uit verschillende boekingsacties, zoals **Boeken**, **Voorbeeld van boeking weergeven**, **Boeken en verzenden**, **Boeken en e-mailen**.
 
 In de volgende tabel worden gerelateerde taken beschreven met koppelingen naar de onderwerpen waarin deze worden beschreven.
 
@@ -37,4 +37,7 @@ In de volgende tabel worden gerelateerde taken beschreven met koppelingen naar d
 ## <a name="see-also"></a>Zie ook
 [Geboekte documenten bewerken](across-edit-posted-document.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

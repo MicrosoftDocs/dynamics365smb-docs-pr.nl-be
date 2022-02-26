@@ -1,21 +1,22 @@
 ---
-title: Overzicht van taken om verkoop te beheren | Microsoft Docs
-description: Hierin wordt beschreven hoe u verkoopactiviteiten kunt beheren.
+title: Overzicht van taken om verkoop te beheren
+description: Lees alles over hoe u de services van Business Central kunt gebruiken voor het beheren van verkoopactiviteiten met uw klanten met verkoopfacturen, bestellingen, offertes en meer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2020
-ms.author: sgroespe
-ms.openlocfilehash: c7b1d4b82d82b4957d7bd0d295182189ede60a79
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.search.form: 253
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 815c9240c9c81129009f70f050c869df4eea9b3a
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324378"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101015"
 ---
 # <a name="sales"></a>Verkoop
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.
@@ -26,7 +27,7 @@ U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u 
 
 U kunt een geboekte verkoopfactuur gemakkelijk corrigeren of annuleren voordat het is betaald. Dit is handig als u een typfout wilt corrigeren of als de klant om een wijziging in het begin van het orderproces verzoekt. Als de geboekte verkoopfactuur is betaald, moet u een verkoopcreditnota of een verkoopretourorder maken om de verkoop tegen te boeken.
 
-Goede verkoop- en marketingmethoden zijn gebaseerd op de juiste beslissingen op het juiste tijdstip. Marketingfunctionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt nauwkeurige en tijdige overzichten van uw contactgegevens, zodat u uw potentiële klanten efficiënter kunt bedienen en de klanttevredenheid kunt verhogen. Zie [CRM - Marketing en Sales](marketing-relationship-management.md) voor meer informatie.
+Goede verkoop- en marketingmethoden zijn gebaseerd op de juiste beslissingen op het juiste tijdstip. Marketingfunctionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] biedt nauwkeurige en tijdige overzichten van uw contactgegevens, zodat u uw potentiële klanten efficiënter kunt bedienen en de klanttevredenheid kunt verhogen. Zie [CRM - Marketing en Sales](marketing-relationship-management.md) voor meer informatie.
 
 Als u Dynamics 365 Sales gebruikt voor contacten met klanten, kunt u profiteren van naadloze integratie in het lead-naar-cash proces door Business Central te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën. Zie voor meer informatie [Dynamics 365 Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -55,7 +56,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Verkoop componenten die nu niet verkrijgbaar zijn door een gekoppelde assemblageorder te maken om het volledige of gedeeltelijke verkooporderaantal te leveren.|[Assembleren voor order-artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md)|
 |Factureer een klant één keer voor meerdere zendingen, door de zendingen te combineren op een factuur.|[Verzendingen combineren op één factuur](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Informeer klanten over orderleverdatums door berekening van ofwel de datum waarop het artikel beschikbaar is voor toezegging (ATP) of de datum waarop het artikel kan worden toegezegd (CTP).|[Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)|
-|Registreer uw schattingen voor toekomstige verkopen, gespecificeerd per artikel en periode, om voornamelijk te fungeren als invoer voor productieplanning.|[Een prognose maken](production-how-to-create-a-forecast.md)|
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde klant.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
@@ -66,7 +66,10 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Projectbeheer](projects-manage-projects.md)    
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

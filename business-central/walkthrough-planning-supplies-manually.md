@@ -1,25 +1,25 @@
 ---
-title: 'Procedure: Leveringen handmatig plannen | Microsoft Docs'
-description: In het volgende overzicht ziet u het proces voor het plannen van voorraadorders om aan nieuwe vraag te voldoen. U kunt voorraadplanning starten met vaste tussenpozen, bijvoorbeeld elke ochtend of elke maandag, of wanneer u bericht krijgt van verkoop of productie, afhankelijk van het type vraag.
+title: 'Procedure: leveringen handmatig plannen'
+description: Dit overzicht demonstreert het proces van het plannen van leveringsorders om aan nieuwe vraag te voldoen, inclusief het plannen van een inkoop-, transfer- en productieorder.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 0da12af6eb5a165c717cd112735a91aebe3ae85d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876979"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439005"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedure: Leveringen handmatig plannen
 
-**Opmerking**: deze procedure moet op een demonstratiebedrijf worden uitgevoerd met de optie **Volledige evaluatie - volledige voorbeeldgegevens**, dat in de sandboxomgeving beschikbaar is. Zie [Een sandboxomgeving maken](across-how-create-sandbox-environment.md) voor meer informatie.
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 In het volgende overzicht ziet u het proces voor het plannen van voorraadorders om aan nieuwe vraag te voldoen. U kunt voorraadplanning starten met vaste tussenpozen, bijvoorbeeld elke ochtend of elke maandag, of wanneer u bericht krijgt van verkoop of productie, afhankelijk van het type vraag. In dit scenario gebruikt u de pagina **Orderplanning**, een eenvoudig voorraadplanningshulpmiddel op basis van handmatige besluitvorming in plaats van automatische planning op basis van parameters.  
 
@@ -38,10 +38,10 @@ In het volgende overzicht ziet u het proces voor het plannen van voorraadorders 
 -   Verkooporderverwerker  
 
 ## <a name="prerequisites"></a>Vereisten  
- Voordat u met dit scenario begint, moet u de [!INCLUDE[d365fin](includes/d365fin_md.md)] installeren. Breng de volgende wijzigingen aan in de database:  
+ Voordat u met dit scenario begint, moet u de [!INCLUDE[prod_short](includes/prod_short.md)] installeren. Breng de volgende wijzigingen aan in de database:  
 
 -   Verwijder alle bestaande verkooporders voor fietsen.  
--   Maak één verkooporder voor 10 fietsen op de locatie BLAUW.  
+-   Maak één verkooporder voor 10 fietsen op de locatie OOST.  
 -   Verwijder alle geplande en vast geplande productieorders. Verwijder geen gestarte orders met posten die al zijn geboekt.  
 
  Gebruik als algemene regel de voorgestelde gegevens uit deze procedure aangezien deze gegevens de benodigde records bevatten.  
@@ -67,7 +67,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
 ### <a name="to-use-the-order-planning-page"></a>De pagina Orderplanning gebruiken  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Orderplanning** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Orderplanning** in en kies vervolgens de gerelateerde koppeling  
 
      Als de pagina **Orderplanning** voor het eerst wordt geopend, moet er een planning worden berekend om de nieuwe vraag weer te geven sinds deze voor het laatst is berekend.  
 
@@ -139,7 +139,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      Verkooporder **2008 betreft** tien luidsprekers van het type **LS-120** die zijn besteld door John Haddock Insurance Co.  
 
-     Voor het artikel is het aanvulsysteem geselecteerd en de standaardleverancier wordt weergegeven.  
+     Het voor het artikel gedefinieerde aanvulsysteem en de standaardleverancier worden weergegeven.  
 
     > [!NOTE]  
     >  Onder aan de pagina staan vier informatievelden. In het veld **Vroegste beschikbaarheidsdatum** zijn de tien stuks die nodig zijn, beschikbaar via een inkomende voorraadorder, maar pas negen dagen na de huidige vervaldatum. Als dat te laat is voor de klant, bevat het veld **Beschikbaar voor transfer** 13 stuks van het artikel op een andere locatie. U gaat voor deze voorraad een planning maken.  
@@ -148,7 +148,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 4.  Klik op **OK** om de tien beschikbare artikelen te boeken.  
 
     > [!NOTE]  
-    >  Op de vraagregel wordt de voorgestelde inkoop vervangen door een transfer van de locatie GROEN. Met de functie **Orders maken** maakt u een transferorder van GROEN naar de gewenste locatie. Het veld **Vervangingsartikel** werkt op dezelfde manier.  
+    >  Op de vraagregel wordt de voorgestelde inkoop vervangen door een transfer van de locatie HOOFD. Met de functie **Orders maken** maakt u een transferorder van HOOFD naar de gewenste locatie. Het veld **Vervangingsartikel** werkt op dezelfde manier.  
 
 5.  Kies de actie **Orders maken**. De pagina **Orders voor voorzieningen maken** wordt geopend.  
 6.  Kies op het sneltabblad **Orderplanning** in het veld **Orders maken voor** de optie **Actieve order**.  
@@ -225,10 +225,13 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      Het bericht geeft aan dat nu in alle vereiste artikelen is voorzien. Controleer de vast gepland productieorders die worden gemaakt.  
 
-13. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorders** in en kies de gerelateerde koppeling.  
+13. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vast geplande productieorders** in en kies vervolgens de gerelateerde koppeling.  
 
      Bekijk op de pagina **Vast geplande productieorders** hoe de begin- en eindtijden van afzonderlijke orders nu zijn gepland volgens de productstructuur. De onderdelen op het laagste niveau worden het eerst geproduceerd. Daarom moet u orders met meerdere niveaus plannen zoals is gedemonstreerd in deze planningswerkstroom.  
 
 ## <a name="see-also"></a>Zie ook  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   
- [Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
-title: Overzicht van vooraf sluiten van rapporten om rekeningnauwkeurigheid te verifiëren | Microsoft Docs
+title: Overzicht van vooraf sluiten van rapporten om rekeningnauwkeurigheid te verifiëren
 description: Biedt een overzicht van de rapporten die u kunt gebruiken om de nauwkeurigheid te verifiëren van rekeningen voordat de boeken worden gesloten aan het eind van een jaar of een periode.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.search.form: 1393, 1394
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d3e522f1fedf4e5ea5beaccd0e0fc015414b87c6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 877f2ed9ba278ccafb26266d85165b8cfc5589d3
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249710"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012672"
 ---
 # <a name="using-pre-closing-reports"></a>Vooraf sluiten van rapporten gebruiken
+
 Er staan veel standaardrapporten tot uw beschikking voor het verifiëren van de nauwkeurigheid van de rekeningen voor u de boeken sluit aan het eind van een jaar of een periode. U kunt bijvoorbeeld het rapport **Klant - Proefbalans** gebruiken om na te gaan of het saldo van een klantboekingsgroep gelijk is aan het saldo op de overeenkomstige grootboekrekening op een bepaalde datum.
 
 In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die nuttig kunnen zijn in dit proces.
@@ -35,9 +35,13 @@ In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die
 | Een proefbalansrapport af te drukken met saldo's en nettowijzigingen van grootboekrekeningen. |Proefbalans |
 | Een proefbalans af te drukken voor een geconsolideerd bedrijf. |Consolidatie - Proefbalans |
 
-Als u een rapport wilt zien, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel staat en kiest u de gerelateerde koppeling.
+Als u een rapport wilt zien, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
 
 ## <a name="see-also"></a>Zie ook
-[Afsluitingsjaren en -perioden](year-close-years-periods.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
+[Afsluitingsjaren en -perioden](year-close-years-periods.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

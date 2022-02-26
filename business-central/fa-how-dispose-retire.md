@@ -1,21 +1,22 @@
 ---
-title: Activa afstoten of van de hand doen| Microsoft Docs
-description: U moet een buitengebruikstellingwaarde boeken wanneer u een vast activum laat uitvallen, verkoopt of buiten gebruik stelt.
+title: Vaste activa afstoten of van de hand doen
+description: Als u een vast activum verkoopt of anderszins buiten gebruik stelt, moet u de buitengebruikstellingswaarde boeken om de winst of het verlies te berekenen en te registreren.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 06/04/2020
+ms.search.form: 5628, 5610, 5611
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 29293e957617fea91c9a8e8b8c1f988b06104494
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.openlocfilehash: 1f3a593b96f311cf742fa4edf510d4b2e930b05d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435219"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029312"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Vaste activa afstoten of van de hand doen
 
@@ -28,7 +29,7 @@ Bij de volgende stappen wordt ervan uitgegaan dat u de relevante boekingsgroepen
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Een buitengebruikstelling boeken vanuit het financieel dagboek voor vaste activa
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA fin. dagboeken** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een eerste dagboekregel en vul de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. In het veld **VA-boekingssoort** selecteert u **Buitengebruikstelling**.  
 4. Kies de actie **VA-tegenrekening invoegen**. Er wordt een tweede dagboekregel gemaakt voor de tegenrekening die voor de boeking van de buitengebruikstelling is ingesteld.  
@@ -42,11 +43,11 @@ Als u een gedeelte van een vast activum verkoopt of het niet langer meer gebruik
 ## <a name="to-view-disposal-ledger-entries"></a>Buitengebruikstellingsposten bekijken
 Als u een vast activum verkoopt of buiten gebruik stelt, moet u de buitengebruikstellingswaarde boeken naar het grootboek waar u het resultaat kunt bekijken.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het vaste activum waarvoor u posten wilt bekijken en kies vervolgens de actie **Afschrijvingsboeken**.  
 3. Selecteer het afschrijvingsboek waarvoor u posten wilt bekijken en kies vervolgens de actie **Posten**.  
-4. Selecteer een regel die de waarde **Buitengebruikstelling** in het veld **VA-boekingscategorie** bevat en kies vervolgens de actie **Navigeren**.  
-5. Selecteer op de pagina **Navigeren** de regel van de grootboekpost en klik op de actie **Weergeven**.  
+4. Selecteer een regel die de waarde **Buitengebruikstelling** in het veld **VA-boekingscategorie** bevat en kies vervolgens de actie **Posten zoeken**.  
+5. Selecteer op de pagina **Posten zoeken** de regel van de grootboekpost en klik op de actie **Verwante posten weergeven**.  
 
 De pagina **Grootboekposten** wordt geopend. Op deze pagina kunt u de posten zien waarin de boeking van de buitengebruikstelling is geresulteerd.  
 
@@ -56,5 +57,9 @@ De pagina **Grootboekposten** wordt geopend. Op deze pagina kunt u de posten zie
 [Vaste activa instellen](fa-setup.md)  
 [Boekingsgroepen voor vaste activa instellen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Financiën](finance.md)  
-[Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Posten zoeken](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

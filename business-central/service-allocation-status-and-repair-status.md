@@ -1,23 +1,21 @@
 ---
 title: Toewijzingsstatus en herstelstatus | Microsoft Docs
 description: Kom meer te weten over de relatie tussen de herstelstatus van serviceartikelen en de toewijzingsstatus van de toewijzingsposten hiervoor.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cffd91900c5644ab31764290c0a3ff78a4685171
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9cf3349d654a4e007079075c64e9e56654619810
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316248"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772416"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Toewijzingsstatus en herstelstatus van serviceartikelen
 Tussen de herstelstatus van serviceartikelen en de toewijzingsstatus van de toewijzingsposten voor de serviceartikelen bestaat een bepaalde relatie in de module Servicebeheer. De toewijzingsstatus verandert wanneer u de herstelstatus van het serviceartikel wijzigt in **Gereedgemeld** of **Deels service verleend** en een serviceofferte omzet in een serviceorder. De herstelstatus van het serviceartikel verandert wanneer u de toewijzing van het serviceartikel wijzigt of het serviceartikel toewijst aan een andere resource. U kunt de herstelstatus van serviceartikelen bekijken op de pagina **Servicetaken** en bijwerken in het veld **Herstelstatuscode** op de pagina **Serviceartikelwerkbon**. U kunt de toewijzingsstatus bekijken in het veld **Status** op de pagina **Resourcetoewijzingen**.  
@@ -40,7 +38,7 @@ Wanneer u een serviceofferte omzet in een serviceorder, worden de serviceorder, 
 * Voor de serviceartikelen met de status **Actief** in de serviceorder wordt gezocht naar toewijzingsposten. Als dergelijke toewijzingsposten worden gevonden, wordt de toewijzingsstatus van **Actief** gewijzigd in **Hertoewijzing vereist**.  
   
 ## <a name="canceling-allocations"></a>Toewijzingen annuleren  
-Wanneer u een toewijzing voor een serviceartikel annuleert, wordt de toewijzingsstatus van de bijbehorende toewijzingspost in [!INCLUDE[d365fin](includes/d365fin_md.md)] bijgewerkt van **Actief** in **Hertoewijzing vereist**:
+Wanneer u een toewijzing voor een serviceartikel annuleert, wordt de toewijzingsstatus van de bijbehorende toewijzingspost in [!INCLUDE[prod_short](includes/prod_short.md)] bijgewerkt van **Actief** in **Hertoewijzing vereist**:
 
 De herstelstatus van het serviceartikel in de toewijzingspost wordt als volgt bijgewerkt:  
   
@@ -72,3 +70,6 @@ Er wordt een nieuwe toewijzingspost gemaakt met de nieuwe resource en de status 
 [Resourcetoewijzingen instellen](service-how-setup-resource-allocation.md)  
 [Resources toewijzen](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

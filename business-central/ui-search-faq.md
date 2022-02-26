@@ -1,21 +1,21 @@
 ---
-title: Veelgestelde vragen over Vertel me | Microsoft Docs
-description: Dit artikel bevat antwoorden op vragen die onze partners en klanten vaak hebben over Vertel me.
+title: Veelgestelde vragen over Vertel me
+description: Dit artikel bevat antwoorden op vragen die onze partners en klanten vaak hebben over de functie Vertel me.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 02/12/2020
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071922"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325875"
 ---
 # <a name="tell-me-faq"></a>Veelgestelde vragen over Vertel me
 Dit onderwerp beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over de functie Vertel me.
@@ -32,7 +32,7 @@ Acties, pagina's en rapporten die afkomstig zijn uit extensies worden opgepikt d
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Wat maakt dit anders dan de eerdere paginazoekfunctie?
 De paginazoekfunctie is tot Vertel me geëvolueerd om u te helpen sneller te werken. De paginazoekfunctie kon u alleen helpen navigeren naar pagina's of rapporten. Op technisch niveau is Vertel me niet meer gebaseerd op het oude MenuSuite-concept.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Ik gebruik on-premises [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omvat dat Vertel me?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Ik gebruik on-premises [!INCLUDE[prod_short](includes/prod_short.md)]. Omvat dat Vertel me?
 U kunt Vertel me gebruiken in de on-premises webclient om acties, pagina's en rapporten, maar geen documentatie, of apps en consultingservices te vinden in AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Is Vertel me beschikbaar voor alle formulierfactoren?
@@ -50,3 +50,6 @@ Het bladwijzerpictogram wordt niet weergegeven in het venster Vertel me wanneer 
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)  
 [Een bladwijzer van een pagina of rapport maken in uw rolcentrum](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

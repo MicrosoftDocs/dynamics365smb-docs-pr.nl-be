@@ -1,25 +1,29 @@
 ---
-title: Rapporten maken met XBRL | Microsoft Docs
-description: XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde taal voor het coderen van financiële gegevens waardoor bedrijven efficiënt en nauwkeurig hun gegevens kunnen verwerken en delen.
+title: 'Procedure: Rapporten maken met XBRL'
+description: XBRL is een op XML gebaseerde taal voor het taggen van financiële gegevens en het activeren van bedrijven om efficiënt en accuraat hun gegevens te verwerken en te delen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4fd911a708a929a9c73270c05b7729d17d84ec13
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186152"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101333"
 ---
 # <a name="create-reports-with-xbrl"></a>Lijsten met XBRL maken
+
+> [!NOTE]
+> We zijn bezig met het verwijderen van de functies voor XBRL-rapportage vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Wijzigingen in releasewave 1 van 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
+
 XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde taal voor het coderen van financiële gegevens waardoor bedrijven efficiënt en nauwkeurig hun gegevens kunnen verwerken en delen. Door het XBRL-initiatief zijn talloze ERP-softwarebedrijven en internationale financiële organisaties in staat hun globale financiële rapportageactiviteiten uit te voeren. Het doel van het initiatief is een standaard vormen voor de uniforme rapportage van financiële gegevens voor banken, investeerders en overheidsinstanties. Dergelijke zakelijke rapportage kan omvatten:  
 
  • Financiële overzichten  
@@ -27,25 +31,30 @@ XBRL staat voor eXtensible Business Reporting Language, is een op XML gebaseerde
  • Niet-financiële informatie  
  • Wettelijke archivering, zoals jaarlijkse en driemaandelijkse financiële overzichten  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] maakt het bedrijven mogelijk gegevens in XBRL te implementeren en te profiteren van de hierdoor mogelijk gemaakte flexibiliteit en automatisering voor het verzamelen en delen van gegevens.  
+> [!NOTE]
+> U kunt grootboekgerelateerde schema's importeren en XBRL-instantiedocumenten maken door grootboekgegevens uit het rekeningschema toe te wijzen aan elementen in taxonomieën die zijn ontworpen voor financiële rapporten, zoals balansen, resultatenrekeningen, enzovoort.
+> 
+> De XBRL-mogelijkheden in Business Central ondersteunen taxonomieën voor specificatie 2.1, maar taxonomieën kunnen niet-ondersteunde elementen bevatten, zoals Formula linkbases of iXBRL, of andere structurele verschillen hebben. We raden u aan de XBRL-mogelijkheid te valideren voordat u deze voor rapportage gebruikt.
+> 
+> Volledige ondersteuning voor taxonomieën vereist mogelijk XBRL-tagging en tools van derden. De XBRL International-organisatie heeft een lijst met tools en services die u kunt gebruiken voor XBRL-rapportage. Afhankelijk van de XBRL-rapportagevereisten voor een bepaalde taxonomie wilt u misschien die resources verkennen. Zie voor meer informatie [Aan de slag voor bedrijven](https://go.microsoft.com/fwlink/?linkid=2153466) en [Tools en services](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) is een op XML gebaseerde taal voor financiële verslaglegging. XBRL biedt een standaardindeling waarmee een uniforme rapportage mogelijk wordt voor alle gebruikers die betrokken zijn bij de financiële gegevensstroom, zoals overheidsbedrijven en particuliere bedrijven, accountants, regelgevende instanties, analisten, investeringsmaatschappijen, de kapitaalmarkt en financiers, alsmede belangrijke derden zoals softwareontwikkelaars en gegevensbanken.  
 
 De taxonomieën worden beheerd door www.xbrl.org. Op deze website kunt u taxonomieën downloaden en meer informatie over XBRL lezen.  
 
-Iemand die financiële gegevens van u wil, voorziet u van een taxonomie (een XML-document) met een of meer schema's, elk met een of meer regels die moeten worden ingevuld. De regels komen overeen met de specifieke financiële gegevens die de afzender opvraagt. U importeert deze taxonomie in de toepassing en vult vervolgens het schema of de schema's in door op te geven welke rekening of rekeningen met elke regel overeenkomt/overeenkomen, welk tijdvenster moet worden gebruikt, bijvoorbeeld mutatie of saldobedragen. In sommige gevallen kunt u in plaats daarvan een constante invoeren, bijvoorbeeld het aantal werknemers. U bent nu gereed om het instantiedocument (een XML-document) verzenden naar iemand die de gegevens opvraagt. Het idee is dat dit een terugkerende gebeurtenis kan zijn, dus tenzij er wijzigingen zijn aangebracht aan de taxonomie, moet u op aanvraag nieuwe instantiedocumenten voor nieuwe periodes exporteren.  
+Iemand die financiële gegevens van u wil, voorziet u van een taxonomie (een XML-document) met een of meer schema's, elk met een of meer regels die moeten worden ingevuld. De regels komen overeen met de specifieke financiële gegevens die de afzender opvraagt. U importeert deze taxonomie in de toepassing en vult vervolgens het schema of de schema's in door op te geven welke rekening of rekeningen met elke regel overeenkomt/overeenkomen en welk tijdvenster moet worden gebruikt, bijvoorbeeld mutatie of saldobedragen. In sommige gevallen kunt u in plaats daarvan een constante invoeren, bijvoorbeeld het aantal werknemers. U bent nu gereed om het instantiedocument (een XML-document) te verzenden naar iemand die de gegevens opvraagt. Het idee is dat dit een terugkerende gebeurtenis kan zijn, dus tenzij er wijzigingen zijn aangebracht aan de taxonomie, moet u op aanvraag nieuwe instantiedocumenten voor nieuwe periodes exporteren.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL bestaat uit de volgende onderdelen:  
-De XBRL- **specificatie** legt uit wat XBRL is en hoe XBRL-instantiedocumenten en XBRL-taxonomieën worden gemaakt. De XBRL-specificatie geeft een technische uitleg van XBRL en is bestemd voor mensen met een technische achtergrond.  
+De XBRL-**specificatie** legt uit wat XBRL is en hoe XBRL-instantiedocumenten en XBRL-taxonomieën worden gemaakt. De XBRL-specificatie geeft een technische uitleg van XBRL en is bestemd voor mensen met een technische achtergrond.  
 
 Het XBRL- **schema** bevat de belangrijkste low-level XBRL-onderdelen. Het schema is het fysieke XSD-bestand dat aangeeft hoe instantiedocumenten en taxonomieën worden samengesteld.  
 
-De XBRL- **linkbases** zijn de fysieke XML-bestanden waarin uiteenlopende informatie staat over de onderdelen die worden gedefinieerd in het XBRL-schema, zoals labels in een of meer talen, de onderlinge relatie tussen onderdelen, hoe onderdelen worden berekend, enz.  
+De XBRL-**linkbases** zijn de fysieke XML-bestanden waarin uiteenlopende informatie staat over de onderdelen die worden gedefinieerd in het XBRL-schema, zoals labels in een of meer talen, de onderlinge relatie tussen onderdelen, hoe onderdelen worden berekend, enzovoort.  
 
 Een XBRL- **taxonomie** is het 'vocabulaire' of 'woordenboek' dat in overeenstemming met de XBRL-specificatie is samengesteld door een groep, ten behoeve van de uitwisseling van zakelijke gegevens.  
 
-Een XBRL- **instantiedocument** is een zakelijk rapport, zoals een financieel overzicht, dat is samengesteld volgens de XBRL-specificatie. De betekenis van de waarden in het instantiedocument wordt uitgelegd in de taxonomie. Een instantiedocument krijgt pas betekenis als u de taxonomie kent waarmee het document is gemaakt.  
+Een XBRL- **instantiedocument** is een zakelijk rapport, zoals een financieel overzicht, dat is samengesteld volgens de XBRL-specificatie. De betekenis van de waarden in het instantiedocument wordt uitgelegd in de taxonomie. Een instantiedocument krijgt pas betekenis als u de taxonomie kent waarvoor het document is gemaakt.  
 
 ## <a name="layered-taxonomies"></a>Laagsgewijze taxonomieën  
 Een taxonomie kan bestaan uit een basistaxonomie, zoals us-gaap of IAS, waaraan een of meer uitbreidingen zijn toegevoegd. De taxonomie verwijst dan naar een of meer schema's die elk weer een afzonderlijke taxonomie vormen. Als u deze extra taxonomieën in de database laadt, worden de nieuwe onderdelen eenvoudig aan de bestaande onderdelen toegevoegd.  
@@ -66,7 +75,7 @@ Als u de taxonomie hebt geïmporteerd of bijgewerkt, moeten de schemaregels van 
 
 U kunt de XBRL-regels instellen door de gegevens in de taxonomie te koppelen aan de gegevens in uw grootboek.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **XBRL-taxonomieën** in en kies vervolgens de gerelateerde koppeling  
 2.  Selecteer op de pagina **XBRL-taxonomieën** een taxonomie uit de lijst.  
 3.  Kies de actie **Regels**.  
 4.  Selecteer een regel en vul de velden in.   
@@ -74,16 +83,19 @@ U kunt de XBRL-regels instellen door de gegevens in de taxonomie te koppelen aan
 6.  Om de koppeling tussen de grootboekrekeningen in het rekeningschema en de XBRL-regels in te stellen, kiest u de actie **Grootboekkoppelingsregels**.  
 7.  Als u notities aan het financieel overzicht wilt toevoegen, kiest u de actie **Notities**.  
 
-> [!NOTE]  
->  U kunt alleen gegevens (inclusief omschrijving en notities) exporteren die overeenkomen met het bronsoort dat u hebt geselecteerd in het veld **Bronsoort**.  
+   > [!TIP]
+   > Kies om regels uit te sluiten van de export **NIET TOEPASBAAR** als het brontype.
 
-> [!NOTE]  
->  U kunt niet-relevante regels markeren met het regelsoort **NOT APPLICABLE** (niet van toepassing) zodat ze niet worden geëxporteerd.
+   > [!NOTE]  
+   > U kunt alleen gegevens exporteren die overeenkomen met de selectie in het veld **Brontype**. Dit omvat beschrijvingen en opmerkingen.  
+
+   > [!NOTE]  
+   > Taxonomieën kunnen elementen bevatten die [!INCLUDE[prod_short](includes/prod_short.md)] niet ondersteunt. Als een element niet wordt ondersteund, bevat het veld **Bronsoort** **Niet toepasbaar** en bevat het veld **Omschrijving** een foutmelding, zoals **Onverwacht type: "specifiek type niet herkend"**. Als u het element moet exporteren, kiest u een overeenkomend brontype. Meestal is dit een constante of een beschrijving. Hiermee kunt u gegevens invoeren en exporteren, maar dergelijke elementen kunnen validatieregels hebben die niet kunnen worden gecontroleerd voordat ze worden geëxporteerd.
 
  ## <a name="to-import-an-xbrl-taxonomy"></a>Een XBRL-taxonomie importeren  
 De eerste stap bij het werken met de XBRL-functie is het importeren van een taxonomie in de database van uw bedrijf. Een taxonomie bestaat uit een of meer schema's en een aantal linkbases. Nadat u de schema's en linkbases hebt geïmporteerd en de linkbases op het schema hebt toegepast, kunt u de regels instellen en de grootboekrekeningen in het rekeningstelsel koppelen aan de juiste taxonomieregels.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **XBRL-taxonomieën** in en kies vervolgens de gerelateerde koppeling  
 2.  Maak op de pagina **XBRL-taxonomieën** een nieuwe regel en voer de naam en de omschrijving van de taxonomie in.  
 3.  Kies de actie **Schema's** en voeg de omschrijving van het schema in.  
 4.  Om het schema te importeren, kiest u op de pagina **XBRL-schema's** de actie **Importeren** en selecteert u een map en een XSD-bestand. Kies de knop **Openen**.  
@@ -97,7 +109,7 @@ De eerste stap bij het werken met de XBRL-functie is het importeren van een taxo
 ## <a name="to-update-an-xbrl-taxonomy"></a>Een XBRL-taxonomie bijwerken  
 Als een taxonomie verandert, moet u de huidige taxonomie overeenkomstig bijwerken. De reden voor de update kan een gewijzigd schema, een gewijzigde linkbase of een nieuwe linkbase zijn. Nadat u de taxonomie hebt bijgewerkt, moet u alleen nog de regels koppelen voor de gewijzigde of nieuwe regels.  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies vervolgens de gerelateerde koppeling  
 2.  Kies op de pagina **XBRL-taxonomieën** de actie **Schema's**.  
 3.  Werk een schema bij door het schema te selecteren dat u wilt bijwerken en kies de actie **Importeren**.  
 4.  Kies de actie **Linkbases** voor het bijwerken of toevoegen van een nieuwe linkbase.  
@@ -110,4 +122,7 @@ Als een taxonomie verandert, moet u de huidige taxonomie overeenkomstig bijwerke
 ## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)    
 [Bedrijfsinformatie](bi.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

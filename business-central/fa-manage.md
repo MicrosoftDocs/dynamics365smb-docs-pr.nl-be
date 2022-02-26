@@ -1,30 +1,30 @@
 ---
-title: Vaste activa beheren| Microsoft Docs
-description: Leren over de vaste-activafunctionaliteit en een overzicht krijgen van hoe u met vaste activa werkt.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Vaste activa beheren (bevat video)
+description: Leren over de vaste-activafunctionaliteit en een overzicht krijgen van hoe u met vaste activa werkt en deze beheert.
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5634, 5649, 5622, 5650
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: e7b40c1d4809193a22367157fd69cacbd9b27105
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184208"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029391"
 ---
-# <a name="fixed-assets"></a>Vast activum
-De functionaliteit in [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.
+# <a name="managing-fixed-assets"></a>Vaste activa beheren
+
+De functionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.
 
 Voor elk vast activum moet u een kaart maken met informatie over het activum. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. Vervolgens kunt u beginnen met het aanschaffen, onderhouden en verkopen van de vaste activa. U kunt ook gebudgetteerde activa instellen. Hierdoor is het mogelijk om verwachte aan- en verkopen op te nemen in lijsten.
 
-Om afschrijvingen van vaste activa en andere financiële transacties gerelateerd aan vaste activa bij te houden, kunt u een of meer afschrijvingsboeken voor elk vast activum in uw bedrijf instellen. Afschrijving vindt plaats door een rapport uit te voeren om periodieke afschrijving te berekenen en een dagboek in te vullen met de resulterende posten, die gereed zijn voor boeking. [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt verschillende afschrijvingsmethoden. Zie [Afschrijvingsmethoden](fa-depreciation-methods.md) voor meer informatie. U kunt meerdere afschrijvingsboeken per vast activum instellen voor verschillende doeleinden, bijvoorbeeld één boek voor belastingrapportage en een ander boek voor interne rapportage.
+Om afschrijvingen van vaste activa en andere financiële transacties gerelateerd aan vaste activa bij te houden, kunt u een of meer afschrijvingsboeken voor elk vast activum in uw bedrijf instellen. Afschrijving vindt plaats door een rapport uit te voeren om periodieke afschrijving te berekenen en een dagboek in te vullen met de resulterende posten, die gereed zijn voor boeking. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt verschillende afschrijvingsmethoden. Zie [Afschrijvingsmethoden](fa-depreciation-methods.md) voor meer informatie. U kunt meerdere afschrijvingsboeken per vast activum instellen voor verschillende doeleinden, bijvoorbeeld één boek voor belastingrapportage en een ander boek voor interne rapportage.
 
 Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastleggen. Het bijhouden van onderhoudskosten is belangrijk voor budgetdoeleinden en bij het maken van een beslissing over het al dan niet vervangen van een vast activum.
 
@@ -48,12 +48,20 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Buitengebruikstellingstransacties boeken, buitengebruikstellingsposten bekijken en gedeeltelijke buitengebruikstellingen boeken. |[Vaste activa afstoten of van de hand doen](fa-how-dispose-retire.md) |
 | Budgetten voor vaste activa beheren, aanschafkosten budgetteren, buitengebruikstellingen van vaste activa budgetteren en afschrijving budgetteren. |[Budgetten voor vaste activa beheren.](fa-how-manage-budgets.md) |
 
+## <a name="video-overview"></a>Video-overzicht
+De volgende video behandelt de basisprincipes van vaste activa.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
+
 ## <a name="see-also"></a>Zie ook
 [Vaste activa instellen](fa-setup.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
 [Financiën](finance.md)  
-[Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

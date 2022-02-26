@@ -1,21 +1,21 @@
 ---
-title: Artikelen verplaatsen in geavanceerde magazijnconfiguraties | Microsoft Docs
-description: Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties met gestuurde opslag en pick, worden magazijnverplaatsingen tussen opslaglocaties door een senior medewerker uitgevoerd, die de magazijnverplaatsingen in het verplaatsingswerkblad voorbereidt en deze vervolgens toewijst aan magazijnmedewerkers.
+title: Artikelen verplaatsen in geavanceerde magazijnconfiguratie
+description: In dit onderwerp wordt uitgelegd hoe een senior medewerker bewegende artikelen kan regelen in geavanceerde magazijnconfiguraties - van toepassing op locaties met gestuurde opslag en pick.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0aab4a7ffd693ca8edaa3765228715b5496f0b2f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: cba0ff7da725d4113ed17f9121caabd2e6b54ce5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193071"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439297"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Artikelen verplaatsen in geavanceerde magazijnconfiguraties
 Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties met gestuurde opslag en pick, worden magazijnverplaatsingen tussen opslaglocaties door een senior medewerker uitgevoerd, die de magazijnverplaatsingen in het verplaatsingswerkblad voorbereidt en deze vervolgens toewijst aan magazijnmedewerkers.  
@@ -23,12 +23,12 @@ Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties met gestuurde op
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>artikelen met het magazijnverplaatsingswerkblad verplaatsen
 De pagina **Verplaatsingsvoorstel** heeft twee functies waarmee de regels automatisch kunnen worden ingevuld. De eerste functie is **Opslaglocatieaanvulling berekenen**. Deze functie gebruikt de rangorde van de opslaglocatie om aanvulling voor te stellen voor hogere gerangschikte opslaglocaties van lage gerangschikte opslaglocaties. De tweede post is de functie **Opslaglocatie-inhoud ophalen**, waarmee de voorstelregels worden gevuld met de volledige opslaglocatie-inhoud van de opslaglocatie of de opslaglocaties die u opgeeft.
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verplaatsingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de magazijnverplaatsingsgegevens in op de voorstelregels.  
 3. Kies de actie **Verplaatsing maken** om een magazijnverplaatsingsdocument te maken dat vervolgens kan worden geregistreerd wanneer de magazijnverplaatsing is voltooid.  
 
 ### <a name="to-register-the-warehouse-movement"></a>De magazijnverplaatsing als registreren  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingen** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verplaatsingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de magazijnverplaatsing die u wilt verwerken.  
 3.  Specificeer op de regels van de actiesoort **Plaats** waar, welk en wanneer het betrokken artikel verplaatst moet worden door het bewerken van het veld **Code Zone**, **Opslaglocatiecode**, **Te verwerken aantal** of **Vervaldatum**.  
 
@@ -43,7 +43,7 @@ De pagina **Verplaatsingsvoorstel** heeft twee functies waarmee de regels automa
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>U kunt als volgt verplaatsingen van een artikel registreren die eerder zijn uitgevoerd  
 Als in de vestiging gestuurde opslag en pick wordt gebruikt en u artikelen naar andere opslaglocaties moet verplaatsen zonder een bestaande opslag, pick of verplaatsing te gebruiken, kunt u de correcte plaatsing van de artikelen in het magazijn registreren in het **magazijnherindelingsdagboek.**
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag. herindelingsdagboek** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag. herindelingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden **Artikelnr.**, **Van zone**, **Van opslaglocatie**, **Naar zone** en **Naar opslaglocatie** in.  
 3.  Kies de actie **Registreren**.  
 
@@ -53,4 +53,7 @@ Als in de vestiging gestuurde opslag en pick wordt gebruikt en u artikelen naar 
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

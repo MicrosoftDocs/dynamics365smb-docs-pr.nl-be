@@ -1,23 +1,24 @@
 ---
-title: Relatie tussen vraag en aanbod bijhouden | Microsoft Docs
-description: Vanuit elk document voor aanbod of vraag in het zogenaamde ordernetwerk kunt u de ordervraag (getraceerd aantal), prognose , raamverkooporder of planningsparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.
+title: Relaties tussen vraag en aanbod bijhouden
+description: In dit onderwerp worden de verschillende manieren uitgelegd om relaties tussen vraag en aanbod te volgen, zoals het volgen van gekoppelde artikelen en het omgaan met niet-getraceerde planningselementen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3d387ebaf9b7c5e20d50f22b0400d3089e973f8b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 5830, 9101, 99000822, 99000855
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: ed1dbf03838b478cc8ff9c5f2e357c5873e30703
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877723"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972709"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Relaties tussen vraag en aanbod bijhouden
+
 Vanuit elk document voor aanbod of vraag in het zogenaamde ordernetwerk kunt u de ordervraag (getraceerd aantal), prognose , raamverkooporder of planningsparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.
 
 De planningsvoorstellen bevatten ook ondersteunende planninginformatie over entiteiten die geen orders zijn om de planner te helpen een optimaal leveringsplan op te stellen. Zie [Niet-getraceerde planningselementen](production-how-track-demand-supply.md#untracked-planning-elements) voor meer informatie.
@@ -27,7 +28,7 @@ Met behulp van ordertracering kunt u nagaan hoe verkooporders, productieorders e
 
 Hieronder wordt beschreven hoe u gekoppelde artikelen in een vast geplande productieorder traceert. De stappen voor alle andere soorten orders en vanuit planningsvoorstelregels zijn vergelijkbaar.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.
 2. Open de betreffende vast geplande productieorder in de lijst.
 3. Op het sneltabblad **Regels** kiest u de actie **Functies** en vervolgens **Ordertracering**.
 
@@ -61,4 +62,7 @@ De pagina bevat posten die een verklaring kunnen geven voor niet-getraceerde ove
 [Ontwerpdetails: Reservering, tracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

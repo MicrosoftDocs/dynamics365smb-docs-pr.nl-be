@@ -1,21 +1,21 @@
 ---
-title: 'Aanbevolen procedures instellen: Voorraadplanning | Microsoft Docs'
-description: Voorraadplanning is essentieel zakelijk gebied. Wanneer voorraadplanning goed is ingesteld en wordt gebruikt, helpt het een bedrijf nulvoorraad te voorkomen en zowel bestelkosten als voorraadkosten te reduceren.
+title: 'Aanbevolen procedures instellen: Voorraadplanning'
+description: Wanneer voorraadplanning goed is ingesteld en wordt gebruikt, helpt het een bedrijf nulvoorraad te voorkomen en zowel bestelkosten als voorraadkosten te reduceren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6e80ba7e148e8a415c8b9c71e42bdda13df7050f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192183"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320043"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Aanbevolen procedures instellen: Voorraadplanning
 Voorraadplanning is essentieel zakelijk gebied. Wanneer voorraadplanning goed is ingesteld en wordt gebruikt, helpt het een bedrijf nulvoorraad te voorkomen en zowel bestelkosten als voorraadkosten te reduceren.  
@@ -34,4 +34,7 @@ Voorraadplanning is essentieel zakelijk gebied. Wanneer voorraadplanning goed is
  [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
  [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)   
  [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

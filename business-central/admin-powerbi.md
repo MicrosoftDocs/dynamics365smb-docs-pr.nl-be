@@ -1,204 +1,80 @@
 ---
-title: Uw bedrijfsgegevens inschakelen voor Power BI | Microsoft Docs
-description: Inzicht, bedrijfsinformatie en KPI's krijgen uit uw Business Central-gegevens is gemakkelijk met Business Central-apps voor Power BI.
-author: bmeier90
+title: Inleiding in Business Central en Power BI
+description: Met Power BI kunt u eenvoudig inzicht verwerven, bedrijfsinformatie genereren en KPI's vaststellen op basis van uw Business Central-gegevens.
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.form: 6316, 6317
 ms.reviewer: edupont
-ms.date: 04/01/2020
-ms.author: bmeier
-ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: jswymer
+ms.openlocfilehash: d4414e8ada47667d85e250689654552ea426c551
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186905"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011636"
 ---
-# <a name="enabling-your-business-data-for-power-bi"></a>Uw bedrijfsgegevens inschakelen voor Power BI
+# <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
-Inzicht krijgen in uw [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens is gemakkelijk met de [!INCLUDE[prodshort](includes/prodshort.md)]-apps voor Power BI. Power BI haalt uw gegevens op en maakt vervolgens een kant-en-klaar dashboard en rapporteert op basis van die gegevens.  
+Inzicht krijgen in uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens is eenvoudig met [Power BI](https://powerbi.microsoft.com), een datavisualisatiesysteem van Microsoft. Power BI haalt [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens op, zodat u dashboards en rapporten kunt maken op basis van die gegevens. Power BI biedt een flexibel alternatief voor de ingebouwde rapporten van [!INCLUDE[prod_short](includes/prod_short.md)] en stelt u in staat verder in te zoomen op gegevens om ze te analyseren en om de visualisatie aan te passen. U kunt hiermee zelfs gegevens van verschillende bedrijven samenvoegen in [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige Power BI-rapporten kunnen ook worden ingesloten in Business Central en worden bekeken zonder dat de gebruiker het systeem hoeft te verlaten. Als u werkt met complexere dashboards, kunt u beter de Power BI-website gebruiken.
 
-U moet een geldige account bij [!INCLUDE[prodshort](includes/prodshort.md)] en Power BI hebben. Ook moet u [Power BI Desktop](https://powerbi.microsoft.com/desktop/) downloaden als u uw eigen Power BI-rapporten wilt maken. Power BI-apps vereisen machtigingen voor de tabellen waaruit de gegevens worden opgehaald. Meer details over de vereisten worden verderop beschreven.  
+![Power BI en Business Central.](media/power-bi-intro.png)
 
-> [!IMPORTANT]
-> De Power BI-apps die in dit artikel worden beschreven, zijn ontworpen om Azure Active Directory te gebruiken als het verificatiemechanisme, tenzij anders vermeld. U hebt ook een [Power BI Pro-licentie](/power-bi/service-features-license-type) nodig om uw inhoud te delen, en de mensen met wie u deze deelt, hebben die ook nodig, anders moet de inhoud zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie voor meer informatie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
+## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Wat u kunt doen met Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE [prodlong](includes/prodlong.md)] heeft de volgende apps gepubliceerd voor Power BI:
+Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI. Sommige dingen kunt u doen vanuit Power BI, terwijl u andere dingen kunt doen vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige functies zijn ook alleen beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)] online en niet in on-premises. De volgende tabel biedt u een overzicht.
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
+|Functie|Omschrijving|Online|On-premises|Meer informatie|
+|-------|-----------|--------------|-----------|----------------|
+|[!INCLUDE[prod_short](includes/prod_short.md)]-gegevens weergeven in Power BI|U kunt uw gegevens vanuit [!INCLUDE[prod_short](includes/prod_short.md)] weergeven in rapporten in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online bevat een aantal vooraf gedefinieerde Power BI-rapporten. Mogelijk heeft uw organisatie enkele aangepaste rapporten aan u beschikbaar gesteld.|![Werkt online.](media/check.png)|![Werkt on-premises](media/check.png)|[Zie...](across-working-with-business-central-in-powerbi.md)|
+|Power BI-rapporten weergeven in de [!INCLUDE[prod_short](includes/prod_short.md)]-client.| Power BI-rapporten waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven, kunnen rechtstreeks worden ingesloten in gedeelten in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's. U kunt in een dergelijk gedeelte van een pagina elk gewenst rapport weergeven dat beschikbaar is gemaakt voor u. |![werkt online.](media/check.png)|![Werkt on-premises](media/check.png)<sup>[*](#onprem)</sup>|[Zie...](across-working-with-powerbi.md).|
+|Maak rapporten en dashboards in Power BI waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven.|Gebruik Power BI Desktop om uw eigen rapporten en dashboards te maken. U kunt de rapporten publiceren naar uw eigen Power BI-service of deze delen met anderen binnen uw organisatie.|![Werkt online.](media/check.png)|![werkt on-premises](media/check.png)|[Zie...](across-how-use-financials-data-source-powerbi.md)
+|[!INCLUDE[prod_short](includes/prod_short.md)]-apps in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publiceert drie apps voor Power BI in Microsoft AppSource. Met deze apps kunnen gedetailleerde rapporten en dashboards worden gemaakt in uw Power BI-service voor het weergeven van [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens. De volgende apps zijn beschikbaar: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Werkt online.](media/check.png)||[Zie...](across-powerbi-business-central-apps.md)
 
-## <a name="using-the-prodshort-dashboards-in-power-bi"></a>De [!INCLUDE [prodshort](includes/prodshort.md)]-dashboards gebruiken in Power BI
+<a name="onprem"><sup>*</sup></a> Deze functie vereist een geregistreerde toepassing voor Business Central in Microsoft Azure. Zie [Business Central On-Premises registeren in Azure AD voor integratie met andere services](/dynamics365/business-central/dev-itpro/administration/register-app-azure) voor meer informatie.
 
-Elke app bevat rapporten met verschillende detailniveaus:
+## <a name="getting-ready-to-use-power-bi"></a>Voorbereidingen voor het gebruik van Power BI
 
-- Kies een dashboardfunctie om een van de onderliggende rapporten weer te geven.  
-- Filter het rapport of voeg velden toe die u wilt controleren.  
-- Vergrendel deze aangepaste weergave op het dashboard om door te gaan met tracking.  
-  U kunt gegevens handmatig vernieuwen en u kunt een schema voor vernieuwen instellen. Zie voor meer informatie [Gepland vernieuwen configureren](/power-bi/refresh-scheduled-refresh).  
+Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan gebruiken in combinatie met [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> De taken zijn afhankelijk van uw rol in uw organisatie en wat u wilt doen met Power BI:
 
-De apps zijn ontworpen om te werken met gegevens van elk bedrijf dat u in uw [!INCLUDE[prodshort](includes/prodshort.md)] hebt. Wanneer u de Power BI-app installeert, geeft u een of meer parameters op om verbinding te maken met uw [!INCLUDE [prodshort](includes/prodshort.md)].  
+- Als een *zakelijke gebruiker* wilt u Power BI-rapporten bekijken, hetzij in de Power BI-service of in Business Central
+- Als een *beheerder* bent u verantwoordelijk voor het beheer van de organisatiebrede instellingen die bepalen hoe Business Central en Power BI werken.
+- Als een *rapportmaker* wilt u aangepaste Power BI-rapporten maken die u kunt delen met andere gebruikers.
 
-> [!NOTE]
-> U kunt ook uw eigen rapporten en dashboards in Power BI samenstellen op basis van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-gegevens. Zie voor meer informatie [Uw bedrijfsgegevens verbinden met Power BI](across-how-use-financials-data-source-powerbi.md).  
+|Taak|Bedrijfsgebruiker|Beheerder|Rapportmaker|Meer informatie|
+|----|-------------|-------------|-----------------------|----------------|
+|Maak een Power BI-account aan.|![nog een vinkje.](media/check.png)|![het is een vinkje](media/check.png)|![weer een vinkje](media/check.png)|Ga naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik voor de aanmelding bij een account uw zakelijke e-mailadres en wachtwoord. <br /><br/>U hebt een licentie nodig om u te kunnen aanmelden, maar in de meeste gevallen beschikt u al over een gratis licentie. Zie voor meer informatie [Power BI-licenties](admin-powerbi-setup.md#license).|
+|Power BI Desktop ophalen|||![weer een vinkje.](media/check.png)|Ga om te downloaden naar [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Zie [Power BI Desktop downloaden](/power-bi/fundamentals/desktop-get-the-desktop) voor meer informatie.
+|Business Central-gegevens beschikbaar stellen aan Power BI||![het is een vinkje.](media/check.png)|![weer een vinkje](media/check.png)|[Gegevens beschikbaar stellen via API-pagina's of OData-webservices](admin-powerbi-setup.md#exposedata)
+|Power BI-integratie inschakelen<br />(alleen voor on-premises)||![het is een vinkje.](media/check.png)||[Business Central on-premises instellen voor Power BI-integratie](admin-powerbi-setup.md#setup)|
 
-### <a name="to-connect-your-data-in-power-bi"></a>Uw gegevens verbinden in Power BI
 
-1. Open uw browser, ga naar https://powerbi.microsoft.com en log in op uw account.
-2. Selecteer **Gegevens ophalen** onder in het linkernavigatiedeelvenster.  
+<!--
 
-    ![Navigeren om gegevens op te halen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    U kunt ook aan de slag gaan vanuit [!INCLUDE [prodshort](includes/prodshort.md)]. Navigeer vanaf uw startpagina naar **Rapportselectie** in de sectie Power BI. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Wanneer een van deze acties wordt geselecteerd, gaat u naar de Organisatiegalerie in Power BI of naar Microsoft AppSource, die ook wordt gefilterd op alleen weergave van apps die verband houden met [!INCLUDE[prodshort](includes/prodshort.md)].
 
-3. Selecteer **Ophalen** in het vak **Diensten**. Hierdoor wordt een pagina geopend met de **AppSource** en **apps voor Power BI**.  
+1. If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, make sure your deployment meets the requirements outlined in [Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration](admin-powerbi-setup.md#setup). This task is typically an administrative task.
 
-<!--    ![Choose apps from online services that you use.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)-->
-4. Selecteer **Apps** op het tabblad **Apps voor Power BI** en kies de **Microsoft Dynamics 365 Business Central**-app die u wilt gebruiken. Selecteer vervolgens **Nu ophalen**.  
-<!--    ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packspowerbi-dynamics365-for-financials-get-it-now.png)/-->
-5. Voer desgevraagd de naam van de omgeving en het bedrijf in uw [!INCLUDE[prodshort](includes/prodshort.md)] in waarmee u verbinding wilt maken. Als u niet meerdere omgevingen hebt gemaakt, voert u **Productie** in. Zorg ervoor dat u voor de bedrijfsparameter de naam invoert en niet de weergavenaam. U vindt de bedrijfsnaam op de pagina **Bedrijven** in uw [!INCLUDE[prodshort](includes/prodshort.md)]-exemplaar.  
+2. Expose Business Central data through API pages or published web services.
 
-    > [!NOTE]
-    > Als u verbinding maakt met [!INCLUDE [prodshort](includes/prodshort.md)] on-premises moet u de parameter *Webservice-URL* opgeven. U vindt dit op de pagina **Webservices** in [!INCLUDE [prodshort](includes/prodshort.md)]. Uw [!INCLUDE [server](includes/server.md)]-exemplaar moet zijn geconfigureerd voor basisverificatie en u moet een gebruiker en de webtoegangssleutel van die gebruiker opgeven als hun wachtwoord. Vervang in het volgende voorbeeld *myserver:7048* door uw [!INCLUDE [server](includes/server.md)]-naam en *CRONUS%20US* door uw bedrijfsnaam.  
-    > ```https://myserver:7048/BC140/ODataV4/Company('CRONUS%20US')/```
+    Business Central online automatically included several pages as APIs. For more information, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). Application developers for Business Central online can create custom API pages that you can then consume in reports. For more information, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
 
-6. Eenmaal verbonden worden een dashboard en rapporten aan uw Power BI-werkruimte toegevoegd. Wanneer dit is voltooid, bevatten de tegels gegevens uit uw [!INCLUDE[prodshort](includes/prodshort.md)]-bedrijf.
+   Codeunit, page, and query objects can be published as OData web services. There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
 
-    ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+3. Get a Power BI account.
 
-### <a name="what-now"></a>Wat nu?
+   To do anything with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)], whether you're an administrator or just a consumer, you'll need Power BI service account. To get an account, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. Sign-up requires that you have a license, but in most cases you should already have a free license. For more information, see [Power BI Licensing](admin-powerbi-setup.md#license).
 
-- Probeer [een vraag te stellen in het vraag- en antwoordvak](/power-bi/service-q-and-a-tips) boven aan het dashboard.
-- [Wijzig de tegels](/power-bi/service-dashboard-edit-tile) in het dashboard.  
-- [Selecteer een tegel](/power-bi/service-dashboard-tiles) om het onderliggende rapport te openen.  
-- Standaard is uw gegevensset niet gepland om te vernieuwen. U kunt het vernieuwingsschema wijzigen of het op aanvraag proberen te vernieuwen met **Nu vernieuwen**. Zie voor meer informatie [Gepland vernieuwen configureren](/power-bi/refresh-scheduled-refresh).
+4. If you want to create your own Power BI reports, get Power BI Desktop.
 
-## <a name="power-bi-in-prodshort"></a>Power BI in [!INCLUDE [prodshort](includes/prodshort.md)]
+   You can download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Get Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
 
-Uw startpagina in [!INCLUDE [prodshort](includes/prodshort.md)] kan een Power BI-besturingselement bevatten dat kan worden geconfigureerd om Power BI-rapporten weer te geven op uw startpagina.
-
-> [!IMPORTANT]
-> U moet een geldige account bij [!INCLUDE [prodshort](includes/prodshort.md)] en Power BI hebben. Als u rapporten wilt wijzigen, moet u ook Power BI Desktop downloaden. Zie voor meer informatie [Business Central gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md).  
-
-### <a name="on-first-login"></a>Bij eerste aanmelding
-
-Wanneer u zich voor het eerst aanmeldt bij [!INCLUDE [prodshort](includes/prodshort.md)], ziet u een leeg Power BI-deel op uw startpagina. Om de rapporten te bekijken moet u eerst verbinding maken met Power BI door de koppeling *Aan de slag met Power BI* te selecteren.
-
-[!INCLUDE [prodshort](includes/prodshort.md)] communiceert vervolgens met de Power BI-service om te bepalen of u een geldig Power BI-account hebt. Zodra uw licentie is geverifieerd, worden de standaard Power BI-rapporten weergegeven op uw startpagina.
-
-### <a name="selecting-power-bi-reports"></a>Power BI-rapporten selecteren
-
-Het Power BI-besturingselement op uw startpagina kan elk Power BI-rapport weergeven. Als u een bestaand rapport wilt weergeven, kiest u de actie **Rapport selecteren** in de Power BI-vervolgkeuzelijst met opdrachten.  
-
-De pagina voor het selecteren van rapporten toont een lijst met alle Power BI-rapporten waartoe u toegang hebt. Deze lijst wordt opgehaald uit uw Power BI-werkruimte. Schakel elk rapport in dat u op de startpagina wilt weergeven en kies vervolgens OK. U keert terug naar uw startpagina en het laatste rapport dat u hebt ingeschakeld, wordt weergegeven. Gebruik de vervolgkeuzelijst met opdrachten om de vorige en volgende opdracht te gebruiken om tussen rapporten te navigeren.  
-
-### <a name="get-reports"></a>Rapporten ophalen
-
-Als u geen rapporten ziet op de pagina Rapporten selecteren of het gewenste rapport niet ziet. U kunt ervoor kiezen rapporten op te halen uit *Mijn organisatie* of uit *Diensten*.
-Kies *Mijn organisatie* om naar de Power BI-services te gaan waarmee u de rapporten binnen uw organisatie kunt bekijken waarvoor u weergaverechten hebt, en deze toe te voegen aan uw werkruimte. Kies *Diensten* om naar Microsoft AppSource te gaan, waar u Power BI-apps kunt installeren.  
-
-U kunt er ook voor kiezen om nieuwe Power BI-rapporten te maken. Zodra die rapporten naar uw Power BI-werkruimte zijn gepubliceerd, verschijnen ze op deze pagina.  
-
-### <a name="managing-reports"></a>Rapporten beheren
-
-In de Power BI-sectie op uw startpagina kunt u de actie **Rapport beheren** kiezen uit de vervolgkeuzelijst met opdrachten, zodat u het rapport dat in focus was in het rolcentrum kunt wijzigen.  
-
-Wijzigingen kunnen in het rapport worden aangebracht en opgeslagen.  Wijzigingen in het rapport worden gewijzigd voor elke gebruiker met wie dit rapport wordt gedeeld, aangezien u het rapport wijzigt dat is opgeslagen in de Power BI-service.  
-
-Nadat u uw wijzigingen hebt voltooid, selecteert u Opslaan. Als dit een gedeeld rapport is, kunt u Opslaan als selecteren om te voorkomen dat deze wijziging voor alle gebruikers wordt aangebracht.
-Keer terug naar het rolcentrum en het bijgewerkte rapport verschijnt. Als u de opdracht Opslaan als hebt uitgevoerd, moet u de pagina Rapport selecteren openen en het nieuwe rapport inschakelen.
-
-### <a name="uploading-reports"></a>Rapporten uploaden
-
-U kunt nieuwe Power BI-rapporten uploaden en delen met alle gebruikers van uw [!INCLUDE [prodshort](includes/prodshort.md)]. De rapporten worden binnen elk bedrijf binnen gedeeld in [!INCLUDE [prodshort](includes/prodshort.md)].  
-
-Als u een rapport wilt uploaden, kiest u de actie **Rapport uploaden** in de vervolgkeuzelijst met opdrachten. U kunt vervolgens een .pbix-bestand uploaden dat de rapporten definieert die u wilt delen. U kunt de standaardnaam van het bestand wijzigen.  
-
-Zodra het rapport naar uw Power BI-werkruimte is geüpload, wordt het automatisch geüpload naar de Power BI-werkruimten van alle andere gebruikers in dat bedrijf bij hun volgende aanmelding bij [!INCLUDE [prodshort](includes/prodshort.md)].
-
-## <a name="system-requirements"></a>Systeemvereisten
-
-Als u uw [!INCLUDE[prodshort](includes/prodshort.md)]-gegevens in Power BI wilt importeren, moet u machtigingen hebben voor de webservices die worden gebruikt om gegevens op te halen. De webservices die voor elke Power BI-app vereist zijn, omvatten:
-
-### <a name="microsoft-dynamics-365-business-central--crm"></a>Microsoft Dynamics 365 Business Central – CRM
-
-- Verkoopopportunities
-- Bedrijfsgegevens van weergave van Excel-sjabloon
-- Labels van Power BI-rapport
-
-### <a name="microsoft-dynamics-365-business-central--finance"></a>Microsoft Dynamics 365 Business Central – Finance
-
-- PowerBIFinance
-- Bedrijfsgegevens van weergave van Excel-sjabloon
-- Labels van Power BI-rapport
-
-### <a name="microsoft-dynamics-365-business-central---sales"></a>Microsoft Dynamics 365 Business Central - Sales
-
-- Artikelverkopen per klant
-- Verkoopdashboard
-- Excel-sjabloonweergave Bedrijf
-- Labels van Power BI-rapport
-
-> [!NOTE]
-> [!INCLUDE [prodshort](includes/prodshort.md)] on-premises gebruikt dezelfde eindpunten voor webservices als [!INCLUDE [prodshort](includes/prodshort.md)] online.
-
-## <a name="web-services"></a>Webservices
-
-Een eenvoudige manier om de webservices te vinden is te zoeken naar *webservices* in [!INCLUDE[prodshort](includes/prodshort.md)]. Zorg op de pagina **Webservices** dat het veld **Publiceren** is geselecteerd voor de hierboven genoemde webservices.
-
-## <a name="troubleshooting"></a>Problemen oplossen
-
-Het dashboard van Power BI gebruikt de gepubliceerde webservices die hierboven worden genoemd en bevat gegevens van het demobedrijf of uw eigen bedrijf als u gegevens importeert uit uw huidige financiële oplossing. Als er echter iets verkeerd gaat, biedt deze sectie een oplossing voor de meest voorkomende problemen.  
-
-### <a name="you-do-not-have-a-power-bi-account"></a>U hebt geen Power BI-account
-
-Er is geen Power BI-account ingesteld. Als u een geldig Power BI-account wilt hebben, moet u een licentie hebben en moet u zich eerder hebben aangemeld bij Power BI, zodat uw Power BI-werkruimte kan worden gemaakt.  
-
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Bericht: Er zijn geen ingeschakelde rapporten. Kies Rapport selecteren om een lijst met rapporten weer te geven die u kunt weergeven.
-
-Dit bericht verschijnt als het standaardrapport niet naar uw Power BI-werkruimte kan worden geïmplementeerd of het rapport is geïmplementeerd maar niet met succes is vernieuwd. Als dit gebeurt, navigeert u naar het rapport in uw Power BI-werkruimte, selecteert u **Gegevensset**, **Instellingen** en werkt u vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar Business Central en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren**.
-
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>U hebt een Power BI Pro-licentie nodig om de [!INCLUDE [prodshort](includes/prodshort.md)]-app in Power BI te installeren
-
-U hebt een [Power BI Pro-licentie](/power-bi/service-features-license-type) nodig om uw inhoud te delen, en de mensen met wie u deze deelt, hebben die ook nodig, anders moet de inhoud zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie voor meer informatie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
-
-### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Parametervalidatie mislukt; zorg dat alle parameters geldig zijn"
-
-Deze fout geeft aan dat een van de parameters niet geldig is.
-
-- De opgegeven omgevingsparameter komt niet overeen met een bestaande [!INCLUDE [prodshort](includes/prodshort.md)]-productie of sandboxomgeving.
-- De opgegeven bedrijfsparameter komt niet overeen met bestaande [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijven. Controleer de bedrijfsnaam op de pagina **Bedrijven** in [!INCLUDE [prodshort](includes/prodshort.md)].
-- Als u verbinding maakt met [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. u hebt een URL ingevoerd die niet geldig is. U kunt de URL verifiëren op de pagina **Webservices** in [!INCLUDE [prodshort](includes/prodshort.md)]  
-- Er staat geen poort open om het verzoek door uw firewall te laten gaan.
-
-### <a name="cannot-sign-in"></a>Kan me niet aanmelden
-
-Als u de fout "Aanmelding mislukt" krijgt nadat u zich aanmeldt met uw [!INCLUDE [prodshort](includes/prodshort.md)]-referenties, kan dat een van de volgende oorzaken hebben:
-
-- Het account dat u gebruikt, heeft geen machtigingen om de [!INCLUDE [prodshort](includes/prodshort.md)]-gegevens uit uw account op te halen. Controleer of u machtigingen hebt voor de vereiste gegevens in [!INCLUDE [prodshort](includes/prodshort.md)] en probeer het opnieuw.
-- U hebt een ander verificatietype dan Basis geselecteerd als u verbinding maakt met [!INCLUDE [prodshort](includes/prodshort.md)] on-premises.
-- U hebt geen geldige gebruikersnaam of wachtwoord ingevoerd.
-
-### <a name="incorrect-company-name"></a>Onjuiste bedrijfsnaam
-
-Een veel voorkomende fout is de weergavenaam van het bedrijf in te voeren in plaats van de bedrijfsnaam. Als u de bedrijfsnaam wilt vinden, zoekt u naar **Bedrijven**. Gebruik vervolgens het veld **Naam** wanneer u uw bedrijfsnaam invoert.
-
-### <a name="the-key-didnt-match-any-rows-in-the-table"></a>De sleutel kwam met geen rijen uit de tabel overeen
-
-Als u een ongeldige bedrijfsnaam invoert tijdens het verbindingsproces, kunt u de foutmelding "De sleutel kwam met geen rijen uit de tabel overeen" krijgen. Geef de juiste bedrijfsnaam op en probeer opnieuw verbinding te maken.
-
-### <a name="historical-data-appears-to-be-missing"></a>Historische gegevens lijken te ontbreken
-
-Zodra de Power BI-app is geïnstalleerd en uw gegevens verschijnen in Power BI, merkt u mogelijk dat niet al uw gegevens worden weergegeven. De gegevenssets worden gefilterd om alleen de voorgaande 365 dagen aan gegevens te retourneren. Deze standaard is aanwezig om de rapporten sneller te maken.  
-
-### <a name="i-only-see-data-for-a-single-company"></a>Ik zie alleen gegevens voor één bedrijf
-
-De Power BI-app toont alleen gegevens van het [!INCLUDE [prodshort](includes/prodshort.md)]-bedrijf dat is gedefinieerd toen de Power BI-app werd geïnstalleerd. Gegevens van extra bedrijven kunnen aan de rapporten worden toegevoegd door nieuwe query's toe te voegen die verschillende bedrijven als gegevensbron gebruiken.  
+-->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -206,14 +82,17 @@ De Power BI-app toont alleen gegevens van het [!INCLUDE [prodshort](includes/pro
 
 [Power BI voor consumenten](/power-bi/consumer/end-user-consumer)  
 [De 'nieuwe look' van de Power BI-service](/power-bi/service-new-look)  
-[Snelle start: Uw gegevens verbinden in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Snelle start: verbinding maken met uw gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-documentatie](/power-bi/)  
 [Bedrijfsinformatie](bi.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power Apps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken in Power Automate](across-how-use-financials-data-source-flow.md)  
+[Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power Apps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,25 @@
 ---
-title: 'Procedure: Werken met voorraadperioden | Microsoft Docs'
+title: Werken met voorraadperioden
 description: U kunt bepalen in welke periode mensen wijzigingen in voorraad kunnen boeken door voorraadperioden te definiëren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: be0222536f0281a700542b7ada80a327b9f21317
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5828
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d41936ece0911f726a72476716b148bede71a25b
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183224"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970634"
 ---
 # <a name="work-with-inventory-periods"></a>Werken met voorraadperioden
+
 Een voorraadperiode is een periode waarin gewijzigde voorraadwaarden kunnen worden geboekt. Een voorraadperiode wordt begrensd door een einddatum. Als u een voorraadperiode hebt afgesloten, kunt u geen verwachte of gefactureerde voorraadwaarden vóór de einddatum meer boeken. U kunt geen nieuwe waarden naar de voorraad boeken vóór de einddatum. Als er nog open artikelposten, d.w.z. positieve aantallen die nog niet zijn vereffend met uitgaande transacties, zijn die binnen de afgesloten periode vallen, kunt u de uitgaande aantallen ook nadat de periode is afgesloten nog met deze posten vereffenen.  
 
 In de volgende secties wordt uitgelegd hoe u:
@@ -26,13 +28,15 @@ In de volgende secties wordt uitgelegd hoe u:
 * Voorraadperioden afsluiten.  
 * Voorraadperioden opnieuw openen.  
 
-## <a name="to-create-an-inventory-period"></a>Een voorraadperiode maken  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadperioden** in en kies de desbetreffende koppeling.  
+## <a name="to-create-an-inventory-period"></a>Een voorraadperiode maken
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadperioden** in en kies vervolgens de gerelateerde koppeling.  
 2. Een nieuwe regel maken.  
 3. Voer in het veld **Einddatum** de laatste datum van de voorraadperiode in die u wilt definiëren. Wanneer de periode is afgesloten, kunt u geen voorraadwijzigingen vóór deze datum boeken.  
 4. Typ een beschrijvende naam in het veld **Naam**. Kies de knop **Ok**.  
 
-## <a name="closing-inventory-periods"></a>Voorraadperioden afsluiten  
+## <a name="closing-inventory-periods"></a>Voorraadperioden afsluiten
+
 Het veld **Gesloten** geeft aan of de voorraadperiode afgesloten is voor wijzigingen in voorraadwaarden. U kunt dit veld niet bewerken.  
 
 Onder de volgende omstandigheden kunt u iedere voorraadperiode afsluiten:  
@@ -43,12 +47,13 @@ Onder de volgende omstandigheden kunt u iedere voorraadperiode afsluiten:
 Dit betekent dat alle uitgaande transactieaantallen, zoals de aantallen van verkooporders, uitgaande transfers, verkoopfacturen, inkoopretourorders of inkoopcreditnota's, moeten worden vereffend met bestaande aantallen in de voorraad.  
 
 ### <a name="to-close-an-inventory-period"></a>Een voorraadperiode afsluiten  
+
 1. Voordat u een voorraadperiode sluit, kiest u de actie **Kosten corrigeren – Artikelposten** om ervoor te zorgen dat alle kostencorrecties worden geboekt.
 
-     Voer de lijst **Voorraadperiode afsluiten - Controle** uit om te zien of er openstaande uitgaande posten voorkomen in de voorraadperiode of artikelen waarvan de kosten nog niet zijn geherwaardeerd.  
+    Voer de lijst **Voorraadperiode afsluiten - Controle** uit om te zien of er openstaande uitgaande posten voorkomen in de voorraadperiode of artikelen waarvan de kosten nog niet zijn geherwaardeerd.  
 2. Kies de actie **Voorraadperiode afsluiten - Controle**.  
 
-     Voer de batchverwerking **Voorraadwaarde boeken** uit om ervoor te zorgen dat alle kosten naar het grootboek zijn geboekt.  
+    Voer de batchverwerking **Voorraadwaarde boeken** uit om ervoor te zorgen dat alle kosten naar het grootboek zijn geboekt.  
 3. Kies de actie **Van Voorraadbeheer naar GB boeken**.  
 4. Selecteer op de pagina **Voorraadperioden** de voorraadperiode die u wilt sluiten.  
 5. Kies de actie **Periode afsluiten**. Wanneer de voorraadperiode eenmaal is afgesloten, kunt u geen voorraadwijzigingen boeken vóór de einddatum. U dient de kosten van alle artikelen te herwaarderen met de batchverwerking **Kostprijs herwaarderen - Artikelposten** voordat u de voorraadperiode afsluit.  
@@ -59,7 +64,7 @@ Dit betekent dat alle uitgaande transactieaantallen, zoals de aantallen van verk
 Nadat u de voorraadperiode hebt afgesloten, kunt u deze niet verwijderen. U kunt de periode echter wel weer opnieuw openen als u boekingen vóór de einddatum van de voorraadperiode wilt toestaan. Wanneer u een periode opnieuw opent, worden alle voorraadperioden met latere einddatums ook weer geopend.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Een voorraadperiode opnieuw openen  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadperioden** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadperioden** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de voorraadperiode die u opnieuw wilt openen.  
 3. Kies de periodeactie **Periode opnieuw openen**. Bevestig dat u de periode opnieuw wilt openen.  
 4. Alle voorraadperioden met latere einddatums dan de geselecteerde periode worden eveneens opnieuw geopend.  
@@ -69,3 +74,6 @@ Nadat u de voorraadperiode hebt afgesloten, kunt u deze niet verwijderen. U kunt
 [Financiën](finance.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met Financials](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

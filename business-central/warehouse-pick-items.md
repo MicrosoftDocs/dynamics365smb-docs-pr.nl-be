@@ -1,25 +1,24 @@
 ---
-title: Artikelen picken | Microsoft Docs
-description: De magazijnactiviteit van het picken van artikelen voordat deze worden verzonden of verbruikt, wordt op verschillende manieren uitgevoerd, afhankelijk van hoe de functies voor magazijnbeheer zijn geconfigureerd. De complexiteit van de [instelling](../configure-warehouse-processes.md) varieert, van geen magazijnfuncties via standaardmagazijnconfiguraties voor de afzonderlijke verwerking van orders in een of meer activiteiten tot geavanceerde configuraties waarbij alle activiteiten in een gestuurde werkstroom moeten worden uitgevoerd.
-services: project-madeira
-documentationcenter: ''
+title: Artikelen picken
+description: De activiteit van het picken van artikelen voordat deze worden verzonden of verbruikt, wordt op verschillende manieren uitgevoerd, afhankelijk van hoe de functies voor magazijnbeheer zijn geconfigureerd.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 23c01374b7b044c8f497126ef6409bf27b80dffe
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 10b5c682fa5237aa49152306698c17dad247e664
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313844"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970764"
 ---
 # <a name="pick-items"></a>Artikelen picken
+
 De magazijnactiviteit van het picken van artikelen voordat deze worden verzonden of verbruikt, wordt op verschillende manieren uitgevoerd, afhankelijk van hoe de functies voor magazijnbeheer zijn geconfigureerd. De complexiteit varieert, van geen magazijnfuncties via standaardmagazijnconfiguraties voor de afzonderlijke verwerking van orders in een of meer activiteiten tot geavanceerde configuraties waarbij alle activiteiten in een gestuurde werkstroom moeten worden uitgevoerd. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
 Als u de pickactiviteiten wilt ordenen en vastleggen met behulp van magazijndocumenten, schakelt u het selectievakje **Pick vereist** in bij de vestiging. Hiermee geeft u aan dat u, wanneer er artikelen moeten worden gepickt voor een uitgaand brondocument, het picken van deze artikelen door het programma wilt laten uitvoeren. Een uitgaand brondocument kan een verkooporder, een inkoopretourorder, een uitgaande transferorder of een serviceorder zijn waarvan de onderdelen moeten worden gepickt.
@@ -49,7 +48,10 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
-[Assemblagebeheer](assembly-assemble-items.md)    
+[Magazijnbeheer instellen](warehouse-setup-warehouse.md) 
+[Assemblagebeheer](assembly-assemble-items.md)
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

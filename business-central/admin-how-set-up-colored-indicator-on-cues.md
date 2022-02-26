@@ -1,23 +1,24 @@
 ---
-title: Gekleurde indicators opgeven om visuele signalen aan te passen over de activiteit van een indicatiestapel voor het bedrijf of afzonderlijke gebruikers | Microsoft Docs
+title: Stel uw aangepaste gekleurde indicatoren in voor de activiteit van een indicatiestapel
 description: Als beheerder kunt u indicatiestapels instellen die in de Rolcentra van gebruikers worden weergegeven en die een indicator bevatten die van kleur verandert afhankelijk van de gegevenswaarden in de indicatiestapels.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.search.form: 9701, 9702
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 0411e080aa5304b47ec64a9248368fc8385d4ee5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8dfd2a4c731ebc9663f3916694903ad8ac010ca5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187352"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012457"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Een gekleurde indicator voor indicatiestapels instellen voor het bedrijf of voor afzonderlijke gebruikers
+
 Als beheerder kunt u indicatiestapels instellen die in de Rolcentra van gebruikers worden weergegeven en die een indicator bevatten die van kleur verandert afhankelijk van de gegevenswaarden in de indicatiestapels.  
 
 De indicator wordt als een gekleurde balk weergegeven langs de bovenrand van de indicatiestapeltegel. Het geeft een visueel signaal van de status van de activiteit van de indicatiestapel. Het signaal kan gunstige of ongunstige condities aangeven om de gebruiker tot actie te laten overgaan. Als een indicatiestapel bijvoorbeeld doorlopende verkoopfacturen weergeeft, kunt u de indicator zo instellen dat deze groen (gunstig) is wanneer het totale aantal doorlopende verkoopfacturen kleiner is dan 10 en dat deze rood (ongunstig) is wanneer het totaal groter is dan 20.  
@@ -27,7 +28,7 @@ Vanuit de pagina **Instelling indicatiestapel** kunt u indicatoren instellen voo
 Als u de indicator wilt instellen, geeft u maximaal twee drempelwaarden op die de drie bereiken van gegevenswaarden definiëren (laag, gemiddeld en hoog) waarop u een andere kleur (of stijl) kunt toepassen.  
 
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Gekleurde indicatoren instellen voor indicatiestapels  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling indicatiestapel** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voert u **Instelling indicatiestapel** in en kiest u vervolgens de gerelateerde koppeling.  
 
      De pagina **Instelling indicatiestapel** wordt geopend. De pagina bevat de indicatoren die op het moment zijn ingesteld voor indicatiestapels. Indicators die van toepassing zijn op alle gebruikers in het bedrijf, hebben een leeg veld **Gebruikersnaam**. Indicatoren die van toepassing zijn op een specifieke gebruiker, bevatten de gebruikersnaam in het veld **Gebruikersnaam**.  
 
@@ -64,3 +65,6 @@ Als u de indicator wilt instellen, geeft u maximaal twee drempelwaarden op die d
     |**Ondergeschikt**|Grijs|  
 
 ## <a name="see-also"></a>Zie ook
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

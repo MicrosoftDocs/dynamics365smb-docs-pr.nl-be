@@ -1,21 +1,21 @@
 ---
-title: Ontwerpdetails - Artikeltracering in het magazijn | Microsoft Docs
-description: De verwerking van serie- en lotnummers is hoofdzakelijk een magazijntaak. Daarom hebben alle inkomende en uitgaande magazijndocumenten standaardfunctionaliteit voor het toewijzen en selecteren van artikeltraceringsnummers. Omdat het reserveringsysteem echter op artikelposten is gebaseerd, worden magazijnactiviteitsdocumenten die alleen magazijnposten registreren, niet volledig ondersteund.
+title: 'Ontwerpdetails: Artikeltracering in het magazijn'
+description: Inkomende en uitgaande magazijndocumenten hebben standaardfunctionaliteit voor het toewijzen en selecteren van artikeltraceringsnummers.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 02a87bc61fbadae4392800f84adbc176bfb87b23
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 3bf30b7739e488eeb3610d191cfb4f3b20e0e79e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185024"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320376"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Ontwerpdetails: Artikeltracering in het magazijn
 De verwerking van serie- en lotnummers is hoofdzakelijk een magazijntaak. Daarom hebben alle inkomende en uitgaande magazijndocumenten standaardfunctionaliteit voor het toewijzen en selecteren van artikeltraceringsnummers.  
@@ -31,3 +31,6 @@ Het reserveringsysteem houdt echter rekening met magazijnactiviteiten wanneer be
 [Ontwerpdetails: Integratie met voorraad](design-details-integration-with-inventory.md)  
 [Ontwerpdetails: Magazijnbeschikbaarheid](design-details-availability-in-the-warehouse.md)  
 [Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

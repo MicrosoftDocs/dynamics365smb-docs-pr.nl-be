@@ -1,23 +1,25 @@
 ---
-title: Artikelen voor een verkoop inkopen door inkoopfacturen te maken | Microsoft Docs
+title: Artikelen kopen voor een verkoop
 description: Vanuit een verkoopfactuur kunt u, om producten te kopen, een inkoopfactuur maken voor een leverancier.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1b723eaa62ef51fb6cacd42c29a4e2709a3228e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 50, 51, 56, 9308
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 46057027e89a087105ca52969c8d5f40a2c0cd26
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312496"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953421"
 ---
-# <a name="purchase-items-for-a-sale"></a>Artikelen kopen voor een verkoop
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Artikelen voor een verkoop inkopen door inkoopfacturen te maken
+
 Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopdocumenten te maken voor ontbrekende artikelaantallen die vereist worden door de verkoop. U kunt twee verschillende functies gebruiken, afhankelijk van de documentsoort.
 
 > [!Note]
@@ -31,7 +33,7 @@ Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopd
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Een of meerdere inkooporders van een verkooporder maken
 Als u een inkooporder wilt maken voor elk niet-beschikbaar artikelaantal op de verkooporder, gebruikt u de functie **Inkooporders maken**.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Open een verkooporder waarvoor u artikelen wilt inkopen.
 3. Kies de actie **Inkooporders maken**.
 
@@ -54,7 +56,7 @@ Als u één inkoopfactuur wilt maken voor een of meer regels in een verkoopdocum
 > [!NOTE]  
 >   Deze functie maakt een inkoopfactuur voor het exacte artikelaantal op het geselecteerde verkoopdocument. Als u het inkoopaantal wilt wijzigen, moet u de inkoopfactuur wijzigen nadat deze is gemaakt.  
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Open een verkoopfactuur waarvoor u artikelen wilt inkopen.
 3. Selecteer een of meer verkoopfactuurregels die u wilt gebruiken op de inkoopfactuur. Als u alle verkoopfactuurregels wilt gebruiken, selecteert u ze allemaal of selecteert u helemaal geen regels.
 4. Kies de actie **Inkoopfactuur maken**.
@@ -69,4 +71,7 @@ Als u één inkoopfactuur wilt maken voor een of meer regels in een verkoopdocum
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Werkstromen verwijderen | Microsoft Docs
+title: Werkstromen verwijderen
 description: Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze wissen. Alle werkstroomstapinstanties die zijn gedefinieerd in de werkstroom, moeten de status **Voltooid** hebben.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 46b976894854781ee2d8198deed316f94189c007
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 43801669b0189b4af521c32229ccb2d430fb210c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188336"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438394"
 ---
 # <a name="delete-workflows"></a>Werkstromen verwijderen
 Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze wissen. Alle werkstroomstapinstanties die zijn gedefinieerd in de werkstroom, moeten de status **Voltooid** hebben.  
@@ -26,7 +26,7 @@ Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze wissen
  Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
 ## <a name="to-delete-a-workflow"></a>Een workflow verwijderen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de workflow die u wilt verwijderen.  
 3.  Kies de actie **Verwijderen**.  
 4.  Of, open de workflow die u wilt verwijderen.  
@@ -40,3 +40,6 @@ Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze wissen
  [Werkstromen instellen](across-set-up-workflows.md)   
  [Werkstromen gebruiken](across-use-workflows.md)   
  [Werkstroom](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

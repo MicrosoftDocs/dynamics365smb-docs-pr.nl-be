@@ -1,23 +1,23 @@
 ---
-title: De extensie PayPal Payments Standard gebruiken | Microsoft Docs
-description: Beschrijft hoe u de extensie gebruikt om klanten de mogelijkheid te bieden betalingen te doen met PayPal.
+title: De extensie PayPal Payments Standard gebruiken
+description: Dit onderwerp beschrijft hoe u de standaardextensie gebruikt om klanten de mogelijkheid te bieden betalingen te doen met PayPal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f295ab10d30f5a22f924ec3ad76548375f929b7c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: cc7db26df0cfd554b083ac606c14965eecc991eb
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315456"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322889"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>De extensie PayPal Payments Standard
 Klanten stellen steeds meer eisen aan de klantenservice, zowel met betrekking tot productkwaliteit als met betrekking tot betalings- en leveringsmogelijkheden. De service PayPal Payments Standard helpt u uw klantenservice te verbeteren.
@@ -37,6 +37,9 @@ De service PayPal Payments Standard biedt de volgende voordelen:
 Zie [Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

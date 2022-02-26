@@ -1,23 +1,24 @@
 ---
-title: Elektronische betalingen testen
+title: Elektronische betalingen testen [BE]
 description: Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bbd2580befef83c403c8dba2bed5b4f264da42ac
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 2000001
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: 7b8ed40fa13eb6446dc2bfac62e74c007629c498
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180846"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972977"
 ---
-# <a name="test-electronic-payments"></a>Elektronische betalingen testen
+# <a name="test-electronic-payments-in-the-belgian-version"></a>Elektronische betalingen testen in de Belgische versie
+
 Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.  
 
 Hierbij wordt onder andere het volgende gevalideerd:  
@@ -32,17 +33,21 @@ Hierbij wordt onder andere het volgende gevalideerd:
 U kunt de fouten bekijken op de pagina **Logboeken voor controlefouten exporteren**.  
 
 > [!IMPORTANT]  
->  U moet alle fouten corrigeren voordat u de regels kunt boeken.  
+> U moet alle fouten corrigeren voordat u de regels kunt boeken.  
 
 ## <a name="to-test-payment-journal-lines"></a>Betalingsdagboekregels testen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Betalingsdagboeken** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
-3.  Selecteer in het veld **Exportprotocol** het exportprotocol.  
-4.  Voer de betalingsdagboekregelinformatie in en kies vervolgens de actie **Betalingsregels controleren** om de betalingsdagboekregels te valideren. Welke validatie op de dagboekregels wordt uitgevoerd, is afhankelijk van de soort controle die op de pagina **Exportprotocollen** is opgegeven.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies de koppelingen om de pagina **EB-betalingsdagboeken** te openen.  
+2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
+3. Selecteer in het veld **Exportprotocol** het exportprotocol.  
+4. Voer de betalingsdagboekregelinformatie in en kies vervolgens de actie **Betalingsregels controleren** om de betalingsdagboekregels te valideren. Welke validatie op de dagboekregels wordt uitgevoerd, is afhankelijk van de soort controle die op de pagina **Exportprotocollen** is opgegeven.  
 
 ## <a name="see-also"></a>Zie ook  
- [Belgische elektronische betalingen](belgian-electronic-payments.md)   
- [Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md)   
- [Betalingsbestanden afdrukken](how-to-print-payment-files.md)
+
+[Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)  
+[Belgische elektronische betalingen](belgian-electronic-payments.md)  
+[Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md)  
+[Leveranciersbetalingen voorstellen](../../payables-how-suggest-vendor-payments.md)  
+[Betalingsbestanden afdrukken](how-to-print-payment-files.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

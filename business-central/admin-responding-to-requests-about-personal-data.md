@@ -1,22 +1,22 @@
 ---
 title: Reageren op aanvragen over persoonlijke gegevens
-description: U moet reageren op aanvragen van gegevensonderwerpen.
+description: In dit onderwerp leest u hoe u kunt reageren op verzoeken over persoonlijke gegevens. Dit wordt een aanvraag van een gegevensonderwerp genoemd.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2020
+ms.date: 06/14/2021
 ms.reviewer: na
-ms.topic: article
-ms.openlocfilehash: 16c7bb44326ebb754846171a0379cc9423754c45
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.topic: conceptual
+ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186776"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321974"
 ---
-# <a name="responding-to-requests-about-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens  
-Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt geclassificeerd en zeker weet dat deze correct zijn, kan een beheerder op verzoeken reageren met behulp van de opties onder het tabblad **Gegevensprivacy** in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
+# <a name="responding-to-requests-about-users-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens van gebruikers  
+Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt geclassificeerd en zeker weet dat deze correct zijn, kan een beheerder op verzoeken reageren met behulp van de opties onder het tabblad **Gegevensprivacy** in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[prod_long](includes/prod_long.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Soorten aanvragen
 
@@ -35,13 +35,13 @@ De volgende tabel bevat voorbeelden van de typen aanvragen waarop u kunt reagere
 Een gegevensonderwerp kan aanvragen dat u tijdelijk stopt met verwerking van de persoonlijke gegevens. Als u dergelijke aanvragen honoreert, kunt u de record van het gegevensonderwerp registreren als geblokkeerd vanwege privacy om de verwerking van de gegevens te stoppen. Wanneer een record als geblokkeerd is gemarkeerd, kunt u geen nieuwe transacties maken die de record gebruiken. Bijvoorbeeld, u kunt geen nieuwe factuur voor een klant maken wanneer de klant of de verkoper is geblokkeerd. Als u een gegevensonderwerp als geblokkeerd wilt markeren, opent u de kaart voor het gegevensonderwerp, bijvoorbeeld de klanten-, leveranciers- of contactkaart en schakelt u het selectievakje **Geblokkeerd vanwege privacy** in. U moet mogelijk **Meer tonen** kiezen om het veld weer te geven.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Aanvragen van gegevensonderwerpen afhandelen tijdens een proef
-Bepaalde soorten persoonlijke gegevens maken deel uit van uw Office 365-account en vereisen administratieve toegang om te worden geëxporteerd als u een aanvraag van een gegevensonderwerp van een gebruiker ontvangt met betrekking tot dit type persoonlijke gegevens onder de Algemene verordening gegevensbeschermingverordening. Het proces voor het afhandelen van aanvragen van gegevensonderwerpen verschilt afhankelijk van het type [!INCLUDE[d365fin](includes/d365fin_md.md)]-tenant.  
+Bepaalde soorten persoonlijke gegevens maken deel uit van uw Microsoft 365-account en vereisen administratieve toegang om te worden geëxporteerd als u een aanvraag van een gegevensonderwerp van een gebruiker ontvangt met betrekking tot dit type persoonlijke gegevens onder de Algemene verordening gegevensbescherming. Het proces voor het afhandelen van aanvragen van gegevensonderwerpen verschilt afhankelijk van het type [!INCLUDE[prod_short](includes/prod_short.md)]-tenant.  
 
-Als u een betaald abonnement voor [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt, moet u contact met de tenantbeheerder van uw organisatie opnemen om een aanvraag van een gegevensonderwerp te doen. De beheerder heeft de administratieve rechten en hulpmiddelen om uw aanvraag af te handelen.  
+Als u een betaald abonnement voor [!INCLUDE[prod_short](includes/prod_short.md)] hebt, moet u contact met de tenantbeheerder van uw organisatie opnemen om een aanvraag van een gegevensonderwerp te doen. De beheerder heeft de administratieve rechten en hulpmiddelen om uw aanvraag af te handelen.  
 
-Als u zich voor [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt aangemeld vanaf de pagina [Proeven](https://trials.dynamics.com/) en u deze proefervaring niet hebt verlaten door middel van een betaald abonnement door de tenantbeheerder van uw organisatie, kunt u uw eigen aanvraag van een gegevensonderwerp afhandelen op de [pagina Privacy op werk en school in de Azure-portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Hier kunt u uw persoonlijke gegevens exporteren en downloaden.
+Als u zich voor [!INCLUDE[prod_short](includes/prod_short.md)] hebt aangemeld vanaf de pagina [Proeven](https://trials.dynamics.com/) en u deze proefervaring niet hebt verlaten door middel van een betaald abonnement door de tenantbeheerder van uw organisatie, kunt u uw eigen aanvraag van een gegevensonderwerp afhandelen op de [pagina Privacy op werk en school in de Azure-portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Hier kunt u uw persoonlijke gegevens exporteren en downloaden.
 
-Op de pagina Privacy op werk en school kunt u ook uw account sluiten. We raden u echter aan te zorgen dat u eerst alle gegevens hebt geëxporteerd en verwijderd, aangezien het verwijderen van uw account betekent dat u toegang kwijtraakt tot [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Op de pagina Privacy op werk en school kunt u ook uw account sluiten. We raden u echter aan te zorgen dat u eerst alle gegevens hebt geëxporteerd en verwijderd, aangezien het verwijderen van uw account betekent dat u toegang kwijtraakt tot [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 U kunt nog steeds personen als geblokkeerd vanwege privacy markeren en transacties exporteren, bewerken of verwijderen, zoals elders in dit artikel uitgelegd.  
 
@@ -62,3 +62,6 @@ Als de leeftijd van een contactpersoon onder de wettelijke meerderjarigheidsleef
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  
 [Wijzigingen registreren](across-log-changes.md)  
 [Aanvragen van gegevensonderwerpen voor de Algemene verordening gegevensbescherming](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

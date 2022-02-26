@@ -1,34 +1,42 @@
 ---
-title: BTW-rapporten indienen bij de belastingdienst| Microsoft Docs
+title: Btw-aangiften indienen bij de belastingdienst
 description: Leren om rapporten voor te bereiden met btw van verkopen in een bepaalde periode, of van verkopen en inkopen, en het rapport verzenden aan de belastingdienst.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2020
+ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
+ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7365886f09e1e3d1b67dcbea82594f3d3599f25a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0c041f2af2e59a8ed8be77a8d2eb029e48cb8258
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183896"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059964"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Btw rapporteren aan de belastingdienst
-Dit onderwerp beschrijft de rapporten in [!INCLUDE[d365fin](includes/d365fin_md.md)] die u kunt gebruiken om gegevens over btw-bedragen voor verkopen en inkopen in te dienen bij de belastingdienst in uw regio.
+
+Dit onderwerp beschrijft de rapporten in [!INCLUDE[prod_short](includes/prod_short.md)] die u kunt gebruiken om gegevens over btw-bedragen voor verkopen en inkopen in te dienen bij de belastingdienst in uw regio. 
 
 U kunt de volgende rapporten gebruiken:
 
-* Het **Verkoopoverzicht EU** bevat de btw-bedragen die u hebt geïnd voor verkopen aan btw-plichtige klanten in EU-landen.  
-* Het rapport **BTW-aangifte** bevat btw voor verkopen en inkopen aan klanten in alle landen die btw gebruiken.
+* Het **Verkoopoverzicht EU** bevat de btw-bedragen die u hebt geïnd voor verkopen aan btw-plichtige klanten in EU-landen/regio's.  
+* Het rapport **BTW-aangifte** bevat btw voor verkopen en inkopen aan klanten en van leveranciers in alle landen/regio's die btw gebruiken.  
 
-Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking waarop btw van toepassing is, een post op de pagina **Btw-posten**. Met deze posten wordt het btw-vereffeningsbedrag, dat uit een betaling of vergoeding kan bestaan, berekend voor een bepaalde periode. Als u btw-posten wilt zien, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Btw-posten** in en kiest u de desbetreffende koppeling.
+In beide gevallen wordt btw gebaseerd op de btw-boekingsinstelling en de btw-boekingsgroepen die u hebt ingesteld.
+
+Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking waarop btw van toepassing is, een post op de pagina **Btw-posten**. Met deze posten wordt het btw-vereffeningsbedrag, dat uit een betaling of vergoeding kan bestaan, berekend voor een bepaalde periode. Als u btw-posten wilt zien, kiest u het ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-posten** in en kies vervolgens de gerelateerde koppeling.
+
+> [!NOTE]
+> Elke [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving is bedoeld voor het afhandelen van wettelijke rapportage in één enkel land/regio. Bijvoorbeeld de Nederlandse versie van [!INCLUDE[prod_short](includes/prod_short.md)] verzorgt btw-aangifte in Nederland maar niet in andere landen/regio's. Evenzo verwerkt de Amerikaanse versie van [!INCLUDE[prod_short](includes/prod_short.md)] 1099-rapportage in de Verenigde Staten en biedt deze geen ondersteuning voor het claimen van btw-aangifte in andere landen/regio's, tenzij door een extensie geleverd door ons partnerecosysteem of een klantspecifieke codewijziging.
 
 ## <a name="about-the-ec-sales-list-report"></a>Informatie over het Verkoopoverzicht EU
-In het VK moeten alle bedrijven die goederen en diensten verkopen aan btw-plichtige klanten, inclusief klanten in andere EU-landen, een elektronische versie indienen van het Verkoopoverzicht EU in XML-indeling door middel van de website van de HMRC (Her Majesty's Revenue and Customs). De lijst Verkoopoverzicht EU werkt alleen voor landen in de EU.
+
+In de Europese Unie (EU) en het VK moeten alle bedrijven die goederen en diensten verkopen aan btw-plichtige klanten, inclusief klanten in andere EU-landen/regio's, een elektronische versie van het Verkoopoverzicht EU indienen bij hun douane- en belastingautoriteiten. De lijst **Verkoopoverzicht EU** werkt alleen voor landen/regio's in de EU.
 
 De lijst bevat slechts één regel voor elke soort transactie met de klant en toont het totale bedrag voor elk soort transactie. Er zijn drie soorten transacties die de lijst kan bevatten:  
 
@@ -36,14 +44,13 @@ De lijst bevat slechts één regel voor elke soort transactie met de klant en to
 * B2B-services  
 * B2B getrianguleerde goederen  
 
-B2B-goederen en -services geven aan of u een artikel of een service hebt verkocht en worden bepaald door de instelling **EU-service** in de btw-boekingsinstellingen. B2B getrianguleerde goederen geven aan of u hebt gehandeld met een derde en worden bepaald door de instelling **ABC-/Driehoekstransacties** op verkoopdocumenten, zoals verkooporders, facturen, creditnota's, enzovoort.  
+*B2B*-goederen en -services geven aan of u een artikel of een service hebt verkocht en worden bepaald door de instelling **EU-service** in de btw-boekingsinstellingen. *B2B getrianguleerde goederen* geven aan of u hebt gehandeld met een derde en worden bepaald door de instelling **ABC-/Driehoekstransacties** op verkoopdocumenten, zoals verkooporders, facturen, creditnota's, enzovoort.  
 
-Nadat de belastingdienst uw lijst heeft gecontroleerd, wordt er een e-mail naar de contactpersoon voor uw bedrijf verzonden. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt de contactpersoon opgegeven op de pagina **Bedrijfsgegevens**. Voordat u de lijst verzendt, moet u ervoor zorgen dat een contact is geselecteerd.
+Nadat de belastingdienst uw lijst heeft gecontroleerd, wordt er een e-mail naar de contactpersoon voor uw bedrijf verzonden. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de contactpersoon opgegeven op de pagina **Bedrijfsgegevens**. Voordat u de lijst verzendt, moet u ervoor zorgen dat een contact is geselecteerd.  
 
 ## <a name="about-the-vat-return-report"></a>Over het rapport BTW-aangifte
-Gebruik deze lijst om btw voor verkoop- en inkoopdocumenten in te dienen, zoals inkoop- en verkooporders, facturen en creditnota's. De informatie in de lijst heeft dezelfde indeling als op het declaratieformulier van de douane en de belastingdienst.  
 
-De btw wordt gebaseerd op de btw-boekingsinstelling en de btw-boekingsgroepen die u hebt ingesteld.
+Gebruik deze lijst om btw voor verkoop- en inkoopdocumenten in te dienen, zoals inkoop- en verkooporders, facturen en creditnota's. De informatie in de lijst heeft dezelfde indeling als op het declaratieformulier van de douane en de belastingdienst.  
 
 Voor de btw-aangifte kunt u de posten opgeven die u wilt opnemen:
 
@@ -51,38 +58,49 @@ Voor de btw-aangifte kunt u de posten opgeven die u wilt opnemen:
 * Alleen posten uit de opgegeven perioden indienen of ook posten uit eerdere perioden opnemen. Dit is handig om een btw-retour bij te werken die u al hebt ingediend, bijvoorbeeld als u leverancier u een late factuur stuurt.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Verbinding maken met de webservice van uw belastingdienst
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt serviceverbindingen met belastingdienstwebsites. Als u zich bijvoorbeeld in het VK bevindt, kunt u de **GovTalk**-serviceverbinding inschakelen om het Verkoopoverzicht EU en de btw-aangifte elektronisch in te dienen. Als u de lijst handmatig wilt verzenden, bijvoorbeeld door uw gegevens op de website van de belastingdienst in te voeren, is dit niet vereist.   
+[!INCLUDE[prod_short](includes/prod_short.md)] biedt serviceverbindingen met belastingdienstwebsites. Als u zich bijvoorbeeld in het VK bevindt, kunt u de **GovTalk**-serviceverbinding inschakelen om het Verkoopoverzicht EU en de btw-aangifte elektronisch in te dienen. Als u de lijst handmatig wilt verzenden, bijvoorbeeld door uw gegevens op de website van de belastingdienst in te voeren, is dit niet vereist.   
 
-Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[d365fin](includes/d365fin_md.md)] verbinden met de webservice van de belastingdienst. Hiertoe moet u een account instellen bij uw belastingdienst. Wanneer u een account hebt ingesteld, kunt u een serviceverbinding inschakelen die we aanbieden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met de webservice van de belastingdienst. Hiertoe moet u een account instellen bij uw belastingdienst. Wanneer u een account hebt ingesteld, kunt u een serviceverbinding inschakelen die we aanbieden in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies de desbetreffende koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me 2 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceverbindingen** in en kies vervolgens de juiste koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >   Het is aan te raden de verbinding te testen. Kies hiervoor het selectievakje **Testmodus** en bereid uw btw-aangifte voor en verzend deze zoals beschreven in de sectie _Een btw-aangifte voorbereiden en indienen_. In de testmodus test de service of de belastingdienst uw aangifte kan ontvangen en de status van de aangifte geeft aan of de testindiening succesvol was. Vergeet niet dat dit geen werkelijke indiening is. Als u de aangifte echt wilt indienen, moet u het selectievakje **Testmodus** uitzetten en de indiening herhalen.
+    > Het is aan te raden de verbinding te testen. Kies hiervoor het selectievakje **Testmodus** en bereid uw btw-aangifte voor en verzend deze zoals beschreven in de sectie [Een btw-aangifte voorbereiden en indienen](#to-prepare-and-submit-a-vat-report). In de testmodus test de service of de belastingdienst uw aangifte kan ontvangen en de status van de aangifte geeft aan of de testindiening succesvol was. Vergeet niet dat dit geen werkelijke indiening is. Als u de aangifte echt wilt indienen, moet u het selectievakje **Testmodus** uitzetten en de indiening herhalen.
 
-## <a name="to-set-up-vat-reports-in-d365fin"></a>Btw-rapporten instellen in [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-rapportinstellingen** in en kies de desbetreffende koppeling.  
-2. Als u gebruikers deze lijst wilt laten wijzigen en opnieuw verzenden, kiest u het selectievakje **Verzonden rapporten aanpassen**.  
-3. Kies de nummerreeks die voor elke aangifte moet worden gebruikt.  
+## <a name="to-set-up-vat-reports-in-prod_short"></a>Btw-rapporten instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
+
+[!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
+
+### <a name="to-set-up-vat-return-periods"></a>Indieningsperioden voor btw instellen
+
+Optioneel, als uw bedrijf niet in het VK is gevestigd, gebruikt u de pagina **Btw-aangifteperiodes** om geplande btw-aangiften in te stellen. Als uw bedrijf in het VK is gevestigd, raadpleegt u [Belasting digitaal maken in het Verenigd Koninkrijk](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-aangifteperioden** in en kies vervolgens de gerelateerde koppeling.  
+2. Vul op de pagina **Btw-aangifteperioden** de velden in om de eerste periode in te stellen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
+3. Herhaal stap 2 voor eventuele extra perioden die u wilt toevoegen.  
+
+Wanneer het tijd is om een btw-aangifte in te dienen voor een btw-aangifteperiode, kiest u de periode op de pagina **Btw-aangifteperioden** en kiest u vervolgens de actie **Btw-aangifte maken**. Kies vervolgens op de pagina **Btw-aangifte** de actie **Regels voorstellen** zoals beschreven in stap 3 in de volgende procedure.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Een btw-aangifte voorbereiden en indienen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopoverzicht EU** of **Btw-aangifte** in en kies de desbetreffende koppeling.  
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me 3 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopoverzicht EU** of **Btw-aangifte** in en kies vervolgens de gerelateerde koppeling  
 2. Kies **Nieuw** en vul vervolgens de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Als u de inhoud van de lijst wilt genereren, kiest u de actie **Regels voorstellen**.  
 
     > [!NOTE]  
-    >   In het Verkoopoverzicht EU kunt u de transacties bekijken die in de aangifteregels zijn opgenomen, voordat u de aangifte indient. Kies hiervoor de regel en kies vervolgens de actie **Btw-posten weergeven**.  
+    >  In het Verkoopoverzicht EU kunt u de transacties bekijken die in de aangifteregels zijn opgenomen, voordat u de aangifte indient. Kies hiervoor de regel en kies vervolgens de actie **Btw-posten weergeven**.  
+
 4. Als u de lijst voor verzending wilt valideren en voorbereiden, kiest u de actie **Vrijgeven**.  
 
     > [!NOTE]  
-    >   [!INCLUDE[d365fin](includes/d365fin_md.md)] controleert of het rapport correct is ingesteld. Als de validatie mislukt, worden de fouten weergegeven onder **Fouten en waarschuwingen**, zodat u weet wat u moet corrigeren. Als het bericht gaat over een ontbrekende instelling in [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u op het bericht kunt klikken om de pagina te openen met de te verbeteren informatie.  
+    > [!INCLUDE[prod_short](includes/prod_short.md)] controleert of het rapport correct is ingesteld. Als de validatie mislukt, worden de fouten weergegeven onder **Fouten en waarschuwingen**, zodat u weet wat u moet corrigeren. Als het bericht gaat over een ontbrekende instelling in [!INCLUDE[prod_short](includes/prod_short.md)], kunt u op het bericht kunt klikken om de pagina te openen met de te verbeteren informatie.  
 5. Als u de lijst wilt verzenden, kiest u de actie **Verzenden**.  
 
-Als u de lijst hebt verzonden, controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] de service en wordt een record van uw communicatie bijgehouden. Het veld **Status** geeft aan waar in het proces de lijst zich bevindt. Als de belastingdienst uw rapport bijvoorbeeld verwerkt, verandert de status van het rapport in **Succesvol**. Als de belastingdienst fouten in de lijst heeft gevonden die u hebt verzonden, wordt de status van de lijst **Mislukt**. U kunt de fouten bekijken onder **Fouten en waarschuwingen**, deze corrigeren en vervolgens de lijst opnieuw verzenden. Als u een overzicht wilt van al uw verkoopoverzichten EU, gaat naar de pagina **Rapporten verkoopoverzicht EU**.  
+Als u de lijst hebt verzonden, controleert [!INCLUDE[prod_short](includes/prod_short.md)] de service en wordt een record van uw communicatie bijgehouden. Het veld **Status** geeft aan waar in het proces de lijst zich bevindt. Als de belastingdienst uw rapport bijvoorbeeld verwerkt, verandert de status van het rapport in **Succesvol**. Als de belastingdienst fouten in de lijst heeft gevonden die u hebt verzonden, wordt de status van de lijst **Mislukt**. U kunt de fouten bekijken onder **Fouten en waarschuwingen**, deze corrigeren en vervolgens de lijst opnieuw verzenden. Als u een overzicht wilt van al uw verkoopoverzichten EU, gaat naar de pagina **Rapporten verkoopoverzicht EU**.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Communicatie met uw belastingdienst weergeven
-In sommige landen kunt u berichten met de belastingdienst uitwisselen wanneer u rapporten verzendt. U kunt het eerste en laatste bericht dat u hebt ontvangen of verzonden, bekijken door de acties **Indieningsbericht downloaden** en **Responsbericht downloaden** te kiezen.  
+In sommige landen/regio's kunt u berichten met de belastingdienst uitwisselen wanneer u rapporten verzendt. U kunt het eerste en laatste bericht dat u hebt ontvangen of verzonden, bekijken door de acties **Indieningsbericht downloaden** en **Responsbericht downloaden** te kiezen.  
 
 ## <a name="submitting-vat-reports-manually"></a>Handmatig btw-aangiftes verzenden
 Als u een andere methode gebruikt om de lijst te verzenden, bijvoorbeeld door de XML te exporteren en deze te uploaden naar een website, kunt u daarna **Markeren als verzonden** kiezen om de rapportageperiode te sluiten. Wanneer u het btw-rapport markeert als vrijgegeven, wordt het niet-bewerkbaar. Als u het rapport moet wijzigen nadat het is gemarkeerd als vrijgegeven, moet u het opnieuw openen.
@@ -96,25 +114,30 @@ Wanneer u btw-bedragen overmaakt naar de vereffeningsrekening, worden de bedrage
 > Wanneer u de batchverwerking **Btw-vereffening berekenen en boeken** gebruikt en u geen **btw-bedrijfsboekingsgroep** en **btw-productboekingsgroep** opgeeft, worden posten met alle bedrijfsboekingsgroepen en productboekingsgroepscodes opgenomen.
 
 ## <a name="configuring-your-own-vat-reports"></a>Uw eigen btw-rapporten configureren
-U kunt het verkoopoverzicht EU kant-en-klaar gebruiken, maar u kunt ook uw eigen lijsten maken. Hiertoe moet u enkele codeunits maken. Als u hierbij hulp nodig hebt, neemt u contact op met een Microsoft-partner.  
 
-De volgende tabel beschrijft codeunits die u voor uw lijst moet maken.
+U kunt het kant-en-klare rapport **Verkoopoverzicht EU** gebruiken. U kunt echter ook uw eigen rapporten maken, als u een ontwikkellicentie hebt, zodat u codeunits kunt maken. Als u hulp nodig hebt, neemt u contact op met een Microsoft-partner.  
+
+De volgende tabel beschrijft codeunits die u voor uw lijst moet maken.  
 
 | Codeunit | Wat het moet doen |
 |----|-----|
-|Regels voorstellen| Gegevens ophalen uit de tabel met btw-posten en deze weergeven op regels in het btw-rapport.|
+|Regels voorstellen| Gegevens ophalen uit de tabel **Btw-posten** en deze weergeven op regels in het btw-rapport.|
 |Inhoud | De indeling van het rapport bepalen. Bijvoorbeeld of het XML of JSON is. De te gebruiken indeling is afhankelijk van de webservice van uw belastingdienst. |
 |Verzending | Bepaal hoe en wanneer u de lijst verzendt, op basis van de behoeften van uw belastingdienst. |
 |Antwoordmanager | Behandel de retournering van de belastingdienst. Bijvoorbeeld, er kan een e-mailbericht naar de contactpersoon van uw bedrijf zijn verzonden. |
 |Annuleren | Verzend een annulering of btw-rapport dat eerder is ingediend naar de belastingdienst. |  
 
 > [!Note]
-> Wanneer u codeunits maakt voor het rapport, besteed dan aandacht aan de waarde in het veld **Btw-rapportversie**. Dit veld moet de versie reflecteren van het rapport dat is of werd vereist door de belastingdienst. U kunt bijvoorbeeld **2017** in het veld invoeren om aan te geven dat de lijst voldoet aan de vereisten die dat jaar golden. Als u de huidige versie wilt bepalen, neemt u contact op met de belastingdienst.
+> Wanneer u codeunits maakt voor het rapport, besteed dan aandacht aan de waarde in het veld **Btw-rapportversie**. Dit veld moet de versie reflecteren van het rapport dat is of werd vereist door de belastingdienst. U kunt bijvoorbeeld **2021** in het veld invoeren om aan te geven dat de lijst voldoet aan de vereisten die dat jaar golden. Als u de huidige versie wilt bepalen, neemt u contact op met de belastingdienst.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
-[Berekeningen en voor boekingsmethoden voor btw instellen](finance-setup-vat.md)  
+
+[Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

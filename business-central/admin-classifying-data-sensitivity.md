@@ -6,16 +6,17 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.date: 04/01/2020
-ms.openlocfilehash: e1b199c16bb39feb4ecbef9b36ccd49a5c32e3c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.topic: conceptual
+ms.search.form: 1752
+ms.date: 06/14/2021
+ms.openlocfilehash: ace00c39b6c5186e40d4f8eb20b0e7d7ad6030ce
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187424"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012643"
 ---
-# <a name="classifying-data-sensitivity"></a>Gegevensvertrouwelijkheid classificeren
+# <a name="classifying-data-sensitivity-fields"></a>Gegevensvertrouwelijkheidsvelden classificeren
 Om velden te classificeren die vertrouwelijke of persoonlijke gegevens bevatten, kan een Microsoft-partner de eigenschap ```DataClassification``` van velden instellen. Dit vereist toegang tot de databasetabellen, met de ontwikkelingsomgeving of door een Windows PowerShell-script uit te voeren. Zie voor meer informatie [Gegevens classificeren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Als klant kunt u een tweede niveau van classificatie toevoegen door gevoeligheidsniveaus voor de gegevens op te geven die u in standaard- en aangepaste velden opslaat. Gegevensvertrouwelijkheid classificeren helpt zorgen dat u weet waar u persoonlijke gegevens in uw systeem bewaart en maakt het gemakkelijker te reageren op aanvragen van gegevensonderwerpen. Als een contact of klant u bijvoorbeeld vraagt hun persoonlijke gegevens te exporteren. Zie voor meer informatie [Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md).
@@ -50,3 +51,6 @@ Met het werkblad Gegevensclassificatie kunt u bijvoorbeeld het volgende doen:
 ## <a name="see-also"></a>Zie ook
 
 [Gegevens classificeren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

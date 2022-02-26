@@ -1,23 +1,22 @@
 ---
-title: Standaard magazijnen met bewerkingsgebieden instellen | Microsoft Docs
-description: Als interne bewerkingsgebieden zoals productie of assemblage deel uitmaken van standaard magazijnconfiguraties waarin locaties het instellingsveld **Opslaglocatie verplicht** en eventueel de instellingsvelden **Pick vereist** en **Opslag vereist** gebruiken, kunt u drie standaard magazijndocumenten gebruiken om uw magazijnactiviteiten voor interne bewerkingsgebieden te registreren.
-services: project-madeira
-documentationcenter: ''
+title: Standaardmagazijnen met bewerkingsgebieden instellen
+description: Magazijnactiviteiten instellen en voorraadbewegingen, picks en opslag gebruiken om goederen ertussen te verplaatsen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: b76a3fac1844db4d4eb11dd2ddc0b5d1cb604cca
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 6774, 6775, 6776
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310240"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115210"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Standaardmagazijnen met bewerkingsgebieden instellen
 Als interne bewerkingsgebieden zoals productie of assemblage deel uitmaken van standaard magazijnconfiguraties waarin locaties het instellingsveld **Opslaglocatie verplicht** en eventueel de instellingsvelden **Pick vereist** en **Opslag vereist** gebruiken, kunt u de volgende standaard magazijndocumenten gebruiken om uw magazijnactiviteiten voor interne bewerkingsgebieden te registreren:  
@@ -43,19 +42,20 @@ De volgende procedures zijn gebaseerd op het instellen van standaard magazijnact
 >  In de volgende procedure wordt het veld **Opslaglocatie verplicht** op vestigingskaarten ingeschakeld omdat dit wordt beschouwd als een basisvereiste met betrekking tot welk niveau aan magazijnbeheer dan ook.  
 
 ## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Voorraaddocumenten inschakelen voor interne bewerkingsactiviteiten  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Open de vestigingskaart die u wilt instellen.  
 3.  Schakel op het sneltabblad **Magazijn** het selectievakje **Opslag vereist** in om aan te geven dat, wanneer een inkomend of intern brondocument met een opslaglocatiecode wordt vrijgegeven, er een voorraadopslag- of een voorraadverplaatsingdocument kan worden gemaakt.  
 4.  Schakel het selectievakje **Pick vereist** in om aan te geven dat, wanneer een uitgaand of intern brondocument met een opslaglocatiecode wordt gemaakt, er een voorraadpick- of een voorraadverplaatsingdocument moet worden gemaakt.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Een standaard opslaglocatiestructuur in het productiegebied definiëren  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Een standaard opslaglocatiestructuur in het productiegebied definiëren
+
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Open de locatie die u wilt instellen.  
 3.  Voer op het sneltabblad **Opslaglocaties** in het veld **Open shopflooropslaglocatie** de code in van de opslaglocatie in het productiegebied met genoeg componenten die de machine-operator kan verbruiken, zonder dat er een magazijnactiviteit moet worden aangevraagd om deze naar de opslaglocatie te brengen. Artikelen die in deze opslaglocatie worden geplaatst, zijn doorgaans ingesteld op automatische boeking of afboeking. Dit betekent dat het veld **Afboekingsmethode** de waarde **Voorwaarts** of **Achterwaarts** bevat.  
 4. Voer in het veld **naar-opslagplaatslocatie voor productie** de code in van de opslaglocatie in het productiegebied waar onderdelen die zijn gepickt voor productie op deze vestiging standaard worden geplaatst voordat ze kunnen worden verbruikt. Artikelen die in deze opslaglocatie worden geplaatst, zijn doorgaans ingesteld op handmatige verbruiksboeking. Dit betekent dat het veld **Afboekingsmethode** de waarde **Handmatig** of **Pick + Voorwaarts** of **Pick + Achterwaarts** bevat voor magazijnpicks en voorraadverplaatsingen.  
 
     > [!NOTE]  
-    >  Bij gebruik van voorraadpicks definieert het veld **Bin Code** op de materiaalregel op een productieorder de opslaglocatie *nemen* waar materialen in mindering worden gebracht wanneer het verbruik wordt geboekt. Bij gebruik van voorraadpicks definieert het veld **Opslaglocatie** op materiaalregels op de productieorder de opslaglocatie *plaats* in het bewerkingsgebied waarin de magazijnmedewerker de materialen moet plaatsen.  
+    > Bij gebruik van voorraadpicks definieert het veld **Bin Code** op de materiaalregel op een productieorder de opslaglocatie *nemen* waar materialen in mindering worden gebracht wanneer het verbruik wordt geboekt. Bij gebruik van voorraadpicks definieert het veld **Opslaglocatie** op materiaalregels op de productieorder de opslaglocatie *plaats* in het bewerkingsgebied waarin de magazijnmedewerker de materialen moet plaatsen.  
 
 5. Voer op het sneltabblad **Opslaglocaties** in het veld **Van productieopslaglocatie** de code in van de opslaglocatie in het productiegebied waaruit standaard voltooide eindartikelen worden gehaald wanneer het proces een magazijnactiviteit omvat. De activiteit wordt bij standaard magazijnconfiguraties geregistreerd als een voorraadopslag of een voorraadverplaatsing.  
 
@@ -63,7 +63,7 @@ Productieordermateriaalregels met de standaard opslaglocatie eisen dat voorwaart
 
 In dit stroomdiagram is weergegeven hoe het veld **Opslaglocatie** op de productieordercomponentregels wordt ingevuld op basis van uw instellingen.  
 
-![Diagram van opslaglocatiestroom](media/binflow.png "Opslaglocatiestroom")    
+![Stroomdiagram Opslaglocatie.](media/binflow.png "BinFlow")
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Een standaard opslaglocatiestructuur in het assemblagegebied definiëren
 Materialen voor assemblageorders kunnen niet worden gepickt of geboekt met voorraadpicks. Gebruik in plaats daarvan de pagina **Voorraadverplaatsing**. Zie voor meer informatie [Onderdelen verplaatsen naar een bewerkingsgebied bij standaard magazijnbeheer](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
@@ -73,13 +73,13 @@ Als u verkoopregelaantallen pickt en verzendt die worden geassembleerd voor de o
 Zie voor meer informatie [Assemblagebeheer](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Instellen dat automatisch een voorraadverplaatsing wordt gemaakt wanneer de voorraadpick voor het assemblageartikel wordt gemaakt
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Assemblage-instelling** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Assemblage-instelling** in en kies vervolgens de gerelateerde koppeling.
 2. Schakel het selectievakje **Verplaatsingen automatisch aanmaken** in.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>De opslaglocatie in het assemblagegebied instellen waarin onderdelen standaard worden geplaatst voordat ze kunnen worden gebruikt bij het assembleren
 De waarde in dit veld wordt automatisch ingevoegd in het veld **Opslaglocatie** op assemblageorderregels wanneer deze locatie is ingevoerd in het veld **Vestiging** op de assemblageorderregel.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Open de locatie die u wilt instellen.
 3. Vul het veld **Opslaglocatie Naar-assemblage** in.
 
@@ -91,7 +91,7 @@ Opslaglocatiecodes die zijn ingesteld op de vestigingskaarten definiëren alleen
 > [!NOTE]
 > Dit is alleen mogelijk voor vestigingen waar het veld Opslaglocatie verplicht is ingeschakeld.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Open de locatie die u wilt instellen.
 3. Vul het veld **Opslagloc.code Vanuit-assembl.** in.
 
@@ -112,7 +112,7 @@ Als **Opslagloc. verz. asm.-op-order** leeg is, wordt het veld **Opslagloc.code 
 
 Dezelfde opslaglocatie wordt vervolgens naar het veld **Opslaglocatie** gekopieerd op de voorraadpickregel die de verzending van het op-order-assembleren-aantal beheert. Zie voor meer informatie de sectie 'Op-order-assembleren-artikelen in voorraadpicks afhandelen' in [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Open de locatie die u wilt instellen.
 3. Vul het veld **Opslagloc. verz. asm.-op-order** in.
 
@@ -128,7 +128,7 @@ Een specifieke opslaglocatie maken biedt vergelijkbare functies als voor het geb
 > [!Caution]
 > Artikelen in specifieke opslaglocaties worden niet beveiligd wanneer ze zijn gepickt en worden verbruikt als onderdelen van de productie met de pagina Voorraadpick.
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling. Selecteer de vestiging die u wilt bijwerken.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling. Selecteer de vestiging die u wilt bijwerken.  
 2.  Kies de actie **Opslaglocaties**.  
 3.  Selecteer het veld **Speciaal** voor elke opslaglocatie die u uitsluitend voor bepaalde interne bewerkingen wilt gebruiken en waarin u aantallen voor de desbetreffende interne bewerking wilt reserveren zodra deze daar zijn geplaatst.  
 
@@ -138,7 +138,10 @@ Een specifieke opslaglocatie maken biedt vergelijkbare functies als voor het geb
 ## <a name="see-also"></a>Zie ook  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
-[Assemblagebeheer](assembly-assemble-items.md)    
+[Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
+[Assemblagebeheer](assembly-assemble-items.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

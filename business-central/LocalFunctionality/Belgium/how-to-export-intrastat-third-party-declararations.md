@@ -1,47 +1,51 @@
 ---
-title: Intrastat-aangiftes van derden exporteren
+title: Intrastat-aangiftes van derden exporteren [BE]
 description: In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn.
-services: project-madeira
-documentationcenter: ''
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: 921e60496ad85c62f92677187f633d3c69ad260e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5574ac24d0ad0006e3b95b0ef0bcfaa97a1524b6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180894"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972995"
 ---
-# <a name="export-intrastat-third-party-declarations"></a>Intrastat-aangiftes van derden exporteren
-In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn. 
+# <a name="export-intrastat-third-party-declarations-in-the-belgian-version"></a>Intrastat-aangiftes van derden exporteren in de Belgische versie
 
-## <a name="to-export-the-third-party-declaration"></a>De aangifte van derden exporteren  
+In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn.  
+
+## <a name="to-export-the-third-party-declaration"></a>De aangifte van derden exporteren
+
 Voordat u het bestand exporteert, is het verstandig een voorbeeld van het rapport te bekijken. Zie voor meer informatie [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md).  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Intrastat-dagboeken** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Kies de actie **Bestand maken**.  
-3.  Vul de velden in zoals beschreven in de volgende tabel.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Intrastat-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies de actie **Bestand maken**.  
+3. Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Nulaangifte**|Selecteer deze optie als u geen handelstransacties met EU-landen/regio's hebt en een lege aangifte wilt versturen.|  
     |**Gegevens van tegenpartij**|Schakel dit veld in om gegevens van de tegenpartij op te nemen in het Intrastat-bestand (nieuwe vereiste vanaf 2019). De gegevens van de tegenpartij die worden toegevoegd aan het bestand, zijn afkomstig uit de velden **Land/regio van oorsprong** en **Partner-id** in het Intrastat-dagboek.|  
     |**Ondernemingsnr./btw-nr.**|Voer het ondernemings- of btw-nummer in.|  
-    
-4.  Kies de knop **OK**.  
+
+4. Kies de knop **OK**.  
 
 Vervolgens moet de aangifte naar de OneGate-portal worden verzonden.  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
  [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)   
  [Aangiftesoorten instellen](how-to-set-up-declaration-types.md)   
  [Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)   
  [Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)   
  [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

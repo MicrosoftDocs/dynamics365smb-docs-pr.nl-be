@@ -1,26 +1,26 @@
 ---
-title: Financieel beheer | Microsoft Docs
-description: Meer informatie over de taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften.
-services: project-madeira
-documentationcenter: ''
+title: Financieel beheer (bevat video)
+description: Lees meer over hoe Business Central uw behoeften op het gebied van financieel beheer, boekhouding, audits en boekhouding ondersteunt.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.search.form: 1151, 1166, 9027, 9004
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 2582e96b8113abe91fe10a087833d4fbeb5b7da5
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410759"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970923"
 ---
-# <a name="finance"></a>Financiën
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
+# <a name="financial-management"></a>Financieel beheer
+
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
 
 De standaardconfiguratie omvat een rekeningschema en standaardboekingsgroepen die het proces vormen van het efficiënter toewijzen van standaardgrootboekrekeningen aan klanten, leveranciers en artikelen.  
 
@@ -45,7 +45,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Wijs extra kosten toe, zoals vracht en fysieke verwerking die u oploopt tijdens handel, aan de betrokken artikelen, zodat de kosten worden gereflecteerd in voorraadwaarde. |[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) |
 |Boek persoonlijke kosten van werknemers voor zakelijke bezigheden en betaal werknemers terug door te betalen naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
 | Kosten en inkomsten verantwoorden in andere perioden dan wanneer de transacties zijn geboekt. |[Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)|
-| Meer informatie over de beschikbare opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. |[Periodieke (abonnements)inkomsten](finance-recurring-invoicing.md)|
+| Meer informatie over de beschikbare opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. |[Werken met periodieke inkomsten](finance-recurring-invoicing.md)|
 |Leren hoe u extra valuta's gebruikt en valutawisselkoersen automatisch bijwerkt. |[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|
 | Importeer salaristransacties van uw leverancier van salarisverwerking in het grootboek. |[Salaristransacties importeren](finance-how-import-payroll-transactions.md)|
 |Gebruik functies om btw te berekenen op verkoop- en inkooptransacties, zodat u de bedragen kunt rapporteren aan de belastingdienst.|[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)|
@@ -54,16 +54,26 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | De stroom van kas in en uit uw bedrijf controleren. |[Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md) |
 |Volg een complete procedure voor het gebruik van rapportageschema's om cashflowprognoses te maken.|[Procedure: cashflow met behulp van rapportageschema's maken](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Werken met financiële overzichten in Excel. |[Financiële overzichten analyseren in Excel](finance-analyze-excel.md) |
-|Leer hoe u het rolcentrum Accountant gebruikt, een externe accountant uitnodigt en Accountant Hub gebruikt om rekeningen voor meerdere cliënten te beheren.|[Accountantervaringen in Business Central](finance-accounting.md)|  
+|Leer hoe u het rolcentrum Accountant gebruikt, een externe accountant uitnodigt en de bedrijfshub gebruikt om rekeningen voor meerdere cliënten te beheren.|[Accountantervaringen in Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Een videorondleiding volgen
+
+De volgende video introduceert enkele van de belangrijkste mogelijkheden voor het beheren van financiën. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Zie ook
+
 [Financiën instellen](finance-setup-finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Boekperioden afsluiten](year-close-years-periods.md)  
-[Projecten beheren](projects-manage-projects.md)    
+[Projecten beheren](projects-manage-projects.md)  
 [Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

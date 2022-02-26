@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c245690690a02bb4d7fccb6c07737b71c96f14d5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 69c807a9c99b105782240c43d096a73ff01e2664
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188528"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775984"
 ---
 # <a name="manage-many-incoming-document-records"></a>Vele inkomende documentrecords beheren
 Terwijl u inkomende documentrecords maakt of verwerkt, kan het aantal regels op de pagina **Inkomende documenten** zozeer toenemen dat u het overzicht verliest. Daarom kunt u inkomende documentrecords op Verwerkt instellen om ze te verwijderen uit de standaardweergave. Als u **Alles weergeven** kiest, kunt u zowel verwerkte als onverwerkte records weergeven.
@@ -56,4 +56,7 @@ Alle inkomende documentrecords worden weergegeven, inclusief de records waarvan 
 [Inkomende documenten verwerken](across-process-income-documents.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

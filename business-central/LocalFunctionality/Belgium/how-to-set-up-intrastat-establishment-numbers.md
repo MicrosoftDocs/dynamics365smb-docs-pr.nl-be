@@ -1,30 +1,30 @@
 ---
-title: Intrastat-nummers instellen
+title: Intrastat-nummers instellen [BE]
 description: Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6e1b5ac5184e11120850b992eba5e469c5d013ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: 4a264d4c756c430b2d94ddd24436306f1df08cf3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180854"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438460"
 ---
-# <a name="set-up-intrastat-establishment-numbers"></a>Intrastat-nummers instellen
+# <a name="set-up-intrastat-establishment-numbers-in-the-belgian-version"></a>Intrastat-nummers instellen in de Belgische versie
 Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.  
 
 ## <a name="to-set-up-an-intrastat-establishment-number"></a>Een Intrastat-nummer instellen  
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsgegevens** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voer in het veld **Intrastat-nr.** het Intrastat-nummer in. invoeren.  
 3.  Kies de knop **OK**.  
   
@@ -34,3 +34,6 @@ Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op d
  [Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)   
  [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)   
  [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,15 +2,15 @@
 title: Trainingscatalogus van functionele consultants
 description: Vind alle beschikbare leermogelijkheden voor Business Central.
 author: loreleishannonmsft
-ms.date: 04/20/2020
-ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: eba4c2c1badc0b686d50b23c8e47600f1cdbed3f
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.date: 04/01/2021
+ms.topic: conceptual
+ms.author: margoc
+ms.openlocfilehash: c7e235f878287a061dfaff25d7a9f2e2e8f40c16
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372652"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781900"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Trainingscatalogus van functionele consultant
 
@@ -68,3 +68,6 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------|
 | [De toekomst is in de Trusted Cloud](https://www.microsoft.com/trust-center)                                                                                                                                                              | Informatie over de Trusted Cloud                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Website                                                                        |                    |
 | [Resources voor gegevensbescherming](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5fa41da9-69b2-47ea-8413-4a91345b299b&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) | Informatie over de manier waarop Microsoft cloudservices uw gegevens beschermen en hoe u gegevensbeveiliging en compliance in de cloud kunt beheren voor uw organisatie.                                                                                                                                                                                                                                                                                                                                                | Whitepaper downloaden                                                           |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

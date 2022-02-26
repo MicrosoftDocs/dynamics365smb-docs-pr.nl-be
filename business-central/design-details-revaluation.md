@@ -1,26 +1,26 @@
 ---
-title: Ontwerpdetails - Herwaardering | Microsoft Docs
-description: U kunt de voorraad herwaarderen op basis van de waarderingsbasis die de voorraadwaarde het nauwkeurigst weergeeft. U kunt een herwaardering ook antedateren , zodat de kostprijs van verkochte goederen (KPV) correct wordt bijgewerkt voor artikelen die al zijn verkocht. Artikelen die de waarderingsmethode Standaard gebruiken en die niet volledig zijn gefactureerd, kunnen ook worden geherwaardeerd.
+title: 'Ontwerpdetails: Herwaardering'
+description: U kunt de voorraad herwaarderen op basis van de waarderingsbasis die de voorraadwaarde het nauwkeurigst weergeeft.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d0e779587a409232a6ab618ec80f5ad1ae17e31f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184784"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444317"
 ---
 # <a name="design-details-revaluation"></a>Ontwerpdetails: Herwaardering
 U kunt de voorraad herwaarderen op basis van de waarderingsbasis die de voorraadwaarde het nauwkeurigst weergeeft. U kunt een herwaardering ook antedateren , zodat de kostprijs van verkochte goederen (KPV) correct wordt bijgewerkt voor artikelen die al zijn verkocht. Artikelen die de waarderingsmethode Standaard gebruiken en die niet volledig zijn gefactureerd, kunnen ook worden geherwaardeerd.  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt de volgende flexibiliteit ondersteund met betrekking tot herwaardering:  
+In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de volgende flexibiliteit ondersteund met betrekking tot herwaardering:  
 
 -   Het herwaardeerbare aantal kan voor elke datum opnieuw worden berekend, ook terug in de tijd.  
 -   Voor artikelen waarvoor de standaardwaarderingsmethode wordt gebruikt, worden verwachte kosten opgenomen in de herwaardering.  
@@ -39,7 +39,7 @@ Omdat de herwaardering op elke datum kan worden uitgevoerd, moet u conventies he
 ### <a name="example"></a>Opmerking  
 In het volgende voorbeeld ziet u wanneer een OHW-artikel evolueert om deel van de voorraad te worden. Het voorbeeld is gebaseerd op de productie van een ketting met 150 schakels.  
 
-![OHW-voorraad en -herwaardering](media/design_details_inventory_costing_10_revaluation_wip.png "OHW-voorraad en -herwaardering")  
+![OHW-voorraad en -herwaardering.](media/design_details_inventory_costing_10_revaluation_wip.png "OHW-voorraad en -herwaardering")  
 
 **1A**: De gebruiker boekt de ingekochte schakels als ontvangen. De volgende tabel toont de resulterende artikelpost.  
 
@@ -82,13 +82,13 @@ De waarderingsdatum wordt ingesteld op de datum van de verbruikboeking (01-02-20
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |15-01-20|Directe kosten|01-01-20|150,00|2|2|  
 |01-02-20|Directe kosten|01-02-20|-150,00|2|2|  
-|15-02-20|Directe kosten|15-02-20|150.00|3|3|  
+|15-02-20|Directe kosten|15-02-20|150,00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Verwachte kosten in herwaardering  
-Het herwaardeerbare aantal XE "Herwaardeerbaar aantal" XE "Aantal;Herwaardeerbaar" wordt berekend als de som van aantal XE "aantal" voor compleet gefactureerde XE "Factuur" artikelposten XE "Artikelpost" met een boekingsdatum die gelijk is aan of eerder ligt dan de herwaarderingsdatum XE "Herwaardering". Dit betekent dat wanneer sommige artikelen zijn ontvangen/verzonden maar nog niet gefactureerd, hun voorraadwaarde niet kan worden berekend XE "Voorraadwaarde". Artikelen die de waarderingsmethode Standaard gebruiken, zijn in dit opzicht niet beperkt. XE "Waarde"  
+Het herwaardeerbare aantal wordt berekend als de som van het aantal voor volledig gefactureerde artikelposten met een boekingsdatum die gelijk is aan of vroeger is dan de herwaarderingsdatum. Dit betekent dat wanneer sommige artikelen zijn ontvangen/verzonden maar nog niet gefactureerd, hun voorraadwaarde niet kan worden berekend. Artikelen die de waarderingsmethode Standaard gebruiken, zijn in dit opzicht niet beperkt.  
 
 > [!NOTE]  
->  Een ander soort verwachte kosten dat kan worden geherwaardeerd is OHW-voorraad, binnen bepaalde regels. Zie het onderdeel “OHW-voorraadherwaardering” in dit onderwerp voor meer informatie.  
+>  Een ander soort verwachte kosten dat kan worden geherwaardeerd is OHW-voorraad, binnen bepaalde regels. Zie [OHW-voorraadherwaardering](design-details-revaluation.md#wip-inventory-revaluation) voor meer informatie.  
 
 Bij de berekening van het herwaardeerbare aantal voor artikelen met de waarderingsmethode Standaard, worden artikelposten die nog niet volledig zijn gefactureerd, meegenomen in de berekening. Deze posten worden vervolgens bijgewerkt wanneer u de herwaardering boekt. Wanneer u de geherwaardeerde post factureert, worden de volgende waardeposten gemaakt:  
 
@@ -114,9 +114,9 @@ De volgende tabel toont de twee soorten resulterende waardeposten.
 |2.|20-01-20|Herwaardering|20-01-20|150,00|  0.00|1|2|  
 |3.a.|15-01-20|Directe kosten|15-01-20|-300,00|  0.00|1|3|  
 |3.b.|15-01-20|Herwaardering|20-01-20|-150,00|  0.00|1|4|  
-|3.c.|15-01-20|Verschil|15-01-20|  0.00|450,00|1|5|  
+|3.c.|15-01-20|Verschil|15-01-20|0.00|450,00|1|5|  
 
-## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Bepalen of een negatieve voorraadmutatie wordt beïnvloed door herwaardering  
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Bepalen of een negatieve voorraadmutatie wordt beïnvloed door herwaardering  
 De datum van de boeking of de herwaardering wordt gebruikt om te bepalen of een negatieve voorraadmutatie wordt beïnvloed door een herwaardering.  
 
 De volgende tabel toont de criteria die worden gebruikt voor een artikel die de waarderingsmethode Gemiddeld niet gebruikt.  
@@ -163,13 +163,13 @@ De volgende tabel toont de twee soorten resulterende waardeposten.
 ## <a name="wip-inventory-revaluation"></a>OHW-voorraadherwaardering  
 Herwaardering van OHW-voorraad impliceert het herwaarderen van onderdelen die zijn geregistreerd als deel van OHW-voorraad op het moment van de herwaardering.  
 
-Het is daarom belangrijk om conventies te definiëren over wanneer een artikel als deel van de OHW-voorraad wordt beschouwd vanuit een financieel oogpunt. In [!INCLUDE[d365fin](includes/d365fin_md.md)], bestaan de volgende conventies:  
+Het is daarom belangrijk om conventies te definiëren over wanneer een artikel als deel van de OHW-voorraad wordt beschouwd vanuit een financieel oogpunt. In [!INCLUDE[prod_short](includes/prod_short.md)], bestaan de volgende conventies:  
 
 -   Een ingekocht onderdeel wordt een deel van de grondstoffenvoorraad vanaf het moment dat een inkoop als gefactureerd wordt geboekt.  
 -   Een ingekocht onderdeel of onderdeel via subassemblage wordt een deel van de OHW-voorraad vanaf het moment van boeking van het verbruik in verband met een productieorder.  
 -   Een ingekocht onderdeel of onderdeel via subassemblage blijft deel van de OHW-voorraad totdat een productieorder (geproduceerd artikel) wordt gefactureerd.  
 
-De manier waarop de herwaarderingsdatum van de waardepost van verbruik is ingesteld, volgt dezelfde regels als bij niet-OHW-voorraad. Zie meer informatie het onderwerp "Bepalen of een negatieve voorraadmutatie wordt beïnvloed door herwaardering" in dit onderwerp.  
+De manier waarop de herwaarderingsdatum van de waardepost van verbruik is ingesteld, volgt dezelfde regels als bij niet-OHW-voorraad. Zie voor meer informatie [Bepalen of een negatieve voorraadmutatie wordt beïnvloed door herwaardering](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
 OHW-voorraad kan worden geherwaardeerd zolang de herwaarderingsdatum niet na de boekingsdatum van de bijbehorende artikelposten van het soort Verbruik valt, en zolang de betreffende productieorder nog niet is gefactureerd.  
 
@@ -181,4 +181,7 @@ OHW-voorraad kan worden geherwaardeerd zolang de herwaarderingsdatum niet na de 
  [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)   
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-valuation.md) [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

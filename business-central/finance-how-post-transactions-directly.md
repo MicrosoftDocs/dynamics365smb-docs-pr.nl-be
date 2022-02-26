@@ -1,21 +1,22 @@
 ---
-title: Kosten of inkomsten rechtstreeks in grootboek registreren| Microsoft Docs
-description: Voor zakelijke activiteiten die niet door een document worden vertegenwoordigd, zoals kleinere ontvangsten of kasontvangsten, kunt u de gerelateerde transacties maken door dagboekregels te boeken op de pagina Diversendagboek.
+title: Kosten of inkomsten rechtstreeks in grootboek registreren
+description: Voor zakelijke activiteiten die niet door een document worden vertegenwoordigd, kunt u de gerelateerde transacties maken door dagboekregels te boeken op de pagina Diversendagboek.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f0c1efcee7db0239efa739dd0ea8d8ce45e2dbd7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 39, 251
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: f8a11cf0efb34863c4d2ddf7519847e27f5a2001
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183968"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973478"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Transacties direct naar het grootboek boeken
 
@@ -29,7 +30,7 @@ In tegenstelling tot posten die zijn geboekt met documenten, die een creditnotap
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Een transactie direct naar het grootboek boeken
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante dagboekbatch. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 3. Vul op een nieuwe dagboekregel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -47,4 +48,7 @@ In tegenstelling tot posten die zijn geboekt met documenten, die een creditnotap
 [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)  
 [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

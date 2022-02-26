@@ -1,49 +1,59 @@
 ---
-title: Productie-output en bewerkingstijd in batches boeken | Microsoft Docs
-description: Het outputaantal geeft het gereedgemelde aantal van onderhanden werk aan.
+title: Productie-output en bewerkingstijd in batches boeken
+description: De outputhoeveelheid geeft de voortgang van het werk weer in de vorm van de voltooide hoeveelheid en de gebruikte capaciteit van de afdeling of de bewerkingsplaats.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877805"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970502"
 ---
 # <a name="batch-post-output-and-run-times"></a>Output en bewerkingstijden in batches boeken
-Het outputaantal geeft het gereedgemelde aantal van onderhanden werk aan.  
+De outputhoeveelheid geeft de voortgang van het werk weer in de vorm van de voltooide hoeveelheid en de gebruikte capaciteit van de afdeling of de bewerkingsplaats.
+
+U kunt ook het outputdagboek gebruiken om:
+
+* Voorraad aan te passen in verband met de output van voltooide artikelen vanuit productie.
+* Hoeveelheden en uitval te registreren voor elke bewerking in productierouting.
+* Instel- en looptijd te registreren voor afdelingen en bewerkingsplaatsen.
 
 > [!NOTE]
-> Alleen wanneer u het outputaantal bij de laatste bewerking boekt, wordt de voorraad automatisch bijgewerkt.  
+> Als productierouting wordt gebruikt, wordt de voorraad alleen bijgewerkt wanneer u het outputaantal bij de laatste bewerking boekt.
 
-## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Outputaantallen voor een of meer productieorderregels boeken
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies de desbetreffende koppeling.  
-2. Voer in de velden informatie over de productieorder en output in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+Met het venster **Productiedagboek** kunt u dezelfde taken uitvoeren als in het venster **Outputdagboek** en tegelijkertijd de gerelateerde taken voor verbruiksboeking uitvoeren. Zie voor meer informatie [Verbruik en output registreren voor één vrijgegeven productieorderregel](production-how-to-register-consumption-and-output.md).
+
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Outputaantallen boeken en/of looptijden registreren voor een of meer productieorderregels
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
+2. Voer in de velden informatie over de productieorder en output en/of looptijd in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+  
+    U kunt de functie **Bewerkingsplan weergeven** om dagboekregels te genereren op basis van productieorders.
+  
 3. Als de bewerking is voltooid, selecteert u het veld **Voltooid**.  
+4. Kies de actie **Boeken** om de activiteiten te boeken. 
 
-    Als het magazijn waar de artikelen worden opgeslagen opslaglocaties gebruikt, maar geen pickverwerking vereist, kunt u  een opslaglocatie toewijzen aan de dagboekregel om aan te geven waar de artikelen in het magazijn moeten worden geplaatst. Zie [Productie- of assemblageoutput opslaan](warehouse-how-to-put-away-production-output.md) voor meer informatie.  
+Capaciteitsboekingen worden bijgewerkt voor de gebruikte werk- of machinecentra met informatie over tijd en hoeveelheid output en uitval.  
 
-4. Kies de actie **Boeken** om de bewerkingen te boeken. Het outputaantal wordt geboekt. Het artikel is nu beschikbaar voor verzending.  
+Als u de laatste bewerking heeft geboekt, wordt het artikel aan de inventaris toegevoegd.  
 
-## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Bewerkingstijd boeken voor een of meerdere productieorderregels
-De bewerkingstijd geeft de benodigde werktijd voor onderhanden werk aan.    
+## <a name="see-also"></a>Zie ook
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies de desbetreffende koppeling.  
-2. Voer in de velden informatie over de productieorder en output in.  
-3.  Als de bewerking is voltooid, selecteert u het veld **Voltooid**.  
-4. Kies de actie **Boeken** om de bestede tijd per bewerking te boeken. Capaciteitsposten worden bijgewerkt voor de gebruikte afdelingen of bewerkingsplaatsen.
-
-## <a name="see-also"></a>Zie ook  
-[Productie](production-manage-manufacturing.md)    
+[Uitval handmatig boeken](production-how-to-post-scrap.md)
+[Outputboeking tegenboeken](production-how-to-reverse-output-posting.md)
+[Productie](production-manage-manufacturing.md)
 [Productie instellen](production-configure-production-processes.md)  
-[Gepland](production-planning.md)      
+[Gepland](production-planning.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

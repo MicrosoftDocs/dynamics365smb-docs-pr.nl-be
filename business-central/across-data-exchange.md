@@ -1,28 +1,28 @@
 ---
-title: Elektronische documenten in Business Central | Microsoft Docs
-description: Inleiding in het verzenden en ontvangen van elektronische documenten in Business Central.
+title: Elektronische documenten in Business Central
+description: Dit is een overzicht van hoe u het raamwerk voor gegevensuitwisseling kunt gebruiken voor het beheren van de uitwisseling van gegevens in bedrijfsdocumenten, zoals bankbestanden en valutawisselkoersen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 01/30/2020
-ms.author: sgroespe
-ms.openlocfilehash: ac4060caf413245720c01d55e7ebf809d973a647
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.date: 06/10/2021
+ms.author: edupont
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999843"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588388"
 ---
 # <a name="exchanging-data-electronically"></a>Gegevens elektronisch uitwisselen
 U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het beheren van de uitwisseling van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden met uw zakelijke partners.
 
-In de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt het raamwerk voor gegevensuitwisseling gebruikt in functies, zoals elektronische documenten, het importeren en exporteren van bankbestanden en het bijwerken van wisselkoersen. Zie voor meer informatie [Over het raamwerk voor gegevensuitwisseling](across-about-the-data-exchange-framework.md).
+In de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt het raamwerk voor gegevensuitwisseling gebruikt in processen, zoals uitwisseling van elektronische documenten, het importeren en exporteren van bankbestanden en het bijwerken van wisselkoersen voor valuta's. Zie voor meer informatie [Over het raamwerk voor gegevensuitwisseling](across-about-the-data-exchange-framework.md).
 
-Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefuncties gebruiken door in te stellen welke gegevens moeten worden uitgewisseld en hoe. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.
+Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefuncties gebruiken door op te geven welke gegevens moeten worden uitgewisseld en hoe. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.  
 
@@ -39,3 +39,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Gegevens uitwisselen](across-exchange-data.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

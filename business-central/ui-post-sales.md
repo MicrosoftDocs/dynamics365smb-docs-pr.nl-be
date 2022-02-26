@@ -1,32 +1,36 @@
 ---
-title: Verkoopdocumenten boeken | Microsoft Docs
+title: Verkoopdocumenten boeken
 description: Meer informatie over de verschillende boekingsfuncties om verkoopdocumenten te boeken en hoe u geboekte documenten kunt bijwerken.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 01/17/2020
-ms.author: sgroespe
-ms.openlocfilehash: e6dfedea8f6266186f2a2e380cea74ab6b9404bf
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.search.form: 130, 142, 1350
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: ad339f8efb14cd3c4649a4cde46d882c8e69aed5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992133"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012695"
 ---
 # <a name="posting-sales"></a>Verkopen boeken
+
 In het menu **Boeken** in een verkoopdocument kunt u kiezen uit de volgende boekingsfuncties:
 
 * **Boeken**
 * **Boeken en nieuw**
 * **Boeken en verzenden**
 * **Voorbeeld van boeking weergeven**
-* **Conceptfactuur**
-* **Pro-formafactuur**
+* **Batchboeken**
 * **Testrapport**
+
+> [!NOTE]
+> Voor verkooporders kunt u ook opties zien met betrekking tot de vooruitbetalingsfunctionaliteit. Zie voor meer informatie [Vooruitbetalingen factureren](finance-invoice-prepayments.md).
 
 Wanneer u alle regels hebt ingevuld en alle informatie hebt ingevoerd op de verkooporder, kunt u de order boeken. Hiermee worden een verzending en een factuur gemaakt.
 
@@ -36,26 +40,30 @@ Voor elke verkooporder wordt een verkooppost gemaakt in de tabel **Grootboekpost
 
 Voor elke verkooporderregel wordt een artikelpost gemaakt in de tabel **Artikelpost** (als de verkoopregels artikelnummers bevatten) of wordt een grootboekpost gemaakt in de tabel **Grootboekpost** (als de verkoopregels een grootboekrekening bevatten). Daarnaast worden verkooporders altijd geregistreerd in de tabellen **Verkoopverzendkop** en **Verkoopfactuurkop**.
 
-> [!IMPORTANT]  
->   Wanneer u een order boekt, kunt u zowel een verzending als een factuur maken. Deze kunnen tegelijk of afzonderlijk worden uitgevoerd. U kunt ook een gedeeltelijke verzending en een gedeeltelijke factuur maken door de velden **Te verzenden aantal** en **Te factureren aantal** op de afzonderlijke verkooporderregels in te vullen voordat u de boeking uitvoert. U kunt geen factuur maken voor iets wat niet is verzonden. U kunt dus pas factureren nadat u een verzending hebt geregistreerd, of u moet ervoor kiezen om tegelijkertijd te verzenden en factureren.
+[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
-U kunt de optie Boeken of Boeken en afdrukken kiezen. Als u ervoor kiest om te boeken en af te drukken, wordt een lijst afgedrukt nadat de order is geboekt. U kunt ook de functie **Batchboeken** kiezen, waarmee u verschillende orders tegelijkertijd kunt boeken. Zie voor meer informatie [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md).
+U kunt boeken of boeken en verzenden. Als u ervoor kiest om te boeken en te verzenden, wordt er een pdf-bestand gegenereerd dat u vervolgens kunt verzenden. U kunt ook de functie **Batchboeken** kiezen, waarmee u verschillende orders tegelijkertijd kunt boeken. Zie voor meer informatie [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md).
 
 ## <a name="viewing-ledger-entries"></a>Posten bekijken
+
 Na de boeking worden de geboekte verkoopregels verwijderd uit de order. Er verschijnt een bericht als de boeking is voltooid. Hierna kunt u de geboekte posten bekijken op de verschillende pagina's die geboekte posten bevatten, zoals de pagina's **Klantposten**, **Grootboekposten**, **Artikelposten**, **Geboekte verkoopverzendingen** en **Geboekte verkoopfacturen**.  
 
 In de meeste gevallen kunt u posten openen vanaf de betrokken kaart of het betreffende document. Kies bijvoorbeeld op de pagina **Klantenkaart** de actie **Posten**.
 
 ## <a name="editing-ledger-entries"></a>Posten bewerken
+
 U kunt bepaalde velden in geboekte inkoopdocumenten bewerken, zoals het **Traceringsnummer (zending)**. veld. Zie voor meer informatie [Geboekte documenten bewerken](across-edit-posted-document.md). Voor kritiekere velden die van invloed zijn op het controlespoor, moet u het boeken omkeren of ongedaan maken. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
+
 [Verkoop](sales-manage-sales.md)  
 [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md)  
 [Geboekte documenten bewerken](across-edit-posted-document.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md)  
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

@@ -1,21 +1,21 @@
 ---
-title: 'Ontwerpdetails: Vraag en aanbod afstemmen | Microsoft Docs'
-description: Om te begrijpen hoe het planningssysteem werkt, is het noodzakelijk om de prioriteitsdoelen van het planningssysteem te begrijpen. De belangrijkste hiervan zijn om te zorgen dat aan eventuele vraag wordt voldaan door voldoende aanbod en dat elk aanbod een doel dient.
+title: 'Ontwerpdetails: Vraag en aanbod afstemmen'
+description: Om te begrijpen hoe het planningssysteem werkt, is het noodzakelijk om de prioriteitsdoelen van het planningssysteem te begrijpen, die worden bereikt door het afstemmen van aanbod op vraag.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185720"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442522"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Ontwerpdetails: Vraag en aanbod afstemmen
 Om te begrijpen hoe het planningssysteem werkt, is het noodzakelijk om de prioriteitsdoelen van het planningssysteem te begrijpen. De belangrijkste hiervan zijn om te zorgen dat:  
@@ -43,7 +43,7 @@ Om te begrijpen hoe het planningssysteem werkt, is het noodzakelijk om de priori
 
    Het doel van het planningsmechanisme is om vraag en voorziening van een artikel op elkaar af te stemmen om te zorgen dat de voorziening voldoet aan de vraag op een haalbare manier zoals wordt bepaald door de planningsparameters en -regels.  
 
-   ![Overzicht van vraag- en aanbodafstemming](media/nav_app_supply_planning_2_balancing.png "Overzicht van vraag- en aanbodafstemming")
+   ![Overzicht van vraag- en aanbodafstemming.](media/nav_app_supply_planning_2_balancing.png "Overzicht van vraag- en aanbodafstemming")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Werken met orders voor de geplande begindatum
 Om te voorkomen dat een voorzieningenplan onmogelijke en daarom nutteloze voorstellen toont, beschouwt het planningssysteem de periode tot de begindatum van de planning als een vaste zone waarvoor niets wordt gepland. De volgende regel geldt voor de vaste zone:  
@@ -291,3 +291,6 @@ Hiermee worden de omschrijvingen afgerond van hoe vraag en voorzieningen worden 
  [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)   
  [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
  [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

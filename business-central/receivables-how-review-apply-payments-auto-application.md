@@ -3,29 +3,29 @@ title: Automatisch vereffende betalingen verifiëren en betalingen handmatig opn
 description: Nadat betalingen automatisch zijn toegepast, kunt u alle posten voor een betaling controleren en handmatig de posten die verkeerd zijn vereffend, opnieuw vereffenen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e37d9ab5aae53ef0e6af6e04a0d94077569e62a3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: dce6cdfdf70d968ae06c88ad4d567ad5cde803dd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191967"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443253"
 ---
-# <a name="review-or-apply-payments-manually-after-automatic-application"></a>Betalingen na automatische vereffening handmatig controleren of vereffenen
+# <a name="review-and-apply-payments-manually-after-automatic-application"></a>Betalingen na automatische vereffening handmatig controleren en vereffenen
 Voor elke dagboekregel die een betaling vertegenwoordigt op de pagina **Dagboek betalingsreconciliatie** kunt u de pagina **Betalingsvereffening** openen om alle openstaande kandidaatposten voor de betaling te zien en gedetailleerde informatie voor elke post weer te geven over de gegevensafstemming waarop een betalingsvereffening wordt gebaseerd. Hier kunt u handmatig betalingen vereffenen of betalingen die automatisch met een verkeerde post zijn vereffend, opnieuw vereffenen. Zie [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md) voor meer informatie over automatische vereffening.
 
 > [!IMPORTANT]  
->   Wanneer de bankrekening waarvoor u betalingen reconcilieert, is ingesteld voor de lokale valuta, bevat de pagina **Betalingsvereffening** alle openstaande posten in de lokale valuta, inclusief openstaande posten voor documenten die oorspronkelijk in vreemde valuta's zijn gefactureerd. Betalingen die worden vereffend met posten met omgerekende valuta's, kunnen daarom worden geboekt met andere bedragen dan op het oorspronkelijke document, vanwege de mogelijk verschillende wisselkoersen die worden gebruikt door de bank dan wel [!INCLUDE[d365fin](includes/d365fin_md.md)].
+>   Wanneer de bankrekening waarvoor u betalingen reconcilieert, is ingesteld voor de lokale valuta, bevat de pagina **Betalingsvereffening** alle openstaande posten in de lokale valuta, inclusief openstaande posten voor documenten die oorspronkelijk in vreemde valuta's zijn gefactureerd. Betalingen die worden vereffend met posten met omgerekende valuta's, kunnen daarom worden geboekt met andere bedragen dan op het oorspronkelijke document, vanwege de mogelijk verschillende wisselkoersen die worden gebruikt door de bank dan wel [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Daarom is het raadzaam dat u controleert op vreemde valutacodes in het veld **Valutacode** op de pagina **Betalingsvereffening** om te zien of vereffeningen zijn gebaseerd op omgezette valuta's. Als u het oorspronkelijke documentbedrag in de buitenlandse valuta wilt controleren en de gebruikte wisselkoers wilt zien, kiest u het veld **Vereffenen met postnr.** en kiest u in het snelmenu de knop Drilldown om de pagina **Customer Ledger Klantenposten** of **Leveranciersposten** te openen.
 
-Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet automatisch afgehandeld door [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet automatisch afgehandeld door [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]  
 >   U kunt geen posten vereffenen met een ander teken dan het teken voor de betaling. Als u bijvoorbeeld zowel een creditnota met een negatief teken als de gerelateerde factuur met een positief teken wilt afsluiten, moet u eerst de creditnota vereffenen met de factuur, en vervolgens de betaling vereffenen met de factuur met het verminderde restbedrag.
@@ -37,7 +37,7 @@ Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet au
 >   U kunt een betaling slechts met één rekening vereffenen. Als u de vereffening over meerdere openstaande posten wilt splitsen, bijvoorbeeld om een betaling ineens te vereffenen, moeten de openstaande posten voor dezelfde rekening zijn. Zie voor meer informatie stap 7 en 8 in de procedure in dit onderwerp.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Betalingen na automatische vereffening controleren of vereffenen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsreconciliatiedagboeken** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open het betalingreconciliatiedagboek voor een bankrekening waarvoor u betalingen wilt reconciliëren. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 3. Op de pagina **Dagboek betalingsreconciliatie** selecteert u een betaling die u wilt controleren of handmatig vereffenen met een of meer openstaande posten. Vervolgens kiest u de actie **Handmatig vereffenen**.
 4. Schakel het selectievakje **Vereffend** in op de regel voor de openstaande post waarmee u de betaling wilt vereffenen.
@@ -52,4 +52,7 @@ De pagina **Betalingsvereffening** wordt gesloten en op de pagina **Dagboek beta
 ## <a name="see-also"></a>Zie ook
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

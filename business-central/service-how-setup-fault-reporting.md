@@ -1,31 +1,29 @@
 ---
-title: Probleemrapportage instellen in CRM - Service | Microsoft Docs
-description: Leer hoe u processen voor probleemrapportage instelt.
-services: project-madeira
-documentationcenter: ''
+title: Foutrapportage instellen in servicebeheer
+description: Met foutrapportage kunt u standaarden instellen voor het vastleggen van foutgegevens voor serviceartikelen met foutcodes en meer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 8c3d770f1ee6e0c50439f5d0a4591c463b91631a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: b3563d840976b6a3c586e5a75a2f76379e8c5526
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316200"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440140"
 ---
 # <a name="set-up-fault-reporting"></a>Foutrapportage instellen
 Met probleemrapportage kunt u standaarden voor het vastleggen van probleemgegevens voor service-items bepalen. U kunt bijvoorbeeld opgeven wat het probleem is, welke symptomen u ziet, wat de oorzaak van het probleem is en hoe het probleem moet worden verholpen.  
 
-Met probleemcodes worden de veelvoorkomende serviceartikelproblemen of ondernomen acties met betrekking tot serviceartikelen beschreven. Afhankelijk van het niveau van probleemrapportage in het bedrijf, moet u wellicht probleemgebiedcodes en symptoomcodes instellen voordat u probleemcodes instelt. Met probleemgebieden worden gebieden van serviceartikelproblemen beschreven. Met probleemoorzaakcodes kan de oorzaak voor serviceartikelproblemen worden omschreven en kan zo nodig worden aangegeven of garantie- en contractkortingen moeten worden uitgesloten. U kunt bijvoorbeeld garantie- en contractkortingen uitsluiten wanneer de klant op enige manier verantwoordelijk is voor het serviceartikelprobleem. U wijst probleemoorzaakcodes toe aan serviceorders. Zie voor meer informatie [Werken aan servicetaken](service-how-to-work-on-service-tasks.md).  
+Met probleemcodes worden de veelvoorkomende serviceartikelproblemen of ondernomen acties met betrekking tot serviceartikelen beschreven. Afhankelijk van het niveau van probleemrapportage in het bedrijf, moet u wellicht probleemgebiedcodes en symptoomcodes instellen voordat u probleemcodes instelt. Met foutgebieden worden fouten met serviceartikelen beschreven. Met probleemoorzaakcodes kan de oorzaak voor serviceartikelproblemen worden omschreven en kan zo nodig worden aangegeven of garantie- en contractkortingen moeten worden uitgesloten. U kunt bijvoorbeeld garantie- en contractkortingen uitsluiten wanneer de klant op enige manier verantwoordelijk is voor het serviceartikelprobleem. U wijst probleemoorzaakcodes toe aan serviceorders. Zie voor meer informatie [Werken aan servicetaken](service-how-to-work-on-service-tasks.md).  
 
-## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Het algemene probleemrapportageniveau voor gebruik opgeven
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Service-instellingen** in en kies vervolgens de gerelateerde koppeling.
+## <a name="to-specify-the-overall-level-of-fault-reporting"></a>Het algemene foutrapportageniveau opgeven
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Service-instellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het veld **Probleemrapportageniveau** een van de opties die in de volgende tabel worden beschreven.  
 
     |**Probleemniveau**|**Beschrijving**|  
@@ -41,11 +39,14 @@ Ten slotte kunt u bij het instellen van probleemrapportage ook opgeven welke rep
 <!--this needs to go in a working with topic-->
  Als u de veelgebruikte herstelmethoden voor bepaalde artikelproblemen wilt bekijken wanneer u service voor de artikelen uitvoert, moet u gegevens over relaties tussen probleem- en oplossingscodes instellen. Met de batchtaak **Rel. probleem-/oplossingscodes invoegen** kunt u alle combinaties van probleem- en oplossingscodes in geboekte serviceorders zoeken en deze vastleggen op de pagina **Rel. probleem-/oplossingscodes**.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rel. probleem-/oplossingscodes invoegen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") Voer **Rel. probleem-/oplossingscodes invoegen** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer datums in om de periode op te geven die u in de batchverwerking wilt opnemen.  
 3. Schakel het selectievakje **Relatie op basis van serviceartikelgroep** in als u de relaties wilt rangschikken op serviceartikelgroep.  
 4. Schakel het selectievakje **Handmatig ingevoegde records behouden** in als u de records wilt bewaren die u handmatig op de pagina **Rel. probleem-/oplossingscodes** hebt ingevoegd.  
 
 ## <a name="see-also"></a>Zie ook
 [CRM - Service instellen](service-setup-service.md)  
-[CRM - Service](service-service.md)  
+[Servicebeheer](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

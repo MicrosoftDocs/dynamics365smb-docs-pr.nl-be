@@ -1,21 +1,21 @@
 ---
-title: Picken voor interne bewerkingen in geavanceerde magazijnconfiguraties | Microsoft Docs
-description: In geavanceerde magazijnconfiguraties waarbij de locatie is ingesteld voor het gebruik van picken en verzending, kunt u componenten voor productie- en assemblageactiviteiten kiezen via de pagina **Magazijnpick**.
+title: Picken voor interne bewerkingen in geavanceerde magazijnconfiguraties
+description: Als uw locaties zowel picking als verzending gebruiken, pickt u componenten voor productie- en assemblageactiviteiten op de pagina Magazijnpick.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f14033311acdca8819d6dcb585195018ebea6c0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192995"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445784"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Picken voor assemblage of productie in geavanceerde magazijnconfiguraties
 In geavanceerde magazijnconfiguraties waarbij de locatie is ingesteld voor het gebruik van picken en verzending, kunt u componenten voor productie- en assemblageactiviteiten kiezen via de pagina **Magazijnpick**.  
@@ -40,7 +40,7 @@ Als u een pick-verzoek wilt maken, bij zowel een pull- als een push-scenario, mo
 |Assemblageorder|Status wijzigen in Vrijgegeven.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Onderdelen picken op basis van het pickvoorstel  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Magazijndocumenten ophalen** en selecteer vervolgens de onderdeelregels van de vrijgegeven productieorder.  
 3.  Inspecteer en sorteer de regels om een efficiënte pickronde samen te stellen en combineer ze eventueel met andere voorstelregels zodat de werknemer zo min mogelijk tijd nodig heeft.  
 4.  Kies de actie **Pick maken**.  
@@ -52,7 +52,7 @@ Indien het gebied voor interne activiteit, zoals een productie-shopfloor, een st
 ## <a name="filling-the-consumption-bin"></a>De verbruiksopslaglocatie vullen
 In dit stroomdiagram wordt weergegeven hoe het veld **Opslaglocatie** op de productieordercomponentregels wordt ingevuld op basis van uw locatie-instellingen.
 
-![Stroomdiagram Opslaglocatie](media/binflow.png "BinFlow")  
+![Stroomdiagram Opslaglocatie.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Zie ook
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
@@ -60,4 +60,7 @@ In dit stroomdiagram wordt weergegeven hoe het veld **Opslaglocatie** op de prod
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

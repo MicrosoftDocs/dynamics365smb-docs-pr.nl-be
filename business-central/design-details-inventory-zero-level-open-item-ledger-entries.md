@@ -1,24 +1,24 @@
 ---
-title: artikelposten openen
-description: Informatie lezen waarom het voorraadniveau nul is hoewel er open artikelposten bestaan.
+title: Voorraad nul openstaande posten in het grootboek
+description: Dit artikel bespreekt een probleem waarbij het voorraadniveau nul is, hoewel er openstaande artikelposten bestaan.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185216"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445007"
 ---
 # <a name="design-details-known-item-application-issue"></a>Ontwerpdetails: bekend probleem met artikelvereffening
-Dit artikel bespreekt een probleem waarbij het voorraadniveau nul is, hoewel er openstaande artikelposten bestaan [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dit artikel bespreekt een probleem waarbij het voorraadniveau nul is, hoewel er openstaande artikelposten bestaan [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Het artikel begint met een overzicht van typerende symptomen van het probleem, gevolgd door de basis van artikelvereffening om de beschreven redenen van dit probleem te ondersteunen. Aan het eind van het artikel is een oplossing voor dergelijke openstaande artikelposten.  
 
@@ -54,7 +54,7 @@ Het artikel begint met een overzicht van typerende symptomen van het probleem, g
 
  Het volgende diagram toont hoe aantalvereffeningen worden gemaakt.  
 
-![Stroom van kostenaanpassing van aankoop tot verkoop](media/helene/TechArticleInventoryZero2.png "Stroom van kostenaanpassing van aankoop tot verkoop")
+![Stroom van kostenaanpassing van aankoop tot verkoop.](media/helene/TechArticleInventoryZero2.png "Stroom van kostenaanpassing van aankoop tot verkoop")
 
  Hierboven is artikelpost 1 (Inkoop) zowel de leverancier van het artikel als de kostenbron voor de vereffende artikelpost, artikelpost 2 (Verkoop).  
 
@@ -78,7 +78,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Het volgende diagram illustreert de kostenstroom.  
 
-![Stroom van kostenaanpassing van verkoop tot verkoopretour](media/helene/TechArticleInventoryZero4.png "Stroom van kostenaanpassing van verkoop tot verkoopretour")
+![Stroom van kostenaanpassing van verkoop tot verkoopretour.](media/helene/TechArticleInventoryZero4.png "Stroom van kostenaanpassing van verkoop tot verkoopretour")
 
  Hierboven worden de kosten doorgestuurd naar artikelpost 2 (Verkoop), vervolgens naar artikelpost 3 (Verkoopretour) en uiteindelijk naar artikelpost 4 (Verkoop 2).  
 
@@ -91,7 +91,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Het volgende diagram illustreert hoe artikelvereffeningen in beide scenario's worden uitgevoerd.  
 
-![De stroom van kostenaanpassing gaat in beide richtingen](media/helene/TechArticleInventoryZero6.png "De stroom van kostenaanpassing gaat in beide richtingen")  
+![De stroom van kostenaanpassing gaat in beide richtingen.](media/helene/TechArticleInventoryZero6.png "De stroom van kostenaanpassing gaat in beide richtingen")  
 
  Er wordt een kostenvereffening gemaakt (vertegenwoordigd door de blauwe pijlen) om te zorgen dat artikelpost 2 (Verkoopretour) dezelfde kosten toegewezen krijgt als de artikelpost die ermee wordt tegengeboekt, artikelpost 1 (Verkoop 1). Echter, een aantalvereffening (vertegenwoordigd door de rode pijlen) wordt niet uitgevoerd.  
 
@@ -133,7 +133,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
      |Postnr.|Artikelpostnr.|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|Boekingsdatum|Vereffeningskosten|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|28-01-2018|Ja|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Hierboven wordt inkomende artikelpost 334 kostenvereffend met uitgaande artikelpost 333.  
 
@@ -151,3 +151,6 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)   
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
-title: Automatische vereffening gebruiken om betalingen te reconciliëren | Microsoft Docs
-description: Op de pagina Regels betalingsvereffening stelt u de regels in die bepalen hoe betalingen/banktransacties automatisch moeten worden vereffend met de gerelateerde openstaande dagboekposten wanneer u de functie Automatisch vereffenen gebruikt in het venster Betalingsreconciliatiedagboek.
+title: Regels voor automatische vereffening van betalingen
+description: Lees over het instellen van regels voor de automatische vereffening van betalingen op de pagina Regels betalingsvereffening.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 6eb37cbe2c4891c35b24a3ae7517add73669a2ac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191943"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971287"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Regels instellen voor automatische vereffening van betalingen
-Op de pagina **Regels betalingsvereffening** stelt u regels in om te bepalen hoe betalingstekst (bij een banktransactie) automatisch wordt afgestemd op tekst op openstaande posten in de volgende twee processen:
-- Betalingen automatisch vereffenen met de gerelateerde openstaande (onbetaalde) facturen, creditnota's of andere posten wanneer u de functie **Automatisch vereffenen** gebruikt in het venster **Betalingsreconciliatiedagboek**. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
-- Stem banktransacties automatisch af op de gerelateerde, interne bankrekeningposten wanneer u de actie **Automatisch afstemmen** op de pagina **Bankreconciliatie** kiest. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.
+Op de pagina **Regels betalingsvereffening** stelt u de regels in die bepalen hoe betalingstekst (op een banktransactie) automatisch moet worden afgestemd met de gerelateerde openstaande (onbetaalde) facturen, creditnota's of andere posten wanneer u de functie **Automatisch vereffenen** gebruikt in het venster **Betalingsreconciliatiedagboek**. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
 U stelt nieuwe betalingsvereffeningsregels in door te bepalen welke soorten gegevens op een dagboekregel van een betalingsreconciliatie met gegevens op een of meer openstaande posten moeten overeenstemmen voordat de gerelateerde betaling automatisch wordt vereffend met de openstaande posten. De kwaliteit van elke automatische vereffening wordt weergegeven als een waarde van **Laag** tot **Hoog** in het veld **Zekerheid afstemming** op de pagina **Betalingsreconciliatiedagboek** op basis van de regel voor betalingsvereffening die is gebruikt.
 
@@ -38,7 +36,7 @@ Behalve de afstemmingscriteria is het volgende van toepassing met betrekking tot
 - Voor positieve bedragen wordt eerst een afstemming uitgevoerd met openstaande posten die leveranciersfacturen vertegenwoordigen en dan met creditnota's van klanten.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Een betalingsvereffeningsregel instellen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Regels betalingsvereffening** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Regels betalingsvereffening** in en kies vervolgens de gerelateerde koppeling.
 2. Definieer een nieuwe of bewerkte betalingsvereffeningsregel door de velden op een regel in te vullen, zoals beschreven in de volgende tabel.
 
 |Veld|Omschrijving|
@@ -48,11 +46,12 @@ Behalve de afstemmingscriteria is het volgende van toepassing met betrekking tot
 |**Gerelateerde partij afgestemd**|Geeft op hoeveel gegevens over de klant of leverancier, zoals adres, plaats en bankrekeningnummer, op de dagboekregel van de betalingsreconciliatie met gegevens op de openstaande post moeten overeenkomen voordat de vereffeningsregel wordt gebruikt om de betaling automatisch te vereffenen met de openstaande post.|
 |**Doc.nr./extern documentnr. afgestemd**|Hiermee wordt opgegeven of tekst op de regel van het betalingsreconciliatiedagboek moet overeenkomen met de waarde in het veld **Documentnummer** of het veld **Extern documentnummer** in de openstaande post voordat de vereffeningsregel wordt gebruikt om de betaling automatisch met de openstaande post te vereffenen.|
 |**Bedrag incl. tolerantie afgestemd**|Geeft aan hoeveel posten voor een klant of leverancier moeten overeenkomen met het bedrag inclusief betalingstolerantie voordat de vereffeningsregel wordt gebruikt om automatisch een betaling toe te passen op de openstaande post.|
+|**Controle vereist**|Geeft aan of de automatische betalingstoepassing wordt aanbevolen voor handmatige beoordeling door de gebruiker voordat wordt gepost. Het kiezen van het veld **Te controleren regels** veld op de pagina **Betalingsvereffeningsjournaal** start een begeleide ervaring waarin u gemakkelijk meerdere vereffeningen achter elkaar kunt beoordelen op de pagina **Controle van betalingsvereffening**.|
 
-De volgende tabel laat zien welke betalingsvereffeningsregels zijn ingesteld in de algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)].
+De volgende tabel beschrijft de standaardregels voor betalingsvereffening in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
-> De regels voor betalingsvereffening kunnen in uw implementatie van [!INCLUDE[d365fin](includes/d365fin_md.md)] verschillen.
+> De regels voor betalingsvereffening kunnen in uw implementatie van [!INCLUDE[prod_short](includes/prod_short.md)] verschillen.
 
 | Zekerheid afstemming | Prioriteit | Gerelateerde partij afgestemd | Doc.nr./extern documentnr. Afgestemd | Bedrag incl. tolerantie afgestemd |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -87,4 +86,7 @@ De volgende tabel laat zien welke betalingsvereffeningsregels zijn ingesteld in 
 [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

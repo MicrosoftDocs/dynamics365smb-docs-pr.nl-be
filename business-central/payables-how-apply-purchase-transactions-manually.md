@@ -1,23 +1,22 @@
 ---
-title: Leveranciersbetalingen reconciliëren met het betalingsdagboek of vanuit leveranciersposten | Microsoft Docs
+title: Betalingsontvangsten of terugbetalingen van leveranciers reconciliëren in het betalingsjournaal
 description: Als u leveranciersbetalingen of terugbetalingen handmatig wilt verwerken, vereffent u het bedrag met een of meer openstaande leveranciersposten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: b77f9a9685d78f58a9af2e6c3c6279c04ad79518
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.form: 62, 233, 522, 623
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 2be99ab30035a96d7c7d631caa84276d50a42b3e
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253873"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953296"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Leveranciersbetalingen reconciliëren met het betalingsdagboek of vanuit leveranciersposten
 Wanneer u een betaling of terugbetaling van een leverancier ontvangt, moet u beslissen of u de betaling of terugbetaling vereffent met een of meer openstaande posten. U kunt het exacte bedrag opgeven waarmee u de betalingsontvangst of terugbetaling wilt vereffenen, en de leveranciersposten vervolgens slechts gedeeltelijk vereffenen. U moet alle leveranciersposten vereffenen om correcte leverancierstatistieken en -rapporten te verkrijgen van de rekeningoverzichten en rentefacturen.
@@ -39,7 +38,7 @@ U kunt leveranciersbetalingen handmatig op de gerelateerde inkoopdocumenten toep
 U kunt ook leveranciersbetalingen en klantbetalingen vereffenen nadat de betalingen worden weergegeven als negatieve banktransacties bij uw bank. Op de pagina **Dagboek betalingsreconciliatie** kunt u functies voor het importeren van bankafschriften, automatische vereffening en bankrekeningvereffening gebruiken. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Een betaling vereffenen met een of meer leveranciersposten
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Voer op de pagina **Betalingsdagboek** op de eerste dagboekregel de betreffende gegevens over de betalingspost in.
 3. Eén leverancierspost vereffenen:
    1. Selecteer in het veld **Vereffeningsnr.** het veld voor het openen van de pagina **Leveranciersposten vereffenen**.
@@ -57,7 +56,7 @@ U kunt ook leveranciersbetalingen en klantbetalingen vereffenen nadat de betalin
 6. Kies de actie **Boeken** om het betalingsdagboek te boeken.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Een creditnota vereffenen met een of meer leveranciersposten:
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopcreditnota** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopcreditnota** in en kies vervolgens de gerelateerde koppeling.
 2. Open de creditnota die u wilt vereffenen.
 3. Voer de betreffende gegevens in de kop in.
 4. Als u een enkele leverancierspost wilt vereffenen, selecteert u op het sneltabblad **Vereffening** in het veld **Vereffeningsnr.**, de post waarmee u het krediet wilt vereffenen. In het veld **Te vereffenen bedrag** voert u vervolgens het bedrag in waarmee de post moet worden vereffend.
@@ -74,7 +73,7 @@ U kunt ook leveranciersbetalingen en klantbetalingen vereffenen nadat de betalin
 7. Kies de knop **Boeken** om de inkoopcreditnota te boeken.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Geboekte leveranciersposten vereffenen
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de betreffende leverancier met posten die reeds zijn geboekt.
 3. Kies de actie **Posten** en kies vervolgens de actie **Posten vereffenen**.
 4. Op de pagina **Leveranciersposten vereffenen** ziet u de openstaande posten voor de leverancier.
@@ -95,7 +94,7 @@ Als u van een leverancier koopt in de ene valuta en betaalt in de andere, kunt u
 
 Als u een post (Post 1) in de ene valuta vereffent met een post (Post 2) in een andere valuta, wordt de boekingsdatum van Post 1 gebruikt om de juiste wisselkoers te bepalen voor de conversie van de bedragen van Post 2. De juiste wisselkoers wordt opgezocht op de pagina **Valutawisselkoersen**. In dat geval moet u vereffening van leveranciersposten in verschillende valuta's inschakelen. Zie voor meer informatie [Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Open het journaal dat u wilt gebruiken en vul de eerste lege dagboekregel in met een valutacode.
 3. Kies de actie **Posten vereffenen**.
 4. Selecteer de regel met de post waarmee u de post in het betalingsdagboek wilt vereffenen, kies de actie **Id toekennen** en selecteer vervolgens de post waarmee u wilt vereffenen.
@@ -108,7 +107,7 @@ Als u een post (Post 1) in de ene valuta vereffent met een post (Post 2) in een 
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>De vereffening van leveranciersposten ongedaan maken
 Als u een verkeerde vereffening ongedaan maakt, worden er stornoposten gemaakt die identiek zijn aan de oorspronkelijke post maar met een tegengesteld teken in het bedragveld, en geboekt voor alle posten, inclusief alle GB-boekingen die uit de vereffening voortkomen zoals contantkortingen en valutawinst- en verlies. De posten die waren afgesloten door de toepassing, worden heropend.
 
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende leverancierskaart.
 3. Kies de actie **Posten**.
 4. Selecteer de betreffende post en kies de actie **Vereffening posten ongedaan maken**.
@@ -122,4 +121,7 @@ Als u een verkeerde vereffening ongedaan maakt, worden er stornoposten gemaakt d
 ## <a name="see-also"></a>Zie ook
 [Schulden](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

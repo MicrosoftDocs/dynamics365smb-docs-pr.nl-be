@@ -1,19 +1,19 @@
 ---
-title: Wettelijke waarschuwingen indienen | Microsoft Docs
-description: Als u informatie hebt over nieuwe wetgeving die u denkt functieondersteuning nodig te hebben in Business Central, kunt u deze gids volgen om een wettelijke waarschuwing in te dienen bij het productteam.
+title: Wettelijke waarschuwingen indienen
+description: Als u informatie hebt over nieuwe wetgeving die functieondersteuning nodig heeft in Business Central, kunt u deze gids volgen om een wettelijke waarschuwing in te dienen bij het productteam.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: 349c930a5103814d6d7befc3a4e8135bc92081b0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192159"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319993"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Waarschuwingen verzenden over land/regio-specifieke wettelijke functies
 
@@ -52,7 +52,7 @@ We nodigen u uit Microsoft Dynamics Lifecycle Services (LCS) te gebruiken om wet
         |Description  | Voer een kort overzicht van de wet in. Uw omschrijving moet zich richten op problemen die relevant zijn voor Enterprise Resource Planning (ERP), zodat gebruikers de vereisten op een hoog niveau begrijpen zonder eerst de wetgeving te lezen.|
         |Land  | Geef het land of de regio op waarop de wetgeving van toepassing is.|
         |Sector| Geef de branche op als de vereiste alleen op bepaalde branches van toepassing is. Kies bijvoorbeeld **Openbare sector**, **Detailhandel** of **Productie**.|
-        |Functiereferentie  | Dit is niet relevant voor Dynamics 365 Business Central, maar u kunt een functiereferentie invoeren, als u deze kent. De lijst van functies voor het specifieke land kan worden gevonden in de [Lokalisatieportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) op de CustomerSource-site. |
+        |Functiereferentie  | Dit is niet relevant voor Dynamics 365 Business Central, maar u kunt een functiereferentie invoeren, als u deze kent. De lijst van functies voor het specifieke land/regio kan worden gevonden in de [Lokalisatieportal](/dynamics/s-e/) op de CustomerSource-site. |
         |Datum van wetgeving  | Geef de datum op waarop betrokken klanten moeten beginnen te voldoen aan de wet.|
         |Datum van overheidsaankondiging  | Geef de datum op waarop de autoriteit de wijziging aankondigde.|
         |Laatste archiveringsdatum  | Selecteer de deadline voor de eerste indiening van het nieuwe of gewijzigde rapport.|
@@ -74,9 +74,12 @@ We nodigen u uit Microsoft Dynamics Lifecycle Services (LCS) te gebruiken om wet
 
 ## <a name="see-also"></a>Zie ook
 
-[Lokale functionaliteit in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Taal en landinstellingen wijzigen](about-locale-language.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Welkom bij Business Central](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

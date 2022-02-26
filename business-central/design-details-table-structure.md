@@ -3,19 +3,19 @@ title: 'Ontwerpdetails: Tabelstructuur | Microsoft Docs'
 description: Om te begrijpen hoe de functie voor opslag en boekingen van dimensieposten opnieuw wordt ontworpen, is het belangrijk om de tabelstructuur te begrijpen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 04e9fda4d784f8e1fa049455ddcab989691e821c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 6d418633eb884f0b8cfca2f46fc69103a8fabdb2
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184640"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215740"
 ---
 # <a name="design-details-table-structure"></a>Ontwerpdetails: Tabelstructuur
 Om te begrijpen hoe dimensieposten worden opgeslagen en geboekt, is het belangrijk om de tabelstructuur te begrijpen.  
@@ -181,8 +181,7 @@ Veld 480 bestaat in de volgende buffertabellen.
 |5637|**VA-fin. boekingsbuffer**|  
 |7136|**Buffer artikelbudget**|  
 
-## <a name="see-also"></a>Zie ook  
- [Ontwerpdetails: Dimensiesetposten](design-details-dimension-set-entries.md)   
- [Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)   
- [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Zie ook
+
+[Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)  
+[Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)   

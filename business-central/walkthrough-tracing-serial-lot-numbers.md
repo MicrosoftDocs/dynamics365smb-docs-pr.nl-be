@@ -1,92 +1,97 @@
 ---
-title: 'Procedure: Serie-/lotnummers traceren | Microsoft Docs'
-description: Als er productdefecten optreden, moeten de fouten worden opgespoord en de betreffende artikelen mogen het bedrijf niet verlaten. Als er al defecte artikelen zijn geleverd, is het belangrijk om bij te houden wie ze heeft ontvangen, zodat ze zo nodig kunnen worden teruggehaald.
-author: SorenGP
+title: 'Procedure: Serie-/lotnummers traceren'
+description: Dit onderwerp beschrijft de acties die moeten worden ondernomen om te voorkomen dat een defect artikel wordt verkocht, en ook hoe artikelen te traceren en terug te roepen wanneer dat nodig is.
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc2a67623a55026557855b8247bf0565918e3f3c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/24/2021
+ms.author: bholtorf
+ms.openlocfilehash: eff79c853e5976ce85705b790542854e0e2a6ebc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193359"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445113"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procedure: Serie-/lotnummers traceren
 
-**Opmerking**: deze procedure moet op een demonstratiebedrijf worden uitgevoerd met de optie **Volledige evaluatie - volledige voorbeeldgegevens**, dat in de sandboxomgeving beschikbaar is. Zie [Een sandboxomgeving maken](across-how-create-sandbox-environment.md) voor meer informatie.
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Als er productdefecten optreden, moeten de fouten worden opgespoord en de betreffende artikelen mogen het bedrijf niet verlaten. Als er al defecte artikelen zijn geleverd, is het belangrijk om bij te houden wie ze heeft ontvangen, zodat ze zo nodig kunnen worden teruggehaald.  
 
 De eerste taak van defectenbeheer is om te onderzoeken waar de defecte artikelen vandaan zijn gekomen en waar ze zijn gebruikt. Dit onderzoek is gebaseerd op historische gegevens en het wordt vergemakkelijkt als er kan worden gezocht via vermeldingen voor het traceren van artikelen op de pagina **Artikeltracering**.  
 
-De tweede taak van defectenbeheer is vaststellen of de getraceerde artikelen zijn gepland in open documenten zoals niet-geboekte verkooporders of verbruiksdagboeken. Dit werk wordt uitgevoerd op de pagina **Navigeren**. Met de functie Navigeren kunt u naar alle soorten databaserecords zoeken.  
+De tweede taak van defectenbeheer is vaststellen of de getraceerde artikelen zijn gepland in open documenten zoals niet-geboekte verkooporders of verbruiksdagboeken. Dit werk wordt uitgevoerd op de pagina **Posten zoeken**. U kunt de functie Posten zoeken gebruiken om alle soorten databaserecords te zoeken.  
 
-## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
+## <a name="about-this-walkthrough"></a>Informatie over deze procedure
+
 In dit overzicht wordt uitgelegd hoe u kunt achterhalen welke artikelen defect zijn, welke leverancier ze heeft geleverd en waar ze worden gebruikt, zodat deze orders kunnen worden stopgezet of teruggehaald.  
 
 In deze procedure worden de volgende taken beschreven:  
 
--   Traceren van gebruik naar oorsprong.  
--   Traceren van oorsprong naar gebruik.  
--   Zoeken naar alle huidige records waarin het getraceerde serie-/lotnummer voorkomt.  
+- Traceren van gebruik naar oorsprong.  
+- Traceren van oorsprong naar gebruik.  
+- Zoeken naar alle huidige records waarin het getraceerde serie-/lotnummer voorkomt.  
 
-## <a name="roles"></a>Rollen  
+## <a name="roles"></a>Rollen
+
 In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:  
 
--   Kwaliteitscontroleur  
--   Magazijnbeheerder  
--   Orderverwerker  
--   Inkoper  
+- Kwaliteitscontroleur  
+- Magazijnbeheerder  
+- Orderverwerker  
+- Inkoper  
 
-## <a name="prerequisites"></a>Vereisten  
+## <a name="prerequisites"></a>Vereisten
+
 U moet het volgende doen om deze procedure uit te voeren:  
 
--   Het bedrijf [!INCLUDE[d365fin](includes/d365fin_md.md)].  
--   Nieuwe artikelen en diverse bedrijfstransacties maken door [Voorbeeldgegevens voorbereiden](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data) te volgen.  
+- Het bedrijf [!INCLUDE[prod_short](includes/prod_short.md)].  
+<!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Scenario  
+## <a name="story"></a>Scenario
+
 Ricardo, de kwaliteitscontroleur, is bezig met het teruggegeven artikel 1002, een racefiets. De klant, Selangorian Ltd., heeft geklaagd dat het frame gescheurde lasnaden heeft. Kwaliteitscontroletechnici hebben bevestigd dat het frame van de teruggegeven fiets gebreken vertoont. De kwaliteitscontroleur moet nu de volgende dingen vaststellen:  
 
--   Welke partij raceframes vertoont gebreken?  
--   Op welke inkooporder is de defecte partij ontvangen?  
+- Welke partij raceframes vertoont gebreken?  
+- Op welke inkooporder is de defecte partij ontvangen?  
 
 Van de verkoopafdeling weet de kwaliteitscontroleur dat de teruggegeven racefiets, artikel 1002, het serienummer SN1 heeft. Met deze basisinformatie moet hij bepalen waar de voltooide racefiets voor het laatst is gebruikt en dan moet hij deze traceren naar het eerste begin om vast te stellen van welk partijnummer het defecte onderdeel, het frame, afkomstig is.  
 
 Met de resultaten van deze eerste artikeltraceringstaak wordt vastgesteld welke raceframes defect waren en welke leverancier ze heeft geleverd. Daarna, maar binnen hetzelfde algemene traceringsproces, moet de kwaliteitscontroleur alle verkochte racefietsen opzoeken met raceframes uit de defecte partij, zodat deze orders kunnen worden stopgezet of teruggehaald. Ten slotte moet de kwaliteitscontroleur eventuele open documenten opzoeken waarin de defecte partij wordt gebruikt, zodat er geen verdere transacties worden verricht.  
 
-De twee eerste defectenbeheertaken worden uitgevoerd op de pagina **Artikeltracering**. De laatste taak wordt uitgevoerd op de pagina **Navigeren** in integratie met de pagina **Artikeltracering**.  
+De twee eerste defectenbeheertaken worden uitgevoerd op de pagina **Artikeltracering**. De laatste taak wordt uitgevoerd op de pagina **Posten zoeken**, in integratie met de pagina **Artikeltracering**.  
 
-## <a name="prepare-sample-data"></a>Voorbeeldgegevens voorbereiden  
+## <a name="prepare-sample-data"></a>Voorbeeldgegevens voorbereiden
+
 U moet de volgende nieuwe artikelen maken:  
 
--   2000, raceframe: partijspecifieke tracering, onderdeel van 1002  
--   1002, racefiets: serienummerspecifieke tracering  
+- 2000, raceframe: partijspecifieke tracering, onderdeel van 1002  
+- 1002, racefiets: serienummerspecifieke tracering  
 
 Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide artikelen maken.  
 
 ### <a name="to-create-the-items"></a>De artikelen maken  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**.  
-3.  Selecteer in het veld **Nr.** Voer in het veld **2000** in en vul de volgende velden in.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies de actie **Nieuw**.  
+3. Selecteer in het veld **Nr.** Voer in het veld **2000** in en vul de volgende velden in.  
 
     |Omschrijving|Basiseenheid|Dagb. Productboekingsgroep|Btw-productboekingsgroep|Voorraadboekingsgroep|Artikeltraceringscode|  
-    |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
+    |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Raceframe|Per stuk|GRONDSTOF|BTW25|GRONDSTOF|LOTALL|  
 
     > [!NOTE]  
     >  U kunt de basiseenheid invoeren door de knop **Nieuw** te kiezen en vervolgens **PSC** te selecteren op de pagina **Artikeleenheden**.  
 
-4.  Alle andere velden hebben acceptabele standaardgegevens of hoeven niet te worden ingevuld.  
-5.  Kies de knop **OK** om de eerste nieuwe artikelkaart te maken, 2000.  
-6.  Kies **Nieuwe**.  
-7.  Selecteer in het veld **Nr.** Voer in het veld **1002** in en vul de volgende velden in.  
+4. Alle andere velden hebben acceptabele standaardgegevens of hoeven niet te worden ingevuld.  
+5. Kies de knop **OK** om de eerste nieuwe artikelkaart te maken, 2000.  
+6. Kies **Nieuwe**.  
+7. Selecteer in het veld **Nr.** Voer in het veld **1002** in en vul de volgende velden in.  
 
     |Omschrijving|Basiseenheid|Dagb. Productboekingsgroep|Btw-productboekingsgroep|Voorraadboekingsgroep|Aanvullingsmethode|Artikeltraceringscode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
@@ -97,32 +102,33 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Vervolgens moet u de productie-instelling van het artikel definiëren.
 
-9. Voer op het sneltabblad **Aanvulling** de waarde **1000** in het veld **Bew.-plannr.** in.  
-10. Kies het veld **Prod.-stuklijstnr.** en kies vervolgens **Geavanceerd**.  
-11. Kies op de pagina **Productiestuklijst** de eerste regel **1000** en kies vervolgens de actie **Bewerken**.  
-12. Wijzig op de pagina **Productiestuklijst** de waarde in het veld **Status** in **In ontwikkeling**.  
-13. Ga naar een lege regel, voer **2000** in het veld **Nr.** in en voer vervolgens **1** in het veld **Aantal per** in.  
-14. Wijzig de waarde in het veld **Status** terug naar **Gecertificeerd**.  
-15. Kies de knop **OK** om de productiestuklijst in te voegen op de artikelkaart en de pagina **Productiestuklijst** te sluiten.  
+8. Voer op het sneltabblad **Aanvulling** de waarde **1000** in het veld **Bew.-plannr.** in.  
+9. Kies het veld **Prod.-stuklijstnr.** en kies vervolgens **Geavanceerd**.  
+10. Kies op de pagina **Productiestuklijst** de eerste regel **1000** en kies vervolgens de actie **Bewerken**.  
+11. Wijzig op de pagina **Productiestuklijst** de waarde in het veld **Status** in **In ontwikkeling**.  
+12. Ga naar een lege regel, voer **2000** in het veld **Nr.** in en voer vervolgens **1** in het veld **Aantal per** in.  
+13. Wijzig de waarde in het veld **Status** terug naar **Gecertificeerd**.  
+14. Kies de knop **OK** om de productiestuklijst in te voegen op de artikelkaart en de pagina **Productiestuklijst** te sluiten.  
 
     Vervolgens schaft u raceframes van Custom Metals Incorporated aan.  
 
-### <a name="to-purchase-components"></a>Materialen kopen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**.  
-3.  Maak een inkooporder voor de leverancier Custom Metals Incorporated door de volgende regelvelden in te vullen.  
+### <a name="to-purchase-components"></a>Materialen kopen
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling  
+2. Kies de actie **Nieuw**.  
+3. Maak een inkooporder voor de leverancier Custom Metals Incorporated door de volgende regelvelden in te vullen.  
 
     |Artikel|Aantal|Lotnr.|  
-    |----------|--------------|-------------|  
+    |----|--------|-------|  
     |2000|10|LOT1|  
 
-4.  Als u het lotnummer wilt invoeren, kiest u de actie **Artikeltraceringsregels**.  
-5.  Vul op de pagina **Artikeltraceringsregels** de velden **Lotnr.** en **Aantal (Basis)** in en sluit de pagina.  
-6.  Voer in het veld **Factuurnr. leverancier** een waarde in.  
-7.  Kies de actie **Boeken**, selecteer de optie **Ontvangen en factureren** en kies vervolgens de knop **OK**.  
+4. Als u het lotnummer wilt invoeren, kiest u de actie **Artikeltraceringsregels**.  
+5. Vul op de pagina **Artikeltraceringsregels** de velden **Lotnr.** en **Aantal (Basis)** in en sluit de pagina.  
+6. Voer in het veld **Factuurnr. leverancier** een waarde in.  
+7. Kies de actie **Boeken**, selecteer de optie **Ontvangen en factureren** en kies vervolgens de knop **OK**.  
 
     Als volgende, koopt u racingframes van Coolwood Technologies.  
-8.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
+8. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling  
 9. Kies de actie **Nieuw**.
 10. Maak een inkooporder voor de leverancier Coolwood Technologies door de volgende regelvelden in te vullen.  
 
@@ -137,29 +143,30 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Vervolgens maakt u twee racefietsen, SN1 en SN2.  
 
-### <a name="to-produce-end-items"></a>Eindproducten produceren  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies de gerelateerde koppeling.  
-2.  Kies de groep **Nieuw**.  
-3.  Maak een nieuwe vrijgegeven productieorder door de volgende velden in te vullen.  
+### <a name="to-produce-end-items"></a>Eindproducten produceren
 
-    |-|-|-|  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies de groep **Nieuw**.  
+3. Maak een nieuwe vrijgegeven productieorder door de volgende velden in te vullen.  
+
     |Bronnr.|Aantal|Serienr.|  
+    |----------|--------|----------|  
     |1002|2|SN1|  
     |1002|2|SN2|  
 
-4.  Kies de actie **Productieorder vernieuwen** en kies de knop **OK** om de regel in te vullen.  
-5.  Als u de serienummers wilt invoeren, kiest u de actie **Artikeltraceringsregels**.  
-6.  Vul op de pagina **Artikeltraceringsregels** de velden **Serienr.** en **Aantal (Basis)** in en sluit de pagina.  
+4. Kies de actie **Productieorder vernieuwen** en kies de knop **OK** om de regel in te vullen.  
+5. Als u de serienummers wilt invoeren, kiest u de actie **Artikeltraceringsregels**.  
+6. Vul op de pagina **Artikeltraceringsregels** de velden **Serienr.** en **Aantal (Basis)** in en sluit de pagina.  
 
     Vervolgens moet u het verbruik aan racingframes van LOT1 boeken.  
-7.  Op de pagina **Vrijgegeven productieorder** kiest u de actie **Productiedagboek**.  
-8.  Op de pagina **Productiedagboek** selecteert u de verbruiksregel voor artikel 2000 en kiest u de actie **Artikeltraceringsregels**.
+7. Op de pagina **Vrijgegeven productieorder** kiest u de actie **Productiedagboek**.  
+8. Op de pagina **Productiedagboek** selecteert u de verbruiksregel voor artikel 2000 en kiest u de actie **Artikeltraceringsregels**.
 9. Kies op de pagina **Artikeltraceringsregels** het veld **Lotnr.**, kies **LOT1** en klik vervolgens op de knop **OK**.  
 10. Laat alle andere standaardwaarden op de pagina **Productiedagboek** ongewijzigd en kies de actie **Boeken**.  
 
     Maak als volgende nog twee racefietsen, SN3 en SN4.  
 
-11. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven prod.-orders** in en kies de gerelateerde koppeling.  
+11. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
 12. Kies de actie **Nieuw**.  
 13. Maak een nieuwe vrijgegeven productieorder door de volgende velden in de kop in te vullen.  
 
@@ -184,7 +191,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
     Vervolgens gaat u racefietsen verkopen. Eest verkoopt u de racefiets met SN1 aan Selangorian Ltd.  
 
 ### <a name="to-sell-the-end-items"></a>De eindpoducten verkopen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw** en maak vervolgens een verkooporder door de volgende velden in te vullen.  
 
     |Klant|Artikel|Aantal|Serienr.|  
@@ -196,7 +203,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Vervolgens gaat u de racefiets met SN2 aan Cannon Group PLC verkopen.  
 
-5.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
+5.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 6.  Kies de actie **Nieuw** en maak vervolgens een verkooporder door de volgende velden in te vullen.  
 
     |Klant|Artikel|Aantal|Serienr.|  
@@ -208,7 +215,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Ten slotte moet u een paar raceframes afzonderlijk verkopen. Van Terp Kantoorinrichting bestelt ook vier afzonderlijke raceframes voor hun eigen assemblagelijn.  
 
-9. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
+9. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 10. Kies de actie **Nieuw** en maak vervolgens een verkooporder door de volgende velden in te vullen.  
 
     |Klant|Artikel|Aantal|Serienummer|  
@@ -220,13 +227,13 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
     > [!NOTE]  
     >  Boek de laatste verkooporder niet (voor vijf raceframes).  
 
-    Hiermee is de voorbereiding van gegevens voltooid voor het demonstreren van de functies voor het traceren van en navigeren door artikelen.  
+    Hiermee is de voorbereiding van gegevens voltooid voor het demonstreren van de functies Artikeltracering en Posten zoeken.  
 
 ## <a name="tracing-from-usage-to-origin"></a>Traceren van gebruik naar oorsprong  
  Van de verkoopafdeling weet de kwaliteitscontroleur dat de teruggegeven racefiets, artikel 1002, het serienummer SN1 heeft. Met deze basisinformatie kan hij bepalen waar de voltooide racefiets voor het laatst is gebruikt, in dit geval bij de verkoopverzending aan Selangorian Ltd. Vervolgens moet de kwaliteitscontroleur deze traceren naar het eerste begin om vast te stellen van welk partijnummer het defecte frame afkomstig is en welke leverancier deze heeft geleverd.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Vaststellen uit welke partij het defecte frame afkomstig is en wie deze heeft geleverd  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeltracering** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeltracering** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voer op de pagina **Artikeltracering** de tekst **SN1** in het veld **Serienr.-filter** in en voer vervolgens **1002** in het veld **Artikelfilter** in.  
 3.  Laat de standaardinstelling **Met artikeltracering** staan in het veld **Onderdelen weergeven** en houd de standaardtraceringsmethode **Gebruik - oorsprong** bij **Traceringsmethode**.  
 4.  Kies de actie **Traceren**.  
@@ -240,9 +247,9 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     U kunt de volgende transactiegeschiedenis traceren:  
 
-    -   Het eerste geboekte document terug in de transactieketen is de uitvoerboeking van SN1 van de eerste vrijgegeven productieorder.  
-    -   Het volgende geboekte document terug in de keten is de verbruiksboeking van de eerste vrijgegeven productieorder. Hier ziet de kwaliteitscontroleur dat er een raceframe van LOT1 is gebruikt.  
-    -   Het laagste geboekte document in deze keten is de geboekte inkoopontvangst waarop raceframes met LOT1 in de voorraad zijn gekomen.  
+    - Het eerste geboekte document terug in de transactieketen is de uitvoerboeking van SN1 van de eerste vrijgegeven productieorder.  
+    - Het volgende geboekte document terug in de keten is de verbruiksboeking van de eerste vrijgegeven productieorder. Hier ziet de kwaliteitscontroleur dat er een raceframe van LOT1 is gebruikt.  
+    - Het laagste geboekte document in deze keten is de geboekte inkoopontvangst waarop raceframes met LOT1 in de voorraad zijn gekomen.  
 
     De kwaliteitscontroleur heeft nu vastgesteld welke partij raceframes defect was en hij kan zoeken op de laatste traceringsregel om te zien welke leverancier deze heeft geleverd, namelijk Custom Metals Incorporated.  
 
@@ -272,27 +279,32 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Tegelijkertijd kan hij aan de laatste drie traceringsregels zien dat er nog twee artikelen, SN3 en SN4, zijn geproduceerd op basis van raceframes uit LOT1. Hij onderneemt actie om deze eindartikelen in de voorraad te blokkeren.  
 
-    Hiermee is de tweede taak voor defectenbeheer met de pagina **Artikeltracering** voltooid. Aangezien de pagina **Artikeltracering** uitsluitend is gebaseerd op geboekte posten, moet de kwaliteitscontroleur naar de pagina **Navigeren** gaan om te controleren of LOT1 niet is gebruikt in niet-geboekte documenten.  
+    Hiermee is de tweede taak voor defectenbeheer met de pagina **Artikeltracering** voltooid. Aangezien de pagina **Artikeltracering** uitsluitend is gebaseerd op geboekte posten, moet de kwaliteitscontroleur naar de pagina **Posten zoeken** gaan om te controleren of LOT1 niet is gebruikt in niet-geboekte documenten.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Alle records van een serie/lotnummer zoeken  
- Op de pagina **Artikeltracering** heeft de kwaliteitscontroleur gezien dat LOT1 de defecte raceframes bevatte, van welke leverancier ze afkomstig zijn en in welke geboekte transactie ze zijn gebruikt. Hij moet nu bepalen of LOT1 in open documenten voorkomt door te integreren van het traceringsresultaat naar de pagina **Navigeren**, waar hij een zoekactie op alle databaserecords kan uitvoeren.  
+ Op de pagina **Artikeltracering** heeft de kwaliteitscontroleur gezien dat LOT1 de defecte raceframes bevatte, van welke leverancier ze afkomstig zijn en in welke geboekte transactie ze zijn gebruikt. Hij of zij moet nu bepalen of LOT1 in open documenten voorkomt door te integreren vanuit het traceringsresultaat naar de pagina **Posten zoeken**, waar hij of zij een zoekactie op alle databaserecords kan uitvoeren.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Alle gevallen van LOT1 in niet-geboekte records zoeken zoals open orders  
 
 1.  Selecteer op de pagina **Artikeltracering** de aanwijzer in de eerste traceringsregel, de inkoopontvangst van LOT1.  
-2.  Kies de actie **Navigeren**.  
+2.  Kies de actie **Posten zoeken**.  
 
-    De pagina **Navigeren** is vooraf ingesteld met zoekfilters op basis van het traceringsresultaat voor LOT1. De kwaliteitscontroleur ziet dat de meeste records te maken hebben met documenten die al zijn geïdentificeerd op de pagina **Artikeltracering**. Zo verwijst bijvoorbeeld de laatste navigatieregel van het type Productieorder naar de twee vrijgegeven productieorders waarvoor raceframes van LOT1 zijn gebruikt.  
+    De pagina **Posten zoeken** is vooraf ingesteld met zoekfilters op basis van het traceringsresultaat voor LOT1. De kwaliteitscontroleur ziet dat de meeste records te maken hebben met documenten die al zijn geïdentificeerd op de pagina **Artikeltracering**. Zo verwijst bijvoorbeeld de laatste Posten zoeken-regel van het type Productieorder naar de twee vrijgegeven productieorders waarvoor raceframes van LOT1 zijn gebruikt.  
 
-    De tweede navigatieregel van het type **Verkoopregel** is een niet-geboekte documentregel, dus de kwaliteitscontroleur gaat verder met onderzoeken.  
+    De tweede Posten zoeken-regel van het type **Verkoopregel** is echter een niet-geboekte documentregel, dus de kwaliteitscontroleur gaat verder met onderzoeken.  
 
-3.  Als u de verkoopregelrecord wilt openen, selecteert u de tweede navigatieregel en kiest u de actie **Weergeven**. U kunt ook klikken op het getal in het veld **Aantal records**.  
+3.  Als u de verkoopregelrecord wilt openen, selecteert u de tweede Posten zoeken-regel en kiest u de actie **Weergeven**. U kunt ook klikken op het getal in het veld **Aantal records**.  
 
     Hier ziet de kwaliteitscontroleur één open verkoopregel voor de defecte raceframes. Hij stelt onmiddellijk aan de verkoopafdeling voor dat ze deze order annuleren en een nieuwe productieorder starten op basis van goede raceframes.  
 
- Hiermee is het overzicht van het gebruik van de pagina **Navigeren** voor defectenbeheer in integratie met de pagina **Artikeltracering** voltooid.  
+ Hiermee is het overzicht van het gebruik van de pagina **Posten zoeken** voor defectenbeheer in integratie met de pagina **Artikeltracering** voltooid.  
 
 ## <a name="see-also"></a>Zie ook
 [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  
 [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)  
+[Posten zoeken](ui-find-entries.md)  
 [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,26 +1,26 @@
 ---
-title: Interacties met contacten maken en beheren | Microsoft Docs
-description: In Business Central wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, e-mail, telefoon, vergaderingen, enzovoort zijn.
+title: Interacties met contacten maken en beheren
+description: In Business Central wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Lees meer over de manieren om uw contacten te maken en te beheren.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3f739e64a8ff2405254b1bf7811cbf506e6ba823
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: de3362b82bdba2248e8d3e288822ec12db0fcc05
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181424"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011164"
 ---
-# <a name="managing-interactions"></a>Interacties beheren
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, e-mail, telefoon, vergaderingen, enzovoort zijn.
+# <a name="managing-interactions-with-your-contacts"></a>Interacties beheren met uw contacten
+In [!INCLUDE[prod_short](includes/prod_short.md)] wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, e-mail, telefoon, vergaderingen, enzovoort zijn.
 
 U kunt alle interactie registreren die u met uw contacten hebt, om de verkoop en marketinginspanningen bij te houden die u op uw contacten hebt gericht en om uw toekomstige bedrijfsinteracties met hen te verbeteren.
 
@@ -31,3 +31,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Uw systeem instellen om interacties te registreren. |[Contactpersonen instellen](marketing-setup-contacts.md) |
 |Maak interacties om alle interacties en communicatie vast te leggen die u hebt met uw contacten en segmenten, bijvoorbeeld e-mail.|[Interacties maken voor contacten en segmenten](marketing-how-create-interactions.md)|
 |Stel uw systeem in om automatisch interacties te registreren voor verkoop-, inkoop- en servicedocumenten, zoals wanneer een document wordt gemaakt, geboekt of afgedrukt.|[Automatisch recordinteracties met contacten vastleggen](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

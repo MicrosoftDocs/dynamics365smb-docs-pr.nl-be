@@ -1,21 +1,21 @@
 ---
-title: Servicestatistieken | Microsoft Docs
-description: Krijg een snel overzicht van de inhoud van servicedocumenten, zoals orders, offertes, facturen of creditnota's, van de details op de afzonderlijke serviceregels en van de serviceartikelen.
+title: Servicestatistieken
+description: Krijg een snel overzicht van de inhoud en statistieken van servicedocumenten, zoals orders, offertes, facturen of creditnota's, serviceregels en meer.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0e1c6fe7b5a830e17d693bcd4d48921947b0509d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192399"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438269"
 ---
 # <a name="viewing-service-statistics"></a>Servicestatistieken weergeven
 U kunt statistische gegevens gebruiken om servicedocumenten te analyseren en te bepalen hoe goed u uw serviceprocessen beheert. U kunt servicecontracten, artikelen, offertes, orders, facturen en creditnota's analyseren door de actie **Statistieken** te kiezen. Voor serviceartikelen en contracten kunt u ook **Serviceartikel Trendscape** of **Contract Trendscape** gebruiken om een overzicht van serviceposten voor een bepaald serviceartikel te bekijken.   
@@ -84,7 +84,7 @@ Een vermelding van contractwinst of -verlies wordt gegenereerd wanneer een contr
 |**Winst/verlies contract (Reden)**|Het winst-/verliescontract per redencode weergeven.|  
 |**Winst/verlies contract (Divisie)**|Het winst-/verliescontract per divisie weergeven.|  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer de naam van de weer te geven pagina in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer de naam in van de pagina die u wilt weergeven en kies vervolgens de gerelateerde koppeling.  
 2. Vul de filtercriteria in die u wilt toepassen. Kies bijvoorbeeld op de pagina **Winst/verlies contract (Reden)** een waarde voor **Redencodefilter**.  
 3. Kies de actie **Matrix weergeven**.
 
@@ -112,3 +112,6 @@ De pagina **Statistiek servicecreditnota's** biedt een statistisch overzicht van
 [Serviceorders maken](service-how-to-create-service-orders.md)   
 [Serviceartikelen maken](service-how-to-create-service-items.md)   
 [Service plannen](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

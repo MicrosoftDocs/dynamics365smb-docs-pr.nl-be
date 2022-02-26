@@ -1,28 +1,32 @@
 ---
-title: Extensies voor Business Central van andere bedrijven | Microsoft Docs
-description: Geeft een lijst met apps en extensies om Business Central aan te passen, die worden verschaft door andere bedrijven.
-documentationcenter: ''
+title: Extensies voor Business Central van andere providers
+description: Dit onderwerp geeft een lijst met apps en extensies om Business Central aan te passen, die worden verschaft door andere bedrijven.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f63c266cb73f3f1cd96e13949fd6cc8b441673f6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: eebbb68048501c9e68c36a0d5f5eaae19a3272d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315480"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322914"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Extensies voor Business Central van andere providers
-Bij [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies krijgen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sommige extensies worden verstrekt door Microsoft en andere extensies worden verstrekt door andere bedrijven. We verwijzen naar de websites van deze bedrijven voor meer informatie over de extensies die niet door Microsoft zijn gepubliceerd. U kunt deze informatie vinden op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
-Het overzicht van de extensies door andere bedrijven groeit elke maand. Houd een oog op [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) en krijg apps om u te helpen in uw werk in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Bij [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies krijgen voor [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige extensies worden verstrekt door Microsoft en andere extensies worden verstrekt door andere bedrijven. We verwijzen naar de websites van deze bedrijven voor meer informatie over de extensies die niet door Microsoft zijn gepubliceerd. U kunt deze informatie vinden op [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+
+Het overzicht van de extensies door andere bedrijven groeit elke maand. Houd een oog op [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) en krijg apps om u te helpen in uw werk in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
-[Aan de slag](product-get-started.md)  
+
+[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

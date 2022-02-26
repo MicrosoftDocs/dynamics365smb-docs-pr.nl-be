@@ -1,24 +1,24 @@
 ---
-title: Ontwerpdetails - Planningsparameters | Microsoft Docs
-description: Dit onderwerp beschrijft de verschillende planningsparameters die u kunt gebruiken in Business Central.
+title: 'Ontwerpdetails: Planningsparameters'
+description: In dit onderwerp worden de verschillende planningsparameters beschreven die u kunt gebruiken en hoe deze het planningssysteem beïnvloeden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/20/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 07/21/2021
+ms.author: edupont
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272050"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649824"
 ---
 # <a name="design-details-planning-parameters"></a>Ontwerpdetails: Planningsparameters
-Dit onderwerp beschrijft de verschillende planningsparameters die u kunt gebruiken in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dit onderwerp beschrijft de verschillende planningsparameters die u kunt gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 De manier waarop het planningssysteem de artikelvoorziening controleert, wordt bepaald door verschillende instellingen op de artikelkaart of SKU, en de configuratie van productie-instellingen. De volgende tabel toont hoe deze parameters worden gebruikt voor de planning.  
 
@@ -88,19 +88,19 @@ In de volgende voorbeelden geven de zwarte pijlen bestaand aanbod (omhoog) en be
 
 **Voorbeeld 1**: De gewijzigde datum ligt buiten de herplanningsperiode, waardoor de bestaande voorziening wordt geannuleerd. Er wordt een nieuwe voorziening voorgesteld om te voldoen aan de vraag in de lotaccumulatieperiode.  
 
-![Herplanningsperiode en lotaccumulatieperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Herplanningsperiode en lotaccumulatieperiode")  
+![Herplanningsperiode en lotaccumulatieperiode.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Herplanningsperiode en lotaccumulatieperiode")  
 
 **Voorbeeld 2**: De gewijzigde datum ligt in de herplanningsperiode, waardoor de bestaande voorziening opnieuw wordt gepland. Er wordt een nieuwe voorziening voorgesteld om te voldoen aan de vraag buiten de lotaccumulatieperiode.  
 
-![Herplanningsperiode, lotaccumulatieperiode en herplannen](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Herplanningsperiode, lotaccumulatieperiode en herplannen")  
+![Herplanningsperiode, lotaccumulatieperiode en herplannen.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Herplanningsperiode, lotaccumulatieperiode en herplannen")  
 
 **Voorbeeld 3**: Er is vraag in de dempingsperiode en het voorzieningsaantal in de lotaccumulatieperiode komt overeen met het voorzieningsaantal. De volgende vraag wordt blootgelegd en er wordt een nieuwe voorziening voorgesteld.  
 
-![Dempingsperiode en lotaccumulatieperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Dempingsperiode en lotaccumulatieperiode")  
+![Dempingsperiode en lotaccumulatieperiode.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Dempingsperiode en lotaccumulatieperiode")  
 
 **Voorbeeld 4**: Er is vraag in de dempingsperiode en het aanbod blijft op dezelfde datum. Het huidige voorzieningaantal is echter niet voldoende om te voldoen aan de vraag in de lotaccumulatieperiode, zodat een wijzigingsactie voor het aantal wordt voorgesteld voor de bestaande voorzieningenorder.  
 
-![Dempingsperiode, lotaccumulatieperiode en aantal wijzigen](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Dempingsperiode, lotaccumulatieperiode en aantal wijzigen")  
+![Dempingsperiode, lotaccumulatieperiode en aantal wijzigen.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Dempingsperiode, lotaccumulatieperiode en aantal wijzigen")  
 
 **Standaardwaarden:** de standaardwaarde van het veld **Tijdsinterval** en de drie bestelperiodevelden is leeg. Voor alle velden behalve het veld **Dempingsperiode** betekent dit 0D (nul dagen). Als het veld **Dempingsperiode** leeg is, wordt de globale waarde in het veld **Standaard dempingsperiode** op de pagina **Productie-instellingen** gebruikt.  
 
@@ -114,9 +114,32 @@ De optie **Productiebeleid** bepaalt welke aanvullende orders de MRP-berekening 
 
 Als de optie **Op voorraad produceren** wordt gebruikt, hebben de orders alleen betrekking op het desbetreffende artikel.  
 
-Als de optie **Op order produceren** wordt gebruikt, analyseert het planningssysteem de productiestuklijst van het artikel en worden aanvullende gekoppelde ordervoorstellen op lager niveau gemaakt voor deze artikelen, die ook worden gedefinieerd als op-order-produceren. Dit gaat door zolang er op maat gemaakte producten in de aflopende stuklijststructuren zijn.  
+Als de optie **Op order produceren** wordt gebruikt, analyseert het planningssysteem de productiestuklijst van het artikel en worden aanvullende gekoppelde ordervoorstellen op lager niveau gemaakt voor deze artikelen, die ook worden gedefinieerd als op-order-produceren. Dit gaat door zolang er op maat gemaakte producten in de aflopende stuklijststructuren zijn.
+
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Low-levelcodes gebruiken om afgeleide vraag te beheren
+
+Gebruik low-levelcodes om afgeleide vraag naar componenten de lagere niveaus van de stuklijst te laten doorlopen. Voor een meer uitgebreide uitleg hiervan zie [Prioriteit/low-levelcode artikel](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+U kunt een low-levelcode toewijzen aan elk onderdeel in de productstructuur of de ingesprongen stuklijst. Het hoogste definitieve assemblageniveau wordt aangeduid als niveau 0 - het eindartikel. Hoe hoger het nummer van de low-levelcode, hoe lager het artikel is in de hiërarchie. Eindartikelen hebben bijvoorbeeld low-levelcode 0 en de artikelonderdelen die in de assembly van het eindartikel worden opgenomen, hebben low-levelcodes 1, 2, 3, enzovoort. Het resultaat is de planning van onderdelen, gecoördineerd met de vereisten van alle onderdeelnummers op een hoger niveau. Wanneer u a plan berekent, wordt de stuklijst geëxplodeerd in het planningsvoorstel en de brutobehoeften voor niveau 0 worden doorgegeven in de planningsniveaus als brutobehoeften voor het volgende planningsniveau.
+
+Selecteer het veld **Dynamische low-levelcode** om op te geven of er onmiddellijk codes op laag niveau moeten worden toegewezen en berekend voor elk onderdeel in de productstructuur. Als u grote hoeveelheden gegevens hebt, kan deze functie een negatief effect op de prestaties van het programma hebben, bijvoorbeeld tijdens automatische kostenwaardering. Dit is geen functie met terugwerkende kracht, dus het is raadzaam om het gebruik van deze functie tevoren uit te denken.
+
+In plaats van de automatische berekening die dynamisch plaatsvindt als het veld is geselecteerd, kunt u de batchverwerking **Low-levelcode berekenen** in het menu **Productie** uitvoeren door op **Productontwerp**, **Low-levelcode berekenen** te klikken.
+
+> [!IMPORTANT]
+> Als u het veld **Dynamische low-levelcode** niet selecteert, moet u de batchbewerking **Low-levelcode berekenen** uitvoeren voordat u een leveringsplan berekent (de batchverwerking **Planning berekenen**).  
+
+> [!NOTE]
+> Ook wanneer het veld **Dynamische low-levelcode** is geselecteerd, worden de low-levelcodes van artikelen niet dynamisch gewijzigd als een hoofd-stuklijst wordt verwijderd of op niet-gecertificeerd is ingesteld. Hierdoor kan het problematisch worden om nieuwe artikelen aan het einde van de productstructuur toe te voegen, doordat de low-levelcodelimiet wordt overschreden. Daarom is het raadzaam voor grote productstructuren die de low-levelcodelimiet bereiken de batchverwerking **Low-levelcode berekenen** regelmatig uit te voeren om de structuur te behouden.  
+
+### <a name="optimize-low-level-code-calculation"></a>Berekening van low-levelcode optimaliseren
+
+Selecteer het veld **Berekening van low-levelcode optimaliseren** veld om aan te geven dat u de nieuwe, snellere methode voor codeberekening op laag niveau wilt gebruiken. Houd er rekening mee dat de nieuwe berekening anders wordt uitgevoerd en dat het gebruik ervan mogelijk extensies verbreekt die afhankelijk zijn van de bestaande methode. De nieuwe berekeningsmethode zal in een toekomstige release de huidige methode vervangen.
 
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)   
 [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

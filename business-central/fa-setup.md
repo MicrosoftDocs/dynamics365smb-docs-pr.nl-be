@@ -1,22 +1,22 @@
 ---
-title: Vaste activa instellen| Microsoft Docs
+title: Vaste activa instellen
 description: Leren over de reeks taken die u moet uitvoeren om vaste activa in te stellen, zoals machines of gebouwen.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: be5e86776d440763d069cecb9f45d0e6daeaeede
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5607
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 874c1c18611f0aa165a8537642324334e8e0798a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184184"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029548"
 ---
 # <a name="setting-up-fixed-assets"></a>Vaste activa instellen
 Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:  
@@ -40,9 +40,14 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Verzekering van vaste activa inschakelen, algemene verzekeringsinformatie en een verzekeringskaart per polis instellen en dagboeken voorbereiden om verzekeringskosten te boeken. |[Verzekering van vaste activa instellen](fa-how-setup-insurance.md) |
 | Onderhoud van vaste activa inschakelen, algemene onderhoudsgegevens instellen, boekingsrekeningen voor onderhoud instellen en soorten onderhoudswerk definiëren. |[Onderhoud van vaste activa instellen](fa-how-setup-maintenance.md) |
 | Meer informatie over andere afschrijvingsmethoden voor vaste activa. |[Afschrijvingsmethoden](fa-depreciation-methods.md) |
+| Meer informatie over het toepassen van door de gebruiker gedefinieerde afschrijvingsmethoden. |[Eigen afschrijvingsmethoden instellen](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Zie ook
-[Vast activum](fa-manage.md)  
+[Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  
-[Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
