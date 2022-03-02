@@ -2,7 +2,6 @@
 title: Belgische tariefcodes instellen [BE]
 description: De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 310
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 488099d8b4d9137ef408339365864218ead747e3
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 82ed1f582ec7011a6e8c160289914a659f7e0c06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973116"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145123"
 ---
 # <a name="set-up-belgian-tariff-numbers-in-the-belgian-version"></a>Belgische tariefcodes instellen in de Belgische versie
 

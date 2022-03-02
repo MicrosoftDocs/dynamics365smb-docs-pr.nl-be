@@ -2,7 +2,6 @@
 title: Exporteren naar Accon [BE]
 description: Met het rapport Koppelen aan Accon kunt u een bestand maken dat in ACCON Plus kan worden geïmporteerd om een jaarlijkse resultatenrekening te genereren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: be4c0cd68dad1ef9d5ceb3cbb2370611744ea73a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 5e11c13c04d9b0441c7cd9ced67f2839af89e291
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973132"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148011"
 ---
 # <a name="export-to-accon-in-the-belgian-version"></a>Exporteren naar Accon in de Belgische versie
 

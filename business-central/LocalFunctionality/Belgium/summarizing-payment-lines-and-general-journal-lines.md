@@ -2,17 +2,16 @@
 title: Betalingsregels en dagboekregels [BE]
 description: Business Central geeft een overzicht van betalingsregels en dagboekregels voor binnenlands, internationale, SEPA- en niet-eurobetalingen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 11308
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 9dabf8220583daeaecea9cfc3a586284332f60c0
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: c3107ff689779de28d6b844dc5f229d4e58ae15d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973087"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148946"
 ---
 # <a name="summarizing-payment-lines-and-general-journal-lines-in-the-belgian-version"></a>Betalingsregels en dagboekregels in de Belgische versie
 

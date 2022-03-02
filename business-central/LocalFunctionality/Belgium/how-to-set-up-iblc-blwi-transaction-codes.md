@@ -2,7 +2,6 @@
 title: IBLC/BLWI-transactiecodes instellen [BE]
 description: Om elektronische betalingen te kunnen verwerken, moet u transactiecodes instellen op basis van de vereisten van het Belgian-Luxembourg Exchange Institute.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 2000002
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 6beea4e5f07a52396bd59f7eb5c8d87499c708e0
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: a81ecd69565aa2c7a4e09ba17e599f9f7666d096
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947144"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148002"
 ---
 # <a name="set-up-iblc-blwi-transaction-codes-in-the-belgian-version"></a>IBLC-BLWI-transactiecodes instellen in de Belgische versie
 Om elektronische betalingen te kunnen verwerken, moet u transactiecodes instellen op basis van de vereisten van het Belgian-Luxembourg Exchange Institute. Dit zijn internationale identificatiecodes voor de verschillende soorten betalingstransacties. De IBLC-BLWI-codes worden alleen gebruikt voor internationale betalingen.  

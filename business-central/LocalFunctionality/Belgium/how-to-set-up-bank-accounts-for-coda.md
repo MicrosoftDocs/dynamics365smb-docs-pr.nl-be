@@ -4,7 +4,6 @@ description: Voordat u de functionaliteit voor elektronisch bankieren voor CODA-
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 4fb73a1ab3bb252067bbe7255887318d5b89205d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7ed2c6b29ad7fda690822cbd600c541da3cfc6af
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438472"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129381"
 ---
 # <a name="set-up-bank-accounts-for-coda-in-the-belgian-version"></a>Bankrekeningen instellen voor CODA in de Belgische versie
 Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u de volgende codes instellen:  

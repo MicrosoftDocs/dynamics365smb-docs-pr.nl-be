@@ -2,17 +2,16 @@
 title: Betalingsbestanden exporteren in de Belgische versie
 description: Als u een testrapport hebt afgedrukt en alle fouten hebt gecorrigeerd, kunt u betalingsdagboekregels naar een betalingsbestand afdrukken in de Belgische versie van Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 2000001
 ms.date: 01/10/2022
 ms.author: edupont
-ms.openlocfilehash: 93bd925857480aa90ca0b2f5978ae68a4e91fa7f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 4231690fa29deaf565aae9915574cd825bd8f60b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971507"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134475"
 ---
 # <a name="export-payment-files-in-the-belgian-version"></a>Betalingsbestanden exporteren in de Belgische versie
 

@@ -2,7 +2,6 @@
 title: Ondernemingnummers en filiaalnummers [BE]
 description: Bedrijven ontvangen een uniek ondernemingsnummer en een of meer filiaalnummers van de Belgische Kruispuntbank van Ondernemingen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4bac2b114bd0a2f5bce5d4905220f217ab9c6a57
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: 4ca0e88c49a9393d9d21e390499bea162943fb13
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921103"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142685"
 ---
 # <a name="enterprise-numbers-and-branch-numbers-in-the-belgian-version"></a>Ondernemingnummers en filiaalnummers in de Belgische versie
 

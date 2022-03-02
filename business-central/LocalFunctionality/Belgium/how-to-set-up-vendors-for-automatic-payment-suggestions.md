@@ -2,7 +2,6 @@
 title: Leveranciers voor automatische betalingsvoorstellen instellen [BE]
 description: U kunt elke leverancier zo instellen dat onbetaalde facturen van die leverancier automatisch worden opgenomen in betalingsvoorstellen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 029b4c6331aff5151a591d8dfd17329fbf77591d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 04162609ad4bff379bea9ee4b30140476d99a70e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437829"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141809"
 ---
 # <a name="set-up-vendors-for-automatic-payment-suggestions-in-the-belgian-version"></a>Leveranciers voor automatische betalingsvoorstellen instellen in de Belgische versie
 
