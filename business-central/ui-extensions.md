@@ -2,17 +2,16 @@
 title: Extensies installeren om Business Central aan te passen
 description: Meer informatie over het toevoegen van functionaliteit en het aanpassen van Business Central door extensies te installeren vindt u hier.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7839c4364f299619707b0a346b9b5d0db07e627b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587796"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132432"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online aanpassen met extensies
 

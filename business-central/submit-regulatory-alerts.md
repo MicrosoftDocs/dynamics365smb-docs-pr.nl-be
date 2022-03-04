@@ -2,18 +2,17 @@
 title: Wettelijke waarschuwingen indienen
 description: Als u informatie hebt over nieuwe wetgeving die functieondersteuning nodig heeft in Business Central, kunt u deze gids volgen om een wettelijke waarschuwing in te dienen bij het productteam.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7601f1bef58ed914385957ef70ad8b924c4499a0
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319993"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335122"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Waarschuwingen verzenden over land/regio-specifieke wettelijke functies
 
@@ -21,7 +20,7 @@ We nodigen u uit Microsoft Dynamics Lifecycle Services (LCS) te gebruiken om wet
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Een wettelijke waarschuwing indienen in LCS
 
-1. Ga naar https://lcs.dynamics.com en meld u aan  
+1. Ga naar [https://lcs.dynamics.com](https://lcs.dynamics.com) en meld u aan  
 
     U ziet de projecten waartoe u toegang hebt
 

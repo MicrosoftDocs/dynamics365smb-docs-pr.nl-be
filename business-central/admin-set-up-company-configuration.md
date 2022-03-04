@@ -2,7 +2,6 @@
 title: Een bedrijfsconfiguratie instellen
 description: Stel als partner Business Central goed in voor uw klant met standaard- of klantspecifieke configuraties die u bundelt in configuratiepakketten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649724"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143953"
 ---
 # <a name="set-up-company-configuration"></a>Een bedrijfsconfiguratie instellen
 Het implementatieproces begint met de Microsoft-partner. Het is uw verantwoordelijkheid als partner om de configuratiedetails uit te werken en een pakket te maken dat een klant eenvoudig kan toepassen. Voordat u een nieuw bedrijf maakt in [!INCLUDE [prod_short](includes/prod_short.md)] online of on-premises, moet u plannen hoe het wordt geconfigureerd. U moet rekening houden met elementaire instellingsgegevens en de soorten gegevens die uw [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing nodig zal hebben. U bundelt al deze gegevens in configuratiepakketten.

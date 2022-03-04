@@ -2,7 +2,6 @@
 title: Problemen met uw bedrijfshub oplossen
 description: Leer hoe u eventuele problemen kunt omzeilen wanneer u de bedrijfshub in Dynamics 365 Business Central gebruikt om werk in meerdere bedrijven te beheren.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.search.form: 1151
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 988e59cd953339c305b704caf42d3b1c31372e50
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 585e23a25397952ede809a76d4e001df9c60b449
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8028889"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128843"
 ---
 # <a name="troubleshooting-your-company-hub"></a>Problemen met uw bedrijfshub oplossen
 

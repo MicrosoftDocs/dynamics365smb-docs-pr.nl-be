@@ -2,7 +2,6 @@
 title: 'Ontwerpdetails: Artikeltracering'
 description: Het artikeltraceringssysteem biedt eenvoudige verwerking van serie- en lotnummers, die nodig kunnen zijn om aan wettelijke vereisten te voldoen of om te helpen bij het afhandelen van garanties.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 55e8463e788e222265a0ec837196c55726caf53e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320301"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146630"
 ---
 # <a name="design-details-item-tracking"></a>Ontwerpdetails: Artikeltracering
 Als de goederenstroom in de voorraadketen van vandaag complexer wordt, wordt het vermogen artikelen te traceren steeds belangrijker voor de betrokken bedrijven. De transactiestroom van een artikel controleren is een juridische vereiste op het gebied van medische en chemische voorziening, maar in andere bedrijfstaken kunnen producten met garanties of vervaldatums worden gecontroleerd om redenen van klantenservice.  

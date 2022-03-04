@@ -2,7 +2,6 @@
 title: Vaste activa afschrijven of aflossen
 description: U moet bepalen hoe u elk van uw vaste activa, zoals machines en uitrusting, afschrijft of aflost over hun afschrijfbare levensduur.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5610, 5611, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 54470439a7376f2bb3d22b357d9b5397588190a5
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 5381a1a70e5d1e86576378c8f18ebf90724241f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029364"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145796"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Vaste activa afschrijven of aflossen
 Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en apparatuur, te spreiden over de afschrijfbare levensduur. Voor elk vast activum moet u aangeven hoe de afschrijving wordt toegepast.  

@@ -2,7 +2,6 @@
 title: Veelgestelde vragen over OneDrive voor Bedrijven
 description: Krijg antwoorden op enkele veelvoorkomende vragen over het werken met OneDrive voor Bedrijven en Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3d9058b3b0f751729d5538f36454bd8244a3594f
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: f54e8b6290e9dd653180b3ea05246255b84dc2ae
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589649"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144062"
 ---
 # <a name="onedrive-for-business-faq"></a>Veelgestelde vragen over OneDrive voor Bedrijven
 
@@ -84,7 +83,7 @@ Integratie met OneDrive kwam beschikbaar in releasewave 2 van 2021.
 
 ## <a name="will-microsoft-continue-to-improve-the-integration-to-onedrive"></a>Zal Microsoft de integratie met OneDrive blijven verbeteren?
 
-Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende gebruikerscommunity en handelen we naar de beste suggesties. Voor meer informatie over wat de toekomst biedt voor integraties met Microsoft 365-apps, raadpleegt u [Releaseplan voor Dynamics 365](/dynamics365-release-plan/2021wave1).  
+Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende gebruikerscommunity en handelen we naar de beste suggesties. Zie [Releaseplan voor Dynamics 365](/dynamics365-release-plan/2021wave1) voor meer informatie over wat de toekomst biedt voor integraties met Microsoft 365-apps.  
 
 Als u wilt meewerken aan verbetering van OneDrive-integratie, of u een idee hebt dat het delen van bestanden en samenwerking in [!INCLUDE[prod_short](includes/prod_short.md)] zou verbeteren, voegt een idee toe of stemt u op bestaande ideeën op [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 

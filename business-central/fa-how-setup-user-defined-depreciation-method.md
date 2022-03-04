@@ -2,18 +2,17 @@
 title: Door de gebruiker gedefinieerde VA-afschrijvingsmethoden instellen
 description: In Business Central kunt u een door de gebruiker gedefinieerde afschrijvingsmethode toepassen om de afschrijvingsmethode van uw activum te definiëren op de pagina Vast activum.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.reviewer: edupont
 ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 4c55d19f5019e8a9526396d4d253a1f9a9f40844
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 517c3cdb51762c3c0fadcf29ff1ad6dbf949f971
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724649"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144995"
 ---
 # <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Vaste activa instellen met door de gebruiker gedefinieerde afschrijvingsmethoden
 

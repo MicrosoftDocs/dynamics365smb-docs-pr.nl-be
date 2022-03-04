@@ -2,19 +2,18 @@
 title: Proefversies en abonnementen
 description: Meer informatie over het verkrijgen van een proefversie van Business Central, het werken met sandbox-omgevingen en het aanmelden voor een abonnement.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 09/29/2021
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011558"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335539"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Proefversies en abonnementen
 
@@ -38,7 +37,7 @@ Als u besluit [!INCLUDE [prod_short](includes/prod_short.md)] niet te gebruiken,
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Uw eigen gegevens toevoegen aan een leeg proefbedrijf
 
-Als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt proberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen met een leeg bedrijf. De begeleide instellingshandleiding **Mijn bedrijf instellen** kan u helpen basisinformatie over uw bedrijf te specificeren. U kunt eventueel gegevens importeren uit uw bestaande bedrijfsbeheeroplossing, zodat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt evalueren met uw eigen gegevens. We raden u echter aan geen gratis proefversie te gebruiken om uw bedrijf te runnen. Neem contact met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) op voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/prod_short.md)].  
+Als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt proberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen met een leeg bedrijf. De begeleide instellingshandleiding **Mijn bedrijf instellen** kan u helpen basisinformatie over uw bedrijf te specificeren. U kunt eventueel gegevens importeren uit uw bestaande bedrijfsbeheeroplossing, zodat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt evalueren met uw eigen gegevens. We raden u echter aan geen gratis proefversie te gebruiken om uw bedrijf te runnen. Neem contact met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) op voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/prod_short.md)]. De partner kan u ook helpen uw gegevens te migreren naar [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 Als 30 dagen niet genoeg zijn om te beslissen, kunt u uw proefperiode verlengen. Zie voor meer informatie [Meer tijd nodig om te beslissen of u zich wilt abonneren?](admin-extend-trial.md).  
 
@@ -105,6 +104,7 @@ De beheerder van uw [!INCLUDE[prod_short](includes/prod_short.md)] en uw wederve
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Veelgestelde vragen](across-faq.yml)  
 [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner)  
+[Gegevens migreren](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Uw sandboxomgeving voor Dynamics 365 Business Central-ontwikkeling kiezen](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Proeven verlengen (als beheerder)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
