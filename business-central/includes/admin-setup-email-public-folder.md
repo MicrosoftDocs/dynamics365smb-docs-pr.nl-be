@@ -1,20 +1,19 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 09/02/2021
+ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482309"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142509"
 ---
 > [!NOTE]
 > In de volgende secties wordt ervan uitgegaan dat u beheerderstoegang hebt tot Exchange Online.
 
-Voordat u e-mailregistratie kunt instellen, moet u [openbare mappen](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true) voor Office 365 voorbereiden. U kunt dit doen in het [Exchange-beheercentrum](/exchange/exchange-admin-center?preserve-view=true) of u kunt de [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true) gebruiken.
+Voordat u e-mailregistratie kunt instellen, moet u [openbare mappen](/exchange/collaboration-exo/public-folders/public-folders) voor Office 365 voorbereiden. U kunt dit doen in het [Exchange-beheercentrum](/exchange/exchange-admin-center?preserve-view=true) of u kunt de [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true) gebruiken.
 
 > [!TIP]
 > Als u de [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true) wilt gebruiken, vindt u inspiratie voor het instellen van uw script in een voorbeeldscript dat we hebben gepubliceerd in [de BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging)..
@@ -31,7 +30,7 @@ Maak een beheerdersrolgroep voor openbare mappen op basis van de informatie in d
 |Geselecteerde rollen  |Openbare mappen            |
 |Geselecteerde gebruikers  |Het e-mailadres van het gebruikersaccount dat Business Central zal gebruiken om de e-mailregistratietaak uit te voeren|
 
-Zie voor meer informatie [Rolgroepen beheren in Exchange Online](/exchange/permissions-exo/role-groups?preserve-view=true).
+Zie voor meer informatie [Rolgroepen beheren in Exchange Online](/exchange/permissions-exo/role-groups).
 
 ### <a name="create-a-new-public-folder-mailbox"></a>Een nieuwe openbare mappostbus maken
 
@@ -41,7 +40,7 @@ Maak een nieuwe openbare mappostbus op basis van de informatie in de volgende ta
 |----------------|--------------------------|
 |Name            |Openbare postbus            |
 
-Raadpleeg [Een openbare mappostbus maken](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true) voor meer informatie.
+Zie [Een openbare mappostbus maken](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox) voor meer informatie.
 
 ### <a name="create-new-public-folders"></a>Nieuwe openbare mappen maken
 
@@ -51,7 +50,7 @@ Raadpleeg [Een openbare mappostbus maken](/exchange/collaboration-exo/public-fol
     - `\Email Logging\Queue\`
     - `\Email Logging\Storage\`
 
-Raadpleeg [Een openbare map maken](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true) voor meer informatie.
+Zie [Een openbare map maken](/exchange/collaboration-exo/public-folders/create-public-folder) voor meer informatie.
 
 ### <a name="set-public-folder-ownership"></a>Eigendom van openbare mappen instellen
 
@@ -61,7 +60,7 @@ Zie voor meer informatie [Machtigingen voor openbare mappen toewijzen](/exchange
 
 ### <a name="mail-enable-the-queue-public-folder"></a>De openbare map *Wachtrij* inschakelen voor post
 
-  Zie voor meer informatie [Een openbare map in- of uitschakelen voor post](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true).
+  Zie [Een openbare map in- of uitschakelen voor post](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder) voor meer informatie.
 
 ### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>E-mail inschakelen voor het verzenden van e-mails naar de openbare map *Wachtrij*
 

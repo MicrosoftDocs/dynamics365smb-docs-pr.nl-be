@@ -2,7 +2,6 @@
 title: Sandboxomgevingen
 description: Ontdek hoe een speciale omgeving u kan helpen om Business Central veilig te verkennen, te leren, te demonstreren, te ontwikkelen, problemen op te lossen en te testen.
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940638"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142483"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandboxomgevingen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -44,7 +43,7 @@ De sandboxomgeving is onder andere nuttig omdat deze een aantal handige functies
 
 ## <a name="advanced-user-experience"></a>Geavanceerde gebruikerservaring
 
-Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen."::: .  
+Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen.":::    
 
 Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.yml#how-do-i-find-a-reselling-partner) voor meer informatie.  
 

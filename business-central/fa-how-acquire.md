@@ -2,7 +2,6 @@
 title: Vaste activa aanschaffen
 description: U kunt een vast activum instellen, een afschrijvingsboek toewijzen en de aanschafkosten van het vaste activum vastleggen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: a7c74ef8e5dc7e40f6ea63962734074f35ac57a8
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: e0a60cbb82c99e3497a6f8d1907c261b6199e7ec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029260"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141241"
 ---
 # <a name="acquire-fixed-assets"></a>Vaste activa aanschaffen
 Voor elk vast activum moet u een kaart maken met informatie over het activum. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. Een afschrijvingsboek moeten eerst worden ingesteld en toegewezen aan elk vast activum voordat u het kunt aanschaffen.

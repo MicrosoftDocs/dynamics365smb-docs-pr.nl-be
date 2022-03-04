@@ -2,7 +2,6 @@
 title: Ontwerpdetails - Transfers in planning | Microsoft Docs
 description: In dit onderwerp wordt beschreven hoe u transferorders als bron voor voorzieningen gebruikt bij het plannen van voorraadniveaus.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d2c51e5851fec0c451c058fcb7330ce456d4525c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e937c6f261c3fe2249a066b9c3f8819424f3d2f0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439597"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141293"
 ---
 # <a name="design-details-transfers-in-planning"></a>Ontwerpdetails: Transfers in planning
 Transferorders zijn ook een voorzieningenbron bij het werken op SKU-niveau. Als meerdere vestigingen (magazijnen) worden gebruikt, kan de SKU-aanvullingsmethode worden ingesteld op Transfer, wat aangeeft dat de vestiging wordt aangevuld door goederen van een andere vestiging over te brengen. In een situatie met meerdere magazijnen hebben bedrijven mogelijk een transferketen waarbij voorziening aan de GROENE vestiging wordt overgebracht vanuit GEEL, voorziening aan GEEL wordt overgebracht vanuit ROOD, enzovoort. Aan het begin van de keten is er een aanvullingssysteem Prod.-order of Inkoop.  

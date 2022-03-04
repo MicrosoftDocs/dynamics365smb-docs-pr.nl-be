@@ -2,7 +2,6 @@
 title: Inkopers instellen en toewijzen aan leveranciers (bevat video)
 description: Als meerdere inkopers of inkoopagents bij uw bedrijf werken, kunt u deze voor statistische analyses organiseren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 83956e1e134e00c33f35b260e682bd2d467bfb9f
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 17f307f76f4f34e431b8ee2239886d91bc2c26e3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953321"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140721"
 ---
 # <a name="set-up-purchasers"></a>Inkopers instellen
 Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina instellen en aan iedere verkoper een code toewijzen. U kunt de codes vervolgens gebruiken voor statistische gegevens en om gegevens voor af te drukken lijsten te filteren.<br><br>  

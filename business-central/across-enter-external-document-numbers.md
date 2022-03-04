@@ -2,7 +2,6 @@
 title: Externe documentnummers invoeren
 description: U kunt externe documentnummers voor klanten en leveranciers invoeren in alle verkoop- en inkooporders, facturen en creditnota's. U kunt deze nummers gebruiken om later geboekte verkoop- en inkoopregels te zoeken.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: 2841473825ebc0fee7c9357e14e7520b94fd3793
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f667ab258d134ab904b75c7a357b6739db3118d9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437789"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141683"
 ---
 # <a name="enter-external-document-numbers"></a>Externe documentnummers invoeren
 

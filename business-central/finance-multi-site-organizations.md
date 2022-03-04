@@ -2,7 +2,6 @@
 title: Business Central voor organisaties met meerdere vestigingen en internationale organisaties | Microsoft Docs
 description: Business Central biedt mogelijkheden die een hub-and-spoke bedrijfsmodel ondersteunen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437378"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141111"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central voor organisaties met meerdere vestigingen en internationale organisaties
 Organisaties met meerdere vestigingen gebruiken vaak een hub en spoke-bedrijfsmodel waarbij een moedermaatschappij of hoofdkantoor de algehele activiteiten van het bedrijf beheert, terwijl elke vestiging fungeert als een enkele, op zichzelf staande entiteit. Vestigingen zijn vaak geografisch verspreid en hebben verschillende behoeften wat betreft het delen van informatie met het hoofdkantoor. Bovendien hebben vestigingen doorgaans niet hetzelfde niveau van complexiteit nodig en hebben ze vaak niet de middelen om een groot systeem te onderhouden.

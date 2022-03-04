@@ -3,7 +3,6 @@ title: De extensie Problemen oplossen met VA-posten
 description: Het is gemakkelijker om met hele getallen te werken. Gebruik deze extensie om bedragen voor vaste activa in het VA-grootboek af te ronden.
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 39bfc61cf928b6556a3c54625c8b6f9221553c93
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865599"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142327"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>De extensie Problemen oplossen met VA-posten
 Gebruik de extensie Problemen oplossen met VA-posten om afschrijvings- en verwervingsbedragen in VA-posten af te ronden op hele getallen. Bijvoorbeeld om een bedrag van 30.000,44 af te ronden op 30.000. Typische oorzaken van afrondingsproblemen zijn gegevensmigratie, plotseling beginnen met het boeken van bedragen naar het grootboek of aanpassingen die u aan uw [!INCLUDE[prod_short](includes/prod_short.md)] hebt aangebracht.
