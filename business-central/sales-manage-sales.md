@@ -2,7 +2,6 @@
 title: Overzicht van taken om verkoop te beheren
 description: Lees alles over hoe u de services van Business Central kunt gebruiken voor het beheren van verkoopactiviteiten met uw klanten met verkoopfacturen, bestellingen, offertes en meer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: trade, sell
 ms.search.form: 253
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 815c9240c9c81129009f70f050c869df4eea9b3a
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: de181f3f2cd074eeeef96306c61735b2e3ad96c9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101015"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128614"
 ---
 # <a name="sales"></a>Verkoop
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.

@@ -2,7 +2,6 @@
 title: Opgeven wanneer en hoe gebruikers werkstroomberichten ontvangen
 description: Wanneer u gebruikers instelt in goedkeuringswerkstromen, kunt u specificeren hoe en wanneer elke goedkeuringsgebruiker berichten ontvangt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6812fa270066b03fa64a7d8c664ef4df8d28eff0
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102511"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129188"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Opgeven wanneer en hoe gebruikers werkstroomberichten ontvangen
 Wanneer u goedkeuringsgebruikers instelt in werkstromen waarin u wilt dat iemand wijzigingen goedkeurt, zoals wanneer nieuwe records worden gemaakt of wanneer iemand om goedkeuring vraagt, moet u specificeren hoe en wanneer de goedkeuringsgebruiker op de hoogte wordt gesteld. U kunt bijvoorbeeld opgeven dat een goedkeuringsgebruiker onmiddellijk een e-mail ontvangt wanneer iemand een nieuwe klant aanmaakt. Als alternatief kunt u plannen dat de berichten bijvoorbeeld wekelijks of maandelijks worden bezorgd.

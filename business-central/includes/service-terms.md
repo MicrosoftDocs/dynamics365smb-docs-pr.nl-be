@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc1c27bd31420eeac603a189b053e26010f4ef83
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: adfc67b3e460d9af9cae7f78fe60f4a4efae78e1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772866"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128777"
 ---
 [!INCLUDE[prod_short](prod_short.md)] online valt onder de [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). De voorwaarden van de dienstverleningsovereenkomst worden beschreven in het document dat u kunt downloaden uit de sectie **Dienstverleningsovereenkomsten voor Microsoft Online Services** op de pagina [Licentievoorwaarden](https://www.microsoft.com/licensing/product-licensing/products).  
 

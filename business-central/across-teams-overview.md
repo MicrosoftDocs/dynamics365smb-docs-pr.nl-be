@@ -2,7 +2,6 @@
 title: Overzicht van integratie tussen Business Central en Microsoft Teams | Microsoft Docs
 description: Deel Business Central-records rechtstreeks in een Teams-gesprek.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 943fd46025a736ae7f32f8fbb02fcacbefb32e8e
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011857"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138755"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integratie tussen Business Central en Microsoft Teams
 
@@ -53,7 +52,7 @@ Zie voor meer informatie [Records delen in Microsoft Teams](across-working-with-
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Koppeling vanuit pagina's in Business Central delen met Teams
 
-Direct vanaf de meeste collectie- en detailpagina's in Business Central kunt u de actie **Delen met Teams** gebruiken vanuit het pictogram ![!Het menupictogram Delen op pagina's](media/share-icon.png "Het menu Delen weergegeven op een kaart."). om een bericht te typen, ontvangers te kiezen, zoals teamleden, groepen of kanalen, en het bericht te verzenden met een koppeling naar de Business Central-pagina.
+Direct vanaf de meeste collectie- en detailpagina's in Business Central kunt u de actie **Delen met Teams** gebruiken vanuit het pictogram ![!Het menupictogram Delen op pagina's.](media/share-icon.png "Het menu Delen weergegeven op een kaart.") om een bericht te typen, ontvangers te kiezen, zoals teamleden, groepen of kanalen, en het bericht te verzenden met een koppeling naar de Business Central-pagina.
 
 ![!Het menu Delen weergegeven op een kaart.](media/teams-share-link.png "Het menu Delen weergegeven op een kaart.")
 

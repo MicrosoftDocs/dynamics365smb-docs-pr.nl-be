@@ -4,7 +4,6 @@ description: Hier wordt een overzicht van de taken gegeven die u moet instellen 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8a0e8225d69d04ce82d0e0243f3e98207c892175
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: ae2dd8a55c030d06e839a97f482adf1c548d6dbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011983"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128526"
 ---
 # <a name="delivering-service"></a>Service leveren
 Met [!INCLUDE[prod_short](includes/prod_short.md)] beschikt u over functies waarmee u services kunt leveren op basis van de contracten die u hebt opgesteld en de afgesloten serviceorders die u dient na te komen. Uw servicetechnici of planners kunnen de uitstaande serviceorders gemakkelijk vinden indien ze **Planbord** gebruiken. In het **planbord** wordt op een overzichtelijke manier aangegeven welke orders in behandeling zijn en welke voltooid zijn.  

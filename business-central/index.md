@@ -2,19 +2,18 @@
 title: Welkom bij Microsoft Dynamics 365 Business Central
 description: Lees meer over mogelijkheden en werkscenario's in Business Central waarmee bedrijven hun bedrijf kunnen beheren, inclusief financiën, productie, verkoop, verzending, projectbeheer, services en meer.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 91faf4a1adeb6b53ffd8dbca81d8ef72df90b97e
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724849"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138504"
 ---
 # <a name="welcome-to-prod_long"></a>Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]
 

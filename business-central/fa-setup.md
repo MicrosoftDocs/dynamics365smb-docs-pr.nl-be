@@ -2,7 +2,6 @@
 title: Vaste activa instellen
 description: Leren over de reeks taken die u moet uitvoeren om vaste activa in te stellen, zoals machines of gebouwen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 874c1c18611f0aa165a8537642324334e8e0798a
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 3213dfabc13b9402c794589b6bced5fe3350cf5d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029548"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136204"
 ---
 # <a name="setting-up-fixed-assets"></a>Vaste activa instellen
 Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:  

@@ -2,7 +2,6 @@
 title: Een service voor documentuitwisseling instellen | Microsoft Docs
 description: U gebruikt een externe serviceprovider om elektronische documenten uit te wisselen met uw handelspartners.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: eea1b946814803c1f05d5b4985d3c5330931fbc6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588763"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133394"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Een service voor documentuitwisseling instellen
 Als onderdeel van het Data Exchange Framework kunt u zonder extra stappen verkoop- en inkoopdocumenten uitwisselen met uw handelspartners, zoals het toevoegen van de documenten aan e-mailberichten als PDF-bestanden. Als u bijvoorbeeld klaar bent om een klant te factureren, kunt u de factuur boeken en voor betaling verzenden als een bestand dat uw klant kan ontvangen in hun bedrijfsbeheertoepassing. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.

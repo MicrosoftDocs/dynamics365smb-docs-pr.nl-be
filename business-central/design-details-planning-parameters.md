@@ -2,7 +2,6 @@
 title: 'Ontwerpdetails: Planningsparameters'
 description: In dit onderwerp worden de verschillende planningsparameters beschreven die u kunt gebruiken en hoe deze het planningssysteem beïnvloeden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649824"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131989"
 ---
 # <a name="design-details-planning-parameters"></a>Ontwerpdetails: Planningsparameters
 Dit onderwerp beschrijft de verschillende planningsparameters die u kunt gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)].  

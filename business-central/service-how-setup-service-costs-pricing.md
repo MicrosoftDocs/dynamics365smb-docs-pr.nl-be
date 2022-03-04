@@ -2,7 +2,6 @@
 title: Prijzen en kosten voor services instellen
 description: Leer hoe u prijsstellingsfuncties gebruikt om uw toepassing zo in te stellen en aan te passen dat u prijzen voor serviceartikelen, herstelbewerkingen en orders kunt toepassen en wijzigen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 595f25f872cf669d4b79f1cc10542b46e2da22d2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 52ffc9d1d0ebce87a4e0f952e3f742a0159e1cc1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436563"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136963"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Prijzen en aanvullende kosten voor services instellen
 Met de prijsstellingsfuncties van [!INCLUDE[prod_short](includes/prod_short.md)] kunt u uw toepassing zo instellen en aanpassen dat u prijzen voor serviceartikelen, herstelbewerkingen en orders kunt toepassen en wijzigen. Deze prijsbeslissingen kunnen vervolgens gemakkelijk worden overgebracht naar het factureringsproces.  

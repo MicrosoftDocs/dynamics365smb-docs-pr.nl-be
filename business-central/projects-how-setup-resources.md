@@ -2,7 +2,6 @@
 title: Projectresourcekosten, prijzen en capaciteit instellen
 description: Als u resources wilt gebruiken en projectbeheer wilt mogelijk maken, geeft u kosten en prijzen voor afzonderlijke resources of resourcegroepen op en stelt u de resourcecapaciteit in.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a91bf2cbd82f2b4c8374a1773a6603f52c47c581
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 08d73d46283908a811fd9690b6e4ea43e35d5118
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972264"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137431"
 ---
 # <a name="set-up-resources-for-projects"></a>Resources instellen voor projecten
 

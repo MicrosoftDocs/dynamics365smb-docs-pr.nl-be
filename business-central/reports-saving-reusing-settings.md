@@ -2,7 +2,6 @@
 title: Opgeslagen instellingen beheren voor rapporten en batchtaken
 description: Hier wordt beschreven hoe de beheerder vooraf gedefinieerde opties en filters voor een rapport kan instellen en deze instellingen kan delen met een of alle gebruikers.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 289603bcfb11b50711a854c355a99781a8e77264
-ms.sourcegitcommit: 8837ed2aeb454806e153145c675cf049a020ea38
+ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944085"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137197"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Opgeslagen instellingen beheren voor rapporten en batchtaken
 

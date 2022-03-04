@@ -2,7 +2,6 @@
 title: De extensie Gegevensarchief
 description: Door gegevens te archiveren maakt u een goedkope back-up van uw records.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: e2df40494f72260a1ce7e66f57ea1c96fb35b301
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012089"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130838"
 ---
 # <a name="the-data-archive-extension"></a>De extensie Gegevensarchief
 Na verloop van tijd zal uw bedrijf een aanzienlijke hoeveelheid gegevens verzamelen en als beheerder is het waarschijnlijk een goed idee om een strategie te hebben voor het archiveren van gegevens. Het hebben van veel gegevens kan zaken vertragen. Het kan bijvoorbeeld iets langer duren om rapporten te genereren of zelfs records te vergrendelen. Bovendien kunnen grote hoeveelheden gegevens leiden tot hogere opslagkosten.

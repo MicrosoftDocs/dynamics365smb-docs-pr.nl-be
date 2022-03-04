@@ -2,7 +2,6 @@
 title: Artikelen opslaan met magazijnopslag | Microsoft Docs
 description: Leer hoe u op verschillende manieren artikelen kunt opslaan in Business Central met de volgende magazijnopslagtaken.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0f4dbac3c3131cf31690710cba9457e7508acad5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: bf748b94ec2a53eb92464a94c1172dd6971c8389
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438094"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134574"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Artikelen opslaan met magazijnopslag
 Wanneer voor de vestiging magazijnopslag- en -ontvangstverwerking is vereist, beheert u de opslag van artikelen met de functie voor magazijnopslagdocumenten.  

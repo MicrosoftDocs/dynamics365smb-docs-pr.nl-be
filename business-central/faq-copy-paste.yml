@@ -2,12 +2,13 @@
 metadata:
   title: Veelgestelde vragen over gegevens kopiëren en plakken
   description: Krijg antwoorden op veelgestelde vragen over het kopiëren en plakken van gegevens uit velden en rijen van Business Central-pagina's.
-  ms.openlocfilehash: e52c60da284ba8144975c88b138ca4e7218fa2ab
-  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+  ms.topic: faq
+  ms.openlocfilehash: a8c70088338b022802cf72d9a77da1c4e8263af1
+  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 05/28/2021
-  ms.locfileid: "6115755"
+  ms.lasthandoff: 02/15/2022
+  ms.locfileid: "8133822"
 title: Veelgestelde vragen over kopiëren en plakken
 summary: "U kunt een of meer rijen (records) uit een lijst of een enkel veld op een pagina kopiëren en vervolgens wat u hebt gekopieerd, plakken op dezelfde pagina, een andere pagina of een extern document (zoals Microsoft Excel en Outlook-e-mail).  \n\nAls u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs). Er zijn verschillende andere toetsenbordsneltoetsen voor het kopiëren en plakken die u helpen tijd te besparen wanneer u gegevens invoert. Zie voor meer informatie hierover [Toetsenbordsneltoetsen](keyboard-shortcuts.md#CopyRows). In dit artikel worden veelgestelde vragen beantwoord over kopiëren en plakken.  \n"
 sections:
