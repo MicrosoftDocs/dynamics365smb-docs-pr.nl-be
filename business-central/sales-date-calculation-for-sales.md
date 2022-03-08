@@ -1,20 +1,21 @@
 ---
-title: Datumberekening voor verkoop
-description: De toepassing berekent automatisch de datum waarop u een artikel moet bestellen zodat u het op een bepaalde datum in voorraad hebt en beschikbaar hebt voor picken.
+title: Datumberekening voor verkoop | Microsoft Docs
+description: De toepassing berekent automatisch de datum waarop u een artikel moet bestellen zodat u het op een bepaalde datum in voorraad hebt. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bee576ce77411e15710e9f09ccbc6ef457f80728
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 26782d211d205bb5414c5bd423ccf240f70f197e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145458"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748480"
 ---
 # <a name="date-calculation-for-sales"></a>Datumberekening voor verkoop
 [!INCLUDE[prod_short](includes/prod_short.md)] berekent automatisch de vroegst mogelijke datum waarop een artikel op een verkooporderregel kan worden verzonden.
@@ -45,6 +46,3 @@ Als u geen aangevraagde leverdatum op de verkooporderregel hebt opgegeven of als
  [Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)   
  [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

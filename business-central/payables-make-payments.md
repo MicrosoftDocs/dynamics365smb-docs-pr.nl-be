@@ -1,21 +1,21 @@
 ---
-title: Overzicht van taken om betalingen aan leveranciers te beheren
+title: Overzicht van taken om betalingen aan leveranciers te beheren | Microsoft Docs
 description: Schetst taken om betalingen aan leveranciers en schuldeisers te beheren, bijvoorbeeld het boeken van betalingsregels en het ophalen van een overzicht van het verschuldigde saldo.
 author: edupont04
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 6cda8910fdd2f0bdaa3e79a193cae5274d6f9ba8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0606d5ab3130844be35bc7d0bcba210c83bf3e70
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137769"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313648"
 ---
 # <a name="making-payments"></a>Betalingen uitvoeren
 
@@ -37,7 +37,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Boek betalingen aan leveranciers of werknemers en terugbetalingen aan klanten en vereffen de betalingen optioneel met de gerelateerde niet-betaalde facturen/creditnota's om deze als betaald te sluiten.|[Betalingen en terugbetalingen vastleggen](payables-how-post-payments-refunds.md)|
 | Gebruik een functie op de pagina **Betalingsdagboek** om leveranciersbetalingen voor te stellen volgens geselecteerde criteria, zoals kortingsgeschiktheid, vervaldatum en uw liquiditeit. |[Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md) |
 | Geef cheques uit voor leveranciersbetalingen of terugbetalingen aan klanten, hetzij als afdrukken, hetzij als automatische cheques. Cheques nietig verklaren voor of na het boeken. |[Chequebetalingen doen](payables-how-work-checks.md) |
-|Elektronische betalingen doen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
+|Doe elektronische betalingen op basis van de EU-norm voor SEPA-krediettransfers.|[Betalingen verrichten met de conversieservice van bankgegevens of SEPA-overmaking](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Een leverancier contant of per cheque betalen en de betaling boeken op het moment dat u de factuur boekt. |[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. |[Een Positive Pay-bestand exporteren](finance-how-positive-pay.md) |
 
@@ -45,7 +45,4 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

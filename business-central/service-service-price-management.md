@@ -1,20 +1,23 @@
 ---
-title: Beheer serviceprijs
-description: Met serviceprijsbeheer kunt u serviceprijsgroepen, serviceprijzen, aanpassing van serviceprijzen en meer instellen.
+title: Beheer serviceprijs | Microsoft Docs
+description: In dit onderwerp wordt beschreven hoe u de juiste prijs kunt toepassen op serviceorders, persoonlijke serviceprijsovereenkomsten kunt opzetten voor klanten, de efficiëntie van uw werknemers kunt verbeteren en het factureringsproces kunt versnellen.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-financials
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 08/28/2017
 ms.author: bholtorf
-ms.openlocfilehash: e6cfc801e40bfae60dd687ede073bd4367e69092
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a4b5b946d6c1402ad1a27661267c202b703cc1c1
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142973"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249894"
 ---
 # <a name="service-price-management"></a>Beheer serviceprijs
 Met de functionaliteit voor serviceprijsbeheer kunt u de juiste prijs toepassen op serviceorders, persoonlijke serviceprijsovereenkomsten opzetten voor klanten, de efficiëntie van uw werknemers verbeteren en het factureringsproces versnellen.  
@@ -28,13 +31,11 @@ Voordat u de prijs van een serviceartikel op een serviceorder aanpast, ziet een 
 Ten slotte kunt u via statistieken en standaardlijsten over de serviceprijsgroepen bijhouden hoe winstgevend de verschillende serviceprijsgroepen zijn.  
   
 ## <a name="service-price-adjustment-groups"></a>Serviceprijsherwaarderingsgroepen  
-Met serviceprijsherwaarderingsgroepen stelt u de verschillende soorten prijsherwaarderingen in voor serviceregels. U kunt bijvoorbeeld een serviceprijsherwaarderingsgroep instellen waarmee de prijzen voor reserveonderdelen worden aangepast, een groep waarmee de loonkosten worden aangepast, een groep waarmee de kosten worden aangepast, enzovoort. U kunt ook opgeven of de serviceprijsherwaardering alleen op een bepaald artikel of een bepaalde resource moet worden toegepast of op alle artikelen en resources.  
+Met serviceprijsherwaarderingsgroepen stelt u de verschillende soorten prijsherwaarderingen in. U kunt bijvoorbeeld een serviceprijsherwaarderingsgroep instellen waarmee de prijzen voor reserveonderdelen worden aangepast, een groep waarmee de loonkosten worden aangepast, een groep waarmee de kosten worden aangepast, enzovoort. U kunt ook opgeven of de serviceprijsherwaardering alleen op een bepaald artikel of een bepaalde resource moet worden toegepast of op alle artikelen en resources.  
   
-De functie voor serviceprijsherwaardering is onder de volgende condities niet van toepassing op serviceartikelen:
-
-* Het artikel behoort tot servicecontracten. U kunt alleen de serviceprijzen aanpassen van artikelen die onderdeel zijn van een serviceorder. 
-* Als het serviceartikel een garantie heeft. 
-* Als de serviceregel is geboekt als factuur, geheel of gedeeltelijk.  
+Elke serviceprijsherwaarderingsgroep bevat informatie over de herwaarderingen die u wilt maken op de serviceregels.  
+  
+De functie voor serviceprijsherwaardering is niet van toepassing op serviceartikelen die horen bij servicecontracten. U kunt alleen de serviceprijzen aanpassen van artikelen die onderdeel zijn van een serviceorder. U kunt de prijs van een serviceartikel met garantie niet aanpassen. Ook kunt u de prijs van een serviceartikel voor een serviceorder niet wijzigen als de hieraan gekoppelde serviceregel geheel of gedeeltelijk is geboekt als factuur.  
   
 Als u de functie voor serviceprijsherwaarderingen uitvoert, worden alle kortingen in de order vervangen door de waarden van de serviceprijsherwaardering.  
   
@@ -49,12 +50,6 @@ Als u een serviceprijsgroep toewijst aan een serviceartikel, gelden alle special
 U stelt de werkelijke soorten serviceprijs (prijsherwaarderingssoort en prijs) in voor een combinatie van serviceprijsgroepen en klantenprijsgroepen. Voor elk soort serviceprijs selecteert u een serviceprijsherwaarderingsgroep. U geeft ook het serviceprijsherwaarderingssoort, vast, maximaal of minimum, en de werkelijke prijs op.  
   
 U kunt bijvoorbeeld soorten serviceprijzen instellen voor een radioserviceprijsgroep. Voor klanten zonder prijsgroep kunt u serviceprijzen met maximumarbeidskosten vastleggen. Dit is de herwaarderingsgroep voor arbeidskosten. Voor klanten met een bepaalde prijsgroep kunt u serviceprijzen met vaste arbeidskosten vastleggen, in dezelfde herwaarderingsgroep voor arbeidskosten.  
-
-#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceartikelen** in en kies vervolgens de gerelateerde koppeling  
-2. Selecteer het serviceartikel, vouw het sneltabblad **Prijzen en verkoop** uit en kies de actie **Resource**, **Artikel** of **Grootboekrekening**.
-3. Vul op de pagina **Resourceprijzen project**, **Artikelprijzen project** of **GB-rekeningprijzen project** de velden zoals nodig in.
-
   
 ## <a name="service-price-adjustment"></a>Serviceprijsherwaardering  
 Met serviceprijsherwaarderingen kunt u de prijs van artikelen, resources, grootboekrekeningen of kosten op serviceorders aanpassen.  
@@ -74,6 +69,3 @@ De volgende tabel geeft een beschrijving van de berekeningen.
 ## <a name="see-also"></a>Zie ook  
 [Prijzen en aanvullende kosten voor services instellen](service-how-setup-service-costs-pricing.md)  
 [CRM - Service instellen](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

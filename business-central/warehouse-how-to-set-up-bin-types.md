@@ -1,20 +1,21 @@
 ---
-title: Opslaglocatiesoorten instellen
-description: Wijs typen en basisstroomactiviteiten toe aan opslaglocaties en definieer daarbij de manier waarop de opslaglocaties worden gebruikt voor bepaalde magazijnactiviteiten.
+title: Opslaglocatiesoorten instellen | Microsoft Docs
+description: U kunt de stroom van artikelen beheren via opslaglocaties die door u zijn gedefinieerd voor speciale magazijnactiviteiten. Met het toewijzen van een soort aan een opslaglocatie stelt u een aantal basisactiviteiten voor de locatie in, en daarmee ook de manier waarop de opslaglocatie in wordt gebruikt.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7367
-ms.date: 06/25/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f45908cf5a1d4352039cf83ab1db2719caca8a53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: ee6694f15a8717c44504dea274fa50de7a1e6e6f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334602"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756029"
 ---
 # <a name="set-up-bin-types"></a>Opslaglocatiesoorten instellen
 U kunt de stroom van artikelen beheren via opslaglocaties die door u zijn gedefinieerd voor speciale magazijnactiviteiten. Met het toewijzen van een soort aan een opslaglocatie stelt u een aantal basisactiviteiten voor de locatie in, en daarmee ook de manier waarop de opslaglocatie in wordt gebruikt.  
@@ -22,7 +23,7 @@ U kunt de stroom van artikelen beheren via opslaglocaties die door u zijn gedefi
 Er zijn zes soorten. U kunt binnen uw magazijn met alle zes mogelijke opslaglocatiesoorten werken of kunt u werken met alleen de opslaglocatiesoorten ONTVANGEN, OPSLAGPICK, VERZENDEN en QC. Bij deze vier soorten opslaglocaties kunnen suggesties worden aangebracht die de stroom van artikelen ondersteunen en het vastleggen van voorraadafwijkingen mogelijk maken.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>U kunt als volgt de gewenste soorten opslaglocatie instellen  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Opslaglocatiesoorten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslaglocatiesoorten** in en kies de gerelateerde koppeling.  
 2.  Op de pagina **Opslaglocatiesoorten** geeft u een code op voor het soort opslaglocatie (10 cijfers en/of letters).  
 3.  Selecteer de activiteiten die bij elke opslaglocatiesoort kunnen worden uitgevoerd.  
 
@@ -49,6 +50,3 @@ Hieronder vindt u een overzicht van de soorten opslaglocaties die u kunt maken.
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

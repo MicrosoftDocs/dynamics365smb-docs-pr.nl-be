@@ -2,6 +2,7 @@
 title: Speciale orders maken
 description: Leren hoe u een speciale order maakt om een bepaald catalogusartikel dat niet op voorraad is, te verzenden aan een bepaalde klant.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d879e8cfb556ca0c7fc496f72ec653826e8d7db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 80c26420a4a8e90a2a2b076169f6af505343ad76
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128725"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440265"
 ---
 # <a name="create-special-orders"></a>Speciale orders maken
 U kunt een speciale order maken om een bepaald catalogusartikel dat niet op voorraad is, te verzenden aan een bepaalde klant. Het artikel wordt door uw leverancier verzonden naar uw magazijn, zodat u het vervolgens afzonderlijk of samen met artikelen van een andere order kunt verzenden aan uw klant.  

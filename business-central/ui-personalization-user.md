@@ -1,21 +1,21 @@
 ---
-title: Pagina's personaliseren (bevat video)
-description: Leer hoe u de gebruikersinterface kunt aanpassen en uw werkruimte kunt aanpassen aan uw manier van werken en persoonlijke voorkeuren in Business Central.
+title: Pagina's aanpassen | Microsoft Docs
+description: Meer informatie over hoe u de gebruikersinterface kunt aanpassen aan uw manier van werken in Business Central.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 95ed69baac51d4c343c639e8ddcea2db29520340
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8b29f96f37448c2ca6eb02330946171adb5f04b9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334687"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925584"
 ---
 # <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
 U kunt uw werkruimte aanpassen aan uw werk- en persoonlijke voorkeuren door pagina's te wijzigen zodat deze alleen de gegevens weergeven die u nodig hebt en waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat u ziet, niet wat andere gebruikers kunnen zien.
@@ -42,7 +42,7 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Een pagina personaliseren via de banner **Personaliseren**
 1. Open een pagina die u wilt personaliseren.
-2. Selecteer in de rechterbovenhoek het pictogram ![Instellingen.](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Personaliseren**.
+2. In de rechterbovenhoek selecteert u het pictogram ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en vervolgens kiest u de actie **Personaliseren**.
 
     De banner **Personaliseren** verschijnt bovenin, waarmee wordt aangegeven dat u wijzigingen kunt gaan aanbrengen.
 
@@ -143,9 +143,6 @@ Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrij
 
 ## <a name="see-also"></a>Zie ook
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

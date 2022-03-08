@@ -1,20 +1,21 @@
 ---
-title: Plannen van opslagactiviteiten in werkbladen
-description: Stel uw magazijn zo in dat ontvangstregels voor u beschikbaar zijn in het opslagvoorstel wanneer u opslaginstructies voor ontvangsten wilt plannen.
+title: Plannen van opslagactiviteiten in werkbladen | Microsoft Docs
+description: Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van de toepassing voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: b7bd6481c6347cfb9c8d02ba58f38101802a6caa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 4537a7f6d450ec71e574c85cef1987232f792479
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131131"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876548"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plannen van opslagactiviteiten in werkbladen
 Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van de toepassing voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.  
@@ -30,7 +31,7 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
 > 2.  Voer deze stap uit voor alle gewenste opslaginstructies, totdat u alle regels hebt verwijderd waarmee u in het voorstel aan de slag wilt. Klik nu op **Opslagvoorstellen** en ga door met de planning.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>U kunt als volgt instructies plannen in het opslagvoorstel  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Opslagvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opslagvoorstel** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Magazijndocumenten ophalen**. De pagina **Opslagselectie** verschijnt.  
 
     Dit venster bevat alle geboekte ontvangsten en geregistreerde interne opslagactiviteiten die zijn doorgestuurd naar de opslagfunctie, inclusief de activiteiten waarvoor de opslaginstructies al zijn gemaakt. De lijst bevat geen documenten met opslagregels die volledig zijn uitgevoerd en geregistreerd.  
@@ -67,7 +68,4 @@ Als u dit veld niet selecteert, worden er bij het boeken van ontvangsten automat
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

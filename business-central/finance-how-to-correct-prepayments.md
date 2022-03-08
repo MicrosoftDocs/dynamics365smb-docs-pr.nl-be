@@ -1,20 +1,21 @@
 ---
-title: Vooruitbetalingen storneren
-description: U kunt een order corrigeren nadat u een vooruitbetalingsfactuur voor de order heeft geboekt en nieuwe regels aan een order toevoegen nadat u een vooruitbetaling heeft gedaan.
+title: Vooruitbetalingen corrigeren | Microsoft Docs
+description: Nadat u een vooruitbetalingsfactuur voor de order hebt geboekt, kunt u een correctie aanbrengen op een order. U kunt nieuwe regels toevoegen aan een order na het verzenden van een vooruitbetaling en vervolgens kunt u een andere vooruitbetalingsfactuur boeken, maar u kunt een regel niet uit een order verwijderen nadat een vooruitbetaling voor de regel is gefactureerd.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
-ms.date: 06/16/2021
+ms.search.keywords: ''
+ms.date: 07/03/2020
 ms.author: edupont
-ms.openlocfilehash: 47ff4066e41cc225f7d02556b5e30f9f6d9eaa5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 36dfeee0f4180a6fd427c3d9c4caa65ad07883f5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138556"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783436"
 ---
 # <a name="correct-prepayments"></a>Vooruitbetalingen storneren
 
@@ -27,7 +28,7 @@ Nadat u een vooruitbetalingsfactuur voor de order hebt geboekt, kunt u een corre
 
 De volgende procedure toont hoe u een vooruitbetalingscreditnota verzendt om alle gefactureerde vooruitbetalingen voor een verkooporder te annuleren.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.  
 2. Open de betreffende verkooporder.
 3. Kies de actie **Vooruitbetaling** en kies vervolgens de actie **Vooruitbetalingscreditnota boeken** of **Vooruitbetalingscreditnota boeken en afdrukken**.  
 4. Corrigeer op de pagina **Verkoopcreditnota** de relevante posten, zoals voor elke verkoopcreditnota. Zie [Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md) voor meer informatie.  
@@ -43,7 +44,4 @@ De volgende procedure toont hoe u een vooruitbetalingscreditnota verzendt om all
 [Vooruitbetalingen factureren](finance-invoice-prepayments.md)  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -3,17 +3,18 @@ metadata:
   title: Over zoeken en filteren in Business Central
   description: Beantwoordt veelgestelde vragen over zoeken en filteren.
   author: mikebcMSFT
-  ms.topic: faq
+  ms.service: dynamics365-business-central
+  ms.topic: conceptual
   ms.reviewer: edupont04
   ms.search.keywords: keyboarding, productivity, how do i, filter pane
   ms.date: 04/01/2021
   ms.author: mikebc
-  ms.openlocfilehash: 58c0e15d418bdf8743acdbbe14eb01243bd30a14
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: 708033d8d803aebb871a83237962078bc6ab6a4f
+  ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8138244"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "6325850"
 title: Veelgestelde vragen over zoeken en filteren
 summary: In dit artikel worden enkele veelgestelde vragen beantwoord over zoeken en filteren in Business Central.
 sections:
@@ -50,7 +51,7 @@ sections:
       Is dit hetzelfde als Geavanceerde Filters en Limiettotalen in Microsoft Dynamics NAV?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] bouwt voort op deze populaire functies en levert een moderne en zeer praktische ervaring voor het zoeken en analyseren van uw gegevens. Dankzij meer toetsenbordsneltoetsen en de invoering van zoeken overtreft [!INCLUDE[prod_short](includes/prod_short.md)] de functionaliteit in Dynamics NAV.  \n"
   - question: >
-      Kan ik zoeken en filteren met de bijbehorende apps en de Microsoft 365-invoegtoepassingen?
+      Kan ik zoeken en filteren met de bijbehorende apps en de Microsoft 365-Invoegtoepassing?
     answer: >
       Op verschillende weergavebestemmingen, zoals mobiele apparaten of in Outlook, kunt u zoeken in lijsten, maar kunt u meestal niet filteren op afzonderlijke velden. In de [!INCLUDE[prod_short](includes/prod_short.md)]-app voor Microsoft Teams zijn zowel zoeken als filteren beschikbaar voor lijsten.
   - question: >

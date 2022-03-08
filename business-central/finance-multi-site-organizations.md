@@ -2,6 +2,7 @@
 title: Business Central voor organisaties met meerdere vestigingen en internationale organisaties | Microsoft Docs
 description: Business Central biedt mogelijkheden die een hub-and-spoke bedrijfsmodel ondersteunen.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cfdcdd68baa8fdd73ebc75d46650eeee65a28802
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141111"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935441"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central voor organisaties met meerdere vestigingen en internationale organisaties
 Organisaties met meerdere vestigingen gebruiken vaak een hub en spoke-bedrijfsmodel waarbij een moedermaatschappij of hoofdkantoor de algehele activiteiten van het bedrijf beheert, terwijl elke vestiging fungeert als een enkele, op zichzelf staande entiteit. Vestigingen zijn vaak geografisch verspreid en hebben verschillende behoeften wat betreft het delen van informatie met het hoofdkantoor. Bovendien hebben vestigingen doorgaans niet hetzelfde niveau van complexiteit nodig en hebben ze vaak niet de middelen om een groot systeem te onderhouden.
@@ -29,7 +30,7 @@ In dit artikel worden enkele manieren besproken waarop [!INCLUDE[prod_short](inc
 
 Het volgende diagram biedt een voorbeeld van verschillende vestiging die zijn geïntegreerd met een hoofdkantoor.
 
-![Diagrambeschrijving automatisch gegenereerd.](media/multisite-headquarter-sites.png)
+![Diagrambeschrijving automatisch gegenereerd](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Voldoen aan de behoeften van binnenlandse en internationale vestigingen
 
@@ -37,8 +38,8 @@ Zakelijke behoeften op vestigingen verschillen vaak op basis van de branche, zak
 
 Voor multinationale organisaties ondersteunt [!INCLUDE[prod_short](includes/prod_short.md)] lokale wettelijke vereisten en zakelijke praktijken.
 
-* Voor online versies zijn er meer dan [40 gelokaliseerde landversies](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) die u als extensies kunt installeren vanuit Microsoft AppSource.  
-* Voor on-premises versies zijn [landversies](/azure/architecture/solution-ideas/articles/business-central) beschikbaar als door Microsoft gelokaliseerde versies of als door partners geleide add-on-lokalisaties.
+* Voor online versies zijn er meer dan [40 gelokaliseerde landversies](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) die u als extensies kunt installeren vanuit Microsoft AppSource.  
+* Voor on-premises versies zijn [landversies](https://docs.microsoft.com/azure/architecture/solution-ideas/articles/business-central) beschikbaar als door Microsoft gelokaliseerde versies of als door partners geleide add-on-lokalisaties.
 
 Een netwerk van meer dan 4000 Microsoft-partners wereldwijd zorgt voor lokale expertise.
 
@@ -79,12 +80,12 @@ API's en XMLports vereenvoudigen het proces van het verbinden van exemplaren van
 | **Bedrijfsvereiste** | **Hoe Business Central deze ondersteunt** | **Meer informatie** |
 |-------------------------|-------------------------|-------------------------|
 | Verbind aangepaste versies tussen vestigingen en het hoofdkantoor. | API-pagina's kunnen elke weergave van een entiteit weergeven, inclusief de aanpassingen ervan. | [API's voor Business Central inschakelen](/dynamics-nav/enabling-apis-for-dynamics-nav) |
-| Versiebeheer en beveiliging. | API's gebruiken ODataV4, dat versiebeheer biedt, en webhooks en functies voor het bijhouden van wijzigingen. | [Beveiliging en bescherming](/dynamics365/business-central/dev-itpro/security/security-and-protection) |
-| Boeke en importeer XML-documenten. | Codeunits kunnen worden weergegeven als ongebonden acties om het boeken en opnemen van XML-documenten te ondersteunen. Voor het verwerken van XML-documenten kan XMLports worden toegepast. Ongebonden acties kunnen ook een XML- of JSON-document genereren. | [XMLport-objecten](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
+| Versiebeheer en beveiliging. | API's gebruiken ODataV4, dat versiebeheer biedt, en webhooks en functies voor het bijhouden van wijzigingen. | [Beveiliging en bescherming](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/security/security-and-protection) |
+| Boeke en importeer XML-documenten. | Codeunits kunnen worden weergegeven als ongebonden acties om het boeken en opnemen van XML-documenten te ondersteunen. Voor het verwerken van XML-documenten kan XMLports worden toegepast. Ongebonden acties kunnen ook een XML- of JSON-document genereren. | [XMLport-objecten](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Maak onderhoud eenvoudiger door middel van elektronische gegevensuitwisseling. | Een oplossing voor elektronische gegevensuitwisseling kan worden toegevoegd als integratielaag tussen het hoofdkantoor en vestigingen. | [Raamwerk voor gegevensuitwisseling](across-about-the-data-exchange-framework.md) |
-| Wissel gegevens uit tussen verschillende systemen. | Gebruik XMLports om XML-documenten te maken die vervolgens kunnen worden uitgewisseld tussen een hoofdkantoor dat één systeem gebruikt en vestigingen die Business Central gebruiken. | [XMLport-overzicht](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
+| Wissel gegevens uit tussen verschillende systemen. | Gebruik XMLports om XML-documenten te maken die vervolgens kunnen worden uitgewisseld tussen een hoofdkantoor dat één systeem gebruikt en vestigingen die Business Central gebruiken. | [XMLport-overzicht](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
 | Orkestreer complexe gegevensuitwisselingen. | Gebruik een combinatie van XMLports en Business Central en Microsoft BizTalk Server om aan unieke behoeften in uw vestigingen te voldoen.</br>Gebruik voor complexe behoeften een oplossing voor elektronische gegevensuitwisseling op basis van BizTalk Server en Commerce Gateway in Business Central in combinatie met XMLports. | [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md) |
-| Maak verbinding met oplossingen en diensten van derden. | API's brengen een point-to-point-verbinding tot stand tussen Business Central en oplossingen en diensten van derden. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
+| Maak verbinding met oplossingen en diensten van derden. | API's brengen een point-to-point-verbinding tot stand tussen Business Central en oplossingen en diensten van derden. | [API v2.0](https://docs.microsoft.com/dynamics-nav/api-reference/v2.0/) |
 
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Een efficiënte toeleveringsketen tussen bedrijven promoten
@@ -100,7 +101,7 @@ Vestigingen hebben vaak toegang nodig tot de toeleveringsketen en de mogelijkhei
 
 Het hoofdkantoor moet snel kunnen reageren op bedrijfsveranderingen bij elke vestiging. Gecombineerd met Power Automate kan [!INCLUDE[prod_short](includes/prod_short.md)] dienen als een mechanisme voor vroegtijdige waarschuwing.
 
-![Een schermafbeelding waarbij een beschrijving van een bericht op sociale media automatisch wordt gegenereerd.](media/multisite-apps.png)
+![Een schermafbeelding waarbij een beschrijving van een bericht op sociale media automatisch wordt gegenereerd](media/multisite-apps.png)
 
 | **Bedrijfsvereiste** | **Hoe Business Central deze ondersteunt** | **Meer informatie** |
 |-------------------------|-------------------------|-------------------------|

@@ -2,6 +2,7 @@
 title: Picken van artikelen voor magazijnverzending
 description: Leer hoe u de magazijnpickdocumenten kunt gebruiken om pickinformatie te maken en te verwerken voordat u de magazijnverzending boekt.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7335c388efc48f3c9a04238e7727817f28a7757f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b5b92c04fea101959c32775c768bbbaab22a7c3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128542"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441872"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
 Als voor de locatie zowel magazijnpickverwerking als magazijnverzendingsverwerking is vereist, gebruikt u magazijnpickdocumenten om de pickinformatie te beheren voordat u de magazijnverzending boekt.  

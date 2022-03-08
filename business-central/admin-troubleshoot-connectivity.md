@@ -2,6 +2,7 @@
 title: Problemen met connectiviteit oplossen
 description: Beschrijft hoe u de pagina Problemen met connectiviteit oplossen kunt gebruiken om problemen met verbinding met Business Central online te identificeren en op te lossen.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: 3e7714b14d0fa3875a2d5331f4c9b697eb4deca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143854"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443193"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Problemen met connectiviteit voor Business Central oplossen
 
@@ -30,22 +31,13 @@ ms.locfileid: "8143854"
 
 ## <a name="start-the-connectivity-check"></a>De verbindingscontrole starten 
 
-1. Open een internetbrowser.
-2. Voer in het adres de URL in die u gebruikt om Business Central te openen en voeg `/connectivity` aan het einde toe. 
-
-    Als u bijvoorbeeld `https://businesscentral.dynamics.com` gebruikt, voert u het volgende in:
+1. Selecteer [deze koppeling](https://businesscentral.dynamics.com/connectivity) of open uw internetbrowser en voer de volgende URL in het adres in:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-    Of als de URL de tenant-id bevat, zoals `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, dan voert u het volgende in:
-
-    ```http
-    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
-    ```
- 
-3. Kies op de pagina **Problemen met connectiviteit oplossen** **Controle starten**.
+2. Kies op de pagina **Problemen met connectiviteit oplossen** **Controle starten**.
 
     Er wordt een reeks controles uitgevoerd en het resultaat van elke controle wordt weergegeven:
 
@@ -53,7 +45,7 @@ ms.locfileid: "8143854"
     - ![Verbindingscontrole mislukt.](media/connectivity-failed.png) geeft aan dat de controle is mislukt. Bekijk het bericht onder de controle voor meer details.
     - ![De verbindingscontrole is niet uitgevoerd.](media/connectivity-blocked.png) geeft aan dat de controle niet is uitgevoerd, meestal vanwege het mislukken van een eerdere controle. Bekijk het bericht onder de controle voor meer details.
 
-4. Om de controle opnieuw uit te voeren kiest u **Controle opnieuw starten**.
+3. Om de controle opnieuw uit te voeren kiest u **Controle opnieuw starten**.
 
 In de volgende secties worden de uitgevoerde controles uitgelegd en worden enkele tips gegeven om eventuele problemen op te lossen.
 

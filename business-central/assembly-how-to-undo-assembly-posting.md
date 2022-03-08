@@ -1,20 +1,21 @@
 ---
-title: Boeken van assemblage ongedaan maken
-description: Soms moet u een geboekte assemblyorder ongedaan maken, bijvoorbeeld wanneer de order met fouten is geboekt die moeten worden gecorrigeerd.
+title: 'Procedure: Assemblageboeking ongedaan maken | Microsoft Docs'
+description: Soms moet u mogelijk een geboekte assemblageorder verwijderen, zoals wanneer de order is geboekt met fouten die moeten worden gecorrigeerd of omdat deze niet geboekt had mogen worden en moet worden teruggedraaid.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 245eaede4bce79fa3626d5a8a8d102b9c190ccaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d672b28dda7c586bd68412fbbb89fb8e33cba1b8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143776"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747328"
 ---
 # <a name="undo-assembly-posting"></a>Boeken van assemblage ongedaan maken
 Soms moet u mogelijk een geboekte assemblageorder verwijderen, zoals wanneer de order is geboekt met fouten die moeten worden gecorrigeerd of omdat deze niet geboekt had mogen worden en moet worden teruggedraaid.
@@ -39,7 +40,7 @@ Verder kunnen bestaande assemblageorders uitsluitend worden teruggedraaid als he
 De volgende procedure beschrijft het ongedaan maken van geboekte assemblageorders waarvoor artikelen zijn geassembleerd voor voorraad. Als u geboekte assemblageorders waarvoor artikelen zijn geassembleerd ten behoeve van een verkooporder ongedaan wilt maken, moet u de functie **Verzending ongedaan maken** gebruiken voor de geboekte verzending die betrekking heeft op de geboekte assemblageorder. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md). Het ongedaan het maken van de geboekte assemblageorder geschiedt vervolgens automatisch en op dezelfde wijze als in dit onderwerp is beschreven.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Het boeken van een assemblageorder ongedaan maken  
-1.  Om een geheel of gedeeltelijk geboekte assemblyorder ongedaan te maken, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geboekte assemblyorders** in en kiest u vervolgens de gerelateerde koppeling  
+1.  Als u een volledig of gedeeltelijk geboekte assemblageorder ongedaan wilt maken, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geboekte assemblageorders** in en kiest u de gerelateerde koppeling.  
 
     De pagina **Geboekte assemblageorders** wordt geopend met een of meer assemblageorders die zijn geboekt voor de assemblageorder in kwestie. Elke gedeeltelijke boeking leidt tot het maken van een afzonderlijk geboekte assemblageorder.  
 2.  Open de geboekte assemblyorder die u ongedaan wilt maken en kies vervolgens de actie **Assemblage ongedaan maken**.  
@@ -60,6 +61,3 @@ Het veld **Tegengeboekt** in de assemblageorder verandert in **Ja**. De assembla
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

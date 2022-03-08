@@ -1,26 +1,29 @@
 ---
-title: Capaciteit boeken
-description: Boek verbruikte capaciteiten die niet zijn toegewezen aan de productieorder in het capaciteitsjournaal en bekijk geboekte capaciteiten op de pagina met capaciteitsposten.
+title: Capaciteit boeken | Microsoft Docs
+description: In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegewezen aan de productieorder. Onderhoudswerk moet bijvoorbeeld worden toegewezen aan capaciteit, maar niet aan een productieorder.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5832, 99000802, 99000820
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 5a5b44609551b7ead773e82b996e1e610f0fe65d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 58005b8b4d401f5eab8a934d7b00b610b64b4281
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137561"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253045"
 ---
 # <a name="post-capacities"></a>Capaciteit boeken
 In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegewezen aan de productieorder. Onderhoudswerk moet bijvoorbeeld worden toegewezen aan capaciteit, maar niet aan een productieorder.  
 
 ## <a name="to-post-capacities"></a>Capaciteit boeken  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Capaciteitsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Capaciteitsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden **Boekingsdatum** en **Documentnr.** in.  
 3.  Voer in het veld **Soort** het soort capaciteit in dat u wilt boeken, dat kan **Bewerkingsplaats** of **Afdeling** zijn.  
 4.  Selecteer in het veld **Nr.** het nummer in van de bewerkingsplaats of afdeling.  
@@ -29,7 +32,7 @@ In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegeweze
 
 ## <a name="to-view-work-center-ledger-entries"></a>Afdelingsposten weergeven  
 Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de geboekte capaciteit als gevolg van gereedgemelde productieorders bekijken.    
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de betreffende kaart **Afdeling** in de lijst en kies de actie **Capaciteitsposten**.  
 
 De pagina **Capaciteitsposten** bevat de geboekte posten van de afdeling, in de volgorde waarin deze zijn geboekt.   
@@ -40,7 +43,4 @@ De pagina **Capaciteitsposten** bevat de geboekte posten van de afdeling, in de 
 [Gepland](production-planning.md)      
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

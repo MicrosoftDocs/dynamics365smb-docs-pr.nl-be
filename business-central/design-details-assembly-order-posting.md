@@ -1,20 +1,23 @@
 ---
-title: 'Ontwerpdetails: Assemblageorderboeking'
-description: Assemblageorderboeking wordt gebaseerd op dezelfde principes als wanneer de soortgelijke activiteiten van verkooporders en productieverbruik/-output worden geboekt.
+title: 'Ontwerpdetails: Assemblageorderboeking | Microsoft Docs'
+description: Assemblageorderboeking wordt gebaseerd op dezelfde principes als wanneer de soortgelijke activiteiten van verkooporders en productieverbruik/-output worden geboekt. De principes worden echter gecombineerd in de zin dat assemblageorders hun eigen boeking-UI hebben, zoals die voor verkooporders, terwijl de feitelijke postboeking op de achtergrond wordt uitgevoerd als directe artikel- en resourcedagboekboekingen, zoals die voor productieverbruik, output en capaciteit.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 2ec7e242bd174f3a825a29923b33642d035ec4ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132125"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307456"
 ---
 # <a name="design-details-assembly-order-posting"></a>Ontwerpdetails: Assemblageorderboeking
 Assemblageorderboeking wordt gebaseerd op dezelfde principes als wanneer de soortgelijke activiteiten van verkooporders en productieverbruik/-output worden geboekt. De principes worden echter gecombineerd in de zin dat assemblageorders hun eigen boeking-UI hebben, zoals die voor verkooporders, terwijl de feitelijke postboeking op de achtergrond wordt uitgevoerd als directe artikel- en resourcedagboekboekingen, zoals die voor productieverbruik, output en capaciteit.  
@@ -30,14 +33,14 @@ De volgende dagboekboekingen treden op tijdens assemblageorderboekingen:
 
 Het volgende diagram bevat de structuur van artikel- en resourceposten die het gevolg zijn van assemblageorderboeking.  
 
-![Artikel-, resource- en capaciteitsboekingen als gevolg van het boeken van assemblageorders.](media/design_details_assembly_posting_1.png "Artikel-, resource- en capaciteitsboekingen als gevolg van het boeken van assemblageorders")  
+![Artikel-, resource- en capaciteitsposten die het resultaat zijn van boeking van assemblyorders](media/design_details_assembly_posting_1.png "Artikel-, resource- en capaciteitsposten die het resultaat zijn van boeking van assemblyorders")  
 
 > [!NOTE]  
 >  Bewerkingsplaatsen en afdelingen zijn opgenomen om te illustreren dat capaciteitsposten zowel worden gemaakt vanuit productie als vanuit assemblage.  
 
 In het volgende diagram wordt aangegeven hoe assemblagegegevens in posten stromen tijdens het boeken:  
 
-![Aan assemblage gerelateerde invoerstroom tijdens boeken.](media/design_details_assembly_posting_2.png "Aan assemblage gerelateerde invoerstroom tijdens boeken")  
+![Assemblagegerelateerde invoerstroom tijdens boeking](media/design_details_assembly_posting_2.png "Assemblagegerelateerde invoerstroom tijdens boeking")  
 
 ## <a name="posting-sequence"></a>Boekingsvolgorde  
 De boeking van een assemblageorder vindt plaats in de volgende volgorde:  
@@ -68,7 +71,7 @@ De detectiefunctie op orderniveau wordt gebruikt voor conversiescenario's, produ
 
 De volgende afbeelding toont de structuur van de herwaarderingspost en hoe assemblagekosten worden aangepast.  
 
-![Aan assemblage gerelateerde invoerstroom tijdens kostenwaardering.](media/design_details_assembly_posting_3.png "Aan assemblage gerelateerde invoerstroom tijdens boeken")  
+![Assemblagegerelateerde invoerstroom tijdens kostenwaardering](media/design_details_assembly_posting_3.png "Assemblagegerelateerde invoerstroom tijdens kostenwaardering")  
 
 ### <a name="performing-the-adjustment"></a>De aanpassing doorvoeren  
 De spreiding van gedetecteerde correcties van materiaal en resourcekosten op de assemblyuitvoerposten wordt uitgevoerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten**. Deze bevat de functie Aanpassing op meerdere niveaus aanbrengen, die bestaat uit de volgende twee elementen:  
@@ -76,7 +79,7 @@ De spreiding van gedetecteerde correcties van materiaal en resourcekosten op de 
 -   Assemblageordercorrectie aanbrengen - hiermee worden kosten van materiaal en resourcegebruik doorgestuurd naar de assemblage-uitvoerpost. Regel 5 en 6 in het algoritme hieronder zijn hiervoor verantwoordelijk.  
 -   Correcties op één niveau aanbrengen - hiermee worden kosten voor afzonderlijke artikelen doorgestuurd met behulp van de waarderingsmethode ervan. Regels 9 en 10 in het algoritme hieronder zijn hiervoor verantwoordelijk.  
 
-![Samenvatting van het kostenwaarderingsalgoritme voor assemblageboeking.](media/design_details_assembly_posting_4.jpg "Samenvatting van het kostenwaarderingsalgoritme voor assemblageboeking")  
+![Overzicht van het kostenwaarderingsalgoritme voor assemblageboeking](media/design_details_assembly_posting_4.jpg "Overzicht van het kostenwaarderingsalgoritme voor assemblageboeking")  
 
 > [!NOTE]  
 >  Het element voor het maken van OHW- herwaarderingen op regel 7 en 8 is verantwoordelijk voor het doorsturen van productiemateriaal en capaciteitsverbruik naar de output van onvoltooide productieorders. Dit wordt niet gebruikt bij het aanpassen van assemblageorderkosten aangezien het concept OHW niet van toepassing is op assemblage.  
@@ -114,7 +117,4 @@ Bij het boeken van verkooporderregels waarbij een gedeelte afkomstig is uit voor
  [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  
- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

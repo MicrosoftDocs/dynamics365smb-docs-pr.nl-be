@@ -2,20 +2,20 @@
 title: Gebruikers maken volgens licenties
 description: Beschrijft hoe u gebruikers aan Business Central Online of on-premises kunt toevoegen op basis van licenties.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 119, 6300, 6301, 6302, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f39067f990c80fad751d251ab4dd7ff038ac0cb2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba584f11b1ac52146a7539b8ac08cb9ed67bcdba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148264"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445313"
 ---
 # <a name="create-users-according-to-licenses"></a>Gebruikers maken volgens licenties
 
@@ -88,10 +88,46 @@ Als u gebruikersgegevens wijzigt in Microsoft 365, kunt u [!INCLUDE[prod_short](
 |Synchroniseer gebruikersplannen (licenties) met toegewezen licenties en rollen in Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
 |Voeg de gebruiker toe aan gebruikersgroepen volgens de huidige gebruikersplannen. Verwijder de SUPER-machtigingenset voor alle gebruikers behalve de eerste gebruiker die zich aanmeldt en [beheerders](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Er is ten minste één SUPER nodig.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Verwijdert handmatig toegewezen gebruikersgroepen en machtigingen.|**X**<br /><br />Werk gebruikersgroepstoewijzingen bij.| |
 
-<!--
-## The Device License
-This section has been moved to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
--->
+## <a name="the-device-license"></a>De apparaatlicentie
+
+Met de Dynamics 365 Business Central-apparaatlicentie kunnen meerdere gebruikers tegelijkertijd een apparaat gebruiken dat onder de licentie valt. Dit kan bijvoorbeeld een verkooppunt, winkelvloer of magazijnapparaat zijn. Wanneer u een aantal apparaatlicenties hebt gekocht, kan maximaal dat aantal gebruikers dat is toegewezen aan de groep Dynamics 365 Business Central-apparaatgebruikers, zich gelijktijdig aanmelden. Zie de Microsoft Dynamics 365 Business Central Licentiehandleiding voor meer informatie. De gids kan worden gedownload op de [Business Central](https://dynamics.microsoft.com/business-central/overview/)-website.
+
+De Microsoft 365-beheerder van uw bedrijf of Microsoft-partner kan de groep Dynamics 365 Business Central-apparaatgebruikers maken en apparaatgebruikers toevoegen als leden in het [Microsoft 365-beheercentrum](https://admin.microsoft.com/) of in de [Azure-portal](https://portal.azure.com/).
+
+### <a name="device-user-limitations"></a>Beperkingen apparaatgebruiker
+
+Gebruikers met de apparaatlicentie kunnen de volgende taken niet uitvoeren in [!INCLUDE[prod_short](includes/prod_short.md)]:
+
+- Taken instellen om te worden uitgevoerd als geplande taken in de taakwachtrij. Apparaatgebruikers zijn gelijktijdige gebruikers en daarom kunnen we niet garanderen dat de betrokken gebruiker in het systeem aanwezig is wanneer een taak wordt uitgevoerd, wat vereist is.
+
+- Een apparaatgebruiker kan zich niet als eerste gebruiker aanmelden. Een gebruiker van het type Beheerder, Volledige gebruiker of Externe accountant moet zich als eerste aanmelden om [!INCLUDE[prod_short](includes/prod_short.md)] te kunnen instellen. Zie voor meer informatie [Beheer van Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in de Help voor beheerders.
+
+### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Een Dynamics 365 Business Central-apparaatgebruikersgroep maken
+
+1. Ga in het Microsoft 365-beheercentrum naar de pagina **Groepen**.
+2. Kies de actie **Een groep toevoegen**.
+3. Kies op de pagina **Een groepstype kiezen** de optie **Beveiliging** en daarna de actie **Toevoegen**.
+4. Voer op de pagina **Grondbeginselen** **Dynamics 365 Business Central-apparaatgebruikers** als de naam van de groep in.
+  
+   >[!NOTE]
+   >De naam van de groep moet precies in het Engels worden gespeld zoals weergegeven in stap 4, zelfs als u een andere taal gebruikt. Als u de naam van de groep uit een document, zoals een pdf, heeft gekopieerd, controleer dan of de naam geen extra spaties bevat.
+5. Kies de knop **Sluiten**.
+
+> [!NOTE]
+> U kunt ook een groep maken van het type Microsoft 365. Zie [Groepen vergelijken](/microsoft-365/admin/create-groups/compare-groups) voor meer informatie
+
+### <a name="to-add-members-to-the-group"></a>Leden toevoegen aan de groep
+
+1. Vernieuw in het Microsoft 365-beheercentrum de pagina **Groepen**, zodat uw nieuwe groep wordt weergegeven.
+2. Selecteer de groep **Dynamics 365 Business Central-apparaatgebruikers** en kies de actie **Alles weergeven en leden beheren**.
+3. Kies de actie **Leden toevoegen**.
+4. Selecteer de gebruikers die u wilt toevoegen en kies de knop **Opslaan**.
+5. Kies driemaal de knop **Sluiten**.
+
+U kunt zoveel gebruikers aan de groep Dynamics 365 Business Central-apparaatgebruikers toevoegen als u nodig hebt. Het aantal apparaten waarop gebruikers zich tegelijkertijd kunnen aanmelden, wordt echter bepaald door het aantal aangeschafte apparaatlicenties.
+
+> [!NOTE]
+> U hoeft geen [!INCLUDE[prod_short](includes/prod_short.md)]-licentie aan gebruikers toe te wijzen die lid zijn van de Dynamics 365 Business Central-apparaatgebruikersgroep.
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Gebruikers en licenties beheren in On-premises implementaties
 
@@ -119,8 +155,7 @@ Voor on-premises implementaties maakt de beheerder gebruikers rechtstreeks op de
 [Aanpassen [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Beheer](admin-setup-and-administration.md)  
-[Licenties in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing)  
-[Gebruikers aan Microsoft 365 toevoegen voor bedrijven](/microsoft-365/admin/add-users/add-users)  
+[Gebruikers toevoegen aan Microsoft 365 voor bedrijven](/microsoft-365/admin/add-users/add-users)  
 [Beveiliging en bescherming in Business Central (beheerinhoud)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 
 

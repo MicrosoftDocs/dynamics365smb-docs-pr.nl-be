@@ -1,27 +1,30 @@
 ---
-title: Betalingsvoorstellen genereren [BE]
+title: Betalingsvoorstellen genereren
 description: Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 256
-ms.date: 06/17/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c7d29743bf1b1d304e266b3de348b65f77d1511b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d53eecc5ab5dcdd27bef8bbddc05be09e5b3aad7
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134481"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779236"
 ---
-# <a name="generate-payment-suggestions-in-the-belgian-version"></a>Betalingsvoorstellen genereren in de Belgische versie
+# <a name="generate-payment-suggestions"></a>Betalingsvoorstellen genereren
 Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.  
 
 ## <a name="to-generate-payment-suggestions"></a>Betalingsvoorstellen genereren  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de juiste dagboekbatch en kies vervolgens de actie **Leveranciersbetalingen voorstellen**.  
 3.  Vul op de pagina **Leveranciersbetalingen voorstellen** de velden in zoals wordt beschreven in de volgende tabel.  
 

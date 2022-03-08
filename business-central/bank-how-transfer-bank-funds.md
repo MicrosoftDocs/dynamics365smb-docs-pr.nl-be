@@ -2,20 +2,20 @@
 title: Bankfondsen overboeken
 description: U kunt bedragen overbrengen van de ene naar de andere bankrekening, inclusief andere valuta's, door de transactie in het dagboek te boeken.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8716aeaa83ac9304e142af1603efef47c8044918
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: da9c8711751040cecb267a3b2209bad2534b618b
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148732"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985399"
 ---
 # <a name="transfer-bank-funds"></a>Bankfondsen overboeken
 
@@ -23,7 +23,7 @@ Soms moet u een bedrag van de ene naar de andere bankrekening overboeken in [!IN
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Een transfer boeken tussen bankrekeningen met dezelfde valutacode
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dagboek** in en kies de desbetreffende koppeling.
 2. Vul op een dagboekregel de velden **Boekingsdatum** en **Documentnr.** in.
 3. Selecteer in het veld **Rekeningsoort** de optie **Bankrekening**.
 4. Selecteer in het veld **Rekeningnr.** de bankrekening waarvan u de fondsen wilt overbrengen.
@@ -38,7 +38,7 @@ Soms moet u een bedrag van de ene naar de andere bankrekening overboeken in [!IN
 
 Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's gebruiken, moet u twee dagboekregels boeken.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dagboek** in en kies de desbetreffende koppeling.
 2. Maak twee dagboekregels en vul de velden **Boekingsdatum** en **Documentnr.** in.
 3. Selecteer op de eerste dagboekregel **Bankrekening** in het veld **Soort**.
 4. Selecteer in het veld **Rekeningnr.** de bankrekening waarvan u de fondsen wilt overbrengen.

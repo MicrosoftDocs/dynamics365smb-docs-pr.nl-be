@@ -1,29 +1,30 @@
 ---
-title: Intrastat-nummers instellen [BE]
+title: Intrastat-nummers instellen
 description: Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/17/2021
-ms.author: edupont
-ms.openlocfilehash: ac40da37976e654959a86616b6baedcb3f59d6e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 2ed104b50e099cff11afe7b798a1264082ff96a2
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136708"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711005"
 ---
-# <a name="set-up-intrastat-establishment-numbers-in-the-belgian-version"></a>Intrastat-nummers instellen in de Belgische versie
+# <a name="set-up-intrastat-establishment-numbers"></a>Intrastat-nummers instellen
 Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.  
 
 ## <a name="to-set-up-an-intrastat-establishment-number"></a>Een Intrastat-nummer instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.  
+1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bedrijfsgegevens** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Voer in het veld **Intrastat-nr.** het Intrastat-nummer in. invoeren.  
 3.  Kies de knop **OK**.  
   
@@ -33,6 +34,3 @@ Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op d
  [Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)   
  [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)   
  [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

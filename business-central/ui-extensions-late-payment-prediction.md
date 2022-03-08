@@ -1,23 +1,23 @@
 ---
 title: Te late betaling voorspellen voor verkoopdocumenten
-description: In dit onderwerp wordt uitgelegd hoe u ons voorspellende model gebruikt om te voorspellen of een factuur op tijd wordt betaald.
+description: Dit onderwerp legt uit hoe u ons voorspellende model gebruikt om te voorspellen of een factuur op tijd wordt betaald.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 12/20/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1c9f6a0aec94161b2043b5bf5cb5737bce3f8d2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136781"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434920"
 ---
-# <a name="the-late-payment-prediction-extension"></a>De extensie Voorspelling van te late betaling
-
+# <a name="the-late-payment-prediction-extension"></a>De extensie Voorspelling van te late betaling  
 Effectief beheer van tegoeden is belangrijk voor de algemene financiële status van een bedrijf. De extensie Voorspelling van te late betaling kan u helpen uitstaande tegoeden te reduceren en uw inningsstrategie af te stemmen door te voorspellen of verkoopfacturen op tijd worden betaald. Als bijvoorbeeld wordt voorspeld dat een betaling te laat zal zijn, kunt u besluiten de betalingsvoorwaarden of de betalingsmethode voor de klant aan te passen.
 
 ## <a name="getting-started"></a>Aan de slag
@@ -107,13 +107,10 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 7. Kies het selectievakje **Mijn Azure-abonnement gebruiken**.
 8. Voer op het sneltabblad **Aanmeldingsgegevens van mijn model** de API-URL en API-sleutel voor uw model op.  .  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
-
-## <a name="see-also"></a>Zie ook
-
+## <a name="see-also"></a>Zie ook  
 [Documentatie van Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Business Central aanpassen met extensies](ui-extensions.md)  
 [Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-[Artificial Intelligence in Microsoft Dynamics 365 Business Central (Microsoft Learn) gebruiken](/learn/paths/use-artificial-intelligence/)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

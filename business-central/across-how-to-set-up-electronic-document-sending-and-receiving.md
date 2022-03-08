@@ -2,29 +2,30 @@
 title: Verzending en ontvangst van elektronische documenten instellen | Microsoft Docs
 description: Als alternatief voor het e-mailen van bestandsbijlagen kunt u zakelijke documenten elektronisch verzenden en ontvangen.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 69f07994b6aab5444dfeb2d0adb23945a72f2524
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147254"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785358"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Verzending en ontvangst van elektronische documenten instellen
 
-Als alternatief voor het e-mailen van bestandsbijlagen kunt u zakelijke documenten elektronisch verzenden en ontvangen. Een elektronisch document is een standaardbestand dat een bedrijfsdocument vertegenwoordigt, zoals een factuur van een leverancier die kan worden ontvangen en geconverteerd naar een inkoopfactuur in [!INCLUDE[prod_short](includes/prod_short.md)]. De uitwisseling van elektronische documenten tussen twee handelspartners wordt uitgevoerd door een externe provider van services voor documentuitwisseling. De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt het verzenden en ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Een belangrijke aanbieder van services voor documentuitwisseling is vooraf geconfigureerd en gereed om te worden ingesteld voor uw bedrijf.  
+Als alternatief voor het e-mailen van bestandsbijlagen kunt u zakelijke documenten elektronisch verzenden en ontvangen. Een elektronisch document is een standaardbestand dat een bedrijfsdocument vertegenwoordigt, zoals een factuur van een leverancier die kan worden ontvangen en geconverteerd naar een inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De uitwisseling van elektronische documenten tussen twee handelspartners wordt uitgevoerd door een externe provider van services voor documentuitwisseling. De algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt het verzenden en ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Een belangrijke aanbieder van services voor documentuitwisseling is vooraf geconfigureerd en gereed om te worden ingesteld voor uw bedrijf.  
 
-Vanuit PDF- of afbeeldingsbestanden die inkomende documenten vertegenwoordigen kunt u een externe OCR-service (Optical Character Recognition; optische tekenherkenning) elektronische documenten laten maken die u vervolgens naar documentrecords kunt converteren in [!INCLUDE[prod_short](includes/prod_short.md)], zoals u doet voor elektronische PEPPOL-documenten. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze naar de OCR-service verzenden vanaf de pagina **Inkomende documenten**. Na enkele seconden krijgt u het bestand weer terug als elektronische factuur die kan worden geconverteerd naar een inkoopfactuur voor de leverancier. Als u het bestand per e-mail naar de OCR-service verzendt, wordt automatisch een nieuwe inkomende documentrecord gemaakt wanneer u het elektronische document terugkrijgt.  
+Vanuit PDF- of afbeeldingsbestanden die inkomende documenten vertegenwoordigen kunt u een externe OCR-service (Optical Character Recognition; optische tekenherkenning) elektronische documenten laten maken die u vervolgens naar documentrecords kunt converteren in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals u doet voor elektronische PEPPOL-documenten. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze naar de OCR-service verzenden vanaf de pagina **Inkomende documenten**. Na enkele seconden krijgt u het bestand weer terug als elektronische factuur die kan worden geconverteerd naar een inkoopfactuur voor de leverancier. Als u het bestand per e-mail naar de OCR-service verzendt, wordt automatisch een nieuwe inkomende documentrecord gemaakt wanneer u het elektronische document terugkrijgt.  
 
-De indeling **PEPPOL** voor elektronische documenten is vooraf geconfigureerd zodat u elektronische facturen en creditnota's kunt verzenden in de PEPPOL-indeling. Eerst moet u diverse stamgegevens instellen, zoals bedrijfsgegevens, klanten, artikelen en eenheden. Deze worden gebruikt om de zakelijke partners en artikelen te identificeren wanneer gegevens in velden in [!INCLUDE[prod_short](includes/prod_short.md)] worden geconverteerd naar elementen in het uitgaande documentbestand. Tot slot moet u de indeling op de pagina **Elektronische documentindeling** selecteren voor elke klant aan wie u elektronische PEPPOL-documenten stuurt. Zie [Elektronische documenten verzenden](sales-how-to-send-electronic-documents.md) voor meer informatie.  
+De indeling **PEPPOL** voor elektronische documenten is vooraf geconfigureerd zodat u elektronische facturen en creditnota's kunt verzenden in de PEPPOL-indeling. Eerst moet u diverse stamgegevens instellen, zoals bedrijfsgegevens, klanten, artikelen en eenheden. Deze worden gebruikt om de zakelijke partners en artikelen te identificeren wanneer gegevens in velden in [!INCLUDE[d365fin](includes/d365fin_md.md)] worden geconverteerd naar elementen in het uitgaande documentbestand. Tot slot moet u de indeling op de pagina **Elektronische documentindeling** selecteren voor elke klant aan wie u elektronische PEPPOL-documenten stuurt. Zie [Elektronische documenten verzenden](sales-how-to-send-electronic-documents.md) voor meer informatie.  
 
-De gegevensuitwisselingsdefinities **PEPPOL – Factuur** en **PEPPOL – Creditnota** zijn vooraf geconfigureerd zodat u elektronische facturen en creditnota's kunt ontvangen in de PEPPOL-indeling. Eerst moet u diverse stamgegevens instellen, zoals bedrijfsgegevens, leveranciers, artikelen en eenheden. Deze worden gebruikt om de zakelijke partners en artikelen te identificeren wanneer gegevens en elementen in het inkomende documentbestand worden geconverteerd naar velden in [!INCLUDE[prod_short](includes/prod_short.md)]. Tot slot moet u de gegevensuitwisselingsdefinitie op de pagina **Inkomende documenten** selecteren voor elk inkomend elektronisch document dat u wilt converteren naar een inkoopdocument in [!INCLUDE[prod_short](includes/prod_short.md)].  
+De gegevensuitwisselingsdefinities **PEPPOL – Factuur** en **PEPPOL – Creditnota** zijn vooraf geconfigureerd zodat u elektronische facturen en creditnota's kunt ontvangen in de PEPPOL-indeling. Eerst moet u diverse stamgegevens instellen, zoals bedrijfsgegevens, leveranciers, artikelen en eenheden. Deze worden gebruikt om de zakelijke partners en artikelen te identificeren wanneer gegevens en elementen in het inkomende documentbestand worden geconverteerd naar velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tot slot moet u de gegevensuitwisselingsdefinitie op de pagina **Inkomende documenten** selecteren voor elk inkomend elektronisch document dat u wilt converteren naar een inkoopdocument in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 De gegevensuitwisselingsdefinitie **OCR - Factuur** is vooraf geconfigureerd om u in staat te stellen elektronische documenten te ontvangen die zijn gegenereerd door de OCR-service. Als u bijvoorbeeld een factuur wilt ontvangen als een elektronisch OCR-document, stelt u stamgegevens in en verwerkt u het document op dezelfde manier als bij het ontvangen van een elektronisch PEPPOL-document. Zie [OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md) voor meer informatie.  
 
@@ -110,7 +111,7 @@ Het onderwerp bevat de volgende procedures:
 4. Selecteer in het veld **Elektronisch document** de optie **Ja (via service voor documentuitwisseling)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[prod_short](includes/prod_short.md)] detecteert automatisch of het document een factuur of creditnota is en kiest de bijbehorende PEPPOL-indeling.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] detecteert automatisch of het document een factuur of creditnota is en kiest de bijbehorende PEPPOL-indeling.  
 
 5. Als u dit verzendprofiel wilt toepassen op alle klanten, schakelt u het selectievakje **Standaard** op het sneltabblad **Algemeen** in. Als u het profiel alleen wilt toepassen op specifieke klanten, vult u het veld **Verzendprofiel van document** op de desbetreffende klantenkaarten in. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
 
@@ -148,6 +149,3 @@ Het onderwerp bevat de volgende procedures:
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)   
 [Verkopen factureren](sales-how-invoice-sales.md)   
 [Inkopen vastleggen](purchasing-how-record-purchases.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,20 +1,21 @@
 ---
-title: Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties
-description: In dit onderwerp worden ad-hocbewegingen uitgelegd die worden uitgevoerd wanneer u artikelen tussen interne opslaglocaties moet verplaatsen zonder een specifieke vraag van een brondocument.
+title: Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties | Microsoft Docs
+description: Mogelijk moet u soms items verplaatsen tussen interne opslaglocaties, opslaglocaties voor ontvangst of verzending uitgezonderd, zonder een specifieke vraag uit een brondocument. U kunt deze ad hoc verplaatsingen bijvoorbeeld uitvoeren om het magazijn te herstructureren, artikelen naar een inspectiegebied te brengen of extra artikelen naar en van een productiegebied te verplaatsen zonder een relatie in het systeem met het brondocument van de productieorder.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1dd408f93a7111b6d389ae1c532bd7b1ec70d7bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5204f75801c0af09715b0d8cc4523e57fa33a49a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140065"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771816"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties
 Mogelijk moet u soms artikelen verplaatsen tussen interne opslaglocaties, opslaglocaties voor ontvangst of verzending uitgezonderd, zonder een specifieke vraag uit een brondocument. U kunt deze ad hoc verplaatsingen bijvoorbeeld uitvoeren om het magazijn te herstructureren, artikelen naar een inspectiegebied te brengen of extra artikelen naar en van een productiegebied te verplaatsen zonder een relatie in het systeem met het brondocument van de productieorder.  
@@ -28,7 +29,7 @@ Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken v
 >  Bij geavanceerde magazijnconfiguraties, dat wil zeggen locaties die gebruik maken van de instelling **Gestuurde opslag en Pick**, gebruikt u de pagina **Werkblad Verplaatsing** of de pagina **Interne mag. Pick** of **Interne mag. Opslag** voor het ad hoc verplaatsen van artikelen tussen opslaglocaties.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Items verplaatsen als een interne verplaatsing  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Interne verplaatsing** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interne verplaatsing** in en kies de gerelateerde koppeling.  
 2.  Vul het veld **Nr.** op het sneltabblad **Algemeen** in . in door het veld te verlaten of door **AssistEdit** te kiezen om een selectie uit de nummerreeks te maken.  
 3.  Voer in het veld **Locatiecode** de locatie in waar de verplaatsing plaatsvindt.  
 
@@ -57,7 +58,7 @@ Bij standaard magazijnconfiguraties, dat wil zeggen locaties die gebruik maken v
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Artikelen verplaatsen met het artikelherindelingsdagboek
 In plaats van magazijnverplaatsingdocumenten te gebruiken, kunt u de verplaatsing van artikelen ook registreren door hun opslaglocatiecodes opnieuw in te delen. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)   
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Mag.-herindelingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag.-herindelingsdagboek** in en kies de gerelateerde koppeling.  
 2.  Definieer op elke dagboekregel de opslaglocaties waaruit en waarnaar u items wilt verplaatsen door de velden **Code Opslaglocatie** en **Code Nieuwe opslaglocatie** in te vullen.  
 
     1.  Als u de gehele inhoud van een opslaglocatie wilt verplaatsen naar een andere opslaglocatie, kiest u de actie **Opslaglocatie-inhoud ophalen**.  

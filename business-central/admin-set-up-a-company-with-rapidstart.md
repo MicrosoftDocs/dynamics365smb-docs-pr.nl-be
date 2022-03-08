@@ -1,20 +1,21 @@
 ---
-title: Een bedrijf instellen met RapidStart Services
-description: U kunt een nieuw bedrijf instellen in Business Central met RapidStart Services om de productiviteit te verhogen door terugkerende taken te automatiseren en te vereenvoudigen.
+title: Een bedrijfsconfiguratie instellen met RapidStart Services | Microsoft Docs
+description: U kunt een nieuw bedrijf instellen in Business Central met behulp van RapidStart Services. Dit is een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c5e47b4e866ce25a0a2cac84e00630b371f6e2b2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: aeb436516d2f6d389b6d8b6489e63ac1ad925aae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147072"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755179"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Een bedrijf instellen met RapidStart Services
 U kunt een nieuw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen.  
@@ -41,13 +42,10 @@ Met de volgende onderdelen kunt u de instelling van uw bedrijf versnellen:
 |Definieer en valideer de instellingswaarden van de klant voor al uw kerngebieden, zoals bedrijfsgegevens grootboek, verkoop of productie.|[Waarden van klantinstellingen verzamelen](admin-gather-customer-setup-values.md)|  
 |Configureer hoofdgegevensrecords met behulp van sjablonen om bestaande klantgegevens voor te bereiden op migratie.|[Migratie van klantgegevens voorbereiden](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Definieer tabellen en velden, valideer bestaande klantgegevens en migreer gegevens naar de [!INCLUDE[prod_short](includes/prod_short.md)]-database.|[Klantgegevens migreren](admin-migrate-customer-data.md)|
-|Bereid u voor om bedrijfsconfiguraties in andere bedrijven opnieuw te gebruiken (in de inhoud voor ontwikkelaars en beheerders).|[Aangepaste configuratiepakketten voor bedrijven maken](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
+|Hergebruik van bedrijfsconfiguraties in andere bedrijven voorbereiden|[Aangepaste configuratiepakketten voor bedrijven maken](admin-how-to-create-custom-company-configuration-packages.md)|
 |Oplossingen zoeken voor bekende problemen in de RapidStart Services-toolkit.|[Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Zie ook  
 [Beheer](admin-setup-and-administration.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

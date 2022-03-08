@@ -1,20 +1,21 @@
 ---
-title: 'Ontwerpdetails: Kostenwaardering'
-description: Kostenherwaardering stuurt wijzigingen in kosten van kostenbronnen door naar kostenontvangers, volgens de waarderingsmethode van een artikel, om de juiste voorraadwaardering te bieden.
+title: Ontwerpdetails - Kostenwaardering | Microsoft Docs
+description: Het belangrijkste doel van kostenherwaardering is wijzigingen in kosten van kostenbronnen door te sturen naar kostenontvangers, volgens de waarderingsmethode van een artikel, om de juiste voorraadwaardering te bieden.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 06/19/2020
 ms.author: edupont
-ms.openlocfilehash: 5783647c4e70debce32bbb0ca3976efea78ec065
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c3f588a92d424d4ad8b1dfeda28b23981eca6c42
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143724"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3788083"
 ---
 # <a name="design-details-cost-adjustment"></a>Ontwerpdetails: Kostenwaardering
 
@@ -37,7 +38,7 @@ Voorraadkosten moeten worden bijgewerkt als de gerelateerde waardeposten kunnen 
 
 De taak van het detecteren of kostenwaardering moet worden uitgevoerd, wordt hoofdzakelijk uitgevoerd door de routine Artikeldagboek. - Regel boeken. De taak van het berekenen en genereren van kostenherwaarderingsposten wordt uitgevoerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten**.  
 
-Voor het doorsturen van kosten bepaalt het detectiemechanisme welke bronnen zijn gewijzigd wat betreft kosten en naar welke bestemming deze kosten moeten worden doorgestuurd. Er zijn de volgende drie detectiefuncties in [!INCLUDE[prod_short](includes/prod_short.md)]:  
+Voor het doorsturen van kosten bepaalt het detectiemechanisme welke bronnen zijn gewijzigd wat betreft kosten en naar welke bestemming deze kosten moeten worden doorgestuurd. Er zijn de volgende drie detectiefuncties in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 * Artikelvereffeningspost  
 * Invoerpunt gemiddelde kostprijscorrectie  
@@ -66,7 +67,7 @@ Deze detectiefunctie wordt gebruikt voor conversiescenario's, productie en assem
 
 De functie op orderniveau wordt gebruikt om correcties in assemblageboekingen te detecteren. De volgende afbeelding toont de structuur van de herwaarderingspost:  
 
-![Stroom van posten in kostencorrectie.](media/design_details_assembly_posting_3.png "Stroom van posten in kostencorrectie")  
+![Stroom van posten in kostencorrectie](media/design_details_assembly_posting_3.png "Stroom van posten in kostencorrectie")  
 
 Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie.  
 
@@ -81,7 +82,7 @@ Het is goed om de kostenwaardering automatisch uit te voeren wanneer u boekt, om
 
 Omdat het belangrijk is de kostprijs van een artikel bijgewerkt te houden, wordt het aangeraden de batchverwerking **Kostprijs herwaarderen - Artikelposten** zo vaak mogelijk gedurende vrije uren uit te voeren. Of u gebruikt automatische kostenwaardering. Hierdoor wordt gezorgd dat de kostprijs dagelijks wordt bijgewerkt voor artikelen.  
 
-Ongeacht of u kostenwaardering handmatig of automatisch uitvoert, het waarderingsproces en de gevolgen ervan zijn hetzelfde. [!INCLUDE[prod_short](includes/prod_short.md)] berekent de waarde van de inkomende transactie en stuurt die kosten door naar uitgaande transacties, zoals verkopen of verbruik, die met de inkomende transactie zijn vereffend. Door de kostenherwaardering worden waardeposten gemaakt die correctiebedragen bevatten en bedragen die afrondingen compenseren.  
+Ongeacht of u kostenwaardering handmatig of automatisch uitvoert, het waarderingsproces en de gevolgen ervan zijn hetzelfde. [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent de waarde van de inkomende transactie en stuurt die kosten door naar uitgaande transacties, zoals verkopen of verbruik, die met de inkomende transactie zijn vereffend. Door de kostenherwaardering worden waardeposten gemaakt die correctiebedragen bevatten en bedragen die afrondingen compenseren.  
 
 De nieuwe waardeposten voor herwaardering en afronding hebben de boekingsdatum van de bijbehorende factuur. Uitzonderingen zijn als de waardeposten in een afgesloten voorraadperiode of boekhoudperiode vallen of als de boekingsdatum eerder is dan de datum in het veld **Boeken toegest. vanaf** op de pagina **Grootboekinstellingen**. Als dit gebeurt, wordt door de batchverwerking de boekingsdatum toegewezen als de eerste datum van de volgende open periode.  
 
@@ -187,7 +188,4 @@ Als u automatische kostenwaardering hebt ingesteld om toe te passen op boekingen
 [Ontwerpdetails: Productieorderboeking](design-details-production-order-posting.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

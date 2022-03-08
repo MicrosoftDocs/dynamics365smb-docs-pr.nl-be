@@ -1,20 +1,21 @@
 ---
-title: Een verkooporder koppelen aan een inkooporder voor een directe verzending (bevat video) | Microsoft Docs
+title: Een verkooporder koppelen aan een inkooporder voor een directe verzending | Microsoft Docs
 description: Hierin wordt beschreven hoe u een verkooporder kunt maken die is gekoppeld aan een inkooporder om verzending direct van de leverancier naar de klant mogelijk te maken.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 04/01/2021
+ms.date: 08/17/2020
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0c93b138762f5a01fc06e3577e7597facf7abb5c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144839"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781772"
 ---
 # <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
 
@@ -51,7 +52,7 @@ U kunt de leverancier nu opdragen om de artikelen naar de klant te verzenden, bi
 
 U kunt ook het inkoopvoorstel gebruiken om de inkooporder voor de leverancier te maken. Het voordeel van het gebruik van het inkoopvoorstel is dat het inkooporders kan maken voor alle openstaande doorverzendingen, zodat u ze niet allemaal afzonderlijk hoeft te maken.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopvoorstellen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopvoorstellen** in en kies de desbetreffende koppeling.
 2. Kies de actie **Doorverzendingen** en kies vervolgens de actie **Verkooporder ophalen**.
 3. Kies de knop **Ok**.
 4. Bekijk de inkooporderregels en selecteer in het veld **Leveranciersnr.** de leverancier die de benodigde goederen levert. 
@@ -65,7 +66,7 @@ U kunt ook het inkoopvoorstel gebruiken om de inkooporder voor de leverancier te
 
 Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken als verzonden. U kunt de inkooporder ook boeken, maar alleen met de optie **Ontvangen**, totdat de verkooporder is gefactureerd.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
 2. Open de verkooporder die u hebt gemaakt in [Een verkooporder voor een doorverzending maken](#to-create-a-sales-order-for-drop-shipment).
 3. Geef in het veld **Te verzenden aantal** op hoeveel van de orderhoeveelheid moet worden verzonden, de volledige of gedeeltelijke orderhoeveelheid.
 4. Kies de actie **Boeken** of **Boeken en verzenden**.
@@ -79,7 +80,4 @@ Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Verkoop](sales-manage-sales.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

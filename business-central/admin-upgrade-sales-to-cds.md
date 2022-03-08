@@ -1,48 +1,45 @@
 ---
-title: Een integratie met Dynamics 365 Sales upgraden
-description: Dit onderwerp leert u hoe u uw Dynamics 365 Business Central-integratie met Dynamics 365 Sales naar de nieuwste versie overzet.
+title: Een integratie met Dynamics 365 Sales upgraden | Microsoft Docs
+description: Leren hoe u Dynamics 365 Business Central voorbereidt op integratie met Dynamics 365 Sales.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 06/14/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 977238383e7f4e4745e48a1966fe7714125406eb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2a5f58ac904ea05f4410ac9e1b804df1cb01c609
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148810"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410680"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Een integratie met Dynamics 365 Sales upgraden
-[!INCLUDE[prod_short](includes/prod_short.md)] integreert ook met [!INCLUDE[prod_short](includes/cds_long_md.md)], waardoor het eenvoudig is om gegevens te verbinden en te synchroniseren met andere Dynamics 365-toepassingen, zoals [!INCLUDE[crm_md](includes/crm_md.md)], of zelfs apps die u zelf bouwt. Als u voor de eerste keer integreert, raden we u aan dit te doen via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Zie voor meer informatie [Integratie met Dataverse](admin-common-data-service.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] integreert ook met [!INCLUDE[d365fin](includes/cds_long_md.md)], waardoor het eenvoudig is om gegevens te verbinden en te synchroniseren met andere Dynamics 365-toepassingen, zoals [!INCLUDE[crm_md](includes/crm_md.md)], of zelfs apps die u zelf bouwt. Als u voor de eerste keer integreert, raden we u aan dit te doen via [!INCLUDE[d365fin](includes/cds_long_md.md)]. Zie voor meer informatie [Integratie met Common Data Service](admin-common-data-service.md).
 
-Als u al [!INCLUDE[crm_md](includes/crm_md.md)] hebt geïntegreerd met [!INCLUDE[prod_short](includes/prod_short.md)], kunt u gegevens blijven synchroniseren met uw setup. Als u echter een upgrade op [!INCLUDE[prod_short](includes/prod_short.md)] uitvoert of uw [!INCLUDE[crm_md](includes/crm_md.md)]-integratie uitschakelt, moet u om het weer in te schakelen verbinding maken via [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
+Als u al [!INCLUDE[crm_md](includes/crm_md.md)] hebt geïntegreerd met [!INCLUDE[d365fin](includes/d365fin_md.md)], kunt u gegevens blijven synchroniseren met uw setup. Als u echter een upgrade op [!INCLUDE[d365fin](includes/d365fin_md.md)] uitvoert of uw [!INCLUDE[crm_md](includes/crm_md.md)]-integratie uitschakelt, moet u om het weer in te schakelen verbinding maken via [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
 
 > [!NOTE]
-> Opnieuw verbinding maken via [!INCLUDE[prod_short](includes/cds_long_md.md)] past standaard synchronisatie-instellingen toe en overschrijft alle configuraties die u hebt. Zo worden de standaardtabeltoewijzingen toegepast.
+> Opnieuw verbinding maken via [!INCLUDE[d365fin](includes/cds_long_md.md)] past standaard synchronisatie-instellingen toe en overschrijft alle configuraties die u hebt. Zo worden de standaardtabeltoewijzingen toegepast.
 
-## <a name="to-upgrade-your-connection-to-use-dataverse"></a>Uw verbinding upgraden om Dataverse te gebruiken
-1. Open de pagina **Microsoft Dynamics 365-verbinding instellen** en schakel de schakelaar **Ingeschakeld** uit. Sluit vervolgens de pagina om de verbinding te verbreken met [!INCLUDE[crm_md](includes/crm_md.md)].
-2. Open de pagina **Dataverse-verbinding instellen** en kies in het veld **Eigendomsmodel** **Persoon**. Kies vervolgens de schakelaar **Ingeschakeld** om de verbinding met [!INCLUDE[prod_short](includes/cds_long_md.md)] in te schakelen.
+## <a name="to-upgrade-your-connection-to-use-common-data-service"></a>Uw verbinding upgraden om Common Data Service te gebruiken
+1. Open de pagina **Microsoft Dynamics 365-verbinding instellen**, kies de schakelaar **Inschakelen** om uw bestaande verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] uit te schakelen.
+2. Open de pagina **Common Data Service-verbinding instellen** en kies de schakelaar **Inschakelen** om de verbinding in te schakelen.
   
-   > [!NOTE]
-   > Nadat u de verbinding hebt ingeschakeld, wordt de Business Central-integratieoplossing geïmplementeerd naar Dataverse.
-4. Kies op de pagina **Microsoft Dynamics 365-verbinding instellen** **Integratieoplossing opnieuw implementeren** om de Business Central-integratieoplossing opnieuw te installeren.
-5. Schakel de schakelaar **Ingeschakeld** in om opnieuw verbinding te maken met [!INCLUDE[crm_md](includes/crm_md.md)].
+   Nadat u de CDS-verbinding hebt ingeschakeld, wordt de Business Central CDS-basisintegratieoplossing geïmplementeerd naar Common Data Service.
+3. Verwijder de Microsoft Dynamics 365 Business Central Integratie-oplossing uit uw Dynamics 365 Sales volgens [Een oplossingsonderwerp de-installeren of verwijderen](/powerapps/developer/common-data-service/uninstall-delete-solution) 
+
+4. Kies op de pagina Microsoft Dynamics 365-verbinding instellen de schakelaar Inschakelen om de verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] in te schakelen.
   
-   > [!NOTE]
-   > Nadat u de verbinding hebt ingeschakeld, wordt de Business Central-integratieoplossing geïmplementeerd naar [!INCLUDE[prod_short](includes/prod_short.md)]. Dit maakt integratie mogelijk met tabellen die specifiek zijn voor [!INCLUDE[crm_md](includes/crm_md.md)], zoals verkooporders, offertes en facturen.
+   Nadat u de Sales-verbinding hebt ingeschakeld, wordt de Business Central-integratieoplossing geïmplementeerd naar Sales. Dit maakt integratie mogelijk met entiteiten die specifiek zijn voor [!INCLUDE[crm_md](includes/crm_md.md)], zoals verkooporders, offertes en facturen.
+5. Kies **Integratieoplossing opnieuw implementeren** om de bijgewerkte Business Central-integratieoplossing te installeren en configureren.
 6. Kies op de pagina **Sales-verbinding instellen** **Standaardsynchronisatie-instellingen** om de integratietabeltoewijzingen te initialiseren voor [!INCLUDE[crm_md](includes/crm_md.md)].
-
-   > [!IMPORTANT]
-   > Als de actie **Standaardsynchronisatie-instellingen gebruiken** wordt gebruikt, worden de standaardtoewijzingen van de integratietabel toegepast. Alle aangepaste toewijzingen worden overschreven. Als u aangepaste toewijzingen hebt die u wilt behouden, raden we u aan deze naar Excel te exporteren of met uw Microsoft-partner te overleggen over andere manieren om uw aangepaste toewijzingen te behouden.    
 
 ## <a name="see-also"></a>Zie ook
 [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-[Integreren met Microsoft Dataverse](admin-common-data-service.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Integreren met Common Data Service](admin-common-data-service.md)

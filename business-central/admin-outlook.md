@@ -1,136 +1,75 @@
 ---
-title: De Business Central-invoegtoepassing voor Outlook verkrijgen
-description: Leer hoe u de Business Central-invoegtoepassing voor Outlook installeert voor uw organisatie of voor eigen gebruik.
-author: jswymer
-ms.topic: conceptual
+title: Business Central gebruiken met Outlook | Microsoft Docs
+description: Deze service is nauw geïntegreerd met Office 365. U kunt al uw bedrijfs- en e-mailcommunicatie met klanten en leveranciers rechtstreeks in Outlook beheren.
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
-ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.search.keywords: SMTP, mail, Office 365
+ms.date: 10/01/2019
+ms.author: edupont
+ms.openlocfilehash: a01fb01fb6a4e18bb3cfd46693885f7891989804
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323226"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304464"
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>De Business Central-invoegtoepassing voor Outlook verkrijgen
+# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
+[!INCLUDE[d365fin](includes/d365fin_md.md)] introduceert de mogelijkheid bedrijfsinteracties te beheren met uw klanten en leveranciers, direct in Microsoft Outlook. Met de Outlook-invoegtoepassingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.  
 
-Met [!INCLUDE[prod_short](includes/prod_short.md)] kunt u bedrijfsinteracties met uw klanten en leveranciers rechtstreeks in Microsoft Outlook beheren. Met de [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-invoegtoepassing kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers. U kunt ook financiële documenten maken en verzenden, zoals offertes en facturen.  
+## <a name="getting-the-add-in"></a>De invoegtoepassing downloaden
+Het is gemakkelijk aan de gang te gaan met de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing voor Outlook. In de begeleide instelling **Uw bedrijfsinbox instellen in Outlook** kunt u de verbinding instellen voor uzelf of voor uw organisatie, als uw organisatie Office 365 gebruikt. Specificeer eenvoudig uw Office 365-gebruikersnaam en -wachtwoord, als u daarom wordt gevraagd, en vertel ons of u een voorbeeld van een e-mailbericht wilt ontvangen. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing wordt automatisch toegevoegd aan uw Outlook. Zie voor meer informatie [Minimumvereisten voor Outlook](product-requirements.md#outlook).  
 
-Er zijn twee manieren om de Business Central-invoegtoepassing voor Outlook te installeren, afhankelijk van uw rol in de organisatie:
+Wanneer u daarna Outlook start, wordt er een e-mailbericht van de *Dynamics 365 Business Central-beheerder* weergegeven. De nieuwe invoegtoepassingen zijn toegevoegd aan het Outlook-lint en in de browser ziet u de [!INCLUDE[prodshort](includes/prodshort.md)]-invoegtoepassingen direct boven of onder de hoofdtekst van het e-mailbericht. De invoegtoepassingen worden regelmatig bijgewerkt en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
 
-- Gebruik als Microsoft 365-beheerder *Gecentraliseerde implementatie* om de invoegtoepassing automatisch te installeren voor de hele organisatie, groepen of specifieke gebruikers.
+> [!TIP]
+> Als u de nieuwe Outlook in een browser gebruikt, dan kunnen de [!INCLUDE [prodshort](includes/prodshort.md)]-invoegtoepassingen worden verborgen onder **Meer acties**.
 
-- Installeer als gebruiker de invoegtoepassing voor eigen gebruik, als uw beheerder deze nog niet voor u heeft geïmplementeerd.
+Sommige bedrijven die Office 365 gebruiken, beperken de machtigingen van gebruikers om invoegtoepassingen te installeren. U moet er dus voor zorgen dat u een Office 365-abonnement hebt dat e-mail omvat en u toestaat invoegtoepassingen te installeren. Als u de invoegtoepassing toch wilt bekijken, kunt u [Office 365 gratis uitproberen](https://products.office.com/try).  
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>Over de Business Central-invoegtoepassing voor Outlook
+## <a name="using-the-contact-insights-add-in"></a>De invoegtoepassing Contact Insights gebruiken
+Stel u eens voor dat u een e-mailbericht ontvangt van een klant die een offerte voor enkele artikelen wil. U kunt rechtstreeks in Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing openen, die de afzender als een klant herkent en de klantkaart voor diens bedrijf opent. Vanuit dit dashboard kunt u overzichtsinformatie voor de klant zien, evenals inzoomen voor meer details over specifieke documenten. U kunt ook de verkoophistorie van de klant bekijken. Als dit een nieuw contact is, kunt u het als nieuwe klant toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)] zonder Outlook te verlaten.  
 
-De Business Central-invoegtoepassing voor Outlook bestaat uit twee kleinere invoegtoepassingen:
+In de invoegtoepassing kunt u een verkoopofferte maken en deze naar de klant verzenden zonder Outlook te verlaten. Alle informatie die u in de verkoopofferte moet verzenden, is beschikbaar in uw bedrijfsinbox in Outlook.  
+Nadat u de gegevens hebt ingevoerd, kunt u de offerte boeken. U kunt deze vervolgens via e-mail verzenden. [!INCLUDE[d365fin](includes/d365fin_md.md)] genereert een .pdf-bestand met de verkoopofferte en koppelt dat aan het e-mailbericht dat u opstelt in de invoegtoepassing.  
 
-- Contactinzichten
+En als u een e-mail van een leverancier ontvangt, kunt u net zo de invoegtoepassing gebruiken om met leveranciers en inkoopfacturen te werken.  
 
-    Deze invoegtoepassing biedt gebruikers met [!INCLUDE[prod_short](includes/prod_short.md)] klant- of leveranciersinformatie in Outlook-e-mails en agenda-afspraken. Het stelt u ook in staat om [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijfsdocumenten te maken en te verzenden, zoals verkoopoffertes en facturen aan een contact. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
+Soms wilt u meer velden bekijken dan u in de invoegtoepassing kunt weergeven, zoals wanneer u regels in een factuur wilt invullen. Als u wat meer ruimte wilt krijgen om mee te werken kunt u de invoegtoepassing op een aparte pagina openen. Het is nog deel van Outlook, maar u hebt meer ruimte. Terwijl u in de pop-upweergave gegevens voor het document invoert, worden de wijzigingen automatisch opgeslagen. Wanneer u klaar bent met het invoeren van gegevens voor het document, klikt u op **OK**. Als u het invoegtoepassingsframe kiest in Outlook, wordt het document automatisch vernieuwd met de wijzigingen die u in de pop-upweergave hebt aangebracht.  
 
-- Documentweergave
+## <a name="creating-invoices-from-your-meeting-appointments"></a>Facturen maken op basis van uw vergaderafspraken
+Sommige bedrijven registreren alle factureerbare afspraken in de Outlook-agenda. Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u de factuur voor de klant rechtstreeks op basis van het agenda-item maken. Open de afspraak, start vervolgens de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing , zoek bestaande gegevens op of maak meteen een factuur of een ander verkoopdocument aan.  
 
-    Wanneer een e-mail verwijst naar een bedrijfsdocumentnummer in de hoofdtekst van de e-mail, biedt deze invoegtoepassing een directe, in-line koppeling van de hoofdtekst van de e-mail naar het eigenlijke bedrijfsdocument in [!INCLUDE[prod_short](includes/prod_short.md)].
+## <a name="doing-quick-document-lookup"></a>Snel documenten opzoeken
+De invoegtoepassing [!INCLUDE[d365fin](includes/d365fin_md.md)] Document Links geeft u snel toegang tot documenten die worden genoemd in e-mailberichten. De invoegtoepassing is beschikbaar voor een e-mailbericht als een documentnummer wordt genoemd in de hoofdtekst van het bericht. Als u de invoegtoepassing opent, hebt u snel toegang tot het document.  
 
-Voor meer informatie over wat u doet met de invoegtoepassingen zie [Business Central gebruiken als uw zakelijke inbox in Outlook](work-outlook-addin.md).
+Als u bijvoorbeeld een e-mailbericht ontvangt met de tekst *S-QUO100*, identificeert [!INCLUDE[d365fin](includes/d365fin_md.md)] het als een verkoopofferte en kunt u het document dus openen in Outlook. Kies in Outlook de knop **Documentkoppelingen**, direct boven de hoofdtekst van het e-mailbericht. Kies in de Outlook-webapp de tekst *S-QUO1001* in het hoofdgedeelte van het e-mailbericht.  
 
-Elke invoegtoepassing wordt geleverd als een XML-bestand, genaamd een *manifest*, dat in Outlook moet worden geïnstalleerd voor iedereen die deze functionaliteit wil. Deze bestanden beschrijven hoe u de invoegtoepassingen activeert en verbinding maakt met Business Central wanneer ze in Outlook worden gebruikt. Het werken met deze bestanden wordt meestal gedaan door een beheerder. Als normale gebruiker hoeft u in de meeste gevallen niet direct met deze bestanden om te gaan. Ofwel uw beheerder stelt de invoegtoepassing zo in dat deze automatisch voor u wordt geïnstalleerd of u gebruikt de ingebouwde begeleide instelling om de installatie af te handelen.
+In de invoegtoepassing Document Links kunt u acties wijzigen en uitvoeren met het document, net als in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>De invoegtoepassing implementeren met behulp van gecentraliseerde implementatie als beheerder
+## <a name="adding-the-add-ins-manually"></a>Invoegtoepassingen handmatig toevoegen
+In sommige gevallen worden de invoegtoepassingen niet automatisch aan Outlook toegevoegd. Zelfs als u of een collega de begeleide instelling namens het bedrijf hebt uitgevoerd, is [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk niet zichtbaar in Outlook. Als u dit probleem tegenkomt, kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassingen handmatig toevoegen.  
 
-Gecentraliseerde implementatie is een functie in het Microsoft 365-beheercentrum die u gebruikt om automatisch invoegtoepassingen te installeren in Office-apps van gebruikers, zoals Outlook. Dit is de aanbevolen manier voor beheerders om Office-invoegtoepassingen te implementeren voor gebruikers en groepen binnen uw organisatie.
+Eerst moet u controleren of u toegang hebt tot de invoegtoepassingen in uw Office 365-account. Open gewoon uw Outlook in een browser, open een bericht, selecteer **Meer acties** (...) boven aan het bericht en kies vervolgens onder aan de lijst **Invoegtoepassingen ophalen**. Dit opent de pagina **Invoegtoepassingen voor Outlook**, waar u [!INCLUDE[prodshort](includes/prodshort.md)] kunt inschakelen voor uw Outlook. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[prodshort](includes/prodshort.md)] beschikbaar zijn.  
 
-> [!NOTE]
-> Voor Business Central on-premises zie [De invoegtoepassing voor Outlook-integratie instellen met Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) in de beheerinhoud (alleen Engels).
+U kunt ook in de Outlook-bureaubladclient controleren of [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt vermeld op de pagina **Invoegtoepassingen ophalen**.  
 
-### <a name="prerequisites"></a>Vereisten
+In beide gevallen moet u, als [!INCLUDE[d365fin](includes/d365fin_md.md)] nog steeds niet beschikbaar is, moet u de manifestbestanden van de invoegtoepassing ophalen. Neem contact op met uw Office 365-beheerder voor meer informatie.
 
-- Een Microsoft 365-abonnement  
-- Aan gebruikers wordt een Microsoft 365-licentie toegewezen  
-- Uw Microsoft 365-account heeft de rol *Globale beheerder* of *Exchange-beheerder*
+## <a name="using-other-email-accounts"></a>Andere e-mailaccounts gebruiken
 
-### <a name="deploy-the-add-in"></a>De invoegtoepassing implementeren
-
-1. Kies in Business Central het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies vervolgens de gerelateerde koppeling.
-2. Kies **Gecentraliseerde implementatie van Outlook-invoegtoepassing** om de begeleide instelling te starten.
-3. Bekijk de eerste pagina en kies **Volgende** om de pagina te openen voor het downloaden van de invoegtoepassingen.
-4. Selecteer in de kolom **Implementeren** het selectievakje voor de invoegtoepassingen die u wilt implementeren en kies vervolgens **Downloaden en doorgaan**.
-
-    Een bestand met de naam *OutlookAddins.zip* wordt gedownload naar uw apparaat.
-
-5. Op dit punt bent u klaar met het werk dat u moet doen in Business Central, dus u kunt **Gereed** kiezen.
-
-   >[!TIP]
-   > Selecteer voordat u **Volgende** kiest, de koppeling **Ga naar Microsoft 365 (wordt in een nieuw venster geopend)** om het Microsoft 365-beheercentrum te openen in een nieuw browservenster en u er bij aan te melden. U zult sowieso in een latere stap naar het Microsoft 365-beheercentrum moeten gaan.
-
-6. Ga naar de map waar OutlookAddins.zip is gedownload en pak de bestanden **Contact Insights.xml** en **Document View.xml** uit de .zip uit in een map naar keuze.
-
-    Voor meer informatie zie [Bestanden en mappen zippen en unzippen](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Meld u aan bij het Microsoft 365-beheercentrum en ga naar [Geïntegreerde apps](https://go.microsoft.com/fwlink/?linkid=2163967).
-
-8. Kies **Aangepaste apps uploaden**.
-9. Kies op de pagina **Apps uploaden om te implementeren** **Manifestbestand (.xml) uploaden vanaf apparaat** > **Bestand kiezen**.
-10. Selecteer een van de bestanden die u eerder hebt uitgepakt, bijvoorbeeld **Content Insights.xml**.
-11. Volg de instructies om gebruikers toe te wijzen en de invoegtoepassing te implementeren.
-12. Herhaal stap 9 tot en met 11 voor het andere bestand als u dat wilt.
-
-> [!IMPORTANT]
-> Er verschijnt een groen vinkje wanneer de invoegtoepassing is geïmplementeerd in het beheercentrum. Het kan echter tot 24 uur duren voordat gebruikers de invoegtoepassing zien in de Outlook-app. Gebruikers moeten mogelijk ook Outlook opnieuw starten.
-
-Als u klaar bent, kunt u de implementatie altijd wijzigen in het Microsoft 365-beheercentrum, zoals het toewijzen van meer gebruikers. Zie voor meer informatie over het implementeren van invoegtoepassingen in het beheercentrum [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/manage-deployment-of-add-in).
-
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>De invoegtoepassing installeren voor eigen gebruik
-
-Als uw organisatie dit toestaat, kunt u de Business Central-invoegtoepassing alleen voor uzelf installeren. Vraag het uw beheerder als u het niet zeker weet.
-
-1. Ga in Business Central naar het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **De Outlook-invoegtoepassing ophalen** in en kies vervolgens de gerelateerde koppeling.
-2. Lees de pagina en kies **Volgende** wanneer u klaar bent.
-3. Als u een welkomstbericht van Business Central wilt ontvangen met een overzicht van het gebruik van de invoegtoepassing, schakelt u **Voorbeeld-e-mailbericht verzenden** in.
-4. Kies **Voltooien** om de installatie te voltooien.
-
-Business Central maakt verbinding met uw e-mailserver en installeert de invoegtoepassing in uw Outlook. Dit duurt niet lang. U bent nu klaar om de invoegtoepassing in Outlook te gaan gebruiken.
-
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Voor Business Central on-premises
-
-Als u Business Central on-premises gebruikt, kan het installeren van de invoegtoepassing iets anders zijn.
-
-1. Ga in Business Central naar het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **De Outlook-invoegtoepassing ophalen** in en kies vervolgens de gerelateerde koppeling.
-2. Lees de pagina en kies **Volgende** wanneer u klaar bent.
-3. Voer een van de volgende stappen uit, afhankelijk van de pagina die u ziet:
-
-    - Als u de knop **Installeren in mijn Outlook** ziet, kiest u deze en bent u klaar.
-    - Als u de knop **Volgende** ziet, kiest u deze. Als u op de volgende pagina een welkomstbericht van Business Central wilt ontvangen met een overzicht van het gebruik van de invoegtoepassing, schakelt u **Voorbeeld-e-mailbericht verzenden** in. Kies dan **Voltooien** en u bent helemaal klaar.
-    - Als u de knop **Invoegtoepassing downloaden** ziet, kiest u deze en gaat u naar de volgende stap.
-4. Wanneer u **Invoegtoepassing downloaden** kiest, wordt een bestand met de naam *OutlookAddins.zip* gedownload naar uw apparaat. U zou het bestand boven aan de browser moeten zien.
-
-   Ga naar de map waar OutlookAddins.zip is gedownload en pak de bestanden **Contact Insights.xml** en **Document View.xml** uit de .zip uit in een map naar keuze. Voor meer informatie over het uitpakken van bestanden zie [Bestanden en mappen zippen en unzippen](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-
-5. Open Outlook en kies **Invoegtoepassingen ophalen** op het lint. Of, als u Outlook op het web gebruikt, selecteert u het vervolgkeuzemenu in een nieuw of bestaand e-mailbericht en selecteert u vervolgens **Invoegtoepassingen ophalen**.
-6. Kies **Mijn invoegtoepassingen** > **Een aangepaste invoegtoepassing toevoegen** > **Toevoegen vanuit een bestand**.
-7. Kies een van de .xml-bestanden die u hebt uitgepakt, zoals **Contact Insights.xml** en kies dan **Openen** > **Installeren**.
-8. Herhaal stap 6 en 7 voor het andere .xml-bestand, als u er een hebt gedownload.
-
-U bent nu klaar om de invoegtoepassing in Outlook te gaan gebruiken.
-
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+De invoegtoepassingen zijn ontworpen om te worden gebruikt met Office 365. Als u [!INCLUDE [prodshort](includes/prodshort.md)] on-premises gebruikt, zal uw beheerder weten of u de [!INCLUDE [prodshort](includes/prodshort.md)]-invoegtoepassingen in Outlook kunt gebruiken. Zie voor meer informatie [Welk e-mailadres kan ik gebruiken voor [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#what-email-address-can-i-use-with-) en [Functies die specifieke omstandigheden vereisen](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-also"></a>Zie ook
 
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Aan de slag](product-get-started.md)  
 [Business Central op mijn mobiele apparaat krijgen](install-mobile-app.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
 [Financiën](finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Minimale vereisten voor Outlook](product-requirements.md#outlook)  
-[Invoegtoepassingen gebruiken in Outlook op het web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Invoegtoepassingen gebruiken in Outlook op het web](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

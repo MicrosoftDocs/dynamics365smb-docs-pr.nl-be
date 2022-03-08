@@ -1,24 +1,25 @@
 ---
-title: Bankieren instellen
+title: Bankieren instellen| Microsoft Docs
 description: Met bankrekeningkaarten kunt u uw bankrekeningen bijhouden en bankfeeds instellen, zoals Yodlee, om gegevens uit te wisselen.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.search.form: 1200
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139949"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692740"
 ---
 # <a name="setting-up-banking"></a>Bankieren instellen
-
 Met bankrekeningkaarten kunt al uw bankrekeningen bijhouden, in willekeurige valuta's. Nadat u de bankrekeningen hebt ingesteld, kunt u ook de optie voor het afdrukken van cheques gebruiken.
 
 Als u elektronische bankierservices wilt gebruiken om bankafschriften te importeren en betalingen te exporteren, moet u de desbetreffende services instellen en inschakelen.
@@ -27,16 +28,10 @@ Als u elektronische bankierservices wilt gebruiken om bankafschriften te importe
 | --- | --- |
 | Bankrekeningkaarten in te stellen voor al uw bankrekeningen, zodat u banktransacties kunt traceren. |[Bankrekeningen instellen](bank-how-setup-bank-accounts.md) |
 | Stel een externe service in waarmee u bankafschriften kunt importeren als bankfeeds voor betalingsvereffening en bankreconciliatie. |[De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md) |
-| Stel een externe service in waarmee u uw betalingen voor verwerking naar de bank kunt exporteren en bankafschriften kunt importeren als bankbestanden voor betalingsvereffening en bankreconciliatie. |[De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md) |
-
-[!INCLUDE [local-functionality](includes/local-functionality.md)]
+| Stel een externe service in waarmee u uw betalingen voor verwerking naar de bank kunt exporteren en bankafschriften kunt importeren als bankbestanden voor betalingsvereffening en bankreconciliatie. |[De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Zie ook
-
-[Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
+[Bankrekeningen beheren](bank-manage-bank-accounts.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

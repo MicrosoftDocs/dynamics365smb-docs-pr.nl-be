@@ -1,22 +1,22 @@
 ---
-title: Klanten beheren met Dynamics 365 Sales (bevat video) | Microsoft Docs
-description: U kunt Dynamics 365 Sales vanuit Business Central gebruiken met naadloze integratie en synchronisatie in het potentiële klant-naar-contanten proces.
+title: Klanten beheren met Dynamics 365 Sales | Microsoft Docs
+description: U kunt Dynamics 365 Sales vanuit Business Central gebruiken om gegevens te koppelen en naadloze integratie en synchronisatie te hebben in het potentiële klant-naar-contanten proces.
 documentationcenter: ''
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a77ae97b8198e2a50c911e1be27ea76c20b9570
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c61156f5f156f037ed3b36aeadd2a1d21b1666cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140854"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387861"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Microsoft Dynamics 365 Sales gebruiken vanuit Business Central
 Als u Dynamics 365 Sales gebruikt voor contacten met klanten, kunt u profiteren van naadloze integratie in het lead-naar-cash proces door [!INCLUDE[prod_short](includes/prod_short.md)] te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.
@@ -95,46 +95,7 @@ Wanneer u **Proces** in [!INCLUDE[prod_short](includes/prod_short.md)] kiest voo
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Geboekte verkoopfacturen, klantbetalingen en statistieken verwerken
 Na het uitvoeren van een verkooporder worden er facturen voor gemaakt. Als u een verkooporder factureert, kunt u de geboekte verkoopfactuur aan [!INCLUDE[crm_md](includes/crm_md.md)] overdragen als u het selectievakje **Factuur maken in [!INCLUDE[crm_md](includes/crm_md.md)]** selecteert op de pagina **Geboekte verkoopfactuur**. Geboekte facturen worden overgedragen aan [!INCLUDE[crm_md](includes/crm_md.md)] met de status **Gefactureerd**.
 
-Als de klantbetaling voor de verkoopfactuur is ontvangen in [!INCLUDE[prod_short](includes/prod_short.md)], wordt de status van de verkoopfactuur gewijzigd in **Betaald**, met de **statusreden** ingesteld op **Gedeeltelijk**, indien gedeeltelijk betaald, of op **Volledig** indien geheel voldaan, wanneer u de actie **Rekeningstatistiek bijwerken** kiest op de klantpagina in [!INCLUDE[prod_short](includes/prod_short.md)]. De functie **Rekeningstatistiek bijwerken** vernieuwt ook waarden zoals de velden **Saldo** en **Totale verkoop** in het feitenblok **[!INCLUDE[prod_short](includes/prod_short.md)]-rekeningstatistiek** in [!INCLUDE[crm_md](includes/crm_md.md)]. U kunt ook de geplande taken, Klantstatistieken en GEBOEKTEVERKOOPFACTUUR-FACT, automatisch beide processen laten uitvoeren op de achtergrond. 
-
-## <a name="handling-sales-prices"></a>Omgaan met verkoopprijzen
-> [!NOTE]
-> In releasewave 2 van 2020 hebben we gestroomlijnde processen uitgebracht voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent en die versie gebruikt, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd in **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
-
-Deze stappen om dit proces te voltooien verschillen, afhankelijk van of uw beheerder de nieuwe verkoopprijservaring heeft ingeschakeld. 
-
-> [!NOTE]
-> Als de synchronisatie van de standaardprijs niet werkt voor u, raden we u aan om de aanpassingsmogelijkheden voor integratie te gebruiken. Zie voor meer informatie [Een integratie met Microsoft Dataverse aanpassen](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
-
-#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)
-In de huidige verkoopprijservaring synchroniseert [!INCLUDE[prod_short](includes/prod_short.md)] verkoopprijzen die: 
-
-* Van toepassing zijn op alle klanten. Standaardverkoopprijslijsten worden gemaakt op basis van de prijs in het veld **Eenheidsprijs** op de pagina **Artikelkaart** pagina voor de artikelen.
-* Van toepassing zijn op een klantenprijsgroep. Bijvoorbeeld verkoopprijzen voor uw detailhandel- of groothandelsklanten. Als u prijzen wilt synchroniseren op basis van een klantprijsgroep, doet u het volgende:
-
-    1. Koppel de artikelen waarvoor de prijzen zijn bepaald door de klantprijsgroep.
-    2. Op de pagina **Klantprijsgroepen** koppelt u de klantprijsgroep door **Verwant**, **Dynamics 365 Sales**, **Koppelen** en **Koppeling instellen** te kiezen. Door de koppeling wordt een actieve prijslijst in [!INCLUDE[prod_short](includes/prod_short.md)] gemaakt die dezelfde naam heeft als de klantprijsgroep in [!INCLUDE[crm_md](includes/crm_md.md)] en worden automatisch alle artikelen gesynchroniseerd waarvoor de klantprijsgroep de prijs definieert.
-
-:::image type="content" source="media/customer-price-group.png" alt-text="Pagina Klantenprijsgroep":::
-
-#### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience/)  
-
-Met de nieuwe verkoopprijservaring worden prijslijsten gesynchroniseerd die aan de volgende criteria voldoen:
-
-* **Bijwerken van standaardinstellingen toestaan** is uitgeschakeld.
-* Het prijstype is Verkoop.
-* De bedragsoort is Prijs.
-* Het producttype op de regels moet Artikel of Resource zijn. 
-* Er is geen minimumhoeveelheid opgegeven.
-
-[!INCLUDE[prod_short](includes/prod_short.md)] synchroniseert verkoopprijzen die voor alle klanten gelden. Standaardverkoopprijslijsten worden gemaakt op basis van de prijs in het veld **Eenheidsprijs** op de pagina **Artikelkaart** pagina voor de artikelen.
-
-Als u prijslijsten wilt synchroniseren, kiest u op de pagina **Verkoopprijslijst** de optie **Verwant**, **Dynamics 365 Sales**, **Koppelen** en **Koppeling instellen**. 
-
-:::image type="content" source="media/sales-price-list.png" alt-text="Pagina Verkoopprijslijst.":::
-
----
-
+Als de klantbetaling voor de verkoopfactuur is ontvangen in [!INCLUDE[prod_short](includes/prod_short.md)], wordt de status van de verkoopfactuur gewijzigd in **Betaald**, met de **statusreden** ingesteld op **Gedeeltelijk**, indien gedeeltelijk betaald, of op **Volledig** indien geheel voldaan, wanneer u de actie **Rekeningstatistiek bijwerken** kiest op de klantpagina in [!INCLUDE[prod_short](includes/prod_short.md)]. De functie **Rekeningstatistiek bijwerken** vernieuwt ook waarden zoals de velden **Saldo** en **Totale verkoop** in het feitenblok **[!INCLUDE[prod_short](includes/prod_short.md)]-rekeningstatistiek** in [!INCLUDE[crm_md](includes/crm_md.md)]. U kunt ook de geplande taken, Klantstatistieken en GEBOEKTEVERKOOPFACTUUR-FACT, automatisch beide processen laten uitvoeren op de achtergrond.
 
 ## <a name="see-also"></a>Zie ook
 [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

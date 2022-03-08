@@ -1,20 +1,21 @@
 ---
-title: 'Ontwerpdetails: Beschikbaarheid artikeltracering'
-description: De pagina's Artikeltraceringsregels en Artikeltraceringssamenvatting bevatten dynamische beschikbaarheidsinformatie voor serie- of lotnummers, wat de transparantie voor gebruikers vergroot.
+title: 'Ontwerpdetails: Beschikbaarheid van artikeltracering | Microsoft Docs'
+description: De pagina's Artikeltraceringsregels en Artikeltraceringssamenvatting bevatten dynamische beschikbaarheidsinformatie voor serie- of lotnummers. Het doel hiervan is transparantie voor gebruikers te verhogen in uitgaande documenten, zoals verkooporders, door ze te laten zien welke serienummers of hoeveel eenheden van een lotnummer momenteel zijn toegewezen in andere geopende documenten.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 4fd66e1b6e5aff71ee10b0e24d9f25b81eb85887
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8fd2fc7c6eb3a4c413691d4eb0b9f5f86aba3fe9
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138634"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215890"
 ---
 # <a name="design-details-item-tracking-availability"></a>Ontwerpdetails: Beschikbaarheid artikeltracering
 De pagina's **Artikeltraceringsregels** en **Artikeltraceringssamenvatting** bevatten dynamische beschikbaarheidsinformatie voor serie- of lotnummers. Het doel hiervan is transparantie voor gebruikers te verhogen in uitgaande documenten, zoals verkooporders, door ze te laten zien welke serienummers of hoeveel eenheden van een lotnummer momenteel zijn toegewezen in andere geopende documenten. Dit vermindert onzekerheid die door dubbele toewijzingen wordt veroorzaakt en geeft orderverwerkers vertrouwen dat de artikeltraceringsnummers en datums die op ongeboekte verkooporders worden toegezegd, kunnen worden gerealiseerd. Zie voor meer informatie [Ontwerpdetails: Pagina Artikeltraceringsregels](design-details-item-tracking-lines-window.md).  

@@ -1,20 +1,21 @@
 ---
-title: Cashflowprognoses door rekeningschema's te gebruiken
-description: In dit scenario wordt beschreven hoe u rapportageschema's kunt maken van cashflowprognoses in Business Central.
+title: Procedure - cashflowprognoses maken met behulp van rapportageschema's
+description: Leer hoe u rapportageschema's gebruikt om cashflowprognoses te maken.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 02/16/2021
 ms.author: edupont
-ms.openlocfilehash: eb6b766ffb4974943c37f0b3e1499a59695f349c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d7a1cfd2a1612d3f593d1635643b2917987d7bea
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140253"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470399"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedure: cashflow met behulp van rapportageschema's maken
 
@@ -53,7 +54,7 @@ Een rapportageschema bestaat uit een cashflowrekening met een reeks regels en ee
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Een nieuwe naam voor een rekeningstelsel instellen  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies de desbetreffende koppeling.  
 2. Kies op de pagina **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een cashflowrekening te maken.  
 3. Voer in het veld **Naam** de tekst **Prognose** in.  
 4. Voer in het veld **Omschrijving** **Cashflowprognose** in.  

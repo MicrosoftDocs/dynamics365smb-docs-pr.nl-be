@@ -1,22 +1,23 @@
 ---
-title: Verkoopopportunities verwerken in verkoopcycli
-description: In dit onderwerp worden de verschillende manieren beschreven waarop u verkoopkansen in verkoopcycli kunt verwerken en een verkoopkans door de fasen van een verkoopcyclus kunt verplaatsen.
+title: Verkoopopportunities verwerken in verkoopcycli| Microsoft Docs
+description: U kunt verkoopopportunities weergeven sluiten of verwijderen en u kunt ook offertes en verkooporders voor opportunity's maken en een opportunity verplaatsen door de fasen van een verkoopcyclus.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/22/2021
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 7bd357f10509040afb8b64ec19fecda4e8769dfe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142015"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076599"
 ---
 # <a name="process-sales-opportunities"></a>Verkoopopportunity's verwerken
 Nadat u een opportunity hebt gemaakt, zijn er verschillende functies voor het beheren van de opportunity en het verplaatsen ervan naar voltooiing.
@@ -26,9 +27,9 @@ De bestaande verkoopopportunities zijn beschikbaar op de pagina **Opportunity-ov
 
 | Opportunities weergeven voor | Dan |
 | --- | --- |
-| Alle verkopers en contacten |Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Opportunity-overzicht** in en kies vervolgens de gerelateerde koppeling. |
-| Een bepaalde verkoper |Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkopers** in en kies vervolgens de gerelateerde koppeling. Selecteer de verkoper, kies de actie **Opportunities** en kies vervolgens de actie **Overzicht**. |
-| Een bepaald contact |Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling. Selecteer het contact in de lijst en kies vervolgens de actie **Opportunities**. |
+| Alle verkopers en contacten |Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunity-overzicht** in en kies de desbetreffende koppeling. |
+| Een bepaalde verkoper |Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers** in en kies de desbetreffende koppeling. Selecteer de verkoper, kies de actie **Opportunities** en kies vervolgens de actie **Overzicht**. |
+| Een bepaald contact |Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contactpersonen** in en kies de desbetreffende koppeling. Selecteer het contact in de lijst en kies vervolgens de actie **Opportunities**. |
 
 Al deze taken openen de pagina **Opportunity-overzicht**.
 
@@ -43,8 +44,7 @@ U kunt opportunities afsluiten wanneer de onderhandelingen zijn afgerond. Wannee
    In het veld **Opportunitycode afsluiten** kunt u een van de bestaande codes voor het sluiten van opportunities kiezen of een nieuwe code toevoegen. Als u een nieuwe code wilt toevoegen, kiest u in de vervolgkeuzelijst **Selecteren vanuit volledige lijst** en kiest u vervolgens **nieuw**. Vul op de nieuwe, lege regel de velden **Code**, **Soort** en **Omschrijving** in en kies vervolgens de knop **OK**.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Offertes maken voor opportunity's
-> [!NOTE]
-> U kunt alleen verkoopoffertes maken van opportunities waarvan het contacttype Bedrijf is.
+U kunt verkoopoffertes maken voor contactpersonen die niet zijn geregistreerd als klant.
 
 1. Selecteer op de pagina **Opportunity-overzicht** de opportunity en kies vervolgens de actie **Verkoopofferte toekennen**. De pagina **Verkoopofferte** wordt geopend.
 2. Vul de betreffende velden in.
@@ -65,7 +65,7 @@ Als u gesloten afgesloten opportunities wilt verwijderen vanuit de pagina **Oppo
 
 Als u afgesloten opportunities wilt verwijderen met de batchverwerking **Afgesloten opportunities verwijderen**, volgt u deze stappen:
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Opportunities verwijderen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Opportunities verwijderen** in en kies de desbetreffende koppeling.
 2. Stel in het gedeelte **Opportunity** de filters in die opgeven welke gesloten opportunities moeten worden verwijderd.
 3. Kies de knop **Ok**.
 
@@ -86,7 +86,4 @@ Als een opportunity een verkoopcyclus volgt, kunt u deze voorwaarts of achterwaa
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,19 +1,19 @@
 ---
-title: Een projectkaart voor een project maken en taken opgeven
+title: Een projectkaart voor een project maken en taken opgeven| Microsoft Docs'
 description: Voor een nieuw project maakt u een projectkaart met projecttaken en planningsregels om u te helpen voortgang en budgetten te beheren.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
-ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ebfbdf04b577f60e20da899e0ba3512571ed5189
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 12fdf2f9080112b65a2723d17cecd12653be0c3c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140773"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780519"
 ---
 # <a name="create-jobs"></a>Projecten maken
 Wanneer u een nieuw project start, moet u een projectkaart maken met geïntegreerde projecttaken en projectplanningsregels, die uit twee lagen wordt gestructureerd.  
@@ -30,7 +30,7 @@ Dankzij de laagstructuur kunt u het project in kleinere taken onderverdelen en d
 ## <a name="to-create-a-job-card"></a>Een projectkaart maken
 U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplanningsregels hiervoor.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Nieuw** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Als u het project wilt opgeven met informatie over andere projecten, kiest u de actie **Project kopiëren**, vult u de benodigde velden in en kiest u de knop **OK**.
 
@@ -40,7 +40,7 @@ U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplannin
 ## <a name="to-create-tasks-for-a-job"></a>Taken maken voor een project
 Een essentieel onderdeel bij het maken van een nieuw project is dat de verschillende taken worden opgegeven die bij het project horen. Dit doet u door nieuwe regels toe te voegen op het sneltabblad **Taken** op de pagina **Projectkaart**, met één taak per regel. Elk project moet minimaal één taak hebben.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.
 2. Open de projectkaart voor een relevant project.
 3. Vul op het sneltabblad **Taken** indien nodig de velden in op een nieuwe regel.
 4. Als u taken wilt laten inspringen en een hiërarchie wilt maken, kiest u de actie **Taken** en vervolgens de actie **Projecttaken inspringen**.
@@ -60,7 +60,7 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 
 **Opmerking**. Tijdens het invoeren van gegevens op projectplanningsregels worden de kostprijsgegevens automatisch ingevuld. De kosten, de prijs en de korting voor resources en artikelen zijn bijvoorbeeld in eerste instantie gebaseerd op de gegevens die op de resource- en artikelkaarten staan.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.
 2. Open de betreffende projectkaart.
 3. Selecteer een projecttaak waarvoor **Boeking** de **projecttaaksoort** is, en kies vervolgens de actie **Projectplanningsregels**.  
 4. Vul op de pagina **Projectplanningsregels** op een nieuwe regel de benodigde velden in.

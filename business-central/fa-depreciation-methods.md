@@ -1,20 +1,21 @@
 ---
 title: Afschrijvingsmethoden voor vaste activa
-description: Lees meer over de verschillende ingebouwde methoden om vaste activa af te schrijven of in waarde te verminderen in de standaardversie van Business Central, die acht methoden bevat.
+description: Lees meer over de verschillende ingebouwde methoden om vaste activa af te schrijven of in waarde te verminderen in de standaardversie van Business Central.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 07/05/2021
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: af6a19e55c339d7103e0e644368a30fd4a13a0a6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136308"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493340"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Afschrijvingsmethoden voor vaste activa
 
@@ -28,7 +29,7 @@ Er zijn acht afschrijvingsmethoden beschikbaar in de standaardversie van [!INCLU
 * Eigen definitie  
 
   > [!NOTE]  
-  > Specificeer uw eigen afschrijvingsmethode door afschrijvingstabellen te definiëren. Voor informatie over het toepassen van een door de gebruiker gedefinieerde afschrijvingsmethode zie [Door de gebruiker gedefinieerde afschrijvingsmethode instellen](fa-how-setup-user-defined-depreciation-method.md).
+  > Specificeer uw eigen afschrijvingsmethode door afschrijvingstabellen te definiëren.
 * Handmatig  
 
   > [!NOTE]  
@@ -153,16 +154,16 @@ Berekeningsmethode:
 
 De formule voor het berekenen van de afschrijvingsbedragen luidt als volgt:  
 
-*AB* = *BW* x (1 – (1 –P)<sup>D</sup>)
+*DA* = *BV* x (1 – (1 –P)<sup>D<sup> 
 
 De afschrijvingswaarden zijn:  
 
 | Datum | Berekening |
 | --- | --- |
-| 06/30/20 |AB = 100.000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 13.397,46 |
-| 12/31/20 |AB = 86.602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11.602,54 |
-| 06/30/21 |AB = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
-| 12/31/21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
+| 06/30/20 |AB = 100.000,00 x (1 -(1 - 0,25)<sup>0,5<sup>) = 13.397,46 |
+| 12/31/20 |AB = 86.602,54 x (1 - (1 - 0,25)<sup>0,5<sup>) = 11.602,54 |
+| 06/30/21 |AB = 75.000,00 x (1 - (1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
+| 12/31/21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5<sup>) = 8.701,91 |
 
 ## <a name="db1sl-depreciation"></a>BW1/Lineaire afschrijving
 
@@ -204,7 +205,7 @@ De VA-posten zien er als volgt uit:
 
 Berekeningsmethode:  
 
-* Jaar 1 (2020):  
+* Jaar 1:  
 
     *Boekwaarde-afschrijvingsbedrag: 25% van 100.000 = 25.000 = 12.500 + 12.500*  
 
@@ -219,6 +220,74 @@ Berekeningsmethode:
     *Lineair afschrijvingsbedrag = 23.730,46/3 = 7.910,15 = 3.995,07 + 3.995,08*  
 
     Het lineaire afschrijvingsbedrag wordt gebruikt, omdat dit het hoogste bedrag is.  
+
+## <a name="user-defined-depreciation"></a>Door de gebruiker ingestelde afschrijving
+
+U hebt de mogelijkheid om eigen afschrijvingsmethoden in te stellen.  
+
+Voor het instellen van een eigen methode gebruikt u de pagina **Afschrijvingstabellen**, waarin u voor iedere periode (maand, kwartaal, jaar of boekhoudperiode) een afschrijvingspercentage opgeeft. Wanneer u vervolgens een afschrijvingsboek met een door de gebruiker gedefinieerde methode toewijst aan een vast activum, moet u de velden **Datum 1e afschr. eigen def.** en **Begindatum afschr.** op de pagina **FA-afschrijvingsboeken** voor het specifieke vaste activum instellen.  
+
+De formule voor het berekenen van de afschrijvingsbedragen luidt als volgt:  
+
+*Afschrijvingsbedrag = (Afschrijvingen % x Aantal afschrijvingsdagen x Afschrijvingsbasis) / (100 x 360)*  
+
+### <a name="depreciation-based-on-number-of-units"></a>Afschrijving op basis van aantal eenheden
+
+Deze eigen methode kan ook worden gebruikt om af te schrijven op basis van het aantal eenheden, bijvoorbeeld in het geval van productiemachines met een vastgestelde capaciteit gedurende hun levensduur. Op de pagina **Afschrijvingstabellen** kunt u het aantal eenheden invullen dat per periode (maand, kwartaal, jaar of boekhoudperiode) kan worden geproduceerd.  
+
+### <a name="to-set-up-user-defined-depreciation-methods"></a>Eigen afschrijvingsmethoden instellen
+
+Op de pagina **Afschrijvingstabel** kunt u door de gebruiker gedefinieerde afschrijvingsmethoden instellen. U kunt bijvoorbeeld afschrijving instellen op basis van het aantal eenheden.  
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingstabellen** in en kies de desbetreffende koppeling.  
+2. Kies op de pagina **Afschrijvingstabeloverzicht** de actie **Nieuw**.  
+3. Vul op de pagina **Afschrijvingstabel** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+> [!TIP]
+> Gebruik de functie **Cijfersomtabel maken** om een afschrijvingstabel te definiëren op basis van de methode *Cijfersom*.
+
+Met de methode *Cijfersom*, als een vast activum wordt afgeschreven over 4 jaar, dan wordt de afschrijving voor elk jaar als volgt berekend:
+
+Cijfersom = 1 + 2 + 3 + 4 = 10 Afschrijving:
+
+* Jaar 1 = 4/10  
+* Jaar 2 = 3/10  
+* Jaar 3 = 2/10  
+* Jaar 4 = 1/10  
+
+### <a name="example---user-defined-depreciation"></a>Voorbeeld - door gebruiker ingestelde afschrijving
+
+U gebruikt een afschrijvingsmethode waarmee u activa versneld kunt afschrijven (omdat u hierdoor minder inkomstenbelasting hoeft te betalen).  
+
+Voor een vast activum dat u van de belastingdienst in drie jaar mag afschrijven, kunt u de volgende afschrijvingspercentages gebruiken:  
+
+* Jaar 1: 25%  
+* Jaar 2: 38%  
+* Jaar 3: 37%  
+
+De aanschafkosten bedragen LV 100.000 en de afschrijfbare levensduur is vijf jaar. De afschrijving wordt jaarlijks berekend.  
+
+| Datum | VA-boekingssoort | Dagen | Bedrag | Boekwaarde |
+| --- | --- | --- | --- | --- |
+| 01/01/20 |Aanschafkosten |(Begindatum afschrijving) |100,000.00 |100,000.00 |
+| 12/31/20 |Afschrijvingen |360 |-25.000,00 |75,000.00 |
+| 12/31/21 |Afschrijvingen |360 |-38.000,00 |37,000.00 |
+| 12/31/22 |Afschrijvingen |360 |-37.000,00 |0 |
+| 12/31/23 |Afschrijvingen |Geen |Geen |0 |
+| 12/31/24 |Afschrijvingen |Geen |Geen |0 |
+
+Als u een eigen methode hanteert, moet u de velden **Datum 1e afschr. eigen def.** en **Begindatum afschr.** op de pagina **VA-afschrijvingsboeken** invullen voor het specifieke vaste activum. Via het veld **Datum 1e afschr. eigen def.** en de inhoud van het veld **Periodelengte** op de pagina **Afschrijvingstabellen** wordt het tijdsinterval voor de afschrijvingsberekeningen bepaald. Hierdoor wordt het opgegeven percentage op dezelfde dag gebruikt voor alle activa. Het veld **Begindatum afschr.** wordt gebruikt om het aantal afschrijvingsdagen te berekenen.  
+
+In het vorige voorbeeld worden de velden **Datum 1e afschr. eigen def.** en **Begindatum afschr.** ingesteld op 01/01/20 op de pagina **FA-afschrijvingsboeken** voor het specifieke vaste activum. Als het veld **Datum 1e afschr. eigen def.** echter de datum 01-01-20 bevat en het veld **Begindatum afschr.** de datum 01-04-20, dan zou het resultaat als volgt zijn:  
+
+| Datum | VA-boekingssoort | Dagen | Bedrag | Boekwaarde |
+| --- | --- | --- | --- | --- |
+| 01/01/20 |Aanschafkosten |(Begindatum afschrijving) |100,000.00 |100,000.00 |
+| 12/31/20 |Afschrijvingen |270 |-18.750,00 |81,250.00 |
+| 12/31/21 |Afschrijvingen |360 |-38.000,00 |42,250.00 |
+| 12/31/22 |Afschrijvingen |360 |-37.000,00 |6,250.00 |
+| 12/31/23 |Afschrijvingen |90 |-6.250,00 |0 |
+| 12/31/24 |Afschrijvingen |Geen |Geen |0 |
 
 ## <a name="half-year-convention-depreciation"></a>Afschrijving volgens halfjaarlijkse afspraak
 
@@ -301,10 +370,10 @@ Als u een post boekt in B1 in het financieel dagboek voor vaste activa en het ve
 
 ## <a name="see-also"></a>Zie ook
 
-[Vaste activa](fa-manage.md)  
+[Vast activum](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -1,20 +1,21 @@
 ---
-title: Voorraad- en productiekosten verwerken
-description: Ontdek hoe een aantal velden, pagina's en rapporten zijn bedoeld voor gebruikers die direct of indirect de kosten van artikelen of bewerkingen beheren.
+title: Voorraad- en productiekosten verwerken | Microsoft Docs
+description: Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, pagina's en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9203aa99271bc5fba840b3d568adc098686ef961
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: be0dc308f7d941fe3c41ecbaaf879eacc5405d12
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136107"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785183"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Voorraad- en productiekosten verwerken
 Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, pagina's en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.  
@@ -37,6 +38,3 @@ Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt 
 ## <a name="see-also"></a>Zie ook  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)
 [Ontwerpdetails: Voorraadkosten](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

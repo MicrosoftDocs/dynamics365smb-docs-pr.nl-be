@@ -1,21 +1,21 @@
 ---
-title: Artikelkaarten maken voor goederen of services (bevat video)
-description: U maakt artikelkaarten voor services die u als uren en voor fysieke producten verkoopt, zoals componenten, gereedgemelde goederen die u uit uw voorraad verkoopt.
+title: Artikelkaarten maken voor goederen of services| Microsoft Docs
+description: U maakt artikelkaarten voor services die u als uren en voor fysieke producten verkoopt, zoals componenten, gereedgemelde goederen, onderdelen of grondstoffen, die u uit uw voorraad verkoopt.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2d64fe3a04109246540a463597dbf49684b8913
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148602"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923832"
 ---
 # <a name="register-new-items"></a>Nieuwe artikelen registreren
 
@@ -25,7 +25,7 @@ Artikelkaarten bevatten de informatie die is vereist om artikelen te kopen, op t
 
 De artikelkaart kan van het type **Voorraad**, **Service** of **Niet-voorraad** zijn om op te geven of het artikel een fysieke voorraadeenheid, een eenheid voor arbeidskosten of een fysieke eenheid die niet in voorraad wordt getraceerd, is. Zie voor meer informatie [Over artikeltypen](inventory-about-item-types.md).
 
-Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. In [!INCLUDE[prod_short](includes/prod_short.md)] kan een stuklijst een assemblagestuklijst of productiestuklijst zijn, afhankelijk van het gebruik. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
+Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kan een stuklijst een assemblagestuklijst of productiestuklijst zijn, afhankelijk van het gebruik. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
 Als u hetzelfde artikel inkoopt bij meerdere leveranciers, kunt u die leveranciers aan de artikelkaart koppelen. De leveranciers worden vervolgens weergegeven op de pagina **Artikelleveranciers**, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
 
@@ -40,7 +40,13 @@ In de volgende procedure wordt uitgelegd hoe u een geheel nieuwe artikelkaart ma
 
 ## <a name="to-create-a-new-item-card"></a>Een nieuwe artikelkaart maken
 
-[!INCLUDE[create_new_item](includes/create_new_item.md)]
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
+2. Kies op de pagina **Artikelen** de actie **Nieuw**.
+
+    Als er slechts één artikelsjabloon bestaat, wordt vervolgens een nieuwe artikelkaart geopend waarin enkele velden zijn ingevuld met informatie van de sjabloon.
+3. Kies op de pagina **Selecteer een sjabloon voor een nieuw artikel** de sjabloon die u wilt gebruiken voor de nieuwe artikelkaart.
+4. Kies de knop **Ok**. Een nieuwe artikelkaart wordt geopend met enkele velden met informatie uit de sjabloon.
+5. Ga door met velden op de artikelkaart in te vullen of te wijzigen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > In het veld **Waarderingsmethode** bepaalt u hoe de eenheidskostprijs van het artikel wordt berekend door de veronderstellingen die worden gemaakt over de stroom van artikelen in het bedrijf. Afhankelijk van het type item zijn vijf waarderingsmethoden beschikbaar. Zie [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md) voor meer informatie.
@@ -71,7 +77,7 @@ Als u artikelen wilt registreren die vervolgens in productieorders worden gebrui
 
 Als u hetzelfde artikel bij meerdere leveranciers inkoopt, moet u informatie over elk van deze leveranciers invoeren, bijvoorbeeld informatie over prijzen, levertermijn, kortingen, enzovoort.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
 2. Selecteer het betreffende artikel en kies vervolgens de actie **Bewerken**.  
 3. Kies de actie **Leveranciers**.  
 4. Klik op het veld **Leveranciersnr.** en selecteer vervolgens de leverancier waarvoor u het artikel wilt instellen.  
@@ -79,23 +85,6 @@ Als u hetzelfde artikel bij meerdere leveranciers inkoopt, moet u informatie ove
 6. Herhaal stap 2 t/m 5 voor elke leverancier waarbij u het artikel wilt kunnen inkopen.
 
 Deze leveranciers worden vervolgens weergegeven op de pagina **Artikelleveranciers**, dat u opent vanuit de artikelkaart, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
-
-## <a name="set-up-item-substitutions"></a>Artikelvervangingen instellen
-
-U kunt artikelen instellen om vervangende artikelen te hebben, zoals andere artikelen die kunnen worden gebruikt in plaats van het oorspronkelijke artikel.
-
-### <a name="to-make-an-item-substitution"></a>Een artikelvervanging maken
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
-2. Zoek het relevante artikel en klik vervolgens op **Artikelnr.** om de artikelkaart te openen.  
-3. Kies de actie **Verwant**, kies dan **Artikel** en dan **Vervangingen** om de pagina Artikelvervangingspost te openen.  
-4. Kies het veld **Vervangingsartikelnr.** en selecteer vervolgens het vervangingsartikel uit de lijst.
-5. Ga indien nodig door met het invullen of wijzigen van andere velden op de pagina.
-
-Wanneer het gevraagde aantal artikelen, bijvoorbeeld op een verkoopregel, de hoeveelheid die in voorraad beschikbaar is overschrijdt, wordt een bericht weergegeven dat er vervangende artikelen bestaan.
-
-> [!NOTE]  
-> Houd er rekening mee dat artikelvervangingen er niet automatisch toe leiden dat een artikel wordt vervangen door een ander artikel, bijvoorbeeld bij het maken van een verkooporder of in een stuklijst. In plaats daarvan wordt u erop gewezen dat er een vervanging voor u beschikbaar is.
 
 ## <a name="categories-attributes-and-variants"></a>Categorieën, kenmerken en varianten
 
@@ -107,15 +96,9 @@ Als u een transactie voor een artikel hebt geboekt, kunt u de kaart niet verwijd
 
 ## <a name="manage-inventory-in-warehouses"></a>Voorraad beheren in magazijnen
 
-Wanneer u een nieuw artikel registreert, ziet u velden die betrekking hebben op magazijnbeheer, met name op het sneltabblad **Magazijn**. Als uw organisatie geen gebruik maakt van de magazijnbeheermogelijkheden in [!INCLUDE [prod_short](includes/prod_short.md)], kunt u die velden negeren.  
+Wanneer u een nieuw artikel registreert, ziet u velden die betrekking hebben op magazijnbeheer, met name op het sneltabblad **Magazijn**. Als uw organisatie geen gebruik maakt van de magazijnbeheermogelijkheden in [!INCLUDE [prodshort](includes/prodshort.md)], kunt u die velden negeren.  
 
 Als uw organisatie later magazijnbeheer instelt, moet u in de meeste gevallen teruggaan naar elk bestaand artikel om er zeker van te zijn dat het de juiste informatie in de verschillende velden heeft, zodat de magazijnprocessen kunnen verlopen zoals verwacht. Deze informatie kan velden bevatten zoals **Magazijnklassecode** of **Opslagsjabloon**. Zie voor meer informatie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md).  
-
-## <a name="planning"></a>Planning
-
-Wanneer uw bedrijf de leveringsplanningsprocessen gebruikt in [!INCLUDE [prod_short](includes/prod_short.md)], moet u de relevante velden invullen op het sneltabblad **Planning**. Voor een inleiding tot het planningsgebied zie [Ontwerpdetails: centrale concepten van het planningssysteem](design-details-central-concepts-of-the-planning-system.md).  
-
-Voor voorbeelden van hoe u de velden op het sneltabblad **Planning** gebruikt zie [Best practices instellen: planningsparameters](setup-best-practices-planning-parameters.md).  
 
 ## <a name="see-also"></a>Zie ook
 
@@ -127,13 +110,4 @@ Voor voorbeelden van hoe u de velden op het sneltabblad **Planning** gebruikt zi
 [Boekingsgroepen instellen](finance-posting-groups.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
-[Informatie over het plannen van functionaliteit](production-about-planning-functionality.md)  
-[Aanbevolen procedures instellen: Planningparameters](setup-best-practices-planning-parameters.md)  
-[Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
-[Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)  
-[Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
-[Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

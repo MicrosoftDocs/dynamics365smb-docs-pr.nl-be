@@ -2,6 +2,7 @@
 title: Elektronisch bankieren voor België
 description: Via elektronisch bankieren kunt u gegevens elektronisch uitwisselen met Belgische financiële instellingen. Hierdoor gaat de verwerking sneller en worden fouten voorkomen.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 11308
 ms.date: 01/10/2022
 ms.author: edupont
-ms.openlocfilehash: eab0597a3fc77937a7be86a22268a5aef8646bd5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec28c51ba356c279d89a3283fb94dd19e4357d97
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129387"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970876"
 ---
 # <a name="belgian-electronic-banking"></a>Elektronisch bankieren voor België
 

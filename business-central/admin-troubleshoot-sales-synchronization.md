@@ -1,7 +1,10 @@
 ---
-title: Problemen met synchronisatiefouten oplossen
+title: Problemen met synchronisatiefouten oplossen | Microsoft Docs
 description: Dit onderwerp biedt enige begeleiding voor het identificeren en oplossen van synchronisatieproblemen.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,34 +12,51 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0c2252c194b611753e3a84cec42d685a3c561a68
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ed35bc7d0d9db1cd609078372d98535703f6583
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143828"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326525"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Problemen met synchronisatiefouten oplossen
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Er zijn veel factoren betrokken bij de integratie van [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[prod_short](includes/cds_long_md.md)]en soms gaat het mis. In dit onderwerp worden enkele van de veel voorkomende fouten beschreven en worden enkele tips gegeven voor het oplossen van deze fouten.
 
 Fouten komen vaak voor als gevolg van iets wat een gebruiker heeft gedaan met gekoppelde records of er is iets mis met de manier waarop de integratie is ingesteld. Fouten met betrekking tot gekoppelde records kunnen gebruikers zelf oplossen. Deze fouten worden veroorzaakt door acties zoals het verwijderen van gegevens in één, maar niet beide, zakelijke apps en vervolgens synchroniseren. Zie voor meer informatie [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md),
 
-Fouten die gerelateerd zijn aan hoe de integratie is ingesteld, vereisen doorgaans de aandacht van een beheerder. U kunt deze fouten bekijken op de pagina **Synchronisatiefouten bij integratie**. 
+## <a name="example"></a>Voorbeeld
+Deze video toont een voorbeeld van het oplossen van fouten die zijn opgetreden tijdens het synchroniseren met [!INCLUDE[prod_short](includes/cds_long_md.md)]. Het proces is voor alle integraties hetzelfde. 
 
-De volgende tabel bevat voorbeelden van typische problemen:  
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
-|Verzenden  |Oplossing  |
-|---------|---------|
-|De machtigingen en rollen die aan de integratiegebruiker zijn toegewezen, zijn niet correct. | Deze fout komt uit [!INCLUDE[prod_short](includes/cds_long_md.md)] en bevat vaak de volgende tekst "Hoofdgebruiker (Id=\<user id>, type=8) heeft geen machtiging \<privilegeName>". Deze fout treedt op omdat de integratiegebruiker een machtiging niet heeft die toegang geeft tot een entiteit. Meestal treedt deze fout op als u aangepaste entiteiten synchroniseert of als u een app hebt geïnstalleerd in [!INCLUDE[prod_short](includes/cds_long_md.md)] waarvoor toestemming is vereist om toegang te krijgen tot andere [!INCLUDE[prod_short](includes/cds_long_md.md)]-entiteiten. Om deze fout op te lossen wijst u de machtiging toe aan de integratiegebruiker in [!INCLUDE[prod_short](includes/cds_long_md.md)].<br><br> U vindt de naam van de integratiegebruiker op de pagina **Dataverse-verbinding instellen**. Het foutbericht bevat de naam van de machtiging, waarmee u de entiteit kunt identificeren waarvoor u een machtiging nodig hebt. Om de ontbrekende machtiging toe te voegen logt u in op [!INCLUDE[prod_short](includes/cds_long_md.md)] met een beheerdersaccount en bewerkt u de beveiligingsrol die aan de integratiegebruiker is toegewezen. Zie voor meer informatie [Een beveiligingsrol maken of bewerken om toegang te beheren](/power-platform/admin/create-edit-security-role). |
-|U koppelt een record die een andere record gebruikt die niet is gekoppeld. Bijvoorbeeld een klant van wie de valuta niet is gekoppeld of een artikel waarvoor de eenheid niet is gekoppeld. | U moet eerst de afhankelijke record koppelen, bijvoorbeeld een valuta of eenheid, en vervolgens de koppeling opnieuw proberen. |
-
-Hieronder volgen enkele hulpprogramma's op de pagina Synchronisatiefouten bij integratie die u kunnen helpen deze problemen handmatig op te lossen.  
+Fouten die gerelateerd zijn aan hoe de integratie is ingesteld, vereisen doorgaans de aandacht van een beheerder. U kunt deze fouten bekijken op de pagina **Synchronisatiefouten bij integratie**. Voorbeelden van enkele typische problemen zijn:  
+  
+* De machtigingen en rollen die aan gebruikers zijn toegewezen, zijn niet correct.  
+* Het beheerdersaccount is opgegeven als de integratiegebruiker.  
+* Het wachtwoord van de integratiegebruiker is ingesteld om een wijziging te vereisen wanneer de gebruiker zich aanmeldt.  
+* De wisselkoersen voor valuta's zijn niet opgegeven in de ene of de andere app.  
+  
+U moet de fouten handmatig oplossen, maar er zijn een paar manieren waarop de pagina u helpt. Voorbeeld:  
 
 * De velden **Bron** en **Bestemming** kunnen koppelingen bevatten naar de rij waar de fout is gevonden. Klik op de link om de fout te onderzoeken.  
 * De acties **Posten ouder dan 7 dagen verwijderen** en **Alle items verwijderen** schonen de lijst op. Meestal gebruikt u deze acties nadat u de oorzaak van een fout hebt opgelost die van invloed is op veel records. Wees echter voorzichtig. Met deze acties kunnen fouten worden verwijderd die nog steeds relevant zijn.
-* De actie **Foutaanroepstack weergeven** toont informatie die kan helpen bij het identificeren van de oorzaak van de fout. Als u de fout niet zelf kunt oplossen en u besluit een ondersteuningsverzoek in te dienen, neem dan de informatie op in het ondersteuningsverzoek.
+
+Soms kunnen de tijdstempels in records conflicten veroorzaken. De tabel 'CDS-integratierecord' bevat de tijdstempels 'Laatste synchronisatie gewijzigd op' en 'Laatste synchr. CDS gewijzigd op' voor de laatste integratie in beide richtingen voor een rij. Deze tijdstempels worden vergeleken met tijdstempels in Business Central- en Sales-records. In Business Central staat de tijdstempel in de tabel Integratierecord.
+
+U kunt filteren op records die moeten worden gesynchroniseerd door de tijdstempels van rijen te vergelijken in de tabel 'Toewijzing van integratietabel', namelijk de velden 'Filter synchr. gewijzigd op' en 'Filter synchr. int.-tbl gewijz. op fltr.'.
+
+Het conflictfoutbericht 'Kan de klantrecord niet bijwerken omdat deze een latere wijzigingsdatum heeft dan de accountrecord' of "Kan de accountrecord niet bijwerken omdat deze een latere wijzigingsdatum heeft dan de klantrecord' kan optreden als een rij een tijdstempel heeft dat groter is dan Toewijzing van integratietabel.'Filter synchr. gewijzigd op' maar niet recenter is dan het tijdstempel in Verkoopintegratierecord. Dit betekent dat de bronrij handmatig is gesynchroniseerd en niet door de taakwachtrijpost. 
+
+Het conflict treedt op omdat de doelrij ook is gewijzigd: het tijdstempel van de rij is recenter dan het tijdstempel van Verkoopintegratierecord. De bestemmingscontrole vindt alleen plaats voor bidirectionele tabellen. 
+
+Deze records worden nu verplaatst naar de pagina 'Overgeslagen synchronisatierecords', die u opent vanaf de pagina Microsoft Dynamics-verbinding instellen in Business Central. Daar kunt u opgeven welke wijzigingen moeten worden bewaard en vervolgens de records opnieuw synchroniseren.
+
+## <a name="remove-couplings-between-records"></a>Koppelingen tussen records verwijderen
+Als er iets misgaat in uw integratie en u records moet ontkoppelen om ze niet meer te laten synchroniseren, kunt u dit voor één of meer records tegelijk doen. U kunt een of meer records loskoppelen van lijstpagina's of de pagina **Fouten met gekoppelde gegevenssynchronisatie** door een of meer regels te kiezen en **Koppeling verwijderen** te kiezen. U kunt ook alle koppelingen verwijderen voor een of meer tabeltoewijzingen op de pagina **Integratietabeltoewijzingen**. 
+
+Als een entiteit met een unidirectionele koppeling wordt verwijderd in [!INCLUDE[prod_short](includes/prod_short.md)], moet u de verbroken koppeling handmatig verwijderen. Om dat te doen, kiest u op de pagina **Synchronisatiefouten met gekoppelde gegevens**, kiest u de actie **Zoeken naar verwijderde** en verwijdert u vervolgens de koppelingen.
 
 ## <a name="see-also"></a>Zie ook
 [Integreren met Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -1,20 +1,22 @@
 ---
-title: Werknemersafwezigheid beheren
-description: Beschrijft hoe u de afwezigheid van werknemers registreert en de afwezigheidsstatistieken analyseert met behulp van de pagina's Afwezigheidsregistratie en Afwezigheid van werknemers.
+title: Werknemersafwezigheid beheren | Microsoft Docs
+description: Beschrijft hoe u werknemersafwezigheid registreert en afwezigheidsstatistieken analyseert.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5212, 5211, 5200
-ms.date: 06/16/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 77ae09aebd78c870cc92d01700fc9a9188f340ee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1385545ffa32bbf321c90acf1f27b948a41c4644
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146448"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777678"
 ---
 # <a name="manage-employee-absence"></a>Werknemersafwezigheid beheren
 Als u de afwezigheid van een werknemer wilt beheren, moet u de afwezigheid registreren op de pagina **Afwezigheidsregistratie**. Het kan dan op verschillende manieren voor analyse- en rapportagedoeleinden worden weergegeven.
@@ -69,8 +71,5 @@ U kunt werknemersafwezigheid per dag of met een ander interval dat voldoet aan d
 ## <a name="see-also"></a>Zie ook
 [Human Resources beheren](hr-manage-human-resources.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,6 +4,7 @@ description: U kunt de voorraadwaardering van een artikel handmatig aanpassen me
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +12,12 @@ ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2d499d22a51b3bea0367acaee0c650fe4dc67ad5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ed2e9ebad96d29c9fc2d73e426b6e37f577f9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131651"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441230"
 ---
 # <a name="adjust-item-costs"></a>Artikelkosten herwaarderen
 De kostprijs van een artikel (voorraadwaarde) dat u inkoopt en later verkoopt, kan tijdens de levensduur veranderen, bijvoorbeeld omdat vrachtkosten worden toegevoegd aan aanschafkosten nadat u het artikel hebt verkocht. Kostenherwaardering is met name belangrijk als u goederen verkoopt voordat u de inkoop van deze goederen factureert. Als u altijd de juiste voorraadwaarde wilt weten, moeten artikelkosten daarom regelmatig worden geherwaardeerd. Hierdoor worden verkoop- en winststatistieken bijgewerkt en gezorgd dat de financiële KPI's kloppen. Zie [Ontwerpdetails: kostenwaardering](design-details-cost-adjustment.md) voor meer informatie.
@@ -64,7 +65,7 @@ Voor artikelen met de waarderingsmethode Vast wordt de waarde in het veld **Kost
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Waarderingsmethode FIFO, LIFO, Specifiek of Gemiddeld  
  De inhoud van het veld **Kostprijs (LV)** op de inkoopregel of het veld **Kostprijs** op de artikeldagboekregel wordt door [!INCLUDE[prod_short](includes/prod_short.md)] berekend volgens deze formule:  
 
- Kostprijs (LV) = (Directe kostprijs - (Totale korting/Aantal)) x (1 + Indirecte kosten %/100) + Overheadtarief  
+ Kostprijs (LV) = (Directe kostprijs - (Totale korting/ Aantal)) * (1 + Indirecte kosten % / 100) + Overheadtarief  
 
 ### <a name="costing-method-standard"></a>Waarderingsmethode Vast  
  De waarde in het veld **Kostprijs** op de artikelkaart wordt naar het veld **Kostprijs (LV)** op de inkoopregel of het veld **Kostprijs** op de artikeldagboekregel gekopieerd. Wanneer de waarderingsmethode Vast is ingesteld, is deze altijd gebaseerd op de vaste verrekenprijs.  

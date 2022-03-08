@@ -1,28 +1,27 @@
 ---
-title: De extensie QuickBooks Online-gegevensmigratie
+title: De QuickBooks-extensie Migratie gebruiken | Microsoft Docs
 description: Beschrijft hoe u de extensie gebruikt om klanten, leveranciers, artikelen en rekeningen van QuickBooks Online naar Business Central te migreren.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 06/24/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 235c3050eac4dac983f486f66fe9e837e9594c57
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c3e5415c5da03c4dd9a2228cc21b7c08a9beeec3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146058"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189735"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>De extensie QuickBooks Online-gegevensmigratie
-
-Deze extensie wordt opgenomen in de begeleide instelling **Gegevensmigratie**, om u te helpen belangrijke bedrijfsgegevens te migreren van QuickBooks Online naar [!INCLUDE[prod_short](includes/prod_short.md)]. Dat is bijvoorbeeld handig als uw bedrijf groeit en u hebt besloten uw app voor bedrijfsmanagement te upgraden door [!INCLUDE[prod_short](includes/prod_short.md)] te gaan gebruiken.
+Deze extensie wordt opgenomen in de begeleide instelling **Gegevensmigratie**, om u te helpen belangrijke bedrijfsgegevens te migreren van QuickBooks Online naar [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dat is bijvoorbeeld handig als uw bedrijf groeit en u hebt besloten uw app voor bedrijfsmanagement te upgraden door [!INCLUDE[d365fin](includes/d365fin_md.md)] te gaan gebruiken.
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Welke gegevens kan ik importeren uit QuickBooks Online?
-
-U kunt de volgende gegevens uit QuickBooks Online importeren naar [!INCLUDE[prod_short](includes/prod_short.md)]:  
+U kunt de volgende gegevens uit QuickBooks Online importeren naar [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 * Klanten
 * Leveranc.
@@ -35,41 +34,34 @@ U kunt de volgende gegevens uit QuickBooks Online importeren naar [!INCLUDE[prod
 Wij migreren alleen hele bedragen op verkoop- en inkoopdocumenten. We werken geen gedeeltelijk betaalde bedragen bij. Als een klant bijvoorbeeld 300 van een totaal van 500 euro op een verkoopfactuur heeft voldaan, migreren we de hele 500. Wanneer u gedeeltelijke betalingen hebt ontvangen, moet u deze handmatig bijwerken, voordat of nadat u gegevens migreert. Het is raadzaam openstaande transacties te vereffenen voordat u migreert, om zaken achteraf gemakkelijker te maken.
 
 > [!NOTE]  
-> Wij migreren geen inkooporders of verkooporders.
+>   Wij migreren geen inkooporders of verkooporders.
 
 ## <a name="before-you-start"></a>Voordat u begint
-
 Een belangrijk deel van het migratieproces is de rekeningen opgeven waarnaar transacties moeten worden gemigreerd. Het is aan te raden deze koppeling te plannen voordat u gegevens migreert. Bijvoorbeeld, de rekeningen waarnaar u transacties boekt voor:  
 
 * De verkoop van artikelen of services aan klanten.
 * De aankoop van artikelen of services van leveranciers.  
 * Herwaarderingen in het grootboek.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] vereist dat aan grootboekrekeningen rekeningnummers zijn toegewezen. Zorg ervoor dat rekeningnummers zijn toegewezen aan uw rekeningen in QuickBooks Online.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] vereist dat aan grootboekrekeningen rekeningnummers zijn toegewezen. Zorg ervoor dat rekeningnummers zijn toegewezen aan uw rekeningen in QuickBooks Online.
 
-Als transacties in QuickBooks Online belastingbedragen hebben, moet u eerst een belastingrekening instellen voor uw belastingjurisdictie in [!INCLUDE[prod_short](includes/prod_short.md)], voordat u transacties kunt boeken.
+Als transacties in QuickBooks Online belastingbedragen hebben, moet u eerst een belastingrekening instellen voor uw belastingjurisdictie in [!INCLUDE[d365fin](includes/d365fin_md.md)], voordat u transacties kunt boeken.
 
 ## <a name="how-do-i-start-using-the-extension"></a>Hoe kan ik beginnen de extensie te gebruiken?
-
 Aan de slag gaan is eenvoudig. Het enige wat u moet doen is de begeleide instelling **Gegevensmigratie** uitvoeren. U doet dat als volgt:
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Begeleide instelling** in en kies vervolgens **Bedrijfsgegevens migreren**.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies **Bedrijfsgegevens migreren**.
 2. Volg de instructies in elke stap in de begeleide instelling.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Wat doe ik nadat ik gegevens heb gemigreerd?
-
-Nadat u gegevens migreert, hebben transacties de status **Niet geboekt**, zodat u deze kunt controleren en correcties kunt aanbrengen. Als u de transacties wilt controleren, gaat u naar de pagina waar u deze normaal zou vinden. Als u bijvoorbeeld ongeboekte verkoopfacturen wilt controleren, gaat u naar de pagina **Verkoopfacturen**. Als u betalingsdagboeken wilt controleren, gaat u naar de pagina **Betalingsdagboeken**.  
+Nadat u gegevens migreert, hebben transacties de status **Niet geboekt**, zodat u deze kunt controleren en correcties kunt aanbrengen. Als u de transacties wilt controleren, gaat u naar de pagina waar u deze normaal zou vinden. Als u bijvoorbeeld ongeboekte verkoopfacturen wilt controleren, gaat u naar de pagina **Verkoopfacturen**. Als u betalingsdagboeken wilt controleren, gaat u naar de pagina **Betalingsdagboeken**.   
 
 Er zijn enkele dingen die u met name moet doen:
 
-* Als de transacties in QuickBooks Online opslag- of kortingsbedragen bevatten, moet u de bedragen handmatig toevoegen aan de gerelateerde transacties in [!INCLUDE[prod_short](includes/prod_short.md)] voordat u deze boekt.
+* Als de transacties in QuickBooks Online opslag- of kortingsbedragen bevatten, moet u de bedragen handmatig toevoegen aan de gerelateerde transacties in [!INCLUDE[d365fin](includes/d365fin_md.md)] voordat u deze boekt.
 * Als u btw gebruikt, hebt u mogelijk een bedrijfsboekingsgroep en een productboekingsgroep in de boekingsinstellingen nodig, zodat u btw-bedragen kunt boeken.
 * Controleer de beginsaldi voor de rekeningen in het grootboek. QuickBooks Online slaat het huidige saldo van alle rekeningen niet op, dus u moet mogelijk beginsaldi corrigeren.
 
 ## <a name="see-also"></a>Zie ook
-
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  

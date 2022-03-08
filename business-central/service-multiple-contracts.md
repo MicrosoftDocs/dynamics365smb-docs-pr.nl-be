@@ -2,19 +2,20 @@
 title: Meervoudige contracten | Microsoft Docs
 description: Afhankelijk van uw serviceovereenkomst met een klant, moet u een serviceartikel mogelijk verwerken onder meer dan één servicecontract.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 7cbff4ae7060a591cdba5ddf51f7a56dfb20aab7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: c9822e35ea4ad6ad1b32894bbe0b980bf70149ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142996"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192543"
 ---
 # <a name="multiple-contracts"></a>Meervoudige contracten
 Afhankelijk van uw serviceovereenkomst met een klant, moet u een serviceartikel mogelijk verwerken onder meer dan één servicecontract.  
@@ -45,6 +46,3 @@ U kunt handmatig een serviceorder maken voor een serviceartikel dat is geregistr
 ## <a name="see-also"></a>Zie ook  
 [Servicecontracten voldoen](service-fulfill-service-contracts.md)  
 [Serviceorders maken](service-how-to-create-service-orders.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,78 +1,90 @@
 ---
-title: Projecten, prijzen en projectboekingsgroepen instellen
+title: Projectprijzen en projectboekingsgroepen instellen| Microsoft Docs
 description: Beschrijft hoe u algemene projectgegevens instelt en prijzen instelt voor projectartikelen, resources en grootboekrekeningen, en projectboekingsgroepen.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.search.form: 211, 463, 1012
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d4880f91c53e8618db9be5e0bcdbfa396cbf21fd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 97e0a8743cc9c86f37432c0b7d6cd5351883176b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137457"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312784"
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Projecten, prijzen en projectboekingsgroepen instellen
+# <a name="set-up-jobs"></a>Projecten instellen
 
-Als projectmanager kunt u taken instellen die alle projecten definiëren die u beheert in [!INCLUDE[prod_short](includes/prod_short.md)]. Op de pagina **Projectinstellingen** moet u opgeven hoe u bepaalde functies wilt gebruiken.
+Als projectmanager kunt u taken instellen die alle projecten definiëren die u beheert in [!INCLUDE [prodshort](includes/prodshort.md)]. Op de pagina **Projectinstellingen** moet u opgeven hoe u bepaalde functies wilt gebruiken.
 
 Voor elk project kunt u afzonderlijke projectkaarten opgeven met informatie over prijzen voor projectartikelen, projectresources en projectgrootboekrekeningen, en u moet projectboekingsgroepen instellen.
 
 ## <a name="to-set-general-information-for-jobs"></a>Algemene gegevens voor projecten instellen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
+2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> In het veld **Gebruikslink standaard toepassen** wordt aangegeven of projectposten standaard zijn gekoppeld aan projectplanningsregels. Kies het veld als u deze instelling wilt toepassen op alle nieuwe projecten die u maakt. U kunt het bijhouden van het projectgebruik voor een specifiek project in- of uitschakelen door de waarde van het veld **Gebruikslink toepassen** op de individuele taakkaart te wijzigen. De gevolgen worden in de volgende sectie uitgelegd.
+> De invloed van het veld **Gebruikslink standaard toepassen** is tamelijk complex en wordt daarom in het volgende gedeelte uitgelegd.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Bijhouden van projectgebruik instellen
 
-Als u aan een project werkt, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om dit gemakkelijk te doen, kunt u een koppeling tussen het werkelijke verbruik en uw projectplanningsregels maken. Hiermee kunt u uw kosten bijhouden en gemakkelijk zien hoeveel werk nog moet worden gedaan. Standaard is het soort projectplanningsregel *Budget*, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
+Als u een project uitvoert, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om dit gemakkelijk te doen, kunt u een koppeling tussen het werkelijke verbruik en uw projectplanningsregels maken. Hiermee kunt u uw kosten bijhouden en gemakkelijk zien hoeveel werk nog moet worden gedaan. Standaard is het soort projectplanningsregel **Budget**, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
 
-Als u het veld **Gebruikslink toepassen** inschakelt, kunt u gegevens op de projectplanningsregel controleren. U kunt de hoeveelheid van de resource, artikel of grootboekrekening instellen en vervolgens aangeven welke hoeveelheid u wilt overdragen naar het projectdagboek. Het veld **Resterend aantal** op de projectplanningsregel geeft aan wat nog moet worden overgebracht en geboekt naar het projectdagboek.
+Als u het veld **Gebruikslink standaard toepassen** inschakelt, kunt u gegevens op de projectplanningsregel controleren. U kunt de hoeveelheid van de resource, artikel of grootboekrekening instellen en vervolgens aangeven welke hoeveelheid u wilt overdragen naar het projectdagboek. Het veld **Resterend aantal** op de projectplanningsregel geeft aan wat nog moet worden overgebracht en geboekt naar het projectdagboek.
 
->[!NOTE]
-> Als het selectievakje **Gebruikslink toepassen** voor de afzonderlijke opdracht is ingeschakeld en het veld **Regelsoort** op de journaalregel of inkoopregel *Factureerbaar* is, worden er nieuwe projectplanningregels van het type *Budget* gemaakt wanneer u het opdrachtjournaal of inkoopdocument boekt.  
-> Zie voor meer informatie [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md) en [Projectvoorraden beheren](projects-how-manage-project-supplies.md)
+> [!TIP]  
+> U kunt tracking van projectgebruik in- of uitschakelen voor een bepaald project. De waarde van het veld **Gebruikslink toepassen** op de individuele projectkaart heeft voorrang op de instelling op de pagina **Projectinstellingen**.  
+
+Wanneer het selectievakje **Gebruikslink standaard toepassen** is ingeschakeld en het soort projectplanningsregel **Factureerbaar** is, wordt een projectplanningsregel van het soort **Budget** gemaakt nadat u een projectdagboekregel hebt geboekt.
 
 > [!IMPORTANT]
-> Als het veld **Regeltype** op de opdrachtjournaalregel of inkoopregel leeg is, worden er geen opdrachtplanningsregels aangemaakt wanneer u het opdrachtjournaal of inkoopdocument boekt.
+> Als tracking van projectgebruik is ingeschakeld op de pagina **Projectinstellingen** of voor het afzonderlijke project, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er nieuwe projectplanningregels van het type **Budget** gemaakt wanneer u projectjournaalregels boekt.  
+>  
+> Als tracking van projectgebruik *niet* is ingeschakeld op de pagina **Projectinstellingen** of voor het afzonderlijke project, en het veld **Regelsoort** op de projectdagboekregel leeg is, worden er geen nieuwe projectplanningregels gemaakt wanneer u projectjournaalregels boekt. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
 
-<!--
->[!Important]
-If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
-If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
--->
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Projectinstellingen** in en klik vervolgens op de gerelateerde koppeling.
+2. Schakel het selectievakje **Gebruikslink standaard toepassen** in.
 
+## <a name="to-set-up-prices-for-job-resources"></a>Prijzen instellen voor projectresources
+U kunt specifieke prijzen voor resources instellen voor een project. Gebruik hiervoor de pagina **Resourceprijzen project**.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Prijzen instellen voor resources, artikelen en grootboekrekeningen voor projecten
-> [!NOTE]
-> In releasewave 2 van 2020 hebben we nieuwe processen uitgebracht voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd in **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+2. Selecteer het betreffende project en kies vervolgens de actie **Resource**.
+3. Vul op de pagina **Resourceprijzen project** indien nodig de velden in.
 
-U kunt prijzen instellen voor de artikelen, resources en grootboekrekeningen die gerelateerd zijn aan een project. 
+De optionele informatie in de velden **Projecttaaknr.**, **Werksoort**, **Valutacode**, **Regelkorting %** en **Kostprijsfactor** wordt gebruikt op de projectplanningsregels en in de gebruiksdagboeken wanneer deze resource wordt ingevoerd en wordt toegevoegd aan het project.  
 
-#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer het betreffende project en kies vervolgens de actie **Resource**, **Artikel** of **Grootboekrekening**.
-3. Vul op de pagina **Resourceprijzen project**, **Artikelprijzen project** of **GB-rekeningprijzen project** de velden zoals nodig in.
+De waarde in het veld **Eenheidsprijs** wordt gebruikt op de projectplanningsregels en projectdagboeken wanneer deze resource, een resource die is toegewezen aan de resourcegroep of een andere resource wordt ingevoerd.  
 
-De volgende tabel laat zien hoe de informatie in de optionele velden wordt gebruikt op taakplanningsregels en dagboeken wanneer de resource, het artikel of de grootboekrekening voor het project wordt gekozen.
+> [!NOTE]  
+>   Deze prijs komt altijd in de plaats van alle andere prijzen die eventueel zijn ingesteld op de bestaande pagina **Resourceverkoopprijs/Resourcegroepsprijs**.
 
-|Kolom1  |Kolom2  |
-|---------|---------|
-|**Projectresources**|De velden **Projecttaaknr.**, **Werksoort**, **Valutacode**, **Regelkorting %** en **Kostprijsfactor**. De waarde in het veld **Eenheidsprijs** wordt gebruikt op de projectplanningsregels en projectdagboeken wanneer deze resource, een resource die is toegewezen aan de resourcegroep of een andere resource wordt ingevoerd. Deze prijs komt altijd in de plaats van alle andere prijzen die eventueel zijn ingesteld op de bestaande pagina **Resourceverkoopprijs/Resourcegroepsprijs**.|
-|**Projectartikelen**|De velden **Projecttaaknr.**, **Valutacode** en **Regelkorting %**. De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplanningsregels en in projectdagboeken gebruikt wanneer dit artikel wordt ingevoerd. Deze prijs komt altijd in plaats van de normale klantenprijs (het 'beste prijs'-mechanisme) voor artikelen. Als u de normale klantenprijsmechanismen wilt gebruiken, moet u geen projectartikelprijzen voor het project maken.|
-|**Grootboekrekeningen**|De optionele informatie in de velden **Projecttaaknr.**, **Valutacode**, **Regelkorting %**, **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project. De waarde in het veld **Kostprijs** voor de grootboekrekeningskosten wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd.|
+## <a name="to-set-up-prices-for-job-items"></a>Prijzen instellen voor projectartikelen
+U kunt specifieke prijzen voor artikelen instellen voor een project. Gebruik hiervoor de pagina **Artikelprijzen project**.
 
----
-#### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer het betreffende project en kies vervolgens de actie **Verkoopprijslijsten**.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+2. Selecteer het betreffende project en kies vervolgens de actie **Artikel**.
+3. Vul op de pagina **Artikelprijzen project** indien nodig de velden in.
 
----
+De optionele informatie in de velden **Projecttaaknr.**, **Valutacode** en **Regelkorting %** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer dit artikel wordt ingevoerd of wordt toegevoegd aan het project.  
+
+De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplanningsregels en in projectdagboeken gebruikt wanneer dit artikel wordt ingevoerd.  
+
+> [!NOTE]  
+>   Deze prijs komt altijd in de plaats van de normale klantenprijs (het 'beste prijs'-mechanisme) voor artikelen. Als u de normale klantenprijsmechanismen wilt gebruiken, moet u geen projectartikelprijzen voor het project maken.
+
+## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Prijzen instellen voor GB-rekeningen voor een project
+U kunt specifieke prijzen instellen voor grootboekkosten voor een project. U gebruikt hiervoor de pagina **GB-rekeningprijzen project**.
+
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+2. Selecteer het betreffende project en kies vervolgens de actie **Grootboekrekening**.  
+3. Vul op de pagina **GB-rekeningprijzen project** indien nodig de velden in.
+
+De optionele informatie in de velden **Projecttaaknr.**, **Valutacode**, **Regelkorting %**, **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project.  
+
+De waarde in het veld **Kostprijs** voor de grootboekrekeningskosten wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd.
 
 ## <a name="to-set-up-job-posting-groups"></a>Projectboekingsgroepen instellen
 Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen moeten worden gebruikt voor projectwaardering. Om projecten te kunnen boeken, moet u rekeningen instellen voor het boeken voor elke projectboekingsgroep. Een boekingsgroep vertegenwoordigt een koppeling tussen het project en de wijze waarop het moet worden behandeld in het grootboek. Wanneer u een project maakt, geeft u een boekingsgroep op en wordt elk project dat u voor de taak maakt standaard gekoppeld aan die boekingsgroep. Als u echter taken maakt, kunt u de standaardinstellingen overschrijven en een boekingsgroep selecteren die meer geschikt is.  
@@ -80,7 +92,7 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 > [!NOTE]  
 >   U moet de benodigde rekeningen in het rekeningschema instellen voordat u boekingsgroepen instelt. Voor meer informatie raadpleegt u [Het Rekeningschema instellen of wijzigen](finance-setup-chart-accounts.md).  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul de accountvelden in zoals is beschreven in de volgende tabel.  
 
 | Het veld Rekeningnr. | Omschrijving |
@@ -109,7 +121,4 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 [Financiën](finance.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

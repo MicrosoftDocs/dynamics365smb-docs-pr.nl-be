@@ -2,6 +2,7 @@
 title: Onderdelen afboeken op basis van de uitvoer van een bewerking
 description: In dit onderwerp wordt beschreven hoe u componenten moet afboeken op basis van de bewerkingsoutput en andere betrokken afboekingsmethoden.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 375c333bf6fc56d4dac5a59be0dbf905c8339ec5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137587"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439105"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Onderdelen afboeken op basis van de uitvoer van een bewerking
 U kunt verschillende afboekingsstrategieën definiëren om de registratie van het verbruik van componenten te automatiseren. 

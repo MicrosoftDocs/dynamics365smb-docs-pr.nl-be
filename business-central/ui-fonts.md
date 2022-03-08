@@ -1,21 +1,21 @@
 ---
 title: Beschikbare lettertypen
-description: Lees meer over de vooraf geïnstalleerde lettertypen die u kunt gebruiken voor uw extern gerichte rapporten.
+description: De online versie van Business Central bevat vooraf geïnstalleerde lettertypen op de servers die kunnen worden gebruikt bij het genereren van rapporten.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 11/30/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: faa581a88a6c7503c34177db459345a24638a95a
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 0267d4af029410da2107fbb4bbbde2e27c364e31
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334976"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5869985"
 ---
 # <a name="available-fonts"></a>Beschikbare lettertypen
 
@@ -48,9 +48,9 @@ Naast MICR-lettertypen zijn er speciale beveiligingslettertypen beschikbaar voor
 Zie voor meer informatie [Een cheque-indeling selecteren](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Lettertypen voor streepjescodes
-Lettertypen voor het genereren van streepjescodes zijn geïnstalleerd en beschikbaar voor gebruik in zowel Word- als RDLC-rapportlay-outs.
+Lettertypen voor het genereren van eendimensionale streepjescodes zijn geïnstalleerd en beschikbaar voor gebruik in zowel Word- als RDLC-rapportlay-outs.
 
-De volgende eendimensionale streepjescodesymbologieën worden ondersteund:
+De volgende streepjescodesymbolen worden ondersteund:
 * Code 3 van 9 (Code 39)
 * Code 128
 * Code 93
@@ -58,20 +58,13 @@ De volgende eendimensionale streepjescodesymbologieën worden ondersteund:
 * MSI
 * Interleaved 2 van 5
 
-De volgende tweedimensionale streepjescodesymbologieën worden ondersteund:
-* Aztec
-* Data Matrix
-* Maxicode
-* PDF417
-* QR
-
-Zie voor meer informatie [Barcodelettertypen met Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
+Zie voor meer informatie [Barcodelettertypen met Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
 
 ## <a name="see-also"></a>Zie ook
 
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [Een cheque-indeling selecteren](finance-how-define-check-layouts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-[Barcodelettertypen met Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
+[Barcodelettertypen met Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,25 +1,26 @@
 ---
-title: 'Ontwerpdetails: Artikeltracering'
-description: Het artikeltraceringssysteem biedt eenvoudige verwerking van serie- en lotnummers, die nodig kunnen zijn om aan wettelijke vereisten te voldoen of om te helpen bij het afhandelen van garanties.
+title: 'Ontwerpdetails: Artikeltracering | Microsoft Docs'
+description: In dit onderwerp vindt u een overzicht van ontwerpdetails voor artikeltracering.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 55e8463e788e222265a0ec837196c55726caf53e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d8d87619fece935945e7e5c329e7737e05d40383
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146630"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787483"
 ---
 # <a name="design-details-item-tracking"></a>Ontwerpdetails: Artikeltracering
 Als de goederenstroom in de voorraadketen van vandaag complexer wordt, wordt het vermogen artikelen te traceren steeds belangrijker voor de betrokken bedrijven. De transactiestroom van een artikel controleren is een juridische vereiste op het gebied van medische en chemische voorziening, maar in andere bedrijfstaken kunnen producten met garanties of vervaldatums worden gecontroleerd om redenen van klantenservice.  
 
-Een artikeltraceringssysteem moet een bedrijf een eenvoudige manier bieden om te werken met serie- en lotnummers, waarbij wordt gekeken naar elk stuk unieke handelswaar: waar en wanneer ontvangen, waar opgeslagen, waar en wanneer verkocht. [!INCLUDE[prod_short](includes/prod_short.md)] heeft geleidelijk de dekking van deze bedrijfsbehoefte uitgebreid en biedt momenteel toepassingsbrede functionaliteit en een stevige basis waarop extensies kunnen worden ontwikkeld.  
+Een artikeltraceringssysteem moet een bedrijf een eenvoudige manier bieden om te werken met serie- en lotnummers, waarbij wordt gekeken naar elk stuk unieke handelswaar: waar en wanneer ontvangen, waar opgeslagen, waar en wanneer verkocht. [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft geleidelijk de dekking van deze bedrijfsbehoefte uitgebreid en biedt momenteel toepassingsbrede functionaliteit en een stevige basis waarop extensies kunnen worden ontwikkeld.  
 
 ## <a name="in-this-section"></a>In dit gedeelte  
 [Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)  
@@ -30,9 +31,3 @@ Een artikeltraceringssysteem moet een bedrijf een eenvoudige manier bieden om te
 [Ontwerpdetails: Artikeltracering en planning](design-details-item-tracking-and-planning.md)  
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 [Ontwerpdetails: Artikeltracering in het magazijn](design-details-item-tracking-in-the-warehouse.md)
-
-## <a name="see-also"></a>Zie ook
-
-[Werken met serie-, lot- en pakketnummers](inventory-how-work-item-tracking.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

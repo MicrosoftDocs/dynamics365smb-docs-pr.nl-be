@@ -1,33 +1,34 @@
 ---
-title: Vaste verrekenprijs bijwerken
+title: 'Procedure: vaste verrekenprijzen aanpassen | Microsoft Docs'
 description: U moet regelmatig de vaste verrekenprijzen van onderdelen bijwerken en de nieuwe kosten tot aan het hoofdartikel berekenen.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5841
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd79e723ea86f3e5631a571a26a061c84adab518
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: feeeae5202cfc5ab0bccf1552ce74f74708445d3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141137"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391536"
 ---
 # <a name="update-standard-costs"></a>Vaste verrekenprijs bijwerken
 U moet regelmatig de vaste verrekenprijzen van onderdelen bijwerken en de nieuwe kosten tot aan het hoofdartikel berekenen. Het proces bestaat meestal uit de volgende vier stappen:  
 
 1.  Kosten bijwerken op het niveau van onderdeel en capaciteit. Zie voor meer informatie de batchverwerking **Vaste verrekenprijs artikel voorstellen**.  
 2.  Het consolideren en berekenen van de materiaal- en capaciteitskosten om de totale productiekosten van de artikelen te berekenen.  
-3.  De vaste verrekenprijzen implementeren die worden ingevoerd wanneer u de vorige batchverwerkingen uitvoert. De vaste verrekenprijzen worden pas van kracht nadat ze zijn geïmplementeerd. Gebruik de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren**, die de wijzigingen in de standaardkosten voor artikelen bijwerkt met die in de tabel Standaardkostenwerkblad.  
+3.  De vaste verrekenprijzen implementeren die worden ingevoerd wanneer u de vorige batchverwerkingen uitvoert. De vaste verrekenprijzen worden pas van kracht nadat ze zijn geïmplementeerd. Zie voor meer informatie Vaste verrekenprijswijzigingen doorvoeren.  
 4.  De wijzigingen implementeren om het veld **Kostprijs** op de artikelkaart bij te werken en voorraadherwaardering uit te voeren. Zie [Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.  
 
-Zie [Vaste verrekenprijs berekenen](finance-about-calculating-standard-cost.md) voor nadere informatie.
-  
-## <a name="to-update-standard-costs"></a>Vaste verrekenprijs aanpassen
-
+Zie [Vaste verrekenprijs berekenen](finance-about-calculating-standard-cost.md) voor nadere informatie.  
+## <a name="to-update-standard-costs"></a>Vaste verrekenprijs aanpassen  
 1.  Voer de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit.  
 2.  Voer de batchverwerking **Voorraadwaarde boeken** uit.  
 3.  Open het **Vaste-verrekenprijsvoorstel** en gebruik een of meer van de volgende functies:  
@@ -41,8 +42,7 @@ Zie [Vaste verrekenprijs berekenen](finance-about-calculating-standard-cost.md) 
     7.  Voer de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren** uit.  
 4.  Bekijk en boek de pagina **Herwaarderingsdagboek** waarin de posten uit de vorige stappen in dit proces staan.  
 
-## <a name="see-also"></a>Zie ook
-
+## <a name="see-also"></a>Zie ook  
  [Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)   
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)   
  [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md) [Financiën](finance.md)  

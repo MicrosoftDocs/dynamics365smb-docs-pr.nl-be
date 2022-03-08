@@ -4,6 +4,7 @@ description: Lees hoe btw-instellingen voor klanten en leveranciers bepalen of e
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137925"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444267"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kosten toewijzen aan intercompany-partners
 Wanneer u intercompany-boekingen gebruikt om documenten tussen partnerbedrijven over te dragen, bepalen de btw-instellingen (voornamelijk de btw-bedrijfsboekingsgroep) die zijn toegewezen aan de klant- of leveranciersrekeningen (gekoppeld aan de intercompany-partner) of en hoe btw wordt berekend en geregistreerd. U kunt ook kostendistributies rechtstreeks vanuit een inkooporder naar partnerbedrijven uitvoeren. Als u bijvoorbeeld een inkoopfactuur van een externe leverancier registreert en u een deel of alle kosten wilt verdelen over een of meer intercompany-partners.

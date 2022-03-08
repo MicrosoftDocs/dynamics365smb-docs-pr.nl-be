@@ -1,24 +1,26 @@
 ---
-title: Cashflows analyseren
+title: Cashflows analyseren| Microsoft Docs
 description: Beschrijft hoe u de diagrammen Cashcyclus, Inkomsten en uitgaven, Cashflow, en Cashflowprognose gebruikt om verleden en toekomstige stroom van geld in en uit uw bedrijf te analyseren.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.search.form: 762, 840, 841, 847, 848, 849, 850, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
-ms.date: 12/20/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 41dc7aba46960197a6b77ad13f98b4194fd589d2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5a13d461bd4764173e7d674ef35f5fa32f11318b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145718"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184016"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Cashflow in uw bedrijf analyseren
-De diagrammen in het rolcentrum Accountant bevatten inzichten aan de hand waarvan u op een onderbouwde manier kunt bepalen wat u met uw contante geld moet doen.  
+Het spreekwoord luidt Geld moet rollen. De diagrammen in het rolcentrum Accountant bevatten informatie aan de hand waarvan u op een onderbouwde manier kunt bepalen wat u met uw contante geld moet doen.  
 
 | Ter beantwoording van vragen als onderstaande | Dit diagram gebruiken. |
 | --- | --- |
@@ -43,7 +45,6 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 * Dubbele verkooporders en inkooporders overslaat.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>Een cashflowvoorstel weergeven
-
 1. Zoek **Cashflowinstellingen** en kies vervolgens de verwante koppeling.  
 2. Kies een cashflowprognose en kies vervolgens de actie **Cashflowvoorstel**.  
 3. Kies op de pagina **Cashflowvoorstel** de actie **Voorstelregels voorstellen**.  
@@ -51,11 +52,6 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
-
 [Financiën instellen](finance-setup-finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md)  
-[Een prognose van uw cashflow geven in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
-[Cashflowprognoses instellen met Azure AI in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

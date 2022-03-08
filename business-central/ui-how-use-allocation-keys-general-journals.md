@@ -1,27 +1,29 @@
 ---
-title: Verdeelsleutels in dagboeken gebruiken
-description: U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt.
+title: Verdeelsleutels in dagboeken gebruiken | Microsoft Docs
+description: Leren hoe u verdeelsleutels in dagboeken gebruikt.
+services: project-madeira
+documentationcenter: ''
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.search.form: 283, 284
-ms.date: 06/29/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f5270acb437ca600e145d0060b34b16f9b20a009
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 00d6fef612dd5fa1f3c38cef9fb97c08d10c752d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140357"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388786"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Verdeelsleutels in dagboeken gebruiken
 U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. De verdeling kan plaatsvinden op basis van aantal, percentage of bedrag.
 
 ## <a name="to-set-up-allocation-keys"></a>Verdeelsleutels instellen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Periodiek dagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Periodiek dagboek** in en kies de desbetreffende koppeling.
 2. Kies het veld **Batchnaam** om de pagina **Fin. dagboekbatches** te openen.
 3. U kunt verdeelsleutels in een bestaande batch in de lijst wijzigen of u kunt een nieuwe batch met verdeelsleutels maken.
    * Als u een nieuwe batch wilt maken, kiest u de actie **Nieuw** en gaat u naar de volgende stap.
@@ -36,7 +38,7 @@ U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u 
 11. Boek het dagboek.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Een reeds ingestelde verdeelsleutel wijzigen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Periodiek dagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Periodiek dagboek** in en kies de desbetreffende koppeling.
 2. Selecteer op de pagina **Periodiek dagboek** het dagboek met de verdeling.
 3. Kies de regel met de verdeelsleutel en kies vervolgens **Verdeelsleutels**.
 4. Pas de relevante velden aan en kies vervolgens de knop **OK**.

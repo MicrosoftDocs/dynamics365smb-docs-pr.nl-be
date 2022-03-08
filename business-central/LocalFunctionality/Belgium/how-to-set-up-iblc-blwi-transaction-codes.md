@@ -1,28 +1,30 @@
 ---
-title: IBLC/BLWI-transactiecodes instellen [BE]
+title: IBLC-BLWI-transactiecodes instellen
 description: Om elektronische betalingen te kunnen verwerken, moet u transactiecodes instellen op basis van de vereisten van het Belgian-Luxembourg Exchange Institute.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 2000002
-ms.date: 06/17/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a81ecd69565aa2c7a4e09ba17e599f9f7666d096
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea1943d653248a920d0fbd212a04fb7fabe8fe6a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148002"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916482"
 ---
-# <a name="set-up-iblc-blwi-transaction-codes-in-the-belgian-version"></a>IBLC-BLWI-transactiecodes instellen in de Belgische versie
+# <a name="set-up-iblc-blwi-transaction-codes"></a>IBLC-BLWI-transactiecodes instellen
 Om elektronische betalingen te kunnen verwerken, moet u transactiecodes instellen op basis van de vereisten van het Belgian-Luxembourg Exchange Institute. Dit zijn internationale identificatiecodes voor de verschillende soorten betalingstransacties. De IBLC-BLWI-codes worden alleen gebruikt voor internationale betalingen.  
 
 ## <a name="to-set-up-iblcblwi-transaction-codes"></a>IBLC-BLWI-transactiecodes instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IBLC/BLWI-transactiecodes** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IBLC-BLWI-transactiecodes instellen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul de velden **Transactiecode** en **Omschrijving** in.  
 4.  Kies de knop **OK**.  
@@ -31,6 +33,3 @@ Om elektronische betalingen te kunnen verwerken, moet u transactiecodes instelle
  [Elektronisch bankieren voor België](belgian-electronic-banking.md)   
  [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)   
  [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

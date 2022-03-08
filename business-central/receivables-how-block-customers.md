@@ -1,44 +1,44 @@
 ---
-title: Verkoop aan klanten blokkeren
-description: Indien nodig kunt u voorkomen dat een klant wordt opgenomen in verkoopdocumenten en andere verkooptransacties.
+title: Verkopen aan klanten blokkeren en artikelen blokkeren voor verkoop of inkoop
+description: In Business Central kan een artikel worden gemarkeerd als geblokkeerd voor verkoop, geblokkeerd voor inkoop of geblokkeerd voor alle doeleinden.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: fb69308a913f12a1433d2b37680f0ece1e93d3b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c2b0d5b15571b7e8af1ed1dbee22859f4c131aa3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140695"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316632"
 ---
 # <a name="block-customers"></a>Klanten blokkeren
 U kunt een klant blokkeren, bijvoorbeeld vanwege insolventie, zodat de klant niet aan verkoopdocumenten kan worden toegevoegd of zodat geen transacties voor de klant kunnen worden geboekt.
 
 Naast het blokkeren van een klant kunt u een klanttransactie voor de klant op afwachten instellen in verband met aanmaningen. Zie voor meer informatie [Openstaande saldi innen](receivables-collect-outstanding-balances.md).   
 
-De volgende tabel beschrijft de opties voor het blokkeren van klanten.  
+De volgende tabel beschrijft de verschillende blokkeeropties.  
 
-|Optie|Omschrijving|  
+|Optie|Description|  
 |--------------------|------------|  
 |**Leeg**|Transacties zijn toegestaan voor deze klant.|
 |**Verzending**|Voor deze klant kunnen geen nieuwe orders en nieuwe verzendingen worden gemaakt. Bestaande verzendingen die nog niet zijn gefactureerd, kunnen worden gefactureerd.|  
-|**Factureren**|Voor deze klant kunnen geen nieuwe orders, nieuwe verzendingen en nieuwe facturen worden gemaakt. Bestaande verzendingen die nog niet zijn gefactureerd, kunnen niet worden gefactureerd. U kunt nog steeds herinneringen en rentefacturen naar de klant sturen.|  
+|**Factureren**|Voor deze klant kunnen geen nieuwe orders, nieuwe verzendingen en nieuwe facturen worden gemaakt. Bestaande verzendingen die nog niet zijn gefactureerd, kunnen niet worden gefactureerd.|  
 |**Alle**|Voor deze klant is geen enkele transactie, inclusief betalingen, toegestaan.|  
 
 ## <a name="to-block-a-customer"></a>Een klant blokkeren  
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een klant en kies vervolgens de actie **Bewerken**.
-3. Kies in het veld **Geblokkeerd** wat u wilt blokkeren, zoals beschreven in de bovenstaande tabel.
+3. Vul het veld **Geblokkeerd** in met een van de hierboven beschreven opties.
 
 ## <a name="see-also"></a>Zie ook  
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)  
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

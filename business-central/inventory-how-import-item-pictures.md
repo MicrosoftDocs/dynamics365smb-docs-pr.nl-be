@@ -1,24 +1,25 @@
 ---
-title: Veel artikelafbeeldingen uit een ZIP-bestand importeren
-description: Als u meerdere artikelafbeeldingen wilt importeren, geeft u uw afbeeldingsbestanden namen die corresponderen met uw artikelnummers, comprimeert u ze in een zip-bestand en gebruikt u vervolgens de pagina Artikelafbeeldingen importeren om te bepalen welke artikelafbeeldingen worden geïmporteerd.
+title: Veel artikelafbeeldingen uit een ZIP-bestand importeren | Microsoft Docs
+description: U kunt meerdere artikelafbeeldingen in één keer importeren. Geef uw afbeeldingsbestanden namen die corresponderen met uw artikelnummers, comprimeer ze in een zip-bestand en gebruik vervolgens de pagina Artikelafbeeldingen importeren om te bepalen welke artikelafbeeldingen worden geïmporteerd.
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.search.form: 30, 461
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: c70bddd0e901a529035f7cd9056243d24c5710ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: cfb80821177c0860413526b5bc529fa1bdeedf7b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131573"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309861"
 ---
 # <a name="import-multiple-item-pictures"></a>Meerdere artikelafbeeldingen importeren
-U kunt meerdere artikelafbeeldingen in één keer importeren. Geef uw afbeeldingsbestanden namen die corresponderen met uw artikelnummers, comprimeer ze in een zip-bestand en gebruik vervolgens de pagina Artikelafbeeldingen importeren om te bepalen welke artikelafbeeldingen worden geïmporteerd.
+U kunt meerdere artikelafbeeldingen in één keer importeren. Geef uw afbeeldingsbestanden namen die corresponderen met uw artikelnummers, comprimeer ze in een zip-bestand en gebruik vervolgens de pagina **Artikelafbeeldingen importeren** om te bepalen welke artikelafbeeldingen worden geïmporteerd.
 
 Alle algemene bestandsindelingen worden ondersteund.
 
@@ -34,7 +35,7 @@ Alle algemene bestandsindelingen worden ondersteund.
 2. Verzamel alle bestanden in een ZIP-bestand. Selecteer bijvoorbeeld in Windows Verkenner de bestanden, en kies **Verzenden naar**, **Gecomprimeerde (gezipte) map**.     
 
 ## <a name="to-import-item-pictures"></a>Artikelafbeeldingen importeren
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadinstelling** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Artikelafbeeldingen importeren**.
 3. Selecteer in het veld **Een ZIP-bestand selecteren** de relevante ZIP-map en kies de knop **Openen**.
 
@@ -53,7 +54,4 @@ Het veld **Status importeren** wordt bijgewerkt om aan te geven of de afbeelding
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

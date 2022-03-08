@@ -1,24 +1,25 @@
 ---
-title: Bankrekeningen instellen voor CODA [BE]
+title: Bankrekeningen instellen voor CODA
 description: Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u bepaalde codes instellen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/17/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7ed2c6b29ad7fda690822cbd600c541da3cfc6af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2e8202147270fee95e3e549d4504e9e74cfb4811
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129381"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778443"
 ---
-# <a name="set-up-bank-accounts-for-coda-in-the-belgian-version"></a>Bankrekeningen instellen voor CODA in de Belgische versie
+# <a name="set-up-bank-accounts-for-coda"></a>Bankrekeningen instellen voor CODA
 Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u de volgende codes instellen:  
 
 - Protocolnummer  
@@ -27,7 +28,7 @@ Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften k
 
 ## <a name="to-set-up-protocol-numbers-and-version-codes"></a>Protocolnummers en versiecodes instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Bewerken**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 
@@ -42,6 +43,3 @@ Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften k
  [CODA-bankafschriften](coda-bank-statements.md)   
  [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [CODA-afschriften importeren](how-to-import-coda-statements.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

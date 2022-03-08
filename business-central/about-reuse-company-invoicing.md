@@ -2,19 +2,20 @@
 title: Invoicing en Business Central gebruiken | Microsoft Docs
 description: Oplossing om Microsoft Invoicing te kunnen openen wanneer u zich hebt aangemeld voor Dynamics 365 Business Central.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0c6b739faf2d531505bde4ad2dc7eb85c39ed223
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134420"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385036"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Dezelfde Microsoft 365-account gebruiken in [!INCLUDE[prod_short](includes/prod_long.md)] en Microsoft Invoicing
 Wanneer u zich aanmeldt voor de proefversie van [!INCLUDE[prod_short](includes/prod_short.md)], kunt u kiezen voor de evaluatiefase van 30 dagen, het abonnement laten ingaan of stoppen met het gebruiken van [!INCLUDE[prod_short](includes/prod_short.md)]. In alle gevallen hebt u op een gegeven moment misschien iets gezien dat **Microsoft Invoicing** heet en erop geklikt. Dit was een app die deel uitmaakte van wat nu Microsoft 365 Business Standard is en voorheen bekend stond als Microsoft 365 Business Premium-abonnement, dus niet iedereen zal die tegel in zijn of haar Microsoft 365 hebben gezien.  
@@ -30,9 +31,9 @@ U moet u daarom aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)], de
 
 ### <a name="to-rename-your-company"></a>De naam van uw bedrijf wijzigen
 1. Meld u aan bij [!INCLUDE[prod_short](includes/prod_short.md)].
-2. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen.](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens **Mijn instellingen**.
+2. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens **Mijn instellingen**.
 3. Kies in het veld **Bedrijf** een ander bedrijf.
-4. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijven** in en kies vervolgens de gerelateerde koppeling.  
+4. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijven** in en kies de gerelateerde koppeling.  
 5. Kies op de pagina **Bedrijven** **Lijst bewerken**.  
 6. Wijzig de naam van het item *Mijn bedrijf*.  
 
@@ -48,7 +49,7 @@ Wanneer u de naam van het oorspronkelijke Mijn bedrijf wijzigt, wordt de naam ge
 Als u zowel Invoicing als [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt, worden de gegevens in twee verschillende containers (de twee bedrijven) opgeslagen. Er wordt niets gedeeld, dus u moet de klanten en artikelen in beide bedrijven beheren.  
 
 ## <a name="see-also"></a>Zie ook
-[Veelgestelde vragen](across-faq.yml)  
+[Veelgestelde vragen](across-faq.md)  
 [Beheer](admin-setup-and-administration.md)  
 
 

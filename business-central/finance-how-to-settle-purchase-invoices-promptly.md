@@ -2,16 +2,17 @@
 title: Inkoopfacturen meteen vereffenen
 description: Als u de leverancier contant of per cheque moet betalen, kunt u de noodzakelijke boekingen doen op het moment dat u de factuur boekt.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.form: 51, 9308
+ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d7962031aa7dda7dafa96ade8e11339c06ebb305
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141227"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784604"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Inkoopfacturen meteen vereffenen
 
@@ -22,7 +23,7 @@ Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boek
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>Een inkoopfactuur meteen vereffenen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Voor contante betalingen of bankoverboekingen voert u in het veld **Tegenrekeningnr.** het nummer in van de grootboekrekening of bankrekening.  
 

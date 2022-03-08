@@ -1,22 +1,23 @@
 ---
-title: Documentlay-outs aan klanten of leveranciers toewijzen
-description: Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit klant- en leverancierskaarten om op te geven dat ze worden gebruikt voor de betreffende klant of leverancier.
+title: Speciale documentlay-outs toewijzen aan klanten of leveranciers | Microsoft Docs
+description: Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit klant- en leverancierskaarten om op te geven dat de geselecteerde lay-outs worden gebruikt voor verschillende soorten documenten die u voor de betreffende klant of leverancier maakt.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b417c689c02a0252e3967379e33a88386ad694f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed8b60c5b49502251f6ab6e61d22fd860af0915f
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147478"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024550"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Documentlay-outs definiëren voor klanten en leveranciers
 Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit klant- en leverancierskaarten om op te geven welke lay-outs worden gebruikt voor verschillende soorten documenten die u voor de betreffende klant of leverancier maakt. De waarde in het veld **Gebruik** definieert voor welk proces de documentlay-out wordt gebruikt, zoals **Aanmaning**, **Verzending** en **Bevestiging**.
@@ -30,7 +31,7 @@ Voordat u kunt definiëren welke documentlay-out wordt gebruikt voor welke proce
 Hieronder wordt beschreven hoe u lay-outs van verkoopdocumenten vanaf een klantenkaart kunt definiëren. De stappen zijn hetzelfde voor lay-outs voor inkoopdocumenten van een leverancierskaart.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Alle beschikbare verkoopdocumenten voor een klant inschakelen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
 2. Open de kaart van de klant voor wie u documentlay-outs per bedrijfsproces wilt definiëren.
 3. Kies op de pagina **Klantenkaart** de pagina **Documentlay-outs**.
 4. Kies op de pagina **Documentlay-outs** de actie **Kopiëren uit rapportselectie**.
@@ -61,6 +62,3 @@ Het e-mailadres van de contactpersoon wordt nu ingevoegd op de documentlay-outre
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
 [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

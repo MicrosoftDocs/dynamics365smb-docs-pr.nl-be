@@ -1,23 +1,25 @@
 ---
-title: Aangepaste rapportlay-outs bijwerken
-description: Leer hoe u een aangepaste rapportlay-out kunt bijwerken die in een rapport wordt gebruikt, bijvoorbeeld wanneer er ontwerpwijzigingen zijn in de gegevensset van het rapport.
-author: SorenGP
-ms.topic: conceptual
+title: Een rapportlay-out up-to-date houden | Microsoft Docs
+description: Soms moet u een aangepaste rapportlay-out bijwerken die voor een rapport wordt gebruikt. Dit is vereist als er een ontwerpverandering in de gegevensset van het rapport is geweest, bijvoorbeeld een veld dat in de lay-out wordt gebruikt maar uit de gegevensset van het rapport is verwijderd.
+services: project-madeira
+documentationcenter: ''
+author: jswymer
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9652, 9650
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 04/01/2019
+ms.author: jswymer
+ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144631"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248146"
 ---
-# <a name="update-custom-report-layouts"></a>Aangepaste rapportlay-outs bijwerken
-
+# <a name="updating-report-or-document-layouts"></a>Rapport- of documentlay-outs bijwerken
 Soms moet u een aangepaste rapportlay-out die voor een rapport is gebruikt, bijwerken. Dit is vereist als er een ontwerpverandering in de gegevensset van het rapport is geweest, bijvoorbeeld een veld dat in de lay-out wordt gebruikt maar uit de gegevensset van het rapport is verwijderd. Als voor een rapportlay-out bijwerken vereist is, krijgt u een foutbericht wanneer u probeert een voorbeeld van het rapport te bekijken of het rapport af te drukken of op te slaan.  
 
 U kunt een rapportlay-out automatisch bijwerken vanuit het foutbericht dat wordt weergegeven wanneer u het rapport uitvoert. In dat geval kiest u de knop **Ja** in het foutbericht. In geavanceerde of actieve rapporten kunt u bepaalde rapportlay-outs of alle aangepaste rapportlay-outs bijwerken die mogelijk zijn beïnvloed door wijzigingen in gegevenssets.  
@@ -28,7 +30,7 @@ Niet alle wijzigingen in de gegevensset van rapporten kunnen automatisch worden 
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Een of meer aangepaste rapportlay-outs bijwerken  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rapportlay-outs** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportlay-outs** in en kies vervolgens de gerelateerde koppeling.  
 
 2.  Als u een bepaald rapport wilt bijwerken, selecteert u deze lay-out in de lijst op de pagina **Rapportlay-outs** en kiest u de actie **Lay-out bijwerken**. Als u alle aangepaste rapportlay-outs voor het bedrijf wilt bijwerken, kiest u de actie **Alle lay-outs bijwerken**.  
 
@@ -36,7 +38,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
 ## <a name="to-test-custom-report-layout-updates"></a>Updates van aangepaste rapportlay-outs testen  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
 
 2.  Kies op de pagina **Selectie van rapportlay-out** de actie **Testlay-outupdates**.  
 
@@ -60,13 +62,8 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
  Zie voor meer informatie [Een aangepaste lay-out voor een rapport maken](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
 
-Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.  
-
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+ Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.  
 
 ## <a name="see-also"></a>Zie ook  
  [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
- [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Werken met rapporten en batchverwerkingen](ui-work-report.md)  

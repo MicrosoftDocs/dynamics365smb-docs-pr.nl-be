@@ -1,28 +1,30 @@
 ---
-title: Financiële dagboeken maken [BE]
-description: In dit onderwerp wordt uitgelegd hoe u dagboeksjablonen kunt gebruiken om financiële dagboeken te maken in de Belgische versie van Business Central.
+title: Financiële dagboeken maken
+description: In financiële dagboeken worden bankrekeningtransacties geregistreerd. In een financieel dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen, zodat u kunt controleren of alle transacties zijn geregistreerd.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
-ms.date: 06/25/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2d2cf594fa383dd540128f24ea04c71bbc2b183a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: df86a728ab85a57b973fc40d56aeb60c59e7c57b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148017"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379571"
 ---
-# <a name="create-financial-journals-in-the-belgian-version"></a>Financiële dagboeken maken in de Belgische versie
+# <a name="create-financial-journals"></a>Financiële dagboeken maken
 In financiële dagboeken worden bankrekeningtransacties geregistreerd. In een financieel dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen, zodat u kunt controleren of alle transacties zijn geregistreerd.  
 
 ## <a name="to-create-a-financial-journal"></a>Een financieel dagboek maken  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 

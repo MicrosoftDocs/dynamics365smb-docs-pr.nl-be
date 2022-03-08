@@ -2,19 +2,20 @@
 title: Taken plannen voor automatische uitvoering
 description: Geplande taken worden beheerd door de taakwachtrij. Met deze taken worden rapporten en codeunits uitgevoerd. U kunt taken éénmalig of herhaaldelijk uitvoeren.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 672, 673, 674, 671
-ms.date: 10/01/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b09973b90a2721d83c309d63f42ce72e3d498e40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0f586898d65d4e51e48b0c12cf9bf2487d846b1c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130734"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781248"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
 
@@ -36,10 +37,9 @@ Nadat taakwachtrijen zijn ingesteld en werken, kan de status als volgt verandere
 
 Nadat een taak is voltooid, wordt deze verwijderd uit de lijst met taakwachtrijposten, tenzij het een terugkerende taak is. Als het een terugkerende taak is, wordt het veld **Vroegste begintijd** aangepast, zodat het de volgende keer weergeeft dat de taak naar verwachting wordt uitgevoerd.  
 
-## <a name="monitor-status-or-errors-in-the-job-queue"></a>Status of fouten in de taakwachtrij bewaken
+## <a name="to-view-status-or-errors-in-the-job-queue"></a>Status of fouten in de taakwachtrij weergeven
 
 Gegevens die worden gegenereerd wanneer een taakwachtrij wordt uitgevoerd, worden opgeslagen in de database, zodat u taakwachtrijfouten kunt oplossen.  
-
 Voor elk item in de wachtrij kunt u de status bekijken en wijzigen. Wanneer u een taakwachtrij-item maakt, wordt de status ingesteld op **Afwachten**. U kunt de status bijvoorbeeld instellen op **Klaar** en weer op **Afwachten**. Als u dat niet doet, wordt statusinformatie automatisch bijgewerkt.
 
 De volgende tabel beschrijft de waarden van het veld **Status**.
@@ -53,32 +53,21 @@ De volgende tabel beschrijft de waarden van het veld **Status**.
 | Gereedgemeld | Geeft aan dat de taakwachtrijpost is voltooid. |
 
 ### <a name="to-view-status-for-any-job"></a>De status voor een taak weergeven
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies de desbetreffende koppeling.
 2. Selecteer op de pagina **Taakwachtrijposten** een taakwachtrijpost en kies vervolgens de actie **Logboekvermeldingen**.  
 
 > [!TIP]
-> U kunt de status van items in de wachtrij ook bekijken met Application Insights in Microsoft Azure voor meer diepgaande analyse op basis van telemetrie. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) en [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in de [!INCLUDE [prod_short](includes/prod_short.md)] ontwikkelaar- en beheerinhoud.
-
-## <a name="view-scheduled-tasks"></a>Geplande taken weergeven
-
-De pagina **Geplande taken** in [!INCLUDE [prod_short](includes/prod_short.md)] laat zien welke taken klaar zijn om te worden uitgevoerd in de taakwachtrij. De pagina toont ook informatie over het bedrijf waarvoor elke taak is ingesteld om te worden uitgevoerd. Alleen taken die zijn gemarkeerd als behorend tot de huidige omgeving kunnen echter worden uitgevoerd.  
-
-Als het huidige bedrijf zich bijvoorbeeld in een omgeving bevindt die een kopie is van een andere omgeving, worden alle geplande taken automatisch stopgezet. Gebruik de pagina **Geplande taken** om taken in te stellen als gereed om te worden uitgevoerd in de taakwachtrij.  
-
-> [!NOTE]
-> Interne beheerders en gebruikers kunnen taken plannen om te worden uitgevoerd. Gedelegeerde beheerders kunnen dat niet.
+> Met [!INCLUDE [prod_short](includes/prod_short.md)] online kunt u ook de status van taakwachtrijposten bekijken met Application Insights in Microsoft Azure. Zie voor meer informatie [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in de [!INCLUDE [prod_short](includes/prod_short.md)] Help voor ontwikkelaars en beheerders.
 
 ## <a name="the-my-job-queue-part"></a>Het onderdeel Mijn taakwachtrij
-
 In het onderdeel **Mijn taakwachtrij** in uw rolcentrum worden de taakwachtrijposten weergegeven die u hebt gestart, maar die nog niet zijn voltooid. Standaard is het onderdeel niet zichtbaar, zodat u het moet toevoegen aan uw rolcentrum. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.  
 
 Dit onderdeel toont welke documenten met uw id in het veld **Toegewezen gebruikers-id** worden verwerkt of in de wachtrij staan, inclusief posten die verband houden met boeking op de achtergrond. Het onderdeel kan u in één oogopslag laten zien of er een fout is opgetreden bij het boeken van een document en of er fouten zijn opgetreden in een taakwachtrijpost. Met het onderdeel kunt u een documentboeking annuleren als deze niet wordt uitgevoerd.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Een fout in het gedeelte Mijn taakwachtrij weergeven
-
 1. Kies in een post met de status **Fout** de actie **Fout weergeven**.
 2. Bekijk de foutmelding en los het probleem op.
+
 
 ## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Voorbeelden van wat kan worden gepland met behulp van een taakwachtrij
 
@@ -97,10 +86,6 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] hebt geïntegreerd met [!IN
 Taakwachtrijen zijn een effectief hulpmiddel om de uitvoering van bedrijfsprocessen op de achtergrond te plannen, zoals wanneer meerdere gebruikers proberen verkooporders te boeken, maar er slechts één order tegelijk kan worden verwerkt.  
 
 Zie voor meer informatie [Boeking op de achtergrond instellen met taakwachtrijen](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
-
-## <a name="monitor-the-job-queue-with-telemetry"></a>De taakwachtrij bewaken met telemetrie
-
-Als beheerder kunt u [Application Insights](/azure/azure-monitor/app/app-insights-overview) gebruiken om telemetrie te verzamelen en te analyseren die u kunt gebruiken om problemen te identificeren. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in de ontwikkelaar- en beheerinhoud.  
 
 ## <a name="see-also"></a>Zie ook
 

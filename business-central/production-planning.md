@@ -1,20 +1,21 @@
 ---
-title: Voorraadplanning
+title: Voorraadplanning | Microsoft Docs
 description: Bereid een gedetailleerd uitvoerbaar plan en het productieschema van de eindmontage voor verkoop- en productievraag voor.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
+ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: df1489446627b1043f348a2f1cf5e457ae757018
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 81befcda5dc4ae9e46ff02e98701fcb9c7a074dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146422"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785410"
 ---
 # <a name="planning"></a>Planning
 
@@ -35,7 +36,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Begrijpen hoe alle aspecten van het planningssysteem werken en hoe de algoritmen kunnen worden aangepast om te voldoen aan planningsvereisten in verschillende omgevingen.|[Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)|
 |Leren hoe met de planninglogica onderscheid wordt gemaakt tussen de vraag bij vestigingen volgens de SKU-instellingen en de vraag zonder vestigingscodes.|[Planning met of zonder vestigingen](production-planning-with-without-locations.md)|
 |Vraag aan de hand van verwachte verkoop- en productiecomponenten voorspellen.|[Een vraagprognose maken](production-how-to-create-a-forecast.md)|  
-|Een-op-een-productieorders of projectproductieorders maken vanuit een verkooporder voor de exacte vraag van die verkooporder.|[Productieorders maken op basis van verkooporders](production-how-to-create-production-orders-from-sales-orders.md)|
+|Automatisch een-op-een-productieorders maken op basis van een verkooporder voor de exacte vraag van de betreffende verkooporderregel.|[Productieorders maken op basis van verkooporders](production-how-to-create-production-orders-from-sales-orders.md)|
+|Een projectproductieorder maken rechtstreeks op basis van een verkooporder met meerdere regels voor een productieproject.|[Projectorders plannen](production-how-to-plan-project-orders.md)|
 |De pagina **Orderplanning** gebruiken om een handmatige planning te maken voor de verkoop- of productievraag, voor één productiestuklijstniveau tegelijk.|[Nieuwe vraag order voor order plannen](production-how-to-plan-for-new-demand.md)|
 |De pagina **Planningsvoorstel** gebruiken om de MPS- en MRP-opties uit te voeren om automatisch een leveringsplan op hoog niveau of een gedetailleerd leveringsplan op alle artikelniveaus te maken.|[Volledige planning, MPS of MRP uitvoeren](production-how-to-run-mps-and-mrp.md)|
 |Gebruik de pagina **Inkoopvoorstel** om automatisch een gedetailleerd leveringsplan te maken voor artikelen die alleen worden aangevuld door inkopen of transfers.|[Inkoopvoorstel](production-about-planning-functionality.md#requisition-worksheet)|  

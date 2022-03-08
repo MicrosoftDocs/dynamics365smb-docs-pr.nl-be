@@ -1,23 +1,23 @@
 ---
-title: Productie uitbesteden
-description: Dit onderwerp geeft een uitgebreid overzicht van de uitgebreide functionaliteit van uitbesteding in Business Central, inclusief afdelingsvelden en bewerkingsplannen.
+title: Productie uitbesteden | Microsoft Docs
+description: Zodra de inkooporder is gemaakt vanuit het uitbestedingsvoorstel, kan deze worden geboekt.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 99000886
-ms.date: 06/22/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 116c19964bde7cc58a2c90be1f6b9143ceca3af6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 08b717e5674130661e12b48e6c0f37473098b892
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132744"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787714"
 ---
 # <a name="subcontract-manufacturing"></a>Productie uitbesteden
-
 Veel productiebedrijven besteden bepaalde bewerkingen uit aan leveranciers. Uitbesteden kan een eenmalig gebeuren zijn of een integraal onderdeel uitmaken van alle productieprocessen.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt verscheidene hulpmiddelen voor het beheren van uitbesteed werk:  
@@ -52,7 +52,7 @@ De pagina **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door de 
 >  Alleen productieorders met de status **Vrijgegeven** zijn toegankelijk en kunnen worden gebruikt vanuit een uitbestedingsvoorstel.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Het uitbestedingsvoorstel berekenen  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Uitbestedingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstel** in en kies de desbetreffende koppeling.  
 2.  Als u het voorstel wilt berekenen, klikt u op de actie **Uitbestedingen berekenen**.  
 3.  Stel op de pagina **Uitbestedingen berekenen** filters in voor de uitbestede bewerkingen of de werkplaatsen waar ze worden uitgevoerd, om zo alleen de relevante productieorders te berekenen.  
 4.  Kies de knop **OK**.  
@@ -60,7 +60,7 @@ De pagina **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door de 
     Bekijk de regels op de pagina **Uitbestedingsvoorstel**. De informatie in dit voorstel is afkomstig van de productieorder en de productieorderbewerkingsplanregels en gaat naar de inkooporder op het moment dat dit document wordt aangemaakt. U kunt een rij uit het voorstel verwijderen zonder dat dit gevolgen heeft voor de oorspronkelijke informatie, net zoals u met andere voorstellen kunt. De informatie verschijnt opnieuw de volgende keer dat u de functie **Uitbestedingen berekenen** uitvoert.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>De uitbestedingsinkooporder genereren  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Uitbestedingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstel** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Planningsboodschap uitvoeren**.  
 3.  Plaats een vinkje in het veld **Orders afdrukken** om de inkooporder af te drukken wanneer deze wordt gemaakt.  
 4.  Kies de knop **OK**.  
@@ -73,7 +73,7 @@ De voorstelregel waarvan een inkooporder is gemaakt, wordt verwijderd uit het vo
 Zodra de inkooporders voor toeleveranciers zijn opgesteld, kunnen deze worden geboekt. Bij ontvangst van de order wordt een capaciteitspost geboekt op de productieorder en bij het factureren van de order worden de directe kosten van de inkooporder geboekt op de productieorder.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Een uitbestedingsinkooporder boeken  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en selecteer vervolgens de gerelateerde koppeling  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en selecteer de desbetreffende koppeling.  
 2.  Open een inkooporder die op basis van het uitbestedingsvoorstel is gemaakt.  
 
     Op de inkooporderregels kunt u dezelfde gegevens zien als die in het voorstel stonden. De velden **Prod.-ordernr.**, **Prod.-orderregelnr.**, **Bewerkingsnr.** en **Afdelingsnr.** worden ingevuld met de informatie van de bronproductieorder.  

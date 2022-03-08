@@ -1,20 +1,23 @@
 ---
 title: 'Ontwerpdetails: Rekeningen in het grootboek | Microsoft Docs'
 description: Om voorraad- en capaciteitsposten te reconciliëren met het grootboek, worden de gerelateerde waardeposten naar verschillende rekeningen in het grootboek geboekt.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: b1b3620234901c3b2a1eba5f5af7eb0e79449dc4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: b840432bca09f04a27004aaff5d9ccbbfcdaeb69
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146812"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303856"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Ontwerpdetails: Rekeningen in het grootboek
 Om voorraad- en capaciteitsposten te reconciliëren met het grootboek, worden de gerelateerde waardeposten naar verschillende rekeningen in het grootboek geboekt. Zie voor meer informatie [Ontwerpdetails: reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md).  
@@ -98,7 +101,4 @@ De volgende tabel toont hoe bedragen die naar het grootboek moeten worden geboek
  [Ontwerpdetails: Verwachte kostenboeking](design-details-expected-cost-posting.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  
- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -2,19 +2,20 @@
 title: De extensie C5-gegevensmigratie gebruiken | Microsoft Docs
 description: Gebruik deze extensie om klanten, leveranciers, artikelen en grootboekrekeningen te migreren van Microsoft Dynamics C5 2012 naar Business Central.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccebff57d4189a3273c9930fc82ca665e7f807c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0f257b81f1e36e86e40e67ca8ba07169ec22d938
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133640"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747605"
 ---
 # <a name="the-c5-data-migration-extension"></a>De extensie C5-gegevensmigratie
 
@@ -106,7 +107,7 @@ Het grootste bestand dat u kunt uploaden naar [!INCLUDE[prod_short](includes/pro
 Er zijn slechts enkele stappen nodig om gegevens vanuit C5 te exporteren en deze te importeren in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. Gebruik in C5 de functie **Database exporteren** om de gegevens te exporteren. Verzend vervolgens de exportmap naar een gecomprimeerde (gezipte) map.  
-2. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gegevensmigratie** in en kies vervolgens **Gegevensmigratie**.  
+2. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gegevensmigratie** in en kies vervolgens **Gegevensmigratie**.  
 3. Voer de stappen uit in het handleiding met begeleide instellingen. Zorg dat u **Importeren vanuit Microsoft Dynamics C5 2012** als gegevensbron kiest.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>De status van de migratie weergeven
@@ -159,7 +160,4 @@ U kunt de migratie van gegevens stoppen door **Alle migraties stoppen** te kieze
 ## <a name="see-also"></a>Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Aan de slag](product-get-started.md)  

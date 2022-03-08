@@ -1,21 +1,21 @@
 ---
-title: Functies en informatie zoeken (bevat video)
+title: Functies en informatie zoeken (bevat video) | Microsoft Docs
 description: In dit onderwerp wordt beschreven hoe u acties, pagina's, rapporten, documentatie, en gegevens zoekt, en andere apps en consultingservices.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c11b0b82d0c6634fc69b09b8995046bf194a3838
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 1e44edeee82214c1d19489da351b3001bfa4fc3e
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323214"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940138"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me  
 In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en aanvullende apps en consultingservices ontdekt voor [!INCLUDE[prod_short](includes/prod_short.md)].  

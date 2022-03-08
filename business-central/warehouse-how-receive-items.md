@@ -1,20 +1,21 @@
 ---
-title: Artikelen ontvangen
+title: 'Procedure: Artikelen ontvangen'
 description: Dit onderwerp is een overzicht van de verschillende manieren om artikelen in een magazijn te ontvangen, bijvoorbeeld artikelen met een inkooporder of artikelen met een magazijnontvangst.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
+ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2c5a0ebaad14e33ec15df9f6483a397715a167a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144449"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445138"
 ---
 # <a name="receive-items"></a>Artikelen ontvangen
 

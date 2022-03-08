@@ -1,20 +1,21 @@
 ---
 title: Artikelen opslaan met magazijnopslag | Microsoft Docs
-description: Leer hoe u op verschillende manieren artikelen kunt opslaan in Business Central met de volgende magazijnopslagtaken.
+description: Wanneer voor de vestiging magazijnopslag- en -ontvangstverwerking is vereist, beheert u de opslag van artikelen met de functie voor magazijnopslagdocumenten.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf748b94ec2a53eb92464a94c1172dd6971c8389
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f158499f0c93e1a991b1f092676f653cf067a46e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134574"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910042"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Artikelen opslaan met magazijnopslag
 Wanneer voor de vestiging magazijnopslag- en -ontvangstverwerking is vereist, beheert u de opslag van artikelen met de functie voor magazijnopslagdocumenten.  
@@ -26,7 +27,7 @@ Afhankelijk van de magazijninstellingen worden de regels beschikbaar gemaakt in 
 Naast de standaard manieren waarop magazijnopslag gemaakt kan worden die in dit onderwerp worden beschreven, kunt u opslag maken vanuit de bijbehorende geboekte magazijnontvangst. Dit is nuttig als u opslagregels hebt verwijderd of als u gestuurde opslag en pick gebruikt en het opslagwerkblad niet wilt gebruiken omdat u opslaginstructies (opnieuw) kunt maken van de geboekte ontvangstregels.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Artikelen opslaan zonder gestuurde opslag en pick  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnopslag** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnopslag** in en kies de desbetreffende koppeling.  
 2.  Open de magazijnopslag die gereed is om te verwerken.  
 
     U kunt de opslagregels op grond van diverse criteria sorteren, bijvoorbeeld op artikel, schapnummer of vervaldatum en op deze manier het opslagproces optimaliseren.  
@@ -34,7 +35,7 @@ Naast de standaard manieren waarop magazijnopslag gemaakt kan worden die in dit 
 4.  Als u de opslag van artikelen hebt voltooid, kiest u de actie **Opslag registreren** om de voltooiing van de activiteit te registreren en de artikelen beschikbaar te maken voor pickacties.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Artikelen opslaan met gestuurde opslag en pick  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnopslag** in en kies vervolgens de gerelateerde koppeling.
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnopslag** in en kies de desbetreffende koppeling.
     Als er opslaginstructies zijn gemaakt, wordt er een magazijnopslag weergegeven.  
 2.  Open de magazijnopslag waaraan u wilt werken.  
 3.  Als voor het magazijn een gebruikers-id is vereist, voert u deze eerst in op het sneltabblad **Algemeen**. Daarna kunt u de gewenste opslag bewerken.  
@@ -62,7 +63,7 @@ De opslaglocatievolgorde wordt gebruikt wanneer meerdere opslaglocaties voldoen 
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Een magazijnopslag maken vanuit een geboekte ontvangst  
  Als bij uw vestiging zowel opslagverwerking als ontvangstverwerking wordt gebruikt en u opslagregels hebt verwijderd, of als u gestuurde opslag en pick gebruikt en het opslagwerkblad niet wilt gebruiken, kunt u opslaginstructies (opnieuw) maken voor de geboekte ontvangstregels.
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte magazijnontvangsten** in en kies de desbetreffende koppeling.  
 2.  Selecteer een geboekte ontvangst die mogelijk moet worden opgeslagen.  
 3.  Kies de actie **Kaart**.  
 
@@ -77,7 +78,4 @@ De opslaglocatievolgorde wordt gebruikt wanneer meerdere opslaglocaties voldoen 
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

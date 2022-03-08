@@ -1,24 +1,25 @@
 ---
-title: Procedure - Onderhanden werk voor een project berekenen
-description: Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die moeten worden bijgehouden terwijl het project voortduurt.
+title: 'Procedure: Onderhanden werk voor een project berekenen | Microsoft Docs'
+description: Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse kosten bijhouden die samenhangen met het resourceverbruik voor een bepaald project. Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die moeten worden bijgehouden terwijl het project voortduurt.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2020
 ms.author: edupont
-ms.openlocfilehash: 0ee0720c6fe8f7b64e99344fc277a5c42a0243b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c10451c0534f7bd32184b9e94011942d6b05bb97
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148160"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789214"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedure: Onderhanden werk voor een project berekenen
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse kosten bijhouden die samenhangen met het resourceverbruik voor een bepaald project. Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die moeten worden bijgehouden terwijl het project voortduurt. Als een project over langere tijd loopt, moet u deze kosten mogelijk overdragen naar een OHW-rekening (Onderhanden werk) op de balans terwijl het project wordt voltooid. Vervolgens kunt u de kosten en verkopen indien van toepassing verantwoorden in uw resultatenrekeningen.  
 
@@ -37,7 +38,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
  In deze procedure is projectteamlid Tricia de hoofdpersoon.  
 
 ## <a name="prerequisites"></a>Vereisten  
- Voordat u de stappen in dit overzicht kunt uitvoeren, moet [!INCLUDE[prod_short](includes/prod_short.md)] op uw computer zijn geïnstalleerd.  
+ Voordat u de stappen in dit overzicht kunt uitvoeren, moet [!INCLUDE[d365fin](includes/d365fin_md.md)] op uw computer zijn geïnstalleerd.  
 
 ## <a name="story"></a>Scenario  
  In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- en consultancyfirma die nieuwe infrastructuren ontwerpt (conferentiezalen en kantoren) en inricht met meubels, accessoires en opslagruimten. Het werk bij CRONUS is voor het grootste deel projectgericht en projectteamlid Tricia gebruikt projecten om een overzicht te krijgen van de lopende projecten waaraan CRONUS werkt en de projecten die zijn voltooid. De projecten kunnen soms tamelijk lang zijn en meerdere maanden lopen. Tricia gebruikt een OHW-rekening voor het vastleggen van het onderhanden werk en het bijhouden van de kosten gedurende het project.  
@@ -51,7 +52,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 |Veld|Description|  
 |-------------------------------------|---------------------------------------|  
-|**\<blank\>**|Leeg laten als de projecttaak deel uitmaakt van een groep taken.|  
+|**<blank>**|Leeg laten als de projecttaak deel uitmaakt van een groep taken.|  
 |**Totaal**|Definieert de reeks of groep taken die zijn opgenomen in de berekening van OHW en verantwoording. Binnen de groep wordt elke projecttaak waarvoor **Taaksoort project** is ingesteld op **Boeken**, opgenomen in het OHW-totaal tenzij het veld **OHW-totaal** is ingesteld op **Uitgesloten**.|  
 |**Uitgesloten**|Geldt alleen voor een taak met **Taaksoortproject** **Boeken**. De taak wordt niet meegenomen wanneer OHW en verantwoording worden berekend.|  
 
@@ -59,7 +60,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 ### <a name="to-calculate-wip"></a>OHW berekenen  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies de desbetreffende koppeling.  
 2.  Selecteer in de lijst **Projecten** het project **Deerfield** en kies de actie **Bewerken**. Hiermee opent u de projectkaart in de bewerkmodus.  
 
      OHW kan worden berekend op basis van Kostprijs, Verkoopprijs, Kostprijs van omzet, Percentage voltooid of Contract voltooid. In dit voorbeeld wordt door CRONUS de methode Kostprijs toegepast.  
@@ -91,7 +92,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 ### <a name="to-review-wip-warnings"></a>OHW-waarschuwingen bekijken  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Cockpit OHW taak** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cockpit OHW taak** in en kies de gerelateerde koppeling.  
 2.  Selecteer het project **Deerfield** en kies vervolgens de actie **Waarschuwingen weergeven**.  
 3.  Controleer op de pagina **OHW-waarschuwingen project** de waarschuwing waaraan de taak is gekoppeld.  
 
@@ -155,14 +156,11 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
     >  Stel Tricia OHW had berekend en geboekt voor een project met onjuiste datums. Volgens de methode die eerder werd beschreven, kan zij de onjuiste boekingen tegenboeken, de datums corrigeren en de boekingen opnieuw naar het grootboek posten.  
 
 ## <a name="next-steps"></a>Volgende stappen  
- In dit scenario heeft u de stappen doorgenomen voor het berekenen van OHW in [!INCLUDE[prod_short](includes/prod_short.md)]. Bij grotere projecten kan het handig zijn om de kosten periodiek over te dragen naar een OHW-rekening terwijl het project wordt voltooid. In dit overzicht hebt u gezien hoe u taakregels uitsluit van een berekening. Ook hebt u gezien wanneer u een herberekening moet uitvoeren. En tot slot dit wordt in dit scenario aangegeven hoe u de OHW naar het grootboek boekt. Ook is een voorbeeld opgenomen van hoe u een OHW-post naar het grootboek kunt tegenboeken.  
+ In dit scenario heeft u de stappen doorgenomen voor het berekenen van OHW in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bij grotere projecten kan het handig zijn om de kosten periodiek over te dragen naar een OHW-rekening terwijl het project wordt voltooid. In dit overzicht hebt u gezien hoe u taakregels uitsluit van een berekening. Ook hebt u gezien wanneer u een herberekening moet uitvoeren. En tot slot dit wordt in dit scenario aangegeven hoe u de OHW naar het grootboek boekt. Ook is een voorbeeld opgenomen van hoe u een OHW-post naar het grootboek kunt tegenboeken.  
 
 ## <a name="see-also"></a>Zie ook  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
  [Procedure: Projecten plannen](walkthrough-managing-projects-with-jobs.md)   
  [OHW-methoden](projects-understanding-wip.md)   
  [Voortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)  
- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

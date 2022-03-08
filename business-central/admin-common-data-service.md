@@ -1,23 +1,24 @@
 ---
 title: Werken met Microsoft Dataverse
-description: Inleiding tot integratie en gebruik van Microsoft Dataverse en de componenten ervan om verbinding te maken met andere Dynamics 365-toepassingen.
+description: Inleiding tot Microsoft Dataverse en zijn componenten.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 95b1146f2f664ad73966162e24c3e0ad0c34e310
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2020
+ms.openlocfilehash: 1cc9f712994c1b612b7e390a0281b823889a8bf9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141449"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378660"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integreren met Microsoft Dataverse
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-
-Zakelijke apps gebruiken vaak gegevens van meer dan één bron. [!INCLUDE[prod_short](includes/cds_long_md.md)] combineert gegevens in één set logica die het gemakkelijker maakt om andere Dynamics 365-toepassingen, zoals [!INCLUDE[crm_md](includes/crm_md.md)] of uw eigen applicatie bovenop [!INCLUDE[prod_short](includes/cds_long_md.md)], te verbinden met [!INCLUDE[prod_short_md](includes/prod_short.md)]. Zie voor meer informatie over [!INCLUDE[prod_short](includes/cds_long_md.md)] [Wat is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
+Zakelijke apps gebruiken vaak gegevens van meer dan één bron. [!INCLUDE[prod_short](includes/cds_long_md.md)] combineert gegevens in één set logica die het gemakkelijker maakt om andere Dynamics 365-toepassingen, zoals [!INCLUDE[crm_md](includes/crm_md.md)] of uw eigen applicatie bovenop [!INCLUDE[prod_short](includes/cds_long_md.md)], te verbinden met [!INCLUDE[prod_short_md](includes/prod_short.md)]. Zie voor meer informatie over [!INCLUDE[prod_short](includes/cds_long_md.md)] [Wat is Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 
 De volgende stappen geven een overzicht van de stappen om [!INCLUDE[prod_short](includes/cds_long_md.md)] te integreren met [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -31,7 +32,7 @@ De volgende stappen geven een overzicht van de stappen om [!INCLUDE[prod_short](
 3. Gegevens synchroniseren tussen de apps. Zie voor meer informatie [Business Central en Dataverse synchroniseren](admin-synchronizing-business-central-and-sales.md). 
 
 ## <a name="getting-started-with-prod_short"></a>Aan de slag met [!INCLUDE[prod_short](includes/cds_long_md.md)]
-Om mee te beginnen met [!INCLUDE[prod_short](includes/cds_long_md.md)] hebt u een Microsoft Power Apps-account nodig. Als u nog geen Power Apps-account hebt, kunt u er een gratis krijgen door te gaan naar [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en de koppeling **Ga gratis aan de slag** te kiezen. Voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/cds_long_md.md)] raadpleegt u de module [Aan de slag met Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) van Microsoft Learn.
+Om mee te beginnen met [!INCLUDE[prod_short](includes/cds_long_md.md)] hebt u een Microsoft Power Apps-account nodig. Als u nog geen Power Apps-account hebt, kunt u er een gratis krijgen door te gaan naar [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en de koppeling **Ga gratis aan de slag** te kiezen. Voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/cds_long_md.md)] raadpleegt u de module [Aan de slag met Dataverse](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) van Microsoft Learn.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Bidirectionele of unidirectionele gegevenssynchronisatie
 Afhankelijk van uw zakelijke behoeften kunt u de integratie instellen om gegevens te synchroniseren van of naar de ene Dynamics 365-bedrijfsapp naar de andere, of in beide richtingen in bijna realtime via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Als u [!INCLUDE[prod_short](includes/prod_short.md)] bijvoorbeeld met [!INCLUDE[crm_md](includes/crm_md.md)] integreert via [!INCLUDE[prod_short](includes/cds_long_md.md)], kan een verkoper een verkooporder aanmaken in [!INCLUDE[crm_md](includes/crm_md.md)] en de order wordt dan gesynchroniseerd met [!INCLUDE[prod_short](includes/prod_short.md)]. Omgekeerd vanuit [!INCLUDE[crm_md](includes/crm_md.md)], kan de verkoper informatie bekijken uit [!INCLUDE[prod_short](includes/prod_short.md)] over de beschikbaarheid van het artikel op de order. 

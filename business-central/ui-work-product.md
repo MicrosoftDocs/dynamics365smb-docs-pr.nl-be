@@ -1,20 +1,20 @@
 ---
-title: Werken met Business Central (bevat video)
+title: Werken met de algemene functionaliteit in Business Central (bevat video) | Microsoft Docs
 description: Beschrijft de algemene functies die u gebruikt om te werken met gegevens in Business Central, zoals waarden invoeren, gegevens sorteren en weergaven wijzigen.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 7ef07e8f7f4a51b63ca2d001a541499bf2fed892
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323070"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940688"
 ---
 # <a name="working-with-prod_short"></a>Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
 

@@ -1,21 +1,23 @@
 ---
-title: De intercompany-inbox en outbox beheren
+title: Inkomende en uitgaande IC-transacties verwerken | Microsoft Docs
 description: Intercompany-transacties (IC-transacties) die u ontvangt van uw IC-partners worden weergegeven in de IC-inbox, waar u ze handmatig of automatisch verwerkt.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e8959900cedbf538a289447ad57c2e64b51c55b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 309d41995ae88332808e363f8a6838a40ee6a679
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141085"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445713"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>De intercompany-inbox en outbox beheren
 Alle IC-transacties die u via elektronische weg ontvangt van uw IC-partners, worden weergegeven in de IC-inbox.  
@@ -49,7 +51,7 @@ Met het veld **Transactiebron weergeven** kunt u de pagina **IC-inboxtransacties
 
  > [!NOTE]  
  > Als de IC-partners in dezelfde database zijn opgenomen, worden de transacties verzonden zonder dat een bestand of e-mail nodig is. Zie het veld **Overdrachttype** op de pagina **IC-partner**. <br /><br />
-In dat geval, kunt u in het systeem instellen om de inbox en de outbox over te slaan, door respectievelijk het selectievakje **Transacties automatisch accepteren** op de pagina **IC-partner** en het selectievakje **Transacties automatisch verzenden** op de pagina **IC-instellingen** in te schakelen. Inkomende intercompany-transacties kunnen alleen automatisch worden geaccepteerd als de taakplanner is ingeschakeld. Zie [Business Central Server configureren - Taakplannerinstellingen](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task) voor meer informatie.
+In dat geval, kunt u in het systeem instellen om de inbox en de outbox over te slaan, door respectievelijk het selectievakje **Transacties automatisch accepteren** op de pagina **IC-partner** en het selectievakje **Transacties automatisch verzenden** op de pagina **IC-instellingen** in te schakelen.
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>IC-transacties importeren uit een bestand  
 Als u een IC-partner hebt die zich niet in dezelfde database bevindt als uw bedrijf, kunt u IC-transacties van die partner ophalen in een XML-bestand. Vervolgens moet u de transacties importeren in uw inbox.  

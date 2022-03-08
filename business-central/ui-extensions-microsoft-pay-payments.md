@@ -1,28 +1,29 @@
 ---
-title: Microsoft Pay-standaard
-description: De extensie Microsoft Pay voegt een Microsoft Pay-koppeling aan uw verkoopdocumenten toe, zodat klanten gemakkelijk kunnen betalen met Microsoft Pay.
+title: Microsoft Pay Standaard| Microsoft Docs
+description: Bevat informatie over de extensie Microsoft Pay
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d5668db9d0a7fa9b461a19949643ca7a2cc01a31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5885674316e082323462cbad9fce3f20590f06d5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132536"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915047"
 ---
 # <a name="the-microsoft-pay-extension"></a>De extensie Microsoft Pay
 
 > [!IMPORTANT]
-> Met ingang van 8 februari 2020 hebben wijzigingen in de Microsoft Pay-service invloed op de Microsoft Pay-uitbreiding in Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. Vanwege de wijzigingen zullen na 8 februari de betalingskoppelingen **Nu betalen** die de Microsoft Pay-uitbreiding genereert voor facturen in [!INCLUDE[prod_short](includes/prod_short.md)], Microsoft Pay niet openen. Klanten die de uitbreiding gebruiken, moeten hun betalingsservices instellen om in plaats daarvan de PayPal-uitbreiding te gebruiken.<br /></br>
+> Met ingang van 8 februari 2020 hebben wijzigingen in de Microsoft Pay-service invloed op de Microsoft Pay-uitbreiding in Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Vanwege de wijzigingen zullen na 8 februari de betalingskoppelingen **Nu betalen** die de Microsoft Pay-uitbreiding genereert voor facturen in [!INCLUDE[d365fin](includes/d365fin_md.md)], Microsoft Pay niet openen. Klanten die de uitbreiding gebruiken, moeten hun betalingsservices instellen om in plaats daarvan de PayPal-uitbreiding te gebruiken.<br /></br>
 >
-> Vanaf 8 januari zullen we een melding weergeven in [!INCLUDE[prod_short](includes/prod_short.md)]. De melding bevat een koppeling naar de instellingen die u moet wijzigen en naar meer informatie. Na 8 februari is de Microsoft Pay-uitbrieding niet meer beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)].<br /></br>
+> Vanaf 8 januari zullen we een melding weergeven in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De melding bevat een koppeling naar de instellingen die u moet wijzigen en naar meer informatie. Na 8 februari is de Microsoft Pay-uitbrieding niet meer beschikbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
 >
 > De wijzigingen zijn van invloed op de volgende versies van Business Central:
 > - Microsoft Dynamics 365 Business Central oktober 2018
@@ -41,12 +42,9 @@ De extensie Microsoft Pay biedt de volgende voordelen:
 - De Microsoft Pay-koppeling kan automatisch worden ingesloten op elk factuurdocument of door de gebruiker.
 - Aangezien deze functie als extensie wordt samengesteld, hebt u de volledige controle om deze in te schakelen wanneer uw bedrijfsprocessen dit vereisen.
 
-Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[prod_short](includes/prod_short.md)] gratis. U moet wel contact opnemen met de betalingsservice om een rekening aan te vragen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
+Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[d365fin](includes/d365fin_md.md)] gratis. U moet wel contact opnemen met de betalingsservice om een rekening aan te vragen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

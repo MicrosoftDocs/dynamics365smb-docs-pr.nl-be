@@ -1,20 +1,23 @@
 ---
 title: 'Ontwerpdetails: Productieorderboeking | Microsoft Docs'
 description: Net als bij assemblageorderboeking worden de verbruikte materialen en de gebruikte computertijd omgezet en uitgevoerd als het geproduceerde artikel wanneer de productieorder is voltooid.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: e6379530eed2c0e3881dd951fbd09602360e5fad
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146578"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306904"
 ---
 # <a name="design-details-production-order-posting"></a>Ontwerpdetails: Productieorderboeking
 Net als bij assemblageorderboeking worden de verbruikte materialen en de gebruikte computertijd omgezet en uitgevoerd als het geproduceerde artikel wanneer de productieorder is voltooid. Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie. De kostenstroom voor assemblageorders is echter minder complex, met name omdat de assemblagekostenboeking slechts eenmaal plaatsvindt en daarom geen OHW-voorraad genereert.
@@ -44,7 +47,7 @@ Afhankelijk van de soort voorraad, worden toenames en afnames aangeduid door ver
 ||Verhogen|Verlagen|  
 |-|---------------|---------------|  
 |**Voorraad grondstoffen**|-   Netto-inkopen van materiaal<br />-   Output van subassemblages<br />-   Negatief verbruik|Materiaalverbruik|  
-|**OHW-voorraad**|-   Materiaalverbruik<br />-   Capaciteitverbruik<br />-   Productieoverhead|Output van eindproducten (kostprijs van vervaardigde goederen)|  
+|**OHW-voorraad**|-   Materiaalverbruik<br />-   Capaciteitsverbruik<br />-   Productieoverhead|Output van eindproducten (kostprijs van vervaardigde goederen)|  
 |**Voorraad eindproducten**|Output van eindproducten (kostprijs van vervaardigde goederen)|-   Verkoop (kosten van verkochte goederen)<br />-   Negatieve output|  
 |**Voorraad grondstoffen**|-   Netto-inkopen van materiaal<br />-   Output van subassemblages<br />-   Negatief verbruik|Materiaalverbruik|  
 
@@ -57,11 +60,11 @@ Het boeken van productieorders naar OHW-voorraad betreft output, verbruik en cap
 
 Het volgende diagram bevat de betrokken boekingsroutines in codeunit 22.  
 
-![Productieorderboekingsroutines.](media/design_details_inventory_costing_14_production_posting_1.png "Productieorderboekingsroutines")  
+![Boekingsroutines voor productieorders](media/design_details_inventory_costing_14_production_posting_1.png "Boekingsroutines voor productieorders")  
 
 Het volgende diagram bevat de koppelingen tussen de resulterende posten en de kostenobjecten.  
 
-![Productie-invoerstroom.](media/design_details_inventory_costing_14_production_posting_2.png "Productie-invoerstroom")  
+![Productie-invoerstroom](media/design_details_inventory_costing_14_production_posting_2.png "Productie-invoerstroom")  
 
 De capaciteitspost beschrijft het capaciteitsverbruik in termen van tijdseenheden, terwijl de gerelateerde waardepost de waarde van het specifieke capaciteitsverbruik omschrijft.  
 
@@ -109,6 +112,3 @@ In standaardkostenomgevingen is de kostprijsberekening van een productieorder ge
  [Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md) [Financiën](finance.md)  
  [Werken met Business Central](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

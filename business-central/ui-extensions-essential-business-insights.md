@@ -1,21 +1,22 @@
 ---
-title: Inzichten waarvoor een actie kan worden uitgevoerd weergeven in rolcentra
-description: Leren hoe de extensie Essentiële zakelijke inzichten een reeks zakelijke inzichten in rolcentra roteert.
+title: Inzichten waarvoor een actie kan worden uitgevoerd weergeven in rolcentra | Microsoft Docs
+description: De extensie Essentiële zakelijke inzichten roteert een reeks zakelijke inzichten in rolcentra.
 documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 06/23/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 75081547af3c98233870d0cbe68860ab52d8c38d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2be073fbb2216e9a87c54b7c4d9fd3fa86e02aee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134781"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757229"
 ---
 # <a name="the-essential-business-insights-extension"></a>De extensie Essentiële zakelijke inzichten
 De extensie Essentiële zakelijke inzichten zoekt interessante bedrijfsfeiten in uw bedrijfsgegevens en geeft ze weer als krantenkoppen in rolcentra. Afhankelijk van wat de extensie in de gegevens vindt, worden de inzichten van de vorige week, maand, of drie maanden vanaf de huidige datum weergegeven. De inzichten worden om de 10 minuten bijgewerkt.  
@@ -37,6 +38,3 @@ De volgende tabel beschrijft de inzichten die deze extensie biedt voor elk rolce
 
 ## <a name="see-also"></a>Zie ook
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

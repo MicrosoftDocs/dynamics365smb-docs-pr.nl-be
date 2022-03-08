@@ -1,32 +1,28 @@
 ---
-title: Extensie Cloud-migratiebasis
-description: Gebruik de extensie Cloud-migratiebasis om uw on-premises oplossing te verbinden met Business Central online.
+title: Intelligente cloud Basis | Microsoft Docs
+description: Gebruik de extensie Intelligente cloud Basis om uw on-premises oplossing te verbinden met Business Central online.
 author: edupont04
 manager: edupont
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8999ad14b3937ddcbc0f0935338173a35f698b30
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: da20e2df61388909f5fe38dea6fc41a1b0a9b822
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136807"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194151"
 ---
-# <a name="cloud-migration-base-extension"></a>Extensie Cloud-migratiebasis
+# <a name="intelligent-cloud-base-extension"></a>Extensie Intelligente cloud Basis
 
-Deze extensie leidt u door het proces om een verbinding te configureren tussen uw on-premises oplossing en uw [!INCLUDE [prod_short](includes/prod_short.md)] online-omgeving wanneer u de migratie naar de cloud start.  
-
-Nadat de verbinding is geconfigureerd, kunt u gegevens van uw on-premises oplossing migreren naar [!INCLUDE[prod_short](includes/prod_short.md)] online. Deze extensie werkt in combinatie met een extensie voor gegevensreplicatie die beschikbaar is voor uw on-premises oplossing. Zie voor meer informatie [De tool Cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
+Deze extensie begeleidt u door het proces om uw Intelligente cloud-omgeving te configureren en te beheren. Zodra uw Intelligente cloud-omgeving is geconfigureerd, kunt u gegevensreplicaties beheren van uw on-premises oplossing naar uw [!INCLUDE[prodshort](includes/prodshort.md)]-cloudtenant. Deze extensie werkt in combinatie met een extensie voor gegevensreplicatie die beschikbaar is voor uw on-premises oplossing. Zie voor meer informatie [Intelligente inzichten](about-intelligent-cloud.md).  
 
 ## <a name="see-also"></a>Zie ook
 
-[Tool voor cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
-[Intelligente cloud-extensies voor cloudmigratie](ui-extensions-data-replication.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Intelligente inzichten](about-intelligent-cloud.md)  
+[Extensie Gegevensreplicatie](ui-extensions-data-replication.md)  

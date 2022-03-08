@@ -2,6 +2,7 @@
 title: Uw proefversie van Business Central verlengen
 description: Als u meer tijd nodig hebt om te bepalen of u een abonnement op Dynamics 365 Business Central wilt, kunt u uw proefversie eenmaal verlengen. Lees meer over uw opties.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129121"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184286"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hebt u meer tijd nodig om na te denken over een abonnement?
 

@@ -2,16 +2,17 @@
 title: Betalingsvoorwaarden instellen
 description: Gebruik in de basisversie van Business Central betalingscondities om vervaldatums en betalingskortingen te beheren.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.form: 4
+ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 82c60333f038f647fa4c9c2bbd68019b9c1f8026
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135996"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783809"
 ---
 # <a name="set-up-payment-terms"></a>Betalingscondities instellen
 
@@ -27,7 +28,7 @@ Als u uw klanten herinneringen wilt sturen over achterstallige betalingen, moet 
 
 ## <a name="to-set-up-payment-terms"></a>Betalingscondities instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsvoorwaarden** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsvoorwaarden** in en kies de desbetreffende koppeling.  
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Nadat u de betalingscondities hebt ingesteld, wijst u deze toe aan klanten en leveranciers. Wijs eventueel betalingsvoorwaarden toe aan uw betalingsmethoden.  

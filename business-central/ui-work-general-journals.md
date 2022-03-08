@@ -1,25 +1,24 @@
 ---
-title: Werken met dagboeken om direct naar het grootboek te boeken
-description: Leren over het gebruik van dagboeken om financiële transacties naar grootboekrekeningen en andere rekeningen te boeken, zoals bank-, klant- en leveranciersrekeningen. Gebruik periodieke dagboeken om transitoria te boeken en saldi toe te wijzen op dimensiewaarden.
-author: bholtorf
-ms.topic: conceptual
+title: Dagboeken gebruiken om direct naar grootboek te boeken| Microsoft Docs
+description: Leren over het gebruik van dagboeken om financiële transacties naar grootboekrekeningen en andere rekeningen te boeken, zoals bank-, klant- en leveranciersrekeningen.
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
-ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 1d042d2a399f6bf0fb329aa9287e4ced37e43fef
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.date: 06/10/2020
+ms.author: sgroespe
+ms.openlocfilehash: 37a69940d6b449a779a6bf8fb9d9729c99aa9ea4
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323096"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454443"
 ---
 # <a name="working-with-general-journals"></a>Werken met diversendagboeken
 
-De meeste financiële transacties worden geboekt naar het grootboek door bepaalde bedrijfsdocumenten, zoals inkoopfacturen en verkooporders. Maar u kunt ook zakelijke activiteiten zoals inkoop, betaling, gebruik van periodieke dagboeken om transitoria te boeken of terugbetaling van werknemersonkosten, verwerken door dagboekregels te boeken in de verschillende dagboeken in [!INCLUDE[prod_short](includes/prod_short.md)].  
+De meeste financiële transacties worden geboekt naar het grootboek door bepaalde bedrijfsdocumenten, zoals inkoopfacturen en verkooporders. Maar u kunt ook zakelijke activiteiten zoals inkoopprocessen, betaling of terugbetaling van werknemersonkosten verwerken door dagboekregels te boeken in de verschillende dagboeken in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 De meeste dagboeken zijn gebaseerd op het *Diversendagboek* en u kunt alle transacties op de pagina **Diversendagboek** verwerken. Zie voor meer informatie [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md).  
 
@@ -41,60 +40,36 @@ Er zijn verschillende sjablonen voor diversendagboeken. Elk dagboeksjabloon word
 Voor elke dagboeksjabloon kunt u uw eigen persoonlijke dagboek instellen als een dagboekbatch. U kunt bijvoorbeeld uw eigen dagboekbatch definiëren voor het betalingsdagboek dat uw persoonlijke lay-out en instellingen heeft. De volgende tip is een voorbeeld van hoe u een dagboek aanpast.
 
 > [!TIP]  
-> Als u het selectievakje **Salderingsbedrag voorstellen** inschakelt op de regel voor uw batch op de pagina **Fin. dagboekbatches**, wordt het veld **Bedrag** op bijvoorbeeld diversendagboekregels voor hetzelfde documentnummer automatisch vooraf ingevuld met de waarde die is vereist om het document sluitend te maken. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] waarden laten voorstellen](ui-let-system-suggest-values.md).
+> Als u het selectievakje **Salderingsbedrag voorstellen** inschakelt op de regel voor uw batch op de pagina **Fin. dagboekbatches**, wordt het veld **Bedrag** op bijvoorbeeld diversendagboekregels voor hetzelfde documentnummer automatisch vooraf ingevuld met de waarde die is vereist om het document sluitend te maken. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] waarden laten voorstellen](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > Als u velden in dagboeken wilt toevoegen of verwijderen, gebruikt u de banner **Personaliseren**. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
-
-### <a name="validating-general-journal-batches"></a>Algemene dagboekbatches valideren
-Om vertragingen bij het boeken te voorkomen kunt u een achtergrondcontrole inschakelen die u op de hoogte stelt als er een fout in het financiële dagboek waaraan u werkt optreedt waardoor u het dagboek niet kunt boeken. Op de pagina **Batch van algemeen dagboek** kunt u **Foutcontrole op achtergrond** kiezen om [!INCLUDE[prod_short](includes/prod_short.md)] financiële dagboeken te laten valideren, zoals algemene of betalingsdagboeken, terwijl u eraan werkt. 
-
-Wanneer u de validatie inschakelt, wordt het feitenblok **Journaalcontrole** naast de dagboekregels weergegeven en bevat het problemen op de huidige regel en in de hele batch. Validatie vindt plaats wanneer u een financiële dagboekbatch laadt en wanneer u een andere dagboekregel kiest. De tegel **Totaal aantal problemen** in het feitenblok toont het totale aantal problemen dat [!INCLUDE[prod_short](includes/prod_short.md)] heeft gevonden en kunt u ervoor kiezen om een overzicht van de problemen te openen. 
-
-U kunt de acties **Regels met problemen weergeven** en **Alle regels weergeven** gebruiken om te schakelen tussen dagboekregels die wel of geen problemen hebben. Het nieuwe feitenblok **Details van dagboekregel** biedt een snel overzicht van en toegang tot gegevens uit dagboekregels, zoals de grootboekrekening, klant of leverancier, evenals de boekingsinstellingen voor specifieke rekeningen.     
-
-### <a name="reversing-journals-to-correct-mistakes"></a>Dagboeken terugdraaien om fouten te corrigeren
-Wanneer u werkt met dagboeken met veel regels en er gaat iets mis, is het belangrijk om een gemakkelijke manier te hebben om fouten te corrigeren. De pagina **Geboekt financieel dagboek** biedt een aantal acties die kunnen helpen.
-
-* **Geselecteerde regels naar dagboek kopiëren**: alleen de regels kopiëren die u selecteert.
-* **Grootboekjournaal kopiëren naar dagboek**: alle regels kopiëren die behoren tot hetzelfde grootboekregister.
-
-Met deze acties kunt u een kopie van een dagboekregel of een batch maken en vervolgens het volgende specificeren:
-
-* Het dagboek waarnaar de regels moeten worden gekopieerd
-* Of het met tegengestelde tekens moet gebeuren (een tegenboekingsdagboek)
-* Een andere boekingsdatum of documentnummer
-
-Om toe te staan dat dagboeken naar geboekte algemene dagboeken worden gekopieerd kiest u op de pagina **Financieel-dagboeksjablonen** het selectievakje **Kopiëren naar geboekte dagboekregels**. Nadat u mensen toestemming hebt gegeven om geboekte dagboeken te kopiëren, kunt u indien nodig het kopiëren uitschakelen voor specifieke batches.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Hoofdrekeningen en tegenrekeningen
 Als u op de pagina **Dagboeken** standaardtegenrekeningen hebt ingesteld voor de dagboekbatches, wordt de tegenrekening automatisch ingevuld wanneer u het veld **Rekeningnr.** invult. Anders vult u zowel het veld **Rekeningnr.** als het veld **Tegenrekeningnr.** handmatig in. Een positief bedrag in het veld **Bedrag** wordt gedebiteerd van de hoofdrekening en gecrediteerd naar de tegenrekening. Een negatief bedrag wordt gecrediteerd naar de hoofdrekening en gedebiteerd van de tegenrekening.
 
 > [!NOTE]  
-> Btw wordt afzonderlijk berekend voor de hoofdrekening en de tegenrekening, zodat er gebruik kan worden gemaakt van verschillende percentages.
+>   Btw wordt afzonderlijk berekend voor de hoofdrekening en de tegenrekening, zodat er gebruik kan worden gemaakt van verschillende percentages.
 
 ## <a name="working-with-recurring-journals"></a>Werken met periodieke dagboeken
-Een periodiek dagboek is een dagboek met specifieke velden voor het beheer van transacties die u regelmatig boekt met weinig of geen wijzigingen, zoals huur, abonnementen en elektriciteit. Met de speciale velden voor periodieke transacties kunt u zowel vaste als variabele bedragen boeken. U kunt ook automatische tegenboekingposten voor de dag na de boekingsdatum opgeven. U kunt ook verdeelsleutels gebruiken om de periodieke posten over verschillende rekeningen te verdelen. Zie voor meer informatie [Periodieke dagboekbedragen toewijzen aan meerdere rekeningen](#allocating-recurring-journal-amounts-to-several-accounts).
+Een periodiek dagboek is een dagboek met specifieke velden voor het beheer van transacties die u regelmatig boekt met weinig of geen wijzigingen, zoals huur, abonnementen en elektriciteit. Met de speciale velden voor periodieke transacties kunt u zowel vaste als variabele bedragen boeken. U kunt ook automatische tegenboekingposten voor de dag na de boekingsdatum opgeven. U kunt ook verdeelsleutels gebruiken om de periodieke posten over verschillende rekeningen te verdelen. Zie voor meer informatie [Periodieke dagboekbedragen toewijzen aan meerdere rekeningen](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
 
 Als u een periodiek dagboek gebruikt, hoeft u de gegevens slechts éénmaal in te voeren. De ingevulde gegevens, zoals rekeningen, dimensies en dimensiewaarden, worden na het boeken in het dagboek bewaard. Later kunt u eventueel wijzigingen aanbrengen en de informatie opnieuw boeken.
 
 ### <a name="recurring-method-field"></a>Veld Methode
-
 Dit veld bepaalt hoe het bedrag op de dagboekregel na het boeken wordt verwerkt. Wanneer u de regel bijvoorbeeld altijd met hetzelfde bedrag wilt boeken, kunt u het bedrag ongewijzigd laten. Wilt u dezelfde rekeningen en dezelfde tekst gebruiken, maar een ander bedrag, dan kunt u het bedrag na het boeken verwijderen.
 
-| Als u dit wilt doen: | Zie |
+| Aan | Zie |
 | --- | --- |
-|V Vast|het bedrag op de dagboekregel wordt na het boeken bewaard.|
-|V Variabel|het bedrag op de dagboekregel wordt na het boeken verwijderd.|
-|S Saldo|Het geboekte bedrag op de rekening op de regel wordt verdeeld over de rekeningen die zijn opgegeven voor de regel in de tabel Dagboekverdeelsleutel. Het saldo op de rekening wordt zo op nul ingesteld. Vul het veld **Verdeelsleutel %** op de pagina **Verdeelsleutels** in. Zie voor meer informatie [Periodieke dagboekbedragen toewijzen aan meerdere rekeningen](#allocating-recurring-journal-amounts-to-several-accounts).|
-|OV Omgekeerd vast|Het bedrag wordt na het boeken bewaard en de tegenboeking wordt de volgende dag geboekt.|
-|OR Omgekeerd vaRiabel|Het bedrag wordt na het boeken verwijderd en de tegenboeking wordt de volgende dag geboekt.|
-|OS Omgekeerd saldo|Het geboekte bedrag op de rekening op de regel wordt verdeeld over de rekeningen die zijn opgegeven voor de regel op de pagina **Verdeelsleutels**. Het saldo op de rekening moet op nul zijn ingesteld en een tegenrekeningspost wordt de dag erop geboekt.|
-|SD Saldo per dimensie|De dagboekregel wijst kosten toe op basis van het saldo van een grootboekrekening per dimensie. U wordt gevraagd de dimensiefilters in te stellen die moeten worden gebruikt om het saldo van de brongrootboekrekening te berekenen per dimensie waaruit u kosten wilt toewijzen. U kunt ook later de actie **Dimensiefilters instellen** kiezen.|
-|OSD Omgekeerd saldo per dimensie|De dagboekregel wijst kosten toe op basis van het omgekeerd saldo van een grootboekrekening per dimensie. U wordt gevraagd de dimensiefilters in te stellen die moeten worden gebruikt om het saldo van de brongrootboekrekening te berekenen per dimensie waaruit u kosten wilt toewijzen. U kunt ook later de actie **Dimensiefilters instellen** kiezen.|
+|Vast|het bedrag op de dagboekregel wordt na het boeken bewaard.|
+|Variabel|het bedrag op de dagboekregel wordt na het boeken verwijderd.|
+|Saldo|Het geboekte bedrag op de rekening op de regel wordt verdeeld over de rekeningen die zijn opgegeven voor de regel in de tabel Dagboekverdeelsleutel. Het saldo op de rekening wordt zo op nul ingesteld. Vul het veld **Verdeelsleutel %** op de pagina **Verdeelsleutels** in. Zie voor meer informatie [Periodieke dagboekbedragen toewijzen aan meerdere rekeningen](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
+|Omgekeerd vast|Het bedrag wordt na het boeken bewaard en de tegenboeking wordt de volgende dag geboekt.|
+|Omgekeerd variabel|Het bedrag wordt na het boeken verwijderd en de tegenboeking wordt de volgende dag geboekt.|
+|Omgekeerd saldo|Het geboekte bedrag op de rekening op de regel wordt verdeeld over de rekeningen die zijn opgegeven voor de regel op de pagina **Verdeelsleutels**. Het saldo op de rekening moet op nul zijn ingesteld en een tegenrekeningspost wordt de dag erop geboekt.|
 
 > [!NOTE]  
-> De btw-velden kunnen worden ingevuld op de periodieke dagboekregel of op de verdelingsdagboekregel, maar niet op beide. De btw-velden kunt u alleen invullen op de pagina **Verdeelsleutels** als de overeenkomende regels in het periodieke dagboek niet zijn ingevuld.
+>  De btw-velden kunnen worden ingevuld op de periodieke dagboekregel of op de verdelingsdagboekregel, maar niet op beide. De btw-velden kunt u alleen invullen op de pagina **Verdeelsleutels** als de overeenkomende regels in het periodieke dagboek niet zijn ingevuld.
 
 ### <a name="recurring-frequency-field"></a>Veld Frequentie
 Dit veld bepaalt hoe vaak de dagboekregelpost moet worden geboekt. Dit is een datumformuleveld en het moet worden ingevuld voor periodieke dagboekregels. Zie voor meer informatie [Datumformules gebruiken](ui-enter-date-ranges.md#using-date-formulas).
@@ -116,34 +91,14 @@ Voordeel van dit veld is dat de regel niet onmiddellijk uit het dagboek wordt ve
 Als het veld leeg is, wordt de regel geboekt totdat deze uit het dagboek wordt verwijderd.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Periodieke dagboekbedragen toewijzen aan meerdere rekeningen
-
 Op de pagina **Periodiek dagboek** kunt u de actie **Verdeelsleutels** kiezen om te zien of beheren hoe bedragen op de periodieke dagboekregel worden verdeeld over verschillende rekeningen en dimensies. Een verdeelsleutel fungeert als tegenrekeningregel is voor de periodieke dagboekregel.
 
 Net als in een periodiek dagboek hoeft u een toewijzing maar eenmaal in te voeren. De verdeelsleutel blijft na het boeken in het verdelingsdagboek, zodat u bedragen en toewijzingen niet telkens hoeft in te voeren wanneer u de periodieke dagboekregel boekt.
 
-Als de *periodieke methode* in het periodieke dagboek is ingesteld op **Saldo** of **Omgekeerd saldo**, wordt geen rekening gehouden met dimensiewaardecodes in het periodieke dagboek als de rekening is ingesteld op nul. Dit betekent dat als u op de pagina **Verdeelsleutels** een periodieke regel verdeelt over verschillende dimensiewaarden, er slechts één tegenpost wordt gemaakt. Wanneer u een periodieke dagboekregel verdeelt die een dimensiewaardecode bevat, moet u dezelfde code daarom niet invoeren op de pagina **Verdeelsleutels**. Als u dat wel doet, zijn de dimensiewaarden onjuist.  
-
-Om periodieke journaalbedragen toe te wijzen op basis van dimensies, stelt u in plaats daarvan het veld **Periodieke methode** in op **Saldo per dimensie** of **Omgekeerd saldo per dimensie**. Als de periodieke methode in het periodieke dagboek is ingesteld op **Saldo per dimensie** of **Omgekeerd saldo per dimensie**, wordt rekening gehouden met dimensiewaardecodes in het periodieke dagboek als de rekening is ingesteld op nul. Dus als u een terugkerende regel toewijst aan verschillende dimensiewaarden op de pagina **Toewijzingen**, dan wordt een aantal tegenboekingen gemaakt die overeenkomen met het aantal dimensiewaardecombinaties waaruit het saldo bestaat. Als u rekeningsaldo toewijst via het periodieke dagboek dat een dimensiewaardecode bevat, vergeet dan niet om **Saldo per dimensie** of **Omgekeerd saldo per dimensie** te gebruiken om ervoor te zorgen dat de dimensiewaarden correct in evenwicht zijn of worden omgekeerd ten opzichte van de bronaccount.  
-
-Uw bedrijf heeft bijvoorbeeld een aantal bedrijfsunits en een handvol afdelingen die uw controllers als dimensies hebben ingesteld. Om het invoerproces van inkoopfacturen te versnellen besluit u dat de crediteurenadministratie alleen bedrijfsunitdimensies moet invoeren. Aangezien elke bedrijfsunit specifieke verdeelsleutels heeft voor de dimensie Afdeling, bijvoorbeeld op basis van het aantal werknemers, kunt u de periodieke methoden **Saldo per dimensie** of **Omgekeerd saldo per dimensie** gebruiken om kosten voor elke bedrijfsunit opnieuw toe te wijzen aan de juiste afdelingen op basis van de verdeelsleutels.  
-
-> [!NOTE]
-> Dimensies die u op verdeelsleutelregels instelt, worden niet automatisch berekend en u moet specificeren welke dimensiewaarden moeten worden ingesteld voor de verdelingsrekeningen. Als u de koppeling tussen de dimensie van de bronrekening en de dimensie van de verdelingsrekening wilt behouden, raden we u aan in plaats daarvan de mogelijkheden van [Kostprijsboekhouding](finance-about-cost-accounting.md) te gebruiken.
+Als de periodieke methode in het periodieke dagboek is ingesteld op **Saldo** of **Omgekeerd saldo**, wordt geen rekening gehouden met dimensiewaardecodes in het periodieke dagboek als de rekening is ingesteld op nul. Dit betekent dat als u op de pagina **Verdeelsleutels** een periodieke regel verdeelt over verschillende dimensiewaarden, er slechts één tegenpost wordt gemaakt. Wanneer u een periodieke dagboekregel verdeelt die een dimensiewaardecode bevat, moet u dezelfde code daarom niet invoeren op de pagina **Verdeelsleutels**. Als u dat wel doet, zijn de dimensiewaarden onjuist.
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Voorbeeld: huurbetalingen aan verschillende kostenplaatsen toewijzen
 U betaalt elke maand huur en u hebt het huurbedrag dus ingevoerd op de kasrekening op een periodieke dagboekregel. Op de pagina **Verdeelsleutels** kunt u de kosten verdelen over verschillende kostenplaatsen (dimensie Kostenplaats), afhankelijk van het aantal vierkante meter per kostenplaats. De berekening is gebaseerd op het verdelingspercentage op elke regel. U kunt verschillende rekeningen invoeren op verschillende verdelingsdagboekregels (als de huur ook wordt verdeeld over verschillende rekeningen). U kunt ook dezelfde rekening invoeren, maar op elke regel een andere dimensiewaardecode voor de dimensie Kostenplaats opgeven.
-
-### <a name="reversal-date-calculation"></a>Berekening van tegenboekingsdatum
-Wanneer u periodieke dagboeken gebruikt om transitoria aan het einde van een periode te boeken, is het belangrijk om volledige controle te hebben over tegenboekingsposten. Op de pagina **Periodieke dagboeken** kunt u met het veld **Berekening van tegenboekingsdatum** bepalen op welke datum tegenboekingsposten worden geboekt wanneer periodieke tegenboekingsmethoden worden gebruikt.
-
-#### <a name="example"></a>Voorbeeld
-Transitoria worden meestal geboekt met periodieke vaste, variabele of saldomethoden op de dagboekregel. De boekingsdatum van het geboekte bedrag op de rekening op de dagboekregel wordt berekend met de periodieke frequentie. De boekingsdatum voor de tegenboeking wordt als volgt berekend met behulp van het veld **Berekening van tegenboekingsdatum**:
-
-* Als het veld leeg is, wordt de tegenboekingspost de volgende dag geboekt.
-* Als het veld een datumformule bevat (bijvoorbeeld **5D** voor vijf dagen), wordt de tegenboekingspost geboekt met een boekingsdatum die wordt berekend op basis van de berekening van de tegenboekingsdatum.
-
-> [!NOTE]
-> Standaard is het veld **Berekening van tegenboekingsdatum** niet beschikbaar op de pagina **Periodieke dagboeken**. Om het veld te gebruiken moet u het toevoegen door de pagina te personaliseren. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 ## <a name="working-with-standard-journals"></a>Werken met standaarddagboeken
 Wanneer u artikeldagboekregels hebt gemaakt waarvan u weet dat u ze waarschijnlijk later opnieuw moet maken, kunt u ze als een standaarddagboek opslaan voordat u het artikeldagboek boekt. Deze functie geldt voor artikeldagboeken en diversendagboeken.
@@ -152,7 +107,7 @@ Wanneer u artikeldagboekregels hebt gemaakt waarvan u weet dat u ze waarschijnli
 >   De volgende procedure heeft betrekking op het artikeldagboek, maar de informatie is ook van toepassing op het standaarddagboek.
 
 ### <a name="to-save-a-standard-journal"></a>Opslaan als standaarddagboek
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies de gerelateerde koppeling.
 2. Voer een of meer dagboekregels in.
 3. Selecteer de dagboekregels die u opnieuw wilt gebruiken.
 4. Kies de actie **Opslaan als standaarddagboek**.
@@ -167,8 +122,7 @@ Wanneer u artikeldagboekregels hebt gemaakt waarvan u weet dat u ze waarschijnli
 Wanneer u het standaardartikeldagboek hebt opgeslagen, wordt de pagina Artikeldagboek weergegeven zodat u het dagboek kunt boeken met in uw achterhoofd dat het dagboek eenvoudig opnieuw kan worden gemaakt als u later dezelfde of vergelijkbare regels opnieuw moet boeken.
 
 ### <a name="to-reuse-a-standard-journal"></a>Een standaarddagboek opnieuw gebruiken
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies de gerelateerde koppeling.
 2. Kies de actie **Standaarddagboeken ophalen**.
 
     De pagina Standaardartikeldagboeken wordt weergegeven, met de codes en omschrijvingen van alle standaardartikeldagboeken.
@@ -179,33 +133,30 @@ Wanneer u het standaardartikeldagboek hebt opgeslagen, wordt de pagina Artikelda
 
     Het artikeldagboek wordt nu gevuld met de regels die u als het standaardartikeldagboek hebt opgeslagen. Als er al dagboekregels in het artikeldagboek voorkomen, worden de ingevoegde regels onder de bestaande dagboekregels geplaatst.
 
-    Als u het veld **Eenheidsprijs opslaan** niet hebt ingeschakeld toen u de functietaak **Opslaan als standaardartikeldagboek** gebruikte, wordt het veld **Eenheidsprijs** op regels die zijn ingevoegd vanuit het standaarddagboek, automatisch gevuld met de huidige waarde van het artikel, gekopieerd van het veld **Kostprijs** op de artikelkaart.
+    Als u het veld **Eenheidsprijs opslaan** niet hebt ingeschakeld toen u de functietaak **Opslaan als standaardartikeldagboek** gebruikte, wordt het veld **Eenheidsprijs** op regels die zijn ingevoegd vanaf het standaarddagboek, automatisch gevuld met de huidige waarde van het artikel, gekopieerd van het veld **Kostprijs** op de artikelkaart.
 
     > [!NOTE]  
-    > Als u de velden **Eenheidsprijs opslaan** of **Aantal opslaan** hebt geselecteerd, moet u controleren of de ingevoegde waarden voor deze bepaalde voorraadwijziging correct zijn voordat u het artikeldagboek boekt.
+    >   Als u de velden **Eenheidsprijs opslaan** of **Aantal opslaan** hebt geselecteerd, moet u controleren of de ingevoegde waarden voor deze bepaalde voorraadwijziging correct zijn voordat u het artikeldagboek boekt.
 
     Als de ingevoegde artikeldagboekregels opgeslagen eenheidsprijzen bevatten die u niet wilt boeken, kunt u deze als volgt snel wijzigen in de huidige waarde van het artikel.
 
-5. Selecteer de dagboekregels die u wilt aanpassen en kies vervolgens de actie **Eenheidsprijs opnieuw berekenen**. Zo werkt u het veld Eenheidsprijs bij met de huidige kostprijs van het artikel.
-6. Kies de actie **Boeken**.
+6. Selecteer de dagboekregels die u wilt aanpassen en kies vervolgens de actie **Eenheidsprijs opnieuw berekenen**. Zo werkt u het veld Eenheidsprijs bij met de huidige kostprijs van het artikel.
+7. Kies de actie **Boeken**.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Documentnummers in dagboeken opnieuw nummeren
-
 Om er zeker van te zijn dat u geen boekingsfouten ontvangt vanwege de numerieke documentvolgorde, kunt u de functie **Documentnummers opnieuw nummeren** gebruiken, voordat u een journaal boekt.
 
 In alle dagboeken die zijn gebaseerd op het algemene dagboek, kan het veld **Documentnr.** worden bewerkt, zodat u voor verschillende dagboekregels verschillende documentnummers of hetzelfde documentnummer voor verwante dagboekregels kunt opgeven.
 
-Als het veld **Nr.-reeksen** op de dagboekbatch is gevuld, vereist de boekingsfunctie in dagboeken dat de documentnummers op de afzonderlijke of gegroepeerde dagboekregels in sequentiële volgorde worden weergegeven. Kies gewoon de actie **Documentnummers hernummeren** en de relevante **Documentnr.**-velden worden dan bijgewerkt. Als verwante dagboekregels zijn gegroepeerd op documentnummer voordat u de functie gebruikte, blijven zij gegroepeerd maar wordt er mogelijk een ander documentnummer aan toegewezen.  
+Als het veld **Nr.-reeksen** op de dagboekbatch is gevuld, vereist de boekingsfunctie in dagboeken dat de documentnummers op de afzonderlijke of gegroepeerde dagboekregels in sequentiële volgorde worden weergegeven. Om er zeker van te zijn dat u geen boekingsfouten ontvangt vanwege de numerieke documentvolgorde, kunt u de functie **Documentnummers opnieuw nummeren** gebruiken, voordat u het dagboek boekt. Als verwante dagboekregels zijn gegroepeerd op documentnummer voordat u de functie gebruikte, blijven zij gegroepeerd maar wordt er mogelijk een ander documentnummer aan toegewezen.
 
 Deze functie werkt ook op de gefilterde weergaven.
 
 Het wijzigen van documentnummers in verband met verwante vereffeningen, zoals een betalingsaanvraag die is ingediend vanuit het document op de dagboekregel naar een leveranciersrekening. Zo kunt u ook de velden **Vereffenings-id** en **Vereffeningsnr.** op de betrokken posten bijwerken.
 
-### <a name="to-renumber-documents-in-journals"></a>Documentnummers in dagboeken opnieuw nummeren
-
 De volgende procedure is gebaseerd op de pagina **Diversendagboek**, maar is van toepassing op alle overige journalen die u op het dagboek zijn gebaseerd, zoals de pagina **Betalingsdagboek**.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies de desbetreffende koppeling.
 2. Als u klaar bent om het dagboek te boeken, kiest u de actie **Documentnummers opnieuw nummeren**.
 
 De waarden in het veld **Documentnr.** worden gewijzigd, wanneer dit is vereist, zodat het documentnummer op afzonderlijke of gegroepeerde dagboekregels in sequentiële volgorde wordt weergegeven. Nadat de documenten opnieuw zijn genummerd, kunt u doorgaan met het boeken van het dagboek.
@@ -218,13 +169,10 @@ De waarden in het veld **Documentnr.** worden gewijzigd, wanneer dit is vereist,
 [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)  
 [Kosten en inkomsten toewijzen](year-allocate-costs-income.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Voorraad herwaarderen in het herwaarderingsjournaal](inventory-how-revalue-inventory.md)  
 [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)  
 [Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten](receivables-how-apply-sales-transactions-manually.md)  
 [Leveranciersbetalingen reconciliëren met het betalingsdagboek of vanuit leveranciersposten](payables-how-apply-purchase-transactions-manually.md)  
 [Werken met intercompany-documenten en -dagboeken](intercompany-how-work-documents-journals.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

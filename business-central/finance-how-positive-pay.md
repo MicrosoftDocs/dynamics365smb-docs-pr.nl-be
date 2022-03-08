@@ -1,35 +1,37 @@
 ---
-title: Positive Pay-bestanden exporteren
+title: Positive Pay-bestanden exporteren| Microsoft Docs
 description: U kunt zorgen dat uw bank alleen gevalideerde cheques en bedragen verrekent door een Positive Pay-bestand te exporteren dat gegevens over leveranciers en betalingen bevat.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.search.form: 1231, 1232, 1233, 1234
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a45ac4ca08f49a3ac27d93e31086ef06c167d971
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1e75a5541654a6577417a37c0cef23302b37b649
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130600"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916963"
 ---
 # <a name="export-a-positive-pay-file"></a>Een Positive Pay-bestand exporteren
 Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen verrekent, kunt u een Positive Pay-bestand exporteren dat leveranciersgegevens, het chequenummer en het betalingsbedrag bevat, die u naar de bank verzendt wanneer u betalingen verwerkt.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is vooraf geconfigureerd om Positive Pay-bestanden te ondersteunen voor Bank of America en City Bank.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] is vooraf geconfigureerd om Positive Pay-bestanden te ondersteunen voor Bank of America en City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Een bankrekening voor Positive Pay instellen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.
 2. Open de kaart voor de bank waarvoor u Positive Pay wilt gebruiken.
 3. Voer in het veld **Positive Pay-exportcode** POSPAYBANK in.
 4. Sluit de pagina.
 
 ## <a name="to-export-a-positive-pay-file"></a>Een Positive Pay-bestand exporteren
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.
 2. Selecteer de bankrekening waarvoor u een Positive Pay-bestand wilt exporteren.
 3. Kies de actie **Positive Pay exporteren**.
 
@@ -42,7 +44,7 @@ Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen verreken
 
 Geëxporteerde Positive Pay-records weergeven
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.
 2. Selecteer de bankrekening waarvoor u Positive Pay-exportrecords wilt weergeven.
 3. Kies de actie **Positive Pay-posten**.
 
@@ -52,7 +54,7 @@ Geëxporteerde Positive Pay-records weergeven
 
 Positive Pay-bestanden opnieuw exporteren
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.
 2. Selecteer de bankrekening waarvoor u Positive Pay-bestanden opnieuw wilt exporteren.
 3. Kies de actie **Positive Pay-posten**.
 4. Selecteer de regel van het Positive Pay-exportbestand dat u opnieuw wilt exporteren.
@@ -62,7 +64,4 @@ Positive Pay-bestanden opnieuw exporteren
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

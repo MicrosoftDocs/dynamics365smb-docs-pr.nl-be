@@ -1,50 +1,45 @@
 ---
-title: Standaardtaken instellen voor bewerkingen
-description: Meer informatie over het instellen van standaardtaken en het toevoegen van standaardtaken aan bewerkingen om het onderhoud van bewerkingsplannen te vereenvoudigen.
+title: 'Procedure: Standaardtaken instellen voor bewerkingen | Microsoft Docs'
+description: U kunt omschrijvingen voor standaardtaken invoeren.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 89c6f60e2c68866babb7efd2762766f957325a6a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 203b42ed7b9e4650cdf837825603ff4f4a5edf5e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137613"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314228"
 ---
 # <a name="set-up-standard-routing-lines"></a>Standaardbewerkingsplanregels instellen
-
 Met behulp van standaardtaken vereenvoudigt u het maken en onderhouden van bewerkingsplannen. Hiermee kunt u snel aanvullende informatie aan terugkerende bewerkingen koppelen.
 
 ## <a name="to-set-up-a-standard-task"></a>Een standaardtaak instellen
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Standaardtaken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaardtaken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Kies de actie **Extra**, **Medewerkers**, **Omschrijving**, of **Extra** en voeg vervolgens op de geopende pagina het relevante item toe.
+4. Kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.
+5. op de pagina die wordt geopend, beschrijft u de betreffende standaardtaak.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Een standaardtaak toevoegen aan een bewerking
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.
 2. Open het betreffende bewerkingsplan.
 3. Selecteer een relevant bewerkingsplan, kies de actie **Bewerkingen** en kies de actie **Extra**, **Medewerkers**, **Beschrijving** of **Extra**.
 
-Wanneer u het bewerkingsplanblad afdrukt, kunt u ervoor kiezen om de elementen op te nemen van de standaardtaak die u aan de bewerkingsplanregels hebt toegevoegd.
-
-## <a name="see-also"></a>Zie ook
-
+## <a name="see-also"></a>Zie ook  
 [Bewerkingsplannen maken](production-how-to-create-routings.md)  
-[Productiestuklijsten maken](production-how-to-create-production-boms.md)  
-[Productie instellen](production-configure-production-processes.md)  
-[Productie](production-manage-manufacturing.md)  
-[Gepland](production-planning.md)  
+[Productiestuklijsten maken](production-how-to-create-production-boms.md)     
+[Productie instellen](production-configure-production-processes.md)   
+[Productie](production-manage-manufacturing.md)    
+[Gepland](production-planning.md)   
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

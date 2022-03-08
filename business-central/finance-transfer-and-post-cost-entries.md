@@ -2,19 +2,20 @@
 title: Kostenposten overbrengen en boeken
 description: Voordat u kostenverdelingen definieert, moet u de verschillende bronnen begrijpen waaruit kostenposten afkomstig zijn.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1100, 1103, 1104, 1108, 1113, 1135
+ms.search.form: 1100, 1103, 1104, 1113
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: fcff82e597a47541c5077de47594bb9916a40d67
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 92a7b0f4878f7cd23f4fc672e9723050ca7bde7e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136022"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970837"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Kostenposten overbrengen en boeken
 
