@@ -2,7 +2,6 @@
 title: 'Aanbevolen procedures instellen: Bestelbeleid | Microsoft Docs'
 description: Het veld Bestelbeleid op artikelkaarten biedt vier verschillende planningmethodes die de interactie tussen de afzonderlijke planningsparameters aansturen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a0eb78d64948498b315679c45eb9a8b48fd5606
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e6c76729d5b8ecf2a42b0b749a951ee05cef96f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784354"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142892"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Aanbevolen procedures instellen: Bestelbeleid
 Het veld **Bestelbeleid** op artikelkaarten biedt vier verschillende planningmethodes die de interactie tussen de afzonderlijke planningsparameters aansturen.  
@@ -30,7 +29,7 @@ De aanbevolen procedure voor het selecteren van een bestelbeleid is de ABC-class
 
 De ABC-classificatie stelt dat inspanningen en geld bespaard kunnen worden door minder controle toe te passen op items met een lage waarde/volume-verhouding dan op items met een hoge waarde/volume-verhouding. De volgende illustratie toont welk bestelbeleid in [!INCLUDE[prod_short](includes/prod_short.md)] het geschiktst is voor respectievelijk items van het type A, B of C.
 
-![ABC-classificatie](media/abc_classification.png "abc_classification")
+![ABC-classificatie.](media/abc_classification.png "abc_classification")
 
 De volgende tabel bevat de aanbevolen procedures voor het selecteren van de vier beleidsterreinen.  
 

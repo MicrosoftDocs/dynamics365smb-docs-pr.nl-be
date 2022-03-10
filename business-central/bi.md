@@ -1,23 +1,21 @@
 ---
-title: Bedrijfsinformatie| Microsoft Docs
-description: Bedrijfsgegevens vastleggen en analyseren, zoals verkoopcijfers, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, die waardevolle informatie kunnen zijn voor bedrijfsinformatie of besluitvorming.
-services: project-madeira
-documentationcenter: ''
+title: Bedrijfsinformatie
+description: Business Central bevat een aantal functies die u helpen bij het verzamelen, analyseren en delen van waardevolle bedrijfsgegevens voor business intelligence en besluitvorming.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2020
+ms.search.form: 103, 198, 490
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 245e77cb34f3b7b1a8f02c17f17ebd26269d3691
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389161"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335461"
 ---
 # <a name="business-intelligence"></a>Bedrijfsinformatie
 Bedrijven leggen een enorme hoeveelheid gegevens vast tijdens hun dagelijkse activiteiten. Deze gegevens, zoals de verkoopcijfers van de organisatie, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, kunnen waardevolle bedrijfsinformatie vormen voor besluitnemers. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een aantal functies voor het verzamelen, analyseren en delen van uw bedrijfsgegevens.

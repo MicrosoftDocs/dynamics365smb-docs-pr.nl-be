@@ -1,29 +1,33 @@
 ---
-title: Factuurbetalingen instellen | Microsoft Docs
-description: Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U vereist mogelijk een borgsom voordat u artikelen produceert in opdracht, of u vereist mogelijk betaling voordat u artikelen naar een klant verscheept. Met de vooruitbetalingsfunctionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur.
-author: SorenGP
-ms.service: dynamics365-business-central
+title: Vooruitbetalingen factureren
+description: Leer hoe u vooruitbetalingen in Business Central gebruikt om borgsommen te factureren en te innen van klanten en borgsommen over te maken aan leveranciers.
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 511b506d75ad735d5b3b713cd24c802c7cb6d274
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74f277ab22675cd490b136845a48062527469c05
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770353"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147712"
 ---
 # <a name="invoicing-prepayments"></a>Vooruitbetalingen factureren
 
-Vooruitbetalingen zijn betalingen die worden gefactureerd en geboekt naar een verkoop- of inkoopvooruitbetalingsorder vóór de definitieve facturering. U vereist mogelijk een borgsom voordat u artikelen produceert in opdracht, of u vereist mogelijk betaling voordat u artikelen naar een klant verscheept. Met de vooruitbetalingsfunctionaliteit kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers. Zodoende zorgt u dat alle betalingen worden geboekt tegen een factuur.  
+[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
- Vooruitbetalingsvereisten kunnen worden gedefinieerd voor een klant of leverancier, voor alle artikelen of bepaalde artikelen. Nadat u de benodigde instellingen hebt gemaakt, kunt u vooruitbetalingsfacturen genereren van verkoop- en inkooporders voor het berekende vooruitbetalingsbedrag. U kunt indien nodig de bedragen op de facturen wijzigen. U kunt bijvoorbeeld een totaalbedrag specificeren voor de volledige order. U kunt tevens aanvullende vooruitbetalingsfacturen versturen, als er bijvoorbeeld extra artikelen worden toegevoegd aan de order. U kunt hoeveelheden verhogen of nieuwe regels toevoegen aan een order na het verzenden van een vooruitbetaling, u kunt dan vervolgens nog een vooruitbetalingsfactuur boeken. Als u een regel waarvoor al een vooruitbetaling is gefactureerd wilt verwijderen, moet u een creditnota voor de vooruitbetaling verzenden voor u de regel kunt verwijderen.  
+[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
- In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
+U kunt bijvoorbeeld een totaalbedrag voor de hele order opgeven of u kunt de vooruitbetaling over elke regel op de order verdelen. U kunt tevens aanvullende vooruitbetalingsfacturen versturen, als er bijvoorbeeld extra artikelen worden toegevoegd aan de order. U kunt hoeveelheden verhogen of nieuwe regels toevoegen aan een order na het verzenden van een vooruitbetaling, u kunt dan vervolgens nog een vooruitbetalingsfactuur boeken.  
+
+> [!NOTE]
+> Als u een regel waarvoor al een vooruitbetaling is gefactureerd wilt verwijderen, moet u een creditnota voor de vooruitbetaling verzenden voor u de regel kunt verwijderen.
+
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  

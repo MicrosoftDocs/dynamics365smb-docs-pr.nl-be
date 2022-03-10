@@ -1,21 +1,21 @@
 ---
-title: Overzicht van de taken voor het sluiten van de boeken | Microsoft Docs
+title: Overzicht van de taken voor het sluiten van de boeken
 description: Meer informatie over het sluiten van de boeken voor een boekjaar of -periode, en wat er gebeurt nadat u het jaareinde hebt afgesloten.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2020
+m.search.form: 100
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 84947d0c88834fe674942e5edb5cf8ac73a9741c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 242868f88883c6e62a9b43ca949289deb0cdf2fe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755654"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142762"
 ---
 # <a name="closing-the-books"></a>De boeken sluiten
 Nadat gezorgd hebt dat alle rekeningen actueel zijn, en u kosten en inkomsten hebt verdeeld, kunt u de boeken van een boekhoudperiode of boekjaar sluiten.
@@ -55,3 +55,6 @@ U kunt in een eerder boekjaar boeken, zelfs nadat de resultatenrekeningen zijn g
 
 [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

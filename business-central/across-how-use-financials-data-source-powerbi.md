@@ -2,20 +2,19 @@
 title: Rapporten maken in Power BI Desktop om Business Central-gegevens weer te geven | Microsoft Docs
 description: Maak uw gegevens als gegevensbron in Power BI beschikbaar en maak krachtige rapporten met de status van uw bedrijf.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ce1ce3039758d5991eb3a770713d2f1e273bbe0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754529"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141579"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven
 
@@ -27,30 +26,30 @@ In dit artikel wordt beschreven hoe u aan de slag kunt met Power BI Desktop om r
 
 - Meld u aan voor de Power BI-service.
 
-    Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt uw zakelijke e-mailadres en wachtwoord.
+  Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt uw zakelijke e-mailadres en wachtwoord.
 
 - Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-   Power BI Desktop is een gratis toepassing die u op uw lokale computer installeert. Zie voor meer informatie [Snelle start: verbinden met gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+  Power BI Desktop is een gratis toepassing die u op uw lokale computer installeert. Zie voor meer informatie [Snelle start: verbinden met gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Zorg ervoor dat de gegevens die u in het rapport wilt opnemen, als webservice worden gepubliceerd.
-    
-    Er worden standaard veel webservices gepubliceerd. Een eenvoudige manier om de webservices te vinden, is te zoeken naar *webservices* in [!INCLUDE[prod_short](includes/prod_short.md)]. Zorg ervoor dat op de pagina **Webservices** het veld **Publiceren** is geselecteerd. Deze taak is gewoonlijk een beheertaak.
-    
-    Zie [Een webservice publiceren](across-how-publish-web-service.md) voor meer informatie over het publiceren van webservices.
+- Zorg dat de gegevens die u in het rapport wilt, beschikbaar zijn als een API-pagina of zijn gepubliceerd als een webservice.
+
+  Voor meer informatie zie [Gegevens beschikbaar stellen via API-pagina's of OData-webservices](admin-powerbi-setup.md#exposedata).
 
 - Zorg dat u voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises over de volgende informatie beschikt:
 
-    - De OData-URL voor [!INCLUDE[prod_short](includes/prod_short.md)]. Deze URL heeft doorgaans de indeling `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, bijvoorbeeld `https://localhost:7048/BC160/ODataV4`. Als u een implementatie met meerdere tenants hebt, neemt u de tenant op in de URL, bijvoorbeeld `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
-    - Een gebruikersnaam en een webservicetoegangssleutel van een [!INCLUDE[prod_short](includes/prod_short.md)]-account.
+  - De OData-URL voor [!INCLUDE[prod_short](includes/prod_short.md)].
+  
+    Deze URL heeft doorgaans de indeling `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, bijvoorbeeld `https://localhost:7048/BC160/ODataV4`. Als u een implementatie met meerdere tenants hebt, neemt u de tenant op in de URL, bijvoorbeeld `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+  - Een gebruikersnaam en een webservicetoegangssleutel van een [!INCLUDE[prod_short](includes/prod_short.md)]-account.
 
-      Power BI maakt gebruik van basisverificatie om gegevens op te halen uit [!INCLUDE[prod_short](includes/prod_short.md)]. U hebt dus een gebruikersnaam en een webservicetoegangssleutel nodig om verbinding te maken. Het account kan uw eigen gebruikersaccount zijn. Het kan ook zijn dat uw organisatie een specifiek account heeft voor dit doel.
+    Power BI maakt gebruik van basisverificatie om gegevens op te halen uit [!INCLUDE[prod_short](includes/prod_short.md)]. U hebt dus een gebruikersnaam en een webservicetoegangssleutel nodig om verbinding te maken. Het account kan uw eigen gebruikersaccount zijn. Het kan ook zijn dat uw organisatie een specifiek account heeft voor dit doel.
 
 - Download het [!INCLUDE [prod_short](includes/prod_short.md)]-rapportthema (optioneel).
 
-    Zie [Het [!INCLUDE [prod_short](includes/prod_short.md)]-rapportthema gebruiken](#theme) in dit artikel voor meer informatie.
+  Zie [Het [!INCLUDE [prod_short](includes/prod_short.md)]-rapportthema gebruiken](#theme) in dit artikel voor meer informatie.
 
-## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a>[!INCLUDE[prod_short](includes/prod_short.md)] als gegevensbron toevoegen in Power BI Desktop
+## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)] als gegevensbron toevoegen in Power BI Desktop
 
 De eerste taak bij het maken van rapporten is het toevoegen van [!INCLUDE[prod_short](includes/prod_short.md)] als een gegevensbron in Power BI Desktop. Als de verbinding tot stand is gebracht, kunt u beginnen met het maken van het rapport.
 
@@ -58,31 +57,55 @@ De eerste taak bij het maken van rapporten is het toevoegen van [!INCLUDE[prod_s
 2. Selecteer **Gegevens ophalen**.
 
     Als u de optie **Gegevens ophalen** niet ziet, selecteert u het menu **Bestand** en vervolgens de optie **Gegevens ophalen**.
-2. Selecteer op de pagina **Gegevens ophalen** de optie **Onlineservices**.
-3. Voer in het deelvenster **Onlineservices** een van de volgende stappen uit:
+3. Selecteer op de pagina **Gegevens ophalen** de optie **Onlineservices**.
+4. Voer in het deelvenster **Onlineservices** een van de volgende stappen uit:
 
-    1. Als u online verbinding wilt maken met [!INCLUDE [prod_short](includes/prod_short.md)], kiest u **Dynamics 365 Business Central** en vervolgens **Verbinden**.
-    2. Als u on-premises verbinding wilt maken met [!INCLUDE [prod_short](includes/prod_short.md)], kiest u **Dynamics 365 Business Central (on-premises)** en vervolgens **Verbinden**.
+    - Om verbinding te maken met [!INCLUDE [prod_short](includes/prod_short.md)] online selecteert u **Dynamics 365 Business Central** en dan **Verbinden**.
+    - Om verbinding te maken met [!INCLUDE [prod_short](includes/prod_short.md)] on-premises selecteert u **Dynamics 365 Business Central (on-premises)** en dan **Verbinden**.
 
-4. Power BI geeft een wizard weer die u door het verbindingsproces begeleidt, inclusief aanmelden bij [!INCLUDE [prod_short](includes/prod_short.md)].
+5. Meld u aan bij [!INCLUDE [prod_short](includes/prod_short.md)] (eenmalig).
 
-    Maakt u online verbinding, kies dan **Aanmelden** en kies vervolgens het relevante account. Gebruik hetzelfde account dat u gebruikt om u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)].
-    
-    Maakt u on-premises verbinding, voer dan de OData-URL in voor [!INCLUDE[prod_short](includes/prod_short.md)] en desgewenst de bedrijfsnaam. Voer vervolgens, wanneer daarom wordt gevraagd, de gebruikersnaam en het wachtwoord in van het account dat u wilt gebruiken voor het maken van een verbinding met [!INCLUDE[prod_short](includes/prod_short.md)]. Voer in het vak **Wachtwoord** de toegangssleutel voor de webservice in.
+    Als u zich niet eerder hebt aangemeld bij [!INCLUDE [prod_short](includes/prod_short.md)] vanuit Power BI desktop, wordt u gevraagd zich aan te melden.
+
+    - Voor [!INCLUDE [prod_short](includes/prod_short.md)] online selecteert u **Aanmelden** en kiest u het relevante account. Gebruik hetzelfde account dat u gebruikt om u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)]. Wanneer u klaar bent, selecteert u **Verbinden**.
+
+    - Voor [!INCLUDE [prod_short](includes/prod_short.md)] on-premises voert u eerst de OData-URL in voor [!INCLUDE[prod_short](includes/prod_short.md)] en selecteert u vervolgens **OK**. Voer wanneer daarom wordt gevraagd de gebruikersnaam en het wachtwoord in van het account dat u wilt gebruiken voor het maken van verbinding met [!INCLUDE[prod_short](includes/prod_short.md)]. Voer in het vak **Wachtwoord** de toegangssleutel voor de webservice in. Wanneer u klaar bent, selecteert u **Verbinden**.
 
     > [!NOTE]  
-    > Zodra u met succes verbinding hebt gemaakt met [!INCLUDE[prod_short](includes/prod_short.md)], wordt u niet opnieuw gevraagd zich aan te melden.
-    
-5. Kies **Verbinden** om door te gaan.
+    > Zodra u met succes verbinding hebt gemaakt met [!INCLUDE[prod_short](includes/prod_short.md)], wordt u niet opnieuw gevraagd zich aan te melden. [Hoe wijzig of wis ik het account dat ik momenteel gebruik om verbinding te maken met Business Central vanuit Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-    De wizard Power BI bevat een lijst met Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]-omgevingen, -bedrijven en -gegevensbronnen. Deze gegevensbronnen vertegenwoordigen alle webservices die u hebt gepubliceerd vanuit [!INCLUDE [prod_short](includes/prod_short.md)].
-6. Geef de gegevens op die u aan uw gegevensmodel wilt toevoegen en kies vervolgens de knop **Laden**.
-7. Herhaal de vorige stappen om aanvullende [!INCLUDE [prod_short](includes/prod_short.md)]- of andere gegevens aan uw Power BI-gegevensmodel toe te voegen.
+6. Eenmaal verbonden neemt Power BI contract op met de Business Central-service. Het **navigatie** venster verschijnt en toont beschikbare gegevensbronnen voor het maken van rapporten. Selecteer een map om deze uit te vouwen en de beschikbare gegevensbronnen te bekijken. 
+
+   Deze gegevensbronnen vertegenwoordigen alle webservices en API-pagina's die zijn gepubliceerd vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. De gegevensbronnen zijn gegroepeerd op de Business Central-omgevingen en -bedrijven. Met Business Central online heeft **Navigator** de volgende opbouw:
+
+    - **Omgevingsnaam**
+      - **Bedrijfsnaam**
+        - **Geavanceerde API's**
+
+          Deze map bevat geavanceerde API-pagina's die door Microsoft zijn gepubliceerd, zoals de [API's voor Business Central-automatisering](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) en [aangepaste API-pagina's voor Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Aangepaste API-pagina's zijn verder gegroepeerd in mappen op de eigenschappen [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) van de broncode van de API-pagina.
+
+        - **Standaard API's v2.0**
+
+          Deze map bevat de API-pagina's die worden weergegeven door de [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+
+        - **Webservices \(legacy)**
+
+          Deze map bevat pagina's, codeunits en query's die zijn gepubliceerd als webservices in Business Central.
+
+    > [!NOTE]
+    > De structuur voor Business Central on-premises is anders omdat het geen API-pagina's ondersteunt.
+
+7. Selecteer de gegevensbron of -bronnen die u aan uw gegevensmodel wilt toevoegen en selecteer vervolgens de knop **Laden**.
+8. Als u later meer Business Central-gegevens wilt toevoegen, kunt u de vorige stappen herhalen.
 
 Zodra de gegevens zijn geladen, ziet u deze in de rechternavigatie op de pagina. U hebt nu met succes verbinding gemaakt met uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens en u kunt uw Power BI-rapport gaan maken.  
 
 > [!TIP]
 > Zie [Aan de slag met Power BI Desktop](/power-bi/fundamentals/desktop-getting-started) voor meer informatie over het gebruik van Power BI Desktop.
+
+## <a name="creating-accessible-reports"></a>Toegankelijke rapporten maken
+
+Het is belangrijk om uw rapporten bruikbaar te maken voor zoveel mogelijk mensen. Probeer rapporten zo te ontwerpen dat ze geen speciale aanpassingen nodig hebben om aan specifieke behoeften van verschillende gebruikers te voldoen. Zorg ervoor dat gebruikers dankzij het ontwerp kunnen profiteren van standaard ondersteunende technologieën, zoals schermlezers. Power BI bevat verschillende toegankelijkheidsfuncties, tools en richtlijnen om dit doel te bereiken. Zie voor meer informatie [Power BI-rapporten voor toegankelijkheid](/power-bi/create-reports/desktop-accessibility-creating-reports) in de Power BI-documentatie.
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Rapporten maken om gegevens weer te geven die aan een lijst zijn gekoppeld
 
@@ -99,7 +122,7 @@ U wordt aangeraden om voordat u uw rapport maakt het [!INCLUDE [prod_short](incl
 
 Het themabestand is beschikbaar als JSON-bestand in de themagalerij van de Microsoft Power BI-community. Voer de volgende stappen uit om het themabestand te downloaden:
 
-1. Ga naar de [themagalerie van de Microsoft Power BI-community voor Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
+1. Ga naar de themagalerij van de [Microsoft Power BI-community voor Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Selecteer de downloadbijlage **Microsoft Dynamics Business Central.json**.
 
 ### <a name="import-the-theme-on-a-report"></a>Het thema in een rapport importeren
@@ -127,14 +150,50 @@ Er zijn een aantal manieren om rapporten beschikbaar te maken voor uw collega's 
 
     Als u een Power BI Pro-licentie hebt, kunt u het rapport rechtstreeks vanuit uw Power BI-service delen met anderen. Zie [Power BI - een dashboard of rapport delen](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report) voor meer informatie.
 
+## <a name="fixing-problems"></a>Problemen oplossen
+
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Kan geen record invoegen. De huidige verbindingsintentie is alleen-lezen." fout bij het verbinden met aangepaste API-pagina
+
+> **VAN TOEPASSING OP:** Business Central online
+
+Vanaf februari 2022 maken nieuwe rapporten die gebruikmaken van Business Central-gegevens, standaard verbinding met een alleen-lezen replica van de Business Central-database. In zeldzame gevallen, afhankelijk van het pagina-ontwerp, krijgt u een foutmelding wanneer u verbinding probeert te maken en gegevens van de pagina probeert op te halen.
+
+1. Start Power BI Desktop.
+2. Selecteer op het lint **Gegevens ophalen** > **Onlineservices**.
+3. Selecteer in het deelvenster **Onlineservices** **Dynamics 365 Business Central** en dan **Verbinden**.
+4. Selecteer in het venster **Navigator** het API-eindpunt waaruit u gegevens wilt laden.
+5. In het voorbeeldvenster aan de rechterkant ziet u de volgende fout:
+
+   *Dynamics365BusinessCentral: Aanvraag mislukt: de externe server heeft een fout geretourneerd: (400) Ongeldige aanvraag. (Kan geen record invoegen. Huidige verbindingsintentie is Alleen-lezen. CorrelationId: [...])".*
+
+6. Selecteer **Gegevens transformeren** in plaats van **Laden** zoals u normaal zou doen.
+7. Selecteer in de **Power Query-editor** **Geavanceerde editor** vanaf het lint.
+8. Vervang op de regel die begint met **Source =**, de volgende tekst:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+   door:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
+   ```
+
+9. Selecteer **Gereed**.
+10. Selecteer **Sluiten en toepassen** op het lint om de wijzigingen op te slaan en de Power Query-editor te sluiten.
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 
 [Uw bedrijfsgegevens inschakelen voor Power BI](admin-powerbi.md)  
 [Bedrijfsinformatie](bi.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Financiën](finance.md)  
 [Snelle start: Uw gegevens verbinden in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

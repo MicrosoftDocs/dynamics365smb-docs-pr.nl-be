@@ -1,21 +1,21 @@
 ---
 title: Printers instellen
-description: Lees meer over het instellen van printers die u kunt gebruiken voor rapporten en documenten.
+description: Lees meer over het instellen van printers die u kunt gebruiken voor rapporten en documenten en over de verschillende afdrukfuncties die voor u beschikbaar zijn in Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.search.form: 8900, 9018, 9022
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 67e6c0fe9a9653d243b7fd221ed004a1f1495ddf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 317e90976aed760f55fc7122483377e8df11c906
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783146"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335174"
 ---
 # <a name="set-up-printers"></a>Printers instellen
 
@@ -25,8 +25,8 @@ Om uw printbehoeften te ondersteunen, biedt [!INCLUDE[prod_short](includes/prod_
 
 |Functie|Omschrijving|Webclient| Mobiele app|App voor Teams|
 |-------|-----------|----------|-----------|--------------|
-|Universeel afdrukken|Universeel afdrukken is een oplossing voor printerbeheer die beschikbaar is als cloudservice van Microsoft. Met deze functie kunt u uw printers instellen in Universeel afdrukken en ze vervolgens registreren voor gebruik in [!INCLUDE[prod_short](includes/prod_short.md)]. Deze functie vereist een Universeel afdrukken-abonnement en de extensie **Integratie met universeel afdrukken**|![werkt online](media/check.png)|![werkt online](media/check.png)|![werkt online](media/check.png)|
-|E-mail afdrukken|Met deze functie kunt u printers met e-mail instellen. [!INCLUDE[prod_short](includes/prod_short.md)] stuurt vervolgens afdruktaken naar een printer met behulp van het e-mailadres van de printer. Voor deze functie zijn printers met e-mailfunctie vereist en de extensie **Verzenden naar e-mailprinter**.|![werkt online](media/check.png)|![werkt online](media/check.png)|![werkt online](media/check.png)|
+|Universeel afdrukken|Universeel afdrukken is een oplossing voor printerbeheer die beschikbaar is als cloudservice van Microsoft. Met deze functie kunt u uw printers instellen in Universeel afdrukken en ze vervolgens registreren voor gebruik in [!INCLUDE[prod_short](includes/prod_short.md)]. Deze functie vereist een Universeel afdrukken-abonnement en de extensie **Integratie met universeel afdrukken**|![werkt online.](media/check.png)|![werkt online.](media/check.png)|![werkt online](media/check.png)|
+|E-mail afdrukken|Met deze functie kunt u printers met e-mail instellen. [!INCLUDE[prod_short](includes/prod_short.md)] stuurt vervolgens afdruktaken naar een printer met behulp van het e-mailadres van de printer. Voor deze functie zijn printers met e-mailfunctie vereist en de extensie **Verzenden naar e-mailprinter**.|![werkt online.](media/check.png)|![werkt online](media/check.png)|![werkt online](media/check.png)|
 |Afdrukken met browser|Afdruktaken worden afgehandeld door de afdrukfunctionaliteit van de browser van de gebruiker. Als geen cloudprinter is geïnstalleerd en ingesteld of als een geïnstalleerde printer niet werkt, wordt het afdrukken standaard ingesteld op de afdrukopties voor de browser. Het veld **Printer** op de rapportverzoekpagina bevat *(Door de browser afgehandeld)*.|![werkt online](media/check.png)|||
 
 > [!NOTE]
@@ -36,11 +36,13 @@ Om uw printbehoeften te ondersteunen, biedt [!INCLUDE[prod_short](includes/prod_
 
 Universeel afdrukken is een service op basis van een Microsoft 365-abonnement die volledig draait op Microsoft Azure. Het biedt u gecentraliseerd printerbeheer via de Universeel afdrukken-portal. [!INCLUDE[prod_short](includes/prod_short.md)] maakt printers die zijn ingesteld in Universeel afdrukken, beschikbaar voor clientgebruikers via de extensie **Integratie met Universeel afdrukken**.
 
-De volledige installatie vereist dat u werkt in Microsoft Azure, met behulp van de [Azure-portal](https://posrtal.azure.com), en in [!INCLUDE[prod_short](includes/prod_short.md)].
+![Universele afdrukinstellingen.](media/Universal-Print-arch.png)
+
+De volledige installatie vereist dat u werkt in Microsoft Azure, met behulp van de [Azure-portal](https://portal.azure.com), en in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Ondersteunde printers
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt dezelfde printers als Universeel afdrukken. Dat kunnen zowel Universeel afdrukken-compatibele als niet-compatibele printers zijn. Niet-compatibele printers kunnen niet rechtstreeks met Universeel afdrukken communiceren, dus hebben ze extra connectorsoftware nodig, die wordt geleverd door Universeel afdrukken. Sommige oudere printers worden mogelijk niet ondersteund.
+[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt dezelfde printers als Universeel afdrukken. Dat kunnen zowel Universeel afdrukken-compatibele als niet-compatibele printers zijn. Niet-compatibele printers kunnen niet rechtstreeks met Universeel afdrukken communiceren, dus hebben ze extra connectorsoftware nodig, die wordt geleverd door Universeel afdrukken. Sommige oudere printers worden mogelijk niet ondersteund. 
 
 <!-- TODO If not installed, go to AppSource -->
 
@@ -76,7 +78,7 @@ De volledige installatie vereist dat u werkt in Microsoft Azure, met behulp van 
 
 Voordat u Universeel afdrukken-printers in Business Central kunt gaan beheren, zijn er verschillende taken die u moet doorlopen om Universeel afdrukken in Azure te laten werken met de printers die u wilt gebruiken.
 
-Zie voor gedetailleerde instructies voor het instellen [Aan de slag: Universeel afdrukken instellen](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) in de documentatie van Universeel afdrukken. Hier is een overzicht van de stappen die u moet doorlopen. De meeste van deze stappen worden uitgevoerd in de Azure-portal.
+Zie voor gedetailleerde instructies voor het instellen [Aan de slag: Universeel afdrukken instellen](/universal-print/fundamentals/universal-print-getting-started) in de documentatie van Universeel afdrukken. Hier is een overzicht van de stappen die u moet doorlopen. De meeste van deze stappen worden uitgevoerd in de Azure-portal.
 
 1. Wijs Universeel afdrukken-licenties toe aan uzelf en andere gebruikers.
 
@@ -102,32 +104,34 @@ Zie voor gedetailleerde instructies voor het instellen [Aan de slag: Universeel 
 
     - Registreer voor andere printers de printers met behulp van de Universeel afdrukken-connector. 
 
-      Zie voor meer informatie [Printerregistratie](/universal-print-connector-printer-registration).
+      Zie voor meer informatie [Printerregistratie](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Printereigenschappen wijzigen (optioneel)
 
     Nadat een printer is geregistreerd, kunt u printereigenschappen bekijken en wijzigen, zoals standaardvoorkeuren.
 
-    Zie voor meer informatie [Instellingen van printermetagegevens beheren](/universal-print/fundamentals/universal-print-printer-property-settings).
+    Voor meer informatie, zie [Printerinstellingen beheren met de Universeel afdrukken-portal](/universal-print/portal/configure-printer-settings).
 
-5. Gebruikers machtiging voor de printers geven.
-
-    Zie voor meer informatie [Printermachtigingen](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Deel de printers.
+5. Deel de printers.
 
     Elke printer die u wilt gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)] moet worden gedeeld in Universeel afdrukken.
 
-    Zie voor meer informatie [Een printer delen](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    Zie voor meer informatie [Een printer delen](/universal-print/portal/share-printers).
+
+6. Gebruikers machtiging voor de gedeelde printers geven.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    Zie voor meer informatie [Printermachtigingen](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Documentconversie inschakelen.
 
     Universeel afdrukken maakt inhoud gereed voor afdrukken in XPS-indeling. Sommige oudere printers op de markt ondersteunen geen weergave van XPS-content&mdash;in veel gevallen alleen pdf-indeling. Afdrukken naar deze printers zal mislukken, tenzij Universeel afdrukken is ingesteld om documenten naar het door de printer ondersteunde formaat te converteren.
 
-    Zie voor meer informatie [Overzicht van documentconversie](/universal-print/fundamentals/universal-print-document-conversion).
-
-    > [!TIP]
-    > Als geen van uw printers het weergaveformaat voor PDF-inhoud nodig heeft, raden we u aan om documentconversie niet in te schakelen, omdat dit de afdrukkwaliteit kan beïnvloeden.
+    Zie voor meer informatie [Overzicht van documentconversie](/universal-print/portal/document-conversion).
 
 Nu bent u klaar om de printers toe te voegen aan [!INCLUDE[prod_short](includes/prod_short.md)], standaardprinters voor rapporten in te stellen en af te drukken.  
 
@@ -139,7 +143,7 @@ Door printers afzonderlijk toe te voegen kunt u dezelfde Universeel afdrukken-pr
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Printerbeheer** in en selecteer de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Printerbeheer** in en selecteer vervolgens de gerelateerde koppeling.
 2. Selecteer **Universeel afdrukken** en kies vervolgens een van de volgende opties:
 
     - **Alle printers voor Universeel afdrukken toevoegen** om alle printers toe te voegen die nog niet zijn toegevoegd. U kunt deze optie ook gebruiken als er al printers zijn toegevoegd. 
@@ -199,7 +203,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 Op de pagina **Printerbeheer** ziet u de printers die momenteel zijn ingesteld. De pagina geeft u ook toegang tot de pagina **Instellingen** voor elke printer om een bestaande instelling te bewerken of een nieuwe printer in te stellen.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Printerbeheer** in en selecteer de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Printerbeheer** in en selecteer vervolgens de gerelateerde koppeling.
 2. Selecteer **E-mail afdrukken** en kies vervolgens **Een e-mailprinter toevoegen**.
 3. Vul de vereiste velden in op de pagina **Instellingen van e-mailprinter**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -223,7 +227,7 @@ Er is een aantal manieren om printers in te stellen die standaard worden gebruik
 
 Op de pagina **Printerbeheer** kunt u een printer instellen als standaardprinter voor alle afdruktaken. U kunt de printer als standaard instellen, alleen voor u of voor alle gebruikers.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Printerbeheer** in en selecteer de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Printerbeheer** in en selecteer vervolgens de gerelateerde koppeling.
 
     > [!TIP]
     > U kunt de pagina **Printerbeheer** ook openen vanuit de pagina **Printerselecties** door **Printerbeheer** te kiezen.  
@@ -239,7 +243,7 @@ Op de pagina **Printerselecties** kunt u de printer opgeven die een rapport stan
 > [!IMPORTANT]
 > Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan de pagina **Printerselecties** alleen worden gebruikt voor cloudprinters die zijn gedefinieerd door printerextensies, zoals E-mailprinters en Universeel afdrukken-printers. Het kan niet worden gebruikt voor lokale printers.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Printerselecties** in en selecteer de desbetreffende koppeling. Als alternatief selecteert u vanaf de pagina **Printerbeheer** een printer en kiest u vervolgens de actie **Printerselecties**.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Printerselecties** in en selecteer vervolgens de gerelateerde koppeling. Als alternatief selecteert u vanaf de pagina **Printerbeheer** een printer en kiest u vervolgens de actie **Printerselecties**.
 2. Kies de actie **Nieuw** om een printerselectie toe te voegen voor een specifiek rapport.
 3. Vul de vereiste velden in.
 
@@ -263,6 +267,9 @@ U of de beheerder kan ook de pagina **Printerselecties** gebruiken om andere afd
 
 > [!NOTE]
 > Specifiekere printerselecties hebben voorrang op algemenere printerselecties. Bijvoorbeeld een printerselectie met waarden in de velden **Gebruikers-ID**, **Rapport-id** en **Printernaam** heeft voorrang op een printerselectie met lege vermeldingen in de velden **Gebruikers-ID** of **Rapport-id**.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>De printer kiezen bij het uitvoeren van een rapport
+In plaats van de standaardprinter te gebruiken bij het uitvoeren van een rapport, kunt u deze instelling overschrijven vanaf de aanvraagpagina. Kies eenvoudig welke printer u wilt gebruiken voor deze aanroep van het rapport in het vervolgkeuzemenu **Printer**.
 
 ### <a name="sizing-print-jobs"></a>Formaat van afdruktaken
 

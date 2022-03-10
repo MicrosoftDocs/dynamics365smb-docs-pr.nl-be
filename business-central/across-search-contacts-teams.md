@@ -2,7 +2,6 @@
 title: Contacten zoeken vanuit Microsoft Teams
 description: Lees hoe u Business Central-klanten, -leveranciers en andere -contactpersonen opzoekt vanuit Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 77108cab69a05165616ad5e1a44f1a3ddc9d4cd9
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 5d6da7bb6f515fa7b65597c944694eba8dd7755c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882515"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138764"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams
 
@@ -25,7 +24,7 @@ ms.locfileid: "5882515"
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-contacten opzoeken vanuit het Teams-opdrachtvak of vanuit het gebied voor het opstellen van berichten. Contacten kunnen prospects, leveranciers, klanten of andere zakelijke relaties zijn.
 - Deel een contact als een kaart in een Teams-gesprek.
-- Bekijk details over contactgegevens, interactiegeschiedenis en andere inzichten, zoals openstaande betalingen of geopende documenten.
+- Bekijk details over contactpersonen, interactiegeschiedenis en andere inzichten, zoals openstaande betalingen of geopende documenten.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -42,13 +41,13 @@ Het opdrachtvak staat bovenaan elk scherm in Teams. Hiermee kunt u zoeken, snell
 
 1. Typ in het opdrachtvak **@Business Central** en selecteer vervolgens de Business Central-app uit de resultaten.
 
-    ![De Business Central-app openen om vanuit het opdrachtvak naar contacten te zoeken](media/teams-contacts-command-1.png)
+    ![De Business Central-app openen om vanuit het opdrachtvak naar contacten te zoeken.](media/teams-contacts-command-1.png)
 
 2. Begin in het **Business Central**-vak met het typen van zoektekst, zoals een naam, adres of telefoonnummer.
 
     Terwijl u typt, worden overeenkomende resultaten weergegeven.
 
-    ![Business Central-contacten zoeken vanuit het opdrachtvak in Teams](media/teams-contacts-command-2.png)
+    ![Business Central-contacten zoeken vanuit het opdrachtvak in Teams.](media/teams-contacts-command-2.png)
 3. Selecteer een contact uit de resultaten.
 
     De contactkaart verschijnt onder het opdrachtvak.
@@ -65,13 +64,13 @@ Het voordeel van het opstellen van berichten is dat u een contactkaart rechtstre
 
     Als u het **Business Central**-pictogram niet ziet, selecteert u **... (Berichtextensies)**.
 
-    ![De Business Central-app openen om vanuit het berichtvak naar contacten te zoeken](media/teams-contacts-message-box.png)
+    ![De Business Central-app openen om vanuit het berichtvak naar contacten te zoeken.](media/teams-contacts-message-box.png)
 
 2. Begin in het **Business Central**-vak met het typen van zoektekst, zoals een naam, adres of telefoonnummer.
 
     Terwijl u typt, worden overeenkomende resultaten weergegeven.
 
-    ![Business Central-contacten zoeken vanuit het berichtvak](media/teams-contacts-5.png)
+    ![Business Central-contacten zoeken vanuit het berichtvak.](media/teams-contacts-5.png)
 3. Selecteer een contact uit de resultaten.
 
     De contactkaart wordt weergegeven in het berichtvak.
@@ -101,6 +100,8 @@ De contactkaart werkt net als kaarten voor records, zoals artikelen, klanten of 
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  
 [Veelgestelde vragen over Teams](teams-faq.md)  
+[Bedrijfs- en andere instellingen in Teams wijzigen](across-teams-settings.md)  
+[Records delen in Microsoft Teams](across-working-with-teams.md)  
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

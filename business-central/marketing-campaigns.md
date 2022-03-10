@@ -2,20 +2,19 @@
 title: Marketingcampagnes instellen in Business Central | Microsoft Docs
 description: Hier wordt beschreven hoe u marketingcampagnes in Business Central instelt en uitvoert om prospects te vinden en aan te trekken en klanten vast te houden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd309537e7f2e5c57f722345f2c33dc7bc6dfebb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f5a81bf1377c7ba477961205ccb67fc9982ac3ae
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922806"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140929"
 ---
 # <a name="managing-marketing-campaigns"></a>Marketingcampagnes beheren
 Als u over een krachtig marketingplan beschikt, kunt u klanten vaststellen, aantrekken en vasthouden. Een marketingplan bestaat uit diverse campagnes en andere interacties in verband met uw verkoop- en marketingactiviteiten. Terwijl u een campagne plant, moet u bepalen op welke contacten u zich wilt richten, aan welk type campagne u de voorkeur geeft (zoals een beurs of direct mail) en welke verkopers elke taak uitvoeren.
@@ -51,3 +50,6 @@ Campagnes worden gehouden door verkopers en u moet activiteiten maken voor elke 
 [Segmenten beheren](marketing-segments.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Werken met Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

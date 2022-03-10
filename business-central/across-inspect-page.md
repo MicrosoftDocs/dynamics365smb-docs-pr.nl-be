@@ -5,20 +5,22 @@ ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
-ms.service: dynamics365-business-central
+ms.topic: conceptual
 author: jswymer
-ms.date: 10/01/2019
-ms.openlocfilehash: de9f34fc8aefc2d6803f658bf738b06af27f0ebe
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.author: jswymer
+ms.date: 04/01/2021
+ms.openlocfilehash: d30b93942292e2f6a5a52831725ec06aed32820c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879391"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136516"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Pagina's inspecteren in Business Central
 
 Met de pagina-inspectiefunctie kunt u details opvragen over een pagina, wat inzicht biedt in het paginaontwerp, de verschillende onderdelen waaruit de pagina bestaat en de bron achter de gegevens op de pagina. Pagina-inspectie is speciaal ontworpen voor beheerders, geavanceerde gebruikers, ondersteuningsmedewerkers en ontwikkelaars. Het is ideaal voor het leren van het gegevensmodel achter een pagina en voor het oplossen van problemen. Als u bijvoorbeeld een probleem met een pagina hebt, kunt u pagina-inspectie gebruiken om informatie te krijgen die u kunt doorgeven aan uw systeembeheerder of ondersteuningsmedewerkers.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Werken met Pagina-inspectie
 
@@ -26,7 +28,7 @@ U begint pagina-inspectie vanaf de pagina **Help en ondersteuning**. Kies het vr
 
 Het deelvenster **Pagina-inspectie** opent aan de zijkant. In de volgende afbeelding ziet u het deelvenster **Pagina-inspectie** op de pagina **Verkooporder**.
 
-![Pagina-inspectie](media/page-inspection-example.png)
+![Pagina-inspectie.](media/page-inspection-example.png)
 
 Wanneer het deelvenster **Pagina-inspectie** wordt geopend, bevat het informatie over het hoofdpaginaobject.
 
@@ -44,4 +46,7 @@ Gebruikers aan wie geen machtigingen zijn verleend voor **Systeemobject 5330** k
 
 ## <a name="see-also"></a>Zie ook
 
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

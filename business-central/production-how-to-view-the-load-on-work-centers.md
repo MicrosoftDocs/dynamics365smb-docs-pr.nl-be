@@ -1,35 +1,39 @@
 ---
-title: Werklast in afdelingen en bewerkingsplaatsen weergeven | Microsoft Docs
-description: Bekijk via de kaart **Afdeling** de werklast voor afdelingen als gevolg van vrijgegeven productieorders.
+title: De werklast in afdelingen en bewerkingsplaatsen weergeven
+description: Bekijk vanaf de afdelingskaart de werklast voor afdelingen als gevolg van vrijgegeven productieorders.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 38e1e3dd1f6e651d7490657f217b52513ba88792
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 456347d55a62864877a969ee7997463f37b1b8e7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913258"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140825"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>De werklast in afdelingen en bewerkingsplaatsen weergeven
-Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de werklast voor de shopfloor als gevolg van geplande en vrijgegeven productieorders bekijken.    
 
-## <a name="to-view-the-load-on-work-centers"></a>De werklast voor afdelingen weergeven  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies de gerelateerde koppeling.  
-2.  Open de betreffende kaart **Afdeling** in de lijst en kies de actie **Werklast**.  
+Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de werklast voor de shopfloor als gevolg van geplande en vrijgegeven productieorders bekijken.  
+
+## <a name="to-view-the-load-on-work-centers"></a>De werklast voor afdelingen weergeven
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.  
+2. Open de betreffende kaart **Afdeling** in de lijst en kies de actie **Werklast**.  
 
 Met de velden **Weergeven per** en **Weergeven als** op het sneltabblad **Opties** kunt u de gewenste periode selecteren.  
 
 ## <a name="see-also"></a>Zie ook  
-[Productie](production-manage-manufacturing.md)    
+[Productie](production-manage-manufacturing.md)
 [Productie instellen](production-configure-production-processes.md)  
-[Gepland](production-planning.md)      
+[Gepland](production-planning.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

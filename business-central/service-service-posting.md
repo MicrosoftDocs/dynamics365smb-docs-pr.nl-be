@@ -1,21 +1,20 @@
 ---
-title: Serviceboekingen | Microsoft Docs
-description: Met de functionaliteit voor serviceboekingen kunt u uw documenten op een efficiënte manier verwerken en zorgen voor een geslaagd klantenservicebeleid. U kunt geboekte documenten maken en bijwerken, en posten maken zowel in het servicegebied als in andere modules om een juiste updateprocedure te waarborgen.
+title: Serviceboekingen
+description: Met de functionaliteit voor serviceboekingen kunt u uw documenten op een efficiënte manier verwerken en zorgen voor een geslaagd klantenservicebeleid.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fb95895588211d35122b94cf3888179c570945e3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 54d1a7aec0edcedbdb69ab1c60c6d1515c9a22c7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388236"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143022"
 ---
 # <a name="service-posting"></a>Serviceboekingen
 Met de functionaliteit voor serviceboekingen kunt u uw documenten op een efficiënte manier verwerken en zorgen voor een geslaagd klantenservicebeleid. U kunt geboekte documenten maken en bijwerken, en posten maken zowel in het servicegebied als in andere modules om een juiste updateprocedure te waarborgen.  
@@ -49,7 +48,7 @@ Wanneer u een servicefactuur, een serviceverzending of een servicecreditnota boe
 
 In de volgende procedure wordt een geboekte servicefactuur als voorbeeld gebruikt, maar dezelfde procedure kan worden toegepast op geboekte serviceverzendingen en geboekte creditnota's.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte servicefactuur** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte servicefactuur** in en kies vervolgens de gerelateerde koppeling  
 2. Open de geboekte servicefactuur die u wilt bekijken.  
 3. Voor een overzicht van de geboekte factuur kiest u de actie **Statistieken**.  
 

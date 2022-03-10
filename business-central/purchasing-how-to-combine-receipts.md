@@ -1,21 +1,21 @@
 ---
-title: Ontvangst combineren | Microsoft Docs
+title: Ontvangsten combineren op één factuur
 description: Als u meer dan één inkoopontvangst tegelijk wilt factureren, kunt u de functie Ontvangsten combineren gebruiken.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 136, 145, 146
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 991c244d9e9233067903cfe21fbabcb732293490
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa038043a1a9451f3f74c0ab72f8c9a2b8033cf0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387711"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137275"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Ontvangsten combineren op één factuur
 
@@ -30,7 +30,7 @@ Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, word
 
 ## <a name="to-combine-receipts"></a>Ontvangsten combineren
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
 3. Op het sneltabblad **Regels** selecteert u de actie **Ontvangstregels ophalen**.  
 4. Selecteer meerdere ontvangstregels die u wilt opnemen in de factuur.  
@@ -40,7 +40,7 @@ Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, word
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Open inkooporders verwijderen na gecombineerde ontvangstboeking
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gefactureerde inkooporders verwijderen** in en selecteer de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gefactureerde inkooporders verwijderen** in en kies vervolgens de gerelateerde koppeling  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Kies de knop **OK**.  
 

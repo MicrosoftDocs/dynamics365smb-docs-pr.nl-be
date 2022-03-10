@@ -2,7 +2,6 @@
 title: De Business Central-invoegtoepassing voor Excel verkrijgen
 description: Meer informatie over hoe u gebruikers de Business Central-invoegtoepassing voor Excel kunt geven.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865504"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141423"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>De Business Central-invoegtoepassing voor Excel verkrijgen
 
@@ -80,7 +79,7 @@ U werkt in [!INCLUDE[prod_short](includes/prod_short.md)] en het Microsoft 365-b
     4. Bekijk de **Verzoeken om machtigingen te accepteren** en kies dan **Volgende** > **Implementatie voltooien**.
     5. Wacht tot het groene vinkje naast **Geïmplementeerd** verschijnt voor de invoegtoepassing en kies vervolgens **Gereed**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       De invoegtoepassing verschijnt op de pagina **Invoegtoepassingen**. Zie voor meer informatie over het implementeren van invoegtoepassingen in het Microsoft 365-beheercentrum [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       De invoegtoepassing verschijnt op de pagina **Invoegtoepassingen**. Zie [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/manage-deployment-of-add-in) voor meer informatie over het implementeren van invoegtoepassingen in het Microsoft 365-beheercentrum.
 4. Ga terug naar de begeleide instelling **Gecentraliseerde implementatie van Excel-invoegtoepassing** in [!INCLUDE[prod_short](includes/prod_short.md)] en kies **Volgende**.
 5. Zet **Gecentraliseerde implementatie gebruiken** aan en kies **Voltooien**.
 

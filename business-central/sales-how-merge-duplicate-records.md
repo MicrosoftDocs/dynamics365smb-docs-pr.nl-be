@@ -2,7 +2,6 @@
 title: Klant- of leveranciersrecords samenvoegen
 description: Beschrijft hoe u informatie over klanten of leveranciers kunt consolideren wanneer u dubbele vermeldingen over sommige van hen heeft.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5972e7489b9aa8c537d8aaa6677c79ffd4a6414
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778759"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130136"
 ---
 # <a name="merge-duplicate-records"></a>Dubbele records samenvoegen
 Aangezien verschillende gebruikers in de loop van de tijd nieuwe klant-, leveranciers- of contactkaarten maken, of de nieuwe records automatisch worden gemaakt tijdens migratie, kan een klant, leverancier of contact in het systeem worden voorgesteld door meer dan één record. In dit geval kunt u de pagina **Dubbele records samenvoegen** gebruiken vanaf de kaart of de record die u wilt behouden. De pagina geeft u een overzicht van dubbele veldwaarden en biedt functies om te selecteren welke waarden worden behouden of verwijderd wanneer twee records tot één worden samengevoegd.
@@ -28,7 +27,7 @@ Aangezien verschillende gebruikers in de loop van de tijd nieuwe klant-, leveran
 
 De volgende procedure is gebaseerd op een klantenkaart. De stappen zijn voor leveranciers- en contactkaarten vergelijkbaar.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de klant voor wie u vermoedt dat er een dubbele record bestaat en kies vervolgens de actie **Bewerken**.
 3. Kies op de pagina **Klantenkaart** de actie **Samenvoegen met**.
 4. Selecteer op de pagina **Dubbele records samenvoegen** in het veld **Samenvoegen met** de klant die u denkt dat een duplicaat is van de klant die u hebt geopend, die wordt aangegeven in het veld **Actueel**.

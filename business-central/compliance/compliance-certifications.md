@@ -1,42 +1,49 @@
 ---
-title: Certificeringen | Microsoft Docs
-description: Deze inhoud bevat informatie over certificeringen in verband met Business Central.
+title: Certificeringen van de service
+description: Deze inhoud bevat informatie over certificeringen met betrekking tot Business Central, zoals regiospecifieke certificeringen en accreditaties.
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: c59e500eeee33dcb6403ace871e70498a638777d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 643d8cbfcc4a17db468263aee72a12cb1237201c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307528"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146864"
 ---
-# <a name="certifications"></a>Certificeringen  
-Deze inhoud bevat informatie over certificeringen in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+# <a name="certifications"></a>Certificeringen
 
-## <a name="country-certifications-and-accreditations"></a>Certificeringen en accrediteringen in landen
-In sommige landen moet boekhoudsoftware worden gecertificeerd om te voldoen aan lokale belastingregelgeving en financiële vereisten. In sommige landen is dit een jaarlijkse vereiste en in andere landen moet hier eenmalig aan worden voldaan. Hieronder vindt u een overzicht van de huidige landen waar Business Central certificatie heeft verkregen. Slechts enkele landen hebben deze vereiste.  
-- Frankrijk (certificering van belastingcontrole) [(koppeling naar certificering in het Frans)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf) 
-- Duitsland (inclusief Oostenrijk en Zwitserland) [(koppeling naar certificering in het Duits)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
+Deze inhoud bevat informatie over certificeringen in verband met [!INCLUDE[prod_short](../includes/prod_short.md)].  
+
+## <a name="countryregion-specific-certifications-and-accreditations"></a>Certificeringen en accrediteringen in landen/regio's
+
+In sommige landen of regio's moet boekhoudsoftware worden gecertificeerd om te voldoen aan lokale belastingregelgeving en financiële vereisten. In sommige landen/regio's is dit een jaarlijkse vereiste en in andere landen/regio's moet hier eenmalig aan worden voldaan. Hieronder vindt u een overzicht van de huidige landen/regio's waar Business Central certificatie heeft verkregen.
+
+> [!NOTE]
+> Slechts enkele landen/regio's hebben deze vereiste.
+
+- Frankrijk (certificering van belastingcontrole) [(zoek op productnaam op https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
+- Duitsland (inclusief Oostenrijk en Zwitserland) [(koppeling naar certificering in het Duits)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
 
 > [!NOTE]  
->  **Certificeringen in landen waar Microsoft geen gelokaliseerde versies uitbrengt**  
-> In landen waar Microsoft geen lokale versie uitbrengt, moeten de partners meestal certificering verkrijgen van het Business Central-standaardproduct en van de toegevoegde lokalisatie- en regelgevingsfuncties.
+> In landen/regio's waar Microsoft geen lokale versie uitbrengt, moeten de partners meestal certificering verkrijgen van het Business Central-standaardproduct en van de toegevoegde lokalisatie- en regelgevingsfuncties.
 
-## <a name="other-certifications"></a>Overige certificeringen  
+## <a name="other-certifications"></a>Overige certificeringen
+
 Business Central als cloudservice heeft ook certificeringen verkregen, zoals ISO 27001 en meer. Voor een volledige lijst van deze certificeringen raadpleegt u [deze pagina (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Naleving](compliance-overview.md)  
 [Toepassingsnaleving](compliance-application-compliance.md)  
 [Servicenaleving](compliance-service-compliance.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

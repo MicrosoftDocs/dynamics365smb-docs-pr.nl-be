@@ -1,21 +1,21 @@
 ---
-title: Accountantervaringen in Business Central
+title: Accountantervaringen in Business Central (bevat video)
 description: Meer informatie over het rolcentrum Accountant en de bedrijfshub die interne en externe accountants ondersteunen in het clientbedrijf.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e988e0b23f29f4b9969a9682eac2e2e91a30fcc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0f6594ae1e23f4047ff2bd8e44945eaf4284940c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442812"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142301"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Accountantervaringen binnen [!INCLUDE[prod_long](includes/prod_long.md)]
 

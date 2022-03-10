@@ -1,27 +1,27 @@
 ---
-title: 'Gedetailleerde machtigingen definiëren | Microsoft Docs '
-description: Beschrijft hoe u gebruikers toegang tot objecten geeft door machtigingen aan hen toe te wijzen.
+title: Gedetailleerde machtigingen definiëren
+description: In dit onderwerp wordt beschreven hoe u gedetailleerde machtigingen kunt definiëren door bepaalde gebruikers toegang te geven tot objecten en machtigingensets aan hen toe te wijzen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2020
+ms.search.form: 1, 119, 9807, 9808, 9830, 9831
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 48547fbe3cb2bb7cf509c1b0720cb6ccfc58cd97
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385886"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146136"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Machtigingen toewijzen aan gebruikers en groepen
 
 In het beveiligingssysteem van [!INCLUDE[prod_short](includes/prod_short.md)] kunt u bepalen tot welke objecten binnen elke database of omgeving een gebruiker toegang krijgt. U kunt voor elke gebruiker opgeven of deze gegevens in de geselecteerde databaseobjecten mag lezen, wijzigen of invoeren. Zie [Gegevensbeveiliging](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in de Help voor ontwikkelaars en IT-professionals voor [!INCLUDE[prod_short](includes/prod_short.md)] voor meer informatie.
 
-Voordat u machtigingen toewijst aan gebruikers en gebruikersgroepen, moet u definiëren wie zich mag aanmelden door gebruikers te maken volgens de licentie die in het Microsoft 365 Beheercentrum is gedefinieerd. Zie [Gebruikers maken volgens licenties](ui-how-users-permissions.md) voor meer informatie.
+Voordat u machtigingen toewijst aan gebruikers en gebruikersgroepen, moet u definiëren wie zich mag aanmelden door gebruikers te maken volgens de licentie die in het Microsoft 365-beheercentrum is gedefinieerd. Zie [Gebruikers maken volgens licenties](ui-how-users-permissions.md) voor meer informatie.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bevat twee machtigingsniveaus voor databaseobjecten:
 
@@ -53,7 +53,7 @@ U kunt machtigingssets op twee manieren aan gebruikers toewijzen:
 
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Een machtigingenset op een gebruikerskaart toewijzen
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
 2. Selecteer de gebruiker waaraan u machtigingen wilt toewijzen.
 Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven in het feitenblok **Machtigingensets**.
 3. Kies de actie **Bewerken** om de pagina **Gebruikerskaart** te openen.
@@ -61,20 +61,20 @@ Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Een machtigingenset op de pagina Machtigingenset per gebruiker toewijzen
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
 2. Selecteer op de pagina **Gebruikers** de betreffende gebruiker en kies de actie **Machtigingenset per gebruiker**.
 3. Selecteer op de pagina **Machtigingenset per gebruiker** het selectievakje **[gebruikersnaam]** op een regel voor de betreffende machtigingenset om de set aan de gebruiker toe te wijzen.
 4. Selecteer het selectievakje **Alle gebruikers** om de machtigingenset aan alle gebruikers toe te wijzen.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>Een overzicht krijgen van de machtigingen van een gebruiker
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
 2. Open de kaart van de betreffende gebruiker.
 3. Kies de actie **Effectieve machtigingen**.
 
     Het deel **Machtigingen** bevat alle databaseobjecten waartoe de gebruiker toegang heeft. U kunt dit gedeelte niet bewerken.
 
-    Het deel **Op machtigingenset-id** bevat de toegewezen machtigingensets waarmee de machtigingen aan de gebruiker worden verleend, de bron en het type van de machtigingenset en de mate waarin de verschillende toegangstypen toegestaan zijn.
+    Het onderdeel **Op machtigingenset-id** bevat de toegewezen machtigingensets waarmee de machtigingen aan de gebruiker worden verleend, de bron en het type van de machtigingenset en de mate waarin de verschillende toegangstypen toegestaan zijn.
 
     Voor elke rij die u selecteert in de sectie **Machtigingen**, bevat de sectie **Op machtigingenset-id** de machtigingenset of -sets waarmee de machtiging wordt verleend. In dit gedeelte kunt u de waarde wijzigen in elk van de vijf toegangstypevelden, **Lezen**, **Invoegen**, **Wijzigen**, **Verwijderen** en **Uitvoeren**.
 
@@ -103,7 +103,7 @@ Machtigingensets fungeren als containers met machtigingen, zodat u gemakkelijk m
 
 ### <a name="to-create-new-permission-set-from-scratch"></a>Een geheel nieuwe machtigingsset maken
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Machtigingssets** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Machtigingensets** in en kies vervolgens de gerelateerde koppeling.
 2. Als u een nieuwe machtigingenset wilt maken, kiest u de actie **Nieuw**.
 3. Vul op de nieuwe regel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Wanneer u een machtigingsset hebt gemaakt, moet u de feitelijke machtigingen toevoegen. Zie voor meer informatie [Machtigingen handmatig maken of wijzigen](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
@@ -159,6 +159,9 @@ In elk van de vijf toegangstypevelden, **Lezen**, **Invoegen**, **Wijzigen**, **
 |**Indirect**|De gebruiker kan de actie op het betreffende object uitvoeren maar alleen via een ander, gerelateerd object waartoe de gebruiker volledige toegang heeft. Zie [Eigenschap Machtigingen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) in Help voor ontwikkelaars en IT-Pro voor meer informatie over indirecte machtigingen|Op een na hoogste|
 |**Leeg**|De gebruiker kan de actie niet op het betreffende object uitvoeren.|Laagste|
 
+> [!IMPORTANT]
+> Wees voorzichtig bij het toewijzen van **Invoegmachtiging** of **Wijzigmachtiging** aan de tabel **9001 Gebruikersgroepslid** of **9003 Machtigingenset van gebruikersgroep**. Alle gebruikers die aan de machtigingenset zijn toegewezen, kunnen zichzelf mogelijk toewijzen aan andere gebruikersgroepen, die hen op hun beurt onbedoelde machtigingen kunnen geven.
+
 ### <a name="example---indirect-permission"></a>Voorbeeld: indirecte machtiging
 
 U kunt een indirecte machtiging toewijzen om een object enkel door middel van een ander object te laten gebruiken.
@@ -168,7 +171,7 @@ De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel Inkoopre
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Machtigingen maken of wijzigen door uw acties op te nemen
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Machtigingssets** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Machtigingensets** in en kies vervolgens de gerelateerde koppeling.
 2. U kunt ook op de pagina **Gebruikers** de actie **Machtigingensets** kiezen.
 3. Kies op de pagina **Machtigingensets** de actie **Nieuw**.
 4. Vul op een nieuwe regel de velden indien nodig in.
@@ -197,7 +200,7 @@ Machtigingssets die via een gebruikersgroep aan een gebruiker zijn toegewezen, b
 
 De onderstaande procedure licht toe hoe u handmatig gebruikersgroepen maakt. Zie [Een gebruikersgroep en alle bijbehorende machtigingssets kopiëren](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets) als u automatisch gebruikersgroepen wilt maken.
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersgroepen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.
 2. U kunt ook op de pagina **Gebruikers** de actie **Gebruikersgroepen** kiezen.
 3. Kies op de pagina **Gebruikersgroep** de actie **Gebruikersgroepsleden**.
 4. Kies op de pagina **Gebruikersgroep** de actie **Gebruikers toevoegen**.
@@ -209,7 +212,7 @@ Als u snel een nieuwe gebruikersgroep wilt definiëren, kopieert u alle machtigi
 > [!NOTE]
 > De leden van de gebruikersgroep worden niet gekopieerd naar de nieuwe gebruikersgroep. Dit moet u handmatig achteraf doen. Zie voor meer informatie [Gebruikers in gebruikersgroepen samenvoegen](ui-define-granular-permissions.md#to-group-users-in-user-groups).
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersgroepen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de gebruikersgroep die u wilt kopiëren, en kies vervolgens de actie **Gebruikersgroep kopiëren**.
 3. Voer in het veld **Nieuwe gebruikersgroepcode** een naam voor de groep in en kies vervolgens de knop **OK**.
 
@@ -217,7 +220,7 @@ De nieuwe gebruikersgroep wordt toegevoegd aan de pagina **Gebruikersgroepen**. 
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Machtigingssets toewijzen aan gebruikersgroepen
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersgroepen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de gebruikersgroep waaraan u een machtiging wilt toewijzen.
 Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven in het feitenblok **Machtigingensets**.
 3. Kies de actie **Machtigingssets voor gebruikers** om de pagina **Machtigingssets voor gebruikers** te openen.
@@ -227,7 +230,7 @@ Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven
 
 De volgende procedure licht toe hoe u machtigingssets aan een gebruikersgroep toewijst vanaf de pagina **Machtigingsset per gebruikersgroep**.
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
 2. Selecteer de desbetreffende gebruiker op de pagina **Gebruikers** en kies de actie **Machtigingsset per gebruikersgroep**.
 3. Selecteer op de pagina **Machtigingsset per gebruikersgroep** het selectievakje **[naam van gebruikersgroep]** op een regel voor de desbetreffende machtigingsset om de set aan de gebruikersgroep toe te wijzen.
 4. Schakel het selectievakje **Alle gebruikersgroepen** in om de machtigingsset aan alle gebruikersgroepen toe te wijzen.
@@ -240,7 +243,7 @@ De volgende procedure licht toe hoe u machtigingssets aan een gebruikersgroep to
 
 Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers. Zie [Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruiker instellen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Gebruikersinstellingen** die wordt geopend, de actie **Nieuw**.
 3. Voer in het veld **Gebruikers-id** de id van een gebruiker in of kies het veld om alle huidige Windows-gebruikers in het systeem te zien.
 4. Vul de vereiste velden in.
@@ -261,7 +264,7 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] instellen om wijzigingen d
 [Aanpassen [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Beheer](admin-setup-and-administration.md)  
-[Gebruikers toevoegen aan Microsoft 365 voor bedrijven](https://aka.ms/CreateOffice365Users)  
+[Gebruikers aan Microsoft 365 toevoegen voor bedrijven](/microsoft-365/admin/add-users/add-users)  
 [Beveiliging en bescherming in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in de Help voor ontwikkelaars en IT-professionals
 
 

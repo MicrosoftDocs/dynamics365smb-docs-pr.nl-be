@@ -2,20 +2,19 @@
 title: 'Ontwerpdetails: Beschikbaarheid in het magazijn | Microsoft Docs'
 description: Het systeem moet een constante controle op artikelbeschikbaarheid in het magazijn hebben, zodat uitgaande orders efficiënt kunnen stromen en optimale leveringen kunnen worden geboden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3cf793197ad607071df22aacb2fb98f96ac54597
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 670fbfc0f7e576f92ef26e31418d0d44f6262eec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880628"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132093"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Ontwerpdetails: Beschikbaarheid in het magazijn
 Het systeem moet een constante controle op artikelbeschikbaarheid in het magazijn hebben, zodat uitgaande orders efficiënt kunnen stromen en optimale leveringen kunnen worden geboden.  
@@ -47,7 +46,7 @@ Als aan een of meer voorwaarden niet wordt voldaan, kunnen verschillende foutmel
 
  Het volgende diagram bevat de verschillende elementen van de berekening.  
 
- ![Beschikbaar om te picken met reserveringoverlap](media/design_details_warehouse_management_availability_2.png "Beschikbaar om te picken met reserveringoverlap")  
+ ![Beschikbaar om te picken met reserveringoverlap.](media/design_details_warehouse_management_availability_2.png "Beschikbaar om te picken met reserveringoverlap")  
 
 ## <a name="quantity-available-to-reserve"></a>Beschikbaar aantal voor reserveren  
  Omdat de concepten opslaglocatie en reservering naast elkaar bestaan, moet het aantal artikelen dat beschikbaar is om te reserveren, worden afgestemd met toewijzingen aan uitgaande magazijndocumenten.  
@@ -72,8 +71,11 @@ Als aan een of meer voorwaarden niet wordt voldaan, kunnen verschillende foutmel
 
  Het volgende diagram bevat de verschillende elementen van de berekening.  
 
- ![Beschikbaar om te reserveren per magazijntoewijzing](media/design_details_warehouse_management_availability_3.png "Beschikbaar om te reserveren per magazijntoewijzing")  
+ ![Beschikbaar om te reserveren per magazijntoewijzing.](media/design_details_warehouse_management_availability_3.png "Beschikbaar om te reserveren per magazijntoewijzing")  
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
  [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

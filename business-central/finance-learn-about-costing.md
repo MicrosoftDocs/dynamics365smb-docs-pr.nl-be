@@ -1,21 +1,20 @@
 ---
-title: Over voorraadwaardering | Microsoft Docs
-description: Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).
+title: Over voorraadwaardering
+description: Het beheren van voorraadkosten heeft alles te maken met het vastleggen en rapporteren van bedrijfskosten, inclusief het rapporteren van productiekosten en voorraadkosten.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c7243b15ccd94fea5c0630e03f32dd94ab305402
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 8961e3a29664932d67c8670e1b2d42ecbee228c0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882626"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145021"
 ---
 # <a name="about-inventory-costing"></a>Over voorraadwaardering
 Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).  
@@ -33,11 +32,14 @@ Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van op
 |Onderscheid te maken tussen verwachte kosten (nog niet gefactureerd) en werkelijke kosten en voor meer informatie over hoe dit wordt beheerd in het grootboek|[Ontwerpdetails: Verwachte kostenboeking](design-details-expected-cost-posting.md)|  
 |Het herwaarderingsmechanisme voor kosten te begrijpen, dat ervoor zorgt dat kosten naar voren komen, zelfs wanneer voorraadtransacties willekeurig plaatsvinden.|[Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)|  
 |Te lezen waarom vaste verrekenprijzen vaak worden gebruikt door productiebedrijven als een waarderingsbasis voor onderdelen en eindartikelen.|[Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)|  
-|Te begrijpen hoe de voorraadwaarde wordt weerspiegeld in het grootboek.|[Kosten rapporteren en afstemmen met het grootboek](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
+|Te begrijpen hoe de voorraadwaarde wordt weerspiegeld in het grootboek.|[Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Meer te weten te komen over hoe artikeltoeslagen, zoals verzendkosten en verzekering, extra kostenonderdelen kunnen toewijzen aan de eenheidsprijs van een artikel.|[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|  
 |Te lezen hoe voorraadperioden een bedrijf kunnen helpen de voorraadwaarde gedurende de tijd te beheren door kortere perioden te definiëren die gedurende het boekjaar voor boeking kunnen worden gesloten.|[Werken met voorraadperioden](finance-how-to-work-with-inventory-periods.md)|  
 |Alle mechanismen in de kostprijsberekeningengine begrijpen, inclusief wat er gebeurt wanneer u assemblage- en productietransacties boekt.|[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Zie ook
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)    
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

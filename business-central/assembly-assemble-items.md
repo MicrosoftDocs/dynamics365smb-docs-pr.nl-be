@@ -1,24 +1,23 @@
 ---
-title: Assemblagebeheer | Microsoft Docs
-description: Ondersteun bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien, maar met functies om artikelen te assembleren, die worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.
+title: Assemblagebeheer
+description: Ondersteun bedrijven die producten aan hun klanten leveren door componenten te combineren in eenvoudige processen zonder de noodzaak van productiefunctionaliteit.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 4d8ce273a2db6c682a205c767e28aee3792ea14b
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: d1b879eeabfb42298bb1bf8a10d3b53870da3aa7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968318"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130656"
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
-[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
+[!INCLUDE[prod_short](includes/prod_short.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
 
  Een assemblageartikel is gedefinieerd als een verkoopbaar artikel dat een assemblagestuklijst bevat. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
@@ -54,8 +53,11 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)  
-[Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)  
-[Procedure: Kits verkopen, assembleren en verzenden](walkthrough-selling-assembling-and-shipping-kits.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
+<!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

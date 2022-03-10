@@ -1,9 +1,8 @@
 ---
-title: De extensie Btw-groepsbeheer | Microsoft Docs
+title: De extensie Btw-groepsbeheer
 description: U kunt met andere bedrijven samenwerken om een btw-groep te vormen en optreden als lid of vertegenwoordiger van de groep bij het aangeven van btw.
 author: bholtorf
 manager: annbe
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771299"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132458"
 ---
 # <a name="the-vat-group-management-extension"></a>De extensie Btw-groepsbeheer
 
@@ -116,8 +115,12 @@ Wanneer de btw-aangifte van de btw-groepsvertegenwoordiger namens de hele groep 
 > De btw-groepsfunctionaliteit wordt alleen ondersteund in markten waar [!INCLUDE[prod_short](includes/prod_short.md)] een btw-raamwerk gebruikt dat bestaat uit btw-aangiften en btw-aangifteperioden. U kunt geen btw-groepen gebruiken in andere markten die andere implementaties van lokale btw-rapportage hebben, zoals Oostenrijk, Duitsland, Italië, Spanje en Zwitserland. 
 
 ## <a name="see-also"></a>Zie ook
+
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
-[Btw instellen](finance-setup-vat.md)
+[Btw instellen](finance-setup-vat.md)  
+[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
+[Belasting digitaal maken in het Verenigd Koninkrijk](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Noorse btw-aangifte in de Noorse versie](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

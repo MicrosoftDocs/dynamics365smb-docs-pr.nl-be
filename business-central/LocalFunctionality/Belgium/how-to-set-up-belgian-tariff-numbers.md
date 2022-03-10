@@ -1,32 +1,30 @@
 ---
-title: Belgische tariefcodes instellen
+title: Belgische tariefcodes instellen [BE]
 description: De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7cb2e5219cd0c1e93b00ed9a068b55876d91d605
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 310
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: 82ed1f582ec7011a6e8c160289914a659f7e0c06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180866"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145123"
 ---
-# <a name="set-up-belgian-tariff-numbers"></a>Belgische tariefcodes instellen
+# <a name="set-up-belgian-tariff-numbers-in-the-belgian-version"></a>Belgische tariefcodes instellen in de Belgische versie
+
 De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.  
 
-### <a name="to-set-up-tariff-numbers"></a>Tariefcodes instellen  
+## <a name="to-set-up-tariff-numbers"></a>Tariefcodes instellen
 
-1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Het pictogram Zoeken naar pagina of rapport"), voer **Tariefcodes** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Kies de actie **Nieuw**.  
-3.  Vul op de pagina **Tariefcodes** de velden in zoals wordt beschreven in de volgende tabel.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Tariefcodes** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies de actie **Nieuw**.  
+3. Vul op de pagina **Tariefcodes** de velden in zoals wordt beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -34,11 +32,15 @@ De Belgische belastingdienst en douane hebben een goederencode van acht tekens v
     |**Eenheid**|Voer de maateenheid voor de tariefcode in. Het veld is beschikbaar wanneer **Aanv.-eenheid** is ingeschakeld.|  
     |**Verplicht gewicht**|Selecteer dit veld om het gewicht van de artikelen weer te geven.|  
 
-4.  Kies de knop **OK**.  
+4. Kies de knop **OK**.  
   
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
  [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)   
  [Aangiftesoorten instellen](how-to-set-up-declaration-types.md)   
  [Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)   
  [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)   
  [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

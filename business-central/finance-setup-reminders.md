@@ -2,20 +2,20 @@
 title: De termijnen en niveaus van aanmaningen instellen
 description: Leer hoe u Business Central zo instelt dat u een aanmaning aan een klant kunt verzenden over een betaling die achterstallig is, en kosten aan de betaling kunt toevoegen vanwege de vertraging.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2021
+ms.search.form: 431, 432, 436, 478
+ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 06853911f5b2858fbde4ff5371971c86f2960543
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783496"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132848"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>De termijnen en niveaus van aanmaningen instellen
 
@@ -30,7 +30,7 @@ Als klanten betalingen hebben openstaan, moet u bepalen wanneer en hoe u hen wil
 
 ### <a name="to-set-up-reminder-terms"></a>U kunt aanmaningscondities als volgt instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningscondities** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Aanmaningscondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Als u meer dan één combinatie van aanmaningscondities wilt gebruiken, stelt u een code in voor elke.
 
@@ -42,7 +42,7 @@ Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden d
 
 ### <a name="to-set-up-reminder-levels"></a>Aanmaningsniveaus volgt instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningscondities** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Aanmaningscondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Aanmaningscondities** de regel met de condities waarvoor u niveaus wilt instellen en kies vervolgens de actie **Niveaus**.  
 3. Vul de vereiste velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
@@ -101,6 +101,7 @@ Nadat u de aanmaningscondities hebt ingesteld (met aanvullende niveaus en tekst)
 ## <a name="see-also"></a>Zie ook
 
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
+[Aanmaningen voor uitstaande saldi verzenden](receivables-send-reminders.md)  
 [Rentefactuurcondities instellen](finance-setup-finance-charges.md)  
 [Financiën instellen](finance-setup-finance.md)  
 

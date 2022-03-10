@@ -2,7 +2,6 @@
 title: Regels voor automatische vereffening van betalingen
 description: Lees over het instellen van regels voor de automatische vereffening van betalingen op de pagina Regels betalingsvereffening.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,20 +9,16 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44e1868529d2f0852c0f21b7279f7d75df174efa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435071"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137223"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Regels instellen voor automatische vereffening van betalingen
 
-Op de pagina **Regels betalingsvereffening** stelt u regels in om te bepalen hoe betalingstekst (bij een banktransactie) automatisch wordt afgestemd op tekst op openstaande posten in de volgende twee processen:
-
-- Betalingen automatisch vereffenen met de gerelateerde openstaande (onbetaalde) facturen, creditnota's of andere posten wanneer u de functie **Automatisch vereffenen** gebruikt in het venster **Betalingsreconciliatiedagboek**. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
-
-- Stem banktransacties automatisch af op de gerelateerde, interne bankrekeningposten wanneer u de actie **Automatisch afstemmen** op de pagina **Bankreconciliatie** kiest. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.
+Op de pagina **Regels betalingsvereffening** stelt u de regels in die bepalen hoe betalingstekst (op een banktransactie) automatisch moet worden afgestemd met de gerelateerde openstaande (onbetaalde) facturen, creditnota's of andere posten wanneer u de functie **Automatisch vereffenen** gebruikt in het venster **Betalingsreconciliatiedagboek**. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
 U stelt nieuwe betalingsvereffeningsregels in door te bepalen welke soorten gegevens op een dagboekregel van een betalingsreconciliatie met gegevens op een of meer openstaande posten moeten overeenstemmen voordat de gerelateerde betaling automatisch wordt vereffend met de openstaande posten. De kwaliteit van elke automatische vereffening wordt weergegeven als een waarde van **Laag** tot **Hoog** in het veld **Zekerheid afstemming** op de pagina **Betalingsreconciliatiedagboek** op basis van de regel voor betalingsvereffening die is gebruikt.
 

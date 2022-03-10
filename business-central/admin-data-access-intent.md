@@ -1,23 +1,22 @@
 ---
-title: Databasetoegangsintentie beheren in Business Central | Microsoft Docs
+title: Databasetoegangsintentie beheren in Business Central
 description: Wijzig de databasetoegangsintentie voor rapporten, API-pagina's en query's.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 9880
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 502add82d2f70f6ffd13ae04f7eb6d214105fb63
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 66473480ac2db86bc35adc7e60d7fcd2cafc7212
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378610"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142535"
 ---
-# <a name="managing-database-access-intent"></a>Databasetoegangsintentie beheren 
+# <a name="managing-database-access-intent"></a>Databasetoegangsintentie beheren
 
 Als supergebruiker of beheerder kunt u de databasetoegangsintentie voor rapporten, pagina's van het type API en query's wijzigen om de prestaties van de service te verbeteren.
 
@@ -33,7 +32,7 @@ In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor 
 
 ## <a name="to-change-the-database-access-intent"></a>De intentie van de databasetoegang wijzigen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Lijst met intenties voor databasetoegang** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerken - Lijst met intenties voor databasetoegang** in en kies vervolgens de gerelateerde koppeling.
 
     De pagina bevat alle rapporten, pagina's en query's. De kolom **Toegangsintentie** bevat een van de volgende waarden:
 
@@ -56,7 +55,7 @@ In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor 
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Aan de slag](product-get-started.md)    
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

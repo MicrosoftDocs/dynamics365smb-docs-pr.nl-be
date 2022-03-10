@@ -2,31 +2,35 @@
 title: Trainingscatalogus voor Business Central
 description: Trainingscatalogus voor Business Central
 author: loreleishannonmsft
-ms.date: 04/01/2020
-ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 0aa0446d1940571687c9b00cfb3a6fc692a361aa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.topic: conceptual
+ms.author: margoc
+ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190839"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772466"
 ---
 # <a name="business-central-learning-catalog"></a>Trainingscatalogus voor Business Central
+
 Voor de juiste online training, persoonlijke workshops en evenementen voor uw rol als Business Central-gebruiker of -partner.
 
 :::row:::
+
     :::column:::
 
     ### <a name="business-decision-maker"></a>Zakelijke besluitvormer
 
     Beslist u over investeringen in nieuwe technologieën? 
 
-    [Trainingscatalogus voor zakelijke besluitvormers](readiness-learning-bus-decision-makers.md)
+    [Ontdek de zakelijke waarde van Business Central (gratis online leertraject in eigen tempo)](/learn/modules/dynamics-365-business-central/)
 
-    [Bedrijfswaarde](readiness-learning-bus-decision-makers.md#busvalue)
+    [Aan de slag (gratis online leertraject in eigen tempo)](/learn/paths/get-started-dynamics-365-business-central/)
 
-    [Aan de slag](readiness-learning-bus-decision-makers.md#get-started)
+    [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/)
+
+    [Business Central-video's op YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
@@ -36,36 +40,27 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
 
     Hebt u zojuist een nieuwe toepassing gekregen die u moet gaan gebruiken? 
 
-    [Trainingscatalogus voor zakelijke gebruikers](readiness-learning-bus-users.md)
+    [Aan de slag (gratis online leertraject in eigen tempo)](/learn/paths/get-started-dynamics-365-business-central/)
 
-    [Aan de slag](readiness-learning-bus-users.md#get-started)
+    [Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 
-    [Financiële items](readiness-learning-bus-users.md#financials)
-
-    [Specialisme](readiness-learning-bus-users.md#trade)
+    [Business Central-video's op YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
 :::row-end:::
 
 :::row:::
+
     :::column:::
 
     ### <a name="developer"></a>Ontwikkelaar
 
     Moet u code schrijven voor integratie met andere gegevensbronnen, de kernfunctionaliteit uitbreiden of een complexe toepassing bouwen?
 
-    [Trainingscatalogus voor ontwikkelaars](readiness-learning-developers.md)
+    [Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
 
-    [Aan de slag](readiness-learning-developers.md#get-started)
-
-    [Nieuwe functies](readiness-learning-developers.md#whatsnew)
-
-    [Kernontwikkeling](readiness-learning-developers.md#core-development)
-
-    [Levenscyclusbeheer van toepassing](readiness-learning-developers.md#applife)
-
-    [Connect Apps](readiness-learning-developers.md#connect-apps)
+    [Ontwikkelaarsdocumentatie](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 
     :::column-end:::
 
@@ -75,58 +70,13 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
     
     Bent u een implementatie-expert voor een zakelijk domein? 
 
-    [Trainingscatalogus van functionele consultant](readiness-learning-functional-consultants.md)
+    [Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
 
-    [Aan de slag](readiness-learning-functional-consultants.md#get-started)
-
-    [Implementeren](readiness-learning-functional-consultants.md#deploy)
-
-    [Financiële items](readiness-learning-functional-consultants.md#financials)
-
-    [Specialisme](readiness-learning-functional-consultants.md#trade)
-
-    [Cloud](readiness-learning-functional-consultants.md#cloud)
+    [Business Central-video's op YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
 :::row-end:::
 
-:::row:::
 
-    :::column:::
-
-    ### <a name="partner-pre-sales"></a>Pre-sales voor partner
-
-    Bent u verantwoordelijk voor het demonstreren van belangrijke functies aan klanten? 
-
-    [Trainingscatalogus Pre-sales](readiness-learning-presales.md)
-
-    [Aan de slag](readiness-learning-presales.md#get-started)
-
-    [Uw bedrijf laten groeien](readiness-learning-presales.md#grow)
-
-    [Bedrijfswaarde](readiness-learning-presales.md#busvalue)
-
-    [Nieuwe functies](readiness-learning-presales.md#whatsnew)
-
-    [Demo](readiness-learning-presales.md#demo)
-
-    :::column-end:::
-
-    :::column:::
-
-    ### <a name="partner-sales"></a>Verkoop voor partner
-
-    Helpt u uw klanten bij het kopen van de juiste oplossing? 
-
-    [Trainingscatalogus Verkoop](readiness-learning-sales.md)
-
-    [Aan de slag](readiness-learning-sales.md#get-started)
-
-    [Uw bedrijf laten groeien](readiness-learning-sales.md#grow)
-
-    [Bedrijfswaarde](readiness-learning-sales.md#busvalue)
-
-    :::column-end:::
-
-:::row-end:::
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

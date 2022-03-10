@@ -1,21 +1,21 @@
 ---
-title: Betalingsmethoden instellen
+title: Betalingsmethoden instellen (bevat video)
 description: U gebruikt betalingswijzen, bijvoorbeeld cheque, bankoverschrijving, contant geld of PayPal, om te bepalen hoe verkoop- en inkoopfacturen worden betaald.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
+ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1e836b43392cd915a77c5ee85d5a322753dcd5df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d911a3a0afc01a55d24ae570383f7dfa035d736f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773967"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135353"
 ---
 # <a name="set-up-payment-methods"></a>Betalingsmethoden instellen
 
@@ -33,14 +33,14 @@ Creditnota's voor retouren zijn echter uitzonderingen, omdat geld in tegenoverge
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt een paar betalingswijzen die bedrijven vaak gebruiken. U kunt er echter zo veel toevoegen als u wilt.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsmethoden** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsmethoden** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Wijs desgewenst betalingsvoorwaarden toe aan uw betalingsmethode. Zie voor meer informatie [Betalingsvoorwaarden instellen](finance-payment-terms.md) voor meer informatie.  
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Een betalingswijze aan een klant of leverancier toewijzen
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klant** of **Leverancier** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klant** of **Leverancier** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het veld **Betalingswijze** de methode die standaard moet worden gebruikt voor de klant of leverancier.
 
 ## <a name="see-also"></a>Zie ook

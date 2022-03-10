@@ -2,20 +2,20 @@
 title: Ontwerpdetails - Waarderingsmethoden voor artikelen wijzigen
 description: Leer hoe u een andere waarderingsmethode aan een artikel kunt toewijzen, hoewel u het artikel al in transacties hebt gebruikt.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
-ms.date: 10/01/2020
+ms.search.form: 8645
+ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0e14a11196de990460505365e5a6c24368626fb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5e7bbb28b35f31e21904006b6c595896bdca3f61
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390586"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148632"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen
 
@@ -78,18 +78,18 @@ Om de nieuwe artikelen volledig bruikbaar te maken moet u sommige hoofdgegevens 
 
 |District  |Wat te kopiëren  |Hoe u dit doet  |
 |---------|---------|---------|
-|Voorraad     |SKU's         |Controleer of er een SKU is gespecificeerd voor het originele artikel. Als voor elke SKU-kaart planningsparameters zijn ingevoerd, moet u de SKU voor het nieuwe artikel handmatig maken. Als de parameters niet zijn gespecificeerd, kunt u de batchtaak **SKU maken** vanaf de pagina **Artikelkaart** gebruiken om de gegevens te maken.        |
-|     |Artikelvervangingen         |Controleer of er artikelvervangingen zijn gedefinieerd voor het oorspronkelijke artikel. Als dat zo is, breng die gegevens dan over naar het nieuwe artikel. Als u vervangende artikelen wilt weergeven, gebruikt u de actie **Vervangingen** op de pagina **Artikelkaart**.         |
-|     |Analyserapporten         |Bekijk de rapporten Artikelanalyse, Verkoopanalyse en Inkoopanalyse. Voor als naar de oorspronkelijke artikelen wordt verwezen kunt u een nieuw analyserapport maken met een verwijzing naar het nieuwe artikel (en het originele analyserapport behouden om als historie te gebruiken) of de rapporten aanpassen zodat deze naar het nieuwe artikel verwijzen.         |
-|     |Standaarddagboeken         |Controleer of standaarddagboeken verwijzen naar het oorspronkelijke artikel en breng die gegevens indien nodig over naar het nieuwe artikel. Deze informatie is te vinden in de standaarddagboeken, die beschikbaar zijn in het artikeldagboek.          |
-|Verkoop     |Vooruitbetalingspercentages verkoop         | Controleer of er voor het oorspronkelijke artikel verkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Verkoop** en dan **Vooruitbetalingspercentages**.        |
-|Inkoop     |Vooruitbetalingspercentage inkoop         |Controleer of er voor het oorspronkelijke artikel inkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Inkopen** en dan **Vooruitbetalingspercentages**.                 |
-|Magazijn     |Opslaglocatie-inhoud         |Bekijk de opslaglocatie-inhoud die voor het originele artikel is gedefinieerd. Als kolommen zoals Min. aantal, Max. aantal, Standaard en Speciaal afzonderlijk zijn ingevoerd, moet u handmatig opslaglocatie-inhoud maken voor het nieuwe artikel. Als dat niet het geval is, is er geen actie vereist. [!INCLUDE[prod_short](includes/prod_short.md)] houdt records bij wanneer u magazijndocumenten en tijdschriften registreert.|
-|Project     |Projectprijzen         |Controleer of er voor het oorspronkelijke artikel projectprijzen zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Deze informatie is beschikbaar op de pagina **Projectkaart** in het gedeelte **Projectdetails - Aantal prijzen** in het **deelvenster Feitenblok**.         |
-|Service     |Serviceresourcevaardigheid         |Controleer of er serviceresourcevaardigheden voor het oorspronkelijke artikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Als u resourcevaardigheden wilt weergeven, gebruikt u de actie **Resourcevaardigheden** op de pagina **Artikelkaart**.          |
-|     |Serviceartikelonderdelen         |Controleer of er onderdelen voor het oorspronkelijke serviceartikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om onderdelen van serviceartikelen te bekijken gebruikt u op de pagina **Artikelkaart** de actie **Serviceartikel** om de lijst met gerelateerde serviceartikelen te openen en kiest u vervolgens de actie **Materialen**.          |
-|Productie     |Productiestuklijsten         |Controleer of productiestuklijsten het originele artikel bevatten en vervang het door het nieuwe artikel. Om het originele artikel te vervangen kiest u op de pagina **Productiestuklijsten** de actie **Prod.-stuklijstartikel vervangen**.         |
-|Assemblage     |Assemblagestuklijsten         |Controleer of assemblagestuklijsten het originele artikel bevatten en vervang het handmatig door het nieuwe artikel.         |
+|Voorraad |SKU's |Controleer of er een SKU is gespecificeerd voor het originele artikel. Als voor elke SKU-kaart planningsparameters zijn ingevoerd, moet u de SKU voor het nieuwe artikel handmatig maken. Als de parameters niet zijn gespecificeerd, kunt u de batchtaak **SKU maken** vanaf de pagina **Artikelkaart** gebruiken om de gegevens te maken.|
+| |Artikelvervangingen |Controleer of er artikelvervangingen zijn gedefinieerd voor het oorspronkelijke artikel. Als dat zo is, breng die gegevens dan over naar het nieuwe artikel. Als u vervangende artikelen wilt weergeven, gebruikt u de actie **Vervangingen** op de pagina **Artikelkaart**. |
+| |Analyserapporten |Bekijk de rapporten Artikelanalyse, Verkoopanalyse en Inkoopanalyse. Voor als naar de oorspronkelijke artikelen wordt verwezen kunt u een nieuw analyserapport maken met een verwijzing naar het nieuwe artikel (en het originele analyserapport behouden om als historie te gebruiken) of de rapporten aanpassen zodat deze naar het nieuwe artikel verwijzen. |
+| |Standaarddagboeken |Controleer of standaarddagboeken verwijzen naar het oorspronkelijke artikel en breng die gegevens indien nodig over naar het nieuwe artikel. Deze informatie is te vinden in de standaarddagboeken, die beschikbaar zijn in het artikeldagboek.  |
+|Verkoop |Vooruitbetalingspercentages verkoop | Controleer of er voor het oorspronkelijke artikel verkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Verkoop** en dan **Vooruitbetalingspercentages**.|
+|Inkoop |Vooruitbetalingspercentage inkoop |Controleer of er voor het oorspronkelijke artikel inkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Inkopen** en dan **Vooruitbetalingspercentages**. |
+|Magazijn |Opslaglocatie-inhoud |Bekijk de opslaglocatie-inhoud die voor het originele artikel is gedefinieerd. Als kolommen zoals Min. aantal, Max. aantal, Standaard en Speciaal afzonderlijk zijn ingevoerd, moet u handmatig opslaglocatie-inhoud maken voor het nieuwe artikel. Als dat niet het geval is, is er geen actie vereist. [!INCLUDE[prod_short](includes/prod_short.md)] houdt records bij wanneer u magazijndocumenten en tijdschriften registreert.|
+|Project |Projectprijzen |Controleer of er voor het oorspronkelijke artikel projectprijzen zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Deze informatie is beschikbaar op de pagina **Projectkaart** in het gedeelte **Projectdetails - Aantal prijzen** in het **deelvenster Feitenblok**. |
+|Service |Serviceresourcevaardigheid |Controleer of er serviceresourcevaardigheden voor het oorspronkelijke artikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Als u resourcevaardigheden wilt weergeven, gebruikt u de actie **Resourcevaardigheden** op de pagina **Artikelkaart**.  |
+| |Serviceartikelonderdelen |Controleer of er onderdelen voor het oorspronkelijke serviceartikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om onderdelen van serviceartikelen te bekijken gebruikt u op de pagina **Artikelkaart** de actie **Serviceartikel** om de lijst met gerelateerde serviceartikelen te openen en kiest u vervolgens de actie **Materialen**.  |
+|Productie |Productiestuklijsten |Controleer of productiestuklijsten het originele artikel bevatten en vervang het door het nieuwe artikel. Om het originele artikel te vervangen kiest u op de pagina **Productiestuklijsten** de actie **Prod.-stuklijstartikel vervangen**. |
+|Assemblage |Assemblagestuklijsten |Controleer of assemblagestuklijsten het originele artikel bevatten en vervang het handmatig door het nieuwe artikel. |
 
 > [!IMPORTANT]
 > Als de nieuwe waarderingsmethode Standaard is, moet u een waarde invoeren in het veld **Vaste verrekenprijs** op de pagina **Artikelkaart**. U kunt de pagina **Vaste-verrekenprijsvoorstel** gebruiken om de kostenaandelen dienovereenkomstig in te stellen. Zie [Vaste verrekenprijzen aanpassen](finance-how-to-update-standard-costs.md) voor meer informatie.
@@ -116,23 +116,23 @@ Gebruik bij het maken van assemblageorders de informatie uit het inventarisatied
 
 |Veld  |In te voeren waarde  |
 |---------|---------|
-|Artikelnr.     |Het nummer van het nieuwe artikel.         |
-|Aantal     |De hoeveelheid in het fysieke voorraadjournaal.<br> **OPMERKING:** de hoeveelheden berekend door de fysieke voorraadjournalen omvatten niet de hoeveelheden in orders zijn die nog niet zijn verzonden.          |
-|Variant     |Hetzelfde als in het fysieke voorraadjournaal.          |
-|Vestiging     |Hetzelfde als in het fysieke voorraadjournaal.         |
-|Code van maateenheid     |Hetzelfde als in het fysieke voorraadjournaal.         |
-|Opslaglocatie     |Hetzelfde als in het fysieke voorraadjournaal.         |
+|Artikelnr. |Het nummer van het nieuwe artikel. |
+|Aantal |De hoeveelheid in het fysieke voorraadjournaal.<br> **OPMERKING:** de hoeveelheden berekend door de fysieke voorraadjournalen omvatten niet de hoeveelheden in orders zijn die nog niet zijn verzonden.  |
+|Variant |Hetzelfde als in het fysieke voorraadjournaal.  |
+|Vestiging |Hetzelfde als in het fysieke voorraadjournaal. |
+|Code van maateenheid |Hetzelfde als in het fysieke voorraadjournaal. |
+|Opslaglocatie |Hetzelfde als in het fysieke voorraadjournaal. |
 
 #### <a name="lines"></a>Regels
 
 |Veld  |In te voeren waarde  |
 |---------|---------|
-|Soort     |Artikel         |
-|Nee.     |Het nummer van het oorspronkelijke artikel.         |
-|Aantal per     |1         |
-|Variant     |Hetzelfde als in het fysieke voorraadjournaal.         |
-|Vestiging     |Hetzelfde als in het fysieke voorraadjournaal.         |
-|Code van maateenheid     |Hetzelfde als in het fysieke voorraadjournaal.         |
+|Soort |Artikel |
+|Nee. |Het nummer van het oorspronkelijke artikel. |
+|Aantal per |1 |
+|Variant |Hetzelfde als in het fysieke voorraadjournaal. |
+|Vestiging |Hetzelfde als in het fysieke voorraadjournaal. |
+|Code van maateenheid |Hetzelfde als in het fysieke voorraadjournaal. |
 
 > [!NOTE]
 > Een assemblageorder kan slechts één SKU van een artikel tegelijk verwerken. U moet een assemblageorder maken voor elke combinatie van SKU met een hoeveelheid in voorraad.
@@ -153,15 +153,15 @@ De volgende tabel vermeldt functionele gebieden waar er mogelijk uitstaande hoev
 
 |District  |Waar te zoeken naar openstaande hoeveelheden  |
 |---------|---------|
-|Verkoop     |Verkoopdocumenten, inclusief orders, retourorders, facturen, offertes, raamcontracten en creditnota's         |
-|Voorraad     |Artikeljournalen, reserveringen, artikeltracering en vaste-verrekenprijsvoorstel         |
-|Inkoop     |Inkoopdocumenten, inclusief orders, retourorders, facturen, offertes, raamcontracten en creditnota's         |
-|Planning     |Inkoopvoorstel, planningsvoorstel en orderplanning         |
-|Magazijn     |Transferorders, magazijnzendingen, magazijnjournalen en magazijnpicks, opslagactiviteiten en verplaatsingen, interne picks en opslagactiviteiten en maakvoorstellen voor opslaglocaties         |
-|Assemblage     |Assemblagedocumenten, inclusief orders, retourorders en raamcontracten         |
-|Projecten     |Projectplanningsregels en projectdagboekregels         |
-|Service     |Servicedocumenten en servicecontracten         |
-|Productie     |Productieorders (gepland, vast gepland en vrijgegeven)         |
+|Verkoop |Verkoopdocumenten, inclusief orders, retourorders, facturen, offertes, raamcontracten en creditnota's |
+|Voorraad |Artikeljournalen, reserveringen, artikeltracering en vaste-verrekenprijsvoorstel |
+|Inkoop |Inkoopdocumenten, inclusief orders, retourorders, facturen, offertes, raamcontracten en creditnota's |
+|Planning |Inkoopvoorstel, planningsvoorstel en orderplanning |
+|Magazijn |Transferorders, magazijnzendingen, magazijnjournalen en magazijnpicks, opslagactiviteiten en verplaatsingen, interne picks en opslagactiviteiten en maakvoorstellen voor opslaglocaties |
+|Assemblage |Assemblagedocumenten, inclusief orders, retourorders en raamcontracten |
+|Projecten |Projectplanningsregels en projectdagboekregels |
+|Service |Servicedocumenten en servicecontracten |
+|Productie |Productieorders (gepland, vast gepland en vrijgegeven) |
 
 ### <a name="block-the-original-item-from-further-use"></a>Het oorspronkelijke artikel voor verder gebruik blokkeren
 

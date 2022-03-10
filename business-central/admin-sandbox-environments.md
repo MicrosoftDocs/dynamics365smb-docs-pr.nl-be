@@ -2,25 +2,27 @@
 title: Sandboxomgevingen
 description: Ontdek hoe een speciale omgeving u kan helpen om Business Central veilig te verkennen, te leren, te demonstreren, te ontwikkelen, problemen op te lossen en te testen.
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/27/2021
+ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: db390d1f4ee690b9e461bfccd77155ec0b66a2b6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589639"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142483"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandboxomgevingen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Met [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u eenvoudig een veilige omgeving krijgen waar u kunt testen, trainen of problemen oplossen zonder de werkprocessen of bedrijfsgegevens van uw bedrijf te verstoren. Een dergelijke niet-productieomgeving wordt een *sandbox* genoemd. Geïsoleerd van de productieomgeving is een sandboxomgeving de plaats om de service te ontdekken, te leren kennen, te demonstreren, te ontwikkelen en te testen, zonder het risico te lopen dat de gegevens en instellingen van uw productieomgeving worden beïnvloed.  
+
+> [!TIP]
+> Bent u op dit artikel gestuit nadat u de naam van uw [!INCLUDE [prod_short](includes/prod_short.md)]-omgeving in de bovenste balk hebt gekozen? Momenteel kunt u de naam of omgeving niet op die manier wijzigen. In plaats daarvan moet u uw beheerder vragen om de naam te wijzigen of de koppeling met een andere omgeving te delen.
 
 Uw beheerder beheert sandboxomgevingen in het [beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 

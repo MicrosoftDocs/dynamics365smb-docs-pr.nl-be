@@ -2,21 +2,20 @@
 title: Belgische ncasso via domiciliëring [BE]
 description: Een domiciliëring is een financiële overeenkomst tussen u en uw klanten, zodat u de betalingen voor facturen van de klant automatisch kunt innen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 2000000, 2000001, 2000003
+ms.search.form: 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 0b423b6465fb07d99e7f0378672286223dfd1770
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 84f19c1a7f1d554e3b9e9d2ba93cb140a81e2af3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947221"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134484"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Incasso via domiciliëring
 

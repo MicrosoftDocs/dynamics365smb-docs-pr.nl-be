@@ -4,26 +4,25 @@ description: Beschrijft hoe u een segment maakt voor een groep contacten in Busi
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 211f4cda3bd7d47c6268b0dfc041d25b100d2d14
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a6aaabb50d3bb24036d7f94c413103348134f9a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919275"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131446"
 ---
 # <a name="create-segments"></a>Segmenten maken
 U kunt segmenten maken om een groep contacten te selecteren als u een interactie wilt maken voor verschillende contacten, bijvoorbeeld direct mail.
 
 ## <a name="to-create-a-segment"></a>Een segment maken
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Segmenten** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Voer in het gedeelte **Algemeen** in het veld **Nr.** een nummer voor het segment in.
 
@@ -35,4 +34,7 @@ Nu kunt u contacten aan het segment toevoegen. Zie voor meer informatie [Contact
 ## <a name="see-also"></a>Zie ook
 [Segmenten beheren](marketing-segments.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

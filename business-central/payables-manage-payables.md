@@ -1,21 +1,21 @@
 ---
-title: Overzicht van taken om crediteuren te beheren | Microsoft Docs
+title: Overzicht van taken om crediteuren te beheren
 description: Schetst taken om crediteuren te beheren, bijvoorbeeld crediteuren betalen of uitgaande betalingen vereffenen met posten om facturen of creditnota's te sluiten.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.search.form: 161, 254, 256, 347, 574, 599, 9002
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1248a4932194de68c05ca4343836d345b5284b16
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ef7b8fafd5949d9a3595a003c4840994e2319d54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190198"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137743"
 ---
 # <a name="managing-payables"></a>Betalingsverplichtingen beheren
 
@@ -42,6 +42,9 @@ In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met ko
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

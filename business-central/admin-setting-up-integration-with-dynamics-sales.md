@@ -1,136 +1,128 @@
 ---
-title: Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales | Microsoft Docs
+title: Gebruikersaccounts instellen voor integratie met Microsoft Dataverse | Microsoft Docs
 description: Leer hoe u gebruikersaccounts instelt die de apps gebruiken om gegevens uit te wisselen, en die personen gebruiken om toegang te krijgen tot gegevens in de apps en deze te synchroniseren.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 39fc89ee98ecd76bf292074466b1b70989a2f2e2
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 6ed2346b1033559f24feafa1f9a527b4b817cfeb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879040"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143906"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales
-Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vereist zijn om [!INCLUDE[crm_md](includes/crm_md.md)] te integreren met [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Gebruikersaccounts instellen voor integratie met Microsoft Dataverse
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
 
-## <a name="setting-up-the-administrator-user-account-in-sales"></a>Het beheerdersaccount instellen in Sales
-U moet het beheerdersaccount voor [!INCLUDE[d365fin](includes/d365fin_md.md)] toevoegen als een gebruiker in [!INCLUDE[crm_md](includes/crm_md.md)] en vervolgens de gebruiker promoveren tot beheerder in [!INCLUDE[crm_md](includes/crm_md.md)]. Het beheerdersaccount moet ook de rol van systeemaanpasser hebben en ten minste één andere niet-beheerdersrol, zoals Verkoopmanager in [!INCLUDE[crm_md](includes/crm_md.md)].
+Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vereist zijn om [!INCLUDE[prod_short](includes/cds_long_md.md)] te integreren met [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="setting-up-the-user-account-for-the-integration"></a>Het gebruikersaccount instellen voor de integratie
-U moet een speciaal gebruikersaccount in uw Office 365-abonnement maken dat zowel [!INCLUDE[d365fin](includes/d365fin_md.md)] als [!INCLUDE[crm_md](includes/crm_md.md)] kan gebruiken om gegevens te synchroniseren. Dit gebruikersaccount moet zich kunnen aanmelden bij [!INCLUDE[crm_md](includes/crm_md.md)], wat betekent dat deze gebruiker een licentie moet hebben voor [!INCLUDE[crm_md](includes/crm_md.md)] en dat ten minste één beveiligingsrol in [!INCLUDE[crm_md](includes/crm_md.md)] aan het account moet zijn toegewezen, zoals [hier](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account) beschreven. Zie voor meer informatie over hoe u gebruikers maakt in [!INCLUDE[crm_md](includes/crm_md.md)] [Beveiliging, gebruikers en teams beheren](https://go.microsoft.com/fwlink/?LinkID=616518). Nadat de verbinding is ingesteld, wijst [!INCLUDE[d365fin](includes/d365fin_md.md)] aan het gebruikersaccount de beveiligingsrollen toe die nodig zijn in [!INCLUDE[d365fin](includes/d365fin_md.md)] en kan dit account worden ingesteld op de [niet-interactieve toegangsmodus](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) in [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="setting-up-the-administrator-user-account"></a>Het beheerdersaccount instellen in Sales
+U moet uw beheerdersaccount toevoegen voor [!INCLUDE[prod_short](includes/prod_short.md)] als gebruiker in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Bij het opzetten van de verbinding tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)] wordt dit account één keer gebruikt om enkele vereiste componenten te installeren en configureren. 
 
-![Begeleide instelling laat zien waar gebruikersreferenties voor synchronisatie moeten worden ingevoerd](media/sync-user-setup.png "Wizardpagina van begeleide instelling visualisatie laat zien waar gebruikersreferenties voor synchronisatie moeten worden ingevoerd")
+## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Machtigingen en beveiligingsrollen voor gebruikersaccounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
+Wanneer u de CDS-basisintegratieoplossing installeert, worden machtigingen voor het integratiegebruikersaccount geconfigureerd. Als deze machtigingen handmatig zijn gewijzigd, kunt u deze opnieuw instellen. U kunt dat doen door de CDS-basisintegratieoplossing opnieuw te installeren door te kiezen voor **Integratieoplossing opnieuw implementeren** op de pagina **Common Data Service-verbinding instellen**. De beveiligingsrol van Business Central CDS-integratie is geïmplementeerd.
 
-> [!IMPORTANT]  
-> Gebruik het beheerdersaccount niet voor [!INCLUDE[crm_md](includes/crm_md.md)] voor synchronisatie. Als u dat doet wordt de synchronisatie verstoord.
-> Om constante synchronisatie te voorkomen worden wijzigingen in gegevens die worden aangebracht door het integratiegebruikersaccount niet gesynchroniseerd. <!--What changes would this account make?--> Als de verbinding is gemaakt, is het raadzaam de toegangsmodus voor het gebruikersaccount voor integratie in te stellen op de niet-interactieve modus in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Een niet-interactief gebruikersaccount maken](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+<!--
+The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## <a name="setting-up-accounts-sales-people"></a>Accounts instellen voor verkopers
-U moet gebruikersaccounts maken in [!INCLUDE[crm_md](includes/crm_md.md)] voor de verkoper uit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om het gemakkelijker te maken biedt het Microsoft 365-beheercentrum een Excel-sjabloon die u kunt gebruiken. Kies op de pagina **Actieve gebruikers** **Meer** en vervolgens **Meerdere gebruikers importeren**. Kies **Een CSV-bestand downloaden met alleen koppen** en voer vervolgens de informatie voor de verkoper in. Als u een voorbeeld wilt zien, kiest u **Een CSV-bestand downloaden met koppen en voorbeeldgegevens van gebruikers**. Nadat u de gegevens hebt ingevoerd over de gebruikers, is de volgende stap bij het importproces de gebruikerslicenties toe te wijzen aan het Dynamics 365 Customer Engagement-plan.  
+### Minimum Permissions for the Administrator
+The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
 
-Nadat u gebruikers hebt geïmporteerd en aan hen licenties hebt toegewezen voor Dynamics 365 Customer Engagement, moet u de gebruikers aan de rol **Verkoper** toewijzen in [!INCLUDE[crm_md](includes/crm_md.md)].
-
-![Verkopers koppelen aan gebruikers in Dynamics 365 Sales](media/couple-salespeople.png "Visualisatie van koppeling van verkopers aan gebruikers in Dynamics 365 Sales")
-
-## <a name="minimum-permissions-for-user-accounts-in-crm_md"></a>Minimale machtigingen voor gebruikersaccounts in [!INCLUDE[crm_md](includes/crm_md.md)]
-Wanneer u de integratieoplossing installeert, worden machtigingen voor het integratiegebruikersaccount geconfigureerd in [!INCLUDE[crm_md](includes/crm_md.md)]. Als deze machtigingen zijn gewijzigd, moet u deze mogelijk opnieuw instellen. U kunt dat doen door de integratieoplossing opnieuw te installeren of door deze handmatig opnieuw in te stellen. De volgende tabellen bevatten de minimale machtigingen voor de gebruikersaccounts in [!INCLUDE[crm_md](includes/crm_md.md)].
-
-### <a name="integration-administrator"></a>Integratiebeheerder
-In de volgende tabel worden de minimale machtigingen voor elk tabblad weergegeven voor elke beveiligingsrol die vereist is voor de beheerder.
-
-##### <a name="customization"></a>Aanpassing
-|Beveiligingsrol|Toegangsniveau|Dynamics NAV 2018 en eerder|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Customization
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Modelgestuurde app|Globaal|||Lezen|
-|Invoegtoepassingsassembly|Globaal|Lezen|Lezen|Lezen|
-|Type invoegtoepassing|Globaal|Lezen|Lezen|Lezen|
-|Relatie|Globaal|||Lezen|
-|SDK-bericht|Globaal|Lezen|Lezen|Lezen|
-|Verwerkingsstap van SDK-bericht|Globaal|Lezen|Lezen|Lezen|
-|Afbeelding van verwerkingsstap van SDK-bericht|Globaal|Lezen|Lezen|Lezen|
-|Systeem van|Globaal|||Schrijven|
+|Model Driven App|Global|||Read|
+|Plugin Assembly|Global|Read|Read|Read|
+|Plugin Type|Global|Read|Read|Read|
+|Relationship|Global|||Read|
+|SDK Message|Global|Read|Read|Read|
+|SDK Message Proessing Step|Global|Read|Read|Read|
+|SDK Message Proessing Step Image|Global|Read|Read|Read|
+|System From|Global|||Write|
 
-##### <a name="custom-entities"></a>Aangepaste entiteiten
-|Beveiligingsrol|Toegangsniveau|Dynamics NAV 2018 en eerder|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2020|
 |----|----|-----|----|----|
-|Business Central-accountstatistieken|Globaal|Lezen|Lezen|Lezen|
-|Business Central-verbinding|Globaal|Maken, lezen, schrijven, verwijderen|Maken, lezen, schrijven, verwijderen|Maken, lezen, schrijven, verwijderen|
-|Configuratie boeken|Globaal|||Schrijven|
+|Business Central Account Statistics|Global|Read|Read|Read|
+|Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
+|Post Configuration|Global|||Write|
 
-#### <a name="integration-user"></a>Integratiegebruiker
-In de volgende tabel worden de minimale machtigingen voor elk tabblad weergegeven voor elke beveiligingsrol die vereist is voor de integratiegebruiker.
+### Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
+The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user.
 
-##### <a name="core-records"></a>Kernrecords
-|Beveiligingsrol|Toegangsniveau|Dynamics NAV 2018 en eerder|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Core Records
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Rekening|Globaal|Maken, lezen, schrijven, toevoegen, toevoegen aan, toewijzen|Maken, lezen, schrijven, toevoegen, toevoegen aan, toewijzen|Maken, lezen, schrijven, toevoegen, toevoegen aan, toewijzen|
-|Actiekaart|Globaal||Lezen|Lezen|
-|Verbinding|Globaal|Lezen|Lezen|Lezen|
-|Contactpersoon|Globaal|Maken, lezen, schrijven, toevoegen, toevoegen aan|Maken, lezen, schrijven, toevoegen, toevoegen aan|Maken, lezen, schrijven, toevoegen, toevoegen aan|
-|Opmerking|Globaal|||Maken, lezen, schrijven, verwijderen, toevoegen, toewijzen|
-|Opportunity|Globaal||Maken, lezen, schrijven, toevoegen, toevoegen aan|Maken, lezen, schrijven, toevoegen, toevoegen aan|
-|Post|Globaal|||Maken, lezen, toevoegen aan|
-|UI van gebruikersentiteit|Gebruiker|Maken, lezen, schrijven|Maken, lezen, schrijven|Maken, lezen, schrijven|
+|Account|Global|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|
+|Action Card|Global||Read|Read|
+|Connection|Global|Read|Read|Read|
+|Contact|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Note|Global|||Create, Read, Write, Delete Append, Assign|
+|Opportunity|Global||Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Post|Global|||Create, Read, Append To|
+|User Entity UI|User|Create, Read, Write|Create, Read, Write|Create, Read, Write|
 
-##### <a name="sales"></a>Verkoop
-|Beveiligingsrol|Toegangsniveau|Dynamics NAV 2018 en eerder|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Sales
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Factureren|Globaal|Maken, lezen, schrijven, toevoegen, toevoegen aan|Maken, lezen, schrijven, toevoegen, toevoegen aan|Maken, lezen, schrijven, toevoegen, toevoegen aan|
-|Order|Globaal|Lezen, schrijven, toevoegen aan|Lezen, schrijven, toevoegen aan|Lezen, schrijven, toevoegen, toevoegen aan, toewijzen|
-|Product|Globaal|Maken, lezen, schrijven, toevoegen, toevoegen aan|Maken, lezen, schrijven, toevoegen, toevoegen aan|Maken, lezen, schrijven, toevoegen, toevoegen aan|
-|Eigenschap|Globaal|Lezen|Lezen|Lezen|
-|Eigenschapkoppeling|Globaal|Lezen|Lezen|Lezen|
-|Item van eigenschapoptieset|Globaal|Lezen|Lezen|Lezen|
-|Offerte|Globaal|Lezen|Lezen|Lezen|
+|Invoice|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Order|Global|Read, Write, Append To|Read, Write, Append To|Read, Write, Append, Append To, Assign|
+|Product|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Property|Global|Read|Read|Read|
+|Property Association|Global|Read|Read|Read|
+|Property Option Set Item|Global|Read|Read|Read|
+|Quote|Global|Read|Read|Read|
 
-##### <a name="service"></a>Onderhoud
-|Beveiligingsrol|Toegangsniveau|Dynamics NAV 2018 en eerder|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Service
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Aanvraag|Globaal|Lezen|Lezen|Lezen|
+|Case|Global|Read|Read|Read|
 
-##### <a name="business-management"></a>Bedrijfsmanagement
-|Beveiligingsrol|Toegangsniveau|Dynamics NAV 2018 en eerder|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Business Management
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Valuta|Globaal|Maken, lezen, schrijven|Maken, lezen, schrijven|Maken, lezen, schrijven|
-|Organisatie|Globaal|Lezen, schrijven|Lezen, schrijven|Lezen, schrijven|
-|Beveiligingsrol|Globaal|||Lezen|
-|Gebruiker|Globaal|Maken, lezen, schrijven, toevoegen, toevoegen aan|Maken, lezen, schrijven, toevoegen, toevoegen aan|Maken, lezen, schrijven, toevoegen, toevoegen aan|
-|Gebruikersinstellingen|Globaal|Maken, lezen, schrijven, verwijderen, toevoegen aan|Maken, lezen, schrijven, verwijderen, toevoegen aan|Maken, lezen, schrijven, verwijderen, toevoegen aan|
-|Handelen namens een andere gebruiker|Globaal|Ja|Ja|Ja|
+|Currency|Global|Create, Read, Write|Create, Read, Write|Create, Read, Write|
+|Organization|Global|Read, Write|Read, Write|Read, Write|
+|Security Role|Global|||Read|
+|User|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|User Settings|Global|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|
+|Act on Behalf of Another User|Global|Yes|Yes|Yes|
 
-##### <a name="customization"></a>Aanpassing
-|Beveiligingsrol|Toegangsniveau|Dynamics NAV 2018 en eerder|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Customization
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Veld|Globaal||Lezen|Lezen|
-|Invoegtoepassingsassembly|Globaal|Lezen|Lezen|Lezen|
-|Type invoegtoepassing|Globaal|Lezen|Lezen|Lezen|
-|SDK-bericht|Globaal|Lezen|Lezen|Lezen|
-|Verwerkingsstap van SDK-bericht|Globaal|Lezen|Lezen|Lezen|
-|Webresource|Globaal|Lezen|Lezen|Lezen|
+|Field|Global||Read|Read|
+|Plug-in Assembly|Global|Read|Read|Read|
+|Plug-in Type|Global|Read|Read|Read|
+|SDK Message|Global|Read|Read|Read|
+|SDK Message Processing Step|Global|Read|Read|Read|
+|Web Resource|Global|Read|Read|Read|
 
-##### <a name="custom-entities"></a>Aangepaste entiteiten
-|Beveiligingsrol|Toegangsniveau|Dynamics NAV 2018 en eerder|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Dynamics 365 Business Central-accountstatistiek|Globaal|Maken, lezen, schrijven, toevoegen aan|Maken, lezen, schrijven, toevoegen aan|Maken, lezen, schrijven, toevoegen aan|
-|Dynamics 365 Business Central-verbinding|Globaal|Lezen|Lezen|Lezen|
+|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
+|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
 
-### <a name="product-availability-user"></a>Gebruiker van productbeschikbaarheid
-U kunt verkoopmedewerkers toestaan voorraadniveaus te bekijken voor de artikelen die ze verkopen door ze de machtigingen te verlenen die worden beschreven in de volgende tabel.
+### Product Availability User
+You can allow sales people to view inventory levels for the items they sell by granting them the permissions described in the following table.
 
-##### <a name="custom-entities"></a>Aangepaste entiteiten
-|Beveiligingsrol|Toegangsniveau|Dynamics NAV 2018 en eerder|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Dynamics 365 Business Central-accountstatistiek|Globaal|Maken, lezen, schrijven, toevoegen aan|Maken, lezen, schrijven, toevoegen aan|Maken, lezen, schrijven, toevoegen aan|
-|Dynamics 365 Business Central-verbinding|Globaal|Lezen|Lezen|Lezen|
+|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
+|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
+
+-->
 
 ## <a name="see-also"></a>Zie ook  
+[Integreren met Microsoft Dataverse](admin-common-data-service.md)  
 [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,22 @@
 ---
-title: Overzicht van taken om aan servicecontracten te voldoen | Microsoft Docs
-description: Hier worden de taken voor het beheren van servicecontracten met klanten beschreven.
+title: Overzicht van taken om aan servicecontracten te voldoen
+description: Geeft een overzicht van taken die betrokken zijn bij het vervullen van servicecontracten met uw klanten, zoals het opzetten van standaard contractuele overeenkomsten met aanpasbare sjablonen en meer.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0290246fa9fa648a9d0ff4ede4c71464b3208017
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910367"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140617"
 ---
 # <a name="fulfilling-service-contracts"></a>Servicecontracten voldoen 
 Een van de manieren waarop u servicebeheerdiensten kunt bieden, is door middel van het gebruik van standaard contractuele overeenkomsten tussen u en uw klanten, waarin het serviceniveau en de serviceverwachtingen zijn uiteengezet. U kunt contractsjablonen maken waarin de benodigde gegevens, zoals de klant, de ingangsdatum van het contract en de factureringsperiode, zijn opgenomen.  
@@ -37,3 +36,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Service leveren](service-deliver-service.md)  
 [CRM - Service instellen](service-setup-service.md)  
 [Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,26 +1,25 @@
 ---
-title: Toepassingsnaleving | Microsoft Docs
-description: Deze inhoud bevat informatie over toepassingsnaleving in verband met Business Central.
+title: Toepassingsnaleving
+description: Dit onderwerp beschrijft de toepassingsnaleving in verband met Business Central, zoals de International Financial Reporting Standards, lokale functionaliteit en AVG.
 author: sorenfriisalexandersen
 documentationcenter: ''
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/21/2020
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: c4c3beda4ef5febd6b938b61fcd9f6fac774d10e
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 7d264ae88d1f9743d7e30994ee0e39f19a5febbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611496"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139871"
 ---
 # <a name="application-compliance"></a>Toepassingsnaleving
 
-Deze inhoud bevat informatie over toepassingsnaleving in verband met [!INCLUDE[d365fin](../includes/d365fin_md.md)], zoals de International Financial Reporting Standards, lokale functionaliteit, GDPR, enzovoort. Vertrouwen in een oplossing voor bedrijfsbeheer is de sleutel tot een efficiënt bedrijf. Met Business Central kunnen bedrijven bedrijfsprocessen stroomlijnen en tegelijkertijd consistent en kosteneffectief voldoen aan toenemende vereisten op het gebied van regelgeving en rapportage.
+Deze inhoud bevat informatie over toepassingsnaleving in verband met [!INCLUDE[prod_short](../includes/prod_short.md)], zoals de International Financial Reporting Standards, lokale functionaliteit, GDPR, enzovoort. Vertrouwen in een oplossing voor bedrijfsbeheer is de sleutel tot een efficiënt bedrijf. Met Business Central kunnen bedrijven bedrijfsprocessen stroomlijnen en tegelijkertijd consistent en kosteneffectief voldoen aan toenemende vereisten op het gebied van regelgeving en rapportage.
 
 ## <a name="data-privacy"></a>Gegevensprivacy
 
@@ -77,7 +76,6 @@ Lever geïntegreerde gegevens, uitgelijnde processen en gemakkelijk te gebruiken
 - Tijd besparen wanneer u standaardrapporten maakt die veelgebruikte bedrijfsparameters en -criteria gebruiken om te voldoen aan gebruikelijke rapportagebehoeften, variërend van orderoverzichten tot vervallende tegoeden.
 - Complexe controles uitvoeren met elementaire of geavanceerde functionaliteit voor bedrijfsanalyse.
 - Maak aangepaste rapporten en weergave in producten en met behulp van integratie met Microsoft PowerBI.
-- Transmissie versnellen van financiële informatie naar klanten, aandeelhouders, regelgevende bureaus en het publiek, met op XML gebaseerde XBRL-documenten die de uitwisseling van financiële gegevens ondersteunen via uiteenlopende software en technologie, inclusief internet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Helpen zorgen voor duidelijke audittrails
 
@@ -108,5 +106,8 @@ Microsoft maakt gelokaliseerde versies van Business Central voor een beperkt aan
 [Servicenaleving](compliance-service-compliance.md)  
 [Certificeringen](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

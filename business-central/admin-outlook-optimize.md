@@ -2,7 +2,6 @@
 title: Outlook optimaliseren voor uw bedrijfsinbox
 description: Meer informatie over wat u kunt doen om de ervaring met de bedrijfsinbox te verbeteren in Microsoft Outlook.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 1726162e25b3a488df0d179c702c9c99afcc5c91
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6064868"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143984"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Outlook optimaliseren voor uw bedrijfsinbox 
 
@@ -50,7 +49,7 @@ Om te controleren of u Microsoft Edge WebView2 hebt geïnstalleerd op een comput
 
 Vanuit het startmenu:
 
-1. Kies **Start** ![Windows Start](media/windows-start-icon.png "Pictogram Windows Start") > **Instellingen** ![Windows-instellingen](media/windows-settings-icon.png "Pictogram Windows-instellingen") > **Apps en functies**.
+1. Kies **Start** ![Windows start.](media/windows-start-icon.png "Pictogram Windows Start") > **Instellingen** ![Windows-instellingen](media/windows-settings-icon.png "Pictogram Windows-instellingen") > **Apps en functies**.
 2. Typ **WebView2** in het zoekvak. Als Microsoft Edge WebView2 is geïnstalleerd, ziet u een item met de naam **Microsoft Edge WebView2 Runtime**.
 
 Vanuit het Configuratiescherm:

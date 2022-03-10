@@ -1,22 +1,21 @@
 ---
-title: WorldPay Payments Standard| Microsoft Docs
-description: Bevat informatie over de extensie WorldPay Payments Standard
+title: WorldPay Payments Standard
+description: Met de extensie WorldPay Payments Standard biedt u klanten een eenvoudig alternatief voor het doen van betalingen door middel van overschrijving of creditcard.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: a5e9d7d5c03ddb71283f82e5096cebc7f9da9690
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dfb523d70938cd4110cca9f963de05bdf8033623
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771272"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132406"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>De extensie WorldPay Payments Standard
 Met de extensie WorldPay Payments Standard biedt u klanten een eenvoudig alternatief voor het doen van betalingen door middel van overschrijving of creditcard. Daarnaast komen betalingen via betalingsservices doorgaans sneller aan op uw bankrekening.

@@ -1,21 +1,20 @@
 ---
 title: Reageren op aanvragen over persoonlijke gegevens
-description: U moet reageren op aanvragen van gegevensonderwerpen.
+description: In dit onderwerp leest u hoe u kunt reageren op verzoeken over persoonlijke gegevens. Dit wordt een aanvraag van een gegevensonderwerp genoemd.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: cdab3e07d2f522be01a6bd1096ae724d824b52bf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385361"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148862"
 ---
-# <a name="responding-to-requests-about-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens  
+# <a name="responding-to-requests-about-users-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens van gebruikers  
 Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt geclassificeerd en zeker weet dat deze correct zijn, kan een beheerder op verzoeken reageren met behulp van de opties onder het tabblad **Gegevensprivacy** in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[prod_long](includes/prod_long.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Soorten aanvragen
@@ -35,7 +34,7 @@ De volgende tabel bevat voorbeelden van de typen aanvragen waarop u kunt reagere
 Een gegevensonderwerp kan aanvragen dat u tijdelijk stopt met verwerking van de persoonlijke gegevens. Als u dergelijke aanvragen honoreert, kunt u de record van het gegevensonderwerp registreren als geblokkeerd vanwege privacy om de verwerking van de gegevens te stoppen. Wanneer een record als geblokkeerd is gemarkeerd, kunt u geen nieuwe transacties maken die de record gebruiken. Bijvoorbeeld, u kunt geen nieuwe factuur voor een klant maken wanneer de klant of de verkoper is geblokkeerd. Als u een gegevensonderwerp als geblokkeerd wilt markeren, opent u de kaart voor het gegevensonderwerp, bijvoorbeeld de klanten-, leveranciers- of contactkaart en schakelt u het selectievakje **Geblokkeerd vanwege privacy** in. U moet mogelijk **Meer tonen** kiezen om het veld weer te geven.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Aanvragen van gegevensonderwerpen afhandelen tijdens een proef
-Bepaalde soorten persoonlijke gegevens maken deel uit van uw Microsoft 365-account en vereisen administratieve toegang om te worden geëxporteerd als u een aanvraag van een gegevensonderwerp van een gebruiker ontvangt met betrekking tot dit type persoonlijke gegevens onder de Algemene verordening gegevensbescherming. Het proces voor het afhandelen van aanvragen van gegevensonderwerpen verschilt afhankelijk van het type [!INCLUDE[prod_short](includes/prod_short.md)]-tenant.  
+Bepaalde soorten persoonlijke gegevens maken deel uit van uw Microsoft 365-account en vereisen administratieve toegang om te worden geëxporteerd als u een aanvraag van een gegevensonderwerp van een gebruiker ontvangt met betrekking tot dit type persoonlijke gegevens onder de Algemene verordening gegevensbeschermingverordening. Het proces voor het afhandelen van aanvragen van gegevensonderwerpen verschilt afhankelijk van het type [!INCLUDE[prod_short](includes/prod_short.md)]-tenant.  
 
 Als u een betaald abonnement voor [!INCLUDE[prod_short](includes/prod_short.md)] hebt, moet u contact met de tenantbeheerder van uw organisatie opnemen om een aanvraag van een gegevensonderwerp te doen. De beheerder heeft de administratieve rechten en hulpmiddelen om uw aanvraag af te handelen.  
 

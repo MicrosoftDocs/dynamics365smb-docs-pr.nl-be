@@ -1,21 +1,21 @@
 ---
-title: Conversie van bankgegevens instellen| Microsoft Docs
+title: Conversie voor bankgegevens instellen
 description: U kunt bankrekeningen instellen om transacties bij te houden en bankfeeds, zoals Yodlee, te importeren of exporteren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
-ms.date: 10/01/2020
+ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8be8c83c4cad5029a31b09fec482fa534741c840
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4e601eb57aebd831e85c20449d32b0e52acb387a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376599"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148784"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>De extensie AMC Banking 365 Fundamentals instellen
 Een algemene provider van services om betalingsgegevens naar elke willekeurige gegevensindeling te converteren die uw bank vereist, is verbonden en gereed om te worden ingeschakeld in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit wordt in [!INCLUDE[prod_short](includes/prod_short.md)] de extensie AMC Banking 365 Fundamentals genoemd.
@@ -32,7 +32,7 @@ Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening 
 > De extensie AMC Banking 365 Fundamentals kan een limiet stellen aan het aantal regels dat in één bestand kan worden geëxporteerd. Er wordt een foutbericht gestuurd als de limiet wordt overschreden. U wordt aangeraden alleen te werken met bankafschriftbestanden die maximaal 1000 regels bevatten omdat anders de verwerkingstijd in de extensie AMC Banking 365 Fundamentals beduidend kan toenemen.
 
 ## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Uw bedrijf aanmelden bij de extensie AMC Banking 365 Fundamentals
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Conversieservice voor bankgegevens instellen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling gegevensconv.service bank** in en kies vervolgens de gerelateerde koppeling.  
 2. De pagina **Instelling gegevensconv.service bank** wordt geopend met drie vooraf ingevulde velden met relevante URL's van de provider van de extensie AMC Banking 365 Fundamentals.
 
     > [!NOTE]  
@@ -49,7 +49,7 @@ Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening 
 > Uw aanmeldgegevens worden automatisch versleuteld.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>De lijst met momenteel ondersteunde bankgegevensindelingen weergeven of bijwerken
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Conversieservice voor bankgegevens instellen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling gegevensconv.service bank** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Instelling gegevensconv.service bank** de actie **Banknaam - Gegevensconversielijst** om de lijst met banknamen te openen die bankgegevensindelingen vertegenwoordigen die door de conversieservice worden ondersteund.
 3. Kies op de pagina **Banknaam - Gegevensconversielijst** de actie **Banknaamlijst bijwerken**.
 

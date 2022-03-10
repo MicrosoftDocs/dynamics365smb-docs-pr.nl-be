@@ -1,28 +1,25 @@
 ---
-title: Een voorbeeld van posten bekijken voordat u een document of dagboek boekt | Microsoft Docs
+title: Een voorbeeld van posten bekijken voordat u een document of dagboek boekt
 description: U kunt ervoor zorgen dat posten voor documenten en dagboeken correct zijn voordat u ze naar het grootboek boekt.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 9cb6047a5293a3134a433ea9610e31dca5943e1d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0b367c59b3d9be298fa7f42fe0b94018d99c94a5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249342"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148238"
 ---
 # <a name="preview-posting-results"></a>Voorbeeld van boekingsresultaten weergeven
 In elk document en elk dagboek die kunnen worden geboekt, kunt u de knop **Voorbeeld van boeking weergeven** kiezen om de verschillende soorten posten te bekijken die worden gemaakt wanneer u het document of het dagboek boekt.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Een voorbeeld weergeven van grootboekposten die resulteren na boeking van een inkoopfactuur
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een inkoopfactuur. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 3. Kies **Voorbeeld van boeking weergeven**.
 4. Selecteer op de pagina **Voorbeeld van boeking weergeven** **Grootboekpost** en kies vervolgens **Verwante posten weergeven**.  
@@ -30,5 +27,8 @@ In elk document en elk dagboek die kunnen worden geboekt, kunt u de knop **Voorb
 
 ## <a name="see-also"></a>Zie ook
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

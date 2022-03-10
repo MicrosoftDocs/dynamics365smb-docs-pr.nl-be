@@ -2,20 +2,19 @@
 title: Inkomende documenten instellen| Microsoft Docs
 description: Gebruik de functie inkomende documenten om elektronische documenten te maken, OCR-taken te beheren, facturen te importeren en afbeeldingsbestanden te converteren.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 08/10/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7438502e14d1aa0eecdd56db0eb4ae2f2790413a
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: b35eeb057566b9dde9141e9295b45a4dd7c5b7e7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677128"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134316"
 ---
 # <a name="set-up-incoming-documents"></a>Inkomende documenten instellen
 
@@ -23,13 +22,13 @@ Als u dagboekregels van inkomende documentrecords maakt, moet u op de pagina **I
 
 Als u niet wilt dat gebruikers facturen of dagboekregels maken van inkomende documentrecords, tenzij de documenten zijn goedgekeurd, moet u werkstroomfiatteurs instellen.
 
-Als u PDF- en afbeeldingsbestanden naar elektronische documenten wilt omzetten waarnaar u kunt converteren, bijvoorbeeld inkoopfacturen in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u eerst de OCR-functie instellen en de service inschakelen. Kies een servicepakket dat past bij uw organisatie en/of land/regio. U kunt ook handmatig items maken die de externe documenten vertegenwoordigen.  
+Als u PDF- en afbeeldingsbestanden naar elektronische documenten wilt omzetten waarnaar u kunt converteren, bijvoorbeeld inkoopfacturen in [!INCLUDE[prod_short](includes/prod_short.md)], moet u eerst de OCR-functie instellen en de service inschakelen. Kies een servicepakket dat past bij uw organisatie en/of land/regio. U kunt ook handmatig items maken die de externe documenten vertegenwoordigen.  
 
 Wanneer de functie Inkomende documenten is ingesteld, kunt u verschillende functies gebruiken om onkostenbewijzen te controleren, OCR-taken te beheren en inkomende documentbestanden handmatig of automatisch te converteren naar de relevante documenten of dagboekregels. De externe bestanden kunnen worden gekoppeld in elke procesfase, inclusief naar geboekte documenten en naar de resulterende leverancier, klant en grootboekposten. Zie [Inkomende documenten verwerken](across-process-income-documents.md) voor meer informatie.
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>De functie Inkomende documenten instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen inkomende documenten** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instellingen inkomende documenten** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Als onderdeel van de instelling moet u beslissen of u goedkeuring van inkomende documenten wilt hebben. Om goedkeuring te vereisen moet u goedkeurders en goedkeuringswerkstromen instellen. Als uw organisatie niet van plan is goedkeuring te vereisen, kunt u de volgende sectie overslaan.  
@@ -44,7 +43,7 @@ Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomge
 
 ## <a name="to-set-up-an-ocr-service"></a>Een OCR-service instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **OCR-service-instellingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **OCR-service instellen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -57,4 +56,7 @@ Zie [OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektroni
 [Inkomende documenten verwerken](across-process-income-documents.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

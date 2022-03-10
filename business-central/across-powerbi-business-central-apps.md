@@ -2,20 +2,19 @@
 title: Business Central-apps gebruiken in Power BI| Microsoft Docs
 description: Inzicht, bedrijfsinformatie en KPI's krijgen uit uw Business Central-gegevens is gemakkelijk met Business Central-apps voor Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 479fa9897d817075aec8d2d6fd9431dbe49ab162
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754329"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134160"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
 
@@ -63,7 +62,7 @@ Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u 
 1. Open uw browser, ga naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com) en meld u aan bij uw account.
 2. Selecteer **Gegevens ophalen** onder in het linkernavigatiedeelvenster.  
 
-    ![Navigeren om gegevens op te halen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Navigeren om gegevens op te halen.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     U kunt ook aan de slag gaan vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. Navigeer vanaf uw startpagina naar **Rapportselectie** in de sectie Power BI. Selecteer **Service** of **Mijn organisatie** vanuit het lint. Nu wordt de Organisatiegalerie in Power BI of Microsoft AppSource geopend en hierin is een filter toegepast, zodat alleen die apps worden weergegeven die zijn gerelateerd aan [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -89,7 +88,7 @@ Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u 
 5. Voer desgevraagd de gebruikersnaam en het wachtwoord in om u aan te melden bij [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Eenmaal verbonden worden een dashboard en rapporten aan uw Power BI-werkruimte toegevoegd. Wanneer dit is voltooid, bevatten de tegels gegevens uit uw [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijf.
 
-    ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Problemen oplossen
 
@@ -161,14 +160,17 @@ De Power BI-app toont alleen gegevens van het [!INCLUDE[prod_short](includes/pro
 [Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md)  
 [Power BI voor consumenten](/power-bi/consumer/end-user-consumer)  
 [De 'nieuwe look' van de Power BI-service](/power-bi/service-new-look)  
-[Snelle start: Uw gegevens verbinden in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Snelle start: verbinding maken met uw gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-documentatie](/power-bi/)  
 [Bedrijfsinformatie](bi.md)  
-[Aan de slag](product-get-started.md)  
+[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power Apps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

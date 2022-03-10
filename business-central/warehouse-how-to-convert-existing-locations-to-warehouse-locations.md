@@ -1,23 +1,20 @@
 ---
 title: Converteren van bestaande locaties naar magazijnlocaties | Microsoft Docs
 description: U kunt een bestaande voorraadvestiging zones en opslaglocaties laten gebruiken en laten functioneren als een magazijnvestiging.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 6319abc70c30117f7789852495501f0ef7605f49
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d8c87884b359c02815187ab6b5c994ebccce119f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310470"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140123"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Bestaande locaties converteren naar magazijnlocaties
 U kunt een bestaande voorraadvestiging zones en opslaglocaties laten gebruiken en laten functioneren als een magazijnvestiging.  
@@ -30,7 +27,7 @@ U kunt voor of na de omzetting zones en opslaglocaties maken. De enige opslagloc
 >  Voordat u de locatie omzet voor magazijnactiviteiten, kunt u alle negatieve voorraad en open magazijndocumenten leegmaken door een rapport te draaien dat voor de locatie de artikelen met negatieve voorraad en open magazijndocumenten aangeeft. Zie voor meer informatie Op negatieve voorraad controleren.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Een bestaande vestiging als een magazijnvestiging laten functioneren  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnvestiging maken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnvestiging maken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Geef in het veld **Locatiecode** de locatie op die geschikt moet zijn voor magazijnverwerking.  
 3.  Geef in het veld **Wijzig opslaglocatiecode** de opslaglocatie op van de locatie waar de niet-gesynchroniseerde magazijnposten worden opgeslagen. Zie voor meer informatie [De aangepaste magazijnposten synchroniseren met de gerelateerde artikelposten](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 
@@ -50,4 +47,7 @@ U kunt voor of na de omzetting zones en opslaglocaties maken. De enige opslagloc
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

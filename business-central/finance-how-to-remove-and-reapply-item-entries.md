@@ -1,21 +1,20 @@
 ---
-title: 'Procedure: artikelposten verwijderen en opnieuw toepassen | Microsoft Docs'
+title: Artikelposten verwijderen en opnieuw toepassen
 description: U kunt bepaalde artikelvereffeningsposten die automatisch worden gemaakt tijdens voorraadtransacties inzien en handmatig wijzigen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 506, 521, 9125
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ec0aba869d2a171e12c42822ecf1726ed4ac81e
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 61998453cb7bd31608dd18e156ca52b5f3f11b71
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587927"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138003"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Artikelposten verwijderen en opnieuw toepassen
 U kunt op de pagina **Vereffeningsvoorstel** bepaalde artikelvereffeningsposten die automatisch worden gemaakt tijdens voorraadtransacties inzien en handmatig wijzigen.  

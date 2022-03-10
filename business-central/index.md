@@ -1,59 +1,117 @@
 ---
-title: Kennismaken met Microsoft Dynamics 365 Business Central
-description: Leer meer over de mogelijkheden en werkscenario's in Business Central, een beheeroplossing voor kleine en middelgrote organisaties.
+title: Welkom bij Microsoft Dynamics 365 Business Central
+description: Lees meer over mogelijkheden en werkscenario's in Business Central waarmee bedrijven hun bedrijf kunnen beheren, inclusief financiën, productie, verkoop, verzending, projectbeheer, services en meer.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2b34e29f13cf569d4bee7040f89402712785a525
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922956"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138504"
 ---
-# <a name="welcome-to-d365fin_long"></a>Welkom bij [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="welcome-to-prod_long"></a>Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Met [!INCLUDE[d365fin](includes/d365fin_md.md)], dat in hoge mate aanpasbaar is en uitgebreide functies biedt, kunnen bedrijven hun bedrijfsvoering, waaronder financiën, productie, verkoop, verzending, projectmanagement, services en meer, beheren. Bedrijven kunnen op eenvoudige wijze functionaliteit toevoegen die relevant is voor het toepassingsgebied en die is aangepast om zelfs aan zeer gespecialiseerde sectoren ondersteuning te bieden.
+[!INCLUDE[prod_short](includes/prod_short.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Met [!INCLUDE[prod_short](includes/prod_short.md)], dat in hoge mate aanpasbaar is en uitgebreide functies biedt, kunnen bedrijven hun bedrijfsvoering, waaronder financiën, productie, verkoop, verzending, projectmanagement, services en meer, beheren. Bedrijven kunnen op eenvoudige wijze functionaliteit toevoegen die relevant is voor het toepassingsgebied en die is aangepast om zelfs aan zeer gespecialiseerde sectoren ondersteuning te bieden.  
 
-Als u dat al hebt gedaan [!INCLUDE[prodshort](includes/prodshort.md)], meld u dan aan bij [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Start anders een [gratis proefversie](https://go.microsoft.com/fwlink/?linkid=847861). Zie voor meer informatie over onboarding [!INCLUDE[prodshort](includes/prodshort.md)] [Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] is snel te implementeren, gemakkelijk te configureren en eenvoud is het leidende principe achter innovatie van productontwerp, ontwikkeling, implementatie en bruikbaarheid. In het navigatiepaneel links vindt u informatie over het gebruik van [!INCLUDE[d365fin](includes/d365fin_md.md)] in uw bedrijf.  
-
-Sommige belangrijke artikelen worden ook vermeld in het eerste gedeelte van de volgende tabel. En als u een partner of klant bent die de functionaliteit wil uitbreiden, vindt u relevante koppelingen in het gedeelte **Ontwikkelings- en beheerinhoud**. Als u nieuw bent bij [!INCLUDE [prodshort](includes/prodshort.md)], raden we u aan te beginnen met het leertraject [Aan de slag met Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) op Microsoft Learn.  
-
-|||  
-|-|-|  
-|**Zakelijke processen**|-   [Aan de slag](product-get-started.md)<br />-   [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [[!INCLUDE[d365fin](includes/d365fin_md.md)] instellen](setup.md)<br />-   [Beheer](admin-setup-and-administration.md)<br />-   [Bedrijfsfunctionaliteit](across-business-functionality.md)<br />-   [Lokale functionaliteit](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)<br />-   [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)<br />-   [Ontwerpdetails van toepassing](design-details-application-design.md)<br />- [Business Central aanpassen](ui-customizing-overview.md)|  
-|**Ontwikkeling- en beheerinhoud**|-   [Ontwikkeling en beheerinhoud voor [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Ontwikkeling in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL-ontwikkelomgeving](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regels en richtlijnen voor AL-code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
-|**Communityresources**|-   [Microsoft Dynamics 365 Business Central-community](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central in het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365-releaseplannen](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics 365 Business Central-routekaart](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(vereist PartnerSource-account\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(vereist Microsoft Partner Network-lidmaatschapsaccount\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
+Als u [!INCLUDE[prod_short](includes/prod_short.md)] al hebt, meld u dan aan bij [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Anders [haalt u het overzicht op](https://dynamics.microsoft.com/business-central/overview/), [volgt u de rondleiding](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) en [start u vervolgens een gratis proefversie](https://go.microsoft.com/fwlink/?linkid=847861). Bekijk de [snelstartgids](quick-start-business-central.md)artikelen om u te helpen kennis te maken met [!INCLUDE [prod_short](includes/prod_short.md)]. Voor meer informatie over onboarding bij [!INCLUDE[prod_short](includes/prod_short.md)] zie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 > [!TIP]
-> Als u niet zeker weet waar u kunt vinden wat u zoekt, kunt u *filteren op titels* in het navigatievenster aan de linkerkant, of u kunt het veld **Zoeken** boven aan het browservenster gebruiken.
+> Bent u hier beland vanuit [!INCLUDE [prod_short](includes/prod_short.md)]? Als u niet zeker weet waar u kunt vinden wat u zoekt, kunt u **filteren op titels** in het navigatievenster aan de linkerkant of u kunt het veld **Zoeken** boven aan het browservenster gebruiken.  
+>
+> U kunt ook de zoekmogelijkheden gebruiken in [!INCLUDE [prod_short](includes/prod_short.md)] om relevante documentatie te vinden. Zie voor meer informatie [Pagina's en informatie zoeken met Vertel me](ui-search.md).
+
+## <a name="overview"></a>Overzicht
+
+[!INCLUDE[prod_short](includes/prod_short.md)] is snel te implementeren, gemakkelijk te configureren en eenvoud is het leidende principe achter innovatie van productontwerp, ontwikkeling, implementatie en bruikbaarheid. In het navigatiepaneel links vindt u informatie over het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)] in uw bedrijf. Vind koppelingen naar beschrijvingen van de meest gebruikte mogelijkheden in het gedeelte [Bedrijfsprocessen](#business-processes).  
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
+
+U kunt ook [onze videobibliotheek bezoeken](across-videos.md) of beginnen met het leertraject [Aan de slag met Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) op [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Tenzij anders aangegeven, weerspiegelt de inhoud op de Docs.microsoft.com-site de nieuwste versie van [!INCLUDE[prodshort](includes/prodshort.md)] online. Als uw organisatie een andere versie van [!INCLUDE[prodshort](includes/prodshort.md)] online gebruikt, zijn sommige mogelijkheden mogelijk nog niet beschikbaar. Ook als uw organisatie gebruik maakt van [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, gebruikt u mogelijk een eerdere versie. Zie voor meer informatie [Veelgestelde Vragen](across-faq.md).
+> Tenzij anders aangegeven, weerspiegelt de inhoud op de Docs.microsoft.com-site de nieuwste versie van [!INCLUDE[prod_short](includes/prod_short.md)] online. Als uw organisatie een andere versie van [!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt, zijn sommige mogelijkheden mogelijk nog niet beschikbaar. Ook als uw organisatie gebruik maakt van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, gebruikt u mogelijk een eerdere versie. Zie voor meer informatie [Veelgestelde Vragen](across-faq.yml).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
+De volgende secties verwijzen naar belangrijke artikelen die u kunnen helpen vertrouwd te raken met [!INCLUDE [prod_short](includes/prod_short.md)].  
+
+## <a name="business-processes"></a>Zakelijke processen
+
+- [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
+- [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen
+- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Beheer](admin-setup-and-administration.md)
+- [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)
+- [Ontwerpdetails van toepassing](design-details-application-design.md)
+- [Business Central aanpassen](ui-customizing-overview.md)
+- [Bedrijfsfunctionaliteit](across-business-functionality.md)
+
+  - [Financiën](finance.md)
+  - [Verkoop](sales-manage-sales.md)
+  - [Inkoop](purchasing-manage-purchasing.md)
+  - [Voorraad](inventory-manage-inventory.md)
+  - [Projectbeheer](projects-manage-projects.md)
+  - [Overzicht van vaste activa](fa-manage.md)
+  - [Relatiebeheer](marketing-relationship-management.md)
+  - [Human Resources](hr-manage-human-resources.md)
+  - [Productieplanning](production-planning.md)
+  - [Assemblagebeheer](assembly-assemble-items.md)
+  - [Productie](production-manage-manufacturing.md)
+  - [Magazijnbeheer](warehouse-manage-warehouse.md)
+  - [Servicebeheer](service-service.md)
+  - [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+  - [Lokale functionaliteit](about-localization.md)
+
+## <a name="development-and-administration-content"></a>Ontwikkeling- en beheerinhoud
+
+- [Ontwikkeling en beheer](/dynamics365/business-central/dev-itpro/index)
+- [Ontwikkeling in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
+- [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
+- [Regels en richtlijnen voor AL-code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
+
+## <a name="learn"></a>Leren
+
+U vindt gratis e-learning-inhoud voor [!INCLUDE[prod_short](includes/prod_short.md)] op [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+
+U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze videobibliotheek. Zie voor meer informatie [Bezoek onze videobibliotheek](across-videos.md).  
+
+## <a name="community-resources"></a>Communityresources
+
+- [Microsoft Dynamics 365 Business Central-community](https://community.dynamics.com/business)
+- [Microsoft Dynamics 365 Business Central in het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
+- [Microsoft Dynamics 365-releaseplannen](/dynamics365/release-plans/)
+- [Microsoft Dynamics 365 Business Central-routekaart](https://dynamics.microsoft.com/roadmap/business-central/)
+- [Microsoft Partner Network \(vereist Microsoft Partner Network-lidmaatschapsaccount\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
+
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen via een RSS-feed
+
+[!INCLUDE [ua-rss](includes/ua-rss.md)]  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## <a name="see-also"></a>Zie ook
 
-[Aan de slag met [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als mijn bedrijfsinbox in Outlook](admin-outlook.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
+[Dynamics 365 Business Central op Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Snelstartgidsen voor Business Central](quick-start-business-central.md)  
+[Aan de slag met Business Central](ui-get-ready-business.md)  
+[Bezoek onze videobibliotheek](across-videos.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als mijn bedrijfsinbox in Outlook](admin-outlook.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 [Werken met dimensies](finance-dimensions.md)  
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
-[Naleving](compliance/compliance-overview.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]-naleving](compliance/compliance-overview.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]-voorwaarden van online services](compliance/compliance-service-compliance.md#service-terms)  
+[Grote updates en kleine updates van Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dynamics 365-documentatie](/dynamics365/)  
 [Dynamics 365 Business Central op microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
-[Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)  
-[Dynamics 365 Business Central op Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Inleiding in docs.microsoft.com (originele blogpost)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
+[Inleiding in docs.microsoft.com (originele blogpost)](/teamblog/introducing-docs-microsoft-com)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

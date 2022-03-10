@@ -1,25 +1,24 @@
 ---
-title: Voorraadwaardering en kostprijsberekening instellen | Microsoft Docs
-description: In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
+title: Voorraadwaardering en kostprijsberekening instellen
+description: Als u ervoor wilt zorgen dat voorraadkosten correct worden vastgelegd, moet u verschillende velden en pagina's instellen voordat u artikeltransacties gaat maken.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8dd8b86e7ff07b9500c094bd2e570dbb6a371754
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910742"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142093"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Voorraadwaardering en kostprijsberekening instellen
 
 Als u ervoor wilt zorgen dat voorraadkosten correct worden vastgelegd, moet u verschillende velden en pagina's instellen voordat u artikeltransacties gaat maken. Bedrijven kiezen doorgaans een specifieke kostprijsmethode en passen die bijvoorbeeld toe op voorraadartikelen om hen te helpen de waarde van artikelen op voorraad bij te houden.  
 
 > [!TIP]
-> Voor een inleiding in kostenberekening in [!INCLUDE [prodshort](includes/prodshort.md)] raadpleegt u [Over voorraadwaardering](finance-learn-about-costing.md).
+> Voor een inleiding in kostenberekening in [!INCLUDE [prod_short](includes/prod_short.md)] raadpleegt u [Over voorraadwaardering](finance-learn-about-costing.md).
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.
 
@@ -47,3 +46,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen](design-details-changing-costing-methods.md)  
 [Werken met Business Central](ui-work-product.md)  
 [Financiën](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

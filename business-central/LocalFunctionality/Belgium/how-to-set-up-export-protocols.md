@@ -1,25 +1,24 @@
 ---
-title: Exportprotocollen instellen
-description: Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocollen instellen. Exportprotocollen bepalen welke bestandsindeling wordt gegenereerd wanneer u de betaalrun exporteert die door de bank moet worden verwerkt. Elke regel bevat een exportprotocol dat door een code en een beschrijving wordt geïdentificeerd. U kunt zoveel exportprotocollen instellen als nodig is. U moet een exportprotocol voor binnenlandse betalingen, internationale betalingen en SEPA-betalingen binnen en buiten de eurozone instellen.
+title: Exportprotocollen instellen [BE]
+description: Voordat u elektronisch bankieren kunt gebruiken, moet u exportprotocollen instellen die bepalen welke bestandsindeling wordt gegenereerd wanneer u de betaalrun exporteert die door de bank moet worden verwerkt.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a44bc45a1d0809e2ec9fa7951928b52bcb567d7f
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: daa6a537b801c830ccf5098c602da6a841b6caee
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676778"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140076"
 ---
-# <a name="set-up-export-protocols"></a>Exportprotocollen instellen
+# <a name="set-up-export-protocols-in-the-belgian-version"></a>Exportprotocollen instellen in de Belgische versie
 Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocollen instellen. Exportprotocollen bepalen welke bestandsindeling wordt gegenereerd wanneer u de betaalrun exporteert die door de bank moet worden verwerkt. Elke regel bevat een exportprotocol dat door een code en een beschrijving wordt geïdentificeerd. U kunt zoveel exportprotocollen instellen als nodig is. U moet een exportprotocol voor binnenlandse betalingen, internationale betalingen en SEPA-betalingen binnen en buiten de eurozone instellen.  
 
  Met exportprotocollen kunt u de codeunit toewijzen waarmee de controle wordt gedefinieerd die moet worden uitgevoerd voordat de betalingsregels naar een bestand worden geëxporteerd. Daarnaast kunt u het rapport toewijzen waarmee de betalingsindeling wordt gedefinieerd. U kunt bijvoorbeeld een exportprotocol met de naam **DOM1** hebben. Dit exportprotocol bevat de codeunit voor de controle **Binnenlandse betalingen controleren** en het rapport **Binnenlandse betalingen indienen**. Elk exportprotocol omvat zowel een controlecodeunit als een bijbehorend rapport, zoals in de volgende tabel wordt weergegeven.  
@@ -36,7 +35,7 @@ Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocoll
 
 ## <a name="to-set-up-an-export-protocol"></a>Een exportprotocol instellen  
 
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Exportprotocollen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Exportprotocollen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul op de pagina **Exportprotocollen** de velden in zoals wordt beschreven in de volgende tabel.  
 
@@ -57,3 +56,6 @@ Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocoll
  [Belgische elektronische betalingen](belgian-electronic-payments.md)   
  [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)   
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,20 +2,20 @@
 title: Met btw werken bij verkoop en inkoop
 description: Dit onderwerp beschrijft de verschillende manieren om met btw te werken, zowel handmatig als met automatische instellingen, om u te helpen aan de landspecifieke regelgeving te voldoen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, sales, purchases,
+ms.search.keywords: VAT, sales, purchases
+ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c4efb0be09769770fdaf8ec0e503018119ce081
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ed3cbe00aac1faf920df6954ee1694bdabce9835
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439447"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133796"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Werken met btw op verkoop en inkoop
 Stel [!INCLUDE[prod_short](includes/prod_short.md)] in om automatisch btw te berekenen in verkoop- en inkoopdocumenten als u in uw land of regio btw in rekening moet brengen voor verkoop- en inkooptransacties, zodat u de bedragen bij de belastingdienst kunt aangeven. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
@@ -87,8 +87,8 @@ U moet de volgende stappen uitvoeren voordat u btw handmatig invoert in een verk
 2. Herhaal stap 1 voor de pagina **Verkoopinstellingen**.
 3. Nadat u de hierboven beschreven instellingen hebt voltooid, kunt u het veld **Btw-bedrag** corrigeren in de regel van het algemene dagboek of het veld **Btw-bedrag tegenrek.** in de verkoop- of inkoopdagboekregel. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt gecontroleerd of het verschil niet groter is dan het opgegeven maximum.  
 
-    > [!NOTE]  
-    > Als het verschil groter is, wordt een waarschuwing weergegeven waarin het maximum toegestane btw-verschil wordt aangegeven. Als u wilt doorgaan, moet u het bedrag wijzigen. Kies **OK** en geef een bedrag op dat binnen het toegestane bereik valt. Als het btw-verschil kleiner dan of gelijk is aan het toegestane maximum, wordt het verschil in [!INCLUDE[prod_short](includes/prod_short.md)] weergegeven in het veld **Btw-verschil**.  
+> [!NOTE]  
+> Als het verschil groter is, wordt een waarschuwing weergegeven waarin het maximum toegestane btw-verschil wordt aangegeven. Als u wilt doorgaan, moet u het bedrag wijzigen. Kies **OK** en geef een bedrag op dat binnen het toegestane bereik valt. Als het btw-verschil kleiner dan of gelijk is aan het toegestane maximum, wordt het verschil in [!INCLUDE[prod_short](includes/prod_short.md)] weergegeven in het veld **Btw-verschil**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Import-btw boeken met inkoopfacturen
 In plaats van dagboeken te gebruiken om een import-btw-factuur te boeken, kunt u een inkoopfactuur gebruiken.  
@@ -120,34 +120,34 @@ Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de
 3. Kies **Details certificaat van levering**.  
 4. Als in de instelling van de btw-boekingsgroep voor de klant het selectievakje **Certificaat van levering vereist** is ingeschakeld, is het veld **Status** standaard ingesteld op **Vereist**. U kunt het veld bijwerken om aan te geven of de klant het certificaat heeft geretourneerd.  
 
-    > [!Note]  
-    >  Als in de instelling van de btw-boekingsgroepsinstelling het selectievakje **Certificaat van levering vereist** niet is ingeschakeld, wordt een record gemaakt en wordt het veld **Status** ingesteld op **Niet van toepassing**. U kunt het veld bijwerken om de juiste statusinformatie weer te geven. U kunt de status indien nodig handmatig van **Niet van toepassing** instellen op **Vereist** en van **Vereist** op **Niet van toepassing**.  
+> [!Note]  
+>  Als in de instelling van de btw-boekingsgroepsinstelling het selectievakje **Certificaat van levering vereist** niet is ingeschakeld, wordt een record gemaakt en wordt het veld **Status** ingesteld op **Niet van toepassing**. U kunt het veld bijwerken om de juiste statusinformatie weer te geven. U kunt de status indien nodig handmatig van **Niet van toepassing** instellen op **Vereist** en van **Vereist** op **Niet van toepassing**.  
 
    Wanneer u het veld **Status** instelt op **Vereist**, **Ontvangen** of **Niet ontvangen**, wordt een certificaat gemaakt.  
 
-    > [!TIP]  
-    >  U kunt de pagina **Certificaten van levering** gebruiken om een weergave te krijgen van de status van alle geboekte verzendingen waarvoor een certificaat van levering is gemaakt.  
+> [!TIP]  
+>  U kunt de pagina **Certificaten van levering** gebruiken om een weergave te krijgen van de status van alle geboekte verzendingen waarvoor een certificaat van levering is gemaakt.  
 
 5. Kies **Certificaat van levering afdrukken**.  
 
-    > [!Note]  
-    >  U kunt een voorbeeld van het document bekijken of het document afdrukken. Wanneer u **Certificaat van levering afdrukken** kiest en het document afdrukt, wordt het selectievakje **Afgedrukt** automatisch ingeschakeld. Als het nog niet is opgegeven, wordt de status van het certificaat bovendien ingesteld op **Vereist**. Zo nodig neemt u het afgedrukte certificaat in de verzending op.  
+> [!Note]  
+>  U kunt een voorbeeld van het document bekijken of het document afdrukken. Wanneer u **Certificaat van levering afdrukken** kiest en het document afdrukt, wordt het selectievakje **Afgedrukt** automatisch ingeschakeld. Als het nog niet is opgegeven, wordt de status van het certificaat bovendien ingesteld op **Vereist**. Zo nodig neemt u het afgedrukte certificaat in de verzending op.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Een certificaat van levering afdrukken  
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte verkoopverzendingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de relevante verkoopverzending aan een klant in een ander EU-land of een andere EU-regio.  
 3. Kies de actie **Certificaat van levering afdrukken**.  
 
-    > [!NOTE]  
-    >  U kunt ook een certificaat afdrukken vanaf de pagina **Certificaat van levering**.  
+> [!NOTE]  
+>  U kunt ook een certificaat afdrukken vanaf de pagina **Certificaat van levering**.  
 
 4. Als u informatie uit de regels in het verzenddocument wilt opnemen in het certificaat, schakelt u het selectievakje **Regeldetails afdrukken** in.  
 5. Schakel het selectievakje **Certificaten van levering maken als deze nog niet zijn gemaakt** in om [!INCLUDE[prod_short](includes/prod_short.md)]-certificaten te maken voor geboekte verzendingen die er op het moment van uitvoering geen hebben. Wanneer u het selectievakje inschakelt, worden nieuwe certificaten gemaakt voor alle geboekte verzendingen die geen certificaten in het geselecteerde bereik hebben.  
 6. De filterinstellingen zijn standaard voor het verzenddocument dat u hebt geselecteerd. Vul de filterinformatie in om een specifiek certificaat van levering te selecteren dat u wilt afdrukken.  
 7. Kies op de pagina **Certificaat van levering** de actie **Afdrukken** om het rapport af te drukken of kies de actie **Voorbeeld** om deze weer te geven.  
 
-    > [!Note]  
-    > Het veld **Status van certificaat van levering** en het veld **Afgedrukt** worden bijgewerkt voor de verzending op de pagina **Certificaten van levering**.  
+> [!Note]  
+> Het veld **Status van certificaat van levering** en het veld **Afgedrukt** worden bijgewerkt voor de verzending op de pagina **Certificaten van levering**.  
 
 8. Verzend het afgedrukte certificaat van levering ter ondertekening naar de klant.  
 
@@ -174,11 +174,11 @@ Als u een groep certificaten wilt weergeven, begint u op de pagina **Certificate
 
    U kunt de datum wijzigen in de datum waarop u het ondertekende certificaat van levering hebt ontvangen. U kunt ook een koppeling naar het ondertekende certificaat toevoegen met de standaardkoppeling voor documenten in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-    > [!NOTE]  
-    >  U kunt geen nieuw certificaat van levering op de pagina **Certificaat van levering** maken als u ernaar toe navigeert met deze procedure. Als u een certificaat wilt maken voor een verzending die geen certificaat vereist, opent u de geboekte verkoopverzending en gebruikt u een van de twee hierboven beschreven procedures:  
-    >
-    > * Handmatig een certificaat van levering maken  
-    > * Een certificaat van levering afdrukken.
+> [!NOTE]
+> U kunt geen nieuw certificaat van levering op de pagina **Certificaat van levering** maken als u ernaar toe navigeert met deze procedure. Als u een certificaat wilt maken voor een verzending die geen certificaat vereist, opent u de geboekte verkoopverzending en gebruikt u een van de twee hierboven beschreven procedures:  
+>
+> * Handmatig een certificaat van levering maken  
+> * Een certificaat van levering afdrukken.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

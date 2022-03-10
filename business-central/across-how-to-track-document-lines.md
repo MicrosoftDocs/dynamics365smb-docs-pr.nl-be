@@ -2,20 +2,19 @@
 title: Orderregels traceren aan gerelateerde documenten
 description: Bekijk documenten met betrekking tot verkoop- en inkooporderregels, zoals offertes, verzendingen, ontvangsten en raamcontracten, om documenten te identificeren die worden gebruikt om bestellingen te verwerken.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 6560, 42, 50, 507, 509
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4c469d3f521e526f3c121da5bf8265fc92f01289
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6a71c817570dd1a784995bbc41f095f0ce799c6f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439907"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138842"
 ---
 # <a name="track-document-lines"></a>Documentregels traceren
 U kunt documenten bekijken die gerelateerd zijn aan verkooporderregels en inkooporderregels, inclusief vanuit gearchiveerde orderregels. Gerelateerde documenten die u kunt bijhouden, omvatten offertes, verzendingen, ontvangsten en raamcontracten. Dit helpt u documenten te vinden die worden gebruikt om orders te verwerken.  

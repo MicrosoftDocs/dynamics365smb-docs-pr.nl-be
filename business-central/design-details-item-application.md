@@ -2,20 +2,19 @@
 title: Ontwerpdetails - Artikelvereffening | Microsoft Docs
 description: In dit onderwerp wordt beschreven waar het voorraadaantal en de voorraadwaarde worden geregistreerd wanneer u een voorraadtransactie boekt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 2d15d37e2c56aa0a4de6189bc01c011f6f4d30cd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 581ffdce943844d466adc6320fe32aaaa29138b6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774976"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143568"
 ---
 # <a name="design-details-item-application"></a>Ontwerpdetails: Artikelvereffening
 

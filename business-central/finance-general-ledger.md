@@ -1,23 +1,23 @@
 ---
-title: Leren over grootboek en COA| Microsoft Docs
-description: Beschrijft het grootboek, het rekeningschema en rekeningcategorieën.
+title: Het grootboek en rekeningschema begrijpen
+description: Beschrijft het grootboek, het rekeningschema en rekeningcategorieën. Gebruik de pagina Grootboekinstellingen om op te geven hoe boekhoudkwesties in uw bedrijf worden afgehandeld.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2020
+ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: dbeb9f9cbe0eff61b28dc4d371a1f8d9031ea1b4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 78d4ce41c4c6e85751134b51efe181380da8a0e4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747053"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138081"
 ---
-# <a name="understanding-the-general-ledger-and-the-coa"></a>Het grootboek en COA begrijpen
+# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Het grootboek en het rekeningschema
 
 In het grootboek worden uw financiële gegevens opgeslagen en het rekeningschema bevat de rekeningen waarnaar alle grootboekposten worden geboekt. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
 
@@ -31,10 +31,13 @@ Op de pagina **Grootboekinstellingen** geeft u op hoe bepaalde boekhoudkwesties 
 * Adresindelingen  
 * Financiële rapportage  
 
-Op de pagina **Boekingsgroepinstelling** geeft u op dezelfde manier op hoe u combinaties van algemene bedrijfsgroepen en algemene productboekingsgroepen wilt instellen. Met boekingsgroepen worden entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten aan grootboekrekeningen gekoppeld. U vult een regel in voor elke combinatie van bedrijfs- en productboekingsgroep. Zie [Boekingsgroepinstellingen](finance-posting-groups.md) voor meer informatie.  
-
 > [!TIP]
 > De pagina **Grootboekinstellingen** bevat algemene velden en velden die specifiek zijn voor uw land of regio. Als u niet zeker bent van de betekenis van een veld, raden we u aan om samen met uw accountant te bepalen of dit relevant is voor uw organisatie.  
+
+Op de pagina **Boekingsgroepinstelling** geeft u op dezelfde manier op hoe u combinaties van algemene bedrijfsgroepen en algemene productboekingsgroepen wilt instellen. Met boekingsgroepen worden entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten aan grootboekrekeningen gekoppeld. U vult een regel in voor elke combinatie van bedrijfs- en productboekingsgroep. Maar u kunt ook elke regel openen in een eigen instellingskaart voor boekingen. Zie [Boekingsgroepinstellingen](finance-posting-groups.md) voor meer informatie.  
+
+> [!TIP]
+> Als u de velden die u zoekt, niet ziet op de pagina **Boekingsgroepinstellingen**, gebruikt u de horizontale schuifbalk onder aan de pagina om naar rechts te schuiven.  
 
 ## <a name="the-chart-of-accounts"></a>het rekeningschema
 
@@ -58,16 +61,33 @@ U maakt een categoriegroep door andere subcategorieën onder een regel te laten 
 
 U kunt opgeven of de rekeningen in elke subcategorie moeten worden opgenomen in bepaalde soorten rapporten. De rekeningcategorieën helpen de indeling te definiëren van uw financiële overzichten.  
 
-Het standaardsaldo-overzicht heeft bijvoorbeeld één subcategorie voor Kas onder Huidige activa. Als u wilt dat kleine kas en de betaalrekening worden meegenomen in het saldo-overzicht, kunt u het volgende doen:  
+### <a name="example"></a>Voorbeeld
 
-1. Voeg twee nieuwe subcategorieën toe. Een voor kleine kas en een voor uw betaalrekening.  
+Het standaardsaldo-overzicht heeft bijvoorbeeld één subcategorie voor *Kas* onder *Huidige activa*. U wilt dat het saldo-overzicht rekening houdt met kleingeld en cheques, dus onderneemt u de volgende stappen:  
+
+1. Voeg twee nieuwe subcategorieën toe:
+
+    * Een voor kleingeld  
+    * Een voor uw betaalrekening  
 2. Geef de extra rapportdefinitie **Kasrekeningen** voor deze subcategorieën op.  
 3. Laat ze inspringen onder de subcategorie **Kas**.  
 
 De volgende keer dat u rapportageschema's genereert, bevat uw saldo-overzicht een totaalsaldo voor kas en twee regels met saldi voor kleine kas en de betaalrekening.  
+
+## <a name="getting-a-quick-overview"></a>Een snel overzicht krijgen
+
+Op de pagina Rekeningschema worden rekeningen weergegeven in een hiërarchische lijst die snelle toegang biedt tot de belangrijkste informatie voor elke rekening. De lijst is echter statisch en als u veel accounts hebt, moet u misschien een beetje bladeren om informatie voor verschillende accounts te bekijken. Als u gewoon een snel overzicht wilt van de basisprincipes, zoals nettowijzigingen en saldi, is de pagina **Overzicht van rekeningschema** een handig alternatief. De kolomindeling op de pagina is nu hetzelfde als op de pagina Rekeningschema (er zijn er alleen minder), dus u hoeft zich niet te heroriënteren en u kunt de hiërarchische niveaus uitvouwen of samenvouwen om de weergave te condenseren. Om het schakelen tussen de pagina's gemakkelijk te maken is de pagina **Overzicht van rekeningschema** beschikbaar op de pagina Rekeningschema.
+
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Toegang om accounts en accountcategorieën te maken en te bewerken
+
+In een kleine organisatie, zoals het CRONUS-demonstratiebedrijf, kunnen de meeste gebruikers het rekeningschema bewerken, behalve gebruikers met een TEAMLID-licentie. In grotere organisaties wordt de toegang om het rekeningschema te bewerken echter beperkt door rollen en machtigingen. Als u een beheerder bent of de rol *Bedrijfsmanager* of *Accountant* hebt, kunt u de machtigingen voor alle gebruikers controleren om er zeker van te zijn dat de juiste mensen toegang hebben tot de relevante tabellen. Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>Zie ook
 
 [Financiën](finance.md)  
 [De rekeningschema's instellen of wijzigen](finance-setup-chart-accounts.md)  
 [Bedrijfsinformatie](bi.md)  
+[Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,20 @@
 ---
 title: Picken volgens FEFO inschakelen | Microsoft Docs
 description: Eerste-verlopen-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 327cd6e048ce4afcc6b58c2d546da4768ec03724
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 1855391f5bf2c0807ac4ffcd8d42e0ea8122fd87
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314544"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141869"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Artikelen picken volgens FEFO inschakelen
 First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.  
@@ -25,11 +22,9 @@ First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de 
  Deze functie werkt alleen wanneer aan de volgende criteria wordt voldaan:  
 
 -   Het artikel moet een serie-/partijnummer hebben.  
--   In de instelling van de trackingcode van het artikel moet het veld **Specifieke serienr.-tracering** of **Specifieke lottracering** worden geselecteerd.  
+-   Op de tracking-code van het artikel moet het veld **Magazijnserienr.-tracering** of **Magazijnlottracering** worden geselecteerd.  
 -   Het artikel moet met een verloopdatum naar de voorraad worden geboekt.  
--   Op de vestigingskaart moet het selectievakje **Picken vereisen** zijn ingeschakeld.  
--   Op de vestigingskaart moet het selectievakje **Picken volgens FEFO** zijn ingeschakeld.  
--   Op de vestigingskaart moet het selectievakje **Opslaglocatie verplicht** zijn ingeschakeld.  
+-   Op de locatie moeten de schakelaars **Pick vereist**, **Picken volgens FEFO** en **Opslaglocatie verplicht** zijn ingeschakeld.  
 
  Wanneer aan alle criteria wordt voldaan, worden artikelen met serie- of partijnummers die moeten worden gepickt, gesorteerd met de oudste eerst bij alle picks en verplaatsingen, behalve artikelen waarvoor specifieke tracering van Serienr. of partijnummer plaatsvindt.  
 
@@ -38,11 +33,11 @@ First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de 
 <br /><br />
 Als twee artikelen met serie- of lotnummer dezelfde vervaldatum hebben, wordt het artikel met het laagste lot- of serienummer geselecteerd.
 <br /><br />
-Tijdens het picken van artikelen met een serie-/lotnummer op locaties die zijn ingesteld op gestuurde opslag en pick, worden alleen aantallen in locaties van het type *Pick* gepicked volgens FEFO.  
+Tijdens het picken van artikelen met een serie- of lotnummer op locaties die zijn ingesteld op gestuurde opslag en pick, worden alleen aantallen in locaties van het type *Pick* gepickt volgens FEFO.  
 <br /><br />
-U kunt verplaatsingen volgens FEFO mogelijk maken, hetzij op de pagina **Voorraadverplaatsing** of **Verplaatsingsvoorstel**, door het veld **Uit opslaglocatie** leeg te maken.  
+Als u verplaatsingen volgens FEFO mogelijk wilt maken, laat u het veld **Van opslaglocatie** leeg op de pagina **Voorraadverplaatsing** of **Verplaatsingsvoorstel**.  
 <br /><br />
-Als het veld **Strikte vervaldatumboeking** is ingeschakeld, worden alleen artikelen die niet zijn verlopen, opgenomen in de pick. Dit geldt ook als u niet picken volgens FEFO gebruikt.
+Als het veld **Strikte verloopdatumboeking** is geselecteerd op de kaart met de **Artikeltraceringscode**, worden alleen artikelen die niet zijn verlopen, in de pick opgenomen en worden de regels gesorteerd volgens het FEFO-principe.
 
 ## <a name="see-also"></a>Zie ook  
 [artikelen picken](warehouse-pick-items.md)   
@@ -50,4 +45,7 @@ Als het veld **Strikte vervaldatumboeking** is ingeschakeld, worden alleen artik
 [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

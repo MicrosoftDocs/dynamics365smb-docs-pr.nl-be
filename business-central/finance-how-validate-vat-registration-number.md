@@ -2,18 +2,18 @@
 title: Btw-nummers valideren
 description: Laat Business Central btw-registratienummers en andere bedrijfsinformatie voor uw contacten, klanten en leveranciers valideren, op basis van de EU VIES btw-nummervalidatieservice.
 author: andregu
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
+ms.search.form: 249, 575, 1279
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 093fec7b7d456f4145e8450d06f17f1aa78ad4c1
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: fce9a7d934012f3dbd65ee323f881767aeeadd8d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543234"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142145"
 ---
 # <a name="validate-vat-registration-numbers"></a>Btw-nummers valideren
 

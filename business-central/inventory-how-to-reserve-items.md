@@ -1,23 +1,21 @@
 ---
-title: Artikelen reserveren | Microsoft Docs
+title: Artikelen reserveren
 description: U kunt artikelen reserveren voor verkooporders, inkooporders en productieorders. U kunt artikelen in voorraad reserveren of inkomend op openstaande documentregels.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: bca330009730caf5d8f4d6d82eb6bedab5e762c0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.forms: 498, 497
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 6dcd912dfae36e31bd2642b5f1427483f3095c19
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243150"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148576"
 ---
 # <a name="reserve-items"></a>Artikelen reserveren
 U kunt artikelen reserveren voor verkooporders, inkooporders, serviceorders, assemblageorders en productieorders. U kunt artikelen in voorraad reserveren of inkomend op openstaande document- of dagboekregels. U voert de handelingen hiervoor uit op de pagina **Reservering**.
@@ -26,7 +24,7 @@ Elke regel op de pagina **Reservering**, die u opent om artikelen te reserveren,
 
 ## <a name="to-reserve-items-for-sales"></a>Artikelen reserveren voor verkopen
 Hieronder wordt beschreven hoe u artikelen reserveert vanuit een verkooporder. De stappen voor inkoop-, service- en assemblageorders komen hiermee overeen.  
-1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in een verkooporder op het sneltabblad **Regels** de actie **Reserveren**. De pagina **Reservering** verschijnt.  
 3. Klik op de regel waarvan u de artikelen wilt reserveren.  
 4. Kies een van de volgende acties.  
@@ -44,7 +42,7 @@ Hieronder wordt beschreven hoe u artikelen reserveert vanuit een verkooporder. D
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
 
 In de volgende procedure wordt een vast geplande productieorder gebruikt.   
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de vast geplande productieorder waarvoor u bovenliggende artikelen wilt reserveren.  
 3. Selecteer de relevante productieorderregel.  
 4. Kies op het sneltabblad **Regels** de actie **Reserveren**.
@@ -56,7 +54,7 @@ Het aantal dat u hebt ingevoerd op de vast geplande productieorderregel is nu ge
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
 
 In de volgende procedure wordt een vast geplande productieorder gebruikt.    
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorder** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de vast geplande productieorder waarvoor u artikelonderdelen wilt reserveren.  
 3. Selecteer de relevante productieorderregel.  
 4. Klik op het sneltabblad **Regels** op **Regel** en vervolgens op **Materialen**.  
@@ -86,7 +84,7 @@ Van uitgaande documenten voor getraceerde artikelen, zoals verkooporders of prod
 Dit heet een specifieke reservering, omdat u reserveert van het aantal van Artikel X dat hoort bij Partij X. Als u gewoon uit aantallen van artikel X reserveert, is het een normale, niet-specifieke, reservering. Zie voor meer informatie [Ontwerpdetails: Artikeltracering en reservering](design-details-item-tracking-and-reservations.md).
 
 De volgende procedure is gebaseerd op een verkooporder.    
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en selecteer vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en selecteer vervolgens de gerelateerde koppeling.  
 2. Maak een verkooporderregel voor een artikel met artikeltracering.  
 3. Wijs serie- en lotnummers toe aan de verkooporderregel. Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 4. Kies op de verkooporderregel de actie **Reserveren**.  
@@ -100,4 +98,7 @@ De volgende procedure is gebaseerd op een verkooporder.
 [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

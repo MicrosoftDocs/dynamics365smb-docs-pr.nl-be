@@ -2,17 +2,17 @@
 title: Rapportselectie in Business Central
 description: Leer hoe u de rapporten instelt die u gebruikt om verschillende soorten documenten af te drukken in Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
+ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba15a65317ebf52579c285c93dd59eba1b65ae1b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787119"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134082"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportselectie in Business Central
 
@@ -32,7 +32,7 @@ De **Rapportselecties**-pagina's specificeren welk rapport in verschillende situ
 |Rapporten definiëren voor btw-rapportage (Duitsland)|[Rapporten voor btw en Intrastat instellen](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Uw [!INCLUDE [prod_short](includes/prod_short.md)] kan extra **Rapportselectie**-pagina's bevatten, bijvoorbeeld afhankelijk van uw locatie en branche. U kunt uw instellingen altijd controleren door het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") te kiezen, **Rapportselecties** in te voeren en vervolgens de relevante koppeling te kiezen.
+> Uw [!INCLUDE [prod_short](includes/prod_short.md)] kan extra **Rapportselectie**-pagina's bevatten, bijvoorbeeld afhankelijk van uw locatie en branche. U kunt uw instellingen altijd controleren door te kiezen voor het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), **Rapportselecties** in te voeren en vervolgens de relevante koppeling te kiezen.
 
 De standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] omvat het volgende **Rapportselectie**-pagina's:
 

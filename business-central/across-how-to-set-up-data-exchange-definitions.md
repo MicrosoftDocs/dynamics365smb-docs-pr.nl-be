@@ -2,20 +2,19 @@
 title: Definiëren hoe gegevens elektronisch worden uitgewisseld | Microsoft Docs
 description: U kunt een externe provider van OCR-services gebruiken om PDF- of afbeeldingsbestanden te laten omzetten naar elektronische documenten.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ca9f3dc4cbc21cad8a2369ed4c29ab6682723cc1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ba59e1164dbbe4cdd95cca31687b63db2af8018c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754704"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129245"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
 U kunt instellen dat [!INCLUDE[prod_short](includes/prod_short.md)] gegevens in bepaalde tabellen uitwisselt met gegevens in externe bestanden, bijvoorbeeld elektronische documenten verzendt en ontvangt, bankgegevens of andere gegevens importeert en exporteert, zoals loonlijsten, wisselkoersen en artikelcatalogi. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
@@ -95,8 +94,8 @@ Dit wordt in de volgende procedures beschreven.
     |**Kolomnr.**|Geef het nummer op dat de kolompositie op de regel in het bestand aangeeft.<br /><br /> Geef voor XML-bestanden het nummer op dat het type element in het bestand aangeeft dat de gegevens bevat.|  
     |**Naam**|Geef de naam van de kolom op.<br /><br /> Geef voor XML-bestanden de markering op waarmee de uit te wisselen gegevens worden gemarkeerd.|  
     |**Gegevenstype**|Geef op of de uit te wisselen gegevens van het type **Tekst**, **Datum** of **Decimaal** zijn.|  
-    |**Gegevensopmaak**|Geef de eventuele indeling van de gegevens op. Bijvoorbeeld **MM-dd-yyyy** als de gegevenssoort **Datum** is. **Opmerking:** voor exporteren geeft u de gegevensindeling op volgens [!INCLUDE[prod_short](includes/prod_short.md)]. Voor importeren geeft u de gegevensindeling op volgens .NET Framework. Zie [Standaardnotaties voor datum en tijd](https://go.microsoft.com/fwlink/?LinkID=323466) voor meer informatie.|  
-    |**Cultuur gegevensopmaak**|Geef de eventuele cultuur van de gegevensindeling op. Bijvoorbeeld **en-US** als het gegevenstype **Decimaal** is om te zorgen dat de komma wordt gebruikt als .000-scheidingsteken, volgens de Amerikaanse indeling. Zie [Standaardnotaties voor datum en tijd](https://go.microsoft.com/fwlink/?LinkID=323466) voor meer informatie. **Opmerking:** dit veld is alleen relevant voor importeren.|  
+    |**Gegevensopmaak**|Geef de eventuele indeling van de gegevens op. Bijvoorbeeld **MM-dd-yyyy** als de gegevenssoort **Datum** is. **Opmerking:** voor exporteren geeft u de gegevensindeling op volgens [!INCLUDE[prod_short](includes/prod_short.md)]. Voor importeren geeft u de gegevensindeling op volgens .NET Framework. Zie [Standaardnotaties voor datum en tijd](/dotnet/standard/base-types/standard-date-and-time-format-strings) voor meer informatie.|  
+    |**Cultuur gegevensopmaak**|Geef de eventuele cultuur van de gegevensindeling op. Bijvoorbeeld **en-US** als het gegevenstype **Decimaal** is om te zorgen dat de komma wordt gebruikt als .000-scheidingsteken, volgens de Amerikaanse indeling. Zie [Standaardnotaties voor datum en tijd](/dotnet/standard/base-types/standard-date-and-time-format-strings) voor meer informatie. **Opmerking:** dit veld is alleen relevant voor importeren.|  
     |**Lengte**|Geef de lengte op van de regel met vaste breedte die de kolom bevat als het gegevensbestand het type **Vaste tekst** is.|  
     |**Beschrijving**|Voer een omschrijving van de kolom in, ter informatie.|  
     |**Pad**|Geef de positie op van het element in het gerelateerde XML-schema.|  
@@ -200,3 +199,6 @@ Wanneer u de definitie van gegevensuitwisseling hebt gemaakt voor een specifiek 
 [Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,26 +1,27 @@
 ---
-title: Terminologie in kostprijsboekhouding | Microsoft Docs
-description: Dit onderwerp beschrijft de belangrijkste termen die worden gebruikt in kostprijsboekhouding.
+title: Terminologie in kostprijsboekhouding
+description: Dit onderwerp definieert de belangrijkste termen die worden gebruikt in kostenberekening, zoals verdeelsleutel en verdeelbron.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 2675f9d2bf7e5fc0cb79fa2fbafbf3f7cd1b8597
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 4ba3cb0930426f44c1064f4d565b8ddaf8563fdd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882530"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147582"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie in kostprijsboekhouding
+
 Dit onderwerp beschrijft de belangrijkste termen die worden gebruikt in kostprijsboekhouding.  
 
-## <a name="key-terms"></a>Belangrijke termen  
+## <a name="key-terms"></a>Belangrijke termen
+
  De volgende tabel bevat definities van belangrijke termen in kostprijsboekhouding.  
 
 |**Term**|**Definitie**|  
@@ -50,4 +51,7 @@ Dit onderwerp beschrijft de belangrijkste termen die worden gebruikt in kostprij
 ## <a name="see-also"></a>Zie ook  
  [Kostprijsboekhouding](finance-about-cost-accounting.md)   
  [Kosten verantwoorden](finance-manage-cost-accounting.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

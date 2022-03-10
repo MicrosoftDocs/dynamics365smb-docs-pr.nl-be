@@ -1,43 +1,47 @@
 ---
-title: Werknemers instellen en informatie wijzigen| Microsoft Docs
-description: Beschrijft hoe u nieuwe werknemers registreert of informatie voor bestaande werknemers bewerkt.
+title: Werknemers instellen en informatie wijzigen
+description: Beschrijft hoe u de Human Resources-functionaliteit kunt gebruiken om nieuw personeel te registreren of werknemersinformatie voor bestaand personeel te bewerken.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 10/01/2020
+ms.search.form: 5200, 5201
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 58cab20ad27285e733cbfe56ba82b546617bf5c3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 99add650ec16fcb62d9cdc27962bd83c9c71b794
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381429"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137951"
 ---
 # <a name="register-employees"></a>Werknemers registreren
-Als u de Human Resources-functionaliteit wilt gebruiken, moet u eerst elke werknemer registreren door een kaart met alle kern- en bijbehorende gegevens te maken.
+Om de Human Resources-functionaliteit te gebruiken moet u eerst elke werknemer toevoegen door de velden op de pagina **Werknemerskaart** in te vullen.
 
-U kunt de gegevens van werknemers op elk gewenst moment wijzigen. Door de gegevens over uw werknemers up-to-date te houden, maakt u de personeelsadministratie eenvoudiger. Stel bijvoorbeeld dat het adres van een werknemer verandert, dan kunt u dit registreren op de werknemerskaart.
+## <a name="adding-new-customers"></a>Nieuwe klanten toevoegen
+U kunt nieuwe werknemers handmatig toevoegen door de velden op de pagina **Werknemerskaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen werknemersprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe werknemers en helpt ervoor te zorgen dat de informatie elke keer correct is. Als u sjablonen voor meer dan één type werknemer maakt, kunt u de sjabloon kiezen die u wilt gebruiken wanneer u een werknemer toevoegt. Als u slechts één sjabloon maakt, wordt deze voor alle nieuwe werknemers gebruikt. Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebruiken om deze toe te passen op een of meer geselecteerde werknemers. Om een sjabloon te maken vult u de informatie in die u opnieuw wilt gebruiken op de pagina Werknemerskaart en slaat u deze vervolgens op als sjabloon.
 
-In de volgende procedures wordt beschreven hoe u een eerste werknemerskaart maakt en hoe u twee soorten werknemerdetails aan een werknemer toewijst. Daarnaast kunt u verschillende andere relevante informatie, zoals kwalificaties en redenen voor inactiviteit, toewijzen. U kunt werknemergegevens toewijzen door een veld of een actie te kiezen op de pagina **Werknemerskaart**.
+> [!TIP]
+> Het kan handig zijn om de pagina **Werknemerssjabloon** te personaliseren wanneer u een sjabloon maakt. U wilt bijvoorbeeld een veld toevoegen dat nog niet op de pagina wordt weergegeven. Zie [Uw werkruimte personaliseren](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.
+
+U kunt de gegevens van werknemers op elk gewenst moment wijzigen. Door de werknemersrecords up-to-date te houden, maakt u de personeelsadministratie eenvoudiger. Stel bijvoorbeeld dat het adres van een werknemer verandert, dan kunt u dit registreren op de pagina Werknemerskaart.
 
 > [!NOTE]  
 > U kunt werknemers voor hun kosten tijdens zakelijke activiteiten terugbetalen. Hiervoor moet u de velden invullen op het sneltabblad **Betalingen** op de pagina **Werknemer**. Zie voor meer informatie [Uitgaven van werknemers vastleggen en terugbetalen](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Werknemers instellen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden op de pagina **Werknemerskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Een afbeelding van een werknemer invoegen
-Als u een afbeelding van een werknemer in BMP-indeling hebt, kunt u deze afbeelding invoegen op de werknemerskaart.
+Als u een foto van een werknemer hebt, kunt u deze invoegen op de werknemerskaart.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor de betreffende werknemer.
 3. In het feitenblok **Werknemerafbeelding** kiest u de vervolgkeuzeknop en vervolgens **Importeren**.
 4. Op de pagina **Een afbeelding selecteren om te uploaden** kiest u de knop **Kiezen**.
@@ -50,7 +54,7 @@ Op de werknemerskaart kunt u gegevens instellen, zoals vakbondslidmaatschap, fam
 
 U kunt alternatieve adressen gebruiken om uw werknemers te traceren, als deze bijvoorbeeld in het buitenland zijn gestationeerd, een lange zakenreis maken, of tijdelijk in een vakantiehuisje wonen.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor de betreffende werknemer.
 3. Kies de actie **Alternatieve adressen**.
 4. Vul op de pagina **Alt. adressenoverzicht** indien nodig de velden in.

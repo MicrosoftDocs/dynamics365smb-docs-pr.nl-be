@@ -2,21 +2,20 @@
 title: Cashflowoverzicht
 description: Een overzicht van cash in en cash uit om te helpen geld dat zal worden ontvangen en uitbetaald te voorspellen.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.search.form: 841, 849, 1818
+ms.date: 12/20/2021
 ms.author: edupont
-ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: fef3a27cf02d48fcf08a7bb70c469ed2820d0753
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724824"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149113"
 ---
 # <a name="cash-flow-overview"></a>Cashflowoverzicht
 
@@ -26,7 +25,7 @@ Cash in en cash uit begrijpen is de sleutel tot een succesvol bedrijf. Cashflow 
 
 De term *cashflow* wordt gebruikt voor ontvangsten min contante betalingen gedurende een geselecteerde periode. Het is een schatting van de waarde van de geldstromen naar en uit uw bedrijf met daarin opgenomen de geraamde inkomsten en uitgaven.
 
-## <a name="cash-flow-overview"></a>Cashflowoverzicht
+## <a name="work-with-cash-flow"></a>Werken met cashflow
 
 In de volgende afbeelding ziet u een overzicht van hoe u met de cashflow kunt werken.
 
@@ -49,9 +48,9 @@ In de volgende afbeelding ziet u een overzicht van hoe u met de cashflow kunt we
 
 Op basis van de geregistreerde werkbladregels kunt u periodiek een cashflowprognose maken. De volgende indeling is een veelgebruikte indeling voor een cashflowprognose. De indeling heeft drie secties:
 
-  - Ontvangsten  
-  - Kasvoorschotten  
-  - Nettocashflow of contanten in voorraad  
+- Ontvangsten  
+- Kasvoorschotten  
+- Nettocashflow of contanten in voorraad  
 
 Contante ontvangsten bevatten bijzonderheden over de inkomsten die het bedrijf ontvangt.
 
@@ -74,7 +73,10 @@ Nettocashflow of contanten in voorraad worden berekend als de totale ontvangsten
 De prognose kan vervolgens worden gebruikt als een hulpmiddel voor het nemen van interne managementbeslissingen. Ook u helpt de prognose u vooruit te plannen en bij het nemen van belangrijke strategische beslissingen over de bedrijfsvoering.
 
 ## <a name="see-also"></a>Zie ook
+
 [Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md)  
-[Cashflow analyseren](finance-analyze-cash-flow.md)
+[Cashflow analyseren](finance-analyze-cash-flow.md)  
+[Een prognose van uw cashflow geven in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Cashflowprognoses instellen met Azure AI in Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

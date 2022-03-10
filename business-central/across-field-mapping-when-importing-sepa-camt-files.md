@@ -2,25 +2,24 @@
 title: Veldtoewijzing bij het importeren van SEPA CAMT-bestanden | Microsoft Docs
 description: In Europese markten kunt u bankafschriftbestanden in de regionale SEPA-norm (Single Euro Payments Area) importeren.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: e4c3b60bca16e1f1e72e728d02b07ded11cada09
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 829ff2a07464d1c456b6776eef542914601c0a18
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692596"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141645"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Veldtoewijzing bij het importeren van SEPA CAMT-bestanden
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt de regionale SEPA-norm (Single Euro Payments Area) voor het importeren van SEPA-bankafschriften (CAMT-indeling). Zie [De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md) voor meer informatie.  
+[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt de regionale SEPA-norm (Single Euro Payments Area) voor het importeren van SEPA-bankafschriften (CAMT-indeling). Zie voor meer informatie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md).  
 
- De SEPA CAMT-standaard heeft zelf lokale variaties. U moet daarom mogelijk de algemene definitie voor gegevensuitwisseling, aangeduid door de code **SEPA CAMT** op de pagina **Uitwisselingsdefinities van boeking**, wijzigen om deze aan de lokale variant van de vaste verrekenprijs aan te passen. De volgende tabellen tonen de element-aan-veld-toewijzing voor tabellen 81, 273 en 274 in de SEPA CAMT-implementatie in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ De SEPA CAMT-standaard heeft zelf lokale variaties. U moet daarom mogelijk de algemene definitie voor gegevensuitwisseling, aangeduid door de code **SEPA CAMT** op de pagina **Uitwisselingsdefinities van boeking**, wijzigen om deze aan de lokale variant van de vaste verrekenprijs aan te passen. De volgende tabellen tonen de element-aan-veld-toewijzing voor tabellen 81, 273 en 274 in de SEPA CAMT-implementatie in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Voor informatie over het maken of het aanpassen van de definitie van gegevensuitwisseling raadpleegt u [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -57,10 +56,17 @@ ms.locfileid: "2692596"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Ongestructureerd|Tekst|Informatie die wordt verschaft om de afstemming/reconciliatie mogelijk te maken van een post met de artikelen die de betaling wordt geacht te vereffenen, zoals commerciële facturen in een vorderingsysteem, in een ongestructureerde vorm||6|Omschrijving|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Tekst|Extra informatie over de invoer||16|Transactie-informatie|  
 
- Elementen in het knooppunt **Ntry** die worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)] maar niet aan velden worden toegewezen, worden opgeslagen in de tabel **Kolomdef. boekingsuitwisseling**. Gebruikers kunnen deze elementen vanuit de pagina's **Betalingsreconciliatiedagboek**, **Betalingsvereffening** en **Bankreconciliatie** weergeven door de actie **Details bankrekeningafschriftregel** te kiezen. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).  
+ Elementen in het knooppunt **Ntry** die worden geïmporteerd in [!INCLUDE[prod_short](includes/prod_short.md)] maar niet aan velden worden toegewezen, worden opgeslagen in de tabel **Kolomdef. boekingsuitwisseling**. Gebruikers kunnen deze elementen vanuit de pagina's **Betalingsreconciliatiedagboek**, **Betalingsvereffening** en **Bankreconciliatie** weergeven door de actie **Details bankrekeningafschriftregel** te kiezen. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
+
+> [!IMPORTANT]
+> Bij het importeren van CAMT-bankafschriften, verwacht [!INCLUDE[prod_short](includes/prod_short.md)] dat elke transactie uniek is, wat betekent dat het veld **Transactie-id** dat afkomstig is van de tag *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* in het CAMT-bestand, uniek moet zijn binnen de openstaande bankrekeningreconciliatie. Als de informatie niet aanwezig is, negeert [!INCLUDE[prod_short](includes/prod_short.md)] de betaling. Als een eerdere bankafstemming op dezelfde bankrekening is geboekt met dezelfde transactie-id als bij de huidige import, wordt de huidige transactie niet automatisch gereconcilieerd, maar kan deze nog steeds worden geïmporteerd.
+
 ## <a name="see-also"></a>Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)  
-[De AMC Banking 365 Fundamentals-uitbreiding gebruiken](ui-extensions-amc-banking.md)   
-[XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md)   
+[Gebruik XML-schema's om definities voor gegevensuitwisseling voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

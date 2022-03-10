@@ -1,24 +1,23 @@
 ---
-title: Business Central en Dataverse synchroniseren | Microsoft Docs
+title: Business Central en Dataverse synchroniseren
 description: Leer over het synchroniseren van gegevens tussen Business Central en Dataverse.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 937601cffe10fe7862aad48ec7f7bded37ad8e61
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385336"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130631"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Een synchronisatie plannen tussen Business Central en Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] synchroniseren met geplande intervallen door taken in te stellen in de taakwachtrij. De synchronisatietaken synchroniseren gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]-records en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-records die eerder zijn gekoppeld. Of voor records die niet al zijn gekoppeld kunnen de synchronisatietaken, afhankelijk van de synchronisatierichting en -regels, nieuwe records maken en koppelen in het doelsysteem. 
 

@@ -1,30 +1,31 @@
 ---
-title: Datumberekening voor inkoop | Microsoft Docs
-description: De toepassing berekent automatisch de datum waarop u een artikel moet bestellen zodat u het op een bepaalde datum in voorraad hebt. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.
+title: Datumberekening voor inkoop
+description: De toepassing berekent automatisch de datum waarop u een artikel moet bestellen zodat u het op een bepaalde datum in voorraad hebt.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7b39bcd593489e40d218cf29a3d288dd128cce04
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 5c9a0c61b2f02e3f3750c3d8c23153df2634299d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192783"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132718"
 ---
 # <a name="date-calculation-for-purchases"></a>Datumberekening voor inkoop
-[!INCLUDE[d365fin](includes/d365fin_md.md)] berekent automatisch de datum waarop u een artikel moet bestellen om het op een bepaalde datum in voorraad te hebben. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.  
+
+[!INCLUDE[prod_short](includes/prod_short.md)] berekent automatisch de datum waarop u een artikel moet bestellen om het op een bepaalde datum in voorraad te hebben. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.  
 
 Als u een aangevraagde ontvangstdatum opgeeft op een inkooporder is de berekende besteldatum de datum waarop de order moet worden geplaatst om de artikelen te ontvangen op de datum die u hebt aangevraagd. Vervolgens wordt de datum waarop de artikelen beschikbaar zijn om te worden gepickt berekend en ingevoerd in het veld **Verwachte ontvangstdatum**.  
 
 Als u geen aangevraagde ontvangstdatum opgeeft, wordt automatisch de orderdatum op de regel gebruikt voor de berekening van de datum waarop de artikelen naar verwachting worden ontvangen en de datum waarop de artikelen beschikbaar zijn voor picken.  
 
-## <a name="calculating-with-a-requested-receipt-date"></a>Datums berekenen met een verzochte ontvangstdatum  
+## <a name="calculating-with-a-requested-receipt-date"></a>Berekenen met een aangevraagde ontvangstdatum
+
 Als er een aangevraagde ontvangstdatum op de inkooporderregel staat, wordt automatisch deze datum gebruikt als uitgangspunt voor de volgende berekeningen.  
 
 - aangevraagde ontvangstdatum - levertermijn = orderdatum  
@@ -32,10 +33,11 @@ Als er een aangevraagde ontvangstdatum op de inkooporderregel staat, wordt autom
 
 Als u een aangevraagde ontvangstdatum op de inkooporderkop hebt ingevoerd, wordt deze datum gekopieerd naar het bijbehorende veld op alle regels. U kunt deze datum op elke orderregel desgewenst wijzigen of verwijderen.  
 
-> [!Note]
+> [!NOTE]
 > Als uw proces is gebaseerd op achterwaartse berekening, bijvoorbeeld als u de gevraagde ontvangstdatum gebruikt om de besteldatum te verkrijgen, raden we u aan datumformules te gebruiken met vaste looptijden, zoals '5D' voor vijf dagen of '1W' voor een week. Datumformules zonder vaste duur, zoals 'CW' voor de huidige week of CM voor de huidige maand, kunnen leiden tot onjuiste datumberekeningen. Zie voor meer informatie over datumformules [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Datums berekenen zonder verzochte leverdatum  
+## <a name="calculating-without-a-requested-delivery-date"></a>Berekenen zonder aangevraagde leverdatum
+
 Als u een inkooporderregel invoert zonder een verzochte leverdatum, wordt in het veld **Orderdatum** op de regel de datum ingevuld uit het veld **Orderdatum** op de inkooporderkop. Dit kan de datum zijn die u hebt ingevoerd of de werkdatum. Vervolgens worden automatisch de volgende datums voor de inkooporderregel berekend, met de orderdatum als uitgangspunt.  
 
 - orderdatum + levertermijn = geplande ontvangstdatum  
@@ -45,7 +47,18 @@ Als u de orderdatum op de regel wijzigt, bijvoorbeeld omdat de artikelen pas lat
 
 Als u de orderdatum op de kop wijzigt, wordt deze datum automatisch gekopieerd naar het veld **Order Date** op alle regels en worden alle bijbehorende datumvelden vervolgens opnieuw berekend.  
 
-## <a name="see-also"></a>Zie ook  
- [Datumberekening voor verkoop](sales-date-calculation-for-sales.md)   
- [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="default-values-for-lead-time-calculation"></a>Standaardwaarden voor levertijdtijdberekening
+
+[!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de waarde van het veld **Levertermijnberek.** op de inkooporderregel om de order en de verwachte ontvangstdatums te berekenen.  
+
+U kunt de waarde op de regel handmatig specificeren of het programma de waarden laten gebruiken die zijn gedefinieerd op de leverancierskaart, artikelkaart, SKU-kaart of de artikelleverancierscatalogus.
+De levertermijnwaarde op de leverancierskaart wordt echter alleen gebruikt als er geen doorlooptijd is opgegeven op de artikelkaart, de SKU-kaart of de artikelleverancierscatalogus voor het artikel. Dit is ook de escalerende volgorde van prioriteit voor deze waarden. Als ze allemaal worden verstrekt, heeft de levertermijn van de leverancierskaart de laagste prioriteit en heeft de levertermijn van de artikelleverancierscatalogus de hoogste prioriteit.  
+
+## <a name="see-also"></a>Zie ook
+
+[Datumberekening voor verkoop](sales-date-calculation-for-sales.md)   
+[Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

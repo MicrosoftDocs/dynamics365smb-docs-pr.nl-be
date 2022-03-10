@@ -1,23 +1,21 @@
 ---
-title: Overzicht van taken om inkoop in te stellen | Microsoft Docs
+title: Overzicht van taken om inkoop in te stellen
 description: Beschrijft de taken voor het definiëren van het inkoopbeleid van uw bedrijf en het instellen van uw inkoopprocessen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6ceaf6828ac5067a0a34c4120627e0352dc90d2d
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954025"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146214"
 ---
 # <a name="setting-up-purchasing"></a>Inkoop instellen
 Voordat u inkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het inkoopbeleid van het bedrijf configureren.
@@ -34,9 +32,21 @@ Inkoopinstellingen met betrekking tot financiën, zoals betalingswijzen en valut
 | De verschillende kortingen en speciale prijzen invoeren die leveranciers u verlenen, afhankelijk van artikel, hoeveelheden en/of datum |[Procedure: afspraken over prijzen, kortingen en betalingen van inkopen vastleggen](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | De prioriteit van leveranciers bepalen |[De prioriteit van leveranciers bepalen](purchasing-how-prioritize-vendors.md) |
 | Inkopers instellen |[Inkopers instellen](purchasing-how-setup-purchasers.md) |
+|Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+> [!TIP]
+> Afhankelijk van uw geografische locatie kunnen sommige pagina's velden bevatten die niet worden beschreven in de artikelen die hier worden vermeld, omdat ze van toepassing zijn op lokale functionaliteit of aanpassingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+## <a name="external-document-number"></a>Externe documentnummer
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
+
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

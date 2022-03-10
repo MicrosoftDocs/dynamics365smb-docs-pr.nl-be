@@ -1,21 +1,20 @@
 ---
-title: 'Ontwerpdetails: Voorraadperioden | Microsoft Docs'
-description: Geantidateerde boekingen of kostprijscorrecties zijn vaak van invloed op saldi en voorraadwaarderingen voor boekhoudperioden die kunnen worden beschouwd als gesloten. Dit kan nadelige gevolgen hebben bij nauwkeurig rapporteren, vooral binnen mondiale bedrijven. U kunt de functie Voorraadperioden gebruiken om dergelijke problemen te voorkomen door voorraadperioden te openen of te sluiten om boekingen in een opgegeven periode te beperken.
+title: 'Ontwerpdetails: Voorraadperioden'
+description: Voorraadperioden helpen problemen met saldi en voorraadwaarderingen te voorkomen door voorraadperioden te openen of te sluiten om boekingen in een opgegeven periode te beperken.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 818b7c431a518d58c52536034f4652b098e91c25
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 77348fbf2ef37320b0bfa0ea56a0d395f9b4b142
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880340"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133900"
 ---
 # <a name="design-details-inventory-periods"></a>Ontwerpdetails: Voorraadperioden
 Geantidateerde boekingen of kostprijscorrecties zijn vaak van invloed op saldi en voorraadwaarderingen voor boekhoudperioden die kunnen worden beschouwd als gesloten. Dit kan nadelige gevolgen hebben bij nauwkeurig rapporteren, vooral binnen mondiale bedrijven. U kunt de functie Voorraadperioden gebruiken om dergelijke problemen te voorkomen door voorraadperioden te openen of te sluiten om boekingen in een opgegeven periode te beperken.  
@@ -30,6 +29,12 @@ Geantidateerde boekingen of kostprijscorrecties zijn vaak van invloed op saldi e
 
  Wanneer u een voorraadperiode hebt afgesloten, wordt een voorraadperiodepost gemaakt door het nummer te gebruiken van het laatste artikeljournaal dat in de voorraadperiode bestaat. Bovendien worden de tijd, de datum, en de gebruikercode van de gebruiker die de periode sluit, in de voorraadperiodepost geregistreerd. Door deze gegevens te gebruiken met het laatste artikeljournaal voor de vorige periode kunt u zien welke voorraadtransacties zijn geboekt in de voorraadperiode. Het is ook mogelijk een voorraadperiode opnieuw te openen als u moet boeken in een afgesloten periode. Wanneer u een voorraadperiode opnieuw opent, wordt een voorraadperiodepost gemaakt.  
 
-## <a name="see-also"></a>Zie ook  
- [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md) [Voorraadkosten beheren](finance-manage-inventory-costs.md) [Financiën](finance.md)  
- [Werken met Business Central](ui-work-product.md)
+## <a name="see-also"></a>Zie ook
+
+[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
+[Voorraadkosten beheren](finance-manage-inventory-costs.md)  
+[Financiën](finance.md)  
+[Werken met Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

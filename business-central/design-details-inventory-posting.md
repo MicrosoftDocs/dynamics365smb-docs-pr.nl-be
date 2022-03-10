@@ -2,20 +2,19 @@
 title: 'Ontwerpdetails: Voorraadboeking | Microsoft Docs'
 description: Elke voorraadtransactie, bijvoorbeeld een inkoopontvangst of een verkoopverzending boekt twee posten van verschillende soort.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6d4981808607731b2bd60b9ac1dc582cf79d783e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: edff39ccb01cc7da7e8a0387a4737088b0be231d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786744"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138660"
 ---
 # <a name="design-details-inventory-posting"></a>Ontwerpdetails: Voorraadboeking
 
@@ -32,7 +31,7 @@ Elke voorraadtransactie, bijvoorbeeld een inkoopontvangst of een verkoopverzendi
 
  Met regelmatige intervallen worden waardeposten die worden gemaakt in het voorraadgrootboek, geboekt naar het grootboek om de twee grootboeken om financiële controleredenen af te stemmen. Zie voor meer informatie [Ontwerpdetails: reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Invoerstroom bij inventarisatie met grootboek](media/design_details_inventory_costing_1_entry_flow.png "Invoerstroom bij inventarisatie met grootboek")  
+ ![Invoerstroom bij inventarisatie met grootboek.](media/design_details_inventory_costing_1_entry_flow.png "Invoerstroom bij inventarisatie met grootboek")  
 
 ## <a name="example"></a>Voorbeeld
 

@@ -1,18 +1,17 @@
 ---
 title: VA-afschrijving instellen
-description: U geeft in een afschrijvingsboek op hoe u wilt dat vaste activa worden afgeschreven of in waarde verminderd.
+description: U hebt de beschikking over verschillende afschrijvingsmethoden. In Business Central definieert u de afschrijvingsmethode van een activum op de pagina **Vast activum**.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: eb7e0d0d082d8a86ce61b6dffab46ce6248a29d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 228ca9aa8b1f476e5063bd0f8d6728f18cfafaf3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782291"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136282"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Afschrijving van vaste activa instellen
 
@@ -26,7 +25,7 @@ Wanneer u de betreffende afschrijvingsboeken hebt ingesteld, moet u aan elk vast
 
 In een afschrijvingsboek voor vaste activa geeft u op hoe vaste activa worden afgeschreven. Het is mogelijk om meerdere afschrijvingsboeken in te stellen om diverse afschrijvingsmethoden toe te passen.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Lijst met afschrijvingsboeken** de actie **Nieuw**.
 3. Vul op de pagina **Afschrijvingsboek** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +40,7 @@ In een afschrijvingsboek voor vaste activa geeft u op hoe vaste activa worden af
 Als u bijvoorbeeld een vast activum uit gebruik neemt waarbij in het afschrijvingsboek geen afronding is gespecificeerd, maar het grootboek van uw bedrijf afronding vereist, ziet u bij het uit gebruik nemen van het vaste activum een foutmelding dat een bedrag moet worden afgerond in een post.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Een afschrijvingsboek aan een vast activum toewijzen
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum waarvoor u een afschrijvingsboek voor vaste activa wilt instellen.
 3. Vul op het sneltabblad **Afschrijvingsboek** indien nodig de velden in.
 4. Als u meer dan één afschrijvingsboek aan het vaste activum moet toewijzen, kiest u de actie **Meer afschrijvingsboeken toevoegen**.
@@ -50,10 +49,13 @@ Als u bijvoorbeeld een vast activum uit gebruik neemt waarbij in het afschrijvin
     > [!NOTE]  
     >   Als u de handmatige afschrijvingsmethode gebruikt, moet u de afschrijving handmatig invoeren in het financieel dagboek voor vaste activa. Uit de functie **Afschrijving berekenen** worden de vaste activa weggelaten die handmatig worden afgeschreven. U kunt deze methode gebruiken voor activa waarop niet wordt afgeschreven, zoals grond.
 
+    > [!NOTE]  
+    > Wanneer u de door de gebruiker gedefinieerde afschrijvingsmethode gebruikt, moet u het afschrijvingsboek op een andere manier toewijzen. Zie voor meer informatie [Door de gebruiker gedefinieerde afschrijvingsmethode instellen](fa-how-setup-user-defined-depreciation-method.md).
+
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Een afschrijvingsboek aan meerdere vaste activa toewijzen met een batchverwerking
 Als u een afschrijvingsboek wilt toewijzen aan meerdere vaste activa, kunt u de batchverwerking **VA-afschr.-boeken maken** gebruiken om VA-afschrijvingsboeken te maken.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum waaraan u een afschrijvingsboek wilt toewijzen en kies vervolgens de actie **Bewerken**.
 3. Op de pagina **Afschrijvingsboek** kiest u de actie **VA-afschrijvingsboeken maken**.
 4. Op de pagina **VA-afschrijvingsboeken maken** vult u het veld **Afschrijvingsboek** in.
@@ -66,7 +68,7 @@ Als u een afschrijvingsboek wilt toewijzen aan meerdere vaste activa, kunt u de 
 ## <a name="to-set-up-depreciation-posting-types"></a>Boekingssoorten voor afschrijving instellen
 Voor elk afschrijvingsboek moet u instellen hoe [!INCLUDE[prod_short](includes/prod_short.md)] diverse boekingssoorten moet verwerken. Bijvoorbeeld, of de boeking debet of credit moet zijn, en of het boekingssoort moet worden opgenomen in de afschrijvingsbasis.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het afschrijvingsboek dat u wilt instellen en kies vervolgens de actie **VA-boekingssoortinstellingen**.
 3. Vul indien nodig de velden op de pagina **Instellingen van VA-boekingstype** in.
 
@@ -78,10 +80,17 @@ Het wordt aangeraden om de instellingen van afschrijvingsboeken waarvoor al post
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Standaardsjablonen en batches instellen voor afschrijvingsboeken voor vaste activa
 Voor elk afschrijvingsboek definieert u een standaardinstelling van sjablonen en batches. U gebruikt deze standaardwaarden om regels van het ene dagboek naar het andere dagboek te dupliceren, dagboekregels te maken met de batchverwerkingen **Afschrijving berekenen** of **Vaste activa indexeren** of aanschafkosten in het verzekeringsdagboek te dupliceren.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het afschrijvingsboek waarvoor u standaarddagboeken posten wilt definiëren en kies vervolgens de actie **VA-dagboekinstellingen**.  
 3. Als u voor elke gebruiker een standaardinstelling wilt gebruiken, kiest u het veld **Gebruikers-id** om een selectie te maken op de pagina **Gebruikers**.  
 4. In de andere velden selecteert u de dagboeksjabloon of dagboekbatch die standaard moet worden gebruikt.  
+
+## <a name="fiscal-year-365-days-field-depreciation"></a>Afschrijving met Veld Boekjaar (365 dagen)
+
+Bij het berekenen van de afschrijvingen wordt in de batchverwerking Afschrijving berekenen gewoonlijk een standaardjaar van 360 gebruikt waarbij elk van de 12 maanden 30 dagen telt.
+
+Als u dit veld selecteert, wordt in de batchverwerking Afschrijving berekenen het agendajaar van 365 dagen gebruikt, waarbij elke maand hetzelfde aantal dagen heeft als op de agenda. De enige uitzondering is februari in schrikkeljaren, die door de batchtaak worden beschouwd als 28 dagen en niet 29. Daarom worden alle jaren, ook schrikkeljaren, geacht 365 dagen te hebben.
+
 
 ## <a name="see-also"></a>Zie ook
 [Vaste activa instellen](fa-setup.md)  

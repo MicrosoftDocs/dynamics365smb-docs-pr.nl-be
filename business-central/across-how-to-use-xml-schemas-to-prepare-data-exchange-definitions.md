@@ -1,21 +1,20 @@
 ---
 title: XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden
-description: Gebruik XML-schema's om het kader voor documentuitwisseling in te stellen.
+description: Gebruik XML-schema's om het raamwerk voor gegevensuitwisseling in te stellen om te definiëren met welke gegevenselementen u wilt uitwisselen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70e80403175c6a77d120a3b405b1b5758410c227
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cbaa75f196f75b79e83becb80006f6b4dc2aa291
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781374"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130960"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden
 
@@ -35,7 +34,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 1. Zorg dat het relevante XML-schemabestand beschikbaar is. De bestandextensie is .xsd.  
 
-2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schema's** in en kies de gerelateerde koppeling.  
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **XML-schema's** in en kies vervolgens de gerelateerde koppeling  
 
 3. Kies de actie **Nieuw**.  
 
@@ -57,7 +56,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Knooppunten in een XML-schema selecteren of wissen  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schemaviewer** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **XML-schemaviewer** in en kies vervolgens de gerelateerde koppeling  
 
 2. Vul de velden in voor de kop, zoals in de volgende tabel is beschreven.  
 
@@ -95,7 +94,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>De definitie van een gegevensuitwisseling genereren die is gebaseerd op een XML-schema  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schema's** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schema's** in en kies vervolgens de gerelateerde koppeling  
 
 2. Selecteer het desbetreffende XML-schema en kies de actie **XML-schemaviewer openen**.  
 

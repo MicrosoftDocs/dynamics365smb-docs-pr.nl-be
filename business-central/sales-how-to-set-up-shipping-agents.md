@@ -1,21 +1,20 @@
 ---
-title: Expediteurs instellen| Microsoft Docs
-description: U kunt een code instellen voor al uw expediteurs en gegevens over hen opgeven.
+title: 'Procedure: expediteurs instellen'
+description: Leer hoe u een code instelt voor elk van uw expediteurs en hoe u beschrijvende informatie invoert over elk van hen en de diensten die ze leveren.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d6a4bac4d540a65cc164029b23b063c8c9dbc1fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: b4ec7a008c58256a8b7a351d8ee6890ad43fb00a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192678"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136989"
 ---
 # <a name="set-up-shipping-agents"></a>Expediteurs instellen
 U kunt een code instellen voor al uw expediteurs en gegevens over hen opgeven.  
@@ -28,7 +27,7 @@ Voor elke expediteur kunt u een onbeperkt aantal services inclusief bijbehorende
 Wanneer u een expediteurservice hebt toegewezen aan een verkooporderregel, wordt de verzendtijd van de service opgenomen op de berekening van de ordertoezegging voor die regel. Zie voor meer informatie [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Een expediteur instellen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Expediteurs** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Expediteurs** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Kies de actie **Expediteurservices**.
 4. Vul de velden in **Expediteurservices** naar wens in.
@@ -44,4 +43,7 @@ Wanneer u een expediteurservice hebt toegewezen aan een verkooporderregel, wordt
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
