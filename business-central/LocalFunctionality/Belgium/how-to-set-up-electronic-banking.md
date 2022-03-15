@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ebed17669c1898878d2ce66c96db11d61937421e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 887cb532edeaf6d1ae59eab9c04a5175153c075a
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140073"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367061"
 ---
 # <a name="set-up-electronic-banking-in-the-belgian-version"></a>Elektronisch bankieren instellen in de Belgische versie
 
@@ -45,7 +45,7 @@ Met elektronisch bankieren kunt u elektronische betalingen naar leveranciers en 
  [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md)   
  [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)   
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
- [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
+ [Regels voor elektronische betalingen beheren](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md) [Betalingsregels en dagboekregels samenvatten](summarizing-payment-lines-and-general-journal-lines.md)
 
 

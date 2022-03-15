@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 11300, 11301,11303,11306,11307,11308
-ms.date: 06/17/2021
+ms.date: 03/02/2022
 ms.author: edupont
-ms.openlocfilehash: 8058bb825d85fb58d4e55bf46629c833e8079b55
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2a71ba8f7ecde2418826429f31c4e396268b7d7f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147397"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372011"
 ---
 # <a name="belgian-vat"></a>Belgische btw
 
@@ -27,9 +27,9 @@ ms.locfileid: "8147397"
 
     Dit rapport wordt gebruikt om jaarlijks alle bedragen te rapporteren die zijn gefactureerd voor zowel goederen als diensten naar alle Belgische bedrijven met een geregistreerd btw-nummer.  
 
-- Btw-VIES-lijst (op papier/diskette)
+- Verkoopoverzicht EU
 
-    Dit rapport wordt gebruikt om de verkopen van goederen aan andere landen/regio´s te rapporteren.  
+    Dit rapport wordt gebruikt om de verkopen van goederen aan andere landen/regio's in de Europese Unie te rapporteren. Zie [Informatie over het Verkoopoverzicht EU](../../finance-how-report-vat.md#ecsaleslist) voor meer informatie.  
 
 U moet ook een gedrukt afschrift met details van de btw-transacties verstrekken aan de Belgische belastingdienst. Zie Btw-aangifte voor meer informatie.  
 

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 84f19c1a7f1d554e3b9e9d2ba93cb140a81e2af3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1ef382dbf094a73af5e3522e03e5480439fe5a46
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134484"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366479"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Incasso via domiciliëring
 
@@ -27,7 +27,7 @@ Voordat u kunt beginnen met elektronisch bankieren voor domiciliëringen, moet u
 
 - Domiciliëringsnummer: dit is een unieke code die u van de bank ontvangt en waarmee de domiciliëringsovereenkomst tussen u, uw klant en de bank wordt geïdentificeerd. Het contract bevat informatie over de betalingsfrequentie, bankrekeningnummers en bedragen. Wanneer u betalingen naar de bank verzendt, gebruikt de bank het domiciliëringsnummer om alle betrokken partijen te identificeren.  
 
-- Bankrekening van voorkeur: de bankrekening van voorkeur wordt voorgesteld als standaardbankrekening in alle domiciliëringsvoorstellen voor die klant. Indien nodig kunt u de bankrekening wijzigen voordat u de domiciliëringsvoorstellen boekt. Zie [Domiciliëringsvoorstellen genereren](how-to-generate-domiciliation-suggestions.md) voor meer informatie.  
+- Bankrekening van voorkeur: de bankrekening van voorkeur wordt voorgesteld als standaardbankrekening in alle domiciliëringsvoorstellen voor die klant. Indien nodig kunt u de bankrekening wijzigen voordat u de domiciliëringsvoorstellen boekt. Zie [Domiciliëringsvoorstellen genereren](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) voor meer informatie.  
 
 ## <a name="set-up-domiciliations"></a>Domiciliëringen instellen
 

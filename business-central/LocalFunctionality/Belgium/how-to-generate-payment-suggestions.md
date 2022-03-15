@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 256
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: c7d29743bf1b1d304e266b3de348b65f77d1511b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea4d0844d4b915f5e97d3bb7da5fef67a3444e9d
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134481"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366308"
 ---
 # <a name="generate-payment-suggestions-in-the-belgian-version"></a>Betalingsvoorstellen genereren in de Belgische versie
 Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.  
@@ -44,7 +44,7 @@ Wanneer de batchverwerking is uitgevoerd, bevat het betalingsdagboek alle levera
  [Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)   
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)   
- [Regels voor elektronische betalingen beheren](how-to-manage-electronic-payment-lines.md)   
+ [Regels voor elektronische betalingen beheren](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)   
  [Betalingsbestanden afdrukken](how-to-print-payment-files.md)
 
 
