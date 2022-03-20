@@ -1,7 +1,7 @@
 ---
 title: Een btw-aangifte instellen
 description: In dit onderwerp wordt uitgelegd hoe u een sjabloon voor btw-aangiften en namen voor btw-aangiften instelt om te voldoen aan de veranderende vereisten van de belastingdienst.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: c701813e596bb217cf6601091d55c528cf1ee2e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 356eb4fd32eff269b166767ae3b6cb3df6b67f1b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142223"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383709"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Sjablonen voor btw-overzichten en namen voor btw-aangiften instellen
 

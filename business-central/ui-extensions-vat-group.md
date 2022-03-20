@@ -1,8 +1,7 @@
 ---
 title: De extensie Btw-groepsbeheer
 description: U kunt met andere bedrijven samenwerken om een btw-groep te vormen en optreden als lid of vertegenwoordiger van de groep bij het aangeven van btw.
-author: bholtorf
-manager: annbe
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132458"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382569"
 ---
 # <a name="the-vat-group-management-extension"></a>De extensie Btw-groepsbeheer
 
@@ -84,9 +83,9 @@ Stel het btw-groepslid in door de begeleide instelling **Btw-groepsbeheer instel
 5. Kies **Verificatietype**, kies **OAuth2** en kies vervolgens **Volgende**.
 6. Voer in het veld **Client-id** de id in die is verstrekt door de btw-groepsvertegenwoordiger.
 7. Voer in het veld **Clientgeheim verstrekt door de btw-groepsvertegenwoordiger** het geheim in dat door de btw-groepsvertegenwoordiger is verstrekt.
-8. Voer in het veld **OAuth 2.0-autoriteitseindpunt** *https://login.microsoftonline.com/common/oauth2* in.
-9. Voer in het veld **OAuth 2.0-resource-URL** *https://api.businesscentral.dynamics.com/* in.
-10. Voer in het veld **OAuth 2.0-omleidings-URL** *https://businesscentral.dynamics.com/OAuthLanding.htm* in. 
+8. Voer in het veld **OAuth 2.0-autoriteitseindpunt** `https://login.microsoftonline.com/common/oauth2` in.
+9. Voer in het veld **OAuth 2.0-resource-URL** `https://api.businesscentral.dynamics.com/` in.
+10. Voer in het veld **OAuth 2.0-omleidings-URL** `https://businesscentral.dynamics.com/OAuthLanding.htm` in. 
 11. Kies als u de verschillende velden hebt gespecificeerd **Volgende** en voer vervolgens de gebruikersreferenties in die zijn verstrekt door de btw-groepsvertegenwoordiger.
 12. Kies de btw-rapportconfiguratie die u gebruikt om btw te rapporteren aan de autoriteiten in uw land/regio.
 
@@ -94,7 +93,7 @@ Stel het btw-groepslid in door de begeleide instelling **Btw-groepsbeheer instel
 
 ## <a name="using-the-vat-group-management-features"></a>De beheerfuncties van btw-groepsbeheer gebruiken
 
-Leden van de btw-groep gebruiken de standaardprocessen om btw-aangiften voor te bereiden. Het enige verschil is de rapportversie **BTWGROEP** te kiezen, die de btw-aangifte indient bij de btw-groepsvertegenwoordiger, in plaats van bij de autoriteiten. Zie voor meer informatie [Over het rapport Btw-aangifte](finance-how-report-vat.md#about-the-vat-return-report).
+Leden van de btw-groep gebruiken de standaardprocessen om btw-aangiften voor te bereiden. Het enige verschil is de rapportversie **BTWGROEP** te kiezen, die de btw-aangifte indient bij de btw-groepsvertegenwoordiger, in plaats van bij de autoriteiten. Zie [Informatie over het rapport Btw-aangifte](finance-how-report-vat.md#vatreturn) voor meer informatie.
 
 In de volgende secties worden de taken beschreven die vertegenwoordigers van btw-groepen moeten uitvoeren.
 

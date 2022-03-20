@@ -1,18 +1,18 @@
 ---
 title: Business Central-bestanden openen in OneDrive
 description: Leer hoe u Business Central-gegevens kunt delen via OneDrive voor bedrijven.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 449fac4cf8d8a19caed8093019e9a804a08d1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76d845b26bf9c68b3e60947fef4d2ac78304e5ee
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147202"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383977"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Business Central-bestanden openen in OneDrive
 [!INCLUDE[prod_short](includes/prod_short.md)] maakt het gemakkelijk om bestanden op te slaan, te beheren en te delen met andere mensen via OneDrive voor Bedrijven. Op de meeste pagina's waar bestanden beschikbaar zijn, zoals de Rapportinbox of bestanden die aan records zijn toegevoegd, vindt u de actie **Openen in OneDrive**.

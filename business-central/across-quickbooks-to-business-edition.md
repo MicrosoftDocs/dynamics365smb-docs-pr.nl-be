@@ -1,7 +1,7 @@
 ---
 title: Gegevens overdragen vanuit een QuickBooks-app
 description: U kunt gegevens, zoals klanten, leveranciers, voorraadartikelen en grootboekrekeningen, vanuit QuickBooks-apps migreren naar Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.search.form: 1808
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9e8f24712efe1c6902d83e3c454d5c90209629c3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8ba1ef2d6625cb49c1b4d12dc5626c3669ecb320
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134073"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384162"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Overstappen van een QuickBooks-app op Dynamics 365 Business Central
 Steeds meer groeiende bedrijven schakelen van financiële apps als QuickBooks Desktop en QuickBooks Online, die zijn ontworpen voor startups en andere kleine bedrijven, over naar [!INCLUDE[prod_short](includes/prod_short.md)], dat ook grotere, complexere organisaties ondersteunt. 

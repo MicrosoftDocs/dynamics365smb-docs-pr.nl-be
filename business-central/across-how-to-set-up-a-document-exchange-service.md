@@ -1,7 +1,7 @@
 ---
 title: Een service voor documentuitwisseling instellen | Microsoft Docs
 description: U gebruikt een externe serviceprovider om elektronische documenten uit te wisselen met uw handelspartners.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133394"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382989"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Een service voor documentuitwisseling instellen
 Als onderdeel van het Data Exchange Framework kunt u zonder extra stappen verkoop- en inkoopdocumenten uitwisselen met uw handelspartners, zoals het toevoegen van de documenten aan e-mailberichten als PDF-bestanden. Als u bijvoorbeeld klaar bent om een klant te factureren, kunt u de factuur boeken en voor betaling verzenden als een bestand dat uw klant kan ontvangen in hun bedrijfsbeheertoepassing. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.

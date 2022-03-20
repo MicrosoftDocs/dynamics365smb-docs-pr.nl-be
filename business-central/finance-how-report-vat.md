@@ -1,7 +1,7 @@
 ---
 title: Btw-aangiften indienen bij de belastingdienst
 description: Leren om rapporten voor te bereiden met btw van verkopen in een bepaalde periode, of van verkopen en inkopen, en het rapport verzenden aan de belastingdienst.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,21 +10,25 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141190"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383817"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Btw rapporteren aan de belastingdienst
 
-Dit onderwerp beschrijft de rapporten in [!INCLUDE[prod_short](includes/prod_short.md)] die u kunt gebruiken om gegevens over btw-bedragen voor verkopen en inkopen in te dienen bij de belastingdienst in uw regio. 
+Dit onderwerp beschrijft de rapporten in [!INCLUDE[prod_short](includes/prod_short.md)] die u kunt gebruiken om gegevens over btw-bedragen voor verkopen en inkopen in te dienen bij de belastingdienst in uw regio. Afhankelijk van het specifieke land kunnen de rapporten specifieke informatie bevatten of zijn er aanvullende rapporten die u moet indienen. Bekijk de artikelen voor uw land in de sectie [Lokale functionaliteit](about-localization.md).  
 
-U kunt de volgende rapporten gebruiken:
+U kunt de volgende ingebouwde rapporten gebruiken:
 
-* Het **Verkoopoverzicht EU** bevat de btw-bedragen die u hebt geïnd voor verkopen aan btw-plichtige klanten in EU-landen/regio's.  
-* Het rapport **BTW-aangifte** bevat btw voor verkopen en inkopen aan klanten en van leveranciers in alle landen/regio's die btw gebruiken.  
+* Het rapport **Verkoopoverzicht EU**  
+
+    Het Verkoopoverzicht EU bevat de btw-bedragen die u hebt geïnd voor verkopen aan btw-plichtige klanten in EU-landen/regio's.  
+* Het rapport **Btw-aangifte**  
+
+    Het rapport Btw-aangifte bevat btw voor verkopen en inkopen aan klanten en van leveranciers in alle landen/regio's waar btw wordt gebruikt.  
 
 In beide gevallen wordt btw gebaseerd op de btw-boekingsinstelling en de btw-boekingsgroepen die u hebt ingesteld.
 
@@ -33,7 +37,7 @@ Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking w
 > [!NOTE]
 > Elke [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving is bedoeld voor het afhandelen van wettelijke rapportage in één enkel land/regio. Bijvoorbeeld de Nederlandse versie van [!INCLUDE[prod_short](includes/prod_short.md)] verzorgt btw-aangifte in Nederland maar niet in andere landen/regio's. Evenzo verwerkt de Amerikaanse versie van [!INCLUDE[prod_short](includes/prod_short.md)] 1099-rapportage in de Verenigde Staten en biedt deze geen ondersteuning voor het claimen van btw-aangifte in andere landen/regio's, tenzij door een extensie geleverd door ons partnerecosysteem of een klantspecifieke codewijziging.
 
-## <a name="about-the-ec-sales-list-report"></a>Informatie over het Verkoopoverzicht EU
+## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Informatie over het Verkoopoverzicht EU
 
 In de Europese Unie (EU) en het VK moeten alle bedrijven die goederen en diensten verkopen aan btw-plichtige klanten, inclusief klanten in andere EU-landen/regio's, een elektronische versie van het Verkoopoverzicht EU indienen bij hun douane- en belastingautoriteiten. De lijst **Verkoopoverzicht EU** werkt alleen voor landen/regio's in de EU.
 
@@ -47,7 +51,11 @@ De lijst bevat slechts één regel voor elke soort transactie met de klant en to
 
 Nadat de belastingdienst uw lijst heeft gecontroleerd, wordt er een e-mail naar de contactpersoon voor uw bedrijf verzonden. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de contactpersoon opgegeven op de pagina **Bedrijfsgegevens**. Voordat u de lijst verzendt, moet u ervoor zorgen dat een contact is geselecteerd.  
 
-## <a name="about-the-vat-return-report"></a>Over het rapport BTW-aangifte
+### <a name="submit-an-ec-sales-list-report"></a>Een rapport Verkoopoverzicht EU indienen
+
+[!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
+
+## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Informatie over het rapport Btw-aangifte
 
 Gebruik deze lijst om btw voor verkoop- en inkoopdocumenten in te dienen, zoals inkoop- en verkooporders, facturen en creditnota's. De informatie in de lijst heeft dezelfde indeling als op het declaratieformulier van de douane en de belastingdienst.  
 

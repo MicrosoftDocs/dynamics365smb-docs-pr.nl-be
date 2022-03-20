@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1b3e724a3dd0f6f8dadd0e6c233fd41795bcbfd9
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138530"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366300"
 ---
 # <a name="managing-inventory-costs"></a>Voorraadkosten beheren
 Kostenbeheer heeft betrekking op het vastleggen en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).   
@@ -36,7 +36,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Speciale waarderingsfuncties gebruiken voor dagelijkse artikeltransacties in de artikelbewerkingen.|[Voorraad- en productiekosten verwerken](finance-handle-inventory-and-manufacturing-costs.md)|  
 |U moet regelmatig de vaste verrekenprijzen van onderdelen bijwerken in assemblage- of productiestuklijsten en de nieuwe kosten tot aan het hoofdartikel berekenen.|[Vaste verrekenprijs bijwerken](finance-how-to-update-standard-costs.md)|
 |U kunt bepaalde artikelvereffeningsposten die automatisch worden gemaakt tijdens voorraadtransacties inzien en handmatig wijzigen.|[Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)|
-|Voer controle- en rapportagetaken uit voor een periode-einde, zoals het berekenen van de voorraadwaarde en het boeken van kosten in het grootboek.|[Kosten rapporteren en afstemmen met het grootboek](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Voer controle- en rapportagetaken uit voor een periode-einde, zoals het berekenen van de voorraadwaarde en het boeken van kosten in het grootboek.|[Kosten rapporteren en afstemmen met het grootboek](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Leer hoe u de taakwachtrij kunt gebruiken om de taken voor het aanpassen van voorraadkosten of het afstemmen met het grootboek naar de achtergrond te verplaatsen.|[Voorraadkosten aanpassen en afstemmen met grootboek met taakwachtrij](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Zie ook  

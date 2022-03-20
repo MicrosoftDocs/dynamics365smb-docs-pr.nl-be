@@ -1,0 +1,62 @@
+---
+author: edupont04
+ms.topic: include
+ms.date: 02/23/2022
+ms.author: edupont
+ms.openlocfilehash: 8f46c780d88df95264137814f0f49d72dd17bc75
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367331"
+---
+## <a name="sign-up"></a>Registreren
+
+### <a name="which-email-address-i-should-use-to-sign-up"></a>Welk e-mailadres moet ik gebruiken om me te registreren?
+
+Gebruik uw e-mailadres voor werk of school. We stellen uw proefperiode in voor het account van uw organisatie. U kunt geen e-mailadressen gebruiken die worden verstrekt door e-maildiensten voor consumenten of telecommunicatieproviders, zoals outlook.com, hotmail.com, gmail.com en anderen.  
+
+### <a name="what-are-the-system-requirements-for-the-trial"></a>Wat zijn de systeemvereisten voor de proefversie?
+
+Deze app is een cloudservice waarvoor geen andere software nodig is dan een actuele webbrowser, hoewel er sommige beperkingen gelden.  
+
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant"></a>Hoe registreer ik me voor de proefversie zonder een Microsoft 365-tenant?
+
+Dat is niet mogelijk. Gebruik een e-mailadres voor werk of school.
+
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service"></a>Kan ik me registreren voor andere Dynamics 365-apps, zoals Sales, Marketing en Customer Service?
+
+Ja, dat kan. [Ga naar de hubpagina voor de proefversie](https://dynamics.microsoft.com/dynamics-365-free-trial) om alle beschikbare proefversies te bekijken. U kunt hetzelfde e-mailaccount gebruiken om zich te registreren voor verschillende proefversies.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
+
+## <a name="trial-app"></a>Proefapp
+
+### <a name="i-didnt-receive-the-trial-details-email-after-signing-up-what-should-i-do"></a>Ik heb de e-mail met details van de proefversie niet ontvangen na de registratie, wat moet ik doen?
+
+Wanneer u zich voor de proefversie registreert, ontvangt u een e-mail met de details van de proefversie. Als u het e-mailbericht niet ziet in uw postvak, moet u uw map met ongewenste e-mails controleren. U kunt ook de volgende stappen gebruiken om uw app te openen:
+
+1. Ga naar [de proefsite](https://go.microsoft.com/fwlink/?linkid=847861), kies *Financiën en bedrijfsactiviteiten* en kies vervolgens, op de **Dynamics 365 Business Central**-kaart, de knop **Gratis proberen**.  
+2. Voer uw e-mailadres voor werk of school in. U wordt omgeleid naar uw proefapp.  
+
+### <a name="how-do-i-add-more-users-to-a-trial"></a>Hoe voeg ik meer gebruikers toe aan een proefversie?
+
+Als u gebruikers wilt toevoegen, vraagt u uw beheerder om naar het [Microsoft 365-beheercentrum](https://admin.microsoft.com) te gaan, waar hij of zij de [richtlijnen van het beheercentrum](/microsoft-365/admin/add-users/add-users) kan volgen voor het toevoegen van gebruikers tot aan de limiet van de proeflicentie. Als de gebruiker die u toevoegt al een Microsoft 365-account heeft, wijst u de relevante licentie aan hem of haar toe. Zie [Licenties toewijzen aan gebruikers](/microsoft-365/admin/manage/assign-licenses-to-users) in de Microsoft 365-inhoud voor meer informatie.
+
+### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>Hoeveel gebruikers kan ik aan mijn proefomgeving toevoegen?
+
+U kunt een onbeperkt aantal gebruikers toevoegen aan de proefomgeving.
+
+### <a name="how-do-i-reset-the-trial-environment"></a>Hoe stel ik de proefomgeving opnieuw in?
+
+U kunt de proefomgeving niet opnieuw instellen. Maar uw beheerder kan nieuwe sandbox-omgevingen maken waarin u met de verschillende mogelijkheden kunt spelen. Zie [Productie- en sandbox-omgevingen](/dynamics365/business-central/dev-itpro/administration/environment-types) in de beheerdersinhoud voor meer informatie.  
+
+Als u [!INCLUDE [prod_short](prod_short.md)] wilt annuleren tijdens een proefperiode, moet u uw Microsoft 365-beheerder vragen om het proefabonnement van uw bedrijfsaccount te verwijderen in het [Microsoft 365 -beheercentrum](https://admin.microsoft.com/). Zie ook [[!INCLUDE[prod_short](prod_short.md)] verwijderen of het abonnement erop stoppen](../admin-cancel.md).  
+
+Als u zich hebt aangemeld voor Dynamics 365 Business Central met een niet-Microsoft 365-bedrijfsaccount, hebt u geen Microsoft 365-beheerder. U kunt het abonnement opzeggen door contact op te nemen met het [!INCLUDE[prod_short](prod_short.md)]-annuleringsteam. Hiertoe verzendt u een e-mail naar [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). U moet de naam van uw [!INCLUDE[prod_short](prod_short.md)]-tenant in het bericht vermelden zodat we u kunnen identificeren. U vindt deze informatie op de pagina **Hulp en ondersteuning**, waartoe u toegang hebt via het **?** menu. Zie [Bronnen voor Help en ondersteuning](../product-help-and-support.md) voor meer informatie.  
+
+## <a name="trial-expiration-and-extension"></a>Vervaldatum en verlenging van de proefversie
+
+### <a name="how-do-i-extend-the-trial"></a>Hoe kan ik de proefversie verlengen?
+
+U kunt de proefperiode verlengen voor nog een proefperiode. Zie [Meer tijd nodig om te beslissen of u zich wilt abonneren?](../admin-extend-trial.md) voor instructies. U kunt uw proefperiode één keer verlengen.
+
+[!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]

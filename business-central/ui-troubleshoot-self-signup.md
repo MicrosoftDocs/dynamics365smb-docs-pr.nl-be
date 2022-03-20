@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aaf3a30be1c04d1f5f30c157b20a1f10c51170a3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb917d1d54d66e02315e82ef6596a8fef65fb077
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145276"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366211"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Probleemoplossing voor aanmelden bij Self-Service
 Aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)] is eenvoudig en kan erg snel worden uitgevoerd. U kunt een gratis account maken, zelfs als u een bestaande organisatie bent. In dit artikel worden problemen behandeld die u tijdens het aanmelden kunt tegenkomen.
@@ -43,6 +43,8 @@ Voor een overzicht van momenteel ondersteunde markten voor Dynamics 365 raadplee
 
 ## <a name="see-also"></a>Zie ook
 
+[Aanmelden voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md)  
+[Veelgestelde vragen (FAQ) over Dynamics 365 Business Central-proefversie](trial-faq.md)  
 [Welkom bij [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokale functionaliteit](about-localization.md)  

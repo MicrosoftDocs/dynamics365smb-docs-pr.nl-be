@@ -1,18 +1,18 @@
 ---
 title: Integratie van Business Central en OneDrive voor Bedrijven
 description: U kunt OneDrive voor Bedrijven gebruiken om bestanden, zoals rapporten of bestandsbijlagen, op te slaan, te beheren en te delen.
-author: bholtorf
+author: brentholtorf
 ms.topic: overview
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: f2c8efa4a32ef18ee4db25919c7e4405649d54bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 522bf01d08e77e52b4fbcf32f2652c53208cf8ec
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141475"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381841"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Integratie van Business Central en OneDrive voor Bedrijven
 OneDrive voor Bedrijven is een cloudopslagservice die is opgenomen in Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] maakt het gemakkelijk om bestanden op te slaan, te beheren en te delen met andere mensen via OneDrive. Wanneer een bestand in uw OneDrive staat, kunt u profiteren van de rijke samenwerkingservaringen van de online versies van Microsoft-producten, zoals Word, Excel en PowerPoint. U kunt bijvoorbeeld een Word-document delen, waarna u en uw collega's het samen in realtime kunnen bewerken. Met OneDrive kunt u ook andere soorten bestanden openen, zoals pdf's. 

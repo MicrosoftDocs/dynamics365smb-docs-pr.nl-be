@@ -88,14 +88,16 @@
 ##### [Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)  
 
 ## Proberen
+### [Aanmelden voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md)
+### [Veelgestelde vragen (FAQ) over Dynamics 365 Business Central-proefversie](trial-faq.md)
 ### [Proefversies en abonnementen](across-preview.md)
-### [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
+### [Zich voorbereiden om zaken te doen](ui-get-ready-business.md)
 ### [Probleemoplossing voor aanmelden bij Self-Service](ui-troubleshoot-self-signup.md)
 ### [Uw proefversie uitbreiden](admin-extend-trial.md)
 ### [Business Central verwijderen of het abonnement erop stoppen](admin-cancel.md)
 ## Kopen
-### [Aan de slag met een abonnement](across-preview.md#getting-started-with-a-subscription)
-### [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
+### [Aan de slag gaan met een abonnement](across-preview.md#get-started-with-a-subscription)
+### [Zich voorbereiden om zaken te doen](ui-get-ready-business.md)
 
 ## Snelstartgidsen
 ### [Snelstartgidsen voor Business Central](quick-start-business-central.md)
@@ -557,7 +559,7 @@
 #### [Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Kosten rapporteren en afstemmen met het grootboek
-##### [Rapportage van kosten](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Rapportage van kosten](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md)
 #### [Voorraadkosten aanpassen en afstemmen met grootboek met taakwachtrij](finance-adjust-reconcile-inventory-cost-job-queue.md)

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134989"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372144"
 ---
 # <a name="use-time-sheets"></a>Urenstaten gebruiken
 
@@ -32,7 +32,7 @@ Voordat u urenstaten kunt gebruiken, moet u algemene informatie instellen en een
 
 ## <a name="to-create-time-sheets"></a>Urenstaten maken
 
-U kunt de batchverwerking **Urenstaten maken** gebruiken om urenstaten in te stellen voor een opgegeven aantal perioden of weken. Vervolgens kan de eigenaar van de urenstaat deze openen en tijd vastleggen die aan een taak is besteed.  
+U kunt de batchverwerking **Urenstaten maken** gebruiken om urenstaten in te stellen voor een opgegeven aantal perioden of weken. Vervolgens kan de eigenaar van de urenstaat deze openen en tijd vastleggen die aan een taak is besteed. U kunt ook [de automatische uitvoering van de batchtaak plannen](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > U moet machtigingen hebben om urenstaten te maken. Zie [Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
@@ -43,7 +43,9 @@ U kunt de batchverwerking **Urenstaten maken** gebruiken om urenstaten in te ste
 
     > [!NOTE]  
     > De velden **Urenstaat gebruiken** en **Gebruikers-id eigenaar urenstaat** moeten worden ingevuld op de kaart voor de resource van de urenstaat.
-4. Kies de knop **OK**.  
+
+    Kies optioneel de actie **Plannen** om op te geven hoe vaak u wilt dat de taak automatisch wordt uitgevoerd. Als u bijvoorbeeld de taak wilt configureren om gedurende vier weken wekelijks te worden uitgevoerd, stelt u op de pagina **Een rapport plannen - Urenstaten maken** het veld **Formule voor volgende uitvoeringsdatum** in op *4W*. Zie [Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport) voor meer informatie.  
+4. Kies de knop **Ok**.  
 
 U kunt de urenstaten die u hebt gemaakt, bekijken op de pagina **Urenstaten**. Elke urenstaat bestaat uit een of meer regels die de tijd definiëren die u ter goedkeuring wilt indienen. In de volgende tabel worden de soorten regels beschreven die u aan de urenstaat kunt toevoegen.
 

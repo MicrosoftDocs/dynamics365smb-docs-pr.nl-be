@@ -1,14 +1,14 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 0bfe45574f3f209ac5ee310546cd2ef0998ab417
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334551"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372064"
 ---
 De volgende tabel beschrijft enkele van de belangrijkste rapporten in productierapportage.
 
@@ -22,6 +22,7 @@ De volgende tabel beschrijft enkele van de belangrijkste rapporten in productier
 | [Vergelijkend overzicht van artikelstuklijst](https://businesscentral.dynamics.com?report=99000758)|Dit rapport geeft u de mogelijkheid om vergelijkbare eindproducten te vergelijken wat betreft de kosten. U ziet een lijst met alle componenten en hun kosten, evenals de benodigde hoeveelheden. De berekeningsdatum is normaal gesproken ingesteld op de werkdatum. |99000758|
 | [Prod.-orderstatistiek](https://businesscentral.dynamics.com?report=99000791)|Bevat de diverse kosten die voor de geselecteerde productieorder zijn gecumuleerd.<br>De inhoud van de lijst is vergelijkbaar met de pagina **Prod.-orderstatistiek**.<br>Voor productieorders die het productiebeleid *Op order produceren* gebruiken, bevat het venster alleen materiaalkosten en capaciteitskosten van artikelen op het hoogste stuklijstniveau.|99000791|
 | [Capaciteit - Taakoverzicht](https://businesscentral.dynamics.com?report=99000780)|Geeft aan welke productieorders op de afdelingen en bewerkingsplaatsen wachten op verwerking. Er worden afdrukken gemaakt van de capaciteit van de afdeling of de bewerkingsplaats. De lijst bevat gegevens zoals begin- en eindtijd, begin- en einddatum en inputaantal per productieorder.|99000780|
-| [Werklast van afdeling](https://businesscentral.dynamics.com?report=99000783)|Beide rapporten geven een overzicht van een afdeling of bewerkingsplaats. De werklast voor een afdeling/bewerkingsplaats is de som van het benodigde aantal keren dat alle geplande en werkelijke orders worden uitgevoerd voor de afdeling in een opgegeven periode.|99000783|
-| [Werklast van bewerkingsplaats](https://businesscentral.dynamics.com?report=99000784)|Beide rapporten geven een overzicht van een afdeling of bewerkingsplaats. De werklast voor een afdeling/bewerkingsplaats is de som van het benodigde aantal keren dat alle geplande en werkelijke orders worden uitgevoerd voor de afdeling in een opgegeven periode.|99000784|
+| [Werklast van afdeling](https://businesscentral.dynamics.com?report=99000783)|Geeft een overzicht aan van de werklast voor een afdeling. De werklast voor een afdeling is de som van het benodigde aantal keren dat alle geplande en werkelijke orders worden uitgevoerd voor de afdeling in een opgegeven periode.|99000783|
+| [Werklast van bewerkingsplaats](https://businesscentral.dynamics.com?report=99000784)|Geeft een overzicht weer voor de werklast voor een bewerkingsplaats. De werklast voor een bewerkingsplaats is de som van het benodigde aantal keren dat alle geplande en werkelijke orders worden uitgevoerd voor de afdeling in een opgegeven periode.|99000784|
 | [PO - Materiaaltekortenlijst](https://businesscentral.dynamics.com?report=99000788)|Dit rapport kan worden gebruikt om alle componenten te zien die niet beschikbaar zijn vanwege ontbrekende voorraad. Dit overzicht kan dus worden gebruikt om op tijd te zien of de tijdlijn voor een geplande of vrijgegeven productieorder kan worden aangehouden.|99000788|
+|[PO - Berekening](https://businesscentral.dynamics.com?report=99000767)|Geeft een overzicht weer van de productieorders en hun kostprijzen. Hierin zijn verwachte bewerkingskosten, verwachte materiaalkosten en totale kosten opgenomen.|99000767|

@@ -1,5 +1,5 @@
 ---
-title: Een verkooporder koppelen aan een inkooporder voor een directe verzending (bevat video) | Microsoft Docs
+title: Doorverzendingen uitvoeren (bevat video)
 description: Hierin wordt beschreven hoe u een verkooporder kunt maken die is gekoppeld aan een inkooporder om verzending direct van de leverancier naar de klant mogelijk te maken.
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144839"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372078"
 ---
 # <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
 
@@ -40,12 +40,12 @@ Om een doorverzending voor te bereiden geeft u op de inkooporder aan dat deze na
 2. Selecteer in het veld **Verzenden naar**, **Klantadres**.
 3. Selecteer in het veld **Klant** de klant aan wie u verkoopt.
 4. Kies de actie **Doorverzendingen** en kies vervolgens de actie **Verkooporder ophalen**.
-5. Selecteer op de pagina **Verkoopoverzicht** de verkooporder die u hebt voorbereid in [Een verkooporder voor doorverzending maken](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. Selecteer op de pagina **Verkoopoverzicht** de verkooporder die u hebt voorbereid in [Een verkooporder voor doorverzending maken](#to-create-a-sales-order-for-drop-shipment).
 6. Kies de knop **OK**.
 
 De regelgegevens van de verkooporder worden ingevoegd op de inkooporderregel(s).
 
-U kunt de leverancier nu opdragen om de artikelen naar de klant te verzenden, bijvoorbeeld door de inkooporder als een PDF via e-mail te verzenden.     
+U kunt de leverancier nu opdragen om de artikelen naar de klant te verzenden, bijvoorbeeld door de inkooporder als een PDF via e-mail te verzenden. Als uw leverancier een traceringsnummer of soortgelijke informatie verstrekt, kunt u ervoor kiezen om die informatie vast te leggen in een inkooporderregel van het type *Opmerking*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Meerdere inkooporders voor doorverzendingen maken
 

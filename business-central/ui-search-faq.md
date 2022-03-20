@@ -1,7 +1,7 @@
 ---
 title: Veelgestelde vragen over Vertel me
 description: Dit artikel bevat antwoorden op vragen die onze partners en klanten vaak hebben over de functie Vertel me.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 13605b6188f9aa2c30a82cbb8216d8419a711d31
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 387ab76eb4ce26ca312165a1bd4e746478ec7340
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334725"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381657"
 ---
 # <a name="tell-me-faq"></a>Veelgestelde vragen over Vertel me
 Dit onderwerp beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over de functie Vertel me.

@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/18/2022
+ms.date: 02/22/2022
 ms.author: edupont
-ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 48d8ee794c9259a19b22dfcb7c6203f489bf3534
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335539"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366248"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Proefversies en abonnementen
 
@@ -21,9 +21,9 @@ ms.locfileid: "8335539"
 
 Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner) als u nog niet met een partner werkt.  
 
-## <a name="getting-started-with-a-trial"></a>Aan de slag met een proefversie
+## <a name="get-started-with-a-trial"></a>Aan de slag gaan met een proefversie
 
-U kunt zich [hier](https://go.microsoft.com/fwlink/?linkid=847861) aanmelden voor een gratis proefversie. We raden u aan om samen te werken met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) om uw organisatie op weg te helpen met [!INCLUDE[prod_short](includes/prod_short.md)].  
+U kunt zich [hier](https://go.microsoft.com/fwlink/?linkid=847861) aanmelden voor een gratis proefversie. We raden u aan om samen te werken met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) om uw organisatie op weg te helpen met [!INCLUDE[prod_short](includes/prod_short.md)]. Zie ook het artikel [Registreren voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md) om aan de slag te gaan.  
 
 Afhankelijk van uw land of regio bevat de proefversie de talen en functionaliteit die uw land of regio vereist. Zie voor meer informatie [Taal en landinstelling wijzigen](about-locale-language.md).  
 
@@ -37,11 +37,11 @@ Als u besluit [!INCLUDE [prod_short](includes/prod_short.md)] niet te gebruiken,
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Uw eigen gegevens toevoegen aan een leeg proefbedrijf
 
-Als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt proberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen met een leeg bedrijf. De begeleide instellingshandleiding **Mijn bedrijf instellen** kan u helpen basisinformatie over uw bedrijf te specificeren. U kunt eventueel gegevens importeren uit uw bestaande bedrijfsbeheeroplossing, zodat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt evalueren met uw eigen gegevens. We raden u echter aan geen gratis proefversie te gebruiken om uw bedrijf te runnen. Neem contact met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) op voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/prod_short.md)]. De partner kan u ook helpen uw gegevens te migreren naar [!INCLUDE [prod_short](includes/prod_short.md)] online.  
+Als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt proberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen zonder voorbeeldgegevens. De begeleide instellingshandleiding **Mijn bedrijf instellen** kan u helpen basisinformatie over uw bedrijf te specificeren. U kunt eventueel gegevens importeren uit uw bestaande bedrijfsbeheeroplossing, zodat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt evalueren met uw eigen gegevens. We raden u echter aan geen gratis proefversie te gebruiken om uw bedrijf te runnen. Neem contact met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) op voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/prod_short.md)]. De partner kan u ook helpen uw gegevens te migreren naar [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 Als 30 dagen niet genoeg zijn om te beslissen, kunt u uw proefperiode verlengen. Zie voor meer informatie [Meer tijd nodig om te beslissen of u zich wilt abonneren?](admin-extend-trial.md).  
 
-### <a name="setting-up-your-company-in-prod_short"></a>Uw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-prod_short"></a>Uw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 De [snelstartgids](quick-start-business-central.md)artikelen kunnen u helpen de eerste stappen te zetten bij het instellen van [!INCLUDE [prod_short](includes/prod_short.md)] voor uw organisatie. Binnen [!INCLUDE [prod_short](includes/prod_short.md)] bevat de pagina **Begeleide instelling** de begeleide instellingen die u kunnen helpen. Afhankelijk van uw rol en land of regio, toont de pagina verschillende begeleide instellingen, zoals geïllustreerd in de volgende tabel:
 
@@ -70,7 +70,7 @@ Als u gegevens aan uw gratis [!INCLUDE[prod_short](includes/prod_short.md)]-proe
 > [!IMPORTANT]
 > Als u een [!INCLUDE[prod_short](includes/prod_short.md)] deelt met andere personen van uw organisatie, moet u ervoor zorgen dat andere personen niet zijn aangemeld wanneer u het bedrijf verwijdert.  
 
-## <a name="getting-started-with-a-subscription"></a>Aan de slag met een abonnement
+## <a name="get-started-with-a-subscription"></a>Aan de slag gaan met een abonnement
 
 Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prod_short](includes/prod_short.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prod_short](includes/prod_short.md)] aanpassen door apps toe te voegen uit [de commerciële marktplaats van Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
@@ -83,7 +83,7 @@ U kunt ook contact opnemen met het [[!INCLUDE[prod_short](includes/prod_short.md
 
 Zie voor meer informatie over wat u kunt doen met [!INCLUDE [prod_short](includes/prod_short.md)] [Voorbereiden op zakendoen](ui-get-ready-business.md) en [Zakelijke functionaliteit](across-business-functionality.md).  
 
-## <a name="getting-started-with-sandboxes"></a>Aan de slag met sandboxes
+## <a name="get-started-with-sandboxes"></a>Aan de slag gaan met sandboxes
 
 Sandbox-omgevingen kunnen een manier zijn om te oefenen met [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt een sandbox zien als een niet-productie omgeving die u kunt gebruiken naast uw productie-exemplaar van [!INCLUDE[prod_short](includes/prod_short.md)]. Als u bijvoorbeeld de gratis online training wilt volgen van [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), kan uw beheerder [een sandbox-omgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). Zo oefenen u en uw collega's op een veilige plek in plaats van in uw productieomgeving.  
 
@@ -98,6 +98,8 @@ De beheerder van uw [!INCLUDE[prod_short](includes/prod_short.md)] en uw wederve
 
 ## <a name="see-also"></a>Zie ook
 
+[Aanmelden voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md)  
+[Veelgestelde vragen (FAQ) over Dynamics 365 Business Central-proefversie](trial-faq.md)  
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Uw proefversie uitbreiden](admin-extend-trial.md)  
