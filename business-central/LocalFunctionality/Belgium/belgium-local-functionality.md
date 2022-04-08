@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: 2817600b10009ab8135f686ea53ecb91eb3c58bf
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 5f1887a8825729ab3de1a642c21ce3651b97cefa
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366395"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520514"
 ---
 # <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
 
@@ -30,6 +30,7 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md) **Nu beschikbaar**
     * [Aangiftesoorten instellen](how-to-set-up-declaration-types.md) **Nu beschikbaar**
     * [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md) **Nu beschikbaar**
+    * F01DGS- en F02CMS-aangiften **2022-releasewave 2**
 
 * Bankieren en betalingen
     * [Bankrekeningen voor CODA instellen](how-to-set-up-bank-accounts-for-coda.md) **Nu beschikbaar**
