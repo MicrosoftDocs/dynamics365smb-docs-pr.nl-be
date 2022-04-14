@@ -10,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17f307f76f4f34e431b8ee2239886d91bc2c26e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 366feb242578d79ece0553bc8fba570403d8cde1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140721"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520850"
 ---
 # <a name="set-up-purchasers"></a>Inkopers instellen
 Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina instellen en aan iedere verkoper een code toewijzen. U kunt de codes vervolgens gebruiken voor statistische gegevens en om gegevens voor af te drukken lijsten te filteren.<br><br>  

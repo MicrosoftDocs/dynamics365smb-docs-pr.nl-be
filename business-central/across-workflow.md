@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 02f03c3b3423de2b78aea7f4e61c65c968290341
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9cfdcc9bbf8e24675c6894b8ca2efbf10129d990
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130895"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511193"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Werkstromen in Dynamics 365 Business Central
 
@@ -24,11 +24,11 @@ U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden di
 
  De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] bevat een aantal vooraf geconfigureerde werkstromen die worden vertegenwoordigd door werkstroomsjablonen die u kunt kopiëren om werkstromen te maken. De code voor werkstroomsjablonen die door Microsoft worden toegevoegd, heeft het voorvoegsel "MS-". Zie voor meer informatie de lijst met werkstroomsjablonen op de pagina Werkstroomsjablonen.  
 
- Als een bedrijfsscenario een werkstroomgebeurtenis of -reactie vereist die niet wordt ondersteund, kunt u Power Automate gebruiken of met een Microsoft-partner samenwerken om de toepassingscode aan te passen. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md).
+ Als een bedrijfsscenario een werkstroomgebeurtenis of -reactie vereist die niet wordt ondersteund, kunt u Power Automate gebruiken of met een Microsoft-partner samenwerken om de toepassingscode aan te passen. Zie [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md) voor meer informatie.
 
 Elke werkstroomsjabloon die u maakt met Power Automate wordt toegevoegd aan de lijst met werkstroomsjablonen binnen [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md).  
 
- In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
+ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.  
 
 |**Als u dit wilt doen**|**Onderwerp**|  
 |------------|-------------|  

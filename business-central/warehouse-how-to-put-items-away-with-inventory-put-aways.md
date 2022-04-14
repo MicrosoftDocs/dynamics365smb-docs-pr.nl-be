@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 02d3f8dca5381ecebac7cb2d980841a2e5897846
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 190a3925cfc692331e21e3cd2a2b41c68cc02d6f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138166"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511427"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Artikelen opslaan met voorraadopslag
 Als voor uw vestiging wel een opslagverwerking, maar geen ontvangstverwerking vereist is, gebruikt u het document **Voorraadopslag** om opslag- en ontvangstinformatie voor uw brondocumenten vast te leggen en te boeken. Het inkomende brondocument kan een inkooporder zijn, maar ook een verkoopretourorder, een inkomende transferorder of een assemblage- of productieorder waarvan de output kan worden opgeslagen.  

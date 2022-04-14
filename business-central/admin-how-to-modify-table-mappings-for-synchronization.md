@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383149"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515757"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>De te synchroniseren tabellen en velden toewijzen
 
@@ -85,7 +85,7 @@ De Dynamics 365 Sales-synchronisatietaak gebruikt bijvoorbeeld de tabeltoewijzin
 
 2.  Wis in het tabeltoewijzingsitem in de lijst het veld **Alleen gekoppelde records synchr.**.  
 
-## <a name="using-configuration-templates-on-table-mappings"></a>Configuratiesjablonen gebruiken met tabeltoewijzingen
+## <a name="use-configuration-templates-on-table-mappings"></a>Configuratiesjablonen gebruiken met tabeltoewijzingen
 U kunt configuratiesjablonen aan tabeltoewijzingen toewijzen om te gebruiken voor nieuwe records of rijen die worden gemaakt in [!INCLUDE[prod_short](includes/prod_short.md)] of [!INCLUDE[prod_short](includes/cds_long_md.md)]. Voor elke tabeltoewijzing kunt u een configuratiesjabloon opgeven voor nieuwe [!INCLUDE[prod_short](includes/prod_short.md)]-records en een andere sjabloon om nieuwe [!INCLUDE[prod_short](includes/cds_long_md.md)]-rijen te gebruiken.  
 
 Als u de standaardsynchronisatie-instelling installeert, worden meestal automatisch twee configuratiesjablonen gemaakt en gebruikt voor de tabeltoewijzing voor [!INCLUDE[prod_short](includes/prod_short.md)]-klanten en [!INCLUDE[crm_md](includes/crm_md.md)]-accounts: **CDSKLANT** en **CDSACCOUNT**.  

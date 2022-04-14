@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9736a1ea6c0da0381a14c8e77eabaaf752ea9f34
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7847387049dd799044ed3dca4b62a657b726b069
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133290"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517146"
 ---
 # <a name="setting-up-data-exchange"></a>Gegevensuitwisseling instellen
 Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden kunt importeren en exporteren, moet u het kader voor gegevensuitwisseling instellen om de betreffende bestanden te verwerken. Daarnaast moet u gerelateerde gebieden instellen, zoals de klanten naar wie u elektronische facturen stuurt of de extensie AMC Banking 365 Fundamentals als u de externe serviceprovider gebruikt om uw bankbestanden te converteren. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.  
@@ -31,7 +31,7 @@ Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden k
 |Diverse hoofdgegevens instellen, zoals bedrijfsgegevens, klanten, leveranciers, artikelen en eenheden, die betrekking hebben op het toewijzen van gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]|[Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Een bankrekening, leverancier en betalingsdagboek instellen voor SEPA-krediettransfers.|[SEPA-krediettransfer instellen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Bankrekening-indelingen, betalingsmethoden en klant overeenkomsten voor automatische incasso van SEPA voorbereiden.|[Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)|  
-|Gebruikersverificatie en de URL van de extensie AMC Banking 365 Fundamentals instellen, die vereist zijn om bankbestanden converteren naar de indeling van uw bank.|[De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md)|  
+|Gebruikersverificatie en de URL van de extensie AMC Banking 365 Fundamentals instellen, die vereist zijn om bankbestanden converteren naar de indeling van uw bank.|[De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md)|  
 |Een externe service instellen en inschakelen waarmee u bankafschriften direct kunt importeren als bankfeeds.|[De bankafschriftservice instellen](bank-how-setup-bank-statement-service.md)|  
 |Bankrekeningen koppelen in [!INCLUDE[prod_short](includes/prod_short.md)] als de bankafschriftservice is ingeschakeld|[Bankrekeningen instellen](bank-how-setup-bank-accounts.md)|  
 |De configuratie van een nieuwe gegevensuitwisselingsdefinitie voor een gegevensbestand of een gegevensstroom voorbereiden door met behulp van het XML-schema van het bestand het sneltabblad **Kolomdefinities** op de pagina **Uitwisselingsdefinitie van boeking** vooraf te vullen.|[XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383439"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519530"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Word-sjablonen gebruiken voor bulkcommunicatie
+# <a name="use-word-templates-for-bulk-communication"></a>Word-sjablonen gebruiken voor bulkcommunicatie
 Microsoft Word-sjablonen kunnen het gemakkelijker maken massaal te communiceren in druk of e-mail met entiteiten zoals contacten, klanten en leveranciers. U kunt bijvoorbeeld brochures maken om klanten te attenderen op een verkoopcampagne, brieven om leveranciers te informeren over een nieuw aankoopbeleid of uitnodigingen om contacten aan te trekken voor een aankomend evenement.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ Als uw Word-sjabloon klaar is, kunt u op de pagina **Word-sjablonen** **Toepasse
 
 U kunt sjablonen toepassen op een of meer van hetzelfde type entiteit, zoals een contact, rechtstreeks in de context van die pagina, of vanaf de pagina Word-sjablonen om de sjabloon toe te passen op alle entiteiten van dat type.
 
-## <a name="using-word-templates-with-email"></a>Word-sjablonen gebruiken met e-mail
+## <a name="use-word-templates-with-email"></a>Word-sjablonen gebruiken met e-mail
 U kunt Word-sjablonen gebruiken om inhoud aan e-mailberichten toe te voegen. Wanneer u een e-mail opstelt, kunt u de actie **Word-sjabloon gebruiken** kiezen om de inhoud van een sjabloon op het bericht toe te passen. Hiervoor moet u een of meer sjablonen voor de entiteit hebben gemaakt. U kunt één sjabloon tegelijk gebruiken en wanneer u tussen sjablonen schakelt, verandert het bericht om de inhoud van de gekozen sjabloon weer te geven.
 
 Daarnaast kunt u de actie **Bestand toevoegen vanuit Word-sjabloon** gebruiken om de inhoud van de sjabloon als bestand aan de e-mail toe te voegen. Het bestand gebruikt het formaat dat u hebt opgegeven voor de sjabloonuitvoer.

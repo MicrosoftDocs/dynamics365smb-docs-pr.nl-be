@@ -1,28 +1,29 @@
 ---
 title: Waarden van klantinstellingen verzamelen
-description: Configuratievragenlijst helpt de implementatie te verminderen door het opzetten van nieuwe bedrijven te stroomlijnen en klanten een Excel- of XML-bestand aan te bieden.
+description: Als u RapidStart Services wilt gebruiken, helpt de configuratievragenlijst de implementatie te verminderen door het opzetten van nieuwe bedrijven te stroomlijnen en klanten een Excel- of XML-bestand aan te bieden.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8610, 8613
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91c13c5b0fb67befd0c03e2662c545ff8231e6da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145982"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518401"
 ---
-# <a name="gather-customer-setup-values"></a>Waarden van klantinstellingen verzamelen
+# <a name="gather-customer-setup-values-with-rapidstart-services"></a>Waarden van klantinstellingen verzamelen met RapidStart Services
 U gebruikt de configuratievragenlijst om uw implementatiewerklast te verminderen door het stroomlijnen van de taak voor het instellen van het nieuwe bedrijf. U kunt de configuratievragenlijst genereren in [!INCLUDE[prod_short](includes/prod_short.md)] en vervolgens als een Excel-bestand (.xls) of een XML-bestand aan de klant geven.  
 
 U kunt alle standaardwaarden in een vragenlijst aanpassen aan de behoeften van de klant.  
 
 > [!TIP]  
->  Voor meer informatie over het definiëren van instellingen in voorraadplanningvelden zie [Aanbevolen procedures instellen: leveringsplanning](setup-best-practices-supply-planning.md).  
+> Voor meer informatie over het definiëren van instellingen in voorraadplanningvelden zie [Aanbevolen procedures instellen: leveringsplanning](setup-best-practices-supply-planning.md).  
 
 Als uw klant de vragenlijst invult, importeert u het bestand in het nieuwe [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijf van de klant. U en uw klant valideren de antwoorden in de vragenlijst voordat u ze op het bedrijf toepast.
 

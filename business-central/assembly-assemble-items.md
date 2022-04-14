@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e4d4f91ce7ca3f8ea85c0c84abdcab8fdc366fb3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ce0b3e4208cddba15c7358659e404ba2c868f11c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382193"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514555"
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  

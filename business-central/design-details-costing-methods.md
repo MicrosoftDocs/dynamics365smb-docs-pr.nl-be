@@ -1,20 +1,20 @@
 ---
-title: 'Ontwerpdetails: Waarderingsmethoden'
+title: Ontwerpdetails voor Waarderingsmethoden
 description: Dit onderwerp beschrijft hoe de waarderingsmethode bepaalt of werkelijke of gebudgetteerde waarden worden gekapitaliseerd en gebruikt in de kostenberekening.
-author: brentholtorf
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 31, 8645
-ms.date: 06/14/2021
+ms.search.keywords: ''
+ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: c7c8106ff5e38efd35b361fcccc8ebd88602a475
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383359"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519816"
 ---
 # <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
 
@@ -35,7 +35,7 @@ De volgende methoden worden ondersteund in [!INCLUDE[prod_short](includes/prod_s
 
 De volgende afbeelding toont hoe de kosten door de voorraad stromen voor elke waarderingsmethode.  
 
- ![Waarderingsmethoden.](media/design_details_inventory_costing_7_costing_methods.png "Waarderingsmethoden")  
+![Waarderingsmethoden gevisualiseerd.](media/design_details_inventory_costing_7_costing_methods.png "Waarderingsmethoden gevisualiseerd")  
 
 Waarderingsmethoden verschillen in de manier waarop ze voorraadafnamen waarderen en of ze werkelijke kosten of standaardkosten gebruiken als de waarderingsbasis. In de volgende tabel worden de verschillende kenmerken toegelicht. (De LIFO-methode is uitgesloten, omdat deze erg lijkt op de FIFO-methode.)  
 
@@ -64,31 +64,17 @@ De volgende tabel toont de positieve en negatieve voorraadmutaties waarop de voo
 > [!NOTE]  
 > Het resulterende aantal op voorraad is nul. Daarom moet de voorraadwaarde ook nul zijn, ongeacht de waarderingsmethode.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Het effect van waarderingsmethoden op de waardering van positieve voorraadmutaties
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Het effect van waarderingsmethoden op de waardering van positieve voorraadmutaties  
 
-- **FIFO**/**LIFO**/**Gemiddelde**/**Specifiek**  
-
-    Voor artikelen met waarderingsmethoden die werkelijke kosten als de waarderingsbasis gebruiken (**FIFO**, **LIFO**, **Gemiddelde** of **Specifiek**), worden positieve voorraadmutaties gewaardeerd tegen de aanschafkosten van het artikel.  
-
-    De volgende tabel toont hoe positieve voorraadmutaties wordt gewaardeerd voor alle waarderingsmethoden behalve **Standaard**.  
-
-    |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01-01-20|1|10.00|1|  
-    |01-01-20|1|20.00|2|  
-    |01-01-20|1|30,00|3|  
+Voor artikelen met waarderingsmethoden die werkelijke kosten als de waarderingsbasis gebruiken (**FIFO**, **LIFO**, **Gemiddelde** of **Specifiek**), worden positieve voorraadmutaties gewaardeerd tegen de aanschafkosten van het artikel.  
 
 - **Standaard**  
 
     Voor artikelen waarvoor de waarderingsmethode **Standaard** wordt gebruikt, worden positieve voorraadmutaties gewaardeerd tegen de huidige vaste verrekenprijs van het artikel.  
 
-    De volgende tabel toont hoe positieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Standaard**.  
+#### <a name="standard"></a>Standaard  
 
-    |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01-01-20|1|15.00|1|  
-    |01-01-20|1|15.00|2|  
-    |01-01-20|1|15.00|3|  
+Voor artikelen waarvoor de waarderingsmethode **Standaard** wordt gebruikt, worden positieve voorraadmutaties gewaardeerd tegen de huidige vaste verrekenprijs van het artikel.  
 
 ### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Het effect van waarderingsmethoden op de waardering van negatieve voorraadmutaties
 
@@ -96,9 +82,9 @@ De volgende tabel toont de positieve en negatieve voorraadmutaties waarop de voo
 
     Voor artikelen die de waarderingsmethode **FIFO** gebruiken, worden artikelen die als eerste zijn ingekocht, altijd als eerste verkocht (volgnummers 3, 2, 1 in dit voorbeeld.) Negatieve voorraadmutaties worden gewaardeerd doordat de waarde wordt genomen van de eerste positieve voorraadmutatie.  
 
-    De KPV wordt berekend met de waarde van de eerste voorraadaanwinsten.  
+     De KPV wordt berekend met de waarde van de eerste voorraadaanwinsten.  
 
-    De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **FIFO**.  
+     De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **FIFO**.  
 
     |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
     |------------------|--------------|----------------------------|---------------|  
@@ -110,12 +96,12 @@ De volgende tabel toont de positieve en negatieve voorraadmutaties waarop de voo
 
     Voor artikelen die de waarderingsmethode **LIFO** gebruiken, worden artikelen die het meest recentelijk zijn ingekocht, altijd als eerste verkocht (volgnummers 3, 2, 1 in dit voorbeeld.) Negatieve voorraadmutaties worden gewaardeerd doordat de waarde wordt genomen van de laatste positieve voorraadmutatie.  
 
-    De KPV wordt berekend met de waarde van de meest recente voorraadaanwinsten.  
+     De KPV wordt berekend met de waarde van de meest recente voorraadaanwinsten.  
 
-    De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **LIFO**.  
+     De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **LIFO**.  
 
     |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
-    |------------------|--------------|----------------------------|---------------|  
+    |------------|--------|--------------------|---------|  
     |01-02-20|-1|-30,00|4|  
     |01-03-20|-1|-20,00|5|  
     |01-04-20|-1|-10,00|6|  
@@ -124,13 +110,13 @@ De volgende tabel toont de positieve en negatieve voorraadmutaties waarop de voo
 
     Voor artikelen waarvoor de waarderingsmethode **Gemiddeld** wordt gebruikt, wordt een negatieve voorraadmutatie gewaardeerd tegen het gewogen gemiddelde van de resterende voorraad op de laatste dag van de gemiddelde prijsperiode waarin de negatieve mutatie is geboekt. Zie [Ontwerpdetails: kostenwaardering](design-details-average-cost.md) voor meer informatie.  
 
-    De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Gemiddeld**.  
+     De volgende tabel toont hoe negatieve voorraadmutaties wordt gewaardeerd voor de waarderingsmethode **Gemiddeld**.  
 
-    |Boekingsdatum|Aantal|Tot. werk. kosten|Volgnummer|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01-02-20|-1|-20,00|4|  
-    |01-03-20|-1|-20,00|5|  
-    |01-04-20|-1|-20,00|6|  
+    | Boekingsdatum | Aantal | Tot. werk. kosten | Volgnummer |
+    |--|--|--|--|
+    | 01-02-20 | -1 | -20,00 | 4 |
+    | 01-03-20 | -1 | -20,00 | 5 |
+    | 01-04-20 | -1 | -20,00 | 6 |
 
 - **Standaard**  
 
@@ -160,13 +146,13 @@ De volgende tabel toont de positieve en negatieve voorraadmutaties waarop de voo
 
 ## <a name="see-also"></a>Zie ook
 
-[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
-[Ontwerpdetails: Verschil](design-details-variance.md)   
-[Ontwerpdetails: Gemiddelde kostprijs](design-details-average-cost.md)   
-[Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
-[Voorraadkosten beheren](finance-manage-inventory-costs.md)  
-[Financiën](finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
+ [Ontwerpdetails: Verschil](design-details-variance.md)   
+ [Ontwerpdetails: Gemiddelde kostprijs](design-details-average-cost.md)   
+ [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
+ [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
+ [Financiën](finance.md)  
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

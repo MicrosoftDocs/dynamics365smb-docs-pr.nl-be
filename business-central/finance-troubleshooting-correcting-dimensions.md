@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381735"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519133"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Problemen met dimensies oplossen en dimensies corrigeren
 
@@ -103,7 +103,7 @@ Als de actie Ongedaan maken niet beschikbaar is, bijvoorbeeld omdat u veel corre
 
 Wees voorzichtig bij het corrigeren van grote sets posten, bijvoorbeeld sets die meer dan 10.000 items bevatten. Als u kunt, raden we u aan om de filters te gebruiken om de correcties op kleinere gegevenssets uit te voeren. Het is ook een goed idee om correcties buiten de normale kantooruren uit te voeren. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Analyseweergaven gebruiken met dimensiecorrecties
+### <a name="use-analysis-views-with-dimension-corrections"></a>Analyseweergaven gebruiken met dimensiecorrecties
 
 Als **Bijwerken bij boeking** is ingeschakeld voor een analyseweergave, kan [!INCLUDE[prod_short](includes/prod_short.md)] zien wanneer documenten en dagboeken worden geboekt. U kunt ook weergaven bijwerken met deze instelling ingeschakeld met resultaten van dimensiecorrecties. Schakel hiervoor de schakeloptie **Analyseweergaven bijwerken** in. Het bijwerken van analyseweergaven kan van invloed zijn op de prestaties, vooral bij grote gegevenssets, dus we raden u aan analyseweergaven alleen bij te werken voor kleine gegevenssets.  
 
@@ -118,7 +118,7 @@ Als een correctie niet wordt voltooid, wordt er een waarschuwing weergegeven op 
 > [!NOTE]
 > Het opnieuw instellen van een onvolledige correctie heeft geen invloed op updates van analyseweergaven, omdat deze plaatsvinden aan het einde van het correctieproces.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Kostprijsboekhouding gebruiken met gecorrigeerde grootboekboekingen
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Kostprijsboekhouding gebruiken met gecorrigeerde grootboekboekingen
 
 Nadat u de dimensies heeft aangepast, zijn uw gegevens voor kostprijsboekhouding niet meer gesynchroniseerd. Kostprijsboekhouding gebruikt dimensies om bedragen voor kostenplaatsen en kostenobjecten te aggregeren en om kostentoewijzingen uit te voeren. Als u de dimensies voor grootboekboekingen wijzigt, betekent dit waarschijnlijk dat u uw kostenberekeningsmodellen opnieuw uitvoert. Of u slechts een paar kostenregisters moet verwijderen en toewijzingen opnieuw moet uitvoeren of dat u alles moet verwijderen en al uw modellen opnieuw moet uitvoeren, hangt af van de gegevens die zijn bijgewerkt en hoe uw kostenberekeningsmogelijkheden zijn ingesteld. U moet handmatig identificeren waar dimensiecorrecties van invloed zijn op de kostenberekening en waar updates nodig zijn. [!INCLUDE[prod_short](includes/prod_short.md)] biedt momenteel geen geautomatiseerde manier om dat te doen.
 

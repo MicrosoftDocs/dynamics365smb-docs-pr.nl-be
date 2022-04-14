@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 2500, 2502, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 6eea88cf254b4d1b299a54c47d0e87774f0b21ae
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fa658877b3ed1c04532083788320403edbebce69
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335307"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512874"
 ---
 # <a name="customize-business-central"></a>Business Central aanpassen
 Er zijn verschillende manieren om de toepassing aan te passen zodat u en uw collega's toegang hebben tot de functies, de functionaliteit en de gegevens die u het hardst nodig hebt. En dat op een manier die het best bij uw dagelijks werk past. Wie de wijzigingen ziet, is afhankelijk van wat u doet, zoals beschreven in deze tabel.

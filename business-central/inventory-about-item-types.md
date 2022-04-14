@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e902068398a636b5e205fa7d808066861059b901
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8beaa37b20acbbad54b46e231a5c60694f7a7d75
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131703"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518089"
 ---
 # <a name="about-item-types"></a>Over artikeltypen
 In het veld **Soort** op de pagina **Artikelkaart** kunt u selecteren waarvoor het artikel in uw bedrijf wordt gebruikt. Dit heeft invloed op de mate waarin u het artikel kunt beheren in de voorraad. In de volgende tabel worden de drie soorten artikelen vermeld en beschreven die beschikbaar zijn.

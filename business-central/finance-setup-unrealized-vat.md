@@ -10,12 +10,12 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.search.form: 118, 472, 473
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 168d73da4c2cb9d457071aa9f1116fc397aad648
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1ae48b042cf3df00a1d62a6871136e2526b3db0c
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381258"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417707"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen
 
@@ -23,7 +23,7 @@ Als u op kas gebaseerde boekhoudingsmethoden gebruikt, kunt u [!INCLUDE[prod_sho
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Grootboekrekeningen gebruiken voor ongerealiseerde btw
 
-U kunt ervoor kiezen btw-bedragen te laten berekenen en boeken naar een tijdelijke grootboekrekening wanneer een factuur wordt geboekt. Vervolgens wordt de factuur geboekt naar de juiste grootboekrekening en opgenomen in btw-aangiften wanneer de werkelijke betaling van de factuur is geboekt. Hiervoor moet u eerst de btw-boekingsinstellingen voltooien.
+U kunt ervoor kiezen btw-bedragen te laten berekenen en boeken naar een tijdelijke grootboekrekening wanneer een factuur wordt geboekt. Vervolgens wordt de factuur geboekt naar de juiste grootboekrekening en opgenomen in btw-aangiften wanneer de werkelijke betaling van de factuur is geboekt. Hiervoor moet u eerst de [btw-boekingsinstellingen](finance-setup-vat.md) voltooien.
 
 Ga als volgt te werk om rekeningen voor ongerealiseerde btw te gebruiken:
 

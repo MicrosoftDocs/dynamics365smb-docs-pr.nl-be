@@ -10,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 242868f88883c6e62a9b43ca949289deb0cdf2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2c959f3c3c0aad3a44ea2ebfa60aed395720f562
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142762"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511904"
 ---
 # <a name="closing-the-books"></a>De boeken sluiten
 Nadat gezorgd hebt dat alle rekeningen actueel zijn, en u kosten en inkomsten hebt verdeeld, kunt u de boeken van een boekhoudperiode of boekjaar sluiten.

@@ -10,14 +10,14 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e697127998351040cb21c44c8383f1f64581bf4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381338"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518769"
 ---
-# <a name="working-with-general-journals"></a>Werken met diversendagboeken
+# <a name="work-with-general-journals"></a>Werken met diversendagboeken
 
 De meeste financiële transacties worden geboekt naar het grootboek door bepaalde bedrijfsdocumenten, zoals inkoopfacturen en verkooporders. Maar u kunt ook zakelijke activiteiten zoals inkoop, betaling, gebruik van periodieke dagboeken om transitoria te boeken of terugbetaling van werknemersonkosten, verwerken door dagboekregels te boeken in de verschillende dagboeken in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -34,7 +34,7 @@ De informatie die u invoert in een dagboek is tijdelijk en kan in het dagboek wo
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="using-journal-templates-and-batches"></a>Dagboeksjablonen en -batches gebruiken
+## <a name="use-journal-templates-and-batches"></a>Dagboeksjablonen en -batches gebruiken
 
 Er zijn verschillende sjablonen voor diversendagboeken. Elk dagboeksjabloon wordt vertegenwoordigd door een speciale pagina met specifieke functies en de velden die nodig zijn om die functies te ondersteunen, zoals de pagina **Dagboek betalingsreconciliatie**, om bankbetalingen te verwerken en de pagina **Betalingsdagboek** om uw leveranciers te betalen en kosten van uw werknemers te vergoeden. Zie voor meer informatie [Betalingen doen](payables-make-payments.md) en [Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantposten](receivables-how-apply-sales-transactions-manually.md).
 
@@ -51,7 +51,9 @@ Om vertragingen bij het boeken te voorkomen kunt u een achtergrondcontrole insch
 
 Wanneer u de validatie inschakelt, wordt het feitenblok **Journaalcontrole** naast de dagboekregels weergegeven en bevat het problemen op de huidige regel en in de hele batch. Validatie vindt plaats wanneer u een financiële dagboekbatch laadt en wanneer u een andere dagboekregel kiest. De tegel **Totaal aantal problemen** in het feitenblok toont het totale aantal problemen dat [!INCLUDE[prod_short](includes/prod_short.md)] heeft gevonden en kunt u ervoor kiezen om een overzicht van de problemen te openen. 
 
-U kunt de acties **Regels met problemen weergeven** en **Alle regels weergeven** gebruiken om te schakelen tussen dagboekregels die wel of geen problemen hebben. Het nieuwe feitenblok **Details van dagboekregel** biedt een snel overzicht van en toegang tot gegevens uit dagboekregels, zoals de grootboekrekening, klant of leverancier, evenals de boekingsinstellingen voor specifieke rekeningen.     
+U kunt de acties **Regels met problemen weergeven** en **Alle regels weergeven** gebruiken om te schakelen tussen dagboekregels die wel of geen problemen hebben. Het nieuwe feitenblok **Details van dagboekregel** biedt een snel overzicht van en toegang tot gegevens uit dagboekregels, zoals de grootboekrekening, klant of leverancier, evenals de boekingsinstellingen voor specifieke rekeningen.   
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Dagboeken terugdraaien om fouten te corrigeren
 Wanneer u werkt met dagboeken met veel regels en er gaat iets mis, is het belangrijk om een gemakkelijke manier te hebben om fouten te corrigeren. De pagina **Geboekt financieel dagboek** biedt een aantal acties die kunnen helpen.
@@ -73,7 +75,7 @@ Als u op de pagina **Dagboeken** standaardtegenrekeningen hebt ingesteld voor de
 > [!NOTE]  
 > Btw wordt afzonderlijk berekend voor de hoofdrekening en de tegenrekening, zodat er gebruik kan worden gemaakt van verschillende percentages.
 
-## <a name="working-with-recurring-journals"></a>Werken met periodieke dagboeken
+## <a name="work-with-recurring-journals"></a>Werken met periodieke dagboeken
 Een periodiek dagboek is een dagboek met specifieke velden voor het beheer van transacties die u regelmatig boekt met weinig of geen wijzigingen, zoals huur, abonnementen en elektriciteit. Met de speciale velden voor periodieke transacties kunt u zowel vaste als variabele bedragen boeken. U kunt ook automatische tegenboekingposten voor de dag na de boekingsdatum opgeven. U kunt ook verdeelsleutels gebruiken om de periodieke posten over verschillende rekeningen te verdelen. Zie voor meer informatie [Periodieke dagboekbedragen toewijzen aan meerdere rekeningen](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Als u een periodiek dagboek gebruikt, hoeft u de gegevens slechts éénmaal in te voeren. De ingevulde gegevens, zoals rekeningen, dimensies en dimensiewaarden, worden na het boeken in het dagboek bewaard. Later kunt u eventueel wijzigingen aanbrengen en de informatie opnieuw boeken.
@@ -97,7 +99,7 @@ Dit veld bepaalt hoe het bedrag op de dagboekregel na het boeken wordt verwerkt.
 > De btw-velden kunnen worden ingevuld op de periodieke dagboekregel of op de verdelingsdagboekregel, maar niet op beide. De btw-velden kunt u alleen invullen op de pagina **Verdeelsleutels** als de overeenkomende regels in het periodieke dagboek niet zijn ingevuld.
 
 ### <a name="recurring-frequency-field"></a>Veld Frequentie
-Dit veld bepaalt hoe vaak de dagboekregelpost moet worden geboekt. Dit is een datumformuleveld en het moet worden ingevuld voor periodieke dagboekregels. Zie voor meer informatie [Datumformules gebruiken](ui-enter-date-ranges.md#using-date-formulas).
+Dit veld bepaalt hoe vaak de dagboekregelpost moet worden geboekt. Dit is een datumformuleveld en het moet worden ingevuld voor periodieke dagboekregels. Zie voor meer informatie [Datumformules gebruiken](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Voorbeelden
 Als de dagboekregel bijvoorbeeld elke maand moet worden geboekt, voert u "1M" in. Na elke boeking wordt de datum in het veld **Boekingsdatum** automatisch bijgewerkt met een maand.
@@ -145,7 +147,7 @@ Transitoria worden meestal geboekt met periodieke vaste, variabele of saldometho
 > [!NOTE]
 > Standaard is het veld **Berekening van tegenboekingsdatum** niet beschikbaar op de pagina **Periodieke dagboeken**. Om het veld te gebruiken moet u het toevoegen door de pagina te personaliseren. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
-## <a name="working-with-standard-journals"></a>Werken met standaarddagboeken
+## <a name="work-with-standard-journals"></a>Werken met standaarddagboeken
 Wanneer u artikeldagboekregels hebt gemaakt waarvan u weet dat u ze waarschijnlijk later opnieuw moet maken, kunt u ze als een standaarddagboek opslaan voordat u het artikeldagboek boekt. Deze functie geldt voor artikeldagboeken en diversendagboeken.
 
 > [!NOTE]  

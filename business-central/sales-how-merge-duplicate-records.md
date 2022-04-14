@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3068a64df18b184df1cefe42b7a268f5f633a596
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130136"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510673"
 ---
 # <a name="merge-duplicate-records"></a>Dubbele records samenvoegen
 Aangezien verschillende gebruikers in de loop van de tijd nieuwe klant-, leveranciers- of contactkaarten maken, of de nieuwe records automatisch worden gemaakt tijdens migratie, kan een klant, leverancier of contact in het systeem worden voorgesteld door meer dan één record. In dit geval kunt u de pagina **Dubbele records samenvoegen** gebruiken vanaf de kaart of de record die u wilt behouden. De pagina geeft u een overzicht van dubbele veldwaarden en biedt functies om te selecteren welke waarden worden behouden of verwijderd wanneer twee records tot één worden samengevoegd.

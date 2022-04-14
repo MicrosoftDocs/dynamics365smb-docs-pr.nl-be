@@ -1,23 +1,23 @@
 ---
-title: Extensies installeren en verwijderen in Business Central | Microsoft Docs
+title: Extensies installeren en verwijderen
 description: Hier krijgt u meer informatie over het installeren en verwijderen van extensies in Business Central.
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 06/03/2021
+ms.search.form: 2500
+ms.date: 03/25/2022
 ms.author: solsen
-ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140409"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514763"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Extensies installeren en verwijderen in Business Central
+# <a name="install-and-uninstall-extensions-in-business-central"></a>Extensies installeren en verwijderen in Business Central
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services. Zie [Business Central aanpassen met extensies](ui-extensions.md) voor meer informatie.
 
@@ -29,7 +29,7 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door extensies te
 > [!NOTE]  
 > De machtigingenset **UITGEBREID BEHEER - BEHEERDER** is geïntroduceerd in Business Central 2021 releasewave 1, als vervanging voor de machtigingenset **D365 EXTENSIEBEHEER** in eerdere versies.
 
-## <a name="installing-an-extension"></a>Een extensie installeren
+## <a name="install-an-extension"></a><a name="install"></a>Een extensie installeren
 
 U beheert de extensies op de pagina **Extensiebeheer**. U kunt tot deze pagina toegang krijgen via de startpagina. Of kies het pictogram **Pagina of rapport zoeken** ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") in de rechterbovenhoek, voer **Extensie** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -75,14 +75,13 @@ Microsoft biedt de volgende extensies:
 * [De extensie GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [VS/CA/VK/AU/NZ/ZA - Overschrijvingsadvies verzenden](ui-extensions-send-remittance-advice.md)
 
-
-## <a name="uploading-a-per-tenant-extension-pte"></a>Een per-tenant extensie (PTE) uploaden
+## <a name="upload-a-per-tenant-extension-pte"></a>Een per-tenant extensie (PTE) uploaden
 
 U uploadt een PTE met behulp van de pagina **Extensiebeheer**. Ga op de pagina **Extensiebeheer** naar **Beheren** en kies **Extensie uploaden**. Geef op de pagina **Extensie uploaden en implementeren** het .app-bestand op dat u wilt uploaden. Kies om verder te gaan de knop **Accepteren** en dan de knop **Implementeren**. Hierdoor wordt hiermee het proces van het implementeren van de PTE gestart.
 
-Als de PTE onderbrekende schemawijzigingen bevat, is het mogelijk om een upload ervan *af te dwingen*. Om dat te doen kiest u in de **Schemasynchronisatiemodus** de optie **Afdwingen**. U krijgt een bevestigingsdialoogvenster om te accepteren voordat u verder gaat. 
+Als de PTE onderbrekende schemawijzigingen bevat, is het mogelijk om een upload ervan *af te dwingen*. Om dat te doen kiest u in de **Schemasynchronisatiemodus** de optie **Afdwingen**. U krijgt een bevestigingsdialoogvenster om te accepteren voordat u verder gaat.  
 
-## <a name="uninstalling-an-extension"></a>Een extensie verwijderen
+## <a name="uninstall-an-extension"></a>Een extensie verwijderen
 
 U kunt een extensie verwijderen op de pagina **Extensiebeheer**. Als u een extensie verwijdert en u vervolgens van gedachten verandert, kunt u de extensie opnieuw installeren. Wanneer u een extensie verwijdert die u hebt gebruikt, worden de gegevens standaard bewaard zodat deze gegevens nog steeds beschikbaar zijn als u de extensie opnieuw installeert. U kunt er in plaats daarvan ook voor kiezen om de gegevens samen met de extensie te verwijderen. Dit kunt u opgeven door het selectievakje **Extensiegegevens verwijderen** in of uit te schakelen. Dit selectievakje is standaard *uitgeschakeld*.
 

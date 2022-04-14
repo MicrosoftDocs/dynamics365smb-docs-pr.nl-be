@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323226"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518349"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>De Business Central-invoegtoepassing voor Outlook verkrijgen
 
@@ -39,7 +39,7 @@ De Business Central-invoegtoepassing voor Outlook bestaat uit twee kleinere invo
 
     Wanneer een e-mail verwijst naar een bedrijfsdocumentnummer in de hoofdtekst van de e-mail, biedt deze invoegtoepassing een directe, in-line koppeling van de hoofdtekst van de e-mail naar het eigenlijke bedrijfsdocument in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Voor meer informatie over wat u doet met de invoegtoepassingen zie [Business Central gebruiken als uw zakelijke inbox in Outlook](work-outlook-addin.md).
+Zie [Business Central gebruiken als uw zakelijke inbox in Outlook](work-outlook-addin.md) voor meer informatie over wat u doet met de invoegtoepassingen.
 
 Elke invoegtoepassing wordt geleverd als een XML-bestand, genaamd een *manifest*, dat in Outlook moet worden geïnstalleerd voor iedereen die deze functionaliteit wil. Deze bestanden beschrijven hoe u de invoegtoepassingen activeert en verbinding maakt met Business Central wanneer ze in Outlook worden gebruikt. Het werken met deze bestanden wordt meestal gedaan door een beheerder. Als normale gebruiker hoeft u in de meeste gevallen niet direct met deze bestanden om te gaan. Ofwel uw beheerder stelt de invoegtoepassing zo in dat deze automatisch voor u wordt geïnstalleerd of u gebruikt de ingebouwde begeleide instelling om de installatie af te handelen.
 
@@ -84,7 +84,7 @@ Gecentraliseerde implementatie is een functie in het Microsoft 365-beheercentrum
 > [!IMPORTANT]
 > Er verschijnt een groen vinkje wanneer de invoegtoepassing is geïmplementeerd in het beheercentrum. Het kan echter tot 24 uur duren voordat gebruikers de invoegtoepassing zien in de Outlook-app. Gebruikers moeten mogelijk ook Outlook opnieuw starten.
 
-Als u klaar bent, kunt u de implementatie altijd wijzigen in het Microsoft 365-beheercentrum, zoals het toewijzen van meer gebruikers. Zie voor meer informatie over het implementeren van invoegtoepassingen in het beheercentrum [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Als u klaar bent, kunt u de implementatie altijd wijzigen in het Microsoft 365-beheercentrum, zoals het toewijzen van meer gebruikers. Zie [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true) voor meer informatie over het implementeren van invoegtoepassingen in het beheercentrum.
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>De invoegtoepassing installeren voor eigen gebruik
 

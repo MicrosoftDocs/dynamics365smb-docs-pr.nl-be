@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: b02b8fe9aeee685f65cf82ad66c9492d241c6711
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: d8d3e9b37abe5e8d24e1d01eacfdff96df94da45
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381310"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514107"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>KPI-webservices instellen en publiceren op basis van rekeningschema's
 Op de pagina **Instellingen rapportageschema KPI-webservice** stelt u in hoe de KPI-gegevens van het rapportageschema worden weergegeven en op welke specifieke rapportageschema's de KPI's zijn gebaseerd. Wanneer u de knop **Webservice publiceren** kiest, worden de opgegeven gegevens van de rapportageschema-KPI toegevoegd aan de lijst met gepubliceerde webservices op de pagina **Webservices**.  

@@ -1,23 +1,25 @@
 ---
 title: De weergave van een rapport wijzigen door een andere indeling te kiezen
 description: U kunt verschillende lay-outs voor een lijst gebruiken en schakelen tussen lay-outs om te bepalen hoe een rapport eruitziet.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c02f1e2083ef47d5aeee5831b042128c065c411f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/07/2022
+ms.author: jswymer
+ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144657"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515315"
 ---
-# <a name="change-the-current-report-layout"></a>De huidige rapportindeling wijzigen
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(verouderd) De lay-out instellen die door een rapport wordt gebruikt
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Een rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indien nodig kunt schakelen.
 
@@ -30,9 +32,13 @@ Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Wijzigen welke rapportlay-out moet worden gebruikt voor een rapport of document
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
-   De pagina **Selectie van rapportlay-out** bevat een overzicht van alle rapporten die beschikbaar zijn voor het bedrijf dat in het veld **Bedrijf** boven aan de pagina wordt opgegeven. Met het veld **Geselecteerde lay-out** wordt de lay-out opgegeven die momenteel in het rapport wordt gebruikt.
-2. Stel het veld **Bedrijf** boven aan de pagina in op het bedrijf dat het rapport bevat.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.
+  
+   De pagina **Selectie van rapportlay-out** bevat een overzicht van alle rapporten die beschikbaar zijn voor het bedrijf dat in het veld **Bedrijf** boven aan de pagina wordt opgegeven. Het veld **Lay-outbeschrijving** <!-- **Selected Layout** -->geeft de rapportlay-out aan die momenteel in het rapport wordt gebruikt.
+2. Stel het veld **Bedrijf** bovenaan in op het bedrijf dat het rapport bevat.
+
+   Met dit veld kunt u verschillende lay-outs instellen voor hetzelfde rapport in verschillende bedrijven.
+
 3. Als u de lay-out wilt wijzigen die door een rapport wordt gebruikt, stelt u in de rij voor het rapport het veld **Geselecteerde lay-out** in op een van de volgende opties:
    * **RDLC (ingebouwd)**, gebruikt de ingebouwde RDLC-rapportlay-out in het rapport.
    * **Word (ingebouwd)**, gebruikt de ingebouwde Word-rapportlay-out in het rapport.
@@ -44,6 +50,7 @@ Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit
 Als u een ingebouwde RDLC- of Word-rapportlay-out hebt geselecteerd, is er verder geen actie vereist en wordt de lay-out gebruikt als het rapport de volgende keer wordt uitgevoerd.
 
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>De aangepaste lay-out wijzigen die voor een rapportlay-out wordt gebruikt
+
 Misschien wilt u ook de huidige gebruikte aangepaste lay-out wijzigen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
 Alle aangepaste rapportlay-outs die bestaan voor rapportlay-outs in een bedrijf, worden vermeld op de pagina **Aangepaste rapportlay-outs**. Op de pagina **Selectie van rapportlay-out** ziet u welke aangepaste lay-outs voor elk rapport beschikbaar zijn in het feitenblok **Aangepaste lay-outs**.

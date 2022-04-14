@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 0b367c59b3d9be298fa7f42fe0b94018d99c94a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 28c9d8c9f24158f119ffffaeddd92590bee906cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148238"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515939"
 ---
 # <a name="preview-posting-results"></a>Voorbeeld van boekingsresultaten weergeven
 In elk document en elk dagboek die kunnen worden geboekt, kunt u de knop **Voorbeeld van boeking weergeven** kiezen om de verschillende soorten posten te bekijken die worden gemaakt wanneer u het document of het dagboek boekt.

@@ -1,22 +1,21 @@
 ---
-title: De contacten in een segment definiëren| Microsoft Docs
+title: Contacten toevoegen aan segmenten
 description: Nadat u een segment hebt gemaakt, kunt u contacten toevoegen aan het segment, bijvoorbeeld als onderdeel van een marketingcampagne die is gericht op specifieke klanten of cliënten.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
+ms.search.form: 5091, 5093
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 975a6e769bbba3a32451fc1e9fda54da9cad401b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d285e384ceef9e78fca764fdffaabb3ff439ea02
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135223"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519081"
 ---
 # <a name="add-contacts-to-segments"></a>Contacten toevoegen aan segmenten
 Nadat u een segment hebt gemaakt en de basisinformatie ervoor hebt ingevoerd, kunt u contactpersonen toevoegen aan het segment. U kunt dit doen door de regels op de pagina **Segment** handmatig in te vullen, maar het is eenvoudiger en sneller om de functie **Contacten toevoegen** te gebruiken.

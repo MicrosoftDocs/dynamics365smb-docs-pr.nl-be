@@ -10,14 +10,14 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 934fcefa552f01a05f95221d57d9a708b9acc26f
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323018"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518873"
 ---
-# <a name="working-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
+# <a name="work-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
 
 [!INCLUDE[prod_short](includes/prod_long.md)] biedt meerdere manieren om datums en tijden in te voeren, inclusief krachtige functies die gegevensinvoer versnellen of u helpen complexe agenda-expressies te schrijven. Er zijn verschillende plaatsen in de toepassing waar u datums en tijden in velden kunt invoeren. Bijvoorbeeld in een verkooporder kunt u de verzenddatum instellen. Wanneer u lijsten of rapportgegevens filtert, kunt u datums en tijden invoeren om alleen de gegevens te krijgen waarin u geïnteresseerd bent.
 
@@ -63,12 +63,15 @@ Het schema van het weeknummer is altijd ISO 8601, waar week 1 de week met 4 janu
 
 Een datumveld kan twee, vier, zes of acht cijfers bevatten:
 
--   Als u slechts twee cijfers invoert, wordt dit als een dag beschouwd en wordt de maand en het jaar van de werkdag automatisch toegevoegd.
+- Als u slechts twee cijfers invoert, wordt dit als een dag beschouwd en wordt de maand en het jaar van de werkdag automatisch toegevoegd.
 
--   Als u vier cijfers invoert, wordt dit als een dag en een maand beschouwd en wordt het jaar van de werkdag automatisch toegevoegd. De volgorde van de dag en de maand wordt bepaald door uw regio-instellingen. Zelfs als uw regio-instellingen het jaar vóór de dag en de maand bevatten, worden vier cijfers geïnterpreteerd als de dag en de maand.
+- Als u vier cijfers invoert, wordt dit als een dag en een maand beschouwd en wordt het jaar van de werkdag automatisch toegevoegd. De volgorde van de dag en de maand wordt bepaald door uw regio-instellingen. Zelfs als uw regio-instellingen het jaar vóór de dag en de maand bevatten, worden vier cijfers geïnterpreteerd als de dag en de maand.
 
--   Als de ingevoerde datum in de reeks 01.01.1930 tot en met 31.12.2029 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.
+- Als de ingevoerde datum in de reeks 01/01/1950 tot en met 31/12/2049 valt, hoeft u slechts twee cijfers voor het jaartal in te voeren; anders moet u vier cijfers voor het jaartal invoeren.
 
+  > [!NOTE]
+  > Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kan het tweecijferige jaarbereik verschillen. Beheerders kunnen het bereik wijzigen met de instelling **CalendarTwoDigitYearMax** van de [!INCLUDE[prod_short](includes/prod_short.md)]-server. Zie [Business Central Server configureren](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) voor meer informatie.
+ 
 ### <a name="today"></a>Vandaag
 
 Voer het woord in voor _vandaag_, in de taal vermeld op de pagina **Mijn instellingen**, om de datum in een record in te stellen op de datum van vandaag. U kunt in plaats van het volledige woord een deel van het woord invoeren, vanaf het begin. In het Engels kunt u bijvoorbeeld _t_ of _tod_ invoeren, zolang het niet ook het begin is van een ander woord.
@@ -130,7 +133,7 @@ In lijsten, totalen en rapporten kunt u filters instellen op datum, tijden en da
 
 U kunt iedere geldige indeling in datumbereikfilters gebruiken. Bijvoorbeeld maa14 3..v 4p, toegepast op een datum/tijd-veld leidt tot een filter van 3 uur 's morgens op maandag, in week 14 van het huidige werkdatumjaar tot en met vandaag om 4 uur 's middags.
 
-## <a name="using-date-formulas"></a>Datumformules gebruiken
+## <a name="use-date-formulas"></a>Datumformules gebruiken
 Een datumformule is een korte, afgekorte combinatie van letters en cijfers op basis waarvan datums worden berekend. U kunt datumformules invoeren in verschillende datumberekeningsvelden of -filters.
 
 > [!NOTE]
@@ -216,7 +219,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]

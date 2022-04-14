@@ -10,12 +10,12 @@ ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 460, 9307
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2cdf62f5b484e7c361bdf0e6819490c07540a0f5
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4a8d4e2568c64e09f1b71c247c6701e67bf9a824
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380970"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513821"
 ---
 # <a name="purchasing"></a>Inkopen
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u een voorraad moeten controleren, worden inkoopfacturen ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
@@ -26,9 +26,9 @@ U kunt inkoopfacturen automatisch laten maken met behulp van de OCR-service (Opt
 
 Producten kunnen zowel voorraadartikelen als services zijn. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
-Voor alle inkoopprocessen kunt u een goedkeuringswerkstroom opnemen, bijvoorbeeld om te vereisen dat grote inkopen worden goedgekeurd door de administrateur. Zie voor meer informatie [Goedkeuringsworkflows gebruiken](across-how-use-approval-workflows.md).
+Voor alle inkoopprocessen kunt u een goedkeuringswerkstroom opnemen, bijvoorbeeld om te vereisen dat grote inkopen worden goedgekeurd door de administrateur. Zie voor meer informatie [Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md).
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.
 
 | Aan | Zie |
 | --- | --- |

@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
-ms.date: 06/22/2021
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 3ddb1a5612eb4a2c060357b32e8209accdda7349
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2ef4432d91d9f647a4bea58febbdfd5513a4350
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147634"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520294"
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
+# <a name="set-up-or-change-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
 
 Het rekeningschema bevat de grootboekrekeningen die uw financiële gegevens bevatten. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
 Echter, kunt u de standaardrekeningen wijzigen en u kunt nieuwe rekeningen toevoegen.
@@ -25,7 +25,7 @@ Echter, kunt u de standaardrekeningen wijzigen en u kunt nieuwe rekeningen toevo
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="adding-or-changing-accounts"></a>Rekeningen toevoegen of wijzigen
+## <a name="add-or-change-accounts"></a>Rekeningen toevoegen of wijzigen
 
 Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen toevoegen of wijzigen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
@@ -36,7 +36,7 @@ Voor rekeningen van het rekeningsoort **Totaal** moet u het veld **Samentelling*
 > [!IMPORTANT]
 > Als u vóór het uitvoeren van de inspringfunctie definities hebt ingevoerd in de velden **Samentelling** voor rekeningen van het type **Eindtotaal**, moet u deze daarna nogmaals invoeren, omdat de functie de waarden in alle **Eindtotaal**-velden overschrijft.
 
-## <a name="deleting-accounts"></a>Rekeningen verwijderen
+## <a name="delete-accounts"></a>Rekeningen verwijderen
 
 U kunt een grootboekrekening verwijderen. Echter, voordat u deze verwijdert, moet het volgende waar zijn:  
 
@@ -45,6 +45,18 @@ U kunt een grootboekrekening verwijderen. Echter, voordat u deze verwijdert, moe
 * Als het veld **Grootboekrek.-gebruik controleren** op de pagina **Grootboekinstellingen** is geselecteerd, mag de rekening niet worden gebruikt in boekingsgroepen of boekingsinstellingen.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] voorkomt dat u een grootboekrekening verwijdert die gegevens bevat die nodig zijn in het rekeningschema.  
+
+## <a name="block-deletion-of-gl-accounts"></a>Verwijderen van grootboekrekeningen blokkeren
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+In releasewave 2 van 2022 wordt een extra beveiliging tegen het per ongeluk verwijderen van grootboekrekeningen geïntroduceerd, zelfs in de scenario's waarin aan de criteria wordt voldaan.  
+
+Een nieuw veld, **Blok grootboekrekeningen verwijderen**, wordt toegevoegd aan de pagina **Grootboekinstellingen**. Het veld fungeert als extra validatie wanneer een gebruiker probeert een rekening te verwijderen waarvan er grootboekboekingen zijn na de datum die is opgegeven in het veld **Verwijdering van grootboekrek. controleren na**.
+
+Als het veld **Blok grootboekrekeningen verwijderen** is ingesteld op *Ja*, kunt u geen grootboekrekeningen verwijderen die posten hebben na de datum in het veld **Verwijdering van grootboekrek. controleren na**. Als een een gebruiker met toegang tot de pagina **Grootboekinstellingen** een dergelijke rekening wil verwijderen, moet hij of zij dit veld eerst instellen op *Nee*. Vervolgens kan de rekening worden verwijderd.  
+
+We raden aan om het veld **Blok grootboekrekeningen verwijderen** in te stellen op *Ja*. We raden u ook aan om altijd een datum vast te leggen in het veld **Verwijdering van grootboekrek. controleren na**, zoals de tijd die u nodig hebt om uw financiële gegevens op te slaan.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 

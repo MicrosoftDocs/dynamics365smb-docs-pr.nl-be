@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91a97ab506f7536b9c468862709d1d39ed767d53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335486"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512372"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën
 
@@ -54,10 +54,10 @@ De rapportageschema's in de standaardversie van [!INCLUDE[prod_short](includes/p
 
 Op de pagina **Rapportageschemaoverzicht** bekijkt u een voorbeeld van het financiële rapport dat het rapportageschema definieert. In het volgende is het belangrijk te weten dat wat u instelt als rijen en kolommen van het rapportageschema, alleen kan worden gezien en gevalideerd op de pagina **Rapportageschemaoverzicht**, die u kunt openen vanuit een rapportageschema door de actie **Overzicht** te kiezen. De pagina **Rapportageschema** zelf is alleen een instellingengebied.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een rekeningschema te maken.
 3. Of kies de actie **Rapportageschema kopiëren**, vul de twee velden in en kies de knop **OK**.
-4. Vul de benodigde velden in. Selecteer in het veld **Std. kolomindeling** een bestaande indeling. U kunt het later desgewenst wijzigen.
+4. Vul de vereiste velden in. Selecteer een bestaande indeling in het veld **Std. kolomindeling**. U kunt het later desgewenst wijzigen.
 
     U gebruikt kolomindelingen om kolommen te definiëren voor verschillende parameters waarmee de financiële gegevens in de rijen worden weergegeven. U kunt bijvoorbeeld een kolomindeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar, met vier kolommen. Zie voor meer informatie [Een kolomindeling bewerken](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
@@ -71,7 +71,7 @@ U hebt nu de basis van het rapportageschema gedefinieerd, de rijen van financië
 
 ### <a name="to-edit-a-column-layout"></a>Een kolomindeling bewerken
 
-U gebruikt kolomindelingen om te definiëren welke kolommen u in het resulterende rapport wilt opnemen. U kunt bijvoorbeeld een indeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar.
+U gebruikt kolomindelingen om te definiëren welke kolommen u in het resulterende rapport wilt opnemen. U kunt bijvoorbeeld een indeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar. U kunt maximaal 15 kolommen hebben. Dit is bijvoorbeeld handig als u budgetten voor 12 maanden wilt bekijken en een kolom wilt opnemen met het totaal.
 
 > [!NOTE]
 > Een afgedrukte/opgeslagen of voorbeeldversie van een rapportageschema kan maximaal vijf kolommen weergegeven. Als het rapportageschema alleen voor analyse op de pagina **Rapportageschemaoverzicht** is bedoeld, kunt u zoveel kolommen maken als u wilt.
@@ -88,7 +88,7 @@ U gebruikt kolomindelingen om te definiëren welke kolommen u in het resulterend
 
 U wilt mogelijk soms een kolom opnemen in een rekeningschema om percentages van een totaal te berekenen. U hebt bijvoorbeeld een aantal rijen die zijn onderverdeeld op dimensie, en u wilt wellicht een kolom maken om het percentage aan te geven van de totale verkoop van elke rij.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me 2 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een rapportageschema op de pagina **Rapportageschema's**.  
 3. Kies de actie **Rapportageschema bewerken** om een rapportageschemarij te definiëren die de totalen moet berekenen waarop de percentages worden gebaseerd.  
 4. Voeg een regel in rechtstreeks boven de eerste rij waarvoor u een percentage wilt weergeven.  
@@ -101,11 +101,11 @@ U wilt mogelijk soms een kolom opnemen in een rekeningschema om percentages van 
 
 U kunt een rekeningstelsel gebruiken om een rekeningoverzicht te maken waarin grootboekcijfers en begrotingscijfers van grootboeken worden vergeleken.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me 3 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een rapportageschema op de pagina **Rapportageschema's**.  
 3. Kies de actie **Rapportageschema bewerken**  
 4. Selecteer op de pagina **Rapportageschema** in het veld **Naam** de naam van het standaardrapportageschema.
-5. Kies de actie **Rekeningen invoegen**.  
+5. Kies de actie **Grootboekrekeningen invoegen**.  
 6. Selecteer de rekeningen die u wilt opnemen in uw overzicht en klik vervolgens op **OK**.
 
     De rekeningen worden nu opgenomen in het rapportageschema. Indien gewenst kunt u ook de kolomindeling wijzigen.  
@@ -149,7 +149,17 @@ Als u de berekening volgens normale tijdsperioden wilt uitvoeren, moet u in plaa
 
 Zie voor meer informatie over datumformules [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="import-or-export-account-schedules"></a>Rekeningschema's importeren of exporteren
+U kunt rekeningschema's importeren en exporteren als RapidStart-configuratiepakketten. Dit is bijvoorbeeld handig om te delen met andere bedrijven. Het pakket wordt gemaakt vanuit een .rapidstart-bestand, dat de pakketinhoud in een gecomprimeerde indeling aanlevert.
+
+### <a name="to-import-and-export-account-schedules"></a>Rekeningschema's importeren en exporteren
+1. Kies het pictogram ![Lampje dat de functie Vertel me 4 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
+2. Kies het rekeningschema en kies vervolgens de actie **Rekeningschema importeren** of **Rekeningschema exporteren**, afhankelijk van wat u wilt doen. 
+
+> [!NOTE]
+> Wanneer u rekeningschema's importeert, worden bestaande records die dezelfde naam hebben als de records die u importeert, verwijderd.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

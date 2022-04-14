@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147124"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528461"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Business Central-records en paginakoppelingen delen in Microsoft Teams
 
@@ -45,7 +45,7 @@ In de volgende secties worden de verschillende manieren gedetailleerd beschreven
 
 Met de Business Central-app voor Teams kunt u een koppeling kopiëren vanuit elke Business Central-record, zoals een klant of verkooporder, en de koppeling in een Teams-gesprek plakken. De app maakt verbindt Microsoft Teams met uw bedrijfsgegevens in [!INCLUDE [prod_short](includes/prod_short.md)]\. De koppeling wordt vervolgens uitgebreid tot een compacte, interactieve kaart die informatie over de record weergeeft. Eenmaal in het gesprek kunnen u en collega's meer details over de record bekijken, gegevens bewerken en actie ondernemen&mdash;zonder Teams te verlaten.
 
-[![Teams-integratie met Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integratie met Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -60,38 +60,36 @@ Met de Business Central-app voor Teams kunt u een koppeling kopiëren vanuit elk
 1. Log in bij [!INCLUDE [prod_short](includes/prod_short.md)] met uw browser.
 2. Open de record die u wilt delen.
 
-    De app is ontworpen om pagina's van het kaarttype weer te geven vanuit [!INCLUDE [prod_short](includes/prod_short.md)]\.. Open dus een pagina met één record, zoals een artikel, klant of verkooporder. U kunt de app niet gebruiken voor rolcentra of pagina's die meerdere records in een lijst weergeven.
+    De app is ontworpen om een kaart weer te geven voor vrijwel elk type [!INCLUDE [prod_short](includes/prod_short.md)]-pagina. Maar de app biedt de beste ervaring wanneer deze wordt gebruikt voor pagina's die een enkele record weergeven, zoals een artikel, klant of verkooporder.
+3. Kopieer de koppeling naar de pagina.
 
-3. Kopieer de volledige URL uit de adresbalk van de browser.
+    Er zijn twee manieren om de koppeling te kopiëren. De gemakkelijkste en geprefereerde manier is via het selecteren van **Delen** ![Pictogram Delen in Business Central](media/share-icon.png) > **Koppeling kopiëren**. De andere manier is door de volledige URL vanuit de adresbalk van de browser te kopiëren.
 
-   ![De Business Central-URL kopiëren vanuit de browser.](media/teams-url-v2.png)
+    [![De Business Central-URL kopiëren vanuit de browser.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Ga naar Teams en start een gesprek. Dat kan chatten met een persoon, een groep personen of een teamkanaal zijn.
+5. Plak de koppeling (URL) in het berichtvak waarin u een bericht opstelt.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Plak de URL in het berichtvak waarin u een bericht opstelt.
+    ![Plak de Business Central-URL in Teams.](media/teams-paste-url-v2.png)
 
-   ![Plak de Business Central-URL in Teams.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > Als u een bericht krijgt als *Business Central wil een voorbeeld van deze koppeling laten zien.*, betekent dit dat u de Business Central-app voor Teams niet hebt geïnstalleerd. Als u de app wilt installeren, selecteert u **Voorbeeld weergeven** en volgt u de instructies.
 6. De eerste keer dat u een koppeling in een gesprek plakt, wordt u gevraagd u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)] en toestemming te geven aan de app om gegevens op te halen. Volg gewoon de instructies op het scherm.
 
     > [!NOTE]
     > U hoeft deze stap maar één keer uit te voeren.
-
 7. Wacht even terwijl er een kaart wordt gegenereerd in het berichtvenster.
-
 8. Als de kaart verschijnt, controleert u de inhoud van de kaart zorgvuldig op gevoelige informatie voordat u het bericht verzendt. Deze stap is belangrijk omdat zodra u het bericht verzendt, iedereen in het gesprek de kaart kan zien.
-
 9. Selecteer als de kaart er goed uitziet **Verzenden** om de kaart bij het gesprek in te dienen.
 
     > [!TIP]
     > Nadat de kaart is verschenen en voordat u **Verzenden** selecteert, kunt u de geplakte URL desgewenst verwijderen.
-
 10. Selecteer om meer details te bekijken of wijzigingen aan te brengen in de record die op de kaart wordt weergegeven, **Details**. Zie de volgende sectie voor meer informatie.
 
 ### <a name="view-card-details"></a>Kaartdetails weergeven
 
-Zodra een kaart naar een gesprek is verzonden, kunnen alle deelnemers met de [juiste machtigingen](admin-teams-integration.md#permissions) **Details** selecteren om een venster te openen met meer informatie over de record&mdash;en eventueel wijzigingen aanbrengen in het record. Het maakt niet uit of u degene bent die de kaart verstuurt of degene die de kaart ontvangt. De functie **Details** is vooral handig voor ontvangers, omdat deze hen snel beknopte, gerichte informatie over de record biedt, in plaats van de volledige record te moeten scannen.
+Zodra een kaart naar een gesprek is verzonden, kunnen alle deelnemers met de [juiste machtigingen](admin-teams-integration.md#permissions) **Details** selecteren om een venster te openen met meer informatie over de record&mdash;en eventueel wijzigingen aanbrengen in het record. Het maakt niet uit of u degene bent die de kaart verstuurt of degene die de kaart ontvangt. De functie **Details** is vooral handig voor ontvangers, omdat deze hen snel beknopte, gerichte informatie over de record biedt.
 
-Het detailvenster is vergelijkbaar met wat u zou zien in [!INCLUDE [prod_short](includes/prod_short.md)]. Maar het is enigszins ingekort voor Teams. Als u klaar bent met het bekijken en aanbrengen van wijzigingen, sluit u het venster om terug te keren naar het Teams-gesprek.
+Het detailvenster is vergelijkbaar met wat u zou zien in [!INCLUDE [prod_short](includes/prod_short.md)], maar het is gericht op de pagina of record waar de kaart over gaat. Als u klaar bent met het bekijken en aanbrengen van wijzigingen, sluit u het venster om terug te keren naar het Teams-gesprek.
 
 Hier zijn een paar dingen waarmee u rekening moet houden wanneer u met de kaartgegevens werkt:
 
@@ -102,7 +100,7 @@ Zie voor meer informatie over het werken met kaarten en kaartdetails [Veelgestel
 
 ## <a name="share-a-link-to-page-from-business-central-to-teams"></a><a name="share-link"></a>Een koppeling naar een pagina vanuit Business Central delen met Teams
 
-Rechtstreeks vanuit de meeste collectiepagina's, zoals de pagina **Artikelen** en detailpagina's, zoals de **Artikel** kaart kunt u een link naar de pagina naar specifieke ontvangers sturen in een Teams-gesprek. U kunt bijvoorbeeld een koppeling naar een gefilterde weergave van uw records delen. Ontvangers kunnen vervolgens de link selecteren om de pagina te openen in [!INCLUDE [prod_short](includes/prod_short.md)]\.
+Rechtstreeks vanuit de meeste collectiepagina's, zoals de pagina **Artikelen** en detailpagina's, zoals de kaart **Artikel** kunt u een link naar de pagina naar specifieke ontvangers sturen in een Teams-gesprek. U kunt bijvoorbeeld een koppeling naar een gefilterde weergave van uw records delen. Ontvangers kunnen vervolgens de link selecteren om de pagina te openen in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
  ![!Het menu Delen weergegeven op een kaart.](media/teams-share-link.png "Het menu Delen weergegeven op een kaart.")
 

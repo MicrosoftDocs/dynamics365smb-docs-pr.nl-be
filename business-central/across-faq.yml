@@ -7,12 +7,12 @@ metadata:
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
   ms.date: 09/29/2021
   ms.author: edupont
-  ms.openlocfilehash: 60ca4d362b2c5d507eea7077a668d91597381282
-  ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+  ms.openlocfilehash: 2c96fe4264a3c8c0ef36aef2929fce52ac6bca63
+  ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 03/01/2022
-  ms.locfileid: "8366622"
+  ms.lasthandoff: 03/31/2022
+  ms.locfileid: "8514654"
 title: Veelgestelde vragen over het gebruik van Business Central
 summary: "Deze sectie bevat antwoorden op veelgestelde vragen over de aanmelding bij een proefversie, het aanschaffen van een abonnement en het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)]. U leest ook hoe u technische ondersteuning krijgt.  \n"
 sections:
@@ -58,7 +58,7 @@ sections:
     answer: "Nr. Maar als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt uitproberen terwijl het volledig met Microsoft 365 is geïntegreerd, kunt u zich hier aanmelden voor een gratis proefversie van Microsoft 365 van een maand [hier](https://products.office.com/try).  \n\nAls het account waarmee u zich aanmeldt, een niet-Microsoft 365-werkaccount is (bijvoorbeeld joe@mysolution.com), en u een Microsoft 365-abonnement hebt, kunt u uw domein (*mysolution.com*) koppelen aan het abonnement op Microsoft 365. Zie [Wat is een domein?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in de Microsoft 365-inhoud voor meer informatie.  \n\nAls u geen abonnement op Microsoft 365 hebt en u er geen wilt aanschaffen, leveren we u, als u zich aanmeldt, een nieuwe Azure Active Directory-tenant, zodat u toegang hebt tot de geavanceerde beheertools in de Azure Portal.  \n"
   - question: >
       Waar gaat de integratie met Microsoft 365 over?
-    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] online is volledig geïntegreerd met Microsoft 365, zodat u vrij kunt navigeren tussen Microsoft 365-toepassingen en [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[prod_short](includes/prod_short.md)] in Outlook bijvoorbeeld. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] als uw bedrijfsinbox gebruiken in Outlook](admin-outlook.md).  \n"
+    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] online is volledig geïntegreerd met Microsoft 365, zodat u vrij kunt navigeren tussen Microsoft 365-toepassingen en [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van het opstartprogramma voor apps. In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u in Excel gegevens openen, rapporten afdrukken met Word en u kunt werken met uw gegevens van [!INCLUDE[prod_short](includes/prod_short.md)] in Outlook bijvoorbeeld. Zie [[!INCLUDE[prod_short](includes/prod_short.md)] als uw bedrijfsinbox gebruiken in Outlook](admin-outlook.md) voor meer informatie.  \n"
   - question: >
       Kan ik mijn 'Nieuw bedrijf'-proefperiode van 30 dagen verlengen?
     answer: "Ja. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids. U kunt de proefperiode eenmaal zelf verlengen. Daarna kan een Microsoft-partner deze nog eens 30 dagen verlengen. Zie voor meer informatie [Uw proefversie verlengen](admin-extend-trial.md).\n\n> [!NOTE]\n> Het kan maximaal twee werkdagen duren voordat de verlenging van de proefperiode is voltooid.  \n\nZie [Hoe vind ik een partner-reseller?](#how-do-i-find-a-reselling-partner) voor meer informatie over het vinden van een partner.  \n"

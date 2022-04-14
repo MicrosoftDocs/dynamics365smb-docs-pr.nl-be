@@ -10,12 +10,12 @@ ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322862"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513613"
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. Zie voor meer informatie [Bedrijfsfunctionaliteit](across-business-functionality.md).

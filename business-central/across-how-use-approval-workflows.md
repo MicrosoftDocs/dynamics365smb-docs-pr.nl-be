@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: bc60d2e8f7e79e717b8b79a9c18e7babf88d8fbb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134238"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517666"
 ---
 # <a name="use-approval-workflows"></a>Goedkeuringswerkstromen gebruiken
 
@@ -20,7 +20,7 @@ Wanneer een record, zoals een inkoopdocument of klantenkaart, door iemand in uw 
 
 U stelt goedkeuringswerkstromen op de pagina **Werkstroom** in. U moet ook goedkeuringsgebruikers instellen, inclusief eventuele relevante bedraglimieten, op de pagina **Gebruikersinstellingen voor goedkeuring**. Zie voor meer informatie [Werkstromen instellen](across-set-up-workflows.md).  
 
-Naast werkstromen voor goedkeuring die in dit onderwerp worden beschreven kunt u verschillende andere werkstroomtaken uitvoeren. Zie voor meer informatie [Werkstromen gebruiken](across-use-workflows.md).
+Naast werkstromen voor goedkeuring die in dit onderwerp worden beschreven kunt u verschillende andere werkstroomtaken uitvoeren. Zie [Werkstromen gebruiken](across-use-workflows.md) voor meer informatie.
 
 Kerngoedkeuringswerkstromen voor inkoopdocumenten, verkoopdocumenten, betalingsdagboeken, klantenkaarten en artikelkaarten zijn gereed om als begeleide instellingen te dienen. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
 

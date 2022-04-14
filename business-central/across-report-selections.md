@@ -5,14 +5,14 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 04/01/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134082"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512476"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportselectie in Business Central
 
@@ -43,6 +43,7 @@ De standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] omvat het
 * **Rapportselectie - Magazijn**  
 * **Rapportselectie - Bankrekening**  
 * **Rapportselecties - Aanmaning/rentefactuur**  
+* **Rapportselectie - Taak**  
 
 ## <a name="example-report-selection-for-sales-documents"></a>Voorbeeld: Rapportselectie voor verkoopdocumenten
 
@@ -68,6 +69,15 @@ Op de pagina's **Rapportselectie - Verkoop** en **Rapportselectie - Aankoop** he
 [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
 [Documentlay-outs definiëren voor klanten en leveranciers](ui-define-customer-vendor-document-layouts.md)  
 [Printers instellen](ui-specify-printer-selection-reports.md)  
-
+[Financiële rapporten en analyses in Business Central](finance-reports.md)  
+[Debiteurenrapporten en analyses in Business Central](receivables-reports.md) 
+[Crediteurenrapporten en analyses in Business Central](payables-reports.md)  
+[VA-rapporten en analyses in Business Central](fa-reports.md)  
+[Projectrapporten en analyses in Business Central](project-reports.md)  
+[Verkooprapporten en analyses in Business Central](sales-reports.md)  
+[Inkooprapporten en analyses in Business Central](purchase-reports.md)  
+[Voorraad- en magazijnrapporten en analyses in Business Central](inventory-WMS-reports.md)  
+[Assemblagerapporten en analyses in Business Central](assembly-reports.md)  
+[Productierapporten en analyses in Business Central](production-reports.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

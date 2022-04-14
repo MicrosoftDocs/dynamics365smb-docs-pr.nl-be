@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1855391f5bf2c0807ac4ffcd8d42e0ea8122fd87
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141869"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520034"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Artikelen picken volgens FEFO inschakelen
 First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.  

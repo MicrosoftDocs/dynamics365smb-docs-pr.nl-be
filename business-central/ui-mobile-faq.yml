@@ -10,12 +10,12 @@ metadata:
   ms.search.keywords: phone, tablet
   ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 2511135e9e0aebb3a813c5fede167d10b46f045a
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: 70e9bf530b2b640c42ee346d39ce6d06d5a7cee8
+  ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8140331"
+  ms.lasthandoff: 03/31/2022
+  ms.locfileid: "8513483"
 title: Veelgestelde vragen over mobiele apps
 summary: "Dit artikel beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over mobiele apps voor [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -83,7 +83,7 @@ sections:
     answer: "Bijna, maar niet helemaal. Zie de lijst in de sectie [Is het dezelfde ervaring in de apps als in de browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  \n"
   - question: >
       Kan ik de app verbinden met onze on-premise oplossing?
-    answer: "Ja, dat kan. Het is een iets andere manier om aan te melden, dat is alles. Zie [Business Central on-premises gebruiken](install-mobile-app.md#using-business-central-on-premises) voor meer informatie.  \n"
+    answer: "Ja, dat kan. Het is een iets andere manier om aan te melden, dat is alles. Zie [Business Central on-premises gebruiken?](install-mobile-app.md#use-business-central-on-premises) voor meer informatie.  \n"
   - question: >
       Kan een gastgebruiker de app gebruiken om toegang te krijgen tot onze Business Central-oplossing?
     answer: "Nee. Gastgebruikers zijn uitgenodigde gebruikers van een andere Azure Active Directory (AD)-tenant dan de uwe. In dit geval zal de app zich authenticeren bij de primaire Azure AD-tenant van de gastgebruiker en proberen het Business Central-eindpunt op die tenant te openen in plaats van op die van u.  \n"

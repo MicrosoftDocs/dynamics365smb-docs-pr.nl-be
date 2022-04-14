@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e93c4d5abd6b6c3136e95838d10895a8fb1b2b90
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b6f6a19787f1fd2630cf3bc3a6882dc17f0d6bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134558"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514321"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Productie- of assemblageoutput opslaan
 

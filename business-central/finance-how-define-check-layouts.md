@@ -10,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed0cf9383ed635e3f7b940ef4f28943ffb6bc1a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149061"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518115"
 ---
 # <a name="select-a-check-layout"></a>Een cheque-indeling selecteren
 
@@ -40,8 +40,7 @@ Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit d
 
 Als u een van deze standaardcontrole-indelingen wilt wijzigen, gebruikt u de integratie van Word of RDLC om dit te doen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
-## <a name="using-micr-and-security-fonts"></a>MICR en beveiligingslettertypen gebruiken
-
+## <a name="use-micr-and-security-fonts"></a>MICR en beveiligingslettertypen gebruiken
 De online versie van [!INCLUDE[prod_short](includes/prod_short.md)] bevat vooraf geïnstalleerde lettertypen op de servers die kunnen worden gebruikt bij het definiëren van cheque-indelingen. Het volgende geeft aan welke lettertypen beschikbaar zijn en bevat koppelingen naar gedetailleerde informatie van de externe leveranciers van de lettertypen.
 
 > [!Important]

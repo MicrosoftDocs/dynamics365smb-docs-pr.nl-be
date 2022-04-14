@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e142f8aef14ea82d67de0c51a996e4f6a6b43dbf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143953"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513186"
 ---
-# <a name="set-up-company-configuration"></a>Een bedrijfsconfiguratie instellen
+# <a name="set-up-company-configuration-with-rapidstart-services"></a>Bedrijfsconfiguratie instellen met RapidStart Services
+
 Het implementatieproces begint met de Microsoft-partner. Het is uw verantwoordelijkheid als partner om de configuratiedetails uit te werken en een pakket te maken dat een klant eenvoudig kan toepassen. Voordat u een nieuw bedrijf maakt in [!INCLUDE [prod_short](includes/prod_short.md)] online of on-premises, moet u plannen hoe het wordt geconfigureerd. U moet rekening houden met elementaire instellingsgegevens en de soorten gegevens die uw [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing nodig zal hebben. U bundelt al deze gegevens in configuratiepakketten.
 
 RapidStart Services biedt u ook de hulpmiddelen die u gebruikt om eventuele oude gegevens te migreren, zoals klanten en leveranciers.  

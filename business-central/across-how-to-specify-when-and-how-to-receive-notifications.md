@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129188"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522364"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Opgeven wanneer en hoe gebruikers werkstroomberichten ontvangen
 Wanneer u goedkeuringsgebruikers instelt in werkstromen waarin u wilt dat iemand wijzigingen goedkeurt, zoals wanneer nieuwe records worden gemaakt of wanneer iemand om goedkeuring vraagt, moet u specificeren hoe en wanneer de goedkeuringsgebruiker op de hoogte wordt gesteld. U kunt bijvoorbeeld opgeven dat een goedkeuringsgebruiker onmiddellijk een e-mail ontvangt wanneer iemand een nieuwe klant aanmaakt. Als alternatief kunt u plannen dat de berichten bijvoorbeeld wekelijks of maandelijks worden bezorgd.

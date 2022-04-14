@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3a6d6b680ebfb89c376872d2dcd5cb6fb535d4a3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383307"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523617"
 ---
 # <a name="set-up-prices-and-discounts"></a>Prijzen en kortingen instellen
 > [!NOTE]
@@ -99,7 +99,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 ---
 
-## <a name="working-with-invoice-discounts-and-service-charges"></a>Werken met factuurkortingen en administratiekosten
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Werken met factuurkortingen en administratiekosten
 Wanneer u factuurkortingen gebruikt, wordt op basis van het factuurbedrag bepaald welke korting wordt verleend. Op de pagina **Factuurkortingen** kunt u ook een bepaald bedrag aan administratiekosten toevoegen aan facturen.  <!--The Invoice Discounts page is hard to find.-->
 
 U kunt factuurkortingen bij verkopen pas gebruiken nadat u bepaalde gegevens hebt opgegeven in de toepassing. U moet beslissen welke klanten dit type korting krijgen en welke kortingspercentages u gaat gebruiken.  
@@ -193,7 +193,7 @@ Om prijzen voor meerdere artikelen bij te werken moet u een nieuwe prijslijst ma
 ---
 
 ## <a name="calculating-the-best-price"></a>De beste prijs berekenen
-Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen. Zie voor meer informatie [De beste prijs berekenen](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen. Zie [De beste prijs berekenen](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 [Verkopen instellen](sales-setup-sales.md)  

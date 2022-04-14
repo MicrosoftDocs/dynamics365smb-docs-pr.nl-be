@@ -4,42 +4,67 @@ description: Zoek producthelp, begeleiding en probleemoplossingstips, en leer ho
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
+ms.search.form: HelpAndSupport
 ms.author: edupont
-ms.date: 10/26/2021
-ms.openlocfilehash: aa472df02891c6de1a786a9a4c3321c461a45395
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/21/2022
+ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145562"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516938"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
-In [!INCLUDE[prod_long](includes/prod_long.md)] geeft de menuoptie Help (het vraagteken in de rechterbovenhoek) u toegang tot een Help-deelvenster, waar u antwoorden op uw vragen kunt vinden.  
+Tips en richtlijnen voor het gebruik van [!INCLUDE[prod_long](includes/prod_long.md)], hoe u de blokkering kunt opheffen, waar u meer kunt leren en hoe u technische informatie kunt vinden, is allemaal beschikbaar in [!INCLUDE [prod_short](includes/prod_short.md)]. In dit artikel wordt beschreven hoe u wat kunt vinden.  
+
+## <a name="in-product-tips"></a>Tips in het product
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Deze koppelingen hebben ook toegang tot inhoud die op andere websites is gepubliceerd, zoals de websites van providers van apps die in uw [!INCLUDE [prod_short](includes/prod_short.md)] kunnen zijn geïnstalleerd.  
+
+## <a name="help-pane"></a>Help-venster
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+In [!INCLUDE [prod_short](includes/prod_short.md)] geeft de menuoptie Help (het vraagteken in de rechterbovenhoek) u toegang tot een Help-deelvenster, waar u antwoorden op uw vragen kunt vinden. Het Help-venster heeft verschillende inhoud, afhankelijk van hoe u het opent. De volgende lijst beschrijft de kaarten die altijd of bijna altijd aanwezig zijn:  
+
+[!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
+
+De volgende lijst beschrijft hoe u toegang krijgt tot het Help-venster en of er kaarten aan zijn toegevoegd:
+
+- Kies de koppeling *Meer informatie* in de knopinfo voor een veld
+
+  De volgende kaart is toegevoegd aan het Help-venster:
+
+  - Knopinfo van het veld
+- Kies de koppeling *Meer informatie* in de knopinfo voor een actie
+- Kies het menu-item Help (het vraagteken in de rechterbovenhoek)
+- Gebruik overal de sneltoets Ctrl+F1
+
+> [!TIP]
+> Wanneer u een koppeling kiest, wordt het doelartikel geopend in een nieuw browsertabblad. U kunt ervoor kiezen om het browsertabblad los te koppelen, zodat u de relevante informatie naast elkaar kunt bekijken met [!INCLUDE [prod_short](includes/prod_short.md)]. Het deelvenster blijft open terwijl u navigeert door [!INCLUDE [prod_short](includes/prod_short.md)] zodat de door u gezochte inhoud zichtbaar blijft.  
 
 ## <a name="search-in-the-help-pane"></a>Zoeken in het Help-deelvenster
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-2021 releasewave 2 bevat een nieuw helpvenster met een zoektabblad. Gebruik het zoekveld om te zoeken naar hulp bij het gebruik van het product, ingebouwde mogelijkheden en beschikbare trainingsmodules. Afhankelijk van uw zoektermen toont het paneel vijf of meer koppelingen met een korte beschrijving. Kies een link of verfijn uw zoektermen. Wanneer u een koppeling kiest, wordt het doelartikel geopend in een nieuw browsertabblad. U kunt ervoor kiezen om het browsertabblad los te koppelen, zodat u de relevante informatie naast elkaar kunt bekijken met [!INCLUDE [prod_short](includes/prod_short.md)]. Het deelvenster blijft open terwijl u navigeert door [!INCLUDE [prod_short](includes/prod_short.md)] zodat de door u gezochte inhoud zichtbaar blijft.  
+Gebruik het zoekveld bovenaan het Help-venster om te zoeken naar hulp bij het gebruik van het product, ingebouwde mogelijkheden en beschikbare trainingsmodules. Afhankelijk van uw zoektermen toont het paneel vijf of meer koppelingen met een korte beschrijving. Kies een link of verfijn uw zoektermen. Wanneer u een koppeling kiest, wordt het doelartikel geopend in een nieuw browsertabblad. U kunt ervoor kiezen om het browsertabblad los te koppelen, zodat u de relevante informatie naast elkaar kunt bekijken met [!INCLUDE [prod_short](includes/prod_short.md)]. Het deelvenster blijft open terwijl u navigeert door [!INCLUDE [prod_short](includes/prod_short.md)] zodat de door u gezochte inhoud zichtbaar blijft.  
 
 > [!NOTE]
-> In de huidige versie van [!INCLUDE [prod_short](includes/prod_short.md)] is het zoekveld in het helpvenster alleen van toepassing op inhoud die is gepubliceerd op de docs.microsoft.com-site.
-
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Deze koppelingen hebben ook toegang tot inhoud die op andere websites is gepubliceerd, zoals de websites van providers van apps die in uw [!INCLUDE [prod_short](includes/prod_short.md)] kunnen zijn geïnstalleerd.  
+> In de huidige versie van [!INCLUDE [prod_short](includes/prod_short.md)] is het zoekveld in het Help-venster alleen van toepassing op inhoud die is gepubliceerd op de site [Docs.microsoft.com](/dynamics365/business-central).
 
 ## <a name="help--support-page"></a>Pagina Help en ondersteuning
 
-Vanuit het helpvenster heeft u toegang tot de pagina **Help & Ondersteuning** binnen [!INCLUDE [prod_short](includes/prod_short.md)] die handige links bevat. U kunt ook zien hoe u contact opneemt met technische ondersteuning voor uw [!INCLUDE[prod_short](includes/prod_short.md)].  
+Vanuit het Help-venster heeft u toegang tot de pagina **Help & Ondersteuning** binnen [!INCLUDE [prod_short](includes/prod_short.md)] die handige links bevat. U kunt ook zien hoe u contact opneemt met technische ondersteuning voor uw [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Deze sectie beschrijft de resources die beschikbaar voor u zijn in de verschillende secties van de pagina **Help en ondersteuning**, zoals beschreven in de volgende lijst.
 
 - [Antwoorden zoeken](#find-answers)  
-- [Producthelp](#product-help)  
+- [Help](#product-help)  
 - [Community](#community)  
 - [Blog](#blog)  
 - [Mogelijkheden die binnenkort komen](#capabilities-coming-soon)  
-- [Meer halen uit uw proef](#do-more-with-your-trial)  
+- [Meer halen uit uw proefversie](#do-more-with-your-trial)  
 - [Feedback geven](#give-feedback)  
 - [Problemen oplossen](#troubleshooting)  
 - [Een probleem melden](#report-a-problem)  
@@ -59,6 +84,7 @@ De sectie **Zoeken** bevat twee koppelingen naar product-Help:
 - Help over de pagina die u zojuist bekeek in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   Deze koppeling wordt automatisch gegenereerd. Als [!INCLUDE[prod_short](includes/prod_short.md)] de relevante koppeling niet kan vinden, wordt de landingspagina op [Docs.microsoft.com](index.md) voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] weergegeven. Als de pagina bijvoorbeeld deel uitmaakte van een app die geen contextgevoelige Help-toewijzing toevoegde aan [!INCLUDE[prod_short](includes/prod_short.md)], is de *Meer informatie*-koppeling standaard ingesteld op de landingspagina.  
+  
 - Help-landingspagina voor [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   De functionaliteit in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt beschreven op de site [Docs.microsoft.com](/dynamics365/business-central). Zie voor meer informatie de sectie [De site docs.microsoft.com gebruiken voor meer informatie](#use-the-docsmicrosoftcom-site-to-learn-more). U kunt [!INCLUDE[prod_short](includes/prod_short.md)] ook uitbreiden en aanpassen met apps vanuit AppSource. Alle apps bieden koppelingen naar de betreffende product-Help zodat u altijd begeleiding kunt vinden voor verschillende werkstromen in uw versie van [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -79,7 +105,7 @@ We spreken ook over nieuwe mogelijkheden op [het Dynamics 365-blog](https://clou
 
 Voor het overzicht op de langere termijn bevat de [!INCLUDE[prod_short](includes/prod_short.md)] [routekaartpagina](https://dynamics.microsoft.com/roadmap/business-central/) de algemene prioriteiten voor [!INCLUDE[prod_short](includes/prod_short.md)] in de komende jaren.  
 
-### <a name="do-more-with-your-trial"></a>Meer halen uit uw proef
+### <a name="do-more-with-your-trial"></a>Meer halen uit uw proefversie
 
 In deze sectie krijgt u snelle manieren naar Microsoft AppSource, waar u oplossingen en services van [!INCLUDE[prod_short](includes/prod_short.md)]-partners kunt vinden. Gebruik de koppelingen om de volledige mogelijkheden te zien van [!INCLUDE[prod_short](includes/prod_short.md)], voordat u besluit of u een abonnement wilt kopen. U kunt ook een koppeling vinden om contact op te nemen met het verkoopteam.
 
@@ -154,7 +180,7 @@ De inhoudsopgave bevat een groep inhoud die [lokale functionaliteit](about-local
 De inhoud van de lokale functionaliteit beschrijft de mogelijkheden in [!INCLUDE [prod_short](includes/prod_short.md)] die u kunnen helpen compliant te zijn in de ondersteunde markten, zoals belastingaangiftes en andere rapporten. In sommige gevallen is het verschil tussen de standaardversie en de landspecifieke versie onzichtbaar voor gebruikers. In andere gevallen moeten gebruikers op een specifieke manier rapportage of elektronische facturering instellen. Als u een beschrijving van een bepaalde knop of actie niet kunt vinden in het algemene gedeelte, kunt u deze hopelijk vinden in het gedeelte *Lokale functionaliteit*.  
 
 > [!TIP]
-> Op de docs.microsoft.com-site, evenals in het zoekveld in het product en in het helpvenster, tonen de zoekresultaten enige context voor het doelartikel. De context bevat de link die de naam van een land kan tonen, of een korte beschrijving die bijvoorbeeld een bepaalde capaciteit of een land aanduidt.
+> Op de docs.microsoft.com-site, evenals in het zoekveld in het product en in het Help-venster, tonen de zoekresultaten enige context voor het doelartikel. De context bevat de link die de naam van een land kan tonen, of een korte beschrijving die bijvoorbeeld een bepaalde capaciteit of een land aanduidt.
 
 ### <a name="finding-other-content"></a>Andere inhoud zoeken
 

@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 6e6e6f6f622d1938fb2195bc2dde2c2ba689a59f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322993"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517699"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Gerelateerde posten zoeken voor geboekte documenten 
 
@@ -29,7 +29,7 @@ Deze functie is ook handig als u wilt zoeken naar posten uit bepaalde transactie
 
 ## <a name="get-started"></a>Aan de slag
 
-De functie voor het vinden van posten is beschikbaar op de meeste pagina's waarop geboekte documenten of geboekte documentenposten worden weergegeven, voor zowel lijsten als kaarten. Dus de eerste stap is het openen van een van deze pagina's. Kies vervolgens de actie **Posten zoeken** of druk op de toetsen Alt+G.
+De functie voor het vinden van posten is beschikbaar op de meeste pagina's waarop geboekte documenten of geboekte documentenposten worden weergegeven, voor zowel lijsten als kaarten. Dus de eerste stap is het openen van een van deze pagina's. Kies vervolgens de actie **Posten zoeken** of druk op de toetsen Ctrl+Alt+G.
 
 De pagina **Posten zoeken** bevat alle gerelateerde documenten en posten op basis van het documentnummer en de boekingsdatum. De pagina is onderverdeeld in drie secties:
 

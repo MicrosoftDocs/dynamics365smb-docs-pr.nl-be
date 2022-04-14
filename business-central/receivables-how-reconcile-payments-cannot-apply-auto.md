@@ -10,12 +10,12 @@ ms.search.keywords: payment process, cash receipts
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7f4dd9269b4d34de4fd206205d0bb628a40750ad
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: e3d573643467dd9d850d78fed9a23b7ea60bdfaf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380990"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520772"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Betalingen reconciliëren die niet automatisch kunnen worden vereffend
 U moet soms betalingen op uw bankrekening verwerken die niet kunnen worden vereffend met een gerelateerde openstaande klant-, leveranciers- of bankrekeningpost. Redenen kunnen zijn dat er geen document bestaat in [!INCLUDE[prod_short](includes/prod_short.md)] waarmee de betaling kan worden vereffend of dat het gerelateerde document in [!INCLUDE[prod_short](includes/prod_short.md)] een ander bedrag dan het transactiebedrag heeft, bijvoorbeeld vanwege de valutawisselkoers. Op de pagina **Dagboek betalingsreconciliatie** worden alle transactiebedragen voor betalingen die nog niet zijn vereffend, weergegeven in het veld **Verschil**, inclusief bedragen die niet kunnen worden vereffend om redenen zoals de bovengenoemde.

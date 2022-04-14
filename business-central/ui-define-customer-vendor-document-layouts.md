@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4b417c689c02a0252e3967379e33a88386ad694f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147478"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510751"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Documentlay-outs definiëren voor klanten en leveranciers
 Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit klant- en leverancierskaarten om op te geven welke lay-outs worden gebruikt voor verschillende soorten documenten die u voor de betreffende klant of leverancier maakt. De waarde in het veld **Gebruik** definieert voor welk proces de documentlay-out wordt gebruikt, zoals **Aanmaning**, **Verzending** en **Bevestiging**.

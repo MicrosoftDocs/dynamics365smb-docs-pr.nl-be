@@ -10,12 +10,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: cdaa582e11d3d0deaabb7282da54f65c447013e1
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 55dd366b65ee831989e09ea08f80b5d656993609
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381392"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521584"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>De extensie WorldPay Payments Standard
 Met de extensie WorldPay Payments Standard biedt u klanten een eenvoudig alternatief voor het doen van betalingen door middel van overschrijving of creditcard. Daarnaast komen betalingen via betalingsservices doorgaans sneller aan op uw bankrekening.

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143880"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521188"
 ---
 # <a name="administration"></a>Beheer
 
@@ -42,7 +42,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Reageren op aanvragen van gegevensobjecten met betrekking tot hun persoonlijke gegevens.|[Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md)|
 |Een nieuwe bedrijfsunit instellen op basis van sjablonen|[Nieuwe bedrijven maken](about-new-company.md)|
 |Alle rechtstreekse wijzigingen bijhouden die gebruikers aanbrengen in databasegegevens, zodat de herkomst van fouten en wijzigingen in gegevens kan worden vastgesteld.|[Wijzigingen registreren](across-log-changes.md)|  
-|Eenmalige of periodieke verzoeken voor het uitvoeren van rapporten of code-units invoeren.|[Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md)|  
+|Eenmalige of periodieke verzoeken voor het uitvoeren van rapporten of code-units invoeren.|[Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)|  
 |Documenten beheren, verwijderen of comprimeren|[Documenten verwijderen](admin-manage-documents.md)|  
 |Stel pagina's, code-units en query's open als webservices.|[Een webservice publiceren](across-how-publish-web-service.md)|
 |In het kader van het maken van Connect Apps tussen [!INCLUDE[prod_short](includes/prod_short.md)] en oplossingen van andere fabrikanten via REST API's, definieert u sjablonen die worden gebruikt om lege eigenschappen in een entiteit te vullen wanneer u een POST-actie maakt via een API.|[API-sjablonen configureren](admin-configuring-api-template.md)|

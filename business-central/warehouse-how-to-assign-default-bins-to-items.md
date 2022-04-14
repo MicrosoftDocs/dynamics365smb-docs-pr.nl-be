@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7371, 7374, 7379
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6802009029d8eea434e7c5096f4efb591ee4993b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ac50c7cf8aaf68ab0846a79788bb13e63a3c8b50
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382753"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513379"
 ---
 # <a name="assign-default-bins-to-items"></a>Standaardopslaglocaties aan artikelen toewijzen
 Als u op een locatie met opslaglocaties werkt, kan het toewijzen van standaardopslaglocaties aan uw artikelen het verzenden, ontvangen en verplaatsen van artikelen veel eenvoudiger maken. Wanneer een standaard opslaglocatie is toegewezen aan een artikel, wordt elke keer dat u een transactie voor dit artikel opstart deze opslaglocatie voorgesteld. Standaardopslaglocaties worden gedefinieerd op de pagina **Opslaglocatie-inhoud**.  

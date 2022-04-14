@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130360"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515523"
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
 
@@ -74,6 +74,9 @@ Als u uw opslaglocaties onder zones wilt structureren, kunt u dat doen op de pag
 [!INCLUDE [prod_short](includes/prod_short.md)] kopieert de velden die u voor een bepaalde zone instelt, naar de opslaglocaties erin. Op deze manier kunt u een zone toewijzen aan een opslaglocatie of een opslaglocatiesjabloon (filter voor het maken van opslaglocaties), worden diverse andere velden automatisch ingevuld.
 
 U kunt echter ook slechts één zone instellen en uw magazijn indelen op basis van alleen de opslaglocaties. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).  
+
+## <a name="default-dimensions-for-locations"></a>Standaardafmetingen voor locaties
+U stelt standaardafmetingen in voor een locatie op de pagina **Locatiekaart** door **Locatie** te kiezen en vervolgens **Dimensies**. De standaarddimensies van de locatie worden gekopieerd naar journalen en documenten wanneer u de locatie op een regel opgeeft, maar u kunt de dimensie op de regel indien nodig verwijderen of wijzigen. U kunt eisen dat mensen dimensies opgeven voor specifieke locaties voordat ze een item kunnen boeken. U kunt ook locatiedimensiewaarden opnemen in **Prioriteiten voor standaarddimensie** en **Dimensiecombinaties** voor combinaties van prioriteits- en dimensieregels.
 
 ## <a name="see-also"></a>Zie ook
 

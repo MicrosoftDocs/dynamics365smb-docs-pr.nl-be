@@ -1,5 +1,5 @@
 ---
-title: Business Central gebruiken met Outlook | Microsoft Docs
+title: Business Central met Outlook gebruiken
 description: Deze service is nauw geïntegreerd met Microsoft 365. U kunt al uw bedrijfs- en e-mailcommunicatie met klanten en leveranciers rechtstreeks in Outlook beheren.
 author: jswymer
 ms.topic: conceptual
@@ -7,16 +7,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 08/13/2021
+ms.date: 03/21/2022
 ms.author: jswymer
-ms.openlocfilehash: c281ce94e518f8ef099bb3e48177b90732a65c45
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 264dec3372ed33588d0f7f77a3e3b4d4d6795e42
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145144"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528542"
 ---
-# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
+# <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt een invoegtoepassing waarmee u bedrijfsinteracties kunt beheren met uw klanten en leveranciers, rechtstreeks in Microsoft Outlook. Met de [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassing voor Outlook kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.
 
@@ -38,7 +38,7 @@ De [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassing bestaat uit t
 
 2. Als de invoegtoepassing is geïnstalleerd, hebt u toegang tot de **[!INCLUDE[prod_short](includes/prod_short.md)]**-toepassing vanuit elk nieuw of bestaand e-mailbericht of agenda-afspraak in Outlook.
 
-    Begin door in te loggen op Outlook en een e-mailbericht te openen. Als u de Outlook-app gebruikt, ga dan naar het lint en zoek naar **[!INCLUDE[prod_short](includes/prod_short.md)]**.  Of als u Outlook op het web gebruikt, zoekt u boven of onder aan het e-mailbericht naar ![pictogram van Business Central-invoegtoepassing in Outlook.](media/outlook-business-central-icon.png) of gaat u naar de Meer-acties ![Meer acties voor een e-mail weergeven in Outlook.](media/outlook-more-actions-button.png)  
+    Begin door in te loggen op Outlook en een e-mailbericht te openen. Als u de Outlook-app gebruikt, ga dan naar het lint en zoek naar **[!INCLUDE[prod_short](includes/prod_short.md)]**.  Of als u Outlook op het web gebruikt, zoekt u boven of onder aan het e-mailbericht naar ![pictogram van Business Central-invoegtoepassing in Outlook.](media/outlook-business-central-icon.png) of gaat u naar de Meer-acties ![Meer acties voor een e-mail weergeven in Outlook.](media/outlook-more-actions-button.png) -knop.
 
     ![Business Central-invoegtoepassingen in Outlook openen.](media/outlook-business-central-addin.png)
 
@@ -53,7 +53,7 @@ Zie voor meer informatie [Invoegtoepassingen gebruiken in Outlook op het web](ht
 
 ## <a name="work-with-contacts-and-documents-using-the-contact-insights-add-in"></a>Werken met contacten en documenten met behulp van de invoegtoepassing Contactinzichten
 
-Stel u eens voor dat u een e-mailbericht ontvangt van een klant die een offerte voor enkele artikelen wil. U kunt rechtstreeks in Outlook de [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassing openen, die de afzender als een klant herkent en de klantkaart voor dat bedrijf opent. Vanuit dit dashboard kunt u overzichtsinformatie voor de klant zien, evenals inzoomen voor meer details over specifieke documenten. U kunt ook de verkoophistorie van de klant bekijken. Als dit een nieuw contact is, kunt u het als nieuwe klant toevoegen in [!INCLUDE[prod_short](includes/prod_short.md)] zonder Outlook te verlaten.  
+Stel u eens voor dat u een e-mailbericht ontvangt van een klant die een offerte voor enkele artikelen wil. U kunt rechtstreeks in Outlook de [!INCLUDE[prod_short](includes/prod_short.md)]-invoegtoepassing openen, die de afzender als een klant herkent en de klantenkaart voor dat bedrijf opent. Vanuit dit dashboard kunt u overzichtsinformatie voor de klant zien, evenals inzoomen voor meer details over specifieke documenten. U kunt ook de verkoophistorie van de klant bekijken. Als dit een nieuw contact is, kunt u het als nieuwe klant toevoegen in [!INCLUDE[prod_short](includes/prod_short.md)] zonder Outlook te verlaten.  
 
 In de invoegtoepassing kunt u een verkoopofferte maken en deze naar de klant verzenden zonder Outlook te verlaten. Alle informatie die u in de verkoopofferte moet verzenden, is beschikbaar in uw bedrijfsinbox in Outlook. Nadat u de gegevens hebt ingevoerd, kunt u de offerte boeken en per e-mail verzenden. [!INCLUDE[prod_short](includes/prod_short.md)] genereert een .pdf-bestand met de verkoopofferte en koppelt dat aan het e-mailbericht dat u opstelt in de invoegtoepassing.  
 
@@ -80,13 +80,13 @@ De actiebalk boven aan het deelvenster van de [!INCLUDE[prod_short](includes/pro
 
 U kunt bijvoorbeeld de volledige contactgegevens openen zoals u ze zou zien in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u met meer dan één [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijf werkt, kunt u gemakkelijk tussen bedrijven schakelen.
 
-### <a name="track-incoming-documents"></a>Inkomende documenten traceren 
+### <a name="track-incoming-documents"></a>Inkomende documenten traceren
 
 Misschien gebruikt u de lijst **Inkomende documenten** in [!INCLUDE[prod_short](includes/prod_short.md)] om documenten bij te houden voor verwerking die leveranciers naar u sturen, zoals een inkoopfactuur die moet worden betaald. Als u dat doet, kunt u eenvoudig records voor inkomende documenten maken vanuit de Outlook-invoegtoepassing en de e-mailbijlagen toevoegen.
 
-1. Wanneer u een e-mail ontvangt van een leverancier met een bijlage, kiest u ![pictogram van Business Central-invoegtoepassing in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contactinzichten**. 
+1. Wanneer u een e-mail ontvangt van een leverancier met een bijlage, kiest u ![pictogram van Business Central-invoegtoepassing in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contactinzichten**.  
 
-2. Kies in de actiebalk van de invoegtoepassing **Meer acties weergeven** en kies vervolgens **Verzenden naar inkomende documenten**. 
+2. Kies in de actiebalk van de invoegtoepassing **Meer acties weergeven** en kies vervolgens **Verzenden naar inkomende documenten**. .  
 
 ### <a name="create-and-send-new-document-to-a-contact"></a>Nieuw document maken en verzenden naar een contact
 
@@ -94,11 +94,39 @@ Misschien gebruikt u de lijst **Inkomende documenten** in [!INCLUDE[prod_short](
 2. Breng wijzigingen aan in het document in het deelvenster van de **[!INCLUDE[prod_short](includes/prod_short.md)]**-invoegtoepassing.
 3. Wanneer het document klaar is om naar het contact te worden verzonden, kiest u in de actiebalk **Meer acties weergeven** en kiest u vervolgens de actie **Verzenden via e-mail**.
 
+### <a name="attach-files-to-records"></a>Bestanden bijvoegen bij records
+
+Uw e-mailpostvak dient vaak als een bron van inkomende bestanden die werkstomen initiëren of deblokkeren. Bestanden kunnen zaken bevatten zoals betalingen van pdf-facturen, foto's van goederen of vereisten in een Word-document. Wanneer u in Outlook werkt met Business Central-records zoals leveranciers, klanten, inkoopfacturen of verkooporders, kunt u deze bestanden aan de records toevoegen.
+
+Er zijn een aantal manieren waarop u bestanden kunt bijvoegen. Een daarvan is om bestanden vanaf uw apparaat te uploaden. De andere manier is het uploaden van bestanden die bij een e-mail zijn gevoegd. Stel dat u een e-mail ontvangt met bestanden van een contactpersoon. De invoegtoepassing geeft automatisch de contactrecord weer die overeenkomt met de afzender van de e-mail. Van daaruit kunt u naar een document voor de contactpersoon navigeren, zoals de laatste verkooporder. Zodra u de order hebt geïdentificeerd waarop de e-mail betrekking heeft, uploadt u snel de bestanden uit de e-mail naar die order.
+
+![Laat zien hoe u bijlagen van een e-mail toevoegt aan records in Business Central.](media/outlook-attach-files.png)
+
+Nadat een bestand is bijgevoegd, kunnen collega's het bestand direct downloaden en bekijken vanaf het Feitenblok **Bijlagen** in een van hun Business Central-clients. Of ze kunnen het bestand openen in OneDrive om het te delen met hun afdeling en samen te werken.
+
+#### <a name="how-to-attach-a-file"></a>Een bestand bijvoegen
+
+1. Open de e-mail, kies ![pictogram van Business Central-invoegtoepassing in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contactinzichten**.
+2. Kies in de actiebalk van de invoegtoepassing **Meer acties weergeven** > **Bijlagen**.
+
+    De pagina **Bijgevoegde documenten** wordt geopend om alle documenten weer te geven die al aan de record zijn gekoppeld.
+3. Kies **Bijgevoegd(e) bestand(en)** en kies vervolgens een van de volgende opties:
+
+   - Kies **Koppelen vanuit e-mail** om alle of geselecteerde bestanden te uploaden die aan de e-mail zijn toegevoegd.
+   - Kies **Uploaden uit bestand** om een of meer bestanden vanaf uw apparaat te uploaden.
+
+> [!NOTE]
+> U kunt niet aan alle records bestanden bijvoegen. Deze functie is beschikbaar voor records die het Feitenblok **Bijlagen** gebruiken, zoals een leverancier, klant, inkoopfactuur of verkooporder.
+
 ## <a name="view-a-document-from-an-email-using-the-document-view-add-in"></a>Een document bekijken vanuit een e-mail met de invoegtoepassing Documentweergave
 
 Of het nu een e-mail is die u hebt verzonden of ontvangen, u kunt elk [!INCLUDE[prod_short](includes/prod_short.md)]-document, zoals de verkoopofferte, rechtstreeks in Outlook bekijken. Van daaruit kunt u wijzigingen aanbrengen en naar gerelateerde informatie navigeren&mdash;net zoals u dat van binnen [!INCLUDE[prod_short](includes/prod_short.md)] zou doen.
 
-Als u de Outlook-app gebruikt, kiest u gewoon **Documentkoppeling** boven aan het e-mailbericht. Zoek voor Outlook op het web naar de documentreferentielink in het e-mailbericht. De tekst van de referentielink bevat het documentnummer, dat is gebaseerd op de nummerreeks die wordt gebruikt in [!INCLUDE[prod_short](includes/prod_short.md)]. De link voor een verkoopofferte zou bijvoorbeeld zoiets zijn als **Verkoopofferte S-QUO1000**.
+Als u de Outlook-app gebruikt, kiest u gewoon **Documentkoppeling** boven aan het e-mailbericht. Zoek voor Outlook op het web naar de documentreferentielink in het e-mailbericht. De tekst van de referentielink bevat het documentnummer, dat is gebaseerd op de nummerreeks die wordt gebruikt in [!INCLUDE[prod_short](includes/prod_short.md)]. De link voor een verkoopofferte zou bijvoorbeeld zoiets zijn als **Verkoopofferte S-QUO1000**.  
+
+> [!TIP]
+> Vanaf releasewave 1 van 2022 openen documenten in een nieuw browservenster met alle mogelijkheden die u kent van [!INCLUDE [prod_short](includes/prod_short.md)]. U kunt van een document naar een lijst navigeren en weer terug, lijsten openen in Excel, documenten verzenden om af te drukken en gerelateerde rapporten uitvoeren of bekijken. U beschikt ook over alle bekende sneltoetsen wanneer u documenten vanuit Outlook opent.  
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

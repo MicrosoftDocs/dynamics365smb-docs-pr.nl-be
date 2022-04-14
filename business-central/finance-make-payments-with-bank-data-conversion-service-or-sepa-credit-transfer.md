@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7ca67e062f2ea6720d0aa7cbf196fd2c6e612159
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: be2f6e3efdfd34d59c55a3addeefb5646454b3bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382649"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516277"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht
 
@@ -156,10 +156,10 @@ Wanneer de elektronische betaling is verwerkt door de bank, boekt u de betalinge
 
 ## <a name="see-also"></a>Zie ook
 
-[De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md)  
+[De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 96a4330b880ecfe760c146d4b7ae5778716725ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128803"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513925"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Werken met periodieke inkomsten in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -29,11 +29,11 @@ Een periodiek dagboek is een dagboek met specifieke velden voor het beheer van t
 
 ### <a name="why-use-this-option"></a>Waarom deze optie gebruiken?
 
-Met deze optie definieert u flexibele factureringsperioden met [datumformules](ui-enter-date-ranges.md#using-date-formulas).
+Met deze optie definieert u flexibele factureringsperioden met [datumformules](ui-enter-date-ranges.md#use-date-formulas).
 
 Met deze optie kunt u echter geen facturen afdrukken en verzenden in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Zie [Werken met periodieke dagboeken](ui-work-general-journals.md#working-with-recurring-journals) voor meer informatie.  
+Zie [Werken met periodieke dagboeken](ui-work-general-journals.md#work-with-recurring-journals) voor meer informatie.  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Meerdere facturen maken op basis van een periodiek taakdagboek
 
@@ -111,8 +111,8 @@ Op [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies 
 
 ## <a name="see-also"></a>Zie ook
 
-[Datumformules](ui-enter-date-ranges.md#using-date-formulas)  
-[Werken met periodieke dagboeken](ui-work-general-journals.md#working-with-recurring-journals)  
+[Datumformules](ui-enter-date-ranges.md#use-date-formulas)  
+[Werken met periodieke dagboeken](ui-work-general-journals.md#work-with-recurring-journals)  
 [Projectdagboekregels maken](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
 [Meerdere projectverkoopfacturen maken](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)  

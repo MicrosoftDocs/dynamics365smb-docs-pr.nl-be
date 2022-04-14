@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e601eb57aebd831e85c20449d32b0e52acb387a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea671a550dcada2573ae9b8e174a6e2e23051f9e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148784"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523194"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>De extensie AMC Banking 365 Fundamentals instellen
 Een algemene provider van services om betalingsgegevens naar elke willekeurige gegevensindeling te converteren die uw bank vereist, is verbonden en gereed om te worden ingeschakeld in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit wordt in [!INCLUDE[prod_short](includes/prod_short.md)] de extensie AMC Banking 365 Fundamentals genoemd.

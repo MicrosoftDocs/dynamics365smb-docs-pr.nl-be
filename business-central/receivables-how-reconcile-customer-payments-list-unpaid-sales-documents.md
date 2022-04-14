@@ -10,12 +10,12 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d611a245797fd20382f79deb35d8d598a8fe3565
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6fa22b84284d05d77bd04919403435d99050cded
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382963"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517803"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Klantbetalingen uit een lijst met onbetaalde verkoopdocumenten reconciliëren
 Als uw klanten betalingen naar uw elektronische bankrekening hebben gedaan, moet u ieder betaald bedrag vereffenen met het gerelateerde verkoopdocument en vervolgens de betaling boeken om de klant-, dagboek- en bankposten bij te werken. Afhankelijk van uw zakelijke behoeften kunt u op verschillende manieren betaald krijgen en die betaling registreren: handmatig, automatisch en door middel van betalingsservices.  

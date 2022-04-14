@@ -1,0 +1,65 @@
+---
+title: Een nieuw bewerkingsplan maken
+description: Procedure om te leren hoe u alle informatie voor een nieuw bewerkingsplan handmatig in Business Central invoert.
+ms.date: 04/01/2022
+ms.topic: article
+ms.service: dynamics365-business-central
+author: edupont04
+ms.author: andreipa
+ms.openlocfilehash: deb1ef6ab18cbd6562ae18cc17495fe3e5021db1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.translationtype: HT
+ms.contentlocale: nl-BE
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8525427"
+---
+# <a name="walkthrough-create-a-new-routing"></a>Procedure: Een nieuw bewerkingsplan maken
+
+In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken voor het handmatig instellen van een productiebewerkingsplan in [!INCLUDE [prod_short](../includes/prod_short.md)].  
+
+## <a name="scenario"></a>Scenario
+
+Oscar, de procestechnicus bij Contoso Coffee, besluit een nieuw bewerkingsplan op te stellen met de naam *Nieuw pad*. Omdat dit bewerkingsplan anders is dan alle andere bewerkingsplannen bij Contoso Coffee, moet hij alle informatie voor het bewerkingsplan handmatig invoeren.  
+
+## <a name="steps"></a>Stappen
+
+1. Maak de bewerkingsplankop.  
+
+    1. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), pictogram, voer **bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
+
+    2. Kies de actie **Nieuw** en vul de velden in zoals is beschreven in de volgende tabel.  
+
+        |Veld  |Waarde  |
+        |---------|---------|
+        |**Nr.** |1099|
+        |**Beschrijving** |Nieuw pad|
+2. Maak de bewerkingsplanregels.
+
+    1. Voeg op het sneltabblad **Regels** een nieuwe regel toe en vull vervolgens de vulden in, zoals in de volgende tabel is beschreven.  
+
+        |Veld  |Waarde  |
+        |---------|---------|
+        |**Bewerkingsnr.** |10|
+        |**Soort** |Afdeling|
+        |**Nr.** |100|
+        |**Insteltijd** |20|
+        |**Bewerkingstijd** |15|
+
+    2. Voeg een nieuwe regel toe en vull vervolgens de vulden in, zoals in de volgende tabel is beschreven.  
+
+        |Veld  |Waarde  |
+        |---------|---------|
+        |**Bewerkingsnr.** |20|
+        |**Soort** |Afdeling|
+        |**Nr.** |200|
+        |**Insteltijd** |30|
+        |**Bewerkingstijd** |5|
+3. Certificeer het bewerkingsplan.
+
+    1. Selecteer in het veld **Status** de optie *Gecertificeerd*.  
+
+Het nieuwe bewerkingsplan is nu ingesteld.  
+
+## <a name="see-also"></a>Zie ook
+
+[Inleiding tot de demogegevens voor Contoso Coffee](contoso-coffee-intro.md)  

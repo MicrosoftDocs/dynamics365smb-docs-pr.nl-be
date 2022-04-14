@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 609a57cd1d87a8a3518d6eaf7bc3fe8fc142953a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5bad6c920cc285dd7fb405b8075263229df778d1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134368"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519930"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Inkomende documentrecords maken direct van documenten en posten
 U kunt externe bedrijfsdocumenten opslaan in [!INCLUDE[prod_short](includes/prod_short.md)] door de documentbestanden aan de gerelateerde inkomende documentrecords te koppelen. Als het document, zoals een inkoopfactuur, niet is ontstaan als inkomende documentrecord, kunt u het later nog maken en koppelen aan een inkomende documentrecord. U kunt inkomende documentbestanden ook koppelen aan geboekte inkoop- en verkoopdocumenten en aan leveranciers-, klant- en grootboekposten door het feitenblok **Inkomende documentbestanden** te gebruiken, bijvoorbeeld op de pagina **Geboekte inkoopfacturen** en de pagina **Leveranciersposten**.

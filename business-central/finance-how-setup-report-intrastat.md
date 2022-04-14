@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: bcf0e27710c66e71dd95710790af2c2ffd4ab5e0
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2530b6a5d562cfd22abd8ae097408388034a5711
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381472"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485015"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat instellen en rapporteren
 
@@ -27,7 +27,7 @@ Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporte
 * **Intrastat-instellingen**: de pagina Intrastat-instellingen wordt gebruikt om Intrastat-rapportage in te schakelen en er standaarden voor in te stellen. U kunt opgeven of u Intrastat moet rapporteren vanuit verzendingen, ontvangsten (aankomsten) of beide, afhankelijk van drempelwaarden die door uw lokale verordeningen zijn ingesteld. U kunt ook standaardtransactiesoorten instellen voor normale en retourdocumenten, die worden gebruikt voor de aard van transactierapportage.
 * **Intrastat-dagboeksjablonen**: u moet de Intrastat-dagboeksjablonen en -batches instellen die u gaat gebruiken. Aangezien Intrastat maandelijks wordt gerapporteerd, moet u 12 Intrastat-dagboekbatches maken die gebaseerd zijn op dezelfde sjabloon.  
 * **Basisproductcodes**: de belastingdienst en de douane hebben numerieke codes om artikelen en service te classificeren. U geeft deze codes op voor artikelen.
-* **Transactieaardcode**: landen/regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes in verkoop- en inkoopdocumenten, en bij de verwerking van retouren. 
+* **Transactieaardcode**: landen/regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes op het sneltabblad **Buitenlandse handel** in verkoop- en inkoopdocumenten, en bij de verwerking van retouren. 
 
     > [!NOTE]
     > Vanaf januari 2022 vereist Intrastat een andere transactie-aardcode voor verzendingen naar particulieren of niet-btw-geregistreerde bedrijven en btw-geregistreerde bedrijven. Om aan deze vereiste te voldoen raden we u aan om nieuwe transactie-aardcodes te bekijken en/of toe te voegen op de pagina **Transactietypes** volgens de vereisten in uw land/regio. U moet ook het veld **Partnertype** controleren en bijwerken naar *Persoon* voor particulieren of niet-btw-geregistreerde zakelijke klanten op de relevante pagina **Klant**. Als u niet zeker weet welk partner- of transactietype u moet gebruiken, raden we u aan een expert in uw land of regio te raadplegen. 

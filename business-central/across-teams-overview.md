@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/12/2021
+ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138755"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511245"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integratie tussen Business Central en Microsoft Teams
 
@@ -44,7 +44,7 @@ Zie voor meer informatie [Zoeken naar contacten vanuit Microsoft Teams](across-s
 
 Een koppeling naar een Business Central-record kopiëren en plakken in een Teams-gesprek om met uw collega's te delen. De app breidt de koppeling dan uit tot een compacte, interactieve kaart die informatie over de record weergeeft.
 
-[![Teams-integratie met Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integratie met Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 Eenmaal in het gesprek kunnen u en collega's meer details over de record bekijken, gegevens bewerken en actie ondernemen zonder Teams te verlaten.
 
@@ -65,7 +65,7 @@ Zie voor meer informatie [Records en paginakoppelingen delen in Microsoft Teams]
     Als u niet zeker weet of u een account hebt of als u uw referenties niet weet om u aan te melden, neemt u contact op met de beheerder van uw bedrijf om u op weg te helpen.
 
     > [!TIP]
-    > Als uw organisatie geen [!INCLUDE [prod_short](includes/prod_short.md)]-abonnement heeft, kunt u zich aanmelden voor een gratis proefperiode. Zie voor meer informatie [Aan de slag met een proefversie](across-preview.md#getting-started-with-a-trial).
+    > Als uw organisatie geen [!INCLUDE [prod_short](includes/prod_short.md)]-abonnement heeft, kunt u zich aanmelden voor een gratis proefperiode. Zie [Aan de slag met een proefversie](across-preview.md#get-started-with-a-trial) voor meer informatie.
 
 2. Zie als beheerder [Microsoft Teams-integratie met Business Central beheren](admin-teams-integration.md) voor informatie over het instellen van gebruikers om te werken met [!INCLUDE [prod_short](includes/prod_short.md)] en Teams.
 3. [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren in Teams. Zie [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md).

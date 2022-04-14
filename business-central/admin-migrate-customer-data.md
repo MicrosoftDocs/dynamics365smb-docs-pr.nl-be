@@ -1,24 +1,26 @@
 ---
 title: Klantgegevens migreren
-description: U kunt bestaande klantgegevens van een bestaand systeem naar Business Central migreren met RapidStart Services - of het gewoon rechtstreeks in het bedrijf invoeren.
-author: SorenGP
+description: U kunt bestaande klantgegevens van een bestaand systeem migreren naar Business Central met een begeleide instelling. U kunt ook Excel en RapidStart Services gebruiken.
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.search.form: 1799, 1807, 8632, 1800, 1340, 8614, 8615
 ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 492ec993dfbf33f90fc601b1d6f8f27319ee39c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335382"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515731"
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
 
-U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[prod_short](includes/prod_short.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren. Als alternatief kunt u de gids voor **Cloudmigratie** gebruiken om u te helpen bij het verplaatsen van gegevens. Zie [Gegevens migreren](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerdersinhoud voor meer informatie.
+U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[prod_short](includes/prod_short.md)] online met het proces voor cloudmigratie voor ondersteunde versies. U kunt ook migreren naar [!INCLUDE [prod_short](includes/prod_short.md)] on-premises met behulp van de gegevensmigratietools van RapidStart Services en vervolgens overschakelen naar de cloud. Zie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerdersinhoud (uitsluitend in het Engels) voor meer informatie.  
+
+In dit artikel bekijken we de configuratiebestanden waaruit u kunt exporteren van en importeren in [!INCLUDE [prod_short](includes/prod_short.md)]. De inhoud is geschreven met on-premises implementaties in het achterhoofd.  
 
 > [!NOTE]
 > Velden van het type Blob kunnen niet worden geëxporteerd/geïmporteerd met Excel.

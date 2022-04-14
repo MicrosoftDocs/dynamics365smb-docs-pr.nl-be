@@ -1,5 +1,5 @@
 ---
-title: Een nieuw bedrijf maken | Microsoft Docs
+title: Een nieuw bedrijf maken met configuratiepakketten
 description: Gebruik RapidStart Services-tabellen en -pagina's om een nieuw bedrijf te maken waarvoor u een klantimplementatie wilt uitvoeren.
 author: SorenGP
 ms.topic: conceptual
@@ -9,37 +9,43 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0031a05821346aa061334e0f9ced1079fef2978b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2d75c136fdd0dcf2891468d722008ab0bf183cbb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130783"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512424"
 ---
-# <a name="create-a-new-company"></a>Een nieuw bedrijf maken
+# <a name="create-a-new-company-based-on-configuration-packages"></a>Een nieuw bedrijf maken op basis van configuratiepakketten
+
 Als u RapidStart Services voor [!INCLUDE[prod_short](includes/prod_short.md)] wilt gebruiken, maakt u eerst een nieuw bedrijf waarvoor u een klantimplementatie wilt uitvoeren. Bij het maken van een nieuw bedrijf worden de standaard [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen en pagina's gemaakt, maar deze zijn leeg.
 
 Bovendien kunt u specifieke instellingsgegevens op uw bedrijf toepassen nadat u het hebt geïnitialiseerd. Deze gegevens worden in een configuratiepakket (een .rapidstart-bestand) verstrekt welke de inhoud in een gecomprimeerde indeling levert.  
 
 Voorbeeldconfiguratiepakketten, inclusief land-/regiospecifieke bestanden, zijn opgenomen bij het demonstratiebedrijf CRONUS. Gebruik de volgende procedures om het voorbeeldconfiguratiepakket met een nieuw bedrijf te gebruiken.  
 
-## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Het voorbeeldconfiguratiepakket BASICCONFIG gebruiken  
-1. Open het bedrijf CRONUS International Ltd. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
+## <a name="to-use-the-sample-configuration-packages"></a>De voorbeeldconfiguratiepakketten gebruiken
+
+1. Open het demonstratiebedrijf CRONUS. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
-3. Kies het pakket BASICCONFIG in de lijst en kies vervolgens de actie **Pakket exporteren**.  
+3. Kies het relevante pakket in de lijst en kies vervolgens de actie **Pakket exporteren**.  
 
-Gebruik de onderstaande procedure om een nieuw bedrijf aan te maken en gebruik het pakket BASICCONFIG als deel van het proces.  
+Gebruik de onderstaande procedure om een nieuw bedrijf te maken en gebruik het configuratiepakket als deel van het proces.  
 
-## <a name="to-create-a-new-company"></a>Een nieuw bedrijf maken  
+## <a name="to-create-a-new-company"></a>Een nieuw bedrijf maken
+
 1. Maak een nieuw bedrijf. Zie [Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md) voor meer informatie.
-2. Vanuit het rolcentrum RapidStart Services-implementatie kunt u het configuratiepakket nu importeren dat u vanuit het bedrijf CRONUS International Ltd. hebt geëxporteerd.
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") pictogram, voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
+3. Kies de optie **Pakket importeren** en geef vervolgens het bestand .rapidstart op dat u wilt importeren.  
 
 Nadat u een nieuw bedrijf maakt, worden sommige tabellen automatisch ingevuld, zelfs als er geen bedrijfssjabloon is toegepast. U kunt bijvoorbeeld de standaardcodes bekijken voor het boeken en voor batchtransacties op de pagina **Broncode**. Als u een lokale versie van [!INCLUDE[prod_short](includes/prod_short.md)] hebt, moet u deze tabel bekijken en rekening houden met de lokale taal.
 
 ## <a name="about-data-tables"></a>Gegevenstabellen
+
 [!INCLUDE[prod_short](includes/prod_short.md)]-gegevenstabellen worden geleverd in twee basistypen: Hoofd en Instellingen. Wanneer u een bedrijfsconfiguratie opzet, kunt u deze typen gebruiken om een gerichte configuratiestrategie te hanteren.  
 
-### <a name="master-data-tables"></a>Hoofdgegevenstabellen  
+### <a name="master-data-tables"></a>Hoofdgegevenstabellen
+
 In de volgende tabel worden enkele voorbeelden van de hoofdgegevenstabellen weergegeven. Wanneer u een nieuw bedrijf initialiseert, zijn deze tabellen leeg.  
 
 |Tabelnr.|Tabelnaam|  
@@ -50,7 +56,8 @@ In de volgende tabel worden enkele voorbeelden van de hoofdgegevenstabellen weer
 |27|Artikel|  
 |5050|Contactpersoon|  
 
-### <a name="setup-data-tables"></a>Instellingsgegevenstabellen  
+### <a name="setup-data-tables"></a>Instellingsgegevenstabellen
+
 De volgende tabel bevat enkele van de instellingsgegevenstabellen, waarin u instelinformatie vastlegt in de configuratievragenlijst. Deze tabellen bevatten basislijngegevens wanneer het bedrijf wordt gemaakt.  
 
 |Tabelnr.|Tabelnaam|  
@@ -69,9 +76,8 @@ Behalve instellingsgegevenstabellen bevat [!INCLUDE[prod_short](includes/prod_sh
 |6|Klantenprijsgroepen|  
 |5700|SKU|
 
-  
+## <a name="see-also"></a>Zie ook
 
-## <a name="see-also"></a>Zie ook  
 [Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)  
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)

@@ -5,12 +5,12 @@ author: edupont04
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137639"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419324"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Waarschuwingen en foutmeldingen in Dynamics 365 Business Central
 
@@ -20,7 +20,7 @@ Tijdens uw werkdag ziet u mogelijk meldingen in [!INCLUDE [prod_short](includes/
 
 De standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] bevat beschrijvingen voor de meeste velden, kolommen en acties die toegankelijk zijn wanneer u de naam kiest. In combinatie met instructietips voor belangrijke pagina's, beschrijvende bijschriften en instructietekst vormt deze knopinfo, of toelichtingen, onze huidige implementatie van *ingebouwde gebruikersondersteuning*, wat een belangrijk principe is in de huidige wereld van softwareontwerp.  
 
-Als u een vraag hebt over een veld of een ander element van de gebruikersinterface, kies dan de naam en er verschijnt een korte beschrijving. Kies de koppeling *Meer informatie* als dat niet genoeg is.  
+Als u een vraag hebt over een veld of een ander element van de gebruikersinterface, kies dan de naam en er verschijnt een korte beschrijving. Kies de koppeling *Meer informatie* als dat niet genoeg is. U kunt ook het Help-venster in het product gebruiken om antwoorden op uw vragen te vinden.  
 
 Zie voor meer informatie [Dynamics 365 Business Central-model voor gebruikersondersteuning](/dynamics365/business-central/dev-itpro/user-assistance) in de beheerinhoud voor [!INCLUDE [prod_short](includes/prod_short.md)].  
 

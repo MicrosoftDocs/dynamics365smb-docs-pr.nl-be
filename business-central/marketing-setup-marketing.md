@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.search.forms: 5172, 5173, 5170, 5094, 429
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f43e37b540c9e3b3a89299f8609af7aea8398e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a91592818e5e486f58857da07d5d9dc0390d5fba
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130384"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517933"
 ---
 # <a name="setting-up-relationship-management"></a>CRM instellen
 
@@ -30,9 +30,9 @@ Een aantal gegevens voor de contactbedrijven is gelijk aan de gegevens voor de c
 
 Als u een van deze velden wijzigt op de contactbedrijfskaart, wordt het veld op de contactkaart automatisch gewijzigd, tenzij u het veld op de contactkaart handmatig hebt gewijzigd.
 
-Zie voor meer informatie [Contacten maken](marketing-create-contact-companies.md).
+Zie [Contactpersonen maken](marketing-create-contact-companies.md) voor meer informatie.
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Vooraf bepaalde standaardwaarden van nieuwe contacten gebruiken
+## <a name="use-predefined-defaults-on-new-contacts"></a>Vooraf bepaalde standaardwaarden van nieuwe contacten gebruiken
 U kunt bepalen of er automatisch een bepaalde taalcode, regiocode, verkoperscode en land-/regiocode als standaardwaarde moet worden toegewezen aan elk nieuw contact. U kunt ook een standaardverkoopcycluscode invoeren die automatisch wordt toegewezen aan elke nieuwe opportunity.
 
 Als u velden overneemt, worden de ingestelde standaardwaarden overschreven. Als u bijvoorbeeld Engels als standaardtaal hebt ingesteld, maar de taal van het contactbedrijf is Duits, wordt Duits automatisch toegewezen als de taal voor de contacten die zijn vastgelegd voor het desbetreffende bedrijf.

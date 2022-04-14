@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: dcb99e2c1231e95fca2eb9f8c36fc363a193cd82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fc414dcd9a8d9c978ee08eb5d19b960fa21a2d9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141657"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511869"
 ---
 # <a name="archive-documents"></a>Documenten archiveren
 U kunt verkoop- en inkooporders, offertes, retourorders en raamcontracten comprimeren, bijvoorbeeld omdat u een kopie van een document voor hergebruik later wilt opslaan. U kunt een verkoop- of inkoopdocument meerdere keren archiveren, waarbij u steeds een verschillende gearchiveerde versie opslaat.

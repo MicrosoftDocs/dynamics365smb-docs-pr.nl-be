@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2ce238ea11f7bbe04639de64e6529ebe8c6ff2e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139039"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517725"
 ---
-# <a name="using-pre-closing-reports"></a>Vooraf sluiten van rapporten gebruiken
+# <a name="use-pre-closing-reports"></a>Rapporten gebruiken die voorafgaan aan een sluiting
 
 Er staan veel standaardrapporten tot uw beschikking voor het verifiëren van de nauwkeurigheid van de rekeningen voor u de boeken sluit aan het eind van een jaar of een periode. U kunt bijvoorbeeld het rapport **Klant - Proefbalans** gebruiken om na te gaan of het saldo van een klantboekingsgroep gelijk is aan het saldo op de overeenkomstige grootboekrekening op een bepaalde datum.
 

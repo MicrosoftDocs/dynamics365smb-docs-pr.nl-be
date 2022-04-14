@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9e0d924270134e940fb4102dbf1fd0a9a58655dd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2b2ca286540ceca0d881b9e9928dd275583472c3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381074"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510571"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>De extensie Betalingen en afstemmingen (DK)
 
@@ -105,7 +105,7 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 ## <a name="see-also"></a>Zie ook
 
 [Business Central aanpassen voor [!INCLUDE[prod_short](includes/prod_short.md)] met extensies](ui-extensions.md)  
-[Betalingen verzamelen via automatische incasso van SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
+[Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 
 

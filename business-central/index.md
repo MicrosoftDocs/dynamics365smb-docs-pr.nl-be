@@ -6,31 +6,31 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2021
+ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 0a901fca9da818459e8c94735c041dfbafff9471
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367214"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518141"
 ---
 # <a name="welcome-to-prod_long"></a>Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Met [!INCLUDE[prod_short](includes/prod_short.md)], dat in hoge mate aanpasbaar is en uitgebreide functies biedt, kunnen bedrijven hun bedrijfsvoering, waaronder financiën, productie, verkoop, verzending, projectmanagement, services en meer, beheren. Bedrijven kunnen op eenvoudige wijze functionaliteit toevoegen die relevant is voor het toepassingsgebied en die is aangepast om zelfs aan zeer gespecialiseerde sectoren ondersteuning te bieden.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Met [!INCLUDE[prod_short](includes/prod_short.md)], dat in hoge mate aanpasbaar is en uitgebreide functies biedt, kunnen bedrijven hun bedrijfsvoering, waaronder financiën, productie, verkoop, verzending, projectmanagement, services en meer, beheren. Bedrijven kunnen op eenvoudige wijze functionaliteit toevoegen die relevant is voor het toepassingsgebied en die is aangepast om zelfs aan zeer gespecialiseerde sectoren ondersteuning te bieden. [!INCLUDE[prod_short](includes/prod_short.md)] is snel te implementeren, gemakkelijk te configureren en eenvoud is het leidende principe achter innovatie van productontwerp, ontwikkeling, implementatie en bruikbaarheid.  
 
-[Lees hier hoe u een gratis proefperiode kunt krijgen](trial-signup.md).  
-
-Als u [!INCLUDE[prod_short](includes/prod_short.md)] al hebt, meld u dan aan bij [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Anders [haalt u het overzicht op](https://dynamics.microsoft.com/business-central/overview/), [volgt u de rondleiding](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) en [start u vervolgens een gratis proefversie](https://go.microsoft.com/fwlink/?linkid=847861). Bekijk de [snelstartgids](quick-start-business-central.md)artikelen om u te helpen kennis te maken met [!INCLUDE [prod_short](includes/prod_short.md)]. Voor meer informatie over onboarding bij [!INCLUDE[prod_short](includes/prod_short.md)] zie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
+Als u [!INCLUDE[prod_short](includes/prod_short.md)] al hebt, meld u dan aan bij [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Anders [haalt u het overzicht op](https://dynamics.microsoft.com/business-central/overview/), [volgt u de rondleiding](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) en [leert u vervolgens hoe u een gratis proefversie start](trial-signup.md). Bekijk de [snelstartgids](quick-start-business-central.md)artikelen om u te helpen kennis te maken met [!INCLUDE [prod_short](includes/prod_short.md)]. Zie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md) voor meer informatie over onboarding bij [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]
 > Bent u hier beland vanuit [!INCLUDE [prod_short](includes/prod_short.md)]? Als u niet zeker weet waar u kunt vinden wat u zoekt, kunt u **filteren op titels** in het navigatievenster aan de linkerkant of u kunt het veld **Zoeken** boven aan het browservenster gebruiken.  
 >
 > U kunt ook de zoekmogelijkheden gebruiken in [!INCLUDE [prod_short](includes/prod_short.md)] om relevante documentatie te vinden. Zie voor meer informatie [Pagina's en informatie zoeken met Vertel me](ui-search.md).
 
-## <a name="overview"></a>Overzicht
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is snel te implementeren, gemakkelijk te configureren en eenvoud is het leidende principe achter innovatie van productontwerp, ontwikkeling, implementatie en bruikbaarheid. In het navigatiepaneel links vindt u informatie over het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)] in uw bedrijf. Vind koppelingen naar beschrijvingen van de meest gebruikte mogelijkheden in het gedeelte [Bedrijfsprocessen](#business-processes).  
+## <a name="microsoft-docs"></a>Microsoft Docs
+
+In het navigatiepaneel links vindt u informatie over het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)] in uw bedrijf. Vind koppelingen naar beschrijvingen van de meest gebruikte mogelijkheden in het gedeelte [Bedrijfsprocessen](#business-processes). Zie ook de sectie [De site docs.microsoft.com gebruiken voor meer informatie](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more).  
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
@@ -106,6 +106,7 @@ U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze vi
 [[!INCLUDE[prod_short](includes/prod_short.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 [Werken met dimensies](finance-dimensions.md)  
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
+[De site docs.microsoft.com gebruiken voor meer informatie](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-naleving](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-voorwaarden van online services](compliance/compliance-service-compliance.md#service-terms)  
 [Grote updates en kleine updates van Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

@@ -7,18 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382111"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417531"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Werken met btw op verkoop en inkoop
-Stel [!INCLUDE[prod_short](includes/prod_short.md)] in om automatisch btw te berekenen in verkoop- en inkoopdocumenten als u in uw land of regio btw in rekening moet brengen voor verkoop- en inkooptransacties, zodat u de bedragen bij de belastingdienst kunt aangeven. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
+Als uw land of regio vereist dat u belasting over de toegevoegde waarde (btw) op verkoop- en aankooptransacties berekent en rapporteert, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] instellen voor het berekenen van btw. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
 
 Er zijn echter enkele taken met betrekking tot de berekening van btw die u handmatig kunt uitvoeren. Het kan bijvoorbeeld voorkomen dat u een geboekt bedrag moet corrigeren als u ontdekt dat een leverancier een andere afrondingsmethode gebruikt.  
 
@@ -26,31 +26,44 @@ Er zijn echter enkele taken met betrekking tot de berekening van btw die u handm
 > U kunt [!INCLUDE[prod_short](includes/prod_short.md)] btw-registratienummers en andere bedrijfsinformatie laten valideren wanneer u documenten maakt of bijwerkt. Zie voor meer informatie [Btw-registratienummers valideren](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Btw-bedragen berekenen en weergeven in verkoop- en inkoopdocumenten  
-U kunt btw-bedragen op verschillende manieren berekenen en weergeven in verkoop- en inkoopdocumenten, afhankelijk van het type klant of leverancier waarmee u zakendoet. U kunt tevens het berekende btw-bedrag laten vervangen zodat het bedrag overeenkomt met het btw-bedrag dat door uw leverancier voor een bepaalde transactie is berekend.  
+Wanneer u een artikelnummer kiest in het veld **Nr.** veld in een verkoop- of inkoopdocument, vult [!INCLUDE[prod_short](includes/prod_short.md)] de velden **Eenheidsprijs** en **Regelbedrag** in. De eenheidsprijs is afkomstig van de kaart **Artikel** of van de artikelprijzen die zijn toegestaan voor het artikel en de klant. [!INCLUDE[prod_short](includes/prod_short.md)] berekent het regelbedrag wanneer u een hoeveelheid opgeeft voor de regel.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Eenheidsprijs en regelbedrag inclusief/exclusief btw in verkoopdocumenten  
-Wanneer u een artikelnummer kiest in het veld **Nr.** in een verkoopdocument, wordt het veld **Eenheidsprijs** automatisch ingevuld in [!INCLUDE[prod_short](includes/prod_short.md)]. De eenheidsprijs is afkomstig van de kaart **Artikel** of van de artikelprijzen die zijn toegestaan voor het artikel en de klant. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de waarde bij **Regelbedrag** berekend wanneer u een hoeveelheid opgeeft voor de regel.  
+Als u wilt dat de eenheidsprijzen en regelbedragen inclusief btw zijn, bijvoorbeeld als u aan kleinverbruikers verkoopt, kiest u het selectievakje **Prijzen inclusief btw** in het document. Zie [Prijzen en regelbedragen inclusief/exclusief btw](#including-or-excluding-vat-in-prices-and-line-amounts) voor meer informatie. 
 
-Als u verkoopt aan detailhandelconsumenten, wilt u mogelijk prijzen inclusief btw opnemen in verkoopdocumenten. Schakel hiervoor het selectievakje **Prijzen inclusief btw** in het document in.  
+U kunt btw-bedragen op verschillende manieren berekenen en weergeven in verkoop- en inkoopdocumenten, afhankelijk van het type klant of leverancier waarmee u zakendoet. U kunt tevens handmatig het berekende btw-bedrag wijzigen, bijvoorbeeld zodat het overeenkomt met het btw-bedrag dat door uw leverancier voor een bepaalde transactie is berekend.
 
-### <a name="including-or-excluding-vat-on-prices"></a>Prijzen inclusief of exclusief btw
-Als het selectievakje **Prijzen inclusief btw** is ingeschakeld in verkoopdocumenten, zijn de prijzen in de velden **Eenheidsprijs** en **Regelbedrag** inclusief btw en wordt dit in de veldnamen weerspiegeld. Standaard zijn de prijzen in deze velden exclusief btw.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Prijzen en regelbedragen inclusief/exclusief btw
+Als u het selectievakje **Prijzen inclusief btw** kiest in een verkoopdocument, zijn de velden **Eenheidsprijs** en **Regelbedrag** inclusief btw. Standaard zijn de waarden in deze velden exclusief btw. De namen van de velden geven aan of prijzen inclusief btw zijn.  
 
-Als het veld niet is geselecteerd, worden het veld **Eenheidsprijs** en het veld **Regelbedrag** zonder btw ingevuld, en dit wordt in de veldnamen weerspiegeld.  
-
-U kunt de standaardinstelling van **Prijs met btw** instellen voor alle verkoopdocumenten voor een klant in het veld **Prijs met btw** op de **Klant**-kaart. U kunt tevens artikelprijzen inclusief of exclusief btw instellen. Normaliter zijn artikelprijzen op Artikel (kaart) exclusief btw. In de toepassing wordt de informatie gebruikt van het veld **Inclusief btw** op de kaart van het **Artikel** om het eenheidsprijsbedrag voor verkoopdocumenten te bepalen.  
+U kunt de standaardinstelling van **Prijs met btw** instellen voor alle verkoopdocumenten voor een klant in het veld **Prijs met btw** op de **Klant**-kaart. U kunt tevens artikelprijzen inclusief of exclusief btw instellen. Doorgaans zijn de prijzen op de artikelkaart exclusief btw. 
 
 In de volgende tabel staat een overzicht van de manier waarop eenheidsprijsbedragen voor een verkoopdocument worden berekend wanneer u geen prijzen hebt ingesteld op de pagina **Verkoopprijzen**:  
 
-|**Prijs met btw-veld op artikel (kaart)**|**Prijs met btw-veld in verkoopkop**|**Uitgevoerde actie**|  
+|**Prijs met btw-veld op artikel (kaart)**|**Veld Prijzen inclusief btw**|**Uitgevoerde actie**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|Selectievakje niet ingeschakeld|Selectievakje niet ingeschakeld|De **eenheidsprijs** op de artikelkaart wordt gekopieerd naar het veld **Eenheidsprijs excl. btw** op de verkoopregels.|  
-|Selectievakje niet ingeschakeld|Selectievakje ingeschakeld|In de toepassing wordt het btw-bedrag berekend per eenheid en toegevoegd aan de **eenheidsprijs** op de artikelkaart. Deze totale eenheidsprijs wordt vervolgens ingevoerd in het veld **Eenheidsprijs incl. btw** op de verkoopregels.|  
-|Selectievakje ingeschakeld|Selectievakje niet ingeschakeld|De toepassing berekent het btw-bedrag dat is opgenomen in de **Eenheidsprijs** op de artikelkaart en gebruikt het btw-percentage gerelateerd aan de combinatie Btw-bedr.-boekingsgr. (Prijs) en de Btw-productboekingsgroep. De **Eenheidsprijs** op de artikelkaart, verminderd met het btw-bedrag, wordt vervolgens ingevoerd in het veld **Eenheid prijs excl. btw** in de verkoopregels.|  
-|Selectievakje ingeschakeld|Selectievakje ingeschakeld|De **eenheidsprijs** op de artikelkaart wordt gekopieerd naar het veld **Eenheidsprijs incl. btw** op de verkoopregels.|
+|Niet ingeschakeld|Niet ingeschakeld|De **eenheidsprijs** op de artikelkaart wordt gekopieerd naar het veld **Eenheidsprijs excl. btw** op de verkoopregels.|  
+|Niet ingeschakeld|Ingeschakeld|In de toepassing wordt het btw-bedrag berekend per eenheid en toegevoegd aan de **eenheidsprijs** op de artikelkaart. Deze totale eenheidsprijs wordt vervolgens ingevoerd in het veld **Eenheidsprijs incl. btw** op de verkoopregels.|  
+|Ingeschakeld|Niet ingeschakeld|De toepassing berekent het btw-bedrag dat is opgenomen in het veld **Eenheidsprijs** op de **artikelkaart** en gebruikt het btw-percentage gerelateerd aan de combinatie Btw-bedr.-boekingsgr. (Prijs) en de Btw-productboekingsgroep. De **Eenheidsprijs** op de artikelkaart, verminderd met het btw-bedrag, wordt vervolgens ingevoerd in het veld **Eenheid prijs excl. btw** in de verkoopregels. Zie [Btw-bedrijfsboekingsgroepen en klantprijsgroepen gebruiken](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups) voor meer informatie.|  
+|Ingeschakeld|Ingeschakeld|De **eenheidsprijs** op de artikelkaart wordt gekopieerd naar het veld **Eenheidsprijs incl. btw** op de verkoopregels.|
+
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Btw-bedrijfsboekingsgroepen en klantprijsgroepen gebruiken 
+Als u wilt dat prijzen inclusief btw zijn, kunt u btw-bedrijfsboekingsgroepen gebruiken om het bedrag te berekenen op basis van de btw-boekingsinstellingen voor de groep. Zie [Btw-bedrijfsboekingsgroepen instellen](finance-setup-vat.md#set-up-vat-business-posting-groups) voor meer informatie.
+
+Afhankelijk van wat u wilt doen, kunt u op de volgende manieren een btw-bedrijfsboekingsgroep toewijzen aan klanten of verkoopdocumenten:
+
+* Als u voor alle klanten hetzelfde btw-tarief wilt gebruiken, kunt u een groep kiezen in het veld **Btw-bedrijfsboekingsgroep (Prijs)** veld op de pagina **Verkoopinstellingen**.
+* Als u een btw-tarief wilt gebruiken voor een specifieke klant, kunt u een groep kiezen in het veld **Btw-bedrijfsboekingsgroep (Prijs)** op de pagina **Klantenkaart**. 
+* Als u een btw-tarief wilt gebruiken voor een specifieke groep klanten, kunt u een groep kiezen in het veld **Btw-bedrijfsboekingsgroep (Prijs)** op de pagina **Klantenprijsgroep**. Dit is bijvoorbeeld handig wanneer u wilt dat een prijs geldt voor alle klanten in een bepaalde geografische regio of een specifieke branche.
+* Op alle verkoopdocumenten in het veld **Btw-bedrijfsboekingsgroep**. Het btw-bedrag dat voor de groep is opgegeven, wordt alleen gebruikt voor het document waaraan u momenteel werkt.
+
+> [!NOTE]
+> Als u geen groep opgeeft in het veld **Btw-bedrijfsboekingsgroep (Prijs)**, is geen btw inbegrepen in de prijzen.
+
+#### <a name="examples"></a>Voorbeelden
+Factoren zoals het land of de regio waarin u verkoopt of het type bedrijfstakken waaraan u verkoopt, kunnen van invloed zijn op het btw-bedrag dat u moet verantwoorden. Een restaurant kan bijvoorbeeld 6% btw in rekening brengen voor maaltijden die in huis worden gegeten en 17% voor afhaalmaaltijden. Dit kunt u bereiken door een btw-bedrijfsboekingsgroep (prijs) te maken voor in huis en een andere voor afhaalmaaltijden.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Btw-bedragen handmatig corrigeren in verkoop- en inkoopdocumenten  
-Het is mogelijk om correcties aan te brengen in geboekte btw-posten. U kunt dan de totale verkoop- of inkoop-btw-bedragen wijzigen zonder de btw-basis te wijzigen. Mogelijk moet u dit doen als u een factuur ontvangt van een leverancier die de btw verkeerd heeft berekend.  
+U kunt btw-posten corrigeren die zijn geboekt zodat u de totale bedragen voor verkoop- of inkoop-btw kunt wijzigen zonder het btw-basisbedrag aan te passen. Bijvoorbeeld als u een factuur ontvangt van een leverancier met een onjuist btw-bedrag.  
 
 Zelfs als u een of meer combinaties hebt ingesteld voor het afhandelen van import-BTW, moet u minimaal één btw-productboekingsgroep instellen. Deze kunt u bijvoorbeeld **CORRECT** noemen en voor correctiedoeleien gebruiken, tenzij u dezelfde grootboekrekening in het veld **Ink.-btw-rekening** op de regel btw-boekingsinstellingen kunt gebruiken. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
 

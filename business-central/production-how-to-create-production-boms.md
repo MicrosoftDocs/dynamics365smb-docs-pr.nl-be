@@ -1,17 +1,17 @@
 ---
 title: Productiestuklijsten maken
 description: Leer hoe u een productiestuklijst (BOM), nieuwe versies van een productiestuklijst maakt en hoe u de formule voor het berekenen van hoeveelheden gebruikt.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130269"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516912"
 ---
 # <a name="create-production-boms"></a>Productiestuklijsten maken
 
@@ -85,8 +85,12 @@ De relatie tussen de afzonderlijke materialen wordt bepaald in de berekeningsfor
 - **Lengte x Breedte** - Aantal = Aantal per * Lengte x Breedte  
 - **Lengte x Breedte x Diepte** - Aantal = Aantal per x Lengte x Breedte x Diepte  
 - **Gewicht** - Aantal = Aantal per x Gewicht  
+- **Vast aantal** - Aantal = Aantal per
 
-### <a name="example"></a>Opmerking
+> [!NOTE]
+> De berekeningsformule **Vast aantal** zorgt ervoor dat het verbruik van een onderdeel hetzelfde is, ongeacht de uitval- of uitvoerhoeveelheden. Voor productieordermaterialen, wanneer het veld **Berekeningsformule** is ingesteld op **Vast aantal**, is de veldwaarde voor **Verwachte hoeveelheid** altijd gelijk aan het veld **Aantal per**. Het uitvalpercentage dat op dezelfde regel is gedefinieerd, wordt genegeerd. Het rapport **Beschikbaarheid per stuklijst** houd rekening met Vast aantal. Het rapport toont het artikel als het knelpunt als de beschikbare hoeveelheid kleiner is dan de hoeveelheid in het veld **Aantal per bovenliggend artikel**. De velden **Bovenliggende kan worden gemaakt** en **Topartikel kan worden gemaakt** zijn altijd leeg, ongeacht de beschikbare hoeveelheid. Vast aantal wordt ook meegenomen in berekeningen voor standaardkosten. De partijgrootte voor het geproduceerde artikel is van invloed op de kosten die voor één artikel worden toegewezen.
+
+### <a name="example"></a>Voorbeeld
 
 In een productiestuklijst zijn er 70 metalen onderdelen nodig met de volgende dimensies: lengte = 0,20 m en breedte = 0,15 m. De waarden worden als volgt ingevoerd: Berekeningsformule = Lengte x Breedte, Lengte = 20, Breedte = 15, Aantal per = 70. Het aantal wordt als volgt berekend: Aantal per x Lengte * Breedte, dat wil zeggen Aantal = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 

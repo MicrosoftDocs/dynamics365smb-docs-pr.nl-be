@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 6090e81dc4626b05154777d4f84dc0093281f75a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78ecb3147ef31bb2ced29aa3c316f9bd5c05ee0b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129902"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518847"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>De extensie PayPal Payments Standard
 Klanten stellen steeds meer eisen aan de klantenservice, zowel met betrekking tot productkwaliteit als met betrekking tot betalings- en leveringsmogelijkheden. De service PayPal Payments Standard helpt u uw klantenservice te verbeteren.

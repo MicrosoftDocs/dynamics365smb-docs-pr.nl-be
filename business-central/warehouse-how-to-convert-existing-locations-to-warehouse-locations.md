@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 15
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ab867778edc60bf64591866a628bdb638d99c45
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 56a9cc0181b73c5490c6cbc499071e1bfbb63da2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383413"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512614"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Bestaande locaties converteren naar magazijnlocaties
 U kunt een bestaande voorraadvestiging zones en opslaglocaties laten gebruiken en laten functioneren als een magazijnvestiging.  

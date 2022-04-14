@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: d7dc36d95a458e6edfa303540c97c2f4fb57da78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131020"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521292"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Werkstromen maken om zakelijke procestaken met elkaar te verbinden
 

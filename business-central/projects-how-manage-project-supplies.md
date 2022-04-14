@@ -10,12 +10,12 @@ ms.search.keywords: project management, material, purchase
 ms.search.form: 98, 1020
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 07bdabc693434dec9139bba4a6eae1c31ca06a8b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5683baf005fe8dc89cf5f133f790e5682fb5c173
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146292"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516600"
 ---
 # <a name="manage-job-supplies"></a>Projectvoorraden beheren
 Het beheren van projectgoederen van artikelen, services en onkosten is een integraal en zeer belangrijk aspect van de uitvoering van alle projecten. U kunt voorraadhoeveelheden gebruiken of projectspecifieke inkopen doen met behulp van inkooporders of inkoopfacturen. Stel bijvoorbeeld dat bij een serviceproject voor een computer een nieuwe schijf vereist is. U maakt een inkoopfactuur om een nieuwe schijf te kopen en legt het project vast waarvoor deze wordt gebruikt.

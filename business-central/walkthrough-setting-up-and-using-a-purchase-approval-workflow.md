@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138192"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520086"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
 
@@ -92,7 +92,7 @@ Maak de werkstroom voor inkoopordergoedkeuring door de stappen van de werkstroom
     De pagina **Werkstroom** wordt geopend voor een nieuwe werkstroom die alle gegevens van de geselecteerde sjabloon bevat. Aan de waarde in het veld **Code** wordt *- 01* toegevoegd, om aan te geven dat dit de eerste werkstroom is die is gemaakt vanuit de werkstroomsjabloon **Goedkeuringswerkstroom inkooporder**.  
 4. Schakel in de koptekst van de pagina **Werkstroom** het selectievakje **Ingeschakeld** in.  
 
-## <a name="using-the-approval-workflow"></a>De goedkeuringswerkstroom gebruiken
+## <a name="use-the-approval-workflow"></a>De goedkeuringswerkstroom gebruiken
 
 Gebruik de nieuwe werkstroom voor goedkeuring van inkooporders door u eerst aan te melden bij [!INCLUDE[prod_short](includes/prod_short.md)] als Alicia om goedkeuring van een inkooporder aan te vragen. Meld u vervolgens aan als uzelf, bekijk de notitie in het Rolcentrum, volg de koppeling naar de goedkeuringsaanvraag en keur de aanvraag goed.  
 

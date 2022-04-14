@@ -1,30 +1,32 @@
 ---
-title: Rapportgegevens analyseren met Excel
-description: Leer hoe u Excel gebruikt om een rapportgegevensset te analyseren.
+title: Rapportgegevens analyseren met Excel en XML
+description: Leer hoe u Excel en XML gebruikt om een rapportgegevensset te analyseren.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
-ms.openlocfilehash: f3996c051eed69974de9511aa570f232e44764fa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145484"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521818"
 ---
-# <a name="analyzing-report-data-with-excel"></a>Rapportgegevens analyseren met Excel
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Rapportgegevens analyseren met Excel en XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-Als ontwikkelaar of gevorderde gebruiker helpt het om de gegevens te inspecteren die voor een bepaalde rapportgegevensset worden gegenereerd terwijl u nieuwe rapporten maakt of bestaande wijzigt. Om deze mogelijkheid te ondersteunen kunt u een rapportgegevensset als onbewerkte gegevens exporteren naar een Excel-werkblad&mdash;rechtstreeks vanaf de pagina met rapportverzoeken in de client. In Excel kunt u vervolgens ad-hoc analyses van de gegevens uitvoeren en problemen diagnosticeren.
+Als ontwikkelaar of gevorderde gebruiker helpt het om de gegevens te inspecteren die voor een bepaalde rapportgegevensset worden gegenereerd terwijl u nieuwe rapporten maakt of bestaande wijzigt. Om deze mogelijkheid te ondersteunen kunt u een rapportgegevensset rechtstreeks als onbewerkte gegevens exporteren naar een Excel-werkblad of XML-bestand. In Excel kunt u bijvoorbeeld vervolgens ad-hoc analyses van de gegevens uitvoeren en problemen diagnosticeren.
 
 ## <a name="get-started"></a>Aan de slag
 
-Om een rapport naar Excel te exporteren voert u het rapport in de client uit en selecteert u **Verzenden naar** > **Microsoft Excel-document (alleen gegevens)**. 
+Om een rapport naar een Excel-werkmap of XML-bestand te exporteren opent u het rapport in de client en selecteert u op de aanvraagpagina **Verzenden naar** > **Microsoft Excel-document (alleen gegevens)** of **XML-document**. Het bestand wordt naar uw apparaat gedownload.
+
+## <a name="more-about-excel-data-only"></a>Meer over Excel (alleen gegevens)
 
 De optie **Microsoft Excel-document (alleen gegevens)** exporteert de rapportresultaten en de criteria die werden gebruikt om ze te genereren&mdash;maar het omvat niet de rapportlay-out. Het Excel-bestand bevat de volledige dataset, als onbewerkte gegevens, gerangschikt in rijen en kolommen. Alle gegevenskolommen van de gegevensset van het rapport worden opgenomen, ongeacht of ze in de rapportlay-out worden gebruikt.
 

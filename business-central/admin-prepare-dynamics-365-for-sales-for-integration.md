@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: addc48ca52ea27ee7c63b8f8c1b44af8a2f1eb63
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b4fb329c076cab03b6ea5ccc78813ad57ae29db3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383123"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517042"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integreren met Dynamics 365 Sales
 
@@ -80,6 +80,7 @@ Voer naast de bovenstaande instellingen de volgende instellingen in voor [!INCLU
 | **Verkooporderintegratie is ingeschakeld** | Gebruikers de mogelijkheid bieden verkooporders en geactiveerde offertes in te dienen in [!INCLUDE[crm_md](includes/crm_md.md)] deze vervolgens weer te geven en te verwerken in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit integreert het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Automatisch verkooporders maken** | Maak een verkooporder in [!INCLUDE[prod_short](includes/prod_short.md)] wanneer een gebruiker er een maakt en indient in [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Verkoopoffertes automatisch verwerken** | Verwerk een verkoopofferte in [!INCLUDE[prod_short](includes/prod_short.md)] als een gebruiker er een maakt en activeert in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Verkoopoffertegegevens verwerken](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+|**Bidirectionele synchronisatie van verkooporders**|Synchroniseer verkooporders in beide richtingen. Als een klant bijvoorbeeld van gedachten verandert over het product of de hoeveelheid die hij heeft besteld in [!INCLUDE[crm_md](includes/crm_md.md)], kunt u de wijziging verwerken in [!INCLUDE[prod_short](includes/prod_short.md)] door het verkoopdocument te archiveren en een nieuw document te maken. Hetzelfde geldt voor wijzigingen in [!INCLUDE[prod_short](includes/prod_short.md)]. Als bijvoorbeeld prijzen, belastingbedragen of verwachte verzenddatums veranderen, worden de wijzigingen automatisch gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]. Dit helpt uw verkopers op de hoogte te blijven van de laatste wijzigingen en de status van prijsopgaven en orders.|
 
 <!--
 ### User Account Settings
@@ -104,7 +105,7 @@ In de volgende tabel staat de standaardtoewijzing tussen tabellen in [!INCLUDE[p
 | Opportunity | Opportunity | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 | Verkoopfactuur | Factureren | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Verkoopfactuurregel | Factuurproduct | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Verkooporderkop | Verkooporder | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)]-verkoopkopfilter: **Documenttype** is Order, **Status** is Vrijgegeven |
+| Verkooporderkop | Verkooporder | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] <br><br> Als u in beide richtingen wilt synchroniseren, moet u de schakelaar **Bidirectionele synchronisatie van verkooporders** op de pagina **Dynamics 365-verbinding instellen** aanzetten.| [!INCLUDE[prod_short](includes/prod_short.md)]-verkoopkopfilter: **Documenttype** is Order, **Status** is Vrijgegeven |
 | Verkoopordernotities | Verkoopordernotities | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]

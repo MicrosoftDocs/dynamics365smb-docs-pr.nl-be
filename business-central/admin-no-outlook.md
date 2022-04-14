@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79a02ba516c1359863ac552e66fce03287519a65
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ac4d66671d7eeb78c5fead20e7a43844c5d03c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144088"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517069"
 ---
-# <a name="using-business-central-without-outlook"></a>Business Central gebruiken zonder Outlook
+# <a name="use-business-central-without-outlook"></a>Business Central gebruiken zonder Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] is nauw geïntegreerd met Microsoft 365 en u kunt [!INCLUDE[prod_short](includes/prod_short.md)] als uw bedrijfsinbox in Outlook gebruiken. Maar als u Outlook niet hebt, kunt u met [!INCLUDE[prod_short](includes/prod_short.md)] in de browser of op uw mobiele apparaat werken.  
 
 ## <a name="sending-email"></a>E-mail verzenden

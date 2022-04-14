@@ -10,12 +10,12 @@ ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2fd979106f1ec9923eb3fed5717eb7e2c05b23
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: afa3806cd0597ffe04c516f586ea58fab83c0bc2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141709"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515861"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Lijsten weergeven op verschillende manieren
 In de rechterhoek van elke lijst in [!INCLUDE[prod_short](includes/prod_short.md)] vindt u pictogrammen waarmee u kunt kiezen hoe de lijst met records wordt weergegeven. Een lijst kan worden weergegeven als gedetailleerde rijen, wat ideaal is als u met veel velden moet werken of velden in de lijst moet bewerken. Maar u kunt ook schakelen om records als tegels weer te geven, wat compacter is en minder velden in de specifieke record toont. Deze weergave is erg handig om een overzicht te krijgen van diverse items en is met name handig op kleinere apparaten, omdat het compact is en gemakkelijker om te tikken.

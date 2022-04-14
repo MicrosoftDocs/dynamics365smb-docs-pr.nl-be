@@ -1,29 +1,30 @@
 ---
-title: Extensies installeren om Business Central aan te passen
+title: Business Central Online aanpassen met extensies
 description: Meer informatie over het toevoegen van functionaliteit en het aanpassen van Business Central door extensies te installeren vindt u hier.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 08/25/2021
+ms.search.form: 2500, 2502
+ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 7839c4364f299619707b0a346b9b5d0db07e627b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56c564274e396d9699286b18d882c2a21f8721ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132432"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510699"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online aanpassen met extensies
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services.
 
 > [!NOTE]
-> Als u extensies wilt installeren of verwijderen vanuit AppSource of extensies per tenant wilt toevoegen, moet u de juiste machtigingen hebben. U moet ofwel lid zijn van de gebruikersgroep UITGEBREID BEHEER - - BEHEERDER of u moet de machtigingenset UITGEBR. BEHEER - - BEHEERDER hebben. Als u een beheerder bent, kunt u gebruikersgroepen en machtigingen toewijzen aan andere gebruikers in uw bedrijf.
+> Als u extensies wilt installeren of verwijderen vanuit AppSource of extensies per tenant wilt toevoegen, moet u de juiste machtigingen hebben. U moet lid zijn van de gebruikersgroep **D365 extensiebeheer** of u moet expliciet beschikken over de machtigingenset **UITGEBREID BEHEER - BEHEERDER**. Als u een beheerder bent, kunt u gebruikersgroepen en machtigingen toewijzen aan andere gebruikers in uw bedrijf. Zie [Gebruikers maken volgens licenties](ui-how-users-permissions.md) voor meer informatie.  
 >
 > Als u de functionaliteit van een extensie wilt gebruiken, zoals pagina's openen, rapporten uitvoeren, acties selecteren, enzovoort, moeten aan u de machtigingensets zijn toegewezen die als onderdeel van de extensie zijn geïnstalleerd.
 
-> [!NOTE]  
-> De machtigingenset **UITGEBREID BEHEER - BEHEERDER** is geïntroduceerd in Business Central 2021 releasewave 1, als vervanging voor de machtigingenset **D365 EXTENSIEBEHEER** in eerdere versies.
+<!-- [!NOTE]  
+> The **EXTEN. MGT. - ADMIN** permission set was introduced in 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.-->
 
 > [!IMPORTANT]  
 > Het uploaden van extensies per huurder en de installatie van AppSource-extensies wordt niet ondersteund via de pagina **Extensiebeheer** voor lokale installaties. U kunt AppSource-extensies niet on-premises installeren, inclusief in op Docker gebaseerde implementaties.
@@ -84,6 +85,7 @@ Microsoft-partners en -resellers kunnen extensies maken die ze kunnen gebruiken 
 
 ## <a name="see-also"></a>Zie ook
 
+[Extensies installeren en verwijderen](ui-extensions-install-uninstall.md)  
 [Business Central aanpassen](ui-customizing-overview.md)  
 [Business Central-extensies van andere providers](ui-extensions-other.md)  
 [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md)  

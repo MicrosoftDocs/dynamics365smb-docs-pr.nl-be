@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5a81bf1377c7ba477961205ccb67fc9982ac3ae
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ab9ad6e770e1a8c1c6ebc9e20d00e9f72ebec7c6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140929"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518977"
 ---
 # <a name="managing-marketing-campaigns"></a>Marketingcampagnes beheren
 Als u over een krachtig marketingplan beschikt, kunt u klanten vaststellen, aantrekken en vasthouden. Een marketingplan bestaat uit diverse campagnes en andere interacties in verband met uw verkoop- en marketingactiviteiten. Terwijl u een campagne plant, moet u bepalen op welke contacten u zich wilt richten, aan welk type campagne u de voorkeur geeft (zoals een beurs of direct mail) en welke verkopers elke taak uitvoeren.

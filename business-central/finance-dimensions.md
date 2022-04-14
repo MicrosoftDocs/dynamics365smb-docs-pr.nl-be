@@ -10,15 +10,14 @@ ms.search.keywords: analysis, history, track, business intelligence
 ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 494a79283ba7917666e708d9b07acf9523ef15b8
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: e5579df4d63a4f800118ca320d60a984f203022b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366744"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517588"
 ---
-# <a name="working-with-dimensions"></a>Werken met dimensies
-
+# <a name="work-with-dimensions"></a>Werken met dimensies
 Dimensies zijn waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren in documenten, zoals verkooporders. Dimensies kunnen bijvoorbeeld aangeven tot welk project of welke afdeling een post behoort.  
 
 In plaats van voor elke afdeling en project aparte grootboekrekeningen in te stellen, kunt u bijvoorbeeld dimensies gebruiken als basis voor analyse en hoeft u geen ingewikkeld rekeningschema te maken. Zie voor meer informatie [Bedrijfsinformatie](bi.md).
@@ -202,8 +201,7 @@ De pagina **Standaarddimensies - Multi** bevat de volgende velden:
 |**Dimensiewaardecode**|Bevat een dimensiewaarde of de term (Conflict). Als het veld een dimensiewaarde bevat, hebben de gemarkeerde rekeningen dezelfde standaard dimensiewaarde voor een dimensie. Bevat het veld de term (Conflict), dan hebben niet alle gemarkeerde rekeningen dezelfde standaard dimensiewaarde voor een dimensie. Kies het veld voor een overzicht van de beschikbare dimensiewaarden voor een dimensie. Als u een dimensiewaarde selecteert, wordt de geselecteerde dimensiewaarde ingesteld als standaard dimensiewaarde voor de gemarkeerde rekeningen.|
 |**Waardeboeking**|Bevat een regel voor waardeboeking of de term (Conflict). Als het veld een regel voor waardeboeking bevat, hebben de gemarkeerde rekeningen dezelfde regel voor waardeboeking voor een dimensiewaarde. Bevat het veld de term (Conflict), dan hebben niet alle gemarkeerde rekeningen dezelfde regel voor waardeboeking voor een dimensiewaarde. Kies het veld Waardeboeking voor een overzicht van de regels voor waardeboeking. Als u een regel voor waardeboeking selecteert, wordt de geselecteerde regel voor waardeboeking toegepast op de gemarkeerde rekeningen.|
 
-## <a name="using-dimensions"></a>Dimensies gebruiken
-
+## <a name="use-dimensions"></a>Dimensies gebruiken
 In een document zoals een verkooporder kunt u dimensiegegevens toevoegen voor een afzonderlijke documentregel en voor het document zelf. Op de pagina **Verkooporder** kunt u bijvoorbeeld dimensiewaarden invoeren voor de eerste twee shortcutdimensies op de afzonderlijke verkoopregels, en u kunt meer dimensiegegevens toevoegen als u de knop **Dimensies** kiest.  
 
 Als u in plaats daarvan in een dagboek werkt, kunt u ook op dezelfde manier dimensiegegevens toevoegen aan een post als u shortcutdimensies direct als velden hebt ingesteld op dagboekregels.  

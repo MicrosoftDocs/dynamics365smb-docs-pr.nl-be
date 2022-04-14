@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382071"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522156"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kosten toewijzen aan intercompany-partners
 Wanneer u intercompany-boekingen gebruikt om documenten tussen partnerbedrijven over te dragen, bepalen de btw-instellingen (voornamelijk de btw-bedrijfsboekingsgroep) die zijn toegewezen aan de klant- of leveranciersrekeningen (gekoppeld aan de intercompany-partner) of en hoe btw wordt berekend en geregistreerd. U kunt ook kostendistributies rechtstreeks vanuit een inkooporder naar partnerbedrijven uitvoeren. Als u bijvoorbeeld een inkoopfactuur van een externe leverancier registreert en u een deel of alle kosten wilt verdelen over een of meer intercompany-partners.

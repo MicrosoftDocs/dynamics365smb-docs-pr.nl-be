@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 39, 251, 981, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a9250a206d21d472bbe3efac1b54f47a36e1d95b
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fa007d1a75baaf1fc96bf05952102a821688e7a3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335201"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512112"
 ---
 # <a name="letting-prod_short-suggest-values"></a>[!INCLUDE[prod_short](includes/prod_short.md)] waarden laten voorstellen
 [!INCLUDE[prod_short](includes/prod_short.md)] kan u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren. Hoewel dergelijke automatische gegevensinvoer altijd correct is, kunt u deze later wijzigen als u wilt.

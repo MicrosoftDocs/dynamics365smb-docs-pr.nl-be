@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b7bd6481c6347cfb9c8d02ba58f38101802a6caa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 109ebfef1650c365cb383aac56cf51ab9ee8231b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131131"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518559"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Plannen van opslagactiviteiten in werkbladen
 Als voor de vestiging zowel opslag- als ontvangstverwerking is ingesteld en u opslaginstructies wilt plannen voor een aantal ontvangsten en bovendien liever niet wilt dat de magazijnmedewerkers de instructies van de toepassing voor afzonderlijk geboekte ontvangsten volgen, kunt u een opslagvoorstel maken.  

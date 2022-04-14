@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137847"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516121"
 ---
 # <a name="set-up-contacts"></a>Contacten instellen
 Wanneer u contacten maakt, kunt u specifieke gegevens invoeren, zoals de sector waartoe het contact behoort en uw zakenrelatie met de contacten.
@@ -140,7 +140,7 @@ Als u een van deze velden wijzigt op de contactbedrijfkaart, worden dezelfde vel
 
 Zie voor meer informatie [Contacten maken](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Vooraf bepaalde standaardwaarden van nieuwe contacten gebruiken
+## <a name="use-predefined-defaults-on-new-contacts"></a>Vooraf bepaalde standaardwaarden van nieuwe contacten gebruiken
 U kunt bepalen of er automatisch een bepaalde taalcode, regiocode, verkoperscode en land-/regiocode als standaardwaarde moet worden toegewezen aan elk nieuw contact. U kunt ook een standaardverkoopcycluscode invoeren die automatisch wordt toegewezen aan elke nieuwe opportunity. U stelt dit in op het sneltabblad **Standaarden** op de pagina **Marketinginstellingen**
 
 Als u velden overneemt, worden de ingestelde standaardwaarden overschreven. Als u bijvoorbeeld Engels als standaardtaal hebt ingesteld, maar de taal van het contactbedrijf is Duits, wordt Duits automatisch toegewezen als de taal voor de contacten die zijn vastgelegd voor het desbetreffende bedrijf.

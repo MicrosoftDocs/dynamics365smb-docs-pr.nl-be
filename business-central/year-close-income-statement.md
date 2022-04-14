@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 0f305c6284a617594202ac8e38ce786d7019f489
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fe66a7341045058f2d5d5b5313d122cf442d3117
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139085"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514685"
 ---
 # <a name="closing-income-statement-accounts"></a>Resultatenrekeningen sluiten
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten. Voer hiervoor de batchverwerking **Afsluiten WenV-rekening** uit. Met deze taak wordt het jaarresultaat overgeboekt naar een rekening op de balans en worden de resultatenrekeningen afgesloten. In een dagboek worden regels gemaakt die u vervolgens kunt boeken.

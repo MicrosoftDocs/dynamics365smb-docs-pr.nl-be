@@ -1,5 +1,5 @@
 ---
-title: Werken met rapporten, batchverwerkingen en XMLports
+title: Rapporten uitvoeren en afdrukken
 description: Leren over het invoeren van een lijst in een verwerkingswachtrij en het plannen om te worden verwerkt op een specifieke datum en tijd.
 author: jswymer
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 02/09/2022
+ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: 9a5866db05b4ef78e751996f59ea56d9f4b75d27
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: fade19b2ecb4d2c17b5d5775074f2f715496a908
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322967"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512692"
 ---
-# <a name="working-with-reports-batch-jobs-and-xmlports"></a>Werken met rapporten, batchverwerkingen en XMLports
+# <a name="run-and-print-reports"></a>Rapporten uitvoeren en afdrukken
 
 Een rapport verzamelt informatie op basis van een gespecificeerde set criteria. Het organiseert en presenteert de informatie in een gemakkelijk te lezen formaat dat u kunt afdrukken of opslaan als een bestand. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. De pagina **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, verkoopstatistieken en meer.
 
@@ -26,7 +26,7 @@ Batchtaken en XMLports doen min of meer hetzelfde als rapporten, maar worden mee
 > [!NOTE]
 > Dit onderwerp verwijst hoofdzakelijk naar 'rapport', maar soortgelijke informatie geldt voor batchverwerkingen en XMLports.
 
-## <a name="getting-started"></a>Aan de slag
+## <a name="get-started"></a>Aan de slag
 
 U vindt rapporten op het tabblad **Rapporten** op bepaalde pagina's of u kunt zoeken gebruiken ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") om rapporten op naam te vinden.
 
@@ -43,7 +43,7 @@ Het veld **Standaardwaarden gebruiken uit** biedt een snelle en betrouwbare mani
 >[!NOTE]
 > De vooraf gedefinieerde instellingen worden doorgaans ingesteld en beheerd door een beheerder. Als u meer wilt weten, raadpleegt u [Opgeslagen instellingen voor rapporten en batchtaken beheren](reports-saving-reusing-settings.md).
 
-## <a name="specifying-the-data-to-include-in-reports"></a>De gegevens opgeven die in rapporten moeten worden opgenomen
+## <a name="specifying-the-data-to-include-in-a-report"></a>De gegevens opgeven die in rapporten moeten worden opgenomen
 
 Gebruik de velden onder **Opties** en **Filters** om de informatie die u in het rapport wilt, te wijzigen. U stelt filters in een rapport op ongeveer dezelfde manier in als filters in lijsten. Zie [Filteren](ui-enter-criteria-filters.md#filtering) voor meer informatie.
 
@@ -63,7 +63,7 @@ Om een voorbeeld van een rapport te bekijken kiest u de knop **Voorbeeld** of **
 > [!NOTE]
 > Als u Business Central 2020 releasewave 1 of eerder gebruikt, is er alleen een knop **Voorbeeld**, die de aanvraagpagina met het voorbeeld sluit, zoals beschreven voor **Voorbeeld en sluiten**.
 
-### <a name="working-with-the-preview"></a>Werken met de preview
+### <a name="work-with-the-preview"></a>Werken met het voorbeeld
 
 Gebruik in het rapportvoorbeeld de menubalk om het volgende te doen:
 
@@ -82,11 +82,13 @@ Gebruik in het rapportvoorbeeld de menubalk om het volgende te doen:
 
 ## <a name="saving-a-report-to-a-file"></a>Een rapport opslaan in een bestand
 
-U kunt een rapport opslaan als een PDF-document, een Microsoft Word-document of een Microsoft Excel-werkblad. Kies hiervoor de knop **Verzenden naar** en maak uw selectie.
+U kunt een rapport opslaan als een PDF-document, Microsoft Word-document, Microsoft Excel-werkblad of XML-document. Kies hiervoor de knop **Verzenden naar** en maak uw selectie.
 
-### <a name="about-sending-to-excel"></a>Over verzenden naar Excel
-
-U kunt werken met [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens in Excel voor verdere analyse. Zie voor meer informatie [Rapportgegevens analyseren met Excel](report-analyze-excel.md).  
+> [!TIP]
+> De opties **Microsoft Excel-document (alleen gegevens)** en **XML-document** zijn meestal voor geavanceerde doeleinden. Normaal gesproken gebruikt u deze opties voor het uitvoeren van gedetailleerde gegevensanalyses. Zie voor meer informatie [Rapportgegevens analyseren met Excel en XML](report-analyze-excel.md).
+>
+> U kunt ook **Microsoft Excel-document (alleen gegevens)** gebruiken om nieuwe Excel-lay-outs voor een bepaald rapport te maken. Zie voor meer informatie [Werken met Excel-lay-outs](ui-excel-report-layouts.md).  
+  
 <!--
 ### About sending to Word
 
@@ -97,17 +99,19 @@ Use the **Microsoft Word Document** option to generate a report as a Word docume
 
 -->
 
-## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a>Een rapport plannen voor uitvoering
+## <a name="scheduling-a-report-to-run-later"></a><a name="ScheduleReport"></a> Een rapport plannen voor latere uitvoering
 
 U kunt een batchtaak plannen voor uitvoering op een bepaalde datum en tijd. Geplande rapporten en batchtaken worden in de verwerkingswachtrij ingevoerd en verwerkt op het geplande tijdstip, net zoals andere taken. U kiest de optie **Schema** nadat u de knop **Verzenden naar** hebt gekozen en voert vervolgens informatie in zoals de printer en tijd en datum. Het rapport wordt vervolgens toegevoegd aan de taakwachtrij en wordt op de opgegeven tijd uitgevoerd. Als het rapport is verwerkt, wordt het artikel verwijderd uit de verwerkingswachtrij. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).  
 
-Wanneer u een rapport plant dat moet worden uitgevoerd, kunt u bijvoorbeeld opgeven dat het elke donderdag moet worden uitgevoerd door het veld **Formule voor volgende uitvoeringsdatum** in te stellen op *D4*. Zie voor meer informatie [Datumformules gebruiken](ui-enter-date-ranges.md#using-date-formulas).  
+Wanneer u een rapport plant dat moet worden uitgevoerd, kunt u bijvoorbeeld opgeven dat het elke donderdag moet worden uitgevoerd door het veld **Formule voor volgende uitvoeringsdatum** in te stellen op *D4*. Zie voor meer informatie [Datumformules gebruiken](ui-enter-date-ranges.md#use-date-formulas).  
 
 U kunt ervoor kiezen het rapport op te slaan in een bestand, zoals een Excel-, Word- of PDF-bestand, het af te drukken of het rapport alleen te genereren. Als u ervoor kiest het rapport in een bestand op te slaan, wordt het verwerkte rapport naar het gebied **Rapportinbox** in uw rolcentrum verzonden, waar u het kunt bekijken.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Een rapport afdrukken
 
 Als u een rapport wilt afdrukken, kiest u de knop **Afdrukken** op de aanvraagpagina of op de menubalk op de pagina **Voorbeeld**.
+
+Wanneer een rapport een Excel-layout gebruikt, ziet u niet het veld **Printer**, de knop **Afdrukken** knop of de knop **Voorbeeld**. In plaats daarvan is er een knop **Downloaden**. Om af te drukken, selecteert u **Downloaden**, vervolgens opent u het gedownloade bestand in Excel en drukt u van daaruit af.
 
 ### <a name="printer"></a><a name="Printer"></a>Printer
 
@@ -119,15 +123,15 @@ Het veld **Printer** op de aanvraagpagina bevat de naam van de printer waar het 
 > [!TIP]
 > De printer die standaard voor u is geselecteerd, wordt ingesteld op de pagina **Printerselecties**. Zie voor informatie over het wijzigen van de standaardprinter [Selecteren welke printers welke rapporten afdrukken](ui-specify-printer-selection-reports.md#default).
 
-### <a name="printing-reports-in-thai"></a>Rapporten afdrukken in het Thai
+### <a name="printing-reports-in-thai"></a>Rapporten afdrukken in Thai
 
 Specifiek voor de Thaise versie van [!INCLUDE[prod_short](includes/prod_short.md)] kan de knop **Afdrukken** geen rapporten correct afdrukken vanwege beperkingen in de service die het afdrukbare PDF-bestand genereert. In plaats hiervan kunt u het rapport openen in Word en vervolgens opslaan als een afdrukbare PDF.  
 
 U kunt ook de beheerder vragen een Word-rapportlay-out te maken voor uw meest gebruikte rapporten. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).  
 
-## <a name="changing-report-layouts"></a>Rapportindelingen wijzigen
+## <a name="switching-the-report-layout"></a>Overgaan op een andere rapportlay-out
 
-Een rapportlay-out bepaalt wat in een rapport wordt weergegeven, hoe het is ingedeeld en hoe het is opgemaakt. Zie [De huidige rapportindeling wijzigen](ui-how-change-layout-currently-used-report.md) als u naar een andere indeling wilt overschakelen. Of zie [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md) als u uw eigen rapportlay-out wilt aanpassen.
+Een rapportlay-out bepaalt wat in een rapport wordt weergegeven, hoe het is ingedeeld en hoe het is opgemaakt. Zie [De lay-out instellen die door een rapport wordt gebruikt](ui-set-report-layout.md) als u naar een andere lay-out wilt overschakelen. Of zie [Aan de slag met het maken van lay-outs](ui-get-started-layouts.md) als u uw eigen rapportlay-out wilt aanpassen.
 
 ## <a name="advanced-options"></a>Geavanceerde opties
 
@@ -146,7 +150,7 @@ De velden onder **Geavanceerd** stellen beperkingen in voor het gegenereerde rap
 
 [Printers instellen](ui-specify-printer-selection-reports.md)  
 [Werken met agendadatums en -tijden](ui-enter-date-ranges.md)  
-[Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
+[Rapport- en documentlay-outs beheren](ui-manage-report-layouts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

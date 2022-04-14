@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9409c33858f32628c9f8a85fe6d19fd5afb5986f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 34bbdae60f2e9e17cdd6f006f4af432658ee9dbe
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381895"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519878"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Op-order-assembleren-artikelen en voorraadartikelen samen verkopen
 Als het veld **Assemblagebeleid** op de artikelkaart van assemblageartikel **Op voorraad assembleren** bevat, neemt het standaardproces voor de verkooporder aan dat het item al is samengesteld en uit de voorraad kan worden gepickt, als deze beschikbaar is. Daarom wordt er geen assemblageorder automatisch gemaakt en gekoppeld aan de verkooporderregel. Als echter een deel van (of de gehele) hoeveelheid niet beschikbaar is, kunt u een assemblageorder maken voor het resterende aantal door het veld **Aantal voor op order assembleren** op de verkooporderregel in te vullen. Op deze manier kunt u het artikel dat u wilt bestellen, samenstellen, ook al is het standaard ingesteld om op voorraad te worden geassembleerd.  

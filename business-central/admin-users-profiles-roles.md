@@ -7,12 +7,12 @@ ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fa9bd31f0f9ff1705f9caa7f21d9f376febdb712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b17a4f5a375e4fa1ad067d2679b37bb3d0f5da95
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133135"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514159"
 ---
 # <a name="manage-user-profiles"></a>Gebruikersprofielen beheren
 
@@ -85,7 +85,7 @@ Wanneer een profiel wordt gemaakt, kunt u verschillende selectievakjes selectere
     - **Weergeven in Rollenverkenner** om op te geven of acties op zakelijke functies in het profiel moeten worden weergegeven in de uitgebreide weergave van de rollenverkenner, een functieoverzicht. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Profielen exporteren
-U kunt profielen exporteren uit [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld om ze te hergebruiken in een andere tenant. De profielen worden geëxporteerd naar een zipbestand met .al-bestanden die opnieuw kunnen worden gebruikt om extensies te ontwikkelen. Zie voor meer informatie [De client gebruiken om profielen en pagina-aanpassingen te maken](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+U kunt profielen exporteren uit [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld om ze te hergebruiken in een andere tenant. De profielen worden geëxporteerd naar een zipbestand met .al-bestanden die opnieuw kunnen worden gebruikt om extensies te ontwikkelen. Zie [De client gebruiken om profielen en pagina-aanpassingen te maken](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client) voor meer informatie.
 
 * Kies op de pagina **Profielen (rollen)** de actie **Profielen exporteren**.
 

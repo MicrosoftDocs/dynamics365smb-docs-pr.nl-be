@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 375c333bf6fc56d4dac5a59be0dbf905c8339ec5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3e86bf736bb25a9270bec93fcabfa683a6f4ae5f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137587"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516070"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Onderdelen afboeken op basis van de uitvoer van een bewerking
 U kunt verschillende afboekingsstrategieën definiëren om de registratie van het verbruik van componenten te automatiseren. 

@@ -10,18 +10,18 @@ ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 66bd2ae0b30c8c13a6fb8285afd36f4a3495b609
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 87fb665d57aaa6c66b4b3c2659d9e93a6e51239d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138608"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514055"
 ---
 # <a name="create-gl-budgets"></a>Grootboekbudgetten maken
 
 U kunt budgetten met aparte namen maken als u meerdere budgetten wilt gebruiken voor dezelfde perioden. Eerst stelt u de begrotingsnaam in en voert u de begrotingscijfers in. De begrotingsnaam wordt vervolgens opgenomen op alle begrotingsposten die u maakt.  
 
-Wanneer u een budget maakt, kunt u vier dimensies voor elk budget opgeven. Deze budgetspecifieke dimensies worden budgetdimensies genoemd. U selecteert de budgetdimensies voor elk budget uit de ingestelde dimensies. Met budgetdimensies kunnen budgetfilters worden ingesteld en dimensiegegevens aan budgetposten worden toegevoegd. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
+Wanneer u een budget maakt, kunt u vier dimensies voor elk budget opgeven. Deze budgetspecifieke dimensies worden budgetdimensies genoemd. U selecteert de budgetdimensies voor elk budget uit de ingestelde dimensies. Met budgetdimensies kunnen budgetfilters worden ingesteld en dimensiegegevens aan budgetposten worden toegevoegd. Zie [Werken met dimensies](finance-dimensions.md) voor meer informatie.
 
 Budgetten spelen een belangrijke rol in bedrijfsinformatie, zoals in financiële overzichten gebaseerd op rapportageschema's die budgetposten bevatten, of wanneer gebudgetteerde en werkelijke bedragen in het rekeningschema worden geanalyseerd. Zie voor meer informatie [Bedrijfsinformatie](bi.md).
 

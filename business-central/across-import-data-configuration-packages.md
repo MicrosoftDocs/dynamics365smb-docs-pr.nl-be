@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c6dc9d386bde8e4f8496f086141589ea4c89c73
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2918b554cf578baa0636f0a18bbbbf2fc8a4692
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136464"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516485"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Bedrijfsgegevens importeren uit andere financiële systemen
 
@@ -40,7 +40,7 @@ Als u artikelafbeeldingen wilt importeren, kunt u een speciale functie op de pag
 > [!NOTE]  
 >   Werken met configuratiepakketten is geavanceerde functionaliteit, en het wordt aanbevolen om hiervoor contact op te nemen met uw beheerder. Zie voor meer informatie [Gegevens importeren uit oudere boekhoudsoftware door middel van een configuratiepakket](across-import-data-configuration-packages.md).
 
-## <a name="working-with-data-in-excel"></a>Werken met gegevens in Excel
+## <a name="work-with-data-in-excel"></a>Werken met gegevens in Excel
 Wanneer u het standaardconfiguratiepakket exporteert naar Excel, bevat de gegenereerde werkmap een werkblad voor elke tabel in het pakket. Om uw taken te vereenvoudigen, kunt u de XML-manipulatiehulpprogramma's gebruiken die in Excel zijn ingebouwd. U kunt ook ingebouwde functies van Excel gebruiken om te helpen met het opmaken van gegevens en deze in de correcte cel te plaatsen. Voeg bijvoorbeeld een werkblad toe en kopieer de verouderde gegevens naar het werkblad. Maak vervolgens een Excel-formule om gegevens in het transformatiewerkblad te koppelen met de velden in het geëxporteerde werkblad en de oude klantgegevens. Nadat u alle gegevens hebt gekoppeld, kopieert u het gegevensbereik naar het werkblad met de tabel.  
 
 > [!IMPORTANT]  

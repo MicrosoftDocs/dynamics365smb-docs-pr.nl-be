@@ -10,12 +10,12 @@ ms.search.keywords: check, clearing
 ms.search.form: 1231, 1232, 1233, 1234
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a45ac4ca08f49a3ac27d93e31086ef06c167d971
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1e3ef74e8d407f9cafb2b67131167bdbfefe4872
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130600"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517562"
 ---
 # <a name="export-a-positive-pay-file"></a>Een Positive Pay-bestand exporteren
 Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen verrekent, kunt u een Positive Pay-bestand exporteren dat leveranciersgegevens, het chequenummer en het betalingsbedrag bevat, die u naar de bank verzendt wanneer u betalingen verwerkt.

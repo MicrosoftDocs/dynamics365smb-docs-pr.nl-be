@@ -7,22 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 06/22/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140955"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512926"
 ---
 # <a name="create-a-demand-forecast"></a>Een vraagprognose maken
 
-U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.  
+U kunt verkoop- en productieprognoses maken op de lijstpagina **Vraagprognoses**. Vervolgens specificeert u voor elke prognose verschillende instellingen voor die prognose op de pagina **Overzicht vraagprognoses**.  
 
-De prognosefunctionaliteit wordt gebruikt om een verwachte vraag aan te maken; de werkelijke vraag komt voort uit verkoop- en productieorders. Tijdens het opstellen van het MPS (Master Production Schedule) wordt de prognose tot een nettowaarde teruggebracht tegen de verkoop- en productieorders. De optie *Onderdeel* op de prognose bepaalt met welke soort vraag rekening wordt gehouden in het proces van het berekenen van de nettowaarde. Als de prognose wordt uitgevoerd voor een verkoopartikel, worden alleen verkooporders gebruikt tegen de prognose. Als het materialen betreft, wordt alleen afhankelijke vraag van productieordermaterialen gebruikt tegen de prognose.  
+De prognosefunctionaliteit wordt gebruikt om een verwachte vraag aan te maken; de werkelijke vraag komt voort uit verkoop- en productieorders. Tijdens het opstellen van het MPS (Master Production Schedule) wordt de prognose tot een nettowaarde teruggebracht tegen de verkoop- en productieorders. Het veld **Prognosesoort** op de prognose bepaalt met welke soort vraag rekening wordt gehouden in het proces van het berekenen van de nettowaarde. Als de prognose wordt uitgevoerd voor een *verkoopartikel*, worden alleen verkooporders gebruikt tegen de prognose. Als het *materialen* betreft, wordt alleen afhankelijke vraag van productieordermaterialen gebruikt tegen de prognose.  
 
 Met behulp van prognoses kan uw bedrijf "wat als"-scenario's opstellen en efficiënt en kosteneffectief plannen voor en voorzien in de vraag. Nauwkeurige prognoses kunnen een doorslaggevend verschil maken voor de klanttevredenheid met betrekking tot ordertoezeggingsdatums en tijdige levering.  
+
+Met releasewave 1 van 2022 kunt u ook het juiste detailniveau definiëren in de velden **Prognose per locatie** en **Prognose per variant** op de pagina **Overzicht vraagprognoses**. Filters en andere instellingen worden opgeslagen in de tabel **Naam vraagprognose**. U kunt dus gemakkelijk stoppen en later verder gaan met uw werk. Als uw organisatie is bijgewerkt naar releasewave1 van 2022, moet u de nieuwe ervaring inschakelen op de pagina [Functiebeheer](admin-feature-management.md).  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Verkoopprognoses en productieprognoses
 
@@ -33,7 +35,10 @@ De prognosefunctionaliteit in de toepassing kan worden gebruikt voor het maken v
 
 In de meeste gevallen wijzigt dus de productieplanner de verkoopprognose zodat deze past bij de productieomstandigheden, terwijl toch aan de verkoopprognose wordt voldaan.  
 
-U kunt handmatig prognoses maken op de pagina **Vraagprognose**. Er kunnen in het systeem meerdere prognoses bestaan, die aan de hand van de naam en de soort van elkaar worden onderscheiden. Prognoses kunnen desgewenst worden gekopieerd en bewerkt. Het is wel zo dat op elk moment slechts één prognose geldig kan zijn voor planningsdoeleinden.  
+U kunt handmatig prognoses maken op de pagina **Vraagprognose**. Er kunnen in het systeem meerdere prognoses bestaan, die aan de hand van de naam en de soort van elkaar worden onderscheiden. Prognoses kunnen desgewenst worden gekopieerd en bewerkt. 
+
+> [!NOTE]
+> Er is slechts één prognose tegelijk geldig voor planningsdoeleinden.
 
 De prognose bestaat uit een aantal records, die elk het artikelnummer, de prognosedatum en het prognoseaantal bevatten. De prognose van een artikel bestrijkt een periode, die wordt bepaald door de prognosedatum en de prognosedatum van de volgende (latere) prognoserecord. Vanuit het oogpunt van planning moet het prognoseaantal beschikbaar zijn bij aanvang van de vraagperiode.  
 

@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell
 ms.search.form: 253
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: de181f3f2cd074eeeef96306c61735b2e3ad96c9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8601153fc7bd813b3baa1c0ff7ebe0768d467dc0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128614"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518899"
 ---
 # <a name="sales"></a>Verkoop
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.
@@ -36,7 +36,7 @@ Verkoopdocumenten kunnen worden verzonden als PDF-bestanden die aan e-mail zijn 
 
 Voor alle verkoopprocessen kunt u een goedkeuringswerkstroom opnemen, bijvoorbeeld om te vereisen dat grote verkopen worden goedgekeurd door de administrateur. Zie voor meer informatie [Werkstromen gebruiken](across-use-workflows.md).
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.
 
 | Aan | Zie |
 | --- | --- |

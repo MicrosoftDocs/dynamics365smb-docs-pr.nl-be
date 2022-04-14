@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 841e964408750ec60e406262cacd53c2320d3d8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381700"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512061"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me  
 In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en aanvullende apps en consultingservices ontdekt voor [!INCLUDE[prod_short](includes/prod_short.md)].  

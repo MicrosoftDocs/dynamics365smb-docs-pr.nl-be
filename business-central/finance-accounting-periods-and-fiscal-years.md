@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d1a7121f74cf58289e0bf4ce6a80080c071f64fe
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 44c9cdadc47a40f8915f3134018c062d90fe06c5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383491"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511687"
 ---
-# <a name="working-with-accounting-periods-and-fiscal-years"></a>Werken met boekingsperioden en boekjaren
+# <a name="work-with-accounting-periods-and-fiscal-years"></a>Werken met boekingsperioden en boekjaren
 
 Boekhoudperioden, ook wel rapportageperioden genoemd, zijn perioden waarvoor een bedrijf of organisatie financiële prestaties rapporteert, bijvoorbeeld door de balans of resultatenrekening te genereren. Meestal verwijzen boekhoudperioden naar het boekjaar van het bedrijf, dat verschillende boekingsperioden zoals maanden of kwartalen kan bevatten.
 

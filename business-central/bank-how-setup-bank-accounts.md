@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 4c305d4ba1f4208eb7a3c5845d4b32bb40f930e6
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382323"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514133"
 ---
 # <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
 
@@ -29,6 +29,8 @@ Bankrekeningen werken anders, afhankelijk van of er een valutacode is opgegeven:
 - Valutacode is opgegeven
 
   Alle transacties die naar deze rekening worden gedaan, moeten in dezelfde valuta zijn als op de rekening is aangegeven. Alle cheques die vanaf deze rekening worden uitgegeven, moeten ook deze valuta hebben.  
+
+U kunt tijd besparen bij het invoeren van gegevens door een bankrekening als standaardrekening te gebruiken voor de valuta die voor de rekening is opgegeven. Als u dat doet, wordt de rekening toegewezen aan verkoop- en servicedocumenten die de valuta gebruiken. Als u de rekening als standaard voor verkoop- en servicedocumenten wilt gebruiken, zet u op de pagina **Bankrekeningkaart** de schakelaar **Als standaard voor valuta gebruiken** aan. Indien nodig kunt u een andere rekening kiezen wanneer u aan een document werkt.
 
 Een bankrekening is een geïntegreerd onderdeel van [!INCLUDE[prod_short](includes/prod_short.md)] en speelt een rol in vele andere mogelijkheden. De volgende afbeelding toont de belangrijkste relaties:
 
@@ -153,24 +155,24 @@ The following table explains key fields.
 |Bank Statement Import Format|Specifies the format of the bank statement file that can be imported into this bank account. The format is being used in both the payment reconciliation journals and the bank account reconciliations.|
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
-> [!NOTE]
-> Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.  
+
+## <a name="entering-an-opening-balance"></a>Een beginsaldo invoeren
+Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.  
 >
 > U kunt echter ook het beginsaldo toepassen als onderdeel van het proces voor het maken van algemene gegevens in nieuwe bedrijven. U kunt dit doen met behulp van de begeleide-instelling **Bedrijfsgegevens migreren**. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Het is belangrijk dat u het beginsaldo niet rechtstreeks in het grootboek boekt. Als boekingen in de grootboekrekening rechtstreeks op de grootboekrekening worden geboekt, zal dit er doorgaans toe leiden dat u de bankrekening niet kunt afstemmen, of, in het geval van bankrekeningen in vreemde valuta, resulteren in verschillen die zich opstapelen terwijl u meer bankafstemmingen boekt. Vaak boekt u het beginsaldo direct op de bankrekening en komt het bedrag dan op de grootboekrekening terecht. U kunt het ook later terugboeken naar een aangewezen grootboekrekening die u hebt gebruikt om het openingsgrootboeksaldo te compenseren. In beide gevallen moet u eventuele directe boekingen op de grootboekrekening uitbetalen voordat u uw eerste bankafstemming start, en vooral als de bankrekening in een vreemde valuta is.  
+> Het is belangrijk dat u het beginsaldo niet rechtstreeks in het grootboek boekt. Als boekingen in de grootboekrekening rechtstreeks op de grootboekrekening worden geboekt, zal dit er doorgaans toe leiden dat u de bankrekening niet kunt afstemmen, of, bij bankrekeningen in vreemde valuta, resulteren in verschillen die zich opstapelen terwijl u meer bankafstemmingen boekt. Vaak boekt u het beginsaldo direct op de bankrekening en komt het bedrag dan op de grootboekrekening terecht. U kunt het ook later terugboeken naar de grootboekrekening die u gebruikt om het openingsgrootboeksaldo te compenseren. In beide gevallen moet u eventuele directe boekingen op de grootboekrekening salderen voordat u uw eerste bankafstemming start, en vooral als de bankrekening in een vreemde valuta is.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Uw bankrekening instellen om bankbestanden te importeren of te exporteren
-
-Velden op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart** zijn gerelateerd om bankfeeds en -bestanden te importeren en te exporteren. Zie voor meer informatie [De AMC Banking 365 Fundamentals-extensie](ui-extensions-amc-banking.md) gebruiken en [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).
+De velden met betrekking tot de import en export van bankfeeds en -bestanden bevinden zich op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart**. Zie [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md) en [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md) voor meer informatie.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een bankrekening waarvoor u bankbestanden exporteert of importeert.
 3. Vul indien nodig de velden op het sneltabblad **Transfer** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Andere services voor bestandsexport en de verschillende indelingen vereisen andere instellingswaarden op de pagina **Bankrekeningkaart**. U wordt over verkeerde of ontbrekende instellingswaarden geïnformeerd als u het bestand probeert te exporteren. Lees daarom de korte omschrijvingen van de velden zorgvuldig of raadpleeg de relateerde onderwerpen met procedures. Als u bijvoorbeeld een betalingsbestand voor een Noord-Amerikaanse elektronische betaling (EFT) exporteert, moeten daarvoor zowel het veld **Laatste afdrachtsadviesnr.** als **Transitnr.** zijn ingevuld. Zie voor meer informatie [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+> Andere services voor bestandsexport en de verschillende indelingen vereisen andere instellingswaarden op de pagina **Bankrekeningkaart**. U wordt over verkeerde of ontbrekende instellingswaarden geïnformeerd als u het bestand exporteert. Lees de korte beschrijvingen van de velden zorgvuldig of raadpleeg de relateerde onderwerpen met procedures. Als u bijvoorbeeld een betalingsbestand voor een Noord-Amerikaanse elektronische betaling (EFT) exporteert, moeten daarvoor zowel het veld **Laatste afdrachtsadviesnr.** als **Transitnr.** zijn ingevuld. Zie voor meer informatie [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 De velden op het sneltabblad **Transit** in de bankrekening hebben verschillende doelen, afhankelijk van of de betaling inkomend of uitgaand is.
 
@@ -216,7 +218,7 @@ De afbeelding toont de route van uitgaande betalingen:
 
 ## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Bankrekeningen van leveranciers instellen voor de export van bankbestanden
 
-Velden op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart leverancier** zijn gerelateerd om bankfeeds en -bestanden te exporteren. Zie voor meer informatie [De AMC Banking 365 Fundamentals-extensie](ui-extensions-amc-banking.md) gebruiken en [Betalingen exporteren naar een bankbestand](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+Velden op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart leverancier** zijn gerelateerd om bankfeeds en -bestanden te exporteren. Zie [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md) en [Betalingen exporteren naar een bankbestand](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) voor meer informatie.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een leverancier naar wiens bankrekening u betalingsbankbestanden exporteert.

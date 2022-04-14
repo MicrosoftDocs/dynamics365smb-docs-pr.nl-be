@@ -10,17 +10,17 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: be92e23a1dece6225a0700dc4fb3b718481367cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335461"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523149"
 ---
 # <a name="business-intelligence"></a>Bedrijfsinformatie
 Bedrijven leggen een enorme hoeveelheid gegevens vast tijdens hun dagelijkse activiteiten. Deze gegevens, zoals de verkoopcijfers van de organisatie, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, kunnen waardevolle bedrijfsinformatie vormen voor besluitnemers. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een aantal functies voor het verzamelen, analyseren en delen van uw bedrijfsgegevens.
 
-De dimensiefunctionaliteit speelt een belangrijke rol in bedrijfsinformatie. Een dimensie bestaat uit gegevens die u kunt toevoegen aan een post als een soort markering. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. U kunt dimensies ook gebruiken wanneer u analyseweergaven definieert en wanneer u rapportageschema's voor rapportage maakt. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
+De dimensiefunctionaliteit speelt een belangrijke rol in bedrijfsinformatie. Een dimensie bestaat uit gegevens die u kunt toevoegen aan een post als een soort markering. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. U kunt dimensies ook gebruiken wanneer u analyseweergaven definieert en wanneer u rapportageschema's voor rapportage maakt. Zie [Werken met dimensies](finance-dimensions.md) voor meer informatie.
 
 > [!TIP]
 > Als snelle manier om transactiegegevens te analyseren per dimensie kunt u totalen in het rekeningschema en posten op de pagina's **Posten** filteren op dimensie. Zoek de actie **Dimensiefilter instellen**.  

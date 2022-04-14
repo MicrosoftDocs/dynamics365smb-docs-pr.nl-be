@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 965a87d731a2e1d9cb2ae390add4536c77c6824c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381048"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520616"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties
 Mogelijk moet u soms artikelen verplaatsen tussen interne opslaglocaties, opslaglocaties voor ontvangst of verzending uitgezonderd, zonder een specifieke vraag uit een brondocument. U kunt deze ad hoc verplaatsingen bijvoorbeeld uitvoeren om het magazijn te herstructureren, artikelen naar een inspectiegebied te brengen of extra artikelen naar en van een productiegebied te verplaatsen zonder een relatie in het systeem met het brondocument van de productieorder.  

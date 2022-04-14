@@ -1,22 +1,24 @@
 ---
-title: 'Procedure: de bedrijfsconfiguratie beheren in een werkblad'
-description: Het configuratiewerkblad is de centrale locatie waar u bedrijfsconfiguratieactiviteiten kunt plannen, bijhouden en uitvoeren.
+title: De bedrijfsconfiguratie beheren in een werkblad
+description: Als u RapidStart Services gebruikt, is het configuratiewerkblad de centrale locatie waar u activiteiten voor bedrijfsconfiguratie kunt plannen, bijhouden en uitvoeren.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8632
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c678d48b202043110627a2c8b29ae12be045d38d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141371"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514212"
 ---
-# <a name="manage-company-configuration-in-a-worksheet"></a>De bedrijfsconfiguratie beheren in een werkblad
+# <a name="manage-company-configuration-in-a-worksheet-with-rapidstart-services"></a>De bedrijfsconfiguratie beheren in een werkblad met RapidStart Services
+
 Het configuratiewerkblad is de centrale locatie waar u configuratieactiviteiten kunt plannen, bijhouden en uitvoeren. U kunt een werkblad maken voor elk bedrijf waarmee u werkt of een standaardconfiguratiewerkblad maken dat kan worden gebruikt voor het configureren van meerdere identieke bedrijven.  
 
 De eerste stap bij het voorbereiden van een configuratiepakket is het selecteren van een bedrijf dat u al hebt ingesteld en aangepast aan de behoeften van uw oplossing. Dit bedrijf fungeert als de basislijn voor uw configuratieactiviteiten voor nieuwe bedrijven. In het werkblad wijst u de tabellen toe die u door uw configuratie wilt laten besturen en verwerken. Aangezien de meeste tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] relaties en afhankelijkheden met andere tabellen hebben, moet u zo nodig ook deze gerelateerde tabellen opnemen. Samen fungeren deze tabellen dan als de structuur waaromheen u een nieuw bedrijf opbouwt. De volgende stappen helpen u bij het inpakken en vervolgens implementeren van uw configuratie.  
@@ -25,9 +27,10 @@ Als planningsmiddel bij het bijhouden en controleren van uw werk gebruikt u het 
 
 De volgende procedures laten zien hoe u tabelgegevens voor uw configuratie kunt toevoegen en aanpassen.  
 
-## <a name="to-open-the-configuration-worksheet"></a>Het configuratiewerkblad openen  
-1.  Open in [!INCLUDE[prod_short](includes/prod_short.md)] het bedrijf dat de basislijn voor configuratie vormt en open vervolgens het rolcentrum RapidStart Services-implementatie.  
-2.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
+## <a name="to-open-the-configuration-worksheet"></a>Het configuratiewerkblad openen
+
+1.  Open in [!INCLUDE[prod_short](includes/prod_short.md)] het bedrijf dat de basislijn vormt voor uw configuratie.  
+2.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies vervolgens de gerelateerde koppeling.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Een tabel toevoegen aan het werkblad  
 1.  Kies op de pagina **Werkblad voor configuratie** de actie **Lijst bewerken**.  
@@ -40,9 +43,9 @@ De volgende procedures laten zien hoe u tabelgegevens voor uw configuratie kunt 
     > [!NOTE]  
     > Gerelateerde tabellen worden niet toegevoegd met de actie **Gerelateerde tabellen ophalen** als een van de volgende situaties bestaat:
     > - De relatie is voorwaardelijk.  
-    > Voorbeeld: als u gerelateerde tabellen voor de tabel **Klant** ophaalt, wordt de tabel **Vestiging** niet toegevoegd, omdat deze slechts voorwaardelijk is gerelateerd aan de tabel **Klant**, namelijk als het veld **Vestiging** in de tabel **Klant** is gevuld.  
+    >     Voorbeeld: als u gerelateerde tabellen voor de tabel **Klant** ophaalt, wordt de tabel **Vestiging** niet toegevoegd, omdat deze slechts voorwaardelijk is gerelateerd aan de tabel **Klant**, namelijk als het veld **Vestiging** in de tabel **Klant** is gevuld.  
     > - De gerelateerde tabel wordt gefilterd.  
-    > Voorbeeld: Een veld in de gekoppelde tabel heeft een WHERE-clausule. De reden hiervoor is dat de informatie van de betreffende relaties is opgeslagen in de systeemtabel **Veld**, die niet volledig toegankelijk is voor de toepassing.  
+    >     Voorbeeld: Een veld in de gekoppelde tabel heeft een WHERE-clausule. De reden hiervoor is dat de informatie van de betreffende relaties is opgeslagen in de systeemtabel **Veld**, die niet volledig toegankelijk is voor de toepassing.  
     > U moet dergelijke soorten tabellen handmatig toevoegen door stap 4 in deze procedure te volgen.  
 
 8.  U kunt de resulterende lijst van tabellen wijzigen door een tabel te selecteren die u wilt verwijderen en vervolgens de actie **Verwijderen** te kiezen.  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147504"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528591"
 ---
 # <a name="teams-faq"></a>Veelgestelde vragen over Teams
 
@@ -70,10 +70,6 @@ Ja. Maar slechts enkele functies van de app werken met [Apps insluiten](/dynamic
 
 - De app werkt met koppelingen op basis van het patroon **\*.bc.dynamics.com**, dat doorgaans wordt gebruikt met Apps insluiten.
 - Zoeken naar contactpersonen is niet beschikbaar voor Apps insluiten die de basistoepassing van Microsoft vervangen.
-
-### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Waar kan ik Teams-integratie vinden in de [!INCLUDE [prod_short.md](includes/prod_short.md)]-webclient? 
-
-Er is momenteel geen insluiting van Teams-besturingselementen of aanwezigheid van Teams-functies in de [!INCLUDE [prod_short.md](includes/prod_short.md)]-webclient of andere clients.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Werkt [!INCLUDE [prod_short.md](includes/prod_short.md)] met de mobiele Teams-app?
 
@@ -304,7 +300,11 @@ Ja. Alle [!INCLUDE [prod_short.md](includes/prod_short.md)]-functies in het deta
 
 ### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Heb ik toegang tot mijn locatie vanuit het detailvenster in Teams?
 
-Als u functionaliteit gebruikt in [!INCLUDE [prod_short.md](includes/prod_short.md)] die toegang heeft tot uw huidige locatiecoördinaten, zoals bij kaarten, moet u Teams in de browser of de mobiele Teams-app gebruiken. Locatie is niet beschikbaar bij gebruik van de Teams-desktop-app. 
+Als u functionaliteit gebruikt in [!INCLUDE [prod_short.md](includes/prod_short.md)] die toegang heeft tot uw huidige locatiecoördinaten, zoals bij kaarten, moet u Teams in de browser of de mobiele Teams-app gebruiken. Locatie is niet beschikbaar bij gebruik van de Teams-desktop-app.
+
+### <a name="how-do-i-open-the-details-in-a-new-window"></a>Hoe open ik de details in een nieuw venster?
+
+Het uitklappen van het detailvenster als apart venster is handig voor multitasking of om met bedrijfsgegevens te kunnen werken terwijl u Teams-chat en andere Teams-functies gebruikt. Als u details in een eigen venster wilt openen, kiest u **Openen in browser** in het menu met het beletselteken (**...**) in de rechterbovenhoek van het venster.
 
 ## <a name="collaborate-with-guests"></a>[Samenwerken met gasten](#tab/collaborating)
 
@@ -346,7 +346,7 @@ Nee. Het enige wat u nodig hebt, is een geldig account dat toegang heeft tot Mic
 
 ### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Is Delen met Teams beschikbaar in alle Business Central-clients? 
 
-Op dit moment is Delen met Teams exclusief beschikbaar in de desktopwebclient en in het detailvenster in Teams.  
+Op dit moment is Delen met Teams beschikbaar in de desktop-webclient, in het detailvenster in Teams en bij het openen van een pagina in een nieuw venster vanuit de Outlook-invoegtoepassing.
 
 ### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Waar vind ik Delen met teams in Business Central? 
 

@@ -6,16 +6,17 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 1735b1e3d04b9b35653047b19587f84234389735
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 03/23/2022
+ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383385"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512502"
 ---
 # <a name="handling-missing-option-values"></a>Ontbrekende optiewaarden verwerken
-
+> [!NOTE]
+> In releasewave 1 van 2022 kunt u uw eigen optietoewijzingen maken. Zie [Optietoewijzingen met Microsoft Dataverse aanpassen](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping) voor meer informatie. De nieuwe mogelijkheden vereisen dat uw beheerder **Functie-update: toewijzen aan optiesets in Dataverse zonder code** op de pagina **Functiebeheer** inschakelt. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Dit onderwerp is bedoeld voor een technisch publiek. De processen die het beschrijft, hebben de hulp van een ontwikkelaar nodig.
 

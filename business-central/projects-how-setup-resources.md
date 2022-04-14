@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08d73d46283908a811fd9690b6e4ea43e35d5118
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137431"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520902"
 ---
 # <a name="set-up-resources-for-projects"></a>Resources instellen voor projecten
 
@@ -27,7 +27,9 @@ Bij het maken van de resource geeft u het standaardbedrag per uur op. Als u bijv
 
 > [!NOTE]
 > U kunt ook externe resources aanschaffen, bijvoorbeeld om een leverancier te factureren voor het geleverde werk. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).<br /><br />
-> In dat geval is het raadzaam om dergelijke externe resources een naam te geven of te groeperen om hun doel aan te geven, zodat ze niet worden verward met uw interne resources.
+> Voor externe resources is het raadzaam om ze een naam te geven of te groeperen, zodat ze niet worden verward met uw interne resources.
+>  
+> Als u intercompany-transacties boekt, hoewel u een resource op een regel op een verkooporder kunt plaatsen, wordt de resource niet opgenomen als u de verkooporder omzet in een inkooporder aan de ontvangende zijde. Als u resources wilt gebruiken in intercompany-transacties, gebruikt u het veld **Grootboekrekeningnr. IC-aankoop** op de resourcekaart om de rekening op te geven waarnaar de uitgaven moeten worden geboekt.
 
 ## <a name="to-set-up-a-resource"></a>Een resource instellen
 Maak een kaart per resource die u wilt gebruiken in projecten.

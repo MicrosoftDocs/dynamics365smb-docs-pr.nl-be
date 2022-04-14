@@ -10,12 +10,12 @@ ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1abd02f7c70e8fe624e7d8b18ec7b7cb8b7c2c9e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a6fee7aedd8fca20e032bc3ac67e5f9e26d1fb22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383951"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517094"
 ---
 # <a name="define-retention-policies"></a>Bewaarbeleid definiëren
 Beheerders kunnen bewaarbeleid definiëren om aan te geven hoe vaak ze willen dat [!INCLUDE[prod_short](includes/prod_short.md)] verouderde gegevens verwijdert in tabellen die logboekvermeldingen en gearchiveerde records bevatten. Het opschonen van logboekvermeldingen kan het bijvoorbeeld gemakkelijker maken om te werken met de gegevens die echt relevant zijn. Beleid kan alle gegevens in de tabellen omvatten die de vervaldatum hebben overschreden, of u kunt filtercriteria toevoegen die alleen bepaalde verlopen gegevens in het beleid opnemen. 

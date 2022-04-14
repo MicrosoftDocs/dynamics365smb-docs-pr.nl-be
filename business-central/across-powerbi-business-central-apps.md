@@ -1,6 +1,6 @@
 ---
 title: Business Central-apps gebruiken in Power BI| Microsoft Docs
-description: Inzicht, bedrijfsinformatie en KPI's krijgen uit uw Business Central-gegevens is gemakkelijk met Business Central-apps voor Power BI.
+description: U kunt eenvoudig inzichten verwerven, bedrijfsinformatie genereren en KPI's vaststellen op basis van uw Business Central-gegevens met de Business Central-apps voor Power BI.
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134160"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519197"
 ---
-# <a name="using-the-prod_short-apps-in-power-bi"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
+# <a name="use-the-prod_short-apps-in-power-bi"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
 
 > **GELDT VOOR:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 

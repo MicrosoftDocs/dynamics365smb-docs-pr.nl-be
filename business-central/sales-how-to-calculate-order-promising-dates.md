@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: fc2d8e8df7e827d3e73a90b89ff6b14cee5c88ff
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e739536a3752671d74e9ea0d8b3a2b1b548d1d21
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144813"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511531"
 ---
 # <a name="calculate-order-promising-dates"></a>Ordertoezeggingsdatums berekenen
 Een bedrijf moet de klanten op de hoogte kunnen stellen van leverdatums van orders. Met de pagina **Ordertoezeggingsregels** kunt u dit doen vanuit een verkooporder.  

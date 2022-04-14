@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 600, 610
-ms.date: 06/16/2021
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: a258ea2039c69449d4743b62943395abb7c1d430
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367188"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519738"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Werken met intercompany-documenten en -dagboeken
 Door middel van intercompany-documenten of -dagboeken kunt u transacties met uw IC-partners boeken. Wanneer u een IC-document of -dagboekregel boekt in uw bedrijf, wordt een corresponderend document of dagboekregel gemaakt in uw IC-outbox, dat/die u kunt overbrengen naar uw partner. Uw partner kan de bijbehorende transactie vervolgens boeken in zijn bedrijf, zonder de gegevens opnieuw te hoeven invoeren.
@@ -39,11 +39,12 @@ In de volgende procedure wordt beschreven hoe u een IC-verkooporder kunt invulle
 > Als u stap 4 uitvoert, wordt de verkooporder naar uw IC-outbox verplaatst van waaruit u hem later kunt verzenden. Zie voor meer informatie [De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Een IC-dagboek invullen en boeken
-Wanneer u een IC--diversendagboekregel boekt in uw bedrijf, wordt een corresponderende dagboekregel gemaakt in uw IC-outbox, die u kunt overbrengen naar uw partner. Uw partner kan de bijbehorende transactie vervolgens boeken in zijn bedrijf, zonder de gegevens opnieuw te hoeven invoeren.
+
+Wanneer u een IC--diversendagboekregel boekt in uw bedrijf, wordt een corresponderende dagboekregel gemaakt in uw IC-outbox, die u kunt overbrengen naar uw partner. Met releasewave 1 van 2022 kunt u het bedrijf ook instellen voor het automatisch maken van ontvangen intercompany-transacties van intercompany-partners, geboekt via het intercompany-dagboek. Uw partner kan de bijbehorende transactie vervolgens boeken in zijn bedrijf, zonder de gegevens opnieuw te hoeven invoeren.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Intercompany-dagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de relevante dagboekbatch. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
-3. Vul indien nodig de velden in.
+3. Vul de vereiste velden in.
 4. In het veld **Grootboekrekeningnr. IC-partner** voert u de IC-grootboekrekening in waarop het bedrag wordt geboekt in het bedrijf van uw partner.
 
     > [!NOTE]
@@ -53,6 +54,7 @@ Wanneer u een IC--diversendagboekregel boekt in uw bedrijf, wordt een correspond
 De betreffende posten worden geboekt in uw bedrijf en een dagboek met de bijbehorende posten wordt gemaakt in uw IC-outbox, die u naar uw partnerbedrijf kunt verzenden. Zie voor meer informatie [De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="see-also"></a>Zie ook
+
 [Intercompany-transacties beheren](intercompany-manage.md)  
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  

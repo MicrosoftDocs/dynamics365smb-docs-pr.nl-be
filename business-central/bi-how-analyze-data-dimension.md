@@ -10,15 +10,15 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 799d4adbfb0cf67513b0d65c735c377a8d58d914
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 5578a67baf1f6036c1a9f8804a9618f446e34006
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366613"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512464"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Gegevens analyseren per dimensie
-In financiële analyses is een dimensie informatie die u kunt toevoegen aan een post als een soort kenteken. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. Dimensies kunnen worden gebruikt op posten in dagboeken, documenten en budgetten. De term dimensie beschrijft hoe analyse plaatsvindt. Een tweedimensionale analyse is bijvoorbeeld verkoop per gebied. Door echter meer dan twee dimensies te gebruiken bij het maken van een post, kunt u complexere analyses uitvoeren, zoals verkoop per verkoopcampagne per klantengroep per gebied. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
+In financiële analyses is een dimensie informatie die u kunt toevoegen aan een post als een soort kenteken. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. Dimensies kunnen worden gebruikt op posten in dagboeken, documenten en budgetten. De term dimensie beschrijft hoe analyse plaatsvindt. Een tweedimensionale analyse is bijvoorbeeld verkoop per gebied. Door echter meer dan twee dimensies te gebruiken bij het maken van een post, kunt u complexere analyses uitvoeren, zoals verkoop per verkoopcampagne per klantengroep per gebied. Zie [Werken met dimensies](finance-dimensions.md) voor meer informatie.
 
 Door gegevens met dimensies te analyseren krijgt u een beter inzicht in uw bedrijf, zodat u informatie kunt evalueren, zoals hoe goed uw bedrijf draait, waar de zaken floreren en waar juist niet en waar meer resources moeten worden ingezet.
 

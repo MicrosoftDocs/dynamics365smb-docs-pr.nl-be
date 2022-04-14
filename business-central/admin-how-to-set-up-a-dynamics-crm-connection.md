@@ -8,12 +8,12 @@ ms.search.keywords: ''
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f83764061bb341b0b9d6619a0c5d14cac6b664a9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 57f8091d81870f9e58af80462259006d4cb822ae
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383843"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485045"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Verbinding maken met Microsoft Dataverse
 
@@ -25,17 +25,17 @@ In dit onderwerp wordt beschreven hoe u een verbinding tot stand brengt tussen [
 
 Voordat u de verbinding maakt, moet u een aantal gegevens gereed hebben:  
 
-* De URL van de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving waarmee u verbinding wilt maken. Als u de begeleide instelling **Dataverse-verbinding instellen** gebruikt om de verbinding tot stand te brengen, ontdekken we uw omgevingen, maar u kunt ook de URL van een andere omgeving in uw tenant invoeren.  
+* De URL van de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving waarmee u verbinding wilt maken. Als u de begeleide instelling **Dataverse-verbinding instellen** gebruikt om de verbinding tot stand te brengen, kunnen we uw omgevingen vinden. U kunt ook de URL van een andere omgeving in uw tenant invoeren.  
 * De gebruikersnaam en het wachtwoord van een account dat beheerdersmachtigingen heeft in [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Als u een on-premises [!INCLUDE[prod_short](includes/prod_short.md)] 2020 releasewave 1, versie 16.5, hebt, leest u het artikel [Enkele bekende problemen](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). U moet de beschreven tijdelijke oplossing voltooien voordat u verbinding kunt maken met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-* De lokale valuta voor het bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)] moet dezelfde zijn als de basistransactievaluta in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Nadat een basistransactie is ingesteld in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], kan deze niet worden gewijzigd. Zie voor meer informatie [De entiteit Transactievaluta (valuta)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Dit betekent dat alle [!INCLUDE[prod_short](includes/prod_short.md)] bedrijven waarmee u verbinding maakt met een [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-organisatie dezelfde valuta moeten gebruiken.
+* De lokale valuta voor het bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)] moet dezelfde zijn als de basistransactievaluta in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Nadat u een transactie in de basisvaluta hebt gemaakt in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], kunt u deze niet wijzigen. Zie voor meer informatie [De entiteit Transactievaluta (valuta)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Alle [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijven die u verbindt met een [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-organisatie moeten dezelfde valuta gebruiken.
 
 > [!IMPORTANT]
 > Uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving mag niet in de beheermodus zijn. De beheermodus zorgt ervoor dat de verbinding mislukt omdat het integratiegebruikersaccount voor de verbinding geen beheerdersmachtigingen heeft. Zie [Beheermodus](/power-platform/admin/admin-mode) voor meer informatie.
 
 > [!Note]
 > Deze stappen beschrijven de procedure voor [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt en geen Azure Active Directory-account gebruikt om verbinding te maken met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], moet u ook een gebruikersnaam en wachtwoord van een gebruikersaccount opgeven voor de integratie. Dit account wordt de 'integratiegebruiker' genoemd. Als u een Azure Active Directory-account gebruikt, is het gebruikersaccount voor integratie niet vereist of weergegeven. De integratiegebruiker wordt automatisch ingesteld en heeft geen licentie nodig.
+> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt en geen Azure Active Directory-account gebruikt om verbinding te maken met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], moet u ook een gebruikersnaam en wachtwoord van een gebruikersaccount opgeven voor de integratie. Dit account wordt de 'integratiegebruiker' genoemd. Als u een Azure Active Directory-account gebruikt, is het gebruikersaccount voor integratie niet vereist en wordt dit ook niet weergegeven. De integratiegebruiker wordt automatisch ingesteld en heeft geen licentie nodig.
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Een verbinding instellen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
@@ -71,14 +71,14 @@ De begeleide instelling Dataverse-verbinding instellen kan het gemakkelijker mak
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>De verbinding handmatig maken of onderhouden
 
-In de volgende procedure wordt beschreven hoe u de verbinding op de pagina **Dataverse-verbinding instellen** handmatig instelt. Dit is ook de pagina waar u instellingen voor de integratie beheert.
+In de volgende procedure wordt beschreven hoe u de verbinding op de pagina **Dataverse-verbinding instellen** handmatig instelt. De pagina **Dataverse-verbinding instellen** is de locatie waar u de integratie-instellingen beheert.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dataverse-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
 2. Voer de volgende gegevens in voor de verbinding van [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Veld|Omschrijving|
     |-----|-----|
-    |**Omgevings-URL**|Als u eigenaar bent van omgevingen in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], vinden we die voor u wanneer u de instelling uitvoert. Als u verbinding wilt maken met een andere omgeving in een andere tenant, kunt u de beheerdersreferenties voor de omgeving invoeren en zullen we die ontdekken. |
+    |**Omgevings-URL**|Als u eigenaar bent van omgevingen in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], vinden we die voor u wanneer u de instelling uitvoert. Als u verbinding wilt maken met een andere omgeving in een andere tenant, kunt u de beheerdersreferenties voor de omgeving invoeren zodat wij deze kunnen vinden. |
     |**Ingeschakeld**|Begin de integratie te gebruiken. Als u de verbinding niet nu inschakelt, worden de verbindingsinstellingen opgeslagen, maar hebben gebruikers geen toegang tot [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-gegevens uit [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt naar deze pagina terugkeren en de verbinding later inschakelen.  |
 
 3. Kies in het veld **Eigendomsmodel** of u wilt dat een teamtabel in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] eigenaar is van nieuwe records of een of meer specifieke gebruikers. Als u **Persoon** kiest, moet u elke gebruiker opgeven. Als u **Team** kiest, wordt de standaardbedrijfsunit weergegeven in het veld **Gekoppelde bedrijfsunit**.
@@ -88,7 +88,7 @@ In de volgende procedure wordt beschreven hoe u de verbinding op de pagina **Dat
 
     <!-- |Field|Description|
     |-----|-----|
-    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
+    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you're using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who don't have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account won't have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
 4. Als u de verbindingsinstellingen wilt testen, kiest u **Verbinding** en vervolgens **Verbinding testen**.  
 
@@ -107,35 +107,33 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 ## <a name="customize-the-match-based-coupling"></a>De koppeling op basis van overeenkomsten aanpassen
 
-Vanaf 2021 release wave 2 kunt u records koppelen in [!INCLUDE [prod_short](includes/prod_short.md)] en [!INCLUDE [cds_long_md](includes/cds_long_md.md)] op basis van door de beheerder gedefinieerde criteria.  
-
-Het algoritme voor het matchen van records kan worden gestart vanaf de volgende plaatsen in [!INCLUDE [prod_short](includes/prod_short.md)]:
+Vanaf releasewave 2 van 2021 kan een beheerder criteria invoeren om records te koppelen op basis van overeenkomsten. U kunt het algoritme voor het matchen van records starten vanaf de volgende locaties in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
 * Lijstpagina's die records tonen die zijn gesynchroniseerd met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], zoals de pagina's Klanten en Artikelen.  
 
     Selecteer meerdere records en kies vervolgens de actie **Gerelateerd**, kies **Dataverse**, kies **Koppeling** en kies vervolgens **Koppeling op basis van overeenkomsten**.
 
-    Wanneer het op overeenkomsten gebaseerde koppelingsproces wordt gestart vanuit een hoofdgegevenslijst, wordt er direct een koppelingstaak gepland nadat u de koppelingscriteria hebt geselecteerd.  
+    Wanneer u het op overeenkomsten gebaseerde koppelingsproces start vanuit een hoofdgegevenslijst, wordt er direct een koppelingstaak gepland nadat u de koppelingscriteria hebt opgegeven.  
 * De pagina Controle van volledige **Dataverse-synchronisatie**.  
 
-    Wanneer het volledige synchronisatieproces detecteert dat u ontkoppelde records in [!INCLUDE [prod_short](includes/prod_short.md)] en [!INCLUDE [cds_long_md](includes/cds_long_md.md)] hebt, wordt een koppeling **Koppelingscriteria selecteren** weergegeven voor de relevante integratietabel.  
+    Wanneer het volledige synchronisatieproces ontkoppelde records detecteert in zowel [!INCLUDE [prod_short](includes/prod_short.md)] als [!INCLUDE [cds_long_md](includes/cds_long_md.md)], wordt een koppeling **Koppelingscriteria selecteren** weergegeven voor de integratietabel.  
 
-    U kunt het proces **Volledige synchronisatie uitvoeren** starten vanaf de pagina's **Dataverse-verbinding instellen** en **Dynamics 365-verbinding instellen** en het kan worden gestart als een stap in de begeleide instelling **Een verbinding instellen met Dataverse** wanneer u ervoor kiest om de installatie te voltooien en aan het einde volledige synchronisatie uit te voeren.  
+    U kunt beginnen met het proces **Volledige synchronisatie uitvoeren** van de pagina's **Dataverse-verbinding instellen** en **Dynamics 365-verbinding instellen**. U kunt het ook starten in de begeleide instelling **Een verbinding met Dataverse instellen** wanneer u uw installatie voltooit.  
 
-    Wanneer het op overeenkomsten gebaseerde koppelingsproces wordt gestart vanaf de pagina **Controle van volledige Dataverse-synchronisatie**, wordt er direct een koppelingstaak gepland nadat u de instelling hebt voltooid.  
+    Wanneer u het op overeenkomsten gebaseerde koppelingsproces start vanaf de pagina **Controle van volledige Dataverse-synchronisatie**, wordt er direct een koppelingstaak gepland nadat u de instelling hebt voltooid.  
 * De lijst **Toewijzingen van integratietabellen**.  
 
     Selecteer een toewijzing, kies de actie **Koppeling** en kies vervolgens **Op overeenkomsten gebaseerde koppeling**.
 
-    Wanneer het op overeenkomsten gebaseerde koppelingsproces wordt gestart vanuit een integratietabeltoewijzing, wordt een koppelingstaak uitgevoerd voor alle ontkoppelde records in die toewijzing. Als het werd uitgevoerd voor een set geselecteerde records uit de lijst, wordt het alleen uitgevoerd voor de geselecteerde ontkoppelde records.
+    Wanneer u het op overeenkomsten gebaseerde koppelingsproces start vanuit een integratietabeltoewijzing, wordt een koppelingstaak uitgevoerd voor alle ontkoppelde records in de toewijzing. U kunt ook ontkoppelde records in de lijst selecteren om de taak alleen voor die records uit te voeren.
 
 In alle drie de gevallen wordt de pagina **Koppelingscriteria selecteren** geopend, zodat u de relevante koppelingscriteria kunt definiëren. Pas op deze pagina de koppeling aan met de volgende taken:
 
-* Kies op welke velden overeenkomsten met [!INCLUDE [prod_short](includes/prod_short.md)]-records en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteiten worden bepaald, en kies ook of de overeenkomst op dat veld hoofdlettergevoelig is of niet.  
+* Kies de velden die u wilt gebruiken om [!INCLUDE [prod_short](includes/prod_short.md)]-records te matchen met [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteiten. U kunt aangeven of de overeenkomst hoofdlettergevoelig is.  
 
-* Geef op of er een synchronisatie moet worden uitgevoerd na het koppelen van records en, als de record bidirectionele toewijzing gebruikt, kies ook wat er gebeurt als conflicten worden vermeld op de pagina **Updateconflicten oplossen**.  
+* Geef op of u wilt synchroniseren nadat u records hebt gekoppeld. Als records bidirectionele toewijzing gebruiken, kunt u ook specificeren wat er gebeurt als conflicten worden vermeld op de pagina **Updateconflicten oplossen**.  
 
-* Geef prioriteit aan de volgorde waarin records worden doorzocht door een *overeenkomstprioriteit* op te geven voor de relevante toewijzingsvelden. De overeenkomstprioriteiten zorgen ervoor dat het algoritme naar een overeenkomst zoekt in een aantal iteraties, zoals gedefinieerd door de **Prioriteit overeenkomst**-veldwaarden in oplopende volgorde. Een blanco waarde in het veld **Prioriteit overeenkomst** wordt geïnterpreteerd als prioriteit 0, dus velden met deze waarde worden als eerste beschouwd.  
+* Geef prioriteit aan de volgorde waarin records worden doorzocht door een *overeenkomstprioriteit* op te geven voor de relevante toewijzingsvelden. [!INCLUDE [prod_short](includes/prod_short.md)] zal zoeken naar een overeenkomst in oplopende volgorde op basis van de waarde in het veld **Prioriteit overeenkomst**. Een blanco waarde in het veld **Prioriteit overeenkomst** staat gelijk aan prioriteit 0, wat de hoogste prioriteit is. Velden met prioriteit 0 worden als eerste in overweging genomen.  
 
 * Geef op of u een nieuw entiteitsexemplaar wilt maken in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in het geval dat er geen unieke ontkoppelde overeenkomst kan worden gevonden met behulp van de matchcriteria. Om deze mogelijkheid te activeren kiest u de actie **Nieuw maken als geen overeenkomst is gevonden**.  
 
@@ -143,48 +141,44 @@ In alle drie de gevallen wordt de pagina **Koppelingscriteria selecteren** geope
 
 Om de resultaten van de koppelingstaak te bekijken opent u de pagina **Integratietabeltoewijzingen**, selecteert u de relevante toewijzing, kiest u de actie **Koppeling** actie en kiest u vervolgens de actie **Taaklogbestand voor integratiekoppeling**.  
 
-Als er records zijn die niet zijn gekoppeld, kunt u inzoomen op de waarde in de kolom Mislukt, waardoor een lijst met fouten wordt geopend die aangeeft waarom de records niet konden worden gekoppeld.  
+Als records niet kunnen worden gekoppeld, kunt u de waarde kiezen in de kolom **Mislukt** om een lijst met fouten te openen die beschrijven waarom dat is gebeurd.  
 
-Mislukte koppeling komt vaak voor in de volgende gevallen:
+Doorgaans mislukt de koppeling om de volgende redenen:
 
 * Er zijn geen overeenkomstcriteria gedefinieerd
 
-    Voer in dit geval de op overeenkomsten gebaseerde koppeling opnieuw uit, maar vergeet niet om koppelingscriteria te definiëren.
+    Voer de op overeenkomsten gebaseerde koppeling opnieuw uit, maar vergeet niet om koppelingscriteria te definiëren.
 
-* Er is geen overeenkomst gevonden voor een aantal records, op basis van de gekozen overeenkomende velden
+* Er is geen overeenkomst gevonden voor de velden die zijn opgegeven in de overeenkomstcriteria
 
-    Herhaal in dit geval de koppeling met enkele andere overeenkomende velden.
+    Herhaal de koppeling met verschillende velden.
 
-* Er zijn meerdere overeenkomsten gevonden voor een aantal records, op basis van de gekozen overeenkomende velden  
+* Er zijn meerdere overeenkomsten gevonden voor verschillende records op basis van de velden die zijn opgegeven in de overeenkomstcriteria  
 
-    Herhaal in dit geval de koppeling met enkele andere overeenkomende velden.
+    Herhaal de koppeling met verschillende velden.
 
-* Er is één overeenkomst gevonden, maar de overeenkomende record is al gekoppeld aan een andere record in [!INCLUDE [prod_short](includes/prod_short.md)]  
+* Er is een overeenkomst gevonden, maar de record is al gekoppeld aan een record in [!INCLUDE [prod_short](includes/prod_short.md)]  
 
-    Herhaal in dit geval de koppeling met enkele andere overeenkomende velden of onderzoek waarom die [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteit is gekoppeld aan die andere record in [!INCLUDE [prod_short](includes/prod_short.md)].
+    Herhaal de koppeling met andere velden of onderzoek waarom die [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteit is gekoppeld aan de record in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 > [!TIP]
-> Om u te helpen een overzicht te krijgen van de voortgang van de koppeling, geeft het veld **Gekoppeld aan Dataverse** aan of een bepaalde record is gekoppeld aan een [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteit of niet. U kunt de lijst met records die worden gesynchroniseerd met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], filteren op dit veld.
+> Om u te helpen een overzicht te krijgen van de voortgang van de koppeling, geeft het veld **Gekoppeld aan Dataverse** aan of een record is gekoppeld aan een [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteit. U kunt het veld **Gekoppeld aan Dataverse** gebruiken om de lijst met records die u synchroniseert te filteren.
 
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Verbindingen vanuit Business Central Online upgraden om op certificaten gebaseerde verificatie te gebruiken
 > [!NOTE]
 > Deze sectie is alleen relevant voor [!INCLUDE[prod_short](includes/prod_short.md)] online-tenants die worden gehost door Microsoft. Online tenants die worden gehost door ISV's en installaties op locatie worden niet beïnvloed.
 
-In april 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)] is het verificatietype van Office365 (gebruikersnaam/wachtwoord) aan het aflopen. Voor meer informatie zie [Afschaffing van het Office365-verificatietype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Bovendien beëindigt [!INCLUDE[prod_short](includes/prod_short.md)] in maart 2022 het gebruik van op clientgeheimen gebaseerde service-to-service-verificatie voor online tenants, en vereist het gebruik van op certificaten gebaseerde service-to-service-verificatie voor verbindingen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online-tenants die worden gehost door ISV's en on-premises installaties, kunnen clientgeheimauthenticatie blijven gebruiken om verbinding te maken met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+In april 2022 beëindigt [!INCLUDE[cds_long_md](includes/cds_long_md.md)] het Office365-verificatietype (gebruikersnaam/wachtwoord). Voor meer informatie zie [Afschaffing van het Office365-verificatietype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Bovendien beëindigt [!INCLUDE[prod_short](includes/prod_short.md)] in maart 2022 het gebruik van op clientgeheimen gebaseerde service-naar-service-verificatie voor online tenants. U moet op certificaten gebaseerde service-naar-service-verificatie gebruiken voor verbindingen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online-tenants die worden gehost door ISV's en on-premises installaties, kunnen clientgeheimen blijven gebruiken voor verificatie.
 
 Om te voorkomen dat integraties worden verstoord _moet u upgraden_ om op certificaten gebaseerde verificatie te gebruiken. Hoewel de wijziging is gepland voor maart 2022, raden we u ten zeerste aan zo snel mogelijk te upgraden. In de volgende stappen wordt beschreven hoe u kunt upgraden naar verificatie op basis van certificaten. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Uw Business Central online-verbinding upgraden om op certificaten gebaseerde verificatie te gebruiken
 
-> [!NOTE]
-> Verificatie op basis van certificaten is beschikbaar in Business Central 2021 releasewave 1 en hoger. Als u een eerdere versie gebruikt, moet u vóór maart 2022 een update naar Business Central 2021-releasewave 1 plannen. Zie [Updates plannen](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates) voor meer informatie. Als u problemen ondervindt, neemt u contact op met uw partner of ondersteuning.
-
-1. Controleer in het [Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) of u Business Central 2021 releasewave 1 of hoger (versie 18 of hoger) gebruikt.
-2. Afhankelijk van of u integreert met Dynamics 365 Sales, voert u een van de volgende handelingen uit:
+1. Afhankelijk van of u integreert met Dynamics 365 Sales, voert u een van de volgende handelingen uit:
    * Als u dat doet, opent u de pagina **Microsoft Dynamics 365-verbinding instellen**.
    * Als u dat niet doet, opent u de pagina **Dataverse 365-verbinding instellen**.
-3. Kiezen **Verbinding** en dan **Certificaatverificatie gebruiken** om de verbinding te upgraden om verificatie op basis van certificaten te gebruiken.
-4. Meld u aan met beheerdersreferenties voor Dataverse. Aanmelden duurt minder dan een minuut.
+2. Kiezen **Verbinding** en dan **Certificaatverificatie gebruiken** om de verbinding te upgraden om verificatie op basis van certificaten te gebruiken.
+3. Meld u aan met beheerdersreferenties voor Dataverse. Aanmelding zou minder dan een minuut moeten duren.
 
 > [!NOTE]
 > U moet deze stappen herhalen in elke [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving, inclusief zowel productie- als sandbox-omgevingen, en in elk bedrijf waar u een verbinding mee hebt [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
@@ -193,7 +187,7 @@ Om te voorkomen dat integraties worden verstoord _moet u upgraden_ om op certifi
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises wilt verbinden met [!INCLUDE[cds_long_md](includes/cds_long_md.md)], moet u wat informatie opgeven op de pagina **Dataverse-verbinding instellen**.
 
-Als u verbinding wilt maken met een Azure Active Directory (Azure AD)-account, moet u een toepassing registreren in Azure AD en de toepassings-id, het sleutelkluisgeheim en de omleidings-URL opgeven die moeten worden gebruikt. De omleidings-URL wordt vooraf ingevuld en zou voor de meeste installaties moeten werken. U moet uw installatie instellen om HTTPS te gebruiken. Zie voor meer informatie [SSL configureren om de Business Central Web Client-verbinding te beveiligen](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Als u uw server instelt om een andere startpagina te hebben, kunt u altijd de URL wijzigen. Het clientgeheim wordt opgeslagen als een versleutelde tekenreeks in uw database. 
+Als u verbinding wilt maken met een Azure Active Directory-account (Azure AD), moet u een aanvraag registreren in Azure AD. U moet de toepassings-id, het sleutelkluisgeheim en de omleidings-URL opgeven die moet worden gebruikt. De omleidings-URL wordt vooraf ingevuld en zou voor de meeste installaties moeten werken. U moet uw installatie instellen om HTTPS te gebruiken. Zie voor meer informatie [SSL configureren om de Business Central Web Client-verbinding te beveiligen](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Als u uw server instelt om een andere startpagina te hebben, kunt u de URL wijzigen. Het clientgeheim wordt opgeslagen als een versleutelde tekenreeks in uw database. 
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -221,7 +215,7 @@ Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identit
     > De naam van de Dynamics CRM-API kan veranderen.
 
 5. Kies onder **Beheren** **Certificaten en geheimen** en maak vervolgens een nieuw geheim voor uw app. U gebruikt het geheim in [!INCLUDE[prod_short](includes/prod_short.md)], in het veld **Clientgeheim** op de pagina **Dataverse-verbinding instellen** of slaat het op een veilige locatie op en verschaft het in een gebeurtenisabonnee zoals eerder in dit onderwerp beschreven.
-6. Kies **Overzicht** en zoek de waarde **Toepassing (client)-id**. Dit is de client-id van uw toepassing. U moet het invoeren op de pagina **Dataverse-verbinding instellen** in het veld **Client-id** of bewaren op een veilige locatie en verschaffen in een gebeurtenisabonnee.
+6. Kies **Overzicht** en zoek de waarde **Toepassing (client)-id**. Deze id is de client-id van uw toepassing. U moet het invoeren op de pagina **Dataverse-verbinding instellen** in het veld **Client-id** of bewaren op een veilige locatie en verschaffen in een gebeurtenisabonnee.
 7. Voer in [!INCLUDE[prod_short](includes/prod_short.md)] op de pagina **Dataverse-verbinding instellen** in het veld **Omgeving-URL** de URL voor uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving in.
 8. Als u de verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] wilt inschakelen, zet u de schakelaar **Ingeschakeld** aan.
 9. Meld u aan met uw beheerdersaccount voor Azure Active Directory (dit account moet een geldige licentie hebben voor [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en een beheerder zijn in uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving). Nadat u zich hebt aangemeld, wordt u gevraagd toe te staan dat uw geregistreerde toepassing zich aanmeldt bij [!INCLUDE[cds_long_md](includes/cds_long_md.md)] namens de organisatie. U moet toestemming geven om de instelling te voltooien.

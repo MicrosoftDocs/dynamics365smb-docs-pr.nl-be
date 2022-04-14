@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d4880f91c53e8618db9be5e0bcdbfa396cbf21fd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137457"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514920"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Projecten, prijzen en projectboekingsgroepen instellen
 
@@ -67,7 +67,6 @@ De volgende tabel laat zien hoe de informatie in de optionele velden wordt gebru
 |**Projectartikelen**|De velden **Projecttaaknr.**, **Valutacode** en **Regelkorting %**. De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplanningsregels en in projectdagboeken gebruikt wanneer dit artikel wordt ingevoerd. Deze prijs komt altijd in plaats van de normale klantenprijs (het 'beste prijs'-mechanisme) voor artikelen. Als u de normale klantenprijsmechanismen wilt gebruiken, moet u geen projectartikelprijzen voor het project maken.|
 |**Grootboekrekeningen**|De optionele informatie in de velden **Projecttaaknr.**, **Valutacode**, **Regelkorting %**, **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project. De waarde in het veld **Kostprijs** voor de grootboekrekeningskosten wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd.|
 
----
 #### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Verkoopprijslijsten**.

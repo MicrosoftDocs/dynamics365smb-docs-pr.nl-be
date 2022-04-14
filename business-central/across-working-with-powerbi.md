@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147176"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510934"
 ---
-# <a name="working-with-power-bi-reports-in-prod_short"></a>Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-prod_short"></a>Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)]
 
 In dit artikel leert u enkele basisbeginselen over het weergeven van Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -65,7 +65,7 @@ Het maken van een verbinding met Power BI vanuit [!INCLUDE [prod_short](includes
 
 Als de verbinding eenmaal tot stand is gebracht, kunt u een rapport selecteren uit het Power BI-gedeelte op pagina's.
 
-## <a name="working-with-power-bi-reports"></a>Werken met Power BI-rapporten
+## <a name="work-with-power-bi-reports"></a>Werken met Power BI-rapporten
 
 ### <a name="show-reports-on-list-pages"></a>Rapporten weergeven op lijstpagina's
 

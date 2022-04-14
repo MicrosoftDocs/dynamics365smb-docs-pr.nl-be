@@ -8,21 +8,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: e95b60af569511a8a95154a53f80bcc235f883f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140487"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510614"
 ---
 # <a name="create-number-series"></a>Nummerreeksen maken
 
 Voor elk bedrijf dat u instelt, moet u unieke id-codes toewijzen aan zaken als grootboekrekeningen, klanten- en leveranciersrekeningen, facturen en overige documenten. De nummering is niet alleen belangrijk voor identificatie. Met een goed opgezet nummeringssysteem kan het bedrijf ook beter worden beheerd en geanalyseerd en kan het aantal fouten tijdens gegevensinvoer worden beperkt.
 
 > [!Important]
-> Standaard zijn hiaten niet toegestaan in nummerreeksen, omdat de exacte geschiedenis van financiële transacties wettelijk beschikbaar moet zijn en daarom een ononderbroken reeks zonder verwijderde nummers moet volgen.<br /><br />
+> Standaard zijn hiaten niet toegestaan in nummerreeksen, omdat de exacte geschiedenis van financiële transacties wettelijk beschikbaar moet zijn en daarom een ononderbroken reeks zonder verwijderde nummers moet volgen.
+> 
 > Als u hiaten in bepaalde nummerreeksen wilt toestaan, raadpleegt u eerst uw auditor of boekhoudkundige manager om ervoor te zorgen dat u zich houdt aan de wettelijke vereisten in uw land/regio. Zie voor meer informatie de sectie [Hiaten in nummerreeksen](#gaps-in-number-series).
 
 > [!NOTE]  
@@ -41,11 +42,14 @@ Als u meer dan één nummerreekscode wilt gebruiken voor één soort hoofdgegeve
 Niet alle records die u maakt in [!INCLUDE[prod_short](includes/prod_short.md)], zijn financiële transacties die opeenvolgende nummering moeten gebruiken. Klantenkaarten, verkoopoffertes en magazijnactiviteiten zijn voorbeelden van records waaraan een nummer uit een nummerreeks wordt toegewezen, maar die niet worden onderworpen aan financiële controle en/of kunnen worden verwijderd. Voor dergelijke nummerreeksen kunt u het selectievakje **Lacunes in nummers toestaan** inschakelen op de pagina **Nr.-reeksregels**. Deze instelling kan ook worden gewijzigd nadat de nummerreeks is gemaakt. Zie [Een nieuwe nummerreeks maken](ui-create-number-series.md#to-create-a-new-number-series) voor meer informatie.
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Werking van het veld Nr. in documenten en kaarten
-In verkoop-, inkoop-, en transferdocumenten en op alle kaarten kan het veld **Nr.** automatisch vanuit een nummerreeks of handmatig worden ingevuld en kan het onzichtbaar worden gemaakt.
+
+In verkoop-, inkoop-, en transferdocumenten en op alle kaarten kan het veld **Nr.** automatisch vanuit een vooraf gedefinieerde nummerreeks worden ingevuld en u kunt het handmatig toevoegen. Onder bepaalde omstandigheden is het veld **Nr.** onzichtbaar om te voorkomen dat u het bewerkt.  
 
 Het veld **Nr.** kan op drie manieren worden gevuld:
 
-1. Als er slechts één nummerreeks voor het soort document of kaart bestaat waarbij het veld **Autom. nummering** is ingeschakeld en het veld **Handm. nummering** niet is ingeschakeld, wordt het veld automatisch gevuld met het volgende nummer in de reeks en is het veld **Nr.** niet zichtbaar.
+1. Als er slechts één nummerreeks voor het soort document of kaart bestaat waarbij het veld **Autom. nummering** is ingeschakeld en het veld **Handm. nummering** niet is ingeschakeld, wordt het veld automatisch gevuld met het volgende nummer in de reeks. Het veld **Nr.** is niet zichtbaar op de kaart of het document.  
+
+    Zelfs als u sjablonen met verschillende nummerreeksen voor klanten definieert, als de nummerreeksen die zijn gedefinieerd op de pagina **Verkoopinstellingen** op deze manier zijn opgezet, is het veld **Nr.** onzichtbaar zijn op de klantenkaart, ongeacht welke sjabloon u gebruikt. Hetzelfde geldt voor andere soorten kaarten en documenten.  
 
     > [!NOTE]  
     > Als de nummerreeks niet werkt, bijvoorbeeld omdat de nummers op zijn, is het veld **Nr.** zichtbaar en kunt u handmatig een nummer invoeren of de problemen oplossen op de pagina **Nr.-reeks**.
@@ -71,7 +75,7 @@ Wanneer u een nieuwe kaart of document opent waarvoor een nummerreeks bestaat, w
 > [!TIP]
 > Om gebruikers in staat te stellen handmatig nummers op te geven wanneer ze bijvoorbeeld een nieuwe klant of leverancier registreren, kiest u het veld **Handm. nummering** voor de nummerreeks zelf. Wis het veld om handmatige nummering niet toe te staan.
 
-U kunt nummerreeksen toewijzen aan de sjablonen die u instelt voor de verschillende soorten klanten en leveranciers die uw verkopers en inkopers het vaakst toevoegen aan uw [!INCLUDE [prod_short](includes/prod_short.md)]. Stel in dat geval de relevante nummerreeksen in, koppel ze via relaties en voeg vervolgens de eerste nummerreeks in de relevante relatie toe aan de relevante instellingenpagina.  
+U kunt nummerreeksen toewijzen aan de sjablonen die u instelt voor de verschillende soorten klanten en leveranciers die uw verkopers en inkopers het vaakst toevoegen aan uw [!INCLUDE [prod_short](includes/prod_short.md)]. Stel in dat geval de relevante nummerreeksen in, koppel ze via relaties en voeg vervolgens de eerste nummerreeks in de relevante relatie toe aan de relevante instellingenpagina. Wanneer een gebruiker vervolgens een klant aanmaakt, kiest hij de relevante sjabloon en krijgt de nieuwe klant een nummer toegewezen uit de nummerreeks die voor die sjabloon is gedefinieerd.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Relaties maken tussen nummerreeksen
 

@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 901f3899ef164d3d24dbc5c4e2226b840c97c945
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137197"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522654"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Opgeslagen instellingen beheren voor rapporten en batchtaken
 
-Wanneer gebruikers rapporten uitvoeren, zien ze meestal een pagina waarmee ze opties kunnen selecteren en filters kunnen instellen om de gegevens te wijzigen die in het gegenereerde rapport worden opgenomen. Deze pagina wordt de *aanvraagpagina* genoemd. Een rapport kan een of meer *opgeslagen instellingen* bevatten die gebruikers op het rapport kunnen toepassen vanaf de aanvraagpagina. *Opgeslagen instellingen* zijn in wezen vooraf gedefinieerde opties en filters. Met behulp van opgeslagen instellingen kunt u snel en betrouwbaar rapporten genereren die de juiste gegevens bevatten. Zie voor meer informatie [Standaardwaarden gebruiken - vooraf gedefinieerde instellingen](ui-work-report.md#SavedSettings).
+Wanneer gebruikers rapporten uitvoeren, zien ze meestal een pagina waarmee ze opties kunnen selecteren en filters kunnen instellen om de gegevens te wijzigen die in het gegenereerde rapport worden opgenomen. Deze pagina wordt de *aanvraagpagina* genoemd. Een rapport kan een of meer *opgeslagen instellingen* bevatten die gebruikers op het rapport kunnen toepassen vanaf de aanvraagpagina. *Opgeslagen instellingen* zijn in wezen vooraf gedefinieerde opties en filters. Met behulp van opgeslagen instellingen kunt u snel en betrouwbaar rapporten genereren die de juiste gegevens bevatten. Zie voor meer informatie [Opgeslagen instellingen gebruiken](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
 > Dit onderwerp verwijst hoofdzakelijk naar *rapporten*, maar soortgelijke informatie geldt voor *batchverwerkingen*.
@@ -58,5 +58,6 @@ Vanaf de pagina **Rapportinstellingen** kunt u het volgende doen:
 ## <a name="see-also"></a>Zie ook
 
 [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

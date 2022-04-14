@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bd357f10509040afb8b64ec19fecda4e8769dfe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 927e90a5e25205873a3d0784c7065b9735dc7b24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142015"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515471"
 ---
 # <a name="process-sales-opportunities"></a>Verkoopopportunity's verwerken
 Nadat u een opportunity hebt gemaakt, zijn er verschillende functies voor het beheren van de opportunity en het verplaatsen ervan naar voltooiing.

@@ -10,12 +10,12 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 9ddd5c303415ea08eea19f0e869efd2b6022c24c
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 46d8b491727f566c9a96640e3dfb40cc0d417f40
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366526"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519263"
 ---
 # <a name="acquire-fixed-assets"></a>Vaste activa aanschaffen
 Voor elk vast activum moet u een kaart maken met informatie over het activum. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. Een afschrijvingsboek moeten eerst worden ingesteld en toegewezen aan elk vast activum voordat u het kunt aanschaffen.

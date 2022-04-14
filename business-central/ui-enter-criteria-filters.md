@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b59e6fc824f9c386c12030163f51ef09622f74a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335022"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519608"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorteren, zoeken en filteren
 
@@ -171,7 +171,10 @@ U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaa
 |`P8..`|Informatie voor boekhoudperiode 8 en daarna|  
 |`..23`|Van begindatum tot 23 lopende maand, lopend jaar 23:59:59|  
 |`23..`|Van 23 lopende maand, lopend jaar 00:00:00 tot eindtijd|  
-|`22..23`|Van 22 lopende maand, lopend jaar 0:00:00 tot 23 lopende maand, lopend jaar 23:59:59|  
+|`22..23`|Van 22 lopende maand, lopend jaar 0:00:00 tot 23 lopende maand, lopend jaar 23:59:59| 
+
+> [!TIP]
+> Als u een numeriek toetsenbord gebruikt, kan de decimaaltekentoets een ander teken dan een punt (.) weergeven. Druk hiervoor op de toetsen 'Alt+Decimaalteken' op het numerieke toetsenbord om te wisselen naar een punt. Wanneer u terug wilt schakelen, drukt u nogmaals op 'Alt+Decimaalteken'. Zie [Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden](ui-enter-data.md#decimal) voor meer informatie.
 
 #### <a name="124-eitheror"></a>(&#124;) Of/of
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 88877f719ec969fbca6dfd5928faf185b447bb42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382077"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520372"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central voor organisaties met meerdere vestigingen en internationale organisaties
 Organisaties met meerdere vestigingen gebruiken vaak een hub en spoke-bedrijfsmodel waarbij een moedermaatschappij of hoofdkantoor de algehele activiteiten van het bedrijf beheert, terwijl elke vestiging fungeert als een enkele, op zichzelf staande entiteit. Vestigingen zijn vaak geografisch verspreid en hebben verschillende behoeften wat betreft het delen van informatie met het hoofdkantoor. Bovendien hebben vestigingen doorgaans niet hetzelfde niveau van complexiteit nodig en hebben ze vaak niet de middelen om een groot systeem te onderhouden.

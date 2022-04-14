@@ -1,7 +1,7 @@
 ---
 title: Aangepaste rapportlay-outs bijwerken
 description: Leer hoe u een aangepaste rapportlay-out kunt bijwerken die in een rapport wordt gebruikt, bijvoorbeeld wanneer er ontwerpwijzigingen zijn in de gegevensset van het rapport.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144631"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517224"
 ---
-# <a name="update-custom-report-layouts"></a>Aangepaste rapportlay-outs bijwerken
+# <a name="legacy-update-custom-report-layouts"></a>(verouderd) Aangepaste rapportlay-outs bijwerken
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Soms moet u een aangepaste rapportlay-out die voor een rapport is gebruikt, bijwerken. Dit is vereist als er een ontwerpverandering in de gegevensset van het rapport is geweest, bijvoorbeeld een veld dat in de lay-out wordt gebruikt maar uit de gegevensset van het rapport is verwijderd. Als voor een rapportlay-out bijwerken vereist is, krijgt u een foutbericht wanneer u probeert een voorbeeld van het rapport te bekijken of het rapport af te drukken of op te slaan.  
 
@@ -28,9 +30,9 @@ Niet alle wijzigingen in de gegevensset van rapporten kunnen automatisch worden 
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Een of meer aangepaste rapportlay-outs bijwerken  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rapportlay-outs** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
 
-2.  Als u een bepaald rapport wilt bijwerken, selecteert u deze lay-out in de lijst op de pagina **Rapportlay-outs** en kiest u de actie **Lay-out bijwerken**. Als u alle aangepaste rapportlay-outs voor het bedrijf wilt bijwerken, kiest u de actie **Alle lay-outs bijwerken**.  
+2.  Als u een bepaald rapport wilt bijwerken, selecteert u deze lay-out in de lijst op de pagina **Selectie rapportlay-out** en kiest u de actie **Lay-out bijwerken**. Als u alle aangepaste rapportlay-outs voor het bedrijf wilt bijwerken, kiest u de actie **Alle lay-outs bijwerken**.  
 
 Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs. Als zich fouten voordoen, verschijnt er een bericht waarin de fouten worden aangegeven. U moet de aangepaste rapportlay-out dan handmatig bewerken om de fout te verhelpen. Zie [Fouten corrigeren](ui-update-report-layouts.md#FixErrors) voor meer informatie.  
 

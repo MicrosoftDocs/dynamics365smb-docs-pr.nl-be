@@ -10,14 +10,16 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d629b2639325b95ab90db8aaf8ac9a3e5d51fc33
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134729"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511453"
 ---
-# <a name="create-and-modify-custom-report-layouts"></a>Aangepaste rapportlay-outs maken en wijzigen
+# <a name="legacy-create-and-modify-custom-report-layouts"></a>(verouderd) Aangepaste rapportlay-outs maken en wijzigen
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Standaard heeft een rapport een ingebouwde rapportlay-out die een RDLC-rapportlay-out, een Word-rapportlay-out of beide kan zijn. U kunt geen ingebouwde lay-outs wijzigen. U kunt echter uw eigen aangepaste lay-outs maken waarmee u de weergave van een rapport kunt wijzigen wanneer het wordt weergegeven, afgedrukt of opgeslagen. U kunt meerdere aangepaste lay-outs voor hetzelfde rapport maken en vervolgens indien nodig de lay-out wijzigen die door het rapport wordt gebruikt.
 
@@ -63,56 +65,56 @@ Als u een rapportlay-out wilt wijzigen, moet u de rapportlay-out eerst als besta
 
 ### <a name="to-modify-a-custom-layout"></a>Een aangepaste lay-out wijzigen
 
-1.  U exporteert een aangepaste lay-out vanuit de pagina **Aangepaste rapportlay-outs**. Als deze pagina nog niet is geopend, zoekt en opent u de pagina **Selectie van rapportlay-out**, selecteert u het rapport met de lay-out die u wilt wijzigen en kiest u de actie **Aangepaste lay-outs**.  
-2.  Op de pagina **Aangepaste rapportlay-outs** selecteert u de lay-out die u wilt wijzigen. Vervolgens kiest u de actie **Lay-out exporteren** en **Opslaan** of **Opslaan als** om de rapportlay-out op te slaan op uw computer of netwerk.  
+1. U exporteert een aangepaste lay-out vanuit de pagina **Aangepaste rapportlay-outs**. Als deze pagina nog niet is geopend, zoekt en opent u de pagina **Selectie van rapportlay-out**, selecteert u het rapport met de lay-out die u wilt wijzigen en kiest u de actie **Aangepaste lay-outs**.  
+2. Op de pagina **Aangepaste rapportlay-outs** selecteert u de lay-out die u wilt wijzigen. Vervolgens kiest u de actie **Lay-out exporteren** en **Opslaan** of **Opslaan als** om de rapportlay-out op te slaan op uw computer of netwerk.  
+3. Open de rapportlay-out die u hebt opgeslagen en breng vervolgens wijzigingen aan.
 
-3.  Open de rapportlay-out die u hebt opgeslagen en breng vervolgens wijzigingen aan.
+   Als u een Word-lay-out wijzigt, wordt het lay-outdocument in Word geopend. Zie voor het bewerken van gegevens [Werken met Word-lay-outs](ui-how-add-fields-word-report-layout.md)<!--the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout)-->.
 
-      Als u een Word-lay-out wijzigt, wordt het lay-outdocument in Word geopend. Zie voor het bewerken van gegevens de volgende sectie [Wijzigingen aanbrengen in de rapportlay-out](ui-how-create-custom-report-layout.md#MakeChangesToLayout).
+   RDLC-rapportlay-outs zijn geavanceerder dan Word-RDLC-rapportlay-outs. Zie voor meer informatie over het aanpassen van een RDLC-rapportlay-out [RDLC-rapportlay-outs ontwerpen](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
-      RDLC-rapportlay-outs zijn geavanceerder dan Word-RDLC-rapportlay-outs. Zie voor meer informatie over het aanpassen van een RDLC-rapportlay-out [RDLC-rapportlay-outs ontwerpen](/dynamics-nav/Designing-RDLC-Report-Layouts).
+   Sla uw wijzigingen op wanneer u klaar bent.
 
-      Sla uw wijzigingen op wanneer u klaar bent.
-
-4.  Keer terug naar de pagina **Aangepaste rapportlay-outs**, selecteer de geëxporteerde en gewijzigde rapportlay-out en kies vervolgens de actie **Lay-out importeren**.  
+4. Keer terug naar de pagina **Aangepaste rapportlay-outs**, selecteer de geëxporteerde en gewijzigde rapportlay-out en kies vervolgens de actie **Lay-out importeren**.  
 
 5. Selecteer in het dialoogvenster **Importeren** de optie **Kiezen**, selecteer het gewijzigde rapportlay-outdocument en kies vervolgens **Openen**.
 
 > [!IMPORTANT]
 > Vergeet niet om het rapportlay-outdocument dat u hebt gewijzigd te importeren. Anders is de nieuwe rapportlay-out niet beschikbaar.
 
-##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Aangepaste rapportlay-outs maken en wijzigen
+<!--
+##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
 
-U kunt algemene opmaak- en lay-outwijzigingen aanbrengen, zoals het lettertype wijzigen, een tabel toevoegen en aanpassen of een gegevensveld verwijderen, door de basisfuncties voor bewerking van Word te gebruiken, net als in elk ander Word-document.
+To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
 
-Als u een nieuwe Word-rapportlay-out ontwerpt of nieuwe gegevensvelden toevoegt, begint u door een tabel te maken die rijen en kolommen bevat die uiteindelijk de gegevensvelden zullen bevatten.
+If you're designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 
 > [!TIP]  
-> Geef de tabelrasterlijnen weer zodat u de grenzen van tabelcellen ziet. Verberg de rasterlijnen als u klaar bent met bewerken. Als u tabelrasterlijnen wilt weergeven of verbergen, selecteert u de tabel en kiest u onder **Lay-out** op het tabblad **Tabel** de optie **Rasterlijnen weergeven**.
+> Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Lettertypen insluiten in Word-lay-outs voor consistentie
+### Embedding Fonts in Word Layouts for Consistency
 
-Als u ervoor wilt zorgen dat rapporten altijd met de beoogde lettertypen worden weergegeven en afgedrukt, ongeacht waar gebruikers de rapporten openen of afdrukken, kunt u de lettertypen insluiten in het Word-document. Houd er echter rekening mee dat insluiten van lettertypen Word-bestanden aanzienlijk groter maakt. Zie voor meer informatie over het insluiten van lettertypen in Word, [Lettertypen insluiten in Word, PowerPoint of Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Label- en gegevensvelden verwijderen uit Word-lay-outs
+###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts
 
- Label- en gegevensvelden van een rapport bevinden zich in inhoudsbesturingselementen in Word. De volgende afbeelding is een voorbeeld van een inhoudsbesturingselement wanneer het in een Word-document is geselecteerd.  
+ Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
- ![Inhoudsbesturingselement voor veld in Word-rapportlay-out](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Content control for field in Word report layout.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
- De naam van het label- of gegevensveld wordt weergegeven in het inhoudsbesturingselement. In het voorbeeld is de veldnaam CompanyAddr1.  
+ The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a>Een label- of gegevensveld verwijderen  
+### To remove a label or data field  
 
-1. Klik met de rechtermuisknop op het veld dat u wilt verwijderen, en kies vervolgens **Inhoudsbesturingselement verwijderen**.  
+1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
 
-     Het inhoudsbesturingselement wordt verwijderd, maar de veldnaam blijft als tekst.  
+     The content control is removed, but the field name remains as text.  
 
-2. Verwijder de resterende tekst indien nodig.  
+2. Delete the remaining text as needed.  
 
-### <a name="adding-data-fields"></a>Gegevensvelden toevoegen
+### Adding data fields
 
-Gegevensvelden uit een rapportgegevensset toevoegen is een geavanceerdere methode en vereist enige kennis van de rapportgegevensset. Zie [Velden toevoegen aan een Word-rapportlay-out](ui-how-add-fields-word-report-layout.md) voor informatie over het toevoegen van velden voor gegevens, labels en afbeeldingen.  
+Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 

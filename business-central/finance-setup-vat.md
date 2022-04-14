@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: 80264ff085ab9d88a2d6a32d8f0f1189b3622832
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383683"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519237"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berekeningen en boekingsmethoden voor btw instellen
 
@@ -31,7 +31,7 @@ U kunt handmatig btw-berekeningen instellen, maar dit kan lastig en tijdrovend z
 > [!NOTE]  
 > U kunt de begeleide instelling alleen gebruiken als u een Mijn bedrijf hebt gemaakt en geen transacties hebt geboekt die inclusief btw zijn. Anders zouden er gemakkelijk per ongeluk andere btw-tarieven worden gebruikt en onnauwkeurige btw-gerelateerde rapporten worden gemaakt.  
 
-Als u btw-berekeningen zelf wilt instellen of alleen meer informatie wilt over elke stap, bevat dit onderwerp omschrijvingen van elke stap.  
+Als u btw-berekeningen zelf wilt instellen of alleen meer informatie wilt over elke stap, bevat dit artikel beschrijvingen van elke stap.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
@@ -44,6 +44,14 @@ Ga als volgt te werk om de begeleide instelling te starten:
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in.  
 2. Kies **Btw instellen** en voer alle stappen uit.
 3. Wanneer u de begeleide instelling hebt voltooid, gaat u naar de pagina **Btw-boekingsgroepinstellingen** en controleert u of u meer velden moet invullen volgens de lokale vereisten in uw versie van [!INCLUDE [prod_short](includes/prod_short.md)]. Zie [Lokale functionaliteit in Business Central](about-localization.md) voor meer informatie  
+
+### <a name="check-the-vat-posting-setup"></a>De btw-boekingsinstellingen controleren
+
+Om u te ondersteunen zodat u snel aan de slag kunt gaan, geeft [!INCLUDE [prod_short](includes/prod_short.md)] meldingen weer als er grootboekrekeningen ontbreken in boekingsgroepen of boekingsinstellingen, zoals de pagina **Btw-boekingsinstellingen**. U kunt dit type melding in- of uitschakelen met de melding *Grootboekrekening ontbreekt in boekingsgroep of instelling* op de pagina **Mijn meldingen**. Ga simpelweg naar de pagina **Mijn instellingen** en kies de optie *Wijzigen wanneer ik berichten ontvang*. koppeling.  
+
+Als u voor een dergelijke melding kiest, maakt [!INCLUDE [prod_short](includes/prod_short.md)] automatisch die boekingsinstellingen op basis van de boekingsgroepen in het document of journaal waaraan u momenteel werkt.  
+
+Op dit punt kunt u gewoon de ontbrekende grootboekrekeningen invullen. Later, wanneer u de instellingen verder verfijnt, realiseert u zich misschien dat deze instelling onjuist was. [!INCLUDE [prod_short](includes/prod_short.md)] staat het verwijderen van btw-boekingsinstellingen en algemene boekingsinstellingen niet toe wanneer er boekingen zijn gemaakt op basis van dergelijke configuraties. Vanaf releasewave 1 in 2022 kunt u het veld **Geblokkeerd** op de pagina **Btw-boekingsgroepinstellingen** gebruiken om te voorkomen dat gebruikers per ongeluk een instelling gebruiken die niet langer relevant is voor nieuwe boekingen.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Btw-nummers instellen voor uw land of regio
 
@@ -94,7 +102,7 @@ U kunt zo veel combinaties instellen als u nodig hebt. Als u combinaties van btw
 Ga als volgt te werk om btw-boekingsinstellingen te combineren:
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 5 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VAT-e-mailinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Vul de vereiste velden in.
+2. Vul de vereiste velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Standaard btw-boekingsgroepen toewijzen aan meerdere entiteiten
 

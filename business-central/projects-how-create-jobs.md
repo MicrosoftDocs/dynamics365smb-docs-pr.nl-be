@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ebfbdf04b577f60e20da899e0ba3512571ed5189
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140773"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519634"
 ---
 # <a name="create-jobs"></a>Projecten maken
 Wanneer u een nieuw project start, moet u een projectkaart maken met geïntegreerde projecttaken en projectplanningsregels, die uit twee lagen wordt gestructureerd.  
@@ -26,6 +26,8 @@ Dankzij de laagstructuur kunt u het project in kleinere taken onderverdelen en d
 
 > [!TIP]
 > Kies de actie **Nieuw project** in het rolcentrum **Projectmanager** om een begeleide instelling te starten die u begeleidt bij de stappen voor het maken van een project met geïntegreerde taken en planningsregels. In de volgende procedure wordt beschreven hoe u handmatig de stappen uitvoert. Voor een voorbeeld van hoe u een project handmatig kunt maken kijkt u naar [Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
+
+Soms wijkt de partij die een service ontvangt, af van de partij die de rekening betaalt. Op de pagina **Taken** geeft u de klant die van het project profiteert op in de velden **Verkopen aan** en de te factureren partij in de velden **Factureren aan**. U kunt ook opgeven waar het werk zal plaatsvinden door te selecteren uit een lijst met verzendadressen voor de klant, informatie over externe referenties toe te voegen om de communicatie over het project te vereenvoudigen en de standaard financiële voorwaarden van het project te overschrijven.
 
 ## <a name="to-create-a-job-card"></a>Een projectkaart maken
 U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplanningsregels hiervoor.

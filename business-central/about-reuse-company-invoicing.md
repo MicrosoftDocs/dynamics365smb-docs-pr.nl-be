@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3c570f15d13f7a1dbb2a040f09f34b619b01a5f3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 53216f530c5e0f334f2ffb9f96f12c9804d8ad48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382727"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520008"
 ---
-# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Dezelfde Microsoft 365-account gebruiken in [!INCLUDE[prod_short](includes/prod_long.md)] en Microsoft Invoicing
+# <a name="use-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Dezelfde Microsoft 365-account gebruiken in [!INCLUDE[prod_short](includes/prod_long.md)] en Microsoft Invoicing
 Wanneer u zich aanmeldt voor de proefversie van [!INCLUDE[prod_short](includes/prod_short.md)], kunt u kiezen voor de evaluatiefase van 30 dagen, het abonnement laten ingaan of stoppen met het gebruiken van [!INCLUDE[prod_short](includes/prod_short.md)]. In alle gevallen hebt u op een gegeven moment misschien iets gezien dat **Microsoft Invoicing** heet en erop geklikt. Dit was een app die deel uitmaakte van wat nu Microsoft 365 Business Standard is en voorheen bekend stond als Microsoft 365 Business Premium-abonnement, dus niet iedereen zal die tegel in zijn of haar Microsoft 365 hebben gezien.  
 
 Microsoft Invoicing is niet langer beschikbaar, maar als u zich bij Invoicing moet aanmelden om uw gegevens op te halen, ziet u mogelijk een bericht dat u geen toegang hebt tot Microsoft Invoicing omdat uw account wordt gebruikt in [!INCLUDE[prod_short](includes/prod_short.md)].  

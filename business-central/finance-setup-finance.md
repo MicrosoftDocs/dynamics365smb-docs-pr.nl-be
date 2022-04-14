@@ -1,27 +1,27 @@
 ---
 title: Financiële processen instellen
 description: Meer informatie over de vereiste taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften.
-author: SorenGP
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/16/2021
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 7c6f7574a227d2901c8989db50d6f4c75528429f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f0112cfb60321a44d833ad6a51db209a71494bf1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147608"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513951"
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
 Voordat u kunt beginnen met de uitvoering van uw bedrijf, moet u regels en standaardinstellingen opgeven voor de manier waarop u financiële processen voor het bedrijf wilt beheren. Ten eerste moet u de kern van de boekhoudadministratie van het bedrijf instellen: het rekeningschema. Vervolgens stelt u de boekingsgroepen in, waarmee standaard-grootboekrekeningen efficiënter kunnen worden toegewezen aan klanten, leveranciers en artikelen.
 
-Sommige financiële instellingen kunnen automatisch worden uitgevoerd met behulp van guides voor begeleide instelling en sommige moeten handmatig worden uitgevoerd. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
+Sommige financiële instellingen kunnen automatisch worden uitgevoerd met behulp van guides voor begeleide instelling en sommige moeten handmatig worden uitgevoerd. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md). Op de pagina **Grootboekinstellingen** wordt opgegeven hoe u veel verschillende boekhoudkwesties in uw bedrijf kunt afhandelen. Zo kunt u deze pagina gebruiken voor het opgeven van details voor factuurafronding, de valutacode voor uw lokale valuta, adresnotaties en een mogelijke rapportagevaluta. Zie voor meer informatie [Het grootboek en het rekeningschema begrijpen](finance-general-ledger.md).  
 
-Met dimensies kunt u verschillende soorten informatie toevoegen aan elke transactie. U kunt de basisdimensies van uw bedrijf instellen, zoals Projecten en Afdelingen. Later kunt u zo nodig meer dimensies toevoegen en tijdelijke dimensies instellen voor gebruik gedurende een beperkte tijdsperiode, bijvoorbeeld in verband met een verkoopcampagne. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
+Met dimensies kunt u verschillende soorten informatie toevoegen aan elke transactie. U kunt de basisdimensies van uw bedrijf instellen, zoals *Projecten* en *Afdelingen*. Later kunt u zo nodig meer dimensies toevoegen en tijdelijke dimensies instellen voor gebruik gedurende een beperkte tijdsperiode, bijvoorbeeld in verband met een verkoopcampagne. Zie voor meer informatie [Werken met dimensies](finance-dimensions.md).
 
 Veel van de instellingstaken moeten worden voltooid voordat u financiële transacties kunt gaan registreren, maar u kunt de meeste instellingen naderhand wijzigen. Sommige instellingstaken zijn optioneel: u stelt bijvoorbeeld alleen IC-boekingen en -consolidaties in als u met meerdere bedrijven werkt. Sommige instellingstaken moeten periodiek worden herhaald, zoals het opgeven van de periode waarin een boeking is toegestaan.  
 
@@ -29,6 +29,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 
 | Als u dit wilt doen: | Zie |
 | --- | --- |
+|De grootboekrekeningen bekijken of bewerken waarnaar alle grootboekposten worden geboekt|[De rekeningschema's instellen of wijzigen](finance-setup-chart-accounts.md)|
 | Geef aan hoe u wilt worden betaald door klanten en hoe u uw leveranciers wilt betalen. |[Betalingsmethoden instellen](finance-payment-methods.md) |
 | Geef betalingsvoorwaarden op voor het beheren van vervaldatums en het berekenen van mogelijke betalingskortingen.|[Betalingsvoorwaarden instellen](finance-payment-terms.md) |
 | Geef de boekingsgroepen op die entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten toewijzen aan grootboekrekeningen. |[Boekingsgroepen instellen](finance-posting-groups.md)|
@@ -38,6 +39,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 |Stel aanmaningsvoorwaarden in om u te helpen bij het innen van achterstallige betalingen.|[De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)|
 | Definiëren hoe u btw-bedragen die u hebt geïnd voor verkopen, rapporteert aan de belastingdienst. |[Btw instellen](finance-setup-vat.md)|
 |Verwerking voorbereiden van niet gerealiseerde btw in verband met op kas gebaseerde boekhoudingsmethoden.|[Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen](finance-setup-unrealized-vat.md)|
+|Definieer de vreemde valuta's waarin u handelt of transacties rapporteert.|[Valuta's instellen](finance-set-up-currencies.md)|
 | Stel uw verkoop- en inkoopfuncties in om betalingen in vreemde valuta's te verwerken.|[Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Definieer een of meer extra valuta's, zodat bedragen automatisch worden gerapporteerd in zowel de LV als de extra rapportagevaluta in elke grootboekpost en in andere posten.|[Een extra rapportagevaluta instellen.](finance-how-setup-additional-currencies.md)|
 |Pas periodiek extra valuta-equivalenten aan in verband met schommelende wisselkoersen.|[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|

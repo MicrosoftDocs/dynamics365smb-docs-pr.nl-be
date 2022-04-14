@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 10b9483d46caa9fff156a80f5301521ae9c36d63
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128665"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510777"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Overzicht van taken om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen
 
@@ -63,6 +63,7 @@ Voor sommige gebieden moet u een beheerder in uw [!INCLUDE[prod_short](includes/
 
 ## <a name="see-also"></a>Zie ook
 
+[Overzicht van bedrijfsgegevens](admin-company-information.md)  
 [Beheer](admin-setup-and-administration.md)  
 [Financiën](finance.md)  
 [Verkoop](sales-manage-sales.md)  

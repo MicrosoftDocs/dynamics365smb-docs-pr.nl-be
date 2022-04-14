@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 174840f390145724181c37c60f040dce75232e91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 719bd9ca6e536b11ec7c8584e1956d91c7fe8017
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135866"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520980"
 ---
 # <a name="create-sales-opportunities"></a>Verkoopopportunities maken
 U kunt opportunities maken voor de verkoopopportunities die van toepassing zijn op uw contacten. Alle opportunities moeten worden toegewezen aan een verkoper of inkoper. Bovendien moet u altijd een contact opgeven.

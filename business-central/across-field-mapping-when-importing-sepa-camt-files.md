@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 829ff2a07464d1c456b6776eef542914601c0a18
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db90358fcca87bc7217d48efa7577e8d4a835c58
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141645"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521370"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Veldtoewijzing bij het importeren van SEPA CAMT-bestanden
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt de regionale SEPA-norm (Single Euro Payments Area) voor het importeren van SEPA-bankafschriften (CAMT-indeling). Zie voor meer informatie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md).  
@@ -65,7 +65,7 @@ ms.locfileid: "8141645"
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)  
 [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md)   
-[Gebruik XML-schema's om definities voor gegevensuitwisseling voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[XML-schema's gebruiken om definities voor gegevensuitwisseling voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  
 
 

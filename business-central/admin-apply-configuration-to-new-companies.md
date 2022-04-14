@@ -1,6 +1,6 @@
 ---
 title: Configuratie toepassen op nieuwe bedrijven
-description: Nadat u een configuratiepakket hebt gemaakt, bestaat de volgende stap uit het leveren van het pakket aan uw klant voor implementatie. U gebruikt de configuratie met een nieuw, leeg bedrijf.
+description: Nadat u een configuratiepakket hebt gemaakt, bestaat de volgende stap uit het leveren van het pakket aan uw klant voor implementatie. U gebruikt de configuratie met een nieuw, leeg bedrijf als u gebruikmaakt van RapidStart Services.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 439a717b37d5936c221992bcd7f85bb1d1db42eb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 14b97b1f635fab5671c478106680c2b723ca86c2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141501"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522286"
 ---
-# <a name="apply-configurations-to-new-companies"></a>Configuraties toepassen op nieuwe bedrijven
+# <a name="apply-configurations-to-new-companies-with-rapidstart-services"></a>Configuraties toepassen op nieuwe bedrijven met RapidStart Services
 Nadat u een configuratiepakket hebt gemaakt, bestaat de volgende stap uit het leveren van het pakket aan uw klant voor implementatie. U werkt met het configuratiepakket binnen een nieuw, leeg bedrijf.  
 
  In de volgende tabel wordt een reeks taken beschreven met koppelingen naar de beschrijvende onderwerpen.

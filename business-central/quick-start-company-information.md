@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133666"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417625"
 ---
 # <a name="company-information-quick-start"></a>Snelstartgids Bedrijfsinformatie
 
@@ -25,19 +26,14 @@ U kunt alle relevante gegevens invoeren op de pagina **Bedrijfsgegevens** wannee
 ## <a name="to-set-up-company-information"></a>Bedrijfsgegevens instellen  
 
 1. Kies het ![pictogram Tand om het menu Instellingen te openen.](media/ui-experience/settings_icon_small.png) menu en kies vervolgens de actie **Bedrijfsgegevens**.
-2. Vul op de sneltabbladen de informatie in, zoals in de volgende tabel is beschreven.
+2. Vul op de sneltabbladen de informatie in, zoals in de volgende tabel is beschreven. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Veld|Omschrijving|  
-    |-------------|---------------------------------------|  
-    |**Alge&meen**|Voer de algemene informatie over uw bedrijf in, inclusief een logo, aangezien dat zal verschijnen op klantgerichte documenten, bijvoorbeeld facturen die u verstuurt. |  
-    |**Communicatie**|Voer de basiscontactgegevens van het bedrijf in, zoals telefoonnummer en e-mailadres.|  
-    |**Betalingen**| Vul de relevante bankgegevens in om er zeker van te zijn dat uw klanten u kunnen betalen.|  
-    |**Verzenden**|Vul de relevante verzendgegevens in, zodat u goederen van en naar uw bedrijf kunt verzenden en ontvangen.|  
-    |**Btw**|Afhankelijk van het land waarin u woont, is het sneltabblad Belasting mogelijk beschikbaar voor u. Als het beschikbaar is, vul het dan in.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Als u klaar bent met het invullen van de gegevens, kunt u de pagina sluiten.  
 
 ## <a name="see-also"></a>Zie ook  
 
+[Overzicht van bedrijfsgegevens](admin-company-information.md)  
+[Bedrijfsgegevens instellen in Italië](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
-[Bedrijfsgegevens instellen](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

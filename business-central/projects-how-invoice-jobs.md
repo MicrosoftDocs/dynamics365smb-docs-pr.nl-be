@@ -10,12 +10,12 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: d2d2437028c5d7e7f8ad4bc613e4f6bf1dc06de3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 792b5a3640693b7d1be76b319dfc4e713085106f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146318"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516626"
 ---
 # <a name="invoice-jobs"></a>Projecten factureren
 Tijdens het project kunnen projectkosten van resourceverbruik, materialen en aan het project gerelateerde inkopen, zich ophopen. Naarmate het project vordert, worden deze transacties geboekt in het projectdagboek. Het is van belang dat alle kosten worden vastgelegd in het projectdagboek voordat u het project aan de klant factureert.
@@ -27,6 +27,8 @@ U kunt het hele project factureren vanuit de pagina **Projecttaakregels** of all
 
 > [!NOTE]  
 > Als u **Factureerbaar** selecteert in het veld **Regelsoort project** in de inkoopdocumenten voor aan het project gerelateerde inkopen, worden projectplanningsregels gemaakt die gereed zijn om te worden gefactureerd aan de klant. Zie [Projectvoorraden beheren](projects-how-manage-project-supplies.md) voor meer informatie.
+
+U kunt ook een bedrijf factureren dat niet de eindklant is. Soms wijkt de partij waarvoor een project bestemd is, af van de partij die de rekening betaalt. Op de pagina **Taken** geeft u de klant die van het project profiteert op in de velden **Verkopen aan** en de te factureren partij in de velden **Factureren aan**. 
 
 ## <a name="to-create-multiple-job-sales-invoices"></a>Meerdere projectverkoopfacturen maken
 U kunt een factuur maken voor een project of voor één of meer projecttaken voor een klant, wanneer ofwel het werk dat moet worden gefactureerd voltooid is ofwel de datum voor facturering op basis van een factureringsschema is bereikt.

@@ -10,12 +10,12 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130032"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521688"
 ---
 # <a name="change-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
 [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht de grootte en complexiteit. In de kern van het product vindt u essentiële functies, zoals financiële rapportage, verkoop-, inkoop- en voorraadbeheer. Naarmate de bedrijfscomplexiteit toeneemt, kunt u bijvoorbeeld functionaliteit inschakelen voor productie en servicebeheer.

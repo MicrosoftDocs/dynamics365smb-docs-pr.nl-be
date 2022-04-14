@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 5703, 7352
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: f16fb21773a519edc77fca615d679e106b397af8
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 86ad8c18c58eaf24665310f3455ae801ebe611a2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382779"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518691"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen
 Voor locaties die gebruikmaken van gestuurde opslag en pick, kan [!INCLUDE[prod_short](includes/prod_short.md)] in allerlei situaties, bulkgoederen automatisch splitsen (dit houdt in dat een bepaalde eenheid wordt opgesplitst in kleinere eenheden) wanneer er magazijninstructies worden gemaakt die voldoen aan de eisen met betrekking tot brondocumenten, -productieorders of interne picks en opslag. Bulksplitsing betekent soms ook het verzamelen van kleinere eenheden, indien nodig, om te voldoen aan uitgaande verzoeken door de grotere eenheid op het brondocument of de productieorder te splitsen in kleinere eenheden die in het magazijn beschikbaar zijn.   

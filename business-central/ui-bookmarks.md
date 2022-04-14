@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5cc5f6039a25161267127f40f4f3077725c5d0bc
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5da6070b00d635cba1aa2cbd7bb282d226d96023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334941"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521714"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Een bladwijzer van een pagina of rapport maken in uw rolcentrum
 Met het bladwijzerpictogram kunt u een actie toevoegen waarmee een pagina of rapport wordt geopend vanuit het navigatiemenu van uw rolcentrum. Met bladwijzers bereikt u snel uw favoriete inhoud of zakelijke taken. U voegt de bladwijzer toe vanaf de doelpagina of het doelrapport, dat wil zeggen het scherm dat u wilt dat de koppeling in het rolcentrum opent.

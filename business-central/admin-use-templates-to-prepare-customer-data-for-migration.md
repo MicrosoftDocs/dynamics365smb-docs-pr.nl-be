@@ -1,20 +1,21 @@
 ---
 title: Migratie van klantgegevens met sjablonen voorbereiden
-description: Leer hoe u configuratiesjablonen gebruikt om bestaande klantgegevens te structureren voordat u de hoofdgegevens migreert naar het nieuwe bedrijf in Business Central.
+description: Als u RapidStart Services gebruikt, kunt u leren hoe u configuratiesjablonen gebruikt om bestaande klantgegevens te structureren voordat u de hoofdgegevens naar het nieuwe bedrijf in Business Central migreert.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8620
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f0d8430be917981f84eb2841c0840a5b36a8d678
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d9a90c0680d079a87436cea227becfa46435efd5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143802"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522260"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Migratie van klantgegevens met sjablonen voorbereiden
 

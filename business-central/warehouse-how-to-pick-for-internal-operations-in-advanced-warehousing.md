@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5df764b1ca184d1f70dd67c08abf0505833dc2aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d0e7db8e4aeade9865114769c659075971dd3c8d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139143"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518639"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Picken voor assemblage of productie in geavanceerde magazijnconfiguraties
 In geavanceerde magazijnconfiguraties waarbij de locatie is ingesteld voor het gebruik van picken en verzending, kunt u componenten voor productie- en assemblageactiviteiten kiezen via de pagina **Magazijnpick**.  

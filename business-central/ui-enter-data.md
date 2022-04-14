@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323044"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528560"
 ---
 # <a name="entering-data"></a>Gegevens invoeren
 
@@ -23,7 +23,8 @@ Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker 
 
 In de voorbeelden in dit artikel worden de demonstratiegegevens gebruikt.
 
-## <a name="working-with-editable-fields"></a>Werken met bewerkbare gegevens
+## <a name="work-with-editable-fields"></a>Werken met bewerkbare velden
+
 Velden in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen verschillende bewerkbare gegevens bevatten, zoals tekst of valutabedragen. Bewerkbare velden geven doorgaans een invoervak weer waarin u kunt typen of een waarde kunt kiezen. Niet-bewerkbare velden worden doorgaans weergegeven met een grijze achtergrond.   
 
 Sommige bewerkbare velden bevatten een kiezer waarmee u een waarde kunt specificeren.  
@@ -57,6 +58,8 @@ Als de cursor wordt weergegeven aan het einde van de veldwaarde:
 
 > [!NOTE]
 > Nadat u een waarde hebt opgegeven, controleert Business Central pas of deze geldig is nadat u buiten het veld hebt geklikt of de focus hebt ingesteld op een ander element, zoals het volgende veld.  
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
 ## <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -108,9 +111,9 @@ Hoewel een veld verplicht is, wordt u niet gedwongen het veld te vullen voordat 
 
  Veel velden hebben een knop met een pijl-omlaag die u kunt kiezen. U kunt op de pijl klikken om een lijst met gegevens te krijgen die u in het veld kunt instellen. De knop heeft twee functies, afhankelijk van het type veld:  
 
--   Opzoeken - Hiermee toont u gegevens uit een andere tabel die u in het veld kunt invoeren. U kunt slechts één gegevensitem tegelijk selecteren.  
+- Opzoeken - Hiermee toont u gegevens uit een andere tabel die u in het veld kunt invoeren. U kunt slechts één gegevensitem tegelijk selecteren.  
 
--   Vervolgkeuze - Hiermee toont u de verzameling opties die beschikbaar zijn voor het veld. U kunt slechts één optie tegelijk selecteren.  
+- Vervolgkeuze - Hiermee toont u de verzameling opties die beschikbaar zijn voor het veld. U kunt slechts één optie tegelijk selecteren.  
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Velden en regels kopiëren en plakken
 
@@ -171,26 +174,26 @@ Als u getallen in velden voor hoeveelheden invoert, zoals het veld **Hoeveelheid
 
 ### <a name="examples"></a>Voorbeelden  
 
--   Als u 19+19 invoert, wordt het veld berekend als 38.  
+- Als u 19+19 invoert, wordt het veld berekend als 38.  
 
--   Als u 41-9, wordt het veld berekend als 32.  
+- Als u 41-9, wordt het veld berekend als 32.  
 
--   Als u 12*4 invoert, wordt het veld berekend als 48.  
+- Als u 12*4 invoert, wordt het veld berekend als 48.  
 
--   Als u 12/4 invoert, wordt het veld berekend als 3.  
+- Als u 12/4 invoert, wordt het veld berekend als 3.  
 
 ## <a name="entering-negative-numbers"></a>Negatieve getallen invoeren
 
 U kunt negatieve getallen op twee manieren invoeren. Nummer -20.5 kan worden ingevoerd als:  
 
--   -20,5  
+- -20,5  
 
-    of
--   20,5-  
+  of
+- 20,5-  
 
- In beide gevallen wordt het bedrag als -20,5 geregistreerd.  
+In beide gevallen wordt het bedrag als -20,5 geregistreerd.  
 
- Als het laatste teken van de expressie een **+** of een **-** is, wordt de volledige expressie vastgelegd met dat teken. Een voorbeeld: **10-20+** resulteert in 10 en niet -10.  
+Als het laatste teken van de expressie een **+** of een **-** is, wordt de volledige expressie vastgelegd met dat teken. Een voorbeeld: **10-20+** resulteert in 10 en niet -10.  
 
 ## <a name="entering-dates-and-times"></a>Datums en tijden invoeren
 
@@ -205,11 +208,14 @@ U kunt de datumkiezer gebruiken om een datum te selecteren in een kalender of u 
 
 Voor handmatige datuminvoer kunt u twee, vier, zes of acht cijfers invoeren:  
 
--   Twee cijfers worden geïnterpreteerd als de dag. Het voegt de maand en het jaar van de werkdatum toe.  
+- Twee cijfers worden geïnterpreteerd als de dag. Het voegt de maand en het jaar van de werkdatum toe.  
 
--   Vier cijfers worden geïnterpreteerd als de dag en de maand. Het voegt het jaar van de werkdatum toe.  
+- Vier cijfers worden geïnterpreteerd als de dag en de maand. Het voegt het jaar van de werkdatum toe.  
 
--   Als de gewenste datum tussen 01/01/1930 en 31/12/2029 ligt, voer dan het jaar in met twee cijfers. Voer anders het jaar in met vier cijfers.  
+- Als de gewenste datum tussen 01/01/1950 en 31/12/2049 ligt, voer dan het jaar in met twee cijfers. Voer anders het jaar in met vier cijfers.
+
+  > [!NOTE]
+  > Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kan het tweecijferige jaarbereik verschillen. Beheerders kunnen het bereik wijzigen met de instelling **CalendarTwoDigitYearMax** van de [!INCLUDE[prod_short](includes/prod_short.md)]-server. Zie [Business Central Server configureren](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) voor meer informatie.
 
 U kunt ook een datum als dag van de week invoeren, gevolgd door een weeknummer. Of u kunt een jaar invoeren. Bijvoorbeeld Maa25 of maa25 betekent maandag in week 25.  
 
@@ -267,9 +273,12 @@ Hier volgen enkele voorbeelden.
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden
 
-Wanneer u de decimaaltekentoets van het numerieke toetsenbord gebruikt om gegevens in te voeren, wordt het daadwerkelijke decimaalteken dat in het veld wordt ingevoerd, bepaald door de regio-instelling van uw Business Central. U stelt de regio in Business Central in op de pagina **Mijn instellingen**.
+Wanneer u de decimaaltekentoets op een numerieke toetsenbord gebruikt om gegevens in te voeren, wordt het daadwerkelijke decimaalteken dat in het veld wordt ingevoerd, bepaald door uw regio-instelling in Business Central. De meeste regio's gebruiken de punt (.) of komma (,) als scheidingsteken voor decimale waarden, zoals normaal gesproken wordt gebruikt in valutabedragen. De decimale toets op uw toetsenbord past zich aan uw regio aan. Dit wijkt vaak af van de punt- of kommatoetsen op de rest van het toetsenbord. U stelt de regio in Business Central in op de pagina **Mijn instellingen**.
 
-Stel dat u een numeriek toetsenbord gebruikt dat een punt (.) als decimaalscheidingsteken gebruikt. Maar u voert gegevens in voor een regionale taal die een komma gebruikt (**,**) voor het decimaalteken, zoals Deens (Denemarken) of Frans (Frankrijk). U wilt dus dat decimalen zoals "1.23" worden ingevoerd als "1,23". In dit geval kunt u naar de pagina **Mijn instellingen** gaan en de **Regio** instellen op de regionale doeltaal, zoals **Deens (Denemarken)** of **Frans (Frankrijk)**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md#region).
+Stel dat u een numeriek toetsenbord gebruikt dat een punt (.) als decimaalscheidingsteken gebruikt. Maar u voert gegevens in voor een regionale taal die een komma gebruikt (**,**) voor het decimaalteken, zoals Frans (Frankrijk). U wilt dus dat decimalen zoals "1.23" worden ingevoerd als "1,23". In dit geval kunt u naar de pagina **Mijn instellingen** gaan en de **Regio** instellen op de regionale doeltaal, zoals **Frans (Frankrijk)**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> Het kan voorkomen dat u het decimaalteken wilt gebruiken om een punt (.) in te voeren. Stel dat u bijvoorbeeld een datumbereik invoert in een filter, zoals `01/01/2022..04/01/2022`, of iets dat een punt vereist. Druk hiervoor op de toetsen 'Alt+Decimaalteken' op het numerieke toetsenbord. Deze toetsencombinatie wisselt voor het decimaalteken tussen een punt en het decimaalteken zoals bepaald door de instelling **Regio**.
 
 ## <a name="see-also"></a>Zie ook
 

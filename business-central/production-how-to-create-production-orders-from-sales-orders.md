@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000883, 99000884
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3080556ad69882c533bec3768787784bfdac5c4f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f24ee7b1e5fab2b54e9653e6bc98cfd87200770
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145536"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516834"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Productieorders maken op basis van verkooporders
 U kunt direct op basis van verkooporders productieorders maken voor geproduceerde artikelen.  

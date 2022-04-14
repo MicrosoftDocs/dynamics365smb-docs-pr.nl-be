@@ -6,14 +6,15 @@ metadata:
   ms.topic: faq
   ms.reviewer: edupont04
   ms.search.keywords: keyboarding, productivity, how do i, filter pane
+  ms.search.form: TellMe
   ms.date: 04/01/2021
   ms.author: mikebc
-  ms.openlocfilehash: 58c0e15d418bdf8743acdbbe14eb01243bd30a14
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: efce99fd19b1416396f529e6435ec11775959034
+  ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
   ms.translationtype: HT
   ms.contentlocale: nl-BE
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8138244"
+  ms.lasthandoff: 03/31/2022
+  ms.locfileid: "8515887"
 title: Veelgestelde vragen over zoeken en filteren
 summary: In dit artikel worden enkele veelgestelde vragen beantwoord over zoeken en filteren in Business Central.
 sections:
@@ -68,4 +69,8 @@ sections:
       Zal Microsoft het filterdeelvenster uitbreiden?
     answer: >
       Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende gebruikers en handelen we naar de beste suggesties. Als u geïnteresseerd bent in het uitbreiden van het filterdeelvenster naar meer formulierfactoren en meer typen lijsten, of een goed idee hebt om het te verbeteren, voegt u een idee of een stem op bestaande ideeën toe aan [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas)
+  - question: >
+      Hoe wijzig ik de uitvoer van de decimaalscheidingstoets op mijn numerieke toetsenbord?
+    answer: >
+      Standaard wordt het weergegeven teken voor decimalen bepaald door de regio-instelling van Business Central, die u instelt op de pagina **Mijn instellingen**. U kunt dit tijdelijk veranderen in een punt (.) door op de toetsen 'Alt+Decimaalteken' op het toetsenbord te drukken. Wanneer u terug wilt schakelen, drukt u nogmaals op 'Alt+Decimaalteken'. Zie [Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden](ui-enter-data.md#decimal) voor meer informatie.
 additionalContent: "\n## <a name=\"see-also\"></a>Zie ook\n   [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  \n   [Pagina's en informatie zoeken met Vertel me](ui-search.md)  \n   [Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)  \n   [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  \n        \n        \n   [!INCLUDE[footer-include](includes/footer-banner.md)]"

@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0badc89eaf2cce78d175077301dc242786bd4d10
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 3202fb5906328da08eed10ad722b914eb5b5afcb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366500"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511115"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Vaste activa afschrijven of aflossen
 Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en apparatuur, te spreiden over de afschrijfbare levensduur. Voor elk vast activum moet u aangeven hoe de afschrijving wordt toegepast.  

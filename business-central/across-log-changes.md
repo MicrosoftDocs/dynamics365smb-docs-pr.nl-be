@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c04be33b2c84cd89872765a3781ad2c553ced442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0fda7235af0868a87ac4d76afa3f1030cdf83600
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138790"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523253"
 ---
 # <a name="auditing-changes-in-business-central"></a>Wijzigingen controleren in Business Central
 
@@ -40,8 +40,7 @@ Ook om prestatieredenen wordt het wijzigingslogboek uitgeschakeld tijdens het up
 > * De gebruiker heeft een ander bedrijf of rolcentrum geselecteerd.
 > * De gebruiker heeft zich af- en weer aangemeld.
 
-### <a name="working-with-the-change-log"></a>Werken met het wijzigingslogbestand
-
+### <a name="work-with-the-change-log"></a>Werken met het wijzigingslogbestand
 U activeert en deactiveert het wijzigingslogbestand op de pagina **Wijzigingslogbestandinstellingen**. Wanneer een gebruiker het wijzigingslogbestand activeert of deactiveert, wordt deze activiteit geregistreerd, zodat u altijd kunt zien welke gebruiker het wijzigingslogbestand heeft gedeactiveerd of opnieuw heeft geactiveerd.
 
 Op de pagina **Wijzigingslogbestandinstellingen** kunt u als u de actie **Tabellen** kiest, opgeven voor welke tabellen u wijzigingen wilt bijhouden en welke wijzigingen moeten worden bijgehouden. [!INCLUDE[prod_short](includes/prod_short.md)] houdt ook verschillende systeemtabellen bij.
@@ -55,8 +54,7 @@ Nadat u het wijzigingslogbestand hebt ingesteld, hebt geactiveerd en gegevens he
 
 Vanaf enkele pagina's in [!INCLUDE [prod_short](includes/prod_short.md)] kunt u een activiteitenlogboek bekijken dat de status en eventuele fouten weergeeft van bestanden waarnaar u exporteert vanuit of importeert in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="working-with-activity-logs"></a>Werken met activiteitenlogboeken
-
+### <a name="work-with-activity-logs"></a>Werken met activiteitenlogboeken
 De informatie wordt weergegeven op de pagina **Activiteitenlogboek**, volgens de context van waaruit deze wordt geopend. U kunt de pagina bijvoorbeeld openen vanuit de pagina's **Documentuitwisselingsservice instellen**, **Inkomend document**, **Geboekte verkoopfactuur** en **Geboekte verkoopcreditnota**. U kunt de lijst met logboekvermeldingen leegmaken of gewoon de lijst met vermeldingen ouder dan zeven dagen wissen.  
 
 ## <a name="monitoring-sensitive-fields"></a>Vertrouwelijke velden controleren
@@ -82,7 +80,7 @@ U kunt instellingen voor veldbewaking beheren, zoals of u een e-mailmelding wilt
 > [!NOTE]
 > Nadat u een of meer velden hebt toegevoegd en de controle hebt gestart, moet u zich afmelden bij [!INCLUDE[prod_short](includes/prod_short.md)] en u opnieuw aanmelden om uw instellingen toe te passen.
 
-### <a name="working-with-field-monitoring"></a>Werken met veldcontrole
+### <a name="work-with-field-monitoring"></a>Werken met veldcontrole
 
 Invoer voor alle gewijzigde waarden voor bewaakte velden is beschikbaar op de pagina **Logboekvermeldingen van gecontroleerde velden**. Posten bevatten bijvoorbeeld de volgende informatie:
 

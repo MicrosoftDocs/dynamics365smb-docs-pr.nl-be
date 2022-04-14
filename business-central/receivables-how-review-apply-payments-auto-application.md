@@ -10,12 +10,12 @@ ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9a4a25de9d1aab74c0c721fbdbda6704a2ae8666
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: f1d14532095fd2d34f1dbdf57a3916dbd1c561a3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383069"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513717"
 ---
 # <a name="review-and-apply-payments-manually-after-automatic-application"></a>Betalingen na automatische vereffening handmatig controleren en vereffenen
 Voor elke dagboekregel die een betaling vertegenwoordigt op de pagina **Dagboek betalingsreconciliatie** kunt u de pagina **Betalingsvereffening** openen om alle openstaande kandidaatposten voor de betaling te zien en gedetailleerde informatie voor elke post weer te geven over de gegevensafstemming waarop een betalingsvereffening wordt gebaseerd. Hier kunt u handmatig betalingen vereffenen of betalingen die automatisch met een verkeerde post zijn vereffend, opnieuw vereffenen. Zie [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md) voor meer informatie over automatische vereffening.

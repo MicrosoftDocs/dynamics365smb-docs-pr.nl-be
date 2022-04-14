@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6dbf3cbffebaf6c9ce06151a941d6517c6203863
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 9532dad89e3d88acf60e5c56af6c75ff9fc24fd1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366469"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523513"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Algemene gegevens voor vaste activa instellen
 Voordat u vaste activa kunt beheren, moet u de standaardgrootboekrekeningen, verdeelsleutels, dagboeksjablonen en - batches instellen voor de boeking en herindeling van vaste activa en kunt u vaste activa in categorieën indelen, zoals materiële en immateriële activa.

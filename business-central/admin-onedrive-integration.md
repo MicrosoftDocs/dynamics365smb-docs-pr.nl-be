@@ -1,22 +1,23 @@
 ---
 title: OneDrive-integratie met Business Central beheren
 description: Meer informatie over wat u kunt doen om integratie tussen Business Central en OneDrive te beheren.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, share, browser
-ms.date: 05/12/2021
-ms.author: bholtorf
-ms.openlocfilehash: 5debd01f9d26e5e1dc1abc1a0123073d0f7ee234
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 02/28/2022
+ms.author: jswymer
+ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382883"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514607"
 ---
-# <a name="managing-onedrive-integration-with-business-central"></a>OneDrive-integratie met Business Central beheren 
+# <a name="managing-onedrive-integration-with-business-central"></a>OneDrive-integratie met Business Central beheren
+
 Dit artikel geeft een overzicht van wat een beheerder kan doen om OneDrive-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] te beheren. [!INCLUDE[prod_short](includes/prod_short.md)] online-klanten profiteren van automatische integratie, zonder dat er extra instellingen nodig zijn om deze functies te gebruiken. 
 
 ## <a name="minimum-requirements"></a>Minimumvereisten
@@ -25,6 +26,7 @@ Dit artikel geeft een overzicht van wat een beheerder kan doen om OneDrive-integ
 * OneDrive moet voor elke gebruiker worden ingesteld.
 
 ## <a name="governance"></a>Bestuur
+
 Het SharePoint-beheercentrum biedt uitgebreide controle over het beleid dat het gebruik van OneDrive door de hele organisatie bepaalt. Globale beheerders of gebruikers met de SharePoint-beheerdersrol kunnen beleid instellen dat bepaalt wie toegang heeft tot OneDrive, waar gegevens zich bevinden, de levenscyclus van content en nog veel meer. De volgende koppelingen geven informatie over veelgebruikte functies en instellingen die uw integratie met [!INCLUDE[prod_short](includes/prod_short.md)] kunnen verbeteren. 
 
 * [Instellingen voor delen beheren](/sharepoint/turn-external-sharing-on-or-off)
@@ -39,9 +41,11 @@ Het SharePoint-beheercentrum biedt uitgebreide controle over het beleid dat het 
 > Sommige functies zijn mogelijk alleen beschikbaar voor specifieke abonnementen.
 
 ## <a name="managing-privacy"></a>Privacy beheren
+
 Beheerders en eindgebruikers beheren de inhoud die is opgeslagen in OneDrive en deze gegevens zijn uitsluitend eigendom van uw organisatie. Voor meer informatie zie [Hoe SharePoint en OneDrive uw gegevens in de cloud beveiligen](/sharepoint/safeguarding-your-data). U kunt ook een bezoek brengen aan onze [Privacyverklaring van Microsoft](https://privacy.microsoft.com/en-us/privacystatement), waarin wordt uitgelegd welke gegevens Microsoft verwerkt, hoe Microsoft deze verwerkt en voor welke doeleinden.
 
 ## <a name="restoring-onedrive-and-prod_short"></a>OneDrive en [!INCLUDE[prod_short](includes/prod_short.md)] herstellen
+
 Als onderdeel van een noodhersteloefening moeten beheerders mogelijk een [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving herstellen naar een back-up van een moment in het verleden, en OneDrive-opslag synchroniseren tot datzelfde tijdstip. OneDrive biedt hiervoor verschillende tools, zoals het herstellen van OneDrive van een gebruiker naar een eerdere tijd, een eerdere versie van een afzonderlijk bestand herstellen of verwijderde bestanden herstellen. Zie de volgende artikelen voor meer informatie:
 
 * Zie voor [!INCLUDE[prod_short](includes/prod_short.md)] [Een omgeving herstellen in het beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
@@ -70,6 +74,11 @@ Een beheerder moet de verbinding opzetten tussen [!INCLUDE[prod_short](includes/
 Voeg een geregistreerde toepassing voor Business Central toe aan uw Azure AD-tenant van uw Microsoft 365-abonnement. Net als andere Azure-services die werken met Business Central, vereist OneDrive een app-registratie in Azure Active Directory (Azure AD). De app-registratie biedt verificatie- en autorisatieservices tussen Business Central en SharePoint, wat wordt gebruikt door OneDrive.
 
 Configureer de geregistreerde toepassing met de volgende gedelegeerde machtigingen voor de SharePoint API:
+
+- AllSites.FullControl
+- User.ReadWrite.All 
+
+Stel in plaats daarvan de volgende machtigingen in voor Business Central 2021 releasewave 2 (versie 19):
 
 - AllSites.Write
 - MyFiles.Write

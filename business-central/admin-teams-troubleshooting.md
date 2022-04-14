@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147020"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528487"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problemen met Microsoft Teams-integratie oplossen met [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -155,6 +155,10 @@ Wanneer u tekst in het berichtvenster plakt in het venster **Delen met Teams** w
 ## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Kan niet inloggen op het venster Delen met Teams 
 
 Dit probleem kan verschillende oorzaken hebben. De identiteit die u gebruikt om in te loggen, moet bijvoorbeeld toegang hebben tot Microsoft Teams, bijvoorbeeld via een Microsoft 365-abonnement.
+
+## <a name="my-cards-no-longer-have-a-popout-button"></a>Mijn kaarten hebben geen pop-outknop meer
+
+Vanaf april 2022 bevatten koppelingen die in Teams als compacte kaart worden weergegeven niet langer de knop **Pop-out**. Als u die kaart in een eigen venster wilt openen, kiest u de knop **Details** en vervolgens **Openen in browser** in het menu met het beletselteken (**...**) in de rechterbovenhoek van het venster.
 
 ## <a name="see-also"></a>Zie ook
 

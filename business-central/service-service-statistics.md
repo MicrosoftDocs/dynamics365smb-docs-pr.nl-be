@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: c88081d9489e66979e4cfc757a9f5ed317a85b8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 37bd1ae61aae45a988ab38f1e25be3f870814f77
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382675"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512900"
 ---
 # <a name="viewing-service-statistics"></a>Servicestatistieken weergeven
 U kunt statistische gegevens gebruiken om servicedocumenten te analyseren en te bepalen hoe goed u uw serviceprocessen beheert. U kunt servicecontracten, artikelen, offertes, orders, facturen en creditnota's analyseren door de actie **Statistieken** te kiezen. Voor serviceartikelen en contracten kunt u ook **Serviceartikel Trendscape** of **Contract Trendscape** gebruiken om een overzicht van serviceposten voor een bepaald serviceartikel te bekijken.   
@@ -62,7 +62,7 @@ Voor elk boekingssoort kunt u het gefactureerde bedrag, het verbruik (bedrag), d
 
 * (Gefactureerd bedrag - Gebruik (Kosten)) x 100 / Gefactureerd bedrag  
 
-## <a name="using-trendscapes"></a>Trendscapes gebruiken
+## <a name="use-trendscapes"></a>Trendscapes gebruiken
 Voor serviceartikelen en servicecontracten biedt de pagina **Serviceartikel Trendscape** of **Contract Trendscape** een overzicht van serviceposten gedurende een periode voor een bepaald serviceartikel of contract. U kunt de trendscape weergeven door het serviceartikel of contract te openen, de actie **Statistieken** te kiezen en vervolgens **Trendscape** te kiezen.
 
 Wanneer u de lijst doorloopt, worden de bedragen berekend op basis van het opgegeven tijdsinterval en weergegeven in de lokale valuta. De bedragen worden berekend op basis van serviceposten. Dit zijn de posten die worden gemaakt wanneer u serviceorders of servicefacturen boekt.

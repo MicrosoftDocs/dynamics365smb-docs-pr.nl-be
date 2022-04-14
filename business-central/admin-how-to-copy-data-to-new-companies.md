@@ -1,6 +1,6 @@
 ---
 title: Gegevens kopiëren naar nieuwe bedrijven
-description: U kunt vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw bedrijf zolang beide bedrijven in dezelfde database staan.
+description: Als u RapidStart Services gebruikt, kunt u vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw bedrijf zolang beide bedrijven zich in dezelfde database bevinden.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 96a4b18cd68edc972211ee31b99f3f01f91b3dda
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ae73d23732f81994fc2553da00bdd73f0e2ba0a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132145"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518375"
 ---
-# <a name="copy-data-to-new-companies"></a>Gegevens kopiëren naar nieuwe bedrijven
+# <a name="copy-data-to-new-companies-with-rapidstart-services"></a>Gegevens kopiëren naar nieuwe bedrijven met RapidStart Services
 U kunt vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw bedrijf zolang beide bedrijven in dezelfde database staan. Indien u bijvoorbeeld een standaardlijst met symptoomcodes hebt die wordt gedeeld door al uw servicemanagementimplementaties, kunt u de codes gemakkelijk vanuit één bedrijf naar het andere kopiëren.  
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Gegevens kopiëren naar een nieuw bedrijf met behulp van RapidStart Services  

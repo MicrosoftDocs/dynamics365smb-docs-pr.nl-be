@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7d64cb9cdba21d3a023c86fbb39e802a78945c2b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 502ac0d10379166426014ea3bda0eedb1f6d601c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144215"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512008"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Standaardmagazijnen met bewerkingsgebieden instellen
 Als interne bewerkingsgebieden zoals productie of assemblage deel uitmaken van standaard magazijnconfiguraties waarin locaties het instellingsveld **Opslaglocatie verplicht** en eventueel de instellingsvelden **Pick vereist** en **Opslag vereist** gebruiken, kunt u de volgende standaard magazijndocumenten gebruiken om uw magazijnactiviteiten voor interne bewerkingsgebieden te registreren:  

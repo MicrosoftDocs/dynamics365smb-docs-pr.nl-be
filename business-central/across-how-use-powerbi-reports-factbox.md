@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: 3db84a185c47976f5d7f3aa5f166c81e4a035a89
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ccdcf519d33c9b4ee23526e773ec8eccc9e0ebdd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133342"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517186"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "8133342"
 - Power BI Desktop.
 
 <!-- 
-For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
+For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
 ## <a name="create-a-report-for-a-list-page"></a>Een rapport maken voor een lijstpagina
 
@@ -92,7 +92,7 @@ U kunt de breedte en hoogte van het rapport wijzigen door **Aangepast** in het v
 Als u wilt dat de achtergrond van het rapport wordt vermengd met de achtergrondkleur van het Power BI-feitenblokbesturingselement, stelt u de achtergrondkleur van het rapport in op *#FFFFFF* (wit). 
 
 > [!TIP]
-> Gebruik het [!INCLUDE [prod_short](includes/prod_short.md)]-themabestand om rapporten samen te stellen met dezelfde kleurstijlen als de [!INCLUDE [prod_short](includes/prod_short.md)]-apps. Zie voor meer informatie [Het rapportthema [!INCLUDE [prod_short](includes/prod_short.md)] gebruiken](across-how-use-financials-data-source-powerbi.md#theme).
+> Gebruik het [!INCLUDE [prod_short](includes/prod_short.md)]-themabestand om rapporten samen te stellen met dezelfde kleurstijlen als de [!INCLUDE [prod_short](includes/prod_short.md)]-apps. Zie [Het rapportthema [!INCLUDE [prod_short](includes/prod_short.md)] gebruiken](across-how-use-financials-data-source-powerbi.md#theme) voor meer informatie.
 
 ## <a name="reports-with-multiple-pages"></a>Rapporten met meerdere pagina's
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7d040289fbcf85b67c32147e56f13797e3bd5447
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382569"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519582"
 ---
 # <a name="the-vat-group-management-extension"></a>De extensie Btw-groepsbeheer
 
@@ -91,7 +91,7 @@ Stel het btw-groepslid in door de begeleide instelling **Btw-groepsbeheer instel
 
   In het Verenigd Koninkrijk zou de btw-rapportconfiguratie bijvoorbeeld worden ingesteld om btw aan HMRC te rapporteren. De extensie Btw-groepsbeheer kopieert deze instelling, maar vervangt de indieningscodeunit door een codeunit die indiening bij de btw-groepsvertegenwoordiger ondersteunt, in plaats van bij de belastingdienst. De codeunit wordt geleverd door Microsoft. Kies **Volgende** wanneer u klaar bent.
 
-## <a name="using-the-vat-group-management-features"></a>De beheerfuncties van btw-groepsbeheer gebruiken
+## <a name="use-the-vat-group-management-features"></a>De beheerfuncties van btw-groepsbeheer gebruiken
 
 Leden van de btw-groep gebruiken de standaardprocessen om btw-aangiften voor te bereiden. Het enige verschil is de rapportversie **BTWGROEP** te kiezen, die de btw-aangifte indient bij de btw-groepsvertegenwoordiger, in plaats van bij de autoriteiten. Zie [Informatie over het rapport Btw-aangifte](finance-how-report-vat.md#vatreturn) voor meer informatie.
 

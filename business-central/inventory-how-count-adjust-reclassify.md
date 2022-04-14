@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b25851a01a5687da3055a6b8e32becf8e6e9f018
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c683e2ff5960ce03f9c2083954c8250e2e6b39e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131625"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518063"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Voorraad tellen, corrigeren en herindelen met dagboeken
 Minstens eenmaal per jaar moet u inventariseren, dat wil zeggen, alle artikelen tellen die op voorraad zijn, om te controleren of de geregistreerde hoeveelheid in de database gelijk is aan de werkelijke hoeveelheid in de magazijnen. Wanneer de werkelijke hoeveelheid niet bekend is, moet dit in het grootboek worden geboekt in het kader van een voorraadwaardering aan het einde van een boekingsperiode.
@@ -174,9 +174,9 @@ U kunt ook de functie **Voorraad wijzigen** gebruiken als eenvoudige manier om g
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Het voorraadaantal van meerdere artikelen in standaardmagazijnconfiguraties aanpassen
 Op de pagina **Artikeldagboek** kunt u rechtstreeks artikeltransacties boeken om uw voorraad aan te passen in verband met inkopen, verkopen en positieve of negatieve mutaties, zonder documenten te gebruiken.
 
-Als u het artikeldagboek vaak gebruikt om dezelfde of vergelijkbare dagboekregels te boeken, bijvoorbeeld met betrekking tot materiële consumptie, kunt u de pagina **Standaardartikeldagboek** gebruiken om deze terugkerende taak gemakkelijker te maken. Zie [Werken met standaarddagboeken](ui-work-general-journals.md#working-with-standard-journals) voor meer informatie.
+Als u het artikeldagboek vaak gebruikt om dezelfde of vergelijkbare dagboekregels te boeken, bijvoorbeeld met betrekking tot materiële consumptie, kunt u de pagina **Standaardartikeldagboek** gebruiken om deze terugkerende taak gemakkelijker te maken. Zie [Werken met standaarddagboeken](ui-work-general-journals.md#work-with-standard-journals) voor meer informatie.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Kies de actie **Boeken** om de voorraadherwaarderingen te maken.
 
