@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523487"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557365"
 ---
 # <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
 
@@ -68,6 +68,12 @@ De batchverwerking **Wisselkoersen herwaarderen** wordt gebruikt om de wisselkoe
 
 > [!TIP]
 > U kunt een service gebruiken om de wisselkoersen in het systeem automatisch bij te werken. Zie [Een wisselkoersservice instellen](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service) voor meer informatie. Hiermee past u echter de wisselkoersen van reeds geboekte transacties niet aan. Als u de wisselkoersen van geboekte posten wilt bijwerken, moet u de batchtaak **Wisselkoersen herwaarderen** gebruiken.
+
+U kunt een voorbeeld bekijken van het effect dat een aanpassing heeft op het boeken voordat u daadwerkelijk boekt door **Voorbeeld** te kiezen op de pagina **Wisselkoersen aanpassen**. Daarnaast kunt u selecteren of de grootboekboeking gedetailleerd (per boeking) of samengevat (per valuta) wordt door **Belasting in een post** te kiezen. U kunt ook specificeren hoe dimensies voor boekingen van niet-gerealiseerde winsten en verliezen moeten worden verwerkt door een van de volgende opties te kiezen in het veld **Dimensiewaarden overdragen**:  
+
+- **Bronpost**: bij grootboekposten voor niet-gerealiseerde winsten en verliezen worden dimensiewaarden overgenomen van de aangepaste post.
+- **Op grootboekrekening**: in grootboekposten voor niet-gerealiseerde winsten en verliezen worden dimensiewaarden overgedragen van de bronpost van de dimensie-instellingen van de grootboekrekening voor niet-gerealiseerde winsten en verliezen.
+- **Geen overdracht**: grootboekposten voor niet-gerealiseerde winsten en verliezen hebben geen dimensiewaarden.
 
 ### <a name="effect-on-customers-and-vendors"></a>Effect op klanten en leveranciers
 

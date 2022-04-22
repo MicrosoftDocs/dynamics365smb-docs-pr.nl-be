@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e6e7d42af64db3c1725e9f4b54ba7ca4e4b16320
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515757"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557417"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>De te synchroniseren tabellen en velden toewijzen
 
@@ -28,6 +28,9 @@ Wanneer u de verbinding tussen de apps maakt, stelt [!INCLUDE[prod_short](includ
 
 > [!Note]
 > Als u een on-premises versie van [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt, worden de integratietabeltoewijzingen opgeslagen in tabel 5335 Integratietabeltoewijzingen, waar u de toewijzingen kunt bekijken en bewerken. Complexe toewijzingen en synchronisatieregels worden gedefinieerd in codeunit 5341. 
+
+### <a name="additional-mappings"></a>Aanvullende toewijzingen 
+Betalingscondities, verzendmethoden en expediteurs kunnen veranderen en het kan belangrijk zijn om deze aan te kunnen passen. Als u de functie **Functie-update: Functie-update: zonder code aan optiesets toewijzen in Dataverse** inschakelt op de pagina [Functiebeheer](https://businesscentral.dynamics.com/?page=2610), kunt u handmatig integratietabeltoewijzingen toevoegen voor betalingsvoorwaarden (BETALINGSVOORWAARDEN), verzendmethoden (VERZENDMETHODE) en expediteurs (EXPEDITEUR). Deze toewijzing kan ervoor zorgen dat uw beleid hetzelfde is voor deze instellingen in [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ### <a name="synchronization-rules"></a>Synchronisatieregels
 Een integratietabeltoewijzing bevat ook regels die bepalen hoe integratie-synchronisatietaken records in een [!INCLUDE[prod_short](includes/prod_short.md)]-tabel en een tabel in [!INCLUDE[prod_short](includes/cds_long_md.md)] synchroniseren. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->

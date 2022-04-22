@@ -1580,7 +1580,7 @@
 #### Microsoft Teams gebruiken met Business Central
 ##### [Overzicht](across-teams-overview.md)
 ##### [Teams-integratie beheren](admin-teams-integration.md)
-##### [Business Central-app in Teams installeren](across-install-app-for-teams.md)
+##### [Business Central-app voor Teams installeren](across-install-app-for-teams.md)
 ##### [Zoeken naar klanten, leveranciers en contacten](across-search-contacts-teams.md)
 ##### [Records en paginakoppelingen delen in Teams](across-working-with-teams.md)
 ##### [Bedrijf en andere instellingen wijzigen](across-teams-settings.md)

@@ -1,19 +1,19 @@
 ---
 title: Proefversies en abonnementen
-description: Meer informatie over het verkrijgen van een proefversie van Business Central, het werken met sandbox-omgevingen en het aanmelden voor een abonnement.
+description: Meer informatie over hoe u aan de slag gaat, hoe u werkt met sandbox-omgevingen en hoe u een abonnement op Business Central online krijgt.
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/22/2022
+ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: ce516bc49fce32c969097fbf17bb2a927f3db491
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fc77c63351a97e130c00910a2e66c9497a24d104
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511350"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557339"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Proefversies en abonnementen
 
@@ -23,21 +23,15 @@ Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq
 
 ## <a name="get-started-with-a-trial"></a>Aan de slag gaan met een proefversie
 
-U kunt zich [hier](https://go.microsoft.com/fwlink/?linkid=847861) aanmelden voor een gratis proefversie. We raden u aan om samen te werken met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) om uw organisatie op weg te helpen met [!INCLUDE[prod_short](includes/prod_short.md)]. Zie ook het artikel [Registreren voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md) om aan de slag te gaan.  
+[!INCLUDE [trial-get](includes/trial-get.md)]
+
+We raden u aan om samen te werken met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) om uw organisatie op weg te helpen met [!INCLUDE[prod_short](includes/prod_short.md)]. Zie ook het artikel [Registreren voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md) om aan de slag te gaan.  
 
 Afhankelijk van uw land of regio bevat de proefversie de talen en functionaliteit die uw land of regio vereist. Zie voor meer informatie [Taal en landinstelling wijzigen](about-locale-language.md).  
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] zullen bepaalde dingen vertrouwd voor u zijn en andere dingen niet. Wanneer u zich voor de eerste keer aanmeldt bij het demonstratiebedrijf, krijgt u toegang tot een pagina Aan de slag met koppelingen naar begeleide instellingen die u op weg kunnen helpen. Voor meer informatie zie [Voorbereiden zijn om zaken te doen](ui-get-ready-business.md) en de [snelstartgids](quick-start-business-central.md)artikelen.  
-
-Als u problemen ondervindt, kan de pagina [Veelgestelde Vragen](across-faq.yml) u helpen enkele van uw vragen te beantwoorden. Als u zich niet kon aanmelden voor de proef, kan de pagina [Problemen met aanmelden voor zelfbediening oplossen](ui-troubleshoot-self-signup.md) helpen. U kunt ook contact opnemen met een [partner](/dynamics365/business-central/across-faq#findpartner) en hen vragen om een gratis proefversie of een ander type preview van [!INCLUDE[prod_short](includes/prod_short.md)] voor u te maken.  
-
-Als u besluit [!INCLUDE [prod_short](includes/prod_short.md)] niet te gebruiken, kunt u de proefperiode laten verlopen.  
-
-[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
-
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Uw eigen gegevens toevoegen aan een leeg proefbedrijf
 
-Als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt proberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen zonder voorbeeldgegevens. De begeleide instellingshandleiding **Mijn bedrijf instellen** kan u helpen basisinformatie over uw bedrijf te specificeren. U kunt eventueel gegevens importeren uit uw bestaande bedrijfsbeheeroplossing, zodat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt evalueren met uw eigen gegevens. We raden u echter aan geen gratis proefversie te gebruiken om uw bedrijf te runnen. Neem contact met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) op voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/prod_short.md)]. De partner kan u ook helpen uw gegevens te migreren naar [!INCLUDE [prod_short](includes/prod_short.md)] online.  
+Als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt proberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen zonder voorbeeldgegevens. De begeleide instellingshandleiding **Mijn bedrijf instellen** kan u helpen basisinformatie over uw bedrijf te specificeren. U kunt eventueel gegevens importeren uit uw bestaande bedrijfsbeheeroplossing, zodat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt evalueren met uw eigen gegevens. We raden u echter sterk aan geen gratis proefversie te gebruiken om uw bedrijf te runnen. Neem contact met [een wederverkopende partner](/dynamics365/business-central/across-faq#findpartner) op voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/prod_short.md)]. De partner kan u ook helpen uw gegevens te migreren naar [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 Als 30 dagen niet genoeg zijn om te beslissen, kunt u uw proefperiode verlengen. Zie voor meer informatie [Meer tijd nodig om te beslissen of u zich wilt abonneren?](admin-extend-trial.md).  
 
@@ -65,7 +59,7 @@ De pagina **Begeleide instelling** kan andere vermeldingen bevatten. Wanneer u e
 
 ### <a name="resetting-your-prod_short-trial-experience"></a>Uw [!INCLUDE[prod_short](includes/prod_short.md)]-proefomgeving opnieuw instellen
 
-Als u gegevens aan uw gratis [!INCLUDE[prod_short](includes/prod_short.md)]-proef hebt toegevoegd en opnieuw wilt beginnen met een nieuwe ervaring, kunt u een nieuw evaluatiebedrijf maken en vervolgens het eerste bedrijf verwijderen. Open de pagina **Bedrijven** en kies **Nieuw** om de begeleide instelling **Nieuw bedrijf maken** te starten. De instelling kan u helpen bij het opzetten van een nieuw evaluatiebedrijf met voorbeeldgegevens. U kunt ook een kopie van uw huidige bedrijf maken, uitloggen en vervolgens inloggen op uw nieuwe bedrijf.  
+Als u gegevens heeft toegevoegd aan uw gratis proefversie van [!INCLUDE[prod_short](includes/prod_short.md)], kunt u nog steeds opnieuw beginnen met een nieuwe ervaring. Maak gewoon een nieuw evaluatiebedrijf en verwijder vervolgens het oorspronkelijke bedrijf. Open de pagina **Bedrijven** en kies de actie **Nieuw** om de begeleide instelling **Nieuw bedrijf maken** te starten. De instelling kan u helpen bij het opzetten van een nieuw evaluatiebedrijf met voorbeeldgegevens. U kunt ook een kopie van uw huidige bedrijf maken, uitloggen en vervolgens inloggen op uw nieuwe bedrijf.  
 
 > [!IMPORTANT]
 > Als u een [!INCLUDE[prod_short](includes/prod_short.md)] deelt met andere personen van uw organisatie, moet u ervoor zorgen dat andere personen niet zijn aangemeld wanneer u het bedrijf verwijdert.  
@@ -85,14 +79,14 @@ Zie voor meer informatie over wat u kunt doen met [!INCLUDE [prod_short](include
 
 ## <a name="get-started-with-sandboxes"></a>Aan de slag gaan met sandboxes
 
-Sandbox-omgevingen kunnen een manier zijn om te oefenen met [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt een sandbox zien als een niet-productie omgeving die u kunt gebruiken naast uw productie-exemplaar van [!INCLUDE[prod_short](includes/prod_short.md)]. Als u bijvoorbeeld de gratis online training wilt volgen van [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), kan uw beheerder [een sandbox-omgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). Zo oefenen u en uw collega's op een veilige plek in plaats van in uw productieomgeving.  
+Sandbox-omgevingen zijn een manier om te oefenen met [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt een sandbox zien als een niet-productieomgeving die u kunt gebruiken naast uw productie-exemplaar van [!INCLUDE[prod_short](includes/prod_short.md)]. Als u bijvoorbeeld de gratis online training wilt volgen van [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), kan uw beheerder [een sandbox-omgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). Zo oefenen u en uw collega's op een veilige plek in plaats van in uw productieomgeving.  
 
 Als u een ontwikkelaar bent, kunt u met een sandbox veilig extensies maken en testen en nieuwe functionaliteit ontwikkelen om de service aan te passen, zonder gevolgen voor de gegevens en instellingen van uw productieomgeving.  
 
 Op dit moment kunnen alle klanten een sandbox gebruiken, inclusief organisaties die zich hebben aangemeld voor een proefversie. Voor meer informatie over hoe u aan de slag gaat met een sandbox raadpleegt u [Sandboxomgevingen](admin-sandbox-environments.md).  
 
 > [!NOTE]
-> Sandboxes bevatten demonstratiegegevens voor het fictieve CRONUS-bedrijf. Er worden geen gegevens gekopieerd of anderszins overgedragen vanuit de productieomgeving.   
+> Sandboxes bevatten demonstratiegegevens voor het fictieve CRONUS-bedrijf. Er worden geen gegevens gekopieerd of anderszins overgedragen vanuit de productieomgeving.  
 
 De beheerder van uw [!INCLUDE[prod_short](includes/prod_short.md)] en uw wederverkoper kunnen meer omgevingen maken in het beheercentrum. Zie voor meer informatie [Het Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

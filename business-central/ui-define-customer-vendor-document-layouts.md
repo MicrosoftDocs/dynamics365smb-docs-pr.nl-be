@@ -1,6 +1,6 @@
 ---
 title: Documentlay-outs aan klanten of leveranciers toewijzen
-description: Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit klant- en leverancierskaarten om op te geven dat ze worden gebruikt voor de betreffende klant of leverancier.
+description: Gebruik documentlay-outs om het uiterlijk en de indeling te bepalen van documenten zoals facturen en orders die u naar klanten en leveranciers verzendt.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -9,49 +9,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 06/24/2021
+ms.search.form: 21, 9650
+ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f751b13485cf795acef829f40e2ff0c8f689fd0b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510751"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557391"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Documentlay-outs definiëren voor klanten en leveranciers
-Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit klant- en leverancierskaarten om op te geven welke lay-outs worden gebruikt voor verschillende soorten documenten die u voor de betreffende klant of leverancier maakt. De waarde in het veld **Gebruik** definieert voor welk proces de documentlay-out wordt gebruikt, zoals **Aanmaning**, **Verzending** en **Bevestiging**.
+Documentlay-outs gebruiken rapportlay-outs om het uiterlijk te definiëren van documenten die u naar klanten en leveranciers verzendt. Business Central biedt standaardlay-outs, maar u kunt ook aangepaste lay-outs aanpassen voor elk van uw zakenpartners. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md). U selecteert standaard en aangepaste documentlay-outs van klanten- en leverancierskaarten door de actie **Documentlay-outs** te kiezen. De waarde in het veld **Gebruik** definieert het proces waarvoor de documentlay-out wordt gebruikt. Voor klanten kunt u bijvoorbeeld de soorten documentlay-outs **Aanmaning**, **Verzending** en **Bevestiging** gebruiken.
 
-Naast het instellen van de lay-outs die voor welk document moeten worden gebruikt, kunt u tijd besparen bij het verzenden van documenten naar verschillende klant- of leverancierscontacten door de e-mailadressen van specifieke contacten in te stellen voor gebruik met specifieke documenten. Klantafschriften worden bijvoorbeeld verzonden naar accountantcontacten, verkooporders naar de kopers van uw klanten en inkooporders naar verkopers of accountmanagers van leveranciers.
+Documentlay-outs kunnen u ook tijd besparen wanneer u documenten per e-mail naar klanten- of leverancierscontacten verzendt. Voor elke lay-out die u aan de klant of het contact toewijst, kunt u een of meer contact-e-mailadressen opgeven. U kunt bijvoorbeeld een factuur sturen naar de inkoop- en magazijncontacten van de klant. Het toevoegen van contact-e-mailadressen is eenvoudig. Op de pagina **Documentlay-outs** kunt u met de actie **E-mail selecteren vanuit contacten** kiezen uit een lijst met de contact-e-mailadressen die u hebt geregistreerd voor de klant of leverancier. U kunt e-mailadressen ook handmatig toevoegen. Als u meerdere adressen invoert, scheid ze dan met een puntkomma en voeg geen spaties toe tussen de adressen.
 
-Wanneer u een documentlay-out definieert voor een klant of leverancier, kunt u ook het e-mailadres opgeven van de contactpersoon die het document moet ontvangen. U kunt dit snel doen met de functie **E-mail selecteren vanuit contacten**, die automatisch filtert op contact-e-mailadressen die zijn geregistreerd voor de betreffende klant of leverancier.
+Voordat u kunt definiëren welke documentlay-out wordt gebruikt voor welke processen en naar welke contactpersoon het document moet worden verzonden, moet u alle beschikbare rapporten (documenten) laden vanaf de pagina **Selecties rapporteren**. U kunt de documenten snel laden met behulp van de actie **Kopiëren uit rapportselectie** op de pagina **Documentlay-outs**.
 
-Voordat u kunt definiëren welke documentlay-out wordt gebruikt voor welke processen en naar welke contactpersoon het document moet worden verzonden, moet u alle beschikbare rapporten (documenten) laden vanaf de pagina **Selecties rapporteren**. U kunt dit snel doen met de functie **Kopiëren uit rapportselectie**.
+De stappen in de volgende secties beschrijven hoe u verkoopdocumentlay-outs definieert vanuit de pagina **Klantenkaart**. Voor leveranciers zijn de stappen hetzelfde vanaf de pagina **Leverancierskaart**.
 
-Hieronder wordt beschreven hoe u lay-outs van verkoopdocumenten vanaf een klantenkaart kunt definiëren. De stappen zijn hetzelfde voor lay-outs voor inkoopdocumenten van een leverancierskaart.
+## <a name="to-load-the-standard-document-layouts-for-sales-documents-for-a-customer"></a>De standaarddocumentlay-outs voor verkoopdocumenten voor een klant laden
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
+2. Open de pagina **Klantenkaart** voor de klant en kies vervolgens de actie **Documentlay-outs**.
+3. Kies op de pagina **Documentlay-outs** de actie **Kopiëren uit rapportselectie**.
 
-## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Alle beschikbare verkoopdocumenten voor een klant inschakelen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
-2. Open de kaart van de klant voor wie u documentlay-outs per bedrijfsproces wilt definiëren.
-3. Kies op de pagina **Klantenkaart** de pagina **Documentlay-outs**.
-4. Kies op de pagina **Documentlay-outs** de actie **Kopiëren uit rapportselectie**.
-
-De pagina **Documentlay-outs** voor de klant in kwestie is gevuld met alle rapportlay-outs voor verkoop die in het systeem bestaan. Zie voor meer informatie over hoe ze zijn gemaakt [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
-
-U kunt nu doorgaan met het aanpassen van de lijst met aangepaste rapportlay-outs of e-mailadressen voor de contactpersonen waarnaar de documenten moeten worden verzonden.
+De pagina **Documentlay-outs** toont alle lay-outs die beschikbaar zijn voor verkoopdocumenten. 
 
 ## <a name="to-select-a-custom-report-layout-to-use-for-the-sales-document-layout"></a>Een aangepaste rapportlay-out selecteren om te gebruiken voor de lay-out van het verkoopdocument
-Als voor een of meer van de rapportlay-outs die zijn gedefinieerd op de pagina **Documentlay-outs** voor de klant, geen aangepaste rapportlay-out is gedefinieerd, kunt u dat snel doen.
+Als u nog geen aangepaste rapportlay-out voor het type document heeft gemaakt, moet u dat eerst doen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
-1. Kies op de pagina **Documentlay-outs** op de regel voor een rapportlay-out waarvoor u een aangepaste lay-out wilt gebruiken, het veld **Aangepaste lay-outbeschrijving**. Het veld wordt ingevuld als de klantlay-out al is geselecteerd of leeg is.
-2. Selecteer op de pagina **Aangepaste rapportlay-outs** de speciale documentlay-out die u wilt gebruiken voor het betreffende verkoopdocumenttype. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
+2. Open de pagina **Klantenkaart** voor de klant en kies vervolgens de actie **Documentlay-outs**.
+3. Kies op de pagina **Documentlay-outs** op de regel voor een rapportlay-out waarvoor u een aangepaste lay-out wilt gebruiken, het veld **Aangepaste lay-outbeschrijving**.
+4. Selecteer op de pagina **Aangepaste rapportlay-outs** de speciale documentlay-out die u wilt gebruiken voor het type verkoopdocument. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
-## <a name="to-set-up-which-contact-receives-which-document-layout-for-a-customer"></a>Instellen welk contact welke documentlay-out voor een klant ontvangt
-U kunt tijd besparen bij het verzenden van documenten naar verschillende klanten of contactpersonen van leveranciers door contact-e-mailadressen op te geven op de verschillende regels op de pagina **Documentlay-outs**. Klantafschriften kunnen bijvoorbeeld worden verzonden naar accountantcontacten, verkooporders naar de kopers van uw klanten en inkooporders naar verkopers of accountmanagers van leveranciers.
+## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Opgeven welk contact welke documentlay-out voor een klant ontvangt
+Om tijd te besparen wanneer u documenten per e-mail naar contacten van klanten en leveranciers verzendt, geeft u hun e-mailadressen op in documentlay-outs. U kunt bijvoorbeeld altijd klantafschriften verzenden naar accountantcontacten van klanten, verkooporders naar inkopers van klanten en inkooporders naar verkopers van leveranciers.
 
 1. Kies op de pagina **Documentlay-outs** op de regel voor een rapportlay-out die u naar een specifiek contact voor de klant wilt verzenden, de actie **E-mail selecteren vanuit contacten**.
-2. Selecteer op de pagina **Contacten** de regel voor het relevante contact en kies vervolgens de knop **OK**.
-
-Het e-mailadres van de contactpersoon wordt nu ingevoegd op de documentlay-outregel, zodat het verkoopdocument in kwestie, bijvoorbeeld aanmaningen, altijd naar die contactpersoon in het bedrijf van de klant wordt verzonden.
+2. Selecteer op de **Contacten** een of meer contacten en kies vervolgens **OK**.
 
 ## <a name="see-also"></a>Zie ook  
 [Aangepaste rapportlay-outs bijwerken](ui-update-report-layouts.md)  
