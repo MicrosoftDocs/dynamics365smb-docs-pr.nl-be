@@ -7,22 +7,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a862cb514145d50d1a86816bbd3758055b41a872
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8ab57ff6e28abf3a40b9507375d33ffb4f1f33a3
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512744"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655500"
 ---
 # <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
-U kunt uw werkruimte aanpassen aan uw werk- en persoonlijke voorkeuren door pagina's te wijzigen zodat deze alleen de gegevens weergeven die u nodig hebt en waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat u ziet, niet wat andere gebruikers kunnen zien.
 
-U kunt alle soorten pagina's personaliseren, inclusief de rolcentrumpagina. Zie voor meer informatie over rolcentra [Rolcentrum](ui-change-basic-settings.md#role-center).
+U kunt uw werkruimte aanpassen aan uw werk en voorkeuren. Wijzig pagina's zodat ze alleen de informatie weergeven die u nodig hebt, waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat *u* ziet, niet wat andere gebruikers kunnen zien.
 
-Afhankelijk van het soort pagina en wat de pagina bevat, kunt u verschillende wijzigingen aanbrengen, zoals velden, kolommen, acties en hele onderdelen verplaatsen of verbergen, en nieuwe velden toevoegen. De meeste personalisatie moet worden gedaan door eerst de banner **Personaliseren** te activeren, maar enkele zeer eenvoudige aanpassingen, zoals kolombreedte, kunnen direct in elke lijst worden uitgevoerd.
+U kunt alle soorten pagina's personaliseren, inclusief de rolcentrumpagina. Zie voor meer informatie over rolcentra [Rolcentrum](ui-change-basic-settings.md#role-center).  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
+U kunt verschillende wijzigingen aanbrengen, zoals velden, kolommen, acties en hele delen verplaatsen of verbergen, en nieuwe velden toevoegen. De meeste personalisatie moet worden gedaan door eerst de banner **Personaliseren** te activeren. U kunt eenvoudige aanpassingen, zoals de kolombreedte, direct in elke lijst maken.
 
 > [!NOTE]
 > Beheerders kunnen dezelfde indelingswijzigingen uitvoeren als gebruikers door de werkruimte aan te passen voor een profiel dat aan meerdere gebruikers is toegewezen. Zie voor meer informatie [Pagina's aanpassen voor rollen](ui-personalization-manage.md).<br /><br />
@@ -34,13 +37,16 @@ De volgende video toont enkele manieren waarop u uw rolcentrum kunt personaliser
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
 ## <a name="to-change-the-width-of-a-column"></a>De breedte van een kolom wijzigen
-U kunt het formaat van kolommen in elke lijst eenvoudig wijzigen door de grens tussen twee kolommen naar links of rechts te slepen.
+
+U kunt het formaat van kolommen in elke lijst eenvoudig wijzigen. Sleep gewoon de grens tussen twee kolommen naar links of naar rechts.  
+
 1. Selecteer in de koptekst van een lijst de grens tussen twee kolommen.
-2. U kunt ook dubbelklikken op de grens tussen twee kolommen om de breedte van de kolom automatisch aan te passen. Dit stelt de breedte in op de optimale grootte voor leesbaarheid.
+2. U kunt ook dubbelklikken op de grens tussen twee kolommen om de breedte van de kolom automatisch aan te passen. De breedte wordt aangepast aan de optimale grootte voor leesbaarheid.
 
 Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de kolombreedte opgeslagen in uw account en volgen deze u ongeacht op welk apparaat u zich aanmeldt.
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Een pagina personaliseren via de banner **Personaliseren**
+
 1. Open een pagina die u wilt personaliseren.
 2. Selecteer in de rechterbovenhoek het pictogram ![Instellingen.](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Personaliseren**.
 
@@ -49,7 +55,7 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
     > [!NOTE]
     > Gebruik Ctrl+klik op een actie om te navigeren tijdens personalisatie als de actie wordt gemarkeerd door de pijlpunt.
 
-    Als u een ![Personalisatievergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling") of ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd") ziet in de banner, kunt u de pagina niet personaliseren. Zie voor meer informatie [Waarom is een pagina vergrendeld voor personaliseren?](ui-personalization-locked.md).
+    Als u een ![Personalisatievergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling") of ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd") ziet op de banner, kunt u de pagina niet personaliseren. Zie voor meer informatie [Waarom is een pagina vergrendeld voor personalisatie?](ui-personalization-locked.md).
 
 3. Als u een veld wilt toevoegen, kiest u de actie **+ Veld**.
 4. Sleep vanuit het deelvenster **Veld toevoegen aan pagina** een veld naar de gewenste positie op de pagina.
@@ -66,12 +72,12 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 |Verborgen acties en onderdelen weergeven.|Kies voor een grijs (verborgen) element de pijlpunt en kies vervolgens <b>Weergeven</b>.|Het verborgen element is weer zichtbaar.|
 |Een kolom of veld toevoegen.|Kies in de banner <b>Personaliseren</b> de actie <b>+ Veld</b>.<br /></br>Het deelvenster <b>Veld toevoegen aan pagina</b> wordt aan de rechterkant weergegeven. Hier staan de velden die u aan de pagina kunt toevoegen.<br /><br />Als u een veld wilt toevoegen, moet u het uit het deelvenster slepen naar de positie waar u het hebben wilt. De positie wordt aangegeven door een dikke horizontale of verticale lijn.|Elke pagina bevat een vooraf bepaalde set velden die u kunt weergeven. Gebruik deze procedure om velden of kolommen toe te voegen die niet eerder zijn weergegeven of om velden weer te geven die u hebt verborgen.|
 |Een veld weergeven in de kop van een sneltabblad wanneer dit is samengevouwen.|Kies de pijlpunt en kies vervolgens <b>Weergeven wanneer samengevouwen</b>. <br /> <br />Als u deze optie niet ziet, is deze al ingesteld. In dit geval kunt u de weergave van het veld in de sneltabbladkop stoppen door <b>Altijd weergeven</b> te kiezen.|*Sneltabblad* is de term die wordt gebruikt voor een groep velden die onder een gezamenlijke kop worden weergegeven. Gebruik de optie <b>Weergeven wanneer samengevouwen</b> om de belangrijkste velden weer te geven. Als u een veld in de kop selecteert, wordt het sneltabblad geopend met de focus op het geselecteerde veld.<br /><br />Deze optie is alleen van toepassing als een pagina meerdere sneltabbladen bevat. Als er slechts één sneltabblad is, kan het niet worden samengevouwen, dus is de optie <b>Weergeven wanneer samengevouwen</b> niet beschikbaar.|
-|Een veld alleen-weergeven maken wanneer u **Meer tonen** selecteert.|Kies de pijlpunt en kies vervolgens <b>Weergeven onder 'Meer tonen'</b>. <br /> <br />Als u de optie <b>Weergeven onder "Meer tonen"</b> niet ziet, is deze al ingesteld. In dit geval kunt u een veld altijd laten weergeven, en niet alleen wanneer u **Meer tonen** selecteert, door <b>Altijd weergeven</b> te kiezen.||
+|Een veld alleen-weergeven maken wanneer u **Meer tonen** selecteert.|Kies de pijlpunt en kies vervolgens <b>Weergeven onder 'Meer tonen'</b>. <br /> <br />Als u de optie <b>Weergeven onder 'Meer tonen'</b> niet ziet, is deze al ingesteld. In dit geval kunt u een veld altijd laten weergeven, en niet alleen wanneer u **Meer tonen** selecteert, door <b>Altijd weergeven</b> te kiezen.||
 |Het bevroren deelvenster in een lijst in een andere kolom wijzigen. |Kies de pijlpunt van de kolom die u als laatste van het bevroren deelvenster hebben wilt, en kies vervolgens <b>Bevroren deelvenster instellen</b>.<br /><br/>Als u het bevroren deelvenster terug wilt verplaatsen naar de oorspronkelijke positie waarvoor het bestemd was, kiest u de pijlpunt voor de kolom met het huidige bevroren deelvenster en kiest u <b>Bevroren deelvenster wissen</b>. Opmerking: u kunt dit bevroren deelvenster niet verwijderen.|Het bevroren deelvenster geeft de kolommen aan die altijd links worden weergegeven, zelfs als u horizontaal schuift.|  
 |Een veld overslaan wanneer u op Enter drukt.|Kies de pijlpunt naast het veld of de kolomkop in een lijst en kies **Uitsluiten van snelinvoer**. <br /><br /> Als u deze optie niet ziet, is het veld al ingesteld om te worden overgeslagen. In dit geval kunt u het overslaan van het veld stoppen door **Opnemen in snelinvoer** te kiezen. |Zie [Gegevensinvoer versnellen met snelinvoer](ui-enter-data.md#QuickEntry)|
 |Weergaven die gefilterde lijsten vertegenwoordigen, opnieuw rangschikken en verwijderen.|Kies de pijlpunt naast een weergave en kies vervolgens **Verplaatsen**, **Verwijderen** of **Verbergen**.|Zie [Lijstweergaven opslaan en personaliseren](ui-views.md)|  
 |Voeg een nieuwe actie toe aan een pagina of rapport in uw rolcentrum.|Kies op de doelpagina, de rapportverzoekpagina of het venster Vertel me het bladwijzerpictogram.|Zie [Een bladwijzer maken van een pagina of rapport in uw rolcentrum](ui-bookmarks.md)|
-|Start een lijst altijd uitgevouwen of samengevouwen|Kies de knop Alles uitvouwen of Alles samenvouwen in de linkerbovenhoek van de lijst of kies de actie Alles uitvouwen of Alles samenvouwen in het menu van de eerste kolom. |Is van toepassing op samenvouwbare hiërarchielijsten|
+|Start een lijst altijd uitgevouwen of samengevouwen|Kies in de linkerbovenhoek van de lijst **Alles uitvouwen** of **Alles samenvouwen**. U kunt ook de actie **Alles uitvouwen** of **Alles samenvouwen** kiezen in het menu van de eerste kolom. |Is van toepassing op samenvouwbare hiërarchielijsten|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Acties personaliseren
 
@@ -79,7 +85,7 @@ Met personalisatie kunt u bepalen welke acties op de navigatie- en actiebalk en 
 
 Er zijn enkele termen waarmee u vertrouwd moet zijn om actiepersonalisatie beter te begrijpen: *actiegroep* en *gepromoveerde categorie*.  
 
-Een *actiegroep* is een element dat wordt vergroot om meer acties of groepen weer te geven. Op de pagina **Verkooporders** is de actie **Functies** die wordt weergegeven wanneer u de actie **Acties** kiest, bijvoorbeeld een actiegroep.
+Een *actiegroep* is een element dat wordt vergroot om meer acties of groepen weer te geven. Op de pagina **Verkooporders** is één actiegroep bijvoorbeeld de actie **Functies**, die wordt weergegeven wanneer u de actie **Acties** kiest.
 
 Een *gepromoveerde categorie* is een actiegroep die vóór de verticale lijn `|` op de actiebalk wordt weergegeven. De categorieën omvatten meestal de meest gebruikte acties, zodat u deze snel kunt vinden. Bijvoorbeeld op de pagina **Verkooporders** zijn de acties **Order**, **Vrijgeven** en **Boeken** gepromoveerde categorieën.
 
@@ -87,7 +93,9 @@ Een *gepromoveerde categorie* is een actiegroep die vóór de verticale lijn `|`
 > U kunt de actiebalk die in onderdelen op de pagina verschijnt, niet personaliseren (bijvoorbeeld het gedeelte met verkoopregels op de pagina **Verkooporder**).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Acties en actiegroepen verwijderen, verbergen en weergeven
-Als u een actie wilt weergeven of verbergen, definiëren de opties onder de pijlpunt wat u kunt doen, afhankelijk van de status van de actie.
+
+Als u een actie wilt weergeven of verbergen, definiëren de opties onder de pijlpunt wat u kunt doen, afhankelijk van de status van de actie. 
+
 1. Kies de pijlpunt voor een actie of actiegroep.
 2. Kies een van de volgende opties:
 
@@ -98,6 +106,7 @@ Als u een actie wilt weergeven of verbergen, definiëren de opties onder de pijl
 |**Weergeven**|Deze optie wordt weergegeven als de actie of actiegroep eerder is verborgen (lichtgekleurd). Als u deze optie kiest, wordt de actie of actiegroep weergegeven op de navigatie- of actiebalk.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Acties en actiegroepen verplaatsen
+
 Waar u acties of actiegroepen kunt neerzetten wordt aangegeven door een horizontale lijn tussen twee acties of een rand rond een actiegroep. Hier gelden de volgende beperkingen:
 
 - U kunt individuele acties verplaatsen naar gepromoveerde categorieën, maar u kunt de volgorde van de acties in de categorie niet wijzigen.
@@ -106,10 +115,9 @@ Waar u acties of actiegroepen kunt neerzetten wordt aangegeven door een horizont
 1. Als u een actie of actiegroep wilt verplaatsen, sleept u deze naar de gewenste positie, net als met velden en kolommen.
 2. Als u een actie of actiegroep verplaatst naar een andere actiegroep die leeg is, sleept u de actie of actiegroep naar de nieuwe groep en zet u deze neer in het kader **Hier een actie neerzetten**.
 
-
 ## <a name="personalizing-parts"></a><a name="Parts"></a>Onderdelen personaliseren
 
-Onderdelen zijn gebieden op een pagina die doorgaans zijn samengesteld uit meerdere velden, grafieken of andere inhoud en die kunnen worden geïdentificeerd door een gekleurde rand wanneer de focus op het onderdeel wordt ingesteld. Een startscherm van een rolcentrum bestaat bijvoorbeeld uit meerdere delen. Vanwege hun goed gedefinieerde grens kunt u het hele onderdeel en de inhoud ervan personaliseren.
+Onderdelen zijn gebieden op een pagina die doorgaans zijn samengesteld uit meerdere velden, grafieken of andere inhoud. Een onderdeel toont een gekleurde rand wanneer u op het onderdeel focust. Een startscherm van een rolcentrum bestaat bijvoorbeeld uit meerdere delen. Vanwege hun goed gedefinieerde grens kunt u het hele onderdeel en de inhoud ervan personaliseren.
 
 - Om een onderdeel te verplaatsen, sleept u het naar de gewenste positie. Een gekleurde lijn geeft geldige posities op het scherm aan. Feitenblokken kunnen bijvoorbeeld alleen worden verplaatst naast andere feitenblokken in het deelvenster Feitenblok.
 - U kunt een onderdeel verbergen door de optie **Verbergen** te kiezen onder de pijlpunt.
@@ -117,21 +125,24 @@ Onderdelen zijn gebieden op een pagina die doorgaans zijn samengesteld uit meerd
 
 U kunt alle personalisatiewijzigingen die u in één onderdeel hebt aangebracht, wissen door de optie **Personalisatie wissen** te kiezen onder de pijlpunt van het onderdeel. Personalisatie van een onderdeel wissen heeft alleen invloed op wijzigingen in de inhoud van het onderdeel, niet op de plaatsing of zichtbaarheid van het onderdeel op de pagina.  
 
-
 ## <a name="to-clear-personalization"></a>Personalisatie wissen
 Op een bepaald moment wilt u mogelijk sommige of alle personalisatiewijzigingen ongedaan maken die u in de loop van de tijd op een pagina hebt aangebracht.
 
 1. Kies op de banner **Personaliseren** de actie **Personalisatie wissen**.
-2. Kies een van de volgende opties. Het wissen van personalisatie kan niet ongedaan worden gemaakt.
+2. Kies een van de volgende opties.  
+
+> [!CAUTION]
+> Het wissen van personalisatie kan niet ongedaan worden gemaakt.
 
 |Optie|Wat het doet|
 |------|------------
-|**Alleen navigatiemenu**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht in het navigatiemenu dat wordt gedeeld door het rolcentrum en andere pagina's. Dit omvat alle nieuwe acties die als bladwijzers zijn toegevoegd en eventuele wijzigingen in koppelingen en groepen in het menu.|  
+|**Alleen navigatiemenu**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht in het navigatiemenu dat wordt gedeeld door het rolcentrum en andere pagina's. Dergelijke wijzigingen omvatten alle nieuwe acties die als bladwijzers zijn toegevoegd en eventuele wijzigingen in koppelingen en groepen in het menu.|  
 |**Alleen acties**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht in de navigatie- of actiebalk op de pagina.|
-|**Alleen velden, kolommen en onderdelen**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht op de pagina, behalve wijzigingen in de navigatie- of actiebalk. Dit omvat wijzigingen in velden, kolommen, onderdelen en tegels. |
-|**Alle**|Wist alle personalisatie die u ooit in de pagina hebt aangebracht, zodat de pagina weer de oorspronkelijke weergave krijgt. Dit omvat wijzigingen in de navigatie- en actiebalk, velden, kolommen, onderdelen en tegels.|
+|**Alleen velden, kolommen en onderdelen**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht op de pagina, behalve wijzigingen in de navigatie- of actiebalk. Dergelijke wijzigingen omvatten wijzigingen in velden, kolommen, onderdelen en tegels. |
+|**Alle**|Wist alle personalisatie die u ooit in de pagina hebt aangebracht, zodat de pagina weer de oorspronkelijke weergave krijgt. Dergelijke wijzigingen omvatten wijzigingen in de navigatie- en actiebalk, velden, kolommen, onderdelen en tegels.|
 
-## <a name="additional-points-of-interest"></a>Aanvullende interessante zaken
+## <a name="other-points-of-interest"></a>Andere interessante zaken
+
 Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrijpen hoe personaliseren in zijn werk gaat.
 
 - Als u wijzigingen aanbrengt in een kaartpagina die u kunt openen vanuit een lijst, worden de wijzingen doorgevoerd voor alle records die vanuit die lijst worden geopend. Als u bijvoorbeeld vanuit de lijstpagina Klanten een bepaalde klant opent en vervolgens de pagina personaliseert door een veld toe te voegen. Als u andere klanten vanuit die lijst opent, wordt het veld dat u hebt toegevoegd ook weergegeven.

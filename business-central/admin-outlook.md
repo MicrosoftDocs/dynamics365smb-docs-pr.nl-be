@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518349"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654928"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>De Business Central-invoegtoepassing voor Outlook verkrijgen
 
@@ -42,6 +42,9 @@ De Business Central-invoegtoepassing voor Outlook bestaat uit twee kleinere invo
 Zie [Business Central gebruiken als uw zakelijke inbox in Outlook](work-outlook-addin.md) voor meer informatie over wat u doet met de invoegtoepassingen.
 
 Elke invoegtoepassing wordt geleverd als een XML-bestand, genaamd een *manifest*, dat in Outlook moet worden geïnstalleerd voor iedereen die deze functionaliteit wil. Deze bestanden beschrijven hoe u de invoegtoepassingen activeert en verbinding maakt met Business Central wanneer ze in Outlook worden gebruikt. Het werken met deze bestanden wordt meestal gedaan door een beheerder. Als normale gebruiker hoeft u in de meeste gevallen niet direct met deze bestanden om te gaan. Ofwel uw beheerder stelt de invoegtoepassing zo in dat deze automatisch voor u wordt geïnstalleerd of u gebruikt de ingebouwde begeleide instelling om de installatie af te handelen.
+
+> [!IMPORTANT]
+> Werken met meerdere omgevingen? De Business Central-invoegtoepassing voor Outlook is ontworpen om te werken met één Business Central-omgeving. Wanneer de invoegtoepassing is geïnstalleerd, wordt de naam van de omgeving opgenomen in het manifest van de invoegtoepassing. Deze configuratie betekent dat de invoegtoepassing alleen verbinding maakt met de omgeving van waaruit deze is geïnstalleerd. Om de invoegtoepassing met een andere omgeving te gebruiken, opent u de omgeving en installeert u de invoegtoepassing opnieuw.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>De invoegtoepassing implementeren met behulp van gecentraliseerde implementatie als beheerder
 

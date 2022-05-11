@@ -7,26 +7,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: a87b28c49aa2c6e532755abe760e5aa1af39c6e3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: df32f9823a84165e27c592a7a02caede6a2e0480
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382349"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655136"
 ---
 # <a name="visit-our-video-library"></a>Bezoek onze videobibliotheek
 
-Het is bekend dat sommige mensen liever materiaal bekijken dan lezen. Daarom hebben we enkele korte, gemakkelijk te verwerken video's gemaakt die op zichzelf kunnen worden bekeken of als aanvulling op onze gebruikersondersteuning.  
+U hebt onze documentatie gevonden. Het is bekend dat sommige mensen liever materiaal bekijken dan lezen. Daarom maken we korte, licht verteerbare video's. De meeste video's vormen een aanvulling op onze gebruikersondersteuning en sommige kunnen op zichzelf worden bekeken.  
 
 Als u nog niet bekend bent met [!INCLUDE[prod_short](includes/prod_short.md)], kunt u de introductievideo's vanaf de welkomstpagina starten. Als u al in [!INCLUDE[prod_short](includes/prod_short.md)] werkt, kunt u naar de bibliotheek gaan vanuit de rolcentra **Bedrijfsmanager** en **Accountant** door de tegel **Productvideo's** te kiezen.  
 
-U kunt ook onze procedurevideo's en veel andere inhoud bekijken in de YouTube-afspeellijst die we hebben gemaakt voor [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de video's nu wilt bezoeken, [klikt u hier](https://go.microsoft.com/fwlink/?linkid=851533).
+U kunt ook onze procedurevideo's en veel andere inhoud bekijken in de YouTube-afspeellijst die we hebben gemaakt voor [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de video's nu wilt bezoeken, [kijkt u hier](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > Video's in de bibliotheek worden in een vrij klein kader weergegeven. U kunt dit kader groter maken door op de dubbelzijdige pijl in de rechterbovenhoek te klikken. Vervolgens worden video's in het grotere kader weergegeven tot u dit weer kleiner maakt.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="see-also"></a>Zie ook
 

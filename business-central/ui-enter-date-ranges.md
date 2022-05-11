@@ -7,26 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518873"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655110"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
 
-[!INCLUDE[prod_short](includes/prod_long.md)] biedt meerdere manieren om datums en tijden in te voeren, inclusief krachtige functies die gegevensinvoer versnellen of u helpen complexe agenda-expressies te schrijven. Er zijn verschillende plaatsen in de toepassing waar u datums en tijden in velden kunt invoeren. Bijvoorbeeld in een verkooporder kunt u de verzenddatum instellen. Wanneer u lijsten of rapportgegevens filtert, kunt u datums en tijden invoeren om alleen de gegevens te krijgen waarin u geïnteresseerd bent.
+U kunt op meerdere manieren datums en tijden invoeren. [!INCLUDE[prod_short](includes/prod_long.md)] bevat krachtige functies die gegevensinvoer versnellen of u helpen bij het schrijven van complexe agenda-uitdrukkingen. Er zijn verschillende plaatsen in de toepassing waar u datums en tijden in velden kunt invoeren. Bijvoorbeeld in een verkooporder kunt u de verzenddatum instellen. Wanneer u lijsten of rapportgegevens filtert, kunt u datums en tijden invoeren om alleen de gegevens te krijgen waarin u geïnteresseerd bent.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="check-your-region-and-language-settings"></a>Uw regio- en taalinstellingen controleren
+
 De pagina **Mijn instellingen** geeft de **Regio** en **Taal** op die u in de toepassing gebruikt. Deze instellingen bepalen hoe u datums en tijden invoert.
 
--   De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.
+- De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's.
 
--   Voor datumpatronen met woorden moet de taal van de woorden overeenkomen met de instelling **Taal**.
+- Voor datumpatronen met woorden moet de taal van de woorden overeenkomen met de instelling **Taal**.
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_long.md)] gebruikt het Gregoriaanse kalendersysteem.
@@ -37,9 +40,13 @@ The following sections describe how you can enter dates, times, datetimes, durat
 
 ## <a name="entering-dates"></a>Datums invoeren
 
-In een datumveld kunt u een datum invoeren met de standaardnotatie voor uw regio-instelling. Verschillende regio's kunnen verschillende scheidingstekens hebben tussen de dagen, maanden en jaren. Sommige regio's gebruiken bijvoorbeeld streepjes (mm-dd-jjjj) en andere gebruiken voorwaartse schuine strepen (mm/dd/jjjj). U kunt echter elk scheidingsteken gebruiken, zelfs een spatie, en de datum wordt automatisch aangepast aan het scheidingsteken dat overeenkomt met uw regio.
+In een datumveld kunt u een datum invoeren met de standaardnotatie voor uw regio-instelling. Verschillende regio's kunnen verschillende scheidingstekens hebben tussen de dagen, maanden en jaren. Sommige regio's gebruiken bijvoorbeeld streepjes (mm-dd-jjjj) en andere gebruiken voorwaartse schuine strepen (mm/dd/jjjj).  
 
-De notatie waarin datums in afgedrukte rapporten of ge-e-mailde documenten worden weergegeven, wordt niet beïnvloed door uw persoonlijke keuze van de regio-instelling.
+> [!TIP]
+> U kunt elk scheidingsteken gebruiken, zelfs een spatie, en de datum wordt automatisch aangepast aan het scheidingsteken dat overeenkomt met uw regio.
+
+> [!NOTE]
+> De notatie waarin datums in afgedrukte rapporten of ge-e-mailde documenten worden weergegeven, wordt niet beïnvloed door uw persoonlijke keuze van de regio-instelling.
 
 Als u productiever met datums en tijden wilt werken, kunt u elke methode of notatie gebruiken die in de volgende gedeelten wordt beschreven.
 
@@ -55,7 +62,7 @@ Zie ook [Sneltoetsen in de kalenderdatumkiezer](keyboard-shortcuts.md#calendarsh
 
 U kunt een datum als dag van de week invoeren, gevolgd door een weeknummer en desgewenst een jaar. Bijvoorbeeld Maa25 of maa25 betekent maandag in week 25. Als u geen jaar invoert, wordt het jaar van de werkdatum gebruikt.
 
-U kunt in plaats van het volledige woord voor de dag van de week een deel van het woord invoeren, vanaf het begin. In het geval van conflicten (zoals met z, wat zowel zaterdag als zondag kan zijn), worden de dagen geëvalueerd op basis van de instellingen van de regio. De invoer wordt ook eerst geëvalueerd tegen werkdatum en vandaag, dus houd daar rekening mee wanneer u afkortingen gebruikt. v betekent bijvoorbeeld al vandaag, dus het kan niet ook vrijdag betekenen.
+U kunt in plaats van het volledige woord voor de dag van de week een deel van het woord invoeren, vanaf het begin. Als er conflicten waren (zoals met z, wat zowel zaterdag als zondag kan zijn), worden de dagen geëvalueerd op basis van de instellingen van de regio. De invoer wordt ook eerst geëvalueerd tegen werkdatum en vandaag, dus houd daar rekening mee wanneer u afkortingen gebruikt. _v_ betekent bijvoorbeeld al vandaag, dus het kan niet ook vrijdag betekenen.
 
 Het schema van het weeknummer is altijd ISO 8601, waar week 1 de week met 4 januari erin is of de week met de eerste donderdag van het jaar.
 
@@ -78,7 +85,7 @@ Voer het woord in voor _vandaag_, in de taal vermeld op de pagina **Mijn instell
 
 ### <a name="period"></a>Periode
 
-Als u wilt filteren op een specifieke boekingsperiode, voert u in een datumveld de letter p of het woord periode in, gevolgd door een nummer dat de boekingsperiode aangeeft, zoals p2 of periode4. De boekhoudperiode is relatief aan het boekjaar van de huidige werkdatum die u instelt in uw rolcentrum. Als de werkdatum bijvoorbeeld **21/3/22** is, wordt met p1 of alleen p gefilterd op de eerste boekingsperiode van het boekjaar 2022 (bijvoorbeeld 01/01/22..01/31/22). Met p15 wordt gefilterd op de vijftiende boekingsperiode vanaf het begin van het boekjaar 2022 (bijvoorbeeld 03/01/23..03/31/23).
+Als u wilt filteren op een specifieke boekingsperiode, voert u in een datumveld de letter p of het woord periode in, gevolgd door een nummer dat de boekingsperiode aangeeft, zoals p2 of periode4. De boekhoudperiode is relatief aan het boekjaar van de huidige werkdatum die u instelt in uw rolcentrum. Als de werkdatum bijvoorbeeld **21-3-22** is, wordt met _p1_ of alleen _p_ gefilterd op de eerste boekingsperiode van het boekjaar 2022 (bijvoorbeeld 1-1-22..31-1-22). Met _p15_ wordt gefilterd op de vijftiende boekingsperiode vanaf het begin van het boekjaar 2022 (bijvoorbeeld 1-3-23..31-3-23).
 
 De boekhoudperioden worden gedefinieerd op de pagina **Boekingsperioden**. Als u de boekingsperioden wilt weergeven of wijzigen, opent u de pagina [hier](https://businesscentral.dynamics.com/?page=100).
 
@@ -94,7 +101,7 @@ Als u geen werkdatum heeft opgegeven, wordt de datum van vandaag gebruikt. Zie v
 
 Als u een boekjaar afsluit, kunt u ultimodatums gebruiken om aan te geven dat het om een ultimopost gaat. Een ultimodatum ligt technisch gezien tussen twee datums in, zoals tussen 31 december en 1 januari.
 
-Als u een datum wilt opgeven die een ultimodatum is, plaatst u U vlak vóór de datum, bijvoorbeeld U311201. Dit kan in combinatie met alle datumpatronen worden gebruikt.
+Als u een datum wilt opgeven die een ultimodatum is, plaatst u U vlak vóór de datum, bijvoorbeeld U311201. Dit notatie kan in combinatie met alle datumpatronen worden gebruikt.
 
 ### <a name="examples"></a>Voorbeelden
 
@@ -134,18 +141,19 @@ In lijsten, totalen en rapporten kunt u filters instellen op datum, tijden en da
 U kunt iedere geldige indeling in datumbereikfilters gebruiken. Bijvoorbeeld maa14 3..v 4p, toegepast op een datum/tijd-veld leidt tot een filter van 3 uur 's morgens op maandag, in week 14 van het huidige werkdatumjaar tot en met vandaag om 4 uur 's middags.
 
 ## <a name="use-date-formulas"></a>Datumformules gebruiken
+
 Een datumformule is een korte, afgekorte combinatie van letters en cijfers op basis waarvan datums worden berekend. U kunt datumformules invoeren in verschillende datumberekeningsvelden of -filters.
 
 > [!NOTE]
->  In alle datumformulevelden wordt automatisch één dag opgenomen om ervoor te zorgen dat de huidige dag wordt gebruikt als begindatum van de periode. Als u dus bijvoorbeeld 1W invoert, zal de periode in feite acht dagen bestrijken omdat vandaag ook wordt opgenomen. Als u een periode van zeven dagen \(exact één week\) wilt opgeven, inclusief de begindatum van de periode, moet u 6D of 1W-1D opgeven.
+> In alle datumformulevelden wordt automatisch één dag opgenomen om ervoor te zorgen dat de huidige dag wordt gebruikt als begindatum van de periode. Als u dus bijvoorbeeld 1W invoert, zal de periode in feite acht dagen bestrijken omdat vandaag ook wordt opgenomen. Als u een periode van zeven dagen \(exact één week\) wilt opgeven, inclusief de begindatum van de periode, moet u 6D of 1W-1D opgeven.
 
 Hier volgen enkele voorbeelden van het gebruik van datumformules:
 
--   De datumformule in de frequentievelden van periodieke dagboeken geeft aan hoe vaak de dagboekregel moet worden geboekt.
+- De datumformule in de frequentievelden van periodieke dagboeken geeft aan hoe vaak de dagboekregel moet worden geboekt.
 
--   De datumformule in het veld **Respijtperiode** van een bepaald aanmaningsniveau bepaalt hoelang de vervaldatum \(of de datum van de vorige aanmaning\) moet zijn verstreken voordat een aanmaning wordt gemaakt.
+- De datumformule in het veld **Respijtperiode** van een bepaald aanmaningsniveau bepaalt hoelang de vervaldatum \(of de datum van de vorige aanmaning\) moet zijn verstreken voordat een aanmaning wordt gemaakt.
 
--   De datumformule in het veld **Vervaldatumformule** bepaalt hoe de vervaldatum voor de aanmaning wordt berekend.
+- De datumformule in het veld **Vervaldatumformule** bepaalt hoe de vervaldatum voor de aanmaning wordt berekend.
 
 De datumformule kan maximaal 20 tekens bevatten (cijfers en letters). U kunt de volgende letters gebruiken als afkorting voor kalendereenheden.
 
@@ -223,15 +231,15 @@ Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
+> In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
 
 Here are some examples of how date formulas can be used:
 
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
+- The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
 
--   The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
+- The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
 
--   The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
+- The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
 
 The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.
 
@@ -280,12 +288,13 @@ The following example shows how you can use a minus sign to indicate a date in t
 |-1Y|1 year ago from today|
 
 > [!IMPORTANT]
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
+> If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
 
 -->
 
 ## <a name="entering-times"></a>Tijden invoeren
-Wanneer u tijden invoert, kunt u alle gewenste niet-spatie scheidingstekens invoegen tussen de eenheden, maar als u dubbele cijfers gebruikt voor elke eenheid tot aan milliseconden, is het niet vereist.
+
+U kunt bij de invoer van tijden elk willekeurig niet-spatie scheidingsteken tussen de eenheden plaatsen. Als u dubbele cijfers gebruikt voor elke eenheid tot milliseconden, dan is dit niet vereist.
 
 U hoeft de alleen grootste eenheden te gebruiken die u nodig hebt. De rest wordt op nul ingesteld. U kunt de AM/PM-indicator ook weglaten.
 
@@ -308,9 +317,11 @@ In de volgende tabel wordt aangegeven op welke manieren u tijden kunt invoeren e
 |5:30:5.50|05:30:05,5|
 |053005050|05:30:05.05|
 
-Houd er rekening mee dat milliseconden als decimale notatie worden geïnterpreteerd. Bijvoorbeeld 3, 30 en 300 betekenen allemaal 300 milliseconden, en 03 betekent 30 en 003 betekent 3 milliseconden.
+> [!NOTE]
+> Milliseconden worden geïnterpreteerd als decimale notatie. Bijvoorbeeld 3, 30 en 300 betekenen allemaal 300 milliseconden, en 03 betekent 30 en 003 betekent 3 milliseconden.
 
-U kunt 24:00 niet voor middernacht gebruiken of een waarde groter dan 24:00 gebruiken.
+> [!IMPORTANT]
+> U kunt 24:00 niet voor middernacht gebruiken of een waarde groter dan 24:00 gebruiken.
 
 Het woord voor 'tijd' in de taal die [!INCLUDE[prod_short](includes/prod_long.md)] gebruikt, wordt geëvalueerd als de huidige tijd op uw computer of mobiele apparaat. U kunt elk deel van het woord invoeren, beginnend bij het begin, zoals t of TIJ.
 
@@ -334,11 +345,12 @@ Hier volgen enkele voorbeelden.
 
 U kunt ook een getal invoeren, dat automatisch naar een duur wordt geconverteerd. Dit gebeurt op basis van de standaardeenheid die in het veld Duur is ingevoerd.
 
-Als u wilt nagaan welke eenheid wordt gebruikt in het veld Duur, voert u een getal in en bekijkt u in welke eenheid het getal wordt omgezet.
+Voer een getal in om te zien welke maateenheid in een duurveld wordt gebruikt. Vervolgens kunt u zien naar welke maateenheid het is geconverteerd.
 
 Als de maateenheid bijvoorbeeld uren is, wordt het getal 5 bijvoorbeeld naar 5 uur geconverteerd.
 
 ## <a name="see-also"></a>Zie ook
+
 [Werken met [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)  
 [Criteria in filters invoeren](ui-enter-criteria-filters.md)  

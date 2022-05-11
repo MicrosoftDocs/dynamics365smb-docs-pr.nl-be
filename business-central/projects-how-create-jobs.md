@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557205"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626407"
 ---
 # <a name="create-jobs"></a>Projecten maken
 Wanneer u een nieuw project start, moet u een projectkaart maken met geïntegreerde projecttaken en projectplanningsregels, die uit twee lagen wordt gestructureerd.  
@@ -72,23 +72,6 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 3. Selecteer een projecttaak waarvoor **Boeking** de **projecttaaksoort** is, en kies vervolgens de actie **Projectplanningsregels**.  
 4. Vul op de pagina **Projectplanningsregels** op een nieuwe regel de benodigde velden in.
 5. Herhaal stap 3 en 4 voor alle planningsregels die u voor de projecttaak nodig hebt.
-
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Voorraad- en magazijnpickdocumenten maken voor een project
-Om voorraad- en magazijnpickdocumenten voor projecten te maken moet uw beheerder de **Functie-update: Voorraad- en magazijnpicks vanuit projecten inschakelen** op de pagina **Functiebeheer** inschakelen.
-
-De functie voegt de acties **Voorraadpick maken** en **Magazijnpick maken** toe aan de **Projectkaart**. Om een pickdocument te maken of te registreren gebruikt u de acties **Opslag-/pick-/verplaatsingsregels** of **Geregistreerde pickregels**.
-
-U kunt de acties onder de volgende voorwaarden gebruiken:
-* De **Status** van het project is **Open**.
-* De **Regelsoort** van de taakplanningsregel is **Budget** of **Zowel Budget als Factureerbaar**.
-* Het **Type** van de projectplanningsregel is **Artikel**.
-* **Pick vereist** is ingeschakeld voor de gerelateerde locatie.
-* **Gestuurde opslag en pick** is uitgeschakeld.
-
-> [!NOTE] 
-> Hoewel de instelling **Pick vereist** heet, kunt u het verbruik nog steeds rechtstreeks vanuit de projectdagboekregel voor de locatie boeken. Als voor uw vestiging wel pickverwerking maar geen verzendingsverwerking is ingesteld, gebruikt u de pagina **Voorraadpick** om de pickgegevens te beheren en af te drukken. U gebruikt de pagina ook om het resultaat van de pick in te voeren en te boeken, wat op zijn beurt het verbruik van de artikelen publiceert. 
-> 
-> Wanneer voor uw vestiging zowel pick- als verzendingsverwerking vereist is, wat wil zeggen dat u zowel het veld **Pick vereist** als het veld **Verzending vereist** hebt gekozen op de pagina **Vestiging**, gebruikt u de pagina **Magazijnpick** om de pick te verwerken. Magazijnpicks zijn vergelijkbaar met voorraadpicks. Het verschil is dat in plaats van de pickinformatie te boeken, u de pick registreert. Deze registratie boekt geen verbruik, maar maakt de artikelen alleen beschikbaar voor boeking. Als magazijnmanager kunt u met behulp van een pickvoorstel pickgegevens ordenen voordat de afzonderlijke magazijnpickinstructies worden gemaakt
 
 ## <a name="see-also"></a>Zie ook
 

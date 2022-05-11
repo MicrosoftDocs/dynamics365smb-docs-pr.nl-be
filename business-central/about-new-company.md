@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519367"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654980"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] worden de container voor bedrijfsgegevens die behoort tot een bedrijfsunit of rechtspersoon, een *bedrijf* genoemd. Wanneer u zich registreert voor [!INCLUDE[prod_short](includes/prod_short.md)], krijgt u een demonstratiebedrijf en een leeg bedrijf, *Mijn bedrijf*. Tussen bedrijven schakelen is gemakkelijk: ga naar **Mijn instellingen** en ga naar het andere bedrijf. U kunt echter ook nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)], afhankelijk van de behoeften van uw bedrijf.  
 
 Wanneer u een nieuw bedrijf maakt, helpt een begeleide instelling u de basis in te stellen. Vervolgens kunt u relevante gegevens importeren uit uw oude systeem of een ander bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="choose-the-right-template"></a>De juiste sjabloon kiezen
 
@@ -52,11 +54,11 @@ Op de pagina **Bedrijven** kunt u de actie **Kopiëren** gebruiken om een tweede
 
 ## <a name="set-up-the-company"></a>Het bedrijf instellen
 
-Als u zich aanmeldt bij een nieuw bedrijf, wordt de wizard **Bedrijfsinstelling** automatisch uitgevoerd en wordt u geholpen aan de slag te gaan. U wordt gevraagd om gegevens over uw bedrijf, zoals het adres, de bankgegevens en de voorraadwaarderingsmethode. We vragen deze informatie omdat deze wordt gebruikt als basis voor veel gebieden in [!INCLUDE[prod_short](includes/prod_short.md)] die u vervolgens later niet handmatig hoeft in te stellen.  
+Als u zich aanmeldt bij een nieuw bedrijf, wordt de wizard **Bedrijfsinstelling** automatisch uitgevoerd en wordt u geholpen aan de slag te gaan. U wordt gevraagd om gegevens over uw bedrijf, zoals het adres, de bankgegevens en de voorraadwaarderingsmethode. We vragen deze informatie omdat deze wordt gebruikt als basis voor veel gebieden in [!INCLUDE[prod_short](includes/prod_short.md)], die u vervolgens later niet handmatig hoeft in te stellen.  
 
-Uw bedrijfsadres wordt bijvoorbeeld opgenomen in facturen en andere documenten, uw bankgegevens worden gebruikt in betalingen en de waarderingsmethode wordt gebruikt om prijzen en voorraadwaarde te berekenen.  
+Bijvoorbeeld, [!INCLUDE [prod_short](includes/prod_short.md)] neemt uw bedrijfsadres op in facturen en andere documenten en uw bankgegevens in betalingen. De kostprijsberekeningsmethode wordt gebruikt om prijzen en voorraadwaardering te berekenen.  
 
-Nadat u de basis hebt ingesteld, kunt u resterende kerngebieden instellen. Vervolgens bent u klaar om bedrijfsgegevens, zoals klanten en leveranciers, toe te voegen. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] instellen](setup.md).  
+Nadat u de basis hebt ingesteld, kunt u resterende kerngebieden instellen. Vervolgens bent u klaar om bedrijfsgegevens, zoals klanten en leveranciers, toe te voegen. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen.  
 
 ## <a name="companies-and-environments"></a>Bedrijven en omgevingen
 

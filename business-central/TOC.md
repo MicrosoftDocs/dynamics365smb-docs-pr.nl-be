@@ -1569,6 +1569,7 @@
 ##### [Synchroniseren met contacten in Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Outlook optimaliseren](admin-outlook-optimize.md)
 ##### [Business Central gebruiken zonder Outlook](admin-no-outlook.md)
+##### [Veelgestelde vragen](ui-outlook-addin-faq.yml)
 ### Rapporten instellen
 #### [Rapportselectie](across-report-selections.md)
 ### Verbindingen instellen
@@ -1611,6 +1612,7 @@
 #### [Overstappen van een QuickBooks-app naar Business Central](across-quickbooks-to-business-edition.md)
 #### [Massaal factureren voor Microsoft Bookings](finance-bookings.md)
 #### [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)
+### [Bedrijfsgegevens](admin-company-information.md)
 ### [Nummerreeksen maken](ui-create-number-series.md)
 ### [Basisagenda's instellen](across-how-to-assign-base-calendars.md)
 ### [Printers instellen](ui-specify-printer-selection-reports.md)

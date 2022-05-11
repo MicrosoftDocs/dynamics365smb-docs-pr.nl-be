@@ -7,34 +7,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.search.form: 9901, 9018, 9020, 9022, 9027
+ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 02493bee3940bf1416c2485b0b45016edbca9baa
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521396"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655188"
 ---
-# <a name="exporting-your-business-data-to-excel"></a>Uw bedrijfsgegevens naar Excel exporteren
-Als u met uw gegevens van [!INCLUDE[prod_short](includes/prod_short.md)] wilt werken in Excel, kunt u alle lijsten in Excel openen en er daar mee werken. Zo ook kunt u als u uw abonnement wilt annuleren voor [!INCLUDE[prod_short](includes/prod_short.md)], uw gegevens naar Excel exporteren zodat u deze mee kunt nemen.
+# <a name="export-your-business-data-to-excel"></a>Uw Business Central-gegevens exporteren naar Excel
+
+Excel is een krachtig hulpmiddel om met gegevens te werken. Vanuit [!INCLUDE[prod_short](includes/prod_short.md)] kunt u elke lijst in Excel openen. U kunt zelfs gegevens in Excel wijzigen en deze vervolgens terugsturen naar [!INCLUDE [prod_short](includes/prod_short.md)]. Met dezelfde mogelijkheid kunt u uw gegevens gemakkelijk meenemen als u besluit uw abonnement op te zeggen.
 
 ## <a name="opening-lists-in-excel"></a>Lijsten openen in Excel
+
 U kunt gegevens van elk dagboek, elke lijst of elk werkblad openen in Excel. U opent gewoon de gewenste pagina en kiest vervolgens **Openen in Excel**. Open bijvoorbeeld de lijst met klanten (zoek naar **Klanten**) en kies vervolgens **Openen in Excel**. Uw browser vraagt of u het gegenereerde Excel-werkboek wilt openen of opslaan.  
 
 > [!NOTE]
 > Gebruik deze optie wanneer u geen wijzigingen wilt aanbrengen en deze wijzigingen wilt terug publiceren naar [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Elke lijst bevat een aantal kolommen en de export naar Excel omvat alle kolommen die uw huidige weergave bevat. Als u kolommen wilt toevoegen of verwijderen voordat u de lijst in Excel opent, opent u gewoon het snelmenu voor elke kolom en geeft u vervolgens op welke kolommen u wilt bekijken. Deze lijst met kolommen is anders voor de meeste lijsten en geeft de structuur in de database weer waarin de gegevens zijn opgeslagen. Als u niet zeker weet welk type gegevens een bepaalde kolom bevat, kunt u het toevoegen aan uw weergave en vervolgens bepalen of u het opnieuw wilt verwijderen.  
+Elke lijst bevat enkele kolommen. De export naar Excel bevat alle kolommen die zich in uw huidige weergave bevinden. Wijzig de kolommen door het snelmenu voor elke kolom te openen en vervolgens op te geven welke kolommen u wilt zien. De lijst met kolommen is voor de meeste lijsten anders. De kolommen weerspiegelen de structuur in de database waarin uw gegevens zijn opgeslagen. Als u niet zeker weet welk type gegevens een bepaalde kolom bevat, voegt u deze toe aan uw weergave. U kunt het altijd weer verwijderen.  
 
 ### <a name="edit-data-in-excel"></a>Gegevens bewerken in Excel
+
 Uw [!INCLUDE[prod_short](includes/prod_short.md)] ervaring bevat een invoegtoepassing voor Excel, zodat u gegevens in Excel kunt bewerken. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Gegevens exporteren naar andere financiële systemen
+
 Als u besluit uw abonnement te annuleren voor [!INCLUDE[prod_short](includes/prod_short.md)], kunt u uw gegevens naar Excel exporteren en ze meenemen naar uw volgende financiële systeem.  
 
-U kunt natuurlijk alle pagina's exporteren, maar dat is misschien meer dan u werkelijk nodig hebt. Overweeg daarom de volgende essentiële pagina's te exporteren en vergeet niet om alle kolommen toe te voegen, zoals eerder beschreven:  
+U kunt alle pagina's exporteren, maar dat is misschien meer dan u werkelijk nodig hebt. Overweeg daarom de volgende essentiële pagina's te exporteren en vergeet niet om alle kolommen toe te voegen, zoals eerder beschreven:  
 
 * Rekeningschema  
 * Klanten  
@@ -68,8 +72,9 @@ Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te ex
 
 > [!NOTE]
 > U moet ten minste een van de volgende machtigingen hebben om gegevens in Excel te openen of te bewerken:
->    - Machtiging ingesteld *D365 Excel-exportactie*  
->    - Systeemmachtiging 6110 *Actie Exporteren naar Excel toestaan*.  
+>
+> * Machtiging ingesteld *D365 Excel-exportactie*  
+> * Systeemmachtiging 6110 *Actie Exporteren naar Excel toestaan*.  
 
 Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 

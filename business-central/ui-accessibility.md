@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: jswymer
-ms.openlocfilehash: 9361f3b5c425374b40f3ca3f8a8401822c277048
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8f9759f0ed024b1137b27ed79b67e18b6acfdf35
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513639"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655708"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Toegankelijkheid en sneltoetsen
 
@@ -29,6 +29,8 @@ Dit artikel bevat informatie over de functies die [!INCLUDE[prod_short](includes
 - Ondersteuning voor algemene ondersteunende technologieën 
 - In- en uitzoomen op een pagina
 - Knopinfo over elementen in de gebruikersinterface
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="navigation"></a><a name="Navigation"></a> Navigatie
   

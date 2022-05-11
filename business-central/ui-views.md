@@ -6,22 +6,26 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 05cd41ffea6b2c78747112925d4da1e8a74c67b6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2a87bfa59ad6b5ccef9232afb57aa7400aea6ff2
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518795"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655682"
 ---
 # <a name="save-and-personalize-list-views"></a>Lijstweergaven opslaan en personaliseren
+
 Wanneer u een filter op een lijst hebt ingesteld en u het filter voor later wilt bewaren, kunt u het opslaan als een weergave. Zie voor meer informatie over het filteren van lijsten [Filters instellen op lijsten](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
 Als er weergaven bestaan, wordt de groep **Weergaven** boven aan het filterdeelvenster weergegeven. Weergaven zijn variaties van de lijst die vooraf zijn ingesteld met filters. U kunt per lijst zoveel weergaven definiëren en opslaan als u wilt. De weergaven zijn de volgende keer dat u de lijst opent, vanaf elk apparaat of elke browser beschikbaar.
 
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
 ## <a name="to-save-a-view"></a>Een weergave opslaan
+
 1. Open een willekeurige lijstpagina.
 2. Selecteer het ![pictogram Filterdeelvenster.](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of druk op Shift+F3 om het filterdeelvenster te openen.
 3. Stel een of meer nieuwe filters in. Zie voor meer informatie [Filters instellen voor lijsten](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -37,13 +41,16 @@ Als u de weergave geen naam geeft, krijgt deze de naam **Alles (kopiëren)**.
 > Zie u het pictogram ![Weergave opslaan](media/save_view_icon.png "Weergave opslaan") niet? Zie voor meer informatie [Waarom heb ik geen pictogram Opslaan?](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Een weergave hernoemen of verwijderen
+
 1. Voor de weergave waarin de lijst momenteel wordt weergegeven, kiest u het pictogram ![Meer opties weergeven.](media/show-more-options-icon.png "Meer opties weergeven") om te zien welke opties beschikbaar zijn.
 2. Kies de actie **Naam wijzigen** of **Verwijderen**.
 
 ## <a name="managing-many-views"></a>Veel weergaven beheren
+
 Naarmate het aantal weergaven op een pagina groeit, hebt u mogelijk extra controle nodig over hoe weergaven worden gepresenteerd in het filtervenster. Met de banner **Personaliseren** kunt u ongewenste weergaven verbergen of uw weergaven opnieuw ordenen om de perfecte volgorde te krijgen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
+
 [Veelgestelde vragen over lijstweergaven](ui-views-faq.yml)  
 [Uw werkruimte personaliseren](ui-personalization-user.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

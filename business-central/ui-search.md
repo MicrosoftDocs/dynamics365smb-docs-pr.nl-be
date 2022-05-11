@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512061"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655760"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me  
 In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en aanvullende apps en consultingservices ontdekt voor [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -33,6 +33,8 @@ Onder aan het venster **Vertel me** wordt een actie genaamd **verkennen** weerge
 
 > [!NOTE]  
 >   Als u liever het toetsenbord gebruikt, gebruikt u de Tab-toets en de pijltoetsen om een item in de resultaten te kiezen. Als u op Enter drukt op het toetsenbord zonder een resultaat te kiezen, opent [!INCLUDE[prod_short](includes/prod_short.md)] het resultaat dat het eerst wordt weergegeven.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ### <a name="finding-an-action-on-the-current-page"></a>Een actie op de huidige pagina zoeken
 In het gedeelte **Op huidige pagina** kunt u acties zoeken en uitvoeren op de pagina die u hebt geopend. Als de pagina **Verkoopofferte** open is en u 'klant' typt, bevat het gedeelte een actie waarmee de klantenkaart wordt geopend voor de gekozen klant in de verkoopofferte.

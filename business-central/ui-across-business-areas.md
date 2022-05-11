@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
+ms.search.form: 9020, 9022, 9027, 9024
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513613"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655070"
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. Zie voor meer informatie [Bedrijfsfunctionaliteit](across-business-functionality.md).
@@ -24,6 +24,8 @@ Om de taken te ondersteunen die specifiek zijn voor uw bedrijfsgebied, kunt u ge
 
 > [!NOTE]
 > Naast de algemene bedrijfsfuncties die in dit gedeelte worden beschreven, gebruikt u elke dag algemene UI-functies om met het systeem te werken. Zie [Werken met Business Central](ui-work-product.md) voor meer informatie.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onderwerpen waarin deze worden beschreven.
 
