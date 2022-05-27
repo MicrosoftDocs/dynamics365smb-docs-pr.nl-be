@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67536b129986343d67c2bc52cc3db8450e177d67
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520165"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729867"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
 > [!NOTE]
@@ -95,7 +95,14 @@ Wanneer u de functie-update **Nieuwe verkoopprijservaring** op de pagina **Funct
 > [!NOTE]
 > Als prijzen alleen op artikel- of resourcekaarten worden ingesteld, worden tijdens de gegevensupdate van de functie geen standaardprijslijsten met die prijzen ingevuld. U kunt echter elk van de standaardprijslijsten of de pagina Prijsvoorstel openen en de actie **Regels voorstellen** gebruiken om de prijzen toe te voegen die zijn ingesteld op artikel- of resourcekaarten. 
 
-* Schakel dit uit om verkoopprijslijsten te gebruiken. Bestaande prijzen worden omgezet naar een nieuwe prijslijst voor elke combinatie van klant, klantgroep of campagne, en de start- en einddatum en valuta's. Als u veel combinaties hebt, hebt u veel prijslijsten.
+* Schakel dit uit om verkoopprijslijsten te gebruiken. Bestaande prijzen worden geconverteerd naar een nieuwe prijs voor elke combinatie van de volgende: 
+
+* Klant
+* Klantengroep of campagne
+* Begin- en einddatum
+* Valuta's 
+
+Als u veel combinaties hebt, hebt u veel prijslijsten.
 
 Als u de nieuwe prijservaring al hebt ingeschakeld, kunt u handmatig standaardprijslijsten maken of een bestaande prijslijst als standaard opgeven. Om een bestaande prijslijst als standaard in te stellen zet u de schakelaar **Bijwerken van standaardinstellingen toestaan** aan in de prijslijst. Vervolgens stelt u de prijslijst als de standaard in op de pagina **Verkoopinstellingen**, **Inkoopinstellingen** of **Projectinstellingen**.
 
@@ -129,13 +136,14 @@ Als u verkoopprijzen wilt kopiëren, bijvoorbeeld om de verkoopprijzen van een i
    > Met deze batchverwerking worden alleen suggesties gemaakt en worden de voorgestelde wijzigingen niet geïmplementeerd. Als u tevreden bent met de suggesties en deze wilt implementeren (invoegen op de pagina **Verkoopprijzen**), kiest u de actie **Prijsaanpassing doorvoeren** op de pagina **Verkoopprijsvoorstel**.
 
 #### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience/)  
+U kunt aangeven of de nieuwe prijslijst de instellingen gebruikt uit de koptekst van de lijst die u kopieert, of de instellingen uit de nieuwe lijst waarnaar u kopieert. Als u de instellingen wilt gebruiken van de prijslijst waarnaar u prijzen kopieert, schakelt u de schakelaar **Standaardinstellingen van doel gebruiken** in.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijslijsten** in en kies de desbetreffende koppeling. 
 2. Kies de prijslijst die u wilt kopiëren en kies vervolgens **Regels kopiëren**.
 3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!NOTE]
-   > U kunt geen twee regels hebben met dezelfde instellingen maar verschillende prijzen. Als dat gebeurt, wordt er een bericht weergegeven wanneer u een prijslijst activeert. U kunt de te gebruiken prijs kiezen door de lijst te openen en de verkeerde prijs te verwijderen.  
+   > U kunt geen twee artikelen hebben met dezelfde instellingen maar verschillende prijzen. Als dat gebeurt, wordt er een bericht weergegeven wanneer u de prijslijst activeert. U kunt de te gebruiken prijs kiezen door de lijst te openen en de verkeerde prijs te verwijderen.  
   
 ---
 
@@ -146,8 +154,8 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 Als u artikelprijzen in bulk wilt bijwerken, bijvoorbeeld om alle artikelprijzen met een percentage te verhogen, kunt u de pagina Verkoopprijsvoorstel invullen door de volgende batchtaken te gebruiken:
 
-* **Verkoopprijsvoorstellen maken** stelt wijzigingen voor door een aanpassingsfactor toe te passen op bestaande verkoopprijzen, of door bestaande verkoopprijsafspraken te kopiëren naar andere klanten, klantprijsgroepen of verkoopcampagnes.
-* **Artikelprijsvoorstellen maken** stelt wijzigingen voor door een aanpassingsfactor toe te passen op bestaande eenheidsprijzen op artikelkaarten, of door prijzen voor te stellen voor nieuwe combinaties van valuta, maateenheden, enzovoort. De eenheidsprijzen van artikelen worden niet gewijzigd door deze batchtaak.  
+* **Verkoopprijsvoorstellen maken** stelt veranderingen op twee manieren voor. Door een aanpassingsfactor toe te passen op bestaande verkoopprijzen of door bestaande verkoopprijsafspraken te kopiëren naar andere klanten, klantprijsgroepen of verkoopcampagnes.
+* **Artikelprijsvoorstellen maken** stelt veranderingen op twee manieren voor. Door een aanpassingsfactor toe te passen op bestaande eenheidsprijzen op artikelkaarten of door prijzen voor te stellen voor nieuwe combinaties van valuta, maateenheden, enzovoort. De eenheidsprijzen van artikelen worden niet gewijzigd door deze batchtaak.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijsvoorstel** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Artikelprijsvoorstellen maken** .  
@@ -168,9 +176,9 @@ Om prijzen voor meerdere artikelen bij te werken moet u een nieuwe prijslijst ma
 ---
 
 ## <a name="best-price-calculation"></a>Berekening van beste prijs
-Nadat u speciale prijzen en regelkortingen voor verkopen en aankopen hebt vastgelegd, zorgt [!INCLUDE[d365fin](includes/d365fin_md.md)] ervoor dat uw winst altijd optimaal is. Hiermee wordt de beste prijs op verkoop- en inkoopdocumenten en op taak- en artikeldagboekregels berekent.
+Nadat u speciale prijzen en regelkortingen voor verkopen en aankopen hebt vastgelegd, berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] de beste prijs op verkoop- en inkoopdocumenten en op taak- en artikeldagboekregels.
 
-De beste prijs is de laagst toegestane prijs met de hoogst toegestane regelkorting op een bepaalde datum. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beste prijzen berekend wanneer de eenheidsprijs en het regelkortingspercentage voor artikelen op nieuwe document- en dagboekregels worden ingevoegd.
+De beste prijs is de laagst prijs met de hoogst regelkorting die toegestaan is op een bepaalde datum. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beste prijzen berekend wanneer eenheidsprijzen en de regelkortingspercentages worden opgeteld op document- en dagboekregels.
 
 > [!NOTE]  
 > Hierna wordt beschreven hoe de beste prijs voor verkoop wordt berekend. De berekening is hetzelfde voor inkopen.
@@ -199,7 +207,7 @@ U kunt factuurkortingen bij verkopen pas gebruiken nadat u bepaalde gegevens heb
 
 Als u factuurkortingen automatisch wilt berekenen, kunt u op de pagina **Verkoopinstellingen** de schakelaar **Factuurkorting berekenen** inschakelen.  
 
-Voor elke klant kunt u opgeven of u factuurkortingen toestaat als aan bepaalde criteria wordt voldaan. Bijvoorbeeld als het factuurbedrag groot genoeg is. Factuurkortingen kunnen worden opgegeven in lokale valuta voor binnenlandse klanten en in een vreemde valuta voor buitenlandse klanten.  
+U kunt opgeven of u factuurkortingen toestaat als aan bepaalde factuurcriteria wordt voldaan voor elke klant. Bijvoorbeeld als het factuurbedrag groot genoeg is. Factuurkortingen kunnen worden opgegeven in lokale valuta voor binnenlandse klanten en in een vreemde valuta voor buitenlandse klanten.  
 
 U koppelt kortingspercentages aan specifieke factuurbedragen op de pagina **Verkoopfactuurkortingen** voor elke klant. U kunt elk aantal percentages invoeren. Elke klant kan een eigen pagina hebben of u kunt verschillende klanten aan dezelfde pagina koppelen.  
 

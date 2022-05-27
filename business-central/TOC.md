@@ -237,21 +237,9 @@
 ##### [Geboekte documenten zonder inkomende documentrecords zoeken](across-how-find-posted-documents-without-income-document-records.md)
 ##### [Vele inkomende documentrecords beheren](across-how-manage-many-income-document-records.md)
 
-### Werkstroom
+### Werkstromen
 #### [Werkstroomoverzicht](across-workflow.md)
-#### Werkstromen instellen
-##### [Werkstromen instellen](across-set-up-workflows.md)
-##### [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)
-##### [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)
-##### [Werkstroomberichten](across-setting-up-workflow-notifications.md)
-##### [Opgeven wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Lay-outs maken en wijzigen](ui-get-started-layouts.md)
-<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
-##### [E-mail instellen](admin-how-setup-email.md)
-##### [Werkstromen maken](across-how-to-create-workflows.md)
-##### [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)
-##### [Werkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)
-##### [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Business Central gebruiken in Power Automate-stromen](across-how-use-financials-data-source-flow.md)
 #### Werkstromen gebruiken
 ##### [Werkstromen gebruiken](across-use-workflows.md)
 ##### [Werkstromen inschakelen](across-how-to-enable-workflows.md)
@@ -259,7 +247,7 @@
 ##### [Gebruik van een record beperken en toestaan](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md)
 ##### [Werkstromen verwijderen](across-how-to-delete-workflows.md)
-
+<!--data exchange-->
 ### Gegevens elektronisch uitwisselen
 #### [OData Exchange-overzicht](across-data-exchange.md)
 #### [Over het kader voor gegevensuitwisseling](across-about-the-data-exchange-framework.md)
@@ -672,6 +660,16 @@
 #### [Serviceboekingen](service-service-posting.md)
 #### [Serviceorders en creditnota's boeken](service-how-to-post-service-orders.md)
 #### [Uitleenartikelen uitlenen en ontvangen](service-how-to-lend-receive-loaners.md)
+<!--Shopify-->
+## Online winkel met Shopify
+### [Aan de slag met de Shopify-connector](shopify/get-started.md)
+### [Artikelen synchroniseren met Shopify](shopify/synchronize-items.md)
+### [Klanten synchroniseren met Shopify](shopify/synchronize-customers.md)
+### [Verkooporders synchroniseren en afhandelen met Shopify](shopify/synchronize-orders.md)
+### [Taken op de achtergrond uitvoeren](shopify/background.md)
+### [Problemen oplossen met de Shopify-connector](shopify/troubleshoot.md)
+### [Veelgestelde vragen voor de Shopify-connector](shopify/shopify-faq.md)
+
 <!--Company Hub-->
 ## Bedrijfshub
 ### [Werk beheren tussen bedrijven met de bedrijfshub](company-hub.md)
@@ -770,10 +768,11 @@
 ##### [Ondernemingnummers en filiaalnummers](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [De boekingsperiode beperken](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [De werkdatum als boekingsdatum instellen](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
+##### [Journaalsjablonen verplicht maken](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
 
 ### Canada
 #### [Lokale functionaliteit in de Canadese versie](LocalFunctionality/Canada/canada-local-functionality.md)
-#### Btw
+#### Belasting
 ##### [Sales tax en Goods and Services Tax in Canada aangeven](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Sales Tax rapporteren in Canada](LocalFunctionality/Canada/ca-sales-tax.md)
 ##### [Niet-gerealiseerde Sales Tax en verkoopcontantkortingen instellen](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -820,9 +819,10 @@
 
 ### Denemarken
 #### [Lokale functionaliteit in de Deense versie](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### Btw
+#### BTW
 ##### [BTW-afstemmingsrapporten afdrukken](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES-rapportage](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [Btw-registratienummer instellen voor Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Bankieren en betalingen
 ##### [FIK-details in het betalingsreconciliatiedagboek](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [De extensie Betalingen en afstemmingen (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -1329,6 +1329,7 @@
 ##### [Tegoeden-Cartera-module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Betalingen-Cartera-module](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Factuur- en creditnotatypen in verkoop- en inkoopdocumenten](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [SII instellen voor btw-rapportage](LocalFunctionality/Spain/sii-setup.md)
 #### Hoofdfinanciën
 ##### [Resultatenrekeningsaldi instellen en afsluiten](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Rekeningschema's laten inspringen en valideren](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1572,6 +1573,17 @@
 ##### [Veelgestelde vragen](ui-outlook-addin-faq.yml)
 ### Rapporten instellen
 #### [Rapportselectie](across-report-selections.md)
+### Goedkeuringswerkstromen instellen op basis van sjablonen
+#### [Goedkeuringswerkstromen instellen](across-set-up-workflows.md)
+#### [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)
+#### [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)
+#### [Werkstroomberichten](across-setting-up-workflow-notifications.md)
+#### [Opgeven wanneer en hoe gebruikers werkstroomberichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Werkstromen maken](across-how-to-create-workflows.md)
+#### [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Werkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)
+#### [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+<!--Connectors-->
 ### Verbindingen instellen
 #### [De Business Central-invoegtoepassing voor Excel verkrijgen](admin-deploy-excel-addin.md)
 #### Business Central gebruiken als uw bedrijfsinbox in Outlook 
@@ -1606,7 +1618,8 @@
 ###### [De Business Central-apps gebruiken in Power BI](across-powerbi-business-central-apps.md)
 ##### [Veelgestelde vragen](power-bi-faq.md)
 #### Power Automate gebruiken met Business Central
-##### [Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)
+##### [Business Central gebruiken in Power Automate-stromen](across-how-use-financials-data-source-flow.md)
+##### [Problemen met uw geautomatiseerde werkstromen oplossen](across-flow-troubleshoot.md)  
 #### Power Apps gebruiken met Business Central
 ##### [Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Overstappen van een QuickBooks-app naar Business Central](across-quickbooks-to-business-edition.md)
@@ -1760,23 +1773,6 @@
 ### [Gegevensvertrouwelijkheid classificeren](admin-classifying-data-sensitivity.md)
 ### [Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md)
 ### [Nieuwe bedrijven maken](about-new-company.md)
-### Een bedrijf instellen met RapidStart Services
-#### [RapidStart-overzicht](admin-set-up-a-company-with-rapidstart.md)
-#### Een bedrijfsconfiguratie instellen
-##### [Overzicht van bedrijfsconfiguratie](admin-set-up-company-configuration.md)
-##### [De bedrijfsconfiguratie beheren in een werkblad](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-##### [Een configuratiepakket voorbereiden](admin-how-to-prepare-a-configuration-package.md)
-#### Configuraties toepassen op nieuwe bedrijven
-##### [Configuraties toepassen op nieuwe bedrijven](admin-apply-configuration-to-new-companies.md)
-##### [Een nieuw bedrijf maken](admin-how-to-create-a-new-company.md)
-##### [Nieuwe bedrijven configureren](admin-how-to-configure-new-companies.md)
-##### [Een bedrijf configureren met de wizard RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [Gegevens kopiëren naar nieuwe bedrijven](admin-how-to-copy-data-to-new-companies.md)
-##### [Beginsaldi van dagboeken maken](admin-how-to-create-journal-opening-balances.md)
-#### [Instellingsgegevens van klanten verzamelen](admin-gather-customer-setup-values.md)
-#### [Migratie van klantgegevens met sjablonen voorbereiden](admin-use-templates-to-prepare-customer-data-for-migration.md)
-#### [Klantgegevens migreren](admin-migrate-customer-data.md)
-#### [Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### [Wijzigingen logbestand](across-log-changes.md)
 ### [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)
 ### [Opslag beheren door gegevens te comprimeren of documenten te verwijderen](admin-manage-documents.md)

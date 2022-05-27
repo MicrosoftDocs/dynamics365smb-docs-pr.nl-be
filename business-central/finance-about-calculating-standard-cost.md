@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149165"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729923"
 ---
 # <a name="about-calculating-standard-cost"></a>Informatie over het berekenen van vaste verrekenprijzen
 Veel productiebedrijven kiezen een waarderingsbasis voor de vaste verrekenprijs. Dit geldt ook voor bedrijven die lichte productie zoals assemblage en kitting uitvoeren. In een vaste-verrekenprijssysteem wordt de voorraadkostprijs bepaald op basis van redelijkerwijs te verwachten of historische kosten. Onderzoek van in het verleden gebruikte en voor de toekomst geschatte kosten vormen de basis voor de vaste verrekenprijs. Deze prijs ligt vast totdat wordt besloten deze prijs te wijzigen. Het is mogelijk dat de feitelijke productiekosten van een product afwijken van de geschatte vaste verrekenprijs. Vanuit managementoverwegingen wordt de feitelijke prijs voor een bepaald artikel vergeleken met de vaste verrekenprijs en worden eventuele *verschillen* geïdentificeerd en geanalyseerd.  
@@ -78,7 +78,7 @@ Teneinde de standaardcapaciteitskosten te berekenen, moet u de standaardtijdtari
 U stelt de tarieven voor al deze tijdtypen voor iedere afdeling of bewerkingsplaats in op een afzonderlijke stuklijst.  
 
 > [!NOTE]  
->  Hoewel er tarieven voor de bewerkingstijd worden toegepast per geproduceerd artikel, worden de insteltijdtarieven per lot toegepast. Daarom moet u de insteltijd voor iedere bewerking in de stuklijst evenredig verdelen ten opzichte van de lotgrootte. U geeft de lotgrootte op in het overeenkomstige veld op het sneltabblad **Bestelling** van de artikelkaart.  
+>  Hoewel er tarieven voor de bewerkingstijd worden toegepast per geproduceerd artikel, worden de insteltijdtarieven per lot toegepast. Daarom moet u de insteltijd voor iedere bewerking in de stuklijst evenredig verdelen ten opzichte van de lotgrootte. U geeft de lotgrootte op in het overeenkomstige veld op het sneltabblad **Aanvulling** van de pagina **Artikelkaart**.  
 
 Om insteltijd op het bewerkingsplan aan te geven voor de planning maar deze onkosten niet op te nemen in de berekening van de vaste verrekenprijs, wist u het veld **Kosten inclusief instelling** op de pagina **Productie-instelling**.  
 

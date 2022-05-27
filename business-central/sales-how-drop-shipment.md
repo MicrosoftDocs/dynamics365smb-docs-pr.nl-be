@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521792"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729787"
 ---
 # <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
 
@@ -30,7 +30,10 @@ Wanneer een verkooporder gemarkeerd is voor doorverzending en u een inkooporder 
 Ter voorbereiding op een doorverzending maakt u een verkooporder voor een artikel en geeft u op de verkoopregel aan dat voor de verkoop doorverzending vereist is.
 
 1. Maak een verkooporder voor een artikel. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
-2. Op de verkooporderregel voor de doorverzending schakelt u het selectievakje **Doorverzending** in. Gebruik de functie **Kolommen kiezen** als het veld niet zichtbaar is. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
+2. Op de verkooporderregel voor de doorverzending schakelt u het selectievakje **Doorverzending** in. 
+
+> [!TIP]
+> Het selectievakje Doorverzending is niet beschikbaar op de regels. Als dit niet het geval is, kunt u het toevoegen door het gedeelte van de pagina dat de regels bevat te personaliseren. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>De inkooporder voor doorverzendingen maken
 
@@ -45,13 +48,17 @@ Om een doorverzending voor te bereiden geeft u op de inkooporder aan dat deze na
 
 De regelgegevens van de verkooporder worden ingevoegd op de inkooporderregel(s).
 
-U kunt de leverancier nu opdragen om de artikelen naar de klant te verzenden, bijvoorbeeld door de inkooporder als een PDF via e-mail te verzenden. Als uw leverancier een traceringsnummer of soortgelijke informatie verstrekt, kunt u ervoor kiezen om die informatie vast te leggen in een inkooporderregel van het type *Opmerking*.  
+U kunt uw leverancier nu vertellen om de artikelen rechtstreeks naar de klant te verzenden. U kunt ze bijvoorbeeld de order per e-mail sturen. 
+
+Als uw leverancier een traceringsnummer of soortgelijke informatie verstrekt, kunt u die informatie toevoegen in een inkooporderregel van het type *Opmerking*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Meerdere inkooporders voor doorverzendingen maken
 
-U kunt ook het inkoopvoorstel gebruiken om de inkooporder voor de leverancier te maken. Het voordeel van het gebruik van het inkoopvoorstel is dat het inkooporders kan maken voor alle openstaande doorverzendingen, zodat u ze niet allemaal afzonderlijk hoeft te maken.
+U kunt ook het inkoopvoorstel gebruiken om de inkooporder voor de leverancier te maken. 
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopvoorstellen** in en kies vervolgens de gerelateerde koppeling.
+Het voordeel van het gebruik van het inkoopvoorstel is dat het inkooporders kan maken voor alle openstaande doorverzendingen. Dat betekent dat u ze niet allemaal afzonderlijk hoeft te maken.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopvoorstellen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Doorverzendingen** en kies vervolgens de actie **Verkooporder ophalen**.
 3. Kies de knop **Ok**.
 4. Bekijk de inkooporderregels en selecteer in het veld **Leveranciersnr.** de leverancier die de benodigde goederen levert. 

@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 03/22/2022
 ms.search.form: 1680, 1811, 5076
 ms.author: bholtorf
-ms.openlocfilehash: fc755362a5b29cca9eb8e8e403374e173cff3630
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516147"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729949"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>E-mailberichtuitwisselingen volgen tussen verkopers en contactpersonen
 Haal meer uit de communicatie tussen uw verkopers en klanten door e-mailuitwisselingen om te zetten in bruikbare kansen. [!INCLUDE[prod_short](includes/prod_short.md)] kan werken met Exchange Online om een logboek bij te houden van de inkomende en uitgaande berichten. U kunt de inhoud van elk bericht bekijken en analyseren op de pagina **Interactielogposten**.
@@ -67,7 +67,7 @@ Regels voor e-mailstroom zoeken naar specifieke voorwaarden voor berichten en on
 
 ---
 
-## <a name="setting-up-prod_short-to-log-email-messages"></a>[!INCLUDE[prod_short](includes/prod_short.md)] instellen om e-mailberichten te registreren
+## <a name="set-up-prod_short-to-log-email-messages"></a>[!INCLUDE[prod_short](includes/prod_short.md)] instellen om e-mailberichten te registreren
 Deze stappen zijn hetzelfde voor zowel de huidige als de nieuwe ervaringen.
 
 Ga aan de slag met e-maillogboekregistratie in twee eenvoudige stappen:
@@ -89,14 +89,27 @@ Ga aan de slag met e-maillogboekregistratie in twee eenvoudige stappen:
 - De inhoud bekijken van het e-mailbericht dat is uitgewisseld door **Verwerken** te selecteren en vervolgens **Bijlagen weergeven**.
 - Verander een e-mailuitwisseling in een verkoopkans. Als een item er veelbelovend uitziet, kunt u er een opportunity van maken en vervolgens de voortgang naar een verkoop beheren. Om van een e-mailuitwisseling een verkoopkans te maken, kiest u het item en vervolgens **Proces** en **Verkoopkans maken**. Zie voor meer informatie [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md).
 
-## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>On-premises versies verbinden met Microsoft Exchange
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Postbus- en maplimieten in Exchange Online
+Er zijn postbus- en maplimieten in Exchange Online, zoals limieten voor mapgroottes en het aantal berichten. Voor meer informatie zie [Exchange Online-limieten](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) en [Limieten voor openbare mappen in Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] slaat gelogde e-mailberichten op in een map in Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] slaat ook een link op naar elk gelogd bericht. De links openen de gelogde berichten in Exchange Online vanuit de pagina's Interactielogposten, Contactkaart en Verkoperskaart in [!INCLUDE[prod_short](includes/prod_short.md)]. Als een gelogd bericht naar een andere map wordt verplaatst, wordt de link verbroken. Een bericht kan bijvoorbeeld handmatig worden verplaatst, of Exchange Online kan automatisch AutoSplit starten wanneer een opslaglimiet is bereikt.
+
+De volgende stappen kunnen u helpen voorkomen dat koppelingen naar berichten in Exchange Online worden verbroken.
+
+1. Verplaats bestaande berichten niet naar een andere map nadat u instellingen voor uw e-mailregistratie heeft gewijzigd. Door bestaande berichten te bewaren waar ze zijn, blijven de links behouden. Links naar berichten in de nieuwe map zijn geldig.
+2. Vermijd het bereiken van de postbus- en maplimieten. Als u op het punt staat een limiet te bereiken, voert u de volgende stappen uit:
+    1. Stel een nieuwe gedeelde postbus (nieuwe ervaring) of een nieuwe gedeelde map (huidige ervaring) in Exchange Online in.
+    2. Werk uw e-mailstroomregels bij in Exchange Online.
+    3. Werk uw instellingen voor e-mailregistratie in Business Central dienovereenkomstig bij
+
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Verbind on-premises versies met Microsoft Exchange
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] on-premises met Exchange on-premises of Exchange Online verbinden voor e-mailregistratie. Voor beide versies van Exchange zijn instellingen voor de verbinding beschikbaar op de pagina **Marketinginstellingen**. Voor Exchange Online kunt u ook een begeleide instelling gebruiken.
 
 > [!IMPORTANT]
 > De nieuwe functie biedt geen ondersteuning voor een verbinding met Exchange on-premises. Als u Exchange on-premises moet gebruiken, moet u de functie-update voor de nieuwe ervaring niet inschakelen.
 
-## <a name="connecting-to-exchange-on-premises"></a>Verbinding maken met Exchange on-premises
+## <a name="connect-to-exchange-on-premises"></a>Maak verbinding met Exchange on-premises
 ## <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises wilt verbinden met Exchange on-premises, kunt u op de pagina **Marketinginstellingen** **Basis** gebruiken als het **Verificatietype** en vervolgens referenties invoeren voor het gebruikersaccount voor Exchange on-premises. Schakel vervolgens de schakelaar **Ingeschakeld** in om te beginnen met het registreren van e-mail.
 
@@ -105,7 +118,7 @@ De nieuwe functie biedt geen ondersteuning voor verbindingen met Exchange on-pre
 
 ---
 
-## <a name="connecting-to-exchange-online"></a>Verbinding maken met Exchange Online
+## <a name="connect-to-exchange-online"></a>Maak verbinding met Exchange Online
 Als u verbinding wilt maken met Exchange Online, moet u een aanvraag registreren in Azure Active Directory. Geef de toepassings-id, het sleutelkluisgeheim en de omleidings-URL op voor de registratie. De omleidings-URL wordt vooraf ingesteld en zou voor de meeste installaties moeten werken. Zie voor meer informatie [Een toepassing registreren in Azure AD voor verbinding van Business Central met Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Om verbinding te maken moet u **OAuth2** gebruiken als het **Verificatietype**. U moet ook een aanvraag registreren in Azure Active Directory. Geef de toepassings-id, het sleutelkluisgeheim en de omleidings-URL op voor de registratie. De omleidings-URL wordt vooraf ingevuld en zou voor de meeste installaties moeten werken. Zie voor meer informatie Een toepassing registreren in Azure AD voor verbinding vanuit Business Central met Exchange Online, hieronder.
@@ -214,6 +227,8 @@ Schakel uw huidige instellingen uit, wijzig de gebruiker op de pagina **E-maillo
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **E-maillogboekregistratie** in en kies vervolgens de gerelateerde koppeling. 
 2. Kies **Acties** en dan **Token vernieuwen**.
 3. Meld u aan met het account Exchange Online dat de geplande taak gebruikt om verbinding te maken met de gedeelde mailbox en e-mails te verwerken.
+
+
 
 ## <a name="see-also"></a>Zie ook
 [Relaties beheren](marketing-relationship-management.md)

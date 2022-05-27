@@ -9,23 +9,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4995a1776beacd444912124da5e9e6315f6a22f8
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521188"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740218"
 ---
-# <a name="administration"></a>Beheer
+# <a name="administration-tasks"></a>Beheertaken
 
 Centrale beheertaken worden meestal uitgevoerd door één rol in het bedrijf. De omvang van deze taken kan afhangen van de bedrijfsgrootte en de functieverantwoordelijkheden van de beheerder. Deze taken kunnen het beheer van databasesynchronisatie van verwerkings- en e-mailwachtrijen, instellen van gebruikers en aanpassen van de gebruikersinterface zijn.  
 
 Voor het succes van nieuwe zakelijke software is het van belang dat vanaf het begin de juiste instellingswaarden worden ingevoerd. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een aantal begeleide instellingen waarmee u hoofdgegevens kunt instellen. Zie [Business Central instellen](setup.md) voor meer informatie.
 
 > [!NOTE]
-> U kunt een nieuw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Zie voor meer informatie [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> U kunt de hulpprogramma's voor gegevensmigratie gebruiken om bestaande gegevens te migreren naar [!INCLUDE [prod_short](includes/prod_short.md)] online. U kunt ook een nieuw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van configuratiepakketten om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Zie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) voor meer informatie.
 
-Ongeacht of u RapidStart Services gebruikt om instellingswaarden te implementeren of ze handmatig invoert in het nieuwe bedrijf, u kunt uw installatiebeslissingen ondersteunen met enkele algemene aanbevelingen voor bepaalde instellingsvelden die, als ze niet goed zijn ingesteld, de oplossing inefficiënt laten werken.  
+U kunt uw instellingsbeslissingen ondersteunen met enkele algemene aanbevelingen voor geselecteerde instellingsvelden waarvan bekend is dat ze mogelijkerwijs de oplossing inefficiënt maken wanneer ze onjuist zijn ingesteld.  
 
 Een supergebruiker of gebruiker kan het kader voor gegevensuitwisseling instellen zodat gebruikers gegevens in bank- en salarisbestanden kunnen importeren en exporteren. bijvoorbeeld voor verschillende processen in kasbeheer. Zie [Gegevens elektronische uitwisselen](across-data-exchange.md) voor meer informatie.
 
@@ -48,7 +48,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |In het kader van het maken van Connect Apps tussen [!INCLUDE[prod_short](includes/prod_short.md)] en oplossingen van andere fabrikanten via REST API's, definieert u sjablonen die worden gebruikt om lege eigenschappen in een entiteit te vullen wanneer u een POST-actie maakt via een API.|[API-sjablonen configureren](admin-configuring-api-template.md)|
 |Versleutel gegevens op de [!INCLUDE[prod_short](includes/prod_short.md)]-server door nieuwe coderingssleutels te genereren of bestaande sleutels te importeren die u op de server inschakelt.|[Gegevensversleuteling beheren](admin-manage-data-encryption.md)|
 |Verbind Dynamics 365 Sales met [!INCLUDE[prod_short](includes/prod_short.md)] om naadloze integratie te krijgen tussen klantrelaties en orderverwerking in het potentiële klant-naar-contanten proces.|[Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
-|Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen en de oplossing uitbreiden met apps.|[Aanpassen [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
+|Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen en de oplossing uitbreiden met apps.|[[!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md) aanpassen|
 
 ## <a name="administration-in-the-admin-center"></a>Beheer in het beheercentrum
 

@@ -6,14 +6,15 @@ ms.topic: conceptual
 ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 072018473e408e662628cb9c9b4efdf7ff4c5410
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 39825fea306b83a5b05a53df08210c8795e3303f
+ms.sourcegitcommit: e86f0bd15604c2fb327e3182929c44a4172790c7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149304"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786217"
 ---
 # <a name="create-payment-journal-templates-and-batches-in-the-belgian-version"></a>Betalingsdagboeksjablonen en -batches maken in de Belgische versie
+
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] worden betalingsvoorstellen gegenereerd en geboekt in betalingsdagboeken. De structuur van het betalingsdagboek lijkt op die van andere dagboeksoorten. Het betalingsdagboek bevat echter enkele velden die specifiek betrekking hebben op het verwerken van betalingen. Voordat u betalingsvoorstellen kunt genereren, moet u een betalingsdagboeksjabloon en een betalingsdagboekbatch instellen.  
 
 U kunt een specifieke pagina en een testrapport toewijzen aan elke dagboeksjabloon. Hierdoor kunt u uw binnenlandse betalingen en internationale betalingen beheren via deze aangepaste pagina. De opgegeven *broncode* wordt gekopieerd naar alle dagboekregels die worden gemaakt op basis van de dagboeksjabloon. De code wordt ook naar de posten gekopieerd wanneer deze worden geboekt. Zo kunt u altijd zien waar een geboekte post vandaan komt.
@@ -50,9 +51,9 @@ U kunt onder elke dagboeksjabloon meerdere dagboekbatches instellen. Er kunnen m
 
 ## <a name="see-also"></a>Zie ook
 
-[Belgische elektronische betalingen](belgian-electronic-payments.md)   
-[Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)   
-[IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)
-
+[Belgische elektronische betalingen](belgian-electronic-payments.md)  
+[Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)  
+[IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)  
+[Dagboeksjablonen verplicht maken](specify-journal-template-mandatory.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

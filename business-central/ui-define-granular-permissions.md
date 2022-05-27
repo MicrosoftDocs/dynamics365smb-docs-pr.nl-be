@@ -1,42 +1,46 @@
 ---
 title: Gedetailleerde machtigingen definiëren
-description: In dit onderwerp wordt beschreven hoe u gedetailleerde machtigingen kunt definiëren door bepaalde gebruikers toegang te geven tot objecten en machtigingensets aan hen toe te wijzen.
+description: In dit artikel wordt beschreven hoe u gedetailleerde machtigingen definieert en elke gebruiker de machtigingensets toewijst die ze nodig hebben om hun werk te doen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
-ms.date: 03/24/2022
+ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: ca0373fc55fb14d43dae9ce5bc51c0063c88a2af
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522524"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729854"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Machtigingen toewijzen aan gebruikers en groepen
 
-Beheerders gebruiken het beveiligingssysteem [!INCLUDE[prod_short](includes/prod_short.md)] om te controleren tot welke objecten een gebruiker toegang heeft binnen elke database of omgeving, in combinatie met de toegekende licenties. U kunt voor elke gebruiker opgeven of deze gegevens in de geselecteerde databaseobjecten mag lezen, wijzigen of invoeren. Zie [Gegevensbeveiliging](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in inhoud voor ontwikkelaars en beheerders voor [!INCLUDE[prod_short](includes/prod_short.md)] voor meer informatie.
+Het beveiligingssysteem van [!INCLUDE[prod_short](includes/prod_short.md)] bepaalt tot welke objecten een gebruiker toegang heeft binnen elke database of omgeving, in combinatie met de licentie van de gebruiker. U kunt voor elke gebruiker opgeven of deze gegevens in de geselecteerde databaseobjecten mag lezen, wijzigen of invoeren. Zie [Gegevensbeveiliging](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in inhoud voor ontwikkelaars en beheerders voor [!INCLUDE[prod_short](includes/prod_short.md)] voor meer informatie.
 
-Voordat u machtigingen toewijst aan gebruikers en gebruikersgroepen, moet u definiëren wie zich mag aanmelden door gebruikers te maken volgens de licentie die in het Microsoft 365-beheercentrum is gedefinieerd. Zie [Gebruikers maken volgens licenties](ui-how-users-permissions.md) voor meer informatie.
+Voordat u machtigingen toewijst aan gebruikers en gebruikersgroepen, moet u definiëren wie zich mag aanmelden door gebruikers te maken volgens hun licentie. Zie [Gebruikers maken volgens licenties](ui-how-users-permissions.md) voor meer informatie.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bevat twee machtigingsniveaus voor databaseobjecten:
 
 - Algemene machtigingen volgens de licentie, ook wel een recht genoemd.
 
   De licenties bevatten standaard machtigingensets. Vanaf releasewave 1 van 2022 kunnen beheerders deze standaardmachtigingen aanpassen voor de relevante licentietypen. Zie [Machtigingen configureren op basis van licenties](ui-how-users-permissions.md#licensespermissions) voor meer informatie.  
+
 - Meer gedetailleerde machtigingen die worden toegewezen vanuit [!INCLUDE[prod_short](includes/prod_short.md)].
 
   In dit artikel wordt beschreven hoe u machtigingen in [!INCLUDE [prod_short](includes/prod_short.md)] kunt definiëren, gebruiken en toepassen om de standaardconfiguratie te wijzigen.  
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
+Zie voor meer informatie [Gedelegeerde beheerderstoegang tot Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] online bevat standaard gebruikersgroepen die automatisch aan gebruikers worden toegewezen op basis van hun licentie. U kunt de standaardconfiguratie wijzigen door gebruikersgroepen, machtigingensets en machtigingen aan te passen of toe te voegen. De volgende tabel geeft een overzicht van de belangrijkste scenario's voor het wijzigen van de standaardmachtigingen.  
 
 |Als u dit wilt doen:  |Zie  |
 |---------|---------|
-|Om het gemakkelijker te maken om machtigingen voor meerdere gebruikers te beheren, kunt u ze organiseren in gebruikersgroepen en zo in één actie één machtigingsset voor meerdere gebruikers toewijzen of wijzigen.| [Machtigingen beheren via gebruikersgroepen](#to-manage-permissions-through-user-groups) |
+|Om het gemakkelijker te maken om machtigingen voor meerdere gebruikers te beheren, kunt u ze organiseren in gebruikersgroepen en dan in één actie één machtigingsset voor meerdere gebruikers toewijzen of wijzigen.| [Machtigingen beheren via gebruikersgroepen](#to-manage-permissions-through-user-groups) |
 |Machtigingensets beheren voor specifieke gebruikers | [Machtigingssets toewijzen aan gebruikers](#to-assign-permission-sets-to-users) |
 |Leren hoe u een machtigingenset definieert|[Een machtigingenset maken of wijzigen](#to-create-or-modify-a-permission-set)|
 |Specifieke machtigingen beheren|[Machtigingen handmatig maken of wijzigen](#to-create-or-modify-permissions-manually)|
@@ -54,7 +58,7 @@ Met gebruikersgroepen kunt u machtigingensets in het hele bedrijf beheren. [!INC
 
 Maak eerst een gebruikersgroep. Wijs daarna machtigingssets toe aan de groep om te definiëren welk object toegankelijk is voor gebruikers van de groep. Wanneer u gebruikers aan de groep toevoegt, gelden de machtigingssets die voor de groep zijn ingesteld, ook voor deze gebruikers.
 
-Machtigingssets die via een gebruikersgroep aan een gebruiker zijn toegewezen, blijven gesynchroniseerd, zodat een wijziging in de gebruikersgroepmachtigingen automatisch naar de gebruiker wordt doorgevoerd. Als u een gebruiker uit een gebruikersgroep verwijdert, worden de desbetreffende machtigingen automatisch ingetrokken.
+Machtigingensets die via een gebruikersgroep aan een gebruiker zijn toegewezen, blijven gesynchroniseerd. Een wijziging in de gebruikersgroeprechten wordt automatisch doorgegeven aan de gebruikers. Als u een gebruiker uit een gebruikersgroep verwijdert, worden de desbetreffende machtigingen automatisch ingetrokken.
 
 ### <a name="to-add-users-to-a-user-group"></a>Gebruikers aan een gebruikersgroep toevoegen
 
@@ -94,16 +98,16 @@ De volgende procedure licht toe hoe u machtigingssets aan een gebruikersgroep to
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
 2. Selecteer de desbetreffende gebruiker op de pagina **Gebruikers** en kies de actie **Machtigingsset per gebruikersgroep**.
-3. Selecteer op de pagina **Machtigingsset per gebruikersgroep** het selectievakje **[naam van gebruikersgroep]** op een regel voor de desbetreffende machtigingsset om de set aan de gebruikersgroep toe te wijzen.
+3. Selecteer op de pagina **Machtigingsset per gebruikersgroep** het veld **[naam van gebruikersgroep]** op een regel voor de desbetreffende machtigingsset om de set aan de gebruikersgroep toe te wijzen.
 4. Schakel het selectievakje **Alle gebruikersgroepen** in om de machtigingsset aan alle gebruikersgroepen toe te wijzen.
 
 U kunt machtigingssets ook rechtstreeks aan een gebruiker toewijzen.
 
 ## <a name="to-assign-permission-sets-to-users"></a>Machtigingssets toewijzen aan gebruikers
 
-Een machtigingsset is een verzameling machtigingen voor specifieke databaseobjecten. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[prod_short](includes/prod_short.md)]. 
+Een machtigingsset is een verzameling machtigingen voor specifieke databaseobjecten. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Een [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing bevat een aantal vooraf gedefinieerde machtigingssets die door Microsoft of uw oplossingsprovider zijn toegevoegd. U kunt ook nieuwe machtigingssets toevoegen die zijn afgestemd op de behoeften van uw organisatie. Zie voor meer informatie het gedeelte [Een machtigingset maken of bewerken](#to-create-or-modify-a-permission-set).
+Een [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing bevat vooraf gedefinieerde machtigingssets die door Microsoft of uw oplossingsprovider zijn toegevoegd. U kunt ook nieuwe machtigingssets toevoegen die zijn afgestemd op de behoeften van uw organisatie. Zie voor meer informatie het gedeelte [Een machtigingset maken of bewerken](#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Als u de toegang van een gebruiker niet meer wilt beperken dan in de licentie is gedefinieerd, kunt u een speciale machtigingsset met de naam SUPER toewijzen aan de gebruiker. Deze machtigingsset zorgt ervoor dat de gebruiker toegang heeft tot alle objecten die in de licentie zijn opgegeven.
@@ -159,7 +163,7 @@ Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven
 
 ### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Beveiligingsfilters beperken de toegang van een gebruiker tot specifieke records in een tabel
 
-Voor beveiliging op recordniveau in [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt u beveiligingsfilters om de toegang van een gebruiker tot gegevens in een tabel te beperken. U maakt beveiligingsfilters voor tabelgegevens. Een beveiligingsfilter beschrijft een set records in een tabel waarvoor een gebruiker toegangsrechten heeft. U kunt bijvoorbeeld opgeven dat een gebruiker alleen de records kan lezen die gegevens over een bepaalde klant bevatten. Dit betekent dat de gebruiker geen toegang heeft tot de records die informatie over andere klanten bevatten. Zie voor meer informatie [Beveiligingsfilters gebruiken](/dynamics365/business-central/dev-itpro/security/security-filters) in de beheerinhoud.
+Voor beveiliging op recordniveau in [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt u beveiligingsfilters om de toegang van een gebruiker tot gegevens in een tabel te beperken. U maakt beveiligingsfilters voor tabelgegevens. Een beveiligingsfilter beschrijft een set records in een tabel waarvoor een gebruiker toegangsrechten heeft. U kunt bijvoorbeeld opgeven dat een gebruiker alleen de records kan lezen die gegevens over een bepaalde klant bevatten. Zo heeft de gebruiker geen toegang tot de records die informatie over andere klanten bevatten. Zie voor meer informatie [Beveiligingsfilters gebruiken](/dynamics365/business-central/dev-itpro/security/security-filters) in de beheerinhoud.
 
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Een machtigingenset maken of wijzigen
@@ -186,26 +190,29 @@ U kunt ook een kopieerfunctie gebruiken om snel alle machtigingen uit een andere
 
 1. Op de pagina **Machtigingensets** selecteert u de naam van een machtigingenset die u wilt kopiëren en kiest u vervolgens de actie **Machtigingenset kopiëren**.
 2. Op de pagina **Machtigingenset kopiëren** geeft u de naam op van de nieuwe machtigingenset en kies de knop **OK**.
-3. Selecteer het selectievakje **Informeren bij gewijzigde machtigingenset** als u een koppeling tussen de oorspronkelijke en gekopieerde machtigingensets wilt bijhouden. De koppeling wordt vervolgens gebruikt om u te melden als de naam of inhoud van de oorspronkelijke machtigingenset in een toekomstige versie van de oplossing verandert.
+3. Selecteer het selectievakje **Informeren bij gewijzigde machtigingenset** als u een koppeling tussen de oorspronkelijke en gekopieerde machtigingensets wilt bijhouden. Op deze manier ontvangt u een melding als de naam of inhoud van de oorspronkelijke machtigingenset in een toekomstige versie verandert.
 
-De nieuwe machtigingenset, die alle machtigingen van de gekopieerde machtigingenset bevat, wordt toegevoegd als nieuwe regel op de pagina **Machtigingensets**. Nu kunt u machtigingen in de nieuwe machtigingsset wijzigen. De regels worden alfabetisch gesorteerd binnen elk type.
+De nieuwe machtigingenset, die alle machtigingen van de gekopieerde machtigingenset bevat, wordt toegevoegd als nieuwe regel op de pagina **Machtigingensets**. Nu kunt u machtigingen in de nieuwe machtigingsset wijzigen. 
+
+> [!TIP]
+> De regels worden alfabetisch gesorteerd binnen elk type.
 
 ### <a name="to-export-and-import-a-permission-set"></a>Een machtigingenset exporteren en importeren
 
-Om snel machtigingen in te stellen, kunt u machtigingensets importeren die u vanuit een andere [!INCLUDE[prod_short](includes/prod_short.md)]-tenant hebt geëxporteerd.
+Om snel machtigingen in te stellen kunt u machtigingensets importeren die u vanuit een andere [!INCLUDE[prod_short](includes/prod_short.md)]-tenant hebt geëxporteerd.
 
-In omgevingen met meerdere tenants wordt een machtigingenset geïmporteerd in een specifieke tenant, dus het bereik van de import is 'Tenant'.
+In multitenant-omgevingen wordt een machtigingenset geïmporteerd in een specifieke tenant. Met andere woorden, het bereik van de import is: *Tenant*.
 
 1. Selecteer in tenant 1 op de pagina **Machtigingensets** de regel of regels van de machtigingensets die u wilt kopiëren en kies vervolgens de actie **Machtigingensets exporteren**.
 
-    Er wordt een XML-bestand gemaakt in de downloadmap op uw computer. Standaard heet het 'Export Permission Sets.xml'
+    Er wordt een XML-bestand gemaakt in de downloadmap op uw computer. Standaard heet het *Export Permission Sets.xml*.
 
 2. Selecteer in tenant 2 op de pagina **Machtigingensets** de actie **Machtigingensets importeren**.
-3. Bedenk op de dialoogpagina **Machtigingensets importeren** of u bestaande machtigingensets wilt samenvoegen met nieuwe machtigingensets in het xml-bestand.
+3. Bedenk op de dialoogpagina **Machtigingensets importeren** of u bestaande machtigingensets wilt samenvoegen met nieuwe machtigingensets in het XML-bestand.
 
-    Als u het selectievakje **Bestaande machtigingen bijwerken** inschakelt, worden bestaande machtigingensets met dezelfde naam als die in het xml-bestand samengevoegd met de geïmporteerde machtigingensets.
+    Als u het selectievakje **Bestaande machtigingen bijwerken** inschakelt, worden bestaande machtigingensets met dezelfde naam als die in het XML-bestand samengevoegd met de geïmporteerde machtigingensets.
 
-    Als u het selectievakje **Bestaande machtigingen bijwerken** niet inschakelt, worden bestaande machtigingensets met dezelfde naam als die in het xml-bestand overgeslagen tijdens import. In dat geval wordt u op de hoogte gesteld van machtigingensets die worden overgeslagen.
+    Als u het selectievakje **Bestaande machtigingen bijwerken** niet inschakelt, worden bestaande machtigingensets met dezelfde naam als die in het XML-bestand overgeslagen tijdens import. In dat geval wordt u op de hoogte gesteld van machtigingensets die worden overgeslagen.
 
 4. Zoek en selecteer op de dialoogpagina **Importeren** het XML-bestand dat u wilt importeren en kies vervolgens de actie **Openen**.
 
@@ -227,7 +234,7 @@ In elk van de vijf toegangstypevelden, **Lezen**, **Invoegen**, **Wijzigen**, **
 |------|-----------|-------|
 |**Ja**|De gebruiker kan de actie op het betreffende object uitvoeren.|Hoogste|
 |**Indirect**|De gebruiker kan de actie op het betreffende object uitvoeren maar alleen via een ander, gerelateerd object waartoe de gebruiker volledige toegang heeft. Zie [Eigenschap Machtigingen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) in Help voor ontwikkelaars en IT-Pro voor meer informatie over indirecte machtigingen|Op een na hoogste|
-|**Leeg**|De gebruiker kan de actie niet op het betreffende object uitvoeren.|Laagste|
+|**Leeg**|De gebruiker kan de actie op het betreffende object uitvoeren.|Laagste|
 
 > [!IMPORTANT]
 > Wees voorzichtig bij het toewijzen van **Invoegmachtiging** of **Wijzigmachtiging** aan de tabel **9001 Gebruikersgroepslid** of **9003 Machtigingenset van gebruikersgroep**. Alle gebruikers die aan de machtigingenset zijn toegewezen, kunnen zichzelf mogelijk toewijzen aan andere gebruikersgroepen, die hen op hun beurt onbedoelde machtigingen kunnen geven.
@@ -249,7 +256,7 @@ De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel Inkoopre
 4. Kies de actie **Machtigingen**.
 5. Kies op de pagina **Machtigingen** de actie **Machtigingen registreren** en kies de actie **Starten**.
 
-    Hierdoor wordt een opnameproces wordt gestart dat al uw acties in de gebruikersinterface vastlegt.
+    Hierdoor wordt een opnameproces gestart dat al uw acties in de gebruikersinterface vastlegt.
 6. Ga naar de verschillende pagina's en activiteiten in [!INCLUDE[prod_short](includes/prod_short.md)] waartoe u gebruikers met deze machtigingenset toegang wilt verlenen. U moet de taken uitvoeren waarvoor u machtigingen wilt opnemen.
 7. Om de opname te stoppen, gaat u terug naar de pagina **Machtigingen** en kiest u de actie **Stoppen**.
 8. Kies de knop **Ja** om de opgenomen toegangsrechten aan de nieuwe machtigingenset toe te voegen.
@@ -261,19 +268,23 @@ De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel Inkoopre
 
 ## <a name="to-set-up-user-time-constraints"></a>Tijdsbeperkingen voor gebruikers instellen
 
-Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken en ook kunnen opgeven of het systeem de tijdsduur vastlegt gedurende welke gebruikers zijn aangemeld. Beheerders kunnen ook divisies toewijzen aan gebruikers. Zie [Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.
+Beheerders kunnen perioden definiëren waarin bepaalde gebruikers kunnen posten. Beheerders kunnen ook specificeren of het systeem registreert hoe lang gebruikers zijn ingelogd. Zo kunnen beheerders ook divisies toewijzen aan gebruikers. Zie [Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Gebruikersinstellingen** die wordt geopend, de actie **Nieuw**.
 3. Voer in het veld **Gebruikers-id** de id van een gebruiker in of kies het veld om alle huidige Windows-gebruikers in het systeem te zien.
 4. Vul de vereiste velden in.
 
-## <a name="viewing-permission-changes-telemetry"></a>Telemetrie van machtigingswijzigingen weergeven 
+## <a name="viewing-permission-changes-telemetry"></a>Telemetrie van machtigingswijzigingen weergeven
 
-U kunt [!INCLUDE[prod_short](includes/prod_short.md)] instellen om wijzigingen die zijn aangebracht in een machtiging, naar een Application Insights-resource in Microsoft Azure te sturen. Vervolgens maakt u met behulp van Azure Monitor rapporten en stelt u waarschuwingen in voor de verzamelde gegevens. Zie voor meer informatie de volgende artikelen in de [!INCLUDE[prod_short](includes/prod_short.md)] Ontwikkelaar en IT Pro Help:
+U kunt [!INCLUDE[prod_short](includes/prod_short.md)] instellen om wijzigingen die zijn aangebracht in een machtiging, naar een Application Insights-resource in Microsoft Azure te sturen. Vervolgens maakt u met behulp van Azure Monitor rapporten en stelt u waarschuwingen in voor de verzamelde gegevens. Zie voor meer informatie de volgende artikelen in de [!INCLUDE[prod_short](includes/prod_short.md)] Help voor ontwikkelaar en beheerders:
 
 - [Telemetrie bewaken en analyseren - inschakelen Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Veldbewakingstelemetrie bekijken](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
+## <a name="delegated-admin-users"></a>Gedelegeerde beheerders
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
 ## <a name="see-also"></a>Zie ook
 

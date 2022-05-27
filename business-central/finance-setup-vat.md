@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
-ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519237"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740323"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berekeningen en boekingsmethoden voor btw instellen
 
@@ -218,13 +218,22 @@ U moet informatie instellen over hoe de belastingdienst in uw land of regio u ve
 
 ## <a name="see-also"></a>Zie ook
 
-[Sjablonen voor btw-overzichten en namen voor btw-overzichten instellen](finance-how-setup-vat-statement.md)  
+[Sjablonen voor btw-overzichten en namen voor btw-aangiften instellen](finance-how-setup-vat-statement.md)  
 [Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)  
 [Btw-aangifte doen bij een belastingdienst](finance-how-report-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Werken met Wijzigingstool btw-tarief](finance-how-use-vat-rate-change-tool.md)  
 [Btw-nummers controleren](finance-how-validate-vat-registration-number.md)  
 [Lokale functionaliteit in Business Central](about-localization.md)  
+[Btw-aangifte in de Duitse versie](LocalFunctionality/Germany/vat-reporting.md)  
+[Belgische btw](LocalFunctionality/Belgium/belgian-vat.md)  
+[Italiaanse btw](LocalFunctionality/Italy/italian-vat.md)  
+[Elektronische btw- en ICP-aangiften instellen in de Nederlandse versie](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[Btw-rapporten in de Spaanse versie](LocalFunctionality/Spain/vat-reports.md)  
+[Boeking van Goods and Services Tax instellen in de Australische versie](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[Btw in de Tsjechische versie](LocalFunctionality/Czech/finance-vat.md)  
+[Btw-aangifte in de Noorse versie](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Aangifte van Goods/Services Tax en Harmonized Sales Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
