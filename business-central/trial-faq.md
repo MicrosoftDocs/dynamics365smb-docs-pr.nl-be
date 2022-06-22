@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 6cb42322383506a7b6633952cb171cb7c6602339
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367320"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805164"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Veelgestelde vragen (FAQ) over proefversie van Dynamics 365 Business Central
 
@@ -19,11 +19,11 @@ ms.locfileid: "8367320"
 
 ### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Kan ik de proefversie omzetten in een betaalde licentie?
 
-Ja, dat kan. Zie [Aan de slag met een abonnement](across-preview.md#get-started-with-a-subscription) voor meer informatie.  
+Ja, dat kan. Zie [Aan de slag met een abonnement](trial-signup.md#get-started-with-a-subscription) voor meer informatie.  
 
 ### <a name="what-are-the-trial-limits-and-quotas"></a>Wat zijn de limieten en targets voor de proefversie?
 
-De gratis proefversie bevat voorbeeldgegevens. Als u Business Central wilt uitproberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen met een leeg bedrijf. Zie [[!INCLUDE[prod_long](includes/prod_long.md)]-proefversies en -abonnementen](across-preview.md) voor meer informatie.  
+De gratis proefversie bevat voorbeeldgegevens. Als u Business Central wilt uitproberen met uw eigen gegevens, kunt u overschakelen naar een gratis proefversie van 30 dagen met een leeg bedrijf. Uw beheerder kan [hier](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions) meer te weten komen over proefversies en abonnementen.  
 
 ### <a name="how-do-i-start-using-the-trial"></a>Hoe ga ik aan de slag met de proefversie?
 
@@ -54,4 +54,4 @@ Dat is niet mogelijk. Als u per ongeluk voorbeeldgegevens verwijdert, vraagt u u
 [Aanmelden voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md)  
 [Veelgestelde vragen over het gebruik van Business Central](across-faq.yml)  
 [Probleemoplossing voor aanmelden bij Self-Service](ui-troubleshoot-self-signup.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)]-proefversies en -abonnementen](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]-proefversies en -abonnementen](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

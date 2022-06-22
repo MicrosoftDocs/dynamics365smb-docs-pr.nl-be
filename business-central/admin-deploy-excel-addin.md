@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e8229b1d911b51e065b3d5a94fff1a0253bd5e26
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518427"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950103"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>De Business Central-invoegtoepassing voor Excel verkrijgen
 
@@ -123,15 +123,14 @@ Netwerkservices zoals proxy's of firewalls moeten routering toestaan tussen elk 
 
 Soms ondervinden gebruikers problemen met de Excel-invoegtoepassing. Dit gedeelte geeft enkele tips voor het deblokkeren van gebruikers in bepaalde omstandigheden.
 
-|Verzenden  |Oplossing of tijdelijke oplossing  |Opmerkingen  |
+|Probleem  |Oplossing of tijdelijke oplossing  |Opmerkingen  |
 |---------|---------|---------|
 |De invoegtoepassing start niet|Controleer of de invoegtoepassing centraal wordt geïmplementeerd. Of controleer of de gebruiker is geblokkeerd tegen lokale installatie. | De beheerder kan Office zo configureren dat gebruikers geen invoegtoepassingen kunnen verkrijgen. In die gevallen moet de beheerder de invoegtoepassing centraal implementeren. Voor meer informatie zie [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Gegevens worden niet in Excel geladen|Test de verbinding door een andere lijst in Excel te openen vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. Of open de werkmap in Excel in een browser.|Als de gebruiker een bedrijfsnaam heeft opgegeven die speciale tekens bevat, kan de invoegtoepassing geen verbinding maken. |
 |Gegevens kunnen niet terug worden gepubliceerd naar [!INCLUDE [prod_short](includes/prod_short.md)].|Test de verbinding door de werkmap in Excel in een browser te openen. |Soms kan een extensie de publicatietaak blokkeren. Als de pagina is uitgebreid of aangepast, verwijdert u de extensies en probeert u het opnieuw.|
 |De datums zijn fout  |Excel toont mogelijk tijden en datums in een ander formaat dan [!INCLUDE [prod_short](includes/prod_short.md)]. Ze zijn echter niet verkeerd en de gegevens in [!INCLUDE [prod_short](includes/prod_short.md)] blijven intact.|         |
 |Voor sommige lijstpagina's veroorzaakt het bewerken van meerdere regels in Excel consequent fouten. Dit kan optreden als OData-aanroepen FlowFields en velden buiten het repeaterbesturingselement bevatten.|Selecteer op de pagina **Webservices** de selectievakjes **Niet-bewerkbare FlowFields uitsluiten** en **Velden buiten de repeater uitsluiten** voor de gepubliceerde pagina. Door deze selectievakjes in te schakelen worden niet-bewerkbare FlowFields en velden uitgesloten van de eTag-berekening. |Deze selectievakjes zijn standaard verborgen. Om ze te laten zien op de pagina **Webservices**, gebruikt u [personalisatie](/dynamics365/business-central/ui-personalization-user). |
-
-
+|Gebruikers kunnen niet langer inloggen op de invoegtoepassing. Wanneer ze proberen in te loggen, stopt het proces zonder te voltooien.| Dit probleem kan worden veroorzaakt door een update die we hebben aangebracht in de invoegtoepassing, ergens in juli 2022. Voor meer informatie en een oplossing, zie [De configuratie van de Excel-invoegtoepassing wijzigen om de update van juli 2022 te ondersteunen](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Geldt alleen voor [!INCLUDE [prod_short](includes/prod_short.md)] on-premises|
 
 <!--
 ## Deploy the Excel add-in for Business Central online

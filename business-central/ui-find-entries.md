@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: 344
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: a577e4723f7880b9e94babd645b7f35324e7d1ea
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: c5c35c8bc6a3a7827ae2893c79ce883bff6b05ea
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654799"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799861"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Gerelateerde posten zoeken voor geboekte documenten 
 
@@ -29,7 +29,7 @@ Deze functie is ook handig als u wilt zoeken naar posten uit bepaalde transactie
 
 ## <a name="get-started"></a>Aan de slag
 
-De functie voor het vinden van posten is beschikbaar op de meeste pagina's waarop geboekte documenten of geboekte documentenposten worden weergegeven, voor zowel lijsten als kaarten. Dus de eerste stap is het openen van een van deze pagina's. Kies vervolgens de actie **Posten zoeken** of druk op de toetsen Ctrl+Alt+G.
+De functie voor het vinden van posten is direct beschikbaar vanaf bijna elke pagina door op de toetsen Ctrl+Alt+Q te drukken. Vanuit pagina's die specifiek geboekte documenten of geboekte documentposten weergeven&mdash;voor zowel lijsten als kaarten&mdash;kunt u de functie ook openen door de actie **Posten zoeken** te kiezen.
 
 De pagina **Posten zoeken** bevat alle gerelateerde documenten en posten op basis van het documentnummer en de boekingsdatum. De pagina is onderverdeeld in drie secties:
 

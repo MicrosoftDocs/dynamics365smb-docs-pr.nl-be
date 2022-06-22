@@ -1,20 +1,20 @@
 ---
 title: Snelle naslag van pc-toetsenbordsneltoetsen
 description: Een afdrukbaar referentieblad met de populairste toetsenbordsneltoetsen voor pc-gebruikers.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511609"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799546"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Snelle toetsenbordnaslag - alleen pc
 
@@ -27,6 +27,7 @@ ms.locfileid: "8511609"
 |Alt+Shift+N|Een nieuw gemaakte record sluiten en een nieuwe maken|
 |Alt+O|Een nieuwe notitie toevoegen voor de geselecteerde record|
 |Alt+Q|**Vertel me** openen|
+|Ctrl+Alt+Q|**Posten zoeken** openen|
 |Alt+Pijl omhoog|Knopinfo openen of validatiefout|
 |Alt+Pijl-omlaag|Een vervolgkeuzelijst of opzoekactie openen|
 |Alt+T|De pagina **Mijn instellingen** openen|
@@ -34,7 +35,7 @@ ms.locfileid: "8511609"
 |Ctrl+Insert|Een nieuwe regel in een document invoegen|
 |Ctrl-Delete|De regel verwijderen uit een document, een dagboek of een werkblad|
 |Ctrl+Shift+F12|Het gedeelte met regelitems maximaliseren op een documentpagina|
-|Ctrl+F1|Help voor de pagina openen<br />Navigeren bij het personaliseren en aanpassen|
+|Ctrl+F1|Het helpvenster of een helpartikel openen|
 |Ctrl+klikken|Navigeren bij het personaliseren en aanpassen|
 |Shift+F12|Open de rollenverkenner, een functieoverzicht|
 |F5/Ctrl+F5|Pagina vernieuwen/opnieuw laden|

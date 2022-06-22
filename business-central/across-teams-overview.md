@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511245"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805061"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integratie tussen Business Central en Microsoft Teams
 
@@ -65,7 +65,7 @@ Zie voor meer informatie [Records en paginakoppelingen delen in Microsoft Teams]
     Als u niet zeker weet of u een account hebt of als u uw referenties niet weet om u aan te melden, neemt u contact op met de beheerder van uw bedrijf om u op weg te helpen.
 
     > [!TIP]
-    > Als uw organisatie geen [!INCLUDE [prod_short](includes/prod_short.md)]-abonnement heeft, kunt u zich aanmelden voor een gratis proefperiode. Zie [Aan de slag met een proefversie](across-preview.md#get-started-with-a-trial) voor meer informatie.
+    > Als uw organisatie geen [!INCLUDE [prod_short](includes/prod_short.md)]-abonnement heeft, kunt u zich aanmelden voor een gratis proefperiode. Voor meer informatie zie [Aanmelden voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md).
 
 2. Zie als beheerder [Microsoft Teams-integratie met Business Central beheren](admin-teams-integration.md) voor informatie over het instellen van gebruikers om te werken met [!INCLUDE [prod_short](includes/prod_short.md)] en Teams.
 3. [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren in Teams. Zie [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md).

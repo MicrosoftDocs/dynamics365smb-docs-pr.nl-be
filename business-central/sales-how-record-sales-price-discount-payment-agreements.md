@@ -1,5 +1,5 @@
 ---
-title: Verkoopprijzen en kortingen voor klanten instellen | Microsoft Docs
+title: Speciale verkoopprijzen en kortingen registreren
 description: Beschrijft hoe u prijs- en kortingsovereenkomsten voor verkoopdocumenten definieert.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2021
+ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 5f3d851356954ddf71411190f5f486633936c05a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729867"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950159"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
+
 > [!NOTE]
-> In releasewave 2 van 2020 hebben we gestroomlijnde processen uitgebracht voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent en die versie gebruikt, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd in **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> In releasewave 2 van 2020 hebben we nieuwe, gestroomlijnde processen geïntroduceerd voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent en de meest recente versie gebruikt, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd in **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt verschillende prijsstrategieën, zoals:
+
 * One-price-fits-all-modellen waarbij een artikel altijd voor dezelfde prijs wordt verkocht.
 * Speciale prijsafspraken met specifieke klanten, of groepen klanten.
 * Campagnes wanneer een verkoop voldoet aan criteria voor een speciale aanbieding. Criteria kunnen bijvoorbeeld zijn wanneer een bestelling voldoet aan een minimumhoeveelheid, vóór een bepaalde datum valt of een bepaald type artikel bevat.  
 
-Om een basisprijsmodel te gebruiken hoeft u alleen een eenheidsprijs op te geven wanneer u een artikel of resource instelt. Die prijs wordt altijd gebruikt op verkoopdocumenten. Voor meer geavanceerde modellen, wanneer u bijvoorbeeld speciale prijzen wilt aanbieden voor een verkoopcampagne, kunt u daarvoor criteria opgeven op de pagina **Verkoopprijzen**. U kunt speciale prijzen aanbieden op basis van combinatie van de volgende gegevens: 
+Om een basisprijsmodel te gebruiken hoeft u alleen een eenheidsprijs op te geven wanneer u een artikel of resource instelt. Die prijs wordt altijd gebruikt op verkoopdocumenten. Voor meer geavanceerde modellen, wanneer u bijvoorbeeld speciale prijzen wilt aanbieden voor een verkoopcampagne, kunt u daarvoor criteria opgeven op de pagina **Verkoopprijzen**. U kunt speciale prijzen aanbieden op basis van combinatie van de volgende gegevens:  
 
 * Klant
 * Artikel
@@ -176,34 +178,36 @@ Om prijzen voor meerdere artikelen bij te werken moet u een nieuwe prijslijst ma
 ---
 
 ## <a name="best-price-calculation"></a>Berekening van beste prijs
-Nadat u speciale prijzen en regelkortingen voor verkopen en aankopen hebt vastgelegd, berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] de beste prijs op verkoop- en inkoopdocumenten en op taak- en artikeldagboekregels.
 
-De beste prijs is de laagst prijs met de hoogst regelkorting die toegestaan is op een bepaalde datum. In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beste prijzen berekend wanneer eenheidsprijzen en de regelkortingspercentages worden opgeteld op document- en dagboekregels.
+Nadat u speciale prijzen en regelkortingen voor verkopen en aankopen hebt vastgelegd, berekent [!INCLUDE[prod_short](includes/prod_short.md)] de beste prijs op verkoop- en inkoopdocumenten en op taak- en artikeldagboekregels.
+
+De beste prijs is de laagst prijs met de hoogst regelkorting die toegestaan is op een bepaalde datum. In [!INCLUDE[prod_short](includes/prod_short.md)] worden de beste prijzen berekend wanneer eenheidsprijzen en de regelkortingspercentages worden opgeteld op document- en dagboekregels.
 
 > [!NOTE]  
-> Hierna wordt beschreven hoe de beste prijs voor verkoop wordt berekend. De berekening is hetzelfde voor inkopen.
+> Hierna wordt beschreven hoe de beste prijs voor verkoop wordt berekend. Voor aankopen is de berekening vergelijkbaar, maar gebaseerd op de beschikbare parameters. Artikelkortingsgroepen worden bijvoorbeeld niet ondersteund voor inkoop.
 
-1. In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt de combinatie van de factuurklant en het artikel gecontroleerd en vervolgens worden de eenheidsprijs en het regelkortingspercentage die van toepassing zijn berekend op basis van de volgende criteria:
+1. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de combinatie van de factuurklant en het artikel gecontroleerd en vervolgens worden de eenheidsprijs en het regelkortingspercentage die van toepassing zijn berekend op basis van de volgende criteria:
 
-    - Is er een prijs-/kortingsafspraak voor de klant of behoort de klant tot een groep waarvoor een dergelijke afspraak geldt?
-    - Zijn er dergelijke prijs-/kortingsafspraken van toepassing op het artikel of de artikelkortingsgroep op de regel?
-    - Valt de besteldatum (of de boekingsdatum van de factuur en creditnota) binnen de begin- en einddatum van de prijs-/kortingsafspraak?
-    - Is er een eenheidscode opgegeven? In dat geval controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] op prijzen/kortingen met dezelfde eenheidscode en op prijzen/kortingen zonder eenheidscode.
+    * Is er een prijs-/kortingsafspraak voor de klant of behoort de klant tot een groep waarvoor een dergelijke afspraak geldt?
+    * Zijn er dergelijke prijs-/kortingsafspraken van toepassing op het artikel of de artikelkortingsgroep op de regel?
+    * Valt de besteldatum (of de boekingsdatum van de factuur en creditnota) binnen de begin- en einddatum van de prijs-/kortingsafspraak?
+    * Is er een eenheidscode opgegeven? In dat geval controleert [!INCLUDE[prod_short](includes/prod_short.md)] op prijzen/kortingen met dezelfde eenheidscode en op prijzen/kortingen zonder eenheidscode.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] controleert of er prijs-/kortingsafspraken van toepassing zijn op informatie op de document- of journaalregel. Vervolgens worden de toepasselijke eenheidsprijs en het regelkortingspercentage ingevoegd met behulp van de volgende criteria:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] controleert of er prijs-/kortingsafspraken van toepassing zijn op informatie op de document- of journaalregel. Vervolgens worden de toepasselijke eenheidsprijs en het regelkortingspercentage ingevoegd met behulp van de volgende criteria:
 
-    - Is er een minimale hoeveelheidsvereiste in de prijs-/kortingsafspraak waaraan wordt voldaan?
-    - Is er een valutavereiste in de prijs-/kortingsafspraak waaraan wordt voldaan? Zo ja, dan worden de laagste prijs en de hoogste regelkorting voor deze valuta ingevoegd, zelfs als de lokale valuta een betere prijs oplevert. Als er geen prijs-/kortingsafspraak voor de opgegeven valutacode is, worden in [!INCLUDE[d365fin](includes/d365fin_md.md)] de laagste prijs en de hoogste regelkorting in lokale valuta ingevoegd.
+    * Is er een minimale hoeveelheidsvereiste in de prijs-/kortingsafspraak waaraan wordt voldaan?
+    * Is er een valutavereiste in de prijs-/kortingsafspraak waaraan wordt voldaan? Zo ja, dan worden de laagste prijs en de hoogste regelkorting voor deze valuta ingevoegd, zelfs als de lokale valuta een betere prijs oplevert. Als er geen prijs-/kortingsafspraak voor de opgegeven valutacode is, worden in [!INCLUDE[prod_short](includes/prod_short.md)] de laagste prijs en de hoogste regelkorting in lokale valuta ingevoegd.
 
 Als er geen speciale prijs kan worden berekend voor het artikel op de regel, worden de laatste directe kosten of de eenheidsprijs van de artikelkaart ingevoegd.
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Verkoopfactuurkortingen en administratiekosten
+
 Wanneer u factuurkortingen gebruikt, wordt op basis van het totale bedrag op de factuur bepaald welke korting wordt verleend. Op de pagina **Verkoopfactuurkortingen** kunt u ook een bepaald bedrag aan administratiekosten toevoegen aan facturen.  
 
 U kunt factuurkortingen bij verkopen pas gebruiken nadat u bepaalde gegevens hebt opgegeven. U moet de volgende beslissingen nemen:  
 
-- Welke klanten in aanmerking komen voor dit soort korting?  
-- Welke kortingspercentages u gebruikt?  
+* Welke klanten in aanmerking komen voor dit soort korting?  
+* Welke kortingspercentages u gebruikt?  
 
 Als u factuurkortingen automatisch wilt berekenen, kunt u op de pagina **Verkoopinstellingen** de schakelaar **Factuurkorting berekenen** inschakelen.  
 
@@ -231,7 +235,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Regelkortingen**.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vul een regel in voor elke combinatie waarmee een speciale verkoopregelkorting aan de klant wordt verleend.
 
-> [!Note]
+> [!NOTE]
 > Wanneer u de pagina's **Verkoopprijzen** en **Verkoopregelkortingen** vanuit een specifieke klant opent, zijn de velden **Verkoopsoortfilter** en **Verkoopcodefilter** ingesteld voor de klant en kunnen deze niet worden gewijzigd of verwijderd.
 >
 > Als u prijzen of regelkortingen voor alle klanten, een klantprijsgroep of een campagne wilt instellen, moet u de pagina's vanuit een artikelkaart openen. Als alternatief kunt u voor verkoopprijzen de pagina **Verkoopprijsvoorstel** gebruiken. Zie voor meer informatie [Artikelprijzen in bulk bijwerken](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
@@ -277,6 +281,8 @@ Ga door met het instellen van de voorwaarden voor de nieuwe verkoopfactuurkortin
 
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
+[Klantenprijsgroepen instellen](sales-how-to-set-up-customer-price-groups.md)  
+[Klantenkortingsgroepen instellen](sales-how-to-set-up-customer-discount-groups.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

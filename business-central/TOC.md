@@ -101,13 +101,13 @@
 ## Proberen
 ### [Aanmelden voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md)
 ### [Veelgestelde vragen (FAQ) over Dynamics 365 Business Central-proefversie](trial-faq.md)
-### [Proefversies en abonnementen](across-preview.md)
+### [Proefversies en abonnementen (alleen Engels)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Zich voorbereiden om zaken te doen](ui-get-ready-business.md)
 ### [Probleemoplossing voor aanmelden bij Self-Service](ui-troubleshoot-self-signup.md)
 ### [Uw proefversie uitbreiden](admin-extend-trial.md)
 ### [Business Central verwijderen of het abonnement erop stoppen](admin-cancel.md)
 ## Kopen
-### [Aan de slag gaan met een abonnement](across-preview.md#get-started-with-a-subscription)
+### [Aan de slag gaan met een abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Zich voorbereiden om zaken te doen](ui-get-ready-business.md)
 
 ## Snelstartgidsen
@@ -358,6 +358,7 @@
 #### [Over voorraadwaardering](finance-learn-about-costing.md)
 #### [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)
 #### [Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)
+#### [Over kostprijsberekening](finance-about-calculating-unit-cost.md)
 #### [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)
 #### [Werken met voorraadperioden](finance-how-to-work-with-inventory-periods.md)
 #### [Voorraadwaardering en kostprijsberekening instellen](finance-set-up-inventory-valuation-and-costing.md)
@@ -1424,6 +1425,7 @@
 ##### [Amerikaanse Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Sales Tax rapporteren in de Verenigde Staten](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Transacties rapporteren als 1099-plichtig in de Verenigde Staten](LocalFunctionality/UnitedStates/tax-1099.md)  
+##### [Het IRS 1099-formulier instellen en gebruiken](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Gebruiksbelasting- en inkoopbelasting instellen](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Niet-gerealiseerde Sales Tax en verkoopcontantkortingen instellen](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Bankieren en betalingen
@@ -1474,6 +1476,7 @@
 #### [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md)
 #### [Speciale verkoopprijzen en kortingen registreren](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Klantenprijsgroepen instellen](sales-how-to-set-up-customer-price-groups.md)
+#### [Klantenkortingsgroepen instellen](sales-how-to-set-up-customer-discount-groups.md)
 #### [Verkopers instellen](sales-how-setup-salespeople.md)
 #### [Verzendprofielen van documenten instellen](sales-how-setup-document-send-profiles.md)
 #### [Documenten per e-mail verzenden](ui-how-send-documents-email.md)
@@ -1809,14 +1812,14 @@
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)
 #### [QuickBooks Online Gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)
-#### [Salarisbestand importeren - Quickbooks](ui-extensions-quickbooks-payroll.md)
+#### [Quickbooks-salarisbestand importeren](ui-extensions-quickbooks-payroll.md)
 #### [Verkoop- en voorraadprognose](ui-extensions-sales-forecast.md)
-#### [Btw-groepsbeheer](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-#### [DK - C5 Gegevensmigratie](ui-extensions-c5-data-migration.md)
+#### [DK - C5-gegevensmigratie](ui-extensions-c5-data-migration.md)
 #### [DK - Betalingen en afstemmingen](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK - Btw-bestandsindelingen](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io postcodes van het Verenigd Koninkrijk](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [VK - Btw-groepsbeheer](ui-extensions-vat-group.md)
 #### [VS/CA/VK/AU/NZ/ZA - Overschrijvingsadvies verzenden](ui-extensions-send-remittance-advice.md)
 #### [Business Central-extensies van andere providers](ui-extensions-other.md)
 ## Integreren met Dynamics 365 Sales

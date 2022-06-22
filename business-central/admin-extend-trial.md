@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381232"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805112"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hebt u meer tijd nodig om na te denken over een abonnement?
 
@@ -52,8 +52,8 @@ Als uw verlengde proefperiode is verstreken, kunt u zich binnen 90 dagen [abonne
 
 ## <a name="see-also"></a>Zie ook
 
+[Proefversies en abonnementen (alleen Engels)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Nieuwe bedrijven maken](about-new-company.md)  
-[Proefversies en abonnementen](across-preview.md)  
 [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner)  
 [Proeven verlengen (als beheerder)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Aan de slag gaan als reseller van Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  

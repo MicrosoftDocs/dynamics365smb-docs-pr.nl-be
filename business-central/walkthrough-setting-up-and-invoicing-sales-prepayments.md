@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: aa5e24755b44b2ce7b36a9a6062bf0168c5ddb89
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518743"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799571"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedure: Vooruitbetalingen verkoop instellen en factureren
 
@@ -95,9 +95,9 @@ Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd
 
     |**Verkoopsoort**|**Verkoopscode**|**Artikelnr.**|**Vooruitbetaling %**|  
     |--------------------|--------------------|------------------|----------------------|  
-    |**Klant**|**20000**|**1896-S**|**40**|  
-    |**Alle klanten**| |**1896-S**|**20**|  
-
+    |**Klant**|**20000**|**1896-S**|**40**|
+    |**Klant**|**20000**|**1900-S**|**30**|  
+    
     > [!TIP]
     > Afhankelijk van uw land/regio, moet u voor artikel 1896-S ook een belastinggroepcode opgeven op het sneltabblad **Kosten en boeking**. Wanneer u het demonstratiebedrijf gebruikt, is dit veld al ingesteld.
 

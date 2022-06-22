@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516225"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799624"
 ---
 # <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
 
@@ -92,6 +92,19 @@ Een order kan een vooruitbetalingspercentage hebben in de verkoopkop en een ande
 4. Het vooruitbetalingspercentage op de verkoop- of inkoopkop.  
 
 Met andere woorden: het vooruitbetalingspercentage op de klantenkaart geldt alleen als er geen vooruitbetalingspercentage is ingesteld voor het artikel. Als u echter de inhoud van het veld **Vooruitbetaling %** wijzigt in de verkoop- of de inkoopkop nadat u de regels hebt gemaakt, wordt het vooruitbetalingspercentage op alle regels bijgewerkt. Hierdoor wordt het gemakkelijk om een order te maken met een vast vooruitbetalingspercentage, ongeacht het percentage dat is ingesteld op artikelen.
+
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Verkooporders automatisch vrijgeven wanneer vooruitbetalingen worden toegepast
+
+U kunt tijd besparen door een taakwachtrij-item in te stellen dat automatisch verkooporders vrijgeeft waarvoor vooruitbetaling is vereist nadat de betalingen zijn toegepast. Het automatiseren van het proces bespaart u de stap van het vrijgeven van de verkooporder.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
+2. Geef in het veld **Frequentie van automatische update van vooruitbetaling** op hoe vaak u het taakwachtrij-item wilt laten uitvoeren.
+
+> [!TIP]
+> Overweeg, terwijl u hier bent, een beveiliging toe te voegen tegen verzending of facturering van verkooporders met onbetaalde vooruitbetalingen. Als u de schakelaar **Voortbet. cntr. bij boeken** aanzet, voorkomt [!INCLUDE[prod_short](includes/prod_short.md)] dat mensen orders plaatsen met openstaande vooruitbetalingsbedragen.
+
+3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.
+4. Stel het taakwachtrij-item **Verkopen wachtend op vooruitbetaling bijwerken** bijvoorbeeld in door de instellingen op het tabblad **Herhaling** te gebruiken om te plannen hoe vaak u het item wilt uitvoeren. Zie voor meer informatie [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-also"></a>Zie ook  
 

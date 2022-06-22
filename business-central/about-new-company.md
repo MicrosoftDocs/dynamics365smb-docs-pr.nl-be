@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654980"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805242"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -32,11 +32,11 @@ Als u besluit een bedrijf toe te voegen aan uw [!INCLUDE[prod_short](includes/pr
 De installatiewizard biedt twee sjablonen en een lege optie:
 
 - **Evaluatie - Voorbeeldgegevens**  
-    Hierdoor ontstaat een bedrijf dat lijkt op het demonstratiebedrijf met voorbeeldgegevens en instellingsgegevens. Dit type bedrijf is voor u beschikbaar zonder over te stappen naar [een proefperiode van 30 dagen](across-preview.md#add-your-own-data-to-an-empty-trial-company), zoals bij de andere typen het geval is.  
+    Hierdoor ontstaat een bedrijf dat lijkt op het demonstratiebedrijf met voorbeeldgegevens en instellingsgegevens. Dit type bedrijf is voor u beschikbaar zonder over te stappen naar een proefperiode van 30 dagen, zoals bij de andere typen het geval is.  
 - **Productie - Alleen instellingsgegevens**  
-    Hierdoor ontstaat een bedrijf dat lijkt op **Mijn bedrijf**, met instellingsgegevens maar zonder voorbeeldgegevens. U kunt dit bedrijf gedurende [een proefperiode van 30 dagen](across-preview.md#add-your-own-data-to-an-empty-trial-company) gebruiken.  
+    Hierdoor ontstaat een bedrijf dat lijkt op **Mijn bedrijf**, met instellingsgegevens maar zonder voorbeeldgegevens. U kunt dit bedrijf gedurende een proefperiode van 30 dagen gebruiken.  
 - **Nieuw maken - Geen gegevens**  
-    Hierdoor ontstaat een leeg bedrijf zonder instellingsgegevens. U kunt dit bedrijf gedurende [een proefperiode van 30 dagen](across-preview.md#add-your-own-data-to-an-empty-trial-company) gebruiken.  
+    Hierdoor ontstaat een leeg bedrijf zonder instellingsgegevens. U kunt dit bedrijf gedurende een proefperiode van 30 dagen gebruiken.  
 
 Als u eenvoudig aan de slag wilt gaan met een nieuw bedrijf, kiest u **Productie - Alleen instellingsgegevens** en importeert u uw eigen bedrijfsgegevens, zoals klanten, artikelen, en leveranciers. Kies de sjabloon **Nieuw** als u alles nieuw wilt instellen. In dat geval kunt u de begeleide instelling **Bedrijfsinstelling** gebruiken om u te helpen aan de slag te gaan met essentiële instellingsgegevens.  
 
@@ -44,6 +44,8 @@ Als u eenvoudig aan de slag wilt gaan met een nieuw bedrijf, kiest u **Productie
 > Wanneer u een nieuw bedrijf maakt, duurt het enkele minuten voordat u er toegang toe kunt krijgen in [!INCLUDE[prod_short](includes/prod_short.md)]. De instellingsstatus op de pagina **Bedrijven** toont wanneer het nieuwe bedrijf gereed voor u is. Vervolgens kunt u naar het nieuwe bedrijf overschakelen door **Mijn instellingen** te kiezen.  
 
 Tijdens uw proef van 30 dagen kunt u een willekeurig aantal nieuwe bedrijven maken, maar deze zijn alleen tijdens de proef beschikbaar. Neem voor meer informatie contact op met uw [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Zie ook het artikel [Veelgestelde vragen over de proefversie van Dynamics 365 Business Central](trial-faq.md).  
+
+Uw beheerder kan [hier](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions) meer te weten komen over proefversies en abonnementen.  
 
 ## <a name="copy-a-company"></a>Een bedrijf kopiëren
 
@@ -84,7 +86,6 @@ De Contoso Coffee-app biedt demonstratiegegevens waarmee u de geavanceerde mogel
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-[Proefversies en abonnementen](across-preview.md)  
 [Understanding the Infrastructure of Business Central Online (uitsluitend in het Engels)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

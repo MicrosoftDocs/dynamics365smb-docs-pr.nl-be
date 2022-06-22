@@ -1,18 +1,18 @@
 ---
 title: Klanten synchroniseren
 description: Klanten importeren uit of exporteren naar Shopify
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768213"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808885"
 ---
 # <a name="synchronize-customers"></a>Klanten synchroniseren
 
@@ -25,8 +25,8 @@ Wanneer een order uit Shopify wordt geïmporteerd, is de informatie over de klan
 
 De functie *Order importeren uit Shopify* probeert de klant in de volgende volgorde te selecteren:
 
-1. Als het **Standaardklantnr.** is gedefinieerd in de **Shopify-klantsjabloon** voor het corresponderende land/regio, dan **Standaardklantnr.** wordt gebruikt, ongeacht de instellingen in **Klant importeren uit Shopify** en **Type klanttoewijzing**.
-2. Als **Klant importeren uit Shopify** en **Standaardklantnr.** Is gedefinieerd, dan het **Standaardklantnr.** wordt gebruikt.
+1. Als het **Standaardklantnr.** veld is gedefinieerd in de **Shopify-klantsjabloon** voor het corresponderende land/regio, dan **Standaardklantnr.** wordt gebruikt, ongeacht de instellingen in **Klant importeren uit Shopify** en **Type klanttoewijzing**. Voor meer informatie, zie [Klantsjabloon per land/regio](synchronize-customers.md#customer-template-per-country).
+2. Als **Klant importeren uit Shopify** is ingesteld op *Geen* en **Standaardklantnr.** is gedefinieerd in de **Shopify-winkelkaart**, wordt **Standaardklantnr.** gebruikt.
 
 Volgende stappen zijn afhankelijk van **Type klanttoewijzing**.
 
@@ -76,7 +76,7 @@ Bestaande klanten kunnen in bulk geëxporteerd worden naar Shopify. Hierdoor wor
 
 ### <a name="populate-customer-information-in-shopify"></a>Klantgegevens invullen in Shopify
 
-Een klant in Shopify heeft voornaam, achternaam, e-mailadres en/of telefoonnummer. U kunt de voornaam en achternaam invullen op basis van de gegevens van de klantenkaart in [!INCLUDE[prod_short](../includes/prod_short.md)].
+Een klant in Shopify heeft een voornaam, achternaam, e-mailadres en/of telefoonnummer. U kunt de voornaam en achternaam invullen op basis van de klantenkaart in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Prioriteit|Veld op klantenkaart|Omschrijving|
 |------|------|-----------|
@@ -100,6 +100,8 @@ Voor adressen waar land/regio/provincie wordt gebruikt, selecteert u *Code* of *
 3. Kies de actie **Klanten synchroniseren**.
 
 Of gebruik de actie **Synchronisatie van klanten starten** in het venster **Shopify-klanten** of zoek de batchverwerking **Klanten synchroniseren**.
+
+U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie [Terugkerende taken plannen](background.md#to-schedule-recurring-tasks).
 
 ## <a name="see-also"></a>Zie ook
 

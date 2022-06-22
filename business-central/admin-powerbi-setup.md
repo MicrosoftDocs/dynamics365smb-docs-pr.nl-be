@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b3eb777c7a495c5b4b73ace26151e53403f81f00
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c893513098d5078995e6cab09abcf0d2e0bb2769
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521214"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950368"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Power BI-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] mogelijk maken
 
@@ -84,7 +84,7 @@ In dit gedeelte wordt uitgelegd wat de vereisten zijn voor de integratie van een
 
 4. Maak een toepassingsregistratie voor [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure.
 
-    Om Power BI-rapporten weer te geven die zijn ingebed in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's, moet een toepassing zijn geregistreerd voor [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure. De geregistreerde toepassing heeft toestemming nodig voor Power BI-services. Zie [[!INCLUDE[prod_short](includes/prod_short.md)] on-premises registreren in Azure AD voor integratie met andere services](/dynamics365/business-central/dev-itpro/administration/register-app-azure) voor meer informatie.
+    Voor het weergeven van Power BI-rapporten die zijn ingesloten in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's, moet een toepassing zijn geregistreerd voor [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure. De geregistreerde toepassing heeft toestemming nodig voor Power BI-services. De app vereist minimaal de machtiging **User.ReadWrite.All**. Als gebruikers rapporten van gedeelde Power BI-werkruimten willen kunnen bekijken, vereist de app de machtiging **Workspace.Read.All**. Zie [[!INCLUDE[prod_short](includes/prod_short.md)] on-premises registreren in Azure AD voor integratie met andere services](/dynamics365/business-central/dev-itpro/administration/register-app-azure) voor meer informatie.
 
     > [!NOTE]
     > Als voor uw implementatie NavUserPassword-verificatie wordt gebruikt, maakt [!INCLUDE[prod_short](includes/prod_short.md)] verbinding met dezelfde Power BI-service voor alle gebruikers. U kunt dit serviceaccount specificeren bij het registreren van de toepassing. Als er Azure AD-verificatie wordt gebruikt, maakt [!INCLUDE[prod_short](includes/prod_short.md)] verbinding met de Power BI-service die is gekoppeld aan de individuele gebruikersaccounts.

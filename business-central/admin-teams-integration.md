@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147046"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799784"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Microsoft Teams-integratie met [!INCLUDE [prod_short](includes/prod_short.md)] beheren
 
@@ -30,16 +30,18 @@ In dit gedeelte worden de minimumvereisten voor de functies van de [!INCLUDE [pr
 
 - Vereiste licenties
 
-    Deze tabel geeft u een overzicht van de licenties die nodig zijn voor de functies van de [!INCLUDE [prod_short](includes/prod_short.md)]-app om in Teams te werken.
+    De [!INCLUDE[prod_short](includes/prod_short.md)]-app vereist een Teams-licentie via een Microsoft 365 Business- of Enterprise-abonnement. Zelfstandige Teams-abonnementen zoals Microsoft Teams (gratis) of Microsoft Teams Essentials worden niet ondersteund.
 
-    |Wat|Teams-licentie|[!INCLUDE [prod_short](includes/prod_short.md)]-licentie|
-    |----|---|---|
-    |Zoeken naar [!INCLUDE [prod_short](includes/prod_short.md)]-contacten.|![vinkje.](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
-    |Een link naar een [!INCLUDE [prod_short](includes/prod_short.md)]-record opnemen in een gesprek en het verzenden als een kaart.|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
-    |Deel een link vanaf een pagina in [!INCLUDE [prod_short](includes/prod_short.md)] naar een Teams-gesprek.|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
-    |Een kaart van een [!INCLUDE [prod_short](includes/prod_short.md)]-record weergeven in een gesprek.|![vinkje](media/check.png "vinkje")||
-    |Meer details van een kaart voor een [!INCLUDE [prod_short](includes/prod_short.md)]-record weergeven in een gesprek.|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
-    |Open een paginalink in [!INCLUDE [prod_short](includes/prod_short.md)] vanuit een gesprek.|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|
+    De meeste kenmerken van de [!INCLUDE[prod_short](includes/prod_short.md)]-app voor Teams vereisen ook een [!INCLUDE [prod_short](includes/prod_short.md)]-licentie, zoals weergegeven in de volgende tabel.
+
+    |Wat|[!INCLUDE [prod_short](includes/prod_short.md)]-licentie|
+    |----|---|
+    |Zoeken naar [!INCLUDE [prod_short](includes/prod_short.md)]-contacten.|![vinkje](media/check.png "vinkje")|
+    |Een link naar een [!INCLUDE [prod_short](includes/prod_short.md)]-record opnemen in een gesprek en het verzenden als een kaart.|![vinkje](media/check.png "vinkje")|
+    |Deel een link vanaf een pagina in [!INCLUDE [prod_short](includes/prod_short.md)] naar een Teams-gesprek.|![vinkje](media/check.png "vinkje")|
+    |Een kaart van een [!INCLUDE [prod_short](includes/prod_short.md)]-record weergeven in een gesprek.||
+    |Meer details van een kaart voor een [!INCLUDE [prod_short](includes/prod_short.md)]-record weergeven in een gesprek.|![vinkje](media/check.png "vinkje")|
+    |Open een paginalink in [!INCLUDE [prod_short](includes/prod_short.md)] vanuit een gesprek.|![vinkje](media/check.png "vinkje")|
 
 - URL-voorbeelden toestaan
 

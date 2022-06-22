@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655760"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799468"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me  
 In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en aanvullende apps en consultingservices ontdekt voor [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -50,11 +50,13 @@ Welke pagina's en taken worden vermeld, is afhankelijk van de gebruikerservaring
 ### <a name="finding-a-report-or-archived-information"></a>Een rapport of gearchiveerde informatie zoeken
 De sectie **Ga naar Rapporten en analyse** biedt toegang tot rapportagehulpmiddelen. U kunt bijvoorbeeld het rapport **Balans** vanuit de lijst openen of toegang krijgen tot gearchiveerde documenten en andere informatie.  
 
-### <a name="finding-information-in-the-help"></a>Informatie zoeken in de Help
-Onder **Documentatie** ziet u artikelen uit de documentatie van [!INCLUDE[prod_short](includes/prod_short.md)], waarin concepten worden beschreven en stapsgewijze begeleiding wordt geboden bij het voltooien van taken in de toepassing.    
+<!-- removed in v20 because of Help pane
+### Finding Information in the Help
+Under **Documentation** you will see articles from the [!INCLUDE[prod_short](includes/prod_short.md)] documentation that describe concepts and provide step-by-step guidance for completing tasks in the application.    
 
 > [!NOTE]  
-> Documentatie voor extensies van derden wordt niet opgenomen in de resultaten.
+> Documentation for third-party extensions is not included in the results.
+-->
 
 ### <a name="getting-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Meer functionaliteit krijgen door een app te vinden in Microsoft AppSource
 Onze partnercommunity is druk bezig apps te ontwikkelen die mogelijkheden toevoegen aan [!INCLUDE[prod_short](includes/prod_short.md)]. De sectie **Ophalen uit Microsoft AppSource** bevat apps voor [!INCLUDE[prod_short](includes/prod_short.md)] die beschikbaar zijn op Microsoft AppSource en gerelateerd zijn aan het trefwoord waarop u zocht.

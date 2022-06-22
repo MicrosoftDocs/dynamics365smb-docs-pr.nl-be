@@ -1,18 +1,18 @@
 ---
 title: Verkooporders synchroniseren en uitvoeren
 description: Import en verwerking van verkooporders vanuit Shopify instellen en uitvoeren.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: e7c54cc620011d238942c093a05918e2f4e57c7d
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4e8d640f6de61d642037a55fdfeb09e32f197a96
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768177"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809025"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Verkooporders synchroniseren en uitvoeren
 
@@ -27,7 +27,7 @@ Een reguliere Shopify-order kan extra bedragen hebben, zoals verzendkosten of, i
 - **Fooienrekening**  
 
 Schakel **Automatisch orders maken** in om automatisch verkoopdocumenten te maken in [!INCLUDE[prod_short](../includes/prod_short.md)] zodra de Shopify-order is geïmporteerd.
-Het verkoopdocument in [!INCLUDE[prod_short](../includes/prod_short.md)] bevat een koppeling naar de Shopify-order. Als u **Shopify-order-nr. op documentregel** inschakelt, wordt deze informatie herhaald op verkoopregels van het type *Opmerking*.
+Het verkoopdocument in [!INCLUDE[prod_short](../includes/prod_short.md)] bevat een koppeling naar de Shopify-order. Als u het veld **Shopify-order-nr. op documentregel** selecteert, wordt deze informatie herhaald op verkoopregels van het type *Opmerking*.
 
 In het veld **Bron van belastinggebied** kunt u prioriteit definiëren voor het selecteren van de btw-gebiedscode of de btw-bedrijfsboekingsgroep, op basis van adres. Deze stap is relevant voor landen/regio's met sales tax, maar kan worden gebruikt voor btw-landen/regio's. Zie [Opmerkingen over belasting](synchronize-orders.md#tax-remarks) voor meer informatie.
 
@@ -71,16 +71,20 @@ In de volgende procedure wordt beschreven hoe u de verkooporders importeert en b
 
 U kunt ook zoeken naar de batchverwerking **Orders synchroniseren vanuit Shopify**.
 
-Zodra het importeren is voltooid, kunt u de Shopify-order verkennen en alle gerelateerde informatie zoeken, zoals betalingstransacties, verzendkosten, afhandelingen en risiconiveau. U kunt ook de orderbevestiging zien die naar de klant is verzonden door de actie **Shopify-statuspagina** te kiezen.
+U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie [Terugkerende taken plannen](background.md#to-schedule-recurring-tasks).
+
+## <a name="review-imported-orders"></a>Geïmporteerde bestellingen bekijken
+
+Zodra het importeren is voltooid, kunt u de Shopify-order verkennen en alle gerelateerde informatie vinden. Zoek bijvoorbeeld de betalingstransacties, verzendkosten, het risiconiveau of afhandelingen als de order al is uitgevoerd in Shopify. U kunt ook een orderbevestiging zien die naar de klant is verzonden door de actie **Shopify-statuspagina** te kiezen.
 
 > [!NOTE]  
 > U kunt rechtstreeks navigeren naar het venster **Shopify-orders** en u ziet dan orders met de status *Geopend* van alle winkels. Om voltooide orders te bekijken moet u de pagina **Shopify-orders** openen vanuit het specifieke **Shopify-winkelkaart** venster.
 
-## <a name="create-sales-document-in-business-central"></a>Verkoopdocument maken in Business Central
+## <a name="create-sales-documents-in-business-central"></a>Verkoopdocument maken in Business Central
 
-Als de schakelaar **Automatisch orders maken** is ingeschakeld op de **Shopify-winkelkaart**, probeert [!INCLUDE[prod_short](../includes/prod_short.md)] een verkoopdocument te maken zodra de order is geïmporteerd. Als er tijdens het proces problemen optreden, bijvoorbeeld als een klant of product ontbreekt, moet u het probleem oplossen en opnieuw proberen een verkooporder te maken.
+Als de schakelaar **Automatisch orders maken** is ingeschakeld op de **Shopify-winkelkaart**, probeert [!INCLUDE[prod_short](../includes/prod_short.md)] een verkoopdocument te maken zodra de order is geïmporteerd. Als het proces problemen oplevert, bijvoorbeeld als er een klant of product ontbreekt, moet u het probleem oplossen. Vervolgens kunt u proberen de verkooporder opnieuw te maken.
 
-### <a name="to-create-sales-document"></a>Verkoopdocument maken
+### <a name="to-create-sales-documents"></a>Verkoopdocumenten maken
 
 1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u orders wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
@@ -88,7 +92,7 @@ Als de schakelaar **Automatisch orders maken** is ingeschakeld op de **Shopify-w
 4. Selecteer de order waarvoor u een verkoopdocument wilt maken en kies de actie **Verkoopdocumenten maken**.
 5. Kies **Ja**.
 
-Als de Shopify-order afhandeling vereist, wordt de **verkooporder** gemaakt voor afgehandelde Shopify-orders. Bijvoorbeeld voor orders die alleen een cadeaubon bevatten, wordt de **verkoopfactuur** gemaakt.
+Als de Shopify-order afhandeling vereist, wordt de **verkooporder** gemaakt. Voor volledig afgehandelde Shopify-orders, zoals bestellingen die alleen een cadeaubon bevatten of die al zijn afgehandeld in Shopify, wordt de **verkoopfactuur** gemaakt.
 
 Er wordt nu een verkoopdocument gemaakt en het kan worden beheerd met behulp van de standaardfunctionaliteit van [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -102,7 +106,7 @@ Als uw instellingen voorkomen dat automatisch een klant wordt gemaakt en geen ju
 
 ### <a name="tax-remarks"></a>Opmerkingen over belasting
 
-Terwijl de geïmporteerde Shopify-order informatie over belastingen bevat, worden de belastingen opnieuw berekend wanneer u een verkoopdocument maakt. Daarom is het belangrijk dat de btw/belasting-instellingen correct zijn in [!INCLUDE[prod_short](../includes/prod_short.md)].
+Terwijl de geïmporteerde Shopify-order informatie over belastingen bevat, worden de belastingen opnieuw berekend wanneer u het verkoopdocument maakt. Vanwege de herberekening is het belangrijk dat de btw/belasting-instellingen correct zijn in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Meerdere productbelasting/btw-tarieven. Sommige productcategorieën zijn bijvoorbeeld onderworpen aan verlaagde belastingtarieven. Die items moeten bestaan in [!INCLUDE[prod_short](../includes/prod_short.md)] en zijn toegewezen aan Shopify-producten. Anders wordt bij het automatisch maken van ontbrekende artikelen de btw-productboekingsgroep gebruikt.
 

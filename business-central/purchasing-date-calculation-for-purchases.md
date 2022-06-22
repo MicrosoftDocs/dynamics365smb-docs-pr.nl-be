@@ -1,58 +1,68 @@
 ---
-title: Datumberekening voor inkoop
-description: De toepassing berekent automatisch de datum waarop u een artikel moet bestellen zodat u het op een bepaalde datum in voorraad hebt.
-author: SorenGP
+title: Datums berekenen voor inkoop
+description: In dit artikel wordt beschreven hoe u datums voor aankopen kunt berekenen.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
+ms.search.forms: ''
+ms.date: 02/06/2022
+ms.author: bholtorf
+ms.openlocfilehash: 6a3d7244beef57a1b5a82b881ec193316fe968fe
+ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514893"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "8841878"
 ---
-# <a name="date-calculation-for-purchases"></a>Datumberekening voor inkoop
+# <a name="calculate-dates-for-purchases"></a>Datums berekenen voor inkoop
 
-[!INCLUDE[prod_short](includes/prod_short.md)] berekent automatisch de datum waarop u een artikel moet bestellen om het op een bepaalde datum in voorraad te hebben. Dit is de datum waarop u kunt verwachten dat artikelen die op een bepaalde datum zijn besteld beschikbaar zijn om te worden gepickt.  
+Als u artikelen op een bepaalde datum in voorraad wilt hebben, kan [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de datum berekenen waarop u ze moet bestellen. 
 
-Als u een aangevraagde ontvangstdatum opgeeft op een inkooporder is de berekende besteldatum de datum waarop de order moet worden geplaatst om de artikelen te ontvangen op de datum die u hebt aangevraagd. Vervolgens wordt de datum waarop de artikelen beschikbaar zijn om te worden gepickt berekend en ingevoerd in het veld **Verwachte ontvangstdatum**.  
+Het resultaat is de datum waarop u de door u bestelde artikelen kunt picken.  
 
-Als u geen aangevraagde ontvangstdatum opgeeft, wordt automatisch de orderdatum op de regel gebruikt voor de berekening van de datum waarop de artikelen naar verwachting worden ontvangen en de datum waarop de artikelen beschikbaar zijn voor picken.  
+Als u op een inkooporderregel een gevraagde ontvangstdatum opgeeft, is de berekende orderdatum de datum waarop u de order moet plaatsen. De datum waarop de artikelen beschikbaar zijn om te worden gepickt wordt weergegeven in het veld **Verwachte ontvangstdatum**.  
+
+Als u geen gevraagde ontvangstdatum opgeeft, is de datum waarop u de artikelen verwacht te ontvangen gebaseerd op de orderdatum op de regel. 
+
+De ontvangstdatum is ook de datum waarop de artikelen beschikbaar zijn voor picken.  
+
+> [!TIP]
+> Veel van de datumvelden die in dit artikel worden genoemd, zijn standaard verborgen op inkooporderregels. Als een veld niet beschikbaar is, kunt u het toevoegen door de pagina te personaliseren. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 ## <a name="calculating-with-a-requested-receipt-date"></a>Berekenen met een aangevraagde ontvangstdatum
 
-Als er een aangevraagde ontvangstdatum op de inkooporderregel staat, wordt automatisch deze datum gebruikt als uitgangspunt voor de volgende berekeningen.  
+Als er een aangevraagde ontvangstdatum op de inkooporderregel staat, wordt deze datum gebruikt als uitgangspunt voor de volgende berekeningen:  
 
 - aangevraagde ontvangstdatum - levertermijn = orderdatum  
 - aangevraagde ontvangstdatum + inslagtijd + veiligheidstijd = verwachte ontvangstdatum  
 
-Als u een aangevraagde ontvangstdatum op de inkooporderkop hebt ingevoerd, wordt deze datum gekopieerd naar het bijbehorende veld op alle regels. U kunt deze datum op elke orderregel desgewenst wijzigen of verwijderen.  
+Als u een gevraagde ontvangstdatum opgeeft op een inkooporderregel, wordt die datum toegewezen aan nieuwe regels wanneer u deze maakt. U kunt de datum op de regels wijzigen of verwijderen.  
 
 > [!NOTE]
 > Als uw proces is gebaseerd op achterwaartse berekening, bijvoorbeeld als u de gevraagde ontvangstdatum gebruikt om de besteldatum te verkrijgen, raden we u aan datumformules te gebruiken met vaste looptijden, zoals '5D' voor vijf dagen of '1W' voor een week. Datumformules zonder vaste duur, zoals 'CW' voor de huidige week of CM voor de huidige maand, kunnen leiden tot onjuiste datumberekeningen. Zie voor meer informatie over datumformules [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md).
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Berekenen zonder aangevraagde leverdatum
 
-Als u een inkooporderregel invoert zonder een verzochte leverdatum, wordt in het veld **Orderdatum** op de regel de datum ingevuld uit het veld **Orderdatum** op de inkooporderkop. Dit kan de datum zijn die u hebt ingevoerd of de werkdatum. Vervolgens worden automatisch de volgende datums voor de inkooporderregel berekend, met de orderdatum als uitgangspunt.  
+Als u een inkooporderregel invoert zonder een verzochte leverdatum, bevat het veld **Orderdatum** op de regel de datum uit het veld **Orderdatum** op de inkooporderkop. Deze datum is de datum die u hebt ingevoerd of de werkdatum. Vervolgens worden als volgt de datums voor de inkooporderregel berekend, met de orderdatum als uitgangspunt:  
 
 - orderdatum + levertermijn = geplande ontvangstdatum  
 - geplande ontvangstdatum + inslagtijd + veiligheidstijd = verwachte ontvangstdatum  
 
-Als u de orderdatum op de regel wijzigt, bijvoorbeeld omdat de artikelen pas later bij de leverancier beschikbaar zijn, worden de relevante datums op de regel automatisch opnieuw berekend.  
-
-Als u de orderdatum op de kop wijzigt, wordt deze datum automatisch gekopieerd naar het veld **Order Date** op alle regels en worden alle bijbehorende datumvelden vervolgens opnieuw berekend.  
+Als u de orderdatum op de regel wijzigt, berekent [!INCLUDE[prod_short](includes/prod_short.md)] de overige datums opnieuw.  
 
 ## <a name="default-values-for-lead-time-calculation"></a>Standaardwaarden voor levertijdtijdberekening
 
-[!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de waarde van het veld **Levertermijnberek.** op de inkooporderregel om de order en de verwachte ontvangstdatums te berekenen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de datumformule in het veld **Levertermijn** op de inkooporderregel om de orderdatum en de verwachte ontvangstdatum te berekenen.  
 
-U kunt de waarde op de regel handmatig specificeren of het programma de waarden laten gebruiken die zijn gedefinieerd op de leverancierskaart, artikelkaart, SKU-kaart of de artikelleverancierscatalogus.
-De levertermijnwaarde op de leverancierskaart wordt echter alleen gebruikt als er geen doorlooptijd is opgegeven op de artikelkaart, de SKU-kaart of de artikelleverancierscatalogus voor het artikel. Dit is ook de escalerende volgorde van prioriteit voor deze waarden. Als ze allemaal worden verstrekt, heeft de levertermijn van de leverancierskaart de laagste prioriteit en heeft de levertermijn van de artikelleverancierscatalogus de hoogste prioriteit.  
+U kunt de datumformule op regels handmatig opgeven. Anders gebruikt [!INCLUDE[prod_short](includes/prod_short.md)] de formules die op de volgende pagina's zijn gedefinieerd in deze volgorde van prioriteit:
+
+1. Voorraad - Lev.-catalogus
+2. Artikel
+3. SKU
+4. Leverancierskaart
 
 ## <a name="see-also"></a>Zie ook
 

@@ -5,13 +5,13 @@ author: edupont04
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
-ms.date: 04/05/2022
-ms.openlocfilehash: 6e911b0f6b3dc9544e877aee16d52a10d54c4031
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.date: 05/25/2022
+ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557130"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805190"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Aanmelden voor een gratis proefversie van Dynamics 365 Business Central
 
@@ -30,14 +30,26 @@ Uw proefomgeving bevat dezelfde functies als de betaalde versie. De volgende kop
 - [Word productief](ui-work-product.md)  
 - [Snelstartgidsen](quick-start-business-central.md)  
 
+## <a name="get-started-with-a-subscription"></a>Aan de slag gaan met een abonnement
+
+Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prod_short](includes/prod_short.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prod_short](includes/prod_short.md)] aanpassen door apps toe te voegen uit [de commerciële marktplaats van Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
+
+[!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt Microsoft 365. Als uw bedrijf een ander type e-mailconfiguratie gebruikt, kan de wederverkoper u helpen beslissen hoe te migreren, en of u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises moet gebruiken.  
+
+U kunt ook contact opnemen met het [[!INCLUDE[prod_short](includes/prod_short.md)]-verkoopteam](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+Zie voor meer informatie over wat u kunt doen met [!INCLUDE [prod_short](includes/prod_short.md)] [Voorbereiden op zakendoen](ui-get-ready-business.md) en [Zakelijke functionaliteit](across-business-functionality.md).  
+
 ## <a name="additional-resources"></a>Aanvullende resources
 
 - [Trainingen bekijken op Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Bezoek onze videobibliotheek](across-videos.md)  
 - [Veelgestelde vragen (FAQ) over proefversie](trial-faq.md)  
-- [Proefversies en abonnementen](across-preview.md)  
 - [Probleemoplossing voor aanmelden bij Self-Service](ui-troubleshoot-self-signup.md)  
-- [Aan de slag gaan met een abonnement](across-preview.md#get-started-with-a-subscription)  
 - [Uw werkruimte personaliseren](ui-personalization-user.md)  
 - [Rapporten uitvoeren en afdrukken](ui-work-report.md)  
 - [Toegankelijkheid en sneltoetsen](ui-accessibility.md)  
+- [Proefversies en abonnementen (voor beheerders)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

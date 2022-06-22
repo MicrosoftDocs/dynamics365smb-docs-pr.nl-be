@@ -10,16 +10,19 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 95d8aaf6749a2f02b1f586a2f235d3a5eaa7c21f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9dafc8e193ccf3c47947be6508a0917a45393c91
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525320"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950051"
 ---
 # <a name="get-started-creating-report-layouts"></a>Aan de slag met het maken van rapportlay-outs
 
 Business Central wordt geleverd met veel ingebouwde lay-outs die u in uw rapporten kunt gebruiken. Andere lay-outs zijn mogelijk toegevoegd als onderdeel van andere extensies. Maar het is ook mogelijk om vanuit het niets of op basis van een bestaande lay-out uw eigen rapporten te maken.
+
+> [!IMPORTANT]
+> U kunt ook rapportlay-outs gebruiken om inhoud aan e-mailberichten toe te voegen. Rapportlay-outs kunnen bijvoorbeeld tijd besparen en zorgen voor consistentie door dezelfde inhoud opnieuw te gebruiken wanneer u met uw klanten communiceert. Als u aangepaste rapportlay-outs met e-mail wilt gebruiken, moet het bestandstype voor de lay-out Word zijn. U kunt het RDLC-bestandstype niet gebruiken. Voor meer informatie zie [Herbruikbare e-mailteksten en lay-outs instellen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="overview"></a>Overzicht
 

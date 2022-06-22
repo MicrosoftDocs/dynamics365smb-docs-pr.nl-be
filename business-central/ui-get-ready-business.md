@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/29/2021
+ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 7f9d04f5437ab37273fd02f8c40b3f44b3247b9c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513588"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805138"
 ---
 # <a name="get-ready-for-doing-business"></a>Zich voorbereiden om zaken te doen
 
@@ -77,6 +77,28 @@ Als gebruikers in Microsoft 365 zijn gemaakt, kunnen ze op de pagina **Gebruiker
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.  
 
+### <a name="set-up-your-company-in-prod_short"></a>Uw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
+
+De [snelstartgids](quick-start-business-central.md)artikelen kunnen u helpen de eerste stappen te zetten bij het instellen van [!INCLUDE [prod_short](includes/prod_short.md)] voor uw organisatie. Binnen [!INCLUDE [prod_short](includes/prod_short.md)] bevat de pagina **Begeleide instelling** de begeleide instellingen die u kunnen helpen. Afhankelijk van uw rol en land of regio, toont de pagina verschillende begeleide instellingen, zoals geïllustreerd in de volgende tabel:
+
+| Begeleide instelling | Omschrijving |
+| -------------- | ----------- |
+| Mijn bedrijf instellen |Hiermee wordt een nieuw proefbedrijf voor u gemaakt, waarin u gegevens kunt invoeren en [!INCLUDE[prod_short](includes/prod_short.md)] kunt uitproberen. |
+| Goedkeuringswerkstromen instellen |Stelt de mogelijkheid in om automatisch een fiatteur op de hoogte te stellen wanneer een gebruiker bepaalde waarden op documenten, journaalregels of kaarten probeert te maken of te wijzigen. U kunt bijvoorbeeld goedkeuring instellen voor bedragen boven een bepaalde limiet. |
+| E-mail instellen |Hiermee wordt u voorbereid op het direct verzenden van e-mailberichten uit bijvoorbeeld verkooporders of contacten in [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Uw bedrijfsinbox instellen in Outlook |Introduceert de mogelijkheid bedrijfsinteracties te beheren met uw klanten en leveranciers, direct in Microsoft Outlook. |
+| Bedrijfsgegevens migreren |Hiermee kunt u uw bedrijfsgegevens importeren zoals klanten, leveranciers, en artikelen vanuit Excel of Quickbooks. |
+| E-maillogboekregistratie instellen |Hiermee wordt de mogelijkheid ingesteld om e-mailcorrespondentie te registreren in [!INCLUDE[prod_short](includes/prod_short.md)] om interacties op te volgen. |
+| Een artikelgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding naar een fiatteur te verzenden wanneer een gebruiker een artikel wijzigt of maakt. |
+| Een goedkeuringswerkstroom voor klanten instellen |Hiermee wordt de mogelijkheid ingesteld om een fiatteur automatisch te informeren wanneer een gebruiker een klantenkaart probeert te maken of te wijzigen. |
+| Een betalingsgoedkeuringswerkstroom instellen |Hiermee wordt de mogelijkheid ingesteld om een melding te sturen naar een fiatteur wanneer een gebruiker betalingsdagboekregels voor goedkeuring verzendt. |
+| Een Dynamics 365 Sales-verbinding instellen |Hiermee wordt een verbinding met Dynamics 365 Sales ingesteld waarmee u gegevens, zoals contacten en verkoopordergegevens, kunt synchroniseren. |
+| Cashflowprognose instellen |Hiermee wordt het diagram Cashflowprognose ingesteld, zodat u de voorspelde verplaatsing van contant geld in en uit uw bedrijf kunt weergeven. Het diagram is beschikbaar in **Rolcentrum Accountant**. |
+| Rapportagegegevens instellen|Hiermee worden gegevenssets ingesteld die u kunt gebruiken om krachtige rapporten te maken met bijvoorbeeld Excel of Power BI. |
+| Externe accountant uitnodigen |Als u een externe auditor gebruikt om uw boeken en financiële rapportage beheren, kunt u deze uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens. |
+
+De pagina **Begeleide instelling** kan andere vermeldingen bevatten. Wanneer u een instelling doorloopt, wordt deze gemarkeerd als **Voltooid**. U kunt andere gebieden van het bedrijf instellen met behulp van handmatige configuratie. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] instellen](setup.md).  
+
 ## <a name="next-steps"></a>Volgende stappen
 
 Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe verkoop- of inkoopdocumenten. Gebruik de sectie **Acties** van uw startpagina om snel een nieuwe verkoopofferte, verkoopfactuur, verkooporder, inkoopfactuur of betalingsregistratie te maken. Bekijk de [snelstartgids](quick-start-business-central.md)artikelen om u te helpen de eerste stappen te zetten.  
@@ -88,13 +110,13 @@ Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe 
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Overzicht van bedrijfsgegevens](admin-company-information.md)  
 [Toegankelijkheid en sneltoetsen](ui-accessibility.md)  
-[Proefversies en abonnementen](across-preview.md)  
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
 [Zoeken in het Help-deelvenster](product-help-and-support.md#search-in-the-help-pane)  
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
 [Microsoft Learn-site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Gegevens migreren](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+[Proefversies en abonnementen](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

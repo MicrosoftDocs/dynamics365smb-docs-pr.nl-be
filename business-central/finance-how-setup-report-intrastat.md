@@ -8,20 +8,26 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 01/28/2022
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740349"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799757"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat instellen en rapporteren
 
 Bedrijven uit EU-landen moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. In uw land/regio moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en moet aangifte bij de belastingdienst worden gedaan. Dit wordt Intrastat-rapportage genoemd. U gebruikt de pagina **Intrastat-dagboek** om periodieke Intrastat-rapporten te voltooien.  
 
 ## <a name="required-and-optional-setups"></a>Vereiste en optionele instellingen
+
+> [!IMPORTANT]  
+> Klantenkaarten en leverancierskaarten bevatten een veld **Intrastat-partnertype** dat dezelfde optiewaarden heeft als het veld **Partnertype** veld: *"" (leeg)*, *Bedrijf* en *Persoon*. He veld **Intrastat-partnertype** vervangt het veld **Partnertype** in Intrastat-rapportage. **Partnertype** wordt in SEPA gebruikt om het SEPA-incassoschema (Core of B2B) te definiëren. **Intrastat-partnertype** wordt alleen gebruikt voor Intrastat-rapportage. Op deze manier kunt u indien nodig verschillende waarden voor de twee velden opgeven.
+> 
+> Houd er echter rekening mee dat als het veld **Intrastat-partnertype** leeg wordt gelaten, de waarde van het veld **Partnertype** wordt gebruikt voor Intrastat-rapportage.
+
 Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporteren, moet u meerdere zaken instellen:  
 
 * **Intrastat-instellingen**: de pagina Intrastat-instellingen wordt gebruikt om Intrastat-rapportage in te schakelen en er standaarden voor in te stellen. U kunt opgeven of u Intrastat moet rapporteren vanuit verzendingen, ontvangsten (aankomsten) of beide, afhankelijk van drempelwaarden die door uw lokale verordeningen zijn ingesteld. U kunt ook standaardtransactiesoorten instellen voor normale en retourdocumenten, die worden gebruikt voor de aard van transactierapportage.
@@ -30,7 +36,7 @@ Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporte
 * **Transactieaardcode**: landen/regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes op het sneltabblad **Buitenlandse handel** in verkoop- en inkoopdocumenten, en bij de verwerking van retouren. 
 
     > [!NOTE]
-    > Vanaf januari 2022 vereist Intrastat een andere transactie-aardcode voor verzendingen naar particulieren of niet-btw-geregistreerde bedrijven en btw-geregistreerde bedrijven. Om aan deze vereiste te voldoen raden we u aan om nieuwe transactie-aardcodes te bekijken en/of toe te voegen op de pagina **Transactietypes** volgens de vereisten in uw land/regio. U moet ook het veld **Partnertype** controleren en bijwerken naar *Persoon* voor particulieren of niet-btw-geregistreerde zakelijke klanten op de relevante pagina **Klant**. Als u niet zeker weet welk partner- of transactietype u moet gebruiken, raden we u aan een expert in uw land of regio te raadplegen. 
+    > Vanaf januari 2022 vereist Intrastat een andere transactie-aardcode voor verzendingen naar particulieren of niet-btw-geregistreerde bedrijven en btw-geregistreerde bedrijven. Om aan deze vereiste te voldoen raden we u aan om nieuwe transactie-aardcodes te bekijken en/of toe te voegen op de pagina **Transactietypes** volgens de vereisten in uw land/regio. U moet ook het veld **Intrastat-partnertype** controleren en bijwerken naar *Persoon* voor particuliere of niet-btw-geregistreerde zakelijke klanten op de relevante pagina **Klant**. Als u niet zeker weet welk Intrastat-partnertype of transactietype u moet gebruiken, raden we u aan een expert in uw land of regio te raadplegen. 
  
 * **Transportmethoden**: er zijn zeven eencijferige codes voor Intrastat-transportmethoden. **1** voor zee, **2** voor spoor, **3** voor weg, **4** voor lucht, **5** voor post, **7** voor vaste installaties en **9** voor eigen voortdrijving (bijvoorbeeld een auto verplaatsen door ermee te rijden). [!INCLUDE[prod_short](includes/prod_short.md)] vereist deze codes niet, maar we raden aan dat de beschrijvingen een soortgelijke betekenis hebben.  
 * **Transactieomschrijvingen**: gebruik deze als aanvulling op de omschrijvingen van de transactiesoorten.  
@@ -113,7 +119,7 @@ Nadat u het Intrastat-dagboek hebt ingevuld, kunt u het rapport **Controlelijstr
 Met de batchverwerking worden alle artikelposten in de statistiekperiode opgehaald en als regels in het Intrastat-dagboek ingevoegd. U kunt de regels zo nodig bewerken.  
 
 > [!IMPORTANT]  
-> Tijdens de batchverwerking worden alleen de posten met een land-/regiocode opgehaald waarvoor u een Intrastat-code hebt ingevoerd op de pagina **Landen/regio's**. Het is dus belangrijk dat u Intrastat-codes invoert voor de land-/regiocodes waarvoor u de batchverwerking wilt uitvoeren. De batchverwerking stelt het veld **Btw-nummer van partner** in op *QV999999999999* voor particulieren of niet-btw-geregistreerde bedrijven (klanten met het veld **Partnertype** ingesteld op *Persoon*) en gebruikt de waarde van het veld **Transactietype** in de geboekte artikelpost of projectgrootboekpost. 
+> Tijdens de batchverwerking worden alleen de posten met een land-/regiocode opgehaald waarvoor u een Intrastat-code hebt ingevoerd op de pagina **Landen/regio's**. Het is dus belangrijk dat u Intrastat-codes invoert voor de land-/regiocodes waarvoor u de batchverwerking wilt uitvoeren. De batchverwerking stelt het veld **Btw-nummer van partner** in op *QV999999999999* voor particulieren of niet-btw-geregistreerde bedrijven (klanten met het veld **Intrastat-partnertype** ingesteld op *Persoon*) en gebruikt de waarde van het veld **Transactietype** in de geboekte artikelpost of projectgrootboekpost. 
 
 ### <a name="to-modify-intrastat-journals-lines"></a>Intrastat-journaalregels wijzigen
 
@@ -149,6 +155,9 @@ U kunt het Intrastat-rapport indienen als bestand. Voordat u het bestand maakt, 
 5. Kies de knop **OK** op de pagina voor de batchtaak.  
 6. Kies **Opslaan**.  
 7. Blader naar de locatie waar u het bestand wilt opslaan, voer de bestandsnaam in en kies **Opslaan**.
+
+> [!NOTE]
+> Wanneer een regel in het Intrastat-rapport een aanvullende maateenheid heeft, wordt het gewicht van het artikel niet weergegeven, aangezien deze waarde niet vereist is.
 
 ## <a name="reorganize-intrastat-journals"></a>Intrastat-dagboeken opnieuw indelen
 

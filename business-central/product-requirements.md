@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/31/2022
+ms.date: 06/08/2022
 ms.author: jswymer
-ms.openlocfilehash: 8a2c342f31dc4c17bb34af22ffc912dcc51c5cf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514425"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950448"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
 
@@ -22,17 +22,20 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 
 ## <a name="browsers"></a>Browsers
 
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van de nieuwe Microsoft Edge.
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van Microsoft Edge.
   
-**Chrome voor Windows en Firefox voor Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van deze desktopbrowsers. De bureaublad-app Business Central-app werkt niet met Firefox.
+**Chrome voor Windows en Firefox voor Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van deze desktopbrowsers.
  
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van Safari onder macOS.  
 
+> [!TIP]
+> Installeer de [!INCLUDE[prod_short](includes/prod_short.md)][-app in het Start-menu](install-desktop-app.md#install-the-app-for-business-central-online) met behulp van de browsers Microsoft Edge of Chrome.
+
 ## <a name="mobile-devices"></a>Mobiele apparaten
 
-**Android (tablet en telefoon):** Een van de laatste drie grote versies en hun updates.
+**Android (tablet en telefoon):** een van de laatste drie grote besturingssysteemversies en hun updates.
 
-**iOS (iPad en iPhone):** Een van de laatste drie grote versies en hun updates.
+**iOS (iPad en iPhone):** een van de laatste drie grote besturingssysteemversies en hun updates.
 
 ## <a name="outlook"></a>Outlook
 
@@ -53,6 +56,8 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 
 **Platforms**: wanneer u de [!INCLUDE[prod_short](includes/prod_short.md)]-app in Teams voor iOS of Android gebruikt, is het voor de app nodig dat op uw mobiele apparaat een van de ondersteunde mobiele platforms is geïnstalleerd die eerder in dit artikel zijn vermeld.
 
+**Ondersteund abonnement:** de [!INCLUDE[prod_short](includes/prod_short.md)]-app voor Teams ondersteunt Microsoft 365 Business- en Enterprise-abonnementen, maar geen zelfstandige Teams-abonnementen zoals Microsoft Teams (gratis) of Microsoft Teams Essentials.
+
 ## <a name="excel"></a>Excel
 
 **Bewerken Excel:** als u de Excel-invoegtoepassing wilt gebruiken om wijzigingen in Excel aan te brengen en de wijzigingen naar [!INCLUDE[prod_short](includes/prod_short.md)] terug te sturen, hebt u Excel 2019 of hoger nodig. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
@@ -64,18 +69,22 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 
 Het beheercentrum is ontworpen om te werken met de huidige versie van de volgende browsers:
 
-- De nieuwe Microsoft Edge
+- Microsoft Edge
 - Chrome voor Windows
 - Firefox voor Windows
 - Safari voor macOS
 
 ## <a name="use-business-central-on-premises"></a>Business Central on-premises gebruiken
 
-Als u Business Central on-premises wilt implementeren, moet u de systeemvereisten controleren. Zie voor meer informatie [Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) en [Implementatieoverzicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Als u Business Central on-premises wilt implementeren, moet u de systeemvereisten controleren. Zie voor meer informatie [Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) en [Implementatieoverzicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-[Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
+[Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  
+[De Business Central-desktop-app verkrijgen](install-desktop-app.md)  
+[Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)  
+[Zakelijke interacties beheren in Microsoft Outlook](admin-outlook.md)  
+[Integratie van Business Central en Microsoft Teams](across-teams-overview.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

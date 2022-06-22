@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768226"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808886"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Problemen oplossen met de synchronisatie tussen Shopify en Business Central
 
@@ -56,9 +56,8 @@ Als [!INCLUDE[prod_short](../includes/prod_short.md)] geen verbinding kan maken 
 
 1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u het toegangstoken wilt ophalen om de pagina **Shopify-winkelkaart** te openen.
-3. Voer in het veld **Code** de code in.  
-4. Kies de actie **Toegang aanvragen**.
-5. Als daarom wordt gevraagd, logt u in bij uw Shopify-account.
+3. Kies de actie **Toegang aanvragen**.
+4. Als daarom wordt gevraagd, logt u in bij uw Shopify-account.
 
 ## <a name="see-also"></a>Zie ook
 
