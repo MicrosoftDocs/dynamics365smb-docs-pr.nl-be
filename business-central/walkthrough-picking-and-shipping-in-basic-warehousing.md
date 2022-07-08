@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0594134585fe85540c7ed87e1588fd218b7a561a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513405"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074470"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
 
@@ -67,6 +67,7 @@ Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZUID in voor basispickverwe
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
 ### <a name="setting-up-the-bin-codes"></a>De opslaglocatiecodes instellen
+
 Nadat u de locatie hebt ingesteld, moet u twee opslaglocaties toevoegen.
 
 #### <a name="to-setup-the-bin-codes"></a>De opslaglocatiecodes instellen
@@ -142,6 +143,8 @@ Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor ee
 6. Kies de actie **Boeken**, selecteer **Verzenden** en kies de knop **OK**.  
 
     Nu zijn de 30 lampen geregistreerd als gepickt uit de opslaglocaties S-01-0001 en S-01-0002, en een negatieve artikelpost is gemaakt om de geboekte verkoopverzending te weerspiegelen.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

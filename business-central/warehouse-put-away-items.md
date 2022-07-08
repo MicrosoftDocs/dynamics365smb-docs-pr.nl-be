@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5770, 5783, 5784, 5786, 5795, 7334, 7352, 7354, 7356, 7375, 7379, 7390, 7394, 7396, 9312, 9315, 9343
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 1a18d62f5b2c9f98bd3ece41eeb871221003cccd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4ae110e18307105893e9ee3efccf136ff3efe02f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519982"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079492"
 ---
 # <a name="putting-items-away"></a>Artikelen opslaan
 
@@ -39,12 +39,14 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Een opslagregel splitsen om een deel van de opslaghoeveelheid in beschikbare opslaglocaties te plaatsen omdat de aangewezen locatie vol is.|[Magazijnactiviteitsregels splitsen](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Direct toegang verkrijgen tot voorraadopslag die aan u als magazijnmedewerker is toegewezen.|[Magazijntoewijzingen zoeken](warehouse-how-to-find-your-warehouse-assignments.md)|
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/receive-put-away-items/)
+
 ## <a name="see-also"></a>Zie ook
 
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Magazijnbeheer instellen](warehouse-setup-warehouse.md) 
-[Assemblagebeheer](assembly-assemble-items.md)
+[Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
+[Assemblagebeheer](assembly-assemble-items.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

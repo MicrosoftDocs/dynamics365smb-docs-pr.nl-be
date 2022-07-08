@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 611a182a7f2b2202dd03e709da22183f762fe351
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382831"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075244"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Procedure: Serie-/lotnummers traceren
 
@@ -189,7 +189,8 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Vervolgens gaat u racefietsen verkopen. Eest verkoopt u de racefiets met SN1 aan Selangorian Ltd.  
 
-### <a name="to-sell-the-end-items"></a>De eindpoducten verkopen  
+### <a name="to-sell-the-end-items"></a>De eindpoducten verkopen
+
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw** en maak vervolgens een verkooporder door de volgende velden in te vullen.  
 
@@ -228,10 +229,12 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Hiermee is de voorbereiding van gegevens voltooid voor het demonstreren van de functies Artikeltracering en Posten zoeken.  
 
-## <a name="tracing-from-usage-to-origin"></a>Traceren van gebruik naar oorsprong  
+## <a name="tracing-from-usage-to-origin"></a>Traceren van gebruik naar oorsprong
+
  Van de verkoopafdeling weet de kwaliteitscontroleur dat de teruggegeven racefiets, artikel 1002, het serienummer SN1 heeft. Met deze basisinformatie kan hij bepalen waar de voltooide racefiets voor het laatst is gebruikt, in dit geval bij de verkoopverzending aan Selangorian Ltd. Vervolgens moet de kwaliteitscontroleur deze traceren naar het eerste begin om vast te stellen van welk partijnummer het defecte frame afkomstig is en welke leverancier deze heeft geleverd.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Vaststellen uit welke partij het defecte frame afkomstig is en wie deze heeft geleverd  
+### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Vaststellen uit welke partij het defecte frame afkomstig is en wie deze heeft geleverd
+
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeltracering** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voer op de pagina **Artikeltracering** de tekst **SN1** in het veld **Serienr.-filter** in en voer vervolgens **1002** in het veld **Artikelfilter** in.  
 3.  Laat de standaardinstelling **Met artikeltracering** staan in het veld **Onderdelen weergeven** en houd de standaardtraceringsmethode **Gebruik - oorsprong** bij **Traceringsmethode**.  
@@ -257,7 +260,8 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
      Hiermee is de eerste taak voor defectenbeheer met de pagina **Artikeltracering** voltooid. De kwaliteitscontroleur moet nu bepalen of er andere documenten zijn geboekt waarop raceframes uit LOT1 zijn verwerkt.  
 
-## <a name="tracing-from-origin-to-usage"></a>Traceren van oorsprong naar gebruik  
+## <a name="tracing-from-origin-to-usage"></a>Traceren van oorsprong naar gebruik
+
  De kwaliteitscontroleur heeft vastgesteld dat de defecte raceframes afkomstig waren uit LOT1. Hij moet nu achterhalen welke andere racefietsen eventueel een raceframe uit de defecte partij hebben, zodat deze fietsen kunnen worden stopgezet of teruggehaald.  
 
  Een manier om deze traceringstaak voor te bereiden op de pagina **Artikeltracering** is om handmatig LOT1 in te voeren in het veld **Lotnr.-filter** en 2000 in het veld **Artikelfilter**. In dit overzicht wordt echter gebruikgemaakt van de functie **Tegengesteld traceren - Van regel**.  
@@ -280,7 +284,8 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     Hiermee is de tweede taak voor defectenbeheer met de pagina **Artikeltracering** voltooid. Aangezien de pagina **Artikeltracering** uitsluitend is gebaseerd op geboekte posten, moet de kwaliteitscontroleur naar de pagina **Posten zoeken** gaan om te controleren of LOT1 niet is gebruikt in niet-geboekte documenten.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Alle records van een serie/lotnummer zoeken  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Alle records van een serie/lotnummer zoeken
+
  Op de pagina **Artikeltracering** heeft de kwaliteitscontroleur gezien dat LOT1 de defecte raceframes bevatte, van welke leverancier ze afkomstig zijn en in welke geboekte transactie ze zijn gebruikt. Hij of zij moet nu bepalen of LOT1 in open documenten voorkomt door te integreren vanuit het traceringsresultaat naar de pagina **Posten zoeken**, waar hij of zij een zoekactie op alle databaserecords kan uitvoeren.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Alle gevallen van LOT1 in niet-geboekte records zoeken zoals open orders  
@@ -298,12 +303,14 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
  Hiermee is het overzicht van het gebruik van de pagina **Posten zoeken** voor defectenbeheer in integratie met de pagina **Artikeltracering** voltooid.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/use-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Zie ook
+
 [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  
 [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)  
 [Posten zoeken](ui-find-entries.md)  
 [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

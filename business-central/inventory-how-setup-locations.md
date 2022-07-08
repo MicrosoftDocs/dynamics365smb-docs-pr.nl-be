@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515523"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077279"
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
 
@@ -27,6 +27,7 @@ U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarh
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Vestigingskaarten
+
 U geeft informatie over een vestiging, zoals een magazijn of een distributiecentrum, op de pagina **Vestiging** op. U wijst aan elke vestiging een naam toe en een code die de vestiging vertegenwoordigt. U kunt de vestigingscode in andere delen van het programma invoeren om transacties voor een bepaalde vestiging vast te leggen.  
 
 U kunt informatie invoeren over opslaglocaties en magazijnbeleid voor elke vestiging. Op basis van het geselecteerde magazijnbeleid gebruikt u de opties op het sneltabblad **Opslaglocaties** om de opslaglocaties te definiëren die als standaardopslaglocaties worden gebruikt wanneer u transacties uitvoert. Als u gestuurde opslag en pick gebruikt, gebruikt u de meeste opties op het sneltabblad **Opslaglocatiebeleid** om te definiëren hoe u de verschillende magazijnfuncties wilt gebruiken.  
@@ -76,7 +77,10 @@ Als u uw opslaglocaties onder zones wilt structureren, kunt u dat doen op de pag
 U kunt echter ook slechts één zone instellen en uw magazijn indelen op basis van alleen de opslaglocaties. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Standaardafmetingen voor locaties
+
 U stelt standaardafmetingen in voor een locatie op de pagina **Locatiekaart** door **Locatie** te kiezen en vervolgens **Dimensies**. De standaarddimensies van de locatie worden gekopieerd naar journalen en documenten wanneer u de locatie op een regel opgeeft, maar u kunt de dimensie op de regel indien nodig verwijderen of wijzigen. U kunt eisen dat mensen dimensies opgeven voor specifieke locaties voordat ze een item kunnen boeken. U kunt ook locatiedimensiewaarden opnemen in **Prioriteiten voor standaarddimensie** en **Dimensiecombinaties** voor combinaties van prioriteits- en dimensieregels.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

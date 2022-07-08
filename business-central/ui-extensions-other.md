@@ -9,18 +9,20 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfdcf37464a032b6d999d525e67eecadb961ca4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba87c96e23a3905e555a3c5fbf361758f2f76664
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129954"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075719"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Extensies voor Business Central van andere providers
 
 Bij [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies krijgen voor [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige extensies worden verstrekt door Microsoft en andere extensies worden verstrekt door andere bedrijven. We verwijzen naar de websites van deze bedrijven voor meer informatie over de extensies die niet door Microsoft zijn gepubliceerd. U kunt deze informatie vinden op [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 Het overzicht van de extensies door andere bedrijven groeit elke maand. Houd een oog op [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) en krijg apps om u te helpen in uw werk in [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655303"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075667"
 ---
 # <a name="set-up-printers"></a>Printers instellen
 
@@ -269,11 +269,14 @@ U of de beheerder kan ook de pagina **Printerselecties** gebruiken om andere afd
 > Specifiekere printerselecties hebben voorrang op algemenere printerselecties. Bijvoorbeeld een printerselectie met waarden in de velden **Gebruikers-ID**, **Rapport-id** en **Printernaam** heeft voorrang op een printerselectie met lege vermeldingen in de velden **Gebruikers-ID** of **Rapport-id**.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>De printer kiezen bij het uitvoeren van een rapport
+
 In plaats van de standaardprinter te gebruiken bij het uitvoeren van een rapport, kunt u deze instelling overschrijven vanaf de aanvraagpagina. Kies eenvoudig welke printer u wilt gebruiken voor deze aanroep van het rapport in het vervolgkeuzemenu **Printer**.
 
 ### <a name="sizing-print-jobs"></a>Formaat van afdruktaken
 
 Cloudafdrukken zijn ontworpen voor documenten van een redelijk formaat. De meeste cloudservices, inclusief PrintNode en HP ePrint, hebben een limiet van 10 MB per taak. Als u grotere rapporten wilt afdrukken, moet u deze mogelijk in meerdere afdrukken splitsen.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

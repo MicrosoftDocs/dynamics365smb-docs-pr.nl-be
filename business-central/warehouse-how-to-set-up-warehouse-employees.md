@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c04e2e81876628a8b6fe9534bb7ecdbb960bcc8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f0018b5ad58644783b24d2c3b3fd82ae83d132fb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511341"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075173"
 ---
 # <a name="set-up-warehouse-employees"></a>Magazijnmedewerkers instellen
 
@@ -29,12 +29,14 @@ Elke gebruiker die magazijnactiviteiten uitvoert, moet als magazijnmedewerker wo
 5. Schakel het selectievakje **Standaard** om om de vestiging vast te leggen als enige vestiging waar de medewerker magazijnactiviteiten mag uitvoeren.  
 6. Herhaal deze stappen als u meer medewerkers aan vestigingen wilt toewijzen of als u niet-standaardvestigingen wilt toewijzen aan bestaande magazijnmedewerkers.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+
 ## <a name="see-also"></a>Zie ook
 
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Magazijnbeheer instellen](warehouse-setup-warehouse.md) 
-[Assemblagebeheer](assembly-assemble-items.md)
+[Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
+[Assemblagebeheer](assembly-assemble-items.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950474"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041438"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Mensen in bedrijven sturen dagelijks informatie en documenten, zoals verkoop- en inkooporders en facturen, per e-mail. Beheerders kunnen een of meer e-mailaccounts verbinden met [!INCLUDE[prod_short](includes/prod_short.md)], zodat u documenten kunt verzenden zonder een e-mailapp te hoeven openen. U kunt elk bericht afzonderlijk opstellen met basisopmaakhulpmiddelen, zoals lettertypen, stijlen, kleuren, enzovoort, en bijlagen tot 100 MB toevoegen. Daarnaast kunnen beheerders met rapportlay-outs alleen de belangrijkste informatie uit documenten opnemen. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
@@ -44,7 +44,7 @@ De volgende tabel beschrijft de e-mailextensies die standaard beschikbaar zijn.
 |**SMTP-connector**|SMTP-protocol gebruiken om e-mails te verzenden.|Communicatie via uw SMTP-mailserver toestaan. |
 
 > [!NOTE]
-> De extensies **Microsoft 365-connector** en **Huidige gebruikersconnector** gebruiken de accounts die u voor gebruikers instelt in het Microsoft 365-beheercentrum, voor uw Microsoft 365-abonnement. Om e-mail te verzenden met de extensies moeten gebruikers een geldige licentie hebben voor Exchange Online. Bovendien vereisen deze extensies dat de instelling **HttpClient-aanvragen toestaan** is ingeschakeld. Als u wilt controleren of het voor deze extensies is ingeschakeld, gaat u naar de pagina **Extensiebeheer**, kiest u de extensie en kiest u vervolgens de optie **Configureren**.
+> De extensies **Microsoft 365-connector** en **Huidige gebruikersconnector** gebruiken de accounts die u voor gebruikers instelt in het Microsoft 365-beheercentrum, voor uw Microsoft 365-abonnement. Om e-mail te verzenden met de extensies moeten gebruikers een geldige licentie hebben voor Exchange Online. Bovendien vereisen deze extensies in sandboxomgevingen dat de instelling **HttpClient-aanvragen toestaan** is ingeschakeld. Als u wilt controleren of het voor deze extensies is ingeschakeld, gaat u naar de pagina **Extensiebeheer**, kiest u de extensie en kiest u vervolgens de optie **Configureren**.
 
 > Externe gebruikers, zoals gedelegeerde beheerders en externe accountants, kunnen deze extensies niet gebruiken om e-mailberichten te verzenden vanuit [!INCLUDE[prod_short](includes/prod_short.md)].
 

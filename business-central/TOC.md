@@ -229,13 +229,11 @@
 ### Inkomende documenten
 #### [Overzicht van inkomende documenten](across-income-documents.md)
 #### [Inkomende documenten instellen](across-how-setup-income-documents.md)
-#### Inkomende documenten verwerken
-##### [Inkomende documenten verwerken](across-process-income-documents.md)
-##### [Inkomende documentrecords maken](across-how-create-income-document-records.md)
-##### [OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md)
-##### [Inkomende documentrecords maken direct van documenten en posten](across-how-connect-disconnect-income-document-records.md)
-##### [Geboekte documenten zonder inkomende documentrecords zoeken](across-how-find-posted-documents-without-income-document-records.md)
-##### [Vele inkomende documentrecords beheren](across-how-manage-many-income-document-records.md)
+#### [Inkomende documentrecords maken](across-how-create-income-document-records.md)
+#### [OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md)
+#### [Inkomende documentrecords maken direct van documenten en posten](across-how-connect-disconnect-income-document-records.md)
+#### [Geboekte documenten zonder inkomende documentrecords zoeken](across-how-find-posted-documents-without-income-document-records.md)
+#### [Vele inkomende documentrecords beheren](across-how-manage-many-income-document-records.md)
 
 ### Werkstromen
 #### [Werkstroomoverzicht](across-workflow.md)
@@ -1421,11 +1419,11 @@
 
 ### Verenigde Staten
 #### [Lokale functionaliteit in de Amerikaanse versie](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
-#### Btw
+#### Belasting
 ##### [Amerikaanse Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Sales Tax rapporteren in de Verenigde Staten](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [Transacties rapporteren als 1099-plichtig in de Verenigde Staten](LocalFunctionality/UnitedStates/tax-1099.md)  
 ##### [Het IRS 1099-formulier instellen en gebruiken](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Regelgeving 1099 Indelingswijzigingen en details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Gebruiksbelasting- en inkoopbelasting instellen](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Niet-gerealiseerde Sales Tax en verkoopcontantkortingen instellen](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Bankieren en betalingen

@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 9860ebc2ce7260f450dbda928ee6339c0560e0a7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b66efde55918886132def51ad898fa9e89054c02
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521136"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077357"
 ---
 # <a name="sell-items-assembled-to-order"></a>Assembleren voor order-artikelen verkopen
+
 Als het veld **Assemblagebeleid** op de artikelkaart van assemblageartikel **Op order assembleren**, wordt niet verwacht dat het artikel in voorraad is, en moet het worden samengesteld op een verkooporder. Wanneer u het artikel invoert op een verkooporderregel, wordt automatisch een assemblageorder gemaakt en gekoppeld aan de verkooporder.  
 
 > [!NOTE]  
@@ -28,7 +29,8 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 > [!NOTE]  
 >  De volgende procedure bevat niet de standaard verkooporderstappen die u moet volgen vóór de stap waarin u het op-order-assembleren-artikel invoert op een verkooporderregel.  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Een artikel verkopen dat is samengesteld voor een order  
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Een artikel verkopen dat is samengesteld voor een order
+
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Een verkooporder maken. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 3.  Selecteer in het veld **Nr.** een artikel in dat is ingesteld om op order te worden geassembleerd.  
@@ -52,7 +54,7 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
     >   
     >  Op de kop van gekoppelde assemblageorders kan alleen het veld **Begindatum** worden gewijzigd zodat assemblagemedewerkers een eerdere datum dan de vervaldatum kunnen opgeven wanneer zij het proces starten. Alle velden op de regels van de gekoppelde assemblageorder kunnen worden gewijzigd, zodat magazijnmedewerkers verbruikcijfers kunnen invoeren tijdens het proces.  
 
-8.  Op problemen met de beschikbaarheid componenten of controleren. Selecteer bijvoorbeeld een beschikbaar vervangingsartikel of stel een latere vervaldatum in.  
+8.  Op problemen met de beschikbaarheid componenten of controleren. Selecteer bijvoorbeeld een beschikbaar vervangend artikel.  
 9. Sluit de pagina **Op orderregels assembleren**. De gekoppelde assemblageorder is nu klaar om de aangepaste items op de vervaldatum te assembleren.  
 10. Kies in de verkooporder de actie **Vrijgeven** om de assemblageafdeling te informeren dat het assemblageproces kan worden gestart.  
 11. Voer de stappen uit van de montage van de artikelen die in deze procedure worden verkocht in de montageafdeling. Zie [Artikelen assembleren](assembly-how-to-assemble-items.md) voor meer informatie.  
@@ -60,7 +62,10 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 > [!NOTE]  
 > Houd er rekening mee dat artikelvervangingen er niet automatisch toe leiden dat een artikel wordt vervangen door een ander artikel, bijvoorbeeld bij het maken van een verkooporder of in een stuklijst. In plaats daarvan wordt u erop gewezen dat er een vervanging voor u beschikbaar is.
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Zie ook
+
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  

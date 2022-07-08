@@ -10,19 +10,21 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92ebe1881a143986ef4775e269211f0fb7279f3f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519712"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079596"
 ---
 # <a name="reserve-items"></a>Artikelen reserveren
+
 U kunt artikelen reserveren voor verkooporders, inkooporders, serviceorders, assemblageorders en productieorders. U kunt artikelen in voorraad reserveren of inkomend op openstaande document- of dagboekregels. U voert de handelingen hiervoor uit op de pagina **Reservering**.
 
 Elke regel op de pagina **Reservering**, die u opent om artikelen te reserveren, geeft informatie over één soort regel (verkoop, inkoop, dagboek) of voorraadpost. Op de regels wordt beschreven hoeveel artikelen van elk soort regel of post beschikbaar zijn voor reservering.
 
 ## <a name="to-reserve-items-for-sales"></a>Artikelen reserveren voor verkopen
+
 Hieronder wordt beschreven hoe u artikelen reserveert vanuit een verkooporder. De stappen voor inkoop-, service- en assemblageorders komen hiermee overeen.  
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies in een verkooporder op het sneltabblad **Regels** de actie **Reserveren**. De pagina **Reservering** verschijnt.  
@@ -38,7 +40,8 @@ Hieronder wordt beschreven hoe u artikelen reserveert vanuit een verkooporder. D
 > [!NOTE]  
 >  Als u artikeltracering hebt ingesteld voor de verkooporder, moet u een speciale reserveringsprocedure uitvoeren: Zie voor meer informatie [Reserveren van een bepaald serie- of lotnummer](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
-## <a name="to-reserve-an-item-for-a-production-order-line"></a>Een artikel voor een productieorderregel reserveren  
+## <a name="to-reserve-an-item-for-a-production-order-line"></a>Een artikel voor een productieorderregel reserveren
+
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
 
 In de volgende procedure wordt een vast geplande productieorder gebruikt.   
@@ -50,7 +53,8 @@ In de volgende procedure wordt een vast geplande productieorder gebruikt.
 
 Het aantal dat u hebt ingevoerd op de vast geplande productieorderregel is nu gereserveerd.
 
-## <a name="to-reserve-items-for-production-order-components"></a>Artikelen reserveren voor productieordermaterialen  
+## <a name="to-reserve-items-for-production-order-components"></a>Artikelen reserveren voor productieordermaterialen
+
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
 
 In de volgende procedure wordt een vast geplande productieorder gebruikt.    
@@ -64,21 +68,24 @@ In de volgende procedure wordt een vast geplande productieorder gebruikt.
 
 Het aantal dat u hebt ingevoerd op de materiaalregel van de vast geplande productieorder is nu gereserveerd.
 
-## <a name="to-change-a-reservation"></a>Een reservering wijzigen  
+## <a name="to-change-a-reservation"></a>Een reservering wijzigen
+
 Soms wilt u een artikelreservering wijzigen.   
 1. Kies vanuit de gereserveerde documentregel op het sneltabblad **Regels** de actie **Reserveren**.  
 2. Kies op de pagina **Reservering** de actie **Reserveringsposten**.
 3. Werk op de pagina **Reserveringsposten** het veld **Aantal** bij op de regel op die u wilt wijzigen.
 4. Bevestig het volgende bericht met de knop **OK**.
 
-## <a name="to-cancel-a-reservation"></a>Een reservering annuleren  
+## <a name="to-cancel-a-reservation"></a>Een reservering annuleren
+
 Soms wilt u een artikelreservering annuleren.   
 1. Kies vanuit de documentregel waarvoor u een reservering wilt annuleren op het sneltabblad **Regels** de actie **Reserveren**.  
 2. Kies op de pagina **Reservering** de actie **Reserveringsposten**.  
 3.  Kies op de pagina **Reservering** de actie **Reservering annuleren**.  
 4.  Bevestig het volgende bericht met de knop **OK**.  
 
-## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Reserveren van een bepaald serie- of lotnummer  
+## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Reserveren van een bepaald serie- of lotnummer
+
 Van uitgaande documenten voor getraceerde artikelen, zoals verkooporders of productiecomponentlijsten, kunt u specifieke serie- of lotnummers reserveren. Dit kan nuttig zijn als u bijvoorbeeld productiecomponenten van een specifieke partij nodig hebt om consistentie met eerdere productiepartijen te waarborgen of omdat een klant een specifiek serienummer heeft aangevraagd. Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 
 Dit heet een specifieke reservering, omdat u reserveert van het aantal van Artikel X dat hoort bij Partij X. Als u gewoon uit aantallen van artikel X reserveert, is het een normale, niet-specifieke, reservering. Zie voor meer informatie [Ontwerpdetails: Artikeltracering en reservering](design-details-item-tracking-and-reservations.md).
@@ -93,7 +100,10 @@ De volgende procedure is gebaseerd op een verkooporder.
 7. Kies de knop **OK** om de pagina **Reservering** te openen met alleen aanvoer met het opgegeven artikeltraceringsnummer. Als er niet-specifieke reserveringen zijn voor de artikeltraceringsnummers die u hebt opgegeven voor deze regel, ontvangt u een bericht over het reeds gereserveerde aantal.  
 8. Kies de actie **Autom. reservering** of **Vanuit huidige regel reserveren** om de reservering voor de specifieke artikeltraceringsnummers te maken.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Zie ook
+
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  

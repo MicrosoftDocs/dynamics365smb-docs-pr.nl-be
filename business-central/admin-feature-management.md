@@ -7,12 +7,12 @@ ms.search.keywords: administration, admin, key, optional, feature management, ea
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: a3cc650067c18da1594e2381413f8dd76966ab3a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ca23cb79f3ef95db1cb7c9528805d37a7560fc8a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141397"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077670"
 ---
 # <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Nieuwe en aankomende functies van tevoren inschakelen
 
@@ -21,6 +21,8 @@ Sommige nieuwe functies kunnen van tevoren worden ingeschakeld, zodat u er zo vr
 Wanneer Microsoft functies of verbeteringen in het ontwerp van functies uitbrengt als onderdeel van kleine updates, worden sommige functies niet onmiddellijk ingeschakeld. Beheerders kunnen elke functie inschakelen vanaf de pagina **Functiebeheer**. Nadat een functie is ingeschakeld, wordt deze beschikbaar voor alle gebruikers in die omgeving, ongeacht hoe ze toegang krijgen tot [!INCLUDE[prod_short](includes/prod_short.md)]. Functies kunnen weer veilig worden uitgeschakeld. Deze functies zijn slechts een tijdje optioneel.
 
 Meer informatie over [functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

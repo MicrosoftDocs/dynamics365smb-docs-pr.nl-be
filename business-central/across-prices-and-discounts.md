@@ -10,20 +10,22 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5f0a26e9a6784f1d0ae2b7c8881667a51560cbf6
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523617"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077696"
 ---
 # <a name="set-up-prices-and-discounts"></a>Prijzen en kortingen instellen
+
 > [!NOTE]
 > In releasewave 2 van 2020 hebben we gestroomlijnde processen uitgebracht voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent en die versie gebruikt, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd op de pagina **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Prijs- en kortingsstrategieën voor de aan- en verkoop van artikelen en diensten zijn fundamentele instrumenten voor succesvolle bedrijven. Nadat u de artikelen en services hebt ingesteld die uw bedrijf koopt en verkoopt, kunt u bepalen wat u ervoor betaalt of in rekening brengt, en die bedragen worden automatisch toegevoegd aan verkoop- en inkoopdocumenten. 
 
 ## <a name="setting-up-prices-and-discounts"></a>Prijzen en kortingen instellen
+
 Voordat u prijslijsten maakt, moet u uw prijs- en kortingsstrategieën definiëren op de pagina's **Verkoopinstellingen** en **Instellingen Inkoop en betalingen**.
 
 U kunt twee soorten kortingen instellen:
@@ -39,6 +41,7 @@ Doordat verkoopprijzen en verkoopregelkortingen worden gebaseerd op een combinat
 > Als u niet wilt dat een artikel ooit met korting wordt verkocht, laat u de kortingsvelden op de artikelpagina leeg en neemt u het artikel niet op in instellingen van regelkorting.
 
 ## <a name="about-price-lists"></a>Over prijslijsten
+
 Prijslijsten zijn flexibel en laten u de zakenpartner of activiteit specificeren waarop ze van toepassing zijn. U kunt bijvoorbeeld één prijslijst opstellen die van toepassing is op alle leveranciers en klanten, of speciale prijzen of kortingen aanbieden voor elke zakenpartner, misschien gebaseerd op een minimumhoeveelheid op inkoop- of verkooporders, of een bepaalde combinatie van klant, artikel, minimumhoeveelheid, maateenheid of tijdsperiode. De prijzen en kortingen die u definieert, worden automatisch toegepast op inkoop- en verkoopdocumenten. 
 
 ## <a name="set-up-prices"></a>Prijzen instellen
@@ -52,6 +55,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Vul een regel in voor elke combinatie waarmee een speciale verkoopprijs aan de klant wordt verleend.
 
 #### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)  
+
 U kunt voor elke regel handmatig artikelen en services toevoegen, of u kunt de actie **Regels voorstellen** gebruiken om nieuwe prijzen te creëren voor geselecteerde artikelen, artikelkortingsgroepen, resources en andere productsoorten. Als u **Regels voorstellen** kiest, kunt u op de pagina **Prijsregels - Nieuw maken** filters gebruiken om de artikelen of services te selecteren die u in de prijslijst wilt opnemen. U kunt ook aangeven of bij het berekenen van prijzen rekening moet worden gehouden met een minimumhoeveelheid, de correctiefactor die moet worden toegepast voor nieuwe prijslijstregels en de afrondingsmethode die voor prijzen moet worden toegepast. 
 
 Standaard is de status van nieuwe prijslijsten **Concept**. Als u klaar bent om de lijst te gebruiken, kunt u de status wijzigen in **Actief**.
@@ -71,6 +75,7 @@ Als u prijslijsten en prijzen wilt bekijken die van toepassing zijn op specifiek
 ---
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Een verkoopregelkorting instellen voor een klant
+
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. 
 
 #### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)  
@@ -100,6 +105,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 ---
 
 ## <a name="work-with-invoice-discounts-and-service-charges"></a>Werken met factuurkortingen en administratiekosten
+
 Wanneer u factuurkortingen gebruikt, wordt op basis van het factuurbedrag bepaald welke korting wordt verleend. Op de pagina **Factuurkortingen** kunt u ook een bepaald bedrag aan administratiekosten toevoegen aan facturen.  <!--The Invoice Discounts page is hard to find.-->
 
 U kunt factuurkortingen bij verkopen pas gebruiken nadat u bepaalde gegevens hebt opgegeven in de toepassing. U moet beslissen welke klanten dit type korting krijgen en welke kortingspercentages u gaat gebruiken.  
@@ -116,6 +122,7 @@ Naast (of in plaats van) een kortingspercentage kunt u administratiekosten aan e
 > Voordat u begint met het invoeren van deze informatie, is het een goed idee om van tevoren uw kortingsstructuur voor te bereiden, zodat u gemakkelijker kunt zien welke klanten aan dezelfde factuurkortingspagina moeten worden gekoppeld. Zie [Kortingen instellen voor uw klanten](/learn/modules/customer-discounts-dynamics-365-business-central/index) op Microsoft Learn voor meer informatie over kortingen bij verkopen.  
 
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Een factuurkorting voor een klant instellen
+
 Nadat u hebt bepaald welke klanten in aanmerking komen voor factuurkortingen, geeft u de factuurkortingscode op de klantenkaarten op en stelt u de voorwaarden voor elke code in.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
@@ -136,6 +143,7 @@ Ga door met het instellen van de voorwaarden voor de nieuwe verkoopfactuurkortin
 De factuurkorting is nu ingesteld en toegewezen aan de klant in kwestie. Wanneer u de klantcode selecteert in het veld **Factuurkortingscode** op andere klantenkaarten, wordt dezelfde factuurkorting toegewezen aan die klanten.
 
 ## <a name="to-copy-sales-prices"></a>Verkoopprijzen kopiëren
+
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. 
 
 #### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)  
@@ -166,6 +174,7 @@ De status van de prijslijstregel moet **Concept** zijn.
 ---
 
 ## <a name="to-bulk-update-item-prices"></a>Artikelprijzen bulksgewijs bijwerken
+
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. 
 
 #### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)
@@ -193,9 +202,16 @@ Om prijzen voor meerdere artikelen bij te werken moet u een nieuwe prijslijst ma
 ---
 
 ## <a name="calculating-the-best-price"></a>De beste prijs berekenen
+
 Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen. Zie [De beste prijs berekenen](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation) voor meer informatie.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/customer-discounts-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook
+
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

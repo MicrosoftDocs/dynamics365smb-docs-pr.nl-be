@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 24ea5d30b184018b69735768a6a721393086a95a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 13f1a68ebb3c9a16c06cdc0cf9382867403ba5ca
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521162"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079258"
 ---
 # <a name="assemble-items"></a>artikelen samenstellen
+
 Als het veld **Aanvullingsmethode** op de artikelkaart **Assemblage** bevat, is de standaardbevoorradingsmethode van het artikel het assembleren van gedefinieerde onderdelen en mogelijk door een gedefinieerde bron.  
 
 De onderdelen en bronnen die voor dit soort assemblageartikel worden gebruikt, moeten worden gedefinieerd in een assemblagestuklijst. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.  
@@ -40,7 +41,8 @@ Deze instellingen zijn standaardinstellingen die beheren hoe de verkoop en regel
 
 In deze procedure maakt en verwerkt u een assemblageorder voor artikelen die op voorraad geassembleerd worden, wat betekent dat er geen gekoppelde verkooporder is. De stappen zijn het starten van de assemblageorder, afhandelen van eventuele problemen met de beschikbaarheid van onderdelen en gedeeltelijk boeken van output van het assemblageartikel .
 
-## <a name="to-assemble-an-item"></a>Een item assembleren  
+## <a name="to-assemble-an-item"></a>Een item assembleren
+
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Assemblageorders** in en kies vervolgens de gerelateerde koppeling  
 2.  Kies de actie **Nieuw**. De pagina **Nieuwe assemblageorder** wordt geopend.  
 3.  Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -67,7 +69,10 @@ In deze procedure maakt en verwerkt u een assemblageorder voor artikelen die op 
 
 Nadat het boeken is voltooid, wordt het assemblageartikel als uitvoer geboekt naar de vestigingscode en mogelijke opslaglocatiecode die op de assemblageorder zijn gedefinieerd. De locatie voor handmatig gemaakte assemblageorders kan worden gekopieerd van de instelling **Standaard locatie voor Orders**. Voor assembleren-op-order kan de vestigingscode van de verkooporderregel worden gekopieerd.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook
+
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  

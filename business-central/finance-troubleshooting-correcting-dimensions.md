@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 82f71f3fafb0b977dde28033443f4585aeaced52
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519133"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075433"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Problemen met dimensies oplossen en dimensies corrigeren
 
@@ -122,7 +122,12 @@ Als een correctie niet wordt voltooid, wordt er een waarschuwing weergegeven op 
 
 Nadat u de dimensies heeft aangepast, zijn uw gegevens voor kostprijsboekhouding niet meer gesynchroniseerd. Kostprijsboekhouding gebruikt dimensies om bedragen voor kostenplaatsen en kostenobjecten te aggregeren en om kostentoewijzingen uit te voeren. Als u de dimensies voor grootboekboekingen wijzigt, betekent dit waarschijnlijk dat u uw kostenberekeningsmodellen opnieuw uitvoert. Of u slechts een paar kostenregisters moet verwijderen en toewijzingen opnieuw moet uitvoeren of dat u alles moet verwijderen en al uw modellen opnieuw moet uitvoeren, hangt af van de gegevens die zijn bijgewerkt en hoe uw kostenberekeningsmogelijkheden zijn ingesteld. U moet handmatig identificeren waar dimensiecorrecties van invloed zijn op de kostenberekening en waar updates nodig zijn. [!INCLUDE[prod_short](includes/prod_short.md)] biedt momenteel geen geautomatiseerde manier om dat te doen.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook
 
-[Werken met dimensies](finance-dimensions.md)
-[Gegevens analyseren op dimensies](bi-how-analyze-data-dimension.md)  
+[Werken met dimensies](finance-dimensions.md)  
+[Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

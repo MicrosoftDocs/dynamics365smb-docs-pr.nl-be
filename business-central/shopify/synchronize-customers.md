@@ -7,35 +7,35 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808885"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077800"
 ---
 # <a name="synchronize-customers"></a>Klanten synchroniseren
 
 Wanneer een order uit Shopify wordt geïmporteerd, is de informatie over de klant essentieel voor de verdere verwerking van het document in [!INCLUDE[prod_short](../includes/prod_short.md)]. Er zijn twee hoofdopties en hun combinaties:
 
-* Gebruik speciale klant voor alle orders.
-* Importeer actuele klantinformatie uit Shopify. Deze optie is ook beschikbaar wanneer u een klant eerst exporteert naar Shopify vanuit [!INCLUDE[prod_short](../includes/prod_short.md)].
+* Gebruik een speciale klant voor alle orders.
+* Importeer de actuele klantinformatie uit Shopify. Deze optie is ook beschikbaar wanneer u klanten eerst exporteert naar Shopify vanuit [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="how-connector-chooses-which-customer-to-use"></a>Hoe connector kiest welke klant te gebruiken
+## <a name="how-the-connector-chooses-which-customer-to-use"></a>Hoe de connector kiest welke klant te gebruiken
 
 De functie *Order importeren uit Shopify* probeert de klant in de volgende volgorde te selecteren:
 
-1. Als het **Standaardklantnr.** veld is gedefinieerd in de **Shopify-klantsjabloon** voor het corresponderende land/regio, dan **Standaardklantnr.** wordt gebruikt, ongeacht de instellingen in **Klant importeren uit Shopify** en **Type klanttoewijzing**. Voor meer informatie, zie [Klantsjabloon per land/regio](synchronize-customers.md#customer-template-per-country).
-2. Als **Klant importeren uit Shopify** is ingesteld op *Geen* en **Standaardklantnr.** is gedefinieerd in de **Shopify-winkelkaart**, wordt **Standaardklantnr.** gebruikt.
+1. Als het **Standaardklantnr.** veld is gedefinieerd in de **Shopify-klantsjabloon** voor het corresponderende land/regio, dan het **Standaardklantnr.** wordt gebruikt, ongeacht de instellingen in de velden **Klant importeren uit Shopify** en **Type klanttoewijzing**. Voor meer informatie, zie [Klantsjabloon per land/regio](synchronize-customers.md#customer-template-per-country).
+2. Als **Klant importeren uit Shopify** is ingesteld op *Geen* en het **Standaardklantnr.** is gedefinieerd in de **Shopify-winkelkaart**, wordt **Standaardklantnr.** gebruikt.
 
-Volgende stappen zijn afhankelijk van **Type klanttoewijzing**.
+De volgende stappen zijn afhankelijk van het **Type klanttoewijzing**.
 
-* **Altijd de standaardklant nemen**, gebruik dan de klant die is gedefinieerd in het **Standaardklantnr.** veld in venster **Shopify-winkelkaart**.
-* **Op e-mail/telefoon**, probeert de connector eerst een bestaande klant te vinden op id, vervolgens op e-mail en vervolgens op telefoon. Als de klant niet wordt gevonden, maakt de connector een nieuwe klant.
-* **Op factureringsadresinfo**, probeert de connector eerst een bestaande klant te vinden op id en vervolgens op factuuradres. Als de klant niet wordt gevonden, maakt de connector een nieuwe klant.
+* **Altijd de standaardklant nemen**, dan gebruikt de connector de klant die is gedefinieerd in het veld **Standaardklantnr.** op de pagina **Shopify-winkelkaart**.
+* **Op e-mail/telefoon**, dan probeert de connector eerst de bestaande klant te vinden op id, vervolgens op e-mail en vervolgens op telefoon. Als de klant niet wordt gevonden, maakt de connector een nieuwe klant.
+* **Op factureringsadresinfo**, dan probeert de connector eerst de bestaande klant te vinden op id en vervolgens op het factuuradres. Als de klant niet wordt gevonden, maakt de connector een nieuwe klant.
 
 > [!NOTE]  
-> De connector gebruikt informatie van het factuuradres en creëert factuurklantgegevens [!INCLUDE[prod_short](../includes/prod_short.md)]. Orderklant is gelijk aan factuurklant.
+> De connector gebruikt informatie van het factuuradres en creëert de factuurklant [!INCLUDE[prod_short](../includes/prod_short.md)]. Orderklant is gelijk aan factuurklant.
 
 ## <a name="important-settings-when-importing-customers-from-shopify"></a>Belangrijke instellingen bij het importeren van klanten uit Shopify
 
@@ -43,11 +43,11 @@ Of u nu klanten uit Shopify in bulk importeert of samen met de import van orders
 
 |Veld|Omschrijving|
 |------|-----------|
-|**Klant importeren vanuit Shopify**|Selecteer **Alle klanten** als u van plan bent klanten in bulk te importeren vanuit Shopify ofwel handmatig met behulp van de actie **Klanten synchroniseren** of via de taakwachtrij voor terugkerende updates. Ongeacht de selectie wordt klantinformatie altijd samen met de order geïmporteerd. Het gebruik van deze informatie is echter afhankelijk van **Shopify-klantsjablonen** en instellingen in het veld **Type klanttoewijzing**.|
-|**Type klanttoewijzing**|Definieer hoe u wilt dat de connector toewijzing uitvoert.<br>- **Op e-mail/telefoon** als u wilt dat de connector geïmporteerde Shopify-klanten toewijst aan bestaande klanten in [!INCLUDE[prod_short](../includes/prod_short.md)], met behulp van e-mailadres en telefoon.</br>- **Op factureringsadresinfo** als u wilt dat de connector geïmporteerde Shopify-klanten toewijst aan bestaande klanten in [!INCLUDE[prod_short](../includes/prod_short.md)], met behulp van adresgegevens van de partij die de factuur ontvangt.</br>Selecteer **Altijd de standaardklant nemen** als u wilt dat het systeem een klant uit het veld **Standaardklantnr.** gebruikt. |
+|**Klant importeren vanuit Shopify**|Selecteer **Alle klanten** als u van plan bent klanten in bulk te importeren vanuit Shopify ofwel handmatig met behulp van de actie **Klanten synchroniseren** of via de taakwachtrij voor terugkerende updates. Ongeacht de selectie wordt de klantinformatie altijd samen met de order geïmporteerd. Het gebruik van deze informatie is echter afhankelijk van de **Shopify-klantsjablonen** en instellingen in het veld **Type klanttoewijzing**.|
+|**Type klanttoewijzing**|Definieer hoe u wilt dat de connector de toewijzing uitvoert.<br>- **Op e-mail/telefoon** als u wilt dat de connector de geïmporteerde Shopify-klanten toewijst aan een bestaande klant in [!INCLUDE[prod_short](../includes/prod_short.md)], met behulp van e-mailadres en telefoon.</br>- **Op factureringsadresinfo** als u wilt dat de connector de geïmporteerde Shopify-klant toewijst aan een bestaande klant in [!INCLUDE[prod_short](../includes/prod_short.md)], met behulp van de adresgegevens van de partij die de factuur ontvangt.</br>Selecteer **Altijd de standaardklant nemen** als u wilt dat het systeem een klant uit het veld **Standaardklantnr.** gebruikt. |
 |**Shopify kan klanten bijwerken**| Selecteer of u wilt dat de connector gevonden klanten bijwerkt wanneer de opties **Op e-mail/telefoon** of **Op factureringsadresinfo** zijn geselecteerd in het veld **Type klanttoewijzing**.|
-|**Automatisch onbekende klanten maken**| Selecteer of u wilt dat de connector ontbrekende klanten maakt wanneer de opties **Op e-mail/telefoon** of **Op factureringsadresinfo** zijn geselecteerd in het veld **Type klanttoewijzing**. Er wordt een nieuwe klant gemaakt met behulp van geïmporteerde gegevens en **Klantensjablooncode** gedefinieerd op de pagina **Shopify-winkelkaart** of **Shopify-klantensjabloon**. Merk op dat de Shopify-klant minimaal één adres moet hebben. Als deze optie niet is ingeschakeld, moet u de klant handmatig maken en deze koppelen aan de Shopify-klant. U kunt het maken van een klant altijd handmatig starten vanuit de pagina **Shopify-order**.|
-|**Klantensjablooncode**|Gebruikt samen met **Automatisch onbekende klanten maken**.<br> Kies de standaardsjabloon die moet worden gebruikt voor automatisch gemaakte klanten. U kunt sjablonen per land/regio definiëren in het venster **Shopify-klantensjablonen**, wat handig is voor een juiste belastingberekening. Zie [Opmerkingen over belasting](synchronize-orders.md#tax-remarks) voor meer informatie.|
+|**Automatisch onbekende klanten maken**| Selecteer of u wilt dat de connector ontbrekende klanten maakt wanneer de opties **Op e-mail/telefoon** of **Op factureringsadresinfo** zijn geselecteerd in het veld **Type klanttoewijzing**. Er wordt een nieuwe klant gemaakt met behulp van geïmporteerde gegevens en de **Klantensjablooncode** gedefinieerd op de pagina **Shopify-winkelkaart** of **Shopify-klantensjabloon**. Merk op dat de Shopify-klant minimaal één adres moet hebben. Als deze optie niet is ingeschakeld, moet u een klant handmatig maken en deze koppelen aan de Shopify-klant. U kunt het maken van een klant altijd handmatig starten vanuit de pagina **Shopify-order**.|
+|**Klantensjablooncode**|Gebruikt samen met **Automatisch onbekende klanten maken**.<br> Kies de standaardsjabloon die moet worden gebruikt voor automatisch gemaakte klanten. Zorg ervoor dat de geselecteerde sjabloon de verplichte velden bevat, zoals de **Bedrijfsboekingsgroep**, **Klantboekingsgroep**, btw of belastinggerelateerde velden.<br> U kunt sjablonen per land/regio definiëren op de pagina **Shopify-klantensjablonen**, wat handig is voor een juiste belastingberekening. Zie [Opmerkingen over belasting](synchronize-orders.md#tax-remarks) voor meer informatie.|
 
 ### <a name="customer-template-per-country"></a>Klantensjabloon per land/regio
 
@@ -56,8 +56,8 @@ Sommige instellingen kunnen worden gedefinieerd op land/regio-niveau of op staat
 Met de **Shopify-klantensjabloon** kunt u voor elk land/regio het volgende doen:
 
 1. Specificeer het **Standaardklantnr.**, dat voorrang heeft op de selectie in de velden **Klant importeren uit Shopify** en **Type klanttoewijzing**. Het wordt gebruikt in de geïmporteerde verkooporder.
-2. Definieer de **Klantensjablooncode**, die wordt gebruikt om ontbrekende klanten te maken als **Automatisch onbekende klanten maken** is ingeschakeld. Als **Klantensjablooncode** leeg is, gebruikt de functie **Klantensjablooncode**, gedefinieerd op de **Shopify-winkelkaart**.
-3. In sommige gevallen is **Klantensjablooncode** per land/regio is niet voldoende om een juiste berekening van belastingen te garanderen. Bijvoorbeeld voor landen/regio's met sales tax.
+2. Definieer de **Klantensjablooncode**, die wordt gebruikt om ontbrekende klanten te maken als **Automatisch onbekende klanten maken** is ingeschakeld. Als de **Klantensjablooncode** leeg is, gebruikt de functie **de Klantensjablooncode**, gedefinieerd op de **Shopify-winkelkaart**.
+3. In sommige gevallen is **Klantensjablooncode** gedefinieerd voor land/regio niet voldoende om een juiste berekening van belastingen te garanderen. Bijvoorbeeld voor landen/regio's met sales tax. In dit geval kan **Belastinggebieden** een nuttige aanvulling zijn.
 
 > [!NOTE]  
 > De land/regio-codes zijn ISO 3166-1 alpha-2-land/regio-codes. Zie voor meer informatie [Land/regio-code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -68,11 +68,11 @@ Bestaande klanten kunnen in bulk geëxporteerd worden naar Shopify. Hierdoor wor
 
 |Veld|Omschrijving|
 |------|-----------|
-|**Klanten exporteren naar Shopify**|Selecteer dit als u van plan bent alle klanten met een geldig e-mailadres in bulk te importeren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify ofwel handmatig met behulp van de actie **Klanten synchroniseren** of via de taakwachtrij voor terugkerende updates.|
-|**Kan Shopify-klanten bijwerken**|Gebruikt samen met **Klant exporteren naar Shopify**. Schakel het in als u later updates wilt genereren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] voor klanten die al bestaan in Shopify.|
+|**Klanten exporteren naar Shopify**|Selecteer dit als u van plan bent alle klanten met een geldig e-mailadres in bulk te importeren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify ofwel handmatig met behulp van de actie **Klanten synchroniseren** of via een taakwachtrij voor terugkerende updates.|
+|**Kan Shopify-klanten bijwerken**|Gebruikt samen met de instelling **Klant exporteren naar Shopify**. Schakel het in als u later updates wilt genereren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] voor klanten die al bestaan in Shopify.|
 
 > [!NOTE]  
-> Zodra u klanten hebt gemaakt in Shopify, wilt u misschien directe uitnodigingen naar klanten sturen. Het zal hen aanmoedigen om hun account te activeren.
+> Zodra u de klanten hebt gemaakt in Shopify, wilt u misschien directe uitnodigingen naar klanten sturen. Het zal hen aanmoedigen om hun account te activeren.
 
 ### <a name="populate-customer-information-in-shopify"></a>Klantgegevens invullen in Shopify
 
@@ -95,7 +95,7 @@ Voor adressen waar land/regio/provincie wordt gebruikt, selecteert u *Code* of *
 
 ## <a name="sync-customers"></a>Klanten synchroniseren
 
-1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u klanten wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
 3. Kies de actie **Klanten synchroniseren**.
 

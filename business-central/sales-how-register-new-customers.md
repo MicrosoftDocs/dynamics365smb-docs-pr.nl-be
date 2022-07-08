@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 80544cf5d3e2f9e55fcf22037c7d44df98f22635
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520138"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076889"
 ---
 # <a name="register-new-customers"></a>Nieuwe klanten registreren
 
@@ -26,6 +26,7 @@ Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes inst
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Nieuwe klanten toevoegen
+
 U kunt nieuwe klanten handmatig toevoegen door de velden op de pagina **Klantenkaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen klantprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe klanten en helpt ervoor te zorgen dat de informatie elke keer correct is. Als u sjablonen voor meer dan één type klant maakt, kunt u de sjabloon kiezen die u wilt gebruiken wanneer u een klant toevoegt. Als u slechts één sjabloon maakt, wordt deze voor alle nieuwe klanten gebruikt. Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebruiken om deze toe te passen op een of meer geselecteerde klanten. Om een sjabloon te maken vult u de informatie in die u opnieuw wilt gebruiken op de pagina Klantenkaart en slaat u deze vervolgens op als sjabloon. Zie voor meer informatie [De klantenkaart als sjabloon opslaan](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
 > [!TIP]
@@ -79,6 +80,8 @@ U kunt ervoor kiezen om geen waarschuwingen te ontvangen die u vertellen dat de 
     |**Kredietlimiet**|De waarde in het veld **Kredietlimiet** op de klantenkaart wordt vergeleken met het klantsaldo en er wordt een waarschuwing weergegeven als het klantsaldo dit bedrag overschrijdt.|
     |**Openstaand saldo**|Het veld **Openstaand bedrag** op de klantenkaart wordt ingeschakeld en er wordt een waarschuwing weergegeven als de klant een openstaand saldo heeft.|
     |**Geen**|Er worden geen waarschuwingen weergegeven over de status van de klant.|
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

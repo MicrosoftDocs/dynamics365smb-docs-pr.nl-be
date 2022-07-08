@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 814770db81744306120445a509325cff8502041d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b47525b8f552cb4446497a0edafa7661aa25f17b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516860"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074720"
 ---
 # <a name="create-production-order-headers"></a>Productieorderkoppen maken
 
@@ -31,7 +31,7 @@ In de volgende procedure wordt een vast geplande productieorder gemaakt. U kunt 
 3. Selecteer in het veld **Nr.** het volgende nummer uit de reeks in.  
 4. Selecteer in het veld **Bronsoort** de bron van de productieorder.
 
-Hier kunt u opgeven of er voor een familie van artikelen moet worden geproduceerd. Zie [Werken met productfamilies](production-how-work-family.md) voor meer informatie.
+    Hier kunt u opgeven of er voor een familie van artikelen moet worden geproduceerd. Zie [Werken met productfamilies](production-how-work-family.md) voor meer informatie.
 5. Selecteer in het veld **Bronnr.** het artikelnummer, de productfamilie of de verkoopkop waarvoor de productieorder moet worden gegenereerd.  
 6. Vul de velden **Aantal** en **Vervaldatum** in op basis van de specificaties.  
 

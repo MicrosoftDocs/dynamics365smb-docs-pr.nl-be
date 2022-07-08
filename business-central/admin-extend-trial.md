@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: f1c1ba7640c03314c53bceee13711c66f03a3c09
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805112"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079310"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hebt u meer tijd nodig om na te denken over een abonnement?
 
@@ -49,6 +49,8 @@ Na deze tweede verlenging die uw organisatie een proef van 90 dagen heeft gebrac
 Als uw verlengde proefperiode is verstreken, kunt u zich binnen 90 dagen [abonneren](https://go.microsoft.com/fwlink/?linkid=828659) op [!INCLUDE[prod_short](includes/prod_short.md)] en doorwerken in het bedrijf dat u hebt gemaakt. 90 dagen nadat de verlengde proefperiode is verlopen, zullen we uw bedrijf en gegevens verwijderen, tenzij u zich abonneert.  
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

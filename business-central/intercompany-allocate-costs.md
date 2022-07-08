@@ -1,8 +1,6 @@
 ---
 title: Kosten toewijzen aan intercompany-partners | Microsoft Docs
 description: Lees hoe btw-instellingen voor klanten en leveranciers bepalen of en hoe btw wordt berekend.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f6f8634ae4431038a6ac3ea66bc5b1ead0a21d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522156"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077305"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kosten toewijzen aan intercompany-partners
 Wanneer u intercompany-boekingen gebruikt om documenten tussen partnerbedrijven over te dragen, bepalen de btw-instellingen (voornamelijk de btw-bedrijfsboekingsgroep) die zijn toegewezen aan de klant- of leveranciersrekeningen (gekoppeld aan de intercompany-partner) of en hoe btw wordt berekend en geregistreerd. U kunt ook kostendistributies rechtstreeks vanuit een inkooporder naar partnerbedrijven uitvoeren. Als u bijvoorbeeld een inkoopfactuur van een externe leverancier registreert en u een deel of alle kosten wilt verdelen over een of meer intercompany-partners.

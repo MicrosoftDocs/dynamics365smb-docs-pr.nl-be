@@ -10,20 +10,22 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 317c8d5da772dbead39330f068df59e1603d525b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6228c53173995680bcef50f3135ba406a24e1d23
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517016"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075979"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Op voorraad assembleren of Op order assembleren begrijpen
+
 Assemblage-artikelen kunnen worden opgegeven in de volgende twee processen:  
 
 -   Op order assembleren.  
 -   Op voorraad assembleren.  
 
-## <a name="assemble-to-order"></a>Op order assembleren  
+## <a name="assemble-to-order"></a>Op order assembleren
+
 U gebruikt meestal *Op order assembleren* voor artikelen die u niet op voorraad wilt hebben omdat u verwacht deze op speciale klantverzoeken af te kunnen stemmen of omdat u de voorraadkosten wilt minimaliseren. De ondersteunende functionaliteit omvat:  
 
 -   De mogelijkheid om assemblage-artikelen aan te passen bij het opnemen van een verkooporder.  
@@ -43,7 +45,8 @@ Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoo
 
  Als u dit proces wilt inschakelen, moet het veld **Assemblagebeleid** op de artikelkaart zijn ingesteld op **Assemblage voor order**.  
 
-## <a name="assemble-to-stock"></a>Op voorraad assembleren  
+## <a name="assemble-to-stock"></a>Op voorraad assembleren
+
  U gebruikt gewoonlijk *Op voorraad assembleren* voor artikelen die u voorafgaand aan de verkoop wilt assembleren, zoals bij het voorbereiden op een kit-campagne, en die u in voorraad wilt houden totdat deze worden besteld. Deze artikelen betreffen meestal standaardartikelen, zoals verpakte kits die u niet aanbiedt voor het aanpassen van aanvragen van klanten.  
 
  In het proces voor het assembleren voor voorraad, wordt het artikel geassembleerd zonder dat er sprake is van een onmiddellijke verkoopvraag en wordt het artikel opgeslagen als een voorraadartikel voor latere verkoop of verbruik als een halffabricaat. Zie [Artikelen assembleren](assembly-how-to-assemble-items.md) voor meer informatie. Vanaf dit punt wordt het artikel gepickt en verwerkt als één artikel en wordt het behandeld als een voltooid productieartikel.  
@@ -55,7 +58,8 @@ Wanneer u een artikel voor assembleren op basis van orders invoert op een verkoo
 
  Als u dit proces wilt inschakelen, moet het veld **Assemblagebeleid** op de artikelkaart zijn ingesteld op **Op voorraad assembleren**.  
 
-## <a name="combination-scenarios"></a>Combinatiescenario 's  
+## <a name="combination-scenarios"></a>Combinatiescenario 's
+
  Een algemeen beginsel van assemblagebeheer is dat in het geval van combinatie op een verkooporderregel, aantallen voor het assembleren voor orders moeten worden verzonden voor voorraadaantallen.  
 
  Als een assemblageorder is gekoppeld aan een verkooporderregel, wordt de waarde in het veld **Aant. op order assembleren** op de verkooporderregel gekopieerd naar het veld **Te assembleren aantal**, via het veld **Aantal** in de assemblageorderkoptekst. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -90,6 +94,8 @@ Gebaseerd op dit voorbeeld kunt u het veld **Te assembleren aantal** alleen als 
 
 - Het minimumaantal dat u kunt invoeren is 1. Dit is omdat u ten minste één eenheid moet assembleren om de vier eenheden te kunnen verkopen, waarbij wordt aangenomen dat de overige drie eenheden in de voorraad beschikbaar zijn.  
 - Het maximumaantal dat u kunt invoeren is 4. Zo wordt ervoor gezorgd dat u niet meer van dit assembleren-voor-order artikel assembleert dan wat nodig is voor de verkoop.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

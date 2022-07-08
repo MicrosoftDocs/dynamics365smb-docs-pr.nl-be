@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 84d4a87a0edab18be342b9ed5732de0350a31645
-ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
+ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743683"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075094"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Werkstromen in Dynamics 365 Business Central
 
@@ -47,6 +47,8 @@ Om werkstromen in te stellen en te gebruiken die niet zijn gedefinieerd in Power
 |Gebruikers van werkstromen instellen, opgeven hoe gebruikers berichten krijgen en nieuwe werkstromen maken. Voor nieuwe werkstromen voor niet-ondersteunde scenario's implementeert u de vereiste workflowelementen door de toepassingcode aan te passen.|[Werkstromen instellen](across-set-up-workflows.md)|  
 |Werkstromen inschakelen, reageren op werkstroomberichten, inclusief goedkeuringen aanvragen en aanvragen goedkeuren om een werkstroomstap uit te voeren. Werkstromen archiveren en verwijderen.|[Werkstromen gebruiken](across-use-workflows.md)|  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-workflows/)
+
 ## <a name="see-also"></a>Zie ook
 
 [Verkoop](sales-manage-sales.md)  
@@ -55,5 +57,6 @@ Om werkstromen in te stellen en te gebruiken die niet zijn gedefinieerd in Power
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in Power Automate-stromen](across-how-use-financials-data-source-flow.md)  
 [Problemen met uw [!INCLUDE[prod_short](includes/prod_short.md)] geautomatiseerde werkstromen](across-flow-troubleshoot.md) oplossen  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

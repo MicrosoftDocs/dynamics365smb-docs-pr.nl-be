@@ -10,14 +10,15 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 46d8b491727f566c9a96640e3dfb40cc0d417f40
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 79705da9117c8b201b4f652351771210f97f3cb7
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519263"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075016"
 ---
 # <a name="acquire-fixed-assets"></a>Vaste activa aanschaffen
+
 Voor elk vast activum moet u een kaart maken met informatie over het activum. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. Een afschrijvingsboek moeten eerst worden ingesteld en toegewezen aan elk vast activum voordat u het kunt aanschaffen.
 
 Wanneer een vast activum is ingesteld en een afschrijvingsboek is toegewezen, moet u het vaste activum aanschaffen. Als u een vast activum wilt aanschaffen, registreert u de bijbehorende aanschafkosten in de betreffende grootboekrekening, bankrekening of leverancier door een aanschaftransactie te boeken op de pagina **Financieel dagboek voor vaste activa**. U kunt de pagina **Begeleide aanschaf van vast activum** gebruiken om de vereiste dagboekregels automatisch te maken en te boeken.
@@ -27,6 +28,7 @@ De restwaarde is de resterende waarde van een vast activum als dit niet langer m
 Indexering wordt gebruikt om waarden aan te passen voor algemene prijswijzigingen. De batchverwerking **Vast activum indexeren** kan worden gebruikt om de aanschafkosten te berekenen bij vervangingskosten.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Een vast activum maken en automatisch aanschaffen
+
 In de volgende procedure wordt beschreven hoe u een vast activum kunt maken en vervolgens kunt aanschaffen met de pagina **Begeleide aanschaf van vast activum** om de vereiste dagboekregels voor vaste activa te maken en te boeken. U kunt de dagboekregels ook handmatig maken en boeken. Zie [De aanschaf van een vast activum handmatig boeken met het financieel dagboek voor vaste activa](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal) voor meer informatie.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.  
@@ -44,6 +46,7 @@ In de volgende procedure wordt beschreven hoe u een vast activum kunt maken en v
 Wanneer u **Voltooien** kiest, wordt het veld **Boekwaarde** op de pagina **Vast activum** ingevuld waarmee wordt aangegeven dat het vaste activum met de opgegeven aanschafkosten is aangeschaft.  
 
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Een onderdelenlijst instellen voor een hoofdactivum
+
 U kunt vaste activa groeperen in hoofdactiva en hun onderdelen. U kunt bijvoorbeeld een productiemachine hebben die uit vele onderdelen bestaat die u op deze manier wilt groeperen.  
 
 Zowel het hoofdactivum als alle onderdelen moeten als individueel vast activum worden ingesteld. Nadat u een onderdelenlijst hebt ingesteld, worden in [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de velden **Hoofdactivum/Onderdeel** en **Onderdeel van hoofdactivum** op de VA-kaarten ingevuld.
@@ -57,6 +60,7 @@ Zowel het hoofdactivum als alle onderdelen moeten als individueel vast activum w
 7. Schakel het selectievakje **Boeken op hoofdactivum toegestaan** in.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Een aanschaf voor vaste activa handmatig boeken met het financieel dagboek voor vaste activa
+
 In de volgende procedure wordt beschreven hoe u een vast activum handmatig kunt aanschaffen door regels te maken en te boeken op de pagina **Financieel dagboek voor vaste activa**. U kunt een vast activum ook automatisch aanschaffen door de pagina **voor begeleide aanschaf van vaste activa** te gebruiken. Zie stap 5 in [Een vast activum maken en het automatisch aanschaffen](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically) voor meer informatie.
 
 > [!NOTE]  
@@ -71,6 +75,7 @@ In de volgende procedure wordt beschreven hoe u een vast activum handmatig kunt 
 >   Als u tijdens het boeken van de aanschafkosten het veld **Verzekeringsnr.** invult in het dagboek, worden de aanschafkosten van het vaste activum door [!INCLUDE[prod_short](includes/prod_short.md)] ook naar de verzekeringsdekkingsposten geboekt. Zie [Vaste activa verzekeren](fa-how-insure.md) voor meer informatie.
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>De boeking van aanschafkosten voor één vast activum annuleren
+
 Als u een fout maakt wanneer u aanschafkosten boekt, kunt u de post verwijderen met de batchverwerking **VA-posten annuleren** en vervolgens de juiste aanschafpost boeken. De foutieve posten worden overgebracht naar de pagina **Foutieve VA-posten**.
 
 Als u bijvoorbeeld een aanschaf met een onjuiste datum boekt, moet u dit zo snel mogelijk corrigeren omdat de boekingsdatum van een vast activum in veel berekeningen wordt gebruikt.
@@ -86,6 +91,7 @@ Als u bijvoorbeeld een aanschaf met een onjuiste datum boekt, moet u dit zo snel
 6. Als de foutieve post of posten zijn geannuleerd, gaat u verder met het boeken van de juiste aanschafkosten.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>De restwaarde samen met de aanschafkosten boeken
+
 Het is mogelijk om de restwaarde samen met de aanschafkosten te boeken via een VA-dagboek.
 
 > [!NOTE]
@@ -99,7 +105,10 @@ Het is mogelijk om de restwaarde samen met de aanschafkosten te boeken via een V
 > [!NOTE]
 > Als er een restwaarde bestaat voor een vast activum, wordt die waarde gebruikt in de afschrijvingsboeking in plaats van de waarde in het veld **Min. boekw. voor afschr.** op de pagina **VA-afschrijvingsboeken**. Zie voor meer informatie [De eindboekwaarde beheren](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/purchase-fixed-assets/)
+
 ## <a name="see-also"></a>Zie ook
+
 [Vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  

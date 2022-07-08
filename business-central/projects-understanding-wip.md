@@ -10,12 +10,12 @@ ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09568ab62f9bbc52014583cfc322bfefaf5102e4
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 2ab39e3cf0e533a39c76bbdb9b673d55ff84d78d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799598"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075823"
 ---
 # <a name="understanding-wip-methods-in-project-management"></a>WIP-methoden in projectbeheer begrijpen
 
@@ -32,6 +32,8 @@ Als u de waarde in het grootboek wilt volgen, kunt u het OHW-bedrag berekenen en
 | Verkoopwaarde |Verantwoorde kosten = Gebruik (totale kosten)<br /><br /> Verantwoorde omzet = Gebruik (totale verkoopprijs) x Verwachten factuurverhouding<br /><br /> Kosten-recovery % = Factureerbaar (totale prijs) / Budget (totale prijs)<br /><br /> OHW-omzet = Verantwoorde omzet - Factureerbaar (gefactureerde prijs) |Bij het berekenen van de verkoopprijs wordt de omzet proportioneel verantwoord op basis van de totale kosten van het gebruik en de verwachte kosten van de recovery-verhouding.<br /><br /> Voor deze berekening moeten de factureerbare kostprijs en de totale budgetprijs correct worden ingevoerd voor het hele project. |
 | Percentage van voltooiing |Verantwoorde kosten = Gebruik (totale kosten)<br /><br /> Verantwoorde omzet = Factureerbaar (totale prijs) x Voltooiingspercentage<br /><br /> Voltooiingspercentage = Gebruik (totale kostprijs) / Budget (totale kostprijs)<br /> (Vastgelegd in veld **Taakvoltooiing %** op projecttaakregels)<br /><br /> OHW-omzet = Verantwoorde omzet - Factureerbaar (gefactureerde prijs) |Bij het berekenen van het voltooiingspercentage worden inkomsten proportioneel verantwoord op basis van het percentage voltooid, dat wil zeggen de totale kosten van het gebruik versus de budgetkosten.<br /><br /> Voor deze berekening moeten de factureerbare totale prijs en de totale budgetkosten correct worden ingevoerd voor het hele project. |
 | Voltooid contract |OHW-bedrag = Totale OHW-kosten = Gebruik (totale kostprijs)<br /><br /> Omzet OHW = Factureerbaar (gefactureerde prijs) |Bij Contract voltooid worden de inkomsten en de kosten pas verantwoord als het project is voltooid. U kunt hiervoor kiezen als de geschatte kosten en inkomsten van het project nog niet zeker zijn.<br /><br /> Al het gebruik wordt op de OHW-kostenrekening (activum) geboekt, terwijl alle gefactureerde omzet op de rekening gefactureerde omzet OHW (passief) wordt geboekt totdat het project is voltooid. |
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
 
 ## <a name="see-also"></a>Zie ook
 

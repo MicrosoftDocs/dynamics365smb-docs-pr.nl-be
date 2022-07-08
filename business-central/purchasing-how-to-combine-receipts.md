@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 136, 145, 146, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2fe6a0b680472ff695f9203c11868d79f51e9a0a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 83e45bca2f9c85debeb2dfe79112538119690480
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521844"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077175"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Ontvangsten combineren op één factuur
 
@@ -47,6 +47,8 @@ Wanneer inkoopontvangsten zijn gecombineerd op een factuur en zijn geboekt, word
 U kunt de afzonderlijke orders ook handmatig verwijderen.
 
 Herhaal stap 1 t/m 3 voor alle andere betrokken documenten, zoals inkoopraamcontracten.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

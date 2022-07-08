@@ -1,51 +1,51 @@
 ---
 title: Catalogusartikelen maken en beheren
-description: Beschrijft hoe u handelt in artikelen die voorkomen in artikellijsten van uw leveranciers, maar niet in uw eigen artikellijsten.
-author: SorenGP
+description: Beschrijft hoe u artikelen kunt verkopen die u niet in uw lijst met artikelen houdt.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 1051b36f70eeb5d86aef04e7faf200660117232d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 06/20/2022
+ms.author: bholtorf
+ms.openlocfilehash: c12eb256d4e7f1e211e28dacf4c403406dba3d85
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516173"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077019"
 ---
 # <a name="work-with-catalog-items"></a>Werken met catalogusartikelen
-U kunt bepaalde artikelen aan uw klanten aanbieden voor hun gemak. U wilt deze artikelen pas in uw systeem beheren als u ze gaat verkopen. Wanneer u deze artikelen wilt gaan beheren in uw systeem, kunt u ze op twee manieren naar normale artikelkaarten converteren.
 
-* Maak vanuit een catalogusartikelkaart een nieuwe artikelkaart op basis van een sjabloon.
-* Selecteer een catalogusartikel op een verkooporderregel van het type **Artikel** met een leeg veld voor **Nr.** Er wordt dan automatisch een artikelkaart gemaakt voor het catalogusartikel.
+Catalogusartikelen zijn artikelen die u niet beheert in [!INCLUDE[prod_short](includes/prod_short.md)] totdat u ze verkoopt. Wanneer u de actie **Catalogusartikelen selecteren** gebruikt om een catalogusartikel toe te voegen aan een regel op een verkooporder of offerte, wordt het catalogusartikel geconverteerd naar een regulier artikel.
 
 > [!NOTE]  
-> U kunt geen catalogusartikel selecteren op de pagina **Verkoopfactuur**.<br /><br />
-> U kunt een catalogusartikel op de pagina **Verkoopofferte** selecteren, maar het catalogusartikel wordt niet geconverteerd naar een normaal artikel wanneer u de functie **Order maken** gebruikt.
+> U kunt geen catalogusartikel selecteren op de pagina **Verkoopfactuur**.
 
-Een catalogusartikel heeft doorgaans het artikelnummer van de leverancier die het levert. Als u conversie van een catalogusartikelkaart naar een normale artikelkaart wilt inschakelen, moet u eerst instellen hoe leverancierartikelnummering naar uw eigen artikelnummering wordt geconverteerd.   
+Een catalogusartikel heeft doorgaans het artikelnummer van de leverancier die het levert. Voordat u een catalogusartikel kunt converteren naar een normaal artikel, moet u opgeven hoe u leveranciersartikelnummers naar uw artikelnummering wilt converteren. Voor meer informatie zie [Opgeven hoe catalogusartikelnummers naar uw eigen nummering worden geconverteerd](#specify-how-catalog-item-numbers-are-converted-to-your-own-numbering).  
 
-> [!Important]
+> [!IMPORTANT]
 > Catalogusartikelen moeten niet worden verward met niet-voorraadartikelen. Dat zijn normale artikelen die het type **Niet-voorraad krijgen** om ze uit beschikbaarheid en kostprijsberekeningen te houden, bijvoorbeeld omdat ze alleen intern worden gebruikt en lage kosten hebben. Zie voor meer informatie [Over artikeltypen](inventory-about-item-types.md).
 
-## <a name="to-create-a-catalog-item"></a>Een catalogusartikel maken
+## <a name="create-a-catalog-item"></a>Een catalogusartikel maken
+
 Catalogusartikelkaarten hebben minder informatie dan normale artikelkaarten omdat u deze alleen gebruikt op offertes en op andere manieren. Om die reden moeten ze naar normale artikelkaarten worden converteerd voordat u er verkooptransacties voor kunt boeken.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Catalogusartikelen** in en kies vervolgens de gerelateerde koppeling
 2. Kies de actie **Nieuw**.
-3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Instellen hoe catalogusartikelnummers naar uw eigen nummering worden geconverteerd
-Als u conversie van een catalogusartikelkaart naar een normale artikelkaart wilt inschakelen, moet u eerst instellen hoe de leverancierartikelnummering naar uw eigen artikelnummeropmaak wordt geconverteerd.
+## <a name="specify-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Opgeven hoe catalogusartikelnummers naar uw eigen nummering worden geconverteerd
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling van catalogusartikel** in en kies vervolgens de gerelateerde koppeling
-2. Vul de benodigde velden in.
+Voordat u een catalogusartikel kunt converteren naar een normaal artikel, moet u opgeven hoe u leveranciersartikelnummers naar uw artikelnummering wilt converteren.
 
-## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Een catalogusartikel converteren naar een normaal artikel
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van catalogusartikel** in en kies vervolgens de gerelateerde koppeling
+2. Vul de vereiste velden in.
+
+## <a name="convert-a-catalog-item-to-a-normal-item"></a>Een catalogusartikel converteren naar een normaal artikel
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Catalogusartikelen** in en kies vervolgens de gerelateerde koppeling
 2. Open de kaart voor een catalogusartikel dat u wilt converteren naar een normaal artikel.
 3. Kies op de pagina **Catalogusartikelkaart** de actie **Artikel maken**.
@@ -53,6 +53,7 @@ Als u conversie van een catalogusartikelkaart naar een normale artikelkaart wilt
 Er worden een nieuwe vooraf ingevulde artikelkaart met gegevens van het catalogusartikel en een relevante artikelsjabloon gemaakt. U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Een catalogusartikel verkopen en converteren naar een normaal artikel
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**. Vul de velden op het sneltabblad **Algemeen** in, zoals u dat voor elke verkooporder doet. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 3. Selecteer op een nieuwe verkoopregel in het veld **Soort** **Artikel**, maar laat het veld **Nr.** leeg laten.
@@ -65,11 +66,14 @@ Er worden een nieuwe vooraf ingevulde artikelkaart met gegevens van het catalogu
 U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Er wordt automatisch een artikelverwijzing gemaakt tussen het artikelnummer van de leverancier en uw nieuwe artikelnummer. Zie voor meer informatie [Artikelverwijzingen gebruiken](inventory-how-use-item-cross-refs.md).
+> Er wordt automatisch een artikelverwijzing gemaakt tussen het artikelnummer van de leverancier en uw nieuwe artikelnummer. Zie voor meer informatie [Artikelverwijzingen gebruiken](inventory-how-use-item-cross-refs.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
+
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
-[Speciale orders maken](sales-how-to-create-special-orders.md)|  
+[Speciale orders maken:](sales-how-to-create-special-orders.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

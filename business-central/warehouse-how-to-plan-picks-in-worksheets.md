@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515211"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078348"
 ---
 # <a name="plan-picks-in-worksheets"></a>Picks plannen in het voorstel
 
@@ -33,6 +33,7 @@ Op de pagina **Pickvoorstellen** kunt u picklijsten instellen waarmee medewerker
 > Zie [Picken voor assemblage of productie in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) voor informatie over het picken van onderdelen voor assemblageorders in het algemeen, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
 
 ## <a name="sorting-lines-on-a-pick-worksheet"></a>Regels sorteren in een pickvoorstel
+
 U kunt regels sorteren op artikel, schapnummer, brondocument, vervaldatum of bestemming. Hier volgen enkele voorbeelden van hoe sorteren nuttig kan zijn.
 
 * Bij een sortering op vervaldatum hebt u de keuze om alle regels, behalve regels die directe aandacht behoeven, te verwijderen. De minder urgente regels worden niet feitelijk verwijderd, maar alleen teruggestuurd naar de **pickselectie**. Als u de pick maakt, zijn de regels al gesorteerd op vervaldatum en kunt u de pick vervolgens toewijzen aan een werknemer.
@@ -51,6 +52,8 @@ U kunt regels sorteren op artikel, schapnummer, brondocument, vervaldatum of bes
 7. Indien nodig kunt u een andere gebruiker toewijzen of de regels anders sorteren.  
 8. Kies de actie **Afdrukken** om de pickinstructies af te drukken.  
 9. Nadat de pick is voltooid, kiest u de actie **Registreren**.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also"></a>Zie ook
 

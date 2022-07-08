@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd48bd5134fcd42ccee67cbc54eb32b3d8c5a63
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c0ce6cc58d5876f99d82a0c177cb760bfdd9468
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148056"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075277"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedure: kits verkopen, assembleren en verzenden
 
@@ -26,16 +26,19 @@ Er zijn speciale functies beschikbaar om de verzending van aantallen voor assemb
 
 Wanneer in basismagazijnconfiguraties een aantal voor assembleren op basis van orders klaar is om te worden verzonden, boekt de verantwoordelijke magazijnmedewerker een voorraadpick voor de verkooporderregels. Dit leidt tot het maken van een voorraadverplaatsing voor de componenten, tot het boeken van de assemblage-uitvoer en tot de verkooporderverzending. Zie [Op-order-assembleren-artikelen in voorraadpicks afhandelen](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks) voor meer informatie.  
 
-## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
+## <a name="about-this-walkthrough"></a>Informatie over deze procedure
+
 In deze procedure worden de volgende taken gedemonstreerd:  
 
-### <a name="setting-up-assembly-items"></a>Assemblageartikelen instellen  
+### <a name="setting-up-assembly-items"></a>Assemblageartikelen instellen
+
 Assemblageartikelen worden gekenmerkt door hun aanvullingsmethode en assemblagestuklijst. Het assemblagebeleid voor het artikel kan assembleren op order (ATO) of assembleren op voorraad (ATS) zijn. In deze sectie komen de volgende taken aan bod:  
 
 -   De juiste aanvullingsmethode en het juiste assemblagebeleid instellen op een nieuwe assemblageartikelkaart.  
 -   Een assemblagestuklijst maken die assemblageonderdelen en de resource voor het assemblageartikel aangeeft.  
 
-### <a name="selling-customized-assembly-items"></a>Aangepaste assemblageartikelen verkopen  
+### <a name="selling-customized-assembly-items"></a>Aangepaste assemblageartikelen verkopen
+
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt de flexibiliteit om een voorraadaantal en een hoeveelheid voor assembleren op order in te voeren op één verkooporderregel. In deze sectie komen de volgende taken aan bod:  
 
 -   Er wordt een zuivere ATO-verkooporderregel gemaakt waarbij de volledige aantal niet beschikbaar is en vóór verzending moet worden geassembleerd.  
@@ -44,20 +47,23 @@ Assemblageartikelen worden gekenmerkt door hun aanvullingsmethode en assemblages
 -   Een gemengde verkooporderregel maken waarbij delen van de verkoophoeveelheid uit voorraad worden geleverd en het resterende deel vóór verzending moet worden geassembleerd.  
 -   ATO-beschikbaarheidswaarschuwingen.  
 
-### <a name="planning-for-assembly-items"></a>Assemblageartikelen plannen  
+### <a name="planning-for-assembly-items"></a>Assemblageartikelen plannen
+
 Assemblagevraag en -aanbod worden verwerkt door het planningssysteem, net als voor inkoop, transfer en productie. In deze sectie komen de volgende taken aan bod:  
 
 -   Een regeneratief plan voor artikelen uitvoeren met verkoopvraag voor geassembleerde levering.  
 -   Een assemblageorder genereren om te voldoen aan een verkoopregelaantal voor de gevraagde verzenddatum.  
 
-### <a name="assembling-items"></a>Artikelen samenstellen  
+### <a name="assembling-items"></a>Artikelen samenstellen
+
 Assemblageorders werken op een soortgelijke manier als productieorders, behalve dat het verbruik en de uitvoer rechtstreeks vanuit de order wordt vastgelegd en geboekt. Wanneer de artikelen worden samengesteld voor voorraad, heeft de assemblagemedewerker volledige toegang tot alle kop- en regelvelden. Wanneer de artikelen worden samengesteld voor een order waarbij de hoeveelheid en de datum zijn toegezegd aan de klant, kunnen bepaalde velden in de assemblageorder niet worden bewerkt. In dat geval wordt de assemblageboeking uitgevoerd vanuit de magazijnverzending voor de gekoppelde verkooporder. In deze sectie komen de volgende taken aan bod.  
 
 -   Assemblageverbruik en -uitvoer vastleggen en boeken naar voorraad.  
 -   Een magazijnverzendingsregel openen vanuit een ATO-assemblageorder om assemblageactiviteiten vast te leggen.  
 -   Een ATO-assemblageorder openen vanuit een magazijnverzendingsregel om de automatisch ingevoerde gegevens te bekijken.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Assemblageartikelen vanuit de voorraad en die op order zijn geassembleerd verzenden  
+### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Assemblageartikelen vanuit de voorraad en die op order zijn geassembleerd verzenden
+
 Er bestaan speciale functies voor het beheren van aantallen voor assemblage op basis van orders. In deze sectie komen de volgende taken aan bod:  
 
 -   Een magazijnpick maken voor voorraad- en assemblagecomponenten die vóór verzending moeten worden geassembleerd.  
@@ -66,7 +72,8 @@ Er bestaan speciale functies voor het beheren van aantallen voor assemblage op b
 -   Hoeveelheden voor assembleren op order verzenden.  
 -   Voorraadcomponenten verzenden.  
 
-## <a name="roles"></a>Rollen  
+## <a name="roles"></a>Rollen
+
 In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:  
 
 -   Verkooporderverwerker  
@@ -75,7 +82,8 @@ In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:
 -   Picker  
 -   Verantwoordelijke voor verzending  
 
-## <a name="prerequisites"></a>Vereisten  
+## <a name="prerequisites"></a>Vereisten
+
 Voordat u de stappen in deze procedure kunt uitvoeren, moet u het volgende doen:  
 
 -   Installeer [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -108,7 +116,8 @@ Verwijder de standaarddoorlooptijd voor interne processen door de volgende stapp
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Scenario  
+## <a name="story"></a>Scenario
+
 Op 23 januari neemt Susan, de verkooporderprocessor, een order uit de onderdelenwinkel voor drie eenheden van Kit B aan. Dit is een ATO-artikel. Alle drie eenheden worden aangepast en moeten de sterke grafische kaart en een extra RAM-blok bevatten. De schijfstations worden bijgewerkt naar dvd omdat er geen cd-stations beschikbaar zijn. Susan weet dat de eenheden meteen kunnen worden samengevoegd, dus laat ze de voorgestelde verzenddatum op 23 januari staan.  
 
 Tegelijkertijd bestelt de klant vijftien eenheden van Kit A met een speciaal verzoek dat vijf eenheden moeten worden aangepast en voorzien van de sterke grafische kaart. Hoewel Kit A meestal een artikel voor assembleren uit voorraad is, combineert de orderverwerker de verkoopregelaantallen om tien eenheden uit voorraad te verkopen en vijf aangepaste eenheden voor de order samen te stellen. De tien eenheden van Kit A zijn niet beschikbaar en moeten eerst worden geleverd op voorraad via een assemblageorder op basis van het assemblagebeleid van het artikel. Susan hoort van de assemblageafdeling dat Kit A-eenheden niet kunnen worden voltooid in de huidige week. Zij stel de verzenddatum van de tweede verkooporderregel, voor het gemengde ATO- en voorraadaantal, in op 27 januari en meldt aan de klant dat de 15 eenheden van Kit A vier dagen later worden verzonden dan de drie eenheden van Kit B. Teneinde aan de verzendafdeling te melden dat voor deze verkooporder assemblageverwerking is vereist, maakt Susan het magazijnverzendingsdocument vanuit de verkooporder.  
@@ -135,7 +144,7 @@ Sammy pakt de tien ATS-eenheden in met de vijf ATO-eenheden die Linda eerder die
 
 Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de verkooporder en de gekoppelde assemblageorders verwijderd.  
 
-## <a name="prepare-sample-data"></a>Voorbeeldgegevens voorbereiden  
+## <a name="prepare-sample-data"></a>Voorbeeldgegevens voorbereiden
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Mag.-artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies het veld **Batchnaam** en selecteer vervolgens het standaarddagboek.  
@@ -433,7 +442,10 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Wanneer de Onderdelenwinkel betaalt voor de ontvangst van de 18 pc's uit CRONUS, worden de verkooporder en de gekoppelde assemblageorders verwijderd.  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Zie ook
+
  [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [artikelen samenstellen](assembly-how-to-assemble-items.md)   
  [Picken van artikelen voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md)   

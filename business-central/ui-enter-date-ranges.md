@@ -10,12 +10,12 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ba8dc155f3f25aa69907a729b1e235606a5268f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655110"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076811"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Werken met agendadatums en -tijden
 
@@ -330,6 +330,7 @@ Het woord voor 'tijd' in de taal die [!INCLUDE[prod_short](includes/prod_long.md
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Duur invoeren
+
 Sommige velden in toepassingsmodule vertegenwoordigen een duur of hoeveelheid verstreken tijd, in plaats van een specifieke datum of tijd. De duur moet worden ingevoerd als een getal gevolgd door de eenheid.
 
 Hier volgen enkele voorbeelden.
@@ -348,6 +349,8 @@ U kunt ook een getal invoeren, dat automatisch naar een duur wordt geconverteerd
 Voer een getal in om te zien welke maateenheid in een duurveld wordt gebruikt. Vervolgens kunt u zien naar welke maateenheid het is geconverteerd.
 
 Als de maateenheid bijvoorbeeld uren is, wordt het getal 5 bijvoorbeeld naar 5 uur geconverteerd.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: eaa10e4ed7890dd1e6cc8fb2fe76be7770689b75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c6b1b37398d0121c5c79bb0c9d9786abe14120f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521870"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074626"
 ---
 # <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
 
@@ -32,6 +32,7 @@ Leverancierskaarten bevatten de informatie die is vereist om producten van de le
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Nieuwe leveranciers toevoegen
+
 U kunt nieuwe leveranciers handmatig toevoegen door de velden op de pagina **Leverancierskaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen leveranciersprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe leveranciers en helpt ervoor te zorgen dat de informatie elke keer correct is. Als u sjablonen voor meer dan één type leverancier maakt, kunt u de sjabloon kiezen die u wilt gebruiken wanneer u een leverancier toevoegt. Als u slechts één sjabloon maakt, wordt deze voor alle nieuwe leveranciers gebruikt. Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebruiken om deze toe te passen op een of meer geselecteerde leveranciers. Om een sjabloon te maken vult u de informatie in die u opnieuw wilt gebruiken op de pagina Leverancierskaart en slaat u deze vervolgens op als sjabloon. Zie voor meer informatie [De pagina Leverancierskaart als sjabloon opslaan](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
@@ -57,7 +58,6 @@ U kunt de informatie op leverancierskaarten op elk gewenst moment bewerken. Als 
 > [!TIP]
 > U kunt het IBAN op een bankrekening van een leverancier wijzigen zonder dat de wijziging van invloed is op uw historische journaalposten van krediettransfers. Journaalposten van krediettransfers slaan het IBAN van de ontvanger en het bankrekeningnummer van de ontvanger op die zijn opgegeven in de velden Bankrekening leverancier en Naam ontvanger op de pagina Leverancierskaart toen de boekingen werden gemaakt.
 
-
 ## <a name="to-save-the-vendor-card-as-a-template"></a>De leverancierskaart als sjabloon opslaan
 
 1. Kies op de pagina **Leverancierskaart** de actie **Opslaan als sjabloon**. De pagina **Leveranciersjabloon** opent de weergave van de leverancierkaart als sjabloon.
@@ -67,6 +67,8 @@ U kunt de informatie op leverancierskaarten op elk gewenst moment bewerken. Als 
 5. Wanneer u de nieuwe leveranciersjabloon hebt voltooid, kiest u de knop **OK**.  
    De leveranciersjabloon wordt toegevoegd aan de lijst met leveranciersjablonen, zodat u deze kunt gebruiken om nieuwe leverancierskaarten te maken.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook
 
 [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)  
@@ -74,5 +76,6 @@ U kunt de informatie op leverancierskaarten op elk gewenst moment bewerken. Als 
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

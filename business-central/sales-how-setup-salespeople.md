@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6046562a16bd1f9736bd10bea5c4bda397d99df1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 99f23e497c969e9a9461928d1e550605f6db1eae
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512191"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076369"
 ---
 # <a name="set-up-salespeople"></a>Verkopers instellen
+
 Veel bedrijven willen de individuele prestaties van een werknemer volgen om op basis daarvan de verkoopcommissie of bonus te kunnen berekenen. Zie bijvoorbeeld het rapport met **verkoperscommissies**. Mogelijk wil een bedrijf ook een verkoper aan elk contact toewijzen.
 
 Wanneer u een verkoper op de pagina **Verkopers** hebt ingesteld, kunt u deze in het veld **Verkoperscode** selecteren voor alle relevante records, zoals grootboekrekeningen, klanten, leveranciers, contacten en campagnekaarten. Vervolgens wordt bij het boeken of instellen van facturen, creditnota's, dagboekregels, rentefactuuractiviteiten, enzovoort de verkoperscode overgebracht naar de resulterende posten.
@@ -24,12 +25,16 @@ Wanneer u een verkoper op de pagina **Verkopers** hebt ingesteld, kunt u deze in
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Een verkoperscode instellen
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkopers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Verkopers** de actie **Nieuw**.
 
 U kunt verkopers in divers relatiebeheer en marketingwerk gebruiken. U kunt bijvoorbeeld taken toewijzen aan verkopers, zodat de taken worden opgenomen in verkoopopportunity's waaraan de verkoper is toegewezen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook
+
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514133"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078790"
 ---
 # <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
 
@@ -157,6 +157,7 @@ The following table explains key fields.
 -->
 
 ## <a name="entering-an-opening-balance"></a>Een beginsaldo invoeren
+
 Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.  
 >
 > U kunt echter ook het beginsaldo toepassen als onderdeel van het proces voor het maken van algemene gegevens in nieuwe bedrijven. U kunt dit doen met behulp van de begeleide-instelling **Bedrijfsgegevens migreren**. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
@@ -165,6 +166,7 @@ Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een b
 > Het is belangrijk dat u het beginsaldo niet rechtstreeks in het grootboek boekt. Als boekingen in de grootboekrekening rechtstreeks op de grootboekrekening worden geboekt, zal dit er doorgaans toe leiden dat u de bankrekening niet kunt afstemmen, of, bij bankrekeningen in vreemde valuta, resulteren in verschillen die zich opstapelen terwijl u meer bankafstemmingen boekt. Vaak boekt u het beginsaldo direct op de bankrekening en komt het bedrag dan op de grootboekrekening terecht. U kunt het ook later terugboeken naar de grootboekrekening die u gebruikt om het openingsgrootboeksaldo te compenseren. In beide gevallen moet u eventuele directe boekingen op de grootboekrekening salderen voordat u uw eerste bankafstemming start, en vooral als de bankrekening in een vreemde valuta is.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Uw bankrekening instellen om bankbestanden te importeren of te exporteren
+
 De velden met betrekking tot de import en export van bankfeeds en -bestanden bevinden zich op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart**. Zie [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md) en [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md) voor meer informatie.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
@@ -239,6 +241,8 @@ Nadat u de nieuwe bankrekening hebt gemaakt, moet u ook een nieuwe bankboekingsg
 > Houd er rekening mee dat de bankrekeninggegevens op openstaande verkoopfacturen nog steeds de originele bankrekening tonen. Dienovereenkomstig zullen betalingen waarschijnlijk nog steeds op die rekening worden geboekt. We raden u aan beide accounts na de wijziging gedurende een bepaalde periode actief te houden.
 
 Om een beknopter beeld te krijgen van uw cashrekeningen in financiële rapportage, gebruikt u de rekeningen **Begintotaal** en **Eindtotaal** in uw rekeningschema, de rijen **Samentelling** in rekeningschema's of grootboekrekeningcategorieën. Voor meer informatie zie het gedeelte [Business Intelligence en Financial Reporting](bi.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

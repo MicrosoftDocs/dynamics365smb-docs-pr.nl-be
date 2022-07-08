@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 9a5ec7fb14adc453eb29c49474109b17d35d177b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729787"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076915"
 ---
 # <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
 
@@ -77,6 +77,8 @@ Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken
 3. Geef in het veld **Te verzenden aantal** op hoeveel van de orderhoeveelheid moet worden verzonden, de volledige of gedeeltelijke orderhoeveelheid.
 4. Kies de actie **Boeken** of **Boeken en verzenden**.
 5. Kies vervolgens **de optie Verzenden** om later te factureren of de optie **Verzenden en factureren** om meteen te factureren.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

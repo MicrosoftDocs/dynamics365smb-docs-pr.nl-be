@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805190"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077514"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Aanmelden voor een gratis proefversie van Dynamics 365 Business Central
 
@@ -43,9 +43,10 @@ U kunt ook contact opnemen met het [[!INCLUDE[prod_short](includes/prod_short.md
 
 Zie voor meer informatie over wat u kunt doen met [!INCLUDE [prod_short](includes/prod_short.md)] [Voorbereiden op zakendoen](ui-get-ready-business.md) en [Zakelijke functionaliteit](across-business-functionality.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="additional-resources"></a>Aanvullende resources
 
-- [Trainingen bekijken op Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Bezoek onze videobibliotheek](across-videos.md)  
 - [Veelgestelde vragen (FAQ) over proefversie](trial-faq.md)  
 - [Probleemoplossing voor aanmelden bij Self-Service](ui-troubleshoot-self-signup.md)  

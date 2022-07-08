@@ -9,21 +9,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d263be575b6f4102c25ff1b7fe2aa288058cbd22
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 3f9cb0690bf21c3b4571ff65486038499af010e9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518925"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078556"
 ---
 # <a name="create-special-orders"></a>Speciale orders maken
+
 U kunt een speciale order maken om een bepaald catalogusartikel dat niet op voorraad is, te verzenden aan een bepaalde klant. Het artikel wordt door uw leverancier verzonden naar uw magazijn, zodat u het vervolgens afzonderlijk of samen met artikelen van een andere order kunt verzenden aan uw klant.  
 
 Speciale orders maken het mogelijk een inkooporder en een verkooporder aan elkaar te koppelen zodat het catalogusartikel dat niet op voorraad is wordt gepickt en aan de klant wordt geleverd.  
 
 U kunt deze functie pas gebruiken als u de klanten-, leveranciers- en artikelkaart die voor de order nodig zijn, hebt ingesteld.  
 
-## <a name="to-create-a-special-order"></a>Speciale orders maken  
+## <a name="to-create-a-special-order"></a>Speciale orders maken
+
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporder** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Maak een  verkooporder voor het artikel en vul deze in. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 3.  Ga naar het sneltabblad **Regels** en vul de verkoopregel in. Selecteer in het veld **Inkoopcode** een inkoopcode waarbij een vinkje staat in het veld **Speciale order**.
@@ -42,7 +44,10 @@ Een inkooporder die is gemaakt als speciale order voor een verkooporder wordt ov
 > [!NOTE]  
 >  U kunt de functionaliteit voor speciale volgorde niet gebruiken als het item al is gereserveerd. Zorg er daarom voor dat voor artikelen die zijn verkocht op speciale orders het veld **Reserveren** op de artikelkaart niet is ingesteld op **Altijd**.  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Zie ook
+
 [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md)  
 [Verkoop](sales-manage-sales.md)  
 [Doorverzendingen uitvoeren](sales-how-drop-shipment.md)   

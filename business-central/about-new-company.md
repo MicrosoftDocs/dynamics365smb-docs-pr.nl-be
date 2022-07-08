@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 4fcc6d93c234e6c7a5b7b62514f53157878fee81
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805242"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079440"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -79,6 +79,8 @@ Als een bedrijf eenmaal is gemaakt, kunt u de naam ervan niet meer wijzigen. Maa
 
 De Contoso Coffee-app biedt demonstratiegegevens waarmee u de geavanceerde mogelijkheden van [!INCLUDE [prod_short](includes/prod_short.md)] kunt verkennen. Zoek de app in AppSource en installeer deze in een leeg bedrijf, bijvoorbeeld een bedrijf in een sandbox-omgeving. Zie [Inleiding tot demogegevens van Contoso Coffee](contoso-coffee/contoso-coffee-intro.md) voor meer informatie.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook
 
 [Business Central aanpassen](ui-customizing-overview.md)  
@@ -87,5 +89,6 @@ De Contoso Coffee-app biedt demonstratiegegevens waarmee u de geavanceerde mogel
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Understanding the Infrastructure of Business Central Online (uitsluitend in het Engels)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

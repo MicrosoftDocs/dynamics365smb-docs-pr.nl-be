@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9dafc8e193ccf3c47947be6508a0917a45393c91
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 600b7e3117b4c75e1e6599c7b1e568c34e6bbbf1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950051"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078478"
 ---
 # <a name="get-started-creating-report-layouts"></a>Aan de slag met het maken van rapportlay-outs
 
@@ -188,10 +188,11 @@ Volg deze stappen als u de naam en beschrijving van een door de gebruiker ingest
 
 ## <a name="see-also"></a>Zie ook
 
-[Rapportlay-outs beheren](ui-manage-report-layouts.md)
-[Werken met Word-lay-outs](ui-how-add-fields-word-report-layout.md)  
+[Rapportlay-outs beheren](ui-manage-report-layouts.md)  
+[Werken met Word-indelingen](ui-how-add-fields-word-report-layout.md)  
 [Werken met Excel-lay-outs](ui-excel-report-layouts.md)  
 [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

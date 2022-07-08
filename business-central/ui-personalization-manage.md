@@ -7,14 +7,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb00a19bd5d61e8ed465e3765ef38561ce058554
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bbb912f0e9e6718ba625fba4dc05fae19f4f2ebb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521532"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076213"
 ---
 # <a name="customize-pages-for-profiles"></a>Pagina's aanpassen voor profielen
+
 Gebruikers kunnen pagina's die hun werkruimte vormen, aan hun eigen voorkeuren aanpassen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 Beheerders kunnen pagina's voor een profiel aanpassen, bijvoorbeeld op basis van de gerelateerde bedrijfsrol of -afdeling, zodat alle gebruikers aan wie het profiel is toegewezen, de aangepaste pagina-indeling zien. De beheerder past pagina's aan met dezelfde functionaliteit als gebruikers wanneer ze pagina's personaliseren.
@@ -25,6 +26,7 @@ Beheerders kunnen pagina's voor een profiel aanpassen, bijvoorbeeld op basis van
 Pagina-aanpassing begint vanaf de pagina **Profielen (rollen)**, het startpunt van de beheerder voor het beheren van gebruikersprofielen op individuele profielkaarten. Naast het aanpassen van de pagina-indeling kunt u verschillende andere instellingen voor profielen kiezen op de pagina **Profiel (rol)** voor elk profiel. Zie [Profielen beheren](admin-users-profiles-roles.md) voor meer informatie.
 
 ## <a name="to-customize-pages-for-a-profile"></a>Pagina's aanpassen voor een profiel
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Profielen (rollen)** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel voor het profiel waarvoor u pagina's wilt aanpassen en kies de actie **Bewerken**.
 3. Kies de actie **Pagina's aanpassen**.
@@ -50,6 +52,7 @@ U kunt een overzicht krijgen van welke pagina's zijn aangepast voor een profiel,
 Op de pagina **Aangepaste pagina's** kunt u aanpassingen verwijderen en problemen oplossen door te scannen op mogelijke problemen.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Alle aanpassingen voor een profiel verwijderen
+
 U kunt alle aanpassingen die u hebt gemaakt voor een profiel, annuleren. Aanpassingen die met een extensie zijn aangebracht en door een gebruiker gemaakte personalisaties worden niet verwijderd. U kunt alle personalisaties met een andere actie verwijderen. Zie voor meer informatie [Alle aanpassingen verwijderen die door een gebruiker zijn aangebracht](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
 - Kies op de pagina **Profiel (rol)** voor een aangepast profiel de actie **Aangepaste pagina's wissen**.
@@ -57,12 +60,15 @@ U kunt alle aanpassingen die u hebt gemaakt voor een profiel, annuleren. Aanpass
 De indeling op pagina's voor het profiel wordt opnieuw ingesteld op de standaardindeling.  
 
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Aanpassing verwijderen voor specifieke pagina's voor een profiel
+
 U kunt ook afzonderlijke pagina-aanpassingen verwijderen die u voor een profiel hebt aangebracht. Aanpassingen die met een extensie zijn aangebracht en door een gebruiker gemaakte personalisaties worden niet verwijderd. U kunt specifieke paginapersonalisaties met een andere actie verwijderen. Zie voor meer informatie [Personalisaties voor specifieke pagina's verwijderen](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
 1. Kies op de pagina **Profiel (rol)** de actie **Aangepaste pagina's beheren**.
 2. Selecteer op de pagina **Aangepaste pagina's** een of meer regels voor pagina-aanpassingen die u wilt verwijderen en kies vervolgens de actie **Verwijderen**.
 
 De indeling op de geselecteerde pagina's wordt aangepast aan de wijzigingen die u hebt aangebracht.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also"></a>Zie ook
 

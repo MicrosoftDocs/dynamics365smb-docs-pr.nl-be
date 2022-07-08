@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: e70b14b5344acd9b59034b5847455417b8225182
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518219"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079206"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Afschrijving van vaste activa instellen
 
@@ -40,6 +40,7 @@ In een afschrijvingsboek voor vaste activa geeft u op hoe vaste activa worden af
 Als u bijvoorbeeld een vast activum uit gebruik neemt waarbij in het afschrijvingsboek geen afronding is gespecificeerd, maar het grootboek van uw bedrijf afronding vereist, ziet u bij het uit gebruik nemen van het vaste activum een foutmelding dat een bedrag moet worden afgerond in een post.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Een afschrijvingsboek aan een vast activum toewijzen
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum waarvoor u een afschrijvingsboek voor vaste activa wilt instellen.
 3. Vul op het sneltabblad **Afschrijvingsboek** indien nodig de velden in.
@@ -53,6 +54,7 @@ Als u bijvoorbeeld een vast activum uit gebruik neemt waarbij in het afschrijvin
     > Wanneer u de door de gebruiker gedefinieerde afschrijvingsmethode gebruikt, moet u het afschrijvingsboek op een andere manier toewijzen. Zie voor meer informatie [Door de gebruiker gedefinieerde afschrijvingsmethode instellen](fa-how-setup-user-defined-depreciation-method.md).
 
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Een afschrijvingsboek aan meerdere vaste activa toewijzen met een batchverwerking
+
 Als u een afschrijvingsboek wilt toewijzen aan meerdere vaste activa, kunt u de batchverwerking **VA-afschr.-boeken maken** gebruiken om VA-afschrijvingsboeken te maken.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
@@ -66,6 +68,7 @@ Als u een afschrijvingsboek wilt toewijzen aan meerdere vaste activa, kunt u de 
 7. Kies de knop **Ok**.
 
 ## <a name="to-set-up-depreciation-posting-types"></a>Boekingssoorten voor afschrijving instellen
+
 Voor elk afschrijvingsboek moet u instellen hoe [!INCLUDE[prod_short](includes/prod_short.md)] diverse boekingssoorten moet verwerken. Bijvoorbeeld, of de boeking debet of credit moet zijn, en of het boekingssoort moet worden opgenomen in de afschrijvingsbasis.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.  
@@ -78,6 +81,7 @@ Voor elk afschrijvingsboek moet u instellen hoe [!INCLUDE[prod_short](includes/p
 Het wordt aangeraden om de instellingen van afschrijvingsboeken waarvoor al posten zijn geboekt niet te wijzigen. De wijzigingen gelden namelijk niet voor reeds geboekte posten, waardoor de statistische gegevens van het afschrijvingsboek onjuist worden.
 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Standaardsjablonen en batches instellen voor afschrijvingsboeken voor vaste activa
+
 Voor elk afschrijvingsboek definieert u een standaardinstelling van sjablonen en batches. U gebruikt deze standaardwaarden om regels van het ene dagboek naar het andere dagboek te dupliceren, dagboekregels te maken met de batchverwerkingen **Afschrijving berekenen** of **Vaste activa indexeren** of aanschafkosten in het verzekeringsdagboek te dupliceren.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Afschrijvingsboeken** in en kies vervolgens de gerelateerde koppeling.  
@@ -91,8 +95,10 @@ Bij het berekenen van de afschrijvingen wordt in de batchverwerking Afschrijving
 
 Als u dit veld selecteert, wordt in de batchverwerking Afschrijving berekenen het agendajaar van 365 dagen gebruikt, waarbij elke maand hetzelfde aantal dagen heeft als op de agenda. De enige uitzondering is februari in schrikkeljaren, die door de batchtaak worden beschouwd als 28 dagen en niet 29. Daarom worden alle jaren, ook schrikkeljaren, geacht 365 dagen te hebben.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/configure-depreciation-books/)
 
 ## <a name="see-also"></a>Zie ook
+
 [Vaste activa instellen](fa-setup.md)  
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  

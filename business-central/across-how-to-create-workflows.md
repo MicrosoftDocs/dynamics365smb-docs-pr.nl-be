@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521292"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077748"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Werkstromen maken om zakelijke procestaken met elkaar te verbinden
 
@@ -178,6 +178,8 @@ De volgende afbeeldingen geven een overzicht van het resultaat van deze procedur
 :::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Illustratie van de werkstroom voor goedkeuring van leveranciersnaam.":::
 
 Vervolgens moet u de werkstroom testen door een bestaande leverancier te openen en de naam te wijzigen. Controleer of er een goedkeuringsverzoek is ingediend bij het wijzigen van de leveranciersnaam.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-workflows/)
 
 ## <a name="see-also"></a>Zie ook
 

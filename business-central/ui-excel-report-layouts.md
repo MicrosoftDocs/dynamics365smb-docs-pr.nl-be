@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: 609678742ccf9593407e96ea412a377f37c8abf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c0800642804b8e8c9e1dc629224bfac77b174500
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525387"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075745"
 ---
 # <a name="working-with-excel-layouts"></a>Werken met Excel-lay-outs
 
@@ -143,10 +143,10 @@ Om samen te vatten wat u wel en niet kunt doen op het blad **Gegevens**:
 [De huidige rapportindeling wijzigen](ui-how-change-layout-currently-used-report.md)  
 [Een aangepaste indeling voor een rapport of document importeren of exporteren](ui-how-import-and-export-report-layout.md)  
 [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
-[Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md) 
+[Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)  
 [Bedrijfsinformatie](bi.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Rapportgegevens analyseren met Excel](report-analyze-excel.md).
+[Rapportgegevens analyseren met Excel](report-analyze-excel.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

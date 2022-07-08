@@ -10,14 +10,15 @@ ms.search.keywords: online payment
 ms.search.forms: 1060, 1061, 1062
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 872b261e482a1d54839443f02a25fac8f191855c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7dad5bcdc5f3c98364bffc81787639e1f3ff11d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520720"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074419"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Klantbetalingen via betalingsservices inschakelen
+
 Als alternatief voor het innen van betalingen door middel van bankoverschrijving of creditcards kunt u klanten laten betalen via hun account door middel van betalingsservices zoals PayPal of WorldPay.  
 
 Nadat u een betalingsservice hebt ingeschakeld in [!INCLUDE[prod_short](includes/prod_short.md)], wordt een koppeling naar de service beschikbaar op verkoopdocumenten die u per e-mail naar uw klanten verzendt. De klanten kunnen met de koppeling naar de betalingsservice gaan en de factuur betalen, rechtstreeks vanuit het verkoopdocument. Als u de koppeling niet wilt opnemen, bijvoorbeeld wanneer een klant met contant geld betaalt, kunt u de betalingsservice uit de factuur verwijderen voordat u hem boekt.  
@@ -25,6 +26,7 @@ Nadat u een betalingsservice hebt ingeschakeld in [!INCLUDE[prod_short](includes
 De extensies , PayPal Payments Standard en WorldPay Payments Standard zijn geïnstalleerd in [!INCLUDE[prod_short](includes/prod_short.md)] en u hoeft ze alleen maar in te schakelen.  
 
 ## <a name="to-enable-a-payment-service-in-prod_short"></a>Een betalingsservice inschakelen in [!INCLUDE[prod_short](includes/prod_short.md)]
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsservices** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Betalingsservices** de actie **Nieuw**.  
 3. Selecteer de betalingsservice en sluit vervolgens de pagina.  
@@ -33,6 +35,7 @@ De extensies , PayPal Payments Standard en WorldPay Payments Standard zijn geïn
 6. Sluit de pagina.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Een betalingsservice selecteren op een verkoopfactuur
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de verkoopfactuur die u wilt betalen door middel van de betalingsservice.  
 3. Kies in het veld **Betalingsservice** de gewenste betalingsservice.  
@@ -40,7 +43,10 @@ De extensies , PayPal Payments Standard en WorldPay Payments Standard zijn geïn
     > [!NOTE]  
     > Het veld **Betalingsservice** is alleen beschikbaar als u betalingsservices hebt ingeschakeld.  
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Zie ook
+
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  

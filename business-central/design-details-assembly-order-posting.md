@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521058"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075615"
 ---
 # <a name="design-details-assembly-order-posting"></a>Ontwerpdetails: Assemblageorderboeking
 Assemblageorderboeking wordt gebaseerd op dezelfde principes als wanneer de soortgelijke activiteiten van verkooporders en productieverbruik/-output worden geboekt. De principes worden echter gecombineerd in de zin dat assemblageorders hun eigen boeking-UI hebben, zoals die voor verkooporders, terwijl de feitelijke postboeking op de achtergrond wordt uitgevoerd als directe artikel- en resourcedagboekboekingen, zoals die voor productieverbruik, output en capaciteit.  
@@ -107,6 +107,13 @@ De artikelpost die het resultaat is van het boeken van een op-order-assembleren-
 Artikelposten van de soort Verkoop die het gevolg zijn van het boeken van op-order-assembleren aantallen, worden gemarkeerd met **Ja** in het veld **Op order assembleren**.  
 
 Bij het boeken van verkooporderregels waarbij een gedeelte afkomstig is uit voorraad en een ander gedeelte een op-order-assembleren aantal is, worden afzonderlijke artikelposten gemaakt, één voor het voorraadaantal en één voor het op-order-assembleren aantal.  
+
+### <a name="posting-dates"></a>Boekingsdatums
+
+Over het algemeen worden boekingsdatums gekopieerd van een verkooporder naar de gekoppelde assemblageorder. De boekingsdatum in de assemblageorder wordt automatisch bijgewerkt wanneer u de boekingsdatum in de verkooporder direct of indirect wijzigt, bijvoorbeeld als u de boekingsdatum wijzigt in de magazijnverzending, voorraadpick of als onderdeel van een bulkboeking.
+
+U kunt de boekingsdatum in de assemblageorder handmatig wijzigen. Het kan echter niet later zijn dan de boekingsdatum in de gekoppelde verkooporder. Het systeem behoudt deze datum, tenzij u de boekingsdatum in de verkooporder bijwerkt.
+
 
 ## <a name="see-also"></a>Zie ook  
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   

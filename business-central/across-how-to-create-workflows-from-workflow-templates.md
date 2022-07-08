@@ -1,8 +1,6 @@
 ---
 title: Werkstromen maken van werkstroomsjablonen
 description: Om tijd te besparen bij het maken van nieuwe werkstromen, kunt u niet-bewerkbare werkstromen maken van werkstroomsjablonen met het voorvoegsel "MS".
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 038494ebd8442c20239bc2426754389117ed95c9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f4109b7de28938ac21945fce57179837aeb70b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521344"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076785"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Werkstromen maken van werkstroomsjablonen
+
 Om tijd te besparen bij het maken van nieuwe werkstromen kunt u werkstromen maken van werkstroomsjablonen.  
 
  Werkstroomsjablonen zijn niet-bewerkbare werkstromen die in de algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] bestaan. De codes voor werkstroomsjablonen die door Microsoft worden toegevoegd, hebben het voorvoegsel "MS-".  
@@ -27,7 +26,8 @@ Om tijd te besparen bij het maken van nieuwe werkstromen kunt u werkstromen make
 
 Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
-## <a name="to-create-a-workflow-from-workflow-template"></a>Een werkstroom maken van een werkstroomsjabloon  
+## <a name="to-create-a-workflow-from-workflow-template"></a>Een werkstroom maken van een werkstroomsjabloon
+
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Werkstroom maken van sjabloon**. De pagina **Werkstroomsjablonen** verschijnt.  
 3.  Selecteer een werkstroomsjabloon en kies vervolgens de knop **OK**.  
@@ -35,15 +35,18 @@ Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappe
      De pagina **Werkstroom** wordt geopend voor een nieuwe werkstroom die alle gegevens van de geselecteerde sjabloon bevat. De waarde in het veld **Code** wordt uitgebreid met bijvoorbeeld '- 01' om aan te geven dat dit de eerste werkstroom is die is gemaakt vanuit de werkstroomsjabloon.  
 4.  Ga verder met het maken van de werkstroom door de werkstroomstappen te bewerken of nieuwe stappen toe te voegen. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
-## <a name="see-also"></a>Zie ook  
- [Werkstromen maken](across-how-to-create-workflows.md)   
- [Werkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)   
- [Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md)   
- [Werkstromen verwijderen](across-how-to-delete-workflows.md)   
- [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Werkstromen instellen](across-set-up-workflows.md)   
- [Werkstromen gebruiken](across-use-workflows.md)   
- [Werkstroom](across-workflow.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>Zie ook
+
+ [Werkstromen maken](across-how-to-create-workflows.md)  
+ [Werkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)  
+ [Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md)  
+ [Werkstromen verwijderen](across-how-to-delete-workflows.md)  
+ [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+ [Werkstromen instellen](across-set-up-workflows.md)  
+ [Werkstromen gebruiken](across-use-workflows.md)  
+ [Werkstroom](across-workflow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

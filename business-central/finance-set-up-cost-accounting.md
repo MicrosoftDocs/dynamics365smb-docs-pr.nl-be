@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520346"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074886"
 ---
 # <a name="setting-up-cost-accounting"></a>Kostenboekhouding instellen
 
@@ -141,7 +141,8 @@ Kostenobjecten zijn projecten, producten of diensten van een bedrijf. Het schema
 * Door de dimensiewaarden in het grootboek over te brengen naar het schema van kostenobjecten. U kunt elke gewenste aanpassing na de overdracht aanbrengen.  
 * Door een nieuw schema van kostenobjecten te maken dat onafhankelijk is van het grootboek of door een nieuw kostenobject toe te voegen aan een bestaand schema van kostenobjecten. U moet elk kostenobject afzonderlijk maken.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Door de dimensiewaarden vanuit het grootboek over te brengen naar het schema van kostenobjecten.  
+### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Door de dimensiewaarden vanuit het grootboek over te brengen naar het schema van kostenobjecten.
+
 1.  Stel een dimensie als kostenobjectdimensie in op de pagina **CA-dimensies bijwerken**. Alleen de waarden uit deze dimensie worden overgebracht.  
 2.  Kies het pictogram ![Lampje dat de functie Vertel me 3 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenobjectschema** in en kies de gerelateerde koppeling.  
 3.  Kies de actie **Kostenobjecten ophalen uit dimensie** om dimensiewaarden over te brengen naar het schema van kostenobjecten. Met deze functie worden de dimensiewaarden die u in stap 1 hebt gedefinieerd overgebracht.  
@@ -151,7 +152,8 @@ Kostenobjecten zijn projecten, producten of diensten van een bedrijf. Het schema
 
 Het schema van kostenobjecten bevat nu alle opgegeven dimensiewaarden van het grootboek waaronder titels en subtotalen.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Nieuwe kostenobjecten maken op de pagina Kostenobjectschema  
+### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Nieuwe kostenobjecten maken op de pagina Kostenobjectschema
+
 U kunt kostenobjecten instellen en onderhouden op de kaart **Kostenobjectkaart** of op de pagina **Kostenobjectschema**. In deze procedure stelt u kostenobjecten op de pagina **Kostenobjectschema** in.  
 
 1.  Open de pagina **Kostenobjectschema** in de bewerkmodus.  
@@ -169,9 +171,11 @@ U kunt kostenobjecten instellen en onderhouden op de kaart **Kostenobjectkaart**
 >  Als u definities in de velden **Totaal van/tot** voor de kostenobjecten **Eindtotaal** hebt ingevoerd voordat u de inspringfunctie uitvoert, moet u deze opnieuw invoeren. De functie overschrijft de waarden in alle velden **Eindtotaal**.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Kostenplaatsen en kostenobjecten voor rekeningschema's definiëren
+
 In het grootboek kunt u de inkomsten- en onkostenposten automatisch overbrengen naar de kostprijsboekhouding, hetzij voor elke grootboekboeking of met behulp van een batchtaak. Wanneer u de overdracht uitvoert, worden door [!INCLUDE[prod_short](includes/prod_short.md)] alleen de posten overgebracht die al zijn gekoppeld aan een kostenplaats of een kostenobject. Om tot een zinvolle overdracht te komen, moet u ervoor zorgen dat kostenplaatsen en de kostenobjecten juist zijn gedefinieerd.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Standaarddimensiewaarden definiëren voor grootboekrekeningen  
+### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Standaarddimensiewaarden definiëren voor grootboekrekeningen
+
 Voor elke grootboekrekening definieert u standaarddimensiewaarden in de tabel **Standaarddimensie**. In het volgende voorbeeld ziet u hoe u kunt definiëren dat er altijd een AFDELING als kostenplaats, maar nooit een PROJECT als kostenobject moet voorkomen bij het boeken naar een grootboekrekening.  
 
 |**Dimensiecode**|**Waardeboeking**|  
@@ -179,7 +183,8 @@ Voor elke grootboekrekening definieert u standaarddimensiewaarden in de tabel **
 |Kostenplaats|Verplicht|  
 |Kostendrager|Geen|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Dimensiewaarden voor overheadkosten en directe kosten definiëren  
+### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Dimensiewaarden voor overheadkosten en directe kosten definiëren
+
  Overheadkosten kunt u overbrengen naar een kostenplaats en directe kosten naar een kostenobject. In de volgende tabel ziet u de optimale combinatie van instelwaarden voor dimensies.  
 
 |Overbrengen naar|Kostenplaatsboeking|Kostenobjectboeking|  
@@ -190,9 +195,12 @@ Voor elke grootboekrekening definieert u standaarddimensiewaarden in de tabel **
 > [!NOTE]  
 >  Zorg ervoor dat de vooraf gedefinieerde kostenplaats en het vooraf gedefinieerde kostenobject die u in het grootboek hebt ingesteld, automatisch naar de kostprijsboekhouding worden overgedragen, door het selectievakje **GB-boekingen controleren** op de pagina Instelling kostprijsboekhouding te selecteren.
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Zie ook
+
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  
-[Kostenposten overbrengen en boeken](finance-transfer-and-post-cost-entries.md)   
+[Kostenposten overbrengen en boeken](finance-transfer-and-post-cost-entries.md)  
 [Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

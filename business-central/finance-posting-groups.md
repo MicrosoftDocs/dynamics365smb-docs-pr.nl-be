@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4391b73a6e7f26262349abaeff751dd8f0f6c4e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515679"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076577"
 ---
 # <a name="set-up-posting-groups"></a>Boekingsgroepen instellen
 
@@ -58,6 +58,7 @@ In de volgende tabel worden de boekingsgroepen beschreven die specifiek zijn voo
 | VA-boekingsgroep |Definieer rekeningen voor verschillende soorten onkosten en kosten, zoals aanschafkosten, gecumuleerde afschrijvingsbedragen, aanschafkosten bij BGS, gecumuleerde afschrijving bij BGS, winst bij BGS, verlies bij BGS, onderhoudskosten en afschrijvingskosten. Stel deze boekingsgroepen in op de pagina **VA-boekingsgroepen**. |
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Boekingsgroepen voor vervangende klanten of leveranciers op documenten toestaan
+
 U kunt mensen een andere boekingsgroep voor klanten en leveranciers laten kiezen dan de standaardinstellingen wanneer ze met verkoop- of inkoopdocumenten en journaals werken.
 
 Als u wijzigingen in klantenboekingsgroep wilt toestaan, kiest u **Wijziging van boekingsgroep toestaan** op de pagina's **Verkoopinstellingen** en **Servicebeheerinstellingen**, terwijl u de pagina **Instellingen Inkoop en betalingen** kiest voor wijzigingen in leveranciersboekingsgroepen.
@@ -129,10 +130,13 @@ Wanneer er iets mis is, geeft [!INCLUDE[prod_short](includes/prod_short.md)] de 
 > [!NOTE]
 > De hierboven beschreven foutafhandeling is niet beschikbaar voor artikel-, resource-, werknemers- en vaste-activajournalen, of voor grootboekrekeningen die zijn toegevoegd in lokale versies van boekingsgroepen.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook
+
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Financiën instellen](finance-setup-finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,19 +10,20 @@ ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 460, 9307
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a8d4e2568c64e09f1b71c247c6701e67bf9a824
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dd86d4615abfb510ada19c3ec7e0f2c6ac6cb557
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513821"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077149"
 ---
 # <a name="purchasing"></a>Inkopen
+
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u een voorraad moeten controleren, worden inkoopfacturen ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
 
 U moet inkooporders gebruiken als uw inkoopproces vereist dat u gedeeltelijke ontvangsten van een orderhoeveelheid registreert, bijvoorbeeld omdat de volledige hoeveelheid niet beschikbaar was bij de leverancier. Als u artikelen verkoopt door rechtstreeks van uw leverancier bij de klant te leveren, als een doorverzending, moet u ook inkooporders gebruiken. Zie [Doorverzendingen maken](sales-how-drop-shipment.md) voor meer informatie. Wat betreft alle andere aspecten werken inkooporders op dezelfde manier als inkoopfacturen.
 
-U kunt inkoopfacturen automatisch laten maken met behulp van de OCR-service (Optical Character Recognition) om PDF-facturen van uw leveranciers te converteren naar elektronische documenten, die vervolgens door een werkstroom naar inkoopfacturen worden geconverteerd. Als u deze functionaliteit wilt gebruiken, moet u zich eerst aanmelden voor de OCR-service en dan verschillende instellingen uitvoeren. Zie [Procedure: Inkomende documenten verwerken](across-process-income-documents.md) voor meer informatie.      
+U kunt inkoopfacturen automatisch laten maken met behulp van de OCR-service (Optical Character Recognition) om PDF-facturen van uw leveranciers te converteren naar elektronische documenten, die vervolgens door een werkstroom naar inkoopfacturen worden geconverteerd. Als u deze functionaliteit wilt gebruiken, moet u zich eerst aanmelden voor de OCR-service en dan verschillende instellingen uitvoeren. Zie [Inkomende documenten gebruiken](across-income-documents.md) voor meer informatie.
 
 Producten kunnen zowel voorraadartikelen als services zijn. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
@@ -42,19 +43,20 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 |Converteer bijvoorbeeld elektronische facturen van uw leveranciers naar inkoopfacturen in Business Central.|[Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Leer hoe [!INCLUDE[prod_short](includes/prod_short.md)] berekent wanneer u een artikel moet bestellen, zodat u het op een bepaalde datum ontvangt.|[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)|
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde leverancier.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
-|Beheer uw toezegging aan een leverancier om grote hoeveelheden te kopen die in meerdere verzendingen worden geleverd.|[Werken met afroepinkooporders](sales-how-to-create-blanket-sales-orders.md)|
+|Beheer uw toezegging aan een leverancier om grote hoeveelheden te kopen die in meerdere verzendingen worden geleverd.|[Werken met inkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)|
 
 ## <a name="external-document-numbers"></a>Externe documentnummers
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
+
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
-[Projecten beheren](projects-manage-projects.md)    
+[Projecten beheren](projects-manage-projects.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 

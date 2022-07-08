@@ -10,12 +10,12 @@ ms.search.keywords: quickstart
 ms.search.form: 1,
 ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: eb466433beecbd9cb41b13fab4cb011dd172cec3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417625"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077123"
 ---
 # <a name="company-information-quick-start"></a>Snelstartgids Bedrijfsinformatie
 
@@ -32,8 +32,13 @@ U kunt alle relevante gegevens invoeren op de pagina **Bedrijfsgegevens** wannee
 
 Als u klaar bent met het invullen van de gegevens, kunt u de pagina sluiten.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Zie ook  
 
 [Overzicht van bedrijfsgegevens](admin-company-information.md)  
 [Bedrijfsgegevens instellen in Italië](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

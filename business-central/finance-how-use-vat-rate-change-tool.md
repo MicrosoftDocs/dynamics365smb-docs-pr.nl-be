@@ -9,12 +9,12 @@ ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550,
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: ce98367d08c399e8c1a93140bad6fbecd04dda95
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a71497451c56053b1f3c76a1bc58262ec2eb7ca7
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135405"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079128"
 ---
 # <a name="managing-vat-rate-changes"></a>Wijzigingen in btw-tarieven beheren
 
@@ -104,6 +104,8 @@ U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief va
 
 > [!IMPORTANT]  
 > Nadat de conversie is voltooid, wordt het veld **Geconverteerd** in de tabel **Dagboekpost wijziging BTW-tarief** ingeschakeld en bevat het veld **Conversiedatum** in de tabel **Dagboekpost wijziging BTW-tarief** de conversiedatum.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -1,8 +1,6 @@
 ---
 title: WorldPay Payments Standard
 description: Met de extensie WorldPay Payments Standard biedt u klanten een eenvoudig alternatief voor het doen van betalingen door middel van overschrijving of creditcard.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -10,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 55dd366b65ee831989e09ea08f80b5d656993609
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 78fd69fb7dfbb6990798ca94fdbef475706cd078
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521584"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076239"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>De extensie WorldPay Payments Standard
 Met de extensie WorldPay Payments Standard biedt u klanten een eenvoudig alternatief voor het doen van betalingen door middel van overschrijving of creditcard. Daarnaast komen betalingen via betalingsservices doorgaans sneller aan op uw bankrekening.

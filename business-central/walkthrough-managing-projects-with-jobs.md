@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513431"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076759"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Procedure: Projecten plannen
 
@@ -24,54 +24,63 @@ In deze procedure maakt u kennis met de functies voor projectbeheer in taken (pr
 
  In deze procedure wordt het instellen van een nieuw project behandeld en komt een aantal algemene taken aan de orde zoals het werken met vaste prijzen, in termijnen betalen, facturen boeken voor projecten en projecten kopiëren.  
 
-## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
+## <a name="about-this-walkthrough"></a>Informatie over deze procedure
+
  In deze procedure worden de volgende taken gedemonstreerd:  
 
-### <a name="setting-up-a-job"></a>Een project instellen  
+### <a name="setting-up-a-job"></a>Een project instellen
+
  Als de budgetstructuur voor projecten is ingesteld, is het eenvoudig om een project te maken. Dit scenario omvat de volgende procedures:  
 
 - Projecttaakregels en planningsregels instellen.  
 - Projectspecifieke prijzen voor artikelen, resources en grootboekrekeningen.  
 - Factureren vanuit een project.  
 
-### <a name="handling-fixed-prices"></a>Werken met vaste prijzen  
+### <a name="handling-fixed-prices"></a>Werken met vaste prijzen
+
  In projecten kunt u werken met vaste prijzen en prijzen voor services of goederen die van tevoren zijn overeengekomen met de klant. In dit scenario kunt u het volgende doen:  
 
 - Bekijken hoe contractuele en gefactureerde waarden worden vastgesteld.  
 - Extra (niet gefactureerd) werk dat niet is gefactureerd, in het schema opnemen.  
 
-### <a name="copying-a-job"></a>Een project kopiëren  
+### <a name="copying-a-job"></a>Een project kopiëren
+
  In dit deel van het overzicht wordt besproken hoe u een project geheel of gedeeltelijk kunt kopiëren om het handmatig invoeren van gegevens te beperken en de nauwkeurigheid te verhogen. Dit omvat het volgende:  
 
 - Een deel van een project kopiëren naar een nieuw project.  
 - Projectspecifieke prijzen kopiëren.  
 - Planningsregels kopiëren.  
 
-### <a name="making-payment-by-installment"></a>Betalen in termijnen  
+### <a name="making-payment-by-installment"></a>Betalen in termijnen
+
  Als een groot, duur project lang doorloopt, spreekt de klant vaak met het bedrijf af om in termijnen te betalen. In dit scenario ziet u hoe betaling in termijnen instelt aan de hand van de volgende onderwerpen:  
 
 - Betalingen in termijnen opzetten voor een project.  
 - Betalingen aan klanten factureren.  
 - Verbruik verantwoorden in een project met termijnbetalingen.  
 
-## <a name="roles"></a>Rollen  
+## <a name="roles"></a>Rollen
+
  Deze procedure bevat taken voor de volgende rollen:  
 
 - Projectmanager  
 - Lid van het projectteam  
 
-## <a name="prerequisites"></a>Vereisten  
+## <a name="prerequisites"></a>Vereisten
+
  Voordat u de stappen in deze procedure kunt uitvoeren, moet u het volgende doen:  
 
 - Installeer de CRONUS-demonstratiedatabase.
 - Maak voorbeeldgegevens met behulp van de stappen in het volgende gedeelte.  
 
-## <a name="story"></a>Scenario  
+## <a name="story"></a>Scenario
+
 Dit overzicht draait om CRONUS, een design- en consultancyfirma die nieuwe infrastructuren ontwerpt en installeert, zoals conferentiezalen, kantoren, meubels, accessoires en opslagruimten. Het bedrijf werkt meestal met projecten. Prakash is projectmanager bij CRONUS. Hij gebruikt projecten om een overzicht te bieden van alle lopende projecten die met CRONUS zijn gestart, alsmede van de projecten die zijn afgerond. Hij is gewoonlijk degene die afspraken met klanten maakt en het grootste deel van het project, zoals taak- en planningsregels en prijzen, invoert in [!INCLUDE[prod_short](includes/prod_short.md)]. Hij constateert dat het maken, onderhouden en redigeren van informatie eenvoudig is. Prakash is tevens te spreken over de manier waarop projecten kunnen worden gekopieerd in [!INCLUDE[prod_short](includes/prod_short.md)] en de mogelijkheid om te betalen in termijnen.
 
  Tricia, een lid van het projectteam dat aan Prakash rapporteert, is verantwoordelijk voor de dagelijkse controle van het project. Behalve haar eigen werk, voert zij ook het werk in dat voor elke taak door technici wordt uitgevoerd. Zij legt de artikelen die zij hebben gebruikt en de kosten die zij hebben gemaakt vast.  
 
-## <a name="preparing-sample-data"></a>Voorbeeldgegevens voorbereiden  
+## <a name="preparing-sample-data"></a>Voorbeeldgegevens voorbereiden
+
  Voordat u met dit scenario begint, moet u Tricia toevoegen als een nieuwe resource.  
 
 ### <a name="to-prepare-the-sample-data"></a>De voorbeeldgegevens voorbereiden  
@@ -109,7 +118,8 @@ In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haa
 
 4.  Kies de knop **OK** om de wijzigingen op te slaan.
 
-## <a name="setting-up-a-job"></a>Een project instellen  
+## <a name="setting-up-a-job"></a>Een project instellen
+
  In dit scenario heeft CRONUS een contract binnengehaald van de klant Progressive Home Furnishings voor het ontwerpen van een conferentie- en eetzaal. De klant is gevestigd in de Verenigde Staten en voor het project is speciale software nodig. De projectmanager komt tot overeenstemming met de klant en maakt een project dat deze afspraak dekt.  
 
 ### <a name="to-set-up-a-job"></a>Een project instellen  
@@ -202,7 +212,8 @@ In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haa
 
 4. Sluit de pagina. De totalen worden bijgewerkt op de pagina **Projecttaakregels**.  
 
-## <a name="calculating-remaining-usage"></a>Resterend gebruik berekenen  
+## <a name="calculating-remaining-usage"></a>Resterend gebruik berekenen
+
  Tricia, het projectteamlid, heeft een tijdje aan het project gewerkt en wil haar uren en gebruik tijdens het project registreren. Ze heeft niet meer uren gewerkt dan van tevoren met de klant is afgesproken. Ze gebruikt de batchverwerking **Resterend gebruik berekenen** om het resterende verbruik voor het project te berekenen in een projectdagboek. De batchverwerking berekent voor elke projecttaak het verschil tussen het geplande gebruik van artikelen, resources en grootboekkosten en het werkelijke gebruik dat in de projectposten is geboekt. Het resterende gebruik kan zij vervolgens boeken vanuit het projectdagboek waarin het wordt weergegeven.  
 
 ### <a name="to-calculate-remaining-usage"></a>Het resterende gebruik berekenen  
@@ -219,7 +230,8 @@ In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haa
 
 De regels worden nu geboekt.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Een projectverkoopfactuur maken en boeken  
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Een projectverkoopfactuur maken en boeken
+
  Tricia kan vervolgens een nieuwe factuur maken voor het hele project of voor een deel van een project. Ze kan de factuur ook aan een andere factuur voor dezelfde klant en voor hetzelfde project koppelen. In dit geval factureert zij voor het volledige project, aangezien het project nu is voltooid.  
 
 ### <a name="to-create-a-job-sales-invoice"></a>Een projectverkoopfactuur maken  
@@ -252,7 +264,8 @@ De regels worden nu geboekt.
 2.  Kies de actie **Statistieken**. U kunt gedetailleerde informatie over de projectprijzen, -kosten en -winsten bekijken in zowel lokale als vreemde valuta's.  
 3.  Kies de knop **Sluiten** om de pagina **Projectstatistiek** te sluiten.  
 
-## <a name="handling-fixed-prices"></a>Werken met vaste prijzen  
+## <a name="handling-fixed-prices"></a>Werken met vaste prijzen
+
  CRONUS heeft een contract afgesloten voor het opzetten van vergaderruimten. Als projectleider wil Prakash een goed overzicht hebben van de taken die nodig zijn voor het project met de bijbehorende gebudgetteerde en gemaakte kosten voor elke taak. Bovendien wil hij weten wat de totale contractprijs voor het project is en wat het bedrag is dat tot nu toe is gefactureerd. Hij heeft met de klant een vaste prijs voor een project afgesproken.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Vaste prijzen beheren in projecten  
@@ -443,15 +456,18 @@ De volgende procedures laten zien hoe u een nieuw project kunt maken, prijzen ku
 2.  Stel op de pagina **Verkoopfactuur maken** de datum van vandaag in als de boekingsdatum, geef **Per taak** op en kies de knop **OK** om een factuur te maken met de standaardinformatie. Kies de knop **OK** om de bevestigingspagina te sluiten.  
 3.  Kies de actie **Verkoopfactuur/creditnota**. U ziet op de verkoopfactuur dat alleen de aanbetaling in de factuur is opgenomen. Verstuur de factuur nu aan de klant zoals is overeengekomen.  
 
-## <a name="next-steps"></a>Volgende stappen  
+## <a name="next-steps"></a>Volgende stappen
+
  In dit scenario heeft u enkele van de basisstappen voor het werken met projecten in [!INCLUDE[prod_short](includes/prod_short.md)] doorlopen. U hebt geleerd over hoe u een nieuw project kunt maken, een project kunt kopiëren en betalingen kunt verwerken. Ook hebt u een demonstratie gekregen van het bijhouden van uren en het opstellen van facturen.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/create-jobs/)
 
 ## <a name="see-also"></a>Zie ook
 
- [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   
- [Projectbeheer instellen](projects-setup-projects.md)   
- [Resources gebruiken](projects-how-use-resources.md)   
- [Voortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)   
+ [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
+ [Projectbeheer instellen](projects-setup-projects.md)  
+ [Resources gebruiken](projects-how-use-resources.md)  
+ [Voortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)  
  [Projecten factureren](projects-how-invoice-jobs.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
