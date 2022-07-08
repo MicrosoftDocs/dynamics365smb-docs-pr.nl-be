@@ -77,7 +77,7 @@ De volgende procedures beschrijven hoe u het toegangstoken kunt roteren dat word
 ### <a name="in-shopify"></a>In Shopify
 
 1. Ga vanuit uw **Shopify-beheer** naar [Apps](https://www.shopify.com/admin/apps).
-2. Selecteer in de rij met de app *Dynamics 365 Business Central* **Verwijderen**.
+2. Selecteer in de rij met de app **Dynamics 365 Business Central* **Verwijderen**.
 3. Selecteer in het bericht dat wordt weergegeven de optie **Verwijderen**.
 
 ### <a name="in-prod_short"></a>In [!INCLUDE[prod_short](../includes/prod_short.md)]
