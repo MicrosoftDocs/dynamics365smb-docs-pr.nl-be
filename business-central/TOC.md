@@ -440,7 +440,7 @@
 ### [Producten verkopen](sales-how-sell-products.md)
 ### [De picklijst afdrukken](sales-how-print-picking-list.md)
 ### [Verkoop boeken](ui-post-sales.md)
-### [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)
+### [Periodieke verkoopregels maken](sales-how-work-standard-lines.md)
 ### [Doorverzendingen uitvoeren](sales-how-drop-shipment.md)
 ### [Speciale orders maken:](sales-how-to-create-special-orders.md)
 ### [Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)
@@ -472,7 +472,7 @@
 ### [Werken met inkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)
 ### [Externe documentnummers op inkoopdocumenten](purchasing-ext-doc-no.md)
 ### [Externe documentnummers invoeren](across-enter-external-document-numbers.md)
-
+### [Periodieke inkoopregels maken](purchasing-how-work-recurring-purchase-lines.md)
 
 ## Voorraad
 ### [Voorraadoverzicht](inventory-manage-inventory.md)
@@ -1472,6 +1472,7 @@
 #### [Verkopen instellen](sales-setup-sales.md)
 #### [Nieuwe klanten registreren](sales-how-register-new-customers.md)
 #### [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md)
+#### [Prijzen en kortingen instellen](across-prices-and-discounts.md)
 #### [Speciale verkoopprijzen en kortingen registreren](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Klantenprijsgroepen instellen](sales-how-to-set-up-customer-price-groups.md)
 #### [Klantenkortingsgroepen instellen](sales-how-to-set-up-customer-discount-groups.md)
@@ -1483,9 +1484,11 @@
 ### Inkoop instellen
 #### [Inkoop instellen](purchasing-setup-purchasing.md)
 #### [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)
-#### [Speciale inkoopprijzen en kortingen registreren](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Bankrekeningen van leverancier instellen](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [De prioriteit van leveranciers bepalen](purchasing-how-prioritize-vendors.md)
 #### [Inkopers instellen](purchasing-how-setup-purchasers.md)
+#### [Prijzen en kortingen instellen](across-prices-and-discounts.md)
+#### [Speciale inkoopprijzen en kortingen registreren](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Voorraad instellen
 #### [Voorraad instellen](inventory-setup-inventory.md)
 #### [Algemene voorraadgegevens instellen](inventory-how-setup-general.md)
@@ -1772,6 +1775,7 @@
 ### [Gebruikersinstellingen en voorkeuren beheren](admin-manage-user-settings-preferences.md)
 ### [Printers instellen](ui-specify-printer-selection-reports.md)
 ### [Gegevensvertrouwelijkheid classificeren](admin-classifying-data-sensitivity.md)
+### [Status van privacyverklaringen](privacy-notices-status.md)
 ### [Reageren op aanvragen over persoonlijke gegevens](admin-responding-to-requests-about-personal-data.md)
 ### [Nieuwe bedrijven maken](about-new-company.md)
 ### [Wijzigingen logbestand](across-log-changes.md)

@@ -10,28 +10,28 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512372"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129751"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën
 
-Gebruik rapportageschema's om inzicht te krijgen in de financiële gegevens die in uw rekeningschema zijn opgeslagen. Met rapportageschema's worden cijfers geanalyseerd in grootboekrekeningen en worden grootboekposten vergeleken met budgetposten voor het grootboek. De resultaten worden weergegeven in grafieken in uw rolcentrum, zoals het Cashflowdiagram, en in rapporten, zoals de Resultatenrekening en de Balans.
+Gebruik rapportageschema's om inzicht te krijgen in de financiële gegevens die in uw rekeningschema zijn opgeslagen. Met rapportageschema's worden cijfers geanalyseerd in grootboekrekeningen en worden grootboekposten vergeleken met budgetposten voor het grootboek. De resultaten worden weergegeven in grafieken en rapporten in uw rolcentrum, zoals het Cashflowdiagram, en de rapporten Resultatenrekening en Balans.
 
 U opent deze twee rapporten, bijvoorbeeld, met de actie **Financiële afschriften** in de rolcentra Bedrijfsmanager en Accountant.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] biedt een aantal voorbeeldrapportageschema's die u direct kunt gebruiken, of u kunt uw eigen rijen en kolommen instellen om de te vergelijken cijfers op te geven. U kunt bijvoorbeeld rapportageschema's maken om winstmarges te berekenen voor dimensies, zoals afdelingen of klantengroepen. U kunt zoveel aangepaste financiële overzichten maken als u wilt.  
+[!INCLUDE[prod_short](includes/prod_short.md)] biedt voorbeeldaccountschema's die u meteen kunt gebruiken. U kunt ook uw eigen rijen en kolommen instellen om de te vergelijken cijfers op te geven. U kunt bijvoorbeeld rapportageschema's maken om winstmarges te berekenen op dimensies zoals afdelingen of klantengroepen. Het aantal op maat gemaakte financiële overzichten dat u kunt maken is onbeperkt.  
 
-Het instellen van rapportageschema's vereist begrip van de financiële gegevens in het rekeningschema. U kunt bijvoorbeeld grootboekposten weergeven als percentages van budgetposten. Hiertoe moeten budgetten worden gemaakt. Zie [Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
+Het instellen van rapportageschema's vereist begrip van de financiële gegevens in het rekeningschema. U kunt bijvoorbeeld grootboekposten weergeven als percentages van budgetposten, maar daarvoor moet u wel budgetten hebben gemaakt. Zie [Grootboekbudgetten maken](finance-how-create-budgets.md) voor meer informatie.
 
 ## <a name="account-schedules"></a>Rapportageschema's
 
-Rapportageschema's worden gebruikt om rekeningen in het rekeningschema op zo'n manier te ordenen dat dit informatie presenteert over die rekeningen. U kunt verschillende indelingen instellen om de informatie te definiëren die u wilt betrekken uit het rekeningschema. Eén van de belangrijkste functies van rapportageschema's is het bieden van een plek voor berekeningen die niet direct in het rekeningschema kunnen worden gemaakt, zoals het maken van subtotalen voor rekeninggroepen die kunnen worden opgenomen in nieuwe totalen en vervolgens kunnen worden gebruikt in andere totalen. Gebruikers kunnen bijvoorbeeld rapportageschema's maken om winstmarges te berekenen op dimensies zoals afdelingen of klantengroepen. Daarnaast kunnen grootboekposten worden en budgetposten van grootboeken worden gefilterd, op bijvoorbeeld nettowijzigingen of debetbedragen.
+Rekeningschema's rangschikken rekeningen uit uw rekeningschema op een manier die het gemakkelijk maakt om gegevens te presenteren. U kunt verschillende indelingen instellen om de informatie te definiëren die u wilt betrekken uit het rekeningschema. In rapportageschema's kunnen berekeningen worden uitgevoerd die niet rechtstreeks in het rekeningschema kunnen worden uitgevoerd. U kunt bijvoorbeeld subtotalen maken voor groepen rekeningen en dat totaal vervolgens opnemen in andere totalen. Een ander voorbeeld is winstmarges te berekenen op dimensies zoals afdelingen of klantengroepen. Daarnaast kunt u grootboekposten en grootboekbudgetposten filteren, op bijvoorbeeld mutatie of debetbedragen.
 
-U kunt ook twee of meer rapportageschema's en kolomindelingen vergelijken met formules. Met dit soort vergelijkingen kunt u:
+U kunt ook twee of meer rapportageschema's en kolomindelingen vergelijken met formules, zodat u de volgende acties kunt ondernemen:
 
 * Aangepaste financiële rapporten maken
 * Zo veel rapportageschema's maken als u nodig hebt, elk met een eigen naam.
@@ -50,28 +50,33 @@ U kunt GB-rekeningcategorieën gebruiken om de indeling te wijzigen van uw finan
 
 U kunt rekeningstelsels gebruiken om de cijfers in grootboekrekeningen te analyseren, of om grootboekposten te vergelijken met grootboekbegrotingsposten. U kunt bijvoorbeeld de grootboekposten weergeven als percentages van de begrotingsposten.
 
-De rapportageschema's in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] zijn de basis van de financiële standaardrapporten, die mogelijk niet overeenkomen met de wensen van uw bedrijf. Als u snel uw eigen financiële rapporten wilt maken, kunt u beginnen met een bestaand rapportageschema te kopiëren. Zie stap 3 hieronder.
+De rapportageschema's in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] zijn de basis van de financiële standaardrapporten, die mogelijk niet overeenkomen met de wensen van uw bedrijf. Als u snel uw eigen financiële rapporten wilt maken, kunt u beginnen met een bestaand rapportageschema te kopiëren, zoals beschreven in stap 3.
 
-Op de pagina **Rapportageschemaoverzicht** bekijkt u een voorbeeld van het financiële rapport dat het rapportageschema definieert. In het volgende is het belangrijk te weten dat wat u instelt als rijen en kolommen van het rapportageschema, alleen kan worden gezien en gevalideerd op de pagina **Rapportageschemaoverzicht**, die u kunt openen vanuit een rapportageschema door de actie **Overzicht** te kiezen. De pagina **Rapportageschema** zelf is alleen een instellingengebied.  
+> [!TIP]
+> Nadat u een rekeningschema hebt gemaakt, kunt u de pagina **Rapportageschemaoverzicht** gebruiken om een voorbeeld te bekijken en het financiële rapport te valideren dat het rekeningschema definieert. Als u de pagina wilt openen, kiest u de actie **Overzicht**.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een rekeningschema te maken.
-3. Of kies de actie **Rapportageschema kopiëren**, vul de twee velden in en kies de knop **OK**.
+3. Als alternatief, als u instellingen uit een bestaand rekeningschema opnieuw wilt gebruiken, kiest u de actie **Rapportageschema kopiëren**.
 4. Vul de vereiste velden in. Selecteer een bestaande indeling in het veld **Std. kolomindeling**. U kunt het later desgewenst wijzigen.
 
-    U gebruikt kolomindelingen om kolommen te definiëren voor verschillende parameters waarmee de financiële gegevens in de rijen worden weergegeven. U kunt bijvoorbeeld een kolomindeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar, met vier kolommen. Zie voor meer informatie [Een kolomindeling bewerken](bi-how-work-account-schedule.md#to-edit-a-column-layout).
+    Kolomindelingen definiëren kolommen voor de parameters waarmee de financiële gegevens in de rijen worden weergegeven. Een kolomindeling kan bijvoorbeeld vier kolommen bevatten waarmee u mutatie en saldo kunt vergelijken voor dezelfde periode dit jaar en vorig jaar. Zie voor meer informatie [Een kolomindeling bewerken](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Kies de actie **Rapportageschema bewerken**.
-6. Maak een rij voor financieel elk element dat u in de lijst wilt weergeven, zoals een regel voor vlottende activa en een andere regel voor vaste activa. Zie voor inspiratie bestaande rapportageschema's in het CRONUS-demonstratiebedrijf.
+6. Afhankelijk van wat u wilt analyseren, kiest u de acties **Grootboekrekeningen invoegen**, **CF-accounts invoegen** en **Kostensoorten invoegen** om een rij te maken voor elk financieel element. U hebt bijvoorbeeld één rij voor vlottende activa en een andere rij voor vaste activa. Zie voor inspiratie de bestaande rapportageschema's in het demonstratiebedrijf CRONUS.
+
+    > [!NOTE]
+    > Het veld **Rijnr.** toont de eerste tien tekens van een identificatie, bijvoorbeeld een rekeningnummer. Als u elementen toevoegt met identifiers die beginnen met dezelfde 10 tekens, krijgt u duplicaten in het veld **Rijnr.** . Indien nodig kunt u de id's handmatig bewerken nadat u de elementen hebt ingevoegd. De volledige identifiers worden weergegeven in het veld **Samentelling**.
+
 7. Kies de actie **Overzicht** om het resulterende financiële rapport te bekijken.
 8. Selecteer op de pagina **Rapportageschemaoverzicht** in het veld **Kolomindelingnaam** een andere kolomindeling om de financiële gegevens door andere parameters te bekijken.
-9. Kies de knop **OK**.
+9. Kies de knop **Ok**.
 
-U hebt nu de basis van het rapportageschema gedefinieerd, de rijen van financiële gegevens die moeten worden weergegeven, en een bestaande kolomindeling om de gegevens in de rijen per verschillende parameters weer te geven. Als de standaardkolomindeling die u in stap 4 hebt geselecteerd niet met uw doel overeenkomt, volgt u de onderstaande procedure.
+U hebt nu de basis van het rapportageschema gedefinieerd, de rijen van financiële gegevens die moeten worden weergegeven, en een bestaande kolomindeling om de gegevens in de rijen per verschillende parameters weer te geven. Als de standaardkolomindeling die u in stap 4 hebt geselecteerd, niet met uw doel overeenkomt, volgt u de onderstaande procedure.
 
 ### <a name="to-edit-a-column-layout"></a>Een kolomindeling bewerken
 
-U gebruikt kolomindelingen om te definiëren welke kolommen u in het resulterende rapport wilt opnemen. U kunt bijvoorbeeld een indeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar. U kunt maximaal 15 kolommen hebben. Dit is bijvoorbeeld handig als u budgetten voor 12 maanden wilt bekijken en een kolom wilt opnemen met het totaal.
+U gebruikt kolomindelingen om te definiëren welke kolommen u in het resulterende rapport wilt opnemen. U kunt bijvoorbeeld een indeling maken om mutatie en saldo te vergelijken voor dezelfde periode dit jaar en vorig jaar. U kunt maximaal 15 kolommen hebben, wat bijvoorbeeld handig is voor het bekijken van budgetten voor 12 maanden met een kolom die het totaal laat zien.
 
 > [!NOTE]
 > Een afgedrukte/opgeslagen of voorbeeldversie van een rapportageschema kan maximaal vijf kolommen weergegeven. Als het rapportageschema alleen voor analyse op de pagina **Rapportageschemaoverzicht** is bedoeld, kunt u zoveel kolommen maken als u wilt.
@@ -99,7 +104,7 @@ U wilt mogelijk soms een kolom opnemen in een rekeningschema om percentages van 
 
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Rekeningstelsels met overzichten instellen
 
-U kunt een rekeningstelsel gebruiken om een rekeningoverzicht te maken waarin grootboekcijfers en begrotingscijfers van grootboeken worden vergeleken.
+U kunt een rekeningstelsel gebruiken om een rekeningoverzicht te maken waarin grootboekcijfers en grootboekbudgetcijfers worden vergeleken.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 3 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een rapportageschema op de pagina **Rapportageschema's**.  
@@ -110,8 +115,8 @@ U kunt een rekeningstelsel gebruiken om een rekeningoverzicht te maken waarin gr
 
     De rekeningen worden nu opgenomen in het rapportageschema. Indien gewenst kunt u ook de kolomindeling wijzigen.  
 7. Kies de actie **Overzicht**.  
-8. Stel op de pagina **Rapportageschemaoverzicht** op het sneltabblad **Dimensiefilters** het budgetfilter in op de gewenste filternaam.  
-9. Kies de knop **Ok**.  
+8. Stel op de pagina **Rapportageschemaoverzicht** op het sneltabblad **Dimensiefilters** het budgetfilter in op de filternaam die u wilt gebruiken.  
+9. Kies de knop **OK**.  
 
 Nu kunt u het budgetoverzicht kopiëren en in een spreadsheet plakken.  
 
@@ -119,9 +124,9 @@ Nu kunt u het budgetoverzicht kopiëren en in een spreadsheet plakken.
 
 Uw rapportageschema kan de resultaten vergelijken van verschillende boekingsperioden, zoals deze maand vergeleken met dezelfde maand vorig jaar. Open hiervoor de pagina **Kolomindeling** en personaliseer deze door het veld **Periodevergelijkingsformule** als een kolom toe te voegen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie. U kunt dat veld vervolgens instellen op een periodeformule.  
 
-Een boekhoudperiode hoeft niet gelijk te zijn aan een agendaperiode, maar ieder boekjaar moet hetzelfde aantal boekhoudperioden hebben, zelfs wanneer de boekhoudperioden onderling in lengte verschillen.  
+Een boekhoudperiode hoeft niet overeen te komen met de kalender. Elk boekjaar moet echter hetzelfde aantal boekhoudperioden hebben, ook al kan elke periode een andere lengte hebben.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de periodeformule om het bedrag uit de vergelijkingsperiode te berekenen in verhouding tot de periode die wordt voorgesteld door het datumfilter in de rapportaanvraag. De vergelijkingsperiode is gebaseerd op de begindatum van het datumfilter. Dit zijn de afkortingen voor periodenpecificaties:
+[!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de periodeformule om het bedrag uit de vergelijkingsperiode te berekenen in verhouding tot de periode die wordt voorgesteld door het datumfilter in het rapport. De vergelijkingsperiode is gebaseerd op de begindatum van het datumfilter. Dit zijn de afkortingen voor periodenpecificaties:
 
 | Afkorting | Omschrijving                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -150,7 +155,7 @@ Als u de berekening volgens normale tijdsperioden wilt uitvoeren, moet u in plaa
 Zie voor meer informatie over datumformules [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md).  
 
 ## <a name="import-or-export-account-schedules"></a>Rekeningschema's importeren of exporteren
-U kunt rekeningschema's importeren en exporteren als RapidStart-configuratiepakketten. Dit is bijvoorbeeld handig om te delen met andere bedrijven. Het pakket wordt gemaakt vanuit een .rapidstart-bestand, dat de pakketinhoud in een gecomprimeerde indeling aanlevert.
+U kunt rekeningschema's importeren en exporteren als RapidStart-configuratiepakketten. Configuratiepakketten zijn bijvoorbeeld handig om te delen met andere bedrijven. Het pakket wordt gemaakt vanuit een .rapidstart-bestand, dat de pakketinhoud in een gecomprimeerde indeling aanlevert.
 
 ### <a name="to-import-and-export-account-schedules"></a>Rekeningschema's importeren en exporteren
 1. Kies het pictogram ![Lampje dat de functie Vertel me 4 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.

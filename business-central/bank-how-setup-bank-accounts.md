@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0feba901ac569c0cbd714f8ea3d3c271c82425bd
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078790"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144152"
 ---
 # <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
 
@@ -88,7 +88,7 @@ Hoe beter uw toewijzingsgegevens in het betalingsreconciliatiedagboek hoe meer t
 
 ## <a name="to-set-up-bank-accounts"></a>Bankrekeningen instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Bankrekeningen** de actie **Nieuw**.
 3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -169,7 +169,7 @@ Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een b
 
 De velden met betrekking tot de import en export van bankfeeds en -bestanden bevinden zich op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart**. Zie [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md) en [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md) voor meer informatie.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me 2 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een bankrekening waarvoor u bankbestanden exporteert of importeert.
 3. Vul indien nodig de velden op het sneltabblad **Transfer** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -222,14 +222,7 @@ De afbeelding toont de route van uitgaande betalingen:
 
 Velden op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart leverancier** zijn gerelateerd om bankfeeds en -bestanden te exporteren. Zie [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md) en [Betalingen exporteren naar een bankbestand](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file) voor meer informatie.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
-2. Open de kaart voor een leverancier naar wiens bankrekening u betalingsbankbestanden exporteert.
-3. Kies de actie **Bankrekeningen**.
-4. Kies vanuit de **lijst Bankrekeningen van leverancier** de relevante bankrekening of voeg een nieuwe bankrekening toe.  
-5. Vul indien nodig de velden op de pagina **Bankrekeningkaart leverancier** op het sneltabblad **Transfer** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!WARNING]
-> Sommige velden in de bankrekening van de leverancier kunnen gevoelige gegevens bevatten, zoals de velden **Bankfiliaalnr.**, **Bankrekeningnr.**, **SWIFT-code** en **IBAN-code**. Zie voor meer informatie [Vertrouwelijke velden bewaken](across-log-changes.md#monitoring-sensitive-fields).
+[!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 ## <a name="changing-your-bank-account"></a>Uw bankrekening wijzigen
 
@@ -257,6 +250,5 @@ Om een beknopter beeld te krijgen van uw cashrekeningen in financiële rapportag
 [Betalingsreconciliatie](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Het grootboek en COA begrijpen](finance-general-ledger.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

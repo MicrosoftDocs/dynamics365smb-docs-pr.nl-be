@@ -10,14 +10,15 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 85445267dac39103ed9851604182f09cc9819ea0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 25827943e88489891798ee145e90cab25b713da6
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522680"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144251"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Speciale inkoopprijzen en kortingen registreren
+
 > [!NOTE]
 > In releasewave 2 van 2020 hebben we gestroomlijnde processen uitgebracht voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent en die versie gebruikt, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd in **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -31,23 +32,24 @@ U kunt twee soorten inkoopkortingen instellen en gebruiken:
 
 | Type korting | Omschrijving |
 | --- | --- |
-| **Inkoopregelkorting** |Een kortingsbedrag dat op inkoopregels wordt ingevoegd als een bepaalde combinatie bestaat van leverancier, artikel, minimumaantal, maateenheid of begin- en einddatum. Dit werkt op dezelfde manier als bij inkoopprijzen. |
+| **Inkoopregelkorting** |Een kortingsbedrag dat op inkoopregels wordt ingevoegd als een bepaalde combinatie bestaat van leverancier, artikel, minimumaantal, maateenheid of begin- en einddatum. Dit type werkt op dezelfde manier als bij inkoopprijzen. |
 | **Factuurkorting** |Een percentagekorting die van het documenttotaal wordt afgetrokken als het waardebedrag van alle regels in een inkoopdocument een bepaald minimum overschrijdt. |
 
 Omdat inkoopregelkortingen en inkoopprijzen gebaseerd zijn op een combinatie van artikel en leverancier, kunt u deze configuratie ook invoeren vanuit de artikelkaart, waarop de regels en waarden zijn gedefinieerd. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Een speciale inkoopprijs voor een leverancier instellen
 
-#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)  
+#### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience)
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende leverancierskaart en kies vervolgens de actie **Prijzen**.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vul een regel in voor elke combinatie waarvoor de leverancier u een inkoopregelkorting verleent.
 
-#### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)  
+#### <a name="new-experience"></a>[Nieuwe ervaring](#tab/new-experience)
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
-2. Kies de leverancier en kies vervolgens de actie **Verkoopprijslijsten**. 
+2. Kies de leverancier en kies vervolgens de actie **Verkoopprijslijsten**.
 3. Kies **Nieuw** om een nieuwe inkoopprijslijst te maken.
 4. Vul indien nodig de velden in op de sneltabbladen **Algemeen** en **Btw**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 5. Voer een van de volgende handelingen uit om items aan de lijst toe te voegen:
@@ -59,14 +61,16 @@ Omdat inkoopregelkortingen en inkoopprijzen gebaseerd zijn op een combinatie van
 ---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Een speciale regelkorting voor een leverancier instellen
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende leverancierskaart en kies vervolgens de actie **Regelkortingen**.
 
-    Het veld **Soort inkoop** wordt vooraf ingevuld met **Leverancier** en het veld **Inkoopcode** wordt vooraf ingevuld met het leveranciersnummer.
+   Het veld **Leveranciersnr.** wordt vooraf ingevuld met het leveranciersnummer.
 3. Vul de velden indien nodig op de regel in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vul een regel in voor elke combinatie waarvoor de leverancier u een inkoopregelkorting verleent.
 
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Een factuurkorting voor een leverancier instellen
+
 Wanneer uw leveranciers u hebben geïnformeerd welke factuurkortingen ze verlenen, voert u de factuurkortingscodes op de leverancierskaarten in en stelt u de condities voor elke code in.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
@@ -74,7 +78,7 @@ Wanneer uw leveranciers u hebben geïnformeerd welke factuurkortingen ze verlene
 3. Selecteer in het veld **Factuurkortingscode** een code voor de desbetreffende factuurkortingscondities om te gebruiken voor het berekenen van factuurkortingen voor de leverancier.
 
     > [!NOTE]  
-    >   Factuurkortingscodes worden weergegeven door bestaande leverancierskaarten. Zo kunt u snel factuurkortingscondities aan leveranciers toewijzen door de naam van een andere leverancier te kiezen die dezelfde condities heeft.
+    > Factuurkortingscodes worden weergegeven door bestaande leverancierskaarten. Zo kunt u snel factuurkortingscondities aan leveranciers toewijzen door de naam van een andere leverancier te kiezen die dezelfde condities heeft.
 
     Ga door met het instellen van de condities voor de nieuwe inkoopfactuurkorting.
 4. Kies op de pagina **Leverancierskaart** de actie **Factuurkortingen**. De pagina **Inkoopfactuurkortingen** verschijnt.
@@ -83,9 +87,10 @@ Wanneer uw leveranciers u hebben geïnformeerd welke factuurkortingen ze verlene
 7. Voer in het veld **Korting %** de factuurkorting in als percentage van het factuurbedrag.
 8. Herhaal stap 5 tot en met 7 voor elke valuta waarvoor de leverancier een andere factuurkorting ontvangt.
 
-De factuurkorting is nu ingesteld en toegewezen aan de leverancier in kwestie. Wanneer u de leveranciercode selecteert in het veld **Factuurkortingscode** op andere leverancierskaarten, wordt dezelfde factuurkorting toegewezen aan die leverancier.
+De factuurkorting is nu ingesteld en toegewezen aan de leverancier in kwestie. Wanneer u de leverancierscode selecteert in het veld **Factuurkortingscode** op andere leverancierskaarten, wordt dezelfde factuurkorting toegewezen aan die leveranciers.
 
-## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Een methode voor het boeken van inkoopkortingen kiezen  
+## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Een methode voor het boeken van inkoopkortingen kiezen
+
 Wanneer u een inkoopfactuur boekt die een of meer kortingen bevat, kunt u de kortingsbedragen op twee manieren boeken. U kunt kortingen apart boeken of kortingen van factuurbedragen aftrekken.  
 
 Voordat u dit kunt doen, moet u de benodigde rekeningen voor het boeken van kortingsbedragen in het rekeningschema al hebben ingesteld. U moet ook controleren of u de juiste rekeningnummers hebt ingevoerd in de boekingsgroepinstellingen in de velden **Inkoopregelkortingsrekening** en **Inkoopfactuurkortingsrekening**.
@@ -101,28 +106,30 @@ Voordat u dit kunt doen, moet u de benodigde rekeningen voor het boeken van kort
 |**Geen kortingen**|Ervan afgetrokken|Ervan afgetrokken|  
 
 ## <a name="purchase-invoice-discounts-and-service-charges"></a>Inkoopfactuurkortingen en administratiekosten
+
 Als u vaste afspraken met leveranciers hebt over kwantumkortingen, kunt u voor deze leveranciers de kortingsvoorwaarden invoeren. In dat geval wordt de korting berekend wanneer u een inkoopfactuur invult.  
 
- Voordat u factuurkortingen voor inkoop kunt gebruiken, moet u aangeven van welke leveranciers u de kortingen ontvangt.  
+Voordat u factuurkortingen voor inkoop kunt gebruiken, moet u aangeven van welke leveranciers u de kortingen ontvangt.  
 
- U koppelt kortingspercentages aan specifieke factuurbedragen op **Inkoopfactuurkortingen**-pagina's. U kunt een willekeurig aantal percentages invoeren op elke pagina. U kunt voor elke leverancier een pagina hebben, of u kunt verschillende leveranciers aan dezelfde pagina koppelen.  
+U koppelt kortingspercentages aan specifieke factuurbedragen op **Inkoopfactuurkortingen**-pagina's. U kunt een willekeurig aantal percentages invoeren op elke pagina. U kunt voor elke leverancier een pagina hebben, of u kunt verschillende leveranciers aan dezelfde pagina koppelen.  
 
- Naast een kortingspercentage kunt u een bedrag voor administratiekosten aan een specifiek factuurbedrag koppelen.  
+Naast een kortingspercentage kunt u een bedrag voor administratiekosten aan een specifiek factuurbedrag koppelen.  
 
- U kunt de condities voor de factuurkorting definiëren in de lokale valuta voor binnenlandse leveranciers en in vreemde valuta's voor buitenlandse leveranciers.  
+U kunt de condities voor de factuurkorting definiëren in de lokale valuta voor binnenlandse leveranciers en in vreemde valuta's voor buitenlandse leveranciers.  
 
- U kunt aangeven dat de factuurkortingen automatisch door [!INCLUDE[prod_short](includes/prod_short.md)] moeten worden berekend voor offertes, raamcontracten, orders, facturen of creditnota's.  
+U kunt aangeven dat de factuurkortingen automatisch door [!INCLUDE[prod_short](includes/prod_short.md)] moeten worden berekend voor offertes, raamcontracten, orders, facturen of creditnota's.  
 
 > [!TIP]  
->  Voordat u deze gegevens invoert, kunt u het beste een ontwerp maken van de kortingsstructuur die u wilt gebruiken. Zo ziet u vrijwel meteen welke leveranciers aan dezelfde factuurkortingspagina kunnen worden gekoppeld. Hoe minder pagina's u hebt ingesteld, des te sneller kunt u de basisgegevens invoeren.
+> Voordat u deze gegevens invoert, kunt u het beste een ontwerp maken van de kortingsstructuur die u wilt gebruiken. Zo ziet u vrijwel meteen welke leveranciers aan dezelfde factuurkortingspagina kunnen worden gekoppeld. Hoe minder pagina's u hebt ingesteld, des te sneller kunt u de basisgegevens invoeren.
 
 ## <a name="best-price-calculation"></a>Berekening van beste prijs
+
 Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[prod_short](includes/prod_short.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen.
 
-De beste prijs is de laagst toegestane prijs met de hoogst toegestane regelkorting op een bepaalde datum. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt dit automatisch berekend wanneer de eenheidsprijs en het regelkortingspercentage voor artikelen op nieuwe document- en dagboekregels worden ingevoegd.
+De beste prijs is de laagst toegestane prijs met de hoogst toegestane regelkorting op een bepaalde datum. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt deze prijs automatisch berekend wanneer de eenheidsprijs en het regelkortingspercentage voor artikelen op nieuwe document- en dagboekregels worden ingevoegd.
 
 > [!NOTE]  
->   Hierna wordt beschreven hoe de beste prijs voor verkoop wordt berekend. De berekening is hetzelfde voor inkopen.
+> Hierna wordt beschreven hoe de beste prijs voor verkoop wordt berekend. De berekening is hetzelfde voor inkopen.
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de combinatie van de factuurklant en het artikel gecontroleerd en vervolgens worden de eenheidsprijs en het regelkortingspercentage die van toepassing zijn berekend op basis van de volgende criteria:
 
@@ -138,12 +145,12 @@ De beste prijs is de laagst toegestane prijs met de hoogst toegestane regelkorti
 
 Als er geen speciale prijs kan worden berekend voor het artikel op de regel, worden de laatste directe kosten of de eenheidsprijs van de artikelkaart ingevoegd.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/set-up-prices-discounts-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
+
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

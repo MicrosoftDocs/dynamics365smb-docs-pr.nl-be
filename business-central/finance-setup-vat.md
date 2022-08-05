@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740323"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130131"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berekeningen en boekingsmethoden voor btw instellen
 
@@ -171,6 +171,21 @@ U kunt een btw-clausule wijzigen of verwijderen, en uw wijzigingen worden in een
 2. Kies de actie **Vertalingen**.  
 3. Kies in het veld **Taalcode** de taal waarin u vertaalt.  
 4. Voer de vertalingen van de omschrijvingen in de velden **Omschrijving** en **Omschrijving 2** in. Deze tekst wordt weergegeven in de vertaalde btw-rapportdocumenten.  
+
+### <a name="to-specify-extended-text-for-vat-clauses"></a>Uitgebreide tekst voor btw-clausules specificeren
+
+> [!NOTE]  
+> Als uw land of regio langere tekst voor de btw-clausules vereist dan de standaardversie ondersteunt, kunt u de langere tekst voor de btw-clausules opgeven als *uitgebreide tekst* zodat deze wordt afgedrukt op de verkoop- en inkooprapporten.  
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me 11 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-clausules** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies de actie **Uitgebreide teksten**.  
+3. Vul de velden **Code** en **Omschrijving** in.  
+3. Kies de actie **Nieuw**.  
+4. Selecteer desgewenst het veld **Alle taalcodes** of geef de relevante taal op in het veld **Taalcode** als u taalcodes gebruikt.  
+5. Vul de velden **Begindatum** en **Einddatum** in als u een beperking wilt instellen voor de data waarop de tekstuitbreiding kan worden gebruikt.  
+6. Schrijf op de **Tekst**-regels de uitgebreide tekst voor uw btw-clausules.  
+7. Schakel de relevante velden in voor de documentsoorten waarvoor u de uitgebreide tekst wilt afdrukken.  
+8. De pagina sluiten.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Een btw-boekingsinstelling maken om import-btw te verwerken
 

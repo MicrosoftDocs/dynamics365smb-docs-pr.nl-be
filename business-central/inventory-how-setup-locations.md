@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077279"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129690"
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
 
@@ -77,8 +77,7 @@ Als u uw opslaglocaties onder zones wilt structureren, kunt u dat doen op de pag
 U kunt echter ook slechts één zone instellen en uw magazijn indelen op basis van alleen de opslaglocaties. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Standaardafmetingen voor locaties
-
-U stelt standaardafmetingen in voor een locatie op de pagina **Locatiekaart** door **Locatie** te kiezen en vervolgens **Dimensies**. De standaarddimensies van de locatie worden gekopieerd naar journalen en documenten wanneer u de locatie op een regel opgeeft, maar u kunt de dimensie op de regel indien nodig verwijderen of wijzigen. U kunt eisen dat mensen dimensies opgeven voor specifieke locaties voordat ze een item kunnen boeken. U kunt ook locatiedimensiewaarden opnemen in **Prioriteiten voor standaarddimensie** en **Dimensiecombinaties** voor combinaties van prioriteits- en dimensieregels.
+U stelt standaardafmetingen in voor een locatie op de pagina **Locatiekaart** door **Dimensies** te kiezen. Daarna worden de standaarddimensies van de locatie toegewezen aan documenten wanneer u de locatie op een regel kiest. Indien nodig kunt u de dimensie op de regel verwijderen of wijzigen. U kunt in het veld **Waardeboeking** vereisen dat mensen dimensies opgeven voor specifieke locaties voordat ze een post kunnen boeken. Als u wilt dat mensen alleen bepaalde dimensiewaarden kunnen kiezen, kunt u deze opgeven in het veld **Filter op toegestane waarden**. U kunt ook locatiedimensiewaarden opnemen op de pagina **Standaarddimensieprioriteiten** en voor combinaties van prioriteit- en dimensieregels op de pagina **Dimensiecombinaties**.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

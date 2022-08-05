@@ -9,21 +9,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d4d2134945f0beb15853bc9cca227cde74285c9d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 276e80b622bc0dceb5280e7a4a95e7583ac89a8e
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074528"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129708"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
 
-U kunt het proces van het goedkeuren van nieuwe of gewijzigde records, zoals documenten, dagboekregels en klantenkaarten automatiseren door werkstromen te maken met stappen voor de goedkeuringen in kwestie. Voordat u goedkeuringswerkstromen maakt, moet u eerst een fiatteur en een vervangende fiatteur instellen voor elke goedkeuringsgebruiker. U kunt ook limietbedragen instellen voor fiatteurs om te definiëren welke verkoop- en inkooporders zij mogen goedkeuren. U kunt goedkeuringsverzoeken en andere berichten als e-mail of interne notitie verzenden. Voor elke instelling van een goedkeuringsgebruiker kunt u ook instellen wanneer zij berichten ontvangen.
+U kunt het proces van het goedkeuren van nieuwe of gewijzigde records, zoals documenten, dagboekregels en klantenkaarten automatiseren door werkstromen te maken met stappen voor de goedkeuringen in kwestie.
+
+Voordat u goedkeuringswerkstromen maakt, moet u eerst een fiatteur en een vervangende fiatteur instellen voor elke goedkeuringsgebruiker. U kunt ook limietbedragen instellen voor fiatteurs om te definiëren welke verkoop- en inkooporders zij mogen goedkeuren. U kunt goedkeuringsverzoeken en andere berichten als e-mail of interne notitie verzenden. Voor elke instelling van een goedkeuringsgebruiker kunt u ook instellen wanneer zij berichten ontvangen.
 
 > [!NOTE]
 > Naast de werkstroomfunctionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] kunt u Power Automate gebruiken om werkstromen te definiëren voor gebeurtenissen in [!INCLUDE[prod_short](includes/prod_short.md)]. Het zijn twee aparte werkstroomsystemen, maar elke stroomsjabloon die u maakt met Power Automate, wordt toegevoegd aan de lijst met werkstroomsjablonen in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Business Central gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md).  
 
- U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen. Zie [Werkstroom](across-workflow.md) voor meer informatie.  
+U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen. Zie [Werkstroom](across-workflow.md) voor meer informatie.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure
 
@@ -37,7 +39,7 @@ In deze procedure worden de volgende taken beschreven:
 
 ## <a name="story"></a>Scenario
 
-Sean een supergebruiker bij CRONUS. Hij maakt twee goedkeuringsgebruikers. De ene is Alicia, die een inkoopagent vertegenwoordigt. De andere is hijzelf, die de fiatteur van Alicia vertegenwoordigt. Sean kent vervolgens zichzelf onbeperkte rechten voor inkoopgoedkeuring toe en geeft op dat hij berichten ontvangt via interne notities zodra een relevante gebeurtenis plaatsvindt. Tot slot maakt Sean de vereiste goedkeuringswerkstroom als kopie van de bestaande werkstroomsjabloon Goedkeuringswerkstroom inkooporder, laat alle bestaande gebeurtenisvoorwaarden en antwoordopties ongewijzigd en schakelt vervolgens de werkstroom in.  
+Sean een supergebruiker bij CRONUS. Hij maakt twee goedkeuringsgebruikers. De ene is Alicia, die een inkoopagent vertegenwoordigt. De andere is hijzelf, die de fiatteur van Alicia vertegenwoordigt. Sean kent vervolgens zichzelf onbeperkte rechten voor inkoopgoedkeuring toe en geeft op dat hij berichten ontvangt via interne notities zodra een relevante gebeurtenis plaatsvindt. Tot slot maakt Sean de vereiste goedkeuringswerkstroom als kopie van de bestaande werkstroomsjabloon *Goedkeuringswerkstroom inkooporder*, laat alle bestaande gebeurtenisvoorwaarden en antwoordopties ongewijzigd en schakelt vervolgens de werkstroom in.  
 
 Om de goedkeuringswerkstroom te testen, meldt Sean zich eerst bij [!INCLUDE[prod_short](includes/prod_short.md)] aan als Alicia en vraagt hij vervolgens om goedkeuring van een inkooporder. Dan meldt Sean zich aan als zichzelf, ziet de notitie in zijn Rolcentrum, volgt de koppeling naar de goedkeuringsaanvraag voor de inkooporder en keurt de aanvraag goed.  
 
@@ -66,7 +68,7 @@ Wanneer u bent aangemeld als uzelf, stelt u Alicia in als een goedkeuringsgebrui
 
 ### <a name="setting-up-notifications"></a>Meldingen instellen
 
-In deze procedure wordt de gebruiker door een interne notitie geïnformeerd over goed te keuren aanvragen. Goedkeuringsberichten kunnen ook per e-mail plaatsvinden en u kunt een werkstroomreactiestap toevoegen die de afzender op de hoogte stelt wanneer een aanvraag is goedgekeurd of afgewezen. Zie voor meer informatie [Vastleggen wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md).
+In deze procedure wordt de gebruiker door een interne notitie geïnformeerd over goed te keuren aanvragen. Goedkeuringsberichten kunnen ook per e-mail worden verzonden en u kunt een werkstroomreactiestap toevoegen die de afzender op de hoogte stelt wanneer een aanvraag is goedgekeurd of afgewezen. Zie voor meer informatie [Vastleggen wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>Instellen hoe en wanneer u bericht ontvangt
 
@@ -78,7 +80,7 @@ In deze procedure wordt de gebruiker door een interne notitie geïnformeerd over
 
 ## <a name="creating-the-approval-workflow"></a>De goedkeuringswerkstroom maken
 
-Maak de werkstroom voor inkoopordergoedkeuring door de stappen van de werkstroomsjabloon **Goedkeuringswerkstroom inkooporder** te kopiëren. Laat de bestaande werkstroomstappen ongewijzigd en schakel vervolgens de werkstroom in.  
+Maak de werkstroom voor inkoopordergoedkeuring door de stappen van de sjabloon **Goedkeuringswerkstroom inkooporder** te kopiëren. Laat de bestaande werkstroomstappen ongewijzigd en schakel vervolgens de werkstroom in.  
 
 > [!TIP]
 > Voeg desgewenst een werkstroomreactiestap toe om de afzender te informeren wanneer zijn of haar verzoek is goedgekeurd of afgewezen. Zie voor meer informatie [Vastleggen wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md).
@@ -89,18 +91,18 @@ Maak de werkstroom voor inkoopordergoedkeuring door de stappen van de werkstroom
 2. Selecteer op de pagina **Werkstromen** **Acties**, selecteer vervolgens **Nieuw** en kies vervolgens de actie **Nieuwe werkstroom uit sjabloon**.  
 3. Selecteer op de pagina **Werkstroomsjablonen** de werkstroomsjabloon genaamd **Goedkeuringswerkstroom inkooporder**.  
 
-    De pagina **Werkstroom** wordt geopend voor een nieuwe werkstroom die alle gegevens van de geselecteerde sjabloon bevat. Aan de waarde in het veld **Code** wordt *- 01* toegevoegd, om aan te geven dat dit de eerste werkstroom is die is gemaakt vanuit de werkstroomsjabloon **Goedkeuringswerkstroom inkooporder**.  
-4. Schakel in de koptekst van de pagina **Werkstroom** het selectievakje **Ingeschakeld** in.  
+   De pagina **Werkstroom** wordt geopend voor een nieuwe werkstroom die alle gegevens van de geselecteerde sjabloon bevat. Aan de waarde in het veld **Code** wordt *- 01* toegevoegd om aan te geven dat dit de eerste werkstroom is die is gemaakt vanuit de werkstroomsjabloon **Goedkeuringswerkstroom inkooporder**.  
+4. Schakel in de koptekst van de pagina **Werkstroom** het selectievakje **Geactiveerd** in.  
 
 ## <a name="use-the-approval-workflow"></a>De goedkeuringswerkstroom gebruiken
 
-Gebruik de nieuwe werkstroom voor goedkeuring van inkooporders door u eerst aan te melden bij [!INCLUDE[prod_short](includes/prod_short.md)] als Alicia om goedkeuring van een inkooporder aan te vragen. Meld u vervolgens aan als uzelf, bekijk de notitie in het Rolcentrum, volg de koppeling naar de goedkeuringsaanvraag en keur de aanvraag goed.  
+Gebruik de nieuwe werkstroom voor goedkeuring van inkooporders door u eerst als Alicia aan te melden bij [!INCLUDE[prod_short](includes/prod_short.md)] om goedkeuring van een inkooporder aan te vragen. Meld u vervolgens aan als uzelf, bekijk de notitie in het Rolcentrum, volg de koppeling naar de goedkeuringsaanvraag en keur de aanvraag goed.  
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Goedkeuring aanvragen voor een inkooporder als Alicia
 
 1. Meld u aan als Alicia.
 2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling  
-3. Selecteer de regel om inkooporder 106001 te openen.  
+3. Selecteer de regel om *inkooporder 106001* te openen.  
 4. Kies op de pagina **Inkooporder** **Acties**, dan **Goedkeuring aanvragen** en kies vervolgens de actie **Goedkeuringsverzoek verzenden**.  
 
 Zoals u ziet is de waarde in het veld **Status** veranderd in **Wacht op goedkeuring**.  
@@ -113,13 +115,13 @@ Zoals u ziet is de waarde in het veld **Status** veranderd in **Wacht op goedkeu
 
 De waarde in het veld **Status** op de inkooporder van Alicia verandert in **Vrijgegeven**.  
 
-U hebt nu een eenvoudige goedkeuringswerkstroom ingesteld en getest op basis van de eerste twee stappen van de werkstroom Goedkeuringswerkstroom inkooporder. U kunt op eenvoudige wijze deze werkstroom uitbreiden zodat de inkooporder van Alicia automatisch wordt geboekt wanneer Sean deze heeft goedgekeurd. Als u dit wilt doen, moet u de werkstroom Goedkeuringswerkstroom inkooporder inschakelen, waarin het antwoord op een vrijgegeven inkoopfactuur het boeken van deze inkoopfactuur is. Als eerste moet u de gebeurtenisvoorwaarde in de eerste werkstroomstap wijzigen van (inkoop) **Factuur** in **Order**.  
+U hebt nu een eenvoudige goedkeuringswerkstroom ingesteld en getest op basis van de eerste twee stappen van de werkstroom **Goedkeuringswerkstroom inkooporder**. U kunt op eenvoudige wijze deze werkstroom uitbreiden zodat de inkooporder van Alicia automatisch wordt geboekt wanneer Sean deze heeft goedgekeurd. Als u dit wilt doen, moet u de werkstroom **Goedkeuringswerkstroom inkooporder** inschakelen, waarin de reactie op een vrijgegeven inkoopfactuur het boeken van deze inkoopfactuur is. Als eerste moet u de gebeurtenisvoorwaarde in de eerste werkstroomstap wijzigen van (inkoop) **Factuur** in **Order**.  
 
-De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] bevat een aantal werkstroomsjablonen voor scenario's die worden ondersteund door de toepassingscode. De meeste hiervan zijn voor goedkeuringswerkstromen.  
+De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] bevat veel werkstroomsjablonen voor scenario's die worden ondersteund door de toepassingscode. De meeste van deze sjablonen zijn voor goedkeuringswerkstromen.  
 
 U definieert variaties van werkstromen door velden op werkstroomregels in te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
-Als een bedrijfsscenario een werkstroomgebeurtenis of -reactie vereist die niet wordt ondersteund, moet een Microsoft-partner ze implementeren door middel van code of u kunt een werkstroom instellen met behulp van Power Automate. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md) of [Evenementen in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in de ontwikkelaarshelp, respectievelijk.
+[!INCLUDE[workflow](includes/workflow.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/use-approval-workflows/)
 

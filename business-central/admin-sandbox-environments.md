@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 1171195822d45cd38393e30947ec50539f11aae4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076681"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130186"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandboxomgevingen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -43,7 +43,7 @@ De sandboxomgeving is onder andere nuttig omdat deze een aantal handige functies
 
 ## <a name="advanced-user-experience"></a>Geavanceerde gebruikerservaring
 
-Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen.":::    
+Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen."::: .  
 
 Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.yml#how-do-i-find-a-reselling-partner) voor meer informatie.  
 
@@ -75,7 +75,7 @@ Zie [Use Designer](/dynamics365/business-central/dev-itpro/developer/devenv-incl
 ## <a name="see-also"></a>Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)]-proefversies en -abonnementen]((/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]-proefversies en -abonnementen](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 [Omgevingen beheren in het Business Central-beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Productie- en sandbox-omgevingen](/dynamics365/business-central/dev-itpro/administration/environment-types)  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077383"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130239"
 ---
 # <a name="use-workflows"></a>Werkstromen gebruiken
 
@@ -52,21 +52,21 @@ De werkstroom wordt echter pas goedgekeurd als alle aanvragen zijn goedgekeurd d
 > [!NOTE]  
 > Het is niet mogelijk om een werkstroom te maken met meerdere fiatteurs en te verwachten dat de hele werkstroom wordt goedgekeurd nadat de eerste aanvraag is goedgekeurd. Alle aanvragen moeten worden goedgekeurd voordat de werkstroom kan worden goedgekeurd.
 
-U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Het is ook mogelijk om dezelfde werkstroom meerdere keren aan te maken. Elke werkstroom geactiveerd door een gebeurtenis met verschillende filters. Dit is handig als een goedkeuringsverzoek in de ene afdeling moet worden goedgekeurd door één fiatteur, terwijl goedkeuringsverzoeken in andere afdelingen door een andere fiatteur moeten worden goedgekeurd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.  
+U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Het is ook mogelijk om dezelfde werkstroom meerdere keren te maken. Elke werkstroom kan worden geactiveerd door een gebeurtenis met verschillende filters. Dit is handig als een goedkeuringsverzoek in de ene afdeling moet worden goedgekeurd door één fiatteur, terwijl goedkeuringsverzoeken in andere afdelingen door een andere fiatteur moeten worden goedgekeurd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.  
 
- Voordat u kunt beginnen met werkstromen gebruiken, moet u de werkstroomgebruikers instellen, werkstromen maken, mogelijk de code aanpassen en opgeven hoe gebruikers berichten ontvangen. Zie voor meer informatie [Werkstromen instellen](across-set-up-workflows.md).  
+Voordat u kunt beginnen met werkstromen gebruiken, moet u de werkstroomgebruikers instellen, werkstromen maken, mogelijk de code aanpassen en opgeven hoe gebruikers berichten ontvangen. Zie voor meer informatie [Werkstromen instellen](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > Veelvoorkomende werkstroomstappen gaan over gebruikers die goedkeuring aanvragen voor taken, en fiatteurs die goedkeuringsaanvragen accepteren of afwijzen. Daarom verwijzen veel onderwerpen over het gebruik van werkstromen naar goedkeuringen.  
 
- In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.  
+ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.  
 
-|**Als u dit wilt doen**|**Onderwerp**|  
+|**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
 |Stel in dat een werkstroom start wanneer de eerste invoerpuntgebeurtenis plaatsvindt.|[Werkstromen inschakelen](across-how-to-enable-workflows.md)|  
 |Vraag goedkeuring van een taak aan, als fiatteur, accepteer, weiger of delegeer goedkeuringen en verzend of bekijk goedkeuringsberichten.|[Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md)|  
 |Maak werkstroomstappen die voorkomen dat een bepaald recordtype wordt gebruikt voordat een bepaalde gebeurtenis plaatsvindt, bijvoorbeeld de goedkeuring van de record.|[Gebruik van een record beperken en toestaan](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Geef instanties van werkstroomstappen met de status Voltooid weer.|[Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md)|  
+|Geef instanties van werkstroomstappen met de status **Voltooid** weer.|[Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md)|  
 |Verwijder een werkstroom als u zeker weet dat u die niet meer gebruikt.|[Werkstromen verwijderen](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-workflows/)
