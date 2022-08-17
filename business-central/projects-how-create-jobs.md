@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074724"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227485"
 ---
 # <a name="create-jobs"></a>Projecten maken
 
@@ -43,7 +43,15 @@ U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplannin
 3. Als u het project wilt opgeven met informatie over andere projecten, kiest u de actie **Project kopiëren**, vult u de benodigde velden in en kiest u de knop **OK**.
 
 > [!NOTE]  
->   Als u urenstaten in uw project gebruikt, moet u ook een verantwoordelijke aanwijzen. Deze persoon kan urenstaten goedkeuren voor de werknemertaken die aan het project zijn gekoppeld. Zie [Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
+> Als u urenstaten in uw project gebruikt, moet u ook een verantwoordelijke aanwijzen. Deze persoon kan urenstaten goedkeuren voor de werknemertaken die aan het project zijn gekoppeld. Zie [Urenstaten instellen](projects-how-setup-time-sheets.md) voor meer informatie.
+
+Markeer optioneel acties op het project als geblokkeerd met behulp van het veld **Geblokkeerd**. In de volgende tabel wordt het effect van opties op dit veld beschreven.
+
+|Optie  |Omschrijving  |
+|---------|---------|
+|Leeg |Alle acties zijn toegestaan.|
+|Boeking    |U kunt wel met planningsregels werken, maar het project kan niet worden geboekt. Het boeken van projectgebruik of -omzet is niet mogelijk.|
+|Alle  |Alle acties zijn geblokkeerd.|
 
 ## <a name="to-create-tasks-for-a-job"></a>Taken maken voor een project
 

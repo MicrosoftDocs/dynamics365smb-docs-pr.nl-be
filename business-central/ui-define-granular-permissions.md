@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 05/09/2022
+ms.date: 07/27/2022
 ms.author: edupont
-ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729854"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227512"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Machtigingen toewijzen aan gebruikers en groepen
 
@@ -82,6 +82,10 @@ Als u snel een nieuwe gebruikersgroep wilt definiëren, kopieert u alle machtigi
 3. Voer in het veld **Nieuwe gebruikersgroepcode** een naam voor de groep in en kies vervolgens de knop **OK**.
 
 De nieuwe gebruikersgroep wordt toegevoegd aan de pagina **Gebruikersgroepen**. Voeg gebruikers toe. Zie voor meer informatie het gedeelte [Gebruikers toevoegen aan een gebruikersgroep](#to-add-users-to-a-user-group).  
+
+> [!IMPORTANT]
+> U krijgt een validatiefout als u probeert een gebruikersgroep aan de gebruiker toe te wijzen die verwijst naar een machtigingenset die is gedefinieerd in een niet-geïnstalleerde extensie. Dit komt doordat de app-ID van de extensie wordt gevalideerd wanneer ernaar wordt verwezen. Als u die gebruikersgroep aan een gebruiker wilt toewijzen, kunt u de extensie opnieuw installeren, de verwijzing naar de niet-geïnstalleerde extensie uit de machtigingenset verwijderen of die machtigingenset uit de gebruikersgroep verwijderen.
+
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Machtigingssets toewijzen aan gebruikersgroepen
 

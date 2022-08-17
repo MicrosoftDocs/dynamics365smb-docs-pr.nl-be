@@ -1308,6 +1308,7 @@
 ##### [Rapport 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Rapport 349 maken](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [340-rapporten instellen voor kleine bedrijven](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
+##### [SII instellen voor btw-rapportage](LocalFunctionality/Spain/sii-setup.md)
 ##### [Sjablonen maken voor Telematische btw-aangiften in tekstbestandsindeling](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Sjablonen maken voor Telematische btw-aangiften in XML-bestandsindeling](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [BTW-aangiften exporteren in XML-indeling](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
@@ -1328,7 +1329,6 @@
 ##### [Tegoeden-Cartera-module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Betalingen-Cartera-module](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Factuur- en creditnotatypen in verkoop- en inkoopdocumenten](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
-##### [SII instellen voor btw-rapportage](LocalFunctionality/Spain/sii-setup.md)
 #### Hoofdfinanciën
 ##### [Resultatenrekeningsaldi instellen en afsluiten](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Rekeningschema's laten inspringen en valideren](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
