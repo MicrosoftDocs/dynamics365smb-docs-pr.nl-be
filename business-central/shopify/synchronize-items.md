@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c7aea0d0b3d9a8902e704a2d390d6a244e8cbbef
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808971"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317312"
 ---
 # <a name="synchronize-items-and-inventory"></a>Artikelen en voorraad synchroniseren
 
@@ -89,6 +89,8 @@ Met de volgende instellingen kunt u het proces van het exporteren van artikelen 
 |**Voorraad getraceerd**|Kies hoe het systeem het veld **Voorraad bijhouden** moet vullen voor producten die worden geëxporteerd naar Shopify. U kunt de beschikbaarheidsinformatie bijwerken vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] voor producten in Shopify waarvan voorraad traceren is ingeschakeld. Zie [Voorraad](synchronize-items.md#sync-inventory-to-shopify) voor meer informatie.|
 |**Standaardvoorraadbeleid**|Kies *Afwijzen* om negatieve voorraad van de Shopify-kant te voorkomen. |
 |**Kan Shopify-producten bijwerken**|Definieer of [!INCLUDE[prod_short](../includes/prod_short.md)] alleen artikelen kan maken of ook artikelen kan bijwerken. Selecteer deze optie als u na de eerste synchronisatie, geactiveerd door de actie **Artikel toevoegen**, producten handmatig wilt bijwerken met de actie **Product synchroniseren** of via de taakwachtrij voor terugkerende updates. Vergeet niet **Naar Shopify** te selecteren in het veld **Artikel synchroniseren**.|
+|**Klantensjablooncode**|Kies de standaardsjabloon die moet worden gebruikt tijdens de prijsberekening. Zie [Belasting instellen](setup-taxes.md) voor meer informatie.|
+
 
 ### <a name="fields-mapping-overview"></a>Overzicht van veldtoewijzing
 
@@ -100,7 +102,7 @@ Met de volgende instellingen kunt u het proces van het exporteren van artikelen 
 |SEO-paginatitel|Waarde herstellen: leeg, zie [Adhoc updates van Shopify-producten](synchronize-items.md#ad-hock-updates-of-shopify-products). |Niet gebruikt.|
 |SEO-metabeschrijving|Waarde herstellen: leeg, zie [Adhoc updates van Shopify-producten](synchronize-items.md#ad-hock-updates-of-shopify-products). |Niet gebruikt.|
 |Media|**Afbeelding**, zie voor meer informatie [Artikelafbeeldingen synchroniseren](synchronize-items.md#sync-item-images)|**Afbeelding**|
-|Prijs|De berekening van de eindklantprijs omvat de artikelprijsgroep, artikelkortingsgroep, valutacode en klantsjablooncode. |Niet gebruikt.|
+|Prijs|De berekening van de eindklantprijs omvat de artikelprijsgroep, artikelkortingsgroep, valutacode en klantsjablooncode. |**Eenheidsprijs**|
 |Prijs vergelijken|De berekening van de prijs zonder korting omvat de artikelprijsgroep, artikelkortingsgroep, valutacode en klantsjablooncode. |Niet gebruikt.|
 |Kosten per artikel|**Kostprijs**|**Kostprijs**|
 |SKU|Zie **SKU-toewijzing** in [Exporteren naar Shopify](synchronize-items.md#export-items-to-shopify)| Zie [Hoe SKU en barcode, gedefinieerd in een Shopify-product, van invloed zijn op het toewijzen en maken van artikelen en varianten](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
@@ -111,7 +113,7 @@ Met de volgende instellingen kunt u het proces van het exporteren van artikelen 
 |Leverancier|**Naam** van leverancier uit **Leveranciersnr.** |**Leveranciersnr.** Toewijzing op naam.|
 |Gewicht|**Brutogewicht**.|Niet gebruikt.|
 |Belastbaar|Vaste waarde: Ingeschakeld.|Niet gebruikt.|
-|Belastingcodes|**Belastinggroepcode**. Alleen relevant voor omzetbelasting. Zie [belasting](synchronize-orders.md#tax-remarks) voor meer informatie. |Niet gebruikt.|
+|Belastingcodes|**Belastinggroepcode**. Alleen relevant voor omzetbelasting. Zie [Belasting instellen](setup-taxes.md) voor meer informatie. |Niet gebruikt.|
 
 ### <a name="tags"></a>Labels
 
@@ -197,7 +199,7 @@ Prijzen kunnen worden geëxporteerd voor gesynchroniseerde artikelen op de hiero
 
 ### <a name="price-calculation-remarks"></a>Opmerkingen over prijsberekening
 
-* Voor prijsberekening is het belangrijk om een waarde in het veld **Standaardklantensjabloon** te hebben. [!INCLUDE[prod_short](../includes/prod_short.md)] gebruikt de waarde van het veld **Btw-bedrijfsgroep** om de prijs inclusief btw te berekenen. Misschien wilt u een klantprijsgroep maken waarin u het veld **Prijs inclusief btw** selecteert en de relevante waarde opgeeft in het veld **Btw-bedr.-boekingsgr. (Prijs)**.
+* Voor prijsberekening is het belangrijk om een waarde in het veld **Standaardklantensjabloon** te hebben. Zie [Belasting instellen](setup-taxes.md) voor meer informatie.
 * Voer een **Valutacode** in als uw online winkel een andere valuta gebruikt dan LV. Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDE[prod_short](../includes/prod_short.md)], laat u het veld leeg.
 * Bij het bepalen van een prijs gebruikt [!INCLUDE[prod_short](../includes/prod_short.md)] de 'Laagste prijs'-logica. Dit betekent dat als de eenheidsprijs die is gedefinieerd op de artikelkaart, lager is dan wat is gedefinieerd in de prijsgroep, de eenheidsprijs van de artikelkaart wordt gebruikt.
 

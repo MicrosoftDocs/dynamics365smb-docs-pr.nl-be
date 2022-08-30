@@ -7,18 +7,20 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 0f8c8bf1f9f9c56f1790bf8fd6727eab6977ad3c
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655396"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317369"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Overschakelen naar een ander bedrijf of een andere omgeving
 
 [!INCLUDE [prod_short](includes/prod_short.md)] is beschikbaar in veel verschillende landen en ondersteunt veel verschillende soorten organisaties. Uw organisatie zou [!INCLUDE [prod_short](includes/prod_short.md)] kunnen instellen, zodat u moet weten wat de begrippen *bedrijf* en *omgeving* inhouden.  
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Zie voor meer informatie [Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)]
+
+Zie [Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md) voor meer informatie.  
 
 > [!TIP]
 > Als u vaak wisselt tussen bedrijven of met [!INCLUDE[prod_short](includes/prod_short.md)] werkt vanuit een andere app, zoals Microsoft Teams, kan het gemakkelijk zijn om uit het oog te verliezen waar u zich bevindt. Om u te helpen dit bij te houden kunt u een badge toevoegen met de bedrijfsnaam, zodat u snel kunt controleren of u op de juiste plaats bent. Zie voor meer informatie [Een bedrijfsbadge weergeven voor snelle toegang tot bedrijfsgegevens](ui-change-basic-settings.md#badge).
@@ -32,8 +34,11 @@ Afhankelijk van uw browser kunt u de verschillende bedrijven ook vastzetten in u
 Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], zijn de omgevingen waartoe u toegang hebt, beschikbaar op Office.com.  
 
 1. Selecteer het pictogram **Startprogramma** ![Startprogramma.](media/app-launcher-icon.png "Het startprogramma biedt toegang tot meer functies").
-2. Als u geen app ziet voor [!INCLUDE[prod_short](includes/prod_short.md)] in het deelvenster dat wordt geopend, kies dan **Office 365**. Voer dan **Business Central** in het vak **Zoeken** in of selecteer **Alle apps** > **Zakelijke apps**.  
-3. Er zal één [!INCLUDE[prod_short](includes/prod_short.md)]-app worden vermeld voor elk type omgeving, zoals productie en sandbox. Om over te schakelen naar een andere omgeving, kiest u de [!INCLUDE[prod_short](includes/prod_short.md)]-app voor het type omgeving dat het is. Als er meer dan één omgeving van een bepaald type is, wordt u gevraagd de omgeving te kiezen die u wilt openen.
+2. Zoek en kies in het venster dat wordt geopend [!INCLUDE[prod_short](includes/prod_short.md)]. Als u [!INCLUDE[prod_short](includes/prod_short.md)] niet ziet, kiest u **Alle apps** en voert u **Business Central** in het vak **Zoeken** in.
+
+   :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="Het opstartprogramma van de Microsoft 365-app met de Business Central-tegel.":::  
+
+3. Als er meer dan één omgeving is, wordt u gevraagd de omgeving te kiezen die u wilt openen.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.

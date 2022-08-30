@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0c1402c4f41f108b504ad31829ede5a1095b6ce4
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077800"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317339"
 ---
 # <a name="synchronize-customers"></a>Klanten synchroniseren
 
@@ -47,7 +47,7 @@ Of u nu klanten uit Shopify in bulk importeert of samen met de import van orders
 |**Type klanttoewijzing**|Definieer hoe u wilt dat de connector de toewijzing uitvoert.<br>- **Op e-mail/telefoon** als u wilt dat de connector de geïmporteerde Shopify-klanten toewijst aan een bestaande klant in [!INCLUDE[prod_short](../includes/prod_short.md)], met behulp van e-mailadres en telefoon.</br>- **Op factureringsadresinfo** als u wilt dat de connector de geïmporteerde Shopify-klant toewijst aan een bestaande klant in [!INCLUDE[prod_short](../includes/prod_short.md)], met behulp van de adresgegevens van de partij die de factuur ontvangt.</br>Selecteer **Altijd de standaardklant nemen** als u wilt dat het systeem een klant uit het veld **Standaardklantnr.** gebruikt. |
 |**Shopify kan klanten bijwerken**| Selecteer of u wilt dat de connector gevonden klanten bijwerkt wanneer de opties **Op e-mail/telefoon** of **Op factureringsadresinfo** zijn geselecteerd in het veld **Type klanttoewijzing**.|
 |**Automatisch onbekende klanten maken**| Selecteer of u wilt dat de connector ontbrekende klanten maakt wanneer de opties **Op e-mail/telefoon** of **Op factureringsadresinfo** zijn geselecteerd in het veld **Type klanttoewijzing**. Er wordt een nieuwe klant gemaakt met behulp van geïmporteerde gegevens en de **Klantensjablooncode** gedefinieerd op de pagina **Shopify-winkelkaart** of **Shopify-klantensjabloon**. Merk op dat de Shopify-klant minimaal één adres moet hebben. Als deze optie niet is ingeschakeld, moet u een klant handmatig maken en deze koppelen aan de Shopify-klant. U kunt het maken van een klant altijd handmatig starten vanuit de pagina **Shopify-order**.|
-|**Klantensjablooncode**|Gebruikt samen met **Automatisch onbekende klanten maken**.<br> Kies de standaardsjabloon die moet worden gebruikt voor automatisch gemaakte klanten. Zorg ervoor dat de geselecteerde sjabloon de verplichte velden bevat, zoals de **Bedrijfsboekingsgroep**, **Klantboekingsgroep**, btw of belastinggerelateerde velden.<br> U kunt sjablonen per land/regio definiëren op de pagina **Shopify-klantensjablonen**, wat handig is voor een juiste belastingberekening. Zie [Opmerkingen over belasting](synchronize-orders.md#tax-remarks) voor meer informatie.|
+|**Klantensjablooncode**|Gebruikt samen met **Automatisch onbekende klanten maken**.<br> Kies de standaardsjabloon die moet worden gebruikt voor automatisch gemaakte klanten. Zorg ervoor dat de geselecteerde sjabloon de verplichte velden bevat, zoals de **Bedrijfsboekingsgroep**, **Klantboekingsgroep**, btw of belastinggerelateerde velden.<br> U kunt sjablonen per land/regio definiëren op de pagina **Shopify-klantensjablonen**, wat handig is voor een juiste belastingberekening. <br>Zie [Belastinginstelling](setup-taxes.md) voor meer informatie.|
 
 ### <a name="customer-template-per-country"></a>Klantensjabloon per land/regio
 
@@ -57,7 +57,8 @@ Met de **Shopify-klantensjabloon** kunt u voor elk land/regio het volgende doen:
 
 1. Specificeer het **Standaardklantnr.**, dat voorrang heeft op de selectie in de velden **Klant importeren uit Shopify** en **Type klanttoewijzing**. Het wordt gebruikt in de geïmporteerde verkooporder.
 2. Definieer de **Klantensjablooncode**, die wordt gebruikt om ontbrekende klanten te maken als **Automatisch onbekende klanten maken** is ingeschakeld. Als de **Klantensjablooncode** leeg is, gebruikt de functie **de Klantensjablooncode**, gedefinieerd op de **Shopify-winkelkaart**.
-3. In sommige gevallen is **Klantensjablooncode** gedefinieerd voor land/regio niet voldoende om een juiste berekening van belastingen te garanderen. Bijvoorbeeld voor landen/regio's met sales tax. In dit geval kan **Belastinggebieden** een nuttige aanvulling zijn.
+3. Definieer of prijzen inclusief belasting/btw voor geïmporteerde orders zijn.
+4. In sommige gevallen is **Klantensjablooncode** gedefinieerd voor land/regio niet voldoende om een juiste berekening van belastingen te garanderen. Bijvoorbeeld voor landen/regio's met sales tax. In dit geval kan **Belastinggebieden** een nuttige aanvulling zijn.
 
 > [!NOTE]  
 > De land/regio-codes zijn ISO 3166-1 alpha-2-land/regio-codes. Zie voor meer informatie [Land/regio-code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -68,7 +69,7 @@ Bestaande klanten kunnen in bulk geëxporteerd worden naar Shopify. Hierdoor wor
 
 |Veld|Omschrijving|
 |------|-----------|
-|**Klanten exporteren naar Shopify**|Selecteer dit als u van plan bent alle klanten met een geldig e-mailadres in bulk te importeren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify ofwel handmatig met behulp van de actie **Klanten synchroniseren** of via een taakwachtrij voor terugkerende updates.|
+|**Klanten exporteren naar Shopify**|Selecteer dit als u van plan bent alle klanten met een geldig e-mailadres in bulk te importeren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify ofwel handmatig met behulp van de actie **Klanten synchroniseren** of via een taakwachtrij voor terugkerende updates.<br> Zorg er bij het exporteren van klanten met provincies/staten voor dat **ISO-code** is ingevuld voor landen/regio's.|
 |**Kan Shopify-klanten bijwerken**|Gebruikt samen met de instelling **Klant exporteren naar Shopify**. Schakel het in als u later updates wilt genereren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] voor klanten die al bestaan in Shopify.|
 
 > [!NOTE]  

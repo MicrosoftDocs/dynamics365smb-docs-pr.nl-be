@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed56b0724b19d971b8dc98ea79807423403fd83
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129778"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317447"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
 
-Met taakwachtrijen kunnen gebruikers specifieke rapporten en codeunits plannen en uitvoeren. U kunt taken éénmalig of herhaaldelijk uitvoeren. U kunt bijvoorbeeld het rapport **Verkoper * Verkoopstatistieken** wekelijks uitvoeren om verkopen per verkoper elke week bij te houden of u kunt de codeunit **Goedkeuringsaanvragen delegeren** dagelijks uitvoeren om te voorkomen dat documenten zich opstapelen.
+Met taakwachtrijen kunnen gebruikers specifieke rapporten en codeunits plannen en uitvoeren. U kunt taken éénmalig of herhaaldelijk uitvoeren. U kunt bijvoorbeeld het rapport **Verkoper - Verkoopstatistieken** wekelijks uitvoeren om verkopen per verkoper elke week bij te houden of u kunt de codeunit **Goedkeuringsaanvragen delegeren** dagelijks uitvoeren om te voorkomen dat documenten zich opstapelen.
 
 Op de pagina **Taakwachtrijposten** worden alle bestaande posten weergegeven. Als u een nieuw taakwachtrij-item toevoegt dat u wilt plannen, moet u wat informatie verstrekken. Voorbeeld:
 * Het type object dat u wilt uitvoeren, zoals een rapport of codeunit. U moet toestemming hebben om het specifieke rapport of de codeunit uit te voeren.

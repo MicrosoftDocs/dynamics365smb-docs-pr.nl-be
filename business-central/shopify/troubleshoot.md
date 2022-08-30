@@ -1,18 +1,18 @@
 ---
 title: Problemen oplossen met de synchronisatie tussen Shopify en Business Central
 description: Leer wat u moet doen als er iets mis is gegaan tijdens de synchronisatie van gegevens tussen Shopify en Business Central
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 4ccbe8ac97eba568ff82d965f24b86ab58c95f81
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129653"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317258"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Problemen oplossen met de synchronisatie tussen Shopify en Business Central
 
@@ -86,6 +86,16 @@ De volgende procedures beschrijven hoe u het toegangstoken kunt roteren dat word
 2. Selecteer de winkel waarvoor u het toegangstoken wilt roteren om de pagina **Shopify-winkelkaart** te openen.
 3. Kies de actie **Toegang aanvragen**.
 4. Meld u desgevraagd aan bij uw Shopify-account, controleer de privacy en machtigingen en kies vervolgens de knop **App installeren**.
+
+## <a name="known-issues"></a>Bekende problemen
+
+### <a name="gen-bus-posting-group-must-have-a-value-in-customer-it-cannot-be-zero-or-empty"></a>Dagb. Bedrijfsboekingsgroep moet een waarde hebben in Klant. Het kan niet nul of leeg zijn.
+
+Vul het veld **Klantensjablooncode** in in het venster **Shopify-winkelkaart** met de sjabloon waarin **Bedrijfsboekingsgroep** is ingevuld. Klantensjabloon wordt niet alleen gebruikt voor het maken van klanten, maar ook voor het berekenen van verkoopprijzen en tijdens het maken van verkoopdocumenten.
+
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Gegevens importeren naar uw Shopify-winkel is niet ingeschakeld. Ga naar de winkelkaart om deze in te schakelen.
+
+Zet in het venster **Shopify-winkelkaart** de schakelaar **Gegevenssynchronisatie naar Shopify toestaan** aan.  Deze schakelaar is bedoeld om de online winkel te beschermen tegen het verkrijgen van demogegevens van [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="see-also"></a>Zie ook
 

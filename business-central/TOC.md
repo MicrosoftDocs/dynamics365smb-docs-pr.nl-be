@@ -665,6 +665,7 @@
 ### [Artikelen synchroniseren met Shopify](shopify/synchronize-items.md)
 ### [Klanten synchroniseren met Shopify](shopify/synchronize-customers.md)
 ### [Verkooporders synchroniseren en afhandelen met Shopify](shopify/synchronize-orders.md)
+### [Belastingen instellen voor de Shopify-verbinding](shopify/setup-taxes.md)
 ### [Taken op de achtergrond uitvoeren](shopify/background.md)
 ### [Problemen oplossen met de Shopify-connector](shopify/troubleshoot.md)
 ### [Veelgestelde vragen voor de Shopify-connector](shopify/shopify-faq.md)
