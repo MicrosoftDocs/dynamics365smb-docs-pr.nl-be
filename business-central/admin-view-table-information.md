@@ -1,24 +1,24 @@
 ---
 title: Tabelgegevens weergeven
-description: Lees hoe u informatie over de databasetabellen rechtstreeks vanuit de clientinterface in Business Central kunt bekijken.
+description: Lees hoe u informatie over de databasetabellen rechtstreeks vanuit Business Central kunt bekijken.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 8700
-ms.date: 06/14/2021
+ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 990a8f56108bacfe82e6fe591858d238396f16be
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133108"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362175"
 ---
 # <a name="viewing-table-information"></a>Tabelgegevens weergeven
 
-De pagina **Gegevens van tabel 8700** biedt informatie over alle systeem- en bedrijfstabellen in een Business Central-oplossing. Op de pagina wordt met name informatie weergegeven over de hoeveelheid gegevens die de tabellen bevatten.
+De pagina **8700 Tabelgegevens** geeft informatie over het aantal records in alle systeem- en bedrijfstabellen in [!INCLUDE[prod_short](includes/prod_short.md)], en hoeveel gegevens elke tabel bevat.
 
 Deze informatie is handig voor het oplossen van prestatieproblemen, omdat het u de verdeling van de gegevensgrootte over tabellen laat zien.
 
@@ -32,9 +32,16 @@ In de volgende tabel wordt de informatie voor elke tabel beschreven:
 |------|-----------|
 |Bedrijfsnaam|De naam van het bedrijf, als er een is, waartoe de tabel behoort.|
 |Tabelnaam|De naam van de tabel.|
-|Tabelnr.|De id van de tabel|
-|Nee. records|Het totale aantal records dat is opgeslagen in de brontabel.|
+|Tabelnr.|De id van de tabel.|
+|Nr. records|Het totale aantal records dat is opgeslagen in de brontabel.|
 |Recordgrootte|De gemiddelde recordgrootte in KB/record. De waarde wordt berekend met de volgende formule: 1024 (grootte)/(aantal records). |
+|Bestandsgrootte (KB)|De totale hoeveelheid ruimte die de tabel inneemt in de database. Deze waarde is de som van de waarden in de velden Gegevensgrootte en Indexgrootte.|
+|Gegevensgrootte (KB)|Hoeveel ruimte de gegevens in de tabel innemen in de database.|
+|Indexgrootte (KB)|Hoeveel ruimte de tabelindexen (sleutels) innemen in de database.|
+|Compressie|Het type compressie, **Rij**, **Pagina**, of **Geen**, dat wordt toegepast op de tabel in de database. Zie [Gegevenscompressie](/sql/relational-databases/data-compression/data-compression?) voor meer informatie.|
+
+> [!NOTE]
+> Als u gegevens in een tabel verwijdert, start [!INCLUDE[prod_short](includes/prod_short.md)] verschillende processen achter de schermen om ervoor te zorgen dat alles in uw database wordt opgeschoond. De waarden op de pagina Tabelgegevens worden niet bijgewerkt totdat deze processen zijn voltooid, wat enige tijd kan duren. Hoe lang u moet wachten kan variëren, afhankelijk van de grootte van uw database.
 
 ## <a name="see-also"></a>Zie ook
 

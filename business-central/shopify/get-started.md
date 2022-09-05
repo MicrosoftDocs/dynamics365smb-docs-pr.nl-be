@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808945"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361568"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Aan de slag met de Shopify-connector
 
@@ -26,26 +27,26 @@ De Shopify-connector bevat de volgende mogelijkheden:
 - Bidirectionele synchronisatie van artikelen of producten  
 
   - De connector synchroniseert afbeeldingen, artikelvarianten, streepjescodes, artikelnummers van leveranciers, uitgebreide teksten en tags.  
-  - Artikelkenmerken exporteren naar Shopify.  
-  - Gebruik geselecteerde klantprijsgroepen en kortingen om prijzen te definiëren die worden geëxporteerd naar Shopify.  
-  - Bepaal of items automatisch kunnen worden gemaakt of alleen updates van bestaande producten toestaan.  
+  -    Artikelkenmerken exporteren naar Shopify.  
+  -    Gebruik geselecteerde klantprijsgroepen en kortingen om prijzen te definiëren die worden geëxporteerd naar Shopify.  
+  -    Bepaal of items automatisch kunnen worden gemaakt of alleen updates van bestaande producten toestaan.  
 - Synchronisatie van voorraadniveaus  
 
-  - Kies enkele of alle beschikbare locaties in [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Werk voorraadniveaus op meerdere locaties bij in Shopify.  
+  -    Kies enkele of alle beschikbare locaties in [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  -    Werk voorraadniveaus op meerdere locaties bij in Shopify.  
 - Bidirectionele synchronisatie van klanten  
 
-  - Wijs klanten slim toe per telefoon en e-mail.  
-  - Gebruik landspecifieke sjablonen bij het maken van klanten, zodat u zeker weet dat de belastinginstellingen correct zijn.  
+  -    Wijs klanten slim toe per telefoon en e-mail.  
+  -    Gebruik landspecifieke sjablonen bij het maken van klanten, zodat u zeker weet dat de belastinginstellingen correct zijn.  
 - Importeren van bestellingen uit Shopify  
 
-  - Tijdens het importeren kunt u automatisch klanten maken in [!INCLUDE [prod_short](../includes/prod_short.md)] of besluiten de klanten te beheren in Shopify.  
-  - Neem orders op die in andere kanalen zijn gemaakt, zoals Shopify POS of Amazon.  
-  - Verzendkosten, cadeaubonnen, fooien, verzend- en betaalmethoden, transacties en risico op fraude.  
+  -    Tijdens het importeren kunt u automatisch klanten maken in [!INCLUDE [prod_short](../includes/prod_short.md)] of besluiten de klanten te beheren in Shopify.  
+  -    Neem orders op die in andere kanalen zijn gemaakt, zoals Shopify POS of Amazon.  
+  -    Verzendkosten, cadeaubonnen, fooien, verzend- en betaalmethoden, transacties en risico op fraude.  
   - Uitbetalingsinformatie ontvangen van Shopify Payments.  
 - Eenvoudig volgen van afhandelingsinformatie  
 
-  - Kies er optioneel voor om trackinginformatie voor artikelen te schrijven van [!INCLUDE [prod_short](../includes/prod_short.md)] naar Shopify.  
+  -    Kies er optioneel voor om trackinginformatie voor artikelen te schrijven van [!INCLUDE [prod_short](../includes/prod_short.md)] naar Shopify.  
 
 Als u Shopify wilt gebruiken met [!INCLUDE [prod_short](../includes/prod_short.md)], moet u eerst een paar dingen doen. Dit artikel dient als een gids om de integratie van uw Shopify-winkel met [!INCLUDE [prod_short](../includes/prod_short.md)] te voltooien.
 

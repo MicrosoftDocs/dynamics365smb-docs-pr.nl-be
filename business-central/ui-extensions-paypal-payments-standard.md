@@ -6,17 +6,19 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize
+ms.search.keywords: app, add-in, manifest, customize
+ms.search.form: 1070, 1071, 1073, 1074
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: dd29eca71dc0484238d75162039c12235082a081
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 19e44bf675e02df3494338fb729f9d28081ca6bd
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077462"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361852"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>De extensie PayPal Payments Standard
+
 Klanten stellen steeds meer eisen aan de klantenservice, zowel met betrekking tot productkwaliteit als met betrekking tot betalings- en leveringsmogelijkheden. De service PayPal Payments Standard helpt u uw klantenservice te verbeteren.
 
 Als alternatief voor het innen van betalingen door middel van bankoverschrijving of creditcards kunt u klanten aanbieden met hun PayPal-rekening te betalen. Wanneer u een verkoopfactuur of verkooporder verzendt per e-mail, is er een PayPal-koppeling in de e-mailhoofdtekst en in het gekoppelde PDF-document aanwezig. Wanneer klanten de koppeling kiezen, wordt de servicepagina van hun PayPal-account geopend waarin de betalingsdetails voor de verkoop worden weergegeven. De klant kan de factuur vervolgens als elke andere PayPal-betaling betalen.
@@ -34,9 +36,9 @@ De service PayPal Payments Standard biedt de volgende voordelen:
 Zie [Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
+
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

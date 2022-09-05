@@ -6,31 +6,36 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, budget
+ms.search.keywords: app, add-in, manifest, customize, budget
+ms.search.form: 1850, 1851, 1853,
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: 6ee943f918ce1c4932a60daa60e45339ef1c368d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fd48dacda54a5a81a7bb3a734201da31e8eb5453
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515289"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362261"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>De extensie Verkoop- en voorraadprognose
+
 Voorraadbeheer is een wisselwerking tussen klantenservice en het beheren van uw kosten. Enerzijds is voor weinig voorraad minder werkkapitaal nodig, maar anderzijds leiden nulvoorraden mogelijk tot gemiste verkopen. De extensie Verkoop- en voorraadprognose voorspelt potentiële verkopen aan de hand van historische gegevens en biedt een helder overzicht van verwachte nulvoorraden. Op basis van de prognose helpt de extensie aanvullingsaanvragen aan leveranciers te maken en bespaart u tijd.  
 
 ## <a name="setting-up-forecasting"></a>Prognoses instellen
-De verbinding met [Azure AI](https://azure.microsoft.com/overview/ai-platform/) is al voor u ingesteld in [!INCLUDE[prod_short](includes/prod_short.md)]. Maar u kunt de prognose configureren voor gebruik van een ander soort rapportageperiode. Zo kunt u overschakelen van prognose per maand naar prognose per kwartaal. U kunt ook het aantal perioden kiezen op basis waarvan de prognose moet worden berekend, afhankelijk van hoe specifiek u de prognose wilt. We stellen voor dat u een prognose maakt per maand en met een horizon van 12 maanden voor de prognose. 
+
+De verbinding met [Azure AI](https://azure.microsoft.com/overview/ai-platform/) is al voor u ingesteld in [!INCLUDE[prod_short](includes/prod_short.md)]. Maar u kunt de prognose configureren voor gebruik van een ander soort rapportageperiode. Zo kunt u overschakelen van prognose per maand naar prognose per kwartaal. U kunt ook het aantal perioden kiezen op basis waarvan de prognose moet worden berekend, afhankelijk van hoe specifiek u de prognose wilt. We stellen voor dat u een prognose maakt per maand en met een horizon van 12 maanden voor de prognose.
 
 > [!TIP]  
->   Overweeg de lengte van de perioden die de service in de berekeningen gebruikt. Hoe meer gegevens u biedt, hoe nauwkeuriger de voorspellingen zullen zijn. Let ook op grote variaties in perioden. Deze zijn ook van invloed op voorspellingen. Als Azure AI niet voldoende gegevens vindt of de gegevens sterk variëren, doet de service geen voorspelling.
+> Overweeg de lengte van de perioden die de service in de berekeningen gebruikt. Hoe meer gegevens u biedt, hoe nauwkeuriger de voorspellingen zullen zijn. Let ook op grote variaties in perioden. Deze zijn ook van invloed op voorspellingen. Als Azure AI niet voldoende gegevens vindt of de gegevens sterk variëren, doet de service geen voorspelling.
 
 ## <a name="use-the-forecasts"></a>De prognoses gebruiken
+
 De extensie gebruikt Azure AI om toekomstige verkoop op basis van uw verkoophistorie te voorspellen om u te helpen voorraadtekort te voorkomen. Wanneer u bijvoorbeeld een artikel op de pagina **Artikelen** kiest, wordt in het diagram in het deelvenster **Artikelprognose** de geschatte verkoop van dit artikel in de komende periode getoond. Op deze manier kunt u zien of uw voorraad van het artikel waarschijnlijk binnenkort op raakt.  
 
 U kunt de extensie ook gebruiken om voorstellen te doen met betrekking tot bevoorrading. Als u bijvoorbeeld een inkooporder maakt voor Fabrikam omdat u de nieuwe bureaustoel wilt kopen, doet de extensie Verkoop- en voorraadprognose het voorstel om ook de LONDON-draaistoel te herbevoorraden die u gewoonlijk van deze leverancier koopt. Dit komt omdat de extensie voorspelt dat uw voorraad van de LONDON-draaistoel in de komende twee maanden op raakt. U kunt dus eventueel nu al meer stoelen bestellen.  
 
 ## <a name="design-details"></a>Ontwerpdetails
+
 Abonnementen voor [!INCLUDE[prod_short](includes/prod_short.md)] komen met toegang tot verschillende voorspellende webservices in alle regio's waar [!INCLUDE[prod_short](includes/prod_short.md)] beschikbaar is. Zie de Microsoft Dynamics 365 Business Central Licentiehandleiding voor meer informatie. De gids kan worden gedownload op de [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/)-website. 
 
 Deze webservices zijn staatloos, wat betekent dat ze gegevens alleen gebruiken om voorspellingen op aanvraag te berekenen. Ze slaan geen gegevens op.
@@ -39,13 +44,16 @@ Deze webservices zijn staatloos, wat betekent dat ze gegevens alleen gebruiken o
 >   U kunt ook uw eigen voorspellende webservice gebruiken in plaats van de onze. Zie [Uw eigen voorspellende webservice voor verkoop- en voorraadprognoses maken en gebruiken](#AnchorText). 
 
 ### <a name="data-required-for-forecast"></a>Vereiste gegevens voor prognoses
+
 Om voorspellingen te doen over toekomstige verkopen, heeft de webservice kwantitatieve gegevens nodig over verkopen in het verleden. Die gegevens zijn afkomstig van de velden **Boekingsdatum**, **Artikelnr.** en **Hoeveelheid** op de pagina **Artikelposten**, waar:
--    De boekingssoort is 'Verkoop'.
+
+- De boekingssoort is 'Verkoop'.
 - De boekingsdatum ligt tussen de datum die wordt berekend op basis van de waarden in de velden **Historische perioden** en **Periodesoort** op de pagina **Instelling van verkoop- en voorraadprognose** en de werkdatum.
 
 Voordat de webservice wordt gebruikt, comprimeert [!INCLUDE[prod_short](includes/prod_short.md)] transacties op **Artikelnr.** en **Boekingsdatum**, op basis van de waarde in het veld **Periodesoort** op de pagina **Instelling van verkoop- en voorraadprognose**.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Uw eigen voorspellende webservice voor verkoop- en voorraadprognoses maken en gebruiken
+
 U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Business Central**. Dit voorspellend model is online beschikbaar in de Azure AI-galerie. Ga als volgt te werk om het model te gebruiken:  
 
 1. Open een browser en ga naar de [Azure AI-galerie](https://go.microsoft.com/fwlink/?linkid=828352).  
@@ -58,8 +66,8 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
 
-
 ## <a name="see-also"></a>Zie ook
+
 [Verkoop](sales-manage-sales.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  

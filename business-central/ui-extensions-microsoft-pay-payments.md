@@ -6,14 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 1080, 1081, 1083, 1085, 1087, 1089
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e538d6ddef44948785c76bd1cf55b9bdd80c111c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ae7499827c03a6b67b507c0145e6553018b46108
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076265"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362079"
 ---
 # <a name="the-microsoft-pay-extension"></a>De extensie Microsoft Pay
 
@@ -42,9 +43,9 @@ De extensie Microsoft Pay biedt de volgende voordelen:
 Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[prod_short](includes/prod_short.md)] gratis. U moet wel contact opnemen met de betalingsservice om een rekening aan te vragen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
+
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

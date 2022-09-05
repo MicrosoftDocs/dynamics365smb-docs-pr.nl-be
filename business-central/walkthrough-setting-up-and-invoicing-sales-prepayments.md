@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 0aa467b636be3be75c38c87b2592a69b70440c11
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1c26882670321a3a2957302413f6f7ebd11a1f6d
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075243"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362319"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Procedure: Vooruitbetalingen verkoop instellen en factureren
 
@@ -22,7 +22,7 @@ Deze procedure leidt u door het proces van het instellen en gebruiken van voorui
 
 [!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
-U kunt bijvoorbeeld tevens aanvullende vooruitbetalingsfacturen versturen, als er extra artikelen worden toegevoegd aan de order.  
+U kunt bijvoorbeeld meer vooruitbetalingsfacturen versturen, als er meer artikelen worden toegevoegd aan de order.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure  
 
@@ -47,11 +47,11 @@ Deze procedure bevat taken voor de volgende rollen:
 
  Phyllis is administrateur. Ze is administrateur en bepaalt welke klanten een aanbetaling moeten doen voordat artikelen worden gefabriceerd of verzonden. Phyllis stelt [!INCLUDE[prod_short](includes/prod_short.md)] in op het automatisch berekenen van vooruitbetalingen.  
 
- Susan is verkooporderverwerker. Als een klant belt om een order te plaatsen, voert ze de order in het systeem in terwijl ze de klant aan de telefoon heeft. Op deze manier kan ze prijzen en betalingsvoorwaarden meteen met de klant controleren en ze kan de order aanpassen terwijl ze met de klant onderhandelt.  
+ Susan is verkooporderverwerker. Als een klant belt om een order te plaatsen, voert ze de order in het systeem in terwijl ze de klant aan de telefoon heeft. Op deze manier kan ze prijzen en betalingsvoorwaarden meteen met de klant controleren en ze kan wijzigingen in de order aanbrengen terwijl ze met de klant onderhandelt.  
 
  Arnie werkt op de afdeling Vorderingen, waar hij facturen en betalingen boekt.  
 
- In dit scenario stelt Phyllis de vereisten voor vooruitbetalingen in voor de klant Selangorian. Ze baseert dit op hun historische betalingsgegevens en geeft Susan instructies voor het afhandelen van hun orders.  
+ In dit scenario stelt Phyllis vooruitbetalingsvereisten op voor de klant Selangorian op basis van hun kredietgeschiedenis. Phyllis geeft Susan instructies voor het afhandelen van hun bestellingen.  
 
  Wanneer de klant belt, onderhandelt Susan met de klant totdat een overeenkomst wordt bereikt. Ze kan de vooruitbetaling vervolgens op verschillende manieren berekenen.  
 
@@ -59,7 +59,7 @@ Deze procedure bevat taken voor de volgende rollen:
 
  Arnie registreert de betaling van de klant en past deze toe op de facturen, waarna hij de uiteindelijke factuur stuurt.  
 
-## <a name="setting-up-prepayments"></a>Vooruitbetalingen instellen
+## <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
 
 Als administrateur stelt Phyllis het systeem in voor het verwerken van vooruitbetalingen van klanten.  
 
@@ -79,11 +79,11 @@ In de volgende procedures wordt beschreven hoe de taken van Phyllis worden uitge
 
 1. Schakel op de pagina **Verkoopinstellingen** op het sneltabblad **Algemeen** het selectievakje **Vooruitbetaling controleren bij boeken** in.
 
-Vanaf dit moment kunt geen orders verzenden of factureren waarvoor een niet-betaald vooruitbetalingsbedrag openstaat.  
+Nu kunt u geen orders verzenden of factureren waarvoor een niet-betaald vooruitbetalingsbedrag openstaat.  
 
 Phyllis stelt in dat bij klant 20000 standaard een aanbetaling van 30% voor alle orders moet worden gefactureerd. Daarom voert ze een standaardpercentage voor vooruitbetaling in voor de klant.  
 
-Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd voor artikel 1896-S. Klant 20000 heeft een slechte betalingsgeschiedenis. Daarom vereist zij een 40%-vooruitbetaling van klant 20000 voor artikel 1896-S. In de volgende procedure wordt beschreven hoe de aanbetalingspercentages worden ingesteld.  
+Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd voor artikel 1896-S. Klant 20000 heeft een slechte betalingsgeschiedenis, dus vereist ze van klant 20000 een aanbetaling van 40% voor artikel 1896-S. In de volgende procedure wordt beschreven hoe de aanbetalingspercentages worden ingesteld.  
 
 ### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Standaardpercentages voorvooruitbetaling toewijzen aan klanten en artikelen
 
@@ -112,11 +112,11 @@ Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd
 > [!TIP]
 > Als u de velden niet kunt zien op de pagina **Boekingsgroepinstellingen**, gebruikt u de horizontale schuifbalk onder aan de pagina om naar rechts te schuiven.  
 
-## <a name="creating-an-order-that-requires-a-prepayment"></a>Een order maken waarvoor vooruitbetaling is vereist
+## <a name="create-an-order-that-requires-a-prepayment"></a>Een order maken waarvoor vooruitbetaling is vereist
 
- In het volgende scenario maakt Susan, de orderprocessor, een order terwijl ze met een klant praat. Voor de artikelen die de klant bestelt is een vooruitbetaling vereist en de klant heeft in het verleden een aantal keer te laat betaald. Susan heeft daarom de instructie gekregen om een vast bedrag van **800** als vooruitbetaling op de order te eisen.  
+ In het volgende scenario maakt Susan, de orderprocessor, een order terwijl ze met een klant praat. Voor de artikelen die de klant bestelt, is een vooruitbetaling vereist. Bovendien heeft de klant in het verleden een aantal late betalingen gedaan. Susan heeft daarom de instructie gekregen om een vast bedrag van **800** als vooruitbetaling op de order te eisen.  
 
-De klant vraagt of het goed is als hij 35% betaalt, een voorstel waarin Susan zich kan vinden. Zij wijzigt daarom de order.  
+De klant vraagt om 35% te betalen, waar Susan mee kan instemmen, dus wijzigt ze de bestelling.  
 
 Susan maakt de vooruitbetalingsfactuur en verzendt deze naar de klant.  
 
@@ -133,15 +133,15 @@ Susan maakt de vooruitbetalingsfactuur en verzendt deze naar de klant.
     |**Artikel**|**1896-S**|**1**|  
     |**Artikel**|**1900-S**|**1**|
 
-    De vooruitbetalingsvelden op de verkoopregel zijn standaard verborgen, dus u moet ze weergeven. Hiervoor moet u de pagina personaliseren. Zie voor meer informatie [Een pagina personaliseren via de banner Personaliseren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+    De vooruitbetalingsvelden op de verkoopregel zijn standaard verborgen. Om de velden weer te geven moet u de pagina personaliseren. Zie voor meer informatie [Een pagina personaliseren via de banner Personaliseren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 6. Controleer of het veld **Vooruitbetaling %** op de regel voor artikel **1900-S** op **30** staat. Dit is standaard overgenomen van de verkoopkop die wordt gevuld op basis van de klantkaart.  
 
-    Het veld **Vooruitbetaling %** op de regel voor artikel **1896-S** is **40**. Dit is het percentage dat u hebt ingevoerd op de pagina **Vooruitbetalingspercentages verkoop** voor artikel **1896-S** en klant **20000**.  
+    Het veld **Vooruitbetaling %** op de regel voor artikel **1896-S** is **40**. 40 is het percentage dat u hebt ingevoerd op de pagina **Vooruitbetalingspercentages verkoop** voor artikel **1896-S** en klant **20000**.  
 
     Zie voor meer informatie [Vooruitbetalingen instellen](finance-set-up-prepayments.md) voor meer informatie.  
 7. Kies bij de actie **Order** **Statistieken**.  
-8. Op het sneltabblad **Vooruitbetaling** bevat het veld **Vooruitbetalingsbedrag excl. btw** het bedrag **458,16**. Als u nu een vooruitbetalingsfavtuur voor de order maakt, is dit het bedrag dat op de factuur wordt weergegeven.  
+8. Op het sneltabblad **Vooruitbetaling** bevat het veld **Vooruitbetalingsbedrag excl. btw** het bedrag **458,16**. Als u nu een vooruitbetalingsfactuur voor de order maakt, is 458,16 het bedrag op de factuur.  
 
     In dit scenario heeft Susan instructies ontvangen om een totale vooruitbetaling van **800** voor te stellen voor de order.  
 
@@ -157,7 +157,7 @@ Susan maakt de vooruitbetalingsfactuur en verzendt deze naar de klant.
 12. In de waarschuwing die wordt weergegeven, kiest u de knop **Ja**. Er wordt een tarief van 35% toegepast als het betalingspercentage voor de hele order.  
 13. Controleer of de regels juist zijn bijgewerkt.  
 
-## <a name="creating-a-prepayment-invoice"></a>Een vooruitbetalingsfactuur maken
+## <a name="create-a-prepayment-invoice"></a>Een vooruitbetalingsfactuur maken
 
 Nadat de juiste vooruitbetalingswaarden voor de order zijn ingevoerd, maakt Susan de vooruitbetalingsfactuur en stuurt ze deze naar de klant.  
 
@@ -169,22 +169,22 @@ Nadat de juiste vooruitbetalingswaarden voor de order zijn ingevoerd, maakt Susa
 > [!NOTE]  
 > Susan zou nu de factuur naar de klant sturen.  
 
-## <a name="creating-an-additional-prepayment-invoice"></a>Een extra vooruitbetalingsfactuur maken
+## <a name="create-an-additional-prepayment-invoice"></a>Een extra vooruitbetalingsfactuur maken
 
-De volgende dag belt de klant op en vraagt Susan om een wijziging in de order te maken. De klant wil twee stuks van artikel 1896-S. Susan opent de order en wijzigt deze en maakt vervolgens een tweede vooruitbetalingsfactuur voor de order en stuurt deze naar de klant.  
+De volgende dag belt de klant op en vraagt Susan om een wijziging in de order te maken. De klant wil twee stuks van artikel 1896-S. Susan heropent de bestelling en werkt deze bij. Vervolgens maakt ze een tweede vooruitbetalingsfactuur voor de bestelling en stuurt deze naar de klant.  
 
 ### <a name="to-create-an-additional-prepayment-invoice"></a>Een extra vooruitbetalingsfactuur maken
 
 1. Kies op de pagina **Verkooporder** de actie **Vrijgeven** en dan **Opnieuw openen**.  
 2. Typ **2** in het veld **Aantal** voor artikel **1896-S**.  
 
-    Kies bij de actie **Order** **Statistieken**. Het veld **Vooruitbetalingsbedrag excl. btw** bevat nu **768,04** en het veld **Gefactureerd vooruitbetalingsbedrag excl. btw** bevat **417,76**. Dit geeft aan dat er een extra vooruitbetalingsbedrag bestaat dat nog niet is gefactureerd.  
+    Kies bij de actie **Order** **Statistieken**. Het veld **Vooruitbetalingsbedrag excl. btw** bevat nu **768,04** en het veld **Gefactureerd vooruitbetalingsbedrag excl. btw** bevat **417,76**. Deze waarden geven aan dat er een extra vooruitbetalingsbedrag bestaat dat nog niet is gefactureerd.  
 3. Als u een factuur wilt boeken voor het extra vooruitbetalingsbedrag, kiest u **Acties**, dan **Boeking**, dan **Vooruitbetaling** en selecteert u **Vooruitbetalingsfactuur boeken en afdrukken**
 4. Kies de knop **Ja** om de factuur te boeken.  
 
-## <a name="applying-the-prepayments"></a>Vooruitbetalingen vereffenen
+## <a name="apply-the-prepayments"></a>De vooruitbetalingen vereffenen
 
-De klant betaalt het vooruitbetalingsbedrag en Arnie, die op de afdeling Vorderingen werkt, registreert de betaling en vereffent deze met de vooruitbetalingsfacturen.  
+De klant betaalt het vooruitbetalingsbedrag. Arnie, van de boekhoudafdeling, registreert de betaling en past deze toe op de vooruitbetalingsfacturen.  
 
 ### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Een betaling vereffenen met vooruitbetalingsfacturen
 
@@ -206,7 +206,7 @@ De klant betaalt het vooruitbetalingsbedrag en Arnie, die op de afdeling Vorderi
 7. Om het journaal te boeken kiest u de actie **Boeken/afdrukken** en selecteert u vervolgens **Boeken**.
 8. Kies de knop **Ja**.
 
-## <a name="invoicing-the-remaining-amount"></a>Het resterende bedrag factureren
+## <a name="invoice-the-remaining-amount"></a>Het resterende bedrag factureren
 
 Arnie heeft nu doorgekregen dat de artikelen voor de order zijn verzonden en dat de order gereed is voor facturering. Arnie maakt de factuur voor de order.  
 
@@ -224,13 +224,22 @@ Arnie heeft nu doorgekregen dat de artikelen voor de order zijn verzonden en dat
 
 5. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>De status van vooruitbetaalde orders en facturen automatisch bijwerken
+
+U kunt de verwerking van orders en facturen versnellen door taakwachtrijen in te stellen die automatisch de status van die documenten bijwerken. Wanneer een vooruitbetalingsfactuur is betaald, kunnen de items in de wachtrij automatisch de documentstatus wijzigen van **In afwachting van vooruitbetaling** in **Vrijgegeven**. Wanneer u de opdrachten in de wachtrij instelt, zijn de codeunits die u moet gebruiken: **383 Verkopen wachtend op vooruitbetaling bijwerken** en **383 Inkopen wachtend op vooruitbetaling bijwerken**. We raden u aan de items zo te plannen dat ze regelmatig worden uitgevoerd, bijvoorbeeld elke minuut. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
+
 ## <a name="next-steps"></a>Volgende stappen
 
-In dit overzicht hebt u de stappen doorlopen om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen voor het afhandelen van vooruitbetalingen. U hebt gezien hoe u standaard vooruitbetalingspercentages voor klanten en artikelen kunt instellen, en u hebt verschillende methoden gebruikt om de vooruitbetalingen van een order te berekenen. U hebt geprobeerd één totaal vooruitbetalingsbedrag aan de order toe te wijzen en u hebt het vooruitbetalingsbedrag laten berekenen als een percentage van de gehele order.  
+In dit overzicht zijn de stappen behandeld om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen voor het afhandelen van vooruitbetalingen. 
+
+- Standaardpercentages voor vooruitbetaling toewijzen aan klanten en artikelen.
+- Verschillende methoden gebruiken om de vooruitbetalingen op een bestelling te berekenen.  
+- Bereken het vooruitbetalingsbedrag als een percentage van het totaal op de bestelling.
+- Wijs één totaal vooruitbetalingsbedrag toe aan de bestelling.  
 
 Ook hebt u geleerd hoe u een vooruitbetalingsfactuur boekt, een tweede vooruitbetalingsfactuur maakt als de order wordt gewijzigd en de uiteindelijke factuur boekt voor het resterende bedrag.  
 
-De functie voor vooruitbetalingen in [!INCLUDE[prod_short](includes/prod_short.md)] maakt het eenvoudig om vooruitbetalingsregels voor klanten en artikelen in te stellen en stelt u in staat om alle betalingen tegen een factuur te boeken.  
+De vooruitbetalingsmogelijkheden maken het gemakkelijk om vooruitbetalingsregels voor klanten en artikelen in te stellen en af te dwingen. Ze laten u ook elke betaling tegen een factuur boeken.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 

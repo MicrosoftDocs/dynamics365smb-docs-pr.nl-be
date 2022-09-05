@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6619789b38cc8dc33e7985f35d77075df4914ad2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074938"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362034"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Werken met betalingstolerantie en contantkortingstolerantie
 
@@ -30,11 +30,11 @@ Documenten hebben altijd dezelfde betalingstolerantie, ongeacht of ze afzonderli
 
 *contantkortingsdatum < betaaldatum in geselecteerde post <= betalingstolerantiedatum*  
 
-Deze regel wordt ook gebruikt om te bepalen of er waarschuwingen moeten worden weergegeven wanneer u betalingstolerantie op meerdere documenten toepast. De waarschuwing voor contantkortingstolerantie wordt voor elke post weergegeven die voldoet aan de datumcriteria. Zie [Voorbeeld 2 - Tolerantieberekeningen voor meervoudige documenten](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents) voor meer informatie.
+Deze regel bepaalt ook of er waarschuwingen moeten worden weergegeven wanneer u betalingstolerantie op meerdere documenten toepast. De waarschuwing voor contantkortingstolerantie wordt voor elke post weergegeven die voldoet aan de datumcriteria. Zie [Voorbeeld 2 - Tolerantieberekeningen voor meervoudige documenten](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents) voor meer informatie.
 
 U kunt kiezen om een waarschuwing weer te geven die is gebaseerd op tolerantie in verschillende situaties.  
 
-- De eerste waarschuwing heeft betrekking op de contantkortingstolerantie. U krijgt de mogelijkheid een late contantkorting goed te keuren. U kunt vervolgens kiezen of de tolerantie op de kortingsvervaldatum moet worden geaccepteerd.  
+- De eerste waarschuwing heeft betrekking op de contantkortingstolerantie. U wordt geïnformeerd dat u een late contantkorting kunt accepteren. U kunt vervolgens kiezen of de tolerantie op de kortingsvervaldatum moet worden geaccepteerd.  
 - De tweede waarschuwing heeft betrekking op de betalingstolerantie. U krijgt een melding dat alle posten kunnen worden afgesloten, aangezien het verschil minder is dan het totaal van de maximumbetalingstolerantie voor de vereffende posten. U kunt vervolgens kiezen of de tolerantie op het betalingsbedrag moet worden geaccepteerd.
 
 > [!NOTE]
@@ -44,7 +44,7 @@ Zie voor meer informatie [Betalingstolerantiewaarschuwingen in- of uitschakelen]
 
 ## <a name="to-set-up-tolerances"></a>Toleranties instellen
 
-Met toleranties voor dagen en bedragen kunt u een factuur ook afsluiten als het betalingsbedrag niet gelijk is aan het volledige factuurbedrag. De reden hiervoor kan zijn dat de vervaldatum voor de betalingskorting is overschreden, dat er goederen zijn afgetrokken of dat er een kleine fout is gemaakt. Dit geldt ook voor restituties en creditnota's.  
+Met tolerantie ten aanzien van dagen en bedragen kunt u een factuur sluiten hoewel de betaling het bedrag op de factuur niet volledig dekt. Bijvoorbeeld omdat de vervaldatum voor de betalingskorting is overschreden, goederen zijn afgeschreven of door een kleine fout. Dit geldt ook voor restituties en creditnota's.  
 
 U kunt pas toleranties instellen als u verschillende tolerantierekeningen hebt ingesteld, boekingsmethoden voor zowel contantkortingstolerantie als betalingstolerantie hebt opgegeven en vervolgens de batchverwerking **Betalingstolerantie wijzigen** hebt uitgevoerd.  
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Boekingsgroepinstellingen** in en kies vervolgens de gerelateerde koppeling.  
@@ -57,17 +57,21 @@ U kunt pas toleranties instellen als u verschillende tolerantierekeningen hebt i
 8. Open de pagina **Boekhoudinstellingen**.  
 9. Vul op het sneltabblad **Vereffening** de velden **Betalingstolerantieboeking**, **Respijtperiode contantkorting** en **Betalingstolerantieboeking** in.   
 10. Kies de actie **Betalingstolerantie wijzigen**.
+
+    > [!NOTE]
+    > Wanneer u **Toepassen op oudste** kiest in het veld **Vereffeningsmethode** op een pagina **Klantenkaart**, boekt [!INCLUDE[prod_short](includes/prod_short.md)] niet automatisch betalingstoleranties, zelfs niet als ze binnen de drempels vallen die zijn ingesteld op de pagina **Grootboekinstellingen**. [!INCLUDE[prod_short](includes/prod_short.md)] gaat ervan uit dat de instelling Toepassen op oudste aangeeft dat de klant (of u als klant van uw leverancier) een rekening bij u heeft waarop zij regelmatig het saldo betalen. Daarom mogen resterende bedragen niet worden verwijderd door een betalingstolerantiepost te boeken.
+
 11. Vul op de pagina **Betalingstolerantie wijzigen** de velden **Betalingstolerantie %** en **Max. betalingstolerantiebedrag** in en kies vervolgens de knop **OK**.
 
 > [!IMPORTANT]  
->  U hebt nu alleen voor de lokale valuta een tolerantie ingesteld. Als u wilt dat tolerantie voor betalingen, creditnota's en terugbetalingen in een vreemde valuta worden afgehandeld door [!INCLUDE[prod_short](includes/prod_short.md)], moet u de batchverwerking **Betalingstolerantie wijzigen** uitvoeren met een waarde in het veld **Valutacode**.  
+> U hebt nu alleen voor de lokale valuta een tolerantie ingesteld. Als u wilt dat tolerantie voor betalingen, creditnota's en terugbetalingen in een vreemde valuta worden afgehandeld door [!INCLUDE[prod_short](includes/prod_short.md)], moet u de batchverwerking **Betalingstolerantie wijzigen** uitvoeren met een waarde in het veld **Valutacode**.  
 
 > [!NOTE]  
->  Als u telkens wanneer u een vereffening toepast in de tolerantie een betalingstolerantiewaarschuwing wilt krijgen, moet u de betalingstolerantiewaarschuwing inschakelen. Zie voor meer informatie [Betalingstolerantiewaarschuwingen in- of uitschakelen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
+> Als u telkens wanneer u een vereffening toepast in de tolerantie een betalingstolerantiewaarschuwing wilt krijgen, moet u de betalingstolerantiewaarschuwing inschakelen. Zie voor meer informatie [Betalingstolerantiewaarschuwingen in- of uitschakelen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Als u tolerantie wilt uitschakelen voor een klant of leverancier, moet u toleranties blokkeren op de relevante klanten- of leverancierskaart. Zie voor meer informatie [Betalingstolerantie voor klanten blokkeren](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
+> Als u tolerantie wilt uitschakelen voor een klant of leverancier, blokkeert u toleranties op de relevante klanten- of leverancierskaart. Zie voor meer informatie [Betalingstolerantie voor klanten blokkeren](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Wanneer u toleranties instelt, controleert [!INCLUDE[prod_short](includes/prod_short.md)] ook of er openstaande posten zijn en wordt de tolerantie ook voor deze posten berekend.
+> Wanneer u toleranties instelt, controleert [!INCLUDE[prod_short](includes/prod_short.md)] ook of er openstaande posten zijn en wordt de tolerantie ook voor deze posten berekend.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Betalingstolerantiewaarschuwingen in- of uitschakelen
 
@@ -76,7 +80,7 @@ De betalingstolerantiewaarschuwing verschijnt wanneer u een vereffening boekt di
 2. Schakel op de pagina **Grootboekinstellingen** op het sneltabblad **Vereffening** de schakelaar **Betalingstolerantiewaarschuwing** in om de waarschuwing te activeren. Als u de waarschuwing wilt deactiveren, zet u de schakelaar uit.  
 
 > [!NOTE]  
->  De standaardoptie voor de pagina **Betalingstolerantiewaarschuwing** is **Saldo behouden als restbedrag**. De standaardoptie voor de pagina **Waarschuwing voor betalingskortingtolerantie** is **Late contantkorting niet aanvaarden**.
+> De standaardoptie voor de pagina **Betalingstolerantiewaarschuwing** is **Saldo behouden als restbedrag**. De standaardoptie voor de pagina **Waarschuwing voor betalingskortingtolerantie** is **Late contantkorting niet aanvaarden**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Betalingstolerantie voor klanten blokkeren
 
@@ -86,7 +90,7 @@ Betalingstolerantie wordt standaard toegestaan. Als u geen betalingstolerantie w
 2. Schakel op de het sneltabblad **Betalingen** het selectievakje **Betalingstolerantie blokkeren** in .  
 
 > [!NOTE]  
->  Als de klant of leverancier openstaande posten heeft, moet u eerst de betalingstolerantie verwijderen voor posten die momenteel openstaan.
+> Als de klant of leverancier openstaande posten heeft, moet u eerst de betalingstolerantie verwijderen voor posten die momenteel openstaan.
 
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Voorbeeld 1 - tolerantieberekeningen voor één document
 
@@ -136,7 +140,7 @@ Normale vereffeningsregels
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
-(2) Als de betaling binnen dit bereik valt, kunnen er geen vereffeningsposten worden afgesloten, ook niet met tolerantie.  
+(2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
 #### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Betaaldatum ligt tussen 16.01.03 en 20.01.03 (scenario's 4-9)
 
@@ -148,7 +152,7 @@ Normale vereffeningsregels
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
-(2) Als de betaling binnen dit bereik valt, kunnen er geen vereffeningsposten worden afgesloten, ook niet met tolerantie.  
+(2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
 #### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Betaaldatum valt na 20.01.03 (scenario's 10-15)
 
@@ -164,7 +168,7 @@ Normale vereffeningsregels
 
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Voorbeeld 2 - tolerantieberekeningen voor meerdere documenten
 
-Hieronder vindt u enkele voorbeeldscenario's waarin de verwachte tolerantieberekeningen en -boekingen in verschillende situaties worden behandeld. De voorbeelden zijn beperkt tot de scenario's waarbij alle posten bij de vereffening worden afgesloten.  
+Hieronder vindt u enkele voorbeeldscenario's waarin de verwachte tolerantieberekeningen en -boekingen in verschillende situaties worden behandeld. De voorbeelden zijn beperkt tot scenario's waarbij alle posten in de vereffening worden gesloten.  
 
 De pagina **Grootboekinstellingen** bevat de volgende instellingen:
 - Respijtperiode contantkorting 5 dagen  
@@ -224,7 +228,7 @@ Normale vereffeningsregels
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
-(2) Als de betaling binnen dit bereik valt, kunnen er geen vereffeningsposten worden afgesloten, ook niet met tolerantie.  
+(2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
 #### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Betaaldatum ligt tussen 16.01.03 en 17.01.03 (scenario's 4-9)
 
@@ -236,7 +240,7 @@ Normale vereffeningsregels
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
-(2) Als de betaling binnen dit bereik valt, kunnen er geen vereffeningsposten worden afgesloten, ook niet met tolerantie.  
+(2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
 #### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Betaaldatum ligt tussen 18.01.03 en 20.01.03 (scenario's 10-21)
 
@@ -248,7 +252,7 @@ Normale vereffeningsregels
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
-(2) Als de betaling binnen dit bereik valt, kunnen er geen vereffeningsposten worden afgesloten, ook niet met tolerantie.  
+(2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
 #### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Betaaldatum ligt tussen 21-1-2003 en 22.01.03 (scenario's 22-27)
 
@@ -260,7 +264,7 @@ Normale vereffeningsregels
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
-(2) Als de betaling binnen dit bereik valt, kunnen er geen vereffeningsposten worden afgesloten, ook niet met tolerantie.  
+(2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
 #### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Betaaldatum valt na 22.01.03 (scenario's 28-30)
 
@@ -272,7 +276,7 @@ Normale vereffeningsregels
 
 (1) Als de betaling binnen dit bereik valt, kunnen alle vereffeningsposten, met of zonder tolerantie, worden afgesloten.  
 
-(2) Als de betaling binnen dit bereik valt, kunnen er geen vereffeningsposten worden afgesloten, ook niet met tolerantie.
+(2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/enter-payments-dynamics-365-business-central/)
 

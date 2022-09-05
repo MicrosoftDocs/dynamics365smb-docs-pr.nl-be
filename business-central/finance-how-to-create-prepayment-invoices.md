@@ -9,20 +9,20 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 97e2e4e63d1a0d694cf881ed1fff8523d50fbb46
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 620a1af0deff6f9615b38706dd3f53f3db285008
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077644"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362106"
 ---
 # <a name="create-prepayment-invoices"></a>Vooruitbetalingsfacturen maken
 
-Als u van uw klanten wilt dat ze betalen voordat u een bestelling naar hen verzendt, kunt u de vooruitbetalingsfunctie gebruiken. Hetzelfde geldt als uw leverancier van u verlangt dat u een betaling doet voordat zij een bestelling naar u verzenden.  
+Als u wilt dat klanten betalen voordat u hun order verzendt, kunt u de vooruitbetalingsfuncties gebruiken. Hetzelfde geldt als uw leverancier van u verlangt dat u een betaling doet voordat zij een order naar u verzenden.  
 
-U kunt het vooruitbetalingsproces starten wanneer u een verkoop- of inkooporder maakt. Als u een standaard vooruitbetalingspercentage heeft voor een bepaald artikel in de order of voor de klant of leverancier, wordt dat automatisch opgenomen in de resulterende vooruitbetalingsfactuur. U kunt ook een percentage voor vooruitbetaling opgeven voor het hele document.
+U kunt het vooruitbetalingsproces starten wanneer u een verkoop- of inkooporder maakt. Als u een standaard vooruitbetalingspercentage hebt voor een artikel in de order of voor de klant of leverancier, wordt dat percentage automatisch opgenomen in de resulterende vooruitbetalingsfactuur. U kunt ook een percentage voor vooruitbetaling opgeven voor het hele document.
 
-Nadat u een verkoop- of inkooporder hebt gemaakt, kunt u een vooruitbetalingsnota maken. U kunt de standaardpercentages gebruiken voor elke verkoop- of inkoopregel, of u kunt het bedrag naar wens aanpassen. U kunt bijvoorbeeld een totaalbedrag opgeven voor de hele order.  
+Nadat u een verkoop- of inkooporder hebt gemaakt, kunt u er een vooruitbetalingsfactuur voor maken. Gebruik de standaardpercentages voor elke verkoop- of inkoopregel, of u pas het bedrag naar wens aan. U kunt bijvoorbeeld een totaalbedrag specificeren voor de volledige order.  
 
 In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een verkooporder factureert. De stappen zijn vergelijkbaar voor inkooporders.  
 
@@ -44,7 +44,7 @@ In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een ver
 
 3. Vul de verkoopregels in.  
 
-    Als u een standaard vooruitbetalingspercentage heeft opgegeven voor de klant of op het sneltabblad **Vooruitbetaling** voor dit document, wordt deze waarde naar elke regel gekopieerd. U kunt de inhoud van het veld **Vooruitbetaling %** op de regel wijzigen.  
+    Als u een standaard vooruitbetalingspercentage hebt opgegeven voor de klant of op het sneltabblad **Vooruitbetaling** voor dit document, wordt deze waarde naar elke regel gekopieerd. U kunt de inhoud van het veld **Vooruitbetaling %** op de regel wijzigen.  
 
     > [!TIP]
     > Als u het veld **Vooruitbetaling %** niet ziet, kunt u het toevoegen via personalisatie.  Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
@@ -55,19 +55,23 @@ In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een ver
 
     Als het veld **Prijzen inclusief btw** is geselecteerd, kan het veld **Vooruitbetalingsbedrag incl. btw** worden bewerkt.  
 
-    Als u de inhoud van het veld **Vooruitbetalingsbedrag** wijzigt, wordt het bedrag proportioneel verdeeld over alle regels, met uitzondering van de regels met een **0** in het veld **Vooruitbetalingsbedrag %**.  
+    Als u de inhoud van het veld **Vooruitbetalingsbedrag** wijzigt, wordt het bedrag proportioneel verdeeld over alle regels, met uitzondering van de regels met een **0** in het veld **Vooruitbetaling %**.  
 
 5. Als u een testrapport wilt afdrukken voordat u de vooruitbetalingsfactuur boekt, kiest u de actie **Vooruitbetaling** en kiest u vervolgens de actie **Testrapport vooruitbetaling**.  
 6. Als u de vooruitbetalingsfactuur wilt boeken, kiest u de actie **Vooruitbetaling** en kiest u vervolgens de actie **Vooruitbetalingsfactuur boeken**.  
 
     Als u de vooruitbetalingsfactuur wilt boeken en afdrukken, kiest u de actie **Vooruitbetalingsfactuur boeken en afdrukken**.  
 
-U kunt extra vooruitbetalingsnota's verzenden voor de order. Verhoog hiervoor het vooruitbetalingsbedrag op een of meer regels, pas zo nodig de documentdatum aan en boek de vooruitbetalingsfactuur. Er wordt een nieuwe factuur gemaakt voor het verschil tussen de tot nu toe gefactureerde vooruitbetalingsbedragen en het nieuwe vooruitbetalingsbedrag.  
+U kunt andere vooruitbetalingsfacturen verzenden voor de order. Als u nog een factuur wilt verzenden, verhoogt u het vooruitbetalingsbedrag op een of meer regels, past u zo nodig de documentdatum aan en boekt u de vooruitbetalingsfactuur. Er wordt een nieuwe factuur gemaakt voor het verschil tussen de tot nu toe gefactureerde vooruitbetalingsbedragen en het nieuwe vooruitbetalingsbedrag.  
 
 > [!NOTE]  
 > Als u zich in Noord-Amerika bevindt, kunt u het vooruitbetalingspercentage niet wijzigen nadat de vooruitbetalingsfactuur is geboekt. Dit wordt voorkomen in de Noord-Amerikaanse versie van [!INCLUDE[prod_short](includes/prod_short.md)] omdat de berekening van de sales tax anders niet correct is.  
 
  Als u klaar bent om de rest van de factuur te boeken, boekt u deze net zoals andere facturen. Het vooruitbetalingsbedrag wordt automatisch afgetrokken van het verschuldigde bedrag.  
+
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>De status van vooruitbetaalde orders en facturen automatisch bijwerken
+
+U kunt de verwerking van orders en facturen versnellen door taakwachtrijen in te stellen die automatisch de status van die documenten bijwerken. Wanneer een vooruitbetalingsfactuur is betaald, kunnen de items in de wachtrij automatisch de documentstatus wijzigen van **In afwachting van vooruitbetaling** in **Vrijgegeven**. Wanneer u de opdrachten in de wachtrij instelt, zijn de codeunits die u moet gebruiken: **383 Verkopen wachtend op vooruitbetaling bijwerken** en **383 Inkopen wachtend op vooruitbetaling bijwerken**. We raden u aan de items zo te plannen dat ze regelmatig worden uitgevoerd, bijvoorbeeld elke minuut. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 

@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
+ms.search.form: 1439,
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3980b900a1fe261ae45c2eb1dc6e5395a01cb02d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: f703448f15c7284f51a2876ccd2b83b9a2351b9d
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384032"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361784"
 ---
 # <a name="the-essential-business-insights-extension"></a>De extensie Essentiële zakelijke inzichten
+
 De extensie Essentiële zakelijke inzichten zoekt interessante bedrijfsfeiten in uw bedrijfsgegevens en geeft ze weer als krantenkoppen in rolcentra. Afhankelijk van wat de extensie in de gegevens vindt, worden de inzichten van de vorige week, maand, of drie maanden vanaf de huidige datum weergegeven. De inzichten worden om de 10 minuten bijgewerkt.  
 
 Als u beter naar een inzicht wilt kijken, kunt u naar de bron ervan gaan. Als u bijvoorbeeld details wilt over de grootste verkoopfactuur die vorige week is geboekt, kunt u het inzicht kiezen om de factuur weer te geven.
@@ -36,7 +38,7 @@ De volgende tabel beschrijft de inzichten die deze extensie biedt voor elk rolce
 |Beheerder| Geeft een begroeting weer en een koppeling met productinformatie.|
 
 ## <a name="see-also"></a>Zie ook
-[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)
 
+[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

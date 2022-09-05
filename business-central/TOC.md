@@ -296,6 +296,7 @@
 #### [Klanten blokkeren](receivables-how-block-customers.md)
 #### [Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md)
+#### [Sales tax in de standaardversie van Business Central](sales-tax-concept.md)
 
 ### Betalingsverplichtingen beheren
 #### [Overzicht van crediteuren](payables-manage-payables.md)
