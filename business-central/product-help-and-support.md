@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 33cd44d4aab7f22dd8ea2cbad7fd21a4955142a0
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516938"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460642"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
@@ -138,7 +138,7 @@ Uw [!INCLUDE[prod_short](includes/prod_short.md)]-resellerpartner helpt u met te
 Zie voor meer informatie [Ondersteuningsproblemen escaleren naar Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in de beheerinformatie.  
 
 > [!NOTE]
-> Met [!INCLUDE[prod_short](includes/prod_short.md)] online is de sectie **Een probleem melden** alleen beschikbaar als u hebt betaald voor een [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Als u zich hebt aangemeld voor een proefversie en [!INCLUDE[prod_short](includes/prod_short.md)] nog niet hebt aangeschaft, hebt u geen resellerpartner en kunt u geen contact opnemen met het ondersteuningsteam van Microsoft. U vindt een [!INCLUDE[prod_short](includes/prod_short.md)] Central-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner) voor meer informatie.  
+> Met [!INCLUDE[prod_short](includes/prod_short.md)] online is de sectie **Een probleem melden** alleen beschikbaar als u hebt betaald voor een [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Als u zich hebt aangemeld voor een proefversie en [!INCLUDE[prod_short](includes/prod_short.md)] nog niet hebt aangeschaft, hebt u geen resellerpartner en kunt u geen contact opnemen met het ondersteuningsteam van Microsoft. U vindt een [!INCLUDE[prod_short](includes/prod_short.md)] Central-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) voor meer informatie.  
 >
 > Met [!INCLUDE[prod_short](includes/prod_short.md)] on-premises is deze sectie alleen beschikbaar in releasewave 2 van 2020 (versie 18) en hoger.
 
@@ -232,7 +232,7 @@ Hetzelfde geldt als u [!INCLUDE [prod_short](includes/prod_short.md)] on-premise
 
 [Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)  
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
-[Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner)  
+[Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Help-systeem (alleen beschikbaar in het Engels)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blog-bericht: De juiste resources zoeken en feedback geven](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Documenten voor Business Central-ontwikkelaars en beheerders](/dynamics365/business-central/dev-itpro/)  

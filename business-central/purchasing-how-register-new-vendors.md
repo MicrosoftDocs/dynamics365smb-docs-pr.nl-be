@@ -10,44 +10,44 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 07/04/2022
 ms.author: edupont
-ms.openlocfilehash: 00ce5d3014d0154f877b9d58fc4e0fd0585f13ac
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 88b6c57fb93b5ef3e2a4cf02ce7a802e4d8aef22
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144341"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460759"
 ---
 # <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
 
-Leveranciers leveren de producten die u verkoopt. Elke leverancier van wie u inkoopt, moet als een leverancierkaart zijn geregistreerd.
+Leveranciers leveren de producten die u verkoopt. Elke leverancier van wie u inkoopt, moet met een leverancierskaart zijn geregistreerd.
 
-Voordat u nieuwe leveranciers kunt vastleggen, moet u verschillende inkoopcodes instellen waaruit u kunt selecteren wanneer u leverancierskaarten invult. Wanneer alle vereiste stamgegevens zijn gemaakt, kunt u aanvullende gegevens voor de leverancier configureren, zoals het toekennen van een prioriteit aan de leverancier voor betalingsdoeleinden en u kunt artikelen vermelden die deze leverancier en andere leveranciers leveren. Een andere reeks instellingen die u kunt opgeven, zijn de overeenkomsten met betrekking tot kortingen, prijzen en betalingswijzen. Zie voor meer informatie [Inkoop instellen](purchasing-setup-purchasing.md).
+Voordat u nieuwe leveranciers kunt vastleggen, moet u verschillende inkoopcodes instellen waaruit u kunt selecteren wanneer u leverancierskaarten invult. Nadat alle vereiste stamgegevens zijn gemaakt, kunt u unieke kenmerken voor een leverancier toevoegen, zoals het toekennen van een prioriteit aan de leverancier voor betalingsdoeleinden of artikelen vermelden die deze leverancier en andere leveranciers leveren. Een andere reeks instellingen die u kunt opgeven, zijn de overeenkomsten met betrekking tot kortingen, prijzen en betalingswijzen. Zie voor meer informatie [Inkoop instellen](purchasing-setup-purchasing.md).
 
-Leverancierskaarten bevatten de informatie die is vereist om producten van de leverancier te kunnen kopen. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md) en [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
+Leverancierskaarten bevatten de informatie die is vereist om producten van elke leverancier te kunnen kopen. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md) en [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 <br /><br />  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Nieuwe leveranciers toevoegen
 
-U kunt nieuwe leveranciers handmatig toevoegen door de velden op de pagina **Leverancierskaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen leveranciersprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe leveranciers en helpt ervoor te zorgen dat de informatie elke keer correct is.
+U kunt nieuwe leveranciers handmatig toevoegen door de pagina **Leverancierskaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen leveranciersprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe leveranciers en helpt ervoor te zorgen dat de informatie elke keer correct is.
 
 > [!NOTE]  
-> Als leveranciersjablonen voor verschillende leveranciersoorten bestaan, wordt een pagina automatisch weergegeven wanneer u een nieuwe leverancierskaart maakt, van waaruit u een geschikte leveranciersjabloon kunt selecteren. Als er slechts één leveranciersjabloon bestaat, gebruiken nieuwe leverancierkaarten altijd deze sjabloon.
+> Als leveranciersjablonen voor verschillende leveranciersoorten bestaan, ziet u een pagina wanneer u een nieuwe leverancierskaart maakt, van waaruit u een geschikte leveranciersjabloon kunt selecteren. Als er slechts één leveranciersjabloon bestaat, gebruiken nieuwe leverancierkaarten altijd deze sjabloon.
 
-Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebruiken om deze toe te passen op een of meer geselecteerde leveranciers. Om een sjabloon te maken vult u de informatie in die u opnieuw wilt gebruiken op de pagina Leverancierskaart en slaat u deze vervolgens op als sjabloon. Zie voor meer informatie [De pagina Leverancierskaart als sjabloon opslaan](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
+Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebruiken om deze toe te passen op een of meer geselecteerde leveranciers. Om een sjabloon te maken vult u de informatie in die u opnieuw wilt gebruiken op de pagina **Leverancierskaart** en slaat u deze vervolgens op als sjabloon. Zie voor meer informatie de sectie [De pagina Leverancierskaart als sjabloon opslaan](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
-> Het kan handig zijn om de pagina **Leverancierssjabloon** te personaliseren wanneer u een sjabloon maakt. U wilt bijvoorbeeld een veld toevoegen dat nog niet op de pagina wordt weergegeven. Zie [Uw werkruimte personaliseren](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.
+> Het kan handig zijn om de pagina **Leverancierssjabloon** te personaliseren wanneer u een sjabloon maakt. U wilt bijvoorbeeld een veld toevoegen dat nog niet op de pagina wordt weergegeven. Zie de sectie [Uw werkruimte personaliseren](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.
 
-U kunt ook een leverancier maken op basis van een contact. Zie voor meer informatie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+U kunt ook een leverancier maken op basis van een contact. Zie voor meer informatie de sectie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
 ### <a name="to-create-a-new-vendor"></a>Een nieuwe leverancier maken
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 > [!TIP]  
-> Als het factuuradres dat voor elke factuur van een leverancier wordt gebruikt, niet bij u bekend is, vult u het veld **Nr.** niet in op het sneltabblad **Algemeen**. Kies in dat geval het nummer van de factuurleverancier nadat u een inkoopofferte, inkooporder of inkoopkop hebt ingesteld.
+> Als het factuuradres dat voor elke factuur van een leverancier moet worden gebruikt, niet bij u bekend is, vult u het veld **Nr.** niet in op het sneltabblad **Algemeen**. Kies in dat geval het nummer van de factuurleverancier nadat u een inkoopofferte, inkooporder of inkoopkop hebt ingesteld.
 
 De leverancier is nu geregistreerd en de leverancierskaart is klaar om voor inkoopdocumenten te worden gebruikt.
 
@@ -58,7 +58,7 @@ Als u deze leverancierskaart als sjabloon wilt gebruiken wanneer u nieuwe levera
 U kunt de informatie op leverancierskaarten op elk gewenst moment bewerken. Als u echter een transactie voor een leverancier hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor controle. Als u leverancierskaarten met grootboekposten wilt verwijderen, neemt u contact op met uw Microsoft-partner om dat via code te doen.
 
 > [!TIP]
-> U kunt het IBAN op een bankrekening van een leverancier wijzigen zonder dat de wijziging van invloed is op uw historische journaalposten van krediettransfers. Journaalposten van krediettransfers slaan het IBAN van de ontvanger en het bankrekeningnummer van de ontvanger op die zijn opgegeven in de velden Bankrekening leverancier en Naam ontvanger op de pagina Leverancierskaart toen de boekingen werden gemaakt.
+> U kunt het IBAN (International Bank Account Number) op een bankrekening van een leverancier wijzigen zonder dat de wijziging van invloed is op uw historische journaalposten van krediettransfers. Journaalposten van krediettransfers slaan het *IBAN van ontvanger* en het *Bankrekeningnr. van ontvanger* op die zijn opgegeven in de velden **Bankrekening leverancier** en **Naam ontvanger** op de pagina **Leverancierskaart** toen de posten werden gemaakt.
 
 > [!TIP]
 > U kunt alternatieve adressen toevoegen aan leverancierskaarten door de actie **Orderadressen** te kiezen.
@@ -67,12 +67,12 @@ U kunt de informatie op leverancierskaarten op elk gewenst moment bewerken. Als 
 
 1. Kies op de pagina **Leverancierskaart** de actie **Opslaan als sjabloon**. De pagina **Leveranciersjabloon** opent de weergave van de leverancierkaart als sjabloon.
 2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. De pagina **Dimensiesjablonen** geeft alle dimensiecodes weer die voor de leverancier zijn ingesteld.
-4. Bewerk of typ dimensiecodes die van toepassing zijn op nieuwe leverancierkaarten die worden gemaakt met de sjabloon.
-5. Wanneer u de nieuwe leveranciersjabloon hebt voltooid, kiest u de knop **OK**.  
+3. Als u sjablonen wilt hergebruiken, kiest u de actie **Dimensies**. De pagina **Dimensiesjablonen** geeft dimensiecodes weer die voor de leverancier zijn ingesteld.
+4. Bewerk of typ dimensiecodes die van toepassing zijn op nieuwe leverancierskaarten die worden gemaakt met de sjabloon.
+5. Wanneer u de nieuwe leveranciersjabloon hebt voltooid, kiest u **OK**.  
    De leveranciersjabloon wordt toegevoegd aan de lijst met leveranciersjablonen, zodat u deze kunt gebruiken om nieuwe leverancierskaarten te maken.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Zie ook
 
@@ -82,6 +82,7 @@ U kunt de informatie op leverancierskaarten op elk gewenst moment bewerken. Als 
 [Inkopers instellen](purchasing-how-setup-purchasers.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
+[Online kaarten gebruiken om locaties en routebeschrijvingen te vinden](across-online-maps.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

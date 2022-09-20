@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 08/30/2022
 ms.author: jswymer
-ms.openlocfilehash: c1935c51fbcabfc0371530532f18b2aaf6005dbb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0742320b4cb334b3c01c86ec0e10ec82114bd215
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511817"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460743"
 ---
-# <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
+# <a name="introduction-to-prod_short-and-power-bi"></a>Inleiding in [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
-Inzicht krijgen in uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens is eenvoudig met [Power BI](https://powerbi.microsoft.com), een datavisualisatiesysteem van Microsoft. Power BI haalt [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens op, zodat u dashboards en rapporten kunt maken op basis van die gegevens. Power BI biedt een flexibel alternatief voor de ingebouwde rapporten van [!INCLUDE[prod_short](includes/prod_short.md)] en stelt u in staat verder in te zoomen op gegevens om ze te analyseren en om de visualisatie aan te passen. U kunt hiermee zelfs gegevens van verschillende bedrijven samenvoegen in [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige Power BI-rapporten kunnen ook worden ingesloten in Business Central en worden bekeken zonder dat de gebruiker het systeem hoeft te verlaten. Als u werkt met complexere dashboards, kunt u beter de Power BI-website gebruiken.
+Het is gemakkelijk inzicht te krijgen in uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens met [Power BI](https://powerbi.microsoft.com), een datavisualisatiesysteem van Microsoft. Power BI haalt [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens op, zodat u dashboards en rapporten kunt maken op basis van die gegevens. Power BI biedt een flexibel alternatief voor de ingebouwde rapporten van [!INCLUDE[prod_short](includes/prod_short.md)] en stelt u in staat verder in te zoomen op gegevens om ze te analyseren en om de visualisatie aan te passen. U kunt hiermee zelfs gegevens van verschillende bedrijven samenvoegen in [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige Power BI-rapporten kunnen ook worden ingesloten in Business Central en worden bekeken zonder dat de gebruiker het systeem hoeft te verlaten. Als u werkt met complexere dashboards, kunt u beter de Power BI-website gebruiken.
 
 ![Power BI en Business Central.](media/power-bi-intro.png)
 
@@ -30,14 +30,15 @@ Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](include
 
 |Functie|Omschrijving|Online|On-premises|Meer informatie|
 |-------|-----------|--------------|-----------|----------------|
-|[!INCLUDE[prod_short](includes/prod_short.md)]-gegevens weergeven in Power BI|U kunt uw gegevens vanuit [!INCLUDE[prod_short](includes/prod_short.md)] weergeven in rapporten in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online bevat een aantal vooraf gedefinieerde Power BI-rapporten. Mogelijk heeft uw organisatie enkele aangepaste rapporten aan u beschikbaar gesteld.|![Werkt online.](media/check.png)|![Werkt on-premises](media/check.png)|[Zie...](across-working-with-business-central-in-powerbi.md)|
-|Power BI-rapporten weergeven in de [!INCLUDE[prod_short](includes/prod_short.md)]-client.| Power BI-rapporten waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven, kunnen rechtstreeks worden ingesloten in gedeelten in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's. U kunt in een dergelijk gedeelte van een pagina elk gewenst rapport weergeven dat beschikbaar is gemaakt voor u. |![werkt online.](media/check.png)|![Werkt on-premises](media/check.png)<sup>[*](#onprem)</sup>|[Zie...](across-working-with-powerbi.md).|
-|Maak rapporten en dashboards in Power BI waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven.|Gebruik Power BI Desktop om uw eigen rapporten en dashboards te maken. U kunt de rapporten publiceren naar uw eigen Power BI-service of deze delen met anderen binnen uw organisatie.|![Werkt online.](media/check.png)|![werkt on-premises](media/check.png)|[Zie...](across-how-use-financials-data-source-powerbi.md)
-|[!INCLUDE[prod_short](includes/prod_short.md)]-apps in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publiceert drie apps voor Power BI in Microsoft AppSource. Met deze apps kunnen gedetailleerde rapporten en dashboards worden gemaakt in uw Power BI-service voor het weergeven van [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens. De volgende apps zijn beschikbaar: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Werkt online.](media/check.png)||[Zie...](across-powerbi-business-central-apps.md)
+|[!INCLUDE[prod_short](includes/prod_short.md)]-gegevens weergeven in Power BI|U kunt uw gegevens vanuit [!INCLUDE[prod_short](includes/prod_short.md)] weergeven in rapporten in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online bevat een aantal vooraf gedefinieerde Power BI-rapporten. Mogelijk heeft uw organisatie enkele aangepaste rapporten aan u beschikbaar gesteld.|![Werkt online.](media/check.png)|![Werkt on-premises](media/check.png)|[Hier...](across-working-with-business-central-in-powerbi.md)|
+|Power BI-rapporten weergeven in de [!INCLUDE[prod_short](includes/prod_short.md)]-client.| Power BI-rapporten waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven, kunnen rechtstreeks worden ingesloten in gedeelten in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's. U kunt in een dergelijk gedeelte van een pagina elk gewenst rapport weergeven dat beschikbaar is gemaakt voor u. |![werkt online.](media/check.png)|![Werkt on-premises](media/check.png)<sup>[*](#onprem)</sup>|[Hier...](across-working-with-powerbi.md).|
+|Maak rapporten en dashboards in Power BI waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven.|Gebruik Power BI Desktop om uw eigen rapporten en dashboards te maken. U kunt de rapporten publiceren naar uw eigen Power BI-service of deze delen met anderen binnen uw organisatie.|![Werkt online.](media/check.png)|![werkt on-premises](media/check.png)|[Hier...](across-how-use-financials-data-source-powerbi.md)|
+|[!INCLUDE[prod_short](includes/prod_short.md)]-apps in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publiceert drie apps voor Power BI in Microsoft AppSource. Met deze apps kunnen gedetailleerde rapporten en dashboards worden gemaakt in uw Power BI-service voor het weergeven van [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens. De volgende apps zijn beschikbaar: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Werkt online.](media/check.png)||[Hier...](across-powerbi-business-central-apps.md)|
+|Werken met [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens in datamarts en gegevensstromen|Vanaf juli 2022 kunt u gebruik maken van de [!INCLUDE [prod_short](includes/prod_short.md)]-connector in Power Query Online naar gegevensstromen die u deelt over verschillende rapporten en dashboards.|[Hier...](across-powerbi-business-central-apps.md)|
 
 <a name="onprem"><sup>*</sup></a> Deze functie vereist een geregistreerde toepassing voor Business Central in Microsoft Azure. Zie [Business Central On-Premises registeren in Azure AD voor integratie met andere services](/dynamics365/business-central/dev-itpro/administration/register-app-azure) voor meer informatie.
 
-## <a name="getting-ready-to-use-power-bi"></a>Voorbereidingen voor het gebruik van Power BI
+## <a name="get-ready-to-use-power-bi"></a>Voorbereiden voor het gebruik van Power BI
 
 Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan gebruiken in combinatie met [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> De taken zijn afhankelijk van uw rol in uw organisatie en wat u wilt doen met Power BI:
 
@@ -79,18 +80,18 @@ Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan
 
 ## <a name="see-also"></a>Zie ook
 
-[Power BI voor consumenten](/power-bi/consumer/end-user-consumer)  
-[De 'nieuwe look' van de Power BI-service](/power-bi/service-new-look)  
-[Snelle start: verbinding maken met uw gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
-[Power BI-documentatie](/power-bi/)  
 [Bedrijfsinformatie](bi.md)  
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Zich voorbereiden om zaken te doen](ui-get-ready-business.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power Apps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in Power Automate](across-how-use-financials-data-source-flow.md)  
-
+[Power BI-documentatie](/power-bi/)  
+[Wat is Power BI?](/power-bi/fundamentals/power-bi-overview)  
+[Snelle start: verbinding maken met uw gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Inleiding in datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
+[Inleiding in gegevensstromen en selfservice-gegevensvoorbereiding](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 
 

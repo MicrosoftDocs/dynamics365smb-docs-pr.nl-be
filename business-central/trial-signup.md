@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7c57b608800bdd67d633698d984b34c3143418b3
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077514"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461034"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Aanmelden voor een gratis proefversie van Dynamics 365 Business Central
 
@@ -32,7 +32,7 @@ Uw proefomgeving bevat dezelfde functies als de betaalde versie. De volgende kop
 
 ## <a name="get-started-with-a-subscription"></a>Aan de slag gaan met een abonnement
 
-Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#findpartner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prod_short](includes/prod_short.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prod_short](includes/prod_short.md)] aanpassen door apps toe te voegen uit [de commerciële marktplaats van Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prod_short](includes/prod_short.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prod_short](includes/prod_short.md)] aanpassen door apps toe te voegen uit [de commerciële marktplaats van Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt Microsoft 365. Als uw bedrijf een ander type e-mailconfiguratie gebruikt, kan de wederverkoper u helpen beslissen hoe te migreren, en of u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises moet gebruiken.  
 

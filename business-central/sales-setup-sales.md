@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell, configure
 ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0155698120705f637714242500aa77a5a20a80bf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4e34a21fc06c8c880e124db4040c088e4d235ffb
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510725"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460818"
 ---
 # <a name="setting-up-sales"></a>Verkopen instellen
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.
@@ -33,7 +33,7 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 | Het invoeren van de verschillende kortingen en speciale prijzen voor de klanten afhankelijk van artikel, aantallen en/of datum. |[Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md) |
 | Stel verkopers in zodat u ze kunt toewijzen aan klantcontactpersonen of meet de prestaties van verkopers als basis om de commissie of bonus voor verkopen te berekenen. |[Verkopers instellen](sales-how-setup-salespeople.md) |
 | Geef voor individuele klanten of voor alle klanten op hoe verkoopdocumenten standaard worden verzonden wanneer u de actie **Boeken en verzenden** kiest. |[Verzendprofielen van documenten instellen](sales-how-setup-document-send-profiles.md) |
-| Stel uw e-mail zo in dat deze een overzicht bevat van informatie in het verkoopdocument dat wordt verzonden. |[Documenten per e-mail verzenden](ui-how-send-documents-email.md). |
+| Stel uw e-mail zo in dat deze een overzicht bevat van informatie in het verkoopdocument dat wordt verzonden. |[Documenten per e-mail verzenden](ui-how-send-documents-email.md) |
 |Verifieer het btw-nummer van een klant door middel van een EU-webservice.|[Btw-nummers controleren](finance-setup-vat.md)|
 |Definieer de verschillende incoterms die u aan klanten aanbiedt of die uw leveranciers u aanbieden.|[Verzendmethoden instellen](sales-how-set-up-shipment-methods.md)|
 |Informatie invoeren over de verschillende transporteurs die u gebruikt, met een koppeling naar hun service voor het traceren van pakketten.|[Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)|

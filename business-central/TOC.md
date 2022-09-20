@@ -1,4 +1,4 @@
-# [Welkom bij Business Central](index.md)
+# [Welkom bij Business Central](index.md)  
 # [Nieuw en gepland](product-news.md)
 # Aan de slag
 ## [Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Werken met diversendagboeken](ui-work-general-journals.md)
 ### [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)
 ### [Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)
+### [Online kaarten gebruiken om locaties en routebeschrijvingen te vinden](across-online-maps.md)
 
 ### Inkomende documenten
 #### [Overzicht van inkomende documenten](across-income-documents.md)
@@ -442,6 +443,7 @@
 ### [De picklijst afdrukken](sales-how-print-picking-list.md)
 ### [Verkoop boeken](ui-post-sales.md)
 ### [Periodieke verkoopregels maken](sales-how-work-standard-lines.md)
+### [Deelverzendingen verwerken met verzendadvies](sales-how-send-partial-shipments.md)
 ### [Doorverzendingen uitvoeren](sales-how-drop-shipment.md)
 ### [Speciale orders maken:](sales-how-to-create-special-orders.md)
 ### [Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)
@@ -1635,6 +1637,7 @@
 ### [Nummerreeksen maken](ui-create-number-series.md)
 ### [Basisagenda's instellen](across-how-to-assign-base-calendars.md)
 ### [Printers instellen](ui-specify-printer-selection-reports.md)
+### [Online kaarten instellen](across-online-maps-setup.md)
 ### [Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)
 ### [Business Central op uw desktop krijgen](install-desktop-app.md)
 <!--Reporting landing page-->
@@ -1838,6 +1841,7 @@
 ### [Handmatig tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md)
 ### [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Problemen met synchronisatiefouten oplossen](admin-troubleshoot-sales-synchronization.md)
+### [Een Power Automate-stroom gebruiken voor waarschuwingen voor Dataverse-entiteitswijzigingen](admin-power-automate-flow-dataverse.md)
 ## Ontwerpdetails
 ### [Overzicht van toepassingsontwerpdetails](design-details-application-design.md)
 ### Ontwerpdetails: Voorzieningsplanning

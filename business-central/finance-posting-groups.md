@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 03/24/2022
+ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076577"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460791"
 ---
 # <a name="set-up-posting-groups"></a>Boekingsgroepen instellen
 
@@ -59,9 +59,11 @@ In de volgende tabel worden de boekingsgroepen beschreven die specifiek zijn voo
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Boekingsgroepen voor vervangende klanten of leveranciers op documenten toestaan
 
+[!INCLUDE [preview](includes/preview.md)]
+
 U kunt mensen een andere boekingsgroep voor klanten en leveranciers laten kiezen dan de standaardinstellingen wanneer ze met verkoop- of inkoopdocumenten en journaals werken.
 
-Als u wijzigingen in klantenboekingsgroep wilt toestaan, kiest u **Wijziging van boekingsgroep toestaan** op de pagina's **Verkoopinstellingen** en **Servicebeheerinstellingen**, terwijl u de pagina **Instellingen Inkoop en betalingen** kiest voor wijzigingen in leveranciersboekingsgroepen.
+Als u wijzigingen in klantenboekingsgroep wilt toestaan, kiest u **Meerdere boekingsgroepen toestaan** op de pagina's **Verkoopinstellingen** en **Servicebeheerinstellingen**, terwijl u de pagina **Instellingen Inkoop en betalingen** kiest voor wijzigingen in leveranciersboekingsgroepen.
 
 Op de pagina's **Klantenboekingsgroepen** of **Leveranciersboekingsgroepen** kunt u de boekingsgroepen specificeren die u als vervangers wilt toestaan door **Vervangingen** te kiezen. Vervangende boekingsgroepen kunnen de standaardboekingsgroepen voor klanten of leveranciers vervangen die zijn opgegeven voor een klant of leverancier.
 

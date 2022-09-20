@@ -1,5 +1,5 @@
 ---
-title: Business Central-apps gebruiken in Power BI| Microsoft Docs
+title: De Business Central-apps gebruiken in Power BI
 description: U kunt eenvoudig inzichten verwerven, bedrijfsinformatie genereren en KPI's vaststellen op basis van uw Business Central-gegevens met de Business Central-apps voor Power BI.
 author: jswymer
 ms.topic: get-started-article
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a6b6de60f6262906429127b0588ca62c9dcca1b
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519197"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461088"
 ---
 # <a name="use-the-prod_short-apps-in-power-bi"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
 
@@ -158,19 +158,18 @@ De Power BI-app toont alleen gegevens van het [!INCLUDE[prod_short](includes/pro
 [Power BI-integratieonderdeel en architectuuroverzicht voor [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
 [Werken met [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens in Power BI](across-working-with-business-central-in-powerbi.md)  
 [Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md)  
-[Power BI voor consumenten](/power-bi/consumer/end-user-consumer)  
-[De 'nieuwe look' van de Power BI-service](/power-bi/service-new-look)  
-[Snelle start: verbinding maken met uw gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
-[Power BI-documentatie](/power-bi/)  
 [Bedrijfsinformatie](bi.md)  
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Zich voorbereiden om zaken te doen](ui-get-ready-business.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power Apps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in Power Automate](across-how-use-financials-data-source-flow.md)  
-
-
+[Power BI-documentatie](/power-bi/)  
+[Wat is Power BI?](/power-bi/fundamentals/power-bi-overview)  
+[Snelle start: verbinding maken met uw gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Inleiding in datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
+[Inleiding in gegevensstromen en selfservice-gegevensvoorbereiding](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
