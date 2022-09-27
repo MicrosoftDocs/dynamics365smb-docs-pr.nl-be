@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b2e1b0971d6fe8c9c48ba2e0ca03271429c9841d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 213e7abb6dbfeacb5d095399932be5b6849b3c6b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076629"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528397"
 ---
 # <a name="about-cost-accounting"></a>Kostprijsboekhouding
 
@@ -74,7 +74,7 @@ U kunt zoveel kostenbudgetten instellen als u nodig hebt. U kunt de kostenbudget
 
 De meeste lijsten en statistieken zijn gebaseerd op de geboekte kostenposten. U kunt het sorteren van resultaten instellen en filters gebruiken om te bepalen welke gegevens moeten worden weergegeven. U kunt lijsten voor de analyse van de kostenverdeling maken. Bovendien kunt u het standaardrapportageschema gebruiken om te definiëren hoe uw rapporten voor het schema van kostentypen worden weergegeven.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8852056c5981c8db65f9048af850abbfe086c658
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361894"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524640"
 ---
 # <a name="the-image-analyzer-extension"></a>De extensie Afbeeldingsanalyse
 
@@ -29,7 +29,7 @@ Nadat u de extensie hebt ingeschakeld, wordt de Afbeeldingsanalyse steeds uitgev
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 
-Deze extensie gebruikt de Computer Vision API uit Azure Cognitive Services, die andere niveaus van nalevingsverplichtingen kan hebben dan [!INCLUDE[prod_short](includes/prod_short.md)]. Wanneer u de extensie Image Analyzer inschakelt, worden klantgegevens zoals een afbeelding van een contactpersoon of een artikel verzonden naar de Computer Vision API. Door deze extensie te installeren gaat u ermee akkoord dat deze beperkte set gegevens wordt verzonden naar de Computer Vision API. U kunt de extensie Image Analyzer altijd uitschakelen of verwijderen als u deze functionaliteit niet meer wilt gebruiken. Zie voor meer informatie [Microsoft Vertrouwenscentrum](https://go.microsoft.com/fwlink/?linkid=851463).
+Deze extensie gebruikt de Computer Vision API uit Azure Cognitive Services, die andere niveaus van nalevingsverplichtingen kan hebben dan [!INCLUDE[prod_short](includes/prod_short.md)]. Wanneer u de extensie Image Analyzer inschakelt, worden klantgegevens zoals een afbeelding van een contactpersoon of een artikel verzonden naar de Computer Vision API. Door deze extensie te installeren gaat u ermee akkoord dat deze beperkte set gegevens wordt verzonden naar de Computer Vision API. U kunt de extensie Afbeeldingsanalyse altijd uitschakelen of verwijderen als u deze functionaliteit niet meer wilt gebruiken. Zie voor meer informatie [Microsoft Vertrouwenscentrum](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Vereisten
 
@@ -39,7 +39,7 @@ Er zijn enkele vereisten voor de afbeeldingen:
 * Maximale bestandsgrootte: minder dan 4 MB  
 * Afbeeldingdimensies: groter dan 50 x 50 pixels  
 
-## <a name="to-enable-image-analyzer"></a>Afbeeldingsanalyse inschakelen
+## <a name="switch-on-the-image-analyzer-extension"></a>De extensie Afbeeldingsanalyse inschakelen
 
 De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[prod_short](includes/prod_short.md)]. U hoeft het alleen in te schakelen.
 
@@ -48,39 +48,33 @@ De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[prod_short](includes/pr
 
 Als u de extensie Afbeeldingsanalyse wilt inschakelen, voert u een van de volgende handelingen uit:
 
-* Open een artikel- of contactkaart. Kies op de berichtbalk **Afbeeldingen analyseren** en volg vervolgens de stappen in de begeleide instelling.  
-* Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer in **Serviceverbindingen** en kies vervolgens **Afbeeldingsanalyse instellen**. Kies het selectievakje **Afbeeldingsanalyse inschakelen** en volg vervolgens de stappen in de begeleide instelling.  
+* Open een artikel- of contactkaart. Kies op de berichtbalk **Afbeelding analyseren** en volg vervolgens de stappen in de begeleide instelling.  
+* Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer in **Serviceverbindingen** en kies vervolgens **Afbeeldingsanalyse instellen**. Kies het selectievakje **Afbeeldingsanalyse inschakelen** en volg vervolgens de stappen in de begeleide instelling.  
 
     > [!TIP]  
     > De pagina **Instelling van afbeeldingsanalyse** is ook waar u de mate van vertrouwen voor kenmerksuggesties kunt wijzigen. Als u bijvoorbeeld een grotere mate van vertrouwen wilt vereisen, kunt u een hoger percentage invoeren.
 
-## <a name="to-analyze-an-image-of-an-item"></a>Een afbeelding van een artikel analyseren
+## <a name="analyze-an-item-image"></a>Een artikelafbeelding analyseren
 
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het artikel en kies vervolgens de actie **Afbeelding analyseren**.  
-3. De pagina **Kenmerken van afbeeldinganalyse** bevat de ontdekte kenmerken, het vertrouwensniveau en andere informatie over het kenmerk. Gebruik de **Uit te voeren actie**-opties om te specificeren wat te doen met het kenmerk of kies **Toevoegen aan artikelbeschrijving** om de naam van het kenmerk toe te voegen aan de artikelbeschrijving. Bijvoorbeeld, het kan handig zijn om snel details toe te voegen. 
+3. De pagina **Kenmerken van afbeeldinganalyse** bevat de ontdekte kenmerken, het vertrouwensniveau en andere informatie over het kenmerk. Gebruik de **Uit te voeren actie**-opties om te specificeren wat te doen met het kenmerk of kies **Toevoegen aan artikelbeschrijving** om de naam van het kenmerk toe te voegen aan de artikelbeschrijving. Bijvoorbeeld, deze actie kan handig zijn om snel details toe te voegen.
 
-De actie **Uit te voeren actie** heeft de volgende opties:
+Het veld **Uit te voeren actie** heeft de volgende opties:
 
-  * *Negeren*
+| Actie | Omschrijving |
+| ------ | ----------- |
+| *Negeren* | Er worden geen acties uitgevoerd. |
+| *Gebruiken als kenmerk* | De waarde wordt toegevoegd aan de artikelkenmerken. Meer informatie op [Werken met artikelkenmerken](inventory-how-work-item-attributes.md). |
+| *Gebruik als categorie* | De geselecteerde waarde wordt als categorie toegevoegd. Zie voor meer informatie [Artikelen categoriseren](inventory-how-categorize-items.md). |
+| *Toevoegen aan blokkeringslijst* | Als de analyse een kenmerk voorstelt dat u niet wilt zien, kunt u het blokkeren. Wees echter voorzichtig. Geblokkeerde kenmerken worden ook niet voorgesteld voor andere artikelen. Als u betreurt dat een kenmerk is geblokkeerd, kunt u **Geblokkeerde kenmerken weergeven** kiezen en het kenmerk van de lijst verwijderen. |
 
-    Er worden geen acties uitgevoerd
-  * *Gebruiken als kenmerk*
+> [!NOTE]  
+> Standaard geeft **Artikelkenmerken** kenmerken weer waarbij **Zekerheidsscore** ligt boven **Drempelpercentage voor zekerheidsscore**, zoals gedefinieerd in de **Instelling van afbeeldingsanalyse**. Om alle gedetecteerde kenmerken te zien kiest u de actie **Alle kenmerken weergeven**.
 
-    De waarde wordt toegevoegd aan de artikelkenmerken. Zie [Werken met artikelkenmerken](inventory-how-work-item-attributes.md) voor meer informatie
-  * *Gebruik als categorie*
-
-    De geselecteerde waarde wordt als categorie toegevoegd. Zie [Artikelen categoriseren](inventory-how-categorize-items.md) voor meer informatie
-  * *Toevoegen aan blokkeringslijst*
-
-    Als de analyse een kenmerk voorstelt dat u niet wilt zien, kunt u het blokkeren. Wees echter voorzichtig. Geblokkeerde kenmerken worden ook niet voorgesteld voor andere artikelen. Als u betreurt dat een kenmerk is geblokkeerd, kunt u **Geblokkeerde kenmerken weergeven** kiezen en het kenmerk van de lijst verwijderen.
-  
-    > [!NOTE]  
-    > Standaard geeft **Artikelkenmerken** kenmerken weer waarbij **Zekerheidsscore** ligt boven **Drempelpercentage voor zekerheidsscore**, zoals gedefinieerd in de **Instelling van afbeeldingsanalyse**. Om alle gedetecteerde kenmerken te zien kiest u de actie **Alle kenmerken weergeven**.
-
-## <a name="to-analyze-a-picture-of-a-contact-person"></a>Een afbeelding van een contactpersoon analyseren
+## <a name="analyze-a-contact-person-picture"></a>Een afbeelding van een contactpersoon analyseren
 
 In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is geïmporteerd voordat u de extensie Afbeeldingsanalyse hebt ingeschakeld.  
 
@@ -89,38 +83,39 @@ In de volgende stappen wordt beschreven hoe u een afbeelding analyseert die is g
 3. Op het sneltabblad **Profielvragenlijst** controleert u de voorstellen en maakt u correcties, indien nodig. Zie voor meer informatie [Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren](marketing-create-contact-profile-questionnaire.md).  
 
     > [!NOTE]  
-    > 
+    >
     > De Computer Vision API retourneert de volgende kenmerken:
+    >
     > * *leeftijd*
     >
     >     Een geschatte 'visuele leeftijd' in jaren. Het is hoe oud een persoon eruitziet in tegenstelling tot de werkelijke biologische leeftijd.
     > * *geslacht*
     >
     >    Man of vrouw.
-    > 
+    >
     > De Computer Vision API retourneert geen betrouwbaarheidsniveau voor leeftijds- en geslachtskenmerken.
   
-## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Uw eigen account gebruiken voor de Computer Vision API
+## <a name="use-your-own-computer-vision-api-account"></a>Uw eigen Computer Vision API-account gebruiken
 
-U kunt ook uw eigen account gebruiken voor de Computer Vision-API, bijvoorbeeld als u meer afbeeldingen wilt analyseren dan we toestaan.  
+U kunt ook uw eigen account gebruiken voor de Computer Vision API, bijvoorbeeld als u meer afbeeldingen wilt analyseren dan de standaardintegratie biedt.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling van afbeeldingsanalyse** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling van afbeeldingsanalyse** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de **API-URI** en **API-sleutel** in die u voor de Computer Vision-API hebt ontvangen.  
 
     > [!NOTE]  
-    > U moet **/analyze** aan het eind van de API-URI toevoegen, als het niet al aanwezig is. Bijvoorbeeld: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
+    > U moet **/analyze** aan het eind van de API-URI toevoegen, als het niet al aanwezig is. Bijvoorbeeld: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Zien hoeveel analyses u in de huidige periode over hebt
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Zien hoeveel analyses u in de huidige periode over hebt
 
 U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de huidige periode nog kunt doen.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling van afbeeldingsanalyse** in en kies vervolgens de gerelateerde koppeling.  
-2. De **Limietsoort**, **Limietwaarde** en **Analyses uitgevoerd** bieden de gebruiksinformatie.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van afbeeldingsanalyse** in en kies vervolgens de gerelateerde koppeling.
+2. De velden **Limietsoort**, **Limietwaarde** en **Uitgevoerde analyses** bieden de gebruiksinformatie.  
 
-## <a name="to-stop-using-the-image-analyzer-extension"></a>Stoppen met het gebruik van de extensie Afbeeldingsanalyse
+## <a name="stop-using-the-image-analyzer-extension"></a>Stoppen met het gebruik van de extensie Afbeeldingsanalyse
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceverbindingen** en kies vervolgens **Afbeeldingsanalyse instellen**.  
-2. Schakel het selectievakje **Afbeeldingsanalyse inschakelen** uit.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer in **Serviceverbindingen** en kies vervolgens **Afbeeldingsanalyse instellen**.  
+2. Schakel het veld **Afbeeldingsanalyse inschakelen** uit.  
 
 U kunt de extensie ook volledig verwijderen. U kunt deze altijd weer ophalen van AppSource. Zie [Extensies installeren en verwijderen in Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension) voor meer informatie.  
 

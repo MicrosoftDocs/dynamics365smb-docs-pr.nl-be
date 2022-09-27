@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 075af1a6b1d02a68a84d504b7ffa8602b50b17f8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515601"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534098"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Business Central op uw mobiele apparaat krijgen
 
@@ -58,7 +58,7 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt 
 > [!NOTE]
 > Neem contact op met uw beheerder als u problemen ondervindt om de app correct te laten werken. Het kan een ontbrekende vereiste zijn of een onvolledige configuratie. Zie voor meer informatie [De omgeving voorbereiden voor de mobiele app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) of [Problemen oplossen met de mobiele Business Central-app On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a6b6de60f6262906429127b0588ca62c9dcca1b
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: a0ea051ec39b290706b30da455fce518cd7bdcd0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461088"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533388"
 ---
 # <a name="use-the-prod_short-apps-in-power-bi"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
 
@@ -150,7 +150,7 @@ De Power BI-app toont alleen gegevens van het [!INCLUDE[prod_short](includes/pro
 - [Selecteer een tegel](/power-bi/service-dashboard-tiles) om het onderliggende rapport te openen.  
 - Standaard wordt uw gegevensset niet volgens een schema vernieuwd. U kunt het vernieuwingsschema wijzigen of de gegevensset op aanvraag proberen te vernieuwen met de opdracht **Nu vernieuwen**. Zie [Gepland vernieuwen configureren](/power-bi/refresh-scheduled-refresh) voor meer informatie.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

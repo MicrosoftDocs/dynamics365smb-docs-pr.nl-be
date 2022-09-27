@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130186"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529743"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandboxomgevingen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ Uw beheerder beheert sandboxomgevingen in het [beheercentrum](/dynamics365/busin
 
 Als u bijvoorbeeld een sandbox voor benchmarking wilt maken, kan uw beheerder een speciale omgeving maken in het beheercentrum. Zie voor meer informatie [Productie- en sandbox-omgevingen](/dynamics365/business-central/dev-itpro/administration/environment-types) in de ontwikkelaar- en beheercontent.  
 
-U kunt sandboxes ook veilig gebruiken voor training, bijvoorbeeld voor het volgen van een leertraject vanuit [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), omdat het een veilige omgeving is om mee te experimenteren. Als er iets misgaat, verwijdert u gewoon de sandbox en begint u opnieuw.  
+U kunt sandboxes ook veilig gebruiken voor training, bijvoorbeeld voor het volgen van een leertraject vanuit [Microsoft-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), omdat het een veilige omgeving is om mee te experimenteren. Als er iets misgaat, verwijdert u gewoon de sandbox en begint u opnieuw.  
 
 Als u klaar bent, kunt u de sandbox verwijderen met behulp van het beheercentrum.  
 
@@ -43,7 +43,7 @@ De sandboxomgeving is onder andere nuttig omdat deze een aantal handige functies
 
 ## <a name="advanced-user-experience"></a>Geavanceerde gebruikerservaring
 
-Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen."::: .  
+Het is mogelijk de volledige functionaliteit van de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] in een sandboxtenant in te schakelen en uit te proberen door het veld **Ervaring** op de pagina **Bedrijfsgegevens** in te stellen op *Premium*. Zoek de pagina **Bedrijfsgegevens** in het menu van het :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="pictogram Instellingen.":::    
 
 Nadat u de *Premium*-gebruikerservaring hebt ingeschakeld, krijgt u toegang tot alle standaardprofielen (rollen) en Rolcentra in de standaardversie. U kunt ook contact opnemen met een wederverkoper voor een demonstratie van de mogelijkheden. Zie [Hoe vind ik een partner-reseller?](across-faq.yml#how-do-i-find-a-reselling-partner) voor meer informatie.  
 
@@ -70,7 +70,7 @@ Zie [Use Designer](/dynamics365/business-central/dev-itpro/developer/devenv-incl
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

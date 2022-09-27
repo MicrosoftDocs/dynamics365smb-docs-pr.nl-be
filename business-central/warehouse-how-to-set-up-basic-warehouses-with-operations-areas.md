@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 548654c36264a0b2bc401c4c1db39fa3d053f776
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0f90d7e92f4196a27712a1eedbd3cd66c15a9fc2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074444"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534034"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Standaardmagazijnen met bewerkingsgebieden instellen
 
@@ -142,7 +142,7 @@ Een specifieke opslaglocatie maken biedt vergelijkbare functies als voor het geb
 > [!NOTE]  
 >  De opslaglocatie moet leeg zijn voordat u het veld **Speciaal** kunt selecteren of wissen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also"></a>Zie ook
 

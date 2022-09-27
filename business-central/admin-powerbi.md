@@ -11,12 +11,12 @@ ms.search.form: 6316, 6317
 ms.reviewer: edupont
 ms.date: 08/30/2022
 ms.author: jswymer
-ms.openlocfilehash: 0742320b4cb334b3c01c86ec0e10ec82114bd215
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 43c0b32a25d8ebb55aae14937a6d8c2269395963
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460743"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533926"
 ---
 # <a name="introduction-to-prod_short-and-power-bi"></a>Inleiding in [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
@@ -76,7 +76,7 @@ Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan
 
 -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

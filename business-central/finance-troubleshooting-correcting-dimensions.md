@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 82f71f3fafb0b977dde28033443f4585aeaced52
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2f9662df035851c1700a3b5ca01b71a418832dbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075433"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532848"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Problemen met dimensies oplossen en dimensies corrigeren
 
@@ -122,7 +122,7 @@ Als een correctie niet wordt voltooid, wordt er een waarschuwing weergegeven op 
 
 Nadat u de dimensies heeft aangepast, zijn uw gegevens voor kostprijsboekhouding niet meer gesynchroniseerd. Kostprijsboekhouding gebruikt dimensies om bedragen voor kostenplaatsen en kostenobjecten te aggregeren en om kostentoewijzingen uit te voeren. Als u de dimensies voor grootboekboekingen wijzigt, betekent dit waarschijnlijk dat u uw kostenberekeningsmodellen opnieuw uitvoert. Of u slechts een paar kostenregisters moet verwijderen en toewijzingen opnieuw moet uitvoeren of dat u alles moet verwijderen en al uw modellen opnieuw moet uitvoeren, hangt af van de gegevens die zijn bijgewerkt en hoe uw kostenberekeningsmogelijkheden zijn ingesteld. U moet handmatig identificeren waar dimensiecorrecties van invloed zijn op de kostenberekening en waar updates nodig zijn. [!INCLUDE[prod_short](includes/prod_short.md)] biedt momenteel geen geautomatiseerde manier om dat te doen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

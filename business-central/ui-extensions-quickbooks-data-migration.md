@@ -10,12 +10,12 @@ ms.search.keywords: app, add-in, manifest, customize, import, implement
 ms.search.form: 1911, 1912, 1913, 1914, 1915, 1916, 1918, 1919
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99a7e12543751fef0297051a64f19c2fb5700022
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 620218c86be81578b7f40ab74434d4004d5f2db2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361649"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530877"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>De QuickBooks-extensie gegevensmigratie
 
@@ -66,11 +66,11 @@ Er is met name een aantal dingen die u moet doen: als de transacties in QuickBoo
 Als u btw gebruikt, hebt u mogelijk een bedrijfsboekingsgroep en een productboekingsgroep in de boekingsinstellingen nodig, zodat u btw-bedragen kunt boeken.
 Controleer de beginsaldi voor de rekeningen in het grootboek. QuickBooks slaat het huidige saldo van alle rekeningen niet op, dus u moet mogelijk beginsaldi corrigeren.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies ](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

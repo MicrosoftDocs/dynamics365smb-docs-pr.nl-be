@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87fb665d57aaa6c66b4b3c2659d9e93a6e51239d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 22f0ecdf185d3b2e31d23dd2492223179328d103
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514055"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533145"
 ---
 # <a name="create-gl-budgets"></a>Grootboekbudgetten maken
 
@@ -49,7 +49,7 @@ Zoals bij vrijwel alle overige pagina's kunt u gegevens op budgetpagina's naar E
 > [!NOTE]
 > Het rekeningschema, waarop grootboekbudgetten zijn gebaseerd, bevat regels van het rekeningtype Kop die het totaal bevatten van de regels eronder. Wanneer u een grootboekbudget exporteert, worden gegevens op alle regels geëxporteerd, ongeacht het rekeningtype. Alleen gegevens van het rekeningtype Boeking kunnen echter terug worden geïmporteerd. Zodoende: <br /><br /> **Wanneer u een grootboekbudget importeert, worden eventuele waarden op kopregels verwijderd.** <br /><br /> Hierdoor worden verkeerde totalen voorkomen nadat gegevens zijn geïmporteerd die zijn gemaakt of bewerkt in Excel.<br /><br /> **Scenario**: u weet dat de nieuwe gebudgetteerde salarissenkosten LV 1.200.000 zullen zijn. U wilt de afdeling Salarissen laten budgetteren voor drie specifieke regels (van het rekeningtype Boeking) voor fulltime werknemers, parttime werknemers en invalkrachten. De drie regels worden gegroepeerd onder de kopregel Salarissen.<br /><br />U voert 1.200.000 op de kopregel in, exporteert het budget naar Excel en stuurt het vervolgens naar de afdeling Salarissen, waarbij u hen aangeeft de LV 1.200.000 te distribueren.<br /><br /> De afdeling Salarissen distribueert het bedrag over de drie boekingsrekeningen. Wanneer u terug importeert in het grootboekbudget, worden de drie rekeningen ingevuld met de nieuwe Excel-gegevens, tot een totaal van 1.200.000, en is de kopregel leeg.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

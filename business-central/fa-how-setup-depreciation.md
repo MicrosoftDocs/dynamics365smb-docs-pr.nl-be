@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c1912cf6c6e755949e8aa32b749145efc8b70783
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079206"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534682"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Afschrijving van vaste activa instellen
 
@@ -95,7 +95,7 @@ Bij het berekenen van de afschrijvingen wordt in de batchverwerking Afschrijving
 
 Als u dit veld selecteert, wordt in de batchverwerking Afschrijving berekenen het agendajaar van 365 dagen gebruikt, waarbij elke maand hetzelfde aantal dagen heeft als op de agenda. De enige uitzondering is februari in schrikkeljaren, die door de batchtaak worden beschouwd als 28 dagen en niet 29. Daarom worden alle jaren, ook schrikkeljaren, geacht 365 dagen te hebben.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also"></a>Zie ook
 

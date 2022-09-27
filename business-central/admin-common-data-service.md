@@ -7,12 +7,12 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 251376700e140043705ce05fcf47f7ebbb0dcd4b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 422466c83d3f86f9afa611f5ef578482eadaf275
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079622"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531768"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integreren met Microsoft Dataverse
 
@@ -31,7 +31,7 @@ De volgende stappen geven een overzicht van de stappen om [!INCLUDE[prod_short](
 
 ## <a name="getting-started-with-prod_short"></a>Aan de slag met [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Om mee te beginnen met [!INCLUDE[prod_short](includes/cds_long_md.md)] hebt u een Microsoft Power Apps-account nodig. Als u nog geen Power Apps-account hebt, kunt u er een gratis krijgen door te gaan naar [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en de koppeling **Ga gratis aan de slag** te kiezen. Voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/cds_long_md.md)] raadpleegt u de module [Aan de slag met Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) van Microsoft Learn.
+Om mee te beginnen met [!INCLUDE[prod_short](includes/cds_long_md.md)] hebt u een Microsoft Power Apps-account nodig. Als u nog geen Power Apps-account hebt, kunt u er een gratis krijgen door te gaan naar [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en de koppeling **Ga gratis aan de slag** te kiezen. Voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/cds_long_md.md)] raadpleegt u de module [Aan de slag met Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) van Microsoft-training.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Bidirectionele of unidirectionele gegevenssynchronisatie
 
@@ -62,7 +62,7 @@ Zie voor informatie over elke rol, zoals de machtigingen en toegangsniveaus, [Ge
 
 Tijdens het instellen van de verbinding worden integratietabeltoewijzingen gemaakt die nodig zijn om gegevens te synchroniseren. Entiteiten in [!INCLUDE[prod_short](includes/cds_long_md.md)] worden toegewezen aan tabellen en tabelvelden in Business Central via integratietabellen. Zie voor meer informatie [Standaardtoewijzing van entiteit voor synchronisatie](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also"></a>Zie ook
 

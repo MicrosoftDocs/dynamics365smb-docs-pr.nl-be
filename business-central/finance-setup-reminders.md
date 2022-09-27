@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 09e6bf269e8561dab5d205bc61d81ac40787200c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 24188a9eddda8d91e33058039b092ed8fcb37414
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075485"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534628"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>De termijnen en niveaus van aanmaningen instellen
 
@@ -98,7 +98,7 @@ Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden d
 
 Nadat u de aanmaningscondities hebt ingesteld (met aanvullende niveaus en tekst), voert u een van de codes in op elke klantenkaart. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/send-reminders-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 3933aa279b31b40fa2c222a9516c654cb6cfce7f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362034"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533872"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Werken met betalingstolerantie en contantkortingstolerantie
 
@@ -278,7 +278,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

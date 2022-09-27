@@ -9,12 +9,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 05/12/2022
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: f1128a9fb4e9643286e4305695e1d40719d86301
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 056fe537df2fba23e02cb4e70675937cde724fbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079336"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533037"
 ---
 # <a name="use-prod_short-in-power-automate-flows"></a>[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in Power Automate-stromen
 
@@ -51,7 +51,7 @@ U kunt stromen maken op de website [powerautomate.microsoft.com](https://powerau
 
 U kunt een overzicht krijgen van alle werkstromen waartoe u toegang hebt door te kiezen voor de actie **Werkstromen beheren** in het menu **Power Automate**. De lijst wordt geopend in een nieuw browsertabblad en u wordt automatisch aangemeld bij Power Automate. Daar kunt u zien wanneer elke stroom voor het laatst is uitgevoerd.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/use-power-automate/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/use-power-automate/)
 
 ## <a name="see-also"></a>Zie ook
 

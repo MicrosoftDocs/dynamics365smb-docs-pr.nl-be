@@ -5,7 +5,7 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
 ## Leren
 ### [Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)
-### [Business Central op Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Business Central-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Procedures voor bedrijfsprocessen
 #### [Beschikbare procedures](walkthrough-business-process-walkthroughs.md)
 #### [Procedure: Een verkoopcampagne uitvoeren](walkthrough-conducting-a-sales-campaign.md)

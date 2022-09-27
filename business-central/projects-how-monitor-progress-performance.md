@@ -10,12 +10,12 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.date: 08/04/2022
 ms.author: edupont
-ms.openlocfilehash: 8dc52a0d00c7596eb2333e92e8e77f4d1caaa243
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.openlocfilehash: 9b4c511c0cdaa6be6147ab1df3672f07b58c2b81
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227458"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528936"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Voortgang en prestaties van projecten bewaken
 
@@ -146,7 +146,7 @@ Alle posten met betrekking tot een project worden in projectjournalen opgeslagen
 
 De pagina **Projectposten** wordt geopend, waarin u de posten die zijn gekoppeld aan een project, kunt bekijken.  
 
-## <a name="find-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training"></a>Gerelateerde [Microsoft-training](/training/paths/calculate-post-job-wip/) zoeken
 
 ## <a name="see-also"></a>Zie ook
 

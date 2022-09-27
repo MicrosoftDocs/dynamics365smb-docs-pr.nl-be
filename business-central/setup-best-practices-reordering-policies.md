@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f12a5156cbad785ccede27bbe176b7e3ccd74d9c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077540"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531066"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Aanbevolen procedures instellen: Bestelbeleid
 
@@ -41,7 +41,7 @@ De volgende tabel bevat de aanbevolen procedures voor het selecteren van de vier
 |**Vast bestelaantal**|Gebruiken voor C-producten.<br /><br /> Combineren met bestelpuntparameters.<br /><br /> Gebruiken in de productie voor onderdelen van het laagste niveau.<br /><br /> Niet gebruiken als het artikel vaak wordt gereserveerd.|C-artikelen, zoals theekopjes, zijn artikelen met een lage waarde en een hoge en regelmatige bestelsnelheid. Het beste bestelbeleid voor C-artikelen is daarom een beleid dat constante beschikbaarheid garandeert door altijd boven het bestelpunt te blijven.<br /><br /> Als de gebruiker een hoeveelheid reserveert voor een onzekere vraag, raakt de planning verstoord. Zelfs als de geplande voorraad met betrekking tot het bestelpunt aanvaardbaar is, zijn de hoeveelheden mogelijk niet beschikbaar vanwege de reservering.|  
 |**Maximum aantal**|Gebruiken voor C-artikelen met hoge transportkosten of opslagbeperkingen.<br /><br /> Combineren met een of meer orderwijzigingen (Minimum/Maximum bestelaantal of lotgrootte).|C-artikelen, zoals theekopjes, zijn artikelen met een lage waarde en een hoge en regelmatige bestelsnelheid. Het beste bestelbeleid voor C-artikelen is daarom een beleid dat constante beschikbaarheid garandeert door altijd boven het bestelpunt te blijven, maar onder een maximum voorraadhoeveelheid.<br /><br /> Om het voorgestelde order te wijzigen, kunt u het bestelaantal verlagen tot een opgegeven maximum bestelaantal, verhoogd tot een opgegeven minimum bestelaantal of afgerond tot het voldoet aan een opgegeven lotgrootte. **Opmerking:** als dit in combinatie met een bestelpunt wordt gebruikt, blijft de voorraad tussen bestelpunt en het maximum aantal.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/replenish-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

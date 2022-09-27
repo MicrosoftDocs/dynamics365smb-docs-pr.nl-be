@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417531"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530931"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Werken met btw op verkoop en inkoop
 Als uw land of regio vereist dat u belasting over de toegevoegde waarde (btw) op verkoop- en aankooptransacties berekent en rapporteert, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] instellen voor het berekenen van btw. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
@@ -193,7 +193,7 @@ Als u een groep certificaten wilt weergeven, begint u op de pagina **Certificate
 > * Handmatig een certificaat van levering maken  
 > * Een certificaat van levering afdrukken.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -10,12 +10,12 @@ ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853,
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: fd48dacda54a5a81a7bb3a734201da31e8eb5453
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: ad8a1b1945331c9db4ef326bdf2bb36e68b35aaa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362261"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533521"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>De extensie Verkoop- en voorraadprognose
 
@@ -64,13 +64,13 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling van verkoop- en voorraadprognose** in en kies vervolgens de gerelateerde koppeling.  
 7. Vouw het sneltabblad **Algemeen** uit en vul de velden API-URL en API-sleutel in.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## <a name="see-also"></a>Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
-[Artificial Intelligence in Microsoft Dynamics 365 Business Central (Microsoft Learn) gebruiken](/learn/paths/use-artificial-intelligence/)  
+[Artificial Intelligence in Microsoft Dynamics 365 Business Central gebruiken](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

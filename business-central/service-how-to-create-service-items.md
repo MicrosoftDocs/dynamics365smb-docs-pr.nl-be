@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 80c8eab293fbabd05e385c89f63f7900a7e7cbde
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 89434ef4ac6b9421859791e4e04f895d506e78bb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074553"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530175"
 ---
 # <a name="create-service-items"></a>Serviceartikelen maken
 
@@ -62,7 +62,7 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 
     Er wordt een serviceregel van het type **Kosten** ingevoegd met het starttarief. Het starttarief is van toepassing op het geselecteerde serviceartikel.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-items/)
 
 ## <a name="see-also"></a>Zie ook
 

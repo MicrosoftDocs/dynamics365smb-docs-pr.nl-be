@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 12b51af89894c428120ddd6c4639a397bd8a4d97
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075537"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529257"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Sjablonen voor btw-overzichten en namen voor btw-aangiften instellen
 
@@ -45,7 +45,7 @@ Nadat u een btw-aangifte hebt gedefinieerd, kunt u er een voorbeeld van bekijken
 4. Op de regels waarop het veld **Soort** de waarde **Btw-postentotaal** bevat, kunt u een lijst zien met btw-posten door het bedrag in het veld **Bedrag** te kiezen.
 5. U kunt personalisatie gebruiken om meer velden op de regels weer te geven. Bijvoorbeeld het ongerealiseerde basisbedrag en het ongerealiseerde btw-bedrag, als u ongerealiseerde btw gebruikt.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/21/2022
 ms.author: jswymer
-ms.openlocfilehash: ac75505d2f9987037cf04bbe96a0a1eb398c737c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 94ff94bab70582f4f9b4dcd73a5923931317d6f1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655857"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530337"
 ---
 # <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
 
@@ -128,7 +128,7 @@ Als u de Outlook-app gebruikt, kiest u gewoon **Documentkoppeling** boven aan he
 > Vanaf releasewave 1 van 2022 openen documenten in een nieuw browservenster met alle mogelijkheden die u kent van [!INCLUDE [prod_short](includes/prod_short.md)]. U kunt van een document naar een lijst navigeren en weer terug, lijsten openen in Excel, documenten verzenden om af te drukken en gerelateerde rapporten uitvoeren of bekijken. U beschikt ook over alle bekende sneltoetsen wanneer u documenten vanuit Outlook opent.  
 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

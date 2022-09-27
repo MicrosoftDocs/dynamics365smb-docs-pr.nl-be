@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 0feba901ac569c0cbd714f8ea3d3c271c82425bd
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 922d80f054b2daea6c06b7c440ac3605fa0bd243
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144152"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529392"
 ---
 # <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
 
@@ -235,7 +235,7 @@ Nadat u de nieuwe bankrekening hebt gemaakt, moet u ook een nieuwe bankboekingsg
 
 Om een beknopter beeld te krijgen van uw cashrekeningen in financiële rapportage, gebruikt u de rekeningen **Begintotaal** en **Eindtotaal** in uw rekeningschema, de rijen **Samentelling** in rekeningschema's of grootboekrekeningcategorieën. Voor meer informatie zie het gedeelte [Business Intelligence en Financial Reporting](bi.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

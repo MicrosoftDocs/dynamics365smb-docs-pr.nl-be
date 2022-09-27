@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 9830e4e842cc7fe3febcbe809547ad26701f527d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60fc44ff10b762c3cba9bbae2447982214b34e24
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781850"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535141"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Trainingscatalogus voor partnerverkoop en -marketing
 
@@ -22,17 +22,17 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 | Inhoud     | Omschrijving    | Opmaak                                | Lengte              |
 |-------------|----------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Alleen partners) In deze sessie wordt de waarde van Business Central uiteengezet. Business Central biedt hoge waarde, omdat het geïntegreerd kan worden met andere Microsoft-cloudservices, zoals Microsoft 365, en kan worden aangepast of uitgebreid voor de behoeften van een bepaalde sector met Power Apps, Power Automate en Power BI. | Video                                 | 8 minuten, 5 seconden |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Alleen partners) In deze sessie wordt de waarde van Business Central uiteengezet. Business Central biedt grote waarde, omdat het geïntegreerd kan worden met andere Microsoft cloudservices, zoals Microsoft 365, en kan worden aangepast of uitgebreid voor de behoeften van een bepaalde sector met Power Apps, Power Automate en Power BI. | Video                                 | 8 minuten, 5 seconden |
 | [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/) | De mogelijkheden van Dynamics 365 Business Central verkennen    | Website    |                     |
-| [Dynamics 365 Business Central](/learn/modules/dynamics-365-business-central/)            | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond.    | Gratis online leertraject voor zelfstudie | 24 minuten          |
+| [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond.    | Gratis online leertraject voor zelfstudie | 24 minuten          |
 
 ## <a name="getting-started"></a>Aan de slag<a name="get-started"></a>
 
 | Inhoud   | Omschrijving   | Opmaak                                | Lengte              |
 |-----------|---------------|---------------------------------------|---------------------|
-| [Aan de slag met Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)                          | Wilt u graag meer weten over Business Central? Dan is dit leertraject een goede introductie. Hierin wordt besproken hoe u een proef opzet, u krijgt basisinformatie over wat er beschikbaar is en u ziet enkele personaliseringsopties om Business Central aan uw gebruik aan te passen.          | Gratis online leertraject voor zelfstudie | 3 uur, 4 minuten   |
-| [Werken met de gebruikersinterface van Microsoft Dynamics 365 Business Central](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Wilt u meer weten over de gebruikersinterface van Business Central? In dit leertraject ziet u de gebruikersinterface en leert u hoe u deze op uw persoonlijke wensen kunt afstemmen. Hierin komen ook andere interfaces aan de orde, zoals een smartphone.    | Gratis online leertraject voor zelfstudie | 2 uur, 27 minuten  |
-| [Professioneel werken met gegevens in Business Central](/learn/paths/work-pro-data-dynamics-365-business-central) | Bent u net begonnen met Business Central? In dit leertraject maakt u kennis met de typen gegevens in Business Central en hoe u in de toepassing de informatie kunt vinden die u nodig hebt.      | Gratis online leertraject voor zelfstudie | 2 uur, 27 minuten  |
+| [Aan de slag met Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/)                          | Wilt u graag meer weten over Business Central? Dan is dit leertraject een goede introductie. Hierin wordt besproken hoe u een proef opzet, u krijgt basisinformatie over wat er beschikbaar is en u ziet enkele personaliseringsopties om Business Central aan uw gebruik aan te passen.          | Gratis online leertraject voor zelfstudie | 3 uur, 4 minuten   |
+| [Werken met de gebruikersinterface van Microsoft Dynamics 365 Business Central](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Wilt u meer weten over de gebruikersinterface van Business Central? In dit leertraject ziet u de gebruikersinterface en leert u hoe u deze op uw persoonlijke wensen kunt afstemmen. Hierin komen ook andere interfaces aan de orde, zoals een smartphone.    | Gratis online leertraject voor zelfstudie | 2 uur, 27 minuten  |
+| [Professioneel werken met gegevens in Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Bent u net begonnen met Business Central? In dit leertraject maakt u kennis met de typen gegevens in Business Central en hoe u in de toepassing de informatie kunt vinden die u nodig hebt.      | Gratis online leertraject voor zelfstudie | 2 uur, 27 minuten  |
 | [Business Central YouTube-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube-bestemmingspagina voor Dynamics 365 Business Central-video's  | YouTube-video's  |                     |
 
 ## <a name="grow-your-business"></a>Laat uw bedrijf groeien<a name="grow"></a>
@@ -46,6 +46,5 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Programma voor Cloud Solution Providers - programma's voor partnerondersteuning vergelijken](https://partner.microsoft.com/support/partnersupport) | Bekijk deze video om te zien hoe u het juiste partnerondersteuningsplan voor uw bedrijf kiest. Bekijk daarna de vergelijking hieronder.    | Website                               |                       |
 | [Cloud SureStep Accelerated Selling](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Alleen partners) Het Cloud SureStep Accelerated Sales-proces is gebouwd rondom de behoeften van de moderne inkoper en streeft ernaar al vroeg in het verkoopproces een emotioneel, ervaringgestuurd strategisch kantelpunt te triggeren. Deze serie video's en informatiebronnen legt een prescriptief verkoopproces uit dat specifiek is ontworpen als tegenwicht tegen de traditionele resource-intensieve, 'demo-georiënteerde' aanpak van de verkoop van oplossingen, die doorgaans leidt tot sterk aangepaste productdemonstraties, complexe verkoopcycli en lange implementatieprojecten. De bronnenbibliotheek bevat een aantal aanpasbare sjablonen, zodat u uw eigen set verkoopmiddelen kunt maken om versnelde verkoop te ondersteunen. | Website     |                       |
 | [Aanvulling op het Transition Partner Playbook (juli 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Deze aanvulling op het Transition Partner Playbook biedt een aantal bijgewerkte en nieuwe richtlijnen voor partners om hun bestaande klantenbestand te beveiligen tegen concurrentie en nieuwe SaaS-deelnemers.  | PowerPoint-diavoorstelling | 15 dia's |
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

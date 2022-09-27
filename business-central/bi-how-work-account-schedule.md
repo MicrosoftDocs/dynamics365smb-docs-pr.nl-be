@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 780034b8c53e7bb1704e13d0b1a00158583c11db
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129751"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531741"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën
 
@@ -66,7 +66,7 @@ De rapportageschema's in de standaardversie van [!INCLUDE[prod_short](includes/p
 6. Afhankelijk van wat u wilt analyseren, kiest u de acties **Grootboekrekeningen invoegen**, **CF-accounts invoegen** en **Kostensoorten invoegen** om een rij te maken voor elk financieel element. U hebt bijvoorbeeld één rij voor vlottende activa en een andere rij voor vaste activa. Zie voor inspiratie de bestaande rapportageschema's in het demonstratiebedrijf CRONUS.
 
     > [!NOTE]
-    > Het veld **Rijnr.** toont de eerste tien tekens van een identificatie, bijvoorbeeld een rekeningnummer. Als u elementen toevoegt met identifiers die beginnen met dezelfde 10 tekens, krijgt u duplicaten in het veld **Rijnr.** . Indien nodig kunt u de id's handmatig bewerken nadat u de elementen hebt ingevoegd. De volledige identifiers worden weergegeven in het veld **Samentelling**.
+    > Het veld **Rijnr.** toont de eerste tien tekens van een identificatie, bijvoorbeeld een rekeningnummer. Als u elementen toevoegt met identifiers die beginnen met dezelfde 10 tekens, krijgt u duplicaten in het veld **Rijnr.**   Indien nodig kunt u de id's handmatig bewerken nadat u de elementen hebt ingevoegd. De volledige identifiers worden weergegeven in het veld **Samentelling**.
 
 7. Kies de actie **Overzicht** om het resulterende financiële rapport te bekijken.
 8. Selecteer op de pagina **Rapportageschemaoverzicht** in het veld **Kolomindelingnaam** een andere kolomindeling om de financiële gegevens door andere parameters te bekijken.
@@ -164,7 +164,7 @@ U kunt rekeningschema's importeren en exporteren als RapidStart-configuratiepakk
 > [!NOTE]
 > Wanneer u rekeningschema's importeert, worden bestaande records die dezelfde naam hebben als de records die u importeert, verwijderd.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

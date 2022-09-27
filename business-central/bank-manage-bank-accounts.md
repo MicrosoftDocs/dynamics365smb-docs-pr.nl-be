@@ -10,12 +10,12 @@ ms.search.keywords: reconcile
 ms.search.form: 377, 378, 165, 1284
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 2903e6d8564a48464c1ae5ce493270f3b46781a1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 352304983b331d361947d88fdafc134d50fe70a3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516381"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530904"
 ---
 # <a name="manage-and-reconcile-your-bank-accounts"></a>Uw bankrekeningen beheren en reconciliëren
 
@@ -38,7 +38,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 > [!TIP]
 > Gebruik bankreconciliatie om te controleren of uw boeken up-to-date zijn en boek de reconciliatie pas als u er tevreden mee bent.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

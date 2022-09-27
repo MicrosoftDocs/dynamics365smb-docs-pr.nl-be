@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3f9cb0690bf21c3b4571ff65486038499af010e9
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ba0a00ecb2a0a4ed5f11cf9b898b0ae9aee6edf9
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078556"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528852"
 ---
 # <a name="create-special-orders"></a>Speciale orders maken
 
@@ -44,7 +44,7 @@ Een inkooporder die is gemaakt als speciale order voor een verkooporder wordt ov
 > [!NOTE]  
 >  U kunt de functionaliteit voor speciale volgorde niet gebruiken als het item al is gereserveerd. Zorg er daarom voor dat voor artikelen die zijn verkocht op speciale orders het veld **Reserveren** op de artikelkaart niet is ingesteld op **Altijd**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

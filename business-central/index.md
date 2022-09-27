@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 07dfa98c8499a2a9c7de9d5005d941f8d65aa7fb
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 0f1e728b67555fcbde041f556265824b1a64a169
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805086"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529041"
 ---
 # <a name="welcome-to-prod_long"></a>Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -30,11 +30,11 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] al hebt, meld u dan aan bij
 
 ## <a name="microsoft-docs"></a>Microsoft Docs
 
-In het navigatiepaneel links vindt u informatie over het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)] in uw bedrijf. Vind koppelingen naar beschrijvingen van de meest gebruikte mogelijkheden in het gedeelte [Bedrijfsprocessen](#business-processes). Zie ook de sectie [De site docs.microsoft.com gebruiken voor meer informatie](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more).  
+In het navigatiepaneel links vindt u informatie over het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)] in uw bedrijf. Vind koppelingen naar beschrijvingen van de meest gebruikte mogelijkheden in het gedeelte [Bedrijfsprocessen](#business-processes). Zie ook de sectie [Meet leren met behulp van de productdocumentatie](product-help-and-support.md#learn-more-using-the-product-documentation).
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-U kunt ook [onze videobibliotheek bezoeken](across-videos.md) of beginnen met het leertraject [Aan de slag met Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) op [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+U kunt ook [onze videobibliotheek bezoeken](across-videos.md), of beginnen met het leertraject [Aan de slag met Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) op [Microsoft-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
 > Tenzij anders aangegeven, weerspiegelt de inhoud op de Docs.microsoft.com-site de nieuwste versie van [!INCLUDE[prod_short](includes/prod_short.md)] online. Als uw organisatie een andere versie van [!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt, zijn sommige mogelijkheden mogelijk nog niet beschikbaar. Ook als uw organisatie gebruik maakt van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, gebruikt u mogelijk een eerdere versie. Zie voor meer informatie [Veelgestelde Vragen](across-faq.yml).
@@ -78,7 +78,7 @@ De volgende secties verwijzen naar belangrijke artikelen die u kunnen helpen ver
 
 ## <a name="learn"></a>Leren
 
-U vindt gratis e-learning-inhoud voor [!INCLUDE[prod_short](includes/prod_short.md)] op [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+U vindt gratis e-learning-inhoud voor [!INCLUDE[prod_short](includes/prod_short.md)] op [Microsoft-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze videobibliotheek. Zie voor meer informatie [Bezoek onze videobibliotheek](across-videos.md).  
 
@@ -94,11 +94,11 @@ U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze vi
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## <a name="see-also"></a>Zie ook
 
-[Dynamics 365 Business Central op Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Dynamics 365 Business Central-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 [Aan de slag met Business Central](ui-get-ready-business.md)  
 [Bezoek onze videobibliotheek](across-videos.md)  
@@ -107,7 +107,7 @@ U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze vi
 [[!INCLUDE[prod_short](includes/prod_short.md)] krijgen op uw mobiele apparaat](install-mobile-app.md)  
 [Werken met dimensies](finance-dimensions.md)  
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
-[De site docs.microsoft.com gebruiken voor meer informatie](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
+[Meer leren met behulp van de productdocumentatie](product-help-and-support.md#learn-more-using-the-product-documentation)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-naleving](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-voorwaarden van online services](compliance/compliance-service-compliance.md#service-terms)  
 [Grote updates en kleine updates van Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

@@ -10,12 +10,12 @@ ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951,
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c62b50867383ffb4aa9b3bff375d9c36a1e194c
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: a2b6cc372846ec525c9f035aa98c5daafbf31913
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361514"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533785"
 ---
 # <a name="the-late-payment-prediction-extension"></a>De extensie Voorspelling van te late betaling
 
@@ -118,13 +118,13 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 7. Kies het selectievakje **Mijn Azure-abonnement gebruiken**.
 8. Voer op het sneltabblad **Aanmeldingsgegevens van mijn model** de API-URL en API-sleutel voor uw model op.  .  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/predict-late-payments-sales-documents/)
 
 ## <a name="see-also"></a>Zie ook
 
 [Documentatie van Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Business Central aanpassen met extensies](ui-extensions.md)  
 [Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-[Artificial Intelligence in Microsoft Dynamics 365 Business Central (Microsoft Learn) gebruiken](/learn/paths/use-artificial-intelligence/)  
+[Artificial Intelligence in Microsoft Dynamics 365 Business Central gebruiken](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

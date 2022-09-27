@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1447627f14d08e1e432d613298f4b29592864d4d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 88f1756c7d0b499fa582bd861a81d1b45a83a46b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078946"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532012"
 ---
 # <a name="set-up-resources-for-projects"></a>Resources instellen voor projecten
 
@@ -80,7 +80,7 @@ Naast de prijs die op de resourcekaart wordt opgegeven, kunt u alternatieve prij
 3. Vul op de pagina **Resourceprijzen** indien nodig de velden op een regel in.
 4. Herhaal stap 3 voor elke alternatieve resourceprijs die u wilt instellen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>Zie ook
 

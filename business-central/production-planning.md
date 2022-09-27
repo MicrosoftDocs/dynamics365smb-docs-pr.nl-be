@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a8aeed07a17e19de22e751ac6c11959096a412a
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5fd4e6b1cf7e5f77c1273a58223f0c0b55db1ab0
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079076"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534844"
 ---
 # <a name="planning"></a>Planning
 
@@ -45,7 +45,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |De geplande beschikbare voorraad voor een artikel bekijken in verschillende weergaven en nagaan welke brutobehoeften, geplande ontvangsten en andere gebeurtenissen hierop in de loop van de tijd van invloed zijn.|[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)|  
 <!--|Geselecteerde planningsactiviteiten, zoals het wijzigen of toevoegen van planningsvoorstelregels, in een grafische weergave van de toeleveringsketen uitvoeren.|[Planningsuggesties in een grafische weergave wijzigen](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

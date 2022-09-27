@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 01b48fad86c805da2120477fc9f6d5f0f5bcdb94
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799757"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533899"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat instellen en rapporteren
 
@@ -173,7 +173,7 @@ In veel landen/regio's hanteren de belastingdienst en de douane goederencodes va
 
 Voeg op de pagina **Tariefcodes** alle codes toe die u gebruikt. U moet de codes invoeren op de artikelkaart voordat u kunt beginnen met boeken. Als u de codes hebt ingesteld, voert u ze in het veld **Tariefnr.** op de artikelkaart in. U moet ook het veld **Nettogewicht** op de artikelkaart invullen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

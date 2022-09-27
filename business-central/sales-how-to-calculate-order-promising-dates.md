@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8a310ba099c6eb5c90d116304240db3291bac67c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ebe70f9fdd98f68616b15eaf37154c6072c601a8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079518"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533575"
 ---
 # <a name="calculate-order-promising-dates"></a>Ordertoezeggingsdatums berekenen
 
@@ -134,7 +134,7 @@ Voordat u een artikel in de ordertoezeggingsberekening kunt opnemen, moet het zi
     - Selecteer **CTP** als u weet dat het artikel momenteel niet in voorraad is en de vroegste datum moet worden berekend waarop het artikel beschikbaar wordt door nieuwe aanvullende behoefteregels te maken.  
 5.  Kies de knop **Accepteren** om de vroegst beschikbare verzenddatum te accepteren.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

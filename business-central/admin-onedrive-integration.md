@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514607"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524554"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>OneDrive-integratie met Business Central beheren
 
@@ -53,7 +53,7 @@ Als onderdeel van een noodhersteloefening moeten beheerders mogelijk een [!INCLU
 
 ## <a name="configuring-business-central-on-premises"></a>Business Central On-Premises configureren
 
-Een beheerder moet de verbinding opzetten tussen [!INCLUDE[prod_short](includes/prod_short.md)] on premises en OneDrive. In tegenstelling tot [!INCLUDE[prod_short](includes/prod_short.md)] online is de verbinding niet automatisch. Als de verbinding niet is geconfigureerd, kunnen gebruikers de functies niet gebruiken voor OneDrive. 
+Een beheerder moet de verbinding opzetten tussen [!INCLUDE[prod_short](includes/prod_short.md)] on premises en OneDrive. In tegenstelling tot [!INCLUDE[prod_short](includes/prod_short.md)] online is de verbinding niet automatisch. Als de verbinding niet is geconfigureerd, kunnen gebruikers de functies niet gebruiken voor OneDrive.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan alleen worden verbonden met OneDrive gehost door Microsoft in de cloud. [!INCLUDE[prod_short](includes/prod_short.md)] on premises verbinden met de My Sites-opslag van SharePoint Server wordt niet ondersteund.
 
@@ -64,7 +64,7 @@ Een beheerder moet de verbinding opzetten tussen [!INCLUDE[prod_short](includes/
 >* Als u een rapport naar een bestand exporteert, wordt het bestand automatisch gekopieerd naar OneDrive en vervolgens geopend in Excel Online, Word Online of OneDrive. 
 >* Andere functies kunnen ook automatisch worden geopend in OneDrive.
 
-### <a name="to-prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises voorbereiden om verbinding te maken met OneDrive
+### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises voorbereiden om verbinding te maken met OneDrive
 
 <!-- 
 1. For the best experience Configure Azure Active Directory (AD) authentication.
@@ -86,12 +86,12 @@ Stel in plaats daarvan de volgende machtigingen in voor Business Central 2021 re
 
 Dit werk doet u in de Azure Portal. Zorg ervoor dat u de toepassings-id (client-id) en het clientgeheim kopieert die door de geregistreerde toepassing worden gebruikt. U hebt deze informatie nodig bij de volgende taak.
 
-Voor meer informatie over het registreren van een applicatie en het configureren van machtigingen zie [Een toepassing registreren in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) in de help van ontwikkelaars en IT-professionals.
+Voor meer informatie over accountvereisten, het registreren van een toepassing en het configureren van machtigingen zie [Een toepassing registreren in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) in de help van ontwikkelaars en IT-professionals.
 
 > [!TIP]
 > Als u al een toepassing hebt geregistreerd als onderdeel van een integratie met een ander Microsoft-product, zoals Power BI, dan kunt u die app-registratie opnieuw gebruiken. In dit geval hoeft u alleen de SharePoint-rechten in te stellen.
 
-### <a name="to-set-up-the-connection-in-prod_short-on-premises"></a>De verbinding instellen in [!INCLUDE[prod_short](includes/prod_short.md)] on premises
+### <a name="set-up-the-connection-in-prod_short-on-premises"></a>De verbinding instellen in [!INCLUDE[prod_short](includes/prod_short.md)] on premises
 
 <!--
 > [!NOTE]
@@ -118,7 +118,9 @@ Voor meer informatie over het registreren van een applicatie en het configureren
 > De pagina Instellingen SharePoint-verbinding wordt gebruikt om meerdere verouderde functies te configureren. De sectie **Algemeen** configureert de verbinding met OneDrive en de sectie **Gedeelde documenten** leidt bestanden om naar SharePoint. De oude SharePoint-functie zal in de nabije toekomst worden beëindigd. We raden u aan de sectie **Gedeelde documenten** te gebruiken.
 
 ## <a name="see-also"></a>Zie ook
+
 [Business Central en integratie met OneDrive voor Bedrijven](across-onedrive-overview.md)  
 [Business Central-bestanden openen in OneDrive](across-share-onedrive.md)  
-[Veelgestelde vragen over OneDrive](admin-onedrive-faq.md)
+[Veelgestelde vragen over OneDrive](admin-onedrive-faq.md)  
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]

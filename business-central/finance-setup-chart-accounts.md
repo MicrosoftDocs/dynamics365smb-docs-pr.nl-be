@@ -10,12 +10,12 @@ ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: f2ef4432d91d9f647a4bea58febbdfd5513a4350
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 57dadabe2e96654a919127f17fcc6391786eb90f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520294"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533629"
 ---
 # <a name="set-up-or-change-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
 
@@ -58,7 +58,7 @@ Als het veld **Blok grootboekrekeningen verwijderen** is ingesteld op *Ja*, kunt
 
 We raden aan om het veld **Blok grootboekrekeningen verwijderen** in te stellen op *Ja*. We raden u ook aan om altijd een datum vast te leggen in het veld **Verwijdering van grootboekrek. controleren na**, zoals de tijd die u nodig hebt om uw financiële gegevens op te slaan.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

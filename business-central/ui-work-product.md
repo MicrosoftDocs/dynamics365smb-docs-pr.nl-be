@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2eaec73818a437e0ebc729612de063b19a074561
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 761bd759e66ca557dfd7537bb2b4fefb049da3da
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655084"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528557"
 ---
 # <a name="work-with-prod_short"></a>Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -86,7 +86,7 @@ Wanneer u zoekt naar een open lijstpagina, zoals de lijst **Verkooporders**, is 
 
 Maar wanneer u dezelfde lijstpagina opent vanaf uw startpagina, is de actie **Beheren** niet aanwezig. Kies in plaats daarvan, om een individuele verkooporder te openen, gewoon het veld **Aantal**. In deze weergave kunt u de actiebalk niet vastzetten.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

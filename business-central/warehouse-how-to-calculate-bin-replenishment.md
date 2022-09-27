@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f59670f427eb530eabaa69aa7596d610cb117078
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0f2653087df90ca6801f0d2e972f142e1f65b889
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076135"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530824"
 ---
 # <a name="calculate-bin-replenishment"></a>Opslaglocatieaanvulling berekenen
 
@@ -47,7 +47,7 @@ De volgende keer dat u de aanvulling van de opslaglocaties berekent, worden de v
 >   
 >  zijn de velden **Van zone** en **Van opslaglocatie** leeg, omdat het algoritme waarmee wordt berekend waar vandaan de artikelen worden verplaatst, alleen wordt geactiveerd als u de functie **Verplaatsing maken** activeert.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/move-items/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/move-items/)
 
 ## <a name="see-also"></a>Zie ook
 

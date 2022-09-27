@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ce20cf835cee31c752224bd96b6bd6f202998aae
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517224"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530769"
 ---
 # <a name="legacy-update-custom-report-layouts"></a>(verouderd) Aangepaste rapportlay-outs bijwerken
 
@@ -64,7 +64,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
 Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook  
  [Rapportlay-outs beheren](ui-manage-report-layouts.md)  

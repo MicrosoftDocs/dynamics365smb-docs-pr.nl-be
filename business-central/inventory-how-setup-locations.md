@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 0888a0a47f3a5ae58dcf7712218f801cde1711c5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129690"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528316"
 ---
 # <a name="set-up-locations"></a>Vestigingen instellen
 
@@ -48,7 +48,7 @@ Kies de actie **Zones** of **Opslaglocaties** voor informatie over zones en opsl
 
 U kunt de configuratie van een vestiging later wijzigen, maar u kunt de instellingen van vestigingen met artikelposten niet bewerken.  
 
-Als u meerdere vestigingen heeft, kunt u vervolgens transferroutes tussen vestigingen definiëren. Zie voor meer informatie [Een transferroute maken ](inventory-how-setup-locations.md#to-create-a-transfer-route). 
+Als u meerdere vestigingen heeft, kunt u vervolgens transferroutes tussen vestigingen definiëren. Zie voor meer informatie [Een transferroute maken ](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### <a name="to-create-a-transfer-route"></a>Een transferroute maken
 
@@ -79,7 +79,7 @@ U kunt echter ook slechts één zone instellen en uw magazijn indelen op basis v
 ## <a name="default-dimensions-for-locations"></a>Standaardafmetingen voor locaties
 U stelt standaardafmetingen in voor een locatie op de pagina **Locatiekaart** door **Dimensies** te kiezen. Daarna worden de standaarddimensies van de locatie toegewezen aan documenten wanneer u de locatie op een regel kiest. Indien nodig kunt u de dimensie op de regel verwijderen of wijzigen. U kunt in het veld **Waardeboeking** vereisen dat mensen dimensies opgeven voor specifieke locaties voordat ze een post kunnen boeken. Als u wilt dat mensen alleen bepaalde dimensiewaarden kunnen kiezen, kunt u deze opgeven in het veld **Filter op toegestane waarden**. U kunt ook locatiedimensiewaarden opnemen op de pagina **Standaarddimensieprioriteiten** en voor combinaties van prioriteit- en dimensieregels op de pagina **Dimensiecombinaties**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 
@@ -91,6 +91,5 @@ U stelt standaardafmetingen in voor een locatie op de pagina **Locatiekaart** do
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

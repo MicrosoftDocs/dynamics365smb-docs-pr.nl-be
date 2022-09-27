@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: ''
 ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2f306fee236fda2bae4863e0e793239c2168f125
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 1bae22c83f1e7138fbfe16bb39aea3ad9d65d788
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461115"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531012"
 ---
 # <a name="posting-purchases"></a>Inkopen boeken
 
@@ -58,7 +58,7 @@ In de meeste gevallen kunt u posten openen vanaf de betrokken kaart of het betre
 
 U kunt bepaalde velden in geboekte inkoopdocumenten bewerken, zoals het veld **Betalingsreferentie**. Zie voor meer informatie [Geboekte documenten bewerken](across-edit-posted-document.md). Voor kritiekere velden die van invloed zijn op het controlespoor, moet u het boeken omkeren of ongedaan maken. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

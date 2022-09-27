@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 120, 121, 422
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e21454f52564d4c679cd20171189b0dc14bfe49f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8be263821e288d314f0c5b91415ca204e767a98e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523062"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535114"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Werkelijke bedragen analyseren in vergelijking met budgetbedragen
 Als onderdeel van het verzamelen, analyseren en delen van uw bedrijfsgegevens bekijkt u werkelijke bedragen in vergelijking met gebudgetteerde bedragen voor alle rekeningen en voor meerdere perioden.
@@ -62,7 +62,7 @@ In plaats van de werkelijke en de gebudgetteerde bedragen in een bepaalde period
 3. Vul boven aan de pagina de benodigde velden in om te definiëren wat wordt weergegeven.   
 4. Als u een specificatie voor een weergegeven bedrag wilt bekijken, moet u het veld kiezen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Bedrijfsinformatie](bi.md)  

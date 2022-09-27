@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4a502dc56f45673c0a052b0081518ae0ec888a14
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 611f3ac405c66996ed5ec1e1f275ccb5eaccd3d5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076031"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530742"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Een service voor documentuitwisseling instellen
 
@@ -67,7 +67,7 @@ Om Business Central on-premises te verbinden, moet u een app maken in de Tradesh
 
 Als u de app-id en het geheim liever op een andere locatie opslaat, kunt u de velden Client-id en Clientgeheim leeg laten en een extensie schrijven om de id en het geheim van de locatie op te halen. U kunt het geheim tijdens runtime verstrekken door u te abonneren op de gebeurtenissen OnGetClientId en OnGetClientSecret events in codeunit 1410 'Beheer service doc.uitw.'
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

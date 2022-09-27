@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf0a8881ea896c1728f02f07e5991b284a3ccae
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7705acac2b2c53bea96fee0431cb83702e46b0c6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129861"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529608"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
 
@@ -221,7 +221,7 @@ Naast (of in plaats van) een kortingspercentage kunt u administratiekosten aan e
 > [!TIP]  
 > Voordat u deze gegevens invoert, kunt u het beste een ontwerp maken van de kortingsstructuur die u wilt gebruiken. Zodoende kunt u gemakkelijker zien welke klanten u kunt koppelen aan dezelfde pagina Factuurkorting. Hoe minder pagina's u hebt ingesteld, des te sneller kunt u de basisgegevens opgeven.
 
-Zie [Kortingen instellen voor uw klanten](/learn/modules/customer-discounts-dynamics-365-business-central/index) op Microsoft Learn voor training in kortingen.  
+Zie [Kortingen instellen voor uw klanten](/training/modules/customer-discounts-dynamics-365-business-central/index) voor training in kortingen bij verkopen.
 
 ### <a name="calculating-invoice-discounts-on-sales"></a>Factuurkortingen op verkopen berekenen
 
@@ -276,7 +276,7 @@ Ga door met het instellen van de voorwaarden voor de nieuwe verkoopfactuurkortin
 4. Voer in het veld **Korting %** de factuurkorting in als percentage van het factuurbedrag.
 5. Herhaal stap 5 tot en met 7 voor elke valuta waarvoor de klant een andere factuurkorting ontvangt.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

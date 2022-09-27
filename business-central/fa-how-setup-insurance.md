@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5d22e409ec2b9dcd24b210d92a7c87df8df5380
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 61cc87155b3defaf43555940ce74ff58a0e2be6e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075589"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535276"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Verzekering van vaste activa instellen
 
@@ -61,7 +61,7 @@ Het is mogelijk om batches in te stellen in een verzekeringsdagboeksjabloon. De 
 > [!NOTE]  
 >   Nummers hebben een speciale functie in dagboeknamen. Als een dagboeksjabloon of dagboekbatch een nummer bevat, wordt dit nummer bij elke boeking van het dagboek automatisch verhoogd. Als HH1 bijvoorbeeld is opgegeven in het veld **Naam**, verandert de naam van het dagboek in HH2 als het dagboek met de naam HH1 is geboekt.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also"></a>Zie ook
 

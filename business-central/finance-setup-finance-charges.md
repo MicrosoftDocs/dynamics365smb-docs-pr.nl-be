@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.search.form: 6, 494
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 565654d8f7a4dd38aceccbcc39e722bad89bf67e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 27378e1c2c12077bdb04aa9f1e2b93f27fe048dc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077618"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528289"
 ---
 # <a name="set-up-finance-charge-terms"></a>Rentefactuurcondities instellen
 
@@ -68,7 +68,7 @@ Elke conditie in de tabel Rentefactuurcondities is bovendien gekoppeld aan de su
 |%8|Inhoud van het veld **Valutacode** in de rentefactuurkoptekst|  
 |%9|Inhoud van het veld **Boekingsdatum** in de rentefactuurkoptekst|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/send-memos-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

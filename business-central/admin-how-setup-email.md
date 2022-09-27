@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
-ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
+ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "9041438"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534304"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Mensen in bedrijven sturen dagelijks informatie en documenten, zoals verkoop- en inkooporders en facturen, per e-mail. Beheerders kunnen een of meer e-mailaccounts verbinden met [!INCLUDE[prod_short](includes/prod_short.md)], zodat u documenten kunt verzenden zonder een e-mailapp te hoeven openen. U kunt elk bericht afzonderlijk opstellen met basisopmaakhulpmiddelen, zoals lettertypen, stijlen, kleuren, enzovoort, en bijlagen tot 100 MB toevoegen. Daarnaast kunnen beheerders met rapportlay-outs alleen de belangrijkste informatie uit documenten opnemen. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
@@ -229,7 +229,7 @@ Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUD
 
 -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/set-up-email/)
 
 ## <a name="see-also"></a>Zie ook
 

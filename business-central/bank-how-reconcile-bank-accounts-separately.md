@@ -10,12 +10,12 @@ ms.search.keywords: bank account balance, bank statement
 ms.search.form: 379, 388, 389, 1290, 1692, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: e74df84ac5119e87aecd6a15e270dfd50fb1b117
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d12ac9b5aa8718c2445cd7a4054ff0549e5d8ada
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514503"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534952"
 ---
 # <a name="reconcile-bank-accounts"></a>Bankrekeningen afstemmen
 
@@ -166,7 +166,7 @@ Als de volgende bankreconciliatie die u uitvoert voor augustus is, kunt u overwe
 >
 >Het saldo laatste afschrift wordt in de bankrekening bewaard om fouten bij het uitvoeren van bankreconciliaties te minimaliseren, maar het is ook bewerkbaar, zodat u uw bankreconciliaties in elke gewenste volgorde kunt uitvoeren. Dit betekent ook dat als u een bankafschrift ongedaan maakt, het nieuwe eindsaldo mogelijk niet het laatste afschriftsaldo op het volgende bankafschrift is. Er is geen functie waarmee u een saldo naar alle volgende bankafschriften kunt verplaatsen, dus houd hier rekening mee wanneer u Ongedaan maken gebruikt. 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

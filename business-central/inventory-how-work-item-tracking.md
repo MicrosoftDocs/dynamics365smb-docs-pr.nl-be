@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: f458f1dca9f2aa23fcc7942ad6556b1d86848b5f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 38b71a036ac4334a7d7ac641aaa1868f01253a03
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074834"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530067"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Artikelen traceren met serie-, partij- en pakketnummers
 
@@ -226,7 +226,7 @@ Het herindelen van artikeltracering wil zeggen dat u een lot- of serienummer wij
 8. Als u de bestaande gegevens voor het lot- of serienummer wilt wijzigen, kunt u informatie over lot- of serienummers vastleggen.  
 9. Boek het dagboek om de vernieuwde artikeltraceringsnummers of vervaldatums te koppelen aan de bijbehorende artikelpost.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Zie ook
 

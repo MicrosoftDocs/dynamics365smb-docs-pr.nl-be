@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 276e80b622bc0dceb5280e7a4a95e7583ac89a8e
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 65959b62d89bcbca8c80071c55579339ffc8448a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129708"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533830"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
 
@@ -123,7 +123,7 @@ U definieert variaties van werkstromen door velden op werkstroomregels in te vul
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Zie ook
 

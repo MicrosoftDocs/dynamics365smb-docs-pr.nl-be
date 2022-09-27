@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 0e1f394be1503c76bbf071ca188612b06231e107
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799468"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532308"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me  
 In dit onderwerp wordt beschreven hoe Vertel me u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en aanvullende apps en consultingservices ontdekt voor [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -67,7 +67,7 @@ De functie **Vertel me wat u wilt doen** zoekt niet naar gegevens, zoals klantna
 ## <a name="questions"></a>Vragen?
 We hebben Vertel me aan een reeks belanghebbenden laten zien, vragen die ze gemeen hadden, genoteerd en van onze aantekeningen een lijst met veelgestelde vragen gemaakt. Als u geïnteresseerd bent, gaat u naar [Veelgestelde vragen over Vertel me](ui-search-faq.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 [Werken met Business Central](ui-work-product.md)  

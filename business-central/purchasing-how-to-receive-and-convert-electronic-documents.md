@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 189, 190, 191
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: bf1cb735e823ee22a9bd65a9b69955b841adc442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ff1b79447091df53f45eff49779e1c73b2fe0fd5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131157"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534196"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Elektronische documenten ontvangen en converteren
 
@@ -58,7 +58,7 @@ In de volgende procedure wordt beschreven hoe u een leveranciersfactuur ontvangt
 
     Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende hoofdgegevens in [!INCLUDE[prod_short](includes/prod_short.md)], worden weergegeven op het sneltabblad **Foutmeldingen**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

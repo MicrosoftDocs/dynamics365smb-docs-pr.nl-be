@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950502"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532362"
 ---
 # <a name="send-documents-and-emails"></a>Documenten en e-mails verzenden
 
@@ -69,7 +69,7 @@ Sommige documenten in [!INCLUDE[prod_short](includes/prod_short.md)] hebben een 
 
 In de **E-mailoutbox** vindt u de e-mails die u als concept hebt opgeslagen en e-mails die niet konden worden verzonden, bijvoorbeeld als het e-mailadres ongeldig was. Voor berichten die niet zijn verzonden, kunt u **Fout weergeven** of **Fout onderzoeken** kiezen om het probleem op te lossen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/set-up-email/)
 
 ## <a name="see-also"></a>Zie ook
 

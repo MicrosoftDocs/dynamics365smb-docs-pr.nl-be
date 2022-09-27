@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0512e0f77f563b92c0ffcf4c2430a3a3ee329bbb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510960"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532794"
 ---
 # <a name="work-with-prod_short-data-in-power-bi"></a>Werken met [!INCLUDE [prod_short](includes/prod_short.md)] -gegevens in Power BI
 
@@ -31,6 +31,8 @@ Als u eenmaal een Power BI-account hebt, kunt u zich aanmelden via [https://powe
 De Power BI-service host alle rapporten die voor u beschikbaar zijn. Als u een rapport wilt bekijken, selecteert u **Mijn werkruimte** > **Rapporten**. Selecteer vervolgens het rapport dat u wilt bekijken.
 
 Met [!INCLUDE[prod_short](includes/prod_short.md)] online hebt u automatisch de beschikking over een set standaardrapporten in uw werkruimte. Als u uw eigen rapporten wilt maken, kunt u gebruikmaken van Power BI Desktop om rapporten te maken en deze vervolgens te publiceren naar uw werkruimte. Zie [Aan de slag met het maken van rapporten in Power BI Desktop om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md) voor meer informatie.
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, moet u alle rapporten zelf maken met Power BI Desktop. Power BI-rapporten kunnen desgewenst worden gedistribueerd als bestanden die kunnen worden geüpload.
 
@@ -75,7 +77,7 @@ Als u een rapport wilt delen, selecteert u in een lijst met rapporten of in een 
 > [!NOTE]
 > U moet een [Power BI Pro-licentie](/power-bi/service-features-license-type) hebben en dat geldt ook voor de mensen met wie u het rapport deelt. De inhoud moet zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports) voor meer informatie.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
 

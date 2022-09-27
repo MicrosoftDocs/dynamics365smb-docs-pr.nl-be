@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772466"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530202"
 ---
 # <a name="business-central-learning-catalog"></a>Trainingscatalogus voor Business Central
 
@@ -24,9 +24,9 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
 
     Beslist u over investeringen in nieuwe technologieën? 
 
-    [Ontdek de zakelijke waarde van Business Central (gratis online leertraject in eigen tempo)](/learn/modules/dynamics-365-business-central/)
+    [Ontdek de zakelijke waarde van Business Central (gratis online leertraject in eigen tempo)](/training/modules/dynamics-365-business-central/)
 
-    [Aan de slag (gratis online leertraject in eigen tempo)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Aan de slag (gratis online leertraject in eigen tempo)](/training/paths/get-started-dynamics-365-business-central/)
 
     [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/)
 
@@ -40,9 +40,9 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
 
     Hebt u zojuist een nieuwe toepassing gekregen die u moet gaan gebruiken? 
 
-    [Aan de slag (gratis online leertraject in eigen tempo)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Aan de slag (gratis online leertraject in eigen tempo)](/training/paths/get-started-dynamics-365-business-central/)
 
-    [Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+    [Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 
     [Business Central-video's op YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
@@ -58,7 +58,7 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
 
     Moet u code schrijven voor integratie met andere gegevensbronnen, de kernfunctionaliteit uitbreiden of een complexe toepassing bouwen?
 
-    [Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
+    [Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)](/training/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
 
     [Ontwikkelaarsdocumentatie](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 
@@ -70,7 +70,7 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
     
     Bent u een implementatie-expert voor een zakelijk domein? 
 
-    [Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
+    [Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)](/training/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
 
     [Business Central-video's op YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 

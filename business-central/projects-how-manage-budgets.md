@@ -10,12 +10,12 @@ ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc3d630e232e560987daefaabbe7ea8b5ddc681c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 47a3e85a806db2f7c4b0c0656016594d5f7818dc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075381"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529986"
 ---
 # <a name="manage-job-budgets"></a>Projectbudgetten maken
 
@@ -49,7 +49,7 @@ Op de pagina **Projectkaart** kunt u nu een overzicht zien van de totale gebudge
 
 Voor informatie over het vastleggen van gebudgetteerde versus werkelijke projectprijzen en -kosten raadpleegt u [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/set-up-job-planning-lines/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/set-up-job-planning-lines/)
 
 ## <a name="see-also"></a>Zie ook
 

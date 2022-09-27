@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 6026f9ea7a0adeb66f6c543365cf7caeb91a7628
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 87d5ede3d1cbd94178a614cd7929da9c8e43600a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654954"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532200"
 ---
 # <a name="setting-up-finance"></a>Financiën instellen
 Voordat u kunt beginnen met de uitvoering van uw bedrijf, moet u regels en standaardinstellingen opgeven voor de manier waarop u financiële processen voor het bedrijf wilt beheren. Ten eerste moet u de kern van de boekhoudadministratie van het bedrijf instellen: het rekeningschema. Vervolgens stelt u de boekingsgroepen in, waarmee standaard-grootboekrekeningen efficiënter kunnen worden toegewezen aan klanten, leveranciers en artikelen.
@@ -56,7 +56,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 > [!TIP]
 > Afhankelijk van uw geografische locatie kunnen sommige pagina's velden bevatten die niet worden beschreven in de artikelen die hier worden vermeld, omdat ze van toepassing zijn op lokale functionaliteit of aanpassingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 

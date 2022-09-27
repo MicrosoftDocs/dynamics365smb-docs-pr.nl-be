@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ce0b3e4208cddba15c7358659e404ba2c868f11c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dfe8f1aa36f19372363c5e23994328d15f8a5b77
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514555"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534277"
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
@@ -46,7 +46,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 |Informatie weergeven over het verschil tussen de assemblagestuklijsten en productiestuklijsten en de bijbehorende verwerkingsverschillen.|[Werken met stuklijsten](inventory-how-work-BOMs.md)|
 |Meer informatie weergeven over hoe assemblageverbruik en -output worden verwerkt wanneer u assemblageorders boekt en over hoe het afgeleide artikel- en resourcekosten worden verwerkt en naar het grootboek worden gedistribueerd.|[Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 
