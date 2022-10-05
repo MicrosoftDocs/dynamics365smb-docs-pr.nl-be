@@ -1,30 +1,34 @@
 ---
 title: Snelstartgidsen voor Business Central
-description: Ga aan de slag met Business Central met tips uit de snelstartgidsartikelen die u helpen de eerste cruciale velden in te vullen.
+description: Ga aan de slag gaan met Business Central met tips uit de snelstartgidsartikelen die u helpen de eerste cruciale velden in te vullen.
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.date: 08/25/2022
 ms.author: edupont
-ms.openlocfilehash: ee2f9f6989e2f2c5142397a171b0709fb2e9b087
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 244062b9e8c9768da040f6635f61092a7e1e9770
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147530"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585742"
 ---
 # <a name="business-central-quick-starts"></a>Snelstartgidsen voor Business Central
 
-Deze snelstartgidsartikelen helpen u zo snel mogelijk aan de slag te gaan, zodat u de basisfuncties kunt uitvoeren die u nodig hebt in [!INCLUDE[prod_short](includes/prod_short.md)].
+Snelstartartikelen helpen u sneller aan de slag te gaan, zodat u kunt beginnen met het uitvoeren van de basisfuncties van [!INCLUDE[prod_short](includes/prod_short.md)] die u nodig hebt.
 
-In de volgende secties vindt u handleidingen voor beginners die u helpen vertrouwd te raken met de functies die u nodig hebt in [!INCLUDE[prod_short](includes/prod_short.md)]. In elke snelstartgids vindt u links naar meer geavanceerde inhoud over de functionaliteit, mocht u deze nodig hebben.
+In de volgende secties vindt u handleidingen voor beginners die u helpen vertrouwd te raken met de functies die u nodig hebt in [!INCLUDE[prod_short](includes/prod_short.md)]. In elke snelstartgids vindt u koppelingen naar meer geavanceerde inhoud over de functionaliteit, mocht u deze nodig hebben.
 
 ## <a name="provide-basic-information-about-your-company"></a>Basisinformatie over uw bedrijf verstrekken
 
 De eerste stap is het verstrekken van de basisinformatie over uw bedrijf. Dit omvat informatie zoals adres, bankrekeningen, btw-nummer, enzovoort. Dit wordt uitgelegd in het artikel [Snelstartgids Bedrijfsinformatie](quick-start-company-information.md).
+
+## <a name="prepare-basic-financial-information"></a>Financiële basisinformatie voorbereiden
+
+Vervolgens is het tijd om de financiële informatie van uw bedrijf in te voeren, zodat u klaar bent om zaken te doen. Gebruik het in [!INCLUDE[prod_short](includes/prod_short.md)] opgenomen rekeningschema om tijd te besparen. En als dat nodig is, kunt u het in een paar stappen aanpassen door de [Snelstartgids Financiële informatie](quick-start-financial-information.md) te volgen.
 
 <!--
 ## Financial Basics
@@ -33,16 +37,17 @@ Financial Information
 (chart of accounts, but explained for non-accountants)
 -->
 
-<!--
-## Basic Reports and Output Documents
+## <a name="print-reports-and-customize-documents"></a>Rapporten afdrukken en documenten aanpassen
 
-Reports and Documents  
+Leer hoe u rapporten en documenten, zoals verkoopfacturen, kunt aanpassen en afdrukken om beter aan uw zakelijke behoeften te voldoen in de [Snelstartgids Basisrapporten en documentuitvoer](quick-start-reports-and-documents.md).
+
+<!-- Reports and Documents  
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
 ## <a name="sell-products-and-services"></a>Producten en services verkopen
 
-Om snel aan de slag te gaan met het verkopen van producten en diensten zie het artikel [Snelstartgids voor verkoop](quick-start-sell-products-and-services.md).
+Ga snel aan de slag met het verkopen van producten en diensten door de [Snelstartgids voor verkoop](quick-start-sell-products-and-services.md) te volgen.
 
 <!--
 (customer, items, things on stock or not, orders versus invoices, get paid on time, etc.)
@@ -56,15 +61,17 @@ Voor meer informatie over het kopen van producten en diensten zie het artikel [S
 (buy stuff, register in inventory, pay vendor)
 -->
 
-<!--
-## Understand Your Business with Business Intelligence
+## <a name="understand-your-company-with-business-intelligence"></a>Begrijp uw bedrijf met business intelligence
 
+Transformeer uw bedrijfsgegevens in waardevolle inzichten met behulp van de tools die worden gedemonstreerd in de [Snelstartgids Business Intelligence](quick-start-business-intelligence.md).
+
+<!--
 Business Intelligence  
 (reports)
 -->
 
 ## <a name="see-also"></a>Zie ook
 
-[Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)  
 [Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)  
+[Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)  
 [Overzicht van taken om Business Central in te stellen](setup.md)  

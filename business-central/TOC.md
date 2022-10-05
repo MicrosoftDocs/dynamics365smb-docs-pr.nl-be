@@ -113,8 +113,11 @@
 ## Snelstartgidsen
 ### [Snelstartgidsen voor Business Central](quick-start-business-central.md)
 ### [Bedrijfsgegevens instellen](quick-start-company-information.md)
+### [Financiële informatie invoeren](quick-start-financial-information.md)
 ### [Producten en services verkopen](quick-start-sell-products-and-services.md)
 ### [Producten en services kopen](quick-start-procurement.md)
+### [Rapporten en documenten afdrukken en aanpassen](quick-start-reports-and-documents.md)
+### [Inzichten krijgen met Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Productiviteit in Business Central
@@ -239,13 +242,13 @@
 ### Werkstromen
 #### [Werkstroomoverzicht](across-workflow.md)
 #### [Business Central gebruiken in Power Automate-stromen](across-how-use-financials-data-source-flow.md)
-#### Werkstromen gebruiken
-##### [Werkstromen gebruiken](across-use-workflows.md)
-##### [Werkstromen inschakelen](across-how-to-enable-workflows.md)
+#### Goedkeuringswerkstromen gebruiken
+##### [Goedkeuringswerkstromen gebruiken](across-use-workflows.md)
+##### [Goedkeuringswerkstromen inschakelen](across-how-to-enable-workflows.md)
 ##### [Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md)
 ##### [Gebruik van een record beperken en toestaan](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md)
-##### [Werkstromen verwijderen](across-how-to-delete-workflows.md)
+##### [Goedkeuringswerkstromen verwijderen](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Gegevens elektronisch uitwisselen
 #### [OData Exchange-overzicht](across-data-exchange.md)
@@ -1585,11 +1588,11 @@
 #### [Goedkeuringswerkstromen instellen](across-set-up-workflows.md)
 #### [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)
 #### [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)
-#### [Werkstroomberichten](across-setting-up-workflow-notifications.md)
+#### [Goedkeuringswerkstroomberichten](across-setting-up-workflow-notifications.md)
 #### [Opgeven wanneer en hoe gebruikers werkstroomberichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Werkstromen maken](across-how-to-create-workflows.md)
+#### [Goedkeuringswerkstromen maken](across-how-to-create-workflows.md)
 #### [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Werkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)
+#### [Goedkeuringswerkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)
 #### [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Verbindingen instellen
@@ -1626,7 +1629,7 @@
 ###### [De Business Central-apps gebruiken in Power BI](across-powerbi-business-central-apps.md)
 ##### [Veelgestelde vragen](power-bi-faq.md)
 #### Power Automate gebruiken met Business Central
-##### [Business Central gebruiken in Power Automate-stromen](across-how-use-financials-data-source-flow.md)
+##### [Power Automate-stromen gebruiken in Business Central](across-how-use-financials-data-source-flow.md)
 ##### [Problemen met uw geautomatiseerde werkstromen oplossen](across-flow-troubleshoot.md)  
 #### Power Apps gebruiken met Business Central
 ##### [Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met Power Apps](across-how-use-financials-data-source-powerapps.md)

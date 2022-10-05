@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524518"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585904"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Gebruik een Power Automate-stroom voor waarschuwingen voor Dataverse-entiteitswijzigingen
 
@@ -54,11 +54,14 @@ Beheerders kunnen een geautomatiseerde stroom in Power Automate maken die uw [!I
 Gegevens worden gesynchroniseerd tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE [cds_long_md](includes/cds_long_md.md)] via een integratiegebruikersaccount. Als u de wijzigingen die door de synchronisatie zijn aangebracht, wilt negeren, maakt u een voorwaardestap in uw stroom die wijzigingen uitsluit die zijn aangebracht door het integratiegebruikersaccount.  
 
 1. Voeg een **Een rij ophalen uit Dataverse**-stap na de stroomtrigger toe met de volgende instellingen. Zie voor meer informatie [Een rij ophalen uit Dataverse op id](/power-automate/dataverse/get-row-id).
+
     1. Kies in het veld **Tabelnaam** de optie **Gebruikers**
     2. Kies in het veld **Rij-id** de **Gewijzigd door (waarde)** van de stroomtrigger.  
+
 2. Voeg een voorwaardestap toe met de volgende **of**-instellingen om het integratiegebruikersaccount te identificeren.
     1. Het **Primaire e-mailadres** van de gebruiker bevat **contoso.com**
     2. De **Volledige naam** van de gebruiker bevat **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+
 3. Voeg een beëindigingsbesturingselement toe om de stroom te stoppen als de entiteit is gewijzigd door het integratiegebruikersaccount.
 
 De volgende afbeelding toont hoe de stroomtrigger en de stroomvoorwaarde worden gedefinieerd.
@@ -73,6 +76,7 @@ Als de stroom niet wordt gestopt door de voorwaarde, moet u aan [!INCLUDE[prod_s
 2. Kies de actie **Record maken (V3)**.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Instellingen vragen voor de [!INCLUDE[prod_short](includes/prod_short.md)]-connector":::
+
 3. Gebruik de knop **AssistEdit (...)** in de rechterbovenhoek om de verbinding toe te voegen aan uw [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving.
 4. Vul wanneer u verbonden bent de velden **Omgevingsnaam** en **Bedrijfsnaam** in.
 5. Voer in het veld **API-categorie** **Microsoft/dataverse/v1.0** in.
@@ -87,7 +91,8 @@ De stroom zou eruit moeten zien als de volgende afbeelding.
 Wanneer u een account toevoegt, verwijdert of wijzigt in uw [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-omgeving, voert deze stroom de volgende acties uit:
 
 1. Roep de [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving aan die u hebt opgegeven in de [!INCLUDE[prod_short](includes/prod_short.md)]-connector.
-2. Gebruik de [!INCLUDE[prod_short](includes/prod_short.md)] API om een record in te voegen met de **Entiteitsnaam** ingesteld op **account** in de tabel **Wijziging van Dataverse-invoer**. 3. [!INCLUDE[prod_short](includes/prod_short.md)] start het taakwachtrij-item dat klanten synchroniseert met accounts.
+2. Gebruik de [!INCLUDE[prod_short](includes/prod_short.md)] API om een record in te voegen met de **entityName** ingesteld op **account** in de tabel **Wijziging van Dataverse-invoer**. Deze parameter is de exacte naam van de Dataverse-entiteit waarvoor u de stroom maakt.
+3. [!INCLUDE[prod_short](includes/prod_short.md)] start het taakwachtrij-item dat klanten synchroniseert met accounts.
 
 ## <a name="see-also"></a>Zie ook
 

@@ -1,5 +1,5 @@
 ---
-title: Werkstromen instellen (bevat video)
+title: Goedkeuringswerkstromen instellen (bevat video)
 description: Stel werkstromen, werkstroomgebruikers en goedkeuringsgebruikers in om de systeemtaken van de bedrijfsprocessen die door deze verschillende gebruikers worden uitgevoerd, met elkaar te verbinden.
 author: SorenGP
 ms.topic: conceptual
@@ -7,26 +7,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 7676e05255c31bd2b9906951d98d1a87622a0fcf
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 04067d8cb0ee786b3738fb0cc7055d0b84c001d0
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530283"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585769"
 ---
-# <a name="set-up-workflows"></a>Werkstromen instellen
+# <a name="set-up-approval-workflows"></a>Goedkeuringswerkstromen instellen
 
-U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen. Zie voor meer informatie [Werkstromen gebruiken](across-use-workflows.md).  
+U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen. Zie voor meer informatie [Goedkeuringswerkstromen gebruiken](across-use-workflows.md).
 
-Voordat u kunt beginnen met werkstromen gebruiken, moet u de werkstroomgebruikers en goedkeuringgebruikers instellen, opgeven hoe gebruikers berichten ontvangen over werkstroomstappen en vervolgens de werkstromen maken.  
+Voordat u kunt beginnen met goedkeuringswerkstromen gebruiken, moet u de werkstroomgebruikers en goedkeuringgebruikers instellen, opgeven hoe gebruikers berichten ontvangen over werkstroomstappen en vervolgens de werkstromen maken.
 
-Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.  
+Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomreactie, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen met behulp van lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.  
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
@@ -36,9 +36,9 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Geef op of gebruikers via e-mail of een notitie worden geïnformeerd en hoe vaak berichten worden verzonden.|[Opgeven wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
 |Pas de inhoud van het e-mailbericht aan door rapport 1320, Berichte-mail te wijzigen.|[Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md)|  
 |Stel een SMTP-server in om communicatie per e-mail in en vanuit [!INCLUDE[prod_short](includes/prod_short.md)] in te schakelen.|[E-mail instellen](admin-how-setup-email.md)|
-|Geef de verschillende stappen van een werkstroom op door werkstroomgebeurtenissen te verbinden met werkstroomantwoorden.|[Werkstromen maken](across-how-to-create-workflows.md)|  
-|Gebruik werkstroomsjablonen om nieuwe werkstromen te maken.|[Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Werkstromen delen met andere [!INCLUDE[prod_short](includes/prod_short.md)]-databases.|[Werkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)|  
+|Geef de verschillende stappen van een werkstroom op door werkstroomgebeurtenissen te verbinden met werkstroomantwoorden.|[Goedkeuringswerkstromen maken](across-how-to-create-workflows.md)|  
+|Gebruik werkstroomsjablonen om nieuwe werkstromen te maken.|[Goedkeuringswerkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)|  
+|Werkstromen delen met andere [!INCLUDE[prod_short](includes/prod_short.md)]-databases.|[Goedkeuringswerkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)|  
 |Lees meer informatie over het instellen van een werkstroom voor de goedkeuring van verkoopdocumenten door een end-to-end procedure te volgen.|[Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
 ## <a name="example-of-an-approval-workflow"></a>Voorbeeld van een goedkeuringswerkstroom
@@ -52,10 +52,9 @@ Deze video laat zien hoe u een werkstroom instelt waarvoor een gebruiker de goed
 
 ## <a name="see-also"></a>Zie ook
 
-[Werkstromen gebruiken](across-use-workflows.md)  
+[Goedkeuringswerkstromen gebruiken](across-use-workflows.md)  
 [Werkstroom](across-workflow.md)  
 [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Werken met Business Central](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

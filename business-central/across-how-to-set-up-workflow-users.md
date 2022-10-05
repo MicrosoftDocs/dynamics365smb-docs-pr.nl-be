@@ -7,41 +7,44 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 06/11/2021
+ms.search.form: 1533
+ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 95730ff31c963695c94a64d36a8f980bddfbb72b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 4dbe4217720ddd0bfe976560331329537577cfeb
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530958"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585958"
 ---
 # <a name="set-up-workflow-users"></a>Werkstroomgebruikers instellen
 
-Voordat u werkstromen kunt maken, moet u de gebruikers instellen die deelnemen aan werkstromen. Dit is nodig om bijvoorbeeld op te geven wie een bericht ontvangt als er moet worden gereageerd op een werkstroomstap.  
+Voordat u goedkeuringswerkstromen kunt maken, moet u de gebruikers instellen die deelnemen aan werkstromen. Dit is nodig om bijvoorbeeld op te geven wie een bericht ontvangt als er moet worden gereageerd op een werkstroomstap.  
 
-Op de pagina **Werkstroomgebruikersgroep** stelt u gebruikers in onder werkstroomgebruikersgroepen en geeft u het nummer van de gebruikers op in een procesvolgorde, zoals een fiatteringsketen.  
+Op de pagina **Werkstroomgebruikersgroepen** kunt u gebruikers instellen in werkstroomgebruikersgroepen en het nummer van de gebruikers opgeven in een procesvolgorde, zoals een fiatteringsketen. 
 
-Werkstroomgebruikers die fungeren als goedkeuringgebruikers, zowel aanvragers als fiatteurs, moeten ook worden ingesteld op de pagina **Gebruikersinstellingen voor goedkeuring**. Zie voor meer informatie [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md).  
+Werkstroomgebruikers die fungeren als goedkeuringgebruikers, zowel aanvragers als fiatteurs, moeten ook worden ingesteld op de pagina **Gebruikersinstellingen voor goedkeuring**. Meer informatie op [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md).  
 
 > [!NOTE]  
-> Stel een hiërarchie voor fiatteurs op om aan te geven dat een goedkeuringsaanvraag niet wordt goedgekeurd totdat meerdere fiatteurs in een goedkeuringsketen deze hebben goedgekeurd. Voor het fiatteurstype **Fiatteur** stelt u fiatteurs op de pagina **Gebruikersinstellingen voor goedkeuring** in. Stel voor het fiatteurstype **Werkstroomgebruikersgroep** op de pagina **Werkstroomgebruikersgroepen** in en definieer de hiërarchie door incrementele nummers aan elke fiatteur in het veld **Volgnr.** veld. Zie voor meer informatie [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md) en de volgende sectie.  
->
-> U kunt definiëren dat een goedkeuringsaanvraag pas wordt goedgekeurd nadat meerdere gelijkwaardige fiatteurs deze hebben goedgekeurd, ongeacht het bestaan van een hiërarchie, door een werkstroomgebruikersgroep in een platte structuur in te stellen. Stel voor het fiatteurstype **Werkstroomgebruikersgroep** op de pagina **Werkstroomgebruikersgroepen** in en wijs hetzelfde nummer toe aan elke fiatteur in het **Volgnr.** veld. Zie de volgende onderwerpen voor meer informatie.  
+> Stel een hiërarchie voor fiatteurs op om aan te geven dat een goedkeuringsaanvraag niet wordt goedgekeurd totdat meerdere fiatteurs in een goedkeuringsketen deze hebben goedgekeurd. Voor het fiatteurstype **Fiatteur** stelt u fiatteurs op de pagina **Gebruikersinstellingen voor goedkeuring** in. Stel voor het fiatteurstype **Werkstroomgebruikersgroep** op de pagina **Werkstroomgebruikersgroepen** in en definieer de hiërarchie door incrementele nummers aan elke fiatteur in het veld **Volgnr.** toe te wijzen. Meer informatie hieronder en op [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md). 
 
 ## <a name="to-set-up-a-workflow-user"></a>Een werkstroomgebruiker instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werkstroomgebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstroomgebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. De pagina **Werkstroomgebruikersgroep** wordt geopend.  
 3. Voer in het veld **Code** maximaal 20 tekens in om de werkstroom te identificeren.  
 4. Beschrijf de werkstroom in het veld **Omschrijving**.  
-5. Vul in het sneltabblad **Werkstroomgebruikersgroepsleden** de velden op de eerste regel in, zoals in de volgende tabel is beschreven.  
+5. Vul op het sneltabblad **Werkstroomgebruikersgroepsleden** de velden op de eerste regel in, zoals in de volgende tabel is beschreven.  
 
-    |Veld|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Gebruikersnaam**|Geef de gebruiker op die deelneemt aan werkstromen.<br /><br /> De gebruiker moet op de pagina **Gebruikersinstellingen** bestaan. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.|  
-    |**Volgnr.**|Geef de volgorde waarin de werkstroomgebruiker deelneemt aan een werkstroom in verband met andere gebruikers. Dit veld kan bijvoorbeeld worden gebruikt om aan te geven wanneer de gebruiker in verhouding tot andere fiatteurs goedkeurt, als u de optie **Werkstroomgebruikersgroep** in het veld **Soort fiatteur** voor het gerelateerde werkstroomantwoord gebruikt.<br /><br /> **TIP:** Als u wilt definiëren dat een goedkeuringsaanvraag vereist dat meerdere gelijke gebruikers deze hebben goedgekeurd, ongeacht een hiërarchie, stelt u een vlakke werkstroomgebruikersgroep in door hetzelfde volgordenummer aan de relevante fiatteurs toe te kennen.|  
-6. Herhaal stap 5 om meer werkstroomgebruikers aan de gebruikersgroep toe te voegen.  
+   |Veld|Omschrijving|
+   |-----|-----------|
+   |**Gebruikersnaam**|Geef de gebruiker op die deelneemt aan werkstromen.<br /><br /> De gebruiker moet op de pagina **Gebruikersinstellingen** bestaan. Meer informatie op [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)|
+   |**Volgnr.**|Geef de volgorde waarin de werkstroomgebruiker deelneemt aan een werkstroom in verband met andere gebruikers. Dit veld kan bijvoorbeeld opgeven wanneer de gebruiker in verhouding tot andere fiatteurs goedkeurt, door de optie **Werkstroomgebruikersgroep** in te stellen in het veld **Soort fiatteur** voor de gerelateerde werkstroomreactie.| 
+
+   > [!TIP]
+   > Als u wilt definiëren dat een goedkeuringsaanvraag vereist dat meerdere gelijke gebruikers deze goedkeuren, ongeacht een hiërarchie, stelt u een vlakke werkstroomgebruikersgroep in door hetzelfde volgordenummer aan alle relevante fiatteurs toe te kennen.
+
+6. Herhaal stap 5 om meer werkstroomgebruikers aan de werkstroomgebruikersgroep toe te voegen.  
 7. Herhaal stap 2 tot en met 6 om werkstroomgebruikersgroepen toe te voegen.  
 
 ## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
@@ -49,10 +52,9 @@ Werkstroomgebruikers die fungeren als goedkeuringgebruikers, zowel aanvragers al
 ## <a name="see-also"></a>Zie ook
 
 [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)  
-[Werkstromen instellen](across-set-up-workflows.md)  
-[Werkstromen gebruiken](across-use-workflows.md)  
+[Goedkeuringswerkstromen instellen](across-set-up-workflows.md)  
+[Goedkeuringswerkstromen gebruiken](across-use-workflows.md)  
 [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Werkstroom](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

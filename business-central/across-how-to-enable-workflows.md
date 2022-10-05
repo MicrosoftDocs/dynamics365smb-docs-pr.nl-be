@@ -1,5 +1,5 @@
 ---
-title: Werkstromen inschakelen | Microsoft Docs
+title: Goedkeuringswerkstromen inschakelen
 description: Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.
 author: SorenGP
 ms.topic: conceptual
@@ -7,24 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: f9efb91e608bffc0d5da789191b5732ae90e8305
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: f391b8629fb5c18e09bcf84e0d14442cccc29903
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531795"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585580"
 ---
-# <a name="enable-workflows"></a>Werkstromen inschakelen
+# <a name="enable-approval-workflows"></a>Goedkeuringswerkstromen inschakelen
 
-Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.  
+Wanneer u een goedkeuringswerkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.  
 
-Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
+Maak op de pagina **Werkstroom** een werkstroom door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen met behulp van lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
-## <a name="to-enable-a-workflow"></a>Een workflow inschakelen
+## <a name="enable-a-workflow"></a>Een werkstroom inschakelen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de werkstroom die u wilt inschakelen.  
 3. Zet de schakelaar **Geactiveerd** aan op de pagina **Werkstroom**.  
 
@@ -32,13 +32,12 @@ Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappe
 
 ## <a name="see-also"></a>Zie ook
 
-[Werkstromen maken](across-how-to-create-workflows.md)  
+[Goedkeuringswerkstromen maken](across-how-to-create-workflows.md)  
+[Goedkeuringswerkstromen gebruiken](across-use-workflows.md)  
 [Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md)  
-[Werkstromen verwijderen](across-how-to-delete-workflows.md)  
-[Werkstromen instellen](across-set-up-workflows.md)  
-[Werkstromen gebruiken](across-use-workflows.md)  
+[Goedkeuringswerkstromen verwijderen](across-how-to-delete-workflows.md)  
+[Goedkeuringswerkstromen instellen](across-set-up-workflows.md)  
 [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Werkstroom](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

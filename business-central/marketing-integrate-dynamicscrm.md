@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521006"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585877"
 ---
 # <a name="use-dynamics-365-sales-from-business-central"></a>Dynamics 365 Sales gebruiken vanuit Business Central
 Als u Dynamics 365 Sales gebruikt voor contacten met klanten, kunt u profiteren van naadloze integratie in het lead-naar-cash proces door [!INCLUDE[prod_short](includes/prod_short.md)] te gebruiken voor backendactiviteiten zoals verwerking van orders, beheer van voorraad en het doen van uw financiën.
@@ -76,7 +76,7 @@ Dit kan ook werken als de oorspronkelijke verkooporder inschrijfproducten bevat 
 
 Als de artikelomschrijving op de oorspronkelijke verkooporder erg lang is, wordt een extra verkooporderregel van het type **Opmerking** gemaakt zodat de volledige tekst wordt opgenomen in de verkooporder in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Updates op velden in verkooporderkopteksten, zoals de velden Laatste verzenddatum of Verzochte leverdatum, die zijn toegewezen in de integratietabeltoewijzing **VERKOOPORDER-ORDER** worden periodiek gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]. Processen zoals het vrijgeven van een verkooporder en verzending of facturering van een verkooporder, worden geboekt naar de verkoopordertijdlijn in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Inleiding in activiteitfeeds](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Updates op velden in verkooporderkopteksten, zoals de velden Laatste verzenddatum of Verzochte leverdatum, die zijn toegewezen in de integratietabeltoewijzing **VERKOOPORDER-ORDER** worden periodiek gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]. Processen zoals het vrijgeven van een verkooporder en verzending of facturering van een verkooporder, worden geboekt naar de verkoopordertijdlijn in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Inleiding in activiteitfeeds](/dynamics365/sales-enterprise/manage-activities). Om boekingen en activiteiten voor orders in te schakelen [!INCLUDE[crm_md](includes/crm_md.md)] raadpleegt u [Het besturingselement Notities instellen voor toegangsinformatie over berichten voor een aangepaste entiteit](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) in de Customer Engagement-documentatie. Het artikel verwijst naar Customer Engagement on-premises, maar de stappen zijn hetzelfde voor de online versie. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > Periodieke synchronisatie op basis van de integratietabeltoewijzing **VERKOOPORDER-ORDER** werkt alleen wanneer integratie van verkooporders is ingeschakeld. Zie voor meer informatie [Verbindingsinstellingen op de pagina Sales-verbinding instellen](admin-prepare-dynamics-365-for-sales-for-integration.md). Alleen verkooporders die zijn gemaakt van ingediende verkooporders in [!INCLUDE[crm_md](includes/crm_md.md)], worden gesynchroniseerd. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).

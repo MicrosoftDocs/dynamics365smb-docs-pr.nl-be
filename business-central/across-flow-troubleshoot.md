@@ -1,19 +1,20 @@
 ---
 title: Problemen met uw geautomatiseerde werkstromen oplossen
 description: Meer informatie over het oplossen van problemen tussen Business Central en Power Automate wanneer u een geautomatiseerde workflow maakt.
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2022
+ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,
+ms.date: 08/04/2022
 ms.author: edupont
-author: jswymer
-ms.openlocfilehash: b8fff95ced93e7ee2a3112969f45525532b19445
-ms.sourcegitcommit: e86f0bd15604c2fb327e3182929c44a4172790c7
+ms.openlocfilehash: 42b9a61f40afda0a50d6c6ec86d9984e53ae9ffb
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786208"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585931"
 ---
 # <a name="troubleshoot-your-prod_short-automated-workflows"></a>Problemen met uw geautomatiseerde [!INCLUDE[prod_short](includes/prod_short.md)]-werkstromen oplossen
 
@@ -44,35 +45,39 @@ De plaatshouder `\<name\>` is de servicenaam van de ontbrekende webservice, zoal
 
 ### <a name="possible-cause"></a>Mogelijke oorzaak
 
-Gebruik van Power Automate voor uw goedkeuringen vereist dat bepaalde pagina- en codeunit-objecten worden gepubliceerd als webservices. Standaard worden de meeste vereiste objecten voor u gepubliceerd als webservices. Maar in sommige gevallen is uw omgeving mogelijk aangepast zodat deze objecten niet langer worden gepubliceerd.
+Gebruik van Power Automate voor uw goedkeuringen vereist dat bepaalde pagina- en codeunit-objecten worden gepubliceerd als webservices. Standaard worden de meeste vereiste objecten gepubliceerd als webservices. Maar in sommige gevallen is uw omgeving mogelijk aangepast zodat deze objecten niet langer worden gepubliceerd.
 
-### <a name="fix"></a>Oplossing
+### <a name="fix"></a>Corrigeren
 
 Ga naar de pagina **Webservices** en zorg ervoor dat de volgende objecten worden gepubliceerd als webservices. Er moet een item in de lijst zijn voor elk object, met het selectievakje **Gepubliceerd** geselecteerd.  
 
-|Objecttype|Object-id|Objectnaam|Servicenaam|
-|-----------|---------|-----------|------------|
-|Codeunit|  1544    |WorkflowWebhookSubscription|WorkflowActionResponse|
-|Pagina|  6408|   workflowCustomers|  workflowCustomers|
-|Pagina   |6406   |workflowGenJournalBatches| workflowGenJournalBatches|
-|Pagina   |6407   |workflowGenJournalLines|workflowGenJournalLines|
-|Pagina   |6409   |workflowItems| workflowItems|
-|Pagina   |6405   |Entiteit inkoopdocumentregel|workflowPurchaseDocumentLines|
-|Pagina|  6404    |workflowPurchaseDocuments| workflowPurchaseDocuments|
-|Pagina|  6403    |Entiteit verkoopdocumentregel |workflowSalesDocumentLines|
-|Pagina|  6402|   workflowSalesDocuments| workflowSalesDocuments|
-|Pagina|  6410    |workflowVendors|   workflowVendors|
-|Pagina|  831 |workflowWebhookSubscriptions|  workflowWebhookSubscriptions|
+| Objecttype | Object-id | Objectnaam | Servicenaam |
+|--|--|--|--|
+| Codeunit | 1544 | WorkflowWebhookSubscription | WorkflowActionResponse |
+| Pagina | 6408 | workflowCustomers | workflowCustomers |
+| Pagina | 6406 | workflowGenJournalBatches | workflowGenJournalBatches |
+| Pagina | 6407 | workflowGenJournalLines | workflowGenJournalLines |
+| Pagina | 6409 | workflowItems | workflowItems |
+| Pagina | 6405 | Entiteit inkoopdocumentregel | workflowPurchaseDocumentLines |
+| Pagina | 6404 | workflowPurchaseDocuments | workflowPurchaseDocuments |
+| Pagina | 6403 | Entiteit verkoopdocumentregel | workflowSalesDocumentLines |
+| Pagina | 6402 | workflowSalesDocuments | workflowSalesDocuments |
+| Pagina | 6410 | workflowVendors | workflowVendors |
+| Pagina | 831 | workflowWebhookSubscriptions | workflowWebhookSubscriptions |
 
 > [!NOTE]
 > De waarde van **Servicenaam** moet precies zijn zoals weergegeven in de tabel. Wijzig of vertaal de servicenaam niet.
 
 Zie [Een webservice publiceren](across-how-publish-web-service.md) voor meer informatie over het publiceren van webservices.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/use-power-automate/).
+
 ## <a name="see-also"></a>Zie ook
 
-[[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in een geautomatiseerde werkstroom](across-how-use-financials-data-source-flow.md)  
+[Power Automate-stromen gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Werkstroom](across-workflow.md)  
-
+[Geautomatiseerde werkstromen instellen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows)  
+[Directe stromen inschakelen](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)  
+[Power Automate-stromen beheren](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
