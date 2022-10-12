@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 08/31/2022
 ms.author: jswymer
-ms.openlocfilehash: 36bf0ca4de4fb7caef9c26ae60ed6013387adca4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528665"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606075"
 ---
 # <a name="change-basic-settings"></a>Basisinstellingen wijzigen
 
@@ -29,42 +29,49 @@ Het rolcentrum vertegenwoordigt de startpagina, een startscherm dat is ontworpen
 
 * Bovenaan kunt u met de navigatie schakelen tussen klanten, leveranciers, artikelen en andere belangrijke lijsten met informatie. Op dezelfde manier kunt u met acties taken starten, zoals een nieuwe verkoopfactuur maken, direct vanaf de startpagina.
 
-* In het midden ziet u het gebied **Activiteiten**, dat actuele gegevens toont en waarop kan worden geklikt of getikt om meer gedetailleerde informatie te bekijken. KPI´s (Key Performance Indicators) kunnen worden ingesteld om een geselecteerd diagram weer te geven voor een visuele weergave van bijvoorbeeld cashflow of inkomsten en uitgaven. U kunt ook een lijst met favoriete klanten maken op de startpagina voor bedrijfsaccounts waarmee u vaak zaken doet of waaraan u speciale aandacht moet geven.
+* In het midden ziet u het gebied **Activiteiten**, dat actuele gegevens toont en dat kan worden geselecteerd om meer gedetailleerde informatie te bekijken. KPI´s (Key Performance Indicators) kunnen worden ingesteld om een geselecteerd diagram weer te geven voor een visuele weergave van bijvoorbeeld cashflow of inkomsten en uitgaven. U kunt ook een lijst met favoriete klanten maken op de startpagina voor bedrijfsaccounts waarmee u vaak zaken doet of waaraan u speciale aandacht moet geven.
 
-### <a name="to-change-the-role"></a>De rol wijzigen
+### <a name="change-the-role"></a>De rol wijzigen
 
 De standaardrol is **Bedrijfsmanager**, maar u kunt een andere rol selecteren om een rolcentrum te selecteren dat beter aan uw behoeften voldoet.  
 
 1. Kies in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen.](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Mijn instellingen**.
 2. Selecteer op de pagina **Instellingen** in het veld **Rol** de rol die u als standaard wilt gebruiken. Selecteer bijvoorbeeld **Accountant**.
-3. Kies de knop **Ok**.
+3. Klik op **OK**.
 
 ## <a name="company"></a><a name="company"></a>Bedrijf
 
-Een bedrijf werkt als een container voor gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]. Een database kan meerdere bedrijven bevatten, maar er kan slechts één bedrijf tegelijk worden geselecteerd.
+Een bedrijf werkt als een container voor gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]. Een database kan meerdere bedrijven bevatten, maar er kan slechts één bedrijf tegelijk worden geselecteerd. Het standaardbedrijf heet CRONUS en bevat alleen demogegevens.
+
+Het veld **Bedrijf** toont het bedrijf waar u momenteel werkt, en u kunt het gebruiken om over te stappen naar een ander bedrijf. De bedrijfsnaam wordt altijd in de linkerbovenhoek weergegeven en werkt als een actie die u kunt kiezen om terug te gaan naar het rolcentrum.
+
+> [!TIP]
+> U kunt het bedrijf ook wijzigen met behulp van de bedrijfswisselaar (Ctrl+O). Voor meer informatie over deze functie en andere manieren om van bedrijf of omgeving te veranderen, zie [Overschakelen naar een ander bedrijf of een andere omgeving](ui-organization-switch.md).
 
 Het standaardbedrijf heet CRONUS en bevat alleen demogegevens. U kunt een nieuw bedrijf met aangepaste gegevens maken. Zie [Nieuwe bedrijven](about-new-company.md) maken voor meer informatie.
 
-### <a name="to-change-the-company-name"></a>De bedrijfsnaam wijzigen
+<!--
+### To change the company name
 
-De bedrijfsnaam wordt altijd in de linkerbovenhoek weergegeven en werkt als een actie die u kunt kiezen om terug te gaan naar het rolcentrum. U kunt deze naam wijzigen op de pagina **Bedrijfsgegevens**.
+The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
-1. Kies het ![pictogram Tand om het menu Instellingen te openen.](media/ui-experience/settings_icon_small.png) en kies vervolgens de actie **Bedrijfsgegevens**.
-2. Voer in het veld **Naam** de nieuwe bedrijfsnaam in.
-3. Verlaat de pagina. Het systeem start opnieuw op en geeft het nieuwe bedrijf in de linkerbovenhoek weer.
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+2. In the **Name** field, enter the new company name.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>Een bedrijfsbadge weergeven voor snelle toegang tot bedrijfsgegevens
+### <a name="badge"></a>To display a company badge for quick access to company information
 
-U kunt een aangepaste badge in de rechterbovenhoek toevoegen, die u kunt kiezen om de bedrijfsnaam en tenantinformatie snel in een pop-upvenster te bekijken. De bedrijfsbadge is ook handig wanneer [!INCLUDE[prod_short](includes/prod_short.md)] is ingebed in een andere toepassing, zoals Microsoft Teams of in een andere webtoepassing. In deze gevallen, omdat de [!INCLUDE[web_client](includes/web_client.md)] minder omgevingscontextuele informatie weergeeft, dient de bedrijfsbadge als de enige manier om te bepalen tot welk bedrijf of welke omgeving een record behoort.
+You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
-2. Vul op het sneltabblad **Bedrijfsbadge** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
-> Als een bedrijfsbadge is gedefinieerd, kunt u de bedrijfsnaam niet wijzigen zoals beschreven in [De bedrijfsnaam wijzigen](ui-change-basic-settings.md#to-change-the-company-name)
+> If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
 ## <a name="work-date"></a><a name="work-date"></a>Werkdatum
-De meest gebruikte werkdatum is de datum van vandaag. U moet de werkdatum mogelijk tijdelijk wijzigen om taken te kunnen uitvoeren, zoals het voltooien van transacties voor een datum die niet de datum van vandaag is.
+
+De meest gebruikte werkdatum is de datum van vandaag. U moet de werkdatum mogelijk tijdelijk wijzigen om taken te kunnen uitvoeren, zoals het voltooien van transacties voor een datum die niet vandaag is.
 
 > [!TIP]  
 > Typ in alle datumvelden **v** om snel de datum van vandaag in te voeren en typ **w** om snel de werkdatum in te voeren. Dit is de waarde in het veld **Werkdatum** op de pagina **Mijn instellingen**.
@@ -84,7 +91,7 @@ Als de werkdatum niet is ingesteld op de huidige dag (vandaag) wordt op alle pag
 
 ## <a name="region"></a><a name="region"></a> Regio
 
-De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's. Het bepaalt ook welk teken wordt gebruikt als decimaalteken bij het gebruik van een numeriek toetsenbord om gegevens in te voeren. Zie voor meer informatie [Gegevens invoeren](ui-enter-data.md#decimal).
+De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's. Het bepaalt ook welk teken wordt gebruikt als decimaalteken bij het gebruik van een numeriek toetsenbord om gegevens in te voeren. Meer informatie op [Gegevens invoeren](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Taal
 
@@ -100,7 +107,7 @@ Bepaalt de tijdzone waarin u zich bevindt. Wanneer u zich voor het eerst aanmeld
 
 ## <a name="notifications"></a>Berichten
 
-Kies de koppeling *Wijzigen wanneer ik berichten ontvang* om de meldingen te zien of aan te passen die u ontvangt over bepaalde gebeurtenissen of statuswijzigingen, bijvoorbeeld wanneer u een klant wilt gaan factureren die een openstaand saldo heeft of wanneer de beschikbare voorraad lager is dan de hoeveelheid die u op het punt staat te verkopen. Zie voor meer informatie [Berichten beheren](ui-smart-notifications.md).
+Kies de koppeling *Wijzigen wanneer ik berichten ontvang* om de berichten te zien of aan te passen die u ontvangt over bepaalde gebeurtenissen of statuswijzigingen, bijvoorbeeld wanneer u een klant wilt gaan factureren die een openstaand saldo heeft of wanneer de beschikbare voorraad lager is dan de hoeveelheid die u op het punt staat te verkopen. Meer informatie op [Berichten beheren](ui-smart-notifications.md).
 
 ## <a name="teaching-tips"></a>Instructietips
 
@@ -110,8 +117,8 @@ Kies de koppeling *Wijzigen wanneer ik berichten ontvang* om de meldingen te zie
 
 ## <a name="see-also"></a>Zie ook
 
-[Nieuwe bedrijven maken](about-new-company.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
+[Nieuwe bedrijven maken](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

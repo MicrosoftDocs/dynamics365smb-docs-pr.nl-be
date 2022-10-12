@@ -5,22 +5,23 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
-ms.date: 04/12/2021
+ms.date: 08/24/2022
 ms.author: edupont
-ms.openlocfilehash: 7e9ad9fa80a4690439b34abe2ccf65d84ed714ca
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 8838569a1077a5c9befc1ab11daab49432563d3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529230"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605096"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Financiële rapporten en analyses in Business Central
 
-Financiële rapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt financiële en zakelijke professionals in staat om financiële overzichten te maken, te onderhouden, te implementeren en te bekijken. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen. [!INCLUDE [prod_short](includes/prod_short.md)] bevat verschillende rapporten, traceerfuncties en tools die auditors of controllers helpen die verantwoordelijk zijn voor rapportage aan de financiële afdeling. Financiële rapportage omvat ondersteuning voor dimensies, zodat accountsegmenten of dimensies onmiddellijk beschikbaar zijn. Er zijn geen andere tools of configuratiestappen vereist.  
+Financiële rapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt financiële en zakelijke professionals in staat om financiële overzichten te maken, te onderhouden, te implementeren en te bekijken. Gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen. [!INCLUDE [prod_short](includes/prod_short.md)] bevat verschillende rapporten, traceerfuncties en tools die auditors of controllers helpen die verantwoordelijk zijn voor rapportage aan de financiële afdeling. Financiële rapportage omvat ondersteuning voor dimensies, zodat accountsegmenten of dimensies onmiddellijk beschikbaar zijn. Er zijn geen andere tools of configuratiestappen vereist.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
 ## <a name="reports"></a>Rapporten
+
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Taken
@@ -28,8 +29,8 @@ Financiële rapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt 
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw bedrijf:
 
 * [Werkelijke bedragen analyseren in vergelijking met budgetbedragen](bi-how-analyze-actual-versus-budget.md)  
-* [Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)  
-* [KPI-webservices instellen en publiceren op basis van rekeningschema's](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Financiële rapportage voorbereiden met financiële gegevens en accountcategorieën](bi-how-work-account-schedule.md)  
+* [KPI-webservices instellen en publiceren op basis van financiële rapporten](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
 * [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)  
 * [Analyselijsten maken](bi-how-create-analysis-views-reports.md)  
 * [Lijsten met XBRL maken](bi-create-reports-with-xbrl.md)  

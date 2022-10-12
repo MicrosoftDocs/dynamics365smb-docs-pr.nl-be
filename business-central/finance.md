@@ -1,6 +1,6 @@
 ---
 title: Financieel beheer (bevat video)
-description: Lees meer over hoe Business Central uw behoeften op het gebied van financieel beheer, boekhouding, audits en boekhouding ondersteunt.
+description: Lees hoe Business Central uw behoeften op het gebied van financieel beheer, boekhouding, audits en boekhouding ondersteunt.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bd8bd7089be89c9d5a2f57b53b104a2b5ac2a565
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515653"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605015"
 ---
 # <a name="financial-management"></a>Financieel beheer
 
-[!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardconfiguratie van de meeste financiële processen, maar u kunt de configuratie aanpassen aan uw bedrijf. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardconfiguratie voor de meeste financiële processen, maar u kunt deze aanpassen aan uw zakelijke behoeften. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
 
 De standaardconfiguratie omvat een rekeningschema en standaardboekingsgroepen die het proces vormen van het efficiënter toewijzen van standaardgrootboekrekeningen aan klanten, leveranciers en artikelen.  
 
@@ -29,35 +29,35 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | --- | --- |
 | Inkomende betalingen vereffenen, bankrekeningen reconciliëren tijdens betalingsvereffening en openstaande saldi innen. |[Tegoeden beheren](receivables-manage-receivables.md) |
 | Betalingen doen, uitgaande betalingen vereffenen en werken met cheques. |[Betalingsverplichtingen beheren](payables-manage-payables.md) |
-|Laat uw klanten betalen voordat u naar hen verzendt of betaal uw leveranciers voordat zij aan u verzenden.|[Vooruitbetalingen factureren](finance-invoice-prepayments.md)|
-| Bankrekeningen reconciliëren en fondsen overbrengen tussen bankrekeningen. |[Bankrekeningen reconciliëren](bank-manage-bank-accounts.md) |
+|Uw klanten vragen om te betalen voordat u naar hen verzendt of uw leveranciers betalen voordat zij aan u verzenden.|[Vooruitbetalingen factureren](finance-invoice-prepayments.md)|
+| Reconciliëren en fondsen overbrengen tussen bankrekeningen. |[Bankrekeningen reconciliëren](bank-manage-bank-accounts.md) |
 |IC-partners instellen en transacties handmatig of automatisch verwerken tussen rechtspersonen binnen hetzelfde bedrijf.|[Intercompany-transacties beheren](intercompany-manage.md)|
 |De kosten analyseren van het uitvoeren van uw bedrijf door werkelijke en gebudgetteerde kosten van bewerkingen, afdelingen, producten en projecten toe te wijzen aan kostenplaatsen.|[Kosten verantwoorden](finance-manage-cost-accounting.md)|
-|Voorraad- en productiekosten te beheren, kosten te rapporteren en kosten te reconciliëren met het grootboek.|[Voorraadkosten beheren](finance-manage-inventory-costs.md)|
-| Het grootboek en het rekeningschema begrijpen. |[Het grootboek en COA begrijpen](finance-general-ledger.md) |
+|Voorraad- en productiekosten beheren en kosten rapporteren en reconciliëren met het grootboek.|[Voorraadkosten beheren](finance-manage-inventory-costs.md)|
+| Meer informatie over het grootboek en het rekeningschema (COA). |[Het grootboek en COA begrijpen](finance-general-ledger.md) |
 |Grootboekposten van meerdere bedrijven combineren in één virtueel geconsolideerd bedrijf voor financiële analyses.|[Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)|
-| Voeg dimensies toe voor betere bedrijfsinformatie. |[Werken met dimensies](finance-dimensions.md) |
-| Maak grootboekbudgetten om verschillende financiële activiteiten te prognosticeren en wijs dimensies toe voor bedrijfsinformatiedoeleinden. |[Grootboekbudgetten maken](finance-how-create-budgets.md) |
-|Registreer inkomsten of kosten rechtstreeks in het grootboek zonder specifieke bedrijfsdocumenten te boeken.|[Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)|
-|Boek tegenboekingen om waardeboekingen ongedaan te maken in het dagboek of aantalboekingen in inkoop- en verkoopdocumenten. |[Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)|
-|Verdeel een post in een dagboek over verschillende rekeningen wanneer u het dagboek boekt. |[Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
-| Wijs extra kosten toe, zoals vracht en fysieke verwerking die u oploopt tijdens handel, aan de betrokken artikelen, zodat de kosten worden gereflecteerd in voorraadwaarde. |[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) |
-|Boek persoonlijke kosten van werknemers voor zakelijke bezigheden en betaal werknemers terug door te betalen naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
-| Kosten en inkomsten verantwoorden in andere perioden dan wanneer de transacties zijn geboekt. |[Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)|
-| Meer informatie over de beschikbare opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. |[Werken met periodieke inkomsten](finance-recurring-invoicing.md)|
+| Dimensies toevoegen voor betere bedrijfsinformatie. |[Werken met dimensies](finance-dimensions.md) |
+| Grootboekbudgetten maken om verschillende financiële activiteiten te prognosticeren en dimensies toewijzen voor bedrijfsinformatiedoeleinden. |[Grootboekbudgetten maken](finance-how-create-budgets.md) |
+|Inkomsten en kosten rechtstreeks in het grootboek registreren zonder specifieke bedrijfsdocumenten te boeken.|[Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)|
+|Posten tegenboeken om waardeboekingen ongedaan te maken in het dagboek of aantalboekingen in inkoop- en verkoopdocumenten. |[Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)|
+|Een post in een dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. |[Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
+| Extra kosten toewijzen, zoals onkosten voor vracht en fysieke verwerking die u maakt tijdens handel, aan de betrokken artikelen. Op deze manier worden de kosten weerspiegeld in de voorraadwaardering. |[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) |
+|Personeelskosten boeken voor werkgerelateerde activiteiten en terugbetalingen uitvoeren rechtstreeks op de bankrekeningen van werknemers.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
+| Kosten en inkomsten toewijzen aan andere perioden dan wanneer de transacties daadwerkelijk zijn geboekt. |[Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)|
+| Meer informatie over de beschikbare opties om te automatiseren hoe u abonnementsfacturen naar klanten verzendt en periodieke inkomsten registreert. |[Werken met periodieke inkomsten](finance-recurring-invoicing.md)|
 |Leren hoe u extra valuta's gebruikt en valutawisselkoersen automatisch bijwerkt. |[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|
-| Importeer salaristransacties van uw leverancier van salarisverwerking in het grootboek. |[Salaristransacties importeren](finance-how-import-payroll-transactions.md)|
-|Gebruik functies om btw te berekenen op verkoop- en inkooptransacties, zodat u de bedragen kunt rapporteren aan de belastingdienst.|[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)|
-|Een rapport voorbereiden met btw van verkopen en het rapport verzenden aan een belastingdienst in de EU. | [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
-|Converteer handmatig servicecontracten om het btw-percentage ervan te wijzigen.|[Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)|
+| Salaristransacties van uw leverancier importeren vanuit salarisverwerking in het grootboek. |[Salaristransacties importeren](finance-how-import-payroll-transactions.md)|
+|Btw berekenen op verkoop- en inkooptransacties, zodat u de bedragen kunt rapporteren aan de belastingdienst.|[Werken met btw op verkoop en inkoop](finance-work-with-vat.md)|
+|Een rapport voorbereiden met btw van verkopen en het rapport verzenden aan een belastingdienst in de Europese Unie (EU). | [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)|
+|Handmatig servicecontracten converteren om het btw-percentage ervan te wijzigen.|[Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)|
 | De stroom van kas in en uit uw bedrijf controleren. |[Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md) |
-|Volg een complete procedure voor het gebruik van rapportageschema's om cashflowprognoses te maken.|[Procedure: cashflow met behulp van rapportageschema's maken](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
-| Werken met financiële overzichten in Excel. |[Financiële overzichten analyseren in Excel](finance-analyze-excel.md) |
-|Leer hoe u het rolcentrum Accountant gebruikt, een externe accountant uitnodigt en de bedrijfshub gebruikt om rekeningen voor meerdere cliënten te beheren.|[Accountantervaringen in Business Central](finance-accounting.md)|  
+|Een compleet proces volgen voor het gebruik van financiële rapporten om cashflowprognoses te maken.|[Procedure: Cashflowprognoses maken met behulp van financiële rapporten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Werken met financiële overzichten in Excel Microsoft Excel. |[Financiële overzichten analyseren in Excel:](finance-analyze-excel.md) |
+|Leer hoe u het rolcentrum Accountant gebruikt, een externe accountant aanstelt en de bedrijfshub gebruikt om rekeningen van meerdere cliënten te beheren.|[Accountantervaringen in Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Een videorondleiding volgen
 
-De volgende video introduceert enkele van de belangrijkste mogelijkheden voor het beheren van financiën. <br><br>  
+Deze video introduceert enkele van de belangrijkste mogelijkheden voor het beheren van financiën. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
@@ -73,6 +73,5 @@ De volgende video introduceert enkele van de belangrijkste mogelijkheden voor he
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
-ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d63bfb699932261e0e9b74ef3aebcbd52bc53604
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535866"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606896"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>De lay-out instellen die door een rapport wordt gebruikt
 
@@ -27,15 +27,17 @@ Wanneer er meerdere bedrijven in de toepassing zijn, worden de lay-outs per bedr
 
 ## <a name="get-started"></a>Aan de slag
 
-Er zijn twee manieren om in te stellen welke lay-out een rapport gebruikt. De ene manier is vanaf de pagina **Selectie rapportlay-out**. De andere manier is vanaf de pagina **Rapportlay-outs**. Elke pagina heeft voordelen, bijvoorbeeld: 
+Er zijn enkele manieren om in te stellen welke lay-out een rapport gebruikt. Elke manier heeft voordelen, afhankelijk van wat u wilt doen: 
 
-- De pagina **Selectie rapportlay-out** toont een lijst met alle rapporten.
+- Vanaf de rapportaanvraagpagina
 
-  Deze pagina geeft aan wat de huidige lay-out van een rapport is. Bovendien kunt u lay-outs instellen in verschillende bedrijven, zonder dat u hoeft weg te gaan van het bedrijf waarmee u werkt.
+  Wanneer u een rapport instelt om uit te voeren, bevat de rapportaanvraagpagina het veld **Rapportlay-out** dat de huidige standaardlay-out toont die door het rapport wordt gebruikt. U kunt dit veld gebruiken om tijdelijk over te schakelen naar een andere beschikbare lay-out van het rapport dat u uitvoert. Nadat u het rapport hebt uitgevoerd, keert de lay-out terug naar de standaardlay-out. Zie voor meer informatie [Rapporten uitvoeren en afdrukken](ui-work-report.md#switching-the-report-layout).
 
-- De pagina **Rapportlay-outs** toont alle beschikbare lay-outs voor elk rapport in het huidige bedrijf.
+- Vanaf de pagina **Selectie rapportlay-out**
 
-  Het is gemakkelijk om een specifieke lay-out te vinden door de lijst te sorteren of te filteren. Zodra u de lay-out hebt gevonden, kunt u deze instellen voor een rapport met een enkele selectie.
+  De pagina **Selectie rapportlay-out** toont een lijst met alle rapporten. Deze pagina geeft aan wat de huidige standaardlay-out van een rapport is. U kunt lay-outs instellen in verschillende bedrijven, zonder dat u hoeft weg te gaan van het bedrijf waarmee u werkt.
+
+- Vanaf de pagina **Rapportlay-outs** De pagina **Rapportlay-outs** toont alle beschikbare lay-outs voor elk rapport in het huidige bedrijf. De pagina wordt ook gebruikt om de standaardlay-out voor rapporten op te geven. Het is gemakkelijk om een specifieke lay-out te vinden door de lijst te sorteren of te filteren. Zodra u de lay-out hebt gevonden, kunt u deze instellen voor een rapport met een enkele selectie.
 
   > [!NOTE]
   > U kunt de pagina **Rapportlay-outs** niet gebruiken voor Word- en RDLC-lay-outs die zijn gemaakt met de verouderde **Aangepaste lay-outs**-functie. U ziet u deze aangepaste lay-outs niet eens vermeld op de pagina **Rapportlay-outs**. Voor deze lay-outs kunt u ze alleen instellen met de pagina **Selectie rapportlay-out**.

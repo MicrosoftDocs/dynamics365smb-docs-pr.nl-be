@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: bdc9190548f4144942d66a1f5ef1201a8dfdd9b0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 135d2f09f480bbaa99b9443d94a72d6d33eea9fb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145120"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607157"
 ---
 # <a name="set-up-declaration-types-in-the-belgian-version"></a>Aangiftesoorten instellen in de Belgische versie
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] zijn er twee soorten aangiftes:  
 
@@ -35,11 +37,11 @@ Wanneer u de uitgebreide aangifte gebruikt, moet u ook een Incoterm in Intrastat
 
 ## <a name="see-also"></a>Zie ook
 
- [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)   
- [Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)   
- [Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)   
- [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)   
- [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)
-
+[Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)  
+[Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)  
+[Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)  
+[Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md)  
+[Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)  
+[Intrastat-rapportage instellen](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

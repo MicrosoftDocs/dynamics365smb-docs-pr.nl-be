@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531714"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607728"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
@@ -51,7 +51,7 @@ De volgende lijst beschrijft hoe u toegang krijgt tot het Help-venster en of er 
 Gebruik het zoekveld bovenaan het Help-venster om te zoeken naar hulp bij het gebruik van het product, ingebouwde mogelijkheden en beschikbare trainingsmodules. Afhankelijk van uw zoektermen toont het paneel vijf of meer koppelingen met een korte beschrijving. Kies een link of verfijn uw zoektermen. Wanneer u een koppeling kiest, wordt het doelartikel geopend in een nieuw browsertabblad. U kunt ervoor kiezen om het browsertabblad los te koppelen, zodat u de relevante informatie naast elkaar kunt bekijken met [!INCLUDE [prod_short](includes/prod_short.md)]. Het deelvenster blijft open terwijl u navigeert door [!INCLUDE [prod_short](includes/prod_short.md)] zodat de door u gezochte inhoud zichtbaar blijft.  
 
 > [!NOTE]
-> In de huidige versie van [!INCLUDE [prod_short](includes/prod_short.md)] is het zoekveld in het Help-venster alleen van toepassing op inhoud die is gepubliceerd op de site [Docs.microsoft.com](/dynamics365/business-central).
+> In de huidige versie van [!INCLUDE [prod_short](includes/prod_short.md)] is het zoekveld in het helpvenster alleen van toepassing op inhoud die is gepubliceerd in de [Dynamics 365 Business Central-documentatie](/dynamics365/business-central) op Microsoft Learn.
 
 ## <a name="help--support-page"></a>Pagina Help en ondersteuning
 
@@ -83,7 +83,7 @@ De sectie **Zoeken** bevat twee koppelingen naar product-Help:
 
 - Help over de pagina die u zojuist bekeek in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Deze koppeling wordt automatisch gegenereerd. Als [!INCLUDE[prod_short](includes/prod_short.md)] de relevante koppeling niet kan vinden, wordt de landingspagina op [Docs.microsoft.com](index.md) voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] weergegeven. Als de pagina bijvoorbeeld deel uitmaakte van een app die geen contextgevoelige Help-toewijzing toevoegde aan [!INCLUDE[prod_short](includes/prod_short.md)], is de *Meer informatie*-koppeling standaard ingesteld op de landingspagina.  
+  Deze koppeling wordt automatisch gegenereerd. Als [!INCLUDE[prod_short](includes/prod_short.md)] de relevante koppeling niet kan vinden, wordt de [landingspagina op Microsoft Learn](index.md) voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] weergegeven. Als de pagina bijvoorbeeld deel uitmaakte van een app die geen contextgevoelige Help-toewijzing toevoegde aan [!INCLUDE[prod_short](includes/prod_short.md)], is de *Meer informatie*-koppeling standaard ingesteld op de landingspagina.  
   
 - Help-landingspagina voor [!INCLUDE[prod_short](includes/prod_short.md)]  
 

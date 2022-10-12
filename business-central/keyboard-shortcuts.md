@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 05/23/2022
+ms.date: 08/16/2022
 ms.author: jswymer
-ms.openlocfilehash: 3fe47ef19e9a8dbc66c13461aa1255bc21490421
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 38dec472417e49fe974ed72f6eac2fdf4dffde3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531148"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606680"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -56,15 +56,16 @@ De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschill
 |Alt+Shift+N |Een nieuw gemaakte pagina sluiten en een nieuwe openen om een nieuwe record te maken. Met Alt+F9 publiceert u een document en maakt u een nieuw.|
 |Alt+T|De pagina **Mijn instellingen** openen.|
 |Alt+Pijl rechts|Zoek aanvullende informatie of onderliggende waarden voor een veld dat de knop ![AssistEdit](media/assist-edit-icon.png "Knop AssistEdit") bevat. -knop. Gebruikt wanneer de gebruikelijke vervolgkeuzeknop (Alt+Pijl-omlaag) in hetzelfde veld voor een ander doel wordt gebruikt.|
-|Ctrl+Alt+Shift+C|Informatie weergeven in de bedrijfsbadge.|
+|Ctrl+Alt+Shift+C|Informatie weergeven in de bedrijfsbadge. Deze sneltoets is stopgezet in Business Central 2022 releasewave 2 (versie 21) en vervangen door Ctrl+O. |
 |Ctrl+Alt+F1|Het pagina-inspectiedeelvenster openen en sluiten. Het pagina-inspectiedeelvenster bevat informatie over de pagina, zoals de brontabel, velden, filters, extensies en meer.<br /><br />Zie [Pagina's inspecteren](across-inspect-page.md) voor meer informatie.|
 |Ctrl+C |De waarde van het veld kopiëren. Als het veld de focus heeft en u geen tekst in het veld hebt geselecteerd, wordt hiermee de hele waarde gekopieerd. Als u een tekst in het veld hebt geselecteerd, wordt alleen de geselecteerde tekst gekopieerd.|
-|Ctrl+F1|Open het [helpvenster](product-help-and-support.md#help-pane) of een Business Central-helpartikel over [Microsoft Docs](/dynamics365/business-central/), afhankelijk van uw Business Central-versie.|
+|Ctrl+F1|Open het [helpvenster](product-help-and-support.md#help-pane) of een Business Central-helpartikel op [Microsoft Learn](/dynamics365/business-central/), afhankelijk van uw Business Central-versie.|
 |Ctrl+F12|Schakelen tussen brede en smalle indelingweergave.|
 |Ctrl+klikken|Navigeren tijdens het personaliseren of aanpassen wanneer de actie is gemarkeerd met een pijlpunt. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.|  
 |Ctrl+F5|De [!INCLUDE[prod_short](includes/prod_short.md)]-toepassing opnieuw laden. (Vergelijkbaar met vernieuwen/opnieuw laden selecteren in de browser.)|
 |F5|De gegevens op de huidige pagina vernieuwen.<br /><br />Gebruik deze toets om te zorgen dat de gegevens op de pagina up-to-date zijn met wijzigingen die anderen hebben aangebracht terwijl u werkt.|
-|Voer in|Het (besturings)element met focus inschakelen of openen.|
+|Ctrl+O|Open het deelvenster **Beschikbare bedrijven** om over te stappen naar een ander bedrijf of een andere omgeving. Zie voor meer informatie [Overstappen naar een ander bedrijf of een andere omgeving](ui-organization-switch.md).|
+|Enter|Het (besturings)element met focus inschakelen of openen.|
 |Esc|De huidige pagina of vervolgkeuzelijst sluiten.|
 |Tab|De focus verplaatsen naar het volgende (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
 |Shift + tab|De focus verplaatsen naar het vorige (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|

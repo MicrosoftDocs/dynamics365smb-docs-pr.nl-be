@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: bd729acaab521cb32b152f297950c7616c78aad7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524640"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606021"
 ---
 # <a name="the-image-analyzer-extension"></a>De extensie Afbeeldingsanalyse
 
@@ -117,7 +117,7 @@ U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de hui
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer in **Serviceverbindingen** en kies vervolgens **Afbeeldingsanalyse instellen**.  
 2. Schakel het veld **Afbeeldingsanalyse inschakelen** uit.  
 
-U kunt de extensie ook volledig verwijderen. U kunt deze altijd weer ophalen van AppSource. Zie [Extensies installeren en verwijderen in Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension) voor meer informatie.  
+U kunt de extensie ook volledig verwijderen. U kunt deze altijd weer ophalen van AppSource. Zie [Extensies installeren en verwijderen in Business Central](ui-extensions-install-uninstall.md#uninstall-an-app) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook
 

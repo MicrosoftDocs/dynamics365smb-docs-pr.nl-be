@@ -1,26 +1,26 @@
 ---
 title: Informatie over het plannen van functionaliteit
-description: Het planningssysteem in Dynamics 365 Business Central houdt rekening met alle gegevens over vraag en aanbod, berekent het nettoresultaat, en doet suggesties voor het in overeenstemming brengen van het aanbod en de vraag.
-author: SorenGP
+description: Bij de planning wordt rekening gehouden met alle gegevens over vraag en voorzieningen, wordt het nettoresultaat berekend en worden suggesties gedaan voor het in overeenstemming brengen van aanbod en vraag.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535436"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606977"
 ---
 # <a name="about-planning-functionality"></a>Informatie over het plannen van functionaliteit
 
-Het planningssysteem houdt rekening met alle gegevens over vraag en aanbod, berekent het nettoresultaat en doet suggesties voor het in overeenstemming brengen van aanbod en vraag.  
+Het planningssysteem houdt rekening met alle gegevens over vraag en voorzieningen, berekent het nettoresultaat, en doet suggesties voor het in overeenstemming brengen van de voorzieningen en de vraag.  
 
-Zie [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md) voor gedetailleerde informatie.  
+Zie voor meer informatie [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md).  
 
 > [!NOTE]  
 > Voor alle velden die in dit onderwerp worden genoemd, kunt u de knopinfo lezen om de functie te begrijpen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Zie [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md) voor g
 Planning bestaat uit twee elementen: vraag en voorzieningen. Deze moeten in evenwicht worden gehouden, zodat op tijd en op een kosteneffectieve wijze aan de vraag wordt voldaan.  
 
 - Vraag is een gebruikelijke term voor elke soort brutobehoefte, zoals een verkooporder, serviceorder, materiaalbehoefte vanuit een assemblage- of productieorder, transfer uit, raamcontract of prognose. Daarnaast voorziet de toepassing in enkele andere technische soorten vraag, zoals een negatieve productie- of inkooporder, negatieve voorraad en inkoopretour.  
-- Voorzieningen is een gebruikelijke term voor elke soort aanvulling, zoals voorraad, een inkoop-, assemblage- of productieorder, of transfer in. Ter vergelijking kunnen er ook een negatieve verkoop- of serviceorder, negatieve materiaalbehoefte of verkoopretour zijn, die alle op de een of andere wijze ook voorzieningen weergeven.  
+- Voorzieningen verwijst naar elke type aanvulling, zoals voorraad, een inkooporder, assemblageorder, productieorder of inkomende transferorder. Ter vergelijking kunnen er ook een negatieve verkoop- of serviceorder, negatieve materiaalbehoefte of verkoopretour zijn, die eveneens voorzieningen weergeven.  
 
 Een ander doel van het planningssysteem is ervoor te zorgen dat de voorraad niet onnodig toeneemt. In het geval van een afnemende vraag zal het planningssysteem voorstellen om bestaande aanvullingsorders uit te stellen, in omvang te verkleinen of te annuleren.  
 
@@ -158,9 +158,12 @@ De pagina **Inkoopvoorstel** vermeldt artikelen die u wilt bestellen. U kunt op 
 
 - U kunt de actie **Doorverzending** gebruiken om de inkoopvoorstelregels in te vullen. Hierbij wordt gebruikgemaakt van de batchverwerking **Verkooporders ophalen**, zodat u kunt bepalen welke verkooporderregels voor een aparte opdracht zijn bestemd.
 
-Inkoopvoorstelregels bevatten gedetailleerde informatie over de artikelen die moeten worden besteld. U kunt de regels van het aanvullingsplan bewerken en verwijderen en vervolgens met de batchverwerking **Planningsboodschap uitvoeren** verwerken.
+Inkoopvoorstelregels bevatten gedetailleerde informatie over de artikelen die moeten worden besteld. U kunt de regels van het aanvullingsplan bewerken en verwijderen en vervolgens met de batchverwerking **Planningsboodschap uitvoeren** verwerken. 
 
 Zie voor details over het plannen met locaties en transfers [Planning met of zonder locaties](production-planning-with-without-locations.md).
+
+> [!TIP]
+> Wanneer u aan het werk bent op de pagina's **Inkoopvoorstel** of **Planningsvoorstel**, kunt u de regels ordenen door te sorteren op een kolomnaam. Dit is vooral handig op de pagina Planningsvoorstel omdat deze kunnen worden gebruikt voor productieorders op meerdere niveaus. Standaard worden regels gesorteerd op het veld **Artikelnr.** Als u regels wilt groeperen voor een order met meerdere niveaus, sorteert u op het veld **Ref.-ordernr.** . Ook de velden **MPS-order** en **Planningsniveau** kunnen helpen om de hiërarchie van de regels weer te geven.
 
 ## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/plan-items-dynamics-365-business-central/)
 

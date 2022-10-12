@@ -9,16 +9,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
-ms.date: 06/16/2021
+ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: d87f18b6af045e371cefe88ed35f62bc028fab2f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b30c38789dcfe3c6fd639fedc1f8f2a7b0d0d47a
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514997"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605859"
 ---
 # <a name="view-the-availability-of-items"></a>Beschikbaarheid van artikelen weergeven
+
 Vanuit de context van een zakelijke taak kunt u geavanceerde informatie krijgen over waar en wanneer een artikel beschikbaar is, zoals wanneer u met een klant praat over een leverdatum.
 
 U kunt de beschikbaarheid van alle artikelen per vestiging bekijken en u kunt ook de beschikbaarheid van elk artikel per gebeurtenis of per periode bekijken. Een gebeurtenis is elke geplande artikeltransactie, bijvoorbeeld een verkoopverzending of een inkomende transferontvangst.
@@ -40,6 +41,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] worden de beschikbaarheidscijf
 >   In de volgende procedures wordt beschreven hoe geavanceerde beschikbaarheidsgegevens worden weergegeven vanuit het artikeloverzicht en de artikelkaart. U kunt ook toegang tot de informatie krijgen vanuit verkoopdocumentregels voor het artikel op de regel. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>U kunt de beschikbaarheid van een artikel weergeven op basis van wanneer het wordt verzonden of ontvangen
+
 U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltransacties op de pagina **Artikelbeschikbaarheid per gebeurtenis**.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
@@ -50,6 +52,7 @@ U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltra
 4. Kies de waarde in het veld **Geplande voorraad** om alleen de artikelposten te bekijken of documenten te openen die de waarde vormen.
 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>De beschikbaarheid van een artikel in verschillende perioden weergeven
+
 U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde perioden weer op de pagina **Beschikbaarheid per periode**.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
@@ -60,6 +63,7 @@ U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde 
 4. Kies de waarde in het veld **Geplande voorraad** om alleen de artikelposten te bekijken of documenten te openen die de waarde vormen.
 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>De beschikbaarheid weergeven van een artikel op de vestigingen waar het is opgeslagen
+
 U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar het is opgeslagen, weer op de pagina **Artikelbeschikbaarheid per vestiging**.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
@@ -71,6 +75,7 @@ U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar 
 5. Kies de waarde in het veld **Geplande voorraad** om alleen de artikelposten te bekijken of documenten te openen die de waarde vormen.
 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>De beschikbaarheid weergeven van alle artikelen op de vestiging waar ze zijn opgeslagen
+
 U geeft de beschikbaarheid van al uw artikelen in al uw vestigingen weer op de pagina **Artikelen per vestiging**.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
@@ -80,6 +85,7 @@ U geeft de beschikbaarheid van al uw artikelen in al uw vestigingen weer op de p
 3. Kies de waarde in het veld **In voorraad (Beschikb.)** om alleen de artikelposten te bekijken die de waarde vormen.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>De beschikbaarheid van een artikel weergeven op basis van het gebruik ervan in assemblage- of productiestuklijsten
+
 Als een artikel deel uitmaakt van assemblage of productiestuklijsten als een bovenliggend artikel of als onderdeel, kunt u zien hoeveel eenheden ervan vereist zijn op de pagina **Artikelbeschikbaarheid per stuklijstniveau**. Op de pagina wordt weergegeven hoeveel eenheden van een bovenliggend artikel u kunt maken op basis van de beschikbaarheid van onderliggende artikelen op onderliggende regels. Een artikel dat een assemblage- of productiestuklijst heeft, wordt weergegeven op de pagina als een opvouwbare regel. U kunt deze regel uitvouwen om de onderliggende onderdelen en subassemblages op lagere niveaus met hun eigen stuklijsten te bekijken.
 
 U kunt de pagina bijvoorbeeld gebruiken om te bepalen of u een verkooporder voor een artikel op een bepaalde datum kunt afhandelen door te kijken naar de huidige beschikbaarheid en de hoeveelheden die door de onderdelen ervan kunnen worden geleverd. U kunt ook de pagina om knelpunten in verwante stuklijsten te identificeren.
@@ -92,6 +98,7 @@ Op elke regel op de pagina voor zowel hoofdartikelen als onderliggende artikelen
 |**Topartikel kan worden gemaakt**|Hiermee wordt weergegeven hoeveel eenheden van het topartikel u kunt maken. In het veld wordt opgegeven hoeveel eenheden van het stuklijstartikel op de bovenste regel u kunt assembleren. De waarde is gebaseerd op de beschikbaarheid van het artikel op de regel.|
 
 ### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>De beschikbaarheid van een artikel bekijken op basis van vraag naar het bovenliggende artikel
+
 De pagina **Artikelbeschikbaarheid per stuklijstniveau** bevat gegevens voor het artikel op de kaart of de documentregel waarvoor de pagina wordt geopend. Het artikel wordt altijd weergegeven op de bovenste regel. U kunt informatie voor andere artikelen of voor alle items weergeven door de waarde te wijzigen in het veld **Artikelfilter**.
 
 > [!NOTE]  
@@ -100,12 +107,29 @@ De pagina **Artikelbeschikbaarheid per stuklijstniveau** bevat gegevens voor het
 Met het veld **Knelpunt** wordt opgegeven welk artikel in de stuklijststructuur ervoor zorgt dat u geen grotere hoeveelheid kunt maken dan wordt weergegeven in het veld **Topartikel kan worden gemaakt**. Het knelpuntartikel kan bijvoorbeeld een aangeschaft onderdeel zijn met een verwachte ontvangstdatum die te laat is om extra eenheden van het topartikel te maken voor de datum in het veld **Vereist per datum**.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>De beschikbaarheid van een artikel per meeteenheid bekijken
+
 De pagina **Artikelbeschikbaarheid per meeteenheid** toont de beschikbaarheid van een artikel, in de maateenheden waarin het is opgeslagen.
 
 > [!NOTE]  
 > Om deze informatie nauwkeurig te houden, moet u artikelmaateenheden omrekenen. Als u bijvoorbeeld een artikel in een maateenheid koopt, zoals dozen, en u verkoopt artikelen in een andere maateenheid, zoals stuks, moet u een artikeljournaal gebruiken om de maateenheden te converteren of artikelen uit de doos halen. U kunt een artikeljournaalregel met een negatieve correctie gebruiken om de voorraad in de maateenheid voor inkoop te verminderen, bijvoorbeeld dozen, en een positieve correctie gebruiken om de voorraad in de maateenheid voor verkoop, bijvoorbeeld stuks, te vergroten. 
 
+## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>De beschikbaarheid van een artikel per variant bekijken
+
+De pagina **Artikelbeschikbaarheid per variant** toont de actuele en verwachte beschikbaarheid van een artikel, gegroepeerd op variantcode.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
+3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Variant**.
+
+    De pagina **Artikelbeschikbaarheid per variant** toont de beschikbaarheid voor elke variant die voor het artikel bestaat. De pagina is leeg als er geen varianten bestaan voor het artikel.
+
+4. In het veld **Weergeven per** kunt u de duur van de periode selecteren waarvoor u gegevens wilt zien.
+5. Bekijk de beschikbaarheidscijfers die in vijf verschillende velden worden weergeven.
+
+[!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
+
 ## <a name="assembly-availability-page"></a>Pagina Beschikbaarheid assemblage
+
 Op de pagina **Beschikbaarheid assemblage** vindt u gedetailleerde beschikbaarheidsinformatie voor de component. Het venster wordt geopend:
 
 - Automatisch vanuit een verkooporderregel bij assembleren op order wanneer u een aantal invoert dat zorgt voor een beschikbaarheidsprobleem van een onderdeel.
@@ -121,14 +145,16 @@ In het sneltabblad **Regels** vindt u gedetailleerde beschikbaarheidsinformatie 
 Als een of meer assemblageonderdelen niet beschikbaar zijn, wordt dit weerspiegeld in het veld **Kan assembleren** op de betreffende regel als een aantal lager is dan het aantal in het veld **Resterend aantal** op het sneltabbald **Details**.
 
 ## <a name="see-also"></a>Zie ook
+
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
-[Werken met stuklijsten](inventory-how-work-BOMs.md)    
+[Werken met stuklijsten](inventory-how-work-BOMs.md)  
+[Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)  
+[Productiestuklijsten maken](production-how-to-create-production-boms.md)  
 [Vestigingen instellen](inventory-how-setup-locations.md)  
 [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)  
-[Producten verkopen](sales-how-sell-products.md)      
+[Producten verkopen](sales-how-sell-products.md)  
+[Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Werken met Business Central](ui-work-product.md)  
-[Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

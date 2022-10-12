@@ -2,7 +2,7 @@
 # [Nieuw en gepland](product-news.md)
 # Aan de slag
 ## [Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)
-<!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
+<!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Leren
 ### [Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)
 ### [Business Central-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -20,7 +20,7 @@
 #### [Procedure: Onderhanden werk voor een project berekenen](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Procedure: picken en verzenden in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
-#### [Procedure: cashflow met behulp van rapportageschema's maken](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Procedure: Cashflowprognoses maken met behulp van financiële rapporten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 <!-- Contoso-->
 ### Demogegevens van Contoso Coffee voor productie
 #### [Inleiding tot de demogegevens voor Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
@@ -120,10 +120,11 @@
 ### [Inzichten krijgen met Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
-## Productiviteit in Business Central
+## Productiviteit krijgen in Business Central
 ### [Overzicht van algemene functionaliteit](ui-work-product.md)
 ### [Afdrukbaar spiekblad](ui-work-product.md#cheatsheet)
 ### [Pagina's en informatie zoeken met Vertel me](ui-search.md)
+### [Naar specifieke gegevens zoeken](ui-search-data.md)
 ### [Pagina's zoeken met de Rolverkenner](ui-role-explorer.md)
 ### [Veelgestelde vragen over Vertel me](ui-search-faq.md)
 ### [Zoeken, filteren en sorteren](ui-enter-criteria-filters.md)
@@ -196,10 +197,11 @@
 ### [Bronnen voor Help en ondersteuning](product-help-and-support.md)
 ### [Bezoek onze videobibliotheek](across-videos.md)
 ### [Technische ondersteuning krijgen](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
-<!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+
+<!--## Microsoft Learn training
+### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
 #### [Get Ready for Doing Business](ui-get-ready-business.md)
@@ -225,6 +227,7 @@
 ### [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md)
 ### [Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md)
 ### [Geboekte documenten bewerken](across-edit-posted-document.md)
+### [Statusveld in documenten](ui-document-status.md)
 ### [Werken met diversendagboeken](ui-work-general-journals.md)
 ### [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)
 ### [Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)
@@ -257,7 +260,6 @@
 ##### [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)
 ##### [Een service voor documentuitwisseling instellen](across-how-to-set-up-a-document-exchange-service.md)
 ##### [Inkomende documenten instellen](across-how-setup-income-documents.md)
-##### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
 ##### [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md)
@@ -275,7 +277,6 @@
 ##### [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)
-##### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
 ##### [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Veldtoewijzing voor de extensie AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
@@ -301,6 +302,7 @@
 #### [Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md)
 #### [Sales tax in de standaardversie van Business Central](sales-tax-concept.md)
+#### [Werken met Intrastat-rapportage](finance-how-report-intrastat.md)
 
 ### Betalingsverplichtingen beheren
 #### [Overzicht van crediteuren](payables-manage-payables.md)
@@ -416,19 +418,19 @@
 ### [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)
 ### [Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)
 ### [Wijzigingen in btw-tarieven beheren](finance-how-use-vat-rate-change-tool.md)
-### [Procedure: cashflow met behulp van rapportageschema's maken](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### [Procedure: Cashflowprognoses maken met behulp van financiële rapporten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Financiële overzichten analyseren in Excel](finance-analyze-excel.md)
 ### [Bankfondsen overboeken](bank-how-transfer-bank-funds.md)
 ### [Bankstortingen maken](bank-create-bank-deposits.md)
 ### [Accountantervaringen in Business Central](finance-accounting.md)
 ### [Multi-site en internationale organisaties](finance-multi-site-organizations.md)
 
-## Bedrijfsinformatie en financiële rapportage
-### [Overzicht van bedrijfsinformatie en financiële rapportage](bi.md)
+## Financiële bedrijfsinformatie en rapportage
+### [Overzicht van financiële bedrijfsinformatie en rapportage](bi.md)
 ### [Financiële rapporten](finance-reports.md)
 ### [Werkelijke bedragen analyseren in vergelijking met budgetbedragen](bi-how-analyze-actual-versus-budget.md)
-### [Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)
-### [KPI-webservices instellen en publiceren op basis van rekeningschema's](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+### [Financiële rapportage voorbereiden met financiële gegevens en accountcategorieën](bi-how-work-account-schedule.md)
+### [KPI-webservices instellen en publiceren op basis van financiële rapporten](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)
 ### [Analyselijsten maken](bi-how-create-analysis-views-reports.md)
 ### [Lijsten met XBRL maken](bi-create-reports-with-xbrl.md)
@@ -456,7 +458,7 @@
 ### [Verzendingen combineren op één factuur](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)
 ### [Pakketten traceren](sales-how-track-packages.md)
-### [Datumberekening voor verkoop](sales-date-calculation-for-sales.md)
+### [Leveringsdatumberekening voor verkoop](sales-date-calculation-for-sales.md)
 ### [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)
 ### [Werken met periodieke inkomsten](finance-recurring-invoicing.md)
 ### [Externe documentnummers invoeren](across-enter-external-document-numbers.md)
@@ -486,6 +488,7 @@
 ### [Nieuwe artikelen registreren](inventory-how-register-new-items.md)
 ### [Werken met stuklijsten](inventory-how-work-BOMs.md)
 ### [Artikelen categoriseren](inventory-how-categorize-items.md)
+### [Productvarianten beheren](inventory-item-variants.md)  
 ### [Werken met artikelkenmerken](inventory-how-work-item-attributes.md)
 ### [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md)
 ### [Voorraad tellen en aanpassen met documenten](inventory-how-count-inventory-with-documents.md)
@@ -588,7 +591,7 @@
 ### [Op-order-assembleren-artikelen en voorraadartikelen samen verkopen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ### [Afroepassemblyorders maken](assembly-how-to-create-blanket-assembly-orders.md)
 ### [Boeken van assemblage ongedaan maken](assembly-how-to-undo-assembly-posting.md)
-### [Werken met stuklijsten](inventory-how-work-BOMs.md)
+### [Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)
 ### [Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)
 
 ## Productie
@@ -629,8 +632,8 @@
 #### [Artikelen picken](warehouse-pick-items.md)
 #### [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md)
 #### [Picken van artikelen voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md)
-#### [Picken voor assemblage of productie in standaardmagazijnconfiguraties](warehouse-how-to-pick-for-production.md)
-#### [Picken voor assemblage of productie in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+#### [Picken voor productie, assemblage of taken in standaardmagazijnconfiguraties](warehouse-how-to-pick-for-production.md)
+#### [Picken voor productie, assemblage of taken in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 #### [Picks plannen in het voorstel](warehouse-how-to-plan-picks-in-worksheets.md)
 #### [Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 #### [Picken op basis van FEFO](warehouse-picking-by-fefo.md)
@@ -671,7 +674,6 @@
 ### [Artikelen synchroniseren met Shopify](shopify/synchronize-items.md)
 ### [Klanten synchroniseren met Shopify](shopify/synchronize-customers.md)
 ### [Verkooporders synchroniseren en afhandelen met Shopify](shopify/synchronize-orders.md)
-### [Belastingen instellen voor de Shopify-verbinding](shopify/setup-taxes.md)
 ### [Taken op de achtergrond uitvoeren](shopify/background.md)
 ### [Problemen oplossen met de Shopify-connector](shopify/troubleshoot.md)
 ### [Veelgestelde vragen voor de Shopify-connector](shopify/shopify-faq.md)
@@ -1228,11 +1230,11 @@
 ### Rusland
 #### [Lokale functionaliteit in de Russische versie](LocalFunctionality/Russia/russia-local-functionality.md)
 #### Hoofdfinanciën
-##### [Overzicht van rapportageschema's](LocalFunctionality/Russia/account-schedules-overview.md)
-##### [Rekeningplanningen importeren en exporteren](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
-##### [Een uitbreiding voor een rekeningplanning definiëren](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
-##### [Een constante voor een rekeningplanning definiëren](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
-##### [Werken met rekeningschema's](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
+##### [Overzicht van financiële rapporten](LocalFunctionality/Russia/account-schedules-overview.md)
+##### [Financiële rapporten importeren en exporteren](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
+##### [Een extensie voor financiële rapporten definiëren](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
+##### [Een constante voor financiële rapporten definiëren](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
+##### [Werken met financiële rapporten](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
 ##### [Grootboekcorrespondentie](LocalFunctionality/Russia/general-ledger-correspondence.md)
 ##### [Valuta](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 ##### [Verantwoordelijke werknemers en vooschotoverzichten instellen](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
@@ -1340,7 +1342,7 @@
 ##### [Resultatenrekeningsaldi instellen en afsluiten](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Rekeningschema's laten inspringen en valideren](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
 ##### [Kortingen negeren in grootboekrekeningen](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
-##### [Rekeningschema's exporteren in ASC-indeling](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
+##### [Financiële rapporten exporteren naar ASC-indeling](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
 ##### [Rekeningboekrapporten afdrukken](LocalFunctionality/Spain/how-to-print-account-book-reports.md)
 ##### [Verkoop- inkoopfactuurboeken afdrukken](LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md)  
 ##### [Transactienummers](LocalFunctionality/Spain/transaction-numbers.md)
@@ -1427,7 +1429,7 @@
 ### Verenigde Staten
 #### [Lokale functionaliteit in de Amerikaanse versie](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Belasting
-##### [Amerikaanse Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Elementaire belastinginstellingen](LocalFunctionality/UnitedStates/us-tax-setup.md)  
 ##### [Sales Tax rapporteren in de Verenigde Staten](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Het IRS 1099-formulier instellen en gebruiken](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Regelgeving 1099 Indelingswijzigingen en details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
@@ -1449,7 +1451,7 @@
 #### [Betalingsmethoden instellen](finance-payment-methods.md)
 #### [Betalingsvoorwaarden instellen](finance-payment-terms.md)
 #### [Boekingsgroepen instellen](finance-posting-groups.md)
-#### [Financiële rapportage voorbereiden met rapportageschema's en rekeningcategorieën](bi-how-work-account-schedule.md)
+#### [Financiële rapportage voorbereiden met financiële gegevens en accountcategorieën](bi-how-work-account-schedule.md)
 #### [Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)
 #### [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)
@@ -1467,7 +1469,7 @@
 #### [Het rekeningschema instellen](finance-setup-chart-accounts.md)
 #### [Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md)
 #### [Contant betalende klanten instellen](finance-how-to-set-up-cash-customers.md)
-#### [Intrastat instellen en rapporteren](finance-how-setup-report-intrastat.md)
+#### [Intrastat-rapportage instellen](finance-how-setup-report-intrastat.md)
 #### [Verdeelsleutels in dagboeken gebruiken](ui-how-use-allocation-keys-general-journals.md)
 ### Bankieren instellen
 #### [Bankieren instellen](bank-setup-banking.md)
@@ -1583,7 +1585,7 @@
 ##### [Business Central gebruiken zonder Outlook](admin-no-outlook.md)
 ##### [Veelgestelde vragen](ui-outlook-addin-faq.yml)
 ### Rapporten instellen
-#### [Rapportselectie](across-report-selections.md)
+#### [Rapportselectie voor documenten](across-report-selections.md)
 ### Goedkeuringswerkstromen instellen op basis van sjablonen
 #### [Goedkeuringswerkstromen instellen](across-set-up-workflows.md)
 #### [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)
@@ -1613,7 +1615,8 @@
 #### OneDrive voor Bedrijven gebruiken met Business Central
 ##### [Overzicht](across-onedrive-overview.md)
 ##### [Integratie met OneDrive voor Bedrijven beheren](admin-onedrive-integration.md)
-##### [Business Central-bestanden openen in OneDrive](across-share-onedrive.md)
+###### [OneDrive-integratie met Business Central On-premises configureren](admin-onedrive-integration-onpremises.md)
+##### [Bestanden openen en delen in OneDrive](across-share-onedrive.md)
 ##### [Veelgestelde vragen over OneDrive](admin-onedrive-faq.md)
 #### Power BI gebruiken met Business Central
 ##### [Inleiding](admin-powerbi.md)
@@ -1653,9 +1656,9 @@
 ### [Rapporten uitvoeren](ui-work-report.md)
 ### [Bladwijzer maken van een rapport](ui-bookmarks.md)
 ### [Rapportgegevens analyseren met Excel](report-analyze-excel.md)
-<!--### [Using the report inbox] (missing.md)-->
 ### [Rapporten afdrukken](ui-specify-printer-selection-reports.md#default)
 ### [Rapporten plannen](ui-work-report.md#ScheduleReport)
+### [Rapporten delen en exporteren met de Rapportinbox](ui-work-report-inbox.md)
 ### [Opgeslagen rapportinstellingen beheren](reports-saving-reusing-settings.md)
 ### [De lay-out instellen die door een rapport wordt gebruikt](ui-set-report-layout.md)
 ### [(verouderd) De lay-out instellen die door een rapport wordt gebruikt](ui-how-change-layout-currently-used-report.md)
@@ -1663,7 +1666,7 @@
 ## Ingebouwde rapporten
 ### [Rapportoverzicht](reports-available-reports.md)
 ### Financiën
-#### [Financiële analyse](bi.md)
+#### [Financiële bedrijfsinformatie](bi.md)
 #### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
 #### [Belangrijke financiële rapporten](finance-reports.md)
 #### [Debiteurenrapporten](receivables-reports.md)
@@ -1704,7 +1707,7 @@
 
 ### Assemblagebeheer
 #### [Assemblagebeheerrapporten](assembly-reports.md)
-#### [De stuklijststructuur bekijken](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+#### [De stuklijststructuur bekijken](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
 
 ### Productie
 #### [Productierapporten](production-reports.md)
@@ -1723,13 +1726,13 @@
 ### [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.yml)
 ### [Paginagegevens analyseren in Excel](across-work-with-excel.md)
 ### [Rapportgegevens analyseren met Excel](report-analyze-excel.md)
-### [Financiële analyse](bi.md)
+### [Financiële bedrijfsinformatie](bi.md)
 
 ## Ingebouwde analyse 
 ### [Overzicht](reports-built-in-analytics.md)
 ### [Intelligente inzichten](about-intelligent-cloud.md)
 ### [Werken met Power BI-rapporten](across-working-with-powerbi.md)
-### [Financiële analyse](bi.md)
+### [Financiële bedrijfsinformatie](bi.md)
 ### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
 ### [Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)
 ### [Gebruikstelemetrie rapporteren](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135996"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605123"
 ---
 # <a name="set-up-payment-terms"></a>Betalingscondities instellen
 
@@ -35,7 +35,7 @@ Nadat u de betalingscondities hebt ingesteld, wijst u deze toe aan klanten en le
 > [!TIP]
 > In de basisversie van [!INCLUDE [prod_short](includes/prod_short.md)] worden betalingsvoorwaarden met gedeeltelijke betalingen niet ondersteund. In plaats daarvan moet u de functie voor vooruitbetalingen gebruiken. Zie voor meer informatie [Vooruitbetalingen instellen](finance-set-up-prepayments.md) voor meer informatie.
 >
-> In bepaalde landen/regio's, *kunt* u betalingsvoorwaarden instellen met gedeeltelijke betalingen. Om te zien of deze mogelijkheid in uw land/regio wordt ondersteund, raadpleegt u de sectie **Lokale functionaliteit** in het navigatievenster aan de linkerkant op de site [Docs.microsoft.com](about-localization.md).
+> In bepaalde landen/regio's, *kunt* u betalingsvoorwaarden instellen met gedeeltelijke betalingen. Om te zien of deze mogelijkheid in uw land/regio wordt ondersteund, raadpleegt u de sectie **Lokale functionaliteit** in het navigatievenster aan de linkerkant van een [Microsoft Learn](about-localization.md)-artikel.
 
 ## <a name="see-also"></a>Zie ook
 

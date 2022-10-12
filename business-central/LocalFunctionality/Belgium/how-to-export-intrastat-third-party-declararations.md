@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: e51d65b58c8e9a63f1c5aeacce0880c4906bf0b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cfb412aaf7d488c921aa07f57ba5bb5c366e0062
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148014"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607163"
 ---
 # <a name="export-intrastat-third-party-declarations-in-the-belgian-version"></a>Intrastat-aangiftes van derden exporteren in de Belgische versie
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 In België moet u de Intrastat-aangifte door een derde laten invullen. Dit moet een extern persoon of een bedrijf zijn.  
 
@@ -40,11 +42,11 @@ Vervolgens moet de aangifte naar de OneGate-portal worden verzonden.
 
 ## <a name="see-also"></a>Zie ook
 
- [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)   
- [Aangiftesoorten instellen](how-to-set-up-declaration-types.md)   
- [Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)   
- [Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)   
- [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)
-
+[Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)  
+[Aangiftesoorten instellen](how-to-set-up-declaration-types.md)  
+[Belgische tariefcodes instellen](how-to-set-up-belgian-tariff-numbers.md)  
+[Intrastat-nummers instellen](how-to-set-up-intrastat-establishment-numbers.md)  
+[Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md)  
+[Intrastat-rapportage instellen](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

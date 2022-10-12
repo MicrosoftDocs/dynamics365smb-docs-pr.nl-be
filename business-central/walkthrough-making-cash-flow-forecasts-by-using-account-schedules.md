@@ -1,33 +1,33 @@
 ---
-title: Cashflowprognoses door rekeningschema's te gebruiken
-description: In dit scenario wordt beschreven hoe u rapportageschema's kunt maken van cashflowprognoses in Business Central.
+title: Cashflowprognoses maken met behulp van financiële rapporten
+description: In dit scenario wordt beschreven hoe u financiële rapporten kunt maken van cashflowprognoses in Business Central.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 08/18/2022
 ms.author: edupont
-ms.openlocfilehash: 7238b4de3b4a48c61560bc9a96a6923afe82eb93
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 4f3b406435b52d632d20553181aa5f106dc6a387
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533494"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606869"
 ---
-# <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedure: cashflow met behulp van rapportageschema's maken
+# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Overzicht: Cashflowprognoses maken met behulp van financiële rapporten
 
-In dit scenario wordt beschreven hoe u rapportageschema's kunt maken maken van cashflowprognoses. Rapportageschema's voeren berekeningen uit die niet rechtstreeks in het schema met cashflowrekeningen kunnen worden uitgevoerd. In de rapportageschema's kunt u subtotalen voor cashflowontvangsten en -betalingen instellen. Deze subtotalen kunnen worden opgenomen in nieuwe totalen die vervolgens kunnen worden gebruikt bij het maken van cashflowprognoses.  
+In dit scenario wordt beschreven hoe u de functie voor financiële rapporten kunt gebruiken om cashflowprognoses te maken in Business Central. Financiële rapporten voeren berekeningen uit die niet rechtstreeks in het schema met cashflowrekeningen kunnen worden uitgevoerd. In de financiële rapporten kunt u subtotalen voor cashflowontvangsten en -betalingen instellen. Deze subtotalen kunnen worden opgenomen in nieuwe totalen die vervolgens kunnen worden gebruikt bij het maken van cashflowprognoses.  
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure
 
 In deze procedure worden de volgende taken omschreven:  
 
-- Een nieuwe naam voor een cashflowrekening instellen.  
-- Nieuwe rapportageschemaregels instellen.  
+- Een nieuwe naam voor een financieel cashflowrapport instellen.  
+- Financiële rapportregels instellen.  
 - Een nieuwe kolomindeling instellen.  
-- Een kolomindeling toewijzen aan een rapportageschema.  
+- Een kolomdefinitie toewijzen aan een financieel rapport.  
 - De cashflowprognose weergeven en afdrukken.  
 
 ### <a name="prerequisites"></a>Vereisten
@@ -35,7 +35,7 @@ In deze procedure worden de volgende taken omschreven:
 U moet het volgende doen om deze procedure uit te voeren:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
-- De cashflowvoorstelregels worden geregistreerd  
+- Een cashflowvoorstel met geregistreerde regels  
 
 ## <a name="roles"></a>Rollen
 
@@ -45,43 +45,43 @@ In dit overzicht worden taken gedemonstreerd die worden uitgevoerd door de volge
 
 ## <a name="story"></a>Scenario
 
-Ken is controller bij CRONUS die de maandelijkse cashflowprognoses maakt. Hij neemt financiële gegevens, verkoop, inkoop en vaste activa op in de prognose en vervolgens presenteert hij deze aan CFO Sara voor het zakelijk perspectief.  
+Ken is controller bij CRONUS die de maandelijkse cashflowprognoses maakt. Hij neemt financiële gegevens, verkoop, inkoop en vaste activa op in de prognoses, die hij vervolgens presenteert aan CFO Sara voor het zakelijk perspectief.  
 
-## <a name="setting-up-a-new-account-schedule-name"></a>Een nieuwe naam voor een rapportschema instellen.
+## <a name="setting-up-a-new-financial-report-name"></a>Een nieuwe naam voor een financieel rapport instellen
 
-Een rapportageschema bestaat uit een cashflowrekening met een reeks regels en een kolomindeling.  
+De naam van het financiële rapport is de naam die u aan de cashflowprognose geeft die een reeks gedefinieerde regels en een kolomdefinitie bevat.  
 
-### <a name="to-set-up-a-new-account-schedule-name"></a>Een nieuwe naam voor een rekeningstelsel instellen  
+### <a name="set-up-a-new-financial-report-name"></a>Een nieuwe naam voor een financieel rapport instellen  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema's** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies op de pagina **Rapportageschema's** de actie **Nieuw** om een nieuwe naam voor een cashflowrekening te maken.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële rapporten** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies op de pagina **Financiële rapporten** **Nieuw** om een nieuwe naam voor het financiële cashflowrapport te maken.  
 3. Voer in het veld **Naam** de tekst **Prognose** in.  
 4. Voer in het veld **Omschrijving** **Cashflowprognose** in.  
-5. Laat de velden **Std. kolomindeling** en **Analyseweergavenaam** leeg.  
+5. Laat de velden **Rijdefinitie** en **Kolomdefinitie** leeg.
 
-## <a name="setting-up-account-schedule-lines"></a>Nieuwe rapportageschemaregels instellen.
+## <a name="setting-up-row-definition-lines"></a>Rijdefinitieregels instellen
 
-Nadat een naam voor het rapportageschema is ingesteld, definieert Ken elke regel die in de cashflowrekening wordt weergegeven. Ken definieert de regels die kunnen worden weergegeven in rapporten en daarnaast extra regels die alleen voor het maken van berekeningen dienen.  
+Nadat de naam van een financieel rapport is ingesteld, definieert Ken elke regel in het financiële cashflowrapport. Ken definieert de regels die moeten worden weergegeven in rapporten en daarnaast extra regels die alleen voor het maken van berekeningen dienen.  
 
-### <a name="to-set-up-account-schedule-lines"></a>Nieuwe rapportageschemaregels instellen  
+### <a name="set-up-row-definition-lines"></a>Rijdefinitieregels instellen  
 
-1. Selecteer op de pagina **Rapportageschema's** de naam van het nieuwe rapportageschema **Prognose** dat u hebt gemaakt en kies vervolgens de actie **Rapportageschema bewerken**.  
-2. Voer op de pagina **Rapportageschema** elke regel in zoals deze in de volgende tabel wordt weergegeven.  
+1. Selecteer op de pagina **Financiële rapporten** het nieuwe financiële rapport **Prognose** dat u hebt gemaakt, en kies vervolgens de actie **Rijdefinitie bewerken**.  
+2. Voer op de pagina **Rijdefinitie** elke regel in zoals deze in de volgende tabel wordt weergegeven.  
 
     > [!TIP]  
-    >  Met de functie **CF rekeningen invoegen** kunt u snel de cashflowrekeningen in het schema met cashflowrekeningen markeren en deze naar rapportageschemaregels kopiëren.  
+    > Met de functie **CF rekeningen invoegen** kunt u snel de gewenste cashflowrekeningen in het schema met cashflowrekeningen markeren en deze naar rijdefinitieregels kopiëren.  
 
-    | Rijnr. | Omschrijving              | Samentellingssoort            | Samentelling | Rijsoort   | Bedragsoort | Weergeven |
+    | Rubriek | Omschrijving              | Samentellingssoort            | Samentelling | Rijsoort   | Bedragtype | Weergeven |
     |---------|--------------------------|--------------------------|----------|------------|-------------|------|
-    | R10     | Open verkooporders        | Cashflowpostrekeningen | 20       |Mutatie | Nettobedrag  | Ja  |
+    | B10     | Tegoeden              | Cashflowpostrekeningen | 10       |Mutatie | Nettobedrag  | Ja  |
+    | B10     | Open verkooporders        | Cashflowpostrekeningen | 20       |Mutatie | Nettobedrag  | Ja  |
     | R10     | Verhuur                  | Cashflowpostrekeningen | 30       |Mutatie | Nettobedrag  | Ja  |
     | R10     | Financiële activa         | Cashflowpostrekeningen | 40       |Mutatie | Nettobedrag  | Ja  |
     | R10     | Buitengebruikstelling vaste activa    | Cashflowpostrekeningen | 50       |Mutatie | Nettobedrag  | Ja  |
     | R10     | Privé-investeringen      | Cashflowpostrekeningen | 60       |Mutatie | Nettobedrag  | Ja  |
     | R10     | Diverse ontvangsten   | Cashflowpostrekeningen | 70       |Mutatie | Nettobedrag  | Ja  |
     | R10     | Open serviceorders      | Cashflowpostrekeningen | 80       |Mutatie | Nettobedrag  | Ja  |
-    | R20     | Totale kasontvangsten      | Formule                  | R10      |Mutatie | Nettobedrag  | Ja  |
-    | R20     | Totale kasontvangsten      | Formule                  | R10      |Mutatie | Nettobedrag  | Ja  |
+    | R20     | Totale kasontvangsten      | Formule                  | B10      |Mutatie | Nettobedrag  | Ja  |
     | R30     | Schulden                 | Cashflowpostrekeningen | 1010     |Mutatie | Nettobedrag  | Ja  |
     | R30     | Openstaande inkooporders     | Cashflowpostrekeningen | 1020     |Mutatie | Nettobedrag  | Ja  |
     | R30     | Personeelskosten          | Cashflowpostrekeningen | 1030     |Mutatie | Nettobedrag  | Ja  |
@@ -99,54 +99,51 @@ Nadat een naam voor het rapportageschema is ingesteld, definieert Ken elke regel
     > [!NOTE]
     > Het rijnummer R10 wordt gebruikt voor het vastleggen van de rekeningtotalen voor tegoeden. Het rijnummer R20 wordt gebruikt voor het berekenen van de som van alle kasontvangsten. Het rijnummer R30 wordt gebruikt voor het vastleggen van de rekeningtotalen voor schulden. Het rijnummer R40 wordt gebruikt voor het berekenen van de som van alle kasvoorschotten. Het rijnummer R50 wordt gebruikt voor het vastleggen van de som van alle kassurplus. Het rijnummer R60 wordt gebruikt voor het vastleggen van de liquide fondsen. Het rijnummer R70 wordt gebruikt voor het berekenen van de verwachte cashflow.
 
-## <a name="setting-up-a-new-column-layout"></a>Een nieuwe kolomindeling instellen
+## <a name="setting-up-a-new-column-definition"></a>Een nieuwe kolomindeling instellen
 
-Voordat Ken de cashflowprognose kan afdrukken, moet hij de kolomindeling voor de numerieke gegevens maken. In de kolommen bepaalt hij welke informatie van de regels hij wil gebruiken.
+Voordat Ken de cashflowprognose kan afdrukken, moet hij de kolomdefinitie voor de numerieke gegevens maken. In de kolommen bepaalt hij welke informatie van de regels hij wil gebruiken.
 
 - De eerste kolom heeft nummer *C10* met de titel **Bedrag** en bevat de mutatie.  
 - De tweede kolom heeft nummer *C20* en de titel **Saldo t/m datum** en bevat de transacties voor de periode.  
 - De derde kolom heeft nummer *C30* en de titel **Volledig jaar** en bevat de mutatie in de saldi voor het gehele boekjaar.  
-- Ten slotte wijst hij de kolomindeling toe als de standaardkolomindeling voor het rapportageschema **Prognose**.  
+- Ten slotte wijst hij de kolomdefinitie toe als de standaardoptie voor het financiële rapport **Prognose**.  
 
-## <a name="to-set-up-a-new-column-layout"></a>Een nieuwe kolomindeling instellen
+### <a name="set-up-a-new-column-definition"></a>Een nieuwe kolomdefinitie instellen
 
-1. Selecteer in het venster **Rapportageschema's** de nieuwe naam voor het rapportageschema **Prognose** dat u hebt gemaakt. Kies op het tabblad **Start** in de groep **Verwerken** de optie **Instellingen kolomindeling bewerken**.
+1. Selecteer op de pagina **Financiële rapporten** de naam van het nieuwe financiële rapport **Prognose** die u hebt gemaakt. Kies op het tabblad **Start** in de groep **Proces** de optie **Kolomdefinitie bewerken**.
 
-    > [!TIP]
-    > U vindt dezelfde actie op de pagina **Rapportageschema** als u nog steeds bezig bent met het bewerken van het rapportageschema **Voorspelling** daar.
+2. Maak een nieuwe kolomdefinitie met de naam **Cashflow**.
 
-2. Maak een nieuwe kolomindeling met de naam **Cashflow**.
-
-3. Kies de knop Ok.
+3. Kies de knop **OK**.
 
 4. Voer elke regel in zoals in de volgende tabel wordt weergegeven.
 
     |Kolomnr.|Kolomkop|Kolomsoort|Boekingssoort|Bedragsoort|Weergeven|  
     |----------|-------------|-----------|-----------------|-----------|----|
     |K10|Bedrag|Mutatie|Posten|Nettobedrag|Altijd|  
-    |K20|Bedrag tot datum|Saldo t/m datum|Posten|Nettobedrag|Altijd|  
+    |K20|Bedrag tot datum|Saldo op datum|Posten|Nettobedrag|Altijd|  
     |K30|Volledig boekjaar|Volledig boekjaar|Posten|Nettobedrag|Altijd|
 
-## <a name="assigning-the-column-layout-to-the-account-schedule-name"></a>De kolomindeling toewijzen aan de naam van het rekeningstelsel
+## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>De kolomdefinitie toewijzen aan de naam van het financiële rapport
 
-Ken kan nu de kolomindeling toewijzen aan de naam van het rapportageschema.  
+Ken kan nu de kolomdefinitie toewijzen aan de naam van het financiële rapport.  
 
-### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>De kolomindeling toewijzen aan de naam van het rekeningstelsel  
+### <a name="assign-the-column-definition-to-the-financial-report-name"></a>De kolomdefinitie toewijzen aan de naam van het financiële rapport
 
-1. Kies op de pagina **Rapportageschema** waar u werkt met het rapportageschema **Prognose** de actie **Instellingen kolomindeling bewerken**.  
-2. Kies in het veld **Kolomindelingnaam** de kolomindeling **Cashflow** om deze toe te wijzen als de standaardkolomindeling.  
+1. Selecteer op de pagina **Financiële rapporten** het financiële rapport **Prognose** en kies vervolgens de actie **Kolomdefinitie bewerken**.  
+2. Kies in het veld **Naam** de kolomdefinitie **Cashflow** om deze toe te wijzen als de standaardkolomdefinitie.  
 
-### <a name="to-view-and-print-the-cash-flow-forecast"></a>De cashflowprognose weergeven en afdrukken
+## <a name="view-and-print-the-cash-flow-forecast"></a>De cashflowprognose weergeven en afdrukken
 
-1. Kies op de pagina **Rapportageschema's** de actie **Overzicht** om de cashflowprognose weer te geven.  
-2. Op de pagina **Rapportageschemaoverzicht** kunt u een bedrag selecteren en vervolgens de cashflowprognoseposten weergeven waaruit het bedrag bestaat. Bovendien kunt u de formule weergegeven die voor het berekenen van het bedrag wordt gebruikt. U kunt de bedragen ook filteren op datum en dimensie.  
+1. Kies op de pagina **Financiële rapporten** het financiële rapport **Prognose** om de cashflowprognose weer te geven.  
+2. Op de pagina **Financieel rapport** kunt u een bedrag selecteren en vervolgens de cashflowprognoseposten weergeven waaruit het bedrag bestaat. Bovendien kunt u de formule weergegeven die voor het berekenen van dat bedrag wordt gebruikt. U kunt de bedragen ook filteren op datum en dimensie.  
 3. Kies de actie **Afdrukken** om de cashflowprognose af te drukken.  
 
 ## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 
-[Werken met rekeningschema's](bi-how-work-account-schedule.md)  
+[Werken met financiële rapporten](bi-how-work-account-schedule.md)  
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
 [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

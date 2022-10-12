@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
+ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 148d6657d3fffeaa7b5415338517f1688264ae98
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532956"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617924"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berekeningen en boekingsmethoden voor btw instellen
 
@@ -32,7 +32,7 @@ Als u echter de btw-berekeningen zelf wilt instellen of alleen meer informatie w
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>De begeleide instelling Btw-instellen gebruiken om btw in te stellen (aanbevolen) 
+## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Btw instellen met behulp van de begeleide instelling (aanbevolen)
 
 > [!NOTE]
 > U kunt de begeleide instelling **Btw instellen** alleen gebruiken als u een *Mijn bedrijf* hebt gemaakt en geen transacties hebt geboekt die inclusief btw zijn.
@@ -50,6 +50,21 @@ Om uw snelle start te ondersteunen informeert [!INCLUDE [prod_short](includes/pr
 Als u voor een dergelijke melding kiest, maakt [!INCLUDE [prod_short](includes/prod_short.md)] automatisch die boekingsinstellingen op basis van de boekingsgroepen in het document of journaal waaraan u momenteel werkt.  
 
 Op dit punt kunt u gewoon de ontbrekende grootboekrekeningen invullen. Later, wanneer u de instellingen verder verfijnt, realiseert u zich echter misschien dat deze initiële instelling onjuist was. En [!INCLUDE [prod_short](includes/prod_short.md)] staat het verwijderen van btw-boekingsinstellingen en algemene boekingsinstellingen niet toe wanneer er boekingen zijn gemaakt op basis van dergelijke configuraties. Dus vanaf releasewave 1 in 2022 kunt u het veld **Geblokkeerd** op de pagina **Btw-boekingsgroepinstellingen** gebruiken om te voorkomen dat gebruikers per ongeluk een instelling gebruiken die niet langer relevant is voor nieuwe boekingen.
+
+## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Een standaard btw-datum instellen voor documenten en dagboeken
+Btw aangifte in [!INCLUDE [prod_short](includes/prod_short.md)] is gebaseerd op de **btw-datum** om btw-posten in btw-aangiften in een btw-periode op te nemen. De btw-datum kan op alle documenten en dagboeken worden gewijzigd, maar u moet een standaardwaarde voor de btw-datum opgeven.
+
+> [!NOTE]
+> Na het boeken van het document of journaal wordt de **btw-datum** weergegeven in **Btw-posten** en **Grootboekposten**, evenals op het geboekte document indien aanwezig.
+
+Volg deze stappen om een standaardwaarde voor een btw-datum in te stellen:
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), en voer **Grootboekinstellingen** in. Kies vervolgens de gerelateerde koppeling.  
+2. Kies op het sneltabblad **Algemeen**, in het veld **Standaard btw-datum** de optie **Boekingsdatum** of **Documentdatum**.
+3. De pagina sluiten.  
+
+> [!NOTE]
+> Standaard is de **standaard-btw-datum** gelijk aan de **boekingsdatum**.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Btw-nummers instellen voor uw land of regio
 

@@ -1,6 +1,6 @@
 ---
-title: Een rekeningschema instellen (bevat video)
-description: Het rekeningschema bevat de grootboekrekeningen die uw financiële gegevens bevatten. U kunt de standaardrekeningen wijzigen in het rekeningschema en u kunt nieuwe rekeningen toevoegen.
+title: Het rekeningschema instellen of wijzigen (bevat video)
+description: Het rekeningschema (COA) bevat de grootboekrekeningen die uw financiële gegevens bevatten. U kunt de standaardrekeningen wijzigen in het rekeningschema en u kunt nieuwe rekeningen toevoegen.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
@@ -10,26 +10,25 @@ ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 57dadabe2e96654a919127f17fcc6391786eb90f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 15eca1f6bc4a75ca6758e5be351d4a459226ac5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533629"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606707"
 ---
 # <a name="set-up-or-change-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
 
-Het rekeningschema bevat de grootboekrekeningen die uw financiële gegevens bevatten. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
-Echter, kunt u de standaardrekeningen wijzigen en u kunt nieuwe rekeningen toevoegen.
+Het rekeningschema (COA) bevat de grootboekrekeningen die uw financiële gegevens bevatten. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf. U kunt de standaardrekeningen echter wijzigen en u kunt nieuwe rekeningen toevoegen.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
 ## <a name="add-or-change-accounts"></a>Rekeningen toevoegen of wijzigen
 
-Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen toevoegen of wijzigen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen toevoegen of wijzigen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
-Desgewenst kunt u meerdere regels gebruiken voor de naam van een grootboekrekening. Kies op de pagina **Grootboekrekening** de groep **Rekening**, kies **Uitgebreide teksten** en vul vervolgens een of meer regels in met de te kopiëren tekst en de accountnaam.  
+Desgewenst kunt u meerdere regels gebruiken voor de naam van een grootboekrekening. Kies op de pagina **Grootboekrekening** de groep **Rekening**, kies **Uitgebreide teksten** en vul vervolgens een of meer regels in met de accountnaam en gekopieerde tekst.  
 
 Voor rekeningen van het rekeningsoort **Totaal** moet u het veld **Samentelling** invullen. Voor rekeningen met het soort **Eindtotaal** wordt dit veld automatisch ingevuld met de inspringfunctie. Nadat u alle accounts heeft ingesteld, kiest u de actie **Verwerken** en vervolgens **Rekeningschema inspringen**.  
 
@@ -52,11 +51,9 @@ U kunt een grootboekrekening verwijderen. Echter, voordat u deze verwijdert, moe
 
 In releasewave 2 van 2022 wordt een extra beveiliging tegen het per ongeluk verwijderen van grootboekrekeningen geïntroduceerd, zelfs in de scenario's waarin aan de criteria wordt voldaan.  
 
-Een nieuw veld, **Blok grootboekrekeningen verwijderen**, wordt toegevoegd aan de pagina **Grootboekinstellingen**. Het veld fungeert als extra validatie wanneer een gebruiker probeert een rekening te verwijderen waarvan er grootboekboekingen zijn na de datum die is opgegeven in het veld **Verwijdering van grootboekrek. controleren na**.
+Er is een nieuw veld, **Blok grootboekrekeningen verwijderen**, toegevoegd aan de pagina **Grootboekinstellingen**. Als het veld is ingesteld op *Ja*, fungeert het als extra validatie waarbij u geen grootboekrekeningen kunt verwijderen die posten bevatten na de datum in het veld **Verwijdering van grootboekrek. controleren na**. Als een gebruiker met toegang tot de pagina **Grootboekinstellingen** een dergelijke rekening wil verwijderen, moet hij of zij dit veld eerst instellen op *Nee*.  
 
-Als het veld **Blok grootboekrekeningen verwijderen** is ingesteld op *Ja*, kunt u geen grootboekrekeningen verwijderen die posten hebben na de datum in het veld **Verwijdering van grootboekrek. controleren na**. Als een een gebruiker met toegang tot de pagina **Grootboekinstellingen** een dergelijke rekening wil verwijderen, moet hij of zij dit veld eerst instellen op *Nee*. Vervolgens kan de rekening worden verwijderd.  
-
-We raden aan om het veld **Blok grootboekrekeningen verwijderen** in te stellen op *Ja*. We raden u ook aan om altijd een datum vast te leggen in het veld **Verwijdering van grootboekrek. controleren na**, zoals de tijd die u nodig hebt om uw financiële gegevens op te slaan.  
+Als het veld **Blok grootboekrekeningen verwijderen** wordt ingesteld op *Ja*, kan dit als een best practice worden beschouwd, evenals het instellen van de datum in het veld **Verwijdering van grootboekrek. controleren na**, bijvoorbeeld naar de datum waarop u uw financiële gegevens moet opslaan.  
 
 ## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
@@ -66,7 +63,7 @@ We raden aan om het veld **Blok grootboekrekeningen verwijderen** in te stellen 
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Werken met dimensies](finance-dimensions.md)  
 [Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[Werken met rekeningschema's](bi-how-work-account-schedule.md)  
+[Werken met financiële rapporten](bi-how-work-account-schedule.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Resultatenrekeningen sluiten in de Franse versie](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
 [Resultatenrekeningen afdrukken in de Australische versie](LocalFunctionality/Australia/how-to-print-income-statements.md)  
@@ -75,6 +72,5 @@ We raden aan om het veld **Blok grootboekrekeningen verwijderen** in te stellen 
 [Het rekeningschema inspringen en valideren in de Spaanse versie](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

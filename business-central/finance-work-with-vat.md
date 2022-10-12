@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530931"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617833"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Werken met btw op verkoop en inkoop
 Als uw land of regio vereist dat u belasting over de toegevoegde waarde (btw) op verkoop- en aankooptransacties berekent en rapporteert, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] instellen voor het berekenen van btw. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
@@ -61,6 +61,18 @@ Afhankelijk van wat u wilt doen, kunt u op de volgende manieren een btw-bedrijfs
 
 #### <a name="examples"></a>Voorbeelden
 Factoren zoals het land of de regio waarin u verkoopt of het type bedrijfstakken waaraan u verkoopt, kunnen van invloed zijn op het btw-bedrag dat u moet verantwoorden. Een restaurant kan bijvoorbeeld 6% btw in rekening brengen voor maaltijden die in huis worden gegeten en 17% voor afhaalmaaltijden. Dit kunt u bereiken door een btw-bedrijfsboekingsgroep (prijs) te maken voor in huis en een andere voor afhaalmaaltijden.
+
+## <a name="working-with-vat-date"></a>Werken met btw-datum
+### <a name="vat-date-in-documents"></a>Btw-datum in documenten
+Wanneer u nieuwe verkoop- of inkoopdocumenten maakt, is de **btw-datum** gebaseerd op de instelling in het veld **Standaard btw-datum** op de pagina **Grootboekinstellingen**. Deze standaardwaarde kan hetzelfde zijn als **Boekingsdatum** of **Documentdatum**. Als u een andere btw-datum nodig hebt, kunt u de waarde handmatig wijzigen in het veld **Btw-datum**. Wanneer u het document boekt, wordt de **btw-datum** weergegeven op het boekingsdocument en in de btw- en grootboekposten.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>Btw-datum corrigeren in geboekte posten
+In sommige situaties is het nodig om de btw-datum te wijzigen, zelfs als het document al is geboekt. Dit kan worden gedaan in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de **btw-datum** voor geboekte documenten wilt wijzigen, moet u deze stappen volgen:
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-posten** in en kies vervolgens de gerelateerde koppeling.
+2. Zoek de invoer met de onjuiste btw-datum.
+3. Klik op de actie **Lijst bewerken** en voer de juiste datum in het veld **Btw-datum** in.
+4. De pagina sluiten.
+5. Nieuwe btw-datum wordt gewijzigd in gerelateerd **grootboekposten** en in het geboekte document indien aanwezig.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Btw-bedragen handmatig corrigeren in verkoop- en inkoopdocumenten  
 U kunt btw-posten corrigeren die zijn geboekt zodat u de totale bedragen voor verkoop- of inkoop-btw kunt wijzigen zonder het btw-basisbedrag aan te passen. Bijvoorbeeld als u een factuur ontvangt van een leverancier met een onjuist btw-bedrag.  
@@ -109,14 +121,14 @@ In plaats van dagboeken te gebruiken om een import-btw-factuur te boeken, kunt u
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Inkopen instellen voor het boeken van import-btw-facturen  
 1. Een leverancierskaart instellen voor de importinstantie die u de import-btw-factuur stuurt. De **Bedrijfsboekingsgroep** en **Btw-bedrijfsboekingsgroep** moeten worden ingesteld op dezelfde manier als de grootboekrekening voor import-btw.  
 2. Maak een **Prod.-boekingsgroep** voor de invoerbelasting en stel een **btw-productboekingsgroep** voor invoer-btw in voor de bijbehorende **Prod.-boekingsgroep**.  
-3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies de gerelateerde koppeling.  
+3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de gerelateerde koppeling.  
 4. Selecteer de grootboekrekening voor het importeren van btw en kies de actie **Bewerken**.  
 5. Selecteer op het sneltabblad **Boeken** de instelling van de **Productboekingsgroep** voor import-btw. [!INCLUDE[prod_short](includes/prod_short.md)] vult automatisch het veld **Btw-productboekingsgroep** in.  
 6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Boekingsgroepinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 7. Maak een combinatie van **Bedrijfsboekingsgroep** voor de btw-instantie en **Alg. prod. bkgr.** voor invoer-btw. Selecteer voor deze nieuwe combinatie in het veld **Ink.-rekening** de grootboekrekening voor invoer-btw.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Een nieuwe factuur voor de importinstantieleverancier maken na het voltooien van de instelling  
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe inkoopfactuur.  
 3. Selecteer in het veld **Orderleveranciersnr.** de importinstantieleverancier en kies vervolgens de knop **OK**.  
 4. Selecteer op de inkoopregel in het veld **Soort** de optie **Grootboekrekening** en selecteer in het veld **Nr.** de grootboekrekening voor invoer-btw.  
@@ -128,7 +140,7 @@ In plaats van dagboeken te gebruiken om een import-btw-factuur te boeken, kunt u
 Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de klant een certificaat van levering sturen dat de klant moet ondertekenen en aan u moet retourneren. De volgende procedures zijn voor het verwerken van certificaten van levering voor verkoopverzendingen, maar dezelfde stappen gelden voor serviceverzendingen van artikelen en retourzendingen aan leveranciers.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Details van een certificaat van levering weergeven  
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte verkoopverzendingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzendingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de relevante verkoopverzending aan een klant in een ander EU-land of een andere EU-regio.  
 3. Kies **Details certificaat van levering**.  
 4. Als in de instelling van de btw-boekingsgroep voor de klant het selectievakje **Certificaat van levering vereist** is ingeschakeld, is het veld **Status** standaard ingesteld op **Vereist**. U kunt het veld bijwerken om aan te geven of de klant het certificaat heeft geretourneerd.  
@@ -178,7 +190,7 @@ Wanneer u goederen aan een klant in een ander EU-land/-regio verkoopt, moet u de
 Als u een groep certificaten wilt weergeven, begint u op de pagina **Certificaten van levering** en werkt u de informatie over de status van openstaande certificaten bij wanneer u ze terug ontvangt van uw klanten. Dit kan handig zijn als u wilt zoeken naar alle certificaten die een bepaalde status hebben, bijvoorbeeld **Vereist**, waarvoor u de status wilt bijwerken naar **Niet ontvangen**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>De status van een groep certificaten bijwerken  
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Certificaten van levering** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Certificaten van levering** in en kies vervolgens de gerelateerde koppeling.  
 2. Filter het veld **Status** op de waarde die u wilt om de lijst met certificaten te maken die u wilt beheren.  
 3. Als u de statusinformatie wilt bijwerken, kiest u **Lijst bewerken**  
 4. Kies in het veld **Status** de relevante optie.  

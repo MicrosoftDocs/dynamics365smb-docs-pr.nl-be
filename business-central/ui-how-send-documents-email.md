@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532362"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607215"
 ---
 # <a name="send-documents-and-emails"></a>Documenten en e-mails verzenden
 
@@ -51,10 +51,13 @@ In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-besta
 > Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van de pagina **Document verzenden naar** selecteren. In dat geval wordt de pagina **E-mail verzenden** niet geopend. Zie stap 4. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
 
 ## <a name="to-compose-and-send-an-email"></a>Een e-mail opstellen en verzenden
+
 U kunt snel e-mails opstellen voor contactpersonen, klanten, leveranciers, verkopers/inkopers en bankrekeningen, rechtstreeks vanaf de pagina's voor die entiteiten. Kies gewoon **Verwerken** en dan **E-mail verzenden** om de e-maileditor te openen. Voor bankrekeningen bevindt de actie **E-mail verzenden** zich onder **Acties**.
 
 > [!TIP]
 > Als u vaak e-mailberichten verstuurt die vergelijkbaar zijn, of een bulkcommunicatie wilt verzenden, bijvoorbeeld om reclame te maken voor een verkoopcampagne, kan het gebruik van Word-sjablonen met e-mail het proces versnellen. U kunt een sjabloon maken voor entiteiten zoals klanten, leveranciers en contactpersonen, die de inhoud van een e-mailbericht voor u zal genereren, en zelfs de inhoud voor de ontvanger personaliseren op basis van gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Word-sjablonen gebruiken voor bulkcommunicatie](ui-mail-merge.md).  
+
+Als u bent toegewezen aan een e-mailscenario met betrekking tot de entiteit waarnaar u de e-mail verzendt, of het document dat u verzendt, kan er automatisch een bijlage aan uw bericht worden toegevoegd. Dat komt omdat er een standaardbijlage is toegewezen aan het e-mailscenario. U kunt de bijlage verwijderen als u deze niet met uw bericht wilt meesturen. Zie voor meer informatie [E-mailscenario's toewijzen aan e-mailaccounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 45fec99ad6082f8d0bb7258415477df833712b41
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523331"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605778"
 ---
 # <a name="setting-up-manufacturing"></a>Productie instellen
 
@@ -24,9 +24,7 @@ Machinebedienden en machines worden in het systeem weergegeven als bewerkingspla
 
 Wanneer u de productie hebt ingesteld, kunt u productieorders plannen en uitvoeren. Zie [Planning](production-planning.md) en [Productie](production-manage-manufacturing.md) voor meer informatie.  
 
-
-
- In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
@@ -42,11 +40,11 @@ Wanneer u de productie hebt ingesteld, kunt u productieorders plannen en uitvoer
 |Afdelingen en bewerkingsplannen voor uitbestede productiebewerkingen voorbereiden.|[Productie uitbesteden](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Zie ook
-[Productie](production-manage-manufacturing.md)
-[Planning](production-planning.md)   
+
+[Productie](production-manage-manufacturing.md)  
+[Gepland](production-planning.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -4,18 +4,18 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: f574fbb444752b1c8b0761df80dbfdc98e8123e6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 83453858afb9cbaa893252e712fa408b27483b45
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531687"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607620"
 ---
 - Een link over de huidige pagina
 
   Boven aan het deelvenster staat een kaart met een korte beschrijving van de huidige pagina, als die bestaat. Als er geen paginabeschrijving is, biedt de kaart een enkele koppeling naar een artikel over de pagina.  
 
-  Als [!INCLUDE[prod_short](prod_short.md)] de relevante koppeling niet kan vinden, tonen we de landingspagina in [Microsoft Docs](/dynamics365/business-central) . Als de pagina bijvoorbeeld deel uitmaakte van een app die geen contextgevoelige Help-toewijzing heeft toegevoegd aan [!INCLUDE[prod_short](prod_short.md)], gaat de *Meer informatie*-koppeling standaard naar de landingspagina.  
+  Als [!INCLUDE[prod_short](prod_short.md)] de relevante koppeling niet kan vinden, wordt de landingspagina in [Microsoft Learn](/dynamics365/business-central) weergegeven. Als de pagina bijvoorbeeld deel uitmaakte van een app die geen contextgevoelige Help-toewijzing toevoegde aan [!INCLUDE[prod_short](prod_short.md)], is de *Meer informatie*-koppeling standaard ingesteld op de landingspagina.  
 
 - Koppelingen naar gerelateerde artikelen
 

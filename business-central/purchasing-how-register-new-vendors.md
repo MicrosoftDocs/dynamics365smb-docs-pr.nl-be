@@ -1,21 +1,21 @@
 ---
 title: Een leverancierskaart maken om nieuwe leveranciers te registreren (bevat video)
 description: Leer hoe u een leverancierskaart maakt om een nieuwe leverancier te registreren en leverancierskaarten als sjabloon op te slaan.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532052"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606653"
 ---
 # <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
 
@@ -41,6 +41,10 @@ Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebru
 > Het kan handig zijn om de pagina **Leverancierssjabloon** te personaliseren wanneer u een sjabloon maakt. U wilt bijvoorbeeld een veld toevoegen dat nog niet op de pagina wordt weergegeven. Zie de sectie [Uw werkruimte personaliseren](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.
 
 U kunt ook een leverancier maken op basis van een contact. Zie voor meer informatie de sectie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+
+Overschrijvingsadressen worden gebruikt wanneer u cheques afdrukt om uw leveranciers te betalen, en leveranciers kunnen meerdere overschrijvingsadressen hebben voor betalingen. Een leverancier kan bijvoorbeeld een artikel van een dochteronderneming leveren, maar de betaling op zijn hoofdkantoor willen ontvangen. [!INCLUDE [prod_short](includes/prod_short.md)] stelt u in staat meerdere postadressen voor elke leverancier in te stellen, en u kunt de juiste locatie kiezen waar betalingen per factuur naartoe moeten worden gestuurd.
+
+U geeft overschrijvingsadressen op op de pagina's van Leverancierskaart en op het sneltabblad Verzenden en betalen op inkooporders en facturen. Wanneer u betalingsdagboekregels maakt met de acties Leverancier betalen of Betaling maken op de pagina Leverancierslijst of Leverancierskaart, of de actie Boekingen vereffenen op een betalingsdagboek, wordt de betalingsopdrachtcode op de leverancierspost toegewezen. U kunt deze waarde overschrijven.
 
 ### <a name="to-create-a-new-vendor"></a>Een nieuwe leverancier maken
 
