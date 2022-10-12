@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 82d08e1c072f74434ad50943a97baf77712cb171
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1348066d757abc9768fe97fd6b5f7a337f96c5f6
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529419"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607139"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Weergeven en bewerken in Excel vanuit Business Central
 
-Met pagina's die een lijst met records in rijen en kolommen weergeven, zoals een lijst met klanten, verkooporders of facturen, kunt u ook de lijst exporteren naar Microsoft Excel en deze daar weergeven. Afhankelijk van de pagina hebt u twee opties voor weergave in Excel. Beide opties zijn verkrijgbaar via het pictogram **Delen** ![Een pagina delen in een andere app.](media/share-icon.png) bovenaan een pagina. U kunt de actie **Openen in Excel** of de actie **Bewerken in Excel** op de pagina selecteren. In dit artikel worden de verschillen tussen de twee acties uitgelegd.
+Met pagina's die een lijst met records in rijen en kolommen weergeven, zoals een lijst met klanten, verkooporders of facturen, kunt u ook de lijst exporteren naar Microsoft Excel en deze daar weergeven. Afhankelijk van de pagina hebt u twee opties voor weergave in Excel. Beide opties zijn verkrijgbaar via het pictogram **Delen** ![Een pagina delen in een andere app.](media/share-icon.png) bovenaan een pagina. U kunt de actie **Openen in Excel** of de actie **Bewerken in Excel** op de pagina selecteren. In dit artikel worden de twee acties uitgelegd.
 
 ## <a name="open-in-excel"></a>Openen in Excel
 
@@ -27,8 +27,7 @@ Met de actie **Openen in Excel** kunt u wijzigingen aanbrengen in de records in 
 - Met deze actie houdt Excel rekening met alle filters op de pagina waarmee de weergegeven records worden beperkt. De Excel-werkmap zal dezelfde rijen en kolommen bevatten die worden weergegeven op de pagina in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Deze actie werkt zowel onder Windows als MacOS.
-
-- Vanaf update 18.3 kunt u ook lijsten bekijken die in paginaonderdelen worden getoond, zoals de regels in een verkooporder. 
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
 > [!NOTE]
 > Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises is de actie **Openen in Excel** standaard beschikbaar. Als u echter [!INCLUDE[prod_short](includes/prod_short.md)] on-premises instelt om gegevens in Excel te bewerken, wordt de actie **Openen in Excel** vervangen door de actie **Bewerken in Excel**.
@@ -41,12 +40,21 @@ De actie **Bewerken in Excel** is beschikbaar bij de meeste lijsten, maar niet a
 
 - Met deze actie respecteert Excel de meeste filters op de pagina die het aantal weergegeven records beperken, dus de Excel-werkmap bevat bijna dezelfde records en kolommen.
 
-- Om de laatste gegevens te krijgen van [!INCLUDE[prod_short](includes/prod_short.md)], kiest u **Vernieuwen** in het deelvenster Excel-invoegtoepassing.
+- Om de laatste gegevens van [!INCLUDE[prod_short](includes/prod_short.md)] te krijgen, kiest u **Vernieuwen** in het deelvenster Excel-invoegtoepassing.
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-- U kunt het bedrijf waarmee u werkt wijzigen. Om van bedrijf te veranderen selecteert u het pictogram **Opties** ![Opties van Excel-invoegtoepassing.](media/cogwheel.png "Opties van Excel-invoegtoepassing") In het Excel-invoegtoepassingsvenster en selecteert u vervolgens het bedrijf in het veld **Bedrijf**.  
+### <a name="first-time-sign-in"></a>Eerste aanmelding
 
-    > [!IMPORTANT]
-    > Zorg er bij het veranderen van bedrijf voor dat het veld **Omgeving** niet leeg is. Als dat zo is, stel het dan in op een van de beschikbare opties; anders werkt de invoegtoepassing niet correct.  
+De actie **Bewerken in Excel** vereist dat de Business Central-invoegtoepassing in Excel is geïnstalleerd. In sommige gevallen heeft uw beheerder de invoegtoepassing mogelijk zo ingesteld dat deze automatisch voor u wordt geïnstalleerd. In dit geval hoeft u zich alleen maar aan te melden bij Business Central in het deelvenster **Excel-invoegtoepassing** met uw gebruikersnaam en wachtwoord. Anders wordt het deelvenster **Nieuwe Office-invoegtoepassing** geopend. Om de invoegtoepassing te installeren kiest u **Deze invoegtoepassing vertrouwen**, waardoor de invoegtoepassing rechtstreeks vanuit de Office Store wordt geïnstalleerd.
+
+Als de invoegtoepassing niet wordt geïnstalleerd, neemt u contact op met uw beheerder of probeert u deze handmatig te installeren. Zie voor meer informatie [De invoegtoepassing handmatig installeren voor eigen gebruik](admin-deploy-excel-addin.md#install).
+
+### <a name="work-across-environments-and-companies"></a>Werken in omgevingen en bedrijven
+
+U kunt het bedrijf waarmee u werkt wijzigen. Om van bedrijf te veranderen selecteert u het pictogram **Opties** ![Opties van Excel-invoegtoepassing.](media/cogwheel.png "Opties van Excel-invoegtoepassing") In het Excel-invoegtoepassingsvenster en selecteert u vervolgens het bedrijf in het veld **Bedrijf**.  
+
+> [!IMPORTANT]
+> Zorg er bij het veranderen van bedrijf voor dat het veld **Omgeving** niet leeg is. Als dat zo is, stel het dan in op een van de beschikbare opties; anders werkt de invoegtoepassing niet correct.  
 
 Als u wijzigingen aanbrengt in de invoegtoepassing, moet u deze opnieuw laden om de verbinding bij te werken. Gebruik om opnieuw te laden het menu ![menu van Excel-invoegtoepassing](media/excel-addin-menu.png "Menu van Excel-invoegtoepassing") in de rechterbovenhoek van de invoegtoepassing. Neem contact op met uw beheerder als u de invoegtoepassing niet kunt laden. Als u de beheerder bent, zie [De Business Central-invoegtoepassing voor Excel verkrijgen](admin-deploy-excel-addin.md).
 
@@ -55,20 +63,9 @@ Als u wijzigingen aanbrengt in de invoegtoepassing, moet u deze opnieuw laden om
 >
 > Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises is de actie **Bewerken in Excel** alleen beschikbaar als de Excel-invoegtoepassing door uw systeembeheerder is geconfigureerd, en alleen beschikbaar voor de webclient. Zie voor systeembeheerders [De Excel-invoegtoepassing instellen om Business Central-gegevens te bewerken](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) voor meer informatie over de installatie van de Excel-invoegtoepassing.
 
+### <a name="limits-when-using-excel-for-the-web"></a>Limieten bij het gebruik van Excel voor het web 
 
-<!-- Note for later: here we're immediately jumping to pretty advanced topics like changing company or reloading the addin. Fine to keep them for now. In the future, we will first need to explain in more detail the actual functionality of the addin, primarily these sub-sections:
-
-Refreshing record data in Excel
-Editing and publishing back to Business Central
-Creating new records from Excel
-Crafting your own editable Excel.
-Point (4) is where it gets interesting for changing/specifying company, environment and other connection settings-->
-
-### <a name="first-time-sign-in"></a>Eerste aanmelding
-
-De actie **Bewerken in Excel** vereist dat de Business Central-invoegtoepassing in Excel is geïnstalleerd. In sommige gevallen heeft uw beheerder de invoegtoepassing mogelijk zo ingesteld dat deze automatisch voor u wordt geïnstalleerd. In dit geval hoeft u zich alleen maar aan te melden bij Business Central in het deelvenster **Excel-invoegtoepassing** met uw gebruikersnaam en wachtwoord. Anders wordt het deelvenster **Nieuwe Office-invoegtoepassing** geopend. Om de invoegtoepassing te installeren kiest u **Deze invoegtoepassing vertrouwen**, waardoor de invoegtoepassing rechtstreeks vanuit de Office Store wordt geïnstalleerd.
-
-Als de invoegtoepassing om de een of andere reden niet wordt geïnstalleerd, neemt u contact op met uw beheerder of probeert u deze handmatig te installeren. Zie voor meer informatie [De invoegtoepassing handmatig installeren voor eigen gebruik](admin-deploy-excel-addin.md#install).
+Wanneer **Bewerken in Excel** wordt gebruikt op lijstpagina's voor tabellen met veel kolommen, heeft de resulterende werkmap mogelijk te veel kolommen om het bestand te kunnen bekijken in Excel voor het web. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de geëxporteerde werkmap automatisch beperkt tot 100 kolommen wanneer OneDrive is geconfigureerd voor systeemfuncties. 
 
 ## <a name="see-the-differences-between-the-options"></a>Zie de verschillen tussen de opties
 <br><br>  

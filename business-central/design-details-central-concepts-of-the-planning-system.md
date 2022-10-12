@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148680"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605177"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Ontwerpdetails: Centrale begrippen van het planningssysteem
 
@@ -299,7 +299,7 @@ De planningfunctie voor algemene voorzieningen wordt weergegeven op de pagina **
 > [!NOTE]  
 >  Het is niet raadzaam Orderplanning te gebruiken als het bedrijf al gebruikmaakt van plannings- of inkoopvoorstellen. Orders voor voorzieningen die zijn gemaakt via de pagina **Orderplanning** kunnen worden gewijzigd of verwijderd tijdens de automatisch uitgevoerde planningen. Dat komt doordat voor de geautomatiseerde planning planningsparameters worden gebruikt en deze niet in aanmerking kunnen worden genomen door gebruikers die handmatig plannen op de pagina Orderplanning.  
 
-##  <a name="finite-loading"></a>Eindige bezettingsplanning
+## <a name="finite-loading"></a>Beperkte werklast
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is een standaard ERP-systeem, geen verzend- of werkvloercontrolesysteem. Het systeem plant een uitvoerbaar gebruik van resources door een ruw schema te leveren, maar het maakt en onderhoudt niet automatisch gedetailleerde schema's op basis van prioriteiten of optimalisatieregels.  
 
@@ -308,7 +308,7 @@ Het bedoelde gebruik van de functie Capaciteitsbegrensde resource is 1): overbel
 Bij het plannen met capaciteitsbegrensde resources zorgt het systeem dat er geen resources boven de gedefinieerde capaciteit (kritieke werklastpercentage) worden geladen. Dit gebeurt door elke bewerking toe te wijzen aan de dichtstbijzijnde beschikbare periode. Als de periode niet groot genoeg is om de hele bewerking uit te voeren, wordt de bewerking in twee of meer delen gesplitst in de dichtstbijgelegen perioden.  
 
 > [!NOTE]  
->  In het geval van gesplitste bewerkingen wordt de insteltijd slechts eenmaal toegewezen omdat ervan wordt uitgegaan dat enige handmatige aanpassing wordt uitgevoerd om de planning te optimaliseren.  
+> In het geval van gesplitste bewerkingen wordt de insteltijd slechts eenmaal toegewezen omdat ervan wordt uitgegaan dat enige handmatige aanpassing wordt uitgevoerd om de planning te optimaliseren.  
 
 De dempingstijd kan bij resources worden opgeteld om splitsen van bewerkingen te minimaliseren. Hiermee kan het systeem de werklast op de laatst mogelijke dag plannen door het kritieke werklastpercentage iets te overschrijden als dit het aantal bewerkingen kan verminderen die worden gesplitst.  
 
@@ -316,11 +316,10 @@ Hiermee wordt het overzicht afgesloten van centrale concepten die betrekking heb
 
 ## <a name="see-also"></a>Zie ook
 
-[Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)   
-[Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)   
-[Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)   
-[Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
-[Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)
-
+[Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)  
+[Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)  
+[Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)  
+[Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)  
+[Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

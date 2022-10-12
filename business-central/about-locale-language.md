@@ -10,12 +10,12 @@ ms.search.keywords: language, locale, localization, culture, region, regional se
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 23cb50952e1fda9a8dc46398aaf5054e7e03e3ed
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655526"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606842"
 ---
 # <a name="changing-language-and-region"></a>Taal en regio-instellingen wijzigen
 
@@ -58,14 +58,14 @@ Op de pagina **Help en ondersteuning** ziet u op welke versie van [!INCLUDE[prod
 
 ## <a name="languages-of-the-prod_short-help"></a>Talen van de [!INCLUDE[prod_short](includes/prod_short.md)] Help
 
-De Help-inhoud voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] publiceert op de Microsoft Docs-site. De inhoud is beschikbaar in verschillende talen. Als u toegang tot de documenten hebt vanuit [!INCLUDE[prod_short](includes/prod_short.md)], wordt de inhoud in uw taal weergegeven. Als een bepaalde pagina nog niet beschikbaar in uw taal is, blijft deze standaard in het Engels worden weergegeven.
+De Help-inhoud voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt gepubliceerd naar Microsoft Learn. De inhoud is beschikbaar in verschillende talen. Als u toegang tot de documentatie hebt vanuit [!INCLUDE[prod_short](includes/prod_short.md)], wordt de inhoud in uw taal weergegeven. Als een bepaalde pagina nog niet beschikbaar in uw taal is, blijft deze standaard in het Engels worden weergegeven.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Hoe verander ik de taal van de Microsoft Docs-site?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Hoe verander ik de taal van de Microsoft Learn-site?
 
 Het is eenvoudig: schuif naar de onderzijde van de browserpagina en kies het wereldbolsymbool in de linkerbenedenhoek.
 
 > [!NOTE]  
-> De lijst bevat alle talen die door de Microsoft Docs-site worden ondersteund. [!INCLUDE[prod_short](includes/prod_short.md)] is beschikbaar in een beperkt aantal landen/regio's en de [!INCLUDE [prod_short](includes/prod_short.md)] Help-inhoud is niet beschikbaar in alle talen die de Microsoft Docs-site ondersteunt.
+> De lijst bevat alle talen die door de Microsoft Learn-site worden ondersteund. [!INCLUDE[prod_short](includes/prod_short.md)] is beschikbaar in een beperkt aantal landen/regio's en de Help-inhoud van [!INCLUDE [prod_short](includes/prod_short.md)] is niet beschikbaar in alle talen die de Microsoft Learn-site ondersteunt.
 
 ## <a name="see-also"></a>Zie ook
 

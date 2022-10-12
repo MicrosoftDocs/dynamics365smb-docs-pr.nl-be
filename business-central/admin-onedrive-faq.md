@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
-ms.date: 05/19/2021
+ms.date: 09/09/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ab3005c7958e6ce7cd112c495ba6bb1d0ae2366
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0d7f1dac73181845fe0329fc2c45bb0e8e53ccfb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381979"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606372"
 ---
 # <a name="onedrive-for-business-faq"></a>Veelgestelde vragen over OneDrive voor Bedrijven
 
@@ -40,19 +40,19 @@ Nee. Deze integratie is uitsluitend bedoeld voor OneDrive voor Bedrijven en onde
 
 ## <a name="where-can-i-see-onedrive-service-health"></a>Waar kan ik de status van de OneDrive-service zien?
 
-Beheerders hebben toegang tot het servicestatusdashboard als onderdeel van het Microsoft 365-beheercentrum. Het dashboard bevat de beschikbaarheid van de OneDrive-service. 
+Beheerders hebben toegang tot het servicestatusdashboard als onderdeel van het Microsoft 365-beheercentrum. Het dashboard bevat de beschikbaarheid van de OneDrive-service. Ga naar [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
 ## <a name="is-onedrive-integration-available-to-prod_short-on-premises"></a>Is OneDrive-integratie beschikbaar voor [!INCLUDE[prod_short](includes/prod_short.md)] on premises?
 
-Ja, maar in tegenstelling tot [!INCLUDE[prod_short](includes/prod_short.md)] online, vereist het wel extra instellingen. Zie voor meer informatie [Business Central On-Premises configureren](admin-onedrive-integration.md#configuring-business-central-on-premises).  
+Ja, maar in tegenstelling tot [!INCLUDE[prod_short](includes/prod_short.md)] online, zijn er meer instellingen vereist. Zie voor meer informatie [Business Central On-Premises configureren](admin-onedrive-integration-onpremises.md).  
 
 ## <a name="does-prod_short-on-premises-connect-with-sharepoint-server"></a>Maakt [!INCLUDE[prod_short](includes/prod_short.md)] on premises verbinding met SharePoint Server?
 
-Nee. Deze implementatiecombinatie wordt niet ondersteund, zelfs niet als SharePoint Server Mijn sites heeft ingeschakeld.  
+Nr. Deze implementatiecombinatie wordt niet ondersteund, zelfs niet als SharePoint Server Mijn sites heeft ingeschakeld.  
 
 ## <a name="does-prod_short-online-connect-with-sharepoint-server"></a>Maakt [!INCLUDE[prod_short](includes/prod_short.md)] online verbinding met SharePoint Server?
 
-Nee. Deze implementatiecombinatie wordt niet ondersteund, zelfs niet als SharePoint Server Mijn sites heeft ingeschakeld.  
+Nr. Deze implementatiecombinatie wordt niet ondersteund, zelfs niet als SharePoint Server Mijn sites heeft ingeschakeld.  
 
 ## <a name="how-does-this-work-in-an-organization-with-multiple-environments"></a>Hoe werkt dit in een organisatie met meerdere omgevingen?
 
@@ -60,9 +60,10 @@ De integratie gaat ervan uit dat bedrijfsnamen uniek zijn in de [!INCLUDE[prod_s
 
 ## <a name="weve-changed-company-name-what-happens-to-my-previous-files"></a>We hebben de bedrijfsnaam gewijzigd. Wat gebeurt er met mijn vorige bestanden?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] migreert niet automatisch bestanden die u eerder hebt geopend in OneDrive, naar de nieuwe map. Na het hernoemen van uw bedrijf, kopieert de actie Openen in OneDrive bestanden naar een map met de nieuwe bedrijfsnaam.   
+[!INCLUDE[prod_short](includes/prod_short.md)] migreert niet automatisch bestanden die u eerder hebt geopend in OneDrive naar de nieuwe map. Na het hernoemen van uw bedrijf, kopieert de actie Openen in OneDrive bestanden naar een map met de nieuwe bedrijfsnaam.   
 
-## <a name="when-attaching-files-to-prod_short-how-do-i-pick-a-file-from-onedrive"></a>Bij het toevoegen van bestanden aan [!INCLUDE[prod_short](includes/prod_short.md)], hoe kies ik dan een bestand uit OneDrive? 
+## <a name="when-attaching-files-to-prod_short-how-do-i-pick-a-file-from-onedrive"></a>Bij het toevoegen van bestanden aan [!INCLUDE[prod_short](includes/prod_short.md)], hoe kies ik dan een bestand uit OneDrive?
+
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt geen cloud-bestandskiezer. U moet het bestand downloaden van OneDrive naar uw apparaat en het vervolgens uploaden naar [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="i-want-to-open-files-in-sharepoint-instead-how-do-i-do-this"></a>Ik wil bestanden in plaats daarvan openen in SharePoint. Hoe doe ik dit?
@@ -71,15 +72,24 @@ De integratie gaat ervan uit dat bedrijfsnamen uniek zijn in de [!INCLUDE[prod_s
 
 ## <a name="how-do-i-turn-off-integration-to-onedrive"></a>Hoe schakel ik integratie met OneDrive uit?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] online biedt geen manier om integratie met OneDrive in of uit te schakelen.  
+Voer de begeleide instelling **Configuratie van OneDrive** uit en schakel de schakelaars **OneDrive voor app-functies gebruiken** en **OneDrive voor systeemfuncties gebruiken** uit. 
 
 ## <a name="should-i-use-the-sharepoint-connection-setup-page-to-connect-to-sharepoint"></a>Moet ik de pagina Instellingen SharePoint-verbinding gebruiken om verbinding te maken met SharePoint?
 
-Dit is een verouderde functie waarbij alle [!INCLUDE[prod_short](includes/prod_short.md)]-bestanden van alle gebruikers worden verzonden naar één SharePoint-map. We raden u aan het sneltabblad Gedeelde documenten niet te configureren op de pagina Instellingen SharePoint-verbinding omdat we eraan werken deze functie te beëindigen.  
+Dit is een verouderde functie waarbij alle [!INCLUDE[prod_short](includes/prod_short.md)]-bestanden van alle gebruikers worden verzonden naar één SharePoint-map. We raden u aan het sneltabblad Gedeelde documenten niet te configureren op de pagina **Instellingen SharePoint-verbinding** omdat deze pagina is [verouderd](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) en in releasewave 2 van 2023, versie 23.0 wordt verwijderd.  We raden u aan om in plaats daarvan **Configuratie van OneDrive** te gebruiken.  
 
 ## <a name="which-version-of-prod_short-supports-onedrive"></a>Welke versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt OneDrive?
 
 Integratie met OneDrive kwam beschikbaar in releasewave 2 van 2021.  
+
+## <a name="which-features-are-affected-by-onedrive-integration"></a><a name="features"></a>Welke functies worden beïnvloed door OneDrive-integratie?
+
+In de begeleide instelling **Configuratie van OneDrive** voor het instellen van OneDrive-integratie, kunt u functies voor het verwerken van Business Central-bestanden in OneDrive in- of uitschakelen. De functies zijn verdeeld over twee opties:
+
+|Optie|Omschrijving|
+|------|----------|
+|**OneDrive voor app-functies gebruiken**|Als u deze optie inschakelt, worden de acties **Openen in OneDrive** en **Delen** beschikbaar gemaakt in bestanden in Business Central, zoals bestanden die zijn bijgevoegd bij documenten of in de rapportinbox. Met deze acties kunnen gebruikers bestanden kopiëren, openen en delen in OneDrive. Zie [Business Central-bestanden openen en delen in OneDrive](across-share-onedrive.md) voor meer informatie.
+|**OneDrive voor systeemfuncties gebruiken**|Als u deze optie inschakelt, worden de volgende functies geactiveerd:<ul><li> Met de acties **Openen in Excel** en **Bewerken in Excel** op lijstpagina´s wordt het Excel-bestand naar OneDrive gekopieerd en vervolgens in Excel Online geopend. Zie [Weergeven en bewerken in Excel](across-work-with-excel.md) voor meer informatie.</li><li> Als u een rapport naar een Excel- of Word-bestand exporteert, wordt het bestand automatisch gekopieerd naar OneDrive en vervolgens geopend in Excel Online of Word Online. Zie [Een rapport in een bestand opslaan](ui-work-report.md#saving-a-report-to-a-file) voor meer informatie.|
 
 ## <a name="will-microsoft-continue-to-improve-the-integration-to-onedrive"></a>Zal Microsoft de integratie met OneDrive blijven verbeteren?
 
@@ -91,16 +101,23 @@ Als u wilt meewerken aan verbetering van OneDrive-integratie, of u een idee hebt
 
 Dit gedeelte biedt informatie over het identificeren en oplossen van problemen die u kunt ondervinden bij het gebruik van OneDrive met [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="i-have-to-sign-in-each-time-i-open-a-file"></a>Ik moet me telkens aanmelden als ik een bestand open
-
-Sorry, dat is een bekend probleem en we werken eraan. We verwachten een soepelere ervaring te bieden in een aanstaande update.  
-
 ### <a name="business-central-cant-find-my-onedrive"></a>Business Central kan mijn OneDrive niet vinden
 
 Wanneer dit bericht wordt weergegeven: "Kan de locatie van uw OneDrive voor Bedrijven niet bepalen. Neem contact op met uw partner om dit in te stellen", controleert u of de gebruiker ten minste eenmaal toegang heeft gehad tot zijn of haar OneDrive. Als dat niet het geval is, vraagt u de persoon naar portal.office.com/onedrive te gaan om het in te stellen. Dat kan even duren. Als het bericht na 24 uur nog steeds wordt weergegeven, neemt u contact op met de ondersteuning.  
  
+### <a name="im-having-problems-sharing-from-outlook"></a>Ik heb problemen met delen vanuit Outlook
+
+Zie [Kan OneDrive-bestanden niet delen vanuit Outlook.com](https://support.microsoft.com/en-us/office/can-t-share-onedrive-files-from-outlook-com-05d4cb21-40a2-40e3-b111-82cddb82d22f) voor Microsoft-ondersteuning.
+
+### <a name="actions-open-in-onedrive-and-share-are-missing"></a>Acties Openen in OneDrive en Delen ontbreken
+
+Er zijn enkele dingen die u kunt controleren:
+
+- Controleer of de toepassingsfuncties voor OneDrive zijn ingeschakeld in de begeleide instelling **Configuratie van OneDrive**. Zie [OneDrive configureren met Configuratie van OneDrive](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup).
+- Controleer of Microsoft OneDrive is ingesteld op **Akkoord** op de pagina **Status van privacyverklaringen**. Zie [Status van privacyverklaringen](privacy-notices-status.md).
 
 ## <a name="see-also"></a>Zie ook
+
 [Integratie van Business Central en OneDrive](across-onedrive-overview.md)  
 [OneDrive-integratie met Business Central beheren](admin-onedrive-integration.md)  
 [Business Central-bestanden openen in OneDrive](across-share-onedrive.md)  

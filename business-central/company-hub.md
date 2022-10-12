@@ -7,18 +7,20 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132067"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606183"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Werk beheren tussen meerdere bedrijven in de bedrijfshub
 
-Sommige mensen werken in meerdere bedrijven in [!INCLUDE [prod_short](includes/prod_short.md)] en sommige werken ook in meer dan één organisatie, zoals externe accountants, of werknemers en managers van bedrijven met meerdere dochterondernemingen. Voor deze gebruikers, en vele anderen, fungeert de bedrijfshub als een landingspagina voor het beheren van werk in de verschillende omgevingen waarin ze werken, tussen bedrijven, omgevingen en regio's.  
+Sommige mensen werken in meerdere bedrijven in [!INCLUDE [prod_short](includes/prod_short.md)] en sommige werken ook in meer dan één organisatie, zoals externe accountants, of werknemers en managers van bedrijven met meerdere dochterondernemingen. Voor deze gebruikers, en vele anderen, dient de bedrijfshub als een landingspagina die een financieel overzicht geeft voor meerdere bedrijven en omgevingen. Dit is een hulpmiddel voor gebruikers voor het beheren van werk in de verschillende omgevingen waarin ze werken, tussen bedrijven, omgevingen en regio's.  
 
 U krijgt toegang tot de bedrijfshub door over te schakelen naar de rol **Bedrijfshub** in Mijn instellingen of door de pagina **Bedrijfshub** rechtstreeks te openen. U kunt op beide plaatsen hetzelfde werk doen, maar acties worden in menu's iets anders geplaatst.  
+
+[![Toont de bedrijfshubpagina met een lijst van alle bedrijven.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > U kunt de bedrijfshub met zoveel bedrijven verbinden als u nodig heeft. U kunt de bedrijfshub echter alleen verbinden met bedrijven die worden gehost in [!INCLUDE [prod_short](includes/prod_short.md)] online.
@@ -63,9 +65,9 @@ Met de lijst **Mijn gebruikerstaken** kunt u de prioriteiten voor uw dag bepalen
 
 U kunt bijvoorbeeld sorteren op vervaldatum of een ander gegevenstype op basis waarvan u uw dag kunt indelen op prioriteiten. Standaard worden in de lijst alle taken weergegeven die aan u zijn toegewezen, maar u kunt filters instellen, bijvoorbeeld om alleen taken weer te geven die als hoge prioriteit zijn gemarkeerd.  
 
-Als u aan een taak wilt beginnen, kiest u deze eenvoudig in het overzicht met wachtende gebruikerstaken. Op het lint wordt met **Ga naar taakitem** de pagina geopend waarin u het werk kunt uitvoeren.  
+Als u aan een taak wilt beginnen, kiest u deze in het overzicht met wachtende gebruikerstaken. Op het lint wordt met **Ga naar taakitem** de pagina geopend waarin u het werk kunt uitvoeren.  
 
-Wanneer u een taak hebt voltooid, moet u deze gewoon als voltooid markeren.  
+Wanneer u een taak hebt voltooid, moet u deze als voltooid markeren.  
 
 Zie voor meer informatie over bedrijven en omgevingen [Omgevingskoppelingen](company-hub-add-company.md#environment-links).  
 

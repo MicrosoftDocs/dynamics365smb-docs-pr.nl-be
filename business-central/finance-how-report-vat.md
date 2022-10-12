@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532740"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617862"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Btw rapporteren aan de belastingdienst
 
@@ -30,7 +30,7 @@ U kunt de volgende ingebouwde rapporten gebruiken:
 
     Het rapport Btw-aangifte bevat btw voor verkopen en inkopen aan klanten en van leveranciers in alle landen/regio's waar btw wordt gebruikt.  
 
-In beide gevallen wordt btw gebaseerd op de btw-boekingsinstelling en de btw-boekingsgroepen die u hebt ingesteld.
+In beide gevallen wordt btw gebaseerd op de btw-boekingsinstelling en de btw-boekingsgroepen die u hebt ingesteld. [!INCLUDE[prod_short](includes/prod_short.md)] toont btw-boekingen op basis van hun **Btw-datum**.
 
 Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking waarop btw van toepassing is, een post op de pagina **Btw-posten**. Met deze posten wordt het btw-vereffeningsbedrag, dat uit een betaling of vergoeding kan bestaan, berekend voor een bepaalde periode. Als u btw-posten wilt zien, kiest u het ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-posten** in en kies vervolgens de gerelateerde koppeling.
 

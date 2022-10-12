@@ -7,20 +7,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 06adf2a30a7487fa3bc66e1aebec42e6c55184e2
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.openlocfilehash: 5968cd8d2348b0fac7c81c4b588dfd89388a27f5
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227431"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606480"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Integratie van Business Central en OneDrive voor Bedrijven
 
-OneDrive voor Bedrijven is een cloudopslagservice die is opgenomen in Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] maakt het gemakkelijk om bestanden op te slaan, te beheren en te delen met andere mensen via OneDrive. Wanneer een bestand in uw OneDrive staat, kunt u profiteren van de rijke samenwerkingservaringen van de online versies van Microsoft-producten, zoals Word, Excel en PowerPoint. U kunt bijvoorbeeld een Word-document delen, waarna u en uw collega's het samen in realtime kunnen bewerken. Met OneDrive kunt u ook andere soorten bestanden openen, zoals pdf's. 
+OneDrive voor Bedrijven is een cloudopslagservice die is opgenomen in Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] maakt het gemakkelijk om bestanden op te slaan, te beheren en te delen met andere mensen via OneDrive. Wanneer een bestand in uw OneDrive staat, kunt u profiteren van de uitgebreide samenwerkingservaringen van de online versies van Microsoft-producten, zoals Word, Excel en PowerPoint. U kunt bijvoorbeeld een Word-document delen, waarna u en uw collega's het samen in realtime kunnen bewerken. Met OneDrive kunt u ook andere soorten bestanden openen, zoals pdf's. 
 
-## <a name="get-started"></a>Aan de slag
+## <a name="get-started-with-onedrive-features"></a>Aan de slag met OneDrive-functies
 
-We hebben de verbinding tot stand gebracht tussen [!INCLUDE[prod_short](includes/prod_short.md)] online en OneDrive, dus het is gemakkelijk om te beginnen. De enige vereiste is dat gebruikers OneDrive minstens één keer hebben geopend. 
+Als u [!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt, hebben we de verbinding tussen [!INCLUDE[prod_short](includes/prod_short.md)] online en OneDrive al tot stand gebracht. Het is dus gemakkelijk om te beginnen. De enige vereiste is dat gebruikers OneDrive minstens één keer hebben geopend. Met [!INCLUDE[prod_short](includes/prod_short.md)] on-premises moet een beheerder de verbinding configureren voordat u aan de slag kunt. Meer informatie vindt u in [OneDrive-integratie met Business Central beheren](admin-onedrive-integration.md).
+
+<!-- We've created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. -->
+
+### <a name="open-and-share-in-onedrive"></a>Openen en delen in OneDrive
 
 Op de meeste pagina's waar bestanden beschikbaar zijn, zoals de Rapportinbox of bestanden die aan records zijn toegevoegd, vindt u de acties **Openen in OneDrive** en **Delen**.
 
@@ -34,6 +38,15 @@ Op de meeste pagina's waar bestanden beschikbaar zijn, zoals de Rapportinbox of 
 |Openen in OneDrive|Kopieer het bestand naar een Business Central-map in uw OneDrive en open het bestand.|[Openen in OneDrive](across-share-onedrive.md#open-in-onedrive) |
 |Aandeel|Kopieer het bestand naar uw OneDrive en deel het met anderen.|[Delen in OneDrive](across-share-onedrive.md#share) |
 
+### <a name="save-excel-workbooks-and-report-files-in-onedrive"></a>Excel-werkmappen en -rapportbestanden in OneDrive opslaan
+
+Als OneDrive-integratie is ingesteld, gebruiken enkele andere bekende functies automatisch OneDrive voor het opslaan van bestanden in plaats van bestanden op uw apparaat op te slaan:
+
+- Met de acties **Openen in Excel** en **Bewerken in Excel** op lijstpagina´s wordt het Excel-bestand naar OneDrive gekopieerd en vervolgens in Excel Online geopend. Zie [Weergeven en bewerken in Excel](across-work-with-excel.md) voor meer informatie.
+- Als u een rapport naar een Excel- of Word-bestand exporteert, wordt het bestand automatisch gekopieerd naar OneDrive en vervolgens geopend in Excel Online of Word Online. Zie [Een rapport in een bestand opslaan](ui-work-report.md#saving-a-report-to-a-file) voor meer informatie.
+
+Deze functies zijn standaard niet ingeschakeld. Maar als beheerder kunt u ze eenvoudig inschakelen met de begeleide instelling **OneDrive instellen**.
+
 <!--
 When you use the **Open in OneDrive** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
 
@@ -45,10 +58,10 @@ The folder and its content are private until you decide to share them with other
 -->
 
 > [!NOTE]
-> U kunt ook uw [!INCLUDE[prod_short](includes/prod_short.md)] in-premises verbinden met OneDrive. Er zijn echter een paar dingen om te doen om het te laten werken. Zie voor meer informatie [Business Central On-Premises configureren](admin-onedrive-integration.md#configuring-business-central-on-premises).
+> U kunt ook uw [!INCLUDE[prod_short](includes/prod_short.md)] in-premises verbinden met OneDrive. Er zijn echter een paar dingen om te doen om het te laten werken. Zie voor meer informatie [Business Central On-Premises configureren](admin-onedrive-integration-onpremises.md).
 
 ## <a name="see-also"></a>Zie ook
 
 [OneDrive-integratie met Business Central beheren](admin-onedrive-integration.md)  
 [Business Central-bestanden openen in OneDrive](across-share-onedrive.md)  
-[Veelgestelde vragen over OneDrive](admin-onedrive-faq.md)
+[Veelgestelde vragen over OneDrive](admin-onedrive-faq.md)  

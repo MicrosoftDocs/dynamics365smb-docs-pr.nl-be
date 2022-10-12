@@ -9,21 +9,72 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: cb9f91caa06ed1b5bf579bf4be477c906a588faf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524554"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606318"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>OneDrive-integratie met Business Central beheren
 
-Dit artikel geeft een overzicht van wat een beheerder kan doen om OneDrive-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] te beheren. [!INCLUDE[prod_short](includes/prod_short.md)] online-klanten profiteren van automatische integratie, zonder dat er extra instellingen nodig zijn om deze functies te gebruiken. 
+Dit artikel geeft een overzicht van wat een beheerder kan doen om OneDrive-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] te beheren. [!INCLUDE[prod_short](includes/prod_short.md)] online-klanten profiteren van automatische integratie, zonder dat er extra instellingen nodig zijn om de functies Openen in OneDrive en Delen te gebruiken. Met de begeleide instelling **Configuratie van OneDrive** kunt u gebruikers toegang geven tot nog meer OneDrive-functies, zoals het openen van een Excel-bestand in OneDrive&mdash;of zelfs het uitschakelen van alle functies.  
 
-## <a name="minimum-requirements"></a>Minimumvereisten
+## <a name="configure-onedrive-for-integration-with-business-central"></a>OneDrive configureren voor integratie met Business Central
+
+In dit gedeelte worden de vereisten besproken waaraan moet worden voldaan in OneDrive voor Bedrijven om de integratie met Business Central te configureren en de taak die u kunt uitvoeren om de integratie te beheren.
+
+### <a name="minimum-requirements"></a>Minimumvereisten
 
 * Elke gebruiker moet een licentie hebben voor [!INCLUDE[prod_short](includes/prod_short.md)] en OneDrive als onderdeel van een Microsoft 365-abonnement.
 * OneDrive moet voor elke gebruiker worden ingesteld.
+
+### <a name="managing-privacy"></a>Privacy beheren
+
+> [!IMPORTANT]
+> Als u ervoor hebt gekozen om Business Central en OneDrive voor verschillende landen of regio's te implementeren, kunnen de bestanden die zijn gegenereerd door Business Central en in OneDrive zijn geplaatst, de grenzen van gegevensresidentie overschrijden. Zorg ervoor dat u het beleid van uw organisatie en de nalevingsvereisten van de overheid voor gegevensresidentie bevestigt voordat u de verbinding met OneDrive inschakelt.
+
+Beheerders en eindgebruikers beheren de inhoud die is opgeslagen in OneDrive en deze gegevens zijn uitsluitend eigendom van uw organisatie. Voor meer informatie zie [Hoe SharePoint en OneDrive uw gegevens in de cloud beveiligen](/sharepoint/safeguarding-your-data). U kunt ook een bezoek brengen aan onze [Privacyverklaring van Microsoft](https://privacy.microsoft.com/en-us/privacystatement), waarin wordt uitgelegd welke gegevens Microsoft verwerkt, hoe Microsoft deze verwerkt en voor welke doeleinden.
+
+Door deze serviceverbinding in te schakelen gaat u akkoord met het volgende:
+
+(a) om gegevens uit Dynamics 365 Business Central te delen met de serviceprovider, die ze gebruikt op basis van eigen voorwaarden en privacybeleid; (b) de nalevingsniveaus van de serviceprovider kunnen verschillen van Dynamics 365 Business Central; en (c) Microsoft kan uw contactgegevens met deze serviceprovider delen als dit nodig is om de service te gebruiken en er problemen mee op te lossen.
+
+## <a name="configure-business-central"></a>Business Central configureren
+
+Met Business Central online wordt de verbinding tussen Business Central en OneDrive automatisch voor u geconfigureerd en zijn de OneDrive-functies standaard direct beschikbaar voor gebruikers. Als u sommige of alle functies wilt uitschakelen, kunt u de begeleide instelling **Configuratie van OneDrive** in de Business Central-client gebruiken.
+
+Het configureren van Business Central on-premises is anders omdat de verbinding tussen Business Central en OneDrive niet voor u is geconfigureerd. U moet dit handmatig doen. Zie voor meer informatie [OneDrive-integratie met Business Central On-Premises configureren](admin-onedrive-integration-onpremises.md).
+
+### <a name="about-multiple-environments"></a>Informatie over meerdere omgevingen
+
+OneDrive-integratie wordt per omgeving geconfigureerd, dat wil zeggen dat uw instellingen gelden voor alle bedrijven in die omgeving. Als uw organisatie meer dan één omgeving heeft, moet u OneDrive-integratie voor elke omgeving configureren.
+
+### <a name="prerequisites"></a>Vereisten
+
+- Minimaal imd-machtiging (indirect, modify, delete) voor tabel **Documentservicescenario**
+
+### <a name="configure-onedrive-using-onedrive-setup"></a>OneDrive configureren met Configuratie van OneDrive
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratie van OneDrive** in en kies vervolgens de gerelateerde koppeling. 
+2. De eerste keer dat u de begeleide instelling uitvoert, ziet u **Uw privacy**. Lees de informatie op de pagina, en als u akkoord gaat met de voorwaarden, kiest u **Akkoord** om door te gaan.
+3. Op de pagina **Bestandsverwerking configureren** hebt u de volgende opties om uit te kiezen:
+
+   [!INCLUDE[onedrive-feature-options](includes/onedrive-feature-options.md)]
+4. Kies **Volgende**>**Gereed**.
+
+### <a name="switching-to-new-onedrive-integration-after-upgrade"></a>Overschakelen naar nieuwe OneDrive-integratie na upgrade
+
+De begeleide instelling **Configuratie van OneDrive** is geïntroduceerd in releasewave 2 van 2022, versie 21.0. Voorheen maakte de OneDrive-integratie gebruik van **Instellingen SharePoint-verbinding**. Deze optie is verouderd en wordt in releasewave 2 van 2023, versie 23.0 verwijderd. Nadat u een upgrade naar versie 21 hebt uitgevoerd, werkt OneDrive nog steeds zoals voorheen. Maar we raden u aan over te schakelen naar de nieuwe OneDrive-integratie. Als u deze overstap nu maakt, wordt het gemakkelijker wanneer **Instellingen SharePoint-verbinding** uiteindelijk wordt verwijderd. Bovendien kunt u dan de begeleide instelling **Configuratie van OneDrive** gebruiken voor het beheren van de OneDrive-functies die toegankelijk zijn voor gebruikers. Met de begeleide instelling **Configuratie van OneDrive** verloopt de overgang van de oude SharePoint-instelling eenvoudig en naadloos.
+
+Om over te schakelen opent u de begeleide instelling **Configuratie van OneDrive** en voert u deze direct uit. U kunt ook de pagina **Instellingen SharePoint-verbinding** openen en **Ga naar nieuwe OneDrive-instelling** kiezen in de melding bovenaan de pagina. Volg de begeleide instelling zoals beschreven in het vorige gedeelte.
+
+## <a name="restoring-onedrive-and-prod_short"></a>OneDrive en [!INCLUDE[prod_short](includes/prod_short.md)] herstellen
+
+Als onderdeel van een noodhersteloefening moeten beheerders mogelijk een [!INCLUDE[prod_short](includes/prod_short.md)] online-omgeving herstellen naar een back-up van een moment in het verleden, en OneDrive-opslag synchroniseren tot datzelfde tijdstip. OneDrive biedt verschillende hersteltools, zoals het herstellen van OneDrive van een gebruiker naar een eerdere tijd, het herstellen een eerdere versie van een afzonderlijk bestand of het herstellen van verwijderde bestanden. Zie de volgende artikelen voor meer informatie:
+
+* Zie voor [!INCLUDE[prod_short](includes/prod_short.md)] [Een omgeving herstellen in het beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+* Zie voor OneDrive [Uw OneDrive herstellen](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
 
 ## <a name="governance"></a>Bestuur
 
@@ -39,83 +90,6 @@ Het SharePoint-beheercentrum biedt uitgebreide controle over het beleid dat het 
 
 > [!NOTE]
 > Sommige functies zijn mogelijk alleen beschikbaar voor specifieke abonnementen.
-
-## <a name="managing-privacy"></a>Privacy beheren
-
-Beheerders en eindgebruikers beheren de inhoud die is opgeslagen in OneDrive en deze gegevens zijn uitsluitend eigendom van uw organisatie. Voor meer informatie zie [Hoe SharePoint en OneDrive uw gegevens in de cloud beveiligen](/sharepoint/safeguarding-your-data). U kunt ook een bezoek brengen aan onze [Privacyverklaring van Microsoft](https://privacy.microsoft.com/en-us/privacystatement), waarin wordt uitgelegd welke gegevens Microsoft verwerkt, hoe Microsoft deze verwerkt en voor welke doeleinden.
-
-## <a name="restoring-onedrive-and-prod_short"></a>OneDrive en [!INCLUDE[prod_short](includes/prod_short.md)] herstellen
-
-Als onderdeel van een noodhersteloefening moeten beheerders mogelijk een [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving herstellen naar een back-up van een moment in het verleden, en OneDrive-opslag synchroniseren tot datzelfde tijdstip. OneDrive biedt hiervoor verschillende tools, zoals het herstellen van OneDrive van een gebruiker naar een eerdere tijd, een eerdere versie van een afzonderlijk bestand herstellen of verwijderde bestanden herstellen. Zie de volgende artikelen voor meer informatie:
-
-* Zie voor [!INCLUDE[prod_short](includes/prod_short.md)] [Een omgeving herstellen in het beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
-* Zie voor OneDrive [Uw OneDrive herstellen](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
-
-## <a name="configuring-business-central-on-premises"></a>Business Central On-Premises configureren
-
-Een beheerder moet de verbinding opzetten tussen [!INCLUDE[prod_short](includes/prod_short.md)] on premises en OneDrive. In tegenstelling tot [!INCLUDE[prod_short](includes/prod_short.md)] online is de verbinding niet automatisch. Als de verbinding niet is geconfigureerd, kunnen gebruikers de functies niet gebruiken voor OneDrive.
-
-[!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan alleen worden verbonden met OneDrive gehost door Microsoft in de cloud. [!INCLUDE[prod_short](includes/prod_short.md)] on premises verbinden met de My Sites-opslag van SharePoint Server wordt niet ondersteund.
-
-> [!IMPORTANT]
-> Door deze functie te configureren schakelt u ook oudere functies in die bestanden verzenden naar OneDrive.  
->
->* De functie Openen in Excel kopieert het Excel-bestand automatisch naar OneDrive en opent het vervolgens in Excel Online. 
->* Als u een rapport naar een bestand exporteert, wordt het bestand automatisch gekopieerd naar OneDrive en vervolgens geopend in Excel Online, Word Online of OneDrive. 
->* Andere functies kunnen ook automatisch worden geopend in OneDrive.
-
-### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises voorbereiden om verbinding te maken met OneDrive
-
-<!-- 
-1. For the best experience Configure Azure Active Directory (AD) authentication.
-
-   For more information, see [Authenticating Business Central Users with Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory)-->
-
-Voeg een geregistreerde toepassing voor Business Central toe aan uw Azure AD-tenant van uw Microsoft 365-abonnement. Net als andere Azure-services die werken met Business Central, vereist OneDrive een app-registratie in Azure Active Directory (Azure AD). De app-registratie biedt verificatie- en autorisatieservices tussen Business Central en SharePoint, wat wordt gebruikt door OneDrive.
-
-Configureer de geregistreerde toepassing met de volgende gedelegeerde machtigingen voor de SharePoint API:
-
-- AllSites.FullControl
-- User.ReadWrite.All 
-
-Stel in plaats daarvan de volgende machtigingen in voor Business Central 2021 releasewave 2 (versie 19):
-
-- AllSites.Write
-- MyFiles.Write
-- User.Read.All 
-
-Dit werk doet u in de Azure Portal. Zorg ervoor dat u de toepassings-id (client-id) en het clientgeheim kopieert die door de geregistreerde toepassing worden gebruikt. U hebt deze informatie nodig bij de volgende taak.
-
-Voor meer informatie over accountvereisten, het registreren van een toepassing en het configureren van machtigingen zie [Een toepassing registreren in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) in de help van ontwikkelaars en IT-professionals.
-
-> [!TIP]
-> Als u al een toepassing hebt geregistreerd als onderdeel van een integratie met een ander Microsoft-product, zoals Power BI, dan kunt u die app-registratie opnieuw gebruiken. In dit geval hoeft u alleen de SharePoint-rechten in te stellen.
-
-### <a name="set-up-the-connection-in-prod_short-on-premises"></a>De verbinding instellen in [!INCLUDE[prod_short](includes/prod_short.md)] on premises
-
-<!--
-> [!NOTE]
-> This requires the following types of authentication credentials:
->
-> * Windows
-> * NavUserPassword
-> * Azure Active Directory
--->
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen Microsoft SharePoint-verbinding** in en kies vervolgens de gerelateerde koppeling.
-2. Voer in het veld **Omschrijving** een omschrijving in voor de verbinding, zoals **OneDrive**.
-3. Voer in het veld **Map** **Business Central** in.
-4. Voer in het veld **Locatie** de URL in voor uw OneDrive.
-
-    De URL voor OneDrive is meestal in het volgende formaat: `https://<tenant name>-my.sharepoint.com`. Voor meer informatie zie [OneDrive-URL's voor gebruikers in uw organisatie](/onedrive/list-onedrive-urls) in de OneDrive-documentatie.
-5. Voer in het veld **Client-id** de client-id van uw toepassingsregistratie in.
-6. Voer in het veld **Clientgeheim** het geheim van uw toepassingsregistratie in. 
-   <!-- 
-   For information about how to find the URLs, see the following:
-   * [How to find your SharePoint server URL]
-   * [How to find your OneDrive URL]-->
-
-> [!IMPORTANT]
-> De pagina Instellingen SharePoint-verbinding wordt gebruikt om meerdere verouderde functies te configureren. De sectie **Algemeen** configureert de verbinding met OneDrive en de sectie **Gedeelde documenten** leidt bestanden om naar SharePoint. De oude SharePoint-functie zal in de nabije toekomst worden beëindigd. We raden u aan de sectie **Gedeelde documenten** te gebruiken.
 
 ## <a name="see-also"></a>Zie ook
 

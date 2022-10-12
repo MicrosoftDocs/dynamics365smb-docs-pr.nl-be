@@ -5,14 +5,14 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2022
+ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 8fd3d76ed8affd506ad4cd1838a182e595ecb0bf
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528517"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607485"
 ---
 # <a name="sharing-business-data-from-business-central"></a>Zakelijke gegevens delen vanuit Business Central
 
@@ -42,7 +42,7 @@ Zie [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md) voor meer infor
 
 ![Ondersteund](media/check.png) Business Central Online ![Niet ondersteund](media/x-icon.png) Business Central On-premises
 
-Rechtstreeks vanaf de meeste verzamelingspagina's en detailpagina's kunt u een koppeling naar de pagina verzenden naar personen, groepschats of kanalen. Deel bijvoorbeeld een koppeling naar een gefilterde weergave van uw records. Ontvangers selectere vervolgens de koppeling om de pagina te openen in Business Central.
+Rechtstreeks vanaf de meeste verzamelingspagina's en detailpagina's kunt u een koppeling naar de pagina verzenden naar personen, groepschats of kanalen. Deel bijvoorbeeld een koppeling naar een gefilterde weergave van uw records. Als u de [!INCLUDE[prod_short](includes/prod_short.md)]-app voor Teams hebt geïnstalleerd, wordt de koppeling automatisch uitgevouwen tot een compacte kaart die u bij uw bericht kunt voegen. Ontvangers selecteren vervolgens de koppeling of de kaart om de pagina te openen in Business Central.
 
 Zie [Records en paginakoppelingen delen in Teams](across-working-with-teams.md) voor meer informatie .
 

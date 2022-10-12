@@ -10,17 +10,18 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dfe8f1aa36f19372363c5e23994328d15f8a5b77
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: c026f7b8374dd78b4c3f06d76d43e3ffac0198b2
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534277"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607085"
 ---
 # <a name="assembly-management"></a>Assemblagebeheer
+
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt functies voor het assembleren van artikelen voor bedrijven die via eenvoudige processen, zonder noodzaak voor productiefunctionaliteit, componenten combineren om hun klanten van producten te voorzien. Deze functies kunnen worden geïntegreerd met bestaande functies, zoals verkoop, planning, reserveringen en magazijnbeheer.  
 
- Een assemblageartikel is gedefinieerd als een verkoopbaar artikel dat een assemblagestuklijst bevat. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
+ Een assemblageartikel is gedefinieerd als een verkoopbaar artikel dat een assemblagestuklijst bevat. Zie [Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md) voor meer informatie.
 
  Assemblageorders zijn, evenals productieorders, interne orders die worden gebruikt om het assemblageproces te beheren en om de verkoopvereisten aan de betrokken magazijnactiviteiten te koppelen. Assemblageorders verschillen van andere typen omdat deze bij het boeken zowel betrekking kunnen hebben op uitvoer als op verbruik. De assemblageorderkop gedraagt zich op een soortgelijke wijze als een outputdagboekregel en de assemblageorderregels gedragen zich op een soortgelijke wijze als verbruiksdagboekregels.  
 
@@ -43,7 +44,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 |Wanneer u assemblageartikelen uit voorraad verkoopt en niet alle artikelen zijn beschikbaar, kunt u ook een assemblageorder starten om automatisch een gedeelte van of het hele verkooporderaantal te leveren.|[Op-order-assembleren-artikelen en voorraadartikelen samen verkopen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
 |Maak aangepaste componenten voor verkoopraamcontracten voordat u periodiek de feitelijke verkooporders maakt volgens de raamcontractovereenkomst.|[Afroepassemblyorders maken](assembly-how-to-create-blanket-assembly-orders.md)|
 |Een geboekte assemblyorder ongedaan maken, bijvoorbeeld omdat de order met fouten is geboekt die moeten worden gecorrigeerd.|[Boeken van assemblage ongedaan maken](assembly-how-to-undo-assembly-posting.md)|
-|Informatie weergeven over het verschil tussen de assemblagestuklijsten en productiestuklijsten en de bijbehorende verwerkingsverschillen.|[Werken met stuklijsten](inventory-how-work-BOMs.md)|
+|Meer informatie over het werken met assemblagestuklijsten en de belangrijkste verschillen met productiestuklijsten.|[Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)|
 |Meer informatie weergeven over hoe assemblageverbruik en -output worden verwerkt wanneer u assemblageorders boekt en over hoe het afgeleide artikel- en resourcekosten worden verwerkt en naar het grootboek worden gedistribueerd.|[Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)|  
 
 ## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
@@ -56,9 +57,8 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

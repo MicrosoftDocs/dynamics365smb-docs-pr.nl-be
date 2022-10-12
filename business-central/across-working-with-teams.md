@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528461"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617806"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Business Central-records en paginakoppelingen delen in Microsoft Teams
 
@@ -102,18 +102,24 @@ Zie voor meer informatie over het werken met kaarten en kaartdetails [Veelgestel
 
 Rechtstreeks vanuit de meeste collectiepagina's, zoals de pagina **Artikelen** en detailpagina's, zoals de kaart **Artikel** kunt u een link naar de pagina naar specifieke ontvangers sturen in een Teams-gesprek. U kunt bijvoorbeeld een koppeling naar een gefilterde weergave van uw records delen. Ontvangers kunnen vervolgens de link selecteren om de pagina te openen in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
- ![!Het menu Delen weergegeven op een kaart.](media/teams-share-link.png "Het menu Delen weergegeven op een kaart.")
+[![Het menu Delen weergegeven op een kaart.](media/teams-share-link-v2.png "Het menu Delen weergegeven op een kaart.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Vereisten
-U hebt toegang tot Microsoft Teams.
+
+- U hebt toegang tot Microsoft Teams.
+- (Optioneel) U hebt de [!INCLUDE [prod_short](includes/prod_short.md)]-app in Teams geïnstalleerd. 
+
+  Als de app is geïnstalleerd, bevatten berichten die u met de koppeling verzendt ook een compacte kaart voor de pagina. Zie voor meer informatie over het installeren van de app [De [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Microsoft Teams](across-install-app-for-teams.md) installeren.
 
 ### <a name="share-a-link"></a>Een koppeling delen
 
 1. Open in [!INCLUDE [prod_short](includes/prod_short.md)]\, de pagina die u wilt delen.
 2. Kies boven aan de pagina het pictogram ![!Actie Delen met andere apps op pagina's.](media/share-icon.png) en vervolgens **Delen met teams**.
 3. Log desgevraagd in bij Teams met uw gebruikersnaam en wachtwoord.
-4. Typ op de pagina **Delen met teams** een naam van een persoon, groep of kanaal waarnaar u het bericht wilt verzenden. 
-5. Het berichtvenster bevat een link naar de pagina. Voeg eventueel meer informatie toe en kies dan **Delen**.
+4. Typ op de pagina **Delen met teams** een naam van een persoon, groep of kanaal waarnaar u het bericht wilt verzenden.
+5. Het berichtvenster bevat een link naar de pagina. Als de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Teams is geïnstalleerd, verschijnt er ook een kaart voor het gekoppelde record of de gekoppelde pagina in het berichtvenster.
+
+   Voeg eventueel meer informatie toe en kies dan **Delen**.
 6. De link is nu gedeeld. Als u naar het gesprek wilt gaan, kiest u **Ga naar Teams**.
 
 ## <a name="see-also"></a>Zie ook
@@ -127,6 +133,5 @@ U hebt toegang tot Microsoft Teams.
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 369ee2b4aded272a8a3a21fe810b4b6c62dd1de0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585503"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606534"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Power Automate-stromen gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -43,9 +43,7 @@ Met Power Automate kunt u direct in-house bedrijfsstromen creëren en vertrouwen
 
 ## <a name="instant-flows"></a>Directe stromen
 
-Vanaf releasewave 1 van 2022 (mei 2022) kunnen beheerders van [!INCLUDE [prod_short](includes/prod_short.md)] online [een functie inschakelen](admin-feature-management.md) om het mogelijk te maken een Power Automate-stroom uit te voeren vanaf de meeste lijst-, kaart- en documentpagina's. Zie voor meer informatie het artikel [Geautomatiseerde werkstromen instellen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) in de beheerinhoud.
-
-Zodra de beheerder [!INCLUDE [prod_short](includes/prod_short.md)] heeft verbonden met Power Automate, ziet u alle stromen die uw organisatie heeft toegevoegd wanneer u de actie **Automatiseren** kiest op de betreffende pagina's. Directe stromen worden uitgevoerd zonder [!INCLUDE [prod_short](includes/prod_short.md)] te verlaten.
+Met [!INCLUDE [prod_short](includes/prod_short.md)] kan een Power Automate-stroom worden uitgevoerd via de meeste lijst-, kaart- en documentpagina's. Zodra de beheerder [!INCLUDE [prod_short](includes/prod_short.md)] heeft verbonden met Power Automate, ziet u alle stromen die uw organisatie heeft toegevoegd wanneer u de actie **Automatiseren** kiest op de betreffende pagina's. Directe stromen worden uitgevoerd zonder [!INCLUDE [prod_short](includes/prod_short.md)] te verlaten. Zie voor meer informatie het artikel [Geautomatiseerde werkstromen instellen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) in de beheerinhoud.
 
 Deze directe werkstromen worden geopend op een pagina binnen [!INCLUDE [prod_short](includes/prod_short.md)] online, zodat u binnen de context kunt blijven van het bedrijfsproces waar u middenin zat. Kies de actie **Automatiseren** (op sommige pagina's genest in het menu **Meer opties**), kies de menuoptie **Power Automate** en kies vervolgens de relevante koppeling om de werkstroom te activeren. De verbinding met Power Automate is al voor u ingesteld.
 
@@ -62,7 +60,7 @@ U kunt voorbeeldsjablonen vinden om aan te passen aan uw bedrijf en alle beschik
 
 ## <a name="manage-automated-workflows"></a>Geautomatiseerde werkstromen beheren
 
-U kunt nieuwe stromen maken of bestaande Power Automate-stromen beheren in [!INCLUDE [prod_short](includes/prod_short.md)], op de pagina **Power Automate-stromen beheren**. Zie voor meer informatie het artikel [Power Automate-stromen beheren](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows.md) in de beheerinhoud.
+U kunt nieuwe stromen maken of bestaande Power Automate-stromen beheren in [!INCLUDE [prod_short](includes/prod_short.md)], op de pagina **Power Automate-stromen beheren**. Zie voor meer informatie het artikel [Power Automate-stromen beheren](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) in de beheerinhoud.
 
 U kunt ook beschikbare Power Automate-werkstromen beheren op de pagina **Werkstromen** in [!INCLUDE[prod_short](includes/prod_short.md)]. De pagina vermeldt zowel ingebouwde goedkeuring als Power Automate-werkstromen, met opties voor de laatste om de werkstroom in/uit te schakelen, te verwijderen en te bekijken op de Power Automate-website.
 

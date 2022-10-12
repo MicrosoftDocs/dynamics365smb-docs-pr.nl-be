@@ -9,25 +9,26 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317447"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607112"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
 
-Met taakwachtrijen kunnen gebruikers specifieke rapporten en codeunits plannen en uitvoeren. U kunt taken éénmalig of herhaaldelijk uitvoeren. U kunt bijvoorbeeld het rapport **Verkoper - Verkoopstatistieken** wekelijks uitvoeren om verkopen per verkoper elke week bij te houden of u kunt de codeunit **Goedkeuringsaanvragen delegeren** dagelijks uitvoeren om te voorkomen dat documenten zich opstapelen.
+Met de pagina Taakwachtrijposten kunnen gebruikers specifieke rapporten en codeunits plannen en uitvoeren. U kunt taken éénmalig of herhaaldelijk uitvoeren. U kunt bijvoorbeeld het rapport **Verkoper * Verkoopstatistieken** wekelijks uitvoeren om verkopen per verkoper elke week bij te houden of u kunt de codeunit **Goedkeuringsaanvragen delegeren** dagelijks uitvoeren om te voorkomen dat documenten zich opstapelen.
 
 Op de pagina **Taakwachtrijposten** worden alle bestaande posten weergegeven. Als u een nieuw taakwachtrij-item toevoegt dat u wilt plannen, moet u wat informatie verstrekken. Voorbeeld:
+
 * Het type object dat u wilt uitvoeren, zoals een rapport of codeunit. U moet toestemming hebben om het specifieke rapport of de codeunit uit te voeren.
 * De naam en object-id van het object. 
 * Parameters om het gedrag van het taakwachtrij-item te specificeren. Zo kunt u een parameter toevoegen om alleen geboekte verkooporders te verzenden. 
 * Wanneer en hoe vaak het taakwachtrij-item wordt uitgevoerd.
 
 > [!IMPORTANT]  
-> Als u de machtigingenset SUPER gebruikt die wordt geleverd met [!INCLUDE[prod_short](includes/prod_short.md)], hebben u en uw gebruikers de machtiging om alle objecten uit te voeren binnen de licentie. Dat is nog steeds niet genoeg voor gedelegeerde beheerders of gebruikers met een apparaatlicentie, die geen taakwachtrij-items kunnen maken.
+> Als aan u de machtigingenset SUPER is toegewezen die wordt geleverd met [!INCLUDE[prod_short](includes/prod_short.md)], bent u gemachtigd alle in uw licentie opgenomen objecten uit te voeren. Als u de rol Gedelegeerd beheerder hebt, kunt u taakwachtrijposten maken en plannen, maar alleen beheerders en gelicentieerde gebruikers kunnen ze uitvoeren. Gebruikers met de apparaatlicentie kunnen geen taakwachtrijposten maken of uitvoeren.
 
 Nadat taakwachtrijen zijn ingesteld en werken, kan de status als volgt veranderen in elke doorlopende periode:
 
@@ -73,7 +74,7 @@ De pagina **Geplande taken** in [!INCLUDE [prod_short](includes/prod_short.md)] 
 Alle geplande taken stoppen bijvoorbeeld als het bedrijf zich in een omgeving bevindt die een kopie is van een andere omgeving. Gebruik de pagina **Geplande taken** om taken in te stellen als gereed om te worden uitgevoerd in de taakwachtrij.  
 
 > [!NOTE]
-> Interne beheerders en gebruikers kunnen taken plannen om te worden uitgevoerd. Gedelegeerde beheerders kunnen dat niet.
+> Interne beheerders en gelicentieerde gebruikers kunnen taken plannen om te worden uitgevoerd. Gedelegeerde beheerders kunnen taken instellen en plannen om uit te voeren, maar alleen gebruikers met een licentie kunnen ze uitvoeren.
 
 ## <a name="the-my-job-queue-part"></a>Het onderdeel Mijn taakwachtrij
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535330"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606453"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -52,7 +52,7 @@ Wanneer u zich voor het eerst aanmeldt bij [!INCLUDE [prod_short](includes/prod_
     - Als u zich nog niet hebt aangemeld voor Power BI, selecteert u [Ga naar Power BI-startpagina](https://powerbi.microsoft.com). Meld u aan voor een account en kom dan terug naar [!INCLUDE[prod_short](includes/prod_short.md)] en voltooi de instelling.
 
     - Als u al een licentie heeft, selecteert u **Volgende**.
-4. Op de volgende pagina uploadt [!INCLUDE[prod_short](includes/prod_short.md)] nu een demo-rapport naar Power BI. Dit duurt een paar minuten, dus het gebeurt op de achtergrond. Selecteer om de instelling te voltooien **Volgende** en dan **Voltooien**.
+4. Op de volgende pagina uploadt [!INCLUDE[prod_short](includes/prod_short.md)] nu een demo-rapport naar Power BI. Deze stap duurt een paar minuten, dus het gebeurt op de achtergrond. Selecteer om de instelling te voltooien **Volgende** en dan **Voltooien**.
 
 Het verbindingsproces begint. Tijdens het proces communiceert [!INCLUDE [prod_short](includes/prod_short.md)] met de Power BI-service om te bepalen of u een geldig Power BI-account en geldige licentie hebt. Zodra uw licentie is geverifieerd, wordt het standaard Power BI-rapport weergegeven op de pagina. Als er geen rapport wordt weergegeven, kunt u in het gedeelte een rapport selecteren.
 
@@ -69,9 +69,14 @@ Als de verbinding eenmaal tot stand is gebracht, kunt u een rapport selecteren u
 
 ### <a name="show-reports-on-list-pages"></a>Rapporten weergeven op lijstpagina's
 
-Verschillende belangrijke lijstpagina's van [!INCLUDE[prod_long](includes/prod_long.md)] bevatten een Power BI-feitenblok. Dit feitenblok geeft extra inzicht in de gegevens in de lijst. Terwijl u van de ene naar de andere rij gaat, wordt het rapport bijgewerkt en gefilterd op de geselecteerde vermelding. Als dit gedeelte niet wordt weergegeven, selecteert u in de actiebalk de optie **Acties** > **Weergeven** > **Power BI-rapporten weergeven/verbergen**.
+Verschillende belangrijke lijstpagina's van [!INCLUDE[prod_long](includes/prod_long.md)] bevatten een Power BI-feitenblok. Dit feitenblok geeft extra inzicht in de gegevens in de lijst. Terwijl u van de ene naar de andere rij gaat, wordt het rapport bijgewerkt en gefilterd op de geselecteerde vermelding.
 
 Zie voor meer informatie over het maken van rapporten voor lijstpagina's [Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> Als u het Power BI-feitenblok niet ziet, wordt het mogelijk door personalisatie op uw werkruimte verborgen. Selecteer het pictogram ![Instellingen.](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en vervolgens de actie **Personaliseren**. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
+>
+> Of als u een oudere versie van Business Central heeft, gaat u naar de actiebalk, selecteert u **Acties** > **Weergave** > **Power BI-rapporten weergeven/verbergen**.
 
 ### <a name="switch-reports"></a>Schakelen tussen rapporten
 
@@ -121,7 +126,7 @@ Er is geen Power BI-account ingesteld. Als u een geldig Power BI-account wilt aa
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Bericht: Er zijn geen ingeschakelde rapporten. Kies Rapport selecteren om een lijst met rapporten te tonen die u kunt weergeven.
 
-Dit bericht verschijnt als het standaardrapport niet kon worden geïmplementeerd in uw Power BI-werkruimte. Het bericht wordt ook weergegeven als het rapport is geïmplementeerd maar kon worden vernieuwd. Navigeer naar het rapport in uw Power BI-werkruimte, selecteer **Gegevensset**, **Instellingen** en werk vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar [!INCLUDE[prod_short](includes/prod_short.md)] en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren**.
+Dit bericht verschijnt als het standaardrapport niet kon worden geïmplementeerd in uw Power BI-werkruimte. Het bericht wordt ook weergegeven als het rapport is geïmplementeerd maar kon worden vernieuwd. Navigeer naar het rapport in uw Power BI-werkruimte, selecteer **Gegevensset**, **Instellingen** en werk vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar [!INCLUDE[prod_short](includes/prod_short.md)] en selecteert u handmatig het rapport via de pagina **Rapporten selecteren**.
 
 #### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>U kunt geen rapport zien op de pagina Rapport selecteren op een lijstpagina
 
@@ -143,7 +148,6 @@ Dit komt waarschijnlijk omdat de naam van het rapport niet de naam van de lijstp
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power Apps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken in Power Automate](across-how-use-financials-data-source-flow.md)  
 

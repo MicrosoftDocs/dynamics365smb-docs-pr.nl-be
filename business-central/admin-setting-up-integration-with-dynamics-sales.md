@@ -9,23 +9,38 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5e485827ed5fb5fcef9a807650993734099377de
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382297"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607350"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Gebruikersaccounts instellen voor integratie met Microsoft Dataverse
 
+Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vereist zijn om [!INCLUDE[prod_short](includes/cds_long_md.md)] te integreren met [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vereist zijn om [!INCLUDE[prod_short](includes/cds_long_md.md)] te integreren met [!INCLUDE[prod_short](includes/prod_short.md)].  
+## <a name="set-up-the-administrator-user-account"></a>Het beheerdersaccount instellen
 
-## <a name="setting-up-the-administrator-user-account"></a>Het beheerdersaccount instellen in Sales
-U moet uw beheerdersaccount toevoegen voor [!INCLUDE[prod_short](includes/prod_short.md)] als gebruiker in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Bij het opzetten van de verbinding tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)] wordt dit account één keer gebruikt om enkele vereiste componenten te installeren en configureren. 
+U moet uw beheerdersaccount toevoegen voor [!INCLUDE[prod_short](includes/prod_short.md)] als gebruiker in [!INCLUDE[cds_long](includes/cds_long_md.md)]. Bij het instellen van de verbinding tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)] wordt dit account één keer gebruikt om enkele vereiste onderdelen te installeren en configureren.
+
+> [!IMPORTANT]
+> Het beheerdersaccount moet een gelicentieerde gebruiker zijn met de beveiligingsrol **Systeembeheerder** in de [!INCLUDE[prod_short](includes/cds_long_md.md)]-omgeving en globale beheerder op de tenant waartoe de omgeving behoort. Dit account heeft geen licentie nodig voor [!INCLUDE[prod_short](includes/prod_short.md)], omdat het alleen wordt gebruikt om de service te leveren in de [!INCLUDE[prod_short](includes/cds_long_md.md)]-tenant en om instellingstaken uit te voeren.
+>
+> Nadat de verbinding is ingesteld, kan deze [!INCLUDE[prod_short](includes/cds_long_md.md)]-gebruiker worden verwijderd. De integratie blijft het gebruikersaccount gebruiken dat automatisch specifiek voor de integratie wordt gemaakt.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Machtigingen en beveiligingsrollen voor gebruikersaccounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
-Wanneer u de CDS-basisintegratieoplossing installeert, worden machtigingen voor het integratiegebruikersaccount geconfigureerd. Als deze machtigingen handmatig zijn gewijzigd, kunt u deze opnieuw instellen. U kunt dat doen door de CDS-basisintegratieoplossing opnieuw te installeren door te kiezen voor **Integratieoplossing opnieuw implementeren** op de pagina **Common Data Service-verbinding instellen**. De beveiligingsrol van Business Central CDS-integratie is geïmplementeerd.
+
+Met de basisintegratieoplossing worden de volgende rollen in [!INCLUDE[cds_long](includes/cds_long_md.md)] voor de integratie gemaakt:
+
+* **Integratiebeheerder**: biedt gebruikers de mogelijkheid de verbinding te beheren tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[cds_long](includes/cds_long_md.md)]. Meestal is dit alleen toegewezen aan het automatisch gemaakte gebruikersaccount voor synchronisatie.
+* **Integratiegebruiker**: geeft gebruikers toegang tot gesynchroniseerde gegevens. Meestal is dit toegewezen aan het automatisch gemaakte gebruikersaccount voor synchronisatie en andere gebruikers die de gesynchroniseerde gegevens moeten kunnen bekijken of openen.
+
+> [!NOTE]
+>
+> De rollen **Integratiebeheerder** en **Integratiegebruiker** mogen alleen worden gebruikt door de toepassingsgebruiker die de integratie uitvoert. Aan de toepassingsgebruiker hoeft niet de [!INCLUDE[prod_short](includes/prod_short.md)]- of [!INCLUDE[cds_long](includes/cds_long_md.md)]-licentie te zijn toegewezen.
+
+Als u de basisintegratieoplossing installeert, worden de machtigingen voor het integratiegebruikersaccount geconfigureerd. Als deze machtigingen handmatig worden gewijzigd, kunt u deze opnieuw instellen. Kies **Integratieoplossing opnieuw implementeren** op de pagina **Dataverse-verbinding instellen** om de basisintegratieoplossing opnieuw te installeren. Met deze stap wordt de beveiligingsrol van Business Central CDS-integratie geïmplementeerd.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -120,9 +135,9 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Zie ook  
+## <a name="see-also"></a>Zie ook
+
 [Integreren met Microsoft Dataverse](admin-common-data-service.md)  
 [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

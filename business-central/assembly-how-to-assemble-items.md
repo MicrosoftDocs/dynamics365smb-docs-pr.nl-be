@@ -10,23 +10,23 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 07cccf188ed476a3dba4fa71ec7de20620cbd6f1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e9d53a6369e2955e0e097471e70cb83438540539
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534709"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607058"
 ---
 # <a name="assemble-items"></a>artikelen samenstellen
 
 Als het veld **Aanvullingsmethode** op de artikelkaart **Assemblage** bevat, is de standaardbevoorradingsmethode van het artikel het assembleren van gedefinieerde onderdelen en mogelijk door een gedefinieerde bron.  
 
-De onderdelen en bronnen die voor dit soort assemblageartikel worden gebruikt, moeten worden gedefinieerd in een assemblagestuklijst. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.  
+De onderdelen en bronnen die voor dit soort assemblageartikel worden gebruikt, moeten worden gedefinieerd in een assemblagestuklijst. Zie [Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md) voor meer informatie.
 
 Assemblageartikelen kunnen voor twee verschillende assemblageprocessen ingesteld worden:  
 
--   Op voorraad assembleren.  
--   Op order assembleren.  
+- Op voorraad assembleren.  
+- Op order assembleren.  
 
 Meestal gebruikt u **Op voorraad assembleren** voor artikelen die u voorafgaand aan de verkoop wilt assembleren, zoals het voorbereiden op een kit-campagne, en in voorraad wilt houden totdat ze worden besteld. Deze artikelen betreffen meestal standaardartikelen, zoals verpakte kits die u niet aanbiedt voor het aanpassen van aanvragen van klanten.  
 
@@ -74,10 +74,9 @@ Nadat het boeken is voltooid, wordt het assemblageartikel als uitvoer geboekt na
 ## <a name="see-also"></a>Zie ook
 
 [Assemblagebeheer](assembly-assemble-items.md)  
-[Werken met stuklijsten](inventory-how-work-BOMs.md)  
+[Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

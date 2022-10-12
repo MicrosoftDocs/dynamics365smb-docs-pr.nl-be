@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534304"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606399"
 ---
 # <a name="set-up-email"></a>E-mail instellen
 Mensen in bedrijven sturen dagelijks informatie en documenten, zoals verkoop- en inkooporders en facturen, per e-mail. Beheerders kunnen een of meer e-mailaccounts verbinden met [!INCLUDE[prod_short](includes/prod_short.md)], zodat u documenten kunt verzenden zonder een e-mailapp te hoeven openen. U kunt elk bericht afzonderlijk opstellen met basisopmaakhulpmiddelen, zoals lettertypen, stijlen, kleuren, enzovoort, en bijlagen tot 100 MB toevoegen. Daarnaast kunnen beheerders met rapportlay-outs alleen de belangrijkste informatie uit documenten opnemen. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
@@ -73,7 +73,9 @@ De begeleide instelling **E-mail instellen** kan u helpen snel aan de slag te ga
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>E-mailscenario's toewijzen aan e-mailaccounts
 E-mailscenario's zijn processen waarbij een document wordt verzonden. Bijvoorbeeld een verkoop- of inkooporder of een melding, zoals een uitnodiging aan een externe accountant. U kunt specifieke e-mailaccounts gebruiken voor specifieke scenario's. U kunt bijvoorbeeld specificeren dat alle gebruikers altijd verkoopdocumenten verzenden vanaf het ene account, inkoopdocumenten vanuit een ander en magazijn- of productiedocumenten vanaf een derde account. U kunt scenario's toewijzen, opnieuw toewijzen en verwijderen wanneer u maar wilt. Een scenario kan slechts aan één e-mailaccount tegelijk worden toegewezen. Het standaardaccount voor e-mail wordt gebruikt voor alle scenario's die niet aan een account zijn toegewezen.
- 
+
+Op de pagina **Toewijzing e-mailscenario** kunt u de actie **Standaardbijlagen instellen** kiezen om bijlagen aan e-mailscenario's toe te voegen. De bijlagen zijn altijd beschikbaar wanneer u een e-mail opstelt voor een document dat betrekking heeft op het scenario. Elk e-mailscenario kan een of meer standaardbijlagen hebben. Standaardbijlagen worden automatisch toegevoegd aan e-mails voor het e-mailscenario. Als u bijvoorbeeld een verkooporder per e-mail verzendt, wordt de standaardbijlage die is opgegeven voor het scenario Verkooporder toegevoegd. Standaardbijlagen worden weergegeven in de sectie **Bijlagen** onderaan de pagina **Een e-mail opstellen**. U kunt handmatig niet-standaardbijlagen aan de e-mail toevoegen.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,12 +103,12 @@ Kies bij **E-mailweergavebeleid van gebruiker** een gebruiker en kies vervolgens
 >  Als u het veld **Gebruikers-id** leeg laat en vervolgens de actie E-mailweergavebeleid kiest, is het beleid dat u definieert van toepassing op alle gebruikers.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Herbruikbare e-mailteksten en lay-outs instellen
-U kunt rapporten gebruiken om belangrijke informatie uit verkoop- en inkoopdocumenten op te nemen in teksten voor e-mails. Deze procedure beschrijft hoe u het rapport **Verkoop - Factuur** voor geboekte verkoopfacturen instelt, maar het proces is vergelijkbaar voor andere rapporten.
+U kunt rapporten gebruiken om belangrijke informatie uit verkoop-, inkoop- en servicedocumenten op te nemen in teksten voor e-mails. Deze procedure beschrijft hoe u het rapport **Verkoop - Factuur** voor geboekte verkoopfacturen instelt, maar het proces is vergelijkbaar voor andere rapporten.
 
 > [!NOTE]
 > Als u de lay-out wilt gebruiken om inhoud voor e-mailberichten te maken, moet u het Word-bestandstype voor uw lay-out gebruiken.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselectie - Verkoop** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportselectie - verkoop** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Rapportselectie - Verkoop** in het veld **Gebruik** de optie **Factuur**.
 3. Selecteer op een nieuwe regel in het veld **Rapport-ID** bijvoorbeeld standaardrapport 1306.
 4. Schakel het selectievakje **Gebruiken voor hoofdtekst van e-mailbericht** in.
