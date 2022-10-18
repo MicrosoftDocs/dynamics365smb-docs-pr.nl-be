@@ -1,21 +1,21 @@
 ---
 title: Pagina's personaliseren (bevat video)
 description: Leer hoe u de gebruikersinterface kunt aanpassen en uw werkruimte kunt aanpassen aan uw manier van werken en persoonlijke voorkeuren in Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 10/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528825"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652177"
 ---
 # <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
 
@@ -79,9 +79,15 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 |Voeg een nieuwe actie toe aan een pagina of rapport in uw rolcentrum.|Kies op de doelpagina, de rapportverzoekpagina of het venster Vertel me het bladwijzerpictogram.|Zie [Een bladwijzer maken van een pagina of rapport in uw rolcentrum](ui-bookmarks.md)|
 |Start een lijst altijd uitgevouwen of samengevouwen|Kies in de linkerbovenhoek van de lijst **Alles uitvouwen** of **Alles samenvouwen**. U kunt ook de actie **Alles uitvouwen** of **Alles samenvouwen** kiezen in het menu van de eerste kolom. |Is van toepassing op samenvouwbare hiërarchielijsten|
 
-## <a name="personalizing-actions"></a><a name="Actions"></a>Acties personaliseren
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>De actiebalk en menu's personaliseren
 
-Met personalisatie kunt u bepalen welke acties op de navigatie- en actiebalk en in rolcentra worden weergegeven en waar deze worden weergegeven. U kunt afzonderlijke acties of actiegroepen weergeven, verbergen of verplaatsen. De navigatie- en actiebalk personaliseren gebeurt in wezen op dezelfde manier als met andere elementen van de gebruikersinterface. Wat u precies kunt doen met een actie of groep, hangt er echter vanaf waar de actie of groep zich bevindt. De beste manier om daar achter te komen is de personaliseringsmodus te activeren en de pijlpunten u te laten leiden.
+Met personalisatie kunt u bepalen welke acties op de navigatie- en actiebalk en in rolcentra worden weergegeven en waar deze worden weergegeven. U kunt afzonderlijke acties of actiegroepen weergeven, verbergen of verplaatsen.
+
+In releasewave 2 van 2022 hebben we u meer manieren geboden om Business Central aan te passen. De volgende video laat zien hoe u acties op pagina's en rolcentra kunt personaliseren.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+De navigatie- en actiebalk personaliseren gebeurt in wezen op dezelfde manier als met andere elementen van de gebruikersinterface. Wat u precies kunt doen met een actie of groep, hangt er echter vanaf waar de actie of groep zich bevindt. De beste manier om daar achter te komen is de personaliseringsmodus te activeren en de pijlpunten u te laten leiden.
 
 Er zijn enkele termen waarmee u vertrouwd moet zijn om actiepersonalisatie beter te begrijpen: *actiegroep* en *gepromoveerde categorie*.  
 

@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606156"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652204"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
 
@@ -93,7 +93,7 @@ Wanneer u de functie-update **Nieuwe verkoopprijservaring** op de pagina **Funct
     * Verkoop
     * Inkopen
     * Projectomzet
-    * Projectinkopen 
+    * Projectinkopen
 
     U kunt alle prijzen voor deze gebieden bewerken op de pagina **Prijsvoorstel**. De standaardprijslijsten worden ingesteld op de pagina's **Verkoopinstellingen**, **Inkoopinstellingen** en **Projectinstellingen**. 
 
@@ -252,7 +252,7 @@ U koppelt kortingspercentages aan specifieke factuurbedragen op de pagina **Verk
 Naast (of in plaats van) een kortingspercentage kunt u administratiekosten aan een specifiek factuurbedrag koppelen.  
 
 > [!TIP]  
-> Voordat u deze gegevens invoert, kunt u het beste een ontwerp maken van de kortingsstructuur die u wilt gebruiken. Zodoende kunt u gemakkelijker zien welke klanten u kunt koppelen aan dezelfde pagina Factuurkorting. Hoe minder pagina's u hebt ingesteld, des te sneller kunt u de basisgegevens opgeven.
+> Voordat u deze gegevens invoert, kunt u het beste een ontwerp maken van de kortingsstructuur die u wilt gebruiken. De structuur maakt het gemakkelijker te bepalen welke klanten kunnen worden gekoppeld aan dezelfde factuurkortingspagina. Hoe minder pagina's u hebt ingesteld, des te sneller kunt u de basisgegevens opgeven.
 
 Zie [Kortingen instellen voor uw klanten](/training/modules/customer-discounts-dynamics-365-business-central/index) voor training in kortingen bij verkopen.
 
