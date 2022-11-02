@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607437"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716594"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integratie tussen Business Central en Microsoft Teams
 
@@ -54,7 +54,9 @@ Zie voor meer informatie [Records delen in Microsoft Teams](across-working-with-
 
 Direct vanaf de meeste collectie- en detailpagina's in Business Central kunt u de actie **Delen met Teams** gebruiken vanuit het pictogram ![!Het menupictogram Delen op pagina's.](media/share-icon.png "Het menu Delen weergegeven op een kaart.") om een bericht te typen, ontvangers te kiezen, zoals teamleden, groepen of kanalen, en het bericht te verzenden met een koppeling en naar de Business Central-pagina.
 
-![!Het menu Delen weergegeven op een kaart.](media/teams-share-link.png "Het menu Delen weergegeven op een kaart.")
+[![!Het menu Delen weergeven op een kaart.](media/teams-share-link-v2.png "Het menu Delen weergegeven op een kaart.")](media/teams-share-link-v2.png#lightbox)
+
+<!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 Zie voor meer informatie [Records en paginakoppelingen delen in Microsoft Teams](across-working-with-teams.md#share-link).
 

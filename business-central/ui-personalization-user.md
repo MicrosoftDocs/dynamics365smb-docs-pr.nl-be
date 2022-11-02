@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
+ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652177"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716590"
 ---
 # <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
 
@@ -155,6 +155,12 @@ Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrij
 - De wijzigingen die u aanbrengt worden op al uw rolcentra toegepast. Als u bijvoorbeeld een wijziging in de lijst Klant aanbrengt wanneer het rolcentrum op Bedrijfsleider is ingesteld, kunt u de wijziging op de pagina **Klanten** zien wanneer het rolcentrum op Verkooporderverwerker wordt ingesteld.
 - Wijzigingen in een deelvenster van een pagina worden op de pagina toegepast overal waar deze wordt weergegeven.  
 - U kunt alleen velden en kolommen toevoegen uit een vooraf gedefinieerde lijst die op de pagina is gebaseerd. U kunt geen nieuwe maken.
+- De optie **Power Automate** op de actiebalk
+  - U kunt de optie **Automatiseren** of de suboptie **Power Automate** en de acties **Een stroom maken** en **Stromen beheren** ervan niet verbergen of verplaatsen.
+  - U kunt stromen verplaatsen die zijn opgenomen onder de optie **Automatiseren**, maar u kunt ze niet verbergen met behulp van personalisatie. Als u de stroom verplaatst, wordt de stroom naar de bestemming gekopieerd Deze wordt niet verwijderd uit de optie **Automatiseren**.
+
+   > [!TIP]
+   > Als beheerder kunt u de optie **Automatisering** verbergen voor gebruikers. Zie voor meer informatie [Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
