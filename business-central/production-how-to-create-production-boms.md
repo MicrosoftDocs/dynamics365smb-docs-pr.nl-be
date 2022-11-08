@@ -1,18 +1,18 @@
 ---
 title: Productiestuklijsten maken
 description: Leer hoe u een productiestuklijst (BOM), nieuwe versies van een productiestuklijst maakt en hoe u de formule voor het berekenen van hoeveelheden gebruikt.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: production bom, bills of material,
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: 06d1b507e4414b3d77bbeb6a500342e5269438e3
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607836"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728558"
 ---
 # <a name="create-production-boms"></a>Productiestuklijsten maken
 
@@ -21,7 +21,7 @@ Een productiestuklijst bevat hoofdgegevens waarmee de onderdelen en subverzameli
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt tevens assemblagestuklijsten. U gebruikt assemblageorders voor het maken van eindartikelen van onderdelen in een eenvoudig proces dat kan worden uitgevoerd door een of meer standaardbronnen die geen bewerkingsplaatsen of -afdelingen betreffen of waarbij geen bronnen gebruikt worden. Een assemblageproces kan bijvoorbeeld zijn het picken van twee flessen wijn en één pak koffie en deze als een cadeau-item verpakken. Zie voor meer informatie [Assemblagestuklijsten of productiestuklijsten](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
-> De app **Demogegevens van Contoso Coffee** bevat demonstratieproducten voor verschillende productiestuklijstscenario's die kunnen worden gebruikt in een testomgeving, ook tijdens een proef. Leer hoe u de gegevens voor Contoso Coffee instelt en vind handleidingen voor verschillende scenario's op [Inleiding tot de demogegevens voor Contoso Coffee](/contoso-coffee/contoso-coffee-intro.md).
+> De app **Demogegevens van Contoso Coffee** bevat demonstratieproducten voor verschillende productiestuklijstscenario's die kunnen worden gebruikt in een testomgeving, ook tijdens een proef. Leer hoe u de gegevens voor Contoso Coffee instelt en vind handleidingen voor verschillende scenario's op [Inleiding tot de demogegevens voor Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).
 
 Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:  
 
@@ -96,13 +96,13 @@ De relatie tussen de afzonderlijke materialen wordt bepaald in de berekeningsfor
 
 ### <a name="example"></a>Opmerking
 
-In een productiestuklijst zijn er 70 metalen onderdelen nodig met de volgende dimensies: lengte = 0,20 m en breedte = 0,15 m. De waarden worden als volgt ingevoerd: Berekeningsformule = Lengte x Breedte, Lengte = 20, Breedte = 15, Aantal per = 70. Het aantal wordt als volgt berekend: Aantal per x Lengte * Breedte, dat wil zeggen Aantal = 70 x 0,20 m x 0,15 m = 2,1 m2.  
+Een productiestuklijst vereist 70 metalen onderdelen met de volgende dimensies: lengte = 0,20 m en breedte = 0,15 m. De waarden worden als volgt ingevoerd: Berekeningsformule = Lengte x Breedte, Lengte = 20, Breedte = 15, Aantal per = 70. Het aantal wordt als volgt berekend: Aantal per x Lengte * Breedte, dat wil zeggen Aantal = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
 ## <a name="see-also"></a>Zie ook
 
 [Bewerkingsplannen maken](production-how-to-create-routings.md)  
 [Productvarianten beheren](inventory-item-variants.md)  
-[Procedure: varianten](/contoso-coffee/variants.md)  
+[Procedure: varianten](contoso-coffee/variants.md)  
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)  
 [Gepland](production-planning.md)  

@@ -8,18 +8,18 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2c54b24a38be055fb8f6e641761130e6eab8b829
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361622"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728396"
 ---
 # <a name="synchronize-items-and-inventory"></a>Artikelen en voorraad synchroniseren
 
 De **artikelen** in [!INCLUDE[prod_short](../includes/prod_short.md)] zijn het equivalent van de *producten* in Shopify en omvatten goederen, digitale downloads, services en cadeaubonnen die u mogelijk verkoopt. Er zijn twee belangrijke redenen om de artikelen te synchroniseren:
 
-1. Gegevensbeheer vindt voornamelijk plaats in [!INCLUDE[prod_short](../includes/prod_short.md)]. U moet alle of sommige gegevens van daaruit exporteren naar Shopify en zichtbaar maken. U kunt artikelnaam, beschrijving, afbeelding, prijzen, beschikbaarheid, varianten, leveranciersdetails en streepjescodes exporteren. Na het exporteren kunt u de artikelen bekijken of direct zichtbaar maken.
+1. Gegevensbeheer vindt voornamelijk plaats in [!INCLUDE[prod_short](../includes/prod_short.md)]. U moet alle of sommige gegevens van daaruit exporteren naar Shopify en zichtbaar maken. U kunt de artikelnaam, beschrijving, afbeelding, prijzen, beschikbaarheid, varianten, leveranciersdetails en streepjescodes exporteren. Na het exporteren kunt u de artikelen bekijken of direct zichtbaar maken.
 2. Wanneer een bestelling vanuit Shopify wordt geïmporteerd, is de informatie over artikelen essentieel voor de verdere verwerking van het document in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 De voorgaande twee scenario's zijn altijd ingeschakeld.
@@ -28,8 +28,10 @@ Een derde scenario is het beheren van gegevens in Shopify maar die artikelen in 
 
 ## <a name="define-item-synchronizations"></a>Artikelsynchronisaties definiëren
 
-1. Kies het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") en voer **Shopify-winkel** in. Open de winkel waarvoor u artikelsynchronisatie wilt configureren.
-2. Kies in het veld **Artikel synchroniseren** de juiste optie.<br>De volgende tabel beschrijft de opties.
+1. Kies het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") en voer **Shopify-winkel** in. Open de winkel waarvoor u de artikelsynchronisatie wilt configureren.
+2. Kies in het veld **Artikel synchroniseren** de juiste optie.
+
+   De volgende tabel beschrijft de opties.
 
 |Optie|Omschrijving|
 |------|-----------|
@@ -46,7 +48,7 @@ Eerst importeert u artikelen in bulk vanuit Shopify of samen met bestellingen om
 |**Automatisch onbekende artikelen maken**|Wanneer Shopify-producten en -varianten worden geïmporteerd in [!INCLUDE[prod_short](../includes/prod_short.md)] , probeert de [!INCLUDE[prod_short](../includes/prod_short.md)]-functie altijd eerst de overeenkomende record in de artikellijst te vinden. **SKU-toewijzing** heeft invloed op hoe de matching wordt uitgevoerd en creëert een nieuw artikel en/of een nieuwe artikelvariant. Schakel deze optie in als u een nieuw artikel wilt maken of als er geen overeenkomende record bestaat. Het nieuwe artikel wordt gemaakt met geïmporteerde gegevens en de **Code van artikelsjabloon**. Als deze optie niet is ingeschakeld, moet u handmatig een artikel maken en de actie **Product toewijzen** gebruiken op de pagina **Shopify-producten**.|
 |**Code van artikelsjabloon**|Gebruik dit met de schakelaar **Automatisch onbekende artikelen maken**.<br>Kies de sjabloon die u wilt gebruiken voor automatisch gemaakte artikelen.|
 |**SKU-toewijzing**|Kies hoe u de **SKU**-waarde wilt gebruiken die uit Shopify wordt geïmporteerd tijdens het toewijzen en maken van artikelen/varianten. Lees meer in de sectie [Effect van SKU's van Shopify producten en barcodes op het toewijzen en maken van artikelen en varianten in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**SKU-veldscheidingsteken**|Gebruik dit met **SKU-toewijzing** ingesteld op de optie **Artikelnr. + variant (synchronize-items.md#effect-of- shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)Code**.<br> Definieer een scheidingsteken dat moet worden gebruikt om SKU te splitsen.<br>Als u in Shopify de variant met SKU '1000/001' zou maken, typt u dus '/' in het veld **SKU-veldscheidingsteken** om van het artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] '1000' te maken en de artikelvariantcode '001'.|
+|**SKU-veldscheidingsteken**|Gebruik dit samen met **SKU-toewijzing** ingesteld op de optie **[Artikelnr. + variant](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definieer een scheidingsteken dat moet worden gebruikt om SKU te splitsen.<br>Als u in Shopify de variant met SKU '1000/001' zou maken, typt u dus '/' in het veld **SKU-veldscheidingsteken** om van het artikelnummer in [!INCLUDE[prod_short](../includes/prod_short.md)] '1000' te maken en de artikelvariantcode '001'.|
 |**Prefix voor variant**|Gebruik dit samen met **SKU-toewijzing** ingesteld op de opties **Variant** of **Artikelnr. + variant** als alternatief wanneer de SKU die uit Shopify komt, leeg is.<br>Als u de artikelvariant automatisch wilt maken in [!INCLUDE[prod_short](../includes/prod_short.md)], moet u een waarde invoeren in **Code**. Standaard wordt de waarde gebruikt die is gedefinieerd in het SKU-veld dat wordt geïmporteerd uit Shopify. Als de SKU echter leeg is, wordt een code gegenereerd die begint met het gedefinieerde variantvoorvoegsel en "001".|
 |**Shopify kan artikelen bijwerken**|Kies deze optie als u artikelen en/of varianten automatisch wilt bijwerken.|
 
@@ -92,7 +94,7 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 |**Voorraad getraceerd**| Kies hoe het systeem het veld **Voorraad bijhouden** moet vullen voor producten die worden geëxporteerd naar Shopify. U kunt de beschikbaarheidsinformatie bijwerken vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] voor producten in Shopify waarvan voorraad traceren is ingeschakeld. Lees meer in de sectie [Voorraad](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standaardvoorraadbeleid**|Kies *Afwijzen* om negatieve voorraad aan de Shopify-kant te voorkomen.|
 |**Kan Shopify-producten bijwerken**|Definieer dit als [!INCLUDE[prod_short](../includes/prod_short.md)] alleen artikelen kan maken of ook artikelen kan bijwerken. Selecteer deze optie als u nadat de eerste synchronisatie is geactiveerd door de actie **Artikel toevoegen**, producten handmatig wilt bijwerken met de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Vergeet niet **Naar Shopify** te selecteren in het veld **Artikel synchroniseren**.|
-|**Klantensjablooncode**|Kies de standaardsjabloon die moet worden gebruikt tijdens de prijsberekening. Meer informatie op [Belastingen instellen ](setup-taxes.md).|
+|**Klantensjablooncode**|Kies de standaardsjabloon die moet worden gebruikt tijdens de prijsberekening. Meer informatie op [Belastingen instellen](setup-taxes.md).|
 
 ### <a name="fields-mapping-overview"></a>Overzicht van veldtoewijzing
 
@@ -100,7 +102,7 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 |------|-----------------|-----------------|
 |Status|Volgens het veld **Status voor gemaakte producten** op de **Shopify-winkelkaart**. Lees meer in de sectie [Ad-hocupdates van Shopify producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |Title | **Beschrijving**. Als de taalcode is gedefinieerd en er een corresponderende artikelvertaling bestaat, wordt de artikelvertaling gebruikt in plaats van de beschrijving.|**Beschrijving**|
-|Omschrijving|Combineert uitgebreide teksten en kenmerken als de corresponderende schakelaars op de Shopify-winkelkaart zijn ingeschakeld. Respecteert taalcode.|Niet gebruikt.|
+|Omschrijving|Combineert uitgebreide teksten en kenmerken als de corresponderende schakelaars op de Shopify-winkelkaart zijn ingeschakeld. Respecteert de taalcode.|Niet gebruikt.|
 |SEO-paginatitel|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |SEO-metabeschrijving|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |Media|**Afbeelding**. Lees meer in de sectie [Artikelafbeeldingen synchroniseren](synchronize-items.md#sync-item-images)|**Afbeelding**|
@@ -115,7 +117,7 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 |Leverancier|**Naam** van leverancier uit **Leveranciersnr.**|**Leveranciersnr.** Toewijzing op naam.|
 |Gewicht|**Brutogewicht**.|Niet gebruikt.|
 |Belastbaar|Vaste waarde: ingeschakeld.|Niet gebruikt.|
-|Belastingcodes|**Belastinggroepcode**. Alleen relevant voor omzetbelasting. Meer informatie op [Belastingen instellen ](setup-taxes.md).|Niet gebruikt.|
+|Belastingcodes|**Belastinggroepcode**. Alleen relevant voor omzetbelasting. Meer informatie op [Belastingen instellen](setup-taxes.md).|Niet gebruikt.|
 
 ### <a name="tags"></a>Labels
 
@@ -168,7 +170,7 @@ Op basis van de waarde in **Actie voor verwijderde producten** op de pagina **Sh
 
 Synchronisatie van afbeeldingen kan worden geconfigureerd voor gesynchroniseerde artikelen. Kies uit de volgende opties:
 
-* **Leeg** - afbeeldingssynchronisatie wordt gedeactiveerd.
+* **Uitgeschakeld** - afbeeldingssynchronisatie wordt gedeactiveerd.
 * **Naar Shopify** - afbeeldingen van artikelen worden geëxporteerd naar Shopify
 * **Van Shopify** - afbeeldingen vanuit Shopify worden geïmporteerd naar [!INCLUDE[prod_short](../includes/prod_short.md)]
 
@@ -187,7 +189,7 @@ Afbeeldingssynchronisatie kan op de hieronder beschreven twee manieren worden ge
 
 ### <a name="image-synchronization-remarks"></a>Opmerkingen over afbeeldingssynchronisatie
 
-* Bij het exporteren van afbeeldingen vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify, worden de nieuwe afbeeldingen toegevoegd aan Shopify, waarbij oude afbeeldingen intact blijven. Als een afbeelding wordt bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], moet u oude afbeeldingen verwijderen in **Shopify-beheer**.
+* Bij het exporteren van afbeeldingen vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify, worden de nieuwe afbeeldingen toegevoegd aan Shopify, waarbij oude afbeeldingen intact blijven. Als een afbeelding wordt bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], moet u de oude afbeeldingen verwijderen in **Shopify-beheer**.
 * Afbeeldingen die worden geëxporteerd naar Shopify en niet voldoen aan de vereisten zoals gedefinieerd door Shopify, worden niet geïmporteerd. Zie voor meer informatie [typen productmedia op help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images)
 
 ## <a name="sync-prices-with-shopify"></a>Prijzen synchroniseren met Shopify
@@ -201,8 +203,8 @@ Prijzen kunnen worden geëxporteerd voor gesynchroniseerde artikelen op de hiero
 
 ### <a name="price-calculation-remarks"></a>Opmerkingen over prijsberekening
 
-* Voor prijsberekening is het belangrijk om een waarde in het veld **Standaardklantensjabloon** te hebben. Meer informatie op [Belastingen instellen ](setup-taxes.md).
-* Voer een **Valutacode** in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDE[prod_short](../includes/prod_short.md)], laat u het veld leeg.
+* Voor prijsberekening is het belangrijk om een waarde in het veld **Standaardklantensjabloon** te hebben. Meer informatie op [Belastingen instellen](setup-taxes.md).
+* Voer alleen een **Valutacode** in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDE[prod_short](../includes/prod_short.md)], laat u het veld leeg.
 * Bij het bepalen van een prijs gebruikt [!INCLUDE[prod_short](../includes/prod_short.md)] 'laagste prijs'-logica. Dit betekent dat als de eenheidsprijs die is gedefinieerd op de artikelkaart, lager is dan wat is gedefinieerd in de prijsgroep, de eenheidsprijs van de artikelkaart wordt gebruikt.
 
 ## <a name="sync-inventory-to-shopify"></a>Voorraad synchroniseren met Shopify

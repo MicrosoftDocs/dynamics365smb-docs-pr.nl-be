@@ -8,12 +8,12 @@ ms.search.form: 30105, 30106, 30107, 30108, 30109,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: d4ff86179fa5b82bcc398ee58cf92fc121c486d8
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 1a796d1094401cd2ebc0efd54f752211d22bfb12
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361434"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728666"
 ---
 # <a name="synchronize-customers"></a>Klanten synchroniseren
 
@@ -21,22 +21,6 @@ Wanneer een order uit Shopify wordt geïmporteerd, is verkrijgen van de informat
 
 * Gebruik een speciale klant voor alle orders.
 * Importeer de actuele klantinformatie uit Shopify. Deze optie is ook beschikbaar wanneer u klanten eerst exporteert naar Shopify vanuit [!INCLUDE[prod_short](../includes/prod_short.md)].
-
-## <a name="how-the-connector-chooses-which-customer-to-use"></a>Hoe de connector kiest welke klant te gebruiken
-
-De functie *Order importeren uit Shopify* probeert de klant in de volgende volgorde te selecteren:
-
-1. Als het **Standaardklantnr.** veld is gedefinieerd in de **Shopify-klantsjabloon** voor het corresponderende land/regio, dan het **Standaardklantnr.** wordt gebruikt, ongeacht de instellingen in de velden **Klant importeren uit Shopify** en **Type klanttoewijzing**. Meer informatie op [Klantensjabloon per land/regio](synchronize-customers.md#customer-template-per-country).
-2. Als **Klant importeren uit Shopify** is ingesteld op *Geen* en het **Standaardklantnr.** is gedefinieerd op de pagina **Shopify-winkelkaart**, wordt het **Standaardklantnr.** gebruikt.
-
-De volgende stappen zijn afhankelijk van het **Type klanttoewijzing**.
-
-* Als het **Altijd de standaardklant nemen** is, gebruikt de connector de klant die is gedefinieerd in het veld **Standaardklantnr.** op de pagina **Shopify-winkelkaart**.
-* Als het **Op e-mail/telefoon** is, probeert de connector eerst de bestaande klant te vinden op id, vervolgens op e-mailadres en dan op telefoonnummer. Als de klant niet wordt gevonden, maakt de connector een nieuwe klant.
-* Als het **Op factureringsadresinfo** is, probeert de connector eerst de bestaande klant te vinden op id en vervolgens op het factuuradres. Als de klant niet wordt gevonden, maakt de connector een nieuwe klant.
-
-> [!NOTE]  
-> De connector gebruikt informatie van het factuuradres en creëert de factuurklant [!INCLUDE[prod_short](../includes/prod_short.md)]. De orderklant is dezelfde als de factuurklant.
 
 ## <a name="important-settings-when-importing-customers-from-shopify"></a>Belangrijke instellingen bij het importeren van klanten uit Shopify
 
@@ -52,7 +36,7 @@ Of u nu klanten uit Shopify in bulk importeert of tegelijk met de import van ord
 
 ### <a name="customer-template-per-country"></a>Klantensjabloon per land/regio
 
-Sommige instellingen kunnen worden gedefinieerd op land/regio-niveau of op staat/provincie-niveau. De instellingen kunnen worden geconfigureerd in [Verzending en levering](https://www.shopify.com/admin/settings/shipping) bij Shopify.
+Sommige instellingen kunnen worden gedefinieerd op land/regio-niveau of op staat/provincie-niveau. De instellingen kunnen worden geconfigureerd in [Verzending en levering](https://www.shopify.com/admin/settings/shipping) in Shopify.
 
 U kunt voor elke klant het volgende doen met behulp van de **Shopify-klantensjabloon**:
 
@@ -66,19 +50,29 @@ U kunt voor elke klant het volgende doen met behulp van de **Shopify-klantensjab
 
 ## <a name="export-customers-to-shopify"></a>Klanten exporteren naar Shopify
 
-Bestaande klanten kunnen in bulk geëxporteerd worden naar Shopify. In elk geval worden een klant en één standaardadres gemaakt. U kunt het proces beheren met de volgende instellingen:
+U kunt bestaande klanten in bulk exporteren naar Shopify. In elk geval worden een klant en één standaardadres gemaakt. U kunt het proces beheren met de volgende instellingen:
 
 |Veld|Omschrijving|
 |------|-----------|
-|**Klanten exporteren naar Shopify**|Selecteer dit als u alle klanten met een geldig e-mailadres in bulk wilt exporteren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify. U kunt het handmatig doen, met behulp van de actie **Klanten synchroniseren** of automatisch, met behulp van een taakwachtrij voor periodieke updates.<br> Zorg er bij het exporteren van klanten met adressen die provincies/staten bevatten, voor dat **ISO-code** is ingevuld voor landen/regio's.|
+|**Klanten exporteren naar Shopify**|Selecteer dit als u alle klanten in bulk wilt exporteren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify. U kunt het handmatig doen, met behulp van de actie **Klanten synchroniseren** of automatisch, met behulp van een taakwachtrij voor periodieke updates.<br> Zorg er bij het exporteren van klanten met adressen die provincies/staten bevatten, voor dat **ISO-code** is ingevuld voor landen/regio's.|
 |**Kan Shopify-klanten bijwerken**|Dit wordt gebruikt samen met de instelling **Klant exporteren naar Shopify**. Schakel het in als u later updates wilt genereren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] voor klanten die al bestaan in Shopify.|
 
-> [!NOTE]  
-> Zodra u de klanten hebt gemaakt in Shopify, kunt u ze rechtstreekse uitnodigingen sturen om hen aan te moedigen hun account te activeren.
+De volgende vereisten zijn voor het exporteren van een klant:
+
+* De klant moet een geldig e-mailadres hebben.
+* Een land/regio is geselecteerd op de klantenkaart. Voor lokale klanten, met blanco land/regio, moet voor het land/regio dat is opgegeven op de pagina **Bedrijfsgegevens** een ISO-code zijn gedefinieerd.
+* Als de klant een telefoonnummer heeft, moet het nummer uniek zijn omdat Shopify geen tweede klant met hetzelfde telefoonnummer accepteert.
+* Als de klant een telefoonnummer heeft, moet dit het E.164-formaat hebben. Verschillende formaten worden ondersteund als ze een nummer vertegenwoordigen dat overal ter wereld kan worden gebeld. De volgende formaten zijn geldig:
+  * xxxxxxxxxx
+  * +xxxxxxxxxxx
+  * (xxx)xxx-xxxx
+  * +x xxx-xxx-xxxx
+
+Zodra u de klanten hebt gemaakt in Shopify, kunt u ze rechtstreekse uitnodigingen sturen om hen aan te moedigen hun account te activeren.
 
 ### <a name="populate-customer-information-in-shopify"></a>Klantgegevens invullen in Shopify
 
-Een klant in Shopify heeft een voornaam, achternaam, e-mailadres en/of telefoonnummer. U kunt de voornaam en achternaam invullen op basis van de klantenkaart in [!INCLUDE[prod_short](../includes/prod_short.md)].
+Een klant in Shopify heeft een voornaam, achternaam, e-mailadres en/of telefoonnummer. U kunt de voornaam en achternaam invoeren op basis van de klantenkaart in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Prioriteit|Veld op klantenkaart|Omschrijving|
 |------|------|-----------|

@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716612"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728504"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Werkstromen in Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ De standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] ondersteu
 * Power Automate-stromen
 
   * Geautomatiseerde stromen worden geactiveerd door gebeurtenissen (zoals het maken, wijzigen of verwijderen van records of documenten) in [!INCLUDE[prod_short](includes/prod_short.md)]. Ook inbegrepen zijn goedkeuringsstromen die zijn gemaakt in Power Automate, die triggeren wanneer een goedkeuring wordt aangevraagd in [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Directe stromen die handmatig worden geactiveerd door de actie **Automatiseren** vanuit lijsten, kaarten en documentpagina's. 
+  * Directe stromen die handmatig worden geactiveerd door de actie **Automatiseren** vanuit lijsten, kaarten en documentpagina's.
 
     Creëer en activeer handmatig een Power Automate-stroom op een [!INCLUDE[prod_short](includes/prod_short.md)]-record, zoals een klant, artikel of verkooporder, met opties om informatie zowel intern als extern te manipuleren (met behulp van geïntegreerde tools).
 
@@ -44,11 +44,12 @@ Met [!INCLUDE [prod_short](includes/prod_short.md)] Online kunt u zich aanmelden
 
 ## <a name="approval-workflows"></a>Goedkeuringswerkstromen
 
-U maakt een goedkeuringswerkstroom door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit:
-- Een werkstroomgebeurtenis, die wordt beheerd door gebeurtenisvoorwaarden
-- Een werkstroomreactie, die wordt gemodereerd door antwoordopties.
+Maak een goedkeuringswerkstroom door als volgt te definiëren waardoor de werkstroom wordt gestart en wat er daarna gebeurt:
 
-Als u werkstroomstappen wilt definiëren, vult u velden op werkstroomregels in met behulp van vaste lijsten met gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.<!--What are the "values"? Can we give an example?-->
+* Een werkstroomgebeurtenis, die wordt beheerd door gebeurtenisvoorwaarden.
+* Een werkstroomreactie, die wordt gemodereerd door antwoordopties.
+
+Als u werkstroomstappen wilt definiëren, vult u velden op werkstroomregels in met behulp van gebeurtenis- en reactiewaarden die ondersteunde scenario's vertegenwoordigen.
 
 Voorbeelden van gebeurtenissen voor goedkeuringswerkstromen zijn het maken van verkoop- of inkooporders/-offertes/-facturen, prijswijzigingen, wijzigingen van leveranciers of klanten en meer.
 

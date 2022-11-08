@@ -674,6 +674,8 @@
 ### [Artikelen synchroniseren met Shopify](shopify/synchronize-items.md)
 ### [Klanten synchroniseren met Shopify](shopify/synchronize-customers.md)
 ### [Verkooporders synchroniseren en afhandelen met Shopify](shopify/synchronize-orders.md)
+### [Transacties en uitbetalingen synchroniseren](shopify/transactions-and-payouts.md)
+### [Belastingen instellen voor de Shopify-verbinding](shopify/setup-taxes.md)
 ### [Taken op de achtergrond uitvoeren](shopify/background.md)
 ### [Problemen oplossen met de Shopify-connector](shopify/troubleshoot.md)
 ### [Veelgestelde vragen voor de Shopify-connector](shopify/shopify-faq.md)
@@ -1775,7 +1777,7 @@
 ### [Servicenaleving](compliance/compliance-service-compliance.md)
 ### [Certificeringen](compliance/compliance-certifications.md)
 ## [Serviceoverzicht (alleen in het Engels)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
-
+## [Proeffuncties die verbinding maken met andere Microsoft-services](privacy-connected-services.md)
 # Ontwikkeling en beheer
 ## [Aan de slag met ontwikkelings- en administratiedocumentatie](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Beheertaken in Business Central

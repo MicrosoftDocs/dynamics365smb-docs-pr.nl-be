@@ -8,14 +8,14 @@ ms.search.form: 30118, 30119, 30120,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 47b0d72283b4d017bb522c3e71f6c61501b59d5b
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 37fb8069f6149cc89c1c53f671eafe3788f54ccf
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361954"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728369"
 ---
-# <a name="troubleshooting-shopify-and-business-central-synchronization"></a>Problemen oplossen met de synchronisatie tussen Shopify en Business Central
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Problemen oplossen met de synchronisatie tussen Shopify en Business Central
 
 Het is mogelijk om situaties tegen te komen waarin u problemen moet oplossen bij het synchroniseren van gegevens tussen Shopify en [!INCLUDE[prod_short](../includes/prod_short.md)]. Deze pagina definieert stappen voor het oplossen van enkele veelvoorkomende probleemscenario's die zich kunnen voordoen.
 
@@ -67,7 +67,7 @@ De schakelaar **Heeft toegangssleutel** wordt geactiveerd.
 Om correct te kunnen werken vereist de extensie Shopify-connector toestemming om http-verzoeken te doen. Bij het testen in een sandbox zijn de http-verzoeken voor alle extensies verboden.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **extensiebeheer** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer de extensie *Shopify-connector*.
+2. Selecteer de extensie **Shopify-connector**.
 3. Kies de actie **Configureren** om de pagina **Extensie-instellingen** te openen.
 4. Zorg ervoor dat de schakelaar **HttpClient-aanvragen toestaan** is ingeschakeld.
 
@@ -90,13 +90,17 @@ De volgende procedures beschrijven hoe u het toegangstoken kunt roteren dat word
 
 ## <a name="known-issues"></a>Bekende problemen
 
-De *Bedrijfsboekingsgroep* kan niet nul of leeg zijn. Er moet een waarde in het klantveld staan. Corrigeren:
+### <a name="the-gen-bus-posting-group-cannot-be-zero-or-empty-there-must-be-a-value-in-the-customer-field"></a>De *Bedrijfsboekingsgroep* kan niet nul of leeg zijn. Er moet een waarde in het klantveld staan
 
 Vul het veld **Klantensjablooncode** op de pagina **Shopify -winkelkaart** met de sjabloon waarin **Bedrijfsboekingsgroep** is ingevuld. De klantensjabloon wordt niet alleen gebruikt voor het maken van klanten, maar ook voor het berekenen van verkoopprijzen en tijdens het maken van verkoopdocumenten.
 
 ### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Gegevens importeren naar uw Shopify-winkel is niet ingeschakeld. Ga naar de winkelkaart om deze in te schakelen
 
-Zet in het venster **Shopify-winkelkaart** de schakelaar **Gegevenssynchronisatie naar Shopify toestaan** aan.  Deze schakelaar is bedoeld om de online winkel te beschermen tegen het verkrijgen van demogegevens van [!INCLUDE[prod_short](../includes/prod_short.md)].
+Zet in het venster **Shopify-winkelkaart** de schakelaar **Gegevenssynchronisatie naar Shopify toestaan** aan. Deze schakelaar is bedoeld om de online winkel te beschermen tegen het verkrijgen van demogegevens van [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+### <a name="oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Oauth-fout invalid_request: Kan Shopify API-toepassing niet vinden met api_key
+
+Het lijkt erop dat u [App insluiten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) gebruikt, waarbij de client-URL deze indeling heeft: `https://[application name].bc.dynamics.com`. De Shopify-connector werkt niet voor Insluiten-apps. Zie voor meer informatie [Voor welke Microsoft-producten is de Shopify connector beschikbaar](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
 
 ## <a name="see-also"></a>Zie ook
 

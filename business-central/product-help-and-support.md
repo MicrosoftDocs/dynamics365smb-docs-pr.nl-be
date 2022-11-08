@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 0df97fbafd160e932700b5f66de455d50ff8f645
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607728"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728585"
 ---
 # <a name="resources-for-help-and-support"></a>Resources voor Help en ondersteuning
 
@@ -114,7 +114,11 @@ In deze sectie krijgt u snelle manieren naar Microsoft AppSource, waar u oplossi
 
 ### <a name="give-feedback"></a>Feedback geven
 
-Op de site van [Dynamics 365 Ideas](https://aka.ms/bcideas) kunt u voorstellen doen voor nieuwe functies en opties. Uw invoer gaat rechtstreeks naar de engineering-backlog van Business Central voor onderzoek en prioritering.  
+Ongeveer één keer per kwartaal verzamelt het [!INCLUDE [prod_short](includes/prod_short.md)]-team feedback van onze gebruikers over hoe tevreden ze zijn met het product. Naast beoordelingen kunt u ook een schriftelijke reactie geven. Door ons specifieke en bruikbare opmerkingen te geven helpt u onze technische teams om prioriteit te geven aan de productverbeteringen waarin we investeren. U kunt er ook mee instemmen dat er contact met u wordt opgenomen over uw opmerking. Als u dat doet, wordt u uitgenodigd voor een Teams-vergadering op een tijdstip dat u goed uitkomt. U kunt op elk moment productsuggesties geven op onze [Dynamics 365-ideeën](https://aka.ms/bcideas)-website.  
+
+### <a name="product-suggestions"></a>Productsuggesties
+
+Op de website van [Dynamics 365-ideeën](https://aka.ms/bcideas) kunt u voorstellen doen voor nieuwe functies en opties. Uw invoer gaat rechtstreeks naar de engineering-backlog van Business Central voor onderzoek en prioritering.  
 
 Zoek in de lijst met ingediende suggesties. Het kan zijn dat iemand al iets soortgelijks heeft ingediend en die suggestie kan al stemmen hebben ontvangen. Stem op een reeds ingediend idee om het prioriteit te geven in de engineering-backlog.  
 
