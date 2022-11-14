@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 2000005
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: daa6a537b801c830ccf5098c602da6a841b6caee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f3c90c66706872b7af27682108f0a9dff2283c6f
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140076"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744725"
 ---
 # <a name="set-up-export-protocols-in-the-belgian-version"></a>Exportprotocollen instellen in de Belgische versie
 Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocollen instellen. Exportprotocollen bepalen welke bestandsindeling wordt gegenereerd wanneer u de betaalrun exporteert die door de bank moet worden verwerkt. Elke regel bevat een exportprotocol dat door een code en een beschrijving wordt geïdentificeerd. U kunt zoveel exportprotocollen instellen als nodig is. U moet een exportprotocol voor binnenlandse betalingen, internationale betalingen en SEPA-betalingen binnen en buiten de eurozone instellen.  
@@ -49,8 +50,9 @@ Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocoll
     |**Exportobjecttype**|Geef het objecttype op waarmee de exportindeling van de export van het betalingsbestand wordt bepaald. Wanneer u **Id exportobject** selecteert, wordt in dit veld het **type van het exportobject** weergegeven.<br /><br /> **OPMERKING:** als u het exportprotocol voor SEPA pain.001.001.03 wilt instellen, selecteert u **XMLPort**.|  
     |**Id exportobject**|Geef het identificatienummer op waarmee de exportindeling van de export van het betalingsbestand wordt bepaald. Als u **2000002** selecteert, is de exportindeling voor het betalingsbestand bijvoorbeeld **Internationale betalingen archiveren**.<br /><br /> **OPMERKING:** als u het exportprotocol wilt instellen voor SEPA pain.001.001.03, selecteert u XMLport **1000**.|  
     |**Exportnr. series**|Hiermee geeft u de nummerreekscode op die wordt gebruikt om id-nummers toe te wijzen aan de export van het betalingsbestand.|  
+    |**Gegroepeerde betaling**|Hiermee wordt aangegeven of dit exportprotocol wordt gebruikt voor gegroepeerde betalingen.|  
 
-4.  Kies de knop **OK**.  
+4.  Kies de knop **Ok**.  
 
 ## <a name="see-also"></a>Zie ook  
  [Belgische elektronische betalingen](belgian-electronic-payments.md)   
