@@ -716,7 +716,7 @@
 ##### [Balansrapporten afdrukken](LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md)
 ##### [Resultatenrekeningen afdrukken](LocalFunctionality/Australia/how-to-print-income-statements.md)
 ##### [Verdelingbedragen berekenen](LocalFunctionality/Australia/calculating-distribution-amounts.md)
-#### Alge&meen
+#### Algemeen
 ##### [Adressen](LocalFunctionality/Australia/addresses.md)
 ##### [Verkoopprijs bepalen door kosten plus percentage](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Australian Business Numbers en aanpassingsnotities](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
@@ -739,7 +739,7 @@
 ##### [Leveringsherinneringen handmatig maken](LocalFunctionality/Austria/how-to-create-delivery-reminders-manually.md)
 ##### [Leveringsherinneringen afgeven](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 ##### [Controlelijsten afdrukken voor leveringsherinneringen](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
-#### Alge&meen
+#### Algemeen
 ##### [Boekhoudinstellingeninformatie afdrukken](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 
 ### België
@@ -774,7 +774,7 @@
 ##### [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Financiële dagboeken maken](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
 ##### [Exporteren naar Accon](LocalFunctionality/Belgium/how-to-export-to-accon.md)
-#### Alge&meen
+#### Algemeen
 ##### [Ondernemingnummers en filiaalnummers](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [De boekingsperiode beperken](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [De werkdatum als boekingsdatum instellen](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
@@ -790,7 +790,7 @@
 #### Bankieren en betalingen
 ##### [Borgsommen maken](LocalFunctionality/Canada/how-to-create-deposits.md)
 ##### [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Alge&meen
+#### Algemeen
 ##### [Problemen met rapporten oplossen](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
 ##### [Werken met GIFI-codes](LocalFunctionality/Canada/work-gifi-codes.md)
 
@@ -823,7 +823,7 @@
 ##### [Lokalisatie van compensaties voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Voorraad
 ##### [Voorraad](LocalFunctionality/Czech/inventory.md)
-#### Alge&meen
+#### Algemeen
 ##### [Uitgebreide gebruikerscontrole](LocalFunctionality/Czech/general.md)
 ##### [Aanbevolen procedures](LocalFunctionality/Czech/best-practices.md)
 
@@ -928,7 +928,7 @@
 ##### [Leveringsherinneringen genereren](LocalFunctionality/Germany/how-to-generate-delivery-reminders.md)  
 ##### [Leveringsherinneringen afgeven](LocalFunctionality/Germany/how-to-issue-delivery-reminders.md)
 ##### [Controlelijsten afdrukken voor leveringsherinneringen](LocalFunctionality/Germany/how-to-print-test-reports-for-delivery-reminders.md)
-#### Alge&meen
+#### Algemeen
 ##### [Valutawisselkoersen](LocalFunctionality/Germany/currency-exchange-rates.md)
 ##### [EU-verkooplijst in Duitsland](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 ##### [Btw-nummers van bedrijven opnemen in verkoop- en inkooprapporten](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
@@ -942,7 +942,7 @@
 ##### [Speciale gegevensoutput en -rapporten voor de belastingdienst](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 #### Elektronische facturering
 ##### [Vereiste voor elektronische facturering: Eén factuurexemplaar afgeven](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
-#### Alge&meen  
+#### Algemeen  
 ##### [IRS-nummers toewijzen aan het rekeningschema](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Geboekte facturen en creditnota's verwijderen](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
@@ -1090,7 +1090,7 @@
 ##### [Alternatieve afschrijvingsmethoden instellen](LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods.md)  
 ##### [Meerdere VA-kaarten maken](LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards.md)
 ##### [Afschrijvingsboekrapporten afdrukken](LocalFunctionality/Italy/how-to-print-depreciation-book-reports.md)
-#### Alge&meen
+#### Algemeen
 ##### [Bedrijfsgegevens instellen](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 ##### [Italiaanse uitbesteding](LocalFunctionality/Italy/italian-subcontracting.md)
 ##### [Dagboeksjablonen en -batches instellen](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
@@ -1107,7 +1107,7 @@
 ##### [Elektronische facturering instellen (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
 ##### [Elektronische facturen genereren (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
 ##### [Carta de Porte-pakbonnen en -transferorders (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
-#### Alge&meen
+#### Algemeen
 ##### [Elektronische boekhoudverordeningen in Mexico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Problemen met rapporten oplossen](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
@@ -1144,7 +1144,7 @@
 ##### [Inkoopbedragen controleren](LocalFunctionality/Netherlands/check-purchase-amounts.md)
 ##### [Documentbedragen bewerken in inkoopfacturen en creditnota's](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
 ##### [Validatie van inkoopbedragen instellen](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
-#### Alge&meen
+#### Algemeen
 ##### [CMR-verzendbonnen](LocalFunctionality/Netherlands/cmr-notes.md)
 ##### [Nederlandse postcodes](LocalFunctionality/Netherlands/dutch-post-codes.md)
 ##### [Postcodes importeren](LocalFunctionality/Netherlands/how-to-import-post-codes.md)
@@ -1175,7 +1175,7 @@
 ##### [Verdelingbedragen berekenen](LocalFunctionality/NewZealand/calculating-distribution-amounts.md)
 ##### [Balansrapporten afdrukken](LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports.md)
 ##### [Resultatenrekeningen afdrukken](LocalFunctionality/NewZealand/how-to-print-income-statements.md)
-#### Alge&meen
+#### Algemeen
 ##### [Adressen](LocalFunctionality/NewZealand/addresses.md)
 ##### [Verkoopprijs bepalen door kosten plus percentage](LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [New Zealand Business Numbers invoeren](LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers.md)  
@@ -1219,7 +1219,7 @@
 ##### [Het OCR-dagboektestrapport afdrukken.](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
 #### Hoofdfinanciën
 ##### [Grootboekposten vereffenen in afgesloten perioden](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
-#### Alge&meen
+#### Algemeen
 ##### [Periodieke orders](LocalFunctionality/Norway/recurring-orders.md)  
 ##### [Periodieke orders maken](LocalFunctionality/Norway/how-to-create-recurring-orders.md)
 ##### [Periodieke groepen instellen](LocalFunctionality/Norway/how-to-set-up-recurring-groups.md)  
@@ -1260,7 +1260,7 @@
 ##### [Vaste-activavoorraad](LocalFunctionality/Russia/Fixed-Asset-Inventory.md)
 ##### [Vaste-activalocaties en werknemers](LocalFunctionality/Russia/Fixed-Asset-Locations-and-Employees.md)
 ##### [Vaste-activaomzet](LocalFunctionality/Russia/Fixed-Asset-Turnover.md)
-##### [Journalen voor toekomstige onkosten maken ](LocalFunctionality/Russia/How-to-Create-Future-Expense-Journals.md)
+##### [Journalen voor toekomstige onkosten maken](LocalFunctionality/Russia/How-to-Create-Future-Expense-Journals.md)
 ##### [Toeslag vaste activa maken](LocalFunctionality/Russia/How-to-Create-a-Fixed-Asset-Charge.md)
 ##### [Een creditnota voor een toeslag vaste activa maken](LocalFunctionality/Russia/How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md)
 ##### [Vaste activa verkopen](LocalFunctionality/Russia/Sale-of-fixed-assets.md)
@@ -1349,7 +1349,7 @@
 ##### [Verkoop- inkoopfactuurboeken afdrukken](LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md)  
 ##### [Transactienummers](LocalFunctionality/Spain/transaction-numbers.md)
 ##### [Alle transacties voor een periode afdrukken en boeken](LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period.md)
-#### Alge&meen
+#### Algemeen
 ##### [Corrigerende facturen](LocalFunctionality/Spain/corrective-invoices.md)
 ##### [Vervaldatums berekenen](LocalFunctionality/Spain/calculating-due-dates.md)
 ##### [Bewerkingscodes instellen](LocalFunctionality/Spain/how-to-set-up-operation-codes.md)
@@ -1404,7 +1404,7 @@
 #### Voorraad
 ##### [Zwitsers voorraadbeheer](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 ##### [Een voorraadpicklijst vanuit een verkooporder afdrukken](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-#### Alge&meen
+#### Algemeen
 ##### [Zwitserse postcodes importeren](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 ##### [Zwitserse inkoopdocumenten en verkooporders](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 
@@ -1421,7 +1421,7 @@
 ##### [Afdrachtsadvies afdrukken](LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md)
 #### Vast activum
 ##### [Boekingsperioden definiëren voor lineaire afschrijving van vaste activa](LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)
-#### Alge&meen
+#### Algemeen
 ##### [Een boekingsdatumwaarschuwing instellen](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Wettelijke informatie invoeren](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [Gegevens over fraudepreventie verzenden](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
@@ -1441,7 +1441,7 @@
 ##### [Borgsommen maken](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 ##### [Bankrekeningen afstemmen](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 ##### [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Alge&meen
+#### Algemeen
 ##### [Problemen met rapporten oplossen](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Wettelijke waarschuwingen indienen](submit-regulatory-alerts.md)
 
@@ -1610,6 +1610,7 @@
 ##### [Teams-integratie beheren](admin-teams-integration.md)
 ##### [Business Central-app voor Teams installeren](across-install-app-for-teams.md)
 ##### [Zoeken naar klanten, leveranciers en contacten](across-search-contacts-teams.md)
+##### [Een Business Central-tabblad toevoegen in kanaal of chat](across-teams-tab.md)
 ##### [Records en paginakoppelingen delen in Teams](across-working-with-teams.md)
 ##### [Bedrijf en andere instellingen wijzigen](across-teams-settings.md)
 ##### [Veelgestelde vragen over Teams](teams-faq.md)
@@ -1784,6 +1785,12 @@
 ### [Beheertaken](admin-setup-and-administration.md)
 ### [Gebruikers maken volgens licenties](ui-how-users-permissions.md)
 ### [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)
+### Toegang met Microsoft 365-licenties
+#### [Overzicht](admin-access-with-m365-license.md)
+#### [Toegang met Microsoft 365-licenties instellen](admin-access-with-m365-license-setup.md)
+#### [Gebruikerstoegangsstroom](admin-access-with-m365-license-flow.md)
+<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Problemen oplossen](admin-access-with-m365-license-troubleshooting.md) 
 ### [Profielen beheren](admin-users-profiles-roles.md)
 ### [Gebruikersinstellingen en voorkeuren beheren](admin-manage-user-settings-preferences.md)
 ### [Printers instellen](ui-specify-printer-selection-reports.md)
