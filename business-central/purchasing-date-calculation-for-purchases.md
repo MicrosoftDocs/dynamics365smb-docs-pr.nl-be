@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
-ms.date: 02/06/2022
+ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530553"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744963"
 ---
 # <a name="calculate-dates-for-purchases"></a>Datums berekenen voor inkoop
 
@@ -44,9 +44,9 @@ Als u een gevraagde ontvangstdatum opgeeft op een inkooporderregel, wordt die da
 > [!NOTE]
 > Als uw proces is gebaseerd op achterwaartse berekening, bijvoorbeeld als u de gevraagde ontvangstdatum gebruikt om de besteldatum te verkrijgen, raden we u aan datumformules te gebruiken met vaste looptijden, zoals '5D' voor vijf dagen of '1W' voor een week. Datumformules zonder vaste duur, zoals 'CW' voor de huidige week of CM voor de huidige maand, kunnen leiden tot onjuiste datumberekeningen. Zie voor meer informatie over datumformules [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Berekenen zonder aangevraagde leverdatum
+## <a name="calculating-without-a-requested-receipt-date"></a>Berekenen zonder een aangevraagde ontvangstdatum
 
-Als u een inkooporderregel invoert zonder een verzochte leverdatum, bevat het veld **Orderdatum** op de regel de datum uit het veld **Orderdatum** op de inkooporderkop. Deze datum is de datum die u hebt ingevoerd of de werkdatum. Vervolgens worden als volgt de datums voor de inkooporderregel berekend, met de orderdatum als uitgangspunt:  
+Als u een inkooporderregel invoert zonder een aangevraagde ontvangstdatum, bevat het veld **Orderdatum** op de regel de datum uit het veld **Orderdatum** op de inkooporderkop. Deze datum is de datum die u hebt ingevoerd of de werkdatum. Vervolgens worden als volgt de datums voor de inkooporderregel berekend, met de orderdatum als uitgangspunt:  
 
 - orderdatum + levertermijn = geplande ontvangstdatum  
 - geplande ontvangstdatum + inslagtijd + veiligheidstijd = verwachte ontvangstdatum  

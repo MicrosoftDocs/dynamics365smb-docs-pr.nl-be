@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d2b4ac035f3c6336a5bc5646cbc0145bb671788a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529446"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744936"
 ---
 # <a name="setting-up-data-exchange"></a>Gegevensuitwisseling instellen
 
@@ -35,6 +35,7 @@ Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden k
 |Gebruikersverificatie en de URL van de extensie AMC Banking 365 Fundamentals instellen, die vereist zijn om bankbestanden converteren naar de indeling van uw bank.|[De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md)|  
 |Een externe service instellen en inschakelen waarmee u bankafschriften direct kunt importeren als bankfeeds.|[De bankafschriftservice instellen](bank-how-setup-bank-statement-service.md)|  
 |Bankrekeningen koppelen in [!INCLUDE[prod_short](includes/prod_short.md)] als de bankafschriftservice is ingeschakeld|[Bankrekeningen instellen](bank-how-setup-bank-accounts.md)|  
+|Gegevensexport instellen voor Intrastat-rapportage in [!INCLUDE[prod_short](includes/prod_short.md)].|[Intrastat-rapportage instellen](finance-how-setup-report-intrastat.md)|
 |De configuratie van een nieuwe gegevensuitwisselingsdefinitie voor een gegevensbestand of een gegevensstroom voorbereiden door met behulp van het XML-schema van het bestand het sneltabblad **Kolomdefinities** op de pagina **Uitwisselingsdefinitie van boeking** vooraf te vullen.|[XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Het kader voor gegevensuitwisseling instellen zodat gebruikers een nieuwe inkoopdocumentindeling kunnen ontvangen, een nieuwe verkoopdocumentindeling kunnen verzenden, een nieuw bankbestand kunnen importeren of een andere gegevensuitwisseling kunnen uitvoeren.|[Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)|  
 

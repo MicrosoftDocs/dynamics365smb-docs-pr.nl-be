@@ -10,16 +10,16 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d5c8a96066311eb7e2050507b6c4f27066a70f62
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134394"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744663"
 ---
 # <a name="about-the-data-exchange-framework"></a>Over het kader voor gegevensuitwisseling
 
-U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het beheren van de uitwisseling van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden met uw zakelijke partners.
+U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het beheren van de uitwisseling van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden met uw zakelijke partners of autoriteiten.
 
 Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefuncties gebruiken door in te stellen welke gegevens moeten worden uitgewisseld en hoe. De indeling van bestanden voor het uitwisselen van gegevens in de bankbestanden, elektronische documenten, valutawisselkoersen en andere met ERP-systemen variëren bijvoorbeeld afhankelijk van de aanbieder van het gegevensbestand of de stream en van het land of de regio. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt verschillende bankbestandsindelingen en normen voor gegevensservices. Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling.
 
@@ -59,10 +59,14 @@ U kunt een externe service instellen om valutawisselkoersen actueel te houden. D
 
 Voor alle uitwisselingen van gegevens in XML-bestanden kunt u de instellingen van de gegevensuitwisseling voorbereiden door het XML-schemabestand te laden op de pagina **XML-schemaviewer**. In dit venster kunt u de gegevenselementen selecteren die u wilt uitwisselen met [!INCLUDE[prod_short](includes/prod_short.md)] en vervolgens kunt u een gegevensuitwisselingsdefinitie starten of een XMLport genereren.
 
+## <a name="intrastat"></a>Intrastat
+
+[!INCLUDE[prod_short](includes/prod_short.md)] maakt gebruik van het raamwerk voor gegevensuitwisseling voor Intrastat-rapportage, waar u eenvoudig bestanden met tijdstempel in verschillende indelingen kunt maken om te exporteren. [!INCLUDE[prod_short](includes/prod_short.md)] bevat voorbereide indelingen voor zowel gelokaliseerde landen/regio's als voor standaardversies. Maar u kunt het kant-en-klare rapport wijzigen of uw eigen rapport maken.
+
 ## <a name="see-also"></a>Zie ook
 
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)  
-[Gebruik XML-schema's om definities voor gegevensuitwisseling voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[XML-schema's gebruiken om definities voor gegevensuitwisseling voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  

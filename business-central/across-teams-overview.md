@@ -2,19 +2,19 @@
 title: Overzicht van integratie tussen Business Central en Microsoft Teams | Microsoft Docs
 description: Deel Business Central-records rechtstreeks in een Teams-gesprek.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
-ms.author: jswymer
-ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.custom: bap-template
+ms.openlocfilehash: 13c5e71ff35bf0bb45cabebe2124864c7875f526
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716594"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744909"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Integratie tussen Business Central en Microsoft Teams
 
@@ -59,6 +59,14 @@ Direct vanaf de meeste collectie- en detailpagina's in Business Central kunt u d
 <!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 Zie voor meer informatie [Records en paginakoppelingen delen in Microsoft Teams](across-working-with-teams.md#share-link).
+
+### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Een Business Central-tabblad toevoegen aan een Teams-kanaal of chat
+
+Als u de Business Central-app voor Teams geïnstalleerd hebt, kunt u een tabblad toevoegen aan een kanaal of chat waarop Business Central-gegevens van lijsten en kaartpagina's worden weergegeven.
+
+![Tabbladen in Teams](media/teams-tabs-border.png)
+
+Zie [Een Business Central-tabblad toevoegen in Teams](across-teams-tab.md) voor meer informatie.
 
 ## <a name="get-started"></a>Aan de slag
 

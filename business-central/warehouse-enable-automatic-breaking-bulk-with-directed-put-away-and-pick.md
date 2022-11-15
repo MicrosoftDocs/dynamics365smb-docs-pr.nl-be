@@ -1,50 +1,53 @@
 ---
 title: Splitsen van bulkgoederen met gestuurde opslag en pick
-description: Leer hoe u automatisch bulkgoederen kunt breken met gerichte opslag en pick, evenals bulksplitsing in picks, opslag, verplaatsingen en meer.
-author: SorenGP
+description: Leer hoe u automatisch bulksplitsing met gerichte opslag en pick, evenals bulksplitsing in picks, opslag, verplaatsingen en meer kunt inschakelen.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 5703, 7352
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 86ad8c18c58eaf24665310f3455ae801ebe611a2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 11/04/2022
+ms.author: bholtorf
+ms.openlocfilehash: d5e8ab6f0e60ab8874669c7e5127411acc58957b
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518691"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744690"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen
-Voor locaties die gebruikmaken van gestuurde opslag en pick, kan [!INCLUDE[prod_short](includes/prod_short.md)] in allerlei situaties, bulkgoederen automatisch splitsen (dit houdt in dat een bepaalde eenheid wordt opgesplitst in kleinere eenheden) wanneer er magazijninstructies worden gemaakt die voldoen aan de eisen met betrekking tot brondocumenten, -productieorders of interne picks en opslag. Bulksplitsing betekent soms ook het verzamelen van kleinere eenheden, indien nodig, om te voldoen aan uitgaande verzoeken door de grotere eenheid op het brondocument of de productieorder te splitsen in kleinere eenheden die in het magazijn beschikbaar zijn.   
 
-## <a name="breakbulking-in-picks"></a>Bulksplitsing in picks  
-Als u artikelen wilt opslaan in een aantal verschillende eenheden en deze, zo nodig automatisch wilt laten combineren tijdens het pickproces, selecteert u het veld **Breakbulk toestaan** op de vestigingskaart.  
+Voor locaties die gebruikmaken van gestuurde opslag en pick, [!INCLUDE[prod_short](includes/prod_short.md)] kunt u eenheden opsplitsen in kleinere eenheden wanneer er magazijninstructies worden gemaakt voor brondocumenten, productieorders of interne picks en opslag. Bulksplitsing kan ook betekenen dat artikelen in kleinere eenheden worden verzameld om de hoeveelheid van een grotere maateenheid op een brondocument of productieorder te evenaren.
 
-Voor de uitvoering van een taak zoekt de toepassing automatisch naar een artikel in dezelfde maateenheid. Als deze vorm van het artikel echter niet wordt gevonden en dit veld is geselecteerd, wordt u gevraagd een bepaalde maateenheid op te splitsen in de vereiste maateenheid.  
+## <a name="breakbulk-in-picks"></a>Bulksplitsing in picks  
 
-Als het systeem alleen kleinere eenheden kan vinden, wordt u gevraagd artikelen te verzamelen om aan de hoeveelheid op de verzending of productieorder te kunnen voldoen. In de praktijk wordt de grotere eenheid op het brondocument opgesplitst in kleinere pickeenheden.  
+Als u artikelen wilt opslaan in een aantal verschillende eenheden in een locatie en deze automatisch wilt laten combineren tijdens het pickproces, schakelt u de wisselknop **Bulksplitsing toestaan** in op de pagina Vestigingskaart. Voor de uitvoering van een taak zoekt [!INCLUDE [prod_short](includes/prod_short.md)] daarna automatisch naar een artikel in dezelfde maateenheid. Is die er niet, dan zal [!INCLUDE [prod_short](includes/prod_short.md)] voorstellen dat u een grotere maateenheid opsplitst in de maateenheid die nodig is.  
 
-## <a name="breakbulking-in-put-aways"></a>Bulksplitsing in opslag  
-Bij de magazijnopslag stelt de toepassing automatisch Plaatsen-actieregels voor in de opslageenheid, bijvoorbeeld stuks, hoewel de artikelen in een andere eenheid arriveren.  
+Als er alleen kleinere eenheden beschikbaar zijn, zal [!INCLUDE [prod_short](includes/prod_short.md)] voorstellen dat u artikelen verzamelt om aan de hoeveelheid voor de verzending of productieorder te kunnen voldoen. In de praktijk wordt de grotere eenheid op het brondocument opgesplitst in kleinere pickeenheden.  
 
-## <a name="breakbulking-in-movements"></a>Bulksplitsing in verplaatsingen  
-De toepassing past ook automatisch bulksplitsing toe op aanvullingsverplaatsingen, als u het veld **Breakbulk toestaan** op het sneltabblad **Optie** van de pagina **Opslagloc.-aanvulling** is ingeschakeld.  
+## <a name="breakbulk-in-put-aways"></a>Bulksplitsing in opslag  
+
+Bij magazijnopslag stelt [!INCLUDE [prod_short](includes/prod_short.md)] Plaatsen-regels voor in de opslageenheid. Zo kunnen er bijvoorbeeld stuks worden voorgesteld, ook al komen de artikelen in een andere maateenheid aan.  
+
+## <a name="breakbulk-in-movements"></a>Bulksplitsing in verplaatsingen  
+
+[!INCLUDE [prod_short](includes/prod_short.md)] kan ook bulksplitsing uitvoeren in bevoorradingsverplaatsingen als de wisselknop **Bulksplitsing toestaan** op de pagina **Bakaanvulling berekenen** is ingeschakeld.  
 
 U kunt de resultaten van de omzetting van de ene eenheid in de andere weergeven als tussenliggende bulksplitsingsregels in de opslag-, pick- of verplaatsingsinstructies.  
 
 > [!NOTE]  
->  Als u het veld **Breakbulkfilter plaatsen** in de kop van de magazijninstructie selecteert, worden de bulksplitsingsregels verborgen wanneer de grotere eenheid volledig wordt gebruikt. Bijvoorbeeld: als een pallet 12 stuks bevat en u alle 12 stuks gaat gebruiken, wordt u gevraagd 1 pallet te nemen en 12 stuks te plaatsen. Als u echter maar 9 stuks nodig hebt, worden de opsplitsingsregels niet verborgen, zelfs niet als u het veld **Breakbulkfilter** hebt geselecteerd omdat u de resterende drie stuks ergens in het magazijn moet plaatsen.  
+> Als u het veld **Breakbulkfilter plaatsen** in de kop van de magazijninstructie selecteert, worden de bulksplitsingsregels verborgen wanneer de grotere eenheid volledig wordt gebruikt. Bijvoorbeeld: als een pallet 12 stuks bevat en u alle 12 stuks gebruikt, wordt u gevraagd 1 pallet te nemen en 12 stuks te plaatsen. Als u echter slechts 9 stuks moet picken, worden de bulksplitsingsregels niet verborgen, zelfs niet als u het veld **Bulksplitsingsfilter** hebt geselecteerd. De regels worden niet verborgen omdat u de resterende drie stuks ergens in het magazijn moet opslaan.  
 
 > [!NOTE]  
->  Als u wilt dat uw eenheden optimaal presteren in het magazijn, ook in verband met de bulksplitsingsfunctionaliteit, moet u waar mogelijk proberen om:  
->   
+> Als u wilt dat uw maateenheden optimaal presteren in het magazijn, ook in verband met bulksplitsing, moet u proberen om:  
+>
 > - De basiseenheid voor een artikel in te stellen als de kleinste eenheid die u denkt nodig te hebben in de magazijnprocessen.  
 > - Alternatieve eenheden voor het artikel instellen als veelvouden van de basiseenheid.  
 
 ## <a name="see-also"></a>Zie ook  
+
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md) 
