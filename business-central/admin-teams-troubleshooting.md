@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528487"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744774"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problemen met Microsoft Teams-integratie oplossen met [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -159,6 +159,23 @@ Dit probleem kan verschillende oorzaken hebben. De identiteit die u gebruikt om 
 ## <a name="my-cards-no-longer-have-a-popout-button"></a>Mijn kaarten hebben geen pop-outknop meer
 
 Vanaf april 2022 bevatten koppelingen die in Teams als compacte kaart worden weergegeven niet langer de knop **Pop-out**. Als u die kaart in een eigen venster wilt openen, kiest u de knop **Details** en vervolgens **Openen in browser** in het menu met het beletselteken (**...**) in de rechterbovenhoek van het venster.
+
+## <a name="cant-pin-a-card-to-tab"></a>Kan een kaart niet vastzetten op tabblad
+
+Hiervoor zijn een aantal redenen.
+
+- Als de kaart is gedeeld vanuit Search ME, kan deze niet aan een tabblad worden vastgemaakt. 
+
+- U kunt de kaart pas vastzetten als u uw eerste Business Central-tabblad toevoegt. Dit probleem is bekend in Teams. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Iemand heeft een tabblad toegevoegd, maar ik kan het tabblad niet zien
+
+Dit probleem wordt veroorzaakt doordat u de BC-app voor Teams niet hebt geïnstalleerd. Alleen mensen die de app hebben geïnstalleerd, zien Business Central-tabbladen.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Anderen zien een andere sortering of kolomindeling dan die de auteur van het tabblad ziet
+
+Dit probleem wordt waarschijnlijk veroorzaakt doordat u een lijstweergave hebt gedeeld die een persoonlijke weergave is. Werk in dit geval samen met uw beheerder om rolspecifieke lijstweergaven te maken die de verschillende rollen in het kanaal/de chat beslaan of maak deze weergave voor de hele organisatie zodat iedereen een consistente weergave kan krijgen.
+
 
 ## <a name="see-also"></a>Zie ook
 
