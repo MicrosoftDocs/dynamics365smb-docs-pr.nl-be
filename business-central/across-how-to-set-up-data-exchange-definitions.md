@@ -1,19 +1,19 @@
 ---
 title: Definiëren hoe gegevens elektronisch worden uitgewisseld
 description: Definieer hoe Business Central gegevens uitwisselt met externe bestanden zoals elektronische documenten, bankgegevens, artikelcatalogi en meer.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 09/15/2022
-ms.author: edupont
-ms.openlocfilehash: 53cb2bc92b4d56f767944593a5f5300510c2a944
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 11/03/2022
+ms.author: bholtorf
+ms.openlocfilehash: 324fa2e1576deb3f9cb4b082f065218d1576fd78
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607539"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744882"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
 
@@ -112,7 +112,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
 De volgende stap bij het maken van de definitie van een gegevensuitwisseling bestaat uit het bepalen van welke kolommen of XML-elementen in het gegevensbestand worden gekoppeld aan welke velden in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
-> De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden. Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** op de pagina **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
+> De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden.\-\-\- Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** op de pagina **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
 
 ### <a name="to-map-columns-in-the-data-file-to-fields-in-prod_short"></a><a name=mapfields></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -129,6 +129,7 @@ Vanaf releasewave 2 van 2022 kunt u ook groeperen op elk veld, de sleutelindex g
     |**Tabel-id**|Geef de tabel op met de velden waarheen of vanwaar gegevens worden uitgewisseld volgens de toewijzing.|  
     |**Gebruiken als tussentijdse tabel**|Geef op dat de tabel die u selecteert in het veld **Tabel-id** een tussentijdse tabel is waarin de geïmporteerde gegevens worden opgeslagen voordat deze aan de doeltabel worden toegewezen.<br /><br /> Meestal gebruikt u een tijdelijke tabel als de definitie van de gegevensuitwisseling wordt gebruikt om elektronische documenten te importeren en om te zetten, zoals leveranciersfacturen naar inkoopfacturen in [!INCLUDE[prod_short](includes/prod_short.md)]. Meer informatie vindt u in [Gegevens elektronisch uitwisselen](across-data-exchange.md).|  
     |**Naam**|Voer een naam in voor de instelling van de toewijzing.|  
+    |**Sleutelindex**|Geef de sleutelindex op om de bronrecords te sorteren voordat deze worden geëxporteerd.|
     |**Codeunit toewijzing vooraf**|Geef de codeunit aan die de koppeling voorbereidt tussen velden in [!INCLUDE[prod_short](includes/prod_short.md)] en externe gegevens.|  
     |**Toewijzing van codeunit**|Geef de codeunit op die wordt gebruikt om de opgegeven kolommen of XML-gegevenselementen toe te wijzen aan velden in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Codeunit toewijzing achteraf**|Geef de codeunit op die de koppeling voltooit tussen velden in [!INCLUDE[prod_short](includes/prod_short.md)] en externe gegevens. **Opmerking:** wanneer de extensiefunctie AMC Banking 365 Fundamentals wordt gebruikt, zet de codeunit geëxporteerde gegevens uit [!INCLUDE[prod_short](includes/prod_short.md)] om in een algemene indeling die gereed is voor export. Voor het importeren zet de codeunit externe gegevens om in een indeling die gereed is voor importeren in [!INCLUDE[prod_short](includes/prod_short.md)].|
@@ -161,6 +162,13 @@ Vanaf releasewave 2 van 2022 kunt u ook groeperen op elk veld, de sleutelindex g
      |**Transformatieregel**|Geef de regel op die geïmporteerde tekst omzet in een ondersteunde waarde voordat deze kan worden gekoppeld aan een opgegeven veld. Wanneer u een waarde in dit veld kiest, wordt dezelfde waarde ingevoerd in het veld **Transformatieregel** in **Veldtoewijzingsbuf. gegevensuitwisseling** en omgekeerd. Zie het volgende gedeelte voor meer informatie over beschikbare transformatieregels die kunnen worden toegepast.|
      |**Prioriteit**|Geef de volgorde op waarin de veldtoewijzingen moeten worden verwerkt. De veldtoewijzing met het hoogste prioriteitsnummer wordt als eerste verwerkt.|
 
+4. Geef op het sneltabblad **Veldgroepering** regels op die u wilt gebruiken om uw velden te groeperen wanneer u het bestand maakt door de velden in te vullen zoals beschreven in de onderstaande tabel.  
+
+     |Veld|Omschrijving|  
+     |--------------------------------- |---------------------------------------|  
+     |**Veld-id**|Geef het nummer op van het veld in het externe bestand dat wordt gebruikt om te groeperen, dit veld moet worden ingesteld door de gebruiker.|
+     |**Veldbijschrift**|Geef het bijschrift op van het veld in het externe bestand dat wordt gebruikt voor groepering.|
+
 ## <a name="transformation-rules"></a>Transformatieregels
 
 Als de waarden in de velden die u toewijst, verschillen, moet u transformatieregels gebruiken voor definities van gegevensuitwisseling om ze hetzelfde te maken. U definieert transformatieregels voor gegevensuitwisselingsdefinities door een bestaande definitie te openen of een nieuwe definitie te maken en vervolgens op het sneltabblad **Regeldefinities** de optie **Beheren** en **Veldtoewijzing** te kiezen. Er zijn vooraf gedefinieerde regels beschikbaar, maar u kunt ook uw eigen regels maken. De volgende tabel beschrijft de soorten transformaties die u kunt uitvoeren.
@@ -180,6 +188,8 @@ Als de waarden in de velden die u toewijst, verschillen, moet u transformatiereg
 |**Reguliere expressie - Afstemmen**|Gebruik een reguliere expressie om een of meer waarden te vinden. Deze regel is vergelijkbaar met de opties **Subtekenreeks** en **Reguliere expressie - Vervangen**.|
 |**Aangepast**|Deze transformatieregel is een geavanceerde optie waarvoor u de hulp van een ontwikkelaar moet inroepen. Het maakt een integratie-gebeurtenis mogelijk waarop u zich kunt abonneren als u uw eigen transformatiecode wilt gebruiken. Zie het gedeelte hieronder als u een ontwikkelaar bent en deze optie wilt gebruiken.|
 |**Datum- en tijdindeling**|Definieer hoe de huidige datum en het tijdstip van de dag worden weergegeven.|
+|**Veld opzoeken**|Gebruik velden uit verschillende tabellen. Als u dit wilt gebruiken moet u enkele regels volgen. Gebruik eerst **Tabel-id** om de id op te geven van de tabel die de record voor het opzoeken van velden bevat. Geef vervolgens in het veld **Bronveld-id** de id op van het veld dat de record voor het opzoeken van velden bevat. Geef tot slot in het veld **Doelveld-id** de id op van het veld om de record voor het opzoeken van velden te vinden. Gebruik eventueel het veld **Regel voor veldopzoekactie** om het type veldopzoekactie op te geven. Voor het veld **Doel** wordt de waarde van het veld **Doelveld-id** gebruikt, zelfs als het leeg is. Voor het veld **Origineel als doel leeg is**, wordt de oorspronkelijke waarde gebruikt als het doel leeg is.|
+|**Afronden**|Rond de waarde in dit veld af met behulp van enkele aanvullende regels. Geef eerst in het veld **Precisie** een afrondingsprecisie op. Geef vervolgens in het veld **Richting** de afrondingsrichting op.|
 
 > [!NOTE]  
 > Meer informatie over datum- en tijdnotatie vindt u in [Standaardnotaties voor datum en tijd](/dotnet/standard/base-types/standard-date-and-time-format-strings).

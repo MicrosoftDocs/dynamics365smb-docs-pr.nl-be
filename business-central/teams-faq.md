@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606129"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744717"
 ---
 # <a name="teams-faq"></a>Veelgestelde vragen over Teams
 
@@ -22,7 +22,7 @@ ms.locfileid: "9606129"
 
 In dit artikel worden enkele van de vragen beantwoord die u mogelijk hebt over het werken met Microsoft Teams en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="general"></a>[Alge&meen](#tab/general)
+## <a name="general"></a>[Algemeen](#tab/general)
 
 ### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>Hoe log ik in bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in Teams?
 
@@ -34,7 +34,7 @@ Om u af te melden bij de identiteit in Teams waarmee u verbinding hebt gemaakt m
 
 ### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>Maakt de app voor Teams verbinding met [!INCLUDE [prod_short.md](includes/prod_short.md)] on premises? 
 
-Nr. De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor teams werkt alleen met [!INCLUDE [prod_short.md](includes/prod_short.md)] online. Er zijn geen plannen om [!INCLUDE [prod_short.md](includes/prod_short.md)]-implementatietypen te ondersteunen&mdash;zoals on-premises, hybride cloud of privécloud&mdash;die Microsoft niet rechtstreeks host of beheert.
+Nee De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor teams werkt alleen met [!INCLUDE [prod_short.md](includes/prod_short.md)] online. Er zijn geen plannen om [!INCLUDE [prod_short.md](includes/prod_short.md)]-implementatietypen te ondersteunen&mdash;zoals on-premises, hybride cloud of privécloud&mdash;die Microsoft niet rechtstreeks host of beheert.
 
 ### <a name="does-the-app-work-with-multiple-companies-and-environments"></a>Werkt de app met meerdere bedrijven en omgevingen? 
 
@@ -86,7 +86,7 @@ Mobiele gebruikers worden aangemoedigd om zowel de mobiele app als de app voor T
 
 ### <a name="does-the-prod_shortmd-app-work-in-all-teams-clients"></a>Werkt de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in alle Teams-clients?
 
-Nr. De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams wordt niet ondersteund als deze is geïnstalleerd als pakket voor macOS of Linux. Op die platforms kunt u Teams in plaats daarvan openen met een ondersteunde browser.
+Nee De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams wordt niet ondersteund als deze is geïnstalleerd als pakket voor macOS of Linux. Op die platforms kunt u Teams in plaats daarvan openen met een ondersteunde browser.
 
 Voor minimumvereisten in [!INCLUDE [prod_short.md](includes/prod_short.md)] raadpleegt u [Minimumvereisten voor het gebruik van Business Central](product-requirements.md#teams).
 
@@ -145,6 +145,92 @@ Als u wilt deelnemen aan het verbeteren van de app voor Teams, of als u een idee
 
 Voor functionaliteit in de webclient die linkt naar Teams, zie [Records en paginakoppelingen delen in Microsoft Teams](across-working-with-teams.md#share-link).
 
+## <a name="business-central-tabs"></a>[Business Central-tabbladen](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Wie kan de inhoud van een tabblad zien?
+
+Elke persoon in uw chat of kanaal die:
+
+1. de Business Central-app voor Teams heeft geïnstalleerd.
+2. een Business Central-licentie heeft of toegang heeft tot Business Central met zijn of haar Microsoft 365-licentie.
+3. machtigingen heeft om de gegevens op de pagina te bekijken.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>Waar komt de aanbevolen inhoud vandaan?
+
+De aanbevolen inhoud waaruit u kunt kiezen in de optie **Tabbladinhoud** op een tabblad is gebaseerd op uw Rolcentrum. De aanbevolen inhoud bevat alleen lijstpagina's, zoals Klanten, Verkooporders en Leveranciers - geen individuele kaartpagina zoals een specifieke klant of leverancier.
+
+De aanbevolen inhoud omvat met name:
+
+- Acties in het bovenste navigatiemenu van het rolcentrum
+- Alle lijstpagina's waarvoor u een bladwijzer hebt gemaakt.
+- Als een lijstpagina verschillende weergaven biedt, inclusief alle weergaven die u hebt gemaakt, kunt u ook uit die weergaven kiezen
+
+U kunt lijstpagina's toevoegen aan de aanbevolen inhoud door bladwijzers toe te voegen. U kunt aanbevolen inhoud ook verwijderen door bladwijzers te verwijderen. Voor meer informatie over het toevoegen of verwijderen van bladwijzers, zie [Een bladwijzer maken voor een pagina of rapport in uw Rolcentrum](ui-bookmarks.md).
+
+Als u de omgeving of het bedrijf wijzigt op de tabbladoptie, wordt de aanbevolen inhoud gewijzigd op basis van het Rolcentrum en bladwijzers voor de omgeving en het bedrijf waarnaar u overschakelt.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Als ik een tabblad maak, verleent dit dan machtigingen aan de mensen in het kanaal of de chat?
+
+Nee. Het maken van tabbladen heeft geen invloed op de machtigingen en gebruikers moeten al toestemming hebben voor die gegevens wanneer ze het tabblad openen.
+
+### <a name="can-i-chat-alongside-a-tab"></a>Kan ik naast een tabblad chatten?
+
+Ja. Gebruik het chatpictogram om het gesprek te starten. Dit chatgesprek wordt dan gekoppeld aan het tabblad. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Als ik een tabblad uit een chat of kanaal verwijder, worden er dan Business Central-gegevens verwijderd?
+
+Nee
+
+### <a name="can-i-safely-rename-a-tab"></a>Kan ik de naam van een tabblad veilig wijzigen?
+
+Ja. De inhoud van het tabblad staat los van de werkelijke naam van het tabblad. Wijzig de naam wanneer u maar wilt! 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>Ik moet verschillende taken in verschillende vensters uitvoeren. Kan dat?
+
+Ja. U kunt het tabblad uitklappen naar een eigen browservenster om de Business Central-webclient weer te geven. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>Kan ik een tabblad toevoegen of vastzetten in Teams-vergaderingen?
+
+Nee De Business Central-app voor Teams ondersteunt geen tabbladen in vergaderingen.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Kan geen tabblad toevoegen bij gebruik van ISV-URL's, zoals *.bc.dynamics.com (maar kan wel vastzetten)
+
+Niet ondersteund.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Als ik dingen op het tabblad doe, zoals navigeren, opnieuw sorteren, een filter toepassen of zoeken, zien anderen dan mijn wijzigingen?
+
+Nee Alleen veldwijzigingen of actieve acties beïnvloeden hoe anderen de inhoud van het tabblad zien.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Wordt de inhoud van het tabblad automatisch vernieuwd? Zo niet, hoe vernieuw ik het dan?
+
+De inhoud wordt niet automatisch vernieuwd en op dit moment is er geen knop Vernieuwen. De beste manier om de inhoud te vernieuwen om er zeker van te zijn dat deze up-to-date is, is het tabblad sluiten en dan opnieuw openen. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Worden lijsten en records van mijn aanpassingen en add-ons weergegeven?
+
+Ja. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Als ik een tabblad toevoeg, zien mensen dit dan in mijn taal?
+
+Nee Elke gebruiker bekijkt de tabbladinhoud in de taal-, regio- en tijdzone-instellingen van Business Central. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Kan ik meerdere tabbladen naar verschillende inhoud laten verwijzen?
+
+Ja.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Kan ik ook tabbladen toevoegen om met één persoon te chatten?
+
+Ja, zolang de chat geen concept is (dat wil zeggen dat er geen bericht is verzonden om die chat te starten) en de andere persoon ook de Business Central-app heeft geïnstalleerd.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>Kan ik binnen een tabblad van bedrijf wisselen?
+
+Nee 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Is dit anders dan het gebruik van de algemene mogelijkheid van Teams om een tabblad te maken waarop een website wordt gehost?
+
+Ja. We raden het u niet aan om die benadering te kiezen. In veel gevallen werkt het niet voor Business Central.
+
 ## <a name="search-for-contacts"></a>[Contacten zoeken](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>In welke tabellen zoekt de app?
@@ -153,9 +239,10 @@ Bij het zoeken naar contacten vanuit de [!INCLUDE [prod_short.md](includes/prod_
 
 ### <a name="which-fields-in-the-contacts-table-can-i-search"></a>Welke velden in de contactentabel kan ik zoeken?
 
-Terwijl u uw zoektermen in het zoekvak typt, worden de termen vergeleken met de meeste velden in de tabel **Contacten**. De velden omvatten bijvoorbeeld de velden **Nr.**, **Naam**, **Adres**, **Telefoonnr.** of **Mobiel telefoonnr.** en **E-mail**. 
+Terwijl u uw zoektermen in het zoekvak typt, worden de termen vergeleken met de meeste velden in de tabel **Contacten**. De velden omvatten bijvoorbeeld de velden **Nee**, **Naam**, **Adres**, **TelefoonNee** of **Mobiel telefoonNee** en **E-mail**. 
 
 Zoektermen komen niet overeen met aangepaste velden die zijn toegevoegd aan de tabel **Contacten** door apps en extensies.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>Bevatten zoekresultaten bedrijven en personen?
 
 Ja. In [!INCLUDE [prod_short.md](includes/prod_short.md)] kunnen contacten van het type **Bedrijf** of **Persoon** zijn, waarbij een of meer personen aan een bedrijf kunnen zijn verbonden. In de zoekresultaten hebben bedrijven en personen verschillende pictogrammen.
@@ -283,7 +370,7 @@ Nee. Hoewel iedereen in de chat of vergadering de kaart zelf kan zien, verschijn
 
 ### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Kan ik een Teams-gesprek starten vanuit het detailvenster in Teams?
 
-Ja. Als u de Teams-desktopapp gebruikt, start u een gesprek door het gekoppelde nummer te kiezen in een telefoonnummerveld, zoals het veld **Mobiel telefoonnr.** op de kaart **Contact**. Teams moet uw aangewezen belapp zijn.
+Ja. Als u de Teams-desktopapp gebruikt, start u een gesprek door het gekoppelde nummer te kiezen in een telefoonnummerveld, zoals het veld **Mobiel telefoonNee** op de kaart **Contact**. Teams moet uw aangewezen belapp zijn.
 
 Als u vanuit Teams lokale of internationale vaste lijnen en mobiele telefoons wilt bellen, vereist Teams dat u een Business Voice-licentie hebt voor zakelijk bellen. Ook moet u Teams instellen als uw gespreksoplossing. Zie voor meer informatie [Uw Teams-spraakoplossing plannen](/microsoftteams/cloud-voice-landing-page) in de Teams-documentatie.
 
