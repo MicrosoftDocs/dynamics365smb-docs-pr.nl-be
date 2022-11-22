@@ -1,24 +1,24 @@
 ---
 title: Goedkeuringswerkstromen maken om taken te verbinden
-description: U kunt werkstromen maken die bedrijfsprocestaken die door verschillende gebruikers worden uitgevoerd, met elkaar verbinden, en systeemtaken, zoals automatisch boeken, als werkstroomstappen opnemen.
-author: SorenGP
+description: Leer hoe u werkstromen kunt maken om taken te verbinden die door verschillende mensen in bedrijfsprocessen worden uitgevoerd.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/08/2022
-ms.author: edupont
-ms.openlocfilehash: d2d9f3f91210b2a4d8d67890d01018565d8ef087
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 11/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9586012"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763280"
 ---
-# <a name="create-workflows-to-connect-business-process-tasks"></a>Werkstromen maken om zakelijke procestaken met elkaar te verbinden
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Werkstromen maken om taken in bedrijfsprocessen met elkaar te verbinden
 
-U kunt werkstromen maken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.  
+U kunt werkstromen maken om taken in bedrijfsprocessen te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.  
 
 Maak op de pagina **Werkstroom** een werkstroom door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurteniscondities, en een werkstroomantwoord met antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen met behulp van lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.  
 
@@ -73,6 +73,9 @@ Voor beide gebeurtenissen en reacties zijn de opties door het systeem gedefiniee
 
     1. Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het verzenden van een melding, vult u de velden in de volgende tabel in.  
 
+    > [!NOTE]
+    > Deze velden variëren, afhankelijk van het door u gekozen antwoord.
+
        |Veld|Omschrijving|
        |-----|-----------|
        |**Afzender informeren**|Geef op of de aanvrager van de goedkeuring op de hoogte wordt gebracht in plaats van de ontvanger van de goedkeuringsaanvraag. Als u het selectievakje inschakelt, wordt het veld **Gebruikers-id ontvanger** uitgeschakeld omdat de aanvrager van de goedkeuring, de afzender, wordt geïnformeerd in plaats van de ontvanger. De naam van de werkstroomreactie verandert dienovereenkomstig in **Maak een bericht voor &lt;afzender&gt;**. Als het selectievakje niet is ingeschakeld, is de naam van de werkstroomreactie **Maak een bericht voor &lt;gebruiker&gt;**.|
@@ -83,19 +86,19 @@ Voor beide gebeurtenissen en reacties zijn de opties door het systeem gedefiniee
 
     2. Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het maken van een goedkeuringsaanvraag, vult u de velden in de volgende tabel in.  
 
-        |Veld|Description|  
-        |-----|-----------|  
-        |**Formule van vervaldatum**|Geef het aantal dagen op waarbinnen de goedkeuringsaanvraag moet worden opgelost vanaf de datum waarop de aanvraag is verzonden.|
-        |**Delegeren na**|Geef op of en wanneer een goedkeuringsaanvraag automatisch aan de relevante vervanger wordt gedelegeerd. U kunt selecteren dat één, twee of, vijf dagen na de datum automatisch wordt gedelegeerd als de goedkeuring is aangevraagd.|
-        |**Soort fiatteur**|Geef op wie de fiatteur is, op basis van de instellingen voor goedkeuringsgebruikers en werkstroomgebruikers. Wanneer het veld is ingesteld op **Verkoper/Inkoper**, bepaalt de gebruiker die is ingesteld in het veld **Verkoper/inkoper** op de pagina **Gebruikersinstellingen voor goedkeuring**, de fiatteur. Goedkeuringsaanvragen worden vervolgens gemaakt op basis van de waarde in het veld **Limietsoort van fiatteur**. Meer informatie op [Goedkeuringsgebruikers instellen](across-how-to-set-up-workflow-users.md).|
-        |**Bevestigingsbericht tonen**|Geef aan of er een bevestigingsbericht aan gebruikers wordt weergegeven nadat ze een goedkeuring hebben aangevraagd.|
-        |**Limietsoort van fiatteur**|Geef op wat het effect is van goedkeuringslimieten van fiatteurs als posten voor goedkeuringsaanvragen voor hen worden gemaakt. Een gekwalificeerde fiatteur is een fiatteur met een goedkeuringslimiet die hoger is dan de waarde op de uitgevoerde aanvraag. De volgende opties zijn mogelijk: <ol><li>**Fiatteursketen** geeft aan dat posten voor goedkeuringsaanvragen worden gemaakt voor alle fiatteurs van de aanvrager tot en met de eerste gekwalificeerde fiatteur.</li><li>**Directe fiatteur** geeft aan dat een goedkeuringsaanvraagpost alleen wordt gemaakt voor de directe fiatteur van de aanvrager, ongeacht de goedkeuringslimiet van de fiatteur.</li><li>**Eerste gekwalificeerde fiatteur** geeft aan dat een goedkeuringsaanvraagpost alleen wordt gemaakt voor de eerste gekwalificeerde fiatteur van de aanvrager.</li></ol>|
+       |Veld|Description|  
+       |-----|-----------|  
+       |**Formule van vervaldatum**|Geef het aantal dagen op waarbinnen de goedkeuringsaanvraag moet worden opgelost vanaf de datum waarop de aanvraag is verzonden.|
+       |**Delegeren na**|Geef op of en wanneer een goedkeuringsaanvraag automatisch aan de relevante vervanger wordt gedelegeerd. U kunt selecteren dat één, twee of, vijf dagen na de datum automatisch wordt gedelegeerd als de goedkeuring is aangevraagd.|
+       |**Soort fiatteur**|Geef op wie de fiatteur is, op basis van de instellingen voor goedkeuringsgebruikers en werkstroomgebruikers. Wanneer het veld is ingesteld op **Verkoper/Inkoper**, bepaalt de gebruiker die is ingesteld in het veld **Verkoper/inkoper** op de pagina **Gebruikersinstellingen voor goedkeuring**, de fiatteur. Goedkeuringsaanvragen worden vervolgens gemaakt op basis van de waarde in het veld **Limietsoort van fiatteur**. Meer informatie op [Goedkeuringsgebruikers instellen](across-how-to-set-up-workflow-users.md).|
+       |**Bevestigingsbericht tonen**|Geef aan of er een bevestigingsbericht aan gebruikers wordt weergegeven nadat ze een goedkeuring hebben aangevraagd.|
+       |**Limietsoort van fiatteur**|Geef op wat het effect is van goedkeuringslimieten van fiatteurs als posten voor goedkeuringsaanvragen voor hen worden gemaakt. Een gekwalificeerde fiatteur is een fiatteur met een goedkeuringslimiet die hoger is dan de waarde op de uitgevoerde aanvraag. De volgende opties zijn mogelijk: <ol><li>**Fiatteursketen** geeft aan dat posten voor goedkeuringsaanvragen worden gemaakt voor alle fiatteurs van de aanvrager tot en met de eerste gekwalificeerde fiatteur.</li><li>**Directe fiatteur** geeft aan dat een goedkeuringsaanvraagpost alleen wordt gemaakt voor de directe fiatteur van de aanvrager, ongeacht de goedkeuringslimiet van de fiatteur.</li><li>**Eerste gekwalificeerde fiatteur** geeft aan dat een goedkeuringsaanvraagpost alleen wordt gemaakt voor de eerste gekwalificeerde fiatteur van de aanvrager.</li><li>**Specifieke fiatteur** geeft aan dat u de in het veld **Fiatteur-id** gekozen gebruiker op de hoogte stelt.</li></ol>|
     3. Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het maken van dagboekregels vult u de velden in de volgende tabel in.  
 
-        |Veld|Description|  
-        |-----|-----------|  
-        |**Sjabloonnaam van financieel dagboek**|Geef de naam op van de dagboeksjabloon die binnen de opgegeven dagboekregels worden gemaakt.|  
-        |**Batchnaam van financieel dagboek**|Geef de naam op van de dagboekbatch die binnen de opgegeven dagboekregels worden gemaakt.|  
+       |Veld|Description|  
+       |-----|-----------|  
+       |**Sjabloonnaam van financieel dagboek**|Geef de naam op van de dagboeksjabloon die binnen de opgegeven dagboekregels worden gemaakt.|  
+       |**Batchnaam van financieel dagboek**|Geef de naam op van de dagboekbatch die binnen de opgegeven dagboekregels worden gemaakt.|  
 
 11. Kies de knop **Inspringing vergroten** en **Inspringing verkleinen** om de gebeurtenisnaam in het veld **Als** in te laten springen om de positie van de stap in de werkstroom bepalen.  
 

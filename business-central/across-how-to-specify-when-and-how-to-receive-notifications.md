@@ -1,24 +1,25 @@
 ---
 title: Opgeven wanneer en hoe gebruikers werkstroomberichten ontvangen
 description: Wanneer u gebruikers instelt in goedkeuringswerkstromen, kunt u specificeren hoe en wanneer elke goedkeuringsgebruiker berichten ontvangt.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 663, 1500, 1512, 1513,
 ms.date: 09/09/2022
-ms.author: edupont
-ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.author: bholtorf
+ms.openlocfilehash: 74387ee5cb8581d8b8e1cce5c1d1c8850cd6c842
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585526"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763291"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Opgeven wanneer en hoe gebruikers werkstroomberichten ontvangen
 
-Wanneer u goedkeuringsgebruikers instelt in werkstromen waarin u wilt dat iemand wijzigingen goedkeurt, zoals wanneer nieuwe records worden gemaakt of wanneer iemand om goedkeuring vraagt, moet u specificeren hoe en wanneer de goedkeuringsgebruiker op de hoogte wordt gesteld. U kunt bijvoorbeeld opgeven dat een goedkeuringsgebruiker onmiddellijk een e-mail ontvangt wanneer iemand een nieuwe klant maakt. Als alternatief kunt u plannen dat de berichten bijvoorbeeld wekelijks of maandelijks worden vastgehouden en gezamenlijk worden bezorgd.
+Wanneer u goedkeuringsgebruikers instelt in werkstromen waarin u wilt dat iemand wijzigingen goedkeurt, zoals wanneer nieuwe records worden gemaakt of wanneer iemand om goedkeuring vraagt, moet u specificeren hoe en wanneer de goedkeuringsgebruiker op de hoogte moet worden gesteld. U kunt bijvoorbeeld opgeven dat een goedkeuringsgebruiker onmiddellijk een e-mail ontvangt wanneer iemand een nieuwe klant aanmaakt. Als alternatief kunt u plannen dat de berichten bijvoorbeeld wekelijks of maandelijks worden vastgehouden en gezamenlijk worden bezorgd.
 
 Gebruikers kunnen hun berichtinstellingen ook wijzigen door de knop **Berichtinstellingen wijzigen** voor een bericht te kiezen.  
 
@@ -38,10 +39,10 @@ In veel goedkeuringswerkstroomstappen wordt aan gebruikers gemeld dat er een geb
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de regel voor de gebruiker voor wie u berichtvoorkeuren wilt instellen. Kies vervolgens de actie **Berichtinstellingen**.  
-3. Vul op de pagina **Berichtinstellingen** de velden in, zoals is beschreven in de volgende tabel.  
+3. Vul op de pagina **Instelling van werkstroombericht** de velden in, zoals is beschreven in de volgende tabel.  
 
    > [!NOTE]
-   > Als u de pagina **Berichtinstellingen** opent vanaf de pagina **Gebruikersinstellingen voor goedkeuring**, wordt de berichtinstelling gekoppeld aan de goedkeuringsgebruiker. De goedkeuringsgebruiker ontvangt altijd werkstroomberichten volgens die berichtconfiguratie. Als u de functie *Vertel me* gebruikt om de pagina **Berichtinstellingen** te openen, is de berichtinstelling van toepassing op alle gebruikers.
+   > Als u de pagina **Instelling van werkstroombericht** opent vanaf de pagina **Gebruikersinstellingen voor goedkeuring**, wordt de berichtinstelling gekoppeld aan de goedkeuringsgebruiker. De goedkeuringsgebruiker ontvangt altijd werkstroomberichten volgens die berichtconfiguratie. Als u de functie *Vertel me* gebruikt om de pagina **Instelling van werkstroombericht** te openen, is de berichtinstelling van toepassing op alle gebruikers.
 
    |Veld|Omschrijving|
    |-----|-----------|
@@ -66,7 +67,7 @@ In veel goedkeuringswerkstroomstappen wordt aan gebruikers gemeld dat er een geb
 ## <a name="change-when-and-how-you-receive-notifications"></a>Wijzigen wanneer en hoe gebruikers berichten ontvangen
 
 1. Kies in een van de berichten die u hebt ontvangen, hetzij als e-mail hetzij als opmerking, **Berichtinstellingen wijzigen**.  
-2. Op de pagina **Berichtinstellingen** wijzigt u de berichtvoorkeuren zoals beschreven in de stappen 3-5 hierboven.
+2. Op de pagina **Instelling van werkstroombericht** wijzigt u de berichtvoorkeuren zoals beschreven in de stappen 3-5 hierboven.
    1. Bevestig dat het juiste bericht is gekozen onder het veld **Berichttype**.
    2. Kies of u een e-mail of opmerking wilt ontvangen onder het veld **Berichtmethode**.
    3. Selecteer de **Berichtplanning** om de frequentie en herhaling te wijzigen waarmee berichten worden verzonden.
