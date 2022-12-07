@@ -9,18 +9,19 @@ ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: f509c0a8bf5e9320eb0f2712863984221b7138b9
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
+ms.search.forms: 9061
+ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9745071"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804431"
 ---
-# <a name="set-up-access-with-microsoft-365-licenses"></a>Toegang met Microsoft 365-licenties instellen 
+# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Business Central-toegang in Teams met Microsoft 365-licenties instellen
 
-Beheerders moeten meerdere activiteiten voltooien voordat gebruikers Business Central kunnen gebruiken met hun Microsoft 365-licentie. De onderstaande stappen geven de minimale instellingen weer die nodig zijn om aan de slag te gaan.  
+Beheerders moeten meerdere activiteiten voltooien voordat gebruikers Business Central kunnen gebruiken met hun Microsoft 365-licentie. De onderstaande stappen geven de minimale instellingen weer die nodig zijn om aan de slag te gaan. Ga voor meer informatie over toegang met Microsoft 365-licenties naar [Business Central-toegang met Microsoft 365-licenties](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>De Business Central-app voor Teams implementeren 
+## <a name="deploy-the-business-central-app-for-teams"></a>De Business Central-app voor Teams implementeren
 
 Om als Business Central-licentiehouders gegevens te kunnen delen in Teams, en als Microsoft 365-licentiehouders toegang te krijgen tot die gegevens, moeten ze de Business Central-app voor Teams hebben geïnstalleerd. Hoewel gebruikers de app zelf kunnen installeren, wordt aanbevolen dat beheerders gecentraliseerde implementatie gebruiken. Met gecentraliseerde implementatie kunt u de app uitrollen naar een breder publiek in de hele organisatie en de inzet van individuele gebruikers tot een minimum beperken. 
 
@@ -43,8 +44,10 @@ Startmachtigingen configureren:
 3. Selecteer bovenaan de **Microsoft 365**-licentiepagina het bewerkingspictogram ![Bewerkingspictogram](media/edit-pencil.png) en schakel vervolgens **Machtigingen aanpassen** in. 
 4. Voeg in de sectie **Aangepaste machtigingensets** de juiste machtigingensets toe en kies of ze van toepassing zijn op een enkel bedrijf of alle bedrijven in de omgeving.
 
+Met deze configuratie worden gebruikers met alleen een Microsoft 365-licentie toegevoegd aan de lijst **Gebruikers** wanneer ze Business Central voor de eerste keer openen. Zie [Gebruikers maken volgens licenties](ui-how-users-permissions.md) voor meer informatie over gebruikers.
+
 > [!NOTE]
-> Bij het synchroniseren van de gebruikerslijst in Business Central met gebruikers in Microsoft 365, worden alleen gebruikers met een Business Central-licentie toegevoegd aan de gebruikerslijst van Business Central. Gebruikers met alleen een Microsoft 365-licentie worden toegevoegd aan de gebruikerslijst wanneer ze Business Central voor de eerste keer openen. Zie voor meer informatie [Gebruikers maken op basis van licenties](ui-how-users-permissions.md)
+> Bij het synchroniseren van de gebruikerslijst in Business Central met gebruikers in Microsoft 365, worden alleen gebruikers met een Business Central-licentie toegevoegd aan de gebruikerslijst van Business Central. Voor meer administratieve controle over machtigingen, gebruikersgroepen en profielen kunt u een beveiligingsgroep toewijzen aan de omgeving. Wanneer omgevingen zijn beveiligd met een beveiligingsgroep en toegang inschakelen met Microsoft 365-licenties, omvat de actie **Gebruikers bijwerken vanuit Microsoft 365** op de pagina **Gebruikers** ook gebruikers die alleen een Microsoft 365-licentie hebben. Zie [Toegang beheren met Azure Active Directory-groepen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in de Help voor ontwikkelaars en IT-professionals voor meer informatie over het beveiligen van omgevingen.
 
 > [!TIP]
 > Bent u op zoek naar een snellere manier om aan de slag te gaan bij het uitproberen van deze functie-sandbox of dit evaluatiebedrijf? Wijs de machtigingenset **D365 Lezen** toe, waarmee machtigingen worden verleend voor de meeste objecten.  
@@ -89,6 +92,6 @@ Om te controleren of uw installatie klaar is voor productie, zullen de volgende 
 
 ## <a name="see-also"></a>Zie ook
 
-[Toegang tot Business Central met Microsoft 365-licenties](admin-access-with-m365-license.md#minimum-requirements)  
+[Overzicht van toegang tot Business Central met Microsoft 365-licenties](admin-access-with-m365-license.md#minimum-requirements)  
 [Problemen met toegang met Microsoft 365-licenties oplossen](admin-access-with-m365-license-troubleshooting.md)  
 [Integratie van Business Central en Microsoft Teams](across-teams-overview.md)  

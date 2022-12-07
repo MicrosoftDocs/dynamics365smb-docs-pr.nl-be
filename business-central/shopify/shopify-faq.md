@@ -6,12 +6,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 93c30d401cd5b9f689f757621b12a09dfd73b4b4
-ms.sourcegitcommit: 902da19b0ab7a3fbc051cd69ab2802f30d0f378f
+ms.openlocfilehash: 534b4aa47820bc3738a8ffc22a02151efef64863
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/01/2022
-ms.locfileid: "9213675"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802915"
 ---
 # <a name="faq-for-technical-details"></a>Veelgestelde vragen voor technische details
 
@@ -25,6 +25,29 @@ Shopify is op abonnementen gebaseerde software waarmee iedereen een online winke
 
 Met de Shopify-connector kunnen bedrijven hun Shopify winkel (of winkels) aan [!INCLUDE[prod_short](../includes/prod_short.md)] koppelen om de bedrijfsproductiviteit te maximaliseren. Met de Shopify-connector kunnen ze inzichten uit hun bedrijf en online Shopify-winkel als één eenheid bekijken en beheren. 
 
+### <a name="capabilities"></a>Mogelijkheden
+
+- Ondersteuning voor meer dan één Shopify-winkel
+  - Elke winkel heeft zijn eigen opzet, waaronder een verzameling producten, locaties die worden gebruikt om de voorraad te berekenen en prijslijsten.  
+- Bidirectionele synchronisatie van artikelen of producten
+  - De connector synchroniseert afbeeldingen, artikelvarianten, streepjescodes, artikelnummers van leveranciers, uitgebreide teksten en tags.  
+  - Artikelkenmerken exporteren naar Shopify.  
+  - Gebruik geselecteerde klantprijsgroepen en kortingen om prijzen te definiëren die worden geëxporteerd naar Shopify.  
+  - Bepaal of items automatisch kunnen worden gemaakt of alleen updates van bestaande producten toestaan.  
+- Synchronisatie van voorraadniveaus
+  - Kies enkele of alle beschikbare locaties in [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  - Werk voorraadniveaus op meerdere locaties bij in Shopify.  
+- Bidirectionele synchronisatie van klanten
+  - Wijs klanten slim toe per telefoon en e-mail.  
+  - Gebruik landspecifieke sjablonen bij het maken van klanten, zodat u zeker weet dat de belastinginstellingen correct zijn.  
+- Importeren van bestellingen uit Shopify
+  - Voeg bestellingen toe die zijn gemaakt in verschillende verkoopkanalen, zoals een online winkel of **Shopify POS**. 
+  - Verzendkosten, cadeaubonnen, fooien, verzend- en betaalmethoden, transacties en risico op fraude.  
+  - Tijdens het importeren kunt u automatisch klanten maken in [!INCLUDE [prod_short](../includes/prod_short.md)] of besluiten de klanten te beheren in Shopify.  
+  - Uitbetalingsinformatie ontvangen van Shopify Payments. 
+- Afhandelingsinformatie volgen
+  - Kies er optioneel voor om trackinginformatie uit [!INCLUDE [prod_short](../includes/prod_short.md)] over te dragen naar Shopify.  
+
 ## <a name="why-did-microsoft-and-shopify-form-this-partnership"></a>Waarom hebben Microsoft en Shopify deze samenwerking gecreëerd? 
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] werkt samen met Shopify om onze klanten te helpen een betere winkelervaring te creëren. Shopify biedt handelaren een eenvoudige handelsoplossing en [!INCLUDE[prod_short](../includes/prod_short.md)] is een alles-in-één oplossing voor bedrijfsmanagement waarmee bedrijven hun financiën, verkoop, service en activiteiten kunnen beheren in één toepassing. Naadloze verbinding tussen de twee systemen synchroniseert orders, voorraad en klantinformatie om ervoor te zorgen dat verkopers orders sneller kunnen uitvoeren en klanten beter kunnen bedienen.
@@ -37,19 +60,34 @@ De Shopify-connector werkt niet voor [App insluiten](/dynamics365/business-centr
 
 ## <a name="what-support-is-offered-for-the-shopify-connector"></a>Welke ondersteuning wordt geboden voor de Shopify-connector?
 
+### [!INCLUDE[prod_short](../includes/prod_short.md)]
+
 De Shopify-connector valt onder het huidige ondersteuningsmodel. Zie voor meer informatie [Technische ondersteuning](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (alleen in het Engels). 
 
-U krijgt hulp met Shopify door te beginnen met [Algemeen Shopify Helpcentrum](https://help.shopify.com/) of [24/7 ondersteuning voor uw winkel als een Shopify-handelaar](https://help.shopify.com/questions#/).
+Krijg hulp van een consultant die de Shopify-connector voor [!INCLUDE[prod_short](../includes/prod_short.md)] kent, om aan uw unieke bedrijfsspecifieke vereisten te voldoen.
+ 
+Zoek in [Adviesdiensten](https://aka.ms/BCShopifyConsultant).
+
+### <a name="shopify"></a>Shopify
+
+U krijgt hulp met Shopify door te beginnen met [Algemeen Shopify Helpcentrum](https://help.shopify.com/) of [24/7 ondersteuning voor uw winkel als een Shopify-handelaar](https://help.shopify.com/questions#/). 
+
+U kunt ook de [Experts Marketplace](https://experts.shopify.com/) verkennen om de juiste experts te vinden die diensten aanbieden voor Shopify-verkopers.
+
+## <a name="currently-not-supported-features-however-were-tracking-them-and-may-consider-adding-them-in-the-future"></a>Functies die momenteel niet worden ondersteund, houden we echter bij en kunnen overwegen ze in de toekomst toe te voegen:
+
+- B2B-functies, waaronder Bedrijven, prijslijsten van bedrijven, betalingsvoorwaarden
+- Markten
+  - Meerdere vertalingen van hoofdgegevens. U kunt één taal kiezen die wordt gebruikt voor het exporteren van productinformatie.
+  - Prijzen per land/regio. Er is één prijslijst beschikbaar voor de geselecteerde valuta. De conversie naar andere valuta's wordt afgehandeld door Shopify.
 
 ## <a name="is-the-shopify-connector-extensible"></a>Is de Shopify-connector uitbreidbaar?
 
-Momenteel is deze app niet uitbreidbaar met plannen om het op een bepaald moment (nog niet bepaald) in de toekomst uitbreidbaar te maken.
+Momenteel is deze app niet uitbreidbaar met plannen om deze in 2023 uitbreidbaar te maken. 
 
 ## <a name="is-the-shopify-connector-open-for-contribution"></a>Staat de Shopify-connector open voor bijdragen?
 
 Ja, deze extensie staat open voor bijdragen van de community. U vindt de [broncode](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) in de opslagplaats voor add-ons voor Microsoft AL-toepassingen.
-
-
 
 
 ## <a name="see-also"></a>Zie ook

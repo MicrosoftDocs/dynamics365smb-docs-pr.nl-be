@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: a14e81932ab2cc02c691d6dfe8a9a1c4fe326410
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728396"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802969"
 ---
 # <a name="synchronize-items-and-inventory"></a>Artikelen en voorraad synchroniseren
 
@@ -64,8 +64,8 @@ De volgende tabel geeft een overzicht van de verschillen tussen de opties in het
 |**Artikelnr.**|Kies dit als de SKU het artikelnummer bevat|Geen effect op het maken van een artikel zonder varianten. Voor een artikel met varianten wordt elke variant als een apart artikel gemaakt.<br>Als Shopify dus een product heeft met twee varianten en hun SKU's zijn '1000' en '2000', worden in [!INCLUDE[prod_short](../includes/prod_short.md)] twee artikelen gemaakt met de nummers '1000' en '2000'.|
 |**Variant**|Het veld SKU wordt niet gebruikt in de routine voor artikeltoewijzing.|Geen effect op het maken van het artikel. Wanneer een artikelvariant wordt gemaakt, wordt de waarde van het veld SKU gebruikt als een code. Als de SKU leeg is, wordt een code gegenereerd met behulp van het veld **Prefix voor variant**.|
 |**Artikelnr. + variant**|Selecteer dit als het SKU-veld een artikelnummer bevat en de artikelvariantcode wordt gescheiden door de waarde die is gedefinieerd in het veld **SKU-veldscheidingsteken**.|Wanneer een artikel wordt gemaakt, wordt het eerste deel van de waarde van het SKU-veld aangeduid als **Nr.** Als het veld SKU leeg is, wordt een artikelnummer gegenereerd met behulp van nummerreeksen gedefinieerd in het veld **Artikelsjablooncode** of **Artikelnummers** van de pagina **Voorraadinstellingen**.<br>Wanneer een artikel wordt gemaakt, gebruikt de variantfunctie het tweede deel van de waarde van het SKU-veld als **Code**. Als het veld SKU leeg is, wordt een code gegenereerd met behulp van het veld **Prefix voor variant**.|
-|**Artikelnr. van leverancier**|Kies dit als het veld SKU het leveranciersartikelnummer bevat. In dit geval wordt het veld **Artikelnr. leverancier** niet gebruikt op de pagina **Artikelkaart**, maar wordt het **Artikelnr. van leverancier** uit de **Artikel-/leverancierscatalogus** gebruikt. Als de gevonden *Artikel-/leverancierscatalogus*-record een variantcode bevat, wordt die variantcode gebruikt om de Shopify-variant toe te wijzen.|Als er een corresponderende leverancier bestaat in [!INCLUDE[prod_short](../includes/prod_short.md)], wordt de SKU-waarde gebruikt als het **Artikelnr. leverancier** op de pagina **Artikelkaart** en als de **Artikelreferentie** van het leverancierstype. <br>Voorkomt het maken van varianten. Dit is handig wanneer u alleen het hoofdartikel in de verkooporder wilt gebruiken. U kunt nog steeds handmatig een variant toewijzen vanaf de pagina **Shopify-product**.|
-|**Barcode**|Kies dit als het SKU-veld een barcode bevat. Er wordt gezocht onder **Artikelreferenties** van het type Leverancier. Als de gevonden artikelreferentierecord een variantcode bevat, wordt deze variantcode gebruikt om de Shopify-variant toe te wijzen.|Geen effect op het maken van het artikel. <br>Voorkomt het maken van varianten. Dit is handig wanneer u alleen het hoofdartikel in de verkooporder wilt gebruiken. U kunt nog steeds handmatig een variant toewijzen vanaf de pagina **Shopify-product**.|
+|**Artikelnr. van leverancier**|Kies dit als het veld SKU het leveranciersartikelnummer bevat. In dit geval wordt het veld **Artikelnr. leverancier** niet gebruikt op de pagina **Artikelkaart**, maar wordt het **Artikelnr. van leverancier** uit de **Artikel-/leverancierscatalogus** gebruikt. Als de gevonden *Artikel-/leverancierscatalogus*-record een variantcode bevat, wordt die variantcode gebruikt om de Shopify-variant toe te wijzen.|Als er een corresponderende leverancier bestaat in [!INCLUDE[prod_short](../includes/prod_short.md)], wordt de SKU-waarde gebruikt als het **Artikelnr. van leverancier** op de pagina **Artikelkaart** en als de **Artikelreferentie** van het type *leverancier*. <br>Voorkomt het maken van varianten. Dit is handig wanneer u alleen het hoofdartikel in de verkooporder wilt gebruiken. U kunt nog steeds handmatig een variant toewijzen vanaf de pagina **Shopify-product**.|
+|**Barcode**|Kies dit als het SKU-veld een barcode bevat. Er wordt gezocht onder **Artikelreferenties** van het type *streepjescode*. Als de gevonden artikelreferentierecord een variantcode bevat, wordt deze variantcode gebruikt om de Shopify-variant toe te wijzen.|Geen effect op het maken van het artikel. <br>Voorkomt het maken van varianten. Dit is handig wanneer u alleen het hoofdartikel in de verkooporder wilt gebruiken. U kunt nog steeds handmatig een variant toewijzen vanaf de pagina **Shopify-product**.|
 
 De volgende tabel geeft een overzicht van het effect van het veld **Barcode**.
 
@@ -238,9 +238,18 @@ U kunt afbeeldingssynchronisatie op de hieronder beschreven twee manieren initia
 
 ### <a name="inventory-remarks"></a>Opmerkingen over voorraad
 
-* De connector berekent de **Voorspelde beschikbare voorraad** en exporteert deze naar Shopify.
+* De connector berekent de **Voorspelde beschikbare voorraad** op de huidige datum en exporteert deze naar Shopify.
 * U kunt de voorraadinformatie inspecteren die u hebt ontvangen van Shopify op de pagina **Feitenblok Shopify-voorraad**. In dit feitenblok krijgt u een overzicht van de Shopify-voorraad en de laatst berekende voorraad in [!INCLUDE[prod_short](../includes/prod_short.md)]. Er is één record per vestiging.
 * Als de voorraadinformatie in Shopify verschilt van **Voorspelde beschikbare voorraad** in [!INCLUDE[prod_short](../includes/prod_short.md)], wordt de voorraad bijgewerkt in Shopify.
+
+#### <a name="example-of-calculation-of-projected-available-balance"></a>Voorbeeld van berekening van voorspeld beschikbaar saldo
+
+Er zijn tien stuks van artikel A beschikbaar en twee openstaande verkooporders. Eén voor maandag met aantal *Eén* en één voor donderdag met aantal *Twee*. Afhankelijk van wanneer u de voorraad synchroniseert, werkt het systeem het voorraadniveau in Shopify bij met verschillende hoeveelheden:
+
+|Wanneer voorraadsynchronisatie wordt uitgevoerd|Waarde gebruikt om het voorraadniveau bij te werken|Opmerking|
+|------|-----------------|-----------------|
+|Dinsdag|9|Voorraad tien minus verkooporder ingesteld op verzending op maandag|
+|Vrijdag|7|Voorraad tien minus beide verkooporders|
 
 ## <a name="see-also"></a>Zie ook
 

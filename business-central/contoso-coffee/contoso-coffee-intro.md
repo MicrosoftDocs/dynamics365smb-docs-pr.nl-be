@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362119"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788260"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Inleiding tot de demogegevens voor Contoso Coffee
 
@@ -26,13 +26,13 @@ De app biedt vier producten die zijn geoptimaliseerd voor verschillende scenario
 
 - **SP-SCM1011 Airpot Duo**  
 
-  Dit product vereist het traceren van artikelen en heeft een onderdeel dat eveneens artikeltracering vereist. De waarderingsmethode is *Speciaal*.  
+  Dit product vereist het traceren van artikelen en heeft een onderdeel dat eveneens artikeltracering vereist. De waarderingsmethode is *Specifiek*.  
 
 - **SP-SCM1004 Autodrip**  
 
   Dit product is een stuklijst met een subassemblage, **Bewerkingsplan**. We adviseren om de verschillende spoelmethoden voor zowel componenten als bewerkingen te demonstreren. De waarderingsmethode is *Standaard*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
   Dit product heeft drie varianten en drie stuklijsten (BOM's) die kunnen worden toegewezen aan SKU's. Het product maakt gebruik van het concept van phantom-stuklijsten. De waarderingsmethode is *Standaard*.
 

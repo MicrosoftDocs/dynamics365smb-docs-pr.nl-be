@@ -8,18 +8,22 @@ ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 3
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2e79d19fd2fd03ec245c020cb9004809bccb5ec4
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728342"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802943"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Verkooporders synchroniseren en uitvoeren
 
 In dit artikel worden de benodigde instellingen en stappen beschreven die u moet uitvoeren om verkooporders te synchroniseren en af te handelen met Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>De import van orders instellen op de Shopify-winkelkaart
+
+Voer een **Valutacode** in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDE[prod_short](../includes/prod_short.md)], laat u het veld leeg. 
+
+U kunt winkelvaluta zien in de [Winkelgegevens](https://www.shopify.com/admin/settings/general)-instellingen in uw Shopify-beheer. Shopify kan worden geconfigureerd om verschillende valuta's te accepteren, maar in [!INCLUDE[prod_short](../includes/prod_short.md)] geïmporteerde orders gebruiken de winkelvaluta.
 
 Een normale Shopify-order kan kosten bevatten naast het subtotaal, zoals verzendkosten of, indien ingeschakeld, fooien. Deze bedragen worden direct geboekt op de grootboekrekening die u wilt gebruiken voor specifieke transactiesoorten:
 
@@ -80,7 +84,7 @@ U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie vo
 
 ## <a name="review-imported-orders"></a>Geïmporteerde bestellingen bekijken
 
-Zodra het importeren is voltooid, kunt u de Shopify-order verkennen en alle gerelateerde informatie zoeken, zoals de betalingstransacties, verzendkosten, risiconiveau en afhandelingen, als de order al is afgehandeld in Shopify. U kunt ook een orderbevestiging zien die naar de klant is verzonden door de actie **Shopify-statuspagina** te kiezen.
+Zodra het importeren is voltooid, kunt u de Shopify-order verkennen en alle gerelateerde informatie zoeken, zoals de betalingstransacties, verzendkosten, risiconiveau, orderkenmerken en -tags of afhandelingen, als de order al is afgehandeld in Shopify. U kunt ook een orderbevestiging zien die naar de klant is verzonden door de actie **Shopify-statuspagina** te kiezen.
 
 > [!NOTE]  
 > U kunt rechtstreeks navigeren naar het venster **Shopify-orders** en u ziet dan orders met de status *Geopend* van alle winkels. Om voltooide orders te bekijken moet u de pagina **Shopify-orders** openen vanuit het specifieke **Shopify-winkelkaart** venster.
@@ -132,6 +136,7 @@ In Shopify:
 |Bewerken|Impact|
 |------|-----------|
 |De afhandelingslocatie wijzigen | De oorspronkelijke locatie wordt gesynchroniseerd met [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|De afhandelingslocatie wijzigen en afhandeling registreren in Shopify| Als de order al is geïmporteerd, worden regels niet bijgewerkt. Anders gebruikt de geïmporteerde order de afhandelingslocatie. |
 |Een order bewerken en de hoeveelheid wijzigen| De orderkop en de aanvullende tabellen worden bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], regels niet. |
 |Een order bewerken en een nieuw artikel toevoegen | De orderkop wordt bijgewerkt, de regels niet. |
 

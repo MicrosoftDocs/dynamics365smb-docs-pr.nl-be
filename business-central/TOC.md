@@ -21,6 +21,7 @@
 #### [Procedure: picken en verzenden in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Procedure: Cashflowprognoses maken met behulp van financiële rapporten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Procedure: De Shopify-connector instellen en gebruiken](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Demogegevens van Contoso Coffee voor productie
 #### [Inleiding tot de demogegevens voor Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
@@ -671,6 +672,7 @@
 <!--Shopify-->
 ## Online winkel met Shopify
 ### [Aan de slag met de Shopify-connector](shopify/get-started.md)
+#### [Een Shopify-account maken en instellen](shopify/shopify-account.md)
 ### [Artikelen synchroniseren met Shopify](shopify/synchronize-items.md)
 ### [Klanten synchroniseren met Shopify](shopify/synchronize-customers.md)
 ### [Verkooporders synchroniseren en afhandelen met Shopify](shopify/synchronize-orders.md)
@@ -679,6 +681,7 @@
 ### [Taken op de achtergrond uitvoeren](shopify/background.md)
 ### [Problemen oplossen met de Shopify-connector](shopify/troubleshoot.md)
 ### [Veelgestelde vragen voor de Shopify-connector](shopify/shopify-faq.md)
+### [Procedure: De Shopify-connector instellen en gebruiken](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Bedrijfshub
@@ -1789,7 +1792,7 @@
 #### [Overzicht](admin-access-with-m365-license.md)
 #### [Toegang met Microsoft 365-licenties instellen](admin-access-with-m365-license-setup.md)
 #### [Gebruikerstoegangsstroom](admin-access-with-m365-license-flow.md)
-<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Veelgestelde vragen](admin-access-with-m365-license-faq.md)
 #### [Problemen oplossen](admin-access-with-m365-license-troubleshooting.md) 
 ### [Profielen beheren](admin-users-profiles-roles.md)
 ### [Gebruikersinstellingen en voorkeuren beheren](admin-manage-user-settings-preferences.md)
