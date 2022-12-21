@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
-ms.date: 07/08/2022
+ms.date: 12/01/2022
 ms.author: bholtorf
-ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
+ms.openlocfilehash: d401e6d9a0b8fb4f05bcc379322b2f81bfc03c57
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617924"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822427"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Berekeningen en boekingsmethoden voor btw instellen
 
@@ -234,6 +234,11 @@ Om op de juiste wijze btw op verkopen aan EU-landen/regio's te berekenen, moet u
 * De btw-bedrijfsboekingsgroepen toewijzen in het veld **Btw-bedrijfsboekingsgroep** op het sneltabblad **Facturering** van de klantenkaart van elke leverancier van de EU. U moet het u btw-nummer van de klant invoeren in het veld **Btw-nummer** op het sneltabblad **Buitenlandse handel**.  
 
 Wanneer u een verkoop aan een klant in een ander EU-land/-regio boekt, wordt het btw-bedrag berekend en wordt een btw-post gemaakt met de informatie over de btw-verlegging en het btw-basisbedrag (het bedrag dat gebruikt wordt om het btw-bedrag te berekenen). In het grootboek worden geen posten naar de btw-rekeningen geboekt.
+
+Als u een combinatie van btw-bedrijfsboekingsgroep en btw-productboekingsgroep wilt gebruiken voor rapportage als services in de periodieke btw-rapporten, schakelt u het veld **EU-service** in.
+
+> [!NOTE]  
+> Het veld **EU-service** is alleen van toepassing op btw-rapporten. Het veld is niet gerelateerd aan de functies **Servicedeclaratie** of **Intrastat voor services**.
 
 ## <a name="vat-rounding-for-documents"></a>Btw-afronding voor documenten
 

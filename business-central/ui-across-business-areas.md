@@ -1,21 +1,19 @@
 ---
 title: Algemene functionaliteit gebruiken in bedrijfsgebieden
 description: Meer informatie over de functionaliteit en functies die worden gebruikt in bedrijfsgebieden in Business Central.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 09/19/2022
-ms.author: edupont
-ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 12/01/2022
+ms.custom: bap-template
+ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605913"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822504"
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
 
@@ -43,7 +41,8 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar arti
 |Meerdere verkoop- of inkoopdocumenten samen boeken, onmiddellijk of zoals gepland.|[Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md)|  
 |Bekijk het resultaat van de boeking voordat u boekt.|[Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md)|
 |Bewerk geselecteerde velden in geboekte verkoop- of inkoopdocumenten.|[Geboekte documenten bewerken](across-edit-posted-document.md)|
-| Begrijp de beschikbare status voor offertes, orders en creditnotadocumenten, zoals **Open** en **Vrijgegeven** | [Statusveld in documenten](ui-document-status.md) |
+|Leer hoe u documenten en posten kunt vinden die aan elkaar gerelateerd zijn op basis van een document, contact of artikelgegevens. | [Gerelateerde posten zoeken voor documenten](ui-find-entries.md) |
+|Begrijp de beschikbare status voor offertes, orders en creditnotadocumenten, zoals **Open** en **Vrijgegeven** | [Statusveld in documenten](ui-document-status.md) |
 |Leer meer over het werken met dagboeken die worden gebruikt voor boeking naar grootboekrekeningen en andere rekeningen, zoals bank-, klant-, leveranciers- en VA-rekeningen. |[Werken met diversendagboeken](ui-work-general-journals.md) |
 | Plan een rapport voor uitvoering op een bepaalde datum en tijd. |[Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport) |
 |Laat het systeem u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren.|[Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)|
