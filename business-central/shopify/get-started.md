@@ -5,23 +5,18 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
-ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
+ms.search.form: '30100, 30101, 30102, 30103, 30104, 30135,'
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: bc3c5769a100909faedbfacce58bb1a2b146f5ad
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802996"
 ---
-# <a name="get-started-with-the-shopify-connector"></a>Aan de slag met de Shopify-connector
+
+# Aan de slag met de Shopify-connector
 
 Verbind uw Shopify-winkel (of -winkels) met [!INCLUDE [prod_short](../includes/prod_short.md)] en maximaliseer de productiviteit van uw bedrijf. Beheer en bekijk inzichten van uw bedrijf en uw Shopify-winkel als één geheel.
 
 Als u Shopify wilt gebruiken met [!INCLUDE [prod_short](../includes/prod_short.md)], moet u eerst een paar dingen doen. Dit artikel dient als een gids om uw Shopify-winkel te integreren met [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-## <a name="prerequisites-for-shopify"></a>Vereisten voor Shopify
+## Vereisten voor Shopify
 
 U moet over het volgende beschikken:
 
@@ -30,7 +25,7 @@ U moet over het volgende beschikken:
 
 Meer informatie over het maken van Shopify-proefversies en aanbevolen instellingen vindt u op [Shopify-account maken en instellen](shopify-account.md).
 
-## <a name="prerequisites-for-business-central"></a>Vereisten voor Business Central
+## Vereisten voor Business Central
 
 - Zorg ervoor dat de app **[Shopify-connector](https://go.microsoft.com/fwlink/?linkid=2196238)** is geïnstalleerd.
 
@@ -39,7 +34,7 @@ Meer informatie over het maken van Shopify-proefversies en aanbevolen instelling
 - Zorg ervoor dat de gebruiker voldoende machtigingen heeft. Shopify-connector valt onder de machtigingenset *Shopify – beheer (SHPFY – ADMIN)*. Lees meer op [Gebruikers maken volgens licenties](../ui-how-users-permissions.md) en [Machtigingen toewijzen aan gebruikers en groepen](../ui-define-granular-permissions.md)
 
 
-## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store"></a>De Dynamics 365 Business Central-app installeren in uw online Shopify-winkel
+## De Dynamics 365 Business Central-app installeren in uw online Shopify-winkel
 
 Voor bestaande [!INCLUDE[prod_short](../includes/prod_short.md)] is stap optioneel en kan deze worden overgeslagen.
 
@@ -51,7 +46,7 @@ Voor bestaande [!INCLUDE[prod_short](../includes/prod_short.md)] is stap optione
 4. Kies **Nu aanmelden** om de [!INCLUDE[prod_short](../includes/prod_short.md)]-proef te starten of kies **Aanmelden** als u [!INCLUDE[prod_short](../includes/prod_short.md)] al hebt. U wordt omgeleid naar uw pagina [Business Central](https://businesscentral.dynamics.com).
 5. De volgende stappen moeten worden gedaan in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="connect-business-central-to-the-shopify-online-store"></a>Business Central verbinden met de online Shopify-winkel
+## Business Central verbinden met de online Shopify-winkel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.  
@@ -62,14 +57,14 @@ Voor bestaande [!INCLUDE[prod_short](../includes/prod_short.md)] is stap optione
 
 Herhaal stap 2-6 voor alle webshops die u wilt verbinden.
 
-### <a name="known-issues"></a>Bekende problemen
+### Bekende problemen
 
 - De browser blokkeert het pop-upvenster. Wanneer u de schakelaar **Geactiveerd** inschakelt, opent het systeem de pagina **Wachten op een reactie. Sluit deze pagina niet**, die wacht op een toegangstoken van Shopify. Als die pagina is gesloten of geblokkeerd, kunt u geen verbinding maken met Shopify. Meer informatie op [Om het toegangstoken verzoeken](troubleshoot.md#request-the-access-token)
 - [Oauth-fout invalid_request: Kan Shopify API-toepassing niet vinden met api_key](troubleshoot.md#oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
 - [Kan geen verbinding maken vanuit sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
 
 
-## <a name="next-steps"></a>Volgende stappen
+## Volgende stappen
 
 Nu is uw online winkel verbonden met [!INCLUDE[prod_short](../includes/prod_short.md)]. In de volgende stappen definieert u hoe en wat u wilt synchroniseren.
 
@@ -77,7 +72,7 @@ Nu is uw online winkel verbonden met [!INCLUDE[prod_short](../includes/prod_shor
 - [Klanten synchroniseren](synchronize-customers.md)
 - [Orders synchroniseren](synchronize-orders.md)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Procedure: Shopify-connector instellen en gebruiken](walkthrough-setting-up-and-using-shopify.md)  
 

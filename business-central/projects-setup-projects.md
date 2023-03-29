@@ -1,23 +1,17 @@
 ---
-title: Resources, urenstaten en taken instellen
-description: In dit onderwerp wordt beschreven hoe u resources, urenstaten en taken instelt om projecten en hun budgetten te beheren.
+title: 'Resources, urenstaten en taken instellen'
+description: 'In dit onderwerp wordt beschreven hoe u resources, urenstaten en taken instelt om projecten en hun budgetten te beheren.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
+ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2f238da69365edcdd797f00e62e6d766b00feec7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522732"
 ---
-# <a name="setting-up-project-management"></a>Projectbeheer instellen
+# Projectbeheer instellen
 
 Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt gebruiken om projecten te beheren, moet u resources, urenstaten en projecten instellen.
 
@@ -32,7 +26,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Schakel resources in om tijdgebruik te rapporteren voor een persoon of een machine en schakel een beheerder in die het gebruik en de toewijzing ervan controleert. |[Urenstaten instellen](projects-how-setup-time-sheets.md) |
 | Maak projectkaarten en bereid projecttaken voor. Stel prijzen in voor projectartikelen en projectresources, en definieer projectboekingsgroepen. |[Projecten instellen](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Projecten beheren](projects-manage-projects.md)  
 [Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

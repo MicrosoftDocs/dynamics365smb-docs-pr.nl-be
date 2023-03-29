@@ -1,22 +1,16 @@
 ---
 title: 'Ontwerpdetails: verwachte kostenboeking'
-description: Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht artikel, die u vastlegt voordat u de factuur voor het artikel ontvangt.
+description: 'Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht artikel, die u vastlegt voordat u de factuur voor het artikel ontvangt.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: c2c3e7cd0e9f5ae88e63bd305927a20341e7559b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513108"
 ---
-# <a name="design-details-expected-cost-posting"></a>Ontwerpdetails: Verwachte kostenboeking
+# Ontwerpdetails: Verwachte kostenboeking
 Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht artikel, die u vastlegt voordat u de factuur voor het artikel ontvangt.  
 
  U kunt verwachte kosten boeken naar de voorraad en het grootboek. Wanneer u een aantal boekt dat alleen wordt ontvangen of verzonden, maar niet gefactureerd, wordt een waardepost gemaakt met de verwachte kosten. Deze verwachte kosten zijn van invloed op de voorraadwaarde, maar worden niet geboekt naar het grootboek, tenzij u het systeem hebt ingesteld om dit te doen.  
@@ -28,7 +22,7 @@ Verwachte kosten zijn de schatting van, bijvoorbeeld de kosten van een ingekocht
 
  Ter ondersteuning van reconciliatie en traceerbaarheid bevat de gefactureerde waardepost het verwachte kostenbedrag dat is geboekt om de interimrekeningen te vereffenen.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a>Vereisten voor het boeken van verwachte kosten
+## Vereisten voor het boeken van verwachte kosten
 
 Om verwachte kosten te kunnen boeken moet u het volgende doen:
 1. Selecteer op de pagina **Voorraadinstellingen** het selectievakje **Autom. voorraadwaarde boeken** en het selectievakje **Verw. kostprijs naar GB boeken**.
@@ -38,7 +32,7 @@ Om verwachte kosten te kunnen boeken moet u het volgende doen:
 3. Controleer op de pagina **Boekingsgroepinstellingen** het veld **Voorraadcorrectiesrek. (tussenrek.)** voor de **Bedrijfsboekingsgroep** en de **Prod.-boekingsgroep** die u gaat gebruiken.
 4. Wanneer u een inkooporder maakt, is de standaardinstelling dat het veld **Leveranciersfactuurnr** verplicht is. U moet dat uitschakelen op de pagina **Instellingen Inkoop en betalingen** door het veld **Extern documentnr. verplicht** uit te schakelen.
 
-## <a name="example"></a>Voorbeeld  
+## Voorbeeld  
 
 > [!NOTE]  
 > De rekeningnummers die in dit voorbeeld worden gebruikt, zijn alleen ter referentie en zullen in uw systeem anders zijn. Stel ze in zoals aangegeven in de vereisten hierboven.
@@ -91,7 +85,7 @@ U boekt een inkooporder als ontvangen. De verwachte kosten zijn LV 95,00.
 |15-01-20|Vereffeningsrekening directe kosten|7291|-100|6|  
 |15-01-20|Voorraadrekening|2130|100|5|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
  [Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)   
  [Ontwerpdetails: Reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md)   

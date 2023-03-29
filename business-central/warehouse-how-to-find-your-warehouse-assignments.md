@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513301"
 ---
-# <a name="find-your-warehouse-assignments"></a>Magazijntoewijzingen zoeken
+# Magazijntoewijzingen zoeken
 
 Als uw magazijntoewijzingen wilt weergeven, opent u de kaartpagina voor een geselecteerd artikel. Als er magazijninstructies zijn gemaakt, zijn de Nemen- en Plaatsen-regels zichtbaar en kunt u beginnen aan een toewijzing. In sommige magazijnen heeft de manager wellicht specifieke instructies toegewezen aan elke werknemer. Zie voor meer informatie [Magazijnmedewerkers instellen](warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="to-find-an-instruction-assigned-to-you"></a>U kunt als volgt zoeken naar een instructie die aan u is toegewezen
+## U kunt als volgt zoeken naar een instructie die aan u is toegewezen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnopslag**, **Magazijnpicks** of **Magazijnverplaatsing** in en kies vervolgens de gerelateerde koppeling.
 
@@ -31,13 +25,12 @@ Als uw magazijntoewijzingen wilt weergeven, opent u de kaartpagina voor een gese
 
 Als de manager geen specifieke instructies toewijst aan individuele werknemers, kunt u een instructie met het veld **Toegewezen gebruikers-id** op de kop aan uzelf toewijzen. Voordat u begint te werken aan een instructie, moet u uw gebruikers-id op de kop invoeren. Uw collega's kunnen dan met andere instructies aan de slag gaan en u voorkomt dat instructies dubbel worden uitgevoerd.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Magazijnbeheer](warehouse-manage-warehouse.md)  
+[Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md) 
 [Assemblagebeheer](assembly-assemble-items.md)
-[Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 

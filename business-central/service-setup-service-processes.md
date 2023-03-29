@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
+ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2a65c34f8fa59cd72c2df9e78343da03c67d8721
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380944"
 ---
-# <a name="configure-service-processes"></a>Serviceprocessen configureren
+# Serviceprocessen configureren
 Hier volgende enkele voorbeelden van de instellingen die u op processen voor servicebeheer kunt toepassen:  
   
 * Enkele algemene instellingen voor verschillende processen, zoals waarschuwingen, volgende serviceberekeningen voor serviceartikelen, het te evalueren starttarief, het te gebruiken probleemrapportageniveau, enzovoort.  
@@ -25,11 +19,11 @@ Hier volgende enkele voorbeelden van de instellingen die u op processen voor ser
 * Instellingen voor contracten, zoals het maximumaantal dagen dat u voor contractserviceorders kunt gebruiken, of er redencodes moeten worden gebruikt wanneer een contract wordt geannuleerd, standaardteksten voor contractomschrijvingen en contractwaarden.  
 * De nummerreeksen die moeten worden gebruikt voor servicegerelateerde documenten en artikelen.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a>Algemene en verplichte instellingen opgeven
+## Algemene en verplichte instellingen opgeven
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicebeheerinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Foutrapportage instellen](service-how-setup-fault-reporting.md)  
 [Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)  
 [Codes voor standaardservices instellen](service-how-setup-service-coding.md)  

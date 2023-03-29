@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b7054dcdedbb86edad111297b59347a6aa60fc2a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535785"
 ---
-# <a name="send-electronic-documents"></a>Elektronische documenten verzenden
+# Elektronische documenten verzenden
 
 De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt het verzenden van elektronische facturen en creditnota's in de PEPPOL-indeling, een indeling die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Een aanbieder van documentuitwisselingsservices verzendt elektronische documenten tussen handelspartners. Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling.  
 
@@ -24,7 +18,7 @@ De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteun
 
  Als u een verkoopfactuur als elektronisch PEPPOL-document wilt verzenden, selecteert u de optie **Elektronisch document** in het dialoogvenster **Boeken en verzenden**. U kunt ook het standaardprofiel voor documentverzending van de klant instellen vanuit dat dialoogvenster. Eerst moet u diverse stamgegevens instellen, zoals bedrijfsgegevens, klanten, artikelen en eenheden. Deze worden gebruikt om de zakelijke partners en artikelen te identificeren wanneer gegevens worden geconverteerd in velden in [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-### <a name="to-send-an-electronic-sales-invoice"></a>Een elektronische verkoopfactuur verzenden
+### Een elektronische verkoopfactuur verzenden
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -49,9 +43,9 @@ De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteun
     > [!NOTE]  
     >  U kunt ook een geboekte verkoopfactuur als een elektronisch document verzenden. De procedure is hetzelfde als beschreven in dit onderwerp voor niet-geboekte verkoopdocumenten. Kies op de pagina **Geboekte verkoopfactuur** de actie **Activiteitenlogboek** om de status van en elektronische document weer te geven.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Verzendprofielen van documenten instellen](sales-how-setup-document-send-profiles.md)  

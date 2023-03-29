@@ -1,58 +1,58 @@
 ---
-title: Bijlagen, koppelingen en notities aan records toevoegen
-description: Koppel een hyperlink aan een document of een website aan een bepaalde record, zoals een klant of document.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: e3f1e3f63c8e27d081a89f6d8626b8b392a6e02b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519556"
+title: 'Bijlagen, koppelingen en notities aan records toevoegen'
+description: 'Koppel een hyperlink naar een document of een website aan een bepaalde record, zoals een klant of document.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 02/24/2023
+ms.custom: bap-template
 ---
-# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Bijlagen, koppelingen en notities op kaarten en in documenten beheren
+# Bijlagen, koppelingen en notities op kaarten en in documenten beheren
 
-In het feitenblok op de meeste kaarten en documenten kunt u bestanden bijvoegen, koppelingen toevoegen en notities schrijven. Voor koppelingen en notities kunt u dit ook op de lijstpagina doen door eerst de bijbehorende regel te selecteren.
+Op de meeste lijstpagina's, kaarten en documenten kunt u bestanden bijvoegen, koppelingen toevoegen en notities schrijven op het tabblad **Bijlagen** van het venster **Feitenblok**. Het getal in de titel van het tabblad geeft aan hoeveel bijgevoegde bestanden, koppelingen of notities er zijn voor de kaart of het document.
 
-Als u een van deze bijgevoegde informatietypen wilt bekijken of wijzigen, moet u eerst het tabblad **Bijlagen** openen in het feitenblok. Het getal achter de titel van het tabblad geeft aan hoeveel bijgevoegde bestanden, koppelingen of notities er zijn voor de kaart of het document.
+Op het sneltabblad **Regels** kunt u ook de actie **Bijlagen** gebruiken om documenten aan een specifieke regel toe te voegen. U wilt bijvoorbeeld ontwerpspecificaties toevoegen aan een artikel op een inkoopfactuur.
 
-Bijlagen, koppelingen en notities blijven gekoppeld terwijl de kaart of het document wordt verwerkt in andere staten, zoals van een lopende verkooporder naar een geboekte verkoopfactuur. Geen van de bijlagetypen wordt echter door het systeem uitgevoerd, bijvoorbeeld bij het afdrukken of bij het opslaan in een bestand.
+Bijlagen, koppelingen en notities blijven aan kaarten of het documenten gekoppeld terwijl deze worden verwerkt in andere statussen. Bijvoorbeeld van een lopende verkooporder naar een geboekte verkoopfactuur. Geen van de bijlagetypen wordt echter door het systeem uitgevoerd, bijvoorbeeld bij het afdrukken of bij het opslaan in een bestand.
+
+U kunt ook bijlagen toevoegen aan de e-mails die u verzendt vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. Wanneer u een e-mail rechtstreeks vanuit een document verzendt, zoals een verkoopofferte, kunt u met de actie **Bestand toevoegen vanuit brondocument** bestanden kiezen die eraan zijn toegevoegd. U kunt alleen bestanden kiezen die aan het document zijn toegevoegd. U kunt geen bestanden kiezen die aan regels zijn toegevoegd.
 
 > [!NOTE]
 > Wanneer u een verkooporder of inkooporder gedeeltelijk verzendt en factureert, wordt de bijlage alleen aan de definitieve factuur van de order toegevoegd. Wanneer u factureert met de functie Uitstel, wordt de bijlage ook alleen gekoppeld aan de grootboekposten voor het document, maar niet voor de uitstelposten.
 >
 > Als u een bestelling verwijdert voordat deze wordt gefactureerd, wordt de bijlage ook verwijderd. Wanneer u inkooporders factureert met de actie Ontvangstregels ophalen van een inkoopfactuur, wordt de bijlage op de inkooporders niet toegevoegd aan de inkoopfactuur.
 
-## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Een bestand bijvoegen bij een inkoopfactuur
-U kunt elk type bestand met tekst, afbeelding of video aan een kaart of document toevoegen. Dit is bijvoorbeeld handig als u de factuur van een leverancier wilt opslaan als PDF-bestand op de bijbehorende inkoopfactuur in [!INCLUDE[prod_short](includes/prod_short.md)].
+## Een bestand bijvoegen bij een inkoopfactuur
+
+U kunt elk type bestand, zoals tekst, afbeelding of video, aan een kaart of document of aan een regel in een document toevoegen. Dit is bijvoorbeeld handig als u de factuur van een leverancier wilt opslaan als PDF-bestand op de bijbehorende inkoopfactuur in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
-> Bestanden die zijn gekoppeld met de functie Inkomende documenten, worden niet opgenomen op het tabblad **Bijlagen**. Zie voor meer informatie [Inkomende documenten](across-income-documents.md).
+> Bestanden die zijn gekoppeld met de functie Inkomende documenten, worden niet opgenomen op het tabblad **Bijlagen**. Zie voor meer informatie [Inkomende documenten](across-income-documents.md). Hetzelfde geldt voor bestanden die zijn gekoppeld aan regels in documenten.
 
 De volgende procedure is gebaseerd op een inkoopfactuur. De stappen lijken op alle andere ondersteunde documenten en kaarten.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
-2. Open de verkooporder waaraan u een bestand wilt koppelen.
-3. Open het feitenblok **Bijlagen**.
+> [!TIP]
+> Als uw bijlage specifiek is voor een regel in een document, kunt u deze aan de regel toevoegen. Kies de regel en kies vervolgens de actie **Bijlagen**.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+2. Open de inkoopfactuur waaraan u een bestand wilt koppelen.
+3. Kies in het venster **Feitenblok** het tabblad **Bijlagen**.
 4. Kies de waarde achter het veld **Documenten**, zoals '0'.
 5. Kies op de pagina **Gekoppelde documenten** in het veld **Bijlage** de actie **Bestand selecteren**.
-5. Selecteer een bestand van een willekeurige locatie en kies de knop **Openen**.
+6. Selecteer een bestand van een willekeurige locatie en kies de knop **Openen**.
 
 Het bestand wordt nu gekoppeld aan de inkoopfactuur.
 
-## <a name="to-view-an-attached-file"></a>Een gekoppeld bestand weergeven
-1. Open het feitenblok **Bijlagen**.
+## Een gekoppeld bestand weergeven
+
+1. Open in het venster **Feitenblok** het tabblad **Bijlagen**.
 2. Kies de waarde achter het veld **Documenten**, zoals '1'.
 3. Kies op de pagina **Gekoppelde documenten** de actie **Voorbeeld**.
 4. Open het gedownloade bestand.
 
-## <a name="to-save-a-document-as-a-pdf-attachment"></a>Een document als PDF-bijlage opslaan
+## Een document als PDF-bijlage opslaan
+
 Wanneer u een document als bestand moet opslaan, kunt u de actie **Bijvoegen als PDF** gebruiken om de huidige documentinhoud vast te leggen als een PDF-bestand als bijlage bij het feitenblok van het document. Dit is bijvoorbeeld handig wanneer documenten meerdere stappen in een proces volgen, zoals een verkoopproces of een goedkeuringswerkstroom, en u wilt verwijzen naar een afdruk van de vorige stap.
 
 De volgende procedure is gebaseerd op een verkooporder. De stappen zijn vergelijkbaar voor alle ondersteunde documenten.
@@ -62,7 +62,8 @@ De volgende procedure is gebaseerd op een verkooporder. De stappen zijn vergelij
 
 Een PDF-bestand met de huidige inhoud van de verkooporder wordt toegevoegd aan het tabblad **Bijlagen** in het feitenblok.
 
-## <a name="to-add-a-link-from-an-item-card"></a>Een koppeling toevoegen vanuit een artikelkaart
+## Een koppeling toevoegen vanuit een artikelkaart
+
 U kunt een koppeling vanuit een kaart of document toevoegen aan een URL. Dit is bijvoorbeeld handig als u een artikelkaart wilt koppelen aan de artikelcatalogus van de leverancier.
 
 De volgende procedure is gebaseerd op een artikelkaart. De stappen lijken op alle andere ondersteunde documenten en kaarten.
@@ -79,7 +80,8 @@ De volgende procedure is gebaseerd op een artikelkaart. De stappen lijken op all
 
 De koppeling is nu gekoppeld aan de artikelkaart.  
 
-## <a name="to-write-a-note-on-a-sales-order"></a>Een notitie over een klantorder schrijven
+## Een notitie over een klantorder schrijven
+
 U kunt bijvoorbeeld een notitie op een document of kaart schrijven om speciale instructies aan andere gebruikers van het document of de kaart te communiceren. U kunt bestandskoppelingen en URL's opnemen in notities.
 
 > [!NOTE]
@@ -95,7 +97,7 @@ De volgende procedure is gebaseerd op een verkooporder. De stappen lijken op all
 
 De notitie is nu aan de verkooporder toegevoegd.
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)  

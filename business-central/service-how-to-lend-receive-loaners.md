@@ -6,27 +6,21 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3d7e2c7be7d381a6fdf58a16b7fc154a6d674215
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382805"
 ---
-# <a name="lend-and-receive-loaners"></a>Uitleenartikelen uitlenen en ontvangen
+# Uitleenartikelen uitlenen en ontvangen
 U kunt uitleenartikelen uitlenen aan klanten als tijdelijke vervanging van serviceartikelen die u voor service hebt ontvangen.  
   
-## <a name="to-lend-a-loaner-item"></a>Uitleenartikelen uitlenen    
+## Uitleenartikelen uitlenen    
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling  
 2. Open de kaart met de betreffende serviceorder.  
 3. Selecteer de serviceartikelregel met het serviceartikel dat u wilt vervangen door een uitleenartikel.  
 4. Selecteer in het veld **Uitleenartikelnr.** het betreffende uitleenartikel.  
 5. Kies **Ja** om de lening te bevestigen.  
 
-## <a name="to-receive-a-loaner"></a>Uitleenartikelen ontvangen  
+## Uitleenartikelen ontvangen  
 Wanneer u een uitleenartikel ontvangt van een klant, moet u de ontvangst registreren. Dit doet u op de pagina's **Serviceorder**, **Geboekte serviceverzending** en **Uitleenartikelkaart**. Hieronder wordt uitgelegd hoe u uitleenartikelen op de pagina **Serviceorder** kunt ontvangen.  
   
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling  
@@ -34,7 +28,7 @@ Wanneer u een uitleenartikel ontvangt van een klant, moet u de ontvangst registr
 3. Kies de serviceartikelregel met het uitleenartikel dat u wilt ontvangen.  
 4. Kies **Acties**, **Functies** en vervolgens **Uitleenartikel ontvangen**.  
 
-## <a name="to-register-loaner-comments"></a>Uitleenartikelopmerkingen registreren  
+## Uitleenartikelopmerkingen registreren  
 Op de pagina **Algemeen Serviceopmerking** kunt u opmerkingen over geregistreerde uitleenartikelen registreren.  
   
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitleenartikelen** in en kies vervolgens de gerelateerde koppeling.  
@@ -43,7 +37,7 @@ Op de pagina **Algemeen Serviceopmerking** kunt u opmerkingen over geregistreerd
 4. Geef een datum op in het veld **Datum**.  
 5. Voer in het veld **Opmerking** de opmerkingen in. U kunt maximaal 80 tekens invoeren. Als u extra tekst wilt invoeren, gaat u naar de volgende regel. U kunt zoveel regels invullen als u nodig hebt.  
   
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Uitleenprogramma instellen](service-how-setup-loaner-program.md)   
 
 

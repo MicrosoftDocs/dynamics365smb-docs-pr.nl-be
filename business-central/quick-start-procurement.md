@@ -1,27 +1,22 @@
 ---
 title: Snel aan de slag met inkoop (bevat video)
-description: Leer hoe u de eerste kritieke velden over leveranciers in Business Central invult, zodat u producten en services kunt gaan kopen.
+description: 'Leer hoe u de eerste kritieke velden over leveranciers in Business Central invult, zodat u producten en services kunt gaan kopen.'
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: 26, 27, 50, 56
+ms.search.form: '26, 27, 50, 56'
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: d5ec92099a7439bfb9a059105b0f1ce377534117
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128751"
 ---
-# <a name="procurement-quick-start"></a>Snel aan de slag met inkoop
+
+# Snel aan de slag met inkoop
 
 Om producten en services te kunnen kopen moet u eerst leveranciers instellen. Zodra dat is gebeurd, kunt u beginnen met het registreren van inkooporders en het ontvangen van facturen.  
 
-## <a name="set-up-vendors"></a>Leveranciers instellen
+## Leveranciers instellen
 
 De volgende video laat zien hoe u een leverancier instelt in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -29,13 +24,13 @@ De volgende video laat zien hoe u een leverancier instelt in [!INCLUDE[prod_shor
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### <a name="set-up-a-new-vendor"></a>Een nieuwe leverancier instellen
+### Een nieuwe leverancier instellen
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 Voor meer informatie en aanvullende dingen die u kunt doen wanneer u leveranciers registreert zie [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md).  
 
-## <a name="create-new-purchase-orders"></a>Nieuwe inkooporders maken
+## Nieuwe inkooporders maken
 
 Wanneer u iets van een verkoper koopt, hebt u twee opties. De eerste en eenvoudigste is om gewoon een inkoopfactuur te maken. U moet echter inkooporders gebruiken als uw inkoopproces vereist dat u gedeeltelijke ontvangsten van een orderhoeveelheid registreert, bijvoorbeeld omdat de volledige hoeveelheid niet beschikbaar was bij de leverancier.
 
@@ -45,7 +40,7 @@ De volgende video laat zien hoe u een inkooporder maakt in [!INCLUDE[prod_short]
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### <a name="to-create-a-purchase-order"></a>Een inkooporder maken  
+### Een inkooporder maken  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling  
 
@@ -71,11 +66,11 @@ De volgende video laat zien hoe u een inkooporder maakt in [!INCLUDE[prod_short]
 
 Voor meer informatie en aanvullende dingen die u kunt doen bij het maken van een inkooporder zie [Inkoop](purchasing-manage-purchasing.md).  
 
-## <a name="create-a-purchase-invoice"></a>Een inkoopfactuur maken  
+## Een inkoopfactuur maken  
 
 U maakt een inkoopfactuur om de kosten van inkopen vast te leggen en betalingsverplichtingen te volgen. Een inkoopfactuur maken is vergelijkbaar met het maken van een inkooporder.
 
-### <a name="how-to-create-and-post-a-purchase-invoice"></a>Een inkoopfactuur maken en boeken  
+### Een inkoopfactuur maken en boeken  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 3 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Inkoopfactuur** de actie **Nieuw** om een nieuwe inkoopfactuur te maken.
@@ -100,7 +95,7 @@ De inkoop wordt nu weerspiegeld in de voorraad, resourcejournalen en financiële
 
 Voor meer informatie en aanvullende dingen die u kunt doen bij het maken van een factuur zie [Aankopen registreren met inkoopfacturen](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 [Inkoopoverzicht](Purchasing-manage-purchasing.md)  
