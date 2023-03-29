@@ -1,20 +1,15 @@
 ---
 title: Aankomende functies van tevoren inschakelen
-description: Leer hoe u bepaalde, optionele functies inschakelt voordat ze verplicht worden.
+description: 'Leer hoe u bepaalde, optionele functies inschakelt voordat ze verplicht worden.'
 author: mikebcMSFT
 ms.topic: conceptual
-ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
+ms.search.keywords: 'administration, admin, key, optional, feature management, early access, preview'
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: 0ff7ee2a56b762609e2b15f101c1e4abc9bd46cd
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533361"
 ---
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Nieuwe en aankomende functies van tevoren inschakelen
+
+# Nieuwe en aankomende functies van tevoren inschakelen
 
 Sommige nieuwe functies kunnen van tevoren worden ingeschakeld, zodat u er zo vroeg mogelijk gebruik van kunt maken. Als u functies vroegtijdig inschakelt, heeft u de tijd om uw organisatie te testen en voor te bereiden op verandering.
 
@@ -22,9 +17,9 @@ Wanneer Microsoft functies of verbeteringen in het ontwerp van functies uitbreng
 
 Meer informatie over [functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/admin-online-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/admin-online-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe en geplande functies](/dynamics365-release-plan/2021wave1/)  
 

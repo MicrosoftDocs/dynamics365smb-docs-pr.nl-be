@@ -1,23 +1,19 @@
 ---
 title: Gegevens overdragen vanuit een QuickBooks-app
-description: U kunt gegevens, zoals klanten, leveranciers, voorraadartikelen en grootboekrekeningen, vanuit QuickBooks-apps migreren naar Business Central.
+description: 'U kunt gegevens, zoals klanten, leveranciers, voorraadartikelen en grootboekrekeningen, vanuit QuickBooks-apps migreren naar Business Central.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
+ms.search.keywords: 'app, import, migrate, data, transfer, QuickBooks, customize'
 ms.search.form: 1808
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 01a02459e75d20c217b747502db8548567db597d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535303"
 ---
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Overstappen van een QuickBooks-app op Dynamics 365 Business Central
+
+
+# Overstappen van een QuickBooks-app op Dynamics 365 Business Central
 
 Steeds meer groeiende bedrijven schakelen van financiële apps als QuickBooks Desktop en QuickBooks Online, die zijn ontworpen voor startups en andere kleine bedrijven, over naar [!INCLUDE[prod_short](includes/prod_short.md)], dat ook grotere, complexere organisaties ondersteunt. 
 
@@ -31,13 +27,13 @@ Lees voor meer informatie het artikel over de extensie voor uw QuickBooks-app:
 * [De extensie QuickBooks Desktop-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)
 * [De extensie QuickBooks Online-gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a>Klaar?
+## Klaar?
 
 Als u klaar bent om nu aan de slag te gaan, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies vervolgens de gerelateerde koppeling. Kies **Bedrijfsgegevens migreren** en voer de stappen in de handleiding uit.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/migrate-data-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/migrate-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Business Central aanpassen met extensies](ui-extensions.md)   

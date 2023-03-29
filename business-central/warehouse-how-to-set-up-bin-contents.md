@@ -1,6 +1,6 @@
 ---
 title: Opslaglocatie-inhoud maken
-description: Nadat u uw opslaglocaties hebt ingesteld, kunt u de artikelen specificeren die u erin wilt opslaan, en regels instellen die bepalen hoe vaak opslaglocaties worden bijgevuld.
+description: 'Nadat u uw opslaglocaties hebt ingesteld, kunt u de artikelen specificeren die u erin wilt opslaan, en regels instellen die bepalen hoe vaak opslaglocaties worden bijgevuld.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86d5d8410a884fa2a8357490c92658582fc9b9f5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530445"
 ---
-# <a name="create-bin-contents"></a>Opslaglocatie-inhoud maken
+# Opslaglocatie-inhoud maken
 
 Nadat u opslaglocaties hebt gemaakt, kunt u de opslaglocatie-inhoud instellen. U kunt instellen welke artikelen u in een bepaalde opslaglocatie wilt opslaan en opslagrichtlijnen voor de locatie definiëren. U kunt dit handmatig doen op de pagina **Opslaglocatie-inhoud** of automatisch met de pagina **Opslaglocatie-inhoud maken**.
 
-## <a name="to-create-bin-content-manually"></a>Opslaglocatie-inhoud handmatig maken
+## Opslaglocatie-inhoud handmatig maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de locatie waarin u opslaglocatie-inhoud wilt instellen en kies de actie **Opslaglocaties**.  
@@ -37,7 +31,7 @@ Als u het veld **Vast** selecteert, koppelt u het artikel aan de opslaglocatie. 
 > [!NOTE]  
 > U kunt de inhoud van meerdere opslaglocaties tegelijkertijd instellen op de pagina **Voorstel opslaglocatie-inhoudaanmaak**.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>Opslaglocatie-inhoud met een voorstel maken
+## Opslaglocatie-inhoud met een voorstel maken
 
 Wanneer u de opslaglocaties hebt gemaakt, kunt u in het maakvoorstel voor opslaglocatie-inhoud instellen wat u in per opslaglocatie wilt opslaan.
 
@@ -55,17 +49,14 @@ Wanneer u de opslaglocaties hebt gemaakt, kunt u in het maakvoorstel voor opslag
 
 In dit voorstel werkt u met een aantal regels voor de inhoud van verschillende opslaglocaties, zodat u een goed overzicht krijgt van de inhoud van de opslaglocaties in een bepaalde zone, gang of rek.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/set-up-zones-bins/)
+## Zie gerelateerde [Microsoft-training](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Opslaglocatieaanvulling berekenen](warehouse-how-to-calculate-bin-replenishment.md)  
-[Magazijnbeheer](warehouse-manage-warehouse.md)  
+[Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
-[Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

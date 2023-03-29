@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.form: 130, 142, 1350
+ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91744dd58d68c6b732c9abe794f33b0c9a11211a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535701"
 ---
-# <a name="posting-sales"></a>Verkopen boeken
+# Verkopen boeken
 
 In het menu **Boeken** in een verkoopdocument kunt u kiezen uit de volgende boekingsfuncties:
 
@@ -43,19 +37,19 @@ Voor elke verkooporderregel wordt een artikelpost gemaakt in de tabel **Artikelp
 
 U kunt boeken of boeken en verzenden. Als u ervoor kiest om te boeken en te verzenden, wordt er een pdf-bestand gegenereerd dat u vervolgens kunt verzenden. U kunt ook de functie **Batchboeken** kiezen, waarmee u verschillende orders tegelijkertijd kunt boeken. Zie voor meer informatie [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Posten bekijken
+## Posten bekijken
 
 Na de boeking worden de geboekte verkoopregels verwijderd uit de order. Er verschijnt een bericht als de boeking is voltooid. Hierna kunt u de geboekte posten bekijken op de verschillende pagina's die geboekte posten bevatten, zoals de pagina's **Klantposten**, **Grootboekposten**, **Artikelposten**, **Geboekte verkoopverzendingen** en **Geboekte verkoopfacturen**.  
 
 In de meeste gevallen kunt u posten openen vanaf de betrokken kaart of het betreffende document. Kies bijvoorbeeld op de pagina **Klantenkaart** de actie **Posten**.
 
-## <a name="editing-ledger-entries"></a>Posten bewerken
+## Posten bewerken
 
 U kunt bepaalde velden in geboekte inkoopdocumenten bewerken, zoals het **Traceringsnummer (zending)**. veld. Zie voor meer informatie [Geboekte documenten bewerken](across-edit-posted-document.md). Voor kritiekere velden die van invloed zijn op het controlespoor, moet u het boeken omkeren of ongedaan maken. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md)  

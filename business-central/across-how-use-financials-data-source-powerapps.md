@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: OData, Power App, SOAP
+ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7dbc334edcd22bb41ea5ad3a37ff53a52bfe970
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531903"
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met Power Apps
+# Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met Power Apps
 
 U kunt uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens als gegevensbron beschikbaar maken in Power Apps.  
 
 > [!NOTE]  
 > U moet een geldig account bij [!INCLUDE[prod_short](includes/prod_short.md)] en Power Apps hebben.  
 
-## <a name="to-add-prod_short-as-a-data-source-in-power-apps"></a>[!INCLUDE[prod_short](includes/prod_short.md)] als gegevensbron toevoegen in Power Apps
+## [!INCLUDE[prod_short](includes/prod_short.md)] als gegevensbron toevoegen in Power Apps
 
 1. Navigeer in de browser naar [powerapps.microsoft.com](https://powerapps.microsoft.com/) en meld u aan.
 2. Kies op de startpagina in de sectie **Start vanuit gegevens** de tegel **Andere gegevensbronnen**.  
@@ -49,9 +43,9 @@ Wanneer u de app hebt ontworpen en gemaakt, u deze met uw collega's delen. Zie v
 > [!NOTE]
 > Als u verbinding wilt maken met [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, moet u de connector **Business Central (on-premises)** kiezen in stap 3.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/power-apps-power-automate-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/paths/power-apps-power-automate-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Een canvasapp maken vanuit een sjabloon in Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  

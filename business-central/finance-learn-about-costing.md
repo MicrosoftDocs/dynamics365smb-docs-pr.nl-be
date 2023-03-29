@@ -1,22 +1,16 @@
 ---
 title: Over voorraadwaardering
-description: Het beheren van voorraadkosten heeft alles te maken met het vastleggen en rapporteren van bedrijfskosten, inclusief het rapporteren van productiekosten en voorraadkosten.
+description: 'Het beheren van voorraadkosten heeft alles te maken met het vastleggen en rapporteren van bedrijfskosten, inclusief het rapporteren van productiekosten en voorraadkosten.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 521cf2700c16bab71d13ea1282fbf4b09164b004
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513977"
 ---
-# <a name="about-inventory-costing"></a>Over voorraadwaardering
+# Over voorraadwaardering
 Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).  
 
  U dient de volgende centrale principes te begrijpen: met waarderingsmethoden wordt gedefinieerd hoe artikelen worden gewaardeerd wanneer ze de voorraad verlaten, met een herwaardering van kosten worden de kosten bijgewerkt van goederen die worden verkocht met gerelateerde inkoopkosten die na de verkoop zijn geboekt en de voorraadwaarden moeten regelmatig worden geboekt naar speciale grootboekrekeningen.  
@@ -37,7 +31,7 @@ Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van op
 |Te lezen hoe voorraadperioden een bedrijf kunnen helpen de voorraadwaarde gedurende de tijd te beheren door kortere perioden te definiëren die gedurende het boekjaar voor boeking kunnen worden gesloten.|[Werken met voorraadperioden](finance-how-to-work-with-inventory-periods.md)|  
 |Alle mechanismen in de kostprijsberekeningengine begrijpen, inclusief wat er gebeurt wanneer u assemblage- en productietransacties boekt.|[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

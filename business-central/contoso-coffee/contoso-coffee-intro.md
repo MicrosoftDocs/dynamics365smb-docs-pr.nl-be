@@ -7,14 +7,9 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "9788260"
 ---
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Inleiding tot de demogegevens voor Contoso Coffee
+
+# Inleiding tot de demogegevens voor Contoso Coffee
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De apps **Contoso-koffie** voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de productiemogelijkheden in Business Central kunt benutten.  
 
@@ -41,7 +36,7 @@ De productieactiviteiten voor alle scenario's gebruiken de locatie *NOORD*.
 > [!IMPORTANT]
 > Boek alle artikeldagboekregels met beginsaldi voordat u een van de scenario's voor Contoso Coffee gaat uitvoeren. Zie de sectie [Contoso Coffee-gegevens instellen](#set-up-contoso-coffee-data) voor meer vereisten.
 
-## <a name="set-up-contoso-coffee-data"></a>Gegevens voor Contoso Coffee instellen
+## Gegevens voor Contoso Coffee instellen
 
 Als u de demogegevens voor Contoso Coffee wilt gebruiken, moet u twee apps in het desbetreffende bedrijf in [!INCLUDE [prod_short](../includes/prod_short.md)] installeren:  
 
@@ -72,7 +67,7 @@ Zodra de relevante apps zijn geïnstalleerd, gaat u naar de pagina [Demogegevens
 
 Als u gereed bent, kiest u de actie **Demogegevens maken**. Het duurt een paar minuten om de gegevens aan de onderliggende database toe te voegen, maar dan bent u klaar om de verschillende scenario's uit te voeren.  
 
-## <a name="scenarios"></a>Scenario's
+## Scenario's
 
 De demogegevens voor Contoso Coffee ondersteunen momenteel de volgende scenario's voor testen en trainen:
 
@@ -90,7 +85,7 @@ Lees de stappen voor elk scenario in het desbetreffende artikel.
 > [!IMPORTANT]
 > Deze procedures vereisen dat de gebruikerservaring is ingesteld op *Premium* op de pagina **Bedrijfsgegevens**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie](../production-manage-manufacturing.md)  
 [Productierapporten en analyses in Business Central](../production-reports.md)  

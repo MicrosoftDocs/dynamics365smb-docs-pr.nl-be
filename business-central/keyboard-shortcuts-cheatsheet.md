@@ -6,93 +6,88 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
+ms.search.keywords: 'accessibility, shortcuts, keyboarding'
 ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605832"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Snelle toetsenbordnaslag - alleen pc
 
-#### <a name="general"></a>Alge&meen
+# Snelle toetsenbordnaslag - alleen pc
 
-|Druk op deze toetsen|Actie|  
+#### Alge&amp;meen
+
+|Selecteer deze toetsen|Actie|  
 |-|-|
-|Alt+F2|Het deelvenster Feitenblok weergeven of verbergen|
-|Alt+N|Een nieuwe record maken|
-|Alt+Shift+N|Een nieuw gemaakte record sluiten en een nieuwe maken|
-|Alt+O|Een nieuwe notitie toevoegen voor de geselecteerde record|
-|Alt+Q|**Vertel me** openen|
-|Ctrl+Alt+Q|**Posten zoeken** openen|
-|Alt+Pijl omhoog|Knopinfo openen of validatiefout|
-|Alt+Pijl-omlaag|Een vervolgkeuzelijst of opzoekactie openen|
-|Alt+T|De pagina **Mijn instellingen** openen|
-|Alt+Shift+W|De huidige kaart of het huidige document openen in een nieuw venster|
-|Ctrl+Insert|Een nieuwe regel in een document invoegen|
-|Ctrl-Delete|De regel verwijderen uit een document, een dagboek of een werkblad|
-|Ctrl+Shift+F12|Het gedeelte met regelitems maximaliseren op een documentpagina|
-|Ctrl+F1|Het helpvenster of een helpartikel openen|
-|Ctrl+klikken|Navigeren bij het personaliseren en aanpassen|
-|Ctrl+O|Overstappen van bedrijf of omgeving|
-|Shift+F12|Open de rollenverkenner, een functieoverzicht|
-|F5/Ctrl+F5|Pagina vernieuwen/opnieuw laden|
-|Tab/Shift+Tab|Focus verplaatsen naar volgende/vorige element|
-|F6/Shift+F6|Naar het volgende sneltabblad/onderdeel gaan|
+|<kbd>Alt</kbd>+<kbd>F2</kbd>|Het deelvenster Feitenblok weergeven of verbergen|
+|<kbd>Alt</kbd>+<kbd>N</kbd>|Een nieuwe record maken|
+|<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>|Een nieuw gemaakte record sluiten en een nieuwe maken|
+|<kbd>Alt</kbd>+<kbd>O</kbd>|Een nieuwe notitie toevoegen voor de geselecteerde record|
+|<kbd>Alt</kbd>+<kbd>Q</kbd>|**Vertel me** openen|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|**Posten zoeken** openen|
+|<kbd>Alt</kbd>+<kbd>Omhoog</kbd>|Knopinfo openen of validatiefout|
+|<kbd>Alt</kbd>+<kbd>Pijl omlaag</kbd>|Een vervolgkeuzelijst of opzoekactie openen|
+|<kbd>Alt</kbd>+<kbd>T</kbd>|De pagina **Mijn instellingen** openen|
+|<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd>|De huidige kaart of het huidige document openen in een nieuw venster|
+|<kbd>Ctrl</kbd>+<kbd>Insert</kbd>|Een nieuwe regel in een document invoegen|
+|<kbd>Ctrl</kbd>-<kbd>Delete</kbd>|De regel verwijderen uit een document, een dagboek of een werkblad|
+|<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd>|Het gedeelte met regelitems maximaliseren op een documentpagina|
+|<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Het helpvenster of een helpartikel openen|
+|<kbd>Ctrl</kbd>+Klikken|Navigeren bij het personaliseren en aanpassen|
+|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Overstappen van bedrijf of omgeving|
+|<kbd>Shift</kbd>+<kbd>F12</kbd>|Open de rollenverkenner, een functieoverzicht|
+|<kbd>F5</kbd>/<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Pagina vernieuwen/opnieuw laden|
+|<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Focus verplaatsen naar volgende/vorige element|
+|<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Naar het volgende sneltabblad/onderdeel gaan|
 
-#### <a name="navigate--select-rows"></a>Navigeren en rijen selecteren
+#### Navigeren en rijen selecteren
 
-|Druk op deze toetsen|Actie|
+|Selecteer deze toetsen|Actie|
 |-|-|
-|Home/End|Naar het eerste/laatste veld gaan|
-|Ctrl+Home/End |Naar de eerste/laatste rij gaan|
-|Ctrl+pijl omhoog/pijl omlaag|Navigeren zonder de selectie te verliezen|
-|Ctrl+A |Alles selecteren|
-|Ctrl+Spatiebalk|Selectie in-/uitschakelen|
-|Ctrl/Shift+klikken|De rij(en) toevoegen aan de selectie|
-|Shift+pijl omhoog/pijl omlaag|Rij toevoegen boven/onder selectie|
-|Shift+Page Up/Down|Zichtbare rijen boven/onder selecteren|
-|Ctrl+Enter|Focus uit de lijst verplaatsen|
+|<kbd>Home/End|Naar het eerste/laatste veld gaan|
+|<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Naar de eerste/laatste rij gaan|
+|<kbd>Ctrl</kbd>+<kbd>Omhoog</kbd>/<kbd>Omlaag</kbd>|Navigeren zonder de selectie te verliezen|
+|<kbd>Ctrl</kbd>+<kbd>A</kbd>|Alles selecteren|
+|<kbd>Ctrl</kbd>+<kbd>Spatiebalk</kbd>|Selectie in-/uitschakelen|
+|<kbd>Ctrl</kbd>/<kbd>Shift</kbd>+Klikken|De rij(en) toevoegen aan de selectie|
+|<kbd>Shift</kbd>+<kbd>Omhoog</kbd>/<kbd>Omlaag</kbd>|Rij toevoegen boven/onder selectie|
+|<kbd>Shift</kbd>+<kbd>Page Up</kbd>/<kbd>Omlaag</kbd>|Zichtbare rijen boven/onder selecteren|
+|<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Focus uit de lijst verplaatsen|
 
-#### <a name="copy--paste"></a>Kopiëren en plakken
+#### Kopiëren en plakken
 
-|Druk op deze toetsen|Actie|
+|Selecteer deze toetsen|Actie|
 |-|-|
-|Ctrl+C/V|Rijen kopiëren/plakken|
-|F8|Veld erboven naar huidige rij kopiëren|
+|<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Rijen kopiëren/plakken|
+|<kbd>F8</kbd>|Veld erboven naar huidige rij kopiëren|
 
-#### <a name="search-filter--sort"></a>Zoeken, filteren en sorteren
+#### Zoeken, filteren en sorteren
 
-|Druk op deze toetsen|Actie|
+|Selecteer deze toetsen|Actie|
 |-|-|
-|Alt+F7|Kolom sorteren in oplopende of aflopende volgorde|
-|F3|Zoeken in-/uitschakelen|
-|Shift+F3|Filterdeelvenster in-/uitschakelen; focus op veldfilters|
-|Alt+F3|Filteren op geselecteerde celwaarde|
-|Shift+Alt+F3|Filter op een geselecteerd veld toevoegen|
-|Ctrl+Alt+Shift+F3|Filters opnieuw instellen|
+|<kbd>Alt</kbd>+<kbd>F7</kbd>|Kolom sorteren in oplopende of aflopende volgorde|
+|<kbd>F3</kbd>|Zoeken in-/uitschakelen|
+|<kbd>Shift</kbd>+<kbd>F3</kbd>|Filterdeelvenster in-/uitschakelen; focus op veldfilters|
+|<kbd>Alt</kbd>+<kbd>F3</kbd>|Filteren op geselecteerde celwaarde|
+|<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Filter op een geselecteerd veld toevoegen|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Filters opnieuw instellen|
 
-#### <a name="quick-entry"></a>Snelinvoer
+#### Snelinvoer
 
-|Druk op deze toetsen|Actie|
+|Selecteer deze toetsen|Actie|
 |-|-|
-|Ctrl+Shift+Enter|Naar volgende snelinvoerveld buiten een lijst gaan|
-|Enter/Shift+Enter|Naar volgende/vorige snelinvoerveld gaan|
+|<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Naar volgende snelinvoerveld buiten een lijst gaan|
+|<kbd>Enter</kbd>/<kbd>Shift</kbd>+<kbd>Enter</kbd>|Naar volgende/vorige snelinvoerveld gaan|
 
-##### <a name="report-preview"></a>Rapportvoorbeeld
+##### Rapportvoorbeeld
 
-|Druk op deze toetsen|Actie|
+|Selecteer deze toetsen|Actie|
 |-|-|
-|Ctrl+Home/End|Naar de eerste/laatste pagina gaan|
+|<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Naar de eerste/laatste pagina gaan|
 
-#### <a name="numeric-keypad"></a>Numeriek toetsenbord
+#### Numeriek toetsenbord
 
-|Druk op deze toetsen|Actie|  
+|Selecteer deze toetsen|Actie|  
 |-|-|
-|Alt+Decimaalteken|Wissel de uitvoer van de decimale scheidingstoets op het numerieke toetsenbord|
+|<kbd>Alt</kbd>+<kbd>Decimaalteken</kbd>|Wissel de uitvoer van de decimale scheidingstoets op het numerieke toetsenbord|
 
 > [!TIP]
 > Kies de volgende afbeelding voor een grafische, afdrukbare weergave en download het PDF-bestand.

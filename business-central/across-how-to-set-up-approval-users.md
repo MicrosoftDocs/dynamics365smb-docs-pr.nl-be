@@ -1,6 +1,6 @@
 ---
 title: Goedkeuringsgebruikers instellen
-description: Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u op de pagina Gebruikersinstellingen voor goedkeuring de werkstroomgebruikers instellen die betrokken zijn bij de goedkeuringsprocessen.
+description: 'Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u op de pagina Gebruikersinstellingen voor goedkeuring de werkstroomgebruikers instellen die betrokken zijn bij de goedkeuringsprocessen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2654dcb68b579d90fe3218bcd0bba3bde4cb5036
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585850"
 ---
-# <a name="set-up-approval-users"></a>Goedkeuringsgebruikers instellen
+# Goedkeuringsgebruikers instellen
 
 Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomgebruikers instellen die betrokken zijn bij goedkeuringsprocessen. Op de pagina **Gebruikersinstellingen voor goedkeuring** kunt u ook maximumbedragen instellen voor specifieke typen aanvragen en vervangende fiatteurs aanwijzen aan wie goedkeuringsaanvragen worden gedelegeerd als de oorspronkelijke fiatteur afwezig is.  
 
@@ -28,7 +22,7 @@ Als u goedkeuringsgebruikers hebt ingesteld, kunt u werkstroomreacties te maken 
 > [!NOTE]  
 > Stel een hiërarchie voor fiatteurs op om aan te geven dat een goedkeuringsaanvraag niet wordt goedgekeurd totdat meerdere fiatteurs in een goedkeuringsketen deze hebben goedgekeurd. Voor het fiatteurstype **Fiatteur** stelt u fiatteurs op de pagina **Gebruikersinstellingen voor goedkeuring** in. Stel voor het fiatteurstype **Werkstroomgebruikersgroep** op de pagina **Werkstroomgebruikersgroepen** in en definieer de hiërarchie door incrementele nummers aan elke fiatteur in het veld **Volgnr.**   Meer informatie hieronder en op [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Een goedkeuringsgebruiker instellen
+## Een goedkeuringsgebruiker instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe regel op de pagina **Gebruikersinstellingen voor goedkeuring** en vul de velden in zoals is beschreven in de volgende tabel.  
@@ -54,9 +48,9 @@ Als u goedkeuringsgebruikers hebt ingesteld, kunt u werkstroomreacties te maken 
 3. Kies de actie **Gebruikersinstellingen goedkeuring testen** om de instelling van gebruikers in het goedkeuringsproces te testen.  
 4. Herhaal stap 2 en 3 voor elke gebruiker die u wilt instellen als goedkeuringsgebruiker.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
+## Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)  
 [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)  

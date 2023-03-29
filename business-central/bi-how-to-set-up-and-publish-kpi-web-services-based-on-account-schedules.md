@@ -1,43 +1,38 @@
 ---
 title: KPI-webservices instellen en publiceren op basis van financiële rapporten
-description: In dit onderwerp wordt beschreven hoe u de KPI-gegevens uit het financieel rapport weergeeft op basis van specifieke financiële rapporten.
+description: In dit artikel wordt beschreven hoe u de KPI-gegevens uit het financieel rapport weergeeft op basis van specifieke financiële rapporten.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
-ms.date: 07/14/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7cc214b9dcbf61d35e995c5ed988a684396a11ae
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606237"
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/16/2022
+ms.custom: bap-template
+ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ---
-# <a name="set-up-and-publish-kpi-web-services-based-on-financial-reports"></a>KPI-webservices instellen en publiceren op basis van financiële rapporten
+# KPI-webservices instellen en publiceren op basis van financiële rapporten
 
 Op de pagina **Instellingen KPI-webservice financiële rapporten** stelt u in hoe de KPI-gegevens (Key Performance Indicator) van het financiële rapport worden weergegeven en op welke specifieke financiële rapporten de KPI's zijn gebaseerd. Wanneer u **Webservice publiceren** kiest, worden de opgegeven KPI-gegevens voor financiële rapporten toegevoegd aan de lijst met gepubliceerde webservices op de pagina **Webservices**.
 
 > [!NOTE]
-> Wanneer u deze webservice gebruikt, worden sluitingsdatums niet opgenomen in uw dataset. U kunt vervolgens filters gebruiken in Power BI om verschillende tijdsperioden te analyseren.
+> Wanneer u deze webservice gebruikt, worden sluitingsdatums niet opgenomen in uw dataset. U kunt filters gebruiken in Power BI om verschillende tijdsperioden te analyseren.
 
-## <a name="set-up-and-publish-a-kpi-web-service-based-on-financial-reports"></a>KPI-webservices instellen en publiceren op basis van financiële rapporten
+## KPI-webservices instellen en publiceren op basis van financiële rapporten
   
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen financieel rapport KPI-webservice** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de velden op het sneltabblad **Algemeen** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Vul de velden van het sneltabblad **Financiële rapporten** in.
+3. Vul de velden van het sneltabblad **Rijdefinities** in.
 4. Herhaal stap 3 voor alle financiële rapporten waarop u de KPI-webservice voor financiële rapporten wilt baseren.  
 5. Als u het geselecteerde financiële rapport wilt weergeven of bewerken, kiest u op het sneltabblad **Rijdefinities** de actie **Rijdefinitie bewerken**.
 6. Om de gegevens van de financieel rapport KPI weer te geven die u hebt ingesteld, kiest u de actie **Financieel rapport KPI-webservice**.
-7. Als u de KPI-webservice van het financieel rapport wilt publiceren, kiest u de actie **Webservice publiceren**. De webservice wordt toegevoegd aan de lijst met gepubliceerde webservices op de pagina **Webservices**.
+7. Als u de KPI-webservice van het financieel rapport wilt publiceren, kiest u de actie **Webservice publiceren**.
+
+U kunt nu financiële rapporten maken in Power BI op basis van de webservice of services die u heeft gemaakt.
 
 > [!NOTE]  
 > U kunt de KPI-webservice ook publiceren door te wijzen naar het paginaobject **Instellingen financieel rapport KPI-webservice** vanuit de pagina **Webservices**. Voor meer informatie: [Een webservice publiceren](across-how-publish-web-service.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiële bedrijfsinformatie](bi.md)  
 [Financiën](finance.md)  

@@ -1,26 +1,20 @@
 ---
 title: Gebruikersaccounts instellen voor integratie met Microsoft Dataverse | Microsoft Docs
-description: Leer hoe u gebruikersaccounts instelt die de apps gebruiken om gegevens uit te wisselen, en die personen gebruiken om toegang te krijgen tot gegevens in de apps en deze te synchroniseren.
+description: 'Leer hoe u gebruikersaccounts instelt die de apps gebruiken om gegevens uit te wisselen, en die personen gebruiken om toegang te krijgen tot gegevens in de apps en deze te synchroniseren.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607350"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Gebruikersaccounts instellen voor integratie met Microsoft Dataverse
+# Gebruikersaccounts instellen voor integratie met Microsoft Dataverse
 
 Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vereist zijn om [!INCLUDE[prod_short](includes/cds_long_md.md)] te integreren met [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-administrator-user-account"></a>Het beheerdersaccount instellen
+## Het beheerdersaccount instellen
 
 U moet uw beheerdersaccount toevoegen voor [!INCLUDE[prod_short](includes/prod_short.md)] als gebruiker in [!INCLUDE[cds_long](includes/cds_long_md.md)]. Bij het instellen van de verbinding tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)] wordt dit account één keer gebruikt om enkele vereiste onderdelen te installeren en configureren.
 
@@ -29,7 +23,7 @@ U moet uw beheerdersaccount toevoegen voor [!INCLUDE[prod_short](includes/prod_s
 >
 > Nadat de verbinding is ingesteld, kan deze [!INCLUDE[prod_short](includes/cds_long_md.md)]-gebruiker worden verwijderd. De integratie blijft het gebruikersaccount gebruiken dat automatisch specifiek voor de integratie wordt gemaakt.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Machtigingen en beveiligingsrollen voor gebruikersaccounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Machtigingen en beveiligingsrollen voor gebruikersaccounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Met de basisintegratieoplossing worden de volgende rollen in [!INCLUDE[cds_long](includes/cds_long_md.md)] voor de integratie gemaakt:
 
@@ -135,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Integreren met Microsoft Dataverse](admin-common-data-service.md)  
 [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

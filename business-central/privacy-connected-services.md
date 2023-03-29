@@ -4,18 +4,12 @@ description: Overzicht van Microsoft-services waarmee Business Central verbindin
 author: jswymer
 ms.topic: overview
 ms.service: dynamics365-business-central
-ms.search.keywords: privacy, trial, Microsoft services
+ms.search.keywords: 'privacy, trial, Microsoft services'
 ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.openlocfilehash: baad6c682a744d87cd6e2d2c0536a06a7b349384
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728756"
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Proeffuncties die verbinding maken met andere Microsoft-services 
+# Proeffuncties die verbinding maken met andere Microsoft-services 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] is een uitgebreide oplossing voor bedrijfsbeheer die diep is geïntegreerd met Microsoft 365 productiviteits-apps en het Power Platform. Uw gratis proefversie van Business Central kan verbinding maken met veel verschillende Microsoft-services die u eerst moet configureren en inschakelen. Om het meeste uit uw gratis proefperiode te halen zijn sommige van deze functies automatisch voor u ingeschakeld. Ook al is de verbinding van [!INCLUDE[prod_short](includes/prod_short.md)] ingeschakeld, deze services zijn niet inbegrepen bij uw proefversie en moeten apart worden aangeschaft, tenzij u ze al hebt.
 
@@ -23,9 +17,9 @@ De onderstaande tabel geeft de verbindingen met Microsoft-services weer die auto
 
 |Servicenaam|Verbinding is automatisch geactiveerd |Er wordt contact opgenomen met de service wanneer u zich aanmeldt bij Business Central |Voorbeeldfunctie die gebruikmaakt van deze service | Meer informatie over het beheren van de verbinding en de functies die deze gebruiken|  
 |------------|-------------|--------|------------|-------------|
-|Microsoft Teams|Ja|Nr.|Actie **Delen met teams** op **artikel** kaart |[Teams-integratie met Business Central beheren](admin-teams-integration.md)|  
-|Microsoft OneDrive voor Bedrijven|Ja|Nr.|Actie **Openen in OneDrive** in **artikel** bijlagen |[OneDrive-integratie met Business Central beheren](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
-| Microsoft Power Automate |Ja|Nr.|**Automatiseren**-acties op **artikel** kaart |[Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|  
+|Microsoft Teams|Ja|Nr.|Actie **Delen met teams** op**artikel**kaart |[Teams-integratie met Business Central beheren](admin-teams-integration.md)|  
+|Microsoft OneDrive voor Bedrijven|Ja|Nr.|Actie **Openen in OneDrive** in **artikel**bijlagen |[OneDrive-integratie met Business Central beheren](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
+| Microsoft Power Automate |Ja|Nr.|**Automatiseren**-acties op **artikel**kaart |[Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|  
 
 > [!NOTE]
 > Door functies te gebruiken die verbinding maken met deze services: 

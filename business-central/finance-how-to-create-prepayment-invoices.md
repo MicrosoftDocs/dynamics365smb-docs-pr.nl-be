@@ -1,32 +1,25 @@
 ---
 title: Vooruitbetalingsfacturen maken
-description: Leer omgaan met situaties waarin u of uw leverancier vooruitbetaling vereist. Gebruik de standaardpercentages voor elke verkoop- of inkoopregel, of u kunt het bedrag naar wens aanpassen.
-author: edupont04
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 42, 50, 9305, 9307
-ms.date: 12/02/2021
-ms.author: edupont
-ms.openlocfilehash: ffb2adb5a0ec43da14ee7fd9126c3293ea73ab22
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534925"
+description: 'Leer omgaan met situaties waarin u of uw leverancier vooruitbetaling vereist. Gebruik de standaardpercentages voor elke verkoop- of inkoopregel, of u kunt het bedrag naar wens aanpassen.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bhielse
+ms.topic: how-to
+ms.date: 02/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices"></a>Vooruitbetalingsfacturen maken
+# Vooruitbetalingsfacturen maken
 
 Als u wilt dat klanten betalen voordat u hun order verzendt, kunt u de vooruitbetalingsfuncties gebruiken. Hetzelfde geldt als uw leverancier van u verlangt dat u een betaling doet voordat zij een order naar u verzenden.  
 
-U kunt het vooruitbetalingsproces starten wanneer u een verkoop- of inkooporder maakt. Als u een standaard vooruitbetalingspercentage hebt voor een artikel in de order of voor de klant of leverancier, wordt dat percentage automatisch opgenomen in de resulterende vooruitbetalingsfactuur. U kunt ook een percentage voor vooruitbetaling opgeven voor het hele document.
+U kunt het vooruitbetalingsproces starten wanneer u een verkoop- of inkooporder maakt. Het standaardvooruitbetalingspercentage voor een artikel in de order of voor de klant of leverancier wordt opgenomen in de vooruitbetalingsfactuur. U kunt ook een percentage voor vooruitbetaling opgeven voor het hele document.
 
 Nadat u een verkoop- of inkooporder hebt gemaakt, kunt u er een vooruitbetalingsfactuur voor maken. Gebruik de standaardpercentages voor elke verkoop- of inkoopregel, of u pas het bedrag naar wens aan. U kunt bijvoorbeeld een totaalbedrag specificeren voor de volledige order.  
 
 In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een verkooporder factureert. De stappen zijn vergelijkbaar voor inkooporders.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Een vooruitbetalingsfactuur maken
+## Een vooruitbetalingsfactuur maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe verkooporder voor de relevante klant. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
@@ -41,6 +34,14 @@ In de volgende procedure wordt beschreven hoe u een vooruitbetaling voor een ver
     Als u een vooruitbetalingsfactuur wilt opgeven met één regel voor elke verkooporderregel die een vooruitbetalingspercentage heeft, kiest u het veld **Vooruitbetaling comprimeren** niet.  
 
     De vervaldatum voor de vooruitbetaling wordt automatisch berekend op basis van de waarde van de **Code betalingscond. vooruitbetaling**.
+
+    > [!NOTE]
+    > Wanneer sommige regels op een factuur 100% vooruitbetaling vereisen en andere regels niet, en er btw op de vooruitbetalingsrekening staat, kan het afgeronde bedrag een fout veroorzaken wanneer u een vooruitbetalingsfactuur maakt. De fout treedt op omdat het vooruitbetalingsfactuurbedrag hoger is dan de bedragen op de documentregels. Om het probleem op te lossen, wijzigt u de bedragen op een of alle regels waarvoor 100% vooruitbetaling vereist is. De wijziging herberekent de afronding van het btw-bedrag en gebruikt het gecumuleerde afrondingsverschil op de laatst gewijzigde regel.
+    >
+    > Er zijn nog twee manieren om het probleem op te lossen:
+    >
+    > * Maak een aparte btw-productboekingsgroep en een btw-boekingsconfiguratie met een aparte btw-identificatiecode en gebruik die voor de artikelen of regels die 100% vooruitbetaling vereisen. Afronding wordt gedaan voor elke btw-identificatiecode, dus afzonderlijke afronding wordt uitgevoerd voor artikelen die zijn toegewezen aan de btw-productboekingsgroep.
+    > * Gebruik een aparte factuur voor de artikelen of regels die wel en geen 100% vooruitbetaling vereisen.
 
 3. Vul de verkoopregels in.  
 
@@ -69,13 +70,13 @@ U kunt andere vooruitbetalingsfacturen verzenden voor de order. Als u nog een fa
 
  Als u klaar bent om de rest van de factuur te boeken, boekt u deze net zoals andere facturen. Het vooruitbetalingsbedrag wordt automatisch afgetrokken van het verschuldigde bedrag.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>De status van vooruitbetaalde orders en facturen automatisch bijwerken
+## De status van vooruitbetaalde orders en facturen automatisch bijwerken
 
 U kunt de verwerking van orders en facturen versnellen door taakwachtrijen in te stellen die automatisch de status van die documenten bijwerken. Wanneer een vooruitbetalingsfactuur is betaald, kunnen de items in de wachtrij automatisch de documentstatus wijzigen van **In afwachting van vooruitbetaling** in **Vrijgegeven**. Wanneer u de opdrachten in de wachtrij instelt, zijn de codeunits die u moet gebruiken: **383 Verkopen wachtend op vooruitbetaling bijwerken** en **383 Inkopen wachtend op vooruitbetaling bijwerken**. We raden u aan de items zo te plannen dat ze regelmatig worden uitgevoerd, bijvoorbeeld elke minuut. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vooruitbetalingen factureren](finance-invoice-prepayments.md)  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

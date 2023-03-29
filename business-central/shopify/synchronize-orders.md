@@ -4,22 +4,17 @@ description: Import en verwerking van verkooporders vanuit Shopify instellen en 
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,
+ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802943"
 ---
-# <a name="synchronize-and-fulfill-sales-orders"></a>Verkooporders synchroniseren en uitvoeren
+
+# Verkooporders synchroniseren en uitvoeren
 
 In dit artikel worden de benodigde instellingen en stappen beschreven die u moet uitvoeren om verkooporders te synchroniseren en af te handelen met Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>De import van orders instellen op de Shopify-winkelkaart
+## De import van orders instellen op de Shopify-winkelkaart
 
 Voer een **Valutacode** in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDE[prod_short](../includes/prod_short.md)], laat u het veld leeg. 
 
@@ -37,7 +32,7 @@ Het verkoopdocument in [!INCLUDE[prod_short](../includes/prod_short.md)] bevat e
 
 In het veld **Bron van belastinggebied** kunt u de prioriteit definiëren voor het selecteren van de btw-gebiedscode of de btw-bedrijfsboekingsgroep, op basis van adres. De geïmporteerde Shopify-order bevat informatie over belastingen, maar de belastingen worden opnieuw berekend wanneer u het verkoopdocument maakt, dus het is belangrijk dat de btw-/belastinginstellingen correct zijn in [!INCLUDE[prod_short](../includes/prod_short.md)]. Voor meer informatie over belastingen zie [Belastingen instellen voor de Shopify-verbinding](setup-taxes.md).
 
-### <a name="shipment-method-mapping"></a>Toewijzing van verzendwijzen
+### Toewijzing van verzendwijzen
 
 De **Code van verzendwijze** voor verkoopdocumenten die worden geïmporteerd uit Shopify; kan automatisch worden ingevuld. U moet de **Toewijzing van verzendwijzen** configureren.
 
@@ -50,7 +45,7 @@ De **Code van verzendwijze** voor verkoopdocumenten die worden geïmporteerd uit
 > [!NOTE]  
 > Als er meerdere verzendkosten aan een verkooporder zijn gekoppeld, wordt er slechts één geselecteerd als de verzendmethode en toegewezen aan het verkoopdocument.
 
-### <a name="location-mapping"></a>Locatietoewijzing
+### Locatietoewijzing
 
 De locatietoewijzing is vereist voor drie doeleinden:
 
@@ -64,7 +59,7 @@ De locatietoewijzing is vereist voor drie doeleinden:
 4. Kies de actie **Shopify-vestigingen ophalen** om alle locaties te importeren die zijn gedefinieerd in Shopify. U vindt ze in de [**Vestigingen**](https://www.shopify.com/admin/settings/locations)-instellingen in uw **Shopify beheer**-venster. Merk op dat de locatie gemarkeerd als *Standaard* wordt gebruikt bij het importeren van onvervulde Shopify-orders.
 5. Voer de **Standaard vestiging** in met de bijbehorende locatie in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="run-the-order-synchronization"></a>De ordersynchronisatie uitvoeren
+## De ordersynchronisatie uitvoeren
 
 In de volgende procedure wordt beschreven hoe u de verkooporders importeert en bijwerkt.
 
@@ -76,24 +71,28 @@ In de volgende procedure wordt beschreven hoe u de verkooporders importeert en b
 3. Kies de actie **Orders**.
 4. Kies de actie **Orders synchroniseren vanuit Shopify**.
 5. Definieer indien nodig filters op orders. U kunt bijvoorbeeld volledig betaalde orders of orders met een laag risiconiveau importeren.
-6. Kies de knop **Ok**.
+
+> [!NOTE]  
+> Bij het filteren op tag moet u filtertokens `@` en `*` gebruiken. Als u bijvoorbeeld orders wilt importeren die *tag1* bevatten, gebruikt u `@*tag1*`. `@` zal ervoor zorgen dat het resultaat niet hoofdlettergevoelig is, terwijl `*` orders met meerdere tags vindt.
+
+7. Kies de knop **Ok**.
 
 U kunt ook zoeken naar de batchverwerking **Orders synchroniseren vanuit Shopify**.
 
 U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
 
-## <a name="review-imported-orders"></a>Geïmporteerde bestellingen bekijken
+## Geïmporteerde bestellingen bekijken
 
 Zodra het importeren is voltooid, kunt u de Shopify-order verkennen en alle gerelateerde informatie zoeken, zoals de betalingstransacties, verzendkosten, risiconiveau, orderkenmerken en -tags of afhandelingen, als de order al is afgehandeld in Shopify. U kunt ook een orderbevestiging zien die naar de klant is verzonden door de actie **Shopify-statuspagina** te kiezen.
 
 > [!NOTE]  
 > U kunt rechtstreeks navigeren naar het venster **Shopify-orders** en u ziet dan orders met de status *Geopend* van alle winkels. Om voltooide orders te bekijken moet u de pagina **Shopify-orders** openen vanuit het specifieke **Shopify-winkelkaart** venster.
 
-## <a name="create-sales-documents-in-business-central"></a>Verkoopdocument maken in Business Central
+## Verkoopdocument maken in Business Central
 
 Als de schakelaar **Automatisch orders maken** is ingeschakeld op de **Shopify-winkelkaart**, probeert [!INCLUDE[prod_short](../includes/prod_short.md)] een verkoopdocument te maken zodra de order is geïmporteerd. Als er problemen optreden, zoals een ontbrekende klant of product, moet u de problemen oplossen en vervolgens de verkooporder opnieuw maken.
 
-### <a name="to-create-sales-documents"></a>Verkoopdocumenten maken
+### Verkoopdocumenten maken
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkels** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u orders wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
@@ -105,15 +104,15 @@ Als de Shopify-order afhandeling vereist, wordt een **verkooporder** gemaakt. Vo
 
 Er wordt nu een verkoopdocument gemaakt en het kan worden beheerd met behulp van de standaardfunctionaliteit van [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### <a name="manage-missing-customers"></a>Ontbrekende klanten beheren
+### Ontbrekende klanten beheren
 
 Als uw instellingen voorkomen dat automatisch een klant wordt gemaakt en geen juiste bestaande klant kan worden gevonden, moet u handmatig een klant toewijzen aan een Shopify-order. Dit kunt u op enkele manieren doen:
 
 * U kunt het **orderklantnr.** toewijzen, en **Factuurklantnr.** rechtstreeks op de pagina **Shopify-orders** door een klant te kiezen uit de lijst met bestaande klanten.
-* U kunt een klantsjablooncode selecteren en vervolgens de klant maken en toewijzen via de actie **Nieuwe klant maken** op de pagina **Shopify-orders**.
+* U kunt een klantsjablooncode selecteren en vervolgens de klant maken en toewijzen via de actie **Nieuwe klant maken** op de pagina **Shopify-orders**. Merk op dat de Shopify-klant minimaal één adres moet hebben. Bij orders die zijn gemaakt via het verkoopkanaal Shopify POS ontbreken vaak adresgegevens.
 * U kunt een bestaande klant toewijzen aan de gerelateerde **Shopify-klant** in het venster **Shopify-klanten** en vervolgens de actie **Toewijzing zoeken** kiezen op de pagina **Shopify-orders**.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>Hoe de connector kiest welke klant te gebruiken
+### Hoe de connector kiest welke klant te gebruiken
 
 De functie *Order importeren uit Shopify* probeert de klant in de volgende volgorde te selecteren:
 
@@ -129,7 +128,7 @@ De volgende stappen zijn afhankelijk van het **Type klanttoewijzing**.
 > [!NOTE]  
 > De connector gebruikt informatie van het factuuradres en creëert de factuurklant [!INCLUDE[prod_short](../includes/prod_short.md)]. De orderklant is dezelfde als de factuurklant.
 
-### <a name="impact-of-order-editing"></a>Impact van bewerkingen van orders
+### Impact van bewerkingen van orders
 
 In Shopify:
 
@@ -149,7 +148,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 |De hoeveelheid verlagen. Verzending boeken | De Shopify-order wordt gemarkeerd als gedeeltelijk vervuld. |
 |Een nieuw artikel toevoegen. Verzending boeken | De Shopify-order wordt gemarkeerd als afgehandeld. Regels worden niet bijgewerkt. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Verzendingen synchroniseren met Shopify
+## Verzendingen synchroniseren met Shopify
 
 Wanneer een verkooporder die is gemaakt op basis van een Shopify-order, wordt verzonden, kunt u de verzendingen synchroniseren met Shopify.
 
@@ -167,7 +166,7 @@ U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie vo
 
 Vergeet niet **Orders synchroniseren vanuit Shopify** uit te voeren om de afhandelingsstatus van een order bij te werken in [!INCLUDE[prod_short](../includes/prod_short.md)]. De connectorfunctionaliteit archiveert ook volledig betaalde en afgehandelde orders in zowel Shopify als [!INCLUDE[prod_short](../includes/prod_short.md)], mits aan de voorwaarden is voldaan.
 
-### <a name="shipping-agents-and-tracking-url"></a>Expediteurs en tracerings-URL
+### Expediteurs en tracerings-URL
 
 Als het document van de **geboekte verkoopverzending** de **Expediteurscode** en/of **Traceringsnummer (zending)** bevat, wordt deze informatie in de e-mail met de verzendbevestiging verzonden naar Shopify en naar de klant.
 
@@ -179,7 +178,7 @@ Het traceringsbedrijf wordt ingevuld in de volgende volgorde (van hoog naar laag
 
 Als het veld **Tracerings-URL van pakket** is ingevuld voor de expediteursrecord, bevat de verzendbevestiging ook een tracerings-URL.
 
-## <a name="gift-cards"></a>Geschenkbonnen
+## Geschenkbonnen
 
 In de Shopify-winkel kunt u cadeaubonnen verkopen, die kunnen worden gebruikt om voor echte producten te betalen.
 
@@ -187,6 +186,6 @@ Bij het omgaan met cadeaubonnen is het belangrijk om een waarde in te voeren in 
 
 Om de uitgegeven en toegepaste cadeaubonnen te bekijken kiest u het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geschenkbonnen** in en kiest u vervolgens de gerelateerde koppeling.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Aan de slag met de connector voor Shopify](get-started.md)  

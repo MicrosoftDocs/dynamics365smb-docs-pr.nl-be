@@ -1,34 +1,43 @@
 ---
 title: Gebruikers en rollen beheren
 description: Leer hoe u gebruikersprofielen en rolcentra beheert in Business Central. Met profielen kunnen beheerders centraal definiëren en beheren wat gebruikers kunnen zien en doen.
-author: SorenGP
-ms.topic: conceptual
-ms.search.keywords: profiles, users
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 01/11/2023
+ms.custom: bap-template
 ms.search.form: 9171
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 98f20082b6519412c5f860e9cfd0b52a9fdb57fa
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529365"
 ---
-# <a name="manage-user-profiles"></a>Gebruikersprofielen beheren
+# Gebruikersprofielen beheren
 
-Alle gebruikers van [!INCLUDE[prod_short](includes/prod_short.md)] krijgen een profiel toegewezen dat een afspiegeling is van hun zakelijke rol, de afdeling waarin ze werken of een andere categorisatie. Met profielen kunnen beheerders centraal definiëren en beheren wat verschillende gebruikerstypen in de gebruikersinterface kunnen zien en doen, zodat zij hun zakelijke taken efficiënt kunnen uitvoeren.
+Wijs alle gebruikers toe aan profielen die het volgende weerspiegelen:
+
+* Hun zakelijke rol
+* De afdeling waar ze werken
+* Een ander type categorisatie
+
+Met profielen kunnen beheerders centraal definiëren en beheren waartoe verschillende soorten gebruikers toegang hebben in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > Het typische zakelijke gebruik van een profiel is een rol. Een profiel wordt daarom genoemd *Profiel (rol)* in de gebruikersinterface.
 
-Als beheerder maakt en beheert u profielen op de pagina **Profielen (rollen)**. Elk profiel heeft een kaart waarop u verschillende instellingen voor de gerelateerde rol beheert, zoals de rolnaam, de gebruikersinstellingen en welk rolcentrum het profiel gebruikt. Zie voor meer informatie over gebruikersinstellingen en rolcentra [Basisinstellingen wijzigen](ui-change-basic-settings.md).
+Als beheerder maakt en beheert u profielen op de pagina **Profielen (rollen)**. Elk profiel heeft een kaart waarop u de instellingen voor de gerelateerde rol beheert. De kaart bevat bijvoorbeeld de volgende informatie:
 
-Voordat u gebruikersprofielen kunt beheren, moeten de gebruikers worden gemaakt en toegevoegd via het Microsoft 365-beheercentrum. Vervolgens kunt u machtigingen toewijzen aan elke gebruiker of gebruikersgroep om te definiëren welke functies ze mogen bekijken en/of bewerken. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.
+* Naam van de rol
+* Gebruikersconfiguratie
+* Het rolcentrum dat door het profiel wordt gebruikt
 
-## <a name="page-customization"></a>Pagina-aanpassing
+Zie voor meer informatie over gebruikersinstellingen en rolcentra [Basisinstellingen wijzigen](ui-change-basic-settings.md).
+
+Voordat u gebruikersprofielen kunt beheren, moeten de gebruikers worden gemaakt en toegevoegd via het Microsoft 365-beheercentrum. U kunt vervolgens machtigingen toewijzen aan elke gebruiker of gebruikersgroep. Machtigingen definiëren de functies waartoe gebruikers toegang hebben. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.
+
+## Pagina-aanpassing
+
 U kunt paginalay-outs voor een profiel aanpassen, zodat alle gebruikers aan wie het profiel is toegewezen de aangepaste pagina's kunnen zien. Als beheerder kunt u pagina's aanpassen met dezelfde functionaliteit die gebruikers gebruiken wanneer ze personaliseren. Zie voor meer informatie [Pagina's aanpassen voor profielen](ui-personalization-manage.md).
 
-## <a name="to-create-a-profile"></a>Een profiel maken
+## Een profiel maken
 
 Als u geen bestaand profiel kunt kopiëren, kunt u handmatig een nieuw profiel maken.
 
@@ -39,7 +48,8 @@ Als u geen bestaand profiel kunt kopiëren, kunt u handmatig een nieuw profiel m
 > [!TIP]
 > Als u wilt dat een bepaald profiel alleen beschikbaar is voor zeer specifieke gebruikers, kunt u het veld **Beschrijving** instellen op `Navigation menu only.`. Op deze manier wordt het profiel uitgesloten van de lijst met beschikbare rollen in **Mijn instellingen**.
 
-## <a name="to-copy-a-profile"></a>Een profiel kopiëren
+## Een profiel kopiëren
+
 Om tijd te besparen kunt u een nieuw profiel maken door een bestaand profiel te kopiëren. Kopieer er een met vergelijkbare instellingen als die u wilt maken.
 
 > [!NOTE]
@@ -49,13 +59,15 @@ Om tijd te besparen kunt u een nieuw profiel maken door een bestaand profiel te 
 2. Vul de velden **Profiel-id** en **Weergavenaam** in en kies vervolgens de knop **OK**.
 3. Open op de pagina **Profielen (rollen)** de nieuw gemaakte profielkaart en bewerk vervolgens andere velden indien nodig.
 
-## <a name="to-edit-a-profile"></a>Een profiel bewerken
+## Een profiel bewerken
+
 U kunt een profiel bewerken door de velden te wijzigen op de pagina **Profiel (rol)**. De wijzigingen worden pas zichtbaar voor de gebruiker aan wie het profiel is toegewezen na af- en weer aanmelden.
 
 > [!Caution]
 > Wijzig de naam van het profiel niet terwijl er gebruikers aan wie het profiel is toegewezen, aangemeld zijn, omdat het product dan kan vastlopen en opnieuw opgestart moet worden.
 
-## <a name="to-assign-a-profile-to-a-user"></a>Een profiel aan een gebruiker toewijzen
+## Een profiel aan een gebruiker toewijzen
+
 Gebruikers kunnen zichzelf een rol toewijzen (die een profiel vertegenwoordigt) door het veld **Rol** te kiezen op de pagina **Mijn instellingen**. Als beheerder kunt u hetzelfde doen via de pagina **Profielen (rollen)**.
 
 1. Selecteer op de pagina **Profielen (rollen)** het profiel dat u wilt toewijzen en kies vervolgens de actie **Overzicht persoonlijke gebruikersinstellingen**.
@@ -65,33 +77,38 @@ Gebruikers kunnen zichzelf een rol toewijzen (die een profiel vertegenwoordigt) 
 > [!NOTE]
 > Als u een ander profiel aan een gebruiker toewijst, blijven eventuele aanpassingen die door de gebruiker met het vorige profiel zijn aangebracht, behouden.
 
-## <a name="to-define-user-settings-for-a-profile"></a>Gebruikersinstellingen voor een profiel definiëren
+## Gebruikersinstellingen voor een profiel definiëren
+
 Op de pagina **Mijn instellingen** kunnen gebruikers basisgedrag van hun account definiëren, zoals het rolcentrum, de taal en welke meldingen ze ontvangen. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
 
-Als beheerder kunt u deze instelling voor een profiel definiëren en daarmee de instellingen toepassen op alle gebruikers van de gerelateerde rol.
+Als beheerder kunt u instellingen voor een profiel definiëren. De instellingen zijn van toepassing op alle gebruikers die aan de rol zijn toegewezen.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Profielen (rollen)** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Profielen (rollen)** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel voor het profiel waarvoor u de gebruikersinstellingen wilt wijzigen, kies de actie Navigeren en kies vervolgens de actie **Lijst persoonlijke gebruikersinstellingen**.
 3. Open op de pagina **Persoonlijke gebruikersinstellingen** de kaart voor de gebruiker van wie u de instellingen wilt wijzigen.
 4. Bewerk indien nodig op de pagina **Gebruikerspersonalisatiekaart** de velden.
 
-## <a name="to-activate-a-profile"></a>Een profiel activeren
-Wanneer een profiel wordt gemaakt, kunt u verschillende selectievakjes selecteren die bepalen of, waar en hoe het profiel en de bijbehorende informatie beschikbaar worden gesteld aan gebruikers.
+## Een profiel activeren
 
-* Schakel op de pagina **Profiel (rol)** de volgende selectievakjes in:
-    - **Ingeschakeld** om aan te geven of de gerelateerde rol zichtbaar is op de pagina **Beschikbare rollen** voor gebruikers om uit te kiezen.  
-    - **Als standaardprofiel gebruiken** om het profiel op te geven dat van toepassing is op gebruikers aan wie geen specifieke rol is toegewezen.
-    - **Personalisatie uitschakelen** om aan te geven of gebruikers van de gerelateerde rol hun werkruimte kunnen personaliseren.
-    - **Weergeven in Rollenverkenner** om op te geven of acties op zakelijke functies in het profiel moeten worden weergegeven in de uitgebreide weergave van de rollenverkenner, een functieoverzicht. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md).
+Wanneer u een profiel maakt, kunt u bepalen of, waar en hoe het profiel en de bijbehorende informatie beschikbaar zijn voor gebruikers.
 
-## <a name="to-export-profiles"></a>Profielen exporteren
-U kunt profielen exporteren uit [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld om ze te hergebruiken in een andere tenant. De profielen worden geëxporteerd naar een zipbestand met .al-bestanden die opnieuw kunnen worden gebruikt om extensies te ontwikkelen. Zie [De client gebruiken om profielen en pagina-aanpassingen te maken](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client) voor meer informatie.
+Schakel op de pagina **Profiel (rol)** de volgende selectievakjes in:
+
+* **Ingeschakeld** om aan te geven of de gerelateerde rol zichtbaar is op de pagina **Beschikbare rollen** voor gebruikers om uit te kiezen.  
+* **Als standaardprofiel gebruiken** om het profiel op te geven dat van toepassing is op gebruikers aan wie geen specifieke rol is toegewezen.
+* **Personalisatie uitschakelen** om aan te geven of gebruikers van de gerelateerde rol hun werkruimte kunnen personaliseren.
+* **Weergeven in Rollenverkenner** om op te geven of acties op zakelijke functies in het profiel moeten worden weergegeven in de uitgebreide weergave van de rollenverkenner, een functieoverzicht. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md).
+
+## Profielen exporteren
+
+U kunt profielen exporteren uit [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld om ze te hergebruiken in een andere tenant. De profielen worden geëxporteerd naar een zipbestand dat AL-bestanden bevat. U kunt de AL-bestanden opnieuw gebruiken om extensies te ontwikkelen. Zie [De client gebruiken om profielen en pagina-aanpassingen te maken](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client) voor meer informatie.
 
 * Kies op de pagina **Profielen (rollen)** de actie **Profielen exporteren**.
 
-Een zip-bestand met de .al-bestanden voor alle profielen wordt geëxporteerd.
+    Deze actie exporteert een zipbestand dat AL-bestanden voor alle profielen bevat.
 
-## <a name="to-import-profiles"></a>Profielen importeren
+## Profielen importeren
+
 U kunt profielen importeren die zijn geëxporteerd vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. De stappen zijn min of meer het tegenovergestelde van de stappen om profielen te exporteren. Zie [Profielen exporteren](admin-users-profiles-roles.md#to-export-profiles) voor meer informatie.
 
 1. Kies op de pagina **Profielen (rollen)** de actie **Profielen importeren**.
@@ -100,19 +117,21 @@ U kunt profielen importeren die zijn geëxporteerd vanuit [!INCLUDE[prod_short](
     Als u alleen geselecteerde profielen wilt importeren, gebruikt u het selectievakje **Geselecteerd** om aan te geven welke u wilt importeren.
 3. Kies de knop **Selectie importeren**.
 
-Een zip-bestand met de .al-bestanden voor de geselecteerde profielen wordt geïmporteerd.
+    Deze actie importeert een zipbestand dat AL-bestanden voor de geselecteerde profielen.
 
-## <a name="to-delete-a-profile"></a>Een profiel verwijderen
+## Een profiel verwijderen
+
 U kunt een profiel verwijderen door de actie **Verwijderen** te kiezen op de pagina **Profielen (rollen)**. De volgende beperkingen zijn echter van toepassing:
 
-- U kunt een profiel dat aan een gebruiker of een gebruikersgroep is toegewezen, niet verwijderen.
-- U kunt geen profielen verwijderen die afkomstig zijn van extensies. De extensie moet eerst worden verwijderd.
-- U kunt slechts één profiel tegelijk verwijderen.
+* U kunt een profiel dat aan een gebruiker of een gebruikersgroep is toegewezen, niet verwijderen.
+*-* U kunt geen profielen verwijderen die afkomstig zijn van extensies. De extensie moet eerst worden verwijderd.
+*-* U kunt slechts één profiel tegelijk verwijderen.
 
-## <a name="to-delete-all-personalizations-made-by-a-user"></a>Alle aanpassingen verwijderen die door een gebruiker zijn aangebracht.
-U kunt alle wijzigingen verwijderen die een gebruiker heeft aangebracht in pagina's die deel uitmaken van hun werkruimte. Dit kan bijvoorbeeld handig zijn als een werknemer van rol is veranderd en de personalisaties niet langer nodig heeft. Als u de aanpassingen van gebruikers verwijdert, wordt de pagina-indeling teruggezet naar de in het profiel gedefinieerde indeling.
+## Alle aanpassingen verwijderen die door een gebruiker zijn aangebracht.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Persoonlijke gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.
+U kunt alle wijzigingen verwijderen die een gebruiker op pagina's heeft aangebracht. Wijzigingen verwijderen kan bijvoorbeeld handig zijn als een werknemer van rol is veranderd en ze niet langer nodig heeft. Door verwijderingen wordt de paginalay-out teruggezet naar wat door het profiel wordt gedefinieerd.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Persoonlijke gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.
 
     De pagina **Persoonlijke gebruikersinstellingen** bevat alle gebruikers die persoonlijke instellingen hebben aangebracht.
 
@@ -123,8 +142,9 @@ De gebruiker ziet de wijzigingen de volgende keer dat hij of zij zich aanmeldt.
 
 U kunt ook alle pagina-aanpassingen voor een profiel verwijderen. Zie voor meer informatie [Alle aanpassingen voor een profiel verwijderen](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
 
-## <a name="to-delete-personalizations-for-specific-pages"></a>Personalisaties voor specifieke pagina's verwijderen
-U kunt personalisaties verwijderen die een of meer gebruikers hebben aangebracht op specifieke pagina's waaruit hun werkruimte bestaat. Dit kan bijvoorbeeld handig zijn als een gewijzigd bedrijfsproces betekent dat een personalisatie niet langer door gebruikers mag worden gebruikt. Als u de aanpassingen van gebruikers verwijdert, wordt de pagina-indeling teruggezet naar de in het profiel gedefinieerde indeling.
+## Personalisaties voor specifieke pagina's verwijderen
+
+U kunt personalisaties verwijderen die een of meer gebruikers hebben aangebracht op specifieke pagina's. Personalisaties verwijderen kan bijvoorbeeld handig zijn als een gewijzigd bedrijfsproces betekent dat een personalisatie niet langer moet worden gebruikt. Door verwijderingen wordt de paginalay-out teruggezet naar wat door het profiel wordt gedefinieerd.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Persoonlijke gebruikersinstellingen van pagina** in en kies vervolgens de gerelateerde koppeling.
 
@@ -139,15 +159,15 @@ De gebruiker ziet de wijzigingen de volgende keer dat hij of zij zich aanmeldt.
 
 U kunt ook afzonderlijke pagina-aanpassingen voor een profiel verwijderen. Zie voor meer informatie [Aanpassingen voor specifieke pagina's voor een profiel verwijderen](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
-## <a name="managing-user-sessions"></a>Gebruikerssessies beheren
+## Gebruikerssessies beheren
 
-Als beheerder van [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u gebruikerssessies beheren in het beheercentrum. Zie voor meer informatie [Sessies beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in de beheerinhoud.  
+Als beheerder van [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u gebruikerssessies beheren in het beheercentrum. Zie voor meer informatie [Sessies beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions) in de beheerinhoud.  
 
 Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kunt u sessies beheren met bijvoorbeeld SQL Server Management Studio. Zie voor meer informatie [Technische documentatie over SQL Server](/sql/sql-server).  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/users-security-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/users-security-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  

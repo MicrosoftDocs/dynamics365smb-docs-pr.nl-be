@@ -1,120 +1,126 @@
 ---
 title: Artikelen verzenden
-description: In dit artikel wordt beschreven hoe u artikelen vanuit uw magazijn verzendt, afhankelijk van uw magazijnconfiguratie voor verzendingsverwerking.
-author: SorenGP
+description: In dit artikel wordt beschreven hoe u artikelen verzendt vanuit uw magazijn.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
-ms.date: 09/02/2022
-ms.author: edupont
-ms.openlocfilehash: b66a0a0a4cad12c4f41c53569b0007c51e846de7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531228"
+ms.date: 02/22/2023
+ms.custom: bap-template
+ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# <a name="ship-items"></a>Artikelen verzenden
 
-Wanneer u artikelen verzendt vanuit een magazijn waarvoor magazijnverzendingsverwerking niet is ingesteld, registreert u de verzending in het gerelateerde bedrijfsdocument, zoals een verkooporder, serviceorder, inkoopretourorder of uitgaande transferorder.
+# Artikelen verzenden met een magazijnverzending
 
-Als u artikelen verzendt vanuit een magazijn dat is ingesteld voor magazijnverzendingsverwerking, kunt u artikelen alleen verzenden op basis van brondocumenten die door andere afdelingen zijn vrijgegeven voor magazijnactiviteiten.
+In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
-> [!NOTE]
-> Als u in uw magazijn met cross-docking en opslaglocaties werkt, kunt u voor elke regel u zien hoeveel artikelen in de cross-dockopslaglocaties zijn geplaatst. Deze aantallen worden automatisch berekend wanneer de velden op de verzending worden bijgewerkt. Als dit de artikelen voor de voorbereide verzending zijn, kunt u een pick maken voor alle regels en de verzendingen vervolgens voltooien. Zie voor meer informatie [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md).
+|Methode|Uitgaand proces|Pick vereist|Verzending vereist|Complexiteitsniveau (meer informatie op [Overzicht van magazijnbeheer](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Picken en verzending vanaf de orderregel boeken|||Geen specifieke magazijnactiviteit.|  
+|B|Picken en verzending vanuit een voorraadpickdocument boeken|Ingeschakeld||Basis: Order voor order|  
+|H|Picken en verzending vanuit een magazijnverzendingdocument boeken||Ingeschakeld|Basis: Geconsolideerde boeking voor ontvangen/verzenden voor meerdere orders.|  
+|D|Picken vanuit een magazijnpickdocument boeken en verzending vanuit een magazijnverzendingdocument boeken|Ingeschakeld|Ingeschakeld|Geavanceerd|  
 
-## <a name="ship-items-with-a-sales-order"></a>Artikelen verzenden met een verkooporder
+Ga voor meer informatie over het verzenden van artikelen naar [Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md).
 
-In de volgende instructies wordt beschreven hoe u artikelen verzendt vanuit een verkooporder. De stappen zijn vergelijkbaar voor inkoopretourorders, serviceorders en uitgaande transferorders.  
+Dit artikel verwijst naar methoden C en D in de tabel. Bij beide methoden maakt u eerst een verzendingsdocument op basis van een bedrijfsbrondocument. Vervolgens pickt u de opgegeven artikelen voor de verzending.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
-2. Open een bestaande verkooporder of maak een nieuwe. Zie voor meer informatie [Producten verkopen](sales-how-sell-products.md).
-3. Voer in het veld **Te verzenden aantal** het aantal in dat u hebt verzonden.
+Wanneer een vestiging magazijnverzendingen vereist, kunt u artikelen verzenden op basis van brondocumenten die zijn vrijgegeven voor het magazijn. Door brondocumenten vrij te geven, zijn de artikelen die erop staan gereed voor verwerking in het magazijn. Het volgende zijn voorbeelden van brondocumenten:
 
-    De waarde in het veld **Verzonden aantal** wordt dienovereenkomstig bijgewerkt. Als het een gedeeltelijke verzending is, is de waarde lager dan de waarde in het veld **Aantal**. Zie voor meer informatie [Gedeeltelijke verzendingen verwerken](sales-how-send-partial-shipments.md).
-4. Kies de actie **Boeken**.
+* Verkooporders
+* Inkoopretourorders
+* Transferorders
+* Serviceorders
 
-> [!NOTE]
-> Als uw organisatie geen verkooporders gebruikt, gaat [!INCLUDE [prod_short](includes/prod_short.md)] er wanneer u de verkoopfactuur boekt, ervan uit dat u de volledige hoeveelheid hebt verzonden. Als dit in tegenspraak is met hoe uw organisatie werkt, raden we u aan verkooporders te gebruiken en zendingen te registreren zoals uitgelegd in dit artikel.
+U kunt een magazijnverzending op twee manieren maken:
 
-## <a name="ship-items-with-a-warehouse-shipment"></a>Artikelen verzenden met een magazijnverzending
+* Met pushing wanneer er per order wordt gewerkt. Kies de actie **Magazijnverzending maken** in het brondocument om een magazijnverzending voor het document aan te maken.
+* Door pushing, waarbij u de actie **Vrijgeven** in het brondocument gebruikt om vrij te geven aan het magazijn. Een magazijnmedewerker maakt een **magazijnverzending** voor een of meer vrijgegeven brondocumenten. In de volgende procedure wordt beschreven hoe u een magazijnverzending met pushing maakt.
 
-Eerst maakt u een verzendingsdocument op basis van een bedrijfsbrondocument. Vervolgens pickt u de opgegeven artikelen voor de verzending.
-
-### <a name="create-a-warehouse-shipment"></a>Een magazijnverzending maken
-
-Gewoonlijk maakt de werknemer die verantwoordelijk voor verzendingen is een magazijnverzending. De volgende procedure beschrijft hoe u de verzending handmatig kunt maken in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)]. Het is echter mogelijk dat uw organisatie een deel van het proces heeft geautomatiseerd, bijvoorbeeld door het gebruik van draagbare of gemonteerde scanners die worden ondersteund door externe providers.  
+## Artikelen verzenden met een magazijnverzendingsdocument
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies **Nieuwe**.  
+3. In het veld **Nr.** kiest u de nummerreeks die u wilt gebruiken om een ID voor de zending aan te maken.  
+4. Kies in het veld **Vestiging** de vestiging van waaruit u verzendt. 
 
-    Vul de velden op het sneltabblad **Algemeen** in. Bij het ophalen van brondocumentregels worden bepaalde gegevens automatisch naar elke regel gekopieerd.  
+    Bij het ophalen van brondocumentregels worden bepaalde gegevens van de vestiging naar elke regel gekopieerd.  
+5. Als de vestiging opslaglocaties vereist, vult u het veld **Opslaglocatie** in. Afhankelijk van uw configuratie kan [!INCLUDE[prod_short](includes/prod_short.md)]] de opslaglocatie voor u toevoegen. Ga voor meer informatie naar [Zonecodes en opslaglocatiecodes](warehouse-how-ship-items.md#zone-and-bin-codes).  
+6. U kunt het brondocument op twee manieren ophalen:
 
-    Voor een magazijnconfiguratie die is geconfigureerd met gestuurde opslag en pick: als de vestiging een standaardzone en -opslaglocatie voor verzendingen heeft, worden de velden **Zone** en **Opslaglocatie** automatisch ingevuld. U kunt deze waarden desgewenst wijzigen.  
+    * Kies de actie **Brondocumenten ophalen**. De pagina **Brondocumenten - Uitgaand** verschijnt. Hier kunt u een of meer brondocumenten selecteren die zijn vrijgegeven naar het magazijn waarvoor verzending vereist is.
+    * Kies de actie **Filters om brondoc. op te halen gebruiken**. De pagina **Filters om brondocumenten op te halen** wordt geopend. U kunt het brondocumentfilter selecteren en uitvoeren. Alle vrijgegeven brondocumentregels die aan de filtercriteria voldoen, worden toegevoegd op de pagina **Magazijnverzending**. Meer info op [Procedure: Filters gebruiken om brondocumenten op te halen](warehouse-how-ship-items.md#how-to-use-filters-to-get-source-documents).
 
-    > [!NOTE]  
-    > Als u artikelen wilt verzenden met andere magazijnklassen dan de magazijnklasse van de opslaglocatie in het veld **Opslaglocatie** in de documentkop, moet u de inhoud van het veld **Opslaglocatie** in de kop verwijderen voordat u de brondocumentregels voor de artikelen ophaalt.  
-3. Kies de actie **Brondocumenten ophalen**. De pagina **Brondocumenten** verschijnt.
+    > [!NOTE]
+    > Als uw vestiging cross-docking en opslaglocaties voor elke regel gebruikt, kunt u de hoeveelheid artikelen die in de cross-dockopslaglocaties zijn geplaatst controleren. [!INCLUDE [prod_short](includes/prod_short.md)] berekent de aantallen wanneer de velden op de verzending worden bijgewerkt. Als dit de artikelen op de verzending zijn die u voorbereidt, kunt u een pick maken voor alle artikelen en de verzending vervolgens voltooien. Zie voor meer informatie [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md).
 
-    U kunt vanuit een nieuwe of geopende magazijnverzending de pagina **Filters om brondoc. op te halen** gebruiken voor het ophalen van de vrijgegeven brondocumentregels die bepalen welke artikelen moeten worden verzonden.
+7. Maak een magazijnpick. Als de vestiging picken vereist, kunt u op twee manieren pickactiviteiten voor magazijnverzendingen maken:
 
-    1. Kies de actie **Filters om brondoc. op te halen gebruiken**.  
-    2. U stelt een nieuw filter in door een omschrijvende code in te voeren in het veld **Code** en vervolgens de actie **Wijzigen** te kiezen.  
-    3. Definieer het soort brondocumentregels dat u wilt ophalen door de relevante filtervelden in te vullen.  
-    4. Kies de actie **Uitvoeren**.  
+    * Op een push-manier, waarbij u de actie **Pick maken** gebruikt. Selecteer de te picken regels en geef informatie over de picks op. Bijvoorbeeld de opslaglocaties waaruit u wilt halen en waarin u wilt plaatsen en hoeveel eenheden u wilt verwerken. De opslaglocaties kunnen vooraf worden gedefinieerd voor de magazijnlocatie of resource.
+    * Op een pull-manier, waarbij u de actie **Vrijgeven** gebruikt. Gebruik op de pagina **Pickvoorstel** de actie **Magazijndocumenten ophalen** om uw toegewezen picks te krijgen. Wanneer de magazijnpicks volledig zijn geregistreerd, worden de regels in het venster **Pickvoorstel** verwijderd. Meer info op [Picken van artikelen voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-    Alle vrijgegeven brondocumentregels die voldoen aan de filtercriteria worden nu ingevoegd op de pagina **Mag. -verzending** van waaruit u de filterfunctie hebt geactiveerd.  
+> [!TIP]
+> Voor een vestiging waarvoor picken niet nodig is, kunt u magazijnverzending afdrukken en gebruiken als picklijst.
 
-    De filtercombinaties die u definieert, worden opgeslagen op de pagina **Filters om brondoc. op te halen** tot de volgende keer dat u deze nodig hebt. U kunt een onbeperkt aantal filtercombinaties maken. U kunt de criteria op elk moment wijzigen door de actie **Wijzigen** te kiezen.
+8. Geef het te verzenden aantal op.  
 
-4. Selecteer de brondocumenten waarvoor u artikelen wilt ontvangen en kies **OK**.  
+    Voor een vestiging die picken vereist, wordt het veld **Te verzenden aantal** automatisch bijgewerkt wanneer het picken wordt geregistreerd. Anders wordt het veld **Te verzenden aantal** ingevuld met de openstaande hoeveelheid voor elke regel, wanneer de magazijnverzendingsregel wordt gemaakt.
 
-De regels van de brondocumenten verschijnen op de pagina **Mag. -verzending**. Het veld **Te verzenden aantal** is ingevuld met de openstaande hoeveelheid voor elke regel, maar u kunt het aantal wijzigen indien nodig. Als u de inhoud van het veld **Opslaglocatie** op het sneltabblad **Algemeen** verwijdert voordat u de regels ophaalt, moet u op elke verzendregel een opslaglocatie invullen.  
+    U kunt de hoeveelheid wijzigen, maar u kunt niet meer artikelen verzenden dan het aantal in het veld **Openstaand aantal** op de brondocumentregel of het veld **Gepickt aantal** als picken vereist is.
 
-> [!NOTE]  
-> U kunt niet meer artikelen verzenden dan het aantal in het veld **Openstaand aantal** op de brondocumentregel. Als u meer artikelen wilt verzenden, gebruikt u de filterfunctie om een ander brondocument op te halen dat een regel voor hetzelfde artikel bevat.  
+    Als u de waarde in het veld **Te verzenden aantal** op alle regels wilt instellen op nul, kiest u de actie **Te verzenden aantal verwijderen**. Het op nul zetten van de hoeveelheden is bijvoorbeeld handig als u een streepjescodescanner gebruikt om de te verzenden hoeveelheden bij te werken. Om de beschikbare hoeveelheid voor verzending toe te voegen, kiest u de actie **Te verzenden aantal automatisch invullen**.
 
-Als u alle regels voor de verzending hebt, kunt u het proces starten dat deze doorstuurt naar het magazijnpersoneel om te picken.
+9. Boek de verzending.
 
-### <a name="pick-and-ship"></a>Picken en verzenden
+## Filters gebruiken om brondocumenten op te halen
 
-Doorgaans wordt een nieuw pickdocument gemaakt of een bestaand pickdocument geopend door een magazijnmedewerker die verantwoordelijk is voor pickactiviteiten.  
+U kunt vanuit een magazijnverzending de pagina **Filters om brondocumenten op te halen** gebruiken voor het ophalen van de vrijgegeven brondocumentregels die bepalen welke artikelen moeten worden verzonden.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer de magazijnverzending waarvoor u wilt picken en kies de actie **Pick maken**.
-3. Vul de velden op de pagina in en kies vervolgens **OK**. Het opgegeven magazijnpickdocument wordt gemaakt.
+1. Kies in de magazijnverzending de actie **Filters om brondocumenten op te halen gebruiken**. 
+2. U stelt een nieuw filter in door een omschrijvende code in te voeren in het veld **Code** en vervolgens de actie **Wijzigen** te kiezen.
 
-    U kunt ook een bestaand magazijnpickdocument openen.
-4. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Picks** in en kies vervolgens de gerelateerde koppeling. Selecteer de magazijnpick waaraan u wilt werken.
+    De pagina **Brondocumentfilterkaart - Uitgaand** verschijnt.
 
-    Als het magazijn met opslaglocaties werkt, zijn de pickregels omgezet in Nemen- en Plaatsen-regels.
+3. Gebruik de filters om het type brondocumentregels te definiëren dat moet worden opgehaald. U kunt bijvoorbeeld soorten brondocumenten selecteren, zoals verkoop- of transferorders.
+4. Kies **Uitvoeren**.  
 
-    Als u gestuurde opslag en pick gebruikt, kunt u de regels sorteren, een werknemer aan de pick toewijzen, een breakbulkfilter instellen en de pickinstructies afdrukken.
+Alle vrijgegeven brondocumentregels die voldoen aan de filtercriteria worden toegevoegd op de pagina **Magazijnverzending** waarop u de filters instelt.
 
-5. Voer de pick uit en plaats de artikelen in de opgegeven opslaglocatie voor verzending of in de verzendruimte als u niet met opslaglocaties werkt.
-6. Kies de actie **Pick registreren**.
+U kunt een onbeperkt aantal filtercombinaties maken. Filters worden opgeslagen op de pagina **Filters om brondocumenten op te halen** en zijn beschikbaar als u ze nodig hebt. U kunt de criteria op elk moment wijzigen door de actie **Wijzigen** te kiezen.
 
-    De velden **Te verzenden aantal** en **Documentstatus** op de kop van het verzenddocument worden bijgewerkt. De gepickte artikelen zijn niet meer beschikbaar voor picken voor andere orders of voor interne bewerkingen.
-7. Druk de verzenddocumenten af, bereid de zending voor en boek de zending.
+## Zone- en opslaglocatiecodes
 
-Zie [Artikelen picken voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md) voor meer informatie over het picken voor magazijnverzendingen.
+Als opslaglocaties verplicht zijn op de vestiging, stelt [!INCLUDE [prod_short](includes/prod_short.md)] een zone- en opslaglocatiecode voor op het magazijnverzendingsdocument.
 
-U kunt in het pickvoorstel verschillende pickinstructies combineren tot één instructie (voor verschillende verzendingen) en zo de artikelen in het magazijn nog efficiënter picken. Zie voor meer informatie [Picks plannen in voorstellen](warehouse-how-to-plan-picks-in-worksheets.md).
+* Voor geavanceerde configuraties waarbij een vestiging gestuurde opslag en pick gebruikt, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de opslaglocatie die is opgegeven in het veld **Verzendopslaglocatie** op de **vestigingskaart**. Als er geen **verzendopslaglocatie** is opgegeven, is het veld leeg. Als het artikel en de verzendopslaglocatie niet overeenkomen, laat [!INCLUDE [prod_short](includes/prod_short.md)] de verzendopslaglocatie leeg.
+* In andere gevallen gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] altijd eerst de opslaglocatie die is opgegeven in het veld **Verzendopslaglocatie** op de **vestigingskaart**. Als er geen verzendopslaglocatie is opgeven, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de opslaglocatie van het brondocument.
+
+## Op-order-assembleren-artikelen in magazijnverzendingen afhandelen
+
+In scenario's voor het assembleren op order, gebruik het veld **Te verzenden aantal** op magazijnverzendingsregels om vast te leggen hoeveel eenheden worden geassembleerd. Het aantal wordt geboekt als assemblageuitvoer wanneer u de magazijnverzending boekt. Voor andere magazijnverzendingsregels is de waarde in het veld **Te verzenden aantal** nul.
+
+Wanneer werknemers (gedeeltelijk) klaar zijn met het assembleren van de hoeveelheid voor op order assembleren, registreren ze de hoeveelheid in het veld **Te verzenden aantal** op de magazijnverzendingsregel. Kies vervolgens de actie **Verzending boeken**. De assemblyuitvoer wordt geboekt, inclusief het materiaalverbruik. Een verkoopverzending voor de hoeveelheid wordt geboekt voor de verkooporder.
+
+Op de assemblageorder kunt u **Magazijnverzendregel op order assembleren** om toegang te krijgen tot de magazijnverzendregel.
+
+Als u de magazijnverzending boekt, worden verschillende velden op de verkooporderregel bijgewerkt om de voortgang in het magazijn weer te geven. De volgende velden worden ook bijgewerkt om weer te geven hoeveel op-order-assembleren-aantallen nog moeten worden geassembleerd en verzonden:
+
+* **AoO-mag. uitstaand aantal**
+* **AoO-mag. uitst. aant. (basis)**
 
 > [!NOTE]
-> Als u de aankomst van bepaalde artikelen in het magazijn afwacht en met cross-docken werkt, berekent [!INCLUDE[prod_short](includes/prod_short.md)] voor elke verzend- of pickvoorstelregel het aantal van het artikel in de cross-dockopslaglocatie. Dit veld wordt bijgewerkt telkens wanneer u het verzenddocument of het voorstel opent of sluit. Zie voor meer informatie [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md).
+> In combinatiescenario's waarbij een deel van de hoeveelheid moet worden geassembleerd en een ander deel uit voorraad moet worden verzonden, worden twee magazijnverzendregels gemaakt. Eén voor het op-order-assembleren-aantal, en één voor het voorraadaantal.
+>
+> De op-order-assembleren-hoeveelheid wordt afgehandeld zoals beschreven in dit artikel. De voorraadhoeveelheid wordt afgehandeld als een normale magazijnverzendingsregel. Zie voor meer informatie over combinatiescenario's [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
-[Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
+[Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 11/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9763280"
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Werkstromen maken om taken in bedrijfsprocessen met elkaar te verbinden
+# Werkstromen maken om taken in bedrijfsprocessen met elkaar te verbinden
 
 U kunt werkstromen maken om taken in bedrijfsprocessen te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.  
 
@@ -47,7 +41,7 @@ De werkstroom is onderverdeeld in drie secties:
 
 Voor beide gebeurtenissen en reacties zijn de opties door het systeem gedefinieerd. Nieuwe moeten worden toegevoegd door de ontwikkeling van een extensie.
 
-## <a name="to-create-a-workflow"></a>Een workflow maken
+## Een workflow maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. De pagina **Werkstroom** verschijnt.  
@@ -117,7 +111,7 @@ Voor beide gebeurtenissen en reacties zijn de opties door het systeem gedefiniee
 > [!TIP]  
 > Als u relaties wilt zien tussen tabellen die in werkstromen worden gebruikt, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") en voert u vervolgens **Werkstroom – Tabelrelaties** in.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Voorbeeld van het maken van een nieuwe werkstroom met bestaande gebeurtenissen
+## Voorbeeld van het maken van een nieuwe werkstroom met bestaande gebeurtenissen
 
 In het volgende voorbeeld is een nieuwe werkstroom gemaakt om wijzigingen in de naam van een bestaande leverancier goed te keuren:
 
@@ -176,9 +170,9 @@ De volgende illustratie geeft een overzicht van het resultaat van deze procedure
 
 Test vervolgens de werkstroom door een bestaande leverancierskaart te openen en de naam te wijzigen. Controleer of er een goedkeuringsverzoek is verzonden na het wijzigen van de leveranciersnaam.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
+## Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)  
 [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)  

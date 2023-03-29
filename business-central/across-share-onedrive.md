@@ -4,17 +4,11 @@ description: Leer hoe u Business Central-gegevens kunt delen via OneDrive voor b
 author: jswymer
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 08/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 99077273617613a2bd5fd949ead836605432b9aa
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607458"
 ---
-# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Business Central-bestanden openen en delen in Microsoft OneDrive
+# Business Central-bestanden openen en delen in Microsoft OneDrive
 
 [!INCLUDE[prod_short](includes/prod_short.md)] maakt het gemakkelijk om bestanden op te slaan, te beheren en te delen met andere mensen via Microsoft OneDrive voor Bedrijven. Op de meeste pagina's met beschikbare bestanden, zoals de Rapportinbox, of als bestanden aan records zijn gekoppeld, vindt u de acties **Openen in OneDrive** en **Delen**.
 
@@ -25,7 +19,7 @@ ms.locfileid: "9607458"
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="De acties Openen in OneDrive en Delen voor bijlagen":::
 
 
-## <a name="open-in-onedrive"></a>Openen in OneDrive
+## Openen in OneDrive
 
 Met de actie **Openen in OneDrive** wordt het bestand naar uw OneDrive gekopieerd en wordt het bestand vervolgens geopend in een toepassing, zoals Microsoft Excel online, Microsoft Word online of Microsoft PowerPoint online. 
 
@@ -37,7 +31,7 @@ Met behulp van de online versies van deze toepassingen kunt u annotaties maken, 
 
 Voor andere populaire bestandstypen, zoals pdf's, tekstbestanden en afbeeldingen, biedt OneDrive bestandsviewers die functies bieden voor afdrukken, delen en meer. Als een bestand niet kan worden bekeken in OneDrive, wordt u mogelijk gevraagd om het te downloaden.
 
-## <a name="share"></a>Deel
+## Deel
 
 Met de actie **Delen** wordt het bestand naar uw OneDrive gekopieerd zodat u kunt zien met wie u het bestand al hebt gedeeld en het bestand met anderen kunt delen. Wanneer u de actie **Delen** selecteert, wordt de volgende pagina geopend.
 
@@ -59,19 +53,18 @@ De deelfunctie in Business Central is gebaseerd op OneDrive. Meer informatie ove
 > [!NOTE]
 > De actie **Delen** is niet beschikbaar in de Business Central-app voor mobiele apparaten.
 
-## <a name="first-time-sign-in-from-business-central"></a>Eerste aanmelding vanuit Business Central
+## Eerste aanmelding vanuit Business Central
 
 Wanneer u de actie **Openen in OneDrive** of **Delen** voor het eerst gebruikt, doet [!INCLUDE[prod_short](includes/prod_short.md)] het volgende:
 
 1. De pagina **Lees de voorwaarden** wordt geopend. Lees de pagina, en als u akkoord gaat met de voorwaarden, selecteer **Akkoord** om door te gaan.
-2. Opent de pagina **Kies een account**. Selecteer uw account of **gebruik een ander account** als u dat van uzelf niet ziet. Voer daarna de juiste gebruikersnaam en het juiste wachtwoord in wanneer daarom wordt gevraagd.
-3. Er wordt een map gemaakt met de naam [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive. 
-4. In de map [!INCLUDE[prod_short](includes/prod_short.md)] wordt een map gemaakt met dezelfde naam als het bedrijf waarin u werkt. Als u in meer dan één bedrijf werkt, wordt met [!INCLUDE[prod_short](includes/prod_short.md)] een map gemaakt voor elk bedrijf waarin u werkt wanneer u de actie **Openen in OneDrive** of **Delen** gebruikt. 
-5. Plaatst een kopie van het bestand dat u hebt geselecteerd in de bedrijfsnaammap en opent vervolgens het bestand. 
+2. Er wordt een map gemaakt met de naam [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive. 
+3. In de map [!INCLUDE[prod_short](includes/prod_short.md)] wordt een map gemaakt met dezelfde naam als het bedrijf waarin u werkt. Als u in meer dan één bedrijf werkt, wordt met [!INCLUDE[prod_short](includes/prod_short.md)] een map gemaakt voor elk bedrijf waarin u werkt wanneer u de actie **Openen in OneDrive** of **Delen** gebruikt. 
+4. Plaatst een kopie van het bestand dat u hebt geselecteerd in de bedrijfsnaammap en opent vervolgens het bestand. 
 
 De volgende keer dat u de actie **Openen in OneDrive** of **Delen** gebruikt, wordt met [!INCLUDE[prod_short](includes/prod_short.md)] alleen het bestand gekopieerd en geopend. 
 
-## <a name="managing-multiple-copies-of-a-file"></a>Meerdere exemplaren van een bestand beheren
+## Meerdere exemplaren van een bestand beheren
 
 Wanneer u **Openen in OneDrive** of **Delen** kiest, wordt het bestand gekopieerd van [!INCLUDE[prod_short](includes/prod_short.md)] naar uw map in OneDrive. Als u het bestand in OneDrive bewerkt, is dat bestand anders dan het [!INCLUDE[prod_short](includes/prod_short.md)]-bestand. Als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt bijwerken met de laatste bestandsversie, verwijdert u het bestaande bestand uit [!INCLUDE[prod_short](includes/prod_short.md)] en uploadt u de laatste kopie.
 
@@ -89,7 +82,7 @@ Als er al een bestand met dezelfde naam bestaat in OneDrive, krijgt u de volgend
  
   Met deze optie wordt het bestaande bestand ongewijzigd behouden en wordt het bestand opgeslagen dat u hebt geselecteerd in Business Central onder een andere naam. De nieuwe naam is vergelijkbaar met de bestaande naam, behalve met een achtervoegselnummer zoals "Items (2).xlsx".
 
-## <a name="about-your-business-central-folder-on-onedrive"></a>Over uw Business Central-map op OneDrive
+## Over uw Business Central-map op OneDrive
 
 De map en de inhoud ervan zijn privé totdat u besluit ze met anderen te delen. U kunt dus besluiten om inhoud te delen met een of meer van uw collega's, of zelfs met mensen buiten uw organisatie. 
 
@@ -100,7 +93,7 @@ U heeft toegang tot uw OneDrive vanuit de pagina **Mijn instellingen** door de l
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Integratie van Business Central en OneDrive](across-onedrive-overview.md)  
 [OneDrive-integratie met Business Central beheren](admin-onedrive-integration.md)  

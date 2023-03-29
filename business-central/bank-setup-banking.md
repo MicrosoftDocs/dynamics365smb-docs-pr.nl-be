@@ -1,23 +1,17 @@
 ---
 title: Bankieren instellen
-description: Met bankrekeningkaarten kunt u uw bankrekeningen bijhouden en bankfeeds instellen, zoals Yodlee, om gegevens uit te wisselen.
+description: 'Met bankrekeningkaarten kunt u uw bankrekeningen bijhouden en bankfeeds instellen, zoals Yodlee, om gegevens uit te wisselen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
+ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516407"
 ---
-# <a name="setting-up-banking"></a>Bankieren instellen
+# Bankieren instellen
 
 Met bankrekeningkaarten kunt al uw bankrekeningen bijhouden, in willekeurige valuta's. Nadat u de bankrekeningen hebt ingesteld, kunt u ook de optie voor het afdrukken van cheques gebruiken.
 
@@ -31,7 +25,7 @@ Als u elektronische bankierservices wilt gebruiken om bankafschriften te importe
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  

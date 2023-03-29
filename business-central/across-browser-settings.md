@@ -6,27 +6,21 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, web client, troubleshooting, errors
+ms.search.keywords: 'Teams, web client, troubleshooting, errors'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a60c9e041ec61c61374fa7860c27018d362b165f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141761"
 ---
-# <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Uw browser instellen en er problemen mee oplossen om te werken met de Business Central-webclient
+# Uw browser instellen en er problemen mee oplossen om te werken met de Business Central-webclient
 
 In dit artikel wordt uitgelegd hoe u uw browser zo instelt dat de [!INCLUDE[web_client](includes/web_client.md)] en al zijn functies werken naar behoren. Lees dit artikel als u problemen ondervindt bij het openen van de [!INCLUDE[web_client](includes/web_client.md)], omdat sommige problemen kunnen worden veroorzaakt door de instellingen van uw browser.
 
 Het artikel bevat details voor het instellen van Microsoft Edge, maar de vereisten voor JavaScript, cookies en pop-ups zijn hetzelfde voor alle ondersteunde browsers. Raadpleeg voor andere browsers de instructies van de fabrikant.  
 
-## <a name="use-a-supported-browser"></a>Een ondersteunde browser gebruiken
+## Een ondersteunde browser gebruiken
 
 Zorg ervoor dat u een van de ondersteunde browsers gebruikt. Zie [Minimumvereisten om Business Central te gebruiken](product-requirements.md#browsers).  
 
-## <a name="allow-javascript-from-business-central"></a>JavaScript toestaan vanuit Business Central
+## JavaScript toestaan vanuit Business Central
 
 *Probleem:*
 
@@ -43,7 +37,7 @@ The resource you are looking for has been removed, had its name changed, or is t
     - Verplaats de schakelaar **Toegestaan** naar links (Uit). Selecteer vervolgens **Toevoegen** en typ het adres (URL) voor [!INCLUDE[prod_short](includes/prod_short.md)] in het vak **Site**. Selecteer **Toevoegen** wanneer u klaar bent.
     - Verplaats de schakelaar **Toegestaan** naar rechts (Aan).
 
-## <a name="allow-cookies-from-business-central"></a>Cookies toestaan vanuit Business Central
+## Cookies toestaan vanuit Business Central
 
 *Probleem:*
 
@@ -56,7 +50,7 @@ Als de browser geen cookies toestaat, krijgt u de volgende foutmelding:
 1. Ga in Microsoft Edge naar **Instellingen** > **Cookies en sitetoestemmingen** > **Cookies en sitegegevens**.
 2. Verplaats de schakelaar **Sites toestaan cookiegegevens op te slaan en te lezen** naar rechts (Aan).  
 
-## <a name="allow-pop-ups-from-business-central"></a><a name="popup"></a>Pop-ups toestaan vanuit Business Central
+## <a name="popup"></a>Pop-ups toestaan vanuit Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreert met verschillende producten. In sommige gevallen, zoals bij Microsoft Teams, wordt [!INCLUDE[prod_short](includes/prod_short.md)] geopend in een venster binnen het product. Deze mogelijkheid vereist dat uw browser pop-ups toestaat vanuit [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -81,7 +75,7 @@ Try again
 2. Verplaats de schakelaar **Geblokkeerd** naar rechts (Aan).
 3. Selecteer **Toevoegen**. Typ in het vak **Site** `https://businesscentral.dynamics.com` en selecteer **Toevoegen**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
 

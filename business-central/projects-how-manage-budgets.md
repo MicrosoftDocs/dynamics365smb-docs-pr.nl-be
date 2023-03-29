@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project budget, forecast
-ms.search.form: 1002, 1007
+ms.search.keywords: 'project budget, forecast'
+ms.search.form: '1002, 1007'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 47a3e85a806db2f7c4b0c0656016594d5f7818dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529986"
 ---
-# <a name="manage-job-budgets"></a>Projectbudgetten maken
+# Projectbudgetten maken
 
 Voor elk project kunt u een budget instellen. Het budget wordt gebruikt om de resources te plannen die.u aan een project toewijst. Dit kan een algemeen budget zijn met weinig posten of een budget met veel posten die in activiteitsniveaus zijn onderverdeeld. U kunt vervolgens de gebudgetteerde bedragen vergelijken met het werkelijke gebruik zoals vastgelegd in het projectdagboek. Door verschillen tussen werkelijk en gebudgetteerd gebruik te controleren kunt u een lopend project controleren en de kwaliteit van toekomstige projecten verbeteren doordat kosten minder snel worden onderschat.
 
 In de volgende procedure wordt beschreven hoe u gebudgetteerde kosten inschat tijdens een planning. Voor informatie over het vastleggen van gebudgetteerde versus werkelijke projectprijzen en -kosten raadpleegt u [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md).  
 
-## <a name="to-estimate-the-budgeted-costs-for-a-job"></a><a name="JobBudgetCosts"></a> De gebudgetteerde kosten voor een project schatten
+## <a name="JobBudgetCosts"></a> De gebudgetteerde kosten voor een project schatten
 Wanneer een klant de prijs wil weten van een project dat op basis van gebruik wordt gefactureerd, moet u de gebudgetteerde kosten voor het project bepalen. U gebruikt hiervoor de pagina **Projecttaakregels**.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
@@ -49,9 +43,9 @@ Op de pagina **Projectkaart** kunt u nu een overzicht zien van de totale gebudge
 
 Voor informatie over het vastleggen van gebudgetteerde versus werkelijke projectprijzen en -kosten raadpleegt u [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/set-up-job-planning-lines/)
+## Zie gerelateerde [Microsoft-training](/training/modules/set-up-job-planning-lines/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Financiën](finance.md)  

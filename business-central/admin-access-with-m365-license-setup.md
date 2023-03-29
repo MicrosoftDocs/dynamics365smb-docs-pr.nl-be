@@ -8,20 +8,14 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.search.forms: 9061
-ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804431"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
+ms.search.form: 9061
 ---
-# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Business Central-toegang in Teams met Microsoft 365-licenties instellen
+# Business Central-toegang in Teams met Microsoft 365-licenties instellen
 
 Beheerders moeten meerdere activiteiten voltooien voordat gebruikers Business Central kunnen gebruiken met hun Microsoft 365-licentie. De onderstaande stappen geven de minimale instellingen weer die nodig zijn om aan de slag te gaan. Ga voor meer informatie over toegang met Microsoft 365-licenties naar [Business Central-toegang met Microsoft 365-licenties](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>De Business Central-app voor Teams implementeren
+## De Business Central-app voor Teams implementeren
 
 Om als Business Central-licentiehouders gegevens te kunnen delen in Teams, en als Microsoft 365-licentiehouders toegang te krijgen tot die gegevens, moeten ze de Business Central-app voor Teams hebben geïnstalleerd. Hoewel gebruikers de app zelf kunnen installeren, wordt aanbevolen dat beheerders gecentraliseerde implementatie gebruiken. Met gecentraliseerde implementatie kunt u de app uitrollen naar een breder publiek in de hele organisatie en de inzet van individuele gebruikers tot een minimum beperken. 
 
@@ -33,7 +27,7 @@ Zie voor meer informatie over gecentraliseerde implementatie van de Business Cen
 > [!TIP]
 > Bent u op zoek naar een snellere manier om aan de slag te gaan bij het uitproberen van deze functie? Testgebruikers kunnen de app installeren op [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="configure-permissions"></a>Machtigingen configureren
+## Machtigingen configureren
 
 Business Central is inherent veilig en minimaliseert risico's door niet standaard machtigingen te verlenen aan Microsoft 365-gebruikers. Beheerders moeten objectmachtigingen configureren die bepalen welke tabellen, pagina's en rapporten toegankelijk zijn in Teams met slechts een Microsoft 365-licentie. Deze machtigingen zijn de startmachtigingen die worden toegewezen wanneer een gebruiker zich voor de eerste keer aanmeldt met zijn Microsoft 365-licentie. 
 
@@ -56,7 +50,7 @@ Wanneer u met meerdere omgevingen werkt, moet de licentieconfiguratie worden toe
 
 Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) en [Machtigingensets opstellen](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing) voor meer informatie.
 
-## <a name="turn-on-access-with-microsoft-365-licenses"></a>Toegang met Microsoft 365-licenties inschakelen
+## Toegang met Microsoft 365-licenties inschakelen
 
 Toegang met Microsoft 365-licenties is standaard uitgeschakeld. De toegang moet voor elke omgeving afzonderlijk worden ingeschakeld, zodat beheerders controle hebben en een gefaseerde uitrol in de hele organisatie mogelijk is. U schakelt toegang in via het Business Central-beheercentrum: 
 
@@ -66,7 +60,7 @@ Toegang met Microsoft 365-licenties is standaard uitgeschakeld. De toegang moet 
 4. Schakel in het deelvenster **Microsoft 365-licenties** de schakelaar in. 
 5. Selecteer **Opslaan** wanneer u klaar bent en accepteer de bevestiging. De wijziging gaat per direct in.
 
-## <a name="test-your-setup"></a>Uw installatie testen
+## Uw installatie testen
 
 Om te controleren of uw installatie klaar is voor productie, zullen de volgende stappen u helpen om te controleren of alles naar behoren werkt. 
 
@@ -90,7 +84,7 @@ Om te controleren of uw installatie klaar is voor productie, zullen de volgende 
 > [!TIP]
 > Is er iets fout gegaan? Bekijk dan [Problemen met toegang met Microsoft 365-licenties oplossen](admin-access-with-m365-license-troubleshooting.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van toegang tot Business Central met Microsoft 365-licenties](admin-access-with-m365-license.md#minimum-requirements)  
 [Problemen met toegang met Microsoft 365-licenties oplossen](admin-access-with-m365-license-troubleshooting.md)  

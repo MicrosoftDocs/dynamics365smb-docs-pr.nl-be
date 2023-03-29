@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530202"
 ---
-# <a name="business-central-learning-catalog"></a>Trainingscatalogus voor Business Central
+
+# Trainingscatalogus voor Business Central
 
 Voor de juiste online training, persoonlijke workshops en evenementen voor uw rol als Business Central-gebruiker of -partner.
 
@@ -20,7 +15,7 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Zakelijke besluitvormer
+    ### Zakelijke besluitvormer
 
     Beslist u over investeringen in nieuwe technologieën? 
 
@@ -36,7 +31,7 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
 
     :::column:::
 
-    ### <a name="business-user"></a>Bedrijfsgebruiker
+    ### Bedrijfsgebruiker
 
     Hebt u zojuist een nieuwe toepassing gekregen die u moet gaan gebruiken? 
 
@@ -54,7 +49,7 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
 
     :::column:::
 
-    ### <a name="developer"></a>Ontwikkelaar
+    ### Ontwikkelaar
 
     Moet u code schrijven voor integratie met andere gegevensbronnen, de kernfunctionaliteit uitbreiden of een complexe toepassing bouwen?
 
@@ -66,7 +61,7 @@ Voor de juiste online training, persoonlijke workshops en evenementen voor uw ro
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Functioneel consultant
+    ### Functioneel consultant
     
     Bent u een implementatie-expert voor een zakelijk domein? 
 

@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/14/2022
 ms.author: edupont
-ms.openlocfilehash: 3aabe61906cd6b8111a3fcadb616a4cdfae6277c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605312"
 ---
-# <a name="create-reports-with-xbrl"></a>Lijsten met XBRL maken
+# Lijsten met XBRL maken
 
 > [!NOTE]
 > We zijn bezig met het verwijderen van de functies voor XBRL-rapportage vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Meer informatie vindt u in [Wijzigingen in releasewave 1 van 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
 
-XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) is een op XML (eXtensible Markup Language) gebaseerde taal voor het coderen van financiële gegevens waardoor bedrijven efficiënt en nauwkeurig hun gegevens kunnen verwerken en delen. Door het XBRL-initiatief zijn talloze ERP-softwarebedrijven (enterprise resource planning) en internationale financiële organisaties in staat hun globale financiële rapportageactiviteiten uit te voeren. Het doel van het initiatief is een standaard vormen voor de uniforme rapportage van financiële gegevens voor banken, investeerders en overheidsinstanties. Dergelijke zakelijke rapportage kan omvatten:  
+XBRL (e**X**tensible **B**usiness **R**eporting **L**anguage) is een op XML (eXtensible Markup Language) gebaseerde taal voor het coderen van financiële gegevens waardoor bedrijven efficiënt en nauwkeurig hun gegevens kunnen verwerken en delen. Door het XBRL-initiatief zijn talloze ERP-softwarebedrijven (enterprise resource planning) en internationale financiële organisaties in staat hun globale financiële rapportageactiviteiten uit te voeren. Het doel van het initiatief is een standaard vormen voor de uniforme rapportage van financiële gegevens voor banken, investeerders en overheidsinstanties. Dergelijke zakelijke rapportage kan omvatten:  
 
 * Financiële overzichten  
 * Financiële informatie  
@@ -35,13 +29,13 @@ XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) is een op XML
 >
 > Volledige ondersteuning voor taxonomieën vereist mogelijk XBRL-tagging en tools van derden. De organisatie XBRL International heeft een lijst met tools en diensten; afhankelijk van de XBRL-rapportagevereisten voor een bepaalde taxonomie. Het is mogelijk een goed idee om deze bronnen te verkennen. Meer informatie vindt u in [Aan de slag voor bedrijven](https://go.microsoft.com/fwlink/?linkid=2153466) en [Tools en services](https://go.microsoft.com/fwlink/?linkid=2153356).
 
-## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
+## eXtensible Business Reporting Language
 
 De XBRL-taxonomieën worden beheerd door www.xbrl.org. Op de website van XBRL kunt u taxonomieën downloaden en meer informatie over XBRL lezen.  
 
 Stel dat iemand financiële informatie van u wil. Deze persoon voorziet u van een taxonomie (een XML-document) met een of meer schema's, elk met een of meer regels die moeten worden ingevuld. De regels komen overeen met de specifieke financiële gegevens die de afzender opvraagt. U importeert deze taxonomie en vult vervolgens het schema of de schema's in door op te geven welke rekening of rekeningen met elke regel overeenkomt/overeenkomen en welk berekening nodig is, bijvoorbeeld mutatie of saldobedragen. In sommige gevallen kunt u in plaats daarvan een constante invoeren, bijvoorbeeld het aantal werknemers. U bent nu gereed om het instantiedocument (een XML-document) te verzenden naar iemand die de gegevens opvraagt. Het idee is dat dit een terugkerende gebeurtenis kan zijn, dus tenzij er wijzigingen zijn aangebracht aan de taxonomie, moet u op aanvraag nieuwe instantiedocumenten voor nieuwe periodes exporteren.
 
-## <a name="xbrl-comprises-the-following-components"></a>XBRL omvat de volgende onderdelen
+## XBRL omvat de volgende onderdelen
 
 De XBRL-**specificatie** legt uit wat XBRL is en hoe XBRL-instantiedocumenten en taxonomieën worden gemaakt. De XBRL-specificatie geeft een technische uitleg van XBRL en is bestemd voor mensen met een technische achtergrond.  
 
@@ -53,11 +47,11 @@ Een XBRL- **taxonomie** is het 'vocabulaire' of 'woordenboek' dat in overeenstem
 
 Een XBRL- **instantiedocument** is een zakelijk rapport, zoals een financieel overzicht, dat is samengesteld volgens de XBRL-specificatie. De betekenis van de waarden in het instantiedocument wordt uitgelegd in de taxonomie. Een instantiedocument krijgt pas betekenis als u de taxonomie kent waarvoor het document is gemaakt.  
 
-## <a name="layered-taxonomies"></a>Laagsgewijze taxonomieën
+## Laagsgewijze taxonomieën
 
 Een taxonomie kan bestaan uit een basistaxonomie, bijvoorbeeld US GAAP (United States generally accepted accounting principles) of IAS (International Accounting Standards), en vervolgens een of meer extensies hebben. De taxonomie verwijst dan naar een of meer schema's die elk zelf weer een afzonderlijke taxonomie vormen. Als u deze extra taxonomieën in de database laadt, worden de nieuwe onderdelen eenvoudig aan de bestaande onderdelen toegevoegd.  
 
-## <a name="linkbases"></a>Linkbases
+## Linkbases
 
 In de XBRL-specificatie 2 wordt de taxonomie beschreven in verschillende XML-bestanden. Het primaire XML-bestand is het taxonomieschemabestand zelf (.xsd-bestand) dat alleen een ongeordende lijst van elementen of feiten bevat die moeten worden gerapporteerd. Naast deze zijn er meestal enkele linkbasebestanden (.xml). De linkbasebestanden bevatten gegevens die een aanvulling op de ruwe taxonomie (.xsd-bestand) vormen. Er zijn zes soorten linkbasebestanden, waarvan er vier relevant zijn voor [!INCLUDE[prod_short](includes/prod_short.md)]. Dit zijn:
 
@@ -66,7 +60,7 @@ In de XBRL-specificatie 2 wordt de taxonomie beschreven in verschillende XML-bes
 * Linkbaseberekening: deze linkbase bevat informatie over welke elementen bij welk niveau horen. De structuur is vergelijkbaar met de presentatielinkbase, behalve dat elke koppeling, of 'arc' zoals ze worden genoemd, een gewichtseigenschap heeft. Het gewicht kan 1 of –1 zijn, wat aangeeft of het element aan het bovenliggende element moet worden toegevoegd of ervan moet worden afgetrokken. De samentellingen hoeven niet per se in overeenstemming te zijn met de visuele presentatie.  
 * Referentielinkbase: Deze linkbase bestaat uit een XML-bestand met aanvullende informatie over de gegevens die de taxonomie-uitgever nodig heeft.
 
-## <a name="set-up-xbrl-lines"></a>XBRL-regels instellen
+## XBRL-regels instellen
 
 Als u de taxonomie hebt geïmporteerd of bijgewerkt, moeten de schemaregels van alle vereiste gegevens worden voorzien om aan de specifieke vereisten voor financiële rapportage te voldoen. Deze informatie omvat basisbedrijfsgegevens, financiële overzichten, notities bij de financiële overzichten, aanvullende schema’s enzovoort.  
 
@@ -89,7 +83,7 @@ U kunt de XBRL-regels instellen door de gegevens in de taxonomie te koppelen aan
    > [!NOTE]  
    > Taxonomieën kunnen elementen bevatten die [!INCLUDE[prod_short](includes/prod_short.md)] niet ondersteunt. Als een element niet wordt ondersteund, bevat het veld **Bronsoort** **Niet toepasbaar** en bevat het veld **Omschrijving** een foutmelding, zoals **Onverwacht type: "specifiek type niet herkend"**. Als u het element moet exporteren, kiest u een overeenkomend brontype. Meestal is dit een constante of een beschrijving. Hierdoor kunt u gegevens invoeren en exporteren, maar dergelijke elementen kunnen validatieregels hebben die niet kunnen worden gecontroleerd voordat ze worden geëxporteerd.
 
-## <a name="import-an-xbrl-taxonomy"></a>Een XBRL-taxonomie importeren
+## Een XBRL-taxonomie importeren
 
 De eerste stap bij het werken met de XBRL-functie is het importeren van een taxonomie in de database van uw bedrijf. Een taxonomie bestaat uit een of meer schema's en een aantal linkbases. Nadat u de schema's en linkbases hebt geïmporteerd en de linkbases op het schema hebt toegepast, kunt u de regels instellen en de grootboekrekeningen in het rekeningstelsel koppelen aan de juiste taxonomieregels.  
 
@@ -104,7 +98,7 @@ De eerste stap bij het werken met de XBRL-functie is het importeren van een taxo
 > [!IMPORTANT]  
 > In plaats van het afzonderlijk toepassen van de linkbases na het importeren, kunt u wachten tot u alle linkbases hebt geïmporteerd en deze vervolgens op hetzelfde moment toepassen. Kies hiervoor **NEE** wanneer u wordt gevraagd om de zojuist geïmporteerde linkbase op het schema toe te passen. Selecteer vervolgens de regels met de linkbases die u wilt toepassen.  
 
-## <a name="update-an-xbrl-taxonomy"></a>Een XBRL-taxonomie bijwerken
+## Een XBRL-taxonomie bijwerken
 
 Als een taxonomie verandert, moet u de huidige taxonomie overeenkomstig bijwerken. De reden voor de update kan een gewijzigd schema, een gewijzigde linkbase of een nieuwe linkbase zijn. Nadat u de taxonomie hebt bijgewerkt, moet u alleen nog de regels koppelen voor de gewijzigde of nieuwe regels.  
 
@@ -112,13 +106,13 @@ Als een taxonomie verandert, moet u de huidige taxonomie overeenkomstig bijwerke
 2. Kies op de pagina **XBRL-taxonomieën** de actie **Schema's**.  
 3. Werk een schema bij door het schema te selecteren dat u wilt bijwerken en kies de actie **Importeren**.  
 4. Kies de actie **Linkbases** voor het bijwerken of toevoegen van een nieuwe linkbase.  
-5. Selecteer de betreffende linkbase of druk op Ctrl+N voor een nieuwe regel, selecteer het soort linkbase en voer vervolgens een omschrijving in.  
+5. Selecteer de betreffende linkbase of selecteer <kbd>Ctrl</kbd>+<kbd>N</kbd> voor een nieuwe regel, selecteer het soort linkbase en voer vervolgens een omschrijving in.  
 6. U importeert de linkbase door de actie **Importeren** te kiezen.  
 7. Kies **Ja** om de linkbase op het schema toe te passen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
+## Zie gerelateerde training op [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiële bedrijfsinformatie](bi.md)  
 [Financiën](finance.md)  

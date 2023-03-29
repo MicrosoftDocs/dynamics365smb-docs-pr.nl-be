@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 2a745a6a961226067f326cc1c1a1f61c4199401b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149035"
 ---
+
 Als de klant niet is geregistreerd, volgt u deze stappen:
 
 1. Voer in het veld **Klant** de naam van de nieuwe klant in.

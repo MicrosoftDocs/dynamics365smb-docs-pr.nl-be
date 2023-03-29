@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4bada4ee28df77cc9700d5957ef8fb8b1a64535b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517458"
 ---
-# <a name="update-standard-costs"></a>Vaste verrekenprijs bijwerken
+# Vaste verrekenprijs bijwerken
 U moet regelmatig de vaste verrekenprijzen van onderdelen bijwerken en de nieuwe kosten tot aan het hoofdartikel berekenen. Het proces bestaat meestal uit de volgende vier stappen:  
 
 1.  Kosten bijwerken op het niveau van onderdeel en capaciteit. Zie voor meer informatie de batchverwerking **Vaste verrekenprijs artikel voorstellen**.  
@@ -26,7 +20,7 @@ U moet regelmatig de vaste verrekenprijzen van onderdelen bijwerken en de nieuwe
 
 Zie [Vaste verrekenprijs berekenen](finance-about-calculating-standard-cost.md) voor nadere informatie.
   
-## <a name="to-update-standard-costs"></a>Vaste verrekenprijs aanpassen
+## Vaste verrekenprijs aanpassen
 
 1.  Voer de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit.  
 2.  Voer de batchverwerking **Voorraadwaarde boeken** uit.  
@@ -41,7 +35,7 @@ Zie [Vaste verrekenprijs berekenen](finance-about-calculating-standard-cost.md) 
     7.  Voer de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren** uit.  
 4.  Bekijk en boek de pagina **Herwaarderingsdagboek** waarin de posten uit de vorige stappen in dit proces staan.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
  [Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)   
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)   

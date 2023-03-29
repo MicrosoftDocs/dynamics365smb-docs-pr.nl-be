@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 9b579b2b91d9699800b5fbf550c58c2e7caaa77d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142918"
 ---
-# <a name="service-management"></a>CRM - Service
+# CRM - Service
 > [!NOTE]
 > Functionaliteit die in dit onderwerp wordt beschreven, is alleen zichtbaar in de gebruikersinterface als u de **Premium**-ervaring hebt. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
@@ -42,7 +36,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Contractuele overeenkomsten tussen u en uw klanten maken en beheren.|[Servicecontracten voldoen](service-fulfill-service-contracts.md)|  
 |Service aan klanten bieden en serviceorders factureren.|[Service leveren](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Tegoeden beheren](receivables-manage-receivables.md)   
 [Projecten](projects-how-create-jobs.md)   
 [Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)

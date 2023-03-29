@@ -3,13 +3,8 @@ author: jill-kotel-andersson
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6e3a37322f10dd58581322bf057590edc853830f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135618"
 ---
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me 11 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Klanten** de actie **Nieuw**.
 

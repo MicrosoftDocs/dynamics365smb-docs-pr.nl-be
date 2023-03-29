@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 672, 673, 674, 671
+ms.search.form: '672, 673, 674, 671'
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607112"
 ---
-# <a name="use-job-queues-to-schedule-tasks"></a>Gebruik van taakwachtrijen om taken te plannen
+# Gebruik van taakwachtrijen om taken te plannen
 
 Met de pagina Taakwachtrijposten kunnen gebruikers specifieke rapporten en codeunits plannen en uitvoeren. U kunt taken éénmalig of herhaaldelijk uitvoeren. U kunt bijvoorbeeld het rapport **Verkoper * Verkoopstatistieken** wekelijks uitvoeren om verkopen per verkoper elke week bij te houden of u kunt de codeunit **Goedkeuringsaanvragen delegeren** dagelijks uitvoeren om te voorkomen dat documenten zich opstapelen.
 
@@ -40,7 +34,7 @@ Nadat taakwachtrijen zijn ingesteld en werken, kan de status als volgt verandere
 
 Nadat een taak is voltooid, wordt deze verwijderd uit de lijst met taakwachtrij-items, tenzij het een terugkerende taak is. Voor terugkerende taken wordt het veld **Vroegste begintijd** aangepast, zodat het de volgende keer weergeeft dat de taak naar verwachting wordt uitgevoerd.  
 
-## <a name="monitor-status-or-errors-in-the-job-queue"></a>Status of fouten in de taakwachtrij bewaken
+## Status of fouten in de taakwachtrij bewaken
 
 Gegevens die de taakwachtrij genereert, worden opgeslagen in de database, zodat u taakwachtrijfouten kunt oplossen.  
 
@@ -59,7 +53,7 @@ De volgende tabel beschrijft de waarden van het veld **Status**.
 > [!Tip]  
 > Taakwachtrij-items worden niet meer uitgevoerd wanneer er een fout is. Dit kan bijvoorbeeld een probleem zijn wanneer een item verbinding maakt met een externe service, zoals een bankfeed. Als de service tijdelijk niet beschikbaar is en het item in de taakwachtrij geen verbinding kan maken, geeft het item een fout weer en stopt het met werken. U moet het taakwachtrij-item handmatig opnieuw starten. De velden **Maximaal aantal pogingen** en **Vertraging bij opnieuw uitvoeren (sec.)** kunnen u echter helpen deze situatie te voorkomen. Met het veld **Maximaal aantal pogingen** kunt u specificeren hoe vaak het invoeren van het taakwachtrij-item kan mislukken voordat het stopt met proberen te worden uitgevoerd. Met het veld **Vertraging bij opnieuw uitvoeren (sec.)** kunt u de hoeveelheid tijd, in seconden, tussen pogingen specificeren. De combinatie van deze twee velden kan ervoor zorgen dat het taakwachtrij-item actief blijft totdat de externe service beschikbaar komt.
 
-### <a name="to-view-status-for-any-job"></a>De status voor een taak weergeven
+### De status voor een taak weergeven
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Taakwachtrijposten** een taakwachtrijpost en kies vervolgens de actie **Logboekvermeldingen**.  
@@ -67,7 +61,7 @@ De volgende tabel beschrijft de waarden van het veld **Status**.
 > [!TIP]
 > U kunt de status van items in de wachtrij ook bekijken met Application Insights in Microsoft Azure voor meer diepgaande analyse op basis van telemetrie. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) en [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in de [!INCLUDE [prod_short](includes/prod_short.md)] ontwikkelaar- en beheerinhoud.
 
-## <a name="view-scheduled-tasks"></a>Geplande taken weergeven
+## Geplande taken weergeven
 
 De pagina **Geplande taken** in [!INCLUDE [prod_short](includes/prod_short.md)] laat zien welke taken klaar zijn om te worden uitgevoerd in de taakwachtrij. De pagina toont ook informatie over het bedrijf waarvoor elke taak is ingesteld om te worden uitgevoerd. Alleen taken die zijn gemarkeerd als behorend tot de huidige omgeving kunnen echter worden uitgevoerd.  
 
@@ -76,7 +70,7 @@ Alle geplande taken stoppen bijvoorbeeld als het bedrijf zich in een omgeving be
 > [!NOTE]
 > Interne beheerders en gelicentieerde gebruikers kunnen taken plannen om te worden uitgevoerd. Gedelegeerde beheerders kunnen taken instellen en plannen om uit te voeren, maar alleen gebruikers met een licentie kunnen ze uitvoeren.
 
-## <a name="the-my-job-queue-part"></a>Het onderdeel Mijn taakwachtrij
+## Het onderdeel Mijn taakwachtrij
 
 In het onderdeel **Mijn taakwachtrij** in uw rolcentrum worden de taakwachtrij-items weergegeven die u hebt gestart, maar die niet zijn voltooid. Standaard wordt het onderdeel niet weergegeven, maar u kunt het toevoegen aan uw rolcentrum. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.  
 
@@ -87,32 +81,32 @@ Het onderdeel toont de volgende informatie:
 
 Met het onderdeel Mijn taakwachtrij kunt u een documentboeking ook annuleren.
 
-### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Een fout in het gedeelte Mijn taakwachtrij weergeven
+### Een fout in het gedeelte Mijn taakwachtrij weergeven
 
 1. Kies in een post met de status **Fout** de actie **Fout weergeven**.
 2. Bekijk de foutmelding en los het probleem op.
 
-## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Voorbeelden van wat kan worden gepland met behulp van een taakwachtrij
+## Voorbeelden van wat kan worden gepland met behulp van een taakwachtrij
 
-### <a name="schedule-reports"></a>Rapporten plannen
+### Rapporten plannen
 
 U kunt een rapport plannen voor uitvoering op een bepaalde datum en tijd. Geplande rapporten en batchtaken worden in de verwerkingswachtrij ingevoerd en verwerkt op het geplande tijdstip, net zoals andere taken. U kiest de optie **Schema** nadat u de actie **Verzenden naar** hebt gekozen en voert vervolgens informatie in zoals de printer, de tijd en datum en de herhaling.  
 
 Zie voor meer informatie [Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between-prod_short-and-prod_short"></a>Synchronisatie plannen tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### Synchronisatie plannen tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] hebt geïntegreerd met [!INCLUDE[prod_short](includes/cds_long_md.md)], kunt u met de taakwachtrij plannen wanneer u gegevens wilt synchroniseren. Afhankelijk van de richting en regels die u hebt gedefinieerd, kan het taakwachtrij-item records maken in de ene app om met records in de andere overeen te komen. Een goed voorbeeld is dat wanneer u een contact registreert in [!INCLUDE[crm_md](includes/crm_md.md)], het taakwachtrij-item dat contact voor u kan instellen in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [Een synchronisatie plannen tussen Business Central en Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md) voor meer informatie.
 
-### <a name="schedule-the-posting-of-sales-and-purchase-orders"></a>Het boeken van verkoop- en inkooporders plannen
+### Het boeken van verkoop- en inkooporders plannen
 
 U kunt taakwachtrij-items gebruiken om bedrijfsprocessen te plannen die op de achtergrond worden uitgevoerd. Achtergrondtaken zijn bijvoorbeeld nuttig wanneer meerdere gebruikers tegelijkertijd verkooporders boeken, maar er slechts één order tegelijk kan worden verwerkt. Zie voor meer informatie [Boeking op de achtergrond instellen met taakwachtrijen](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
 
-## <a name="monitor-the-job-queue-with-telemetry"></a>De taakwachtrij bewaken met telemetrie
+## De taakwachtrij bewaken met telemetrie
 
 Als beheerder kunt u [Application Insights](/azure/azure-monitor/app/app-insights-overview) gebruiken om telemetrie te verzamelen en te analyseren die u kunt gebruiken om problemen te identificeren. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in de ontwikkelaar- en beheerinhoud.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Beheer](admin-setup-and-administration.md)  
 [Business Central instellen](setup.md)  

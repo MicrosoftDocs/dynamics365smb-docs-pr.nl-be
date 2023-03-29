@@ -4,24 +4,18 @@ description: Een verbinding instellen tussen Business Central en Dataverse. Bedr
 author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
-ms.search.forms: 7200, 7201
+ms.search.keywords: null
+ms.search.forms: '7200, 7201'
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: 57f8091d81870f9e58af80462259006d4cb822ae
-ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8485045"
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Verbinding maken met Microsoft Dataverse
+# Verbinding maken met Microsoft Dataverse
 
 
 
 In dit onderwerp wordt beschreven hoe u een verbinding tot stand brengt tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Bedrijven maken doorgaans de verbinding om gegevens te integreren en te synchroniseren met een andere Dynamics 365-bedrijfsapp, zoals [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-## <a name="before-you-start"></a>Voordat u begint
+## Voordat u begint
 
 Voordat u de verbinding maakt, moet u een aantal gegevens gereed hebben:  
 
@@ -37,7 +31,7 @@ Voordat u de verbinding maakt, moet u een aantal gegevens gereed hebben:
 > Deze stappen beschrijven de procedure voor [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt en geen Azure Active Directory-account gebruikt om verbinding te maken met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], moet u ook een gebruikersnaam en wachtwoord van een gebruikersaccount opgeven voor de integratie. Dit account wordt de 'integratiegebruiker' genoemd. Als u een Azure Active Directory-account gebruikt, is het gebruikersaccount voor integratie niet vereist en wordt dit ook niet weergegeven. De integratiegebruiker wordt automatisch ingesteld en heeft geen licentie nodig.
 
-## <a name="set-up-a-connection-to-cds_long_md"></a>Een verbinding instellen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## Een verbinding instellen met [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 Voor alle verificatiesoorten anders dan Microsoft 365-verificatie stelt u de verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] in op de pagina **Dataverse-verbinding instellen**. Het is raadzaam de begeleide instelling **Dataverse-verbinding instellen** te gebruiken voor Microsoft 365-verificatie. De begeleide instelling maakt het gemakkelijker om de verbinding in te stellen en geavanceerde functies op te geven, zoals het eigendomsmodel en initiële synchronisatie.  
 
@@ -50,7 +44,7 @@ Voor alle verificatiesoorten anders dan Microsoft 365-verificatie stelt u de ver
 >
 > Door namens de organisatie toestemming te geven geeft de beheerder de geregistreerde Azure-toepassing genaamd [!INCLUDE[prod_short](includes/prod_short.md)]-integratie met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] het recht gegevens te synchroniseren met de referenties van de automatisch gemaakte gebruiker van de [!INCLUDE[prod_short](includes/prod_short.md)]-integratietoepassing.
 
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>De begeleide instelling Dataverse-verbinding instellen gebruiken
+### De begeleide instelling Dataverse-verbinding instellen gebruiken
 De begeleide instelling Dataverse-verbinding instellen kan het gemakkelijker maken om de toepassingen te verbinden en kan u zelfs helpen bij het uitvoeren van een eerste synchronisatie. Als u ervoor kiest om de eerste synchronisatie uit te voeren, zal [!INCLUDE[prod_short](includes/prod_short.md)] de gegevens in beide applicaties bekijken en aanbevelingen doen voor het benaderen van de initiële synchronisatie. De volgende tabel beschrijft de verschillende aanbevelingen.
 
 |Aanbeveling  |Omschrijving  |
@@ -69,7 +63,7 @@ De begeleide instelling Dataverse-verbinding instellen kan het gemakkelijker mak
 > [!NOTE]
 > Als u niet wordt gevraagd om u aan te melden met uw beheerdersaccount, komt dit waarschijnlijk omdat pop-ups worden geblokkeerd. Sta pop-ups vanaf `https://login.microsoftonline.com` toe om u aan te melden.
 
-### <a name="to-create-or-maintain-the-connection-manually"></a>De verbinding handmatig maken of onderhouden
+### De verbinding handmatig maken of onderhouden
 
 In de volgende procedure wordt beschreven hoe u de verbinding op de pagina **Dataverse-verbinding instellen** handmatig instelt. De pagina **Dataverse-verbinding instellen** is de locatie waar u de integratie-instellingen beheert.
 
@@ -105,7 +99,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>De koppeling op basis van overeenkomsten aanpassen
+## De koppeling op basis van overeenkomsten aanpassen
 
 Vanaf releasewave 2 van 2021 kan een beheerder criteria invoeren om records te koppelen op basis van overeenkomsten. U kunt het algoritme voor het matchen van records starten vanaf de volgende locaties in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -137,7 +131,7 @@ In alle drie de gevallen wordt de pagina **Koppelingscriteria selecteren** geope
 
 * Geef op of u een nieuw entiteitsexemplaar wilt maken in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in het geval dat er geen unieke ontkoppelde overeenkomst kan worden gevonden met behulp van de matchcriteria. Om deze mogelijkheid te activeren kiest u de actie **Nieuw maken als geen overeenkomst is gevonden**.  
 
-### <a name="view-the-results-of-the-coupling-job"></a>De resultaten van de koppelingstaak bekijken
+### De resultaten van de koppelingstaak bekijken
 
 Om de resultaten van de koppelingstaak te bekijken opent u de pagina **Integratietabeltoewijzingen**, selecteert u de relevante toewijzing, kiest u de actie **Koppeling** actie en kiest u vervolgens de actie **Taaklogbestand voor integratiekoppeling**.  
 
@@ -164,7 +158,7 @@ Doorgaans mislukt de koppeling om de volgende redenen:
 > [!TIP]
 > Om u te helpen een overzicht te krijgen van de voortgang van de koppeling, geeft het veld **Gekoppeld aan Dataverse** aan of een record is gekoppeld aan een [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteit. U kunt het veld **Gekoppeld aan Dataverse** gebruiken om de lijst met records die u synchroniseert te filteren.
 
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Verbindingen vanuit Business Central Online upgraden om op certificaten gebaseerde verificatie te gebruiken
+## Verbindingen vanuit Business Central Online upgraden om op certificaten gebaseerde verificatie te gebruiken
 > [!NOTE]
 > Deze sectie is alleen relevant voor [!INCLUDE[prod_short](includes/prod_short.md)] online-tenants die worden gehost door Microsoft. Online tenants die worden gehost door ISV's en installaties op locatie worden niet beïnvloed.
 
@@ -172,7 +166,7 @@ In april 2022 beëindigt [!INCLUDE[cds_long_md](includes/cds_long_md.md)] het Of
 
 Om te voorkomen dat integraties worden verstoord _moet u upgraden_ om op certificaten gebaseerde verificatie te gebruiken. Hoewel de wijziging is gepland voor maart 2022, raden we u ten zeerste aan zo snel mogelijk te upgraden. In de volgende stappen wordt beschreven hoe u kunt upgraden naar verificatie op basis van certificaten. 
 
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Uw Business Central online-verbinding upgraden om op certificaten gebaseerde verificatie te gebruiken
+### Uw Business Central online-verbinding upgraden om op certificaten gebaseerde verificatie te gebruiken
 
 1. Afhankelijk van of u integreert met Dynamics 365 Sales, voert u een van de volgende handelingen uit:
    * Als u dat doet, opent u de pagina **Microsoft Dynamics 365-verbinding instellen**.
@@ -183,13 +177,13 @@ Om te voorkomen dat integraties worden verstoord _moet u upgraden_ om op certifi
 > [!NOTE]
 > U moet deze stappen herhalen in elke [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving, inclusief zowel productie- als sandbox-omgevingen, en in elk bedrijf waar u een verbinding mee hebt [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## <a name="connecting-on-premises-versions"></a>Verbinding maken met on-premises versies
+## Verbinding maken met on-premises versies
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises wilt verbinden met [!INCLUDE[cds_long_md](includes/cds_long_md.md)], moet u wat informatie opgeven op de pagina **Dataverse-verbinding instellen**.
 
 Als u verbinding wilt maken met een Azure Active Directory-account (Azure AD), moet u een aanvraag registreren in Azure AD. U moet de toepassings-id, het sleutelkluisgeheim en de omleidings-URL opgeven die moet worden gebruikt. De omleidings-URL wordt vooraf ingevuld en zou voor de meeste installaties moeten werken. U moet uw installatie instellen om HTTPS te gebruiken. Zie voor meer informatie [SSL configureren om de Business Central Web Client-verbinding te beveiligen](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Als u uw server instelt om een andere startpagina te hebben, kunt u de URL wijzigen. Het clientgeheim wordt opgeslagen als een versleutelde tekenreeks in uw database. 
 
-### <a name="prerequisites"></a>Vereisten
+### Vereisten
 
 Dataverse moet een van de volgende verificatietypen gebruiken:
 
@@ -200,7 +194,7 @@ Dataverse moet een van de volgende verificatietypen gebruiken:
 * Office365 (modern, gebaseerd op OAuth2-clientgeheim)
 * OAuth
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Een toepassing registreren in Azure AD voor verbinding van Business Central met Dataverse
+### Een toepassing registreren in Azure AD voor verbinding van Business Central met Dataverse
 
 Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identiteiten en toegang te beheren. Voor meer informatie over het registreren van een toepassing in Azure AD raadpleegt u [Quickstart: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -223,12 +217,12 @@ Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identit
    > [!NOTE]
    > Als u niet wordt gevraagd om u aan te melden met uw beheerdersaccount, komt dit waarschijnlijk omdat pop-ups worden geblokkeerd. Sta pop-ups vanaf `https://login.microsoftonline.com` toe om u aan te melden.
 
-### <a name="to-disconnect-from-cds_long_md"></a>Verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verbreken
+### Verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verbreken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dataverse-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
 2. Schakel op de pagina **Dataverse-verbinding instellen** de schakelaar **Geactiveerd** uit.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md)  
 

@@ -3,14 +3,8 @@ author: bholtorf
 ms.topic: include
 ms.date: 02/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7441e5632c5d1541f76ecc4c64c334e1c1853068
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525407"
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Gegevens in documenten en dagboeken controleren terwijl u werkt
+## Gegevens in documenten en dagboeken controleren terwijl u werkt
 
 In releasewave 1 van 2022 hebben we een functie geïntroduceerd die de gegevens valideert die u invoert in documenten en tijdschriften terwijl u deze invoert. Als u deze functie inschakelt, kunt u bijvoorbeeld fouten bij het invoeren van gegevens voorkomen of kunt u iets niet boeken vanwege een fout. 
 

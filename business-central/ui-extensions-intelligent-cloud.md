@@ -7,25 +7,20 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, import, implement
+ms. search.keywords: 'app, add-in, manifest, customize, import, implement'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 38a98bacb8fcef7e57d1f4e4d7339cac5ca3814b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529554"
 ---
-# <a name="cloud-migration-base-extension"></a>Extensie Cloud-migratiebasis
 
-Deze extensie leidt u door het proces om een verbinding te configureren tussen uw on-premises oplossing en uw [!INCLUDE [prod_short](includes/prod_short.md)] online-omgeving wanneer u de migratie naar de cloud start.  
+# Extensie Cloud-migratiebasis
 
-Nadat de verbinding is geconfigureerd, kunt u gegevens van uw on-premises oplossing migreren naar [!INCLUDE[prod_short](includes/prod_short.md)] online. Deze extensie werkt in combinatie met een extensie voor gegevensreplicatie die beschikbaar is voor uw on-premises oplossing. Zie voor meer informatie [De tool Cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
+Deze extensie leidt u door het proces om een verbinding te configureren tussen uw on-premises oplossing en uw [!INCLUDE [prod_short](includes/prod_short.md)] online-omgeving wanneer u de migratie naar de cloud start.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
+Nadat de verbinding is geconfigureerd, kunt u gegevens van uw on-premises oplossing migreren naar [!INCLUDE[prod_short](includes/prod_short.md)] online. Deze extensie werkt in combinatie met een extensie voor gegevensreplicatie die beschikbaar is voor uw on-premises oplossing. Zie voor meer informatie [De tool Cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## <a name="see-also"></a>Zie ook
+## Zie gerelateerde [Microsoft-training](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
+
+## Zie ook
 
 [Tool voor cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Intelligente cloud-extensies voor cloudmigratie](ui-extensions-data-replication.md)  

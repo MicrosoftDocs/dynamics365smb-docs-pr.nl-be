@@ -1,23 +1,17 @@
 ---
 title: Opmerkingen toevoegen aan kaarten en documenten
-description: Voeg extra informatie toe aan rekeningen, klantenkaarten of verkooporders om overeenkomsten, zoals een speciale prijs of leveringsmethode, te doen toekomen aan andere gebruikers.
+description: 'Voeg extra informatie toe aan rekeningen, klantenkaarten of verkooporders om overeenkomsten, zoals een speciale prijs of leveringsmethode, te doen toekomen aan andere gebruikers.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: tasks, work
-ms.search.form: 124, 30
+ms.search.keywords: 'tasks, work'
+ms.search.form: '124, 30'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 64c66324d97ee3dad268f6ff9dd8c18566d1e247
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512528"
 ---
-# <a name="add-comments-to-cards-and-documents"></a>Opmerkingen toevoegen aan kaarten en documenten
+# Opmerkingen toevoegen aan kaarten en documenten
 
 U kunt extra informatie toevoegen aan grootboekrekeningen, klantenkaarten of verkooporders om uitzonderingen of speciale overeenkomsten te doen toekomen aan andere gebruikers.
 Vrijwel alle kaarten en documenten hebben een actie **Opmerkingen**, waarmee de pagina **Opmerkingen** wordt geopend. Op die pagina kunt u opmerkingen schrijven of lezen. In documenten kunt u ook opmerkingen toevoegen aan afzonderlijke regels.
@@ -31,14 +25,14 @@ Daarnaast kunt u aangeven of u wilt dat opmerkingen worden overgenomen van het e
 
 Hierna wordt beschreven hoe u een opmerking aan een artikelkaart toevoegt. De stappen zijn vergelijkbaar voor alle andere kaarten en documenten, behalve documentregels: de actie **Opmerkingen** wordt geplaatst in het actiemenu van een regel.
 
-## <a name="to-add-a-comments-to-an-item-card"></a>Een opmerking toevoegen aan een artikelkaart
+## Een opmerking toevoegen aan een artikelkaart
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de relevante artikelkaart.
 3. Kies de actie **Opmerkingen**.
 4. Voer op de pagina **Opmerkingen** tekst in en kies de knop **OK**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)

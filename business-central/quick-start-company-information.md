@@ -7,23 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: 1,
+ms.search.form: '1,'
 ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: e2ee4c75deebcca1a774a6472e08db12984114d2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528181"
 ---
-# <a name="company-information-quick-start"></a>Snelstartgids Bedrijfsinformatie
+
+# Snelstartgids Bedrijfsinformatie
 
 Om u te helpen uw bedrijf up and running te krijgen in [!INCLUDE[prod_short](includes/prod_short.md)], moet u eerst enkele basisbedrijfsgegevens en relevante informatie invullen op basis van uw zakelijke behoeften.  
 
 U kunt alle relevante gegevens invoeren op de pagina **Bedrijfsgegevens** wanneer u een nieuw bedrijf instelt.
 
-## <a name="to-set-up-company-information"></a>Bedrijfsgegevens instellen  
+## Bedrijfsgegevens instellen  
 
 1. Kies het ![pictogram Tand om het menu Instellingen te openen.](media/ui-experience/settings_icon_small.png) menu en kies vervolgens de actie **Bedrijfsgegevens**.
 2. Vul op de sneltabbladen de informatie in, zoals in de volgende tabel is beschreven. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -32,9 +27,9 @@ U kunt alle relevante gegevens invoeren op de pagina **Bedrijfsgegevens** wannee
 
 Als u klaar bent met het invullen van de gegevens, kunt u de pagina sluiten.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 
 [Overzicht van bedrijfsgegevens](admin-company-information.md)  
 [Bedrijfsgegevens instellen in Italië](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 864b7854593fe0b0d8ecb739f580daa7bd035c58
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519289"
 ---
-# <a name="design-details-rounding"></a>Ontwerpdetails: Afronding
+# Ontwerpdetails: Afronding
 Afrondingsverschillen kunnen optreden wanneer u de kosten waardeert van een negatieve voorraadmutatie die in een andere hoeveelheid wordt gemeten dan de overeenkomende positieve voorraadmutatie. Afrondingsverschillen worden berekend voor alle waarderingsmethoden wanneer u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert.  
 
  Wanneer u de waarderingsmethode Gemiddeld gebruikt, wordt het afrondingsverschil berekend en vastgelegd op een cumulatieve post-per-post-basis.  
 
  Als u een andere waarderingsmethode dan Gemiddeld gebruikt, wordt het afrondingsverschil berekend wanneer de voorraadtoename volledig is vereffend, oftewel wanneer het resterende aantal voor de voorraadtoename gelijk is aan nul. Vervolgens is een afzonderlijke post gemaakt voor het afrondingsverschil en de boekingsdatum van deze afrondingspost is de boekingsdatum van de laatst gefactureerde waardepost van de positieve voorraadmutatie.  
 
-## <a name="example"></a>Opmerking  
+## Opmerking  
  In het volgende voorbeeld ziet u hoe de verschillende afrondingsverschillen voor respectievelijk de gemiddelde waarderingsmethode en de niet-gemiddelde waarderingsmethode worden verwerkt. In beide gevallen is de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitgevoerd.  
 
  De volgende tabel toont de artikelposten waarop het voorbeeld is gebaseerd.  
@@ -58,7 +52,7 @@ Afrondingsverschillen kunnen optreden wanneer u de kosten waardeert van een nega
 |01-04-20|-1|-3,33|4|4|  
 |01-01-20|0|-0,01|1|5|  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
  [Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)   
  [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md) [Voorraadkosten beheren](finance-manage-inventory-costs.md)  

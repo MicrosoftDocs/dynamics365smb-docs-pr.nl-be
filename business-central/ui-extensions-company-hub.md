@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: ''
-ms.search.form: 1151, 1152, 1153, 1154, 1155, 1165, 1166, 1167,
+ms. search.keywords: null
+ms.search.form: '1151, 1152, 1153, 1154, 1155, 1165, 1166, 1167,'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 51f3d27e59301d9d094afb6826a0f025ecf0d7e4
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361487"
 ---
-# <a name="the-company-hub-for-business-central-extension"></a>De extensie Bedrijfshub voor Business Central
+# De extensie Bedrijfshub voor Business Central
 
 Deze applicatie biedt een dashboard met samenvattende gegevens voor elk bedrijf waartoe de gebruiker overal toegang heeft in heel [!INCLUDE [prod_short](includes/prod_short.md)] online, zoals de vele klanten van een accountant. De startpagina toont gebruikers financiële KPI's en een directe koppeling naar de individuele omgevingen en bedrijven.
 
@@ -25,11 +19,11 @@ Het dashboard bevat een zeer gespecialiseerd rolcentrum voor een beter overzicht
 
 Wanneer u de extensie voor het eerst installeert, helpt een voorbeeldbedrijf u aan de slag. U kunt het voorbeeldbedrijf op elk moment verwijderen.
 
-## <a name="installing-the-extension"></a>De extensie installeren
+## De extensie installeren
 
 Wanneer u de extensie in uw [!INCLUDE [prod_short](includes/prod_short.md)] installeert, wordt u gevraagd of u deze nu wilt gebruiken. Zo ja, dan moet u zich afmelden en opnieuw aanmelden, omdat de extensie uw huidige rolcentrum vervangt en machtigingen toevoegt aan uw gebruikersprofiel.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werk beheren tussen meerdere bedrijven in de bedrijfshub](company-hub.md)  
 [Accountantervaringen in Business Central](finance-accounting.md)  

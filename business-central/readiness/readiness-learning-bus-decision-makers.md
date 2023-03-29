@@ -5,26 +5,21 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 1378449eccd83d89ff3df1889df469e4a27a6745
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534466"
 ---
-# <a name="business-decision-makers-learning-catalog"></a>Trainingscatalogus voor zakelijke besluitvormers
+
+# Trainingscatalogus voor zakelijke besluitvormers
 
 Beslist u over investeringen in nieuwe technologieën?
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet.  
 
-## <a name="business-value"></a>Bedrijfswaarde<a name="busvalue"></a>
+## Bedrijfswaarde<a name="busvalue"></a>
 
 | Inhoud                                                                 | Omschrijving                                                                                                | Opmaak                                | Lengte     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond. | Gratis online leertraject voor zelfstudie | 24 minuten |
 
-## <a name="getting-started"></a>Aan de slag<a name="get-started"></a>
+## Aan de slag<a name="get-started"></a>
 
 | Inhoud                                                                                                                             | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

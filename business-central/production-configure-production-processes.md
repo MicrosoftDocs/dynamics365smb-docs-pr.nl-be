@@ -1,22 +1,16 @@
 ---
 title: Productieprocessen configureren
-description: Als u materiaal wilt omzetten in geproduceerde eindartikelen, moeten productieresources, zoals stuklijsten, bewerkingsplannen, machinebedienden en machines worden ingesteld in het systeem.
+description: 'Als u materiaal wilt omzetten in geproduceerde eindartikelen, moeten productieresources, zoals stuklijsten, bewerkingsplannen, machinebedienden en machines worden ingesteld in het systeem.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000768, 99000779, 99000780, 99000866
+ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605778"
 ---
-# <a name="setting-up-manufacturing"></a>Productie instellen
+# Productie instellen
 
 Als u materiaal wilt omzetten in geproduceerde eindartikelen, moeten productieresources, zoals stuklijsten, bewerkingsplannen, machinebedienden en machines worden ingesteld in het systeem.
 
@@ -39,7 +33,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Standaardtaken gebruiken om het maken van bewerkingsplannen te vereenvoudigen door extra informatie bij te voegen voor terugkerende bewerkingen.|[Standaardbewerkingsplanregels instellen](production-how-set-up-standard-routing-lines.md)|  
 |Afdelingen en bewerkingsplannen voor uitbestede productiebewerkingen voorbereiden.|[Productie uitbesteden](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie](production-manage-manufacturing.md)  
 [Gepland](production-planning.md)  

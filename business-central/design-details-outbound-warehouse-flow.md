@@ -1,138 +1,115 @@
 ---
-title: 'Ontwerpdetails: Uitgaande magazijnstroom'
-description: In dit onderwerp wordt de volgorde besproken van de uitgaande magazijnstroom van vrijgegeven brondocumenten tot verzendklare artikelen.
-author: SorenGP
+title: Overzicht van uitgaande magazijnprocessen
+description: In dit artikel wordt de werkstroom van het uitgaande magazijn beschreven.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 282c6533d7ac8b769c1ec74c42d4808ebc5da380
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139715"
+ms.date: 11/25/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-outbound-warehouse-flow"></a>Ontwerpdetails: Uitgaande magazijnstroom
+# Uitgaande magazijnprocessen
 
-De uitgaande stroom in het magazijn begint met een aanvraag vanuit vrijgegeven brondocumenten om de artikelen uit de magazijnvestiging te halen, ofwel om te worden verzonden naar een externe partij of naar een andere bedrijfsvestiging. Vanuit het opslaggebied worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen naar de verzenddoks te brengen.  
+Uitgaande processen in magazijnen beginnen wanneer u een brondocument vrijgeeft om artikelen uit een magazijnlocatie te halen. Bijvoorbeeld om de artikelen ergens naartoe te verzenden of om ze naar een andere bedrijfsvestiging te verhuizen. Het proces van het verzenden van uitgaande orders bestaat in principe uit twee activiteiten:
 
- Elk artikel wordt geïdentificeerd en aan een corresponderend inkomend brondocument gekoppeld. Er zijn de volgende uitgaande brondocumenten:  
+* Artikelen uit de schappen picken.
+* Artikelen uit het magazijn verzenden.
 
-- Verkooporder  
-- Uitgaande transferorder  
-- Inkoopretourorder  
-- Serviceorder  
+De brondocumenten voor de uitgaande magazijnstroom zijn:  
 
-Bovendien bestaan de volgende interne brondocumenten die fungeren als uitgaande bronnen:  
+* Verkooporder  
+* Uitgaande transferorder  
+* Inkoopretourorder  
+* Serviceorder  
 
-- Productieorder met materiaalbehoefte  
-- Assemblageorder met materiaalbehoefte  
+> [!NOTE]
+> Productie- en assemblageorders met materiaalbehoeften vertegenwoordigen ook uitgaande brondocumenten. Productie- en assemblageorders zijn een beetje anders omdat het typisch interne processen zijn waarbij geen verzending betrokken is. In plaats daarvan worden ze gebruikt om geproduceerde artikelen op te slaan of om het materiaal dat nodig is om een artikel te assembleren, naar een assemblageruimte te verplaatsen. Lees meer over deze processen op [Ontwerpdetails: Interne magazijnstromen](design-details-internal-warehouse-flows.md).  
 
- De laatste twee documenten vertegenwoordigen uitgaande stromen van het magazijn naar interne bewerkingsgebieden. Voor meer informatie over magazijnverwerking voor interne inkomende en uitgaande processen raadpleegt u [Ontwerpdetails: Inkomende magazijnstromen](design-details-internal-warehouse-flows.md)..  
+In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
- Processen en UI-documenten in uitgaande magazijnstromen zijn verschillend voor standaard- en geavanceerde magazijnconfiguraties. Het belangrijkste verschil is dat de activiteiten per order worden uitgevoerd in standaardmagazijnconfiguraties en dat ze worden samengevoegd voor meerdere orders in geavanceerde magazijnconfiguraties. Zie voor meer informatie over de verschillende niveaus van de magazijncomplexiteit [Ontwerpdetails: Magazijnoverzicht](design-details-warehouse-setup.md).  
+|Methode|Uitgaand proces|Pick vereist|Verzending vereist|Complexiteitsniveau (meer informatie op [Overzicht van magazijnbeheer](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Picken en verzending vanaf de orderregel boeken|||Geen specifieke magazijnactiviteit.|  
+|B|Picken en verzending vanuit een voorraadpickdocument boeken|Ingeschakeld||Basis: Order voor order|  
+|H|Picken en verzending vanuit een magazijnverzendingdocument boeken||Ingeschakeld|Basis: Geconsolideerde boeking voor ontvangen/verzenden voor meerdere orders.|  
+|D|Picken vanuit een magazijnpickdocument boeken en verzending vanuit een magazijnverzendingdocument boeken|Ingeschakeld|Ingeschakeld|Geavanceerd|  
 
- In [!INCLUDE[prod_short](includes/prod_short.md)] kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten, afhankelijk van het complexiteitsniveau van het magazijn.  
+De te selecteren aanpak hangt af van de magazijnpraktijken van uw bedrijf en het niveau van organisatorische complexiteit. De volgende zijn enkele voorbeelden die u kunnen helpen beslissen.
 
-|Methode|Uitgaand proces|Opslaglocaties|Magazijnpicks|Verzendingen|Complexiteitsniveau (zie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md))|  
-|------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  
-|A|Picken en verzending van de orderregel boeken|X|||2|  
-|B|Picken en verzending van een voorraadpickdocument boeken||X||3|  
-|L|Picken en verzending van een magazijnverzendingdocument boeken|||X|5-4-6|  
-|D|Picken van een magazijnpickdocument en verzending van een magazijnverzendingdocument boeken||X|X|5-4-6|  
+* In een per-order omgeving met duidelijke processen en een eenvoudige opslaglocatiestructuur is methode A, picken en verzenden vanaf de orderregel, geschikt.
+* Als artikelen voor een orderregel uit meer dan één opslaglocatie komen, of als magazijnmedewerkers niet met orderdocumenten kunnen werken, is het gebruik van afzonderlijke pickdocumenten geschikt, methode B.
+* Als uw pick- en verzendprocessen meerdere orders omvatten en meer controle en overzicht vereisen, kunt u ervoor kiezen om een magazijnverzendingsdocument en een magazijnpickdocument te gebruiken om de pick- en verzendtaken, methoden C en D, te scheiden.  
 
- Het selecteren van een aanpak hangt af van de toegestane praktijken van het bedrijf en het niveau van de organisatorische complexiteit. In een per-order omgeving met duidelijke processen en een eenvoudige opslaglocatiestructuur is methode A, picken en verzenden vanaf de orderregel, geschikt. In andere op-order bedrijven waar artikelen voor één orderregel kunnen komen uit meerdere opslaglocaties of waar magazijnmedewerkers niet met orderdocumenten kunnen werken, is het gebruik van aparte pickdocumenten geschikt. Dat is methode B. Als de pick- en verzendprocessen van een bedrijf het verwerken van meerdere orders betreffen en dus meer controle en overzicht nodig is, kan het bedrijf ervoor kiezen een magazijnverzenddocument en een magazijnpickdocument te gebruiken om de pick- en verzendtaken te scheiden. Dat zijn methode C en D.  
+Bij methode A, B en C worden de acties picken en verzenden in één stap gecombineerd wanneer het corresponderende document als verzonden wordt geboekt. Bij methode D wordt eerst de pick geregistreerd en wordt de verzending vervolgens op een later moment geboekt vanuit een ander document.
 
- Bij methode A, B en C worden de acties picken en verzenden in één stap gecombineerd wanneer het corresponderende document als verzonden wordt geboekt. Bij methode D wordt eerst de pick geregistreerd en wordt de verzending vervolgens op een later moment geboekt vanuit een ander document.  
+> [!NOTE]
+> Hoewel magazijn- en voorraadpicks vergelijkbaar klinken, zijn het verschillende documenten en worden ze in verschillende processen gebruikt.
+> * De voorraadpick die wordt gebruikt in methode B, samen met het registreren van pickinformatie, boekt ook de verzending van het brondocument.
+> * De magazijnpick die wordt gebruikt in methode D, kan niet worden geboekt en registreert alleen de pick. Met deze registratie wordt de verzending niet geboekt, maar maakt u de artikelen beschikbaar voor de magazijnverzending. In de uitgaande stroom vereist de magazijnpick een magazijnverzending.
 
-## <a name="basic-warehouse-configurations"></a>Standaardmagazijnconfiguraties
+## Geen specifieke magazijnactiviteit
 
- In het volgende diagram worden de uitgaande magazijnstromen aangegeven op documentsoort in standaardmagazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
+De volgende artikelen bevatten informatie over het verwerken van ontvangsten voor brondocumenten als u geen specifieke magazijnactiviteiten hebt.
 
- ![Uitgaande stroom in standaardmagazijnconfiguraties.](media/design_details_warehouse_management_outbound_basic_flow.png "Uitgaande stroom in standaardmagazijnconfiguraties")  
+* [Producten verkopen](sales-how-sell-products.md)
+* [Transferorders](inventory-how-transfer-between-locations.md)
+* [Inkoopretouren of annuleringen verwerken](purchasing-how-process-purchase-returns-cancellations.md)
+* [Serviceorders maken](service-how-to-create-service-orders.md)
 
-### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Brondocument vrijgeven/Voorraadpick of verplaatsing maken
+## Standaardmagazijnconfiguraties
 
- Wanneer een gebruiker die verantwoordelijk is voor brondocumenten, zoals een verkooporderverwerker of productieplanner, gereed is voor de uitgaande magazijnactiviteit, kan hij of zij het brondocument vrijgeven als teken voor magazijnmedewerkers dat verkochte artikelen of onderdelen kunnen worden gepickt en in de opgegeven opslaglocaties kunnen worden geplaatst. De gebruiker kan als alternatief ook pick- of verplaatsingsdocumenten voor voorraad maken voor de afzonderlijke orderregels met push-functionaliteit, op basis van opgegeven opslaglocaties en te verwerken aantallen.  
+In het volgende diagram worden de uitgaande magazijnprocessen aangegeven voor verschillende soorten documenten in standaardmagazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
-> [!NOTE]  
-> Voorraadverplaatsingen worden gebruikt om artikelen te verplaatsen naar interne bewerkingsgebieden in standaardmagazijnconfiguraties, op basis van brondocumenten of op ad-hocbasis.  
+:::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Toont de stappen in een standaard uitgaande stroom in een magazijn.":::
 
-### <a name="2-create-outbound-request"></a>2: Uitgaand verzoek maken
+### 1: Een brondocument vrijgeven
 
- Wanneer het uitgaande brondocument wordt vrijgegeven, wordt automatisch een uitgaand magazijnverzoek gemaakt. Deze bevat verwijzingen naar het brondocumenttype en -aantal en is niet zichtbaar voor de gebruiker.  
+Wanneer u de actie **Vrijgeven** gebruikt voor een brondocument, zoals een verkoop- of transferorder, zijn de artikelen in het document klaar om te worden verwerkt in het magazijn. Bijvoorbeeld gepickt en in de op het document aangegeven opslaglocatie opgeslagen. Of u maakt door pushing voorraadpickdocumenten voor afzonderlijke orderregels, op basis van te verwerken opgegeven opslaglocaties en aantallen.  
 
-### <a name="3-create-inventory-pick-or-movement"></a>3: Voorraadpick of -verplaatsing maken
+### 2: Een voorraadpick maken
 
- Op de pagina **Voorraadpick** or **Voorraadverplaatsing** haalt de magazijnmedewerker door middel van pulling de wachtende brondocumentregels op, op basis van uitgaande magazijnverzoeken. De voorraadpickregels kunnen ook al door pushing zijn gemaakt door de gebruiker die verantwoordelijk is voor het brondocument.  
+Op de pagina **Voorraadpick** haalt de magazijnmedewerker op pull-manier de brondocumentregels op. De voorraadpickregels kunnen ook al door pushing zijn gemaakt door de gebruiker die verantwoordelijk is voor het brondocument.  
 
-### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Voorraadpick boeken of Voorraadverplaatsing registreren
+### 3: Een voorraadpick boeken
 
- Op elke regel voor artikelen die gedeeltelijk of volledig zijn gepickt of verplaatst, vult de magazijnmedewerker het veld **Aantal** in en boekt deze vervolgens de voorraadpick of registreert deze de voorraadverplaatsing. Brondocumenten met betrekking tot de voorraadpick worden geboekt als verzonden of verbruikt. Brondocumenten met betrekking tot voorraadverplaatsingen worden niet geboekt.  
+Op elke regel voor artikelen die gedeeltelijk of volledig zijn gepickt of verplaatst, vult u het veld **Aantal** in en boekt u vervolgens de voorraadpick. Brondocumenten met betrekking tot de voorraadpick worden geboekt als verzonden of verbruikt.  
 
- Voor voorraadpicks worden negatieve artikelposten gemaakt, worden magazijnposten gemaakt en wordt het pickverzoek verwijderd als het volledig is verwerkt. Het veld **Verzonden aantal** in het uitgaande brondocument wordt bijvoorbeeld bijgewerkt. Er wordt een geboekt verzendingsdocument gemaakt voor bijvoorbeeld de verkooporder en de verzonden artikelen.  
+Voor voorraadpicks worden negatieve artikelposten gemaakt, worden magazijnposten gemaakt en wordt het pickverzoek verwijderd als het volledig is verwerkt. Het veld **Verzonden aantal** in het uitgaande brondocument wordt bijvoorbeeld bijgewerkt. Er wordt een geboekt verzendingsdocument gemaakt voor bijvoorbeeld de verkooporder en de verzonden artikelen.  
 
-## <a name="advanced-warehouse-configurations"></a>Geavanceerde magazijnconfiguraties
+## Geavanceerde magazijnconfiguraties
 
- In het volgende diagram wordt de uitgaande magazijnstroom aangegeven op documentsoort in geavanceerde magazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
+In het volgende diagram worden de uitgaande magazijnprocessen aangegeven voor verschillende soorten documenten in geavanceerde magazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
- ![Uitgaande stroom in geavanceerde magazijnconfiguraties.](media/design_details_warehouse_management_outbound_advanced_flow.png "Uitgaande stroom in geavanceerde magazijnconfiguraties")  
+:::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Toont de stappen in een geavanceerde uitgaande magazijnstroom.":::
 
-### <a name="1-release-source-document"></a>1: Brondocument vrijgeven
+### 1: Een brondocument vrijgeven
 
- Wanneer een gebruiker die verantwoordelijk is voor brondocumenten, zoals een verkooporderverwerker of productieplanner, gereed is voor de uitgaande magazijnactiviteit, kan hij of zij het brondocument vrijgeven als teken voor magazijnmedewerkers dat verkochte artikelen of onderdelen kunnen worden gepickt en in de opgegeven opslaglocaties kunnen worden geplaatst.  
+Het vrijgeven van een brondocument in geavanceerde configuraties doet hetzelfde als voor basisconfiguraties. De artikelen komen beschikbaar voor verwerking in het magazijn. Ze kunnen bijvoorbeeld worden opgenomen in een verzending.  
 
-### <a name="2-create-outbound-request-2"></a>2: Uitgaand verzoek maken (2)
+### 2: Een magazijnverzending maken
 
- Wanneer het uitgaande brondocument wordt vrijgegeven, wordt automatisch een uitgaand magazijnverzoek gemaakt. Deze bevat verwijzingen naar het brondocumenttype en -aantal en is niet zichtbaar voor de gebruiker.  
+De regels van de brondocumenten verschijnen op de pagina **Magazijnverzending**. U kunt regels combineren uit verschillende brondocumenten in één magazijnverzending.  
 
-### <a name="3-create-warehouse-shipment"></a>3: Magazijnverzending maken
+### 3: Maak een magazijnpick
 
- Op de pagina **Mag. -verzending** haalt de verantwoordelijke verzendingsmedewerker de wachtende brondocumentregels op, op basis van het uitgaande magazijnverzoek. Verschillende brondocumentregels kunnen worden gecombineerd in één magazijnverzenddocument.  
+Maak op de pagina **Magazijnverzending** magazijnpickactiviteiten voor magazijnverzendingen op een van de volgende twee manieren:
 
-### <a name="4-release-shipment--create-warehouse-pick"></a>4: Verzending vrijgeven/Magazijnpick maken
+- Op een push-manier, waarbij u de actie **Pick maken** gebruikt. Selecteer de te picken regels en bereidt de picks voor door bijvoorbeeld op te geven uit welke opslaglocaties moet worden gepickt en in welke moet worden opgeslagen en hoeveel eenheden moeten worden verwerkt. De opslaglocaties kunnen vooraf worden gedefinieerd voor de magazijnlocatie of resource.
+- Op een pull-manier, waarbij u de actie **Vrijgeven** gebruikt. Magazijnmedewerkers gebruiken op de pagina **Pickvoorstel** de actie **Magazijndocumenten ophalen** om hun toegewezen picks te krijgen. Wanneer de magazijnpicks volledig zijn geregistreerd, worden de regels in het venster **Pickvoorstel** verwijderd.
 
- De verantwoordelijke verzendingsmedewerker geeft de magazijnverzending vrij, zodat de magazijnmedewerkers magazijnpicks voor de betreffende verzending kunnen maken of coördineren.  
+### 4: Een magazijnpick registreren
 
- Of de gebruiker maakt door pushing magazijnpickdocumenten voor afzonderlijke verzendingsregels, op basis van te verwerken opgegeven opslaglocaties en aantallen.  
+Op de pagina **Magazijnpick** vult een magazijnmedewerker het veld **Aantal** in voor elke regel die deze volledig of gedeeltelijk heeft gepickt en registreert de medewerker vervolgens de pick.
 
-### <a name="5-release-internal-operation--create-warehouse-pick"></a>5: Interne bewerking vrijgeven/Magazijnpick maken
+Magazijnposten worden gemaakt en de magazijnpickregels worden verwijderd, als het hele aantal is gepickt. Het magazijnpickdocument blijft geopend totdat het totale aantal van de magazijnverzending is geregistreerd. Het veld **Gepickt aantal** op de magazijnverzendregels wordt dan overeenkomstig bijgewerkt.  
 
- De gebruiker die verantwoordelijk is voor interne bewerkingen, geeft een intern brondocument vrij, zoals een productie- en assemblageorder, zodat magazijnmedewerkers magazijnpicks kunnen maken of coördineren voor de betreffende interne bewerking.  
+### 5: De magazijnverzending boeken
 
- Of de gebruiker maakt door pushing magazijnpickdocumenten voor de afzonderlijke productie- of assemblageorder, op basis van te verwerken opgegeven opslaglocaties en aantallen.  
+Wanneer alle artikelen in het magazijnverzendingsdocument zijn geregistreerd als gepickt, boekt de magazijnmedewerker de verzending. Door te boeken worden de artikelposten bijgewerkt om de vermindering van de voorraad weer te geven. Het veld **Verzonden aantal** in het uitgaande brondocument wordt bijvoorbeeld bijgewerkt.  
 
-### <a name="6-create-pick-request"></a>6: Pickverzoek maken
+## Zie ook
 
- Wanneer het uitgaande brondocument wordt vrijgegeven, wordt automatisch een magazijnpickverzoek gemaakt. Deze bevat verwijzingen naar het brondocumenttype en -aantal en is niet zichtbaar voor de gebruiker. Afhankelijk van de instellingen, leidt verbruik vanuit een productie- en assemblageorder ook tot een pickverzoek om het benodigde materiaal uit voorraad te picken.  
-
-### <a name="7-generate-pick-worksheet-lines"></a>7: Pickvoorstelregels genereren
-
- De gebruiker die verantwoordelijk is voor het coördineren van picks, haalt magazijnpickregels op in het **Pickvoorstel**, op basis van pickverzoeken van magazijnverzendingen of interne bewerkingen met materiaalverbruik. De gebruiker selecteert de te picken regels en bereidt de picks voor door op te geven uit welke opslaglocaties moeten worden gepickt, naar welke opslaglocaties moet worden geplaatst en hoeveel eenheden moeten worden verwerkt. De opslaglocaties kunnen door de instelling van de magazijnvestiging of bewerkingresource vooraf worden gedefinieerd.  
-
- De gebruiker geeft orderverzamelmethoden op voor optimaal gebruik van magazijnverwerking en gebruikt vervolgens een functie om de corresponderende magazijnpickdocumenten te maken, die zijn toegewezen aan andere magazijnmedewerkers die magazijnpicks uitvoeren. Wanneer de magazijnpicks volledig zijn toegewezen, worden de regels in het venster **Pickvoorstel** verwijderd.  
-
-### <a name="8-create-warehouse-pick-documents"></a>8: Magazijnpickdocumenten maken
-
- De magazijnmedewerker die picks uitvoert, maakt een magazijnpickdocument met pull-functionaliteit, op basis van het vrijgegeven brondocument. Of het magazijnpickdocument wordt door pushing gemaakt en toegewezen aan de magazijnmedewerker.  
-
-### <a name="9-register-warehouse-pick"></a>9: Magazijnpick registreren
-
- Op elke regel voor artikelen die gedeeltelijk of volledig zijn gepickt, vult de magazijnmedewerker het veld **Aantal** op de pagina **Magazijnpick** in en registreert deze vervolgens de magazijnpick.  
-
- Magazijnposten worden gemaakt en de magazijnpickregels worden verwijderd, als deze volledig zijn verwerkt. Het magazijnpickdocument blijft geopend totdat het totale aantal van de gerelateerde magazijnverzending is geregistreerd. Het veld **Gepickt aantal** op de magazijnverzendregels wordt dan overeenkomstig bijgewerkt.  
-
-### <a name="10-post-warehouse-shipment"></a>10: Magazijnverzending boeken
-
- Wanneer alle artikelen in het magazijnverzendingdocument zijn geregistreerd als gepickt naar de opgegeven verzendingopslaglocaties, boekt de verantwoordelijke verzendingsmedewerker de magazijnverzending. Er worden negatieve artikelposten gemaakt. Het veld **Verzonden aantal** in het uitgaande brondocument wordt bijvoorbeeld bijgewerkt.  
-
-## <a name="see-also"></a>Zie ook
-
-[Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-
+[Magazijnbeheer](design-details-warehouse-management.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

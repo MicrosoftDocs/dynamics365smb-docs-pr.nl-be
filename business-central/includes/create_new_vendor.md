@@ -3,13 +3,8 @@ author: jill-kotel-andersson
 ms.topic: include
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0adf8b93cd5cfb6349e829ceb88f4f9428892051
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128569"
 ---
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me 2 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Leveranciers** de optie **Nieuw**.
 

@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: 8dcebacabc62e9744fb0c70e535f9fdd498047e6
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461061"
 ---
 1. Ga naar [de proefsite](https://go.microsoft.com/fwlink/?linkid=847861), kies *Financiën en bedrijfsactiviteiten* en kies vervolgens, op de **Dynamics 365 Business Central**-kaart, de knop **Gratis proberen**.  
 2. Voer uw e-mailadres voor werk of school en andere details in. U wordt omgeleid naar uw proefversie op [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  

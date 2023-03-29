@@ -1,29 +1,23 @@
 ---
 title: Verkoop- en inkoopdocumenten archiveren
-description: U kunt verkoop- en inkooporders, offertes, retourorders en raamcontracten archiveren en indien nodig de originelen herstellen.
+description: 'U kunt verkoop- en inkooporders, offertes, retourorders en raamcontracten archiveren en indien nodig de originelen herstellen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.date: 03/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: c81248844f603f80304822c0ce089c666f9be9bc
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950341"
 ---
-# <a name="archive-documents"></a>Documenten archiveren
+# Documenten archiveren
 U kunt verkoop- en inkooporders, offertes, retourorders en raamcontracten archiveren. Door documenten te archiveren kunt u indien nodig het origineel herstellen. U kunt een verkoop- of inkoopdocument meerdere keren archiveren, waarbij u steeds een verschillende gearchiveerde versie opslaat.
 
 Voor gearchiveerde verkoopdocumenten waarvan het origineel nog bestaat en niet is geboekt, kunt u de actie **Herstellen** gebruiken om het huidige document te overschrijven met een gearchiveerde versie. 
 
 Voor gearchiveerde documenten waarvan het origineel is verwijderd, kunt u de inhoud alleen opnieuw gebruiken door de gegevens te kopiëren, bijvoorbeeld met de actie **Kopiëren uit document**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Automatische documentarchivering instellen
+## Automatische documentarchivering instellen
 
 U kunt automatische archivering van verkoop- en inkooporders, offertes, raamcontracten en retourorders instellen. Als automatisch archiveren is ingeschakeld, wordt er een nieuwe versie van het gearchiveerde document gemaakt wanneer iemand de volgende dingen doet:
 
@@ -45,7 +39,7 @@ In de volgende tabel worden de opties voor het veld **Offertes archiveren** besc
 |**Vraag**|Vraag de gebruiker te kiezen of verkoopoffertes moeten worden gearchiveerd wanneer ze worden verwijderd.|
 |**Altijd**|Verkoopoffertes automatisch archiveren wanneer deze worden verwijderd.|
 
-## <a name="to-archive-a-sales-order"></a>Een verkooporder archiveren
+## Een verkooporder archiveren
 
 In de volgende procedure wordt beschreven hoe u een verkooporder archiveert. De stappen zijn vergelijkbaar voor alle orders, raamcontracten, retourorders en offertes.
 
@@ -55,7 +49,7 @@ In de volgende procedure wordt beschreven hoe u een verkooporder archiveert. De 
 
 De verkooporder wordt gearchiveerd. U kunt deze bekijken op de pagina **Gearchiveerde verkooporders**.
 
-## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Een niet-geboekte verkooporder vanuit het archief herstellen
+## Een niet-geboekte verkooporder vanuit het archief herstellen
 
 In de volgende procedure wordt beschreven hoe een gearchiveerde verkooporder wordt hersteld tot de oorspronkelijke verkooporder. Een document herstellen kan alleen als het oorspronkelijke document niet is geboekt. De stappen zijn vergelijkbaar voor alle orders, raamcontracten, retourorders en offertes.
 
@@ -64,7 +58,7 @@ In de volgende procedure wordt beschreven hoe een gearchiveerde verkooporder wor
 
 De inhoud van de oorspronkelijke verkooporder wordt vervangen door de gearchiveerde versie.
 
-## <a name="to-delete-archived-sales-orders"></a>Gearchiveerde verkooporders verwijderen
+## Gearchiveerde verkooporders verwijderen
 
 In de volgende procedure wordt beschreven hoe gearchiveerde verkooporders verwijdert. De stappen lijken op andere gearchiveerde inkoop- en verkoopdocumenten.
 
@@ -72,7 +66,7 @@ In de volgende procedure wordt beschreven hoe gearchiveerde verkooporders verwij
 2. Kies de actie **Oudere versies verwijderen** en selecteer dan op de pagina **Gearch. verk.-orderversies verwijderen** de juiste filters.  
 3. Kies de knop **OK**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Documentregels traceren](across-how-to-track-document-lines.md)  
 [Verkoop](sales-manage-sales.md)  

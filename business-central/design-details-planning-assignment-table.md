@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 878f301db5b7b887201fd2e803fd299dc3894dbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146604"
 ---
-# <a name="design-details-planning-assignment-table"></a>Ontwerpdetails: Tabel Planningstoewijzing
+# Ontwerpdetails: Tabel Planningstoewijzing
 Alle artikelen moeten worden gepland, maar er is geen reden om een planning voor een artikel te berekenen tenzij er een verandering in het vraag- of aanbodpatroon is opgetreden sinds er voor het laatst een planning is berekend.  
 
 Als de gebruiker een nieuwe verkooporder heeft ingevoerd of een bestaande heeft gewijzigd, is er reden om de planning opnieuw te berekenen. Andere redenen omvatten een wijziging in de voorspelde of gewenste veiligheidsvoorraad. Het wijzigen van een stuklijst door een materiaal toe te voegen of te verwijderen duidt waarschijnlijk op een wijziging, maar alleen voor het onderdeelartikel.  
@@ -61,7 +55,7 @@ Bij het berekenen van een MPS of MRP gelden de volgende beperkingen:
 * MPS: Het planningssysteem controleert of het artikel een vraagprognose of een verkooporder heeft. Zo niet, dan wordt het artikel niet opgenomen in de planning.  
 * MRP: Wanneer het planningssysteem ontdekt dat het artikel wordt aangevuld door een MPS-planningsregel of een MPS-voorzieningenorder, wordt het artikel uit de planning gelaten. Vraag van relevante onderdelen wordt echter opgenomen.  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)   
 [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)   
 [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)   

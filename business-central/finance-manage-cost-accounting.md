@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ccce829d284379ab307c141d4076ad30bfbaa018
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535249"
 ---
-# <a name="accounting-for-costs"></a>Kosten verantwoorden
+# Kosten verantwoorden
 Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Om aan de slag te gaan met kostprijsboekhouding kunt u de volgende onderwerpen raadplegen.  
 
 |Als u dit wilt doen|Zie|  
@@ -30,9 +24,9 @@ Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zi
 |Op de hoogte zijn van de processen voor het maken van kostenbudgetten.|[Kostenbudgetten maken](finance-create-cost-budgets.md)|
 |Kostenbudgetposten uit het kostenbudgetregister annuleren.|[Kostenbudgetposten verwijderen](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Financiën](finance.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

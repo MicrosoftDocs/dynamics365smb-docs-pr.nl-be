@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.search.form: 2500, 20350
+ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
+ms.search.form: '2500, 20350'
 ms.date: 09/22/2022
 ms.author: solsen
-ms.openlocfilehash: db08c13d5e6a5dd29cf9a32b56ab3b5fa9ce77f9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605994"
 ---
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Extensies (apps) installeren en verwijderen in Business Central
+
+# Extensies (apps) installeren en verwijderen in Business Central
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door apps te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services. Zie [Business Central aanpassen met extensies](ui-extensions.md) voor meer informatie.
 
@@ -28,7 +23,7 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door apps te inst
 
 Als u de functionaliteit van een extensie wilt gebruiken, zoals pagina's openen, rapporten uitvoeren, acties selecteren, enzovoort, moeten aan u de machtigingensets zijn toegewezen die als onderdeel van de extensie zijn geïnstalleerd.
 
-## <a name="install-an-extension"></a><a name="install"></a>Een extensie installeren
+## <a name="install"></a>Een extensie installeren
 
 U beheert apps en extensies op de pagina **Extensiebeheer**. U kunt tot deze pagina toegang krijgen via de startpagina. Of kies het pictogram **Pagina of rapport zoeken** ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") in de rechterbovenhoek, voer **Extensie** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -75,18 +70,18 @@ Microsoft biedt de volgende apps:
 * [De extensie GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [VS/CA/VK/AU/NZ/ZA - Overschrijvingsadvies verzenden](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-extension"></a>Een extensie instellen
+## Een extensie instellen
 Nadat u een app hebt geïnstalleerd, moet u deze mogelijk instellen. Bijvoorbeeld voor de app **PayPal Payments Standard voor [!INCLUDE[prod_short](includes/prod_short.md)]** moet u de PayPal-rekening opgeven die u wilt gebruiken. Als dat het geval is, vraagt [!INCLUDE[prod_short](includes/prod_short.md)] wanneer de installatie is voltooid of u de app meteen wilt instellen. Er kunnen instellingen vereist zijn om de app te laten werken, of optioneel.
 
 Als u ervoor kiest om uw app meteen in te stellen en deze een vereiste configuratie heeft, opent [!INCLUDE[prod_short](includes/prod_short.md)] de vereiste instellingen. De instelling kan een pagina zijn waar u informatie invoert, of een begeleide instelling die u door de stappen helpt. Als u de instelling niet in één keer voltooit, kunt u de pagina **Instellingen voor _naam van app_** gebruiken, die alle instellingen voor de app weergeeft. Vereiste instellingen aangegeven door **vetgedrukte letters**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Een per-tenant extensie (PTE) uploaden
+## Een per-tenant extensie (PTE) uploaden
 
 U uploadt een PTE met behulp van de pagina **Extensiebeheer**. Ga op de pagina **Extensiebeheer** naar **Beheren** en kies **Extensie uploaden**. Geef op de pagina **Extensie uploaden en implementeren** het .app-bestand op dat u wilt uploaden. Kies om verder te gaan de knop **Accepteren** en dan de knop **Implementeren**. Hierdoor wordt hiermee het proces van het implementeren van de PTE gestart.
 
 Als de PTE onderbrekende schemawijzigingen bevat, is het mogelijk om een upload ervan *af te dwingen*. Om dat te doen kiest u in de **Schemasynchronisatiemodus** de optie **Afdwingen**. U krijgt een bevestigingsdialoogvenster om te accepteren voordat u verder gaat.  
 
-## <a name="uninstall-an-app"></a>Een app verwijderen
+## Een app verwijderen
 
 U kunt een app verwijderen op de pagina **Extensiebeheer**. Om een app te verwijderen selecteert u deze op de pagina en selecteert u vervolgens de actie **Verwijderen**. Als u een app verwijdert en u vervolgens van gedachten verandert, kunt u de app opnieuw installeren.
 
@@ -98,7 +93,7 @@ Wanneer u een app verwijdert die u hebt gebruikt, worden de gegevens standaard b
 > - Als u de schakelaar **Extensiegegevens verwijderen** aanzet, verwijdert u met de app alle gegevens voor de app en **ook** gegevens voor alle afhankelijke apps. De actie kan niet ongedaan worden gemaakt.
 > - Sommige apps zijn vereist. U kunt deze niet verwijderen vanaf de pagina **Extensiebeheer**. Als u het probeert, verschijnt er een foutmelding.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Business Central aanpassen](ui-customizing-overview.md)  
 [Business Central-extensies van andere providers](ui-extensions-other.md)  

@@ -1,23 +1,17 @@
 ---
 title: Aangepaste indelingen voor rapporten en documenten maken en wijzigen
-description: Leren hoe u aangepaste lay-outs maakt om de weergave aan te passen van een rapport wanneer het wordt bekeken, afgedrukt of opgeslagen.
+description: 'Leren hoe u aangepaste lay-outs maakt om de weergave aan te passen van een rapport wanneer het wordt bekeken, afgedrukt of opgeslagen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604790"
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(verouderd) Aangepaste rapportlay-outs maken en wijzigen
+# (verouderd) Aangepaste rapportlay-outs maken en wijzigen
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -35,7 +29,7 @@ Nadat u uw aangepaste rapportlay-outs hebt gedefinieerd, kunt u deze selecteren 
 
 U kunt ook aangepaste rapportlay-outs gebruiken om inhoud aan e-mailberichten toe te voegen. Rapportlay-outs kunnen tijd besparen en zorgen voor consistentie door dezelfde inhoud opnieuw te gebruiken wanneer u met uw klanten communiceert. Als u aangepaste rapportlay-outs met e-mail wilt gebruiken, moet het bestandstype voor de lay-out Word zijn en kunt u RDLC niet gebruiken. Meer informatie op [Herbruikbare e-mailteksten en lay-outs instellen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Een aangepaste lay-out maken
+## Een aangepaste lay-out maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.
 
@@ -60,11 +54,11 @@ De aangepaste lay-out is gemaakt en u kunt deze naar wens aanpassen.
 > [!TIP]
 > U kunt de rapportresultaten exporteren naar een Microsoft Excel-bestand om de volledige gegevensset te bekijken, inclusief alle kolommen, maar zonder de lay-out. Het Excel-bestand kan u helpen te valideren dat het rapport de verwachte gegevens retourneert of om problemen vast te stellen. Zie voor meer informatie [Rapportgegevens analyseren met Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Een aangepaste lay-out wijzigen
+## <a name="ModifyCustomLayout"></a>Een aangepaste lay-out wijzigen
 
 Als u een aangepaste rapportlay-out wilt wijzigen, moet u de rapportlay-out eerst als bestand exporteren naar een locatie op uw computer of netwerk. Open vervolgens het geëxporteerde document en breng de wijzigingen aan. Wanneer u klaar bent met het aanbrengen van de wijzigingen, importeert u de rapportlay-out.
 
-### <a name="modify-a-custom-layout"></a>Een aangepaste lay-out wijzigen
+### Een aangepaste lay-out wijzigen
 
 1. Exporteer een aangepaste lay-out vanuit de pagina **Aangepaste rapportlay-outs**. Als die pagina nog niet is geopend, zoekt en opent u de pagina **Selectie rapportlay-out**, selecteert u het rapport met de lay-out die u wilt wijzigen, en kiest u de actie **Aangepaste lay-outs**.  
 2. Op de pagina **Aangepaste rapportlay-outs** selecteert u de lay-out die u wilt wijzigen. Vervolgens kiest u de actie **Lay-out exporteren** en **Opslaan** of **Opslaan als** om de rapportlay-out op te slaan op uw computer of netwerk.  
@@ -117,9 +111,9 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [De huidige rapportindeling wijzigen](ui-how-change-layout-currently-used-report.md)  

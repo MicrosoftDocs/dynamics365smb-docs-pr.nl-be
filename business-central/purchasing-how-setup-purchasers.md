@@ -1,43 +1,37 @@
 ---
 title: Inkopers instellen en toewijzen aan leveranciers (bevat video)
-description: Als meerdere inkopers of inkoopagents bij uw bedrijf werken, kunt u deze voor statistische analyses organiseren.
+description: 'Als meerdere inkopers of inkoopagents bij uw bedrijf werken, kunt u deze voor statistische analyses organiseren.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.search.form: 14, 5116
+ms.search.form: '14, 5116'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e8e73553fe4c66fef08c78c0411f76fe481b34fc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534817"
 ---
-# <a name="set-up-purchasers"></a>Inkopers instellen
+# Inkopers instellen
 
 Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina instellen en aan iedere verkoper een code toewijzen. U kunt de codes vervolgens gebruiken voor statistische gegevens en om gegevens voor af te drukken lijsten te filteren.<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
-## <a name="to-set-up-purchasers"></a>Inkopers instellen
+## Inkopers instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkopers/Inkopers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Verkopers/Inkopers** de actie **Nieuw**.
 3. Vul in de velden op de pagina **Verkopers/Inkopers** de gewenste waarden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-purchasers-to-vendors"></a>Inkopers toewijzen aan leveranciers
+## Inkopers toewijzen aan leveranciers
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende leverancierskaart voor de leverancier waaraan een inkoper wordt toegewezen.
 3. Selecteer in het veld **Inkopercode** de juiste inkopercode en sluit vervolgens de pagina.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Inkoop instellen](purchasing-setup-purchasing.md)  

@@ -1,31 +1,25 @@
 ---
 title: Verbruik in batches boeken
-description: Als de afboekingsmethode Handmatig is, moet u de materialen handmatig boeken met behulp van een verbruiksdagboek.
+description: 'Als de afboekingsmethode Handmatig is, moet u de materialen handmatig boeken met behulp van een verbruiksdagboek.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000846, 99000850
+ms.search.form: '99000846, 99000850'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09129dc65ad61e632d7b5f5e3d22b47ae32d95bd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516730"
 ---
-# <a name="batch-post-production-consumption"></a>Productieverbruik in batches boeken
+# Productieverbruik in batches boeken
 
 Als de afboekingsmethode **Handmatig** is, moet u de materialen handmatig boeken met behulp van een verbruiksdagboek.  
 
 >[!NOTE]
-> Als u het selectievakje **Pick vereist** op de vestigingskaart hebt ingeschakeld om aan te geven dat de vestiging voorraadpickverwerking vereist, hoeft u deze batchverwerking niet uit te voeren. [!INCLUDE[prod_short](includes/prod_short.md)] handelt het verbruik dan af wanneer u de voorraadpick boekt. Zie voor meer informatie [Picken voor productie in standaardmagazijnconfiguraties](warehouse-how-to-pick-for-production.md#pick-for-production-in-basic-warehouse-configurations).  
+> Als u het selectievakje **Pick vereist** op de vestigingskaart hebt ingeschakeld om aan te geven dat de vestiging voorraadpickverwerking vereist, hoeft u deze batchverwerking niet uit te voeren. [!INCLUDE[prod_short](includes/prod_short.md)] handelt het verbruik dan af wanneer u de voorraadpick boekt. Zie voor meer informatie [Picken voor productie in standaardmagazijnconfiguraties](warehouse-how-to-pick-for-production.md).  
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] ook zo instellen materialen automatisch worden geboekt (*afgeboekt*) als u productieorders start of voltooit. Zie voor meer informatie [Afboeking van materialen op basis van de uitvoer van een bewerking inschakelen](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Verbruik boeken voor een of meer productieorderregels
+## Verbruik boeken voor een of meer productieorderregels
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verbruiksdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in de velden informatie over de productieorder en verbruik in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +31,7 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] ook zo instellen materiale
 
 3. Kies de actie **Boeken** om het verbruik te boeken. De gerelateerde voorraden worden verminderd.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie](production-manage-manufacturing.md)  
 [Productie instellen](production-configure-production-processes.md)  

@@ -1,89 +1,124 @@
 ---
 title: Picken van artikelen voor magazijnverzending
-description: Leer hoe u de magazijnpickdocumenten kunt gebruiken om pickinformatie te maken en te verwerken voordat u de magazijnverzending boekt.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 23a730f79e3b5969243a1b176152496b6e20bdd2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534736"
+description: Ontdek hoe u magazijnpickdocumenten kunt gebruiken om pickinformatie te maken en te verwerken voordat u een magazijnverzending boekt.
+author: bholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 01/25/2023
+ms.custom: bap-template
+ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
+# Picken van artikelen voor magazijnverzending
 
-Als voor de locatie zowel magazijnpickverwerking als magazijnverzendingsverwerking is vereist, gebruikt u magazijnpickdocumenten om de pickinformatie te beheren voordat u de magazijnverzending boekt.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
-Een magazijn-pickdocument kan niet van het begin af gemaakt worden, omdat een pick-activiteit altijd onderdeel is van een werkstroom, zowel bij een pull- als bij een push-scenario.  
+|Methode|Uitgaand proces|Pick vereist|Verzending vereist|Complexiteitsniveau (meer informatie op [Overzicht van magazijnbeheer](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Picken en verzending vanaf de orderregel boeken|||Geen specifieke magazijnactiviteit.|  
+|B|Picken en verzending vanuit een voorraadpickdocument boeken|Ingeschakeld||Basis: Order voor order|  
+|H|Picken en verzending vanuit een magazijnverzendingdocument boeken||Ingeschakeld|Basis: Geconsolideerde boeking voor ontvangen/verzenden voor meerdere orders.|  
+|D|Picken vanuit een magazijnpickdocument boeken en verzending vanuit een magazijnverzendingdocument boeken|Ingeschakeld|Ingeschakeld|Geavanceerd|  
 
-U kunt magazijn-pickdocumenten op een pull-manier maken door het openen van een leeg document voor magazijnverzending, detecteren van brondocumenten die zijn vrijgegeven voor verzending en vervolgens maken van magazijnpickregels voor deze verzendingen. U kunt de functies **Brondocumenten ophalen** of **Filter gebruiken om brondocumenten op te halen** voor het detecteren van brondocumenten die gereed zijn voor verzending.
+Zie voor meer informatie [Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md).
 
-U kunt ook de pagina **Werkblad Pick** gebruiken om pickregels in de batchmodus te halen en te maken. Zie [Picks plannen in voorstellen](warehouse-how-to-plan-picks-in-worksheets.md) voor meer informatie.  
+Dit artikel verwijst naar methode D in de tabel. Zie voor meer informatie over het verzenden van artikelen [Artikelen verzenden](warehouse-how-ship-items.md).
 
-U kunt ook magazijn-pickdocumenten op push-wijze vanuit de pagina **Magazijnverzending** maken door **Pick maken** te selecteren.  
+Als voor een vestiging zowel magazijnpickverwerking als magazijnverzendingsverwerking is vereist, gebruikt u magazijnpickdocumenten om de pickinformatie te beheren voordat u de magazijnverzending boekt.  
+
+Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken deel uit van een werkstroom waarbij de persoon die een order verwerkt ze op een push-manier maakt, of de magazijnmedewerker maakt ze op een pull-manier:
+
+- Op een push-manier, waarbij u de actie **Pick maken** gebruikt op de pagina **Magazijnverzending**. Selecteer de te picken regels en bereidt de picks voor door bijvoorbeeld op te geven uit welke opslaglocaties moet worden gepickt en in welke moet worden opgeslagen en hoeveel eenheden moeten worden verwerkt. Opslaglocaties kunnen vooraf worden gedefinieerd voor de magazijnlocatie of resource.
+- Op een pull-manier, waarbij u de actie **Vrijgeven** op de pagina **Magazijnverzending** gebruikt om de artikelen beschikbaar te maken voor picking. Daarna kunnen magazijnmedewerkers op de pagina **Pickvoorstel** de actie **Magazijndocumenten ophalen** om hun toegewezen picks te krijgen.
 
 > [!NOTE]  
->  Het picken voor magazijnverzending van artikelen die worden samengesteld voor de verkooporder die wordt verzonden volgt dezelfde stappen als gewone magazijnpicks voor verzending, zoals beschreven in dit onderwerp. Het aantal pickregels per te verzenden aantal is mogelijk echter veel-op-één omdat u de componenten pickt, niet het assemblageartikel.  
->   
->  De magazijnpickregels zijn gemaakt voor de waarde in het veld **Resterend aantal** op de regels van de assemblage die is gekoppeld aan de verkooporderregel die wordt verzonden. Dit zorgt ervoor dat alle onderdelen in één actie worden gepickt.  
->   
->  Zie de sectie Op-order-assembleren-artikelen in magazijnverzendingen afhandelen voor meer informatie.  
->   
->  Zie [Picken voor productie of assemblage](warehouse-how-to-pick-for-production.md) voor informatie over het picken van onderdelen voor assemblageorders in het algemeen, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
+> Het picken voor magazijnverzending van artikelen die worden samengesteld voor een verkooporder volgt dezelfde stappen als gewone magazijnpicks voor verzending, zoals beschreven in dit artikel. Het aantal pickregels voor het te verzenden aantal is mogelijk echter veel-op-één omdat u de materialen pickt, niet het geassembleerde artikel.  
+>
+> Magazijnpickregels worden gemaakt voor de waarde in het veld **Resterend aantal** op de regels van de assemblageorder die is gekoppeld aan de verkooporderregel die wordt verzonden. Alle onderdelen worden in één actie gepickt. Zie voor meer informatie [Op-order-assembleren-artikelen in magazijnverzendingen afhandelen](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).  
+>  
+> Zie [Picken voor productie, assemblage of projecten in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) voor meer informatie over het picken van materialen voor assemblageorders, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
 
-## <a name="to-pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
+## Bulksgewijs pickdocumenten maken met het pickvoorstel
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Picks** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+
+2. Kies de actie **Magazijndocumenten ophalen**.  
+
+    De lijst bevat alle zendingen die zijn vrijgegeven voor picken, inclusief de zendingen waarvoor al pickinstructies zijn gemaakt. De lijst bevat geen documenten met pickregels die volledig zijn gepickt en geregistreerd.  
+3. Selecteer de verzendingen waarvoor u een pick wilt voorbereiden.
+
+    > [!NOTE]  
+    >  Als u een verzendingsdocument of interne-pickdocument selecteert waarvoor u al instructies hebt gemaakt voor alle regels, krijgt u een bericht dat meldt dat er 'niets is om af te handelen.' Als de pickinstructies voor het magazijn al zijn gemaakt maar u ze wilt combineren tot één efficiënte pickinstructie, moet u eerst de afzonderlijke magazijnpicks verwijderen.
+
+4. Vul het veld **Sorteermethode** in om de regels te sorteren.  
+
+    > [!NOTE]  
+    >  De manier waarop de regels in het werkblad worden gesorteerd, wordt niet automatisch doorgevoerd in de pickinstructie. Er zijn echter dezelfde mogelijkheden voor sorteren en opslaglocatievolgorde. U kunt de volgorde van de regels die u in het voorstel plant gemakkelijk opnieuw bepalen wanneer u de pickinstructies maakt of door te sorteren in de pickinstructies.
+
+5. Vul het veld **Te verwerken aantal** handmatig in of gebruik hiervoor de actie **Te verwerken aantal autom. invullen**.  
+
+    De pagina toont de beschikbare hoeveelheden in cross-dockopslaglocaties. Deze informatie is handig voor het plannen van werktoewijzingen in cross-docksituaties. [!INCLUDE[prod_short](includes/prod_short.md)] stelt altijd eerst een pick uit een cross-dockopslaglocatie voor.
+6. U kunt de regels zo nodig bewerken. U kunt ook regels verwijderen om de pick nog efficiënter te maken. Als er bijvoorbeeld meerdere regels zijn met artikelen in cross-dockopslaglocaties, kunt u een pick maken voor alle regels. De cross-dockartikelen worden dan verzonden, samen met de andere artikelen in de verzending, en in de cross-docklocaties komt ruimte vrij voor andere binnenkomende artikelen.  
+
+    > [!NOTE]  
+    >  Als u regels verwijdert, worden ze alleen uit het voorstel verwijderd. Ze worden niet verwijderd uit het pickselectieoverzicht.  
+
+7. Kies de actie **Pick maken**. De pagina **Pick maken** wordt geopend, waar u meer informatie aan de pick kunt toevoegen. Geef op hoe pickregels moten worden gesorteerd in de pickdocumenten door een van de volgende opties te selecteren.  
+
+    |Optie|Omschrijving|
+    |-|-|
+    |Per magazijn Document|Maakt afzonderlijke pickdocumenten voor regels van het werkblad met hetzelfde magazijn-brondocument.|
+    |Per klant/leverancier/vestiging|Maak afzonderlijke pickdocumenten voor elke klant (verkooporders), leverancier (inkoopretourorders) en vestiging (transferorders).|
+    |Per artikel|Maak afzonderlijke pickdocumenten voor elk artikel in het pickvoorstel.|
+    |Per Van zone|Maak afzonderlijke pickdocumenten voor elke zone waar u artikelen uit haalt.|
+    |Per opslaglocatie|Maak afzonderlijke pickdocumenten voor elke opslaglocatie waar u artikelen uit haalt.|
+    |Per vervaldatum|Maak afzonderlijke pickdocumenten voor brondocumenten die dezelfde vervaldatum hebben.|
+
+    Geef op hoe de pickdocumenten worden gemaakt door een selectie te maken uit de volgende opties.
+
+    |Optie|Omschrijving|
+    |-|-|
+    |Max. Nee Pickregels|Maakt pickdocumenten die niet meer dan het opgegeven aantal regels in een document hebben.|
+    |Max. Nee pickbrondocumenten.|Maakt pickdocumenten die ieder niet meer dan het opgegeven aantal brondocumenten hebben.|
+    |Toegewezen gebruikers-id|Maakt pickdocumenten alleen voor voorstelregels die zijn toegewezen aan de geselecteerde magazijnmedewerker.|
+    |Sorteringsmethode voor pickregels|Selecteer uit de beschikbare opties om regels te sorteren in het gemaakte pickdocument.|
+    |Breakbulkfilter plaatsen|Verbergt tussenliggende bulksplitsing pickregels wanneer een grotere eenheid wordt omgezet in een kleinere eenheid en volledig wordt gepickt.|
+    |Te verwerken aantal niet opvullen|Laat het veld Te verwerken aantal in de gemaakte pickregels leeg.|
+    |Pick afdrukken|Drukt de pickdocumenten af wanneer ze worden gemaakt. U kunt ook afdrukken vanuit de gemaakte pickdocumenten.|
+
+8. Klik op **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] maakt de keuze op basis van uw selecties.  
+
+## Picken van artikelen voor een magazijnverzending
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling.  
 
     Als u een bepaalde pick wilt bewerken, selecteert u het pickformulier of het overzicht. U kunt het overzicht ook filteren op picks die speciaal aan u zijn toegewezen. De pickkaart openen.  
-2.  Indien het veld **Toegewezen gebruikers-ID** leeg is, voert u uw ID in om uzelf te identificeren indien nodig.  
-3.  Uitvoeren van het werkelijke picken van artikelen.  
+2. Als het veld **Toegewezen gebruikers-id** leeg is, voert u uw id in om uzelf te identificeren indien nodig.  
+3. Pick de artikelen.  
 
-    Indien het magazijn opslaglocaties gebruikt, worden de standaard opslaglocaties voor de artikelen voorgesteld om de artikelen uit te halen. De instructies worden op twee afzonderlijke regels weergegeven, minimaal één voor elk soort actie, Nemen en Plaatsen.  
+    Als het magazijn opslaglocaties gebruikt, worden de standaard opslaglocaties voor de artikelen voorgesteld om de artikelen uit te halen. De instructies bevatten minstens twee afzonderlijke regels voor de acties Nemen en Plaatsen.  
 
-    Indien voor het magazijn gestuurde opslag en pick is ingesteld, wordt de opslaglocatievolgorde gebruikt voor het berekenen van de beste opslaglocaties waaruit gepickt kan worden en deze opslaglocaties worden vervolgens voorgesteld op de pickregels. De instructies worden op twee afzonderlijke regels weergegeven, minimaal één voor elk soort actie, Nemen en Plaatsen.  
+    Indien voor het magazijn gestuurde opslag en pick is ingesteld, wordt opslaglocatievolgorde gebruikt voor het berekenen van de beste opslaglocaties waaruit gepickt kan worden. Die opslaglocaties worden voorgesteld op de pickregels. De instructies bevatten minstens twee afzonderlijke regels voor de acties Nemen en Plaatsen.  
 
-4.  Als u de pick hebt uitgevoerd en de artikelen op de verzendlocatie hebt geplaatst, kiest u de actie **Pick registreren**.  
+    * De eerste regel met **Nemen** in het veld **Actiesoort** geeft aan waar de artikelen zich in het pickgebied bevinden. Als u een groot aantal artikelen via één verzendregel verzendt, moeten de artikelen mogelijk in verschillende opslaglocaties worden gepickt en wordt er een Nemen-regel voor elke opslaglocatie weergegeven.
+    * De volgende regel met **Plaatsen** in het veld **Actiesoort** geeft aan waar u de artikelen in het magazijn moet plaatsen. U kunt de zone en de opslaglocatie op deze regel niet wijzigen.
 
-De persoon die verantwoordelijk is voor verzending kan nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het verwante brondocument, op de pagina **Mag. -verzending**. Zie [Artikelen verzenden](warehouse-how-ship-items.md) voor meer informatie.   
+    > [!NOTE]
+    > Als het nodig is de artikelen voor een regel in meerdere opslaglocaties te picken of te plaatsen, bijvoorbeeld omdat de aangewezen opslaglocatie vol is, gebruikt u de actie **Regel splitsen** op het sneltabblad **Regels**. De actie maakt een regel voor de resterende te verwerken hoeveelheid.
 
-Naast het picken voor brondocumenten zoals beschreven in dit onderwerp kunt u artikelen tussen opslaglocaties nemen en plaatsen zonder te verwijzen naar de brondocumenten. Zie voor meer informatie [Picken en opslaan zonder een brondocument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
+4. Nadat u de pick hebt uitgevoerd en de artikelen op de verzendlocatie hebt geplaatst, kiest u de actie **Pick registreren**.  
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Op-order-assembleren-artikelen in magazijnverzendingen afhandelen
+U kunt nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het gerelateerde brondocument, op de pagina **Mag. -verzending**. Zie voor meer informatie [Artikelen verzenden](warehouse-how-ship-items.md).
 
-In scenario's voor het assembleren op order, wordt het veld **Te verzenden aantal** op magazijnverzendingsregels gebruikt om vast te leggen hoeveel eenheden worden geassembleerd. Het opgegeven aantal wordt vervolgens geboekt als assemblageuitvoer wanneer de magazijnverzending wordt geboekt.
+## Zie gerelateerde [Microsoft-training](/training/modules/pick-ship-items-warehouse/)
 
-Voor andere magazijnverzendingsregels is de waarde in het veld **Te verzenden aantal** nul vanaf het begin.
+## Zie ook
 
-Wanneer werknemers die verantwoordelijk zijn voor het assembleren klaar zijn met het assembleren van onderdelen of de volledige hoeveelheid voor op order assembleren, registreren ze dit in het veld **Te verzenden aantal** op de magazijnverzendingsregel en kiezen ze de actie **Verzending boeken**. Het resultaat is dat de bijbehorende assemblageuitvoer wordt geboekt, inclusief het materiaalverbruik. Een verkoopverzending voor de hoeveelheid wordt geboekt voor de verkooporder.
-
-Op de assemblageorder kunt u **Magazijnverzendregel op order assembleren** om toegang te krijgen tot de magazijnverzendregel. Dit is handig voor werknemers die gewoonlijk niet de pagina **Magazijnverzending** gebruiken.
-
-Na het boeken van de magazijnverzending, worden verschillende velden op de orderregel bijgewerkt om de voortgang in het magazijn weer te geven. De volgende velden worden ook bijgewerkt om weer te geven hoeveel op-order-assembleren-aantallen nog moeten worden geassembleerd en verzonden:
-
-- **AoO-mag. uitstaand aantal**
-- **AoO-mag. uitst. aant. (basis)**
-
-> [!NOTE]
-> In combinatiescenario's waarbij een deel van de hoeveelheid eerst moet worden geassembleerd en een ander deel uit voorraad moet worden verzonden, worden twee magazijnverzendregels gemaakt. Eén voor het op-order-assembleren-aantal, en één voor het voorraadaantal.
-
-> In dat geval wordt het op-order-assembleren-aantal verwerkt zoals beschreven in dit onderwerp, en het voorraadaantal wordt verwerkt als een gewone magazijnverzendregel. Zie voor meer informatie over combinatiescenario's [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).
-
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/pick-ship-items-warehouse/)
-
-## <a name="see-also"></a>Zie ook
-
-[Magazijnbeheer](warehouse-manage-warehouse.md)  
+[Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
-[Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

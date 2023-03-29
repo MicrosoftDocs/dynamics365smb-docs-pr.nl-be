@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317387"
 ---
 [!INCLUDE[prod_short](prod_short.md)]-gebruikers ondersteunen soms meer dan één afdeling of suborganisatie binnen een business unit. Een bedrijf kan bijvoorbeeld verkoopkantoren hebben in verschillende steden en meerdere landen/regio's, dus heeft het voor elk kantoor een afzonderlijke bedrijfseenheid gemaakt. De kantoren in hetzelfde land/regio zijn opgezet als aparte *bedrijven* in een gedeelde *omgeving*. Andere kantoren zijn gemaakt als bedrijven in afzonderlijke omgevingen omdat ze geografisch gevestigd zijn in andere landen/regio's.
 

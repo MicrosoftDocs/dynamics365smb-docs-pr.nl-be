@@ -3,12 +3,6 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/05/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8849f1c5d33cd1f826e7f53be317cb01e513fcd1
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652150"
 ---
 Nadat u alle artikelen op regels hebt toegevoegd, kunt u de factuurkorting voor het hele verkoopdocument berekenen door de actie **Factuurkorting berekenen** te kiezen.
 

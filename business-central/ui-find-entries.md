@@ -1,6 +1,6 @@
 ---
 title: Gerelateerde posten zoeken voor documenten
-description: Leer hoe u documenten, zakelijke contacten en artikelposten kunt vinden die aan elkaar gerelateerd zijn.
+description: 'Leer hoe u documenten, zakelijke contacten en artikelposten kunt vinden die aan elkaar gerelateerd zijn.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -10,14 +10,8 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: ae1ae9293530a36a635af48e1711f502b64add4d
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822466"
 ---
-# <a name="finding-related-entries-for-documents"></a>Gerelateerde posten zoeken voor documenten
+# Gerelateerde posten zoeken voor documenten
 
 Leer hoe u documenten en posten kunt vinden die aan elkaar gerelateerd zijn op basis van gemeenschappelijke informatie, zoals:
 
@@ -27,9 +21,9 @@ Leer hoe u documenten en posten kunt vinden die aan elkaar gerelateerd zijn op b
 
 Deze functie is ook handig als u wilt zoeken naar posten uit bepaalde transacties. Wanneer u op documentnummer zoekt, kunt u het overzicht afdrukken vanuit het rapport **Documentposten**.
 
-## <a name="get-started"></a>Aan de slag
+## Aan de slag
 
-De functie voor het vinden van posten is direct beschikbaar vanaf bijna elke pagina door op de toetsen Ctrl+Alt+Q te drukken. Vanuit pagina's die specifiek geboekte documenten of geboekte documentposten weergeven&mdash;voor zowel lijsten als kaarten&mdash;kunt u de functie ook openen door de actie **Posten zoeken** te kiezen.
+De functie voor het vinden van posten is direct beschikbaar vanaf bijna elke pagina door op de toetsen <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> te drukken. Vanuit pagina's die specifiek geboekte documenten of geboekte documentposten weergeven&mdash;voor zowel lijsten als kaarten&mdash;kunt u de functie ook openen door de actie **Posten zoeken** te kiezen.
 
 De pagina **Posten zoeken** bevat alle gerelateerde documenten en posten op basis van het documentnummer en de boekingsdatum. De pagina is onderverdeeld in drie secties:
 
@@ -37,7 +31,7 @@ De pagina **Posten zoeken** bevat alle gerelateerde documenten en posten op basi
 - In de middelste sectie worden gerelateerde documenten weergegeven op basis van de zoekopdracht.
 - De onderste sectie geeft informatie weer over het brondocument dat is gevonden door te zoeken.
 
-## <a name="search-for-entries"></a>Zoeken naar posten
+## Zoeken naar posten
 
 U kunt posten zoeken op basis van informatie over het document, de zakelijke contactpersoon of de artikelreferentie. Selecteer in het bovenste gedeelte een van de volgende opties op basis van het type informatie waarover u beschikt:
 
@@ -52,9 +46,9 @@ Nadat u een selectie hebt gemaakt, voert u de relevante zoekinformatie in de vel
 > [!TIP]
 > Voor een paar voorbeelden over het gebruik van **Posten zoeken** raadpleegt u [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md) en [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/user-interface-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)  
 [Geboekte documenten zonder inkomende documentrecords zoeken](across-how-find-posted-documents-without-income-document-records.md)  

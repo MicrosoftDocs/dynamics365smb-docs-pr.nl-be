@@ -7,16 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: edupont
-ms.openlocfilehash: e306cc27753e86e8e1a0a315406643bcf6f44d8a
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822531"
 ---
-# <a name="posting-documents-and-journals"></a>Documenten en dagboeken boeken
+# Documenten en dagboeken boeken
 
 Boeking staat voor de boekhoudingsactie waarbij zakelijke transacties in de verschillende bedrijfsgrootboeken worden geregistreerd.
 
@@ -33,7 +27,7 @@ In de volgende tabel worden gerelateerde taken beschreven met koppelingen naar d
 | Bekijk op een pagina een voorbeeld van de posten die worden gemaakt wanneer u boekt. |[Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md) |
 | Bekijk in een rapport een voorbeeld van de posten die worden gemaakt wanneer u boekt. |[Controlelijsten weergeven vóór boeken](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Geboekte documenten bewerken](across-edit-posted-document.md)  
 [Gerelateerde posten zoeken voor documenten](ui-find-entries.md)  

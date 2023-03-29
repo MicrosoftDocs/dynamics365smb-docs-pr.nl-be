@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522758"
 ---
-# <a name="batch-post-output-and-run-times"></a>Output en bewerkingstijden in batches boeken
+# Output en bewerkingstijden in batches boeken
 De outputhoeveelheid geeft de voortgang van het werk weer in de vorm van de voltooide hoeveelheid en de gebruikte capaciteit van de afdeling of de bewerkingsplaats.
 
 U kunt ook het outputdagboek gebruiken om:
@@ -30,7 +24,7 @@ U kunt ook het outputdagboek gebruiken om:
 
 Met het venster **Productiedagboek** kunt u dezelfde taken uitvoeren als in het venster **Outputdagboek** en tegelijkertijd de gerelateerde taken voor verbruiksboeking uitvoeren. Zie voor meer informatie [Verbruik en output registreren voor één vrijgegeven productieorderregel](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Outputaantallen boeken en/of looptijden registreren voor een of meer productieorderregels
+## Outputaantallen boeken en/of looptijden registreren voor een of meer productieorderregels
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in de velden informatie over de productieorder en output en/of looptijd in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -44,7 +38,7 @@ Capaciteitsboekingen worden bijgewerkt voor de gebruikte werk- of machinecentra 
 
 Als u de laatste bewerking heeft geboekt, wordt het artikel aan de inventaris toegevoegd.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Uitval handmatig boeken](production-how-to-post-scrap.md)
 [Outputboeking tegenboeken](production-how-to-reverse-output-posting.md)

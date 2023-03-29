@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1393, 1394
+ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517725"
 ---
-# <a name="use-pre-closing-reports"></a>Rapporten gebruiken die voorafgaan aan een sluiting
+# Rapporten gebruiken die voorafgaan aan een sluiting
 
 Er staan veel standaardrapporten tot uw beschikking voor het verifiëren van de nauwkeurigheid van de rekeningen voor u de boeken sluit aan het eind van een jaar of een periode. U kunt bijvoorbeeld het rapport **Klant - Proefbalans** gebruiken om na te gaan of het saldo van een klantboekingsgroep gelijk is aan het saldo op de overeenkomstige grootboekrekening op een bepaalde datum.
 
@@ -36,7 +30,7 @@ In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die
 
 Als u een rapport wilt zien, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,23 +1,17 @@
 ---
 title: Goedkeuringswerkstromen verwijderen
-description: Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze verwijderen. Alle werkstroomstapinstanties die zijn gedefinieerd in de werkstroom, moeten de status **Voltooid** hebben.
+description: 'Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze verwijderen. Alle werkstroomstapinstanties die zijn gedefinieerd in de werkstroom, moeten de status **Voltooid** hebben.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1500,
+ms.search.keywords: null
+ms.search.form: '1500,'
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: e93adde3ffdc520433df26f5735d021d5b64bf19
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585607"
 ---
-# <a name="delete-approval-workflows"></a>Goedkeuringswerkstromen verwijderen
+# Goedkeuringswerkstromen verwijderen
 
 Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze verwijderen. Alle werkstroomstapinstanties die zijn gedefinieerd in de werkstroom, moeten de status **Voltooid** hebben.
 
@@ -26,7 +20,7 @@ Als u zeker bent dat een werkstroom niet meer wordt gebruikt, kunt u deze verwij
 
 Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen met behulp van lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Goedkeuringswerkstromen maken](across-how-to-create-workflows.md).
 
-## <a name="delete-a-workflow"></a>Een werkstroom verwijderen
+## Een werkstroom verwijderen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de werkstroom die u wilt verwijderen.
@@ -37,7 +31,7 @@ Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappe
 > [!NOTE]
 > Als u een werkstroom wilt verwijderen, moet deze worden uitgeschakeld. Om een werkstroom uit te schakelen opent u deze op de pagina **Werkstromen** en schakelt u vervolgens de schakelaar **Ingeschakeld** in.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Goedkeuringswerkstromen maken](across-how-to-create-workflows.md)  
 [Goedkeuringswerkstromen inschakelen](across-how-to-enable-workflows.md)  

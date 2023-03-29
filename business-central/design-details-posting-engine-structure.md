@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: ff1b8330bf804fa89bafa18bf5a3c30471d94afe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131963"
 ---
-# <a name="design-details-posting-engine-structure"></a>Ontwerpdetails: boekingsenginestructuur
+# Ontwerpdetails: boekingsenginestructuur
 Boekingsinterface en enkele andere functies in codeunit 12 gebruiken boekingsenginefuncties om grootboekposten en btw-postrecords voor te bereiden en in te voegen. De boekingsengine is ook verantwoordelijk voor het maken van het grootboekjournaal.  
   
  De functies in de volgende tabel bieden een standaardkader voor het ontwerp van boekingsprocedures (zoals Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry en Reverse) en exclusieve toegang tot tabel 17, Grootboekpost.  
@@ -36,7 +30,7 @@ Boekingsinterface en enkele andere functies in codeunit 12 gebruiken boekingseng
 |CreateGLEntryVATCollectAdj|Hetzelfde als CreateGLEntry, maar met extra verzameling van aanpassingen en opslag in tijdelijke btw-buffer:<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
 |CreateGLEntryFromVATEntry|Hetzelfde als CreateGLEntry, maar er worden ook boekingsgroepen uit Btw-post gekopieerd.|  
   
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
  [Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

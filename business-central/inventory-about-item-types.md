@@ -1,24 +1,18 @@
 ---
 title: Artikeltypen begrijpen
-description: U kunt de voorraadwaarde van een artikel herwaarderen met de waarderingsmethoden FIFO of Gemiddeld, als de kosten van een artikel veranderen om andere redenen dan transacties.
+description: 'U kunt de voorraadwaarde van een artikel herwaarderen met de waarderingsmethoden FIFO of Gemiddeld, als de kosten van een artikel veranderen om andere redenen dan transacties.'
 documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 9297, 5845, 30,
+ms.search.keywords: null
+ms.search.form: '9297, 5845, 30,'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c397de29bf2d2c23d5fedb9f3566ebd0e62dd183
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144098"
 ---
-# <a name="about-item-types"></a>Over artikeltypen
+# Over artikeltypen
 In het veld **Soort** op de pagina **Artikelkaart** kunt u selecteren waarvoor het artikel in uw bedrijf wordt gebruikt. Dit heeft invloed op de mate waarin u het artikel kunt beheren in de voorraad. In de volgende tabel worden de drie soorten artikelen vermeld en beschreven die beschikbaar zijn.
 
 |Optie|Gebruikelijk doel|
@@ -38,19 +32,19 @@ In de volgende tabel worden functies beschreven die de drie artikeltypen onderst
 |Niet-voorraad|Ja|Ja|Ja|Ja|Ja|Ja|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Ja|
 |Onderhoud|Ja|Ja|Ja|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Ja|
 
-## <a name="costing-methods-for-types-of-items"></a>Waarderingsmethoden voor soorten artikelen
+## Waarderingsmethoden voor soorten artikelen
 Als u voorraadtransacties boekt, worden de gewijzigde voorraadaantallen en -waarden vastgelegd in respectievelijk de artikel- en waardeposten. 
 
 Voor voorraadartikelen worden de kosten geregistreerd in het veld **Tot. werk. kosten** op de pagina **Waardeposten** en wanneer deze zijn gereconcilieerd met het grootboek, worden de kosten weergegeven in het veld **Kosten geboekt naar grootboek**. Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md).
 
 Voor niet-voorraad- en serviceartikelen worden de kosten geregistreerd in het veld **Kostenbedrag (Niet-inv.)** op de pagina **Waardeposten**. Voor niet-voorraad- en serviceartikelen worden de kosten gespecificeerd op de verkoop-, assembly- en productiedocumenten en -dagboeken. De standaardkosten kunnen worden gespecificeerd in het veld **Kostprijs** op de pagina's **Artikelkaart** en **SKU**. Kosten voor dit soort artikelen worden niet gereconcilieerd met het grootboek. 
 
-## <a name="catalog-and-service-items"></a>Catalogus- en serviceartikelen
+## Catalogus- en serviceartikelen
 Artikelen die u aan uw klanten aanbiedt, maar die u niet in uw systeem wilt beheren tot u ze begint te verkopen, kunnen worden ingesteld als catalogusartikelen. Catalogusartikelen moeten niet worden verward met normale artikelen van het type Niet-voorraad. Zie voor meer informatie [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md).
 
 Artikelen van klanten waaraan u onderhoud verricht, zoals een printer, worden serviceartikelen genoemd. Serviceartikelen hebben niets van doen met normale of catalogusartikelen. Serviceonderdelen kunnen echter gewone artikelen zijn. Zie voor meer informatie [Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad instellen](inventory-setup-inventory.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  

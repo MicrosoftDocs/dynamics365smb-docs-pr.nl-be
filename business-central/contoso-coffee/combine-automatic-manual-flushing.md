@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078764"
 ---
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Procedure: Automatisch en handmatig afboeken combineren
+
+# Procedure: Automatisch en handmatig afboeken combineren
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken bij het afboeken.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 U bent de productieplanner bij Contoso Coffee. U moet een nieuwe productieorder maken voor tien eenheden van artikel SP-SCM1004, AutoDrip. Sommige componenten en bewerkingen worden voorwaarts afgeboekt, terwijl andere achterwaarts worden afgeboekt op basis van verschillende omstandigheden.
 
-## <a name="steps"></a>Stappen
+## Stappen
 
 > [Opmerking!] Vergeet niet om de voorraad aan te passen door het artikeldagboek met beginsaldi te boeken.
 
@@ -108,7 +103,7 @@ U bent de productieplanner bij Contoso Coffee. U moet een nieuwe productieorder 
 
 Dat is alles voor het handmatig en automatisch afboeken van componenten.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Componenten afboeken op basis van de output van een bewerking](../production-how-to-flush-components-according-to-operation-output.md)  
 [Inleiding tot de demogegevens voor Contoso Coffee](contoso-coffee-intro.md)  

@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: c391e7d6492a722de10801212ccd04a532f8a971
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419660"
 ---
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij kunnen handelen en de financiële gegevens kunnen controleren en rapporteren in meer dan één valuta. De lokale valuta (LV) wordt gedefinieerd op de pagina **Grootboekinstellingen** zoals beschreven in het artikel [Het grootboek en het rekeningschema begrijpen](../finance-general-ledger.md). Zodra de lokale valuta (LV) is gedefinieerd, wordt deze weergegeven als een blanco valuta, dus wanneer het veld **Valuta** leeg is, betekent dit dat de valuta LV is.  
 

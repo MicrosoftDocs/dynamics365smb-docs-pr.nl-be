@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5a9fd8a1d4ac379c2c20d832f8cace206e549375
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516043"
 ---
-# <a name="reverse-output-posting"></a>Outputboeking tegenboeken
+# Outputboeking tegenboeken
 
 Het kan voorkomen dat een outputboeking moet worden tegengeboekt. Dit is bijvoorbeeld het geval als er een gegevensinvoerfout is gemaakt en er een onjuiste hoeveelheid output is geboekt op een productieorder.  
 
-## <a name="to-reverse-an-output-posting"></a>Een outputboeking tegenboeken
+## Een outputboeking tegenboeken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling. Selecteer uw batch.  
 2. Vul de benodigde velden in. Zie voor meer informatie [Output en bewerkingstijd in batches boeken](production-how-to-post-output-quantity.md).
@@ -29,7 +23,7 @@ Het kan voorkomen dat een outputboeking moet worden tegengeboekt. Dit is bijvoor
 
 De posten van het outputdagboek worden als positieve herwaardering geboekt op de artikelposten.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
  [Productie](production-manage-manufacturing.md) [Productie instellen](production-configure-production-processes.md)  
  [Gepland](production-planning.md)  

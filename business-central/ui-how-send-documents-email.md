@@ -1,21 +1,15 @@
 ---
 title: Documenten en e-mails verzenden
-description: U kunt inhoud definiëren die moet worden ingevoegd in het hoofdgedeelte van een e-mailbericht, bijvoorbeeld een PayPal-koppeling. U kunt ook documenten koppelen aan e-mailberichten.
+description: 'U kunt inhoud definiëren die moet worden ingevoegd in het hoofdgedeelte van een e-mailbericht, bijvoorbeeld een PayPal-koppeling. U kunt ook documenten koppelen aan e-mailberichten.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
-ms.search.form: ''
+ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
+ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607215"
 ---
-# <a name="send-documents-and-emails"></a>Documenten en e-mails verzenden
+# Documenten en e-mails verzenden
 
 U kunt eenvoudig informatie en documenten, zoals verkoop- en inkooporders en facturen, rechtstreeks per e-mail delen vanuit [!INCLUDE[prod_short](includes/prod_short.md)], zonder een e-mailapp te hoeven openen.  
 
@@ -28,7 +22,7 @@ Als u e-mails vanuit [!INCLUDE[prod_short](includes/prod_short.md)] wilt inschak
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt alleen uitgaande e-mailcommunicatie. U kunt ook geen antwoorden ontvangen vanuit de app.
 
-## <a name="to-send-documents-by-email"></a>Documenten per e-mail verzenden
+## Documenten per e-mail verzenden
 
 In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-bestand en met documentspecifieke e-mailtekst aan een e-mail wordt toegevoegd. <!--update this-->
 
@@ -50,7 +44,7 @@ In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-besta
 > [!NOTE]  
 > Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van de pagina **Document verzenden naar** selecteren. In dat geval wordt de pagina **E-mail verzenden** niet geopend. Zie stap 4. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
 
-## <a name="to-compose-and-send-an-email"></a>Een e-mail opstellen en verzenden
+## Een e-mail opstellen en verzenden
 
 U kunt snel e-mails opstellen voor contactpersonen, klanten, leveranciers, verkopers/inkopers en bankrekeningen, rechtstreeks vanaf de pagina's voor die entiteiten. Kies gewoon **Verwerken** en dan **E-mail verzenden** om de e-maileditor te openen. Voor bankrekeningen bevindt de actie **E-mail verzenden** zich onder **Acties**.
 
@@ -59,11 +53,11 @@ U kunt snel e-mails opstellen voor contactpersonen, klanten, leveranciers, verko
 
 Als u bent toegewezen aan een e-mailscenario met betrekking tot de entiteit waarnaar u de e-mail verzendt, of het document dat u verzendt, kan er automatisch een bijlage aan uw bericht worden toegevoegd. Dat komt omdat er een standaardbijlage is toegewezen aan het e-mailscenario. U kunt de bijlage verwijderen als u deze niet met uw bericht wilt meesturen. Zie voor meer informatie [E-mailscenario's toewijzen aan e-mailaccounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
-## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
+## Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
 
 Sommige documenten in [!INCLUDE[prod_short](includes/prod_short.md)] hebben een veld dat aangeeft hoe vaak het document is afgedrukt. Het nummer in dat veld <!--"that field?" need a name...--> wordt ook bijgewerkt als u het document per e-mail verstuurt, omdat er een pdf-bestand voor wordt gegenereerd. Het nummer wordt bijgewerkt, zelfs als u de e-mail niet verzendt. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>Verzonden e-mails en uw e-mailpostvak
+## Verzonden e-mails en uw e-mailpostvak
 
 [!INCLUDE[prod_short](includes/prod_short.md)] slaat de e-mails die u verzendt, op de pagina **Verzonden items** op. Dat is om u e-mails opnieuw te laten verzenden of door te sturen naar iemand anders. Als u geen e-mail kunt vinden in uw verzonden items, zoekt u deze op de pagina **E-mail-outbox**. 
 
@@ -72,9 +66,9 @@ Sommige documenten in [!INCLUDE[prod_short](includes/prod_short.md)] hebben een 
 
 In de **E-mailoutbox** vindt u de e-mails die u als concept hebt opgeslagen en e-mails die niet konden worden verzonden, bijvoorbeeld als het e-mailadres ongeldig was. Voor berichten die niet zijn verzonden, kunt u **Fout weergeven** of **Fout onderzoeken** kiezen om het probleem op te lossen.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/set-up-email/)
+## Zie gerelateerde [Microsoft-training](/training/modules/set-up-email/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Rapport- en documentlay-outs beheren](ui-manage-report-layouts.md)  
 [E-mail instellen](admin-how-setup-email.md)  

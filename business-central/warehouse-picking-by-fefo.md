@@ -1,22 +1,16 @@
 ---
 title: Picken volgens FEFO inschakelen | Microsoft Docs
-description: Eerste-verlopen-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.
+description: 'Eerste-verlopen-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520034"
 ---
-# <a name="enable-picking-items-by-fefo"></a>Artikelen picken volgens FEFO inschakelen
+# Artikelen picken volgens FEFO inschakelen
 First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.  
 
  Deze functie werkt alleen wanneer aan de volgende criteria wordt voldaan:  
@@ -39,11 +33,10 @@ Als u verplaatsingen volgens FEFO mogelijk wilt maken, laat u het veld **Van ops
 <br /><br />
 Als het veld **Strikte verloopdatumboeking** is geselecteerd op de kaart met de **Artikeltraceringscode**, worden alleen artikelen die niet zijn verlopen, in de pick opgenomen en worden de regels gesorteerd volgens het FEFO-principe.
 
-## <a name="see-also"></a>Zie ook  
-[artikelen picken](warehouse-pick-items.md)   
+## Zie ook  
 [Picken van artikelen voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md)   
-[Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
+[Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

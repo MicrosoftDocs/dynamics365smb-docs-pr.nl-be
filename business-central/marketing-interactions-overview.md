@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b489cc9977b6711de8c5851ea7c95899c6dfaf14
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074756"
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Interacties beheren met uw contacten
+# Interacties beheren met uw contacten
 In [!INCLUDE[prod_short](includes/prod_short.md)] wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, e-mail, telefoon, vergaderingen, enzovoort zijn.
 
 U kunt alle interactie registreren die u met uw contacten hebt, om de verkoop en marketinginspanningen bij te houden die u op uw contacten hebt gericht en om uw toekomstige bedrijfsinteracties met hen te verbeteren.

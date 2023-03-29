@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 21, 22
+ms.search.form: '21, 22'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 537c25d60282712f66afcdcfe9e44eb99bd2291f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139559"
 ---
-# <a name="set-up-cash-customers"></a>Contant betalende klanten instellen
+# Contant betalende klanten instellen
 
 U kunt geen factuur zonder klantnummer maken. Dit geldt ook voor contante verkopen waarbij u geen gegevens voor een klantenrekening hoeft in te voeren.  
 
-## <a name="to-set-up-a-cash-customer"></a>Een contant betalende klant instellen
+## Een contant betalende klant instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klant** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe **klant**-kaart. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).
@@ -35,7 +29,7 @@ U kunt geen factuur zonder klantnummer maken. Dit geldt ook voor contante verkop
 >
 > U moet altijd een nummer opgeven voor een centralisatierekening in de boekingsgroep, ook al bedraagt het saldo op deze rekening altijd 0 nadat u een factuur hebt geboekt.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)

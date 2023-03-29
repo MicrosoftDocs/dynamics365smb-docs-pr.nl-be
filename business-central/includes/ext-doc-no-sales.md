@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 41c661d161d88ac1b74b7f723e0913cf1575a4ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130162"
 ---
+
 Op verkoopdocumenten en dagboeken kunt u een documentnummer opgeven dat verwijst naar het nummeringssysteem van de klant. <!--You can enter a maximum of ten characters, both numbers and letters.--> Gebruik dit veld om het nummer vast te leggen dat de klant aan de order, factuur of creditnota heeft toegewezen. U kunt dit externe documentnummer later gebruiken als u om de een of andere reden de geboekte post moet zoeken met dit nummer.  
 
 Het veld **Extern documentnr. verplicht** op de pagina **Verkoopinstellingen** geeft aan of het verplicht is om een extern documentnummer in te voeren in het veld **Extern documentnr.** in een verkoopkop en het veld **Extern documentnr.** op een dagboekregel.

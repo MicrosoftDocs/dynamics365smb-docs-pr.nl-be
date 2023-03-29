@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518167"
 ---
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Financiële gegevens uit meerdere bedrijven consolideren
+
+# Financiële gegevens uit meerdere bedrijven consolideren
 
 Sommige organisaties gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in meerdere bedrijfsunits of rechtspersonen. Andere gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in dochterondernemingen die moeten rapporteren aan moederorganisaties. In beide gevallen gebruiken de accountants ingebouwde tools om de financiële gegevens te helpen consolideren.  
 
@@ -40,17 +35,17 @@ U stelt het geconsolideerde bedrijf in op dezelfde manier als waarop u andere be
 > [!TIP]
 > Consolideren van financiële gegevens kan vooral relevant zijn in verband met IC-processen. Raadpleeg [IC-transacties beheren](intercompany-manage.md) voor meer informatie.
 
-## <a name="trial-balance"></a>Proefbalans
+## Proefbalans
 
 Als u meerdere bedrijven in [!INCLUDE[prod_short](includes/prod_short.md)] hebt, kan het rapport **Consolidatie - Proefbalans** u inzicht bieden in de algehele financiële status van uw bedrijf.  
 
 Het rapport combineert de grootboekposten van al uw bedrijven in een nieuw bedrijf dat u maakt om de geconsolideerde gegevens in op te nemen. Dit bedrijf wordt doorgaans het geconsolideerde bedrijf genoemd. Het geconsolideerde bedrijf is slechts een container voor de geconsolideerde gegevens en bevat geen live bedrijfsgegevens. De bedrijven die u in het geconsolideerde bedrijf opneemt, worden in het rapport **bedrijfsunits**. Zie [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md) voor meer informatie.  
 
-## <a name="consolidate-data"></a>Gegevens consolideren
+## Gegevens consolideren
 
 Het proces van overdracht van de cijfers van de bedrijfsunits naar de geconsolideerde onderneming is de feitelijke *consolidatie*. Voordat u dit doet, doet u er goed aan te controleren of er verschillen zijn tussen de basisgegevens in de bedrijfsunits en het geconsolideerde bedrijf. Er zijn twee rapporten die u kunt gebruiken om de database en het bestand te testen.
 
-### <a name="to-test-the-data-before-you-consolidate"></a>De gegevens testen vóór consolidatie
+### De gegevens testen vóór consolidatie
 
 U kunt uw gegevens testen voordat u deze naar het geconsolideerde bedrijf overbrengt. [!INCLUDE[prod_short](includes/prod_short.md)] zoekt naar verschillen in de gegevens in de bedrijfsunits en in het geconsolideerde bedrijf. Er wordt bijvoorbeeld gecontroleerd of rekeningnummers of dimensiecodes afwijken. U moet fouten corrigeren voordat u het rapport kunt uitvoeren. U kunt de database testen, als u gegevens uit een XML-bestand importeert, of het bestand testen.  
 
@@ -61,7 +56,7 @@ U kunt uw gegevens testen voordat u deze naar het geconsolideerde bedrijf overbr
     * Als u een bestand wilt testen, kiest u de actie **Bestand testen**, voert u de naam van het bestand in en kiest u **Afdrukken**.  
     * Als u de database wilt testen, kiest u **Database testen**.  
 
-### <a name="run-the-consolidation"></a>De consolidatie uitvoeren
+### De consolidatie uitvoeren
 
 Wanneer u de gegevens hebt getest, kunt deze naar het geconsolideerde bedrijf overbrengen.  
 
@@ -71,7 +66,7 @@ Wanneer u de gegevens hebt getest, kunt deze naar het geconsolideerde bedrijf ov
 4. Stel in de sectie Filter een filter in voor de relevante bedrijfsunit of bedrijfsnaam.  
 5. Plan desgewenst de uitvoering van het rapport op een geschikte tijd.  
 
-## <a name="eliminate-repeated-transactions"></a>Herhaalde transacties verwijderen
+## Herhaalde transacties verwijderen
 
 Nadat u alle bedrijven hebt geconsolideerd, moet u transacties zoeken die meer dan eens zijn vastgelegd in bedrijven en vervolgens verwijderposten boeken om ze te verwijderen.
 
@@ -98,7 +93,7 @@ Elke account wordt afzonderlijk op een regel weergegeven, volgens de structuur v
 * De boekingstekst, gekopieerd uit het dagboek.
 * Het totaal voor het geconsolideerde bedrijf na de eliminaties, als deze zijn geboekt.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Geconsolideerde gegevens exporteren en importeren tussen databases
+## Geconsolideerde gegevens exporteren en importeren tussen databases
 
 Als gegevens voor een bedrijfsunit zich in een andere database bevinden, moet u de gegevens naar een bestand exporteren voordat u deze kunt opnemen in de consolidatie. Elk bedrijf moet afzonderlijk worden geëxporteerd. Voor dit doel gebruikt u de batchverwerking **Consolidatie - Export**.  
 
@@ -114,7 +109,7 @@ De geëxporteerde posten bevatten de volgende velden: **Bankrekeningnr.**, **Boe
 3. De dimensiewaarde die voor de boeking wordt geëxporteerd, is de geconsolideerde bedrijfsdimensiewaarde die is ingesteld in het veld **Consolidatiecode** voor die dimensiewaarde. Als u geen dimensiewaarde voor het geconsolideerde bedrijf hebt opgegeven in het veld **Geconsolideerde code** voor die dimensiewaarde, wordt de dimensiewaarde zelf naar de regel geëxporteerd.  
 4. Bovendien bevatten de XML-bestanden ook de valutawisselkoersen binnen de consolidatieperiode. Deze koersen worden in een apart gedeelte aan het begin van het bestand opgenomen.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md)  
 [Intercompany-transacties beheren](intercompany-manage.md)  

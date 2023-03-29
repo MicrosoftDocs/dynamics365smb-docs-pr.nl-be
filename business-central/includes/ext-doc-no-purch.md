@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: f1c6ead7a776d11ccc8917944c3752ec6ac43c66
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132666"
 ---
+
 Op inkoopdocumenten en dagboeken kunt u een documentnummer opgeven dat verwijst naar het nummeringssysteem van de leverancier. Gebruik dit veld om het nummer vast te leggen dat de leverancier aan de order, factuur of creditnota heeft toegewezen. U kunt dit externe documentnummer later gebruiken als u om de een of andere reden de geboekte post moet zoeken met dit nummer.
 
 Het veld **Extern documentnr. verplicht** op de pagina **Inkoopinstellingen** geeft aan of het verplicht is om een extern documentnummer in te voeren in de volgende situaties:

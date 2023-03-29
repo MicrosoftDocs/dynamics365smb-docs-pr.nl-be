@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511661"
 ---
-# <a name="managing-intercompany-transactions"></a>Intercompany-transacties beheren
+# Intercompany-transacties beheren
 
 De mogelijkheden voor Intercompany-transacties zijn bedoeld voor gebruikers die meer dan één onderneming runnen en meerdere bedrijven hebben ingesteld om de boekhoudfuncties van die ondernemingen te scheiden. Deze brede beschrijving is van toepassing op vele gebruikers, met name voor hen die werken op internationale markten of regio's met zeer verschillende bedrijfsculturen en wettelijke voorschriften.
 
@@ -32,7 +26,7 @@ De intercompany-functionaliteit heeft vier voordelen:
 - Complete audittrail en volledige zichtbaarheid van zakelijke activiteiten en transactiegeschiedenissen.  
 - Efficiënte en kosteneffectieve transacties met filialen en dochterondernemingen.  
 
-## <a name="streamlining-the-flow-of-business-activities"></a>Stroomlijning van de stroom van zakelijke activiteiten  
+## Stroomlijning van de stroom van zakelijke activiteiten  
 
 Met intercompany-transacties kunt u in het programma verkoop- en inkoopdocumenten, grootboekposten naar al uw satellietkantoren, verkoopkantoren of dochterondernemingen verspreiden. U bespaart tijd en verhoogt de efficiency in de hele organisatie naarmate u overbodige gegevensinvoer en het verzenden, ontvangen, afdrukken en archiveren van verkoop- en inkoopdocumenten op papier elimineert.  
 
@@ -71,7 +65,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Organiseer en verwerk inkomend en uitgaande transacties die u uitwisselt met uw IC-partners.|[De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md)|
 |Gebruik intercompany-transacties om kosten tussen partnerbedrijven te verdelen.|[Kosten toewijzen aan intercompany-partners](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  

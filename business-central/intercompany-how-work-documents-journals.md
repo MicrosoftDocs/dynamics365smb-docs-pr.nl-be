@@ -6,25 +6,19 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 600, 610
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.form: '600, 610'
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519738"
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Werken met intercompany-documenten en -dagboeken
+# Werken met intercompany-documenten en -dagboeken
 Door middel van intercompany-documenten of -dagboeken kunt u transacties met uw IC-partners boeken. Wanneer u een IC-document of -dagboekregel boekt in uw bedrijf, wordt een corresponderend document of dagboekregel gemaakt in uw IC-outbox, dat/die u kunt overbrengen naar uw partner. Uw partner kan de bijbehorende transactie vervolgens boeken in zijn bedrijf, zonder de gegevens opnieuw te hoeven invoeren.
 
 Bij inkoop- en verkoopdocumenten zorgt de IC-partnercode voor de betrokken klant of leverancier ervoor dat alle gegenereerde orders en facturen die verband houden met transacties met deze bedrijven de bijbehorende documenten aanmaken in het partnerbedrijf, zodat de rekeningen overal sluitend zijn.
 
 Voor IC-diversendagboekregels hoeft u geen rekeningen op te geven voor een aparte reeks boeken, maar geeft u eenvoudigweg de ID van het partnerbedrijf op. Corresponderende IC-grootboekregels worden dan in het partnerbedrijf gemaakt, die resulteren in het sluitend maken van de boeken van beide bedrijven die bij de transactie zijn betrokken.
 
-## <a name="to-fill-in-and-send-an-intercompany-sales-order"></a>Een IC-verkooporder invullen en verzenden
+## Een IC-verkooporder invullen en verzenden
 U kunt verkoop- en inkooporders en retourorders verzenden voordat u deze boekt. Facturen en creditnota's kunnen pas worden verzonden nadat u deze hebt geboekt.
 
 In de volgende procedure wordt beschreven hoe u een IC-verkooporder kunt invullen en verzenden. Dezelfde stappen gelden voor IC-inkooporders en -retourorders en voor geboekte IC-facturen en -creditnota's.  
@@ -38,7 +32,7 @@ In de volgende procedure wordt beschreven hoe u een IC-verkooporder kunt invulle
 > [!NOTE]
 > Als u stap 4 uitvoert, wordt de verkooporder naar uw IC-outbox verplaatst van waaruit u hem later kunt verzenden. Zie voor meer informatie [De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Een IC-dagboek invullen en boeken
+## Een IC-dagboek invullen en boeken
 
 Wanneer u een IC--diversendagboekregel boekt in uw bedrijf, wordt een corresponderende dagboekregel gemaakt in uw IC-outbox, die u kunt overbrengen naar uw partner. Met releasewave 1 van 2022 kunt u het bedrijf ook instellen voor het automatisch maken van ontvangen intercompany-transacties van intercompany-partners, geboekt via het intercompany-dagboek. Uw partner kan de bijbehorende transactie vervolgens boeken in zijn bedrijf, zonder de gegevens opnieuw te hoeven invoeren.
 
@@ -53,7 +47,7 @@ Wanneer u een IC--diversendagboekregel boekt in uw bedrijf, wordt een correspond
 
 De betreffende posten worden geboekt in uw bedrijf en een dagboek met de bijbehorende posten wordt gemaakt in uw IC-outbox, die u naar uw partnerbedrijf kunt verzenden. Zie voor meer informatie [De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Intercompany-transacties beheren](intercompany-manage.md)  
 [Financiën](finance.md)  

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 15
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 56a9cc0181b73c5490c6cbc499071e1bfbb63da2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512614"
 ---
-# <a name="convert-existing-locations-to-warehouse-locations"></a>Bestaande locaties converteren naar magazijnlocaties
+# Bestaande locaties converteren naar magazijnlocaties
 U kunt een bestaande voorraadvestiging zones en opslaglocaties laten gebruiken en laten functioneren als een magazijnvestiging.  
 
 Met de batchverwerking om een vestiging als magazijn te laten functioneren maakt u de eerste magazijnposten voor de correctieopslaglocatie voor het magazijn voor alle artikelen die voorraad in de vestiging hebben. Deze eerste posten worden in evenwicht gebracht als magazijninventarisatieposten worden geboekt nadat de batchverwerking is uitgevoerd.  
@@ -27,7 +21,7 @@ U kunt voor of na de omzetting zones en opslaglocaties maken. De enige opslagloc
 > [!IMPORTANT]  
 >  Voordat u de locatie omzet voor magazijnactiviteiten, kunt u alle negatieve voorraad en open magazijndocumenten leegmaken door een rapport te draaien dat voor de locatie de artikelen met negatieve voorraad en open magazijndocumenten aangeeft. Zie voor meer informatie Op negatieve voorraad controleren.  
 
-## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Een bestaande vestiging als een magazijnvestiging laten functioneren  
+## Een bestaande vestiging als een magazijnvestiging laten functioneren  
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnvestiging maken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Geef in het veld **Locatiecode** de locatie op die geschikt moet zijn voor magazijnverwerking.  
 3.  Geef in het veld **Wijzig opslaglocatiecode** de opslaglocatie op van de locatie waar de niet-gesynchroniseerde magazijnposten worden opgeslagen. Zie voor meer informatie [De aangepaste magazijnposten synchroniseren met de gerelateerde artikelposten](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
@@ -42,12 +36,11 @@ U kunt voor of na de omzetting zones en opslaglocaties maken. De enige opslagloc
 
  Voor vestigingen waar voor de omzetting geen magazijnbeheerdocumenten werden gebruikt, moet u alle brondocumenten die voor de omzetting gedeeltelijk ontvangen of gedeeltelijk verzonden waren opnieuw openen.  
 
-## <a name="see-also"></a>Zie ook  
-[Magazijnbeheer](warehouse-manage-warehouse.md)  
+## Zie ook  
+[Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
-[Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

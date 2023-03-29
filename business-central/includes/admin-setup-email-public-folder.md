@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142509"
 ---
+
 > [!NOTE]
 > In de volgende secties wordt ervan uitgegaan dat u beheerderstoegang hebt tot Exchange Online.
 
@@ -20,7 +15,7 @@ Voordat u e-mailregistratie kunt instellen, moet u [openbare mappen](/exchange/c
 
 Volg de onderstaande stappen om Exchange Online in te stellen, met koppelingen naar waar u meer kunt leren.
 
-### <a name="create-an-admin-role-group"></a>Een beheerdersrolgroep maken
+### Een beheerdersrolgroep maken
 
 Maak een beheerdersrolgroep voor openbare mappen op basis van de informatie in de volgende tabel:
 
@@ -32,7 +27,7 @@ Maak een beheerdersrolgroep voor openbare mappen op basis van de informatie in d
 
 Zie voor meer informatie [Rolgroepen beheren in Exchange Online](/exchange/permissions-exo/role-groups).
 
-### <a name="create-a-new-public-folder-mailbox"></a>Een nieuwe openbare mappostbus maken
+### Een nieuwe openbare mappostbus maken
 
 Maak een nieuwe openbare mappostbus op basis van de informatie in de volgende tabel:
 
@@ -42,7 +37,7 @@ Maak een nieuwe openbare mappostbus op basis van de informatie in de volgende ta
 
 Zie [Een openbare mappostbus maken](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox) voor meer informatie.
 
-### <a name="create-new-public-folders"></a>Nieuwe openbare mappen maken
+### Nieuwe openbare mappen maken
 
 1. Maak een nieuwe openbare map met de naam **E-mailregistratie** in de root, zodat het volledige pad naar de map `\Email Logging\` wordt.
 2. Maak twee submappen zodat het resultaat de volgende volledige paden naar de mappen is:
@@ -52,23 +47,23 @@ Zie [Een openbare mappostbus maken](/exchange/collaboration-exo/public-folders/c
 
 Zie [Een openbare map maken](/exchange/collaboration-exo/public-folders/create-public-folder) voor meer informatie.
 
-### <a name="set-public-folder-ownership"></a>Eigendom van openbare mappen instellen
+### Eigendom van openbare mappen instellen
 
 Stel de gebruiker voor e-mailregistratie in als eigenaar van beide openbare mappen, *Wachtrij* en *Opslag*.
 
 Zie voor meer informatie [Machtigingen voor openbare mappen toewijzen](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### <a name="mail-enable-the-queue-public-folder"></a>De openbare map *Wachtrij* inschakelen voor post
+### De openbare map *Wachtrij* inschakelen voor post
 
   Zie [Een openbare map in- of uitschakelen voor post](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder) voor meer informatie.
 
-### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>E-mail inschakelen voor het verzenden van e-mails naar de openbare map *Wachtrij*
+### E-mail inschakelen voor het verzenden van e-mails naar de openbare map *Wachtrij*
 
 Schakel e-mail in voor het verzenden van e-mails naar de openbare map *Wachtrij* met behulp van Outlook of de Exchange Management Shell.
 
 Zie voor meer informatie [Anonieme gebruikers toestaan om e-mail te verzenden naar een voor e-mail geschikte openbare map](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Regels voor e-mailstroom maken
+### Regels voor e-mailstroom maken
 
 Maak twee e-mailstroomregels op basis van de informatie in de volgende tabel:
 

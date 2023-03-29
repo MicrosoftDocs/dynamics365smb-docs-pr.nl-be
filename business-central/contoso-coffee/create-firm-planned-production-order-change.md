@@ -6,24 +6,19 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 7a057e144ed6825435c62f565eeaaa73974fedf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525432"
 ---
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Procedure: Een nieuwe vast geplande productieorder maken en deze wijzigen
+
+# Procedure: Een nieuwe vast geplande productieorder maken en deze wijzigen
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken om te werken met productieorders.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Eduardo, de productieplanner bij Contoso Coffee, moet een nieuwe productieorder maken voor 10 eenheden van het artikel **SP-SCM1009, Airpot** die op 28 april moet worden geleverd. Hij plant dit achteruit en bevestigt dat hij op 27 april kan beginnen met de order.  
 
 Kort nadat hij deze taak heeft voltooid, wordt hem gevraagd de bestelling te verhogen tot 50 eenheden. Wanneer hij dit doet, stelt de functionaliteit voor achterwaartse planning de begindatum voor de order te vroeg in. Dus plant hij de order voorwaarts vanaf 23 april om een meer realistische einddatum te bepalen.  
 
-## <a name="steps"></a>Stappen
+## Stappen
 
 1. Maak de initiële productieorder voor 10 eenheden van het artikel **SP-SCM1009, Airpot**.
 
@@ -63,6 +58,6 @@ Kort nadat hij deze taak heeft voltooid, wordt hem gevraagd de bestelling te ver
 
 De nieuwe productieorder is nu ingesteld en er wordt voldaan aan de eisen van Eduardo.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](contoso-coffee-intro.md)  

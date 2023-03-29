@@ -1,23 +1,17 @@
 ---
 title: Een vestigingskaart instellen en transferroutes definiëren (bevat video)
-description: Als u artikelen op meer dan één plaats koopt, opslaat of verkoopt, kunt u elke plaats als een locatie instellen.
+description: 'Als u artikelen op meer dan één plaats koopt, opslaat of verkoopt, kunt u elke plaats als een locatie instellen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, distribution center
-ms.search.forms: 5703, 15
+ms.search.keywords: 'warehouse, distribution center'
+ms.search.forms: '5703, 15'
 ms.date: 07/05/2022
 ms.author: bholtorf
-ms.openlocfilehash: 882c7c0506439aba55d5b1c2d0cc23bd79db9d6e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605819"
 ---
-# <a name="set-up-locations"></a>Vestigingen instellen
+# Vestigingen instellen
 
 Vestigingen zijn plaatsen zoals magazijnen waar u artikelen koopt, opslaat of verkoopt. [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt vestigingen om de voorraad bij te houden in zowel eenvoudige als complexere magazijnprocessen.
 
@@ -26,7 +20,7 @@ U kunt vervolgens documentregels voor een bepaalde vestiging maken, beschikbaarh
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Vestigingskaarten
+## Vestigingskaarten
 
 U geeft informatie over een vestiging, zoals een magazijn of een distributiecentrum, op de pagina **Vestiging** op. U wijst aan elke vestiging een naam toe en een code die de vestiging vertegenwoordigt. U kunt de vestigingscode in andere delen van het programma invoeren om transacties voor een bepaalde vestiging vast te leggen.  
 
@@ -36,7 +30,7 @@ Sommige optievelden zijn afhankelijk van instellingen op de pagina **Vestiging**
 
 Kies de actie **Zones** of **Opslaglocaties** voor informatie over zones en opslaglocaties die zijn gedefinieerd voor de vestiging.
 
-### <a name="to-set-up-a-location"></a>Een vestiging instellen
+### Een vestiging instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
@@ -50,7 +44,7 @@ U kunt de configuratie van een locatie wijzigen zolang deze geen artikelposten h
 
 Als u meerdere vestigingen heeft, kunt u vervolgens transferroutes tussen vestigingen definiëren. Zie voor meer informatie [Een transferroute maken ](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>Een transferroute maken
+### Een transferroute maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Transferroutes** in en kies vervolgens de gerelateerde koppeling
 2. Kies de actie **Nieuw**.
@@ -58,7 +52,7 @@ Als u meerdere vestigingen heeft, kunt u vervolgens transferroutes tussen vestig
 
 U kunt nu voorraadartikelen tussen twee vestigingen overbrengen. Zie voor meer informatie [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md).    
 
-## <a name="bins"></a>Opslaglocaties
+## Opslaglocaties
 
 Opslaglocaties vertegenwoordigen de basismagazijnstructuur en kunnen voorstellen voor het plaatsen van artikelen bevatten. Uw opslaglocaties kunnen inhoud hebben of vrije opslaglocaties zijn zonder specifieke inhoud. 
 
@@ -67,17 +61,17 @@ Als u de opslaglocatiefunctionaliteit op een locatie wilt gebruiken, schakelt u 
 > [!NOTE]
 > Voordat u opslaglocatiecodes voor een vestiging kunt opgeven, moet u opslaglocatiecodes maken. Zie [Opslaglocaties maken](warehouse-how-to-create-individual-bins.md) en [Opslaglocatiesoorten instellen](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Zones
+## Zones
 
 Als u uw opslaglocaties onder zones wilt structureren, kunt u dat doen op de pagina **Zones**. Wanneer u een zone toewijst aan opslaglocaties, kopieert [!INCLUDE [prod_short](includes/prod_short.md)] informatie van de zone naar de opslaglocaties. U kunt er ook voor kiezen om één zone in te stellen en alleen opslaglocaties te gebruiken om uw magazijn te organiseren. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Standaardafmetingen voor locaties
+## Standaardafmetingen voor locaties
 
 U stelt standaardafmetingen in voor een locatie op de pagina **Locatiekaart** door **Dimensies** te kiezen. Daarna worden de standaarddimensies van de locatie toegewezen aan documenten wanneer u de locatie op een regel kiest. Indien nodig kunt u de dimensie op de regel verwijderen of wijzigen. U kunt in het veld **Waardeboeking** vereisen dat mensen dimensies opgeven voor specifieke locaties voordat ze een post kunnen boeken. Als u wilt dat mensen alleen bepaalde dimensiewaarden kunnen kiezen, kunt u de waarden opgeven in het veld **Filter op toegestane waarden**. U kunt ook locatiedimensiewaarden opnemen op de pagina **Standaarddimensieprioriteiten** en voor combinaties van prioriteit- en dimensieregels op de pagina **Dimensiecombinaties**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)  

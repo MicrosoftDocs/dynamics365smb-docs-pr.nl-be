@@ -1,23 +1,17 @@
 ---
 title: Leveranciers blokkeren
-description: Lees over hoe u leveranciers blokkeert, zodat ze niet in transacties kunnen worden opgenomen, of hoe u nieuwe betalingen aan hen blokkeert.
+description: 'Lees over hoe u leveranciers blokkeert, zodat ze niet in transacties kunnen worden opgenomen, of hoe u nieuwe betalingen aan hen blokkeert.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 27
 ms.date: 06/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5734eeec7da24dc945018639fda42290f7bd331e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383869"
 ---
-# <a name="block-vendors"></a>Leveranciers blokkeren
+# Leveranciers blokkeren
 U kunt een leverancier blokkeren, bijvoorbeeld vanwege insolventie, zodat de leverancier niet aan inkoopdocumenten kan worden toegevoegd of zodat geen betalingen voor de leverancier kunnen worden geboekt.
 
 De volgende tabel beschrijft de opties voor het blokkeren van leveranciers.  
@@ -28,12 +22,12 @@ De volgende tabel beschrijft de opties voor het blokkeren van leveranciers.
 |**Betaling**|Er kunnen geen nieuwe betalingen worden gemaakt voor deze leverancier.|  
 |**Alle**|Transacties zijn niet toegestaan voor deze leverancier.|  
 
-## <a name="to-block-a-vendor"></a>Een leverancier blokkeren  
+## Een leverancier blokkeren  
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de leverancier die u wilt blokkeren.
 3. Kies in het veld **Geblokkeerd** een van de opties voor blokkeren.
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Betalingen uitvoeren](payables-make-payments.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)

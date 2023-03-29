@@ -1,22 +1,16 @@
 ---
 title: Veldtoewijzing voor het exporteren van betalingsbestanden | Microsoft Docs
-description: Wanneer u betalingsbestanden exporteert met de extensie AMC Banking 365 Fundamentals, zijn de gegevens die u exporteert, zichtbaar voor de serviceprovider.
+description: 'Wanneer u betalingsbestanden exporteert met de extensie AMC Banking 365 Fundamentals, zijn de gegevens die u exporteert, zichtbaar voor de serviceprovider.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 31f6c59f13bed6fdb62624b56ad732824af77230
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519341"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Veldtoewijzing bij de export van betalingsbestanden met behulp van de extensie AMC Banking 365 Fundamentals
+# Veldtoewijzing bij de export van betalingsbestanden met behulp van de extensie AMC Banking 365 Fundamentals
 Wanneer u betalingsbestanden exporteert met de extensie AMC Banking 365 Fundamentals, zijn de gegevens die u exporteert, zichtbaar voor de serviceprovider. De serviceprovider is verantwoordelijk voor de privacy van deze informatie. Zie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md) voor meer informatie over de extensie AMC Banking 365 Fundamentals.  
 
 > [!CAUTION]  
@@ -69,7 +63,7 @@ De volgende tabel bevat de velden in [!INCLUDE[prod_short](includes/prod_short.m
 |Batchnaam financieel dagboek|Dagboekbatch|Dagboekregel|De dagboekbatchnaam die wordt gebruikt voor de betalingsregel|  
 |Banknaam afzender - Gegevensconv.|Banknaam - Gegevensconversie|Bankrekening|De naam van de bankrekening van de afzender die is aangevraagd door de extensie AMC Banking 365 Fundamentals en die wordt vermeld op de bankpas|  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)
 [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md)   

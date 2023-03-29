@@ -1,23 +1,17 @@
 ---
 title: Overzicht van taken om verkoopprocessen te configureren
-description: Overzicht van taken die nodig zijn om regels en waarden in te stellen die uw verkoopbeleid en -processen definiëren, inclusief algemene instellingen en financiële instellingen voor verkoop.
+description: 'Overzicht van taken die nodig zijn om regels en waarden in te stellen die uw verkoopbeleid en -processen definiëren, inclusief algemene instellingen en financiële instellingen voor verkoop.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell, configure
-ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
+ms.search.keywords: 'trade, sell, configure'
+ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 2346c246fdf0d9973f40e7d0073dee9004c68669
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531363"
 ---
-# <a name="setting-up-sales"></a>Verkopen instellen
+# Verkopen instellen
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.
 
 U moet de algemene instellingen definiëren op de pagina **Verkoopinstellingen**, zoals welke verkoopdocumenten vereist zijn, hoe hun waarden worden geboekt en het type regels dat standaard moet worden gemaakt. Deze algemene instellingen worden normaal gesproken tijdens de implementatie eenmalig ingevoerd.
@@ -39,9 +33,9 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 |Informatie invoeren over de verschillende transporteurs die u gebruikt, met een koppeling naar hun service voor het traceren van pakketten.|[Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

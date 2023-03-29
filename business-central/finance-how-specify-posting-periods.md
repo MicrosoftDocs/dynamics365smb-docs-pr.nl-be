@@ -11,18 +11,12 @@ ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 558dcdf68f8ecc6a7c8def0b6a61a33d78f8f68b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516329"
 ---
-# <a name="specify-posting-periods"></a>Boekingsperioden opgeven
+# Boekingsperioden opgeven
 
 Gebruik boekingsperioden om op te geven wanneer gebruikers naar het grootboek kunnen boeken.  
 
-## <a name="to-specify-posting-periods"></a>Boekingsperioden opgeven
+## Boekingsperioden opgeven
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Op de pagina **Grootboekinstellingen** definieert u de periode door datums in te voeren in het veld **Boeken toegestaan vanaf** en het veld **Boeken toegestaan tot**.  
@@ -30,7 +24,7 @@ Gebruik boekingsperioden om op te geven wanneer gebruikers naar het grootboek ku
 > [!NOTE]  
 > Deze boekingsperioden zijn van toepassing op het bedrijf en alle gebruikers. Als u uitzonderingen wilt toestaan, kunt u verschillende boekingsperioden definiëren voor specifieke gebruikers op de pagina **Gebruikersinstellingen**. Deze boekingsperioden hebben voorrang op de perioden die zijn opgegeven op de pagina **Grootboekinstellingen**. Zie [Tijdsbeperkingen voor gebruikers instellen](ui-define-granular-permissions.md#to-set-up-user-time-constraints) voor meer informatie.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën](finance.md)  
 [Periodeafsluitingsprocessen voltooien](year-how-complete-period-end-processes.md)  

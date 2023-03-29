@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: availability, localization
-ms.search.form: ''
+ms.search.keywords: 'availability, localization'
+ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a0468ce2d5c58fae7fc8298b4f4bf320ba3540ce
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655734"
 ---
-# <a name="local-functionality-in-prod_long"></a>Lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]
+# Lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] heeft een gecombineerde lokalisatiestrategie die zowel door Microsoft geleide als door partners geleide modellen bevat. In dit gedeelte kunt u beschrijvingen van functionaliteit bekijken die geldt voor de landen/regio's waarin Microsoft de wettelijke naleving en andere lokale functionaliteit levert.  
 
 Zie voor een lijst van momenteel ondersteunde markten [Beschikbaarheid in landen en regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Lokale functionaliteit
+## Lokale functionaliteit
 
 Kies voor meer informatie over de lokale functionaliteit voor elk land/regio de gerelateerde koppeling:
 
@@ -54,11 +48,11 @@ Kies voor meer informatie over de lokale functionaliteit voor elk land/regio de 
 |        | India | [Lokale functionaliteit voor India](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nieuw-Zeeland | [Lokale functionaliteit voor Nieuw Zeeland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countries"></a>Andere landen/regio's
+### Andere landen/regio's
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is tevens in andere markten beschikbaar via lokalisatieapps. Als een Microsoft-partner een lokalisatieapp voor uw land/regio heeft ontwikkeld, kunt u deze vinden in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Naleving](compliance/compliance-overview.md)  

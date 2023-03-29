@@ -1,27 +1,21 @@
 ---
 title: Bestaande items kopiëren naar nieuwe items
-description: Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie Item kopiëren gebruiken om een bestaand item te kopiëren om als sjabloon voor een nieuw item te gebruiken.
+description: 'Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie Item kopiëren gebruiken om een bestaand item te kopiëren om als sjabloon voor een nieuw item te gebruiken.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e31f64136f09c1623236f976f70fea088a4106c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130309"
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Bestaande items kopiëren om nieuwe items te maken
+# Bestaande items kopiëren om nieuwe items te maken
 
 Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item kopiëren** gebruiken om een bestaand item te kopiëren om als sjabloon voor een nieuw item te gebruiken.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>Een bestaand item naar een nieuw item kopiëren.
+## Een bestaand item naar een nieuw item kopiëren.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het item dat u wilt kopiëren en kies vervolgens de actie **Item kopiëren**.  
@@ -35,7 +29,7 @@ Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item 
 
 4. Om uw selecties naar het nieuwe item te kopiëren kiest u de knop **OK**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad instellen](inventory-setup-inventory.md)  

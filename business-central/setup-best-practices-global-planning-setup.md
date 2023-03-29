@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a611abd26fd643e75d01aeaefb22a4d0083d5003
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510648"
 ---
-# <a name="setup-best-practices-global-planning-setup"></a>Aanbevolen procedures instellen: Instellen algemene planning
+# Aanbevolen procedures instellen: Instellen algemene planning
 Het sneltabblad **Planning** op de pagina **Productie-instellingen** bevat verschillende velden die de algemene regels voor de voorraadplanning definiëren.  
 
  De volgende tabel bevat de aanbevolen procedures voor het instellen van de geselecteerde globale planningparametervelden. Voor meer informatie over een veld, kiest u de koppeling in de kolom **Veld instellen**.  
@@ -29,7 +23,7 @@ Het sneltabblad **Planning** op de pagina **Productie-instellingen** bevat versc
 |Standaard dempingsperiode|Ingesteld tussen 1D en 5D.<br /><br /> Indien planning in [!INCLUDE[prod_short](includes/prod_short.md)] nieuw is voor u stelt u een langere periode in.|Wanneer gebruikers meer vertrouwd zijn met de verschillende redenen voor planningsboodschappen, kort dan de dempingsperiode in om meer wijzigingssuggesties toe te staan.|  
 |Demping standaardhoeveelheid %|Tussen 5 en 20 procent van de lotgrootte van het item instellen.||  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
  [Aanbevolen procedures instellen: Voorraadplanning](setup-best-practices-supply-planning.md)   
  [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
  [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  

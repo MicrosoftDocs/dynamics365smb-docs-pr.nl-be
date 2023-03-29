@@ -1,4 +1,8 @@
-> [!NOTE]
->Laat ons uw taalvoorkeuren voor documentatie weten! [Beantwoord een korte enquête.](https://aka.ms/BAG_Docs_Language_Survey) (houd er rekening mee dat deze in het Engels is)
->
->De enquête duurt ongeveer zeven minuten. Er worden geen persoonlijke gegevens verzameld ([privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=521839)).
+---
+author: edupont04
+ms.topic: include
+ms.date: 11/01/2022
+ms.author: edupont
+---
+[U vindt hier gratis e-learningmodules voor Business Central](/training/dynamics365/business-central)
+

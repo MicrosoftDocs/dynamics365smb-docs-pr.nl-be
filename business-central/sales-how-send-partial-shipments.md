@@ -4,17 +4,11 @@ description: Verzendingen van verkooporders kunnen in Business Central worden ve
 author: rubenseishima
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: shipping advice, partial shipments, partial deliveries, trade, customer sales order
+ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, trade, customer sales order'
 ms.date: 08/12/2022
 ms.author: a-reishima
-ms.openlocfilehash: f279ce6c22c3e2167006bec315b53297d126929c
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461324"
 ---
-# <a name="process-partial-shipments"></a>Deelverzendingen verwerken
+# Deelverzendingen verwerken
 
 Bij een deelverzending wordt een order niet allemaal tegelijk verzonden. Bij een order voor 100 eenheden verzendt u bijvoorbeeld 40 eenheden direct en 60 eenheden later. U kunt een onbeperkt aantal verzendingen voor een order maken.
 
@@ -24,7 +18,7 @@ Standaard stelt [!INCLUDE [prod_short](includes/prod_short.md)] het veld op de p
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Producten verkopen met een klantverkooporder](sales-how-sell-products.md)  
 [Artikelen verzenden](warehouse-how-ship-items.md)  

@@ -1,26 +1,20 @@
 ---
 title: Certificeringen van de service
-description: Deze inhoud bevat informatie over certificeringen met betrekking tot Business Central, zoals regiospecifieke certificeringen en accreditaties.
+description: 'Deze inhoud bevat informatie over certificeringen met betrekking tot Business Central, zoals regiospecifieke certificeringen en accreditaties.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 643d8cbfcc4a17db468263aee72a12cb1237201c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146864"
 ---
-# <a name="certifications"></a>Certificeringen
+# Certificeringen
 
 Deze inhoud bevat informatie over certificeringen in verband met [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## <a name="countryregion-specific-certifications-and-accreditations"></a>Certificeringen en accrediteringen in landen/regio's
+## Certificeringen en accrediteringen in landen/regio's
 
 In sommige landen of regio's moet boekhoudsoftware worden gecertificeerd om te voldoen aan lokale belastingregelgeving en financiële vereisten. In sommige landen/regio's is dit een jaarlijkse vereiste en in andere landen/regio's moet hier eenmalig aan worden voldaan. Hieronder vindt u een overzicht van de huidige landen/regio's waar Business Central certificatie heeft verkregen.
 
@@ -33,11 +27,11 @@ In sommige landen of regio's moet boekhoudsoftware worden gecertificeerd om te v
 > [!NOTE]  
 > In landen/regio's waar Microsoft geen lokale versie uitbrengt, moeten de partners meestal certificering verkrijgen van het Business Central-standaardproduct en van de toegevoegde lokalisatie- en regelgevingsfuncties.
 
-## <a name="other-certifications"></a>Overige certificeringen
+## Overige certificeringen
 
 Business Central als cloudservice heeft ook certificeringen verkregen, zoals ISO 27001 en meer. Voor een volledige lijst van deze certificeringen raadpleegt u [deze pagina (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Naleving](compliance-overview.md)  
 [Toepassingsnaleving](compliance-application-compliance.md)  

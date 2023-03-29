@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: f002086780e694ad80f2b5c80e942ab411de1948
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732975"
 ---
 Mogelijk ziet u andere gebruikers in de lijst **Gebruikers**, behalve die van uw eigen bedrijf. Wanneer een gedelegeerde beheerder van een wederverkopend partnerbedrijf zich aanmeldt bij een [!INCLUDE [prod_short](prod_short.md)]-omgeving namens hun klant, worden ze automatisch gemaakt als gebruiker binnen [!INCLUDE [prod_short](prod_short.md)]. Op deze manier worden de acties die worden uitgevoerd door een gedelegeerde beheerder vastgelegd in [!INCLUDE [prod_short](prod_short.md)], zoals het plaatsen van documenten, en gekoppeld aan hun gebruikers-id.  
 

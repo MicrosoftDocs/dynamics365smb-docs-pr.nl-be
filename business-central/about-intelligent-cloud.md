@@ -7,24 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms. search.keywords: cloud, migrate, insights
+ms. search.keywords: 'cloud, migrate, insights'
 ms.search.form: 4010
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 6ec6b12bf5a1d4cff1b821f6962387bb11181687
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655267"
 ---
-# <a name="intelligent-insights-in-prod_short-online"></a>Intelligente inzichten in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+
+# Intelligente inzichten in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Als gebruiker van [!INCLUDE[prod_short](includes/prod_short.md)] online hebt u volledige toegang tot scenario's die zijn gebaseerd op de Intelligente cloud, zoals KPI's die zijn gebaseerd op Machine Learning of wanneer u uw gegevens bekijkt in Power BI.  
 
 Als u echter [!INCLUDE [prod_short](includes/prod_short.md)] on-premises gebruikt, hebt u geen toegang tot dezelfde inzichten. Als u wilt profiteren van online scenario's, moet u migreren naar [!INCLUDE [prod_short](includes/prod_short.md)] online. Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud voor [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-insights-in-prod_short-online"></a>Inzichten bekijken in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## Inzichten bekijken in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] online bevat de pagina **Intelligente cloud-inzichten** vier belangrijke aandachtspunten voor de meeste bedrijven:
 
@@ -40,7 +35,7 @@ Naast de KPI-grafieken krijgt u informatie over potentiële aandachtspunten, inc
 
 De pagina maakt ook verbinding met Power BI voor nog meer inzichten. Maak eventueel verbinding met Azure AI voor nog meer intelligente inzichten. Zie voor meer informatie [De extensie Verkoop- en voorraadprognose](ui-extensions-sales-forecast.md).  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Welkom bij Business Central](index.md)  
 [Extensies voor cloudmigratie](ui-extensions-data-replication.md)  
