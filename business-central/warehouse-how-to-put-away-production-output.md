@@ -41,6 +41,8 @@ De eerste stap bij het opslaan van output is het maken van het inkomende magazij
 4. Vul waar nodig de opslagregels in.
 5. Wanneer de regels gereed zijn voor boeken, kiest u de actie **Boeken**. Boeken leidt tot het maken van de magazijnposten en tot het boeken van de output van de artikelen.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 Het is ook mogelijk om rechtstreeks vanuit een vrijgegeven productieorder een **Voorraadopslag** te maken. Zie voor meer informatie [Artikelen opslaan met voorraadopslag](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Wanneer u een voorraadopslag boekt, wordt ervan uitgegaan dat alle bewerkingen worden geboekt overeenkomstig het standaardbewerkingsplan. Dat wil zeggen, het outputaantal wordt geboekt op basis van de laatste bewerking. U kunt het outputdagboek gebruiken om verschillen in het outputaantal en de instel- en bewerkingstijd te boeken. Als u een gedeeltelijke boeking moet uitvoeren nadat u de voorraadopslag hebt gemaakt, kunt u dit doen voor insteltijden en hoeveelheden voor alle bewerkingen, behalve de laatste. De laatste bewerking wordt bestuurd door de voorraadopslag.  

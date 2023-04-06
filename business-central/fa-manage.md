@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
-ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
+ms.search.keywords: 'machinery, buildings'
+ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5bd6ff8d27b17e413c418de64bea7ded8428e892
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529311"
 ---
-# <a name="managing-fixed-assets"></a>Vaste activa beheren
+# Vaste activa beheren
 
 De functionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.
 
@@ -47,15 +41,15 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Buitengebruikstellingstransacties boeken, buitengebruikstellingsposten bekijken en gedeeltelijke buitengebruikstellingen boeken. |[Vaste activa afstoten of van de hand doen](fa-how-dispose-retire.md) |
 | Budgetten voor vaste activa beheren, aanschafkosten budgetteren, buitengebruikstellingen van vaste activa budgetteren en afschrijving budgetteren. |[Budgetten voor vaste activa beheren.](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a>Video-overzicht
+## Video-overzicht
 
 De volgende video behandelt de basisprincipes van vaste activa.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/manage-fixed-assets-transactions/)
+## Zie gerelateerde [Microsoft-training](/training/paths/manage-fixed-assets-transactions/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vaste activa instellen](fa-setup.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  

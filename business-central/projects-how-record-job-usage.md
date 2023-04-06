@@ -6,16 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 # Verbruik of gebruik voor projecten registreren
 
 Vanaf de pagina **Projectkaart** kunt u de pagina **Taakplanningsregels** openen om het gebruik van verschillende onderdelen van uw project te bekijken en vast te leggen. Deze informatie wordt automatisch bijgewerkt wanneer u informatie wijzigt en overdraagt tussen projecten en projectdagboeken of projectfacturen. Dit vereist dat u de optie **Gebruikslink standaard toepassen** inschakelt op de pagina **Projectinstellingen**. Meer informatie op [Projecten instellen](projects-how-setup-jobs.md).  
-
-<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
-
-On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
 Zo kunt u bijvoorbeeld voor planningsregels van het type **Budget** de hoeveelheid van een resource invoeren en aangeven welke hoeveelheid moet worden overgebracht naar het projectdagboek. Als het type van de planningsregel **Factureerbaar** is, kunt u de hoeveelheid van de resource invoeren en aangeven welke hoeveelheid moet worden overgebracht naar een factuur. Zie voor meer informatie over het factureren van de klant [Projecten factureren](projects-how-invoice-jobs.md). Door de oorspronkelijke hoeveelheid, de resterende hoeveelheid of de geboekte hoeveelheid te vergelijken, kunt u snel gebruiksinformatie bekijken. Voor informatie over het inschatten van gebudgetteerde waarden tijdens planning raadpleegt u [Projectbudgetten beheren](projects-how-manage-budgets.md).  
 
@@ -28,11 +24,11 @@ In de volgende procedures wordt beschreven hoe u werkelijke (gebudgetteerde) hoe
 3. Selecteer een projectplanningsregel van het soort **Budget** of het soort **Budget en factureerbaar** waarvoor u gebruik wilt vastleggen.   
 
     > [!NOTE]
-    > U kunt ook gebruik vastleggen voor een projectplanningsregel van het soort **Factureerbaar**. Meestal gebruikt u deze regels om facturen te maken, maar u kunt de informatie ook overbrengen naar een journaal. Zie voor meer informatie [Projecten factureren](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > U kunt ook gebruik vastleggen voor een projectplanningsregel van het soort **Factureerbaar**. Meestal gebruikt u deze regels om facturen te maken, maar u kunt de informatie ook overbrengen naar een journaal. Zie voor meer informatie [Projecten factureren](projects-how-invoice-jobs.md) 
 
 4. In het veld **Aantal te verplaatsen naar dagboek** voert u het aantal in dat u wilt overbrengen. De standaardhoeveelheid is de waarde die u invoert in het veld **Aantal**.
 
-    Het veld **Resterend aantal** bevat het resterende aantal om het project te voltooien en dat moet worden overgebracht naar het dagboek. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
+    Het veld **Resterend aantal** bevat het resterende aantal om het project te voltooien en dat moet worden overgebracht naar het dagboek.
 5. Kies de actie **Projectdagboekregels maken**.
 
     > [!TIP]
@@ -40,6 +36,9 @@ In de volgende procedures wordt beschreven hoe u werkelijke (gebudgetteerde) hoe
 6. Vul op de pagina **Projectplanningsregel taakoverdracht** de velden in zoals gewenst en kies vervolgens de knop **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Kies de actie **Projectdagboek openen**.  
 8. Selecteer op de pagina **Projectdagboek** de relevante regel en kies vervolgens de actie **Boeken**.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 9. Bekijk op de pagina **Projectplanningsregels** het vastgelegde gebruik door te kijken naar de velden **Aantal**, **Resterend aantal** en **Aantal te verplaatsen naar dagboek**.  
 10. Herhaal stap 3 tot en met 8 om aanvullend gebruik vast te leggen.  
 
@@ -49,6 +48,8 @@ In de volgende procedures wordt beschreven hoe u werkelijke (gebudgetteerde) hoe
 2. Kies in het veld **Batchnaam** een relevante projectdagboekbatch.  
 3. Voer op een nieuwe regel documentnummer, projectnummer, projecttaaknummer, soort en aantal van het verbruikte soort in.  
 4. Wanneer de projectdagboekregels zijn voltooid, kiest u de actie **Boeken**.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Projectgebruikschattingen weergeven en updates boeken
 

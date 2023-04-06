@@ -14,6 +14,8 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online wijzigen door apps 
 
 ## App beheren
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Wanneer u [!INCLUDE[prod_short](includes/prod_short.md)] voor het eerst start, zijn bepaalde apps al voor u geïnstalleerd. In de loop van de tijd zullen meer apps beschikbaar voor u worden gemaakt en u kunt dan zelf bepalen of u de app wilt gebruiken of niet.
 
 Zo verschaft Microsoft een app die integratie met PayPal Payments Standard biedt. Deze extensie is standaard geïnstalleerd. Maar als er een andere extensie beschikbaar komt die integratie met een andere betalingsservice biedt, kunt u de nieuwe extensie installeren en vervolgens bepalen welke van de services moeten worden gebruikt.  

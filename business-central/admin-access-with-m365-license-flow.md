@@ -12,6 +12,8 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 ---
 # Gebruikerstoegangsstroom voor Microsoft 365-licenties
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 In dit artikel is beschreven wat er gebeurt als een gebruiker voor het eerst Business Central-gegevens opent met zijn Microsoft 365-licentie. Door deze stroom te begrijpen, kunnen beheerders hun aanpak plannen en Business Central overeenkomstig hun zakelijke behoeften configureren.
 
 1. Eerst wordt de identiteit van de gebruiker geverifieerd 

@@ -127,6 +127,8 @@ Het volgende gebeurt tijdens het boekingsproces:
 * Boek het verbruik van de brondocumentregels die zijn gepickt.
 * Als de vestiging opslaglocaties gebruikt, leidt de boeking ertoe dat er magazijnposten worden gemaakt om de gewijzigde aantallen in de opslaglocatie te boeken.
 
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## De voorraadverplaatsing registreren
 
 1. Open op de pagina **Voorraadverplaatsing** het document waarvoor u een verplaatsing wilt vastleggen.  

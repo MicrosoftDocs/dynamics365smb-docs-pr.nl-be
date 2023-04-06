@@ -1,23 +1,17 @@
 ---
 title: Bedrijfsfunctionaliteit die door Business Central wordt ondersteund
-description: Levert een functieoverzicht van alle afdelingen en bedrijfsfuncties die door toepassingsgebieden worden ondersteund, zoals financiën, voorraad- en projectbeheer.
+description: 'Levert een functieoverzicht van alle afdelingen en bedrijfsfuncties die door toepassingsgebieden worden ondersteund, zoals financiën, voorraad- en projectbeheer.'
 author: SorenGP
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606815"
 ---
-# <a name="business-functionality"></a>Bedrijfsfunctionaliteit
+# Bedrijfsfunctionaliteit
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt functionaliteit voor algemene bedrijfsprocessen in kleine en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening. Complexere processen, zoals assemblage, productie, service en gestuurd magazijnbeheer, worden echter ook ondersteund. [Lees hier hoe u een gratis proefperiode kunt krijgen](trial-signup.md).  
 
@@ -39,13 +33,13 @@ ms.locfileid: "9606815"
 |De productiebewerkingen plannen die vereist zijn om de inputs om te zetten in gerede artikelen.|[Gepland](production-planning.md)|
 |Voeg verkoopbare artikelen in eenvoudige stappen samen om een nieuw item, zoals een kit, te maken.|[Assemblagebeheer](assembly-assemble-items.md)|
 |Shopfloorresources en de bijbehorende capaciteit definiëren, bewerkingen plannen, productiematerialen ophalen en de productie uitvoeren.|[Productie](production-manage-manufacturing.md)|
-|Zorg voor een effectieve stroom van ontvangen en verzonden goederen.|[Magazijnbeheer](warehouse-manage-warehouse.md)|
+|Zorg voor een effectieve stroom van ontvangen en verzonden goederen.|[Overzicht van magazijnbeheer](design-details-warehouse-management.md)|
 |Plan serviceoproepen en stel serviceorders in, en houd reparatieonderdelen en verbruiksmaterialen bij.|[CRM - Service](service-service.md)|
 |Werkstromen instellen en gebruiken die taken verbinden die worden uitgevoerd door verschillende gebruikers of door het systeem, zoals automatisch boeken. Het aanvragen en verlenen van goedkeuringen om documenten te maken of te boeken, zijn voorbeelden van veelvoorkomende werkstroomstappen.|[Werkstroom](across-workflow.md)|
 |Gebruikers de mogelijkheid geven om gegevens uit te wisselen met externe bronnen voor dagelijkse taken, zoals het versturen/ontvangen van elektronische documenten, bankbestanden importeren/exporteren en wisselkoersen bijwerken.|[Gegevens elektronisch uitwisselen](across-data-exchange.md)|
 |Leg externe documenten vast in [!INCLUDE[prod_short](includes/prod_short.md)], inclusief de bestandbijlagen, maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Beheer](admin-setup-and-administration.md)    
 [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/)  

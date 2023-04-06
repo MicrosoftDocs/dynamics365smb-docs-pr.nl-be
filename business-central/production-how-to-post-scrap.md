@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 99000823
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Uitval handmatig boeken
@@ -24,6 +24,8 @@ Als er uitval wordt geproduceerd tijdens de verwerking, kan dit worden ingevoerd
 3. Voer in het veld **Uitgevallen aantal** het uitvalaantal in.  
 4. Voer in het veld **Uitvalcode** de uitvalcode in.  
 5. Kies de actie **Boeken** om de opgegeven uitval per bewerking te boeken.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
 ## Zie ook
 

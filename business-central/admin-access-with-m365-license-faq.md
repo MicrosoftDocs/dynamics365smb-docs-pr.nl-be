@@ -11,6 +11,8 @@ ms.custom: bap-template
 ---
 # Veelgestelde vragen over toegang met Microsoft 365-licenties
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Gebruikers hebben toegang tot Business Central-gegevens in Microsoft Teams met hun Microsoft 365-licentie. Dit artikel beantwoordt veelgestelde vragen van bestuurders, adviseurs en anderen. Ontwikkelaars dienen de veelgestelde vragen voor ontwikkelaars te raadplegen. Ga voor vragen over het integreren van Business Central met Microsoft Teams naar [Veelgestelde vragen over Teams](teams-faq.md).
 
 ## [Machtigingen](#tab/permissions) 

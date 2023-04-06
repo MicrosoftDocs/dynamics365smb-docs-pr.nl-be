@@ -13,7 +13,7 @@ ms.author: jswymer
 
 # Snelle toetsenbordnaslag - alleen pc
 
-#### Alge&amp;meen
+#### Algemeen
 
 |Selecteer deze toetsen|Actie|  
 |-|-|

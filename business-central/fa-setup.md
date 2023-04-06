@@ -1,23 +1,17 @@
 ---
 title: Vaste activa instellen
-description: Leren over de reeks taken die u moet uitvoeren om vaste activa in te stellen, zoals machines of gebouwen.
+description: 'Leren over de reeks taken die u moet uitvoeren om vaste activa in te stellen, zoals machines of gebouwen.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
+ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d537d22d3273c2185016904779eab0ff030d201
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530256"
 ---
-# <a name="setting-up-fixed-assets"></a>Vaste activa instellen
+# Vaste activa instellen
 
 Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:  
 
@@ -42,9 +36,9 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Meer informatie over andere afschrijvingsmethoden voor vaste activa. |[Afschrijvingsmethoden](fa-depreciation-methods.md) |
 | Meer informatie over het toepassen van door de gebruiker gedefinieerde afschrijvingsmethoden. |[Eigen afschrijvingsmethoden instellen](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/set-up-fixed-assets-management/)
+## Zie gerelateerde [Microsoft-training](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  

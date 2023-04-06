@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 21edfebd4507c383d9af217fa0617d22867e204d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133238"
 ---
-# <a name="changing-company-and-other-settings-in-teams"></a>Bedrijf en andere instellingen in Teams wijzigen
+
+# Bedrijf en andere instellingen in Teams wijzigen
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -28,11 +23,11 @@ Er zijn twee manieren om de pagina **Instellingen** te openen: 1) vanuit het ber
 
     ![Instellingen voor Business Central vanuit het opdrachtvenster.](media/teams-settings-message-box.png)
 
-2. Zoek in het opdrachtvak bovenaan naar **@Business Central**, selecteer **... (Meer opties)** en selecteer **Instellingen**.
+2. Zoek in het opdrachtvak bovenaan naar **@Business Central**, selecteer **... (Meer opties)** en selecteer vervolgens **Instellingen**.
 
    ![Instellingen voor Business Central vanuit het berichtvak.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  

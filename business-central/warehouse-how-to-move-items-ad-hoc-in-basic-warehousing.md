@@ -87,6 +87,8 @@ In plaats van verplaatsingdocumenten te gebruiken, kunt u verplaatsingen registr
 3. Vul de overige velden op elke dagboekregel in.
 4. Boek het herindelingsdagboek.  
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
 
 ## Zie ook

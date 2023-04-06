@@ -12,6 +12,8 @@ ms.search.form: 9171
 ---
 # Gebruikersprofielen beheren
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Wijs alle gebruikers toe aan profielen die het volgende weerspiegelen:
 
 * Hun zakelijke rol

@@ -1,30 +1,24 @@
 ---
 title: Inleiding in Business Central en Power BI
-description: Met Power BI kunt u eenvoudig inzicht verwerven, bedrijfsinformatie genereren en KPI's vaststellen op basis van uw Business Central-gegevens.
+description: 'Met Power BI kunt u eenvoudig inzicht verwerven, bedrijfsinformatie genereren en KPI''s vaststellen op basis van uw Business Central-gegevens.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.search.form: 6316, 6317
+ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
+ms.search.form: '6316, 6317'
 ms.reviewer: edupont
 ms.date: 08/30/2022
 ms.author: jswymer
-ms.openlocfilehash: 43c0b32a25d8ebb55aae14937a6d8c2269395963
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533926"
 ---
-# <a name="introduction-to-prod_short-and-power-bi"></a>Inleiding in [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
+# Inleiding in [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
 Het is gemakkelijk inzicht te krijgen in uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens met [Power BI](https://powerbi.microsoft.com), een datavisualisatiesysteem van Microsoft. Power BI haalt [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens op, zodat u dashboards en rapporten kunt maken op basis van die gegevens. Power BI biedt een flexibel alternatief voor de ingebouwde rapporten van [!INCLUDE[prod_short](includes/prod_short.md)] en stelt u in staat verder in te zoomen op gegevens om ze te analyseren en om de visualisatie aan te passen. U kunt hiermee zelfs gegevens van verschillende bedrijven samenvoegen in [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige Power BI-rapporten kunnen ook worden ingesloten in Business Central en worden bekeken zonder dat de gebruiker het systeem hoeft te verlaten. Als u werkt met complexere dashboards, kunt u beter de Power BI-website gebruiken.
 
 ![Power BI en Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Wat u kunt doen met Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]
+## Wat u kunt doen met Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI. Sommige dingen kunt u doen vanuit Power BI, terwijl u andere dingen kunt doen vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige functies zijn ook alleen beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)] online en niet in on-premises. De volgende tabel biedt u een overzicht.
 
@@ -38,7 +32,7 @@ Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](include
 
 <a name="onprem"><sup>*</sup></a> Deze functie vereist een geregistreerde toepassing voor Business Central in Microsoft Azure. Zie [Business Central On-Premises registeren in Azure AD voor integratie met andere services](/dynamics365/business-central/dev-itpro/administration/register-app-azure) voor meer informatie.
 
-## <a name="get-ready-to-use-power-bi"></a>Voorbereiden voor het gebruik van Power BI
+## Voorbereiden voor het gebruik van Power BI
 
 Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan gebruiken in combinatie met [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> De taken zijn afhankelijk van uw rol in uw organisatie en wat u wilt doen met Power BI:
 
@@ -76,9 +70,9 @@ Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan
 
 -->
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bedrijfsinformatie](bi.md)  
 [Zich voorbereiden om zaken te doen](ui-get-ready-business.md)  

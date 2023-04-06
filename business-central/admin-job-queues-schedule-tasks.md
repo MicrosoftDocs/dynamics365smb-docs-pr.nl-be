@@ -1,24 +1,23 @@
 ---
 title: Taken plannen voor automatische uitvoering
-description: Geplande taken worden beheerd door de taakwachtrij. Met deze taken worden rapporten en codeunits uitgevoerd. U kunt taken éénmalig of herhaaldelijk uitvoeren.
-author: edupont04
+description: Leer hoe u taakwachtrijposten gebruikt om rapporten en codeunits uit te voeren.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 03/20/2023
+ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
-ms.date: 10/01/2021
-ms.author: edupont
 ---
 # Gebruik van taakwachtrijen om taken te plannen
 
-Met de pagina Taakwachtrijposten kunnen gebruikers specifieke rapporten en codeunits plannen en uitvoeren. U kunt taken éénmalig of herhaaldelijk uitvoeren. U kunt bijvoorbeeld het rapport **Verkoper * Verkoopstatistieken** wekelijks uitvoeren om verkopen per verkoper elke week bij te houden of u kunt de codeunit **Goedkeuringsaanvragen delegeren** dagelijks uitvoeren om te voorkomen dat documenten zich opstapelen.
+Gebruik de pagina **Taakwachtrijposten** om specifieke rapporten en codeunits te plannen en uit te voeren. U kunt taken éénmalig of herhaaldelijk uitvoeren. U kunt bijvoorbeeld het rapport **Verkoper * Verkoopstatistieken** wekelijks uitvoeren om verkopen per verkoper elke week bij te houden of u kunt de codeunit **Goedkeuringsaanvragen delegeren** dagelijks uitvoeren om te voorkomen dat documenten zich opstapelen.
 
-Op de pagina **Taakwachtrijposten** worden alle bestaande posten weergegeven. Als u een nieuw taakwachtrij-item toevoegt dat u wilt plannen, moet u wat informatie verstrekken. Voorbeeld:
+Op de pagina Taakwachtrijposten worden alle bestaande posten weergegeven. Als u een nieuwe taakwachtrijpost toevoegt die volgens planning wordt uitgevoerd, moet u wat informatie verstrekken. Voorbeeld:
 
-* Het type object dat u wilt uitvoeren, zoals een rapport of codeunit. U moet toestemming hebben om het specifieke rapport of de codeunit uit te voeren.
-* De naam en object-id van het object. 
-* Parameters om het gedrag van het taakwachtrij-item te specificeren. Zo kunt u een parameter toevoegen om alleen geboekte verkooporders te verzenden. 
+* Het type object dat moet worden uitgevoerd, zoals een rapport of codeunit. U moet toestemming hebben om het specifieke rapport of de codeunit uit te voeren.
+* De naam en object-id van het object.
+* Parameters om het gedrag van het taakwachtrij-item te specificeren. Zo kunt u een parameter toevoegen om alleen geboekte verkooporders te verzenden.
 * Wanneer en hoe vaak het taakwachtrij-item wordt uitgevoerd.
 
 > [!IMPORTANT]  
@@ -32,11 +31,11 @@ Nadat taakwachtrijen zijn ingesteld en werken, kan de status als volgt verandere
 * **Fout**  
 * **Gereedgemeld**  
 
-Nadat een taak is voltooid, wordt deze verwijderd uit de lijst met taakwachtrij-items, tenzij het een terugkerende taak is. Voor terugkerende taken wordt het veld **Vroegste begintijd** aangepast, zodat het de volgende keer weergeeft dat de taak naar verwachting wordt uitgevoerd.  
+Nadat een taak is voltooid, wordt deze verwijderd uit de lijst met taakwachtrij-items, tenzij het een terugkerende taak is. Voor terugkerende taken wordt het veld **Vroegste begintijd** aangepast, zodat het de volgende keer weergeeft dat de taak wordt uitgevoerd.  
 
 ## Status of fouten in de taakwachtrij bewaken
 
-Gegevens die de taakwachtrij genereert, worden opgeslagen in de database, zodat u taakwachtrijfouten kunt oplossen.  
+Gegevens die de taakwachtrij genereert, worden opgeslagen, zodat u fouten kunt oplossen.  
 
 Voor elk item in de wachtrij kunt u de status bekijken en wijzigen. Wanneer u een taakwachtrij-item maakt, wordt de status ingesteld op **Afwachten**. U kunt de status bijvoorbeeld instellen op **Klaar** en weer op **Afwachten**. Als u dat niet doet, wordt statusinformatie automatisch bijgewerkt.
 
@@ -59,7 +58,7 @@ De volgende tabel beschrijft de waarden van het veld **Status**.
 2. Selecteer op de pagina **Taakwachtrijposten** een taakwachtrijpost en kies vervolgens de actie **Logboekvermeldingen**.  
 
 > [!TIP]
-> U kunt de status van items in de wachtrij ook bekijken met Application Insights in Microsoft Azure voor meer diepgaande analyse op basis van telemetrie. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) en [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in de [!INCLUDE [prod_short](includes/prod_short.md)] ontwikkelaar- en beheerinhoud.
+> Voor grondige analyse op basis van telemetrie kunt u Application Insights in Microsoft Azure gebruiken om de status van taakwachtrijposten te controleren. Ga voor meer informatie over telemetrie naar [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) en [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 ## Geplande taken weergeven
 
@@ -72,7 +71,7 @@ Alle geplande taken stoppen bijvoorbeeld als het bedrijf zich in een omgeving be
 
 ## Het onderdeel Mijn taakwachtrij
 
-In het onderdeel **Mijn taakwachtrij** in uw rolcentrum worden de taakwachtrij-items weergegeven die u hebt gestart, maar die niet zijn voltooid. Standaard wordt het onderdeel niet weergegeven, maar u kunt het toevoegen aan uw rolcentrum. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.  
+In het onderdeel **Mijn taakwachtrij** in uw rolcentrum worden de taakwachtrij-items weergegeven die u hebt gestart, maar die niet zijn voltooid. Standaard wordt het onderdeel niet weergegeven, maar u kunt het toevoegen aan uw rolcentrum. Ga voor meer informatie over personalisatie naar [Uw werkruimte personaliseren](ui-personalization-user.md).  
 
 Het onderdeel toont de volgende informatie:
 
@@ -86,25 +85,45 @@ Met het onderdeel Mijn taakwachtrij kunt u een documentboeking ook annuleren.
 1. Kies in een post met de status **Fout** de actie **Fout weergeven**.
 2. Bekijk de foutmelding en los het probleem op.
 
-## Voorbeelden van wat kan worden gepland met behulp van een taakwachtrij
+## Voorbeelden van wat kan worden gepland met behulp van taakwachtrijposten
 
 ### Rapporten plannen
 
 U kunt een rapport plannen voor uitvoering op een bepaalde datum en tijd. Geplande rapporten en batchtaken worden in de verwerkingswachtrij ingevoerd en verwerkt op het geplande tijdstip, net zoals andere taken. U kiest de optie **Schema** nadat u de actie **Verzenden naar** hebt gekozen en voert vervolgens informatie in zoals de printer, de tijd en datum en de herhaling.  
 
-Zie voor meer informatie [Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport)
+Ga voor meer informatie over planning naar [Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport)
 
 ### Synchronisatie plannen tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Als u [!INCLUDE[prod_short](includes/prod_short.md)] hebt geïntegreerd met [!INCLUDE[prod_short](includes/cds_long_md.md)], kunt u met de taakwachtrij plannen wanneer u gegevens wilt synchroniseren. Afhankelijk van de richting en regels die u hebt gedefinieerd, kan het taakwachtrij-item records maken in de ene app om met records in de andere overeen te komen. Een goed voorbeeld is dat wanneer u een contact registreert in [!INCLUDE[crm_md](includes/crm_md.md)], het taakwachtrij-item dat contact voor u kan instellen in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [Een synchronisatie plannen tussen Business Central en Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md) voor meer informatie.
+Als u [!INCLUDE[prod_short](includes/prod_short.md)] hebt geïntegreerd met [!INCLUDE[prod_short](includes/cds_long_md.md)], kunt u met de taakwachtrij plannen wanneer u gegevens wilt synchroniseren. Afhankelijk van de richting en regels die u hebt gedefinieerd, kan het taakwachtrij-item records maken in de ene app om met records in de andere overeen te komen. Een goed voorbeeld is dat wanneer u een contact registreert in [!INCLUDE[crm_md](includes/crm_md.md)], het taakwachtrij-item dat contact voor u kan instellen in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [Een synchronisatie plannen tussen Business Central en Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md) voor meer informatie over planning.
 
 ### Het boeken van verkoop- en inkooporders plannen
 
-U kunt taakwachtrij-items gebruiken om bedrijfsprocessen te plannen die op de achtergrond worden uitgevoerd. Achtergrondtaken zijn bijvoorbeeld nuttig wanneer meerdere gebruikers tegelijkertijd verkooporders boeken, maar er slechts één order tegelijk kan worden verwerkt. Zie voor meer informatie [Boeking op de achtergrond instellen met taakwachtrijen](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+U kunt taakwachtrij-items gebruiken om bedrijfsprocessen te plannen die op de achtergrond worden uitgevoerd. Achtergrondtaken zijn bijvoorbeeld nuttig wanneer meerdere gebruikers tegelijkertijd verkooporders boeken, maar er slechts één order tegelijk kan worden verwerkt. Ga voor meer informatie over boeken op de achtergrond naar [Boeking op de achtergrond instellen met taakwachtrijen](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+
+## Problemen met taakwachtrijposten afhandelen
+
+Als een taakwachtrijpost een fout vertoont, is uw eerste optie om het probleem op te lossen het opnieuw starten van de taakwachtrijpost. U kunt de status van de taakwachtrijpost instellen op **Afwachten** en dan naar **Gereed**, of start het gewoon opnieuw.
+
+Als opnieuw starten niet helpt, ligt het probleem mogelijk in de code. U vindt de eigenaar (ook wel de *uitgever*) van de code in de AL-stacktracering in het taakwachtrijlogboek. Neem contact op met uw Microsoft-partner als de fout afkomstig is van een app/extensie. Als de fout afkomstig is van een Microsoft-toepassing, open dan een ondersteuningsverzoek bij Microsoft.
+
+Als u contact opneemt met uw Microsoft-partner of Microsoft voor ondersteuning, geef dan de volgende informatie door:
+
+* De id van de taakwachtrijpost waar de fout optrad
+* Het tijdstempel van wanneer de fout optrad
+* Uw tijdzone
+
+> [!TIP]
+> Afhankelijk van of uw [!INCLUDE [prod_short](includes/prod_short.md)] ouder of later is dan versie 22.1, verzamelt u de informatie op de volgende manieren:
+>
+> * Geef voor eerdere versies een schermafbeelding van de pagina **Logposten taakwachtrij**.
+> * Voor latere versies gebruikt u de actie **Details kopiëren** op de pagina Logposten taakwachtrij om de informatie te kopiëren (taakwachtrij-id, tijdstempel en uw tijdzone).
 
 ## De taakwachtrij bewaken met telemetrie
 
-Als beheerder kunt u [Application Insights](/azure/azure-monitor/app/app-insights-overview) gebruiken om telemetrie te verzamelen en te analyseren die u kunt gebruiken om problemen te identificeren. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in de ontwikkelaar- en beheerinhoud.  
+Beheerders kunnen [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) gebruiken om telemetrie te verzamelen en te analyseren die u kunt gebruiken om problemen te identificeren. Ga voor meer informatie over telemetrie naar [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) en [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
+
+Met telemetrie kunnen beheerders waarschuwingen instellen voor problemen met de taakwachtrij die een sms, e-mail of een bericht in Teams verzenden als er iets niet klopt. Ga voor meer informatie over deze waarschuwingen naar [Waarschuwing over telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
 ## Zie ook
 
@@ -112,6 +131,6 @@ Als beheerder kunt u [Application Insights](/azure/azure-monitor/app/app-insight
 [Business Central instellen](setup.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Traceringstelemetrie van levenscyclus van taakwachtrij analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
-
+[Waarschuwing over telemetrie](/dynamics365/business-central/dev-itpro/administration/telemetry-alert)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -14,7 +14,7 @@ ms.author: jswymer
 
 In dit artikel worden enkele van de vragen beantwoord die u mogelijk hebt over het werken met Power BI en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## [Alge&amp;meen](#tab/general)
+## [Algemeen](#tab/general)
 <!-- 26 -->
 ### Ik heb een rapport geselecteerd voor mijn rolcentrum in Business Central. Wordt het rolcentrum automatisch bijgewerkt met mijn wijzigingen als ik later online wijzigingen aanbreng in de visuals van het rapport?
 

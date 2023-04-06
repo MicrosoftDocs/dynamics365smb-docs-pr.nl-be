@@ -6,36 +6,31 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,
+ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
 ms.date: 08/04/2022
 ms.author: edupont
-ms.openlocfilehash: 42b9a61f40afda0a50d6c6ec86d9984e53ae9ffb
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585931"
 ---
-# <a name="troubleshoot-your-prod_short-automated-workflows"></a>Problemen met uw geautomatiseerde [!INCLUDE[prod_short](includes/prod_short.md)]-werkstromen oplossen
+
+# Problemen met uw geautomatiseerde [!INCLUDE[prod_short](includes/prod_short.md)]-werkstromen oplossen
 
 Wanneer u [!INCLUDE [prod_short](includes/prod_short.md)] verbindt met Power Automate om geautomatiseerde werkstromen te maken, kunt u foutmeldingen tegenkomen. Dit artikel biedt voorgestelde oplossingen voor vaak terugkerende problemen.
 
-## <a name="flow-doesnt-run-on-all-records-created-or-changed"></a>Stroom wordt niet uitgevoerd op alle records die zijn gemaakt of gewijzigd
+## Stroom wordt niet uitgevoerd op alle records die zijn gemaakt of gewijzigd
 
-### <a name="problem"></a>Probleem
+### Probleem
 
 Als een gebeurtenis veel records maakt of wijzigt, wordt de stroom niet uitgevoerd voor sommige of alle records.
 
-### <a name="possible-cause"></a>Mogelijke oorzaak
+### Mogelijke oorzaak
 
 Momenteel is er een limiet voor het aantal records dat een stroom kan verwerken. Als er binnen 30 seconden meer dan 100 records worden gemaakt of gewijzigd, wordt de stroom niet geactiveerd.
 
 > [!NOTE]
 > Voor ontwikkelaars wordt de stroomtriggering gedaan via webhook-berichten en deze beperking is te wijten aan de manier waarop de Business Central-connector omgaat met `collection`-berichten. Zie voor meer informatie [Werken met webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in de Help voor ontwikkelaars en beheerders.
 
-## <a name="entity-set-not-found-error"></a>Fout "Entiteitset niet gevonden"
+## Fout "Entiteitset niet gevonden"
 
-### <a name="problem"></a>Probleem
+### Probleem
 
 Bij het aanmaken van een nieuwe Power Automate-stroom met een [!INCLUDE[prod_short](includes/prod_short.md)]-goedkeuringstrigger, zoals *Wanneer goedkeuring van een inkoopdocument wordt aangevraagd*, kunt u een foutmelding krijgen die lijkt op:
 
@@ -43,11 +38,11 @@ Bij het aanmaken van een nieuwe Power Automate-stroom met een [!INCLUDE[prod_sho
 
 De plaatshouder `\<name\>` is de servicenaam van de ontbrekende webservice, zoals *workflowWebhookSubscriptions* of *workflowPurchaseDocumentLines*.
 
-### <a name="possible-cause"></a>Mogelijke oorzaak
+### Mogelijke oorzaak
 
 Gebruik van Power Automate voor uw goedkeuringen vereist dat bepaalde pagina- en codeunit-objecten worden gepubliceerd als webservices. Standaard worden de meeste vereiste objecten gepubliceerd als webservices. Maar in sommige gevallen is uw omgeving mogelijk aangepast zodat deze objecten niet langer worden gepubliceerd.
 
-### <a name="fix"></a>Corrigeren
+### Corrigeren
 
 Ga naar de pagina **Webservices** en zorg ervoor dat de volgende objecten worden gepubliceerd als webservices. Er moet een item in de lijst zijn voor elk object, met het selectievakje **Gepubliceerd** geselecteerd.  
 
@@ -70,9 +65,9 @@ Ga naar de pagina **Webservices** en zorg ervoor dat de volgende objecten worden
 
 Zie [Een webservice publiceren](across-how-publish-web-service.md) voor meer informatie over het publiceren van webservices.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/use-power-automate/).
+## Zie gerelateerde training op [Microsoft Learn](/learn/modules/use-power-automate/).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Power Automate-stromen gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Werkstroom](across-workflow.md)  

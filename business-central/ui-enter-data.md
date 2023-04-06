@@ -1,23 +1,17 @@
 ---
 title: Gegevens invoeren in Business Central
-description: Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker en accurater in te voeren. De basisprincipes en geavanceerde functies worden hier beschreven.
+description: 'Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker en accurater in te voeren. De basisprincipes en geavanceerde functies worden hier beschreven.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: decimal separator, data entry, focus
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'decimal separator, data entry, focus'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: ecf23184faea42895973d11115904606d715d31a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528632"
 ---
-# <a name="entering-data"></a>Gegevens invoeren
+# Gegevens invoeren
 
 Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker en accurater in te voeren. De basisprincipes en geavanceerde functies voor het invoeren van gegevens worden in dit artikel beschreven.  
 
@@ -25,7 +19,7 @@ Er zijn allerlei algemene functies die u helpen gegevens sneller, gemakkelijker 
 
 In de voorbeelden in dit artikel worden de demonstratiegegevens gebruikt.
 
-## <a name="work-with-editable-fields"></a>Werken met bewerkbare velden
+## Werken met bewerkbare velden
 
 Velden in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen verschillende bewerkbare gegevens bevatten, zoals tekst of valutabedragen. Bewerkbare velden geven doorgaans een invoervak weer waarin u kunt typen of een waarde kunt kiezen. Niet-bewerkbare velden worden doorgaans weergegeven met een grijze achtergrond.   
 
@@ -39,60 +33,60 @@ Sommige bewerkbare velden bevatten een kiezer waarmee u een waarde kunt specific
 |Schakelaar of selectievakje|Sommige velden bieden een eenvoudige keuze uit *Ja*- of *Nee*-waarden. De schakelaar wordt gebruikt om deze waarde op te geven en wordt altijd weergegeven als een selectievakje in lijsten|
 |AssistEdit       |Sommige velden bieden aangepaste kiezers die geschikt zijn om de beste waarde op te zoeken en voor dat veld te kiezen, zoals een pop-upvenster|
 
-### <a name="modifying-a-field-value"></a>Een veldwaarde wijzigen
+### Een veldwaarde wijzigen
 
 Om de waarde van een veld te wijzigen, moet u eerst de focus op dat veld instellen. U stelt de focus in door de volgende acties uit te voeren:
 
-- Gebruik de **Tab**-toets. De actie selecteert de volledige waarde.
+- Gebruik de <kbd>Tab</kbd>-toets. De actie selecteert de volledige waarde.
 - Klik met de linkerknop van de muis of vergelijkbaar invoerapparaat. Deze actie selecteert alleen de volledige veldwaarde als het veld in een lijst staat.  
 
 Wanneer u interactie hebt met velden in de gebruikersinterface, selecteert [!INCLUDE[prod_short](includes/prod_short.md)] meestal de volledige veldwaarde, zodat u die gemakkelijker kunt vervangen.
 
 Wanneer de volledige veldwaarde is geselecteerd:
-- Vervang de waarde door gewoon te typen om een nieuwe waarde op te geven. Als het veld een kiezer biedt, kunt u deze activeren met de sneltoets **Alt+Pijl-omlaag**.
-- Gebruik de toets **Delete** of **Backspace** om de waarde te wissen.
+- Vervang de waarde door gewoon te typen om een nieuwe waarde op te geven. Als het veld een kiezer biedt, kunt u deze activeren met de sneltoets <kbd>Alt</kbd>+<kbd>Pijl-omlaag</kbd>.
+- Gebruik de toets <kbd>Delete</kbd> of <kbd>Backspace</kbd> om de waarde te wissen.
 
-Druk op de toets **F2** om te wisselen tussen het selecteren van de volledige veldwaarde of het plaatsen van de cursor achter de veldwaarde. Door de cursor aan het einde van de waarde te plaatsen, kunt u gemakkelijker aan de bestaande waarde toevoegen.
+selecteer de toets <kbd>F2</kbd> om te wisselen tussen het selecteren van de volledige veldwaarde of het plaatsen van de cursor achter de veldwaarde. Door de cursor aan het einde van de waarde te plaatsen, kunt u gemakkelijker aan de bestaande waarde toevoegen.
 
 Als de cursor wordt weergegeven aan het einde van de veldwaarde:
 - Voeg toe aan de waarde door gewoon te typen.
-- Gebruik de toetsen **Home**, **End**, **Pijl-links** en **Pijl-rechts** om de cursor binnen de waarde te verplaatsen. Als u een veld in een lijst bewerkt en u nogmaals u op de toets **Pijl-links** drukt wanneer de cursor aan het begin van de waarde staat, wordt de focus ingesteld op het vorige veld. Als u nogmaals op de toets **Pijl-rechts** drukt wanneer de cursor aan het einde van de waarde staat, wordt de focus op het volgende veld gezet.
+- Gebruik de toetsen <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Pijl-links</kbd> en <kbd>Pijl-rechts</kbd> om de cursor binnen de waarde te verplaatsen. Als u een veld in een lijst bewerkt en u nogmaals u de toets <kbd>Pijl-links</kbd> selecteert wanneer de cursor aan het begin van de waarde staat, wordt de focus ingesteld op het vorige veld. Als u nogmaals de toets <kbd>Pijl-rechts</kbd> selecteert wanneer de cursor aan het einde van de waarde staat, wordt de focus op het volgende veld gezet.
 
 > [!NOTE]
 > Nadat u een waarde hebt opgegeven, controleert Business Central pas of deze geldig is nadat u buiten het veld hebt geklikt of de focus hebt ingesteld op een ander element, zoals het volgende veld.  
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
-## <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
+## Toetsenbordsneltoetsen
 
 Er zijn verschillende sneltoetsen waarmee u "muisvrij" kunt werken en uw gegevensinvoer kunt versnellen. Deze sneltoetsen zijn vooral handig bij grootschalige invoer en herhaalde typetaken.
 
 Zie voor meer informatie over sneltoetsen [Toetsenbordsneltoetsen](keyboard-shortcuts.md). Enkele sneltoetsen worden in dit artikel besproken.
 
-## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Gegevensinvoer versnellen met snelinvoer
+## <a name="QuickEntry"></a>Gegevensinvoer versnellen met snelinvoer
 
 Snelinvoer is een functie die bedoeld is voor gegevensinvoer met het toetsenbord. Snelinvoer werkt met velden (bijvoorbeeld op kaartpagina's) en in lijsten (rijen en kolommen). Het is handig bij het uitvoeren van repetitieve typetaken waarbij meerdere opeenvolgende records achter elkaar moeten worden gemaakt. Voorbeelden zijn een batch verkooporders of het registreren van nieuwe artikelen.
 
-U kunt de Tab-toets gebruiken om van het ene veld op een pagina naar het volgende bewerkbare veld te navigeren. Het nadeel van het gebruik van de Tab-toets is dat deze altijd naar het volgende veld gaat. <!-- even if the field is non-editable or seldom filled it in.-->Met snelinvoer kunt u dit pad wijzigen. Met Snelinvoer kunt u Enter gebruiken om alleen door de velden te navigeren waarin u geïnteresseerd bent. Snelinvoer slaat niet-bewerkbare velden en velden die u normaal gesproken niet invult, over. U hebt dit gedrag mogelijk al op bepaalde pagina's opgemerkt. Dit komt omdat de velden die moeten worden opgenomen wanneer op Enter wordt gedrukt en die worden overgeslagen, vooraf is gedefinieerd. U kunt snelinvoer wijzigen door de werkruimte aan te passen en te optimaliseren hoe u gegevens op elke pagina invoert.
+U kunt de Tab-toets gebruiken om van het ene veld op een pagina naar het volgende bewerkbare veld te navigeren. Het nadeel van het gebruik van de Tab-toets is dat deze altijd naar het volgende veld gaat. <!-- even if the field is non-editable or seldom filled it in.-->Met snelinvoer kunt u dit pad wijzigen. Met snelinvoer kunt u <kbd>Enter</kbd> gebruiken om alleen door de velden te navigeren waarin u geïnteresseerd bent. Snelinvoer slaat niet-bewerkbare velden en velden die u normaal gesproken niet invult, over. U hebt dit gedrag mogelijk al op bepaalde pagina's opgemerkt. Dit komt omdat de velden die moeten worden opgenomen wanneer op Enter wordt gedrukt en die worden overgeslagen, vooraf is gedefinieerd. U kunt snelinvoer wijzigen door de werkruimte aan te passen en te optimaliseren hoe u gegevens op elke pagina invoert.
 
-### <a name="how-quick-entry-works"></a>Hoe snelinvoer werkt
+### Hoe snelinvoer werkt
 
-Elk veld kan worden gemarkeerd als zijnde *opgenomen in snelinvoer* of *uitgesloten van snelinvoer*. Velden die zijn opgenomen in snelinvoer, worden in het pad opgenomen wanneer u op Enter drukt. Velden die zijn uitgesloten van snelinvoer, worden dat niet.
+Elk veld kan worden gemarkeerd als zijnde *opgenomen in snelinvoer* of *uitgesloten van snelinvoer*. Velden die zijn opgenomen in snelinvoer, worden in het pad opgenomen wanneer u <kbd>Enter</kbd> selecteert. Velden die zijn uitgesloten van snelinvoer, worden dat niet.
 
-Wanneer u klaar bent met het invoeren van gegevens in een veld, drukt u gewoon op Enter om de wijzigingen te bevestigen en naar het volgende veld te gaan. Als u de volgorde wilt omkeren en naar het vorige veld wilt gaan, drukt u op Shift+Enter. Zie voor meer informatie over sneltoetsen [Sneltoetsen voor snelinvoer voor velden](keyboard-shortcuts.md#QuickEntry).
+Wanneer u klaar bent met het invoeren van gegevens in een veld, drukt u gewoon op <kbd>Enter</kbd> om de wijzigingen te bevestigen en naar het volgende veld te gaan. Als u de volgorde wilt omkeren en naar het vorige veld wilt gaan, selecteert u <kbd>Shift</kbd>+<kbd>Enter</kbd>. Zie voor meer informatie over sneltoetsen [Sneltoetsen voor snelinvoer voor velden](keyboard-shortcuts.md#QuickEntry).
 
-#### <a name="tips-and-tricks"></a>Tips en trucs
+#### Tips en trucs
 
 De volgende lijst bevat wat nuttige informatie over het gebruik van snelinvoer.
 
 - Het is beschikbaar voor bewerkbare velden.
 - Het werkt ook over kolommen en rijen.
-- Het voorkomt geen toegang tot andere elementen van een pagina, zoals acties. Deze elementen zijn nog toegankelijk met behulp van Tab en Shift+Tab.  
+- Het voorkomt geen toegang tot andere elementen van een pagina, zoals acties. Deze elementen zijn nog toegankelijk met behulp van <kbd>Tab</kbd> en <kbd>Shift</kbd>+<kbd>Tab</kbd>.  
 - Het is niet vereist dat sneltabbladen worden uitgevouwen om snelle invoer te laten werken. Als het volgende snelinvoerveld zich in een samengevouwen sneltabblad bevindt, wordt dat sneltabblad automatisch uitgevouwen en gaat de focus naar het gekozen veld. [!INCLUDE[prod_short](includes/prod_short.md)] onthoudt dat het sneltabblad de volgende keer dat u de pagina bezoekt, moet worden uitgevouwen.  
 - Snelinvoer werkt ongeacht of velden verplicht zijn. Het is dus een goed idee te zorgen dat verplichte velden zijn opgenomen in snelinvoer.
 - Standaard worden de meeste velden automatisch opgenomen in snelinvoer. In eerste instantie moet u dus waarschijnlijk velden uitsluiten van snelinvoer.
 
-### <a name="to-change-quick-entry-fields"></a>Snelinvoervelden wijzigen
+### Snelinvoervelden wijzigen
 
 Om snelinvoer op velden in te stellen, gebruikt u personalisatie.
 
@@ -101,13 +95,13 @@ Om snelinvoer op velden in te stellen, gebruikt u personalisatie.
 
 Zie voor meer informatie over personalisatie [Uw werkruimte personaliseren](ui-personalization-user.md).
 
-## <a name="mandatory-fields"></a>Verplichte velden
+## Verplichte velden
 
 Wanneer u gegevens invoert op pagina's, zijn bepaalde velden gemarkeerd met een rode asterisk. Het rode sterretje betekent dat het veld moet worden ingevuld om een bepaald proces te voltooien. Een voorbeeld is wanneer u een transactie boekt die de waarde in het veld gebruikt.  
 
 Hoewel een veld verplicht is, wordt u niet gedwongen het veld te vullen voordat u verdergaat naar andere velden of de pagina sluit. De rode asterisk dient alleen als een herinnering dat u wordt geblokkeerd van het voltooien van een bepaald proces.  
 
-## <a name="finding-data-as-you-type"></a>Gegevens zoeken terwijl u typt
+## Gegevens zoeken terwijl u typt
 
  Als u begint met het typen van tekens in een veld, wordt een vervolgkeuzelijst weergeven met de mogelijke veldwaarden. De lijst verandert naarmate u meer tekens typt en u kunt de juiste waarde selecteren wanneer deze wordt weergegeven.  
 
@@ -117,33 +111,33 @@ Hoewel een veld verplicht is, wordt u niet gedwongen het veld te vullen voordat 
 
 - Vervolgkeuze - Hiermee toont u de verzameling opties die beschikbaar zijn voor het veld. U kunt slechts één optie tegelijk selecteren.  
 
-## <a name="copying-and-pasting-faq-fields-and-lines"></a>Velden en regels kopiëren en plakken
+## Velden en regels kopiëren en plakken
 
-U kunt een of meer rijen uit een lijst of een enkel veld op een pagina kopiëren. Plak vervolgens wat u hebt gekopieerd op dezelfde pagina, een andere pagina of een extern document. U zou bijvoorbeeld kunnen plakken in Microsoft Excel of Outlook e-mail. Als u wilt kopiëren, drukt u op CTRL+C (cmd+C in MacOs) op het toetsenbord. Als u wilt plakken, drukt u op CTRL+V (cmd+V in MacOs).
+U kunt een of meer rijen uit een lijst of een enkel veld op een pagina kopiëren. Plak vervolgens wat u hebt gekopieerd op dezelfde pagina, een andere pagina of een extern document. U zou bijvoorbeeld kunnen plakken in Microsoft Excel of Outlook e-mail. Als u wilt kopiëren, selecteert u <kbd>Ctrl</kbd>+<kbd>C</kbd> (cmd+C in macOS) op het toetsenbord. Als u wilt plakken, selecteert u <kbd>Ctrl</kbd>+<kbd>V</kbd> of <kbd>cmd+V</kbd> in macOS.
 
-Als u in een lijst het veld in dezelfde kolom van de bovenliggende rij wilt selecteren en het in de huidige rij wilt plakken, drukt u op F8.
+Als u in een lijst het veld in dezelfde kolom van de bovenliggende rij wilt selecteren en het in de huidige rij wilt plakken, selecteert u <kbd>F8</kbd>.
 
 Zie voor meer informatie [Veelgestelde vragen over kopiëren en plakken](faq-copy-paste.yml).
 
-## <a name="filtering-line-items"></a>Regelitems filteren
+## Regelitems filteren
 
-Als u wilt beginnen met filteren, selecteert u het ![pictogram Filterdeelvenster](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of drukt u op Shift+F3 om het filterdeelvenster te openen. U werkt met het filterdeelvenster zoals met elke andere lijst. Zie [Filteren](ui-enter-criteria-filters.md#filtering) voor meer informatie.
+Als u wilt beginnen met filteren, selecteert u het pictogram ![Filterdeelvenster](media/open-filter-pane-icon.png "Pictogram Filterdeelvenster") boven aan de lijst of selecteert u <kbd>Shift</kbd>+<kbd>F3</kbd> om het filterdeelvenster te openen. U werkt met het filterdeelvenster zoals met elke andere lijst. Zie [Filteren](ui-enter-criteria-filters.md#filtering) voor meer informatie.
 
 Filteren is met name handig bij het weergeven en analyseren van langere documenten. Stel dat u een geboekte verkoopfactuur opent. Vervolgens filtert u de regelitems om alle regelitems weer te geven met een individuele korting van meer dan 5%. Of u filtert om alleen fietsaccessoires met 'pro' in de naam weer te geven.
 
-## <a name="focusing-on-line-items"></a><a name="Focus"></a>Focussen op regelartikelen
+## <a name="Focus"></a>Focussen op regelartikelen
 
 Wanneer u werkt met documenten die een onderdeel met regelitems bevatten, kunt u de weergave overschakelen om alleen de regelitems weer te geven. Voorbeelddocumenten zijn verkooporder of factuurpagina. Het gedeelte met regelitems breidt zich uit zodat het bijna de hele werkruimte in beslag neemt. Het verbergt andere delen van de pagina behalve het actiegebied bovenaan. Deze lay-out geeft u een beter overzicht van de regelartikelen en biedt meer ruimte om ermee te werken.
 
 U profiteert er vooral van wanneer u met grote lijsten met regelitems werkt en u snel gegevens wilt invoeren. Deze functie biedt ook geavanceerde filtermogelijkheden. Net als in andere lijsten wordt bladeren en zoeken door regelitems nog eenvoudiger.
 
-### <a name="switching-the-focus-on-and-off"></a>De focus aan- en uitzetten
+### De focus aan- en uitzetten
 
-Als u zich wilt concentreren op regelartikelen, selecteert u ergens in het regelartikelgedeelte en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") In de rechterbovenhoek of drukt u op Ctrl+Shift+F12.
+Als u zich wilt concentreren op regelartikelen, selecteert u ergens in het regelartikelgedeelte en kiest u vervolgens het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") In de rechterbovenhoek of selecteert u <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd>.
 
-Om terug te gaan naar de normale weergave, kiest u het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") of drukt u nogmaals op Ctrl+Shift+F12.
+Om terug te gaan naar de normale weergave, kiest u het ![pictogram Focusmodus](media/focus-mode.png "Pictogram Focusmodus") of selecteer <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> opnieuw.
 
-## <a name="multitasking-across-multiple-pages"></a>Multitasking over meerdere pagina's
+## Multitasking over meerdere pagina's
 
 U kunt een kaart- of documentpagina openen in een nieuw venster. Door een nieuw venster te openen, kunt u:
 
@@ -151,12 +145,11 @@ U kunt een kaart- of documentpagina openen in een nieuw venster. Door een nieuw 
 - Onderbrekingen van de huidige taak beheren, zoals het aannemen van een inkomend gesprek.
 - Een venster open houden voor een lopende taak terwijl u een andere taak in Windows start of voltooit.
 
-Om de huidige kaart of het huidige document in een nieuw venster te openen, kiest u ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") In de rechterbovenhoek of drukt u op Alt+Shift+W.
+Om de huidige kaart of het huidige document in een nieuw venster te openen, kiest u ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") In de rechterbovenhoek of selecteert u <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd>.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Om de huidige kaart of het huidige document in een nieuw venster te openen, kiest u ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen") In de rechterbovenhoek of drukt u op Alt+Shift+W.
 
 > [!NOTE]
 > Wanneer u andere pagina's opent vanaf een kaart of document dat in een nieuw venster is geopend, worden die pagina's in een nieuw venster geopend, ook al kiest u niet ![Nieuw venster openen](media/open-new-window-icon.png "Pictogram Nieuw venster openen").
@@ -170,11 +163,11 @@ Een andere manier om te multitasken is om [!INCLUDE[prod_short](includes/prod_sh
 > [!NOTE]
 > Gebruik niet de functie **Dupliceren** van de browser om het nieuwe tabblad te maken, omdat hierdoor acties op één tabblad acties op andere tabbladen kunnen blokkeren omdat ze deel uitmaken van dezelfde sessie.
 
-## <a name="entering-quantities-by-calculation"></a>Hoeveelheden invoeren door berekening
+## Hoeveelheden invoeren door berekening
 
 Als u getallen in velden voor hoeveelheden invoert, zoals het veld **Hoeveelheid** op een artikeldagboekregel, kunt u de formule invoeren in plaats van de totale hoeveelheid.  
 
-### <a name="examples"></a>Voorbeelden  
+### Voorbeelden  
 
 - Als u 19+19 invoert, wordt het veld berekend als 38.  
 
@@ -184,7 +177,7 @@ Als u getallen in velden voor hoeveelheden invoert, zoals het veld **Hoeveelheid
 
 - Als u 12/4 invoert, wordt het veld berekend als 3.  
 
-## <a name="entering-negative-numbers"></a>Negatieve getallen invoeren
+## Negatieve getallen invoeren
 
 U kunt negatieve getallen op twee manieren invoeren. Nummer -20.5 kan worden ingevoerd als:  
 
@@ -197,14 +190,14 @@ In beide gevallen wordt het bedrag als -20,5 geregistreerd.
 
 Als het laatste teken van de expressie een **+** of een **-** is, wordt de volledige expressie vastgelegd met dat teken. Een voorbeeld: **10-20+** resulteert in 10 en niet -10.  
 
-## <a name="entering-dates-and-times"></a>Datums en tijden invoeren
+## Datums en tijden invoeren
 
 U kunt datums en tijden invoeren in alle velden die speciaal zijn toegewezen aan datums (datumvelden). U kunt datums met of zonder scheidingstekens invoeren.
 
 > [!NOTE]  
 > Hoe u datums en tijden invoert, hangt af van uw instellingen onder **Regio**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
-### <a name="entering-dates"></a>Datums invoeren
+### Datums invoeren
 
 U kunt de datumkiezer gebruiken om een datum te selecteren in een kalender of u voert handmatig datums in. Deze sectie geeft een kort overzicht van hoe u datums invoert. Zie voor meer informatie [Werken met kalenderdatums en tijden](ui-enter-date-ranges.md).
 
@@ -230,7 +223,7 @@ U kunt in plaats van een specifieke datum ook een van deze codes invoeren.
 |w|Hiermee wordt de werkdatum opgegeven die is ingesteld in de toepassing. Zie [Basisinstellingen wijzigen](ui-change-basic-settings.md) als u de werkdatum wilt wijzigen. Het gebruik van een werkdatum is handig als u veel transacties hebt met een andere datum dan de huidige.|
 |u|Hiermee wordt opgegeven dat de datum na u een ultimodatum is, bijvoorbeeld U311201.|  
 
-## <a name="entering-times"></a>Tijden invoeren
+## Tijden invoeren
 
 Hoewel het niet vereist is, kunt u bij de invoer van tijden elk willekeurig scheidingsteken tussen de eenheden plaatsen. U hoeft geen minuten, seconden of AM/PM-aanduiding in te voeren.  
 
@@ -248,11 +241,11 @@ In de volgende tabel wordt aangegeven op welke manieren u tijden kunt invoeren e
 
  Als u geen scheidingsteken invoert, voert u twee cijfers in voor elke tijdseenheid.  
 
-## <a name="entering-combined-datetimes"></a>Gecombineerde datums en tijden invoeren
+## Gecombineerde datums en tijden invoeren
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a>Duur invoeren
+## Duur invoeren
 
 De duur moet worden ingevoerd als een getal gevolgd door de eenheid.  
 
@@ -273,18 +266,18 @@ Hier volgen enkele voorbeelden.
 
  Het getal 5 wordt omgezet in 5 uur, als de eenheid uit uren bestaat.  
 
-## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden
+## <a name="decimal"></a>Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden
 
-Wanneer u de decimaaltekentoets op een numerieke toetsenbord gebruikt om gegevens in te voeren, wordt het daadwerkelijke decimaalteken dat in het veld wordt ingevoerd, bepaald door uw regio-instelling in Business Central. De meeste regio's gebruiken de punt (.) of komma (,) als scheidingsteken voor decimale waarden, zoals normaal gesproken wordt gebruikt in valutabedragen. De decimale toets op uw toetsenbord past zich aan uw regio aan. Dit wijkt vaak af van de punt- of kommatoetsen op de rest van het toetsenbord. U stelt de regio in Business Central in op de pagina **Mijn instellingen**.
+Wanneer u de <kbd>decimaaltekentoets</kbd> op een numeriek toetsenbord gebruikt om gegevens in te voeren, wordt het daadwerkelijke decimaalteken dat in het veld wordt ingevoerd, bepaald door uw regio-instelling in Business Central. De meeste regio's gebruiken de punt (.) of komma (,) als scheidingsteken voor decimale waarden, zoals normaal gesproken wordt gebruikt in valutabedragen. De decimale toets op uw toetsenbord past zich aan uw regio aan. Dit wijkt vaak af van de punt- of kommatoetsen op de rest van het toetsenbord. U stelt de regio in Business Central in op de pagina **Mijn instellingen**.
 
-Stel dat u een numeriek toetsenbord gebruikt dat een punt (.) als decimaalscheidingsteken gebruikt. Maar u voert gegevens in voor een regionale taal die een komma gebruikt (**,**) voor het decimaalteken, zoals Frans (Frankrijk). U wilt dus dat decimalen zoals "1.23" worden ingevoerd als "1,23". In dit geval kunt u naar de pagina **Mijn instellingen** gaan en de **Regio** instellen op de regionale doeltaal, zoals **Frans (Frankrijk)**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md#region).
+Stel dat u een numeriek toetsenbord gebruikt dat een punt (.) als <kbd>decimaalteken</kbd> gebruikt. Maar u voert gegevens in voor een regionale taal die een komma gebruikt (**,**) voor het decimaalteken, zoals Frans (Frankrijk). U wilt dus dat decimalen zoals "1.23" worden ingevoerd als "1,23". In dit geval kunt u naar de pagina **Mijn instellingen** gaan en de **Regio** instellen op de regionale doeltaal, zoals **Frans (Frankrijk)**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md#region).
 
 > [!TIP]
-> Het kan voorkomen dat u het decimaalteken wilt gebruiken om een punt (.) in te voeren. Stel dat u bijvoorbeeld een datumbereik invoert in een filter, zoals `01/01/2022..04/01/2022`, of iets dat een punt vereist. Druk hiervoor op de toetsen 'Alt+Decimaalteken' op het numerieke toetsenbord. Deze toetsencombinatie wisselt voor het decimaalteken tussen een punt en het decimaalteken zoals bepaald door de instelling **Regio**.
+> Het kan voorkomen dat u het decimaalteken wilt gebruiken om een punt (.) in te voeren. Stel dat u bijvoorbeeld een datumbereik invoert in een filter, zoals `01/01/2022..04/01/2022`, of iets dat een punt vereist. Selecteer in dit geval de toetsen <kbd>Alt</kbd>+<kbd>Decimaalteken</kbd> op het numerieke toetsenbord. Deze toetsencombinatie wisselt voor het decimaalteken tussen een punt en het decimaalteken zoals bepaald door de instelling **Regio**.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Lijsten sorteren, doorzoeken en filteren](ui-enter-criteria-filters.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.search.form: 1290, 1294, 1287
+ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
+ms.search.form: '1290, 1294, 1287'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e942adc661b31dbb181624ff66ebd33a2d50b255
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531093"
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Regels instellen voor automatische vereffening van betalingen
+# Regels instellen voor automatische vereffening van betalingen
 
 Op de pagina **Regels betalingsvereffening** stelt u de regels in die bepalen hoe betalingstekst (op een banktransactie) automatisch moet worden afgestemd met de gerelateerde openstaande (onbetaalde) facturen, creditnota's of andere posten wanneer u de functie **Automatisch vereffenen** gebruikt in het venster **Betalingsreconciliatiedagboek**. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
@@ -35,7 +29,7 @@ Behalve de afstemmingscriteria is het volgende van toepassing met betrekking tot
 - Voor negatieve bedragen wordt eerst afgestemd met openstaande posten die klantfacturen vertegenwoordigen, en vervolgens met creditnota's van leveranciers.
 - Voor positieve bedragen wordt eerst een afstemming uitgevoerd met openstaande posten die leveranciersfacturen vertegenwoordigen en dan met creditnota's van klanten.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Een betalingsvereffeningsregel instellen
+## Een betalingsvereffeningsregel instellen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Regels betalingsvereffening** in en kies vervolgens de gerelateerde koppeling.
 2. Definieer een nieuwe of bewerkte betalingsvereffeningsregel door de velden op een regel in te vullen, zoals beschreven in de volgende tabel.
 
@@ -80,9 +74,9 @@ De volgende tabel beschrijft de standaardregels voor betalingsvereffening in [!I
 | Laag              | 4        | Nr.                    | Nr.                             | Eén overeenkomst                      |
 | Laag              | 5        | Nr.                    | Nr.                             | Meerdere overeenkomsten               |
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  

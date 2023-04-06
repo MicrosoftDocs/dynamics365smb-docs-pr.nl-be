@@ -1,26 +1,20 @@
 ---
 title: Inkoopfacturen meteen vereffenen
-description: Als u de leverancier contant of per cheque moet betalen, kunt u de noodzakelijke boekingen doen op het moment dat u de factuur boekt.
+description: 'Als u de leverancier contant of per cheque moet betalen, kunt u de noodzakelijke boekingen doen op het moment dat u de factuur boekt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.search.form: 51, 9308
+ms.search.form: '51, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8386d5e52086f1a291529d828b66163c5d2851d3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516303"
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Inkoopfacturen meteen vereffenen
+# Inkoopfacturen meteen vereffenen
 
 Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boeken op het moment dat u de factuur boekt.  
 
 > [!NOTE]  
 > Als u vaak inkoopfacturen contant, met een cheque of met een bankovermaking betaalt, is het verstandig om een bepaalde betalingswijze met een tegenrekening in te stellen en deze betalingswijze in te voeren in het veld **Betalingswijze** op de leverancierskaart. Telkens wanneer u hierna een nieuwe factuur maakt, wordt automatisch het tegenrekeningnummer op de factuurkop ingevoerd. Zie [Betalingsmethoden definiëren](finance-payment-methods.md) voor meer informatie.  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>Een inkoopfactuur meteen vereffenen
+## Een inkoopfactuur meteen vereffenen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -31,7 +25,7 @@ Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boek
 >
 > Deze aanpassing is alleen vereist als u geen tegenrekeningen opgeeft op de betaalmethoden zoals hierboven beschreven.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

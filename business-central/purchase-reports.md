@@ -1,34 +1,28 @@
 ---
 title: Inkooprapporten en analyses
-description: Bekijk welke inkooprapporten en analyses beschikbaar zijn in de standaardversie van Business Central, zodat u uw bedrijf kunt volgen.
+description: 'Bekijk welke inkooprapporten en analyses beschikbaar zijn in de standaardversie van Business Central, zodat u uw bedrijf kunt volgen.'
 author: AndreiPanko
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_311, Report_312, Report_313, Report_320, Report_709, Report_707, Report_709, Report_714, Report_716, Report_720
+ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Report_707, Report_709, Report_714, Report_716, Report_720'
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 84c5230e1d89ceeba98fa545a1d0581f4f34a15c
-ms.sourcegitcommit: 670d589c6870a01e0655c2da800560ed69d18db2
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "8455710"
 ---
-# <a name="purchase-reports-and-analytics-in-business-central"></a>Inkooprapporten en analyses in Business Central
+# Inkooprapporten en analyses in Business Central
 
 Inkooprapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt aanschaf- en zakelijke professionals in staat om inzichten en statistieken te krijgen over huidige en vroegere inkoopactiviteiten.  
 
-## <a name="reports"></a>Rapporten
+## Rapporten
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Taken
+## Taken
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw bedrijf:
 
 * [Analyselijsten maken](bi-how-create-analysis-views-reports.md)  
 * [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)  
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Inkopen instellen](purchasing-setup-purchasing.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 

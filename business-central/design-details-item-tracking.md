@@ -20,7 +20,7 @@ Een artikeltraceringssysteem moet een bedrijf een eenvoudige manier bieden om te
 [Ontwerpdetails: Boekingsstructuur artikeltracering](design-details-item-tracking-posting-structure.md)  
 [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md)  
 [Ontwerpdetails: Pagina Artikeltraceringsregels](design-details-item-tracking-lines-window.md)  
-[Ontwerpdetails: Beschikbaarheid van artikeltracering](design-details-item-tracking-availability.md)  
+[Ontwerpdetails: Beschikbaarheid artikeltracering](design-details-item-tracking-availability.md)  
 [Ontwerpdetails: Artikeltracering en planning](design-details-item-tracking-and-planning.md)  
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 [Ontwerpdetails: Artikeltracering in het magazijn](design-details-item-tracking-in-the-warehouse.md)

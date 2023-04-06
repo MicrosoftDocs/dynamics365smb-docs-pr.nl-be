@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 944c2e9a9955a38b079234cc3ef9fb365407a97a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514295"
 ---
-# <a name="close-accounting-periods"></a>Boekhoudperioden afsluiten
+# Boekhoudperioden afsluiten
 
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten.
 
-## <a name="to-close-accounting-periods"></a>Boekhoudperioden afsluiten
+## Boekhoudperioden afsluiten
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Boekhoudperioden afsluiten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Boekingsperioden** de actie **Jaar afsluiten**.
@@ -38,7 +32,7 @@ Zelfs als een boekjaar is afgesloten, kunt u er nog steeds grootboekposten voor 
 
 Nadat een boekjaar is afgesloten, moet u de resultaten- of winst- en verliesrekeningen afsluiten en de jaarresultaten naar een balansrekening overbrengen. U kunt deze procedure herhalen telkens wanneer u boekt naar een afgesloten boekjaar.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Boeken afsluiten](year-close-books.md)  
 [De jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md)  

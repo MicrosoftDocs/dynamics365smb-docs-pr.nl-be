@@ -59,8 +59,8 @@ U kunt een magazijnverzending op twee manieren maken:
     * Op een push-manier, waarbij u de actie **Pick maken** gebruikt. Selecteer de te picken regels en geef informatie over de picks op. Bijvoorbeeld de opslaglocaties waaruit u wilt halen en waarin u wilt plaatsen en hoeveel eenheden u wilt verwerken. De opslaglocaties kunnen vooraf worden gedefinieerd voor de magazijnlocatie of resource.
     * Op een pull-manier, waarbij u de actie **Vrijgeven** gebruikt. Gebruik op de pagina **Pickvoorstel** de actie **Magazijndocumenten ophalen** om uw toegewezen picks te krijgen. Wanneer de magazijnpicks volledig zijn geregistreerd, worden de regels in het venster **Pickvoorstel** verwijderd. Meer info op [Picken van artikelen voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-> [!TIP]
-> Voor een vestiging waarvoor picken niet nodig is, kunt u magazijnverzending afdrukken en gebruiken als picklijst.
+    > [!TIP]
+    > Voor een vestiging waarvoor picken niet nodig is, kunt u magazijnverzending afdrukken en gebruiken als picklijst.
 
 8. Geef het te verzenden aantal op.  
 
@@ -71,6 +71,8 @@ U kunt een magazijnverzending op twee manieren maken:
     Als u de waarde in het veld **Te verzenden aantal** op alle regels wilt instellen op nul, kiest u de actie **Te verzenden aantal verwijderen**. Het op nul zetten van de hoeveelheden is bijvoorbeeld handig als u een streepjescodescanner gebruikt om de te verzenden hoeveelheden bij te werken. Om de beschikbare hoeveelheid voor verzending toe te voegen, kiest u de actie **Te verzenden aantal automatisch invullen**.
 
 9. Boek de verzending.
+
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
 ## Filters gebruiken om brondocumenten op te halen
 

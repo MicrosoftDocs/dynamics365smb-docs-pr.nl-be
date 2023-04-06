@@ -28,6 +28,7 @@ De volgende tabel beschrijft gegevensgevoeligheidsniveaus die u kunt toewijzen.
 |Normaal | Algemene gegevens die niet in andere categorieën horen.|
 
 ## Hoe classificeer ik mijn gegevens?
+
 De vertrouwelijkheid van een groot aantal velden één voor één classificeren zou lang duren. Om het proces te versnellen bieden we hulpmiddelen die u kunt gebruiken om de vertrouwelijkheid van velden bulksgewijs te classificeren. Daarna verfijnt u de classificaties voor specifieke velden. U kunt hulpmiddelen vinden in het werkblad Gegevensclassificatie, dat beschikbaar is in het rolcentrum Beheer van gebruikers, gebruikersgroepen en machtigingen. U moet een systeembeheerder zijn om het werkblad te gebruiken.
 
 > [!Important]

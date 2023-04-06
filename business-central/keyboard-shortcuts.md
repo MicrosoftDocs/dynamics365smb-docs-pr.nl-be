@@ -73,7 +73,7 @@ De volgende tabel beschrijft de sneltoetsen die u op een lijstpagina kunt gebrui
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
-### Alge&amp;meen
+### Algemeen
 
 |Selecteer deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave|Als u dit wilt doen in een tegelweergave |
 |--------------------------------|-------------------------|--------------------------|

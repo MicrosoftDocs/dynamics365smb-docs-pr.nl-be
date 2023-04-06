@@ -5,31 +5,25 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
+ms.search.form: 1480
+ms.search.keywords: 'Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource'
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: e9120463e2876e7513ac8011918039167760172d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533010"
 ---
-# <a name="get-the-business-central-add-in-for-excel"></a>De Business Central-invoegtoepassing voor Excel verkrijgen
+# De Business Central-invoegtoepassing voor Excel verkrijgen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bevat een invoegtoepassing voor Excel waarmee gebruikers een **Bewerken in Excel**-actie op bepaalde pagina's kunnen selecteren om de gegevens in een Excel-werkblad te openen. Deze actie is anders dan de actie **Openen in Excel** omdat het gebruikers in staat stelt wijzigingen aan te brengen in Excel en de wijzigingen vervolgens weer te publiceren naar [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## <a name="overview"></a>Overzicht
+## Overzicht
 
-### <a name="about-the-add-in"></a>Over de invoegtoepassing
+### Over de invoegtoepassing
 
 De invoegtoepassing heet **Microsoft Dynamics Office-invoegtoepassing** en is beschikbaar voor installatie vanuit de [Office Store (AppSource)](https://appsource.microsoft.com/). Met de invoegtoepassing geïnstalleerd is de **Bewerken in Excel**-actie beschikbaar op de meeste lijst- en lijstonderdeelpagina's vanuit het pictogram **Delen** ![Een pagina delen in een andere app.](media/share-icon.png). Zie voor meer informatie over het gebruik van de invoegtoepassing [Weergeven en bewerken in Excel vanuit Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > De invoegtoepassing werkt alleen onder Windows, niet onder MacOS.
 
-### <a name="about-deployment-as-an-admin"></a>Over implementatie als beheerder
+### Over implementatie als beheerder
 
 Met [!INCLUDE[prod_short](includes/prod_short.md)] online zijn er een paar implementatieopties om de invoegtoepassing voor gebruikers te krijgen. Eén optie is *individuele acquisitie*, waarbij u gebruikers de invoegtoepassing zelf laat installeren. Met deze optie moeten gebruikers toegang hebben tot het downloaden van bestanden uit de Office Store. Een andere optie is om *Gecentraliseerde implementatie* in te stellen in het Microsoft 365-beheercentrum om de invoegtoepassing automatisch te implementeren voor uw hele organisatie, groepen of specifieke gebruikers. Gecentraliseerde implementatie biedt een manier om de invoegtoepassing voor gebruikers te krijgen als uw organisatie gebruikers geen toegang geeft tot de Office Store.
 
@@ -41,21 +35,21 @@ Voor de eindgebruiker is de installatie-ervaring verschillend voor de twee imple
 
 Met beide implementatieopties wordt de invoegtoepassing automatisch geconfigureerd om verbinding te maken met [!INCLUDE[prod_short](includes/prod_short.md)]. Een derde implementatieoptie is een handmatige installatie van de invoegtoepassing rechtstreeks vanuit Excel. Met deze optie moeten gebruikers de invoegtoepassing configureren om verbinding te maken met [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Overschakelen van individuele acquisitie naar gecentraliseerde implementatie of andersom
+### <a name="switch"></a>Overschakelen van individuele acquisitie naar gecentraliseerde implementatie of andersom
 
 Wanneer u overstapt van individuele acquisitie van de invoegtoepassing naar gecentraliseerde implementatie, of vice versa, heeft dit gevolgen voor Excel-bestanden die gebruikers vóór de overgang hebben gemaakt. Na de overgang kunnen gebruikers nog steeds Excel-werkbladen openen die eerder zijn gemaakt met de **Bewerken in Excel**-actie of die handmatig zijn gemaakt, door de Excel-invoegtoepassing te configureren. Maar ze kunnen de gegevens in het bestand niet bijwerken vanuit Business Central of updates naar Business Central pushen
 
 Dit komt doordat elk Excel-bestand een 'invoegtoepassing'-id krijgt toegewezen. Bij de overgang van of naar gecentraliseerde implementatie wordt een andere id toegewezen, waardoor de eerdere id wordt geblokkeerd.
 
-## <a name="preparation-on-premises-only"></a>Voorbereiding (alleen voor on-premises)
+## Voorbereiding (alleen voor on-premises)
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises vereist dat uw omgeving is geconfigureerd voor de invoegtoepassing. Zo niet, dan is de actie **Bewerken in Excel** niet beschikbaar voor gebruikers. Zie voor meer informatie [De Excel-invoegtoepassing instellen om Business Central-gegevens te bewerken](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) in de Help voor ontwikkelaars en IT Pro.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>De invoegtoepassing implementeren met behulp van gecentraliseerde implementatie
+## De invoegtoepassing implementeren met behulp van gecentraliseerde implementatie
 
 Gecentraliseerde implementatie is een functie in het Microsoft 365-beheercentrum die u gebruikt om automatisch invoegtoepassingen te installeren in Office-apps van gebruikers, zoals Excel. Om u te helpen met gecentraliseerde implementatie, bevat [!INCLUDE[prod_short](includes/prod_short.md)] de begeleide instelling **Gecentraliseerde implementatie van Excel-invoegtoepassing**.
 
-### <a name="before-you-begin"></a>Voordat u begint
+### Voordat u begint
 
 - Zie voor meer informatie over het voorkomen dat gebruikers downloaden uit de Office Store [Invoegtoepassingen beheren in het beheercentrum](/microsoft-365/admin/manage/manage-addins-in-the-admin-center).
 - Controleer of gecentraliseerde implementatie werkt voor uw organisatie. Zie voor meer informatie [Bepalen of gecentraliseerde implementatie van invoegtoepassingen werkt voor uw organisatie](/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
@@ -64,7 +58,7 @@ Gecentraliseerde implementatie is een functie in het Microsoft 365-beheercentrum
 > [!NOTE]
 > Het inschakelen van gecentraliseerde implementatie is van invloed op functies die gebruikmaken van de Excel-invoegtoepassing, zoals de actie **Bewerken in Excel**. Het heeft geen effect op andere Excel-gerelateerde functies en/of machtigingen die zijn toegewezen aan gebruikers in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="set-up-centralized-deployment-of-the-add-in"></a>Gecentraliseerde implementatie van de invoegtoepassing instellen
+### Gecentraliseerde implementatie van de invoegtoepassing instellen
 
 U werkt in [!INCLUDE[prod_short](includes/prod_short.md)] en het Microsoft 365-beheercentrum.
 
@@ -93,7 +87,7 @@ Als u klaar bent, kunt u de implementatie altijd wijzigen in het Microsoft 365-b
 > [!NOTE]
 > Het kan tot 24 uur duren voordat gebruikers de invoegtoepassing automatisch implementeren in de Excel van gebruikers.
 
-## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use"></a><a name="install"></a>Individuele acquisitie: de invoegtoepassing handmatig installeren voor eigen gebruik
+## <a name="install"></a>Individuele acquisitie: de invoegtoepassing handmatig installeren voor eigen gebruik
 
 In de meeste gevallen, wanneer u Excel opent vanuit Business Central, wordt de invoegtoepassing automatisch voor u geïnstalleerd of wordt u gevraagd deze te installeren. Er kunnen echter gevallen zijn waarin u de invoegtoepassing handmatig moet installeren.
 
@@ -103,7 +97,7 @@ In de meeste gevallen, wanneer u Excel opent vanuit Business Central, wordt de i
 
 Wanneer de invoegtoepassing is geïnstalleerd, wordt deze weergegeven als een deelvenster in Excel. Configureer vervolgens de verbinding.
 
-### <a name="configure-the-business-central-connection"></a>De Business Central-verbinding configureren
+### De Business Central-verbinding configureren
 
 Als een gebruiker niet automatisch verbinding kan maken, kunt u de blokkering opheffen door hem of haar te vragen deze stappen te volgen:
 
@@ -115,17 +109,17 @@ Als een gebruiker niet automatisch verbinding kan maken, kunt u de blokkering op
 
 De invoegtoepassing is nu verbonden met [!INCLUDE [prod_short](includes/prod_short.md)] en u kunt gegevens bewerken en de wijzigingen publiceren naar [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Apparaten en netwerk voorbereiden voor de Excel-invoegtoepassing
+## Apparaten en netwerk voorbereiden voor de Excel-invoegtoepassing
 
 Netwerkservices zoals proxy's of firewalls moeten routering toestaan tussen elk clientapparaat waarop de invoegtoepassing is geïnstalleerd en vele service-eindpunten. Zie voor een lijst met eindpunten [Uw netwerk voorbereiden op de Excel-invoegtoepassing](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
-## <a name="troubleshooting"></a>Problemen oplossen
+## Problemen oplossen
 
 Soms ondervinden gebruikers problemen met de Excel-invoegtoepassing. Dit gedeelte geeft enkele tips voor het deblokkeren van gebruikers in bepaalde omstandigheden.
 
 |Probleem  |Oplossing of tijdelijke oplossing  |Opmerkingen  |
 |---------|---------|---------|
-|De invoegtoepassing start niet|Controleer of de invoegtoepassing centraal wordt geïmplementeerd. Of controleer of de gebruiker is geblokkeerd tegen lokale installatie. | De beheerder kan Office zo configureren dat gebruikers geen invoegtoepassingen kunnen verkrijgen. In die gevallen moet de beheerder de invoegtoepassing centraal implementeren. Voor meer informatie zie [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
+|De invoegtoepassing start niet <br><br>De gebruiker krijgt bijvoorbeeld het bericht "Waarschuwing over invoegtoepassing: deze invoegtoepassing is niet meer beschikbaar" wanneer u de invoegtoepassing probeert te gebruiken. Dit specifieke probleem kan optreden als gecentraliseerde implementatie correct is geconfigureerd, maar de gebruiker geen toegang heeft gekregen.|Controleer of de invoegtoepassing centraal wordt geïmplementeerd. Of controleer of de gebruiker is geblokkeerd tegen lokale installatie. | De beheerder kan Office zo configureren dat gebruikers geen invoegtoepassingen kunnen verkrijgen. In die gevallen moet de beheerder de invoegtoepassing centraal implementeren. Voor meer informatie zie [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Gegevens worden niet in Excel geladen|Test de verbinding door een andere lijst in Excel te openen vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. Of open de werkmap in Excel in een browser.|Als de gebruiker een bedrijfsnaam heeft opgegeven die speciale tekens bevat, kan de invoegtoepassing geen verbinding maken. |
 |Gegevens kunnen niet terug worden gepubliceerd naar [!INCLUDE [prod_short](includes/prod_short.md)].|Test de verbinding door de werkmap in Excel in een browser te openen. |Soms kan een extensie de publicatietaak blokkeren. Als de pagina is uitgebreid of aangepast, verwijdert u de extensies en probeert u het opnieuw.|
 |De datums zijn fout  |Excel toont mogelijk tijden en datums in een ander formaat dan [!INCLUDE [prod_short](includes/prod_short.md)]. Ze zijn echter niet verkeerd en de gegevens in [!INCLUDE [prod_short](includes/prod_short.md)] blijven intact.|         |
@@ -165,9 +159,9 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md)  
 [Werken met Business Central](ui-work-product.md)  

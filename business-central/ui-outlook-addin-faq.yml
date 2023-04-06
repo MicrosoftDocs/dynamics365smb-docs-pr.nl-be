@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Business Central Add-in for Outlook FAQ
-  description: See answers to frequently asked questions about using Business Central add-in for Outlook.
+  title: Veelgestelde vragen over de Business Central-invoegtoepassing voor Outlook
+  description: Bekijk antwoorden op veelgestelde vragen over het gebruik van de Business Central-invoegtoepassing voor Outlook.
   author: jswymer
   ms.topic: faq
   ms.devlang: na
@@ -10,30 +10,30 @@ metadata:
   ms.search.keywords: 'phone, tablet'
   ms.date: 04/27/2022
   ms.author: jswymer
-title: Business Central Add-in for Outlook FAQ
+title: Veelgestelde vragen over de Business Central-invoegtoepassing voor Outlook
 summary: |
-  This article answers questions that users often ask about the Business Central add-in for Outlook.   
+  Dit artikel beantwoordt vragen die gebruikers vaak stellen over de Business Central-invoegtoepassing voor Outlook.   
 sections:
-  - name: Ignored
+  - name: Genegeerd
     questions:
       - question: |
-          How do I change the environment my add-in is pointing to?  
+          Hoe wijzig ik de omgeving waarnaar mijn invoegtoepassing verwijst?  
         answer: |
-          The environment URL is configured in the add-in when the add-in is installed (specifically, in the add-in's manifest file). If you want the add-in to point to a different environment, open the desired Business Central environment and deploy the add-in again, for example, by running the <bpt id="p1">**</bpt>Get the Outlook Add-in<ept id="p1">**</ept> assisted setup. This action  will redeploy the add-in with updated environment URLs. 
+          De omgevings-URL wordt geconfigureerd in de invoegtoepassing wanneer deze is geïnstalleerd (specifiek in het manifestbestand van de invoegtoepassing). Als u wilt dat de invoegtoepassing naar een andere omgeving verwijst, opent u de gewenste Business Central-omgeving en implementeert u de invoegtoepassing opnieuw, bijvoorbeeld door de begeleide instelling **De Outlook-invoegtoepassing ophalen** uit te voeren. Met deze actie wordt de invoegtoepassing opnieuw geïmplementeerd met bijgewerkte omgevings-URL's. 
 
           > [!NOTE]
-          > It might take some time before the change takes effect.
+          > Het kan enige tijd duren voordat de wijziging van kracht wordt.
       - question: |
-          Can I customize the add-in to connect to multiple environments?
+          Kan ik de invoegtoepassing aanpassen om verbinding te maken met meerdere omgevingen?
         answer: |
-          Yes. As an administrator, developer, or partner, you can modify and build your own add-in manifests. One way is to download the Contact Insights manifest from each environment that the users want to connect to. Then, modify the <ph id="ph1">`&lt;Id&gt;`</ph> and <ph id="ph2">`&lt;DisplayName&gt;`</ph> tags to allow multiple versions of the add-in to be installed. These modifications will let the user have multiple Business Central add-ins installed, each pointing to their own environment.
+          Ja. Als beheerder, ontwikkelaar of partner kunt u uw eigen manifesten voor invoegtoepassingen aanpassen en bouwen. Eén manier is om het Contact Insights-manifest te downloaden van elke omgeving waarmee de gebruikers verbinding willen maken. Pas vervolgens de tags `<Id>` en `<DisplayName>` aan zodat meerdere versies van de invoegtoepassing kunnen worden geïnstalleerd. Door deze aanpassingen kan de gebruiker meerdere Business Central-invoegtoepassingen installeren, elk verwijzend naar zijn eigen omgeving.
 
-          ![Multiple Business Central add-ins for Outlook.](media/outlook-multiple-addins.png) 
+          ![Meerdere Business Central-invoegtoepassingen voor Outlook.](media/outlook-multiple-addins.png) 
 additionalContent: |
 
-  ## See also
+  ## Zie ook
 
-  <bpt id="p1">[</bpt>Get the Business Central Add-in for Outlook<ept id="p1">](admin-outlook.md)</ept>  
-  <bpt id="p1">[</bpt>Use Business Central as your Business Inbox in Outlook<ept id="p1">](work-outlook-addin.md)</ept>  
+  [De Business Central-invoegtoepassing voor Outlook verkrijgen](admin-outlook.md)  
+  [Business Central gebruiken als uw bedrijfsinbox in Outlook](work-outlook-addin.md)  
 
   [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -17,7 +17,7 @@ Boekingsgroepen wijzen entiteiten toe aan grootboekrekeningen. Voorbeelden van e
 
 Boekingsgroepen zijn verdeeld in drie categorieën:  
 
-* Alge&amp;meen
+* Algemeen
 
   Definieer aan wie u verkoopt en van wie u koopt, en wat u verkoopt en wat u koopt. U kunt de boekingsgroepen ook combineren om zaken op te geven zoals de resultatenrekeningen waarnaar u wilt boeken, of groepen gebruiken om rapporten te filteren.  
 * Specifiek
