@@ -28,7 +28,9 @@ Een normale Shopify-order kan kosten bevatten naast het subtotaal, zoals verzend
 
 Schakel **Automatisch orders maken** in om automatisch verkoopdocumenten te maken in [!INCLUDE[prod_short](../includes/prod_short.md)] zodra de Shopify-order is geïmporteerd.
 
-Het verkoopdocument in [!INCLUDE[prod_short](../includes/prod_short.md)] bevat een koppeling naar de Shopify-order. Als u het veld **Shopify-order-nr. op documentregel** selecteert, wordt deze informatie herhaald op de verkoopregels van het type *Opmerking*.
+Als u automatisch een verkoopdocument wilt vrijgeven, schakelt u de schakelaar **Verkooporder automatisch vrijgeven** in.
+
+Het verkoopdocument binnen [!INCLUDE[prod_short](../includes/prod_short.md)] koppelt naar de Shopify-order, en u kunt een veld toevoegen dat nog niet op de pagina wordt weergegeven. Ga voor meer informatie over het toevoegen van een veld naar [Een pagina personaliseren via de banner **Personaliseren**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Als u het veld **Shopify-order-nr. op documentregel** selecteert, wordt deze informatie herhaald op de verkoopregels van het type **Opmerking**.
 
 In het veld **Bron van belastinggebied** kunt u de prioriteit definiëren voor het selecteren van de btw-gebiedscode of de btw-bedrijfsboekingsgroep, op basis van adres. De geïmporteerde Shopify-order bevat informatie over belastingen, maar de belastingen worden opnieuw berekend wanneer u het verkoopdocument maakt, dus het is belangrijk dat de btw-/belastinginstellingen correct zijn in [!INCLUDE[prod_short](../includes/prod_short.md)]. Voor meer informatie over belastingen zie [Belastingen instellen voor de Shopify-verbinding](setup-taxes.md).
 
@@ -75,11 +77,11 @@ In de volgende procedure wordt beschreven hoe u de verkooporders importeert en b
 > [!NOTE]  
 > Bij het filteren op tag moet u filtertokens `@` en `*` gebruiken. Als u bijvoorbeeld orders wilt importeren die *tag1* bevatten, gebruikt u `@*tag1*`. `@` zal ervoor zorgen dat het resultaat niet hoofdlettergevoelig is, terwijl `*` orders met meerdere tags vindt.
 
-7. Kies de knop **Ok**.
+6. Kies de knop **Ok**.
 
 U kunt ook zoeken naar de batchverwerking **Orders synchroniseren vanuit Shopify**.
 
-U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
+U kunt plannen dat de taak automatisch wordt uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
 
 ## Geïmporteerde bestellingen bekijken
 
@@ -90,7 +92,7 @@ Zodra het importeren is voltooid, kunt u de Shopify-order verkennen en alle gere
 
 ## Verkoopdocument maken in Business Central
 
-Als de schakelaar **Automatisch orders maken** is ingeschakeld op de **Shopify-winkelkaart**, probeert [!INCLUDE[prod_short](../includes/prod_short.md)] een verkoopdocument te maken zodra de order is geïmporteerd. Als er problemen optreden, zoals een ontbrekende klant of product, moet u de problemen oplossen en vervolgens de verkooporder opnieuw maken.
+Als de schakelaar **Automatisch orders maken** is ingeschakeld op de **Shopify-winkelkaart**, probeert [!INCLUDE[prod_short](../includes/prod_short.md)] een verkoopdocument te maken nadat de order is geïmporteerd. Als er problemen optreden, zoals een ontbrekende klant of product, moet u de problemen oplossen en vervolgens de verkooporder opnieuw maken.
 
 ### Verkoopdocumenten maken
 
@@ -132,20 +134,24 @@ De volgende stappen zijn afhankelijk van het **Type klanttoewijzing**.
 
 In Shopify:
 
-|Bewerken|Impact|
-|------|-----------|
-|De afhandelingslocatie wijzigen | De oorspronkelijke locatie wordt gesynchroniseerd met [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|De afhandelingslocatie wijzigen en afhandeling registreren in Shopify| Als de order al is geïmporteerd, worden regels niet bijgewerkt. Anders gebruikt de geïmporteerde order de afhandelingslocatie. |
-|Een order bewerken en de hoeveelheid wijzigen| De orderkop en de aanvullende tabellen worden bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], regels niet. |
-|Een order bewerken en een nieuw artikel toevoegen | De orderkop wordt bijgewerkt, de regels niet. |
+|Bewerken|Gevolgen voor reeds geïmporteerde order|Gevolgen voor order die voor het eerst wordt geïmporteerd|
+|------|-----------|-----------|
+|De afhandelingslocatie wijzigen | Oorspronkelijke vestiging is in regels | De afhandelingsvestiging is gesynchroniseerd met [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Een order bewerken en de hoeveelheid verhogen| De orderkop en de aanvullende tabellen worden bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], regels niet.| Geïmporteerde order gebruikt nieuwe hoeveelheid|
+|Een order bewerken en de hoeveelheid verlagen| De orderkop en de aanvullende tabellen worden bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], regels niet.| Geïmporteerde order gebruikt de oorspronkelijke hoeveelheid, het veld Afhandelbare hoeveelheid bevat een nieuwe waarde.|
+|Een order bewerken en een bestaand artikel verwijderen | De orderkop en de aanvullende tabellen worden bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], regels niet.| Verwijderde artikelen worden nog steeds geïmporteerd, het veld Afhandelbare hoeveelheid bevat nul. |
+|Een order bewerken en een nieuw artikel toevoegen | De orderkop wordt bijgewerkt, de regels niet. | Originele en toegevoegde artikelen worden geïmporteerd. |
+|Order verwerken: afhandelen, betalingsinformatie bijwerken | De orderkop wordt bijgewerkt, maar de regels niet. |De wijziging heeft geen invloed op hoe de order wordt geïmporteerd.|
+|Order annuleren | De orderkop wordt bijgewerkt, maar de regels niet. |Geannuleerde order wordt niet geïmporteerd |
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Bewerken|Impact|
 |------|-----------|
-|De vestiging wijzigen in een andere vestiging, toegewezen aan de Shopify-vestigingen. Verzending boeken | Na het synchroniseren van de afhandeling wordt de vestiging bijgewerkt in Shopify. |
+|De vestiging wijzigen in een andere vestiging, toegewezen aan de Shopify-vestigingen. Verzending boeken | Order wordt gemarkeerd als afgehandeld. De oorspronkelijke vestiging wordt gebruikt. |
 |De vestiging wijzigen in een andere vestiging, niet toegewezen aan de Shopify-vestigingen. Verzending boeken | De afhandeling wordt niet gesynchroniseerd met Shopify. |
 |De hoeveelheid verlagen. Verzending boeken | De Shopify-order wordt gemarkeerd als gedeeltelijk vervuld. |
+|De hoeveelheid verhogen. Verzending boeken | De afhandeling wordt niet gesynchroniseerd met Shopify. |
 |Een nieuw artikel toevoegen. Verzending boeken | De Shopify-order wordt gemarkeerd als afgehandeld. Regels worden niet bijgewerkt. |
 
 ## Verzendingen synchroniseren met Shopify
@@ -162,7 +168,8 @@ Gebruik als alternatief de actie **Verzendingen synchroniseren** op de pagina Sh
 
 U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
 
->[Belangrijk] De locatie, inclusief blanco locatie, gedefinieerd op de geboekte verzendingsregel moet een overeenkomende record hebben op de Shopify-vestiging. Anders wordt deze regel niet teruggestuurd naar Shopify. Meer informatie op [Locatietoewijzing](synchronize-orders.md#location-mapping).
+>[!Important]
+>De vestiging, inclusief blanco vestiging, gedefinieerd op de geboekte verzendingsregel, moet een overeenkomende record hebben op de Shopify-vestiging. Anders wordt deze regel niet teruggestuurd naar Shopify. Meer informatie op [Locatietoewijzing](synchronize-orders.md#location-mapping).
 
 Vergeet niet **Orders synchroniseren vanuit Shopify** uit te voeren om de afhandelingsstatus van een order bij te werken in [!INCLUDE[prod_short](../includes/prod_short.md)]. De connectorfunctionaliteit archiveert ook volledig betaalde en afgehandelde orders in zowel Shopify als [!INCLUDE[prod_short](../includes/prod_short.md)], mits aan de voorwaarden is voldaan.
 

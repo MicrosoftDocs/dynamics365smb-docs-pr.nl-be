@@ -117,8 +117,9 @@ Kopiëren is een snelle manier om een nieuwe lay-out te maken die hetzelfde is a
    |Omschrijving| Typ meer gedetailleerde informatie over de lay-out. |nee|
    |Opties voor opmaak|Stel dit veld in op het type lay-out, zoals Word, Excel of RDLC.|ja|
 
-6. Selecteer **OK** > **Kiezen** om de bestandsverkenner op uw apparaat te openen.
-7. Zoek en selecteer het Excel-bestand en kies vervolgens **Openen**.
+6. Selecteer **OK** en voer vervolgens een van de volgende stappen uit om het lay-outbestand voor het rapport te uploaden:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Het geselecteerde bestand wordt geüpload naar de lay-out en u keert terug naar de pagina **Rapportlay-outs**.
 

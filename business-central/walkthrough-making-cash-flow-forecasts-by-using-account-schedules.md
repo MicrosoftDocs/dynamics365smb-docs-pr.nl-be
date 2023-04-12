@@ -39,7 +39,7 @@ In dit overzicht worden taken gedemonstreerd die worden uitgevoerd door de volge
 
 ## Scenario
 
-Ken is controller bij CRONUS die de maandelijkse cashflowprognoses maakt. Hij neemt financiële gegevens, verkoop, inkoop en vaste activa op in de prognoses, die hij vervolgens presenteert aan CFO Sara voor het zakelijk perspectief.  
+Ken is controller bij CRONUS die de maandelijkse cashflowprognoses maakt. Ken neemt financiële gegevens, verkoop, inkoop en vaste activa op in de prognoses, die hij presenteert aan CFO Sara voor het zakelijk perspectief.  
 
 ## Een nieuwe naam voor een financieel rapport instellen
 
@@ -95,12 +95,12 @@ Nadat de naam van een financieel rapport is ingesteld, definieert Ken elke regel
 
 ## Een nieuwe kolomindeling instellen
 
-Voordat Ken de cashflowprognose kan afdrukken, moet hij de kolomdefinitie voor de numerieke gegevens maken. In de kolommen bepaalt hij welke informatie van de regels hij wil gebruiken.
+Voordat Ken de cashflowprognose kan afdrukken, moet hij de kolomdefinitie voor de numerieke gegevens maken. In de kolommen bepaalt Ken welke informatie hij van de regels wil gebruiken.
 
 - De eerste kolom heeft nummer *C10* met de titel **Bedrag** en bevat de mutatie.  
 - De tweede kolom heeft nummer *C20* en de titel **Saldo t/m datum** en bevat de transacties voor de periode.  
 - De derde kolom heeft nummer *C30* en de titel **Volledig jaar** en bevat de mutatie in de saldi voor het gehele boekjaar.  
-- Ten slotte wijst hij de kolomdefinitie toe als de standaardoptie voor het financiële rapport **Prognose**.  
+- Ten slotte wijst Ken de kolomdefinitie toe als de standaardoptie voor het financiële rapport **Prognose**.  
 
 ### Een nieuwe kolomdefinitie instellen
 

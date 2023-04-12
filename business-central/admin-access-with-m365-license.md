@@ -13,19 +13,19 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 
 # Business Central-toegang met Microsoft 365-licenties
 
-Business Central-gebruikers krijgen een Dynamics 365 Business Central-licentie waarmee ze hun bedrijfsgegevens kunnen bekijken, wijzigen en gebruiken vanuit elke gebruikersinterface. Voor alle andere medewerkers in de organisatie die slechts af en toe gegevens hoeven te bekijken, biedt Business Central toegang via Microsoft 365.  
+[!INCLUDE[prod_short](includes/prod_short.md)]-gebruikers krijgen een Dynamics 365 Business Central-licentie waarmee ze hun bedrijfsgegevens kunnen bekijken, wijzigen en gebruiken vanuit elke gebruikersinterface. Voor alle andere medewerkers in de organisatie die slechts af en toe gegevens hoeven te bekijken, biedt Business Central toegang via Microsoft 365.  
 
-Wanneer een organisatie zowel een Dynamics 365 Business Central als een Microsoft 365-abonnement heeft, kunnen beheerders omgevingen configureren om toegang te verlenen met Microsoft 365-licenties, en precies kiezen tot welke tabellen en andere objecten deze categorie van gebruikers toegang krijgt. Indien geconfigureerd, kunnen medewerkers met een Microsoft 365-licentie maar geen Business Central-licentie Business Central-records bekijken die met hen zijn gedeeld in Microsoft Teams-chats en kanalen.
+Wanneer een organisatie zowel een Dynamics 365 Business Central als een Microsoft 365-abonnement heeft, kunnen beheerders omgevingen configureren om toegang te verlenen met Microsoft 365-licenties, en precies kiezen tot welke tabellen en andere objecten deze categorie van gebruikers toegang krijgt. Indien geconfigureerd, kunnen medewerkers met een Microsoft 365 -licentie maar geen [!INCLUDE [prod_short](includes/prod_short.md)]-licentie [!INCLUDE [prod_short](includes/prod_short.md)]-records bekijken die met hen zijn gedeeld in Microsoft Teams-chats en kanalen.
 
 ## Waarom toegang met Microsoft 365-licenties inschakelen  
 
 - Ontgrendel stamgegevens waartoe elke medewerker in de hele organisatie toegang zou moeten hebben.
 
-- Geef afdelingen die niet op Business Central draaien de mogelijkheid om zichzelf te bedienen door toegang te krijgen tot belangrijke gegevens die nodig zijn om hun taken succesvol te kunnen uitvoeren, waardoor het niet langer nodig is om voortdurend gegevens op te vragen bij anderen. 
+- Geef afdelingen die niet op [!INCLUDE [prod_short](includes/prod_short.md)] draaien de mogelijkheid om zichzelf te bedienen door toegang te krijgen tot belangrijke gegevens die nodig zijn om hun taken succesvol te kunnen uitvoeren, waardoor het niet langer nodig is om voortdurend gegevens op te vragen bij anderen.
 
-- Zorg voor efficiëntere samenwerking, zodat taken en projecten waarbij verschillende afdelingen betrokken zijn, op tijd worden voltooid, door de wrijving te elimineren die doorgaans gepaard gaat met fouten waarbij de toegang wordt geweigerd als gevolg van licenties. 
+- Zorg voor efficiëntere samenwerking, zodat taken en projecten waarbij verschillende afdelingen betrokken zijn, op tijd worden voltooid, door de wrijving te elimineren die doorgaans gepaard gaat met fouten waarbij de toegang wordt geweigerd als gevolg van licenties.
 
-- Verhoog de teamprestaties zodat mensen gegevensgestuurde beslissingen kunnen nemen waar iedereen bij betrokken is, zelfs als ze niet in Business Central werken. 
+- Verhoog de teamprestaties zodat mensen gegevensgestuurde beslissingen kunnen nemen waar iedereen bij betrokken is, zelfs als ze niet in [!INCLUDE [prod_short](includes/prod_short.md)] werken.
 
 - Voldoe aan de doelstellingen van het licentiebudget door licenties toe te wijzen die geleidelijk aansluiten op de behoeften van werknemers, met Microsoft 365-licenties voor alleen-lezen toegang, Dynamics 365 Business Central Team Member-licenties voor beperkte schrijftoegang, en Dynamics 365 Business Central Essentials of Premium voor volledige schrijftoegang.
 
@@ -33,11 +33,11 @@ Wanneer een organisatie zowel een Dynamics 365 Business Central als een Microsof
 
 ## Gebruiksrechten
 
-Wanneer iemand Business Central opent met een Microsoft 365-licentie geeft deze licentie de gebruiker het recht om Business Central-gegevens te lezen (maar niet te schrijven) via een vereenvoudigde gebruikersinterface in Microsoft Teams. In dit gedeelte worden deze gebruiksrechten en -beperkingen uitgelegd die u helpen bij het plannen van de configuratie en het optimaal benutten van deze mogelijkheid. Raadpleeg voor meer informatie over dit licentietype in vergelijking met andere Business Central-licenties de [Dynamics 365 Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+Wanneer iemand [!INCLUDE [prod_short](includes/prod_short.md)] opent met een Microsoft 365-licentie, geeft de licentie de gebruiker het recht om [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens te lezen (maar niet te schrijven) via een vereenvoudigde gebruikersinterface in Microsoft Teams. In dit gedeelte worden deze gebruiksrechten en -beperkingen uitgelegd die u helpen bij het plannen van de configuratie en het optimaal benutten van deze mogelijkheid. Raadpleeg voor meer informatie over dit licentietype in vergelijking met andere [!INCLUDE [prod_short](includes/prod_short.md)]-licenties de [Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544).
  
 ### Client-toegang
 
-Gebruikers hebben recht op toegang tot Business Central-gegevens in Microsoft Teams. In de onderstaande tabel vindt u een overzicht van welke van de verschillende methoden voor toegang tot de Business Central-service zijn toegestaan met deze licentie. 
+Gebruikers hebben recht op toegang tot [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens in Microsoft Teams. In de onderstaande tabel vindt u een overzicht van welke van de verschillende methoden voor toegang tot de [!INCLUDE [prod_short](includes/prod_short.md)]-service zijn toegestaan met deze licentie.
 
 |Klant die de Business Central-service opent |Toegang|
 |-|-|
@@ -48,31 +48,31 @@ Gebruikers hebben recht op toegang tot Business Central-gegevens in Microsoft Te
 |Business Central-integraties met andere Office-toepassingen|![Nee](media/x-icon.png )|
 |Business Central ingesloten in andere toepassingen |![Nee](media/x-icon.png )|
 
-### Toegang tot gegevens 
+### Toegang tot gegevens
 
-Gebruikers mogen tabelgegevens lezen, maar kunnen geen records wijzigen, maken of verwijderen. Het Business Central-platform voorkomt automatisch dat er naar gegevenstabellen wordt geschreven.  
+Gebruikers mogen tabelgegevens lezen, maar kunnen geen records wijzigen, maken of verwijderen. Het [!INCLUDE [prod_short](includes/prod_short.md)]-platform voorkomt automatisch dat er naar gegevenstabellen wordt geschreven.  
 
-### Gebruik van objecten 
+### Gebruik van objecten
 
-Toegang met Microsoft 365-licenties legt geen beperkingen op voor welke Business Central-objecten of objectbereiken toegang mogelijk is. Gebruikers hebben recht op toegang tot de Microsoft-basistoepassing en eventuele uitbreidingen zoals aanpassingen en add-on-apps. 
+Toegang met Microsoft 365-licenties legt geen beperkingen op voor welke Business Central-objecten of objectbereiken toegang mogelijk is. Gebruikers hebben recht op toegang tot de Microsoft-basistoepassing en eventuele uitbreidingen zoals aanpassingen en add-on-apps.
 
-## Simplified UI 
+## Vereenvoudigde gebruikersinterface
 
-Gebruikers hebben recht op een beperkte set voorzieningen en functies die worden aangeboden door Business Central in Microsoft Teams. In de onderstaande tabellen vindt u een aantal noemenswaardige functies. Deze lijst is niet volledig en kan worden gewijzigd.
+Gebruikers hebben recht op een beperkte set voorzieningen en functies die worden aangeboden door [!INCLUDE [prod_short](includes/prod_short.md)] in Microsoft Teams. In de onderstaande tabellen vindt u een aantal noemenswaardige functies. Deze lijst is niet volledig en kan worden gewijzigd.
 
-Functies van de Business Central-app voor Teams:
+Functies van de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Teams:
 
 |Functie  |Beschikbaar|
 |-|-|
-|Business Central-kaarten weergeven|![Ja](media/check.png)|
+|Bekijk [!INCLUDE [prod_short](includes/prod_short.md)]-kaarten|![Ja](media/check.png)|
 |Kaartdetails weergeven |![Ja](media/check.png) |
 |Kaartgegevens vastzetten als tabblad |![Ja](media/check.png)|
-|Business Central-tabbladen weergeven|![Ja](media/check.png)|
-|Een Business Central-tabblad toevoegen|![Nee_](media/x-icon.png )|
+|[!INCLUDE [prod_short](includes/prod_short.md)]-tabbladen weergeven|![Ja](media/check.png)|
+|Een [!INCLUDE [prod_short](includes/prod_short.md)]-tabblad toevoegen|![Nee_](media/x-icon.png )|
 |Zakelijke contacten zoeken |![Nee](media/x-icon.png )|
 |Een voorbeeld van een koppeling plakken en delen als een kaart|![Nee](media/x-icon.png )|
 
-Functies van de Business Central-client ingebed in Teams:
+Functies van de [!INCLUDE [prod_short](includes/prod_short.md)]-client ingebed in Teams:
 
 |Functie |Beschikbaar|Voorbeeldfuncties|
 |-|-|-|
@@ -92,19 +92,19 @@ Functies van de Business Central-client ingebed in Teams:
 
 ## Minimumvereisten
 
-In dit gedeelte worden de minimale vereisten beschreven waaraan uw organisatie moet voldoen om toegang met Microsoft 365-licenties mogelijk te maken, en voor individuele Microsoft Teams-gebruikers om toegang te krijgen tot Business Central-gegevens zonder een Business Central-licentie.
+In dit gedeelte worden de minimale vereisten beschreven waaraan uw organisatie moet voldoen om toegang met Microsoft 365-licenties mogelijk te maken, en voor individuele Microsoft Teams-gebruikers om toegang te krijgen tot [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens zonder een [!INCLUDE [prod_short](includes/prod_short.md)]-licentie.
 
 ### Vereisten om toegang in te schakelen
 
-- Business Central Online (SaaS).
+- [!INCLUDE [prod_short](includes/prod_short.md)] online (SaaS).
 
 - Omgevingen moeten platformversie 21.1 of hoger zijn.
 
 ### Vereisten voor individuele gebruikers om toegang te krijgen tot gegevens in Teams
 
-- Gegevens moeten toegankelijk zijn via de Business Central-app voor Teams. Gebruikers moeten de Business Central-app voor Teams hebben geïnstalleerd en moeten een van de ondersteunde Teams-clients gebruiken. Voor een lijst met door Business Central ondersteunde Teams-clients, zie [Minimumvereisten voor het gebruik van Business Central](product-requirements.md#teams).
+- Gegevens moeten toegankelijk zijn via de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Teams. Gebruikers moeten de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Teams hebben geïnstalleerd en moeten een van de ondersteunde Teams-clients gebruiken. Voor een lijst met Teams-clients die worden ondersteund door [!INCLUDE [prod_short](includes/prod_short.md)] raadpleegt u [Minimumvereisten om Business Central te gebruiken](product-requirements.md#teams).
 
-- Gebruikers moeten intern zijn in de organisatie, wat betekent dat een gebruikersidentiteit afkomstig is van dezelfde thuistenant waar Business Central is geïmplementeerd en waar toegang is ingeschakeld. Externe identiteiten worden niet ondersteund. Business Central verhindert automatisch toegang voor gasten.
+- Gebruikers moeten intern zijn in de organisatie, wat betekent dat een gebruikersidentiteit afkomstig is van dezelfde thuistenant waar [!INCLUDE [prod_short](includes/prod_short.md)] is geïmplementeerd en waar toegang is ingeschakeld. Externe identiteiten worden niet ondersteund. [!INCLUDE [prod_short](includes/prod_short.md)] verhindert automatisch toegang voor gasten.
 
 - Gebruikers moeten een Microsoft 365-licentie van een van de volgende abonnementen hebben.
   
@@ -130,7 +130,7 @@ In dit gedeelte worden de minimale vereisten beschreven waaraan uw organisatie m
   > [!NOTE]
   > Kunt u uw abonnement niet vinden in de lijst? Microsoft is voortdurend op zoek naar feedback over hoe we onze service kunnen verbeteren en ons aanbod kunnen uitbreiden, zodat meer klanten van deze mogelijkheid kunnen profiteren. Deel uw idee voor welke abonnementen we in de toekomst moeten gaan ondersteunen op [https://aka.ms/bcIdeas](https://aka.ms/bcIdeas).
 
-- Gebruikers moeten een Microsoft 365-licentie waarbij de Microsoft Teams-app ingeschakeld is in de lijst met apps voor die licentie. 
+- Gebruikers moeten een Microsoft 365-licentie waarbij de Microsoft Teams-app ingeschakeld is in de lijst met apps voor die licentie.
 
   |Ondersteunde apps|Serviceplan-id|
   |-|-|

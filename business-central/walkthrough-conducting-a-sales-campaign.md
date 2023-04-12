@@ -44,7 +44,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 
 ## Scenario
 
- De marketingmanager van de verkoopafdeling van CRONUS is verantwoordelijk voor het plannen en uitvoeren van campagnes. Hij neemt ook beslissingen over de beurzen waaraan het bedrijf deelneemt en hij evalueert de voortgang van de campagne.  
+ De marketingmanager van de verkoopafdeling van CRONUS is verantwoordelijk voor het plannen en uitvoeren van campagnes. De marketingmanager neemt ook beslissingen over aan welke beurzen het bedrijf deelneemt en hij evalueert de voortgang van de campagne.  
 
  De marketingmedewerker van de marketingafdeling verzorgt het produceren, distribueren en plaatsen van het marketingmateriaal.  
 
@@ -96,7 +96,7 @@ De pagina **Segment** bevat nu een lijst met contacten op basis van het ingevoer
 
 ## Gegevens toepassen
 
- De marketingmanager bekijkt de gesegmenteerde lijst met contacten en ziet dat de lijst veel te lang is. Hij besluit de lijst in te korten op basis van echte prospects zodat hij zeker weet hij zich op de juiste doelgroep richt. Het proces van het verfijnen en/of beperken van de gegevens wordt ook 'data mining' genoemd.  
+ De marketingmanager bekijkt de gesegmenteerde lijst met contacten en ziet dat de lijst veel te lang is. De manager besluit de lijst te verkleinen op basis van daadwerkelijke, potentiële klanten om zich op de juiste doelgroep te richten. Het proces van het verfijnen en/of beperken van de gegevens wordt ook 'data mining' genoemd.  
 
 ### Contacten uit het segment verwijderen  
 

@@ -18,11 +18,11 @@ Het is efficiënt om sommige taken gelijktijdig en geautomatiseerd uit te voeren
 
 ## Voer taken op de achtergrond uit voor een specifieke winkel
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer de naam in van **Shopify-winkel** en kies de winkelnaam uit de lijst.
-2. Selecteer de winkel waarvoor u artikelen wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
-3. Schakel de schakelaar **Synchronisatie op achtergrond toestaan** in.
+1. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer de winkel waarvoor u synchronisatie op de achtergrond wilt uitvoeren om de **Shopify-winkelkaart** te openen.
+3. Zet de schakelaar **Synchronisatie op achtergrond toestaan** in.
 
-Wanneer de synchronisatieactie nu wordt geactiveerd, wordt u gevraagd te wachten in plaats van dat er een taak op de voorgrond wordt uitgevoerd. Wanneer het is voltooid, kunt u doorgaan naar de volgende actie. De taak wordt gemaakt als een **Taakwachtrij-item** en start onmiddellijk op een niet-blokkerende manier.
+Wanneer de synchronisatieactie nu wordt geactiveerd, wordt u gevraagd te wachten in plaats van dat er een taak op de voorgrond wordt uitgevoerd. Wanneer het is voltooid, kunt u doorgaan naar de volgende actie. De taak wordt gemaakt als een **Taakwachtrij-item** en start onmiddellijk.
 
 ## Terugkerende taken plannen
 
@@ -41,6 +41,15 @@ U kunt de volgende terugkerende activiteiten plannen om geautomatiseerd te worde
 
 > [!NOTE]
 > Sommige elementen kunnen door verschillende taken worden bijgewerkt, bijvoorbeeld wanneer u orders importeert, afhankelijk van de instelling op de **Shopify-winkelkaart**, kan het systeem ook klant- en/of productgegevens importeren en bijwerken. Vergeet niet om dezelfde taakwachtrijcategorie te gebruiken om conflicten te voorkomen.
+
+Andere taken die nuttig kunnen zijn om de verdere verwerking van verkoopdocumenten te automatiseren:
+
+- rapport 497 Batchboeken inkoopfacturen
+- rapport 496 Batchboeken inkooporders
+
+U kunt het veld **Shopify-ordernr.** gebruiken om verkoopdocumenten te identificeren die zijn geïmporteerd uit Shopify.
+
+Ga voor meer informatie over het boeken van verkooporders in een batch naar [Een taakwachtrijitem maken voor het batchgewijs boeken van verkooporders](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
 ## Zie ook
 

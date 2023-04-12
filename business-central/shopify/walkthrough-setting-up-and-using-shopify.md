@@ -29,7 +29,7 @@ Meer informatie over het maken van Shopify-proefversies en aanbevolen instelling
 
 U hebt een [!INCLUDE[prod_short](../includes/prod_short.md)]-account nodig. 
 
-U kunt bijvoorbeeld een demo-account maken of een proefversie starten. Lees meer op [Demonstraties voorbereiden van [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) en [Aanmelden voor de proefperiode](../trial-signup.md). 
+U kunt bijvoorbeeld een demo-account maken of een proefversie starten. Lees hier meer over [Demonstratieomgevingen voorbereiden van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) en [Aanmelden voor de proefperiode](../trial-signup.md). 
 
 ## Business Central verbinden met de online Shopify-winkel
 
@@ -100,7 +100,7 @@ Kies de knop **Nu kopen** en ga verder met afrekenen.
 5. Kies de knop **Doorgaan naar verzending**.
 6. Houd `Standard` aan als verzendmethode en kies vervolgens de knop **Doorgaan naar betaling** .
 7. Selecteer `10%` fooi.
-8. Voer in het veld **Creditcard** `1` in als u *(voor testen) Bogus Gateway* gebruikt. Als u *Shopify Payments* in de testmodus gebruikt, voert u `5555 5555 5555 4444` in het veld **Creditcard** in.
+8. Voer in het veld **Creditcard** `1` in als u *(voor testen) Bogus Gateway* gebruikt, of voer `5555 5555 5555 4444` in als u *Shopify payments* in de testmodus gebruikt.
 9. Vul het veld **Naam op kaart** in.
 10. Voer in het veld **Vervaldatum** de huidige maand/jaar in.
 11. Voer `111` in het veld **Beveiligingscode** in.
@@ -162,18 +162,20 @@ Bereid gegevens voor.
 2. Voeg een nieuwe prijsgroep toe. Voer `SHOPIFY` in het veld **Code** in.
 3. Sluit het venster **Klantenprijsgroep**.
 4. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies de gerelateerde koppeling.
-5. Selecteer het artikel **1896-S, Athens Desk**.
-6. Kies de actie **Varianten** en voeg vervolgens twee varianten toe, `PREMIUM, Athens Desk, Premium edition` en `ESSENTIAL, Athens Desk, Essential edition`.
-7. Kies **Uitgebreide tekst**, maak een nieuwe uitgebreide tekst die geldig is voor alle taalcodes. Voer in het veld **Beschrijving** `Shopify` in. 
-8. Voeg de volgende beschrijving toe met HTML-tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-9. Kies **Verkoopprijzen** en voeg nieuwe prijzen toe zoals weergegeven in de volgende tabel:
 
-  |Regel|**Verkoopsoort**|**Verkoopscode**|Type|Code|Variantcode<br>(voeg het veld toe via personalisatie)|Eenheidsprijs|
+Selecteer artikel **1896-S, Athens Desk** en voer de volgende stappen uit.
+
+1. Kies de actie **Varianten** en voeg vervolgens twee varianten toe, `PREMIUM, Athens Desk, Premium edition` en `ESSENTIAL, Athens Desk, Essential edition`.
+2. Kies de actie **Uitgebreide tekst** en maak een nieuwe uitgebreide tekst die geldig is voor alle taalcodes. Voer in het veld **Beschrijving** `Shopify` in. 
+3. Voeg de volgende tekst toe met HTML-tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+4. Kies de actie **Verkoopprijzen** en voeg nieuwe prijzen toe zoals weergegeven in de volgende tabel:
+
+  |Lijn|**Verkoopsoort**|**Verkoopscode**|Type|Code|Variantcode<br>(voeg het veld toe via personalisatie)|Eenheidsprijs|
   |------|------------|------------|------------|------------|------------|------------|
   |1|Klantenprijsgroep|SHOPIFY|Artikel|1896-S|ESSENTIAL|700|
   |2|Klantenprijsgroep|SHOPIFY|Artikel|1896-S|PREMIUM|1000|
 
-10. Kies **Verkoopkortingen** en voeg een nieuwe korting toe:
+5. Kies de actie **Verkoopkortingen** en voeg een nieuwe korting toe:
 
 * **Verkoopsoort** *Klantenkortingsgroep*
 * **Verkoopcode** *DET.HANDEL*
@@ -182,18 +184,18 @@ Bereid gegevens voor.
 * **Code van maateenheid** *Per stuk*
 * **Regelkorting %** *10*
 
-11. Kies **Artikelverwijzingen** en voeg de volgende regels toe:
+6. Kies de actie **Artikelverwijzingen** en voeg de volgende regels toe:
 
-  |Regel|**Referentiesoort**|**Referentienr.**|Variantcode|
+  |Lijn|**Referentiesoort**|**Referentienr.**|Variantcode|
   |------|------------|------------|------------|
   |1|Barcode|77777777|ESSENTIAL|
   |2|Barcode|11111111|PREMIUM|
 
-12. Sluit de **artikelkaart**.
-13. Selecteer het artikel **1920-S, ANTWERP Conference Table**.
-14. Kies **Voorraad aanpassen** en voer in het veld **Nieuwe voorraad** `100` in voor de vestigingen *OOST* en *WEST*. 
-1. Klik op **OK**.
-1. Sluit de **artikelkaart**.
+
+Selecteer het artikel **1920-S, ANTWERP Conferentietafel** en voer de volgende stappen uit.
+
+1. Kies **Voorraad aanpassen** en voer in het veld **Nieuwe voorraad** `100` in voor de vestigingen *OOST* en *WEST*. 
+2. Klik op **OK**.
 
 Pas de synchronisatie-instellingen aan.
 

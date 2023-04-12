@@ -1,51 +1,59 @@
 ---
 title: De intercompany-inbox en outbox beheren
-description: 'Intercompany-transacties (IC-transacties) die u ontvangt van uw IC-partners worden weergegeven in de IC-inbox, waar u ze handmatig of automatisch verwerkt.'
-author: SorenGP
+description: 'Intercompany-transacties (IC-transacties) die u ontvangt van uw partners worden weergegeven in de IC-inbox, waar u ze handmatig of automatisch verwerkt.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 02/06/2023
+ms.custom: bap-template
 ms.search.keywords: incoming document
 ms.search.form: '600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611'
-ms.date: 03/09/2022
-ms.author: edupont
 ---
 # De intercompany-inbox en outbox beheren
-Alle IC-transacties die u via elektronische weg ontvangt van uw IC-partners, worden weergegeven in de IC-inbox.  
 
-Afhankelijk van hoe intercompany is ingesteld voor uw bedrijf, worden sommige transacties echter automatisch gerepliceerd naar de relevante intercompany-partners. Vanaf releasewave 1 van 2022 kunt u het bedrijf instellen voor het automatisch maken van ontvangen intercompany-transacties van intercompany-partners, geboekt via het intercompany-dagboek. Zie [Een IC-dagboek invullen en boeken](intercompany-how-work-documents-journals.md#to-fill-in-and-post-an-intercompany-journal) voor meer informatie.  
+De IC-transacties die u via elektronische weg ontvangt van uw IC-partners, worden weergegeven op de pagina **IC-inbox**. Ga naar [Inkomende intercompany-transacties verwerken](#process-incoming-intercompany-transactions) voor meer informatie over het verwerken van inkomende IC-transacties. De IC-transacties die u via elektronische weg naar uw IC-partners verzend, worden weergegeven op de pagina **IC-outbox**. Ga naar [Uitgaande IC-transacties verwerken](#to-process-outgoing-intercompany-transactions) voor meer informatie over het verwerken van uitgaande IC-transacties.
+
+Afhankelijk van uw IC-configuratie worden sommige transacties echter automatisch afgehandeld. U kunt het bronbedrijf en partnerbedrijven zo instellen dat ze automatisch documenten en dagboeken maken die overeenkomen met transacties die partners boeken via het intercompany-dagboek. Ga voor meer informatie over het gebruik van intercompany-dagboeken naar [Een intercompany-dagboek invullen en boeken](intercompany-how-work-documents-journals.md#fill-in-and-post-an-intercompany-journal).  
 
 ## De IC-inbox ordenen  
- Met de filtervelden boven aan de inboxpagina kunt u bepalen welke transacties worden weergegeven op de pagina. Als u bijvoorbeeld alleen transacties wilt weergeven die door een bepaalde partner zijn gemaakt, kunt u filtercriteria invoeren in de filters **Transactiebron** en **IC-partnercode**.  
+
+Met de filtervelden boven aan de inboxpagina kunt u bepalen welke transacties worden weergegeven op de pagina. Als u bijvoorbeeld alleen transacties wilt verkennen die door een bepaalde partner zijn gemaakt, gebruikt u de filters **Transactiebron** en **IC-partnercode**.  
 
 ### Transactiebron  
+
 Wat u met een transactie kunt doen, hangt af van het volgende:  
 
-- Transactie gemaakt door uw IC-partner  
-- Transactie geweigerd door uw IC-partner en aan u geretourneerd  
+* Transactie gemaakt door uw IC-partner  
+* Transactie geweigerd door uw IC-partner en aan u geretourneerd  
 
-Met het veld **Transactiebron weergeven** kunt u de pagina **IC-inboxtransacties** filteren, zodat maar een van deze soorten transacties wordt weergegeven. U kunt ook filteren op IC-partner of op de inhoud van het veld **Regelactie**.  
+Gebruik het veld **Transactiebron weergeven** om de pagina **IC-inboxtransacties** te filteren, zodat maar een van deze soorten transacties wordt weergegeven. U kunt ook filteren op IC-partner of op de inhoud van het veld **Regelactie**.  
 
 #### Transactie gemaakt door IC-partner  
+
  Wanneer u een nieuwe transactie ontvangt die door uw partner is gemaakt, kunt u ervoor kiezen:
 
-- De transactie te accepteren  
-- De transactie te weigeren (en aan de partner te retourneren)  
-- De transactie te annuleren (de transactie verwijderen en niet retourneren aan uw partner)  
+* De transactie te accepteren  
+* De transactie weigeren (en aan de partner te retourneren)  
+* De transactie te annuleren (de transactie verwijderen en niet retourneren aan uw partner)  
 
 #### Geretourneerd door IC-partner  
- Als de transactie is geweigerd door uw IC-partner, hebt u geen andere keuze dan de transactie in de inbox te annuleren. Vervolgens moet u correctieregels maken of het dagboek of document in uw bedrijf tegenboeken.  
+
+Als uw IC-partner een transactie weigert, moet u de transactie in de inbox annuleren en vervolgens een correctieregels maken of het dagboek of document in uw bedrijf tegenboeken.  
 
 ## Inboxitems opnieuw maken  
- Als u een transactie in uw inbox hebt geaccepteerd maar het document of dagboek vervolgens hebt verwijderd in plaats van geboekt, kunt u het inboxitem opnieuw maken en het nogmaals accepteren.  
 
-## Een overzicht weergeven van IC-transacties voor een bepaalde periode  
- U kunt een overzicht weergeven van alle IC-transacties die u in een bepaalde periode hebt verzonden en ontvangen. In de lijst **IC-transacties** worden alle IC-grootboekposten, klantenposten en leveranciersposten weergegeven.
+Als u een transactie in uw inbox hebt geaccepteerd maar het document of dagboek vervolgens hebt verwijderd in plaats van geboekt, kunt u het inboxitem opnieuw maken en het nogmaals accepteren.  
 
- > [!NOTE]  
- > Als de IC-partners in dezelfde database zijn opgenomen, worden de transacties verzonden zonder dat een bestand of e-mail nodig is. Zie het veld **Overdrachttype** op de pagina **IC-partner**. <br /><br />
-In dat geval, kunt u in het systeem instellen om de inbox en de outbox over te slaan, door respectievelijk het selectievakje **Transacties automatisch accepteren** op de pagina **IC-partner** en het selectievakje **Transacties automatisch verzenden** op de pagina **IC-instellingen** in te schakelen. Inkomende intercompany-transacties kunnen alleen automatisch worden geaccepteerd als de taakplanner is ingeschakeld. Zie [Business Central Server configureren - Taakplannerinstellingen](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task) voor meer informatie.
+## Een overzicht van IC-transacties voor een periode krijgen  
+
+U kunt een overzicht weergeven van alle IC-transacties die u in een bepaalde periode hebt verzonden en ontvangen. In de lijst **IC-transacties** worden alle IC-grootboekposten, klantenposten en leveranciersposten weergegeven.
+
+> [!NOTE]  
+> Als de IC-partners zich in dezelfde database bevinden, kunnen de partners automatisch transacties accepteren. Ga vervolgens direct naar de pagina's **Verwerkte IC-inboxtransacties** en **Verwerkte IC-outboxtransacties**. Ga voor meer informatie over automatisch accepteren van transacties naar [Transacties van intercompany-partners automatisch accepteren](intercompany-how-setup.md#auto-accept-transactions-from-intercompany-partners).  
+>
+> * Schakel op de pagina **Intercompany-instelling** de schakelaar **Transacties automatisch verzenden** in voor de synchronisatiepartner.
+> * Schakel op de pagina **IC-partner** de schakelaar **Transacties automatisch accepteren** in voor partnerbedrijven.  
 
 ## IC-transacties importeren uit een bestand
 
@@ -61,41 +69,44 @@ Als u een IC-partner hebt die zich niet in dezelfde database bevindt als uw bedr
 De transacties worden geïmporteerd in de inbox en u kunt ze nu verwerken.
 
 ## Inkomende IC-transacties verwerken  
+
 Wanneer uw IC-partners u IC-transacties toesturen, komen de transacties terecht in uw IC-inbox. U moet elke transactie in uw inbox evalueren en verwerken.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-inboxtransacties** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-inboxtransacties** in en kies de gerelateerde koppeling.  
 2. Selecteer op de pagina **IC-inboxtransacties** een regel en kies een actie om de regel te verwerken, zoals bijvoorbeeld **Goedkeuren**.
 3. Vul op de pagina **Bewerking IC-inbox voltooien** de velden in met de benodigde gegevens. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Kies de knop **OK**.  
+4. Kies de knop **Ok**.  
 
-Bij regels die u verwerkt met de actie **Goedkeuren**, worden document- of dagboekregels aangemaakt in uw bedrijf. Open elk document of dagboek, breng de gewenste wijzigingen aan en boek de regels.  
+Voor regels die u accepteert, worden document- of dagboekregels aangemaakt in uw bedrijf. Open elk document of dagboek, breng de gewenste wijzigingen aan en boek de regels.  
 
-De regels die u verwerkt met de actie **Retour naar partner** worden verplaatst naar de IC-outbox, vanwaar u ze naar uw partner kunt verzenden.
+Regels die u afwijst en terugstuurt naar uw partner gaan naar uw IC-outbox, waar u ze naar uw partner kunt sturen.
 
-Voor regels die u verwerkt met de actie **Retour door partner** moet u nu een correctie boeken op de oorspronkelijke transactie die u boekte in uw bedrijf.
+Voor regels die een partner heeft afgewezen en aan u heeft geretourneerd, moet u een correctie boeken op de oorspronkelijke transactie die u in uw bedrijf hebt geboekt.
 
 ## Uitgaande IC-transacties verwerken  
-Wanneer u een IC-dagboek of -document boekt of een IC-orderbevestiging verzendt, worden de transacties verzonden naar uw IC-outbox. Als u deze wilt doorsturen naar uw IC-partners, moet u de outbox openen en de transacties verwerken.  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-outboxtransacties** in en kies de gerelateerde koppeling.  
+Wanneer u een IC-dagboek of -document boekt of een IC-orderbevestiging verzendt, gaan de transacties naar uw IC-outbox. Om ze naar uw IC-partners te sturen, opent u de outbox en verwerkt u ze.  
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-outboxtransacties** in en kies de gerelateerde koppeling.  
 2. Selecteer op de pagina **IC-outboxtransacties** een regel en kies een actie om de regel te verwerken, zoals bijvoorbeeld **Terug naar inbox**.
 
-Regels die u verwerkt met de actie **Verzenden naar IC-partner** worden verzonden naar de inbox van de betreffende partner.
+Gebruik de actie **Verzenden naar IC-partner** om regels naar de inbox van de betreffende partner te verzenden.
 
-De regels die u verwerkt met de actie **Terug naar inbox** worden naar de inbox verplaatst, waar u ze kunt goedkeuren om documenten of dagboekregels in uw bedrijf te maken.  
+Gebruik de actie **Terug naar inbox** om regels naar uw inbox te verplaatsen, waar u ze vervolgens kunt accepteren om documenten of journaalregels in uw bedrijf te maken.  
 
-Voor regels die u verwerkt met de actie **Annuleren** moet u nu een correctie boeken op de oorspronkelijke transactie die u boekte in uw bedrijf.  
+Als u de actie **Annuleren** gebruikt, moet u een correctie boeken op de oorspronkelijke transactie die u boekte in uw bedrijf.  
 
 ## IC-inboxtransacties opnieuw maken  
-Het kan voorkomen dat u een transactie in de inbox of outbox opnieuw wilt maken. Als u een transactie in uw inbox bijvoorbeeld hebt geaccepteerd maar het document of dagboek vervolgens hebt verwijderd in plaats van geboekt, kunt u de inboxpost opnieuw maken en deze nogmaals accepteren.  
+
+Mogelijk wilt u een transactie opnieuw maken in de inbox of outbox. Als u een transactie in uw inbox bijvoorbeeld hebt geaccepteerd maar het document of dagboek vervolgens hebt verwijderd in plaats van geboekt, kunt u de inboxpost opnieuw maken en deze nogmaals accepteren.  
 
 In de volgende procedure wordt beschreven hoe u inboxtransacties opnieuw kunt maken. De procedure voor de outbox is hetzelfde.
 
-  1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verwerkte IC-inboxtransacties** in en kies de gerelateerde koppeling.  
-
-  2.  Open de pagina **Verwerkte IC-inboxtransacties**, selecteer de regel met de transactie die u opnieuw wilt maken in de inbox en selecteer de actie **Inboxtransacties opnieuw maken**.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verwerkte IC-inboxtransacties** in en kies de gerelateerde koppeling.  
+2. Open de pagina **Verwerkte IC-inboxtransacties**, selecteer de regel met de transactie die u opnieuw wilt maken in de inbox en selecteer de actie **Inboxtransacties opnieuw maken**.  
 
 ## Zie ook
+
 [Intercompany-transacties beheren](intercompany-manage.md)  
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  

@@ -96,7 +96,7 @@ Een productiestuklijst vereist 70 metalen onderdelen met de volgende dimensies: 
 
 [Bewerkingsplannen maken](production-how-to-create-routings.md)  
 [Productvarianten beheren](inventory-item-variants.md)  
-[Procedure: varianten](contoso-coffee/variants.md)  
+[Procedure: varianten](contoso-coffee/manufacturing/variants.md)  
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)  
 [Gepland](production-planning.md)  

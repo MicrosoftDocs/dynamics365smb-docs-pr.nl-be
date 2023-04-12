@@ -3,9 +3,6 @@ title: Rapporten uitvoeren en afdrukken
 description: Leren over het invoeren van een rapport in een verwerkingswachtrij en het plannen om te worden verwerkt op een specifieke datum en tijd.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
 ms.date: 09/09/2022
@@ -136,6 +133,12 @@ Een rapportlay-out bepaalt wat in een rapport wordt weergegeven, hoe het is inge
 - Om de standaardlay-out die door een rapport wordt gebruikt te wijzigen, gaat u naar de pagina **Rapportlay-outs** of **Selectie rapportlay-out**.
 
 Meer informatie op [De lay-out instellen die door een rapport wordt gebruikt](ui-set-report-layout.md). Of zie [Aan de slag met het maken van lay-outs](ui-get-started-layouts.md) als u uw eigen rapportlay-out wilt aanpassen.
+
+## Wijzig de taal en het formaat van getallen, datums en tijden
+
+Standaard zijn de taal van de tekst en de notatie van getallen, datums en tijden in een rapport gebaseerd op uw werktaal- en regio-instellingen, die zijn gedefinieerd op de pagina **Mijn instellingen**. U kunt de taal en de indelingsregio echter van geval tot geval wijzigen wanneer u een voorbeeld bekijkt, afdrukt of een rapport verzendt. Selecteer **Geavanceerd** op de aanvraagpagina en stel vervolgens de opties voor **Taal** en **Notatieregio** naar wens in.
+
+Ga voor meer informatie over de pagina **Mijn instellingen** naar [Basisinstellingen wijzigen](ui-change-basic-settings.md#region).
 
 ## Geavanceerde opties
 

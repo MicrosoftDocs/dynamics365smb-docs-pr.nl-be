@@ -44,7 +44,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
  CRONUS heeft een langdurig project aangenomen dat nu is uitgebreid tot over meerdere rapportageperioden. Tricia, een lid van het projectteam berekent het onderhanden werk (OHW) om ervoor te zorgen dat de financiële rapportage van het bedrijf accuraat is.  
 
- Tijdens deze procedure selecteert Tricia een bepaalde groep taken die wordt opgenomen in de OHW-berekening. Op de pagina **Projecttaakregels** kan ze deze regels opgeven in de kolom **OHW-totaal**.  
+ Tijdens deze procedure selecteert Tricia een bepaalde groep taken die wordt opgenomen in de OHW-berekening. Op de pagina **Projecttaakregels** kan Tricia deze regels opgeven in de kolom **OHW-totaal**.  
 
  De volgende tabel beschrijft de volgende drie opties.  
 
@@ -54,7 +54,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 |**Totaal**|Definieert de reeks of groep taken die zijn opgenomen in de berekening van OHW en verantwoording. Binnen de groep wordt elke projecttaak waarvoor **Taaksoort project** is ingesteld op **Boeken**, opgenomen in het OHW-totaal tenzij het veld **OHW-totaal** is ingesteld op **Uitgesloten**.|  
 |**Uitgesloten**|Geldt alleen voor een taak met **Taaksoortproject** **Boeken**. De taak wordt niet meegenomen wanneer OHW en verantwoording worden berekend.|  
 
- In het volgende scenario past Tricia de methode Kostprijs toe, die door haar bedrijf standaard wordt gebruikt, om het OHW berekenen. Zij geeft aan welk deel van het project wordt meegenomen in de OHW-berekening door OHW-totaalwaarden toe te wijzen aan verschillende projecttaakregels.  
+ In het volgende scenario past Tricia de methode Kostprijs toe op hun bedrijfsstandaard om het OHW berekenen. Tricia geeft aan welk deel van het project wordt meegenomen in de OHW-berekening door OHW-totaalwaarden toe te wijzen aan verschillende projecttaakregels.  
 
 ### OHW berekenen  
 
@@ -110,7 +110,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 ## OHW boeken naar het grootboek
 
- Nadat Tricia het OHW voor dit project heeft berekend, kan ze het naar het grootboek boeken.  
+ Nadat Tricia het OHW voor dit project heeft berekend, kan het naar het grootboek worden geboekt.  
 
 ### OHW naar het grootboek boeken  
 
@@ -134,7 +134,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
 ## Een OHW-boeking tegenboeken
 
- Tricia bepaalt dat de projecttaken die zijn uitgesloten van de berekening van OHW hadden moeten worden berekend in OHW. Gelukkig kan ze de onjuiste boeking terugdraaien zonder dat ze nieuwe OHW-boekingen hoeft te boeken.  
+ Tricia bepaalt dat de projecttaken die zijn uitgesloten van de berekening van OHW hadden moeten worden berekend in OHW. Gelukkig kan Tricia de onjuiste boeking terugdraaien zonder dat ze nieuwe OHW-boekingen hoeft te boeken.  
 
 ### Een OHW-boeking tegenboeken  
 
@@ -153,7 +153,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 13. U kunt teruggaan naar de **Projecttaakregels** voor het project, de vereiste onderdelen van het project in de OHW-berekening opnemen, het OHW opnieuw berekenen en de nieuwe waarde naar het grootboek boeken.  
 
     > [!NOTE]  
-    >  Stel Tricia OHW had berekend en geboekt voor een project met onjuiste datums. Volgens de methode die eerder werd beschreven, kan zij de onjuiste boekingen tegenboeken, de datums corrigeren en de boekingen opnieuw naar het grootboek posten.  
+    >  Stel Tricia OHW had berekend en geboekt voor een project met onjuiste datums. Volgens de methode die eerder werd beschreven, kan Tricia de onjuiste boekingen tegenboeken, de datums corrigeren en de boekingen opnieuw naar het grootboek posten.  
 
 ## Volgende stappen
 

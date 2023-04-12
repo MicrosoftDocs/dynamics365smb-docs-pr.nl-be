@@ -2,13 +2,13 @@
 title: Minimumvereisten om Business Central te gebruiken
 description: Lees de hieronder beschreven minimale systeemvereisten en versievereisten voor het gebruik van Business Central online.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
+ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 08/23/2022
+ms.date: 02/28/2023
+ms.review: jswymer
 ms.author: jswymer
+ms.service: dynamics365-business-central
 ---
 # Minimumvereisten om Business Central te gebruiken
 
@@ -23,7 +23,7 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van Safari onder macOS.  
 
 > [!TIP]
-> Installeer de [!INCLUDE[prod_short](includes/prod_short.md)][-app in het Start-menu](install-desktop-app.md#install-the-app-for-business-central-online) met behulp van de browsers Microsoft Edge of Chrome.
+> Installeer de app [!INCLUDE[prod_short](includes/prod_short.md)] [in het Start-menu](install-desktop-app.md#install-the-app-for-business-central-online) met behulp van de browsers Microsoft Edge of Chrome.
 
 ## Mobiele apparaten
 
@@ -64,7 +64,7 @@ Het beheercentrum is ontworpen om te werken met de huidige versie van de volgend
 
 ## Business Central on-premises gebruiken
 
-Als u Business Central on-premises wilt implementeren, moet u de systeemvereisten controleren. Zie voor meer informatie [Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) en [Implementatieoverzicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Als u Business Central on-premises wilt implementeren, moet u de systeemvereisten controleren. Zie voor meer informatie [Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v22) en [Implementatieoverzicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## Zie ook
 

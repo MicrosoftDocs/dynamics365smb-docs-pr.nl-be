@@ -2,19 +2,17 @@
 title: Business Central en Dataverse synchroniseren
 description: Leer over het synchroniseren van gegevens tussen Business Central en Dataverse.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'sales, crm, integration, sync, synchronize'
-ms.date: 06/14/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
 # Een synchronisatie plannen tussen Business Central en Dataverse
 
-
-U kunt [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] synchroniseren met geplande intervallen door taken in te stellen in de taakwachtrij. De synchronisatietaken synchroniseren gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]-records en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-records die eerder zijn gekoppeld. Of voor records die niet al zijn gekoppeld kunnen de synchronisatietaken, afhankelijk van de synchronisatierichting en -regels, nieuwe records maken en koppelen in het doelsysteem. 
+U kunt [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] synchroniseren met geplande intervallen door taken in te stellen in de taakwachtrij. De synchronisatietaken synchroniseren gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]-records en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-records die zijn gekoppeld. Voor records die niet al zijn gekoppeld kunnen de synchronisatietaken, afhankelijk van de synchronisatierichting en -regels, nieuwe records maken en koppelen in het doelsysteem.
 
 Er zijn verschillende synchronisatietaken die kant-en-klaar beschikbaar zijn. De taken worden uitgevoerd in de volgende volgorde om koppelingsafhankelijkheden tussen tabellen te voorkomen. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
 
@@ -44,12 +42,12 @@ Elke synchronisatietaakwachtrijpost gebruikt een bepaalde integratietabeltoewijz
 
 Om gegevens te synchroniseren moeten [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabelrecords worden gekoppeld aan [!INCLUDE[prod_short](includes/prod_short.md)]-records. Een [!INCLUDE[prod_short](includes/prod_short.md)]-klant moet bijvoorbeeld zijn gekoppeld aan een [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-account. U kunt koppelingen handmatig instellen, voordat u de synchronisatietaken uitvoert, of u kunt de synchronisatietaken de koppelingen automatisch laten instellen. De volgende lijst beschrijft hoe gegevens tussen [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)] worden gesynchroniseerd wanneer u de synchronisatietaakwachtrijposten gebruikt. Zie voor meer informatie [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- Het selectievakje **Alleen gekoppelde records synchr.** bepaalt of nieuwe records worden gemaakt wanneer u synchroniseert. Standaard is het selectievakje ingeschakeld, wat betekent dat alleen gekoppelde records worden gesynchroniseerd. In de toewijzing van de integratietabel kunt u de tabeltoewijzing tussen een [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabel en een [!INCLUDE[prod_short](includes/prod_short.md)]-tabel wijzigen, zodat de integratiesynchronisatietaken nieuwe records in de doeldatabase maken voor elke rij in de brondatabase die niet is gekoppeld. Zie voor meer informatie [Nieuwe records maken](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- Het selectievakje **Alleen gekoppelde records synchr.** bepaalt of nieuwe records worden gemaakt wanneer u synchroniseert. Standaard is het selectievakje ingeschakeld, wat betekent dat alleen gekoppelde records worden gesynchroniseerd. In de toewijzing van de integratietabel kunt u de tabeltoewijzing tussen een [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabel en een [!INCLUDE[prod_short](includes/prod_short.md)]-tabel wijzigen, zodat de integratiesynchronisatietaken nieuwe records in de doeldatabase maken voor elke rij in de brondatabase die niet is gekoppeld. Zie voor meer informatie [Nieuwe records maken](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
     **Voorbeeld** Als u het selectievakje **Alleen gekoppelde records synchr.** uitschakelt wanneer u klanten synchroniseert in [!INCLUDE[prod_short](includes/prod_short.md)] met accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], wordt voor elke klant een nieuw account aangemaakt in [!INCLUDE[prod_short](includes/prod_short.md)] en automatisch gekoppeld. Omdat de synchronisatie in dit geval tweerichting is, wordt bovendien een nieuwe klant gemaakt en gekoppeld voor elk [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-account dat niet al is gekoppeld.  
 
     > [!NOTE]  
-    > Er zijn extra regels en filters waarmee wordt bepaald welke gegevens worden gesynchroniseerd. Zie voor meer informatie [Synchronisatieregels](admin-synchronizing-business-central-and-sales.md).
+    > Er zijn extra regels en filters waarmee wordt bepaald welke gegevens worden gesynchroniseerd. Ga voor meer informatie naar [Synchronisatieregels](admin-synchronizing-business-central-and-sales.md).
 
 - Als nieuwe records worden gemaakt in [!INCLUDE[prod_short](includes/prod_short.md)], gebruiken de records de sjabloon die is gedefinieerd voor de integratietabeltoewijzing of de standaardsjabloon die beschikbaar is voor het rijtype. Velden worden gevuld met gegevens uit [!INCLUDE[prod_short](includes/prod_short.md)] of [!INCLUDE[cds_long_md](includes/cds_long_md.md)], afhankelijk van de synchronisatierichting. Zie voor meer informatie [Tabeltoewijzingen wijzigen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -60,6 +58,7 @@ Om gegevens te synchroniseren moeten [!INCLUDE[cds_long_md](includes/cds_long_md
 - Met tweerichtingssynchronisatie synchroniseert de taak van [!INCLUDE[prod_short](includes/prod_short.md)] naar [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en vervolgens van [!INCLUDE[cds_long_md](includes/cds_long_md.md)] naar [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Over inactiviteittime-outs
+
 Sommige taakwachtrij-items, zoals die waarbij synchronisatie tussen wordt gepland tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)], gebruiken het veld **Time-out inactiviteit** op de pagina Taakwachtrij-item om te voorkomen dat het taakwachtrij-item onnodig wordt uitgevoerd.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Stroomdiagram voor wanneer taakwachtrij-items in de wacht worden gezet vanwege inactiviteit.":::

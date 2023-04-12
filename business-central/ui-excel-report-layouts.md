@@ -86,8 +86,9 @@ Zodra u het Excel-lay-outbestand hebt, is de volgende taak om het toe te voegen 
 3. Stel de **Rapport-id** in op *Rapport*.
 4. Voer een naam in **Lay-outnaam** in.
 5. Stel **Opties voor opmaak** in op **Excel**.
-6. Selecteer **OK** > **Kiezen** om de bestandsverkenner op uw apparaat te openen.
-7. Zoek en selecteer het Excel-bestand en kies vervolgens **Openen**.
+6. Selecteer **OK** en voer vervolgens een van de volgende stappen uit om het lay-outbestand voor het rapport te uploaden:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Het geselecteerde bestand wordt geüpload naar de lay-out en de pagina **Rapportlay-outs** wordt geopend.
 8. Als u wilt zien hoe het rapport eruitziet met de nieuwe lay-out, kiest u de lay-out in de lijst en selecteert u vervolgens **Rapport uitvoeren**.

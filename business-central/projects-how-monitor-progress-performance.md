@@ -1,15 +1,14 @@
 ---
 title: Voortgang en prestaties van projecten bewaken
 description: Beschrijft hoe u een OHW-methode (onderhanden werk) kunt maken en OHW kunt berekenen om de financiële waarde van projecten in te schatten terwijl ze bezig zijn.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
-ms.date: 08/04/2022
-ms.author: edupont
 ---
 # Voortgang en prestaties van projecten bewaken
 
@@ -21,7 +20,7 @@ U kunt het OHW-bedrag berekenen op basis van de volgende zaken:
 
 * Kostenwaarde
 * Verkoopwaarde
-* Kostprijs van omzet
+* Herkenbare kosten
 * Percentage van voltooiing
 * Voltooid contract
 

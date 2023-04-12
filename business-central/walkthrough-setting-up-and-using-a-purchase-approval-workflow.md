@@ -33,9 +33,9 @@ Dit overzicht is een scenario dat de volgende taken illustreert:
 
 ## Scenario
 
-Sean een supergebruiker bij CRONUS. Hij maakt twee goedkeuringsgebruikers. De ene is Alicia, die een inkoopagent vertegenwoordigt. De andere is hijzelf, die de fiatteur van Alicia vertegenwoordigt. Sean kent vervolgens zichzelf onbeperkte rechten voor inkoopgoedkeuring toe en geeft op dat hij berichten ontvangt via interne notities zodra een relevante gebeurtenis plaatsvindt. Tot slot maakt Sean de vereiste goedkeuringswerkstroom als kopie van de bestaande werkstroomsjabloon *Goedkeuringswerkstroom inkooporder*, laat alle bestaande gebeurtenisvoorwaarden en reactieopties ongewijzigd en schakelt vervolgens de werkstroom in.  
+Sean is een supergebruiker bij CRONUS en maakt twee goedkeuringsgebruikers aan. De ene is Alicia, die een inkoopagent vertegenwoordigt. De andere is Sean zelf, die de fiatteur van Alicia vertegenwoordigt. Sean kent vervolgens zichzelf onbeperkte rechten voor inkoopgoedkeuring toe en geeft op dat hij berichten ontvangt via interne notities zodra een relevante gebeurtenis plaatsvindt. Tot slot maakt Sean de vereiste goedkeuringswerkstroom als kopie van de bestaande werkstroomsjabloon *Goedkeuringswerkstroom inkooporder*, laat alle bestaande gebeurtenisvoorwaarden en reactieopties ongewijzigd en schakelt vervolgens de werkstroom in.  
 
-Om de goedkeuringswerkstroom te testen meldt Sean zich eerst bij [!INCLUDE[prod_short](includes/prod_short.md)] aan als Alicia en vraagt hij vervolgens om goedkeuring van een inkooporder. Dan meldt Sean zich aan als zichzelf, ziet de notitie in zijn Rolcentrum, volgt de koppeling naar de goedkeuringsaanvraag voor de inkooporder en keurt de aanvraag goed.  
+Om de goedkeuringswerkstroom te testen meldt Sean zich eerst bij [!INCLUDE[prod_short](includes/prod_short.md)] aan als Alicia en vraagt hij vervolgens om goedkeuring van een inkooporder. Dan meldt Sean zich aan als zichzelf, ziet de notitie in het Rolcentrum, volgt de koppeling naar de goedkeuringsaanvraag voor de inkooporder en keurt de aanvraag goed.  
 
 ## Gebruikers
 

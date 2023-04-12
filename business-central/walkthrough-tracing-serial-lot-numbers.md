@@ -53,7 +53,7 @@ Ricardo, de kwaliteitscontroleur, is bezig met het teruggegeven artikel 1002, ee
 - Welke partij raceframes vertoont gebreken?  
 - Op welke inkooporder is de defecte partij ontvangen?  
 
-Van de verkoopafdeling weet de kwaliteitscontroleur dat de teruggegeven racefiets, artikel 1002, het serienummer SN1 heeft. Met deze basisinformatie moet hij bepalen waar de voltooide racefiets voor het laatst is gebruikt en dan moet hij deze traceren naar het eerste begin om vast te stellen van welk partijnummer het defecte onderdeel, het frame, afkomstig is.  
+Van de verkoopafdeling weet de kwaliteitscontroleur dat de teruggegeven racefiets, artikel 1002, het serienummer SN1 heeft. Met deze basisinformatie moet ze bepalen waar de voltooide racefiets voor het laatst is gebruikt en dan moeten ze deze traceren naar het eerste begin om vast te stellen van welk partijnummer het defecte onderdeel, het frame, afkomstig is.  
 
 Met de resultaten van deze eerste artikeltraceringstaak wordt vastgesteld welke raceframes defect waren en welke leverancier ze heeft geleverd. Daarna, maar binnen hetzelfde algemene traceringsproces, moet de kwaliteitscontroleur alle verkochte racefietsen opzoeken met raceframes uit de defecte partij, zodat deze orders kunnen worden stopgezet of teruggehaald. Ten slotte moet de kwaliteitscontroleur eventuele open documenten opzoeken waarin de defecte partij wordt gebruikt, zodat er geen verdere transacties worden verricht.  
 
@@ -225,7 +225,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
 ## Traceren van gebruik naar oorsprong
 
- Van de verkoopafdeling weet de kwaliteitscontroleur dat de teruggegeven racefiets, artikel 1002, het serienummer SN1 heeft. Met deze basisinformatie kan hij bepalen waar de voltooide racefiets voor het laatst is gebruikt, in dit geval bij de verkoopverzending aan Selangorian Ltd. Vervolgens moet de kwaliteitscontroleur deze traceren naar het eerste begin om vast te stellen van welk partijnummer het defecte frame afkomstig is en welke leverancier deze heeft geleverd.  
+ Van de verkoopafdeling weet de kwaliteitscontroleur dat de teruggegeven racefiets, artikel 1002, het serienummer SN1 heeft. Met deze basisinformatie kunnen ze bepalen waar de voltooide racefiets voor het laatst is gebruikt, in dit geval bij de verkoopverzending aan Selangorian Ltd. Vervolgens moet de kwaliteitscontroleur deze traceren naar het eerste begin om vast te stellen van welk partijnummer het defecte frame afkomstig is en welke leverancier deze heeft geleverd.  
 
 ### Vaststellen uit welke partij het defecte frame afkomstig is en wie deze heeft geleverd
 
@@ -247,7 +247,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
     - Het volgende geboekte document terug in de keten is de verbruiksboeking van de eerste vrijgegeven productieorder. Hier ziet de kwaliteitscontroleur dat er een raceframe van LOT1 is gebruikt.  
     - Het laagste geboekte document in deze keten is de geboekte inkoopontvangst waarop raceframes met LOT1 in de voorraad zijn gekomen.  
 
-    De kwaliteitscontroleur heeft nu vastgesteld welke partij raceframes defect was en hij kan zoeken op de laatste traceringsregel om te zien welke leverancier deze heeft geleverd, namelijk Custom Metals Incorporated.  
+    De kwaliteitscontroleur heeft nu vastgesteld welke partij raceframes defect was en ze kunnen zoeken op de laatste traceringsregel om te zien welke leverancier deze heeft geleverd, namelijk Custom Metals Incorporated.  
 
     > [!NOTE]  
     >  Breng geen verdere wijzigingen aan in het traceringsresultaat, want dit gaat u gebruiken in het volgende gedeelte.  
@@ -256,7 +256,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
 ## Traceren van oorsprong naar gebruik
 
- De kwaliteitscontroleur heeft vastgesteld dat de defecte raceframes afkomstig waren uit LOT1. Hij moet nu achterhalen welke andere racefietsen eventueel een raceframe uit de defecte partij hebben, zodat deze fietsen kunnen worden stopgezet of teruggehaald.  
+ De kwaliteitscontroleur heeft vastgesteld dat de defecte raceframes afkomstig waren uit LOT1. Ze moeten nu achterhalen welke andere racefietsen eventueel een raceframe uit de defecte partij hebben, zodat deze fietsen kunnen worden stopgezet of teruggehaald.  
 
  Een manier om deze traceringstaak voor te bereiden op de pagina **Artikeltracering** is om handmatig LOT1 in te voeren in het veld **Lotnr.-filter** en 2000 in het veld **Artikelfilter**. In dit overzicht wordt echter gebruikgemaakt van de functie **Tegengesteld traceren - Van regel**.  
 
@@ -274,13 +274,13 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
     De kwaliteitscontroleur licht direct de verkoopafdeling in, zodat ze kunnen beginnen met het terughalen van de defecte racefiets bij de klant, Cannon Group PLC.  
 
-    Tegelijkertijd kan hij aan de laatste drie traceringsregels zien dat er nog twee artikelen, SN3 en SN4, zijn geproduceerd op basis van raceframes uit LOT1. Hij onderneemt actie om deze eindartikelen in de voorraad te blokkeren.  
+    Tegelijkertijd kunnen ze aan de laatste drie traceringsregels zien dat er nog twee artikelen, SN3 en SN4, zijn geproduceerd op basis van raceframes uit LOT1. Ze ondernemen actie om deze eindartikelen in de voorraad te blokkeren.  
 
     Hiermee is de tweede taak voor defectenbeheer met de pagina **Artikeltracering** voltooid. Aangezien de pagina **Artikeltracering** uitsluitend is gebaseerd op geboekte posten, moet de kwaliteitscontroleur naar de pagina **Posten zoeken** gaan om te controleren of LOT1 niet is gebruikt in niet-geboekte documenten.  
 
 ## Alle records van een serie/lotnummer zoeken
 
- Op de pagina **Artikeltracering** heeft de kwaliteitscontroleur gezien dat LOT1 de defecte raceframes bevatte, van welke leverancier ze afkomstig zijn en in welke geboekte transactie ze zijn gebruikt. Hij of zij moet nu bepalen of LOT1 in open documenten voorkomt door te integreren vanuit het traceringsresultaat naar de pagina **Posten zoeken**, waar hij of zij een zoekactie op alle databaserecords kan uitvoeren.  
+ Op de pagina **Artikeltracering** heeft de kwaliteitscontroleur gezien dat LOT1 de defecte raceframes bevatte, van welke leverancier ze afkomstig zijn en in welke geboekte transactie ze zijn gebruikt. Ze moeten nu bepalen of LOT1 in open documenten voorkomt door te integreren vanuit het traceringsresultaat naar de pagina **Posten zoeken**, waar ze een zoekactie op alle databaserecords kunnen uitvoeren.  
 
 ### Alle gevallen van LOT1 in niet-geboekte records zoeken zoals open orders  
 
@@ -293,7 +293,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
 3.  Als u de verkoopregelrecord wilt openen, selecteert u de tweede Posten zoeken-regel en kiest u de actie **Weergeven**. U kunt ook klikken op het getal in het veld **Aantal records**.  
 
-    Hier ziet de kwaliteitscontroleur één open verkoopregel voor de defecte raceframes. Hij stelt onmiddellijk aan de verkoopafdeling voor dat ze deze order annuleren en een nieuwe productieorder starten op basis van goede raceframes.  
+    Hier ziet de kwaliteitscontroleur één open verkoopregel voor de defecte raceframes. Ze stellen onmiddellijk aan de verkoopafdeling voor dat ze deze order annuleren en een nieuwe productieorder starten op basis van goede raceframes.  
 
  Hiermee is het overzicht van het gebruik van de pagina **Posten zoeken** voor defectenbeheer in integratie met de pagina **Artikeltracering** voltooid.  
 

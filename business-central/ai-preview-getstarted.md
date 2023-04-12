@@ -1,5 +1,5 @@
 ---
-title: Toegang krijgen tot Business Central Preview - Copilot-editie
+title: Aan de slag met een preview-versie van Business Central voor Copilot
 description: Legt uit hoe u een Business Central-omgeving krijgt met de nieuwe AI-mogelijkheid voor het genereren van tekstsuggesties voor artikel/product-beschrijvingen.
 author: jswymer
 ms.author: jswymer
@@ -9,38 +9,35 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Aan de slag met een preview-versie van Business Central - Copilot-editie
+# Aan de slag met een preview-versie van Business Central voor Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-U kunt met Copilot door AI aangestuurde artikelmarketingtekst uitproberen, of u nu een bestaande Business Central-klant bent of een potentiële klant, dat wil zeggen iemand die alleen geïnteresseerd is in het verkennen van Business Central en het uitproberen van de nieuwe mogelijkheid. Om aan de slag te gaan moet u toegang krijgen tot een preview-versie van Business Central die de nieuwe mogelijkheid ondersteunt. Vul hieronder het gedeelte in dat voor u van toepassing is.
+U kunt met Copilot door AI aangestuurde artikelmarketingtekst uitproberen, of u nu een bestaande Business Central-klant bent of een potentiële klant, dat wil zeggen iemand die alleen geïnteresseerd is in het verkennen van Business Central en het uitproberen van de nieuwe mogelijkheid. Om aan de slag te gaan, hebt u toegang nodig tot een online versie van Business Central Online die de nieuwe mogelijkheid ondersteunt. Vul hieronder het gedeelte in dat voor u van toepassing is.
 
 ## Uw organisatie maakt al gebruik van Business Central
 
-Als bestaande klant of partner hebt u een beheerder nodig met toegang tot het Business Central-beheercentrum om een *sandbox*-omgeving in te stellen waarop de preview-versie met Copilot wordt uitgevoerd. Zodra de sandbox-omgeving actief is, kunnen gebruikers de nieuwe functie uitproberen.
+Als bestaande klant of partner hebt u een beheerder nodig met toegang tot het Business Central-beheercentrum om een sandbox-omgeving in te stellen waarop de preview-versie met Copilot wordt uitgevoerd. Zodra de omgeving actief is, kunnen gebruikers de nieuwe functie uitproberen.
 
 Als u een omgevingsbeheerder bent, voert u de volgende stappen uit:
 
 1. Meld u aan bij het beheercentrum van Business Central.
 2. Selecteer **Omgevingen** > **Nieuw**.
 3. Geef in het deelvenster **Omgeving maken** een naam op voor de nieuwe omgeving in het veld **Omgevingsnaam**.
-4. Stel **Omgevingstype** in op **Sandbox**.
-5. Stel **Land** in op **VS**.
+4. Stel **Omgevingstype** in op **Sandbox** of **Productie**.
+5. Stel **Land** in op een land/regio in de lijst, maar houd er rekening mee dat in het voorbeeld de door AI gegenereerde marketingtekst van Copilot alleen in het Engels is.
+6. Kies in het vak **Versie** de versie 22 of een hogere versie uit de lijst.
 
+   <!--
    > [!IMPORTANT]
-   > De preview is alleen beschikbaar voor de VS. Organisaties in elk ander land of elke andere regio kunnen nog steeds een Amerikaanse sandbox-preview maken om Copilot te ervaren.
-
-6. Kies in het vak **Versie** een versie **22.0.54157.54311 (Preview - Copilot-editie)**.
-
-   > [!IMPORTANT]
-   > U moet **22.0.54157.54311 (Preview - Copilot-editie)** gebruiken om Copilot te ervaren.
-
+   > You must use **22.0.54157.54311 (Preview - Copilot edition)** to experience Copilot.
+   -->
 7. Selecteer **Maken**.  
 
 Ga voor meer informatie over het maken van sandbox-omgevingen naar [Een omgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 > [!IMPORTANT]
-> De preview-sandboxen zijn slechts beschikbaar tot 1 mei 2023. Na deze datum moet u een nieuwe omgeving inrichten of een van uw andere omgevingen upgraden naar versie 22.0 of hoger om de preview van door AI aangedreven artikelmarketingtekst te blijven proberen.
+> Als u preview-sandboxen hebt die draaien op **22.0.54157.54311 (Preview - Copilot-editie)**, houd er dan rekening mee dat deze omgevingen slechts beschikbaar zijn tot 1 mei 2023. Na deze datum moet u een nieuwe omgeving inrichten of een van uw andere omgevingen upgraden naar versie 22.0 of hoger om de preview van door AI aangedreven artikelmarketingtekst te blijven proberen.
 
 ## Uw organisatie maakt geen gebruik van Business Central
 
@@ -49,13 +46,12 @@ Als u geen Business Central-klant bent, meld u dan aan voor een gratis proefvers
 1. Ga naar [deze proefsite](https://go.microsoft.com/fwlink/?linkid=2227167) om aan de slag te gaan met het aanmeldingsproces.
 2. Volg de instructies op het scherm.
 
-   U wordt gevraagd om informatie zoals uw e-mailadres, naam en telefoonnummer te verstrekken. De exacte ervaring kan variëren, afhankelijk van de informatie die u verstrekt. Maar hier zijn een paar belangrijke punten waar u op moet letten bij het doorlopen van het aanmeldingsproces:
-
-   - Gebruik voor uw e-mailadres uw werk- of schoole-mailadres. We stellen uw proefperiode in voor het account van uw organisatie. U kunt geen e-mailadressen gebruiken die worden verstrekt door e-maildiensten voor consumenten of telecommunicatieproviders, zoals outlook.com, hotmail.com, gmail.com en anderen.
-   - Wanneer u bij de optie voor **Land of regio** komt, stelt u **Verenigde Staten** in.
+   U wordt gevraagd om informatie zoals uw e-mailadres, naam en telefoonnummer te verstrekken. De exacte ervaring kan variëren, afhankelijk van de informatie die u verstrekt. <!--But here are a couple important points to be aware of as you run through the sign-up process:--> Gebruik voor uw e-mailadres uw werk- of schoole-mailadres. We stellen uw proefperiode in voor het account van uw organisatie. U kunt geen e-mailadressen gebruiken die worden verstrekt door e-maildiensten voor consumenten of telecommunicatieproviders, zoals outlook.com, hotmail.com, gmail.com en anderen.
+   
+   <!-- When you get to the option for **Country or region** be sure to set this **United States**.
 
       > [!IMPORTANT]
-      > U moet **Land of regio** instellen op **Verenigde Staten**; anders is de door AI aangestuurde artikelmarketingtekst met Copilot niet beschikbaar in Business Central.  
+      > You must set **Country or region** to **United States**; otherwise the AI-powered item marketing text with Copilot won't be available in Business Central.  -->
 3. Wanneer u bij de stap **Bevestigingsdetails** komt, bent u klaar om de proefperiode te starten.
 
    - Selecteer **Overslaan en naar Dynamics 365 Business Central** gaan > **Aan de slag**.

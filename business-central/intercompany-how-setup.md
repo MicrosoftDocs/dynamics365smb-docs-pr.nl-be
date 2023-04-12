@@ -1,172 +1,254 @@
 ---
 title: IC-transactieboeking instellen
-description: Maak uw IC-leveranciers en -klanten als zogenaamde IC-partners en stel een IC-rekeningschema in.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+description: Leer hoe u een IC-partnerschap instelt.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 01/31/2023
+ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621'
-ms.date: 03/09/2022
-ms.author: edupont
 ---
-# IC-transactieboeking instellen
+# IC-transacties beheren
 
-Intercompany-boekingen maken de boekhouding voor twee of meer bedrijven tot een eenvoudigere taak voor een gecentraliseerde financiële afdeling en voor boekhouders in intercompany-partnerbedrijven. Als u een transactie (zoals een verkoopdagboekregel) wilt verzenden vanaf een bedrijf en de bijbehorende transactie (zoals een inkoopdagboekregel) automatisch wilt maken in het partnerbedrijf, moeten de betrokken bedrijven afspreken welk rekeningschema en welke set dimensies ze willen gebruiken met IC-transacties. Het IC-rekeningschema kan bijvoorbeeld een vereenvoudigde versie van het rekeningschema van het moederbedrijf zijn. Elk bedrijf koppelt het volledige rekeningschema aan het gedeelde IC-rekeningschema, en elk bedrijf koppelt de dimensies aan de IC-dimensies.  
+IC-partnerschappen maken het gemakkelijker om boekhoudprocessen af te handelen wanneer twee of meer dochterondernemingen van een bedrijf regelmatig zaken met elkaar doen. Partners kunnen transacties, zoals verkopen en inkopen, uitwisselen en handmatig of automatisch afhandelen. Wanneer een partner bijvoorbeeld een verkoopdagboekregel naar een andere partner stuurt, wordt er een inkoopdagboekregel gemaakt voor de ontvangende partner.
 
-U moet ook een IC-partnercode instellen voor elk [!INCLUDE [prod_short](includes/prod_short.md)]-bedrijf, waarover alle bedrijven het eens zijn, en die vervolgens toewijzen aan respectievelijk klant- en leverancierskaarten door het veld IC-partnercode in te vullen.  
-
-Als u IC-regels maakt of ontvangt bij artikelen, kunt u uw eigen artikelnummer gebruiken of kunt u de artikelnummers van uw partner instellen voor elk gewenst artikel. Dit kunt u doen in het veld **Artikelnr. leverancier** of in het veld **Gemeenschappelijk artikelnr.** op de artikelkaart. U kunt ook de functie **Artikelverwijzing** gebruiken. Als u de nummers van uw artikelen aan uw omschrijvingen van de leveranciersartikelen wilt toewijzen, opent u de kaart en kiest u vervolgens de actie **Artikelverwijzingen** om verwijzingen tussen uw artikelomschrijvingen en die van de IC-partner in te stellen. Zie voor meer informatie [Artikelverwijzingen gebruiken](inventory-how-use-item-cross-refs.md).
-
-Als u IC-verkooptransacties uitvoert waarin resources zijn opgenomen, moet u het veld **IC-partner Ink. Grootb.rek.nr.** invullen op de resourcekaart van elke gewenste resource. Dit is het nummer van de IC-grootboekrekening waarnaar het bedrag voor deze resource wordt geboekt in het partnerbedrijf. Zie [Resources instellen](projects-how-setup-resources.md) voor meer informatie.
+Het IC-rekeningschema kan bijvoorbeeld een versie van het rekeningschema van de synchronisatiepartner zijn. Elke partner wijst hun rekeningen toe aan het IC-rekeningschema. Elke partner wijst ook zijn dimensies en dimensiewaarden toe aan de IC-dimensies.
 
 > [!NOTE]
-> Intercompany-inkooptransacties die resources, vaste activa en artikeltoeslagen omvatten, worden niet volledig ondersteund. In het bedrijf van uw intercompany-partner is het veld **Regelsoort** leeg op inkoopdocumentregels die deze entiteiten bevatten. U moet het veld handmatig bijwerken.
+> In releasewave 1 van 2023 hebben we een verbeterde pagina **Intercompany-instelling** geïntroduceerd. De nieuwe pagina maakt het gemakkelijker om een IC-partnerschap in te stellen door alle instellingstaken op één pagina te consolideren. Als u een nieuwe gebruiker van [!INCLUDE [prod_short](includes/prod_short.md)] bent, gebruikt u de nieuwe ervaring al. Als u een bestaande klant bent, kan uw beheerder de functieschakelaar **Automatisch IC-dagboektransacties accepteren** inschakelen op de pagina **Functiebeheer**.
+>
+> Bij de taken in dit artikel wordt ervan uitgegaan dat de functieschakelaar is ingeschakeld. Als u al een IC-partnerschap hebt ingesteld, kunt u dit blijven gebruiken.
 
-## Transacties van intercompany-partners automatisch accepteren
+## Voordat u begint
 
-2022 release wave 1 introduceerde een nieuwe pagina **Intercompany-instelling** waarmee u transacties van uw intercompany-partners sneller kunt verwerken. Op de pagina kunt u opgeven of dit bedrijf automatisch journaalregels maakt op basis van de berichten van een intercompany-partner uit de pagina **IC-diversendagboek**. De journaalregels worden voor u gemaakt, maar niet geboekt. U kunt de volgende velden op de nieuwe pagina Intercompany-instelling gebruiken om op te geven waar u ontvangen intercompany-journaaltransacties wilt maken:
+Voordat u begint met het instellen van uw IC-partnerschap, moet u een aantal beslissingen nemen.
 
-* **Standaard-IC-dagboeksjabloon**
-* **Standaard-IC-dagboekbatch**
+|Beslissing  |Omschrijving  |
+|---------|---------|
+|Welk rekeningschema moet de basis zijn voor het IC-rekeningschema?     | Alle bedrijven in het partnerschap moeten hetzelfde IC-rekeningschema gebruiken. U kunt uw IC-rekeningschema baseren op het rekeningschema van een van de bedrijven in het partnerschap of een nieuw IC-rekeningschema maken. U wijst de rekeningen die u in het partnerschap wilt gebruiken in beide richtingen toe, zodat elke partner transacties op de juiste rekeningen verzendt en ontvangt. Meer informatie over het instellen van het IC-rekeningschema vindt u op [Het IC-rekeningschema instellen](#set-up-the-intercompany-charts-of-accounts).         |
+|Welke dimensies moeten de basis vormen voor de IC-dimensies?     | Als u IC-dimensies gebruikt, moeten deze voor alle bedrijven in het partnerschap hetzelfde zijn. Nadat u uw IC-dimensies hebt opgegeven, wijst u hun dimensiewaarden toe. Ga voor meer informatie over het toewijzen van dimensiewaarden naar [IC-dimensies instellen](#set-up-intercompany-dimensions).        |
+|Welke partners zijn klanten of leveranciers, of beide?     |  Meer informatie over het instellen van klanten en leveranciersbedrijven in een IC-partnerschap vindt u op [IC-partners instellen als klanten en leveranciers](#set-up-intercompany-partners-as-customers-and-vendors).       |
+|Wilt u bankrekeningen opgeven om te gebruiken in het partnerschap?| U kunt het proces van het registreren van betalingstransacties versnellen door de bankrekening op te geven die voor elk partnerbedrijf moet worden gebruikt. Ga voor meer informatie naar [De bankrekeningen opgeven die moeten worden gebruikt voor IC-partners](#specify-the-bank-accounts-to-use-for-intercompany-partners). |
+|Hoe wilt u de bedrijven in het partnerschap identificeren?     | Alle partijen moeten het eens worden over een unieke IC-partneridentificatiecode voor elk bedrijf. U wijst de code toe aan klanten- en leverancierskaarten om gerelateerde transacties te identificeren. Ga voor meer informatie over identifiers naar [Nummerreeksen maken](ui-create-number-series.md).        |
+|Hoe wilt u artikelnummers verwerken?     | Als IC-regels artikelen bevatten, kunt u uw eigen artikelnummer gebruiken of kunt u de artikelnummers van uw partner instellen voor elk gewenst artikel. Dit kunt u doen in het veld **Artikelnr. leverancier** of in het veld **Gemeenschappelijk artikelnr.** op de artikelkaart. U kunt ook de actie **Artikelreferentie** gebruiken om de nummers van uw artikelen toe te wijzen aan de omschrijvingen van de artikelen van uw IC-partners. Ga voor meer informatie over artikelreferenties naar [Artikelreferenties gebruiken](inventory-how-use-item-cross-refs.md).        |
+|Zijn er resources bij betrokken?     | Als IC-verkooptransacties resources zullen bevatten, moet u het veld **IC-partner Ink. Grootb.rek.nr.** invullen op de resourcekaart van elke resource. Het veld bevat het nummer van de IC-grootboekrekening waarnaar het bedrag voor deze resource wordt geboekt in het partnerbedrijf. Ga voor meer informatie over resources naar [Resources instellen](projects-how-setup-resources.md).<br><br>**OPMERKING**<br>Intercompany-inkooptransacties die resources, vaste activa en artikeltoeslagen omvatten, worden niet volledig ondersteund. In het partnerbedrijf is het veld **Regelsoort** leeg op inkoopdocumentregels die deze entiteiten bevatten. U moet het veld handmatig bijwerken.        |
+
+## Overzicht van de stappen om aan de slag te gaan
+
+Gebruik de pagina **Intercompany-instelling** om de volgende componenten van IC-transacties in te stellen:
+
+* De IC-instellingen van uw bedrijf.
+* Het bedrijf dat de synchronisatiepartner wordt.
+* Het IC-rekeningschema dat alle partners gebruiken om transacties uit te wisselen.
+* De toewijzingen tussen rekeningen in het rekeningschema en het IC-rekeningschema voor inkomende en uitgaande transacties voor elke partner.
+* De te gebruiken IC-dimensies en dimensiewaarden en hoe ze worden toegewezen aan dimensies voor elke partner.
+* De bedrijven die de IC-partners zijn.
+* De bedrijven die leverancier of klant zijn, of beide.
+
+## Een synchronisatiepartner instellen
+
+Alle partners moeten hetzelfde IC-rekeningschema gebruiken en, indien nodig, dezelfde IC-dimensies. U kunt tijd besparen bij het instellen van het partnerschap door het rekeningschema en de dimensies van een van de partners te gebruiken als basis voor het IC-rekeningschema en de dimensies. Het bedrijf dat u als basis gebruikt, wordt de *synchronisatiepartner* genoemd. Meestal is de synchronisatiepartner het hoofdkantoor, maar dat hoeft niet zo te zijn.
+
+Op de pagina **Intercompany-instelling** specificeert elke partner de synchronisatiepartner in het veld **Synchronisatiepartner**. Daarna worden het IC-rekeningschema en de IC-dimensies automatisch voor hen opgegeven, op basis van de instellingen voor de synchronisatiepartner. De partners gebruiken vervolgens de pagina's **Toewijzing intercompany-rekeningschema** en **IC-dimensietoewijzing** om hun rekeningschema en dimensies toe te wijzen aan het IC-rekeningschema en de IC-dimensies, en andersom. 
+
+Wanneer u klaar bent om gegevens te synchroniseren met uw synchronisatiepartner, kiest u de actie **Synchronisatie instellen**.
+
+> [!NOTE]
+> Het is belangrijk om rekeningen en dimensies in beide richtingen toe te wijzen. Dat wil zeggen aan het IC-rekeningschema en de IC-dimensies, en van daaruit ook aan uw rekeningen en dimensies.
+
+## Het IC-rekeningschema instellen
+
+Alle partners moeten hetzelfde IC-rekeningschema gebruiken en de rekeningen in hun eigen rekeningschema hieraan toewijzen. Als het rekeningschema voor uw bedrijf het IC-rekeningschema voor uw partnerbedrijven definieert, volgt u de stappen in deze sectie.
+
+Als u een XML-bestand gebruikt dat het IC-rekeningschema bevat, volgt u de stappen in [Een IC-rekeningschema importeren of exporteren](intercompany-how-setup.md#import-or-export-an-intercompany-chart-of-accounts).  
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), pictogram, voer **Intercompany-instelling** in en kies vervolgens de gerelateerde koppeling.
+2. Kies de actie **IC-rekeningschema**.
+3. Om accounts toe te voegen voert u een van de volgende handelingen uit op de pagina **IC-rekeningschema**:
+    * Kies **Nieuw** en voer vervolgens elke rekening in op een regel op de pagina.  
+    * Als uw IC-rekeningschema identiek is aan uw normale rekeningschema of erop lijkt, kunt u de pagina automatisch invullen door de actie **Kopiëren uit rekeningschema** te kiezen. U kunt de nieuwe regels zo nodig bewerken.
+    * Als u een IC-rekeningschema hebt ingesteld voor een synchronisatiepartner, gebruikt u de actie **Synchronisatie instellen** om die accounts te kopiëren.
+
+    > [!TIP]
+    > Als u het IC-rekeningschema van een synchronisatiepartner kopieert, kunt u de actie **Synchronisatie instellen** gebruiken om uw IC-rekeningen bij te werken met eventuele wijzigingen die de partner in hun rekeningschema aanbrengt.
+
+De volgende stap is uw rekeningschema toe te wijzen aan het IC-rekeningschema. Leer meer op [Het IC-rekeningstelsel koppelen aan het rekeningstelsel van uw bedrijf](#map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts).
+
+### Het IC-rekeningschema importeren of exporteren
+
+Het synchronisatiebedrijf kan zijn rekeningschema delen met partners door het naar een bestand te exporteren. Partners kunnen het bestand importeren om het rekeningschema te krijgen.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), pictogram, voer **Intercompany-instelling** in en kies vervolgens de gerelateerde koppeling.
+2. Kies de actie **IC-rekeningschema**.
+3. Kies op de pagina **IC-rekeningschema** de actie **Importeren/exporteren** en kies **Importeren** of **Exporteren**.
+4. Kies het bestand dat u wilt importeren of exporteren.  
+
+De pagina **IC-rekeningschema** wordt gevuld met nieuwe of bewerkte grootboekrekeningregels volgens het IC-rekeningschema in het bestand. Bestaande niet-gerelateerde regels op de pagina blijven ongewijzigd.
+
+## Het IC-rekeningschema toewijzen aan het rekeningschema van uw bedrijf  
+
+Wanneer u het IC-rekeningschema hebt gedefinieerd of geïmporteerd, wijst u elke IC-rekening toe aan een van uw rekeningen. Geef op de pagina **IC-rekeningschema** op hoe IC-grootboekrekeningen van inkomende transacties worden toegewezen aan grootboekrekeningen uit het rekeningschema van uw bedrijf.
+
+Als de IC-rekeningen en uw rekeningen dezelfde nummers hebben, kunt u de rekeningen automatisch toewijzen.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") pictogram, voer **Intercompany-instelling** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies de actie **IC-rekeningschema**.
+
+    > [!TIP]
+    > Om toegang te krijgen tot de acties op de pagina moet u de pagina mogelijk uitvouwen naar de brede lay-outweergave.
+
+3. Kies op de pagina **IC-rekeningschema** de actie **Toewijzing van rekeningschema**.
+4. U kunt de rekeningen automatisch of handmatig toewijzen.
+
+    * Om de toewijzing handmatig te maken in de deelvensters **IC-rekeningschema** en **Grootboekrekeningschema**, kiest u een rekening en kiest u vervolgens een rekening in de **Grootboekrekeningnr.** en **IC-nummer** velden.
+    * Om rekeningen met dezelfde nummers automatisch toe te wijzen selecteert u de regels die u wilt toewijzen, kiest u de actie **Koppelen aan schema met hetzelfde nr.** en kiest u vervolgens het rekeningschema dat u wilt bijwerken.
+
+    > [!TIP]
+    > Wilt u veel of misschien wel alle rekeningen toewijzen, kies dan een regel, kies :::image type="icon" source="media/show-more-options-icon.png" border="false"::: en kies dan **Meer selecteren**.
+
+## IC-dimensies instellen
+
+Als partners transacties uitwisselen met daaraan gekoppelde dimensies, spreek dan de dimensies af die u allemaal gaat gebruiken. Het synchronisatiebedrijf kan bijvoorbeeld een vereenvoudigde versie van hun dimensies maken, deze naar een XML-bestand exporteren en het bestand vervolgens naar elke partner distribueren. Elke partner kan het XML-bestand importeren op de pagina **IC-dimensies** en vervolgens de IC-dimensies toewijzen aan hun dimensies. Leer meer op [IC-dimensies koppelen aan dimensies van uw bedrijf](#map-intercompany-dimensions-to-your-companys-dimensions).
+
+> [!NOTE]
+> Elk bedrijf moet zijn dimensies toewijzen aan de IC-dimensies voor uitgaande documenten en inkomende documenten. Rekeningen in beide richtingen toewijzen is belangrijk en helpt de consistentie tussen de bedrijven te behouden.
+
+Als partners de IC-dimensies van de synchronisatiepartner zullen gebruiken, volgt u de stappen in deze sectie. Als u wilt delen met behulp van een XML-bestand dat de IC-dimensies bevat, volgt u de stappen in [IC-dimensies importeren of exporteren](#import-or-export-intercompany-dimensions).
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") pictogram, voer **Intercompany-instelling** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies de actie **IC-dimensies**.
+3. Om dimensies toe te voegen voert u een van de volgende handelingen uit op de pagina **IC-dimensies** :
+    * Kies **Nieuw** en voer vervolgens elke dimensie op een regel in.  
+    * Als uw IC-dimensies identiek zijn aan uw normale dimensies of erop lijken, kunt u de pagina automatisch invullen door de actie **Kopiëren uit dimensies** te kiezen. U kunt de regels achteraf zo nodig bewerken.
+    * Als u IC-dimensies hebt opgegeven voor een synchronisatiepartner, gebruikt u de actie **Synchronisatie-instelling** om die dimensies te kopiëren.
+
+    > [!TIP]
+    > Als u de IC-dimensies van een synchronisatiepartner kopieert, kunt u de actie **Synchronisatie-instelling** gebruiken om uw IC-dimensies bij te werken met eventuele wijzigingen die de partner in hun dimensies aanbrengt.  
+
+### IC-dimensies importeren of exporteren  
+
+Het synchronisatiebedrijf kan zijn dimensies delen met partners door ze naar een bestand te exporteren. Partners kunnen het bestand importeren om de dimensies te krijgen.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), pictogram, voer **Intercompany-instelling** in en kies vervolgens de gerelateerde koppeling.
+2. Kies de actie **IC-dimensies**.  
+3. Kies op de pagina **IC-dimensies** de actie **Importeren/exporteren** en kies **Importeren** of **Exporteren**.
+4. Kies het bestand dat u wilt importeren of exporteren.
+
+De volgende stap is de dimensies toe te wijzen aan de IC-dimensies. Leer meer op [IC-dimensies koppelen aan dimensies van uw bedrijf](#map-intercompany-dimensions-to-your-companys-dimensions).
+
+### IC-dimensies toewijzen aan dimensies van uw bedrijf
+
+Nadat u de dimensies hebt opgegeven die u gaat gebruiken, wijst u elke IC-dimensie toe aan een van de dimensies van uw bedrijf, en vice versa. Gebruik de pagina **Toewijzing van IC-dimensies** om de toewijzing op te geven. Herhaal daarna het proces voor de dimensiewaarden.
+
+* Geef op hoe IC-dimensies voor inkomende transacties worden toegewezen aan dimensies uit de lijst met dimensies van uw bedrijf.
+* Geef op hoe uw dimensies worden vertaald in IC-dimensies voor *uitgaande transacties*.
+
+Als IC-dimensies dezelfde code hebben als de corresponderende dimensies in uw bedrijf, kunt u de dimensies automatisch toewijzen.  
+
+In de volgende stappen wijst u eerst IC-dimensies toe aan dimensies voor inkomende documenten in het deelvenster **IC-dimensies**. Vervolgens wijst u dimensies toe aan IC-dimensies voor uitgaande documenten op de pagina **Dimensies van huidig bedrijf**.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") pictogram, voer **Intercompany-instelling** in en kies vervolgens de gerelateerde koppeling.
+2. Kies de actie **IC-dimensies**.
+3. Kies op de pagina **IC-dimensies** de actie **Dimensietoewijzing**.
+4. U kunt de dimensies automatisch of handmatig toewijzen.
+
+    * Om de toewijzing handmatig te maken kiest u in de deelvensters **IC-dimensies** en **Huidige bedrijfsdimensies** een dimensie en kiest u vervolgens een dimensie in de velden **Dim.code** en **IC-dim.code**.
+    * Om dimensies met dezelfde code automatisch toe te wijzen selecteert u de regels die u wilt toewijzen, kiest u de actie **Dimensies met dezelfde code toewijzen** en kiest u vervolgens de dimensies die u wilt bijwerken. 
+
+    > [!TIP]
+    > Wilt u veel of misschien wel alle dimensies toewijzen, kies dan een regel, kies :::image type="icon" source="media/show-more-options-icon.png" border="false"::: en kies dan **Meer selecteren**.
+
+5. Kies de actie **Toewijzing van dimensiewaarden**.
+6. Op de pagina **Toewijzing van IC-dimensiewaarden** zijn de stappen voor het maken van de toewijzing vergelijkbaar met wat u zojuist deed voor dimensies.
+
+## IC-dagboeksjablonen en -batches instellen
+
+U moet een dagboeksjabloon en een dagboekbatch instellen om standaard te gebruiken voor IC-transacties. De sjabloon en de batch zijn vooral belangrijk als u IC-transacties van uw partners automatisch accepteert. Ga voor meer informatie over automatisch accepteren van transacties naar [Transacties van intercompany-partners automatisch accepteren](#auto-accept-transactions-from-intercompany-partners).   
+
+* Met dagboeken kunt u naar grootboekrekeningen en andere rekeningen zoals bank-, klant- en leveranciersrekeningen boeken. Door te boeken met een dagboek worden er altijd posten gemaakt in grootboekrekeningen.  Gebruik de pagina **Intercompany-dagboek** om de te gebruiken dagboekbatch in te stellen. De instellingen die specifiek zijn voor IC-transacties zijn de rekeningen die u opgeeft in de velden **IC-rekeningtype** en **IC-rekeningnr.**.
+* Dankzij dagboeksjablonen kunt u met een dagboekpagina werken die speciaal voor een bepaalde taak is ontworpen. Elke dagboeksjabloon bevat exact de velden die voor een bepaald deel van het programma nodig zijn. Gebruik de pagina **Fin. dagboeksjablonen** om een sjabloon in te stellen voor IC-transacties.
+
+Ga voor meer informatie over dagboeksjablonen en -batches naar [Dagboeksjablonen en -batches gebruiken](ui-work-general-journals.md#use-journal-templates-and-batches).
+
+## Een bedrijf instellen voor IC-transacties
+
+Bij de volgende stappen wordt ervan uitgegaan dat er een synchronisatiepartner is ingesteld met het rekeningschema en de dimensies waarop u het IC-rekeningschema en de IC-dimensies baseert. U kunt ze zelf instellen, maar het is doorgaans sneller om aan de slag te gaan en het onderhoud is eenvoudiger als u een synchronisatiepartner gebruikt. Ga voor meer informatie over de synchronisatiepartner naar [Een synchronisatiepartner instellen](#set-up-a-synchronization-partner).
+
+> [!TIP]
+> Het is een goed idee om de velden in te vullen op het sneltabblad **Algemeen** op de pagina **Intercompany-instelling** voor elke partner voordat u hun partners toevoegt. Wanneer u partnerbedrijven toevoegt die zich in dezelfde tenant bevinden, krijgt [!INCLUDE [prod_short](includes/prod_short.md)] de IC-code en de bedrijfsnaam ervan uit hun instelling op het sneltabblad Algemeen. Het veld **Bedrijfsnaam** verifieert dat hun IC-code uniek is.
+
+> [!NOTE]
+> Als u een synchronisatiepartner gebruikt, laat u het veld **Synchronisatiepartner** leeg wanneer u dat bedrijf instelt voor het partnerschap.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") pictogram, voer **Intercompany-instelling** in en kies vervolgens de gerelateerde koppeling.  
+2. Vul op de pagina **Intercompany-instelling** de velden in op het sneltabblad **Algemeen**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> In [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u geen bestandslocaties gebruiken om transacties over te brengen naar uw partners omdat [!INCLUDE[prod_short](includes/prod_short.md)] geen toegang heeft tot uw lokale netwerk. Daarom is als u **Bestandslocatie** kiest in het veld **Overdrachtstype**, het veld **Pad naar map** niet beschikbaar. In plaats daarvan wordt het bestand gedownload naar de map **Downloads** op uw computer. U kunt het bestand vervolgens bijvoorbeeld per e-mail naar iemand in het partnerbedrijf sturen. Voor een directer proces raden we u aan **E-mail** te kiezen.
+
+De volgende stap is het opzetten van de partnerbedrijven.
+
+## IC-partners instellen
+
+Elke partner moet alle andere bedrijven in het partnerschap als partner toevoegen.
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), pictogram, voer **Intercompany-instelling** in en kies vervolgens de gerelateerde koppeling.
+2. Kies op het sneltabblad **IC-partners** **Toevoegen**.
+3. Vul op de pagina **IC-partner** de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Herhaal stap 2 en 3 voor alle bedrijven in het partnerschap.
+
+> [!NOTE]
+> Voor IC-boekingen, wanneer u de schakeloptie **Transactie automatisch accepteren** hebt ingeschakeld op de pagina **IC-partner**, onderdrukt [!INCLUDE[prod_short](includes/prod_short.md)] waarschuwingsberichten over inkoopfacturen die de oorspronkelijke inkooporder dupliceren. Daarom is het belangrijk om een bedrijfsproces te hebben voor het beheren van duplicaten. Bijvoorbeeld door dergelijke inkooporders te verwijderen wanneer de inkoopfactuur wordt ontvangen van de intercompany-partner.
+
+### IC-partners instellen als klanten en leveranciers
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") pictogram, voer **Intercompany-instelling** in en kies vervolgens de gerelateerde koppeling.
+2. Open op het sneltabblad **IC-partners** de kaartpagina voor de partner.
+3. Kies, afhankelijk van wat u wilt doen, de klant of partner in het veld **Klantnummer** of **Leveranciersnummer**.
+
+    > [!NOTE]
+    > Als de klant of leverancier nog niet is gemaakt, kunt u **+Nieuw** kiezen in het vervolgkeuzemenu om ze in te stellen. Ga voor meer informatie over het maken van klanten en leveranciers naar [Nieuwe klanten registreren](sales-how-register-new-customers.md) en [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md).
+
+    > [!TIP]
+    > U kunt ook een klant of leverancier als een IC-partner opgeven door het veld **IC-partnercode** in te vullen op de pagina's **Klantenkaart** en **Leverancierskaart**.
+
+### Standaardgrootboekrekeningen voor IC-partners instellen  
+
+Wanneer u een IC-verkoopregel of -inkoopregel maakt om te verzenden als uitgaande transactie, voert u een rekening uit het IC-rekeningschema in als standaardrekening waarop het bedrag in het bedrijf van uw partner wordt geboekt. Op de pagina **Grootboekrekening** kunt u een standaard IC-grootboekrekening voor partners opgeven voor rekeningen die u regelmatig gebruikt op uitgaande IC-verkoop- of -inkoopregels. Voor uw tegoedenrekeningen kunt u bijvoorbeeld de corresponderende schuldenrekeningen opgeven uit het IC-rekeningschema. De debiteuren- en crediteurenrekeningen worden gebruikt als tegenrekening voor de IC-partner wanneer u transacties boekt in IC-dagboeken.  
+
+Wanneer u nu een grootboekrekening opgeeft in het veld **Tegenrekeningnr.** op een IC-regel met **IC-partner** in het veld **Rekeningsoort**, wordt het veld **Grootboekrekeningnr. IC-partner** automatisch ingevuld.  
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de gerelateerde koppeling.  
+2. Open de grootboekrekening die wordt gebruikt voor IC-transacties en voer in het veld **Standaard IC-partnergrootboekrekening** de IC-grootboekrekening in waarnaar uw partner boekt wanneer u boekt naar de grootboekrekening op de regel.
+3. Herhaal stap 2 voor elke rekening die u vaak invoert in het veld **Tegenrekeningnr.** op een regel in een IC-dagboek of -document.
+
+### Transacties van IC-partners automatisch accepteren
+
+Om intercompany-transacties sneller te kunnen verwerken, kunt u opgeven dat u automatisch dagboekregels wilt maken op basis van boekingen van een IC-partner op de pagina **IC-diversendagboek**. Om automatisch inkomende en uitgaande transacties te maken moet u de volgende schakelaars voor elke partner inschakelen:
+
+* Schakel op de pagina **Intercompany-instelling** de schakelaar **Transacties automatisch verzenden** voor de synchronisatiepartner in. Geef vervolgens op waar ontvangen IC-dagboektransacties moeten worden gemaakt door de velden **Standaard-IC-dagboeksjabloon** en **Standaard-IC-dagboekbatch** in te vullen.
+
+    > [!TIP]
+    > Als het veld **Standaard-IC-dagboeksjabloon** leeg is, moet u een dagboeksjabloon instellen om te gebruiken voor uw IC-dagboeken. Ga voor meer informatie over dagboeksjablonen en -batches naar [IC-dagboeksjablonen en -batches instellen](#set-up-intercompany-general-journal-templates-and-batches)    
+
+* Schakel op de pagina **IC-partner** de schakelaar **Transacties automatisch accepteren** in.
+
+De journaalregels worden voor u gemaakt, maar niet geboekt.
 
 > [!NOTE]
 > Als uw organisatie intercompany-functies heeft gebruikt in [!INCLUDE [prod_short](includes/prod_short.md)] vóór 2022 release wave 1, om transacties automatisch te accepteren, moet uw beheerder de functieschakelaar **Automatisch IC-dagboektransacties accepteren** op de pagina **Functiebeheer** aanzetten.
 
-## Een bedrijf instellen voor intercompany-transacties
+### De bankrekeningen opgeven die moeten worden gebruikt voor IC-partners
 
-Deze in te vullen velden verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd.
+Om snelle betalingen mogelijk te maken geeft u een of meer bankrekeningen op die u wilt gebruiken voor IC-partners. Wanneer een partner een IC-dagboek gebruikt om een betaling uit te voeren, kan deze de bankrekening op de regel opgeven. De bankrekening wordt gebruikt als tegenrekening in het ontvangende bedrijf, waardoor de noodzaak om transacties handmatig in te voeren tot een minimum wordt beperkt.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), pictogram, voer **Intercompany-instelling** in en kies vervolgens de gerelateerde koppeling.  
-2. Vul op de pagina **Intercompany-instelling** de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+* Om de te gebruiken bankrekening op te geven kiest u op de pagina **IC-partners** de actie **Bankrekeningen**. Voer op de **IC-bankrekeningkaart** de rekeninggegevens in.
 
-## IC-partners instellen
+## Problemen met uw IC-instellingen oplossen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-partners** in en kies vervolgens de gerelateerde koppeling.
-2. Kies de actie **Nieuw**.
-3. Vul op de pagina **IC-partner** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Herhaal stap 2 en 3 voor alle andere bedrijven die deel uitmaken van deze intercompany-instelling.
-
-> [!NOTE]
-> In [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u geen bestandslocaties gebruiken om transacties over te brengen naar uw partners omdat [!INCLUDE[prod_short](includes/prod_short.md)] geen toegang heeft tot uw lokale netwerk. Daarom is als u **Bestandslocatie** kiest in het veld **Overdrachtstype**, het veld **Pad naar map** niet beschikbaar. In plaats daarvan wordt het bestand gedownload naar de map Downloads op uw computer. U kunt het bestand vervolgens bijvoorbeeld per e-mail naar iemand in het partnerbedrijf sturen. Voor een directer proces raden we u aan om geen bestandslocatie maar de optie **E-mail** te kiezen.
-
-> [!NOTE]
-> Voor intercompany-boekingen, wanneer u de schakeloptie **Transactie automatisch accepteren** hebt ingeschakeld op de pagina **IC-partnerkaart**[!INCLUDE[prod_short](includes/prod_short.md)] onderdrukt waarschuwingsberichten over inkoopfacturen die de oorspronkelijke inkooporder dupliceren. Daarom is het belangrijk om een bedrijfsproces te hebben voor het beheren van duplicaten. Bijvoorbeeld door dergelijke inkooporders te verwijderen wanneer de inkoopfactuur wordt ontvangen van de intercompany-partner.
-
-
-## IC-leveranciers en IC-klanten instellen
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
-2. U kunt ook toegang tot de leverancier krijgen vanuit het veld **Leveranciersnr.** op de pagina **IC-partner**.
-3. Open de kaart voor een leverancier die een IC-partner is. Zie voor meer informatie [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md).
-4. Selecteer in het veld **IC-partnercode** de desbetreffende IC-partnercode.
-5. Herhaal stappen 1 tot en met 4 voor klanten.
-
-## IC-rekeningschema instellen
-
-Als een groep bedrijven IC-transacties wil uitvoeren, moeten de bedrijven afspreken welk rekeningschema wordt gebruikt als algemene referentie. U moet met uw partnerbedrijven afspreken welke rekeningnummers er zullen worden gebruikt bij het uitvoeren van IC-transacties. Het moederbedrijf van de groep kan bijvoorbeeld een vereenvoudigde versie van het eigen rekeningschema maken en deze vervolgens exporteren naar een XML-bestand dat onder de bedrijven in de groep wordt verspreid.  
-
-Als het rekeningschema van uw bedrijf het IC-rekeningschema voor uw partnerbedrijven definieert, volgt u het proces dat wordt beschreven in [Het definiërende IC-rekeningschema instellen](intercompany-how-setup.md#to-set-up-the-intercompany-chart-of-accounts).  
-
-Als uw bedrijf een dochteronderneming is en u een XML-bestand ontvangt met het gemeenschappelijke IC-rekeningschema, volgt u de procedure [Het IC-rekeningschema importeren](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
-
-### Het IC-rekeningschema instellen
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-rekeningschema** in en kies de gerelateerde koppeling.
-2. Voer op de pagina **IC-rekeningschema** elke rekening in op een regel op de pagina.  
-3. Als uw IC-rekeningschema identiek is aan uw normale rekeningschema of erop lijkt, kunt u de pagina automatisch invullen door de actie **Kopiëren uit rekeningschema** te kiezen. U kunt de nieuwe regels zo nodig bewerken.
-
-### Het IC-rekeningschema exporteren
-
-Als u uw IC-partners wilt toestaan het rekeningschema te importeren, moet u het naar een bestand exporteren.
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-rekeningschema** in en kies de gerelateerde koppeling.
-2. Kies op de pagina **IC-rekeningschema** de actie **Exporteren** en kies de knop **Opslaan**.
-3. Geef de bestandsnaam en de locatie op waar u het XML-bestand wilt opslaan en klik vervolgens op **Opslaan**.  
-
-### Het IC-rekeningschema importeren  
-
-Wanneer een bestand bestaat voor het definiëren van het IC-rekeningschema, kunnen IC-partners het importeren om ervoor te zorgen dat ze dezelfde rekeningen hebben.  
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-rekeningschema** in en kies de gerelateerde koppeling.  
-2. Kies op de pagina **IC-rekeningschema** de actie **Importeren**.  
-3. Selecteer de bestandsnaam en de locatie van het XML-bestand en klik op **Openen**.  
-
-De pagina **IC-rekeningschema** wordt gevuld met nieuwe of bewerkte grootboekregels volgens het IC-rekeningschema in het bestand. Bestaande niet-gerelateerde regels op de pagina blijven ongewijzigd.
-
-### Het IC-rekeningstelsel koppelen aan het rekeningstelsel van uw bedrijf  
-
-Wanneer u het IC-rekeningschema hebt gedefinieerd of geïmporteerd dat u en uw IC-partners hebben afgesproken te gebruiken, moet u elk van de IC-grootboekrekeningen koppelen aan een van de grootboekrekeningen van uw bedrijf. Geef op de pagina **IC-rekeningschema** op hoe IC-grootboekrekeningen worden vertaald in grootboekrekeningen uit het rekeningschema van uw bedrijf.
-
-Als rekeningen in het IC-rekeningschema dezelfde rekeningnummers hebben als de corresponderende rekeningen in het rekeningschema van uw bedrijf, kunt u de rekeningen automatisch koppelen.
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-rekeningschema** in en kies de gerelateerde koppeling.  
-2. Selecteer de regels die u automatisch wilt koppelen en kies vervolgens de actie **Koppelen aan schema met hetzelfde nr.**  
-3. Voor elke IC-grootboekrekening waarnaar die niet automatisch is gekoppeld, vult u het veld **Toegewezen grootboekrek.nr.** in.  
-
-## Standaardgrootboekrekeningen voor IC-partners instellen  
-
-Wanneer u een IC-verkoopregel of -inkoopregel maakt om te verzenden als uitgaande transactie, moet u een rekening uit het IC-rekeningschema opgeven als standaardrekening waarop het bedrag in het bedrijf van uw partner wordt geboekt. Op de pagina **Rekeningschema** kunt u een standaard IC-grootboekrekening voor partners opgeven voor rekeningen die u regelmatig gebruikt op uitgaande IC-verkoop- of inkoopregels. Voor uw tegoedenrekeningen kunt u bijvoorbeeld de corresponderende schuldenrekeningen opgeven uit het IC-rekeningschema.  
-
-Wanneer u nu een grootboekrekening opgeeft in het veld **Tegenrekeningnr.** op een IC-regel met **IC-partner** in het veld **Rekeningsoort**, wordt het veld **Grootboekrekeningnr. IC-partner** automatisch ingevuld.  
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies de gerelateerde koppeling.  
-2. Voer op de regel voor een grootboekrekening die wordt gebruikt voor IC-transacties, in het veld **Standaard IC-partnergrootboekrekening** de IC-grootboekrekening in waarnaar uw partner boekt wanneer u boekt naar de grootboekrekening op de regel.  
-3. Herhaal stap 2 voor elke rekening die u vaak invoert in het veld **Tegenrekeningnr.** op een regel in een IC-dagboek of -document.
-
-## IC-dimensies instellen
-
-Als u en uw IC-partners transacties willen uitwisselen waaraan dimensies zijn gekoppeld, moet u afspreken welke IC-dimensies u allemaal gebruikt. Het moederbedrijf van de groep kan bijvoorbeeld een vereenvoudigde versie van de eigen set van dimensies maken en deze vervolgens exporteren naar een XML-bestand dat onder de bedrijven in de groep wordt verspreid. Alle dochterbedrijven importeren het XML-bestand vervolgens naar de pagina **IC-dimensies** en koppelen de IC-dimensies aan de dimensies op hun eigen pagina **Dimensies**.  
-
-> [!NOTE]
-> Elk bedrijf in [!INCLUDE [prod_short](includes/prod_short.md)] moet dimensies toewijzen aan intercompany-dimensies voor uitgaande documenten, en intercompany-dimensies toewijzen aan hun eigen dimensies voor inkomende documenten. Deze toewijzing zorgt voor consistentie tussen de bedrijven. Zie voor meer informatie de sectie [IC-dimensies koppelen aan dimensies van uw bedrijf](#to-map-intercompany-dimensions-to-your-companys-dimensions).
-
-Als uw bedrijf het hoofdbedrijf is en de definiërende set IC-dimensies heeft die uw groep gaat gebruiken als gemeenschappelijke naslag, volgt u de procedure [De IC-dimensies definiëren](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
-
-Als uw bedrijf een dochteronderneming is en u een XML-bestand ontvangt met de IC-dimensies die uw groep gaat gebruiken als algemene referentie, volgt u de procedure [IC-dimensies importeren](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
-
-### IC-dimensies definiëren
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-dimensies** in en kies vervolgens de gerelateerde koppeling.  
-2. Voer elke dimensie in op een regel op de pagina **IC-dimensies**.
-
-    Als uw IC-dimensies lijken op of identiek zijn aan de dimensies van uw bedrijf, kunt u de pagina automatisch invullen door de functie **Kopiëren van dimensies** te gebruiken. Vervolgens kunt u de resulterende regels bewerken.  
-3. Als u de IC-dimensies wilt exporteren naar een XML-bestand voor distributie naar uw partnerbedrijven, kiest u de actie **Exporteren**.  
-4. Geef de bestandsnaam en de locatie op waar u het XML-bestand wilt opslaan en klik vervolgens op **Opslaan**.  
-
-### De IC-dimensies importeren  
-
-Wanneer een bestand bestaat voor de definiërende IC-dimensies, kunnen IC-partners het importeren om ervoor te zorgen dat ze dezelfde dimensies hebben.  
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-dimensies** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies op de pagina **IC-dimensies** de actie **Importeren**.  
-3. Geef de bestandsnaam en de locatie van het XML-bestand op en klik op **Openen**.  
-
-De regels op de pagina **IC-dimensies** en de pagina **IC-dimensiewaarden** worden geïmporteerd.  
-
-### IC-dimensies koppelen aan dimensies van uw bedrijf
-
-Wanneer u de dimensies hebt gedefinieerd of geïmporteerd die u en uw IC-partners hebben afgesproken te gebruiken, moet u elk van de IC-dimensies koppelen aan een van de dimensies van uw bedrijf en vice versa. Geef op de pagina **IC-dimensies** op hoe IC-dimensies voor *inkomende transacties* worden vertaald in dimensies uit de lijst met dimensies van uw bedrijf. Op de pagina **Dimensies** geeft u op hoe uw dimensies worden vertaald in IC-dimensies voor *uitgaande transacties*.
-
-Als IC-dimensies dezelfde code hebben als de corresponderende dimensies in de lijst met dimensies van uw bedrijf, kunt u de dimensies automatisch koppelen en vervolgens de rekeningen automatisch toewijzen.  
-
-In de volgende stappen wijst u eerst intercompany-dimensies toe aan dimensies voor inkomende documenten op de pagina **Intercompany-dimensies**. Vervolgens wijst u dimensies toe aan intercompany-dimensies voor uitgaande documenten op de pagina **Dimensies**.
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-dimensies** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer op de pagina **IC-dimensies** de regels die u automatisch wilt koppelen en kies vervolgens de actie **Koppelen aan dim. met dezelfde code**.
-3. Voor elke IC-dimensie die niet automatisch wordt gekoppeld, vult u het veld **Toewijzing dimensiecode** in.
-
-    Mogelijk moet u het veld aan uw weergave toevoegen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
-4. Kies de actie **IC-dimensiewaarden**.
-5. Vul op de pagina **IC-dimensiewaarden** het veld **Toegewezen dimensiewaardecode** in.
-
-    Koppel dimensies aan IC-dimensies door soortgelijke stappen uit te voeren.
-6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dimensies** in en kies vervolgens de gerelateerde koppeling.
-7. Selecteer op de pagina **IC-dimensies** de regels die u automatisch wilt koppelen en kies vervolgens de actie **Koppelen aan IC-dim. met dezelfde code**.
-8. Voor elke IC-dimensie die niet automatisch wordt gekoppeld, vult u het veld **Toegewezen IC-dim.waardecode** in.
-9. Kies de actie **Dimensiewaarden**.
-10. Vul op de pagina **IC-dimensiewaarden** het veld **Toegewezen IC-dim.waardecode** in.
+Op de pagina **Intercompany-instelling** bevat het deelvenster **Diagnose van intercompany-instellingen** tegels die aangeven of u alle componenten hebt ingesteld die nodig zijn om IC-transacties uit te wisselen. De tegels zijn ook beschikbaar in het rolcentrum Bedrijfsmanager. Kies de tegels om erachter te komen wat er ontbreekt. Ga voor een overzicht van de vereiste componenten naar [Overzicht van de stappen om aan de slag te gaan](#overview-of-the-steps-to-get-started).
 
 ## Zie ook
 
@@ -175,6 +257,5 @@ In de volgende stappen wijst u eerst intercompany-dimensies toe aan dimensies vo
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

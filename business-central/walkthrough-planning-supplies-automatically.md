@@ -47,11 +47,11 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
 ## Scenario  
  De klant, Cannon Group PLC, bestelt vijf toerfietsen voor verzending op 5 februari 2021.  
 
- Eduardo, de productieplanner, voert de routinevoorraadplanning uit voor de eerste week van februari 2021. Hij filtert op zijn eigen vestiging, OOST, en voert een planningsinterval in voor de werkdatum (23 januari 2021) tot 7 februari 2021 voordat hij een voorlopig voorraadplan berekent.  
+ Eduardo, de productieplanner, voert de routinevoorraadplanning uit voor de eerste week van februari 2021. Eduardo filtert op hun eigen vestiging, OOST, en voert een planningsinterval in van de werkdatum (23 januari 2021) tot 7 februari 2021 alvorens een voorlopig voorraadplan te berekenen.  
 
- De enige vraag voor die week is voor de verkooporder van de Cannon Group. Eduardo ziet dat geen van de planningsregels een waarschuwing bevat en hij gaat voorraadorders maken zonder wijzigingen voor de voorgestelde planningsregels.  
+ De enige vraag voor die week is voor de verkooporder van de Cannon Group. Eduardo ziet dat geen van de planningsregels een waarschuwing bevat en gaat voorraadorders maken zonder wijzigingen voor de voorgestelde planningsregels.  
 
- De volgende dag, nog voordat een van de voorlopige voorraadorders is gestart of geboekt, krijgt Eduardo bericht dat een andere klant tien toerfietsen heeft besteld voor verzending op 12 februari 2021. Daarom berekent hij het voorraadplan opnieuw om het aan te passen aan de gewijzigde vraag. De herberekening leidt tot een mutatieplan met een voorstel om zowel de tijd als de hoeveelheid van een aantal voorraadorders te wijzigen die tijdens de eerste run zijn gemaakt.  
+ De volgende dag, nog voordat een van de voorlopige voorraadorders is gestart of geboekt, krijgt Eduardo bericht dat een andere klant tien toerfietsen heeft besteld voor verzending op 12 februari 2021. Daarom berekent Eduardo het voorraadplan opnieuw om het aan te passen aan de gewijzigde vraag. De herberekening leidt tot een mutatieplan met een voorstel om zowel de tijd als de hoeveelheid van een aantal voorraadorders te wijzigen die tijdens de eerste run zijn gemaakt.  
 
  Tijdens de diverse stappen van de planning zoekt Eduardo de betreffende orders op en gebruikt de functie Ordertracering om te zien welke vraag door welk aanbod wordt gedekt.  
 
@@ -80,7 +80,7 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
  Hiermee is de voorbereiding van voorbeeldgegevens voor het overzicht voltooid.  
 
 ## Een regeneratief voorraadplan maken  
- In reactie op een nieuwe verkooporder voor vijf toerfietsen, start Ricardo het planningsproces door filters, opties, planningsinterval in te stellen en alle andere vraag, behalve die uit de eerste week van februari op de vestiging OOST, uit te sluiten. Hij begint met de berekening van een MPS (hoofdproductieschema) en berekent vervolgens een volledig voorraadplan voor alle vraag op lager niveau (MRP).  
+ In reactie op een nieuwe verkooporder voor vijf toerfietsen, start Ricardo het planningsproces door filters, opties, planningsinterval in te stellen en alle andere vraag, behalve die uit de eerste week van februari op de vestiging OOST, uit te sluiten. Ricardo begint met de berekening van een MPS (hoofdproductieschema) en berekent vervolgens een volledig voorraadplan voor alle vraag op lager niveau (MRP).  
 
 ### De verkooporder maken  
 
@@ -198,7 +198,7 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
  Hiermee is de oorspronkelijke berekening, de analyse en het maken van een voorraadplan voor de vraag op de vestiging OOST in de eerste week van februari voltooid. In het volgende gedeelte bestelt een andere klant tien toerfietsen en moet Eduardo opnieuw plannen.  
 
 ## Een mutatieplan maken  
- De volgende dag, voordat er voorraadorders zijn gestart of geboekt, arriveert een nieuwe verkooporder van Libros S.A. voor tien toerfietsen die moeten worden verzonden op 12 februari 2021. Eduardo krijgt bericht van de nieuwe vraag en hij plant opnieuw om het huidige voorzieningsplan aan te passen. Eduardo gebruikt de functie Mutatieplan berekenen om alleen de wijzigingen te berekenen die zijn aangebracht in vraag of aanbod sinds de laatste planningsrun. Bovendien breidt hij de planningsperiode uit naar 14 februari 2021 om de nieuwe verkoopvraag op 12 februari 2014 mee te nemen.  
+ De volgende dag, voordat er voorraadorders zijn gestart of geboekt, arriveert een nieuwe verkooporder van Libros S.A. voor tien toerfietsen die moeten worden verzonden op 12 februari 2021. Eduardo krijgt bericht van de nieuwe vraag en plant opnieuw om het huidige voorzieningsplan aan te passen. Eduardo gebruikt de functie Mutatieplan berekenen om alleen de wijzigingen te berekenen die zijn aangebracht in vraag of aanbod sinds de laatste planningsrun. Bovendien breidt Eduardo de planningsperiode uit naar 14 februari 2021 om de nieuwe verkoopvraag op 12 februari 2014 mee te nemen.  
 
  In het planningsysteem wordt de beste manier berekend om te voldoen aan de vraag naar deze twee identieke producten, zoals het samenvoegen van bepaalde inkoop- en productieorders, het opnieuw plannen van andere orders en het zo nodig maken van nieuwe orders.  
 

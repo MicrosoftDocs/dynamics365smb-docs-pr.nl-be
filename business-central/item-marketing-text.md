@@ -26,10 +26,15 @@ Met Copilot krijgt u snel een tekstsuggestie die automatisch voor u wordt gegene
 
 Copilot is ontworpen om u tijd te besparen en u te helpen creatieve en boeiende tekst te schrijven die uw merk weerspiegelt en consistent is in uw hele productlijn. Begin met het genereren van een suggestie en wijzig vervolgens de voorgestelde tekst indien nodig.
 
+> [!NOTE]
+> In de preview-versie van Business Central is door AI gegenereerde tekst alleen in het Engels.
+
 ### Vereisten
 
 - U gebruikt een [preview-versie](ai-preview-getstarted.md) van Business Central die is ingeschakeld voor Copilot. Het inschakelen van Copilot wordt gedaan door een beheerder. Ga voor meer informatie naar [Op AI gebaseerde artikelmarketingtekst met Copilot configureren](enable-ai.md).
+- De taal die u gebruikt in Business Central moet Engels zijn. Alle beschikbare Engelse landinstellingen werken, zoals Engels (Verenigde Staten), Engels (Verenigd Koninkrijk) of Engels (Zuid-Afrika).
 
+   Om de taal te wijzigen, selecteert u in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum"). > **Mijn instellingen** > **Taal**. Ga voor meer informatie naar [Basisinstellingen wijzigen](ui-change-basic-settings.md#language).
 - Bekijk de [Veelgestelde vragen over copiloot](ai-faq.md) voor meer informatie over door AI gegenereerde tekstsuggesties van Copilot en hoe u deze kunt gebruiken.
 
 ### Een eerste concept maken met Copilot

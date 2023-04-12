@@ -36,13 +36,14 @@ De instelling **Ervaring** is van toepassing op alle gebruikers in een bedrijf, 
 Gebruikers worden aan plannen toegewezen in het Microsoft 365-beheercentrum, in verband met het algemene werk om de Business Central-gebruikers te maken. Zie voor meer informatie [Tegelijkertijd gebruikers toevoegen en licenties toewijzen](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### Planwijzigingen bijwerken in gebruikersgroepen
-Wanneer u een wijziging in gebruikersplannen hebt aangebracht in het Microsoft 365-beheercentrum , zoals meer gebruikers toewijzen aan het Premium-plan, moet u de wijziging doorvoeren in [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
+Wanneer u een wijziging in gebruikersplannen hebt aangebracht in het Microsoft 365-beheercentrum , zoals meer gebruikers toewijzen aan het Premium-plan, moet u [!INCLUDE[prod_short](includes/prod_short.md)] bijwerken om de verandering te weerspiegelen.
 
 1. Meld u aan als beheerder.
-2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
-3. U kunt ook op de pagina **Gebruikers** de actie **Alle gebruikersgroepen vernieuwen** kiezen.
-
-Alle nieuwe informatie over de plannen van gebruikers en hun toegewezen gebruikersgroepen wordt nu bijgewerkt volgens de planwijzigingen.
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
+3. Kies op de pagina **Gebruikers** de actie **Gebruikers van Microsoft 365** bijwerken.
 
 ### De Premium-ervaring selecteren
 U kunt nu doorgaan met de nieuwe ervaring te selecteren.
@@ -50,7 +51,7 @@ U kunt nu doorgaan met de nieuwe ervaring te selecteren.
 2. Selecteer op de pagina **Bedrijfsgegevens** op het sneltabblad **Gebruikerservaring** de optie Premium in het veld **Ervaring**.
 
 ## In de Help wordt uitgegaan van de Premium-ervaring
-Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[prod_short](includes/prod_short.md)] gaan uit van de **Premium-** ervaring, wat inhoudt dat de beschrijvingen het hele scala aan UI-elementen omvatten.
+Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[prod_short](includes/prod_short.md)] gaan uit van de **Premium**-ervaring, wat inhoudt dat de beschrijvingen het hele scala aan UI-elementen omvatten.
 
 ## Zie ook
 [Uw werkruimte personaliseren](ui-personalization-user.md)  

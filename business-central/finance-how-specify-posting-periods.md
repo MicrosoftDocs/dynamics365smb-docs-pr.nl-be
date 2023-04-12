@@ -22,7 +22,7 @@ Gebruik boekingsperioden om op te geven wanneer gebruikers naar het grootboek ku
 2. Op de pagina **Grootboekinstellingen** definieert u de periode door datums in te voeren in het veld **Boeken toegestaan vanaf** en het veld **Boeken toegestaan tot**.  
 
 > [!NOTE]  
-> Deze boekingsperioden zijn van toepassing op het bedrijf en alle gebruikers. Als u uitzonderingen wilt toestaan, kunt u verschillende boekingsperioden definiëren voor specifieke gebruikers op de pagina **Gebruikersinstellingen**. Deze boekingsperioden hebben voorrang op de perioden die zijn opgegeven op de pagina **Grootboekinstellingen**. Zie [Tijdsbeperkingen voor gebruikers instellen](ui-define-granular-permissions.md#to-set-up-user-time-constraints) voor meer informatie.
+> Deze boekingsperioden zijn van toepassing op het bedrijf en alle gebruikers. Als u uitzonderingen wilt toestaan, kunt u verschillende boekingsperioden definiëren voor specifieke gebruikers op de pagina **Gebruikersinstellingen**. Deze boekingsperioden hebben voorrang op de perioden die zijn opgegeven op de pagina **Grootboekinstellingen**. Zie [Tijdsbeperkingen voor gebruikers instellen](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users) voor meer informatie.
 
 ## Zie ook
 

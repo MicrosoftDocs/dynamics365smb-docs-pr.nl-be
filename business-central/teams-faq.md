@@ -313,7 +313,7 @@ De app kan u ook vragen naar **Instellingen** te gaan als u geen [!INCLUDE [prod
 
 Zoeken in andere tabellen is op dit moment niet mogelijk. De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams zoekt alleen in de [!INCLUDE [prod_short.md](includes/prod_short.md)]-contactenlijst, die leveranciers, klanten en andere contacten kan bevatten.
 
-Als u wilt dat de zoekmogelijkheden evolueren en andere tabellen gaan omvatten, moedigen we onze gemeenschap aan om een idee toe te voegen of op bestaande ideeën te stemmen op https://aka.ms/BusinessCentralIdeas.
+Als u wilt dat de zoekmogelijkheden evolueren en andere tabellen gaan omvatten, moedigen we onze gemeenschap aan om een idee toe te voegen of op bestaande ideeën te stemmen op https://aka.ms/BusinessCentralIdeas.
 
 ## [Werken met kaarten](#tab/cards)
 
@@ -339,6 +339,10 @@ Als u een bericht verwijdert dat een kaart bevat, worden de gegevens in [!INCLUD
 ### Bevatten kaarten altijd up-to-date informatie?
 
 Nee. De veldwaarden op een kaart in Teams, inclusief eventuele afbeeldingen, zijn gebaseerd op de gegevens die beschikbaar waren toen die kaart naar de chat werd gestuurd. [!INCLUDE [prod_short.md](includes/prod_short.md)]-kaarten worden niet automatisch vernieuwd in Teams. 
+
+### Waarom tonen kaarten niet meer informatie dan de paginanaam en de detailknop?
+
+Een beheerder heeft mogelijk de Teams-integratie zo geconfigureerd dat kaarten geen gegevens over records tonen. Raadpleeg voor meer informatie [Recordgegevens op kaarten weergeven of verbergen](admin-teams-integration.md#show-or-hide-record-data-on-cards).
 
 ### Zullen anderen mijn kaart zien als ze de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams niet hebben? 
 

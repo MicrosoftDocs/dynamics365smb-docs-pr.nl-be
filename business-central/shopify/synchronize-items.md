@@ -82,17 +82,15 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 
 |Veld|Omschrijving|
 |------|-----------|
-|**Klantenprijsgroep**|Bepaal de prijs voor een artikel in Shopify. De verkoopprijs van deze klantenprijsgroep wordt genomen. Als er geen groep is ingevoerd, wordt de prijs op de artikelkaart gebruikt.|
-|**Klantenkortingsgroep**|Bepaal de korting die moet worden gebruikt voor het berekenen van de prijs van een artikel in Shopify. Gereduceerde prijzen worden opgeslagen in het veld **Prijs** en de volledige prijs wordt opgeslagen in het veld **Prijs vergelijken**.|
 |**Uitgebreide tekst voor synchronisatieartikel**|Selecteer dit veld om de uitgebreide tekst van het artikel te synchroniseren. Aangezien het zal worden toegevoegd aan het veld *Beschrijving*, kan het HTML-code bevatten. |
 |**Artikelkenmerken synchroniseren**|Selecteer dit veld om de artikelkenmerken te synchroniseren. Kenmerken worden opgemaakt als een tabel en opgenomen in het veld *Beschrijving* in Shopify.|
+|**Marketingtekst van synchronisatieartikel**|Selecteer dit veld om marketingtekst voor het artikel te synchroniseren. Hoewel marketingtekst een soort beschrijving is, is het anders dan het veld **Beschrijving**. Het veld **Beschrijving** wordt meestal gebruikt als een beknopte weergavenaam om het product snel te identificeren. De marketingtekst daarentegen rijker en meer beschrijvend. Het doel is om marketing- en promotionele inhoud toe te voegen. Deze tekst kan dan worden gepubliceerd bij het artikel in Shopify. Er zijn twee manieren om de marketingtekst te maken. Gebruik Copilot, dat door AI gegenereerde tekst voor u voorstelt, of begin helemaal opnieuw.|
 |**Taalcode**|Selecteer dit veld als u wilt dat de vertaalde versies worden gebruikt voor titel, kenmerken en uitgebreide tekst.|
 |**SKU-toewijzing**|Kies hoe u het SKU-veld wilt invullen in Shopify. Ondersteunde opties zijn:<br> - **Artikelnr.** om het artikelnummer te gebruiken voor zowel producten als varianten.<br> - **Artikelnr. + variant** om een SKU te maken door waarden van twee velden samen te voegen. Voor artikelen zonder varianten wordt alleen het artikelnr. gebruikt.<br>- **Artikelnr. leverancier** om het artikelleveranciersnummer te gebruiken dat is gedefinieerd op de *artikelkaart* voor zowel producten als varianten.<br> - **Barcode** om het barcodetype van **Artikelreferentie** te gebruiken. Deze optie respecteert varianten.|
 |**SKU-veldscheidingsteken**|Definieer een scheidingsteken voor de optie **Artikelnr. + variant**.|
 |**Voorraad getraceerd**| Kies hoe het systeem het veld **Voorraad bijhouden** moet vullen voor producten die worden geëxporteerd naar Shopify. U kunt de beschikbaarheidsinformatie bijwerken vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] voor producten in Shopify waarvan voorraad traceren is ingeschakeld. Lees meer in de sectie [Voorraad](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standaardvoorraadbeleid**|Kies *Afwijzen* om negatieve voorraad aan de Shopify-kant te voorkomen.|
 |**Kan Shopify-producten bijwerken**|Definieer dit veld als [!INCLUDE[prod_short](../includes/prod_short.md)] alleen artikelen kan maken of ook artikelen kan bijwerken. Selecteer deze optie als u nadat de eerste synchronisatie is geactiveerd door de actie **Artikel toevoegen**, producten handmatig wilt bijwerken met de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Vergeet niet **Naar Shopify** te selecteren in het veld **Artikel synchroniseren**.|
-|**Klantensjablooncode**|Kies de standaardsjabloon die moet worden gebruikt tijdens de prijsberekening. Meer informatie op [Belastingen instellen](setup-taxes.md).|
 
 ### Overzicht van veldtoewijzing
 
@@ -104,8 +102,8 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 |SEO-paginatitel|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |SEO-metabeschrijving|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |Media|**Afbeelding**. Lees meer in de sectie [Artikelafbeeldingen synchroniseren](synchronize-items.md#sync-item-images)|**Afbeelding**|
-|Prijs|De berekening van de eindklantprijs omvat de artikelprijsgroep, artikelkortingsgroep, valutacode en klantsjablooncode.|**Eenheidsprijs**|
-|Prijs vergelijken|De berekening van de prijs zonder korting omvat de artikelprijsgroep, artikelkortingsgroep, valutacode en klantsjablooncode.|Niet gebruikt.|
+|Prijs|De berekening van de eindklantprijs omvat de eenheidsprijs van het artikel, de klantprijsgroep, de klantkortingsgroep en de valutacode. Lees meer in het gedeelte [Prijzen synchroniseren](synchronize-items.md#sync-prices-with-shopify)|**Eenheidsprijs**|
+|Prijs vergelijken|De berekening van de prijs zonder korting.|Niet gebruikt.|
 |Kosten per artikel|**Kostprijs**|**Kostprijs**|
 |SKU|Lees hierover onder **SKU-toewijzing** in de sectie [Artikelen exporteren naar Shopify](synchronize-items.md#export-items-to-shopify).|Lees hier meer over in de sectie [Effect van SKU's van Shopify producten en barcodes op het toewijzen en maken van artikelen en varianten in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Barcode|**Artikelreferenties** van het type barcode.|**Artikelreferenties** van het type barcode.|
@@ -193,7 +191,18 @@ Afbeeldingssynchronisatie kan op de hieronder beschreven twee manieren worden ge
 
 ## Prijzen synchroniseren met Shopify
 
-Prijzen kunnen worden geëxporteerd voor gesynchroniseerde artikelen op de hieronder beschreven twee manieren.
+U beheert het proces van het exporteren van prijzen met deze instellingen:
+
+|Veld|Omschrijving|
+|------|-----------|
+|**Klantenprijsgroep**|Bepaal de prijs voor een artikel in Shopify. De verkoopprijs van deze klantenprijsgroep wordt genomen. Als er geen groep is gespecificeerd, wordt de prijs op de artikelkaart gebruikt.|
+|**Klantenkortingsgroep**|Bepaal de korting die moet worden gebruikt voor het berekenen van de prijs van een artikel in Shopify. Gereduceerde prijzen worden opgeslagen in het veld **Prijs** en de volledige prijs wordt opgeslagen in het veld **Prijs vergelijken**.|
+|**Regelkorting toestaan**|Hiermee wordt opgegeven of u een regelkorting toestaat bij het berekenen van prijzen voor Shopify. Deze instelling is alleen van toepassing op prijzen van het artikel. Prijzen voor de klantprijsgroep hebben hun eigen schakelaar op regels.|
+|**Prijzen inclusief btw**|Specificeert of prijsberekeningen voor Shopify btw bevatten. Meer informatie op [Belastingen instellen](setup-taxes.md).|
+|**Btw-bedrijfsboekingsgroepen**|Hiermee wordt opgegeven welke btw-bedrijfsboekingsgroep wordt gebruikt om de prijzen te berekenen in Shopify. Dit moet de groep zijn die u gebruikt voor binnenlandse klanten. Meer informatie op [Belastingen instellen](setup-taxes.md).|
+|**Valutacode**|Voer alleen een Valutacode in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDEprod_short], laat u het veld leeg.|
+
+U kunt prijzen voor gesynchroniseerde artikelen exporteren op de twee hieronder beschreven manieren.
 
 ### Prijzen synchroniseren vanaf de pagina Shopify-producten
 
@@ -202,9 +211,8 @@ Prijzen kunnen worden geëxporteerd voor gesynchroniseerde artikelen op de hiero
 
 ### Opmerkingen over prijsberekening
 
-* Voor prijsberekening is het belangrijk om een waarde in het veld **Standaardklantensjabloon** te hebben. Meer informatie op [Belastingen instellen](setup-taxes.md).
-* Voer alleen een **Valutacode** in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDE[prod_short](../includes/prod_short.md)], laat u het veld leeg.
-* Bij het bepalen van een prijs gebruikt [!INCLUDE[prod_short](../includes/prod_short.md)] 'laagste prijs'-logica. De laagste-prijslogica betekent dat als de eenheidsprijs die is gedefinieerd op de artikelkaart, lager is dan wat is gedefinieerd in de prijsgroep, de eenheidsprijs van de artikelkaart wordt gebruikt.
+* Bij het bepalen van een prijs gebruikt [!INCLUDE[prod_short](../includes/prod_short.md)] 'laagste prijs'-logica. De logica voor de laagste prijs negeert echter de eenheidsprijs die is gedefinieerd op de artikelkaart als er een prijs is gedefinieerd in de prijsgroep. Dit geldt zelfs als de eenheidsprijs van de artikelkaartprijs lager is.
+* Om prijzen te berekenen, maakt de connector een tijdelijke verkoopofferte voor het artikel met een hoeveelheid van 1 en gebruikt standaard prijsberekeningslogica. Alleen prijzen en kortingen die gelden voor hoeveelheid 1 worden gebruikt. U kunt geen verschillende prijzen of kortingen exporteren op basis van hoeveelheid.
 
 ## Voorraad synchroniseren met Shopify
 
@@ -220,7 +228,7 @@ Voorraad synchronisatie kan worden geconfigureerd voor reeds gesynchroniseerde a
 3. Kies de actie **Vestigingen** om **Shopify-winkellocaties** te openen.
 4. Kies de actie **Shopify-vestigingen ophalen** om alle locaties te importeren die zijn gedefinieerd in Shopify. U vindt ze in de [**Vestigingen**](https://www.shopify.com/admin/settings/locations)-instellingen in uw **Shopify beheer**.
 5. Voeg in het veld **Locatiefilter** locaties toe als u alleen voorraad van specifieke locaties wilt opnemen. U kunt bijvoorbeeld *OOST|WEST* invoeren, om alleen voorraad van deze twee vestigingen beschikbaar te maken voor verkoop via de online winkel.
-6. Deselecteer de schakelaar **Uitgeschakeld** om voorraadsynchronisatie in te schakelen voor geselecteerde Shopify-vestigingen.
+6. Selecteer de voorraadberekeningsmethode die u wilt gebruiken voor de geselecteerde Shopify-vestigingen.
 
 U kunt afbeeldingssynchronisatie op de hieronder beschreven twee manieren initialiseren.
 
@@ -237,9 +245,10 @@ U kunt afbeeldingssynchronisatie op de hieronder beschreven twee manieren initia
 
 ### Opmerkingen over voorraad
 
-* De connector berekent de **Voorspelde beschikbare voorraad** op de huidige datum en exporteert deze naar Shopify.
+* De standaardvoorraadberekeningsmethode is **Voorspelde beschikbare voorraad op datum**. Met uitbreidbaarheid kunt u meer opties toevoegen. Ga voor meer informatie over uitbreidbaarheid naar [voorbeelden](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
 * U kunt de voorraadinformatie inspecteren die u hebt ontvangen van Shopify op de pagina **Feitenblok Shopify-voorraad**. In dit feitenblok krijgt u een overzicht van de Shopify-voorraad en de laatst berekende voorraad in [!INCLUDE[prod_short](../includes/prod_short.md)]. Er is één record per vestiging.
 * Als de voorraadinformatie in Shopify verschilt van **Voorspelde beschikbare voorraad** in [!INCLUDE[prod_short](../includes/prod_short.md)], wordt de voorraad bijgewerkt in Shopify.
+* Wanneer u een nieuwe locatie toevoegt in Shopify, moet u er ook inventarisrecords voor toevoegen. Shopify doet dat niet automatisch voor bestaande producten en varianten, en de connector synchroniseert geen voorraadniveaus voor dergelijke artikelen op een nieuwe vestiging. Ga voor meer informatie naar [Voorraad toewijzen aan vestigingen](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 
 #### Voorbeeld van berekening van voorspeld beschikbaar saldo
 

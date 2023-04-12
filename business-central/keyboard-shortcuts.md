@@ -1,14 +1,14 @@
 ---
-title: Toetsenbordsneltoetsen
+title: Sneltoetsen
 description: De volledige lijst met toetsenbordsneltoetsen om efficiënt met uw gegevens te werken.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/16/2022
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Toetsenbordsneltoetsen
@@ -39,6 +39,7 @@ De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschill
 
 |Selecteer deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
+|<kbd>Alt</kbd>|Toon toegangstoetsen voor het selecteren van acties in de actiebalk en het navigatiemenu op de pagina. Ga voor meer informatie naar [Toegangstoetsen](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>Pijl omhoog</kbd>|Een vervolgkeuzelijst openen of een waarde voor een veld opzoeken.|
 |<kbd>Alt</kbd>+<kbd>Pijl omhoog</kbd>|Knopinfo weergeven voor een veld of een kolomkop van een tabel. Als het veld validatiefouten heeft, selecteert u <kbd>Alt</kbd>+<kbd>Pijl omhoog</kbd> om de validatiefout te bekijken. Selecteer <kbd>Esc</kbd> of <kbd>Alt</kbd>+<kbd>Pijl omhoog</kbd> om de knopinfo te sluiten.|
 |<kbd>F2</kbd>|Schakelen tussen het selecteren van de volledige veldwaarde of het plaatsen van de cursor aan het einde van de veldwaarde.|
@@ -51,7 +52,7 @@ De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschill
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |Een nieuw gemaakte pagina sluiten en een nieuwe openen om een nieuwe record te maken. Met <kbd>Alt</kbd>+<kbd>F9</kbd> publiceert u een document en maakt u een nieuw.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|De pagina **Mijn instellingen** openen.|
 |<kbd>Alt</kbd>+<kbd>Pijl rechts</kbd>|Zoek aanvullende informatie of onderliggende waarden voor een veld dat de knop ![AssistEdit](media/assist-edit-icon.png "Knop AssistEdit") bevat. -knop. Gebruikt wanneer de gebruikelijke vervolgkeuzeknop (<kbd>Alt</kbd>+<kbd>Pijl omhoog</kbd>) in hetzelfde veld voor een ander doel wordt gebruikt.|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Informatie weergeven in de bedrijfsbadge. Deze sneltoets is stopgezet in Business Central 2022 releasewave 2 (versie 21) en vervangen door <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Informatie weergeven in de bedrijfsbadge. Deze sneltoets wordt niet meer ondersteunt in Business Central 2022 releasewave 2 (versie 21) en wordt vervangen door <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Het pagina-inspectiedeelvenster openen en sluiten. Het pagina-inspectiedeelvenster bevat informatie over de pagina, zoals de brontabel, velden, filters, extensies en meer.<br /><br />Zie [Pagina's inspecteren](across-inspect-page.md) voor meer informatie.|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |De waarde van het veld kopiëren. Als het veld de focus heeft en u geen tekst in het veld hebt geselecteerd, wordt hiermee de hele waarde gekopieerd. Als u een tekst in het veld hebt geselecteerd, wordt alleen de geselecteerde tekst gekopieerd.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Open het [helpvenster](product-help-and-support.md#help-pane) of een Business Central-helpartikel op [Microsoft Learn](/dynamics365/business-central/), afhankelijk van uw Business Central-versie.|
@@ -245,6 +246,19 @@ De volgende tabel beschrijft de sneltoetsen op een numeriek toetsenblok.
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Decimaalteken</kbd>|Wijzig de uitvoer van de decimaaltekentoets naar een punt (.) of het teken dat wordt bepaald door de instelling **Regio** op de pagina **Mijn instellingen**. Zie [Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden](ui-enter-data.md#decimal) voor meer informatie.|
 
+
+## Toegangstoetsen voor actiebalk en navigatiemenu
+
+Toegangstoetsen zijn sneltoetsen die specifieke acties op de actiebalk en het navigatiemenu selecteren, zodat u door acties kunt navigeren om naar de gewenste pagina te gaan. Toegangssleutels zijn beschikbaar in de Business Central-webclient en zijn vergelijkbaar met toegangssleutels in Excel en Word Online.  
+
+Als u toegangstoetsen op een pagina wilt gebruiken, selecteert u eerst de toets <kbd>Alt</kbd> om *knoptips* weer te geven. Dit zijn letters in kleine vakjes naast de acties in de actiebalk en het navigatiemenu. 
+
+![Afbeelding met toegangssleutels op de klantenlijstpagina.](media/access-keys.png) 
+
+Om een actie te selecteren, selecteert u de toetsencombinatie die wordt weergegeven in de knoptip, bijvoorbeeld <kbd>H</kbd> of <kbd>J</kbd>+<kbd>F</kbd>.
+- Als de actie opent naar een submenu met andere acties, worden de toetstips voor het submenu weergegeven, zodat u de toegangstoetsen kunt blijven gebruiken als u dat wilt.
+- Als de actie een andere pagina opent, zijn belangrijke tips uitgeschakeld. Selecteer de toets <kbd>Alt</kbd> om ze opnieuw weer te geven. 
+ 
 ## Zie ook
 
 [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)  
