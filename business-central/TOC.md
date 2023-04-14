@@ -428,6 +428,7 @@
 ### [Grootboekbudgetten maken](finance-how-create-budgets.md)
 ### [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
 ### [Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken](finance-how-reverse-journal-posting.md)
+### [Export van controlebestand](finance-how-to-export-audit-files.md)
 ### [Kosten en inkomsten toewijzen](year-allocate-costs-income.md)
 ### [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)
 ### [Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)
