@@ -2,7 +2,6 @@
 title: Extensie Cloud-migratiebasis
 description: Gebruik de extensie Cloud-migratiebasis om uw on-premises oplossing te verbinden met Business Central online.
 author: edupont04
-manager: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
