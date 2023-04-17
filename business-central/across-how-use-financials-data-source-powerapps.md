@@ -12,15 +12,19 @@ ms.author: jswymer
 
 U kunt uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens als gegevensbron beschikbaar maken in Power Apps.  
 
-> [!NOTE]  
-> U moet een geldig account bij [!INCLUDE[prod_short](includes/prod_short.md)] en Power Apps hebben.  
+> [!TIP]  
+> De aanvullende Power Apps-documentatie en onze Power App-voorbeelden die tijdens het [!INCLUDE[prod_short](includes/prod_short.md)] introductie-evenement worden gepresenteerd, worden hier later in 2023 wave 1 gepubliceerd. Lees meer op [Aan de slag met meer Power Automate-voorbeeldsjablonen en Power Apps](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/get-started-more-sample-power-automate-templates-power-apps).
+
+## Vereisten
+
+U moet een geldig account bij [!INCLUDE[prod_short](includes/prod_short.md)] en Power Apps hebben.  
 
 ## [!INCLUDE[prod_short](includes/prod_short.md)] als gegevensbron toevoegen in Power Apps
 
 1. Navigeer in de browser naar [powerapps.microsoft.com](https://powerapps.microsoft.com/) en meld u aan.
 2. Kies op de startpagina in de sectie **Start vanuit gegevens** de tegel **Andere gegevensbronnen**.  
 
-    Dit opent Power Apps Studio. Bij de eerste aanmelding moet u het land/regio specificeren.  
+    Deze stap opent Power Apps Studio. Bij de eerste aanmelding moet u het land/regio specificeren.  
 3. Kies in de lijst met beschikbare verbindingen **Business Central** en kies de knop **Maken**.
 
     Power Apps maakt verbinding met uw [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van de aanmeldingsgegevens waarmee u bent aangemeld. Als u geen beheerder hebt van uw [!INCLUDE[prod_short](includes/prod_short.md)], kunt u zich met een ander account aanmelden.  
@@ -34,7 +38,7 @@ Deze zogenaamde tabellen worden door de [!INCLUDE[prod_short](includes/prod_shor
 > [!NOTE]
 > Als u gegevens uit andere tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] in uw app wilt opnemen, moet u met een ontwikkelaar werken om een aangepaste API te definiëren in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Nu hebt u met succes een koppeling gemaakt naar uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens en kunt u uw PowerApp gaan maken. U kunt extra schermen toevoegen en verbinding met extra gegevens maken vanuit uw [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Een canvasapp maken vanuit een voorbeeld in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
+Nu hebt u met succes een koppeling gemaakt naar uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens en kunt u uw Power App gaan maken. U kunt meer schermen toevoegen en verbinding met meer gegevens maken vanuit uw [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Een canvasapp maken vanuit een voorbeeld in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
 Wanneer u de app hebt ontworpen en gemaakt, u deze met uw collega's delen. Zie voor meer informatie [Een canvasapp opslaan en publiceren in Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 

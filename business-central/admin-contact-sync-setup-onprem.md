@@ -1,12 +1,12 @@
 ---
 title: Stel contactsynchronisatie in met Outlook voor Business Central on-premises
-description: Leer hoe u een Business Central on-premises-omgeving configureert Contactsynchronisatie instellen met Outlook voor Business Central on-premises
+description: Leer hoe u een Business Central on-premises-omgeving configureert om contacten in Business Central en Outlook te synchroniseren.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 03/17/2023
+ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
