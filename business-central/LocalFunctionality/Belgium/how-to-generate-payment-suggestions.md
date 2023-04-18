@@ -1,6 +1,6 @@
 ---
-title: Betalingsvoorstellen genereren [BE]
-description: Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.
+title: 'Betalingsvoorstellen genereren [BE]'
+description: 'Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,17 +9,11 @@ ms.workload: na
 ms.search.form: 256
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: ea4d0844d4b915f5e97d3bb7da5fef67a3444e9d
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366308"
 ---
-# <a name="generate-payment-suggestions-in-the-belgian-version"></a>Betalingsvoorstellen genereren in de Belgische versie
+# Betalingsvoorstellen genereren in de Belgische versie
 Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren van betalingsvoorstellen. U kunt dit doen in het betalingsdagboek.  
 
-## <a name="to-generate-payment-suggestions"></a>Betalingsvoorstellen genereren  
+## Betalingsvoorstellen genereren  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de juiste dagboekbatch en kies vervolgens de actie **Leveranciersbetalingen voorstellen**.  
@@ -39,7 +33,7 @@ Als u elektronisch bankieren hebt ingesteld, kunt u beginnen met het genereren v
 
 Wanneer de batchverwerking is uitgevoerd, bevat het betalingsdagboek alle leveranciersposten die overeenkomen met de filters.  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
  [Belgische elektronische betalingen](belgian-electronic-payments.md)   
  [Leveranciers voor automatische betalingsvoorstellen instellen](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)   

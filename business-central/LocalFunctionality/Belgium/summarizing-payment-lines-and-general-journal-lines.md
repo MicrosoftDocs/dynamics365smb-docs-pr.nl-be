@@ -1,19 +1,13 @@
 ---
-title: Betalingsregels en dagboekregels [BE]
-description: Business Central geeft een overzicht van betalingsregels en dagboekregels voor binnenlands, internationale, SEPA- en niet-eurobetalingen.
+title: 'Betalingsregels en dagboekregels [BE]'
+description: 'Business Central geeft een overzicht van betalingsregels en dagboekregels voor binnenlands, internationale, SEPA- en niet-eurobetalingen.'
 author: SorenGP
 ms.topic: conceptual
 ms.search.form: 11308
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c3107ff689779de28d6b844dc5f229d4e58ae15d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148946"
 ---
-# <a name="summarizing-payment-lines-and-general-journal-lines-in-the-belgian-version"></a>Betalingsregels en dagboekregels in de Belgische versie
+# Betalingsregels en dagboekregels in de Belgische versie
 
 Business Central geeft een overzicht van betalingsregels en dagboekregels van de volgende typen betalingen:  
 
@@ -22,7 +16,7 @@ Business Central geeft een overzicht van betalingsregels en dagboekregels van de
 - SEPA-betalingen  
 - Niet-euro SEPA-betalingen  
 
-## <a name="how-payment-journal-lines-are-transferred-to-the-general-journal"></a>Hoe betalingsdagboekregels naar het grootboek worden overgebracht
+## Hoe betalingsdagboekregels naar het grootboek worden overgebracht
 
 Wanneer u de betalingsdagboekregels naar een bestand exporteert, brengt [!INCLUDE[prod_short](../../includes/prod_short.md)] de betalingsdagboekregels naar het opgegeven dagboek over. Standaard wordt een dagboekregel gemaakt voor elke betalingsdagboekregel.  
 
@@ -37,14 +31,14 @@ Als u het selectievakje **Alg. dagb.regels samenvatten** op de pagina **Elektron
 
 - Betalingsdagboekregels die een bericht met een standaardindeling bevatten (slagen voor de MOD97-test), waarmee **Bericht met standaardindeling** op Waar wordt ingesteld in het dagboek voor elektronisch bankieren.
 
-## <a name="example-1"></a>Voorbeeld 1
+## Voorbeeld 1
 
 In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. [!INCLUDE[prod_short](../../includes/prod_short.md)] maakt:  
 
 - Een gecombineerde betalingsregel in een XML-bestand met een samengevoegd betalingsbericht. Spaties zijn het scheidingsteken.  
 - Eén betalingsregel in het grootboek met een algemene beschrijving die de leveranciersnaam bevat.  
 
-## <a name="example-2"></a>Voorbeeld 2
+## Voorbeeld 2
 
 In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. Het selectievakje **Tekst van betaalberichten afbreken** wordt gewist en de gecombineerde SEPA- en niet-auto SEPA-betalingsregels overschrijden 140 tekens in het betalingsbericht. [!INCLUDE[prod_short](../../includes/prod_short.md)] maakt:  
 
@@ -52,7 +46,7 @@ In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dag
 
 - Eén betalingsregel in het grootboek met een algemene beschrijving die de leveranciersnaam bevat.  
 
-## <a name="example-3"></a>Voorbeeld 3
+## Voorbeeld 3
 
 In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. Het selectievakje **Tekst van betaalberichten afbreken** wordt ook ingeschakeld en de gecombineerde SEPA- en niet-SEPA betalingsregels overschrijden 140 tekens in het betalingsbericht. [!INCLUDE[prod_short](../../includes/prod_short.md)] maakt:  
 
@@ -64,7 +58,7 @@ Op basis van de XML-structuur worden betalingen samengevat per rekeningnummer, b
 
 De EndToEndId in het SEPA-bericht wordt gehaald uit het betalingsbericht en kan worden afgekapt tot de maximumlengte van 45 tekens.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
  [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)   
  [Financiën instellen](../../finance-setup-finance.md)  

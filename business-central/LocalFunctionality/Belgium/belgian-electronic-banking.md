@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 11308
 ms.date: 01/10/2022
 ms.author: edupont
-ms.openlocfilehash: eab0597a3fc77937a7be86a22268a5aef8646bd5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129387"
 ---
-# <a name="belgian-electronic-banking"></a>Elektronisch bankieren voor België
+# Elektronisch bankieren voor België
 
 In de Belgisch versie van [!INCLUDE [prod_short](../../includes/prod_short.md)] kunt u gegevens elektronisch uitwisselen met Belgische financiële instellingen. Dit versnelt de verwerkingstijd en helpt fouten voorkomen als gevolg van handmatige gegevensinvoer of -verwerking.  
 
@@ -26,7 +20,7 @@ U kunt elektronisch bankieren gebruiken om de volgende functies uit te voeren:
 - Bankafschriften met CODA verwerken.  
 - Incassobetalingen verwerken met domiciliëringen.  
 
-## <a name="setup"></a>Instelling
+## Instelling
 
 Voordat u elektronische betalingen en bankafschriften kunt verwerken, moet u elektronisch bankieren instellen op de pagina **Elektronisch bankieren instellen** zoals beschreven in de volgende tabel.
 
@@ -37,7 +31,7 @@ Voordat u elektronische betalingen en bankafschriften kunt verwerken, moet u ele
 
 Zie [Betalingsregels en dagboekregels samenvatten](summarizing-payment-lines-and-general-journal-lines.md) voor meer informatie over de invloed van de twee velden op de wijze waarop betalingsdagboekregels worden overgedragen naar het dagboek.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Belgische lokale functionaliteit](belgium-local-functionality.md)  
 [Belgische elektronische betalingen](belgian-electronic-payments.md)  

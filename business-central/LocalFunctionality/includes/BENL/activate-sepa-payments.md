@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/13/2021
 ms.author: edupont
-ms.openlocfilehash: bffcdb6ca319678e23e14ee17b0766157988577f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132225"
 ---
 Als u betalingen van leveranciers automatisch wilt verzenden in de Single Euro Payments Area (SEPA) ISO 20022-betalingsindeling, moet u vereisten instellen om SEPA-betalingen in te schakelen in uw bedrijf.  
 

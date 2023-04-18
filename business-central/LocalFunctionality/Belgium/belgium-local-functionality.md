@@ -3,21 +3,15 @@ title: Belgische lokale functionaliteit
 description: In de volgende onderwerpen worden verschillende lokale functionaliteiten in de Belgische versie van Business Central beschreven.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: 61d7ca851561cd666b86457fce710903935d6b42
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799736"
 ---
-# <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
+# Belgische lokale functionaliteit
 
 In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[prod_short](../../includes/prod_short.md)]  
 
-## <a name="feature-availability"></a>Beschikbaarheid van functies
+## Beschikbaarheid van functies
 
 * Btw
     * [Belgische btw](belgian-vat.md) **Nu beschikbaar**
@@ -30,7 +24,7 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Het rapport Intrastat - Formulier afdrukken](how-to-print-the-intrastat-form-report.md) **Nu beschikbaar**
     * [Aangiftesoorten instellen](how-to-set-up-declaration-types.md) **Nu beschikbaar**
     * [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md) **Nu beschikbaar**
-    * F01DGS- en F02CMS-serviceaangiften **2022-releasewave 2**
+    * [F01DGS-serviceaangiften](../../finance-how-setup-use-service-declaration.md) **Nu beschikbaar**
 
 * Bankieren en betalingen
     * [Bankrekeningen voor CODA instellen](how-to-set-up-bank-accounts-for-coda.md) **Nu beschikbaar**
@@ -65,13 +59,17 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Exporteren naar Accon](how-to-export-to-accon.md) **Nu beschikbaar**
     * [[Dagboeksjablonen verplicht maken]](specify-journal-template-mandatory.md) **Nu beschikbaar**
 
-* Alge&meen
+* Algemeen
     * [Ondernemingnummers en filiaalnummers](enterprise-numbers-and-branch-numbers.md) **Nu beschikbaar**
     * [De boekingsperiode beperken](how-to-limit-the-posting-period.md) **Nu beschikbaar**
     * [De werkdatum als boekingsdatum instellen](how-to-set-the-work-date-as-the-posting-date.md) **Nu beschikbaar**
     * [Dagboeksjablonen verplicht maken](specify-journal-template-mandatory.md) **Nu beschikbaar**
 
-## <a name="see-also"></a>Zie ook
+## Toekomstige wetgevingseisen worden onderzocht
+
+Er zijn momenteel geen aanstaande reglementaire kenmerken of vereisten. Als u op de hoogte bent van nieuwe regelgeving, dient u een [Waarschuwing voor regelgeving voor functies](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u) in.
+
+## Zie ook
 
 [Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Beschikbaarheid voor land/regio en ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

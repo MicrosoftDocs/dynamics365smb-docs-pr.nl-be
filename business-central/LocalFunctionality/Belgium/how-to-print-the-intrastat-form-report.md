@@ -1,22 +1,16 @@
 ---
-title: Het rapport Intrastat - Formulier afdrukken [BE]
+title: 'Het rapport Intrastat - Formulier afdrukken [BE]'
 description: Het rapport Intrastat - Formulier moet worden gebruikt voor het doorgeven van de beweging van goederen aan Intrastat.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 56ef1f753117ef85396a94a26e9d1402aa0e7b21
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605675"
 ---
-# <a name="print-the-intrastat-form-report-in-the-belgian-version"></a>Het rapport Intrastat - Formulier afdrukken in de Belgische versie.
+# Het rapport Intrastat - Formulier afdrukken in de Belgische versie.
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
@@ -24,7 +18,7 @@ Het rapport **Intrastat - Formulier** moet worden gebruikt voor Intrastat-rappor
 
 Voordat u het rapport **Intrastat - Formulier** afdrukt, kunt u ook het rapport **Intrastat - Controlelijst** afdrukken om de inhoud van het rapport te verifiëren.  
 
-## <a name="to-print-the-intrastat-form-report"></a>Het rapport Intrastat - Formulier afdrukken  
+## Het rapport Intrastat - Formulier afdrukken  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Intrastat - Formulier** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in zoals beschreven in de volgende tabel.  
@@ -43,7 +37,7 @@ Voordat u het rapport **Intrastat - Formulier** afdrukt, kunt u ook het rapport 
 
 3. Kies de knop **Afdrukken** om het rapport af te drukken of kies de knop **Voorbeeld** om het rapport op het scherm weer te geven.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)  
 [Aangiftesoorten instellen](how-to-set-up-declaration-types.md)  

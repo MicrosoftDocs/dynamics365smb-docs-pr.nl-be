@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 840b62ff629392480cc93313ee99d0e9cfa8e34c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607166"
 ---
-# <a name="belgian-intrastat-reporting"></a>Belgische Intrastat-rapportage
+# Belgische Intrastat-rapportage
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
@@ -27,11 +21,11 @@ Bedrijven uit EU-landen/regio's moeten handel met bedrijven uit andere landen/re
 
 Als u wilt bepalen wat voor soort aangifte u moet gebruiken, raadpleegt u de website van de [Nationale bank van België](https://aka.ms/BelgianNationalBank).  
 
-## <a name="submitting-the-intrastat-report"></a>Het Intrastat-rapport indienen
+## Het Intrastat-rapport indienen
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u de Intrastat-aangiften exporteren naar een bestand dat u vervolgens indient op de OneGate-portal. Zie [Intrastat-aangiftes van derden exporteren](how-to-export-intrastat-third-party-declararations.md) voor meer informatie.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Belgische lokale functionaliteit](belgium-local-functionality.md)  
 [Aangiftesoorten instellen](how-to-set-up-declaration-types.md)  

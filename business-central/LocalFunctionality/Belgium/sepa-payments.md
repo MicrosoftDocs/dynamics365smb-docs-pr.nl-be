@@ -1,26 +1,20 @@
 ---
-title: SEPA-betalingen [BE]
+title: 'SEPA-betalingen [BE]'
 description: Single Euro Payments Area (SEPA) verenigt de betalingsmethoden in deelnemende Europese landen waardoor zodat internationale betalingen even gemakkelijk te verwerken worden als binnenlandse betalingen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: ca250fc4b07531a2e75cf21b7250607528e51ab1
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367060"
 ---
-# <a name="sepa-payments-in-the-belgian-version"></a>SEPA-betalingen in de Belgische versie
+# SEPA-betalingen in de Belgische versie
 
 SEPA (Single Euro Payments Area) verenigt de betalingsmethoden in deelnemende Europese landen. Hierdoor worden internationale betalingen even gemakkelijk te verwerken als binnenlandse betalingen. Ongeacht de locatie, kunnen Europese burgers en bedrijven betalingen in euro's verrichten en ontvangen, binnen of buiten nationale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Febelfin-website](https://go.microsoft.com/fwlink/?LinkId=275119)   
 [ISO 20022-website](https://go.microsoft.com/fwlink/?LinkId=275120)   

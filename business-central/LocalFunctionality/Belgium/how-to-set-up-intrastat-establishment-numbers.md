@@ -1,5 +1,5 @@
 ---
-title: Intrastat-nummers instellen [BE]
+title: 'Intrastat-nummers instellen [BE]'
 description: Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.
 services: project-madeira
 documentationcenter: ''
@@ -8,29 +8,23 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 7ab5d08e27aa80752c52ff82fa6e0951ef35afec
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607160"
 ---
-# <a name="set-up-intrastat-establishment-numbers-in-the-belgian-version"></a>Intrastat-nummers instellen in de Belgische versie
+# Intrastat-nummers instellen in de Belgische versie
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 Het Intrastat-nummer is een bedrijfsidentificatienummer dat wordt afgedrukt op de Intrastat-aangifte.  
 
-## <a name="to-set-up-an-intrastat-establishment-number"></a>Een Intrastat-nummer instellen
+## Een Intrastat-nummer instellen
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in het veld **Intrastat-nr.** het Intrastat-nummer in. veld.  
 3. Kies de knop **Ok**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)  
 [Aangiftesoorten instellen](how-to-set-up-declaration-types.md)  

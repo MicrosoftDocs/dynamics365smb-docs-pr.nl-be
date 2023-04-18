@@ -1,29 +1,23 @@
 ---
-title: Belgische CODA-bankafschriften [BE]
-description: CODA (geCOdeerd DAgafschrift) is een nationale bankstandaard, ontworpen door de Belgische Vereniging van Banken, om elektronische bankafschriften automatisch te verwerken.
+title: 'Belgische CODA-bankafschriften [BE]'
+description: 'CODA (geCOdeerd DAgafschrift) is een nationale bankstandaard, ontworpen door de Belgische Vereniging van Banken, om elektronische bankafschriften automatisch te verwerken.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 2000040, 2000041, 2000042, 2000043, 2000045
+ms.search.keywords: null
+ms.search.form: '2000040, 2000041, 2000042, 2000043, 2000045'
 ms.date: 02/08/2022
 ms.author: edupont
-ms.openlocfilehash: 906a560198db4a98c966cf61207ad20f19373284
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136720"
 ---
-# <a name="belgian-coda-bank-statements-in-the-belgian-version"></a>Belgische CODA-bankafschriften in de Belgische versie
+# Belgische CODA-bankafschriften in de Belgische versie
 
 CODA (geCOdeerd DAgafschrift) is een nationale bankstandaard, ontworpen door de Belgische Vereniging van Banken, waarmee elektronische bankafschriften automatisch kunnen worden verwerkt.  
 
 Aan elke soort transactie in een CODA-afschrift wordt een unieke code toegewezen. [!INCLUDE[prod_short](../../includes/prod_short.md)] gebruikt deze code om transacties te interpreteren en deze te vereffenen met de betreffende posten.  
 
-## <a name="applying-statement-lines"></a>Afschriftregels vereffenen
+## Afschriftregels vereffenen
 
 Wanneer u een CODA-afschrift hebt geïmporteerd, kunt u de afschriftregels vereffenen met bestaande posten, op basis van de gegevens in de tabel **Transactiecodering**.  
 
@@ -47,11 +41,11 @@ U kunt het proces zo vaak uitvoeren als u wilt. Alleen afschriftregels met een l
 
 Wanneer u alle afschriftregels hebt vereffend met een grootboekrekening of een bijbehorende klanten- of leverancierspost, kunt u de CODA-afschriftregels boeken. Zie voor meer informatie [CODA-afschriften automatisch overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md).  
 
-## <a name="extending-the-coda-integration"></a>De CODA-integratie uitbreiden
+## De CODA-integratie uitbreiden
 
 De huidige ondersteuning voor CODA-bankafschriften kan in [!INCLUDE [prod_short](../../includes/prod_short.md)] online en on-premises worden gebruikt. Partners kunnen echter de functies niet uitbreiden in een app voor [!INCLUDE [prod_short](../../includes/prod_short.md)] online. De code is niet afgeschaft maar kan alleen worden uitgebreid of aangepast voor on-premises implementaties.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Elektronisch bankieren voor België](belgian-electronic-banking.md)   
 [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md)   

@@ -1,6 +1,6 @@
 ---
-title: Bankrekeningen instellen voor CODA [BE]
-description: Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u bepaalde codes instellen.
+title: 'Bankrekeningen instellen voor CODA [BE]'
+description: 'Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u bepaalde codes instellen.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -8,24 +8,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 7ed2c6b29ad7fda690822cbd600c541da3cfc6af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129381"
 ---
-# <a name="set-up-bank-accounts-for-coda-in-the-belgian-version"></a>Bankrekeningen instellen voor CODA in de Belgische versie
+# Bankrekeningen instellen voor CODA in de Belgische versie
 Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u de volgende codes instellen:  
 
 - Protocolnummer  
 - Versiecode  
 - IBLC/BLWI-codes - Zie [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md) voor meer informatie.  
 
-## <a name="to-set-up-protocol-numbers-and-version-codes"></a>Protocolnummers en versiecodes instellen  
+## Protocolnummers en versiecodes instellen  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Bewerken**.  
@@ -38,7 +32,7 @@ Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften k
 
 4.  Kies de knop **OK**.  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
  [CODA-bankafschriften](coda-bank-statements.md)   
  [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [CODA-afschriften importeren](how-to-import-coda-statements.md)
