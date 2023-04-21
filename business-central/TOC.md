@@ -810,6 +810,7 @@
 ##### [De boekingsperiode beperken](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [De werkdatum als boekingsdatum instellen](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Journaalsjablonen verplicht maken](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Uitstel in verkoop- en inkoopboekrapporten](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canada
 #### [Lokale functionaliteit in de Canadese versie](LocalFunctionality/Canada/canada-local-functionality.md)

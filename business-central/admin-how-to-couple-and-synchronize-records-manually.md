@@ -45,7 +45,7 @@ Deze video toont het koppelen en synchroniseren van gegevens in het kader van ee
 2. Kies de actie **[!INCLUDE[prod_short](includes/prod_short.md)]** op het lint om een record automatisch te openen en te koppelen.
 
     > [!Note]
-    > U kunt één record alleen automatisch synchroniseren vanuit [!INCLUDE[crm_md](includes/crm_md.md)] wanneer **Alleen gekoppelde records synchr.** is uitgeschakeld en de synchronisatierichting is ingesteld op Bidirectioneel of Van integratietabel op de pagina **Toewijzing van integratietabel** voor de record. Zie voor meer informatie [De tabellen en velden toewijzen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
+    > U kunt één record alleen automatisch synchroniseren vanuit [!INCLUDE[crm_md](includes/crm_md.md)] wanneer **Alleen gekoppelde records synchr**. is uitgeschakeld en de synchronisatierichting is ingesteld op **Bidirectioneel** of **Van integratietabel** op de pagina **Toewijzing van integratietabel** voor de record. Zie voor meer informatie [De tabellen en velden toewijzen voor synchronisatie](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
 ## Meerdere records koppelen met behulp van op overeenkomsten gebaseerde koppeling
 
@@ -63,6 +63,36 @@ Specificeer de gegevens die moeten worden gesynchroniseerd voor een entiteit, zo
 1. Open in [!INCLUDE[prod_short](includes/prod_short.md)] de lijstpagina voor de record, zoals de lijstpagina Klanten of Contacten.  
 2. Selecteer de records die u wilt synchroniseren en kies vervolgens de actie **Nu synchroniseren**.  
 3. Als records in één richting kunnen worden gesynchroniseerd, selecteert u de optie die de richting opgeeft, en kiest u vervolgens **OK**.  
+
+## Records bulk-invoegen en koppelen
+
+Als u een groot aantal Dataverse-entiteiten hebt die overeenkomen met records in [!INCLUDE [prod_short](includes/prod_short.md)], kunt u ze in bulk invoegen en koppelen. U kunt bijvoorbeeld records bulksgewijs invoegen en koppelen wanneer u voor het eerst synchronisatie instelt.
+
+U gebruikt de **wizard Gegevens importeren** in het **Microsoft Power Platform-beheercentrum**.
+
+In het volgende voorbeeld wordt beschreven hoe u klanten met accounts in bulk invoegt en koppelt in Dataverse. Gebruik hetzelfde proces voor andere typen entiteiten, zoals leveranciers, artikelen en resources.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
+2. Kies de actie **Openen in Excel** om klantgegevens in Excel te openen. <!--Don't they need to choose the customers that they want to import to Dataverse?-->
+3. Als u gegevens wilt toewijzen en importeren in de entiteit **Account** in Dataverse, volgt u de stappen die worden beschreven in [Gegevens (alle recordtypen) importeren uit meerdere bronnen](/power-platform/admin/import-data-all-record-types).  
+
+    Als de accountentiteit een kolom **bcbi_companyid** heeft, moet u er bij het toewijzen van de gegevenskolommen voor zorgen dat de import de juiste bedrijfs-id in de kolom toewijst voor elke geïmporteerde record. Volg deze stappen om de bedrijfs-id te vinden in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+    1. Open de pagina **Toewijzingen van integratietabellen**.
+    2. Kies de toewijzing **KLANT** en kies vervolgens **Lijst bewerken**.
+    3. Schuif naar rechts en kies de knop AssistEdit :::image type="icon" source="media/assist-edit-icon.png" border="false"::: in het veld **Filter integratietabel**. Dit toont het standaardfilter voor klanttoewijzing en bevat de bedrijfs-id. De bedrijfs-id is het eerste deel van de waarde. Kopieer alleen dat deel en negeer de nullen. In het volgende voorbeeld wordt het gedeelte gemarkeerd dat moet worden gekopieerd.
+
+    :::image type="content" source="media/dataverse-company-id-guid.png" alt-text="Toont het gedeelte van de bedrijfs-id dat moet worden gekopieerd.":::
+
+    > [!NOTE]
+    > Niet alle namen van Dataverse-entiteiten en Business Central-records komen overeen. Controleer na het importeren of de volgende kolommen de volgende waarden hebben, afhankelijk van wat u importeert:
+    >
+    >* Voor klanten moet de kolom **CustomerTypeCode** **Klant** bevatten.
+    >* Voor leveranciers moet de kolom **CustomerTypeCode** **Leveranciers** bevatten. 
+    >* Voor artikelen moet de kolom **ProductTypeCode** **Verkoopvoorraad** bevatten.
+    >* Voor resources moet de kolom **ProductTypeCode** **Service** bevatten.
+ 
+4. Nadat u gegevens in de Dataverse-omgeving hebt geïmporteerd, volgt u in [!INCLUDE [prod_short](includes/prod_short.md)] de stappen om [meerdere records te koppelen met op overeenkomsten gebaseerde koppeling](#to-couple-multiple-records-using-match-based-coupling) om de Dataverse-entiteiten te koppelen met [!INCLUDE [prod_short](includes/prod_short.md)]-records. 
 
 ## Records ontkoppelen
 

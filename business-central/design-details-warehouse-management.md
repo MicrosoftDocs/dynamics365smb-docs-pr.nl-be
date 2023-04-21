@@ -28,7 +28,7 @@ Implementeer deze functies in verschillende combinaties om uw magazijnprocessen 
 
 ## Overzicht van verschillende configuratieopties
 
-U kunt magazijnfuncties op verschillende manieren configureren. Het is belangrijk dat de opties die u kiest uw processen verbeteren zonder overhead te veroorzaken. De volgende tabel geeft een overzicht van typische configuraties die worden gebruikt bij het omgaan met fysieke goederen.
+U kunt magazijnfuncties op verschillende manieren configureren. Het is belangrijk opties te kiezen die uw processen verbeteren zonder overhead te veroorzaken. De volgende tabel geeft een overzicht van typische configuraties die worden gebruikt bij het omgaan met fysieke goederen.
 
 |Complexiteitniveau|Omschrijving|Instellingen|Opslaglocatie|Voorbeeld van inkomende stroom|Voorbeeld van uitgaande stroom|Voorbeeld van interne stroom|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -61,7 +61,7 @@ Om fysieke goederen af te handelen, moet u ten minste één vestiging hebben. U 
 Vestigingen zijn doorgaans de voorkeursmanier om operaties te organiseren die over geografische gebieden zijn verspreid. In sommige gevallen wilt u misschien meerdere vestigingen maken die zich op dezelfde plek bevinden. Het gebruik van vestigingen heeft de volgende voordelen:
 
 * Verleen toegang via de pagina's **Magazijnmedewerker** en **Divisies** .
-* Definieer agenda's, bewerkingsplannen en inkomende en uitgaande verwerkingstijden voor datumberekening en planning. [Over het plannen van functionaliteit](production-about-planning-functionality.md)
+* Definieer agenda's, bewerkingsplannen en inkomende en uitgaande verwerkingstijden voor datumberekening en planning. Lees meer op [Over het plannen van functionaliteit](production-about-planning-functionality.md).
 * Geef standaarddimensies op en gebruik verschillende instellingen voor voorraadboeking.
 * Stel planningsparameters in. Zie voor meer informatie [Planningsparameters](production-about-planning-functionality.md#planning-parameters).  
 * Gebruik verschillende magazijnfuncties voor elke vestiging.

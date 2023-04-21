@@ -44,8 +44,8 @@ U kunt de volgende terugkerende activiteiten plannen om geautomatiseerd te worde
 
 Andere taken die nuttig kunnen zijn om de verdere verwerking van verkoopdocumenten te automatiseren:
 
-- rapport 497 Batchboeken inkoopfacturen
-- rapport 496 Batchboeken inkooporders
+- rapport 297 Batchboeken verkoopfacturen
+- rapport 296 Batchboeken verkooporders
 
 U kunt het veld **Shopify-ordernr.** gebruiken om verkoopdocumenten te identificeren die zijn geïmporteerd uit Shopify.
 

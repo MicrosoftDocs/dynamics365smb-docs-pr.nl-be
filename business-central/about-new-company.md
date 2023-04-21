@@ -1,15 +1,14 @@
 ---
 title: Nieuwe bedrijven maken met een begeleide instelling
-description: U maakt eenvoudig een nieuw leeg bedrijf in Business Central. Een begeleide instelling helpt u door de stappen en u kunt uw bestaande bedrijfsgegevens importeren.
-author: edupont04
+description: U maakt eenvoudig een nieuw leeg bedrijf in Business Central. Een begeleide instelling helpt u door de stappen en u kunt uw bedrijfsgegevens importeren.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 04/14/2023
+ms.custom: bap-template
 ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -46,7 +45,9 @@ Uw beheerder kan [hier](/dynamics365/business-central/dev-itpro/administration/t
 Op de pagina **Bedrijven** kunt u de actie **Kopiëren** gebruiken om een tweede bedrijf te maken op basis van de inhoud van een bestaand bedrijf. Dit is bijvoorbeeld handig als u een bedrijf wilt testen zonder de productiegegevens te verstoren.
 
 > [!Important]
-> U kunt deze functie niet gebruiken om de back-up van een bedrijf te nemen. Als u de back-up van een bedrijf wilt nemen, moet u eerst de database als een .bacpac-bestand exporteren. Zie [Databases exporteren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in de Help voor ontwikkeling en beheer voor meer informatie.
+> Gebruik de kopieeractie niet om een back-up van een bedrijf te maken. Als u een back-up wilt maken, moet u eerst de database als een .bacpac-bestand exporteren. Zie [Databases exporteren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in de Help voor ontwikkeling en beheer voor meer informatie.
+
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
 ## Het bedrijf instellen
 
