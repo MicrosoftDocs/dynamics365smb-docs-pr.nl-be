@@ -64,10 +64,12 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [De boekingsperiode beperken](how-to-limit-the-posting-period.md) **Nu beschikbaar**
     * [De werkdatum als boekingsdatum instellen](how-to-set-the-work-date-as-the-posting-date.md) **Nu beschikbaar**
     * [Dagboeksjablonen verplicht maken](specify-journal-template-mandatory.md) **Nu beschikbaar**
+    * [Uitstel in rapporten van het Verkoopdagboek en Inkoopdagboek](how-to-use-deferrals.md) **Nu beschikbaar**
 
 ## Toekomstige wetgevingseisen worden onderzocht
 
 Er zijn momenteel geen aanstaande reglementaire kenmerken of vereisten. Als u op de hoogte bent van nieuwe regelgeving, dient u een [Waarschuwing voor regelgeving voor functies](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u) in.
+
 
 ## Zie ook
 
