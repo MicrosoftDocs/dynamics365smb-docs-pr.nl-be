@@ -1,15 +1,13 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: e44d7ba224a0945acff4e352824922bc7c1a35bf
-ms.sourcegitcommit: d8a84a008c6bd3baf1ca7ade49310313cb4942f8
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9201945"
+ms.date: 03/06/2023
+ms.author: bholtorf
 ---
+
+> [!NOTE]
+> Bedrijven in alle landen/regio´s kunnen profiteren van de mogelijkheid om boekingen in het grootboek te controleren voordat ze worden geboekt. In een toekomstige versie zullen we de land-/regiospecifieke functie afschaffen en vervangen door een functie die beschikbaar is in alle landen-/regioversies. Nadat de functie is afgeschaft, kunt u deze gebruiken om toegang te krijgen tot eerdere beoordelingen, maar niet om nieuwe beoordelingen uit te voeren. We archiveren uw gegeven volgens lokale vereisten. Ga voor meer informatie over het afschaffen van de functie naar [Afgeschafte functies in de basis-app](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1). Ga voor meer informatie over de vervangende functie naar [Bedragen controleren in grootboekrekeningen](../../../finance-review-accounts.md).
+
 Door tijdelijke grootboekposten toe te passen, kunnen bedrijven werken met tijdelijke en transferaccounts in het grootboek. Tijdelijke en transferrekeningen worden gebruikt om tijdelijke posten op te slaan die op verdere verwerking in het grootboek wachten.  
 
 U kunt tijdelijke rekeningen gebruiken voor:  
@@ -22,7 +20,7 @@ Nadat de posten zijn verwerkt, kunt u de functie **Posten vereffenen** gebruiken
 
 U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervolgens de gesloten posten openen om wijzigingen aan te brengen.  
 
-## <a name="to-apply-general-ledger-entries"></a>Grootboekposten vereffenen  
+## Grootboekposten vereffenen  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
@@ -55,7 +53,7 @@ U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervol
 
 6. Kies de knop **Ok**.  
 
-## <a name="to-view-the-applied-general-ledger-entries"></a>De vereffende grootboekposten weergeven  
+## De vereffende grootboekposten weergeven  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
@@ -65,7 +63,7 @@ U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervol
 
 4. Kies de knop **Ok**.  
 
-## <a name="to-unapply-general-ledger-entries"></a>De vereffening van grootboekposten ongedaan maken  
+## De vereffening van grootboekposten ongedaan maken  
 
 1. Kies het pictogram :::image type="icon" source="../../../media/ui-search/search_small.png" border="false":::, voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  

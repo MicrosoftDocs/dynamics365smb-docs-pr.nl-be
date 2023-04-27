@@ -1,6 +1,6 @@
 ---
-title: Elektronische betalingen testen [BE]
-description: Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.
+title: 'Elektronische betalingen testen [BE]'
+description: 'Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 2000001
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 85004c75e177a8367680a976e15779a9ed193257
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146037"
 ---
-# <a name="test-electronic-payments-in-the-belgian-version"></a>Elektronische betalingen testen in de Belgische versie
+# Elektronische betalingen testen in de Belgische versie
 
 Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.  
 
@@ -34,14 +28,14 @@ U kunt de fouten bekijken op de pagina **Logboeken voor controlefouten exportere
 > [!IMPORTANT]  
 > U moet alle fouten corrigeren voordat u de regels kunt boeken.  
 
-## <a name="to-test-payment-journal-lines"></a>Betalingsdagboekregels testen  
+## Betalingsdagboekregels testen  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies de koppelingen om de pagina **EB-betalingsdagboeken** te openen.  
 2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3. Selecteer in het veld **Exportprotocol** het exportprotocol.  
 4. Voer de betalingsdagboekregelinformatie in en kies vervolgens de actie **Betalingsregels controleren** om de betalingsdagboekregels te valideren. Welke validatie op de dagboekregels wordt uitgevoerd, is afhankelijk van de soort controle die op de pagina **Exportprotocollen** is opgegeven.  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 
 [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)  
 [Belgische elektronische betalingen](belgian-electronic-payments.md)  
