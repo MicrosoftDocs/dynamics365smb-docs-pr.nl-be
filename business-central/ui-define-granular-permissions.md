@@ -109,12 +109,11 @@ Als u alle machtigingen volledig wilt uitsluiten van een machtigingenset,, selec
 
 Als u een specifieke machtiging volledig of gedeeltelijk wilt uitsluiten in een set die u heeft toegevoegd, maakt u onder **Machtigingen** een regel voor het object. De velden voor toegangsniveau, Machtigingen invoegen, Machtigingen wijzigen, enzovoort, bevatten allemaal **Uitsluiten**. Kies de juiste optie om een bepaald toegangsniveau toe te staan.
 
-> [!NOTE]
-> Als u een machtigingenset uitsluit, worden alle machtigingen in de set uitgesloten. [!INCLUDE [prod_short](includes/prod_short.md)] berekent machtigingen als volgt:
+Als u een machtigingenset uitsluit, worden alle machtigingen in de set uitgesloten. [!INCLUDE [prod_short](includes/prod_short.md)] berekent machtigingen als volgt:
 
-> 1. Bereken de volledige lijst met opgenomen machtigingen
-> 2. Bereken de volledige lijst met uitgesloten machtigingen
-> 3. Verwijder uitgesloten machtigingen uit de lijst met opgenomen machtigingen (het verwijderen van een indirecte machtiging is hetzelfde als Reduceren tot indirect)
+1. Bereken de volledige lijst met opgenomen machtigingen
+2. Bereken de volledige lijst met uitgesloten machtigingen
+3. Verwijder uitgesloten machtigingen uit de lijst met opgenomen machtigingen (het verwijderen van een indirecte machtiging is hetzelfde als Reduceren tot indirect)
 
 ## Een machtigingenset kopiëren
 
