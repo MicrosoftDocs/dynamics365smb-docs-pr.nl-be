@@ -32,12 +32,12 @@ Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking
 U kunt een magazijnontvangst op twee manieren maken:
 
 * Met pushing wanneer er per order wordt gewerkt. Kies de actie **Magazijnontvangst maken** in het brondocument, zoals Inkooporder, Verkoopretourorder of Transferorder om magazijnontvangst voor één brondocument aan te maken.
-*-* Door middel van pushing, waarbij u de actie **Vrijgeven** in het brondocument gebruikt, zoals een inkooporder, verkoopretourorder of transferorder, om het document vrij te geven aan het magazijn. Een magazijnmedewerker maakt een **magazijnontvangst** voor een of meer vrijgegeven brondocumenten. In de volgende procedure wordt beschreven hoe u een magazijnontvangst met pushing maakt. In de volgende procedure wordt beschreven hoe u een magazijnontvangst met pushing maakt. 
+* Door middel van pushing, waarbij u de actie **Vrijgeven** in het brondocument gebruikt, zoals een inkooporder, verkoopretourorder of transferorder, om het document vrij te geven aan het magazijn. Een magazijnmedewerker maakt een **magazijnontvangst** voor een of meer vrijgegeven brondocumenten. In de volgende procedure wordt beschreven hoe u een magazijnontvangst met pushing maakt. In de volgende procedure wordt beschreven hoe u een magazijnontvangst met pushing maakt.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 
-    Vul het veld **Vestiging** op het sneltabblad **Algemeen** in. Bij het ophalen van brondocumentregels worden bepaalde gegevens automatisch naar elke regel gekopieerd. 
+    Vul het veld **Vestiging** op het sneltabblad **Algemeen** in. Bij het ophalen van brondocumentregels worden bepaalde gegevens automatisch naar elke regel gekopieerd.
 
     Voor een vestiging waarvoor opslaglocaties vereist zijn, vult u het veld **Opslaglocatie** in. Afhankelijk van uw configuratie kan [!INCLUDE[prod_short](includes/prod_short.md)] de locatie voor u toevoegen. Ga voor meer informatie naar [Zonecodes en opslaglocatiecodes](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
@@ -56,13 +56,15 @@ U kunt een magazijnontvangst op twee manieren maken:
 
 5. Boek de magazijnontvangst. De velden met aantallen in de brondocumenten worden bijgewerkt en de artikelen worden aan de voorraad toegevoegd.  
 
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
+
     > [!TIP]
-    > Als u magazijnopslag gebruikt, wat verwijst naar methode D in de tabel aan het begin van dit artikel, worden de artikelen ontvangen maar kunnen ze pas worden gepickt nadat ze zijn opgeslagen. Ga voor meer informatie over het opslaan van artikelen naar [Artikelen opslaan met magazijnopslag](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
-    > 
+    > Als u magazijnopslag gebruikt, wat verwijst naar methode D in de tabel aan het begin van dit artikel, worden de artikelen ontvangen maar kunnen ze pas worden gepickt nadat ze zijn opgeslagen. Ga voor meer informatie over het opslaan van artikelen naar [Artikelen opslaan met magazijnopslag](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    >
     > Overweeg anders de actie **Boeken en afdrukken**. De actie boekt de ontvangst en drukt deze af als een opslaginstructie die aangeeft waar het artikel moet worden opgeslagen.
 
-> [!NOTE]  
-> Als uw magazijn crossdocking gebruikt, kunt u controleren of u artikelen kunt crossdocken zonder ze op te slaan. Ga voor meer informatie over cross-docking naar [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md).
+    > [!NOTE]  
+    > Als uw magazijn crossdocking gebruikt, kunt u controleren of u artikelen kunt crossdocken zonder ze op te slaan. Ga voor meer informatie over cross-docking naar [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md).
 
 ## Filters gebruiken om brondocumenten op te halen
 

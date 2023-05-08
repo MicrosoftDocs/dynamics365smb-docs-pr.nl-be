@@ -69,9 +69,9 @@ In deze procedure maakt u kennis met de functies voor projectbeheer in taken (pr
 
 ## Scenario
 
-Dit overzicht draait om CRONUS, een design- en consultancyfirma die nieuwe infrastructuren ontwerpt en installeert, zoals conferentiezalen, kantoren, meubels, accessoires en opslagruimten. Het bedrijf werkt meestal met projecten. Prakash is projectmanager bij CRONUS. Hij gebruikt projecten om een overzicht te bieden van alle lopende projecten die met CRONUS zijn gestart, alsmede van de projecten die zijn afgerond. Hij is gewoonlijk degene die afspraken met klanten maakt en het grootste deel van het project, zoals taak- en planningsregels en prijzen, invoert in [!INCLUDE[prod_short](includes/prod_short.md)]. Hij constateert dat het maken, onderhouden en redigeren van informatie eenvoudig is. Prakash is tevens te spreken over de manier waarop projecten kunnen worden gekopieerd in [!INCLUDE[prod_short](includes/prod_short.md)] en de mogelijkheid om te betalen in termijnen.
+Dit overzicht draait om CRONUS, een design- en consultancyfirma die nieuwe infrastructuren ontwerpt en installeert, zoals conferentiezalen, kantoren, meubels, accessoires en opslagruimten. Het bedrijf werkt meestal met projecten. Prakash, een projectmanager bij CRONUS gebruikt projecten om een overzicht te krijgen van alle lopende projecten die met CRONUS zijn gestart, alsmede van de projecten die zijn afgerond. Prakash is gewoonlijk degene die afspraken met klanten maakt en het grootste deel van het project, zoals taak- en planningsregels en prijzen, invoert in [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash constateert dat het maken, onderhouden en redigeren van informatie eenvoudig is. Prakash is tevens te spreken over de manier waarop projecten kunnen worden gekopieerd in [!INCLUDE[prod_short](includes/prod_short.md)] en de mogelijkheid om te betalen in termijnen.
 
- Tricia, een lid van het projectteam dat aan Prakash rapporteert, is verantwoordelijk voor de dagelijkse controle van het project. Behalve haar eigen werk, voert zij ook het werk in dat voor elke taak door technici wordt uitgevoerd. Zij legt de artikelen die zij hebben gebruikt en de kosten die zij hebben gemaakt vast.  
+ Tricia, een lid van het projectteam dat aan Prakash rapporteert, is verantwoordelijk voor de dagelijkse controle van het project. Tricia voert naast de werkzaamheden van technici bij elke taak ook haar eigen werk in, registreert de artikelen die ze hebben gebruikt en de kosten die ze hebben gemaakt.  
 
 ## Voorbeeldgegevens voorbereiden
 
@@ -98,11 +98,11 @@ Dit overzicht draait om CRONUS, een design- en consultancyfirma die nieuwe infra
 
 6. Sluit de pagina.
 
-In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haar gebruik te boeken.  
+In de volgende procedure maakt u een taakjournaalbatch voor Tricia om het gebruik ervan te boeken.  
 
 ### Een projectdagboekbatch maken  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies op de pagina **Projectdagboek** het veld **Batchnaam**. De pagina **Projectdagboekbatches** wordt geopend.  
 3.  Kies de actie **Nieuw** om een nieuwe regel te maken met de volgende informatie:  
 
@@ -182,7 +182,7 @@ In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haa
 - **Factureerbaar**: gefactureerd, maar niet toegevoegd aan de planning.  
 - **Budget en factureerbaar**: gefactureerd en toegevoegd aan de planning.  
 
- In dit scenario maakt de projectmanager gebruik van **Budget en factureerbaar**. Hij maakt drie planningsregels voor taak 1010 en twee planningsregels voor taak 1020.  
+ In dit scenario maakt de projectmanager gebruik van **Budget en factureerbaar**. Ze maken drie planningsregels voor taak 1010 en twee planningsregels voor taak 1020.  
 
 ### Planningsregels maken  
 
@@ -208,7 +208,7 @@ In de volgende procedure kunt u een projectdagboekbatch voor Tricia maken om haa
 
 ## Resterend gebruik berekenen
 
- Tricia, het projectteamlid, heeft een tijdje aan het project gewerkt en wil haar uren en gebruik tijdens het project registreren. Ze heeft niet meer uren gewerkt dan van tevoren met de klant is afgesproken. Ze gebruikt de batchverwerking **Resterend gebruik berekenen** om het resterende verbruik voor het project te berekenen in een projectdagboek. De batchverwerking berekent voor elke projecttaak het verschil tussen het geplande gebruik van artikelen, resources en grootboekkosten en het werkelijke gebruik dat in de projectposten is geboekt. Het resterende gebruik kan zij vervolgens boeken vanuit het projectdagboek waarin het wordt weergegeven.  
+ Tricia, het projectlid van het team, is al een tijdje aan het werk en wil hun uren en gebruik tijdens het project registreren. Tricia heeft niet meer uren gewerkt dan van tevoren met de klant is afgesproken. Tricia gebruikt de batchverwerking **Resterend gebruik berekenen** om het resterende verbruik voor het project te berekenen in een projectdagboek. De batchverwerking berekent voor elke projecttaak het verschil tussen het geplande gebruik van artikelen, resources en grootboekkosten en het werkelijke gebruik dat in de projectposten is geboekt. Het resterende gebruik kan zij vervolgens boeken vanuit het projectdagboek waarin het wordt weergegeven.  
 
 ### Het resterende gebruik berekenen  
 
@@ -226,7 +226,7 @@ De regels worden nu geboekt.
 
 ## Een projectverkoopfactuur maken en boeken
 
- Tricia kan vervolgens een nieuwe factuur maken voor het hele project of voor een deel van een project. Ze kan de factuur ook aan een andere factuur voor dezelfde klant en voor hetzelfde project koppelen. In dit geval factureert zij voor het volledige project, aangezien het project nu is voltooid.  
+ Tricia kan vervolgens een nieuwe factuur maken voor het hele project of voor een deel van een project. Tricia kan de factuur ook aan een andere factuur voor dezelfde klant en voor hetzelfde project koppelen. In dit geval factureert Tricia voor het volledige project, aangezien het project nu is voltooid.  
 
 ### Een projectverkoopfactuur maken  
 
@@ -250,7 +250,7 @@ De regels worden nu geboekt.
 2.  Selecteer een van de planningsregels die zijn gefactureerd en kies de actie **Verkoopfactuur/creditnota**.
 3. Kies op de pagina **Projectfacturen** de actie **Verkoopfactuur/creditnota openen**.  
 
- Als Tricia een vraag heeft over de prijzen, de kosten en de winst die relevant zijn voor dit specifieke project, kan ze deze informatie opvragen op de pagina **Statistiek**.  
+ Als Tricia een vraag heeft over de prijzen, de kosten en de winst die relevant zijn voor dit specifieke project, kan Tricia deze informatie opvragen op de pagina **Statistiek**.  
 
 ### De pagina Statistiek openen  
 
@@ -260,7 +260,7 @@ De regels worden nu geboekt.
 
 ## Werken met vaste prijzen
 
- CRONUS heeft een contract afgesloten voor het opzetten van vergaderruimten. Als projectleider wil Prakash een goed overzicht hebben van de taken die nodig zijn voor het project met de bijbehorende gebudgetteerde en gemaakte kosten voor elke taak. Bovendien wil hij weten wat de totale contractprijs voor het project is en wat het bedrag is dat tot nu toe is gefactureerd. Hij heeft met de klant een vaste prijs voor een project afgesproken.  
+ CRONUS heeft een contract afgesloten voor het opzetten van vergaderruimten. Als projectleider wil Prakash een goed overzicht hebben van de taken die nodig zijn voor het project met de bijbehorende gebudgetteerde en gemaakte kosten voor elke taak. Bovendien wil Prakash weten wat de totale contractprijs voor het project is en wat het bedrag is dat tot nu toe is gefactureerd. Ze hebben met de klant een vaste prijs voor een project afgesproken.  
 
 ### Vaste prijzen beheren in projecten  
 
@@ -268,7 +268,7 @@ De regels worden nu geboekt.
 2. Selecteer het projectnummer **Guildford** en kies de actie **Projecttaakregels**.  
 3. Selecteer regel 1120 en klik in het veld **Budget (totale kostprijs)** met de rechtermuisknop op het bedrag en kies **DrillDown**.  
 
-     Op basis van de projectplanningsregels besluit Prakash dat hij Tricia ook voor 30 uur wilt inzetten in deze fase van het project. Hij spreekt een vaste prijs af met de klant.  
+     Door de projectplanningsregels te bekijken, is vastgesteld dat Prakash ook Tricia gedurende 30 uur nodig heeft voor deze fase van het project. Prakash spreekt een vaste prijs af met de klant.  
 
 4. Selecteer op de pagina **Projecttaakregels** regel 1120 en kies de actie **Projectplanningsregels**. Maak een planningsregel met de volgende informatie:  
 
@@ -280,7 +280,7 @@ De regels worden nu geboekt.
 5. Klik met de rechtermuisknop in het veld **Budget (totale kostprijs)** en kies opnieuw **Drilldown** op de pagina **Projecttaakregels**. Geef de wijzigingen in de planning weer. U ziet dat de 30 uur aan de planning zijn toegevoegd.  
 6. Sluit de pagina's.  
 
-Nadat Tricia aan de planning voor deze taakregel is toegevoegd, werkt ze 25 uur aan het project. Ze voert deze uren in het projectdagboek in.  
+Na te zijn toegevoegd aan het schema voor deze taakregel, werkt Tricia 25 uur aan het project en voert deze uren in het projectdagboek in.  
 
 ### Uren invoeren in het projectdagboek  
 
@@ -298,7 +298,7 @@ Nadat Tricia aan de planning voor deze taakregel is toegevoegd, werkt ze 25 uur 
 
 3. Kies de actie **Boeken**.  
 
-     Een paar dagen later werkt Tricia nog eens 10 uur aan het project. Ze heeft nu in totaal 35 uur gewerkt. Aangezien 30 uur zijn afgesproken met de klant, worden slechts vijf uur aan de klant in rekening gebracht. Tricia zal de extra vijf uur die ze aan de planning heeft gewerkt handmatig toevoegen.  
+     Een paar dagen later werkt Tricia nog 10 uur aan het project en heeft er nu in totaal 35 uur aan gewerkt. Aangezien 30 uur zijn afgesproken met de klant, worden slechts vijf uur aan de klant in rekening gebracht. Tricia voegt de vijf extra gewerkte uren handmatig toe aan het schema.  
 
 4. Kies op de pagina **Projectdagboek** de actie **Resterend gebruik berekenen**.  
 5. Voer op de pagina **Resterend gebruik berekenen** de volgende informatie in op het sneltabblad **Opties**:  
@@ -442,7 +442,7 @@ De volgende procedures laten zien hoe u een nieuw project kunt maken, prijzen ku
 
 11. Maak een soortgelijke planningsregel voor projecttaak 4000.  
 
- Nu de taak- en planningsregels zijn ingevoerd kan Prakash een factuur voor de eerste betaling maken. Hij doet dit op basis van de projecttaakregels om er zeker van te zijn dat de factuur alleen de regels voor de eerste betaling bevat. Open de verkooporder vanuit de planningsregels of de taakregels.  
+ Nu de taak- en planningsregels zijn ingevoerd kan Prakash een factuur voor de eerste betaling maken. Prakash doet dit op basis van de projecttaakregels om er zeker van te zijn dat de factuur alleen de regels voor de eerste betaling bevat. Open de verkooporder vanuit de planningsregels of de taakregels.  
 
 ### Een factuur maken  
 

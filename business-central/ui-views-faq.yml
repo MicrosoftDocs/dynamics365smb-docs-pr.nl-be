@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Frequently Asked Questions about List Views
-  description: This article answers your FAQ about List Views and offers detailed information about saving and working with filters as List Views.
+  title: Veelgestelde vragen over lijstweergaven
+  description: Dit artikel beantwoordt uw veelgestelde vragen over lijstweergaven en biedt gedetailleerde informatie over het opslaan van en werken met filters als lijstweergaven.
   author: mikebcMSFT
   ms.topic: faq
   ms.devlang: na
@@ -10,110 +10,110 @@ metadata:
   ms.search.keywords: 'list, filter, pane, views'
   ms.date: 08/09/2022
   ms.author: mikebc
-title: List Views FAQ
-summary: This article answers questions that our advanced users often ask about working with list views and saving filters.
+title: Veelgestelde vragen over lijstweergaven
+summary: Dit artikel beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over het werken met lijstweergaven en het opslaan van filters.
 sections:
-  - name: Ignored
+  - name: Genegeerd
     questions:
       - question: |
-          How do views handle expressions?
+          Hoe gaan weergaven om met expressies?
         answer: |
-          When you save a view that includes filters with expressions (like date ranges, operators, keywords, or filter tokens), only the expression gets saved<ph id="ph1">&amp;mdash;</ph>not the resulting values. For example, saving a view that filters on the <bpt id="p1">**</bpt>Created Date<ept id="p1">**</ept> field with the expression <ph id="ph1">`-1W..today`</ph> will always find records related to the current date, even when the view is accessed next month.
+          Wanneer u een weergave opslaat die filters met expressies bevat, zoals datumbereiken, operatoren, trefwoorden of filtertokens, wordt alleen de expressie&mdash;en niet de resulterende waarden opgeslagen. Als u bijvoorbeeld een weergave opslaat die filtert op het veld **Aanmaakdatum** met de expressie `-1W..today`, worden altijd records gevonden met betrekking tot de huidige datum, zelfs wanneer de weergave volgende maand wordt geopend.
       - question: |
-          Where are list views saved?
+          Waar worden lijstweergaven opgeslagen?
         answer: |
-          Similarly to hiding a field or reordering your navigation menu, list views are a part of user personalization and are stored in the database. Clearing all personalization on a list will also permanently remove your personal views and clear other personalization such as reordering of views. For more information, see <bpt id="p1">[</bpt>Personalize your workspace<ept id="p1">](ui-personalization-user.md)</ept>.
+          Net zoals bij het verbergen van een veld of het opnieuw ordenen van uw navigatiemenu zijn lijstweergaven een onderdeel van gebruikerspersonalisatie en worden ze opgeslagen in de database. Als u alle personalisatie in een lijst wist, worden ook uw persoonlijke weergaven permanent verwijderd en wordt andere personalisatie gewist, zoals het opnieuw ordenen van weergaven. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
       - question: |
-          Why don't I have a Save icon?
+          Waarom heb ik geen pictogram Opslaan?
         answer: |
-          There's a couple reasons why you might not see the Save icon and options menu alongside views in the filter pane.
+          Er is een aantal redenen waarom u het pictogram Opslaan en het optiemenu niet naast weergaven in het filtervenster ziet.
 
-          One reason could be that personalization isn't enabled for your user role. In this case, you still have access to system views that are a standard part of the pages. You can modify these views, like changing or adding filters. You just can't save the changes. Another reason could be that the page you're looking at is a <bpt id="p1">*</bpt>worksheet<ept id="p1">*</ept> type page<ph id="ph1">&amp;mdash;</ph>not a list.
+          Een reden kan zijn dat personalisatie niet is ingeschakeld voor uw gebruikersrol. In dit geval heeft u nog steeds toegang tot systeemweergaven die standaard deel uitmaken van de pagina's. U kunt deze weergaven wijzigen, zoals het wijzigen of toevoegen van filters. U kunt de wijzigingen alleen niet opslaan. Een andere reden kan zijn dat de pagina die u bekijkt een pagina van het type *werkblad is*&mdash;en geen lijst.
       - question: |
-          On which page types can I use list views?
+          Op welke paginatypen kan ik lijstweergaven gebruiken?
         answer: |
-          Views are only available on list pages.
+          Weergaven zijn alleen beschikbaar op lijstpagina's.
       - question: |
-          How do I know whether I'm on a list type page?
+          Hoe weet ik of ik op een pagina van het type lijst sta?
         answer: |
-          Use page inspection. To open page inspection, select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>Alt<ept id="p2">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p3">&lt;kbd&gt;</bpt>F1<ept id="p3">&lt;/kbd&gt;</ept>. Then, in the <bpt id="p1">**</bpt>Page<ept id="p1">**</ept> field, look for the word <bpt id="p2">**</bpt>List<ept id="p2">**</ept> in the parenthesis at the end.
+          Gebruik pagina-inspectie. Selecteer <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd> om pagina-inspectie te openen. Zoek vervolgens in het veld **Pagina** het woord **Lijst** tussen haakjes aan het einde.
       - question: |
-          Are views also available on other form factors?
+          Zijn weergaven ook beschikbaar voor andere formulierfactoren?
         answer: |
-          Yes. Any views you save on your desktop browser or desktop app will also be available on your tablet, smartphone, or when embedded in Microsoft Teams. You can't modify or personalize views on mobile devices.
+          Ja. Alle weergaven die u opslaat in uw desktopbrowser of desktop-app, zijn ook beschikbaar op uw tablet, of smartphone of indien ingesloten in Microsoft Teams. U kunt weergaven op mobiele apparaten niet wijzigen of personaliseren.
       - question: |
-          Are my personal views always accessible?
+          Zijn mijn persoonlijke weergaven altijd toegankelijk?
         answer: |
-          Your views are available on a list page whether you access it from the navigation menu, using the <bpt id="p1">**</bpt>Tell Me<ept id="p1">**</ept> window, or through a URL link. Views aren't available in list parts, lookups or whenever a list page is displayed as a dialog.
+          Uw weergaven zijn beschikbaar op een lijstpagina,ongeacht of u deze opent vanuit het navigatiemenu, via het venster **Vertel me** of via een URL-koppeling. Weergaven zijn niet beschikbaar in lijstonderdelen, opzoekbewerkingen of wanneer een lijstpagina wordt weergegeven als een dialoogvenster.
       - question: |
-          How do I return a view to its original filters after modifying them?
+          Hoe breng ik een weergave terug naar de oorspronkelijke filters nadat ik ze heb gewijzigd?
         answer: |
-          At the bottom of the filter pane, choose the <bpt id="p1">**</bpt>Reset filters<ept id="p1">**</ept> action to clear filter changes you have made to the view and return to its original filtered fields and filter criteria.
+          Kies onder aan het filtervenster de actie **Filters opnieuw instellen** om filterwijzigingen die u in de weergave hebt aangebracht, te wissen en terug te keren naar de oorspronkelijke gefilterde velden en filtercriteria.
       - question: |
-          What is the difference between hiding and removing views?
+          Wat is het verschil tussen het verbergen en verwijderen van weergaven?
         answer: |
-          Removing a view will permanently delete that view. Hiding a view allows you to temporarily hide it from the filter pane, but you can unhide it again later by choosing the <bpt id="p1">**</bpt>Show<ept id="p1">**</ept> action.
+          Als u een weergave verwijdert, wordt die weergave permanent verwijderd. Als u een weergave verbergt, kunt u deze tijdelijk verbergen in het filtervenster, maar u kunt deze later weer zichtbaar maken door de actie **Weergeven** te kiezen.
       - question: |
-          How can I share my views with others?
+          Hoe kan ik mijn weergaven met anderen delen?
         answer: |
-          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> doesn't provide a way to share the precise list view. But you can share your current filters so that other users can see a similar list of records. In the Business Central Web client, choose a view then use the <bpt id="p1">**</bpt>Copy link<ept id="p1">**</ept> feature to copy the URL to your clipboard. just copy the URL and share it with your colleagues. Sharing filters isn't guaranteed to give the recipient an identical set of filters that you see in your browser.
+          [!INCLUDE[prod_short](includes/prod_short.md)] biedt geen manier om de exacte lijstweergave te delen. Maar u kunt uw huidige filters delen, zodat andere gebruikers een vergelijkbare lijst met records kunnen zien. Kies in de Business Central-webclient een weergave en gebruik vervolgens de functie **Koppeling kopiëren** om de URL naar uw klembord te kopiëren. kopieer eenvoudig de URL en deel deze met uw collega's. Het delen van filters geeft de ontvanger niet per se een identieke set filters die u in uw browser ziet.
       - question: |
-          Can I search for views in the Tell Me window?
+          Kan ik zoeken naar weergaven in het venster Vertel me?
         answer: |
-          No. The <bpt id="p1">**</bpt>Tell Me<ept id="p1">**</ept> window only displays search results for the page, but you're only a step away from getting to your favorite view once you navigate to the page.
+          Nee. Het venster **Vertel me** toont alleen zoekresultaten voor de pagina, maar u bent slechts een stap verwijderd van uw favoriete weergave zodra u naar de pagina navigeert.
       - question: |
-          What is shared layout?
+          Wat is een gedeelde indeling?
         answer: |
-          All views on a list page share a common column layout. The layout includes which columns are displayed, their sequence, width, freeze pane, and quick entry settings. Personalizing any column layout will also affect other views sharing the same layout on the list page.
+          Alle weergaven op een lijstpagina delen een gemeenschappelijke kolomindeling. De lay-out bepaalt welke kolommen worden weergegeven, hun volgorde, breedte, bevroren deelvenster en instellingen voor snelle invoer. Het personaliseren van een kolomindeling heeft ook invloed op andere weergaven die dezelfde indeling op de lijstpagina delen.
 
-          Some system views can have unique layouts of the columns in the list. For example, they could rearrange columns to display only the columns most relevant to that view. You can identify which views have unique layouts by choosing the <bpt id="p1">![</bpt>Show more options<ept id="p1">](media/show-more-options-icon.png "|::ref1::|")</ept> icon and observing that the <bpt id="p2">**</bpt>Shared layout<ept id="p2">**</ept> check box isn't selected. As a user, you can personalize the column layout for a view with unique layout without it affecting any of the other views on the list page. Only developers can define a unique column layout for a view that initially has a shared layout.
+          Sommige systeemweergaven kunnen unieke indelingen van de kolommen in de lijst hebben. Ze kunnen bijvoorbeeld kolommen herschikken om alleen de kolommen weer te geven die het meest relevant zijn voor die weergave. U kunt bepalen welke weergaven unieke indelingen hebben door het pictogram ![Meer opties weergeven](media/show-more-options-icon.png "Meer opties weergeven") te kiezen en te zorgen dat het selectievakje **Gedeelde indeling** niet is ingeschakeld. Als gebruiker kunt u de kolomindeling voor een weergave met een unieke indeling personaliseren zonder dat dit van invloed is op de andere weergaven op de lijstpagina. Alleen ontwikkelaars kunnen een unieke kolomindeling definiëren voor een weergave die in eerste instantie een gedeelde indeling heeft.
       - question: |
-          What does the Show System Filters link do?
+          Wat doet de link Systeemfilters weergeven?
         answer: |
-          On some list pages, the filter pane displays <bpt id="p1">**</bpt>Show system filters<ept id="p1">**</ept> at the bottom, specifically when the page includes filters specified by the system. These special filters are typically used to display records based on the current context. An example would be when an orders list has to be filtered for a specific customer.
+          Op sommige lijstpagina's bevat het filtervenster **Systeemfilters weergeven** onder aan het filtervenster, met name wanneer de pagina filters bevat die door het systeem zijn opgegeven. Deze speciale filters worden doorgaans gebruikt om records weer te geven op basis van de huidige context. Een voorbeeld hiervan is wanneer een bestellijst moet worden gefilterd voor een specifieke klant.
 
-          System filters are set by application developers, which they set using filter group 0. For more information about system filters, see <bpt id="p1">[</bpt>FilterGroup Method<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)</ept>.
+          Systeemfilters worden ingesteld door toepassingsontwikkelaars, die ze instellen met behulp van filtergroep 0. Zie voor meer informatie over systeemfilters [Methode Filtergroep](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method).
       - question: |
-          I see multiple views on my page, but I didn't create them. Where did they come from?
+          Ik zie meerdere weergaven op mijn pagina, maar ik heb ze niet gemaakt. Waar komen ze vandaan?
         answer: |
-          The views you see on any list are a combination of your personal views together with system views. System views may originate from the business application, from extensions, or may be role-specific if the list was customized for your role.
+          De weergaven die u in een lijst ziet, zijn een combinatie van uw persoonlijke weergaven samen met systeemweergaven. Systeemweergaven kunnen afkomstig zijn van de bedrijfstoepassing, van extensies of kunnen rolspecifiek zijn als de lijst is aangepast voor uw rol.
       - question: |
-          Why do some views provide fewer options?
+          Waarom bieden sommige weergaven minder opties?
         answer: |
-          Some views only provide the option to save a copy of the view, while others don't allow saving changes to the view. How the view was created determines the options available to that view. Views can be created in multiple ways:
+          Sommige weergaven bieden alleen de optie om een kopie van de weergave op te slaan, terwijl andere het opslaan van wijzigingen in de weergave niet toestaan. Hoe de weergave is gemaakt, bepaalt de beschikbare opties voor die weergave. Weergaven kunnen op verschillende manieren worden gemaakt:
 
-          - Personal views that you saved
-          - System views that are a standard part of the business application, or added by extensions or role-specific views. Unlike personal views, you can't save changes to filters back to that system view.
-          - Legacy system views that are a standard part of the business application but were created using older versions of <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>. These views offer fewer options. You can only save them as a new view and can't hide or reorder them either. Legacy system views will be discontinued in a future update to <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
+          - Persoonlijke weergaven die u hebt opgeslagen
+          - Systeemweergaven die standaard deel uitmaken van de bedrijfstoepassing of worden toegevoegd door extensies of rolspecifieke weergaven. In tegenstelling tot persoonlijke weergaven kunt u wijzigingen in filters niet opslaan in die systeemweergave.
+          - Verouderde systeemweergaven die standaard deel uitmaken van de bedrijfstoepassing maar zijn gemaakt met oudere versies van [!INCLUDE[prod_short](includes/prod_short.md)]. Deze weergaven bieden minder opties. U kunt ze alleen opslaan als een nieuwe weergave en u kunt ze ook niet verbergen of opnieuw ordenen. Oudere systeemweergaven zullen worden stopgezet in een toekomstige update van [!INCLUDE[prod_short](includes/prod_short.md)].
 
           > [!NOTE]
-          > Starting with Business Central 2023 release wave 2, legacy views will no longer be supported, and won't be displayed in the list page. Learn technical details about how developers can migrate to modern list views at <bpt id="p1">[</bpt>Migrating from Legacy Views to Modern Views<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy)</ept>. 
+          > Vanaf Business Central 2023 releasewave 2 worden verouderde weergaven niet langer ondersteund en niet weergegeven op de lijstpagina. Lees technische details over hoe ontwikkelaars kunnen migreren naar moderne lijstweergaven op [Migreren van oude weergaven naar moderne weergaven](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). 
       - question: |
-          How do I get past limitations of legacy system views?
+          Hoe kom ik langs de beperkingen van oude systeemweergaven?
         answer: |
-          Legacy system views are list views that were created by developers in older versions of <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> by placing them on the Role Center page. These views are now displayed directly on the list page but offer a degraded experience and fewer options. You can convert a legacy system view to a personal view that is fully customizable, simply by saving that legacy view as a new view. Similarly, administrators can choose to convert role-specific legacy system views by customizing the user role and saving the legacy view as a new role-specific view.
+          Oude systeemweergaven zijn lijstweergaven die door ontwikkelaars in oudere versies van [!INCLUDE[prod_short](includes/prod_short.md)] zijn gemaakt door ze op de pagina Rolcentrum te plaatsen. Deze weergaven worden nu rechtstreeks op de lijstpagina weergegeven, maar bieden een verslechterde ervaring en minder opties. U kunt een oude systeemweergave omzetten in een persoonlijke weergave die volledig aanpasbaar is, gewoon door die oude weergave op te slaan als een nieuwe weergave. Op dezelfde manier kunnen beheerders ervoor kiezen om rolspecifieke oudere systeemweergaven te converteren door de gebruikersrol aan te passen en de oude weergave op te slaan als een nieuwe rolspecifieke weergave.
 
-          Legacy system views will be discontinued in a future update to <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
+          Oudere systeemweergaven zullen worden stopgezet in een toekomstige update van [!INCLUDE[prod_short](includes/prod_short.md)].
       - question: |
-          Others in my organization need similar list views as standard. What can I do?
+          Anderen in mijn organisatie hebben standaard vergelijkbare lijstweergaven nodig. Wat kan ik doen?
         answer: |
-          Working with personal views is quick and effective, but <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> provides other tools to define list views needed by specific user roles or all users in the organization.
-           - Developers can customize the environment and create list views in extensions for all users in the organization.
-           - Non-coders such as administrators or department managers, can create role-specific list views when customizing a role from the <bpt id="p1">**</bpt>Profiles (Roles)<ept id="p1">**</ept> page.
+          Werken met persoonlijke weergaven is snel en effectief, maar [!INCLUDE[prod_short](includes/prod_short.md)] biedt andere hulpmiddelen om lijstweergaven te definiëren die nodig zijn voor specifieke gebruikersrollen of alle gebruikers in de organisatie.
+           - Ontwikkelaars kunnen de omgeving aanpassen en lijstweergaven maken in extensies voor alle gebruikers in de organisatie.
+           - Niet-codeerders zoals beheerders of afdelingsmanagers kunnen rolspecifieke lijstweergaven maken bij het aanpassen van een rol vanaf de pagina **Profielen (rollen)**.
       - question: |
-          I work with multiple languages: how do I translate the name of the view?
+          Ik werk met meerdere talen: hoe vertaal ik de naam van de weergave?
         answer: |
-          When saving a new view or renaming an existing view, you must enter a recognizable and meaningful name for that view. The name is saved for your current language and will be displayed also when you or other users work with <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> in different languages. To provide translated view names, switch the language by using the <bpt id="p1">**</bpt>My Settings<ept id="p1">**</ept> page. Then rename the view, which will store the translated name in the new language.
+          Wanneer u een nieuwe weergave opslaat of een bestaande weergave hernoemt, moet u een herkenbare en betekenisvolle naam voor die weergave invoeren. De naam wordt opgeslagen voor uw huidige taal en wordt ook weergegeven wanneer u of andere gebruikers in verschillende talen werken in [!INCLUDE[prod_short](includes/prod_short.md)]. Om vertaalde weergavenamen op te geven schakelt u de taal om met de pagina **Mijn instellingen**. Hernoem vervolgens de weergave, waarbij de vertaalde naam in de nieuwe taal wordt opgeslagen.
       - question: |
-          Do views with expressions work in all languages?
+          Werken weergaven met expressies in alle talen?
         answer: |
-          Expressions that only use symbols, such as <ph id="ph1">`|`</ph> or <ph id="ph2">`..`</ph> are considered safe for users to access in any language. Any views with expressions that include letters, keywords, or filter tokens will only work for the language in which they were authored.
+          Expressies die alleen symbolen gebruiken, zoals `|` of `..`, worden als veilig beschouwd voor gebruikers in elke taal. Weergaven met expressies die letters, trefwoorden of filtertokens bevatten, werken alleen voor de taal waarin ze zijn geschreven.
 additionalContent: |
 
-  ## See Also
-     <bpt id="p1">[</bpt>Save and Personalize List Views<ept id="p1">](ui-views.md)</ept>  
-     <bpt id="p1">[</bpt>Finding Features and Information<ept id="p1">](ui-search.md)</ept>  
-     <bpt id="p1">[</bpt>Sorting, Searching, and Filtering<ept id="p1">](ui-enter-criteria-filters.md)</ept>  
+  ## Zie ook
+     [Lijstweergaven opslaan en personaliseren](ui-views.md)  
+     [Functies en informatie zoeken](ui-search.md)  
+     [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  
           
           
      [!INCLUDE[footer-include](includes/footer-banner.md)]

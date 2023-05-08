@@ -44,7 +44,7 @@ Vanuit uw e-mailtoepassing kunt u een e-mailbericht doorsturen naar de aanbieder
 Aangezien er geen inkomende documentrecord bestaat voor het bestand, wordt automatisch een nieuwe record gemaakt op de pagina **Inkomende documenten** wanneer de OCR-service het resulterende elektronische document verzendt. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.
 
 > [!NOTE]  
-> Als u op een tablet of telefoon werkt, kunt u het bestand naar de OCR-service verzenden zodra u een foto van het document hebt gemaakt, of u kunt rechtstreeks een inkomend document maken. Zie [Een inkomende documentrecord maken door een foto te maken](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo) voor meer informatie.
+> Als u op een tablet of telefoon werkt, kunt u het bestand naar de OCR-service verzenden zodra u een foto van het document hebt gemaakt, of u kunt rechtstreeks een inkomend document maken. Zie [Een inkomende documentrecord maken door een foto te maken](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo) voor meer informatie.
 
 ## Het resulterende elektronische document ontvangen van de OCR-service
 
@@ -55,7 +55,7 @@ Als u geen verwerkingswachtrij gebruikt of een voltooid OCR-document eerder wilt
 > [!NOTE]  
 > Als de OCR-service zo is ingesteld dat handmatige verificatie van verwerkte documenten is vereist, bevat het veld **OCR-status** de waarde **In afwachting van verificatie**. In dat geval voert u de volgende stappen uit om u aan te melden bij de website van de OCR-service om een OCR-document handmatig te verifiëren.
 
-1. Kies in het veld**OCR-status**de hyperlink **In afwachting van verificatie**.
+1. Kies in het veld **OCR-status** de hyperlink **In afwachting van verificatie**.
 2. Meld u op de website van de OCR-service aan met de aanmeldgegevens van uw OCR-serviceaccount. Zie voor meer informatie [Een OCR-service instellen](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
 
    De gegevens voor het OCR-document worden weergegeven met zowel de broninhoud van het PDF- of afbeeldingsbestand als de resulterende OCR-veldwaarden.

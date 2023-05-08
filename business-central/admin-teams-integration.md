@@ -2,13 +2,13 @@
 title: Microsoft Teams-integratie met Business Central beheren | Microsoft Docs
 description: Business Central-integratie met Microsoft Teams beheren.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
-ms.date: 11/03/2022
+ms.date: 02/03/2023
 ms.author: jswymer
+ms.reviewer: jswymer
+ms.custom: bap-template
+ms.service: dynamics365-business-central
 ---
 
 # Microsoft Teams-integratie met [!INCLUDE [prod_short](includes/prod_short.md)] beheren
@@ -91,7 +91,7 @@ In het Microsoft Teams-beheercentrum configureert u het installatiebeleid voor T
     4. Kies **Toevoegen**.
 
        Business Central zou nu moeten verschijnen onder **Geïnstalleerde apps** voor het beleid.
-    5. Configureer eventuele extra instellingen en kies **Opslaan**.
+    5. Configureer indien nodig meer instellingen en kies vervolgens **Opslaan**.
 
     Voor meer informatie over het instellingsbeleid in Teams zie [Installatiebeleid voor apps beheren in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) in de Teams-documentatie.
 4. Ga terug naar **Gecentraliseerde implementatie van Teams-app** in Business Central en selecteer **Gereed**.
@@ -126,7 +126,27 @@ Functies voor het zoeken van inhoud en eDiscovery-naleving in het Microsoft 365 
 
 Omdat kaartgegevens in Teams een kopie zijn van gegevens in [!INCLUDE [prod_short](includes/prod_short.md)], kunt u ook [!INCLUDE [prod_short](includes/prod_short.md)]-functies gebruiken om gegevens van een klant op verzoek te exporteren. Zie voor meer informatie over privacy in [!INCLUDE [prod_short](includes/prod_short.md)] [Veelgestelde vragen over privacy voor Business Central-klanten](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
+## Toon of verberg recordgegevens op kaarten
+
+Wanneer een record wordt gedeeld met anderen in een Teams-chat of -kanaal, wordt een kaart weergegeven met velden die gegevens over de record bevatten. Alle ontvangers kunnen deze gegevens (of recordsamenvatting) standaard bekijken, ongeacht hun licentie of machtigingen in Business Central. Als u een beheerder bent, kunt u de begeleide instelling **Kaartinstellingen** gebruiken om het recordoverzicht te verbergen voor weergave op kaarten in Teams. Als u het recordoverzicht verbergt, worden alle velden en afbeeldingen verwijderd, maar blijven de knop **Details** en andere, niet-recordinformatie op de kaart wel zichtbaar.
+
+|Recordoverzicht ingeschakeld|Recordoverzicht uitgeschakeld|
+|-|-|
+|![Afbeelding die een kaart laat zien in Teams wanneer het recordoverzicht is ingeschakeld.](media/card-settings-example-on.png)|![Afbeelding die een kaart laat zien in Teams wanneer het recordoverzicht is uitgeschakeld.](media/card-settings-example-off.png)|
+
+U configureert de instelling per omgeving. Dus wanneer u het recordoverzicht in- of uitschakelt, heeft dit gevolgen voor alle bedrijven in de omgeving.
+
+1. Open de omgeving die u wilt wijzigen in Business Central.
+
+   > [!TIP]
+   > Om van omgeving te wisselen, selecteert u <kbd>Ctrl</kbd>+<kbd>O</kbd>.
+2. Kies het ![Vergrootglas dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), pictogram, voer **Kaartinstellingen** in en kies de gerelateerde koppeling. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Lees de informatie op de **Kaartinstellingen** en kies vervolgens **Volgende** als u klaar bent.
+4. Zet op de pagina **Zichtbaarheid van gegevens** de schakelaar **Recordoverzicht weergeven** aan om de gegevens op de kaart weer te geven of uit om deze te verbergen.
+5. Selecteer **Volgende** en volg de instructies om de installatiegids te voltooien.
+
 ## Zie ook
+
 Overzicht van integratie tussen [[!INCLUDE [prod_short](includes/prod_short.md)] en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  
 [Veelgestelde vragen over Teams](teams-faq.md)  

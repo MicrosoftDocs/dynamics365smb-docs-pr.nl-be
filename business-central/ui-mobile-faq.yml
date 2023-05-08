@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Mobile Apps FAQ
-  description: See answers to frequently asked questions about using Business Central on your phone or tablet.
+  title: Veelgestelde vragen over mobiele apps
+  description: Bekijk antwoorden op veelgestelde vragen over het gebruik van Business Central op uw telefoon of tablet.
   author: edupont04
   ms.topic: faq
   ms.devlang: na
@@ -10,63 +10,63 @@ metadata:
   ms.search.keywords: 'phone, tablet'
   ms.date: 10/25/2021
   ms.author: edupont
-title: Mobile Apps FAQ
+title: Veelgestelde vragen over mobiele apps
 summary: |
-  This article answers questions that our advanced users often ask about the mobile apps for <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph>.  
+  Dit artikel beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over mobiele apps voor [!INCLUDE [prod_short](includes/prod_short.md)].  
 sections:
-  - name: Ignored
+  - name: Genegeerd
     questions:
       - question: |
-          Is there an app for my device?
+          Is er een app voor mijn apparaat?
         answer: |
-          Probably! Install the <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.
+          Waarschijnlijk! Installeer de [!INCLUDE[prod_short](includes/prod_short.md)]-app op uw mobiele apparaat door de app te downloaden van de Windows Store, App Store of Google Play.
 
-          - <bpt id="p1">[</bpt>Windows Store<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=734848)</ept> (PC only)
-          - <bpt id="p1">[</bpt>App Store<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=734847)</ept>
-          - <bpt id="p1">[</bpt>Google Play<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=734849)</ept>
+          - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (alleen pc)
+          - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
+          - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
       - question: |
-          Is it the same experience in the apps as in the browser?
+          Is het dezelfde ervaring in de apps als in de browser?
         answer: |
-          No, not exactly. For example, we show only the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> activity group due to the limited screen size on mobile devices. Similarly, the keyboard shortcuts are not available because you mainly use touch rather than a keyboard to navigate on mobile devices.
+          Nee, niet precies. We tonen bijvoorbeeld alleen de activiteitengroep **Home** vanwege de beperkte schermgrootte op mobiele apparaten. Evenzo zijn de sneltoetsen niet beschikbaar omdat u voornamelijk aanraking gebruikt in plaats van een toetsenbord om op mobiele apparaten te navigeren.
 
-          The following table describes some of the most common differences and limitations that you might experience when using <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph> on mobile devices, compared to the browser.
+          In de volgende tabel worden enkele van de meest voorkomende verschillen en beperkingen beschreven die u tijdens het gebruik van [!INCLUDE [prod_short](includes/prod_short.md)] kunt ervaren op mobiele apparaten, vergeleken met de browser.
 
-          | Concept | On tablets | On phones | Example from the browser |
+          | Concept | Op tablets | Op telefoons | Voorbeeld uit de browser |
           |--|--|--|--|
-          | Activity groups | Only the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> activity group is shown. | Only the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> activity group is shown. | <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Posted Documents<ept id="p2">**</ept> on the <ph id="ph1">`Sales Order Processor`</ph> Role Center. |  |
-          | Selecting multiple records in lists | Not available. | Not available. | <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>A<ept id="p2">&lt;/kbd&gt;</ept> or <bpt id="p3">&lt;kbd&gt;</bpt>Ctrl<ept id="p3">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p4">&lt;kbd&gt;</bpt>Click<ept id="p4">&lt;/kbd&gt;</ept> on rows in a list in the browser. |
-          | Actions in the action bar | Only Promoted actions are shown. | Only Promoted actions are shown. |  |
-          | FactBoxes | Not shown on List pages or Worksheet pages. | Not shown on List pages or Worksheet pages. | <ph id="ph1">`Customer`</ph> list on the <ph id="ph2">`Small Business`</ph> Role Center. |
-          | Advanced filters | No column-specific filtering is available. | No column-specific filtering is available. | On the <ph id="ph1">`Customer`</ph> list page. |
-          | Tell Me | Not available yet. | Not available yet. | See <bpt id="p1">[</bpt>Finding Pages and Information with Tell Me<ept id="p1">](ui-search.md)</ept>. |  |
-          | Role Explorer | Not available yet. | Not available yet. | See <bpt id="p1">[</bpt>Finding Pages with the Role Explorer<ept id="p1">](ui-role-explorer.md)</ept>. |
-          | Fields in FastTabs | Fields in FastTabs on list pages are not shown. Only the repeater control is shown in the content area of the page. | Not available. |  |
-          | Select from full list | Not available on lookups. Users are not able to run actions on a lookup page, and they cannot access the full set of records. | Not available on lookups. Users are not able to run actions on a lookup page, and they cannot access the full set of records. | On the <ph id="ph1">`Item Card`</ph> when selecting the <bpt id="p1">**</bpt>Base Units of Measure<ept id="p1">**</ept>. |
-          | Search across list columns | Partly supported. Search will not include FlowFields. | Partly supported. Search will not include FlowFields. | See examples on the <ph id="ph1">`Customers`</ph> list page. |
-          | Lookups | Available. | Available, with the difference that advanced and simple lookups behave similarly on the phone. The lookup will not bring up the card, show FactBoxes, or any field groups. | See examples on the <ph id="ph1">`Customer Card`</ph> page. |
-          | Matrix controls | Not available. | Not available. | See example in <ph id="ph1">`G/L Budget`</ph>. |
-          | File download | Available. Cannot download multiple files at the same time. | Available. Cannot download multiple files at the same time. | <ph id="ph1">`Trial Balance`</ph> report in the <bpt id="p1">**</bpt>Print to Excel<ept id="p1">**</ept> check box. |
-          | Worksheet pages | Available. | Not available; an error message is displayed. | <ph id="ph1">`Sales Price`</ph> Worksheet or <ph id="ph2">`Cash Flow`</ph> Worksheet. |
-          | Lists | Available. | Available, with the difference that these are displayed in a brick layout. | Customers or Sales Orders pages. |
-          | Indentation in repeater controls | Available. | Not available. The repeater control will be rendered as a regular flat brick layout. | Chart of Accounts and Contacts List pages. |
-          | Automatic input focus on first editable field of a page | Not available. | Not available. | <ph id="ph1">`Customer Card`</ph> page.<BR /><BR />In the browser, focus will automatically be on the first editable field (such as the <ph id="ph1">`Name`</ph> field), enabling you to change the value right away.<BR /><BR />In the tablet and phone apps, this field will not be in focus; instead, you will have to manually select the field first in order to make changes.|
+          | Activiteitengroepen | Alleen de activiteitengroep **Home** wordt weergegeven. | Alleen de activiteitengroep **Home** wordt weergegeven. | **Home** en **Geboekte documenten** in het rolcentrum `Sales Order Processor`. |  |
+          | Meerdere records in lijsten selecteren | Niet beschikbaar. | Niet beschikbaar. | <kbd>Ctrl</kbd>+<kbd>A</kbd> of <kbd>Ctrl</kbd>+<kbd>klik</kbd> op rijen in een lijst in de browser. |
+          | Acties op de actiebalk | Alleen gepromote acties worden weergegeven. | Alleen gepromote acties worden weergegeven. |  |
+          | Feitenblokken | Niet weergegeven op lijstpagina's of werkbladpagina's. | Niet weergegeven op lijstpagina's of werkbladpagina's. | Lijst `Customer` in het rolcentrum `Small Business`. |
+          | Geavanceerde filters | Er is geen kolomspecifieke filtering beschikbaar. | Er is geen kolomspecifieke filtering beschikbaar. | Op de lijstpagina `Customer`. |
+          | Vertel me | Nog niet beschikbaar. | Nog niet beschikbaar. | Zie [Pagina's en informatie zoeken met Vertel me](ui-search.md). |  |
+          | Rolverkenner | Nog niet beschikbaar. | Nog niet beschikbaar. | Zie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md). |
+          | Velden op sneltabbladen | Velden op sneltabbladen op lijstpagina's worden niet weergegeven. Alleen het repeaterelement wordt weergegeven in het inhoudsgebied van de pagina. | Niet beschikbaar. |  |
+          | Selecteren vanuit volledige lijst | Niet beschikbaar voor zoekopdrachten. Gebruikers kunnen geen acties uitvoeren op een opzoekpagina en hebben geen toegang tot de volledige set records. | Niet beschikbaar voor zoekopdrachten. Gebruikers kunnen geen acties uitvoeren op een opzoekpagina en hebben geen toegang tot de volledige set records. | Op de `Item Card` bij het selecteren van de **Basismaateenheden**. |
+          | Zoeken in lijstkolommen | Gedeeltelijk ondersteund. Zoeken omvat geen FlowFields. | Gedeeltelijk ondersteund. Zoeken omvat geen FlowFields. | Zie voorbeelden op de lijstpagina `Customers`. |
+          | Opzoekacties | Beschikbaar. | Beschikbaar, met het verschil dat geavanceerde en eenvoudige zoekacties zich op dezelfde manier gedragen op de telefoon. De zoekopdracht zal de kaart, feitenblokken of veldgroepen niet weergeven. | Zie voorbeelden op de pagina `Customer Card`. |
+          | Matrix-besturingselementen | Niet beschikbaar. | Niet beschikbaar. | Zie voorbeeld in `G/L Budget`. |
+          | Bestand downloaden | Beschikbaar. Kan niet meerdere bestanden tegelijk downloaden. | Beschikbaar. Kan niet meerdere bestanden tegelijk downloaden. | Rapport `Trial Balance` in het selectievakje **Afdrukken naar Excel**. |
+          | Werkbladpagina's | Beschikbaar. | Niet beschikbaar; er wordt een foutmelding weergegeven. | Werkblad `Sales Price` of `Cash Flow`. |
+          | Lijsten | Beschikbaar. | Beschikbaar, met het verschil dat deze in een baksteenlay-out worden weergegeven. | Pagina's met klanten of verkooporders. |
+          | Inspringing in repeaterbesturingselementen | Beschikbaar. | Niet beschikbaar. Het repeaterbesturingselement wordt weergegeven als een normale platte baksteenlay-out. | Pagina's met rekeningschema's en contactoverzichten. |
+          | Automatische invoerfocus op het eerste bewerkbare veld van een pagina | Niet beschikbaar. | Niet beschikbaar. | Pagina `Customer Card`.<BR /><BR />In de browser wordt de focus automatisch op het eerste bewerkbare veld (zoals het veld `Name`) gezet, zodat u de waarde meteen kunt wijzigen.<BR /><BR />In de tablet- en telefoon-app heeft dit veld niet de focus. In plaats daarvan moet u het veld eerst handmatig selecteren om wijzigingen aan te brengen.|
       - question: |
-          Is it the same experience on tablets and phones?
+          Is het dezelfde ervaring op tablets en telefoons?
         answer: |
-          Almost, but not quite. See the list in the <bpt id="p1">[</bpt>Is it the same experience in the apps as in the browser?<ept id="p1">](#is-it-the-same-experience-in-the-apps-as-in-the-browser-)</ept> section.  
+          Bijna, maar niet helemaal. Zie de lijst in de sectie [Is het dezelfde ervaring in de apps als in de browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
       - question: |
-          Can I connect the app to our on-premises solution?
+          Kan ik de app verbinden met onze on-premise oplossing?
         answer: |
-          Yes, you can! It's a slightly different way to signing in, that's all. For more information, see <bpt id="p1">[</bpt>Use Business Central on-premises?<ept id="p1">](install-mobile-app.md#use-business-central-on-premises)</ept>.  
+          Ja, dat kan. Het is een iets andere manier om aan te melden, dat is alles. Zie [Business Central on-premises gebruiken?](install-mobile-app.md#use-business-central-on-premises) voor meer informatie.  
       - question: |
-          Can a guest user use the app to access our Business Central solution?
+          Kan een gastgebruiker de app gebruiken om toegang te krijgen tot onze Business Central-oplossing?
         answer: |
-          No. Guest users are invited users from a different Azure Active Directory (AD) tenant than yours. In this case, the app will authenticate to the guest user's primary Azure AD tenant and try open the Business Central endpoint on that tenant instead of yours.  
+          Nee. Gastgebruikers zijn uitgenodigde gebruikers van een andere Azure Active Directory (AD)-tenant dan de uwe. In dit geval zal de app zich authenticeren bij de primaire Azure AD-tenant van de gastgebruiker en proberen het Business Central-eindpunt op die tenant te openen in plaats van op die van u.  
 additionalContent: |
 
-  ## See also
+  ## Zie ook
 
-  <bpt id="p1">[</bpt>Getting Business Central on Your Mobile Device<ept id="p1">](install-mobile-app.md)</ept>  
-  <bpt id="p1">[</bpt>Install the Business Central App for Microsoft Teams<ept id="p1">](across-install-app-for-teams.md)</ept>  
+  [Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)  
+  [De Business Central-app voor Microsoft Teams installeren](across-install-app-for-teams.md)  
 
   [!INCLUDE[footer-include](includes/footer-banner.md)]
