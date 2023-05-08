@@ -1,47 +1,47 @@
 ---
 title: 'Projecten, prijzen en projectboekingsgroepen instellen'
-description: 'Beschrijft hoe u algemene projectgegevens instelt en prijzen instelt voor projectartikelen, resources en grootboekrekeningen, en projectboekingsgroepen.'
-author: edupont04
-ms.topic: conceptual
-ms.workload: na
+description: Beschrijft hoe u algemene informatie over taken instelt.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 04/25/2023
+ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Projecten, prijzen en projectboekingsgroepen instellen
 
-Als projectmanager kunt u taken instellen die alle projecten definiëren die u beheert in [!INCLUDE[prod_short](includes/prod_short.md)]. Op de pagina **Projectinstellingen** moet u opgeven hoe u bepaalde functies wilt gebruiken.
+Als projectmanager kunt u taken instellen die alle projecten definiëren die u beheert in [!INCLUDE[prod_short](includes/prod_short.md)]. Gebruik de pagina **Projectinstellingen** om te definiëren hoe u projectfuncties gaat gebruiken.
 
-Voor elk project kunt u afzonderlijke projectkaarten opgeven met informatie over prijzen voor projectartikelen, projectresources en projectgrootboekrekeningen, en u moet projectboekingsgroepen instellen.
+Geef voor elk project verschillende informatie op:
+
+* Prijzen voor projectartikelen
+* Projectresources
+* Projectgrootboekrekeningen
+* Projectboekingsgroepen (vereist)
 
 ## Algemene gegevens voor projecten instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> In het veld **Gebruikslink standaard toepassen** wordt aangegeven of projectposten standaard zijn gekoppeld aan projectplanningsregels. Kies het veld als u deze instelling wilt toepassen op alle nieuwe projecten die u maakt. U kunt het bijhouden van het projectgebruik voor een specifiek project in- of uitschakelen door de waarde van het veld **Gebruikslink toepassen** op de individuele taakkaart te wijzigen. De gevolgen worden in de volgende sectie uitgelegd.
+> Met de schakelaar **Gebruikslink standaard toepassen** op de pagina **Projectinstellingen** wordt aangegeven of projectposten standaard zijn gekoppeld aan projectplanningsregels. Schakel de schakelaar in om deze instelling toe te passen op alle nieuwe projecten. U kunt het bijhouden van het projectgebruik voor een specifiek project in- of uitschakelen door de schakelaar **Gebruikslink toepassen** op de pagina **Projectkaart** aan of uit te zetten.
 
 ### Bijhouden van projectgebruik instellen
 
-Als u aan een project werkt, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om dit gemakkelijk te doen, kunt u een koppeling tussen het werkelijke verbruik en uw projectplanningsregels maken. Hiermee kunt u uw kosten bijhouden en gemakkelijk zien hoeveel werk nog moet worden gedaan. Standaard is het soort projectplanningsregel *Budget*, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
+Als u aan een project werkt, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om gebruik te verkennen kunt u een koppeling tussen uw projectplanningsregels en het werkelijke verbruik maken. Met de koppeling kunt u uw kosten volgen en begrijpen hoeveel werk er nog is. Standaard is het soort projectplanningsregel **Budget**, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
 
-Als u het veld **Gebruikslink toepassen** inschakelt, kunt u gegevens op de projectplanningsregel controleren. U kunt de hoeveelheid van de resource, artikel of grootboekrekening instellen en vervolgens aangeven welke hoeveelheid u wilt overdragen naar het projectdagboek. Het veld **Resterend aantal** op de projectplanningsregel geeft aan wat nog moet worden overgebracht en geboekt naar het projectdagboek.
+Als u de schakelaar **Gebruikslink standaard toepassen** inschakelt, kunt u gegevens op de projectplanningsregel controleren. U kunt bijvoorbeeld het aantal van de resource, het artikel of de grootboekrekening instellen. U kunt ook de hoeveelheid instellen die u wilt overbrengen naar het projectdagboek. Het veld **Resterend aantal** op de projectplanningsregel toont wat nog moet worden overgebracht en geboekt naar het projectdagboek.
 
 >[!NOTE]
-> Als het selectievakje **Gebruikslink toepassen** voor de afzonderlijke opdracht is ingeschakeld en het veld **Regelsoort** op de journaalregel of inkoopregel *Factureerbaar* is, worden er nieuwe projectplanningregels van het type *Budget* gemaakt wanneer u het opdrachtjournaal of inkoopdocument boekt.  
+> Als het selectievakje **Gebruikslink toepassen** voor het project is ingeschakeld en het veld **Regelsoort** op de projectdagboekregel of inkoopregel **Factureerbaar** is, worden er nieuwe projectplanningregels van het type **Budget en factureerbaar** gemaakt wanneer u het projectdagboek of inkoopdocument boekt.  
+>
 > Zie voor meer informatie [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md) en [Projectvoorraden beheren](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Als het veld **Regeltype** op de opdrachtjournaalregel of inkoopregel leeg is, worden er geen opdrachtplanningsregels aangemaakt wanneer u het opdrachtjournaal of inkoopdocument boekt.
-
-<!--
->[!Important]
-If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
-If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
--->
-
+> Als u geen waarde opgeeft in het veld **Regelsoort** op de projectdagboekregel of inkoopregel, worden er geen projectplanningsregels gemaakt wanneer u het projectdagboek of inkoopdocument boekt.
 
 ## Prijzen instellen voor resources, artikelen en grootboekrekeningen voor projecten
 
@@ -56,17 +56,17 @@ U kunt prijzen instellen voor de artikelen, resources en grootboekrekeningen die
 2. Selecteer het betreffende project en kies vervolgens de actie **Resource**, **Artikel** of **Grootboekrekening**.
 3. Vul op de pagina **Resourceprijzen project**, **Artikelprijzen project** of **GB-rekeningprijzen project** de velden zoals nodig in.
 
-De volgende tabel laat zien hoe de informatie in de optionele velden wordt gebruikt op taakplanningsregels en dagboeken wanneer de resource, het artikel of de grootboekrekening voor het project wordt gekozen.
+Wanneer u een resource, artikel of grootboekrekening voor een project kiest, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] informatie in de optionele velden op projectplanningsregels en projectdagboeken. In de volgende tabel wordt uitgelegd hoe.
 
 |Kolom1  |Kolom2  |
 |---------|---------|
-|**Projectresources**|De velden **Projecttaaknr.**, **Werksoort**, **Valutacode**, **Regelkorting %** en **Kostprijsfactor**. De waarde in het veld **Eenheidsprijs** wordt gebruikt op de projectplanningsregels en projectdagboeken wanneer deze resource, een resource die is toegewezen aan de resourcegroep of een andere resource wordt ingevoerd. Deze prijs komt altijd in de plaats van alle andere prijzen die eventueel zijn ingesteld op de bestaande pagina **Resourceverkoopprijs/Resourcegroepsprijs**.|
-|**Projectartikelen**|De velden **Projecttaaknr.**, **Valutacode** en **Regelkorting %**. De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplanningsregels en in projectdagboeken gebruikt wanneer dit artikel wordt ingevoerd. Deze prijs komt altijd in plaats van de normale klantenprijs (het 'beste prijs'-mechanisme) voor artikelen. Als u de normale klantenprijsmechanismen wilt gebruiken, moet u geen projectartikelprijzen voor het project maken.|
-|**Grootboekrekeningen**|De optionele informatie in de velden **Projecttaaknr.**, **Valutacode**, **Regelkorting %**, **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project. De waarde in het veld **Kostprijs** voor de grootboekrekeningskosten wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd.|
+|**Projectresources**|De velden **Projecttaaknr.**, **Werksoort**, **Valutacode**, **Regelkorting %** en **Kostprijsfactor**. De waarde in het veld **Eenheidsprijs** wordt voor de resource gebruikt op projectplanningsregels en projectdagboeken wanneer u een resource invoert of een resource die is toegewezen aan de resourcegroep. Deze prijs overschrijft de prijzen die zijn opgegeven op de pagina **Resourceverkoopprijs/Resourcegroepsprijs**.|
+|**Projectartikelen**|De velden **Projecttaaknr.**, **Valutacode** en **Regelkorting %**. De waarde in het veld **Eenheidsprijs** voor het artikel wordt op de projectplanningsregels en in projectdagboeken gebruikt wanneer dit artikel wordt ingevoerd. Deze prijs overschrijft de normale klantenprijs (het 'beste prijs'-mechanisme) voor artikelen. Als u de normale klantenprijs wilt gebruiken, geeft u geen projectartikelprijzen op voor het project.|
+|**Grootboekrekeningen**|De optionele informatie in de velden **Projecttaaknr.**, **Valutacode**, **Regelkorting %**, **Kostprijsfactor** en **Kostprijs** wordt gebruikt op de projectplanningsregels en in de projectdagboeken wanneer deze grootboekrekening wordt ingevoerd en wordt toegevoegd aan het project. Wanneer u een grootboekrekening kiest, gebruiken projectplanningsregels en projectdagboeken de waarde in het veld **Kostprijs** voor de grootboekkosten.|
 
 #### [Nieuwe ervaring](#tab/new-experience)
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Verkoopprijslijsten**.
 
 ---
@@ -76,23 +76,23 @@ De volgende tabel laat zien hoe de informatie in de optionele velden wordt gebru
 Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen moeten worden gebruikt voor projectwaardering. Om projecten te kunnen boeken, moet u rekeningen instellen voor het boeken voor elke projectboekingsgroep. Een boekingsgroep vertegenwoordigt een koppeling tussen het project en de wijze waarop het moet worden behandeld in het grootboek. Wanneer u een project maakt, geeft u een boekingsgroep op en wordt elk project dat u voor de taak maakt standaard gekoppeld aan die boekingsgroep. Als u echter taken maakt, kunt u de standaardinstellingen overschrijven en een boekingsgroep selecteren die meer geschikt is.  
 
 > [!NOTE]  
->   U moet de benodigde rekeningen in het rekeningschema instellen voordat u boekingsgroepen instelt. Voor meer informatie raadpleegt u [Het Rekeningschema instellen of wijzigen](finance-setup-chart-accounts.md).  
+> U moet rekeningen instellen in het rekeningschema voordat u boekingsgroepen instelt. Voor meer informatie raadpleegt u [Het Rekeningschema instellen of wijzigen](finance-setup-chart-accounts.md).  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies de actie **Nieuw** en vul de accountvelden in zoals is beschreven in de volgende tabel.  
+2. Kies de actie **Nieuw** en vul de velden in zoals is beschreven in de volgende tabel.  
 
 | Het veld Rekeningnr. | Omschrijving |
 | --- | --- |
-| **Code** |Een code voor de boekingsgroep. U kunt maximaal 10 tekens inclusief spaties invoeren. |
+| **Code** |Een ID voor de boekingsgroep. U kunt maximaal 10 tekens inclusief spaties invoeren. |
 | **Rekening OHW-kosten** |De OHW-rekening voor de berekende kosten van het OHW van het project is een financiële activarekening op de balans. |
-| **Rekening te betalen OHW-kosten** |Een rekening voor de Kostprijs- of Kostprijs van omzet-methode van OHW-berekening die een rekening voor te betalen kosten op de balans is. Hierop wordt geboekt wanneer de herwaardering van OHW vereist dat gebruikskosten die worden geboekt op de resultatenrekening worden verhoogd. |
+| **Rekening te betalen OHW-kosten** |Een rekening voor de methode Kostprijs of Verkoopprijs van OHW-berekening. Deze rekening is voor te betalen kosten op de balans. Wanneer u door een OHW-aanpassing de gebruikskosten moet verhogen die u op uw resultatenrekening boekt, boekt u op deze rekening. |
 | **Rekening vereffende projectkosten** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. |
 | **Account toegepaste artikelkosten** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. |
 | **Account toegepaste resourcekosten** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. |
 | **Rekening kosten vereffend** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. |
 | **Rekening herwaardering projectkosten** |De tegenrekening voor de rekening te betalen OHW-kosten, die een kostenrekening is. |
 | **Kostenrekening GB (budget)** |De omzetrekening die moet worden gebruikt voor grootboekkosten in projecttaken met deze boekingsgroep. Indien dit leeg wordt gelaten, wordt de grootboekrekening gebruikt die op de projectplanningsregel staat. |
-| **Rekening te realiseren omzet OHW** |De OHW-rekening voor de berekende kostprijs van het OHW, die een rekening voor te realiseren omzet op de balans is. Hierop wordt geboekt wanneer de herwaardering van OHW vereist dat de verantwoorde omzet wordt verhoogd. |
+| **Rekening te realiseren omzet OHW** |De OHW-rekening voor de berekende kostprijs van het OHW, die een rekening voor te realiseren omzet op de balans is. Wanneer een herwaardering van OHW vereist dat u de verantwoorde omzet verhoogt die u naar deze rekening boekt. |
 | **Rekening gefactureerde omzet OHW** |De rekening voor de gefactureerde verkoopprijs van het OHW die niet kan worden verantwoord. Het is een rekening voor niet-gerealiseerde omzet op de balans. |
 | **Rekening projectomzetvereffening** |De tegenrekening voor de rekening gefactureerde omzet OHW, die een creditresultatenrekening is. |
 | **Rekening projectomzetwaardering** |De tegenrekening voor de OHW-omzetrekening, die een resultatenrekening is. |

@@ -40,7 +40,7 @@ Een artikeltraceringscode weerspiegelt de verschillende overwegingen die een bed
 Omdat dit bepaalde configuratieveld alle mogelijke artikeltransacties omvat, worden de afzonderlijke inkomende/uitgaande velden ook geselecteerd. De afzonderlijke inkomende/uitgaande velden hebben echter geen invloed op voorraadvereffening. Ze geven uitsluitend aan wanneer artikeltraceringsnummers worden toegewezen in de werkstroom van uw bedrijf.  
 
 > [!NOTE]  
->  Om tijdens magazijnactiviteiten artikeltraceringsnummers toe te wijzen moeten de velden **Magazijnserienr.-tracering** en **Magazijnlottracering** zijn ingeschakeld op de bij het artikel horende artikeltraceringscodekaart.  
+> Om tijdens magazijnactiviteiten artikeltraceringsnummers toe te wijzen moeten de velden **Magazijnserienr.-tracering** en **Magazijnlottracering** zijn ingeschakeld op de bij het artikel horende artikeltraceringscodekaart.  
 
 ## Vervalregels instellen voor serie- of lotnummers
 
@@ -78,6 +78,36 @@ Om artikeltracering in te schakelen moet u eerst de artikeltraceringscodes aan e
 2. Selecteer een bestaand item uit de lijst en open de pagina **Artikelkaart**.  
 3. Wijs op het sneltabblad **Artikeltracering** de juiste artikeltraceringscodes toe en kies de **Artikeltraceringscode**, de **Serienrs.** en de **Lotnrs.**.
     1. Als alternatief kunt u ook een nieuwe artikeltraceringscode maken door de actie **Nieuw** te selecteren.
+
+## Beginsaldi opgeven voor de artikelen die u bijhoudt
+
+U kunt beginsaldi maken voor de artikelen die u bijhoudt. Omdat u verschillende magazijnconfiguraties kunt kiezen, zijn er twee opties:
+
+* Schakel specifieke batches in op de pagina **Artikeldagboek** om mensen serie-, partij- en pakketgegevens rechtstreeks op dagboekregels te laten invoeren.
+* Voor vestigingen waar de schakelaar **Gestuurde opslag en pick** is ingeschakeld, gebruikt u de pagina **Magazijninventarisatiedagboek** om alle velden voor het volgen van artikelen beschikbaar te maken. De velden die beschikbaar zijn, zijn onder andere de **Garantiedatum** en **Vervaldatum**.
+
+### Artikeldagboeken 
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
+2. Kies het veld **Naam** om een lijst met artikeldagboekbatches te openen.
+3. Kies **Nieuw** om een nieuwe batch te maken en schakel vervolgens de schakelaar **Artikeltracering op regels** in.
+4. Kies **OK** om de batch te selecteren die u hebt gemaakt.
+5. Vul de velden op de artikeldagboekregel indien nodig in. Merk op dat de velden **Lotnr.**, **Serienummer.**, **Vervaldatum**, **Garantiedatum** en **Pakketnr.** beschikbaar zijn (als de functie is ingeschakeld).
+6. Kies de actie **Boeken** om voorraad aan te passen.
+
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] doet een paar kleine validaties wanneer u gegevens invoert of importeert. Een uitgebreidere controle vindt plaats wanneer u gegevens boekt of overboekt van dagboekregels naar het **venster Artikeltracering**. Dit laatste gebeurt automatisch wanneer u het **venster Artikeltracering** opent vanaf de artikeldagboekregel of als u de actie **Artikeltraceringsregels bijwerken**.
+
+### Magazijninventarisatiedagboek voor vestigingen waar gerichte pick en opslag is ingeschakeld  
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijninventarisatiedagboek** in en kies vervolgens de gerelateerde koppeling.
+2. Vul de velden op de artikeldagboekregel indien nodig in. Merk op dat de velden **Lotnr.**, **Serienummer.**, **Vervaldatum**, **Garantiedatum** en **Pakketnr.** beschikbaar zijn (als de functie is ingeschakeld).
+3. Kies de actie **Registreren** om de voorraadherwaarderingen te maken. Vergeet niet dat u de aangepaste magazijnposten moet synchroniseren met de gerelateerde artikelposten. Ga voor meer informatie naar [de aangepaste magazijnposten synchroniseren](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+Gebruik voor bulkimport configuratiepakketten om gegevens in de dagboeken te importeren.
+
+> [!NOTE]
+> U kunt **Bewerken in Excel** niet gebruiken om dagboekregels met trackinginformatie te maken.
 
 ## Zie gerelateerde [Microsoft-training](/training/modules/prepare-item-tracking/)
 

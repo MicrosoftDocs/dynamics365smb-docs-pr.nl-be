@@ -2,16 +2,13 @@
 title: Conformiteitsoverzicht
 description: Overzicht van hoe Business Central-functionaliteit is gebouwd op een platform dat het gemakkelijk voor klanten maakt te zorgen voor naleving en te voldoen aan regelgeving.
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.reviewer: edupont
-ms.date: 06/14/2021
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Conformiteitsoverzicht
 
 Deze inhoud bevat informatie over naleving in verband met [!INCLUDE[prod_short](../includes/prod_short.md)].  
@@ -22,7 +19,7 @@ In dit gedeelte leest u meer over onze benadering van naleving vanuit een toepas
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|Leer over naleving vanuit een toepassingsperspectief, zoals AVG, International Accounting Standards en meer.|[Toepassingsnaleving](compliance-application-compliance.md)|  
+|Leer over naleving vanuit een toepassingsperspectief, zoals gegevensprivacy, internationale boekhoudnormen en meer.|[Toepassingsnaleving](compliance-application-compliance.md)|  
 |Leer over naleving op het serviceniveau en wat op het platform is gedaan om te zorgen dat Business Central uitblinkt op het gebied van servicenaleving.|[Servicenaleving](compliance-service-compliance.md)|  
 |Zie informatie over verschillende certificeringen in verband met Business Central. Hier vindt u gegevens over algemene certificeringen en land/regio-specifieke certificeringen.|[Certificeringen](compliance-certifications.md)|  
 |Meer informatie over de voorwaarden van de dienstverleningsovereenkomst en andere voorwaarden voor de service|[Servicevoorwaarden](compliance-service-compliance.md#service-terms)|  

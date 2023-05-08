@@ -1,26 +1,25 @@
 ---
 title: Toepassingsnaleving
-description: 'Dit onderwerp beschrijft de toepassingsnaleving in verband met Business Central, zoals International Financial Reporting Standards, lokale functionaliteit en AVG.'
+description: 'Dit artikel beschrijft hoe Business Central voldoet aan internationale normen voor financiële rapportage, lokale functionaliteit en privacywetgeving en -voorschriften.'
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 08/25/2022
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Toepassingsnaleving
 
-Deze inhoud bevat informatie over toepassingsnaleving in verband met [!INCLUDE[prod_short](../includes/prod_short.md)], zoals International Financial Reporting Standards, lokale functionaliteit, Algemene Verordening Gegevensbeveiliging (AVG) en meer. Vertrouwen in een oplossing voor bedrijfsbeheer is de sleutel tot een efficiënt bedrijf. Met Business Central kunnen bedrijven bedrijfsprocessen stroomlijnen en tegelijkertijd consistent en kosteneffectief voldoen aan toenemende vereisten op het gebied van regelgeving en rapportage.
+Dit artikel bevat informatie over hoe [!INCLUDE [prod_short](../includes/prod_short.md)] bedrijven de mogelijkheid biedt bedrijfsprocessen te stroomlijnen en tegelijkertijd consistent en kosteneffectief te voldoen aan toenemende vereisten op het gebied van regelgeving en rapportage.
 
 ## Gegevensprivacy
 
-Business Central ondersteunt initiatieven op het gebied van gegevensprivacy, zoals de Algemene Verordening Gegevensbeveiliging (AVG) die met ingang van 25 mei 2018 van kracht is geworden. Lees meer over hoe [Business Central AVG ondersteunt](../admin-responding-to-requests-about-personal-data.md).  
+[!INCLUDE [prod_short](../includes/prod_short.md)] ondersteunt de wet- en regelgeving inzake gegevensprivacy. [Leer hoe u moet reageren op aanvragen van betrokkenen in Business Central](../admin-responding-to-requests-about-personal-data.md).
 
-Als u een ontwikkelaar bent voor Business Central-extensies, moet u vertrouwd zijn met het classificeren van gegevens. Meer informatie vindt u op [deze pagina](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
-Als u meer informatie over AVG wilt vanuit een breder Dynamics 365-perspectief, bekijkt u [deze lijst met whitepapers](/dynamics365/get-started/gdpr/).
+Als u [!INCLUDE [prod_short](../includes/prod_short.md)]-extensies ontwikkelt, moet u weten [hoe gegevens worden geclassificeerd in Dynamics 365](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+
+[Meer informatie over gegevensprivacy in Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## Boekhoudprocessen en mechanismen om naleving te ondersteunen
 
@@ -36,7 +35,7 @@ Naleving is niet alleen afhankelijk van accurate informatie en correcte boekhoud
 
 ## Profiteren van de voordelen van een geïntegreerde oplossing voor bedrijfsmanagement
 
-Business Central levert real-time, geïntegreerde operationele en financiële gegevens uit uw hele organisatie, zodat u het volgende kunt doen:
+[!INCLUDE [prod_short](../includes/prod_short.md)] levert real-time, geïntegreerde operationele en financiële gegevens uit uw hele organisatie, zodat u het volgende kunt doen:
 
 - Financiële gegevens bijhouden met behulp van aangepaste financiële rapporten voor cashflow, inkomsten, balansen, vaste activa, basisschema, belangrijke prestatie-indicatoren en meer.
 - De accuratesse helpen waarborgen met op rollen gebaseerde beveiliging en configureerbare toepassingsmechanismen die ongeldige of dubbele gegevensinvoer voorkomen.
@@ -45,7 +44,7 @@ Business Central levert real-time, geïntegreerde operationele en financiële ge
 
 ## Controle krijgen over essentiële informatie, processen en rapporten
 
-Business Central verbetert de controle over belangrijke functies en informatie die essentieel zijn voor succesvolle financiële bedrijfsvoering.
+[!INCLUDE [prod_short](../includes/prod_short.md)] verbetert de controle over belangrijke functies en informatie die essentieel zijn voor succesvolle financiële bedrijfsvoering.
 
 ### Naleving beheren van de standaards die van belang zijn
 
@@ -90,7 +89,7 @@ Microsoft maakt gelokaliseerde versies van Business Central voor een beperkt aan
 
 > [!NOTE]  
 > **IAS/IFRS: herkenning en meting van standaarden**  
-> Afhankelijk van de huidige lokale GAAP's die momenteel in gebruik zijn, is een van de grootste veranderingen op het gebied van herkenning en meting voor IAS/IFRS uitgebreid gebruik van fair-value principes in plaats van historische kosten. Business Central kan bedrijven helpen reële waarde en NPV-concepten (Net Present Value) te berekenen, die zijn geconcentreerd op huidige en verwachte cashflowstromen, in plaats van historische inkoopprijs. Aan de rapportagekant kan het segmentrapportage bieden op locatie van bedrijfsunit en geografische locatie.
+> Afhankelijk van de huidige lokale GAAP's die momenteel in gebruik zijn, is een van de grootste veranderingen op het gebied van herkenning en meting voor IAS/IFRS uitgebreid gebruik van fair-value principes in plaats van historische kosten. [!INCLUDE [prod_short](../includes/prod_short.md)] kan bedrijven helpen reële waarde en NPV-concepten (Net Present Value) te berekenen, die zijn geconcentreerd op huidige en verwachte cashflowstromen, in plaats van historische inkoopprijs. Aan de rapportagekant kan het segmentrapportage bieden op locatie van bedrijfsunit en geografische locatie.
 
 > [!NOTE]  
 > **Basel II: implicaties voor rapportage en analyse**  

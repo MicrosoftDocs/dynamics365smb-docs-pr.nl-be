@@ -2,15 +2,13 @@
 title: Inleiding in Business Central en Power BI
 description: 'Met Power BI kunt u eenvoudig inzicht verwerven, bedrijfsinformatie genereren en KPI''s vaststellen op basis van uw Business Central-gegevens.'
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
-ms.reviewer: edupont
-ms.date: 08/30/2022
+ms.reviewer: jswymer
+ms.date: 04/26/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 # Inleiding in [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
@@ -28,7 +26,7 @@ Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](include
 |Power BI-rapporten weergeven in de [!INCLUDE[prod_short](includes/prod_short.md)]-client.| Power BI-rapporten waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven, kunnen rechtstreeks worden ingesloten in gedeelten in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's. U kunt in een dergelijk gedeelte van een pagina elk gewenst rapport weergeven dat beschikbaar is gemaakt voor u. |![werkt online.](media/check.png)|![Werkt on-premises](media/check.png)<sup>[*](#onprem)</sup>|[Hier...](across-working-with-powerbi.md).|
 |Maak rapporten en dashboards in Power BI waarin [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens worden weergegeven.|Gebruik Power BI Desktop om uw eigen rapporten en dashboards te maken. U kunt de rapporten publiceren naar uw eigen Power BI-service of deze delen met anderen binnen uw organisatie.|![Werkt online.](media/check.png)|![werkt on-premises](media/check.png)|[Hier...](across-how-use-financials-data-source-powerbi.md)|
 |[!INCLUDE[prod_short](includes/prod_short.md)]-apps in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publiceert drie apps voor Power BI in Microsoft AppSource. Met deze apps kunnen gedetailleerde rapporten en dashboards worden gemaakt in uw Power BI-service voor het weergeven van [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens. De volgende apps zijn beschikbaar: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Werkt online.](media/check.png)||[Hier...](across-powerbi-business-central-apps.md)|
-|Werken met [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens in datamarts en gegevensstromen|Vanaf juli 2022 kunt u gebruik maken van de [!INCLUDE [prod_short](includes/prod_short.md)]-connector in Power Query Online naar gegevensstromen die u deelt over verschillende rapporten en dashboards.|[Hier...](across-powerbi-business-central-apps.md)|
+|Werken met [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens in datamarts en gegevensstromen|Vanaf juli 2022 kunt u gebruik maken van de [!INCLUDE [prod_short](includes/prod_short.md)]-connector in Power Query Online naar gegevensstromen die u deelt over verschillende rapporten en dashboards.|![werkt online.](media/check.png)||[Hier...](across-powerbi-business-central-apps.md)|
 
 <a name="onprem"><sup>*</sup></a> Deze functie vereist een geregistreerde toepassing voor Business Central in Microsoft Azure. Zie [Business Central On-Premises registeren in Azure AD voor integratie met andere services](/dynamics365/business-central/dev-itpro/administration/register-app-azure) voor meer informatie.
 
@@ -47,36 +45,37 @@ Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan
 |Business Central-gegevens beschikbaar stellen aan Power BI||![het is een vinkje.](media/check.png)|![weer een vinkje](media/check.png)|[Gegevens beschikbaar stellen via API-pagina's of OData-webservices](admin-powerbi-setup.md#exposedata)
 |Power BI-integratie inschakelen<br />(alleen voor on-premises)||![het is een vinkje.](media/check.png)||[Business Central on-premises instellen voor Power BI-integratie](admin-powerbi-setup.md#setup)|
 
+## Uw bedrijfs-KPI's bijhouden met Power BI-meetgegevens
 
-<!--
+Als u Power BI met [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens gebruikt, is het eenvoudig om KPI's of meetgegevens bij te houden die voor u belangrijk zijn. 
 
+Met meetgegevens in Power BI kunt u uw eigen meetgegevens selecteren en deze volgen ten opzichte van belangrijke zakelijke doelstellingen, in één enkel venster. Deze functie verbetert de gegevenscultuur door verantwoordelijkheid, afstemming en zichtbaarheid voor teams en initiatieven binnen organisaties te bevorderen. 
 
+Volg dit proces in vier stappen om Power BI-meetgegevens in te stellen:
 
-1. If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, make sure your deployment meets the requirements outlined in [Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration](admin-powerbi-setup.md#setup). This task is typically an administrative task.
+1. Maak een scorekaart in de Power BI-service. Zie [Scorekaarten maken in Power BI](/power-bi/create-reports/service-goals-create).
+2. Voeg de _meetgegevens_ die u wilt bijhouden toe door verbinding te maken met uw Power BI-rapport over telemetrie. Zie [Verbonden statistieken maken](/power-bi/create-reports/service-goals-create-connected).
+3. Definieer statusregels voor uw meetgegevens om waarschuwingen toe te voegen. Zie [Geautomatiseerde statusregels maken voor meetgegevens](/power-bi/create-reports/service-metrics-status-rules).
 
-2. Expose Business Central data through API pages or published web services.
+   Met deze stap worden statusupdates geautomatiseerd op basis van regels die voor dat meetgegeven gelden. Regels triggeren wijzigingen op basis van waarde, percentage van behaald doel, datumvoorwaarden of een combinatie van de drie, waardoor de regels zo veelzijdig mogelijk zijn. Voor verbonden meetgegevens worden deze statusregels vernieuwd telkens wanneer de gegevens in uw scorekaart worden vernieuwd.
+4. Volg ten slotte meetgegevens om waarschuwingen in Teams of per e-mail te ontvangen. Zie [Uw meetgegevens volgen](/power-bi/create-reports/service-metrics-follow).
 
-    Business Central online automatically included several pages as APIs. For more information, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). Application developers for Business Central online can create custom API pages that you can then consume in reports. For more information, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Zie [Aan de slag met meetgegevens in Power BI](/power-bi/create-reports/service-goals-introduction) voor meer informatie over het gebruik van Power BI.
 
-   Codeunit, page, and query objects can be published as OData web services. There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
+> [!NOTE]
+> Het is momenteel niet mogelijk om scorekaarten van Power BI-meetgegevens in te sluiten in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-3. Get a Power BI account.
+## Volgende stappen
 
-   To do anything with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)], whether you're an administrator or just a consumer, you'll need Power BI service account. To get an account, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. Sign-up requires that you have a license, but in most cases you should already have a free license. For more information, see [Power BI Licensing](admin-powerbi-setup.md#license).
+- Als u een beheerder bent die Power BI moet instellen in [!INCLUDE[prod_short](includes/prod_short.md)], gaat u naar [Power BI-integratie inschakelen](admin-powerbi-setup.md).
+- Als Power BI al is ingesteld en u de functies wilt uitproberen, gaat u naar [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md).
 
-4. If you want to create your own Power BI reports, get Power BI Desktop.
-
-   You can download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Get Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
-
--->
 
 ## Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## Zie ook
 
 [Bedrijfsinformatie](bi.md)  
-[Zich voorbereiden om zaken te doen](ui-get-ready-business.md)  
-[Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power Apps-gegevensbron](across-how-use-financials-data-source-powerapps.md)  
@@ -86,7 +85,5 @@ Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan
 [Snelle start: verbinding maken met uw gegevens in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Inleiding in datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
 [Inleiding in gegevensstromen en selfservice-gegevensvoorbereiding](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
-
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
