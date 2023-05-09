@@ -60,6 +60,8 @@ Als u het SMTP-protocol wilt gebruiken om e-mails te verzenden vanaf [!INCLUDE[p
 >
 > Exchange Online schaft het gebruik van basisverificatie voor SMTP af. Tenants die momenteel SMTP AUTH gebruiken, worden niet beïnvloed door deze wijziging. We raden echter ten zeerste aan om de nieuwste versie van [!INCLUDE [prod_short](includes/prod_short.md)] te gebruiken en OAuth 2.0-verificatie voor SMTP in te stellen. We zullen geen op certificaten gebaseerde verificatie toevoegen voor eerdere versies van [!INCLUDE [prod_short](includes/prod_short.md)], bijvoorbeeld versie 14. Als u geen OAuth 2.0-authenticatie kunt instellen, raden we u aan alternatieven van derden te verkennen als u SMTP-e-mail in eerdere versies wilt gebruiken.
 
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
 ## E-mailaccounts toevoegen
 
 De begeleide instelling **E-mail instellen** kan u helpen snel aan de slag te gaan met e-mails.

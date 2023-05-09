@@ -25,16 +25,16 @@ Lees meer op [Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md
 
 Dit artikel verwijst naar methode B in de tabel.
 
-Als voor uw vestiging wel een opslagverwerking, maar geen ontvangstverwerking vereist is, gebruikt u het document **Voorraadopslag** om opslag- en ontvangstinformatie voor uw brondocumenten vast te leggen en te boeken. Inkomende brondocumenten kunnen inkooporders, verkoopretourorders en inkomende transferorders zijn.
+Wanneer uw vestiging zodanig is ingesteld dat magazijnopslagverwerking een vereiste is, maar ontvangstverwerking niet, gebruikt u het document **Voorraadopslag** om opslag- en ontvangstinformatie voor uw brondocumenten vast te leggen en te boeken. Inkomende brondocumenten kunnen inkooporders, verkoopretourorders en inkomende transferorders zijn.
 
 > [!NOTE]
 > Productie- en assemblageoutput vertegenwoordigen ook inkomende brondocumenten. Lees meer over het afhandelen van productie- en assemblage-output voor interne processen op [Ontwerpdetails: Interne magazijnstromen](design-details-internal-warehouse-flows.md).
 
 U kunt een voorraadopslag op drie manieren maken:  
 
-- Maak de voorraadopslag rechtstreeks vanuit het brondocument.  
-- Gebruik de batchverwerking om de voorraadopslag voor verschillende brondocumenten tegelijk te maken.  
-- Maak de opslag in twee stappen door eerst het brondocument vrij te geven om de artikelen beschikbaar te maken voor opslag. U kunt de voorraadopslag maken op basis van het brondocument via de pagina **Voorraadopslag**.  
+* Maak de voorraadopslag rechtstreeks vanuit het brondocument.  
+* Gebruik de batchverwerking om de voorraadopslag voor verschillende brondocumenten tegelijk te maken.  
+* Maak de opslag in twee stappen door eerst het brondocument vrij te geven om de artikelen beschikbaar te maken voor opslag. U kunt de voorraadopslag maken op basis van het brondocument via de pagina **Voorraadopslag**.  
 
 ## Een voorraadopslag maken op basis van het brondocument
 
@@ -80,6 +80,8 @@ Een magazijnmedewerker kan op basis van het vrijgegeven brondocument een nieuwe 
 
     * De ontvangst boeken van de brondocumentregels die zijn opgeslagen
     * Als de vestiging opslaglocaties gebruikt, leidt de boeking er ook toe dat er magazijnposten worden gemaakt om de aantallen in de opslaglocatie te boeken.
+
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
 ## Zie gerelateerde [Microsoft-training](/training/modules/receive-put-away-items/)
 
