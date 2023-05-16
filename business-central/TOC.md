@@ -350,9 +350,11 @@
 #### Btw instellen
 ##### [Btw instellen](finance-setup-vat.md)
 ##### [Instelling van boekingsgroep](finance-posting-groups.md#tax-posting-groups)
+##### [Niet-aftrekbare btw instellen](finance-setup-nondeductible-vat.md)
 ##### [Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)
 ##### [Een btw-aangifte instellen](finance-how-setup-vat-statement.md)
 #### [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)
+#### [Niet-aftrekbare btw gebruiken](finance-how-use-non-deductible-vat.md)
 #### [Btw-aangiften indienen bij de belastingdienst](finance-how-report-vat.md)
 #### [Wijzigingen in btw-tarieven beheren](finance-how-use-vat-rate-change-tool.md)
 #### [Btw-nummers valideren](finance-how-validate-vat-registration-number.md)

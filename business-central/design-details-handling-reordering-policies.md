@@ -338,15 +338,17 @@ In tegenstelling tot de meeste combinaties van voorziening en vraag, worden geko
 
 Het beleid Lot-voor-lot is het meest flexibel omdat het systeem alleen reageert op de daadwerkelijke vraag. Het handelt op de verwachte vraag van prognose- en raamcontracten en regelt vervolgens de orderhoeveelheid op basis van de vraag. Het lot-voor-lot beleid is bedoeld voor artikelen waar voorraad kan worden geaccepteerd maar vermeden moet worden.  
 
-In sommige opzichten is het beleid Lot-voor-lot vergelijkbaar met het orderbeleid, maar het heeft een generieke benadering van artikelen. Het kan hoeveelheden in voorraad accepteren en het bundelt vraag en aanbod in de tijdsintervallen die u definieert.  
+In sommige opzichten is het Lot-for-Lot-beleid vergelijkbaar met het bestelbeleid. Het kan hoeveelheden in voorraad accepteren en het bundelt vraag en aanbod in de tijdsintervallen die u definieert.
 
 U specificeert het tijdsinterval in het veld **Tijdsinterval** op de pagina **Artikel**. De minimale grootte van een tijdsinterval is één dag, omdat dat de kleinste tijdseenheid is voor vraag- en aanbodgebeurtenissen in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 Met het tijdsinterval worden ook limieten ingesteld wanneer u een aanbodorder opnieuw moet plannen om te voldoen aan een bepaalde vraag. Aanbod binnen het tijdsinterval wordt opnieuw in of uit gepland om aan de vraag te voldoen. Eerder aanbod zorgt voor extra voorraad en u moet deze annuleren. Voor levering die later is, maakt u een nieuwe aanbodorder.  
 
-Met dit beleid kunt u een veiligheidsvoorraad opgeven om veranderingen in het aanbod op te vangen of om aan een plotselinge vraag te voldoen.  
+Met dit beleid kunt u een veiligheidsvoorraad opgeven om veranderingen in het aanbod op te vangen of om aan een plotselinge vraag te voldoen. Het lot-voor-lot-beleid kan ook een dempingsperiode en dempingshoeveelheid omvatten om de orderplanning te verminderen.  
 
-Omdat de aanvulorderhoeveelheid is gebaseerd op de werkelijke vraag, kan het zinvol zijn om de ordermodificaties te gebruiken:
+Samen met het veld **Herplanningsperiode** draagt het veld **Lotaccumulatieperiode** bij aan de definitie van de bestelcyclus. Vanaf de datum van de eerste vraag worden alle aanvragen gecumuleerd in de volgende lotaccumulatieperiode in één aanvulorder op de datum van de eerste vraag. Vraag buiten de lotaccumulatieperiode wordt niet gedekt door de aanvulorder.
+
+Omdat de aanvulorderhoeveelheid is gebaseerd op de werkelijke vraag, kan het zinvol zijn om ordermodificaties te gebruiken:
 
 * Rond de bestelhoeveelheid naar boven af om te voldoen aan een orderveelvoud (of maateenheid)
 * Verhoog de order tot een opgegeven minimale orderhoeveelheid
