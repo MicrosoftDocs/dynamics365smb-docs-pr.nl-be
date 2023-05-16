@@ -1,4 +1,5 @@
-# [Welkom bij Business Central](index.md)  
+
+# [Welkom bij Business Central](index.md)
 # [Nieuw en gepland](product-news.md)
 # Aan de slag
 ## [Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)
