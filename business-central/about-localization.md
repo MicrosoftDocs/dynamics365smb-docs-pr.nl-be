@@ -53,7 +53,7 @@ Kies voor meer informatie over de lokale functionaliteit voor elk land/regio de 
 [!INCLUDE[prod_short](includes/prod_short.md)] is tevens in andere markten beschikbaar via lokalisatieapps. Als een Microsoft-partner een lokalisatieapp voor uw land/regio heeft ontwikkeld, kunt u deze vinden in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## Zie ook
-
+[Omgevingen maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Naleving](compliance/compliance-overview.md)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

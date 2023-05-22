@@ -99,9 +99,29 @@ Controleert of de geverifieerde gebruiker verbinding kan maken met een gedetecte
 |Geen clusteradres om deze controle voor uit te voeren|Bekijk de lijst met beschikbare omgevingen in het Business Central-beheercentrum.|
 |Versie-eindpunt bestaat niet|Bekijk de lijst met beschikbare omgevingen in het Business Central-beheercentrum.|
 
+## Verbinding met webserver
+
+Controleert of de geverifieerde gebruiker succesvol verbinding kan maken met de webserver.
+
+|Probleem|Dingen om te proberen|
+|-------|-------------|
+|Er is geen geverifieerde gebruiker om deze controle voor uit te voeren|Zie de controle **Gebruikersverificatie**.|
+|Kan de beschikbare omgevingen voor uw account niet ophalen.|Zie **Detectie van Business Central-omgevingen**.|
+|Geen clusteradres om deze controle voor uit te voeren|Bekijk de lijst met beschikbare omgevingen in het Business Central-beheercentrum.|
+|Kan geen verbinding maken met de webserver|Wis de cache en laad de pagina opnieuw.|
+
+## Servicestatus
+
+Rapporteert de status van de service van Business Central door te controleren op aangegeven storingen.
+
+|Probleem|Dingen om te proberen|
+|-------|-------------|
+|Er is geen geverifieerde gebruiker om deze controle voor uit te voeren|Zie de controle **Gebruikersverificatie**.|
+|Business Central is tijdelijk niet beschikbaar. Probeer het later opnieuw.|Probeer het later nogmaals.|
+
 ## Zie ook
 
-[Bronnen voor Help en ondersteuning](product-help-and-support.md)  
+[Resources voor Help en ondersteuning](product-help-and-support.md)  
 [Overzicht van taken om Business Central in te stellen](setup.md)  
 [Veelgestelde vragen over het gebruik van Business Central](across-faq.yml)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

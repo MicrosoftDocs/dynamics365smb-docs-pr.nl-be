@@ -4,7 +4,7 @@ description: Krijg antwoorden op veelgestelde vragen over de door AI gegenereerd
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: faq
-ms.date: 03/16/2023
+ms.date: 04/03/2023
 ms.custom: bap-template
 author: jswymer
 ms.service: dynamics365-business-central
@@ -35,16 +35,15 @@ Copilot is alleen beschikbaar als aan de volgende vereisten wordt voldaan:
 - De taal die u gebruikt in Business Central moet Engels zijn. Alle beschikbare Engelse landinstellingen werken, zoals Engels (Verenigde Staten), Engels (Verenigd Koninkrijk) of Engels (Zuid-Afrika).
 
   Om de taal te wijzigen, selecteert u in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum"). > **Mijn instellingen** > **Taal**. Ga voor meer informatie naar [Basisinstellingen wijzigen](ui-change-basic-settings.md#language).
-- U moet Business Central online gebruiken als proefversie of in een sandbox.
-- Uw versie van Business Central moet **22.0.54157.54311 zijn (preview - Copilot-editie)**.
+- U moet de Business Central online versie 22 of hoger gebruiken (als u een bestaande klant bent) of een proefversie.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->
 
-   Selecteer het vraagteken in de rechterbovenhoek en vervolgens **Help en ondersteuning**. Zoek onder **Problemen oplossen** naar de toepassingsversie. Ga naar [Aan de slag met een preview-versie van Business Central - Copilot-editie](ai-preview-getstarted.md) voor informatie over het verkrijgen van de juiste preview-versie.
+   Selecteer het vraagteken in de rechterbovenhoek en selecteer vervolgens **Help en ondersteuning**. Zoek onder **Problemen oplossen** naar de toepassingsversie. Ga naar [Aan de slag met een preview-versie van Business Central - Copilot-editie](ai-preview-getstarted.md) voor informatie over het verkrijgen van de juiste preview-versie.
 - De functie **Op AI gebaseerde productbeschrijvingen maken met Copilot** moet zijn geactiveerd.
 
-   Ga voor meer informatie naar [De functie "Op AI gebaseerde productbeschrijvingen maken met Copilot" in- of uitschakelen](enable-ai.md#enable-or-disable-the-create-ai-powered-product-descriptions-with-copilot-feature).
+   Ga voor meer informatie naar [De functie "Op AI gebaseerde productbeschrijvingen maken met Copilot" in- of uitschakelen](enable-ai.md#enable-or-disable-create-ai-powered-product-descriptions-with-copilot).
 - Een beheerder heeft ingestemd met de voorwaarden.
 
-   Ga voor meer informatie naar [De preview en privacyvoorwaarden accepteren of afwijzen voor alle gebruikers](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+   Ga voor meer informatie naar [De preview en privacyvoorwaarden accepteren of afwijzen voor alle gebruikers](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ### Is Copilot voor preview beschikbaar in Business Central on-premises?
 
@@ -64,9 +63,9 @@ Ga voor informatie over ongepaste suggesties naar [Wat wordt er gedaan aan beled
 
 Er zijn een paar dingen die u kunt doen om de suggesties van Copilot optimaal te benutten:
 
-- Voeg meer kenmerken toe aan een artikel om de specifieke functies en eigenschappen waarin u geïnteresseerd bent te promoten
+- Voeg meer kenmerken toe aan een artikel om de specifieke functies en eigenschappen waarin u geïnteresseerd bent te promoten.
 - Pas de opties voor de toon van de stem en de nadruk op kwaliteit aan uw persoonlijke voorkeuren aan.
-- De beschrijving van een artikel verbeteren
+- Verbeter de beschrijving van een artikel.
 - Zorg ervoor dat het artikel in de meest geschikte categorie wordt ingedeeld.
 
 Ga voor meer informatie naar [Tekstsuggesties verbeteren en aanpassen](item-marketing-text.md#improve-and-tailor-text-suggestions).
@@ -99,7 +98,7 @@ Momenteel ondersteunt Copilot alleen Engels. Onnauwkeurige antwoorden kunnen wor
 
 ### Wat wordt er gedaan aan beledigende en schadelijke tekstsuggesties?
 
-De Azure OpenAI-service slaat prompts en voltooiingen vanuit de service op om te controleren op misbruik en om de kwaliteit van de inhoudsbeheersystemen van Azure OpenAI te ontwikkelen en te verbeteren. [Meer informatie over ons inhoudsbeheer en filtering](/azure/cognitive-services/openai/concepts/content-filter).
+De Azure OpenAI-service slaat prompts en voltooiingen vanuit de service op om te controleren op misbruik en om de kwaliteit van de inhoudsbeheersystemen van Azure OpenAI te ontwikkelen en te verbeteren. [Meer informatie over ons inhoudsbeheer en filtering.](/azure/cognitive-services/openai/concepts/content-filter)
 
 Geautoriseerde Microsoft-medewerkers hebben toegang tot uw prompt- en voltooiingsgegevens die onze geautomatiseerde systemen hebben geactiveerd voor het onderzoeken en verifiëren van mogelijk misbruik; voor klanten die de Azure OpenAI-service in de Europese Unie hebben geïmplementeerd, zullen de geautoriseerde Microsoft-medewerkers zich in de Europese Unie bevinden. Deze gegevens kunnen worden gebruikt om onze inhoudsbeheersystemen te verbeteren. In het geval van een bevestigde beleidsschending kunnen we u vragen om onmiddellijk actie te ondernemen om het probleem op te lossen en om verder misbruik te voorkomen. Als het probleem niet wordt verholpen, kan de toegang tot Azure OpenAI-bronnen worden opgeschort of beëindigd.
 
@@ -107,7 +106,9 @@ Zie [Gegevens, privacy en beveiliging voor de Azure OpenAI-service](/legal/cogni
 
 ### Kan ik me afmelden voor het vastleggen en het menselijke beoordelingsproces?  
 
-Als onderdeel van het leveren van de Azure Open AI-previews, verwerkt en bewaart Microsoft klantgegevens die bij de service zijn ingediend, evenals uitvoerinhoud, met als doel (1) toezicht te houden op misbruik of schadelijk gebruik of uitvoer van de service en dit te voorkomen; en (2) het ontwikkelen, testen en verbeteren van mogelijkheden die zijn ontworpen om misbruik van en/of schadelijke uitvoer van de service te voorkomen. Geautoriseerd Microsoft-personeel kan gegevens bekijken die onze geautomatiseerde systemen hebben geactiveerd om mogelijk misbruik te onderzoeken en te verifiëren, en kan een beperkte willekeurige steekproef nemen van termen die niet door onze geautomatiseerde systemen zijn gemarkeerd om ervoor te zorgen dat de systemen correct werken. Geautoriseerd Microsoft-personeel heeft ook toegang tot deze gegevens en kan deze gebruiken om onze systemen te verbeteren die misbruik of schadelijk gebruik of uitvoer van de service controleren en voorkomen. Lees meer op [preview-voorwaarden](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)
+Als onderdeel van het leveren van de Azure Open AI-previews, verwerkt en bewaart Microsoft klantgegevens die bij de service zijn ingediend, evenals uitvoerinhoud, met als doel toezicht te houden op misbruik of schadelijk gebruik of uitvoer van de service en dit te voorkomen; en voor het ontwikkelen, testen en verbeteren van mogelijkheden die zijn ontworpen om misbruik van en schadelijke uitvoer van de service te voorkomen. 
+
+Geautoriseerd Microsoft-personeel kan gegevens bekijken die onze geautomatiseerde systemen hebben geactiveerd om mogelijk misbruik te onderzoeken en te verifiëren, en kan een beperkte willekeurige steekproef nemen van termen die niet door onze geautomatiseerde systemen zijn gemarkeerd om ervoor te zorgen dat de systemen correct werken. Geautoriseerd Microsoft-personeel heeft ook toegang tot deze gegevens en kan deze gebruiken om onze systemen te verbeteren die misbruik of schadelijk gebruik of uitvoer van de service controleren en voorkomen. Lees meer op [preview-voorwaarden](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)
 
 ## [Privacy](#tab/privacy)
 
@@ -126,4 +127,4 @@ We gebruiken deze gegevens om de kwaliteit van de functie te beoordelen en te ve
 [Overzicht van op AI gebaseerde artikelmarketingtekst met Copilot configureren](ai-overview.md)  
 [Op AI gebaseerde artikelmarketingtekst met Copilot configureren als beheerder](enable-ai.md)  
 [Marketingteksten voor artikelen maken met Copilot](item-marketing-text.md)  
-[Veelgestelde vragen over op AI gebaseerde artikelmarketingtekst met Copilot](ai-faq.md)  
+

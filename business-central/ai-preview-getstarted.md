@@ -106,7 +106,7 @@ Er zijn twee manieren om toestemming te geven als beheerder:
 
 - De gemakkelijkste manier is om Copilot te gebruiken. De eerste keer dat u Copilot als beheerder gebruikt, wordt u gevraagd de voorwaarden te lezen en vervolgens te accepteren of af te wijzen. Ga voor meer informatie over het gebruik van Copilot naar [Marketingtekst toevoegen aan artikelen](item-marketing-text.md).  
 
-- De andere manier is om de pagina **Status van privacyverklaringen** in Business Central te gebruiken en akkoord te gaan met de **Azure OpenAI**-integratie voor alle gebruikers. Ga voor meer informatie naar [Instemmen met voorwaarden](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+- De andere manier is om de pagina **Status van privacyverklaringen** in Business Central te gebruiken en akkoord te gaan met de **Azure OpenAI**-integratie voor alle gebruikers. Ga voor meer informatie naar [Instemmen met voorwaarden](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ## Zie ook
 
