@@ -14,17 +14,20 @@ ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 902
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] worden de container voor bedrijfsgegevens die behoort tot een bedrijfsunit of rechtspersoon, een *bedrijf* genoemd. Wanneer u zich registreert voor [!INCLUDE[prod_short](includes/prod_short.md)], krijgt u een demonstratiebedrijf en een leeg bedrijf, *Mijn bedrijf*. Tussen bedrijven schakelen is gemakkelijk: ga naar **Mijn instellingen** en ga naar het andere bedrijf. U kunt echter ook nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)], afhankelijk van de behoeften van uw bedrijf.  
 
+> [!NOTE]
+> Om een nieuw bedrijf te maken moet u zijn toegewezen aan de machtigingenset **Super** .
+
 Wanneer u een nieuw bedrijf maakt, helpt een begeleide instelling u de basis in te stellen. Vervolgens kunt u relevante gegevens importeren uit uw oude systeem of een ander bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## De juiste sjabloon kiezen
 
-Als u besluit een bedrijf toe te voegen aan uw [!INCLUDE[prod_short](includes/prod_short.md)], kunt u de begeleide instelling **Nieuw bedrijf maken** gebruiken om aan de slag te gaan. The setupwizard is beschikbaar via de pagina **Bedrijven** en via de zoekfunctie in het veld **Bedrijf** op de pagina **Mijn instellingen**.  
+Als u besluit een bedrijf toe te voegen aan uw [!INCLUDE[prod_short](includes/prod_short.md)], kunt u de begeleide instelling **Nieuw bedrijf maken** gebruiken om aan de slag te gaan. The begeleide instelling is beschikbaar vanaf de pagina **Bedrijven** en via de zoekfunctie in het veld **Bedrijf** op de pagina **Mijn instellingen**.  
 
-De installatiewizard biedt twee sjablonen en een lege optie:
+De begeleide instelling biedt twee sjablonen en een lege optie:
 
-- **Evaluatie - Voorbeeldgegevens**  
+- **Evaluatie - voorbeeldgegevens**  
     Hierdoor ontstaat een bedrijf dat lijkt op het demonstratiebedrijf met voorbeeldgegevens en instellingsgegevens. Dit type bedrijf is voor u beschikbaar zonder over te stappen naar een proefperiode van 30 dagen, zoals bij de andere typen het geval is.  
 - **Productie - Alleen instellingsgegevens**  
     Hierdoor ontstaat een bedrijf dat lijkt op **Mijn bedrijf**, met instellingsgegevens maar zonder voorbeeldgegevens. U kunt dit bedrijf gedurende een proefperiode van 30 dagen gebruiken.  
