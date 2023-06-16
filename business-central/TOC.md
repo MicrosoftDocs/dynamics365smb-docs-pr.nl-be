@@ -1,5 +1,6 @@
 
-# [Welkom bij Business Central](index.md)
+# [Business Central-documentatie](index.yml)
+# [Welkom bij Business Central](welcome.md)
 # [Nieuw en gepland](product-news.md)
 # Aan de slag
 ## [Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)
@@ -157,6 +158,7 @@
 ### [Overschakelen naar een ander bedrijf of een andere omgeving](ui-organization-switch.md)
 ### [Berichten beheren](ui-smart-notifications.md)
 ### [Prestatietips voor zakelijke gebruikers](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Prestaties analyseren](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Waarschuwingen en foutmeldingen](product-error-messages.md)
 ### Business Central personaliseren
 #### [Uw werkruimte personaliseren](ui-personalization-user.md)
@@ -1844,6 +1846,7 @@
 ### [Beheertaken](admin-setup-and-administration.md)
 ### Toegang tot Business Central beheren
 #### [Overzicht](admin-access-overview.md)
+#### [Toegang tot Business Central beheren met behulp van beveiligingsgroepen](ui-security-groups.md)
 #### Toegang met Microsoft 365-licenties
 ##### [Overzicht](admin-access-with-m365-license.md)
 ##### [Toegang instellen met Microsoft 365-licenties](admin-access-with-m365-license-setup.md)
