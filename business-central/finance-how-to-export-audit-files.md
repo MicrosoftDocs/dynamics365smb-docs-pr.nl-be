@@ -11,7 +11,7 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: null
+ms.reviewer: kfend
 ---
 
 # Export van controlebestand
@@ -98,10 +98,9 @@ Volg deze stappen om de grootboekrekeningtoewijzing op te geven voor het exporte
 > Als u meerdere posten wilt exporteren, raden we u af deze in de huidige sessie te exporteren vanwege mogelijke prestatieproblemen. In plaats daarvan raden we u aan parallelle verwerking te gebruiken tijdens niet-werkdagen of -uren.
 
 ## Zie ook
-
 [Financieel beheer](finance.md)  
 [Het grootboek en het rekeningschema begrijpen](finance-general-ledger.md)  
 [Werken met dimensies](finance-dimensions.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Werken met Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

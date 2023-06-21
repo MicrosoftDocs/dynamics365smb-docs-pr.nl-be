@@ -118,7 +118,7 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 
 [Documentatie van Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Business Central aanpassen met extensies](ui-extensions.md)  
-[Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+[Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Artificial Intelligence in Microsoft Dynamics 365 Business Central gebruiken](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

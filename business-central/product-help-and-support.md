@@ -78,7 +78,7 @@ De sectie **Zoeken** bevat twee koppelingen naar product-Help:
 
 - Help over de pagina die u zojuist bekeek in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Deze koppeling wordt automatisch gegenereerd. Als [!INCLUDE[prod_short](includes/prod_short.md)] de relevante koppeling niet kan vinden, wordt de [landingspagina op Microsoft Learn](index.md) voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] weergegeven. Als de pagina bijvoorbeeld deel uitmaakte van een app die geen contextgevoelige Help-toewijzing toevoegde aan [!INCLUDE[prod_short](includes/prod_short.md)], is de *Meer informatie*-koppeling standaard ingesteld op de landingspagina.  
+  Deze koppeling wordt automatisch gegenereerd. Als [!INCLUDE[prod_short](includes/prod_short.md)] de relevante koppeling niet kan vinden, wordt de [landingspagina op Microsoft Learn](index.yml) voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] weergegeven. Als de pagina bijvoorbeeld deel uitmaakte van een app die geen contextgevoelige Help-toewijzing toevoegde aan [!INCLUDE[prod_short](includes/prod_short.md)], is de *Meer informatie*-koppeling standaard ingesteld op de landingspagina.  
   
 - Help-landingspagina voor [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -152,9 +152,9 @@ Om uw partner op de hoogte te stellen van een probleem, kiest u de koppeling om 
 
 ## Meer leren met behulp van de productdocumentatie
 
-De basisversie van [!INCLUDE [prod_short](includes/prod_short.md)] wordt uitgebreid en aangepast door een grote gemeenschap van partners. Elke partner en veel klanten zetten hun eigen Help op hun eigen website in. Maar u kunt altijd naar de site [Dynamics 365 Business Central-documentatie](index.md) gaan voor meer informatie. De site bevat verschillende soorten inhoud, zoals de volgende:
+De basisversie van [!INCLUDE [prod_short](includes/prod_short.md)] wordt uitgebreid en aangepast door een grote gemeenschap van partners. Elke partner en veel klanten zetten hun eigen Help op hun eigen website in. Maar u kunt altijd naar de site [Dynamics 365 Business Central-documentatie](index.yml) gaan voor meer informatie. De site bevat verschillende soorten inhoud, zoals de volgende:
 
-- [Conceptuele inhoud over zakelijke functionaliteit](index.md)  
+- [Conceptuele inhoud over zakelijke functionaliteit](welcome.md)  
 - [Documentatie voor ontwikkelaars](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Gratis leertrajecten en e-learningmodules voor meerdere gebruikersprofielen](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ In deze sectie leert u hoe u door de inhoud van de bedrijfsfunctionaliteit navig
 
 ### Inhoud op de site
 
-[Deze sectie](index.md) van Microsoft Learn host inhoud van Microsoft die de *Meer informatie*-pijler in het gebruikersondersteuningsmodel vertegenwoordigt. De *Meer informatie*-inhoud is deels bedoeld om vragen te beantwoorden die de gebruikersinterface niet kan beantwoorden, zoals de volgende:
+[Deze sectie](welcome.md) van Microsoft Learn host inhoud van Microsoft die de *Meer informatie*-pijler in het gebruikersondersteuningsmodel vertegenwoordigt. De *Meer informatie*-inhoud is deels bedoeld om vragen te beantwoorden die de gebruikersinterface niet kan beantwoorden, zoals de volgende:
 
 - Waar past deze pagina in de grotere werkstroom?  
 - Wat komt hierna?  

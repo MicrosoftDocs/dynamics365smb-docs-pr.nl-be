@@ -37,7 +37,7 @@ De pagina maakt ook verbinding met Power BI voor nog meer inzichten. Maak eventu
 
 ## Zie ook
 
-[Welkom bij Business Central](index.md)  
+[Welkom bij Business Central](welcome.md)  
 [Extensies voor cloudmigratie](ui-extensions-data-replication.md)  
 [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 

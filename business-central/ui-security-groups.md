@@ -12,37 +12,37 @@ ms.date: 02/08/2023
 
 # Toegang tot Business Central beheren met behulp van beveiligingsgroepen
 
-[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
+Beveiligingsgroepen maken het voor beheerders eenvoudiger om gebruikersmachtigingen te beheren. Voor [!INCLUDE [prod_short](includes/prod_short.md)] online zijn ze bijvoorbeeld herbruikbaar in Dynamics 365-applicaties, zoals SharePoint Online, CRM Online en [!INCLUDE [prod_short](includes/prod_short.md)]. Beheerders voegen machtigingen toe aan hun [!INCLUDE [prod_short](includes/prod_short.md)]-beveiligingsgroepen en wanneer ze gebruikers aan de groep toevoegen, gelden de machtigingen voor alle leden. Een beheerder kan bijvoorbeeld een [!INCLUDE [prod_short](includes/prod_short.md)]-beveiligingsgroep maken waarmee verkopers verkooporders kunnen maken en boeken. Of laat inkopers hetzelfde doen voor inkooporders.
 
-Beveiligingsgroepen maken het voor beheerders gemakkelijker om gebruikersmachtigingen te beheren in hun Dynamics 365-applicaties, zoals SharePoint Online, CRM Online en de online versie van [!INCLUDE [prod_short](includes/prod_short.md)]. Beheerders voegen machtigingen toe aan hun beveiligingsgroepen en wanneer ze gebruikers aan de groep toevoegen, gelden de machtigingen voor alle leden. Een beheerder kan bijvoorbeeld een beveiligingsgroep maken waarmee verkopers verkooporders kunnen maken en boeken. Of laat inkopers hetzelfde doen voor inkooporders.
+## Business Central Online en on-premises
 
-Maak uw beveiligingsgroepen in uw Microsoft 365-beheercentrum of Azure Active Directory. Dit artikel beschrijft de stappen in het Microsoft 365-beheercentrum, maar de stappen zijn in beide hetzelfde.
+U kunt beveiligingsgroepen gebruiken voor de online en on-premises versies van [!INCLUDE [prod_short](includes/prod_short.md)]. Maak op een van de volgende manieren groepen, afhankelijk van uw versie:
 
-## Een beveiligingsgroep toevoegen in het Microsoft 365-beheercentrum
+* Gebruik Azure Active Directory-beveiligingsgroepen voor de online versie. Ga voor meer informatie over het maken van de groep naar [Een beveiligingsgroep maken, bewerken of verwijderen in het Microsoft 365 beheercentrum](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+* Gebruik voor on-premises Windows Active Directory-groepen. Ga voor meer informatie naar [Een groepsaccount maken in Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
-1. Ga in het Microsoft 365-beheercentrum naar de pagina **Actieve teams en groepen**.
-2. Kies **Een groep toevoegen**.
-3. Kies het groepstype **Beveiliging** en kies vervolgens **Volgende**.
-4. Specificeer de basis voor uw groep.
-5. Optioneel: maak de leden van de groep beschikbaar voor roltoewijzing. Ga voor meer informatie over de toewijzingen naar [Azure AD-groepen gebruiken om roltoewijzingen te beheren](/azure/active-directory/roles/groups-concept).
-6. Open de groep en gebruik vervolgens het tabblad **Leden toevoegen** om mensen in de groep op te nemen.
+Maak daarna een corresponderende beveiligingsgroep in [!INCLUDE [prod_short](includes/prod_short.md)] en koppel deze vervolgens aan de groep die u hebt gemaakt. Ga voor meer informatie naar [Een beveiligingsgroep toevoegen in Business Central](#add-a-security-group-in-business-central).
+
+> [!NOTE]
+> Als u een speciaal type gebruiker hebt ingesteld met een Windows Group-licentietype in een versie van [!INCLUDE [prod_short](includes/prod_short.md)] on-premises die ouder is dan releasewave 1 van 2023 en u een upgrade uitvoert, converteert [!INCLUDE [prod_short](includes/prod_short.md)] de gebruiker naar een beveiligingsgroep. De nieuwe beveiligingsgroep heeft dezelfde naam als de Windows-groepsnaam. De beveiligingsgroep geeft u een beter overzicht van de groepsleden en hun effectieve machtigingen.
 
 ## Een beveiligingsgroep in Business Central toevoegen
 
-Maak in [!INCLUDE [prod_short](includes/prod_short.md)] een beveiligingsgroep en koppel deze vervolgens aan de beveiligingsgroep in het Microsoft 365-beheercentrum. Uw nieuwe groep bevat de leden die u hebt toegevoegd in het Microsoft 365-beheercentrum.
-
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent 1.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Beveiligingsgroepen** in en kies vervolgens de gerelateerde koppeling.
-2. Kies **Nieuw** om een groep te maken.
-3. Voer in het veld **Naam** een naam voor de groep in.
-4. Voer in het veld **Naam van AAD-beveiligingsgroep** de naam van de beveiligingsgroep precies zo in als deze wordt weergegeven in het Microsoft 365-beheercentrum. [!INCLUDE [prod_short](includes/prod_short.md)] zal die groep vinden en koppelen aan deze groep.
+1. Kies **Nieuw** om een groep te maken.
+1. Maak de link naar uw groep als volgt:
+
+    * Kies voor [!INCLUDE [prod_short](includes/prod_short.md)] Online de groep in het veld **Naam van AAD-beveiligingsgroep**.
+    * Kies voor [!INCLUDE [prod_short](includes/prod_short.md)] on-premises de groep in het veld **Windows-groepsnaam**.
 
 > [!NOTE]
 > De gebruikers worden alleen op de kaart **Leden** in het feitenblokvenster of de pagina **Leden van beveiligingsgroep** weergegeven als ze zijn toegevoegd als gebruikers in [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie over het toevoegen van gebruikers [Gebruikers toevoegen of gebruikersgegevens en licentietoewijzingen bijwerken in Business Central](ui-how-users-permissions.md#adduser).  
 
-### Machtigingen toewijzen aan de groep
+### Machtigingen aan een beveiligingsgroep toewijzen
 
 1. Kies op de pagina **Beveiligingsgroepen** de groep en kies vervolgens de actie **Machtigingen**.
 1. Wijs machtigingen toe op de volgende manieren:
+
     * Om machtigingensets afzonderlijk toe te wijzen kiest u in het veld **Machtigingenset** de machtigingen die u wilt toewijzen.
     * Om meerdere machtigingensets toe te wijzen, kiest u de actie **Machtigingensets selecteren** en kiest u vervolgens de sets die u wilt toewijzen.
 
@@ -54,7 +54,19 @@ Machtigingen zijn ook beschikbaar op de pagina **Gebruikers**. Het feitenblokven
 
 ## Beveiligingsgroepen en gebruikersgroepen
 
-Als u gebruikersgroepen heeft, kunt u de groepen converteren naar machtigingensets in uw tenant met behulp van de begeleide instelling **Migratie van gebruikersgroepen**. Om de handleiding te starten gaat u op de pagina **Functiebeheer** naar **Functie: Machtigingen van gebruikersgroepen converteren** en kiest u **Alle gebruikers** in het veld **Geactiveerd voor** . De begeleide instelling biedt de volgende opties voor de conversie.
+> [!NOTE]
+> Gebruikersgroepen zullen in een toekomstige release niet meer beschikbaar zijn.
+
+Beveiligingsgroepen zijn zeer vergelijkbaar met de gebruikersgroepen die momenteel beschikbaar zijn. Gebruikersgroepen zijn echter alleen relevant voor [!INCLUDE [prod_short](includes/prod_short.md)]. Beveiligingsgroepen zijn gebaseerd op groepen in Azure Active Directory of Windows Active Directory, afhankelijk van of u respectievelijk [!INCLUDE [prod_short](includes/prod_short.md)] Online of on-premises gebruikt. Groepen komen beheerders ten goede omdat ze die kunnen gebruiken met andere Dynamics 365-apps. Als verkopers bijvoorbeeld [!INCLUDE [prod_short](includes/prod_short.md)]en SharePoint gebruiken, hoeven beheerders de groep en de leden niet opnieuw te maken.
+
+### Optioneel: converteer gebruikersgroepen naar machtigingssets
+
+In releasewave 1 van 2023 en later kunt u gebruikersgroepen converteren naar machtigingensets in uw tenant. De machtigingensets bieden dezelfde functionaliteit als gebruikersgroepen. Enkele voorbeelden:
+
+* U kunt het feitenblok **Gebruikers** gebruiken om machtigingen voor gebruikers te beheren.
+* U kunt inzoomen op de naam van de machtigingenset om andere machtigingensets toe te voegen aan de set waaraan u werkt. Ga voor meer informatie naar [Andere machtigingensets toevoegen](ui-define-granular-permissions.md#to-add-other-permission-sets).
+
+Gebruik de begeleide instelling **Migratie van gebruikersgroepen** om uw groepen te converteren. Om de handleiding te starten gaat u op de pagina **Functiebeheer** naar **Functie: Machtigingen van gebruikersgroepen converteren** en kiest u **Alle gebruikers** in het veld **Geactiveerd voor** . De begeleide instelling biedt de volgende opties voor de conversie.
 
 |Optie  |Omschrijving  |
 |---------|---------|

@@ -60,7 +60,7 @@ Herhaal stap 2-6 voor alle webshops die u wilt verbinden.
 
 - De browser blokkeert het pop-upvenster. Wanneer u de schakelaar **Geactiveerd** aanzet, opent [!INCLUDE [prod_short](../includes/prod_short.md)] de pagina **Wachten op een reactie. Sluit deze pagina niet** terwijl het wacht op een toegangstoken van Shopify. Als die pagina gesloten of geblokkeerd is, kunt u geen verbinding maken met Shopify. Meer informatie op [Om het toegangstoken verzoeken](troubleshoot.md#request-the-access-token)
 - [Fout: Oauth-fout invalid_request: Kan Shopify API-toepassing niet vinden met api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Kan geen verbinding maken vanuit sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [Kan geen verbinding maken vanuit sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Volgende stappen
 
@@ -96,7 +96,11 @@ Als u deze configuratie moet gebruiken, raden we u aan de volgende instellingen 
 * **Shopify kan klanten bijwerken** om bestaande klanten niet bij te werken
 * **Verkooporder automatisch maken** om geen verkooporders en verkoopfacturen te maken
 
+Zie [Een omgeving herstellen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore) voor meer informatie.
+
 ### Shopify-productie en Business Central-sandbox
+
+Het kan een goed idee zijn om een ​​back-up van uw gegevens te maken. Exporteer bijvoorbeeld uw producten en klanten. Zie voor meer informatie [CSV-bestanden gebruiken om een ​​back-up te maken van winkelinformatie](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
 Schakel de schakelaar **Gegevenssynchronisatie naar Shopify toestaan** uit zodat [!INCLUDE[prod_short](../includes/prod_short.md)] niet schrijft naar Shopify. In dit geval kunt u producten, afbeeldingen, klanten en orders importeren uit Shopify. Maar u kunt geen artikelen, prijzen, voorraadniveaus, klanten en afhandelingsinformatie naar Shopify sturen.
 

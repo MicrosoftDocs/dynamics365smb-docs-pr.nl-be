@@ -64,7 +64,7 @@ Deze functie is alleen van toepassing op synchronisaties van Shopify naar [!INCL
 
 ## Om het toegangstoken verzoeken
 
-Als [!INCLUDE[prod_short](../includes/prod_short.md)] geen verbinding kan maken met uw Shopify-account, probeer dan het toegangstoken opnieuw in te stellen vanuit Shopify. Mogelijk hebt u het token nodig als er wijzigingen zijn in de beveiligingssleutels of vereiste machtigingen (bereiken).
+Als [!INCLUDE[prod_short](../includes/prod_short.md)] geen verbinding kan maken met uw Shopify-account, probeer dan het toegangstoken opnieuw in te stellen vanuit Shopify. U moet mogelijk een nieuw token aanvragen als er wijzigingen zijn in de beveiligingssleutels of vereiste machtigingen (toepassingsbereiken).
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkels** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u het toegangstoken wilt ophalen om de pagina **Shopify-winkelkaart** te openen.
@@ -73,7 +73,7 @@ Als [!INCLUDE[prod_short](../includes/prod_short.md)] geen verbinding kan maken 
 
 De schakelaar **Heeft toegangssleutel** wordt geactiveerd.
 
-### Verifieer en activeer machtigingen om http-verzoeken te doen bij gebruik in een niet-productieomgeving
+## Verifieer en activeer machtigingen om http-verzoeken te doen bij gebruik in een niet-productieomgeving
 
 Om correct te kunnen werken vereist de extensie Shopify-connector toestemming om HTTP-verzoeken te doen. Bij het testen in een sandbox zijn de HTTP-verzoeken voor alle extensies verboden.
 
@@ -125,7 +125,7 @@ Vergeet niet om AL-aanroepstack-informatie te delen met de leverancier van de ex
 
 ### Fout: Bedrijfsboekingsgroep moet een waarde hebben in Klant: 'YOUR SHOPIFY STORE'. Het kan niet nul of leeg zijn
 
-Vul het veld **Klantensjablooncode** op de pagina **Shopify -winkelkaart** met de sjabloon waarin **Bedrijfsboekingsgroep** is ingevuld. De klantsjabloon wordt gebruikt om klanten te maken en verkoopprijzen op verkoopdocumenten te berekenen.
+Kies op de pagina **Shopify-winkelkaart** in het veld **Klantensjablooncode** de sjabloon waarin **Bedrijfsboekingsgroep** is ingevuld. De klantsjabloon wordt gebruikt om klanten te maken en verkoopprijzen op verkoopdocumenten te berekenen.
 
 ### Fout: gegevens importeren naar uw Shopify-winkel is niet ingeschakeld. Ga naar de winkelkaart om deze in te schakelen
 
@@ -134,6 +134,10 @@ Zet op de pagina **Shopify-winkelkaart** de schakelaar **Gegevenssynchronisatie 
 ### Fout: Oauth-fout invalid_request: kan Shopify API-toepassing niet vinden met api_key
 
 Het lijkt erop dat u [App insluiten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) gebruikt, waarbij de client-URL deze indeling heeft: `https://[application name].bc.dynamics.com`. De Shopify-connector werkt niet voor Insluiten-apps. Als u meer wilt weten, gaat u naar [Voor welke Microsoft-producten is de Shopify-connector beschikbaar?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+
+### Fout: interne fout. Het lijkt erop dat er bij ons iets is misgegaan. Aanvraag-id: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+
+Neem contact op met Shopify-ondersteuning binnen 7 dagen na het optreden van deze fout en verstrek de aanvraag-id. Ga voor meer informatie naar [Ondersteuningsopties voor Shopify](shopify-faq.md#shopify).
 
 ## Zie ook
 

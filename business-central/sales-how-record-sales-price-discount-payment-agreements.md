@@ -1,16 +1,14 @@
 ---
 title: Speciale verkoopprijzen en kortingen registreren
 description: Beschrijft hoe u prijs- en kortingsovereenkomsten voor verkoopdocumenten definieert.
-author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 06/13/2023
+ms.custom: bap-template
 ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
-ms.date: 06/03/2022
-ms.author: bholtorf
 ---
 
 # Speciale verkoopprijzen en kortingen registreren
@@ -22,7 +20,11 @@ ms.author: bholtorf
 
 * One-price-fits-all-modellen waarbij een artikel altijd voor dezelfde prijs wordt verkocht.
 * Speciale prijsafspraken met specifieke klanten, of groepen klanten.
-* Campagnes wanneer een verkoop voldoet aan de criteria voor een speciale aanbieding. Criteria kunnen bijvoorbeeld zijn wanneer een bestelling voldoet aan een minimumhoeveelheid, vóór een bepaalde datum valt of een bepaald type artikel bevat.  
+* Campagnes wanneer een verkoop voldoet aan de criteria voor een speciale aanbieding. U kunt bijvoorbeeld de volgende criteria voor een order hebben:
+
+  * Het voldoet aan een minimale hoeveelheid
+  * Het is voor een bepaalde datum
+  * Het omvat een bepaald type artikel  
 
 Om een basisprijsmodel te gebruiken hoeft u alleen een eenheidsprijs op te geven wanneer u een artikel of resource instelt. Die prijs wordt altijd gebruikt op verkoopdocumenten. Voor meer geavanceerde modellen, wanneer u bijvoorbeeld speciale prijzen wilt aanbieden voor een verkoopcampagne, kunt u daarvoor criteria opgeven op de pagina **Verkoopprijzen**. U kunt speciale prijzen aanbieden op basis van combinatie van de volgende gegevens:  
 
@@ -32,13 +34,13 @@ Om een basisprijsmodel te gebruiken hoeft u alleen een eenheidsprijs op te geven
 * Minimumhoeveelheid
 * Datums die de periode bepalen waarvoor de prijzen geldig zijn.
 
-Nadat u speciale prijzen heeft ingesteld, kan [!INCLUDE[prod_short](includes/prod_short.md)] de beste prijzen berekenen op verkoop- en inkoopdocumenten, en op taak- en artikeljournaalregels. Meer informatie op [Beste prijsberekening](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Nadat u speciale prijzen heeft ingesteld, kan [!INCLUDE[prod_short](includes/prod_short.md)] de beste prijzen berekenen op verkoop- en inkoopdocumenten, en voor regels van taken en artikeljournalen. Meer informatie op [Beste prijsberekening](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Voor verkoopkortingen kunt twee soorten instellen:
 
-| Type korting | Omschrijving |
+| Kortingsoort | Omschrijving |
 | --- | --- |
-| **Verkoopregelkorting** |Een bedrag dat op verkoopregels wordt ingevoegd als ze een bepaalde combinatie bevatten van klant, artikel, minimumhoeveelheid, eenheid of begin- en einddatum. Dit type werkt op dezelfde manier als bij verkoopprijzen. |
+| **Verkoopregelkorting** |Voeg een bedrag toe aan verkoopregels die een bepaalde combinatie hebben van klant, artikel, minimumhoeveelheid, maateenheid of begin- en einddatum. Dit type werkt op dezelfde manier als bij verkoopprijzen. |
 | **Factuurkorting** |Een kortingspercentage dat van het verkoopdocumenttotaal wordt afgetrokken als het totaal van alle regels in het document een bepaald minimum overschrijdt. |
 
 > [!TIP]  
@@ -85,22 +87,22 @@ Wanneer u de functie-update **Nieuwe verkoopprijservaring** op de pagina **Funct
 
 * Als u met alle prijzen op één pagina wilt werken, schakelt u deze in. Bestaande prijzen worden geconverteerd naar één standaardprijslijst voor elk van de volgende documenten:
 
-    * Verkoop
-    * Inkopen
-    * Projectomzet
-    * Projectinkopen
+  * Verkoop
+  * Inkopen
+  * Projectomzet
+  * Projectinkopen
 
-    U kunt alle prijzen voor deze gebieden bewerken op de pagina **Prijsvoorstel**. De standaardprijslijsten worden ingesteld op de pagina's **Verkoopinstellingen**, **Inkoopinstellingen** en **Projectinstellingen**. 
+  U kunt alle prijzen voor deze gebieden bewerken op de pagina **Prijsvoorstel**. De standaardprijslijsten worden ingesteld op de pagina's **Verkoopinstellingen**, **Inkoopinstellingen** en **Projectinstellingen**.
 
 > [!NOTE]
 > Als prijzen alleen op artikel- of resourcekaarten worden ingesteld, worden tijdens de gegevensupdate geen standaardprijslijsten met die prijzen ingevuld. U kunt echter elk van de standaardprijslijsten of de pagina **Prijsvoorstel** openen en de actie **Regels voorstellen** gebruiken om de prijzen toe te voegen die zijn ingesteld op artikel- of resourcekaarten.
 
-* Schakel dit uit om verkoopprijslijsten te gebruiken. Bestaande prijzen worden geconverteerd naar een nieuwe prijs voor elke combinatie van de volgende: 
+* Schakel dit uit om verkoopprijslijsten te gebruiken. Bestaande prijzen worden geconverteerd naar een nieuwe prijs voor elke combinatie van de volgende:
 
-* Klant
-* Klantengroep of campagne
-* Begin- en einddatum
-* Valuta's 
+  * Klant
+  * Klantengroep of campagne
+  * Begin- en einddatum
+  * Valuta's
 
 Als u veel combinaties hebt, hebt u veel prijslijsten.
 
@@ -166,9 +168,12 @@ Als u verkoopprijzen wilt kopiëren, bijvoorbeeld om de verkoopprijzen van een i
 
 #### [Nieuwe ervaring](#tab/new-experience/)  
 
-U kunt aangeven of de nieuwe prijslijst de instellingen gebruikt uit de koptekst van de lijst die u kopieert, of de instellingen uit de nieuwe lijst waarnaar u kopieert. Als u de instellingen wilt gebruiken van de prijslijst waarnaar u prijzen kopieert, schakelt u de schakelaar **Standaardinstellingen van doel gebruiken** in.
+U kunt de instellingen opgeven die de prijslijst zal gebruiken:
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijslijsten** in en kies de desbetreffende koppeling. 
+* Gebruik de instellingen uit de koptekst van de lijst die u kopieert.
+* Gebruik de instellingen uit de koptekst van de lijst waarnaar u kopieert. Als u de instellingen wilt gebruiken van de prijslijst waarnaar u prijzen kopieert, schakelt u de schakelaar **Standaardinstellingen van doel gebruiken** in.
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijslijsten** in en kies de desbetreffende koppeling.
 2. Kies de prijslijst die u wilt kopiëren en kies vervolgens **Regels kopiëren**.
 3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -185,8 +190,17 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 Als u artikelprijzen in bulk wilt bijwerken, bijvoorbeeld om alle artikelprijzen met een percentage te verhogen, kunt u de pagina Verkoopprijsvoorstel invullen door de volgende batchtaken te gebruiken:
 
-* **Verkoopprijsvoorstellen maken** stelt veranderingen op twee manieren voor. Door een aanpassingsfactor toe te passen op bestaande verkoopprijzen of door bestaande verkoopprijsafspraken te kopiëren naar andere klanten, klantprijsgroepen of verkoopcampagnes.
-* **Artikelprijsvoorstellen maken** stelt veranderingen op twee manieren voor. Door een aanpassingsfactor toe te passen op bestaande eenheidsprijzen op artikelkaarten of door prijzen voor te stellen voor nieuwe combinaties van valuta, maateenheden, enzovoort. De eenheidsprijzen van artikelen worden niet gewijzigd door deze batchtaak.  
+* **Verkoopprijsvoorstellen maken** stelt veranderingen op twee manieren voor:
+
+  * Door een correctiefactor toe te passen op bestaande verkoopprijzen.
+  * Door bestaande verkoopprijsafspraken te kopiëren naar andere klanten, klantprijsgroepen of verkoopcampagnes.
+
+* **Artikelprijsvoorstellen maken** stelt veranderingen op twee manieren voor:
+
+  * Door een correctiefactor toe te passen op bestaande eenheidsprijzen op artikelkaarten.
+  * Door prijzen voor te stellen voor nieuwe combinaties van valuta, maateenheden, enzovoort.
+
+  Deze batchverwerking wijzigt de eenheidsprijzen van artikelen niet.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijsvoorstel** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Artikelprijsvoorstellen maken** .  
@@ -219,7 +233,7 @@ De beste prijs is de laagst prijs met de hoogst regelkorting die toegestaan is o
 
     * Is er een prijs-/kortingsafspraak voor de klant of behoort de klant tot een groep waarvoor een dergelijke afspraak geldt?
     * Zijn er dergelijke prijs-/kortingsafspraken van toepassing op het artikel of de artikelkortingsgroep op de regel?
-    * Valt de besteldatum (of de boekingsdatum van de factuur en creditnota) binnen de begin- en einddatum van de prijs-/kortingsafspraak?
+    * Valt de datum binnen de begin- en einddatum van de prijs-/kortingsovereenkomst? Voor facturen en creditnota's is dit de datum in het veld **Boekingsdatum** in de documentkop. Voor alle andere documenten is dit de datum in het veld **Orderdatum** in de kopteksten ervan.
     * Is er een eenheidscode opgegeven? In dat geval controleert [!INCLUDE[prod_short](includes/prod_short.md)] op prijzen/kortingen met dezelfde eenheidscode en op prijzen/kortingen zonder eenheidscode.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] controleert of er prijs-/kortingsafspraken van toepassing zijn op informatie op de document- of journaalregel. Vervolgens worden de toepasselijke eenheidsprijs en het regelkortingspercentage ingevoegd met behulp van de volgende criteria:

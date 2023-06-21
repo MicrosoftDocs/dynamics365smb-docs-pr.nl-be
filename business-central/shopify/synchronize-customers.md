@@ -1,18 +1,18 @@
 ---
 title: Klanten synchroniseren
 description: Klanten importeren uit of exporteren naar Shopify
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Klanten synchroniseren
 
-Wanneer een order uit Shopify wordt geïmporteerd, is verkrijgen van de informatie over de klant essentieel voor de verdere verwerking van het document in [!INCLUDE[prod_short](../includes/prod_short.md)]. Er zijn twee hoofdopties hiervoor en hun combinaties:
+Wanneer u een order uit Shopify importeert, is verkrijgen van de informatie over de klant essentieel voor de verdere verwerking van het document in [!INCLUDE[prod_short](../includes/prod_short.md)]. Er zijn twee hoofdopties hiervoor en verschillende combinaties:
 
 * Gebruik een speciale klant voor alle orders.
 * Importeer de actuele klantinformatie uit Shopify. Deze optie is ook beschikbaar wanneer u klanten eerst exporteert naar Shopify vanuit [!INCLUDE[prod_short](../includes/prod_short.md)].
@@ -36,9 +36,9 @@ Sommige instellingen kunnen worden gedefinieerd op land/regio-niveau of op staat
 U kunt voor elke klant het volgende doen met behulp van de **Shopify-klantensjabloon**:
 
 1. Specificeer het **Standaardklantnr.**, dat voorrang heeft op de selectie in de velden **Klant importeren uit Shopify** en **Type klanttoewijzing**. Het wordt gebruikt in de geïmporteerde verkooporder.
-2. Definieer de **Klantensjablooncode**, die wordt gebruikt om ontbrekende klanten te maken als **Automatisch onbekende klanten maken** is ingeschakeld. Als de **Klantensjablooncode** leeg is, gebruikt de functie **de Klantensjablooncode**, gedefinieerd op de **Shopify-winkelkaart**.
-3. Definiëren of prijzen inclusief belasting/btw voor geïmporteerde orders zijn.
-4. In sommige gevallen is de **Klantensjablooncode** die is gedefinieerd voor een land/regio, niet voldoende om de juiste berekening van belastingen te garanderen (bijvoorbeeld voor landen/regio's met sales tax). In dit geval kan **Belastinggebieden** opnemen een nuttige aanvulling zijn.
+2. Definieer de **Klantensjablooncode**, die wordt gebruikt om ontbrekende klanten te maken als **Automatisch onbekende klanten maken** is ingeschakeld. Als de **Klantensjablooncode** leeg is, gebruikt de functie **de Klantensjablooncode**, gedefinieerd op de **Shopify-winkelkaart**. Het systeem probeert eerst een sjabloon te vinden voor de **Land-/regiocode** voor het standaardadres. Als het geen sjabloon vindt, gebruikt het het eerste adres.
+3. In sommige gevallen is de **Klantensjablooncode** die is gedefinieerd voor een land/regio, niet voldoende om juiste berekening van belastingen te garanderen (bijvoorbeeld voor landen/regio's met sales tax). In dit geval kan **Belastinggebied** opnemen een nuttige aanvulling zijn.
+4. Het veld **Belastinggebied** bevat ook een paar **Landcode** en **Naam van provincie**. Dit paar is handig wanneer de connector een code naar een naam moet converteren, of vice versa.
 
 > [!NOTE]  
 > De land/regio-codes zijn ISO 3166-1 alpha-2-land/regio-codes. Meer informatie op [Land/regio-code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +58,7 @@ De volgende vereisten zijn voor het exporteren van een klant:
 * Een land/regio is geselecteerd op de klantenkaart. Voor lokale klanten, met blanco land/regio, moet voor het land/regio dat is opgegeven op de pagina **Bedrijfsgegevens** een ISO-code zijn gedefinieerd.
 * Als de klant een telefoonnummer heeft, moet het nummer uniek zijn omdat Shopify geen tweede klant met hetzelfde telefoonnummer accepteert.
 * Als de klant een telefoonnummer heeft, moet dit het E.164-formaat hebben. Verschillende formaten worden ondersteund als ze een nummer vertegenwoordigen dat overal ter wereld kan worden gebeld. De volgende formaten zijn geldig:
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +83,8 @@ Een klant in Shopify heeft ook een standaardadres. Het adres kan een bedrijf en 
 |1|**Naam**|Hoogste prioriteit, als het veld **Naambron** op de **Shopify-winkelkaart** *Bedrijfsnaam* bevat.|
 |2|**Naam 2**|Laagste prioriteit, als het veld **Bron van naam 2** op de **Shopify-winkelkaart** *Bedrijfsnaam* bevat.|
 
-Voor adressen waar het land/de provincie wordt gebruikt, selecteert u *Code* of *Naam* in het veld **Land/regio-bron** op de **Shopify-winkelkaart**. De code of naam specificeert het type gegevens dat is opgeslagen in [!INCLUDE[prod_short](../includes/prod_short.md)] in het veld **Land/regio**.
+Voor adressen waar de regio/provincie wordt gebruikt, selecteert u **Code** of **Naam** in het veld **Regiobron** op de pagina **Shopify-winkelkaart**. De code of naam specificeert het type gegevens dat is opgeslagen in [!INCLUDE[prod_short](../includes/prod_short.md)] in het veld **Provincie**. Vergeet niet om klantsjablonen per regio of provincie te initialiseren, zodat de provincie of regiocode/naamtoewijzing gereed is. 
+
 
 ## Klanten synchroniseren
 

@@ -39,7 +39,7 @@ Voor een overzicht van momenteel ondersteunde markten voor Dynamics 365 raadplee
 
 [Aanmelden voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md)  
 [Veelgestelde vragen (FAQ) over Dynamics 365 Business Central-proefversie](trial-faq.md)  
-[Welkom bij [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
+[Welkom bij [!INCLUDE[prod_short](includes/prod_long.md)]](welcome.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokale functionaliteit](about-localization.md)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

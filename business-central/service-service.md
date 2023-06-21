@@ -39,7 +39,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 ## Zie ook  
 [Tegoeden beheren](receivables-manage-receivables.md)   
 [Projecten](projects-how-create-jobs.md)   
-[Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
+[Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

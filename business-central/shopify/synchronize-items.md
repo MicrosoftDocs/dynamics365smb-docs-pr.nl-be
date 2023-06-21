@@ -1,20 +1,20 @@
 ---
 title: Artikelen en voorraad synchroniseren
 description: Synchronisaties van artikelen instellen en uitvoeren tussen Shopify en Business Central
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: AndreiPanko
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Artikelen en voorraad synchroniseren
 
-De **artikelen** in [!INCLUDE[prod_short](../includes/prod_short.md)] zijn het equivalent van de *producten* in Shopify en omvatten goederen, digitale downloads, services en cadeaubonnen die u mogelijk verkoopt. Er zijn twee belangrijke redenen om de artikelen te synchroniseren:
+De **artikelen** in [!INCLUDE[prod_short](../includes/prod_short.md)] zijn het equivalent van de *producten* in Shopify en omvatten fysieke goederen, digitale downloads, services en cadeaubonnen die u verkoopt. Er zijn twee belangrijke redenen om artikelen te synchroniseren:
 
-1. Gegevensbeheer vindt voornamelijk plaats in [!INCLUDE[prod_short](../includes/prod_short.md)]. U moet alle of sommige gegevens van daaruit exporteren naar Shopify en zichtbaar maken. U kunt de artikelnaam, beschrijving, afbeelding, prijzen, beschikbaarheid, varianten, leveranciersdetails en streepjescodes exporteren. Na het exporteren kunt u de artikelen bekijken of direct zichtbaar maken.
+1. Gegevensbeheer gebeurt voornamelijk in [!INCLUDE[prod_short](../includes/prod_short.md)]. U moet alle of sommige gegevens van daaruit exporteren naar Shopify en zichtbaar maken. U kunt de artikelnaam, beschrijving, afbeelding, prijzen, beschikbaarheid, varianten, leveranciersdetails en streepjescodes exporteren. Na het exporteren kunt u de artikelen bekijken of direct zichtbaar maken.
 2. Wanneer een bestelling vanuit Shopify wordt geïmporteerd, is de informatie over artikelen essentieel voor de verdere verwerking van het document in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 De voorgaande twee scenario's zijn altijd ingeschakeld.
@@ -98,17 +98,17 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 |------|-----------------|-----------------|
 |Status|Volgens het veld **Status voor gemaakte producten** op de **Shopify-winkelkaart**. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |Title | **Beschrijving**. Als de taalcode is gedefinieerd en er een corresponderende artikelvertaling bestaat, wordt de artikelvertaling gebruikt in plaats van de beschrijving.|**Beschrijving**|
-|Omschrijving|Combineert uitgebreide teksten en kenmerken als de corresponderende schakelaars op de Shopify-winkelkaart zijn ingeschakeld. Respecteert de taalcode.|Niet gebruikt.|
+|Omschrijving|Combineert uitgebreide teksten, marketingtekst en kenmerken als u de corresponderende schakelaars op de Shopify-winkelkaart inschakelt. Respecteert de taalcode.|Niet gebruikt.|
 |SEO-paginatitel|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |SEO-metabeschrijving|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |Media|**Afbeelding**. Lees meer in de sectie [Artikelafbeeldingen synchroniseren](synchronize-items.md#sync-item-images)|**Afbeelding**|
-|Prijs|De berekening van de eindklantprijs omvat de eenheidsprijs van het artikel, de klantprijsgroep, de klantkortingsgroep en de valutacode. Lees meer in het gedeelte [Prijzen synchroniseren](synchronize-items.md#sync-prices-with-shopify)|**Eenheidsprijs**|
+|Prijs|De berekening van de eindklantprijs omvat de eenheidsprijs van het artikel, de klantprijsgroep, de klantkortingsgroep en de valutacode. Lees meer in het gedeelte [Prijzen synchroniseren](synchronize-items.md#sync-prices-with-shopify)|**Eenheidsprijs**. De prijs wordt alleen geïmporteerd voor nieuw gemaakte artikelen, maar wordt niet bijgewerkt bij latere synchronisaties.|
 |Prijs vergelijken|De berekening van de prijs zonder korting.|Niet gebruikt.|
-|Kosten per artikel|**Kostprijs**|**Kostprijs**|
+|Kosten per artikel|**Kostprijs**|**Kostprijs**. De kostprijs wordt alleen geïmporteerd voor nieuw gemaakte artikelen en wordt niet bijgewerkt bij latere synchronisaties.|
 |SKU|Lees hierover onder **SKU-toewijzing** in de sectie [Artikelen exporteren naar Shopify](synchronize-items.md#export-items-to-shopify).|Lees hier meer over in de sectie [Effect van SKU's van Shopify producten en barcodes op het toewijzen en maken van artikelen en varianten in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Barcode|**Artikelreferenties** van het type barcode.|**Artikelreferenties** van het type barcode.|
-|Te traceren aantal|Volgens het veld **Voorraad getraceerd** op de pagina **Shopify-winkelkaart**. Lees meer in de sectie [Voorraad](synchronize-items.md#sync-inventory-to-shopify).|Niet gebruikt.|
-|Doorgaan met verkopen wanneer niet op voorraad|Volgens het **Standaardvoorraadbeleid** op de **Shopify-winkelkaart**. Niet geïmporteerd.|Niet gebruikt.|
+|Te traceren aantal|Volgens het veld **Voorraad getraceerd** op de pagina **Shopify-winkelkaart**. Lees meer in de sectie [Voorraad](synchronize-items.md#sync-inventory-to-shopify). Alleen gebruikt wanneer u een product voor de eerste keer exporteert.|Niet gebruikt.|
+|Doorgaan met verkopen wanneer niet op voorraad|Volgens het **Standaardvoorraadbeleid** op de **Shopify-winkelkaart**. Alleen gebruikt wanneer u een product voor de eerste keer exporteert.|Niet gebruikt.|
 |Type|**Beschrijving** van **Artikelcategoriecode**. Als het type niet is opgegeven in Shopify, wordt het toegevoegd als een aangepast type.|**Artikelcategoriecode**. Toewijzing op beschrijving.|
 |Leverancier|**Naam** van leverancier uit **Leveranciersnr.**|**Leveranciersnr.** Toewijzing op naam.|
 |Gewicht|**Brutogewicht**.|Niet gebruikt.|

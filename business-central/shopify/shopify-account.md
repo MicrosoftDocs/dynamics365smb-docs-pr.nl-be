@@ -50,6 +50,9 @@ Pas nadat u de winkel hebt gemaakt in **Shopify-beheer** van de gemaakte winkel 
   1. *(voor testen) Bogus Gateway*. Zie voor meer informatie [Bogus Gateway activeren voor testen](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify Payments* in testmodus. Ga voor meer informatie naar [Shopify Payments testen](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
+> [!Note]  
+> Ontwikkelingswinkels zijn meestal met een wachtwoord beveiligd. Wanneer u een specifieke pagina in uw online winkel probeert te openen vanuit [!INCLUDE [prod_short](../includes/prod_short.md)], bijvoorbeeld om naar een specifiek product of bestelling te gaan, moet u uw wachtwoord invoeren. Om te voorkomen dat u uw wachtwoord moet invoeren, logt u tijdens het testen in bij uw Shopify-beheer en opent u uw winkel vanaf daar. U hoeft het winkelwachtwoord pas in te voeren als u uw browser sluit of uw sessie verloopt.  
+
 ## Zie ook
 
 [Aan de slag met de Shopify-connector](get-started.md)  

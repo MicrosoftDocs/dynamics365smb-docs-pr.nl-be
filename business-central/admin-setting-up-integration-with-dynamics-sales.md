@@ -16,12 +16,12 @@ Dit artikel geeft een overzicht van hoe u de gebruikersaccounts instelt die vere
 
 ## Het beheerdersaccount instellen
 
-U moet uw beheerdersaccount toevoegen voor [!INCLUDE[prod_short](includes/prod_short.md)] als gebruiker in [!INCLUDE[cds_long](includes/cds_long_md.md)]. Bij het instellen van de verbinding tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)] wordt dit account één keer gebruikt om enkele vereiste onderdelen te installeren en configureren.
+Om de verbinding tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)] tot stand te brengen, moet u inloggen op [!INCLUDE[prod_short](includes/prod_short.md)] met een gebruikersaccount dat is toegewezen aan de [!INCLUDE[prod_short](includes/prod_short.md)] Essential- of [!INCLUDE[prod_short](includes/prod_short.md)] Premium-licentie. We zullen dit account eenmalig gebruiken om enkele vereiste componenten te installeren en configureren.
 
 > [!IMPORTANT]
-> Het beheerdersaccount moet een gelicentieerde gebruiker zijn met de beveiligingsrol **Systeembeheerder** in de [!INCLUDE[prod_short](includes/cds_long_md.md)]-omgeving en globale beheerder op de tenant waartoe de omgeving behoort. Dit account heeft geen licentie nodig voor [!INCLUDE[prod_short](includes/prod_short.md)], omdat het alleen wordt gebruikt om de service te leveren in de [!INCLUDE[prod_short](includes/cds_long_md.md)]-tenant en om instellingstaken uit te voeren.
+> Tijdens de installatie wordt u gevraagd om inloggegevens voor de [!INCLUDE[prod_short](includes/cds_long_md.md)] omgeving op te geven. Geef de inloggegevens op van een account dat een gebruiker met licentie is en dat is toegewezen aan de beveiligingsrol **Systeembeheerder** in de [!INCLUDE[prod_short](includes/cds_long_md.md)]-omgeving en aan globale beheerder op de tenant waartoe de omgeving behoort. Dit account heeft geen licentie nodig voor [!INCLUDE[prod_short](includes/prod_short.md)], omdat het alleen wordt gebruikt om instellingstaken uit te voeren in de [!INCLUDE[prod_short](includes/cds_long_md.md)]-omgeving.
 >
-> Nadat de verbinding is ingesteld, kan deze [!INCLUDE[prod_short](includes/cds_long_md.md)]-gebruiker worden verwijderd. De integratie blijft het gebruikersaccount gebruiken dat automatisch specifiek voor de integratie wordt gemaakt.
+> Nadat de verbinding is ingesteld, kunt u deze [!INCLUDE[prod_short](includes/cds_long_md.md)]-gebruiker verwijderen. De integratie blijft het gebruikersaccount gebruiken dat automatisch specifiek voor de integratie wordt gemaakt.
 
 ## Machtigingen en beveiligingsrollen voor gebruikersaccounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
