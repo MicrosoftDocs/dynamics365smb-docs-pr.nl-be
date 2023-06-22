@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# Trainingscatalogus voor Business Central
+# <a name="business-central-learning-catalog" />Trainingscatalogus voor Business Central
 
 Voor de juiste online training, persoonlijke workshops en evenementen voor uw rol als Business Central-gebruiker of -partner.
 

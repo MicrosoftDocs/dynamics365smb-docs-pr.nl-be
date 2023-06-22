@@ -9,17 +9,17 @@ ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
-# Toegang tot Business Central beheren
+# <a name="manage-access-to-business-central" />Toegang tot Business Central beheren
 
 Dit artikel geeft beheerders en app-ontwikkelaars een algemeen overzicht van hoe ze de toegang tot [!INCLUDE [prod_short](includes/prod_short.md)] en zijn functies kunnen beheren. Gebruik de koppelingen om naar andere artikelen te gaan die meer details over de onderwerpen geven.
 
-## Gelaagde toegang
+## <a name="layered-access" />Gelaagde toegang
 
 [!INCLUDE [prod_short](includes/prod_short.md)] maakt gebruik van een gelaagde benadering van applicatiebeveiliging, zoals weergegeven in het volgende diagram. Ga voor meer informatie over elke laag naar [Toepassingsbeveiliging in Business Central](/dynamics365/business-central/dev-itpro/security/security-application).
 
 :::image type="content" source="media/security-overview.png" alt-text="Gelaagde toepassingsbeveiliging in Business Central.":::
 
-## Licenties
+## <a name="licenses" />Licenties
 
 Wijs [!INCLUDE [prod_short](includes/prod_short.md)]-gebruikers toe aan een **Dynamics 365 Business Central**-licentie zodat ze hun bedrijfsgegevens kunnen bekijken, wijzigen en gebruiken vanuit elke gebruikersinterface. Ga voor meer informatie over licenties naar [Licenties in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
 
@@ -27,7 +27,7 @@ Echter, mensen die af en toe alleen-lezen toegang nodig hebben tot informatie in
 
 Voor uitgebreide informatie over de verschillende soorten licenties en hoe licenties werken in [!INCLUDE[prod_short](includes/prod_short.md)] [downloadt u de Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-## Beheertaken in Business Central
+## <a name="business-central-administrator-tasks" />Beheertaken in Business Central
 
 De volgende tabel laat zien hoe beheerders de toegang kunnen beheren tot [!INCLUDE [prod_short](includes/prod_short.md)] en de functies die mensen zullen gebruiken. Sommige taken helpen ook om de toegangsinstellingen up-to-date te houden.
 
@@ -42,7 +42,7 @@ De volgende tabel laat zien hoe beheerders de toegang kunnen beheren tot [!INCLU
 |Een Azure-servicetag vertegenwoordigt een groep IP-adressen waar verkeer voor een service vandaan kan komen of naartoe kan gaan. Gebruik servicetags om firewalls zo in te stellen dat alleen verkeer van bepaalde services wordt toegestaan. Met de tag **Dynamics365BusinessCentral** kunt u firewall- en netwerkbeveiligingsgroepregels gebruiken om het verkeer van en naar [!INCLUDE [prod_short](includes/prod_short.md)] te beperken.| [Tags voor Azure-beveiligingsservices](/dynamics365/business-central/dev-itpro/security/security-service-tags)|
 |Als u Azure Active Directory-verificatie gebruikt met [!INCLUDE [prod_short](includes/prod_short.md)], raden we u aan om gebruik te maken van [Azure AD-multifactorverificatie (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks). MFA waarborgt verder de toegang tot de applicatie en gegevens.|[Multifactorverificatie voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/security/multifactor-authentication)|
 
-## Business Central-ontwikkelaarstaken
+## <a name="business-central-developer-tasks" />Business Central-ontwikkelaarstaken
 
 Er is ook een ontwikkelaarsverhaal voor het beheren van de toegang tot [!INCLUDE [prod_short](includes/prod_short.md)]. Ontwikkelaars en beheerders kunnen bijvoorbeeld toepassingen maken en verbinden met [!INCLUDE [prod_short](includes/prod_short.md)] die het bedrijf ten goede komen:  
 
@@ -56,6 +56,6 @@ De volgende tabel bevat koppelingen naar informatie over hoe u apps en extensies
 |--|--|
 |De twee belangrijkste concepten voor het definiëren van toegang tot functies zijn rechten en machtigingen. Rechten geven brede toegang tot objecten volgens licenties of Azure Active Directory-rollen. Met machtigingen en machtigingensets kunt u de toegang tot objecten verfijnen. |[Overzicht van rechten en machtigingensets](/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview)|
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Beveiliging in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)

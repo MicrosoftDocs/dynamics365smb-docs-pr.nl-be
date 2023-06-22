@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
 ---
-# Werken met intercompany-documenten en -dagboeken
+# <a name="work-with-intercompany-documents-and-journals" />Werken met intercompany-documenten en -dagboeken
 
 Gebruik IC-documenten of -dagboeken om transacties met uw IC-partners te boeken. U kunt transacties naar grootboekrekeningen boeken en als u intercompany-bankrekeningen hebt ingesteld, kunt u ook bank-naar-banktransacties boeken. Ga voor meer informatie over het instellen van intercompany-bankrekeningen naar [De bankrekeningen opgeven die moeten worden gebruikt voor intercompany-partners](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
 
@@ -20,7 +20,7 @@ Voor verkoop- en inkoopdocumenten zorgt de IC-partnercode voor de klant of lever
 
 Hetzelfde geldt voor intercompany-dagboekregels. U hoeft geen accounts op te geven, u kiest simpelweg het partnerbedrijf. De bijbehorende intercompany-dagboekregels worden vervolgens aangemaakt in het partnerbedrijf.
 
-## Een IC-verkooporder invullen en verzenden
+## <a name="fill-in-and-send-an-intercompany-sales-order" />Een IC-verkooporder invullen en verzenden
 
 U kunt verkoop- en inkooporders en retourorders verzenden voordat u deze boekt. Facturen en creditnota's kunnen pas worden verzonden nadat u deze hebt geboekt.
 
@@ -35,7 +35,7 @@ In de volgende procedure wordt beschreven hoe u een IC-verkooporder kunt invulle
 > [!NOTE]
 > Als u stap 5 uitvoert, gaat de verkooporder naar uw IC-outbox, van waaruit u deze later kunt verzenden. Ga voor meer informatie over de IC-inbox en outbox naar [De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md).
 
-## Een IC-dagboek invullen en boeken
+## <a name="fill-in-and-post-an-intercompany-journal" />Een IC-dagboek invullen en boeken
 
 Wanneer u een IC--diversendagboekregel boekt in uw bedrijf, wordt een corresponderende dagboekregel gemaakt in uw IC-outbox, die u kunt overbrengen naar uw partner. Met releasewave 1 van 2022 kunt u het bedrijf ook instellen om automatisch ontvangen intercompany-transacties te maken die partners in intercompany-dagboeken hebben geboekt. Uw partner kan de bijbehorende transactie vervolgens boeken in zijn bedrijf, zonder de gegevens opnieuw te hoeven invoeren.
 
@@ -50,7 +50,7 @@ Wanneer u een IC--diversendagboekregel boekt in uw bedrijf, wordt een correspond
 
 De betreffende posten worden geboekt in uw bedrijf en een dagboek met de bijbehorende posten wordt gemaakt in uw IC-outbox, zodat u deze naar uw partnerbedrijf kunt verzenden.
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Intercompany-transacties beheren](intercompany-manage.md)  
 [Financiën](finance.md)  

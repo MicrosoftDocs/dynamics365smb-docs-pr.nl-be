@@ -10,20 +10,20 @@ ms.search.keywords: 'OneDrive, share, browser'
 ms.date: 02/28/2022
 ms.author: jswymer
 ---
-# OneDrive-integratie met Business Central beheren
+# <a name="managing-onedrive-integration-with-business-central" />OneDrive-integratie met Business Central beheren
 
 Dit artikel geeft een overzicht van wat een beheerder kan doen om OneDrive-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] te beheren. [!INCLUDE[prod_short](includes/prod_short.md)] online-klanten profiteren van automatische integratie, zonder dat er extra instellingen nodig zijn om de functies Openen in OneDrive en Delen te gebruiken. Met de begeleide instelling **Configuratie van OneDrive** kunt u gebruikers toegang geven tot nog meer OneDrive-functies, zoals het openen van een Excel-bestand in OneDrive&mdash;of zelfs het uitschakelen van alle functies.  
 
-## OneDrive configureren voor integratie met Business Central
+## <a name="configure-onedrive-for-integration-with-business-central" />OneDrive configureren voor integratie met Business Central
 
 In dit gedeelte worden de vereisten besproken waaraan moet worden voldaan in OneDrive voor Bedrijven om de integratie met Business Central te configureren en de taak die u kunt uitvoeren om de integratie te beheren.
 
-### Minimumvereisten
+### <a name="minimum-requirements" />Minimumvereisten
 
 * Elke gebruiker moet een licentie hebben voor [!INCLUDE[prod_short](includes/prod_short.md)] en OneDrive als onderdeel van een Microsoft 365-abonnement.
 * OneDrive moet voor elke gebruiker worden ingesteld.
 
-### Privacy beheren
+### <a name="managing-privacy" />Privacy beheren
 
 > [!IMPORTANT]
 > Als u ervoor hebt gekozen om Business Central en OneDrive voor verschillende landen of regio's te implementeren, kunnen de bestanden die zijn gegenereerd door Business Central en in OneDrive zijn geplaatst, de grenzen van gegevensresidentie overschrijden. Zorg ervoor dat u het beleid van uw organisatie en de nalevingsvereisten van de overheid voor gegevensresidentie bevestigt voordat u de verbinding met OneDrive inschakelt.
@@ -34,21 +34,21 @@ Door deze serviceverbinding in te schakelen gaat u akkoord met het volgende:
 
 (a) om gegevens uit Dynamics 365 Business Central te delen met de serviceprovider, die ze gebruikt op basis van eigen voorwaarden en privacybeleid; (b) de nalevingsniveaus van de serviceprovider kunnen verschillen van Dynamics 365 Business Central; en (c) Microsoft kan uw contactgegevens met deze serviceprovider delen als dit nodig is om de service te gebruiken en er problemen mee op te lossen.
 
-## Business Central configureren
+## <a name="configure-business-central" />Business Central configureren
 
 Met Business Central online wordt de verbinding tussen Business Central en OneDrive automatisch voor u geconfigureerd en zijn de OneDrive-functies standaard direct beschikbaar voor gebruikers. Als u sommige of alle functies wilt uitschakelen, kunt u de begeleide instelling **Configuratie van OneDrive** in de Business Central-client gebruiken.
 
 Het configureren van Business Central on-premises is anders omdat de verbinding tussen Business Central en OneDrive niet voor u is geconfigureerd. U moet dit handmatig doen. Zie voor meer informatie [OneDrive-integratie met Business Central On-Premises configureren](admin-onedrive-integration-onpremises.md).
 
-### Informatie over meerdere omgevingen
+### <a name="about-multiple-environments" />Informatie over meerdere omgevingen
 
 OneDrive-integratie wordt per omgeving geconfigureerd, dat wil zeggen dat uw instellingen gelden voor alle bedrijven in die omgeving. Als uw organisatie meer dan één omgeving heeft, moet u OneDrive-integratie voor elke omgeving configureren.
 
-### Vereisten
+### <a name="prerequisites" />Vereisten
 
 - Minimaal imd-machtiging (indirect, modify, delete) voor tabel **Documentservicescenario**
 
-### OneDrive configureren met Configuratie van OneDrive
+### <a name="configure-onedrive-using-onedrive-setup" />OneDrive configureren met Configuratie van OneDrive
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratie van OneDrive** in en kies vervolgens de gerelateerde koppeling. 
 2. De eerste keer dat u de begeleide instelling uitvoert, ziet u **Uw privacy**. Lees de informatie op de pagina, en als u akkoord gaat met de voorwaarden, kiest u **Akkoord** om door te gaan.
@@ -57,20 +57,20 @@ OneDrive-integratie wordt per omgeving geconfigureerd, dat wil zeggen dat uw ins
    [!INCLUDE[onedrive-feature-options](includes/onedrive-feature-options.md)]
 4. Kies **Volgende**>**Gereed**.
 
-### Overschakelen naar nieuwe OneDrive-integratie na upgrade
+### <a name="switching-to-new-onedrive-integration-after-upgrade" />Overschakelen naar nieuwe OneDrive-integratie na upgrade
 
 De begeleide instelling **Configuratie van OneDrive** is geïntroduceerd in releasewave 2 van 2022, versie 21.0. Voorheen maakte de OneDrive-integratie gebruik van **Instellingen SharePoint-verbinding**. Deze optie is verouderd en wordt in releasewave 2 van 2023, versie 23.0 verwijderd. Nadat u een upgrade naar versie 21 hebt uitgevoerd, werkt OneDrive nog steeds zoals voorheen. Maar we raden u aan over te schakelen naar de nieuwe OneDrive-integratie. Als u deze overstap nu maakt, wordt het gemakkelijker wanneer **Instellingen SharePoint-verbinding** uiteindelijk wordt verwijderd. Bovendien kunt u dan de begeleide instelling **Configuratie van OneDrive** gebruiken voor het beheren van de OneDrive-functies die toegankelijk zijn voor gebruikers. Met de begeleide instelling **Configuratie van OneDrive** verloopt de overgang van de oude SharePoint-instelling eenvoudig en naadloos.
 
 Om over te schakelen opent u de begeleide instelling **Configuratie van OneDrive** en voert u deze direct uit. U kunt ook de pagina **Instellingen SharePoint-verbinding** openen en **Ga naar nieuwe OneDrive-instelling** kiezen in de melding bovenaan de pagina. Volg de begeleide instelling zoals beschreven in het vorige gedeelte.
 
-## OneDrive en [!INCLUDE[prod_short](includes/prod_short.md)] herstellen
+## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />OneDrive en [!INCLUDE[prod_short](includes/prod_short.md)] herstellen
 
 Als onderdeel van een noodhersteloefening moeten beheerders mogelijk een [!INCLUDE[prod_short](includes/prod_short.md)] online-omgeving herstellen naar een back-up van een moment in het verleden, en OneDrive-opslag synchroniseren tot datzelfde tijdstip. OneDrive biedt verschillende hersteltools, zoals het herstellen van OneDrive van een gebruiker naar een eerdere tijd, het herstellen een eerdere versie van een afzonderlijk bestand of het herstellen van verwijderde bestanden. Zie de volgende artikelen voor meer informatie:
 
 * Zie voor [!INCLUDE[prod_short](includes/prod_short.md)] [Een omgeving herstellen in het beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 * Zie voor OneDrive [Uw OneDrive herstellen](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
 
-## Bestuur
+## <a name="governance" />Bestuur
 
 Het SharePoint-beheercentrum biedt uitgebreide controle over het beleid dat het gebruik van OneDrive door de hele organisatie bepaalt. Globale beheerders of gebruikers met de SharePoint-beheerdersrol kunnen beleid instellen dat bepaalt wie toegang heeft tot OneDrive, waar gegevens zich bevinden, de levenscyclus van content en nog veel meer. De volgende koppelingen geven informatie over veelgebruikte functies en instellingen die uw integratie met [!INCLUDE[prod_short](includes/prod_short.md)] kunnen verbeteren. 
 
@@ -85,7 +85,7 @@ Het SharePoint-beheercentrum biedt uitgebreide controle over het beleid dat het 
 > [!NOTE]
 > Sommige functies zijn mogelijk alleen beschikbaar voor specifieke abonnementen.
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Business Central en integratie met OneDrive voor Bedrijven](across-onedrive-overview.md)  
 [Business Central-bestanden openen in OneDrive](across-share-onedrive.md)  

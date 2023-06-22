@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# Artikelen intern verplaatsen in standaardmagazijnconfiguraties
+# <a name="move-items-internally-in-basic-warehouse-configurations" />Artikelen intern verplaatsen in standaardmagazijnconfiguraties
 
 U kunt desgewenst artikelen tussen opslaglocaties verplaatsen zonder een vraag van een brondocument. Bijvoorbeeld als onderdeel van de volgende activiteiten:
 
@@ -25,11 +25,11 @@ In magazijnconfiguraties waar de schakelaar **Opslaglocatie verplicht** is inges
 * Op de pagina **Interne verplaatsing**.
 * Op de pagina **Artikelherindelingsdagboek**.  
 
-## Interne verplaatsingen
+## <a name="internal-movements" />Interne verplaatsingen
 
 Op de pagina **Interne verplaatsingen** kunt u regels voor Nemen en Plaatsen opgeven wanneer er geen vraag is vanuit een brondocument. De pagina Interne verplaatsing is als een werkblad om dingen te organiseren. U kunt de daadwerkelijke beweging er niet direct uit verwerken. Wanneer een regel is ingevuld, gebruikt u de actie **Voorraadverplaatsing maken** om de regel naar de pagina **Voorraadverplaatsing** pagina te sturen, waar u de beweging verwerkt en registreert.
 
-### Items verplaatsen als een interne verplaatsing
+### <a name="to-move-items-as-an-internal-movement" />Items verplaatsen als een interne verplaatsing
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interne verplaatsingen** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Zorg ervoor dat het veld **Nee.** op het sneltabblad **Algemeen** is ingevuld.
@@ -59,7 +59,7 @@ Op de pagina **Interne verplaatsingen** kunt u regels voor Nemen en Plaatsen opg
 
 U voert de rest van de ongeplande verplaatsing op de pagina **Voorraadverplaatsing** op dezelfde manier uit als bij een verplaatsing op basis van brondocumenten.
 
-### De voorraadverplaatsing registreren
+### <a name="to-record-the-inventory-movement" />De voorraadverplaatsing registreren
 
 1. Open op de pagina **Voorraadverplaatsing** het document waarvoor u de verplaatsing wilt vastleggen.  
 2. In het veld **Opslaglocatie** op de verplaatsingsregels, is de opslaglocatie waar artikelen moeten worden gepickt de opslaglocatie waar het artikel beschikbaar is. U kunt de opslaglocatie indien nodig wijzigen.
@@ -72,7 +72,7 @@ Het volgende gebeurt tijdens het boekingsproces:
 
 * Magazijnboekingen geven aan dat het aantal is overgebracht van de 'Nemen'-opslaglocaties naar de 'Plaatsen'-opslaglocaties.
 
-## Artikelen verplaatsen met het artikelherindelingsdagboek
+## <a name="to-move-items-with-the-item-reclassification-journal" />Artikelen verplaatsen met het artikelherindelingsdagboek
 
 In plaats van verplaatsingdocumenten te gebruiken, kunt u verplaatsingen registreren door hun opslaglocaties op artikelen opnieuw in te delen. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md).
 
@@ -89,9 +89,9 @@ In plaats van verplaatsingdocumenten te gebruiken, kunt u verplaatsingen registr
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

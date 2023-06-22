@@ -12,10 +12,10 @@ ms.search.forms: '5803,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Voorraad herwaarderen
+# <a name="revalue-inventory" />Voorraad herwaarderen
 Gebruik het herwaarderingsdagboek als u de voorraadwaarde van een artikel of een bepaalde artikelpost wilt vermeerderen of verminderen.
 
-## Voorraad herwaarderen
+## <a name="to-revalue-inventory" />Voorraad herwaarderen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Herwaarderingsdagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Voorraadwaarde berekenen**.
 3. Vul op de pagina **Voorraadwaarde berekenen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -27,7 +27,7 @@ Gebruik het herwaarderingsdagboek als u de voorraadwaarde van een artikel of een
 
 Nieuwe waardeposten worden nu gemaakt om de herwaarderingen weer te geven die u hebt geboekt. U kunt de nieuwe waarden op de desbetreffende artikelkaarten bekijken.
 
-## Zie ook
+## <a name="see-also" />Zie ook
 [Ontwerpdetails: Herwaardering](design-details-revaluation.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Verkoop](sales-manage-sales.md)  

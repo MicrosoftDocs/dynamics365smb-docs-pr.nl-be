@@ -11,17 +11,17 @@ ms.date: 09/30/2021
 ms.author: edupont
 ---
 
-# Klantenprijsgroepen instellen
+# <a name="set-up-customer-price-groups" />Klantenprijsgroepen instellen
   
 U kunt de verkoopprijzen laten afhangen van de klantengroepen waarmee u zaken doet. Dit worden klantenprijsgroepen genoemd.
 
 Voordat u klantenprijsgroepen instelt, moet u eerst bepalen hoeveel groepen u wilt maken en welke klanten aan elke groep worden toegewezen.  
 
-## Verkoopprijzen voor een groep klanten maken  
+## <a name="how-to-create-sales-prices-for-a-group-of-customers" />Verkoopprijzen voor een groep klanten maken
 
 Als u overeenstemming hebt bereikt over de prijs die de groep klanten betaalt voor bepaalde artikelen, kunt u de overeenkomst per artikel registreren op de regels van de pagina **Verkoopprijzen**.
 
-### Verkoopprijzen voor een groep klanten maken
+### <a name="to-create-sales-prices-for-a-group-of-customers" />Verkoopprijzen voor een groep klanten maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klantenprijsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -43,11 +43,11 @@ Als u overeenstemming hebt bereikt over de prijs die de groep klanten betaalt vo
 
 Herhaal stap 4 tot en met 8 voor elk artikel waarvoor u een verkoopprijs wilt invoeren.
 
-## Klantenprijsgroepcodes invoeren op klantenkaarten  
+## <a name="how-to-enter-customer-price-group-codes-on-customer-cards" />Klantenprijsgroepcodes invoeren op klantenkaarten
 
 Nadat u de klantenprijsgroepen hebt ingesteld, kunt u klantenprijsgroepcodes invoeren op de klantenkaarten.
 
-### Klantenprijsgroepcodes invoeren op een klantenkaart  
+### <a name="to-enter-customer-price-group-codes-on-a-customer-card" />Klantenprijsgroepcodes invoeren op een klantenkaart
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -56,7 +56,7 @@ Nadat u de klantenprijsgroepen hebt ingesteld, kunt u klantenprijsgroepcodes inv
 3. Selecteer op het sneltabblad **Facturering** in het veld **Klantenprijsgroep** de code van de **Klantenprijsgroep**.  
 
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  

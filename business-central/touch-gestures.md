@@ -11,7 +11,7 @@ ms.date: 04/29/2021
 ms.author: jswymer
 ---
 
-# Aanraak- en penbewegingen voor tablets en telefoons 
+# <a name="touch-and-pen-gestures-for-tablet-and-phones" />Aanraak- en penbewegingen voor tablets en telefoons
 
 Dit artikel bevat enkele van de speciale gebaren die u kunt gebruiken wanneer u met [!INCLUDE[prod_short](includes/prod_short.md)] werkt op een tablet of telefoon.
 
@@ -30,7 +30,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)  
 [Assisterende functies](ui-accessibility.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Serviceorderstatus en herstelstatus
+# <a name="service-order-status-and-repair-status" />Serviceorderstatus en herstelstatus
 
 Tussen het veld **Status** op de pagina **Serviceorder** en de herstelstatus van het serviceartikel, weergegeven in het veld **Herstelstatuscode** op de pagina **Serviceorder**, bestaat een bepaalde relatie in de module CRM - Service. Met de serviceorderstatus wordt de herstelstatus van de serviceartikelen in de serviceorder aangegeven.  
 
@@ -27,7 +27,7 @@ Wanneer u een serviceofferte omzet in een serviceorder, wordt de herstelstatus v
 > [!NOTE]
 > Voordat u serviceorders kunt maken, moet u reparatiestatussen en servicestatusprioriteiten instellen. Zie voor meer informatie [Statussen instellen voor serviceorders en reparaties](service-order-repair-status.md).
 
-## Serviceorderstatus opgeven voor herstelstatus
+## <a name="specifying-service-order-status-for-repair-status" />Serviceorderstatus opgeven voor herstelstatus
 
 Elke herstelstatus is gekoppeld aan een bepaalde serviceorderstatus. De opties voor de serviceorderstatus zijn als volgt:
 
@@ -48,23 +48,23 @@ De opties voor de reparatiestatus zijn als volgt:
 * **Reserveonderdeel ontvangen**
 * **Gereedgemeld**  
 
-### In behandeling
+### <a name="pending" />In behandeling
 
 Met de serviceorderstatus **In behandeling** wordt aangegeven dat de service op elk moment kan worden begonnen of hervat. De herstelstatusopties **Eerste**, **Toegewezen**, **Deels service verleend** en **Reserveonderdeel ontvangen** kunnen daarom worden gekoppeld aan deze serviceorderstatus.  
 
-### In verwerking
+### <a name="in-process" />In verwerking
 
 Met de serviceorderstatus **In verwerking** wordt aangegeven dat de service wordt uitgevoerd. De herstelstatusopties **In verwerking** en **Reserveonderdeel besteld** kunnen daarom worden gekoppeld aan deze serviceorderstatus. Als u de status **Reserveonderdeel besteld** koppelt aan de serviceorderstatus **In verwerking**, moet u ook de status **Reserveonderdeel ontvangen** koppelen aan deze serviceorderstatus.  
 
-### Wachten
+### <a name="on-hold" />Wachten
 
 Met de serviceorderstatus **Afwachten** wordt aangegeven dat de service tijdelijk is stilgelegd, omdat u op een antwoord van de klant of op reserveonderdelen wacht voordat de service kan worden begonnen. De herstelstatusopties **Offerte gereed**, **Reserveonderdeel besteld** en **Wachten op klant** kunnen daarom worden gekoppeld aan deze serviceorderstatus.  
 
-### Gereedgemeld
+### <a name="finished" />Gereedgemeld
 
 Met de serviceorderstatus **Gereedgemeld** wordt aangegeven dat de service is voltooid. De herstelstatus **Gereedgemeld** is daarom gekoppeld aan deze status.  
 
-## Prioriteit toewijzen aan serviceorderstatus
+## <a name="assigning-priority-to-service-order-status" />Prioriteit toewijzen aan serviceorderstatus
 
 Wanneer een herstelstatus van een serviceartikel wordt gewijzigd, worden de opties voor serviceorderstatus geïdentificeerd die zijn gekoppeld aan de verschillende herstelstatusopties van de serviceartikelen in de order. Als de serviceartikelen zijn gekoppeld aan twee of meer opties voor serviceorderstatus, wordt de serviceorderstatusoptie met de hoogste prioriteit geselecteerd.  
 
@@ -72,7 +72,7 @@ U moet bepalen welke serviceorderstatus de belangrijkste gegevens over de status
 
 Als u vervolgens een nieuwe serviceorder maakt en er serviceartikelen aan toevoegt, wordt het veld **Prioriteit** in de serviceorderkop bijgewerkt op basis van de prioriteiten van de serviceartikelen.  
 
-### Voorbeeld
+### <a name="example" />Voorbeeld
 
 Hier volgt een typisch voorbeeld van een toewijzing van prioriteitsniveau:  
 
@@ -83,7 +83,7 @@ Hier volgt een typisch voorbeeld van een toewijzing van prioriteitsniveau:
 
 Als één serviceartikel bijvoorbeeld de herstelstatus **Eerste** heeft, gekoppeld aan de serviceorderstatus **In behandeling**, een ander serviceartikel de herstelstatus **In verwerking** heeft, gekoppeld aan de serviceorderstatus **In verwerking**, en een derde serviceartikel de herstelstatus **Reserveonderdeel besteld**, gekoppeld aan de serviceorderstatus **Afwachten**, dan is de uiteindelijke serviceorderstatus **In verwerking**, omdat deze de hoogste prioriteit heeft.  
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Statussen instellen voor serviceorders en reparaties](service-order-repair-status.md)  
 [CRM - Service instellen](service-setup-service.md)  

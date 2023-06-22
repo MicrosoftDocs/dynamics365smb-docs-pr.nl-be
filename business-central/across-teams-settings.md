@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# Bedrijf en andere instellingen in Teams wijzigen
+# <a name="changing-company-and-other-settings-in-teams" />Bedrijf en andere instellingen in Teams wijzigen
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +27,7 @@ Er zijn twee manieren om de pagina **Instellingen** te openen: 1) vanuit het ber
 
    ![Instellingen voor Business Central vanuit het berichtvak.](media/teams-settings-command-box.png)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  
@@ -37,7 +37,7 @@ Er zijn twee manieren om de pagina **Instellingen** te openen: 1) vanuit het ber
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

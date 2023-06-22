@@ -10,7 +10,7 @@ ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# Financiën instellen
+# <a name="setting-up-finance" />Financiën instellen
 
 Voordat u kunt beginnen met de uitvoering van uw bedrijf, moet u opgeven hoe u financiële processen voor het bedrijf wilt beheren. Als eerste stelt u de kern van de boekhoudadministratie van het bedrijf in: het rekeningschema (COA). Vervolgens stelt u de boekingsgroepen in, waarmee standaard-grootboekrekeningen efficiënter kunnen worden toegewezen aan klanten, leveranciers en artikelen.
 
@@ -51,9 +51,9 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 > [!TIP]
 > Afhankelijk van uw geografische locatie bevatten sommige Business Central-pagina's mogelijk velden die niet worden beschreven in de bovengenoemde artikelen, omdat ze van toepassing zijn op lokale functionaliteit of aanpassingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Financiën](finance.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
@@ -62,6 +62,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -12,18 +12,18 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# De extensie C5-gegevensmigratie
+# <a name="the-c-data-migration-extension" />De extensie C5-gegevensmigratie
 
 Deze extensie maakt het eenvoudiger om klanten, leveranciers, artikelen en uw grootboekrekeningen van Microsoft Dynamics C5 2012 te migreren naar [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt historische posten voor grootboekrekeningen ook migreren.
 
 > [!NOTE]
 > Het bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)] mag geen gegevens bevatten. Bovendien mag u, nadat u een migratie start, geen klanten, leveranciers, artikelen of rekeningen maken totdat de migratie is voltooid.
 
-## Welke gegevens worden gemigreerd?
+## <a name="what-data-is-migrated" />Welke gegevens worden gemigreerd?
 
 De volgende gegevens worden voor elke entiteit gemigreerd:
 
-### Klanten
+### <a name="customers" />Klanten
 
 * Contacten  
 * Vestiging
@@ -42,7 +42,7 @@ Als u rekeningen migreert, worden de volgende gegevens ook gemigreerd:
 * Dagboekbatch
 * Open transacties (klantenposten)
 
-### Leveranc.
+### <a name="vendors" />Leveranc.
 
 * Contacten
 * Vestiging
@@ -61,7 +61,7 @@ Als u rekeningen migreert, worden de volgende gegevens ook gemigreerd:
 * Dagboekbatch
 * Open transacties (leveranciersposten)
 
-### Artikelen
+### <a name="items" />Artikelen
 
 * Vestiging
 * Land
@@ -86,7 +86,7 @@ Als u rekeningen migreert, worden de volgende gegevens ook gemigreerd:
 > [!NOTE]
 > Als er open transacties zijn die vreemde valuta's gebruiken, wordt de wisselkoers voor deze valuta ook gemigreerd. Andere wisselkoersen worden niet gemigreerd.
 
-### Rekeningschema
+### <a name="chart-of-accounts" />Rekeningschema
 
 * Standaarddimensies: afdeling, kostenplaats, doel  
 * Historische G/L-transacties  
@@ -94,11 +94,11 @@ Als u rekeningen migreert, worden de volgende gegevens ook gemigreerd:
 > [!NOTE]
 > Historische G/L-transacties worden iets anders behandeld. Wanneer u gegevens migreert, stelt u de parameter **Huidige periode** in. Deze parameter bepaalt hoe G/L-transacties worden verwerkt. Transacties na deze datum worden afzonderlijk gemigreerd. Transacties vóór deze datum worden bijeengevoegd per rekening en als één bedrag gemigreerd. Stel dat er transacties zijn in 2015, 2016, 2017 en 2018, en dat u 1 januari 2017 opgeeft in het veld Huidige periode. Voor elke rekening worden bedragen voor transacties op of vóór 31 december 2106 in één dagboekregel gecombineerd voor elke grootboekrekening. Alle transacties na deze datum worden afzonderlijk gemigreerd.
 
-## Vereisten voor bestandsgrootte
+## <a name="file-size-requirements" />Vereisten voor bestandsgrootte
 
 Het grootste bestand dat u kunt uploaden naar [!INCLUDE[prod_short](includes/prod_short.md)] is 150 MB. Als het bestand dat u uit C5 exporteert, groter is, overweeg dan gegevens in meerdere bestanden te migreren. Exporteer bijvoorbeeld een of twee typen entiteiten uit C5, zoals klanten en leveranciers, naar een bestand en exporteer artikelen naar een ander bestand, enzovoort. U kunt afzonderlijke bestanden importeren in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Gegevens te migreren
+## <a name="to-migrate-data" />Gegevens te migreren
 
 Er zijn slechts enkele stappen nodig om gegevens vanuit C5 te exporteren en deze te importeren in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
@@ -106,14 +106,14 @@ Er zijn slechts enkele stappen nodig om gegevens vanuit C5 te exporteren en deze
 2. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gegevensmigratie** in en kies vervolgens **Gegevensmigratie**.  
 3. Voer de stappen uit in het handleiding met begeleide instellingen. Zorg dat u **Importeren vanuit Microsoft Dynamics C5 2012** als gegevensbron kiest.  
 
-## De status van de migratie weergeven
+## <a name="viewing-the-status-of-the-migration" />De status van de migratie weergeven
 
 Gebruik de pagina **Gegevensmigratieoverzicht** om het resultaat van de migratie bekijken. De pagina bevat gegevens zoals het aantal entiteiten dat de migratie omvat, de status van de migratie, het aantal artikelen dat is gemigreerd en of dat is gelukt. De pagina toont ook het aantal fouten, en stelt u in staat te onderzoeken wat er mis is gegaan. Ook bent u zo in staat om, indien mogelijk, gemakkelijk naar de entiteit gaan en de problemen op te lossen. Zie de volgende sectie in dit onderwerp voor meer informatie.  
 
 > [!NOTE]
 > Terwijl u op de resultaten van de migratie wacht, moet u de pagina vernieuwen om de resultaten weer te geven.
 
-## Dubbele boekingen voorkomen
+## <a name="how-to-avoid-double-posting" />Dubbele boekingen voorkomen
 
 Om dubbele boekingen te helpen voorkomen worden de volgende tegenrekeningen gebruikt voor open transacties:  
 
@@ -121,7 +121,7 @@ Om dubbele boekingen te helpen voorkomen worden de volgende tegenrekeningen gebr
 * Voor klanten wordt de klantenrekening uit de klantenboekingsgroep gebruikt.  
 * Voor artikelen wordt een algemene boekingsinstelling gemaakt waarbij de correctierekening de rekening is die is opgegeven als de voorraadrekening in de voorraadboekingsinstelling.  
 
-## Fouten corrigeren
+## <a name="correcting-errors" />Fouten corrigeren
 
 Als er iets misgaat en zich een fout voordoet, wordt in het veld **Status** **Voltooid met fouten** weergegeven en in het veld **Aantal fouten** aangegeven hoeveel fouten er zijn. Als u een lijst met fouten wilt zien, kunt u de pagina met de **gegevensmigratiefouten** openen door het volgende te selecteren:  
 
@@ -138,7 +138,7 @@ Nadat u een of meer fouten hebt opgelost, kunt u **Migreren** kiezen om alleen d
 > [!NOTE]
 > Als u artikelen hebt die op een stuklijst zijn opgenomen, moet u mogelijk meer dan eens migreren als het oorspronkelijke artikel niet is gemaakt vóór de varianten die ernaar verwijzen.. Als een artikelvariant eerst is gemaakt, kan de verwijzing naar het oorspronkelijke artikel een foutbericht produceren.  
 
-## Gegevens verifiëren na de migratie
+## <a name="verifying-data-after-migrating" />Gegevens verifiëren na de migratie
 
 Eén manier om te controleren of uw gegevens correct zijn gemigreerd is te kijken naar de volgende pagina's in C5 en [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -149,11 +149,11 @@ Eén manier om te controleren of uw gegevens correct zijn gemigreerd is te kijke
 |Artikelposten| Artikeldagboeken| ITEMMIGR |
 |Grootboekposten| Diversendagboek| GLACMIGR |
 
-## Gegevensmigratie beëindigen
+## <a name="stopping-data-migration" />Gegevensmigratie beëindigen
 
 U kunt de migratie van gegevens stoppen door **Alle migraties stoppen** te kiezen. Als u dat doet, worden alle wachtende migraties ook beëindigd.
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  

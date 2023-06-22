@@ -10,18 +10,18 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Serviceartikelen maken
+# <a name="create-service-items" />Serviceartikelen maken
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] verwijst de term serviceartikel naar de apparatuur of artikelen die service vereisen. Wanneer u een serviceorder maakt, geeft u de artikelen op die service nodig hebben. In de order kunt u een serviceartikel aan een artikel in de voorraad of aan een serviceartikelgroep koppelen.    
 
 Wanneer u een artikel ontvangt dat service vereist, kunt u dit artikel registreren als serviceartikel. Dit kunt u op verschillende manieren doen. U kunt bijvoorbeeld via de pagina **Serviceartikelen** een serviceartikel maken of als onderdeel van een ander proces, bijvoorbeeld wanneer u met een serviceorder werkt.   
 
-## Een serviceartikel maken
+## <a name="to-create-a-service-item" />Een serviceartikel maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceartikelen** in en kies vervolgens de gerelateerde koppeling
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Serviceartikelen maken in serviceorders
+## <a name="to-create-service-items-within-a-service-order" />Serviceartikelen maken in serviceorders
 
 Wanneer u artikelen voor service ontvangt die u wilt registreren als serviceartikelen, kunt u deze instellen als serviceartikelen op de pagina **Serviceorder** of **Serviceofferte**.  
 
@@ -31,7 +31,7 @@ Wanneer u artikelen voor service ontvangt die u wilt registreren als servicearti
 
     Er wordt een nummer aan het serviceartikel toegewezen en een kaart voor het serviceartikel gemaakt. Het nummer van het nieuwe serviceartikel wordt ingevuld in het veld **Serviceartikelnr.**
 
-## Serviceartikelen maken tijdens het verzenden van artikelen
+## <a name="to-create-a-service-item-when-shipping-items" />Serviceartikelen maken tijdens het verzenden van artikelen
 
 Als u artikelen verzendt door verkooporders of verkoopfacturen te boeken, worden de verzonden artikelen automatisch als serviceartikelen geregistreerd als aan de volgende voorwaarde wordt voldaan. De artikelen moeten behoren tot een serviceartikelgroep waarvoor het selectievakje **Serviceartikel maken** is ingeschakeld. Als voor de artikelen serienummers zijn geregistreerd op de pagina Artikeltraceringsregels, worden deze gegevens tijdens het maken van serviceartikelen automatisch gekopieerd naar het veld **Serienummer** op de serviceartikelkaart.  
 
@@ -48,7 +48,7 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 >   
 >  Is een artikel ingesteld als stuklijst en hebt u de stuklijst niet getoond, dan wordt hiervoor een serviceartikel gemaakt op basis van de voorwaarde serviceartikelgroep en optioneel de voorwaarde serienummers.  
 
-## Starttarieven invoegen voor serviceartikelen
+## <a name="to-insert-a-starting-fee-for-a-service-item" />Starttarieven invoegen voor serviceartikelen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicetaken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Artikelwerkbon**.
@@ -56,9 +56,9 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 
     Er wordt een serviceregel van het type **Kosten** ingevoegd met het starttarief. Het starttarief is van toepassing op het geselecteerde serviceartikel.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-items/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Zie gerelateerde [Microsoft-training](/training/modules/create-items/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md)  
 [CRM - Service instellen](service-setup-service.md)  

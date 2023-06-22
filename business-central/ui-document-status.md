@@ -9,7 +9,7 @@ ms.search.form: null
 ms.date: 09/19/2022
 ms.author: bholtorf
 ---
-# Statusveld in documenten
+# <a name="status-field-on-documents" />Statusveld in documenten
 
 Wanneer u een offerte, order of creditnota maakt, bevat het veld **Status** in de documentkop standaard de waarde **Open**.
 
@@ -22,11 +22,11 @@ Nadat u het document hebt ingevuld, kunt u het vrijgeven en wordt de waarde in h
 | Wacht op goedkeuring   | Het document moet nog worden goedgekeurd. |
 | Wacht op vooruitbetaling | Er is een vooruitbetalingsfactuur geboekt voor het document. |
 
-## Vrijgaveproces
+## <a name="release-process" />Vrijgaveproces
 
 Met het vrijgaveproces kunt u de gewone werkstroom op verschillende manieren gemakkelijker maken, bijvoorbeeld door bedrijfsprocedures over goedkeuring te volgen of magazijnactiviteiten te starten.
 
-### Goedkeuringsprocedures
+### <a name="approval-procedures" />Goedkeuringsprocedures
 
 Met de vrijgaveprocedure kan het bedrijf aangeven dat een andere gebruiker het document heeft goedgekeurd of dat een extern contact kan voldoen aan de specificaties van het document, zoals in de volgende voorbeelden:
 
@@ -36,11 +36,11 @@ Met de vrijgaveprocedure kan het bedrijf aangeven dat een andere gebruiker het d
 
 Lees meer over goedkeuringswerkstromen op [Werkstromen gebruiken](across-use-workflows.md).
 
-### Magazijnactiviteiten
+### <a name="warehouse-activities" />Magazijnactiviteiten
 
 Als de orderstatus **Open** is, wordt de verzending niet klaargemaakt en worden de artikelen op een inkooporder niet verwacht in het magazijn. Wanneer u de order vrijgeeft, geeft u aan dat de order volledig is en dat deze in het magazijn kan worden uitgevoerd.
 
-## Een vrijgegeven order opnieuw openen
+## <a name="reopen-a-released-order" />Een vrijgegeven order opnieuw openen
 
 U moet een vrijgegeven order opnieuw openen als u wijzigingen wilt aanbrengen. U kunt de aantallen op de door het magazijn verwerkte regels echter alleen verhogen.
 
@@ -51,7 +51,7 @@ Als u wijzigingen aanbrengt in een vrijgegeven order, moet u het magazijn inlich
 > [!NOTE]
 > Als u een afzonderlijke open order of creditnota wilt boeken zonder deze eerst vrij te geven, wordt het document in [!INCLUDE [prod_short](includes/prod_short.md)] na het boeken automatisch vrijgegeven. Boekt u de orders of creditnota's met de functie **Batchboeken**, dan kunt u ervoor kiezen alleen de orders of creditnota's te boeken die u hebt vrijgegeven.
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Producten verkopen met een klantverkooporder](sales-how-sell-products.md)  
 [Aankopen registreren met inkoopfacturen](purchasing-how-record-purchases.md)  

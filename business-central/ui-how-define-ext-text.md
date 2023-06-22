@@ -10,13 +10,13 @@ ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# Tekstuitbreiding toevoegen
+# <a name="add-extended-text" />Tekstuitbreiding toevoegen
 
 U kunt de beschrijving voor artikelen, voorraadeenheden, grootboekrekeningen en resources uitbreiden door extra regels toe te voegen als uitgebreide tekst. U kunt ook voorwaarden stellen voor het gebruik van de extra regels.  
 
 In de volgende sectie wordt beschreven hoe u uitgebreide tekst kunt toevoegen aan een beschrijving van een artikel. Maar dezelfde stappen zijn van toepassing op SKU's, grootboekrekeningen en resources.  
 
-## Uitgebreide tekst definiëren voor een beschrijving
+## <a name="to-define-extended-text-for-an-description" />Uitgebreide tekst definiëren voor een beschrijving
 
 1. Open de kaart voor een artikel waaraan u uitgebreide tekst wilt toevoegen, en kies vervolgens de actie **Tekstuitbreiding**.
 2. Vul de velden **Code** en **Omschrijving** in.
@@ -29,12 +29,12 @@ In de volgende sectie wordt beschreven hoe u uitgebreide tekst kunt toevoegen aa
 
 U kunt deze uitgebreide tekst nu aan documenten toevoegen. De volgende procedure legt uit hoe u uitgebreide tekst aan een verkooporder kunt toevoegen, maar dezelfde stappen zijn van toepassing op elk ander document dat u voor de uitgebreide tekst hebt gespecificeerd.  
 
-## Een uitgebreide artikeltekst op een verkooporderregel toevoegen
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line" />Een uitgebreide artikeltekst op een verkooporderregel toevoegen
 
 1. Open een verkooporder met een verkoopregel voor een artikel waarvoor uitgebreide tekst is gedefinieerd. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 2. Selecteer de desbetreffende regel en kies de actie **Tekstuitbreiding invoegen**.
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Voorraad instellen](inventory-setup-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

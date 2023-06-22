@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# Trainingscatalogus voor zakelijke besluitvormers
+# <a name="business-decision-makers-learning-catalog" />Trainingscatalogus voor zakelijke besluitvormers
 
 Beslist u over investeringen in nieuwe technologieën?
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet.  
 
-## Bedrijfswaarde<a name="busvalue"></a>
+## <a name="business-valuea-namebusvaluea" />Bedrijfswaarde<a name="busvalue"></a>
 
 | Inhoud                                                                 | Omschrijving                                                                                                | Opmaak                                | Lengte     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond. | Gratis online leertraject voor zelfstudie | 24 minuten |
 
-## Aan de slag<a name="get-started"></a>
+## <a name="getting-starteda-nameget-starteda" />Aan de slag<a name="get-started"></a>
 
 | Inhoud                                                                                                                             | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

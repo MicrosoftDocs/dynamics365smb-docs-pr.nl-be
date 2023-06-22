@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/11/2023
 ms.custom: bap-template
 ---
-# Beheertaken
+# <a name="administration-tasks" />Beheertaken
 
 Centrale beheertaken worden meestal uitgevoerd door één rol in het bedrijf. De omvang van deze taken kan afhangen van de bedrijfsgrootte en de functieverantwoordelijkheden van de beheerder. Deze taken kunnen het beheer van databasesynchronisatie van verwerkings- en e-mailwachtrijen, instellen van gebruikers en aanpassen van de gebruikersinterface zijn.  
 
@@ -43,7 +43,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Verbind Dynamics 365 Sales met [!INCLUDE[prod_short](includes/prod_short.md)] om naadloze integratie te krijgen tussen klantrelaties en orderverwerking in het potentiële klant-naar-contanten proces.|[Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Aanpassen welke velden en acties worden weergegeven in de gebruikersinterface, zodat deze bij de bedrijfsprocessen van uw bedrijf passen en de oplossing uitbreiden met apps.|[[!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md) aanpassen|
 
-## Beheer in het beheercentrum
+## <a name="administration-in-the-admin-center" />Beheer in het beheercentrum
 
 Interne en gedelegeerde beheerders hebben toegang tot het [!INCLUDE [prod_short](includes/prod_short.md)]-beheercentrum, waar ze [!INCLUDE [prod_short](includes/prod_short.md)]-omgevingen kunnen configureren, bewaken en er problemen mee kunnen oplossen. De volgende tabel beschrijft enkele van de taken, met koppelingen naar de artikelen waarin deze worden beschreven.  
 
@@ -54,16 +54,16 @@ Interne en gedelegeerde beheerders hebben toegang tot het [!INCLUDE [prod_short]
 |Beheer gebruikerssessies, inclusief het annuleren van een sessie als de gebruiker is geblokkeerd.|[Sessies beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configureer de tenant om telemetriegegevens naar Azure Application Insights te verzenden voor een betere analyse en probleemoplossing.|[Verzenden van telemetrie inschakelen naar Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## Zie gerelateerde [Microsoft-training](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

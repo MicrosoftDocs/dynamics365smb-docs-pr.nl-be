@@ -12,31 +12,31 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# Een bladwijzer van een pagina of rapport maken in uw rolcentrum
+# <a name="bookmark-a-page-or-report-on-your-role-center" />Een bladwijzer van een pagina of rapport maken in uw rolcentrum
 Met het bladwijzerpictogram kunt u een actie toevoegen waarmee een pagina of rapport wordt geopend vanuit het navigatiemenu van uw rolcentrum. Met bladwijzers bereikt u snel uw favoriete inhoud of zakelijke taken. U voegt de bladwijzer toe vanaf de doelpagina of het doelrapport, dat wil zeggen het scherm dat u wilt dat de koppeling in het rolcentrum opent.
 
 Het bladwijzerpictogram wordt weergegeven in de rechterbovenhoek van een pagina's en ook in het venster **Vertel me**, waar u efficiënt bladwijzers kunt maken van meerdere pagina's of rapporten. Als er al een bladwijzer voor de pagina bestaat, is het pictogram donker en bevat de knopinfo 'Bladwijzer'.
 
-## Een bladwijzer maken van de doelpagina
+## <a name="to-bookmark-the-target-page" />Een bladwijzer maken van de doelpagina
 1. Open een pagina waarvoor u een koppeling wilt maken in uw rolcentrum.
 2. Kies het pictogram ![Bladwijzer](media/ui_bookmark_icon.png "Bladwijzer").  
 
 Een naar de pagina genoemde actie wordt nu toegevoegd aan het navigatiemenu in uw rolcentrum.
 
-## Een bladwijzer maken van het doelrapport
+## <a name="to-bookmark-the-target-report" />Een bladwijzer maken van het doelrapport
 1. Open een rapportaanvraagpagina waarvoor u een koppeling wilt maken in uw rolcentrum.
 2. Kies het pictogram ![Bladwijzer](media/ui_bookmark_icon.png "Bladwijzer").  
 
 Een naar het rapport genoemde actie wordt nu toegevoegd aan het navigatiemenu in uw rolcentrum.
 
-## Een bladwijzer voor een pagina of rapport maken vanuit het venster Vertel me
+## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window" />Een bladwijzer voor een pagina of rapport maken vanuit het venster Vertel me
 1. Open het venster **Vertel me** en voer bijvoorbeeld **Verkooporders** in.
 2. Plaats de aanwijzer boven het zoekresultaat voor de pagina of het rapport **Verkooporders** en kies vervolgens het pictogram ![Bladwijzer](media/ui_bookmark_icon.png "Bladwijzer").  
 
 Een naar de pagina of het rapport genoemde actie wordt nu toegevoegd aan het navigatiemenu in uw rolcentrum.
 
 
-## Veelgestelde vragen  
+## <a name="frequently-asked-questions" />Veelgestelde vragen
 
 - **Kan ik mijn bladwijzers reorganiseren?**  
 Ja. U kunt uw rolcentrum personaliseren en acties in een betere volgorde plaatsen of ze naar bestaande groepen of subgroepen verplaatsen.  
@@ -76,7 +76,7 @@ Wanneer u een nieuwe actie toevoegt, wordt alle vertaalde tekst die op dat momen
 - **Waarom kan ik niet direct tekst op een pagina toevoegen nadat ik deze met de bladwijzer heb geopend?**<br> Wanneer een pagina een bladwijzer heeft, wordt de pagina altijd geopend in de weergavemodus vanuit de bladwijzer&mdash;zelfs als het in de bewerkingsmodus was toen het werd gemarkeerd als bladwijzer. Selecteren van het pictogram **Breng wijzigingen op de pagina aan** ![Toont het potloodpictogram voor het bewerken van de pagina.](media/edit-pencil.png) kunt u tekst toevoegen in de velden die bewerkbaar zijn.
 
 
-## Zie ook
+## <a name="see-also" />Zie ook
 [Uw werkruimte personaliseren](ui-personalization-user.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  

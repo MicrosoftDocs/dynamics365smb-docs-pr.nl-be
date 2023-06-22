@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# Trainingscatalogus voor partnerverkoop en -marketing
+# <a name="partner-sales-and-marketing-learning-catalog" />Trainingscatalogus voor partnerverkoop en -marketing
 
 Helpt u uw klanten bij het kopen van de juiste oplossing?
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet.  
 
-## Bedrijfswaarde<a name="busvalue"></a>
+## <a name="business-valuea-namebusvaluea" />Bedrijfswaarde<a name="busvalue"></a>
 
 | Inhoud     | Omschrijving    | Opmaak                                | Lengte              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -21,7 +21,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/) | De mogelijkheden van Dynamics 365 Business Central verkennen    | Website    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond.    | Gratis online leertraject voor zelfstudie | 24 minuten          |
 
-## Aan de slag<a name="get-started"></a>
+## <a name="getting-starteda-nameget-starteda" />Aan de slag<a name="get-started"></a>
 
 | Inhoud   | Omschrijving   | Opmaak                                | Lengte              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -30,7 +30,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Professioneel werken met gegevens in Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Bent u net begonnen met Business Central? In dit leertraject maakt u kennis met de typen gegevens in Business Central en hoe u in de toepassing de informatie kunt vinden die u nodig hebt.      | Gratis online leertraject voor zelfstudie | 2 uur, 27 minuten  |
 | [Business Central YouTube-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube-bestemmingspagina voor Dynamics 365 Business Central-video's  | YouTube-video's  |                     |
 
-## Laat uw bedrijf groeien<a name="grow"></a>
+## <a name="grow-your-businessa-namegrowa" />Laat uw bedrijf groeien<a name="grow"></a>
 
 | Inhoud   | Omschrijving        | Opmaak                                | Lengte                |
 |-----------|--------------------|---------------------------------------|-----------------------|

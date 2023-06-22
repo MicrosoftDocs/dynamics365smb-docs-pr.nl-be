@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
-# Synchronisatie van hoofdgegevens beheren
+# <a name="manage-master-data-synchronization" />Synchronisatie van hoofdgegevens beheren
 
 Nadat u de synchronisatie van hoofdgegevens hebt ingesteld en voor de eerste keer hebt gesynchroniseerd, worden de records in de geselecteerde tabellen gekoppeld en wordt voor elke tabel een terugkerend taakwachtrij-item gemaakt. De items in de taakwachtrij synchroniseren automatisch gegevens in de dochterondernemingen wanneer iemand een wijziging aanbrengt in het bronbedrijf. Verder hoeft u niets te doen.
 
@@ -21,7 +21,7 @@ Soms gaat het echter mis en kunnen er situaties zijn die u moet beheren of onder
 
 Dit artikel beschrijft de hulpprogramma's die u kunt gebruiken om de synchronisatie soepel te laten verlopen.
 
-## De status van synchronisatie onderzoeken
+## <a name="investigate-the-status-of-synchronization" />De status van synchronisatie onderzoeken
 
 Er zijn twee acties op de pagina **Synchronisatietabellen** die u kunnen helpen uw synchronisatie te controleren:
 
@@ -38,29 +38,29 @@ De volgende tabel beschrijft de acties.
 > [!NOTE]
 > Als u een fout vindt op de pagina **Synchronisatietaken voor integratie** die u niet zelf kunt oplossen, en als u contact opneemt met uw partner of Microsoft voor ondersteuning, is het handig om de foutmelding en de callstack-informatie te vermelden.
 
-## Gewijzigde records synchroniseren
+## <a name="synchronize-modified-records" />Gewijzigde records synchroniseren
 
 Als u een instelling voor een tabel of veld in een dochteronderneming wijzigt, moet u de synchronisatie bijwerken. Als u bijvoorbeeld besluit om het selectievakje **Lokale wijziging overschrijven** in een veld in te schakelen, zodat gegevens van het bronbedrijf lokale wijzigingen kunnen overschrijven. Gebruik de actie **Gewijzigde records synchroniseren** op de pagina **Synchronisatietabellen** om de synchronisatie bij te werken.
 
-## Tabelschema's bijwerken
+## <a name="update-table-schemas" />Tabelschema's bijwerken
 
 Als het bronbedrijf een tabel wijzigt, bijvoorbeeld door een veld toe te voegen dat u wilt synchroniseren, moeten dochterondernemingen hun veldtoewijzingen bijwerken. Gebruik op de pagina **Synchronisatievelden** de actie **Velden bijwerken**. 
 
-## Koppelingen tussen records in- of uitschakelen
+## <a name="enable-or-disable-couplings-between-records" />Koppelingen tussen records in- of uitschakelen
 
 Om het koppelen van specifieke records in een tabel te starten of te stoppen kiest u op de pagina **Synchronisatievelden** de velden en gebruikt u vervolgens de actie **Inschakelen** of **Uitschakelen**. 
 
 > [!TIP]
 > Een snelle manier om meerdere velden tegelijkertijd in of uit te schakelen, is door ze in de lijst te selecteren en vervolgens de actie **Inschakelen** of **Uitschakelen** te gebruiken.
 
-## Extensies toevoegen
+## <a name="adding-extensions" />Extensies toevoegen
 
 Als het bronbedrijf een nieuwe extensie installeert, moet de dochteronderneming deze ook installeren als ze er gegevens voor willen synchroniseren. De dochteronderneming kan de actie **Velden bijwerken** op de pagina **Synchronisatievelden** gebruiken om de tabellen van de extensie toe te voegen aan de lijst.
 
 > [!NOTE]
 > Sommige tabellen halen gegevens uit gerelateerde tabellen. Als u een extensie toevoegt die geen gerelateerde tabellen bevat, zijn de velden in die tabellen niet beschikbaar. Controleer of u alle gerelateerde tabellen hebt toegevoegd.
 
-## Oude posten opruimen
+## <a name="clean-up-old-entries" />Oude posten opruimen
 
 Na verloop van tijd zal het aantal vermeldingen in het synchronisatielogboek groot worden, dus misschien wilt u een beetje opruimen om onnodige posten te verwijderen. Om het opschonen van oude posten gemakkelijker te maken biedt de pagina **Synchronisatietaken voor integratie** de volgende acties:
 
@@ -68,11 +68,11 @@ Na verloop van tijd zal het aantal vermeldingen in het synchronisatielogboek gro
 * **Alle posten verwijderen**
 
 <!--
-## Recreate a deleted job queue entry
+## <a name="recreate-a-deleted-job-queue-entry" />Recreate a deleted job queue entry
 
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Voorbereiden om hoofdgegevens te synchroniseren](admin-set-up-data-sync.md)

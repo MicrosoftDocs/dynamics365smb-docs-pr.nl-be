@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 09/15/2022
 ms.author: edupont
 ---
-# Planning met of zonder vestigingen
+# <a name="planning-with-or-without-locations" />Planning met of zonder vestigingen
 
 Voordat u de planningsengine gaat gebruiken, raden we u aan om te beslissen of u vestigingen wilt gebruiken. Er zijn twee eenvoudige hoofdmanieren:
 
 * vraagregels altijd vestigingscodes bevatten en het systeem SKU's gebruikt, inclusief de relevante vestigingsinstellingen. Meer informatie op [Vraag op vestiging](#demand-at-location).  
 * vraagregels bevatten nooit vestigingscodes en het systeem gebruikt de artikelkaart. Zie de het onderstaande scenario [Vraag op een "lege vestiging"](#demand-at-blank-location).
 
-## Vraag op vestiging  
+## <a name="demand-at-location" />Vraag op vestiging
 
 Wanneer het planningssysteem ontdekt dat er op een bepaalde vestiging vraag is (een regel met een vestigingscode), reageert het systeem op verschillende manieren, afhankelijk van 2 essentiële instellingswaarden.  
 
@@ -53,7 +53,7 @@ Zie de variaties in de [onderstaande scenario's](#scenarios).
 >
 > U kunt dit ook voor een specifieke SKU definiëren door de code van een andere vestiging in het veld **Onderdelen op vestiging** op de SKU-kaart te selecteren. Let echter op dat dit nauwelijks zinvol is aangezien de planningslogica vervormd kan zijn wanneer u plant voor de SKU-component.
 
-## Vraag op "lege vestiging"
+## <a name="demand-at-blank-location" />Vraag op "lege vestiging"
 
 Wanneer het planningssysteem vraag detecteert op een lege vestiging (een regel zonder vestigingscode), wordt het artikel over het algemeen gepland volgens planningsparameters op de artikelkaart.
 
@@ -63,75 +63,75 @@ Het veld **Vestiging verplicht** op de pagina **Voorraadinstellingen** en het ve
 * Er bestaat een SKU voor het geplande artikel.
 * Het veld **Vestiging verplicht** is geselecteerd.
 
-## Scenario's
+## <a name="scenarios" />Scenario's
 
 Zie de variaties in de onderstaande configuratiescenario's.
 
-### Instelling 1
+### <a name="setup-" />Instelling 1
 
 * Vestiging verplicht = *Ja*  
 * SKU is ingesteld voor *WEST*  
 * Onderdeel op vestiging = *OOST*  
 
-#### Geval 1.1: Vraag is op vestiging *WEST*
+#### <a name="case--demand-is-at-west-location" />Geval 1.1: Vraag is op vestiging *WEST*
 
 Het artikel is gepland volgens planningsparameters op de SKU-kaart (inclusief mogelijke transfer).
 
-#### Geval 1.2: Vraag is op vestiging *OOST*
+#### <a name="case--demand-is-at-east-location" />Geval 1.2: Vraag is op vestiging *OOST*
 
 Het artikel wordt gepland aan de hand van planningsparameters op de artikelkaart.
 
-#### Geval 1.3: vraag is op vestiging *NOORD*
+#### <a name="case--demand-is-at-north-location" />Geval 1.3: vraag is op vestiging *NOORD*
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-#### Case 1.4: vraag is op *LEGE* vestiging
+#### <a name="case--demand-is-at-blank-location" />Case 1.4: vraag is op *LEGE* vestiging
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-### Instelling 2
+### <a name="setup-" />Instelling 2
 
 * Vestiging verplicht = *Ja*  
 * Er bestaat geen SKU  
 * Onderdeel op vestiging = *OOST*  
 
-#### Geval 2.1: Vraag is op vestiging *WEST*
+#### <a name="case--demand-is-at-west-location" />Geval 2.1: Vraag is op vestiging *WEST*
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-#### Geval 2.2: Vraag is op vestiging *OOST*
+#### <a name="case--demand-is-at-east-location" />Geval 2.2: Vraag is op vestiging *OOST*
 
 Het artikel wordt gepland aan de hand van planningsparameters op de artikelkaart.  
 
-### Instelling 3
+### <a name="setup-" />Instelling 3
 
 * Vestiging verplicht = *Nee*  
 * Er bestaat geen SKU  
 * Onderdeel op vestiging = *OOST*  
 
-#### Geval 3.1: Vraag is op vestiging *WEST*
+#### <a name="case--demand-is-at-west-location" />Geval 3.1: Vraag is op vestiging *WEST*
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-#### Geval 3.2: Vraag is op vestiging *OOST*
+#### <a name="case--demand-is-at-east-location" />Geval 3.2: Vraag is op vestiging *OOST*
 
 Het artikel wordt gepland aan de hand van planningsparameters op de artikelkaart.  
 
-#### Case 3.3: vraag is op *LEGE* vestiging
+#### <a name="case--demand-is-at-blank-location" />Case 3.3: vraag is op *LEGE* vestiging
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-### Instelling 4
+### <a name="setup-" />Instelling 4
 
 * Vestiging verplicht = *Nee*  
 * Er bestaat geen SKU  
 * Onderdeel op vestiging = *LEEG*  
 
-#### Geval 4.1: vraag is op vestiging *OOST*
+#### <a name="case--demand-is-at-east-location" />Geval 4.1: vraag is op vestiging *OOST*
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-#### Case 4.2: vraag is op *LEGE* vestiging
+#### <a name="case--demand-is-at-blank-location" />Case 4.2: vraag is op *LEGE* vestiging
 
 Het artikel is gepland aan de hand van de planningsparameters op de artikelkaart.
 
@@ -139,9 +139,9 @@ Zoals u in het laatste scenario kunt zien, kunt u alleen een correct resultaat k
 
 Als u vaak vraag op vestigingen plant, raden we daarom aan dat u de SKU-functionaliteit gebruikt.
 
-## Zie gerelateerde training op [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Zie gerelateerde training op [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Gepland](production-planning.md)  
 [Productie instellen](production-configure-production-processes.md)  

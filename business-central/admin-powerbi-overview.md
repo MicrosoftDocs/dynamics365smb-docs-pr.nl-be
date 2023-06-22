@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Power BI-integratieonderdeel en architectuuroverzicht voor [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-includeprodshortincludesprodshortmd" />Power BI-integratieonderdeel en architectuuroverzicht voor [!INCLUDE[prod_short](includes/prod_short.md)]
 
 In dit artikel komt u meer te weten over de verschillende aspecten van de Power BI-integratie met [!INCLUDE[prod_short](includes/prod_short.md)], wat u kan helpen bij de implementatie en het gebruik ervan.
 
-## Onderdelen
+## <a name="components" />Onderdelen
 
 In de volgende tabel worden de belangrijkste onderdelen beschreven die betrokken zijn bij de Power BI-integratie.
 
@@ -25,7 +25,7 @@ In de volgende tabel worden de belangrijkste onderdelen beschreven die betrokken
 |Power BI Desktop|Een bewerkingsprogramma waarmee u rapporten en dashboards kunt maken en waarmee u ook rapporten kunt uitvoeren. Het programma is beschikbaar als gratis download in de Microsoft Store en wordt lokaal geïnstalleerd.|
 |[!INCLUDE[prod_short](includes/prod_short.md)]|Online- of on-premises oplossing met connectors die beschikbaar zijn voor Power BI en de mogelijkheid om een Power BI-gedeelte in te sluiten.|
 
-## Wat er vanaf het begin beschikbaar is
+## <a name="whats-available-from-the-start" />Wat er vanaf het begin beschikbaar is
 
 In de volgende tabel worden de beschikbare functies beschreven.
 
@@ -37,7 +37,7 @@ In de volgende tabel worden de beschikbare functies beschreven.
 |Standaard Power BI-rapporten in rolcentra die zijn geïmplementeerd in Power BI|Online|
 |Power BI-apps in Microsoft AppSource|Online|
 
-## Architectuur
+## <a name="architecture" />Architectuur
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan worden geïntegreerd met Power BI via een connector die OData gebruikt. De gegevensbron voor Power BI-rapporten wordt beschikbaar gemaakt in de vorm van API-pagina's en OData-webservices.
 
@@ -45,7 +45,7 @@ In de volgende tabel worden de beschikbare functies beschreven.
 
 Vanaf februari 2022 zijn Power BI-rapporten voor [!INCLUDE[prod_short](includes/prod_short.md)] online afkomstig van een secundaire, alleen-lezen databasereplica. De database-replica maakt deel uit van de ["read scale-out"](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview)-mogelijkheid in [!INCLUDE[prod_short](includes/prod_short.md)] online. Deze configuratie maakt de hoofddatabase vrij voor transacties, wat de prestaties van het systeem verbetert. Verbinding maken met de alleen-lezen databasereplica is een integraal onderdeel van de Business Central online-connector en vereist geen extra configuratie van uw kant. Alle nieuwe rapporten maken standaard verbinding met de alleen-lezen databasereplica. Oude rapporten zullen nog steeds de hoofddatabase gebruiken. Zie voor meer informatie [Business Central 2021 releasewave 2-abonnement](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
-## Algemene stroom
+## <a name="general-flow" />Algemene stroom
 
 In het volgende diagram wordt de basiswerkstroom voor gebruikers getoond wanneer ze [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met Power BI.
 
@@ -59,9 +59,9 @@ In het volgende diagram wordt de basiswerkstroom voor gebruikers getoond wanneer
 6. Gebruiker maakt een rapport aan in Power BI Desktop.
 7. Gebruiker publiceert het rapport naar de Power BI-service. De rapporten zijn vervolgens beschikbaar voor selectie in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Business Central en Power BI](admin-powerbi.md)  
 [Power BI voor consumenten](/power-bi/consumer/end-user-consumer)  

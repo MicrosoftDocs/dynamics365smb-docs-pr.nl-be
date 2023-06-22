@@ -8,13 +8,13 @@ ms.topic: overview
 ms.date: 03/16/2023
 ms.custom: bap-template
 ---
-# Overzicht van op AI gebaseerde artikelmarketingtekst (preview) met Copilot configureren
+# <a name="overview-of-ai-powered-item-marketing-text-preview-with-copilot" />Overzicht van op AI gebaseerde artikelmarketingtekst (preview) met Copilot configureren
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Dit artikel geeft een overzicht van de op AI gebaseerde mogelijkheden van Copilot in Business Central.
 
-## Wat is op AI gebaseerde artikelmarketingtekst met Copilot
+## <a name="what-is-ai-powered-item-marketing-text-with-copilot" />Wat is op AI gebaseerde artikelmarketingtekst met Copilot
 
 Copilot biedt op AI gebaseerde schrijfhulp voor Business Central-gebruikers die verantwoordelijk zijn voor het schrijven van marketingteksten (productbeschrijvingen) voor artikelen die in online winkels worden verkocht, zoals Shopify. Met één klik op de knop genereert Copilot tekst die boeiend en creatief is en de belangrijkste kenmerken van het specifieke artikel benadrukt. Met wat nakijken en bewerken is het klaar om te publiceren.
 
@@ -26,13 +26,13 @@ Copilot gebruikt [Microsoft Azure Azure OpenAI-service van Microsoft](/azure/cog
 
 *De video geeft niet precies weer hoe de functie momenteel werkt of eruitziet in het product. De functie is enigszins veranderd sinds de video is geproduceerd. Maar het geeft u een algemeen idee van de functie en waarvoor u deze kunt gebruiken.*
   
-## Waar het wordt gebruikt
+## <a name="where-its-used" />Waar het wordt gebruikt
 
 Copilot is beschikbaar op artikelkaarten in Business Central. In Business Central zijn artikelen vergelijkbaar met producten in andere toepassingen en winkels. Elk artikel kan worden beheerd vanaf een kaart waarop u details over het artikel invoert, zoals de afmetingen, kosten of afbeelding. Deze kaart bevat ook een vak voor het invoeren van marketingtekst. Deze marketingtekst kan in uw online winkel worden gepubliceerd om het artikel te promoten. Hier komt Copilot om de hoek kijken. Door gewoon de actie **Maken met Copilot** te selecteren op de artikelkaart, genereert Copilot een intelligente concepttekst voor u. Zodra u de eerste versie heeft, kunt u Copilot keer op keer uitvoeren totdat u een versie krijgt die u bevalt. Als u een suggestie hebt die u leuk vindt, bekijkt en bewerkt u deze op juistheid en slaat u deze vervolgens op.
 
 Als Business Central is ingesteld om verbinding met uw online winkel te maken in Shopify, kunt u deze tekst zelfs rechtstreeks met het artikel in uw winkel publiceren door **Toevoegen aan Shopify** te selecteren.
 
-## Waarom en hoe u het gebruikt
+## <a name="why-and-how-to-use-it" />Waarom en hoe u het gebruikt
 
 Door AI gegenereerde tekst kan u helpen de time-to-market van producten in online winkels te versnellen door de tijd die wordt besteed aan het schrijven van teksten te beperken. Dit zijn enkele belangrijke voordelen:
 
@@ -42,7 +42,7 @@ Door AI gegenereerde tekst kan u helpen de time-to-market van producten in onlin
 
 U moet de door AI gegenereerde tekst beschouwen als slechts een **suggestie**. Suggesties kunnen in sommige gevallen fouten en zelfs ongepaste tekst bevatten, dus menselijk toezicht en beoordeling zijn vereist. Voordat u de tekst openbaar maakt, moet u deze controleren op juistheid en de juiste wijzigingen aanbrengen.
 
-## Huidige beperkingen
+## <a name="current-limitations" />Huidige beperkingen
 
 In dit gedeelte worden de huidige beperkingen van de door AI gegenereerde tekstmogelijkheden van Copilot uitgelegd.
 
@@ -52,7 +52,7 @@ In dit gedeelte worden de huidige beperkingen van de door AI gegenereerde tekstm
 - Copilot wordt niet ondersteund via verbindingen met uw eigen Azure OpenAI-serviceresource in uw Azure-abonnement.
 - Partneruitbreidbaarheid van de AI-mogelijkheid met behulp van AL-code wordt niet ondersteund.
 
-## Volgende stappen
+## <a name="next-steps" />Volgende stappen
 
 Om aan de slag te gaan, hebt u een Business Central versie 22-omgeving nodig die is ingeschakeld met Copilot.
 
@@ -61,7 +61,7 @@ Om aan de slag te gaan, hebt u een Business Central versie 22-omgeving nodig die
 
 Ga voor meer informatie naar [De preview-versie van Business Central](ai-preview-getstarted.md).  
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Op AI gebaseerde artikelmarketingtekst configureren als beheerder](enable-ai.md)  
 [Marketingteksten maken met Copilot](item-marketing-text.md)  

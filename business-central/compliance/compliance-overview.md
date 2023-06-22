@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Conformiteitsoverzicht
+# <a name="compliance-overview" />Conformiteitsoverzicht
 
 Deze inhoud bevat informatie over naleving in verband met [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
@@ -24,7 +24,7 @@ In dit gedeelte leest u meer over onze benadering van naleving vanuit een toepas
 |Zie informatie over verschillende certificeringen in verband met Business Central. Hier vindt u gegevens over algemene certificeringen en land/regio-specifieke certificeringen.|[Certificeringen](compliance-certifications.md)|  
 |Meer informatie over de voorwaarden van de dienstverleningsovereenkomst en andere voorwaarden voor de service|[Servicevoorwaarden](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,18 +7,18 @@ ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
 ---
-# Bankrekeningen van leverancier instellen
+# <a name="set-up-vendor-bank-accounts" />Bankrekeningen van leverancier instellen
 
 Net zoals u bankrekeninggegevens kunt gebruiken in [!INCLUDE [prod_short](includes/prod_short.md)] om banktransacties van uw bedrijf bij te houden, kunt u ook bankgegevens voor leveranciers instellen. Bankgegevens van leveranciers kunnen betalingen aan leveranciers vereenvoudigen bijvoorbeeld in combinatie met de [extensie AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) of de functie [Betalingen exporteren naar een bankbestand](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
-## Een leveranciersbankrekening toevoegen of bewerken
+## <a name="add-or-edit-a-vendor-bank-account" />Een leveranciersbankrekening toevoegen of bewerken
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 > [!TIP]
 > U kunt extra leveranciersbankrekeningen instellen op de pagina **Bankrekeningen leverancier**.
 
-## Een voorkeursbankrekening voor een leverancier instellen
+## <a name="set-up-a-preferred-vendor-bank-account" />Een voorkeursbankrekening voor een leverancier instellen
 
 Als een leverancier een of meer bankrekeningen heeft en u een voorkeursoptie wilt instellen voor de betalingsdagboekregels, volgt u deze stappen:
 
@@ -26,9 +26,9 @@ Als een leverancier een of meer bankrekeningen heeft en u een voorkeursoptie wil
 2. De kaart voor de leverancier openen
 3. Kies op het sneltabblad **Betalingen** de standaardbankrekening van de leverancier in het veld **Bankrekeningcode van voorkeur**.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  

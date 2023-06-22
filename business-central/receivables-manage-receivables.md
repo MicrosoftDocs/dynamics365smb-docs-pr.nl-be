@@ -10,7 +10,7 @@ ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Tegoeden beheren
+# <a name="managing-receivables" />Tegoeden beheren
 
 Een veel voorkomende stap in het financiële ritme is het reconciliëren van bankrekeningen. Hierbij moet u inkomende betalingen vereffenen met klant- of leveranciersposten, om verkoopfacturen en inkoopcreditnota's te sluiten als betaald.
 
@@ -41,15 +41,15 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Stel een tolerantie in waarmee het systeem een factuur sluit hoewel de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Voorspellen wanneer betalingen te laat worden gedaan voor verkoopdocumenten. | [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md) |
 
-## Zie gerelateerde [Microsoft-training](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

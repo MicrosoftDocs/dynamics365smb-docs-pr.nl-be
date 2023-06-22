@@ -9,7 +9,7 @@ ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022
 ms.author: edupont
 ---
-# Projecten maken
+# <a name="create-jobs" />Projecten maken
 
 Wanneer u een nieuw project start, moet u een projectkaart maken met geïntegreerde projecttaken en projectplanningsregels, die uit twee lagen wordt gestructureerd.  
 
@@ -28,7 +28,7 @@ Soms wijkt de partij die een service ontvangt, af van de partij die de rekening 
 * Voeg informatie over externe referenties toe om de communicatie over het project te vereenvoudigen.
 * Overschrijf de standaard financiële voorwaarden van het project.
 
-## Een projectkaart maken
+## <a name="to-create-a-job-card" />Een projectkaart maken
 
 U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplanningsregels hiervoor.
 
@@ -47,7 +47,7 @@ Markeer optioneel acties op het project als geblokkeerd met behulp van het veld 
 |Boeking    |U kunt wel met planningsregels werken, maar het project kan niet worden geboekt. Het boeken van projectgebruik of -omzet is niet mogelijk.|
 |Alle  |Alle acties zijn geblokkeerd.|
 
-## Taken maken voor een project
+## <a name="to-create-tasks-for-a-job" />Taken maken voor een project
 
 Een essentieel onderdeel bij het maken van een nieuw project is dat de verschillende taken worden opgegeven die bij het project horen. U geeft taken op door één regel per taak op te geven op het sneltabblad **Taken** op de pagina **Projectkaart**. Elk project moet minimaal één taak hebben.
 
@@ -58,7 +58,7 @@ Een essentieel onderdeel bij het maken van een nieuw project is dat de verschill
 5. Herhaal stap 3 en 4 voor alle taken die u voor de taak nodig hebt.
 6. Als u de projecttaken wilt opgeven met informatie over andere projecttaken, kiest u de actie **Projecttaken kopiëren vanuit**, vult u de benodigde velden in en kiest u de knop **OK**.
 
-## Planningsregels voor een project maken
+## <a name="to-create-planning-lines-for-a-job" />Planningsregels voor een project maken
 
 U kunt de nieuwe projecttaken op projectplanningsregels verfijnen. Een planningsregel kan worden gebruikt voor het vastleggen van de gegevens die u voor een project wilt bijhouden. U kunt bijvoorbeeld de resources bijhouden die voor het project nodig zijn, of de items die nodig zijn. U heeft bijvoorbeeld een taak om een klant een project te laten goedkeuren. Die taak kan vervolgens worden gekoppeld aan planningsregels voor artikelen, zoals bijeenkomst met de klant en het toewijzen van een resource.  
 
@@ -79,9 +79,9 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 4. Vul op de pagina **Projectplanningsregels** op een nieuwe regel de benodigde velden in.
 5. Herhaal stap 3 en 4 voor alle planningsregels die u voor de projecttaak nodig hebt.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-new-job/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-job" />Zie gerelateerde [Microsoft-training](/training/modules/create-new-job/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

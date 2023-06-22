@@ -10,7 +10,7 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 08/30/2022
 ms.author: edupont
 ---
-# Contacten maken
+# <a name="create-contacts" />Contacten maken
 
 Wanneer u een zakelijke relatie ontwikkelt met iemand in een ander bedrijf, voegt u deze persoon toe als contact in [!INCLUDE[prod_short](includes/prod_short.md)]. Voeg vervolgens alle informatie over hen of hun bedrijf toe die nuttig kan zijn voor toekomstige communicatie. U kunt de volgende soorten contacten maken op de pagina **Contactkaart**:
 
@@ -28,7 +28,7 @@ Wanneer een contact bijvoorbeeld wordt omgezet in een klant, wordt de contactper
 >
 > Als u echter al gebruikmaakt van de ingebouwde functionaliteit voor het automatisch maken van klanten of artikelen, dan ondersteunt deze functie-update geen aangepaste velden en bevatten nieuwe klanten of artikelen dergelijke gegevens niet.
 
-## Handmatig een contact maken
+## <a name="to-create-a-contact-manually" />Handmatig een contact maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
@@ -37,7 +37,7 @@ Wanneer een contact bijvoorbeeld wordt omgezet in een klant, wordt de contactper
    Als u echter een nummerreeks voor contacten hebt ingesteld op de pagina **Marketinginstellingen**, kunt u <kbd>Enter</kbd> selecteren om het volgende beschikbare contactnummer in te voegen.
 4. Vul indien nodig de resterende velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Een contact maken van een klant, leverancier of bankrekening
+## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account" />Een contact maken van een klant, leverancier of bankrekening
 
 Als u bestaande klanten, leveranciers en bankrekeningen hebt waarvoor u contactkaarten wilt maken, kunt u de batchverwerkingen **Contacten maken van** gebruiken. Wanneer u op deze manier een contact maakt, worden de contactgegevens later gesynchroniseerd met de gerelateerde klant-, leveranciers- of bankrekeninginformatie. Zie voor meer informatie [Contacten synchroniseren met klanten, leveranciers, werknemers en bankrekeningen](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts)
 
@@ -56,7 +56,7 @@ De volgende contactnummers in de nummerreeks worden aan de nieuwe contacten toeg
 > [!TIP]  
 > U kunt dit ook andersom doen, namelijk door een klant, leverancier, werknemer of bankrekening te maken vanuit een contact. Zie voor meer informatie de sectie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
-## Een klant, leverancier, werknemer of bankrekening maken van een contact
+## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact" />Een klant, leverancier, werknemer of bankrekening maken van een contact
 
 Als u een klant, leverancier, werknemer of bankrekening hebt voor het bedrijf waarvoor u een contact wilt maken, kunt u de actie **Maken als** gebruiken. Wanneer u op deze manier een contact maakt, worden de contactgegevens later gesynchroniseerd met de gerelateerde klant-, leveranciers-, werknemers- of bankrekeninginformatie. Zie voor meer informatie [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts)<!--Should this link include "Employees" as per the section title below?-->
 
@@ -70,7 +70,7 @@ Als u een klant, leverancier, werknemer of bankrekening hebt voor het bedrijf wa
 
 De contactgegevens worden nu overgebracht van de contactkaart naar een nieuwe klant-, leveranciers-, werknemers- of bankrekeningkaart. Mogelijk wilt u specifieke informatie toevoegen aan elk van de kaarten, bijvoorbeeld gegevens over facturering en betaling. Zie voor een voorbeeld [Nieuwe klanten registreren](sales-how-register-new-customers.md).
 
-## Een contact koppelen aan een bestaande klant, leverancier, werknemer of bankrekening
+## <a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account" />Een contact koppelen aan een bestaande klant, leverancier, werknemer of bankrekening
 
 Als u een contact en een klant, leverancier, werknemer of bankrekening hebt voor hetzelfde bedrijf, kunt u de twee entiteiten koppelen om gegevens te synchroniseren.
 
@@ -80,7 +80,7 @@ Als u een contact en een klant, leverancier, werknemer of bankrekening hebt voor
 4. Geef in het veld **Velden overnemen van** de velden op die prioriteit moeten krijgen bij conflicterende informatie in gemeenschappelijke velden van het bestaande contact en de klant, leverancier, werknemer of rekening. Als de verkoperscode verschilt voor het contact en de klant, kunt u ervoor kiezen de verkoper op de contactkaart te behouden door **Contact** te selecteren.
 5. Klik op **OK**.
 
-## Een koppeling verwijderen tussen een contact en een bestaande klant, leverancier, werknemer of bankrekening
+## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account" />Een koppeling verwijderen tussen een contact en een bestaande klant, leverancier, werknemer of bankrekening
 
 Als u een contact met een klant, leverancier, werknemer of bankrekening ten onrechte hebt gekoppeld, verwijdert u de koppeling tussen de entiteiten zodat de gegevens niet langer synchroniseren.
 
@@ -92,7 +92,7 @@ Als u een contact met een klant, leverancier, werknemer of bankrekening ten onre
 > [!NOTE]  
 > Gebruik het venster **Zakenrelaties** niet om bestaande relaties te wijzigen. Verwijder in plaats daarvan de relatie en gebruik de actie **Koppelen aan bestaande**. Zie voor meer informatie de sectie [Een contactpersoon koppelen aan een bestaande klant, leverancier, werknemer of bankrekening](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
-## Contacten synchroniseren met klanten, leveranciers, werknemers en bankrekeningen
+## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts" />Contacten synchroniseren met klanten, leveranciers, werknemers en bankrekeningen
 
 Als sommige van uw contacten ook klanten, leveranciers, werknemers of bankrekeningen zijn, kunt u ze synchroniseren met gegevens vanuit de contactpersoon en de volgende voordelen krijgen:
 
@@ -112,12 +112,12 @@ Er zijn drie manieren om gegevenssynchronisatie in te schakelen tussen contacten
 * Wanneer u klanten, leveranciers, werknemers of bankrekeningen maakt van contacten. Zie voor meer informatie de sectie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 * Wanneer u contacten koppelt aan bestaande klanten, leveranciers, werknemers of bankrekeningen vanuit de contactkaart. Zie voor meer informatie de sectie [Een contactpersoon koppelen aan een bestaande klant, leverancier, werknemer of bankrekening](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
-## Zien aan welke klant, leverancier, werknemer of bankrekening een contact is gerelateerd
+## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to" />Zien aan welke klant, leverancier, werknemer of bankrekening een contact is gerelateerd
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Contacten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel voor een contact, kies de actie **Gerelateerde informatie** en kies vervolgens de actie **Klant/Leverancier/Bankrekening/Werknemer**.
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Contactpersonen beheren](marketing-contacts.md)  
 [Contactpersonen instellen](marketing-setup-contacts.md)  

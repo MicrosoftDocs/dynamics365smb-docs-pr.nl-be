@@ -7,7 +7,7 @@ ms.search.keywords: 'news, release plan, roadmap, whats new'
 ms.date: 12/07/2022
 ms.author: edupont
 ---
-# Nieuw en gepland voor Dynamics 365 Business Central
+# <a name="new-and-planned-for-dynamics--business-central" />Nieuw en gepland voor Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
@@ -20,11 +20,11 @@ De volgende lijst bevat informatie over de nieuwste versies van [!INCLUDE [prod_
 
 Het kan handig zijn om de site [Dynamics 365 Business Central-mogelijkheden](https://dynamics.microsoft.com/business-central/capabilities/) en de site [Dynamics 365 Business Central-routekaart](https://dynamics.microsoft.com/roadmap/business-central/) te bekijken.  
 
-## Meldingen over wijzigingen ontvangen via een RSS-feed
+## <a name="get-notified-about-changes-through-an-rss-feed" />Meldingen over wijzigingen ontvangen via een RSS-feed
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Bezoek onze videobibliotheek](across-videos.md)  
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
@@ -36,6 +36,6 @@ Het kan handig zijn om de site [Dynamics 365 Business Central-mogelijkheden](htt
 [Business Central-prijzen](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central-community](https://community.dynamics.com/business/)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

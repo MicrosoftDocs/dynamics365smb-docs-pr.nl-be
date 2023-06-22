@@ -8,17 +8,17 @@ ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# Financiële rapporten en analyses in Business Central
+# <a name="financial-reports-and-analytics-in-business-central" />Financiële rapporten en analyses in Business Central
 
 Financiële rapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt financiële en zakelijke professionals in staat om financiële overzichten te maken, te onderhouden, te implementeren en te bekijken. Gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen. [!INCLUDE [prod_short](includes/prod_short.md)] bevat verschillende rapporten, traceerfuncties en tools die auditors of controllers helpen die verantwoordelijk zijn voor rapportage aan de financiële afdeling. Financiële rapportage omvat ondersteuning voor dimensies, zodat accountsegmenten of dimensies onmiddellijk beschikbaar zijn. Er zijn geen andere tools of configuratiestappen vereist.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Rapporten
+## <a name="reports" />Rapporten
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Taken
+## <a name="tasks" />Taken
 
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw bedrijf:
 
@@ -30,9 +30,9 @@ In de volgende artikelen worden enkele van de belangrijkste taken beschreven voo
 * [Lijsten met XBRL maken](bi-create-reports-with-xbrl.md)  
 * [Databasetoegangsintentie beheren](admin-data-access-intent.md)  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Kostenbudgetten maken](finance-create-cost-budgets.md)  
 [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)  

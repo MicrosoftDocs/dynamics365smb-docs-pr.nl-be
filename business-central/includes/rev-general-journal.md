@@ -5,7 +5,7 @@ ms.date: 10/27/2022
 ms.author: bholtorf
 ---
 
-### Dagboeken terugdraaien om fouten te corrigeren
+### <a name="reversing-journals-to-correct-mistakes" />Dagboeken terugdraaien om fouten te corrigeren
 
 Wanneer u werkt met dagboeken met veel regels en er gaat iets mis, is het belangrijk om een gemakkelijke manier te hebben om fouten te corrigeren. De pagina **Geboekt financieel dagboek** biedt een aantal acties die kunnen helpen.
 

@@ -10,13 +10,13 @@ ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Opslaglocatiesoorten instellen
+# <a name="set-up-bin-types" />Opslaglocatiesoorten instellen
 
 U kunt de stroom van artikelen beheren via opslaglocaties die door u zijn gedefinieerd voor speciale magazijnactiviteiten. Met het toewijzen van een soort aan een opslaglocatie stelt u een aantal basisactiviteiten voor de locatie in, en daarmee ook de manier waarop de opslaglocatie in wordt gebruikt.  
 
 Er zijn zes soorten. U kunt binnen uw magazijn met alle zes mogelijke opslaglocatiesoorten werken of kunt u werken met alleen de opslaglocatiesoorten ONTVANGEN, OPSLAGPICK, VERZENDEN en QC. Bij deze vier soorten opslaglocaties kunnen suggesties worden aangebracht die de stroom van artikelen ondersteunen en het vastleggen van voorraadafwijkingen mogelijk maken.  
 
-## U kunt als volgt de gewenste soorten opslaglocatie instellen
+## <a name="to-set-up-the-bin-types-you-want-to-use" />U kunt als volgt de gewenste soorten opslaglocatie instellen
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Opslaglocatiesoorten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Op de pagina **Opslaglocatiesoorten** geeft u een code op voor het soort opslaglocatie (10 cijfers en/of letters).  
@@ -38,9 +38,9 @@ Hieronder vindt u een overzicht van de soorten opslaglocaties die u kunt maken.
 |OPSL-PICK|Artikelen in opslaglocaties die worden voorgesteld voor de opslag- en pickfuncties. Opslaglocaties van dit soort beschikken waarschijnlijk over verschillende zonevolgordes. U kunt locaties voor bulkopslag bijvoorbeeld instellen als een laaggeclassificeerde versie van dit soort, in tegenstelling tot de normale pickopslaglocaties of een pickopslaggebied.|  
 |QC|Deze opslaglocatie wordt gebruikt voor voorraadaanpassing indien u deze opslaglocatie opgeeft in het veld **Code aanpassing opslaglocatie** op de locatiekaart. U kunt dit soort locaties ook instellen voor defecte artikelen en artikelen die worden geïnspecteerd. Als u bepaalde artikelen ontoegankelijk wilt maken voor de normale artikelenstroom, kunt u de artikelen eveneens verplaatsen naar dit soort opslaglocatie.<br /><br /> **OPMERKING:** in tegenstelling tot alle andere soorten opslaglocaties is bij de opslaglocatie van het type **QC** geen enkel selectievakje voor de verwerking van artikelen standaard ingeschakeld. Dit geeft aan dat alle inhoud die u in een opslaglocatie van QC plaatst uitgesloten is van de stroom van artikelen.|  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Zie gerelateerde [Microsoft-training](/training/modules/set-up-zones-bins/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

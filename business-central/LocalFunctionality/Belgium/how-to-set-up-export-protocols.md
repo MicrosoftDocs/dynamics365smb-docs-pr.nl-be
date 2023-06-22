@@ -13,7 +13,7 @@ ms.search.form: 2000005
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# Exportprotocollen instellen in de Belgische versie
+# <a name="set-up-export-protocols-in-the-belgian-version" />Exportprotocollen instellen in de Belgische versie
 Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocollen instellen. Exportprotocollen bepalen welke bestandsindeling wordt gegenereerd wanneer u de betaalrun exporteert die door de bank moet worden verwerkt. Elke regel bevat een exportprotocol dat door een code en een beschrijving wordt geïdentificeerd. U kunt zoveel exportprotocollen instellen als nodig is. U moet een exportprotocol voor binnenlandse betalingen, internationale betalingen en SEPA-betalingen binnen en buiten de eurozone instellen.  
 
  Met exportprotocollen kunt u de codeunit toewijzen waarmee de controle wordt gedefinieerd die moet worden uitgevoerd voordat de betalingsregels naar een bestand worden geëxporteerd. Daarnaast kunt u het rapport toewijzen waarmee de betalingsindeling wordt gedefinieerd. U kunt bijvoorbeeld een exportprotocol met de naam **DOM1** hebben. Dit exportprotocol bevat de codeunit voor de controle **Binnenlandse betalingen controleren** en het rapport **Binnenlandse betalingen indienen**. Elk exportprotocol omvat zowel een controlecodeunit als een bijbehorend rapport, zoals in de volgende tabel wordt weergegeven.  
@@ -28,7 +28,7 @@ Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocoll
 
  Als u exportprotocollen hebt ingesteld, kunt u deze gebruiken in uw betalingsdagboeken voor elektronisch bankieren.  
 
-## Een exportprotocol instellen  
+## <a name="to-set-up-an-export-protocol" />Een exportprotocol instellen
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Exportprotocollen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
@@ -48,7 +48,7 @@ Voordat u met elektronisch bankieren aan de slag kunt, moet u de exportprotocoll
 
 4.  Kies de knop **Ok**.  
 
-## Zie ook  
+## <a name="see-also" />Zie ook
  [Belgische elektronische betalingen](belgian-electronic-payments.md)   
  [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)   
  [Elektronische betalingen testen](how-to-test-electronic-payments.md)

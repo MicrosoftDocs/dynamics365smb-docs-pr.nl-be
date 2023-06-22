@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Regels instellen voor automatische vereffening van betalingen
+# <a name="set-up-rules-for-automatic-application-of-payments" />Regels instellen voor automatische vereffening van betalingen
 
 Op de pagina **Regels betalingsvereffening** stelt u de regels in die bepalen hoe betalingstekst (op een banktransactie) automatisch moet worden afgestemd met de gerelateerde openstaande (onbetaalde) facturen, creditnota's of andere posten wanneer u de functie **Automatisch vereffenen** gebruikt in het venster **Betalingsreconciliatiedagboek**. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
@@ -29,7 +29,7 @@ Behalve de afstemmingscriteria is het volgende van toepassing met betrekking tot
 - Voor negatieve bedragen wordt eerst afgestemd met openstaande posten die klantfacturen vertegenwoordigen, en vervolgens met creditnota's van leveranciers.
 - Voor positieve bedragen wordt eerst een afstemming uitgevoerd met openstaande posten die leveranciersfacturen vertegenwoordigen en dan met creditnota's van klanten.
 
-## Een betalingsvereffeningsregel instellen
+## <a name="to-set-up-a-payment-application-rule" />Een betalingsvereffeningsregel instellen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Regels betalingsvereffening** in en kies vervolgens de gerelateerde koppeling.
 2. Definieer een nieuwe of bewerkte betalingsvereffeningsregel door de velden op een regel in te vullen, zoals beschreven in de volgende tabel.
 
@@ -74,9 +74,9 @@ De volgende tabel beschrijft de standaardregels voor betalingsvereffening in [!I
 | Laag              | 4        | Nr.                    | Nr.                             | Eén overeenkomst                      |
 | Laag              | 5        | Nr.                    | Nr.                             | Meerdere overeenkomsten               |
 
-## Zie gerelateerde [Microsoft-training](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesreconciliation-journals-dynamics--business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  

@@ -11,11 +11,11 @@ ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Terminologie in kostprijsboekhouding
+# <a name="terminology-in-cost-accounting" />Terminologie in kostprijsboekhouding
 
 Dit onderwerp beschrijft de belangrijkste termen die worden gebruikt in kostprijsboekhouding.  
 
-## Belangrijke termen
+## <a name="key-terms" />Belangrijke termen
 
  De volgende tabel bevat definities van belangrijke termen in kostprijsboekhouding.  
 
@@ -43,9 +43,9 @@ Dit onderwerp beschrijft de belangrijkste termen die worden gebruikt in kostprij
 |Variabele kosten|Variabele kosten zijn kosten die wijzigen in relatie met de activiteiten van een bedrijf. Variabele kosten zijn de som van de marginale kosten over alle geproduceerde eenheden. Vaste en variabele kosten vormen de twee onderdelen van de totale kosten.|  
 |Variant|Een variant wordt gebruikt als een optioneel door de gebruiker gedefinieerd label voor toewijzingen. Het doel van het label is toegewezen groepen filteren.|  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
  [Kostprijsboekhouding](finance-about-cost-accounting.md)  
  [Kosten verantwoorden](finance-manage-cost-accounting.md)  

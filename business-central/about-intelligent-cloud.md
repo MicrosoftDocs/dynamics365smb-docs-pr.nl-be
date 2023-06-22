@@ -13,13 +13,13 @@ ms.date: 04/12/2021
 ms.author: edupont
 ---
 
-# Intelligente inzichten in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# <a name="intelligent-insights-in-includeprodshortincludesprodshortmd-online" />Intelligente inzichten in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Als gebruiker van [!INCLUDE[prod_short](includes/prod_short.md)] online hebt u volledige toegang tot scenario's die zijn gebaseerd op de Intelligente cloud, zoals KPI's die zijn gebaseerd op Machine Learning of wanneer u uw gegevens bekijkt in Power BI.  
 
 Als u echter [!INCLUDE [prod_short](includes/prod_short.md)] on-premises gebruikt, hebt u geen toegang tot dezelfde inzichten. Als u wilt profiteren van online scenario's, moet u migreren naar [!INCLUDE [prod_short](includes/prod_short.md)] online. Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud voor [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Inzichten bekijken in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## <a name="viewing-insights-in-includeprodshortincludesprodshortmd-online" />Inzichten bekijken in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] online bevat de pagina **Intelligente cloud-inzichten** vier belangrijke aandachtspunten voor de meeste bedrijven:
 
@@ -35,7 +35,7 @@ Naast de KPI-grafieken krijgt u informatie over potentiële aandachtspunten, inc
 
 De pagina maakt ook verbinding met Power BI voor nog meer inzichten. Maak eventueel verbinding met Azure AI voor nog meer intelligente inzichten. Zie voor meer informatie [De extensie Verkoop- en voorraadprognose](ui-extensions-sales-forecast.md).  
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Welkom bij Business Central](welcome.md)  
 [Extensies voor cloudmigratie](ui-extensions-data-replication.md)  

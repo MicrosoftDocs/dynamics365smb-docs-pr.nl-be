@@ -10,14 +10,14 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# Een Shopify-account maken en instellen
+# <a name="create-and-set-up-a-shopify-account" />Een Shopify-account maken en instellen
 
 Als u overweegt om Shopify als uw e-commerce-oplossing te gebruiken en een Shopify account nodig hebt om de geïntegreerde workflow te valideren, hebt u de volgende opties:
 
 - Een proefversie nemen. Dit is het typische startpunt voor eindgebruikers.  
 - Ontwikkelingswinkels maken. Deze aanpak is voor partners die terugkerende demo's, trainingen en ondersteuning bieden.
 
-## Proefversie (eindgebruiker)
+## <a name="trial-end-user" />Proefversie (eindgebruiker)
 
 Ga naar de [Shopify-website](https://www.shopify.com) en gebruik uw e-mailaccount voor het beheerdersaccount om u aan te melden voor een gratis proefperiode. Voor meer informatie over het maken en personaliseren van uw online winkel zie [Shopify Helpcentrum](https://help.shopify.com/).
 
@@ -36,7 +36,7 @@ Pas in **Shopify-beheer** van de gemaakte winkel de volgende **instellingen** to
 > [!Important]  
 > Vergeet niet uw Shopify proefperiode te annuleren om betalingen te voorkomen.
 
-## Ontwikkelingswinkel
+## <a name="development-store" />Ontwikkelingswinkel
 
 Begin met deelname aan het [Shopify-partnerprogramma](https://help.shopify.com/partners/about). Gebruik daarna het **Partnerdashboard** om de ontwikkelingswinkel te maken. Ga voor meer informatie naar [Ontwikkelingswinkels maken](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -53,7 +53,7 @@ Pas nadat u de winkel hebt gemaakt in **Shopify-beheer** van de gemaakte winkel 
 > [!Note]  
 > Ontwikkelingswinkels zijn meestal met een wachtwoord beveiligd. Wanneer u een specifieke pagina in uw online winkel probeert te openen vanuit [!INCLUDE [prod_short](../includes/prod_short.md)], bijvoorbeeld om naar een specifiek product of bestelling te gaan, moet u uw wachtwoord invoeren. Om te voorkomen dat u uw wachtwoord moet invoeren, logt u tijdens het testen in bij uw Shopify-beheer en opent u uw winkel vanaf daar. U hoeft het winkelwachtwoord pas in te voeren als u uw browser sluit of uw sessie verloopt.  
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Aan de slag met de Shopify-connector](get-started.md)  
 [Procedure: Shopify-connector instellen en gebruiken](walkthrough-setting-up-and-using-shopify.md)

@@ -14,15 +14,15 @@ ms.contentlocale: nl-BE
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8514789"
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Debiteurenrapporten en -analyses in Business Central
+# <a name="accounts-receivable-reports-and-analytics-in-business-central" /><a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Debiteurenrapporten en -analyses in Business Central
 
 Om u te helpen bij het beheren van uw vorderingen in [!INCLUDE [prod_short](includes/prod_short.md)] zijn standaardrapporten en -analyses ingebouwd. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen.  
 
-## <a name="reports"></a>Rapporten
+## <a name="reports" /><a name="reports"></a>Rapporten
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also" /><a name="see-also"></a>Zie ook
 
 [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md)  
 [Werken met dimensies](finance-dimensions.md)  

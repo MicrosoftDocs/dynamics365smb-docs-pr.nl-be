@@ -11,13 +11,13 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# Aanmaningen voor uitstaande saldi verzenden
+# <a name="send-reminders-of-outstanding-balances" />Aanmaningen voor uitstaande saldi verzenden
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-financial-periodic-activities-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Meerdere rentetarieven instellen voor uitgestelde betaling](finance-how-to-set-up-multiple-interest-rates.md)  

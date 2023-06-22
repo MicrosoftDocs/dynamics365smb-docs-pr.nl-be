@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# Werkstromen in Dynamics 365 Business Central
+# <a name="workflows-in-dynamics--business-central" />Werkstromen in Dynamics 365 Business Central
 
 U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatisch boeken, kunnen als stappen in werkstromen worden opgenomen. Systeemtaken kunnen worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.
 
@@ -26,7 +26,7 @@ De standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] ondersteu
 
   Op de pagina **Werkstroomsjablonen** kunt u alle beschikbare werkstromen zien. De proefversie van [!INCLUDE[prod_short](includes/prod_short.md)] bevat veel vooraf geconfigureerde werkstromen die worden vertegenwoordigd door werkstroomsjablonen die u kunt kopiëren om nieuwe werkstromen te maken. Wanneer u een sjabloon opent vanuit de pagina **Werkstroomsjablonen** en de naam van de werkstroom begint met *MS-*, is de werkstroomsjabloon door Microsoft toegevoegd.
 
-## Power Automate-stromen
+## <a name="power-automate-flows" />Power Automate-stromen
 
 Met [!INCLUDE [prod_short](includes/prod_short.md)] Online kunt u zich aanmelden voor Power Automate om krachtige geautomatiseerde werkstromen te bouwen. U voert die werkstromen uit vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. De stromen kunnen interne en externe gegevensbronnen en tools met elkaar verbinden, zonder codeerkennis.
 
@@ -36,7 +36,7 @@ Met [!INCLUDE [prod_short](includes/prod_short.md)] Online kunt u zich aanmelden
 |Meer informatie over het maken, bewerken en beheren van stromen|[Geautomatiseerde stromen instellen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) en [Directe stromen instellen](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Power Automate-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] instellen voor gebruikers als beheerder|[Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## Goedkeuringswerkstromen
+## <a name="approval-workflows" />Goedkeuringswerkstromen
 
 Maak een goedkeuringswerkstroom door als volgt te definiëren waardoor de werkstroom wordt gestart en wat er daarna gebeurt:
 
@@ -57,9 +57,9 @@ Voorbeelden van gebeurtenissen voor goedkeuringswerkstromen zijn het maken van v
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

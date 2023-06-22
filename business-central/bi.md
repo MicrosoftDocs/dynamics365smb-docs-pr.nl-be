@@ -11,7 +11,7 @@ ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# Financiële bedrijfsinformatie
+# <a name="financial-business-intelligence" />Financiële bedrijfsinformatie
 
 Bedrijven leggen een enorme hoeveelheid gegevens vast tijdens hun dagelijkse activiteiten. Deze gegevens, zoals de verkoopcijfers van de organisatie, inkopen, operationele uitgaven, werknemerssalarissen en budgetten, geven waardevolle bedrijfsinformatie (BI)weer voor besluitnemers. [!INCLUDE[prod_short](includes/prod_short.md)] bevat veel functies voor het verzamelen, analyseren en delen van uw bedrijfsgegevens.
 
@@ -32,7 +32,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Internationale accountantsorganisaties de mogelijkheid geven om wereldwijd financiële rapporten te maken met behulp van de eXtensible Business Reporting Language-standaard (XBRL).|[Lijsten met XBRL maken](bi-create-reports-with-xbrl.md)|
 |Wijzig de databasetoegangsintentie op rapporten, pagina's van API-type en query's om de belasting te verminderen en de prestaties te verbeteren.|[Databasetoegangsintentie beheren](admin-data-access-intent.md)|
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Financiën](finance.md)  
 [Business Central gebruiken als een Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
@@ -41,6 +41,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 [Overzicht van bedrijfsinformatie en rapportage](reports-bi-reporting.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

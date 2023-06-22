@@ -10,7 +10,7 @@ ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Verkopers instellen
+# <a name="set-up-salespeople" />Verkopers instellen
 
 Veel bedrijven willen de individuele prestaties van een werknemer volgen om op basis daarvan de verkoopcommissie of bonus te kunnen berekenen. Zie bijvoorbeeld het rapport met **verkoperscommissies**. Mogelijk wil een bedrijf ook een verkoper aan elk contact toewijzen.
 
@@ -18,16 +18,16 @@ Wanneer u een verkoper op de pagina **Verkopers** hebt ingesteld, kunt u deze in
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
-## Een verkoperscode instellen
+## <a name="to-set-up-a-salesperson-code" />Een verkoperscode instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkopers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Verkopers** de actie **Nieuw**.
 
 U kunt verkopers in divers relatiebeheer en marketingwerk gebruiken. U kunt bijvoorbeeld taken toewijzen aan verkopers, zodat de taken worden opgenomen in verkoopopportunity's waaraan de verkoper is toegewezen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  

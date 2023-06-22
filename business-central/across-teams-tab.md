@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab'
 ---
 
-# Een Business Central-tabblad toevoegen in Microsoft Teams
+# <a name="add-business-central-tab-in-microsoft-teams" />Een Business Central-tabblad toevoegen in Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,7 +19,7 @@ In Teams verschijnen tabbladen bovenaan kanalen en chats, waardoor deelnemers sn
 
 ![Tabbladen in Teams](media/teams-tabs-border.png)
 
-## Over Business Central-tabbladen
+## <a name="about-business-central-tabs" />Over Business Central-tabbladen
 
 Een [!INCLUDE [prod_short](includes/prod_short.md)]-tabblad biedt een gerichte weergave van [!INCLUDE [prod_short](includes/prod_short.md)]-lijst- en kaartpagina's. Het tabblad toont niet de volledige [!INCLUDE [prod_short](includes/prod_short.md)]-webclient. Er is geen browserrand, [!INCLUDE [prod_short](includes/prod_short.md)]-banner (bijvoorbeeld met Vertel me, zoeken, help) of navigatiemenu aan de bovenkant&mdash;alleen pagina-inhoud en bijbehorende acties. De inhoud is interactief, wat betekent dat u acties en koppelingen kunt selecteren, gegevens kunt wijzigen en meer. U wordt beperkt in wat u ziet en kunt doen door dezelfde machtigingen die zijn toegewezen aan uw account in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -28,7 +28,7 @@ Voor meer informatie over wie de inhoud kan bekijken in een [!INCLUDE [prod_shor
 > [!TIP]
 > Bent u een ontwikkelaar? U kunt ook programmatisch tabbladen toevoegen met behulp van de Microsoft Graph API. Zie [Business Central-tabbladen configureren](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs) voor meer informatie.  
 
-## Vereisten
+## <a name="prerequisites" />Vereisten
 
 Om een [!INCLUDE [prod_short](includes/prod_short.md)]-tabblad toe te voegen, moet aan de volgende vereisten zijn voldaan:
 
@@ -42,7 +42,7 @@ Om een [!INCLUDE [prod_short](includes/prod_short.md)]-tabblad te bekijken dat d
 - U hebt een [!INCLUDE [prod_short](includes/prod_short.md)]-licentie of beperkte toegang tot Business Central met alleen een Microsoft 365-licentie. Zie [Business Central-toegang met Microsoft 365-licenties](admin-access-with-m365-license.md) voor meer informatie.
 - U hebt de [!INCLUDE [prod_short](includes/prod_short.md)]-app in Teams geïnstalleerd.
 
-## Een tabblad toevoegen met aanbevolen inhoud
+## <a name="add-tab-using-recommended-content" />Een tabblad toevoegen met aanbevolen inhoud
 
 Gebruik deze stappen om een tabblad toe te voegen door te kiezen wat u wilt weergeven uit een direct beschikbare lijst met aanbevolen inhoud die is gebaseerd op uw rolcentrum&mdash;zonder Teams te verlaten. Voor meer informatie over de inhoud waaruit u kunt kiezen, zie [Waar komt de aanbevolen inhoud vandaan?](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
 
@@ -61,7 +61,7 @@ Gebruik deze stappen om een tabblad toe te voegen door te kiezen wat u wilt weer
 6. Selecteer **Posten naar het kanaal over dit tabblad** om automatisch een aankondiging in het Teams-kanaal of de Teams-chat te plaatsen om deelnemers te laten weten dat u dit tabblad hebt toegevoegd.
 7. Selecteer **Opslaan**.
 
-## Een tabblad toevoegen met een paginakoppeling
+## <a name="add-tab-using-a-page-link" />Een tabblad toevoegen met een paginakoppeling
 
 Een andere manier om een tabblad toe te voegen door een koppeling (URL) te gebruiken naar de pagina die u wilt weergeven. Deze manier is handig wanneer u een specifieke [!INCLUDE [prod_short](includes/prod_short.md)]-record of een lijstpagina wilt weergeven die niet is gemarkeerd als bladwijzer in uw rolcentrum.
 
@@ -80,14 +80,14 @@ Een andere manier om een tabblad toe te voegen door een koppeling (URL) te gebru
 8. Selecteer **Posten naar het kanaal over dit tabblad** om automatisch een aankondiging in het Teams-kanaal of de Teams-chat te plaatsen om deelnemers te laten weten dat u dit tabblad hebt toegevoegd.
 9. Selecteer **Opslaan**.
 
-## Een tabblad toevoegen door kaartgegevens vast te zetten
+## <a name="add-tab-by-pinning-card-details" />Een tabblad toevoegen door kaartgegevens vast te zetten
 
 Gebruik deze stappen om een tabblad toe te voegen voor een record dat werd gedeeld of geplakt in een Teams-kanaal of -chat. Voor meer informatie over het delen van records en paginakoppelingen in Teams, zie [Records en paginakoppelingen delen in teams](across-working-with-teams.md).
 
 1. Selecteer in Teams de knop **Details** op de kaart.
 2. Selecteer in de rechterbovenhoek van de kaartgegevens het pictogram **Vastzetten bovenaan de chat** ![Vastzetten-pictogram voor het toevoegen van het Teams-tabblad in Business Central](media/pin-teams.png).
 
-## Een tabblad en de inhoud ervan wijzigen
+## <a name="change-a-tab-and-its-content" />Een tabblad en de inhoud ervan wijzigen
 
 Nadat een tabblad is toegevoegd, kunt u bepaalde wijzigingen in het tabblad aanbrengen. U kunt het tabblad bijvoorbeeld een nieuwe naam geven, verplaatsen en verwijderen. Deze acties vindt u in de tabbladopties die beschikbaar zijn door de pijl-omlaag op het tabblad te selecteren.
 
@@ -97,7 +97,7 @@ Wat de inhoud van een tabblad betreft, kunt u de gegevens wijzigen als u toestem
 
 Ook kunt u de weergave van de pagina en de bijbehorende gegevens wijzigen, zoals sorteren en schakelen tussen lijst- en tegelweergaven. Wanneer u dit soort wijzigingen aanbrengt, hebben ze geen invloed op wat anderen zien. Zij zien wat u oorspronkelijk hebt gepost, totdat ze zelf vergelijkbare wijzigingen aanbrengen.
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  
@@ -108,6 +108,6 @@ Ook kunt u de weergave van de pagina en de bijbehorende gegevens wijzigen, zoals
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

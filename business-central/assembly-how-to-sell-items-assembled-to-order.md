@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting, substitute items'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# Assembleren voor order-artikelen verkopen
+# <a name="sell-items-assembled-to-order" />Assembleren voor order-artikelen verkopen
 
 Artikelen die zijn ingesteld voor op-order-assembleren, worden niet op voorraad verwacht en worden geassembleerd wanneer ze worden opgenomen in een verkooporder. Een artikel is ingesteld voor op order assembleren als het veld **Assemblagebeleid** op de artikelkaart **Op order assembleren bevat**. Wanneer u het artikel invoert op een verkooporderregel, wordt automatisch een assemblageorder gemaakt en gekoppeld aan de verkooporder.  
 
@@ -28,7 +28,7 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 > [!NOTE]  
 > De volgende procedure bevat niet de stappen voor het maken van een standaardverkooporder die plaatsvinden vóór de stap waarin u het op-order-assembleren artikel invoert op een verkooporderregel. Lees meer over het maken van verkooporders op [Producten verkopen met een klantverkooporder](sales-how-sell-products.md).  
 
-## Een artikel verkopen dat is samengesteld voor een order
+## <a name="to-sell-an-item-that-is-assembled-to-order" />Een artikel verkopen dat is samengesteld voor een order
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2. Een verkooporder maken. 
@@ -60,9 +60,9 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 > [!NOTE]  
 > Artikelvervangingen leiden er niet automatisch toe dat een artikel wordt vervangen door een ander artikel, bijvoorbeeld bij het maken van een verkooporder of in een stuklijst. In plaats daarvan wordt u erop gewezen dat er een vervanging beschikbaar is.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)  

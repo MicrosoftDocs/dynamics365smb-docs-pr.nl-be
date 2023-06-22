@@ -12,7 +12,7 @@ ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# Relaties beheren
+# <a name="managing-relationships" />Relaties beheren
 De relatiebeheerfuncties van [!INCLUDE[prod_short](includes/prod_short.md)] helpen u bij het beheer en de ondersteuning van uw verkoopactiviteiten. Met deze functies hebt u toegang tot volledige en nauwkeurige informatie, zodat u zich kunt richten op uw interacties met de klant/contact-segmenten van uw voorkeur.
 
 Goede verkoop- en marketingmethoden zijn gebaseerd op de juiste beslissingen op het juiste tijdstip. [!INCLUDE[prod_short](includes/prod_short.md)] biedt nauwkeurige en tijdige overzichten van uw contactgegevens, zodat u uw potentiële klanten efficiënter kunt bedienen en de klanttevredenheid kunt verhogen.

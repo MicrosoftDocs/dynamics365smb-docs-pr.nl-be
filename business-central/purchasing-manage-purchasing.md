@@ -11,7 +11,7 @@ ms.search.form: '460, 9307'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Inkopen
+# <a name="purchasing" />Inkopen
 
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u een voorraad moeten controleren, worden inkoopfacturen ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
 
@@ -39,13 +39,13 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde leverancier.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 |Beheer uw toezegging aan een leverancier om grote hoeveelheden te kopen die in meerdere verzendingen worden geleverd.|[Werken met inkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)|
 
-## Externe documentnummers
+## <a name="external-document-numbers" />Externe documentnummers
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
@@ -54,7 +54,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

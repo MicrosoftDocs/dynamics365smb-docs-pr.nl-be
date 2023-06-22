@@ -11,12 +11,12 @@ ms.date: 06/23/2021
 ms.author: edupont
 ROBOTS: NOINDEX
 ---
-# De Dynamics GP-extensie Gegevensmigratie
+# <a name="the-dynamics-gp-data-migration-extension" />De Dynamics GP-extensie Gegevensmigratie
 
 > [!NOTE]
 > De extensie is buiten gebruik gesteld in update 15.3. We raden gebruikers die willen migreren vanuit Dynamics GP aan om in plaats daarvan de wizard **Cloudmigratie** te gebruiken. De extensie **Cloudmigratie** heeft meer robuuste functionaliteit en brengt meer gegevens naar Business Central over vanuit Dynamics GP. Zie voor meer informatie [Business Central Online migreren vanuit Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) in de beheerinhoud voor [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Intelligente cloud-extensies voor cloudmigratie](ui-extensions-data-replication.md)  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  

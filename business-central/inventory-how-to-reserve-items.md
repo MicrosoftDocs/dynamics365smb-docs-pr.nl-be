@@ -11,13 +11,13 @@ ms.search.forms: '498, 497'
 ms.date: 08/11/2022
 ms.author: edupont
 ---
-# Artikelen reserveren
+# <a name="reserve-items" />Artikelen reserveren
 
 U kunt artikelen reserveren voor verkooporders, inkooporders, serviceorders, assemblageorders, transferorders en productieorders. U kunt artikelen ook in voorraad reserveren of inkomend op openstaande document- of dagboekregels. Dit doet u op de pagina **Reservering**.
 
 Elke regel die u opent om artikelen te reserveren op de pagina **Reservering**, geeft informatie over één soort regel (verkoop, inkoop of dagboek) of voorraadpost. Op de regels wordt beschreven hoeveel artikelen van elk soort regel of post beschikbaar zijn voor reservering.
 
-## Artikelen reserveren voor verkopen
+## <a name="reserve-items-for-sales" />Artikelen reserveren voor verkopen
 
 In de volgende procedure wordt beschreven hoe u artikelen reserveert vanuit een verkooporder. De stappen voor inkoop-, service-, transfer- en assemblageorders komen hiermee overeen.
   
@@ -36,7 +36,7 @@ In de volgende procedure wordt beschreven hoe u artikelen reserveert vanuit een 
 > [!NOTE]  
 > Als u artikeltracering hebt ingesteld voor de verkooporder, moet u een speciale reserveringsprocedure uitvoeren: Zie voor meer informatie de sectie [Reserveren van een bepaald serie- of lotnummer](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number).  
 
-## Een artikel voor een productieorderregel reserveren
+## <a name="reserve-an-item-for-a-production-order-line" />Een artikel voor een productieorderregel reserveren
 
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
 
@@ -50,7 +50,7 @@ In de volgende procedure wordt een vast geplande productieorder gebruikt.
 
 Het aantal dat u hebt ingevoerd op de vast geplande productieorderregel is nu gereserveerd.
 
-## Artikelen reserveren voor productieordermaterialen
+## <a name="reserve-items-for-production-order-components" />Artikelen reserveren voor productieordermaterialen
 
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
 
@@ -66,7 +66,7 @@ In de volgende procedure wordt een vast geplande productieorder gebruikt.
 
 Het aantal dat u hebt ingevoerd op de materiaalregel van de vast geplande productieorder is nu gereserveerd.
 
-## Een reservering wijzigen
+## <a name="change-a-reservation" />Een reservering wijzigen
 
 Soms wilt u een artikelreservering wijzigen.
 
@@ -75,7 +75,7 @@ Soms wilt u een artikelreservering wijzigen.
 3. Werk op de pagina **Reserveringsposten** het veld **Aantal** bij op de regel op die u wilt wijzigen.
 4. Bevestig het volgende bericht door de knop **OK** te kiezen.
 
-## Een reservering annuleren
+## <a name="cancel-a-reservation" />Een reservering annuleren
 
 Soms wilt u een artikelreservering annuleren.
 
@@ -84,7 +84,7 @@ Soms wilt u een artikelreservering annuleren.
 3. Kies op de pagina **Reservering** de actie **Reservering annuleren**.  
 4. Bevestig het volgende bericht door de knop **OK** te kiezen.  
 
-## Reserveren van een bepaald serie- of lotnummer
+## <a name="reserve-a-specific-serial-or-lot-number" />Reserveren van een bepaald serie- of lotnummer
 
 Van uitgaande documenten voor getraceerde artikelen, zoals verkooporders of productiecomponentlijsten, kunt u specifieke serie- of lotnummers reserveren. Dit kan nuttig zijn als u bijvoorbeeld productiecomponenten van een specifieke partij nodig hebt om consistentie met eerdere productiepartijen te waarborgen of omdat een klant een specifiek serienummer heeft aangevraagd. Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 
@@ -101,9 +101,9 @@ De volgende procedure is gebaseerd op een verkooporder.
 7. Kies de knop **OK** om de pagina **Reservering** te openen met alleen aanvoer met het opgegeven artikeltraceringsnummer. Als er niet-specifieke reserveringen zijn voor de artikeltraceringsnummers die u hebt opgegeven voor deze regel, ontvangt u een bericht over het reeds gereserveerde aantal.  
 8. Kies de actie **Autom. reservering** of **Huidige regel reserveren** om de reservering van de specifieke artikeltraceringsnummers te maken.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/manage-outbound-serial-lot-numbers/)
+## <a name="see-related-microsoft-trainingtrainingmodulesmanage-outbound-serial-lot-numbers" />Zie gerelateerde [Microsoft-training](/training/modules/manage-outbound-serial-lot-numbers/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  
