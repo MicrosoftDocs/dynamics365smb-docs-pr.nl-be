@@ -75,7 +75,7 @@ Afhankelijk van de bank kan de Handelaar deze inkomende transactie op zijn bankr
 
 Er zijn verschillende opties voor het afhandelen van betalingstransacties in [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Optie 1: inkomende overschrijvingen op bankrekening afstemmen met originele facturen
+### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Optie 1: inkomende overschrijvingen op bankrekening afstemmen met originele facturen
   
 Verkoper importeert verkooporder naar [!INCLUDE[prod_short](../includes/prod_short.md)] en boekt verzending en factuur.
 
@@ -88,7 +88,7 @@ problemen:
 1. Kan lastig zijn als er meerdere facturen (en creditnota's) zijn, maar één uitbetaling van de betalingsprovider met een forfaitair bedrag.
 2. Bedrag komt meestal niet overeen vanwege commissie. U kunt betalingstolerantie en/of betalingskortingen gebruiken om vergoedingen af te handelen.
 
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Optie 2: reconcilieer inkomende overschrijvingen naar bankrekening met tussentijdse rekening die geld vertegenwoordigt bij de betalingsprovider
+### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Optie 2: reconcilieer inkomende overschrijvingen naar bankrekening met tussentijdse rekening die geld vertegenwoordigt bij de betalingsprovider
   
 Verkoper importeert verkooporder naar [!INCLUDE[prod_short](../includes/prod_short.md)] en boekt verzending en factuur.
   

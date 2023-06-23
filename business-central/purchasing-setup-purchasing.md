@@ -70,7 +70,7 @@ Als deze functie is ingeschakeld, kan een retourtransactie alleen worden geboekt
 | Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt. |[Rapportselectie in Business Central](across-report-selections.md)|
 |Geef aan of gebruikers inkoopfacturen mogen boeken en of ze deze samen met een zending moeten boeken. |[Definieer een beleid voor het boeken van facturen voor gebruikers](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics--business-central" />Zie gerelateerde training op [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics-365-business-central" />Zie gerelateerde training op [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Zie ook
 

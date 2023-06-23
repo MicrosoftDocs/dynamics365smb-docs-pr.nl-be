@@ -33,11 +33,11 @@ Volg deze Microsoft Support-gids of neem contact op met uw beheerder om Outlook 
 
 [Office-updates installeren](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## <a name="install-microsoft-edge-webview" />Microsoft Edge WebView2 installeren
+## <a name="install-microsoft-edge-webview2" />Microsoft Edge WebView2 installeren
 
 Verzekeren dat Microsoft Edge WebView2 is geïnstalleerd op uw apparaat.
 
-### <a name="how-to-check-if-microsoft-edge-webview-is-installed" />Hoe te controleren of Microsoft Edge WebView2 is geïnstalleerd
+### <a name="how-to-check-if-microsoft-edge-webview2-is-installed" />Hoe te controleren of Microsoft Edge WebView2 is geïnstalleerd
 
 Om te controleren of u Microsoft Edge WebView2 hebt geïnstalleerd op een computer, voert u de volgende stappen uit:
 
@@ -52,7 +52,7 @@ Vanuit het Configuratiescherm:
 2. Kies **Programma's** > **Programma's en functies**.
 3. Typ **WebView2** in het zoekvak. Als Microsoft Edge WebView2 is geïnstalleerd, ziet u een item met de naam **Microsoft Edge WebView2 Runtime**.
 
-### <a name="how-to-install-microsoft-edge-webview" />Microsoft Edge WebView2 installeren
+### <a name="how-to-install-microsoft-edge-webview2" />Microsoft Edge WebView2 installeren
 
 1. Ga met uw browser naar [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Kies **Downloaden**.

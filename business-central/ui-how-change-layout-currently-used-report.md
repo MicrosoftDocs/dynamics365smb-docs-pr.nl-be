@@ -56,7 +56,7 @@ De naam van de geselecteerde aangepaste lay-out wordt nu weergegeven in het veld
 
 U kunt nu naar uw klanten- en leverancierskaarten gaan om op te geven welke lay-outs u wilt gebruiken voor verschillende documenten die u voor de betreffende klant of leverancier maakt, zoals orderbevestigingen of betalingsherinneringen. Zie voor meer informatie [Documentlay-outs definiëren voor klanten en leveranciers](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  

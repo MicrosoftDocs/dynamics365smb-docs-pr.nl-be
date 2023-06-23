@@ -95,7 +95,7 @@ U kunt deze verhoogde kosten als artikeltoeslag boeken in een creditnota of reto
 
 Wanneer u de verkoopretourorder boekt, wordt de toeslag opnieuw bevoorraden toegevoegd aan het bijbehorende verkooppostbedrag. Op deze manier kunt u de waardering van uw voorraad correct bijhouden.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 02/23/2022
 ---
 
-# <a name="dynamics--business-central-trial-faq" />Veelgestelde vragen (FAQ) over proefversie van Dynamics 365 Business Central
+# <a name="dynamics-365-business-central-trial-faq" />Veelgestelde vragen (FAQ) over proefversie van Dynamics 365 Business Central
 
 [!INCLUDE [beethoven-trial](includes/beethoven-trial.md)]
 
@@ -44,7 +44,7 @@ Schakel over naar de proefversie van 30 dagen en voeg vervolgens uw eigen gegeve
 
 Dat is niet mogelijk. Als u per ongeluk voorbeeldgegevens verwijdert, vraagt u uw beheerder om een nieuwe sandbox-omgeving te maken. Zie [Productie- en sandbox-omgevingen](/dynamics365/business-central/dev-itpro/administration/environment-types) in de beheerdersinhoud (uitsluitend in het Engels) voor meer informatie.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

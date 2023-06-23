@@ -32,7 +32,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 > [!TIP]
 > Gebruik bankreconciliatie om te controleren of uw boeken up-to-date zijn en boek de reconciliatie pas als u er tevreden mee bent.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreconcile-bank-accounts-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreconcile-bank-accounts-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

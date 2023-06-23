@@ -87,7 +87,7 @@ Microsoft-partners en -resellers kunnen apps maken die ze kunnen gebruiken om li
 > [!NOTE]
 > Als u een Microsoft-partner of -wederverkoper bent en u een lijst met aanbevolen apps wilt geven, gaat u naar [Apps aanbevelen uit AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in de beheerinhoud.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

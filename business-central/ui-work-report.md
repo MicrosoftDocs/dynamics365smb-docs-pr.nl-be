@@ -153,7 +153,7 @@ De velden op het sneltabblad **Geavanceerd** stellen beperkingen in voor het geg
 > [!NOTE]
 > De maximale waarden kunnen verschillen voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises en een beheerder kan ze wijzigen. Zie de sectie [Business Central Server configureren: rapporten](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) voor meer informatie. Voor een overzicht van rapportbeperkingen in [!INCLUDE[prod_short](includes/prod_short.md)] online, raadpleegt u [Operationele limieten](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Zie ook
 

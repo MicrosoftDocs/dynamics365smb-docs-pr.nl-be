@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  Voor informatie over het maken of het aanpassen van de definitie van gegevensuitwisseling raadpleegt u [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" />CAMT-gegevenstoewijzing aan velden in de tabel Dagboek (81)
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81" />CAMT-gegevenstoewijzing aan velden in de tabel Dagboek (81)
 
 |Elementpad|Berichtelement|Gegevenssoort|Omschrijving|Identificatie voor een negatief teken|Veldnr.|Veldnaam|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Ongestructureerd|Tekst|Informatie die wordt verschaft om de afstemming/reconciliatie mogelijk te maken van een post met de artikelen die de betaling wordt geacht te vereffenen, zoals commerciële facturen in een vorderingsysteem, in een ongestructureerde vorm||8|Omschrijving|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Tekst|Extra informatie over de invoer||1222|Transactie-informatie|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" />CAMT-gegevenstoewijzing aan velden in de tabel Bankreconciliatie (273)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273" />CAMT-gegevenstoewijzing aan velden in de tabel Bankreconciliatie (273)
 
 |Elementpad|Berichtelement|Gegevenssoort|Omschrijving|Identificatie voor een negatief teken|Veldnr.|Veldnaam|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Datum|De datum en tijd waarop het bericht is gemaakt.||3|Afschriftdatum|  
 |Stmt/Bal/Amt|Bedrag|Decimaal|Het bedrag dat resulteert uit de tot een nettowaarde teruggebrachte bedragen voor alle debet- en creditposten||4|Eindsaldo afschrift|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" />CAMT-gegevenstoewijzing aan velden in de tabel Bankreconciliatieregel (274)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274" />CAMT-gegevenstoewijzing aan velden in de tabel Bankreconciliatieregel (274)
 
 |Elementpad|Berichtelement|Gegevenssoort|Omschrijving|Identificatie voor een negatief teken|Veldnr.|Veldnaam|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  

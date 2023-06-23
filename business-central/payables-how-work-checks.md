@@ -75,7 +75,7 @@ Als u geboekte cheques wilt controleren, bijvoorbeeld om meerdere cheques te ver
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank - Cheques Detail** in en kies vervolgens de gerelateerde koppeling.
 2. Stel filters als relevant in en kies de knop **Voorbeeld**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/use-checks-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/use-checks-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

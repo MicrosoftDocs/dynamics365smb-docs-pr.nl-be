@@ -50,7 +50,7 @@ In de gegevensanalysemodus is de pagina verdeeld in twee gebieden:
 - Het hoofdgebied, dat bestaat uit het gegevensgebied (1), overzichtsbalk (2) en tabbladenbalk (5)
 - Het gebied voor gegevensmanipulatie, dat bestaat uit twee deelvensters: kolommen (3) en analysefilters (4).
 
-### <a name="data-area-" />Gegevensgebied (1)
+### <a name="data-area-1" />Gegevensgebied (1)
 
 In het gegevensgebied worden de rijen en kolommen van de lijstpagina weergegeven en worden de gegevens samengevat. Het gegevensgebied biedt een veelzijdige manier om de lay-out van kolommen te regelen en een snelle manier om een samenvatting van de gegevens te krijgen. Voor kolommen die numerieke waarden bevatten, wordt de som van alle waarden in de kolom weergegeven in een laatste rij, tenzij u rijgroepen hebt gedefinieerd. In dit geval verschijnen de sommen als een subtotaal voor de groepen.  
 
@@ -64,7 +64,7 @@ In het gegevensgebied worden de rijen en kolommen van de lijstpagina weergegeven
 - Gebruik het gegevensgebied om met de gegevens te werken. Voor kolommen die numerieke, optelbare waarden bevatten, kunt u beschrijvende statistieken voor een reeks velden verkrijgen door ze te markeren. De statistieken verschijnen in de statusbalk (2) onder aan de pagina.
 - Exporteer gegevens in Excel- of csv-indeling. Klik met de rechtermuisknop op het gegevensgebied of een selectie van cellen om te exporteren.
 
-### <a name="summary-bar-" />Overzichtsbalk (2)
+### <a name="summary-bar-2" />Overzichtsbalk (2)
 
 De overzichtsbalk bevindt zich onder aan de pagina en geeft statistieken weer over de gegevens in de lijst. Terwijl u werkt met kolommen waarvan de waarden kunnen worden opgeteld, zoals het selecteren van meerdere rijen in een kolom die bedragen bevat, worden de gegevens bijgewerkt.
 
@@ -83,7 +83,7 @@ De volgende tabel beschrijft de verschillende getallen die worden weergegeven in
 |Max|De maximale waarde in alle geselecteerde optelbare velden.|
 |Som|Het totaal van alle waarden in de geselecteerde optelbare velden.|
 
-### <a name="columns-" />Kolommen (3)
+### <a name="columns-3" />Kolommen (3)
 
 **Kolommen** is een van de twee deelvensters die samenwerken om uw analyse te definiëren. Het andere gebied is het deelvenster **Analysefilters**. Het deelvenster **Kolommen** wordt gebruikt om de gegevens samen te vatten. Gebruik het deelvenster **Kolommen** om te definiëren welke kolommen in de analyse moeten worden opgenomen.
 
@@ -98,7 +98,7 @@ De volgende tabel beschrijft de verschillende getallen die worden weergegeven in
 
 Selecteer het grijppictogram om een veld van het ene gebied naar het andere te verplaatsen ![Toont een overzicht van een pagina in de analysemodus](media/column-grab-icon.png) naast de kolom in de bovenstaande lijst en sleep naar het doelgebied. U mag een veld niet verplaatsen naar een gebied waar het niet is toegestaan.
 
-### <a name="analysis-filters-" />Analysefilters (4)
+### <a name="analysis-filters-4" />Analysefilters (4)
 
 Met het deelvenster **Analysefilters** kunt u verdere gegevensfilters op kolommen instellen om de vermeldingen in de lijst te beperken. Stel filters in op kolommen om de vermeldingen in de lijst en de daaropvolgende sommen te beperken tot alleen die vermeldingen waarin u bent geïnteresseerd op basis van een criterium dat u definieert. Stel dat u alleen geïnteresseerd bent in gegevens van een specifieke klant of verkooporders die een bepaald bedrag overschrijden. Om een filter in te stellen selecteert u de kolom, kiest u de vergelijkingsbewerking uit de lijst (zoals **Is gelijk aan** of **Begint met**) en voert u de waarde in.
 
@@ -107,7 +107,7 @@ Met het deelvenster **Analysefilters** kunt u verdere gegevensfilters op kolomme
 > [!NOTE]
 > De extra filters zijn alleen van toepassing op het huidige analysetabblad. Hierdoor kunt u precies de extra datafilters definiëren die nodig zijn voor een specifieke analyse.
 
-### <a name="tabs-" />Tabbladen (5)
+### <a name="tabs-5" />Tabbladen (5)
 
 In het tabbladengebied bovenaan kunt u verschillende configuraties (kolommen en analysefilters) maken op afzonderlijke tabbladen, waar u gegevens op de tabbladen onafhankelijk van elkaar kunt manipuleren. Er is altijd minimaal één tabblad, standaard genaamd **Analyse 1** . Het toevoegen van meer tabbladen is gunstig voor het opslaan van veelgebruikte analyseconfiguraties op een gegevensset. U kunt bijvoorbeeld tabbladen hebben voor het analyseren van gegevens in de draaimodus en andere tabbladen die filteren op een subset van rijen. Sommige tabbladen tonen mogelijk een gedetailleerde weergave met veel kolommen en andere geven slechts enkele sleutelkolommen weer.
 

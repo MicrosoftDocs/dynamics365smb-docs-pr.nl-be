@@ -179,7 +179,7 @@ Volg deze stappen als u de naam en beschrijving van een door de gebruiker ingest
     > Om u te helpen de lay-out te vinden, gebruikt u het vak **Zoeken**, het deelvenster **Filter** en kolommen sorteren.
 3. Verander de **Lay-outnaam** en selecteer vervolgens **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

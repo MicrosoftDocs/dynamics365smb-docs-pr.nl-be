@@ -11,7 +11,7 @@ ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# <a name="make-payments-with-the-amc-banking--fundamentals-extension-or-sepa-credit-transfer" />Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer" />Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht
 
 U kunt op de pagina **Betalingsdagboek** betalingen naar uw leveranciers verwerken door samen met de betalingsgegevens van de dagboekregels een bestand te exporteren. Vervolgens kunt u het bestand uploaden naar uw elektronische banksite waar de gerelateerde overboekingen worden verwerkt. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt de indeling voor SEPA-kredietoverboekingen, maar in uw land of regio kunnen andere indelingen voor elektronische betalingen beschikbaar zijn.
 
@@ -23,7 +23,7 @@ U kunt op de pagina **Betalingsdagboek** betalingen naar uw leveranciers verwerk
 > [!NOTE]  
 > Wanneer u hebt gecontroleerd dat de betalingen zijn verwerkt door de bank, kunt u doorgaan met het boeken van de betalingsdagboekregels.  
 
-## <a name="setting-up-the-amc-banking--fundamentals-extension" />De extensie AMC Banking 365 Fundamentals instellen
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension" />De extensie AMC Banking 365 Fundamentals instellen
 
 Activeer de extensie AMC Banking 365 Fundamentals om eventuele bankafschriften te laten converteren in een indeling die u kunt importeren of om de geëxporteerde betalingsbestanden te laten converteren naar de indeling die uw bank vereist. Zie voor meer informatie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md).
 

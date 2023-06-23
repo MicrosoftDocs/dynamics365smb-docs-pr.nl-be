@@ -37,7 +37,7 @@ Wijs desgewenst betalingsvoorwaarden toe aan uw betalingsmethode. Zie voor meer 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klant** of **Leverancier** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het veld **Betalingswijze** de methode die standaard moet worden gebruikt voor de klant of leverancier.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

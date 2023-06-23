@@ -16,7 +16,7 @@ Wanneer u een pagina sluit nadat u een dimensieset hebt bewerkt, evalueert [!INC
 ## <a name="building-search-tree" />Zoekactiestructuur opzetten
  Tabel 481 **Boomstructuurpunt dimensieset** wordt gebruikt wanneer [!INCLUDE[prod_short](includes/prod_short.md)] evalueert of een set dimensies al bestaat in tabel 480 **Dimensiesetpost**. De evaluatie wordt uitgevoerd doordat de zoekstructuur recursief wordt doorlopen vanaf het hoogste niveau met nummer 0. Hoogste niveau 0 staat voor een dimensieset zonder dimensiesetposten. De onderliggende elementen van deze dimensieset vertegenwoordigen dimensiesets met slechts één dimensiesetpost. De onderliggende elementen van deze dimensiesets vertegenwoordigen dimensiesets met twee onderliggende elementen, enzovoort.  
 
-### <a name="example-" />Voorbeeld 1
+### <a name="example-1" />Voorbeeld 1
  Het volgende diagram vertegenwoordigt een zoekactiestructuur met zes dimensiesets. Alleen de onderscheidende dimensiesetpost wordt weergegeven in het diagram.  
 
  ![Voorbeeld van een dimensieboomstructuur.](media/nav2013_dimension_tree.png "Voorbeeld van een dimensieboomstructuur")  
@@ -33,7 +33,7 @@ Wanneer u een pagina sluit nadat u een dimensieset hebt bewerkt, evalueert [!INC
 |Set 5|AREA 40|  
 |Set 6|AREA 40, PROJ VW|  
 
-### <a name="example-" />Voorbeeld 2
+### <a name="example-2" />Voorbeeld 2
  Dit voorbeeld geeft aan hoe [!INCLUDE[prod_short](includes/prod_short.md)] evalueert of een dimensieset die bestaat uit de dimensiesetposten AREA 40, DEPT PROD bestaat.  
 
  Eerst werkt [!INCLUDE[prod_short](includes/prod_short.md)] ook de tabel **Boomstructuurpunt dimensieset** bij om ervoor te zorgen dat de zoekstructuur lijkt op het volgende diagram. Zodoende wordt dimensieset 7 een onderliggend niveau van dimensieset 5.  

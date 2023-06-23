@@ -199,7 +199,7 @@ Om prijzen voor meerdere artikelen bij te werken moet u een nieuwe prijslijst ma
 
 Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen. Zie [De beste prijs berekenen](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation) voor meer informatie.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

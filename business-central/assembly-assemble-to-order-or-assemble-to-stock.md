@@ -96,7 +96,7 @@ Gebaseerd op dit voorbeeld kunt u het veld **Te assembleren aantal** als volgt w
 * Het minimumaantal dat u kunt invoeren is 1. U moet ten minste één eenheid assembleren om de vier eenheden te kunnen verkopen, aangenomen dat de overige drie eenheden in voorraad beschikbaar zijn.  
 * Het maximumaantal dat u kunt invoeren is 4. Deze limiet zorgt ervoor dat u niet meer van het artikel assembleert dan u nodig hebt voor de verkoop.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

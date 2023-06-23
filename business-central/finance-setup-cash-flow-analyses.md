@@ -140,7 +140,7 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 7. Vouw het sneltabblad **Azure AI** uit en vul vervolgens de velden in, inclusief de API-URL en API-sleutel die zijn geleverd door Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Kies in het rolcentrum Accountant de actie **Prognose herberekenen** onder het diagram **Cashflowprognose**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics--business-centralindex" /><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" /><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" /><a name="see-also"></a>Zie ook
 

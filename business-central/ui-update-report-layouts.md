@@ -58,7 +58,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
 Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
  [Rapportlay-outs beheren](ui-manage-report-layouts.md)  

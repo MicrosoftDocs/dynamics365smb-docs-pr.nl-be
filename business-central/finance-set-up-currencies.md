@@ -111,7 +111,7 @@ U kunt een valutacode voor een dagboekregel invoeren en de regel naar een grootb
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

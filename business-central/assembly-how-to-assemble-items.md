@@ -61,7 +61,7 @@ Volg de stappen in deze procedure om een artikel op voorraad te assembleren. Ga 
 
 Nadat het boeken is voltooid, wordt het assemblageartikel als uitvoer geboekt naar de vestigingscode en mogelijke opslaglocatiecode die op de assemblageorder zijn gedefinieerd. De locatie voor handmatig gemaakte assemblageorders kan worden gekopieerd van de instelling **Standaard locatie voor Orders**. Voor assembleren-op-order kan de vestigingscode van de verkooporderregel worden gekopieerd.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

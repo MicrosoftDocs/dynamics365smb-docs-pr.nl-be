@@ -66,7 +66,7 @@ Het verschil is wanneer u meerdere tenants hebt. In tegenstelling tot [!INCLUDE[
 > [!IMPORTANT]
 > Als u Business Central 2021 releasewave 1 (versie 18) of eerder gebruikt, kunt u de app niet installeren zoals beschreven in dit artikel. Installeer in plaats daarvan de app vanuit de [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Voor meer informatie en hulp bij het installeren van deze verouderde app raadpleegt u [De Business Central-app voorbereiden en installeren](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

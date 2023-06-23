@@ -140,7 +140,7 @@ Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld *
 
 Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

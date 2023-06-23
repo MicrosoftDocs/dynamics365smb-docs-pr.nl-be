@@ -45,7 +45,7 @@ In update 15.3 en nieuwer zijn MICR-lettertypen (Magnetic Ink Character Recognit
 > [!NOTE]
 > Om veiligheids- en juridische redenen kunt u geen aangepaste lettertypen uploaden naar de [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving.
 
-### <a name="micr-e-b-specifications" />MICR E-13B-specificaties
+### <a name="micr-e-13b-specifications" />MICR E-13B-specificaties
 
 Hieronder volgt een samenvatting van de specificaties voor de MICR E-13B-lettertypen die nuttig kunnen zijn bij het kalibreren van lettertypen voor cheque-indelingen met specifieke MICR-printers.
 
@@ -57,7 +57,7 @@ Hieronder volgt een samenvatting van de specificaties voor de MICR E-13B-lettert
 
 De volledige specificatie van MICR E-13B-lettertypen vindt u in de documentatie van de leverancier: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />MICR CMC-7-specificaties
+### <a name="micr-cmc-7-specifications" />MICR CMC-7-specificaties
 
 De volgende CMC-7-lettertypen zijn beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)] online:
 

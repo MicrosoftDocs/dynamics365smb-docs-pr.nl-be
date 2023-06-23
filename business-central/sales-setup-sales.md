@@ -33,7 +33,7 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 |Informatie invoeren over de verschillende transporteurs die u gebruikt, met een koppeling naar hun service voor het traceren van pakketten.|[Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 [Verkoop](sales-manage-sales.md)  

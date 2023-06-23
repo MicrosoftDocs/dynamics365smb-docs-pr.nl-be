@@ -64,15 +64,15 @@ In het volgende diagram worden de inkomende magazijnstromen aangegeven op docume
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="De inkomende basisstroom in magazijn.":::
 
-### <a name="-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1. Een brondocument vrijgeven om een aanvraag te maken van een voorraadopslag
+### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1. Een brondocument vrijgeven om een aanvraag te maken van een voorraadopslag
 
 Wanneer u artikelen ontvangt, geeft u het brondocument vrij, zoals een inkooporder of een inkomende transferorder. Door het document vrij te geven worden de artikelen beschikbaar om te worden opgeslagen. U kunt ook via pushen voorraadopslagdocumenten voor afzonderlijke orderregels maken op basis van opgegeven opslaglocaties en te verwerken aantallen.  
 
-### <a name="-create-an-inventory-put-away" />2: Een voorraadopslag maken
+### <a name="2-create-an-inventory-put-away" />2: Een voorraadopslag maken
 
 Op de pagina **Voorraadopslag** haalt de magazijnmedewerker door middel van pulling de wachtende brondocumentregels op, op basis van inkomende magazijnverzoeken. Op een push-manier kunt u ook voorraadopslagregels maken wanneer u het brondocument maakt.  
 
-### <a name="-post-an-inventory-put-away" />3: Een voorraadopslag boeken
+### <a name="3-post-an-inventory-put-away" />3: Een voorraadopslag boeken
 
 Op elke regel voor artikelen die gedeeltelijk of volledig zijn opgeslagen, vult u het veld **Aantal** in en boekt u vervolgens de voorraadopslag. Brondocumenten met betrekking tot de voorraadopslag worden geboekt als ontvangen.  
 
@@ -89,21 +89,21 @@ In het volgende diagram wordt de inkomende magazijnstroom aangegeven op document
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="De geavanceerde inkomende stroom in een magazijn":::
 
-### <a name="-release-the-source-document" />1: Het brondocument vrijgeven
+### <a name="1-release-the-source-document" />1: Het brondocument vrijgeven
 
 Wanneer u artikelen ontvangt, geeft u het brondocument vrij, zoals de inkooporder of een inkomende transferorder. Door het document vrij te geven worden de artikelen beschikbaar om te worden opgeslagen. De opslag bevat verwijzingen naar het brondocument en het nummer.
 
-### <a name="-create-a-warehouse-receipt" />2: Een magazijnontvangst maken
+### <a name="2-create-a-warehouse-receipt" />2: Een magazijnontvangst maken
 
 De brondocumentregels verschijnen op de pagina **Magazijnontvangst**. U kunt verschillende brondocumentregels combineren in één magazijnontvangstdocument. Vul het veld **Te verwerken aantal** in en selecteert de ontvangstzone en opslaglocatie, indien nodig.  
 
-### <a name="-post-the-warehouse-receipt" />3. Boek de magazijnontvangst
+### <a name="3-post-the-warehouse-receipt" />3. Boek de magazijnontvangst
 
 Boek de magazijnontvangst om positieve artikelposten te maken. Het veld **Ontvangen aantal** in het inkomende brondocument wordt bijgewerkt.  
 
 Als de schakelaar **Opslag vereist** niet is ingeschakeld op de vestigingskaart, stopt het proces hier. Anders maakt het boeken van het inkomende brondocument de artikelen beschikbaar om te worden opgeslagen. De opslag bevat verwijzingen naar het brondocument en het nummer.  
 
-### <a name="-optional-generate-put-away-worksheet-lines" />4: (optioneel) Opslagvoorstelregels genereren
+### <a name="4-optional-generate-put-away-worksheet-lines" />4: (optioneel) Opslagvoorstelregels genereren
 
 Haal magazijnopslagregels op in het **Opslagvoorstel** op basis van geboekte magazijnontvangsten of bewerkingen die output produceren. Kies de regels die u wilt opbergen en geef de volgende informatie op:
 
@@ -118,11 +118,11 @@ Wanneer alle opslagactiviteiten zijn gepland en toegewezen aan magazijnmedewerke
 > [!NOTE]  
 > Als het veld **Opslagvoorstel gebruiken** niet op de vestigingskaart is ingeschakeld, worden magazijnopslagdocumenten gemaakt die direct zijn gebaseerd op geboekte magazijnontvangsten. In dat geval is deze stap niet nodig.  
 
-### <a name="-create-a-warehouse-put-away-document" />5. Een magazijnopslagdocument maken
+### <a name="5-create-a-warehouse-put-away-document" />5. Een magazijnopslagdocument maken
 
 Maak een magazijnopslagdocument op een pull-manier, op basis van de geboekte magazijnontvangst. Of maak het magazijnopslagdocument en wijs het door pushing toe aan een magazijnmedewerker.  
 
-### <a name="-register-a-warehouse-put-away" />6: Een magazijnopslag registreren
+### <a name="6-register-a-warehouse-put-away" />6: Een magazijnopslag registreren
 
 Op elke regel voor artikelen die gedeeltelijk of volledig zijn opgeslagen, vult u het veld **Aantal** op de pagina **Magazijnopslag** in en registreert u vervolgens de magazijnopslag.  
 

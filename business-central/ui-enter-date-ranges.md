@@ -345,7 +345,7 @@ Voer een getal in om te zien welke maateenheid in een duurveld wordt gebruikt. V
 
 Als de maateenheid bijvoorbeeld uren is, wordt het getal 5 bijvoorbeeld naar 5 uur geconverteerd.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

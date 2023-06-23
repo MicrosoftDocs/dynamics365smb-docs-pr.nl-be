@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="warnings-and-error-messages-in-dynamics--business-central" />Waarschuwingen en foutmeldingen in Dynamics 365 Business Central
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central" />Waarschuwingen en foutmeldingen in Dynamics 365 Business Central
 
 Tijdens uw werkdag ziet u mogelijk meldingen in [!INCLUDE [prod_short](includes/prod_short.md)] dat er iets is misgegaan of dat het bijvoorbeeld niet mogelijk was om iets te plaatsen. In veel gevallen maakt de melding het gemakkelijk om de kwestie op te lossen of om eventuele wijzigingen ongedaan te maken. In andere gevallen beschikt u mogelijk niet over de informatie die u nodig heeft om de blokkering op te heffen. In dit artikel vindt u tips om vooruitgang te boeken.  
 

@@ -136,7 +136,7 @@ Het onderwerp bevat de volgende procedures:
     |---------------------------------|---------------------------------------|  
     |**Grootboekrekening voor niet-artikelregels**|Geeft de Grootboekrekening aan die automatisch wordt ingevoegd op inkoopregels die aan de hand van elektronische documenten worden gemaakt wanneer de inkomende documentregels geen identificeerbaar artikel bevatten. Elke inkomende documentregel die geen GTIN of artikelnummer van de leverancier heeft, wordt geconverteerd naar een inkoopregel van het soort **Grootboekrekening** en het veld **Nr.** op de inkoopregel bevat de rekening die u selecteert in het veld **Grootboekrekening voor niet-artikelregels**.<br /><br /> Als u niets invult in het veld **Grootboekrekening voor niet-artikelregels** en het inkomende document regels heeft zonder identificeerbare artikelen, wordt het inkoopdocument niet gemaakt. In een foutbericht krijgt u de instructie om het veld **Grootboekrekening voor niet-artikelregels** in te vullen voordat u de taak kunt voltooien.|  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)   

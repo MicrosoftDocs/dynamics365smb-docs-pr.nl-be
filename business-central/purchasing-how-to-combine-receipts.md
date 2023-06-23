@@ -42,7 +42,7 @@ U kunt de afzonderlijke orders ook handmatig verwijderen.
 
 Herhaal stap 1 t/m 3 voor alle andere betrokken documenten, zoals inkoopraamcontracten.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

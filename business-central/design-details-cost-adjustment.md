@@ -90,14 +90,14 @@ Wanneer u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert
 
 In het volgende voorbeeld wordt getoond dat u een aangeschaft artikel boekt als ontvangen en gefactureerd op 01-01-20. U boekt het verkochte artikel later als verzonden en gefactureerd op 15-01-20. Vervolgens voert u de batchverwerkingen **Kostprijs herwaarderen - Artikelposten** en **Voorraadwaarde boeken** uit. De volgende posten worden gemaakt.  
 
-#### <a name="value-entries-" />Waardeposten (1)
+#### <a name="value-entries-1" />Waardeposten (1)
 
 |Boekingsdatum|Artikelboekingssoort|Tot. werk. kosten|Vrd.-waarde geboekt|Geboekt aantal|Volgnummer|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Inkoop|10.00|10.00|1|1|  
 |15-01-20|Verkoop|-10,00|-10,00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relatieposten in het grootboek - tabel Artikelpostrelatie (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" />Relatieposten in het grootboek - tabel Artikelpostrelatie (1)
 
 |Grootboekpostnr.|Waardepostnr.|Grootboekjournaalnr.|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ In het volgende voorbeeld wordt getoond dat u een aangeschaft artikel boekt als 
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" />Grootboekposten (1)
+#### <a name="general-ledger-entries-1" />Grootboekposten (1)
 
 |Boekingsdatum|Grootboekrekening|Rekeningnr. (En-US demo)|Bedrag|Volgnummer|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ In het volgende voorbeeld wordt getoond dat u een aangeschaft artikel boekt als 
 
 Later boekt u een gerelateerde inkoopartikeltoeslag voor 2,00 LV, gefactureerd op 02-10-20. U voert de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit en voert vervolgens de batchverwerking **Voorraadwaarde boeken** uit. De batchverwerking voor het herwaarderen van de kosten past de kosten van de verkoop dienovereenkomstig aan met 2,00 LV en de batchverwerking **Voorraadwaarde boeken** boekt de nieuwe waardeposten in het grootboek. Dit is het resultaat.  
 
-#### <a name="value-entries-" />Waardeposten (2)
+#### <a name="value-entries-2" />Waardeposten (2)
 
 |Boekingsdatum|Artikelpostsoort|Tot. werk. kosten|Kosten geboekt naar grootboek|Geboekt aantal|Herwaardering|Volgnummer|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |10-02-20|Inkoop|2.00|2.00|0|Nee|3|  
 |15-01-20|Verkoop|-2,00|-2,00|0|Ja|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relatieposten in het grootboek - tabel Artikelpostrelatie (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" />Relatieposten in het grootboek - tabel Artikelpostrelatie (2)
 
 |Grootboekpostnr.|Waardepostnr.|Grootboekjournaalnr.|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Later boekt u een gerelateerde inkoopartikeltoeslag voor 2,00 LV, gefactureerd o
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" />Grootboekposten (2)
+#### <a name="general-ledger-entries-2" />Grootboekposten (2)
 
 |Boekingsdatum|Grootboekrekening|Rekeningnr. (En-US demo)|Bedrag|Volgnummer|  
 |------------|-----------|------------------------|------|---------|  

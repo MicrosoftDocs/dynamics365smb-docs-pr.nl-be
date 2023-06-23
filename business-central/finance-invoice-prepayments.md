@@ -29,7 +29,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Een order te maken, vooruitbetalingsbedragen aan te passen en een factuur te verzenden voor vooruitbetalingsbedragen.|[Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md)|  
 |Een aanvullende vooruitbetalingsfactuur te verzenden, voor aanvullende artikelen of voor een aanvullende borgsom op de oorspronkelijke order, of om een creditnota voor een vooruitbetaling te verzenden.|[Vooruitbetalingen storneren](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

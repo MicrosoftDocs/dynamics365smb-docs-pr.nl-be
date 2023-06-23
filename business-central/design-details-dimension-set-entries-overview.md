@@ -33,7 +33,7 @@ Wanneer u een nieuwe dagboekregel, documentkop of documentregel maakt, kunt u ee
 
 Wanneer u de pagina **Dimensiesetposten bewerken** bewerkt en sluit, wordt gecontroleerd of de combinatie van dimensiewaarden als een dimensieset in de tabel voorkomt. Als de combinatie in de tabel voorkomt, wordt de overeenkomende dimensieset-id toegewezen aan de dagboekregel, documentkop of documentregel. Anders wordt een nieuwe dimensieset toegevoegd aan de tabel en wordt de nieuwe dimensieset-id toegewezen aan de dagboekregel, documentkop of documentregel.
 
-## <a name="codeunit--dimension-management" />Codeunit 408 Dimensiebeheer
+## <a name="codeunit-408-dimension-management" />Codeunit 408 Dimensiebeheer
 Codeunit 408, Dimensiebeheer, is een functiebibliotheek die veel voorkomende taken afhandelt die verband houden met dimensies, zoals kopiëren van de ene tabel naar de andere of van het ene document naar het andere.
 
 ## <a name="performance-improvement" />Prestatieverbetering

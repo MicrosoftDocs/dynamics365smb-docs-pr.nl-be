@@ -62,7 +62,7 @@ Elke conditie in de tabel Rentefactuurcondities is bovendien gekoppeld aan de su
 |%8|Inhoud van het veld **Valutacode** in de rentefactuurkoptekst|  
 |%9|Inhoud van het veld **Boekingsdatum** in de rentefactuurkoptekst|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-memos-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/send-memos-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessend-memos-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

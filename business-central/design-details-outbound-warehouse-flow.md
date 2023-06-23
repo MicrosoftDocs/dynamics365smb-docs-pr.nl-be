@@ -63,15 +63,15 @@ In het volgende diagram worden de uitgaande magazijnprocessen aangegeven voor ve
 
 :::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Toont de stappen in een standaard uitgaande stroom in een magazijn.":::
 
-### <a name="-release-a-source-document" />1: Een brondocument vrijgeven
+### <a name="1-release-a-source-document" />1: Een brondocument vrijgeven
 
 Wanneer u de actie **Vrijgeven** gebruikt voor een brondocument, zoals een verkoop- of transferorder, zijn de artikelen in het document klaar om te worden verwerkt in het magazijn. Bijvoorbeeld gepickt en in de op het document aangegeven opslaglocatie opgeslagen. Of u maakt door pushing voorraadpickdocumenten voor afzonderlijke orderregels, op basis van te verwerken opgegeven opslaglocaties en aantallen.  
 
-### <a name="-create-an-inventory-pick" />2: Een voorraadpick maken
+### <a name="2-create-an-inventory-pick" />2: Een voorraadpick maken
 
 Op de pagina **Voorraadpick** haalt de magazijnmedewerker op pull-manier de brondocumentregels op. De voorraadpickregels kunnen ook al door pushing zijn gemaakt door de gebruiker die verantwoordelijk is voor het brondocument.  
 
-### <a name="-post-an-inventory-pick" />3: Een voorraadpick boeken
+### <a name="3-post-an-inventory-pick" />3: Een voorraadpick boeken
 
 Op elke regel voor artikelen die gedeeltelijk of volledig zijn gepickt of verplaatst, vult u het veld **Aantal** in en boekt u vervolgens de voorraadpick. Brondocumenten met betrekking tot de voorraadpick worden geboekt als verzonden of verbruikt.  
 
@@ -83,28 +83,28 @@ In het volgende diagram worden de uitgaande magazijnprocessen aangegeven voor ve
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Toont de stappen in een geavanceerde uitgaande magazijnstroom.":::
 
-### <a name="-release-a-source-document" />1: Een brondocument vrijgeven
+### <a name="1-release-a-source-document" />1: Een brondocument vrijgeven
 
 Het vrijgeven van een brondocument in geavanceerde configuraties doet hetzelfde als voor basisconfiguraties. De artikelen komen beschikbaar voor verwerking in het magazijn. Ze kunnen bijvoorbeeld worden opgenomen in een verzending.  
 
-### <a name="-create-a-warehouse-shipment" />2: Een magazijnverzending maken
+### <a name="2-create-a-warehouse-shipment" />2: Een magazijnverzending maken
 
 De regels van de brondocumenten verschijnen op de pagina **Magazijnverzending**. U kunt regels combineren uit verschillende brondocumenten in één magazijnverzending.  
 
-### <a name="-create-a-warehouse-pick" />3: Maak een magazijnpick
+### <a name="3-create-a-warehouse-pick" />3: Maak een magazijnpick
 
 Maak op de pagina **Magazijnverzending** magazijnpickactiviteiten voor magazijnverzendingen op een van de volgende twee manieren:
 
 - Op een push-manier, waarbij u de actie **Pick maken** gebruikt. Selecteer de te picken regels en bereidt de picks voor door bijvoorbeeld op te geven uit welke opslaglocaties moet worden gepickt en in welke moet worden opgeslagen en hoeveel eenheden moeten worden verwerkt. De opslaglocaties kunnen vooraf worden gedefinieerd voor de magazijnlocatie of resource.
 - Op een pull-manier, waarbij u de actie **Vrijgeven** gebruikt. Magazijnmedewerkers gebruiken op de pagina **Pickvoorstel** de actie **Magazijndocumenten ophalen** om hun toegewezen picks te krijgen. Wanneer de magazijnpicks volledig zijn geregistreerd, worden de regels in het venster **Pickvoorstel** verwijderd.
 
-### <a name="-register-a-warehouse-pick" />4: Een magazijnpick registreren
+### <a name="4-register-a-warehouse-pick" />4: Een magazijnpick registreren
 
 Op de pagina **Magazijnpick** vult een magazijnmedewerker het veld **Aantal** in voor elke regel die deze volledig of gedeeltelijk heeft gepickt en registreert de medewerker vervolgens de pick.
 
 Magazijnposten worden gemaakt en de magazijnpickregels worden verwijderd, als het hele aantal is gepickt. Het magazijnpickdocument blijft geopend totdat het totale aantal van de magazijnverzending is geregistreerd. Het veld **Gepickt aantal** op de magazijnverzendregels wordt dan overeenkomstig bijgewerkt.  
 
-### <a name="-post-the-warehouse-shipment" />5: De magazijnverzending boeken
+### <a name="5-post-the-warehouse-shipment" />5: De magazijnverzending boeken
 
 Wanneer alle artikelen in het magazijnverzendingsdocument zijn geregistreerd als gepickt, boekt de magazijnmedewerker de verzending. Door te boeken worden de artikelposten bijgewerkt om de vermindering van de voorraad weer te geven. Het veld **Verzonden aantal** in het uitgaande brondocument wordt bijvoorbeeld bijgewerkt.  
 

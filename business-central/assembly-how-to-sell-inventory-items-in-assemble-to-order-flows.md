@@ -47,7 +47,7 @@ Vervang in deze procedure de aantallen voor assembleren op basis van orders met 
 > [!CAUTION]  
 > Het veld **Opslaglocatie** in de verkooporder kan de waarde bevatten uit het veld **Opslaglocatiecode assembleren-op-order verzending** of **Opslagloc.code Vanuit-assembl.** op de locatiekaart. In dat geval is het veld **Opslaglocatie** op de verkooporderregel mogelijk onjuist voor deze combinatie van hoeveelheden van assembleren-naar-order en assembleren-naar-voorraad. Het is verstandig om het veld **Opslaglocatie** te bekijken en te controleren of de opslaglocatie voor alle hoeveelheden werkt. U kunt ook twee verschillende hoeveelheden invoeren op aparte verkooporderregels.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

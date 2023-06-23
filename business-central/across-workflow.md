@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics--business-central" />Werkstromen in Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central" />Werkstromen in Dynamics 365 Business Central
 
 U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatisch boeken, kunnen als stappen in werkstromen worden opgenomen. Systeemtaken kunnen worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.
 

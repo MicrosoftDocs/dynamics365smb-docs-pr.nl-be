@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="business-central-access-with-microsoft--licenses" />Business Central-toegang met Microsoft 365-licenties
+# <a name="business-central-access-with-microsoft-365-licenses" />Business Central-toegang met Microsoft 365-licenties
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-gebruikers krijgen een Dynamics 365 Business Central-licentie waarmee ze hun bedrijfsgegevens kunnen bekijken, wijzigen en gebruiken vanuit elke gebruikersinterface. Voor alle andere medewerkers in de organisatie die slechts af en toe gegevens hoeven te bekijken, biedt Business Central toegang via Microsoft 365.  
 
 Wanneer een organisatie zowel een Dynamics 365 Business Central als een Microsoft 365-abonnement heeft, kunnen beheerders omgevingen configureren om toegang te verlenen met Microsoft 365-licenties, en precies kiezen tot welke tabellen en andere objecten deze categorie van gebruikers toegang krijgt. Indien geconfigureerd, kunnen medewerkers met een Microsoft 365 -licentie maar geen [!INCLUDE [prod_short](includes/prod_short.md)]-licentie [!INCLUDE [prod_short](includes/prod_short.md)]-records bekijken die met hen zijn gedeeld in Microsoft Teams-chats en kanalen.
 
-## <a name="why-enable-access-with-microsoft--licenses" />Waarom toegang met Microsoft 365-licenties inschakelen
+## <a name="why-enable-access-with-microsoft-365-licenses" />Waarom toegang met Microsoft 365-licenties inschakelen
 
 - Ontgrendel stamgegevens waartoe elke medewerker in de hele organisatie toegang zou moeten hebben.
 

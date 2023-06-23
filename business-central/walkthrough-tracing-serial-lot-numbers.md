@@ -282,7 +282,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
  Op de pagina **Artikeltracering** heeft de kwaliteitscontroleur gezien dat LOT1 de defecte raceframes bevatte, van welke leverancier ze afkomstig zijn en in welke geboekte transactie ze zijn gebruikt. Ze moeten nu bepalen of LOT1 in open documenten voorkomt door te integreren vanuit het traceringsresultaat naar de pagina **Posten zoeken**, waar ze een zoekactie op alle databaserecords kunnen uitvoeren.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />Alle gevallen van LOT1 in niet-geboekte records zoeken zoals open orders
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />Alle gevallen van LOT1 in niet-geboekte records zoeken zoals open orders
 
 1.  Selecteer op de pagina **Artikeltracering** de aanwijzer in de eerste traceringsregel, de inkoopontvangst van LOT1.  
 2.  Kies de actie **Posten zoeken**.  

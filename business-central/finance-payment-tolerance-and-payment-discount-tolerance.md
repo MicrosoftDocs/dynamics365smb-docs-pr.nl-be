@@ -89,7 +89,7 @@ Betalingstolerantie wordt standaard toegestaan. Als u geen betalingstolerantie w
 > [!NOTE]  
 > Als de klant of leverancier openstaande posten heeft, moet u eerst de betalingstolerantie verwijderen voor posten die momenteel openstaan.
 
-## <a name="example----tolerance-calculations-for-a-single-document" />Voorbeeld 1 - tolerantieberekeningen voor één document
+## <a name="example-1---tolerance-calculations-for-a-single-document" />Voorbeeld 1 - tolerantieberekeningen voor één document
 
 Hieronder vindt u enkele voorbeeldscenario's waarin de verwachte tolerantieberekeningen en -boekingen in verschillende situaties worden behandeld.  
 
@@ -127,7 +127,7 @@ Scenario's met alternatief A of B vertegenwoordigen het volgende:
 
 Het bovenstaande scenario resulteert in de volgende diagrammen met betalingsbereiken:  
 
-#### <a name="-payment-date--scenarios--" />(1) Betaaldatum <=15.01.03 (scenario's 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Betaaldatum <=15.01.03 (scenario's 1-3)
 
 Restbedrag per  
 
@@ -139,7 +139,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Betaaldatum ligt tussen 16.01.03 en 20.01.03 (scenario's 4-9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9" />(2) Betaaldatum ligt tussen 16.01.03 en 20.01.03 (scenario's 4-9)
 
 Restbedrag per  
 
@@ -151,7 +151,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(3) Betaaldatum valt na 20.01.03 (scenario's 10-15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15" />(3) Betaaldatum valt na 20.01.03 (scenario's 10-15)
 
 Restbedrag per  
 
@@ -163,7 +163,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen dit bereik valt, kunnen er geen vereffeningsposten worden afgesloten, ook niet met tolerantie.  
 
-## <a name="example----tolerance-calculations-for-multiple-documents" />Voorbeeld 2 - tolerantieberekeningen voor meerdere documenten
+## <a name="example-2---tolerance-calculations-for-multiple-documents" />Voorbeeld 2 - tolerantieberekeningen voor meerdere documenten
 
 Hieronder vindt u enkele voorbeeldscenario's waarin de verwachte tolerantieberekeningen en -boekingen in verschillende situaties worden behandeld. De voorbeelden zijn beperkt tot scenario's waarbij alle posten in de vereffening worden gesloten.  
 
@@ -215,7 +215,7 @@ Scenario's met alternatief A, B, C of D vertegenwoordigen het volgende:
 
 Het bovenstaande scenario resulteert in de volgende diagrammen met betalingsbereiken:  
 
-#### <a name="-payment-date--scenarios--" />(1) Betaaldatum <=15-01-03 (scenario's 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Betaaldatum <=15-01-03 (scenario's 1-3)
 
 Restbedrag per  
 
@@ -227,7 +227,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Betaaldatum ligt tussen 16.01.03 en 17.01.03 (scenario's 4-9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9" />(2) Betaaldatum ligt tussen 16.01.03 en 17.01.03 (scenario's 4-9)
 
 Restbedrag per  
 
@@ -239,7 +239,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(3) Betaaldatum ligt tussen 18.01.03 en 20.01.03 (scenario's 10-21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21" />(3) Betaaldatum ligt tussen 18.01.03 en 20.01.03 (scenario's 10-21)
 
 Restbedrag per  
 
@@ -251,7 +251,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(4) Betaaldatum ligt tussen 21-1-2003 en 22.01.03 (scenario's 22-27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27" />(4) Betaaldatum ligt tussen 21-1-2003 en 22.01.03 (scenario's 22-27)
 
 Restbedrag per  
 
@@ -263,7 +263,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(5) Betaaldatum valt na 22.01.03 (scenario's 28-30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30" />(5) Betaaldatum valt na 22.01.03 (scenario's 28-30)
 
 Restbedrag per  
 
@@ -275,7 +275,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -49,7 +49,7 @@ Houd bij het registreren van de toepassing rekening met de volgende punten:
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version--and-later" />De OneDrive-verbinding instellen in versie 21 en later
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later" />De OneDrive-verbinding instellen in versie 21 en later
 
 Gebruik deze procedure als u Business Central 2022 releasewave 2 (versie 21) of hoger gebruikt.
 
@@ -74,7 +74,7 @@ Gebruik deze procedure als u Business Central 2022 releasewave 2 (versie 21) of 
    - Als u de geregistreerde Azure AD-app nog niet hebt ingesteld, wordt de guide **Azure Active Directory instellen** geopend.
 6. Wanneer dit is voltooid, wordt voor alle gebruikers akkoord gegaan met de privacyverklaring voor OneDrive-integratie. Als u dit wilt wijzigen zodat gebruikers zelf al dan niet akkoord moeten gaan, gaat u naar de pagina **Status van privacyverklaringen** en selecteert u **Gebruiker laten beslissen** voor de OneDrive-integratie. Gebruikers wordt vervolgens gevraagd om al dan niet akkoord te gaan met de privacyverklaring wanneer ze de OneDrive-functies voor het eerst gebruiken. Zie [Privacyverklaringen](privacy-notices-status.md) voor meer informatie.
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version--and-" />De verbinding in [!INCLUDE[prod_short](includes/prod_short.md)] instellen in versie 19 en 20
+## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />De verbinding in [!INCLUDE[prod_short](includes/prod_short.md)] instellen in versie 19 en 20
 
 Gebruik deze procedure als u Business Central 2022 releasewave 1 (versie 20) of 2021 releasewave 2 (versie 19) gebruikt.
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ Gebruik deze procedure als u Business Central 2022 releasewave 1 (versie 20) of 
 > [!IMPORTANT]
 > De pagina **Instellingen SharePoint-verbinding** wordt gebruikt om meerdere verouderde functies te configureren. De sectie **Algemeen** configureert de verbinding met OneDrive en de sectie **Gedeelde documenten** leidt bestanden om naar SharePoint. **Instellingen SharePoint-verbinding** is verouderd en wordt in de komende release verwijderd. We raden u aan de sectie **Gedeelde documenten** te gebruiken. Zie voor meer informatie [Verouderde functies in de basisapp ](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-" />Na upgrade naar versie 21
+## <a name="after-upgrade-to-version-21" />Na upgrade naar versie 21
 
 Wanneer u een upgrade uitvoert naar versie 21 of hoger, werkt de bestaande verbinding met OneDrive die is geconfigureerd op de pagina **Instellingen SharePoint-verbinding** nog steeds. Maar omdat de pagina **Instellingen SharePoint-verbinding** wordt verwijderd in versie 23, raden we u aan over te schakelen naar de nieuwe OneDrive-integratie, zoals wordt beschreven in het volgende gedeelte. Als u deze overstap nu maakt, wordt het gemakkelijker wanneer **Instellingen SharePoint-verbinding** uiteindelijk wordt verwijderd. Bovendien kunt u dan de begeleide instelling **Configuratie van OneDrive** gebruiken voor het beheren van de OneDrive-functies die toegankelijk zijn voor gebruikers.
 

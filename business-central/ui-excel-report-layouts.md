@@ -39,7 +39,7 @@ Er zijn in principe twee taken betrokken bij het instellen van een Excel-lay-out
 1. Maak het bestand met de nieuwe Excel-lay-out.
 2. Voeg de nieuwe lay-out toe aan het rapport.
 
-## <a name="task--create-the-excel-layout-file" />Taak 1: het bestand met de nieuwe Excel-lay-out maken
+## <a name="task-1-create-the-excel-layout-file" />Taak 1: het bestand met de nieuwe Excel-lay-out maken
 
 Dit zijn de drie manieren om een Excel-lay-outbestand voor een rapport te maken.
 
@@ -58,13 +58,13 @@ Volg deze stappen om een Excel-lay-out te maken vanuit een willekeurig rapport, 
 
 Als er al een Excel-lay-out voor een rapport is, kunt u de bestaande lay-out als uitgangspunt gebruiken. Er zijn twee manieren om een kopie van de lay-out te krijgen. U kunt de bestaande lay-out exporteren vanaf de pagina **Rapportlay-outs** of de lay-out downloaden vanaf de aanvraagpagina van het rapport. Met beide manieren wordt een Excel-lay-outbestand gedownload dat alle bladen van het bestaande bestand bevat. Het verschil is dat wanneer u deze downloadt vanaf de aanvraagpagina, de lay-out feitelijke gegevens zal bevatten. (De gegevens zijn niet vereist, maar helpen bij het ontwerpen van de lay-out.)
 
-#### <a name="approach--export-the-layout-from-the-report-layouts-page" />Manier 1: de lay-out vanaf de pagina **Rapportlay-outs** exporteren
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page" />Manier 1: de lay-out vanaf de pagina **Rapportlay-outs** exporteren
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Selecteer de Excel-lay-out in de lijst en kies vervolgens de actie **Lay-out exporteren** boven aan de pagina.
 3. Open het bestand in Excel, breng de wijzigingen aan en sla het bestand op.
 
-#### <a name="approach--download-the-layout-from-the-reports-request-page" />Manier 2: de lay-out vanaf de aanvraag pagina van het rapport downloaden
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page" />Manier 2: de lay-out vanaf de aanvraag pagina van het rapport downloaden
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Kies op de pagina **Rapportlay-outs** een lay-out voor het rapport en kies vervolgens de actie **Rapport uitvoeren**.
@@ -77,7 +77,7 @@ Dit is de meest geavanceerde methode om een Excel-rapportlay-out te maken. Het v
 
 ---
 
-## <a name="task--add-the-excel-layout-to-the-report" />Taak 2: de Excel-lay-out toevoegen aan het rapport
+## <a name="task-2-add-the-excel-layout-to-the-report" />Taak 2: de Excel-lay-out toevoegen aan het rapport
 
 Zodra u het Excel-lay-outbestand hebt, is de volgende taak om het toe te voegen als een nieuwe lay-out voor het rapport.
 

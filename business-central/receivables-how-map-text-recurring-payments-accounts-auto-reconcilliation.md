@@ -52,7 +52,7 @@ Om uitgaven die verband houden met vergoedingen van een specifieke bank, MyBank,
 | --- | --- | --- | --- | --- |
 | MyBank |LEEG |60400|Grootboekrekening |LEEG |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -172,7 +172,7 @@ U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaa
 > [!TIP]
 > Als u een numeriek toetsenbord gebruikt, kan de decimaaltekentoets een ander teken dan een punt (.) weergeven. Selecteer hiervoor de toetsen <kbd>Alt</kbd>+<kbd>Decimaalteken</kbd> op het numerieke toetsenbord om te wisselen naar een punt. Wanneer u terug wilt schakelen, selecteert u <kbd>Alt</kbd>+<kbd>Decimaalteken</kbd> nogmaals. Zie [Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden](ui-enter-data.md#decimal) voor meer informatie.
 
-#### <a name="-eitheror" />(&#124;) Of/of
+#### <a name="124-eitheror" />(&#124;) Of/of
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Gebruik `%myvendors` in het veld leveranciers**nr.** om alle records weer te gev
 |-----------------------|-----------------------|  
 |`%myvendors`|Leveranciers in **Mijn leveranciers** in uw rolcentrum. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -64,7 +64,7 @@ Zie [Use Designer](/dynamics365/business-central/dev-itpro/developer/devenv-incl
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

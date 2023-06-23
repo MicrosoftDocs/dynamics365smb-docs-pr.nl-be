@@ -13,7 +13,7 @@ ms.author: edupont
 # <a name="design-details-table-structure" />Ontwerpdetails: Tabelstructuur
 Om te begrijpen hoe dimensieposten worden opgeslagen en geboekt, is het belangrijk om de tabelstructuur te begrijpen.  
 
-## <a name="table--dimension-set-entry" />Tabel 480, Dimensiesetpost
+## <a name="table-480-dimension-set-entry" />Tabel 480, Dimensiesetpost
 U kunt deze tabel niet wijzigen. Nadat gegevens naar de tabel zijn geschreven, kunt u ze niet meer verwijderen of wijzigen.
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
@@ -25,7 +25,7 @@ U kunt deze tabel niet wijzigen. Nadat gegevens naar de tabel zijn geschreven, k
 |5|**Dimensienaam**|Tekst 30|CalcField. Opzoeken in tabel 348.|  
 |6|**Dimensiewaardenaam**|Tekst 30|CalcField. Opzoeken in tabel 349.|  
 
-## <a name="table--dimension-set-tree-node" />Tabel 481, Boomstructuurpunt dimensieset
+## <a name="table-481-dimension-set-tree-node" />Tabel 481, Boomstructuurpunt dimensieset
 U kunt deze tabel niet wijzigen. De tabel wordt gebruikt om te zoeken naar een dimensieset. Als de dimensieset niet wordt gevonden, wordt een nieuwe set gemaakt.  
 
 |Veldnr.|Veldnaam|Gegevenssoort|Opmerking|  
@@ -35,7 +35,7 @@ U kunt deze tabel niet wijzigen. De tabel wordt gebruikt om te zoeken naar een d
 |3|**Dimensieset-id**|Geheel getal|AutoIncrement. Gebruikt in veld 1 in tabel 480.|  
 |4|**In gebruik**|Boolean|Onwaar indien niet in gebruik.|  
 
-## <a name="table--reclas-dimension-set-buffer" />Tabel 482 Herklass. dimensiesetbuffer
+## <a name="table-482-reclas-dimension-set-buffer" />Tabel 482 Herklass. dimensiesetbuffer
 Deze tabel wordt gebruikt als u een dimensiewaardecode wijzigt, bijvoorbeeld in een artikelpost met de pagina **Artikelherindelingsdagboek**.  
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
@@ -56,7 +56,7 @@ Naast andere dimensievelden in de tabel is dit veld belangrijk:
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensieset-id**|Integer|Verwijst naar veld 1 in tabel 480.|  
 
-### <a name="table--item-journal-line" />Tabel 83, Artikeldagboekregel
+### <a name="table-83-item-journal-line" />Tabel 83, Artikeldagboekregel
 Naast andere dimensievelden in de tabel zijn deze velden belangrijk.  
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
@@ -64,7 +64,7 @@ Naast andere dimensievelden in de tabel zijn deze velden belangrijk.
 |480|**Dimensieset-id**|Geheel getal|Verwijst naar veld 1 in tabel 480.|  
 |481|**Nieuwe dimensieset-id**|Integer|Verwijst naar veld 1 in tabel 480.|  
 
-### <a name="table--dimension-value" />Tabel 349, Dimensiewaarde
+### <a name="table-349-dimension-value" />Tabel 349, Dimensiewaarde
 Naast andere dimensievelden in de tabel zijn deze velden belangrijk.  
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  

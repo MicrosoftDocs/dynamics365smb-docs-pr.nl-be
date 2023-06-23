@@ -80,7 +80,7 @@ Wanneer u zoekt naar een open lijstpagina, zoals de lijst **Verkooporders**, is 
 
 Maar wanneer u dezelfde lijstpagina opent vanaf uw startpagina, is de actie **Beheren** niet aanwezig. Kies in plaats daarvan, om een individuele verkooporder te openen, gewoon het veld **Aantal**. In deze weergave kunt u de actiebalk niet vastzetten.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

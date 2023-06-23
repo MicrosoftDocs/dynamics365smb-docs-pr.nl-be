@@ -31,7 +31,7 @@ De inkoopofferte wordt verwijderd uit de database. Een inkooporder wordt gemaakt
 > [!NOTE]
 > Het is niet mogelijk om een inkoopofferte direct om te zetten naar een inkoopfactuur, zoals bij verkoopoffertes wel mogelijk is. Voor meer informatie over het maken van een inkoopfactuur, leest u [Inkopen registreren met inkoopfacturen](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-purchase-documents-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/create-purchase-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-purchase-documents-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/create-purchase-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

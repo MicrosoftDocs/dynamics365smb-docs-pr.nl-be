@@ -220,7 +220,7 @@ De volgende procedure is gebaseerd op de pagina **Diversendagboek**, maar is van
 
 De waarden in het veld **Documentnr.** worden gewijzigd, wanneer dit is vereist, zodat het documentnummer op afzonderlijke of gegroepeerde dagboekregels in sequentiële volgorde wordt weergegeven. Nadat documenten opnieuw zijn genummerd, kunt u het dagboek boeken.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

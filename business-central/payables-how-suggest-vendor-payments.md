@@ -47,7 +47,7 @@ U kunt eventueel handmatig betalingsregels maken, waarbij de vervaldatum wordt g
 > [!NOTE]  
 >   Als de inkoopfactuur achterstallig is, wordt de boekingsdatum ingesteld op de werkdatum en wordt het lettertype op de regel rood.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -31,14 +31,14 @@ Als u het selectievakje **Alg. dagb.regels samenvatten** op de pagina **Elektron
 
 - Betalingsdagboekregels die een bericht met een standaardindeling bevatten (slagen voor de MOD97-test), waarmee **Bericht met standaardindeling** op Waar wordt ingesteld in het dagboek voor elektronisch bankieren.
 
-## <a name="example-" />Voorbeeld 1
+## <a name="example-1" />Voorbeeld 1
 
 In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. [!INCLUDE[prod_short](../../includes/prod_short.md)] maakt:  
 
 - Een gecombineerde betalingsregel in een XML-bestand met een samengevoegd betalingsbericht. Spaties zijn het scheidingsteken.  
 - Eén betalingsregel in het grootboek met een algemene beschrijving die de leveranciersnaam bevat.  
 
-## <a name="example-" />Voorbeeld 2
+## <a name="example-2" />Voorbeeld 2
 
 In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. Het selectievakje **Tekst van betaalberichten afbreken** wordt gewist en de gecombineerde SEPA- en niet-auto SEPA-betalingsregels overschrijden 140 tekens in het betalingsbericht. [!INCLUDE[prod_short](../../includes/prod_short.md)] maakt:  
 
@@ -46,7 +46,7 @@ In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dag
 
 - Eén betalingsregel in het grootboek met een algemene beschrijving die de leveranciersnaam bevat.  
 
-## <a name="example-" />Voorbeeld 3
+## <a name="example-3" />Voorbeeld 3
 
 In dit voorbeeld exporteert u betalingsregels en is het selectievakje **Alg. dagb.regels samenvatten** ingeschakeld. Het selectievakje **Tekst van betaalberichten afbreken** wordt ook ingeschakeld en de gecombineerde SEPA- en niet-SEPA betalingsregels overschrijden 140 tekens in het betalingsbericht. [!INCLUDE[prod_short](../../includes/prod_short.md)] maakt:  
 

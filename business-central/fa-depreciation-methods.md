@@ -80,7 +80,7 @@ Voor dit voorbeeld ziet de post voor vaste activa er als volgt uit:
 | 06/30/27 |Afschrijvingen |180 |-6.250,00 |6,250.00 |
 | 12/31/27 |Afschrijvingen |180 |-6.250,00 |0 |
 
-## <a name="declining-balance--depreciation" />Boekwaarde-afschrijving 1
+## <a name="declining-balance-1-depreciation" />Boekwaarde-afschrijving 1
 
 Dit is een versnelde afschrijvingsmethode waarbij het grootste gedeelte van de kostprijs van een activum wordt verdeeld over de eerste jaren van de gebruiksduur. Als u deze methode gebruikt, moet u een vast jaarpercentage invullen.  
 
@@ -92,7 +92,7 @@ De afschrijvingsbasis is de boekwaarde, verminderd met de geboekte afschrijving 
 
 De geboekte afschrijving kan posten met verschillende boekingssoorten bevatten (waardevermindering, vrij 1 en vrij 2), die zijn geboekt sinds de begindatum van het lopende boekjaar. Deze boekingssoorten worden opgenomen in het geboekte afschrijvingsbedrag als de velden **Afschrijvingssoort** en **Deel v. boekwaarde** op de pagina **VA-boekingssoortinstellingen** zijn ingeschakeld.  
 
-### <a name="example---declining-balance--depreciation" />Voorbeeld - boekwaarde-afschrijving 1 afschrijving
+### <a name="example---declining-balance-1-depreciation" />Voorbeeld - boekwaarde-afschrijving 1 afschrijving
 
 De aanschafkosten van een vast activum bedragen LV 100.000. Het veld **Boekwaarde afschr. %** is 25. De batchverwerking **Afschrijving berekenen** wordt elk half jaar uitgevoerd.  
 
@@ -122,11 +122,11 @@ Berekeningsmethode:
 
 De berekening gaat door totdat de boekwaarde gelijk is aan het maximale restbedrag na afschrijving of aan de opgegeven restwaarde.  
 
-## <a name="declining-balance--depreciation" />Boekwaarde-afschrijving 2
+## <a name="declining-balance-2-depreciation" />Boekwaarde-afschrijving 2
 
 Met de methoden Boekwaarde-afschrijving 1 en Boekwaarde-afschrijving 2 wordt voor ieder jaar hetzelfde totale afschrijvingsbedrag berekend. Als u de batchverwerking **Afschrijving berekenen** echter meer dan één keer per jaar uitvoert, zorgt de methode Boekwaarde-afschrijving 1 voor gelijke afschrijvingsbedragen per afschrijvingsperiode. De methode Boekwaarde-afschrijving 2 zorgt daarentegen voor afschrijvingsbedragen die bij iedere volgende afschrijvingsperiode lager worden.  
 
-### <a name="example---declining-balance--depreciation" />Voorbeeld: boekwaarde-afschrijving 2
+### <a name="example---declining-balance-2-depreciation" />Voorbeeld: boekwaarde-afschrijving 2
 
 De aanschafkosten van een vast activum bedragen LV 100.000. Het veld **Boekwaarde afschr. %** is 25. De batchverwerking **Afschrijving berekenen** wordt elk half jaar uitgevoerd. De VA-posten zien er als volgt uit:  
 
@@ -159,7 +159,7 @@ De afschrijvingswaarden zijn:
 | 06/30/21 |AB = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
 | 12/31/21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
 
-## <a name="dbsl-depreciation" />BW1/Lineaire afschrijving
+## <a name="db1sl-depreciation" />BW1/Lineaire afschrijving
 
 BW1/Lin is de afkorting voor deze combinatie van boekwaarde-afschrijving 1 en Lineair. De berekening wordt voortgezet totdat de boekwaarde gelijk is aan het maximale restbedrag na afschrijving of aan de opgegeven restwaarde.  
 
@@ -169,7 +169,7 @@ U kunt de boekwaarde-afschrijving met meerdere percentages berekenen.
 
 Als u deze methode gebruikt, moet u de verwachte gebruiksduur en een boekwaarde-afschrijvingspercentage invullen op de pagina **VA-afschrijvingsboeken**.  
 
-### <a name="example---db-sl-depreciation" />Voorbeeld - Boekwaarde 1/Lineaire afschrijving
+### <a name="example---db1-sl-depreciation" />Voorbeeld - Boekwaarde 1/Lineaire afschrijving
 
 De aanschafkosten van een vast activum bedragen LV 100.000. Op de pagina **VA-afschrijvingsboeken** bevat het veld **Boekwaarde afschr. %** 25, en het veld **Aantal afschr.-jaren** 8. De batchverwerking **Afschrijving berekenen** wordt elk half jaar uitgevoerd.  
 
@@ -246,7 +246,7 @@ De VA-posten zien er als volgt uit:
 | 12/31/24 |Afschrijvingen |360 |-20.000,00 |10,000.00 |
 | 12/31/25 |Afschrijvingen |180 |-10.000,00 |0.00 |
 
-## <a name="example---dbsl-depreciation-using-half-year-convention" />Voorbeeld - Boekwaarde 1/ lineaire afschrijving met gebruik van halfjaarlijkse afspraak
+## <a name="example---db1sl-depreciation-using-half-year-convention" />Voorbeeld - Boekwaarde 1/ lineaire afschrijving met gebruik van halfjaarlijkse afspraak
 
 De aanschafkosten van een vast activum bedragen LV 100.000. De **Begindatum afschr.** is 11-01-20. De verwachte levensduur is vijf jaar, dus de **Einddatum afschr.** moet 06-30-25 zijn. Het veld **Boekwaarde afschr.** op de pagina **Boekwaarde afschr. %** bevat 40. De batchverwerking **Afschrijving berekenen** wordt jaarlijks uitgevoerd. Dit voorbeeld is gebaseerd op een agendaboekjaar.  
 

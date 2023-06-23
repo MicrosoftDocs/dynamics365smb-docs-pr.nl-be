@@ -33,20 +33,20 @@ In het volgende voorbeeld wordt getoond hoe artikelposten, waardeposten en artik
 
  U boekt een inkooporder als verzonden en gefactureerd voor 10 artikelen met een directe kostprijs van LV 7 en een overheadtarief van LV 1. De boekingsdatum is 01-01-20. De volgende posten worden gemaakt.  
 
-### <a name="item-ledger-entries-" />Artikelposten (1)
+### <a name="item-ledger-entries-1" />Artikelposten (1)
 
 |Boekingsdatum|Boekingssoort|Tot. werk. kosten|Aantal|Volgnummer|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Inkoop|80,00|10|1|  
 
-### <a name="value-entries-" />Waardeposten (1)
+### <a name="value-entries-1" />Waardeposten (1)
 
 |Boekingsdatum|Boekingssoort|Tot. werk. kosten|Artikelpostnr.|Volgnummer|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Directe kosten|70.00|1|1|  
 |01-01-20|Indirecte kosten|10.00|1|2|  
 
-### <a name="item-application-entries-" />Artikelvereffeningsposten (1)
+### <a name="item-application-entries-1" />Artikelvereffeningsposten (1)
 
 |Volgnummer|Artikelpostnr.|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ In het volgende voorbeeld wordt getoond hoe artikelposten, waardeposten en artik
 
  Vervolgens boekt u een verkoop van 10 eenheden van het artikel met een boekingsdatum van 01-15-20.  
 
-### <a name="item-ledger-entries-" />Artikelposten (2)
+### <a name="item-ledger-entries-2" />Artikelposten (2)
 
 |Boekingsdatum|Boekingssoort|Tot. werk. kosten|Aantal|Volgnummer|  
 |------------|----------|--------------------|--------|---------|  
 |15-01-20|Verkoop|-80,00|-10|2|  
 
-### <a name="value-entries-" />Waardeposten (2)
+### <a name="value-entries-2" />Waardeposten (2)
 
 |Boekingsdatum|Boekingssoort|Tot. werk. kosten|Artikelpostnr.|Volgnummer|  
 |------------|----------|--------------------|---------------------|---------|  
 |15-01-20|Directe kosten|-80,00|2|3|  
 
-### <a name="item-application-entries-" />Artikelvereffeningsposten (2)
+### <a name="item-application-entries-2" />Artikelvereffeningsposten (2)
 
 |Volgnummer|Artikelpostnr.|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ Aan het eind van de boekhoudperiode voert u de batchverwerking **Voorraadwaarde 
 
  De volgende tabellen tonen het resultaat van de reconciliatie van de voorraadtransacties in dit voorbeeld met het grootboek.  
 
-### <a name="value-entries-" />Waardeposten (3)
+### <a name="value-entries-3" />Waardeposten (3)
 
 |Boekingsdatum|Boekingssoort|Tot. werk. kosten|Kosten geboekt naar grootboek|Artikelpostnr.|Volgnummer|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ Aan het eind van de boekhoudperiode voert u de batchverwerking **Voorraadwaarde 
 |01-01-20|Indirecte kosten|10.00|10.00|1|2|  
 |15-01-20|Directe kosten|-80,00|-80,00|2|3|  
 
-### <a name="general-ledger-entries-" />Grootboekposten (3)
+### <a name="general-ledger-entries-3" />Grootboekposten (3)
 
 |Boekingsdatum|Grootboekrekening|Rekeningnr. (En-US demo)|Bedrag|Volgnummer|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ Aan het eind van de boekhoudperiode voert u de batchverwerking **Voorraadwaarde 
 
  De relatie tussen waardeposten en grootboekposten wordt opgeslagen in de tabel **Relatie GB-artikeljournaal**.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relatieposten in het grootboek - tabel Artikelpostrelatie (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3" />Relatieposten in het grootboek - tabel Artikelpostrelatie (3)
 
 |Grootboekpostnr.|Waardepostnr.|Grootboekjournaalnr.|  
 |-------------|---------------|----------------|  

@@ -58,7 +58,7 @@ U kunt de datumformule op regels handmatig opgeven. Anders gebruikt [!INCLUDE[pr
 3. SKU
 4. Leverancierskaart
 
-## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

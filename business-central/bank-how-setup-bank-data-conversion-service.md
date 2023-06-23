@@ -11,7 +11,7 @@ ms.search.form: '304, 20106, 20105, 20100, 20101, 20107, 20109'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-the-amc-banking--fundamentals-extension" />De extensie AMC Banking 365 Fundamentals instellen
+# <a name="set-up-the-amc-banking-365-fundamentals-extension" />De extensie AMC Banking 365 Fundamentals instellen
 Een algemene provider van services om betalingsgegevens naar elke willekeurige gegevensindeling te converteren die uw bank vereist, is verbonden en gereed om te worden ingeschakeld in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit wordt in [!INCLUDE[prod_short](includes/prod_short.md)] de extensie AMC Banking 365 Fundamentals genoemd.
 
 U kunt betalingsregels uit de pagina **Betalingsdagboek** exporteren naar een bestand of een gegevensstroom die u vervolgens uploadt naar uw bank voor automatische verwerking, zodat u geen afzonderlijke elektronische betalingen hoeft te doen. Zie voor meer informatie [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
@@ -25,7 +25,7 @@ Als u bankbestanden wilt importeren of exporteren, moet u uw eigen bankrekening 
 > [!NOTE]  
 > De extensie AMC Banking 365 Fundamentals kan een limiet stellen aan het aantal regels dat in één bestand kan worden geëxporteerd. Er wordt een foutbericht gestuurd als de limiet wordt overschreden. U wordt aangeraden alleen te werken met bankafschriftbestanden die maximaal 1000 regels bevatten omdat anders de verwerkingstijd in de extensie AMC Banking 365 Fundamentals beduidend kan toenemen.
 
-## <a name="to-sign-your-company-up-for-the-amc-banking--fundamentals-extension" />Uw bedrijf aanmelden bij de extensie AMC Banking 365 Fundamentals
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension" />Uw bedrijf aanmelden bij de extensie AMC Banking 365 Fundamentals
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling gegevensconv.service bank** in en kies vervolgens de gerelateerde koppeling.  
 2. De pagina **Instelling gegevensconv.service bank** wordt geopend met drie vooraf ingevulde velden met relevante URL's van de provider van de extensie AMC Banking 365 Fundamentals.
 

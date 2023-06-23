@@ -45,7 +45,7 @@ We hebben het voor u eenvoudig gemaakt om uw externe accountant uit te nodigen. 
 >
 > Deze taak vereist toegang tot het beheren van gebruikers en licenties in Azure Active Directory. De gebruiker die deze uitnodiging verzendt, moet de rol **Globale beheerder** of **Gebruikersbeheer** in het Microsoft 365-beheercentrum toegewezen krijgen. Zie voor meer informatie [Over beheerdersrollen](/microsoft-365/admin/add-users/about-admin-roles) in de Microsoft 365-beheerdersinhoud.  
 
-### <a name="adding-your-accountant-to-your-microsoft--in-the-azure-portal" />Uw accountant toevoegen aan uw Microsoft 365 via de Azure Portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal" />Uw accountant toevoegen aan uw Microsoft 365 via de Azure Portal
 
 Als uw beheerder of wederverkoper geen gebruik wenst te maken van de begeleiding **Externe accountant uitnodigen**, kunnen ze een externe gebruiker toevoegen aan de Azure Portal en aan deze gebruiker de licentie *Externe accountant* toewijzen. Zie [Snelle start: gastgebruikers toevoegen aan uw directory in de Azure-portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal) voor meer informatie.
 

@@ -27,7 +27,7 @@ U kunt alle relevante gegevens invoeren op de pagina **Bedrijfsgegevens** wannee
 
 Als u klaar bent met het invullen van de gegevens, kunt u de pagina sluiten.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

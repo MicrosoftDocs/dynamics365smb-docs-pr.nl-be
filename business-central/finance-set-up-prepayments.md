@@ -100,7 +100,7 @@ U kunt tijd besparen door een taakwachtrij-item in te stellen dat automatisch ve
 3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.
 4. Stel het taakwachtrij-item **Verkopen wachtend op vooruitbetaling bijwerken** bijvoorbeeld in door de instellingen op het tabblad **Herhaling** te gebruiken om te plannen hoe vaak u het item wilt uitvoeren. Zie voor meer informatie [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -84,7 +84,7 @@ Voor elk afschrijvingsboek definieert u een standaardinstelling van sjablonen en
 3. Als u voor elke gebruiker een standaardinstelling wilt gebruiken, kiest u het veld **Gebruikers-id** om een selectie te maken op de pagina **Gebruikers**.  
 4. In de andere velden selecteert u de dagboeksjabloon of dagboekbatch die standaard moet worden gebruikt.  
 
-## <a name="fiscal-year--days-field-depreciation" />Afschrijving met Veld Boekjaar (365 dagen)
+## <a name="fiscal-year-365-days-field-depreciation" />Afschrijving met Veld Boekjaar (365 dagen)
 
 Bij het berekenen van de afschrijvingen wordt in de batchverwerking Afschrijving berekenen gewoonlijk een standaardjaar van 360 gebruikt waarbij elk van de 12 maanden 30 dagen telt.
 

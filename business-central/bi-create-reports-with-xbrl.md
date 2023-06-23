@@ -110,7 +110,7 @@ Als een taxonomie verandert, moet u de huidige taxonomie overeenkomstig bijwerke
 6. U importeert de linkbase door de actie **Importeren** te kiezen.  
 7. Kies **Ja** om de linkbase op het schema toe te passen.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics--business-centralindex" />Zie gerelateerde training op [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex" />Zie gerelateerde training op [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Zie ook
 

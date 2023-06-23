@@ -16,7 +16,7 @@ Dit artikel beantwoordt een lijst met veelgestelde vragen over de Shopify-connec
 
 Shopify is op abonnementen gebaseerde applicatie waarmee iedereen een online winkel kan opzetten en zijn of haar producten kan verkopen. Het Shopify-platform biedt online retailers een reeks diensten voor betalingen, marketing, verzending en klantbetrokkenheid.
 
-## <a name="what-is-the-microsoft-dynamics--business-central-shopify-connector" />Wat is de Microsoft Dynamics 365 Business Central Shopify-connector?
+## <a name="what-is-the-microsoft-dynamics-365-business-central-shopify-connector" />Wat is de Microsoft Dynamics 365 Business Central Shopify-connector?
 
 Met de Shopify-connector kunnen bedrijven hun Shopify winkel (of winkels) aan [!INCLUDE[prod_short](../includes/prod_short.md)] koppelen om de bedrijfsproductiviteit te maximaliseren. Met de Shopify-connector kunnen ze inzichten uit hun bedrijf en hun online Shopify-winkel als één eenheid bekijken en beheren.
 

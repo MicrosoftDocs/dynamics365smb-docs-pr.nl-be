@@ -56,7 +56,7 @@ De volgende procedure is gebaseerd op een klantenkaart. De stappen zijn voor lev
 > [!NOTE]
 > Voor contacten kunt u functionaliteit gebruiken om te zoeken naar dubbele contacten voordat u de pagina **Dubbele records samenvoegen** gebruikt. Zie voor meer informatie [Zoeken naar dubbele contacten](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

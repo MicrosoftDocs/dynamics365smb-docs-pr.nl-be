@@ -138,7 +138,7 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
 
  In de planningsregel voor artikel 1300, kettingmontage, worden tien stuks voorgesteld. Dit wijkt van de vijf stuks af die we verwachten nodig te hebben om de verkooporder te voldoen. Ga door om de ordertraceringsposten weer te geven.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Ordertraceringposten voor artikel 1300 weergeven
+### <a name="to-view-order-tracking-entries-for-item-1300" />Ordertraceringposten voor artikel 1300 weergeven
 
 1.  Selecteer de planningsregel voor artikel 1300 en kies de actie **Ordertracering**.  
 
@@ -234,7 +234,7 @@ Termen zoals 'planningsvoorstel uitvoeren' en 'MRP uitvoeren' verwijzen naar het
 
  Verschillende planningsregels worden eenvoudig vermenigvuldigd met drie om 15 toerfietsen te bieden in plaats van 5, en de vervaldatums worden terug in de tijd verplaatst om de verhoogde aantallen te bieden op de verzenddatum van de verkooporder aan de Cannon Group. Voor deze planningregels kunnen alle aantallen worden getraceerd. De resterende planningsregels worden verhoogd met tien stuks bovenop en daarnaast worden de vervaldatums verplaatst. Voor deze planningregels is een deel van de aantallen niet-getraceerd als gevolg van verschillende planningsparameters. Ga door om enkele van deze ordertraceringsposten weer te geven.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Ordertraceringposten voor artikel 1250 weergeven
+### <a name="to-view-order-tracking-entries-for-item-1250" />Ordertraceringposten voor artikel 1250 weergeven
 
 1.  Selecteer de planningsregel voor artikel 1250 en kies de actie **Ordertracering**.  
 

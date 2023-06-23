@@ -60,7 +60,7 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 > [!NOTE]  
 > Artikelvervangingen leiden er niet automatisch toe dat een artikel wordt vervangen door een ander artikel, bijvoorbeeld bij het maken van een verkooporder of in een stuklijst. In plaats daarvan wordt u erop gewezen dat er een vervanging beschikbaar is.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

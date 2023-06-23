@@ -159,7 +159,7 @@ Zie voor details over het plannen met locaties en transfers [Planning met of zon
 > [!TIP]
 > Wanneer u aan het werk bent op de pagina's **Inkoopvoorstel** of **Planningsvoorstel**, kunt u de regels ordenen door te sorteren op een kolomnaam. Dit is vooral handig op de pagina Planningsvoorstel omdat deze kunnen worden gebruikt voor productieorders op meerdere niveaus. Standaard worden regels gesorteerd op het veld **Artikelnr.** Als u regels wilt groeperen voor een order met meerdere niveaus, sorteert u op het veld **Ref.-ordernr.**   Ook de velden **MPS-order** en **Planningsniveau** kunnen helpen om de hiërarchie van de regels weer te geven.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

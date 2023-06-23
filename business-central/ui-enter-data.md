@@ -275,7 +275,7 @@ Stel dat u een numeriek toetsenbord gebruikt dat een punt (.) als <kbd>decimaalt
 > [!TIP]
 > Het kan voorkomen dat u het decimaalteken wilt gebruiken om een punt (.) in te voeren. Stel dat u bijvoorbeeld een datumbereik invoert in een filter, zoals `01/01/2022..04/01/2022`, of iets dat een punt vereist. Selecteer in dit geval de toetsen <kbd>Alt</kbd>+<kbd>Decimaalteken</kbd> op het numerieke toetsenbord. Deze toetsencombinatie wisselt voor het decimaalteken tussen een punt en het decimaalteken zoals bepaald door de instelling **Regio**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

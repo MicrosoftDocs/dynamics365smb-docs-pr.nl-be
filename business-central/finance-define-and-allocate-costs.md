@@ -70,7 +70,7 @@ De volgende tabel laat zien welke filters mogelijk zijn voor de verschillende to
 |Artikelen verkocht (bedrag)|Artikelnr.|Ja|Ja|Ja|Voorraadboekingsgroep|  
 |Artikelen ingekocht (bedrag)|Artikelnr.|Ja|Ja|Ja|Voorraadboekingsgroep|
 
-## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Scenario 1: statische toewijzingen op basis van de verdeelsleutel definiëren
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio" />Scenario 1: statische toewijzingen op basis van de verdeelsleutel definiëren
 
 De methode voor statische toewijzingen baseert zich op een vaste waarde voor bijvoorbeeld gebruikte vierkante meters of een vastgestelde verdeelsleutel, zoals 5:2:4.  
 
@@ -110,7 +110,7 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] berekent automatisch het veld **Percentage** met een percentage dat wordt bepaald door alle drie de verdeelsleutels die zijn ingevoerd in het veld **Deel** voor alle drie de regels.
 
-## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Scenario 2: Dynamische toewijzingen op basis van de verkochte artikelen definiëren
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold" />Scenario 2: Dynamische toewijzingen op basis van de verkochte artikelen definiëren
 
 Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behulp van de methode voor dynamische toewijzing. In het voorbeeld wijzigt u de dynamische toewijzing van de kosten voor kostenplaats VERKOOP ter ondersteuning van het nieuwe kostenobject IT-APPARATUUR. Pakketten voor IT-APPARATUUR hebben artikelnummers in het bereik van 8904-W t/m 8924-W. De verkoopcijfers van het vorige jaar kunt u gebruiken om het aandeel te berekenen. De toewijzing wordt geboekt op het ondersteunende kostensoort 9903.  
 
@@ -137,7 +137,7 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de verkoopcijfers van de voorgaande jaren voor het berekenen van een aandeel van 1596,50 LV met 100 procent voor de pakketten voor IT-APPARATUUR. Dit betekent dat alle artikelen die vorig jaar zijn verkocht, worden toegewezen aan kostenobject IT-APPARATUUR.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

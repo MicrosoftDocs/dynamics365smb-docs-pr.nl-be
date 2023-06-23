@@ -77,7 +77,7 @@ Om van deze functionaliteit gebruik te kunnen maken, moet u zichzelf als magazij
   3. Kies ZUID in het veld **Vestiging**.  
   4. Selecteer het veld **Standaard** en selecteer vervolgens de knop **Ja**.  
 
-### <a name="making-item--s-available" />Artikel 1928-S beschikbaar maken
+### <a name="making-item-1928-s-available" />Artikel 1928-S beschikbaar maken
 
 Als u artikel 1928-S op locatie ZUID beschikbaar wilt maken, volgt u deze stappen:  
 

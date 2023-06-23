@@ -133,13 +133,13 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 
  ![Eerste voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Volgnummers 8 en 9
+### <a name="entry-numbers-8-and-9" />Volgnummers 8 en 9
  Voor de onderdelenlijst voor respectievelijk LOTA en LOTB worden ordertraceringskoppelingen gemaakt van de vraag in tabel 5407, **Materiaalregel**, naar het aanbod in tabel 32, **Artikelpost**. Het veld **Status reservering** bevat **Tracering** om aan te geven dat deze posten dynamische ordertraceringkoppelingen tussen voorzieningen en vraag.  
 
 > [!NOTE]  
 >  Het veld **Lotnr.** is leeg op de vraagregels, omdat de lotnummers niet zijn opgegeven op de materiaalregels van de vrijgegeven productieorder.  
 
-### <a name="entry-numbers-" />Volgnummers 10
+### <a name="entry-numbers-10" />Volgnummers 10
  Vanuit de verkoopvraag in tabel 37, **Verkoopregel**, wordt een ordertraceringskoppeling gemaakt naar het aanbod in tabel 5406, **Prod.-orderregel**. Het veld **Status reservering** bevat **Reservering** en het veld **Binding** bevat het veld **Order-naar-order**. Dit komt doordat de vrijgegeven productieorder specifiek voor de verkooporder is gegenereerd en gekoppeld moet blijven, in tegenstelling tot ordertraceringskoppelingen met de reserveringstatus **Tracering**, die dynamisch worden gemaakt en gewijzigd. Zie het onderdeel “Automatische reserveringen” in dit onderwerp voor meer informatie.  
 
  Op dit punt in het scenario worden de 100 eenheden van LOTA en LOTB overgebracht naar de OOST-vestiging met een transferorder.  
@@ -151,12 +151,12 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 
  ![Tweede voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Volgnummers 8 en 9
+### <a name="entry-numbers-8-and-9" />Volgnummers 8 en 9
  De reserveringsstatus van ordertraceringsposten voor de twee lots van het onderdeel die vraag reflecteren in tabel 5407, verandert van **Tracering** in **Overschot**. De reden is dat de goederen waaraan ze eerder zijn gekoppeld, in tabel 32, zijn gebruikt door de verzending van de transferorder.  
 
  Werkelijk overschot, zoals in dit geval, is een reflectie van bovenmatig aanbod of vraag die niet-getraceerd blijft. Het is een indicatie van onbalans in het ordernetwerk, waardoor het planningssysteem een planningsboodschap genereert, tenzij het dynamisch wordt opgelost.  
 
-### <a name="entry-numbers--to-" />Volgnummers 12 tot 16
+### <a name="entry-numbers-12-to-16" />Volgnummers 12 tot 16
  Omdat de twee lots van het materiaal op de transferorder worden geboekt als verzonden maar niet ontvangen, zijn alle gerelateerde positieve ordertraceringsposten van het reserveringsoort **Overschot**, wat aangeeft dat deze niet worden toegewezen aan vraag. Voor elk lotnummer heeft één post betrekking op tabel 5741, **Transferregel**, en één post op de artikelpost bij de in-transit vestiging.  
 
  Op dit punt in het scenario wordt de transferorder van de onderdelen van de OOST-vestiging naar de WEST-vestiging geboekt als ontvangen.  
@@ -173,7 +173,7 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 
  ![Vierde voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Volgnummers 21 en 22
+### <a name="entry-numbers-21-and-22" />Volgnummers 21 en 22
  Aangezien de materiaalbehoefte is gewijzigd naar de OOST-vestiging en de voorziening beschikbaar is als artikelposten op de OOST-vestiging, worden alle ordertraceringsposten voor de twee lotnummers nu volledig getraceerd, wat wordt aangegeven door de reserveringstatus **Tracering**.  
 
  Het veld **Lotnr.** wordt nu gevuld in de ordertraceringspost voor tabel 5407, omdat de lotnummers zijn toegewezen aan de productieordermateriaalregels.  

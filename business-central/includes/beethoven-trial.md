@@ -14,11 +14,11 @@ Gebruik uw e-mailadres voor werk of school. We stellen uw proefperiode in voor h
 
 Deze app is een cloudservice waarvoor geen andere software nodig is dan een actuele webbrowser, hoewel er sommige beperkingen gelden.  
 
-### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft--tenant" />Hoe registreer ik me voor de proefversie zonder een Microsoft 365-tenant?
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant" />Hoe registreer ik me voor de proefversie zonder een Microsoft 365-tenant?
 
 Dat is niet mogelijk. Gebruik een e-mailadres voor werk of school.
 
-### <a name="can-i-sign-up-for-other-dynamics--apps-such-as-sales-marketing-and-customer-service" />Kan ik me registreren voor andere Dynamics 365-apps, zoals Sales, Marketing en Customer Service?
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service" />Kan ik me registreren voor andere Dynamics 365-apps, zoals Sales, Marketing en Customer Service?
 
 Ja, dat kan. [Ga naar de hubpagina voor de proefversie](https://dynamics.microsoft.com/dynamics-365-free-trial) om alle beschikbare proefversies te bekijken. U kunt hetzelfde e-mailaccount gebruiken om zich te registreren voor verschillende proefversies.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
 

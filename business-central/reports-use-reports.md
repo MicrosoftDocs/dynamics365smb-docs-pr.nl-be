@@ -25,7 +25,7 @@ Een rapport in [!INCLUDE[prod_short](includes/prod_short.md)] verzamelt informat
 | Leer hoe u de standaardindeling van een rapport wijzigt. | [De standaardrapportindeling wijzigen](ui-how-change-layout-currently-used-report.md) |
 | Gegevens uit een rapportgegevensset bekijken en analyseren in Microsoft Excel. | [Rapportgegevensset opslaan in Excel vanaf de aanvraagpagina](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Zie ook
 

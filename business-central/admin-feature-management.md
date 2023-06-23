@@ -17,7 +17,7 @@ Wanneer Microsoft functies of verbeteringen in het ontwerp van functies uitbreng
 
 Meer informatie over [functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

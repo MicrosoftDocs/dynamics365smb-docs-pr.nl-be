@@ -54,7 +54,7 @@ De bedrijfsnaam wordt altijd in de linkerbovenhoek weergegeven en werkt als een 
 
 De standaardgebruikerservaring in een [!INCLUDE [prod_short](includes/prod_short.md)]-proefversie omvat niet alle mogelijkheden. U kunt de volledige ervaring inschakelen op de pagina **Bedrijfsgegevens**. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />Zie gerelateerde [Microsoft-training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

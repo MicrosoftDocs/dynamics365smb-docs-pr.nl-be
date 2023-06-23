@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c-data-migration-extension" />De extensie C5-gegevensmigratie
+# <a name="the-c5-data-migration-extension" />De extensie C5-gegevensmigratie
 
 Deze extensie maakt het eenvoudiger om klanten, leveranciers, artikelen en uw grootboekrekeningen van Microsoft Dynamics C5 2012 te migreren naar [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt historische posten voor grootboekrekeningen ook migreren.
 
