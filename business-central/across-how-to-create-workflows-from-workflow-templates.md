@@ -29,7 +29,7 @@ Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappe
    De pagina **Werkstroom** wordt geopend voor een nieuwe werkstroom die alle gegevens van de geselecteerde sjabloon bevat. De waarde in het veld **Code** wordt uitgebreid met bijvoorbeeld '- 01' om aan te geven dat dit de eerste werkstroom is die is gemaakt vanuit de werkstroomsjabloon.  
 4. Ga verder met het maken van de werkstroom door de werkstroomstappen te bewerken of nieuwe stappen toe te voegen. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Zie ook
 

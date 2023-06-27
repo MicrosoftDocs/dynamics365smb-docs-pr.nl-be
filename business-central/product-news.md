@@ -36,6 +36,6 @@ Het kan handig zijn om de site [Dynamics 365 Business Central-mogelijkheden](htt
 [Business Central-prijzen](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central-community](https://community.dynamics.com/business/)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

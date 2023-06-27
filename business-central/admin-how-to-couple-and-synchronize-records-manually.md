@@ -39,7 +39,7 @@ Deze video toont het koppelen en synchroniseren van gegevens in het kader van ee
 2. Kies de actie **Nu synchroniseren**.  
 3. Als een record in één richting kan worden gesynchroniseerd, selecteert u de optie die de richting van de gegevensupdate opgeeft, en kiest u vervolgens **OK**.  
 
-## <a name="to-synchronize-a-single-record-from-includecrmmdincludescrmmdmd" />Eén record synchroniseren vanuit [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="to-synchronize-a-single-record-from-" />Eén record synchroniseren vanuit [!INCLUDE[crm_md](includes/crm_md.md)]
 
 1. In [!INCLUDE[crm_md](includes/crm_md.md)] opent u het formulier voor de record die u wilt koppelen. Bijvoorbeeld het formulier Accountkaart of Contactkaart.  
 2. Kies de actie **[!INCLUDE[prod_short](includes/prod_short.md)]** op het lint om een record automatisch te openen en te koppelen.

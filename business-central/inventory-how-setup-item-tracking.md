@@ -109,7 +109,7 @@ Gebruik voor bulkimport configuratiepakketten om gegevens in de dagboeken te imp
 > [!NOTE]
 > U kunt **Bewerken in Excel** niet gebruiken om dagboekregels met trackinginformatie te maken.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Zie gerelateerde [Microsoft-training](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Zie ook
 

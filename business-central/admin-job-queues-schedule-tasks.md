@@ -93,7 +93,7 @@ U kunt een rapport plannen voor uitvoering op een bepaalde datum en tijd. Geplan
 
 Ga voor meer informatie over planning naar [Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between-includeprodshortincludesprodshortmd-and-includeprodshortincludescdslongmdmd" />Synchronisatie plannen tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="schedule-synchronization-between--and-includeprod_short" />Synchronisatie plannen tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] hebt geïntegreerd met [!INCLUDE[prod_short](includes/cds_long_md.md)], kunt u met de taakwachtrij plannen wanneer u gegevens wilt synchroniseren. Afhankelijk van de richting en regels die u hebt gedefinieerd, kan het taakwachtrij-item records maken in de ene app om met records in de andere overeen te komen. Een goed voorbeeld is dat wanneer u een contact registreert in [!INCLUDE[crm_md](includes/crm_md.md)], het taakwachtrij-item dat contact voor u kan instellen in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [Een synchronisatie plannen tussen Business Central en Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md) voor meer informatie over planning.
 

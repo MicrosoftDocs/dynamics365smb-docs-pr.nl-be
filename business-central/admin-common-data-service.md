@@ -24,7 +24,7 @@ De volgende stappen geven een overzicht van de stappen om [!INCLUDE[prod_short](
 
 3. Gegevens synchroniseren tussen de apps. Zie voor meer informatie [Business Central en Dataverse synchroniseren](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-includeprodshortincludescdslongmdmd" />Aan de slag met [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="getting-started-with-" />Aan de slag met [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Om mee te beginnen met [!INCLUDE[prod_short](includes/cds_long_md.md)] hebt u een Microsoft Power Apps-account nodig. Als u nog geen Power Apps-account hebt, kunt u er een gratis krijgen door te gaan naar [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) en de koppeling **Ga gratis aan de slag** te kiezen. Voor meer informatie over hoe u aan de slag kunt gaan met [!INCLUDE[prod_short](includes/cds_long_md.md)] raadpleegt u de module [Aan de slag met Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) van Microsoft-training.
 
@@ -57,7 +57,7 @@ Zie voor informatie over elke rol, zoals de machtigingen en toegangsniveaus, [Ge
 
 Tijdens het instellen van de verbinding worden integratietabeltoewijzingen gemaakt die nodig zijn om gegevens te synchroniseren. Entiteiten in [!INCLUDE[prod_short](includes/cds_long_md.md)] worden toegewezen aan tabellen en tabelvelden in Business Central via integratietabellen. Zie voor meer informatie [Standaardtoewijzing van entiteit voor synchronisatie](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-model-driven-apps-common-data-service" />Zie gerelateerde [Microsoft-training](/training/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also" />Zie ook
 

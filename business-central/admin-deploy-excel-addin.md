@@ -35,7 +35,7 @@ Voor de eindgebruiker is de installatie-ervaring verschillend voor de twee imple
 
 Met beide implementatieopties wordt de invoegtoepassing automatisch geconfigureerd om verbinding te maken met [!INCLUDE[prod_short](includes/prod_short.md)]. Een derde implementatieoptie is een handmatige installatie van de invoegtoepassing rechtstreeks vanuit Excel. Met deze optie moeten gebruikers de invoegtoepassing configureren om verbinding te maken met [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="a-nameswitchaswitching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Overschakelen van individuele acquisitie naar gecentraliseerde implementatie of andersom
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Overschakelen van individuele acquisitie naar gecentraliseerde implementatie of andersom
 
 Wanneer u overstapt van individuele acquisitie van de invoegtoepassing naar gecentraliseerde implementatie, of vice versa, heeft dit gevolgen voor Excel-bestanden die gebruikers vóór de overgang hebben gemaakt. Na de overgang kunnen gebruikers nog steeds Excel-werkbladen openen die eerder zijn gemaakt met de **Bewerken in Excel**-actie of die handmatig zijn gemaakt, door de Excel-invoegtoepassing te configureren. Maar ze kunnen de gegevens in het bestand niet bijwerken vanuit Business Central of updates naar Business Central pushen
 
@@ -87,7 +87,7 @@ Als u klaar bent, kunt u de implementatie altijd wijzigen in het Microsoft 365-b
 > [!NOTE]
 > Het kan tot 24 uur duren voordat gebruikers de invoegtoepassing automatisch implementeren in de Excel van gebruikers.
 
-## <a name="a-nameinstallaindividual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Individuele acquisitie: de invoegtoepassing handmatig installeren voor eigen gebruik
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Individuele acquisitie: de invoegtoepassing handmatig installeren voor eigen gebruik
 
 In de meeste gevallen, wanneer u Excel opent vanuit Business Central, wordt de invoegtoepassing automatisch voor u geïnstalleerd of wordt u gevraagd deze te installeren. Er kunnen echter gevallen zijn waarin u de invoegtoepassing handmatig moet installeren.
 
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

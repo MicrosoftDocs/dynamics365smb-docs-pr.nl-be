@@ -45,7 +45,7 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
  De oorspronkelijke aangepaste rapportlay-out wordt vervangen door de geïmporteerde rapportlay-out.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

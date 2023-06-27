@@ -96,7 +96,7 @@ Nadat u projectdagboekregels hebt geboekt, kunt u de planningsregels zien die zi
 2. Selecteer een relevant projectdagboek en kies vervolgens de actie **Posten**.  
 3. Kies op de pagina **Projectposten** de actie **Gekoppelde projectplanningsregels weergeven**.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Zie gerelateerde [Microsoft-training](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Zie ook
 

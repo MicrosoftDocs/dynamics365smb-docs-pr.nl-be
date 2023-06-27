@@ -297,7 +297,7 @@ Vervolgens moet u diverse inkoop-, productie- en verkooptransacties met beide ar
 
  Hiermee is het overzicht van het gebruik van de pagina **Posten zoeken** voor defectenbeheer in integratie met de pagina **Artikeltracering** voltooid.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-serial-lot-numbers" />Zie gerelateerde [Microsoft-training](/training/paths/use-serial-lot-numbers/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/use-serial-lot-numbers/)
 
 ## <a name="see-also" />Zie ook
 

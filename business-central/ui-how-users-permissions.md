@@ -52,7 +52,7 @@ Beide benaderingen hebben hun eigen voordelen en u kunt ze tegelijkertijd gebrui
 
 Zie voor meer informatie [Gedelegeerde beheerderstoegang tot Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="a-namelicensespermissionsaconfigure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Machtigingen configureren op basis van licenties
+### <a name="configure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Machtigingen configureren op basis van licenties
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -82,7 +82,7 @@ Als deze standaardconfiguratie niet de juiste instelling is voor een bepaalde om
 > [!IMPORTANT]
 > Deze aanpassing van machtigingen wordt alleen van kracht voor nieuwe gebruikers die u de betreffende licentie toewijst. Bestaande gebruikers worden niet bijgewerkt. We raden u aan de machtigingen aan te passen voordat u gebruikerslicenties gaat toewijzen in het Microsoft 365-beheercentrum.
 
-### <a name="a-nameadduserato-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Gebruikers toevoegen of gebruikersgegevens en licentietoewijzingen bijwerken in Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Gebruikers toevoegen of gebruikersgegevens en licentietoewijzingen bijwerken in Business Central
 
 Nadat u gebruikers heeft toegevoegd of gebruikersinformatie heeft gewijzigd in het Microsoft 365-beheercentrum, kunt u de gebruikersinformatie snel importeren naar [!INCLUDE[prod_short](includes/prod_short.md)]. De import omvat licentietoewijzingen.  
 
@@ -113,7 +113,7 @@ U kunt de toegang van een gebruiker tot [!INCLUDE[prod_short](includes/prod_shor
 
 U kunt de licentie ook verwijderen van een gebruiker in het Microsoft 365-beheercentrum. De gebruiker kan zich dan niet meer aanmelden. Zie voor meer informatie [Licenties van gebruikers verwijderen](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Synchronisatie met Microsoft 365
+### <a name="synchronization-with-microsoft-365" /><a name="m365"></a>Synchronisatie met Microsoft 365
 
 Wanneer u een licentie voor [!INCLUDE[prod_short](includes/prod_short.md)] toewijst aan een gebruiker in Microsoft 365, zijn er twee manieren om de gebruiker te maken in [!INCLUDE[prod_short](includes/prod_short.md)].  
 

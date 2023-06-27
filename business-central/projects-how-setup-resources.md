@@ -74,7 +74,7 @@ Naast de prijs die op de resourcekaart wordt opgegeven, kunt u alternatieve prij
 3. Vul op de pagina **Resourceprijzen** indien nodig de velden op een regel in.
 4. Herhaal stap 3 voor elke alternatieve resourceprijs die u wilt instellen.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Zie ook
 

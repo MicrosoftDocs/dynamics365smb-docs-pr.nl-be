@@ -117,7 +117,7 @@ U definieert variaties van werkstromen door velden op werkstroomregels in te vul
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Zie gerelateerde [Microsoft-training](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Zie ook
 

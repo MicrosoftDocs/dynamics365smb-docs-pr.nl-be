@@ -242,7 +242,7 @@ U kunt de rapporten specificeren die in verschillende stadia moeten worden afged
 > [!NOTE]
 > De beschikbare rapporten kunnen variëren, afhankelijk van de locatie van uw land/regio. De basistoepassing bevat geen lay-outs.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Zie gerelateerde [Microsoft-training](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Zie ook
 

@@ -36,7 +36,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Meer informatie over andere afschrijvingsmethoden voor vaste activa. |[Afschrijvingsmethoden](fa-depreciation-methods.md) |
 | Meer informatie over het toepassen van door de gebruiker gedefinieerde afschrijvingsmethoden. |[Eigen afschrijvingsmethoden instellen](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Zie ook
 

@@ -132,11 +132,11 @@ U ziet in **Shopify-beheer** dat de order nu is gemarkeerd als *Afgehandeld*. U 
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Procedure: Nodig uw klanten uit voor uw nieuwe online winkel
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 
 Na een succesvolle snelle opening van uw nieuwe online winkel, wilt u dat uw huidige klanten deze bezoeken en beginnen met het plaatsen van orders.
 
-### <a name="steps" />Stappen
+### <a name="steps-1" />Stappen
 
 Ga in [!INCLUDE[prod_short](../includes/prod_short.md)] op een van de volgende manieren te werk:
 
@@ -148,11 +148,11 @@ U ziet in **Shopify-beheer** dat de klanten zijn geïmporteerd. Open een van de 
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Procedure: Artikelbeheer fijn afstemmen
 
-### <a name="scenario" />Scenario
+### <a name="scenario-2" />Scenario
 
 U wilt graag meer flexibiliteit en controle toevoegen aan uw processen rondom artikelbeheer. U wilt de productbeschrijving verbeteren en meer beoordelingsstappen toevoegen voordat producten beschikbaar komen voor de eindklant.
 
-### <a name="steps" />Stappen
+### <a name="steps-2" />Stappen
 
 Ga in [!INCLUDE[prod_short](../includes/prod_short.md)] op een van de volgende manieren te werk:
 
@@ -241,11 +241,11 @@ Open in de **online Shopify-winkel** de productcatalogus en zoek het product *AT
 
 ## <a name="walkthrough-import-items-from-shopify" />Procedure: Artikelen importeren uit Shopify
 
-### <a name="scenario" />Scenario
+### <a name="scenario-3" />Scenario
 
 U hebt al een succesvolle online winkel en wilt [!INCLUDE[prod_short](../includes/prod_short.md)] gebruiken als software voor bedrijfsbeheer. U wilt zoveel mogelijk gegevens importeren uit Shopify als mogelijk. 
 
-### <a name="steps" />Stappen
+### <a name="steps-3" />Stappen
 
 Dit is een voortzetting van [Procedure: begin met het online verkopen van producten](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). U kunt het ook proberen met uw eigen gegevens, bijvoorbeeld uw Shopify-winkel of sandbox.
 

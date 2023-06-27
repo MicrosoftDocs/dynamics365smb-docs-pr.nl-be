@@ -136,7 +136,7 @@ Een specifieke opslaglocatie maken biedt vergelijkbare functies als voor het geb
 > [!NOTE]  
 >  De opslaglocatie moet leeg zijn voordat u het veld **Speciaal** kunt selecteren of wissen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Zie ook
 

@@ -42,7 +42,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Streepjescodelezers integreren in de magazijnbeheeroplossing. Alleen voor on-premise implementatie.|[Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-warehouse-management" /><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/set-up-warehouse-management/)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/set-up-warehouse-management/)
 
 ## <a name="see-also" /><a name="see-also"></a>Zie ook
 

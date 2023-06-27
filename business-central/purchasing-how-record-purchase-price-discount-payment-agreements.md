@@ -139,7 +139,7 @@ De beste prijs is de laagst toegestane prijs met de hoogst toegestane regelkorti
 
 Als er geen speciale prijs kan worden berekend voor het artikel op de regel, worden de laatste directe kosten of de eenheidsprijs van de artikelkaart ingevoegd.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-prices-discounts-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

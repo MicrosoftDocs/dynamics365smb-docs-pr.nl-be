@@ -75,7 +75,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

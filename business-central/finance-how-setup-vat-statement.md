@@ -39,7 +39,7 @@ Nadat u een btw-aangifte hebt gedefinieerd, kunt u er een voorbeeld van bekijken
 4. Op de regels waarop het veld **Soort** de waarde **Btw-postentotaal** bevat, kunt u een lijst zien met btw-posten door het bedrag in het veld **Bedrag** te kiezen.
 5. U kunt personalisatie gebruiken om meer velden op de regels weer te geven. Bijvoorbeeld het ongerealiseerde basisbedrag en het ongerealiseerde btw-bedrag, als u ongerealiseerde btw gebruikt.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

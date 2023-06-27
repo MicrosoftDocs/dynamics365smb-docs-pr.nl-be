@@ -15,7 +15,7 @@ Voor elk artikel dat is geregistreerd in Business Central, kunt u *marketingteks
 
 Er zijn twee manieren om de marketingtekst te maken. De eenvoudigste manier om aan de slag te gaan, is door Copilot te gebruiken, dat door AI gegenereerde tekst voor u voorstelt. De andere manier is om bij nul te beginnen. 
 
-## <a name="a-namecopilotacreate-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a>Door AI gegenereerde marketingtekst schrijven (preview) met Copilot
+## <a name="create-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a>Door AI gegenereerde marketingtekst schrijven (preview) met Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 

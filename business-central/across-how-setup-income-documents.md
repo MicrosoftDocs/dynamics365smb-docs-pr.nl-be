@@ -43,7 +43,7 @@ Als u PDF- en afbeeldingsbestanden wilt omzetten in elektronische documenten die
 
 Zie [OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md) voor meer informatie.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alle bovenstaande [!INCLUDE[prod_short](includes/prod_short.md)]-enums zijn toegewezen aan optiesets in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-includeprodshortincludesprodshortmd" />Optiesets uitbreiden in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="extending-option-sets-in-" />Optiesets uitbreiden in [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Maak een nieuwe AL-extensie.
 
 2. Voeg een Enum-extensie toe voor de opties die u wilt uitbreiden. Zorg ervoor dat u dezelfde waarde gebruikt. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > De eerste tien tekens van de nieuwe namen en bijschriften van de optiewaarden moeten uniek zijn. Twee opties met de naam "Transfer 20 werkdagen" en "Transfer 20 kalenderdagen" veroorzaken bijvoorbeeld een fout omdat beide dezelfde eerste 10 tekens hebben, "Transfer 2". Noem ze bijvoorbeeld "TRF20 WD" en "TRF20 KD".
 
-### <a name="update-includeprodshortincludescdslongmdmd-option-mapping" />[!INCLUDE[prod_short](includes/cds_long_md.md)]-optietoewijzing bijwerken
+### <a name="update--option-mapping" />[!INCLUDE[prod_short](includes/cds_long_md.md)]-optietoewijzing bijwerken
 Nu kunt u de toewijzing opnieuw maken tussen [!INCLUDE[prod_short](includes/cds_long_md.md)]-opties en [!INCLUDE[prod_short](includes/prod_short.md)]-records.
 
 Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing **Betalingsvoorwaarden** en kies vervolgens de actie **Gewijzigde records synchroniseren**. De pagina **Dataverse-optietoewijzing** wordt bijgewerkt met de aanvullende records hieronder.

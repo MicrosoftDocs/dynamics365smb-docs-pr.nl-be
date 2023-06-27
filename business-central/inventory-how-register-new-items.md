@@ -115,7 +115,7 @@ Wanneer uw bedrijf de leveringsplanningsprocessen gebruikt in [!INCLUDE [prod_sh
 
 Voor voorbeelden van hoe u de velden op het sneltabblad **Planning** gebruikt zie [Best practices instellen: planningsparameters](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Zie gerelateerde [Microsoft-training](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-items/)
 
 ## <a name="see-also" />Zie ook
 

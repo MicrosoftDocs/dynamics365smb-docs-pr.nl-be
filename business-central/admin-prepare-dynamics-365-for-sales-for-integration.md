@@ -25,7 +25,7 @@ Als u [!INCLUDE[crm_md](includes/crm_md.md)] al hebt geïntegreerd met [!INCLUDE
 > [!NOTE]
 > Opnieuw verbinding maken via [!INCLUDE[prod_short](includes/cds_long_md.md)] past standaard synchronisatie-instellingen toe en overschrijft alle configuraties die u hebt. Zo worden de standaardtabeltoewijzingen toegepast.
 
-## <a name="integration-settings-that-are-specific-to-a-includecrmmdincludescrmmdmd-integration" />Integratie-instellingen die specifiek zijn voor een [!INCLUDE[crm_md](includes/crm_md.md)]-integratie
+## <a name="integration-settings-that-are-specific-to-a--integration" />Integratie-instellingen die specifiek zijn voor een [!INCLUDE[crm_md](includes/crm_md.md)]-integratie
 Integratie met [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt via [!INCLUDE[prod_short](includes/cds_long_md.md)] en er zijn veel standaardinstellingen en tabellen beschikbaar. Naast de standaardinstellingen zijn er enkele die specifiek zijn voor [!INCLUDE[crm_md](includes/crm_md.md)]. In de volgende secties worden deze instellingen vermeld.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-sales" />Machtigingen en beveiligingsrollen voor gebruikersaccounts in Sales

@@ -111,7 +111,7 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 
 U kunt nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het gerelateerde brondocument, op de pagina **Mag. -verzending**. Zie voor meer informatie [Artikelen verzenden](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespick-ship-items-warehouse" />Zie gerelateerde [Microsoft-training](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also" />Zie ook
 

@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Accountantervaringen binnen [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-" />Accountantervaringen binnen [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Ongeacht wat voor accountant u bent, u kunt het rolcentrum **Accountant** gebruiken als uw thuis binnen [!INCLUDE[prod_short](includes/prod_short.md)]. Van hieruit hebt u toegang tot alle pagina's die u in uw werk nodig hebt.  
 
@@ -25,7 +25,7 @@ Als [!INCLUDE[prod_short](includes/prod_short.md)] nieuw voor u is, kunt u een o
 
 Als u in meerdere [!INCLUDE [prod_short](includes/prod_short.md)]-bedrijven werkt, vindt u het misschien handig om de pagina **Bedrijfshub** te gebruiken om werk bij te houden.  Zie voor meer informatie [Werk in meerdere bedrijven beheren in de bedrijfshub](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Als u een externe auditor gebruikt om uw boeken en financiële rapportage te beheren, kan uw beheerder deze uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens. [!INCLUDE[prod_short](includes/prod_short.md)] omvat drie licenties van het type Externe accountant. Zie de [Microsoft Dynamics 365 Business Central Licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=871590) voor meer informatie over licenties.
 
@@ -64,7 +64,7 @@ Als uw beheerder of wederverkoper geen gebruik wenst te maken van de begeleiding
 
 Daarna moet u de nieuwe gastgebruiker een licentie voor [!INCLUDE[prod_short](includes/prod_short.md)] toewijzen.
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />Uw accountant toegang geven tot uw [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />Uw accountant toegang geven tot uw [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Kies **Profiel** in de Azure Portal bij de zojuist toegevoegde gebruiker en kies **Bewerken**
 2. Voer in het veld **Gebruikslocatie** het desbetreffende land/regio in en kies **Opslaan**.
@@ -78,7 +78,7 @@ Daarna moet u de nieuwe gastgebruiker een licentie voor [!INCLUDE[prod_short](in
 
 Als dit lukt, wordt de licentie toegewezen aan de gastgebruiker en wordt het gastaccount gemaakt.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />De nieuwe gebruiker importeren in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />De nieuwe gebruiker importeren in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 De accountant ontvangt een e-mail met de melding dat hij of zij toegang heeft gekregen tot uw Active Directory. Daarna moet u de accountant toegang geven tot het juiste bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)].
 

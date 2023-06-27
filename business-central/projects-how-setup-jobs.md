@@ -99,7 +99,7 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 | **Rekening verantwoorde kosten** |De kostenrekening die de verantwoorde kosten voor het project bevat. Dit is normaliter een debetkostenrekening. |
 | **Rekening verantwoorde omzet** |De resultatenrekening die de verantwoorde resultaten voor het project bevat. Dit is normaliter een creditresultatenrekening. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Zie ook
 

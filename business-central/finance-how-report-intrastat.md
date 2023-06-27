@@ -116,7 +116,7 @@ Wanneer u met het **Intrastat-rapport** werkt ziet u een veld **Status** in de d
 * *Vrijgegeven*: [!INCLUDE[prod_short](includes/prod_short.md)] verandert de status automatisch in *Vrijgegeven* wanneer u een bestand aanmaakt. Vanaf dat moment kunt u uw **Intrastat-rapport** wijzigen. Als u iets moet wijzigen en opnieuw moet rapporteren, kunt u de actie **Heropenen** gebruiken om het Intrastat-rapport opnieuw te openen. Zodra het document opnieuw is geopend, kunt u de actie **Vrijgeven** gebruiken om het document weer vrij te geven.
 * **Gerapporteerd**: hiermee wordt aangegeven of de post al is gemeld bij de belastingdienst. Dit is geen normale status maar een onafhankelijk veld, en zelfs als u het Intrastat-rapport opnieuw zou openen, zou het nog steeds aangeven dat het bestand al is aangemaakt voor dit rapport.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Zie ook
 

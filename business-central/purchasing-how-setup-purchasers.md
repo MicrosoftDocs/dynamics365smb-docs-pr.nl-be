@@ -29,7 +29,7 @@ Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina i
 2. Open de desbetreffende leverancierskaart voor de leverancier waaraan een inkoper wordt toegewezen.
 3. Selecteer in het veld **Inkopercode** de juiste inkopercode en sluit vervolgens de pagina.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

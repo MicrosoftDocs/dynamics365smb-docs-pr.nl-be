@@ -19,7 +19,7 @@ Nadat u een betalingsservice hebt ingeschakeld in [!INCLUDE[prod_short](includes
 
 De extensies , PayPal Payments Standard en WorldPay Payments Standard zijn geïnstalleerd in [!INCLUDE[prod_short](includes/prod_short.md)] en u hoeft ze alleen maar in te schakelen.  
 
-## <a name="to-enable-a-payment-service-in-includeprodshortincludesprodshortmd" />Een betalingsservice inschakelen in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-" />Een betalingsservice inschakelen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsservices** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Betalingsservices** de actie **Nieuw**.  
@@ -37,7 +37,7 @@ De extensies , PayPal Payments Standard en WorldPay Payments Standard zijn geïn
     > [!NOTE]  
     > Het veld **Betalingsservice** is alleen beschikbaar als u betalingsservices hebt ingeschakeld.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

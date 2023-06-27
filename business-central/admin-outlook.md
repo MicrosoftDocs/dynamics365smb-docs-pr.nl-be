@@ -83,7 +83,7 @@ Gecentraliseerde implementatie is een functie in het Microsoft 365-beheercentrum
 
 Als u klaar bent, kunt u de implementatie altijd wijzigen in het Microsoft 365-beheercentrum, zoals het toewijzen van meer gebruikers. Zie [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true) voor meer informatie over het implementeren van invoegtoepassingen in het beheercentrum.
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>De invoegtoepassing installeren voor eigen gebruik
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>De invoegtoepassing installeren voor eigen gebruik
 
 Als uw organisatie dit toestaat, kunt u de Business Central-invoegtoepassing alleen voor uzelf installeren. Vraag het uw beheerder als u het niet zeker weet.
 
@@ -94,7 +94,7 @@ Als uw organisatie dit toestaat, kunt u de Business Central-invoegtoepassing all
 
 Business Central maakt verbinding met uw e-mailserver en installeert de invoegtoepassing in uw Outlook. Dit duurt niet lang. U bent nu klaar om de invoegtoepassing in Outlook te gaan gebruiken.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>Voor Business Central on-premises
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>Voor Business Central on-premises
 
 Als u Business Central on-premises gebruikt, kan het installeren van de invoegtoepassing iets anders zijn.
 
@@ -116,7 +116,7 @@ Als u Business Central on-premises gebruikt, kan het installeren van de invoegto
 
 U bent nu klaar om de invoegtoepassing in Outlook te gaan gebruiken.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

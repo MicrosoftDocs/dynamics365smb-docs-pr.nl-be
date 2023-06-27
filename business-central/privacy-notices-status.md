@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Status van privacyverklaringen in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-" />Status van privacyverklaringen in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 In dit artikel wordt besproken wat een privacyverklaring is en wordt het doel van de pagina **Status van privacyverklaringen** in [!INCLUDE[prod_short](includes/prod_short.md)] uitgelegd. U leert ook hoe beheerders deze pagina kunnen gebruiken.
 

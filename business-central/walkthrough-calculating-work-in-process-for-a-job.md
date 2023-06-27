@@ -159,7 +159,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
  In dit scenario heeft u de stappen doorgenomen voor het berekenen van OHW in [!INCLUDE[prod_short](includes/prod_short.md)]. Bij grotere projecten kan het handig zijn om de kosten periodiek over te dragen naar een OHW-rekening terwijl het project wordt voltooid. In dit overzicht hebt u gezien hoe u taakregels uitsluit van een berekening. Ook hebt u gezien wanneer u een herberekening moet uitvoeren. En tot slot dit wordt in dit scenario aangegeven hoe u de OHW naar het grootboek boekt. Ook is een voorbeeld opgenomen van hoe u een OHW-post naar het grootboek kunt tegenboeken.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Zie gerelateerde [Microsoft-training](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Zie ook
 

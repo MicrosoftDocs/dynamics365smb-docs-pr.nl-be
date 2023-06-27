@@ -69,7 +69,7 @@ Selecteer **Inclusief of exclusief belasting op basis van het land/regio van uw 
 > [!NOTE]
 > Deze instelling heeft geen invloed op de weergave van prijzen op binnenlandse markten, die wordt beheerd door de schakelaar **Alle prijzen zijn inclusief btw**.
 
-### <a name="all-prices-include-tax-is-selected" />*Alle prijzen zijn inclusief btw* is geselecteerd
+### <a name="all-prices-include-tax-is-selected-1" />*Alle prijzen zijn inclusief btw* is geselecteerd
 
 |-|Binnenlandse verkoop|Buitenland waar belasting bij de prijs is inbegrepen|Buitenland waar belasting niet bij de prijs is inbegrepen|
 |------------------------|--------|--------|--------|
@@ -79,7 +79,7 @@ Selecteer **Inclusief of exclusief belasting op basis van het land/regio van uw 
 
 De prijs voor elke klant verandert afhankelijk van hun locatie.
 
-### <a name="all-prices-include-tax-is-not-selected" />*Alle prijzen zijn inclusief btw* is niet geselecteerd
+### <a name="all-prices-include-tax-is-not-selected-1" />*Alle prijzen zijn inclusief btw* is niet geselecteerd
 
 |-|Binnenlandse verkoop|Buitenland waar belasting bij de prijs is inbegrepen|Buitenland waar belasting niet bij de prijs is inbegrepen|
 |------------------------|--------|--------|--------|

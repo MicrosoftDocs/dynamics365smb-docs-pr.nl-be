@@ -41,7 +41,7 @@ U kunt bestandbijlagen van niet-geboekte documenten op elk moment verwijderen do
 
 De verbinding met het geboekte document wordt verwijderd. U kunt nu doorgaan met het verbinden van een andere inkomende documentrecord met het geboekte document, zoals wordt beschreven in dit artikel.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -127,7 +127,7 @@ Velden **Documentdatum** en **Bedrag (LV)** op de pagina **Btw-posten**, waar:
 
 Voordat de voorspellende webservice wordt gebruikt, comprimeert [!INCLUDE[prod_short](includes/prod_short.md)] transacties op **Documentdatum**, gebaseerd op de waarde in het veld **Periodesoort** op de pagina **Cashflowinstellingen**.
 
-## <a name="a-nameanchortextacreate-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"></a>Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"></a>Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken
 
 U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Business Central**. Dit voorspellend model is online beschikbaar in de Azure AI-galerie. Ga als volgt te werk om het model te gebruiken:  
 
@@ -140,7 +140,7 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 7. Vouw het sneltabblad **Azure AI** uit en vul vervolgens de velden in, inclusief de API-URL en API-sleutel die zijn geleverd door Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Kies in het rolcentrum Accountant de actie **Prognose herberekenen** onder het diagram **Cashflowprognose**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" /><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" /><a name="see-also"></a>Zie ook
 

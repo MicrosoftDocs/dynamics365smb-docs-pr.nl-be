@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
 
@@ -18,7 +18,7 @@ U kunt bijvoorbeeld de grootte en positie van elke pagina aanpassen, de breedte 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Tips en trucs
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Tips en trucs
 
 > [!TIP]
 > Voor een printvriendelijk overzicht van de meest gebruikte functies kiest u de volgende afbeelding en downloadt u het PDF-bestand.
@@ -80,7 +80,7 @@ Wanneer u zoekt naar een open lijstpagina, zoals de lijst **Verkooporders**, is 
 
 Maar wanneer u dezelfde lijstpagina opent vanaf uw startpagina, is de actie **Beheren** niet aanwezig. Kies in plaats daarvan, om een individuele verkooporder te openen, gewoon het veld **Aantal**. In deze weergave kunt u de actiebalk niet vastzetten.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 
@@ -89,7 +89,7 @@ Maar wanneer u dezelfde lijstpagina opent vanaf uw startpagina, is de actie **Be
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Prestatietips voor zakelijke gebruikers](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

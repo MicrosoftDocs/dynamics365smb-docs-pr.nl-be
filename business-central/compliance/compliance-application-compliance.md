@@ -101,6 +101,6 @@ Microsoft maakt gelokaliseerde versies van Business Central voor een beperkt aan
 [Servicenaleving](compliance-service-compliance.md)  
 [Certificeringen](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

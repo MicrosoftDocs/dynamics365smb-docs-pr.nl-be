@@ -102,7 +102,7 @@ Als u dat hebt gedaan, moet u een uitzondering maken voor uitstel, zodat ze buit
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekinstellingen** of **Gebruikerisnstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Voer in de velden **Uitstelboeking toestaan vanaf** en **Uitstelboeking toestaan tot** een begin- en einddatum voor de periode in.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

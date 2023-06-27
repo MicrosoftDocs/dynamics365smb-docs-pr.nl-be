@@ -72,7 +72,7 @@ Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te ex
 
 Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 [Uw abonnement voor [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md) annuleren  

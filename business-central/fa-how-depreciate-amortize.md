@@ -115,7 +115,7 @@ Met behulp van de batchverwerking **Afschrijvingsboek kopiëren** kunt u posten 
 
 De gekopieerde regels worden in het financieel dagboek voor vaste activa of het dagboek voor vaste activa gemaakt, afhankelijk van de vraag of het afschrijvingsboek dat u kopieert, geïntegreerd is met het grootboek.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescalculate-post-depreciations" />Zie gerelateerde [Microsoft-training](/training/modules/calculate-post-depreciations/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/calculate-post-depreciations/)
 
 ## <a name="see-also" />Zie ook
 

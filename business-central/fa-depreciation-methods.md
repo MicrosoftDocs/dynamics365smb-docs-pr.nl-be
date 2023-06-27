@@ -294,7 +294,7 @@ Als u een post boekt in B1 in het financieel dagboek voor vaste activa en het ve
 > [!NOTE]  
 > U kunt niet dezelfde nummerreeks gebruiken in het financieel dagboek voor vaste activa en het dagboek voor vaste activa. Wanneer u posten in het VA-financieel dagboek boekt, moet u het veld **Documentnr.** leeg laten. Als u een nummer in het veld invoert, wordt het nummer gedupliceerd in het VA-dagboek. U moet het documentnummer handmatig wijzigen voordat u het dagboek kunt boeken.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Zie gerelateerde [Microsoft-training](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also" />Zie ook
 

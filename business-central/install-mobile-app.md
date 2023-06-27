@@ -53,7 +53,7 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt 
 > [!NOTE]
 > Neem contact op met uw beheerder als u problemen ondervindt om de app correct te laten werken. Het kan een ontbrekende vereiste zijn of een onvolledige configuratie. Zie voor meer informatie [De omgeving voorbereiden voor de mobiele app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) of [Problemen oplossen met de mobiele Business Central-app On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

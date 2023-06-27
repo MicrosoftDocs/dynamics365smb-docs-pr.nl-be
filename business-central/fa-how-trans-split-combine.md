@@ -66,7 +66,7 @@ U kunt meerdere vaste activa combineren in één vast activum, bijvoorbeeld als 
 2. Vul de vereiste velden in.
 3. Kies de knop **Afdrukken** of **Voorbeeld**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreclassify-fixed-assets" />Zie gerelateerde [Microsoft-training](/training/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/reclassify-fixed-assets/)
 
 ## <a name="see-also" />Zie ook
 

@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-includeprodlongincludesprodlongmd" />Lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-" />Lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] heeft een gecombineerde lokalisatiestrategie die zowel door Microsoft geleide als door partners geleide modellen bevat. In dit gedeelte kunt u beschrijvingen van functionaliteit bekijken die geldt voor de landen/regio's waarin Microsoft de wettelijke naleving en andere lokale functionaliteit levert.  
 

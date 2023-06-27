@@ -29,13 +29,13 @@ De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een
 | Boekingsperioden en boekjaar sluiten, saldi van resultatenrekeningen overdragen naar balansrekeningen en de jaareinde-ultimopost boeken. |[Boeken afsluiten](year-close-books.md) |
 | Rapporten af te drukken die u kunnen helpen bij het maken van financiële overzichten. |[Afsluitingsoverzichten voorbereiden](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 
 [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -88,7 +88,7 @@ U kunt de waarde in het veld **Saldo op bankrekening na boeking** met de waarde 
 > [!NOTE]  
 >   Als u de bankrekening vanuit de pagina **Betalingsreconciliatiedagboek** niet wilt reconciliëren, moet u de pagina **Bankreconciliatie** gebruiken. Zie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md) voor meer informatie.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

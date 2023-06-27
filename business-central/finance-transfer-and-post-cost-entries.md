@@ -98,7 +98,7 @@ Voor enkele kostenposten wordt de boekingstekst door [!INCLUDE[prod_short](inclu
 
 In de tabel **Kostenregister**, wordt door [!INCLUDE[prod_short](includes/prod_short.md)] een post gemaakt met de bronoverdracht van het grootboek. Door de post worden de eerste en laatste nummers van de overgebrachte grootboekposten vastgelegd, evenals de eerste en laatste nummers van de kostenposten die zijn gemaakt.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-gl-entries-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -49,7 +49,7 @@ Als u dit wilt instellen, moet u divisies toewijzen aan gebruikers in drie basis
 > [!NOTE]  
 > Gebruikers kunnen alleen die geboekte documenten bekijken die betrekking hebben op hun eigen verantwoordelijkheidscentrum. Ze kunnen echter alle grootboekposten bekijken en vanuit de grootboekposten naar andere geboekte documenten navigeren.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-responsibility-centers" />Zie gerelateerde [Microsoft-training](/training/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also" />Zie ook
 

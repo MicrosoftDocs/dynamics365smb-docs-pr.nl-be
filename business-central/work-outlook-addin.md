@@ -122,7 +122,7 @@ Als u de Outlook-app gebruikt, kiest u gewoon **Documentkoppeling** boven aan he
 > Vanaf releasewave 1 van 2022 openen documenten in een nieuw browservenster met alle mogelijkheden die u kent van [!INCLUDE [prod_short](includes/prod_short.md)]. U kunt van een document naar een lijst navigeren en weer terug, lijsten openen in Excel, documenten verzenden om af te drukken en gerelateerde rapporten uitvoeren of bekijken. U beschikt ook over alle bekende sneltoetsen wanneer u documenten vanuit Outlook opent.  
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

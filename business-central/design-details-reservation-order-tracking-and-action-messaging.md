@@ -151,7 +151,7 @@ Op de pagina **Productie-instellingen** wordt het veld **Onderdelen op vestiging
 
  ![Tweede voorbeeld van ordertraceringsposten in de tabel Reserveringspost.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers-8-and-9" />Volgnummers 8 en 9
+### <a name="entry-numbers-8-and-9-1" />Volgnummers 8 en 9
  De reserveringsstatus van ordertraceringsposten voor de twee lots van het onderdeel die vraag reflecteren in tabel 5407, verandert van **Tracering** in **Overschot**. De reden is dat de goederen waaraan ze eerder zijn gekoppeld, in tabel 32, zijn gebruikt door de verzending van de transferorder.  
 
  Werkelijk overschot, zoals in dit geval, is een reflectie van bovenmatig aanbod of vraag die niet-getraceerd blijft. Het is een indicatie van onbalans in het ordernetwerk, waardoor het planningssysteem een planningsboodschap genereert, tenzij het dynamisch wordt opgelost.  

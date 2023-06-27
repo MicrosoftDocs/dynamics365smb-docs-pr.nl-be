@@ -30,7 +30,7 @@ In de volgende artikelen worden enkele van de belangrijkste taken beschreven voo
 * [Lijsten met XBRL maken](bi-create-reports-with-xbrl.md)  
 * [Databasetoegangsintentie beheren](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

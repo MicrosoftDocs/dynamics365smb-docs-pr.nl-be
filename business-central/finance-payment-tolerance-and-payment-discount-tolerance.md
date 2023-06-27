@@ -211,11 +211,11 @@ Scenario's met alternatief A, B, C of D vertegenwoordigen het volgende:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>22.01.03**|**2000**|**Geen**|**Ja**|**0**|**0**|  
 |30|1.000 <br />1.000|60 <br />30|5 <br />5|15-01-03 <br />17-01-03|20-01-03 <br />22.01.03|>22.01.03|1990|Betalingstolerantie|Ja|0|5|  
 
-### <a name="payment-range-diagrams" />Betalingsbereikdiagrammen
+### <a name="payment-range-diagrams-1" />Betalingsbereikdiagrammen
 
 Het bovenstaande scenario resulteert in de volgende diagrammen met betalingsbereiken:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Betaaldatum <=15-01-03 (scenario's 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1" />(1) Betaaldatum <=15-01-03 (scenario's 1-3)
 
 Restbedrag per  
 
@@ -275,7 +275,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

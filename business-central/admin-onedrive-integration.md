@@ -63,7 +63,7 @@ De begeleide instelling **Configuratie van OneDrive** is geïntroduceerd in rele
 
 Om over te schakelen opent u de begeleide instelling **Configuratie van OneDrive** en voert u deze direct uit. U kunt ook de pagina **Instellingen SharePoint-verbinding** openen en **Ga naar nieuwe OneDrive-instelling** kiezen in de melding bovenaan de pagina. Volg de begeleide instelling zoals beschreven in het vorige gedeelte.
 
-## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />OneDrive en [!INCLUDE[prod_short](includes/prod_short.md)] herstellen
+## <a name="restoring-onedrive-and-" />OneDrive en [!INCLUDE[prod_short](includes/prod_short.md)] herstellen
 
 Als onderdeel van een noodhersteloefening moeten beheerders mogelijk een [!INCLUDE[prod_short](includes/prod_short.md)] online-omgeving herstellen naar een back-up van een moment in het verleden, en OneDrive-opslag synchroniseren tot datzelfde tijdstip. OneDrive biedt verschillende hersteltools, zoals het herstellen van OneDrive van een gebruiker naar een eerdere tijd, het herstellen een eerdere versie van een afzonderlijk bestand of het herstellen van verwijderde bestanden. Zie de volgende artikelen voor meer informatie:
 

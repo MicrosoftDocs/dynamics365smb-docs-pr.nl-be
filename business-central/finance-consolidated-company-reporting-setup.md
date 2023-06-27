@@ -64,7 +64,7 @@ De volgende lijst illustreert de belangrijkste aspecten van het geconsolideerde 
 
     Zie voor meer informatie de sectie [Dimensies opnemen of uitsluiten](#dim).
 
-### <a name="a-namebusunitaadd-business-units" /><a name="busunit"></a>Bedrijfsunits toevoegen
+### <a name="add-business-units" /><a name="busunit"></a>Bedrijfsunits toevoegen
 
 Met [!INCLUDE[prod_short](includes/prod_short.md)] kunt u een lijst met te consolideren bedrijfsunits instellen, de boekhoudgegevens vóór de consolidatie controleren, bestanden importeren en consolidatierapporten genereren.  
 
@@ -78,7 +78,7 @@ Met [!INCLUDE[prod_short](includes/prod_short.md)] kunt u een lijst met te conso
 
 Als de bedrijfsunit een vreemde valuta gebruikt, moet u de wisselkoers opgeven die in de consolidatie moet worden gebruikt. U moet ook consolidatiegegevens invoeren over de grootboekrekeningen van de bedrijfsunit. Deze processen worden beschreven in de volgende secties.
 
-### <a name="a-nameglaccaprepare-general-ledger-accounts-for-consolidation" /><a name="glacc"></a>Grootboekrekeningen voor consolidatie voorbereiden
+### <a name="prepare-general-ledger-accounts-for-consolidation" /><a name="glacc"></a>Grootboekrekeningen voor consolidatie voorbereiden
 
 Het rekeningschema van een bedrijf dat wordt geconsolideerd, moet rekeningen voor de consolidatie specificeren. Voor elke boekingsgrootboekrekening in elk bedrijf moet u de grootboekrekening in het geconsolideerde bedrijf opgeven waarnaar de balans wordt overgebracht bij consolidatie. Dit is een toewijzing waarmee bedrijven met een ander rekeningschema samen worden geconsolideerd.
 
@@ -87,7 +87,7 @@ Als het rekeningschema van de bedrijfsunit afwijkt van dat van het geconsolideer
 1. Kies in elke bedrijfsunit [!INCLUDE [prod_short](includes/prod_short.md)], kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de gerelateerde koppeling.  
 2. Open de kaart voor de rekening en vul de velden op het sneltabblad **Consolidatie** in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="a-nameexchratesaspecify-exchange-rates-for-consolidations" /><a name="exchrates"></a>Wisselkoersen opgeven voor consolidaties
+### <a name="specify-exchange-rates-for-consolidations" /><a name="exchrates"></a>Wisselkoersen opgeven voor consolidaties
 
 Als een bedrijfsunit een andere valuta dan het geconsolideerde bedrijf gebruikt, moet u wisselkoersmethoden voor elke rekening opgeven voordat u de consolidatie uitvoert. Voor elke rekening bepaalt de inhoud van het veld **Consol.-vertaalmethode** de wisselkoers. Op elke bedrijfsunitkaart specificeert u in het veld **Wisselkoerstabel** of de consolidatie de wisselkoersen van de bedrijfsunit of van het geconsolideerde bedrijf moet gebruiken. Als u de wisselkoersen van het geconsolideerde bedrijf gebruikt, kunt u de wisselkoersen wijzigen voor een bedrijfseenheid. Als het veld **Wisselkoerstabel** op de bedrijfsunitkaart de waarde **Lokaal** bevat, kunt u de wisselkoers van de bedrijfsunitkaart wijzigen. De wisselkoersen worden overgenomen uit de tabel **Valutawisselkoers**, maar u kunt ze vóór de consolidatie wijzigen.
 
@@ -110,7 +110,7 @@ Ga als volgt te werk om wisselkoersen voor bedrijfsunits op te geven:
 4. Kies de actie **Wisselkoers (Balans)**.  
 5. Voer in het veld **Gerel. wisselkoersbedrag** de wisselkoers in.
 
-### <a name="a-namedimainclude-or-exclude-dimensions" /><a name="dim"></a>Dimensies opnemen of uitsluiten
+### <a name="include-or-exclude-dimensions" /><a name="dim"></a>Dimensies opnemen of uitsluiten
 
 U kunt dimensiegegevens en grootboekrekeningen consolideren.
 
@@ -120,11 +120,11 @@ U kunt dimensiegegevens en grootboekrekeningen consolideren.
   * Als u de dimensiewaardecode in de bedrijfsunit wilt consolideren met een andere dimensiewaardecode in het geconsolideerde bedrijf, vult u het veld **Consolidatiecode** voor de relevante dimensies in.  
 * Voeg de relevante dimensies toe aan de relevante grootboekrekeningen
 
-### <a name="a-nameexcludeaexclude-a-company-from-consolidation" /><a name="exclude"></a>Een bedrijf uitsluiten van consolidatie
+### <a name="exclude-a-company-from-consolidation" /><a name="exclude"></a>Een bedrijf uitsluiten van consolidatie
 
 Als u een bedrijfsunit niet wilt opnemen in de consolidatie, kunt u deze uitsluiten. Hiervoor gaat u naar de bedrijfsunitkaart en schakelt u het selectievakje **Consolideren** uit.
 
-### <a name="a-nameincludeainclude-a-partially-owned-company-in-consolidation" /><a name="include"></a>Een bedrijf dat deels eigendom is, opnemen in een consolidatie
+### <a name="include-a-partially-owned-company-in-consolidation" /><a name="include"></a>Een bedrijf dat deels eigendom is, opnemen in een consolidatie
 
 Als u slechts een deel van een bedrijf bezit, kunt u een percentage van elke transactie opnemen dat overeenkomt met het percentage van het bedrijf dat in uw bezit is. Als u voor 70% eigenaar van het bedrijf bent, bevat de consolidatie bijvoorbeeld € 70 van een factuur voor € 100. Als u het percentage wilt opgeven dat het bedrijf van u is, gaat u naar de bedrijfsunitkaart en voert u het percentage in het veld **Consolidatie %** in.  
 

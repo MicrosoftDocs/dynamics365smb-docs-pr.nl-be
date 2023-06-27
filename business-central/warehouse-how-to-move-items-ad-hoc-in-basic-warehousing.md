@@ -89,7 +89,7 @@ In plaats van verplaatsingdocumenten te gebruiken, kunt u verplaatsingen registr
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Zie ook
 

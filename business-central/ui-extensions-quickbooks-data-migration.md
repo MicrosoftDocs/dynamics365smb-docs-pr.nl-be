@@ -61,7 +61,7 @@ Er is met name een aantal dingen die u moet doen: als de transacties in QuickBoo
 Als u btw gebruikt, hebt u mogelijk een bedrijfsboekingsgroep en een productboekingsgroep in de boekingsinstellingen nodig, zodat u btw-bedragen kunt boeken.
 Controleer de beginsaldi voor de rekeningen in het grootboek. QuickBooks slaat het huidige saldo van alle rekeningen niet op, dus u moet mogelijk beginsaldi corrigeren.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

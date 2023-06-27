@@ -42,7 +42,7 @@ Deze video laat zien hoe u een werkstroom instelt waarvoor een gebruiker de goed
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Zie ook
 

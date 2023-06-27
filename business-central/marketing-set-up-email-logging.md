@@ -55,7 +55,7 @@ Regels voor e-mailstroom zoeken naar specifieke voorwaarden voor berichten en on
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] verwerkt alleen berichten in de map Inbox in de gedeelde mailbox. Als door een regel berichten van de Inbox naar een andere map worden verplaatst, worden die berichten niet verwerkt. Bovendien worden berichten in de map Ongewenste e-mails ook genegeerd.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />[!INCLUDE[prod_short](includes/prod_short.md)] instellen om e-mailberichten te registreren
+## <a name="set-up--to-log-email-messages" />[!INCLUDE[prod_short](includes/prod_short.md)] instellen om e-mailberichten te registreren
 
 Ga aan de slag met e-maillogboekregistratie in twee eenvoudige stappen:
 
@@ -145,14 +145,14 @@ Als u Azure Active Directory niet gebruikt om identiteiten en toegang te beheren
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />Het gebruikersaccount wijzigen dat wordt gebruikt voor e-maillogboekregistratie
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Meld u aan bij [!INCLUDE[prod_short](includes/prod_short.md)] met het account dat de geplande taak gebruikt om verbinding te maken met de gedeelde mailbox en e-mails te verwerken. Dit account moet toegang hebben tot [!INCLUDE[prod_short](includes/prod_short.md)] en Exchange Online.
 2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **E-maillogboekregistratie** in en kies vervolgens de gerelateerde koppeling. 
 3. Kies **Verwant** en **Taakwachtrij-item**.
 4. Herstart de taak **E-maillogboekregistratie**.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] on-premises
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] on-premises
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **E-maillogboekregistratie** in en kies vervolgens de gerelateerde koppeling.
 2. Kies **Acties** en dan **Token vernieuwen**.

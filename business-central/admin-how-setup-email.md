@@ -230,7 +230,7 @@ Meer informatie over algemene richtlijnen voor het registreren van een app op [Q
 > [!NOTE]
 Als u problemen ondervindt bij het gebruik van het SMTP-protocol om e-mail te verzenden nadat u [!INCLUDE[prod_short](includes/prod_short.md)] hebt verbonden met uw appregistratie, kan het zijn dat SMTP AUTH niet is ingeschakeld voor uw tenant. We raden u aan om in plaats daarvan de e-mailconnectoren Microsoft 365 en Huidige gebruiker te gebruiken, omdat deze de API's van Microsoft Graph Mail gebruiken. Als u echter het SMTP-protocol moet gebruiken, kunt u SMTP AUTH inschakelen. Zie voor meer informatie [Geverifieerde client SMTP-verzending (SMTP AUTH) in- of uitschakelen Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-includeprodshortincludesprodshortmd-to-your-app-registration" />[!INCLUDE[prod_short](includes/prod_short.md)] verbinden met uw app-registratie
+### <a name="connect--to-your-app-registration" />[!INCLUDE[prod_short](includes/prod_short.md)] verbinden met uw app-registratie
 
 Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUDE[prod_short](includes/prod_short.md)] de begeleide instelling **AAD-registratie van e-mailtoepassing** om [!INCLUDE[prod_short](includes/prod_short.md)] ermee te verbinden.
 
@@ -263,7 +263,7 @@ Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUD
 
 -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-email" />Zie gerelateerde [Microsoft-training](/training/modules/set-up-email/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/set-up-email/)
 
 ## <a name="see-also" />Zie ook
 

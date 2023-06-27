@@ -26,7 +26,7 @@ De volgende tabel behandelt de belangrijkste bedrijfsinformatie- en rapportagefu
 | Externe bedrijfsinformatietools integreren met [!INCLUDE[prod_short](includes/prod_short.md)].| [Externe bedrijfsinformatietools](reports-external-analysis.md) |
 |Rapportindelingen wijzigen of zelfs uw eigen rapporten ontwikkelen. |[Rapporten ontwikkelen](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Zie ook
 

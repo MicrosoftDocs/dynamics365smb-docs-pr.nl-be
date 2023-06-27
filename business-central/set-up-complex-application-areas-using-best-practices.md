@@ -26,7 +26,7 @@ Voor het succes van nieuwe zakelijke software is het van belang dat vanaf het be
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

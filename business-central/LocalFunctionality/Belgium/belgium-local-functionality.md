@@ -76,7 +76,7 @@ Er zijn momenteel geen aanstaande reglementaire kenmerken of vereisten. Als u op
 [Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Beschikbaarheid voor land/regio en ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

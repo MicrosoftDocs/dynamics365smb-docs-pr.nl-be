@@ -88,7 +88,7 @@ In de volgende secties wordt beschreven hoe u urenstaten kunt instellen als u de
 > [!NOTE]  
 > U kunt de ID van de urenstaatgoedkeurder niet wijzigen als er urenstaten zijn die nog niet zijn verwerkt en die de status **Ingediend** of **Open** hebben.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Zie ook
 

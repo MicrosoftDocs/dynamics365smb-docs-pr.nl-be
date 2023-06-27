@@ -25,7 +25,7 @@ Wanneer u een verkoper op de pagina **Verkopers** hebt ingesteld, kunt u deze in
 
 U kunt verkopers in divers relatiebeheer en marketingwerk gebruiken. U kunt bijvoorbeeld taken toewijzen aan verkopers, zodat de taken worden opgenomen in verkoopopportunity's waaraan de verkoper is toegewezen. Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

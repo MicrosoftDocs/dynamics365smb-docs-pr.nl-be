@@ -92,7 +92,7 @@ De conversie verwijdert de verkoopofferte uit de database. Een verkoopfactuur of
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

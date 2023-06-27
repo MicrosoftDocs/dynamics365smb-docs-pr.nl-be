@@ -37,7 +37,7 @@ Business Central als cloudservice heeft ook certificeringen verkregen, zoals ISO
 [Toepassingsnaleving](compliance-application-compliance.md)  
 [Servicenaleving](compliance-service-compliance.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

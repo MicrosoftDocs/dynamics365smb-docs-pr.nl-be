@@ -33,7 +33,7 @@ Voordat u documenten elektronisch kunt verzenden en ontvangen of bankbestanden k
 |De configuratie van een nieuwe gegevensuitwisselingsdefinitie voor een gegevensbestand of een gegevensstroom voorbereiden door met behulp van het XML-schema van het bestand het sneltabblad **Kolomdefinities** op de pagina **Uitwisselingsdefinitie van boeking** vooraf te vullen.|[XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Het kader voor gegevensuitwisseling instellen zodat gebruikers een nieuwe inkoopdocumentindeling kunnen ontvangen, een nieuwe verkoopdocumentindeling kunnen verzenden, een nieuw bankbestand kunnen importeren of een andere gegevensuitwisseling kunnen uitvoeren.|[Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

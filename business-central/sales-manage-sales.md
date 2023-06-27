@@ -53,7 +53,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Informeer klanten over orderleverdatums door berekening van ofwel de datum waarop het artikel beschikbaar is voor toezegging (ATP) of de datum waarop het artikel kan worden toegezegd (CTP).|[Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)|
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde klant.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssell-items-services-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/sell-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/sell-items-services-dynamics-365-business-central/)
 
 [Verkopen instellen](sales-setup-sales.md)  
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)  
@@ -63,6 +63,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

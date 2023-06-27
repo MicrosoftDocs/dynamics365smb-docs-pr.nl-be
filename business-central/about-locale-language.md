@@ -50,7 +50,7 @@ Als u op de pagina **Grootboekinstellingen** de schakelaar **Land/regio-code in 
 
 Op de pagina **Help en ondersteuning** ziet u op welke versie van [!INCLUDE[prod_short](includes/prod_short.md)] uw bedrijf is gebaseerd. Als u een bedrijf een andere basis wilt geven, kan de systeembeheerder een nieuwe productieomgeving maken. Zie [Een nieuwe productieomgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) voor meer informatie.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Talen van de [!INCLUDE[prod_short](includes/prod_short.md)] Help
+## <a name="languages-of-the--help" />Talen van de [!INCLUDE[prod_short](includes/prod_short.md)] Help
 
 De Help-inhoud voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt gepubliceerd naar Microsoft Learn. De inhoud is beschikbaar in verschillende talen. Als u toegang tot de documentatie hebt vanuit [!INCLUDE[prod_short](includes/prod_short.md)], wordt de inhoud in uw taal weergegeven. Als een bepaalde pagina nog niet beschikbaar in uw taal is, blijft deze standaard in het Engels worden weergegeven.
 

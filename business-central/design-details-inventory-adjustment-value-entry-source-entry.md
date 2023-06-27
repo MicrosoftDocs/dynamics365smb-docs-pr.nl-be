@@ -158,7 +158,7 @@ Gebruikersgroepen die niet in december mogen boeken, maar in januari, een beperk
 
 ## <a name="item-charge-scenario" />Artikeltoeslagscenario
 
-### <a name="prerequisites" />Vereisten
+### <a name="prerequisites-1" />Vereisten
 
 Voer de volgende waarden in:
 
@@ -184,7 +184,7 @@ Voer de volgende waarden in:
 
 - Boeken toegest. tot = leeg  
 
-### <a name="to-test-the-scenario" />Het scenario testen
+### <a name="to-test-the-scenario-1" />Het scenario testen
 
 Test dit scenario door de volgende stappen uit te voeren:
 

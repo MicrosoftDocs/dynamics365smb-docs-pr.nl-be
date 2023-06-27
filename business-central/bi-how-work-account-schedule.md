@@ -184,7 +184,7 @@ U kunt financiële rapporten importeren en exporteren als RapidStart-configurati
 > [!NOTE]
 > Wanneer u financiële rapporten importeert, worden bestaande records met dezelfde naam als de records die u importeert verwijderd.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

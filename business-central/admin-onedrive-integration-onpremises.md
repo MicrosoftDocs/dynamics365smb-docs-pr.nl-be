@@ -22,7 +22,7 @@ Er zijn twee taken die moeten worden uitgevoerd om de OneDrive-integratie te con
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan alleen worden verbonden met OneDrive gehost door Microsoft in de cloud. [!INCLUDE[prod_short](includes/prod_short.md)] on premises verbinden met de My Sites-opslag van SharePoint Server wordt niet ondersteund.
 
-## <a name="a-nameregisterapparegister-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Een app in Azure AD registreren voor OneDrive-integratie
+## <a name="register-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Een app in Azure AD registreren voor OneDrive-integratie
 
 In deze taak voegt u een geregistreerde app voor Business Central toe in de Azure AD-tenant van uw Microsoft 365-abonnement. Net als andere Azure-services die werken met Business Central, vereist OneDrive een geregistreerde app in Azure Active Directory (Azure AD). De geregistreerde app biedt verificatie- en autorisatieservices tussen Business Central en SharePoint, wat wordt gebruikt door OneDrive.
 
@@ -45,7 +45,7 @@ Houd bij het registreren van de toepassing rekening met de volgende punten:
 
 - Als u Business Central versie 19 of 20 gebruikt, kopieert u **Id van toepassing (client)** en **Clientgeheim** die door de geregistreerde app worden gebruikt. U hebt deze informatie nodig bij de volgende taak.
 
-## <a name="a-nameurlaget-your-onedrive-url" /><a name="url"></a>Uw OneDrive -URL ophalen
+## <a name="get-your-onedrive-url" /><a name="url"></a>Uw OneDrive -URL ophalen
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
@@ -74,7 +74,7 @@ Gebruik deze procedure als u Business Central 2022 releasewave 2 (versie 21) of 
    - Als u de geregistreerde Azure AD-app nog niet hebt ingesteld, wordt de guide **Azure Active Directory instellen** geopend.
 6. Wanneer dit is voltooid, wordt voor alle gebruikers akkoord gegaan met de privacyverklaring voor OneDrive-integratie. Als u dit wilt wijzigen zodat gebruikers zelf al dan niet akkoord moeten gaan, gaat u naar de pagina **Status van privacyverklaringen** en selecteert u **Gebruiker laten beslissen** voor de OneDrive-integratie. Gebruikers wordt vervolgens gevraagd om al dan niet akkoord te gaan met de privacyverklaring wanneer ze de OneDrive-functies voor het eerst gebruiken. Zie [Privacyverklaringen](privacy-notices-status.md) voor meer informatie.
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />De verbinding in [!INCLUDE[prod_short](includes/prod_short.md)] instellen in versie 19 en 20
+## <a name="set-up-the-connection-in--version-19-and-20" />De verbinding in [!INCLUDE[prod_short](includes/prod_short.md)] instellen in versie 19 en 20
 
 Gebruik deze procedure als u Business Central 2022 releasewave 1 (versie 20) of 2021 releasewave 2 (versie 19) gebruikt.
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ Als u wilt overschakelen naar de nieuwe OneDrive-integratie, voert u de begeleid
 
 Voordat u aan de slag gaat met de overschakeling of terwijl u dit doet, raadpleegt u het volgende gedeelte voor meer informatie over enkele aspecten en overwegingen over het proces. 
 
-### <a name="a-nameonedrivesetupmigrationaabout-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Over overschakelen naar de nieuwe OneDrive-integratie
+### <a name="about-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Over overschakelen naar de nieuwe OneDrive-integratie
 
 Naast OneDrive-integratie kan Business Central ook worden geïntegreerd met andere services, zoals Power BI en Universeel afdrukken. Integratie met deze andere services vereist ook een geregistreerde Azure AD-app voor verificatie. De Azure AD-app die door deze andere services wordt gebruikt, wordt geconfigureerd in de begeleide instelling **Uw Azure Active Directory-accounts instellen**. Wanneer u overschakelt van de oude SharePoint-verbindingsinstelling, wordt met de nieuwe begeleide instelling **Configuratie van OneDrive** uw OneDrive-integratie gewijzigd om ook de functie **Uw Azure Active Directory-accounts instellen** te gebruiken&mdash;dus voor alle integraties wordt dezelfde Azure AD-app gebruikt.
 

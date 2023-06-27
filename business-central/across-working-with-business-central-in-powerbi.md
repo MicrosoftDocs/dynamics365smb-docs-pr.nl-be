@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# <a name="work-with-include-prodshortincludesprodshortmd-data-in-power-bi" />Werken met [!INCLUDE [prod_short](includes/prod_short.md)] -gegevens in Power BI
+# <a name="work-with--data-in-power-bi" />Werken met [!INCLUDE [prod_short](includes/prod_short.md)] -gegevens in Power BI
 
 In dit artikel leert u enkele basisbeginselen kennen van het werken met rapporten en dashboards in Power BI, dat gebruikmaakt van [!INCLUDE [prod_short](includes/prod_short.md)] als gegevensbron. In het artikel worden enkele aspecten besproken die u op weg helpen als [!INCLUDE[prod_short](includes/prod_short.md)]-gebruiker. Raadpleeg voor algemene richtlijnen en instructies voor het gebruik van Power BI de [Power BI-documentatie voor consumenten](/power-bi/consumer).
 
@@ -44,7 +44,7 @@ Selecteer in het navigatievenster onder Gegevenssets de opdracht Meer opties (..
 
 Zie [Geplande vernieuwing configureren](/power-bi/connect-data/refresh-scheduled-refresh) voor meer informatie.
 
-## <a name="a-nameuploadaupload-reports-from-files" /><a name="upload"></a>Rapporten uploaden vanuit bestanden
+## <a name="upload-reports-from-files" /><a name="upload"></a>Rapporten uploaden vanuit bestanden
 
 Power BI-rapporten kunnen onder gebruikers worden verspreid als PBIX-bestanden. Als u een PBIX-bestand heeft, kunt u het bestand uploaden naar een werkruimte. Voer de volgende stappen uit om een rapport te uploaden:
 
@@ -62,7 +62,7 @@ Zie [Het rapport uploaden naar de service](/power-bi/paginated-reports/paginated
 > [!TIP]
 > Als u [!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt, kunt u ook een rapport uploaden vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)] - Rapporten uploaden](across-working-with-powerbi.md#upload) voor meer informatie.
 
-## <a name="a-nameshareashare-reports-with-others" /><a name="share"></a>Rapporten met anderen delen
+## <a name="share-reports-with-others" /><a name="share"></a>Rapporten met anderen delen
 
 Zodra een rapport zich in uw werkruimte bevindt, kunt u het delen met anderen in uw organisatie.
 
@@ -71,7 +71,7 @@ Als u een rapport wilt delen, selecteert u in een lijst met rapporten of in een 
 > [!NOTE]
 > U moet een [Power BI Pro-licentie](/power-bi/service-features-license-type) hebben en dat geldt ook voor de mensen met wie u het rapport deelt. De inhoud moet zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports) voor meer informatie.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

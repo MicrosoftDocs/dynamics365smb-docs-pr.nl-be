@@ -40,7 +40,7 @@ De Power BI-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] bevat 
 
 U kunt ook visuele rapporten maken op basis van [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van de bestandstypeoptie **Microsoft Excel-document (alleen gegevens)** op pagina's met rapportverzoeken. Meer informatie op [Rapporten uitvoeren en afdrukken](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-power-bi" />Zie gerelateerde training op [Microsoft Learn](/learn/paths/use-power-bi).
+## <a name="see-related-training-at-microsoft-learn" />Zie gerelateerde training op [Microsoft Learn](/learn/paths/use-power-bi).
 
 ## <a name="see-also" />Zie ook
 

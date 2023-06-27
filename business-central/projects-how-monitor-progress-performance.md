@@ -139,7 +139,7 @@ Alle posten met betrekking tot een project worden in projectjournalen opgeslagen
 
 De pagina **Projectposten** wordt geopend, waarin u de posten die zijn gekoppeld aan een project, kunt bekijken.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Gerelateerde [Microsoft-training](/training/paths/calculate-post-job-wip/) zoeken
+## <a name="find-related-microsoft-training" />Gerelateerde [Microsoft-training](/training/paths/calculate-post-job-wip/) zoeken
 
 ## <a name="see-also" />Zie ook
 

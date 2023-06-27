@@ -73,7 +73,7 @@ Gebruik de volgende procedure om een analyseweergave bij te werken vanuit de pag
 > [!NOTE]  
 > Als u bepaalde of alle analyseweergaven tegelijk wilt bijwerken, moet u de batchverwerking **Analyseweergaven bijwerken** gebruiken.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics-365-business-centralindex" />Zie gerelateerde training op [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Zie gerelateerde training op [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Zie ook
 

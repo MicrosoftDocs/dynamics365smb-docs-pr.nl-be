@@ -59,7 +59,7 @@ Deze functies zijn vooral handig tijdens het uitvoeren van kwaliteitscontroles w
 3. Voer in de velden **Serienr.** en **Lotnr.** de artikeltraceringsnummers in die u wilt traceren.  
 4. Kies de actie **Zoeken** om alle exemplaren van het serie- of lotnummer in de database te zoeken.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Zie gerelateerde [Microsoft-training](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Zie ook
 

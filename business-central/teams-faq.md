@@ -16,15 +16,15 @@ In dit artikel worden enkele van de vragen beantwoord die u mogelijk hebt over h
 
 ## [Algemeen](#tab/general)
 
-### <a name="how-do-i-sign-in-to-the-include-prodshortmdincludesprodshortmd-app-in-teams" />Hoe log ik in bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in Teams?
+### <a name="how-do-i-sign-in-to-the--app-in-teams" />Hoe log ik in bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in Teams?
 
 Nadat u de app hebt geïnstalleerd, wordt u gevraagd om in te loggen wanneer u de app voor het eerst gebruikt, wanneer u een [!INCLUDE [prod_short.md](includes/prod_short.md)]-koppeling in Teams-chat plakt of wanneer u de actie **Details** kiest op een kaart in Teams. Afhankelijk van uw Teams-client, moet u mogelijk uw inloggegevens invoeren die u gebruikt om toegang te krijgen tot [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-### <a name="how-do-i-sign-out-of-the-include-prodshortmdincludesprodshortmd-app-in-teams" />Hoe log ik uit bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in Teams?
+### <a name="how-do-i-sign-out-of-the--app-in-teams" />Hoe log ik uit bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in Teams?
 
 Om u af te melden bij de identiteit in Teams waarmee u verbinding hebt gemaakt met [!INCLUDE [prod_short.md](includes/prod_short.md)], gaat u naar een willekeurig chatvak, klikt u met de rechtermuisknop op het pictogram [!INCLUDE [prod_short.md](includes/prod_short.md)] eronder en kiest u **Instellingen**. Wanneer het venster verschijnt, controleert u uw momenteel aangemelde identiteit en kiest u vervolgens **Afmelden**.
 
-### <a name="does-the-app-for-teams-connect-to-include-prodshortmdincludesprodshortmd-on-premises" />Maakt de app voor Teams verbinding met [!INCLUDE [prod_short.md](includes/prod_short.md)] on premises?
+### <a name="does-the-app-for-teams-connect-to--on-premises" />Maakt de app voor Teams verbinding met [!INCLUDE [prod_short.md](includes/prod_short.md)] on premises?
 
 Nee De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor teams werkt alleen met [!INCLUDE [prod_short.md](includes/prod_short.md)] online. Er zijn geen plannen om [!INCLUDE [prod_short.md](includes/prod_short.md)]-implementatietypen te ondersteunen&mdash;zoals on-premises, hybride cloud of privécloud&mdash;die Microsoft niet rechtstreeks host of beheert.
 
@@ -32,15 +32,15 @@ Nee De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor teams werkt a
 
 Ja. Als u contacten in een ander bedrijf wilt zoeken, gaat u naar [Instellingen](across-teams-settings.md). Wanneer de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app een koppeling uitbreidt tot een kaart, moet de koppeling de omgeving en bedrijfsnamen voor de app bevatten om de record te koppelen aan het juiste bedrijf. U kunt koppelingen plakken naar alle bedrijven en omgevingen waartoe u toegang heeft binnen uw organisatie en vanuit het [!INCLUDE [prod_short.md](includes/prod_short.md)]-account waarmee u zich heeft aangemeld. Deelnemers aan de chat zien de kaart. Maar ze kunnen de kaartgegevens niet bekijken, tenzij ze machtigingen hebben voor het bedrijf of de omgeving waar die record is opgeslagen.
 
-### <a name="in-which-countries-or-regions-is-the-include-prodshortmdincludesprodshortmd-app-available" />In welke landen of regio's is de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app beschikbaar?
+### <a name="in-which-countries-or-regions-is-the--app-available" />In welke landen of regio's is de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app beschikbaar?
 
 De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams is niet beperkt per land of regio. De app is beschikbaar in alle markten die momenteel worden ondersteund door de Teams-marktplaats. 
 
-### <a name="does-the-include-prodshortmdincludesprodshortmd-app-work-with-any-localization-of-include-prodshortmdincludesprodshortmd" />Werkt de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app met elke lokalisatie van [!INCLUDE [prod_short.md](includes/prod_short.md)]?
+### <a name="does-the--app-work-with-any-localization-of-include-prod_shortmd" />Werkt de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app met elke lokalisatie van [!INCLUDE [prod_short.md](includes/prod_short.md)]?
 
 Ja. De app is bedoeld om te werken met elke lokalisatie van [!INCLUDE [prod_short.md](includes/prod_short.md)], of die lokalisatie nu rechtstreeks van Microsoft of via een partner wordt aangeboden. Meer informatie op [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
-### <a name="a-namelanguageawhich-languages-does-the-include-prodshortmdincludesprodshortmd-app-support" /><a name="language"></a>Welke talen ondersteunt de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app?
+### <a name="which-languages-does-the--app-support" /><a name="language"></a>Welke talen ondersteunt de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app?
 
 Twee dingen bepalen de taal die wordt gebruikt voor kaarten en kaartdetails in Teams:
 
@@ -56,18 +56,18 @@ In de volgende tabel wordt uitgelegd hoe de ervaring verschilt voor berichtauteu
 
 Voor de lijst met ondersteunde talen voor [!INCLUDE [prod_short.md](includes/prod_short.md)] raadpleegt u [Ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
-### <a name="does-the-include-prodshortmdincludesprodshortmd-app-work-with-industry-solutions" />Werkt de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app met brancheoplossingen?
+### <a name="does-the--app-work-with-industry-solutions" />Werkt de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app met brancheoplossingen?
 
 Ja. Maar slechts enkele functies van de app werken met [Apps insluiten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
 
 - De app werkt met koppelingen op basis van het patroon **\*.bc.dynamics.com**, dat doorgaans wordt gebruikt met Apps insluiten.
 - Zoeken naar contactpersonen is niet beschikbaar voor Apps insluiten die de basistoepassing van Microsoft vervangen.
 
-### <a name="does-include-prodshortmdincludesprodshortmd-work-with-the-teams-mobile-app" />Werkt [!INCLUDE [prod_short.md](includes/prod_short.md)] met de mobiele Teams-app?
+### <a name="does--work-with-the-teams-mobile-app" />Werkt [!INCLUDE [prod_short.md](includes/prod_short.md)] met de mobiele Teams-app?
 
 Ja. De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app kan worden geïnstalleerd vanuit de Teams-desktopapp of browser, of door een beheerder voor alle gebruikers. Eenmaal geïnstalleerd is de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app automatisch beschikbaar in Teams voor iOS en Android. Op mobiele apparaten kunt u alleen kaarten bekijken die door anderen zijn verzonden, toegang krijgen tot details of de kaart eruit laten springen voor de volledige ervaring in de mobiele [!INCLUDE [prod_short.md](includes/prod_short.md)]-app. U kunt bij het opstellen van berichten of het zoeken naar contacten geen koppelingen plakken die tot kaarten worden uitgevouwen. Meer informatie over minimumvereisten voor mobiel op [Minimumvereisten voor het gebruik van Business Central](product-requirements.md).
 
-### <a name="is-the-include-prodshortmdincludesprodshortmd-app-for-teams-the-same-as-the-include-prodshortmdincludesprodshortmd-app-for-ios-and-android" />Is de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams hetzelfde als de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor iOS en Android?
+### <a name="is-the--app-for-teams-the-same-as-the-include-prod_shortmd-app-for-ios-and-android" />Is de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams hetzelfde als de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor iOS en Android?
 
 Nee De app voor Teams is een add-in voor Microsoft Teams en is exclusief ontworpen voor samenwerking binnen Teams. Aan de andere kant biedt de mobiele [!INCLUDE [prod_short.md](includes/prod_short.md)]-app een rijke ervaring voor u om te werken met [!INCLUDE [prod_short.md](includes/prod_short.md)]-gegevens op uw mobiele apparaten.
 
@@ -76,7 +76,7 @@ Mobiele gebruikers worden aangemoedigd om zowel de mobiele app als de app voor T
 - [Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)
 - [De mobiele Teams-app](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) downloaden bij Microsoft-ondersteuning
 
-### <a name="does-the-include-prodshortmdincludesprodshortmd-app-work-in-all-teams-clients" />Werkt de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in alle Teams-clients?
+### <a name="does-the--app-work-in-all-teams-clients" />Werkt de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app in alle Teams-clients?
 
 Nee De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams wordt niet ondersteund als deze is geïnstalleerd als pakket voor macOS of Linux. Op die platforms kunt u Teams in plaats daarvan openen met een ondersteunde browser.
 
@@ -84,7 +84,7 @@ Voor minimumvereisten in [!INCLUDE [prod_short.md](includes/prod_short.md)] raad
 
 Als u meer informatie wilt over de keuze van Teams-clients en hoe u deze kunt installeren, raadpleegt u [Klanten krijgen voor Microsoft Teams](/microsoftteams/get-clients) in de Teams-documentatie.
 
-### <a name="which-teams-client-is-best-for-include-prodshortmdincludesprodshortmd" />Welke Teams-client is het beste voor [!INCLUDE [prod_short.md](includes/prod_short.md)]?
+### <a name="which-teams-client-is-best-for-" />Welke Teams-client is het beste voor [!INCLUDE [prod_short.md](includes/prod_short.md)]?
 
 Er zijn slechts kleine verschillen en beperkingen tussen Teams-clients die van invloed kunnen zijn op uw ervaring met de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams. Houd bij het kiezen van een Teams-client rekening met het volgende:
 
@@ -92,11 +92,11 @@ Er zijn slechts kleine verschillen en beperkingen tussen Teams-clients die van i
 - Telefoonnummers kunnen niet worden geactiveerd vanuit het detailvenster in Teams voor iOS, Android of in de browser.
 - Als u Microsoft Edge met Teams in de browser gebruikt, kunt u gemakkelijk met meerdere identiteiten en accounts werken door vanuit verschillende profielen in te loggen bij Teams. Voor meer informatie over het gebruik van profielen in Microsoft Edge raadpleegt u [Aanmelden en meerdere profielen maken in Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) bij Microsoft Ondersteuning.
 
-### <a name="what-is-the-best-way-for-me-to-demonstrate-include-prodshortmdincludesprodshortmd-and-microsoft-teams-to-prospective-customers" />Wat is voor mij de beste manier om [!INCLUDE [prod_short.md](includes/prod_short.md)] en Microsoft Teams te demonstreren aan potentiële klanten?
+### <a name="what-is-the-best-way-for-me-to-demonstrate--and-microsoft-teams-to-prospective-customers" />Wat is voor mij de beste manier om [!INCLUDE [prod_short.md](includes/prod_short.md)] en Microsoft Teams te demonstreren aan potentiële klanten?
 
 Als u een doorverkopende partner bent, wilt u misschien een omgeving hebben die u potentiële klanten kunt laten zien als onderdeel van pre-sales demonstraties. Om gevolgen voor Microsoft Teams in uw organisatie te voorkomen kunt u een Microsoft 365-demoaccount krijgen op [https://aka.ms/CDX](https://aka.ms/CDX). Met dit account hebt u volledige controle over een onafhankelijke Azure-organisatie die Microsoft Teams en [!INCLUDE [prod_short.md](includes/prod_short.md)] omvat. Zie voor meer informatie [Demonstratieomgevingen voorbereiden van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
-### <a name="does-the-include-prodshortmdincludesprodshortmd-app-for-teams-cater-to-my-customization-and-personalization" />Voorziet de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams in aanpassing en personalisatie?
+### <a name="does-the--app-for-teams-cater-to-my-customization-and-personalization" />Voorziet de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams in aanpassing en personalisatie?
 
 De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams kan kaarten weergeven voor koppelingen naar klantpagina's en tabellen in [!INCLUDE [prod_short.md](includes/prod_short.md)], zoals de pagina's en tabellen die afkomstig zijn van uw eigen aangepaste extensies of van AppSource.
 
@@ -123,11 +123,11 @@ Hoe Microsoft met uw gegevens omgaat, leest u in de [Privacyverklaring van Micro
 
 Neem contact op met uw beheerder voor informatie over hoe uw organisatie omgaat met de privacy van uw gegevens.
 
-### <a name="how-do-i-uninstall-the-include-prodshortmdincludesprodshortmd-app-for-teams" />Hoe verwijder ik de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams?
+### <a name="how-do-i-uninstall-the--app-for-teams" />Hoe verwijder ik de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams?
 
 Om de app te verwijderen die u voor uzelf hebt geïnstalleerd, gaat u naar een chatvak en zoekt u het pictogram [!INCLUDE [prod_short.md](includes/prod_short.md)] onderaan, klikt u met de rechtermuisknop op het pictogram en kiest u **Verwijderen**.  
 
-### <a name="will-microsoft-continue-to-improve-the-include-prodshortmdincludesprodshortmd-app-for-teams" />Zal Microsoft de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams blijven verbeteren?
+### <a name="will-microsoft-continue-to-improve-the--app-for-teams" />Zal Microsoft de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams blijven verbeteren?
 
 Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende gebruikerscommunity en handelen we naar de beste suggesties. Om te weten wat de toekomst biedt voor de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams raadpleegt u het [Releaseplan voor Dynamics 365](/dynamics365-release-plan/2021wave1/).
 
@@ -139,7 +139,7 @@ Voor functionaliteit in de webclient die linkt naar Teams, zie [Records en pagin
 
 ## [Business Central-tabbladen](#tab/tabs)
 
-### <a name="a-namewho-can-viewawho-can-see-the-content-of-a-tab" /><a name="who-can-view"></a>Wie kan de inhoud van een tabblad zien?
+### <a name="who-can-see-the-content-of-a-tab" /><a name="who-can-view"></a>Wie kan de inhoud van een tabblad zien?
 
 Elke persoon in uw chat of kanaal die:
 
@@ -147,7 +147,7 @@ Elke persoon in uw chat of kanaal die:
 2. een Business Central-licentie heeft of toegang heeft tot Business Central met zijn of haar Microsoft 365-licentie.
 3. machtigingen heeft om de gegevens op de pagina te bekijken.
 
-### <a name="a-namerecommended-contentawhere-does-the-recommended-content-come-from" /><a name=#recommended-content></a>Waar komt de aanbevolen inhoud vandaan?
+### <a name="where-does-the-recommended-content-come-from" /><a name=#recommended-content></a>Waar komt de aanbevolen inhoud vandaan?
 
 De aanbevolen inhoud waaruit u kunt kiezen in de optie **Tabbladinhoud** op een tabblad is gebaseerd op uw Rolcentrum. De aanbevolen inhoud bevat alleen lijstpagina's, zoals Klanten, Verkooporders en Leveranciers - geen individuele kaartpagina zoals een specifieke klant of leverancier.
 
@@ -257,7 +257,7 @@ Om interacties weer te geven, moet [!INCLUDE [prod_short.md](includes/prod_short
 
 Zoek in het detailvenster voor een contact de actie **Interactie maken** en kies uit de inkomende of uitgaande oproepen als interactiesjablonen. U kunt ook uw eigen aangepaste interactiesjablonen maken, specifiek voor gebruik met Teams-gesprekken.
 
-### <a name="can-i-call-a-contact-from-the-include-prodshortmdincludesprodshortmd-app-for-teams" />Kan ik een contactpersoon bellen vanuit de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams?
+### <a name="can-i-call-a-contact-from-the--app-for-teams" />Kan ik een contactpersoon bellen vanuit de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] heeft een beperkte integratie met de belmogelijkheden van Teams. Het is niet mogelijk om direct een VOIP-gesprek te starten vanuit de contactkaart of het venster met contactgegevens. Wanneer u echter de contactgegevens in de Teams-desktopapp bekijkt, kunt u het telefoonnummerveld selecteren om dat nummer te bellen als Teams is ingesteld als uw standaardbel-app op uw apparaat. Om vaste lijnen of mobiele telefoonnummers te bellen met PSTN, het traditionele telefoonsysteem, heeft Teams de Microsoft 365 Business Voice-app nodig. Zie [Wat is Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice) voor meer informatie.
 
@@ -274,16 +274,16 @@ U kunt zoekcriteria invoeren met bijna alle Unicode-tekens. [!INCLUDE [prod_shor
 De [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams kan zoeken naar klanten, leveranciers en andere contacten in één bedrijf tegelijk.  
 Om contacten te zoeken die zijn opgeslagen in een ander [!INCLUDE [prod_short.md](includes/prod_short.md)]-bedrijf, opent u [Instellingen](across-teams-settings.md) en verandert u de omgeving en het bedrijf van daaruit.
 
-### <a name="are-include-prodshortmdincludesprodshortmd-contacts-different-than-the-ones-in-the-teams-contacts-screen" />Zijn [!INCLUDE [prod_short.md](includes/prod_short.md)]-contacten anders dan de contacten in het Teams-contactenscherm?
+### <a name="are--contacts-different-than-the-ones-in-the-teams-contacts-screen" />Zijn [!INCLUDE [prod_short.md](includes/prod_short.md)]-contacten anders dan de contacten in het Teams-contactenscherm?
 
 Ja. Contacten die zijn opgeslagen in [!INCLUDE [prod_short.md](includes/prod_short.md)], vertegenwoordigen zakelijke contacten die beschikbaar zijn voor uw organisatie. Het zijn contacten waarmee u een gevestigde en goed gedefinieerde zakelijke relatie hebt, of contacten die potentiële klanten vertegenwoordigen. Deze contacten zijn doorgaans externe contacten. Ter vergelijking: de contacten die in de lijst Contacten bellen van Teams worden weergegeven, zijn uw eigen contacten. Deze contacten worden niet noodzakelijkerwijs gedeeld met anderen in uw organisatie en vertegenwoordigen doorgaans interne contacten binnen uw organisatie.
 
-### <a name="does-include-prodshortmdincludesprodshortmd-synchronize-contacts-with-teams" />Synchroniseert [!INCLUDE [prod_short.md](includes/prod_short.md)] contacten met Teams?
+### <a name="does--synchronize-contacts-with-teams" />Synchroniseert [!INCLUDE [prod_short.md](includes/prod_short.md)] contacten met Teams?
 
 Nee. Contacten die zijn opgeslagen in [!INCLUDE [prod_short.md](includes/prod_short.md)], blijven gescheiden van uw contacten die zijn opgeslagen in Teams.
 Er zijn momenteel geen plannen om de twee lijsten samen te synchroniseren.
 
-### <a name="what-is-the-minimum-version-of-include-prodshortmdincludesprodshortmd-for-contact-search" />Wat is de minimumversie van [!INCLUDE [prod_short.md](includes/prod_short.md)] voor contacten zoeken?
+### <a name="what-is-the-minimum-version-of--for-contact-search" />Wat is de minimumversie van [!INCLUDE [prod_short.md](includes/prod_short.md)] voor contacten zoeken?
 
 Voor het zoeken naar contacten moet u de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams versie 1.0.4 of hoger hebben geïnstalleerd en u maakt verbinding met [!INCLUDE [prod_short.md](includes/prod_short.md)]-omgevingen van versie 18 of hoger.
 
@@ -344,7 +344,7 @@ Nee. De veldwaarden op een kaart in Teams, inclusief eventuele afbeeldingen, zij
 
 Een beheerder heeft mogelijk de Teams-integratie zo geconfigureerd dat kaarten geen gegevens over records tonen. Raadpleeg voor meer informatie [Recordgegevens op kaarten weergeven of verbergen](admin-teams-integration.md#show-or-hide-record-data-on-cards).
 
-### <a name="will-others-see-my-card-if-they-dont-have-the-include-prodshortmdincludesprodshortmd-app-for-teams" />Zullen anderen mijn kaart zien als ze de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams niet hebben?
+### <a name="will-others-see-my-card-if-they-dont-have-the--app-for-teams" />Zullen anderen mijn kaart zien als ze de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams niet hebben?
 
 Wanneer u een chatbericht opstelt en verzendt dat een kaart bevat, zullen alle gebruikers de kaart zien&mdash;zelfs als ze de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor Teams niet hebben geïnstalleerd.
 
@@ -378,7 +378,7 @@ Zie voor meer informatie over het instellen van cloudprinters [Printers instelle
 
 Ja. Alle [!INCLUDE [prod_short.md](includes/prod_short.md)]-functies in het detailvenster die de camera gebruiken, zijn beschikbaar op alle Teams-clients.
 
-### <a name="a-namelocationacan-i-access-my-location-from-the-details-window-in-teams" /><a name="location"></a>Heb ik toegang tot mijn locatie vanuit het detailvenster in Teams?
+### <a name="can-i-access-my-location-from-the-details-window-in-teams" /><a name="location"></a>Heb ik toegang tot mijn locatie vanuit het detailvenster in Teams?
 
 Als u functionaliteit gebruikt in [!INCLUDE [prod_short.md](includes/prod_short.md)] die toegang heeft tot uw huidige locatiecoördinaten, zoals bij kaarten, moet u Teams in de browser of de mobiele Teams-app gebruiken. Locatie is niet beschikbaar bij gebruik van de Teams-desktop-app.
 
@@ -404,7 +404,7 @@ Als een gast een bericht opstelt, worden koppelingen naar hun [!INCLUDE [prod_sh
 
 Zie voor meer informatie over overeenkomsten en verschillen tussen gasten en teamleden [Gastervaring in Teams](/MicrosoftTeams/guest-experience) in de Teams-documentatie.
 
-### <a name="how-does-a-guest-user-install-the-include-prodshortmdincludesprodshortmd-app" />Hoe installeert een gastgebruiker de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app?
+### <a name="how-does-a-guest-user-install-the--app" />Hoe installeert een gastgebruiker de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app?
 
 Gasten hebben geen toegang tot de app-marktplaats om zelf apps te installeren. De app kan echter automatisch voor hen worden geïnstalleerd op basis van het beleid van uw organisatie. Een andere manier voor een gastgebruiker om de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app te installeren is wanneer ze een chatbericht ontvangen met een [!INCLUDE [prod_short.md](includes/prod_short.md)]-kaart. In dit geval kiest de gebruiker de knop **Details** of het menu op de kaart en installeert deze vervolgens de [!INCLUDE [prod_short.md](includes/prod_short.md)]-app voor gebruik met uw organisatie. Na het installeren van de app krijgt een gebruiker niet automatisch toestemming om toegang te krijgen tot gegevens uit uw [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
@@ -449,7 +449,7 @@ Overzicht van integratie tussen [[!INCLUDE [prod_short](includes/prod_short.md)]
 [Bedrijfs- en andere instellingen in Teams wijzigen](across-teams-settings.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="included365finincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

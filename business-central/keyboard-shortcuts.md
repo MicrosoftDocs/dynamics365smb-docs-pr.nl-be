@@ -33,7 +33,7 @@ De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows 
 > [!NOTE]
 > Naast de algemene sneltoetsen die in dit artikel worden beschreven, is er een aantal bedrijfsspecifieke sneltoetsen beschikbaar. Bijvoorbeeld in de generieke versie van [!INCLUDE[prod_short](includes/prod_short.md)] boekt <kbd>F9</kbd> een document en toont <kbd>Ctrl</kbd>+<kbd>F7</kbd> de financiële posten voor een record wanneer u de record opent in een kaart. Dit artikel bevat enkele van de meest voorkomende bedrijfsspecifieke sneltoetsen, die cursief worden weergegeven. Houd er rekening mee dat de daadwerkelijke snelkoppelingen in uw oplossing kunnen verschillen. In de gebruikersinterface wordt de sneltoets weergegeven in de knopinfo voor de betreffende actie.
 
-## <a name="a-namekeyboarda-general-keyboard-shortcuts" /><a name="Keyboard"></a> Algemene sneltoetsen
+## <a name="general-keyboard-shortcuts" /><a name="Keyboard"></a> Algemene sneltoetsen
 
 De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschillende elementen van een pagina. Elementen omvatten zaken als acties, vervolgkeuzelijsten, zoekopdrachten en meer. Voor details over sneltoetsen voor het navigeren door records wanneer u zich in een lijst bevindt, kunt u het volgende gedeelte raadplegen.
 
@@ -90,7 +90,7 @@ De volgende tabel beschrijft de sneltoetsen die u op een lijstpagina kunt gebrui
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Voorgestelde regels op de pagina met cashflowvoorstellen verzenden.|Niet van toepassing.|
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Serienummers en lotnummers weergeven of bewerken die zijn toegewezen aan het regelartikel in het document of dagboek.|Niet van toepassing.|
 
-### <a name="a-namenavigateshortcutsanavigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Navigeren tussen rijen en kolommen
+### <a name="navigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Navigeren tussen rijen en kolommen
 
 Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rasters met rijen en kolommen, zoals lijstpagina's en **Regels**-onderdelen in documenten. Het verplaatsen van de ene cel naar de andere over een raster is volledig toetsenbordcompatibel.
 
@@ -111,7 +111,7 @@ Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rast
 | <kbd>Tab</kbd> | In een bewerkbare lijst in dezelfde rij naar het volgende veld naar rechts gaan. | Niet van toepassing. | 
 | <kbd>Shift</kbd>+<kbd>Tab</kbd> | In een bewerkbare lijst in dezelfde rij naar het vorige veld naar links gaan. | Niet van toepassing. |
 
-### <a name="a-namecopyrowsaselecting-copying-and-pasting" /><a name="CopyRows"></a>Selecteren, kopiëren en plakken
+### <a name="selecting-copying-and-pasting" /><a name="CopyRows"></a>Selecteren, kopiëren en plakken
 
 |Selecteer deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rast
 |<kbd>Shift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Shift</kbd>+<kbd>Fn</kbd>+<kbd>Pijl omhoog</kbd>)|De selectie van rijen uitbreiden en alle zichtbare rijen onder de huidige selectie van rijen toevoegen.|Niet van toepassing.|
 |<kbd>F8</kbd>|Het veld kopiëren in dezelfde kolom van de rij erboven en het in de huidige rij plakken. U kunt dit alleen doen in bewerkbare lijsten. Gebruik deze sneltoets gevolgd door een <kbd>Tab</kbd> om snel velden te vullen in regelartikelen die u dezelfde waarde wilt geven als de rij erboven.|Niet van toepassing.|
 
-### <a name="a-namekeyboardfilterasearching-and-filtering-lists" /><a name="KeyboardFilter"></a>Lijsten doorzoeken en filteren
+### <a name="searching-and-filtering-lists" /><a name="KeyboardFilter"></a>Lijsten doorzoeken en filteren
 
 |Selecteer deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
@@ -169,7 +169,7 @@ De volgende sneltoetsen zijn beschikbaar op kaartpagina's, zoals **Klant**, en d
 |<kbd>Shift</kbd>+<kbd>F6</kbd>|Naar het vorige <kbd>sneltabblad</kbd> of onderdeel (subpagina) gaan.|
 |*<kbd>Shift</kbd>+<kbd>F9</kbd>*|Een document boeken en afdrukken.|
 
-## <a name="a-namequickentryaquick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Sneltoetsen voor snelle invoer voor velden
+## <a name="quick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Sneltoetsen voor snelle invoer voor velden
 
 De volgende sneltoetsen behoren tot de functie Snelinvoer op kaarten, documenten en lijstpagina's. In lijsten kunnen de sneltoetsen worden gebruikt wanneer de lijst in de tegelweergave is. Zie voor meer informatie over snelinvoer [Gegevensinvoer versnellen met snelinvoer](ui-enter-data.md#QuickEntry).
 
@@ -179,7 +179,7 @@ De volgende sneltoetsen behoren tot de functie Snelinvoer op kaarten, documenten
 |<kbd>Shift</kbd>+<kbd>Enter</kbd>|De waarde in het huidige veld bevestigen en naar het vorige snelinvoerveld gaan.||
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|De waarde in de huidige kolom bevestigen en naar het volgende snelinvoerveld buiten de lijst gaan.<br /><br />Deze snelkoppeling geldt voor ingesloten lijsten op een pagina, zoals regelartikelen op een verkooporder. U kunt hiermee snel uit de lijst gaan en doorgaan met het invoeren van gegevens in andere velden op de pagina.|
 
-## <a name="a-namecalendarshortcutsa-keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Sneltoetsen in de kalender (datumkiezer)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Sneltoetsen in de kalender (datumkiezer)
 
 Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agenda (datumkiezer) openen waarin u de gewenste datum kunt selecteren. De volgende tabel beschrijft de sneltoetsen voor de agenda.
 
@@ -204,7 +204,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |<kbd>h</kbd>|Voer de huidige datum in. "T" betekent "today" (vandaag).|
 |<kbd>w</kbd>|Voer de werkdatum in. Zie [Werkdatum](ui-change-basic-settings.md#work-date) voor meer informatie.|
 
-## <a name="a-namereportpreviewshortcutsakeyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Sneltoetsen in de rapport-preview
+## <a name="keyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Sneltoetsen in de rapport-preview
 
 |Selecteer deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
@@ -218,7 +218,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |<kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pijl omhoog</kbd>)|Naar de volgende pagina's van het rapport gaan.|
 |<kbd>Page up</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pijl omhoog</kbd>)|Naar de vorige pagina's van het rapport gaan.|
 
-## <a name="a-namezoomshortcutsakeyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Sneltoetsen voor het in- en uitzoomen
+## <a name="keyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Sneltoetsen voor het in- en uitzoomen
 
 |Selecteer deze toetsen|Actie|
 |--------------------------------|----------|
@@ -226,7 +226,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |<kbd>Ctrl</kbd>+<kbd>-</kbd>|Uitzoomen op de huidige pagina.|  
 |<kbd>Ctrl</kbd>+<kbd>0</kbd>|Inzoomen of uitzoomen tot 100% op de huidige pagina.|  
 
-## <a name="a-nameroleexplorerakeyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Sneltoetsen voor rollenverkenner
+## <a name="keyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Sneltoetsen voor rollenverkenner
 
 Rollenverkenner geeft u een overzicht en snelle toegang tot alle zakelijke functies die beschikbaar zijn voor uw rol. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md).
 
@@ -238,7 +238,7 @@ Rollenverkenner geeft u een overzicht en snelle toegang tot alle zakelijke funct
 |<kbd>Shift</kbd> <kbd>F3</kbd> of <kbd>Ctrl</kbd>+<kbd>Pijl omhoog</kbd>|Verplaatst de focus naar de vorige gevonden functie in de rollenverkenner.|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>|Alle subknooppunten uitvouwen of samenvouwen, naast knooppunten op het hoogste niveau, wanneer u de actie **Uitvouwen** of **Samenvouwen** kiest.|
 
-## <a name="a-namekeypada-numeric-keypad-shortcuts" /><a name="keypad"></a> Sneltoetsen voor numeriek toetsenblok
+## <a name="numeric-keypad-shortcuts" /><a name="keypad"></a> Sneltoetsen voor numeriek toetsenblok
 
 De volgende tabel beschrijft de sneltoetsen op een numeriek toetsenblok.
 

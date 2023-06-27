@@ -51,7 +51,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 > [!TIP]
 > Afhankelijk van uw geografische locatie bevatten sommige Business Central-pagina's mogelijk velden die niet worden beschreven in de bovengenoemde artikelen, omdat ze van toepassing zijn op lokale functionaliteit of aanpassingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 
@@ -62,6 +62,6 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -32,6 +32,6 @@ De onderstaande tabel geeft de verbindingen met Microsoft-services weer die auto
 
 Uw privacy is belangrijk voor ons. Als u meer wilt weten over hoe Microsoft uw gegevens verwerkt, bekijkt u de [Privacyverklaring van Microsoft](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

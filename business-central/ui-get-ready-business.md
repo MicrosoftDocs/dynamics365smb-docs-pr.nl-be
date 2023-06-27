@@ -71,7 +71,7 @@ Als gebruikers in Microsoft 365 zijn gemaakt, kunnen ze op de pagina **Gebruiker
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.  
 
-### <a name="set-up-your-company-in-includeprodshortincludesprodshortmd" />Uw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-" />Uw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 De [snelstartgids](quick-start-business-central.md)artikelen kunnen u helpen de eerste stappen te zetten bij het instellen van [!INCLUDE [prod_short](includes/prod_short.md)] voor uw organisatie. Binnen [!INCLUDE [prod_short](includes/prod_short.md)] bevat de pagina **Begeleide instelling** de begeleide instellingen die u kunnen helpen. Afhankelijk van uw rol en land of regio, toont de pagina verschillende begeleide instellingen, zoals geïllustreerd in de volgende tabel:
 
@@ -112,6 +112,6 @@ Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe 
 [Gegevens migreren](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Proefversies en abonnementen](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

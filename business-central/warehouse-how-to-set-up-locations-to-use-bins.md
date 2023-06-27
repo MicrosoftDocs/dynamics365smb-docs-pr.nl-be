@@ -51,7 +51,7 @@ Het volgende stroomdiagram geeft weer hoe het veld **Opslaglocatie** op de produ
 
 :::image type="content" source="media/binflow.png" alt-text="Bincodeveld op productieorder-materiaalregels.":::
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Zie gerelateerde [Microsoft-training](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-bins-location/)
 
 ## <a name="see-also" />Zie ook
 

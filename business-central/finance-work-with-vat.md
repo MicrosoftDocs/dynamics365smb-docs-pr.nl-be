@@ -234,7 +234,7 @@ Als u een groep certificaten wilt weergeven, begint u op de pagina **Certificate
 > * Handmatig een certificaat van levering maken  
 > * Een certificaat van levering afdrukken.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

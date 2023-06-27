@@ -30,7 +30,7 @@ Acties, pagina's en rapporten die afkomstig zijn uit extensies worden opgepikt d
 
 De paginazoekfunctie is tot Vertel me geëvolueerd om u te helpen sneller te werken. De paginazoekfunctie kon u alleen helpen navigeren naar pagina's of rapporten. Op technisch niveau is Vertel me niet meer gebaseerd op het oude MenuSuite-concept.
 
-### <a name="i-use-on-premises-includeprodshortincludesprodshortmd-does-that-include-tell-me" />Ik gebruik on-premises [!INCLUDE[prod_short](includes/prod_short.md)]. Omvat dat Vertel me?
+### <a name="i-use-on-premises--does-that-include-tell-me" />Ik gebruik on-premises [!INCLUDE[prod_short](includes/prod_short.md)]. Omvat dat Vertel me?
 
 U kunt Vertel me gebruiken in de on-premises webclient om acties, pagina's en rapporten, maar geen apps en consultingservices te vinden in AppSource.
 

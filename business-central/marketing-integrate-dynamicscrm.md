@@ -138,7 +138,7 @@ Als u prijslijsten wilt synchroniseren, kiest u op de pagina **Verkoopprijslijst
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)    
 [Overzicht van Sales en Verkoophub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

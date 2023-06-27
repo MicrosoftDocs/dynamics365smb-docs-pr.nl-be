@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
 ---
-# <a name="work-with-recurring-revenue-in-includeprodshortincludesprodshortmd" />Werken met periodieke inkomsten in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-" />Werken met periodieke inkomsten in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Veel bedrijven gaan over van een bedrijfsinkomstenmodel waarbij inkomsten worden gegenereerd uit de eenmalige aankoop van een klant naar een abonnementsmodel waarbij inkomsten worden verdiend op een periodieke basis, in ruil voor consistente toegang tot de levering van een goed of dienst.
 [!INCLUDE[prod_short](includes/prod_short.md)] heeft de volgende opties om te automatiseren hoe u abonnementsfacturen naar uw klanten verzendt en periodieke inkomsten registreert. 
@@ -35,7 +35,7 @@ Het periodieke taakdagboek is een geavanceerder alternatief voor het dagboek. U 
 
 Na het plaatsen van een periodiek taakdagboek, kunt u meerdere facturen maken met de taak **Projectverkoopfactuur maken**. U kunt gemaakte facturen bekijken en boeken op de pagina **Verkoopfacturen**.
 
-### <a name="why-use-this-option" />Waarom deze optie gebruiken?
+### <a name="why-use-this-option-1" />Waarom deze optie gebruiken?
 
 Met deze optie volgt u de standaardfactureringsprocedure met alle voordelen daarvan, inclusief standaard- en klantlay-outs voor communicatievoorkeuren. U kunt ook prijzen voor elke taak afzonderlijk definiëren.
 
@@ -47,7 +47,7 @@ Zie voor meer informatie [Projectdagboekregels maken](projects-how-record-job-us
 
 Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u periodieke verkoopregels instellen die u dan kunt invoegen op periodieke verkoop- en inkoopdocumenten, bijvoorbeeld voor periodieke aanvullingsorders. Gebruik de batchverwerking **Periodieke verkoopfacturen maken** om verkoopfacturen te maken volgens de periodieke verkoopregels die zijn toegewezen aan de klanten, en met boekingsdatums binnen de datums voor geldig vanaf en geldig tot die u op de periodieke verkoopregels opgeeft.  
 
-### <a name="why-use-this-option" />Waarom deze optie gebruiken?
+### <a name="why-use-this-option-2" />Waarom deze optie gebruiken?
 
 Met deze optie kunt u dezelfde terugkerende regels aan meerdere klanten toewijzen. U kunt een geldigheidsperiode definiëren voor de periodieke verkoopregels voor een specifieke klant. U kunt meerdere periodieke regels aan dezelfde klant toewijzen en ze worden allemaal op de factuur vermeld.
 
@@ -62,7 +62,7 @@ Een servicecontract bevat de servicecontractovereenkomsten tussen uw klanten en 
 U kunt de begindatum van het contract definiëren en de factuurperiode, of het contract al dan niet vooruitbetaald is, specificaties voor prijsupdates, als u van plan bent de prijzen te wijzigen terwijl het contract actief is. U kunt zowel serviceartikelen als artikelen op servicecontractregels gebruiken.
 U kunt contractsjablonen maken om te definiëren hoe bepaalde soorten contracten worden gemaakt.  
 
-### <a name="why-use-this-option" />Waarom deze optie gebruiken?
+### <a name="why-use-this-option-3" />Waarom deze optie gebruiken?
 
 Met deze optie gebruikt u een deel van de geavanceerde servicebeheerfunctionaliteit dat niet beperkt is tot het uitgeven van periodieke facturen, maar ondersteunt u de reparatiewerkplaats en servicewerkzaamheden.
 
@@ -78,7 +78,7 @@ Er zijn verschillende gerelateerde mogelijkheden in [!INCLUDE[prod_short](includ
 Een verkoopraamcontract biedt een kader voor een langdurige overeenkomst tussen uw bedrijf en uw klant.
 Een raamcontract wordt meestal gemaakt als uw klant ermee heeft ingestemd grote hoeveelheden aan te kopen die in meerdere kleinere zendingen moeten worden geleverd gedurende een bepaalde periode. Inkoopraamcontracten hebben vaak betrekking op slechts één artikel met vooraf vastgestelde leverdatums. De belangrijkste reden voor het gebruik van een raamcontract in plaats van een verkooporder is dat de ingevoerde hoeveelheden op een raamcontract niet van invloed zijn op de artikelbeschikbaarheid, maar echter wel gebruikt kunnen worden voor planningsdoeleinden.
 
-#### <a name="why-use-this-option" />Waarom deze optie gebruiken?
+#### <a name="why-use-this-option-4" />Waarom deze optie gebruiken?
 
 Met deze optie gebruikt u de verwachte vraag, zodat de informatie wordt overwogen tijdens de normale planningsroutines. Zie voor meer informatie [Vraagprognoses en raamcontracten](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
@@ -91,7 +91,7 @@ Zie [Werken met verkoopraamcontracten](sales-how-to-create-blanket-sales-orders.
 U kunt periodieke orders gebruiken om raamcontractsjablonen te maken, zodat verkooporders kunnen worden gemaakt op basis van door u gedefinieerde datumintervallen. Als u bijvoorbeeld elke twee weken dezelfde verkooporder levert, kunt u een algemene verkooporder gebruiken en periodieke orders maken.
 U kunt periodieke groepen gebruiken om een reeks parameters te definiëren die laten zien hoe u de orders plaatst. Deze groepen zijn toegewezen aan raamcontracten die regelmatig moeten worden gemaakt. Om de periodieke orders te maken moet u periodiek het proces voor het maken van periodieke orders uitvoeren. 
 
-#### <a name="why-use-this-option" />Waarom deze optie gebruiken?
+#### <a name="why-use-this-option-5" />Waarom deze optie gebruiken?
 
 Met deze optie kunt u kiezen tussen vaste en "beste" prijzen.
 

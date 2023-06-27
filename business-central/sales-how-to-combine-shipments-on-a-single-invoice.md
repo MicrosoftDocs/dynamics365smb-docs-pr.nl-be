@@ -59,7 +59,7 @@ U kunt afzonderlijke verkooporders ook handmatig verwijderen.
 
 Herhaal stap 1 t/m 3 voor alle andere betrokken documenten, zoals verkoopraamcontracten.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -45,7 +45,7 @@ Als u een vast activum verkoopt of buiten gebruik stelt, moet u de buitengebruik
 
 De pagina **Grootboekposten** wordt geopend. Op deze pagina kunt u de posten zien waarin de boeking van de buitengebruikstelling is geresulteerd.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdispose-fixed-assets" />Zie gerelateerde [Microsoft-training](/training/modules/dispose-fixed-assets/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/dispose-fixed-assets/)
 
 ## <a name="see-also" />Zie ook
 

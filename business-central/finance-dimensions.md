@@ -238,7 +238,7 @@ Op een pagina met posten kunt u bekijken of er globale dimensies van toepassing 
 > [!NOTE]  
 > Op de pagina **Postdimensies** worden de dimensies per post weergegeven. Als u de posten doorloopt, ziet u dat de inhoud op de pagina **Postdimensies** hieraan aangepast.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

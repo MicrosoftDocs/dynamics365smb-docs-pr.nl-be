@@ -47,7 +47,7 @@ Afhankelijk van wat uw situatie is, zullen de daadwerkelijke taken variëren. Ge
 |Van de huidige lay-out die door een rapport wordt gebruikt, overschakelen naar een andere lay-out|[De lay-out instellen die door een rapport wordt gebruikt](ui-set-report-layout.md)|
 |De naam en beschrijving van een lay-out wijzigen|[De naam van een lay-out wijzigen](#rename)|
 
-## <a name="a-namedecideadecide-what-type-of-layout-you-want" /><a name="decide"></a>Bepalen welk type lay-out u wilt
+## <a name="decide-what-type-of-layout-you-want" /><a name="decide"></a>Bepalen welk type lay-out u wilt
 
 Het eerste dat u moet doen bij het maken van een lay-out, is beslissen welk [lay-outtype](ui-manage-report-layouts.md#layout-types) u wilt. U kunt kiezen uit Word, Excel of RDLC. Het lay-outtype is afhankelijk van hoe u wilt dat het gegenereerde rapport eruitziet. Bovendien hangt het af van uw kennis van toepassingssoftware voor het maken van de lay-outs, zoals Word, Excel en SQL Server Report Builder.
 
@@ -66,7 +66,7 @@ Het eerste dat u moet doen bij het maken van een lay-out, is beslissen welk [lay
 
 * De algemene grondslagen voor Word- en RDLC-lay-outs lijken op elkaar. Elk type heeft echter bepaalde ontwerpfuncties die bepalen hoe het gegenereerde rapport eruitziet in [!INCLUDE[prod_short](includes/prod_short.md)]. Hetzelfde rapport kan er anders uitzien wanneer u de Word-lay-out gebruikt dan wanneer u de RDLC-rapportlay-out gebruikt.
 
-## <a name="a-namecreateacreate-a-new-layout" /><a name="create"></a>Een nieuwe lay-out maken
+## <a name="create-a-new-layout" /><a name="create"></a>Een nieuwe lay-out maken
 
 Er zijn twee manieren om een nieuwe lay-out te maken van een bestaande lay-out. Eén manier is door de bestaande lay-out op te slaan als een kopie. De andere manier is om de bestaande lay-out te exporteren.
 
@@ -127,7 +127,7 @@ Als u wilt zien hoe het rapport eruitziet met de nieuwe lay-out, selecteert u de
 
 ---
 
-## <a name="a-namemodifyamodify-a-layout" /><a name="modify"></a>Een lay-out wijzigen
+## <a name="modify-a-layout" /><a name="modify"></a>Een lay-out wijzigen
 
 Volg deze stappen om een bestaande, door de gebruiker ingestelde lay-out te wijzigen.
 
@@ -156,7 +156,7 @@ Volg deze stappen om een bestaande, door de gebruiker ingestelde lay-out te wijz
    Het geselecteerde bestand wordt geüpload naar de lay-out en u keert terug naar de pagina **Rapportlay-outs**.
 7. Als u wilt zien hoe het rapport eruitziet met de nieuwe lay-out, selecteert u de lay-out in de lijst en selecteert u vervolgens **Rapport uitvoeren**.
 
-## <a name="a-namereplaceareplace-a-layout" /><a name="replace"></a>Een lay-out vervangen
+## <a name="replace-a-layout" /><a name="replace"></a>Een lay-out vervangen
 
 Volg deze stappen om het bestaande bestand met de door de gebruiker ingestelde lay-out te vervangen door een nieuw bestand.
 
@@ -168,7 +168,7 @@ Volg deze stappen om het bestaande bestand met de door de gebruiker ingestelde l
    Het geselecteerde bestand wordt geüpload naar de lay-out en u keert terug naar de pagina **Rapportlay-outs**.
 5. Als u wilt zien hoe het rapport eruitziet met de nieuwe lay-out, selecteert u de lay-out in de lijst en selecteert u vervolgens **Rapport uitvoeren**.
 
-## <a name="a-namerenamearename-a-layout" /><a name="rename"></a>De naam van een lay-out wijzigen
+## <a name="rename-a-layout" /><a name="rename"></a>De naam van een lay-out wijzigen
 
 Volg deze stappen als u de naam en beschrijving van een door de gebruiker ingestelde lay-out wilt wijzigen.
 
@@ -179,7 +179,7 @@ Volg deze stappen als u de naam en beschrijving van een door de gebruiker ingest
     > Om u te helpen de lay-out te vinden, gebruikt u het vak **Zoeken**, het deelvenster **Filter** en kolommen sorteren.
 3. Verander de **Lay-outnaam** en selecteer vervolgens **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

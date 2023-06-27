@@ -104,7 +104,7 @@ U vult de velden als volgt in omgekeerde volgorde in:
 
 De ADM-dimensie wordt gekopieerd van locatie OOST.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-set-up-dynamics-365-business-central" />Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn" />Zie gerelateerde training op [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

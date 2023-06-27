@@ -79,7 +79,7 @@ Bankrekeningen in [!INCLUDE[prod_short](includes/prod_short.md)] registreren ban
    Het veld verschilt van het veld **Bankrekeningnr.**, dat ook beschikbaar is op het sneltabblad **Algemeen**.
 4. Vul indien nodig de velden op de pagina **Bankrekeningkaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central" />Zie gerelateerde training op [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Zie gerelateerde training op [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
 ## <a name="see-also" />Zie ook
 

@@ -17,7 +17,7 @@ De pagina **8700 Tabelgegevens** geeft informatie over het aantal records in all
 
 Deze informatie is handig voor het oplossen van prestatieproblemen, omdat het u de verdeling van de gegevensgrootte over tabellen laat zien.
 
-## <a name="viewing-table-information" />Tabelgegevens weergeven
+## <a name="viewing-table-information-1" />Tabelgegevens weergeven
 
 Om deze pagina te openen, selecteert u het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voert u **Tabelgegevens** in en kiest u vervolgens de gerelateerde koppeling.
 

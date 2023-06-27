@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Microsoft Teams-integratie met [!INCLUDE [prod_short](includes/prod_short.md)] beheren
+# <a name="managing-microsoft-teams-integration-with-" />Microsoft Teams-integratie met [!INCLUDE [prod_short](includes/prod_short.md)] beheren
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -42,7 +42,7 @@ In dit gedeelte worden de minimumvereisten voor de functies van de [!INCLUDE [pr
 
     Beleidsinstelling **URL-voorbeelden toestaan** moet zijn ingeschakeld. Anders kan er geen kaart worden gegenereerd voor [!INCLUDE [prod_short](includes/prod_short.md)]-koppelingen die in een Teams-gesprek worden geplakt. Zie voor meer informatie over deze instelling [Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-include-prodshortincludesprodshortmd-app-optional" />De [!INCLUDE [prod_short](includes/prod_short.md)]-app beheren (optioneel)
+### <a name="managing-the--app-optional" />De [!INCLUDE [prod_short](includes/prod_short.md)]-app beheren (optioneel)
 
 Als Teams-beheerder kunt u alle apps voor uw organisatie beheren, inclusief de [!INCLUDE [prod_short](includes/prod_short.md)]-app. U kunt de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor uw organisatie beheren, gebruikers blokkeren tegen het installeren van de app en meer.
 
@@ -51,9 +51,9 @@ Zie de volgende artikelen in de Microsoft Teams-documentatie voor meer informati
 - [Uw apps beheren in het Microsoft Teams-beheercentrum](/MicrosoftTeams/manage-apps)
 - [Installatiebeleid voor apps beheren in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-include-prodshortincludesprodshortmd" />In [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-" />In [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements" />Minimumvereisten
+### <a name="minimum-requirements-1" />Minimumvereisten
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-versie:
 
@@ -103,7 +103,7 @@ In het Microsoft Teams-beheercentrum configureert u het installatiebeleid voor T
 
 Microsoft Teams biedt uitgebreide controles voor naleving en beheer van gevoelige of persoonlijk identificeerbare gegevens&mdash;inclusief gegevens die zijn toegevoegd aan chats en kanalen door de [!INCLUDE [prod_short](includes/prod_short.md)]-app.
 
-### <a name="understanding-where-include-prodshortincludesprodshortmd-cards-are-stored" />Begrijpen waar [!INCLUDE [prod_short](includes/prod_short.md)]-kaarten worden opgeslagen
+### <a name="understanding-where--cards-are-stored" />Begrijpen waar [!INCLUDE [prod_short](includes/prod_short.md)]-kaarten worden opgeslagen
 
 Nadat een kaart naar een chat is verzonden, worden de kaart en de velden op de kaart gekopieerd naar Teams. Deze informatie valt onder het Teams-beleid voor uw organisatie, zoals het beleid voor het bewaren van gegevens. Bij het weergeven van kaartdetails wordt geen van de gegevens in het detailvenster opgeslagen in Teams. De gegevens blijven opgeslagen in [!INCLUDE [prod_short](includes/prod_short.md)] en worden alleen opgehaald door Teams wanneer de gebruiker ervoor kiest om de details te bekijken. 
 
@@ -153,7 +153,7 @@ Overzicht van integratie tussen [[!INCLUDE [prod_short](includes/prod_short.md)]
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

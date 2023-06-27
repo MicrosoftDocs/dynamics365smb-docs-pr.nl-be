@@ -120,7 +120,7 @@ De pagina **Correctie OCR-gegevens**, die u opent vanuit de pagina **Inkomend do
 
 De velden op het sneltabblad **Financiële informatie** op de pagina **Inkomende documenten** worden bijgewerkt met nieuwe waarden die u in stap 4 hebt ingevoerd.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

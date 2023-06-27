@@ -31,7 +31,7 @@ Lees voor meer informatie het artikel over de extensie voor uw QuickBooks-app:
 
 Als u klaar bent om nu aan de slag te gaan, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies vervolgens de gerelateerde koppeling. Kies **Bedrijfsgegevens migreren** en voer de stappen in de handleiding uit.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 In dit artikel worden enkele van de vragen beantwoord die u mogelijk hebt over het werken met OneDrive en [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="does-this-work-with-all-includeprodshortincludesprodshortmd-clients" />Werkt dit met alle [!INCLUDE[prod_short](includes/prod_short.md)]-clients?
+## <a name="does-this-work-with-all--clients" />Werkt dit met alle [!INCLUDE[prod_short](includes/prod_short.md)]-clients?
 
 Ja. U kunt bestanden openen in OneDrive vanuit de mobiele [!INCLUDE[prod_short](includes/prod_short.md)]-apps, bij het bekijken van kaartgegevens in Microsoft Teams of zelfs vanuit de Outlook-invoegtoepassing.  
 
@@ -24,7 +24,7 @@ Ja. U kunt bestanden openen in OneDrive vanuit de mobiele [!INCLUDE[prod_short](
 
 Als onderdeel van uw Microsoft 365-abonnement biedt uw organisatie u OneDrive, uw bestandsopslag in de cloud. OneDrive is standaard privé, waar u uw inhoud ordent en kiest welke bestanden of mappen u wilt delen en met wie. SharePoint biedt aan de andere kant een bestandsopslag in de cloud die wordt gedeeld met anderen in uw organisatie.  
 
-## <a name="does-includeprodshortincludesprodshortmd-support-consumer-onedrive" />Ondersteunt [!INCLUDE[prod_short](includes/prod_short.md)] OneDrive voor consumenten?
+## <a name="does--support-consumer-onedrive" />Ondersteunt [!INCLUDE[prod_short](includes/prod_short.md)] OneDrive voor consumenten?
 
 Nee. Deze integratie is uitsluitend bedoeld voor OneDrive voor Bedrijven en ondersteunt alleen uw werkaccount. 
 
@@ -36,15 +36,15 @@ Nee. Deze integratie is uitsluitend bedoeld voor OneDrive voor Bedrijven en onde
 
 Beheerders hebben toegang tot het servicestatusdashboard als onderdeel van het Microsoft 365-beheercentrum. Het dashboard bevat de beschikbaarheid van de OneDrive-service. Ga naar [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
-## <a name="is-onedrive-integration-available-to-includeprodshortincludesprodshortmd-on-premises" />Is OneDrive-integratie beschikbaar voor [!INCLUDE[prod_short](includes/prod_short.md)] on premises?
+## <a name="is-onedrive-integration-available-to--on-premises" />Is OneDrive-integratie beschikbaar voor [!INCLUDE[prod_short](includes/prod_short.md)] on premises?
 
 Ja, maar in tegenstelling tot [!INCLUDE[prod_short](includes/prod_short.md)] online, zijn er meer instellingen vereist. Zie voor meer informatie [Business Central On-Premises configureren](admin-onedrive-integration-onpremises.md).  
 
-## <a name="does-includeprodshortincludesprodshortmd-on-premises-connect-with-sharepoint-server" />Maakt [!INCLUDE[prod_short](includes/prod_short.md)] on premises verbinding met SharePoint Server?
+## <a name="does--on-premises-connect-with-sharepoint-server" />Maakt [!INCLUDE[prod_short](includes/prod_short.md)] on premises verbinding met SharePoint Server?
 
 Nr. Deze implementatiecombinatie wordt niet ondersteund, zelfs niet als SharePoint Server Mijn sites heeft ingeschakeld.  
 
-## <a name="does-includeprodshortincludesprodshortmd-online-connect-with-sharepoint-server" />Maakt [!INCLUDE[prod_short](includes/prod_short.md)] online verbinding met SharePoint Server?
+## <a name="does--online-connect-with-sharepoint-server" />Maakt [!INCLUDE[prod_short](includes/prod_short.md)] online verbinding met SharePoint Server?
 
 Nr. Deze implementatiecombinatie wordt niet ondersteund, zelfs niet als SharePoint Server Mijn sites heeft ingeschakeld.  
 
@@ -56,7 +56,7 @@ De integratie gaat ervan uit dat bedrijfsnamen uniek zijn in de [!INCLUDE[prod_s
 
 [!INCLUDE[prod_short](includes/prod_short.md)] migreert niet automatisch bestanden die u eerder hebt geopend in OneDrive naar de nieuwe map. Na het hernoemen van uw bedrijf, kopieert de actie Openen in OneDrive bestanden naar een map met de nieuwe bedrijfsnaam.   
 
-## <a name="when-attaching-files-to-includeprodshortincludesprodshortmd-how-do-i-pick-a-file-from-onedrive" />Bij het toevoegen van bestanden aan [!INCLUDE[prod_short](includes/prod_short.md)], hoe kies ik dan een bestand uit OneDrive?
+## <a name="when-attaching-files-to--how-do-i-pick-a-file-from-onedrive" />Bij het toevoegen van bestanden aan [!INCLUDE[prod_short](includes/prod_short.md)], hoe kies ik dan een bestand uit OneDrive?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt geen cloud-bestandskiezer. U moet het bestand downloaden van OneDrive naar uw apparaat en het vervolgens uploaden naar [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -72,11 +72,11 @@ Voer de begeleide instelling **Configuratie van OneDrive** uit en schakel de sch
 
 Dit is een verouderde functie waarbij alle [!INCLUDE[prod_short](includes/prod_short.md)]-bestanden van alle gebruikers worden verzonden naar één SharePoint-map. We raden u aan het sneltabblad Gedeelde documenten niet te configureren op de pagina **Instellingen SharePoint-verbinding** omdat deze pagina is [verouderd](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) en in releasewave 2 van 2023, versie 23.0 wordt verwijderd.  We raden u aan om in plaats daarvan **Configuratie van OneDrive** te gebruiken.  
 
-## <a name="which-version-of-includeprodshortincludesprodshortmd-supports-onedrive" />Welke versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt OneDrive?
+## <a name="which-version-of--supports-onedrive" />Welke versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt OneDrive?
 
 Integratie met OneDrive kwam beschikbaar in releasewave 2 van 2021.  
 
-## <a name="a-namefeaturesawhich-features-are-affected-by-onedrive-integration" /><a name="features"></a>Welke functies worden beïnvloed door OneDrive-integratie?
+## <a name="which-features-are-affected-by-onedrive-integration" /><a name="features"></a>Welke functies worden beïnvloed door OneDrive-integratie?
 
 In de begeleide instelling **Configuratie van OneDrive** voor het instellen van OneDrive-integratie, kunt u functies voor het verwerken van Business Central-bestanden in OneDrive in- of uitschakelen. De functies zijn verdeeld over twee opties:
 

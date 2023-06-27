@@ -158,7 +158,7 @@ Als u kostenwaardering wilt instellen die automatisch wordt uitgevoerd wanneer u
 
 De keuze die u in het veld **Automatische kostenwaardering** maakt is belangrijk voor de prestaties en nauwkeurigheid van de kosten. Kortere perioden, bijvoorbeeld **Dag** of **Week**, hebben invloed op systeemprestaties omdat hiermee de strengere vereiste geldt dat alleen kosten die op de laatste dag of in de laatste week zijn geboekt, automatisch kunnen worden aangepast. Dit betekent dat de automatische kostenwaardering niet zo frequent wordt uitgevoerd, wat invloed heeft op systeemprestaties. Dit betekent echter ook dat de kostprijs minder nauwkeurig kan zijn.  
 
-### <a name="example" />Opmerking
+### <a name="example-1" />Opmerking
 
 In het volgende voorbeeld wordt een automatisch kostenherwaarderingscenario getoond:  
 

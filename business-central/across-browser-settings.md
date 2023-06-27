@@ -50,7 +50,7 @@ Als de browser geen cookies toestaat, krijgt u de volgende foutmelding:
 1. Ga in Microsoft Edge naar **Instellingen** > **Cookies en sitetoestemmingen** > **Cookies en sitegegevens**.
 2. Verplaats de schakelaar **Sites toestaan cookiegegevens op te slaan en te lezen** naar rechts (Aan).  
 
-## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Pop-ups toestaan vanuit Business Central
+## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Pop-ups toestaan vanuit Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreert met verschillende producten. In sommige gevallen, zoals bij Microsoft Teams, wordt [!INCLUDE[prod_short](includes/prod_short.md)] geopend in een venster binnen het product. Deze mogelijkheid vereist dat uw browser pop-ups toestaat vanuit [!INCLUDE[prod_short](includes/prod_short.md)].
 

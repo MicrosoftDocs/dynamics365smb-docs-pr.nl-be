@@ -61,7 +61,7 @@ Om Business Central on-premises te verbinden, moet u een app maken in de Tradesh
 
 Als u de app-id en het geheim liever op een andere locatie opslaat, kunt u de velden Client-id en Clientgeheim leeg laten en een extensie schrijven om de id en het geheim van de locatie op te halen. U kunt het geheim tijdens runtime verstrekken door u te abonneren op de gebeurtenissen OnGetClientId en OnGetClientSecret events in codeunit 1410 'Beheer service doc.uitw.'
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

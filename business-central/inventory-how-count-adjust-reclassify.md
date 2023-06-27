@@ -202,7 +202,7 @@ Boek de correctieopslaglocatierecords in het artikelboek voor de perioden die u 
 5. Klik op **OK**. De positieve en negatieve correcties worden opgeteld voor elk artikel en er worden regels gemaakt in het artikeldagboek.  
 6. Boek de dagboekregels om de verschillen in aantal in te voeren op de artikelposten. De voorraden in de opslaglocaties en het artikelboek komen nu overeen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Zie gerelateerde [Microsoft-training](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Zie ook
 

@@ -123,7 +123,7 @@ De volgende tabel bevat voorbeelden van datums met alle indelingen. Er wordt uit
 |d 23|Dinsdag van week 23 van het werkdatumjaar|
 |d-1|Dinsdag van week 1 van het werkdatumjaar|
 
-## <a name="a-namebkmksettingdaterangesa-setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Datumbereiken instellen
+## <a name="setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Datumbereiken instellen
 
 In lijsten, totalen en rapporten kunt u filters instellen op datum, tijden en datumtijden. De filters kunnen een begindatum en desgewenst een einddatum bevatten om alleen de gegevens uit dat bereik weer te geven. Voor het instellen van een datumbereik gelden de standaardregels.
 
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas" />Use Date Formulas
+## <a name="use-date-formulas-1" />Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -345,7 +345,7 @@ Voer een getal in om te zien welke maateenheid in een duurveld wordt gebruikt. V
 
 Als de maateenheid bijvoorbeeld uren is, wordt het getal 5 bijvoorbeeld naar 5 uur geconverteerd.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

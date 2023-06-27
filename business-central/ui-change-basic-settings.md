@@ -17,7 +17,7 @@ Op de pagina **Mijn instellingen** kunt u basisinstellingen bekijken en wijzigen
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namerole-centerarole" /><a name="role-center"></a>Rol
+## <a name="role" /><a name="role-center"></a>Rol
 
 Het rolcentrum vertegenwoordigt de startpagina, een startscherm dat is ontworpen voor de vereisten van een specifieke rol in een organisatie. Afhankelijk van uw rol krijgt u op de startpagina of in het Rolcentrum een overzicht van het bedrijf, uw afdeling of uw persoonlijke taken. Het helpt u ook navigeren naar uw dagelijkse taken en werk te zoeken dat aan u is toegewezen.
 
@@ -33,7 +33,7 @@ De standaardrol is **Bedrijfsmanager**, maar u kunt een andere rol selecteren om
 2. Selecteer op de pagina **Instellingen** in het veld **Rol** de rol die u als standaard wilt gebruiken. Selecteer bijvoorbeeld **Accountant**.
 3. Klik op **OK**.
 
-## <a name="a-namecompanyacompany" /><a name="company"></a>Bedrijf
+## <a name="company" /><a name="company"></a>Bedrijf
 
 Een bedrijf werkt als een container voor gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]. Een database kan meerdere bedrijven bevatten, maar er kan slechts één bedrijf tegelijk worden geselecteerd. Het standaardbedrijf heet CRONUS en bevat alleen demogegevens.
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="a-namebadgeato-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
+### <a name="to-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -63,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="a-namework-dateawork-date" /><a name="work-date"></a>Werkdatum
+## <a name="work-date" /><a name="work-date"></a>Werkdatum
 
 De meest gebruikte werkdatum is de datum van vandaag. U moet de werkdatum mogelijk tijdelijk wijzigen om taken te kunnen uitvoeren, zoals het voltooien van transacties voor een datum die niet vandaag is.
 
@@ -83,11 +83,11 @@ De werkdatum is van cruciaal belang voor pagina's die kunnen worden bewerkt. Wan
 
 Als de werkdatum niet is ingesteld op de huidige dag (vandaag) wordt op alle pagina's waar u gegevens kunt bewerken, de huidige werkdatum weergegeven in de rechterbovenhoek.
 
-## <a name="a-nameregiona-region" /><a name="region"></a> Regio
+## <a name="region" /><a name="region"></a> Regio
 
 De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, nummers en valuta's. Het bepaalt ook welk teken wordt gebruikt als decimaalteken bij het gebruik van een numeriek toetsenbord om gegevens in te voeren. Meer informatie op [Gegevens invoeren](ui-enter-data.md#decimal).
 
-## <a name="a-namelanguagea-language" /><a name="language"></a> Taal
+## <a name="language" /><a name="language"></a> Taal
 
 Wijzigt de weergavetaal. Dit veld wordt alleen weergegeven als uit meerdere talen kan worden gekozen.
 
@@ -107,7 +107,7 @@ Kies de koppeling *Wijzigen wanneer ik berichten ontvang* om de berichten te zie
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

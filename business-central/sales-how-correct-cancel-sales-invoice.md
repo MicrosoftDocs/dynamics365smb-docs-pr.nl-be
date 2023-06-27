@@ -61,7 +61,7 @@ Als de annulering betrekking heeft op een gedeeltelijke factuurboeking, wordt de
     Een verkoopcreditnota wordt automatisch gemaakt en geboekt om de oorspronkelijke geboekte verkoopfactuur nietig te verklaren.
 5. Kies de actie **Corrigerende creditnota tonen** om de geboekte verkoopcreditnota weer te geven die de in eerste instantie geboekte verkoopfactuur nietig verklaart.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

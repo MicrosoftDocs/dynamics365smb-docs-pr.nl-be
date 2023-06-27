@@ -89,7 +89,7 @@ Bij de berekening van het herwaardeerbare aantal voor artikelen met de waarderin
 -   Een waardepost met de boekingssoort **Verschil**. Met deze post wordt het verschil tussen de gefactureerde kosten en de geherwaardeerde vaste verrekenprijs vastgelegd.  
 -   Een waardepost met de boekingssoort **Herwaardering**. Met deze post wordt de tegenboeking van de herwaardering van de verwachte kosten vastgelegd.  
 
-### <a name="example" />Opmerking
+### <a name="example-1" />Opmerking
 Het volgende voorbeeld, dat is gebaseerd op de productie van de ketting in het vorige voorbeeld, laat zien hoe de drie soorten posten worden gemaakt. Het is gebaseerd op het volgende scenario:  
 
 1.  De gebruiker boekt de ingekochte schakels als ontvangen met een kostprijs van LV 2,00.  
@@ -123,7 +123,7 @@ De volgende tabel toont de criteria die worden gebruikt voor een artikel die de 
 |O|Later dan herwaarderingspost nr.|Gelijk aan herwaarderingboekingsdatum|Ja|  
 |V|Later dan herwaarderingspost nr.|Later dan herwaarderingboekingsdatum|Ja|  
 
-### <a name="example" />Opmerking
+### <a name="example-2" />Opmerking
 Het volgende voorbeeld, dat herwaardering toont van een artikel dat de waarderingsmethode FIFO gebruikt, is gebaseerd op het volgende scenario:  
 
 1.  Op 01-01-20 boekt de gebruiker een verkoop van 6 eenheden.  

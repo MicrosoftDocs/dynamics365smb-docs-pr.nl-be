@@ -36,7 +36,7 @@ Tellen, corrigeren en herindelen van artikelen kunnen magazijntaken omvatten die
 |Gebruik het magazijnverplaatsingsvoorstel, interne picking en opslag om artikelen in geavanceerde magazijnconfiguraties te verplaatsen met gestuurde opslag en pick.|[Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |De magazijnstructuur aanpassen met nieuwe opslaglocatiecodes en -kenmerken.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Zie ook
 

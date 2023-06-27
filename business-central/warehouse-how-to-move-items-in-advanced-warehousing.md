@@ -138,7 +138,7 @@ Als u moet registreren dat artikelen al naar andere opslaglocaties zijn verplaat
 2. Vul de velden **Artikelnr.**, **Van zone**, **Van opslaglocatie**, **Naar zone** en **Naar opslaglocatie** in.  
 3. Kies de actie **Registreren**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Zie ook
 

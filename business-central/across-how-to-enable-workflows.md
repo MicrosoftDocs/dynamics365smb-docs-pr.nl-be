@@ -22,7 +22,7 @@ Maak op de pagina **Werkstroom** een werkstroom door de betrokken stappen te ver
 2. Open de werkstroom die u wilt inschakelen.  
 3. Zet de schakelaar **Geactiveerd** aan op de pagina **Werkstroom**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Zie ook
 

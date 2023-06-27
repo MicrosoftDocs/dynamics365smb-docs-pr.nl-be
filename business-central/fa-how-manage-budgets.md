@@ -54,7 +54,7 @@ U kunt het rapport **Vast activum - Geschatte waarde** gebruiken om toekomstige 
 4. Laat het sneltabblad **Vast activum** leeg, zodat alle activa in de lijst worden opgenomen. Stel het veld **Alleen budget** in op **Nee** om gebudgetteerde activa uit te sluiten, of stel het veld in op **Ja** om alleen gebudgetteerde activa te zien.
 5. Kies de knop **Afdrukken** of **Voorbeeld**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudget-fixed-assets" />Zie gerelateerde [Microsoft-training](/training/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also" />Zie ook
 

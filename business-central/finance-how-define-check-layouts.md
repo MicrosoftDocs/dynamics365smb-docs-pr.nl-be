@@ -70,7 +70,7 @@ Hieronder volgt een samenvatting van de specificaties voor de MICR CMC-7-lettert
 
 ![MICR CMC-7-specificaties.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-specificaties")
 
-### <a name="delimiter-characters" />Scheidingstekens
+### <a name="delimiter-characters-1" />Scheidingstekens
 
 ![Scheidingstekens voor CMC-7.](media/font-cmc7-letters.png "Scheidingstekens voor CMC-7")
 

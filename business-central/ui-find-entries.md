@@ -46,7 +46,7 @@ Nadat u een selectie hebt gemaakt, voert u de relevante zoekinformatie in de vel
 > [!TIP]
 > Voor een paar voorbeelden over het gebruik van **Posten zoeken** raadpleegt u [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md) en [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

@@ -34,7 +34,7 @@ Als u meerdere SKU's voor een artikel wilt maken, kunt u de batchverwerking **SK
 > Wanneer de SKU wordt geleverd via productie, wordt het veld **Vaste verrekenprijs** niet gebruikt bij de facturering en de berekening van de werkelijke kosten van het geproduceerde artikel. In plaats daarvan gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de waarde in het veld **Vaste verrekenprijs** van de artikelkaart en worden eventuele afwijkingen berekend tegen het kostenaandeel van dat artikel.<br><br>
 > Hoewel u productiestuklijsten en bewerkingsplannen aan SKU's kunt toewijzen, zijn de berekening van kosten per eenheid en de bijbehorende berekening van het kostenaandeel niet beschikbaar voor SKU's. Ga voor meer informatie over vaste verrekenprijzen naar [Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-trainingtrainingmodulescontrol-inventory-multiple-locations" />Zie gerelateerde [Microsoft-training](/training/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/control-inventory-multiple-locations/)
 
 ## <a name="see-also" />Zie ook
 

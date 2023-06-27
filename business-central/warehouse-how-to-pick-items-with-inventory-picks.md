@@ -118,7 +118,7 @@ In scenario's waarbij een deel van de hoeveelheid wordt geassembleerd en een and
 > [!NOTE]  
 > Als artikelen op bestelling worden geassembleerd, maakt de voorraadpick voor de gekoppelde verkooporder een voorraadverplaatsing voor alle assemblagematerialen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Zie ook
 

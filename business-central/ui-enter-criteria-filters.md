@@ -77,7 +77,7 @@ In de volgende tabel vindt u enkele voorbeelden om aan te geven hoe u de zoekact
 |`@*man`|Alle records met velden die eindigen met **man**, ongeacht hoofdletters. Bijvoorbeeld **Sportsman**, maar niet **Manchester** of **manual**.|
 
 
-## <a name="a-namefilteringafiltering" /><a name="filtering"></a>Filteren
+## <a name="filtering" /><a name="filtering"></a>Filteren
 
 Filtering biedt een geavanceerdere en flexibelere manier om te bepalen welke records in een lijst, rapport of XMLport worden opgenomen. Er zijn twee belangrijke verschillen tussen zoeken en filteren, zoals wordt beschreven in de volgende tabel.
 
@@ -249,7 +249,7 @@ U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaa
 |`..1299|1400..`|Records met een nummer kleiner dan of gelijk aan 1299 of gelijk aan 1400 en hoger. Met andere woorden: alle nummers behalve 1300 tot en met 1399.|  
 |`>50&<100`|Records met een nummer groter dan 50 en kleiner dan 100, ofwel nummer 51 tot en met 99.|  
 
-### <a name="a-namesymbolsafiltering-on-values-that-contain-symbols" /><a name="symbols"></a>Filteren op waarden die symbolen bevatten
+### <a name="filtering-on-values-that-contain-symbols" /><a name="symbols"></a>Filteren op waarden die symbolen bevatten
 
 Er kunnen gevallen zijn waarin veldwaarden een van de volgende symbolen bevatten:
 
@@ -302,7 +302,7 @@ Gebruik `%myvendors` in het veld leveranciers**nr.** om alle records weer te gev
 |-----------------------|-----------------------|  
 |`%myvendors`|Leveranciers in **Mijn leveranciers** in uw rolcentrum. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

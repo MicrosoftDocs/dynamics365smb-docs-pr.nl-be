@@ -35,7 +35,7 @@ Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking w
 > [!NOTE]
 > Elke [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving is bedoeld voor het afhandelen van wettelijke rapportage in één enkel land/regio. Bijvoorbeeld de Nederlandse versie van [!INCLUDE[prod_short](includes/prod_short.md)] verzorgt btw-aangifte in Nederland maar niet in andere landen/regio's. Evenzo verwerkt de Amerikaanse versie van [!INCLUDE[prod_short](includes/prod_short.md)] 1099-rapportage in de Verenigde Staten en biedt deze geen ondersteuning voor het claimen van btw-aangifte in andere landen/regio's, tenzij door een extensie geleverd door ons partnerecosysteem of een klantspecifieke codewijziging.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Informatie over het Verkoopoverzicht EU
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Informatie over het Verkoopoverzicht EU
 
 In de Europese Unie (EU) en het VK moeten alle bedrijven die goederen en diensten verkopen aan btw-plichtige klanten, inclusief klanten in andere EU-landen/regio's, een elektronische versie van het Verkoopoverzicht EU indienen bij hun douane- en belastingautoriteiten. De lijst **Verkoopoverzicht EU** werkt alleen voor landen/regio's in de EU.
 
@@ -53,7 +53,7 @@ Nadat de belastingdienst uw lijst heeft gecontroleerd, wordt er een e-mail naar 
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>Informatie over het rapport Btw-aangifte
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>Informatie over het rapport Btw-aangifte
 
 Gebruik deze lijst om btw voor verkoop- en inkoopdocumenten in te dienen, zoals inkoop- en verkooporders, facturen en creditnota's. De informatie in de lijst heeft dezelfde indeling als op het declaratieformulier van de douane en de belastingdienst.  
 
@@ -73,7 +73,7 @@ Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[p
     > [!NOTE]  
     > Het is aan te raden de verbinding te testen. Kies hiervoor het selectievakje **Testmodus** en bereid uw btw-aangifte voor en verzend deze zoals beschreven in de sectie [Een btw-aangifte voorbereiden en indienen](#to-prepare-and-submit-a-vat-report). In de testmodus test de service of de belastingdienst uw aangifte kan ontvangen en de status van de aangifte geeft aan of de testindiening succesvol was. Vergeet niet dat dit geen werkelijke indiening is. Als u de aangifte echt wilt indienen, moet u het selectievakje **Testmodus** uitzetten en de indiening herhalen.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />Btw-rapporten instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-" />Btw-rapporten instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ De volgende tabel beschrijft codeunits die u voor uw lijst moet maken.
 > [!Note]
 > Wanneer u codeunits maakt voor het rapport, besteed dan aandacht aan de waarde in het veld **Btw-rapportversie**. Dit veld moet de versie reflecteren van het rapport dat is of werd vereist door de belastingdienst. U kunt bijvoorbeeld **2021** in het veld invoeren om aan te geven dat de lijst voldoet aan de vereisten die dat jaar golden. Als u de huidige versie wilt bepalen, neemt u contact op met de belastingdienst.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

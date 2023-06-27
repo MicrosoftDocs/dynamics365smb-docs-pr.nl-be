@@ -39,7 +39,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |De geplande beschikbare voorraad voor een artikel bekijken in verschillende weergaven en nagaan welke brutobehoeften, geplande ontvangsten en andere gebeurtenissen hierop in de loop van de tijd van invloed zijn.|[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)|  
 <!--|Geselecteerde planningsactiviteiten, zoals het wijzigen of toevoegen van planningsvoorstelregels, in een grafische weergave van de toeleveringsketen uitvoeren.|[Planningsuggesties in een grafische weergave wijzigen](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 
@@ -51,7 +51,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

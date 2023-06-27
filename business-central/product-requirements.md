@@ -53,7 +53,7 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 
 **Bewerken Excel:** als u de Excel-invoegtoepassing wilt gebruiken om wijzigingen in Excel aan te brengen en de wijzigingen naar [!INCLUDE[prod_short](includes/prod_short.md)] terug te sturen, hebt u Excel 2019 of hoger nodig. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="a-nametaca-using-the-business-central-administration-center" /><a name="TAC"></a> Het beheercentrum van Business Central gebruiken
+## <a name="using-the-business-central-administration-center" /><a name="TAC"></a> Het beheercentrum van Business Central gebruiken
 
 Het beheercentrum is ontworpen om te werken met de huidige versie van de volgende browsers:
 

@@ -38,7 +38,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
  Wijzigingen in de rapportlay-outs worden getest, maar niet toegepast op de werkelijke rapportlay-outs. De pagina **Bijwerklogboek rapportlay-out** verschijnt waarin de status van potentiële updates voor elke rapportlay-out wordt aangegeven. Als er fouten voor een rapportlay-out zijn, kunt u de rapportlay-out van het bericht direct benaderen en bewerken om eventuele problemen te verhelpen. Zie [Fouten corrigeren](ui-update-report-layouts.md#FixErrors) voor meer informatie.  
 
-## <a name="a-nameupdatelimitationsa-limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Beperking voor update van aangepaste rapportlay-out
+## <a name="limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Beperking voor update van aangepaste rapportlay-out
  Er zijn verschillende soorten wijzigingen die de automatische update kan toepassen op aangepaste rapportlay-outs, bijvoorbeeld als een veld dat in de lay-out wordt gebruikt, in verwijderd uit de gegevensset van het rapport. De automatische update kan de volgende wijzigingen in de gegevensset van een rapport echter bijwerken.  
 
 1.  Verwijderde velden, labels of gegevensitems.  
@@ -49,7 +49,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
  Als tijdens het updateproces een van deze problemen wordt gedetecteerd, kan de update niet worden toegepast. U moet de problemen handmatig verhelpen, bijvoorbeeld door de rapportlay-out te bewerken in Word, of programmatisch met behulp van upgrade-codeunits.  
 
-## <a name="a-namefixerrorsa-fixing-errors" /><a name="FixErrors"></a> Fouten corrigeren
+## <a name="fixing-errors" /><a name="FixErrors"></a> Fouten corrigeren
  Als er een foutbericht verschijnt tijdens het bijwerken of testen van updates van de rapportlay-out, moet u waarschijnlijk de rapportlay-out wijzigen om het probleem op te lossen. Zie de foutmelding om de oorzaak van het probleem te achterhalen.  
 
  Het meest voorkomende probleem is dat een veld dat in de lay-out wordt gebruikt, uit de rapportgegevensset is verwijderd. In dit geval ziet u een regel in het foutbericht die zegt dat er een artikel is verwijderd. Als u dit probleem wilt oplossen, moet u de lay-out wijzigen en het desbetreffende veld verwijderen.  
@@ -58,7 +58,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
 Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
  [Rapportlay-outs beheren](ui-manage-report-layouts.md)  

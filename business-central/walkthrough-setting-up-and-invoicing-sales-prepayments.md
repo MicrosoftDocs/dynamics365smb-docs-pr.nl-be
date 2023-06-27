@@ -235,7 +235,7 @@ Ook hebt u geleerd hoe u een vooruitbetalingsfactuur boekt, een tweede vooruitbe
 
 De vooruitbetalingsmogelijkheden maken het gemakkelijk om vooruitbetalingsregels voor klanten en artikelen in te stellen en af te dwingen. Ze laten u ook elke betaling tegen een factuur boeken.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -47,7 +47,7 @@ Alle inkomende documentrecords worden weergegeven, inclusief records waarvan het
 > [!NOTE]  
 > U kunt deze actie uitvoeren voor de afzonderlijke contactkaart op de pagina **Kaart inkomend document**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
   

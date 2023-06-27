@@ -16,7 +16,7 @@ Gebruik een externe service om de laatste valutawisselkoersen op te halen in de 
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="a-namecurracurrencies" /><a name="curr"></a>Valuta's
+## <a name="currencies" /><a name="curr"></a>Valuta's
 
 In de volgende tabel worden de velden in de lijst **Valuta's** beschreven.
 
@@ -111,7 +111,7 @@ U kunt een valutacode voor een dagboekregel invoeren en de regel naar een grootb
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

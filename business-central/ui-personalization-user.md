@@ -58,7 +58,7 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 6. Kies het element en kies vervolgens **Verplaatsen**, **Verwijderen**, **Verbergen**, **Weergeven**, **Weergeven onder 'Meer tonen'**, **Weergeven wanneer samengevouwen**, **Altijd weergeven**, **Bevroren deelvenster instellen/wissen** of **Opnemen in/Uitsluiten van snelinvoer**, afhankelijk van het type en de status van het UI-element. Zie [Wat kunt u personaliseren](#What) voor meer informatie.
 7. Wanneer u klaar bent met het wijzigen van de indeling van een of meer pagina's, kiest u de knop **Gereed** in de banner **Personaliseren**.
 
-## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Wat kunt u personaliseren
+## <a name="what-you-can-personalize" /><a name="What"></a>Wat kunt u personaliseren
 
 |Wat u wilt doen?|Hoe kunt u het doen?|Opmerkingen|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 |Voeg een nieuwe actie toe aan een pagina of rapport in uw rolcentrum.|Kies op de doelpagina, de rapportverzoekpagina of het venster Vertel me het bladwijzerpictogram.|Zie [Een bladwijzer maken van een pagina of rapport in uw rolcentrum](ui-bookmarks.md)|
 |Start een lijst altijd uitgevouwen of samengevouwen|Kies in de linkerbovenhoek van de lijst **Alles uitvouwen** of **Alles samenvouwen**. U kunt ook de actie **Alles uitvouwen** of **Alles samenvouwen** kiezen in het menu van de eerste kolom. |Is van toepassing op samenvouwbare hiërarchielijsten|
 
-## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>De actiebalk en menu's personaliseren
+## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>De actiebalk en menu's personaliseren
 
 Met personalisatie kunt u bepalen welke acties op de navigatie- en actiebalk en in rolcentra worden weergegeven en waar deze worden weergegeven. U kunt afzonderlijke acties of actiegroepen weergeven, verbergen of verplaatsen.
 
@@ -116,7 +116,7 @@ Waar u acties of actiegroepen kunt neerzetten wordt aangegeven door een horizont
 1. Als u een actie of actiegroep wilt verplaatsen, sleept u deze naar de gewenste positie, net als met velden en kolommen.
 2. Als u een actie of actiegroep verplaatst naar een andere actiegroep die leeg is, sleept u de actie of actiegroep naar de nieuwe groep en zet u deze neer in het kader **Hier een actie neerzetten**.
 
-## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Onderdelen personaliseren
+## <a name="personalizing-parts" /><a name="Parts"></a>Onderdelen personaliseren
 
 Onderdelen zijn gebieden op een pagina die doorgaans zijn samengesteld uit meerdere velden, grafieken of andere inhoud. Een onderdeel toont een gekleurde rand wanneer u op het onderdeel focust. Een startscherm van een rolcentrum bestaat bijvoorbeeld uit meerdere delen. Vanwege hun goed gedefinieerde grens kunt u het hele onderdeel en de inhoud ervan personaliseren.
 
@@ -158,7 +158,7 @@ Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrij
    > [!TIP]
    > Als beheerder kunt u de optie **Automatisering** verbergen voor gebruikers. Zie voor meer informatie [Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  

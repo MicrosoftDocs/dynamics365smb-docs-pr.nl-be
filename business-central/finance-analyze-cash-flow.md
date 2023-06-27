@@ -42,7 +42,7 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 2. Kies een cashflowprognose en kies vervolgens de actie **Cashflowvoorstel**.  
 3. Kies op de pagina **Cashflowvoorstel** de actie **Voorstelregels voorstellen**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

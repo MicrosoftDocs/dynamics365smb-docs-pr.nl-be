@@ -10,7 +10,7 @@ ms.search.form: '39, 251, 981'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="letting-includeprodshortincludesprodshortmd-suggest-values" />[!INCLUDE[prod_short](includes/prod_short.md)] waarden laten voorstellen
+# <a name="letting--suggest-values" />[!INCLUDE[prod_short](includes/prod_short.md)] waarden laten voorstellen
 [!INCLUDE[prod_short](includes/prod_short.md)] kan u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren. Hoewel dergelijke automatische gegevensinvoer altijd correct is, kunt u deze later wijzigen als u wilt.
 
 De functionaliteit waarmee veldwaarden voor u worden ingevoerd, wordt meestal aangeboden voor taken waarin u grote volumes transactiegegevens invoert en fouten wilt voorkomen en tijd wilt besparen. Dit onderwerp bevat een selectie van deze functionaliteit. In toekomstige updates van [!INCLUDE[prod_short](includes/prod_short.md)] worden meer secties toegevoegd.

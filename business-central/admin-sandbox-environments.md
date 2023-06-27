@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-includeprodshortincludesprodshortmd" />Sandboxomgevingen in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-" />Sandboxomgevingen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Met [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u eenvoudig een veilige omgeving krijgen waar u kunt testen, trainen of problemen oplossen zonder de werkprocessen of bedrijfsgegevens van uw bedrijf te verstoren. Een dergelijke niet-productieomgeving wordt een *sandbox* genoemd. Geïsoleerd van de productieomgeving is een sandboxomgeving de plaats om de service te ontdekken, te leren kennen, te demonstreren, te ontwikkelen en te testen, zonder het risico te lopen dat de gegevens en instellingen van uw productieomgeving worden beïnvloed.  
 
@@ -64,7 +64,7 @@ Zie [Use Designer](/dynamics365/business-central/dev-itpro/developer/devenv-incl
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

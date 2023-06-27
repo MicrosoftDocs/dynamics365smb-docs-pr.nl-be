@@ -62,7 +62,7 @@ U kunt ook afzonderlijke pagina-aanpassingen verwijderen die u voor een profiel 
 
 De indeling op de geselecteerde pagina's wordt aangepast aan de wijzigingen die u hebt aangebracht.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Zie gerelateerde [Microsoft-training](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Zie ook
 

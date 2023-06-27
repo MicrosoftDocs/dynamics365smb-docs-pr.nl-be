@@ -33,7 +33,7 @@ Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:
 1. Op de pagina **Definitie van gegevensuitwisseling** beschrijft u de opmaak van regels en kolommen in het bestand. Meer informatie vindt u in het gedeelte [De opmaak van regels en kolommen in het bestand beschrijven](#formatlinescolumns).  
 2. Op de pagina **Toewijzing gegevensuitwisseling** wijst u kolommen in het gegevensbestand toe aan velden in [!INCLUDE[prod_short](includes/prod_short.md)]. Meer informatie vindt u in het gedeelte [Kolommen in het gegevensbestand toewijzen aan velden in [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="a-nameformatlinescolumnsato-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>De opmaak van regels en kolommen in het bestand beschrijven
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>De opmaak van regels en kolommen in het bestand beschrijven
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent 1.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gegevensuitwisselingsdefinities** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -108,7 +108,7 @@ De volgende stap bij het maken van de definitie van een gegevensuitwisseling bes
 > [!NOTE]  
 > De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden.\-\-\- Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** op de pagina **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
 
-### <a name="a-namemapfieldsato-map-columns-in-the-data-file-to-fields-in-includeprodshortincludesprodshortmd" /><a name=mapfields></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-" /><a name=mapfields></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Soms verschillen de waarden in de velden die u wilt toewijzen. In de ene zakelijke app is de taalcode voor de Verenigde Staten bijvoorbeeld 'V.S.', maar in de andere 'VS'. Dat betekent dat u de waarde moet transformeren wanneer u gegevens uitwisselt. Dit gebeurt door middel van transformatieregels die u voor de velden definieert. Meer informatie vindt u in [Transformatieregels](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

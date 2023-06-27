@@ -112,7 +112,7 @@ In de volgende procedure maakt u een taakjournaalbatch voor Tricia om het gebrui
 
 4.  Kies de knop **OK** om de wijzigingen op te slaan.
 
-## <a name="setting-up-a-job" />Een project instellen
+## <a name="setting-up-a-job-1" />Een project instellen
 
  In dit scenario heeft CRONUS een contract binnengehaald van de klant Progressive Home Furnishings voor het ontwerpen van een conferentie- en eetzaal. De klant is gevestigd in de Verenigde Staten en voor het project is speciale software nodig. De projectmanager komt tot overeenstemming met de klant en maakt een project dat deze afspraak dekt.  
 
@@ -258,7 +258,7 @@ De regels worden nu geboekt.
 2.  Kies de actie **Statistieken**. U kunt gedetailleerde informatie over de projectprijzen, -kosten en -winsten bekijken in zowel lokale als vreemde valuta's.  
 3.  Kies de knop **Sluiten** om de pagina **Projectstatistiek** te sluiten.  
 
-## <a name="handling-fixed-prices" />Werken met vaste prijzen
+## <a name="handling-fixed-prices-1" />Werken met vaste prijzen
 
  CRONUS heeft een contract afgesloten voor het opzetten van vergaderruimten. Als projectleider wil Prakash een goed overzicht hebben van de taken die nodig zijn voor het project met de bijbehorende gebudgetteerde en gemaakte kosten voor elke taak. Bovendien wil Prakash weten wat de totale contractprijs voor het project is en wat het bedrag is dat tot nu toe is gefactureerd. Ze hebben met de klant een vaste prijs voor een project afgesproken.  
 
@@ -454,7 +454,7 @@ De volgende procedures laten zien hoe u een nieuw project kunt maken, prijzen ku
 
  In dit scenario heeft u enkele van de basisstappen voor het werken met projecten in [!INCLUDE[prod_short](includes/prod_short.md)] doorlopen. U hebt geleerd over hoe u een nieuw project kunt maken, een project kunt kopiëren en betalingen kunt verwerken. Ook hebt u een demonstratie gekregen van het bijhouden van uren en het opstellen van facturen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />Zie gerelateerde [Microsoft-training](/training/paths/create-jobs/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/create-jobs/)
 
 ## <a name="see-also" />Zie ook
 

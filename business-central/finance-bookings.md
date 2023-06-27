@@ -11,7 +11,7 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-includeprodshortincludesprodshortmd" />Massaal factureren voor Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-" />Massaal factureren voor Microsoft Bookings in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Als uw bedrijf de app Bookings gebruikt in Microsoft 365, kunt u massaal factureren voor afspraken. De pagina **Niet gefactureerde boekingen** in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van de voltooide boekingen van het bedrijf. Op deze pagina kunt u snel afspraken selecteren die u wilt factureren en conceptfacturen maken voor de geleverde services.  
 

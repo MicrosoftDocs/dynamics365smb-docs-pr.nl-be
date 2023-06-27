@@ -231,7 +231,7 @@ Bij picken volgens FEFO worden artikelen eerst verzameld in een tijdelijke artik
 
 Opslagsjablonen geven een set prioriteitsregels op die moeten worden aangehouden wanneer u opslagactiviteiten maakt. Een opslagsjabloon kan bijvoorbeeld vereisen dat u artikelen in een opslaglocatie plaatst met opslaglocatie-inhoud die dezelfde maateenheid heeft. Als er geen vergelijkbare opslaglocatie met voldoende capaciteit kan worden gevonden, moet het artikel in een lege opslaglocatie worden geplaatst. U wijst een opslagsjabloon toe aan een artikel en aan een vestiging.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Zie ook
 
@@ -239,6 +239,6 @@ Opslagsjablonen geven een set prioriteitsregels op die moeten worden aangehouden
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

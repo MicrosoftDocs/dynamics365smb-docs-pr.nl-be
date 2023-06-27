@@ -49,7 +49,7 @@ U kunt verschillende aspecten van werkstroomberichten op de volgende plaatsen in
 
   Voeg voor goedkeuringswerkstromen een werkstroomreactiestap toe om de afzender te informeren wanneer het verzoek is goedgekeurd of afgewezen. Lees meer vanaf stap 9 in de sectie [Werkstromen maken](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Zie ook
 

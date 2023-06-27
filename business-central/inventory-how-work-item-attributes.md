@@ -75,7 +75,7 @@ U kunt ook artikelkenmerken aan artikelcategorieën toewijzen, die vervolgens wo
 
 De artikelen op de **Artikelen**-pagina's worden gefilterd door de opgegeven artikelkenmerkwaarden.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

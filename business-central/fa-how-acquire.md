@@ -99,7 +99,7 @@ Het is mogelijk om de restwaarde samen met de aanschafkosten te boeken via een V
 > [!NOTE]
 > Als er een restwaarde bestaat voor een vast activum, wordt die waarde gebruikt in de afschrijvingsboeking in plaats van de waarde in het veld **Min. boekw. voor afschr.** op de pagina **VA-afschrijvingsboeken**. Zie voor meer informatie [De eindboekwaarde beheren](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespurchase-fixed-assets" />Zie gerelateerde [Microsoft-training](/training/modules/purchase-fixed-assets/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/purchase-fixed-assets/)
 
 ## <a name="see-also" />Zie ook
 

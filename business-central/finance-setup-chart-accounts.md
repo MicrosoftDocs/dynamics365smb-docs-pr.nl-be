@@ -49,7 +49,7 @@ Er is een nieuw veld, **Blok grootboekrekeningen verwijderen**, toegevoegd aan d
 
 Als het veld **Blok grootboekrekeningen verwijderen** wordt ingesteld op *Ja*, kan dit als een best practice worden beschouwd, evenals het instellen van de datum in het veld **Verwijdering van grootboekrek. controleren na**, bijvoorbeeld naar de datum waarop u uw financiële gegevens moet opslaan.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 
@@ -65,6 +65,6 @@ Als het veld **Blok grootboekrekeningen verwijderen** wordt ingesteld op *Ja*, k
 [Saldi op de resultatenrekening instellen en afsluiten in de Spaanse versie](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Het rekeningschema inspringen en valideren in de Spaanse versie](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

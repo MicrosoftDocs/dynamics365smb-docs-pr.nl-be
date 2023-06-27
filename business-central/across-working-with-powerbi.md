@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-include-prodshortincludesprodshortmd" />Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-" />Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)]
 
 In dit artikel leert u enkele basisbeginselen over het weergeven van Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -35,7 +35,7 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, moet 
 
 Voordat u Power BI kunt gebruiken met [!INCLUDE[prod_short](includes/prod_short.md)], moet u zich aanmelden voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt uw zakelijke e-mailadres en wachtwoord.
 
-## <a name="a-nameconnectaconnect-to-power-bi---one-time-only" /><a name="connect"></a>Verbinding maken met Power BI - eenmalig
+## <a name="connect-to-power-bi---one-time-only" /><a name="connect"></a>Verbinding maken met Power BI - eenmalig
 
 Wanneer u zich voor het eerst aanmeldt bij [!INCLUDE [prod_short](includes/prod_short.md)], ziet u waarschijnlijk een leeg Power BI-gedeelte op verschillende pagina's (zoals weergegeven in de vorige afbeelding). Het eerste dat u moet doen, is verbinding maken met uw Power BI-account. Als de verbinding eenmaal tot stand is gebracht, worden er rapporten weergegeven. U hoeft deze stap maar één keer uit te voeren.
 
@@ -53,7 +53,7 @@ Het verbindingsproces begint. Tijdens het proces communiceert [!INCLUDE [prod_sh
 > [!TIP]
 > Als u [!INCLUDE [prod_short](includes/prod_short.md)] online gebruikt, worden met deze stap automatisch de standaard Power BI-rapporten die worden gebruikt in [!INCLUDE [prod_short](includes/prod_short.md)], naar uw Power BI-werkruimte geüpload.
 
-#### <a name="from-include-prodshortincludesprodshortmd-on-premises" />Vanuit [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
+#### <a name="from--on-premises" />Vanuit [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
 Het maken van een verbinding met Power BI vanuit [!INCLUDE [prod_short](includes/prod_short.md)] gaat op ongeveer dezelfde manier als in de online versie. U kunt echter op de pagina **MACHTIGINGEN VAN AZURE ACTIVE DIRECTORY-SERVICE** worden gevraagd om toegang te verlenen tot Power BI-services. Selecteer om toegang te verlenen de optie **Azure-services autoriseren** en vervolgens **Accepteren**.
 
@@ -99,7 +99,7 @@ Wanneer u terugkeert naar het rolcentrum, ziet u daar het bijgewerkte rapport ve
 > [!NOTE]
 > Deze mogelijkheid is niet beschikbaar voor [!INCLUDE [prod_short](includes/prod_short.md)] on-premises.
 
-### <a name="a-nameuploadaupload-reports" /><a name="upload"></a>Rapporten uploaden
+### <a name="upload-reports" /><a name="upload"></a>Rapporten uploaden
 
 Power BI-rapporten kunnen onder gebruikers worden verspreid als PBIX-bestanden. Als u PBIX-bestanden hebt, kunt u deze uploaden en delen met alle gebruikers van [!INCLUDE [prod_short](includes/prod_short.md)]. De rapporten worden binnen elk bedrijf binnen gedeeld in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -126,7 +126,7 @@ Dit bericht verschijnt als het standaardrapport niet kon worden geïmplementeerd
 
 Dit komt waarschijnlijk omdat de naam van het rapport niet de naam van de lijstpagina bevat. Wis het filter om de volledige lijst met beschikbare Power BI-rapporten weer te geven.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

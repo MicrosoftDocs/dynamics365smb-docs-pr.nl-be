@@ -60,7 +60,7 @@ U kunt een factuur maken vanuit een projectplanningsregel en op dat moment de ho
 > [!NOTE]  
 >   De bovengenoemde procedure is soortgelijk voor het maken, controleren en boeken van een aan een project gerelateerde verkoopcreditnota.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Zie gerelateerde [Microsoft-training](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Zie ook
 

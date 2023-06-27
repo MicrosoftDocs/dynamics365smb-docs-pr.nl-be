@@ -112,7 +112,7 @@ Als bij een vestiging zowel opslagverwerking als ontvangstverwerking wordt gebru
 
 5. Als u alle artikelen volgens de instructies op de opslaglocaties hebt geplaatst, kiest u de actie **Opslag registreren**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Zie gerelateerde [Microsoft-training](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Zie ook
 

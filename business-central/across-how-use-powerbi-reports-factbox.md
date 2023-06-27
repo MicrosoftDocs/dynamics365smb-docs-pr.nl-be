@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-includeprodshortincludesprodshortmd" />Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-" />Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] bevat een Power BI-feitenblokbesturingselement op veel belangrijke lijstpagina's. Het doel van dit feitenblok is om Power BI-rapporten weer te geven die betrekking hebben op records in de lijsten, waardoor extra inzicht in de gegevens ontstaat. Het idee is dat terwijl u van de ene naar de andere rij gaat, het rapport wordt bijgewerkt voor de geselecteerde vermelding.
 
@@ -116,7 +116,7 @@ Controleer of de pagina die u wilt weergeven, de eerste pagina in uw rapport is.
 
 Controleer of de grootte van het rapport is ingesteld op 325 x 310 pixels. Sla het rapport op en vernieuw vervolgens de lijstpagina.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

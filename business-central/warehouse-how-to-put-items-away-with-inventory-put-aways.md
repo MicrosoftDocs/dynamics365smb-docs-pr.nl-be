@@ -83,7 +83,7 @@ Een magazijnmedewerker kan op basis van het vrijgegeven brondocument een nieuwe 
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Zie gerelateerde [Microsoft-training](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Zie ook
 

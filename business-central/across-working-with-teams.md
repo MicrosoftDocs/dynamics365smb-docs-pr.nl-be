@@ -93,13 +93,13 @@ Hier zijn een paar dingen waarmee u rekening moet houden wanneer u met de kaartg
 
 Zie voor meer informatie over het werken met kaarten en kaartdetails [Veelgestelde vragen over Teams](teams-faq.md).
 
-## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Een koppeling naar een pagina vanuit Business Central delen met Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Een koppeling naar een pagina vanuit Business Central delen met Teams
 
 Rechtstreeks vanuit de meeste collectiepagina's, zoals de pagina **Artikelen** en detailpagina's, zoals de kaart **Artikel** kunt u een link naar de pagina naar specifieke ontvangers sturen in een Teams-gesprek. U kunt bijvoorbeeld een koppeling naar een gefilterde weergave van uw records delen. Ontvangers kunnen vervolgens de link selecteren om de pagina te openen in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![Het menu Delen weergegeven op een kaart.](media/teams-share-link-v2.png "Het menu Delen weergegeven op een kaart.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites" />Vereisten
+### <a name="prerequisites-1" />Vereisten
 
 - U hebt toegang tot Microsoft Teams.
 - (Optioneel) U hebt de [!INCLUDE [prod_short](includes/prod_short.md)]-app in Teams geïnstalleerd. 
@@ -127,6 +127,6 @@ Rechtstreeks vanuit de meeste collectiepagina's, zoals de pagina **Artikelen** e
 [Problemen met Teams oplossen](admin-teams-troubleshooting.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -51,7 +51,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Meer informatie over het werken met assemblagestuklijsten en hoe ze verschillen van productiestuklijsten.|[Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)|
 |Meer informatie over het boeken van assemblageverbruik en -output, en hoe [!INCLUDE [prod_short](includes/prod_short.md)] artikel- en resourcekosten verdeelt over het grootboek.|[Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 
@@ -63,6 +63,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

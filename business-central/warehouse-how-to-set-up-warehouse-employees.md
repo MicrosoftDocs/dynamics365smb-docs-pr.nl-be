@@ -22,7 +22,7 @@ Elke gebruiker die magazijnactiviteiten uitvoert, moet als magazijnmedewerker wo
 5. Schakel de schaklaar **Standaard** in om aan te geven dat dit de enige vestiging is waar de medewerker magazijnactiviteiten kan uitvoeren.  
 6. Herhaal deze stappen als u meer medewerkers aan vestigingen wilt toewijzen of als u andere vestigingen wilt toewijzen aan bestaande magazijnmedewerkers.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Zie ook
 

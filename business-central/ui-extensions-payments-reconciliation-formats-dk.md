@@ -47,7 +47,7 @@ Er zijn een aantal stappen vereist als u aan de slag wilt.
 
 Daarnaast moet u leveranciers toewijzen aan een binnenlandse **bedrijfsboekingsgroep** en een **leveranciersboekingsgroep**. De instelling Land/regio voor de leverancier moet Denemarken (DK) zijn. Zie [Boekingsgroepen instellen](finance-posting-groups.md) voor meer informatie.  
 
-### <a name="to-allow-includeprodshortincludesprodshortmd-to-export-payment-data" />[!INCLUDE[prod_short](includes/prod_short.md)] toestaan betalingsgegevens te exproteren
+### <a name="to-allow--to-export-payment-data" />[!INCLUDE[prod_short](includes/prod_short.md)] toestaan betalingsgegevens te exproteren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Betalingsdagboek bewerken** de batch **Bank**.  

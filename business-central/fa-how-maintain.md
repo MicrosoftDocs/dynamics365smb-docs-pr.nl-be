@@ -84,7 +84,7 @@ In het rapport **Onderhoud - Details** kunt u onderhoudsposten voor een of meerd
 2. Vul de vereiste velden in.
 3. Kies de knop **Afdrukken** of **Voorbeeld**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-maintenance-insurances" />Zie gerelateerde [Microsoft-training](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
 ## <a name="see-also" />Zie ook
 

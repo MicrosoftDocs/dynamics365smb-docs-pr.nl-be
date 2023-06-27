@@ -37,7 +37,7 @@ Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeelding
 > [!NOTE]  
 >  U kunt geen ingebouwde rapportlay-outs wijzigen.<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Het aangepaste XML-onderdeel voor het rapport openen in Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Het aangepaste XML-onderdeel voor het rapport openen in Word
   
 1. Open, als het nog niet open is, het Word-document met de rapportlay-out in Word.  
   
@@ -103,7 +103,7 @@ Afbeeldingen worden in de linkerbovenhoek van het inhoudsbesturingselement uitge
   
 3. Als u de afbeelding groter of kleiner wilt maken, versleept u een formaatgreep van of naar het midden van het inhoudsbesturingselement.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Label- en gegevensvelden verwijderen
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Label- en gegevensvelden verwijderen
 
 Label- en gegevensvelden van een rapport bevinden zich in inhoudsbesturingselementen in Word. De volgende afbeelding is een voorbeeld van een inhoudsbesturingselement wanneer het in een Word-document is geselecteerd.  
 

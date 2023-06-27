@@ -98,7 +98,7 @@ Op de pagina **Rekeningschema** worden rekeningen weergegeven in een hiërarchis
 
 In een kleine organisatie, zoals het CRONUS-voorbeeldbedrijf, kunnen de meeste gebruikers het rekeningschema bewerken, behalve gebruikers met een TEAMLID-licentie. In grotere organisaties worden meestal rollen en machtigingen gebruikt om toegang tot het bewerken van de rekeningschema's te beperken. Als u een beheerder bent of de rol *Bedrijfsmanager* of *Accountant* hebt, kunt u de machtigingen bepalen om er zeker van te zijn dat de juiste mensen toegang hebben tot de relevante tabellen. Zie voor meer informatie de sectie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbusiness-central-configure-general-ledger-setup" />Zie gerelateerde [Microsoft-training](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/business-central-configure-general-ledger-setup/)
 
 ## <a name="see-also" />Zie ook
 

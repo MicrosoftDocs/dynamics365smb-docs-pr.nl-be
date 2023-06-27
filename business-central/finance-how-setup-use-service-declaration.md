@@ -155,7 +155,7 @@ U kunt de waarden in deze velden wijzigen, maar als u het veld **Van toepassing 
 
 Als u een waarde opgeeft in het veld **Code van servicetransactietype**, maar het veld **Van toepassing op servicedeclaratie** niet selecteert, kunt u het document boeken, maar wordt de regel niet berekend.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Zie ook
 

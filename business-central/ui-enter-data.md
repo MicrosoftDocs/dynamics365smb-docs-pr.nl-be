@@ -63,7 +63,7 @@ Er zijn verschillende sneltoetsen waarmee u "muisvrij" kunt werken en uw gegeven
 
 Zie voor meer informatie over sneltoetsen [Toetsenbordsneltoetsen](keyboard-shortcuts.md). Enkele sneltoetsen worden in dit artikel besproken.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Gegevensinvoer versnellen met snelinvoer
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Gegevensinvoer versnellen met snelinvoer
 
 Snelinvoer is een functie die bedoeld is voor gegevensinvoer met het toetsenbord. Snelinvoer werkt met velden (bijvoorbeeld op kaartpagina's) en in lijsten (rijen en kolommen). Het is handig bij het uitvoeren van repetitieve typetaken waarbij meerdere opeenvolgende records achter elkaar moeten worden gemaakt. Voorbeelden zijn een batch verkooporders of het registreren van nieuwe artikelen.
 
@@ -125,7 +125,7 @@ Als u wilt beginnen met filteren, selecteert u het pictogram ![Filterdeelvenster
 
 Filteren is met name handig bij het weergeven en analyseren van langere documenten. Stel dat u een geboekte verkoopfactuur opent. Vervolgens filtert u de regelitems om alle regelitems weer te geven met een individuele korting van meer dan 5%. Of u filtert om alleen fietsaccessoires met 'pro' in de naam weer te geven.
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="Focus"></a>Focussen op regelartikelen
+## <a name="focusing-on-line-items" /><a name="Focus"></a>Focussen op regelartikelen
 
 Wanneer u werkt met documenten die een onderdeel met regelitems bevatten, kunt u de weergave overschakelen om alleen de regelitems weer te geven. Voorbeelddocumenten zijn verkooporder of factuurpagina. Het gedeelte met regelitems breidt zich uit zodat het bijna de hele werkruimte in beslag neemt. Het verbergt andere delen van de pagina behalve het actiegebied bovenaan. Deze lay-out geeft u een beter overzicht van de regelartikelen en biedt meer ruimte om ermee te werken.
 
@@ -266,7 +266,7 @@ Hier volgen enkele voorbeelden.
 
  Het getal 5 wordt omgezet in 5 uur, als de eenheid uit uren bestaat.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden
 
 Wanneer u de <kbd>decimaaltekentoets</kbd> op een numeriek toetsenbord gebruikt om gegevens in te voeren, wordt het daadwerkelijke decimaalteken dat in het veld wordt ingevoerd, bepaald door uw regio-instelling in Business Central. De meeste regio's gebruiken de punt (.) of komma (,) als scheidingsteken voor decimale waarden, zoals normaal gesproken wordt gebruikt in valutabedragen. De decimale toets op uw toetsenbord past zich aan uw regio aan. Dit wijkt vaak af van de punt- of kommatoetsen op de rest van het toetsenbord. U stelt de regio in Business Central in op de pagina **Mijn instellingen**.
 
@@ -275,7 +275,7 @@ Stel dat u een numeriek toetsenbord gebruikt dat een punt (.) als <kbd>decimaalt
 > [!TIP]
 > Het kan voorkomen dat u het decimaalteken wilt gebruiken om een punt (.) in te voeren. Stel dat u bijvoorbeeld een datumbereik invoert in een filter, zoals `01/01/2022..04/01/2022`, of iets dat een punt vereist. Selecteer in dit geval de toetsen <kbd>Alt</kbd>+<kbd>Decimaalteken</kbd> op het numerieke toetsenbord. Deze toetsencombinatie wisselt voor het decimaalteken tussen een punt en het decimaalteken zoals bepaald door de instelling **Regio**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

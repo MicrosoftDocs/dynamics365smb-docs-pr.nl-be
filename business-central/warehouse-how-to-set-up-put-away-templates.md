@@ -31,7 +31,7 @@ U kunt een aantal opslagsjablonen instellen en er vervolgens een van selecteren 
 
 U kunt verschillende opslagsjablonen maken en deze naar wens toepassen. Er wordt allereerst rekening gehouden met de opslagsjabloon die u hebt geselecteerd voor het artikel of de SKU. Als deze velden niet zijn ingevuld, wordt de opslagsjabloon gebruikt die u voor het magazijn hebt geselecteerd op het sneltabblad **Opslaglocatiebeleid** van de vestigingskaart.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesput-away-templates" />Zie gerelateerde [Microsoft-training](/training/modules/put-away-templates/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/put-away-templates/)
 
 ## <a name="see-also" />Zie ook
 

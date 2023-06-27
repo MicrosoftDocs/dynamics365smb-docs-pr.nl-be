@@ -83,7 +83,7 @@ In het volgende diagram worden de uitgaande magazijnprocessen aangegeven voor ve
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Toont de stappen in een geavanceerde uitgaande magazijnstroom.":::
 
-### <a name="1-release-a-source-document" />1: Een brondocument vrijgeven
+### <a name="1-release-a-source-document-1" />1: Een brondocument vrijgeven
 
 Het vrijgeven van een brondocument in geavanceerde configuraties doet hetzelfde als voor basisconfiguraties. De artikelen komen beschikbaar voor verwerking in het magazijn. Ze kunnen bijvoorbeeld worden opgenomen in een verzending.  
 

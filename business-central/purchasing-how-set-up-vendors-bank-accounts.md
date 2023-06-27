@@ -26,7 +26,7 @@ Als een leverancier een of meer bankrekeningen heeft en u een voorkeursoptie wil
 2. De kaart voor de leverancier openen
 3. Kies op het sneltabblad **Betalingen** de standaardbankrekening van de leverancier in het veld **Bankrekeningcode van voorkeur**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

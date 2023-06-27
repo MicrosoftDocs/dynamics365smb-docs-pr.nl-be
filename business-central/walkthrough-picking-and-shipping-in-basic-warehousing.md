@@ -135,7 +135,7 @@ Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor ee
 
     Nu zijn de 30 lampen geregistreerd als gepickt uit de opslaglocaties S-01-0001 en S-01-0002, en een negatieve artikelpost is gemaakt om de geboekte verkoopverzending te weerspiegelen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Zie ook
 

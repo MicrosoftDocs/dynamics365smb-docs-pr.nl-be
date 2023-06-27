@@ -38,7 +38,7 @@ U kunt ook contact opnemen met het [[!INCLUDE[prod_short](includes/prod_short.md
 
 Zie voor meer informatie over wat u kunt doen met [!INCLUDE [prod_short](includes/prod_short.md)] [Voorbereiden op zakendoen](ui-get-ready-business.md) en [Zakelijke functionaliteit](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="additional-resources" />Aanvullende resources
 

@@ -92,7 +92,7 @@ Als opslaglocaties verplicht zijn voor een locatie, worden zone- en opslaglocati
 * Voor geavanceerde configuraties die gestuurde opslag en pick gebruiken, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de ontvangstopslaglocatie van de pagina **Vestiging** voor de vestiging. Als er geen ontvangstopslaglocatie is opgegeven, wordt er geen opslaglocatie opgegeven. Als het artikel en de ontvangstopslaglocaties niet overeenkomen, is de ontvangstopslaglocatie leeg.
 * In andere configuraties, als er geen ontvangstopslaglocatie is opgegeven, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de opslaglocatie van het brondocument.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/receive-invoice-dynamics-d365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

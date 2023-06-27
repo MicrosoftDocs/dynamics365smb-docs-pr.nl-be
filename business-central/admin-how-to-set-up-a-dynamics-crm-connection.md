@@ -29,7 +29,7 @@ Voordat u de verbinding maakt, moet u een aantal gegevens gereed hebben:
 > Deze stappen beschrijven de procedure voor [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt en geen Azure Active Directory-account gebruikt om verbinding te maken met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], moet u ook een gebruikersnaam en wachtwoord van een gebruikersaccount opgeven voor de integratie. Dit account wordt de 'integratiegebruiker' genoemd. Als u een Azure Active Directory-account gebruikt, is het gebruikersaccount voor integratie niet vereist en wordt dit ook niet weergegeven. De integratiegebruiker wordt automatisch ingesteld en heeft geen licentie nodig.
 
-## <a name="set-up-a-connection-to-includecdslongmdincludescdslongmdmd" />Een verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] instellen
+## <a name="set-up-a-connection-to-" />Een verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] instellen
 
 Voor alle verificatiesoorten anders dan Microsoft 365-verificatie stelt u de verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] in op de pagina **Dataverse-verbinding instellen**. Het is raadzaam de begeleide instelling **Dataverse-verbinding instellen** te gebruiken voor Microsoft 365-verificatie. De begeleide instelling maakt het gemakkelijker om de verbinding in te stellen en geavanceerde functies op te geven, zoals het eigendomsmodel en initiële synchronisatie.  
 
@@ -206,7 +206,7 @@ Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identit
    > [!NOTE]
    > Als u niet wordt gevraagd om u aan te melden met uw beheerdersaccount, komt dit waarschijnlijk omdat pop-ups worden geblokkeerd. Sta pop-ups vanaf `https://login.microsoftonline.com` toe om u aan te melden.
 
-### <a name="to-disconnect-from-includecdslongmdincludescdslongmdmd" />Verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verbreken
+### <a name="to-disconnect-from-" />Verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verbreken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dataverse-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
 2. Schakel op de pagina **Dataverse-verbinding instellen** de schakelaar **Geactiveerd** uit.  

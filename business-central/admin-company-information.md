@@ -28,7 +28,7 @@ Als uw [!INCLUDE [prod_short](includes/prod_short.md)] meerdere bedrijven omvat,
 
 Er zijn een paar functies die u kunt gebruiken om tussen bedrijven te schakelen terwijl u werkt, zoals de bedrijfswisselaar (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Meer informatie vindt u in [Overschakelen naar een ander bedrijf of een andere omgeving](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Een bedrijfsbadge weergeven
+## <a name="display-a-company-badge" /><a name="badge"></a>Een bedrijfsbadge weergeven
 
 Als er meer dan één bedrijf of omgeving is, ziet u de bedrijfsschakelaar rechtsboven in de app-balk, naast het zoekpictogram in de app-balk. Standaard gebruikt de bedrijfswisselaar een standaard bedrijfspictogram, zoals ![bedrijfspictogram Launcher.](media/ui-experience/company-icon.png "Geeft het bedrijfsschakelaarpictogram weer dat wordt gebruikt wanneer er één omgeving is") en ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Geeft het bedrijfsschakelaarpictogram weer dat wordt gebruikt wanneer er meerdere omgevingen zijn").
 
@@ -54,7 +54,7 @@ De bedrijfsnaam wordt altijd in de linkerbovenhoek weergegeven en werkt als een 
 
 De standaardgebruikerservaring in een [!INCLUDE [prod_short](includes/prod_short.md)]-proefversie omvat niet alle mogelijkheden. U kunt de volledige ervaring inschakelen op de pagina **Bedrijfsgegevens**. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

@@ -43,7 +43,7 @@ In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor 
     > [!NOTE]
     > Als een object dat kan worden bewerkt, zoals de klantenkaart, is ingesteld op **Alleen-lezen**, zal de primaire database nog steeds worden gebruikt, ongeacht de toegangsintentie, zodat gebruikers normaal wijzigingen kunnen aanbrengen.
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  
@@ -51,7 +51,7 @@ In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)    
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

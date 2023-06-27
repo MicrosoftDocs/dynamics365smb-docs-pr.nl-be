@@ -44,13 +44,13 @@ De voorgedefinieerde Excel-rapporten zijn gebaseerd op de gegevens in het huidig
 
 Andere bladen in de Excel-werkmap tonen de gegevens achter het rapport. Om erachter te komen wat er achter de groeperingen in de Excel-rapporten zit, moet u wellicht de lijsten filteren in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />De Excel-invoegtoepassing [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="the--excel-add-in" />De Excel-invoegtoepassing [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Uw [!INCLUDE [prod_short](includes/prod_short.md)]-ervaring bevat een invoegtoepassing voor Excel. Afhankelijk van uw abonnement bent u automatisch aangemeld of moet u uw aanmeldgegevens opgeven voor [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie [Kopiëren en bewerken vanuit Business Central](across-work-with-excel.md).  
 
 Met de invoegtoepassing kunt u gegevens vernieuwen vanuit [!INCLUDE [prod_short](includes/prod_short.md)] en kunt u wijzigingen terugsturen naar [!INCLUDE [prod_short](includes/prod_short.md)]. De mogelijkheid om wijzigingen terug te sturen naar de database is niet beschikbaar voor de financiële rapporten die u kunt weergeven in Excel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

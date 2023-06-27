@@ -49,7 +49,7 @@ Wanneer u de opslaglocaties hebt gemaakt, kunt u in het maakvoorstel voor opslag
 
 In dit voorstel werkt u met een aantal regels voor de inhoud van verschillende opslaglocaties, zodat u een goed overzicht krijgt van de inhoud van de opslaglocaties in een bepaalde zone, gang of rek.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Zie gerelateerde [Microsoft-training](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also" />Zie ook
 

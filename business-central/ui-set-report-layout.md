@@ -58,7 +58,7 @@ Er zijn enkele manieren om in te stellen welke lay-out een rapport gebruikt. Elk
 
 Rapporten zijn ontworpen om standaard een lay-out te gebruiken. U kunt terugschakelen naar de oorspronkelijke standaardlay-out vanaf de pagina **Selectie rapportlay-out**. Selecteer gewoon het rapport en selecteer vervolgens de actie **Standaardselectie herstellen** boven aan de pagina.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

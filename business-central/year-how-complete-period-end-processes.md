@@ -57,7 +57,7 @@ ms.author: jswymer
 
 * Belastingaangiften invullen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

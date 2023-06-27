@@ -21,7 +21,7 @@ U vindt rapporten in het menu **Rapporten** op bepaalde pagina's, lijsten en kaa
 
 Wanneer u een rapport kiest, ziet u meestal een aanvraagpagina&mdash;genoemd naar de naam van het rapport&mdash;, waarop u verschillende opties en filters kunt instellen die bepalen welke gegevens worden opgenomen. In de volgende secties wordt uitgelegd hoe u de aanvraagpagina gebruikt om een rapport te maken, te bekijken en af te drukken.
 
-## <a name="a-namesavedsettingsausing-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Standaardwaarden gebruiken&mdash;vooraf gedefinieerde instellingen
+## <a name="using-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Standaardwaarden gebruiken&mdash;vooraf gedefinieerde instellingen
 
 De meeste aanvraagpagina's bevatten het veld **Standaardwaarden gebruiken uit**. Met dit veld kunt u vooraf gedefinieerde instellingen voor het rapport selecteren, waarmee automatisch opties en filters worden ingesteld. Selecteer een item in de vervolgkeuzelijst en u zult zien dat de opties en filters op de rapportaanvraagpagina dienovereenkomstig veranderen.
 
@@ -80,7 +80,7 @@ Als uw organisatie OneDrive heeft geconfigureerd voor systeemfuncties, worden Ex
 >
 > U kunt ook **Microsoft Excel-document (alleen gegevens)** gebruiken om nieuwe Excel-indelingen voor een bepaald rapport te maken. Meer informatie op [Werken met Excel-indelingen](ui-excel-report-layouts.md).  
 
-## <a name="a-nameschedulereporta-scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Een rapport plannen om het later of periodiek uit te voeren
+## <a name="scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Een rapport plannen om het later of periodiek uit te voeren
 
 U kunt een één rapport of een periodiek rapport plannen voor uitvoering op een bepaalde datum en tijd. Geplande rapporten worden in de verwerkingswachtrij ingevoerd en verwerkt op het geplande tijdstip, net zoals andere taken. Kies de optie **Schema** nadat u de knop **Verzenden naar** hebt gekozen en voer vervolgens informatie in zoals de printer en tijd en datum. Het rapport wordt vervolgens toegevoegd aan de taakwachtrij en wordt op de opgegeven tijd uitgevoerd. Als het rapport is verwerkt, wordt het artikel verwijderd uit de verwerkingswachtrij. Zie voor meer informatie [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md).  
 
@@ -103,13 +103,13 @@ Herhaal na het bewerken van de rapportopties de eerste twee stappen en selecteer
 
 Lees meer over taakwachtrijbeheer op [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md).  
 
-## <a name="a-nameprintreportaprinting-a-report" /><a name="PrintReport"></a>Een rapport afdrukken
+## <a name="printing-a-report" /><a name="PrintReport"></a>Een rapport afdrukken
 
 Als u een rapport wilt afdrukken, kiest u de knop **Afdrukken** op de rapportaanvraagpagina of op de menubalk op de pagina **Voorbeeld**.
 
 Wanneer een rapport een Excel-indeling gebruikt, ziet u niet het veld **Printer**, de knop **Afdrukken** of de knop **Voorbeeld**. In plaats daarvan is er een optie **Downloaden**. Om af te drukken, selecteert u **Downloaden**, vervolgens opent u het gedownloade bestand in Excel en drukt u van daaruit af.
 
-### <a name="a-nameprinteraprinter" /><a name="Printer"></a>Printer
+### <a name="printer" /><a name="Printer"></a>Printer
 
 Het veld **Printer** op de aanvraagpagina bevat de naam van de printer waar het rapport heen wordt gestuurd. Om een printer te wijzigen selecteert u de printer in de lijst.
 
@@ -153,7 +153,7 @@ De velden op het sneltabblad **Geavanceerd** stellen beperkingen in voor het geg
 > [!NOTE]
 > De maximale waarden kunnen verschillen voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises en een beheerder kan ze wijzigen. Zie de sectie [Business Central Server configureren: rapporten](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) voor meer informatie. Voor een overzicht van rapportbeperkingen in [!INCLUDE[prod_short](includes/prod_short.md)] online, raadpleegt u [Operationele limieten](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Zie ook
 

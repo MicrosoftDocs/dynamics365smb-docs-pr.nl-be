@@ -28,13 +28,13 @@ Er zijn verschillende manieren om de toepassing aan te passen zodat u en uw coll
 > [!NOTE]
 > Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[prod_short](includes/prod_short.md)] gaan uit van de **Premium-** ervaring, wat inhoudt dat de beschrijvingen het hele scala aan UI-elementen omvatten. Daarom kunnen gebruikers met de **Essential**-ervaring in sommige onderwerpen over functionaliteit en gebruikersinterface-elementen lezen die niet zichtbaar zijn in hun gebruikersinterface. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Zie gerelateerde [Microsoft-training](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

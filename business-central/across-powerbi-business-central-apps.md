@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the-include-prodshortincludesprodshortmd-apps-in-power-bi" />De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
+# <a name="use-the--apps-in-power-bi" />De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
 
 > **GELDT VOOR:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -51,7 +51,7 @@ Power BI-apps hebben machtigingen nodig voor toegang tot de tabellen waaruit geg
 
 Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt uw zakelijke e-mailadres en wachtwoord.
 
-## <a name="install-a-includeprodshortincludesprodshortmd-app-in-power-bi" />Een [!INCLUDE[prod_short](includes/prod_short.md)]-app installeren in Power BI
+## <a name="install-a--app-in-power-bi" />Een [!INCLUDE[prod_short](includes/prod_short.md)]-app installeren in Power BI
 
 1. Open uw browser, ga naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com) en meld u aan bij uw account.
 2. Selecteer **Gegevens ophalen** onder in het linkernavigatiedeelvenster.  
@@ -69,7 +69,7 @@ Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u 
 
     Na voltooiing is de app beschikbaar via **Apps** in het navigatiemenu in Power BI.
 
-## <a name="connect-the-includeprodshortincludesprodshortmd-app-to-your-data" />De [!INCLUDE[prod_short](includes/prod_short.md)]-app verbinden met uw gegevens
+## <a name="connect-the--app-to-your-data" />De [!INCLUDE[prod_short](includes/prod_short.md)]-app verbinden met uw gegevens
 
 1. Selecteer onder **Apps** de Business Central-app en selecteer vervolgens **Verbinden**.
 2. Voer desgevraagd in de velden **Bedrijfsnaam** en **Omgeving** informatie in over het [!INCLUDE[prod_short](includes/prod_short.md)]-exemplaar waarmee u verbinding wilt maken.
@@ -96,7 +96,7 @@ Er is geen Power BI-account ingesteld. U moet een licentie hebben om een geldig 
 
 Dit bericht verschijnt als het standaardrapport niet kon worden geïmplementeerd in uw Power BI-werkruimte. Of het rapport is geïmplementeerd maar is niet vernieuwd. Als dit probleem zich voordoet, navigeert u naar het rapport in uw Power BI-werkruimte, selecteert u **Gegevensset**, **Instellingen** en werkt u vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar [!INCLUDE[prod_short](includes/prod_short.md)] en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-includeprodshortincludesprodshortmd-app-in-power-bi" />U hebt een Power BI Pro-licentie nodig om de [!INCLUDE[prod_short](includes/prod_short.md)]-app in Power BI te installeren
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi" />U hebt een Power BI Pro-licentie nodig om de [!INCLUDE[prod_short](includes/prod_short.md)]-app in Power BI te installeren
 
 U hebt een [Power BI Pro-licentie](/power-bi/service-features-license-type) nodig om uw inhoud te delen en de mensen met wie u deze inhoud deelt, hebben die licentie ook nodig. De inhoud moet zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie voor meer informatie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -144,7 +144,7 @@ De Power BI-app toont alleen gegevens van het [!INCLUDE[prod_short](includes/pro
 - [Selecteer een tegel](/power-bi/service-dashboard-tiles) om het onderliggende rapport te openen.  
 - Standaard wordt uw gegevensset niet volgens een schema vernieuwd. U kunt het vernieuwingsschema wijzigen of de gegevensset op aanvraag proberen te vernieuwen met de opdracht **Nu vernieuwen**. Zie [Gepland vernieuwen configureren](/power-bi/refresh-scheduled-refresh) voor meer informatie.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Zie ook
 

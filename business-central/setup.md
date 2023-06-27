@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-includeprodshortincludesprodshortmd" />Overzicht van taken om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen
+# <a name="overview-of-tasks-to-set-up-" />Overzicht van taken om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw organisatie. De artikelen van de [snelstartgids voor Business Central](quick-start-business-central.md) helpen u de eerste stappen te zetten bij het maken van uw eigen [!INCLUDE [prod_short](includes/prod_short.md)]. Dit artikel geeft een overzicht van hoe u [!INCLUDE [prod_short](includes/prod_short.md)] kunt configureren voor uw organisatie.
 
@@ -79,6 +79,6 @@ U kunt ook mogelijkheden toevoegen aan uw [!INCLUDE [prod_short](includes/prod_s
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -115,7 +115,7 @@ Als u de magazijnverzending boekt, worden verschillende velden op de verkooporde
 >
 > De op-order-assembleren-hoeveelheid wordt afgehandeld zoals beschreven in dit artikel. De voorraadhoeveelheid wordt afgehandeld als een normale magazijnverzendingsregel. Zie voor meer informatie over combinatiescenario's [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

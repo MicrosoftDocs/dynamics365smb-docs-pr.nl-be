@@ -75,7 +75,7 @@ Als u het jaarlijkse bedrag van een servicecontract of contractofferte wijzigt, 
 
 De stappen worden herhaald voor elke contractregel.  
 
-#### <a name="example" />Opmerking
+#### <a name="example-1" />Opmerking
 Het selectievakje **Bedragen in onbalans toestaan** is niet ingeschakeld op het servicecontract, dat drie contractregels bevat met dergelijke informatie.  
 
 |Artikel|Regelkostprijs|Regelwaarde|Regelkorting %|Totale regelkorting|Regelbedrag|Winst|  
@@ -113,7 +113,7 @@ Als u het jaarlijkse bedrag van een servicecontract of contractofferte wijzigt, 
     * Regelkorting % = Totale regelkorting / Regelwaarde * 100  
     * Winst = Regelbedrag - Regelkostprijs  
 
-#### <a name="example" />Opmerking
+#### <a name="example-2" />Opmerking
 Het selectievakje **Bedragen in onbalans toestaan** is niet ingeschakeld in het servicecontract, dat drie contractregels bevat met dergelijke informatie.  
 
 |Artikel|Regelkostprijs|Regelwaarde|Regelkorting %|Totale regelkorting|Regelbedrag|Winst|  

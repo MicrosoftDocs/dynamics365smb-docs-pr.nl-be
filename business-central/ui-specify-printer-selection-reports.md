@@ -11,7 +11,7 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a>Een standaardprinter opgeven
+# <a name="specify-a-default-printer" /><a name="default"></a>Een standaardprinter opgeven
 
 Nadat printers zijn ingesteld in Business Central, kunt u aangeven welke printer u standaard wilt gebruiken. Er is een aantal manieren om printers op te geven die standaard worden gebruikt voor rapporten en andere afdruktaken. Een standaardprinter is handig als u met verschillende rapporten werkt waarvoor verschillende printers nodig zijn vanwege hun plaatsing in het bedrijf of hun uitvoermogelijkheden.
 

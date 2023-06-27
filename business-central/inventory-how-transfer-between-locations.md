@@ -125,7 +125,7 @@ Als de hoeveelheid in een magazijnverzending is verzonden, wordt een correctiere
 
 Om de correctie te voltooien, heropent u de transferorder, voert u het juiste aantal in en boekt u de order. Als u een magazijnverzending gebruikt om de bestelling te verzenden, maakt en boekt u een nieuwe magazijnverzending.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-items" />Zie gerelateerde [Microsoft-training](/training/modules/transfer-items/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/transfer-items/)
 
 ## <a name="see-also" />Zie ook
 

@@ -69,7 +69,7 @@ Wanneer u een negatieve voorraadmutatie boekt, wordt een artikelvereffeningspost
 
 Het veld **Resterend aantal** in de tabel **Artikelpost** geeft het aantal aan dat nog niet is vereffend. Als het resterende aantal groter is dan 0, wordt het selectievakje **Open** ingeschakeld.  
 
-### <a name="example" />Opmerking
+### <a name="example-1" />Opmerking
 Het volgende voorbeeld toont de artikelvereffeningspost die ontstaat wanneer u een verkoopverzending boekt voor vijf eenheden van de artikelen die in het vorige voorbeeld zijn ontvangen. De eerste artikelvereffeningspost is de inkoopontvangst. De tweede vereffeningspost is de verkoopverzending.  
 
 De volgende tabel toont de twee artikelvereffeningsposten die resulteren uit respectievelijk de positieve en de negatieve voorraadmutatie.  

@@ -89,7 +89,7 @@ De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder e
 
 5. Kies op de pagina **Verkoopregels** de actie **Document weergeven** om de post te bekijken.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 

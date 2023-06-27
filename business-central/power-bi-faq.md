@@ -147,7 +147,7 @@ Deze functionaliteit zal binnenkort beschikbaar zijn. Vanaf februari 2022 prober
 
 Als u oude rapporten hebt die zijn gebaseerd op Business Central-gegevens, maken ze geen verbinding met de alleen-lezen databasereplica.
 
-### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Ik heb de preview van de nieuwe connector voor de update van februari 2022 geprobeerd. Wanneer ik verbinding maak met mijn aangepaste Business Central API-pagina, krijg ik de foutmelding "Kan geen record invoegen. De huidige verbindingsintentie is alleen-lezen." Hoe kan ik dit herstellen?
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Ik heb de preview van de nieuwe connector voor de update van februari 2022 geprobeerd. Wanneer ik verbinding maak met mijn aangepaste Business Central API-pagina, krijg ik de foutmelding "Kan geen record invoegen. De huidige verbindingsintentie is alleen-lezen." Hoe kan ik dit herstellen?
 
 Met de nieuwe connector maken nieuwe rapporten die gebruikmaken van Business Central-gegevens standaard verbinding met een alleen-lezen replica van de Business Central-database. Deze wijziging zorgt voor een prestatieverbetering. In zeldzame gevallen kan dit echter de fout veroorzaken. Deze fout treedt meestal op omdat uw aangepaste API wijzigingen aanbrengt in Business Central-records terwijl Power BI probeert de gegevens op te halen. Het gebeurt met name als onderdeel van de AL-triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord en OnAfterGetCurrRecord.
 
@@ -182,7 +182,7 @@ In general, we recommend avoiding any database modifications in API pages when t
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
 -->
-### <a name="a-namepermsahow-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Hoe wijzig of wis ik het gebruikersaccount dat ik momenteel gebruik om verbinding te maken met Business Central vanuit Power BI Desktop?
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Hoe wijzig of wis ik het gebruikersaccount dat ik momenteel gebruik om verbinding te maken met Business Central vanuit Power BI Desktop?
 
 Ga in Power BI Desktop op een van de volgende manieren te werk:
 
@@ -237,14 +237,14 @@ Ja. Met geavanceerde scenario blijft Business Central goed presteren omdat de ge
 
 We onderzoeken deze functie. Power BI biedt uitgebreide API's om de implementatie van rapporten te beheren. Zie voor meer informatie [Inleiding op implementatiepijplijnen](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x0020-what-are-these-values" />Wanneer ik gegevens van Business Central ontvang om te gebruiken in mijn Power BI-rapporten, zie ik enkele waarden zoals "_x0020_". Wat zijn dit voor waarden?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values" />Wanneer ik gegevens van Business Central ontvang om te gebruiken in mijn Power BI-rapporten, zie ik enkele waarden zoals "_x0020_". Wat zijn dit voor waarden?
 
 Sommige API-pagina's, waaronder de meeste API v2.0-pagina's, hebben velden die zijn gebaseerd op [AL Enum-objecten](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Velden die zijn gebaseerd op AL enum-objecten moeten namen hebben die consistent en altijd hetzelfde zijn, zodat rapportfilters altijd werken&mdash;ongeacht de taal die of het besturingssysteem dat u gebruikt. Om deze reden worden de velden die zijn gebaseerd op AL enums niet vertaald en worden ze gecodeerd om speciale tekens, inclusief de spatie, te vermijden. Met name wanneer er een lege optie in het AL Enum-object is, wordt deze gecodeerd naar _x0020_. U kunt altijd een transformatie op uw gegevens toepassen in Power BI als u een andere waarde voor deze velden wilt weergeven, bijvoorbeeld Leeg.
 
 
 ---
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Zie ook
 
