@@ -11,7 +11,7 @@ ms.date: 11/25/2021
 ms.author: jswymer
 ---
 
-# <a name="work-with-word-layouts" />Werken met Word-lay-outs
+# <a name="work-with-word-layouts"></a>Werken met Word-lay-outs
 
 Een Word-rapportlay-out bepaalt de inhoud en opmaak van een rapport wanneer er een voorbeeld van wordt bekeken en het wordt afgedrukt vanuit Business Central. U maakt en wijzigt deze lay-outs met behulp van Microsoft Word.
 
@@ -26,18 +26,18 @@ Als u een nieuwe Word-rapportlay-out ontwerpt of nieuwe gegevensvelden toevoegt,
 > [!TIP]  
 > Geef de tabelrasterlijnen weer zodat u de grenzen van tabelcellen ziet. Verberg de rasterlijnen als u klaar bent met bewerken. Als u tabelrasterlijnen wilt weergeven of verbergen, selecteert u de tabel en kiest u onder **Lay-out** op het tabblad **Tabel** de optie **Rasterlijnen weergeven**.
 
-## <a name="embedding-fonts-in-word-layouts-for-consistency" />Lettertypen insluiten in Word-lay-outs voor consistentie
+## <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Lettertypen insluiten in Word-lay-outs voor consistentie
 
 Als u ervoor wilt zorgen dat rapporten altijd met de beoogde lettertypen worden weergegeven en afgedrukt, ongeacht waar gebruikers de rapporten openen of afdrukken, kunt u de lettertypen insluiten in het Word-document. Houd er echter rekening mee dat insluiten van lettertypen Word-bestanden aanzienlijk groter maakt. Zie voor meer informatie over het insluiten van lettertypen in Word, [Lettertypen insluiten in Word, PowerPoint of Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-## <a name="adding-data-fields" />Gegevensvelden toevoegen
+## <a name="adding-data-fields"></a>Gegevensvelden toevoegen
 
 Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeeldingen bevatten. In dit onderwerp wordt de procedure beschreven om velden uit een rapportgegevensset toe te voegen aan een bestaande Word-rapportlay-out voor een rapport. U voegt velden toe door het aangepaste Word XML-onderdeel voor het rapport te gebruiken en u voegt inhoudsbesturingselementen toe waarmee de velden worden toegewezen aan de rapportgegevensset. Het toevoegen van velden vereist dat u enige kennis van de gegevensset van het rapport hebt, zodat u kunt bepalen welke velden u aan de lay-out wilt toevoegen.  
   
 > [!NOTE]  
 >  U kunt geen ingebouwde rapportlay-outs wijzigen.<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Het aangepaste XML-onderdeel voor het rapport openen in Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a> Het aangepaste XML-onderdeel voor het rapport openen in Word
   
 1. Open, als het nog niet open is, het Word-document met de rapportlay-out in Word.  
   
@@ -59,7 +59,7 @@ Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeelding
   
      Nadat u het aangepaste XML-onderdeel hebt geselecteerd, worden in het deelvenster XML-toewijzing de labels en veldbesturingselementen weergegeven die beschikbaar zijn voor het rapport.  
   
-### <a name="to-add-a-label-or-data-field" />Een label- of gegevensveld toevoegen
+### <a name="to-add-a-label-or-data-field"></a>Een label- of gegevensveld toevoegen
   
 1. Plaats de cursor in het document waar u het besturingselement wilt toevoegen.  
   
@@ -68,7 +68,7 @@ Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeelding
     > [!NOTE]  
     >  U kunt een veld toevoegen door handmatig de gegevenssetveldnaam in het inhoudsbesturingselement te typen. U moet het deelvenster **XML-toewijzing** gebruiken om de velden toe te wijzen.  
   
-### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list" />Als u herhalende rijen met gegevensvelden wilt toevoegen, maakt u een lijst
+### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Als u herhalende rijen met gegevensvelden wilt toevoegen, maakt u een lijst
   
 1. Voeg in een tabel een tabelrij toe die een kolom bevat voor elk veld dat u wilt herhalen.  
   
@@ -86,7 +86,7 @@ Een rapportgegevensset kan bestaan uit velden die labels, gegevens en afbeelding
   
     3. Herhaal stap a en b voor elk veld.  
   
-## <a name="adding-image-fields" />Afbeeldingsvelden toevoegen
+## <a name="adding-image-fields"></a>Afbeeldingsvelden toevoegen
 
 Een rapportgegevensset kan een veld bevatten dat een afbeelding bevat, zoals een bedrijfslogo of een foto van een artikel. Als u een afbeelding uit de rapportgegevensset wilt toevoegen, voegt u een inhoudsbesturingselement van het type **Afbeelding** in.  
   
@@ -95,7 +95,7 @@ Afbeeldingen worden in de linkerbovenhoek van het inhoudsbesturingselement uitge
 > [!IMPORTANT]  
 > U kunt alleen afbeeldingen toevoegen die een indeling hebben die door Word wordt ondersteund (zoals .bmp, .jpeg en .png). Als u een afbeelding toevoegt met een indeling die niet door Word wordt ondersteund, kan een fout optreden wanneer u het rapport uitvoert vanuit de [!INCLUDE[prod_short](includes/prod_short.md)]-client.  
   
-### <a name="to-add-an-image" />Een afbeelding toevoegen
+### <a name="to-add-an-image"></a>Een afbeelding toevoegen
   
 1. Plaats de aanwijzer in het document waar u het besturingselement wilt toevoegen.  
   
@@ -103,7 +103,7 @@ Afbeeldingen worden in de linkerbovenhoek van het inhoudsbesturingselement uitge
   
 3. Als u de afbeelding groter of kleiner wilt maken, versleept u een formaatgreep van of naar het midden van het inhoudsbesturingselement.  
 
-## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Label- en gegevensvelden verwijderen
+## <a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Label- en gegevensvelden verwijderen
 
 Label- en gegevensvelden van een rapport bevinden zich in inhoudsbesturingselementen in Word. De volgende afbeelding is een voorbeeld van een inhoudsbesturingselement wanneer het in een Word-document is geselecteerd.  
 
@@ -111,7 +111,7 @@ Label- en gegevensvelden van een rapport bevinden zich in inhoudsbesturingseleme
 
 De naam van het label- of gegevensveld wordt weergegeven in het inhoudsbesturingselement. In het voorbeeld is de veldnaam CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field" />Een label- of gegevensveld verwijderen
+### <a name="to-remove-a-label-or-data-field"></a>Een label- of gegevensveld verwijderen
 
 1. Klik met de rechtermuisknop op het veld dat u wilt verwijderen, en kies vervolgens **Inhoudsbesturingselement verwijderen**.  
 
@@ -119,11 +119,11 @@ De naam van het label- of gegevensveld wordt weergegeven in het inhoudsbesturing
 
 2. Verwijder de resterende tekst indien nodig.
 
-## <a name="custom-xml-part-overview" />Overzicht van het aangepaste XML-onderdeel
+## <a name="custom-xml-part-overview"></a>Overzicht van het aangepaste XML-onderdeel
 
 Word-rapportlay-outs worden gemaakt met *aangepaste XML-onderdelen*. Een aangepast XML-onderdeel van een rapport bestaat uit elementen die corresponderen met de gegevensitems, kolommen en labels die de gegevensset van het rapport vormen. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Het aangepaste XML-onderdeel wordt gebruikt om de gegevens in een rapport toe te wijzen wanneer het rapport wordt uitgevoerd.
 
-### <a name="xml-structure-of-custom-xml-part" />XML-structuur van aangepast XML-onderdeel
+### <a name="xml-structure-of-custom-xml-part"></a>XML-structuur van aangepast XML-onderdeel
 
 De volgende tabel bevat een vereenvoudigd overzicht van de XML van een aangepast XML-onderdeel.  
   
@@ -136,7 +136,7 @@ De volgende tabel bevat een vereenvoudigd overzicht van de XML van een aangepast
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Gegevensitems en kolommen die zijn genest in het gegevensitem van het hoogste niveau. Kolommen worden in alfabetische volgorde weergegeven onder het desbetreffende gegevensitem.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Afsluitend element.|  
   
-### <a name="custom-xml-part-in-word" />Aangepast XML-onderdeel in Word
+### <a name="custom-xml-part-in-word"></a>Aangepast XML-onderdeel in Word
 
  In Word opent u het aangepaste XML gedeelte in het deelvenster **XML-toewijzing** en gebruikt u het deelvenster om elementen toe te wijzen aan inhoudsbesturingselementen in het Word-document. Het deelvenster **XML-toewijzing** is toegankelijk vanaf het tabblad **Ontwikkelaar** (zie [Het tabblad Ontwikkelaar op het lint weergeven](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon) voor meer informatie).  
   
@@ -154,7 +154,7 @@ De volgende tabel bevat een vereenvoudigd overzicht van de XML van een aangepast
   
 * De taal van het label dat wordt weergegeven wanneer u het rapport uitvoert, hangt af van de taalinstelling van het rapportobject.  
   
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
 

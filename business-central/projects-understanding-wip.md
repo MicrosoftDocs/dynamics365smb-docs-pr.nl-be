@@ -11,7 +11,7 @@ ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="understanding-wip-methods-in-project-management" />WIP-methoden in projectbeheer begrijpen
+# <a name="understanding-wip-methods-in-project-management"></a>WIP-methoden in projectbeheer begrijpen
 
 Naarmate een project vordert, worden materialen, resources en overige zaken verbruikt en moeten hiervoor boekingen plaatsvinden op het project. Onderhanden werk (OHW) is een functie waarmee u de financiële waarde van projecten in het grootboek kunt schatten gedurende de projecten. In veel gevallen kunt u kosten voor een project boeken voordat u het project factureert. Wanneer alleen kosten zijn geboekt, klopt het financiële afschrift niet.
 
@@ -27,9 +27,9 @@ Als u de waarde in het grootboek wilt volgen, kunt u het OHW-bedrag berekenen en
 | Percentage van voltooiing |Verantwoorde kosten = Gebruik (totale kosten)<br /><br /> Verantwoorde omzet = Factureerbaar (totale prijs) x Voltooiingspercentage<br /><br /> Voltooiingspercentage = Gebruik (totale kostprijs) / Budget (totale kostprijs)<br /> (Vastgelegd in veld **Taakvoltooiing %** op projecttaakregels)<br /><br /> OHW-omzet = Verantwoorde omzet - Factureerbaar (gefactureerde prijs) |Bij het berekenen van het voltooiingspercentage worden inkomsten proportioneel verantwoord op basis van het percentage voltooid, dat wil zeggen de totale kosten van het gebruik versus de budgetkosten.<br /><br /> Voor deze berekening moeten de factureerbare totale prijs en de totale budgetkosten correct worden ingevoerd voor het hele project. |
 | Voltooid contract |OHW-bedrag = Totale OHW-kosten = Gebruik (totale kostprijs)<br /><br /> Omzet OHW = Factureerbaar (gefactureerde prijs) |Bij Contract voltooid worden de inkomsten en de kosten pas verantwoord als het project is voltooid. U kunt hiervoor kiezen als de geschatte kosten en inkomsten van het project nog niet zeker zijn.<br /><br /> Al het gebruik wordt op de OHW-kostenrekening (activum) geboekt, terwijl alle gefactureerde omzet op de rekening gefactureerde omzet OHW (passief) wordt geboekt totdat het project is voltooid. |
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Financiën](finance.md)  

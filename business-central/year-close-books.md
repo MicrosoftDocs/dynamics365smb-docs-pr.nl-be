@@ -11,12 +11,12 @@ m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="closing-the-books" />De boeken sluiten
+# <a name="closing-the-books"></a>De boeken sluiten
 Nadat gezorgd hebt dat alle rekeningen actueel zijn, en u kosten en inkomsten hebt verdeeld, kunt u de boeken van een boekhoudperiode of boekjaar sluiten.
 
 U bent niet verplicht een jaar af te sluiten, maar maakt het werken in het systeem gemakkelijker omdat u dan kunt profiteren van de handige filteropties. U hoeft zich bovendien geen zorgen te maken over het verlies van transactiedetails wanneer u het jaar afsluit, omdat alle details behouden blijven, zelfs nadat u het jaar hebt afgesloten.
 
-## <a name="closing-book-process" />Proces voor het afsluiten van boeken
+## <a name="closing-book-process"></a>Proces voor het afsluiten van boeken
 Bij het proces voor het afsluiten van boeken zijn drie hoofdtaken betrokken:
 
 1. De boekingsperiode afsluiten.
@@ -38,14 +38,14 @@ Bij het proces voor het afsluiten van boeken zijn drie hoofdtaken betrokken:
 
     Zie [Jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md) voor meer informatie.
 
-## <a name="what-happens-when-you-close" />Wat er gebeurt wanneer u afsluit
+## <a name="what-happens-when-you-close"></a>Wat er gebeurt wanneer u afsluit
 Wanneer u het boekjaar aan het einde van het jaar afsluit, verplaatst het systeem uw resultaten van de berekende resultaten. Het systeem markeert tevens het boekjaar als "afgesloten," en markeert alle volgende posten voor het afgesloten jaar als "posten van het vorige jaar."
 
 Het systeem genereert vervolgens een ultimopost, maar boekt de post niet automatisch. U krijgt de gelegenheid de uitstellende vermogensrekeningpost of -posten te maken, zodat u kunt beslissen hoe u uw ultimopost wilt toewijzen. Als een bedrijf bijvoorbeeld verschillende divisies heeft, kunt u in het systeem één ultimopost laten genereren voor alle divisies en kunt u vervolgens een uitstellende post voor de vermogensrekening van elke divisie maken.
 
 U kunt in een eerder boekjaar boeken, zelfs nadat de resultatenrekeningen zijn gesloten, als u nadien nogmaals de batchverwerking Afsluiten WenV-rekening uitvoert.
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -8,7 +8,7 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
 ---
-# <a name="set-up-currencies" />Valuta's instellen
+# <a name="set-up-currencies"></a>Valuta's instellen
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -16,7 +16,7 @@ Gebruik een externe service om de laatste valutawisselkoersen op te halen in de 
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="currencies" /><a name="curr"></a>Valuta's
+## <a name="currencies"></a><a name="curr"></a>Valuta's
 
 In de volgende tabel worden de velden in de lijst **Valuta's** beschreven.
 
@@ -52,7 +52,7 @@ In de volgende tabel worden de velden in de lijst **Valuta's** beschreven.
 |**Max. toegestaan btw-verschil**|Het maximaal toegestane bedrag voor btw-verschillen in deze valuta. Zie voor meer informatie [Btw-bedragen handmatig corrigeren in verkoop- en inkoopdocumenten](finance-work-with-vat.md#correcting-vat-amounts-manually-on-sales-and-purchase-documents). Dit veld is mogelijk niet standaard zichtbaar. Het kan worden opgehaald door de pagina te personaliseren.|
 |**Btw-afrondingssoort**|Specificeert de afrondingsmethode voor het handmatig corrigeren van btw-bedragen in verkoop- en inkoopdocumenten. Dit veld is mogelijk niet standaard zichtbaar. Het kan worden opgehaald door de pagina te personaliseren.|
 
-### <a name="available-currency-functions" />Beschikbare valutafuncties
+### <a name="available-currency-functions"></a>Beschikbare valutafuncties
 
 De volgende tabel geeft een overzicht van de belangrijkste acties op de pagina **Valuta's**.  
 
@@ -67,11 +67,11 @@ De volgende tabel geeft een overzicht van de belangrijkste acties op de pagina *
 ||**Wisselkoersen bijwerken**|De laatste valutawisselkoersen ophalen van een serviceprovider.|
 |**Rapporten**|**Saldo in vreemde valuta**|De saldi voor de klanten en leveranciers weergeven in vreemde valuta's en de lokale valuta (LV). In het rapport worden twee saldi in lokale valuta weergegeven. Een daarvan is het saldo in vreemde valuta omgerekend naar lokale valuta met behulp van de wisselkoers op het moment van de transactie. De ander is het saldo in vreemde valuta omgerekend naar lokale valuta met behulp van de wisselkoers op het moment van de werkdatum.|
 
-## <a name="lcy-and-other-currencies" />LV en andere valuta's
+## <a name="lcy-and-other-currencies"></a>LV en andere valuta's
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="rounding-currencies" />Valuta's afronden
+## <a name="rounding-currencies"></a>Valuta's afronden
 
 Als u valuta's wilt beheren waarvoor geen decimalen worden gebruikt en onnodige decimalen in vreemde valuta's wilt voorkomen, kunt u twee verschillende afrondingsfuncties gebruiken:
 
@@ -83,37 +83,37 @@ Deze functies kunt u afzonderlijk of in combinatie gebruiken. Bovendien werken d
 
 In tegenstelling tot de functies voor factuurafronding zijn de functies voor bedrag- en prijsafronding alleen van invloed op bedragen in een vreemde valuta en niet op de bijbehorende bedragen in de LV. Deze twee functies leiden niet tot boekingen naar grootboekrekeningen. Dientengevolge hoeft u geen grootboekrekening op te geven voor boekingsgroepen of anderszins.
 
-### <a name="unit-amount-rounding" />Prijsafronding
+### <a name="unit-amount-rounding"></a>Prijsafronding
 
 Met de functie voor prijsafronding wordt geregeld hoe verkoopprijzen voor artikelen en resources in vreemde valuta's worden afgerond op verkoop- en inkoopregels. U moet de regels voor elke valuta apart opgeven in het veld **Prijsafrondingsprecisie** in de lijst **Valuta's**.
 
 De functie voor prijsafronding wordt telkens automatisch gebruikt wanneer u een artikel- of resourcenummer invoert in een verkoopregel. Als de factuur voor een klant met een valutacode is bestemd, wordt de artikel- of resourceprijs omgerekend naar de valuta van de klant. De prijs wordt afgerond volgens de prijsafrondingsprecisie voor de valuta.
 
-### <a name="amount-rounding" />Bedragafronding
+### <a name="amount-rounding"></a>Bedragafronding
 
 Met de functie voor bedragafronding wordt geregeld hoe bedragen in vreemde valuta's worden afgerond in dagboek-, verkoop- en inkoopregels. U moet de regels voor elke valuta apart opgeven in het veld **Bedragafrondingsprecisie** in de lijst **Valuta's**.
 
 Bedragen in vreemde valuta's worden afgerond wanneer u dagboek-, verkoop- en inkoopregels invult en boekt.
 
-## <a name="exchange-rates" />Wisselkoersen
+## <a name="exchange-rates"></a>Wisselkoersen
 
 U kunt wisselkoersen voor elke vreemde valuta registreren en opgeven vanaf welke datums de wisselkoersen geldig zijn. U kunt bijvoorbeeld dagelijkse, maandelijkse of driemaandelijkse wisselkoersen voor elke vreemde valuta invoeren.
 
 U kunt historische wisselkoersen ter referentie behouden op de pagina **Valutawisselkoersen**. Als u wisselkoersen moet bijwerken, kunt u de knop **Wisselkoersen bijwerken** gebruiken om de laatste wisselkoersen op te halen bij externe serviceprovider.
 
-## <a name="general-ledger-accounts" />Grootboekrekeningen
+## <a name="general-ledger-accounts"></a>Grootboekrekeningen
 
 U kunt geen valutacodes aan grootboekrekeningen koppelen omdat bedragen in grootboekrekeningen in de LV zijn. Als u een banklening in USD hebt en bedragen op een bankrekening stort in SEK, kunt u deze rekeningen bijhouden door bankrekeningen in USD en SEK in te stellen. Met boekingsgroepen kunt u de rekeningen aan de relevante grootboekrekeningen koppelen. In het grootboek wordt de waarde van de bedragen weergegeven in de LV.
 
 U kunt een valutacode voor een dagboekregel invoeren en de regel naar een grootboekrekening boeken. De relevante wisselkoers wordt gebruikt om het bedrag naar de LV om te rekenen voordat dit naar de grootboekrekening wordt geboekt.  
 
-## <a name="example-of-a-receivable-currency-transaction" />Voorbeeld van een te ontvangen valutatransactie
+## <a name="example-of-a-receivable-currency-transaction"></a>Voorbeeld van een te ontvangen valutatransactie
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)  
 [Een extra rapportagevaluta instellen.](finance-how-setup-additional-currencies.md)  

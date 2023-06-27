@@ -8,7 +8,7 @@ ms.search.form: '314, 459, 460, 664'
 ms.date: 10/27/2021
 ms.author: edupont
 ---
-# <a name="set-up-prepayments" />Vooruitbetalingen instellen
+# <a name="set-up-prepayments"></a>Vooruitbetalingen instellen
 
 Als uw klanten u moeten betalen voordat u een order naar ze verzendt of als uw leverancier wil dat u betaalt voordat een order naar u wordt verzonden, kunt u de functie Vooruitbetaling gebruiken. Met de functionaliteit voor vooruitbetalingen kunt u vereiste borgsommen factureren en innen van klanten of kunt u borgsommen overmaken aan leveranciers, en ervoor zorgen dat alle gedeeltelijke betalingen worden geboekt tegen een factuur. Zie voor meer informatie [Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md).
 
@@ -28,7 +28,7 @@ Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of d
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## <a name="to-add-prepayment-accounts-to-the-general-posting-setup" />Vooruitbetalingsrekeningen toevoegen aan de boekingsgroepinstellingen
+## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Vooruitbetalingsrekeningen toevoegen aan de boekingsgroepinstellingen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Boekingsgroepinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Boekingsgroepinstellingen** de volgende velden in voor de relevante regels:  
@@ -41,7 +41,7 @@ Omdat het vooruitbetaalde bedrag bij de koper hoort totdat deze de goederen of d
 
 Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u de pagina **Grootboekrekeningoverzicht** openen vanuit het relevante rekeningveld.  
 
-## <a name="to-set-up-number-series-for-prepayment-documents" />Nummerreeks instellen voor vooruitbetalingsdocumenten
+## <a name="to-set-up-number-series-for-prepayment-documents"></a>Nummerreeks instellen voor vooruitbetalingsdocumenten
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Verkoopinstellingen** op het sneltabblad **Nummerreeks** de volgende velden in:  
@@ -58,7 +58,7 @@ Als u nog geen grootboekrekeningen hebt ingesteld voor vooruitbetalingen, kunt u
 > [!NOTE]  
 > U kunt dezelfde nummerreeks gebruiken voor vooruitbetalingsnota's en normale facturen, of u kunt verschillende nummerreeksen gebruiken. Als u verschillende reeksen gebruikt, mogen deze elkaar niet overlappen omdat er geen nummers mogen zijn die in beide reeksen voorkomen.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors" />Vooruitbetalingspercentages instellen voor artikelen, klanten en leveranciers
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Vooruitbetalingspercentages instellen voor artikelen, klanten en leveranciers
 
 Voor een artikel kunt u een standaardvooruitbetalingspercentage instellen voor alle klanten, een specifieke klant of een klantenprijsgroep. Als u niet voor alle klanten hetzelfde vooruitbetalingspercentage wilt toepassen, moet u aangeven voor welke klanten of voor welke klantprijsgroepen het vooruitbetalingspercentage geldt.
 
@@ -76,7 +76,7 @@ Voor een klant of leverancier kunt u één standaardvooruitbetalingspercentage i
 > [!TIP]
 > U kunt ook toegang krijgen tot de pagina **Inkoopinstellingen** van de klanten- of leverancierskaart.
 
-### <a name="to-determine-which-prepayment-percentage-has-first-priority" />Bepalen welk vooruitbetalingspercentage de hoogste prioriteit heeft
+### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Bepalen welk vooruitbetalingspercentage de hoogste prioriteit heeft
 
 Een order kan een vooruitbetalingspercentage hebben in de verkoopkop en een ander percentage voor de artikelen op de regels. Om te bepalen welk vooruitbetalingspercentage van toepassing is voor elke verkoopregel, zoekt het systeem voor elke verkoopregel in de volgende volgorde naar het vooruitbetalingspercentage. De eerste gevonden standaardwaarde wordt toegepast:  
 
@@ -87,7 +87,7 @@ Een order kan een vooruitbetalingspercentage hebben in de verkoopkop en een ande
 
 Met andere woorden: het vooruitbetalingspercentage op de klantenkaart geldt alleen als er geen vooruitbetalingspercentage is ingesteld voor het artikel. Als u echter de inhoud van het veld **Vooruitbetaling %** wijzigt in de verkoop- of de inkoopkop nadat u de regels hebt gemaakt, wordt het vooruitbetalingspercentage op alle regels bijgewerkt. Hierdoor wordt het gemakkelijk om een order te maken met een vast vooruitbetalingspercentage, ongeacht het percentage dat is ingesteld op artikelen.
 
-## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied" />Verkooporders automatisch vrijgeven wanneer vooruitbetalingen worden toegepast
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Verkooporders automatisch vrijgeven wanneer vooruitbetalingen worden toegepast
 
 U kunt tijd besparen door een taakwachtrij-item in te stellen dat automatisch verkooporders vrijgeeft waarvoor vooruitbetaling is vereist nadat de betalingen zijn toegepast. Het automatiseren van het proces bespaart u de stap van het vrijgeven van de verkooporder.
 
@@ -100,9 +100,9 @@ U kunt tijd besparen door een taakwachtrij-item in te stellen dat automatisch ve
 3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.
 4. Stel het taakwachtrij-item **Verkopen wachtend op vooruitbetaling bijwerken** bijvoorbeeld in door de instellingen op het tabblad **Herhaling** te gebruiken om te plannen hoe vaak u het item wilt uitvoeren. Zie voor meer informatie [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Vooruitbetalingen factureren](finance-invoice-prepayments.md)  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

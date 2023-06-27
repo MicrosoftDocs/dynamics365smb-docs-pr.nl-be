@@ -10,7 +10,7 @@ ms.search.form: 2000001
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# <a name="test-electronic-payments-in-the-belgian-version" />Elektronische betalingen testen in de Belgische versie
+# <a name="test-electronic-payments-in-the-belgian-version"></a>Elektronische betalingen testen in de Belgische versie
 
 Nadat u elektronisch bankieren hebt ingesteld en betalingsvoorstellen hebt gegenereerd, kunt u de betalingsdagboekregels op fouten testen voordat u ze boekt.  
 
@@ -28,14 +28,14 @@ U kunt de fouten bekijken op de pagina **Logboeken voor controlefouten exportere
 > [!IMPORTANT]  
 > U moet alle fouten corrigeren voordat u de regels kunt boeken.  
 
-## <a name="to-test-payment-journal-lines" />Betalingsdagboekregels testen
+## <a name="to-test-payment-journal-lines"></a>Betalingsdagboekregels testen
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies de koppelingen om de pagina **EB-betalingsdagboeken** te openen.  
 2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
 3. Selecteer in het veld **Exportprotocol** het exportprotocol.  
 4. Voer de betalingsdagboekregelinformatie in en kies vervolgens de actie **Betalingsregels controleren** om de betalingsdagboekregels te valideren. Welke validatie op de dagboekregels wordt uitgevoerd, is afhankelijk van de soort controle die op de pagina **Exportprotocollen** is opgegeven.  
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Betalingsdagboeksjablonen en -batches maken](how-to-create-payment-journal-templates-and-batches.md)  
 [Belgische elektronische betalingen](belgian-electronic-payments.md)  

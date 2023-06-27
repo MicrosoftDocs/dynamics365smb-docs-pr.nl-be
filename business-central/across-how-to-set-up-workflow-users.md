@@ -11,7 +11,7 @@ ms.search.form: '1533,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-a-sequence-of-workflow-users" />Een reeks werkstroomgebruikers instellen
+# <a name="set-up-a-sequence-of-workflow-users"></a>Een reeks werkstroomgebruikers instellen
 
 Voordat u goedkeuringswerkstromen kunt maken, moet u de gebruikers instellen die aanvragen indienen, en hun fiatteurs. U kunt bijvoorbeeld opgeven wie een bericht ontvangt als er moet worden gereageerd op een werkstroomstap. U stelt deelnemers aan goedkeuringswerkstromen in op de **Gebruikersinstellingen voor goedkeuring**. Meer informatie op [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ Op de pagina **Werkstroomgebruikersgroepen** kunt u opgeven waar een deelnemer e
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## <a name="to-set-up-a-workflow-user-group" />Een werkstroomgebruikersgroep instellen
+## <a name="to-set-up-a-workflow-user-group"></a>Een werkstroomgebruikersgroep instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstroomgebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. De pagina **Werkstroomgebruikersgroep** wordt geopend.  
@@ -34,9 +34,9 @@ Op de pagina **Werkstroomgebruikersgroepen** kunt u opgeven waar een deelnemer e
 
 6. Herhaal stap 5 om meer werkstroomgebruikers aan de werkstroomgebruikersgroep toe te voegen.  
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)  
 [Goedkeuringswerkstromen instellen](across-set-up-workflows.md)  

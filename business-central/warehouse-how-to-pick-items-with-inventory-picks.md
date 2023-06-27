@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 7377'
 ---
-# <a name="pick-items-with-inventory-picks" />Artikelen picken met een voorraadpick
+# <a name="pick-items-with-inventory-picks"></a>Artikelen picken met een voorraadpick
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
@@ -42,29 +42,29 @@ U kunt een voorraadpick op drie manieren maken:
 
 De voorraadpick kan vervolgens worden gemaakt vanaf de pagina **Voorraadpick** op basis van het brondocument.  
 
-## <a name="to-create-an-inventory-pick-from-the-source-document" />Een voorraadpick maken vanuit het brondocument
+## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Een voorraadpick maken vanuit het brondocument
 
 1. Klik in het brondocument, dat een verkooporder, inkoopretourorder of uitgaande transferorder kan zijn, op de actie **Voorraadopslag/-pick maken**.
 2. Schakel het selectievakje **Voorraadpick maken** in.  
 3. Kies de knop **OK**. Er wordt een nieuwe voorraadpick gemaakt.
 
-## <a name="to-create-multiple-inventory-picks-with-a-batch-job" />Meerdere voorraadpicks maken met een batchverwerking
+## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Meerdere voorraadpicks maken met een batchverwerking
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag/-pick-verplaatsing maken** in en kies de gerelateerde koppeling.  
 2. Gebruik op het sneltabblad **Magazijnverzoek** de velden **Brondocument** en **Bronnr.** om te filteren op bepaalde soorten documenten of reeksen documentnummers. U kunt bijvoorbeeld picks voor alleen de verkooporders maken.  
 3. Schakel op het sneltabblad **Opties** het selectievakje **Voorraadpick maken** in.
 4. Kies de knop **Ok**.
 
-## <a name="to-create-the-pick-in-two-steps" />De pick in twee stappen maken
+## <a name="to-create-the-pick-in-two-steps"></a>De pick in twee stappen maken
 
-### <a name="to-request-an-inventory-pick-by-releasing-the-source-document" />Een voorraadpick aanvragen door het brondocument vrij te geven
+### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Een voorraadpick aanvragen door het brondocument vrij te geven
 
 Voor verkooporders, inkoopretourorders en uitgaande transferorders maakt u het magazijnverzoek door de order vrij te geven. Door de order vrij te geven, zijn de artikelen beschikbaar voor picken.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de verkooporder die u wilt vrijgeven en kies de actie **Vrijgeven**.
 
-### <a name="to-create-an-inventory-pick-based-on-the-source-document" />Een voorraadpick maken op basis van het brondocument
+### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Een voorraadpick maken op basis van het brondocument
 
 Nadat u een order hebt vrijgegeven, kan de magazijnmedewerker een voorraadpick maken.
 
@@ -75,7 +75,7 @@ Nadat u een order hebt vrijgegeven, kan de magazijnmedewerker een voorraadpick m
 5. U kunt ook de actie **Brondocument ophalen** kiezen om alle uitgaande brondocumenten te selecteren die gereed zijn voor picken op de vestiging.  
 6. Kies de knop **OK** om de pickregels in te vullen op basis van de geselecteerde brondocumenten.  
 
-## <a name="to-record-inventory-picks" />Voorraadpicks registreren
+## <a name="to-record-inventory-picks"></a>Voorraadpicks registreren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadpick** in en kies vervolgens de gerelateerde koppeling.  
 2. In het veld **Opslaglocatie** op de pickregels wordt op basis van de standaardopslaglocatie per artikel de opslaglocatie voorgesteld waaruit de artikelen moeten worden gepickt. De opslaglocatie op deze pagina kunt u desgewenst wijzigen.  
@@ -88,7 +88,7 @@ Nadat u een order hebt vrijgegeven, kan de magazijnmedewerker een voorraadpick m
     * Boek de verzending van de brondocumentregels die zijn gepickt.
     * Als de vestiging opslaglocaties gebruikt, leidt de boeking er ook toe dat er magazijnposten worden gemaakt om de wijziging in de aantallen in de opslaglocatie te boeken.  
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks" />Op-order-assembleren-artikelen met voorraadpicks afhandelen
+## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Op-order-assembleren-artikelen met voorraadpicks afhandelen
 
 U kunt ook de pagina **Voorraadpick** gebruiken voor het picken en verzenden voor verkoop waarbij artikelen moeten worden geassembleerd voordat ze verzonden kunnen worden. Zie voor meer informatie [Assembleren voor order-artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md)
 
@@ -118,9 +118,9 @@ In scenario's waarbij een deel van de hoeveelheid wordt geassembleerd en een and
 > [!NOTE]  
 > Als artikelen op bestelling worden geassembleerd, maakt de voorraadpick voor de gekoppelde verkooporder een voorraadverplaatsing voor alle assemblagematerialen.  
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/pick-ship-items-business-central/)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

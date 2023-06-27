@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="why-a-page-is-locked-from-personalization" />Waarom een pagina is vergrendeld voor personaliseren
+# <a name="why-a-page-is-locked-from-personalization"></a>Waarom een pagina is vergrendeld voor personaliseren
 
 Er zijn twee voorwaarden die voorkomen dat u een pagina personaliseert. Of de pagina is vergrendeld (zoals aangegeven door het pictogram ![Personaliseringsvergrendeling.](media/personalization-lock-icon.png "Personalisatievergrendeling")) of de pagina is geblokkeerd (zoals aangegeven door het pictogram ![Personalisatie geblokkeerd.](media/personalization-blocked-icon.png "Personalisatie geblokkeerd")).  
 
-## <a name="locked-from-personalizing" />Vergrendeld tegen personaliseren
+## <a name="locked-from-personalizing"></a>Vergrendeld tegen personaliseren
 
 Als er een pictogram ![Personaliseringsvergrendeling.](media/personalization-lock-icon.png "Personalisatievergrendeling") is, is te zien is op de banner **Personaliseren** wanneer u een pagina opent, kunt u op dit moment geen persoonlijke instellingen wijzigen op de pagina.
 
@@ -30,14 +30,14 @@ Hiervoor kunnen twee redenen bestaan:
 
 2. Tot dusverre hebt u alleen de nu afgeschafte [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] gebruikt om de pagina te personaliseren.
 
-### <a name="unlocking-the-page" />De pagina ontgrendelen
+### <a name="unlocking-the-page"></a>De pagina ontgrendelen
 
 Als u een pagina wilt ontgrendelen en door wilt gaan met personaliseren, kiest u het pictogram ![Personaliseringsvergrendeling](media/personalization-lock-icon.png "Personalisatievergrendeling") en kiest u vervolgens de actie **Ontgrendelen**.  
 
 > [!CAUTION]
 > De huidige personalisatie van de pagina wordt gewist. De pagina keert terug naar de oorspronkelijke indeling en u moet opnieuw beginnen.  
 
-## <a name="blocked-from-personalizing" />Geblokkeerd tegen personaliseren
+## <a name="blocked-from-personalizing"></a>Geblokkeerd tegen personaliseren
 
 Als de banner **Personaliseren** het pictogram ![Personalisatie geblokkeerd](media/personalization-blocked-icon.png "Personalisatie geblokkeerd") bevat, betekent dit dat u geblokkeerd wordt om personalisatie op de pagina aan te brengen.
 
@@ -45,7 +45,7 @@ Als de banner **Personaliseren** het pictogram ![Personalisatie geblokkeerd](med
 
 De reden hiervoor is dat het rolcentrum of de rol die op dat moment aan uw gebruikersaccount is gekoppeld, deze pagina specifiek voor uw rol wijzigt. Neem contact op met uw beheerder voor hulp. U kunt ook overschakelen naar een rolcentrum met rolaanpassing voor deze pagina. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Uw werkruimte personaliseren](ui-personalization-user.md)  
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  

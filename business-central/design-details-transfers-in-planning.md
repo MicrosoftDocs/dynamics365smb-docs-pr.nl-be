@@ -9,7 +9,7 @@ ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ---
-# <a name="design-details-transfers-in-planning" />Ontwerpdetails: Transfers in planning
+# <a name="design-details-transfers-in-planning"></a>Ontwerpdetails: Transfers in planning
 
 Transferorders zijn ook een voorzieningenbron bij het werken op SKU-niveau. Als meerdere vestigingen (magazijnen) worden gebruikt, kan de SKU-aanvullingsmethode worden ingesteld op Transfer, wat aangeeft dat de vestiging wordt aangevuld door goederen van een andere vestiging over te brengen. In een situatie met meer magazijnen hebt u mogelijk een keten van transfers. Aanbod naar GROENE vestiging wordt overgezet van GEEL, aanbod naar GEEL wordt overgezet van ROOD, enzovoort. Aan het begin van de keten is er een aanvullingssysteem **Prod.-order** of **Inkoop**.  
 
@@ -27,7 +27,7 @@ Als de vraag verandert, kan dit een rimpeleffect door de keten veroorzaken. Alle
 
 ![Voorbeeld van evenwicht tussen vraag en aanbod bij overdrachten.](media/nav_app_supply_planning_7_transfers2.png "Voorbeeld van evenwicht tussen vraag en aanbod bij overdrachten")  
 
-## <a name="why-is-a-transfer-a-special-case" />Waarom is een transfer een speciaal geval?
+## <a name="why-is-a-transfer-a-special-case"></a>Waarom is een transfer een speciaal geval?
 
 Transferorders zijn vergelijkbaar met andere orders, zoals inkoop- en productieorders. Achter de schermen ligt het echter heel anders.  
 
@@ -37,7 +37,7 @@ Een verschil is dat een transferregel zowel vraag als aanbod vertegenwoordigt. H
 
 Dit betekent dat wanneer [!INCLUDE [prod_short](includes/prod_short.md)] de aanbodzijde van de transfer wijzigt, een vergelijkbare wijziging aan de vraagkant moet worden gemaakt.  
 
-## <a name="transfers-are-dependent-demand" />Transfers zijn afhankelijke vraag
+## <a name="transfers-are-dependent-demand"></a>Transfers zijn afhankelijke vraag
 
 De relatie tussen vraag en aanbod is vergelijkbaar met materiaal op productieorderregels. Het verschil is dat materiaal op productieorderregels zich op het volgende planningsniveau bevindt en een ander artikel heeft. De twee delen van de transfer bevinden zich op hetzelfde niveau voor hetzelfde artikel.  
 
@@ -47,7 +47,7 @@ Tenzij de planningsflexibiliteit Geen is, moet een transferregel nooit worden ve
 
 In de planningsprocedure moet alleen met transfervraag rekening worden gehouden nadat de aanbodzijde is verwerkt door het planningssysteem. Voordat die verwerking plaatsvindt, is de daadwerkelijke vraag niet bekend. De volgorde van wijzigingen is belangrijk voor transferopdrachten.  
 
-## <a name="planning-sequence" />Planningsvolgorde
+## <a name="planning-sequence"></a>Planningsvolgorde
 
 De volgende afbeelding toont een voorbeeld van deze reeks transfers.  
 
@@ -59,7 +59,7 @@ In dit voorbeeld start het planningssysteem met de klantvraag en wordt achterwaa
 
 ![Leveringsplanning met overdrachten.](media/nav_app_supply_planning_7_transfers5.png "Leveringsplanning met overdrachten")  
 
-## <a name="transfer-level-code" />Transferniveaucode
+## <a name="transfer-level-code"></a>Transferniveaucode
 
 De transferniveaucode van de SKU bepaalt de volgorde waarin het planningssysteem vestigingen verwerkt.  
 
@@ -71,7 +71,7 @@ De transferniveaucode is 0 voor SKU's met de aanvullingsmethode Inkoop of Produc
 
 Bij het bijwerken van een SKU detecteert het planningssysteem of aanvullingssystemen voor SKU's kringverwijzingen hebben.  
 
-## <a name="planning-transfers-without-sku" />Planningstransfers zonder SKU
+## <a name="planning-transfers-without-sku"></a>Planningstransfers zonder SKU
 
 Voor minder geavanceerde magazijnconfiguraties kunt u locaties gebruiken en handmatige overboekingen tussen locaties uitvoeren, zelfs als u geen SKU's gebruikt. De transfer kan bijvoorbeeld betrekking hebben op een verkooporder op die vestiging. Het planningssysteem reageert op veranderingen in de vraag.  
 
@@ -81,7 +81,7 @@ Voor handmatige transfers analyseert het planningssysteem transferorders en plan
 
 Als op een vestiging meerdere transfers bestaan, definieert de eerste transferorder de planningsrichting. Transfers die in de tegengestelde richting lopen, worden geannuleerd.  
 
-## <a name="changing-quantity-with-reservations" />Aantal met reserveringen wijzigen
+## <a name="changing-quantity-with-reservations"></a>Aantal met reserveringen wijzigen
 
 Bij het wijzigen van hoeveelheden in een aanbod houdt het planningssysteem rekening met reserveringen. De gereserveerde hoeveelheid vertegenwoordigt de ondergrens voor hoeveel het aanbod moet worden verminderd.  
 
@@ -96,7 +96,7 @@ Ook al heeft de inkomende zijde mogelijk een overaanbod, u kunt de transferregel
 
 ![Reserveringen bij transferplanning.](media/nav_app_supply_planning_7_transfers8.png "Reserveringen bij transferplanning")  
 
-## <a name="changing-quantity-in-a-transfer-chain" />Aantal in een transferketen wijzigen
+## <a name="changing-quantity-in-a-transfer-chain"></a>Aantal in een transferketen wijzigen
 
 Hier is een voorbeeld van wat er gebeurt als u een hoeveelheid wijzigt in een transferwijziging.
 
@@ -118,7 +118,7 @@ Wanneer het planningssysteem opnieuw wordt uitgevoerd, moeten overtollige voorzi
 
 De ROZE-RODE transfer is gereduceerd tot 22. Het inkomende deel van de BLAUW-ROZE transfer is niet gereserveerd, maar het uitgaande deel wel. De reservering betekent dat u de hoeveelheid niet kunt verminderen tot minder dan 27.  
 
-## <a name="lead-time-calculation" />Berekening van levertermijn
+## <a name="lead-time-calculation"></a>Berekening van levertermijn
 
 Bij de berekening van de vervaldatum van een transferorder wordt rekening gehouden met verschillende soorten levertermijn.  
 
@@ -149,7 +149,7 @@ Het voorbeeld toont de volgende berekeningen:
 * Begindatum + Verzendtijd = Einddatum  
 * Einddatum + Inslagtijd = Ontvangstdatum  
 
-## <a name="safety-lead-time" />Veiligheidstijd
+## <a name="safety-lead-time"></a>Veiligheidstijd
 
 Het veld **Std. veiligheidstijd** op de pagina **Productie-instellingen** en het gerelateerde veld **Veiligheidstijd** op de pagina **Artikel** worden niet meegenomen in berekeningen van transferorders. Wel heeft de veiligheidstijd invloed op het totale plan. De veiligheidstijd is van invloed op de aanvullingsopdracht (aankoop of productie) aan het begin van de transferketen. Dat is het punt waar de artikelen zijn geplaatst op de locatie van waaruit ze worden overgebracht.  
 
@@ -159,7 +159,7 @@ Op de productieorderregel: Einddatum + Veiligheidstijd + Inkomende magazijnverwe
 
 Op de inkooporderregel: Geplande ontvangstdatum + Veiligheidstijd + Inkomende magazijnverwerkingstijd = Verwachte ontvangstdatum.  
 
-## <a name="reschedule" />Herplannen
+## <a name="reschedule"></a>Herplannen
 
 Bij het opnieuw plannen van een bestaande transferregel zoekt het planningssysteem het uitgaande deel en wijzigt het de datum-tijd.
 
@@ -170,11 +170,11 @@ Bij het opnieuw plannen van een bestaande transferregel zoekt het planningssyste
 
 Wanneer u de vervaldatum op een transferregel wijzigt, moet daarom de veiligheidstijd worden berekend om de uitgaande kant van de transfer bij te werken.  
 
-## <a name="serial-and-lot-numbers-in-transfer-chains" />Serie- en lotnummers in transferketens
+## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Serie- en lotnummers in transferketens
 
 Als de vraag serie- of lotnummers gebruikt en u de planningsengine uitvoert, worden transferorders gemaakt. Voor meer informatie over dit concept raadpleegt u Artikelkenmerken. Als echter serie- of lotnummers worden verwijderd uit de vraag, gebruiken de transferorders nog steeds serie- of lotnummers en worden ze dus genegeerd door de planning (niet verwijderd).  
 
-## <a name="order-to-order-links" />Order-naar-order koppelingen
+## <a name="order-to-order-links"></a>Order-naar-order koppelingen
 
 In dit voorbeeld is de SKU BLAUW ingesteld met een bestelbeleid **Order**. De SKU's ROZE en ROOD hebben het bestelbeleid **Lot-voor-Lot**. Het maken van een verkooporder voor 27 op locatie ROOD leidt tot een keten van transfers. De laatste transfer is op locatie BLAUW en is gereserveerd met binding. In dit voorbeeld zijn de reserveringen geen harde reserveringen die door de planner zijn gemaakt op locatie ROZE. Het planningssysteem maakt de bindingen. Het belangrijkste verschil is dat het planningssysteem laatstgenoemde kan wijzigen.  
 
@@ -182,7 +182,7 @@ In dit voorbeeld is de SKU BLAUW ingesteld met een bestelbeleid **Order**. De SK
 
 Als de vraag van 27 verandert in 22, verlaagt het planningssysteem het aantal automatisch in de keten. Ook de bindende reservering wordt verkleind.  
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)   
 [Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)   

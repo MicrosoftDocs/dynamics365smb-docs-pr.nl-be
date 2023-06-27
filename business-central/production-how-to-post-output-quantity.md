@@ -10,7 +10,7 @@ ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="batch-post-output-and-run-times" />Output en bewerkingstijden in batches boeken
+# <a name="batch-post-output-and-run-times"></a>Output en bewerkingstijden in batches boeken
 
 De outputhoeveelheid geeft de voortgang van het werk weer in de vorm van de voltooide hoeveelheid en de gebruikte capaciteit van de afdeling of de bewerkingsplaats.
 
@@ -25,7 +25,7 @@ U kunt ook het outputdagboek gebruiken om:
 
 Met de pagina **Productiedagboek** kunt u dezelfde taken uitvoeren als op de pagina **Outputdagboek** en ook verbruiksboekingstaken uitvoeren. Zie voor meer informatie [Verbruik en output registreren voor één vrijgegeven productieorderregel](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines" />Outputaantallen boeken en/of looptijden registreren voor een of meer productieorderregels
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Outputaantallen boeken en/of looptijden registreren voor een of meer productieorderregels
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in de velden informatie over de productieorder en output en/of looptijd in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ Met de pagina **Productiedagboek** kunt u dezelfde taken uitvoeren als op de pag
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Uitval handmatig boeken](production-how-to-post-scrap.md)
 [Outputboeking tegenboeken](production-how-to-reverse-output-posting.md)

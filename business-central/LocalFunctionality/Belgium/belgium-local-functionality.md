@@ -7,11 +7,11 @@ ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: soalex
 ---
-# <a name="belgium-local-functionality" />Belgische lokale functionaliteit
+# <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
 
 In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[prod_short](../../includes/prod_short.md)]  
 
-## <a name="feature-availability" />Beschikbaarheid van functies
+## <a name="feature-availability"></a>Beschikbaarheid van functies
 
 * Btw
     * [Belgische btw](belgian-vat.md) **Nu beschikbaar**
@@ -66,12 +66,12 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Dagboeksjablonen verplicht maken](specify-journal-template-mandatory.md) **Nu beschikbaar**
     * [Uitstel in rapporten van het Verkoopdagboek en Inkoopdagboek](how-to-use-deferrals.md) **Nu beschikbaar**
 
-## <a name="future-legislation-requirements-being-investigated" />Toekomstige wetgevingseisen worden onderzocht
+## <a name="future-legislation-requirements-being-investigated"></a>Toekomstige wetgevingseisen worden onderzocht
 
 Er zijn momenteel geen aanstaande reglementaire kenmerken of vereisten. Als u op de hoogte bent van nieuwe regelgeving, dient u een [Waarschuwing voor regelgeving voor functies](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u) in.
 
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Beschikbaarheid voor land/regio en ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

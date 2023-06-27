@@ -11,20 +11,20 @@ ms.search.form: '6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 530
 ms.date: 03/17/2023
 ms.author: bholtorf
 ---
-# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook" />Contacten in Business Central synchroniseren met contacten in Microsoft Outlook
+# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Contacten in Business Central synchroniseren met contacten in Microsoft Outlook
 
 U kunt contactsynchronisatie instellen zodat uw contacten in [!INCLUDE[prod_short](includes/prod_short.md)] dezelfde informatie hebben als uw contacten in Microsoft Outlook. Als u bijvoorbeeld een verkoper bent, werkt u mogelijk in Outlook en [!INCLUDE[prod_short](includes/prod_short.md)] tegelijkertijd. Als de contactpersonen op beide plaatsen hetzelfde zijn, is uw werk eenvoudiger.  
 
 Standaard worden de contacten die u synchroniseert, bewaard in een **Business Central**-map in uw favorieten in het mappenvenster in Outlook. De Business Central-map kan het gemakkelijker maken om te identificeren welke contacten u synchroniseert. U kunt filters instellen om alleen specifieke contacten te synchroniseren van [!INCLUDE[prod_short](includes/prod_short.md)] naar Outlook. Nadat u de synchronisatie hebt ingesteld, kunt u handmatig synchroniseren of het proces automatiseren om op geplande basis te synchroniseren.  
 
-## <a name="prerequisites" />Vereisten
+## <a name="prerequisites"></a>Vereisten
 
 - Uw gebruikersprofiel in [!INCLUDE[prod_short](includes/prod_short.md)] moet uw Microsoft 365 e-mailaccount opgeven.
 
   U kunt dit controleren in de instelling **Microsoft 365-verificatie** van uw gebruikersprofiel in de lijst **Gebruikers**.
 - Met [!INCLUDE[prod_short](includes/prod_short.md)] hebt u contactsynchronisatie ingesteld zoals beschreven in [Contactsynchronisatie instellen met Outlook voor Business Central On-premises](admin-contact-sync-setup-onprem.md)
 
-## <a name="set-up-synchronization" />Synchronisatie instellen
+## <a name="set-up-synchronization"></a>Synchronisatie instellen
 
 U stelt in hoe u contactpersonen wilt synchroniseren met Outlook op de pagina **Instelling van Exchange-synchronisatie** in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -34,7 +34,7 @@ Elk van uw collega's kan tevens zijn of haar eigen Exchange-synchronisatie inste
 
 Nadat u de synchronisatie hebt ingesteld, kunt u de wijzigingen aan het contact handmatig synchroniseren of u kunt het proces automatiseren door een taakwachtrij in te stellen. Zie de volgende sectie in dit artikel voor meer informatie over automatisering.
 
-### <a name="automate-synchronization" />Synchronisatie automatiseren
+### <a name="automate-synchronization"></a>Synchronisatie automatiseren
 
 U kunt een taakwachtrij-item maken dat contacten synchroniseert volgens een schema dat u definieert. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md). 
 
@@ -45,7 +45,7 @@ In de volgende tabel staan de instellingen op de pagina **Kaart voor taakwachtri
 |Uit te voeren objecttype|Codeunit|
 |Id van uit te voeren object|6700|
 
-## <a name="synchronize-contacts" />Contactpersonen synchroniseren
+## <a name="synchronize-contacts"></a>Contactpersonen synchroniseren
 
 Als u gewend bent met contacten te werken in [!INCLUDE[prod_short](includes/prod_short.md)], is het gemakkelijk handmatig te synchroniseren vanuit de lijst **Contacten** wanneer het u uitkomt. U kunt contacten op twee manieren synchroniseren:
 
@@ -62,7 +62,7 @@ In beide gevallen worden contacten alleen gesynchroniseerd vanuit Outlook als ze
 > [!NOTE]
 > Als u een contact in Outlook verwijdert, maar deze in [!INCLUDE[prod_short](includes/prod_short.md)] behoudt, wordt het contact de volgende keer dat u synchroniseert opnieuw gemaakt in Outlook. 
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Financiën](finance.md)  

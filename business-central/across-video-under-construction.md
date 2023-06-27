@@ -11,7 +11,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ---
 
-# <a name="sorry-this-content-is-under-construction" />Sorry, deze inhoud is nog niet klaar
+# <a name="sorry-this-content-is-under-construction"></a>Sorry, deze inhoud is nog niet klaar
 
 :::image type="content" source="media/helene/empty illustration_BCdocs.png" alt-text="Er valt hier momenteel niets te zien." border="false":::
 
@@ -21,7 +21,7 @@ We zijn [!INCLUDE[prod_short](includes/prod_short.md)] constant aan het toevoege
 
 Kom snel weer terug en in de tussentijd kun je andere onderwerpen verkennen op het [Dynamics 365-kanaal op YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4).
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 [Bezoek onze videobibliotheek](across-videos.md)
 
  

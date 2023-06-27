@@ -11,11 +11,11 @@ ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="export-your-business-data-to-excel" />Uw Business Central-gegevens exporteren naar Excel
+# <a name="export-your-business-data-to-excel"></a>Uw Business Central-gegevens exporteren naar Excel
 
 Excel is een krachtig hulpmiddel om met gegevens te werken. Vanuit [!INCLUDE[prod_short](includes/prod_short.md)] kunt u elke lijst in Excel openen. U kunt zelfs gegevens in Excel wijzigen en deze vervolgens terugsturen naar [!INCLUDE [prod_short](includes/prod_short.md)]. Met dezelfde mogelijkheid kunt u uw gegevens gemakkelijk meenemen als u besluit uw abonnement op te zeggen.
 
-## <a name="opening-lists-in-excel" />Lijsten openen in Excel
+## <a name="opening-lists-in-excel"></a>Lijsten openen in Excel
 
 U kunt gegevens van elk dagboek, elke lijst of elk werkblad openen in Excel. U opent gewoon de gewenste pagina en kiest vervolgens **Openen in Excel**. Open bijvoorbeeld de lijst met klanten (zoek naar **Klanten**) en kies vervolgens **Openen in Excel**. Uw browser vraagt of u het gegenereerde Excel-werkboek wilt openen of opslaan.  
 
@@ -24,11 +24,11 @@ U kunt gegevens van elk dagboek, elke lijst of elk werkblad openen in Excel. U o
 
 Elke lijst bevat enkele kolommen. De export naar Excel bevat alle kolommen die zich in uw huidige weergave bevinden. Wijzig de kolommen door het snelmenu voor elke kolom te openen en vervolgens op te geven welke kolommen u wilt zien. De lijst met kolommen is voor de meeste lijsten anders. De kolommen weerspiegelen de structuur in de database waarin uw gegevens zijn opgeslagen. Als u niet zeker weet welk type gegevens een bepaalde kolom bevat, voegt u deze toe aan uw weergave. U kunt het altijd weer verwijderen.  
 
-### <a name="edit-data-in-excel" />Gegevens bewerken in Excel
+### <a name="edit-data-in-excel"></a>Gegevens bewerken in Excel
 
 Uw [!INCLUDE[prod_short](includes/prod_short.md)] ervaring bevat een invoegtoepassing voor Excel, zodat u gegevens in Excel kunt bewerken. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="exporting-data-to-other-finance-systems" />Gegevens exporteren naar andere financiële systemen
+## <a name="exporting-data-to-other-finance-systems"></a>Gegevens exporteren naar andere financiële systemen
 
 Als u besluit uw abonnement te annuleren voor [!INCLUDE[prod_short](includes/prod_short.md)], kunt u uw gegevens naar Excel exporteren en ze meenemen naar uw volgende financiële systeem.  
 
@@ -72,9 +72,9 @@ Het wordt aanbevolen ook te overwegen om gegevens van de volgende pagina's te ex
 
 Zie voor meer informatie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 [Uw abonnement voor [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md) annuleren  
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md)  

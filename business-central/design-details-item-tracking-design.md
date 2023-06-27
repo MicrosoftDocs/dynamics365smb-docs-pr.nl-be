@@ -10,7 +10,7 @@ ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-design" />Ontwerpdetails: Ontwerp artikeltracering
+# <a name="design-details-item-tracking-design"></a>Ontwerpdetails: Ontwerp artikeltracering
 
 Artikeltracering in [!INCLUDE[prod_short](includes/prod_short.md)] begon met [!INCLUDE [navnow_md](includes/navnow_md.md)]. De artikeltracering bevindt zich in een aparte objectstructuur met ingewikkelde koppelingen naar geboekte documenten en artikelposten, en is geïntegreerd met het reserveringssysteem, dat de reservering, ordertracering en actieberichten afhandelt. Zie voor meer informatie [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md) in de ontwerpdetails van voorzieningplanning.  
 
@@ -33,7 +33,7 @@ Codeunit 22, **Artikeldagboek. - Regel boeken** splitst nu de boeking volgens de
 
 Zie voor meer informatie [Ontwerpdetails: Boekingsstructuur artikeltracering](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
 

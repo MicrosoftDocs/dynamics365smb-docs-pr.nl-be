@@ -9,7 +9,7 @@ ms.date: 07/05/2021
 ms.author: edupont
 ---
 
-# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods" />Vaste activa instellen met door de gebruiker gedefinieerde afschrijvingsmethoden
+# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Vaste activa instellen met door de gebruiker gedefinieerde afschrijvingsmethoden
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] gebruiken om de door de gebruiker gedefinieerde afschrijvingsmethoden in te stellen zoals hier beschreven.
 
@@ -23,7 +23,7 @@ De formule voor het berekenen van de afschrijvingsbedragen luidt als volgt:
 > [!NOTE]  
 > Terwijl de datum in het veld **Datum 1e afschr. eigen def.** wordt gebruikt om de tijdsintervallen te bepalen, is het de **Begindatum afschr.** die wordt gebruikt om het aantal afschrijvingsdagen te bepalen. Als de **Datum 1e afschr. eigen def.** vroeger is dan de **Begindatum afschr.**, wordt het percentage voor de eerste periode in de afschrijvingstabel slechts gedeeltelijk gebruikt bij het berekenen van de eerste afschrijving. Dit betekent dat het activum niet volledig afgeschreven is aan het einde van de laatste periode.
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method" />Een afschrijvingsboek toewijzen aan een vast activum met een door de gebruiker gedefinieerde afschrijvingsmethode
+## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>Een afschrijvingsboek toewijzen aan een vast activum met een door de gebruiker gedefinieerde afschrijvingsmethode
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum waarvoor u een afschrijvingsboek voor vaste activa wilt instellen.
@@ -36,7 +36,7 @@ De formule voor het berekenen van de afschrijvingsbedragen luidt als volgt:
 7. Wanneer u een door de gebruiker gedefinieerde methode gebruikt, moet het veld **Datum 1e afschr. eigen def.** worden ingesteld op een datum die gelijk is aan of eerder is dan het veld **Begindatum afschr.**. Als u een waarde hebt geselecteerd in het veld **Periodelengte** in de afschrijvingstabel, moet de datum in het veld **Datum 1e afschr. eigen def.** de begindatum van een boekhoudperiode zijn.
 8. Vul het veld **Aantal afschrijvingsjaren** in of het veld **Einddatum afschr.**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## <a name="to-set-up-user-defined-depreciation-methods" />Eigen afschrijvingsmethoden instellen
+## <a name="to-set-up-user-defined-depreciation-methods"></a>Eigen afschrijvingsmethoden instellen
 
 Op de pagina **Afschrijvingstabel** kunt u door de gebruiker gedefinieerde afschrijvingsmethoden instellen. U kunt bijvoorbeeld afschrijving instellen op basis van het aantal eenheden.  
 
@@ -56,11 +56,11 @@ Cijfersom = 1 + 2 + 3 + 4 = 10 Afschrijving:
 * Jaar 3 = 2/10  
 * Jaar 4 = 1/10  
 
-### <a name="depreciation-based-on-number-of-units" />Afschrijving op basis van aantal eenheden
+### <a name="depreciation-based-on-number-of-units"></a>Afschrijving op basis van aantal eenheden
 
 Deze eigen methode kan ook worden gebruikt om af te schrijven op basis van het aantal eenheden, bijvoorbeeld in het geval van productiemachines met een vastgestelde capaciteit gedurende hun levensduur. Op de pagina **Afschrijvingstabellen** kunt u het aantal eenheden invullen dat per periode (maand, kwartaal, jaar of boekhoudperiode) kan worden geproduceerd.  
 
-### <a name="example---user-defined-depreciation" />Voorbeeld - door gebruiker ingestelde afschrijving
+### <a name="example---user-defined-depreciation"></a>Voorbeeld - door gebruiker ingestelde afschrijving
 
 U gebruikt een afschrijvingsmethode waarmee u activa versneld kunt afschrijven (omdat u hierdoor minder inkomstenbelasting hoeft te betalen).  
 
@@ -93,7 +93,7 @@ In het vorige voorbeeld worden de velden **Datum 1e afschr. eigen def.** en **Be
 | 12/31/24 |Afschrijvingen |Geen |Geen |0 |
 
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 [Vaste activa instellen](fa-setup.md)  
 [Vaste activa](fa-manage.md)  
 [Afschrijving van vaste activa instellen](fa-how-setup-depreciation.md)  

@@ -10,21 +10,21 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="enable-approval-workflows" />Goedkeuringswerkstromen inschakelen
+# <a name="enable-approval-workflows"></a>Goedkeuringswerkstromen inschakelen
 
 Wanneer u een goedkeuringswerkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.  
 
 Maak op de pagina **Werkstroom** een werkstroom door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen met behulp van lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).  
 
-## <a name="enable-a-workflow" />Een werkstroom inschakelen
+## <a name="enable-a-workflow"></a>Een werkstroom inschakelen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de werkstroom die u wilt inschakelen.  
 3. Zet de schakelaar **Geactiveerd** aan op de pagina **Werkstroom**.  
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Goedkeuringswerkstromen maken](across-how-to-create-workflows.md)  
 [Goedkeuringswerkstromen gebruiken](across-use-workflows.md)  

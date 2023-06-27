@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="set-up-approval-workflows" />Goedkeuringswerkstromen instellen
+# <a name="set-up-approval-workflows"></a>Goedkeuringswerkstromen instellen
 
 U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen. Zie voor meer informatie [Goedkeuringswerkstromen gebruiken](across-use-workflows.md).
 
@@ -35,16 +35,16 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Werkstromen delen met andere [!INCLUDE[prod_short](includes/prod_short.md)]-databases.|[Goedkeuringswerkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)|  
 |Lees meer informatie over het instellen van een werkstroom voor de goedkeuring van verkoopdocumenten door een end-to-end procedure te volgen.|[Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow" />Voorbeeld van een goedkeuringswerkstroom
+## <a name="example-of-an-approval-workflow"></a>Voorbeeld van een goedkeuringswerkstroom
 
 Deze video laat zien hoe u een werkstroom instelt waarvoor een gebruiker de goedkeuring van iemand anders moet vragen voordat deze informatie over een bestaande klant kan wijzigen of een nieuwe klant kan maken.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Goedkeuringswerkstromen gebruiken](across-use-workflows.md)  
 [Werkstroom](across-workflow.md)  

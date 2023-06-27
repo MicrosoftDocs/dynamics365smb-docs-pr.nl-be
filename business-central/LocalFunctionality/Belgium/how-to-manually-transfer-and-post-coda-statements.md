@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="manually-transfer-and-post-coda-statements-in-the-belgian-version" />CODA-afschriften handmatig overbrengen en boeken in de Belgische versie
+# <a name="manually-transfer-and-post-coda-statements-in-the-belgian-version"></a>CODA-afschriften handmatig overbrengen en boeken in de Belgische versie
 Nadat u alle CODA-afschriftregels hebt vereffend en verwerkt, kunt u de CODA-afschriftregels handmatig overbrengen naar een financieel dagboek. In het financiële dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen. Boeken is niet toegestaan als de afschriftregelbedragen niet overeenkomen met het afschrifteindsaldo.  
 
 Zie [CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-transfer-and-post-coda-statements.md) voor informatie over het automatisch overbrengen van afschriften.  
 
-## <a name="to-manually-transfer-and-post-statement-lines" />Afschriftregels handmatig overbrengen en boeken
+## <a name="to-manually-transfer-and-post-statement-lines"></a>Afschriftregels handmatig overbrengen en boeken
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dagboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het dagboek en kies de knop **OK**.  
@@ -23,7 +23,7 @@ Zie [CODA-afschriften automatisch overbrengen en boeken](how-to-automatically-tr
 4.  Vul elke regel van het afschrift handmatig in.  
 5.  Kies de actie **Boeken**.  
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
  [Elektronisch bankieren voor België](belgian-electronic-banking.md)   
  [CODA-bankafschriften](coda-bank-statements.md)   
  [CODA-afschriften importeren](how-to-import-coda-statements.md)   

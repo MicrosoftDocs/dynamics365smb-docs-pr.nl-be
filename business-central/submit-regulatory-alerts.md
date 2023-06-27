@@ -8,11 +8,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
 ---
-# <a name="submit-alerts-about-countryregion-specific-regulatory-features" />Waarschuwingen verzenden over land/regio-specifieke wettelijke functies
+# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Waarschuwingen verzenden over land/regio-specifieke wettelijke functies
 
 We nodigen u uit Microsoft Dynamics Lifecycle Services (LCS) te gebruiken om wettelijke waarschuwingen in te dienen via de Dynamics-indieningsservice voor wettelijke waarschuwingen.  
 
-## <a name="to-submit-a-regulatory-alert-in-lcs" />Een wettelijke waarschuwing indienen in LCS
+## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Een wettelijke waarschuwing indienen in LCS
 
 1. Ga naar [https://lcs.dynamics.com](https://lcs.dynamics.com) en meld u aan  
 
@@ -65,7 +65,7 @@ We nodigen u uit Microsoft Dynamics Lifecycle Services (LCS) te gebruiken om wet
 
       Nadat u de waarschuwing hebt ingediend, krijgt u een bevestiging dat de waarschuwing bij Microsoft is ingediend.
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Taal en landinstellingen wijzigen](about-locale-language.md)  

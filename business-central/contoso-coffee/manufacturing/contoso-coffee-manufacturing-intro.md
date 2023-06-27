@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing" />Inleiding tot Contoso Coffee-productie
+# <a name="introduction-to-contoso-coffee-manufacturing"></a>Inleiding tot Contoso Coffee-productie
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De apps **Contoso-koffie** voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de productiemogelijkheden in Business Central kunt benutten.  
 
@@ -36,7 +36,7 @@ De productieactiviteiten voor alle scenario's gebruiken de locatie *NOORD*.
 > [!IMPORTANT]
 > Boek alle artikeldagboekregels met beginsaldi voordat u een van de scenario's voor Contoso Coffee gaat uitvoeren. Zie de sectie [Contoso Coffee-gegevens instellen](#set-up-contoso-coffee-manufacturing-data) voor meer vereisten.
 
-## <a name="set-up-contoso-coffee-manufacturing-data" />Contoso Coffee-productiegegevens instellen
+## <a name="set-up-contoso-coffee-manufacturing-data"></a>Contoso Coffee-productiegegevens instellen
 
 Als u de demogegevens voor Contoso Coffee-productie wilt gebruiken, moet u twee apps in het desbetreffende bedrijf in [!INCLUDE [prod_short](../../includes/prod_short.md)] installeren:  
 
@@ -67,7 +67,7 @@ Zodra de relevante apps zijn geïnstalleerd, gaat u naar de pagina [Demogegevens
 
 Als u gereed bent, kiest u de actie **Demogegevens maken**. Het duurt een paar minuten om de gegevens aan de onderliggende database toe te voegen, maar dan bent u klaar om de verschillende scenario's uit te voeren.  
 
-## <a name="scenarios" />Scenario's
+## <a name="scenarios"></a>Scenario's
 
 De productiedemogegevens van Contoso Coffee ondersteunen momenteel de volgende scenario's voor testen en trainen:
 
@@ -85,7 +85,7 @@ Lees de stappen voor elk scenario in het desbetreffende artikel.
 > [!IMPORTANT]
 > Deze procedures vereisen dat de gebruikerservaring is ingesteld op *Premium* op de pagina **Bedrijfsgegevens**.
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Productie](../../production-manage-manufacturing.md)  
 [Productierapporten en analyses in Business Central](../../production-reports.md)  

@@ -10,7 +10,7 @@ ms.search.form: '30, 31'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setup-best-practices-costing-method" />Best Practices voor instellen: Waarderingsmethode
+# <a name="setup-best-practices-costing-method"></a>Best Practices voor instellen: Waarderingsmethode
 
 De **waarderingsmethode** op de artikelkaart definieert hoe de kostenstroom van het artikel wordt geregistreerd en of een werkelijke of gebudgetteerde waarde wordt gekapitaliseerd en gebruikt in de kostenberekening.  
 
@@ -26,7 +26,7 @@ De volgende tabel bevat de aanbevolen procedures voor het instellen van het veld
 |Specifiek|Gebruik in productie of handel van gemakkelijk identificeerbare artikelen met tamelijk hoge kostprijs.<br /><br /> Gebruiken voor artikelen die onder wetgeving vallen.<br /><br /> Gebruik voor artikelen met met serienummers.|De kostprijs van een artikel bestaat uit de exacte kosten waarmee de betreffende eenheid is ontvangen.|
 |Standaard|Gebruik waar kostenbeheersing essentieel is.<br /><br /> Gebruik in herhaalde productie, om de directe materiaal-, arbeids- en productieoverheadkosten te waarderen.<br /><br /> Gebruik waar er discipline en personeel zijn om normen na te volgen.|De kostprijs van een artikel is vooraf ingesteld op basis van de geschatte prijs.<br /><br /> Wanneer de werkelijke kosten later gerealiseerd zijn, moet de vaste verrekenprijs aan de werkelijke aangepast worden door verschilwaarden.|  
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  

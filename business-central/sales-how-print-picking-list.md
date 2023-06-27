@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="print-the-picking-list" />De picklijst afdrukken
+# <a name="print-the-picking-list"></a>De picklijst afdrukken
 
 U kunt een voorraadpicklijst rechtstreeks afdrukken vanuit een verkooporder en andere documenten die de verzending van artikelen initiëren.
 
 Dit rapport wordt doorgaans gebruikt in bedrijven zonder speciale functionaliteit voor magazijnbeheer, zodat een voorraadmedewerker de picklijst kan bekijken of afdrukken vanuit het gerelateerde verkoopdocument. In bedrijven met grotere volumes of complexere processen worden verzending en picking gepland en uitgevoerd in speciale magazijndocumenten. Zie voor meer informatie [Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order" />Een voorraadpicklijst vanuit een verkooporder afdrukken
+## <a name="to-print-a-picking-list-from-a-sales-order"></a>Een voorraadpicklijst vanuit een verkooporder afdrukken
 
 De volgende procedure is gebaseerd op een verkooporder. De stappen zijn vergelijkbaar voor alle andere verkoopdocumenten die kunnen worden gebruikt om de verzending van artikelen te starten, zoals een transferorder.
 
@@ -30,7 +30,7 @@ U kunt de picklijst ook als document opslaan, bijvoorbeeld om naar iemand te stu
 > [!NOTE]
 > Als u de functie **Stuklijst weergeven** in de klantorder hebt gebruikt, worden alleen de componenten van het gerelateerde assemblageartikel weergegeven in het rapport. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md)

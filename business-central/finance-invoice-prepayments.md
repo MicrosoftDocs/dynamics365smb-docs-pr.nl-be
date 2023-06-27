@@ -10,7 +10,7 @@ ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
 ms.date: 12/03/2021
 ms.author: edupont
 ---
-# <a name="invoicing-prepayments" />Vooruitbetalingen factureren
+# <a name="invoicing-prepayments"></a>Vooruitbetalingen factureren
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -29,9 +29,9 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Een order te maken, vooruitbetalingsbedragen aan te passen en een factuur te verzenden voor vooruitbetalingsbedragen.|[Vooruitbetalingsfacturen maken](finance-how-to-create-prepayment-invoices.md)|  
 |Een aanvullende vooruitbetalingsfactuur te verzenden, voor aanvullende artikelen of voor een aanvullende borgsom op de oorspronkelijke order, of om een creditnota voor een vooruitbetaling te verzenden.|[Vooruitbetalingen storneren](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Financiën](finance.md)  

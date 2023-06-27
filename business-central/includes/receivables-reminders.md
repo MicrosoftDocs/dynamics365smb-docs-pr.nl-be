@@ -16,7 +16,7 @@ Voor een klantpost waarbij het veld **Afwachten** is ingevuld wordt geen aanmani
 
 Nadat u aanmaningen hebt gemaakt en eventuele aanpassingen hebt gedaan, kunt u testrapporten afdrukken of de aanmaningen versturen, meestal als e-mail.
 
-### <a name="to-create-a-reminder-automatically" />Automatisch een aanmaningen maken
+### <a name="to-create-a-reminder-automatically"></a>Automatisch een aanmaningen maken
 
 Een herinnering is te vergelijken met een factuur. Wanneer u een aanmaning maakt, moeten een aanmaningskop, evenals een of meer aanmaningsregels, worden ingevuld. U kunt een functie gebruiken om automatisch aanmaningen te maken voor alle klanten.
 
@@ -25,7 +25,7 @@ Een herinnering is te vergelijken met een factuur. Wanneer u een aanmaning maakt
 3. Vul op de pagina **Aanmaningen maken** de velden in om te definiëren hoe en naar wie de aanmaningen worden gemaakt.
 4. Kies de knop **OK**.
 
-### <a name="to-create-a-reminder-manually" />Handmatig aanmaningen maken
+### <a name="to-create-a-reminder-manually"></a>Handmatig aanmaningen maken
 
 Op de pagina **Aanmaning** kunt u het sneltabblad **Algemeen** handmatig invullen en de regels vervolgens automatisch laten invullen.
 
@@ -42,7 +42,7 @@ Op de pagina **Aanmaning** kunt u het sneltabblad **Algemeen** handmatig invulle
 
 8. Kies de knop **OK**.
 
-### <a name="to-replace-reminder-texts" />Aanmaningsteksten vervangen
+### <a name="to-replace-reminder-texts"></a>Aanmaningsteksten vervangen
 
 U kunt op verschillende manieren bepalen hoe u tekst wilt weergegeven op de afgedrukte aanmaning. In sommige gevallen kunt u de begin- en eindtekst die u hebt gedefinieerd voor het huidige niveau vervangen door de tekst van een ander niveau.
 
@@ -51,7 +51,7 @@ U kunt op verschillende manieren bepalen hoe u tekst wilt weergegeven op de afge
 3. Voer op de pagina **Aanmaningstekst bijwerken** het vereiste niveau in het veld **Aanmaningsniveau** in.
 4. Klik op **OK** om de begin- en eindtekst bij te werken.
 
-### <a name="to-issue-a-reminder" />Een aanmaning verzenden
+### <a name="to-issue-a-reminder"></a>Een aanmaning verzenden
 
 Nadat u aanmaningen hebt gemaakt en eventuele aanpassingen hebt gedaan, kunt u testrapporten afdrukken of de aanmaningen versturen.
 
@@ -76,7 +76,7 @@ Daarnaast kunnen btw-posten worden gemaakt als u de aanmaning verzendt.
 
 Een aanmaning wordt afgedrukt of verzonden naar een opgegeven e-mailadres als PDF-bijlage.
 
-### <a name="to-cancel-an-issued-reminder" />Een verzonden aanmaning annuleren
+### <a name="to-cancel-an-issued-reminder"></a>Een verzonden aanmaning annuleren
 
 Als aanmaningen ten onrechte zijn uitgegeven, kunt u ze annuleren voordat ze worden verzonden. U kunt dit één voor één of als een batch doen.
 

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="troubleshooting-synchronization-errors" />Problemen met synchronisatiefouten oplossen
+# <a name="troubleshooting-synchronization-errors"></a>Problemen met synchronisatiefouten oplossen
 
 
 Er zijn veel factoren betrokken bij de integratie van [!INCLUDE[prod_short](includes/prod_short.md)] met [!INCLUDE[prod_short](includes/cds_long_md.md)]en soms gaat het mis. In dit onderwerp worden enkele van de veel voorkomende fouten beschreven en worden enkele tips gegeven voor het oplossen van deze fouten.
@@ -32,7 +32,7 @@ Hieronder volgen enkele hulpprogramma's op de pagina Synchronisatiefouten bij in
 * De acties **Posten ouder dan 7 dagen verwijderen** en **Alle items verwijderen** schonen de lijst op. Meestal gebruikt u deze acties nadat u de oorzaak van een fout hebt opgelost die van invloed is op veel records. Wees echter voorzichtig. Met deze acties kunnen fouten worden verwijderd die nog steeds relevant zijn.
 * De actie **Foutaanroepstack weergeven** toont informatie die kan helpen bij het identificeren van de oorzaak van de fout. Als u de fout niet zelf kunt oplossen en u besluit een ondersteuningsverzoek in te dienen, neem dan de informatie op in het ondersteuningsverzoek.
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 [Integreren met Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Gebruikersaccounts instellen voor integratie met Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
 [Een verbinding instellen met Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  

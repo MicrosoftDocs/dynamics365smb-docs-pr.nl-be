@@ -12,7 +12,7 @@ ms.date: 01/31/2022
 ms.author: bholtorf
 ---
 
-# <a name="report-vat-to-tax-authorities" />Btw rapporteren aan de belastingdienst
+# <a name="report-vat-to-tax-authorities"></a>Btw rapporteren aan de belastingdienst
 
 Dit onderwerp beschrijft de rapporten in [!INCLUDE[prod_short](includes/prod_short.md)] die u kunt gebruiken om gegevens over btw-bedragen voor verkopen en inkopen in te dienen bij de belastingdienst in uw regio. Afhankelijk van het specifieke land kunnen de rapporten specifieke informatie bevatten of zijn er aanvullende rapporten die u moet indienen. Bekijk de artikelen voor uw land in de sectie [Lokale functionaliteit](about-localization.md).  
 
@@ -35,7 +35,7 @@ Als u een volledige historie van btw-posten wilt weergeven, maakt elke boeking w
 > [!NOTE]
 > Elke [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving is bedoeld voor het afhandelen van wettelijke rapportage in één enkel land/regio. Bijvoorbeeld de Nederlandse versie van [!INCLUDE[prod_short](includes/prod_short.md)] verzorgt btw-aangifte in Nederland maar niet in andere landen/regio's. Evenzo verwerkt de Amerikaanse versie van [!INCLUDE[prod_short](includes/prod_short.md)] 1099-rapportage in de Verenigde Staten en biedt deze geen ondersteuning voor het claimen van btw-aangifte in andere landen/regio's, tenzij door een extensie geleverd door ons partnerecosysteem of een klantspecifieke codewijziging.
 
-## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Informatie over het Verkoopoverzicht EU
+## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Informatie over het Verkoopoverzicht EU
 
 In de Europese Unie (EU) en het VK moeten alle bedrijven die goederen en diensten verkopen aan btw-plichtige klanten, inclusief klanten in andere EU-landen/regio's, een elektronische versie van het Verkoopoverzicht EU indienen bij hun douane- en belastingautoriteiten. De lijst **Verkoopoverzicht EU** werkt alleen voor landen/regio's in de EU.
 
@@ -49,11 +49,11 @@ De lijst bevat slechts één regel voor elke soort transactie met de klant en to
 
 Nadat de belastingdienst uw lijst heeft gecontroleerd, wordt er een e-mail naar de contactpersoon voor uw bedrijf verzonden. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de contactpersoon opgegeven op de pagina **Bedrijfsgegevens**. Voordat u de lijst verzendt, moet u ervoor zorgen dat een contact is geselecteerd.  
 
-### <a name="submit-an-ec-sales-list-report" />Een rapport Verkoopoverzicht EU indienen
+### <a name="submit-an-ec-sales-list-report"></a>Een rapport Verkoopoverzicht EU indienen
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>Informatie over het rapport Btw-aangifte
+## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Informatie over het rapport Btw-aangifte
 
 Gebruik deze lijst om btw voor verkoop- en inkoopdocumenten in te dienen, zoals inkoop- en verkooporders, facturen en creditnota's. De informatie in de lijst heeft dezelfde indeling als op het declaratieformulier van de douane en de belastingdienst.  
 
@@ -62,7 +62,7 @@ Voor de btw-aangifte kunt u de posten opgeven die u wilt opnemen:
 * Alleen openstaande transacties of open en afgesloten transacties. Dit is bijvoorbeeld handig wanneer u de definitieve jaarlijkse btw-aangifte voorbereidt.
 * Alleen posten uit de opgegeven perioden indienen of ook posten uit eerdere perioden opnemen. Dit is handig om een btw-retour bij te werken die u al hebt ingediend, bijvoorbeeld als u leverancier u een late factuur stuurt.    
 
-## <a name="to-connect-to-your-tax-authoritys-web-service" />Verbinding maken met de webservice van uw belastingdienst
+## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Verbinding maken met de webservice van uw belastingdienst
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt serviceverbindingen met belastingdienstwebsites. Als u zich bijvoorbeeld in het VK bevindt, kunt u de **GovTalk**-serviceverbinding inschakelen om het Verkoopoverzicht EU en de btw-aangifte elektronisch in te dienen. Als u de lijst handmatig wilt verzenden, bijvoorbeeld door uw gegevens op de website van de belastingdienst in te voeren, is dit niet vereist.   
 
 Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met de webservice van de belastingdienst. Hiertoe moet u een account instellen bij uw belastingdienst. Wanneer u een account hebt ingesteld, kunt u een serviceverbinding inschakelen die we aanbieden in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -73,11 +73,11 @@ Als u elektronisch btw wilt aangeven bij een belastingdienst, moet u [!INCLUDE[p
     > [!NOTE]  
     > Het is aan te raden de verbinding te testen. Kies hiervoor het selectievakje **Testmodus** en bereid uw btw-aangifte voor en verzend deze zoals beschreven in de sectie [Een btw-aangifte voorbereiden en indienen](#to-prepare-and-submit-a-vat-report). In de testmodus test de service of de belastingdienst uw aangifte kan ontvangen en de status van de aangifte geeft aan of de testindiening succesvol was. Vergeet niet dat dit geen werkelijke indiening is. Als u de aangifte echt wilt indienen, moet u het selectievakje **Testmodus** uitzetten en de indiening herhalen.
 
-## <a name="to-set-up-vat-reports-in-" />Btw-rapporten instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-"></a>Btw-rapporten instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-### <a name="to-set-up-vat-return-periods" />Indieningsperioden voor btw instellen
+### <a name="to-set-up-vat-return-periods"></a>Indieningsperioden voor btw instellen
 
 Optioneel, als uw bedrijf niet in het VK is gevestigd, gebruikt u de pagina **Btw-aangifteperiodes** om geplande btw-aangiften in te stellen. Als uw bedrijf in het VK is gevestigd, raadpleegt u [Belasting digitaal maken in het Verenigd Koninkrijk](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
 
@@ -87,7 +87,7 @@ Optioneel, als uw bedrijf niet in het VK is gevestigd, gebruikt u de pagina **Bt
 
 Wanneer het tijd is om een btw-aangifte in te dienen voor een btw-aangifteperiode, kiest u de periode op de pagina **Btw-aangifteperioden** en kiest u vervolgens de actie **Btw-aangifte maken**. Kies vervolgens op de pagina **Btw-aangifte** de actie **Regels voorstellen** zoals beschreven in stap 3 in de volgende procedure.  
 
-## <a name="to-prepare-and-submit-a-vat-report" />Een btw-aangifte voorbereiden en indienen
+## <a name="to-prepare-and-submit-a-vat-report"></a>Een btw-aangifte voorbereiden en indienen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 3 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopoverzicht EU** of **Btw-aangifte** in en kies vervolgens de gerelateerde koppeling  
 2. Kies **Nieuw** en vul vervolgens de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -104,7 +104,7 @@ Wanneer het tijd is om een btw-aangifte in te dienen voor een btw-aangifteperiod
 
 Als u de lijst hebt verzonden, controleert [!INCLUDE[prod_short](includes/prod_short.md)] de service en wordt een record van uw communicatie bijgehouden. Het veld **Status** geeft aan waar in het proces de lijst zich bevindt. Als de belastingdienst uw rapport bijvoorbeeld verwerkt, verandert de status van het rapport in **Succesvol**. Als de belastingdienst fouten in de lijst heeft gevonden die u hebt verzonden, wordt de status van de lijst **Mislukt**. U kunt de fouten bekijken onder **Fouten en waarschuwingen**, deze corrigeren en vervolgens de lijst opnieuw verzenden. Als u een overzicht wilt van al uw verkoopoverzichten EU, gaat naar de pagina **Rapporten verkoopoverzicht EU**.  
 
-### <a name="vat-return-statuses" />Status van btw-aangifte
+### <a name="vat-return-statuses"></a>Status van btw-aangifte
 
 Btw-aangiften kunnen verschillende statussen hebben, zoals beschreven in de volgende tabel.
 
@@ -116,14 +116,14 @@ Btw-aangiften kunnen verschillende statussen hebben, zoals beschreven in de volg
 | Verstuurd | De btw-aangifte wordt ingediend met de actie **Verzenden** of wordt gemarkeerd als verzonden met de actie **Markeren als verzonden** . |
 | Geaccepteerd | De btw-aangifte heeft deze status als de aangifte is gemarkeerd als geaccepteerd door middel van de actie **Markeren als geaccepteerd**. Als het rapport **Btw-aangifte** is gemarkeerd als **Geaccepteerd**, kunt u de actie **Btw-vereffening berekenen en boeken** uitvoeren. |
 
-## <a name="viewing-communications-with-your-tax-authority" />Communicatie met uw belastingdienst weergeven
+## <a name="viewing-communications-with-your-tax-authority"></a>Communicatie met uw belastingdienst weergeven
 
 In sommige landen/regio's kunt u berichten met de belastingdienst uitwisselen wanneer u rapporten verzendt. U kunt het eerste en laatste bericht dat u hebt ontvangen of verzonden, bekijken door de acties **Indieningsbericht downloaden** en **Responsbericht downloaden** te kiezen.  
 
-## <a name="submitting-vat-reports-manually" />Handmatig btw-aangiftes verzenden
+## <a name="submitting-vat-reports-manually"></a>Handmatig btw-aangiftes verzenden
 Als u een andere methode gebruikt om de lijst te verzenden, bijvoorbeeld door de XML te exporteren en deze te uploaden naar een website, kunt u daarna **Markeren als verzonden** kiezen om de rapportageperiode te sluiten. Wanneer u het btw-rapport markeert als vrijgegeven, wordt het niet-bewerkbaar. Als u het rapport moet wijzigen nadat het is gemarkeerd als vrijgegeven, moet u het opnieuw openen.
 
-## <a name="vat-settlement" />Btw-vereffening
+## <a name="vat-settlement"></a>Btw-vereffening
 U moet periodiek de netto-btw afdragen aan de belastingdienst. Als u vaak btw moet vereffenen, kunt u de batchverwerking **Btw-vereffening berekenen en boeken** uitvoeren om de open btw-posten te sluiten en inkoop- en verkoop-btw-bedragen over te boeken naar de btw-vereffeningsrekening.
 
 Wanneer u btw-bedragen overmaakt naar de vereffeningsrekening, worden de bedragen die voor de opgegeven periode zijn berekend, opgeteld bij de rekening voor inkoop-btw en afgetrokken van de rekening voor verkoop-btw. Het nettobedrag wordt opgeteld of afgetrokken als het inkoop-btw-bedrag groter is, bij de btw-vereffeningsrekening. U kunt de vereffening meteen boeken of eerst een controlelijst afdrukken.  
@@ -131,7 +131,7 @@ Wanneer u btw-bedragen overmaakt naar de vereffeningsrekening, worden de bedrage
 > [!Note]
 > Wanneer u de batchverwerking **Btw-vereffening berekenen en boeken** gebruikt en u geen **btw-bedrijfsboekingsgroep** en **btw-productboekingsgroep** opgeeft, worden posten met alle bedrijfsboekingsgroepen en productboekingsgroepscodes opgenomen.
 
-## <a name="configuring-your-own-vat-reports" />Uw eigen btw-rapporten configureren
+## <a name="configuring-your-own-vat-reports"></a>Uw eigen btw-rapporten configureren
 
 U kunt het kant-en-klare rapport **Verkoopoverzicht EU** gebruiken. U kunt echter ook uw eigen rapporten maken, als u een ontwikkellicentie hebt, zodat u codeunits kunt maken. Als u hulp nodig hebt, neemt u contact op met een Microsoft-partner.  
 
@@ -148,9 +148,9 @@ De volgende tabel beschrijft codeunits die u voor uw lijst moet maken.
 > [!Note]
 > Wanneer u codeunits maakt voor het rapport, besteed dan aandacht aan de waarde in het veld **Btw-rapportversie**. Dit veld moet de versie reflecteren van het rapport dat is of werd vereist door de belastingdienst. U kunt bijvoorbeeld **2021** in het veld invoeren om aan te geven dat de lijst voldoet aan de vereisten die dat jaar golden. Als u de huidige versie wilt bepalen, neemt u contact op met de belastingdienst.  
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  

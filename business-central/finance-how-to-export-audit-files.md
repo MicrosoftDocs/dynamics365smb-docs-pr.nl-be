@@ -14,7 +14,7 @@ ms.author: altotovi
 ms.reviewer: kfend
 ---
 
-# <a name="audit-file-export" />Export van controlebestand
+# <a name="audit-file-export"></a>Export van controlebestand
 
 Export van boekhoudkundige informatie uit het systeem is een veel voorkomend verzoek van sommige lokale autoriteiten of auditors. Exports van indelingen en vereiste informatie kunnen verschillen. Posten voor export zijn meestal grootboekposten of btw-posten. Soms is echter andere informatie vereist.
 
@@ -23,7 +23,7 @@ Export van boekhoudkundige informatie uit het systeem is een veel voorkomend ver
 > [!NOTE]
 > Momenteel kunt u SIE- of SAF-T-indeling selecteren als een extra app. Partners kunnen ook een aangepaste indeling ontwikkelen. Het aantal beschikbare indelingen zal in de loop van de tijd toenemen.
 
-## <a name="set-up-audit-file-export" />Controlebestand instellen
+## <a name="set-up-audit-file-export"></a>Controlebestand instellen
 
 1. Selecteer de knop ![Vergrootglas waarmee de functie Vertel me wordt geopend.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van export van controlebestand** in en selecteer vervolgens de gerelateerde koppeling.
 2. Ga op de **Instelling van export van controlebestand** als volgt te werk:
@@ -44,7 +44,7 @@ Export van boekhoudkundige informatie uit het systeem is een veel voorkomend ver
     2. Geef in het veld **Naam van controlebestand** de standaardbestandsnaam of de bestandsnaamsjabloon op voor het controlebestand dat u wilt exporteren.
     3. Schakel het selectievakje **Archiveren in zip** in om geëxporteerde bestanden automatisch te zippen.
 
-## <a name="provide-the-gl-account-mapping-for-audit-file-export" />De grootboekrekeningtoewijzing opgeven voor het exporteren van controlebestanden
+## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>De grootboekrekeningtoewijzing opgeven voor het exporteren van controlebestanden
 
 De meeste indelingen die door de autoriteiten worden vereist voor grootboekrekeningen vereisen een specifiek standaardrekeningschema. Nadat u uw grootboekrekeningen hebt geconfigureerd, wordt uw geëxporteerde bestand daarom gebaseerd op de toewijzingen. U kunt meer toewijzingen in uw systeem gebruiken.
 
@@ -69,7 +69,7 @@ Volg deze stappen om de grootboekrekeningtoewijzing op te geven voor het exporte
     1. Als u regels wilt genereren op de pagina **Toewijzing van grootboekrekening** op basis van een bestaand rekeningschema, selecteert u **Bron voor toewijzing initialiseren**. Als u de grootboekrekeningtoewijzing wilt kopiëren van een andere toewijzingscode, selecteert u **Kopiëren uit andere toewijzing**. Wanneer u klaar bent met het maken van regels, worden alle grootboekrekeningen die geboekte posten bevatten, groen gemarkeerd.
     2. Als u alleen grootboekrekeningen wilt markeren die posten hebben, schakelt u **Beschikbaarheid van grootboekpost bijwerken**. Als de optie **Inkomend saldo opnemen** is ingeschakeld, worden alle geboekte grootboekposten in aanmerking genomen voor berekening. Anders worden alleen grootboekposten van de rapportageperiode in aanmerking genomen.
 
-## <a name="export-the-audit-file" />Het controlebestand exporteren
+## <a name="export-the-audit-file"></a>Het controlebestand exporteren
 
 1. Selecteer de knop ![Vergrootglas waarmee de functie Vertel me wordt geopend.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Exportdocumenten van controlebestanden** in en selecteer vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Exportdocumenten van controlebestanden** de optie **Nieuw**.
@@ -97,7 +97,7 @@ Volg deze stappen om de grootboekrekeningtoewijzing op te geven voor het exporte
 > [!IMPORTANT]
 > Als u meerdere posten wilt exporteren, raden we u af deze in de huidige sessie te exporteren vanwege mogelijke prestatieproblemen. In plaats daarvan raden we u aan parallelle verwerking te gebruiken tijdens niet-werkdagen of -uren.
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 [Financieel beheer](finance.md)  
 [Het grootboek en het rekeningschema begrijpen](finance-general-ledger.md)  
 [Werken met dimensies](finance-dimensions.md)  

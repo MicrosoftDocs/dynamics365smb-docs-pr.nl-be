@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# <a name="sepa-payments-in-the-belgian-version" />SEPA-betalingen in de Belgische versie
+# <a name="sepa-payments-in-the-belgian-version"></a>SEPA-betalingen in de Belgische versie
 
 SEPA (Single Euro Payments Area) verenigt de betalingsmethoden in deelnemende Europese landen. Hierdoor worden internationale betalingen even gemakkelijk te verwerken als binnenlandse betalingen. Ongeacht de locatie, kunnen Europese burgers en bedrijven betalingen in euro's verrichten en ontvangen, binnen of buiten nationale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen.  
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Febelfin-website](https://go.microsoft.com/fwlink/?LinkId=275119)   
 [ISO 20022-website](https://go.microsoft.com/fwlink/?LinkId=275120)   

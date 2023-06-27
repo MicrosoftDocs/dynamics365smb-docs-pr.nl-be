@@ -10,7 +10,7 @@ ms.search.form: 100
 ms.date: 08/25/2022
 ms.author: bholtorf
 ---
-# <a name="work-with-accounting-periods-and-fiscal-years" />Werken met boekingsperioden en boekjaren
+# <a name="work-with-accounting-periods-and-fiscal-years"></a>Werken met boekingsperioden en boekjaren
 
 Boekhoudperioden, ook wel rapportageperioden genoemd, zijn perioden waarvoor een bedrijf of organisatie financiële prestaties rapporteert door, bijvoorbeeld, de balans of resultatenrekening te genereren. Meestal verwijzen boekhoudperioden naar het boekjaar van het bedrijf, dat verschillende boekingsperioden zoals maanden of kwartalen kan bevatten.
 
@@ -20,11 +20,11 @@ Voor veel bedrijven loopt het boekjaar niet gelijk met het kalenderjaar, bijvoor
 
 U kunt behoudperioden gebruiken in rapportages, bijvoorbeeld als u geboekte posten op de pagina **Saldo/Budget** controleert waar het rapportage-interval wordt opgegeven. Een van de opties die u kunt opgeven, is om te rapporteren per boekhoudperiode. U kunt ook een financieel rapport maken dat resultaten voor verschillende boekhoudperioden vergelijkt.
 
-## <a name="creating-a-new-fiscal-year" />Een nieuw boekjaar maken
+## <a name="creating-a-new-fiscal-year"></a>Een nieuw boekjaar maken
 
 U kunt boekhoudperioden in bulk maken door de batchverwerking **Boekjaar maken** te gebruiken of dit handmatig doen.
 
-### <a name="how-to-create-accounting-periods-in-bulk" />Boekhoudperioden in bulk maken
+### <a name="how-to-create-accounting-periods-in-bulk"></a>Boekhoudperioden in bulk maken
 
 Gebruik de batchverwerking **Boekjaar maken** om een boekjaar in perioden van gelijke lengte op te delen.  
 
@@ -35,7 +35,7 @@ Gebruik de batchverwerking **Boekjaar maken** om een boekjaar in perioden van ge
 5. Voer in het veld **Periodelengte** de duur voor elke periode in. Identifiers voor duur zijn onder andere 1M voor één maand, 1K voor één kwartaal en 1J voor één jaar.  
 6. Klik op **OK**.  
 
-### <a name="how-to-create-accounting-periods-manually" />Boekhoudperioden handmatig maken
+### <a name="how-to-create-accounting-periods-manually"></a>Boekhoudperioden handmatig maken
 
 Als de boekhoudperioden in uw boekjaar verschillende duren hebben, zoals het 4-4-5 schema dat in detailhandel wordt gebruikt, kunt u het handmatig instellen.  
   
@@ -44,7 +44,7 @@ Als de boekhoudperioden in uw boekjaar verschillende duren hebben, zoals het 4-4
 3. Kies het selectievakje **Nieuw boekjaar** om aan te geven dat dit de eerste periode in het jaar is. [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt deze periode om te bepalen welke perioden aan het einde van het jaar moeten worden afgesloten.
 4. Herhaal stap 2 en 3 voor elke resterende periode.  
 
-## <a name="closing-a-fiscal-year" />Een boekjaar afsluiten
+## <a name="closing-a-fiscal-year"></a>Een boekjaar afsluiten
 
 Het afsluiten van het boekjaar is een van de taken voor het afsluiten van de boeken. Nadat u het boekjaar hebt afgesloten, zijn de selectievakjes **Afgesloten** en **Geblokkeerd** ingeschakeld voor alle perioden van het jaar. U kunt een boekjaar niet opnieuw openen of de selectievakjes uitschakelen.
 
@@ -54,11 +54,11 @@ Het afsluiten van het boekjaar is een van de taken voor het afsluiten van de boe
 1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Boekhoudperioden afsluiten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Jaar afsluiten**.  
 
-## <a name="posting-entries-to-a-closed-fiscal-year" />Posten boeken naar een afgesloten boekjaar
+## <a name="posting-entries-to-a-closed-fiscal-year"></a>Posten boeken naar een afgesloten boekjaar
 
 Zelfs als een boekjaar is afgesloten, kunt u er nog steeds grootboekposten naar boeken. Als u dit doet, worden de posten gemarkeerd als zijnde geboekt naar een afgesloten boekjaar en wordt het veld **Naboeking** geselecteerd. Standaard wordt het selectievakje niet weergegeven op de pagina, maar u kunt het toevoegen. De volgende stappen zijn de resultatenrekeningen te sluiten en de resultaten van het jaar over te brengen naar een rekening op de balans. Herhaal deze stappen elke keer dat u posten boekt naar een afgesloten boekjaar.
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [De boeken sluiten](year-close-books.md)  
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  

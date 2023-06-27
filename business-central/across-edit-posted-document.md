@@ -18,7 +18,7 @@ ms.contentlocale: nl-BE
 ms.lasthandoff: 12/02/2022
 ms.locfileid: "9822558"
 ---
-# <a name="edit-posted-documents" /><a name="edit-posted-documents"></a>Geboekte documenten bewerken
+# <a name="edit-posted-documents"></a><a name="edit-posted-documents"></a>Geboekte documenten bewerken
 
 Soms moet u een geboekt document bijwerken omdat informatie die relevant is voor het document is gewijzigd. In een geboekt verkoopdocument kan dit bijvoorbeeld het trackingnummer van de expediteur zijn. In een geboekt inkoopdocument kan dit een betalingsverwijzing zijn.
 
@@ -38,7 +38,7 @@ De volgende aanvullende documenten kunnen worden bewerkt in de opgegeven landen 
 - RU: Geboekte verkoopcreditnota
 - IT: Geboekte overdracht, Geboekte servicezending
 
-## <a name="to-edit-a-posted-sales-shipment" /><a name="to-edit-a-posted-sales-shipment"></a>Een geboekte verkoopverzending bewerken
+## <a name="to-edit-a-posted-sales-shipment"></a><a name="to-edit-a-posted-sales-shipment"></a>Een geboekte verkoopverzending bewerken
 
 Hieronder wordt uitgelegd hoe u een geboekte verkoopverzending kunt bewerken. De stappen zijn vergelijkbaar voor de andere ondersteunde documenten.
 
@@ -49,7 +49,7 @@ Hieronder wordt uitgelegd hoe u een geboekte verkoopverzending kunt bewerken. De
 
 De geboekte verkoopverzending wordt bijgewerkt.
 
-## <a name="see-also" /><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Gerelateerde posten zoeken voor documenten](ui-find-entries.md)  

@@ -11,18 +11,18 @@ ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
 ms.date: 09/01/2022
 ms.author: edupont
 ---
-# <a name="record-purchases-with-purchase-invoices-and-orders" />Aankopen registreren met inkoopfacturen en orders
+# <a name="record-purchases-with-purchase-invoices-and-orders"></a>Aankopen registreren met inkoopfacturen en orders
 
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Inkoopfacturen en inkooporders worden ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen of orders, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
 
-## <a name="record-purchases-with-purchase-invoices" />Aankopen registreren met inkoopfacturen
+## <a name="record-purchases-with-purchase-invoices"></a>Aankopen registreren met inkoopfacturen
 
 Wanneer u de voorraadartikelen ontvangt of wanneer de ingekochte service is voltooid, boekt u de inkoopfactuur om de voorraad en financiële records bij te werken en betaling aan de leverancier te activeren volgens de betalingscondities. [Betalingen uitvoeren](payables-make-payments.md).
 
 > [!CAUTION]  
 > Boek geen inkoopfactuur voor fysieke artikelen totdat u de fysieke artikelen ontvangt en de uiteindelijke kosten van de inkoop kent, inclusief eventuele toeslagen. Anders kloppen uw voorraadwaarde en winstcijfers mogelijk niet.
 
-### <a name="create-a-and-post-purchase-invoice" />Een verkoopfactuur maken en boeken
+### <a name="create-a-and-post-purchase-invoice"></a>Een verkoopfactuur maken en boeken
 
 Hieronder wordt beschreven hoe u een inkoopfactuur maakt. De stappen zijn vergelijkbaar met de stappen voor een inkooporder. Het belangrijkste verschil is dat inkooporders extra velden en acties hebben voor de fysieke afhandeling van artikelen.
 
@@ -64,7 +64,7 @@ De inkoop wordt nu weerspiegeld in de voorraad, resourcejournalen en financiële
 >
 > Om de bedragen te controleren die daadwerkelijk worden geboekt, gaat u naar de pagina **Statistieken**, die rekening houdt met de afrondingsberekeningen. Als u de actie **Vrijgeven** kiest, worden de totalenvelden ook bijgewerkt met afrondingsberekeningen.
 
-## <a name="posted-invoices" />Geboekte facturen
+## <a name="posted-invoices"></a>Geboekte facturen
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -73,7 +73,7 @@ U kunt een geboekte inkoopfactuur gemakkelijk corrigeren of annuleren voordat u 
 [Open de lijst **Geboekte inkoopfacturen**](https://businesscentral.dynamics.com/?page=146) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 
-## <a name="purchasing-non-inventory-items" />Niet-voorraadartikelen inkopen
+## <a name="purchasing-non-inventory-items"></a>Niet-voorraadartikelen inkopen
 
 De regels op een inkoopfactuur kunnen van het type **Bron** of **Artikel** zijn. Artikelkaarten kunnen verder worden geclassificeerd als van het type **Voorraad**, **Service** of **Niet-voorraad**, waarmee wordt opgegeven of het artikel een fysieke voorraadeenheid is, een eenheid voor arbeidskosten (ook van toepassing op resources) is of een fysieke eenheid is die niet in voorraad wordt gehouden. Meer informatie op [Nieuwe artikelen registreren](inventory-how-register-new-items.md). Het inkoopfactureringsproces is hetzelfde voor alle genoemde typen.
 
@@ -82,7 +82,7 @@ De regels op een inkoopfactuur kunnen van het type **Bron** of **Artikel** zijn.
 >
 > Om een gekochte resource te gebruiken moet u mogelijk de capaciteit van de resource instellen en deze handmatig aan een taak toewijzen. Als u een resource koopt, wordt er een resourcepost gemaakt, maar resourceposten worden niet bijgehouden voor hoeveelheid en waarde, zoals bijvoorbeeld artikelen. Als het bijhouden van hoeveelheden en waarden vereist is, overweeg dan om andere typen regelartikelen te gebruiken.
 
-## <a name="when-to-use-purchase-orders" />Wanneer inkooporders gebruiken?
+## <a name="when-to-use-purchase-orders"></a>Wanneer inkooporders gebruiken?
 
 U moet inkooporders gebruiken als uw inkoopproces vereist dat u gedeeltelijke ontvangsten van een orderhoeveelheid registreert, bijvoorbeeld omdat de volledige hoeveelheid niet beschikbaar was bij de leverancier. Als u verkochte artikelen rechtstreeks van uw leverancier bij de klant levert als een doorverzending, moet u ook inkooporders gebruiken. Meer informatie op [Doorverzendingen uitvoeren](sales-how-drop-shipment.md).
 
@@ -92,7 +92,7 @@ Wat betreft alle andere aspecten werken inkooporders op dezelfde manier als inko
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-## <a name="receive-items-with-a-purchase-order" />Artikelen ontvangen met een inkooporder
+## <a name="receive-items-with-a-purchase-order"></a>Artikelen ontvangen met een inkooporder
 
 Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder. 
 
@@ -109,19 +109,19 @@ Hieronder wordt beschreven hoe u artikelen ontvangt met een inkooporder.
 > [!NOTE]
 > Als u een magazijnverwerking gebruikt, kunt u de actie **Boeken** voor de inkooporder niet gebruiken om ontvangst te registreren. Dit is omdat een magazijnmedewerker de inkooporderhoeveelheid al heeft geboekt als ontvangen. Meer informatie in [Ontwerpdetails: Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md).
 
-## <a name="receive-more-items-than-ordered" />Meer artikelen ontvangen dan besteld
+## <a name="receive-more-items-than-ordered"></a>Meer artikelen ontvangen dan besteld
 
 Wanneer meer goederen aankomen dan zijn besteld, wilt u deze misschien ontvangen in plaats van de ontvangst te annuleren. Het kan bijvoorbeeld goedkoper zijn om de extra artikelen in voorraad te houden dan ze terug te sturen of uw leverancier kan u korting geven om ze te bewaren.
 
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
-### <a name="set-up-over-receipts" />Meerontvangsten instellen
+### <a name="set-up-over-receipts"></a>Meerontvangsten instellen
 
 Maak meerontvangstcodes aan om een percentage te definiëren waarmee een ontvangen hoeveelheid de bestelde hoeveelheid kan overschrijden. Geef in het veld **Tolerantiepercentage voor meerontvangst** het percentage op. Vervolgens wijst u de code toe op de pagina's Artikelkaart of Leverancierskaart voor artikelen en leveranciers.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") pictogram, voer **Meerontvangstcodes** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="assign-the-over-receipt-code-to-an-item" />De meerontvangstcode toewijzen aan een artikel
+### <a name="assign-the-over-receipt-code-to-an-item"></a>De meerontvangstcode toewijzen aan een artikel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de pagina **Artikelkaart** voor het artikel.
@@ -132,7 +132,7 @@ De meerontvangstcode wordt toegewezen aan het artikel. Met inkooporders of magaz
 > [!NOTE]
 > U kunt een goedkeuringswerkstroom instellen die vereist dat meerontvangsten worden goedgekeurd voordat ze kunnen worden afgehandeld. Schakel het selectievakje **Goedkeuring vereist** in op de pagina **Meerontvangstcodes**. Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).
 
-### <a name="over-receive-an-order" />Teveel ontvangen voor een order
+### <a name="over-receive-an-order"></a>Teveel ontvangen voor een order
 
 Op inkoopregels en magazijnontvangstregels wordt het veld **Meer ontvangen hoeveelheid** gebruikt om meer ontvangen hoeveelheden vast te leggen, dat wil zeggen hoeveelheden die het orderaantal in het veld **Aantal** overschrijden.
 
@@ -149,11 +149,11 @@ Wanneer u een meerontvangst afhandelt, kunt u de waarde in het veld **Te ontvang
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] verwerkt niet automatisch de financiële aspecten van meerontvangsten. U moet dit handmatig afhandelen in overleg met de leverancier, bijvoorbeeld doordat de leverancier een nieuwe of bijgewerkte factuur stuurt.
 
-## <a name="external-document-number" />Externe documentnummer
+## <a name="external-document-number"></a>Externe documentnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="posting-purchases" />Inkopen boeken
+## <a name="posting-purchases"></a>Inkopen boeken
 
 In een inkoopdocument kunt u kiezen uit de volgende boekingsacties:
 
@@ -183,21 +183,21 @@ U kunt altijd verschillende grootboekposten bekijken die worden gemaakt als gevo
 
 U kunt boeken of boeken en afdrukken. Als u ervoor kiest om te boeken en af te drukken, wordt een lijst afgedrukt nadat de order is geboekt. U kunt ook de actie **Batchboeken** kiezen, waarmee u verschillende orders tegelijkertijd kunt boeken. Zie voor meer informatie [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries" />Posten bekijken
+## <a name="viewing-ledger-entries"></a>Posten bekijken
 
 Na de boeking worden de geboekte inkoopregels verwijderd uit de order. Er verschijnt een bericht als de boeking is voltooid. Hierna kunt u de geboekte posten bekijken op de verschillende pagina's inclusief de pagina's **Leveranciersposten**, **Grootboekposten**, **Artikelposten**, **Resourceposten**, **Inkoopontvangsten** en **Geboekte inkoopfacturen**.
 
 In de meeste gevallen kunt u posten openen vanaf de betrokken kaart of het betreffende document. Kies bijvoorbeeld op de pagina **Leverancierskaart** de actie **Posten**.
 
-## <a name="editing-ledger-entries" />Posten bewerken
+## <a name="editing-ledger-entries"></a>Posten bewerken
 
 U kunt bepaalde velden in geboekte inkoopdocumenten bewerken, zoals het veld **Betalingsreferentie**. Zie voor meer informatie [Geboekte documenten bewerken](across-edit-posted-document.md). Voor kritiekere velden die van invloed zijn op het controlespoor, moet u het boeken omkeren of ongedaan maken. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/receive-invoice-dynamics-d365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/receive-invoice-dynamics-d365-business-central/index)
 
-## <a name="see-related-microsoft-training-1" />Zie gerelateerde [Microsoft-training](/training/modules/processing-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training-1"></a>Zie gerelateerde [Microsoft-training](/training/modules/processing-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Offertes aanvragen](purchasing-how-request-quotes.md)  
 [Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md)  

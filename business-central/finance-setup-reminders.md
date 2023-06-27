@@ -11,30 +11,30 @@ ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# <a name="set-up-reminder-terms-and-levels" />De termijnen en niveaus van aanmaningen instellen
+# <a name="set-up-reminder-terms-and-levels"></a>De termijnen en niveaus van aanmaningen instellen
 
 U kunt aanmaningen gebruiken om klanten te herinneren aan openstaande bedragen. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
-## <a name="reminder-terms" />Aanmaningscondities
+## <a name="reminder-terms"></a>Aanmaningscondities
 
 Als klanten betalingen hebben openstaan, moet u bepalen wanneer en hoe u hen wilt aanmanen. Daarnaast kunt u hun rekening eventueel debiteren met rente of kosten. U kunt zoveel aanmaningscondities instellen als u wilt.  
 
 > [!NOTE]
 > Als u rente wilt berekenen op te late betalingen, kunt u dit doen wanneer u aanmaningen maakt. Als u echter alleen rente wilt berekenen en u uw klanten hiervan op de hoogte wilt stellen zonder aanmaningen te versturen, moet u [rentefacturen](finance-setup-finance-charges.md) gebruiken. Zie voor meer informatie [Aanmaningen](receivables-collect-outstanding-balances.md#reminders) of [Financiële kosten](receivables-collect-outstanding-balances.md#finance-charges), respectievelijk.
 
-### <a name="to-set-up-reminder-terms" />U kunt aanmaningscondities als volgt instellen
+### <a name="to-set-up-reminder-terms"></a>U kunt aanmaningscondities als volgt instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Aanmaningscondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Als u meer dan één combinatie van aanmaningscondities wilt gebruiken, stelt u een code in voor elke.
 
-## <a name="reminder-levels" />Aanmaningsniveaus
+## <a name="reminder-levels"></a>Aanmaningsniveaus
 
 Voor elke aanmaningsconditiecode kunt u een onbeperkt aantal aanmaningsniveaus definiëren. De instelling van niveau 1 wordt gebruikt als er voor het eerst een aanmaning wordt gemaakt voor een klant. Wanneer de aanmaning wordt verstuurd, wordt het niveau geregistreerd in de aanmaningsposten die worden gemaakt en gekoppeld aan de individuele klantposten. Als het nodig is om de klant nog eens aan te manen, worden alle aanmaningposten die zijn gekoppeld aan open klantposten gecontroleerd op wat het hoogst gebruikte niveau is. De voorwaarden van het volgende niveau worden dan gebruikt voor de nieuwe aanmaning.
 
 Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden de voorwaarden van het hoogste niveau gebruikt. U kunt zoveel aanmaning maken als ingesteld in het veld **Max. aantal aanmaningen** in de aanmaningscondities.
 
-### <a name="to-set-up-reminder-levels" />Aanmaningsniveaus volgt instellen
+### <a name="to-set-up-reminder-levels"></a>Aanmaningsniveaus volgt instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Aanmaningscondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Aanmaningscondities** de regel met de condities waarvoor u niveaus wilt instellen en kies vervolgens de actie **Niveaus**.  
@@ -92,9 +92,9 @@ Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden d
 
 Nadat u de aanmaningscondities hebt ingesteld (met aanvullende niveaus en tekst), voert u een van de codes in op elke klantenkaart. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/send-reminders-dynamics-365-business-central/)
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Aanmaningen voor uitstaande saldi verzenden](receivables-send-reminders.md)  
