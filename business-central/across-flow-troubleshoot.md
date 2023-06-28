@@ -3,12 +3,11 @@ title: Problemen met uw geautomatiseerde werkstromen oplossen
 description: Meer informatie over het oplossen van problemen tussen Business Central en Power Automate wanneer u een geautomatiseerde workflow maakt.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 08/04/2022
-ms.author: edupont
+ms.date: 06/16/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: d365-business-central
 ---
 
 # Problemen met uw geautomatiseerde [!INCLUDE[prod_short](includes/prod_short.md)]-werkstromen oplossen
@@ -27,6 +26,20 @@ Momenteel is er een limiet voor het aantal records dat een stroom kan verwerken.
 
 > [!NOTE]
 > Voor ontwikkelaars wordt de stroomtriggering gedaan via webhook-berichten en deze beperking is te wijten aan de manier waarop de Business Central-connector omgaat met `collection`-berichten. Zie voor meer informatie [Werken met webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in de Help voor ontwikkelaars en beheerders.
+
+## Foutbericht 'Het antwoord van de Business Central-service is te groot'
+
+### Probleem
+
+Wanneer een actie wordt gebruikt die met records werkt (zoals *Record maken (V3)* en *Record ophalen (V3)*), kan Power Automate een fout weergeven die vergelijkbaar is met deze:
+
+`The response from the Business Central service is too large`
+
+### Mogelijke oorzaak
+
+Hoewel Business Central geen vaste limiet heeft voor de grootte van records die door API's worden geretourneerd, kan de Dynamics 365 Business Central-connector voor Power Automate alleen records verwerken tot 8 MB.
+
+Alle Business Central-API's die door Microsoft worden geleverd, retourneren records onder deze limiet, maar API's die door partners worden geleverd, doen dat mogelijk niet. Als u de foutmelding 'Het antwoord van de Business Central-service is te groot' ziet, neemt u contact op met de partner die de API heeft gemaakt die u gebruikt.
 
 ## Fout "Entiteitset niet gevonden"
 
