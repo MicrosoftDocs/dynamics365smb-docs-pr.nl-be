@@ -11,7 +11,7 @@ ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="setting-up-sales"></a>Verkopen instellen
+# <a name="setting-up-sales"></a><a name="setting-up-sales"></a>Verkopen instellen
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.
 
 U moet de algemene instellingen definiëren op de pagina **Verkoopinstellingen**, zoals welke verkoopdocumenten vereist zijn, hoe hun waarden worden geboekt en het type regels dat standaard moet worden gemaakt. Deze algemene instellingen worden normaal gesproken tijdens de implementatie eenmalig ingevoerd.
@@ -33,9 +33,9 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 |Informatie invoeren over de verschillende transporteurs die u gebruikt, met een koppeling naar hun service voor het traceren van pakketten.|[Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

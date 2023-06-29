@@ -10,7 +10,7 @@ ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="create-production-order-headers"></a>Productieorderkoppen maken
+# <a name="create-production-order-headers"></a><a name="create-production-order-headers"></a>Productieorderkoppen maken
 
 U kunt een productieorder handmatig maken. De eerste stap is het maken van een productieorderkop.
 
@@ -18,7 +18,7 @@ Productieorders worden meestal automatisch op basis van een planningsfunctie gem
 
 In de volgende procedure wordt een vast geplande productieorder gemaakt. U kunt ook productieorders maken met een andere status.  
 
-## <a name="to-create-a-production-order-header"></a>Productieorderkoppen maken
+## <a name="to-create-a-production-order-header"></a><a name="to-create-a-production-order-header"></a>Productieorderkoppen maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vast geplande productieorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -31,7 +31,7 @@ In de volgende procedure wordt een vast geplande productieorder gemaakt. U kunt 
 
 Wanneer productievereisten veranderen, bijvoorbeeld onderdelen of bewerkingen, kunt u de productieorder snel herplannen. Zie [Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md) voor meer informatie.  
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Productie](production-manage-manufacturing.md)
 [Productie instellen](production-configure-production-processes.md)  

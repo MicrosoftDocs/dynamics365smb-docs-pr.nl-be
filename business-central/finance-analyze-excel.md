@@ -8,7 +8,7 @@ ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: edupont
 ---
-# <a name="analyzing-financial-statements-in-microsoft-excel"></a>Financiële overzichten analyseren in Microsoft Excel
+# <a name="analyzing-financial-statements-in-microsoft-excel"></a><a name="analyzing-financial-statements-in-microsoft-excel"></a>Financiële overzichten analyseren in Microsoft Excel
 
 [!INCLUDE [prod_short](includes/prod_short.md)] biedt KPI's en krijgt overzichten van de financiën van uw bedrijf. Hieronder volgen voorbeelden van manieren om KPI's en overzichten in Excel te analyseren:
 
@@ -18,7 +18,7 @@ ms.author: edupont
 > [!TIP]
 > De rapporten die u in Excel kunt bekijken, zijn standaard ontworpen om u te helpen bij het analyseren van het huidige jaar. Het rapport Resultatenrekening is echter een uitzondering. Met dat rapport kunt u de gegevens filteren om voorgaande jaren in uw analyses op te nemen.
 
-## <a name="getting-the-overview-and-the-details-in-excel"></a>Het overzicht en de details weergeven in Excel
+## <a name="getting-the-overview-and-the-details-in-excel"></a><a name="getting-the-overview-and-the-details-in-excel"></a>Het overzicht en de details weergeven in Excel
 
 In de rolcentra Bedrijfsmanager en Accountant kunt u met de actie **Rapporten** kiezen welke financiële overzichten u in Excel weergeeft. Als u een overzicht kiest, wordt het in Excel of Excel Online geopend. Een invoegtoepassing verbindt de gegevens met [!INCLUDE [prod_short](includes/prod_short.md)]. U moet zich echter aanmelden met hetzelfde account dat u gebruikt met [!INCLUDE [prod_short](includes/prod_short.md)]. De volgende tabel geeft een overzicht van de rapporten en waar ze beschikbaar zijn.  
 
@@ -38,21 +38,21 @@ Stel dat u wat beter naar uw cashflow wilt kijken. Vanuit het rolcentrum Bedrijf
 
 In Excel ziet u een tabblad met de gegevens op het eerste werkblad. Alle gegevens die zijn geëxporteerd zijn ook aanwezig in andere werkbladen voor het geval dat dat nodig is. U kunt de lijst rechtstreeks afdrukken of u kunt deze wijzigen totdat u het overzicht en de details hebt die u wilt. Gebruik de [!INCLUDE [prod_short](includes/prod_short.md)] Excel-invoegtoepassing om gegevens verder te filteren en te analyseren.  
 
-### <a name="understanding-the-excel-templates"></a>Inzicht in de Excel-sjablonen
+### <a name="understanding-the-excel-templates"></a><a name="understanding-the-excel-templates"></a>Inzicht in de Excel-sjablonen
 
 De voorgedefinieerde Excel-rapporten zijn gebaseerd op de gegevens in het huidige bedrijf. Het demonstratiebedrijf heeft bijvoorbeeld het rekeningschema opgezet met drie geldrekeningen onder *Vlottende activa*: 10100 **Betaalrekening**, 10200 **Spaarrekening** en 10300 **Kleine kas**. De accounts hebben het veld **Rekeningsubcategorie** ingesteld op *Contant geld* en het is hun gecombineerde bedrag dat wordt weergegeven als *Contant geld* in het Excel-rapport **Balans**.  
 
 Andere bladen in de Excel-werkmap tonen de gegevens achter het rapport. Om erachter te komen wat er achter de groeperingen in de Excel-rapporten zit, moet u wellicht de lijsten filteren in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="the--excel-add-in"></a>De Excel-invoegtoepassing [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="the--excel-add-in"></a><a name="the--excel-add-in"></a>De Excel-invoegtoepassing [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Uw [!INCLUDE [prod_short](includes/prod_short.md)]-ervaring bevat een invoegtoepassing voor Excel. Afhankelijk van uw abonnement bent u automatisch aangemeld of moet u uw aanmeldgegevens opgeven voor [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie [Kopiëren en bewerken vanuit Business Central](across-work-with-excel.md).  
 
 Met de invoegtoepassing kunt u gegevens vernieuwen vanuit [!INCLUDE [prod_short](includes/prod_short.md)] en kunt u wijzigingen terugsturen naar [!INCLUDE [prod_short](includes/prod_short.md)]. De mogelijkheid om wijzigingen terug te sturen naar de database is niet beschikbaar voor de financiële rapporten die u kunt weergeven in Excel.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Weergeven en bewerken in Excel vanuit Business Central](across-work-with-excel.md)  
 [Financiën](finance.md)  

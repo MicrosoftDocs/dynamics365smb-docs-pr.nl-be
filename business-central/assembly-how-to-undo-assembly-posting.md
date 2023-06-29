@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="undo-assembly-posting"></a>Boeken van assemblage ongedaan maken
+# <a name="undo-assembly-posting"></a><a name="undo-assembly-posting"></a>Boeken van assemblage ongedaan maken
 
 Maak de boeking van een assemblageorder ongedaan om een fout te corrigeren of een ongewenste boeking te verwijderen.
 
@@ -33,7 +33,7 @@ Assemblageorders kunnen alleen worden hersteld als het aantal en de volgorde van
 
 De volgende procedure beschrijft het ongedaan maken van geboekte assemblyorders die artikelen bevatten die zijn geassembleerd naar voorraad. Gebruik de actie **Verzending ongedaan maken** op de gerelateerde geboekte zending om geboekte assemblyorders met artikelen die op bestelling zijn geassembleerd, ongedaan te maken. Ga voor meer informatie over het ongedaan maken van verzendingen naar [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md). Ongedaan maken van de geboekte assemblyorder geschiedt vervolgens op dezelfde wijze als in dat artikel beschreven.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a>Het boeken van een assemblageorder ongedaan maken
+## <a name="to-undo-posting-of-an-assembly-order"></a><a name="to-undo-posting-of-an-assembly-order"></a>Het boeken van een assemblageorder ongedaan maken
 
 U kunt geboekte assemblyorders geheel of gedeeltelijk ongedaan maken.
 
@@ -50,7 +50,7 @@ Het veld **Tegengeboekt** in de assemblageorder verandert in **Ja**. De boeking 
 > [!NOTE]  
 > Als u aantallen uit meerdere gedeeltelijke boekingen voor een assemblageorder wilt herstellen, moet u alle geboekte assemblyorders ongedaan maken door stappen 1 tot en met 3 uit te voeren.  
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)  

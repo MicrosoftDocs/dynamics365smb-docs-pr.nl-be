@@ -11,7 +11,7 @@ ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9
 ms.date: 09/13/2022
 ms.author: bholtorf
 ---
-# <a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me
+# <a name="finding-pages-and-information-with-tell-me"></a><a name="finding-pages-and-information-with-tell-me"></a>Pagina's en informatie zoeken met Vertel me
 
 In dit artikel wordt beschreven hoe het zoekvak in het product, *Vertel me*, u kan helpen snel naar zaken zoals acties, pagina's of rapporten te gaan, informatie te zoeken over hoe u een bepaalde taak voltooit en andere apps en consultingservices te ontdekken voor [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -31,48 +31,48 @@ Onder aan de pagina **Vertel me** wordt de actie genaamd **pagina's en rapporten
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="find-an-action-on-the-current-page"></a>Een actie op de huidige pagina zoeken
+## <a name="find-an-action-on-the-current-page"></a><a name="find-an-action-on-the-current-page"></a>Een actie op de huidige pagina zoeken
 
 In het gedeelte **Op huidige pagina** kunt u werk zoeken en doen op de pagina die u hebt geopend. Als de pagina **Verkoopofferte** open is en u 'klant' typt, bevat het gedeelte een actie waarmee de klantenkaart wordt geopend voor de gekozen klant in de verkoopofferte.
 
 > [!NOTE]  
 > De lijst bevat uitsluitend acties die beschikbaar zijn op de navigatiebalk boven aan de pagina. Acties op sneltabbladen worden niet opgenomen.  
 
-## <a name="find-a-page-or-a-task"></a>Een pagina of taak zoeken
+## <a name="find-a-page-or-a-task"></a><a name="find-a-page-or-a-task"></a>Een pagina of taak zoeken
 
 De resultaten in de sectie **Ga naar Pagina's en taken** bieden toegang tot andere pagina's en u kunt er taken mee uitvoeren of informatie mee opzoeken. Als u deze pagina's vaak gebruikt, kunt u het bladwijzerpictogram kiezen om een koppeling naar elke pagina toe te voegen aan uw rolcentrum. Zie voor meer informatie [Een pagina-actie toevoegen aan uw rolcentrum](ui-bookmarks.md).
 
 Welke pagina's en taken worden vermeld, is afhankelijk van de gebruikerservaring die u voor uw bedrijf hebt gekozen. De **Essential**-ervaring geeft toegang tot minder dan de **Premium**-ervaring. De eerste keer dat u zich aanmeldt, gebruikt u de **Essential**-ervaring. Zie voor meer informatie [Uw [!INCLUDE[prod_short](includes/prod_short.md)]-ervaring aanpassen](ui-experiences.md).
 
-## <a name="find-a-report-or-archived-information"></a>Een rapport of gearchiveerde informatie zoeken
+## <a name="find-a-report-or-archived-information"></a><a name="find-a-report-or-archived-information"></a>Een rapport of gearchiveerde informatie zoeken
 
 De sectie **Ga naar Rapporten en analyse** biedt toegang tot rapportagehulpmiddelen. U kunt bijvoorbeeld het rapport **Balans** vanuit de lijst openen of toegang krijgen tot gearchiveerde documenten en andere informatie.  
 
-## <a name="find-information-in-the-help"></a>Informatie zoeken in de Help
+## <a name="find-information-in-the-help"></a><a name="find-information-in-the-help"></a>Informatie zoeken in de Help
 
 Onder **Documentatie** ziet u een koppeling om uw zoekopdracht te herhalen in de documentatie van Microsoft. Als u de koppeling kiest, wordt het Help-venster geopend en worden zoekresultaten weergegeven.  
 
 > [!NOTE]  
 > Documentatie voor extensies van derden wordt niet opgenomen in de resultaten.
 
-## <a name="get-more-functionality-from-apps"></a>Meer functionaliteit uit apps halen
+## <a name="get-more-functionality-from-apps"></a><a name="get-more-functionality-from-apps"></a>Meer functionaliteit uit apps halen
 
 Onze partnercommunity is druk bezig apps te ontwikkelen die mogelijkheden toevoegen aan [!INCLUDE[prod_short](includes/prod_short.md)]. De sectie **Ophalen uit Microsoft AppSource** bevat apps voor [!INCLUDE[prod_short](includes/prod_short.md)] die beschikbaar zijn op Microsoft AppSource en gerelateerd zijn aan het trefwoord waarop u zocht.
 
-## <a name="search-for-data"></a>Zoeken naar gegevens
+## <a name="search-for-data"></a><a name="search-for-data"></a>Zoeken naar gegevens
 
 De functie **Vertel me wat u wilt doen** zoekt niet naar gegevens, zoals klantnamen, adressen of transacties. In plaats hiervan kunt u gegevens zoeken in lijstpagina's door het pictogram ![Zoeken in lijst](media/ui-search/search-list.png "Pictogram Zoeken in lijst") **Zoeken** te kiezen in de linkerbovenhoek van de lijstkoptekst. De zoekopdracht is alleen van toepassing op de lijst die u weergeeft. Zie voor meer informatie [Lijsten sorteren, zoeken en filteren](ui-enter-criteria-filters.md).  
 
 > [!TIP]
 > Vanaf releasewave 2 van 2022 kunt u zoeken naar geboekte documentregels, zoals factuurregels, creditnotaregels, verzendingsregels en ontvangstregels. Zoek naar het type documentregels dat u wilt vinden en maak vervolgens een bladwijzer voor de koppelingen naar de documenten op uw startpagina voor gemakkelijke toegang tot het origineel of een gefilterde weergave. Meer informatie op [Een pagina-actie toevoegen aan uw rolcentrum](ui-bookmarks.md).
 
-## <a name="questions"></a>Vragen?
+## <a name="questions"></a><a name="questions"></a>Vragen?
 
 We hebben Vertel me aan een reeks belanghebbenden laten zien, vragen die ze gemeen hadden, genoteerd en van onze aantekeningen een lijst met veelgestelde vragen gemaakt. Als u geïnteresseerd bent, gaat u naar [Veelgestelde vragen over Vertel me](ui-search-faq.md).
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Werken met Business Central](ui-work-product.md)  
 [Een pagina-actie toevoegen aan uw rolcentrum](ui-bookmarks.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: feature overview
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# <a name="ad-hoc-data-analysis"></a>Ad-hoc gegevensanalyse
+# <a name="ad-hoc-data-analysis"></a><a name="ad-hoc-data-analysis"></a>Ad-hoc gegevensanalyse
 
 Soms moet u gegevens analyseren in [!INCLUDE[prod_short](includes/prod_short.md)] op een manier die niet beschikbaar is in een standaardrapport. Deze taak wordt vaak ad-hocanalyse genoemd. Hieronder staan koppelingen om u te helpen leren hoe u deze kunt uitvoeren.
 
@@ -21,7 +21,7 @@ Soms moet u gegevens analyseren in [!INCLUDE[prod_short](includes/prod_short.md)
 | Gegevens uit een rapportgegevensset bekijken en analyseren in Excel. | [Rapportgegevensset opslaan in Excel vanaf de aanvraagpagina](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 | Financiële gegevens bekijken en analyseren met behulp van financiële rapporten. | [Financiële analyse](bi.md) |
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Overzicht van bedrijfsinformatie en rapportage](ui-work-report.md)
 

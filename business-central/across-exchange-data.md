@@ -10,7 +10,7 @@ ms.search.keywords: 'exchange data, external files, electronic documents, AMC Ba
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# <a name="exchanging-data"></a>Gegevens uitwisselen
+# <a name="exchanging-data"></a><a name="exchanging-data"></a>Gegevens uitwisselen
 U kunt gegevens uitwisselen tussen [!INCLUDE[prod_short](includes/prod_short.md)] en externe bestanden of streams voor veelvoorkomende bedrijfstaken, zoals het verzenden en ontvangen van elektronische documenten en het importeren en exporteren van bankbestanden.  
 
 Voordat u elektronische documenten kunt verzenden en ontvangen of bankbestanden kunt importeren en exporteren, moet u eerst het kader voor gegevensuitwisseling instelling om de gegevensbestanden of -stromen te verwerken. Daarnaast moet u gerelateerde gebieden instellen, zoals de klanten naar wie u elektronische facturen stuurt en de extensie AMC Banking 365 Fundamentals als u geconverteerde bankbestanden naar een externe serviceprovider verzendt. Zie voor meer informatie [Gegevensuitwisseling instellen](across-set-up-data-exchange.md).  
@@ -31,7 +31,7 @@ Voordat u elektronische documenten kunt verzenden en ontvangen of bankbestanden 
 |Gegevens voor Intrastat-rapportage exporteren in [!INCLUDE[prod_short](includes/prod_short.md)].|[Intrastat-rapportage instellen](finance-how-setup-report-intrastat.md)|
 |Bekijk welke velden in [!INCLUDE[prod_short](includes/prod_short.md)] zijn toegewezen aan bestandselementen wanneer u betalingsbestanden exporteert met behulp van de extensie AMC Banking 365 Fundamentals.|[Veldtoewijzing bij de export van betalingsbestanden met behulp van de extensie AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)   

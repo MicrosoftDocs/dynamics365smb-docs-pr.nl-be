@@ -10,18 +10,18 @@ ms.search.form: '99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 990
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="view-load-on-work-and-machine-centers"></a>De werklast in afdelingen en bewerkingsplaatsen weergeven
+# <a name="view-load-on-work-and-machine-centers"></a><a name="view-load-on-work-and-machine-centers"></a>De werklast in afdelingen en bewerkingsplaatsen weergeven
 
 Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de werklast voor de shopfloor als gevolg van geplande en vrijgegeven productieorders bekijken.  
 
-## <a name="to-view-the-load-on-work-centers"></a>De werklast voor afdelingen weergeven
+## <a name="to-view-the-load-on-work-centers"></a><a name="to-view-the-load-on-work-centers"></a>De werklast voor afdelingen weergeven
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de betreffende kaart **Afdeling** in de lijst en kies de actie **Werklast**.  
 
 Met de velden **Weergeven per** en **Weergeven als** op het sneltabblad **Opties** kunt u de gewenste periode selecteren.  
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 [Productie](production-manage-manufacturing.md)
 [Productie instellen](production-configure-production-processes.md)  
 [Gepland](production-planning.md)  

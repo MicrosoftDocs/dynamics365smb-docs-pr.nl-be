@@ -12,11 +12,11 @@ ms.date: 09/29/2021
 ms.author: edupont
 ---
 
-# <a name="procurement-quick-start"></a>Snel aan de slag met inkoop
+# <a name="procurement-quick-start"></a><a name="procurement-quick-start"></a>Snel aan de slag met inkoop
 
 Om producten en services te kunnen kopen moet u eerst leveranciers instellen. Zodra dat is gebeurd, kunt u beginnen met het registreren van inkooporders en het ontvangen van facturen.  
 
-## <a name="set-up-vendors"></a>Leveranciers instellen
+## <a name="set-up-vendors"></a><a name="set-up-vendors"></a>Leveranciers instellen
 
 De volgende video laat zien hoe u een leverancier instelt in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -24,13 +24,13 @@ De volgende video laat zien hoe u een leverancier instelt in [!INCLUDE[prod_shor
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### <a name="set-up-a-new-vendor"></a>Een nieuwe leverancier instellen
+### <a name="set-up-a-new-vendor"></a><a name="set-up-a-new-vendor"></a>Een nieuwe leverancier instellen
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 Voor meer informatie en aanvullende dingen die u kunt doen wanneer u leveranciers registreert zie [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md).  
 
-## <a name="create-new-purchase-orders"></a>Nieuwe inkooporders maken
+## <a name="create-new-purchase-orders"></a><a name="create-new-purchase-orders"></a>Nieuwe inkooporders maken
 
 Wanneer u iets van een verkoper koopt, hebt u twee opties. De eerste en eenvoudigste is om gewoon een inkoopfactuur te maken. U moet echter inkooporders gebruiken als uw inkoopproces vereist dat u gedeeltelijke ontvangsten van een orderhoeveelheid registreert, bijvoorbeeld omdat de volledige hoeveelheid niet beschikbaar was bij de leverancier.
 
@@ -40,7 +40,7 @@ De volgende video laat zien hoe u een inkooporder maakt in [!INCLUDE[prod_short]
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### <a name="to-create-a-purchase-order"></a>Een inkooporder maken
+### <a name="to-create-a-purchase-order"></a><a name="to-create-a-purchase-order"></a>Een inkooporder maken
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling  
 
@@ -66,11 +66,11 @@ De volgende video laat zien hoe u een inkooporder maakt in [!INCLUDE[prod_short]
 
 Voor meer informatie en aanvullende dingen die u kunt doen bij het maken van een inkooporder zie [Inkoop](purchasing-manage-purchasing.md).  
 
-## <a name="create-a-purchase-invoice"></a>Een inkoopfactuur maken
+## <a name="create-a-purchase-invoice"></a><a name="create-a-purchase-invoice"></a>Een inkoopfactuur maken
 
 U maakt een inkoopfactuur om de kosten van inkopen vast te leggen en betalingsverplichtingen te volgen. Een inkoopfactuur maken is vergelijkbaar met het maken van een inkooporder.
 
-### <a name="how-to-create-and-post-a-purchase-invoice"></a>Een inkoopfactuur maken en boeken
+### <a name="how-to-create-and-post-a-purchase-invoice"></a><a name="how-to-create-and-post-a-purchase-invoice"></a>Een inkoopfactuur maken en boeken
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 3 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Inkoopfactuur** de actie **Nieuw** om een nieuwe inkoopfactuur te maken.
@@ -95,7 +95,7 @@ De inkoop wordt nu weerspiegeld in de voorraad, resourcejournalen en financiële
 
 Voor meer informatie en aanvullende dingen die u kunt doen bij het maken van een factuur zie [Aankopen registreren met inkoopfacturen](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 [Inkoopoverzicht](Purchasing-manage-purchasing.md)  

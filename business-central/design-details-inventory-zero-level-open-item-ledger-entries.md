@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-known-item-application-issue"></a>Ontwerpdetails: bekend probleem met artikelvereffening
+# <a name="design-details-known-item-application-issue"></a><a name="design-details-known-item-application-issue"></a>Ontwerpdetails: bekend probleem met artikelvereffening
 Dit artikel bespreekt een probleem waarbij het voorraadniveau nul is, hoewel er openstaande artikelposten bestaan [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Het artikel begint met een overzicht van typerende symptomen van het probleem, gevolgd door de basis van artikelvereffening om de beschreven redenen van dit probleem te ondersteunen. Aan het eind van het artikel is een oplossing voor dergelijke openstaande artikelposten.  
 
-## <a name="symptoms-of-the-issue"></a>Symptomen van het probleem
+## <a name="symptoms-of-the-issue"></a><a name="symptoms-of-the-issue"></a>Symptomen van het probleem
  Veelvoorkomende symptomen van het probleem met nulvoorraad hoewel er openstaande artikelposten bestaan zijn de volgende:  
 
 -   Het volgende bericht als u een voorraadperiode probeert af te sluiten: "De voorraadperiode kan niet worden afgesloten omdat er negatieve voorraad is voor een of meer artikelen".  
@@ -29,7 +29,7 @@ Het artikel begint met een overzicht van typerende symptomen van het probleem, g
      |333|28-01-2018|Verkoop|Verkoopverzending|102043|TEST|BLAUW|-1|-10|-1|-1|Ja|  
      |334|28-01-2018|Verkoop|Verkoopverzending|102043|TEST|BLAUW|1|10|1|1|Ja|  
 
-## <a name="basics-of-item-application"></a>Grondbeginselen van artikelvereffening
+## <a name="basics-of-item-application"></a><a name="basics-of-item-application"></a>Grondbeginselen van artikelvereffening
  Een artikelvereffeningspost wordt gemaakt voor elke voorraadtransactie om de kostenontvanger te koppelen aan de kostenbron, zodat de kosten op basis van de waarderingsmethode kunnen worden doorgestuurd. Zie [Ontwerpdetails: artikelvereffening](design-details-item-application.md) voor meer informatie.  
 
 -   Voor een inkomende artikelpost wordt de artikelvereffeningspost gemaakt als de artikelpost wordt gemaakt.  
@@ -42,7 +42,7 @@ Het artikel begint met een overzicht van typerende symptomen van het probleem, g
 
 -   Vereffeningskosten  
 
-### <a name="quantity-application"></a>Aantalvereffening
+### <a name="quantity-application"></a><a name="quantity-application"></a>Aantalvereffening
  Aantalvereffeningen worden gemaakt voor alle voorraadtransacties en worden automatisch gemaakt of in speciale processen handmatig. Wanneer ze handmatig worden gemaakt, wordt naar aantalvereffeningen verwezen als vaste vereffening.  
 
  Het volgende diagram toont hoe aantalvereffeningen worden gemaakt.  
@@ -54,7 +54,7 @@ Het artikel begint met een overzicht van typerende symptomen van het probleem, g
 > [!NOTE]  
 >  Als de uitgaande artikelpost op gemiddelde kostprijs wordt gewaardeerd, is de vereffende inkomende artikelpost niet de unieke kostenbron. Het speelt slechts een rol in de berekening van de gemiddelde kosten van de periode.  
 
-### <a name="cost-application"></a>Vereffeningskosten
+### <a name="cost-application"></a><a name="cost-application"></a>Vereffeningskosten
 Kostenvereffeningen worden alleen gemaakt voor inkomende transacties waarbij het veld **Vereffenen met artikelpost** wordt gevuld om een vaste vereffening te bieden. Dit gebeurt vaak met betrekking tot een verkoopcreditnota of een scenario waarin een verzending wordt teruggedraaid. De kostenvereffening zorgt dat het artikel weer in voorraad komt met dezelfde kosten als waarmee het is verzonden.  
 
 Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.  
@@ -66,7 +66,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Hierboven is inkomende artikelpost 3 (Verkoopretour) een kostenontvanger voor de oorspronkelijke uitgaande artikelpost 2 (Verkoop).  
 
-## <a name="illustration-of-a-basic-cost-flow"></a>Illustratie van een basiskostenstroom
+## <a name="illustration-of-a-basic-cost-flow"></a><a name="illustration-of-a-basic-cost-flow"></a>Illustratie van een basiskostenstroom
  Stel een complete kostenstroom waarin een artikel wordt ontvangen, verzonden en gefactureerd met exacte kostentegenboeking, en opnieuw wordt verzonden.  
 
  Het volgende diagram illustreert de kostenstroom.  
@@ -75,7 +75,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Hierboven worden de kosten doorgestuurd naar artikelpost 2 (Verkoop), vervolgens naar artikelpost 3 (Verkoopretour) en uiteindelijk naar artikelpost 4 (Verkoop 2).  
 
-## <a name="reasons-for-the-issue"></a>Redenen voor het probleem
+## <a name="reasons-for-the-issue"></a><a name="reasons-for-the-issue"></a>Redenen voor het probleem
  Het probleem met nulvoorraad hoewel er openstaande artikelposten bestaan kan worden veroorzaakt door de volgende scenario's:  
 
 -   Scenario 1: Een verzending en een factuur worden geboekt hoewel het artikel niet beschikbaar is. Het boeken wordt vervolgens exact tegengeboekt met een verkoopcreditnota.  
@@ -90,7 +90,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Artikelpost 2 (Verkoopretour) kan niet zowel een kostenontvanger van de oorspronkelijke artikelpost zijn als tegelijkertijd een leverancier van artikelen en de kostenbron ervan. Daarom blijft oorspronkelijke artikelpost 1 (Verkoop 1) open totdat een geldige bron verschijnt.  
 
-## <a name="identifying-the-issue"></a>Het probleem identificeren
+## <a name="identifying-the-issue"></a><a name="identifying-the-issue"></a>Het probleem identificeren
  Als u wilt weten of de open artikelposten worden gemaakt, doet u het volgende voor het respectievelijke scenario:  
 
  Voor scenario 1 identificeert u het probleem als volgt:  
@@ -130,7 +130,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Hierboven wordt inkomende artikelpost 334 kostenvereffend met uitgaande artikelpost 333.  
 
-## <a name="workaround-for-the-issue"></a>Oplossing voor het probleem
+## <a name="workaround-for-the-issue"></a><a name="workaround-for-the-issue"></a>Oplossing voor het probleem
  Boek op de pagina **Artikeldagboek** de volgende regels voor het betreffende artikel:  
 
 -   Een positieve correctie om de openstaande uitgaande artikelpost te sluiten.  
@@ -141,7 +141,7 @@ Het volgende diagram toont hoe kostenvereffeningen worden uitgevoerd.
 
  Het resultaat is dat de voorraad nul is en alle artikelposten worden afgesloten.  
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)   
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
 

@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/09/2021
 ms.author: edupont
 ---
-# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Betalingen en terugbetalingen vastleggen in het betalingsdagboek
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a><a name="record-payments-and-refunds-in-the-payment-journal"></a>Betalingen en terugbetalingen vastleggen in het betalingsdagboek
 
 Op de pagina **Betalingsdagboek** legt u betalingen vast die u doet aan leveranciers en terugbetalingen die u doet aan klanten. Wanneer u een betalingsdagboekregel boekt, wordt het betaalde bedrag geregistreerd op de opgegeven systeembankrekening. U moet vier stappen uitvoeren om de werkelijke geldovermaking vanaf de gerelateerde bankrekening uit te voeren.  
 
@@ -29,7 +29,7 @@ Het betalingsdagboek is een dagboek dat voor het doen van betalingen is geoptima
 
     Naast registratie dat de betaling wordt verricht kunt u de pagina **Betalingsdagboek** gebruiken om de betaling uit te voeren voor verdere verwerking door uw bank. Zie voor meer informatie [Chequebetalingen doen](payables-how-work-checks.md) en [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Betalingen in het betalingsdagboek doen
+## <a name="to-make-payments-in-the-payment-journal"></a><a name="to-make-payments-in-the-payment-journal"></a>Betalingen in het betalingsdagboek doen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de dagboekbatch die bedoeld is voor betalingen.
@@ -43,7 +43,7 @@ Het betalingsdagboek is een dagboek dat voor het doen van betalingen is geoptima
 6. Wanneer alle betalingsdagboekregels zijn ingevuld, kiest u de actie **Boeken**.
 
 
-## <a name="to-issue-a-refund-check"></a>Een terugbetalingscheque uitgeven
+## <a name="to-issue-a-refund-check"></a><a name="to-issue-a-refund-check"></a>Een terugbetalingscheque uitgeven
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en kies de gerelateerde koppeling.
 2. Selecteer **Terugbetaling** in het veld **Documentsoort**.  
@@ -57,7 +57,7 @@ Het betalingsdagboek is een dagboek dat voor het doen van betalingen is geoptima
 10. Wanneer alle betalingsdagboekregels zijn voltooid, kiest u de actie **Boeken/afdrukken**, kies dan de actie **Boeken en afdrukken** en selecteer **Ja**.  
   
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 [Chequebetalingen doen](payables-how-work-checks.md)  
 [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  

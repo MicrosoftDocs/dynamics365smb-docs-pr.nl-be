@@ -10,14 +10,14 @@ ms.search.form: '5522, 5524, 5526'
 ms.date: 07/29/2021
 ms.author: edupont
 ---
-# <a name="plan-for-new-demand-order-by-order"></a>Nieuwe vraag order voor order plannen
+# <a name="plan-for-new-demand-order-by-order"></a><a name="plan-for-new-demand-order-by-order"></a>Nieuwe vraag order voor order plannen
 
 Deze planningstaak kan worden uitgevoerd op de pagina **Orderplanning**, waarin alle nieuwe vraag samen met beschikbaarheidsinformatie en suggesties voor levering worden weergegeven. Zo beschikt u over een helder hulpmiddel om op effectieve wijze op basis van verkoop- en onderdeelregels te plannen voor de vraag. Vervolgens maakt u direct verschillende soorten orders voor voorzieningen aan.  
 
 U kunt de pagina **Orderplanning** op twee manieren openen, afhankelijk van uw doel: vanuit een order waarvoor u specifiek wilt plannen of in de batchmodus omdat u voor alles en eventuele nieuwe vraag wilt plannen.  
 
 
-## <a name="to-plan-for-new-production-order-demand"></a>Een nieuwe productieordervraag plannen
+## <a name="to-plan-for-new-production-order-demand"></a><a name="to-plan-for-new-production-order-demand"></a>Een nieuwe productieordervraag plannen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geplande productieorders** in en kies vervolgens de gerelateerde koppeling. U kunt deze stappen uitvoeren voor geplande, vast geplande of vrijgegeven productieorders.
 2. Open de productieorder waarvoor u wilt plannen en kies de actie **Planning**.  
@@ -25,7 +25,7 @@ U kunt de pagina **Orderplanning** op twee manieren openen, afhankelijk van uw d
 
 Op de pagina worden planningsregels weergegeven volgens het weergavefilter **Productievraag**. Dit zijn niet-gerealiseerde materiaalregels van alle bestaande productieorders. Vraag voor slechts één productieorder wordt niet weergegeven omdat het nodig is om één productieorder te plannen met een overzicht van de vraag voor mogelijk eerdere materiaalregels. Planningsregels voor de productieorder in context worden uitgevouwen.  
 
-## <a name="to-plan-for-any-new-demand"></a>Eventuele nieuwe vraag plannen
+## <a name="to-plan-for-any-new-demand"></a><a name="to-plan-for-any-new-demand"></a>Eventuele nieuwe vraag plannen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Orderplanning** in en kies vervolgens de gerelateerde koppeling  
 2. Kies op de pagina **Orderplanning** de actie **Plan berekenen**.
@@ -81,7 +81,7 @@ Op de pagina worden planningsregels weergegeven volgens het weergavefilter **Pro
 > [!NOTE]  
 >  Als u een datum later dan de benodigde datum invoert, ontvangt u een waarschuwingsbericht.  
 
-## <a name="to-make-supply-orders"></a>Orders voor voorzieningen maken
+## <a name="to-make-supply-orders"></a><a name="to-make-supply-orders"></a>Orders voor voorzieningen maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geplande productieorders** in en kies vervolgens de gerelateerde koppeling. U kunt deze stappen uitvoeren voor een geplande, vast gepland of vrijgegeven productieorder.  
 2. Open de productieorder waarvoor u wilt plannen en kies de actie **Planning**.  
@@ -108,7 +108,7 @@ Wanneer u klaar bent met de planning op de pagina **Orderplanning** (als u bijvo
 > [!NOTE]  
 > Door de voorzieningenorders die u maakt kan weer nieuwe afhankelijke vraag ontstaan, bijvoorbeeld naar onderliggende productieorders. Kies daarom altijd **Planning berekenen**, zodat u deze productieorders kunt bekijken en afhandelen voordat u verdergaat vanuit het overzicht.  
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Gepland](production-planning.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="managing-inventory-costs"></a>Voorraadkosten beheren
+# <a name="managing-inventory-costs"></a><a name="managing-inventory-costs"></a>Voorraadkosten beheren
 Kostenbeheer heeft betrekking op het vastleggen en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).   
 
 U dient de volgende centrale principes te begrijpen: met waarderingsmethoden wordt gedefinieerd hoe artikelen worden gewaardeerd wanneer ze de voorraad verlaten, met een herwaardering van kosten worden de kosten bijgewerkt van goederen die worden verkocht met gerelateerde inkoopkosten die na de verkoop zijn geboekt en de voorraadwaarden moeten regelmatig worden geboekt naar speciale grootboekrekeningen.
@@ -33,7 +33,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Voer controle- en rapportagetaken uit voor een periode-einde, zoals het berekenen van de voorraadwaarde en het boeken van kosten in het grootboek.|[Kosten rapporteren en afstemmen met het grootboek](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Leer hoe u de taakwachtrij kunt gebruiken om de taken voor het aanpassen van voorraadkosten of het afstemmen met het grootboek naar de achtergrond te verplaatsen.|[Voorraadkosten aanpassen en afstemmen met grootboek met taakwachtrij](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
  [Financiën](finance.md)  
  [Voorraad](inventory-manage-inventory.md)   
  [Verkoop](sales-manage-sales.md)   

@@ -12,7 +12,7 @@ ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 541
 ms.date: 09/21/2022
 ms.author: edupont
 ---
-# <a name="view-the-availability-of-items"></a>Beschikbaarheid van artikelen weergeven
+# <a name="view-the-availability-of-items"></a><a name="view-the-availability-of-items"></a>Beschikbaarheid van artikelen weergeven
 
 Vanuit de context van een zakelijke taak kunt u geavanceerde informatie krijgen over waar en wanneer een artikel beschikbaar is, zoals wanneer u met een klant praat over een leverdatum.
 
@@ -34,7 +34,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] worden de beschikbaarheidscijf
 > [!NOTE]  
 >   In de volgende procedures wordt beschreven hoe geavanceerde beschikbaarheidsgegevens worden weergegeven vanuit het artikeloverzicht en de artikelkaart. U kunt ook toegang tot de informatie krijgen vanuit verkoopdocumentregels voor het artikel op de regel. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 
-## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>U kunt de beschikbaarheid van een artikel weergeven op basis van wanneer het wordt verzonden of ontvangen
+## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a><a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>U kunt de beschikbaarheid van een artikel weergeven op basis van wanneer het wordt verzonden of ontvangen
 
 U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltransacties op de pagina **Artikelbeschikbaarheid per gebeurtenis**.
 
@@ -45,7 +45,7 @@ U geeft de beschikbaarheid van een artikel weer op basis van geplande artikeltra
     Op de pagina **Artikelbeschikbaarheid per gebeurtenis** ziet u hoe het voorraadaantal van het artikel zich in de loop van de tijd ontwikkelt volgens geplande verzend- en ontvangstgebeurtenissen. De pagina biedt een verkorte weergave met één regel verzamelde informatie per tijdsinterval, waarin voorraadaantallen veranderen. Tijdsintervallen waarin geen gebeurtenissen hebben plaatsgevonden, worden niet weergegeven. U kunt elke regel gegevens over de gebeurtenis of gebeurtenissen die de gecumuleerde hoeveelheid op de regel veroorzaken, uitvouwen.
 4. Kies de waarde in het veld **Geplande voorraad** om alleen de artikelposten te bekijken of documenten te openen die de waarde vormen.
 
-## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>De beschikbaarheid van een artikel in verschillende perioden weergeven
+## <a name="to-view-the-availability-of-an-item-in-different-periods"></a><a name="to-view-the-availability-of-an-item-in-different-periods"></a>De beschikbaarheid van een artikel in verschillende perioden weergeven
 
 U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde perioden weer op de pagina **Beschikbaarheid per periode**.
 
@@ -56,7 +56,7 @@ U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde 
     Op de pagina **Beschikbaarheid per periode** ziet u hoe het voorraadaantal van het artikel zich in de loop van de tijd ontwikkelt, weergegeven voor een periode die u selecteert, zoals Dag, Week of Kwartaal.
 4. Kies de waarde in het veld **Geplande voorraad** om alleen de artikelposten te bekijken of documenten te openen die de waarde vormen.
 
-## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>De beschikbaarheid weergeven van een artikel op de vestigingen waar het is opgeslagen
+## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a><a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>De beschikbaarheid weergeven van een artikel op de vestigingen waar het is opgeslagen
 
 U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar het is opgeslagen, weer op de pagina **Artikelbeschikbaarheid per vestiging**.
 
@@ -68,7 +68,7 @@ U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar 
 4. Kies de waarde in het veld **In voorraad (Beschikb.)** om alleen de artikelposten te bekijken die de waarde vormen.
 5. Kies de waarde in het veld **Geplande voorraad** om alleen de artikelposten te bekijken of documenten te openen die de waarde vormen.
 
-## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>De beschikbaarheid weergeven van alle artikelen op de vestiging waar ze zijn opgeslagen
+## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a><a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>De beschikbaarheid weergeven van alle artikelen op de vestiging waar ze zijn opgeslagen
 
 U geeft de beschikbaarheid van al uw artikelen in al uw vestigingen weer op de pagina **Artikelen per vestiging**.
 
@@ -78,7 +78,7 @@ U geeft de beschikbaarheid van al uw artikelen in al uw vestigingen weer op de p
     De pagina **Artikelen per vestiging** toont voor al uw artikelen hoeveel er in elke vestiging beschikbaar zijn.
 3. Kies de waarde in het veld **In voorraad (Beschikb.)** om alleen de artikelposten te bekijken die de waarde vormen.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>De beschikbaarheid van een artikel weergeven op basis van het gebruik ervan in assemblage- of productiestuklijsten
+## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a><a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>De beschikbaarheid van een artikel weergeven op basis van het gebruik ervan in assemblage- of productiestuklijsten
 
 Als een artikel deel uitmaakt van assemblage of productiestuklijsten als een bovenliggend artikel of als onderdeel, kunt u zien hoeveel eenheden ervan vereist zijn op de pagina **Artikelbeschikbaarheid per stuklijstniveau**. Op de pagina wordt weergegeven hoeveel eenheden van een bovenliggend artikel u kunt maken op basis van de beschikbaarheid van onderliggende artikelen op onderliggende regels. Een artikel dat een assemblage- of productiestuklijst heeft, wordt weergegeven op de pagina als een opvouwbare regel. U kunt deze regel uitvouwen om de onderliggende onderdelen en subassemblages op lagere niveaus met hun eigen stuklijsten te bekijken.
 
@@ -91,7 +91,7 @@ Op elke regel op de pagina voor zowel hoofdartikelen als onderliggende artikelen
 |**Bovenliggende kan worden gemaakt**|Hiermee wordt weergegeven hoeveel eenheden van een willekeurige subassemblage in het topartikel u kunt maken. In het veld wordt opgegeven hoeveel directe bovenliggende eenheden u kunt assembleren. De waarde is gebaseerd op de beschikbaarheid van het artikel op de regel.|
 |**Topartikel kan worden gemaakt**|Hiermee wordt weergegeven hoeveel eenheden van het topartikel u kunt maken. In het veld wordt opgegeven hoeveel eenheden van het stuklijstartikel op de bovenste regel u kunt assembleren. De waarde is gebaseerd op de beschikbaarheid van het artikel op de regel.|
 
-### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>De beschikbaarheid van een artikel bekijken op basis van vraag naar het bovenliggende artikel
+### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a><a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>De beschikbaarheid van een artikel bekijken op basis van vraag naar het bovenliggende artikel
 
 De pagina **Artikelbeschikbaarheid per stuklijstniveau** bevat gegevens voor het artikel op de kaart of de documentregel waarvoor de pagina wordt geopend. Het artikel wordt altijd weergegeven op de bovenste regel. U kunt informatie voor andere artikelen of voor alle items weergeven door de waarde te wijzigen in het veld **Artikelfilter**.
 
@@ -100,14 +100,14 @@ De pagina **Artikelbeschikbaarheid per stuklijstniveau** bevat gegevens voor het
 
 Met het veld **Knelpunt** wordt opgegeven welk artikel in de stuklijststructuur ervoor zorgt dat u geen grotere hoeveelheid kunt maken dan wordt weergegeven in het veld **Topartikel kan worden gemaakt**. Het knelpuntartikel kan bijvoorbeeld een aangeschaft onderdeel zijn met een verwachte ontvangstdatum die te laat is om extra eenheden van het topartikel te maken voor de datum in het veld **Vereist per datum**.
 
-## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>De beschikbaarheid van een artikel per meeteenheid bekijken
+## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a><a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>De beschikbaarheid van een artikel per meeteenheid bekijken
 
 De pagina **Artikelbeschikbaarheid per meeteenheid** toont de beschikbaarheid van een artikel, in de maateenheden waarin het is opgeslagen.
 
 > [!NOTE]  
 > Om deze informatie nauwkeurig te houden, moet u artikelmaateenheden omrekenen. Als u bijvoorbeeld een artikel in een maateenheid koopt, zoals dozen, en u verkoopt artikelen in een andere maateenheid, zoals stuks, moet u een artikeljournaal gebruiken om de maateenheden te converteren of artikelen uit de doos halen. U kunt een artikeljournaalregel met een negatieve correctie gebruiken om de voorraad in de maateenheid voor inkoop te verminderen, bijvoorbeeld dozen, en een positieve correctie gebruiken om de voorraad in de maateenheid voor verkoop, bijvoorbeeld stuks, te vergroten. 
 
-## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>De beschikbaarheid van een artikel per variant bekijken
+## <a name="to-view-the-availability-of-an-item-by-its-variants"></a><a name="to-view-the-availability-of-an-item-by-its-variants"></a>De beschikbaarheid van een artikel per variant bekijken
 
 De pagina **Artikelbeschikbaarheid per variant** toont de actuele en verwachte beschikbaarheid van een artikel, gegroepeerd op variantcode.
 
@@ -122,7 +122,7 @@ De pagina **Artikelbeschikbaarheid per variant** toont de actuele en verwachte b
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## <a name="assembly-availability-page"></a>Pagina Beschikbaarheid assemblage
+## <a name="assembly-availability-page"></a><a name="assembly-availability-page"></a>Pagina Beschikbaarheid assemblage
 
 Op de pagina **Beschikbaarheid assemblage** vindt u gedetailleerde beschikbaarheidsinformatie voor de component. Het venster wordt geopend:
 
@@ -138,7 +138,7 @@ In het sneltabblad **Regels** vindt u gedetailleerde beschikbaarheidsinformatie 
 
 Als een of meer assemblageonderdelen niet beschikbaar zijn, wordt dit weerspiegeld in het veld **Kan assembleren** op de betreffende regel als een aantal lager is dan het aantal in het veld **Resterend aantal** op het sneltabbald **Details**.
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  

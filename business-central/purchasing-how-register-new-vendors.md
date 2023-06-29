@@ -11,7 +11,7 @@ ms.search.form: '26, 27, 34, 461, 786, 1379, 1385, 1386, 1628'
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# <a name="register-new-vendors"></a>Nieuwe leveranciers registreren
+# <a name="register-new-vendors"></a><a name="register-new-vendors"></a>Nieuwe leveranciers registreren
 
 Leveranciers leveren de producten die u verkoopt. Elke leverancier van wie u inkoopt, moet met een leverancierskaart zijn geregistreerd.
 
@@ -22,7 +22,7 @@ Leverancierskaarten bevatten de informatie die is vereist om producten van elke 
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-## <a name="adding-new-vendors"></a>Nieuwe leveranciers toevoegen
+## <a name="adding-new-vendors"></a><a name="adding-new-vendors"></a>Nieuwe leveranciers toevoegen
 
 U kunt nieuwe leveranciers handmatig toevoegen door de pagina **Leverancierskaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen leveranciersprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe leveranciers en helpt ervoor te zorgen dat de informatie elke keer correct is.
 
@@ -40,7 +40,7 @@ Overschrijvingsadressen worden gebruikt wanneer u cheques afdrukt om uw leveranc
 
 U geeft overschrijvingsadressen op op de pagina's van Leverancierskaart en op het sneltabblad Verzenden en betalen op inkooporders en facturen. Wanneer u betalingsdagboekregels maakt met de acties Leverancier betalen of Betaling maken op de pagina Leverancierslijst of Leverancierskaart, of de actie Boekingen vereffenen op een betalingsdagboek, wordt de betalingsopdrachtcode op de leverancierspost toegewezen. U kunt deze waarde overschrijven.
 
-### <a name="to-create-a-new-vendor"></a>Een nieuwe leverancier maken
+### <a name="to-create-a-new-vendor"></a><a name="to-create-a-new-vendor"></a>Een nieuwe leverancier maken
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -51,7 +51,7 @@ De leverancier is nu geregistreerd en de leverancierskaart is klaar om voor inko
 
 Als u deze leverancierskaart als sjabloon wilt gebruiken wanneer u nieuwe leverancierskaarten maakt, kunt u deze opslaan als leveranciersjabloon. Zie voor meer informatie de sectie [De leverancierskaart als sjabloon opslaan](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-and-editing-vendor-information"></a>Leveranciersinformatie verwijderen en bewerken
+### <a name="deleting-and-editing-vendor-information"></a><a name="deleting-and-editing-vendor-information"></a>Leveranciersinformatie verwijderen en bewerken
 
 U kunt de informatie op leverancierskaarten op elk gewenst moment bewerken. Als u echter een transactie voor een leverancier hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor controle. Als u leverancierskaarten met grootboekposten wilt verwijderen, neemt u contact op met uw Microsoft-partner om dat via code te doen.
 
@@ -61,7 +61,7 @@ U kunt de informatie op leverancierskaarten op elk gewenst moment bewerken. Als 
 > [!TIP]
 > U kunt alternatieve adressen toevoegen aan leverancierskaarten door de actie **Orderadressen** te kiezen.
 
-## <a name="to-save-the-vendor-card-as-a-template"></a>De leverancierskaart als sjabloon opslaan
+## <a name="to-save-the-vendor-card-as-a-template"></a><a name="to-save-the-vendor-card-as-a-template"></a>De leverancierskaart als sjabloon opslaan
 
 1. Kies op de pagina **Leverancierskaart** de actie **Opslaan als sjabloon**. De pagina **Leveranciersjabloon** opent de weergave van de leverancierkaart als sjabloon.
 2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -70,9 +70,9 @@ U kunt de informatie op leverancierskaarten op elk gewenst moment bewerken. Als 
 5. Wanneer u de nieuwe leveranciersjabloon hebt voltooid, kiest u **OK**.  
    De leveranciersjabloon wordt toegevoegd aan de lijst met leveranciersjablonen, zodat u deze kunt gebruiken om nieuwe leverancierskaarten te maken.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)  
 [Nummerreeksen maken](ui-create-number-series.md)  

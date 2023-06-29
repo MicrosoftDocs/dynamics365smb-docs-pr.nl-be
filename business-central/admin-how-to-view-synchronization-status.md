@@ -12,7 +12,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ---
 
-# <a name="view-the-status-of-synchronization-jobs"></a>De status van synchronisatietaken weergeven
+# <a name="view-the-status-of-synchronization-jobs"></a><a name="view-the-status-of-synchronization-jobs"></a>De status van synchronisatietaken weergeven
 
 
 Gebruik de pagina **Synchronisatiefouten met gekoppelde gegevens** om de status weer te geven van synchronisatietaken die zijn uitgevoerd voor gekoppelde records in een Dataverse- of een [!INCLUDE[crm_md](includes/crm_md.md)]-integratie. Hieronder vallen taken die zijn uitgevoerd vanuit de verwerkingswachtrij en handmatige synchronisatietaken die zijn uitgevoerd op records vanuit de [!INCLUDE[prod_short](includes/prod_short.md)]-client. Het bekijken van hun status is bijvoorbeeld handig bij het oplossen van problemen omdat het u toegang geeft tot details over fouten met betrekking tot gekoppelde records. Meestal worden dit soort fouten veroorzaakt door gebruikersacties, bijvoorbeeld wanneer:  
@@ -23,13 +23,13 @@ Gebruik de pagina **Synchronisatiefouten met gekoppelde gegevens** om de status 
 > [!Note]
 > De pagina **Synchronisatiefouten met gekoppelde gegevens** toont informatie over taken gerelateerd aan gekoppelde records. Als u alle fouten oplost maar records nog steeds niet synchroniseren, heeft dit mogelijk te maken met een instelling voor de integratie. Doorgaans moet uw beheerder dit soort fouten oplossen.   
 
-## <a name="example"></a>Voorbeeld
+## <a name="example"></a><a name="example"></a>Voorbeeld
 Deze video toont een voorbeeld van het oplossen van fouten die zijn opgetreden tijdens het synchroniseren met [!INCLUDE[prod_short](includes/cds_long_md.md)]. Het proces is voor alle integraties hetzelfde. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
 
-## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Synchronisatiefouten voor gekoppelde records weergeven en oplossen
+## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a><a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Synchronisatiefouten voor gekoppelde records weergeven en oplossen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Synchronisatiefouten met gekoppelde gegevens** in en kies vervolgens de gerelateerde koppeling.
 2. De pagina **Synchronisatiefouten met gekoppelde gegevens** bevat problemen die zijn opgetreden toen u gekoppelde records synchroniseerde. De volgende tabel bevat acties die u kunt gebruiken om problemen één voor één op te lossen:
 
@@ -43,16 +43,16 @@ Deze video toont een voorbeeld van het oplossen van fouten die zijn opgetreden t
 > [!NOTE]
 > Om het aantal conflicten dat u moet oplossen te verminderen, kunt u uw integratietabeltoewijzingen zo instellen dat deze acties automatisch worden toegepast. Zie voor meer informatie [Integratietabellen toewijzen](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
-## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Het synchronisatielogboek weergeven voor een specifieke (handmatig gesynchroniseerde) record
+## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a><a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Het synchronisatielogboek weergeven voor een specifieke (handmatig gesynchroniseerde) record
 1. Open bijvoorbeeld een klant-, artikel- of andere record die gegevens synchroniseert tussen [!INCLUDE[prod_short](includes/prod_short.md)] en Dataverse of [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Kies de actie **Synchronisatielogbestand** om het synchronisatielogbestand voor een geselecteerde record weer te geven. Bijvoorbeeld een specifieke klant die u handmatig hebt gesynchroniseerd.
 
-## <a name="remove-couplings-between-records"></a>Koppelingen tussen records verwijderen
+## <a name="remove-couplings-between-records"></a><a name="remove-couplings-between-records"></a>Koppelingen tussen records verwijderen
 Als er iets misgaat in uw integratie en u records moet ontkoppelen om ze niet meer te laten synchroniseren, kunt u dit voor één of meer records tegelijk doen. U kunt een of meer records loskoppelen van lijstpagina's of de pagina **Fouten met gekoppelde gegevenssynchronisatie** door een of meer regels te kiezen en **Koppeling verwijderen** te kiezen. U kunt ook alle koppelingen verwijderen voor een of meer tabeltoewijzingen op de pagina **Integratietabeltoewijzingen**. 
 
 Als een entiteit met een unidirectionele koppeling wordt verwijderd in [!INCLUDE[prod_short](includes/prod_short.md)], moet u de verbroken koppeling handmatig verwijderen. Om dat te doen, kiest u op de pagina **Synchronisatiefouten met gekoppelde gegevens**, kiest u de actie **Zoeken naar verwijderde** en verwijdert u vervolgens de koppelingen.
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 [Gebruikersaccounts instellen voor integratie met Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Microsoft Dynamics 365 Sales gebruiken vanuit Business Central](marketing-integrate-dynamicscrm.md)
 

@@ -10,7 +10,7 @@ ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setting-up-manufacturing"></a>Productie instellen
+# <a name="setting-up-manufacturing"></a><a name="setting-up-manufacturing"></a>Productie instellen
 
 Als u materiaal wilt omzetten in geproduceerde eindartikelen, moeten productieresources, zoals stuklijsten, bewerkingsplannen, machinebedienden en machines worden ingesteld in het systeem.
 
@@ -33,7 +33,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Standaardtaken gebruiken om het maken van bewerkingsplannen te vereenvoudigen door extra informatie bij te voegen voor terugkerende bewerkingen.|[Standaardbewerkingsplanregels instellen](production-how-set-up-standard-routing-lines.md)|  
 |Afdelingen en bewerkingsplannen voor uitbestede productiebewerkingen voorbereiden.|[Productie uitbesteden](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Productie](production-manage-manufacturing.md)  
 [Gepland](production-planning.md)  

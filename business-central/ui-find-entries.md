@@ -11,7 +11,7 @@ ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
 ---
-# <a name="finding-related-entries-for-documents"></a>Gerelateerde posten zoeken voor documenten
+# <a name="finding-related-entries-for-documents"></a><a name="finding-related-entries-for-documents"></a>Gerelateerde posten zoeken voor documenten
 
 Leer hoe u documenten en posten kunt vinden die aan elkaar gerelateerd zijn op basis van gemeenschappelijke informatie, zoals:
 
@@ -21,7 +21,7 @@ Leer hoe u documenten en posten kunt vinden die aan elkaar gerelateerd zijn op b
 
 Deze functie is ook handig als u wilt zoeken naar posten uit bepaalde transacties. Wanneer u op documentnummer zoekt, kunt u het overzicht afdrukken vanuit het rapport **Documentposten**.
 
-## <a name="get-started"></a>Aan de slag
+## <a name="get-started"></a><a name="get-started"></a>Aan de slag
 
 De functie voor het vinden van posten is direct beschikbaar vanaf bijna elke pagina door op de toetsen <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd> te drukken. Vanuit pagina's die specifiek geboekte documenten of geboekte documentposten weergeven&mdash;voor zowel lijsten als kaarten&mdash;kunt u de functie ook openen door de actie **Posten zoeken** te kiezen.
 
@@ -31,7 +31,7 @@ De pagina **Posten zoeken** bevat alle gerelateerde documenten en posten op basi
 - In de middelste sectie worden gerelateerde documenten weergegeven op basis van de zoekopdracht.
 - De onderste sectie geeft informatie weer over het brondocument dat is gevonden door te zoeken.
 
-## <a name="search-for-entries"></a>Zoeken naar posten
+## <a name="search-for-entries"></a><a name="search-for-entries"></a>Zoeken naar posten
 
 U kunt posten zoeken op basis van informatie over het document, de zakelijke contactpersoon of de artikelreferentie. Selecteer in het bovenste gedeelte een van de volgende opties op basis van het type informatie waarover u beschikt:
 
@@ -46,9 +46,9 @@ Nadat u een selectie hebt gemaakt, voert u de relevante zoekinformatie in de vel
 > [!TIP]
 > Voor een paar voorbeelden over het gebruik van **Posten zoeken** raadpleegt u [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md) en [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)  
 [Geboekte documenten zonder inkomende documentrecords zoeken](across-how-find-posted-documents-without-income-document-records.md)  

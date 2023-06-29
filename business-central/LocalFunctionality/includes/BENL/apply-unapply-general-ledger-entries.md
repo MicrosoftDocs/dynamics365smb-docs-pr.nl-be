@@ -20,7 +20,7 @@ Nadat de posten zijn verwerkt, kunt u de functie **Posten vereffenen** gebruiken
 
 U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervolgens de gesloten posten openen om wijzigingen aan te brengen.  
 
-## <a name="to-apply-general-ledger-entries"></a>Grootboekposten vereffenen
+## <a name="to-apply-general-ledger-entries"></a><a name="to-apply-general-ledger-entries"></a>Grootboekposten vereffenen
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
@@ -53,7 +53,7 @@ U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervol
 
 6. Kies de knop **Ok**.  
 
-## <a name="to-view-the-applied-general-ledger-entries"></a>De vereffende grootboekposten weergeven
+## <a name="to-view-the-applied-general-ledger-entries"></a><a name="to-view-the-applied-general-ledger-entries"></a>De vereffende grootboekposten weergeven
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
@@ -63,7 +63,7 @@ U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervol
 
 4. Kies de knop **Ok**.  
 
-## <a name="to-unapply-general-ledger-entries"></a>De vereffening van grootboekposten ongedaan maken
+## <a name="to-unapply-general-ledger-entries"></a><a name="to-unapply-general-ledger-entries"></a>De vereffening van grootboekposten ongedaan maken
 
 1. Kies het pictogram :::image type="icon" source="../../../media/ui-search/search_small.png" border="false":::, voer **Grootboekjournalen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  

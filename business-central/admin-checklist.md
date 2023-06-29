@@ -8,11 +8,11 @@ ms.search.form: '1992, 1993, 1994, 1995, 1990, 1997, 1801'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="onboard-users-with-checklists"></a>Gebruikers onboarden met controlelijsten
+# <a name="onboard-users-with-checklists"></a><a name="onboard-users-with-checklists"></a>Gebruikers onboarden met controlelijsten
 
 De eerste keer dat een gebruiker zich aanmeldt bij een nieuw [!INCLUDE [prod_short](includes/prod_short.md)]-bedrijf, kunnen ze een banner zien die hen aanmoedigt om de controlelijst **Aan de slag** te starten om hen te helpen bij het opstellen van belangrijke informatie en om zich voor te bereiden op zaken. Als beheerder of wederverkoper kunt u de voorgedefinieerde controlelijsten aanpassen en uw eigen stappen instellen.
 
-## <a name="to-add-an-item-to-the-checklist"></a>Een item aan de controlelijst toevoegen
+## <a name="to-add-an-item-to-the-checklist"></a><a name="to-add-an-item-to-the-checklist"></a>Een item aan de controlelijst toevoegen
 
 1. Meld u aan bij [!INCLUDE[prod_short](includes/prod_short.md)] op [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -25,7 +25,7 @@ De eerste keer dat een gebruiker zich aanmeldt bij een nieuw [!INCLUDE [prod_sho
     > [!TIP]
     > Als de stap voor een begeleide instelling is, geeft het veld **Taak** de begeleide instelling op. Als de stap voor meer informatie is, geeft het veld **Taak** de koppeling op naar het artikel of een e-learningmodule.
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Beheer](admin-setup-and-administration.md)  

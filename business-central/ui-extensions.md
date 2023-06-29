@@ -8,11 +8,11 @@ ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="customizing-business-central-online-with-apps"></a>Business Central Online aanpassen met apps
+# <a name="customizing-business-central-online-with-apps"></a><a name="customizing-business-central-online-with-apps"></a>Business Central Online aanpassen met apps
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online wijzigen door apps te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services. Deze apps worden ook wel *extensies* omdat ze [!INCLUDE [prod_short](includes/prod_short.md)] *uitbreiden*.
 
-## <a name="manage-apps"></a>App beheren
+## <a name="manage-apps"></a><a name="manage-apps"></a>App beheren
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -49,7 +49,7 @@ Sommige apps worden verstrekt door Microsoft en andere apps worden verstrekt doo
 > [!NOTE]  
 > U kunt op de hoogte blijven van nieuwe apps van Microsoft en andere leveranciers op [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer"></a>Apps en gegevensoverdracht
+## <a name="apps-and-data-transfer"></a><a name="apps-and-data-transfer"></a>Apps en gegevensoverdracht
 
 Aangezien de volgende apps communiceren met andere services, kunnen ze gegevens uit de geografie van de [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving overdragen:
 
@@ -69,7 +69,7 @@ Dit geldt ook voor bepaalde functionaliteit in de basistoepassing, zoals de volg
 * Online Map
 * EU btw-nummers Onderhoud
 
-## <a name="connect-your-business"></a>Uw bedrijf verbinden
+## <a name="connect-your-business"></a><a name="connect-your-business"></a>Uw bedrijf verbinden
 
 Vanaf 2022 release wave 2 kunnen [!INCLUDE [prod_short](includes/prod_short.md)] online-omgevingen een of meer apps vermelden op de pagina's **Connectiviteits-apps** en **Bank-apps**. Deze apps kunnen uw bedrijf met externe services verbinden om de productiviteit te verhogen door processen te automatiseren. U kunt bijvoorbeeld verbinding maken met uw banken en automatisch banktransacties importeren. De apps zijn eenvoudig te installeren en direct vanaf deze pagina in te stellen. Kies een app voor meer informatie over mogelijkheden en prijzen.  
 
@@ -80,16 +80,16 @@ Bekijk de lijst met voorgestelde apps door de actie **Connectiviteits-apps** te 
 
 Deze externe service genereert een lijst met relevante apps op basis van uw land of regio
 
-## <a name="recommended-apps"></a>Aanbevolen apps
+## <a name="recommended-apps"></a><a name="recommended-apps"></a>Aanbevolen apps
 
 Microsoft-partners en -resellers kunnen apps maken die ze kunnen gebruiken om lijsten met apps samen te stellen die ze vaak aan hun klanten aanbevelen. Als ze dat doen en de app in uw tenant hebben geïmplementeerd, zijn de apps beschikbaar op de pagina **Aanbevolen apps**. Daar kunt u over elke app lezen en beslissen of u deze wilt installeren.
 
 > [!NOTE]
 > Als u een Microsoft-partner of -wederverkoper bent en u een lijst met aanbevolen apps wilt geven, gaat u naar [Apps aanbevelen uit AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in de beheerinhoud.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/customize-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Apps installeren en verwijderen](ui-extensions-install-uninstall.md)  
 [Business Central aanpassen](ui-customizing-overview.md)  

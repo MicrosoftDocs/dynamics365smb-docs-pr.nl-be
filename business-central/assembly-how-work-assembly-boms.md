@@ -11,7 +11,7 @@ ms.search.form: '36, 5870, 5872, 5874'
 ms.date: 09/26/2022
 ms.author: edupont
 ---
-# <a name="work-with-assembly-boms"></a>Werken met assemblagestuklijsten
+# <a name="work-with-assembly-boms"></a><a name="work-with-assembly-boms"></a>Werken met assemblagestuklijsten
 
 U gebruikt assemblagestuklijsten om hoofdartikelen te structureren die via onderdelen moeten worden geassembleerd met weinig tot geen resourcegebruik. Een assemblagestuklijst kan bijvoorbeeld worden gebruikt om een hoofdartikel als een pakket bestaande uit onderdeelartikelen te verkopen.
 
@@ -21,7 +21,7 @@ Een assemblagestuklijst betreft de hoofdgegevens die bepalen welke onderdelen ge
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt ook productiestuklijsten. Productiestuklijsten verschillen van assemblagestuklijsten doordat er complexere procedures worden gehanteerd, waaronder het gebruik van resources, afdelingen of bewerkingsplaatsen. Zie voor meer informatie over de verschillen [Werken met stuklijsten](inventory-how-work-BOMs.md) en [Productiestuklijsten maken](production-how-to-create-production-boms.md).
 
-## <a name="to-create-an-assembly-bom"></a>Een assemblagestuklijst maken
+## <a name="to-create-an-assembly-bom"></a><a name="to-create-an-assembly-bom"></a>Een assemblagestuklijst maken
 
 Als u een bovenliggend artikel wilt definiëren dat bestaat uit andere artikelen, en mogelijk uit resources die nodig zijn om het bovenliggende artikel samen te stellen, moet u een assemblagestuklijst maken.  
 
@@ -45,7 +45,7 @@ Het maken van een assemblagestuklijst bestaat uit twee delen:
 > [!TIP]
 > Voor assemblageartikelen kunnen verschillende varianten zijn ingesteld in [!INCLUDE[prod_short](includes/prod_short.md)] net als elk ander artikel, zodat u de lijst met beschikbare producten korter kunt houden. Zie voor meer informatie over de functie [Productvarianten beheren](inventory-item-variants.md).
 
-## <a name="to-edit-assembly-boms"></a>Assemblagestuklijsten bewerken
+## <a name="to-edit-assembly-boms"></a><a name="to-edit-assembly-boms"></a>Assemblagestuklijsten bewerken
 
 U kunt de regels op een assemblagestuklijst op elk gewenst moment bewerken. Maar houd er rekening mee dat de stuklijst in gebruik kan zijn bij lopende verkopen of assemblages van het hoofdartikel, dat door de wijziging kan worden beïnvloed. Kies de actie **Waar gebruikt** om te zien in welke artikelen het wordt gebruikt en vervolgens of verkoop- of assemblageorders kunnen worden beïnvloed.
 
@@ -53,7 +53,7 @@ U kunt de regels op een assemblagestuklijst op elk gewenst moment bewerken. Maar
 2. Kies de waarde **Ja** in de kolom **Assemblagestuklijst**.
 3. Kies op de pagina **Assemblagestuklijst** de actie **Lijst bewerken** en wijzig vervolgens desgewenst een veld.
 
-## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Onderdelen en resources ingesprongen volgens de stuklijststructuur weergeven
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a><a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Onderdelen en resources ingesprongen volgens de stuklijststructuur weergeven
 
 Vanuit de pagina **Assemblagestuklijst** kunt u een afzonderlijke pagina openen die de onderdelen en resources bevat die zijn ingesprongen op basis van hun stuklijstpositie onder het assemblageartikel.
 
@@ -62,7 +62,7 @@ Vanuit de pagina **Assemblagestuklijst** kunt u een afzonderlijke pagina openen 
 3. Kies op de pagina **Artikel** de actie **Assemblage** en kies vervolgens de actie **Assemblagestuklijst**.
 4. Kies op de pagina **Assemblagestuklijst** de actie **Stuklijst weergeven**.
 
-## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Het assemblageartikel in documentregels vervangen door de samenstellende onderdelen
+## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a><a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Het assemblageartikel in documentregels vervangen door de samenstellende onderdelen
 
 Vanuit ieder in- of verkoopdocument dat een assemblageartikel bevat, kunt u de regel voor dit artikel door middel van een speciale functie vervangen door nieuwe regels voor de samenstellende onderdelen ervan. Deze functie bijvoorbeeld nuttig als u de onderdelen wilt verkopen als een kit die samen het assemblageartikel vertegenwoordigen.
 
@@ -82,7 +82,7 @@ Alle velden op de verkoopfactuurregel voor het assemblageartikel worden worden g
 > [!NOTE]
 > Het rapport **Picklijst per order** wordt ook gewijzigd om alleen de componenten weer te geven. Dit betekent dat een magazijnmedewerker die het bovenliggende artikel, het assemblageartikel, pickt, het niet zal zien in de picklijst. Zie voor meer informatie [De picklijst afdrukken](sales-how-print-picking-list.md).
 
-## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>De vaste verrekenprijs van een assemblageartikel berekenen
+## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a><a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>De vaste verrekenprijs van een assemblageartikel berekenen
 
 U berekent de kostprijs van een assemblageartikel door de kostprijs van elk onderdeel en elke resource in de assemblagestuklijst bij elkaar op te tellen.
 
@@ -106,9 +106,9 @@ De kostprijs van een assemblagestuklijst is altijd gelijk aan het totaal van de 
 
 De kosten van de artikelen waaruit de assemblagestuklijst bestaat, worden gekopieerd van artikelkaarten van de componenten. De kosten van elk artikel worden vermenigvuldigd met het aantal, en de totale kostprijs wordt weergegeven in het venster **Kostprijs** op de artikelkaart.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Productvarianten beheren](inventory-item-variants.md)  

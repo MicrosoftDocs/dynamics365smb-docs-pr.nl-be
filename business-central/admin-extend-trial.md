@@ -11,13 +11,13 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hebt u meer tijd nodig om na te denken over een abonnement?
+# <a name="need-more-time-to-decide-whether-to-subscribe"></a><a name="need-more-time-to-decide-whether-to-subscribe"></a>Hebt u meer tijd nodig om na te denken over een abonnement?
 
 Het is belangrijk de juiste bedrijfstoepassing te kiezen en we weten dat het tijd kost om alle aspecten van [!INCLUDE[prod_short](includes/prod_short.md)] te bekijken. Als u meer tijd nodig hebt om de evaluatie te voltooien, kunt u de proefperiode zelf nog eens 30 dagen verlengen. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids.
 
 U kunt slechts eenmaal de proefperiode zelf verlengen. U kunt deze niet tweemaal verlengen, althans niet zelf. Als u de periode al hebt verlengd, kan uw Microsoft-partner dat nog een keer voor u doen. Dat is ook eenmalig. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) als u nog niet met een partner werkt.  
 
-## <a name="to-extend-your-trial-period"></a>Uw proefperiode verlengen
+## <a name="to-extend-your-trial-period"></a><a name="to-extend-your-trial-period"></a>Uw proefperiode verlengen
 
 1. Meld u aan bij [!INCLUDE[prod_short](includes/prod_short.md)] op [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -31,7 +31,7 @@ U kunt slechts eenmaal de proefperiode zelf verlengen. U kunt deze niet tweemaal
 > [!TIP]
 > Als u de melding niet kunt zien, kunt u [!INCLUDE [prod_short](includes/prod_short.md)] dwingen de begeleide instelling **Proef verlengen** uit te voeren door de parameter ```?page=1828``` toe te voegen aan de URL, zoals in het volgende voorbeeld: [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
 
-## <a name="what-happens-if-my-trial-period-is-expired"></a>Wat gebeurt er als mijn proefperiode is verstreken?
+## <a name="what-happens-if-my-trial-period-is-expired"></a><a name="what-happens-if-my-trial-period-is-expired"></a>Wat gebeurt er als mijn proefperiode is verstreken?
 
 Als uw eerste proefperiode van 30 dagen is verlopen, kunt u deze zelf verlengen, zoals hierboven beschreven. U kunt dan weer normaal werken. Meld u gewoon aan bij het demonstratiebedrijf en start de gids **Proefperiode verlengen** vanuit het bericht.  
 
@@ -45,9 +45,9 @@ Als uw verlengde proefperiode is verstreken, kunt u zich binnen 90 dagen [abonne
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/trial-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Proefversies en abonnementen (alleen Engels)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Nieuwe bedrijven maken](about-new-company.md)  

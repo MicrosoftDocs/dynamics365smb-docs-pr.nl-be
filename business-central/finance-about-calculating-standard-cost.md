@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
 ---
-# <a name="about-calculating-standard-cost"></a>Informatie over het berekenen van vaste verrekenprijzen
+# <a name="about-calculating-standard-cost"></a><a name="about-calculating-standard-cost"></a>Informatie over het berekenen van vaste verrekenprijzen
 
 Veel productiebedrijven kiezen een waarderingsbasis voor de vaste verrekenprijs. Dit geldt ook voor bedrijven die lichte productie zoals assemblage en kitting uitvoeren. In een vaste-verrekenprijssysteem wordt de voorraadkostprijs bepaald op basis van redelijkerwijs te verwachten of historische kosten. Onderzoek van in het verleden gebruikte en voor de toekomst geschatte kosten vormen de basis voor de vaste verrekenprijs. Deze prijs ligt vast totdat wordt besloten deze prijs te wijzigen. Het is mogelijk dat de feitelijke productiekosten van een product afwijken van de geschatte vaste verrekenprijs. Vanuit managementoverwegingen wordt de feitelijke prijs voor een bepaald artikel vergeleken met de vaste verrekenprijs en worden eventuele *verschillen* geïdentificeerd en geanalyseerd.  
 
@@ -21,7 +21,7 @@ Vaste verrekenprijzen kunnen worden gehanteerd voor artikelen die worden aangevu
 |**Assemblage**|Directe materiaalkosten, directe of vaste arbeidskosten en overheadkosten.|  
 |**Prod.-order**|Directe materiaalkosten, arbeidskosten, uitbestedingskosten en overheadkosten.|  
 
-## <a name="setting-up-standard-costs"></a>Vaste verrekenprijzen instellen
+## <a name="setting-up-standard-costs"></a><a name="setting-up-standard-costs"></a>Vaste verrekenprijzen instellen
 
 Aangezien de vaste verrekenprijs van een geproduceerd of geassembleerd artikel uit meerdere kostenelementen bestaat, zoals materiaal-, capaciteits- en uitbestedingskosten (directe kosten en overheadkosten), moet de vaste verrekenprijs worden vastgelegd voor al deze elementen.  
 
@@ -38,7 +38,7 @@ De volgende belangrijke kostenelementen vormen samen de totale directe kosten va
 - Capaciteitskosten.  
 - Kosten voor uitbesteden van enkel geproduceerde artikelen.  
 
-### <a name="material-costs"></a>Materiaalkosten
+### <a name="material-costs"></a><a name="material-costs"></a>Materiaalkosten
 
 Onder materiaalkosten worden de kosten verstaan die te maken hebben met de subassemblages en de aangeschafte grondstoffen. Materiaalkosten kunnen bestaan uit directe en indirecte kostenelementen.  
 
@@ -56,7 +56,7 @@ De materiaalkosten van een geproduceerd artikel kunnen worden weergegeven op twe
 |Eén niveau|Geproduceerd artikel is gelijk aan de totale kosten van alle ingekochte of via subassemblage verkregen artikelen op de productiestuklijst van dat artikel.|  
 |Alle niveaus of meerdere niveaus|Geproduceerd artikel is de som van de materiaalkosten voor alle subassemblages op de stuklijst van dat artikel en de kosten van alle ingekochte artikelen op de productiestuklijst van dat artikel.|  
 
-### <a name="capacity-costs"></a>Capaciteitskosten
+### <a name="capacity-costs"></a><a name="capacity-costs"></a>Capaciteitskosten
 
 Capaciteitskosten zijn de kosten die te maken hebben met interne kosten voor arbeid en apparatuur. U moet deze kosten voor elke resource (in assemblagebeheer) en werk- of bewerkingsplaats in het bewerkingsplan (in productie) instellen. Net als bij materiaalkosten kunt u directe en indirecte elementen van capaciteitskosten identificeren. De directe kosten van een afdeling kunnen bijvoorbeeld worden gevormd door het vastgestelde tarief voor het uitvoeren van een bepaalde functie. De indirecte kosten van een afdeling kunnen algemene fabrieksonkosten omvatten, zoals verwarming, verlichting e.d. Net als bij de materiaalkosten kunt u capaciteitoverhead uitdrukken als een indirect kostenpercentage of als een vast overheadtarief.  
 
@@ -81,13 +81,13 @@ Om insteltijd op het bewerkingsplan aan te geven voor de planning maar deze onko
 
 Als van één niveau wordt uitgegaan, zijn dit de arbeidskosten die nodig zijn om het afgewerkte productieartikel te produceren en wordt dit aangegeven op het bewerkingsplan van het productieartikel. Als van meerdere niveaus wordt uitgegaan, zijn dit de capaciteitskosten die voor elk afzonderlijk geproduceerd artikel dat is opgenomen in de stuklijst van het hoofdartikel zijn opgegeven.  
 
-### <a name="subcontractor-costs"></a>Uitbestedingskosten
+### <a name="subcontractor-costs"></a><a name="subcontractor-costs"></a>Uitbestedingskosten
 
 Onder uitbestedingskosten worden de kosten verstaan die betrekking hebben op services die worden geleverd door externe leveranciers of toeleveranciers van een bedrijf. Net als in het geval van de materiaal- en capaciteitskosten kunnen uitbestedingskosten zowel uit directe kosten als uit overheadkosten bestaan. Directe uitbestedingskosten verwijzen naar de feitelijke tarieven voor elke verschafte service. Overheaduitbestedingskosten kunnen bijvoorbeeld transport- of verwerkingskosten zijn die verband houden met een taak die is uitbesteed.  
 
 Aangezien uitbesteding in feite een externe capaciteit is, stelt u de kosten voor uitbestede services (zowel directe als indirecte kosten) in op de afdelingskaart voor de uitbestedingsbewerking.  
 
-## <a name="updating-standard-costs"></a>De vaste verrekenprijzen aanpassen
+## <a name="updating-standard-costs"></a><a name="updating-standard-costs"></a>De vaste verrekenprijzen aanpassen
 
 Om de vaste verrekenprijs van assemblageartikelen bij te werken of te berekenen, gebruikt u de functie van de artikelkaart.  
 
@@ -98,7 +98,7 @@ Het proces van bijwerken of berekenen van vaste verrekenprijzen bestaat gewoonli
 3.  De vaste verrekenprijzen implementeren die worden ingevoerd wanneer u de vorige batchverwerkingen uitvoert. De vaste verrekenprijzen worden pas van kracht nadat ze zijn geïmplementeerd. Gebruik de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren**, die de wijzigingen in de standaardkosten voor artikelen bijwerkt met die in de tabel Standaardkostenwerkblad.  
 4.  De wijzigingen implementeren om het veld **Kostprijs** op de artikelkaart bij te werken en voorraadherwaardering uit te voeren. Zie [Voorraad herwaarderen](inventory-how-revalue-inventory.md) voor meer informatie.
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Vaste verrekenprijs bijwerken](finance-how-to-update-standard-costs.md)  
