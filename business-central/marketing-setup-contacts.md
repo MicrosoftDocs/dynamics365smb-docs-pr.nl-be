@@ -10,14 +10,14 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-contacts"></a><a name="set-up-contacts"></a>Contacten instellen
+# <a name="set-up-contacts"></a><a name="set-up-contacts"></a><a name="set-up-contacts"></a>Contacten instellen
 Wanneer u contacten maakt, kunt u specifieke gegevens invoeren, zoals de sector waartoe het contact behoort en uw zakenrelatie met de contacten.
 
 Voordat u contacten maakt en details over uw zakenrelaties registreert, moet u de verschillende codes instellen waarmee u deze informatie kunt toewijzen aan uw contactbedrijven en medewerkers. Codes kunnen worden ingesteld voor mailinggroepen, sectoren, zakenrelaties, webbronnen, niveaus binnen de organisatie en functiegroepen. U kunt dit instellen door de actie **Nieuw** te kiezen als u de lijsten opzoekt vanaf de contactkaart.  
 
 Als u deze informatie hebt ingesteld, kunt u veel beter op een georganiseerde manier contacten maken en efficiënter zoeken naar alle contacten op basis van een bepaalde groep. Elke groep in uw bedrijf kan naar de informatie zoeken, waardoor de communicatie met de contacten succesvoller verloopt.
 
-## <a name="to-assign-industry-groups-to-a-contact"></a><a name="to-assign-industry-groups-to-a-contact"></a>Sectoren toewijzen aan een contact
+## <a name="to-assign-industry-groups-to-a-contact"></a><a name="to-assign-industry-groups-to-a-contact"></a><a name="to-assign-industry-groups-to-a-contact"></a>Sectoren toewijzen aan een contact
 U gebruikt sectoren om het soort industrie aan te geven waartoe uw contacten behoren, bijvoorbeeld de detailhandel of de automobielindustrie.
 
 > [!NOTE]
@@ -35,7 +35,7 @@ Het aantal sectoren dat u aan het contact hebt toegewezen, wordt weergegeven in 
 
 Nadat u sectoren hebt toegewezen aan de contacten, kunt u deze gegevens gebruiken om contacten voor de segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 
-## <a name="to-assign-mailing-groups-to-a-contact"></a><a name="to-assign-mailing-groups-to-a-contact"></a>Mailinggroepen toewijzen aan een contact
+## <a name="to-assign-mailing-groups-to-a-contact"></a><a name="to-assign-mailing-groups-to-a-contact"></a><a name="to-assign-mailing-groups-to-a-contact"></a>Mailinggroepen toewijzen aan een contact
 U kunt mailinggroepen gebruiken om groepen contacten aan te geven die dezelfde informatie moeten ontvangen. U kunt bijvoorbeeld een mailinggroep instellen voor de contacten aan wie u een verhuisbericht voor uw kantoor wilt sturen, of een andere groep om relatiegeschenken aan te zenden.
 
 De mailinggroepscode bepaalt het type of de categorie van de groep, zoals VERHUIZING voor een kantoorverhuizing of GESCHENK voor relatiegeschenken. U kunt meerdere sectorcodes hebben. Als u de sectoren wilt definiëren, gebruikt u de pagina **Mailinggroepen**.
@@ -50,7 +50,7 @@ Het aantal mailinggroepen dat u aan het contact hebt toegewezen, wordt weergegev
 
 Nadat u mailinggroepen hebt toegewezen aan de contacten, kunt u deze gegevens gebruiken om contacten voor de segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 
-## <a name="to-define-a-contacts-alternate-address"></a><a name="to-define-a-contacts-alternate-address"></a>Het alternatieve adres van een contact definiëren
+## <a name="to-define-a-contacts-alternate-address"></a><a name="to-define-a-contacts-alternate-address"></a><a name="to-define-a-contacts-alternate-address"></a>Het alternatieve adres van een contact definiëren
 U kunt een alternatief adres toewijzen waarop het contact soms e-mail en informatie wil ontvangen, bijvoorbeeld het adres van een vakantiehuis. U kunt ook een of meer perioden toewijzen aan elk alternatief adres dat u voor de contacten hebt ingevoerd, om aan te geven wanneer het adres geldig is.
 
 1. Open de relevante contactkaart.
@@ -61,7 +61,7 @@ U kunt een alternatief adres toewijzen waarop het contact soms e-mail en informa
 
 Herhaal deze stappen om het gewenste aantal alternatieve adressen toe te wijzen. Voor elk alternatief adres kunt u een of meer perioden opgeven.
 
-## <a name="to-assign-job-responsibilities-to-a-contact"></a><a name="to-assign-job-responsibilities-to-a-contact"></a>Functiegroepen toewijzen aan een contact
+## <a name="to-assign-job-responsibilities-to-a-contact"></a><a name="to-assign-job-responsibilities-to-a-contact"></a><a name="to-assign-job-responsibilities-to-a-contact"></a>Functiegroepen toewijzen aan een contact
 U kunt informatie over de functiegroepen van contactpersonen toevoegen om aan te geven waar de contactpersoon verantwoordelijk voor is binnen het bedrijf, bijvoorbeeld IT, beheer of productie. U kunt deze gegevens gebruiken wanneer u gegevens over uw contacten invoert.
 
 > [!NOTE]
@@ -79,7 +79,7 @@ Het aantal functiegroepen dat u aan het contact hebt toegewezen, wordt weergegev
 
 Nadat u functiegroepen hebt toegewezen aan uw contacten, kunt u deze gegevens gebruiken om contacten voor uw segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 
-## <a name="to-assign-organizational-levels-to-a-contact"></a><a name="to-assign-organizational-levels-to-a-contact"></a>Organisatieniveaus toewijzen aan een contact
+## <a name="to-assign-organizational-levels-to-a-contact"></a><a name="to-assign-organizational-levels-to-a-contact"></a><a name="to-assign-organizational-levels-to-a-contact"></a>Organisatieniveaus toewijzen aan een contact
 U kunt organisatieniveaus voor uw contacten gebruiken om op te geven welke functie ze hebben in het bedrijf, bijvoorbeeld directie. U kunt deze gegevens gebruiken wanneer u gegevens over uw contacten invoert.
 
 > [!NOTE]
@@ -94,7 +94,7 @@ Nadat u niveaus binnen de organisatie aan de contacten hebt toegewezen, kunt u d
 
 Nadat u functiegroepen hebt toegewezen aan uw contacten, kunt u deze gegevens gebruiken om contacten voor uw segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 
-## <a name="to-assign-web-sources-to-a-contact"></a><a name="to-assign-web-sources-to-a-contact"></a>Webbronnen toewijzen aan een contact
+## <a name="to-assign-web-sources-to-a-contact"></a><a name="to-assign-web-sources-to-a-contact"></a><a name="to-assign-web-sources-to-a-contact"></a>Webbronnen toewijzen aan een contact
 U kunt webbronnen gebruiken met uw contactbedrijven om bijvoorbeeld zoekengines en websites op internet aan te geven die u wilt gebruiken om informatie over de contacten te zoeken. Als u webbronnen wilt toewijzen, moet u aangeven welk zoekprogramma en welk zoekwoord wordt gebruikt bij het zoeken naar de vereiste informatie.
 
 > [!NOTE]
@@ -109,7 +109,7 @@ Als u webbronnen wilt toewijzen, moet u aangeven welk zoekprogramma en welk zoek
 
 Herhaal deze stappen om het gewenste aantal webbronnen toe te wijzen.
 
-## <a name="to-assign-business-relations-to-a-contact"></a><a name="to-assign-business-relations-to-a-contact"></a>Zakenrelaties toewijzen aan contacten
+## <a name="to-assign-business-relations-to-a-contact"></a><a name="to-assign-business-relations-to-a-contact"></a><a name="to-assign-business-relations-to-a-contact"></a>Zakenrelaties toewijzen aan contacten
 U kunt zakenrelaties gebruiken om de zakenrelatie aan te geven die u hebt met uw contacten bijvoorbeeld een prospect, bank, serviceleverancier, enzovoort.
 
 > [!NOTE]
@@ -125,29 +125,29 @@ Het aantal zakenrelaties dat u aan het contact hebt toegewezen, wordt weergegeve
 
 Nadat u zakenrelaties hebt toegewezen aan de contacten, kunt u deze gegevens gebruiken om contacten voor de segmenten te selecteren. Zie voor meer informatie [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md).
 
-## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a><a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Bepaalde informatie automatisch kopiëren van contactbedrijven naar contactpersonen.
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a><a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a><a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Bepaalde informatie automatisch kopiëren van contactbedrijven naar contactpersonen.
 Een aantal gegevens voor de contactbedrijven is gelijk aan de gegevens voor de contacten die in deze bedrijven werken, bijvoorbeeld de adresgegevens. Op het sneltabblad **Overerving** van de pagina **Marketinginstellingen** kunt u opgeven welke velden op de contactkaart van een bedrijf naar de contactkaart van een persoon worden gekopieerd wanneer u een contactpersoon voor het contactbedrijf maakt.
 
 Als u een van deze velden wijzigt op de contactbedrijfkaart, worden dezelfde velden op de contactpersoonskaart automatisch bijgewerkt, tenzij u het veld op de contactpersoonskaart handmatig hebt gewijzigd.
 
 Zie voor meer informatie [Contacten maken](marketing-create-contact-companies.md).
 
-## <a name="use-predefined-defaults-on-new-contacts"></a><a name="use-predefined-defaults-on-new-contacts"></a>Vooraf bepaalde standaardwaarden van nieuwe contacten gebruiken
+## <a name="use-predefined-defaults-on-new-contacts"></a><a name="use-predefined-defaults-on-new-contacts"></a><a name="use-predefined-defaults-on-new-contacts"></a>Vooraf bepaalde standaardwaarden van nieuwe contacten gebruiken
 U kunt bepalen of er automatisch een bepaalde taalcode, regiocode, verkoperscode en land-/regiocode als standaardwaarde moet worden toegewezen aan elk nieuw contact. U kunt ook een standaardverkoopcycluscode invoeren die automatisch wordt toegewezen aan elke nieuwe opportunity. U stelt dit in op het sneltabblad **Standaarden** op de pagina **Marketinginstellingen**
 
 Als u velden overneemt, worden de ingestelde standaardwaarden overschreven. Als u bijvoorbeeld Engels als standaardtaal hebt ingesteld, maar de taal van het contactbedrijf is Duits, wordt Duits automatisch toegewezen als de taal voor de contacten die zijn vastgelegd voor het desbetreffende bedrijf.
 
-## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a><a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Contacten synchroniseren met klanten, leveranciers en bankrekeningen
+## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a><a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a><a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Contacten synchroniseren met klanten, leveranciers en bankrekeningen
 Als u de contactkaart wilt synchroniseren met een gekoppelde klant-, leveranciers- of bankrekeningkaart, moet u het relevante veld invullen in het gedeelte **Zakenrelatiecode voor** op het sneltabblad **Interacties** van de pagina **Marketinginstellingen**.  
 
 Zie voor meer informatie [Contacten synchroniseren met klanten, leveranciers en bankrekeningen](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts"></a><a name="searching-for-duplicate-contacts"></a>Dubbele contacten zoeken
+## <a name="searching-for-duplicate-contacts"></a><a name="searching-for-duplicate-contacts"></a><a name="searching-for-duplicate-contacts"></a>Dubbele contacten zoeken
 U kunt de toepassing automatisch laten zoeken naar dubbele records telkens wanneer u een contact maakt, of u kunt ervoor kiezen handmatig te zoeken nadat u contacten hebt gemaakt. U kunt de zoekstrings ook automatisch laten bijwerken door de toepassing, telkens wanneer u contactgegevens wijzigt of een contact maakt. U kunt zelf het zoekresultaatpercentage bepalen, dat wil zeggen, het percentage van identieke strings dat twee contactpersonen moeten hebben zodat ze als dubbele records worden beschouwd. U stelt dit in op het sneltabblad **Dubbele records** op de pagina **Marketinginstellingen**.
 
 Wanneer u een dubbel contact hebt gevonden, kunt u de pagina **Dubbele records samenvoegen** gebruiken om het samen te voegen met een bestaande contactrecord die u wilt behouden. Zie voor meer informatie [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md).
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  
 [Contacten maken](marketing-create-contact-companies.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/02/2022
 ms.author: bholtorf
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a><a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Picken voor productie, assemblage of taken in geavanceerde magazijnconfiguraties
+# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a><a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a><a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Picken voor productie, assemblage of taken in geavanceerde magazijnconfiguraties
 
 Hoe u materialen voor productie, projecten of assemblageorders verzamelt, is afhankelijk van de vestigingsinstellingen van uw magazijn. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
@@ -31,7 +31,7 @@ Om materialen voor brondocumenten op een pull-manier te verzamelen of te verplaa
 |Assemblageorder|Status wijzigen in Vrijgegeven.|
 |Projecten | Wijzig de status in Open of maak direct een project met de status Open.|  
 
-## <a name="production"></a><a name="production"></a>Productie
+## <a name="production"></a><a name="production"></a><a name="production"></a>Productie
 
 Gebruik **Magazijnpick**-documenten om productiematerialen in de stroom naar productie te picken.
 
@@ -40,13 +40,13 @@ Voor een locatie die opslaglocaties gebruikt om artikelen te verplaatsen naar gr
 * Voor een locatie die gestuurde opslag en pick gebruikt, volgt u de stappen in het artikel [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md) .
 * Voor andere locaties volgt u de stappen in het artikel [Artikelen ongepland verplaatsen in standaardmagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a><a name="assembly"></a>Assemblage
+## <a name="assembly"></a><a name="assembly"></a><a name="assembly"></a>Assemblage
 
 Gebruik **Magazijnpick**-documenten om assemblagematerialen naar het assemblagegebied te verplaatsen.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ondersteunt assemblagestromen van het type op voorraad assembleren en op order assembleren. Ga voor meer informatie over assembleren voor order in de uitgaande magazijnstroom naar [Artikelen voor assembleren voor order in magazijnverzendingen](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a><a name="project-management"></a>Projectbeheer
+## <a name="project-management"></a><a name="project-management"></a><a name="project-management"></a>Projectbeheer
 
 Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar projectbeheer te picken.
 
@@ -55,7 +55,7 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
 >
 > Projecten bieden geen ondersteuning voor geavanceerde configuraties waarbij de schakelaar **Gericht picken en opslaan** is ingeschakeld.
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a><a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Bulksgewijs pickdocumenten maken met het pickvoorstel
+## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a><a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a><a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Bulksgewijs pickdocumenten maken met het pickvoorstel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -108,7 +108,7 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
 
 8. Kies de knop **Ok**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a><a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Artikelen picken voor een productieorder, assemblageorder, project
+## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a><a name="to-pick-items-for-a-productions-order-assembly-order-job"></a><a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Artikelen picken voor een productieorder, assemblageorder, project
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Picks** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -136,7 +136,7 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
     * [Artikelen samenstellen](assembly-how-to-assemble-items.md)
     * [Verbruik of gebruik voor projecten registreren](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-a-advanced-warehouse-configuration"></a><a name="flushing-production-components-in-a-advanced-warehouse-configuration"></a>Materialen afboeken voor productie in een geavanceerde magazijnconfiguratie
+## <a name="flushing-production-components-in-a-advanced-warehouse-configuration"></a><a name="flushing-production-components-in-a-advanced-warehouse-configuration"></a><a name="flushing-production-components-in-a-advanced-warehouse-configuration"></a>Materialen afboeken voor productie in een geavanceerde magazijnconfiguratie
 
 Afboekingsmethoden hebben invloed op de stroom van materialen in productie. Zie voor meer informatie [Materialen afboeken op basis van de output van een bewerking](production-how-to-flush-components-according-to-operation-output.md). Afhankelijk van de geselecteerde afboekingsmethode kunt u op de volgende manieren materialen picken voor productie:
 
@@ -144,7 +144,7 @@ Afboekingsmethoden hebben invloed op de stroom van materialen in productie. Zie 
 * Gebruik een **Magazijnpick**-document om de pick vast te leggen voor artikelen die de afboekingsmethode **Picken + voorwaarts**, **Picken + achterwaarts** gebruiken. Het verbruik van de materialen gebeurt automatisch wanneer u de status van de productieorder wijzigt of door een bewerking te starten of te beëindigen. Alle vereiste materialen moeten beschikbaar zijn. Anders wordt afgeboekte verbruiksboeking voor dat materiaal gestopt.
 * Gebruik een **Magazijnverplaatsing**-document zonder een verwijzing naar een brondocument of andere manieren om de verplaatsing vast te leggen van materialen die gebruikmaken van de afboekingsmethode **Voorwaarts** of **Achterwaarts**. Het verbruik van de materialen gebeurt automatisch wanneer u de status van de productieorder wijzigt of een bewerking start of beëindigt. Alle vereiste materialen moeten beschikbaar zijn. Anders wordt het boeken van afgeboekte verbruiksboeking voor dat materiaal gestopt. Zie voor meer informatie [Artikelen verplaatsten](warehouse-move-items.md).
 
-### <a name="example"></a><a name="example"></a>Voorbeeld
+### <a name="example"></a><a name="example"></a><a name="example"></a>Voorbeeld
 
 U hebt een productieorder voor 15 STUKS van artikel SP-SCM1004. Sommige artikelen op de materialenlijst moeten handmatig worden afgeboekt in een verbruiksdagboek. Andere artikelen kunnen automatisch worden gepickt en afgeboekt met behulp van de afboekingsmethode **Picken + Achterwaarts**.  
 
@@ -167,9 +167,9 @@ De volgende illustratie geeft aan wanneer het veld **Opslaglocatie** in de mater
 
 :::image type="content" source="media/binflow.png" alt-text="Overzicht van wanneer en hoe het veld Opslaglocatie wordt ingevuld.":::
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/pick-ship-items-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  

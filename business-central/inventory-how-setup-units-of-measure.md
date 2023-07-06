@@ -10,7 +10,7 @@ ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-units-of-measure"></a><a name="set-up-units-of-measure"></a>Maateenheden instellen
+# <a name="set-up-units-of-measure"></a><a name="set-up-units-of-measure"></a><a name="set-up-units-of-measure"></a>Maateenheden instellen
 
 Als onderdeel van het opzetten van uw [!INCLUDE [prod_short](includes/prod_short.md)] stelt u algemene maateenheden in op de pagina **Maateenheden**. Wanneer u vervolgens nieuwe artikelen registreert, specificeert u de basismaateenheid op de **artikelkaart**. Maar u kunt later ook maateenheden toevoegen.  
 
@@ -23,7 +23,7 @@ Als een artikel in één eenheid in voorraad is, maar in een andere eenheid word
 
 Een ander hulpmiddel dat het gemakkelijker maakt om met meerdere maateenheden voor artikelen te werken, is de mogelijkheid om een afrondingsprecisie op te geven voor basismaateenheden. Het specificeren van een afrondingsprecisie geeft richtlijnen over wat iemand moet invoeren voor een bepaald bedrijfsproces en helpt afrondingsproblemen te verminderen. Als u alternatieve maateenheden gebruikt, helpt de waarde in het veld **Aantal in eenheid** bij het berekenen van de hoeveelheid in de basiseenheid, wat kan leiden tot afrondingsproblemen. Stel u bijvoorbeeld voor dat u een doos ontvangt met zes artikelen. Wanneer de doos in uw magazijn aankomt, ontdekt u dat een van de zes artikelen ontbreekt. U besluit niet de ontvangst van één doos te boeken, maar in plaats daarvan de ontvangen hoeveelheid te wijzigen in vijf van zes stuks. Dat zou leiden tot een ontvangst van 4,99998 stukken in plaats van vijf. Op de pagina **Artikeleenheden** kunt u met het veld **Afrondingsprecisie voor aantal** een waarde opgeven waarmee de hoeveelheid wordt geconverteerd naar een getal dat gemakkelijker te begrijpen is. Als we doorgaan met het voorbeeld, zouden we **1** in het veld invoeren om af te ronden op vijf stuks.
 
-## <a name="to-set-up-units-of-measure"></a><a name="to-set-up-units-of-measure"></a>Maateenheden instellen
+## <a name="to-set-up-units-of-measure"></a><a name="to-set-up-units-of-measure"></a><a name="to-set-up-units-of-measure"></a>Maateenheden instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Eenheden** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Een nieuwe lege regel wordt ingevoegd.  
@@ -36,7 +36,7 @@ Een ander hulpmiddel dat het gemakkelijker maakt om met meerdere maateenheden vo
 
 Wanneer u een nieuw artikel registreert, kunt u de basismaateenheid kiezen uit de lijst met maateenheden die u nu hebt ingesteld. U kunt ook meerdere maateenheden voor een artikel instellen.  
 
-## <a name="to-set-up-multiple-item-units-of-measure"></a><a name="to-set-up-multiple-item-units-of-measure"></a>Meerdere maateenheden voor artikelen instellen
+## <a name="to-set-up-multiple-item-units-of-measure"></a><a name="to-set-up-multiple-item-units-of-measure"></a><a name="to-set-up-multiple-item-units-of-measure"></a>Meerdere maateenheden voor artikelen instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de artikelkaart waarvoor u alternatieve eenheden wilt instellen.
@@ -54,7 +54,7 @@ Wanneer u een nieuw artikel registreert, kunt u de basismaateenheid kiezen uit d
 
 U kunt nu afwisselende eenheden gebruiken op inkoop-, productie- en verkoopdocumenten. Zie voor meer informatie [Standaardeenheidscodes invoeren voor verkoop- en inkooptransacties](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
-## <a name="to-set-up-unit-of-measure-translations"></a><a name="to-set-up-unit-of-measure-translations"></a>Eenheidsvertalingen instellen
+## <a name="to-set-up-unit-of-measure-translations"></a><a name="to-set-up-unit-of-measure-translations"></a><a name="to-set-up-unit-of-measure-translations"></a>Eenheidsvertalingen instellen
 
 Wanneer u artikelen aan buitenlandse klanten verkoopt, wilt u de eenheid mogelijk opgeven in de taal van de klant. U kunt dat doen door vertalingen voor maateenheden op te geven.
 
@@ -64,7 +64,7 @@ Wanneer u artikelen aan buitenlandse klanten verkoopt, wilt u de eenheid mogelij
 4. Voer de gewenste tekst in het veld **Omschrijving** in.
 5. Herhaal stap 2 tot en met 4 voor de maateenheidscodes en de talen waarvoor u vertalingen wilt invoeren.
 
-## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a><a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Standaardeenheidscodes invoeren voor verkoop- en inkooptransacties
+## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a><a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a><a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Standaardeenheidscodes invoeren voor verkoop- en inkooptransacties
 
 Als u doorgaans in andere eenheden dan de basiseenheid inkoopt of verkoopt, kunt u verschillende eenheden opgeven voor inkopen en verkopen. U moet hiervoor de maateenheden instellen op de pagina **Artikeleenheden**.
 
@@ -74,9 +74,9 @@ Als u doorgaans in andere eenheden dan de basiseenheid inkoopt of verkoopt, kunt
 4. Open voor inkopen op het sneltabblad **Aanvulling** in het veld **Ink.-eenheid** de pagina **Artikeleenheden**.
 5. Selecteer de code die u als standaardeenheid voor respectievelijk verkopen of inkopen wilt instellen en kies de knop **OK**.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ---
-# <a name="monitor-job-progress-and-performance"></a><a name="monitor-job-progress-and-performance"></a>Voortgang en prestaties van projecten bewaken
+# <a name="monitor-job-progress-and-performance"></a><a name="monitor-job-progress-and-performance"></a><a name="monitor-job-progress-and-performance"></a>Voortgang en prestaties van projecten bewaken
 
 Met de functie Onderhanden werk (OHW) kunt u de financiële waarde van lopende projecten in het grootboek schatten.
 
@@ -27,7 +27,7 @@ U kunt het OHW-bedrag berekenen op basis van de volgende zaken:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## <a name="create-a-job-wip-method"></a><a name="create-a-job-wip-method"></a>Een OHW-methode voor een project maken
+## <a name="create-a-job-wip-method"></a><a name="create-a-job-wip-method"></a><a name="create-a-job-wip-method"></a>Een OHW-methode voor een project maken
 
 Maak een OHW-methode voor een project taken die voldoet aan de behoeften van uw organisatie en stel deze in als standaard.  
 
@@ -40,7 +40,7 @@ Maak een OHW-methode voor een project taken die voldoet aan de behoeften van uw 
 4. Om van deze nieuwe methode de standaard te maken, kiest u het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **projectinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 5. Kies in het veld **Standaard OHW-methode** de methode uit de lijst.
 
-## <a name="define-a-wip-method-for-a-job"></a><a name="define-a-wip-method-for-a-job"></a>Een OHW-methode voor een project definiëren
+## <a name="define-a-wip-method-for-a-job"></a><a name="define-a-wip-method-for-a-job"></a><a name="define-a-wip-method-for-a-job"></a>Een OHW-methode voor een project definiëren
 
 Wanneer u een nieuw project maakt, moet u opgeven welke OHW-methode voor het project van toepassing is. In sommige gevallen is de OHW-methode voor een project al als standaard ingesteld.
 
@@ -48,7 +48,7 @@ Wanneer u een nieuw project maakt, moet u opgeven welke OHW-methode voor het pro
 2. Kies de actie **Nieuw**. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).  
 3. Selecteer op de pagina **Projectkaart** in het veld **OHW-methode** een OHW-methode uit de lijst. Als een standaardmethode is gedefinieerd, kunt u indien nodig een andere optie selecteren.  
 
-### <a name="define-a-wip-method-for-a-job-task"></a><a name="define-a-wip-method-for-a-job-task"></a>Een OHW-methode voor een project definiëren
+### <a name="define-a-wip-method-for-a-job-task"></a><a name="define-a-wip-method-for-a-job-task"></a><a name="define-a-wip-method-for-a-job-task"></a>Een OHW-methode voor een project definiëren
 
 U kunt een OHW-methode definiëren voor een projecttaak, bepaalde projecttaken uitsluiten van de OHW-berekening of taken groeperen die samen moeten worden berekend. 
 
@@ -93,7 +93,7 @@ U zult merken:
 
 * *1300* t/m *1399*: OHW wordt afzonderlijk berekend voor deze reeks projecttaken.
 
-## <a name="calculate-wip"></a><a name="calculate-wip"></a>OHW berekenen
+## <a name="calculate-wip"></a><a name="calculate-wip"></a><a name="calculate-wip"></a>OHW berekenen
 
 U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor eindrapportage van een periode. U gebruikt hiervoor de batchverwerking **OHW voor project berekenen**.  
 
@@ -105,7 +105,7 @@ U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor
 > [!NOTE]  
 >   Met de batchverwerking wordt het OHW alleen berekend en niet naar het grootboek geboekt. Om het te boeken moet u de batchverwerking **OHW naar GB boeken** uitvoeren nadat u het OHW hebt berekend. Zie voor meer informatie de volgende procedure.
 
-## <a name="post-wip"></a><a name="post-wip"></a>OHW boeken
+## <a name="post-wip"></a><a name="post-wip"></a><a name="post-wip"></a>OHW boeken
 
 Wanneer u OHW hebt berekend, kunt u het boeken naar balansrekeningen voor de einddatumrapportage. Hiervoor gebruikt u de batchverwerking **Project-OHW naar GB boeken**.
 
@@ -113,7 +113,7 @@ Wanneer u OHW hebt berekend, kunt u het boeken naar balansrekeningen voor de ein
 2. Vul op de pagina **Project-OHW naar GB boeken** indien nodig de velden in.  
 3. Kies de knop **OK**.
 
-## <a name="calculate-and-post-job-completion-entries"></a><a name="calculate-and-post-job-completion-entries"></a>Projectvoltooiingsposten berekenen en boeken
+## <a name="calculate-and-post-job-completion-entries"></a><a name="calculate-and-post-job-completion-entries"></a><a name="calculate-and-post-job-completion-entries"></a>Projectvoltooiingsposten berekenen en boeken
 
 Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiksboekingen en -facturering, moet u het project bijwerken om de **Status** in te stellen op **Voltooid**. Vervolgens moet u eventueel OHW tegenboeken dat naar het grootboek is geboekt.
 
@@ -130,7 +130,7 @@ Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiks
 
      De OHW-grootboekposten voor het project die worden gemaakt door het uitvoeren van de batchverwerking hebben nu een vinkje in het selectievak **Project voltooid** om aan te geven dat het voltooide posten zijn.
 
-## <a name="view-job-ledger-entries"></a><a name="view-job-ledger-entries"></a>Projectposten bekijken
+## <a name="view-job-ledger-entries"></a><a name="view-job-ledger-entries"></a><a name="view-job-ledger-entries"></a>Projectposten bekijken
 
 Alle posten met betrekking tot een project worden in projectjournalen opgeslagen en sequentieel genummerd, te beginnen met 1. Vanuit het projectjournaal hebt u een overzicht van alle projectposten.    
 
@@ -139,9 +139,9 @@ Alle posten met betrekking tot een project worden in projectjournalen opgeslagen
 
 De pagina **Projectposten** wordt geopend, waarin u de posten die zijn gekoppeld aan een project, kunt bekijken.  
 
-## <a name="find-related-microsoft-training"></a><a name="find-related-microsoft-training"></a>Gerelateerde [Microsoft-training](/training/paths/calculate-post-job-wip/) zoeken
+## <a name="find-related-microsoft-training"></a><a name="find-related-microsoft-training"></a><a name="find-related-microsoft-training"></a>Gerelateerde [Microsoft-training](/training/paths/calculate-post-job-wip/) zoeken
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Procedure - Onderhanden werk voor een project berekenen](walkthrough-calculating-work-in-process-for-a-job.md)
 [Projecten beheren](projects-manage-projects.md)  

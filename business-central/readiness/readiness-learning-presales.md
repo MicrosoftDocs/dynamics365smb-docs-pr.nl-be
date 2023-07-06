@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-pre-sales-learning-catalog"></a><a name="partner-pre-sales-learning-catalog"></a>Pre-sales trainingscatalogus voor partners
+# <a name="partner-pre-sales-learning-catalog"></a><a name="partner-pre-sales-learning-catalog"></a><a name="partner-pre-sales-learning-catalog"></a>Pre-sales trainingscatalogus voor partners
 
 Bent u verantwoordelijk voor het demonstreren van belangrijke functies aan klanten? 
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet. 
 
-## <a name="get-started"></a><a name="get-started"></a>Aan de slag<a name="get-started"></a>
+## <a name="get-started"></a><a name="get-started"></a><a name="get-started"></a>Aan de slag<a name="get-started"></a>
 
 | Inhoud                                                                                                                              | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -23,21 +23,21 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Business Central YouTube-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube-bestemmingspagina voor Dynamics 365 Business Central-video's | YouTube-video's |                    |
 | [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | De mogelijkheden van Dynamics 365 Business Central verkennen                                                                                                                                                                                                                                               | Website                               |                    |
 
-## <a name="grow-your-business"></a><a name="grow-your-business"></a>Uw bedrijf laten groeien<a name="grow"></a>
+## <a name="grow-your-business"></a><a name="grow-your-business"></a><a name="grow-your-business"></a>Uw bedrijf laten groeien<a name="grow"></a>
 
 | Inhoud                                                                                                                                | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Boeiende gesprekken met prospects (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761) | Errol Schoenfish, directeur Productmarketing spreekt over de manier waarop u boeiende gesprekken kunt hebben met prospects over Microsoft Dynamics 365 Business Central. | Video | 11 minuten, 16 seconden |
 | [Dynamics 365 Business Central - Hoe maakt u het concreet?](https://mbspartner.microsoft.com/D365/Videos/101787) | Errol Schoenfish, directeur Productmarketing spreekt over de manier waarop u demo's kunt gebruiken voor Microsoft Dynamics 365 Business Central. | Video | 12 minuten, 29 seconden |
 
-## <a name="business-value"></a><a name="business-value"></a>Bedrijfswaarde<a name="busvalue"></a>
+## <a name="business-value"></a><a name="business-value"></a><a name="business-value"></a>Bedrijfswaarde<a name="busvalue"></a>
 
 | Inhoud                                                                                                                                | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/) | De mogelijkheden van Dynamics 365 Business Central verkennen | Website |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond. | Gratis online leertraject voor zelfstudie | 24 minuten          |
 
-## <a name="whats-new"></a><a name="whats-new"></a>Nieuw<a name="whatsnew"></a>
+## <a name="whats-new"></a><a name="whats-new"></a><a name="whats-new"></a>Nieuw<a name="whatsnew"></a>
 
 | Inhoud                                                                                                                                | Omschrijving                                 | Opmaak                                | Lengte                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

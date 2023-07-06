@@ -10,7 +10,7 @@ ms.search.form: '1102, 1105, 1106, 1107, 1109, 1114'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="defining-and-allocating-costs"></a><a name="defining-and-allocating-costs"></a>Kosten definiëren en toewijzen
+# <a name="defining-and-allocating-costs"></a><a name="defining-and-allocating-costs"></a><a name="defining-and-allocating-costs"></a>Kosten definiëren en toewijzen
 
 Tijdens kostenverdelingen worden kosten en opbrengsten verplaatst tussen kostensoorten , kostenplaatsen en kostenobjecten. U kunt zo veel verdelingen definiëren als u nodig hebt. Elke verdeling bestaat uit:  
 
@@ -28,11 +28,11 @@ Voor elk verdeeldoel moet u een verdelingbasis definiëren. De verdelingbasis ka
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-## <a name="setting-up-allocation-source-and-targets"></a><a name="setting-up-allocation-source-and-targets"></a>Een verdelingsbron en doelen instellen
+## <a name="setting-up-allocation-source-and-targets"></a><a name="setting-up-allocation-source-and-targets"></a><a name="setting-up-allocation-source-and-targets"></a>Een verdelingsbron en doelen instellen
 
 Elke toewijzing bestaat uit een verdelingsbron en een of meer verdeeldoelen. De verdelingsbron definieert welke kosten worden toegerekend. De verdeeldoelen bepalen waaraan de kosten worden toegerekend.  
 
-### <a name="to-set-up-cost-allocations"></a><a name="to-set-up-cost-allocations"></a>Kostenverdeling instellen
+### <a name="to-set-up-cost-allocations"></a><a name="to-set-up-cost-allocations"></a><a name="to-set-up-cost-allocations"></a>Kostenverdeling instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostenverdeling** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Kostenverdeling** de actie **Bewerken**.  
@@ -50,11 +50,11 @@ Elke toewijzing bestaat uit een verdelingsbron en een of meer verdeeldoelen. De 
 > [!NOTE]  
 > Selecteer het selectievakje **Geblokkeerd** om de toewijzingsinstelling te deactiveren.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a><a name="setting-filters-for-dynamic-allocation-bases"></a>Filters instellen voor dynamische toewijzingsgrondslagen
+## <a name="setting-filters-for-dynamic-allocation-bases"></a><a name="setting-filters-for-dynamic-allocation-bases"></a><a name="setting-filters-for-dynamic-allocation-bases"></a>Filters instellen voor dynamische toewijzingsgrondslagen
 
 De methode voor dynamische toewijzing is gebaseerd op wijzigbare waarden. Bijvoorbeeld het aantal werknemers in een kostenplaats, of de verkochte artikelen van een kostenobject in een bepaalde periode. Er zijn negen vooraf gedefinieerde toewijzingsgrondslagen en twaalf dynamische periodes. U stelt verschillende filters in op basis van de toewijzingsgrondslag.  
 
-### <a name="setting-filters"></a><a name="setting-filters"></a>Filters instellen
+### <a name="setting-filters"></a><a name="setting-filters"></a><a name="setting-filters"></a>Filters instellen
 
 De volgende tabel laat zien welke filters mogelijk zijn voor de verschillende toewijzingsgrondslagen en welke waarden geldig zijn in de velden **Nr.-filter** en **Groepfilter**. Selecteer <kbd>F1</kbd> in het veld **Datumfiltercode** om gedetailleerde omschrijvingen te lezen.  
 
@@ -70,7 +70,7 @@ De volgende tabel laat zien welke filters mogelijk zijn voor de verschillende to
 |Artikelen verkocht (bedrag)|Artikelnr.|Ja|Ja|Ja|Voorraadboekingsgroep|  
 |Artikelen ingekocht (bedrag)|Artikelnr.|Ja|Ja|Ja|Voorraadboekingsgroep|
 
-## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a><a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Scenario 1: statische toewijzingen op basis van de verdeelsleutel definiëren
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a><a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a><a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Scenario 1: statische toewijzingen op basis van de verdeelsleutel definiëren
 
 De methode voor statische toewijzingen baseert zich op een vaste waarde voor bijvoorbeeld gebruikte vierkante meters of een vastgestelde verdeelsleutel, zoals 5:2:4.  
 
@@ -79,7 +79,7 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 > [!NOTE]  
 > In het voorbeeld worden de demogegevens in de [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt.  
 
-### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a><a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>De verdelingsbron van kostenplaats PROD op het sneltabblad Algemeen definiëren
+### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a><a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a><a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>De verdelingsbron van kostenplaats PROD op het sneltabblad Algemeen definiëren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostenverdeling** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Kostenverdeling** de actie **Nieuw**.  
@@ -89,7 +89,7 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 6. Voer in het veld **Kostenplaatscode** **PROD** in.  
 7. Voer in het veld **Credit naar kostensoort** het kostensoort **9903** in.  
 
-### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a><a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Verdeeldoelen voor kostenobjecten op de sneltabblad Regels definiëren
+### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a><a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a><a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Verdeeldoelen voor kostenobjecten op de sneltabblad Regels definiëren
 
 1. Voer op de eerste regel in het veld **Doelkostensoort** **9903** in.  
 2. Selecteer op de eerste regel in het veld **Doelkostenobject** **ACCESSO**.  
@@ -110,14 +110,14 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] berekent automatisch het veld **Percentage** met een percentage dat wordt bepaald door alle drie de verdeelsleutels die zijn ingevoerd in het veld **Deel** voor alle drie de regels.
 
-## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a><a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenario 2: Dynamische toewijzingen op basis van de verkochte artikelen definiëren
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a><a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a><a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenario 2: Dynamische toewijzingen op basis van de verkochte artikelen definiëren
 
 Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behulp van de methode voor dynamische toewijzing. In het voorbeeld wijzigt u de dynamische toewijzing van de kosten voor kostenplaats VERKOOP ter ondersteuning van het nieuwe kostenobject IT-APPARATUUR. Pakketten voor IT-APPARATUUR hebben artikelnummers in het bereik van 8904-W t/m 8924-W. De verkoopcijfers van het vorige jaar kunt u gebruiken om het aandeel te berekenen. De toewijzing wordt geboekt op het ondersteunende kostensoort 9903.  
 
 > [!NOTE]  
 > In het voorbeeld worden de demogegevens in de [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt.  
 
-### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a><a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Dynamische toewijzingen definiëren op basis van artikelen die het vorige jaar zijn verkocht
+### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a><a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a><a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Dynamische toewijzingen definiëren op basis van artikelen die het vorige jaar zijn verkocht
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdelingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Kostenverdeling** de actie **Nieuw**.  
@@ -137,9 +137,9 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de verkoopcijfers van de voorgaande jaren voor het berekenen van een aandeel van 1596,50 LV met 100 procent voor de pakketten voor IT-APPARATUUR. Dit betekent dat alle artikelen die vorig jaar zijn verkocht, worden toegewezen aan kostenobject IT-APPARATUUR.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/allocate-costs-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
  [Kostenboekhouding instellen](finance-set-up-cost-accounting.md)  
  [Kostenposten overbrengen en boeken](finance-transfer-and-post-cost-entries.md)  

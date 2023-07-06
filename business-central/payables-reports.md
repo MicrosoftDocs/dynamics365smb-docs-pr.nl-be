@@ -8,15 +8,15 @@ ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a><a name="accounts-payable-reports-and-analytics-in-business-central"></a>Crediteurenrapporten en -analyses in Business Central
+# <a name="accounts-payable-reports-and-analytics-in-business-central"></a><a name="accounts-payable-reports-and-analytics-in-business-central"></a><a name="accounts-payable-reports-and-analytics-in-business-central"></a>Crediteurenrapporten en -analyses in Business Central
 
 Om u te helpen bij het beheren van uw betalingsverplichtingen in [!INCLUDE [prod_short](includes/prod_short.md)] zijn standaardrapporten en -analyses ingebouwd. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen.  
 
-## <a name="reports"></a><a name="reports"></a>Rapporten
+## <a name="reports"></a><a name="reports"></a><a name="reports"></a>Rapporten
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md)  
 [Werken met dimensies](finance-dimensions.md)  

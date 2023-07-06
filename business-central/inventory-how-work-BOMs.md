@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 09/26/2022
 ms.author: a-reishima
 ---
-# <a name="work-with-bills-of-material"></a><a name="work-with-bills-of-material"></a>Werken met stuklijsten
+# <a name="work-with-bills-of-material"></a><a name="work-with-bills-of-material"></a><a name="work-with-bills-of-material"></a>Werken met stuklijsten
 
 U gebruikt stuklijsten om bovenliggende artikelen te structureren die door resources of bewerkingsplaatsen moeten worden geassembleerd uit andere artikelen of geproduceerd van onderdelen.
 
-## <a name="assembly-boms-or-production-boms"></a><a name="assembly-boms-or-production-boms"></a>Assemblagestuklijsten of productiestuklijsten
+## <a name="assembly-boms-or-production-boms"></a><a name="assembly-boms-or-production-boms"></a><a name="assembly-boms-or-production-boms"></a>Assemblagestuklijsten of productiestuklijsten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt twee verschillende typen stuklijsten:
 
@@ -36,7 +36,7 @@ Het concept van bronnen in de productie is veel geavanceerder dan in de assembla
 
 Zowel assemblage- als productieorders kunnen rechtstreeks aan verkooporders worden gekoppeld. U kunt echter alleen assemblageorders gebruiken om het eindartikel rechtstreeks voor een klantverzoek aan de verkooporder te koppelen.
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)  
 [Productiestuklijsten maken](production-how-to-create-production-boms.md)  

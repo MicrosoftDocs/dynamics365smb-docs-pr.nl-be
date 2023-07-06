@@ -7,7 +7,7 @@ ms.search.form: '256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 200002
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="create-payment-journal-templates-and-batches-in-the-belgian-version"></a><a name="create-payment-journal-templates-and-batches-in-the-belgian-version"></a>Betalingsdagboeksjablonen en -batches maken in de Belgische versie
+# <a name="create-payment-journal-templates-and-batches-in-the-belgian-version"></a><a name="create-payment-journal-templates-and-batches-in-the-belgian-version"></a><a name="create-payment-journal-templates-and-batches-in-the-belgian-version"></a>Betalingsdagboeksjablonen en -batches maken in de Belgische versie
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] worden betalingsvoorstellen gegenereerd en geboekt in betalingsdagboeken. De structuur van het betalingsdagboek lijkt op die van andere dagboeksoorten. Het betalingsdagboek bevat echter enkele velden die specifiek betrekking hebben op het verwerken van betalingen. Voordat u betalingsvoorstellen kunt genereren, moet u een betalingsdagboeksjabloon en een betalingsdagboekbatch instellen.  
 
@@ -15,7 +15,7 @@ U kunt een specifieke pagina en een testrapport toewijzen aan elke dagboeksjablo
 
 Als u een bankrekening toewijst aan de betalingsdagboeksjabloon, wordt de bankrekening ingevoegd in alle betalingsdagboekbatches en betalingsdagboekregels die met deze sjabloon worden gemaakt. Door een bankrekening voor de dagboeksjabloon op te geven, kunt u de benodigde tijd voor het controleren van de betalingsvoorstellen beperken.  
 
-## <a name="to-create-a-payment-journal-template"></a><a name="to-create-a-payment-journal-template"></a>Een betalingsdagboeksjabloon maken
+## <a name="to-create-a-payment-journal-template"></a><a name="to-create-a-payment-journal-template"></a><a name="to-create-a-payment-journal-template"></a>Een betalingsdagboeksjabloon maken
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -31,7 +31,7 @@ Als u een bankrekening toewijst aan de betalingsdagboeksjabloon, wordt de bankre
 
 U kunt onder elke dagboeksjabloon meerdere dagboekbatches instellen. Er kunnen meerdere dagboeken, met verschillende namen, in hetzelfde venster worden weergegeven. Dit is bijvoorbeeld handig wanneer iedere gebruiker een specifiek dagboek moet hebben.
 
-## <a name="to-add-payment-journal-batches-to-the-journal-template"></a><a name="to-add-payment-journal-batches-to-the-journal-template"></a>Betalingsdagboekbatches toevoegen aan de dagboeksjabloon
+## <a name="to-add-payment-journal-batches-to-the-journal-template"></a><a name="to-add-payment-journal-batches-to-the-journal-template"></a><a name="to-add-payment-journal-batches-to-the-journal-template"></a>Betalingsdagboekbatches toevoegen aan de dagboeksjabloon
 
 1. Kies op de pagina **Betalingsdagboeksjablonen** de actie **Batches**.  
 2. Vul de velden op de pagina **Betalingsdagboekbatch** in.  
@@ -43,7 +43,7 @@ U kunt onder elke dagboeksjabloon meerdere dagboekbatches instellen. Er kunnen m
 
     Vervolgens kunt u de configuratie testen. Zie [Elektronische documenten testen](how-to-test-electronic-payments.md) voor meer informatie.  
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Belgische elektronische betalingen](belgian-electronic-payments.md)  
 [Elektronisch bankieren instellen](how-to-set-up-electronic-banking.md)  

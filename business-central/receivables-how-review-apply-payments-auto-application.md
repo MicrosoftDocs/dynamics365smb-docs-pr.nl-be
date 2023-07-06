@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="review-and-apply-payments-manually-after-automatic-application"></a><a name="review-and-apply-payments-manually-after-automatic-application"></a>Betalingen na automatische vereffening handmatig controleren en vereffenen
+# <a name="review-and-apply-payments-manually-after-automatic-application"></a><a name="review-and-apply-payments-manually-after-automatic-application"></a><a name="review-and-apply-payments-manually-after-automatic-application"></a>Betalingen na automatische vereffening handmatig controleren en vereffenen
 Voor elke dagboekregel die een betaling vertegenwoordigt op de pagina **Dagboek betalingsreconciliatie** kunt u de pagina **Betalingsvereffening** openen om alle openstaande kandidaatposten voor de betaling te zien en gedetailleerde informatie voor elke post weer te geven over de gegevensafstemming waarop een betalingsvereffening wordt gebaseerd. Hier kunt u handmatig betalingen vereffenen of betalingen die automatisch met een verkeerde post zijn vereffend, opnieuw vereffenen. Zie [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md) voor meer informatie over automatische vereffening.
 
 > [!IMPORTANT]  
@@ -30,7 +30,7 @@ Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet au
 > [!NOTE]  
 >   U kunt een betaling slechts met één rekening vereffenen. Als u de vereffening over meerdere openstaande posten wilt splitsen, bijvoorbeeld om een betaling ineens te vereffenen, moeten de openstaande posten voor dezelfde rekening zijn. Zie voor meer informatie stap 7 en 8 in de procedure in dit onderwerp.
 
-## <a name="to-review-or-apply-payments-after-automatic-application"></a><a name="to-review-or-apply-payments-after-automatic-application"></a>Betalingen na automatische vereffening controleren of vereffenen
+## <a name="to-review-or-apply-payments-after-automatic-application"></a><a name="to-review-or-apply-payments-after-automatic-application"></a><a name="to-review-or-apply-payments-after-automatic-application"></a>Betalingen na automatische vereffening controleren of vereffenen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open het betalingreconciliatiedagboek voor een bankrekening waarvoor u betalingen wilt reconciliëren. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 3. Op de pagina **Dagboek betalingsreconciliatie** selecteert u een betaling die u wilt controleren of handmatig vereffenen met een of meer openstaande posten. Vervolgens kiest u de actie **Handmatig vereffenen**.
@@ -43,7 +43,7 @@ Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet au
 
 De pagina **Betalingsvereffening** wordt gesloten en op de pagina **Dagboek betalingsreconciliatie** verandert de waarde in het veld **Zekerheid afstemming** in **Goedgekeurd** om aan te geven dat u de betaling hebt gecontroleerd of handmatig hebt vereffend.
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

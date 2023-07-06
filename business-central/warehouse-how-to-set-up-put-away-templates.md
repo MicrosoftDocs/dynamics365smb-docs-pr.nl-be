@@ -10,13 +10,13 @@ ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-put-away-templates"></a><a name="set-up-put-away-templates"></a>Opslagsjablonen instellen
+# <a name="set-up-put-away-templates"></a><a name="set-up-put-away-templates"></a><a name="set-up-put-away-templates"></a>Opslagsjablonen instellen
 
 Dankzij gestuurde opslag en pick kan op elk tijdstip de meest geschikte opslaglocatie worden gevonden. Dit gebeurt op basis van de opslagsjabloon dat u voor het magazijn hebt ingesteld, de opslaglocatievolgorde die u aan de verschillende opslaglocaties hebt toegewezen en de minimum- en maximumaantallen die u voor vaste opslaglocaties hebt ingesteld.  
 
 U kunt een aantal opslagsjablonen instellen en er vervolgens een van selecteren als hoofdsjabloon voor opslagactiviteiten in uw magazijn. U kunt ook een bepaalde opslagsjabloon koppelen aan een artikel of SKU waarvoor speciale opslagvereisten gelden.  
 
-## <a name="to-set-up-put-away-templates"></a><a name="to-set-up-put-away-templates"></a>U kunt als volgt opslagsjablonen instellen
+## <a name="to-set-up-put-away-templates"></a><a name="to-set-up-put-away-templates"></a><a name="to-set-up-put-away-templates"></a>U kunt als volgt opslagsjablonen instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Opslagsjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -31,9 +31,9 @@ U kunt een aantal opslagsjablonen instellen en er vervolgens een van selecteren 
 
 U kunt verschillende opslagsjablonen maken en deze naar wens toepassen. Er wordt allereerst rekening gehouden met de opslagsjabloon die u hebt geselecteerd voor het artikel of de SKU. Als deze velden niet zijn ingevuld, wordt de opslagsjabloon gebruikt die u voor het magazijn hebt geselecteerd op het sneltabblad **Opslaglocatiebeleid** van de vestigingskaart.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/put-away-templates/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/put-away-templates/)
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

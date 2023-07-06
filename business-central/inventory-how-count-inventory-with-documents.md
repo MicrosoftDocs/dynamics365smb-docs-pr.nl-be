@@ -11,7 +11,7 @@ ms.search.forms: '5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 58
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="count-and-adjust-inventory-using-documents"></a><a name="count-and-adjust-inventory-using-documents"></a>Voorraad tellen en aanpassen met documenten
+# <a name="count-and-adjust-inventory-using-documents"></a><a name="count-and-adjust-inventory-using-documents"></a><a name="count-and-adjust-inventory-using-documents"></a>Voorraad tellen en aanpassen met documenten
 
 U kunt een inventarisatie van uw artikelen maken met behulp van inventarisatieorder- en inventarisatieregistratiedocumenten. De pagina **Inventarisatieorder** wordt gebruikt om het hele inventarisatieproject te organiseren, bijvoorbeeld één per vestiging. De pagina **Inventarisatieregistratie** wordt gebruikt om de werkelijke telling van artikelen te communiceren en vast te leggen. U kunt meerdere registraties voor één order maken, bijvoorbeeld om groepen artikelen naar verschillende werknemers te distribueren.
 
@@ -29,7 +29,7 @@ Inventariseren met behulp van documenten bestaat uit de volgende algemene stappe
 3. De getelde artikelaantallen invoeren in de registraties, zoals bijvoorbeeld vastgelegd op afdrukken, en dit instellen op **Gereedgemeld**.
 4. De inventarisatieorder voltooien en boeken.
 
-## <a name="to-create-a-physical-inventory-order"></a><a name="to-create-a-physical-inventory-order"></a>Een inventarisatieorder maken
+## <a name="to-create-a-physical-inventory-order"></a><a name="to-create-a-physical-inventory-order"></a><a name="to-create-a-physical-inventory-order"></a>Een inventarisatieorder maken
 
 Een inventarisatieorder is een volledig document dat bestaat uit een inventarisatieorderkop en enkele inventarisatieorderregels. De informatie in een inventarisatiekop beschrijft hoe de inventarisatie wordt uitgevoerd. De inventarisatieorderregels bevatten de informatie over de artikelen en de vestigingen ervan.
 
@@ -51,7 +51,7 @@ Er wordt een regel in de order ingevoegd voor elk artikel dat bestaat in de gese
 
 U kunt nu doorgaan met een of meer registraties te maken. Dat zijn instructies voor de werknemers die de feitelijke inventarisatie uitvoeren.  
 
-## <a name="to-create-a-physical-inventory-recording"></a><a name="to-create-a-physical-inventory-recording"></a>Een inventarisatieregistratie maken
+## <a name="to-create-a-physical-inventory-recording"></a><a name="to-create-a-physical-inventory-recording"></a><a name="to-create-a-physical-inventory-recording"></a>Een inventarisatieregistratie maken
 
 Voor elke inventarisatieorder kunt u een of meer inventarisatieregistratiedocumenten maken waarin werknemers de getelde aantallen handmatig of via een geïntegreerd scanapparaat invoeren.
 
@@ -73,7 +73,7 @@ In het geval van handmatig tellen kunt u een lijst, het rapport **Inventarisatie
 8. Maak voor artikelen waarvoor artikeltracering wordt gebruikt, een extra regel voor elke lot- of serienummer door de actie **Functies** te kiezen en vervolgens de actie **Regel kopiëren**. Zie voor meer informatie de sectie [Artikeltracering verwerken tijdens inventarisatie](#handling-item-tracking-when-counting-inventory).  
 9. Kies de actie **Afdrukken** om het fysieke document voor te bereiden dat werknemers gaan gebruiken om de getelde aantallen te noteren.
 
-## <a name="to-finish-a-physical-inventory-recording"></a><a name="to-finish-a-physical-inventory-recording"></a>Een inventarisatieregistratie voltooien
+## <a name="to-finish-a-physical-inventory-recording"></a><a name="to-finish-a-physical-inventory-recording"></a><a name="to-finish-a-physical-inventory-recording"></a>Een inventarisatieregistratie voltooien
 
 Als de medewerkers de voorraadaantallen hebben geteld, moet u voorbereidingen treffen om deze in het systeem te registreren.
 
@@ -88,7 +88,7 @@ Als de medewerkers de voorraadaantallen hebben geteld, moet u voorbereidingen tr
     > Als geen overeenkomende inventarisatieorderregel bestaat, en als het selectievakje **Registratie zonder order toestaan** is ingeschakeld, wordt automatisch een nieuwe regel ingevoegd en wordt het selectievakje **Geregistreerd zonder order** op de gerelateerde inventarisatieorderregel geselecteerd. Anders wordt een foutbericht weergegeven en wordt het proces geannuleerd.<br /><br />
     > Als meer dan één inventarisatieregistratieregel overeenkomt met een inventarisatieorderregel, wordt een bericht weergegeven en wordt het proces geannuleerd. Als om welke reden dan ook twee identieke inventarisatieregels in de inventarisatieorder komen, kunt u een functie gebruiken om dit op te lossen. Zie voor meer informatie de sectie [Dubbele inventarisatieorderregels zoeken](#to-find-duplicate-physical-inventory-order-lines).
 
-## <a name="to-complete-a-physical-inventory-order"></a><a name="to-complete-a-physical-inventory-order"></a>Een inventarisatieorder voltooien
+## <a name="to-complete-a-physical-inventory-order"></a><a name="to-complete-a-physical-inventory-order"></a><a name="to-complete-a-physical-inventory-order"></a>Een inventarisatieorder voltooien
 
 Als u een inventarisatieregistratie hebt voltooid, wordt het veld **Geregistreerd aantal (basis)** in de gerelateerde inventarisatieorder bijgewerkt met de getelde (geregistreerde) waarden en wordt het selectievakje **Bij registratie** ingeschakeld. Als een getelde waarde verschilt van de verwachte waarde, wordt het verschil weergegeven in respectievelijk het veld **Positief aantal (basis)** en het veld **Negatief aantal (basis)**.
 
@@ -96,7 +96,7 @@ Als u verwachte aantallen en eventuele geregistreerde verschillen wilt zien voor
 
 U kunt ook de actie **Verschillen van inventarisatieorder** kiezen om eventuele verschillen tussen de verwachte hoeveelheid en de getelde hoeveelheid te bekijken.
 
-### <a name="to-find-duplicate-physical-inventory-order-lines"></a><a name="to-find-duplicate-physical-inventory-order-lines"></a>Dubbele inventarisatieorderregels zoeken
+### <a name="to-find-duplicate-physical-inventory-order-lines"></a><a name="to-find-duplicate-physical-inventory-order-lines"></a><a name="to-find-duplicate-physical-inventory-order-lines"></a>Dubbele inventarisatieorderregels zoeken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inventarisatieorders boeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open de inventarisatieorder waarvoor u dubbele regels wilt weergeven.
@@ -104,7 +104,7 @@ U kunt ook de actie **Verschillen van inventarisatieorder** kiezen om eventuele 
 
 Dubbele inventarisatieorderregels worden weergegeven, zodat u deze kunt verwijderen en slechts één regel kunt behouden met een unieke set waarden in de velden **Artikelnr.**, **Variant**, **Vestiging** en **Opslaglocatie**.
 
-### <a name="to-post-a-physical-inventory-order"></a><a name="to-post-a-physical-inventory-order"></a>Een inventarisatieorder boeken
+### <a name="to-post-a-physical-inventory-order"></a><a name="to-post-a-physical-inventory-order"></a><a name="to-post-a-physical-inventory-order"></a>Een inventarisatieorder boeken
 
 Na voltooiing van een inventarisatieorder en de wijziging van de status ervan in **Gereedgemeld**, kunt u deze boeken. U kunt de status van een inventarisatieorder alleen instellen op **Gereedgemeld** als aan het volgende is voldaan:
 
@@ -125,7 +125,7 @@ Na voltooiing van een inventarisatieorder en de wijziging van de status ervan in
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-### <a name="to-view-posted-physical-inventory-orders"></a><a name="to-view-posted-physical-inventory-orders"></a>Geboekte inventarisatieorders weergeven
+### <a name="to-view-posted-physical-inventory-orders"></a><a name="to-view-posted-physical-inventory-orders"></a><a name="to-view-posted-physical-inventory-orders"></a>Geboekte inventarisatieorders weergeven
 
 Na het boeken wordt de inventarisatieorder verwijderd en kunt u het document weergeven en evalueren als een geboekte inventarisatieorder, inclusief de inventarisatieregistraties ervan en eventuele gemaakte opmerkingen.
 
@@ -133,13 +133,13 @@ Na het boeken wordt de inventarisatieorder verwijderd en kunt u het document wee
 2. Selecteer op de pagina **Geboekte inventarisatieorders** de geboekte voorraadorder die u wilt weergeven en kies vervolgens de actie **Weergeven**.
 3. Als u een lijst met gerelateerde inventarisatieregistraties wilt weergeven, kiest u de actie **Registraties**.
 
-## <a name="handling-item-tracking-when-counting-inventory"></a><a name="handling-item-tracking-when-counting-inventory"></a>Artikeltracering verwerken tijdens inventarisatie
+## <a name="handling-item-tracking-when-counting-inventory"></a><a name="handling-item-tracking-when-counting-inventory"></a><a name="handling-item-tracking-when-counting-inventory"></a>Artikeltracering verwerken tijdens inventarisatie
 
 Artikeltracering heeft betrekking op de serie- en lotnummers die zijn toegewezen aan artikelen. Wanneer een artikel wordt geteld dat bijvoorbeeld in voorraad is opgeslagen als 10 verschillende lotnummers, moet de werknemer registreren welke en hoeveel eenheden van elk lotnummer zich in voorraad bevinden. Zie voor meer informatie over artikeltracering [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 
 Het selectievakje **Artikeltracering gebruiken** op inventarisatieorderregels wordt automatisch ingeschakeld als een artikeltraceringscode is ingesteld voor het artikel, maar u kunt het ook handmatig inschakelen of uitschakelen.
 
-### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a><a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Voorbeeld - een inventarisatieregistratie voorbereiden voor een artikel met artikeltracering
+### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a><a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a><a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Voorbeeld - een inventarisatieregistratie voorbereiden voor een artikel met artikeltracering
 
 Neem een inventarisatie voor artikel A, dat in voorraad is opgeslagen als tien verschillende serienummers.
 1. Schakel op de registratieregel voor het artikel het selectievakje **Artikeltracering gebruiken** in.
@@ -155,7 +155,7 @@ Neem een inventarisatie voor artikel A, dat in voorraad is opgeslagen als tien v
 
 U ziet dat het rapport **Inventarisatieregistratie** tien regels bevat voor artikel A, één voor elk serienummer.
 
-### <a name="example---record-and-post-counted-lot-number-differences"></a><a name="example---record-and-post-counted-lot-number-differences"></a>Voorbeeld - Getelde lotnummerverschillen registreren en boeken
+### <a name="example---record-and-post-counted-lot-number-differences"></a><a name="example---record-and-post-counted-lot-number-differences"></a><a name="example---record-and-post-counted-lot-number-differences"></a>Voorbeeld - Getelde lotnummerverschillen registreren en boeken
 
 Een artikel met lottracering wordt in voorraad opgeslagen met de nummerreeks 'LOT'.
 
@@ -190,7 +190,7 @@ Een artikel met lottracering wordt in voorraad opgeslagen met de nummerreeks 'LO
 
 Op de pagina **Inventarisatieorder** bevat het veld **Negatief aantal (basis)** *8*. Voor de desbetreffende orderregel bevat de pagina **Artikeltraceringslijst van inventarisatie** de positieve of negatieve aantallen voor de individuele lotnummers.
 
-## <a name="inventory-documents"></a><a name="inventory-documents"></a>Voorraaddocumenten
+## <a name="inventory-documents"></a><a name="inventory-documents"></a><a name="inventory-documents"></a>Voorraaddocumenten
 
 De volgende soorten documenten zijn handig voor het beheren van uw magazijn:
 
@@ -202,7 +202,7 @@ U kunt deze documenten in elk stadium afdrukken, vrijgeven en opnieuw openen, en
 > [!NOTE]
 > Voordat u deze documenten kunt gebruiken, moet u een nummerreeks specificeren om hun id's te creëren. Zie de volgende sectie voor meer informatie.
 
-### <a name="to-set-up-numbering-for-inventory-documents"></a><a name="to-set-up-numbering-for-inventory-documents"></a>Nummering voor inventarisdocumenten instellen
+### <a name="to-set-up-numbering-for-inventory-documents"></a><a name="to-set-up-numbering-for-inventory-documents"></a><a name="to-set-up-numbering-for-inventory-documents"></a>Nummering voor inventarisdocumenten instellen
 
 In de volgende procedure wordt beschreven hoe u nummering instelt voor voorraaddocumenten.
 
@@ -214,7 +214,7 @@ In de volgende procedure wordt beschreven hoe u nummering instelt voor voorraadd
    * **Voorraadverzendingsnrs.**  
    * **Geboekte voorraadverzendingsnrs.**  
 
-### <a name="to-create-and-post-an-inventory-document"></a><a name="to-create-and-post-an-inventory-document"></a>Een voorraaddocument maken en boeken
+### <a name="to-create-and-post-an-inventory-document"></a><a name="to-create-and-post-an-inventory-document"></a><a name="to-create-and-post-an-inventory-document"></a>Een voorraaddocument maken en boeken
 
 De volgende procedure laat zien hoe u een voorraadontvangst maakt, afdrukt en boekt. De stappen zijn vergelijkbaar voor voorraadverzendingen.
 
@@ -230,7 +230,7 @@ De volgende functies zijn beschikbaar op de pagina **Voorraadontvangst**:
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="printing-inventory-documents"></a><a name="printing-inventory-documents"></a>Voorraaddocumenten afdrukken
+## <a name="printing-inventory-documents"></a><a name="printing-inventory-documents"></a><a name="printing-inventory-documents"></a>Voorraaddocumenten afdrukken
 
 U kunt de rapporten specificeren die in verschillende stadia moeten worden afgedrukt door een van de volgende opties te kiezen in het veld **Gebruik** van de pagina **Rapportselectie - Voorraad**:
 
@@ -242,9 +242,9 @@ U kunt de rapporten specificeren die in verschillende stadia moeten worden afged
 > [!NOTE]
 > De beschikbare rapporten kunnen variëren, afhankelijk van de locatie van uw land/regio. De basistoepassing bevat geen lay-outs.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/adjust-inventory/)
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)  
 [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  

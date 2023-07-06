@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a><a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
+# <a name="pick-items-for-warehouse-shipment"></a><a name="pick-items-for-warehouse-shipment"></a><a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
@@ -39,7 +39,7 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 >  
 > Zie [Picken voor productie, assemblage of projecten in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) voor meer informatie over het picken van materialen voor assemblageorders, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a><a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Bulksgewijs pickdocumenten maken met het pickvoorstel
+## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a><a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a><a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Bulksgewijs pickdocumenten maken met het pickvoorstel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -89,7 +89,7 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 
 8. Klik op **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] maakt de keuze op basis van uw selecties.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a><a name="to-pick-items-for-a-warehouse-shipment"></a>Picken van artikelen voor een magazijnverzending
+## <a name="to-pick-items-for-a-warehouse-shipment"></a><a name="to-pick-items-for-a-warehouse-shipment"></a><a name="to-pick-items-for-a-warehouse-shipment"></a>Picken van artikelen voor een magazijnverzending
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -111,9 +111,9 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 
 U kunt nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het gerelateerde brondocument, op de pagina **Mag. -verzending**. Zie voor meer informatie [Artikelen verzenden](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/pick-ship-items-warehouse/)
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

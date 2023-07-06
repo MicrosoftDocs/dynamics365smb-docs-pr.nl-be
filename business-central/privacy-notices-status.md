@@ -11,15 +11,15 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-"></a><a name="privacy-notices-status-in-"></a>Status van privacyverklaringen in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-"></a><a name="privacy-notices-status-in-"></a><a name="privacy-notices-status-in-"></a>Status van privacyverklaringen in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 In dit artikel wordt besproken wat een privacyverklaring is en wordt het doel van de pagina **Status van privacyverklaringen** in [!INCLUDE[prod_short](includes/prod_short.md)] uitgelegd. U leert ook hoe beheerders deze pagina kunnen gebruiken.
 
-## <a name="privacy-notice"></a><a name="privacy-notice"></a>Privacyverklaring
+## <a name="privacy-notice"></a><a name="privacy-notice"></a><a name="privacy-notice"></a>Privacyverklaring
 
 Een privacyverklaring vermeldt het beleid inzake gegevensverzameling, gegevensverwerking en gegevensprivacy dat wordt gevolgd door de gegevenscontroller van de organisatie. Het is een document dat beschrijft welke gegevens worden verzameld en voor welke doeleinden, hoe de gegevens van de gebruiker worden verwerkt, hoe deze worden opgeslagen en met wie contact moet worden opgenomen als een gebruiker iets over zijn of haar gegevens wil vragen. 
 
-## <a name="privacy-notices-status-page"></a><a name="privacy-notices-status-page"></a>Pagina Status van privacyverklaringen
+## <a name="privacy-notices-status-page"></a><a name="privacy-notices-status-page"></a><a name="privacy-notices-status-page"></a>Pagina Status van privacyverklaringen
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], als gebruikers hun gegevens willen integreren met Microsoft Exchange, Microsoft OneDrive en Microsoft Teams, moeten ze de privacyverklaring voor elke entiteit accepteren. Of een beheerder kan namens hen de privacyverklaringen goedkeuren. Beheerders kunnen de status van privacyverklaringen zien op de pagina **Status van privacyverklaringen**. U vindt de pagina **Status van privacyverklaringen** in de [!INCLUDE[prod_short](includes/prod_short.md)] door de naam van de pagina in de zoekbalk te typen.  
 
@@ -35,7 +35,7 @@ Op die pagina vindt u een tabel met goedkeuringsopties voor elk van de hierboven
 > [!NOTE]
 > U kunt de status van privacyverklaringen alleen zien op de pagina **Status van privacyverklaringen**. Om de reacties te bewerken gaat u naar **Lijst bewerken** op de actiebalk van de pagina waar opties nu klikbaar zijn en niet grijs worden weergegeven.
 
-## <a name="privacy-notice-approvals"></a><a name="privacy-notice-approvals"></a>Goedkeuringen van privacyverklaringen
+## <a name="privacy-notice-approvals"></a><a name="privacy-notice-approvals"></a><a name="privacy-notice-approvals"></a>Goedkeuringen van privacyverklaringen
 
 Beheerders kunnen individuele goedkeuringen zien en beheren op de subpagina **Goedkeuringen van privacyverklaringen**. Ga naar de *actie*balk van de pagina **Actie van privacyverklaringen**, onder *Acties*, voor de optie *Afzonderlijke goedkeuringen weergeven*. Deze optie gaat naar de pagina **Goedkeuringen van privacyverklaringen**.<br>
 
@@ -49,7 +49,7 @@ Op die pagina vindt u een tabel met goedkeuringsopties.
 | **Niet akkoord** | De gebruiker keurt de privacyverklaring af. |
 | **Gebruikersnaam van fiatteur** | De persoon die de privacyverklaring goedkeurt. |
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Conformiteitsoverzicht  ](/dynamics365/business-central/compliance/compliance-overview)  
 [Reageren op aanvragen over persoonlijke gegevens  ](/dynamics365/business-central/admin-responding-to-requests-about-personal-data)  

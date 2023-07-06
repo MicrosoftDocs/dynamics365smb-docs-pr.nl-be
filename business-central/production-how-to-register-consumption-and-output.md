@@ -10,7 +10,7 @@ ms.search.form: 5510
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a><a name="register-consumption-and-output-for-one-released-production-order-line"></a>Verbruik en output registreren voor één vrijgegeven productieorderregel
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a><a name="register-consumption-and-output-for-one-released-production-order-line"></a><a name="register-consumption-and-output-for-one-released-production-order-line"></a>Verbruik en output registreren voor één vrijgegeven productieorderregel
 
 Deze taak wordt uitgevoerd op de pagina **Productiedagboek**. Hierin worden de functies van de dagboeken voor afzonderlijk gebruik en voor output in één dagboek gecombineerd. Het gecombineerde dagboek kan rechtstreeks vanuit een vrijgegeven productieorder worden geopend. De belangrijkste doelen van het dagboek zijn: het handmatig boeken van materiaalverbruik, het aantal geproduceerde eindartikelen en de tijd die bewerkingen kosten. De waarden worden geboekt naar posten onder de vrijgegeven productieorder. Verbruiksaantallen worden geboekt als negatieve artikelposten, outputaantallen worden geboekt als positieve artikelposten en bestede tijd wordt geboekt als capaciteitspost. Die geboekte waarden kunnen ook onder in het dagboek worden weergegeven als werkelijke aantallen.  
 
@@ -20,7 +20,7 @@ Deze taak wordt uitgevoerd op de pagina **Productiedagboek**. Hierin worden de f
 > [!NOTE]  
 > materialen zonder bewerkingsplankoppelingen worden in het dagboek als eerste weergegeven.  
 
-## <a name="to-register-consumption-and-output"></a><a name="to-register-consumption-and-output"></a>Verbruik en output registreren
+## <a name="to-register-consumption-and-output"></a><a name="to-register-consumption-and-output"></a><a name="to-register-consumption-and-output"></a>Verbruik en output registreren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vrijgegeven prod.-orders** in en kies vervolgens de gerelateerde koppeling.  
 2. Open een vrijgegeven productieorderregel die gereed is voor registratie en kies op het sneltabblad **Regels** de actie **Regel** en kies vervolgens de actie **Productiedagboek**.  
@@ -61,7 +61,7 @@ Deze taak wordt uitgevoerd op de pagina **Productiedagboek**. Hierin worden de f
 > [!WARNING]  
 > De pagina **Productiedagboek** kan niet worden gebruikt door twee gebruikers tegelijk. Dit betekent dat als Gebruiker 2 de pagina opent en de gegevens invoert wanneer Gebruiker 1 al werkt op de pagina, Gebruiker 2 gegevens kan verliezen wanneer Gebruiker 1 de pagina sluit.  
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Productie](production-manage-manufacturing.md)  
 [Productie instellen](production-configure-production-processes.md)  

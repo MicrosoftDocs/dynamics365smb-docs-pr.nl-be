@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# <a name="general-business-functionality"></a><a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
+# <a name="general-business-functionality"></a><a name="general-business-functionality"></a><a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. Zie voor meer informatie [Bedrijfsfunctionaliteit](across-business-functionality.md).
 
@@ -45,7 +45,7 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar arti
 | Stel definities in voor de uitwisseling van gegevens, zodat u elektronische documenten kunt verzenden en ontvangen. |[Gegevens elektronisch uitwisselen](across-data-exchange.md) |
 | Gebruik online kaarten om vestigingen en routebeschrijvingen naar klanten, leveranciers en adressen in het algemeen te vinden. | [Online kaarten gebruiken om locaties en routebeschrijvingen te vinden](across-online-maps.md) |
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Beheer](admin-setup-and-administration.md)  

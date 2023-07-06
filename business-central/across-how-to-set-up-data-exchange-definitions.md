@@ -9,7 +9,7 @@ ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
 ms.date: 11/03/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-data-exchange-definitions"></a><a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
+# <a name="set-up-data-exchange-definitions"></a><a name="set-up-data-exchange-definitions"></a><a name="set-up-data-exchange-definitions"></a>Definities voor gegevensuitwisseling instellen
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] instellen om gegevens in specifieke tabellen uit te wisselen met gegevens in externe bestanden. Bijvoorbeeld voor het verzenden en ontvangen van elektronische documenten, het importeren en exporteren van bankgegevens of andere gegevens, zoals loonlijst, en artikelcatalogi. Meer informatie vindt u in [Gegevens elektronisch uitwisselen](across-data-exchange.md).  
 
@@ -26,14 +26,14 @@ Dit artikel bevat de volgende procedures:
 * De definitie van een gegevensuitwisseling exporteren als een XML-bestand voor gebruik door anderen.
 * Een XML-bestand importeren voor een bestaande definitie van gegevensuitwisseling.
 
-## <a name="create-a-data-exchange-definition"></a><a name="create-a-data-exchange-definition"></a>Definitie van gegevensuitwisseling maken
+## <a name="create-a-data-exchange-definition"></a><a name="create-a-data-exchange-definition"></a><a name="create-a-data-exchange-definition"></a>Definitie van gegevensuitwisseling maken
 
 Een definitie voor gegevensuitwisseling maken bestaat uit twee taken:  
 
 1. Op de pagina **Definitie van gegevensuitwisseling** beschrijft u de opmaak van regels en kolommen in het bestand. Meer informatie vindt u in het gedeelte [De opmaak van regels en kolommen in het bestand beschrijven](#formatlinescolumns).  
 2. Op de pagina **Toewijzing gegevensuitwisseling** wijst u kolommen in het gegevensbestand toe aan velden in [!INCLUDE[prod_short](includes/prod_short.md)]. Meer informatie vindt u in het gedeelte [Kolommen in het gegevensbestand toewijzen aan velden in [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>De opmaak van regels en kolommen in het bestand beschrijven
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>De opmaak van regels en kolommen in het bestand beschrijven
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent 1.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gegevensuitwisselingsdefinities** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -108,7 +108,7 @@ De volgende stap bij het maken van de definitie van een gegevensuitwisseling bes
 > [!NOTE]  
 > De specifieke koppeling is afhankelijk van het bedrijfsdoel van het gegevensbestand dat wordt uitgewisseld, en van lokale variaties. Zelfs de SEPA-bankstandaard heeft lokale variaties. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt standaard de import van SEPA CAMT-bankafschriftbestanden.\-\-\- Dit wordt aangeduid door de code in de definitierecord voor gegevensuitwisseling **SEPA CAMT** op de pagina **Definities van gegevensuitwisseling**. Zie [Veldtoewijzing bij het importeren van SEPA CAMT-bestanden](across-field-mapping-when-importing-sepa-camt-files.md) voor informatie over de specifieke veldtoewijzing van deze CAMT SEPA-ondersteuning.  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Kolommen in de gegevensbestanden toewijzen aan velden in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Soms verschillen de waarden in de velden die u wilt toewijzen. In de ene zakelijke app is de taalcode voor de Verenigde Staten bijvoorbeeld 'V.S.', maar in de andere 'VS'. Dat betekent dat u de waarde moet transformeren wanneer u gegevens uitwisselt. Dit gebeurt door middel van transformatieregels die u voor de velden definieert. Meer informatie vindt u in [Transformatieregels](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -163,7 +163,7 @@ Vanaf releasewave 2 van 2022 kunt u ook groeperen op elk veld, de sleutelindex g
      |**Veld-id**|Geef het nummer op van het veld in het externe bestand dat wordt gebruikt om te groeperen, dit veld moet worden ingesteld door de gebruiker.|
      |**Veldbijschrift**|Geef het bijschrift op van het veld in het externe bestand dat wordt gebruikt voor groepering.|
 
-## <a name="transformation-rules"></a><a name="transformation-rules"></a>Transformatieregels
+## <a name="transformation-rules"></a><a name="transformation-rules"></a><a name="transformation-rules"></a>Transformatieregels
 
 Als de waarden in de velden die u toewijst, verschillen, moet u transformatieregels gebruiken voor definities van gegevensuitwisseling om ze hetzelfde te maken. U definieert transformatieregels voor gegevensuitwisselingsdefinities door een bestaande definitie te openen of een nieuwe definitie te maken en vervolgens op het sneltabblad **Regeldefinities** de optie **Beheren** en **Veldtoewijzing** te kiezen. Er zijn vooraf gedefinieerde regels beschikbaar, maar u kunt ook uw eigen regels maken. De volgende tabel beschrijft de soorten transformaties die u kunt uitvoeren.
 
@@ -188,7 +188,7 @@ Als de waarden in de velden die u toewijst, verschillen, moet u transformatiereg
 > [!NOTE]  
 > Meer informatie over datum- en tijdnotatie vindt u in [Standaardnotaties voor datum en tijd](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a><a name="tip-for-developers-example-of-the-custom-option"></a>Tip voor ontwikkelaars: voorbeeld van de aangepaste optie
+### <a name="tip-for-developers-example-of-the-custom-option"></a><a name="tip-for-developers-example-of-the-custom-option"></a><a name="tip-for-developers-example-of-the-custom-option"></a>Tip voor ontwikkelaars: voorbeeld van de aangepaste optie
 
 Het volgende voorbeeld laat zien hoe u uw eigen transformatiecode implementeert.
 
@@ -206,7 +206,7 @@ codeunit 60100 "Hello World"
 
 Nadat u uw regels hebt gedefinieerd, kunt u ze testen. Op het sneltabblad **Test** voert u een voorbeeld in van een waarde die u wilt transformeren en vervolgens controleert u de resultaten door **Bijwerken** te kiezen.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a><a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>De definitie van een gegevensuitwisseling exporteren als een XML-bestand voor gebruik door anderen
+## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a><a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a><a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>De definitie van een gegevensuitwisseling exporteren als een XML-bestand voor gebruik door anderen
 
 Wanneer u de definitie van gegevensuitwisseling hebt gemaakt voor een specifiek gegevensbestand, kunt u de definitie van gegevensuitwisseling exporteren als XML-bestand dat u kunt importeren. Deze taak wordt in de volgende procedure beschreven.  
 
@@ -217,14 +217,14 @@ Wanneer u de definitie van gegevensuitwisseling hebt gemaakt voor een specifiek 
 
     Als er al een definitie voor gegevensuitwisseling is gemaakt, hoeft u slechts het XML-bestand in het kader voor gegevensuitwisseling te importeren. Deze taak wordt in de volgende procedure beschreven.  
 
-## <a name="import-an-existing-data-exchange-definition"></a><a name="import-an-existing-data-exchange-definition"></a>Een bestaande definitie van gegevensuitwisseling importeren
+## <a name="import-an-existing-data-exchange-definition"></a><a name="import-an-existing-data-exchange-definition"></a><a name="import-an-existing-data-exchange-definition"></a>Een bestaande definitie van gegevensuitwisseling importeren
 
 1. Sla het XML-bestand dat de definitie van de gegevensuitwisseling vertegenwoordigt, op een geschikte locatie op.  
 2. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gegevensuitwisselingsdefinities** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies de actie **Definitie van gegevensuitwisseling importeren**.  
 4. Kies het bestand dat u in stap 1 hebt opgeslagen.  
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

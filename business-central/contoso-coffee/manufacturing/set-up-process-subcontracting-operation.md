@@ -8,17 +8,17 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a><a name="set-up-and-process-a-subcontracting-operation"></a>Een uitbestedingsbewerking instellen en verwerken
+# <a name="set-up-and-process-a-subcontracting-operation"></a><a name="set-up-and-process-a-subcontracting-operation"></a><a name="set-up-and-process-a-subcontracting-operation"></a>Een uitbestedingsbewerking instellen en verwerken
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken bij het uitbesteden.
 
-## <a name="scenario"></a><a name="scenario"></a>Scenario
+## <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Scenario
 
 U bent de productieplanner bij Contoso Coffee. Wegens capaciteitsbeperkingen bent u van plan een onderaannemer in te schakelen om het artikel **SP-SCM1009, Airpot** te produceren.
 
 Hier maakt u een nieuwe vrijgegeven productieorder voor 12 eenheden van artikel SP-SCM1009, Airpot, met behulp van Routing - SP-SCM1009-SUB-2. Gebruik het uitbestedingsvoorstel om een inkooporder voor de productie te genereren en voltooi de bewerking door de inkooporder te ontvangen en te factureren.
 
-## <a name="steps"></a><a name="steps"></a>Stappen
+## <a name="steps"></a><a name="steps"></a><a name="steps"></a>Stappen
 
 1. Maak een nieuwe vrijgegeven productieorder voor 12 eenheden van het artikel SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Hier maakt u een nieuwe vrijgegeven productieorder voor 12 eenheden van artikel 
 
 De uitvoer van artikel SP-SCM1009 Airpot is nu geregistreerd.
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](../contoso-coffee-intro.md)  

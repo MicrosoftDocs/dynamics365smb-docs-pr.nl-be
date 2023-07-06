@@ -11,11 +11,11 @@ ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
 ---
-# <a name="close-accounting-periods"></a><a name="close-accounting-periods"></a>Boekhoudperioden afsluiten
+# <a name="close-accounting-periods"></a><a name="close-accounting-periods"></a><a name="close-accounting-periods"></a>Boekhoudperioden afsluiten
 
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten.
 
-## <a name="to-close-accounting-periods"></a><a name="to-close-accounting-periods"></a>Boekhoudperioden afsluiten
+## <a name="to-close-accounting-periods"></a><a name="to-close-accounting-periods"></a><a name="to-close-accounting-periods"></a>Boekhoudperioden afsluiten
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Boekhoudperioden afsluiten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Boekingsperioden** de actie **Jaar afsluiten**.
@@ -32,7 +32,7 @@ Zelfs als een boekjaar is afgesloten, kunt u er nog steeds grootboekposten voor 
 
 Nadat een boekjaar is afgesloten, moet u de resultaten- of winst- en verliesrekeningen afsluiten en de jaarresultaten naar een balansrekening overbrengen. U kunt deze procedure herhalen telkens wanneer u boekt naar een afgesloten boekjaar.
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Boeken afsluiten](year-close-books.md)  
 [De jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md)  

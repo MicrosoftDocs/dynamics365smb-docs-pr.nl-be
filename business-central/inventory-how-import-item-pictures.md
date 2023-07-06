@@ -11,12 +11,12 @@ ms.search.form: '30, 461'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="import-multiple-item-pictures"></a><a name="import-multiple-item-pictures"></a>Meerdere artikelafbeeldingen importeren
+# <a name="import-multiple-item-pictures"></a><a name="import-multiple-item-pictures"></a><a name="import-multiple-item-pictures"></a>Meerdere artikelafbeeldingen importeren
 U kunt meerdere artikelafbeeldingen in één keer importeren. Geef uw afbeeldingsbestanden namen die corresponderen met uw artikelnummers, comprimeer ze in een zip-bestand en gebruik vervolgens de pagina Artikelafbeeldingen importeren om te bepalen welke artikelafbeeldingen worden geïmporteerd.
 
 Alle algemene bestandsindelingen worden ondersteund.
 
-## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a><a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>Afbeeldingsbestanden noemen naar de artikelnamen en het ZIP-bestand voorbereiden
+## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a><a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a><a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>Afbeeldingsbestanden noemen naar de artikelnamen en het ZIP-bestand voorbereiden
 1. Benoem elk bestand op de locatie waar uw artikelafbeeldingen zijn opgeslagen volgens het nummer van het gerelateerde artikel. Voorbeeld:
 
     |Artikelnr.|Bestandsnaam|
@@ -27,7 +27,7 @@ Alle algemene bestandsindelingen worden ondersteund.
 
 2. Verzamel alle bestanden in een ZIP-bestand. Selecteer bijvoorbeeld in Windows Verkenner de bestanden, en kies **Verzenden naar**, **Gecomprimeerde (gezipte) map**.     
 
-## <a name="to-import-item-pictures"></a><a name="to-import-item-pictures"></a>Artikelafbeeldingen importeren
+## <a name="to-import-item-pictures"></a><a name="to-import-item-pictures"></a><a name="to-import-item-pictures"></a>Artikelafbeeldingen importeren
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Artikelafbeeldingen importeren**.
 3. Selecteer in het veld **Een ZIP-bestand selecteren** de relevante ZIP-map en kies de knop **Openen**.
@@ -41,7 +41,7 @@ Alle algemene bestandsindelingen worden ondersteund.
 
 Het veld **Status importeren** wordt bijgewerkt om aan te geven of de afbeeldingsimport is voltooid of overgeslagen.       
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Nummerreeksen maken](ui-create-number-series.md)  
 [Voorraad](inventory-manage-inventory.md)  

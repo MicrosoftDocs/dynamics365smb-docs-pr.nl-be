@@ -11,14 +11,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="allocate-resources"></a><a name="allocate-resources"></a>Resources toewijzen
+# <a name="allocate-resources"></a><a name="allocate-resources"></a><a name="allocate-resources"></a>Resources toewijzen
 Het belangrijkste element van servicebeheer bestaat uit de personen die de service uitvoeren. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] zo instellen dat de juiste personen aan de betreffende projecten worden toegewezen. Toewijzingen kunnen worden gebaseerd op serviceregio's waarin de personen zich bevinden of waarin de service plaatsvindt. U kunt resources ook groeperen in reactie op serviceaanvragen. Zie [Resourcetoewijzing instellen](service-how-setup-resource-allocation.md) voor meer informatie.
 
 U kunt resources, bijvoorbeeld technici, toewijzen via het **planbord** of vanuit een serviceorder. U kunt de beschikbaarheid van resources gebruiken om resources toe te wijzen die de servicetaken in de orders of offertes moeten uitvoeren.
 
 U kunt dezelfde resource, bijvoorbeeld een technicus, of resourcegroep toewijzen aan alle serviceartikelen in een serviceorder. Er worden toewijzingsposten gemaakt voor de andere serviceartikelen in de order met hetzelfde resourcenummer en dezelfde toewijzingsdatum als de regel die u hebt toegewezen. De toegewezen uren zijn de uren die u hebt toegewezen, gedeeld door het aantal serviceartikelen op de order. Het veld **Status** wordt automatisch ingesteld op **Actieve** voor alle posten die zijn gemaakt.
 
-## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a><a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Een overzicht weergeven van de serviceorders en serviceoffertes
+## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a><a name="to-see-an-overview-of-service-orders-and-service-quotes"></a><a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Een overzicht weergeven van de serviceorders en serviceoffertes
 U hebt misschien vaak het overzicht nodig van serviceorders of serviceoffertes die voldoen aan bepaalde voorwaarden, zodat u specifieke acties er één voor één op kunt uitvoeren. U moet bijvoorbeeld resources toewijzen aan serviceorders van een bepaalde klant.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planbord** in en kies vervolgens de gerelateerde koppeling.  
@@ -31,7 +31,7 @@ U hebt misschien vaak het overzicht nodig van serviceorders of serviceoffertes d
 
     De pagina **Serviceorder** of **Serviceofferte** wordt geopend en u kunt werken met het document. Klik op **OK** om terug te keren naar de pagina **Planbord**.
 
-## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a><a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Resources toewijzen op basis van resource- of resourcegroepbeschikbaarheid
+## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a><a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a><a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Resources toewijzen op basis van resource- of resourcegroepbeschikbaarheid
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planbord** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de serviceorder en kies vervolgens de actie **Resourcetoewijzingen**.  
 3. Kies de post met de servicetaak waaraan u een resource wilt toewijzen.  
@@ -49,7 +49,7 @@ U hebt misschien vaak het overzicht nodig van serviceorders of serviceoffertes d
 > [!NOTE]  
 >  Voor ieder serviceartikel op een serviceorder kunnen er slechts toewijzingsposten **Actief** zijn voor één resource of resourcegroep tegelijkertijd.  
 
-## <a name="to-allocate-a-resource-using-a-service-order"></a><a name="to-allocate-a-resource-using-a-service-order"></a>Resources toewijzen met een serviceorder
+## <a name="to-allocate-a-resource-using-a-service-order"></a><a name="to-allocate-a-resource-using-a-service-order"></a><a name="to-allocate-a-resource-using-a-service-order"></a>Resources toewijzen met een serviceorder
 Als u een serviceorder of contractofferte hebt gemaakt en ingevuld, kunt u resources, bijvoorbeeld technici, toewijzen voor het uitvoeren van servicetaken die zijn geregistreerd als serviceartikelregels in het document.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling  
@@ -65,7 +65,7 @@ Als u een serviceorder of contractofferte hebt gemaakt en ingevuld, kunt u resou
 > [!NOTE]  
 >  Voor elk serviceartikel in een serviceorder kunnen er slechts actieve toewijzingsposten met één resource of resourcegroep tegelijkertijd zijn.
 
-## <a name="to-reallocate-resources-on-a-service-order"></a><a name="to-reallocate-resources-on-a-service-order"></a>Resources opnieuw toewijzen in een serviceorder
+## <a name="to-reallocate-resources-on-a-service-order"></a><a name="to-reallocate-resources-on-a-service-order"></a><a name="to-reallocate-resources-on-a-service-order"></a>Resources opnieuw toewijzen in een serviceorder
 U kunt resources rechtstreeks opnieuw toewijzen vanuit een serviceorder of serviceofferte wanneer u daarmee werkt. De oude post blijft bestaan, maar de status wordt als volgt bijgewerkt:  
 
 * Als de service is begonnen terwijl de toewijzing de waarde **Actief** had, dat wil zeggen, als de herstelstatus van het serviceartikel in de post is gewijzigd in **In verwerking**, verandert de toewijzingsstatus van **Hertoewijzing vereist** in **Gereedgemeld**.  
@@ -79,7 +79,7 @@ U kunt resources rechtstreeks opnieuw toewijzen vanuit een serviceorder of servi
 5. Selecteer <kbd>Enter</kbd>. Er wordt een dialoogvenster geopend waarin u wordt gevraagd of u deze post opnieuw wilt toewijzen. Vul eventueel het veld **Redencode** in en klik op de knop **Ja** om de hertoewijzing te bevestigen.  
 6. Vul de velden **Toewijzingsdatum** en **Toegewezen uren** in. De nieuwe resource is nu opgenomen in de post en de status is **Actief**.
 
-## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a><a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Resources opnieuw toewijzen met het planbord
+## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a><a name="to-reallocate-a-resource-using-the-dispatch-board"></a><a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Resources opnieuw toewijzen met het planbord
 Als de resource die is toegewezen aan een servicetaak het werk niet kan uitvoeren, moet deze servicetaak opnieuw worden toegewezen. Meestal wijst u resources opnieuw toe aan een servicetaak met behulp van het **planbord**.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planbord** in en kies vervolgens de gerelateerde koppeling.  
@@ -97,7 +97,7 @@ Als de resource die is toegewezen aan een servicetaak het werk niet kan uitvoere
     > * Als de service niet is gestart terwijl de toewijzing de waarde **Actief** heeft, verandert de toewijzingsstatus van **Hertoewijzing vereist** in **Geannuleerd**.  
     > * Bij het opnieuw toewijzen van een serviceorder die is ontstaan vanuit een offerte wordt de status van de geregistreerde toewijzingsposten voor de offerte altijd gewijzigd in **Gereedgemeld** tijdens het opnieuw toewijzen van de serviceartikelen in de serviceorder.  
 
-## <a name="to-register-resource-hours"></a><a name="to-register-resource-hours"></a>Resource-uren registreren
+## <a name="to-register-resource-hours"></a><a name="to-register-resource-hours"></a><a name="to-register-resource-hours"></a>Resource-uren registreren
 Wanneer u werkt aan serviceartikelen in serviceorders, moet u de gebruikte resource-uren voor de service registreren. Met de volgende procedure wordt aangegeven hoe u de resource-uren op de pagina **Serviceartikelwerkbon** kunt registreren.  
 
 U kunt dezelfde procedure gebruiken om uren te registreren op de pagina **Serviceregels** die u opent vanaf de pagina Serviceorder. Open de desbetreffende servicekaart en kies de actie **Serviceregels**.  
@@ -108,7 +108,7 @@ Als dezelfde resource werkt aan alle serviceartikelen in de serviceorder, hoeft 
 2. Selecteer de regel met het betreffende serviceartikel en kies de actie **Artikelwerkbon**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a><a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Een resource toewijzen aan alle serviceartikelen in een order
+## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a><a name="to-assign-a-resource-to-all-service-items-in-an-order"></a><a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Een resource toewijzen aan alle serviceartikelen in een order
 Als dezelfde resource, bijvoorbeeld een technicus, werkt aan alle serviceartikelen in de serviceorder, hoeft u de totale resource-uren slechts voor één serviceartikel te registreren. Vervolgens kunt u de resourceregel opsplitsen om de resource-uren aan andere serviceartikelen toe te wijzen.  
 
 Met de volgende procedure wordt aangegeven hoe u resourceregels op de pagina **Servicefactuurregels** kunt opsplitsen.  
@@ -121,7 +121,7 @@ Met de volgende procedure wordt aangegeven hoe u resourceregels op de pagina **S
 
     Er worden resourceregels gemaakt voor de andere serviceartikelen in de order met hetzelfde resourcenummer als de opgesplitste regel. Het aantal voor de opgesplitste regel, gedeeld door het aantal serviceartikelen in de order, levert het uiteindelijke aantal.  
 
-## <a name="to-cancel-an-allocation"></a><a name="to-cancel-an-allocation"></a>Toewijzingen annuleren
+## <a name="to-cancel-an-allocation"></a><a name="to-cancel-an-allocation"></a><a name="to-cancel-an-allocation"></a>Toewijzingen annuleren
 U kunt resourcetoewijzingen voor servicetaken annuleren zonder de taken opnieuw toe te wijzen.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planbord** in en kies vervolgens de gerelateerde koppeling.  
@@ -134,7 +134,7 @@ U kunt resourcetoewijzingen voor servicetaken annuleren zonder de taken opnieuw 
     > [!NOTE]  
     > De optie **Hertoewijzing vereist** wordt automatisch geselecteerd in het veld **Status**. Als de herstelstatus van het serviceartikel in de post de waarde **Eerste** heeft, wordt de herstelstatus gewijzigd in **Toegewezen**, dat wil zeggen, er is nog geen service begonnen. Heeft de herstelstatus de waarde **In verwerking**, dan wordt de herstelstatus gewijzigd in **Deels service verleend**, dat wil zeggen, een deel van de service is voltooid.
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 [Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)  
 [Toewijzingsstatus en herstelstatus](service-allocation-status-and-repair-status.md)  
 

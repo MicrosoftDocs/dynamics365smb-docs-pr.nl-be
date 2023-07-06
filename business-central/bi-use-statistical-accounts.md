@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, financial report'
 ms.search.form: '2632, 2631, 2633, 2623, 2634'
 ---
-# <a name="analyze-data-with-statistical-accounts"></a><a name="analyze-data-with-statistical-accounts"></a>Gegevens analyseren met statistiekrekeningen
+# <a name="analyze-data-with-statistical-accounts"></a><a name="analyze-data-with-statistical-accounts"></a><a name="analyze-data-with-statistical-accounts"></a>Gegevens analyseren met statistiekrekeningen
 
 Gebruik statistiekrekeningen om informatie in financiële rapporten aan te vullen. Met statistiekrekeningen kunt u statistieken toevoegen die zijn gebaseerd op niet-transactionele gegevens. U voegt de niet-transactionele gegevens toe als op getallen gebaseerde eenheden, zoals:
 
@@ -26,12 +26,12 @@ In termen van hoe ze werken, zijn statistiekrekeningen vergelijkbaar met boeking
 
 Er is een aantal belangrijke verschillen tussen statistiekrekeningen en boekingsrekeningen. Statistiekrekeningen zijn afzonderlijke entiteiten en worden niet opgenomen in proefbalansrapporten. Ook hoeft u debet- en creditbedragen niet in evenwicht te brengen wanneer u statistiekrekeningjournalen gebruikt om posten naar een statistiekrekening te boeken. U boekt gewoon het bedrag.
 
-## <a name="set-up-a-statistical-account"></a><a name="set-up-a-statistical-account"></a>Een nieuwe statistiekrekening instellen
+## <a name="set-up-a-statistical-account"></a><a name="set-up-a-statistical-account"></a><a name="set-up-a-statistical-account"></a>Een nieuwe statistiekrekening instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Statistiekrekeningen** in en kies vervolgens de gerelateerde koppeling.
 1. Vul de velden op het sneltabblad **Algemeen** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="post-amounts-to-a-statistical-account"></a><a name="post-amounts-to-a-statistical-account"></a>Bedragen op een statistiekrekening
+## <a name="post-amounts-to-a-statistical-account"></a><a name="post-amounts-to-a-statistical-account"></a><a name="post-amounts-to-a-statistical-account"></a>Bedragen op een statistiekrekening
 
 1. Om de bedragen die u wilt volgen te boeken kiest u op de pagina **Statistiekrekeningen** de actie **Dagboek van statistiekrekeningen**.
 1. Voer in het veld **Boekingsdatum** de laatste datum in van de boekingsperiode waarvoor u bedragen wilt boeken.
@@ -41,11 +41,11 @@ Er is een aantal belangrijke verschillen tussen statistiekrekeningen en boekings
 1. Voer in het veld **Bedrag** het bedrag in dat u wilt boeken. 
 1. Optioneel: als u de statistiekrekening wilt opnemen in meer geavanceerde analyses, geeft u dimensies op in de velden **Afdelingscode** en **Code klantengroep**. Ga voor meer informatie over dimensies naar [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md).
 
-## <a name="verify-statistical-account-amounts"></a><a name="verify-statistical-account-amounts"></a>Bedragen op een statistiekrekening controleren
+## <a name="verify-statistical-account-amounts"></a><a name="verify-statistical-account-amounts"></a><a name="verify-statistical-account-amounts"></a>Bedragen op een statistiekrekening controleren
 
 Gebruik op de pagina **Statistiekrekeningen** de actie **Saldo van statistiekrekening** om te controleren of de geregistreerde bedragen voor elke periode correct zijn.  
 
-## <a name="include-the-statistical-account-in-a-financial-report"></a><a name="include-the-statistical-account-in-a-financial-report"></a>De statistiekrekening opnemen in een financieel rapport
+## <a name="include-the-statistical-account-in-a-financial-report"></a><a name="include-the-statistical-account-in-a-financial-report"></a><a name="include-the-statistical-account-in-a-financial-report"></a>De statistiekrekening opnemen in een financieel rapport
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële rapporten** in en kies vervolgens de gerelateerde koppeling.
 1. Maak een nieuw financieel rapport op een van de volgende manieren:
@@ -61,7 +61,7 @@ Gebruik op de pagina **Statistiekrekeningen** de actie **Saldo van statistiekrek
 1. Kies in het veld **Rijtype** of u het saldo op de boekingsdatum of het begin van de boekingsperiode wilt bekijken, of dat u de wijziging van het bedrag tijdens de periode wilt weergeven.
 1. Vul de overige velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Financiële bedrijfsinformatie](bi.md)  
 [Financiële rapporten en analyses in Business Central](finance-reports.md)

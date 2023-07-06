@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 09/15/2022
 ms.author: edupont
 ---
-# <a name="planning-with-or-without-locations"></a><a name="planning-with-or-without-locations"></a>Planning met of zonder vestigingen
+# <a name="planning-with-or-without-locations"></a><a name="planning-with-or-without-locations"></a><a name="planning-with-or-without-locations"></a>Planning met of zonder vestigingen
 
 Voordat u de planningsengine gaat gebruiken, raden we u aan om te beslissen of u vestigingen wilt gebruiken. Er zijn twee eenvoudige hoofdmanieren:
 
 * vraagregels altijd vestigingscodes bevatten en het systeem SKU's gebruikt, inclusief de relevante vestigingsinstellingen. Meer informatie op [Vraag op vestiging](#demand-at-location).  
 * vraagregels bevatten nooit vestigingscodes en het systeem gebruikt de artikelkaart. Zie de het onderstaande scenario [Vraag op een "lege vestiging"](#demand-at-blank-location).
 
-## <a name="demand-at-location"></a><a name="demand-at-location"></a>Vraag op vestiging
+## <a name="demand-at-location"></a><a name="demand-at-location"></a><a name="demand-at-location"></a>Vraag op vestiging
 
 Wanneer het planningssysteem ontdekt dat er op een bepaalde vestiging vraag is (een regel met een vestigingscode), reageert het systeem op verschillende manieren, afhankelijk van 2 essentiële instellingswaarden.  
 
@@ -53,7 +53,7 @@ Zie de variaties in de [onderstaande scenario's](#scenarios).
 >
 > U kunt dit ook voor een specifieke SKU definiëren door de code van een andere vestiging in het veld **Onderdelen op vestiging** op de SKU-kaart te selecteren. Let echter op dat dit nauwelijks zinvol is aangezien de planningslogica vervormd kan zijn wanneer u plant voor de SKU-component.
 
-## <a name="demand-at-blank-location"></a><a name="demand-at-blank-location"></a>Vraag op "lege vestiging"
+## <a name="demand-at-blank-location"></a><a name="demand-at-blank-location"></a><a name="demand-at-blank-location"></a>Vraag op "lege vestiging"
 
 Wanneer het planningssysteem vraag detecteert op een lege vestiging (een regel zonder vestigingscode), wordt het artikel over het algemeen gepland volgens planningsparameters op de artikelkaart.
 
@@ -63,75 +63,75 @@ Het veld **Vestiging verplicht** op de pagina **Voorraadinstellingen** en het ve
 * Er bestaat een SKU voor het geplande artikel.
 * Het veld **Vestiging verplicht** is geselecteerd.
 
-## <a name="scenarios"></a><a name="scenarios"></a>Scenario's
+## <a name="scenarios"></a><a name="scenarios"></a><a name="scenarios"></a>Scenario's
 
 Zie de variaties in de onderstaande configuratiescenario's.
 
-### <a name="setup-1"></a><a name="setup-1"></a>Instelling 1
+### <a name="setup-1"></a><a name="setup-1"></a><a name="setup-1"></a>Instelling 1
 
 * Vestiging verplicht = *Ja*  
 * SKU is ingesteld voor *WEST*  
 * Onderdeel op vestiging = *OOST*  
 
-#### <a name="case-11-demand-is-at-west-location"></a><a name="case-11-demand-is-at-west-location"></a>Geval 1.1: Vraag is op vestiging *WEST*
+#### <a name="case-11-demand-is-at-west-location"></a><a name="case-11-demand-is-at-west-location"></a><a name="case-11-demand-is-at-west-location"></a>Geval 1.1: Vraag is op vestiging *WEST*
 
 Het artikel is gepland volgens planningsparameters op de SKU-kaart (inclusief mogelijke transfer).
 
-#### <a name="case-12-demand-is-at-east-location"></a><a name="case-12-demand-is-at-east-location"></a>Geval 1.2: Vraag is op vestiging *OOST*
+#### <a name="case-12-demand-is-at-east-location"></a><a name="case-12-demand-is-at-east-location"></a><a name="case-12-demand-is-at-east-location"></a>Geval 1.2: Vraag is op vestiging *OOST*
 
 Het artikel wordt gepland aan de hand van planningsparameters op de artikelkaart.
 
-#### <a name="case-13-demand-is-at-north-location"></a><a name="case-13-demand-is-at-north-location"></a>Geval 1.3: vraag is op vestiging *NOORD*
+#### <a name="case-13-demand-is-at-north-location"></a><a name="case-13-demand-is-at-north-location"></a><a name="case-13-demand-is-at-north-location"></a>Geval 1.3: vraag is op vestiging *NOORD*
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-#### <a name="case-14-demand-is-at-blank-location"></a><a name="case-14-demand-is-at-blank-location"></a>Case 1.4: vraag is op *LEGE* vestiging
+#### <a name="case-14-demand-is-at-blank-location"></a><a name="case-14-demand-is-at-blank-location"></a><a name="case-14-demand-is-at-blank-location"></a>Case 1.4: vraag is op *LEGE* vestiging
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-### <a name="setup-2"></a><a name="setup-2"></a>Instelling 2
+### <a name="setup-2"></a><a name="setup-2"></a><a name="setup-2"></a>Instelling 2
 
 * Vestiging verplicht = *Ja*  
 * Er bestaat geen SKU  
 * Onderdeel op vestiging = *OOST*  
 
-#### <a name="case-21-demand-is-at-west-location"></a><a name="case-21-demand-is-at-west-location"></a>Geval 2.1: Vraag is op vestiging *WEST*
+#### <a name="case-21-demand-is-at-west-location"></a><a name="case-21-demand-is-at-west-location"></a><a name="case-21-demand-is-at-west-location"></a>Geval 2.1: Vraag is op vestiging *WEST*
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-#### <a name="case-22-demand-is-at-east-location"></a><a name="case-22-demand-is-at-east-location"></a>Geval 2.2: Vraag is op vestiging *OOST*
+#### <a name="case-22-demand-is-at-east-location"></a><a name="case-22-demand-is-at-east-location"></a><a name="case-22-demand-is-at-east-location"></a>Geval 2.2: Vraag is op vestiging *OOST*
 
 Het artikel wordt gepland aan de hand van planningsparameters op de artikelkaart.  
 
-### <a name="setup-3"></a><a name="setup-3"></a>Instelling 3
+### <a name="setup-3"></a><a name="setup-3"></a><a name="setup-3"></a>Instelling 3
 
 * Vestiging verplicht = *Nee*  
 * Er bestaat geen SKU  
 * Onderdeel op vestiging = *OOST*  
 
-#### <a name="case-31-demand-is-at-west-location"></a><a name="case-31-demand-is-at-west-location"></a>Geval 3.1: Vraag is op vestiging *WEST*
+#### <a name="case-31-demand-is-at-west-location"></a><a name="case-31-demand-is-at-west-location"></a><a name="case-31-demand-is-at-west-location"></a>Geval 3.1: Vraag is op vestiging *WEST*
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-#### <a name="case-32-demand-is-at-east-location"></a><a name="case-32-demand-is-at-east-location"></a>Geval 3.2: Vraag is op vestiging *OOST*
+#### <a name="case-32-demand-is-at-east-location"></a><a name="case-32-demand-is-at-east-location"></a><a name="case-32-demand-is-at-east-location"></a>Geval 3.2: Vraag is op vestiging *OOST*
 
 Het artikel wordt gepland aan de hand van planningsparameters op de artikelkaart.  
 
-#### <a name="case-33-demand-is-at-blank-location"></a><a name="case-33-demand-is-at-blank-location"></a>Case 3.3: vraag is op *LEGE* vestiging
+#### <a name="case-33-demand-is-at-blank-location"></a><a name="case-33-demand-is-at-blank-location"></a><a name="case-33-demand-is-at-blank-location"></a>Case 3.3: vraag is op *LEGE* vestiging
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-### <a name="setup-4"></a><a name="setup-4"></a>Instelling 4
+### <a name="setup-4"></a><a name="setup-4"></a><a name="setup-4"></a>Instelling 4
 
 * Vestiging verplicht = *Nee*  
 * Er bestaat geen SKU  
 * Onderdeel op vestiging = *LEEG*  
 
-#### <a name="case-41-demand-is-at-east-location"></a><a name="case-41-demand-is-at-east-location"></a>Geval 4.1: vraag is op vestiging *OOST*
+#### <a name="case-41-demand-is-at-east-location"></a><a name="case-41-demand-is-at-east-location"></a><a name="case-41-demand-is-at-east-location"></a>Geval 4.1: vraag is op vestiging *OOST*
 
 Het artikel is gepland volgens: Bestelbeleid = *Lot-voor-Lot* (*Order* blijft *Order*), Inclusief voorraad = *Ja*, alle andere planningsparameters = Leeg.
 
-#### <a name="case-42-demand-is-at-blank-location"></a><a name="case-42-demand-is-at-blank-location"></a>Case 4.2: vraag is op *LEGE* vestiging
+#### <a name="case-42-demand-is-at-blank-location"></a><a name="case-42-demand-is-at-blank-location"></a><a name="case-42-demand-is-at-blank-location"></a>Case 4.2: vraag is op *LEGE* vestiging
 
 Het artikel is gepland aan de hand van de planningsparameters op de artikelkaart.
 
@@ -139,9 +139,9 @@ Zoals u in het laatste scenario kunt zien, kunt u alleen een correct resultaat k
 
 Als u vaak vraag op vestigingen plant, raden we daarom aan dat u de SKU-functionaliteit gebruikt.
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Gepland](production-planning.md)  
 [Productie instellen](production-configure-production-processes.md)  

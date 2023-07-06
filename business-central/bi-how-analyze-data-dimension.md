@@ -11,7 +11,7 @@ ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# <a name="analyze-data-by-dimensions"></a><a name="analyze-data-by-dimensions"></a>Gegevens analyseren per dimensie
+# <a name="analyze-data-by-dimensions"></a><a name="analyze-data-by-dimensions"></a><a name="analyze-data-by-dimensions"></a>Gegevens analyseren per dimensie
 
 In financiële analyses is een dimensie informatie die u toevoegt aan een post als een soort markering. Deze informatie wordt gebruikt om posten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig op te kunnen roepen voor analyse. Dimensies kunnen worden gebruikt op posten in dagboeken, documenten en budgetten. 
 
@@ -23,7 +23,7 @@ Elke dimensie beschrijft de focus van de analyse. Een tweedimensionale analyse i
 > [!NOTE]
 > Als u ontdekt dat een onjuiste dimensiewaarde is gebruikt voor geboekte grootboekposten, kunt u deze corrigeren en uw analyseweergaven bijwerken. Zie de sectie [Problemen met dimensies oplossen en dimensies corrigeren](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting) voor meer informatie.
 
-## <a name="set-up-an-analysis-view"></a><a name="set-up-an-analysis-view"></a>Een analyseweergave instellen
+## <a name="set-up-an-analysis-view"></a><a name="set-up-an-analysis-view"></a><a name="set-up-an-analysis-view"></a>Een analyseweergave instellen
 
 Met een analyse per dimensies geeft u een geselecteerde combinatie van dimensies weer. U kunt die dimensieset opslaan, ophalen en bijwerken door een **Analyseweergave** kaart te maken. 
 
@@ -33,7 +33,7 @@ Met een analyse per dimensies geeft u een geselecteerde combinatie van dimensies
 4. Als u andere dimensiecodes wilt toevoegen naast de vier op het sneltabblad **Dimensies**, kiest u de actie **Filteren**, vult u de velden in en kiest u de knop **OK**.  
 5. Als u de weergave wilt bijwerken, kiest u de actie **Bijwerken**.
 
-## <a name="analyze-by-dimensions"></a><a name="analyze-by-dimensions"></a>Analyseren per dimensie
+## <a name="analyze-by-dimensions"></a><a name="analyze-by-dimensions"></a><a name="analyze-by-dimensions"></a>Analyseren per dimensie
 
 Gebruik analyseweergaven die u al hebt ingesteld met de matrix **Analyse per dimensie** om de bedragen in uw grootboek te bekijken.   
 
@@ -55,7 +55,7 @@ Gebruik analyseweergaven die u al hebt ingesteld met de matrix **Analyse per dim
 > [!TIP]  
 > U kunt de weergave ook wijzigen door de inhoud van de velden **Als regels weergeven** en **Als kolommen weergeven** te wijzigen. Als u een weergave-instelling wilt omkeren, kiest u de actie **Regels en kolommen omkeren**.
 
-## <a name="update-an-analysis-view"></a><a name="update-an-analysis-view"></a>Een analyseweergave bijwerken
+## <a name="update-an-analysis-view"></a><a name="update-an-analysis-view"></a><a name="update-an-analysis-view"></a>Een analyseweergave bijwerken
 
 Met de bedragen die worden weergegeven op de pagina **Analyse per dimensies** krijgt u een overzicht van de status van het bedrijf die gold op het moment dat u voor het laatst hebt bijgewerkt. Als u de huidige status wilt weten, moet u de analyseweergave bijwerken.
 
@@ -73,9 +73,9 @@ Gebruik de volgende procedure om een analyseweergave bij te werken vanuit de pag
 > [!NOTE]  
 > Als u bepaalde of alle analyseweergaven tegelijk wilt bijwerken, moet u de batchverwerking **Analyseweergaven bijwerken** gebruiken.  
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Financiële bedrijfsinformatie](bi.md)  
 [Financiën](finance.md)  

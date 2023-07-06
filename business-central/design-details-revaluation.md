@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-revaluation"></a><a name="design-details-revaluation"></a>Ontwerpdetails: Herwaardering
+# <a name="design-details-revaluation"></a><a name="design-details-revaluation"></a><a name="design-details-revaluation"></a>Ontwerpdetails: Herwaardering
 U kunt de voorraad herwaarderen op basis van de waarderingsbasis die de voorraadwaarde het nauwkeurigst weergeeft. U kunt een herwaardering ook antedateren , zodat de kostprijs van verkochte goederen (KPV) correct wordt bijgewerkt voor artikelen die al zijn verkocht. Artikelen die de waarderingsmethode Standaard gebruiken en die niet volledig zijn gefactureerd, kunnen ook worden geherwaardeerd.  
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de volgende flexibiliteit ondersteund met betrekking tot herwaardering:  
@@ -19,7 +19,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de volgende flexibilitei
 -   Voor artikelen waarvoor de standaardwaarderingsmethode wordt gebruikt, worden verwachte kosten opgenomen in de herwaardering.  
 -   Negatieve voorraadmutaties die worden beïnvloed door herwaardering, worden gedetecteerd.  
 
-## <a name="calculating-the-revaluable-quantity"></a><a name="calculating-the-revaluable-quantity"></a>Het herwaardeerbare aantal berekenen
+## <a name="calculating-the-revaluable-quantity"></a><a name="calculating-the-revaluable-quantity"></a><a name="calculating-the-revaluable-quantity"></a>Het herwaardeerbare aantal berekenen
  Het herwaardeerbare aantal is het resterende aantal op voorraad dat beschikbaar is voor herwaardering op een bepaald moment. Het wordt berekend als het totaal van de aantallen van volledig gefactureerde artikelposten met een boekingsdatum die gelijk is aan of eerder ligt dan de boekingsdatum van de herwaardering.  
 
 > [!NOTE]  
@@ -29,7 +29,7 @@ Nadat een herwaardering is geboekt, kunt u een positieve of een negatieve voorra
 
 Omdat de herwaardering op elke datum kan worden uitgevoerd, moet u conventies hebben voor wanneer een artikel wordt beschouwd als deel van voorraad vanuit een financieel oogpunt. Wanneer het artikel bijvoorbeeld in voorraad is en wanneer het artikel onderhanden werk (WIP) is.  
 
-### <a name="example"></a><a name="example"></a>Opmerking
+### <a name="example"></a><a name="example"></a><a name="example"></a>Opmerking
 In het volgende voorbeeld ziet u wanneer een OHW-artikel evolueert om deel van de voorraad te worden. Het voorbeeld is gebaseerd op de productie van een ketting met 150 schakels.  
 
 ![OHW-voorraad en -herwaardering.](media/design_details_inventory_costing_10_revaluation_wip.png "OHW-voorraad en -herwaardering")  
@@ -77,7 +77,7 @@ De waarderingsdatum wordt ingesteld op de datum van de verbruikboeking (01-02-20
 |01-02-20|Directe kosten|01-02-20|-150,00|2|2|  
 |15-02-20|Directe kosten|15-02-20|150,00|3|3|  
 
-## <a name="expected-cost-in-revaluation"></a><a name="expected-cost-in-revaluation"></a>Verwachte kosten in herwaardering
+## <a name="expected-cost-in-revaluation"></a><a name="expected-cost-in-revaluation"></a><a name="expected-cost-in-revaluation"></a>Verwachte kosten in herwaardering
 Het herwaardeerbare aantal wordt berekend als de som van het aantal voor volledig gefactureerde artikelposten met een boekingsdatum die gelijk is aan of vroeger is dan de herwaarderingsdatum. Dit betekent dat wanneer sommige artikelen zijn ontvangen/verzonden maar nog niet gefactureerd, hun voorraadwaarde niet kan worden berekend. Artikelen die de waarderingsmethode Standaard gebruiken, zijn in dit opzicht niet beperkt.  
 
 > [!NOTE]  
@@ -89,7 +89,7 @@ Bij de berekening van het herwaardeerbare aantal voor artikelen met de waarderin
 -   Een waardepost met de boekingssoort **Verschil**. Met deze post wordt het verschil tussen de gefactureerde kosten en de geherwaardeerde vaste verrekenprijs vastgelegd.  
 -   Een waardepost met de boekingssoort **Herwaardering**. Met deze post wordt de tegenboeking van de herwaardering van de verwachte kosten vastgelegd.  
 
-### <a name="example-1"></a><a name="example-1"></a>Opmerking
+### <a name="example-1"></a><a name="example-1"></a><a name="example-1"></a>Opmerking
 Het volgende voorbeeld, dat is gebaseerd op de productie van de ketting in het vorige voorbeeld, laat zien hoe de drie soorten posten worden gemaakt. Het is gebaseerd op het volgende scenario:  
 
 1.  De gebruiker boekt de ingekochte schakels als ontvangen met een kostprijs van LV 2,00.  
@@ -109,7 +109,7 @@ De volgende tabel toont de twee soorten resulterende waardeposten.
 |3.b.|15-01-20|Herwaardering|20-01-20|-150,00|  0.00|1|4|  
 |3.c.|15-01-20|Verschil|15-01-20|0.00|450,00|1|5|  
 
-## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a><a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Bepalen of een negatieve voorraadmutatie wordt beïnvloed door herwaardering
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a><a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a><a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Bepalen of een negatieve voorraadmutatie wordt beïnvloed door herwaardering
 De datum van de boeking of de herwaardering wordt gebruikt om te bepalen of een negatieve voorraadmutatie wordt beïnvloed door een herwaardering.  
 
 De volgende tabel toont de criteria die worden gebruikt voor een artikel die de waarderingsmethode Gemiddeld niet gebruikt.  
@@ -123,7 +123,7 @@ De volgende tabel toont de criteria die worden gebruikt voor een artikel die de 
 |O|Later dan herwaarderingspost nr.|Gelijk aan herwaarderingboekingsdatum|Ja|  
 |V|Later dan herwaarderingspost nr.|Later dan herwaarderingboekingsdatum|Ja|  
 
-### <a name="example-2"></a><a name="example-2"></a>Opmerking
+### <a name="example-2"></a><a name="example-2"></a><a name="example-2"></a>Opmerking
 Het volgende voorbeeld, dat herwaardering toont van een artikel dat de waarderingsmethode FIFO gebruikt, is gebaseerd op het volgende scenario:  
 
 1.  Op 01-01-20 boekt de gebruiker een verkoop van 6 eenheden.  
@@ -153,7 +153,7 @@ De volgende tabel toont de twee soorten resulterende waardeposten.
 |V|01-04-20|Verkoop|01-04-20|-1|-10,00|7|8|  
 ||01-04-20|Verkoop|01-04-20|-1|2.00|7|12|  
 
-## <a name="wip-inventory-revaluation"></a><a name="wip-inventory-revaluation"></a>OHW-voorraadherwaardering
+## <a name="wip-inventory-revaluation"></a><a name="wip-inventory-revaluation"></a><a name="wip-inventory-revaluation"></a>OHW-voorraadherwaardering
 Herwaardering van OHW-voorraad impliceert het herwaarderen van onderdelen die zijn geregistreerd als deel van OHW-voorraad op het moment van de herwaardering.  
 
 Het is daarom belangrijk om conventies te definiëren over wanneer een artikel als deel van de OHW-voorraad wordt beschouwd vanuit een financieel oogpunt. In [!INCLUDE[prod_short](includes/prod_short.md)], bestaan de volgende conventies:  
@@ -169,7 +169,7 @@ OHW-voorraad kan worden geherwaardeerd zolang de herwaarderingsdatum niet na de 
 > [!CAUTION]  
 >  De lijst **Voorraadwaardering - OHW** toont de waarde van de geboekte productieorderposten en kan daarom een beetje verwarrend zijn voor OHW-artikelen die opnieuw zijn gewaardeerd.  
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
  [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)   
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-valuation.md) [Voorraadkosten beheren](finance-manage-inventory-costs.md)  

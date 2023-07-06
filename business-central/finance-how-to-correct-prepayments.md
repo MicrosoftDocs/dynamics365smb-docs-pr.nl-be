@@ -10,14 +10,14 @@ ms.search.form: '44, 48, 42, 50, 52, 9305, 9307'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="correct-prepayments"></a><a name="correct-prepayments"></a>Vooruitbetalingen storneren
+# <a name="correct-prepayments"></a><a name="correct-prepayments"></a><a name="correct-prepayments"></a>Vooruitbetalingen storneren
 
 Nadat u een vooruitbetalingsfactuur voor de order hebt geboekt, kunt u een correctie aanbrengen op een order. U kunt nieuwe regels toevoegen aan een order na het verzenden van een vooruitbetaling en vervolgens kunt u een andere vooruitbetalingsfactuur boeken, maar u kunt een regel niet uit een order verwijderen nadat een vooruitbetaling voor de regel is gefactureerd.  
 
 > [!TIP]
 > Als u een vooruitbetalingsfactuur hebt geboekt voor een verkoopfactuur die u vervolgens corrigeert of annuleert, moet u de vooruitbetaling ook corrigeren of annuleren.
 
-## <a name="to-correct-a-prepayment"></a><a name="to-correct-a-prepayment"></a>Een vooruitbetalingen storneren
+## <a name="to-correct-a-prepayment"></a><a name="to-correct-a-prepayment"></a><a name="to-correct-a-prepayment"></a>Een vooruitbetalingen storneren
 
 De volgende procedure toont hoe u een vooruitbetalingscreditnota verzendt om alle gefactureerde vooruitbetalingen voor een verkooporder te annuleren.  
 
@@ -32,9 +32,9 @@ De volgende procedure toont hoe u een vooruitbetalingscreditnota verzendt om all
 5. Als u een vooruitbetalingsfactuur wilt maken voor nieuwe regels in de verkoopcreditnota, kiest u de actie **Vooruitbetaling** en kiest u vervolgens de actie **Vooruitbetalingsfactuur boeken** of **Vooruitbetalingsfactuur boeken en afdrukken**.  
 6. Als u een extra vooruitbetalingsfactuur wilt verzenden, verhoogt u het vooruitbetalingsbedrag op een of meer regels en past u de vooruitbetalingsfactuur aan. Er wordt een nieuwe factuur gemaakt voor het verschil tussen de tot nu toe gefactureerde vooruitbetalingsbedragen en de nieuwe vooruitbetalingsbedragen.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Vooruitbetalingen factureren](finance-invoice-prepayments.md)  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

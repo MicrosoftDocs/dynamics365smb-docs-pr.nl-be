@@ -10,18 +10,18 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# <a name="analyze-list-data-using-data-analysis-mode"></a><a name="analyze-list-data-using-data-analysis-mode"></a>Gegevens analyseren op lijstpagina's met behulp van de gegevensanalysemodus
+# <a name="analyze-list-data-using-data-analysis-mode"></a><a name="analyze-list-data-using-data-analysis-mode"></a><a name="analyze-list-data-using-data-analysis-mode"></a>Gegevens analyseren op lijstpagina's met behulp van de gegevensanalysemodus
 
 In dit artikel leert u hoe u gegevens vanaf lijstpagina's analyseert met behulp van de *gegevensanalysemodus*. Met de gegevensanalysemodus kunt u gegevens rechtstreeks vanaf de pagina analyseren, zonder dat u een rapport hoeft uit te voeren of naar een andere toepassing zoals Excel hoeft te schakelen. Het biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. In plaats van rapporten uit te voeren met verschillende opties en filters, kunt u meerdere tabbladen toevoegen die verschillende taken of weergaven van de gegevens vertegenwoordigen. Voorbeelden kunnen zijn "Mijn klanten", "Opvolgitems", "Onlangs toegevoegde leveranciers", "Verkoopstatistieken" of elke andere weergave die u maar kunt bedenken.
 
 > [!TIP]
 > Een goede zaak van de gegevensanalysemodus is dat het geen van de onderliggende gegevens van de lijstpagina of de lay-out van de pagina verandert wanneer deze zich niet in de gegevensanalysemodus bevindt. Dus de beste manier om te leren wat u kunt doen in de gegevensanalysemodus, is door dingen uit te proberen.
 
-## <a name="prerequisite"></a><a name="prerequisite"></a>Vereiste
+## <a name="prerequisite"></a><a name="prerequisite"></a><a name="prerequisite"></a>Vereiste
 
 De gegevensanalysemodus is momenteel in preview, wat betekent dat een beheerder deze moet inschakelen voordat u deze kunt gebruiken. Als u een beheerder bent en u de gegevensanalysemodus wilt inschakelen, gaat u naar de pagina **Functiebeheer** en schakelt u **Functie-update: Analysemodus, snel gegevens rechtstreeks in Business Central analyseren** in. Ga voor meer informatie over het in- en uitschakelen van functies naar [Functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## <a name="get-started"></a><a name="get-started"></a>Aan de slag
+## <a name="get-started"></a><a name="get-started"></a><a name="get-started"></a>Aan de slag
 
 1. Open de lijstpagina.
 
@@ -43,14 +43,14 @@ De gegevensanalysemodus is momenteel in preview, wat betekent dat een beheerder 
 > [!NOTE]
 > De gegevens die in de analysemodus worden weergegeven, worden beheerd door de filters of weergaven die op de lijstpagina zijn ingesteld. Hierdoor kunt u gegevens vooraf filteren voordat u naar de analysemodus gaat.
 
-## <a name="work-with-data-analysis-mode"></a><a name="work-with-data-analysis-mode"></a>Werken met de gegevensanalysemodus
+## <a name="work-with-data-analysis-mode"></a><a name="work-with-data-analysis-mode"></a><a name="work-with-data-analysis-mode"></a>Werken met de gegevensanalysemodus
 
 In de gegevensanalysemodus is de pagina verdeeld in twee gebieden:
 
 - Het hoofdgebied, dat bestaat uit het gegevensgebied (1), overzichtsbalk (2) en tabbladenbalk (5)
 - Het gebied voor gegevensmanipulatie, dat bestaat uit twee deelvensters: kolommen (3) en analysefilters (4).
 
-### <a name="data-area-1"></a><a name="data-area-1"></a>Gegevensgebied (1)
+### <a name="data-area-1"></a><a name="data-area-1"></a><a name="data-area-1"></a>Gegevensgebied (1)
 
 In het gegevensgebied worden de rijen en kolommen van de lijstpagina weergegeven en worden de gegevens samengevat. Het gegevensgebied biedt een veelzijdige manier om de lay-out van kolommen te regelen en een snelle manier om een samenvatting van de gegevens te krijgen. Voor kolommen die numerieke waarden bevatten, wordt de som van alle waarden in de kolom weergegeven in een laatste rij, tenzij u rijgroepen hebt gedefinieerd. In dit geval verschijnen de sommen als een subtotaal voor de groepen.  
 
@@ -64,7 +64,7 @@ In het gegevensgebied worden de rijen en kolommen van de lijstpagina weergegeven
 - Gebruik het gegevensgebied om met de gegevens te werken. Voor kolommen die numerieke, optelbare waarden bevatten, kunt u beschrijvende statistieken voor een reeks velden verkrijgen door ze te markeren. De statistieken verschijnen in de statusbalk (2) onder aan de pagina.
 - Exporteer gegevens in Excel- of csv-indeling. Klik met de rechtermuisknop op het gegevensgebied of een selectie van cellen om te exporteren.
 
-### <a name="summary-bar-2"></a><a name="summary-bar-2"></a>Overzichtsbalk (2)
+### <a name="summary-bar-2"></a><a name="summary-bar-2"></a><a name="summary-bar-2"></a>Overzichtsbalk (2)
 
 De overzichtsbalk bevindt zich onder aan de pagina en geeft statistieken weer over de gegevens in de lijst. Terwijl u werkt met kolommen waarvan de waarden kunnen worden opgeteld, zoals het selecteren van meerdere rijen in een kolom die bedragen bevat, worden de gegevens bijgewerkt.
 
@@ -83,7 +83,7 @@ De volgende tabel beschrijft de verschillende getallen die worden weergegeven in
 |Max|De maximale waarde in alle geselecteerde optelbare velden.|
 |Som|Het totaal van alle waarden in de geselecteerde optelbare velden.|
 
-### <a name="columns-3"></a><a name="columns-3"></a>Kolommen (3)
+### <a name="columns-3"></a><a name="columns-3"></a><a name="columns-3"></a>Kolommen (3)
 
 **Kolommen** is een van de twee deelvensters die samenwerken om uw analyse te definiëren. Het andere gebied is het deelvenster **Analysefilters**. Het deelvenster **Kolommen** wordt gebruikt om de gegevens samen te vatten. Gebruik het deelvenster **Kolommen** om te definiëren welke kolommen in de analyse moeten worden opgenomen.
 
@@ -98,7 +98,7 @@ De volgende tabel beschrijft de verschillende getallen die worden weergegeven in
 
 Selecteer het grijppictogram om een veld van het ene gebied naar het andere te verplaatsen ![Toont een overzicht van een pagina in de analysemodus](media/column-grab-icon.png) naast de kolom in de bovenstaande lijst en sleep naar het doelgebied. U mag een veld niet verplaatsen naar een gebied waar het niet is toegestaan.
 
-### <a name="analysis-filters-4"></a><a name="analysis-filters-4"></a>Analysefilters (4)
+### <a name="analysis-filters-4"></a><a name="analysis-filters-4"></a><a name="analysis-filters-4"></a>Analysefilters (4)
 
 Met het deelvenster **Analysefilters** kunt u verdere gegevensfilters op kolommen instellen om de vermeldingen in de lijst te beperken. Stel filters in op kolommen om de vermeldingen in de lijst en de daaropvolgende sommen te beperken tot alleen die vermeldingen waarin u bent geïnteresseerd op basis van een criterium dat u definieert. Stel dat u alleen geïnteresseerd bent in gegevens van een specifieke klant of verkooporders die een bepaald bedrag overschrijden. Om een filter in te stellen selecteert u de kolom, kiest u de vergelijkingsbewerking uit de lijst (zoals **Is gelijk aan** of **Begint met**) en voert u de waarde in.
 
@@ -107,7 +107,7 @@ Met het deelvenster **Analysefilters** kunt u verdere gegevensfilters op kolomme
 > [!NOTE]
 > De extra filters zijn alleen van toepassing op het huidige analysetabblad. Hierdoor kunt u precies de extra datafilters definiëren die nodig zijn voor een specifieke analyse.
 
-### <a name="tabs-5"></a><a name="tabs-5"></a>Tabbladen (5)
+### <a name="tabs-5"></a><a name="tabs-5"></a><a name="tabs-5"></a>Tabbladen (5)
 
 In het tabbladengebied bovenaan kunt u verschillende configuraties (kolommen en analysefilters) maken op afzonderlijke tabbladen, waar u gegevens op de tabbladen onafhankelijk van elkaar kunt manipuleren. Er is altijd minimaal één tabblad, standaard genaamd **Analyse 1** . Het toevoegen van meer tabbladen is gunstig voor het opslaan van veelgebruikte analyseconfiguraties op een gegevensset. U kunt bijvoorbeeld tabbladen hebben voor het analyseren van gegevens in de draaimodus en andere tabbladen die filteren op een subset van rijen. Sommige tabbladen tonen mogelijk een gedetailleerde weergave met veel kolommen en andere geven slechts enkele sleutelkolommen weer.
 
@@ -125,7 +125,7 @@ Hier volgen enkele tips voor het werken met meerdere analysetabbladen:
    > De tabbladen die u instelt, zijn alleen voor u zichtbaar. Andere gebruikers zien alleen tabbladen die ze hebben ingesteld.
 - U kunt analysetabbladen kopiëren. Kopiëren kan handig zijn als u wilt experimenteren met het wijzigen van een tabblad zonder het origineel te wijzigen, of als u verschillende varianten van dezelfde analyse wilt maken.
 
-## <a name="pivot-mode"></a><a name="pivot-mode"></a>Draaimodus
+## <a name="pivot-mode"></a><a name="pivot-mode"></a><a name="pivot-mode"></a>Draaimodus
 
 U kunt de draaimodus gebruiken om grote hoeveelheden numerieke gegevens te analyseren, waarbij gegevens worden opgeteld op categorieën en subcategorieën. De draaimodus is vergelijkbaar met [draaitabellen in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
@@ -145,11 +145,11 @@ Het opbouwen van de gegevensanalyse in de draaimodus omvat het verplaatsen van v
 > [!TIP]
 > Kolommen die maar een paar mogelijke waarden hebben, zijn de beste kandidaten voor gebruik in de kolom **Waarden**.
 
-## <a name="limitations"></a><a name="limitations"></a>Beperkingen
+## <a name="limitations"></a><a name="limitations"></a><a name="limitations"></a>Beperkingen
 
 De analyseweergave heeft momenteel een limiet van 100.000 rijen. Als u deze limiet overschrijdt, krijgt u daar een melding van. Om deze beperking te omzeilen stelt u indien mogelijk filters op de pagina in voordat u overschakelt naar de gegevensanalysemodus.  Misschien wilt u een bepaalde groep klanten analyseren of wilt u alleen gegevens van het huidige jaar. U kunt ook een vooraf gedefinieerde weergave kiezen als dit geschikt is voor uw analyse.
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
 
 [Ad-hoc gegevensanalyse](reports-adhoc-analysis.md)  
 [Bekijken en bewerken in Excel](across-work-with-excel.md)  
