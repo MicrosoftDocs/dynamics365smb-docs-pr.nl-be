@@ -10,14 +10,14 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a><a name="understanding-assemble-to-order-and-assemble-to-stock"></a><a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Op voorraad assembleren of Op order assembleren begrijpen
+# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Op voorraad assembleren of Op order assembleren begrijpen
 
 Met [!INCLUDE [prod_short](includes/prod_short.md)] kunt u op de volgende manieren componenten aanleveren:
 
 * Assembleren voor order  
 * Assembleren voor voorraad  
 
-## <a name="assemble-to-order"></a><a name="assemble-to-order"></a><a name="assemble-to-order"></a>Assembleren voor order
+## <a name="assemble-to-order"></a>Assembleren voor order
 
 Gebruik het assembleren-op-order proces voor artikelen die u niet op voorraad wilt hebben. Bijvoorbeeld om de volgende redenen:
 
@@ -43,7 +43,7 @@ Wanneer u een assembleren-op-order artikel invoert op een verkooporderregel, wor
 
 Om aan te geven dat een artikel op order wordt geassembleerd kiest u in het veld **Assemblagebeleid** op de pagina **Artikel** voor het artikel **Op order assembleren**.  
 
-## <a name="assemble-to-stock"></a><a name="assemble-to-stock"></a><a name="assemble-to-stock"></a>Assembleren voor voorraad
+## <a name="assemble-to-stock"></a>Assembleren voor voorraad
 
 Gebruik het proces assembleren-op-voorraad voor artikelen die u assembleert en opslaat voor toekomstige verkoop. Op-voorraad-assembleren artikelen zijn standaardartikelen, zoals verpakte kits, die u niet aanpast. U kunt deze artikelen ook gebruiken als subassemblycomponenten. De artikelen worden gepickt en verwerkt als afzonderlijke artikelen en worden behandeld als voltooide productieartikelen. Ga voor meer informatie over componenten naar [Artikelen samenstellen](assembly-how-to-assemble-items.md).  
 
@@ -54,7 +54,7 @@ Wanneer u een assembleren-voor-voorraad artikel op een verkoopregel opgeeft, wor
 
 Om aan te geven dat een artikel op voorraad wordt geassembleerd kiest u in het veld **Assemblagebeleid** op de pagina **Artikel** voor het artikel **Op voorraad assembleren**.  
 
-## <a name="combination-scenarios"></a><a name="combination-scenarios"></a><a name="combination-scenarios"></a>Combinatiescenario's
+## <a name="combination-scenarios"></a>Combinatiescenario's
 
 Wanneer op order assembleren en voorraadaantallen worden gecombineerd op een verkooporder, moeten eerst de op order assembleren hoeveelheden worden verzonden.  
 
@@ -96,9 +96,9 @@ Gebaseerd op dit voorbeeld kunt u het veld **Te assembleren aantal** als volgt w
 * Het minimumaantal dat u kunt invoeren is 1. U moet ten minste één eenheid assembleren om de vier eenheden te kunnen verkopen, aangenomen dat de overige drie eenheden in voorraad beschikbaar zijn.  
 * Het maximumaantal dat u kunt invoeren is 4. Deze limiet zorgt ervoor dat u niet meer van het artikel assembleert dan u nodig hebt voor de verkoop.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)  

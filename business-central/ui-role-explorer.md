@@ -12,7 +12,7 @@ ms.date: 08/01/2021
 ms.author: jswymer
 ---
 
-# <a name="finding-pages-with-the-role-explorer"></a><a name="finding-pages-with-the-role-explorer"></a><a name="finding-pages-with-the-role-explorer"></a>Pagina's zoeken met de Rolverkenner
+# <a name="finding-pages-with-the-role-explorer"></a>Pagina's zoeken met de Rolverkenner
 
 U kunt een overzicht krijgen van alle zakelijke functies die beschikbaar zijn voor uw rol en voor andere rollen als u nog een stap verder gaat. In de volgende documentatie wordt dit functieoverzicht de *Rolverkenner* genoemd.
 
@@ -20,7 +20,7 @@ Elk element in de rolverkenner is een actie waarmee een pagina wordt geopend. Di
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer"></a><a name="open-the-role-explorer"></a><a name="open-the-role-explorer"></a>De rollenverkenner openen
+## <a name="open-the-role-explorer"></a>De rollenverkenner openen
 
 U kunt de rolverkenner openen vanuit het Rolcentrum en alle lijstpagina's en vanuit het venster **Vertel me**.
 
@@ -29,7 +29,7 @@ U kunt de rolverkenner openen vanuit het Rolcentrum en alle lijstpagina's en van
 
 Wanneer u het rolcentrum voor het eerst opent, toont het koppelingen naar de meeste functies die beschikbaar zijn voor uw rol.
 
-## <a name="navigate-features"></a><a name="navigate-features"></a><a name="navigate-features"></a>Door functies navigeren
+## <a name="navigate-features"></a>Door functies navigeren
 
 De acties waarmee pagina's worden geopend, zijn georganiseerd onder knooppunten die zijn genoemd naar de functies of toepassingsgebieden. Elk knooppunt kan afzonderlijk worden samengevouwen of uitgebreid en u kunt alle knooppunten samenvouwen/uitvouwen.
 
@@ -37,11 +37,11 @@ De acties waarmee pagina's worden geopend, zijn georganiseerd onder knooppunten 
 - Als u alle knooppunten op het hoogste niveau op de pagina wilt uitvouwen/samenvouwen, maar de subknooppunten wilt laten zoals ze zijn, kiest u **...** bovenaan en kiest u vervolgens **Uitbreiden** of **Samenvouwen**.
 - Als u alle knooppunten op het hoogste niveau en alle subknooppunten eronder wilt uitvouwen/samenvouwen, kiest u **...** bovenaan en kiest u vervolgens **Uitbreiden** of **Samenvouwen**.
 
-## <a name="search-for-features"></a><a name="search-for-features"></a><a name="search-for-features"></a>Zoeken naar functies
+## <a name="search-for-features"></a>Zoeken naar functies
 
 Om snel functies te vinden selecteert u **Zoeken** en voer vervolgens een woord of woordgroep in voor de functie die u zoekt. Het rolcentrum zal alle overeenkomende tekst markeren. Als een functie in een samengevouwen knooppunt aan het zicht is onttrokken, wordt het samengevouwen knooppunt gemarkeerd met een punt. 
 
-## <a name="explore-other-roles"></a><a name="explore-other-roles"></a><a name="explore-other-roles"></a>Andere rollen ontdekken
+## <a name="explore-other-roles"></a>Andere rollen ontdekken
 
 Als u andere rollen dan die van uzelf wilt verkennen, selecteert u **Meer rollen verkennen**. Het rolcentrum geeft elke rol weer onder een eigen kop, met links naar de bijbehorende functies. U kunt vervolgens navigeren en functies vinden, net zoals u doet bij het verkennen van uw rol.
 
@@ -57,7 +57,7 @@ Wanneer u andere rollen verkent, kunt u de verkenning ook verfijnen door de acti
 > Voor ontwikkelaars: u categoriseert pagina's en rapporten door de [Eigenschap UsageCategory](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) in de AL-code van het object in te stellen.
 <!--
  
-## <a name="role-explorer-actions"></a><a name="role-explorer-actions"></a><a name="role-explorer-actions"></a>Role explorer actions
+## <a name="role-explorer-actions"></a>Role explorer actions
 
 There a several actions along the top of the role explorer to help you locate features of your role and other roles.
 
@@ -80,7 +80,7 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a><a name="expand-and-collapse-nodes-on-the-role-explorer"></a><a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Knooppunten in de rolverkenner uitvouwen en samenvouwen
+## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Knooppunten in de rolverkenner uitvouwen en samenvouwen
 
 De acties waarmee pagina's worden geopend, zijn georganiseerd onder knooppunten die zijn genoemd naar de functies of toepassingsgebieden. Elk knooppunt kan afzonderlijk worden samengevouwen of uitgebreid en u kunt alle knooppunten samenvouwen/uitvouwen.
 
@@ -90,7 +90,7 @@ De acties waarmee pagina's worden geopend, zijn georganiseerd onder knooppunten 
   - Selecteer de toetsen <kbd>Ctrl</kbd>+<kbd>Shift</kbd> terwijl u de actie **Uitvouwen** of **Samenvouwen** kiest in de rechterbovenhoek.
   - Kies **...** in de rechterbovenhoek en kies vervolgens de actie **Alles uitvouwen** of **Alles samenvouwen**.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Profielen beheren](admin-users-profiles-roles.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

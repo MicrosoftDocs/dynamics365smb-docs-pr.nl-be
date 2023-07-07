@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-"></a><a name="overview-of-tasks-to-set-up-"></a><a name="overview-of-tasks-to-set-up-"></a>Overzicht van taken om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen
+# <a name="overview-of-tasks-to-set-up-"></a>Overzicht van taken om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw organisatie. De artikelen van de [snelstartgids voor Business Central](quick-start-business-central.md) helpen u de eerste stappen te zetten bij het maken van uw eigen [!INCLUDE [prod_short](includes/prod_short.md)]. Dit artikel geeft een overzicht van hoe u [!INCLUDE [prod_short](includes/prod_short.md)] kunt configureren voor uw organisatie.
 
@@ -55,13 +55,13 @@ Voor sommige gebieden moet u een beheerder in uw [!INCLUDE[prod_short](includes/
 > [!NOTE]
 > Als beheerder kunt u een nieuw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Meer informatie op [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a><a name="set-up-apps"></a><a name="set-up-apps"></a>Apps instellen
+## <a name="set-up-apps"></a>Apps instellen
 
 Boven op de kernmogelijkheden in [!INCLUDE [prod_short](includes/prod_short.md)] Microsoft voegt enkele apps toe die worden vermeld op de pagina [**Extensiebeheer**](https://businesscentral.dynamics.com/?page=2500). Vanaf oktober 2022 biedt elke app een link om de opstartpagina te openen - kies gewoon de actie **Instellen**.  
 
 U kunt ook mogelijkheden toevoegen aan uw [!INCLUDE [prod_short](includes/prod_short.md)] door AppSource-apps toe te voegen. Meer informatie op [Business Central Online aanpassen met extensies](ui-extensions.md).  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van bedrijfsgegevens](admin-company-information.md)  
 [Beheer](admin-setup-and-administration.md)  

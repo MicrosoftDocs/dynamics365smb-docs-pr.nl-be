@@ -11,10 +11,10 @@ ms.search.form: '283, 284'
 ms.date: 06/29/2021
 ms.author: edupont
 ---
-# <a name="use-allocation-keys-in-general-journals"></a><a name="use-allocation-keys-in-general-journals"></a><a name="use-allocation-keys-in-general-journals"></a>Verdeelsleutels in dagboeken gebruiken
+# <a name="use-allocation-keys-in-general-journals"></a>Verdeelsleutels in dagboeken gebruiken
 U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. De verdeling kan plaatsvinden op basis van aantal, percentage of bedrag.
 
-## <a name="to-set-up-allocation-keys"></a><a name="to-set-up-allocation-keys"></a><a name="to-set-up-allocation-keys"></a>Verdeelsleutels instellen
+## <a name="to-set-up-allocation-keys"></a>Verdeelsleutels instellen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Periodiek dagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies het veld **Batchnaam** om de pagina **Fin. dagboekbatches** te openen.
 3. U kunt verdeelsleutels in een bestaande batch in de lijst wijzigen of u kunt een nieuwe batch met verdeelsleutels maken.
@@ -29,13 +29,13 @@ U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u 
 10. Kies **OK** na het invoeren van de verdeelsleutelregels om terug te keren naar de pagina **Periodiek dagboek**. Het veld **Verdeeld bedrag (LV)** wordt ingevuld en de inhoud komt overeen met het veld **Bedrag**.
 11. Boek het dagboek.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Een reeds ingestelde verdeelsleutel wijzigen
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Een reeds ingestelde verdeelsleutel wijzigen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Periodiek dagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Periodiek dagboek** het dagboek met de verdeling.
 3. Kies de regel met de verdeelsleutel en kies vervolgens **Verdeelsleutels**.
 4. Pas de relevante velden aan en kies vervolgens de knop **OK**.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

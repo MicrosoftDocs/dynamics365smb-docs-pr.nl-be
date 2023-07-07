@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="enable-picking-items-by-fefo"></a><a name="enable-picking-items-by-fefo"></a><a name="enable-picking-items-by-fefo"></a>Artikelen picken volgens FEFO inschakelen
+# <a name="enable-picking-items-by-fefo"></a>Artikelen picken volgens FEFO inschakelen
 First-Expired-First-Out (FEFO) is een sorteringsmethode die ervoor zorgt dat de oudste artikelen, die met de vroegste vervaldata, eerst worden gepickt.  
 
  Deze functie werkt alleen wanneer aan de volgende criteria wordt voldaan:  
@@ -33,7 +33,7 @@ Als u verplaatsingen volgens FEFO mogelijk wilt maken, laat u het veld **Van ops
 <br /><br />
 Als het veld **Strikte verloopdatumboeking** is geselecteerd op de kaart met de **Artikeltraceringscode**, worden alleen artikelen die niet zijn verlopen, in de pick opgenomen en worden de regels gesorteerd volgens het FEFO-principe.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 [Picken van artikelen voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Artikelen picken met een voorraadpick](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)

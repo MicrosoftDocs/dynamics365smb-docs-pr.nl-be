@@ -8,7 +8,7 @@ ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, tra
 ms.date: 08/12/2022
 ms.author: a-reishima
 ---
-# <a name="process-partial-shipments"></a><a name="process-partial-shipments"></a><a name="process-partial-shipments"></a>Deelverzendingen verwerken
+# <a name="process-partial-shipments"></a>Deelverzendingen verwerken
 
 Bij een deelverzending wordt een order niet allemaal tegelijk verzonden. Bij een order voor 100 eenheden verzendt u bijvoorbeeld 40 eenheden direct en 60 eenheden later. U kunt een onbeperkt aantal verzendingen voor een order maken.
 
@@ -18,7 +18,7 @@ Standaard stelt [!INCLUDE [prod_short](includes/prod_short.md)] het veld op de p
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Producten verkopen met een klantverkooporder](sales-how-sell-products.md)  
 [Artikelen verzenden](warehouse-how-ship-items.md)  

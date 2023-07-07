@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.forms: '9989, 13,'
 ---
 
-# <a name="use-word-templates-for-bulk-communication"></a><a name="use-word-templates-for-bulk-communication"></a><a name="use-word-templates-for-bulk-communication"></a>Word-sjablonen gebruiken voor bulkcommunicatie
+# <a name="use-word-templates-for-bulk-communication"></a>Word-sjablonen gebruiken voor bulkcommunicatie
 
 Microsoft Word-sjablonen kunnen het gemakkelijker maken massaal te communiceren in druk of e-mail met entiteiten zoals contacten, klanten en leveranciers. U kunt bijvoorbeeld het volgende maken:
 
@@ -21,7 +21,7 @@ Microsoft Word-sjablonen kunnen het gemakkelijker maken massaal te communiceren 
 > [!NOTE]
 > Wanneer u Word-sjablonen instelt, moet u een apparaat gebruiken met Microsoft Word 2019 of nieuwer en waarop het Windows-besturingssysteem is geïnstalleerd.
 
-## <a name="set-up-the-source-of-data"></a><a name="set-up-the-source-of-data"></a><a name="set-up-the-source-of-data"></a>Stel de bron van gegevens in.
+## <a name="set-up-the-source-of-data"></a>Stel de bron van gegevens in.
 
 Gebruik entiteiten in [!INCLUDE[prod_short](includes/prod_short.md)] als de bron van gegevens voor de sjabloon en voeg samenvoegvelden toe om documenten voor elke entiteit te personaliseren. De samenvoegvelden zijn afkomstig van de entiteit in [!INCLUDE[prod_short](includes/prod_short.md)]. Wanneer u een Word-sjabloon toepast op een entiteit, worden gegevens uit de samenvoegvelden in het document ingevoegd.
 
@@ -42,7 +42,7 @@ Wanneer u een sjabloon downloadt, krijgt u een .zip-bestand dat twee bestanden b
 
 Ga voor meer informatie over het instellen van een sjabloon in Word naar [De sjabloon instellen in Word](#set-up-the-template-in-word).
 
-## <a name="add-entries-that-are-related-or-unrelated-to-the-source-entity"></a><a name="add-entries-that-are-related-or-unrelated-to-the-source-entity"></a><a name="add-entries-that-are-related-or-unrelated-to-the-source-entity"></a>Vermeldingen toevoegen die al dan niet gerelateerd zijn aan de bronentiteit
+## <a name="add-entries-that-are-related-or-unrelated-to-the-source-entity"></a>Vermeldingen toevoegen die al dan niet gerelateerd zijn aan de bronentiteit
 
 U kunt ook gegevens van andere entiteiten samenvoegen. Om andere entiteiten toe te voegen als gegevensbronnen gebruikt u een van de volgende acties op de pagina **Word-sjablonen** of wanneer u de begeleide installatiehandleiding gebruikt:
 
@@ -57,7 +57,7 @@ U kunt een hiërarchie van entiteiten maken, zowel gerelateerd als niet-gerelate
 
 Wanneer u entiteiten toevoegt, gebruikt u het veld **Veldprefix** om een prefix voor de veldnamen op te geven. Wanneer u later velden aan de sjabloon toevoegt, helpt het prefix onderscheid te maken tussen velden uit de bron en andere entiteiten.
 
-### <a name="select-the-fields-to-include"></a><a name="select-the-fields-to-include"></a><a name="select-the-fields-to-include"></a>Selecteer de velden die u wilt opnemen
+### <a name="select-the-fields-to-include"></a>Selecteer de velden die u wilt opnemen
 
 Voor elke entiteit kunt u de velden opgeven die beschikbaar moeten zijn voor de sjabloon. Kies het nummer in de kolom **Aantal geselecteerde velden** om toegang te krijgen tot een lijst met velden die beschikbaar zijn. Gebruik op de pagina **Veldselectie** het selectievakje **Opnemen** om de velden op te geven. Voor sommige entiteiten zijn velden die bedrijven doorgaans gebruiken, standaard opgenomen. U kunt de lijst bewerken, bijvoorbeeld om de standaardvelden te verwijderen. Uw wijzigingen zijn alleen van toepassing op de sjabloon waaraan u werkt.
 
@@ -67,7 +67,7 @@ Voor elke entiteit kunt u de velden opgeven die beschikbaar moeten zijn voor de 
 > [!NOTE]
 > U of uw Microsoft-partner kunnen aangepaste velden aan entiteiten toevoegen. Als u dat doet, voegen we het prefix **CALC** aan de naam van de velden toe en geven ze het veldtype **Berekend**. Het veldtype wordt berekend genoemd om aan te geven dat het veld verschillende soorten waarden kan weergeven, zoals tekst, getallen, datums, enzovoort.
 
-## <a name="to-create-a-word-template-in-business-central"></a><a name="to-create-a-word-template-in-business-central"></a><a name="to-create-a-word-template-in-business-central"></a>Een Word-sjabloon maken in Business Central
+## <a name="to-create-a-word-template-in-business-central"></a>Een Word-sjabloon maken in Business Central
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Word-sjablonen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies **Nieuw**, dan **Een sjabloon maken** en volg de stappen in de begeleide instelling. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,19 +75,19 @@ Voor elke entiteit kunt u de velden opgeven die beschikbaar moeten zijn voor de 
 > [!TIP]
 > U kunt ook rechtstreeks vanaf de pagina voor een entiteit een sjabloon maken door de actie **Word-sjabloon toepassen** te kiezen om de begeleide instelling te openen, en dan **Nieuwe sjabloon** kiezen. Wanneer u dat doet, wordt de gegevensbron voor u gekozen op basis van het type entiteit.
 
-## <a name="set-up-the-template-in-word"></a><a name="set-up-the-template-in-word"></a><a name="set-up-the-template-in-word"></a>De sjabloon instellen in Word
+## <a name="set-up-the-template-in-word"></a>De sjabloon instellen in Word
 
 Wanneer u een sjabloon in Word instelt, kunt u op het tabblad **Mailings** samenvoegvelden toevoegen door **Samenvoegveld invoegen** te kiezen. De samenvoegvelden zijn afkomstig uit het gegevensbronbestand dat u voor de entiteit hebt gedownload. Ze fungeren als tijdelijke aanduidingen die Word vertellen waar in het document de informatie over de entiteit moet worden geplaatst.
 
 :::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Samenvoegvelden toevoegen in Microsoft Word":::
 
-## <a name="apply-a-template"></a><a name="apply-a-template"></a><a name="apply-a-template"></a>Een sjabloon toepassen
+## <a name="apply-a-template"></a>Een sjabloon toepassen
 
 Als uw Word-sjabloon klaar is, kunt u op de pagina **Word-sjablonen** **Toepassen** kiezen om de documenten te genereren. Wanneer u een Word-sjabloon toepast op een entiteit, worden gegevens uit de samenvoegvelden in het document ingevoegd. U kunt één document maken dat secties voor elke entiteit bevat, of **Splitsen** kiezen om voor elke entiteit een nieuw document te maken.
 
 U kunt de actie **Word-sjablonen toepassen** gebruiken om sjablonen toe te passen op een of meer van hetzelfde type entiteit, zoals een klant, rechtstreeks in de context van de pagina voor de entiteit. Bijvoorbeeld de pagina's **Klant** of **Leverancier**.
 
-## <a name="use-word-templates-with-email"></a><a name="use-word-templates-with-email"></a><a name="use-word-templates-with-email"></a>Word-sjablonen gebruiken met e-mail
+## <a name="use-word-templates-with-email"></a>Word-sjablonen gebruiken met e-mail
 
 U kunt Word-sjablonen gebruiken om inhoud aan e-mailberichten toe te voegen. Wanneer u een e-mail opstelt, kunt u de actie **Word-sjabloon gebruiken** kiezen om de inhoud van een sjabloon op het bericht toe te passen. U moet sjablonen voor de entiteit hebben gemaakt. U kunt één sjabloon tegelijk gebruiken en wanneer u tussen sjablonen schakelt, verandert het bericht om de inhoud van de gekozen sjabloon weer te geven.
 
@@ -95,7 +95,7 @@ Daarnaast kunt u de actie **Bestand toevoegen vanuit Word-sjabloon** gebruiken o
 
 :::image type="content" source="media/email-word-tmpl.PNG" alt-text="Opties voor het gebruik van inhoud uit een Word-sjabloon in een e-mail":::
 
-## <a name="edit-a-word-template"></a><a name="edit-a-word-template"></a><a name="edit-a-word-template"></a>Een Word-sjabloon bewerken
+## <a name="edit-a-word-template"></a>Een Word-sjabloon bewerken
 
 U kunt de volgende wijzigingen aanbrengen in uw Word-sjablonen:
 
@@ -104,7 +104,7 @@ U kunt de volgende wijzigingen aanbrengen in uw Word-sjablonen:
 * Gebruik de actie **Uploaden** om de Word-sjabloon te vervangen door een nieuwe sjabloon
 * De sjabloon verwijderen
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Rapport- en documentlay-outs beheren](ui-manage-report-layouts.md)  
 [E-mail instellen](admin-how-setup-email.md)  

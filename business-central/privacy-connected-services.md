@@ -9,7 +9,7 @@ ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a><a name="trial-features-that-connect-to-other-microsoft-services"></a><a name="trial-features-that-connect-to-other-microsoft-services"></a>Proeffuncties die verbinding maken met andere Microsoft-services
+# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Proeffuncties die verbinding maken met andere Microsoft-services
 
 [!INCLUDE[prod_long](includes/prod_long.md)] is een uitgebreide oplossing voor bedrijfsbeheer die diep is geïntegreerd met Microsoft 365 productiviteits-apps en het Power Platform. Uw gratis proefversie van Business Central kan verbinding maken met veel verschillende Microsoft-services die u eerst moet configureren en inschakelen. Om het meeste uit uw gratis proefperiode te halen zijn sommige van deze functies automatisch voor u ingeschakeld. Ook al is de verbinding van [!INCLUDE[prod_short](includes/prod_short.md)] ingeschakeld, deze services zijn niet inbegrepen bij uw proefversie en moeten apart worden aangeschaft, tenzij u ze al hebt.
 

@@ -11,7 +11,7 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a><a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a><a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten
+# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten
 
 Vanuit PDF- of afbeeldingsbestanden die u ontvangt van uw handelspartners, kunt u elektronische documenten laten genereren door een externe OCR-service (Optical Character Recognition - optische tekenherkenning), die kunnen worden geconverteerd naar documentrecords in [!INCLUDE[prod_short](includes/prod_short.md)]. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze [naar de OCR-service verzenden vanaf de pagina **Inkomende documenten**](#to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page).
 
@@ -26,7 +26,7 @@ Het verkeer van bestanden van en naar de OCR-service wordt verwerkt door een spe
 > [!NOTE]
 > De OCR-functie wordt geleverd door externe providers. Kies een servicepakket dat past bij uw organisatie en/of land/regio. U vindt services die compatibel zijn met [!INCLUDE[prod_short](includes/prod_short.md)] en details over beschikbare functies op [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a><a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a><a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Een PDF- of afbeeldingsbestand verzenden naar de OCR-service vanaf de pagina Inkomende documenten
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Een PDF- of afbeeldingsbestand verzenden naar de OCR-service vanaf de pagina Inkomende documenten
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkomende documenten** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een nieuwe inkomende documentrecord en koppel het bestand eraan. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.  
@@ -37,7 +37,7 @@ Het verkeer van bestanden van en naar de OCR-service wordt verwerkt door een spe
 
    De waarde in het veld **OCR-status** verandert in **Verzonden** als er geen fouten zijn.
 
-## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a><a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a><a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Een PDF- of afbeeldingsbestand naar de OCR-service verzenden per e-mail
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Een PDF- of afbeeldingsbestand naar de OCR-service verzenden per e-mail
 
 Vanuit uw e-mailtoepassing kunt u een e-mailbericht doorsturen naar de aanbieder van de OCR-service met het PDF- of afbeeldingsbestand als bijlage. Zie de website van de provider van de OCR-service voor meer informatie over het e-mailadres waarnaar het bericht moet worden verzonden.
 
@@ -46,7 +46,7 @@ Aangezien er geen inkomende documentrecord bestaat voor het bestand, wordt autom
 > [!NOTE]  
 > Als u op een tablet of telefoon werkt, kunt u het bestand naar de OCR-service verzenden zodra u een foto van het document hebt gemaakt, of u kunt rechtstreeks een inkomend document maken. Zie [Een inkomende documentrecord maken door een foto te maken](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo) voor meer informatie.
 
-## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a><a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a><a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Het resulterende elektronische document ontvangen van de OCR-service
+## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Het resulterende elektronische document ontvangen van de OCR-service
 
 Het elektronische document dat door de OCR-service van het PDF- of het afbeeldingsbestand wordt gemaakt, wordt automatisch ontvangen op de pagina **Inkomende documenten** door de verwerkingswachtrijpost die wordt ingesteld wanneer u de OCR-service inschakelt.
 
@@ -65,7 +65,7 @@ Als u geen verwerkingswachtrij gebruikt of een voltooid OCR-document eerder wilt
 
 U kunt nu doorgaan met het, handmatig of automatisch, maken van documentrecords voor de ontvangen elektronische documenten in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie de volgende procedure voor meer informatie. U kunt ook [de nieuwe inkomende documentrecord aan bestaande geboekte of niet-geboekte documenten koppelen](across-how-connect-disconnect-income-document-records.md) zodat het bronbestand gemakkelijk toegankelijk is vanuit [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a><a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a><a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Een inkoopfactuur op basis van een elektronisch document ontvangen van de OCR-service maken
+## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Een inkoopfactuur op basis van een elektronisch document ontvangen van de OCR-service maken
 
 Met de volgende procedure wordt beschreven hoe u een inkoopfactuurrecord maakt op basis van een leveranciersfactuur die is ontvangen als een elektronisch document van de OCR-service. De procedure is hetzelfde wanneer u bijvoorbeeld een dagboekregel van een kostenontvangst maakt of een verkoopretourorder van een klant.
 
@@ -78,7 +78,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] wordt een inkoopfactuur gemaak
 
 Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende mastergegevens in [!INCLUDE[prod_short](includes/prod_short.md)], worden weergegeven op het sneltabblad **Fouten en waarschuwingen**. Zie [Fouten afhandelen bij de ontvangst van elektronische documenten](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents) voor meer informatie.
 
-### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a><a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a><a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Tekst in een inkomend document aan een bepaalde leveranciersrekening toewijzen
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Tekst in een inkomend document aan een bepaalde leveranciersrekening toewijzen
 
 Voor inkomende documenten gebruikt u meestal de actie **Tekst toewijzen aan rekening**om te definiëren daten bepaalde tekst op een leveranciersfactuurontvangen van OCR-service, is toegewezen aan een bepaalde leveranciersrekening. In de toekomst betekent elk deel van de inkomende documentbeschrijving dat bestaat als een toewijzingstekst, dat het veld **Leveranciersnr.** op resulterende document- of journaalregels van het type *Grootboekrekening* wordt gevuld met de betreffende leverancier.
 
@@ -94,7 +94,7 @@ U kunt tekst niet alleen aan een leveranciersrekening of aan grootboekrekeningen
    > Gebruik de velden **Bronsoort saldo** en **Bronnr. saldo** niet in combinatie met inkomende documenten. Deze worden alleen gebruikt voor automatische betalingsreconciliatie. Zie [Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) voor meer informatie.
 6. Herhaal stap 2 tot en met 5 voor alle tekst in inkomende documenten waarvoor u automatisch documenten wilt maken.
 
-## <a name="to-handle-errors-when-receiving-electronic-documents"></a><a name="to-handle-errors-when-receiving-electronic-documents"></a><a name="to-handle-errors-when-receiving-electronic-documents"></a>Fouten afhandelen bij de ontvangst van elektronische documenten
+## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Fouten afhandelen bij de ontvangst van elektronische documenten
 
 1. Selecteer op de pagina **Inkomende documenten** de regel voor een elektronisch document dat is ontvangen van de OCR-service met fouten, aangegeven door de waarde *Fout* in het veld **OCR-status**.
 2. Kies de actie **Bewerken**om de pagina **Inkomende documenten** te openen.
@@ -104,7 +104,7 @@ U kunt tekst niet alleen aan een leveranciersrekening of aan grootboekrekeningen
 6. Ga door met de verwerking van het inkomende elektronische document door nogmaals de actie **Handmatig maken** te kiezen.
 7. Herhaal stap 5 en 6 voor eventuele andere fouten tot het elektronische document probleemloos kan worden ontvangen.
 
-## <a name="to-train-the-ocr-service-to-avoid-errors"></a><a name="to-train-the-ocr-service-to-avoid-errors"></a><a name="to-train-the-ocr-service-to-avoid-errors"></a>De OCR-service trainen om fouten te voorkomen
+## <a name="to-train-the-ocr-service-to-avoid-errors"></a>De OCR-service trainen om fouten te voorkomen
 
 Omdat OCR is gebaseerd op optische herkenning, kan de OCR-service tekens in uw PDF- of afbeeldingsbestanden verkeerd interpreteren wanneer bijvoorbeeld de documenten van een bepaalde leverancier voor het eerst worden verwerkt. De service interpreteert het bedrijfslogo mogelijk niet als de naam van de leverancier of interpreteert het totaalbedrag op een onkostenbewijs verkeerd vanwege de lay-out ervan. Als u dergelijke fouten voortaan wilt voorkomen, kunt u gegevens die van de OCR-service worden ontvangen, corrigeren en de feedback vervolgens terugsturen naar de service.
 
@@ -120,9 +120,9 @@ De pagina **Correctie OCR-gegevens**, die u opent vanuit de pagina **Inkomend do
 
 De velden op het sneltabblad **Financiële informatie** op de pagina **Inkomende documenten** worden bijgewerkt met nieuwe waarden die u in stap 4 hebt ingevoerd.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Inkomende documentrecords maken](across-how-create-income-document-records.md)
 [Inkomende documentrecords maken direct van documenten en posten](across-how-connect-disconnect-income-document-records.md)

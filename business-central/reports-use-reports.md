@@ -10,7 +10,7 @@ ms.search.keywords: feature overview
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# <a name="use-reports-in-daily-work"></a><a name="use-reports-in-daily-work"></a><a name="use-reports-in-daily-work"></a>Rapporten gebruiken in het dagelijkse werk
+# <a name="use-reports-in-daily-work"></a>Rapporten gebruiken in het dagelijkse werk
 
 Een rapport in [!INCLUDE[prod_short](includes/prod_short.md)] verzamelt informatie op basis van een gespecificeerde set criteria. Het organiseert en presenteert de informatie in een gemakkelijk te lezen formaat dat u kunt afdrukken of opslaan als een bestand.  
 
@@ -25,9 +25,9 @@ Een rapport in [!INCLUDE[prod_short](includes/prod_short.md)] verzamelt informat
 | Leer hoe u de standaardindeling van een rapport wijzigt. | [De standaardrapportindeling wijzigen](ui-how-change-layout-currently-used-report.md) |
 | Gegevens uit een rapportgegevensset bekijken en analyseren in Microsoft Excel. | [Rapportgegevensset opslaan in Excel vanaf de aanvraagpagina](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Rapportoverzicht](reports-available-reports.md)  
 [Overzicht van bedrijfsinformatie en rapportage](ui-work-report.md)  

@@ -11,13 +11,13 @@ ms.search.form: '9650, 9652'
 ms.date: 03/14/2022
 ms.author: jswymer
 ---
-# <a name="working-with-rdlc-layouts"></a><a name="working-with-rdlc-layouts"></a><a name="working-with-rdlc-layouts"></a>Werken met RDLC-lay-outs
+# <a name="working-with-rdlc-layouts"></a>Werken met RDLC-lay-outs
 
 RDLC-lay-outs zijn gebaseerd op clientrapportdefinitielay-outs (.rdl- of .rdlc-bestandstypen). De grondslagen voor het ontwerp van RDLC-lay-outs zijn vergelijkbaar met die voor andere lay-outtypen. De lay-out bepaalt welke velden worden weergegeven en hoe ze zijn gerangschikt. RDLC-lay-outs ontwerpen is echter veel geavanceerder dan Word- en Excel-lay-outs ontwerpen.
 
 [![Toont de verschillende elementen van een RDLC-lay-out.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## <a name="required-tools"></a><a name="required-tools"></a><a name="required-tools"></a>Vereiste hulpprogramma's
+## <a name="required-tools"></a>Vereiste hulpprogramma's
 
 Om RDL-lay-outs te wijzigen, kunt u Microsoft SQL Server Report Builder of Microsoft RDLC Report Designer gebruiken.
 
@@ -25,7 +25,7 @@ Om RDL-lay-outs te wijzigen, kunt u Microsoft SQL Server Report Builder of Micro
 
 - RDLC Report Designer is een extensie voor Visual Studio 2017 en hoger. U kunt RDLC Report Designer downloaden en installeren vanaf de [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## <a name="create-and-modify-rdlc-layouts"></a><a name="create-and-modify-rdlc-layouts"></a><a name="create-and-modify-rdlc-layouts"></a>RDLC-lay-outs maken en wijzigen
+## <a name="create-and-modify-rdlc-layouts"></a>RDLC-lay-outs maken en wijzigen
 
 Het maken en wijzigen van RDLC-lay-outs is een geavanceerde taak, die doorgaans wordt uitgevoerd door ervaren gebruikers of ontwikkelaars. De grondslagen zijn niet specifiek voor Business Central-rapportlay-outs. Om deze reden verwijzen wij u naar de volgende documentatie:
 
@@ -41,9 +41,9 @@ die ten grondslag liggen aan RDL/RDLC en over hoe u Report Builder gebruikt.
 > [!NOTE]
 > Report Builder herkent alleen het .rdl-bestandstype;, niet .rdlc. Lay-outbestanden die uit Business Central worden geëxporteerd, zijn .rdlc-bestandstypen. Dus om deze lay-out in Report Builder te wijzigen, hernoemt u het bestandstype naar .rdl.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [De lay-out instellen die door een rapport wordt gebruikt](ui-set-report-layout.md)  

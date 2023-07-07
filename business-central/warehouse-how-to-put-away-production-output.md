@@ -10,7 +10,7 @@ ms.date: 12/20/2022
 ms.custom: bap-template
 ms.search.forms: '9326, 99000831, 9315, 7375'
 ---
-# <a name="put-away-production-or-assembly-output"></a><a name="put-away-production-or-assembly-output"></a><a name="put-away-production-or-assembly-output"></a>Productie- of assemblageoutput opslaan
+# <a name="put-away-production-or-assembly-output"></a>Productie- of assemblageoutput opslaan
 
 Hoe u de productieoutput opslaat, is afhankelijk van de vestigingsinstellingen van het magazijn. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).  
 
@@ -21,11 +21,11 @@ In standaardmagazijnconfiguraties waar voor uw vestiging opslagverwerking vereis
 
 In geavanceerde magazijnconfiguraties waar voor een vestiging zowel opslag- als ontvangstverwerking vereist is, kunt u een interne-opslagdocument of een verplaatsingsdocument maken om de output op te slaan.  
 
-## <a name="to-put-away-production-output-with-an-inventory-put-away"></a><a name="to-put-away-production-output-with-an-inventory-put-away"></a><a name="to-put-away-production-output-with-an-inventory-put-away"></a>Productieoutput opslaan met een voorraadopslag
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Productieoutput opslaan met een voorraadopslag
 
 De eerste stap bij het opslaan van output is het maken van het inkomende magazijnverzoek. Deze aanvraag informeert het magazijn dat de output van de productie- of assemblageorder gereed is voor opslag.
 
-### <a name="to-create-the-inbound-warehouse-request"></a><a name="to-create-the-inbound-warehouse-request"></a><a name="to-create-the-inbound-warehouse-request"></a>Ink.magazijnontvangst maken
+### <a name="to-create-the-inbound-warehouse-request"></a>Ink.magazijnontvangst maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vrijgegeven productieorder** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in de productieorder die gereed is voor opslag en kies dan de actie **Ink. magazijnontvangst maken**.  
@@ -33,7 +33,7 @@ De eerste stap bij het opslaan van output is het maken van het inkomende magazij
 > [!NOTE]  
 > U kunt de inkomende magazijnaanvraag ook maken door het veld **Inkomend verzoek maken** te kiezen bij het vernieuwen van de productieorder. Zie voor meer informatie [Productieorders vernieuwen of opnieuw plannen](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a><a name="to-put-output-away-with-an-inventory-put-away"></a><a name="to-put-output-away-with-an-inventory-put-away"></a>Output opslaan met een voorraadopslag
+### <a name="to-put-output-away-with-an-inventory-put-away"></a>Output opslaan met een voorraadopslag
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadopslag** in en kies vervolgens de gerelateerde koppeling.  
 2. Een nieuwe voorraadopslag maken. Zie voor meer informatie [Artikelen opslaan met voorraadopslag](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,14 +49,14 @@ Wanneer u een voorraadopslag boekt, wordt ervan uitgegaan dat alle bewerkingen w
 
 Als u alleen instel- of bewerkingstijd hoeft te boeken voor de laatste bewerking, stelt u de outputhoeveelheid voor de laatste bewerking in op 0. U kunt ervoor kiezen om de laatste regel helemaal niet te boeken door deze te verwijderen.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a><a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a><a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Assemblage en productieoutput opslaan in geavanceerde magazijnconfiguraties
+## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Assemblage en productieoutput opslaan in geavanceerde magazijnconfiguraties
 
 Wanneer u de output van een productie- of assemblageorder boekt in een magazijn dat gestuurde opslag en pick gebruikt, wordt de output in de opslaglocatie geplaatst die is gedefinieerd in de productie- of assemblageorder. Zie [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet) voor meer informatie over de verschillende manieren om artikelen in het magazijn met geavanceerde configuraties te verplaatsen.
 
 > [!NOTE]  
 > In geen van beide procedures (assembly- of productieoutput) kunt u het brondocumentnummer, zoals het productieordernummer invoeren in de documenten voor interne opslag, opslag of verplaatsing.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

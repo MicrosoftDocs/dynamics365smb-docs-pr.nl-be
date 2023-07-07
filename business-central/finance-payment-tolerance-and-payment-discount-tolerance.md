@@ -10,7 +10,7 @@ ms.search.form: '118, 314, 395'
 ms.date: 04/03/2023
 ms.author: edupont
 ---
-# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a><a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a><a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Werken met betalingstolerantie en contantkortingstolerantie
+# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Werken met betalingstolerantie en contantkortingstolerantie
 
 U kunt een betalingstolerantie instellen om een factuur te sluiten wanneer de betaling het bedrag op de factuur niet volledig dekt. Betalingstoleranties zijn bijvoorbeeld doorgaans voor kleine bedragen die meer zouden kosten om te corrigeren dan gewoon te accepteren. U kunt een contantkortingstolerantie instellen om een contantkorting te verlenen nadat de datum van de betalingskorting is verstreken.  
 
@@ -18,7 +18,7 @@ Gebruik betalingstoleranties, zodat elk openstaand bedrag een vastgestelde maxim
 
 U kunt contantkortingstoleranties gebruiken, zodat als u een betalingskorting accepteert nadat de betalingskortingsdatum is verstreken, deze altijd wordt geboekt naar de contantkortingsrekening of een betalingstolerantierekening.
 
-## <a name="applying-payment-tolerance-to-multiple-documents"></a><a name="applying-payment-tolerance-to-multiple-documents"></a><a name="applying-payment-tolerance-to-multiple-documents"></a>Betalingstolerantie voor meerdere documenten toepassen
+## <a name="applying-payment-tolerance-to-multiple-documents"></a>Betalingstolerantie voor meerdere documenten toepassen
 
 Documenten hebben altijd dezelfde betalingstolerantie, ongeacht of ze afzonderlijk of samen met andere documenten worden vereffend. Acceptatie van een late contantkorting wanneer u betalingstolerantie op meerdere documenten toepast, vindt automatisch plaats voor elk document waarin de volgende regel is ingesteld op true:  
 
@@ -36,7 +36,7 @@ U kunt kiezen om een waarschuwing weer te geven die is gebaseerd op tolerantie i
 
 Zie voor meer informatie [Betalingstolerantiewaarschuwingen in- of uitschakelen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
-## <a name="to-set-up-tolerances"></a><a name="to-set-up-tolerances"></a><a name="to-set-up-tolerances"></a>Toleranties instellen
+## <a name="to-set-up-tolerances"></a>Toleranties instellen
 
 Met tolerantie ten aanzien van dagen en bedragen kunt u een factuur sluiten hoewel de betaling het bedrag op de factuur niet volledig dekt. Bijvoorbeeld omdat de vervaldatum voor de betalingskorting is overschreden, goederen zijn afgeschreven of door een kleine fout. Dit geldt ook voor restituties en creditnota's.  
 
@@ -70,7 +70,7 @@ U kunt pas toleranties instellen als u verschillende tolerantierekeningen hebt i
 > [!IMPORTANT]  
 > Wanneer u het veld **Aanpassen voor betalingskorting** op de pagina **Instelling btw-boeking** inschakelt, wordt het btw-bedrag beschouwd als het betrekking heeft op de bedragen **Betalingstoleranties** en **Betalingskortingen**, en de btw wordt verlaagd voor beide transactiebedragen als deze bestaan. Het systeem kan niet worden geconfigureerd om btw-verlaging alleen voor één type transactie te gebruiken.  
 
-## <a name="to-enable-or-disable-payment-tolerance-warnings"></a><a name="to-enable-or-disable-payment-tolerance-warnings"></a><a name="to-enable-or-disable-payment-tolerance-warnings"></a>Betalingstolerantiewaarschuwingen in- of uitschakelen
+## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Betalingstolerantiewaarschuwingen in- of uitschakelen
 
 De betalingstolerantiewaarschuwing verschijnt wanneer u een vereffening boekt die een saldo heeft binnen de toegestane tolerantie. Vervolgens kiest u hoe u het saldo wilt boeken en vastleggen.    
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekinstellingen** in en kies vervolgens de gerelateerde koppeling.  
@@ -79,7 +79,7 @@ De betalingstolerantiewaarschuwing verschijnt wanneer u een vereffening boekt di
 > [!NOTE]  
 > De standaardoptie voor de pagina **Betalingstolerantiewaarschuwing** is **Saldo behouden als restbedrag**. De standaardoptie voor de pagina **Waarschuwing voor betalingskortingtolerantie** is **Late contantkorting niet aanvaarden**.
 
-## <a name="to-block-payment-tolerance-for-customers"></a><a name="to-block-payment-tolerance-for-customers"></a><a name="to-block-payment-tolerance-for-customers"></a>Betalingstolerantie voor klanten blokkeren
+## <a name="to-block-payment-tolerance-for-customers"></a>Betalingstolerantie voor klanten blokkeren
 
 Betalingstolerantie wordt standaard toegestaan. Als u geen betalingstolerantie wilt toestaan voor een bepaalde klant of leverancier, moet u de tolerantie op de desbetreffende klanten- of leverancierskaart blokkeren. Hierna wordt beschreven hoe u dit doet voor een klant. De stappen zijn vergelijkbaar voor een leverancier.
 
@@ -89,7 +89,7 @@ Betalingstolerantie wordt standaard toegestaan. Als u geen betalingstolerantie w
 > [!NOTE]  
 > Als de klant of leverancier openstaande posten heeft, moet u eerst de betalingstolerantie verwijderen voor posten die momenteel openstaan.
 
-## <a name="example-1---tolerance-calculations-for-a-single-document"></a><a name="example-1---tolerance-calculations-for-a-single-document"></a><a name="example-1---tolerance-calculations-for-a-single-document"></a>Voorbeeld 1 - tolerantieberekeningen voor één document
+## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Voorbeeld 1 - tolerantieberekeningen voor één document
 
 Hieronder vindt u enkele voorbeeldscenario's waarin de verwachte tolerantieberekeningen en -boekingen in verschillende situaties worden behandeld.  
 
@@ -123,11 +123,11 @@ Scenario's met alternatief A of B vertegenwoordigen het volgende:
 |14|1.000|20|5|15-01-03|20-01-03|>20.01.03|980|Geen|Nee, 20 op de factuur|0|0|  
 |15|1.000|20|5|15-01-03|20-01-03|>20.01.03|975|Geen|Nee, 25 op de factuur|0|0|  
 
-### <a name="payment-range-diagrams"></a><a name="payment-range-diagrams"></a><a name="payment-range-diagrams"></a>Betalingsbereikdiagrammen
+### <a name="payment-range-diagrams"></a>Betalingsbereikdiagrammen
 
 Het bovenstaande scenario resulteert in de volgende diagrammen met betalingsbereiken:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3"></a><a name="1-payment-date-011503-scenarios-1-3"></a><a name="1-payment-date-011503-scenarios-1-3"></a>(1) Betaaldatum <=15.01.03 (scenario's 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Betaaldatum <=15.01.03 (scenario's 1-3)
 
 Restbedrag per  
 
@@ -139,7 +139,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a><a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a><a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Betaaldatum ligt tussen 16.01.03 en 20.01.03 (scenario's 4-9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Betaaldatum ligt tussen 16.01.03 en 20.01.03 (scenario's 4-9)
 
 Restbedrag per  
 
@@ -151,7 +151,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a><a name="3-payment-date-is-after-012003-scenarios-10-15"></a><a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Betaaldatum valt na 20.01.03 (scenario's 10-15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Betaaldatum valt na 20.01.03 (scenario's 10-15)
 
 Restbedrag per  
 
@@ -163,7 +163,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen dit bereik valt, kunnen er geen vereffeningsposten worden afgesloten, ook niet met tolerantie.  
 
-## <a name="example-2---tolerance-calculations-for-multiple-documents"></a><a name="example-2---tolerance-calculations-for-multiple-documents"></a><a name="example-2---tolerance-calculations-for-multiple-documents"></a>Voorbeeld 2 - tolerantieberekeningen voor meerdere documenten
+## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Voorbeeld 2 - tolerantieberekeningen voor meerdere documenten
 
 Hieronder vindt u enkele voorbeeldscenario's waarin de verwachte tolerantieberekeningen en -boekingen in verschillende situaties worden behandeld. De voorbeelden zijn beperkt tot scenario's waarbij alle posten in de vereffening worden gesloten.  
 
@@ -211,11 +211,11 @@ Scenario's met alternatief A, B, C of D vertegenwoordigen het volgende:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>22.01.03**|**2000**|**Geen**|**Ja**|**0**|**0**|  
 |30|1.000 <br />1.000|60 <br />30|5 <br />5|15-01-03 <br />17-01-03|20-01-03 <br />22.01.03|>22.01.03|1990|Betalingstolerantie|Ja|0|5|  
 
-### <a name="payment-range-diagrams-1"></a><a name="payment-range-diagrams-1"></a><a name="payment-range-diagrams-1"></a>Betalingsbereikdiagrammen
+### <a name="payment-range-diagrams-1"></a>Betalingsbereikdiagrammen
 
 Het bovenstaande scenario resulteert in de volgende diagrammen met betalingsbereiken:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3-1"></a><a name="1-payment-date-011503-scenarios-1-3-1"></a><a name="1-payment-date-011503-scenarios-1-3-1"></a>(1) Betaaldatum <=15-01-03 (scenario's 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1"></a>(1) Betaaldatum <=15-01-03 (scenario's 1-3)
 
 Restbedrag per  
 
@@ -227,7 +227,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a><a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a><a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Betaaldatum ligt tussen 16.01.03 en 17.01.03 (scenario's 4-9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Betaaldatum ligt tussen 16.01.03 en 17.01.03 (scenario's 4-9)
 
 Restbedrag per  
 
@@ -239,7 +239,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a><a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a><a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Betaaldatum ligt tussen 18.01.03 en 20.01.03 (scenario's 10-21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Betaaldatum ligt tussen 18.01.03 en 20.01.03 (scenario's 10-21)
 
 Restbedrag per  
 
@@ -251,7 +251,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a><a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a><a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Betaaldatum ligt tussen 21-1-2003 en 22.01.03 (scenario's 22-27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Betaaldatum ligt tussen 21-1-2003 en 22.01.03 (scenario's 22-27)
 
 Restbedrag per  
 
@@ -263,7 +263,7 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.  
 
-#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a><a name="5-payment-date-is-after-012203-scenarios-28-30"></a><a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Betaaldatum valt na 22.01.03 (scenario's 28-30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Betaaldatum valt na 22.01.03 (scenario's 28-30)
 
 Restbedrag per  
 
@@ -275,9 +275,9 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/enter-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  

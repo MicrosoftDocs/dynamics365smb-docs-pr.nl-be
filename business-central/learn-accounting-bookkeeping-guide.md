@@ -12,7 +12,7 @@ ms.date: 03/14/2023
 ms.author: altotovi
 ---
 
-# <a name="accounting-and-bookkeeping"></a><a name="accounting-and-bookkeeping"></a><a name="accounting-and-bookkeeping"></a>Boekhouding
+# <a name="accounting-and-bookkeeping"></a>Boekhouding
 
 Boekhouding is een kritieke functie in elke ERP-oplossing (Enterprise Resource Planning), en ook in de meeste bedrijven. Boekhouding vertegenwoordigt het proces van het registreren en catalogiseren van de financiële transacties van een bedrijf en het vervolgens ophalen, meten, samenvatten en presenteren van de resultaten door gebruik te maken van verschillende rapporten die vaak vereist zijn door de lokale wetgeving. Het primaire doel van dit proces is om het management van het bedrijf te helpen de financiële gegevens van het bedrijf te begrijpen en de resultaten van de economische activiteiten van het bedrijf te meten.
 
@@ -100,7 +100,7 @@ De volgende tabel beschrijft een reeks taken en biedt koppelingen naar de artike
 | Internationale accountantsorganisaties de mogelijkheid geven om wereldwijd financiële rapporten te maken met behulp van de eXtensible Business Reporting Language-standaard (XBRL). | [Lijsten met XBRL maken](bi-create-reports-with-xbrl.md) |
 | De databasetoegangsintentie voor rapporten, pagina's van het API-type en query's wijzigen om te helpen de belasting te verminderen en de prestaties te verbeteren. | [Intentie databasetoegang beheren](admin-data-access-intent.md) |
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiën instellen](finance-setup-finance.md)  
 [Verkoop](sales-manage-sales.md)  

@@ -11,7 +11,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-payments-and-reconciliations-dk-extension"></a><a name="the-payments-and-reconciliations-dk-extension"></a><a name="the-payments-and-reconciliations-dk-extension"></a>De extensie Betalingen en afstemmingen (DK)
+# <a name="the-payments-and-reconciliations-dk-extension"></a>De extensie Betalingen en afstemmingen (DK)
 
 Snelle, foutloze betalingen doen door bestanden te exporteren die specifiek voor uitwisselingen met uw leverancier of bank zijn ingedeeld. Deze bestanden versnellen de betalings- en afstemmingprocessen, en voorkomen fouten die kunnen optreden als u handmatig de gegevens op een bankwebsite invoert.  
 
@@ -20,7 +20,7 @@ De extensie ondersteunt bestandsindelingen voor diverse Deense banken. Wanneer u
 > [!Note]
 > Als u de extensie wilt gebruiken, moet u weten welke indeling voor uw bank of leverancier is vereist. Sommige banken of leveranciers verstrekken deze informatie op hun website, maar het kan ook nodig zijn om contact op te nemen met hun klantenservice om deze informatie op te vragen.  
 
-## <a name="supported-bank-formats"></a><a name="supported-bank-formats"></a><a name="supported-bank-formats"></a>Indelingen voor banken die worden ondersteund
+## <a name="supported-bank-formats"></a>Indelingen voor banken die worden ondersteund
 De extensie kan de volgende activiteiten voor betalingbestanden vereffenen:  
 
 * Bankdata-V3  
@@ -36,7 +36,7 @@ De extensie kan de volgende activiteiten voor betalingbestanden vereffenen:
 * SDC  
 * SDC-CSV  
 
-## <a name="to-set-up-the-extension"></a><a name="to-set-up-the-extension"></a><a name="to-set-up-the-extension"></a>De extensie instellen
+## <a name="to-set-up-the-extension"></a>De extensie instellen
 
 Er zijn een aantal stappen vereist als u aan de slag wilt.  
 
@@ -47,13 +47,13 @@ Er zijn een aantal stappen vereist als u aan de slag wilt.
 
 Daarnaast moet u leveranciers toewijzen aan een binnenlandse **bedrijfsboekingsgroep** en een **leveranciersboekingsgroep**. De instelling Land/regio voor de leverancier moet Denemarken (DK) zijn. Zie [Boekingsgroepen instellen](finance-posting-groups.md) voor meer informatie.  
 
-### <a name="to-allow--to-export-payment-data"></a><a name="to-allow--to-export-payment-data"></a><a name="to-allow--to-export-payment-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)] toestaan betalingsgegevens te exproteren
+### <a name="to-allow--to-export-payment-data"></a>[!INCLUDE[prod_short](includes/prod_short.md)] toestaan betalingsgegevens te exproteren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Betalingsdagboek bewerken** de batch **Bank**.  
 3. Schakel het selectievakje **Exporteren betaling toestaan** in.  
 
-### <a name="to-specify-a-payment-method-for-a-vendor"></a><a name="to-specify-a-payment-method-for-a-vendor"></a><a name="to-specify-a-payment-method-for-a-vendor"></a>Een betalingswijze voor een leverancier opgeven
+### <a name="to-specify-a-payment-method-for-a-vendor"></a>Een betalingswijze voor een leverancier opgeven
 
 De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die door [!INCLUDE[prod_short](includes/prod_short.md)] worden ondersteund.
 
@@ -67,13 +67,13 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 2. Open de kaart, vouw het tabblad **Betalingen** uit, kies in het veld **Betalingswijze** de betalingswijze.  
 3. Afhankelijk van uw selectie moet u andere velden invullen. Zie de bovenstaande tabel voor een omschrijving van de combinaties.  
 
-### <a name="to-specify-the-format-to-use-for-a-bank-account"></a><a name="to-specify-the-format-to-use-for-a-bank-account"></a><a name="to-specify-the-format-to-use-for-a-bank-account"></a>De indeling opgeven die voor een bankrekening moet worden gebruikt
+### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>De indeling opgeven die voor een bankrekening moet worden gebruikt
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de kaart voor de bankrekening.  
 3. In het veld **Exportindeling betaling** kiest u de indeling voor uw exportbestand.  
 
-## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a><a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a><a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>De betalingsgevens FIK of Giro voor facturen van leveranciers kiezen
+## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>De betalingsgevens FIK of Giro voor facturen van leveranciers kiezen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de leverancier. Dit moet een Deense leverancier zijn met een adres in Denemarken.
@@ -85,7 +85,7 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 
 5. Boek de factuur.
 
-## <a name="to-use-the-extension-to-export-payment-data"></a><a name="to-use-the-extension-to-export-payment-data"></a><a name="to-use-the-extension-to-export-payment-data"></a>De extensie gebruiken om betalingsgegevens te exporteren
+## <a name="to-use-the-extension-to-export-payment-data"></a>De extensie gebruiken om betalingsgegevens te exporteren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Leveranciersbetalingsdagboeken voorstellen**.  
@@ -97,7 +97,7 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 4. Selecteer **Elektronische betaling** in het veld **Betalingssoort**.  
 5. Kies de actie **Exporteren**.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Business Central aanpassen voor [!INCLUDE[prod_short](includes/prod_short.md)] met extensies](ui-extensions.md)  
 [Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)  

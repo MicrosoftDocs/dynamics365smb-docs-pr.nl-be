@@ -10,11 +10,11 @@ ms.search.keywords: 'phone, tablet'
 ms.date: 01/11/2022
 ms.author: jswymer
 ---
-# <a name="get-business-central-desktop-app"></a><a name="get-business-central-desktop-app"></a><a name="get-business-central-desktop-app"></a>Business Central-desktop-app verkrijgen
+# <a name="get-business-central-desktop-app"></a>Business Central-desktop-app verkrijgen
 
 Als u een Windows-pc of macOS-computer hebt, kunt u een Business Central-app op uw desktop installeren. De app werkt met Business Central online en on-premises.
 
-## <a name="why-use-the-app"></a><a name="why-use-the-app"></a><a name="why-use-the-app"></a>Waarom zou u de app gebruiken?
+## <a name="why-use-the-app"></a>Waarom zou u de app gebruiken?
 
 De Business Central-app lijkt op de webclient, maar biedt een aantal voordelen, zoals:
 
@@ -25,11 +25,11 @@ De Business Central-app lijkt op de webclient, maar biedt een aantal voordelen, 
 
      Wanneer u de app voor een specifieke omgeving opent, wordt de omgevingsnaam opgenomen in de titel van het venster. Wanneer u werkt in meerdere [!INCLUDE[prod_short](includes/prod_short.md)]-omgevingen, wordt elk app-venster afzonderlijk weergegeven. De naam maakt het voor u gemakkelijker om te zien welk venster bij elke omgeving hoort.
 
-## <a name="install-the-app-for-business-central-online"></a><a name="install-the-app-for-business-central-online"></a><a name="install-the-app-for-business-central-online"></a>De app voor Business Central online installeren
+## <a name="install-the-app-for-business-central-online"></a>De app voor Business Central online installeren
 
 Er zijn twee manieren om de app voor Business Central online te installeren. U kunt de app rechtstreeks vanuit de browser of vanuit de Microsoft Store installeren. Welke aanpak u ook gebruikt, het is dezelfde app. Het verschil is dat u bij installatie vanuit de browser de app voor elke omgeving kunt installeren als er meer dan één is.
 
-### <a name="from-microsoft-store"></a><a name="from-microsoft-store"></a><a name="from-microsoft-store"></a>Vanuit de Microsoft Store
+### <a name="from-microsoft-store"></a>Vanuit de Microsoft Store
 
 1. Ga naar [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Kies **Ophalen** > **Installeren**. 
@@ -37,7 +37,7 @@ Er zijn twee manieren om de app voor Business Central online te installeren. U k
 
 De volgende keer dat u de app wilt openen, zoekt u deze in het menu **Start**.
 
-### <a name="from-the-browser"></a><a name="from-the-browser"></a><a name="from-the-browser"></a>Vanuit de browser
+### <a name="from-the-browser"></a>Vanuit de browser
 
 1. Open de [!INCLUDE[prod_short](includes/prod_short.md)]-webclient in een Microsoft Edge of Google Chrome.
 
@@ -57,7 +57,7 @@ De volgende keer dat u de app wilt openen, zoekt u deze in het menu **Start**.
 
 Na installatie verschijnt de app in het menu **Start**. Als u een specifieke omgeving voor de app hebt geselecteerd, wordt de omgevingsnaam toegevoegd aan de app-naam in het menu **Start**.
 
-## <a name="install-the-app-for-business-central-on-premises"></a><a name="install-the-app-for-business-central-on-premises"></a><a name="install-the-app-for-business-central-on-premises"></a>De app voor Business Central on-premises installeren
+## <a name="install-the-app-for-business-central-on-premises"></a>De app voor Business Central on-premises installeren
 
 Het installeren van de app wanneer u Business Central on-premises gebruikt, gebeurt rechtstreeks vanuit de browser, [zoals hierboven beschreven](#from-the-browser). Als u slechts één tenant hebt, opent u gewoon Business Central in uw browser en selecteert u ![pictogram voor het installeren van een app in Edge.](media/ui-edge-install-app-icon.png) **App beschikbaar. Business Central installeren** of ![pictogram voor het installeren van een app in Chrome.](media/ui-chrome-install-app-icon.png) **Business Central installeren** zoals hierboven getoond.
 
@@ -66,9 +66,9 @@ Het verschil is wanneer u meerdere tenants hebt. In tegenstelling tot [!INCLUDE[
 > [!IMPORTANT]
 > Als u Business Central 2021 releasewave 1 (versie 18) of eerder gebruikt, kunt u de app niet installeren zoals beschreven in dit artikel. Installeer in plaats daarvan de app vanuit de [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Voor meer informatie en hulp bij het installeren van deze verouderde app raadpleegt u [De Business Central-app voorbereiden en installeren](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Veelgestelde vragen over mobiele apps](ui-mobile-faq.yml)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  

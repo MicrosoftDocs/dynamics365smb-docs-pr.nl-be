@@ -11,7 +11,7 @@ ms.search.form: '43, 48, 9301'
 ms.date: 09/01/2022
 ms.author: edupont
 ---
-# <a name="invoice-sales"></a><a name="invoice-sales"></a><a name="invoice-sales"></a>Verkopen factureren
+# <a name="invoice-sales"></a>Verkopen factureren
 
 U kunt meestal een verkoopfactuur of een verkooporder maken om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.  
 
@@ -25,7 +25,7 @@ In alle andere situaties werken verkooporders en verkoopfacturen op dezelfde wij
 
 U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u kunt omzetten in een verkoopfactuur of verkooporder wanneer er een overeenkomst is. Zie voor meer informatie [Verkoopoffertes maken](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a><a name="create-sales-invoices"></a><a name="create-sales-invoices"></a>Verkoopfacturen maken
+## <a name="create-sales-invoices"></a>Verkoopfacturen maken
 
 Als de klant wilt kopen, boekt u de verkoopfactuur om de gerelateerde aantallen en waarden in te voeren. Wanneer u de verkoopfactuur boekt, kunt u het ook als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf invullen met een overzicht van de factuur- en betalingsgegevens, zoals een koppeling naar PayPal opgeven. Meer informatie op [Documenten per e-mail verzenden](ui-how-send-documents-email.md). Als de klant de factuur dan betaalt, kunt u die betaling op verschillende manieren registreren, afhankelijk van de grootte en de geprefereerde werkstromen van uw organisatie. Meer informatie de sectie [Betalingen registreren](#registering-payments).  
 
@@ -33,7 +33,7 @@ Artikelkaarten kunnen van het type **Voorraad**, **Service** en **Niet-voorraad*
 
 U kunt klantvelden op de verkoopfactuur op een van twee manieren invullen afhankelijk van de vraag of de klant reeds is geregistreerd. Zie stap 2 in de volgende procedure.
 
-### <a name="to-create-a-sales-invoice"></a><a name="to-create-a-sales-invoice"></a><a name="to-create-a-sales-invoice"></a>Een verkoopfactuur maken
+### <a name="to-create-a-sales-invoice"></a>Een verkoopfactuur maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in het veld **Klant** de naam in van een bestaande klant. Als de klant echter nieuw is en daarom niet is geregistreerd, volg dan deze stappen om standaardklantinformatie in te vullen op de pagina **Verkoopfactuur**:
@@ -88,11 +88,11 @@ Het dialoogvenster **Boeken en verzenden bevestigen** geeft de manier aan waarop
 
 Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het systeem en de verkoopfactuur is uitvoer als een PDF-document. De verkoopfactuur wordt verwijderd uit de lijst met verkoopfacturen en wordt vervangen door een nieuw document in de lijst met geboekte verkoopfacturen.  
 
-### <a name="calculating-invoice-discounts-on-sales"></a><a name="calculating-invoice-discounts-on-sales"></a><a name="calculating-invoice-discounts-on-sales"></a>Factuurkortingen op verkopen berekenen
+### <a name="calculating-invoice-discounts-on-sales"></a>Factuurkortingen op verkopen berekenen
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a><a name="posted-invoices"></a><a name="posted-invoices"></a>Geboekte facturen
+## <a name="posted-invoices"></a>Geboekte facturen
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -100,7 +100,7 @@ U kunt een geboekte verkoopfactuur gemakkelijk corrigeren of annuleren voordat h
 
 [Open de lijst **Geboekte verkoopfacturen**](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="registering-payments"></a><a name="registering-payments"></a><a name="registering-payments"></a>Betalingen registreren
+## <a name="registering-payments"></a>Betalingen registreren
 
 Afhankelijk van uw zakelijke behoeften kunt u op verschillende manieren betaald krijgen en die betaling registreren: handmatig, automatisch en door middel van betalingsservices.  
 
@@ -115,13 +115,13 @@ U kunt zelfs direct betaalde facturen voor niet-geregistreerde klanten maken doo
 > [!TIP]
 > Als u uw klanten herinneringen wilt sturen over achterstallige betalingen, moet u eerst herinneringsniveaus en -voorwaarden instellen. Zie [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md) voor meer informatie.  
 
-## <a name="external-document-numbers"></a><a name="external-document-numbers"></a><a name="external-document-numbers"></a>Externe documentnummers
+## <a name="external-document-numbers"></a>Externe documentnummers
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/invoicing-customers-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/invoicing-customers-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  

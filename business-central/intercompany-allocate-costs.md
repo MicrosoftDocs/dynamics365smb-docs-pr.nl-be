@@ -10,7 +10,7 @@ ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="allocate-costs-to-intercompany-partners"></a><a name="allocate-costs-to-intercompany-partners"></a><a name="allocate-costs-to-intercompany-partners"></a>Kosten toewijzen aan intercompany-partners
+# <a name="allocate-costs-to-intercompany-partners"></a>Kosten toewijzen aan intercompany-partners
 Wanneer u intercompany-boekingen gebruikt om documenten tussen partnerbedrijven over te dragen, bepalen de btw-instellingen (voornamelijk de btw-bedrijfsboekingsgroep) die zijn toegewezen aan de klant- of leveranciersrekeningen (gekoppeld aan de intercompany-partner) of en hoe btw wordt berekend en geregistreerd. U kunt ook kostendistributies rechtstreeks vanuit een inkooporder naar partnerbedrijven uitvoeren. Als u bijvoorbeeld een inkoopfactuur van een externe leverancier registreert en u een deel of alle kosten wilt verdelen over een of meer intercompany-partners.
 
 U kunt kosten toewijzen aan een of meer intercompany-partners met behulp van het volgende:
@@ -18,7 +18,7 @@ U kunt kosten toewijzen aan een of meer intercompany-partners met behulp van het
 * **Intercompany-dagboeken** - Deze dagboeken zijn handig bij het afnemen van een service. Bijvoorbeeld wanneer een moederbedrijf een dienst inhuurt om computersystemen in twee dochterondernemingen op te zetten. De factuur wordt naar het moederbedrijf gestuurd, maar de kosten worden toegewezen aan de intercompany-partners. Zie voor meer informatie [Werken met Intercompany-documenten en -dagboeken](intercompany-how-work-documents-journals.md).
 * Inkooporders en facturen - Het gebruik van inkoopdocumenten is handig wanneer de inkoopfuncties van bijvoorbeeld bedrijfskosten gecentraliseerd zijn in één bedrijf en vervolgens worden toegewezen aan de intercompany-partners.
 
-## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a><a name="to-allocate-costs-using-an-intercompany-general-journal"></a><a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Kosten toewijzen met behulp van een intercompany-dagboek
+## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Kosten toewijzen met behulp van een intercompany-dagboek
 Volg deze stappen om een regel in een intercompany-dagboek in te voeren. 
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Intercompany-dagboek** in en kies vervolgens de gerelateerde koppeling.
@@ -42,7 +42,7 @@ Volg deze stappen om een regel in een intercompany-dagboek in te voeren.
    1. Vul indien nodig de resterende velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Herhaal deze stappen voor elke intercompany-partner die in de kosten moet delen.
 1. Kies om het document te boeken en de kosten toe te wijzen **Boeken**.  
 
-## <a name="to-allocate-costs-using-a-purchase-document"></a><a name="to-allocate-costs-using-a-purchase-document"></a><a name="to-allocate-costs-using-a-purchase-document"></a>Kosten toewijzen met behulp van een inkoopdocument
+## <a name="to-allocate-costs-using-a-purchase-document"></a>Kosten toewijzen met behulp van een inkoopdocument
 De volgende procedure beschrijft hoe u kosten kunt toewijzen met behulp van een inkoopfactuur. De stappen zijn hetzelfde voor inkooporders.
 
 > [!NOTE]
@@ -60,12 +60,12 @@ De volgende procedure beschrijft hoe u kosten kunt toewijzen met behulp van een 
 1. Vul indien nodig de resterende velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 1. Kies om de inkooporder te plaatsen **Boeken**.
 
-## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a><a name="to-send-the-allocated-costs-to-intercompany-partners"></a><a name="to-send-the-allocated-costs-to-intercompany-partners"></a>De toegewezen kosten naar intercompany-partners verzenden
+## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>De toegewezen kosten naar intercompany-partners verzenden
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-outboxtransacties** in en kies de gerelateerde koppeling.
 2. Kies regels om te verzenden en kies vervolgens de actie **Verzenden naar IC-partner**. 
 3. Om de kosten toe te wijzen kiest u de actie **Regelacties voltooien**.
 
-## <a name="calculating-vat-for-cost-distributions"></a><a name="calculating-vat-for-cost-distributions"></a><a name="calculating-vat-for-cost-distributions"></a>Btw berekenen voor kostendistributies
+## <a name="calculating-vat-for-cost-distributions"></a>Btw berekenen voor kostendistributies
 Wanneer u een document gebruikt om kosten over intercompany-partners te verdelen, moet u rekening houden met twee btw-instellingen: 
 * De instellingen op de grootboekrekening voor uitgaven:
    * Als de algemene zakelijke of btw-bedrijfsboekingsgroepen zijn ingesteld op de grootboekrekening, is de berekening afhankelijk van de groepen en de productgroepen uit de documentregel.
@@ -77,7 +77,7 @@ Wanneer u een document gebruikt om kosten over intercompany-partners te verdelen
 > [!NOTE]
 > Het is belangrijk om zowel de instelling van de intercompany-partner als de instelling van de grootboekrekening (voor de onkostenrekening die wordt gebruikt voor de kostendistributie) te valideren voordat u kosten toewijst aan intercompany-partners.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 [Intercompany instellen](intercompany-how-setup.md)  
 [Intercompany-transacties beheren](intercompany-manage.md)  
 [Financiën](finance.md)  

@@ -8,17 +8,17 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a><a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a><a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Procedure: Een nieuwe vast geplande productieorder maken en deze wijzigen
+# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Procedure: Een nieuwe vast geplande productieorder maken en deze wijzigen
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken om te werken met productieorders.  
 
-## <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Scenario
+## <a name="scenario"></a>Scenario
 
 Eduardo, de productieplanner bij Contoso Coffee, moet een nieuwe productieorder maken voor 10 eenheden van het artikel **SP-SCM1009, Airpot** die op 28 april moet worden geleverd. Eduardo plant dit met terugwerkende kracht in en bevestigt dat ze op 27 april met de bestelling kunnen beginnen.  
 
 Kort nadat deze taak is voltooid, wordt Eduardo gevraagd om de bestelling te verhogen tot 50 eenheden. Door dit te doen, zorgt de achterwaartse planningsfunctionaliteit ervoor dat de startdatum van de bestelling te vroeg is. Dus plant Eduardo de order voorwaarts vanaf 23 april om een meer realistische einddatum te bepalen.  
 
-## <a name="steps"></a><a name="steps"></a><a name="steps"></a>Stappen
+## <a name="steps"></a>Stappen
 
 1. Maak de initiële productieorder voor 10 eenheden van het artikel **SP-SCM1009, Airpot**.
 
@@ -58,6 +58,6 @@ Kort nadat deze taak is voltooid, wordt Eduardo gevraagd om de bestelling te ver
 
 De nieuwe productieorder is nu ingesteld en er wordt voldaan aan de eisen van Eduardo.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](../contoso-coffee-intro.md)  

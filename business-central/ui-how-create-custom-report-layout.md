@@ -11,7 +11,7 @@ ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a><a name="legacy-create-and-modify-custom-report-layouts"></a><a name="legacy-create-and-modify-custom-report-layouts"></a>(verouderd) Aangepaste rapportlay-outs maken en wijzigen
+# <a name="legacy-create-and-modify-custom-report-layouts"></a>(verouderd) Aangepaste rapportlay-outs maken en wijzigen
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -29,7 +29,7 @@ Nadat u uw aangepaste rapportlay-outs hebt gedefinieerd, kunt u deze selecteren 
 
 U kunt ook aangepaste rapportlay-outs gebruiken om inhoud aan e-mailberichten toe te voegen. Rapportlay-outs kunnen tijd besparen en zorgen voor consistentie door dezelfde inhoud opnieuw te gebruiken wanneer u met uw klanten communiceert. Als u aangepaste rapportlay-outs met e-mail wilt gebruiken, moet het bestandstype voor de lay-out Word zijn en kunt u RDLC niet gebruiken. Meer informatie op [Herbruikbare e-mailteksten en lay-outs instellen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a><a name="create-a-custom-layout"></a><a name="create-a-custom-layout"></a>Een aangepaste lay-out maken
+## <a name="create-a-custom-layout"></a>Een aangepaste lay-out maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.
 
@@ -54,11 +54,11 @@ De aangepaste lay-out is gemaakt en u kunt deze naar wens aanpassen.
 > [!TIP]
 > U kunt de rapportresultaten exporteren naar een Microsoft Excel-bestand om de volledige gegevensset te bekijken, inclusief alle kolommen, maar zonder de lay-out. Het Excel-bestand kan u helpen te valideren dat het rapport de verwachte gegevens retourneert of om problemen vast te stellen. Zie voor meer informatie [Rapportgegevens analyseren met Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="modifying-a-custom-layout"></a><a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Een aangepaste lay-out wijzigen
+## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Een aangepaste lay-out wijzigen
 
 Als u een aangepaste rapportlay-out wilt wijzigen, moet u de rapportlay-out eerst als bestand exporteren naar een locatie op uw computer of netwerk. Open vervolgens het geëxporteerde document en breng de wijzigingen aan. Wanneer u klaar bent met het aanbrengen van de wijzigingen, importeert u de rapportlay-out.
 
-### <a name="modify-a-custom-layout"></a><a name="modify-a-custom-layout"></a><a name="modify-a-custom-layout"></a>Een aangepaste lay-out wijzigen
+### <a name="modify-a-custom-layout"></a>Een aangepaste lay-out wijzigen
 
 1. Exporteer een aangepaste lay-out vanuit de pagina **Aangepaste rapportlay-outs**. Als die pagina nog niet is geopend, zoekt en opent u de pagina **Selectie rapportlay-out**, selecteert u het rapport met de lay-out die u wilt wijzigen, en kiest u de actie **Aangepaste lay-outs**.  
 2. Op de pagina **Aangepaste rapportlay-outs** selecteert u de lay-out die u wilt wijzigen. Vervolgens kiest u de actie **Lay-out exporteren** en **Opslaan** of **Opslaan als** om de rapportlay-out op te slaan op uw computer of netwerk.  
@@ -78,7 +78,7 @@ Als u een aangepaste rapportlay-out wilt wijzigen, moet u de rapportlay-out eers
 > Vergeet niet om het rapportlay-outdocument dat u hebt gewijzigd te importeren. Anders is de nieuwe rapportlay-out niet beschikbaar.
 
 <!--
-## <a name="create-and-modify-custom-report-layouts"></a><a name="create-and-modify-custom-report-layouts"></a><a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Create and modify custom report layouts
+## <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a>Create and modify custom report layouts
 
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word like you do with any Word document.
 
@@ -87,11 +87,11 @@ If you're designing a Word report layout from scratch or adding new data fields,
 > [!TIP]  
 > Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding fonts in Word layouts for consistency
+### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding fonts in Word layouts for consistency
 
 To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-### <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="removing-label-and-data-fields-in-word-layouts"></a><a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Removing label and data fields in Word layouts
+### <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a>Removing label and data fields in Word layouts
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -99,7 +99,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
  The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
+### <a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
 
 1. Right-click the field you want to delete, then choose **Remove Content Control**.  
 
@@ -107,13 +107,13 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 2. Delete the remaining text as needed.  
 
-### <a name="adding-data-fields"></a><a name="adding-data-fields"></a><a name="adding-data-fields"></a>Adding data fields
+### <a name="adding-data-fields"></a>Adding data fields
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [De huidige rapportindeling wijzigen](ui-how-change-layout-currently-used-report.md)  

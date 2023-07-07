@@ -11,11 +11,11 @@ ms.date: 06/16/2021
 ms.author: andregu
 ---
 
-# <a name="managing-vat-rate-changes"></a><a name="managing-vat-rate-changes"></a><a name="managing-vat-rate-changes"></a>Wijzigingen in btw-tarieven beheren
+# <a name="managing-vat-rate-changes"></a>Wijzigingen in btw-tarieven beheren
 
 Btw-tarieven kunnen veranderen afhankelijk van de lokale wetgeving. Elke wijziging in de btw heeft gevolgen voor uw gegevens in [!INCLUDE[prod_short](includes/prod_short.md)] ongeacht of btw wordt verhoogd, verlaagd of verwijderd. Btw is verbonden met veel entiteiten in [!INCLUDE[prod_short](includes/prod_short.md)], zoals klanten, leveranciers, artikelen, resources, artikelkosten en grootboekrekeningen. Wijzigingen in btw-tarieven vinden meestal plaats op een specifieke datum, vanaf welk punt u de btw-instellingen, boekingsgroepen enzovoort moet wijzigen om ervoor te zorgen dat nieuwe verkooporders en inkooporders worden gemaakt met het nieuwe btw-tarief.
 
-## <a name="changing-vat-rates"></a><a name="changing-vat-rates"></a><a name="changing-vat-rates"></a>Btw-tarieven wijzigen
+## <a name="changing-vat-rates"></a>Btw-tarieven wijzigen
 
 De optimale aanpak om een wijziging van het btw-tarief te beheren is om openstaande orders en andere documenten volledig te boeken en te sluiten vóór de datum waarop het btw-tarief wordt gewijzigd, om ervoor te zorgen dat ze niet door de wijziging worden beïnvloed. Dit is de schoonste aanpak waarmee u nieuwe orders en documenten kunt opstarten met het nieuwe btw-tarief.
 
@@ -30,11 +30,11 @@ De volgende aanpak wordt voorgesteld om een wijziging van het btw-tarief te behe
 > [!NOTE]  
 > We zijn momenteel de Wijzigingstool btw-tarief aan het bijwerken. De onderstaande functionaliteit komt mogelijk niet overeen met de functionaliteit in uw omgeving. De update vindt plaats vóór 1 juli 2020 en is geen reguliere maandelijkse update. In plaats daarvan worden alle omgevingen automatisch bijgewerkt (hotfix). Wanneer deze update is voltooid, wordt dit bericht niet meer weergegeven.  
 
-## <a name="the-vat-rate-change-tool"></a><a name="the-vat-rate-change-tool"></a><a name="the-vat-rate-change-tool"></a>De Wijzigingstool btw-tarief
+## <a name="the-vat-rate-change-tool"></a>De Wijzigingstool btw-tarief
 
 De Wijzigingstool btw-tarief kan tot op zekere hoogte helpen bij het omzetten van btw-tarieven op hoofdgegevens, dagboeken en orders. Dit is handig als u de btw op hoofdgegevens gemakkelijker wilt converteren of als u orders hebt die u niet kunt sluiten voor de overstapdatum en die over een langere periode worden verwerkt, waarbij de btw-tariefwisseldatum wordt overschreden. Er zijn bepaalde restricties en beperkingen in de Wijzigingstool btw-tarief die van toepassing zijn.
 
-## <a name="understanding-the-vat-rate-conversion-process-and-limitations"></a><a name="understanding-the-vat-rate-conversion-process-and-limitations"></a><a name="understanding-the-vat-rate-conversion-process-and-limitations"></a>Het proces en de beperkingen voor het converteren van btw-tarieven begrijpen
+## <a name="understanding-the-vat-rate-conversion-process-and-limitations"></a>Het proces en de beperkingen voor het converteren van btw-tarieven begrijpen
 
 De Wijzigingstool btw-tarief voert op verschillende manieren conversies uit voor hoofdgegevens, dagboeken en orders. De geselecteerde stamgegevens en dagboeken worden bijgewerkt door de nieuwe algemene productboekingsgroep of de btw-productboekingsgroep. Als u een order volledig of gedeeltelijk hebt verzonden, blijven de verzonden artikelen onderdeel van de huidige algemene productboekingsgroep of btw-productboekingsgroep. Een nieuwe orderregel wordt gemaakt voor de niet verzonden items en bijgewerkt om overeen te komen met de huidige en de nieuwe BTW- of productboekingsgroepen. Bovendien worden gegevens over artikeltoeslagtoewijzigingen, configuratiesjablonen voor artikelen, reserveringen en artikeltracering dienovereenkomstig bijgewerkt. 
 
@@ -55,7 +55,7 @@ Er is een aantal dingen die niet worden geconverteerd door de tool:
 * Prijzen op verkoopprijzen (hoofdgegevens)
 * Bedrijfsboekingsgroepen voor klanten en leveranciers.
 
-### <a name="to-prepare-vat-rate-change-conversions"></a><a name="to-prepare-vat-rate-change-conversions"></a><a name="to-prepare-vat-rate-change-conversions"></a>Conversies van btw-tariefswijziging voorbereiden
+### <a name="to-prepare-vat-rate-change-conversions"></a>Conversies van btw-tariefswijziging voorbereiden
 
 Voordat u het wijzigingstool btw-tarief instelt, moet u de volgende voorbereidingen treffen.
 
@@ -64,20 +64,20 @@ Voordat u het wijzigingstool btw-tarief instelt, moet u de volgende voorbereidin
 * Om het aantal documenten dat wordt geconverteerd zo klein mogelijk te maken, moet u zoveel mogelijk documenten boeken en niet-geboekte documenten tot een minimum beperken.  
 * Back-up van gegevens maken.
 
-### <a name="to-set-up-the-vat-rate-change-tool"></a><a name="to-set-up-the-vat-rate-change-tool"></a><a name="to-set-up-the-vat-rate-change-tool"></a>Het wijzigingstool btw-tarief instellen
+### <a name="to-set-up-the-vat-rate-change-tool"></a>Het wijzigingstool btw-tarief instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Wijziging btw-tarief instellen** in en kies vervolgens de gerelateerde koppeling.  
 2. Op de sneltabbladen **Hoofdgegevens**, **Dagboeken** en **Documenten** kiest u een boekingsgroepwaarde in de lijst met opties voor verplichte velden. Voor elke groep kunt u kiezen of u btw-productboekingsgroepen of algemene productboekingsgroepen wilt converteren of beide waarden wilt converteren als deze beschikbaar zijn in het stamgegevensitem. Voor sommige gebieden kunt u ook een filter instellen om alleen een subset van waarden te converteren, bijvoorbeeld grootboekrekeningen. 
 3. Kies op het sneltabblad **Prijzen incl. btw** regeltypen voor orders waarvoor u de eenheidsprijzen wilt bijwerken. Eenheidsprijzen op regels van het type Item en Resource worden altijd bijgewerkt.
 
-### <a name="to-set-up-product-posting-group-conversion"></a><a name="to-set-up-product-posting-group-conversion"></a><a name="to-set-up-product-posting-group-conversion"></a>Conversie voor productboekingsgroepen instellen
+### <a name="to-set-up-product-posting-group-conversion"></a>Conversie voor productboekingsgroepen instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Wijziging btw-tarief instellen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Wijziging btw-tarief instellen** en kies de actie **Conversie boekingsgroep btw-producten** of **Conversie boekingsgroep algemene producten**.  
 3. Voer in het veld **Van code** de huidige boekingsgroep in.  
 4. Voer in het veld **Tot code** de nieuwe boekingsgroep in.  
 
-### <a name="to-perform-vat-rate-change-conversion"></a><a name="to-perform-vat-rate-change-conversion"></a><a name="to-perform-vat-rate-change-conversion"></a>Een conversie voor een btw-tariefswijziging uitvoeren
+### <a name="to-perform-vat-rate-change-conversion"></a>Een conversie voor een btw-tariefswijziging uitvoeren
 
 U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief van btw te beheren. U kunt btw en algemene boekingsgroepconversies uitvoeren om btw-tarieven te wijzigen en nauwkeurige btw-rapportage te onderhouden. Afhankelijk van uw instellingen worden de volgende wijzigingen aangebracht:  
 
@@ -100,9 +100,9 @@ U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief va
 > [!IMPORTANT]  
 > Nadat de conversie is voltooid, wordt het veld **Geconverteerd** in de tabel **Dagboekpost wijziging BTW-tarief** ingeschakeld en bevat het veld **Conversiedatum** in de tabel **Dagboekpost wijziging BTW-tarief** de conversiedatum.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/rate-change-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Btw instellen](finance-setup-vat.md)  
 [Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)  

@@ -8,13 +8,13 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# <a name="set-up-taxes-for-the-shopify-connection"></a><a name="set-up-taxes-for-the-shopify-connection"></a><a name="set-up-taxes-for-the-shopify-connection"></a>Belastingen instellen voor de Shopify-verbinding
+# <a name="set-up-taxes-for-the-shopify-connection"></a>Belastingen instellen voor de Shopify-verbinding
 
 In dit artikel zullen we onderzoeken hoe verschillende instellingen in Shopify invloed hebben op de winkelprijzen en belastingen die aan de klant worden getoond. We zullen ook kijken naar hoe [!INCLUDE[prod_short](../includes/prod_short.md)] te configureren om de instellingen in Shopify te ondersteunen. Dit artikel is niet bedoeld als een uitgebreide belastinggids. Neem voor meer informatie contact op met uw lokale belastingdienst of een belastingadviseur.  
 
 In het artikel wordt ervan uitgegaan dat u belasting moet betalen als u goederen lokaal of internationaal verkoopt.
 
-## <a name="if-you-sell-domestically"></a><a name="if-you-sell-domestically"></a><a name="if-you-sell-domestically"></a>Als u in het binnenland verkoopt
+## <a name="if-you-sell-domestically"></a>Als u in het binnenland verkoopt
 
 Nadat u uw Shopify hebt geconfigureerd om belastingen te innen in uw eigen land/regio, kunt u beslissen hoe u de prijzen in uw winkel wilt weergeven.
 U regelt dit door het in- of uitschakelen van de schakelaar **Alle prijzen zijn inclusief btw** in de [**Belastingen en verplichtingen**](https://www.shopify.com/admin/settings/taxes)-instellingen in uw **Shopify-beheer**.
@@ -34,13 +34,13 @@ Definieer nu artikelprijzen op de **Artikelkaart** of in de **Verkoopprijslijst*
 > [!NOTE]
 > Als u de Shopify-connector hebt geconfigureerd om automatisch klanten te maken, hebt u mogelijk meer velden in uw sjabloon nodig, zoals **Klantboekingsgroep**. Als u de standaardklant gebruikt voor geïmporteerde bestellingen, zorg er dan voor dat de klant dezelfde velden heeft ingevuld. U moet nog steeds de **Klantensjablooncode** invullen zoals hierboven opgegeven, omdat het veld **Prijzen inclusief sales tax**/**Prijzen inclusief btw** in het gemaakte verkoopdocument niet afhankelijk is van de klant, maar van de **Klantensjabloon** op de Shopify-winkelkaart of de klantensjabloon per land/regio.
 
-## <a name="if-you-sell-internationally"></a><a name="if-you-sell-internationally"></a><a name="if-you-sell-internationally"></a>Als u internationaal verkoopt
+## <a name="if-you-sell-internationally"></a>Als u internationaal verkoopt
 
 In dit gedeelte bekijken we instellingen voor scenario's waarin u belasting moet innen bij verkoop aan een ander land/regio, zoals andere landen/regio's in de EU.
 
 Momenteel ondersteunt de **Shopify-connector** export van slechts één prijs. Shopify past automatisch lokale belastingen, valuta's en afronding toe. De schakelaar **Alle prijzen zijn inclusief btw** resulteert tot de beschreven acties in de volgende subsecties.
 
-### <a name="all-prices-include-tax-is-selected"></a><a name="all-prices-include-tax-is-selected"></a><a name="all-prices-include-tax-is-selected"></a>*Alle prijzen zijn inclusief btw* is geselecteerd
+### <a name="all-prices-include-tax-is-selected"></a>*Alle prijzen zijn inclusief btw* is geselecteerd
 
 |-|Binnenlandse verkoop|Buitenland waar u belasting int|Buitenland waar u geen belasting int|
 |------------------------|--------|--------|--------|
@@ -50,7 +50,7 @@ Momenteel ondersteunt de **Shopify-connector** export van slechts één prijs. S
 
 De prijs voor klanten blijft intact, ongeacht hun locatie, maar uw marge wordt beïnvloed door belastingtarieven die per land/regio verschillen.
 
-### <a name="all-prices-include-tax-is-not-selected"></a><a name="all-prices-include-tax-is-not-selected"></a><a name="all-prices-include-tax-is-not-selected"></a>*Alle prijzen zijn inclusief btw* is niet geselecteerd
+### <a name="all-prices-include-tax-is-not-selected"></a>*Alle prijzen zijn inclusief btw* is niet geselecteerd
 
 |-|Binnenlandse verkoop|Buitenland waar u belasting int|Buitenland waar u geen belasting int|
 |------------------------|--------|--------|--------|
@@ -60,7 +60,7 @@ De prijs voor klanten blijft intact, ongeacht hun locatie, maar uw marge wordt b
 
 Shopify voegt lokale belastingen toe boven op de prijs die is gedefinieerd op de productkaart op basis van waarnaar goederen worden verzonden.
 
-## <a name="dynamic-tax-inclusive-pricing"></a><a name="dynamic-tax-inclusive-pricing"></a><a name="dynamic-tax-inclusive-pricing"></a>Dynamische prijzen inclusief btw
+## <a name="dynamic-tax-inclusive-pricing"></a>Dynamische prijzen inclusief btw
 
 Omdat verschillende landen/regio's verschillende vereisten hebben, afhankelijk van of u belasting in de weergegeven prijs opneemt of niet, kunt u [dynamische prijzen inclusief btw](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) inschakelen in Shopify. Dit automatiseert de functie voor het opnemen van belastingen.
 
@@ -69,7 +69,7 @@ Selecteer **Inclusief of exclusief belasting op basis van het land/regio van uw 
 > [!NOTE]
 > Deze instelling heeft geen invloed op de weergave van prijzen op binnenlandse markten, die wordt beheerd door de schakelaar **Alle prijzen zijn inclusief btw**.
 
-### <a name="all-prices-include-tax-is-selected-1"></a><a name="all-prices-include-tax-is-selected-1"></a><a name="all-prices-include-tax-is-selected-1"></a>*Alle prijzen zijn inclusief btw* is geselecteerd
+### <a name="all-prices-include-tax-is-selected-1"></a>*Alle prijzen zijn inclusief btw* is geselecteerd
 
 |-|Binnenlandse verkoop|Buitenland waar belasting bij de prijs is inbegrepen|Buitenland waar belasting niet bij de prijs is inbegrepen|
 |------------------------|--------|--------|--------|
@@ -79,7 +79,7 @@ Selecteer **Inclusief of exclusief belasting op basis van het land/regio van uw 
 
 De prijs voor elke klant verandert afhankelijk van hun locatie.
 
-### <a name="all-prices-include-tax-is-not-selected-1"></a><a name="all-prices-include-tax-is-not-selected-1"></a><a name="all-prices-include-tax-is-not-selected-1"></a>*Alle prijzen zijn inclusief btw* is niet geselecteerd
+### <a name="all-prices-include-tax-is-not-selected-1"></a>*Alle prijzen zijn inclusief btw* is niet geselecteerd
 
 |-|Binnenlandse verkoop|Buitenland waar belasting bij de prijs is inbegrepen|Buitenland waar belasting niet bij de prijs is inbegrepen|
 |------------------------|--------|--------|--------|
@@ -90,7 +90,7 @@ De prijs voor elke klant verandert afhankelijk van hun locatie.
 > [!NOTE]
 > De schakelaar **Alle prijzen zijn inclusief btw** verandert niet hoe prijzen worden weergegeven aan internationale klanten.
 
-## <a name="if-you-sell-to-eu-customers"></a><a name="if-you-sell-to-eu-customers"></a><a name="if-you-sell-to-eu-customers"></a>Als u aan klanten in de EU verkoopt
+## <a name="if-you-sell-to-eu-customers"></a>Als u aan klanten in de EU verkoopt
 
 Verschillende EU-landen/regio's hebben verschillende lokale belastingtarieven. Als u zich echter in de EU bevindt en aan andere EU-landen/regio's verkoopt, kunt u in sommige gevallen uw lokale belastingtarief gebruiken.  
 
@@ -102,7 +102,7 @@ Schakel het vak **Btw innen** in het gedeelte **Europese Unie** van de [**Belast
 |One-stop-shop of land/regio-specifieke registratie|Het btw-tarief van het land/regio van uw klant gebruiken|
 
 
-### <a name="collect-vat-set-to-one-stop-shop-registration"></a><a name="collect-vat-set-to-one-stop-shop-registration"></a><a name="collect-vat-set-to-one-stop-shop-registration"></a>Btw innen ingesteld op one-stop-shop registratie
+### <a name="collect-vat-set-to-one-stop-shop-registration"></a>Btw innen ingesteld op one-stop-shop registratie
 
 In het volgende voorbeeld is de schakelaar **Alle prijzen zijn inclusief btw** ingeschakeld. De prijs op de productkaart is ingesteld op *1200*.
         
@@ -112,7 +112,7 @@ In het volgende voorbeeld is de schakelaar **Alle prijzen zijn inclusief btw** i
 |Belastingpercentage|20|25|
 |Prijs bij afrekenen|1200|1250|       
         
-### <a name="collect-vat-set-to-micro-business-exemption"></a><a name="collect-vat-set-to-micro-business-exemption"></a><a name="collect-vat-set-to-micro-business-exemption"></a>Btw innen ingesteld op vrijstelling voor micro-ondernemingen
+### <a name="collect-vat-set-to-micro-business-exemption"></a>Btw innen ingesteld op vrijstelling voor micro-ondernemingen
 
 In het volgende voorbeeld is de schakelaar **Alle prijzen zijn inclusief btw** ingeschakeld. De prijs op de productkaart is ingesteld op *1200*.
         
@@ -124,7 +124,7 @@ In het volgende voorbeeld is de schakelaar **Alle prijzen zijn inclusief btw** i
     
 Shopify negeert het belastingtarief in een buitenland wanneer uiteindelijke prijzen worden berekend en gebruikt het binnenlandse btw-tarief.
 
-## <a name="importing-shopify-orders-sold-to-international-customers"></a><a name="importing-shopify-orders-sold-to-international-customers"></a><a name="importing-shopify-orders-sold-to-international-customers"></a>Shopify-orders importeren die aan internationale klanten zijn verkocht
+## <a name="importing-shopify-orders-sold-to-international-customers"></a>Shopify-orders importeren die aan internationale klanten zijn verkocht
 
 Als u belastingen int uit meerdere landen/regio's, moet u hoogstwaarschijnlijk een land/regio-specifieke instelling definiëren in [!INCLUDE[prod_short](../includes/prod_short.md)]. Dit is vereist omdat wanneer een verkoopdocument wordt gemaakt in [!INCLUDE[prod_short](../includes/prod_short.md)], berekent het systeem belastingen in plaats ze uit Shopify te importeren.
 
@@ -141,7 +141,7 @@ Land-/regiospecifieke instellingen worden gekozen in het venster **Shopify-klant
 [!Note]
 > De instelling van het veld **Prijzen inclusief btw** komt van de sjabloon, niet van de specifieke klant. Daarom is het belangrijk om de klantsjabloon te hebben gedefinieerd.
 
-## <a name="other-tax-remarks"></a><a name="other-tax-remarks"></a><a name="other-tax-remarks"></a>Andere fiscale opmerkingen
+## <a name="other-tax-remarks"></a>Andere fiscale opmerkingen
 
 Terwijl de geïmporteerde Shopify-order informatie over belastingen bevat, worden de belastingen opnieuw berekend wanneer u het verkoopdocument maakt. Vanwege de herberekening is het belangrijk dat de btw/belasting-instellingen correct zijn in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -149,6 +149,6 @@ Terwijl de geïmporteerde Shopify-order informatie over belastingen bevat, worde
 
 - Adresafhankelijke belastingtarieven. Gebruik het veld **Prioriteit van belastinggebied** samen met de tabel **Klantensjablonen** om standaardlogica te overschrijven die de **Code van belastinggebied** invult in het verkoopdocument. Het veld **Prioriteit van belastinggebied** specificeert de prioriteit met betrekking tot waar de functie de informatie over land/regio en staat/provincie vandaan moet halen. Dan wordt de bijbehorende record in de Shopify-klantsjablonen gevonden en worden **Code van belastinggebied**, **Belastingplichtig** en **Btw-bedrijfsboekingsgroep** gebruikt wanneer een verkoopdocument wordt gemaakt.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Aan de slag met de connector voor Shopify](get-started.md)  

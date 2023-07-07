@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-warehouse-setup"></a><a name="design-details-warehouse-setup"></a><a name="design-details-warehouse-setup"></a>Ontwerpdetails: Magazijninstelling
+# <a name="design-details-warehouse-setup"></a>Ontwerpdetails: Magazijninstelling
 
 De magazijnfunctionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] bevat verschillende niveaus van complexiteit, zoals bepaald door licentiemachtigingen in de aangeboden granules. Het niveau van complexiteit in een magazijnoplossing wordt grotendeels bepaald door de instelling van de opslaglocatie op vestigingskaarten, die zelf wordt bepaald door de licentie. Toegang tot de instellingsvelden voor de opslaglocatie wordt dus gedefinieerd door de licentie. Bovendien bepalen de toepassingsobjecten in de licentie welke UI-documenten moeten worden gebruikt voor de ondersteunde magazijnactiviteiten.  
 <!--
@@ -44,7 +44,7 @@ In de volgende tabel wordt getoond welke granules vereist zijn om de verschillen
 
 Zie voor voorbeelden van hoe UI-documenten worden gebruikt per niveau van magazijncomplexiteit [Ontwerpdetails: Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md).  
 
-## <a name="bin-and-bin-content"></a><a name="bin-and-bin-content"></a><a name="bin-and-bin-content"></a>Opslaglocatie en inhoud
+## <a name="bin-and-bin-content"></a>Opslaglocatie en inhoud
 
 Een opslaglocatie is een opslagapparaat dat is ontworpen om afzonderlijke onderdelen te bevatten. Het is de kleinste containereenheid in [!INCLUDE[prod_short](includes/prod_short.md)]. Artikelaantallen in opslaglocaties worden opslaglocatie-inhoud genoemd. Een opzoekactie vanuit het veld **Artikel** of het veld **Opslaglocatie** op een magazijngerelateerde documentregel geeft de berekende beschikbaarheid van het artikel op de opslaglocatie weer.  
 
@@ -61,7 +61,7 @@ De eigenschap Standaardopslaglocatie wordt door het systeem gebruikt om opslaglo
 
 Er kan slechts één standaardopslaglocatie per artikel per vestiging zijn.  
 
-## <a name="bin-type"></a><a name="bin-type"></a><a name="bin-type"></a>Opslaglocatiesoort
+## <a name="bin-type"></a>Opslaglocatiesoort
 
 In WMS-installaties kunt u de magazijnactiviteiten die voor een opslaglocatie toegestaan zijn, beperken door er een opslaglocatiesoort aan toe te wijzen. De volgende typen opslaglocaties bestaan:  
 
@@ -79,7 +79,7 @@ Voor alle opslaglocatiesoorten, behalve PICK, OPSL-PICK en OPSLAG, is geen ander
 > [!NOTE]  
 > Alleen verplaatsing kan worden uitgevoerd naar opslaglocaties van de soort ONTVANGT en QC. Zo kunnen ook alleen verplaatsingen tussen opslaglocaties van het type VERZENDING en QC worden gemaakt.  
 
-## <a name="bin-ranking"></a><a name="bin-ranking"></a><a name="bin-ranking"></a>Opslaglocatievolgorde
+## <a name="bin-ranking"></a>Opslaglocatievolgorde
 
 In geavanceerde magazijnomgevingen kunt u automatiseren en optimaliseren hoe artikelen in opslag en pickvoorstellen worden verzameld door opslaglocaties een rangorde te geven zodat artikelen worden voorgesteld, gebruikt of geplaatst op basis van rangordecriteria, zodat magazijnruimte optimaal wordt gebruikt.  
 
@@ -87,7 +87,7 @@ Opslagprocessen worden geoptimaliseerd op rangorde van opslaglocaties doordat op
 
 De opslaglocatievolgorde en de inhoudsinformatie over de opslaglocatie zijn de basiseigenschappen waarmee gebruikers artikelen in het magazijn kunnen plaatsen.  
 
-## <a name="bin-setup"></a><a name="bin-setup"></a><a name="bin-setup"></a>Instelling opslaglocatie
+## <a name="bin-setup"></a>Instelling opslaglocatie
 Bij geavanceerde magazijnen kunnen opslaglocaties worden ingesteld met capaciteitswaarden, zoals aantal, totale kubieke inhoud en gewicht, om te bepalen welke artikelen op welke manier worden opgeslagen in de opslaglocatie.  
 
 Op elke artikelkaart kunt u een eenheid (UOM) voor het artikel toewijzen, bijvoorbeeld stuks, pallets, liters, grammen of dozen. U kunt ook een basiseenheid voor een artikel hebben en grotere UOM's opgeven die hierop zijn gebaseerd. U kunt bijvoorbeeld een pallet van 16 stuks definiëren. Stuks is de basiseenheid.  
@@ -99,7 +99,7 @@ Voordat u capaciteitsbeperkingen instelt voor inhoud van een opslaglocatie, moet
 > [!NOTE]  
 > Er kan alleen met meerdere eenheden worden gewerkt in WMS-installaties. In alle andere configuraties kan opslaglocatie-inhoud alleen worden uitgedrukt in de basiseenheid. In alle transacties met een hogere maateenheid dan de basismaateenheid van het artikel wordt het aantal geconverteerd naar de basismaateenheid.  
 
-## <a name="zone"></a><a name="zone"></a><a name="zone"></a>Regio
+## <a name="zone"></a>Regio
 
 In geavanceerde magazijnomgevingen kunnen opslaglocaties in zones worden gegroepeerd om te beheren hoe de werkstroom van magazijnactiviteiten wordt gedirigeerd.  
 
@@ -107,18 +107,18 @@ Een zone kan een ontvangstzone of een bevoorradingszone zijn en elke zone kan ui
 
 De meeste eigenschappen die zijn toegewezen aan een zone, worden standaard toegewezen aan de opslaglocatie die vanuit die zone wordt gemaakt.  
 
-## <a name="class"></a><a name="class"></a><a name="class"></a>Klasse
+## <a name="class"></a>Klasse
 In geavanceerde magazijnomgevingen kunt u codes van magazijnklassen toewijzen aan artikelen, opslaglocaties en zones om te bepalen waar verschillende klassen artikelen worden opgeslagen, zoals bevroren goederen. U kunt een zone in verschillende magazijnklassen verdelen. Artikelen in de ontvangstzone kunnen bijvoorbeeld worden opgeslagen als vast, gevaarlijk of een andere klasse.  
 
 Als u magazijnklassen en een standaardopslaglocatie voor ontvangst/verzending gebruikt, moet u de gewenste opslaglocaties in de ontvangst- en verzendingsregels voor het magazijn handmatig invullen.  
 
 In inkomende stromen wordt de klassecode alleen gemarkeerd op inkomende regels waar de artikelklassecode niet overeenkomt met de standaardopslaglocatie. Als de juiste standaardopslaglocaties niet zijn toegewezen, kan het aantal niet worden ontvangen.  
 
-## <a name="location"></a><a name="location"></a><a name="location"></a>Vestiging
+## <a name="location"></a>Vestiging
 
 Een locatie is een fysieke structuur of plaats waar de voorraad wordt ontvangen, opgeslagen en verzonden, en mogelijk in opslaglocaties wordt geordend. Een locatie kan een magazijn, serviceauto, toonzaal, fabriek of een gebied in een fabriek zijn.  
 
-## <a name="first-expired-first-out"></a><a name="first-expired-first-out"></a><a name="first-expired-first-out"></a>First-Expired-First-Out (Eerst-vervallen-eerst-uit)
+## <a name="first-expired-first-out"></a>First-Expired-First-Out (Eerst-vervallen-eerst-uit)
 
 Als u het selectievakje **Picken volgens FEFO** inschakelt op het sneltabblad **Opslaglocatiebeleid** op de vestigingskaart, worden artikelgetraceerde artikelen gepickt op basis van de vervaldatum. De artikelen met de vroegste vervaldatums worden eerst gepickt.  
 
@@ -126,11 +126,11 @@ Magazijnactiviteiten in alle pick- en verplaatsingsdocumenten worden gesorteerd 
 
 Bij picken volgens FEFO worden beschikbare artikelen eerst verzameld in een tijdelijke artikeltraceringslijst op basis van de vervaldatum. Als twee artikelen dezelfde vervaldatum hebben, wordt het artikel met het laagste lot- of serienummer het eerste gepickt. Als de lot- of serienummers gelijk zijn, wordt het artikel dat als eerste is geregistreerd, als eerste geselecteerd. Standaardcriteria voor het selecteren van artikelen in pickopslaglocaties, zoals opslaglocatievolgorde en splitsen van bulkgoederen, worden toegepast op deze tijdelijke FEFO-artikeltraceringslijst.  
 
-## <a name="put-away-template"></a><a name="put-away-template"></a><a name="put-away-template"></a>Opslagsjabloon
+## <a name="put-away-template"></a>Opslagsjabloon
 
 De opslagsjabloon kan worden toegewezen aan een artikel en aan een vestiging. De opslagsjabloon geeft een set prioriteitsregels op die moeten worden aangehouden bij het maken van opslagactiviteiten. Een opslagsjabloon kan bijvoorbeeld vereisen dat het artikel wordt geplaatst in een opslaglocatie met opslaglocatie-inhoud die overeenkomt met de maateenheid en als geen soortgelijke opslaglocatie met voldoende capaciteit kan worden gevonden, moet het artikel in een lege opslaglocatie worden geplaatst.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md)

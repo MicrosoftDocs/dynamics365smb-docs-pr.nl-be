@@ -11,7 +11,7 @@ ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: edupont
 ---
-# <a name="make-sales-quotes"></a><a name="make-sales-quotes"></a><a name="make-sales-quotes"></a>Verkoopoffertes maken
+# <a name="make-sales-quotes"></a>Verkoopoffertes maken
 
 U maakt een verkoopofferte om uw aanbod aan een klant of prospect vast te leggen om producten tegen bepaalde leverings- en betalingscondities te verkopen. U kunt de verkoopofferte aan de klant verzenden om het aanbod te bevestigen. U kunt het document als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf laten invullen met een overzicht van de offerte. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
 
@@ -19,7 +19,7 @@ Terwijl u met de klant of prospect onderhandelt, kunt u zo veel als u wenst de v
 
 In de meeste gevallen stuurt u verkoopoffertes naar potentiële klanten. Vaak hebt u een contactpersoon met wie u onderhandelt. Als zij uw aanbod vervolgens accepteren, maakt u van de verkoopofferte een order en registreert u de prospect als klant in [!INCLUDE [prod_short](includes/prod_short.md)]. In de volgende procedure richten we ons op contacten, maar u kunt ook offertes sturen naar bestaande klanten.  
 
-## <a name="to-create-a-sales-quote"></a><a name="to-create-a-sales-quote"></a><a name="to-create-a-sales-quote"></a>Een verkoopofferte maken
+## <a name="to-create-a-sales-quote"></a>Een verkoopofferte maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopoffertes** in en kies vervolgens de gerelateerde koppeling.
 2. Geef het contact of de klant op naar wie u de verkoopofferte wilt sturen.
@@ -88,13 +88,13 @@ In de meeste gevallen stuurt u verkoopoffertes naar potentiële klanten. Vaak he
 
 De conversie verwijdert de verkoopofferte uit de database. Een verkoopfactuur of een verkooporder wordt gemaakt op basis van de informatie in de verkoopofferte, zodat u de verkoop kunt verwerken. Op de verkoopfactuur of verkooporder vermeldt het veld **Offertenr.** het nummer van de verkoopofferte van waaruit het is gemaakt. Zie [Verkopen factureren](sales-how-invoice-sales.md) of [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 
-## <a name="external-document-number"></a><a name="external-document-number"></a><a name="external-document-number"></a>Externe documentnummer
+## <a name="external-document-number"></a>Externe documentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  

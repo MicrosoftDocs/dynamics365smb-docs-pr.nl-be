@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-"></a><a name="work-with-"></a><a name="work-with-"></a>Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-"></a>Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
 
@@ -18,14 +18,14 @@ U kunt bijvoorbeeld de grootte en positie van elke pagina aanpassen, de breedte 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="tips-and-tricks"></a><a name="tips-and-tricks"></a><a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips en trucs
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips en trucs
 
 > [!TIP]
 > Voor een printvriendelijk overzicht van de meest gebruikte functies kiest u de volgende afbeelding en downloadt u het PDF-bestand.
 >
 > [ ![Pictogram voor het PDF-bestand.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Pictogram dat een PDF opent")
 
-## <a name="links-to-learn-more"></a><a name="links-to-learn-more"></a><a name="links-to-learn-more"></a>Koppelingen voor meer informatie
+## <a name="links-to-learn-more"></a>Koppelingen voor meer informatie
 
 In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergegeven met koppelingen naar onderwerpen waarin deze worden beschreven.
 
@@ -51,12 +51,12 @@ In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergege
 | De inhoud en indeling van rapporten en documenten beheren, inclusief welke gegevensvelden van een rapportgegevensset in het rapport worden weergegeven, hoe ze worden gerangschikt, welke tekststijl en afbeeldingen worden gebruikt, enzovoort.|[Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md) |
 |Leren over functies en mogelijkheden die [!INCLUDE[prod_short](includes/prod_short.md)] beschikbaar maken voor mensen met beperkingen.|[Toegankelijkheid en sneltoetsen](ui-accessibility.md)|
 
-## <a name="getting-around-in-business-central"></a><a name="getting-around-in-business-central"></a><a name="getting-around-in-business-central"></a>Werken in Business Central
+## <a name="getting-around-in-business-central"></a>Werken in Business Central
 Hier volgt een korte video van hoe u werkt in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="choosing-a-desktop-browser"></a><a name="choosing-a-desktop-browser"></a><a name="choosing-a-desktop-browser"></a>Een desktopbrowser kiezen
+## <a name="choosing-a-desktop-browser"></a>Een desktopbrowser kiezen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt meerdere browsers die elk verschillende functies en mogelijkheden bieden. De browser speelt een belangrijke rol in het reactievermogen en de soepelheid van de gebruikersinterface. Zie de lijst met ondersteunde, aanbevolen browsers voor [Business Central online](./product-requirements.md) en browsers voor [Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -65,7 +65,7 @@ Hier volgt een korte video van hoe u werkt in [!INCLUDE[prod_short](includes/pro
     Internet Explorer wordt niet langer ondersteund. Zie voor meer informatie de [documentatie van Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Houd uw browser altijd bijgewerkt naar de nieuwste versie.
 
-## <a name="action-bars"></a><a name="action-bars"></a><a name="action-bars"></a>Actiebalken
+## <a name="action-bars"></a>Actiebalken
 
 Binnen [!INCLUDE [prod_short](includes/prod_short.md)] doet u het meeste van uw werk in een lijst, een document of een kaart. Alle drie soorten pagina's hebben een balk met acties die relevant zijn voor de specifieke pagina, en de acties zijn bijna hetzelfde voor de individuele kaart of het document en voor de lijst met entiteiten. Op deze manier kunt u een individuele verkooporder beheren op de pagina **Verkooporder** en in de lijst **Verkooporders**, inclusief het boeken en factureren ervan.  
 
@@ -80,9 +80,9 @@ Wanneer u zoekt naar een open lijstpagina, zoals de lijst **Verkooporders**, is 
 
 Maar wanneer u dezelfde lijstpagina opent vanaf uw startpagina, is de actie **Beheren** niet aanwezig. Kies in plaats daarvan, om een individuele verkooporder te openen, gewoon het veld **Aantal**. In deze weergave kunt u de actiebalk niet vastzetten.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/work-pro-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Business Central instellen](setup.md)  

@@ -10,7 +10,7 @@ ms.date: 01/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-universal-print-printers"></a><a name="set-up-universal-print-printers"></a><a name="set-up-universal-print-printers"></a>Printers voor Universeel afdrukken instellen
+# <a name="set-up-universal-print-printers"></a>Printers voor Universeel afdrukken instellen
 
 Universeel afdrukken is een service op basis van een Microsoft 365-abonnement die volledig draait op Microsoft Azure. Het biedt u gecentraliseerd printerbeheer via de Universeel afdrukken-portal. [!INCLUDE[prod_short](includes/prod_short.md)] maakt printers die zijn ingesteld in Universeel afdrukken, beschikbaar voor clientgebruikers via de extensie **Integratie met Universeel afdrukken**.
 
@@ -21,7 +21,7 @@ De volledige installatie vereist dat u werkt in Microsoft Azure, met behulp van 
 1. Stel in Microsoft Azure Universeel afdrukken in en voeg de printers die u in Business Central wilt gebruiken toe aan een afdrukshare. Ga naar [deze sectie](#set-up-universal-print-and-printers-in-microsoft-azure).
 2. Voeg in [!INCLUDE[prod_short](includes/prod_short.md)] de printers toe uit de afdrukshares in Universeel afdrukken. Ga naar [dit gedeelte](#add-printers-in-business-central-online) voor online of [hier](#add-printers-in-business-central-on-premises) voor on-premises.
 
-## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Vereisten
+## <a name="prerequisites"></a>Vereisten
 
 - Ondersteunde printers
 
@@ -55,7 +55,7 @@ De volledige installatie vereist dat u werkt in Microsoft Azure, met behulp van 
 
     Om een app te registreren en de juiste machtigingen in te stellen volgt u de stappen die worden beschreven in [Een toepassing registreren in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
-## <a name="set-up-universal-print-and-printers-in-microsoft-azure"></a><a name="set-up-universal-print-and-printers-in-microsoft-azure"></a><a name="set-up-universal-print-and-printers-in-microsoft-azure"></a>Universeel afdrukken en printers instellen in Microsoft Azure
+## <a name="set-up-universal-print-and-printers-in-microsoft-azure"></a>Universeel afdrukken en printers instellen in Microsoft Azure
 
 Voordat u Universeel afdrukken-printers in Business Central kunt gaan beheren, zijn er verschillende taken die u moet doorlopen om Universeel afdrukken in Azure te laten werken met de printers die u wilt gebruiken.
 
@@ -108,7 +108,7 @@ Zie voor gedetailleerde instructies voor het instellen [Aan de slag: Universeel 
 
 Nu bent u klaar om de printers toe te voegen aan [!INCLUDE[prod_short](includes/prod_short.md)], standaardprinters voor rapporten in te stellen en af te drukken.  
 
-## <a name="add-printers-in-business-central-online"></a><a name="add-printers-in-business-central-online"></a><a name="add-printers-in-business-central-online"></a>Printers toevoegen aan Business Central online
+## <a name="add-printers-in-business-central-online"></a>Printers toevoegen aan Business Central online
 
 Nadat printers zijn ingesteld en gedeeld in Universeel afdrukken, kunt u ze voor gebruik toevoegen aan [!INCLUDE[prod_short](includes/prod_short.md)]. Er zijn twee manieren om Universeel afdrukken-printers toe te voegen. U kunt de printers allemaal tegelijk of afzonderlijk een voor een toevoegen.
 
@@ -131,7 +131,7 @@ Door printers afzonderlijk toe te voegen kunt u dezelfde Universeel afdrukken-pr
 
 Nadat een printer is toegevoegd, kunt u de instellingen ervan bekijken en wijzigen via de pagina **Printerbeheer**. Selecteer gewoon de printer en kies **Printerinstellingen bewerken**.
 
-## <a name="add-printers-in-business-central-on-premises"></a><a name="add-printers-in-business-central-on-premises"></a><a name="add-printers-in-business-central-on-premises"></a>Printers toevoegen aan Business Central on-premises
+## <a name="add-printers-in-business-central-on-premises"></a>Printers toevoegen aan Business Central on-premises
 
 <!--With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, unlike online, users aren't automatically authenticated with the registered app in Azure used for the Universal Print service. So, before any Business Central user (including admins) can add or even use Universal Print printers, they'll have to authenticate with the Azure app and grant access to the Universal Print service. The following procedure describes how to initiate this authentication flow. Each user typically only has to do this task once.-->
 
@@ -147,7 +147,7 @@ Dit gebeurt meestal de eerste keer dat ze verbinding maken met de bij Azure gere
 > Als u een beheerder bent, raden we u aan deze taak voor andere gebruikers uit te voeren. Informeer daarna de gebruikers die Universeel afdrukken-printers moeten gebruiken hoe ze dit moeten doen. Als de bij Azure geregistreerde app voor Universeel afdrukken beheerderstoestemming vereist voor API-machtigingen, is het gemakkelijker als u toestemming verleent namens de organisatie. U kunt toestemming van de beheerder verlenen vanuit de Azure Portal of wanneer u de volgende stappen uitvoert. 
 
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
-### <a name="connect-to-universal-print-for-the-first-time"></a><a name="connect-to-universal-print-for-the-first-time"></a><a name="connect-to-universal-print-for-the-first-time"></a>Voor het eerst verbinding maken met Universeel afdrukken
+### <a name="connect-to-universal-print-for-the-first-time"></a>Voor het eerst verbinding maken met Universeel afdrukken
 
 Voer deze stappen uit om voor het eerst verbinding te maken met de Universeel afdrukken-service.
 
@@ -173,11 +173,11 @@ Nadat een printer is toegevoegd, kunt u de instellingen ervan bekijken en wijzig
 
 Nadat u zich voor het eerst hebt aangemeld, kunt u de Universeel afdrukken-printers gebruiken om rapporten en andere afdruktaken af te drukken. Zie voor meer informatie [Een rapport afdrukken](ui-work-report.md#PrintReport). Als u printers wilt toevoegen, verwijderen of wijzigen, gaat u gewoon terug naar de pagina **Afdrukbeheer** en selecteert u **Universeel afdrukken**.
 
-## <a name="common-problems-and-resolutions"></a><a name="common-problems-and-resolutions"></a><a name="common-problems-and-resolutions"></a>Algemene problemen en oplossingen
+## <a name="common-problems-and-resolutions"></a>Algemene problemen en oplossingen
 
 In dit gedeelte leert u over veelvoorkomende problemen die gebruikers kunnen ondervinden bij het instellen of gebruiken van Universeel afdrukken-printers.
 
-### <a name="you-dont-have-access-to-the-printer-your-printer"></a><a name="you-dont-have-access-to-the-printer-your-printer"></a><a name="you-dont-have-access-to-the-printer-your-printer"></a>U hebt geen toegang tot de printer \<your-printer\>.
+### <a name="you-dont-have-access-to-the-printer-your-printer"></a>U hebt geen toegang tot de printer \<your-printer\>.
 
 Als een gebruiker dit bericht krijgt wanneer deze probeert een document af te drukken naar een Universeel afdrukken-printer, kan dit worden veroorzaakt door een van de volgende omstandigheden:
 
@@ -186,17 +186,17 @@ Als een gebruiker dit bericht krijgt wanneer deze probeert een document af te dr
 - (On-premises) De Azure-app-registratie die wordt gebruikt voor Universeel afdrukken werkt niet of is onlangs gewijzigd sinds de laatste keer dat de gebruiker zich aanmeldde.
 - (On-premises) De gebruiker is nog niet aangemeld bij de bij Azure geregistreerde app voor de Universele printer-app en heeft voor de eerste keer toestemming gegeven.
 
-## <a name="there-was-an-error-fetching-printers-shared-to-you"></a><a name="there-was-an-error-fetching-printers-shared-to-you"></a><a name="there-was-an-error-fetching-printers-shared-to-you"></a>Er is een fout opgetreden bij het ophalen van met u gedeelde printers.
+## <a name="there-was-an-error-fetching-printers-shared-to-you"></a>Er is een fout opgetreden bij het ophalen van met u gedeelde printers.
 
 Als een gebruiker dit bericht krijgt wanneer deze probeert een Universeel afdrukken-printer toe te voegen vanaf de pagina **Printerbeheer**, komt dat meestal omdat de gebruiker zich nog niet heeft aangemeld bij de in Azure geregistreerde Universele printer-app en voor het eerst toestemming heeft gegeven. 
 <!--
-### <a name="troubleshooting"></a><a name="troubleshooting"></a><a name="troubleshooting"></a>Troubleshooting
+### <a name="troubleshooting"></a>Troubleshooting
 
-#### <a name="you-dont-see-the-a-printer-in-the"></a><a name="you-dont-see-the-a-printer-in-the"></a><a name="you-dont-see-the-a-printer-in-the"></a>You don't see the a printer in the
+#### <a name="you-dont-see-the-a-printer-in-the"></a>You don't see the a printer in the
 
 The printer is not shared in Universal Print.
 
-### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a><a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a><a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a>You get an error when tryong to add all or a single printer
+### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a>You get an error when tryong to add all or a single printer
 
 You have'nt been assigned a Uincersla Print license.
 
@@ -204,7 +204,7 @@ There was an error fetching printers shared to you. You don't have access to the
 or 
 You don't seem to have access to Universal Print. Make sure you have a Universal Print subscription, and that your account has been assigned a Universal Print license.
 
-## <a name="could-not-upload-the-document-to-print-job-50"></a><a name="could-not-upload-the-document-to-print-job-50"></a><a name="could-not-upload-the-document-to-print-job-50"></a>Could not upload the document to print job 50.
+## <a name="could-not-upload-the-document-to-print-job-50"></a>Could not upload the document to print job 50.
 
 There is a technical problem withe the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
 
@@ -213,10 +213,10 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 -->
 
-## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 [Standaardprinters instellen](ui-specify-printer-selection-reports.md)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van printers](admin-printer-setup-overview.md)  
 [E-mailprinters instellen](admin-printer-setup-email.md)

@@ -11,11 +11,11 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="register-employees"></a><a name="register-employees"></a><a name="register-employees"></a>Werknemers registreren
+# <a name="register-employees"></a>Werknemers registreren
 
 Om de Human Resources-functionaliteit te gebruiken moet u eerst elke werknemer toevoegen door de velden op de pagina **Werknemerskaart** in te vullen.
 
-## <a name="adding-new-employees"></a><a name="adding-new-employees"></a><a name="adding-new-employees"></a>Nieuwe werknemers toevoegen
+## <a name="adding-new-employees"></a>Nieuwe werknemers toevoegen
 
 U kunt nieuwe werknemers handmatig toevoegen door de velden op de pagina **Werknemerskaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen werknemersprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe werknemers en helpt ervoor te zorgen dat de informatie elke keer correct is. Als u sjablonen voor meer dan één type werknemer maakt, kunt u de sjabloon kiezen die u wilt gebruiken wanneer u een werknemer toevoegt. Als u slechts één sjabloon maakt, wordt deze voor alle nieuwe werknemers gebruikt. Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebruiken om deze toe te passen op een of meer geselecteerde werknemers. Om een sjabloon te maken vult u de informatie in die u opnieuw wilt gebruiken op de pagina Werknemerskaart en slaat u deze vervolgens op als sjabloon.
 
@@ -27,13 +27,13 @@ U kunt de gegevens van werknemers op elk gewenst moment wijzigen. Door de werkne
 > [!NOTE]  
 > U kunt werknemers voor hun kosten tijdens zakelijke activiteiten terugbetalen. Hiervoor moet u de velden invullen op het sneltabblad **Betalingen** op de pagina **Werknemer**. Zie voor meer informatie [Uitgaven van werknemers vastleggen en terugbetalen](finance-how-record-reimburse-employee-expenses.md).
 
-## <a name="to-set-up-an-employee"></a><a name="to-set-up-an-employee"></a><a name="to-set-up-an-employee"></a>Werknemers instellen
+## <a name="to-set-up-an-employee"></a>Werknemers instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werknemers** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden op de pagina **Werknemerskaart** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-insert-a-picture-of-an-employee"></a><a name="to-insert-a-picture-of-an-employee"></a><a name="to-insert-a-picture-of-an-employee"></a>Een afbeelding van een werknemer invoegen
+## <a name="to-insert-a-picture-of-an-employee"></a>Een afbeelding van een werknemer invoegen
 
 Als u een foto van een werknemer hebt, kunt u deze invoegen op de werknemerskaart.
 
@@ -45,7 +45,7 @@ Als u een foto van een werknemer hebt, kunt u deze invoegen op de werknemerskaar
 
 De afbeelding wordt ingevoegd in het feitenblok **Werknemerafbeelding**.
 
-## <a name="to-register-various-information-about-an-employee"></a><a name="to-register-various-information-about-an-employee"></a><a name="to-register-various-information-about-an-employee"></a>Verschillende gegevens over een werknemer registreren
+## <a name="to-register-various-information-about-an-employee"></a>Verschillende gegevens over een werknemer registreren
 
 Op de werknemerskaart kunt u gegevens instellen, zoals vakbondslidmaatschap, familieleden en contracten voor de werknemer. Hierna wordt beschreven hoe u een alternatief adres instelt. De stappen zijn soortgelijk voor alle andere gegevens die u vanuit een werknemerskaart kunt instellen.
 
@@ -57,7 +57,7 @@ U kunt alternatieve adressen gebruiken om uw werknemers te traceren, als deze bi
 4. Vul op de pagina **Alt. adressenoverzicht** indien nodig de velden in.
 5. Herhaal stap 4 voor elk alternatief adres.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)  
 [Financiën](finance.md)  
