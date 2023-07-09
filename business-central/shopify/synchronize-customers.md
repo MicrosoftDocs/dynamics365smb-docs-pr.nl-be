@@ -10,14 +10,14 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# Klanten synchroniseren
+# <a name="synchronize-customers"></a>Klanten synchroniseren
 
 Wanneer u een order uit Shopify importeert, is verkrijgen van de informatie over de klant essentieel voor de verdere verwerking van het document in [!INCLUDE[prod_short](../includes/prod_short.md)]. Er zijn twee hoofdopties hiervoor en verschillende combinaties:
 
 * Gebruik een speciale klant voor alle orders.
 * Importeer de actuele klantinformatie uit Shopify. Deze optie is ook beschikbaar wanneer u klanten eerst exporteert naar Shopify vanuit [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## Belangrijke instellingen bij het importeren van klanten uit Shopify
+## <a name="important-settings-when-importing-customers-from-shopify"></a>Belangrijke instellingen bij het importeren van klanten uit Shopify
 
 Of u nu klanten uit Shopify in bulk importeert of samen met de import van orders, met de volgende instellingen kunt u het proces beheren:
 
@@ -29,7 +29,7 @@ Of u nu klanten uit Shopify in bulk importeert of samen met de import van orders
 |**Automatisch onbekende klanten maken**| Selecteer dit veld als u wilt dat de connector ontbrekende klanten maakt wanneer de opties **Op e-mail/telefoon** of **Op factureringsadresinfo** zijn geselecteerd in het veld **Type klanttoewijzing**. Er wordt een nieuwe klant gemaakt met behulp van geïmporteerde gegevens en de **Klantensjablooncode** gedefinieerd op de pagina **Shopify-winkelkaart** of **Shopify-klantensjabloon**. Merk op dat de Shopify-klant minimaal één adres moet hebben. Bij orders die zijn gemaakt via het verkoopkanaal Shopify POS ontbreken vaak adresgegevens. Als deze optie niet is ingeschakeld, moet u een klant handmatig maken en deze koppelen aan de Shopify-klant.|
 |**Klantensjablooncode**|Dit veld wordt gebruikt samen met **Automatisch onbekende klanten maken**.<br>- Kies de standaardsjabloon die moet worden gebruikt voor automatisch gemaakte klanten. Zorg ervoor dat de geselecteerde sjabloon de verplichte velden bevat, zoals de **Bedrijfsboekingsgroep**, **Klantboekingsgroep** en btw- of belastinggerelateerde velden.<br>- U kunt sjablonen per land/regio definiëren op de pagina **Shopify-klantensjablonen**, wat handig is voor een juiste belastingberekening. <br>- Meer informatie op [Belastingen instellen](setup-taxes.md).|
 
-### Klantensjabloon per land/regio
+### <a name="customer-template-per-countryregion"></a>Klantensjabloon per land/regio
 
 Sommige instellingen kunnen worden gedefinieerd op land/regio-niveau of op staat/provincie-niveau. De instellingen kunnen worden geconfigureerd in [Verzending en levering](https://www.shopify.com/admin/settings/shipping) in Shopify.
 
@@ -43,7 +43,7 @@ U kunt voor elke klant het volgende doen met behulp van de **Shopify-klantensjab
 > [!NOTE]  
 > De land/regio-codes zijn ISO 3166-1 alpha-2-land/regio-codes. Meer informatie op [Land/regio-code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Klanten exporteren naar Shopify
+## <a name="export-customers-to-shopify"></a>Klanten exporteren naar Shopify
 
 U kunt bestaande klanten in bulk exporteren naar Shopify. In elk geval worden een klant en één standaardadres gemaakt. U kunt het proces beheren met de volgende instellingen:
 
@@ -66,7 +66,7 @@ De volgende vereisten zijn voor het exporteren van een klant:
 
 Zodra u de klanten hebt gemaakt in Shopify, kunt u ze rechtstreekse uitnodigingen sturen om hen aan te moedigen hun account te activeren.
 
-### Klantgegevens invullen in Shopify
+### <a name="populate-customer-information-in-shopify"></a>Klantgegevens invullen in Shopify
 
 Een klant in Shopify heeft een voornaam, achternaam, e-mailadres en/of telefoonnummer. U kunt de voornaam en achternaam invoeren op basis van de klantenkaart in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -86,7 +86,7 @@ Een klant in Shopify heeft ook een standaardadres. Het adres kan een bedrijf en 
 Voor adressen waar de regio/provincie wordt gebruikt, selecteert u **Code** of **Naam** in het veld **Regiobron** op de pagina **Shopify-winkelkaart**. De code of naam specificeert het type gegevens dat is opgeslagen in [!INCLUDE[prod_short](../includes/prod_short.md)] in het veld **Provincie**. Vergeet niet om klantsjablonen per regio of provincie te initialiseren, zodat de provincie of regiocode/naamtoewijzing gereed is. 
 
 
-## Klanten synchroniseren
+## <a name="sync-customers"></a>Klanten synchroniseren
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de specifieke winkel waarvoor u klanten wilt synchroniseren.
@@ -96,6 +96,6 @@ Of gebruik de actie **Synchronisatie van klanten starten** in het venster **Shop
 
 U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Aan de slag met de connector voor Shopify](get-started.md)  
