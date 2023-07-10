@@ -998,6 +998,7 @@
 ### India
 #### [Overzicht](LocalFunctionality/India/india-local-functionality.md)
 #### [Boekingsnummerreeksen instellen](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Auditprocedure en bewerkingslogboeken voor boekhoudsoftware in India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Belastingberekenfunctie
 ##### [Overzicht](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configuratie van import en export door belastingberekenfunctie](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
