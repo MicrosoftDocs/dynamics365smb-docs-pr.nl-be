@@ -9,15 +9,15 @@ ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Probleemoplossing voor aanmelden bij Self-Service
+# <a name="troubleshooting-self-service-sign-up"></a>Probleemoplossing voor aanmelden bij Self-Service
 Aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)] is eenvoudig en kan erg snel worden uitgevoerd. U kunt een gratis account maken, zelfs als u een bestaande organisatie bent. In dit artikel worden problemen behandeld die u tijdens het aanmelden kunt tegenkomen.
 
-## Welk e-mailadres kan ik gebruiken met Business Central?
+## <a name="what-email-address-can-i-use-with-business-central"></a>Welk e-mailadres kan ik gebruiken met Business Central?
 Voor [!INCLUDE[prod_short](includes/prod_short.md)] moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[prod_short](includes/prod_short.md)] worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.
 
 Als u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u een bericht dat u een e-mailadres van het werk of van school moet gebruiken.
 
-## Problemen oplossen
+## <a name="troubleshooting"></a>Problemen oplossen
 In veel gevallen kunt u uw registratie voor [!INCLUDE[prod_short](includes/prod_short.md)] uitvoeren door het aanmeldingsproces te volgen. Er zijn echter verschillende redenen waarom u zich mogelijk niet kunt aanmelden bij de Self-Service. In de tabel hierna wordt een aantal van de meest voorkomende redenen samengevat waarom u de aanmelding niet kunt voltooien en worden manieren beschreven waarop u deze problemen kunt oplossen.
 
 | Symptoom/foutmelding | Oorzaak en oplossing |
@@ -29,13 +29,13 @@ In veel gevallen kunt u uw registratie voor [!INCLUDE[prod_short](includes/prod_
 | E-mailadres is geen Microsoft 365-ID. U ontvangt tijdens de aanmelding een bericht zoals het volgende:<br /><br />**We kunnen u niet vinden op contoso.com. Gebruikt u een andere ID op het werk of op school? Probeer daarmee aan te melden en als het niet werkt, neemt u contact op met de IT-afdeling.** |Uw organisatie gebruikt ID´s voor aanmelding bij Microsoft 365 en andere Microsoft-services die anders zijn dan uw e-mailadres. Uw e-mailadres kan bijvoorbeeld Nancy.Smith@contoso.com zijn, maar uw id is nancys@contoso.com. Om de aanmelding te voltooien, gebruikt u de ID die uw organisatie heeft toegewezen voor aanmelding bij Microsoft 365 of andere Microsoft-services. Als u niet weet wat dit is, neemt u contact op met uw IT-beheerder. Als u zich nog niet kunt aanmelden en een geavanceerder configuratieproces kunt uitvoeren, kunt u zich registreren voor een nieuw Microsoft 365-proefabonnement en dat e-mailadres voor aanmelding gebruiken. |
 | Als het Microsoft 365-account is geregistreerd in een ondersteund land en u zich aanmeldt voor [!INCLUDE[prod_short](includes/prod_short.md)] terwijl u zich in een ander land bevindt, ontvangt u tijdens de aanmelding een bericht zoals het volgende:<br /><br />**Uw land of regio wordt nog niet ondersteund.**| Het abonnement op Microsoft 365 van uw organisatie is geregistreerd in een specifiek land in de beheerportal van Microsoft 365. De inschrijvingservaring voor [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de taal en de land/regio-instellingen die uw huidige browser gebruikt en daardoor kunt u de foutmelding krijgen hoewel u zich in een ondersteund land/regio bevindt. Vraag de IT-beheerder om het land te verifiëren dat is opgegeven in het organisatieprofiel in de [beheerportal van Microsoft 365](https://portal.office.com/adminportal/home#/companyprofile). U moet een ander account gebruiken voor [!INCLUDE[prod_short](includes/prod_short.md)].|
 
-## Regionale beschikbaarheid
+## <a name="regional-availability"></a>Regionale beschikbaarheid
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is beschikbaar in een aantal landen of regio's met lokalisatie geleverd door Microsoft of een goedgekeurde lokalisatiepartner. Zie voor een volledige lijst van momenteel ondersteunde landen/regio's [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 Voor een overzicht van momenteel ondersteunde markten voor Dynamics 365 raadpleegt u de presentatie [Internationale beschikbaarheid van Microsoft Dynamics 365](/dynamics365/get-started/availability). Voor een overzicht van de lokale functionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] raadpleegt u de landingspagina [Lokale functionaliteit](about-localization.md).  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Aanmelden voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md)  
 [Veelgestelde vragen (FAQ) over Dynamics 365 Business Central-proefversie](trial-faq.md)  
