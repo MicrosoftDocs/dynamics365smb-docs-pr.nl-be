@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Niet-aftrekbare btw instellen
 
-Niet-aftrekbare btw is de btw die een koper moet betalen, maar die niet aftrekbaar is van de eigen btw-aansprakelijkheid van de koper. Bedrijven kunnen btw meestal terugkrijgen op de aankoop van goederen en diensten die verband houden met hun bedrijfsactiviteiten. In sommige situaties betaalt een bedrijf echter btw die niet aftrekbaar is. Deze situaties houden meestal verband met de lokale regelgeving en kunnen van land/regio tot land/regio verschillen. Het model van het gebruik van niet-aftrekbare of gedeeltelijk aftrekbare btw is echter vergelijkbaar. U kunt de proportionele btw gebruiken om de btw te berekenen wanneer er sprake is van aftrekbare en niet-aftrekbare btw.
+Niet-aftrekbare btw is de btw die een koper moet betalen, maar die niet aftrekbaar is van de eigen btw-aansprakelijkheid van de koper. Bedrijven kunnen btw meestal terugkrijgen op de aankoop van goederen en diensten die verband houden met hun bedrijfsactiviteiten. In sommige situaties betaalt een bedrijf echter btw die niet aftrekbaar is. Deze situaties houden meestal verband met de lokale regelgeving en kunnen tussen landen/regio's verschillen. Het model van het gebruik van niet-aftrekbare of gedeeltelijk aftrekbare btw is echter vergelijkbaar. U kunt de proportionele btw gebruiken om de btw te berekenen wanneer er sprake is van aftrekbare en niet-aftrekbare btw.
 
 Over het algemeen kan de btw voor sommige aankopen niet worden afgetrokken vanwege de volgende factoren:
 

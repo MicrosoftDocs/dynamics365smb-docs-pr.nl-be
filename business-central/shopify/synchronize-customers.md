@@ -83,7 +83,7 @@ Een klant in Shopify heeft ook een standaardadres. Het adres kan een bedrijf en 
 |1|**Naam**|Hoogste prioriteit, als het veld **Naambron** op de **Shopify-winkelkaart** *Bedrijfsnaam* bevat.|
 |2|**Naam 2**|Laagste prioriteit, als het veld **Bron van naam 2** op de **Shopify-winkelkaart** *Bedrijfsnaam* bevat.|
 
-Voor adressen waar de regio/provincie wordt gebruikt, selecteert u **Code** of **Naam** in het veld **Regiobron** op de pagina **Shopify-winkelkaart**. De code of naam specificeert het type gegevens dat is opgeslagen in [!INCLUDE[prod_short](../includes/prod_short.md)] in het veld **Provincie**. Vergeet niet om klantsjablonen per regio of provincie te initialiseren, zodat de provincie of regiocode/naamtoewijzing gereed is. 
+Voor adressen waar de regio/provincie wordt gebruikt, selecteert u **Code** of **Naam** in het veld **Regiobron** op de pagina **Shopify-winkelkaart**. De code of naam specificeert het type gegevens dat is opgeslagen in [!INCLUDE[prod_short](../includes/prod_short.md)] in het veld **Provincie**. Vergeet niet om klantsjablonen per land/regio te initialiseren, zodat de provinciecode/naam-toewijzing gereed is. 
 
 
 ## Klanten synchroniseren

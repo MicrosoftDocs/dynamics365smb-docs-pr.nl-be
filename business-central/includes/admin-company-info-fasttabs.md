@@ -10,4 +10,4 @@ ms.author: edupont
 |**Communicatie**|Voer de basiscontactgegevens van het bedrijf in, zoals telefoonnummer en e-mailadres.|  
 |**Betalingen**| Vul de relevante bankgegevens in om er zeker van te zijn dat uw klanten u kunnen betalen.|  
 |**Verzenden**|Vul de relevante verzendgegevens in, zodat u goederen van en naar uw bedrijf kunt verzenden en ontvangen.|  
-|**Btw**|Afhankelijk van het land waarin uw bedrijf is geregistreerd, ziet u mogelijk een sneltabblad Belasting. Als dit beschikbaar is, vult u de velden in.|  
+|**Belasting**|Afhankelijk van het land/regio waarin uw bedrijf is geregistreerd, ziet u mogelijk een sneltabblad Belasting. Als dit beschikbaar is, vult u de velden in.|  

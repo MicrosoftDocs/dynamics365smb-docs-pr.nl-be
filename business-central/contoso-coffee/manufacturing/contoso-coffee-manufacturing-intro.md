@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Inleiding tot Contoso Coffee-productie
+# Inleiding tot Contoso Coffee-productie
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De apps **Contoso-koffie** voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de productiemogelijkheden in Business Central kunt benutten.  
 
@@ -36,7 +36,7 @@ De productieactiviteiten voor alle scenario's gebruiken de locatie *NOORD*.
 > [!IMPORTANT]
 > Boek alle artikeldagboekregels met beginsaldi voordat u een van de scenario's voor Contoso Coffee gaat uitvoeren. Zie de sectie [Contoso Coffee-gegevens instellen](#set-up-contoso-coffee-manufacturing-data) voor meer vereisten.
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Contoso Coffee-productiegegevens instellen
+## Contoso Coffee-productiegegevens instellen
 
 Als u de demogegevens voor Contoso Coffee-productie wilt gebruiken, moet u twee apps in het desbetreffende bedrijf in [!INCLUDE [prod_short](../../includes/prod_short.md)] installeren:  
 
@@ -45,7 +45,7 @@ Als u de demogegevens voor Contoso Coffee-productie wilt gebruiken, moet u twee 
     Deze app levert demogegevens voor de basistoepassing.  
 - **Gegevensset voor demo van Contoso Coffee (land-id)**  
 
-    Deze app voegt landspecifieke inhoud toe bovenop de basistoepassing.
+    Deze app voegt land/regio-specifieke inhoud toe bovenop de basistoepassing.
 
 Voeg de apps toe aan een leeg bedrijf in een betaald abonnement of als onderdeel van een proefperiode. Maak bijvoorbeeld een nieuw bedrijf zonder voorbeeldgegevens op basis van de begeleide instelling **Nieuw bedrijf maken** die u kunt openen vanuit de lijst **Bedrijven**. Voeg vervolgens de apps toe vanuit de [marktplaats](../../ui-extensions-install-uninstall.md#install) als deze nog niet in de lijst op de pagina **Extensiebeheer** voorkomen.  
 
@@ -67,7 +67,7 @@ Zodra de relevante apps zijn geïnstalleerd, gaat u naar de pagina [Demogegevens
 
 Als u gereed bent, kiest u de actie **Demogegevens maken**. Het duurt een paar minuten om de gegevens aan de onderliggende database toe te voegen, maar dan bent u klaar om de verschillende scenario's uit te voeren.  
 
-## <a name="scenarios"></a>Scenario's
+## Scenario's
 
 De productiedemogegevens van Contoso Coffee ondersteunen momenteel de volgende scenario's voor testen en trainen:
 
@@ -85,7 +85,7 @@ Lees de stappen voor elk scenario in het desbetreffende artikel.
 > [!IMPORTANT]
 > Deze procedures vereisen dat de gebruikerservaring is ingesteld op *Premium* op de pagina **Bedrijfsgegevens**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie](../../production-manage-manufacturing.md)  
 [Productierapporten en analyses in Business Central](../../production-reports.md)  

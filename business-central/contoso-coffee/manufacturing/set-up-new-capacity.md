@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-set-up-new-capacity"></a>Procedure: Nieuwe capaciteit instellen
+# Procedure: Nieuwe capaciteit instellen
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken voor beheren van capaciteit.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 U bent de productieplanner bij Contoso Coffee. Als reactie op veranderingen op de werkvloer moet u een nieuwe Testafdeling inrichten. De nieuwe afdeling heeft één bewerkingsplaats: Testing. De nieuwe centra moeten een capaciteitskalender hebben voor één ploeg van 08.00 uur tot 16.00 uur, van maandag tot en met vrijdag.  
 
-## <a name="steps"></a>Stappen
+## Stappen
 
 1. Stel de afdeling in.
 
@@ -33,10 +33,10 @@ U bent de productieplanner bij Contoso Coffee. Als reactie op veranderingen op d
         |**Kostprijsberekening**|Tijd|
         |**Afboekingsmethode**|Handmatig|
         |**Prod.-boekingsgroep**|GEEN BTW</br></br>Houd er rekening mee dat deze selectie afhankelijk is van uw boekhoudconfiguratie en land/regio.|
-        |**Code van maateenheid** |MINUTEN|
+        |**Eenheidscode** |MINUTEN|
         |**Capaciteit** |1|
-        |**Efficiëntie** |90|
-        |**Productieagendacode** |1|
+        |**Efficiëntie %** |90|
+        |**Prod.-agenda** |1|
 
         In het veld **Productieagendacode** betekent de instelling 1 één ploeg van maandag tot vrijdag.
 
@@ -84,6 +84,6 @@ U bent de productieplanner bij Contoso Coffee. Als reactie op veranderingen op d
 
 Op de pagina **Agendaposten** zijn de dagelijkse capaciteitsvermeldingen in het veld **Capaciteit (totaal)** voor 480 minuten. Dit komt overeen met één ploeg van acht uur per werkdag. Ook in het veld **Capaciteit (effectief)** staat 432 minuten. Dit weerspiegelt het efficiëntiepercentage van 90 procent dat u aan het bewerkingscentrum hebt toegewezen.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](../contoso-coffee-intro.md)  

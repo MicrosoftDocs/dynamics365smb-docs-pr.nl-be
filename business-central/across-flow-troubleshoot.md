@@ -4,7 +4,7 @@ description: Meer informatie over het oplossen van problemen tussen Business Cen
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 06/16/2023
+ms.date: 07/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: d365-business-central
@@ -22,7 +22,7 @@ Als een gebeurtenis veel records maakt of wijzigt, wordt de stroom niet uitgevoe
 
 ### Mogelijke oorzaak
 
-Momenteel is er een limiet voor het aantal records dat een stroom kan verwerken. Als er binnen 30 seconden meer dan 100 records worden gemaakt of gewijzigd, wordt de stroom niet geactiveerd.
+Momenteel is er een limiet voor het aantal records dat een stroom kan verwerken. Als er binnen 30 seconden meer dan 1000 records worden gemaakt of gewijzigd, wordt de stroom niet geactiveerd.
 
 > [!NOTE]
 > Voor ontwikkelaars wordt de stroomtriggering gedaan via webhook-berichten en deze beperking is te wijten aan de manier waarop de Business Central-connector omgaat met `collection`-berichten. Zie voor meer informatie [Werken met webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in de Help voor ontwikkelaars en beheerders.
