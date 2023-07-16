@@ -11,7 +11,7 @@ ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8
 ms.date: 09/02/2022
 ms.author: altotovi
 ---
-# <a name="work-with-intrastat-reporting"></a>Werken met Intrastat-rapportage
+# Werken met Intrastat-rapportage
 
 Bedrijven uit landen in de Europese Unie (EU) moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. In uw land/regio moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en moet aangifte bij de belastingdienst worden gedaan. Intrastat is het systeem voor het verzamelen van statistische handelsgegevens van goederen binnen deze landen/regio's. U gebruikt **Intrastat-rapport** voor het voltooien van de periodieke Intrastat-rapportage (meestal maandelijks), het verzamelen, registreren en rapporteren van de handel in goederen conform de wetgeving van de lokale overheid.
 
@@ -27,7 +27,7 @@ Intrastat-rapportage is gebaseerd op fundamentele EU-regelgeving die voor alle l
 >
 > Deze functie zal naar verwachting vanaf november 2022 beschikbaar zal zijn als app op [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Op dat moment moet u, om de functie te kunnen gebruiken, deze eerst installeren op de pagina **Extensiebeheer**.
 
-## <a name="fill-in-the-intrastat-report"></a>Het Intrastat-rapport invullen
+## Het Intrastat-rapport invullen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-lijst** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** om een nieuw **Intrastat-rapport** te maken.
@@ -44,7 +44,7 @@ Intrastat-rapportage is gebaseerd op fundamentele EU-regelgeving die voor alle l
 
 Met de batchverwerking worden alle artikelposten in de statistiekperiode opgehaald en als regels in het **Intrastat-rapport** ingevoegd. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="modify-the-intrastat-report"></a>Het Intrastat-rapport wijzigen
+## Het Intrastat-rapport wijzigen
 
 Indien nodig kunt u de regels wijzigen, maar telkens wanneer u een waarde in de Intrastat-rapportregel wijzigt, wordt het veld **Correctie** automatisch gemarkeerd als **Ja**. Op den duur kunt u handmatig een nieuwe regel toevoegen als daar een reden voor is. Handmatig een nieuwe regel toevoegen:
 
@@ -57,13 +57,13 @@ Indien nodig kunt u de regels wijzigen, maar telkens wanneer u een waarde in de 
 > [!NOTE]
 > Wanneer u handmatig een nieuwe regel aan het Intrastat-rapport toevoegt, moet het veld **Datum** in de regel binnen het bereik voor **Statistische periode** vallen dat u in de koptekst hebt toegevoegd.
 
-## <a name="validate-intrastat-lines"></a>Intrastat-regels valideren
+## Intrastat-regels valideren
 
 Nadat u het **Intrastat-rapport** hebt ingevuld, kunt u de actie **Controlelijstrapport** uitvoeren om te zorgen dat alle gegevens in het **Intrastat-rapport** correct zijn. Verplichte velden die u op de pagina **Controlelijst van Intrastat-rapport** hebt ingesteld en waarvoor waarden ontbreken, worden weergegeven in het feitenblok **Fouten en waarschuwingen** op de pagina **Intrastat-rapport**.
 
 Voer de **Controlelijst van Intrastat-rapport** uit om Intrastat-regels te controleren voordat deze naar de vereiste indeling worden geëxporteerd. De controle wordt uitgevoerd in het **Intrastat-rapport**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Gewicht of aanvullende maateenheid herberekenen
+## Gewicht of aanvullende maateenheid herberekenen
 
 Als u de foutmelding *Totaalgewicht in Intrastat-rapportregel mag niet leeg zijn* hebt gekregen, komt dit waarschijnlijk doordat u het veld **Nettogewicht** voor de gebruikte bron, het artikel of het vaste activum niet hebt ingesteld. Zoek in dit geval naar de kaart van het artikel of het vaste activum en voeg de vereiste waarde toe. Daarna hoeft u alleen het **Intrastat-rapport** opnieuw te openen en deze stappen te volgen:
 
@@ -75,7 +75,7 @@ Als u de foutmelding *Totaalgewicht in Intrastat-rapportregel mag niet leeg zijn
     3. **Beide** – om zowel het **Totaalgewicht** als de **Aanvullende hoeveelheid** opnieuw te berekenen, op basis van de actuele gegevens op de kaarten van het artikel en vaste activum.
 3. Kies **OK** om de batchverwerking te starten.
 
-## <a name="report-intrastat-in-a-file"></a>Intrastat in een bestand rapporteren
+## Intrastat in een bestand rapporteren
 
 U kunt het Intrastat-rapport als bestand indienen op basis van de eisen van verschillende lokale autoriteiten. Voordat u het bestand maakt, moet u de **Controlelijstrapport** uitvoeren om te controleren of alle regels alle noodzakelijke en geldige gegevens bevatten. Een bestand maken:
 
@@ -93,22 +93,22 @@ Zodra u het bestand maakt, vult [!INCLUDE[prod_short](includes/prod_short.md)] a
 > [!NOTE]
 > De volgende keer dat u een bestand aanmaakt, behouden de velden **Exportdatum** en **Exporttijd** alleen gegevens over het laatste bestand dat u hebt gemaakt.
 
-## <a name="intrastat-rules"></a>Intrastat-regels
+## Intrastat-regels
 
-### <a name="grouping-lines"></a>Regels groeperen
+### Regels groeperen
 
 In **Intrastat-rapport** regels, is er geen groepering op velden. Alle posten worden gekopieerd vanuit de originele bron, zodat u ze snel kunt vinden op basis van de combinatie van **Bronsoort** en **Bronpostnr.**.
 
 Groepering vereist door autoriteiten wordt verstrekt in het geëxporteerde bestand. U moet dit configureren in de **Definitie van gegevensuitwisseling**, die volledig configureerbaar is. Meer informatie vindt u in [Definities van gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="fixed-assets-reporting"></a>Vaste activa rapporteren
+### Vaste activa rapporteren
 
 Vaste activa worden alleen in de Intrastat-regels weergegeven als:
 
 * De **FA-boekingssoort** in het veld **Btw-grootboekpost** **Aanschafkosten** is en als het **Documentsoort** **Factuur** is in het geval van aankopen, en
 * De **FA-boekingssoort** in het veld **Btw-grootboekpost** **Opbrengst bij BGS** is en als de **Documentsoort** **Factuur** is in het geval van verlopen.
 
-### <a name="intrastat-report-statuses"></a>Intrastat-rapportstatussen
+### Intrastat-rapportstatussen
 
 Wanneer u met het **Intrastat-rapport** werkt ziet u een veld **Status** in de documentkop. Hier kunt u de volgende statussen en bijbehorende regels aantreffen:
 
@@ -116,9 +116,9 @@ Wanneer u met het **Intrastat-rapport** werkt ziet u een veld **Status** in de d
 * *Vrijgegeven*: [!INCLUDE[prod_short](includes/prod_short.md)] verandert de status automatisch in *Vrijgegeven* wanneer u een bestand aanmaakt. Vanaf dat moment kunt u uw **Intrastat-rapport** wijzigen. Als u iets moet wijzigen en opnieuw moet rapporteren, kunt u de actie **Heropenen** gebruiken om het Intrastat-rapport opnieuw te openen. Zodra het document opnieuw is geopend, kunt u de actie **Vrijgeven** gebruiken om het document weer vrij te geven.
 * **Gerapporteerd**: hiermee wordt aangegeven of de post al is gemeld bij de belastingdienst. Dit is geen normale status maar een onafhankelijk veld, en zelfs als u het Intrastat-rapport opnieuw zou openen, zou het nog steeds aangeven dat het bestand al is aangemaakt voor dit rapport.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Intrastat-rapportage instellen](finance-how-setup-report-intrastat.md)  
 [Financieel beheer](finance.md)  
