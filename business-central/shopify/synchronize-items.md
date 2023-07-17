@@ -189,8 +189,9 @@ Afbeeldingssynchronisatie kan op de hieronder beschreven twee manieren worden ge
 
 ### Opmerkingen over afbeeldingssynchronisatie
 
-* Bij het exporteren van afbeeldingen vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify, worden de nieuwe afbeeldingen toegevoegd aan Shopify, waarbij oude afbeeldingen intact blijven. Als een afbeelding wordt bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], moet u de oude afbeeldingen verwijderen in **Shopify-beheer**.
-* Afbeeldingen die worden geëxporteerd naar Shopify en niet voldoen aan de vereisten zoals gedefinieerd door Shopify, worden niet geïmporteerd. Zie voor meer informatie [typen productmedia op help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images)
+* Wanneer u afbeeldingen exporteert van [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify, vervangen de afbeeldingen de afbeeldingen die u eerder hebt geëxporteerd. De eerdere afbeeldingen zijn niet langer beschikbaar.
+* Als u een afbeelding in [!INCLUDE[prod_short](../includes/prod_short.md)] verwijdert, wordt de afbeelding in Shopify niet ook verwijderd. U moet de oude afbeeldingen handmatig verwijderen in de **Shopify-beheer**.
+* Afbeeldingen die u naar Shopify exporteert, moeten voldoen aan de vereisten van Shopify. Anders kunt u ze niet importeren. Ga voor meer informatie over mediavereisten naar [productmediatypen op help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
 ## Prijzen synchroniseren met Shopify
 

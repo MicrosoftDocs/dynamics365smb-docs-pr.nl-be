@@ -96,6 +96,31 @@ U kunt ook zoeken naar de batchverwerking **Orders synchroniseren vanuit Shopify
 
 U kunt plannen dat de taak automatisch wordt uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
 
+### Onder de motorkap
+
+De Shopify-connector importeert orders in twee stappen:
+
+1.  Het importeert orderkoppen naar de tabel **Shopify - Te importeren orders** wanneer ze aan bepaalde voorwaarden voldoen:
+    
+* Ze worden niet gearchiveerd.
+* Ze zijn gemaakt of gewijzigd na de laatste synchronisatie.
+
+2.  Het importeert Shopify-orders en aanvullende informatie.
+* De Shopify-connector verwerkt alle records in de tabel **Shopify - Te importeren orders** die overeenkomen met de filtercriteria die u hebt gedefinieerd op de aanvraagpagina **Orders synchroniseren vanuit Shopify**. Bijvoorbeeld tags, kanaal of de afhandelingsstatus. Als u geen filters hebt opgegeven, worden alle records verwerkt.
+* Bij het importeren van een Shopify-order vraagt de Shopify-connector om aanvullende informatie vanuit Shopify:
+
+    * Orderkoptekst
+    * Orderregels
+    * Informatie over verzending en afhandeling
+    * Transacties
+    * Retourzendingen en terugbetalingen, indien geconfigureerd
+
+De pagina **Shopify - Te importeren orders** is handig voor het oplossen van problemen met het importeren van orders. U kunt de beschikbare orders beoordelen en de volgende stappen uitvoeren:
+
+* Controleer of een fout de import van een specifieke order heeft geblokkeerd en bekijk de details van de fout. Controleer het veld **Bevat fout**.
+* Verwerk alleen specifieke orders. U moet het veld **Winkelcode** invullen, een of meer orders selecteren en vervolgens de actie **Geselecteerde orders importeren** kiezen.
+* Verwijder orders van de pagina **Shopify - Te importeren orders** om ze uit te sluiten van de synchronisatie.
+
 ## Geïmporteerde bestellingen bekijken
 
 Zodra het importeren is voltooid, kunt u de Shopify-order verkennen en alle gerelateerde informatie zoeken, zoals de betalingstransacties, verzendkosten, risiconiveau, orderkenmerken en -tags of afhandelingen, als de order al is afgehandeld in Shopify. U kunt ook een orderbevestiging zien die naar de klant is verzonden door de actie **Shopify-statuspagina** te kiezen.
@@ -131,7 +156,7 @@ Als uw instellingen voorkomen dat automatisch een klant wordt gemaakt en geen ju
 
 De functie *Order importeren uit Shopify* probeert de klant in de volgende volgorde te selecteren:
 
-1. Als het **Standaardklantnr.** veld is gedefinieerd in de **Shopify-klantsjabloon** voor de **Code van verzendland/regio**, dan het **Standaardklantnr.** wordt gebruikt, ongeacht de instellingen in de velden **Klant importeren uit Shopify** en **Type klanttoewijzing**. Meer informatie op [Klantensjabloon per land/regio](synchronize-customers.md#customer-template-per-country).
+1. Als het **Standaardklantnr.** veld is gedefinieerd in de **Shopify-klantsjabloon** voor de **Code van verzendland/regio**, dan het **Standaardklantnr.** wordt gebruikt, ongeacht de instellingen in de velden **Klant importeren uit Shopify** en **Type klanttoewijzing**. Meer informatie op [Klantensjabloon per land/regio](synchronize-customers.md#customer-template-per-countryregion).
 2. Als **Klant importeren uit Shopify** is ingesteld op *Geen* en het **Standaardklantnr.** is gedefinieerd op de pagina **Shopify-winkelkaart**, wordt het **Standaardklantnr.** gebruikt.
 
 De volgende stappen zijn afhankelijk van het **Type klanttoewijzing**.
