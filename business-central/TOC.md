@@ -106,7 +106,7 @@
 ##### [Overzicht van dagboekboekingsregel](design-details-general-journal-post-line-overview.md)  
 ##### [Ontwerpdetails: Structuur van boekingsinterface](design-details-posting-interface-structure.md)  
 ##### [Ontwerpdetails: Structuur van boekingsengine](design-details-posting-engine-structure.md)  
-
+#### [Ontwerpdetails: Niet-aftrekbare btw](design-details-nondeductible-vat.md)
 ## Proberen
 ### [Aanmelden voor een gratis proefversie van Dynamics 365 Business Central](trial-signup.md)
 ### [Veelgestelde vragen over proefversie van Dynamics 365 Business Central](trial-faq.md)
