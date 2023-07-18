@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, service, declaration,'
 ms.search.form: '30, 76, 5010, 5022, 5023, 5024, 5800'
 ---
-# <a name="the-service-declaration-extension"></a>De extensie Servicedeclaratie
+# De extensie Servicedeclaratie
 
 In sommige EU-landen/regio's vereisen de autoriteiten dat bedrijven de uitvoer van diensten naar andere EU-landen/regio's rapporteren. Met de extensie **Servicedeclaratie** kunt u informatie verzamelen over servicehandel in de EU en deze rapporteren aan de autoriteiten. Hoewel het **Servicedeclaratie** heet, kunt u het ook gebruiken als **Intrastat voor services**. Deze extensie is beschikbaar voor alle EU-landen/regio's als een W1-versie en kan in de huidige vorm in België worden gebruikt. Voor andere landen/regio's is een land/regio-specifieke extensie vereist. Als een land/regio alleen een ander formaat nodig heeft, kunt u de rapportconfiguratie in het **Raamwerk voor gegevensuitwisseling** gebruiken om het formaat te wijzigen.
 
-## <a name="enable-the-service-declaration-extension"></a>De extensie Servicedeclaratie inschakelen
+## De extensie Servicedeclaratie inschakelen
 
 Nadat u de extensie in uw omgeving hebt geïnstalleerd, moet u deze inschakelen.
 
@@ -26,11 +26,11 @@ Nadat u de extensie in uw omgeving hebt geïnstalleerd, moet u deze inschakelen.
 5. Voordat u begint, controleert u het **Totaal aantal codes** om te zien hoeveel typen servicetransacties er al zijn opgegeven.
 6. Kies **Voltooien** in de laatste stap om de configuratie te voltooien.
 
-## <a name="set-up-the-service-declaration-extension"></a>De extensie Servicedeclaratie instellen
+## De extensie Servicedeclaratie instellen
 
 U kunt de extensie handmatig instellen of met behulp van een rapportagebestand in Definities voor gegevensuitwisseling.
 
-### <a name="to-set-up-service-declaration-manually"></a>Servicedeclaratie handmatig instellen
+### Servicedeclaratie handmatig instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicedeclaratie instellen** in en kies vervolgens de gerelateerde koppeling.
 2. Configureer op het sneltabblad **Algemeen** de velden zoals beschreven in de volgende tabel:
@@ -47,7 +47,7 @@ U kunt de extensie handmatig instellen of met behulp van een rapportagebestand i
 3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicetransactietypen** in en kies vervolgens de gerelateerde koppeling.
 4. Geef op de regels **Codes** en **Beschrijvingen** op voor de servicetransactietypen die u gaat gebruiken.
 
-### <a name="set-up-a-reporting-file"></a>Een rapportagebestand instellen
+### Een rapportagebestand instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Definities van gegevensuitwisseling** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
@@ -66,11 +66,11 @@ U kunt de extensie handmatig instellen of met behulp van een rapportagebestand i
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] wordt geleverd met een vooraf geconfigureerde definitie van gegevensuitwisseling voor **Servicedeclaratie** voor alle gelokaliseerde landen/regio's. Voor meer informatie over het maken van een nieuwe definitie van gegevensuitwisseling raadpleegt u [Definities van gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md).
 
-## <a name="other-related-configurations"></a>Andere gerelateerde configuraties
+## Andere gerelateerde configuraties
 
 Voordat u de extensie Servicedeclaratie gebruikt, configureert u enkele velden voor artikelen, resources en artikeltoeslagen.
 
-### <a name="items"></a>Artikelen
+### Artikelen
 
 Informatie met betrekking tot Servicedeclaratie instellen op artikelkaartpagina's:
 
@@ -81,7 +81,7 @@ Informatie met betrekking tot Servicedeclaratie instellen op artikelkaartpagina'
    2. Geef in het veld **Code van servicetransactietype** de code op voor een **servicetransactietype**.
    3. Als u dit serviceartikel niet wilt opnemen in servicedeclaraties, kiest u het veld **Uitsluiten van servicedeclaratie**.
 
-### <a name="resources"></a>Resources
+### Resources
 
 Informatie met betrekking tot Servicedeclaratie instellen op resourcekaartpagina's:
 
@@ -91,7 +91,7 @@ Informatie met betrekking tot Servicedeclaratie instellen op resourcekaartpagina
    1. Geef in het veld **Code van servicetransactietype** de code op voor een **servicetransactietype**.
    2. Als u deze resource niet wilt opnemen in servicedeclaraties, kiest u het veld **Uitsluiten van servicedeclaratie**.
 
-### <a name="item-charges"></a>Artikeltoeslagen
+### Artikeltoeslagen
 
 Informatie met betrekking tot Servicedeclaratie instellen voor artikeltoeslagen:
 
@@ -100,7 +100,7 @@ Informatie met betrekking tot Servicedeclaratie instellen voor artikeltoeslagen:
 3. Geef in het veld **Code van servicetransactietype** de code op voor een **servicetransactietype**.
 4. Als u deze artikeltoeslag niet wilt opnemen in servicedeclaraties, selecteert u het veld **Uitsluiten van servicedeclaratie**.
 
-## <a name="create-new-service-declaration"></a>Een nieuwe servicedeclaratie maken
+## Een nieuwe servicedeclaratie maken
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicedeclaraties** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
@@ -111,7 +111,7 @@ Informatie met betrekking tot Servicedeclaratie instellen voor artikeltoeslagen:
 
 De batchverwerking haalt alle boekingen op uit toepasselijke inkoop- en verkoopdocumenten in de vereiste periode en voegt ze toe aan de servicedeclaratieregels. Wijs de velden in regels aan om een korte omschrijving te lezen.
 
-## <a name="modify-a-service-declaration"></a>Een servicedeclaratie wijzigen
+## Een servicedeclaratie wijzigen
 
 Indien nodig kunt u de regels wijzigen of nieuwe toevoegen.
 
@@ -120,11 +120,11 @@ Indien nodig kunt u de regels wijzigen of nieuwe toevoegen.
 3. Vul op basis van het **Documentsoort** het veld **Documentnr.** in.
 4. Vul de overige velden in.
 
-## <a name="overview-the-service-declaration-lines"></a>Overzicht van de servicedeclaratieregels
+## Overzicht van de servicedeclaratieregels
 
 Nadat u een servicedeclaratie hebt gemaakt, gebruikt u de actie **Overzicht** om een overzicht te krijgen van de servicedeclaratieregels. U kunt de regels op dezelfde manier groeperen en samenvatten als het geëxporteerde bestand. U kunt de regels ook openen in Excel.
 
-## <a name="report-service-declaration-in-a-file"></a>Servicedeclaratie rapporteren in een bestand
+## Servicedeclaratie rapporteren in een bestand
 
 U kunt de servicedeclaratie als bestand indienen op basis van de eisen van verschillende lokale autoriteiten. Een bestand maken:
 
@@ -134,17 +134,17 @@ U kunt de servicedeclaratie als bestand indienen op basis van de eisen van versc
 4. Kies de actie **Bestand maken**.
 5. Het servicedeclaratiebestand wordt opgeslagen in de vereiste indeling.
 
-## <a name="other-considerations"></a>Overige overwegingen
+## Overige overwegingen
 
 Als u de extensie **Servicedeclaratie** gebruikt, zijn er nog een paar dingen waarmee u rekening moet houden. Het is bijvoorbeeld belangrijk dat uw groepen voldoen aan eisen van autoriteiten. Het is ook belangrijk dat services correct worden vermeld op verkoop- en inkoopdocumenten.
 
-### <a name="grouping-lines"></a>Regels groeperen
+### Regels groeperen
 
 Op serviceaangifteregels is er geen groepering op veld. Alle vermeldingen worden gekopieerd van het originele document als bron.
 
 Groepering vereist door autoriteiten wordt verstrekt in het geëxporteerde bestand. U moet de groepen configureren in de **Definitie van gegevensuitwisseling**, die volledig configureerbaar is. Meer informatie vindt u in [Definities van gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="using-services-in-document-lines"></a>Services gebruiken op documentregels
+### Services gebruiken op documentregels
 
 Wanneer u een inkoop-, verkoop- of servicefactuur maakt, vindt u twee velden met betrekking tot servicedeclaraties op de regels ervan. Beide velden worden ingevuld met de standaardwaarden van uw artikel-, resource- of artikeltoeslaginstellingen.
 
@@ -155,9 +155,9 @@ U kunt de waarden in deze velden wijzigen, maar als u het veld **Van toepassing 
 
 Als u een waarde opgeeft in het veld **Code van servicetransactietype**, maar het veld **Van toepassing op servicedeclaratie** niet selecteert, kunt u het document boeken, maar wordt de regel niet berekend.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Intrastat-rapportage instellen](finance-how-setup-report-intrastat.md)
 [Intrastat-rapportage in Business Central](finance-how-report-intrastat.md)  

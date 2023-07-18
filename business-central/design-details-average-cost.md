@@ -11,13 +11,13 @@ ms.search.form: '8645,'
 ms.date: 06/06/2023
 ms.author: bholtorf
 ---
-# <a name="design-details-average-cost"></a>Ontwerpdetails: Gemiddelde kosten
+# Ontwerpdetails: Gemiddelde kosten
 
 De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen gemiddelde. Het gemiddelde is gebaseerd op de gemiddelde kostenperiode die is ingesteld in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 De herwaarderingsdatum wordt automatisch ingesteld.  
 
-## <a name="setting-up-average-cost-calculation"></a>Berekening voor de gemiddelde kosten instellen
+## Berekening voor de gemiddelde kosten instellen
 
 In de volgende tabel worden de twee velden op de pagina **Voorraadinstelling** beschreven die moet worden ingevuld om berekening van de gemiddelde kosten mogelijk te maken.  
 
@@ -31,7 +31,7 @@ In de volgende tabel worden de twee velden op de pagina **Voorraadinstelling** b
 >
 > De pagina **Boekingsperioden** toont welke gemiddelde periode voor kostprijsberekeningen en welk soort berekening voor de gemiddelde kosten actief is gedurende die periode, voor elke boekhoudperiode.  
 
-## <a name="calculating-average-cost"></a>Gemiddelde kosten berekenen
+## Gemiddelde kosten berekenen
 
  Wanneer u een transactie boekt voor een artikel dat de waarderingsmethode Gemiddeld gebruikt, wordt een post gemaakt in de tabel **Gem. kostprijsaanpassing invoerhaven**. Deze post bevat het artikelnummer, de variantcode en de vestigingscode van de transactie. De vermelding bevat ook het veld **Waarderingsdatum**, dat de laatste datum opgeeft van de periode voor gemiddelde kostprijsberekening waarin de transactie is geboekt.  
 
@@ -47,7 +47,7 @@ In de volgende tabel worden de twee velden op de pagina **Voorraadinstelling** b
 
  De berekende gemiddelde kosten worden vervolgens vereffend met de afname van de voorraad voor het artikel (of artikel, vestiging en variant) met boekingsdatums in de periode voor gemiddelde kostprijsberekening. Voor positieve voorraadmutaties die vast zijn vereffend met negatieve voorraadmutaties in de periode voor gemiddelde kosten, worden de berekende gemiddelde kosten door [!INCLUDE [prod_short](includes/prod_short.md)] van de positieve mutatie naar de negatieve doorgestuurd.  
 
-### <a name="example-average-cost-period--day"></a>Voorbeeld: Periode gemiddelde kostprijsberekening = Dag
+### Voorbeeld: Periode gemiddelde kostprijsberekening = Dag
 
 In het volgende voorbeeld wordt het effect getoond van het berekenen van gemiddelde kosten op basis van een periode voor gemiddelde kosten van één dag. Het veld **Gem. kostprijsberekeningsoort** op de pagina **Voorraadinstelling** is ingesteld op **Artikel**.  
 
@@ -85,7 +85,7 @@ De volgende tabel toont artikelposten voor het voorbeeldartikel van gemiddelde k
 | 02-02-23 |   Inkoop | 1 | 100.00 | 5 |
 | 03-02-23 |   Verkoop | -1 | -100,00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Voorbeeld: Periode gemiddelde kostprijsberekening = Maand
+### Voorbeeld: Periode gemiddelde kostprijsberekening = Maand
 
  In dit voorbeeld wordt het effect getoond van het berekenen van de gemiddelde kosten op basis van een periode voor gemiddelde kosten van één maand. Het veld **Gem. kostprijsberekeningsoort** op de pagina **Voorraadinstelling** is ingesteld op **Artikel**.  
 
@@ -130,7 +130,7 @@ De gemiddelde kosten van postnummer 3 worden berekend in de gemiddelde kostenper
 
 Om de gemiddelde inkoopprijs voor februari te krijgen, wordt door [!INCLUDE [prod_short](includes/prod_short.md)] de gemiddelde inkoopprijs van het in voorraad ontvangen artikel (100,00) toegevoegd aan de gemiddelde inkoopprijs aan het begin van de periode (30,00). De som (130,00) wordt vervolgens gedeeld door de totale hoeveelheid in voorraad (2). Deze berekening geeft de resulterende gemiddelde kosten van het artikel in de periode februari (65,00). De gemiddelde kosten worden toegewezen aan de afname van de voorraad in de periode (posten 4 en 6).  
 
-## <a name="setting-the-valuation-date"></a>De waarderingsdatum instellen
+## De waarderingsdatum instellen
 
  Het veld **Waarderingsdatum** in de tabel **Waardepost** bepaalt in welke periode voor gemiddelde kostprijsberekening een negatieve voorraadmutatiepost hoort. Deze instelling geldt ook voor de OHW-voorraad (onderhanden werk).  
 
@@ -143,7 +143,7 @@ Om de gemiddelde inkoopprijs voor februari te krijgen, wordt door [!INCLUDE [pro
 | 3 | Eerder dan de laatste waarderingsdatum van vereffende waardeposten | Positief | Nee | Laatste waarderingsdatum van de vereffende waardeposten |
 | 4 |  | Negatief | Ja | Boekingsdatum van herwaarderingswaardepost |
 
-### <a name="example"></a>Opmerking
+### Opmerking
 
 In de volgende tabel met waardeposten worden de verschillende scenario's toegelicht.  
 
@@ -165,7 +165,7 @@ In de volgende tabel met waardeposten worden de verschillende scenario's toegeli
 
 Als het aantal in voorraad kleiner is dan nul nadat u de negatieve voorraadmutatie hebt geboekt, wordt eerst de herwaarderingsdatum ingesteld op de boekingsdatum van de negatieve voorraadmutatie. U kunt deze datum wijzigen wanneer de voorraadtoename wordt vereffend, op basis van de regels die worden beschreven in de opmerking eerder in dit gedeelte.  
 
-## <a name="recalculating-average-cost"></a>Gemiddelde kosten opnieuw berekenen
+## Gemiddelde kosten opnieuw berekenen
 
 Het waarderen van voorraadafnames als een gewogen gemiddelde zou in verschillende scenario's eenvoudig zijn:
 
@@ -188,7 +188,7 @@ Vanwege deze flexibiliteit moet u mogelijk de gemiddelde kosten opnieuw berekene
 
 U kunt de voorraadwaardwaarderingsbasis binnen een boekhoudperiode te wijzigen door de waarden in de velden **Periode gemiddelde kostprijsberekening** en **Gem. kostprijsberekeningsoort** te wijzigen. We raden u echter aan om voorzichtig te zijn en uw auditor te raadplegen.  
 
-### <a name="example-of-recalculated-average-cost"></a>Voorbeeld van opnieuw berekende gemiddelde kosten
+### Voorbeeld van opnieuw berekende gemiddelde kosten
 
 Dit voorbeeld laat zien hoe [!INCLUDE [prod_short](includes/prod_short.md)] de gemiddelde kosten opnieuw berekent wanneer u boekt op een datum vóór een voorraadafname. Het voorbeeld is gebaseerd op een periode voor gemiddelde kosten van **Dag**.  
 
@@ -213,7 +213,7 @@ De volgende tabel toont de waardeposten die voor het artikel bestaan nadat volgn
 | 15-02-20 | -1 | -17,00 | 3 |
 | 16-02-20 | -1 | -17,00 | 4 |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
