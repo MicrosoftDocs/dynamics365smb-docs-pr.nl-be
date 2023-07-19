@@ -10,13 +10,13 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# <a name="transactions-and-payouts"></a>Transacties en uitbetalingen
+# Transacties en uitbetalingen
 
 Wanneer een klant het afrekenen in de online winkel voltooit, wordt de informatie over betalingen opgeslagen als een **Transactie**. Er kunnen meerdere transacties aan de bestelling zijn gekoppeld, bijvoorbeeld wanneer een klant een cadeaubon gebruikt om een deel van de kosten te betalen en vervolgens een creditcard of PayPal gebruikt voor het resterende bedrag.
 
 Als u Shopify Payment als betalingsprovider gebruikt, kunt u naast informatie over geld dat door de betalingsprovider van de klant is ontvangen, ook uitbetalingen zien van Shopify naar uw bankrekening.
 
-## <a name="transactions"></a>Transacties
+## Transacties
 
 De betalingstransacties die plaatsvinden in Shopify, worden gesynchroniseerd met de orders en kunnen worden bekeken op de pagina **Shopify-orders**.
 
@@ -26,7 +26,7 @@ Het veld **Nr. geboekte factuur** kan nuttig zijn in het reconciliatieproces.
 
 Als u de toewijzing van een betalingsmethode hebt geconfigureerd, wordt aan het gecreëerde verkoopdocument een betalingsmethodecode toegewezen. Zie voor meer informatie [Toewijzing van betalingsmethoden](#payment-method-mapping).
 
-## <a name="payouts"></a>Uitbetalingen
+## Uitbetalingen
 
 Als uw winkel Shopify Payment gebruikt, ontvangt u betalingen via **Shopify-uitbetalingen** wanneer een klant betaalt met Shopify Payments en versneld afrekenen.
 
@@ -38,7 +38,7 @@ Als u alle uitbetalingen wilt bekijken, kiest u het ![Lampje dat de functie Vert
 
 **Uitbetalingen** zijn alleen voor informatieve doeleinden en hebben geen invloed op het grootboek, hoewel ze handig kunnen zijn bij het verwerken van uw bankrekeningafschrift.
 
-## <a name="payment-method-mapping"></a>Toewijzing van betalingsmethoden
+## Toewijzing van betalingsmethoden
 
 Om de **Code van betalingsmethode** automatisch in te vullen voor verkoopdocumenten die worden geïmporteerd uit Shopify, moet u **Toewijzing van betalingsmethoden** configureren.
 
@@ -52,7 +52,7 @@ Om de **Code van betalingsmethode** automatisch in te vullen voor verkoopdocumen
 > [!NOTE]  
 > Als voor de bijbehorende betaalmethode in [!INCLUDE[prod_short](../includes/prod_short.md)] **Grootboekrekening** en **Tegenrekeningnr.** zijn ingevuld, maakt het factuursysteem tijdens het boeken een tegenboeking van het type *Betaling* en wordt deze vereffend met het *Factuur*-type in de klantenpost.
 
-## <a name="use-cases"></a>Praktijkgevallen
+## Praktijkgevallen
   
 Partijen:
 
@@ -60,7 +60,7 @@ Partijen:
 * Handelaar - uw bedrijf.
 * Betalingsprovider - bedrijf dat de betalingsverwerking voor u faciliteert. Kan Shopify Payments of een derde partij zijn.
 
-### <a name="how-money-flows"></a>Hoe geld stroomt
+### Hoe geld stroomt
 
 De koper koopt goederen in de online winkel. De laatste stap is het verwerken van de betaling.
 
@@ -77,7 +77,7 @@ Afhankelijk van de bank kan de Handelaar deze inkomende transactie op zijn bankr
 
 Er zijn verschillende opties voor het afhandelen van betalingstransacties in [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices"></a>Optie 1: inkomende overschrijvingen op bankrekening afstemmen met originele facturen
+### Optie 1: inkomende overschrijvingen op bankrekening afstemmen met originele facturen
   
 Verkoper importeert verkooporder naar [!INCLUDE[prod_short](../includes/prod_short.md)] en boekt verzending en factuur.
 
@@ -90,7 +90,7 @@ problemen:
 1. Kan lastig zijn als er meerdere facturen (en creditnota's) zijn, maar één uitbetaling van de betalingsprovider met een forfaitair bedrag.
 2. Bedrag komt meestal niet overeen vanwege commissie. U kunt betalingstolerantie en/of betalingskortingen gebruiken om vergoedingen af te handelen.
 
-### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider"></a>Optie 2: reconcilieer inkomende overschrijvingen naar bankrekening met tussentijdse rekening die geld vertegenwoordigt bij de betalingsprovider
+### Optie 2: reconcilieer inkomende overschrijvingen naar bankrekening met tussentijdse rekening die geld vertegenwoordigt bij de betalingsprovider
   
 Verkoper importeert verkooporder naar [!INCLUDE[prod_short](../includes/prod_short.md)] en boekt verzending en factuur.
   
@@ -119,6 +119,6 @@ problemen:
 
 1. U kunt meerdere grootboek- of bankrekeningen maken als u met meerdere betalingsproviders te maken hebt. Verkooporders in [!INCLUDE[prod_short](../includes/prod_short.md)] ondersteunen echter slechts één betalingsmethodecode, wat het moeilijk maakt om gevallen te behandelen waarin een koper meerdere betalingsmethoden gebruikt voor een order.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Aan de slag met de connector voor Shopify](get-started.md)  
