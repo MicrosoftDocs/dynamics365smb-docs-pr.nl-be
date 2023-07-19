@@ -11,21 +11,21 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Accountantervaringen binnen [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-"></a>Accountantervaringen binnen [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Elk bedrijf moet zijn boekhouding doen en aftekenen. Sommige bedrijven hebben een externe accountant en andere hebben een accountant in dienst. Ongeacht wat voor accountant u bent, u kunt het rolcentrum **Accountant** gebruiken als uw thuis binnen [!INCLUDE[prod_short](includes/prod_short.md)]. Van hieruit hebt u toegang tot alle pagina's die u in uw werk nodig hebt.  
 
-## Rolcentrum Accountant
+## <a name="accountant-role-center"></a>Rolcentrum Accountant
 
 Het rolcentrum is een dashboard met activiteittegels die realtime cijfers bevatten en die u snel toegang geven tot gegevens. In het lint boven op de pagina hebt u toegang tot meer acties, zoals het openen van de vaakst gebruikte financiële rapporten en de rekeningoverzichten in Excel. Op de navigatiebalk bovenin kunt u snel schakelen tussen de lijsten die u het meest gebruikt. Hier ziet u andere gebieden, zoals **Geboekte documenten** met de diverse soorten documenten die het bedrijf heeft geboekt.  
 
 Als [!INCLUDE[prod_short](includes/prod_short.md)] nieuw voor u is, kunt u een overzicht van video's direct vanuit uw rolcentrum starten. U kunt ook een **Aan de slag**-rondleiding starten die wijst op belangrijke gebieden.  
 
-## Bedrijfshub
+## <a name="company-hub"></a>Bedrijfshub
 
 Als u in meerdere [!INCLUDE [prod_short](includes/prod_short.md)]-bedrijven werkt, vindt u het misschien handig om de pagina **Bedrijfshub** te gebruiken om werk bij te houden.  Zie voor meer informatie [Werk in meerdere bedrijven beheren in de bedrijfshub](company-hub.md).  
 
-## <a name="inviteaccountant"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-"></a><a name="inviteaccountant"></a>Uw externe accountant uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Als u een externe auditor gebruikt om uw boeken en financiële rapportage te beheren, kan uw beheerder deze uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens. [!INCLUDE[prod_short](includes/prod_short.md)] omvat drie licenties van het type Externe accountant. Zie de [Microsoft Dynamics 365 Business Central Licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=871590) voor meer informatie over licenties.
 
@@ -45,11 +45,11 @@ We hebben het voor u eenvoudig gemaakt om uw externe accountant uit te nodigen. 
 >
 > Deze taak vereist toegang tot het beheren van gebruikers en licenties in Azure Active Directory. De gebruiker die deze uitnodiging verzendt, moet de rol **Globale beheerder** of **Gebruikersbeheer** in het Microsoft 365-beheercentrum toegewezen krijgen. Zie voor meer informatie [Over beheerdersrollen](/microsoft-365/admin/add-users/about-admin-roles) in de Microsoft 365-beheerdersinhoud.  
 
-### Uw accountant toevoegen aan uw Microsoft 365 via de Azure Portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Uw accountant toevoegen aan uw Microsoft 365 via de Azure Portal
 
 Als uw beheerder of wederverkoper geen gebruik wenst te maken van de begeleiding **Externe accountant uitnodigen**, kunnen ze een externe gebruiker toevoegen aan de Azure Portal en aan deze gebruiker de licentie *Externe accountant* toewijzen. Zie [Snelle start: gastgebruikers toevoegen aan uw directory in de Azure-portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal) voor meer informatie.
 
-#### Uw accountant als gastgebruiker toevoegen
+#### <a name="to-add-your-accountant-as-a-guest-user"></a>Uw accountant als gastgebruiker toevoegen
 
 1. Open de [Azure Portal](https://portal.azure.com/).
 2. Selecteer **Azure Active Directory** in het linkerdeelvenster.
@@ -64,7 +64,7 @@ Als uw beheerder of wederverkoper geen gebruik wenst te maken van de begeleiding
 
 Daarna moet u de nieuwe gastgebruiker een licentie voor [!INCLUDE[prod_short](includes/prod_short.md)] toewijzen.
 
-#### Uw accountant toegang geven tot uw [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-"></a>Uw accountant toegang geven tot uw [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Kies **Profiel** in de Azure Portal bij de zojuist toegevoegde gebruiker en kies **Bewerken**
 2. Voer in het veld **Gebruikslocatie** het desbetreffende land/regio in en kies **Opslaan**.
@@ -78,11 +78,11 @@ Daarna moet u de nieuwe gastgebruiker een licentie voor [!INCLUDE[prod_short](in
 
 Als dit lukt, wordt de licentie toegewezen aan de gastgebruiker en wordt het gastaccount gemaakt.
 
-### De nieuwe gebruiker importeren in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-"></a>De nieuwe gebruiker importeren in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 De accountant ontvangt een e-mail met de melding dat hij of zij toegang heeft gekregen tot uw Active Directory. Daarna moet u de accountant toegang geven tot het juiste bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### De accountant toevoegen aan het juiste bedrijf
+#### <a name="to-add-the-accountant-to-the-right-company"></a>De accountant toevoegen aan het juiste bedrijf
 
 1. Open het [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijf waarvoor u de accountant toegang wilt geven op [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling  
@@ -92,7 +92,7 @@ Hiermee wordt het gebruikersaccount dat u in de Azure Portal hebt gemaakt, naar 
 
 Als u toegang wilt geven aan meerdere bedrijven, moet u zich bij elk bedrijf aanmelden en dit proces herhalen. U kunt ook de machtigingsgroepen voor het gebruikersprofiel van de accountant bijwerken in [!INCLUDE[prod_short](includes/prod_short.md)], zoals het toewijzen van de *D365 Bus Premium*-gebruikersgroep. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
