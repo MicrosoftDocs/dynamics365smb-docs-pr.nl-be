@@ -6,17 +6,17 @@ ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
 ms.reviewer: jswymer
-ms.date: 04/26/2023
+ms.date: 07/17/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# <a name="introduction-to--and-power-bi"></a>Inleiding in [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
+# Inleiding in [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
 Het is gemakkelijk inzicht te krijgen in uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens met [Power BI](https://powerbi.microsoft.com), een datavisualisatiesysteem van Microsoft. Power BI haalt [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens op, zodat u dashboards en rapporten kunt maken op basis van die gegevens. Power BI biedt een flexibel alternatief voor de ingebouwde rapporten van [!INCLUDE[prod_short](includes/prod_short.md)] en stelt u in staat verder in te zoomen op gegevens om ze te analyseren en om de visualisatie aan te passen. U kunt hiermee zelfs gegevens van verschillende bedrijven samenvoegen in [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige Power BI-rapporten kunnen ook worden ingesloten in Business Central en worden bekeken zonder dat de gebruiker het systeem hoeft te verlaten. Als u werkt met complexere dashboards, kunt u beter de Power BI-website gebruiken.
 
 ![Power BI en Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-"></a>Wat u kunt doen met Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]
+## Wat u kunt doen met Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI. Sommige dingen kunt u doen vanuit Power BI, terwijl u andere dingen kunt doen vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige functies zijn ook alleen beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)] online en niet in on-premises. De volgende tabel biedt u een overzicht.
 
@@ -30,7 +30,7 @@ Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](include
 
 <a name="onprem"><sup>*</sup></a> Deze functie vereist een geregistreerde toepassing voor Business Central in Microsoft Azure. Zie [Business Central On-Premises registeren in Azure AD voor integratie met andere services](/dynamics365/business-central/dev-itpro/administration/register-app-azure) voor meer informatie.
 
-## <a name="get-ready-to-use-power-bi"></a>Voorbereiden voor het gebruik van Power BI
+## Voorbereiden voor het gebruik van Power BI
 
 Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan gebruiken in combinatie met [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> De taken zijn afhankelijk van uw rol in uw organisatie en wat u wilt doen met Power BI:
 
@@ -45,7 +45,7 @@ Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan
 |Business Central-gegevens beschikbaar stellen aan Power BI||![het is een vinkje.](media/check.png)|![weer een vinkje](media/check.png)|[Gegevens beschikbaar stellen via API-pagina's of OData-webservices](admin-powerbi-setup.md#exposedata)
 |Power BI-integratie inschakelen<br />(alleen voor on-premises)||![het is een vinkje.](media/check.png)||[Business Central on-premises instellen voor Power BI-integratie](admin-powerbi-setup.md#setup)|
 
-## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Uw bedrijfs-KPI's bijhouden met Power BI-meetgegevens
+## Uw bedrijfs-KPI's bijhouden met Power BI-meetgegevens
 
 Als u Power BI met [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens gebruikt, is het eenvoudig om KPI's of meetgegevens bij te houden die voor u belangrijk zijn. 
 
@@ -53,27 +53,26 @@ Met meetgegevens in Power BI kunt u uw eigen meetgegevens selecteren en deze vol
 
 Volg dit proces in vier stappen om Power BI-meetgegevens in te stellen:
 
-1. Maak een scorekaart in de Power BI-service. Zie [Scorekaarten maken in Power BI](/power-bi/create-reports/service-goals-create).
-2. Voeg de _meetgegevens_ die u wilt bijhouden toe door verbinding te maken met uw Power BI-rapport over telemetrie. Zie [Verbonden statistieken maken](/power-bi/create-reports/service-goals-create-connected).
-3. Definieer statusregels voor uw meetgegevens om waarschuwingen toe te voegen. Zie [Geautomatiseerde statusregels maken voor meetgegevens](/power-bi/create-reports/service-metrics-status-rules).
+1. Maak een scorekaart in de Power BI-service. Ga voor meer informatie naar [Scorekaarten maken in Power BI](/power-bi/create-reports/service-goals-create).  
+2. Voeg de _meetgegevens_ die u wilt bijhouden toe door verbinding te maken met uw Power BI-rapport over telemetrie. Ga voor meer informatie naar [Verbonden statistieken maken](/power-bi/create-reports/service-goals-create-connected).  
+3. Definieer statusregels voor uw meetgegevens om waarschuwingen toe te voegen. Zie voor meer informatie [Geautomatiseerde statusregels maken voor meetgegevens](/power-bi/create-reports/service-metrics-status-rules).  
 
-   Met deze stap worden statusupdates geautomatiseerd op basis van regels die voor dat meetgegeven gelden. Regels triggeren wijzigingen op basis van waarde, percentage van behaald doel, datumvoorwaarden of een combinatie van de drie, waardoor de regels zo veelzijdig mogelijk zijn. Voor verbonden meetgegevens worden deze statusregels vernieuwd telkens wanneer de gegevens in uw scorekaart worden vernieuwd.
-4. Volg ten slotte meetgegevens om waarschuwingen in Teams of per e-mail te ontvangen. Zie [Uw meetgegevens volgen](/power-bi/create-reports/service-metrics-follow).
+    Met deze stap worden statusupdates geautomatiseerd op basis van regels die voor dat meetgegeven gelden. Regels triggeren wijzigingen op basis van waarde, percentage van behaald doel, datumvoorwaarden of een combinatie van de drie, waardoor de regels zo veelzijdig mogelijk zijn. Voor verbonden meetgegevens worden deze statusregels vernieuwd telkens wanneer de gegevens in uw scorekaart worden vernieuwd.
+4. Volg ten slotte meetgegevens om waarschuwingen in Teams of per e-mail te ontvangen. Ga voor meer informatie naar [Uw meetgegevens volgen](/power-bi/create-reports/service-metrics-follow).  
 
-Zie [Aan de slag met meetgegevens in Power BI](/power-bi/create-reports/service-goals-introduction) voor meer informatie over het gebruik van Power BI.
+Zie voor meer informatie over Power BI-meetgegevens [Aan de slag met meetgegevens in Power BI](/power-bi/create-reports/service-goals-introduction).
 
 > [!NOTE]
 > Het is momenteel niet mogelijk om scorekaarten van Power BI-meetgegevens in te sluiten in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="next-steps"></a>Volgende stappen
+## Volgende stappen
 
 - Als u een beheerder bent die Power BI moet instellen in [!INCLUDE[prod_short](includes/prod_short.md)], gaat u naar [Power BI-integratie inschakelen](admin-powerbi-setup.md).
 - Als Power BI al is ingesteld en u de functies wilt uitproberen, gaat u naar [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md).
 
+## Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bedrijfsinformatie](bi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen  

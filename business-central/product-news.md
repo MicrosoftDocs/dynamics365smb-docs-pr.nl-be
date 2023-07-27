@@ -9,7 +9,7 @@ ms.date: 06/15/2023
 ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>Nieuw en gepland voor Dynamics 365 Business Central
+# Nieuw en gepland voor Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
@@ -22,21 +22,22 @@ Het kan handig zijn om de site [Dynamics 365 Business Central-mogelijkheden](htt
 
 Lees meer over hoe uw [!INCLUDE [prod_short](includes/prod_short.md)] online de volgende updates ontvangt op [Grote updates en kleine updates](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline) (alleen in het Engels).
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen via een RSS-feed
+## Meldingen over wijzigingen ontvangen via een RSS-feed
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bezoek onze videobibliotheek](across-videos.md)  
-[Bronnen voor Help en ondersteuning](product-help-and-support.md)  
+[Resources voor Help en ondersteuning](product-help-and-support.md)  
 [Dynamics 365 Business Central-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
+[Nieuwe en gewijzigde functies](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Dynamics 365 Business Central-mogelijkheden](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Dynamics 365 Business Central-routekaart](https://dynamics.microsoft.com/roadmap/business-central/)  
 [Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 [Business Central-prijzen](https://dynamics.microsoft.com/business-central/overview/#pricing)  
-[Dynamics 365 Business Central-community](https://community.dynamics.com/business/)
+[Dynamics 365 Business Central-communityforum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
