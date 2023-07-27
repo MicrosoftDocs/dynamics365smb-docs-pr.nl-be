@@ -7,13 +7,13 @@ ms.topic: article
 ms.date: 03/06/2022
 ms.author: edupont
 ---
-# Over kostprijsberekening
+# <a name="about-unit-cost-calculation"></a>Over kostprijsberekening
 
 Elk artikel heeft een eenheidsprijs die wordt berekend op basis van de waarderingsmethode van het bedrijf en andere factoren. In het algemeen wordt de waarde van het veld **Kostprijs** met de waarderingsmethode *Standaard* gebaseerd op de vaste verrekenprijs van het artikel. Voor alle andere berekeningsmethoden (*FIFO*, *LIFO*, *Specifiek* en *Gemiddeld*), wordt de kostprijs berekend op basis van de gemiddelde kostprijs over een bepaalde periode.  
 
 Zie [Voorraadkosten beheren](finance-manage-inventory-costs.md) voor meer informatie.  
 
-## Wanneer het kostprijsveld wordt bijgewerkt
+## <a name="when-is-the-unit-cost-field-updated"></a>Wanneer het kostprijsveld wordt bijgewerkt
 
 De gekozen berekeningsmethode beïnvloedt wanneer het veld **Kostprijs** wordt bijgewerkt.
 
@@ -33,35 +33,35 @@ Als aan een van deze voorwaarden wordt voldaan, wordt het veld **Kostprijs** bij
 
 In het veld **Kostprijs** op de artikelkaart kunt u inzoomen om de transactiehistorie te bekijken waaruit de gemiddelde kostprijs van voorraad wordt berekend in het venster **Overzicht gemiddelde-kostenberekening**.
 
-## Kostprijsberekening voor inkopen
+## <a name="unit-cost-calculation-for-purchases"></a>Kostprijsberekening voor inkopen
 
 Wanneer u artikelen inkoopt, wordt de waarde in het veld **Laatste directe kosten** op de artikelkaart naar het veld **Directe kostprijs** op een inkoopregel of de regel **Eenheidsprijs** op een artikeldagboekregel gekopieerd.
 
 Wat u in het veld **Waarderingsmethode** invult, beïnvloedt hoe [!INCLUDE[prod_short](includes/prod_short.md)] de inhoud van het veld **Kostprijs** berekent op de regels.
 
-### Waarderingsmethode FIFO, LIFO, Specifiek of Gemiddeld
+### <a name="costing-method-fifo-lifo-specific-or-average"></a>Waarderingsmethode FIFO, LIFO, Specifiek of Gemiddeld
 
 De inhoud van het veld **Kostprijs (LV)** op de inkoopregel of het veld **Kostprijs** op de artikeldagboekregel wordt door [!INCLUDE[prod_short](includes/prod_short.md)] berekend volgens deze formule:
 
 *Kostprijs (LV) = (Directe kostprijs - (Kortingsbedrag/Aantal)) x (1 + Indirecte kosten % / 100) + Overheadtarief*
 
-### Waarderingsmethode Standaard
+### <a name="costing-method-standard"></a>Waarderingsmethode Standaard
 
 De waarde in het veld **Kostprijs** op de artikelkaart wordt naar het veld **Kostprijs (LV)** op de inkoopregel of het veld **Kostprijs** op de artikeldagboekregel gekopieerd. Wanneer de waarderingsmethode *Standaard* is ingesteld, is deze altijd gebaseerd op de vaste verrekenprijs.
 
 Wanneer u de aankoop boekt, gebruikt [!INCLUDE[prod_short](includes/prod_short.md)] de kostprijs van de inkoopregel of artikeldagboekregel voor de inkoopartikelfactuurpost. U kunt het zien in het overzicht met posten voor het artikel.
 
-### Alle waarderingsmethoden
+### <a name="all-costing-methods"></a>Alle waarderingsmethoden
 
 De inhoud van het veld **Tot. werk. kosten** of, indien van toepassing, het veld **Tot. verw. kosten** voor deze artikelpost wordt altijd berekend op basis van de kostprijs van de brondocumentregel, ongeacht de waarderingsmethode van het artikel.
 
-## Kostprijsberekening voor verkopen
+## <a name="unit-cost-calculation-for-sales"></a>Kostprijsberekening voor verkopen
 
 Wanneer u artikelen verkoopt, wordt de kostprijs altijd uit het veld **Kostprijs** op de artikelkaart naar de verkoopregel of de artikeldagboekregel gekopieerd.
 
 Tijdens het boeken wordt de kostprijs naar de verkoopfactuurpost gekopieerd en weergegeven in het overzicht met artikelposten. De inhoud van het veld **Tot. werk. kosten** of indien van toepassing het veld **Tot. verw. kosten** in de waardepost voor deze artikelpost wordt door [!INCLUDE[prod_short](includes/prod_short.md)] berekend op basis van de kostprijs van de brondocumentregel.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
