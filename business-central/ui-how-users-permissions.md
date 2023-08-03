@@ -5,11 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 05/09/2022
+ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="create-users-according-to-licenses"></a>Gebruikers maken volgens licenties
+# Gebruikers maken volgens licenties
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 Dit artikel beschrijft hoe beheerders gebruikers maken en bepalen wie zich kan aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)]. U leert ook hoe u machtigingen toewijst aan verschillende gebruikers op basis van uw productlicenties.
 
@@ -20,7 +22,7 @@ Voor meer informatie over de verschillende soorten licenties en hoe licenties we
 > [!NOTE]
 > Het proces van het beheren van gebruikers en licenties is afhankelijk van of [!INCLUDE[prod_short](includes/prod_short.md)] online of on-premises wordt geïmplementeerd. Voor [!INCLUDE [prod_short](includes/prod_short.md)] online moet u gebruikers toevoegen vanuit Microsoft 365. In on-premises implementaties kunt u rechtstreeks gebruikers maken, bewerken en verwijderen.  
 
-## <a name="manage-users-and-licenses-in-online-tenants"></a>Gebruikers en licenties beheren in online-tenants
+## Gebruikers en licenties beheren in online-tenants
 
 Gebruikersaccounts in [!INCLUDE[prod_short](includes/prod_short.md)] moeten eerst worden gemaakt in het Microsoft 365-beheercentrum. Deze gebruikersaccounts zijn niet exclusief voor Business Central. Als u zich abonneert op andere abonnementen, kunnen deze worden gebruikt om u aan te melden bij andere applicaties, zoals Power BI. Ga voor informatie over het maken van gebruikers in het Microsoft 365-beheercentrum naar [Gebruikers toevoegen in het Microsoft-beheercentrum](/microsoft-365/admin/add-users/add-users).
 
@@ -37,7 +39,7 @@ Nadat gebruikersaccounts zijn gemaakt in het Microsoft 365-beheercentrum, zijn e
 
 - Een gebruikersaccount wordt automatisch geïmporteerd wanneer de gebruiker zich voor het eerst aanmeldt bij [!INCLUDE [prod_short](includes/prod_short.md)].
 
-- De beheerder kan gebruikers importeren door de actie  **Gebruikers bijwerken vanuit Microsoft 365** te kiezen op de pagina **Gebruikers* .
+- De beheerder kan gebruikers importeren door de actie  **Gebruikers bijwerken vanuit Microsoft 365**  te kiezen op de pagina **Gebruikers* .
 
 Beide benaderingen hebben hun eigen voordelen en u kunt ze tegelijkertijd gebruiken. Elke benadering stelt beheerders in staat om [!INCLUDE [prod_short](includes/prod_short.md)] proactief te configureren om de startmachtigingen, gebruikersgroepen en gebruikersprofielen toe te wijzen. Door de actie **Gebruikers bijwerken vanuit Microsoft 365** te gebruiken hebben beheerders meer controle over het aanpassen van machtigingen, gebruikersgroepen en profielen. Het is een ideale benadering wanneer u [!INCLUDE [prod_short](includes/prod_short.md)] voor het eerst instelt, voordat gebruikers inloggen of wanneer u een nieuw team gebruikers toevoegt.
 
@@ -52,7 +54,7 @@ Beide benaderingen hebben hun eigen voordelen en u kunt ze tegelijkertijd gebrui
 
 Zie voor meer informatie [Gedelegeerde beheerderstoegang tot Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Machtigingen configureren op basis van licenties
+### <a name="licensespermissions"></a>Machtigingen configureren op basis van licenties
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -82,7 +84,7 @@ Als deze standaardconfiguratie niet de juiste instelling is voor een bepaalde om
 > [!IMPORTANT]
 > Deze aanpassing van machtigingen wordt alleen van kracht voor nieuwe gebruikers die u de betreffende licentie toewijst. Bestaande gebruikers worden niet bijgewerkt. We raden u aan de machtigingen aan te passen voordat u gebruikerslicenties gaat toewijzen in het Microsoft 365-beheercentrum.
 
-### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Gebruikers toevoegen of gebruikersgegevens en licentietoewijzingen bijwerken in Business Central
+### <a name="adduser"></a>Gebruikers toevoegen of gebruikersgegevens en licentietoewijzingen bijwerken in Business Central
 
 Nadat u gebruikers heeft toegevoegd of gebruikersinformatie heeft gewijzigd in het Microsoft 365-beheercentrum, kunt u de gebruikersinformatie snel importeren naar [!INCLUDE[prod_short](includes/prod_short.md)]. De import omvat licentietoewijzingen.  
 
@@ -90,8 +92,11 @@ Nadat u gebruikers heeft toegevoegd of gebruikersinformatie heeft gewijzigd in h
 2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies **Gebruikers bijwerken vanuit Microsoft 365**.
 
+> [!IMPORTANT]  
+> Voor het uitvoeren van de synchronisatie van gebruikers van Microsoft 365 met behulp van de gids **Gebruikers bijwerken vanuit Microsoft 365** is de SUPER-machtigingenset vereist.
+
 > [!NOTE]
-> De actie **Gebruikers bijwerken vanuit Microsoft 365** actie werkt gebruikers niet bij aan wie geen licentie is toegewezen, zoals iemand die globale beheerder en Dynamics 365-beheerder is. Die gebruikers zullen de volgende keer dat ze inloggen op de omgeving updaten.
+> De gids **Gebruikers bijwerken vanuit Microsoft 365** werkt gebruikers niet bij aan wie geen licentie is toegewezen, zoals iemand die globale beheerder en Dynamics 365-beheerder is. Die gebruikers zullen de volgende keer dat ze inloggen op de omgeving updaten.
 
 Voor nieuw gemaakte gebruikers is de volgende stap het toewijzen van gebruikersgroepen en machtigingen. Ga naar [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor informatie Als u een gebruiker bijwerkt en de update een licentiewijziging omvat, worden gebruikers toegewezen aan de juiste gebruikersgroep en worden hun machtigingensets bijgewerkt. Zie [Machtigingen beheren via gebruikersgroepen](ui-define-granular-permissions.md) voor meer informatie.  
 
@@ -101,9 +106,9 @@ Voor nieuw gemaakte gebruikers is de volgende stap het toewijzen van gebruikersg
 Voor meer informatie over het synchroniseren van gebruikersinformatie met Microsoft 365 gaat u naar de sectie [Synchronisatie met Microsoft 365](#m365).
 
 > [!NOTE]
-> Als u een externe auditor gebruikt om uw boeken en financiële rapportage te beheren, kunt u deze uitnodigen voor uw Business Central, zodat hij of zij met u kan werken aan uw fiscale gegevens. Zie voor meer informatie [Uw externe accountant uitnodigen voor uw Business Central](finance-accounting.md#inviteaccountant).
+> Als u een externe auditor gebruikt om uw boeken en financiële rapportage beheren, kunt u deze uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens. Zie voor meer informatie [Uw externe accountant uitnodigen voor uw Business Central](finance-accounting.md#inviteaccountant).
 
-### <a name="to-remove-a-users-access-to-the-system"></a>De toegang van een gebruiker tot het systeem verwijderen
+### De toegang van een gebruiker tot het systeem verwijderen
 
 U kunt de toegang van een gebruiker tot [!INCLUDE[prod_short](includes/prod_short.md)] online verwijderen. Alle verwijzingen naar de gebruiker blijven behouden. De gebruiker kan zich echter niet aanmelden en actieve sessies voor de gebruiker worden gestopt.
 
@@ -113,7 +118,7 @@ U kunt de toegang van een gebruiker tot [!INCLUDE[prod_short](includes/prod_shor
 
 U kunt de licentie ook verwijderen van een gebruiker in het Microsoft 365-beheercentrum. De gebruiker kan zich dan niet meer aanmelden. Zie voor meer informatie [Licenties van gebruikers verwijderen](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synchronisatie met Microsoft 365
+### <a name="m365"></a>Synchronisatie met Microsoft 365
 
 Wanneer u een licentie voor [!INCLUDE[prod_short](includes/prod_short.md)] toewijst aan een gebruiker in Microsoft 365, zijn er twee manieren om de gebruiker te maken in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -134,17 +139,17 @@ Als u gebruikersgegevens wijzigt in Microsoft 365, kunt u [!INCLUDE[prod_short](
 
 Gebruikers hebben toegang tot Business Central-gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]-records in Teams met alleen hun Microsoft 365-licentie. Wanneer toegang is ingeschakeld voor een omgeving, worden bij synchronisatie met de actie **Gebruikers bijwerken vanuit Microsoft 365** geen gebruikers opgenomen die alleen een Microsoft 365-licentie hebben. Om deze gebruikers in de synchronisatie op te nemen moet u eerst de omgevingsinstellingen bijwerken door een beveiligingsgroep toe te wijzen die gebruikers bevat met een [!INCLUDE[prod_short](includes/prod_short.md)]-licentie en gebruikers met alleen een Microsoft 365-licentie.
 
-Lees meer over het beveiligen van toegang tot omgevingen met behulp van beveiligingsgroepen op [Toegang beheren met Azure Active Directory-groepen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+Lees meer over het beveiligen van toegang tot omgevingen met behulp van beveiligingsgroepen op [Toegang beheren met Azure Active Directory-groepen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
-Krijg een overzicht van toegang tot Business Central in Teams met Microsoft 365-licenties op [admin-access-with-m365-license](admin-access-with-m365-license.md).
+Krijg een overzicht van toegang tot [!INCLUDE[prod_short](includes/prod_short.md)] in Teams met Microsoft 365-licenties op [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
-## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Gebruikers en licenties beheren in on-premises implementaties
+## Gebruikers en licenties beheren in on-premises implementaties
 
 Voor on-premises implementaties wordt het aantal gebruikerslicenties opgegeven in het licentiebestand (.bclicense of .flf). Wanneer een beheerder of Microsoft-partner het licentiebestand uploadt, kan deze opgeven welke gebruikers zich kunnen aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Voor on-premises implementaties maakt de beheerder gebruikers rechtstreeks op de pagina **Gebruikers**.
 
-### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Een gebruiker in een on-premises implementatie bewerken of verwijderen
+### Een gebruiker in een on-premises implementatie bewerken of verwijderen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
 2. Selecteer de gebruiker die u wilt bewerken en kies vervolgens de actie **Bewerken**.
@@ -156,7 +161,7 @@ Voor on-premises implementaties maakt de beheerder gebruikers rechtstreeks op de
 >
 > Zie voor meer informatie [Verificatie en referentietypen](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in de beheer-Help voor [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
 [Profielen beheren](admin-users-profiles-roles.md)  

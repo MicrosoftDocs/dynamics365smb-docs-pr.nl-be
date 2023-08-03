@@ -12,14 +12,14 @@ ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# <a name="set-up-bank-accounts-for-coda-in-the-belgian-version"></a>Bankrekeningen instellen voor CODA in de Belgische versie
+# Bankrekeningen instellen voor CODA in de Belgische versie
 Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften kunt gebruiken, moet u de volgende codes instellen:  
 
 - Protocolnummer  
 - Versiecode  
 - IBLC/BLWI-codes - Zie [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md) voor meer informatie.  
 
-## <a name="to-set-up-protocol-numbers-and-version-codes"></a>Protocolnummers en versiecodes instellen
+## Protocolnummers en versiecodes instellen  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Bewerken**.  
@@ -32,7 +32,7 @@ Voordat u de functionaliteit voor elektronisch bankieren voor CODA-afschriften k
 
 4.  Kies de knop **OK**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [CODA-bankafschriften](coda-bank-statements.md)   
  [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [CODA-afschriften importeren](how-to-import-coda-statements.md)
