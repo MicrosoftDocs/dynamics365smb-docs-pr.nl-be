@@ -11,7 +11,7 @@ ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setting-up-fixed-assets"></a>Vaste activa instellen
+# Vaste activa instellen
 
 Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:  
 
@@ -36,9 +36,9 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Meer informatie over andere afschrijvingsmethoden voor vaste activa. |[Afschrijvingsmethoden](fa-depreciation-methods.md) |
 | Meer informatie over het toepassen van door de gebruiker gedefinieerde afschrijvingsmethoden. |[Eigen afschrijvingsmethoden instellen](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/set-up-fixed-assets-management/)
+## Zie gerelateerde [Microsoft-training](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  

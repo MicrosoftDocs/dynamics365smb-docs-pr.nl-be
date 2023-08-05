@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/26/2021
 ms.author: edupont
 ---
-# <a name="application-design-details"></a>Ontwerpdetails van toepassing
+# Ontwerpdetails van toepassing
 
 De artikelen in dit gedeelte bevatten gedetailleerde technische informatie over complexe toepassingsfuncties in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ De inhoud van ontwerpdetails is gericht op uitvoerders, ontwikkelaars en superge
 |Meer leren over historisch en huidig ontwerp van artikeltraceringsfunctionaliteit en hoe deze wordt geïntegreerd met het reserveringsysteem om serie-/lotnummers in beschikbaarheidsberekeningen op te nemen.|[Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)|  
 |Meer informatie over de functie Boekingsregel voor dagboeken.|[Ontwerpdetails: dagboekboekingsregel](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Gepland](production-planning.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
@@ -34,4 +34,4 @@ De inhoud van ontwerpdetails is gericht op uitvoerders, ontwikkelaars en superge
 [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

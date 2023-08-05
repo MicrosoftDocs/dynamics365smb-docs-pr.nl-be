@@ -11,7 +11,7 @@ ms.search.form: '113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 921
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="create-gl-budgets"></a>Grootboekbudgetten maken
+# Grootboekbudgetten maken
 
 U kunt budgetten met aparte namen maken als u meerdere budgetten wilt gebruiken voor dezelfde perioden. Eerst stelt u de begrotingsnaam in en voert u de begrotingscijfers in. De begrotingsnaam wordt vervolgens opgenomen op alle begrotingsposten die u maakt.  
 
@@ -21,7 +21,7 @@ Budgetten spelen een belangrijke rol bij bedrijfsinformatie. Voorbeelden zijn ee
 
 In kostenadministratie werkt u met kostenbudgetten op een soortgelijke manier. Zie voor meer informatie [Kostenbudgetten maken](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a>Een nieuw grootboekbudget maken
+## Een nieuw grootboekbudget maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekbudgetten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Lijst bewerken** en vul vervolgens indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ In kostenadministratie werkt u met kostenbudgetten op een soortgelijke manier. Z
 > [!NOTE]  
 > Op het sneltabblad **Filters** kunt u de budgetinformatie filteren op de budgetdimensies die u hebt ingesteld onder de budgetnaam.
 
-## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Grootboekbudgetten exporteren en importeren met Excel
+## Grootboekbudgetten exporteren en importeren met Excel
 
 Zoals bij vrijwel alle overige pagina's kunt u gegevens op budgetpagina's naar Microsoft Excel exporteren voor verdere verwerking of analyse. Voor meer informatie: [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md).
 
@@ -45,7 +45,7 @@ Zoals bij vrijwel alle overige pagina's kunt u gegevens op budgetpagina's naar M
 
 Wanneer u dus een grootboekbudget importeert, worden eventuele waarden op kopregels verwijderd. Hierdoor worden verkeerde totalen voorkomen nadat gegevens zijn geïmporteerd die zijn gemaakt of bewerkt in Excel.
 
-### <a name="scenario"></a>Scenario
+### Scenario
 
 U weet dat de nieuwe gebudgetteerde salarissenkosten 1.200.000 lokale valuta (LV) zullen zijn. U wilt de afdeling Salarissen laten budgetteren voor drie specifieke regels (van het rekeningtype Boeking) voor fulltime werknemers, parttime werknemers en invalkrachten. De drie regels worden gegroepeerd onder de kopregel Salarissen.
 
@@ -53,9 +53,9 @@ U voert 1.200.000 in op de kopregel, exporteert het budget naar Excel en stuurt 
 
 De afdeling Salarissen distribueert het bedrag over de drie boekingsrekeningen. Wanneer u terug importeert in het grootboekbudget, worden de drie rekeningen ingevuld met de nieuwe Excel-gegevens, tot een totaal van 1.200.000, en is de kopregel leeg.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  
 [Financiën](finance.md)  

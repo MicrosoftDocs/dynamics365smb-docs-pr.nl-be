@@ -7,19 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000846, 99000850'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="batch-post-production-consumption"></a>Productieverbruik in batches boeken
+# Productieverbruik in batches boeken
 
-Als de afboekingsmethode **Handmatig** is, moet u de materialen handmatig boeken met behulp van een verbruiksdagboek.  
+Als de afboekingsmethode **Handmatig** is, gebruikt u een verbruiksdagboek om de componenten handmatig te boeken.  
 
->[!NOTE]
+> [!NOTE]
 > Als u het selectievakje **Pick vereist** op de vestigingskaart hebt ingeschakeld om aan te geven dat de vestiging voorraadpickverwerking vereist, hoeft u deze batchverwerking niet uit te voeren. [!INCLUDE[prod_short](includes/prod_short.md)] handelt het verbruik dan af wanneer u de voorraadpick boekt. Zie voor meer informatie [Picken voor productie in standaardmagazijnconfiguraties](warehouse-how-to-pick-for-production.md).  
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] ook zo instellen materialen automatisch worden geboekt (*afgeboekt*) als u productieorders start of voltooit. Zie voor meer informatie [Afboeking van materialen op basis van de uitvoer van een bewerking inschakelen](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Verbruik boeken voor een of meer productieorderregels
+## Verbruik boeken voor een of meer productieorderregels
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verbruiksdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in de velden informatie over de productieorder en verbruik in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +31,9 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] ook zo instellen materiale
 
 3. Kies de actie **Boeken** om het verbruik te boeken. De gerelateerde voorraden worden verminderd.
 
-## <a name="see-also"></a>Zie ook
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
+## Zie ook
 
 [Productie](production-manage-manufacturing.md)  
 [Productie instellen](production-configure-production-processes.md)  

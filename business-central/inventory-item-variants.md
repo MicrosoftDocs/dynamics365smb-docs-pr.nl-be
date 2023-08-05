@@ -9,18 +9,18 @@ ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 
 ms.date: 09/26/2022
 ms.author: edupont
 ---
-# <a name="manage-product-variants"></a>Productvarianten beheren
+# Productvarianten beheren
 
 Artikelvarianten zijn een geweldige manier om uw lijst met producten onder controle te houden. Bijvoorbeeld als u over een groot aantal artikelen beschikt die bijna identiek zijn alleen van kleur verschillen. U kunt elke variant als een afzonderlijk artikel definiëren. Maar u kiest ervoor om één artikel in te stellen en de verschillende kleuren op te geven als varianten van het artikel.  
 
 > [!TIP]
-> Zie [Procedure: varianten](contoso-coffee/variants.md) voor de demogegevens van Contoso Coffee voor een praktische inleiding tot het gebruik van varianten in de productie.  
+> Zie [Procedure: varianten](contoso-coffee/manufacturing/variants.md) voor de demogegevens van Contoso Coffee voor een praktische inleiding tot het gebruik van varianten in de productie.  
 
-## <a name="add-variants-to-an-item"></a>Varianten aan een artikel toevoegen
+## Varianten aan een artikel toevoegen
 
 Als uw organisatie heeft besloten varianten te gebruiken, is het eenvoudig genoeg om varianten voor een artikel te definiëren.  
 
-### <a name="to-add-variants"></a>Varianten toevoegen
+### Varianten toevoegen
 
 1. Open [de pagina **Artikeloverzicht**](https://businesscentral.dynamics.com/?page=31) en open het relevante artikel.  
 2. Kies op de kaart **Artikel** de actie **Artikel** en kies vervolgens de actie **Varianten**.  
@@ -28,11 +28,11 @@ Als uw organisatie heeft besloten varianten te gebruiken, is het eenvoudig genoe
 
 Wanneer u vervolgens een verkoopdocument maakt en het artikel toevoegt, kunt u de variant van het artikel specificeren in het veld **Variantcode**. Hetzelfde geldt voor inkoopdocumenten.  
 
-## <a name="item-availability-by-variant"></a>Artikelbeschikbaarheid per variant
+## Artikelbeschikbaarheid per variant
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## <a name="require-use-of-variants"></a>Gebruik van varianten vereisen
+## Gebruik van varianten vereisen
 
 Vanaf releasewave 2 van 2022 kunnen beheerders eisen dat gebruikers de variant opgeven in documenten en dagboeken voor artikelen met varianten. U kunt de mogelijkheid activeren door naar de pagina **Voorraadinstellingen** te navigeren en vervolgens het veld **Variant verplicht indien aanwezig** te selecteren. U kunt deze algemene instelling overschrijven voor specifieke artikelen.  
 
@@ -49,12 +49,12 @@ Op artikelkaarten heeft het veld **Variant verplicht indien aanwezig** de volgen
 
 Als de mogelijkheid is ingeschakeld, kunnen gebruikers geen invoer plaatsen als de variant niet is opgegeven.
 
-## <a name="categories-attributes-and-variants"></a>Categorieën, kenmerken en varianten
+## Categorieën, kenmerken en varianten
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Algemene voorraadgegevens instellen](inventory-how-setup-general.md)  
-[Procedure: varianten](contoso-coffee/variants.md)  
+[Procedure: varianten](contoso-coffee/manufacturing/variants.md)  

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# <a name="get-ready-to-synchronize-master-data"></a>Voorbereiden op het synchroniseren van hoofdgegevens
+# Voorbereiden op het synchroniseren van hoofdgegevens
 
 Wanneer twee of meer bedrijven enkele van dezelfde hoofdgegevens gebruiken, kunt u de gegevens synchroniseren in plaats van deze handmatig in elk bedrijf toe te voegen. Het synchroniseren van gegevens is bijvoorbeeld handig wanneer u nieuwe dochterondernemingen instelt.
 
@@ -25,14 +25,14 @@ Hoofdgegevens omvatten instellingen en niet-transactionele informatie over bedri
 
 U stelt synchronisatie in de dochterondernemingen in. Met behulp van een pull-model halen dochterondernemingen de gegevens op van het bronbedrijf die ze nodig hebben om zaken met hen te doen. Nadat u synchronisatie hebt ingesteld en gegevens voor de eerste keer hebt gesynchroniseerd, bent u helemaal klaar. Taakwachtrij-items werken gekoppelde records in de dochterondernemingen bij wanneer iemand gegevens wijzigt in het bronbedrijf.
 
-## <a name="uni-directional-synchronization-only"></a>Alleen unidirectionele synchronisatie
+## Alleen unidirectionele synchronisatie
 
 U kunt alleen gegevens van het bronbedrijf naar de dochterondernemingen op een pull-manier synchroniseren. Dochterondernemingen kunnen geen gegevens naar het bronbedrijf pushen.
 
 > [!NOTE]
 > Hoewel het mogelijk is, raden we u niet aan bidirectionele synchronisatie in te stellen. Dat wil zeggen, het synchroniseren van gegevens van het bronbedrijf naar de dochterondernemingen en van de dochterondernemingen naar het bronbedrijf. Het synchroniseren van gegevens in beide richtingen kan leiden tot conflicten of ongewenste overschrijvingen.
 
-## <a name="before-you-start"></a>Voordat u begint
+## Voordat u begint
 
 Dit zijn vereisten voor het instellen van synchronisatie.
 
@@ -42,7 +42,7 @@ Dit zijn vereisten voor het instellen van synchronisatie.
 > [!NOTE]
 > Met de Teamlid- en Interne beheerder-licentie kunt u records openen, maar niet wijzigen, en deze licenties kunnen dus niet worden gebruikt om de synchronisatie in te stellen. Met de licentie voor gedelegeerde beheerders kunt u geen achtergrondtaken plannen, dus u kunt de installatie niet voltooien.
 
-## <a name="specify-the-source-company"></a>Het bronbedrijf opgeven
+## Het bronbedrijf opgeven
 
 De eerste stappen zijn het specificeren van het bedrijf dat de gegevensbron zal zijn en het inschakelen van synchronisatie. Dochterondernemingen halen gegevens uit het bronbedrijf.
 
@@ -53,7 +53,7 @@ De eerste stappen zijn het specificeren van het bedrijf dat de gegevensbron zal 
 
 De volgende stap is het inschakelen van tabellen en velden voor synchronisatie.
 
-## <a name="enable-or-disable-tables-and-fields"></a>Tabellen en velden in- of uitschakelen
+## Tabellen en velden in- of uitschakelen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] biedt een lijst met tabellen die bedrijven vaak synchroniseren om tijd te besparen. Deze tabellen zijn standaard ingeschakeld voor synchronisatie. U kunt ze naar eigen inzicht aanpassen, uitschakelen of verwijderen. Als extra tijdsbesparing zijn sommige velden in de tabellen al uitgeschakeld omdat ze waarschijnlijk niet relevant zijn voor de dochteronderneming.
 
@@ -75,7 +75,7 @@ De volgende stap is het inschakelen van tabellen en velden voor synchronisatie.
 > [!TIP]
 > Een snelle manier om meerdere velden tegelijkertijd in of uit te schakelen, is door ze in de lijst te selecteren en vervolgens de actie **Inschakelen** of **Uitschakelen** te gebruiken.
 
-### <a name="use-match-based-coupling"></a>Koppeling op basis van overeenkomsten gebruiken
+### Koppeling op basis van overeenkomsten gebruiken
 
 U kunt specificeren welke gegevens voor een tabel moeten worden gesynchroniseerd door records te koppelen op basis van criteria. Kies op de pagina **Instelling van Hoofdgegevensbeheer** de actie **Op overeenkomsten gebaseerde koppeling** om de pagina **Koppelingscriteria selecteren** te openen. U kunt de volgende criteria definiëren voor uw koppeling:
 
@@ -84,7 +84,7 @@ U kunt specificeren welke gegevens voor een tabel moeten worden gesynchroniseerd
 * De velden die moeten worden gebruikt om records te koppelen en of de koppeling hoofdlettergevoelig is.
 * Geef prioriteit aan de volgorde waarin records worden doorzocht door een overeenkomstprioriteit op te geven. [!INCLUDE [prod_short](includes/prod_short.md)] zal zoeken naar een overeenkomst in oplopende volgorde op basis van de overeenkomstprioriteit. Een blanco waarde staat gelijk aan prioriteit 0, wat de hoogste prioriteit is. Velden met prioriteit 0 worden als eerste in overweging genomen.
 
-## <a name="synchronize-for-the-first-time"></a>Voor de eerste keer synchroniseren
+## Voor de eerste keer synchroniseren
 
 Wanneer u klaar bent, kiest u op de pagina **Instelling van Hoofdgegevensbeheer** de actie **Initiële synchronisatie starten**. Kies op de pagina **Initiële synchronisatie van hoofdgegevens** het type synchronisatie dat u voor elke tabel wilt gebruiken.
 
@@ -103,9 +103,9 @@ Terwijl de synchronisatie bezig is, toont de kolom **Taakstatus** op de pagina *
 
 Voor toegang tot details, zoals het aantal records dat is ingevoegd of gewijzigd, kiest u de waarde in de kolom **Taakstatus** om de pagina **Weergeven - Synchronisatietaken voor integratie** te openen. Voor records die zijn ingevoegd, kunt u het nummer kiezen in de kolom **Ingevoegd** voor meer informatie over de nieuwe records.
 
-## <a name="add-or-delete-tables-from-the-synchronization-tables-list"></a>Tabellen toevoegen aan of verwijderen uit de lijst met synchronisatietabellen
+## Tabellen toevoegen aan of verwijderen uit de lijst met synchronisatietabellen
 
-### <a name="add-a-table"></a>Een tabel toevoegen
+### Een tabel toevoegen
 
 > [!IMPORTANT]
 > Hoewel tabellen met transactiegegevens beschikbaar zijn in de lijst, zoals tabellen met grootboekposten, moet u deze niet kiezen. Synchronisatie werkt alleen voor tabellen die niet-transactionele gegevens bevatten.
@@ -114,7 +114,7 @@ Voor toegang tot details, zoals het aantal records dat is ingevoegd of gewijzigd
 1. Kies **Nieuw** en kies vervolgens de toe te voegen tabel.
 1. Vul de vereiste velden in. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-### <a name="delete-a-table"></a>Een tabel verwijderen
+### Een tabel verwijderen
 
 > [!NOTE]
 > Als u een record verwijdert in het bronbedrijf, wordt deze niet ook verwijderd in de dochteronderneming. Dit helpt ongewenst verlies van gegevens te voorkomen. De dochteronderneming kan desgewenst besluiten de tabel te verwijderen.
@@ -122,10 +122,10 @@ Voor toegang tot details, zoals het aantal records dat is ingevoegd of gewijzigd
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Synchronisatietabellen** in en kies vervolgens de gerelateerde koppeling.
 1. Kies de actie **Verwijderen**.
 
-## <a name="use-export-and-import-to-share-a-synchronization-setup"></a>Exporteren en importeren gebruiken om een synchronisatie-instelling te delen
+## Exporteren en importeren gebruiken om een synchronisatie-instelling te delen
 
 Als u meerdere dochterondernemingen instelt die dezelfde of vergelijkbare synchronisatie-instellingen gebruiken, kunt u tijd besparen. Stel één dochteronderneming in en exporteer de instellingen vervolgens naar een .xml-bestand. Het bestand bevat de volledige instelling, inclusief tabel- en veldtoewijzingen en filtercriteria. U kunt het bestand vervolgens importeren in de volgende dochteronderneming. Om een instelling te importeren of exporteren, gebruikt u op de pagina **Instelling van Hoofdgegevensbeheer** de actie **Importeren** of **Exporteren**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Synchronisatie van hoofdgegevens beheren](admin-sync-master-data.md)

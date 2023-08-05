@@ -9,11 +9,11 @@ ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Proeffuncties die verbinding maken met andere Microsoft-services
+# Proeffuncties die verbinding maken met andere Microsoft-services 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] is een uitgebreide oplossing voor bedrijfsbeheer die diep is geïntegreerd met Microsoft 365 productiviteits-apps en het Power Platform. Uw gratis proefversie van Business Central kan verbinding maken met veel verschillende Microsoft-services die u eerst moet configureren en inschakelen. Om het meeste uit uw gratis proefperiode te halen zijn sommige van deze functies automatisch voor u ingeschakeld. Ook al is de verbinding van [!INCLUDE[prod_short](includes/prod_short.md)] ingeschakeld, deze services zijn niet inbegrepen bij uw proefversie en moeten apart worden aangeschaft, tenzij u ze al hebt.
 
-De onderstaande tabel geeft de verbindingen met Microsoft-services weer die automatisch zijn ingeschakeld voor [!INCLUDE[prod_short](includes/prod_short.md)]-proefversies:
+De volgende tabel geeft de verbindingen met Microsoft-services weer die automatisch zijn ingeschakeld voor [!INCLUDE[prod_short](includes/prod_short.md)]-proefversies:
 
 |Servicenaam|Verbinding is automatisch geactiveerd |Er wordt contact opgenomen met de service wanneer u zich aanmeldt bij Business Central |Voorbeeldfunctie die gebruikmaakt van deze service | Meer informatie over het beheren van de verbinding en de functies die deze gebruiken|  
 |------------|-------------|--------|------------|-------------|
@@ -32,6 +32,6 @@ De onderstaande tabel geeft de verbindingen met Microsoft-services weer die auto
 
 Uw privacy is belangrijk voor ons. Als u meer wilt weten over hoe Microsoft uw gegevens verwerkt, bekijkt u de [Privacyverklaring van Microsoft](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

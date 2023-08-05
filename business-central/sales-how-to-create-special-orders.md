@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="create-special-orders"></a>Speciale orders maken
+# Speciale orders maken
 
 U kunt een speciale order maken om een bepaald catalogusartikel dat niet op voorraad is, te verzenden aan een bepaalde klant. Het artikel wordt door uw leverancier verzonden naar uw magazijn, zodat u het vervolgens afzonderlijk of samen met artikelen van een andere order kunt verzenden aan uw klant.  
 
@@ -18,7 +18,7 @@ Speciale orders maken het mogelijk een inkooporder en een verkooporder aan elkaa
 
 U kunt deze functie pas gebruiken als u de klanten-, leveranciers- en artikelkaart die voor de order nodig zijn, hebt ingesteld.  
 
-## <a name="to-create-a-special-order"></a>Speciale orders maken
+## Speciale orders maken
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporder** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Maak een  verkooporder voor het artikel en vul deze in. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
@@ -38,9 +38,9 @@ Een inkooporder die is gemaakt als speciale order voor een verkooporder wordt ov
 > [!NOTE]  
 >  U kunt de functionaliteit voor speciale volgorde niet gebruiken als het item al is gereserveerd. Zorg er daarom voor dat voor artikelen die zijn verkocht op speciale orders het veld **Reserveren** op de artikelkaart niet is ingesteld op **Altijd**.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md)  
 [Verkoop](sales-manage-sales.md)  

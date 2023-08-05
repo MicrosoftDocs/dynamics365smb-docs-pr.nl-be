@@ -9,12 +9,12 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Inleiding tot de demogegevens voor Contoso Coffee
+# Inleiding tot de demogegevens voor Contoso Coffee
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De apps **Contoso Coffee** voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de productiemogelijkheden in Business Central kunt benutten.  
 
 
-## <a name="set-up-contoso-coffee-data"></a>Gegevens voor Contoso Coffee instellen
+## Gegevens voor Contoso Coffee instellen
 
 Als u de demogegevens voor Contoso Coffee wilt gebruiken, moet u twee apps in het desbetreffende bedrijf in [!INCLUDE [prod_short](../includes/prod_short.md)] installeren:  
 
@@ -31,7 +31,7 @@ U moet dan het volgende invullen:
  - De [Productie-instellingen](manufacturing/contoso-coffee-manufacturing-intro.md) ter voorbereiding op het gebruik van de [Productiescenario's](#manufacturing-scenarios)
  - De [Magazijninstellingen](warehousing/contoso-coffee-warehousing-intro.md) ter voorbereiding op het gebruik van de [Magazijnscenario's](#warehousing-scenarios)
 
-## <a name="manufacturing-scenarios"></a>Productiescenario's
+## Productiescenario's
 
 De demogegevens voor Contoso Coffee ondersteunen momenteel de volgende productiescenario's voor testen en trainen:
 
@@ -49,7 +49,7 @@ Lees de stappen voor elk scenario in het desbetreffende artikel.
 > [!IMPORTANT]
 > De productieprocedures vereisen dat de gebruikerservaring is ingesteld op *Premium* op de pagina **Bedrijfsgegevens**.
 
-## <a name="warehousing-scenarios"></a>Magazijnscenario's
+## Magazijnscenario's
 
 De demogegevens voor Contoso Coffee ondersteunen momenteel de volgende magazijnscenario's voor testen en trainen:
 
@@ -59,7 +59,7 @@ De demogegevens voor Contoso Coffee ondersteunen momenteel de volgende magazijns
 
 Lees de stappen voor elk scenario in het desbetreffende artikel.
    
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie](../production-manage-manufacturing.md)  
 [Magazijn](../warehouse-manage-warehouse.md)  

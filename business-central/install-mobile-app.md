@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="getting-business-central-on-your-mobile-device"></a>Business Central op uw mobiele apparaat krijgen
+# Business Central op uw mobiele apparaat krijgen
 
 Toegang tot uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens krijgen vanaf uw mobiele apparaat. U kunt door uw bedrijfsgegevens navigeren, functies gebruiken zoals verzenden naar Excel of Microsoft 365, up-to-date diagrammen en KPI's weergeven, verkoopoffertes en facturen e-mailen en foto's maken met uw camera en koppelen. Volg de onderstaande stappen om de app te downloaden en aan de slag te gaan.
 
@@ -20,7 +20,7 @@ Toegang tot uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens krijgen v
 > [!TIP]
 > Wilt u een app op uw Windows- of macOS-computerbureaublad? Zie [Business Central-desktop-app verkrijgen](install-desktop-app.md).
 
-## <a name="get-the-app-on-my-mobile-device"></a>De app ophalen op mijn mobiele apparaat
+## De app ophalen op mijn mobiele apparaat
 
 1. Installeer de [!INCLUDE[prod_short](includes/prod_short.md)]-app op uw mobiele apparaat door de app te downloaden van de App Store of Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
@@ -35,7 +35,7 @@ U moet nu toegang tot [!INCLUDE[prod_short](includes/prod_short.md)] hebben en g
 > [!TIP]
 > Als u de app met een sandbox-omgeving wilt verbinden, kiest u de knop **Geavanceerde opties** en kiest u vervolgens de aanmeldingsoptie **Cloudsandbox**. Kies vervolgens de relevante omgeving als u meer dan één sandboxomgeving heeft.
 
-## <a name="use-business-central-on-premises"></a>Business Central on-premises gebruiken?
+## Business Central on-premises gebruiken?
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt u ook profiteren van de voordelen van de mobiele app. De installatie is vergelijkbaar, maar met een paar uitzonderingen.
 
@@ -53,9 +53,9 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt 
 > [!NOTE]
 > Neem contact op met uw beheerder als u problemen ondervindt om de app correct te laten werken. Het kan een ontbrekende vereiste zijn of een onvolledige configuratie. Zie voor meer informatie [De omgeving voorbereiden voor de mobiele app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) of [Problemen oplossen met de mobiele Business Central-app On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Veelgestelde vragen over mobiele apps](ui-mobile-faq.yml)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  

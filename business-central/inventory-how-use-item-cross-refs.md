@@ -11,7 +11,7 @@ ms.search.forms: '5737, 5735, 5736'
 ms.date: 10/27/2021
 ms.author: edupont
 ---
-# <a name="use-item-references"></a>Artikelverwijzingen gebruiken
+# Artikelverwijzingen gebruiken
 
 Als u artikelen koopt of verkoopt waarvoor u en uw leverancier of klant verschillende voorwaarden gebruiken, kunt u een verwijzing instellen tussen uw voorwaarden voor de artikelen en de voorwaarden die de klant of leverancier van dat artikel gebruikt. Op deze manier wordt de artikelbeschrijving, eenheid of variantcode van de leverancier of klant automatisch ingevoegd op de relevante documenten wanneer u het veld **Nr. van artikelreferentie** invult.  
 
@@ -22,14 +22,14 @@ Als u artikelen koopt of verkoopt waarvoor u en uw leverancier of klant verschil
 >
 > In eerdere versies dan releasewave 2 van 2021 kan uw beheerder de functie *Langere itemreferenties schrijven* op de pagina [Functiebeheer](https://businesscentral.dynamics.com/?page=2610) inschakelen (koppeling vereist dat u een [!INCLUDE [prod_short](includes/prod_short.md)]-tenant hebt). Hoe u verwijzingen gebruikt, verandert niet, maar de namen van zaken als pagina's en knoppen wel. De pagina **Artikelkruisverwijzingposten** wordt bijvoorbeeld de pagina **Artikelverwijzingsposten**.
 
-## <a name="to-start-using-item-references"></a>Artikelreferenties gaan gebruiken
+## Artikelreferenties gaan gebruiken
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
 1. Kies het pictogram :::image type="icon" source="media/ui-search/search_small.png" border="false":::, voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het veld **Artikelverwijzingen gebruiken**.
 
-## <a name="to-set-up-an-item-reference"></a>Een artikelverwijzing instellen
+## Een artikelverwijzing instellen
 
 1. Kies het pictogram :::image type="icon" source="media/ui-search/search_small.png" border="false":::, voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een artikel waarvoor u een referentie wilt maken.
@@ -41,7 +41,7 @@ Als u artikelen koopt of verkoopt waarvoor u en uw leverancier of klant verschil
 
 In de volgende procedure wordt beschreven hoe u de artikelverwijzing opgeeft in een inkooporder. Soortgelijke stappen zijn van toepassing op verkoopdocumenten en andere inkoopdocumenten.  
 
-## <a name="to-enter-a-vendors-item-description-on-a-document"></a>De artikelomschrijving van een leverancier invoeren in een document
+## De artikelomschrijving van een leverancier invoeren in een document
 
 1. Kies het pictogram :::image type="icon" source="media/ui-search/search_small.png" border="false":::, voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een inkooporder voor de leverancier voor wie u een artikelverwijzing hebt ingesteld in de vorige procedure.
@@ -50,7 +50,7 @@ In de volgende procedure wordt beschreven hoe u de artikelverwijzing opgeeft in 
 
 Het veld **Omschrijving** op de regel wordt overschreven met de artikelomschrijving van de leverancier, zoals ingesteld in de artikelverwijzingspost. Als de artikelverwijzing een variantcode of een eenheid bevat, worden deze waarden ook naar het document gekopieerd.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad](inventory-manage-inventory.md)  

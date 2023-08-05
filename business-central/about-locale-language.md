@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="changing-language-and-region"></a>Taal en regio-instellingen wijzigen
+# Taal en regio-instellingen wijzigen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is beschikbaar in veel markten en talen over de hele wereld. In de markten waar [!INCLUDE[prod_short](includes/prod_short.md)] beschikbaar is, is er een reeks regelgevingsfuncties beschikbaar om bedrijven met regelgevingslasten te helpen. [!INCLUDE[prod_short](includes/prod_short.md)] kan in verschillende talen worden weergegeven. U kunt zelfs de taal wijzigen die wordt gebruikt om teksten weer te geven. De wijziging wordt onmiddellijk doorgevoerd, zodra u automatisch bent uitgelogd en opnieuw aangemeld. De instelling geldt alleen voor u, niet voor anderen in uw bedrijf.  
 
@@ -29,7 +29,7 @@ U kunt de teksten die zijn opgeslagen als toepassingsgegevens niet wijzigen. De 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] wordt slechts één tekenset voor gegevens ondersteund. Daarom worden bepaalde tekens mogelijk niet ondersteund in uw omgeving en kunnen er problemen optreden wanneer u gegevens ophaalt die zijn ingevoerd met een andere tekenset. Stel dat in uw installatie alleen Engelse en Russische tekens worden ondersteund. In dit geval, als u gegevens in een andere taal invoert, worden deze mogelijk niet juist opgeslagen. Neem contact op met de systeembeheerder om te informeren welke talen precies worden ondersteund voor uw versie van [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="changing-your-region-setting"></a>Uw regio-instelling wijzigen
+## Uw regio-instelling wijzigen
 
 Regio is iets anders dan taal en wettelijke vereisten in lokale markten. Regio-instellingen bepalen hoe uw gegevens worden weergegeven, bijvoorbeeld welke decimaalteken wordt gebruikt, of een tekst links of rechts wordt uitgelijnd en bepaalde andere instellingen. De regio bepaalt ook enkele systeemelementen in de browser, zoals de actie om een nieuw artikel in een lijst te maken.  
 
@@ -40,28 +40,28 @@ U kunt de regio-instellingen wijzigen op het browsertabblad dat u gebruikt om te
 
 Als u de regio wilt wijzigen, gaat u naar de pagina **Mijn instellingen**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
-## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>De regio-instelling voor klanten, contacten en leveranciers wijzigen
+## De regio-instelling voor klanten, contacten en leveranciers wijzigen
 
 Sommige bedrijven gebruiken een externe service die adresgegevens in hun land of regio valideert. Wanneer u echter adresgegevens moet bijwerken, is de gestructureerde aanpak die deze services gebruiken niet altijd de juiste voor sommige scenario's. Business Central biedt een flexibelere manier om adresgegevens in te voeren.
 
 Als u op de pagina **Grootboekinstellingen** de schakelaar **Land/regio-code in adres vereisen** aanzet, worden door wijzigingen in het veld **Land/regio-code** in adressen voor klanten, contacten of leveranciers, de waarden in andere adresvelden opnieuw ingesteld.
 
-## <a name="application-version"></a>Toepassingsversie
+## Toepassingsversie
 
 Op de pagina **Help en ondersteuning** ziet u op welke versie van [!INCLUDE[prod_short](includes/prod_short.md)] uw bedrijf is gebaseerd. Als u een bedrijf een andere basis wilt geven, kan de systeembeheerder een nieuwe productieomgeving maken. Zie [Een nieuwe productieomgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) voor meer informatie.  
 
-## <a name="languages-of-the--help"></a>Talen van de [!INCLUDE[prod_short](includes/prod_short.md)] Help
+## Talen van de [!INCLUDE[prod_short](includes/prod_short.md)] Help
 
 De Help-inhoud voor de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt gepubliceerd naar Microsoft Learn. De inhoud is beschikbaar in verschillende talen. Als u toegang tot de documentatie hebt vanuit [!INCLUDE[prod_short](includes/prod_short.md)], wordt de inhoud in uw taal weergegeven. Als een bepaalde pagina nog niet beschikbaar in uw taal is, blijft deze standaard in het Engels worden weergegeven.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Hoe verander ik de taal van de Microsoft Learn-site?
+### Hoe verander ik de taal van de Microsoft Learn-site?
 
 Het is eenvoudig: schuif naar de onderzijde van de browserpagina en kies het wereldbolsymbool in de linkerbenedenhoek.
 
 > [!NOTE]  
 > De lijst bevat alle talen die door de Microsoft Learn-site worden ondersteund. [!INCLUDE[prod_short](includes/prod_short.md)] is beschikbaar in een beperkt aantal landen/regio's en de Help-inhoud van [!INCLUDE [prod_short](includes/prod_short.md)] is niet beschikbaar in alle talen die de Microsoft Learn-site ondersteunt.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  

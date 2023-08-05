@@ -1,22 +1,16 @@
 ---
 title: Magazijnprocessen configureren
-description: De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van de magazijnprocessen ervan, bijvoorbeeld de magazijnlocaties.
+description: 'De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van de magazijnprocessen ervan, bijvoorbeeld de magazijnlocaties.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
+ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d2d7e2f3f71cd0791df27eb378bfa4bf66338afa
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nl-BE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532335"
 ---
-# <a name="setting-up-warehouse-management"></a>Magazijnbeheer instellen
+# Magazijnbeheer instellen
 
 De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van zijn magazijnprocessen. Dit betreft onder andere definiëren hoe verschillende artikelen op verschillende magazijnlocaties worden afgehandeld, zoals de mate van opslaglocatiecontrole en de omvang van de werkstroom die nodig is voor activiteiten tussen magazijnen.  
 
@@ -24,7 +18,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
-|Een overzicht krijgen van de mogelijkheden van standaard- en geavanceerde magazijnfunctionaliteiten.|[Ontwerpdetails: Magazijnoverzicht](design-details-warehouse-overview.md)|  
+|Een overzicht krijgen van de mogelijkheden van standaard- en geavanceerde magazijnfunctionaliteiten.|[Overzicht van magazijnbeheer](design-details-warehouse-management.md)|  
 |Acht verschillende soorten opslaglocaties instellen, zoals pickopslaglocaties, om de activiteiten voor elk type opslaglocatie te definiëren.|[Opslaglocatiesoorten instellen](warehouse-how-to-set-up-bin-types.md)|  
 |Opslaglocaties maken, handmatig of automatisch, met informatie zoals naam, nummerreeks en categorie, volgens een opslaglocatiesjabloon.|[Opslaglocaties maken](warehouse-how-to-create-individual-bins.md)|  
 |Definiëren welke artikelen u in een bepaalde opslaglocatie wilt opslaan en regels instellen die bepalen wanneer de opslaglocatie met een bepaald artikel moet worden gevuld.|[Opslaglocatie-inhoud maken](warehouse-how-to-set-up-bin-contents.md)|  
@@ -39,17 +33,14 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Magazijnmedewerkers in staat stellen een grotere eenheid in kleinere eenheden op te breken om aan de eisen van brondocumenten te voldoen.|[Automatisch splitsen van bulkgoederen met gestuurde opslag en pick inschakelen](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Het magazijn zo instellen dat het automatisch die artikelen voor picken voorstelt die het eerst vervallen.|[Picken volgens FEFO inschakelen](warehouse-picking-by-fefo.md)|
 |Tips krijgen over het reorganiseren van vestigingen, opslaglocaties of zones om de magazijnactiviteiten efficiënter te laten verlopen.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|
-|Streepjescodelezers integreren in de magazijnbeheeroplossing. Alleen voor on-premise implementatie.|[Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/set-up-warehouse-management/)
+## Zie gerelateerde [Microsoft-training](/training/paths/set-up-warehouse-management/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
-[Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
