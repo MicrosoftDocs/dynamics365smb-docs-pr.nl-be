@@ -11,7 +11,7 @@ ms.search.form: '72, 76, 77, 203, 204'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Resources instellen voor projecten
+# <a name="set-up-resources-for-projects"></a>Resources instellen voor projecten
 
 Om resourceactiviteiten correct te beheren, moet u resources en de bijbehorende kosten en prijzen instellen. De aan projecten gerelateerde prijzen, kortingen en kostenfactorregels worden ingesteld op de projectkaart. U kunt de kosten en prijzen opgeven voor afzonderlijke resources, resourcegroepen of alle beschikbare resources van het bedrijf.
 
@@ -25,7 +25,7 @@ Bij het maken van de resource geeft u het standaardbedrag per uur op. Als u bijv
 >  
 > Als u intercompany-transacties boekt, hoewel u een resource op een regel op een verkooporder kunt plaatsen, wordt de resource niet opgenomen als u de verkooporder omzet in een inkooporder aan de ontvangende zijde. Als u resources wilt gebruiken in intercompany-transacties, gebruikt u het veld **Grootboekrekeningnr. IC-aankoop** op de resourcekaart om de rekening op te geven waarnaar de uitgaven moeten worden geboekt.
 
-## Een resource instellen
+## <a name="to-set-up-a-resource"></a>Een resource instellen
 
 Maak een kaart per resource die u wilt gebruiken in projecten.
 
@@ -33,7 +33,7 @@ Maak een kaart per resource die u wilt gebruiken in projecten.
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Een gebruikersgroep instellen
+## <a name="to-set-up-a-resource-group"></a>Een gebruikersgroep instellen
 
 U kunt meerdere resources in één resourcegroep combineren. De capaciteit en budgetten van individuele resources worden bij elkaar opgeteld en vormen de capaciteit en het budget voor de resourcegroep. Het is ook mogelijk om capaciteit op te geven voor de resourcegroepen die los staat van de opgetelde waarden, of een aanvulling hierop vormt.
 
@@ -41,7 +41,7 @@ U kunt meerdere resources in één resourcegroep combineren. De capaciteit en bu
 2. Kies de actie **Nieuw**.
 3. Vul indien nodig de velden in.
 
-## Capaciteit voor een resource instellen
+## <a name="to-set-capacity-for-a-resource"></a>Capaciteit voor een resource instellen
 
 Om te berekenen hoeveel tijd een resource aan projecten kan besteden moet de capaciteit ervan eerst worden ingesteld als beschikbare tijd per periode op de werkagenda. Deze instelling wordt gebruikt als u projectplanningsregels invult die de resource bevatten. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).
 
@@ -54,7 +54,7 @@ Om te berekenen hoeveel tijd een resource aan projecten kan besteden moet de cap
 7. Kies de actie **Capaciteit bijwerken**. De pagina **Resourcecapaciteit** wordt bijgewerkt met de ingevoerde capaciteit.
 8. Sluit de pagina.
 
-## Alternatieve resourcekosten instellen
+## <a name="to-set-up-alternate-resource-costs"></a>Alternatieve resourcekosten instellen
 
 Naast de kosten die op de resourcekaart worden opgegeven, kunt u alternatieve kosten voor elke resource instellen. Als een werknemer bijvoorbeeld een hoger uurtarief heeft voor overwerk, kunt u een resourcekostprijs voor het overwerktarief instellen. De alternatieve kostprijs die u voor de resource instelt, vervangt de kostprijs op de resourcekaart wanneer u de resource in het resourcedagboek gebruikt.
 
@@ -65,7 +65,7 @@ Naast de kosten die op de resourcekaart worden opgegeven, kunt u alternatieve ko
 
 **Opmerking**. Als u resourcekostprijzen wilt instellen die gelden voor alle resources en resourcegroepen, opent u de pagina **Resourcekostprijzen** en vult u de velden in.
 
-## Alternatieve resourceprijzen instellen
+## <a name="to-set-up-alternate-resource-prices"></a>Alternatieve resourceprijzen instellen
 
 Naast de prijs die op de resourcekaart wordt opgegeven, kunt u alternatieve prijzen voor elke resource instellen. Deze alternatieve prijzen kunnen voorwaardelijk zijn. Ze kunnen afhankelijk zijn van of de resource met een bepaald project of werksoort wordt gebruikt.
 
@@ -74,9 +74,9 @@ Naast de prijs die op de resourcekaart wordt opgegeven, kunt u alternatieve prij
 3. Vul op de pagina **Resourceprijzen** indien nodig de velden op een regel in.
 4. Herhaal stap 3 voor elke alternatieve resourceprijs die u wilt instellen.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Projectbeheer instellen](projects-setup-projects.md)  
 [Projectbeheer](projects-manage-projects.md)  

@@ -10,11 +10,11 @@ ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics365-business-central
 ---
-# Minimumvereisten om Business Central te gebruiken
+# <a name="minimum-requirements-for-using-business-central"></a>Minimumvereisten om Business Central te gebruiken
 
 Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het raadzaam dat u controleert of uw computer of mobiele apparaat minimaal voldoet aan de minimale systeemvereisten voor het product. Dit artikel bevat de vereisten.  
 
-## Browsers
+## <a name="browsers"></a>Browsers
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om te werken met de huidige versie van Microsoft Edge.
   
@@ -25,13 +25,13 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 > [!TIP]
 > Installeer de app [!INCLUDE[prod_short](includes/prod_short.md)] [in het Start-menu](install-desktop-app.md#install-the-app-for-business-central-online) met behulp van de browsers Microsoft Edge of Chrome.
 
-## Mobiele apparaten
+## <a name="mobile-devices"></a>Mobiele apparaten
 
 **Android (tablet en telefoon):** een van de laatste drie grote besturingssysteemversies en hun updates.
 
 **iOS (iPad en iPhone):** een van de laatste drie grote besturingssysteemversies en hun updates.
 
-## Outlook
+## <a name="outlook"></a>Outlook
 
 **Outlook toepassingen:**: als u [!INCLUDE[prod_short](includes/prod_short.md)] online wilt gebruiken als uw zakelijke Postvak IN in Outlook, hebt u Outlook 2019 of hoger, Outlook op het web, Outlook voor iOS of Outlook voor Android nodig. Uw organisatie moet ook Microsoft 365 gebruiken. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt. 
 
@@ -39,7 +39,7 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 
 **Platforms:** wanneer u de [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-invoegtoepassing gebruikt in Outlook voor iOS of Outlook voor Android, moet op uw mobiele apparaat een van de vermelde ondersteunde mobiele apparaten voor [!INCLUDE[prod_short](includes/prod_short.md)] worden uitgevoerd.  
 
-## Teams
+## <a name="teams"></a>Teams
 
 **Teams-desktoptoepassingen:** de [!INCLUDE[prod_short](includes/prod_short.md)]-app voor Teams ondersteunt de nieuwste versie van de Teams Windows-desktopclient. 
 
@@ -49,11 +49,11 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] online opent, is het ra
 
 **Ondersteund abonnement:** de [!INCLUDE[prod_short](includes/prod_short.md)]-app voor Teams ondersteunt Microsoft 365 Business- en Enterprise-abonnementen, maar geen zelfstandige Teams-abonnementen zoals Microsoft Teams (gratis) of Microsoft Teams Essentials.
 
-## Excel
+## <a name="excel"></a>Excel
 
 **Bewerken Excel:** als u de Excel-invoegtoepassing wilt gebruiken om wijzigingen in Excel aan te brengen en de wijzigingen naar [!INCLUDE[prod_short](includes/prod_short.md)] terug te sturen, hebt u Excel 2019 of hoger nodig. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="TAC"></a> Het beheercentrum van Business Central gebruiken
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a>Het beheercentrum van Business Central gebruiken
 
 Het beheercentrum is ontworpen om te werken met de huidige versie van de volgende browsers:
 
@@ -62,11 +62,11 @@ Het beheercentrum is ontworpen om te werken met de huidige versie van de volgend
 - Firefox voor Windows
 - Safari voor macOS
 
-## Business Central on-premises gebruiken
+## <a name="use-business-central-on-premises"></a>Business Central on-premises gebruiken
 
 Als u Business Central on-premises wilt implementeren, moet u de systeemvereisten controleren. Zie voor meer informatie [Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v22) en [Implementatieoverzicht](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Systeemvereisten voor Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  

@@ -11,7 +11,7 @@ ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Afroepassemblyorders maken
+# <a name="create-blanket-assembly-orders"></a>Afroepassemblyorders maken
 
 U kunt assemblagebeheer gebruiken om een assemblageartikel op verzoek van een klant aan te passen tijdens het verkoopproces. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -20,7 +20,7 @@ U kunt assemblagebeheer gebruiken om een assemblageartikel op verzoek van een kl
 > [!NOTE]  
 >  Net als alle raamcontracten zijn hoeveelheden op assemblageraamcontracten alleen prognoses en niet operationeel totdat ze worden geconverteerd naar werkelijke assemblage orders. Orderfunctionaliteit, zoals beschikbaarheidsberekening, reservering en artikeltracering is dan ook niet actief op assemblageraamcontracten.  
 
-## Een afroepassemblyorder maken voor een voor-order-assembleren-artikel  
+## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Een afroepassemblyorder maken voor een voor-order-assembleren-artikel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopraamcontracten** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuw verkoopraamcontract met één regel voor een assemblageartikel. Zie [Verkoopraamcontracten maken](sales-how-to-create-blanket-sales-orders.md) voor meer informatie.  
@@ -36,7 +36,7 @@ U kunt assemblagebeheer gebruiken om een assemblageartikel op verzoek van een kl
 
 Het gekoppelde assemblageraamcontract en eventuele aanpassingen zijn gekoppeld aan die nieuwe verkooporder, als voorbereiding op de assemblage van het artikel of de artikelen die verkocht worden.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkoopraamcontracten maken](sales-how-to-create-blanket-sales-orders.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  

@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams
+# <a name="install-the--app-for-microsoft-teams"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -20,7 +20,7 @@ In dit artikel leert u hoe u de [!INCLUDE [prod_short](includes/prod_short.md)]-
 > [!NOTE]
 > Uw beheerder heeft zaken mogelijk zo ingesteld dat de app automatisch voor u wordt geïnstalleerd. Om te controleren of de app is geïnstalleerd, opent u Teams en kiest u **Apps**. Zoek **Business Central** en kies het vervolgens wanneer u het vindt. Als u **Openen** ziet op de pagina **Business Central**, is de app al geïnstalleerd.  
 
-## Vereisten
+## <a name="prerequisites"></a>Vereisten
 
 - Er is een [!INCLUDE [prod_short](includes/prod_short.md)] online-gebruikersaccount is vereist voor de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Teams.
 
@@ -30,7 +30,7 @@ In dit artikel leert u hoe u de [!INCLUDE [prod_short](includes/prod_short.md)]-
 
 - Het beleid van uw organisatie staat u toe apps te installeren in Microsoft Teams.
 
-## De Business Central-app toevoegen aan Teams
+## <a name="add-the-business-central-app-to-teams"></a>De Business Central-app toevoegen aan Teams
 
 Er zijn drie manieren om de Business Central-app te installeren:
 
@@ -67,11 +67,11 @@ Deze optie is de snelste manier om de app te installeren.
 > [!NOTE]
 > Bij beide opties wordt u mogelijk gevraagd om u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)]. Selecteer de koppeling **Aanmelden** en volg de instructies om de aanmeldingsnaam en het wachtwoord in te voeren voor [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Volgende stap
+## <a name="next-step"></a>Volgende stap
 
 U bent nu klaar om de app in Teams te gebruiken om contacten te zoeken of Business Central-records te delen. Voor meer informatie, zie [Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams](across-search-contacts-teams.md) of [Records delen in Microsoft Teams](across-working-with-teams.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [Veelgestelde vragen over Teams](teams-faq.md)  

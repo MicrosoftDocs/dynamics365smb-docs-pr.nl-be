@@ -10,7 +10,7 @@ ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# De extensie WorldPay Payments Standard
+# <a name="the-worldpay-payments-standard-extension"></a>De extensie WorldPay Payments Standard
 
 > [!CAUTION]
 > De extensie WorldPay Payments Standard wordt beëindigd. De code is verouderd vanaf releasewave 2 van 2023. De app is actief voor de volgende drie grote releases en wordt daarna verwijderd.   
@@ -20,7 +20,7 @@ Als u de extensie inschakelt en een verkoopfactuur of een verkooporder per e-mai
 
 Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[prod_short](includes/prod_short.md)] gratis. U moet wel contact opnemen met de betalingsservice om een rekening aan te vragen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  

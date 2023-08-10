@@ -11,7 +11,7 @@ ms.date: 09/17/2021
 ms.author: edupont
 ---
 
-# Foutbericht: "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums..."
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Foutbericht: "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums..."
 
 Bij gebruik van de batchverwerking **Kosten aanpassen - Artikelinvoer** kunt u de volgende foutmelding tegenkomen:
 
@@ -19,7 +19,7 @@ Bij gebruik van de batchverwerking **Kosten aanpassen - Artikelinvoer** kunt u d
 
 Deze foutmelding geeft aan dat de gebruiker geen boekingen mag plaatsen voor de betreffende datum en dit kan worden verholpen door de gebruikersinstellingen te wijzigen.
 
-## De gebruikersinstellingen wijzigen  
+## <a name="change-the-user-setup"></a>De gebruikersinstellingen wijzigen
 
 |Gebruikers-ID  |Boeken toegest. vanaf  | Boeken toegest. tot  |
 |---------|---------|--------|
@@ -27,9 +27,9 @@ Deze foutmelding geeft aan dat de gebruiker geen boekingen mag plaatsen voor de 
 
 De gebruiker heeft in dit geval een toegestane boekingsdatumreeks van 11 september tot 30 september en mag daarom de herwaarderingswaardepost niet boeken met boekingsdatum 10 september.  
 
-### Overzicht van betrokken instelling van boekingsdatum
+### <a name="overview-of-involved-posting-date-setup"></a>Overzicht van betrokken instelling van boekingsdatum
 
-#### Voorraadperioden
+#### <a name="inventory-periods"></a>Voorraadperioden
 
 |Einddatum  |Name  |Gesloten  |
 |---------|---------|---------|
@@ -46,7 +46,7 @@ De gebruiker heeft in dit geval een toegestane boekingsdatumreeks van 11 septemb
 |11-2020-30     |November   2020   |         |
 |12-2020-31     |December   2020   |         |  
 
-#### Grootboekinstellingen
+#### <a name="general-ledger-setup"></a>Grootboekinstellingen
 
 |Veld|Waarde|
 |---------|---------|
@@ -55,7 +55,7 @@ De gebruiker heeft in dit geval een toegestane boekingsdatumreeks van 11 septemb
 |Registratietijd:       |         |
 |Lokale adresnotatie:|   Postcode      |  
 
-#### Gebruikersinstellingen
+#### <a name="user-setup"></a>Gebruikersinstellingen
 
 |Gebruikers-ID  |Boeken toegest. vanaf  | Boeken toegest. tot  |
 |---------|---------|--------|
@@ -63,7 +63,7 @@ De gebruiker heeft in dit geval een toegestane boekingsdatumreeks van 11 septemb
 
 Als een ruimer boekingsdatumbereik wordt toegewezen, zoals in de instelling van de voorraadperiode of het grootboek, kan het conflict worden vermeden dat het foutbericht veroorzaakt. De correctiewaardepost met boekingsdatum 10 september wordt met deze instelling succesvol geboekt.
   
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 
 [Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  

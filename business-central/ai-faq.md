@@ -10,7 +10,7 @@ author: jswymer
 ms.service: dynamics365-business-central
 ---
 
-# Veelgestelde vragen over op AI gebaseerde artikelmarketingtekst (preview) met Copilot
+# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>Veelgestelde vragen over op AI gebaseerde artikelmarketingtekst (preview) met Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -18,7 +18,7 @@ Dit artikel gebruikt vragen en antwoorden om belangrijke aspecten uit te leggen 
 
 ## [Algemeen](#tab/general)
 
-### Wat is Copilot?
+### <a name="what-is-copilot"></a>Wat is Copilot?
 
 Copilot biedt door AI gegenereerde tekstsuggesties voor artikelen in Business Central. Het is bedoeld voor gebruikers die marketingteksten voor artikelen schrijven om hen te helpen boeiende en interessante inhoud te produceren. Dit zijn enkele belangrijke voordelen:
 
@@ -28,7 +28,7 @@ Copilot biedt door AI gegenereerde tekstsuggesties voor artikelen in Business Ce
 
 Gebruikers moeten de door AI gegenereerde tekst beschouwen als een suggestie die moet worden beoordeeld en bewerkt op juistheid voordat deze openbaar beschikbaar is.
 
-### Waarom is Copilot niet beschikbaar voor marketingtekst voor mijn artikelen in Business Central?
+### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>Waarom is Copilot niet beschikbaar voor marketingtekst voor mijn artikelen in Business Central?
 
 Copilot is alleen beschikbaar als aan de volgende vereisten wordt voldaan:
 
@@ -45,21 +45,21 @@ Copilot is alleen beschikbaar als aan de volgende vereisten wordt voldaan:
 
    Ga voor meer informatie naar [De preview en privacyvoorwaarden accepteren of afwijzen voor alle gebruikers](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-### Is Copilot voor preview beschikbaar in Business Central on-premises?
+### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>Is Copilot voor preview beschikbaar in Business Central on-premises?
 
 Nee, dit wordt momenteel niet ondersteund in Business Central on-premises.
 
-### Hoe werkt Copilot en waar komt de voorgestelde tekst vandaan?
+### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>Hoe werkt Copilot en waar komt de voorgestelde tekst vandaan?
 
 Copilot gebruikt de [Azure OpenAI-service van Microsoft](/azure/cognitive-services/openai/overview) om toegang te krijgen tot krachtige taalmodellen die natuurlijke taal analyseren en genereren. Deze modellen zijn getraind op een groot aantal tekstgegevenssets. Hierdoor kan Copilot voorgestelde, gepersonaliseerde antwoorden in het Engels genereren op basis van een minimale hoeveelheid invoergegevens, zoals de kenmerken, categorie of beschrijving van een artikel. 
 
-### Wat is de kwaliteit van de tekst die door Copilot wordt voorgesteld?
+### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>Wat is de kwaliteit van de tekst die door Copilot wordt voorgesteld?
 
 Omdat de onderliggende technologie achter Copilot AI gebruikt die is getraind op een breed scala aan bronnen, is de gegenereerde inhoud niet altijd feitelijk of geschikt. Sommige suggesties kunnen zelfs twijfelachtige of ongepaste inhoud bevatten. Het is uw verantwoordelijkheid om gegenereerde suggesties te bekijken en te bewerken om er zeker van te zijn dat deze nauwkeurig en gepast zijn.
 
 Ga voor informatie over ongepaste suggesties naar [Wat wordt er gedaan aan beledigende en schadelijke tekstsuggesties?](/dynamics365/business-central/ai-faq?&tabs=oversight#whats-done-about-abusive-and-harmful-text-suggestions).
 
-### Hoe kan ik de suggesties die ik krijg van Copilot verbeteren?
+### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>Hoe kan ik de suggesties die ik krijg van Copilot verbeteren?
 
 Er zijn een paar dingen die u kunt doen om de suggesties van Copilot optimaal te benutten:
 
@@ -70,13 +70,13 @@ Er zijn een paar dingen die u kunt doen om de suggesties van Copilot optimaal te
 
 Ga voor meer informatie naar [Tekstsuggesties verbeteren en aanpassen](item-marketing-text.md#improve-and-tailor-text-suggestions).
 
-### Wat als ik niet tevreden ben met de gegenereerde tekst?
+### <a name="what-if-im-not-satisfied-with-the-generated-text"></a>Wat als ik niet tevreden ben met de gegenereerde tekst?
 
 Selecteer **Is dit een goede suggestie?** op de pagina **Maken met Copilot** om ons te helpen de tekst te verbeteren. U kunt antwoorden met een duim omhoog (vind ik leuk) of duim omlaag (moet worden verbeterd).
 
 ![Toont een artikelkaart met het deelvenster Marketingtekst](media/create-with-copilot-window-feedback.png)
 
-### Kunnen beheerders Copilot uitschakelen? Zo ja, hoe?
+### <a name="can-admins-disable-copilot-if-so-how"></a>Kunnen beheerders Copilot uitschakelen? Zo ja, hoe?
 
 Business Central biedt beheerders twee manieren om Copilot in de preview uit te schakelen:
 
@@ -90,13 +90,13 @@ Ga voor meer informatie naar [Artikelmarketingtekst op basis van AI configureren
 
 ## [Eerlijkheid](#tab/fairness)
 
-### Werkt Copilot met andere talen dan Engels?
+### <a name="does-copilot-work-with-languages-other-than-english"></a>Werkt Copilot met andere talen dan Engels?
 
 Momenteel ondersteunt Copilot alleen Engels. Onnauwkeurige antwoorden kunnen worden geretourneerd wanneer gebruikers met het systeem praten in andere talen dan het Engels.
 
 ## [Menselijk toezicht](#tab/oversight)
 
-### Wat wordt er gedaan aan beledigende en schadelijke tekstsuggesties?
+### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>Wat wordt er gedaan aan beledigende en schadelijke tekstsuggesties?
 
 De Azure OpenAI-service slaat prompts en voltooiingen vanuit de service op om te controleren op misbruik en om de kwaliteit van de inhoudsbeheersystemen van Azure OpenAI te ontwikkelen en te verbeteren. [Meer informatie over ons inhoudsbeheer en filtering.](/azure/cognitive-services/openai/concepts/content-filter)
 
@@ -104,7 +104,7 @@ Geautoriseerde Microsoft-medewerkers hebben toegang tot uw prompt- en voltooiing
 
 Zie [Gegevens, privacy en beveiliging voor de Azure OpenAI-service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation) voor meer informatie.
 
-### Kan ik me afmelden voor het vastleggen en het menselijke beoordelingsproces?  
+### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>Kan ik me afmelden voor het vastleggen en het menselijke beoordelingsproces?
 
 Als onderdeel van het leveren van de Azure Open AI-previews, verwerkt en bewaart Microsoft klantgegevens die bij de service zijn ingediend, evenals uitvoerinhoud, met als doel toezicht te houden op misbruik of schadelijk gebruik of uitvoer van de service en dit te voorkomen; en voor het ontwikkelen, testen en verbeteren van mogelijkheden die zijn ontworpen om misbruik van en schadelijke uitvoer van de service te voorkomen. 
 
@@ -112,7 +112,7 @@ Geautoriseerd Microsoft-personeel kan gegevens bekijken die onze geautomatiseerd
 
 ## [Privacy](#tab/privacy)
 
-### Welke gegevens worden door de functie verzameld? Hoe worden de gegevens gebruikt?
+### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Welke gegevens worden door de functie verzameld? Hoe worden de gegevens gebruikt?
 
 De functie verzamelt uw antwoord op de vraag **Is dit een goede suggestie?** op de pagina **Maken met Copilot**. U kunt antwoorden met een duim omhoog (vind ik leuk) of duim omlaag (moet worden verbeterd).
 
@@ -122,7 +122,7 @@ We gebruiken deze gegevens om de kwaliteit van de functie te beoordelen en te ve
 
 ---
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van op AI gebaseerde artikelmarketingtekst met Copilot configureren](ai-overview.md)  
 [Op AI gebaseerde artikelmarketingtekst met Copilot configureren als beheerder](enable-ai.md)  

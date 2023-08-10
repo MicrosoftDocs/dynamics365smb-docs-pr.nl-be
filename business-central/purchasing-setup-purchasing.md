@@ -11,7 +11,7 @@ ms.search.form: '175, 176, 177, 178, 456, 460, 5727, 5729'
 ms.date: 08/30/2022
 ms.author: edupont
 ---
-# Inkoop instellen
+# <a name="setting-up-purchasing"></a>Inkoop instellen
 
 Voordat u inkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het inkoopbeleid van het bedrijf configureren.
 
@@ -21,11 +21,11 @@ Een aparte reeks van taken die verband houdt met het registreren van nieuwe leve
 
 Inkoopinstellingen met betrekking tot financiën, zoals betalingswijzen en valuta's, worden behandeld in het gedeelte Instelling van financiën. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie. Op dezelfde manier zijn voorraadgerelateerde inkoopinstellingen, zoals maateenheden en artikeltraceringscodes, te vinden in de [sectie Voorraadinstelling](inventory-setup-inventory.md).
 
-## Inkoopinstellingen
+## <a name="purchases-and-payables-setup"></a>Inkoopinstellingen
 
 Voordat u met inkopen gaat werken, specificeert u op de pagina **Inkoopinstellingen** hoe inkoopwaarden worden geboekt en welke nummerreeksen worden gebruikt voor leveranciers en inkoopdocumenten.
 
-### Algemene instellingen
+### <a name="general-settings"></a>Algemene instellingen
 
 Op het sneltabblad **Algemeen** geeft u aan hoe kortingen moeten worden berekend en geboekt en of factuurbedragen moeten worden afgerond. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -37,15 +37,15 @@ Ook veranderen sommige velden hun gedrag of zijn afhankelijk van hoe andere veld
 
 Lees hieronder details over de velden [**Extern documentnr. verplicht**](#external-document-number) en [**Precieze kostenvereff. verplicht**](#exact-cost-reversing).
 
-### Instellingen voor nummerreeksen
+### <a name="number-series-settings"></a>Instellingen voor nummerreeksen
 
 Op het sneltabblad **Nummerreeksen** moet u unieke identificatiecodes opgeven die worden gebruikt voor leveranciers, facturen en andere inkoopdocumenten. Nummering is niet alleen belangrijk voor interne processen, maar moet mogelijk ook voldoen aan lokale regelgeving. Het is dus misschien de moeite waard om te overwegen om alle series vooraf in te stellen op de pagina **Nr.-reeks** in plaats van nieuwe te maken vanuit **Inkoopinstellingen**. Zie [Nummerreeksen maken](ui-create-number-series.md) voor meer informatie.
 
-## Externe documentnummer
+## <a name="external-document-number"></a>Externe documentnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Precieze kostentegenboeking
+## <a name="exact-cost-reversing"></a>Precieze kostentegenboeking
 
 De functie **Precieze kostenvereff. verplicht** helpt ervoor te zorgen dat geretourneerde goederen worden gewaardeerd tegen dezelfde kosten als toen ze oorspronkelijk uit de voorraad werden gehaald, met behulp van een vaste vereffening in plaats van een gemiddelde of FIFO-waarderingsmethode (first-in, first-out) te volgen. Lees meer in de sectie [Ontwerpdetails: vaste vereffening](design-details-item-application.md#fixed-application). Als er later aanvullende kosten worden toegevoegd aan de oorspronkelijke inkoop, wordt de waarde van de respectievelijke geretourneerde inkoop bijgewerkt.
 
@@ -53,7 +53,7 @@ Als deze functie is ingeschakeld, kan een retourtransactie alleen worden geboekt
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## Meer inkoopconfiguraties
+## <a name="more-purchasing-setups"></a>Meer inkoopconfiguraties
 
 | Tot | Zie |
 | --- | --- |
@@ -70,9 +70,9 @@ Als deze functie is ingeschakeld, kan een retourtransactie alleen worden geboekt
 | Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt. |[Rapportselectie in Business Central](across-report-selections.md)|
 |Geef aan of gebruikers inkoopfacturen mogen boeken en of ze deze samen met een zending moeten boeken. |[Definieer een beleid voor het boeken van facturen voor gebruikers](admin-setup-invoice-posting-policy.md)|
 
-## Zie gerelateerde training op [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn"></a>Zie gerelateerde training op [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Inkoop](purchasing-manage-purchasing.md)  
 [Overzicht instellen](setup.md)  

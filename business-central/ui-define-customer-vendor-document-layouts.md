@@ -11,7 +11,7 @@ ms.search.form: '21, 9650'
 ms.date: 04/07/2022
 ms.author: edupont
 ---
-# Documentlay-outs definiëren voor klanten en leveranciers
+# <a name="define-document-layouts-for-customers-and-vendors"></a>Documentlay-outs definiëren voor klanten en leveranciers
 
 Documentlay-outs gebruiken rapportlay-outs om het uiterlijk te definiëren van documenten die u naar klanten en leveranciers verzendt. Business Central biedt standaardlay-outs, maar u kunt ook aangepaste lay-outs aanpassen voor elk van uw zakenpartners. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md). U selecteert standaard en aangepaste documentlay-outs van klanten- en leverancierskaarten door de actie **Documentlay-outs** te kiezen. De waarde in het veld **Gebruik** definieert het proces waarvoor de documentlay-out wordt gebruikt. Voor klanten kunt u bijvoorbeeld de soorten documentlay-outs **Aanmaning**, **Verzending** en **Bevestiging** gebruiken.
 
@@ -21,7 +21,7 @@ Voordat u kunt definiëren welke documentlay-out wordt gebruikt voor welke proce
 
 De stappen in de volgende secties beschrijven hoe u verkoopdocumentlay-outs definieert vanuit de pagina **Klantenkaart**. Voor leveranciers zijn de stappen hetzelfde vanaf de pagina **Leverancierskaart**.
 
-## De standaarddocumentlay-outs voor verkoopdocumenten voor een klant laden
+## <a name="to-load-the-standard-document-layouts-for-sales-documents-for-a-customer"></a>De standaarddocumentlay-outs voor verkoopdocumenten voor een klant laden
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.
 2. Open de pagina **Klantenkaart** voor de klant en kies vervolgens de actie **Documentlay-outs**.
@@ -29,7 +29,7 @@ De stappen in de volgende secties beschrijven hoe u verkoopdocumentlay-outs defi
 
 De pagina **Documentlay-outs** toont alle lay-outs die beschikbaar zijn voor verkoopdocumenten. 
 
-## Een aangepaste rapportlay-out selecteren om te gebruiken voor de lay-out van het verkoopdocument
+## <a name="to-select-a-custom-report-layout-to-use-for-the-sales-document-layout"></a>Een aangepaste rapportlay-out selecteren om te gebruiken voor de lay-out van het verkoopdocument
 
 Als u nog geen aangepaste rapportlay-out voor het type document heeft gemaakt, moet u dat eerst doen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
@@ -38,16 +38,16 @@ Als u nog geen aangepaste rapportlay-out voor het type document heeft gemaakt, m
 3. Kies op de pagina **Documentlay-outs** op de regel voor een rapportlay-out waarvoor u een aangepaste lay-out wilt gebruiken, het veld **Aangepaste lay-outbeschrijving**.
 4. Selecteer op de pagina **Aangepaste rapportlay-outs** de speciale documentlay-out die u wilt gebruiken voor het type verkoopdocument. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
-## Opgeven welk contact welke documentlay-out voor een klant ontvangt
+## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Opgeven welk contact welke documentlay-out voor een klant ontvangt
 
 Om tijd te besparen wanneer u documenten per e-mail naar contacten van klanten en leveranciers verzendt, geeft u hun e-mailadressen op in documentlay-outs. U kunt bijvoorbeeld altijd klantafschriften verzenden naar accountantcontacten van klanten, verkooporders naar inkopers van klanten en inkooporders naar verkopers van leveranciers.
 
 1. Kies op de pagina **Documentlay-outs** op de regel voor een rapportlay-out die u naar een specifiek contact voor de klant wilt verzenden, de actie **E-mail selecteren vanuit contacten**.
 2. Selecteer op de **Contacten** een of meer contacten en kies vervolgens **OK**.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Aangepaste rapportlay-outs bijwerken](ui-update-report-layouts.md)  
 [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md)  

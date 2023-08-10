@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 10/11/2022
 ms.author: bholtorf
 ---
-# Uw werkruimte personaliseren
+# <a name="personalize-your-workspace"></a>Uw werkruimte personaliseren
 
 U kunt uw werkruimte aanpassen aan uw werk en voorkeuren. Wijzig pagina's zodat ze alleen de informatie weergeven die u nodig hebt, waar u die nodig hebt. Personalisatie heeft alleen invloed op uw werkruimte. Het verandert niets aan hoe anderen werken.
 
@@ -25,13 +25,13 @@ U kunt verschillende wijzigingen aanbrengen, zoals velden, kolommen, acties en h
 > Beheerders kunnen dezelfde indelingswijzigingen maken als gebruikers door de werkruimte aan te passen voor een profiel dat aan meerdere gebruikers is toegewezen. Ga voor meer informatie over pagina's voor rollen naar [Pagina's aanpassen voor rollen](ui-personalization-manage.md)<br /><br />
 Beheerders kunnen ook personalisering van gebruikers overschrijven of uitschakelen en ze kunnen definiëren welke functies zelfs door gebruikers in alle of specifieke bedrijven kunnen worden gezien. Zie [Business Central aanpassen](ui-customizing-overview.md) voor meer informatie.
 
-## Video
+## <a name="video"></a>Video
 
 De volgende video toont enkele manieren waarop u uw rolcentrum kunt personaliseren.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## De breedte van een kolom wijzigen
+## <a name="to-change-the-width-of-a-column"></a>De breedte van een kolom wijzigen
 
 U kunt het formaat van kolommen in elke lijst eenvoudig wijzigen. Sleep gewoon de grens tussen twee kolommen naar links of naar rechts.  
 
@@ -40,7 +40,7 @@ U kunt het formaat van kolommen in elke lijst eenvoudig wijzigen. Sleep gewoon d
 
 Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de kolombreedte opgeslagen in uw account en volgen deze u ongeacht op welk apparaat u zich aanmeldt.
 
-## Een pagina personaliseren via de banner **Personaliseren**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Een pagina personaliseren via de banner **Personaliseren**
 
 1. Open een pagina die u wilt personaliseren.
 2. Selecteer in de rechterbovenhoek het pictogram ![Instellingen.](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum") en kies vervolgens de actie **Personaliseren**.
@@ -58,7 +58,7 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 6. Kies het element en kies vervolgens **Verplaatsen**, **Verwijderen**, **Verbergen**, **Weergeven**, **Weergeven onder 'Meer tonen'**, **Weergeven wanneer samengevouwen**, **Altijd weergeven**, **Bevroren deelvenster instellen/wissen** of **Opnemen in/Uitsluiten van snelinvoer**, afhankelijk van het type en de status van het UI-element. Zie [Wat kunt u personaliseren](#What) voor meer informatie.
 7. Wanneer u klaar bent met het wijzigen van de indeling van een of meer pagina's, kiest u de knop **Gereed** in de banner **Personaliseren**.
 
-## <a name="What"></a>Wat kunt u personaliseren
+## <a name="what-you-can-personalize"></a><a name="What"></a>Wat kunt u personaliseren
 
 |Wat u wilt doen?|Hoe kunt u het doen?|Opmerkingen|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 |Voeg een nieuwe actie toe aan een pagina of rapport in uw rolcentrum.|Kies op de doelpagina, de rapportverzoekpagina of het venster Vertel me het bladwijzerpictogram.|Zie [Een bladwijzer maken van een pagina of rapport in uw rolcentrum](ui-bookmarks.md)|
 |Start een lijst altijd uitgevouwen of samengevouwen|Kies in de linkerbovenhoek van de lijst **Alles uitvouwen** of **Alles samenvouwen**. U kunt ook de actie **Alles uitvouwen** of **Alles samenvouwen** kiezen in het menu van de eerste kolom. |Is van toepassing op samenvouwbare hiërarchielijsten|
 
-## <a name="Actions"></a>De actiebalk en menu's personaliseren
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>De actiebalk en menu's personaliseren
 
 Met personalisatie kunt u bepalen welke acties op de navigatie- en actiebalk en in rolcentra worden weergegeven en waar deze worden weergegeven. U kunt afzonderlijke acties of actiegroepen weergeven, verbergen of verplaatsen.
 
@@ -93,7 +93,7 @@ Een *gepromoveerde categorie* is een actiegroep die vóór de verticale lijn `|`
 > [!NOTE]  
 > Om personalisatie te wissen selecteert u de pijlpunt rond het ontwerpermenu van het onderdeel en kiest u vervolgens **Personalisatie wissen**.
 
-### Acties en actiegroepen verwijderen, verbergen en weergeven
+### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Acties en actiegroepen verwijderen, verbergen en weergeven
 
 Als u een actie wilt weergeven of verbergen, definiëren de opties onder de pijlpunt wat u kunt doen, afhankelijk van de status van de actie. 
 
@@ -106,7 +106,7 @@ Als u een actie wilt weergeven of verbergen, definiëren de opties onder de pijl
 |**Verbergen**|Deze optie wordt weergegeven als de actie of groep zich niet ergens anders op de navigatie- of actiebalk bevindt. Net als **Verwijderen** laat het kiezen van deze optie de actie of actiegroep verdwijnen van de navigatie- of actiebalk. In de personalisatiemodus wordt de actie of actiegroep echter nog op de huidige positie weergegeven, behalve dat deze lichtgekleurd wordt weergegeven.|
 |**Weergeven**|Deze optie wordt weergegeven als de actie of actiegroep eerder is verborgen (lichtgekleurd). Als u deze optie kiest, wordt de actie of actiegroep weergegeven op de navigatie- of actiebalk.|
 
-### Acties en actiegroepen verplaatsen
+### <a name="to-move-actions-and-action-groups"></a>Acties en actiegroepen verplaatsen
 
 Waar u acties of actiegroepen kunt neerzetten wordt aangegeven door een horizontale lijn tussen twee acties of een rand rond een actiegroep. Hier gelden de volgende beperkingen:
 
@@ -116,7 +116,7 @@ Waar u acties of actiegroepen kunt neerzetten wordt aangegeven door een horizont
 1. Als u een actie of actiegroep wilt verplaatsen, sleept u deze naar de gewenste positie, net als met velden en kolommen.
 2. Als u een actie of actiegroep verplaatst naar een andere actiegroep die leeg is, sleept u de actie of actiegroep naar de nieuwe groep en zet u deze neer in het kader **Hier een actie neerzetten**.
 
-## <a name="Parts"></a>Onderdelen personaliseren
+## <a name="personalizing-parts"></a><a name="Parts"></a>Onderdelen personaliseren
 
 Onderdelen zijn gebieden op een pagina die doorgaans zijn samengesteld uit meerdere velden, grafieken of andere inhoud. Een onderdeel toont een gekleurde rand wanneer u op het onderdeel focust. Een startscherm van een rolcentrum bestaat bijvoorbeeld uit meerdere delen. Vanwege hun goed gedefinieerde grens kunt u het hele onderdeel en de inhoud ervan personaliseren.
 
@@ -126,7 +126,7 @@ Onderdelen zijn gebieden op een pagina die doorgaans zijn samengesteld uit meerd
 
 U kunt alle personalisatiewijzigingen die u in één onderdeel hebt aangebracht, wissen door de optie **Personalisatie wissen** te kiezen onder de pijlpunt van het onderdeel. Personalisatie van een onderdeel wissen heeft alleen invloed op wijzigingen in de inhoud van het onderdeel, niet op de plaatsing of zichtbaarheid van het onderdeel op de pagina.  
 
-## Personalisatie wissen
+## <a name="to-clear-personalization"></a>Personalisatie wissen
 
 Op een bepaald moment wilt u mogelijk sommige of alle personalisatiewijzigingen ongedaan maken die u in de loop van de tijd op een pagina hebt aangebracht.
 
@@ -143,7 +143,7 @@ Op een bepaald moment wilt u mogelijk sommige of alle personalisatiewijzigingen 
 |**Alleen velden en kolommen**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht op de pagina, behalve wijzigingen in de navigatie- of actiebalk. Dergelijke wijzigingen omvatten wijzigingen in velden, kolommen, onderdelen en tegels. |
 |**Alle**|Wist alle personalisatie die u ooit in de pagina hebt aangebracht, zodat de pagina weer de oorspronkelijke weergave krijgt. Dergelijke wijzigingen omvatten wijzigingen in de navigatie- en actiebalk, velden, kolommen, onderdelen en tegels.|
 
-## Andere interessante zaken
+## <a name="other-points-of-interest"></a>Andere interessante zaken
 
 Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrijpen hoe personaliseren in zijn werk gaat.
 
@@ -158,9 +158,9 @@ Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrij
    > [!TIP]
    > Als beheerder kunt u de optie **Automatisering** verbergen voor gebruikers. Zie voor meer informatie [Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## Zie gerelateerde [Microsoft-training](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  

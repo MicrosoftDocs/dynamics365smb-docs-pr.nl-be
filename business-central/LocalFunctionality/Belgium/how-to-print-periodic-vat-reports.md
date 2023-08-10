@@ -13,14 +13,14 @@ ms.search.form: '11306,11307,11308'
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# Periodieke btw-rapporten afdrukken in de Belgische versie
+# <a name="print-periodic-vat-reports-in-the-belgian-version"></a>Periodieke btw-rapporten afdrukken in de Belgische versie
 Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de volgende btw-rapporten aan de Belgische belastingdienst versturen:  
 
 - Aangifte per maand/kwartaal  
 - Jaarlijkse btw-lijst (op papier/diskette)  
 - Btw-VIES-lijst (op papier/diskette)  
 
-## De aangifte per maand/kwartaal afdrukken  
+## <a name="to-print-the-monthlyquarterly-declaration"></a>De aangifte per maand/kwartaal afdrukken
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Formulier/Intervat-aangifte** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul de velden op de pagina **BTW - Formulier** in.  
@@ -36,7 +36,7 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 
 3.  Kies de knop **Afdrukken** om het rapport af te drukken of kies de knop **Voorbeeld** om het rapport op het scherm weer te geven. Kies de knop **Annuleren** om de gegevens op te slaan zonder het rapport af te drukken.  
 
-## De jaarlijkse btw-lijst op diskette afdrukken  
+## <a name="to-print-the-vat-annual-listing-on-disk"></a>De jaarlijkse btw-lijst op diskette afdrukken
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Jaarlijkse btw-lijst - Schijf** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op de pagina **Jaarlijkse btw-lijst - Schijf** de velden in zoals wordt beschreven in de volgende tabel.  
@@ -52,14 +52,14 @@ Met de btw-rapportagefunctie kunt u btw-transactiedetails afdrukken. U moet de v
 
 3.  Kies de knop **Afdrukken** om het rapport af te drukken of kies de knop **Voorbeeld** om het rapport op het scherm weer te geven. Kies de knop **Annuleren** om de gegevens op te slaan zonder het rapport af te drukken.  
 
-## Btw-VIES-aangifterapport op schijf afdrukken  
+## <a name="to-print-the-vat-vies-declaration-report-to-disk"></a>Btw-VIES-aangifterapport op schijf afdrukken
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Btw - Intracommunautaire opgave - Schijf** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voer de gewenste informatie in en kies de knop **OK** om de batchverwerking te starten, waarmee een XML-bestand wordt gemaakt. Zie voor meer informatie Btw-VIES-opgaveschijf.  
 3.  Als u een correctie moet aanbrengen: kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Btw-VIES-correctie** in en kies vervolgens de gerelateerde koppeling.  
 4.  Kies de actie **Lijst bewerken** en voer vervolgens de informatie in die moet worden aangepast. Kies de knop **Ok**.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
  [Belgische btw](belgian-vat.md)   
  [Niet-aftrekbare btw instellen](how-to-set-up-non-deductible-vat.md)
 

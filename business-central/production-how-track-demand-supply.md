@@ -10,13 +10,13 @@ ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Relaties tussen vraag en aanbod bijhouden
+# <a name="track-relations-between-demand-and-supply"></a>Relaties tussen vraag en aanbod bijhouden
 
 Vanuit elk document voor aanbod of vraag in het zogenaamde ordernetwerk kunt u de ordervraag (getraceerd aantal), prognose , raamverkooporder of planningsparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.
 
 De planningsvoorstellen bevatten ook ondersteunende planninginformatie over entiteiten die geen orders zijn om de planner te helpen een optimaal leveringsplan op te stellen. Zie [Niet-getraceerde planningselementen](production-how-track-demand-supply.md#untracked-planning-elements) voor meer informatie.
 
-## Gekoppelde artikelen traceren
+## <a name="to-track-linked-items"></a>Gekoppelde artikelen traceren
 Met behulp van ordertracering kunt u nagaan hoe verkooporders, productieorders en inkooporders aan de productieorder zijn gekoppeld via de plannings- en reserveringssystemen.
 
 Hieronder wordt beschreven hoe u gekoppelde artikelen in een vast geplande productieorder traceert. De stappen voor alle andere soorten orders en vanuit planningsvoorstelregels zijn vergelijkbaar.
@@ -27,7 +27,7 @@ Hieronder wordt beschreven hoe u gekoppelde artikelen in een vast geplande produ
 
 Op de regels in het venster **Ordertracering** worden de documenten weergegeven die zijn gekoppeld aan de huidige productieorderregel.
 
-## Niet-getraceerde planningselementen
+## <a name="untracked-planning-elements"></a>Niet-getraceerde planningselementen
 De pagina **Niet-getraceerde planningselementen** wordt geopend wanneer u het veld **Niet-getraceerd aantal** op de pagina **Orderplanning** kiest. Dit dient twee doelen:
 
 1. De tabel bevat informatie over ongetraceerde hoeveelheden die worden weergegeven wanneer de gebruiker opzoekt op de pagina Ordertracering om de ongetraceerde aantallen weer te geven.
@@ -46,7 +46,7 @@ De pagina bevat posten die een verklaring kunnen geven voor niet-getraceerde ove
 - Vaste lotgrootte
 - Demping (% van lotgrootte)
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 [Gepland](production-planning.md)   
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)    

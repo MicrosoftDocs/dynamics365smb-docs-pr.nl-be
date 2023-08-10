@@ -7,15 +7,15 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ---
-# Procedure: Een nieuw bewerkingsplan maken
+# <a name="walkthrough-create-a-new-routing"></a>Procedure: Een nieuw bewerkingsplan maken
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken voor het handmatig instellen van een productiebewerkingsplan in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## Scenario
+## <a name="scenario"></a>Scenario
 
 Oscar, de procestechnicus bij Contoso Coffee, besluit een nieuw bewerkingsplan op te stellen met de naam *Nieuw pad*. Omdat deze routering anders is dan elke andere routering bij Contoso Coffee, moet Oscar alle informatie voor de routering handmatig invoeren.  
 
-## Stappen
+## <a name="steps"></a>Stappen
 
 1. Maak de bewerkingsplankop.  
 
@@ -54,6 +54,6 @@ Oscar, de procestechnicus bij Contoso Coffee, besluit een nieuw bewerkingsplan o
 
 Het nieuwe bewerkingsplan is nu ingesteld.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](../contoso-coffee-intro.md)  

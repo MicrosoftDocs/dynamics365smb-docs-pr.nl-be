@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Servicenaleving
+# <a name="service-compliance"></a>Servicenaleving
 
 Deze inhoud bevat informatie over servicenaleving in verband met [!INCLUDE[prod_short](../includes/prod_short.md)] online  
 
@@ -21,11 +21,11 @@ U vindt de gedetailleerde lijst met [Aanbod van cloudnaleving voor Business Cent
 
 Als u geïnteresseerd bent in het hele overzicht van nalevingsaanbod van Microsoft, raadpleegt u [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter/compliance/complianceofferings)
 
-## Servicevoorwaarden
+## <a name="service-terms"></a>Servicevoorwaarden
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Naleving](compliance-overview.md)  
 [Toepassingsnaleving](compliance-application-compliance.md)  

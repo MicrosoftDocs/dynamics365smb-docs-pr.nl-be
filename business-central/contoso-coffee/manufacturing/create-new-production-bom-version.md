@@ -7,17 +7,17 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ---
-# Procedure: Een nieuwe productiestuklijst en stuklijstversie maken
+# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Procedure: Een nieuwe productiestuklijst en stuklijstversie maken
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken om te werken met een stuklijst in productieprocessen.  
 
-## Scenario
+## <a name="scenario"></a>Scenario
 
 Contoso Coffee heeft besloten om nog een koffiezetapparaat aan hun productlijn toe te voegen, namelijk **SP-SCM1008 Airpot Lite**. Dit koffiezetapparaat is identiek aan het bestaande artikel **SP-SCM1009 Airpot**, behalve dat de warmhoudplaat, **SP-BOM1104**, niet is inbegrepen. In een aparte stap wordt het aan/uit-lampje, **SP-BOM1106**, verwijderd voor een versie van de Airpot Lite BOM.
 
 Oscar, de procestechnicus bij Contoso Coffee, moet een nieuwe productiestuklijst opzetten om de initiële onderdeelvereisten voor de Airpot Lite te definiëren. Oscar moet vervolgens een nieuwe stuklijstversie opzetten, met een begindatum van 1 juli, om in overeenstemming te zijn met verdere plannen voor het uitbrengen van een nieuwe editie.
 
-## Stappen
+## <a name="steps"></a>Stappen
 
 1. Maak een nieuwe productiestuklijst voor de Airpot Lite.
 
@@ -72,6 +72,6 @@ Oscar, de procestechnicus bij Contoso Coffee, moet een nieuwe productiestuklijst
 
 Het nieuwe koffiezetapparaat is nu opgezet als een productiestuklijst met één versie.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](../contoso-coffee-intro.md)  

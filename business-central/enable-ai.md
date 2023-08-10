@@ -9,7 +9,7 @@ ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
-# Op AI gebaseerde artikelmarketingtekst (preview) met Copilot configureren
+# <a name="configure-ai-powered-item-marketing-text-preview-with-copilot"></a>Op AI gebaseerde artikelmarketingtekst (preview) met Copilot configureren
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -20,28 +20,28 @@ In dit artikel wordt uitgelegd hoe u de mogelijkheid kunt beheren om op AI gebas
 
 Als aan een van deze vereisten niet wordt voldaan, is de functie niet beschikbaar voor gebruik.
 
-## Vereisten
+## <a name="prerequisites"></a>Vereisten
 
 U gebruikt een [preview-versie](ai-preview-getstarted.md) van Business Central die is ingeschakeld voor Copilot. Het inschakelen van Copilot wordt gedaan door een beheerder. Ga voor meer informatie naar [Op AI gebaseerde artikelmarketingtekst met Copilot configureren](enable-ai.md).
 
-## De functie Op AI gebaseerde productbeschrijvingen maken met Copilot in- of uitschakelen
+## <a name="enable-or-disable-create-ai-powered-product-descriptions-with-copilot"></a>De functie Op AI gebaseerde productbeschrijvingen maken met Copilot in- of uitschakelen
 
 1. Zoek in Business Central de pagina **Functiebeheer** en open deze.
 2. Stel de kolom **Geactiveerd voor** voor de functie **Functiepreview: Op AI gebaseerde productbeschrijvingen maken met Copilot** in op **Alle gebruikers** om de functie in te schakelen of op **Geen** om deze uit te schakelen.
 
    Ga voor meer informatie over functiebeheer in het algemeen naar [Functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## De preview- en privacyvoorwaarden accepteren of afwijzen voor alle gebruikers
+## <a name="consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users"></a>De preview- en privacyvoorwaarden accepteren of afwijzen voor alle gebruikers
 
 1. Zoek in Business Central de pagina **Status van privacyverklaringen** en open deze.
 2. Selecteer in de kolom **Integratienaam** **Azure OpenAI** en lees de voorwaarden die aan u worden gepresenteerd.
 3. Selecteer in de rij **Azure OpenAI** het selectievakje **Voor iedereen accepteren** om toestemming te geven of het selectievakje **Voor iedereen afwijzen** om af te wijzen.
 
-## Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 
 Nadat u de functie hebt ingeschakeld en goedgekeurd, bent u klaar om Copilot uit te proberen op artikelen in Business Central. Ga naar [Marketingtekst aan artikelen toevoegen](item-marketing-text.md).  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van op AI gebaseerde artikelmarketingtekst met Copilot configureren](ai-overview.md)  
 [Marketingteksten voor artikelen maken met Copilot](item-marketing-text.md)  

@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Inleiding tot Contoso Coffee-magazijnbeheer
+# <a name="introduction-to-contoso-coffee-warehousing"></a>Inleiding tot Contoso Coffee-magazijnbeheer
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De apps **Contoso Coffee** voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de magazijnbeheermogelijkheden in Business Central kunt benutten. U kunt magazijnbeheerfuncties op verschillende manieren configureren, zie [Overzicht van verschillende configuratieopties](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,7 +27,7 @@ De app biedt vier producten die zijn geoptimaliseerd voor verschillende scenario
 
   Deze locatie maakt gebruik van de geavanceerde magazijnconfiguratie met gestuurde opslag en picks, waardoor meer geavanceerde regels mogelijk zijn voor de manier waarop artikelen door het magazijn worden verplaatst.
 
-## Gegevens voor Contoso Coffee-magazijnbeheer instellen
+## <a name="set-up-contoso-coffee-warehousing-data"></a>Gegevens voor Contoso Coffee-magazijnbeheer instellen
 
 Als u de demogegevens voor Contoso Coffee-magazijnbeheer wilt gebruiken, moet u twee apps in het desbetreffende bedrijf in [!INCLUDE [prod_short](../../includes/prod_short.md)] installeren:  
 
@@ -70,7 +70,7 @@ Als u gereed bent, kiest u de actie **Demogegevens maken**. Het duurt een paar m
 > [!IMPORTANT]
 > Als u de scenario's uitvoert, wilt u mogelijk controleren of uw gebruiker is toegevoegd zoals voor geselecteerde locaties. Zie voor meer informatie [Magazijnmedewerkers instellen](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## Scenario's
+## <a name="scenarios"></a>Scenario's
 
 De magazijndemogegevens voor Contoso Coffee ondersteunen momenteel de volgende magazijnscenario's voor testen en trainen:
 
@@ -80,7 +80,7 @@ De magazijndemogegevens voor Contoso Coffee ondersteunen momenteel de volgende m
 
 Lees de stappen voor elk scenario in het desbetreffende artikel.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorraad instellen](../../inventory-setup-inventory.md) 
 [Procedure: vestigingen instellen](../../inventory-how-setup-locations.md) 

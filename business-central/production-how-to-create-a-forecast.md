@@ -10,7 +10,7 @@ ms.search.form: '9245, 99000919, 99000921, 99000922'
 ms.date: 03/11/2022
 ms.author: edupont
 ---
-# Een vraagprognose maken
+# <a name="create-a-demand-forecast"></a>Een vraagprognose maken
 
 U kunt verkoop- en productieprognoses maken op de lijstpagina **Vraagprognoses**. Vervolgens specificeert u voor elke prognose verschillende instellingen voor die prognose op de pagina **Overzicht vraagprognoses**.  
 
@@ -20,7 +20,7 @@ Met behulp van prognoses kan uw bedrijf "wat als"-scenario's opstellen en effici
 
 Met releasewave 1 van 2022 kunt u ook het juiste detailniveau definiëren in de velden **Prognose per locatie** en **Prognose per variant** op de pagina **Overzicht vraagprognoses**. Filters en andere instellingen worden opgeslagen in de tabel **Naam vraagprognose**. U kunt dus gemakkelijk stoppen en later verder gaan met uw werk. Als uw organisatie is bijgewerkt naar releasewave1 van 2022, moet u de nieuwe ervaring inschakelen op de pagina [Functiebeheer](admin-feature-management.md).  
 
-## Verkoopprognoses en productieprognoses
+## <a name="sales-forecasts-and-production-forecasts"></a>Verkoopprognoses en productieprognoses
 
 De prognosefunctionaliteit in de toepassing kan worden gebruikt voor het maken van verkoop- of productieprognoses, in combinatie of onafhankelijk van elkaar. De meeste bedrijven die op order produceren, houden bijvoorbeeld geen voorraad eindproducten aan, omdat elk artikel op bestelling wordt geproduceerd. Het vooruitlopen op orders (verkoopprognoses) is van essentieel belang voor een redelijke doorlooptijd van eindproducten (productieprognoses). Zo kunnen bijvoorbeeld onderdelen met een lange levertijd de productie vertragen als deze niet besteld of in voorraad zijn.  
 
@@ -38,21 +38,21 @@ De prognose bestaat uit een aantal records, die elk het artikelnummer, de progno
 
 Een prognose moet worden aangeduid als *Verkoopartikel*, *Materiaal* of *Beide*. De prognosesoort *Verkoopartikel* wordt gebruikt voor verkoopprognoses. De productieprognose wordt gemaakt met behulp van de soort *Onderdeel*. De prognosesoort *Beide* wordt alleen gebruikt om de planner een overzicht te geven van zowel de verkoopprognose als de productieprognose. Bij deze optie kunnen de prognoseposten niet worden bewerkt. Door deze prognosesoorten hier aan te duiden kunt u hetzelfde werkblad gebruiken voor het invoeren van een verkoopprognose als u doet bij een productieprognose, en kunt u hetzelfde blad gebruiken om beide prognoses tegelijkertijd te bekijken. Het is wel zo dat het systeem de verschillende inputs (verkoop en productie) verschillend gebruikt bij het berekenen van de planning, gebaseerd op artikel, productie en productie-instellingen.  
 
-## Materiaalprognose
+## <a name="component-forecast"></a>Materiaalprognose
 
 De materiaalprognose kan worden beschouwd als een optieprognose in relatie tot een hoofdartikel. Dit kan bijvoorbeeld nuttig zijn als de planner de vraag naar het materiaal kan schatten.  
 
 Omdat de materiaalprognose is ontworpen om opties te definiëren voor een hoofdartikel, moet de materiaalprognose gelijk aan of kleiner zijn dan het prognoseaantal van het verkoopartikel. Als de materiaalprognose hoger is dan de verkoopartikelprognose, beschouwt het systeem het verschil tussen deze twee soorten prognoses als onafhankelijke vraag.  
 
-## Prognoseperioden
+## <a name="forecasting-periods"></a>Prognoseperioden
 
 De prognoseperiode is geldig vanaf de begindatum tot de datum waarop de volgende prognose begint. Het tijdsintervalvenster biedt u meerdere keuzemogelijkheden om de vraag op en bepaalde datum in een periode in te voegen. Het is daarom raadzaam om het bereik van de prognoseperiode niet te wijzigen, tenzij u alle prognoseposten naar de begindatum van deze periode wilt verplaatsen.  
 
-## Prognose per locatie
+## <a name="forecast-by-locations"></a>Prognose per locatie
 
 Op de pagina **Productie-instellingen** kunt u opgeven of de vestigingen die zijn gedefinieerd in prognoses, wilt overwegen wanneer u plannen berekent. 
 
-### Prognose per vestiging gebruiken
+### <a name="use-forecast-by-locations"></a>Prognose per vestiging gebruiken
 
 Als u de schakelaar **Prognose per vestiging gebruiken** inschakelt, respecteert [!INCLUDE[prod_short](includes/prod_short.md)] alle vestigingscodes die zijn opgegeven voor elk vraagprognose-item en berekent het de resterende prognose voor elke vestiging.  
 
@@ -69,7 +69,7 @@ Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 1
 > [!NOTE]  
 > Als op locatie gebaseerde prognoses los van elkaar worden bekeken, is de totale prognose mogelijk niet representatief.
 
-### Gebruik prognose per vestiging niet
+### <a name="do-not-use-forecast-by-locations"></a>Gebruik prognose per vestiging niet
 
 Als u de schakelaar **Prognose per vestiging gebruiken** uitschakelt, negeert [!INCLUDE[prod_short](includes/prod_short.md)] alle vestigingscodes die zijn opgegeven voor elk vraagprognose-item en combineert het de prognoses tot een prognose voor lege vestigingen.  
 
@@ -86,7 +86,7 @@ Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 1
 > [!NOTE]  
 > U kunt een filter op vestigingen instellen, maar vestiginggebaseerde resultaten komen mogelijk niet overeen met planningsresultaten zonder filters.
 
-## Een vraagprognose maken
+## <a name="to-create-a-demand-forecast"></a>Een vraagprognose maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vraagprognose** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op het sneltabblad **Algemeen** een prognose in het veld **Vraagprognosenaam**. Meerdere prognoses zijn mogelijk: deze zijn van elkaar te onderscheiden door de naam en het prognosetype.  
@@ -104,7 +104,7 @@ Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 1
 > [!NOTE]  
 > U kunt ook een bestaande prognose bewerken. Kies op de pagina **Matrix voor vraagprognose** de actie **Vraagprognose kopiëren** en vul de pagina **Vraagprognose** met een bestaande prognose. U kunt de aantallen waar nodig wijzigen.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)

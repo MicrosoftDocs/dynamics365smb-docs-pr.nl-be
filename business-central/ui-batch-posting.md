@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Meerdere documenten tegelijkertijd boeken
+# <a name="post-multiple-documents-at-the-same-time"></a>Meerdere documenten tegelijkertijd boeken
 
 In plaats van afzonderlijke documenten een voor een te boeken kunt u meerdere niet-geboekte documenten in een lijst selecteren voor directe batchboeking of voor batchboeking volgens een planning, bijvoorbeeld aan het einde van de dag. Dit kan handig zijn als alleen een supervisor documenten kan boeken die door andere gebruikers zijn gemaakt of om problemen met de systeemprestaties te voorkomen door boeking tijdens werkuren.
 
-## Meerdere inkooporders onmiddellijk boeken
+## <a name="to-post-multiple-purchase-orders-immediately"></a>Meerdere inkooporders onmiddellijk boeken
 
 In de volgende procedure wordt uitgelegd hoe u meerdere inkooporders onmiddellijk kunt boeken. De stappen zijn vergelijkbaar voor alle inkoop- en verkoopdocumenten.
 
@@ -26,7 +26,7 @@ In de volgende procedure wordt uitgelegd hoe u meerdere inkooporders onmiddellij
 5. Kies de actie **Boeken** en kies vervolgens weer de actie **Boeken**.
 6. Kies de knop **Ja** in het bevestigingsbericht.
 
-## Meerdere inkooporders in een batch boeken
+## <a name="to-batch-post-multiple-purchase-orders"></a>Meerdere inkooporders in een batch boeken
 
 In de volgende procedure wordt uitgelegd hoe u inkooporders in een batch boekt. De stappen zijn vergelijkbaar voor alle inkoop- en verkoopdocumenten waarbij de actie **Batchboeken** beschikbaar is.
 
@@ -42,7 +42,7 @@ In de volgende procedure wordt uitgelegd hoe u inkooporders in een batch boekt. 
 > [!NOTE]
 > Het boeken van meerdere documenten kan enige tijd duren en andere gebruikers blokkeren. Overweeg om boeken op de achtergrond in te schakelen. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).
 
-## Boeking op de achtergrond instellen met taakwachtrijen
+## <a name="to-set-up-background-posting-with-job-queues"></a>Boeking op de achtergrond instellen met taakwachtrijen
 Taakwachtrijen zijn een effectief hulpmiddel om de uitvoering van bedrijfsprocessen op de achtergrond te plannen, zoals wanneer meerdere gebruikers proberen verkooporders te boeken, maar er slechts één order tegelijk kan worden verwerkt.  
 
 In de volgende procedure wordt uitgelegd hoe u achtergrondboeking van verkooporders instelt. De stappen zijn vergelijkbaar voor de inkoop.  
@@ -67,14 +67,14 @@ In de volgende procedure wordt uitgelegd hoe u achtergrondboeking van verkoopord
 4. Om te controleren dat de taakwachtrij werkt zoals verwacht, boekt u een verkooporder. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
     De verkooporder wordt nu toegevoegd aan een speciale taakwachtrijpost, die bepaalt wanneer de documenten worden geboekt. 
 
-### Een status vanuit een verkoop- of inkoopdocument weergeven
+### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Een status vanuit een verkoop- of inkoopdocument weergeven
 Als de taakwachtrij de verkooporder niet kan boeken, wordt de status gewijzigd in **Fout** en wordt de verkooporder toegevoegd aan de lijst met verkooporders die de gebruiker handmatig moet afhandelen.
 1. Kies vanuit het document dat u hebt geprobeerd te boeken via boeken op de achtergrond, het veld **Status taakwachtrij** dat de waarde **Fout** bevat.
 2. Bekijk de foutmelding en los het probleem op.
 
 U kunt ook op de pagina **Logposten taakwachtrij** kijken of de verkooporder met succes is geboekt. Voor meer informatie zie het gedeelte [De taakwachtrij bewaken](#monitor-the-job-queue).
 
-## Een taakwachtrijpost maken voort batchboeking van verkooporders
+## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Een taakwachtrijpost maken voort batchboeking van verkooporders
 
 U kunt eventueel ook boekingen uitstellen naar tijdstippen die handiger zijn voor uw organisatie. Het kan bijvoorbeeld zinvol zijn om in uw bedrijf bepaalde routines uit te voeren wanneer de meeste gegevens voor die dag zijn ingevoerd. U kunt dat bereiken door de taakwachtrij zo in te stellen dat er diverse batchboekingsrapporten worden uitgevoerd, zoals **Batchboeken verkooporders**, **Batchboeken verkoopfacturen** en vergelijkbare rapporten. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt boeken op de achtergrond voor alle verkoop-, inkoop- en servicedocumenten.
 
@@ -111,13 +111,13 @@ In de volgende procedure wordt getoond hoe u het rapport **Batchboeken verkoopor
 
 Verkooporders die binnen de gedefinieerde filters vallen, worden nu elke werkdag om 16:00 uur geboekt.
 
-## De taakwachtrij bewaken
+## <a name="monitor-the-job-queue"></a>De taakwachtrij bewaken
 
 Als u boeken op de achtergrond instelt met taakwachtrijen, maak er dan een regelmatige taak van om de taakwachtrij te controleren om eventuele problemen op te vangen. U kunt de status volgen op de pagina **Taakwachtrijposten**. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).  
 
 Als beheerder kunt u [Application Insights](/azure/azure-monitor/app/app-insights-overview) gebruiken om telemetrie te verzamelen en te analyseren die u kunt gebruiken om problemen te identificeren. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in de ontwikkelaar- en beheerinhoud.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)  
