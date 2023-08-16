@@ -5,7 +5,7 @@ author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
-ms.search.form: null
+ms.search.form: '41,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
@@ -13,7 +13,7 @@ ms.author: edupont
 
 U kunt eenvoudig informatie en documenten, zoals verkoop- en inkooporders en facturen, rechtstreeks per e-mail delen vanuit [!INCLUDE[prod_short](includes/prod_short.md)], zonder een e-mailapp te hoeven openen.  
 
-U kunt bijna alle soorten documenten als pdf-bijlage verzenden. U kunt ook een rapportlay-out instellen die informatie uit het document in de e-mailtekst bevat, samen met tekst die de e-mail vriendelijker maakt, bijvoorbeeld een standaardbegroeting. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
+U kunt bijna alle soorten documenten als pdf-bijlage verzenden. U kunt ook een rapportlay-out instellen die informatie uit het document in de e-mailtekst bevat, samen met tekst die de e-mail vriendelijker maakt, bijvoorbeeld een standaardbegroeting. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).
 
 Wanneer u facturen verzendt, kunt u het klanten gemakkelijker maken om betalingen te doen via een betalingsservice, zoals PayPal, door automatisch informatie en een link naar de service in de e-mail toe te voegen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
@@ -24,12 +24,12 @@ Als u e-mails vanuit [!INCLUDE[prod_short](includes/prod_short.md)] wilt inschak
 
 ## Documenten per e-mail verzenden
 
-In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-bestand en met documentspecifieke e-mailtekst aan een e-mail wordt toegevoegd. <!--update this-->
+In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-bestand en met documentspecifieke e-mailtekst aan een e-mail wordt toegevoegd. De stappen zijn hetzelfde voor andere documenten.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer de factuur en kies de actie **Afdrukken/Verzenden** en kies vervolgens **Verzenden**.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer de factuur en kies de actie **Afdrukken/Verzenden** en kies vervolgens **Verzenden via e-mail**.
 3. Kies in het veld **E-mail** **Ja (prompt voor instellingen)**. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
-    
+
     Als het veld **E-mail** op de pagina **Document verzenden naar** is ingesteld op **Ja (prompt voor instellingen)**, wordt de pagina **E-mail verzenden** geopend en vooraf gevuld met de contactpersoon in het veld **Aan:** en het document is als een pdf-bestand bijgevoegd. In het veld **Hoofdtekst** kunt u tekst handmatig invoeren of kunt u in het veld een documentspecifieke e-mailhoofdtekst invoeren die u hebt ingesteld.
 
 4. Kies de knop **OK**.
@@ -51,7 +51,17 @@ U kunt snel e-mails opstellen voor contactpersonen, klanten, leveranciers, verko
 > [!TIP]
 > Als u vaak e-mailberichten verstuurt die vergelijkbaar zijn, of een bulkcommunicatie wilt verzenden, bijvoorbeeld om reclame te maken voor een verkoopcampagne, kan het gebruik van Word-sjablonen met e-mail het proces versnellen. U kunt een sjabloon maken voor entiteiten zoals klanten, leveranciers en contactpersonen, die de inhoud van een e-mailbericht voor u zal genereren, en zelfs de inhoud voor de ontvanger personaliseren op basis van gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Word-sjablonen gebruiken voor bulkcommunicatie](ui-mail-merge.md).  
 
+### Een document aan een e-mail koppelen
+
+Er zijn verschillende manieren om documenten aan e-mails toe te voegen.
+
 Als u bent toegewezen aan een e-mailscenario met betrekking tot de entiteit waarnaar u de e-mail verzendt, of het document dat u verzendt, kan er automatisch een bijlage aan uw bericht worden toegevoegd. Dat komt omdat er een standaardbijlage is toegewezen aan het e-mailscenario. U kunt de bijlage verwijderen als u deze niet met uw bericht wilt meesturen. Zie voor meer informatie [E-mailscenario's toewijzen aan e-mailaccounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
+
+Gebruik de volgende acties om zelf een bestand toe te voegen in de e-maileditor:
+
+* Kies **Bestand toevoegen** om een bestand te selecteren.
+* Kies **Bestanden uit standaardselectie toevoegen** om handmatig een bestand toe te voegen dat is gekoppeld aan het e-mailscenario.
+* Kies **Bestand toevoegen vanuit brondocument** om een bestand te kiezen dat is bijgevoegd bij het document waarmee u werkt. De bestanden worden aan het document zelf of aan een of meer regels ervan toegevoegd.
 
 ## Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
 

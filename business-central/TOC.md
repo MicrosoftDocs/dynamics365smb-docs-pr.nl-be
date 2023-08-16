@@ -350,6 +350,7 @@
 
 ### Btw beheren
 #### [Overzicht van btw-beheer](finance-manage-vat.md)
+#### [EU-inkooptransacties van derde partijen](finance-how-to-eu3party-trade-purchase.md)
 #### Btw instellen
 ##### [Btw instellen](finance-setup-vat.md)
 ##### [Instelling van boekingsgroep](finance-posting-groups.md#tax-posting-groups)
@@ -1994,13 +1995,13 @@
 #### [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)
 <!--migrate to BC online-->
 ## Migreren naar Business Central Online
-### [On-premises gegevens migreren](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
-### [Tool voor cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
-### [Migratie naar de cloud beheren](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
+### [Inleiding](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
+<!--### [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)-->
+### [Migratie naar de cloud beheren](/dynamics365/business-central/dev-itpro/administration/migration-manage?toc=/dynamics365/business-central/toc.json)
 ### [Migreren vanuit Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Migreren vanuit Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
-### [Migreren vanuit Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Veelgestelde vragen over migreren naar de cloud](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+<!--### [Migrating from Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)-->
+### [Veelgestelde vragen over migreren naar de cloud](/dynamics365/business-central/dev-itpro/administration/faq-migrate-data?toc=/dynamics365/business-central/toc.json)
 ## [Beheer van Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Ontwikkeling](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Beveiliging en bescherming](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

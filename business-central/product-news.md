@@ -9,7 +9,7 @@ ms.date: 06/15/2023
 ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>Nieuw en gepland voor Dynamics 365 Business Central
+# Nieuw en gepland voor Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
@@ -22,11 +22,11 @@ Het kan handig zijn om de site [Dynamics 365 Business Central-mogelijkheden](htt
 
 Lees meer over hoe uw [!INCLUDE [prod_short](includes/prod_short.md)] online de volgende updates ontvangt op [Grote updates en kleine updates](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline) (alleen in het Engels).
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen via een RSS-feed
+## Meldingen over wijzigingen ontvangen via een RSS-feed
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bezoek onze videobibliotheek](across-videos.md)  
 [Resources voor Help en ondersteuning](product-help-and-support.md)  

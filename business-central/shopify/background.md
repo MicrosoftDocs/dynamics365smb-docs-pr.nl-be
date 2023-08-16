@@ -9,14 +9,14 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="run-tasks-in-the-background"></a>Taken op de achtergrond uitvoeren
+# Taken op de achtergrond uitvoeren
 
 Het is efficiënt om sommige taken gelijktijdig en geautomatiseerd uit te voeren. U kunt dergelijke taken op de achtergrond uitvoeren en u kunt ook een schema instellen wanneer u wilt dat deze taken automatisch worden uitgevoerd. Om taken op de achtergrond uit te voeren, worden twee modi ondersteund:
 
 - Handmatig geactiveerde taken worden direct ingepland via **Taakwachtrijposten**
 - Periodieke taken worden gepland in **Taakwachtrijposten**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Voer taken op de achtergrond uit voor een specifieke winkel
+## Voer taken op de achtergrond uit voor een specifieke winkel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u synchronisatie op de achtergrond wilt uitvoeren om de **Shopify-winkelkaart** te openen.
@@ -24,7 +24,7 @@ Het is efficiënt om sommige taken gelijktijdig en geautomatiseerd uit te voeren
 
 Wanneer de synchronisatieactie nu wordt geactiveerd, wordt u gevraagd te wachten in plaats van dat er een taak op de voorgrond wordt uitgevoerd. Wanneer het is voltooid, kunt u doorgaan naar de volgende actie. De taak wordt gemaakt als een **Taakwachtrij-item** en start onmiddellijk.
 
-## <a name="to-schedule-recurring-tasks"></a>Terugkerende taken plannen
+## Terugkerende taken plannen
 
 U kunt de volgende terugkerende activiteiten plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie over het plannen van taken [Taakwachtrij](../admin-job-queues-schedule-tasks.md).
 
@@ -51,6 +51,6 @@ U kunt het veld **Shopify-ordernr.** gebruiken om verkoopdocumenten te identific
 
 Ga voor meer informatie over het boeken van verkooporders in een batch naar [Een taakwachtrijitem maken voor het batchgewijs boeken van verkooporders](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Aan de slag met de connector voor Shopify](get-started.md)  

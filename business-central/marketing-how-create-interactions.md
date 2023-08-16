@@ -12,12 +12,12 @@ ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Interacties maken voor contacten en segmenten
+# Interacties maken voor contacten en segmenten
 U kunt interacties maken om alle interacties en communicatie vast te leggen die u hebt met uw contacten en segmenten, bijvoorbeeld direct mail.
 
 Voordat u interacties maakt, moet u interactiesjablonen instellen. Zie voor meer informatie [Interactiesjablonen instellen](marketing-interactions.md).
 
-## <a name="to-create-an-interaction"></a>Een interactie maken
+## Een interactie maken
 1. Open het contact, de verkoper of de interactielogpost.
 2. Kies de actie **Interactie maken**.
 3. Vul de velden in en kies de knop **OK**.
@@ -25,12 +25,12 @@ Voordat u interacties maakt, moet u interactiesjablonen instellen. Zie voor meer
 > [!NOTE]  
 >   Als u nog een andere taak wilt uitvoeren voordat u de interactie voltooit, kunt u **Annuleren** kiezen en ervoor kiezen de interactie op een later tijdstip te voltooien. Dit stelt de interactie uit.
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>Uitgestelde interacties voltooien en verwijderen
+## Uitgestelde interacties voltooien en verwijderen
 1. Open het contact, de verkoper of de interactielogpost.
 2. Kies **Uitgestelde interacties**.
 3. Selecteer de interactie die u wilt voltooien, en kies vervolgens de actie **Hervatten**.
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Een interactie voor een segment maken
+## Een interactie voor een segment maken
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Segment** in het gedeelte **Interactie** de velden in waarmee u wilt opgeven welke interactie u wilt toewijzen aan het segment.
 
@@ -42,7 +42,7 @@ Een interactie wordt geregistreerd voor elk contact binnen het segment in de tab
 
 Als u het selectievakje **Opvolgingssegment maken** hebt ingeschakeld, wordt er automatisch een nieuw segment gemaakt met dezelfde contacten als in het segment dat u zojuist hebt geregistreerd.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Interacties registreren](marketing-interactions.md)  
 [Contactpersonen beheren](marketing-contacts.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  

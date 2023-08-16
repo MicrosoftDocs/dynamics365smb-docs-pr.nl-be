@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 03/23/2022
 ---
 
-# <a name="handling-missing-option-values"></a>Ontbrekende optiewaarden verwerken
+# Ontbrekende optiewaarden verwerken
 > [!NOTE]
 > In releasewave 1 van 2022 kunt u uw eigen optietoewijzingen maken. Zie [Optietoewijzingen met Microsoft Dataverse aanpassen](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping) voor meer informatie. De nieuwe mogelijkheden vereisen dat uw beheerder **Functie-update: toewijzen aan optiesets in Dataverse zonder code** op de pagina **Functiebeheer** inschakelt. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alle bovenstaande [!INCLUDE[prod_short](includes/prod_short.md)]-enums zijn toegewezen aan optiesets in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-"></a>Optiesets uitbreiden in [!INCLUDE[prod_short](includes/prod_short.md)]
+### Optiesets uitbreiden in [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Maak een nieuwe AL-extensie.
 
 2. Voeg een Enum-extensie toe voor de opties die u wilt uitbreiden. Zorg ervoor dat u dezelfde waarde gebruikt. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > De eerste tien tekens van de nieuwe namen en bijschriften van de optiewaarden moeten uniek zijn. Twee opties met de naam "Transfer 20 werkdagen" en "Transfer 20 kalenderdagen" veroorzaken bijvoorbeeld een fout omdat beide dezelfde eerste 10 tekens hebben, "Transfer 2". Noem ze bijvoorbeeld "TRF20 WD" en "TRF20 KD".
 
-### <a name="update--option-mapping"></a>[!INCLUDE[prod_short](includes/cds_long_md.md)]-optietoewijzing bijwerken
+### [!INCLUDE[prod_short](includes/cds_long_md.md)]-optietoewijzing bijwerken
 Nu kunt u de toewijzing opnieuw maken tussen [!INCLUDE[prod_short](includes/cds_long_md.md)]-opties en [!INCLUDE[prod_short](includes/prod_short.md)]-records.
 
 Kies op de pagina **Toewijzing van integratietabel** de regel voor de toewijzing **Betalingsvoorwaarden** en kies vervolgens de actie **Gewijzigde records synchroniseren**. De pagina **Dataverse-optietoewijzing** wordt bijgewerkt met de aanvullende records hieronder.
@@ -140,7 +140,7 @@ De tabel **Betalingsvoorwaarden** in [!INCLUDE[prod_short](includes/prod_short.m
 | *NETTO60*      |                      |                           | 0.         | ONWAAR                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | ONWAAR                         |                   |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [De te synchroniseren tabellen en velden toewijzen](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

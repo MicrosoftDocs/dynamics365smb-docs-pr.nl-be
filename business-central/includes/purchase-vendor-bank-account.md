@@ -1,8 +1,8 @@
 ---
-author: rubenseishima
+author: brentholtorf
 ms.topic: include
-ms.date: 06/30/2022
-ms.author: a-reishima
+ms.date: 08/03/2023
+ms.author: bholtorf
 ---
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.
@@ -15,4 +15,4 @@ ms.author: a-reishima
 > Sommige velden zijn verborgen totdat u de actie **Meer tonen** kiest, meestal omdat ze zelden worden gebruikt. Andere moeten worden toegevoegd via personalisatie. Zie [Uw werkruimte personaliseren](../ui-personalization-user.md) voor meer informatie.
 
 > [!WARNING]
-> Sommige velden in de bankrekening van de leverancier kunnen gevoelige bedrijfsgegevens bevatten, zoals de velden **Bankfiliaalnr.**, **Bankrekeningnr.**, **SWIFT-code** en **IBAN-code**. Zie voor meer informatie over hoe u kunt controleren en een melding kunt krijgen wanneer iemand een waarde in die velden wijzigt [Vertrouwelijke velden controleren](../across-log-changes.md#monitoring-sensitive-fields).
+> Sommige velden in de bankrekening van de leverancier kunnen gevoelige bedrijfsgegevens bevatten, zoals de velden **Bankfiliaalnr.**, **Bankrekeningnr.**, **SWIFT-code** en **IBAN-code**. Zie voor meer informatie over hoe u kunt bewaken en een melding kunt krijgen wanneer iemand een waarde in die velden wijzigt [Vertrouwelijke velden bewaken](../across-log-changes.md#monitor-sensitive-fields).

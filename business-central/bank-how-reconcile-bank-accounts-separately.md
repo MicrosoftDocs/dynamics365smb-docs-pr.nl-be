@@ -34,11 +34,6 @@ Het selectievakje **Vereffend** is ingeschakeld op regels waar posten overeenkom
 
 Wanneer de waarde in het veld **Totaalsaldo** in het deelvenster **Bankafschriftregels** gelijk is aan de totale waarde in het veld **Af te stemmen saldo** plus het veld **Saldo laatste afschrift** in het deelvenster **Bankposten**, kunt u de actie **Boeken** kiezen. Niet-afgestemde bankposten blijven op de pagina staan, wat aangeeft dat er een verschil is dat u moet oplossen om de bankrekening af te stemmen.
 
-Om de reconciliatie van uw bankrekening nogmaals te controleren voordat u deze boekt, gebruikt u de actie **Testrapport** om een voorbeeld van de reconciliatie voor te bereiden. Het rapport is beschikbaar in de volgende contexten:
-
-* Wanneer u een bankreconciliatie voorbereidt op de pagina **Bankreconciliatie**.
-* Wanneer u betalingen afstemt op de pagina **Betalingsreconciliatiedagboeken**.
-
 Regels die niet kunnen worden afgestemd, aangeduid met een waarde in het veld **Verschil**, blijven na boeking op de pagina **Bankreconciliatie** staan. Er is daarmee een verschil geconstateerd dat u moet oplossen voordat u de afstemming van de bankrekening kunt afronden. In de onderstaande tabel worden enkele typische bedrijfssituaties beschreven die tot verschillen kunnen leiden.
 
 | Verschil | Reden | Oplossing |
@@ -97,7 +92,7 @@ U kunt de basis voor overeenkomsten onderzoeken met behulp van de actie **Afstem
     Als u 0 typt of het veld leeg laat, zoekt de actie **Automatisch afstemmen** alleen naar overeenkomende transactiedatums op de bankpostboekingsdatum.
 3. Kies de knop **Ok**.
 
-    De lijnen zijn kleurgecodeerd om het gemakkelijker te maken te begrijpen wat u ermee moet doen. Alle bankafschriftregels en bankrekeningposten die kunnen worden afgestemd, worden in groene letters weergegeven, en het selectievakje **Vereffend** wordt ingeschakeld. Bankboekingen die al zijn afgestemd op andere bankreconciliaties, worden weergegeven in blauw lettertype.
+    De lijnen zijn kleurgecodeerd om het gemakkelijker te maken te begrijpen wat u ermee moet doen. Bankafschriftregels en bankrekeningposten die overeenkomen met de huidige bankreconciliatie, worden gewijzigd in vetgedrukt groen lettertype. Bankrekeningposten die al zijn afgestemd in andere bankreconciliaties, worden weergegeven in cursief blauw lettertype.
 4. Als u een afstemming wilt verplaatsen, selecteert u de bankafschriftregel en kiest u vervolgens **Afstemming verwijderen**.
 
 > [!TIP]
@@ -107,6 +102,13 @@ U kunt de basis voor overeenkomsten onderzoeken met behulp van de actie **Afstem
 
 > [!TIP]
 > Bij het handmatig afstemmen van regels en posten kunt u met de acties **Alles weergeven**, **Tegengeboekte posten weergeven**, **Tegengeboekte posten verbergen** en **Niet-afgestemd weergeven** gemakkelijker een overzicht krijgen. Standaard bevatten de bankrekeningposten geen niet-afgestemde tegengeboekte posten. Als u deze posten in de lijst wilt opnemen en ze handmatig wilt afstemmen, kiest u de actie **Tegengeboekte posten weergeven**. Als u ervoor kiest om tegengeboekte posten te verbergen nadat u een of meer afstemmingen hebt gedaan, worden de afgestemde posten nog steeds weergegeven.
+
+> [!NOTE]
+> U kunt geen bankreconciliatie boeken als u veel-op-een-afstemming uitvoert en de gecombineerde bedragen verschillen bevatten. Dit geldt zelfs als de gecombineerde verschillen nul zijn.
+>
+> Hier is een voorbeeld van een veel-op-een-overeenkomst met verschillen. De waarde van 200 voor bankafschriftpost 1 wordt gekoppeld aan twee bankposten met een totale waarde van 180. Het verschil is 20. De waarde van 350 voor bankafschriftpost 2 wordt gekoppeld aan twee andere bankposten met een totale waarde van 370. Het verschil is -20, wat de waarde van 20 voor bankafschrift 1 in evenwicht brengt.  
+>
+> Om een bankreconciliatie met verschillen op de regels te boeken, boekt u de verschillen en vergelijkt u ze met de geboekte posten.
 
 1. Selecteer op de pagina **Bankreconciliatie** een niet-vereffende regel in het deelvenster **Bankafschriftregels**.
 2. Selecteer in het deelvenster **Bankposten** een of meer bankrekeningposten die met de geselecteerde bankafschriftregel kunnen worden afgestemd. Om meerdere regels te kiezen drukt u op de <kbd>CTRL</kbd>-toets en kiest u vervolgens de regels.
@@ -121,6 +123,49 @@ U kunt de basis voor overeenkomsten onderzoeken met behulp van de actie **Afstem
 > [!TIP]
 > Als u een afstemming wilt verplaatsen, selecteert u de bankafschriftregel en kiest u vervolgens **Afstemming verwijderen**. Als u meerdere bankafschriftregels op een grootboekpost hebt afgestemd en een of meer van de afgestemde regels moet verwijderen, worden alle handmatige afstemmingen voor de grootboekboeking verwijderd wanneer u **Afstemming verwijderen** kiest.
 
+## Uw bankreconciliatie valideren
+
+Om de reconciliatie van uw bankrekening nogmaals te controleren voordat u deze boekt, gebruikt u de actie **Testrapport** om een voorbeeld van de reconciliatie te bekijken. Het rapport is beschikbaar in de volgende contexten:
+
+* Wanneer u een bankreconciliatie voorbereidt op de pagina **Bankreconciliatie**.
+* Wanneer u betalingen afstemt op de pagina **Betalingsreconciliatiedagboeken**.
+
+Regels die niet kunnen worden afgestemd, blijven na boeking op de pagina **Bankreconciliatie** staan. Deze regels bevatten een waarde in het veld **Verschil**. Het verschil vertegenwoordigt een discrepantie die u moet oplossen voordat u de reconciliatie van de bankrekening kunt voltooien. In de onderstaande tabel worden enkele typische bedrijfssituaties beschreven die tot verschillen kunnen leiden.
+
+| Verschil | Reden | Oplossing |
+|------------|--------|------------|
+| Een transactie op uw bankrekening in [!INCLUDE[prod_short](includes/prod_short.md)] staat niet op het bankafschrift. | De banktransactie is niet gemaakt, hoewel er wel een boeking is gedaan in [!INCLUDE[prod_short](includes/prod_short.md)]. | Maak de ontbrekende transactie (of vraag een debiteur om deze te maken). Importeer vervolgens het bankafschriftbestand opnieuw of voer de transactie handmatig in. |
+| Een transactie op het bankafschrift is niet aanwezig als een document of journaalregel in [!INCLUDE[prod_short](includes/prod_short.md)]. | Er is een banktransactie uitgevoerd zonder een overeenkomstige boeking in [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld een boeking in een dagboekregel voor een uitgave. | Maak en plaats de ontbrekende post. Zie [Ontbrekende posten maken om banktransacties mee af te stemmen](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines) voor informatie over een snelle manier om dit te doen. |
+| Een transactie op de interne bankrekening komt overeen met een banktransactie, maar bepaalde informatie is te verschillend om een match te geven. | Informatie, zoals het bedrag of de naam van de klant, is anders ingevoerd in de banktransactie of de interne boeking. | Controleer de informatie en stem deze vervolgens handmatig af. Corrigeer desgewenst de onjuiste informatie. |
+
+U moet de verschillen oplossen, bijvoorbeeld door de ontbrekende posten te maken en niet-overeenkomende informatie te corrigeren, of door ontbrekende geldtransacties in te voeren, totdat de reconciliatie van de bankrekening is voltooid en geboekt.
+
+> [!NOTE]
+> De pagina Bankreconciliatie en het testrapport gaan ervan uit dat u alleen aan het reconciliëren bent binnen de periode tot de einddatum van het afschrift. Als u een bankafschriftregel koppelt aan een bankpost voordat u een einddatum voor een afschrift invoert, en vervolgens een einddatum voor een afschrift invoert die na de einddatum van de bankpost valt, zijn de gegevens in het testrapport onjuist.
+
+In de volgende tabel worden de velden in het testrapport beschreven die u kunnen helpen bij het voltooien van de bankreconciliatie.
+
+|Veld  |Omschrijving  |
+|---------|---------|
+|Afschriftdatum| De datum die is opgegeven in het veld **Afschriftdatum** op de pagina **Bankreconciliatie**.|
+|Saldo van laatste afschrift|Het saldo dat is opgegeven in het veld **Saldo laatste afschrift** op de pagina **Bankreconciliatie**. Deze wordt automatisch ingevuld vanaf de meest recente reconciliatie voor dezelfde bankrekening. De waarde is nul als dit uw eerste reconciliatie van uw bankrekening is.|
+|Eindsaldo van afschrift|Het saldo dat is opgegeven in het veld **Eindsaldo afschrift** op de pagina **Bankreconciliatie**. |
+|Grootboekrekeningnr. <*nummer*> Saldo op <*datum*> | Het saldo op de grootboekrekening op de einddatum van het afschrift. Dit is het ongefilterde saldo per die datum. Als uw bank uw lokale valuta gebruikt, moet dit saldo gelijk zijn aan het saldo van uw bankrekening (weergegeven aan de rechterkant van de rapportkop) wanneer u alle afschriftregels hebt afgestemd. Een lege **()** in de naam van dit veld betekent dat uw bank de lokale valuta gebruikt.<br><br>Een verschil in dit en de voorgaande velden kan erop duiden dat u rechtstreeks op de grootboekrekening hebt geboekt of dat u dezelfde grootboekrekening voor meerdere banken gebruikt, wat niet wordt aanbevolen. Banken zijn aan het grootboek gekoppeld via de bankrekeningboekingsgroep die voor de rekening is opgegeven.<br><br>Het testrapport toont een waarschuwing als u directe boekingen hebt, zelfs als het saldo voor de boeking nul is. Directe boekingen die niet in evenwicht zijn, leiden vaak tot geaccumuleerde verschillen voor toekomstige bankreconciliaties. U moet het grootboeksaldo en de grootboekposten controleren voordat u de bankreconciliatie boekt. Ga voor meer informatie over direct boeken naar [Direct boeken voorkomen](#avoid-direct-posting).|
+|Grootboekrekeningnr. <*nummer*> Saldo (<*LV*>) op <*datum*>| Het saldo op de grootboekrekening op de einddatum van het afschrift in lokale valuta. Het saldo wordt omgerekend naar de valuta van de bankrekening met behulp van de wisselkoers die gold op de einddatum van het afschrift. Dit is het ongefilterde saldo per die datum. U vergelijkt dit met het veld **Grootboekrekeningnr. <* nummer *> Saldo op <* datum*>* als uw bank een vreemde valuta gebruikt. De waarde in het veld Grootboekrekeningnr. <* nummer *> Saldo op <* datum*> voor lokale valuta kan iets afwijken omdat valutaconversie tot kleine verschillen kan leiden. Het saldo van uw bank moet dit saldo zeer dicht benaderen.  |
+|Bankrekeningsaldo op <*datum*>| Het saldo op de bankrekening op de einddatum van het afschrift.|
+|Som van verschillen    | De som van de verschillen voor de afschriftregels. Om toegang te krijgen tot de details zet u de schakelaar **Openstaande transacties afdrukken** aan wanneer u criteria voor het rapport invoert. Een verschil is een bankafschriftregel die niet volledig is afgestemd met een of meer bankposten. U kunt geen reconciliatie boeken van een bankrekening die verschillen bevat. U kunt een bankreconciliatie boeken die bankposten bevat die niet zijn afgestemd met afschriftregels. Deze waarde wordt weergegeven in het veld **Openstaande banktransacties** en in een apart gedeelte als u de schakelaar Openstaande transacties afdrukken inschakelt.      |
+|Saldo afschrift     | De waarde die is opgegeven in het veld **Eindsaldo afschrift** op de pagina **Bankreconciliatie**.  |
+|Openstaande banktransacties     | De som van niet-afgestemde, niet-cheque bankposten met een boekingsdatum op of voor de einddatum van het afschrift. Dit gebeurt wanneer u transacties registreert voordat ze bij uw bank worden geregistreerd. Bijvoorbeeld aan het einde van een periode. Wanneer u de volgende bankreconciliatie maakt, kunt u deze posten reconciliëren.        |
+|Openstaande cheques     | De som van niet-afgestemde, bankposten voor cheques met een boekingsdatum op of voor de einddatum van het afschrift. Dit gebeurt wanneer u transacties registreert voordat ze bij uw bank worden geregistreerd. Dit kan bijvoorbeeld gebeuren voor cheques als een verkoper een cheque niet incasseert in dezelfde periode waarin u deze hebt geregistreerd. Wanneer u de volgende bankreconciliatie maakt, kunt u deze posten reconciliëren.        |
+|Bankrekeningsaldo     | De som van de waarden voor het eindsaldo van het bankafschrift, uitstaande banktransacties en uitstaande cheques. Nadat u alle verschillen in afgestemde posten hebt afgehandeld, komt dit saldo overeen met uw banksaldo. U hebt bijvoorbeeld alle afgestemde posten verantwoord, evenals de posten die u niet kon afstemmen voor dit bankafschrift. U kunt nu de reconciliatie boeken.        |
+
+> [!TIP]
+> Als u het **Testrapport** van de pagina **Betalingsreconciliatiedagboek** uitvoert, berekent [!INCLUDE [prod_short](includes/prod_short.md)] de waarde in het **Eindsaldo afschrift** als volgt:
+>
+> * saldo laatste afschrift + som van alle regels in het betalingsreconciliatiedagboek
+>
+> U kunt de waarde gebruiken om te vergelijken met uw bankafschrift.
+
 ## Ontbrekende posten maken om bankafschriftregels af te stemmen
 
 Soms bevat een bankafschrift bedragen voor in rekening gebrachte rente of toeslagen. Dergelijke bankafschriftregels kunnen niet worden afgestemd omdat er geen gerelateerde posten bestaan in [!INCLUDE[prod_short](includes/prod_short.md)]. U moet vervolgens voor elke transactie een dagboekregel boeken om een gerelateerde post te maken waarmee deze kan worden afgestemd.
@@ -129,8 +174,8 @@ Soms bevat een bankafschrift bedragen voor in rekening gebrachte rente of toesla
 2. Geef op de pagina **Bankreconciliatie naar dagboek** op welk dagboek moet worden gebruikt en kies vervolgens de knop **OK**.
 
     De pagina **Diversendagboek** wordt geopend met nieuwe dagboekregels voor bankafschriftregels met ontbrekende posten.
-3. Vul de dagboekregel met de relevante gegevens, zoals de tegenrekening. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
-4. Als u het resultaat van de boeking wilt controleren voordat u boekt, kiest u de actie **Testrapport**. Het rapport **Bankrekeningafschrift** wordt geopend en bevat dezelfde velden als de koptekst van de pagina **Bankreconciliatie**.
+3. Vul de dagboekregel met de informatie, zoals de tegenrekening. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
+4. Om het resultaat van boeking te bekijken voordat u boekt, kiest u de actie **Testrapport** en kiest u vervolgens een optie voor toegang tot het rapport. Het rapport **Bankrekeningafschrift** wordt geopend en bevat dezelfde velden als de koptekst van de pagina **Bankreconciliatie**.
 5. Kies de actie **Boeken**.
 
     Nadat de post is geboekt, stemt u deze af met de bankafschriftregel.
@@ -197,11 +242,11 @@ Deze fout komt vaak voor bij het invoeren van een beginsaldo voor een bankrekeni
 ## Zie gerelateerde [Microsoft-training](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## Zie ook
+
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Bankieren instellen](bank-setup-banking.md)  
 [Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

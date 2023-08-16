@@ -12,7 +12,7 @@ ms.search.forms: '5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 50
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="managing-sales-opportunities"></a>Verkoopopportunities beheren
+# Verkoopopportunities beheren
 Iedere inkomende lead kan als verkoopopportunity worden beschouwd. U kunt opportunities maken en aan een verkoper koppelen, zodat u potentiële verkopen kunt bijhouden.
 
 Voordat u opportunitybeheer in gebruik kunt nemen, moet u verkoopcycli en verkoopcyclusfasen instellen. Wanneer u opportunities maakt, dient u niet alleen informatie over het contact, de verkoper, de verkoopcyclus en datums op te geven, maar ook de geschatte verkoopwaarde van de opportunity en de geschatte kans op succes.
@@ -25,7 +25,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Verkoopopportunities maken op basis van uw contacten. |[Opportunities maken](marketing-how-create-opportunities.md) |
 | Een verkoopopportunity door de verkoopcyclus verplaatsen naar voltooiing. |[Verkoopopportunity's verwerken](marketing-processing-sales-opportunities.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

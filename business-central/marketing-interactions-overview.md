@@ -10,7 +10,7 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Interacties beheren met uw contacten
+# Interacties beheren met uw contacten
 In [!INCLUDE[prod_short](includes/prod_short.md)] wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, e-mail, telefoon, vergaderingen, enzovoort zijn.
 
 U kunt alle interactie registreren die u met uw contacten hebt, om de verkoop en marketinginspanningen bij te houden die u op uw contacten hebt gericht en om uw toekomstige bedrijfsinteracties met hen te verbeteren.
