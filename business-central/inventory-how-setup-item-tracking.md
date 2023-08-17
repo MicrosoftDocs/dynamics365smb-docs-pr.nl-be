@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: edupont
 ---
-# Artikeltracering instellen met serie-, lot- en pakketnummers
+# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Artikeltracering instellen met serie-, lot- en pakketnummers
 
 Houd voorraadartikelen bij, zelfs in complexe magazijnconfiguraties met nummers die specifiek zijn voor elk artikel, hetzij als afzonderlijk object, als lot of als pakket. Met artikeltracering kunt u artikelen traceren via interne magazijnverplaatsingen en uitgaande en inkomende documenten.
 
@@ -19,13 +19,13 @@ Artikelen met serie- en lotnummers kunnen voorwaarts en achterwaarts worden getr
 > [!TIP]
 > Schakel in releasewave 1 en later de functie-update *Tracering per pakketnummer gebruiken in reserverings- en traceringssysteem* in als u zowel met pakketnummers als serie- en lotnummers wilt werken. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](admin-feature-management.md). Zodra de functie is ingeschakeld, kunt u pakketnummers toewijzen aan uitgaande en inkomende documenten, net zoals u met lotnummers kunt werken.  
 
-## Aantallen en artikeltracering
+## <a name="numbers-and-item-tracking"></a>Aantallen en artikeltracering
 
 Als onderdeel van uw magazijnprocessen kunt u uw voorraad bundelen in pakketten, dozen, containers, enzovoort. Maar om de items bij te houden, kent u unieke nummers toe als identificatie. U vervaardigt en verkoopt bijvoorbeeld een stoel met artikelnummer *1900-S*. Elke individuele stoel heeft een serienummer, *1001*, maar u bundelt ook vier stoelen tot een lot, *LOT0001*, en u verzendt de stoelen in een container met het pakketnummer *CONTAINER010* dat ook andere artikelen omvat, zoals *LOT0100* met bijzettafels, en *LOT200* met lampen.  
 
 Afhankelijk van uw configuratie gebruikt u deze verschillende nummers om de voorraad bij te houden in [!INCLUDE [prod_short](includes/prod_short.md)] in de verschillende stadia van inkoop, verkoop, magazijnactiviteiten, enzovoort.
 
-## Artikeltraceringscodes instellen
+## <a name="to-set-up-item-tracking-codes"></a>Artikeltraceringscodes instellen
 
 Een artikeltraceringscode weerspiegelt de verschillende overwegingen die een bedrijf moet maken met betrekking tot het gebruik van serie- en lotnummers voor artikelen die in de voorraad worden verplaatst.  
 
@@ -42,7 +42,7 @@ Omdat dit bepaalde configuratieveld alle mogelijke artikeltransacties omvat, wor
 > [!NOTE]  
 > Om tijdens magazijnactiviteiten artikeltraceringsnummers toe te wijzen moeten de velden **Magazijnserienr.-tracering** en **Magazijnlottracering** zijn ingeschakeld op de bij het artikel horende artikeltraceringscodekaart.  
 
-## Vervalregels instellen voor serie- of lotnummers
+## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Vervalregels instellen voor serie- of lotnummers
 
 Voor sommige artikelen wilt u mogelijk bepaalde vervaldatums en regels instellen in de artikeltraceringscode. Met deze functie kunt u bijhouden wanneer bepaalde serie- of lotnummers vervallen.
 
@@ -56,7 +56,7 @@ Voor sommige artikelen wilt u mogelijk bepaalde vervaldatums en regels instellen
     |**Invoer van vervaldatum vereisen**|Hiermee wordt opgegeven dat u een vervaldatum op de artikeltraceringsregel moet invoeren.|  
     |**Vervaldatums gebruiken**|Hiermee wordt opgegeven dat u vervaldatums wilt berekenen. |  
 
-## Garanties instellen voor serie- of lotnummers
+## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Garanties instellen voor serie- of lotnummers
 
 Mogelijk wilt u voor bepaalde artikelen bepaalde garanties instellen in de artikeltraceringscode. Met deze functie kunt u bijhouden wanneer de garanties op bepaalde serie- en lotnummers in de voorraad verlopen.  
 
@@ -70,7 +70,7 @@ Mogelijk wilt u voor bepaalde artikelen bepaalde garanties instellen in de artik
     |**Invoer van garantiedatum vereisen**|Geeft aan dat u een garantiedatum op de artikeltraceringsregel handmatig moet invoeren.|  
 
 
-## Artikelen voor tracering instellen met de juiste artikeltraceringscodes
+## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>Artikelen voor tracering instellen met de juiste artikeltraceringscodes
 
 Om artikeltracering in te schakelen moet u eerst de artikeltraceringscodes aan een artikel toewijzen. Er zijn twee manieren om artikeltraceringscodes toe te voegen: door de code uit een vooraf gedefinieerde lijst te selecteren of door een nieuwe unieke code toe te wijzen. Wijs de velden aan om een korte omschrijving te lezen.
 
@@ -79,14 +79,14 @@ Om artikeltracering in te schakelen moet u eerst de artikeltraceringscodes aan e
 3. Wijs op het sneltabblad **Artikeltracering** de juiste artikeltraceringscodes toe en kies de **Artikeltraceringscode**, de **Serienrs.** en de **Lotnrs.**.
     1. Als alternatief kunt u ook een nieuwe artikeltraceringscode maken door de actie **Nieuw** te selecteren.
 
-## Beginsaldi opgeven voor de artikelen die u bijhoudt
+## <a name="to-specify-opening-balances-for-the-items-you-track"></a>Beginsaldi opgeven voor de artikelen die u bijhoudt
 
 U kunt beginsaldi maken voor de artikelen die u bijhoudt. Omdat u verschillende magazijnconfiguraties kunt kiezen, zijn er twee opties:
 
 * Schakel specifieke batches in op de pagina **Artikeldagboek** om mensen serie-, partij- en pakketgegevens rechtstreeks op dagboekregels te laten invoeren.
 * Voor vestigingen waar de schakelaar **Gestuurde opslag en pick** is ingeschakeld, gebruikt u de pagina **Magazijninventarisatiedagboek** om alle velden voor het volgen van artikelen beschikbaar te maken. De velden die beschikbaar zijn, zijn onder andere de **Garantiedatum** en **Vervaldatum**.
 
-### Artikeldagboeken 
+### <a name="item-journals"></a>Artikeldagboeken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies het veld **Naam** om een lijst met artikeldagboekbatches te openen.
@@ -98,7 +98,7 @@ U kunt beginsaldi maken voor de artikelen die u bijhoudt. Omdat u verschillende 
 > [!NOTE] 
 > [!INCLUDE [prod_short](includes/prod_short.md)] doet een paar kleine validaties wanneer u gegevens invoert of importeert. Een uitgebreidere controle vindt plaats wanneer u gegevens boekt of overboekt van dagboekregels naar het **venster Artikeltracering**. Dit laatste gebeurt automatisch wanneer u het **venster Artikeltracering** opent vanaf de artikeldagboekregel of als u de actie **Artikeltraceringsregels bijwerken**.
 
-### Magazijninventarisatiedagboek voor vestigingen waar gerichte pick en opslag is ingeschakeld  
+### <a name="warehouse-physical-inventory-journal-for-locations-where-directed-pick-and-put-away-is-turned-on"></a>Magazijninventarisatiedagboek voor vestigingen waar gerichte pick en opslag is ingeschakeld
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijninventarisatiedagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de velden op de artikeldagboekregel indien nodig in. Merk op dat de velden **Lotnr.**, **Serienummer.**, **Vervaldatum**, **Garantiedatum** en **Pakketnr.** beschikbaar zijn (als de functie is ingeschakeld).
@@ -109,9 +109,9 @@ Gebruik voor bulkimport configuratiepakketten om gegevens in de dagboeken te imp
 > [!NOTE]
 > U kunt **Bewerken in Excel** niet gebruiken om dagboekregels met trackinginformatie te maken.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/prepare-item-tracking/)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  
 [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)  

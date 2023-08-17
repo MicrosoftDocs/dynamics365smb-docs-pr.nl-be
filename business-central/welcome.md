@@ -9,7 +9,7 @@ ms.workload: na
 ms.date: 05/22/2023
 ms.author: jswymer
 ---
-# Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="welcome-to-"></a>Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is een oplossing voor bedrijfsbeheer voor kleine en middelgrote organisaties waarmee bedrijfsprocessen worden geautomatiseerd en gestroomlijnd, en waarmee u uw bedrijfsvoering kunt beheren. Met [!INCLUDE[prod_short](includes/prod_short.md)], dat in hoge mate aanpasbaar is en uitgebreide functies biedt, kunnen bedrijven hun bedrijfsvoering, waaronder financiën, productie, verkoop, verzending, projectmanagement, services en meer, beheren. Bedrijven kunnen op eenvoudige wijze functionaliteit toevoegen die relevant is voor het toepassingsgebied en die is aangepast om zelfs aan zeer gespecialiseerde sectoren ondersteuning te bieden. [!INCLUDE[prod_short](includes/prod_short.md)] is snel te implementeren, gemakkelijk te configureren en eenvoud is het leidende principe achter innovatie van productontwerp, ontwikkeling, implementatie en bruikbaarheid.  
 
@@ -22,7 +22,7 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] al hebt, meld u dan aan bij
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Microsoft Learn
+## <a name="microsoft-learn"></a>Microsoft Learn
 
 In het navigatiepaneel links vindt u informatie over het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)] in uw bedrijf. Vind koppelingen naar beschrijvingen van de meest gebruikte mogelijkheden in het gedeelte [Bedrijfsprocessen](#business-processes). Zie ook de sectie [Meet leren met behulp van de productdocumentatie](product-help-and-support.md#learn-more-using-the-product-documentation).
 
@@ -35,7 +35,7 @@ U kunt ook [onze videobibliotheek bezoeken](across-videos.md) of beginnen met he
 
 De volgende secties verwijzen naar belangrijke artikelen die u kunnen helpen vertrouwd te raken met [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Zakelijke processen
+## <a name="business-processes"></a>Zakelijke processen
 
 - [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
 - [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen
@@ -62,7 +62,7 @@ De volgende secties verwijzen naar belangrijke artikelen die u kunnen helpen ver
   - [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
   - [Lokale functionaliteit](about-localization.md)
 
-## Ontwikkeling- en beheerinhoud
+## <a name="development-and-administration-content"></a>Ontwikkeling- en beheerinhoud
 
 - [Ontwikkeling en beheer](/dynamics365/business-central/dev-itpro/index)
 - [Proefversies en abonnementen](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -70,13 +70,13 @@ De volgende secties verwijzen naar belangrijke artikelen die u kunnen helpen ver
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regels en richtlijnen voor AL-code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## Microsoft Learn-training
+## <a name="microsoft-learn-training"></a>Microsoft Learn-training
 
 U vindt gratis e-learning-inhoud voor [!INCLUDE[prod_short](includes/prod_short.md)] in [Microsoft Learn-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze videobibliotheek. Zie voor meer informatie [Bezoek onze videobibliotheek](across-videos.md).  
 
-## Communityresources
+## <a name="community-resources"></a>Communityresources
 
 - [Microsoft Dynamics 365 Business Central-communityforum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 - [Microsoft Dynamics 365 Business Central in het Dynamics 365-blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
@@ -84,13 +84,13 @@ U kunt ook video's van nieuwe en veelgebruikte mogelijkheden bekijken in onze vi
 - [Microsoft Dynamics 365 Business Central-routekaart](https://dynamics.microsoft.com/roadmap/business-central/)  
 - [Microsoft Partner Network \(vereist Microsoft Partner Network-lidmaatschapsaccount\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
 
-## Meldingen over wijzigingen ontvangen via een RSS-feed
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen via een RSS-feed
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## Zie gerelateerde [Microsoft Learn-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## <a name="see-related-microsoft-learn-training"></a>Zie gerelateerde [Microsoft Learn-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Dynamics 365 Business Central-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  

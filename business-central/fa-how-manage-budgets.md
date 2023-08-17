@@ -11,13 +11,13 @@ ms.search.form: '5610, 5611'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Budgetten voor vaste activa beheren.
+# <a name="manage-budgets-for-fixed-assets"></a>Budgetten voor vaste activa beheren.
 
 U kunt gebudgetteerde vaste activa instellen. Hiermee kunt u bijvoorbeeld verwachte aan- en verkopen opnemen in lijsten.  
 
 Als u de gebudgetteerde resultaten, de gebudgetteerde balans en het kasbudget wilt voorbereiden, hebt u informatie nodig over toekomstige investeringen, buitengebruikstellingen en afschrijvingen van vaste activa. U kunt deze informatie vinden in de lijst **Vast activum - Geschatte waarde**. Voordat u deze lijst afdrukt, moet u het budget voorbereiden.  
 
-## De aanschafkosten van een vast activum budgetteren
+## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>De aanschafkosten van een vast activum budgetteren
 
 U kunt een budget voorbereiden door kaarten in stellen voor de vaste activa die u in de toekomst wilt kopen. De gebudgetteerde vaste activa worden ingesteld als gewone vaste activa instellen, maar deze moeten zo worden ingesteld dat ze niet naar het grootboek worden geboekt.
 
@@ -28,7 +28,7 @@ Wanneer u de aanschafkosten boekt, voert u het nummer van het gebudgetteerde vas
 3. Schakel het selectievakje **Gebudgetteerd activum** in om boekingen naar het grootboek te voorkomen.
 4. Vul de overige velden in, wijs een afschrijvingsboek toe en boek vervolgens de eerste aanschafkosten met het gebudgetteerde vaste activum dat in het veld **VA-nr. (budget)** op de dagboekregel is ingevoerd Zie [Vaste activa aanschaffen](fa-how-acquire.md) voor meer informatie.
 
-## De buitengebruikstelling van een vast activum budgetteren
+## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>De buitengebruikstelling van een vast activum budgetteren
 
 Als u activa binnen de budgetperiode wilt verkopen, kunt u informatie over verkoopprijzen en -datums opgeven.
 
@@ -36,7 +36,7 @@ Als u activa binnen de budgetperiode wilt verkopen, kunt u informatie over verko
 2. Selecteer het vaste activum dat buiten gebruik moet worden gesteld en kies vervolgens de actie **Afschrijvingsboeken**.
 3. Op de pagina **VA-afschrijvingsboeken** vult u de velden **Verwachte BGS-datum** en **Verwachte opbrengst bij BGS** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Geschatte buitengebruikstellingswaarden bekijken
+## <a name="to-view-projected-disposal-values"></a>Geschatte buitengebruikstellingswaarden bekijken
 
 Als u de geschatte buitengebruikstellingswaarden wilt bekijken en verlies en winst wilt berekenen, kunt u het rapport **Geschatte waarde VA** gebruiken.
 
@@ -44,7 +44,7 @@ Als u de geschatte buitengebruikstellingswaarden wilt bekijken en verlies en win
 2. Vul indien nodig de velden in.
 3. Kies de knop **Afdrukken** of **Voorbeeld**.
 
-## Afschrijvingen budgetteren
+## <a name="to-budget-depreciation"></a>Afschrijvingen budgetteren
 
 U kunt het rapport **Vast activum - Geschatte waarde** gebruiken om toekomstige afschrijving te berekenen. Het rapport laat de boekwaarde en gecumuleerde afschrijving aan het begin van de geselecteerde periode zien, wijzigingen gedurende de periode en de boekwaarde en gecumuleerde afschrijving aan het eind van de geselecteerde periode.
 
@@ -54,9 +54,9 @@ U kunt het rapport **Vast activum - Geschatte waarde** gebruiken om toekomstige 
 4. Laat het sneltabblad **Vast activum** leeg, zodat alle activa in de lijst worden opgenomen. Stel het veld **Alleen budget** in op **Nee** om gebudgetteerde activa uit te sluiten, of stel het veld in op **Ja** om alleen gebudgetteerde activa te zien.
 5. Kies de knop **Afdrukken** of **Voorbeeld**.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/budget-fixed-assets/)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
