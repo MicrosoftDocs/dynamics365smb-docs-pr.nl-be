@@ -116,12 +116,31 @@ Wanneer u met het **Intrastat-rapport** werkt ziet u een veld **Status** in de d
 * *Vrijgegeven*: [!INCLUDE[prod_short](includes/prod_short.md)] verandert de status automatisch in *Vrijgegeven* wanneer u een bestand aanmaakt. Vanaf dat moment kunt u uw **Intrastat-rapport** wijzigen. Als u iets moet wijzigen en opnieuw moet rapporteren, kunt u de actie **Heropenen** gebruiken om het Intrastat-rapport opnieuw te openen. Zodra het document opnieuw is geopend, kunt u de actie **Vrijgeven** gebruiken om het document weer vrij te geven.
 * **Gerapporteerd**: hiermee wordt aangegeven of de post al is gemeld bij de belastingdienst. Dit is geen normale status maar een onafhankelijk veld, en zelfs als u het Intrastat-rapport opnieuw zou openen, zou het nog steeds aangeven dat het bestand al is aangemaakt voor dit rapport.
 
+### Driehoekshandel in intrastat
+
+Bij driehoekshandel gaat het om handel tussen drie landen of regio's waarbij goederen het land van het rapporterende bedrijf omzeilen. In Business Central kan dit worden gefaciliteerd via de functionaliteit [Doorverzending](sales-how-drop-shipment.md). Om deze optie in te schakelen, activeert u het veld **Doorverzending opnemen** in de **Intrastat-rapportinstellingen**.  
+
+Wanneer u deze optie inschakelt, gebruikt het systeem de volgende regels, maar alleen als u de **doorverzending** hebt gemarkeerd in de **verkooporder**: 
+
+| Ontvangen van | Leveren aan | Verwacht Intrastat-resultaat |
+|----------|------------|----------------------|
+| Land als in de **bedrijfsgegevens** | Land als in de **bedrijfsgegevens** | Geen Intrastat-regels |  
+| Land als in de **bedrijfsgegevens** | EU-land anders dan het land in de **bedrijfsgegevens** | Intrastat-verzendregel | 
+| Land als in de **bedrijfsgegevens** | Niet-EU-land | Geen Intrastat-regels |   
+| EU-land anders dan het land in de **bedrijfsgegevens** | Land als in de **bedrijfsgegevens** | Intrastat-ontvangstregel | 
+| EU-land anders dan het land in de **bedrijfsgegevens** | EU-land anders dan het land in de **bedrijfsgegevens** | Geen Intrastat-regels |
+| EU-land anders dan het land in de **bedrijfsgegevens** | Niet-EU-land | Geen Intrastat-regels | 
+| Niet-EU-land | Land als in de **bedrijfsgegevens** | Geen Intrastat-regels |  
+| Niet-EU-land | EU-land anders dan het land in de **bedrijfsgegevens** | Geen Intrastat-regels |
+| Niet-EU-land | Niet-EU-land | Geen Intrastat-regels |   
+
 ## Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Zie ook
 
 [Intrastat-rapportage instellen](finance-how-setup-report-intrastat.md)  
 [Financieel beheer](finance.md)  
+[Doorverzending](sales-how-drop-shipment.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
