@@ -10,7 +10,7 @@ ms.search.keywords: 'design, inventory, item, tracking, serial number, lot numbe
 ms.date: 06/15/2021
 ms.author: bholtorf
 ---
-# Ontwerpdetails: Pagina Artikeltraceringsregels
+# <a name="design-details-item-tracking-lines-page"></a>Ontwerpdetails: Pagina Artikeltraceringsregels
 Artikeltraceringsrecords en reserveringsrecords worden gemaakt in het reserveringsysteem en hun beschikbaarheid wordt dynamisch berekend. Gegevens die op de pagina **Artikeltraceringsregels** worden ingevoerd, worden beheerd in een tijdelijke versie van de tabel **Traceringsspecificatie**. Wanneer de pagina is gesloten, worden de actieve gegevens vastgelegd in de tabel **Reserveringspost** en worden de historische gegevens vastgelegd in de tabel **Traceringsspecificatie**. Zie voor meer informatie [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md).  
   
 Opzoekacties vanuit de velden **Serienr.** en **Partijnr.** tonen beschikbaarheid op basis van zowel de tabel **Artikelpost** als de tabel **Reserveringspost**, zonder datumfilter. De matrix van aantalvelden op de kop van de pagina **Artikeltraceringsregels** geeft een dynamische weergave van de aantallen en totalen van artikeltraceringsnummers die op de regels van de pagina worden ingevoerd. De aantallen moeten overeenkomen met de waarden op de documentregel, wat wordt aangegeven door de **0** in de **Niet gedefinieerd**-velden in de koptekst van de pagina .  
@@ -23,7 +23,7 @@ Voor het coördineren van de stroom serie- en lotnummers door de voorraad bestaa
   
 De regels voor het invoeren van gegevens op de pagina **Artikeltraceringsregels** ondersteunen ook de koppelingsprincipes waarop ordertracering, planning en reservering zijn gebaseerd. Zie voor meer informatie [Ontwerpdetails: Artikeltracering en planning](design-details-item-tracking-and-planning.md).  
   
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Procedure: de Shopify Connector instellen en gebruiken
+# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Procedure: de Shopify Connector instellen en gebruiken
 
 Dit gedeelte demonstreert enkele typische scenario's en leidt u door de stappen om gebruikers te testen of te trainen in de werkstroom van de geïntegreerde [!INCLUDE[prod_short](../includes/prod_short.md)] en de Shopify-winkel.
 
-## Vereisten 
+## <a name="prerequisites"></a>Vereisten
 
-### Shopify
+### <a name="shopify"></a>Shopify
 
 U moet over het volgende beschikken:
 
@@ -25,13 +25,13 @@ U moet over het volgende beschikken:
 
 Meer informatie over het maken van Shopify-proefversies en aanbevolen instellingen vindt u op [Shopify-account maken en instellen](shopify-account.md).
 
-### Business Central
+### <a name="business-central"></a>Business Central
 
 U hebt een [!INCLUDE[prod_short](../includes/prod_short.md)]-account nodig. 
 
 U kunt bijvoorbeeld een demo-account maken of een proefversie starten. Lees hier meer over [Demonstratieomgevingen voorbereiden van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) en [Aanmelden voor de proefperiode](../trial-signup.md). 
 
-## Business Central verbinden met de online Shopify-winkel
+## <a name="connect-business-central-to-the-shopify-shop"></a>Business Central verbinden met de online Shopify-winkel
 
 Ga in [!INCLUDE[prod_short](../includes/prod_short.md)] op een van de volgende manieren te werk:
 
@@ -62,13 +62,13 @@ Locatietoewijzing configureren:
 3. Voer in het **Vestigingsfilter** `''|EAST|MAIN` in.
 4. Zet de schakelaar **Uitgeschakeld** uit om voorraadsynchronisatie in te schakelen voor de geselecteerde Shopify-vestiging.
 
-## Procedure: begin met het online verkopen van producten
+## <a name="walkthrough-start-selling-products-online"></a>Procedure: begin met het online verkopen van producten
 
-### Scenario
+### <a name="scenario"></a>Scenario
 
 Stel dat u Shopify als online winkel wilt proberen zonder veel tijd te besteden aan het opzetten van dingen, vooral omdat u uw artikelen al goed in [!INCLUDE[prod_short](../includes/prod_short.md)] onderhoudt. Nadat u uw online Shopify-winkel hebt gestart, krijgt u meteen nieuwe klanten die blij zijn met uw winkel en hun koopervaring. Dus besluiten ze om fooien te geven bij het afrekenen.
 
-### Stappen
+### <a name="steps"></a>Stappen
 
 Doorloop in [!INCLUDE[prod_short](../includes/prod_short.md)] de volgende stappen:
 
@@ -130,13 +130,13 @@ Nu worden fysieke en financiële gegevens geregistreerd [!INCLUDE[prod_short](..
 
 U ziet in **Shopify-beheer** dat de order nu is gemarkeerd als *Afgehandeld*. U kunt daar ook de verzendgegevens bekijken en de tracerings-URL zien. Als u **Orders synchroniseren vanuit Shopify** opnieuw uitvoert, wordt de order in beide systemen gearchiveerd.
 
-## Procedure: Nodig uw klanten uit voor uw nieuwe online winkel
+## <a name="walkthrough-invite-your-customers-to-your-new-online-store"></a>Procedure: Nodig uw klanten uit voor uw nieuwe online winkel
 
-### Scenario
+### <a name="scenario-1"></a>Scenario
 
 Na een succesvolle snelle opening van uw nieuwe online winkel, wilt u dat uw huidige klanten deze bezoeken en beginnen met het plaatsen van orders.
 
-### Stappen
+### <a name="steps-1"></a>Stappen
 
 Ga in [!INCLUDE[prod_short](../includes/prod_short.md)] op een van de volgende manieren te werk:
 
@@ -146,13 +146,13 @@ Ga in [!INCLUDE[prod_short](../includes/prod_short.md)] op een van de volgende m
 
 U ziet in **Shopify-beheer** dat de klanten zijn geïmporteerd. Open een van de klanten en zie dat de voor- en achternaam van de klant afkomstig zijn uit het veld **Contactnaam** van de **Klantenkaart**. De bedrijfsnaam is terug te vinden in het standaardadres, gekoppeld aan de klant. Kies **Accountuitnodiging verzenden** om de klant uit te nodigen.
 
-## Procedure: Artikelbeheer fijn afstemmen
+## <a name="walkthrough-fine-tuning-of-item-management"></a>Procedure: Artikelbeheer fijn afstemmen
 
-### Scenario 
+### <a name="scenario-2"></a>Scenario
 
 U wilt graag meer flexibiliteit en controle toevoegen aan uw processen rondom artikelbeheer. U wilt de productbeschrijving verbeteren en meer beoordelingsstappen toevoegen voordat producten beschikbaar komen voor de eindklant.
 
-### Stappen
+### <a name="steps-2"></a>Stappen
 
 Ga in [!INCLUDE[prod_short](../includes/prod_short.md)] op een van de volgende manieren te werk:
 
@@ -239,19 +239,19 @@ Merk op dat de voorraad voor ANTWERP Conference Table 100 is, omdat we het syste
 
 Open in de **online Shopify-winkel** de productcatalogus en zoek het product *ATHENS Desk*. Merk op dat er verschillende opties beschikbaar zijn. Voor verschillende opties zijn de prijzen verschillend. Let op kortingsinformatie.
 
-## Procedure: Artikelen importeren uit Shopify
+## <a name="walkthrough-import-items-from-shopify"></a>Procedure: Artikelen importeren uit Shopify
 
-### Scenario 
+### <a name="scenario-3"></a>Scenario
 
 U hebt al een succesvolle online winkel en wilt [!INCLUDE[prod_short](../includes/prod_short.md)] gebruiken als software voor bedrijfsbeheer. U wilt zoveel mogelijk gegevens importeren uit Shopify als mogelijk. 
 
-### Stappen
+### <a name="steps-3"></a>Stappen
 
 Dit is een voortzetting van [Procedure: begin met het online verkopen van producten](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). U kunt het ook proberen met uw eigen gegevens, bijvoorbeeld uw Shopify-winkel of sandbox.
 
 Ga in [!INCLUDE[prod_short](../includes/prod_short.md)] op een van de volgende manieren te werk:
 
-#### Gegevens voorbereiden
+#### <a name="prepare-data"></a>Gegevens voorbereiden
 
 1. Schakel over naar een gratis proefperiode van 30 dagen zonder voorbeeldgegevens. Zie voor meer informatie [Uw eigen gegevens toevoegen aan een lege proefversie](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkels** in en kies vervolgens de gerelateerde koppeling.
@@ -274,7 +274,7 @@ Configureer de Shopify-winkel zoals hieronder beschreven in de volgende stappen:
 16. Vul de **Rekening voor verzendkosten** en de **Fooienrekening** in met de opbrengstrekening. Gebruik in de VS bijvoorbeeld `40100`.
 17. Zet de schakelaar **Automatisch orders maken** aan.
 
-#### De synchronisatie uitvoeren
+#### <a name="run-the-synchronization"></a>De synchronisatie uitvoeren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkels** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de *DEMO2*-winkel waarvoor u gegevens wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
@@ -282,7 +282,7 @@ Configureer de Shopify-winkel zoals hieronder beschreven in de volgende stappen:
 4. Kies de actie **Productafbeeldingen synchroniseren**.
 5. Kies de actie **Klanten synchroniseren**.
 
-### Resultaten
+### <a name="results"></a>Resultaten
 
 * Shopify-producten worden geïmporteerd. Kies ter verificatie het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-producten** in en kies de gerelateerde koppeling.
 * Artikelen met afbeeldingen worden gemaakt. Kies ter verificatie het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikel** in en kies de gerelateerde koppeling.
@@ -290,6 +290,6 @@ Configureer de Shopify-winkel zoals hieronder beschreven in de volgende stappen:
 * Er worden klanten gemaakt. Kies ter verificatie het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies de gerelateerde koppeling.
 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Aan de slag met de Shopify-connector](get-started.md)  

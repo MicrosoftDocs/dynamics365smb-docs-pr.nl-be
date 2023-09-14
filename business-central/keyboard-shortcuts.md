@@ -90,7 +90,7 @@ De volgende tabel beschrijft de sneltoetsen die u op een lijstpagina kunt gebrui
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Voorgestelde regels op de pagina met cashflowvoorstellen verzenden.|Niet van toepassing.|
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Serienummers en lotnummers weergeven of bewerken die zijn toegewezen aan het regelartikel in het document of dagboek.|Niet van toepassing.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigeren tussen rijen en kolommen
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigeren tussen rijen en kolommen
 
 Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rasters met rijen en kolommen, zoals lijstpagina's en **Regels**-onderdelen in documenten. Het verplaatsen van de ene cel naar de andere over een raster is volledig toetsenbordcompatibel.
 
@@ -111,7 +111,7 @@ Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rast
 | <kbd>Tab</kbd> | In een bewerkbare lijst in dezelfde rij naar het volgende veld naar rechts gaan. | Niet van toepassing. | 
 | <kbd>Shift</kbd>+<kbd>Tab</kbd> | In een bewerkbare lijst in dezelfde rij naar het vorige veld naar links gaan. | Niet van toepassing. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Selecteren, kopiëren en plakken
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Selecteren, kopiëren en plakken
 
 |Selecteer deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rast
 |<kbd>Shift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Shift</kbd>+<kbd>Fn</kbd>+<kbd>Pijl omhoog</kbd>)|De selectie van rijen uitbreiden en alle zichtbare rijen onder de huidige selectie van rijen toevoegen.|Niet van toepassing.|
 |<kbd>F8</kbd>|Het veld kopiëren in dezelfde kolom van de rij erboven en het in de huidige rij plakken. U kunt dit alleen doen in bewerkbare lijsten. Gebruik deze sneltoets gevolgd door een <kbd>Tab</kbd> om snel velden te vullen in regelartikelen die u dezelfde waarde wilt geven als de rij erboven.|Niet van toepassing.|
 
-### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Lijsten doorzoeken en filteren
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Lijsten doorzoeken en filteren
 
 |Selecteer deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
