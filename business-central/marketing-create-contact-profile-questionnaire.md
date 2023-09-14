@@ -1,18 +1,18 @@
 ---
 title: Profielen gebruiken om contacten te classificeren
 description: Lees over het instellen van profielvragenlijsten om de profielen van uw zakelijke contacten te classificeren.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'contacts, profiles'
 ms.search.form: '5109, 5110'
-ms.author: edupont
+ms.author: bholtorf
 ms.date: 05/20/2022
 ---
 
-# <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren
+# Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren
 
 U kunt een prospect classificeren, zodat u kunt vaststellen op welke prospect u uw verkoopcampagne het best kunt richten. U kunt profielvragenlijsten instellen die u wilt gebruiken wanneer u gegevens voor de profielen van de contacten invoert. Binnen elke vragenlijst kunt u de verschillende vragen instellen die u aan uw contacten wilt stellen. Op deze manier kunt u contacten groeperen zodat uw campagnes eerder de juiste mensen targeten op basis van de criteria die u definieert met de vragenlijsten.  
 
@@ -20,13 +20,13 @@ Met de juiste vragenlijsten kunt u uw prospects classificeren en in categorieën
 
 U kunt ook de vragenlijst uitvoeren om automatisch een aantal vragen te beantwoorden op basis van de contact-, klant- of leveranciersgegevens.  
 
-## <a name="to-add-a-profile-questionnaire"></a>Een profielvragenlijst toevoegen
+## Een profielvragenlijst toevoegen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Profielvragenlijstinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-add-questions-to-a-profile-questionnaire"></a>Vragen toevoegen aan een profielvragenlijst
+## Vragen toevoegen aan een profielvragenlijst
 
 1. Kies de desbetreffende profielvragenlijst en kies de actie **Instelling van vragenlijst bewerken**.  
 2. Kies op de eerste lege regel in het veld **Soort** de optie **Vraag**, en typ vervolgens uw vraag in het veld **Omschrijving**. Vul de overige velden op de regel in.  
@@ -61,11 +61,11 @@ Nadat u een vragenlijst hebt gemaakt, moet u beoordelingen maken om uw contacten
 > [!NOTE]
 > Als u een automatisch te beantwoorden vraag invoert, klikt u op **Regel** en kiest u vervolgens **Vraagdetails** om de criteria in te voeren voor het beantwoorden van de vraag.
 
-## <a name="apply-questionnaires-to-contacts"></a>Vragenlijsten toepassen op contacten
+## Vragenlijsten toepassen op contacten
 
 U kunt uw vragenlijsten handmatig toepassen op contacten. Open de desbetreffende contactkaart en kies de actie **Profiel**. Nadat u de vragenlijsten heeft toegepast die u wilt toepassen, kunt u de categorieën in uw campagnes gaan gebruiken.  
 
-## <a name="the-automatic-classification-of-contacts"></a>De automatische classificatie van contactpersonen
+## De automatische classificatie van contactpersonen
 
 U kunt de contacten automatisch indelen op basis van klant-, leveranciers- en contactgegevens, door automatisch beantwoorde profielvragen in te stellen op de pagina **Profielvragenlijstinstellingen**.  
 
@@ -74,7 +74,7 @@ U kunt de contacten automatisch indelen op basis van klant-, leveranciers- en co
 
 Nadat u de automatisch beantwoorde profielvragen hebt ingesteld en als u de profielvragenlijst met deze vragen aan een contact toewijst, worden de juiste antwoorden voor het contact automatisch door [!INCLUDE[prod_short](includes/prod_short.md)] toegewezen.  
 
-## <a name="example"></a>Opmerking
+## Opmerking
 
 U kunt de contacten indelen op basis van de aantallen die ze bij u hebben gekocht:
 
@@ -102,7 +102,7 @@ Vul vervolgens de pagina **Profielvraagdetails** als volgt in:
 
 Wanneer u de profielvragenlijst met deze vraag aan een contact toewijst, wordt het relevante antwoord voor dit contact automatisch ingevoerd op de profielregels van de contactkaart.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Contacten maken](marketing-create-contact-companies.md)  
 

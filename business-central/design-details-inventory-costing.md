@@ -1,7 +1,7 @@
 ---
 title: Ontwerpdetails - Voorraadwaardering
 description: Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Ontwerpdetails: Voorraadwaardering
+# Ontwerpdetails: Voorraadwaardering
 
 Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Voorraadwaardering, ook wel kostenbeheer genoemd, heeft betrekking op het vastleggen en rapporteren van operationele bedrijfskosten.  
 
-## <a name="in-this-section"></a>In dit gedeelte
+## In dit gedeelte
 
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  

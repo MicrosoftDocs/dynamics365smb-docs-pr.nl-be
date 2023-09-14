@@ -1,20 +1,20 @@
 ---
 title: Capaciteit boeken
 description: Boek verbruikte capaciteiten die niet zijn toegewezen aan de productieorder in het capaciteitsjournaal en bekijk geboekte capaciteiten op de pagina met capaciteitsposten.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5832, 99000802, 99000820'
 ms.date: 03/08/2023
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="post-capacities"></a>Capaciteit boeken
+# Capaciteit boeken
 
 In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegewezen aan de productieorder. Onderhoudswerk moet bijvoorbeeld worden toegewezen aan capaciteit, maar niet aan een productieorder.  
 
-## <a name="to-post-capacities"></a>Capaciteit boeken
+## Capaciteit boeken  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Capaciteitsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden **Boekingsdatum** en **Documentnr.** in.  
@@ -25,7 +25,7 @@ In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegeweze
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-work-center-ledger-entries"></a>Afdelingsposten weergeven
+## Afdelingsposten weergeven  
 
 Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de geboekte capaciteit als gevolg van gereedgemelde productieorders bekijken.    
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.  
@@ -33,7 +33,7 @@ Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de geboekte capacitei
 
     De pagina **Capaciteitsposten** bevat de geboekte posten van de afdeling, in de volgorde waarin deze zijn geboekt.   
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Productie](production-manage-manufacturing.md)  
 [Productie instellen](production-configure-production-processes.md)  

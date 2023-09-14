@@ -1,7 +1,7 @@
 ---
 title: Bankrekeningen reconciliëren en betalingen vereffenen
 description: 'Schetst taken om uw bank-, tegoeden- en schuldenrekeningen te reconciliëren, kasontvangsten of onkosten te boeken en betalingen automatisch te vereffenen.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1291, 1293, 1294'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Betalingen automatisch vereffenen en bankrekeningen reconciliëren
+# Betalingen automatisch vereffenen en bankrekeningen reconciliëren
 U moet regelmatig uw bankrekening en de rekeningen met tegoeden en betalingsverplichtingen reconciliëren, door betalingen die op de bank zijn vastgelegd te vereffenen met de gerelateerde openstaande (onbetaalde) facturen en creditnota's of andere openstaande posten in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 U kunt deze taak op de pagina **Dagboek betalingsreconciliatie** uitvoeren door bijvoorbeeld een bankafschriftbestand of -feed te importeren om de betalingen snel in project te registreren. Betalingen worden vereffend met openstaande leveranciers- of klantenposten, op basis van overeenkomsten tussen de betalingtekst en de informatie in de posten. U kunt automatische vereffeningen controleren en wijzigen voordat u het dagboek boekt. U kunt ervoor kiezen om openstaande bankrekeningposten met betrekking tot de vereffende posten te sluiten wanneer u het dagboek boekt. De bankrekening wordt automatisch gereconcilieerd wanneer alle betalingen worden vereffend.
@@ -37,9 +37,9 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 | Koppel tekst op betalingen aan specifieke klant-, leverancier- of grootboekrekeningen om periodieke ontvangsten of kosten altijd naar deze rekeningen te boeken als er geen documenten zijn voor vereffening. |[Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Stel de regels in die bepalen hoe betalingen/banktransacties automatisch moeten worden vereffend met de gerelateerde openstaande dagboekposten wanneer u de functie **Automatisch vereffenen** gebruikt in het venster **Betalingsreconciliatiedagboek**.|[Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/use-journals-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/use-journals-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Bankrekeningen afstemmen](bank-how-reconcile-bank-accounts-separately.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  

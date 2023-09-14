@@ -1,16 +1,16 @@
 ---
 title: Productieagenda's instellen
 description: 'Het maken en inschakelen van een afdelingskalender omvat verschillende taken, waaronder het opzetten van productieagenda''s en het maken van ploegendiensten.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-shop-calendars"></a>Productieagenda's instellen
+# Productieagenda's instellen
 
 Een afdelings- of bewerkingsplaatsagenda bevat de werkdagen en -tijden, de diensten, vakanties en afwezigheid die bepalend zijn voor de brutocapaciteit, gemeten in tijd, van de afdeling op basis van de gedefinieerde efficiëntie- en capaciteitswaarden.
 
@@ -18,7 +18,7 @@ Voordat een bepaalde afdelings- of bewerkingsplaatsagenda kan worden berekend, m
 
 Hier wordt beschreven hoe u afdelingsagenda's instelt. Voor het instellen van bewerkingsplaatsagenda's zijn de stappen vergelijkbaar.  
 
-## <a name="to-create-work-shifts"></a>Ploegen maken
+## Ploegen maken  
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Ploegen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Geef op een lege regel in het veld **Code** een nummer op om de ploeg aan te duiden, bijvoorbeeld **1**.  
 3.  Geef een omschrijving voor de ploeg in het veld **Omschrijving**, bijvoorbeeld **Vroege ploeg**.  
@@ -26,7 +26,7 @@ Hier wordt beschreven hoe u afdelingsagenda's instelt. Voor het instellen van be
 
 Ook als de afdeling niet met ploegen werkt, moet er toch minstens één ploegcode worden opgegeven.  
 
-## <a name="to-set-up-a-shop-calendar"></a>Een productieagenda instellen
+## Een productieagenda instellen  
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Productieagenda's** in en kies vervolgens de gerelateerde koppeling.  
 2.  Geef op een lege regel in het veld **Code** een nummer op ter aanduiding van de productieagenda.  
 3.  Beschrijf de productieagenda in het veld **Omschrijving**.  
@@ -60,7 +60,7 @@ De gedefinieerde vakantiedagen hebben in een afdelingsagenda een beschikbare cap
 
 Nu kan de productieagenda worden toegewezen aan een afdeling om de afdelingsagenda te berekenen waarop de volledige tijdsplanning van alle bewerkingen op die afdeling wordt gebaseerd.  
 
-## <a name="to-calculate-a-work-center-calendar"></a>Een afdelingsagenda berekenen
+## Een afdelingsagenda berekenen  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de afdeling die u wilt bijwerken.  
@@ -88,7 +88,7 @@ Er zijn nu agendaposten gemaakt (of bijgewerkt) waarin de beschikbare capaciteit
 
 De berekende afdelingsagenda bepaalt nu wanneer en hoe veel capaciteit beschikbaar is op deze afdeling. Hiermee bepaalt u de gedetailleerde planning van bewerkingen die worden uitgevoerd op de afdeling.  
 
-## <a name="to-record-work-center-absence"></a>Afwezigheid op de afdeling registreren
+## Afwezigheid op de afdeling registreren  
 1.  Kies op de pagina **Afdelingsagenda** de actie **Matrix weergeven**.
 2. Selecteer op de pagina **Afdelingsagendamatrix** de afdeling en de agendadag waarop de afwezigheid moet worden geregistreerd en kies vervolgens de actie **Afwezigheid**.  
 3.  Definieer op de pagina **Afwezigheid** de begintijd, de eindtijd en de omschrijving van de afwezigheid van die dag, bijvoorbeeld: Voorbeeld:  
@@ -99,7 +99,7 @@ De berekende afdelingsagenda bepaalt nu wanneer en hoe veel capaciteit beschikba
 
 De geregistreerde afwezigheid is nu in mindering gebracht op de capaciteit van de geselecteerde dag.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Basisagenda's instellen](across-how-to-assign-base-calendars.md)  
 [Afdelingen en bewerkingsplaatsen instellen](production-how-to-set-up-work-and-machine-centers.md)  
 [Productie instellen](production-configure-production-processes.md)  

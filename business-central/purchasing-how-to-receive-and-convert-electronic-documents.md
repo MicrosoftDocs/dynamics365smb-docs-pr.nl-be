@@ -1,7 +1,7 @@
 ---
 title: Elektronische documenten ontvangen en converteren
 description: Dit onderwerp beschrijft hoe u elektronische documenten rechtstreeks van handelspartners of via een OCR-service ontvangt.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Elektronische documenten ontvangen en converteren
+# Elektronische documenten ontvangen en converteren
 
 De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt het ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Als u bijvoorbeeld een factuur van een leverancier wilt ontvangen als elektronisch PEPPOL-document, verwerkt u het document op de pagina Inkomende documenten om het te converteren naar een inkoopfactuur of dagboekregel in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -34,7 +34,7 @@ U kunt de conversie van elektronische documenten handmatig starten, zoals in dez
 
 In de volgende procedure wordt beschreven hoe u een leveranciersfactuur ontvangt en converteert naar een inkooporder in [!INCLUDE[prod_short](includes/prod_short.md)]. Dezelfde procedure geldt wanneer u een leveranciersfactuur converteert naar een dagboekregel.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Een elektronische factuur ontvangen en converteren naar een inkoopfactuur
+### Een elektronische factuur ontvangen en converteren naar een inkoopfactuur
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkomende documenten** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -52,9 +52,9 @@ In de volgende procedure wordt beschreven hoe u een leveranciersfactuur ontvangt
 
     Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende hoofdgegevens in [!INCLUDE[prod_short](includes/prod_short.md)], worden weergegeven op het sneltabblad **Foutmeldingen**.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkomende documenten](across-income-documents.md)  

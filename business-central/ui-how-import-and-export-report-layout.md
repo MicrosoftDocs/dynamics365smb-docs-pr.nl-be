@@ -1,16 +1,16 @@
 ---
 title: Een rapport- of documentindeling importeren en exporteren
 description: U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een bestand van en naar een locatie op uw computer of in uw netwerk.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a>(verouderd) Aangepaste rapportlay-outs importeren en exporteren
+# (verouderd) Aangepaste rapportlay-outs importeren en exporteren
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -19,7 +19,7 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 > [!IMPORTANT]  
 >  U kunt geen ingebouwde rapportlay-outs importeren of exporteren.  
 
-### <a name="to-export-a-report-layout-to-a-file"></a>Een rapportlay-out exporteren naar een bestand
+### Een rapportlay-out exporteren naar een bestand  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -29,7 +29,7 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
 4.  Kies in het dialoogvenster **Bestand exporteren** de knop **Opslaan** en sla het bestand op een locatie op uw computer of in uw netwerk op.  
 
-### <a name="to-import-a-report-layout-file"></a>Een rapportlay-outbestand importeren uit een bestand
+### Een rapportlay-outbestand importeren uit een bestand  
 
 1.  Zorg ervoor dat het relevante bestand dat de rapportlay-out definieert, beschikbaar is op uw computer of in uw netwerk.  
 
@@ -45,9 +45,9 @@ U kunt een bestaande aangepaste rapportlay-out importeren en exporteren als een 
 
  De oorspronkelijke aangepaste rapportlay-out wordt vervangen door de geïmporteerde rapportlay-out.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
+## Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Een aangepaste lay-out voor een rapport maken en wijzigen](ui-how-create-custom-report-layout.md)   
 [Rapport- en documentlay-outs beheren](ui-manage-report-layouts.md)  

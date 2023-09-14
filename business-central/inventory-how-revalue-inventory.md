@@ -2,7 +2,7 @@
 title: Nieuwe waardeposten maken voor artikelen in de voorraad| Microsoft Docs
 description: 'Beschrijft hoe u de waardeposten vermeerdert of vermindert van een of meer artikelen in voorraad door de huidige, berekende waarde ervan te boeken.'
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: 'costing, inventory cost, value entries'
 ms.search.forms: '5803,'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="revalue-inventory"></a>Voorraad herwaarderen
+# Voorraad herwaarderen
 Gebruik het herwaarderingsdagboek als u de voorraadwaarde van een artikel of een bepaalde artikelpost wilt vermeerderen of verminderen.
 
-## <a name="to-revalue-inventory"></a>Voorraad herwaarderen
+## Voorraad herwaarderen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Herwaarderingsdagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Voorraadwaarde berekenen**.
 3. Vul op de pagina **Voorraadwaarde berekenen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -27,7 +27,7 @@ Gebruik het herwaarderingsdagboek als u de voorraadwaarde van een artikel of een
 
 Nieuwe waardeposten worden nu gemaakt om de herwaarderingen weer te geven die u hebt geboekt. U kunt de nieuwe waarden op de desbetreffende artikelkaarten bekijken.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Ontwerpdetails: Herwaardering](design-details-revaluation.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Verkoop](sales-manage-sales.md)  

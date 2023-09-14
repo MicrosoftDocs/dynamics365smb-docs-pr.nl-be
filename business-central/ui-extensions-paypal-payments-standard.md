@@ -1,7 +1,7 @@
 ---
 title: De extensie PayPal Payments Standard gebruiken
 description: Dit onderwerp beschrijft hoe u de standaardextensie gebruikt om klanten de mogelijkheid te bieden betalingen te doen met PayPal.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>De extensie PayPal Payments Standard
+# De extensie PayPal Payments Standard
 
 Klanten stellen steeds meer eisen aan de klantenservice, zowel met betrekking tot productkwaliteit als met betrekking tot betalings- en leveringsmogelijkheden. De service PayPal Payments Standard helpt u uw klantenservice te verbeteren.
 
@@ -29,7 +29,7 @@ De service PayPal Payments Standard biedt de volgende voordelen:
 
 Zie [Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  

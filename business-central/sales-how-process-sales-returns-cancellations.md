@@ -1,7 +1,7 @@
 ---
 title: Verkoopretouren of annuleringen verwerken
 description: 'Beschrijft hoe u een verkoopcreditnota maakt om een retour, een annulering of terugbetaling te verwerken voor artikelen of diensten waarvoor u betaling hebt ontvangen.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="process-sales-returns-or-cancellations"></a>Verkoopretouren of annuleringen verwerken
+# Verkoopretouren of annuleringen verwerken
 
 Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Om de juiste verkoopfactuurgegevens op te nemen kunt u het volgende doen:  
 
@@ -30,7 +30,7 @@ De creditnotaboeking draait ook eventuele artikeltoeslagen terug die aan het geb
 > [!NOTE]
 > De boekhoudkundige aspecten van verkoopretouren, zoals de betalingen aan klanten als terugbetaling, worden beschouwd als boekhoudkundig werk en worden hier niet beschreven. Zie [Betalingsverplichtingen beheren](payables-manage-payables.md) voor meer informatie.
 
-## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Een verkoopcreditnota maken op basis van een geboekte verkoopfactuur
+## Een verkoopcreditnota maken op basis van een geboekte verkoopfactuur  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Geboekte verkoopfacturen** de geboekte verkoopfactuur die u wilt tegenboeken, kies de actie **Annuleren** en kies vervolgens de actie **Corrigerende creditnota maken**.
@@ -53,7 +53,7 @@ Het dialoogvenster **Boeken en verzenden bevestigen** wordt geopend met de gepre
 
 De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu tegengeboekt en een terugbetaling kan worden gemaakt voor de klant. De verkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de lijst met geboekte verkoopcreditnota's.
 
-## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Een verkoopcreditnota maken door een geboekte verkoopfactuur te kopiëren
+## Een verkoopcreditnota maken door een geboekte verkoopfactuur te kopiëren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopcreditnota's** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** om een nieuwe lege verkoopcreditnota te openen.
@@ -65,7 +65,7 @@ De geboekte verkoopdocumenten die u op de creditnota hebt vereffend, worden nu t
 8. Kies de knop **Ok**. De gekopieerde factuurregels worden ingevoegd in de kredietnota van de verkoop.
 9. Voltooi de verkoopcreditnota zoals is uitgelegd in [Een verkoopcreditnota maken op basis van een geboekte verkoopfactuur](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## <a name="to-create-a-sales-allowance"></a>Een verkoopprijskorting maken
+## Een verkoopprijskorting maken
 U kunt een klant een creditnota sturen met een korting omdat de klant de artikelen bijvoorbeeld met lichte beschadigingen of te laat heeft ontvangen.  
 U kunt deze gereduceerde prijs als artikeltoeslag boeken in een creditnota of retourorder en vervolgens toewijzen aan de geboekte verzending. De volgende beschrijving behandelt dit voor een verkoopcreditnota, maar dezelfde stappen zijn van toepassing op een verkoopretourorder.
 
@@ -81,7 +81,7 @@ U kunt deze gereduceerde prijs als artikeltoeslag boeken in een creditnota of re
 
 Wanneer u de verkoopretourorder boekt, wordt de verkoopprijskorting toegevoegd aan het bijbehorende verkooppostbedrag. Op deze manier kunt u de waardering van uw voorraad correct bijhouden.
 
-## <a name="to-combine-return-receipts"></a>Retourontvangsten combineren
+## Retourontvangsten combineren
 U kunt retourontvangsten combineren als de klant meerdere artikelen, waarvoor verschillende verkoopretourorders zijn aangemaakt, retourneert.  
 
 Wanneer de artikelen zijn aangekomen in het magazijn, boekt u de betreffende verkoopretourorders als ontvangen. Er worden dan geboekte retourontvangsten aangemaakt.  
@@ -90,7 +90,7 @@ Wanneer u deze klant wilt gaan factureren, kunt u in plaats van elke verkoopreto
 
 Om retourverzendingen te combineren moet het selectievakje **Verzendingen combineren** zijn ingeschakeld op de pagina **Klantenkaart**.  
 
-### <a name="to-manually-combine-return-receipts"></a>Retourontvangsten handmatig combineren
+### Retourontvangsten handmatig combineren  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopcreditnota's** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.
@@ -104,7 +104,7 @@ Om retourverzendingen te combineren moet het selectievakje **Verzendingen combin
 6.  Als u de verkeerde verzendregel hebt geselecteerd of als u opnieuw wilt beginnen, kunt u de regels op de creditnota verwijderen en de functie **Retourontvangstregels ophalen** opnieuw uitvoeren.  
 7.  Boek de factuur.  
 
-### <a name="to-automatically-combine-return-receipts"></a>Retourontvangsten automatisch combineren
+### Retourontvangsten automatisch combineren
 
 U kunt retourontvangsten automatisch combineren en beschikken over de optie om de creditnota's automatisch te boeken met de functie **Retourontvangsten combineren**.  
 
@@ -113,7 +113,7 @@ U kunt retourontvangsten automatisch combineren en beschikken over de optie om d
 3. Schakel het selectievakje **Creditnota's boeken** in. Als u dit niet doet, moet u de resulterende inkoopcreditnota's handmatig boeken.
 4. Kies de knop **OK**.  
 
-### <a name="to-remove-a-received-and-invoiced-return-order"></a>Ontvangen en gefactureerde retourorders verwijderen
+### Ontvangen en gefactureerde retourorders verwijderen
 
 Als u op deze manier retourontvangsten factureert, blijven de retourorders van waaruit de retourontvangsten zijn geboekt bestaan, ook als ze volledig zijn ontvangen en gefactureerd.  
 
@@ -125,7 +125,7 @@ Als retourontvangsten worden gecombineerd op een creditnota en worden geboekt, w
 
 U kunt afzonderlijke retourorders ook handmatig verwijderen.  
 
-## <a name="inventory-costing"></a>Voorraadwaardering
+## Voorraadwaardering
 
 Om de juiste voorraadwaardering te behouden, wilt u meestal retourartikelen in de voorraad terugzetten tegen de eenheidskostprijs waarvoor ze zijn verkocht en niet tegen de huidige eenheidskostprijs. Dit wordt exacte kostentegenboeking genoemd.
 
@@ -140,9 +140,9 @@ Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld *
 
 Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/return-items-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  

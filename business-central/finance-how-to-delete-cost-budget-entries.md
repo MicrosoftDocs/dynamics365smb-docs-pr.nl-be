@@ -1,22 +1,22 @@
 ---
 title: Kostenbudgetposten verwijderen
 description: Door middel van de batchtaak Kostenbudgetposten verwijderen annuleert u kostenbegrotingsposten uit het kostenbudgetregister.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="delete-cost-budget-entries"></a>Kostenbudgetposten verwijderen
+# Kostenbudgetposten verwijderen
 
 Door middel van de batchtaak **Kostenbudgetposten verwijderen** annuleert u kostenbegrotingsposten uit het kostenbudgetregister.  
 
 Om hiaten in de kostenbudgetposten en kostenregisterposten te voorkomen, kunt u één enkele post of een reeks posten middenin een lijst met registerposten niet verwijderen.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Kostenbudgetposten verwijderen
+## Kostenbudgetposten verwijderen  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostenbudgetposten verwijderen** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -28,7 +28,7 @@ Om hiaten in de kostenbudgetposten en kostenregisterposten te voorkomen, kunt u 
 > [!NOTE]  
 > Om te voorkomen dat kostenbegrotingsposten onbedoeld worden verwijderd, kunt u journaalposten sluiten door de regels als **gesloten** te markeren in het veld **Gesloten** op de pagina **Kostenbudgetregisters**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Kosten verantwoorden](finance-manage-cost-accounting.md)
 [Kostenbudgetten maken](finance-create-cost-budgets.md)  

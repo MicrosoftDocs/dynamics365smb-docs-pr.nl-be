@@ -1,7 +1,7 @@
 ---
 title: Overzicht van taken om verkoopprocessen te configureren
 description: 'Overzicht van taken die nodig zijn om regels en waarden in te stellen die uw verkoopbeleid en -processen definiëren, inclusief algemene instellingen en financiële instellingen voor verkoop.'
-author: SorenGP
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'trade, sell, configure'
 ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-sales"></a>Verkopen instellen
+# Verkopen instellen
 
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.
 
@@ -35,9 +35,9 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 |Geef aan of gebruikers verkoopfacturen mogen boeken en of ze deze samen met een zending moeten boeken. |[Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

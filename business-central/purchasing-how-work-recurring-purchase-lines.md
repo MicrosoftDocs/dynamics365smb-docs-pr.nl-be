@@ -1,7 +1,7 @@
 ---
 title: Standaard terugkerende inkoopregels
 description: Stel veelgebruikte inkoopregels in om in te voegen in inkoopdocumenten en snel de regels in te vullen met standaardgegevens.
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
 ms.date: 07/06/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
-# <a name="create-recurring-purchase-lines"></a>Periodieke inkoopregels maken
+# Periodieke inkoopregels maken
 
 Als u vaak inkoopregels met dezelfde informatie moet maken, kunt u standaardregels instellen die u dan kunt invoegen op periodieke inkoopdocumenten, bijvoorbeeld voor periodieke aanvullingsorders.
 
-## <a name="set-up-recurring-purchase-lines"></a>Periodieke inkoopregels instellen
+## Periodieke inkoopregels instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Periodieke inkoopregels** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Periodieke inkoopregels** de actie **Nieuw**.
@@ -27,7 +27,7 @@ Als u vaak inkoopregels met dezelfde informatie moet maken, kunt u standaardrege
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="assign-recurring-purchase-lines-to-a-vendor"></a>Periodieke inkoopregels toewijzen aan een leverancier
+## Periodieke inkoopregels toewijzen aan een leverancier
 
 Wijs een of meer periodieke inkoopregels aan een leverancier toe zodat deze beschikbaar zijn om te worden ingevoegd op inkoopdocumenten van die leverancier.
 
@@ -44,7 +44,7 @@ Wijs een of meer periodieke inkoopregels aan een leverancier toe zodat deze besc
 |**Automatisch**|Als er meerdere periodieke inkoopregels voor de leverancier zijn, ontvangt u een bericht van waaruit u er een kunt kiezen om in te voegen. Als er slechts één periodieke inkoopregel bestaat, wordt deze automatisch ingevuld.<br /><br />Dit werkt alleen als het nieuwe document is gemaakt op basis van een documentenlijst, bijvoorbeeld door kiezen van de actie **Nieuw** op de pagina **Inkooporders**. Het werkt niet als het document bijvoorbeeld is gemaakt op basis van een leverancierskaart.|
 |**Altijd vragen**|Er wordt een bericht weergegeven en alle bestaande periodieke inkoopregels worden weergegeven zodat u er een kunt selecteren.
 
-## <a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a>Periodieke inkoopregels invoegen op een inkoopfactuur
+## Periodieke inkoopregels invoegen op een inkoopfactuur
 
 Als er periodieke inkoopregels voor de leverancier zijn, kunt u deze invoegen of automatisch laten invoegen op alle typen inkoopdocumenten, zoals een inkoopfactuur. Als u de **Altijd vragen**-opties hebt geactiveerd terwijl u periodieke inkoopregels toewijst aan leveranciers, wordt u geïnformeerd als er periodieke inkoopregels bestaan.
 
@@ -54,7 +54,7 @@ Als er periodieke inkoopregels voor de leverancier zijn, kunt u deze invoegen of
 4. Kies op de pagina **Periodieke inkoopregels** de opzoekknop in het veld **Code** en selecteer een set standaardinkoopregels.
 5. Kies de knop **OK** om de standaardinkoopregels op de factuur in te voegen, waar u deze opnieuw kunt gebruiken of de gegevens kunt bewerken.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkoop instellen](purchasing-setup-purchasing.md)  

@@ -1,15 +1,15 @@
 ---
 title: Werk beheren tussen meerdere bedrijven in de bedrijfshub
 description: 'Lees meer over de bedrijfshub in Dynamics 365 Business Central, die u gebruikt om uw werk in meerdere bedrijven te beheren.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: 'accountant, accounting, financial report'
 ms.search.form: '1151, 1154, 1165, 1166'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
-# <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Werk beheren tussen meerdere bedrijven in de bedrijfshub
+# Werk beheren tussen meerdere bedrijven in de bedrijfshub
 
 Sommige mensen werken in meerdere bedrijven in [!INCLUDE [prod_short](includes/prod_short.md)] en sommige werken ook in meer dan één organisatie, zoals externe accountants, of werknemers en managers van bedrijven met meerdere dochterondernemingen. Voor deze gebruikers, en vele anderen, dient de bedrijfshub als een landingspagina die een financieel overzicht geeft voor meerdere bedrijven en omgevingen. Dit is een hulpmiddel voor gebruikers voor het beheren van werk in de verschillende omgevingen waarin ze werken, tussen bedrijven, omgevingen en regio's.  
 
@@ -20,7 +20,7 @@ U krijgt toegang tot de bedrijfshub door over te schakelen naar de rol **Bedrijf
 > [!NOTE]
 > U kunt de bedrijfshub met zoveel bedrijven verbinden als u nodig heeft. U kunt de bedrijfshub echter alleen verbinden met bedrijven die worden gehost in [!INCLUDE [prod_short](includes/prod_short.md)] online.
 
-## <a name="company-hub-home-page"></a>Startpagina van de bedrijfshub
+## Startpagina van de bedrijfshub
 
 Als u de rol **Bedrijfshub** gebruikt, toont uw startpagina een lijst met bedrijven waartoe u toegang hebt, inclusief informatie over KPI's en koppelingen om elk bedrijf te openen. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Kies de actie **Bedrijfshub** om de bedrijfshub te openen, waar u nauwer kunt samenwerken met elk bedrijf.  
 
@@ -48,13 +48,13 @@ In the **Company Hub** page, you can see more information about each company by 
 
 Otherwise, close the details pane and continue to the next company.  -->
 
-## <a name="assigned-tasks"></a>Toegewezen taken
+## Toegewezen taken
 
 In [!INCLUDE [prod_short](includes/prod_short.md)] kunt u taken toewijzen aan uzelf en anderen, en anderen kunnen taken aan u toewijzen. De bedrijfshub biedt u een overzicht van toegewezen taken voor elk bedrijf en u kunt een lijst met alle toegewezen taken openen door **Mijn gebruikerstaken** op de **Startpagina** te kiezen.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
-### <a name="my-user-tasks"></a>Mijn gebruikerstaken
+### Mijn gebruikerstaken
 
 Met de lijst **Mijn gebruikerstaken** kunt u de prioriteiten voor uw dag bepalen door meer informatie over aan u toegewezen taken in al uw bedrijven weer te geven.  
 
@@ -66,7 +66,7 @@ Wanneer u een taak hebt voltooid, moet u deze als voltooid markeren.
 
 Zie voor meer informatie over bedrijven en omgevingen [Omgevingskoppelingen](company-hub-add-company.md#environment-links).  
 
-## <a name="access-the-company-hub"></a>Toegang tot de bedrijfshub
+## Toegang tot de bedrijfshub
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -77,7 +77,7 @@ Om toegang te krijgen tot de bedrijfshub moet u toegang hebben via de gebruikers
 
 Als u de bedrijfshub niet kunt vinden en u weet dat u er toegang toe hebt gekregen, neem dan contact op met uw beheerder als de bedrijfshub wordt vermeld op de pagina **Extensiebeheer**. Zie [Business Central aanpassen met extensies](ui-extensions.md) voor meer informatie.  
 
-## <a name="set-up-the-company-hub"></a>De bedrijfshub instellen
+## De bedrijfshub instellen
 
 Om de bedrijfshub te gaan gebruiken moet u een of meer bedrijven aan uw dashboard toevoegen. Zie voor meer informatie [Bedrijven toevoegen aan uw bedrijfshub](company-hub-add-company.md).  
 
@@ -87,7 +87,7 @@ Als u bijvoorbeeld accountant bent, kunnen uw klanten u uitnodigen voor hun [!IN
 
 Beheerders kunnen dezelfde begeleide instelling gebruiken om u toe te voegen aan hun [!INCLUDE [prod_short](includes/prod_short.md)] of ze kunnen u toevoegen aan het relevante Azure AD-account in het Microsoft 365-beheercentrum. Zie [Gebruikers en groepen beheren](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true) voor meer informatie.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bedrijven toevoegen aan uw bedrijfshub](company-hub-add-company.md)  
 [Accountantervaringen in Business Central](finance-accounting.md)  

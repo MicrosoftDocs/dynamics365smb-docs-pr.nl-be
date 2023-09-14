@@ -1,16 +1,16 @@
 ---
 title: Microsoft Pay-standaard
 description: 'De extensie Microsoft Pay voegt een Microsoft Pay-koppeling aan uw verkoopdocumenten toe, zodat klanten gemakkelijk kunnen betalen met Microsoft Pay.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '1080, 1081, 1083, 1085, 1087, 1089'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="the-microsoft-pay-extension"></a>De extensie Microsoft Pay
+# De extensie Microsoft Pay
 
 > [!IMPORTANT]
 > Met ingang van 8 februari 2020 hebben wijzigingen in de Microsoft Pay-service invloed op de Microsoft Pay-uitbreiding in Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. Vanwege de wijzigingen zullen na 8 februari de betalingskoppelingen **Nu betalen** die de Microsoft Pay-uitbreiding genereert voor facturen in [!INCLUDE[prod_short](includes/prod_short.md)], Microsoft Pay niet openen. Klanten die de uitbreiding gebruiken, moeten hun betalingsservices instellen om in plaats daarvan de PayPal-uitbreiding te gebruiken.<br /></br>
@@ -36,7 +36,7 @@ De extensie Microsoft Pay biedt de volgende voordelen:
 
 Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[prod_short](includes/prod_short.md)] gratis. U moet wel contact opnemen met de betalingsservice om een rekening aan te vragen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  

@@ -1,19 +1,19 @@
 ---
 title: 'Ontwerpdetails: Rekeningen in het grootboek | Microsoft Docs'
 description: 'Om voorraad- en capaciteitsposten te reconciliëren met het grootboek, worden de gerelateerde waardeposten naar verschillende rekeningen in het grootboek geboekt.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-accounts-in-the-general-ledger"></a>Ontwerpdetails: Rekeningen in het grootboek
+# Ontwerpdetails: Rekeningen in het grootboek
 Om voorraad- en capaciteitsposten te reconciliëren met het grootboek, worden de gerelateerde waardeposten naar verschillende rekeningen in het grootboek geboekt. Zie voor meer informatie [Ontwerpdetails: reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a>Vanuit het voorraadgrootboek
+## Vanuit het voorraadgrootboek  
 De volgende tabel toont de relatie tussen verschillende soorten voorraadwaardeposten en de rekeningen en tegenrekeningen in het grootboek.  
 
 |**Artikelboekingssoort**|**Waardeboekingssoort**|**Verschilsoort**|**Verwachte kosten**|**Rekening**|**Tegenrekening**|  
@@ -56,7 +56,7 @@ De volgende tabel toont de relatie tussen verschillende soorten voorraadwaardepo
 |Assemblage-uitvoer|Verschil|Productieoverhead|Nr.|Voorraad|Productieoverheadverschil|  
 |Assemblage-uitvoer|Afronding||Nr.|Voorraad|Voorraadherwaardering|  
 
-## <a name="from-the-capacity-ledger"></a>Van het capaciteitsgrootboek
+## Van het capaciteitsgrootboek  
  De volgende tabel toont de relatie tussen verschillende soorten capaciteitswaardeposten en de rekeningen en tegenrekeningen in het grootboek. Capaciteitsposten vertegenwoordigen arbeidstijd die is verbruikt in assemblage of productiewerk.  
 
 |**Werksoort**|**Soort capaciteitspost**|**Waardeboekingssoort**|**Rekening**|**Tegenrekening**|  
@@ -66,12 +66,12 @@ De volgende tabel toont de relatie tussen verschillende soorten voorraadwaardepo
 |Productie|Bewerkingsplaats/Afdeling|Directe kosten|OHW-rekening|Dekking directe kosten|  
 |Productie|Bewerkingsplaats/Afdeling|Indirecte kosten|OHW-rekening|Dekking overhead|  
 
-## <a name="assembly-costs-are-always-actual"></a>Assemblagekosten zijn altijd werkelijk
+## Assemblagekosten zijn altijd werkelijk  
  Zoals in de tabel hierboven getoond, worden assemblageboekingen niet opgenomen in interimrekeningen. Dit komt doordat het begrip onderhanden werk (OHW) niet van toepassing is op assemblyuitvoerboeking, in tegenstelling tot productie-uitvoerboeking. Assemblagekosten worden alleen geboekt als werkelijke kosten, nooit als verwachte kosten.  
 
  Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie.  
 
-## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Het bedrag berekenen dat moet worden geboekt naar het grootboek
+## Het bedrag berekenen dat moet worden geboekt naar het grootboek  
  De volgende velden in de tabel **Waardepost** worden gebruikt om het verwachte kostenbedrag te berekenen dat naar het grootboek wordt geboekt:  
 
 -   Tot. werk. kosten  
@@ -86,7 +86,7 @@ De volgende tabel toont hoe bedragen die naar het grootboek moeten worden geboek
 |Werkelijke kosten|Tot. werk. kosten - Vrd.-waarde geboekt|  
 |Verwachte kosten|Kostenbedrag (verwacht) – Verw. kostn geboekt nr grootbk|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
  [Ontwerpdetails: Voorraadboeking](design-details-inventory-posting.md)   
  [Ontwerpdetails: Verwachte kostenboeking](design-details-expected-cost-posting.md)  

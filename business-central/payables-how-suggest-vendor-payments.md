@@ -1,7 +1,7 @@
 ---
 title: Batchverwerking Leveranciersbetalingen voorstellen
 description: U kunt leveranciersbetalingsinstellingen opgeven om voorstellen of voorstellen voor betalingen te krijgen die binnenkort moeten worden betaald of waar een korting beschikbaar is.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: 256
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="suggest-vendor-payments"></a>Leveranciersbetalingen voorstellen
+# Leveranciersbetalingen voorstellen
 
 Op de pagina **Betalingsdagboek** kunt u door middel van de batchverwerking **Leveranciersbetalingen voorstellen** betalingsregels laten voorstellen. Regels voor betalingen die binnenkort moeten worden betaald, of betalingen waarbij een contantkorting beschikbaar is, worden weergegeven op basis van de instellingen.
 
@@ -26,14 +26,14 @@ Om optimaal van voorgestelde betalingen te profiteren, moet u uw leveranciers ee
     * Achterstallige posten zonder prioriteitsnummer.  
     * Openstaande leveranciersposten die voor contantkortingen in aanmerking komen, geordend op leveranciersnummer.  
 
-## <a name="to-use-the-suggest-vendor-payments-function"></a>De functie Leveranciersbetalingen voorstellen gebruiken
+## De functie Leveranciersbetalingen voorstellen gebruiken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het desbetreffende dagboek en kies vervolgens de actie **Leveranciersbetalingen voorstellen**.  
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Kies de knop **Ok**.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>De vervaldatum als boekingsdatum invoegen op betalingsdagboekregels
+## De vervaldatum als boekingsdatum invoegen op betalingsdagboekregels
 
 Wanneer u de batchverwerking **Leveranciersbetalingen voorstellen** gebruikt om betalingsregels voor uw leveranciers te maken, kunt u twee speciale velden invullen om te zorgen dat de gegenereerde regels de vervaldatum gebruiken om de boekingsdatum te berekenen. Deze velden zijn **Bereken boekingsdatum via vervaldatum vereffeningsdoc.** en **Vervaldatumafwijking vereffeningsdoc.**.  
 
@@ -47,9 +47,9 @@ U kunt eventueel handmatig betalingsregels maken, waarbij de vervaldatum wordt g
 > [!NOTE]  
 >   Als de inkoopfactuur achterstallig is, wordt de boekingsdatum ingesteld op de werkdatum en wordt het lettertype op de regel rood.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Betalingen uitvoeren](payables-make-payments.md)  

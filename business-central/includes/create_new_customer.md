@@ -1,8 +1,8 @@
 ---
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 11 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  

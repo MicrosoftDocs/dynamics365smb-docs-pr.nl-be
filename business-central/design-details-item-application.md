@@ -1,16 +1,16 @@
 ---
 title: Ontwerpdetails - Artikelvereffening | Microsoft Docs
 description: In dit onderwerp wordt beschreven waar het voorraadaantal en de voorraadwaarde worden geregistreerd wanneer u een voorraadtransactie boekt.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'design, items, ledger entries, posting, inventory'
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-item-application"></a>Ontwerpdetails: Artikelvereffening
+# Ontwerpdetails: Artikelvereffening
 
 Wanneer u een voorraadtransactie boekt, wordt het geboekte aantal vastgelegd in de artikelposten, en de waardeboeking in de waardeposten. Zie [Ontwerpdetails: Voorraadboeking](design-details-inventory-posting.md) voor meer informatie.  
 
@@ -54,22 +54,22 @@ Een artikelvereffeningspost legt de volgende informatie vast.
 |**Aantal**|Het toegepaste aantal.|  
 |**Boekingsdatum**|De boekingsdatum van de transactie.|  
 
-## <a name="inventory-increase"></a>Positieve voorraadmutatie
+## Positieve voorraadmutatie  
 Wanneer u een positieve voorraadmutatie boekt, wordt een eenvoudige artikelvereffeningspost vastgelegd zonder een vereffening naar een uitgaande post.  
 
-### <a name="example"></a>Opmerking
+### Opmerking  
 De volgende tabel toont de artikelvereffeningspost die wordt gemaakt wanneer u een inkoopontvangst van 10 artikelen boekt.  
 
 |Boekingsdatum|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|Artikelpostnr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 
-## <a name="inventory-decrease"></a>Negatieve voorraadmutatie
+## Negatieve voorraadmutatie  
 Wanneer u een negatieve voorraadmutatie boekt, wordt een artikelvereffeningspost gemaakt die de negatieve voorraadmutatie koppelt aan een positieve voorraadmutatie. Deze koppeling wordt door de waarderingsmethode van het artikel gebruikt als een richtlijn. Voor artikelen die de waarderingsmethoden FIFO, Standaard en Gemiddeld gebruiken, wordt de koppeling gebaseerd op het FIFO-principe. De negatieve voorraadmutatie wordt vereffend met de positieve voorraadmutatie met de vroegste boekingsdatum. Voor artikelen die de waarderingsmethoden LIFO gebruiken, wordt de koppeling gebaseerd op het LIFO-principe. De negatieve voorraadmutatie wordt vereffend met de positieve voorraadmutatie met de meest recente boekingsdatum.  
 
 Het veld **Resterend aantal** in de tabel **Artikelpost** geeft het aantal aan dat nog niet is vereffend. Als het resterende aantal groter is dan 0, wordt het selectievakje **Open** ingeschakeld.  
 
-### <a name="example-1"></a>Opmerking
+### Opmerking  
 Het volgende voorbeeld toont de artikelvereffeningspost die ontstaat wanneer u een verkoopverzending boekt voor vijf eenheden van de artikelen die in het vorige voorbeeld zijn ontvangen. De eerste artikelvereffeningspost is de inkoopontvangst. De tweede vereffeningspost is de verkoopverzending.  
 
 De volgende tabel toont de twee artikelvereffeningsposten die resulteren uit respectievelijk de positieve en de negatieve voorraadmutatie.  
@@ -79,12 +79,12 @@ De volgende tabel toont de twee artikelvereffeningsposten die resulteren uit res
 |01-01-20|1|0|10|1|  
 |03-01-20|1|2|-5|2|  
 
-## <a name="fixed-application"></a>Vaste toepassing
+## Vaste toepassing  
 U maakt een vaste vereffening wanneer u opgeeft dat de kosten van een positieve voorraadmutatie moeten worden vereffend met een specifieke negatieve voorraadmutatie, of andersom. De vaste vereffening beïnvloedt de resterende aantallen van de posten, en zorgt tevens voor een tegenboeking van de precieze kosten van de oorspronkelijke post waarmee of waarnaar u vereffent.  
 
 U maakt een vaste vereffening door de velden **Vereffeningsnr. artikelpost** of **Vereffenen met artikelpost** te gebruiken om in de documentregel de artikelpost op te geven waarnaar of waarmee u de transactie wilt vereffenen. U kunt bijvoorbeeld een vaste vereffening maken wanneer u vereffeningskosten wilt maken waarin wordt bepaald dat een verkoopreturn moet worden vereffend met een specifieke verkoopverzending voor een precieze tegenboeking van de kosten van de verkoopverzending. In dit geval wordt de waarderingsmethode genegeerd door [!INCLUDE[prod_short](includes/prod_short.md)] en wordt de negatieve voorraadmutatie (of de positieve voorraadmutatie voor een verkoopretour) vereffend met de artikelpost die u opgeeft. Het voordeel van een vaste vereffening is dat de kosten van de oorspronkelijke transactie worden doorgegeven aan de nieuwe transactie.  
 
-### <a name="example--fixed-application-in-purchase-return"></a>Voorbeeld - Vaste vereffening in inkoopretour
+### Voorbeeld - Vaste vereffening in inkoopretour  
 Het volgende voorbeeld, dat het effect toont van vaste vereffening van een inkoopretour van een artikel met de waarderingsmethode FIFO, is gebaseerd op het volgende scenario:  
 
 1. In post 1 boekt de gebruiker een inkoop tegen kosten van LV 10,00.  
@@ -109,7 +109,7 @@ De volgende tabel toont de artikelvereffeningspost die resulteert uit de vaste v
 
 De kosten van de tweede inkoop, LV 20,00, worden dan op de juiste wijze doorgegeven aan de inkoopretour.  
 
-### <a name="example--fixed-application-with-average-cost"></a>Voorbeeld - Vaste vereffening met gemiddelde kosten
+### Voorbeeld - Vaste vereffening met gemiddelde kosten  
 Het volgende voorbeeld, dat het effect toont van vaste vereffening, is gebaseerd op het volgende scenario voor een artikel met de waarderingsmethode Gemiddeld:  
 
 1. In post nummer 1 en 2 boekt de gebruiker twee inkoopfacturen. De tweede factuur heeft de foutieve directe kostprijs van LV 1000,00.  
@@ -149,7 +149,7 @@ In post nummer 5 is de waarde van het veld **Tot. werk. kosten** voor deze post 
 > [!NOTE]  
 >  Als u een vaste vereffening maakt voor een negatieve voorraadmutatie van een artikel dat de waarderingsmethode Gemiddeld gebruikt, ontvangt de negatieve mutatie niet, zoals gebruikelijk, de gemiddelde kosten voor het artikel, maar de kosten van de door u opgegeven negatieve voorraadmutatie. Deze mutatie maakt dan niet langer deel uit van de berekening van de gemiddelde inkoopprijs.  
 
-### <a name="example--fixed-application-in-sales-return"></a>Voorbeeld - Vaste vereffening in verkoopretour
+### Voorbeeld - Vaste vereffening in verkoopretour  
 Vaste vereffeningen zijn ook een goede manier om kosten exact tegen te boeken, zoals bij verkoopretouren.  
 
 In het volgende voorbeeld wordt getoond hoe een vaste vereffening zorgt voor exacte kostentegenboeking en is gebaseerd op het volgende scenario:  
@@ -190,10 +190,10 @@ Wanneer u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert
 > [!NOTE]  
 >  Als u een transactie boekt met een vaste vereffening en vereffent met een gesloten artikelpost, hetgeen betekent dat het resterende aantal nul blijft, wordt de oude vereffening automatisch ongedaan gemaakt en wordt de artikelpost nogmaals vereffend met gebruik van de door u opgegeven vaste vereffening.  
 
-## <a name="transfer-application"></a>Transfervereffening
+## Transfervereffening  
 Als een artikel wordt overgebracht van de ene vestiging naar een andere binnen de bedrijfsvoorraad, wordt een vereffening gemaakt tussen de twee transferposten. Het waarderen van een transferpost is afhankelijk van de waarderingsmethode. Voor artikelen die de waarderingsmethode Gemiddeld gebruiken, wordt waardering uitgevoerd in de gemiddelde-kostprijsperiode waarin de herwaarderingsdatum van de transfer ligt. Voor artikelen die andere waarderingsmethoden gebruiken, wordt waardering uitgevoerd door terugtracering naar de kosten van de oorspronkelijke positieve voorraadmutatie.  
 
-### <a name="example--average-costing-method"></a>Voorbeeld - Gemiddelde waarderingsmethode
+### Voorbeeld - Gemiddelde waarderingsmethode  
 In het volgende voorbeeld wordt getoond hoe transferposten worden vereffend, en is gebaseerd op het volgende scenario voor een artikel dat de waarderingsmethode Gemiddeld gebruikt en een periode voor gemiddelde kosten van Dag.  
 
 1. De gebruiker koopt het artikel tegen kosten van LV 10,00.  
@@ -209,7 +209,7 @@ De volgende tabel toont het effect van de transfer op de waardeposten van het ar
 |01-02-20|Transfer|OOST|-1|15.00|3|  
 |01-02-20|Transfer|WEST|1|15.00|4|  
 
-### <a name="example--standard-costing-method"></a>Voorbeeld: Waarderingsmethode Standaard
+### Voorbeeld: Waarderingsmethode Standaard  
 In het volgende voorbeeld wordt getoond hoe transferposten worden vereffend, en is gebaseerd op het volgende scenario voor een artikel dat de waarderingsmethode Standaard gebruikt en een periode voor gemiddelde kosten van Dag.  
 
 1. De gebruiker koopt het artikel tegen een vaste verrekenprijs van LV 10,00.  
@@ -225,7 +225,7 @@ De volgende tabel toont het effect van de transfer op de waardeposten van het ar
 
 Aangezien de waarde van de oorspronkelijke voorraadtoename LV 10,00 is, is de verplaatsing gewaardeerd tegen die kosten, niet op LV 12,00.  
 
-## <a name="reapplication"></a>Opnieuw vereffenen
+## Opnieuw vereffenen  
 Vanwege de manier waarop de kostprijs van een artikel wordt berekend, kan een onjuiste artikelvereffening leiden tot onjuiste gemiddelde kosten en kostprijs. De volgende scenario's kunnen onjuiste artikelvereffeningen veroorzaken, waardoor u artikelvereffeningen ongedaan moet maken en artikelposten opnieuw moet vereffenen:  
 
 * U bent vergeten een vaste vereffening te maken.  
@@ -235,7 +235,7 @@ Vanwege de manier waarop de kostprijs van een artikel wordt berekend, kan een on
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt een functie voor het analyseren en corrigeren van artikelvereffeningen. Dit werk wordt uitgevoerd op de pagina **Vereffeningsvoorstel**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Ontwerpdetails: bekend probleem met artikelvereffening](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  

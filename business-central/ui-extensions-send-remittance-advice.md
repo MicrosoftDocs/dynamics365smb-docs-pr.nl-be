@@ -1,16 +1,16 @@
 ---
 title: Extensie Afdrachtsadvies verzenden | Microsoft Docs
 description: 'Beschrijft de extensie Afdrachtsadvies verzenden, waarmee afdrachtsadviezen kunnen worden ge-e-maild en opnieuw worden verzonden vanuit de betalingsdagboek- en leveranciersposten.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'app, add-in, manifest, customize, stream, remittance, advice'
 ms.date: 07/06/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="send-remittance-advice"></a>Afdrachtsadvies verzenden
+# Afdrachtsadvies verzenden
 
 Als afdrachtsadvies wordt gebruikt om leveranciers te informeren over gedane betalingen, kunt u nu afdrachtsadviezen in bulk verzenden vanuit het betalingsdagboek en deze opnieuw verzenden nadat betalingen vanuit leveranciersposten zijn gedaan, met behulp van documentverzendprofielen.
 
@@ -22,7 +22,7 @@ U kunt afdrachtsadvies op twee verschillende manieren verzenden:
 * Kies in het **Betalingsdagboek** **Gerelateerd**, **Betalingen**, **Afdrachtsadvies verzenden** om afdrachtsadvies te verzenden voor een of meer betalingsdagboekregels
 * Kies op de pagina **Leveranciersposten** op **Acties**, **Functies**, **Afdrachtsadvies verzenden** om afdrachtsadvies te e-mailen na boeking van leveranciersbetalingen voor een of meer leveranciersposten
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies ](ui-extensions.md)  

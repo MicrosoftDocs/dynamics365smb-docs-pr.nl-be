@@ -1,18 +1,18 @@
 ---
 title: Geboekte verkoop- en inkoopdocumenten bewerken
 description: 'In dit onderwerp wordt uitgelegd hoe u informatie in een geboekt document, zoals een verkoopverzending of inkoopfactuur, kunt bijwerken wanneer relevante informatie is gewijzigd.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
 ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="edit-posted-documents"></a>Geboekte documenten bewerken
+# Geboekte documenten bewerken
 
 Soms moet u een geboekt document bijwerken omdat informatie die relevant is voor het document is gewijzigd. In een geboekt verkoopdocument kan dit bijvoorbeeld het trackingnummer van de expediteur zijn. In een geboekt inkoopdocument kan dit een betalingsverwijzing zijn.
 
@@ -32,7 +32,7 @@ De volgende aanvullende documenten kunnen worden bewerkt in de opgegeven landen 
 - RU: Geboekte verkoopcreditnota
 - IT: Geboekte overdracht, Geboekte servicezending
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Een geboekte verkoopverzending bewerken
+## Een geboekte verkoopverzending bewerken
 
 Hieronder wordt uitgelegd hoe u een geboekte verkoopverzending kunt bewerken. De stappen zijn vergelijkbaar voor de andere ondersteunde documenten.
 
@@ -43,7 +43,7 @@ Hieronder wordt uitgelegd hoe u een geboekte verkoopverzending kunt bewerken. De
 
 De geboekte verkoopverzending wordt bijgewerkt.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Gerelateerde posten zoeken voor documenten](ui-find-entries.md)  

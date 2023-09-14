@@ -1,7 +1,7 @@
 ---
 title: Magazijnen herstructureren
 description: Leer hoe u uw magazijn kunt herstructureren met nieuwe opslaglocatiecodes en nieuwe opslaglocatiekenmerken om een efficiëntere werking te bereiken of te behouden.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '9813, 9814'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="restructure-warehouses"></a>Magazijnen herstructureren
+# Magazijnen herstructureren
 Misschien wilt u op een dag de magazijnstructuur aanpassen en nieuwe opslaglocaties en kenmerken instellen. Dit zal niet vaak voorkomen, maar in sommige gevallen is een aanpassing van het magazijn noodzakelijk om een meer efficiënte bedrijfsvoering te bereiken of behouden. Voorbeeld:  
 
 - Misschien wilt u omschakelen naar opslaglocaties die het gebruik van automatische gegevensverwerking ondersteunen, bijvoorbeeld met draagbare apparatuur.  
@@ -20,7 +20,7 @@ Misschien wilt u op een dag de magazijnstructuur aanpassen en nieuwe opslaglocat
 
 Indien voor het magazijn opslaglocaties worden gebruikt, maar niet gestuurde opslag en pick, kunt u het magazijn herstructureren door nieuwe opslaglocaties te maken die u in de toekomst wilt gebruiken.  
 
-## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Herstructureren van een standaardmagazijn dat alleen opslaglocaties gebruikt
+## Herstructureren van een standaardmagazijn dat alleen opslaglocaties gebruikt  
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Stel op het sneltabblad **Magazijn** het veld **Std. opslaglocatieselectie** in op **Laatst gebruikte opslaglocatie**.  
 3.  Verplaats alle inhoud van de huidige opslaglocaties naar de nieuwe opslaglocaties die u zojuist hebt gemaakt.  
@@ -35,7 +35,7 @@ Indien voor het magazijn opslaglocaties worden gebruikt, maar niet gestuurde ops
 
 U hebt nu de opslaglocaties leeggemaakt waar de artikelen eerst waren. De standaardopslaglocaties voor de artikelen zijn nu gewijzigd in de nieuwe opslaglocaties.  
 
-## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Herstructureren van een geavanceerd magazijn met gestuurde opslag en pick
+## Herstructureren van een geavanceerd magazijn met gestuurde opslag en pick  
 
 1.  Maak de nieuwe opslaglocaties aan die u voortaan wilt gebruiken. Zie voor meer informatie [Opslaglocaties maken](warehouse-how-to-create-individual-bins.md).  
 2.  Verplaats alle inhoud van de huidige opslaglocaties naar de nieuwe opslaglocaties die u zojuist hebt gemaakt.  
@@ -52,7 +52,7 @@ U hebt nu de opslaglocaties leeggemaakt waar de artikelen eerst waren. De standa
 
 U hebt nu de opslaglocaties verwijderd uit de magazijnstroom en ze opnieuw ingedeeld als QC-opslaglocaties. Dit zijn opslaglocaties die niet beschikken over de activiteitenvelden op de pagina **Opslaglocatiesoorten** en daarom niet door de artikelstroom worden meegenomen. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.  
 
-## <a name="to-delete-a-bin"></a>Een opslaglocatie verwijderen
+## Een opslaglocatie verwijderen  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de vestiging waar u opslaglocaties wilt gebruiken en kies de actie **Opslaglocaties**.  
@@ -63,7 +63,7 @@ Als u op **Ja** klikt, wordt de opslaglocatie verwijderd voor toekomstig gebruik
 
 Als u een opslaglocatie wilt hernoemen, zodat alle records die zijn gekoppeld aan de opslaglocatie eveneens worden hernoemd, kunt u deze wijziging doorvoeren op de pagina **Opslaglocaties**. Het gaat hierbij om regels met opslaglocatie-inhoud, magazijnactiviteiten, magazijnvoorstelregels, regels voor magazijnontvangst, magazijnverzending en magazijnposten.  
 
-## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Een opslaglocatie een andere naam geven en de opslaglocatie in alle records wijzigen
+## Een opslaglocatie een andere naam geven en de opslaglocatie in alle records wijzigen  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de vestiging waar u de naam of code van een opslaglocatie wilt wijzigen en kies vervolgens de actie **Opslaglocaties**.  
@@ -75,7 +75,7 @@ Als u een opslaglocatie wilt hernoemen, zodat alle records die zijn gekoppeld aa
 >   
 >  Als u een opslaglocatie voor ontvangst of verzending wilt hernoemen, moeten ook alle geboekte ontvangsten en verzendingen worden hernoemd die betrekking hebben op de opslaglocatie.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     

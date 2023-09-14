@@ -1,20 +1,20 @@
 ---
 title: 'Belgische tariefcodes instellen [BE]'
 description: De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 310
 ms.date: 06/17/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-belgian-tariff-numbers-in-the-belgian-version"></a>Belgische tariefcodes instellen in de Belgische versie
+# Belgische tariefcodes instellen in de Belgische versie
 
 De Belgische belastingdienst en douane hebben een goederencode van acht tekens vastgelegd voor de verschillende tariefartikelen.  
 
-## <a name="to-set-up-tariff-numbers"></a>Tariefcodes instellen
+## Tariefcodes instellen
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Tariefcodes** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -28,7 +28,7 @@ De Belgische belastingdienst en douane hebben een goederencode van acht tekens v
 
 4. Kies de knop **OK**.  
   
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
  [Belgische Intrastat-rapportage](belgian-intrastat-reporting.md)   
  [Aangiftesoorten instellen](how-to-set-up-declaration-types.md)   

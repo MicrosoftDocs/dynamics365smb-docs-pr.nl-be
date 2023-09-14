@@ -1,22 +1,22 @@
 ---
 title: Werken met inkomende documenten
 description: 'U kunt inkomende externe bedrijfsdocumenten, zoals betalingsontvangsten of PDF''s beheren, OCR-taken beheren en elektronische bestanden naar documenten en records omzetten.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="incoming-documents"></a>Inkomende documenten
+# Inkomende documenten
 
 Externe zakelijke documenten kunnen uw bedrijf binnenkomen als e-mailbijlage of als papieren exemplaar dat u kunt scannen. Dit scenario is meestal bij aankopen, waarbij dergelijke inkomende documentbestanden betalingsontvangsten voor kosten of kleine inkopen vertegenwoordigen.
 
 Op de pagina **Inkomende documenten** kunt u verschillende functies gebruiken om onkostenbewijzen te controleren, OCR-taken te beheren en inkomende documentbestanden handmatig of automatisch te converteren naar de relevante documenten of dagboekregels. De externe bestanden kunnen worden gekoppeld in elke procesfase, inclusief naar geboekte documenten en naar de resulterende leverancier, klant en grootboekposten.
 
-## <a name="usage-scenario"></a>Gebruiksscenario
+## Gebruiksscenario
 
 U kunt bestanden of papieren exemplaren die u van uw handelspartners hebt ontvangen, registreren in [!INCLUDE[prod_short](includes/prod_short.md)] en een documentrecord maken. Bijvoorbeeld een inkoop- of verkoopfactuur, creditnota of een dagboekregel.
 
@@ -30,7 +30,7 @@ Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, ku
 > [!TIP]
 > Maak inkomende documentrecords in [!INCLUDE[prod_short](includes/prod_short.md)] rechtstreeks vanuit e-mails verzonden door leveranciers met behulp van de Outlook-invoegtoepassing. Zie [Business Central als uw bedrijfsinbox gebruiken in Outlook](work-outlook-addin.md) voor meer informatie.
 
-## <a name="incoming-document-features"></a>Functies voor inkomende documenten
+## Functies voor inkomende documenten
 
 Het proces voor inkomende documenten kan bestaan uit de volgende voornaamste activiteiten:
 
@@ -57,9 +57,9 @@ Het proces voor inkomende documenten kan bestaan uit de volgende voornaamste act
 | Vanuit de pagina's **Rekeningschema** en **Grootboekposten** zoekt u naar grootboekposten voor geboekte documenten die geen inkomende documentrecords hebben, en koppelt u deze centraal aan bestaande records of maakt u nieuwe records met gekoppelde documentbestanden. |[Geboekte documenten zonder inkomende documentrecords zoeken](across-how-find-posted-documents-without-income-document-records.md) |
 | Krijg beter overzicht krijgen door inkomende documentrecords in te stellen op *Verwerkt* en ze te verwijderen uit de standaardweergave. |[Vele inkomende documentrecords beheren](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
+## Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inkoop](purchasing-manage-purchasing.md)  
 [Geboekte documenten bewerken](across-edit-posted-document.md)  

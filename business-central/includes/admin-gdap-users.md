@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 05/09/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Mogelijk ziet u andere gebruikers in de lijst **Gebruikers**, behalve die van uw eigen bedrijf. Wanneer een gedelegeerde beheerder van een wederverkopend partnerbedrijf zich aanmeldt bij een [!INCLUDE [prod_short](prod_short.md)]-omgeving namens hun klant, worden ze automatisch gemaakt als gebruiker binnen [!INCLUDE [prod_short](prod_short.md)]. Op deze manier worden de acties die worden uitgevoerd door een gedelegeerde beheerder vastgelegd in [!INCLUDE [prod_short](prod_short.md)], zoals het plaatsen van documenten, en gekoppeld aan hun gebruikers-id.  
 

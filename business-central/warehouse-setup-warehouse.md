@@ -1,16 +1,16 @@
 ---
 title: Magazijnprocessen configureren
 description: 'De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van de magazijnprocessen ervan, bijvoorbeeld de magazijnlocaties.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-warehouse-management"></a>Magazijnbeheer instellen
+# Magazijnbeheer instellen
 
 De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van zijn magazijnprocessen. Dit betreft onder andere definiëren hoe verschillende artikelen op verschillende magazijnlocaties worden afgehandeld, zoals de mate van opslaglocatiecontrole en de omvang van de werkstroom die nodig is voor activiteiten tussen magazijnen.  
 
@@ -35,9 +35,9 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Tips krijgen over het reorganiseren van vestigingen, opslaglocaties of zones om de magazijnactiviteiten efficiënter te laten verlopen.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/set-up-warehouse-management/)
+## Zie gerelateerde [Microsoft-training](/training/paths/set-up-warehouse-management/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
