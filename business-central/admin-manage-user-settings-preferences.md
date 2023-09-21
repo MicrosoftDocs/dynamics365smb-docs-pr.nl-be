@@ -6,13 +6,13 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.keywords: 'user settings, preferences, language, region, time zone, regional settings'
 ms.search.form: '9204,'
 ms.date: 04/01/2021
 ms.author: soalex
 ---
-# <a name="manage-user-settings-and-preferences"></a>Gebruikersinstellingen en voorkeuren beheren
+# Gebruikersinstellingen en voorkeuren beheren
 
 Als beheerder kunt u gebruikersinstellingen configureren in [!INCLUDE[prod_short](includes/prod_short.md)], vergelijkbaar met hoe individuele gebruikers hun eigen voorkeuren kunnen beheren op de pagina **Mijn instellingen**.  
 
@@ -23,7 +23,7 @@ Krijg een overzicht van alle gebruikers in de lijst **Gebruikers** en verander i
 
 De pagina **Gebruikersinstellingenkaart** is vergelijkbaar met de pagina **Mijn instellingen** waartoe elke gebruiker toegang heeft, en het is een krachtig hulpmiddel voor u als beheerder om bijvoorbeeld standaardinstellingen in te stellen en gepersonaliseerde pagina's te wissen.  
 
-## <a name="types-of-user-settings"></a>Soorten gebruikersinstellingen
+## Soorten gebruikersinstellingen
 
 *Gebruikersinstellingen* is niet hetzelfde als *gebruikersinstelling*, dat gaat over de gebruiker als entiteit en de toegang van de gebruiker tot het systeem. Bovendien hebben gebruikersinstellingen niets te maken met de personalisatie van een gebruiker, zoals kleine wijzigingen in de gebruikersinterface. Gebruikersinstellingen bepalen de vooraf gedefinieerde instellingen voor elke gebruiker in verschillende aspecten van de manier waarop de toepassing zich aan de gebruiker presenteert. De volgende paragraaf bevat de vijf soorten gebruikersinstellingen en voorkeuren die kunnen worden ingesteld door de gebruiker of centraal door de beheerder:
 
@@ -59,21 +59,21 @@ De pagina **Gebruikersinstellingenkaart** is vergelijkbaar met de pagina **Mijn 
 > [!NOTE]
 > Als een Microsoft 365-gebruikerssynchronisatie wordt uitgevoerd terwijl gebruikers zijn aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], moeten deze gebruikers de browser vernieuwen of zich afmelden en weer aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)] om een mogelijk andere taal te zien die is ingesteld door de synchronisatieactie.
 
-## <a name="overview-of-all-user-specific-changes"></a>Overzicht van alle gebruikersspecifieke wijzigingen
+## Overzicht van alle gebruikersspecifieke wijzigingen
 
 Als beheerder krijgt u een overzicht van individuele wijzigingen in [!INCLUDE [prod_short](includes/prod_short.md)] die elke gebruiker mogelijk heeft aangebracht op verschillende pagina's in [!INCLUDE [prod_short](includes/prod_short.md)]. Als gebruikers hun ervaring wijzigen in [!INCLUDE [prod_short](includes/prod_short.md)], zullen deze wijzigingen worden weerspiegeld in de lijst **Persoonlijke gebruikersinstellingen**. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a>Gebruikerspersonalisaties bekijken of verwijderen
+## Gebruikerspersonalisaties bekijken of verwijderen
 
 1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Gepersonaliseerde pagina's** in en kies vervolgens de gerelateerde koppeling.
 2. Dit toont de lijst met gebruikers en hun aangepaste pagina's. Om de personalisatie van een gebruiker te wissen, klikt u op de relevante rij of kiest u **Beheren** en kiest u vervolgens **Verwijderen**.
 
 Hierdoor wordt de personalisatie verwijderd en keert de gebruikerservaring van de relevante pagina terug naar de standaardstatus.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

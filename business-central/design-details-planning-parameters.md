@@ -3,12 +3,12 @@ title: 'Ontwerpdetails: Planningsparameters'
 description: In dit artikel worden de verschillende planningsparameters beschreven die u kunt gebruiken en hoe deze het planningssysteem beïnvloeden.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 04/26/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-planning-parameters"></a>Ontwerpdetails: Planningsparameters
+# Ontwerpdetails: Planningsparameters
 
 Dit artikel beschrijft de verschillende planningsparameters die u kunt gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -23,11 +23,11 @@ Hoe het planningssysteem de artikelvoorziening controleert, wordt bepaald door v
 |De voorzieningenorders wijzigen|Min. bestelaantal<br /><br /> Max. bestelaantal<br /><br /> Vaste lotgrootte|
 |Het geplande artikel beperken|Productiebeleid:<br /><br /> -  Op voorraad produceren<br />- Op order produceren|
 
-## <a name="define-whether-the-item-is-planned"></a>Definiëren of het artikel wordt gepland
+## Definiëren of het artikel wordt gepland  
 
 Om een artikel of SKU in het planningsproces op te nemen moet u er een bestelbeleid aan toewijzen. Anders moet het handmatig worden gepland, bijvoorbeeld met behulp van de functie Orderplanning.  
 
-## <a name="define-when-to-reorder"></a>Definiëren wanneer moet worden besteld
+## Definiëren wanneer moet worden besteld  
 
 Voorstellen voor opnieuw bestellen worden normaal gesproken alleen vrijgegeven wanneer de verwachte beschikbare hoeveelheid op of onder een bepaalde hoeveelheid komt. Het bestelpunt wordt bepaald door de hoeveelheid. Anders wordt het nul. Nul kan worden aangepast door een veiligheidsvoorraad in te voeren. Als u een veiligheidstijd hebt opgegeven, wordt het voorstel gedaan in de periode vóór de vereiste vervaldatum.  
 
@@ -40,7 +40,7 @@ Op de **Productie-instellingen** moet u het standaardveiligheidsbeleid instellen
 
 De velden **Herplanningsperiode**, **Lotaccumulatieperiode** en **Dempingsperiode**, spelen ook een rol bij de definitie van wanneer moet worden herbesteld. Voor meer informatie zie [Optimaliseren wanneer en hoe u bestelt](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder),  
 
-## <a name="define-how-much-to-reorder"></a>Definiëren hoeveel moet worden besteld
+## Definiëren hoeveel moet worden besteld
 
 Als het planningssysteem de noodzaak voor een bestelling detecteert, bepaalt het bestelbeleid wanneer en hoeveel moet worden besteld.  
 
@@ -52,7 +52,7 @@ Het planningssysteem volgt, onafhankelijk van het bestelbeleid, meestal deze log
 4. Als er meer brutovraag vervalt vóór de einddatum van het voorwaarts geplande ordervoorstel en de huidige berekende verwachte beschikbare voorraad door deze vraag onder het veiligheidsvoorraadaantal komt, wordt het orderaantal verhoogd om het tekort te dekken. De voorgestelde voorzieningenorder wordt vervolgens achterwaarts gepland vanaf de vervaldatum voor de brutovraag die de veiligheidsvoorraad zou hebben overschreden.  
 5. Als het veld **Tijdsinterval** niet is ingevuld, wordt alleen de brutovraag op dezelfde vervaldatum toegevoegd.  
 
-### <a name="reordering-policies"></a>Bestelbeleid
+### Bestelbeleid  
 
 Het volgende bestelbeleid heeft invloed op de hoeveelheid die wordt besteld. Ga voor meer informatie over bestelbeleid naar [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md).  
 
@@ -63,7 +63,7 @@ Het volgende bestelbeleid heeft invloed op de hoeveelheid die wordt besteld. Ga 
 |**Order**|Het orderaantal wordt berekend om aan elke vraaggebeurtenis te voldoen en de vraag-voorzieningcombinatie blijft gekoppeld tot aan het uitvoeren. Er wordt geen rekening gehouden met planningsparameters.|  
 |**Lot-for-Lot**|Het aantal wordt berekend om te voldoen aan de som van de vraag die vervalt in het tijdsinterval.|  
 
-## <a name="optimize-when-and-how-much-to-reorder"></a>Optimaliseren wanneer en hoe u bestelt
+## Optimaliseren wanneer en hoe u bestelt  
 
 Een planner kan planningsparameters afstemmen om voorstellen voor herplanning te beperken, vraag te cumuleren (dynamisch bestelaantal) of onbeduidende planningsacties te voorkomen. De volgende velden helpen te optimaliseren wanneer en hoeveel moet worden besteld.  
 
@@ -100,13 +100,13 @@ In de volgende voorbeelden geven de zwarte pijlen bestaand aanbod (omhoog) en be
 
 **Standaardwaarden:** de standaardwaarde van het veld **Tijdsinterval** en de drie bestelperiodevelden is leeg. Voor alle velden behalve het veld **Dempingsperiode** betekent dit 0D (nul dagen). Als het veld **Dempingsperiode** leeg is, wordt de globale waarde in het veld **Standaard dempingsperiode** op de pagina **Productie-instellingen** gebruikt.  
 
-## <a name="modify-the-supply-orders"></a>De voorzieningenorders wijzigen
+## De voorzieningenorders wijzigen  
 
 Wanneer het aantal van het ordervoorstel is berekend, kan het worden aangepast door een of meer van de orderwijzigingen. Het maximale orderaantal is bijvoorbeeld groter dan of gelijk aan het minimale orderaantal, dat groter is dan of gelijk is aan de vaste lotgrootte.  
 
 Het aantal wordt verminderd als het maximale bestelaantal wordt overschreden. Het wordt verhoogd als het onder het minimale bestelaantal valt. Ten slotte wordt het naar boven afgerond zodat het overeenkomt met een opgegeven vaste lotgrootte. Voor een eventueel resterend aantal worden dezelfde correcties gebruikt totdat de totale vraag is omgezet in ordervoorstellen.  
 
-## <a name="delimit-the-item"></a>Het artikel beperken
+## Het artikel beperken  
 
 Het veld **Productiebeleid** op de pagina **Artikelkaart** definieert welke andere orders de MRP-berekening voorstelt.  
 
@@ -114,7 +114,7 @@ Als de optie **Op voorraad produceren** wordt gebruikt, hebben de orders alleen 
 
 Als de optie **Op order produceren** wordt gebruikt, analyseert het planningssysteem de productiestuklijst van het artikel en worden gekoppelde ordervoorstellen op lager niveau gemaakt voor deze artikelen, die ook worden gedefinieerd als op-order-produceren. Dit gaat door zolang er op maat gemaakte producten in de aflopende stuklijststructuren zijn.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Low-levelcodes gebruiken om afgeleide vraag te beheren
+## Low-levelcodes gebruiken om afgeleide vraag te beheren
 
 Gebruik low-levelcodes om afgeleide vraag naar componenten de lagere niveaus van de stuklijst te laten doorlopen. Ga voor meer informatie over low-level codes naar [Prioriteit/low-levelcode artikel](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -130,7 +130,7 @@ In plaats van de automatische berekening die dynamisch plaatsvindt als het veld 
 > [!NOTE]
 > Hoewel u het veld **Dynamische low-levelcode** hebt geselecteerd, worden de low-levelcodes van artikelen niet dynamisch gewijzigd als een bovenliggende stuklijst wordt verwijderd of op niet-gecertificeerd is ingesteld. Dit kan het problematisch worden om nieuwe artikelen aan het einde van de productstructuur toe te voegen, omdat de low-levelcodelimiet wordt overschreden. Daarom kunt u voor grote productstructuren die de low-levelcodelimiet bereiken, de batchverwerking **Low-levelcode berekenen** regelmatig uitvoeren om de structuur te behouden.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)  
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  

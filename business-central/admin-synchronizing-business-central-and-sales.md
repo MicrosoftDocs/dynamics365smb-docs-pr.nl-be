@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ---
 
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Gegevens synchroniseren in Business Central en Microsoft Dataverse
+# Gegevens synchroniseren in Business Central en Microsoft Dataverse
 
 Wanneer u [!INCLUDE[prod_short](includes/cds_long_md.md)] met [!INCLUDE[prod_short](includes/prod_short.md)] integreert, kunt u bepalen of gegevens in geselecteerde velden van [!INCLUDE[prod_short](includes/prod_short.md)]-records (zoals klanten, contactpersonen en verkopers) worden gesynchroniseerd met equivalente rijen in [!INCLUDE[prod_short](includes/cds_long_md.md)] (zoals rekeningen, contacten en gebruikers). Afhankelijk van het type rij kunt u gegevens vanuit [!INCLUDE[prod_short](includes/cds_long_md.md)] synchroniseren met [!INCLUDE[prod_short](includes/prod_short.md)] of andersom. Zie voor meer informatie [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -35,7 +35,7 @@ Wanneer synchronisatie is ingesteld, kunt u [!INCLUDE[prod_short](includes/prod_
 > De synchronisatie tussen [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)] is gebaseerd op de geplande uitvoering van taakwachtrij-items en garandeert geen realtime gegevensconsistentie tussen twee services. Voor realtime gegevensconsistentie moet u [Virtuele Business Central- tabellen](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) of Business Central-API's verkennen.   
 
 
-## <a name="standard-table-mapping-for-synchronization"></a>Standaardtabeltoewijzingen voor synchronisatie
+## Standaardtabeltoewijzingen voor synchronisatie
 Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)], zoals accounts, zijn geïntegreerd met equivalente soorten tabellen in [!INCLUDE[prod_short](includes/prod_short.md)], zoals klanten. Als u wilt werken met [!INCLUDE[prod_short](includes/cds_long_md.md)]-gegevens, stelt u koppelingen in tussen tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 In de volgende tabel staat de standaardtoewijzing tussen tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] en die [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -54,10 +54,10 @@ In de volgende tabel staat de standaardtoewijzing tussen tabellen in [!INCLUDE[p
 > [!NOTE]
 > De **Dataverse**-acties zijn niet beschikbaar op pagina's, bijvoorbeeld de pagina Klantenkaart, voor records die het tabelfilter voor de integratietabeltoewijzing niet respecteren.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Tip voor beheerders: tabeltoewijzingen weergeven
+### Tip voor beheerders: tabeltoewijzingen weergeven
 U kunt de koppeling tussen de tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] en de tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] bekijken op de pagina **Toewijzingen van integratietabellen**, waar u kunt ook filters kunt toepassen. U definieert de toewijzing tussen de velden in [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen en de kolommen in [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabellen op de pagina **Toewijzing van integratieveld**, waar u aanvullende toewijzingslogica kunt toevoegen. Dat kan bijvoorbeeld handig zijn als u problemen met synchronisatie moet oplossen.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

@@ -12,7 +12,7 @@ ms.date: 09/29/2022
 ms.author: bholtorf
 ---
 
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Financiële gegevens uit meerdere bedrijven consolideren
+# Financiële gegevens uit meerdere bedrijven consolideren
 
 Sommige organisaties gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in meerdere bedrijfsunits of rechtspersonen. Andere gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in dochterondernemingen die moeten rapporteren aan moederorganisaties. In beide gevallen gebruiken de accountants ingebouwde tools om de financiële gegevens te helpen consolideren.  
 
@@ -35,7 +35,7 @@ U stelt het geconsolideerde bedrijf in op dezelfde manier als waarop u andere be
 > [!TIP]
 > Consolideren van financiële gegevens kan vooral relevant zijn in verband met IC-processen. Raadpleeg [IC-transacties beheren](intercompany-manage.md) voor meer informatie.
 
-## <a name="use-the-consolidated-trial-balance-report"></a>Gebruik het rapport Consolidatie - Proef- en saldibalans uitvoeren
+## Gebruik het rapport Consolidatie - Proef- en saldibalans uitvoeren
 
 Het rapport **Consolidatie - Proefbalans** kan u een overzicht geven van de algehele financiële gezondheid van uw bedrijf. Het rapport combineert grootboekposten van elk van uw bedrijven in een nieuw bedrijf dat u hebt gemaakt voor de geconsolideerde gegevens. Dit bedrijf wordt doorgaans het *geconsolideerde bedrijf* genoemd. Het geconsolideerde bedrijf is slechts een container voor de geconsolideerde gegevens en bevat geen live bedrijfsgegevens. De bedrijven die u in het geconsolideerde bedrijf opneemt, worden in het rapport **bedrijfsunits**. Zie [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md) voor meer informatie. Heeft u vier of minder bedrijfsonderdelen, dan kunt u ook gebruik maken van het rapport **Consolidatie - Proefbalans (4)**.  
 
@@ -46,11 +46,11 @@ Het rapport toont een regel voor elke rekening en volgt de structuur van het rek
 * De eliminaties die in het geconsolideerde bedrijf zijn gemaakt. Eliminaties worden altijd weergegeven voor een periode die overeenkomt met het boekjaar van het geconsolideerde bedrijf.
 * Het totaal voor het geconsolideerde bedrijf na de eliminaties, weergegeven als mutatie of als saldo tot en met datum.
 
-## <a name="consolidate-data"></a>Gegevens consolideren
+## Gegevens consolideren
 
 De overdracht van de cijfers van de bedrijfsunits naar de geconsolideerde onderneming is de feitelijke *consolidatie*. Voordat u de consolidatie uitvoert, doet u er goed aan te controleren of er verschillen zijn tussen de basisgegevens in de bedrijfsunits en het geconsolideerde bedrijf. Er zijn twee rapporten die u kunt gebruiken om de database en het bestand te testen.
 
-### <a name="to-test-the-data-before-you-consolidate"></a>De gegevens testen vóór consolidatie
+### De gegevens testen vóór consolidatie
 
 Test uw gegevens testen voordat u deze naar het geconsolideerde bedrijf overbrengt. [!INCLUDE[prod_short](includes/prod_short.md)] zoekt naar verschillen in de gegevens in de bedrijfsunits en in het geconsolideerde bedrijf. Er wordt bijvoorbeeld gecontroleerd of rekeningnummers of dimensiecodes afwijken. U moet fouten corrigeren voordat u het rapport kunt uitvoeren. U kunt de database testen, als u gegevens uit een XML-bestand importeert, of het bestand testen.  
 
@@ -61,7 +61,7 @@ Test uw gegevens testen voordat u deze naar het geconsolideerde bedrijf overbren
     * Als u een bestand wilt testen, kiest u de actie **Bestand testen**, voert u de naam van het bestand in en kiest u **Afdrukken**.  
     * Als u de database wilt testen, kiest u **Database testen**.  
 
-### <a name="run-the-consolidation"></a>De consolidatie uitvoeren
+### De consolidatie uitvoeren
 
 Wanneer u de gegevens hebt getest, kunt deze naar het geconsolideerde bedrijf overbrengen.  
 
@@ -71,7 +71,7 @@ Wanneer u de gegevens hebt getest, kunt deze naar het geconsolideerde bedrijf ov
 4. Stel in de sectie Filter een filter in voor de relevante bedrijfsunit of bedrijfsnaam.  
 5. Plan desgewenst de uitvoering van het rapport op een geschikte tijd.  
 
-## <a name="eliminate-repeated-transactions"></a>Herhaalde transacties verwijderen
+## Herhaalde transacties verwijderen
 
 Nadat u de bedrijven hebt geconsolideerd, moet u alle transacties vinden en elimineren die meer dan eens in bedrijven zijn geregistreerd. Consolidatieverwijderingen boeken is een handmatig proces.  
 
@@ -96,7 +96,7 @@ Voor elke rekening wordt een regel aangemaakt volgens de structuur van het reken
 * De boekingstekst, gekopieerd uit het dagboek.
 * Het totaal voor het geconsolideerde bedrijf na de eliminaties, als deze zijn geboekt.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Geconsolideerde gegevens exporteren en importeren tussen databases
+## Geconsolideerde gegevens exporteren en importeren tussen databases
 
 Als gegevens voor een bedrijfsunit zich in een andere database bevinden, moet u de gegevens naar een bestand exporteren voordat u deze kunt opnemen in de consolidatie. Elk bedrijf moet afzonderlijk worden geëxporteerd. Voor dit doel gebruikt u de batchverwerking **Consolidatie - Export**.  
 
@@ -112,7 +112,7 @@ De geëxporteerde posten bevatten de volgende velden: **Bankrekeningnr.**, **Boe
 3. De dimensiewaarde die voor de boeking wordt geëxporteerd, is de geconsolideerde bedrijfsdimensiewaarde die is gespecificeerd in het veld **Consolidatiecode** voor die dimensiewaarde. Als er geen dimensiewaarde voor het geconsolideerde bedrijf is opgegeven in het veld **Geconsolideerde code** voor de dimensiewaarde, wordt de dimensiewaarde zelf naar de regel geëxporteerd.  
 4. Bovendien bevatten de XML-bestanden ook de valutawisselkoersen binnen de consolidatieperiode. Deze koersen worden in een apart gedeelte aan het begin van het bestand opgenomen.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md)  
 [Intercompany-transacties beheren](intercompany-manage.md)  
