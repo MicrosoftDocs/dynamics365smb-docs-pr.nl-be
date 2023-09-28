@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: bholtorf
@@ -46,8 +46,6 @@ In de meeste gevallen kunt u posten openen vanaf de betrokken kaart of het betre
 ## Posten bewerken
 
 U kunt bepaalde velden in geboekte inkoopdocumenten bewerken, zoals het **Traceringsnummer (zending)**. veld. Zie voor meer informatie [Geboekte documenten bewerken](across-edit-posted-document.md). Voor kritiekere velden die van invloed zijn op het controlespoor, moet u het boeken omkeren of ongedaan maken. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md).
-
-## Zie gerelateerde [Microsoft-training](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## Zie ook
 

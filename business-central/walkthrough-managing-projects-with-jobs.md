@@ -454,8 +454,6 @@ De volgende procedures laten zien hoe u een nieuw project kunt maken, prijzen ku
 
  In dit scenario heeft u enkele van de basisstappen voor het werken met projecten in [!INCLUDE[prod_short](includes/prod_short.md)] doorlopen. U hebt geleerd over hoe u een nieuw project kunt maken, een project kunt kopiëren en betalingen kunt verwerken. Ook hebt u een demonstratie gekregen van het bijhouden van uren en het opstellen van facturen.  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/create-jobs/)
-
 ## Zie ook
 
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  

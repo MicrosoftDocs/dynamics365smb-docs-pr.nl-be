@@ -27,10 +27,8 @@ In de volgende artikelen worden enkele van de belangrijkste taken beschreven voo
 * [KPI-webservices instellen en publiceren op basis van financiële rapporten](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
 * [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)  
 * [Analyselijsten maken](bi-how-create-analysis-views-reports.md)  
-* [Lijsten met XBRL maken](bi-create-reports-with-xbrl.md)  
+* [Rapporten met XBRL maken](bi-create-reports-with-xbrl.md)  
 * [Databasetoegangsintentie beheren](admin-data-access-intent.md)  
-
-## Zie gerelateerde [Microsoft-training](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## Zie ook
 

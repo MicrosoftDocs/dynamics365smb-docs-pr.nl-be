@@ -134,8 +134,6 @@ Wanneer u deze optie inschakelt, gebruikt het systeem de volgende regels, maar a
 | Niet-EU-land | EU-land anders dan het land in de **bedrijfsgegevens** | Geen Intrastat-regels |
 | Niet-EU-land | Niet-EU-land | Geen Intrastat-regels |   
 
-## Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Zie ook
 
 [Intrastat-rapportage instellen](finance-how-setup-report-intrastat.md)  

@@ -167,13 +167,11 @@ De volgende illustratie geeft aan wanneer het veld **Opslaglocatie** in de mater
 
 :::image type="content" source="media/binflow.png" alt-text="Overzicht van wanneer en hoe het veld Opslaglocatie wordt ingevuld.":::
 
-## Zie gerelateerde [Microsoft-training](/training/paths/pick-ship-items-business-central/)
-
 ## Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
-[Assemblagebeheer](assembly-assemble-items.md)  
+[Assemblage](assembly-assemble-items.md)  
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

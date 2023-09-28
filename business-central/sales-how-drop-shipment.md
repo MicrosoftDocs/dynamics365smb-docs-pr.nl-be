@@ -72,12 +72,10 @@ Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken
 4. Kies de actie **Boeken** of **Boeken en verzenden**.
 5. Kies vervolgens **de optie Verzenden** om later te factureren of de optie **Verzenden en factureren** om meteen te factureren.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Zie ook
 
-[Speciale orders maken:](sales-how-to-create-special-orders.md)  
-[Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md)  
+[Speciale orders maken](sales-how-to-create-special-orders.md)  
+[Artikelen inkopen voor een verkoop](purchasing-how-purchase-products-sale.md)  
 [Producten verkopen](sales-how-sell-products.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Verkoop](sales-manage-sales.md)  

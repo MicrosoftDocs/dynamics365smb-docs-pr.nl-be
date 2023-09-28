@@ -109,8 +109,6 @@ Gebruik voor bulkimport configuratiepakketten om gegevens in de dagboeken te imp
 > [!NOTE]
 > U kunt **Bewerken in Excel** niet gebruiken om dagboekregels met trackinginformatie te maken.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/prepare-item-tracking/)
-
 ## Zie ook
 
 [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  

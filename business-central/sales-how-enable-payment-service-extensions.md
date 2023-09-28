@@ -40,8 +40,6 @@ De extensies , PayPal Payments Standard en WorldPay Payments Standard zijn geïn
     > [!NOTE]  
     > Het veld **Betalingsservice** is alleen beschikbaar als u betalingsservices hebt ingeschakeld.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Verkopen instellen](sales-setup-sales.md)  

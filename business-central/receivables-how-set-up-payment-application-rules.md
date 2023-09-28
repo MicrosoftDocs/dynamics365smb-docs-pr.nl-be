@@ -74,8 +74,6 @@ De volgende tabel beschrijft de standaardregels voor betalingsvereffening in [!I
 | Laag              | 4        | Nr.                    | Nr.                             | Eén overeenkomst                      |
 | Laag              | 5        | Nr.                    | Nr.                             | Meerdere overeenkomsten               |
 
-## Zie gerelateerde [Microsoft-training](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
-
 ## Zie ook
 [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  

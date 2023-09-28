@@ -126,8 +126,6 @@ Wanneer er iets mis is, geeft [!INCLUDE[prod_short](includes/prod_short.md)] de 
 > [!NOTE]
 > De hierboven beschreven foutafhandeling is niet beschikbaar voor artikel-, resource-, werknemers- en vaste-activajournalen, of voor grootboekrekeningen die zijn toegevoegd in lokale versies van boekingsgroepen.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/posting-groups-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  

@@ -37,10 +37,8 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 | Koppel tekst op betalingen aan specifieke klant-, leverancier- of grootboekrekeningen om periodieke ontvangsten of kosten altijd naar deze rekeningen te boeken als er geen documenten zijn voor vereffening. |[Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Stel de regels in die bepalen hoe betalingen/banktransacties automatisch moeten worden vereffend met de gerelateerde openstaande dagboekposten wanneer u de functie **Automatisch vereffenen** gebruikt in het venster **Betalingsreconciliatiedagboek**.|[Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md)|
 
-## Zie gerelateerde [Microsoft-training](/training/modules/use-journals-dynamics-365-business-central/index)
-
 ## Zie ook
-[Bankrekeningen afstemmen](bank-how-reconcile-bank-accounts-separately.md)  
+[Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

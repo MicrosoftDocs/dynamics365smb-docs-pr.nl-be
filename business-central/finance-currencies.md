@@ -29,13 +29,11 @@ U geeft de valutacodes in de lijst **Valuta's** op, inclusief extra informatie e
 
 De wisselkoersen zijn het hulpmiddel om de lokale valutawaarde (LV) van elke valutatransactie te berekenen. Zie voor meer informatie [Valutawisselkoersen bijwerken](finance-how-update-currencies.md).  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Valuta's instellen](finance-set-up-currencies.md)  
 [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)  
-[Een extra rapportagevaluta instellen.](finance-how-setup-additional-currencies.md)  
+[Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md)  
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

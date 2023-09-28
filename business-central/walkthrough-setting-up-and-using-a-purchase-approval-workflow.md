@@ -117,8 +117,6 @@ U definieert variaties van werkstromen door velden op werkstroomregels in te vul
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/modules/use-approval-workflows/)
-
 ## Zie ook
 
 [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)  

@@ -84,8 +84,6 @@ In het rapport **Onderhoud - Details** kunt u onderhoudsposten voor een of meerd
 2. Vul de vereiste velden in.
 3. Kies de knop **Afdrukken** of **Voorbeeld**.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/manage-fixed-assets-maintenance-insurances/)
-
 ## Zie ook
 
 [Vaste activa](fa-manage.md)  

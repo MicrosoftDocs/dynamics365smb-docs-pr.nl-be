@@ -79,8 +79,6 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 4. Vul op de pagina **Projectplanningsregels** op een nieuwe regel de benodigde velden in.
 5. Herhaal stap 3 en 4 voor alle planningsregels die u voor de projecttaak nodig hebt.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-new-job/)
-
 ## Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  

@@ -64,8 +64,6 @@ Het gegenereerde rapportbestand wordt automatisch opgeslagen in de downloadmap v
 
 Lees meer over het aanpassen van rapporten en documenten aan uw zakelijke behoeften op [Rapport- en documentindelingen](ui-manage-report-layouts.md).
 
-## Zie gerelateerde training op [Microsoft Learn](/learn/modules/work-with-reports/).
-
 ## Zie ook
 
 [Rapporten gebruiken in het dagelijkse werk](reports-use-reports.md)  

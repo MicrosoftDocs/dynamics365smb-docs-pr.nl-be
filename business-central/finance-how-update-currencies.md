@@ -122,13 +122,11 @@ U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, z
 
 De waarde in het veld **Wisselkoers** op de pagina **Valuta's** wordt bijgewerkt met de laatste wisselkoers.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Valuta's in Business Central](finance-currencies.md)  
 [Valuta's instellen](finance-set-up-currencies.md)  
-[Een extra rapportagevaluta instellen.](finance-how-setup-additional-currencies.md)  
+[Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md)  
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

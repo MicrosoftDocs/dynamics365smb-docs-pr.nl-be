@@ -3,21 +3,21 @@ title: SKU's instellen
 description: Gebruik SKU's om gegevens op te nemen over uw artikelen voor een bepaalde vestiging of een bepaalde variant.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/19/2023
 ms.custom: bap-template
 ms.search.forms: '5704, 5700, 5702, 5701'
 ---
 
-# <a name="set-up-stockkeeping-units"></a>SKU's instellen
+# SKU's instellen
 
 Gebruik SKU's om gegevens op te nemen over artikelen voor een bepaalde vestiging of variant. Hiermee kunt u verschillende informatie over een artikel voor een specifieke vestiging toevoegen, bijvoorbeeld:
 
 * Een magazijn of distributiecentrum
 * Varianten, zoals verschillende schapnummers en verschillende aanvullingsinformatie, voor hetzelfde artikel  
 
-## <a name="to-set-up-a-stockkeeping-unit"></a>SKU's instellen
+## SKU's instellen  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **SKU's** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -34,9 +34,7 @@ Als u meerdere SKU's voor een artikel wilt maken, kunt u de batchverwerking **SK
 > Wanneer de SKU wordt geleverd via productie, wordt het veld **Vaste verrekenprijs** niet gebruikt bij de facturering en de berekening van de werkelijke kosten van het geproduceerde artikel. In plaats daarvan gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de waarde in het veld **Vaste verrekenprijs** van de artikelkaart en worden eventuele afwijkingen berekend tegen het kostenaandeel van dat artikel.<br><br>
 > Hoewel u productiestuklijsten en bewerkingsplannen aan SKU's kunt toewijzen, zijn de berekening van kosten per eenheid en de bijbehorende berekening van het kostenaandeel niet beschikbaar voor SKU's. Ga voor meer informatie over vaste verrekenprijzen naar [Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/control-inventory-multiple-locations/)
-
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  

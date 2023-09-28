@@ -66,8 +66,6 @@ U kunt meerdere vaste activa combineren in één vast activum, bijvoorbeeld als 
 2. Vul de vereiste velden in.
 3. Kies de knop **Afdrukken** of **Voorbeeld**.  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/reclassify-fixed-assets/)
-
 ## Zie ook
 
 [Vaste activa](fa-manage.md)  

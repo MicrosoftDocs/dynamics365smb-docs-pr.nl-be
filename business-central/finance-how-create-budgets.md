@@ -53,8 +53,6 @@ U voert 1.200.000 in op de kopregel, exporteert het budget naar Excel en stuurt 
 
 De afdeling Salarissen distribueert het bedrag over de drie boekingsrekeningen. Wanneer u terug importeert in het grootboekbudget, worden de drie rekeningen ingevuld met de nieuwe Excel-gegevens, tot een totaal van 1.200.000, en is de kopregel leeg.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
-
 ## Zie ook
 
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)  

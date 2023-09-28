@@ -42,8 +42,6 @@ Deze video laat zien hoe u een werkstroom instelt waarvoor een gebruiker de goed
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
-
 ## Zie ook
 
 [Goedkeuringswerkstromen gebruiken](across-use-workflows.md)  

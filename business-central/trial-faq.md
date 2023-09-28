@@ -44,8 +44,6 @@ Schakel over naar de proefversie van 30 dagen en voeg vervolgens uw eigen gegeve
 
 Dat is niet mogelijk. Als u per ongeluk voorbeeldgegevens verwijdert, vraagt u uw beheerder om een nieuwe sandbox-omgeving te maken. Zie [Productie- en sandbox-omgevingen](/dynamics365/business-central/dev-itpro/administration/environment-types) in de beheerdersinhoud (uitsluitend in het Engels) voor meer informatie.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/trial-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Aanmelden voor een gratis Dynamics 365 Business Central-proefversie](trial-signup.md)  

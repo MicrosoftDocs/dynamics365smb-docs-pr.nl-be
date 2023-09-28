@@ -2,14 +2,12 @@
 title: E-mail instellen in Business Central (bevat video)
 description: 'Beschrijft hoe u e-mailaccounts verbindt met Business Central, zodat u uitgaande berichten kunt verzenden zonder een andere app te hoeven openen.'
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # E-mail instellen
@@ -56,7 +54,9 @@ De volgende tabel beschrijft de e-mailextensies die standaard beschikbaar zijn.
 Als u het SMTP-protocol wilt gebruiken om e-mails te verzenden vanaf [!INCLUDE[prod_short](includes/prod_short.md)], kunt u de extensie SMTP-connector gebruiken. Wanneer u een account instelt dat SMTP gebruikt, is het veld **Type afzender** belangrijk. Als u **Specifieke gebruiker** kiest, worden e-mails verzonden met de naam en andere informatie van het account dat u instelt. Als u echter **Huidige gebruiker** kiest, worden e-mails verzonden vanaf het e-mailaccount dat is opgegeven voor het account van elke gebruiker. Huidige gebruiker is vergelijkbaar met de functie Verzenden als. Voor meer informatie zie [Een vervangend afzenderadres gebruiken voor uitgaande e-mailberichten](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt u het OAuth 2.0-protocol voor verificatie gebruiken. U moet een toepassingsregistratie maken in de Azure-portal en vervolgens de begeleide instelling **Azure Active Directory** instellen in [!INCLUDE[prod_short](includes/prod_short.md)] gebruiken om verbinding te maken met Azure AD. Zie voor meer informatie [Een app-registratie voor Business Central maken in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, kunt u het OAuth 2.0-protocol voor verificatie gebruiken. Als u OAuth voor SMTP wilt gebruiken, moeten alle gebruikers zich op dezelfde Microsoft Entra-tenant bevinden. 
+> 
+> U moet een toepassingsregistratie maken in de Azure-portal en vervolgens de begeleide instelling **Azure Active Directory** instellen in [!INCLUDE[prod_short](includes/prod_short.md)] gebruiken om verbinding te maken met Azure AD. Zie voor meer informatie [Een app-registratie voor Business Central maken in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
 > Exchange Online schaft het gebruik van basisverificatie voor SMTP af. Tenants die momenteel SMTP AUTH gebruiken, worden niet beïnvloed door deze wijziging. We raden echter ten zeerste aan om de nieuwste versie van [!INCLUDE [prod_short](includes/prod_short.md)] te gebruiken en OAuth 2.0-verificatie voor SMTP in te stellen. We zullen geen op certificaten gebaseerde verificatie toevoegen voor eerdere versies van [!INCLUDE [prod_short](includes/prod_short.md)], bijvoorbeeld versie 14. Als u geen OAuth 2.0-authenticatie kunt instellen, raden we u aan alternatieven van derden te verkennen als u SMTP-e-mail in eerdere versies wilt gebruiken.
 
@@ -274,14 +274,12 @@ Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUD
 
 -->
 
-## Zie gerelateerde [Microsoft-training](/training/modules/set-up-email/)
-
 ## Zie ook
 
 [Gedeelde postbussen in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Documenten verzenden via e-mail](ui-how-send-documents-email.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] installeren op mijn mobiele apparaat](install-mobile-app.md)   

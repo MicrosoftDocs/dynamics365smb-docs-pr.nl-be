@@ -15,8 +15,6 @@ ms.author: bholtorf
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  

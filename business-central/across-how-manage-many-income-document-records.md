@@ -47,8 +47,6 @@ Alle inkomende documentrecords worden weergegeven, inclusief records waarvan het
 > [!NOTE]  
 > U kunt deze actie uitvoeren voor de afzonderlijke contactkaart op de pagina **Kaart inkomend document**.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Zie ook
   
 [Inkomende documentrecords maken](across-how-create-income-document-records.md)

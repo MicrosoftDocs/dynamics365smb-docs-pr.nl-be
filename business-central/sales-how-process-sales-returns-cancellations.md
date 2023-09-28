@@ -140,14 +140,12 @@ Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld *
 
 Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md).
 
-## Zie gerelateerde [Microsoft-training](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
-[Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Documenten verzenden via e-mail](ui-how-send-documents-email.md)  
 [Inkoopretouren of annuleringen verwerken](purchasing-how-process-purchase-returns-cancellations.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

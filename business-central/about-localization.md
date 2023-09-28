@@ -2,26 +2,25 @@
 title: Lokale functionaliteit en lokalisatiestrategie
 description: Lees meer over de lokale beschikbaarheid en naleving van regelgeving in Business Central voor de landen/regio's waar Microsoft de lokale functionaliteit biedt.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
 ms.search.keywords: 'availability, localization'
 ms.search.form: null
-ms.date: 06/11/2021
-ms.author: bholtorf
+ms.date: 09/05/2023
+ms.custom: bap-template
 ---
-# <a name="what-is-local-functionality-in-"></a>Lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]
+# Wat is lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] heeft een gecombineerde lokalisatiestrategie die zowel door Microsoft geleide als door partners geleide modellen bevat. In dit gedeelte kunt u beschrijvingen van functionaliteit bekijken die geldt voor de landen/regio's waarin Microsoft de wettelijke naleving en andere lokale functionaliteit levert.  
 
-Zie voor een lijst van momenteel ondersteunde markten [Beschikbaarheid in landen en regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
+Ga voor een lijst van momenteel ondersteunde markten naar [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Lokale functionaliteit
+## Lokale functionaliteit
 
-Kies voor meer informatie over de lokale functionaliteit voor elk land/regio de gerelateerde koppeling:
+De volgende tabel bevat koppelingen naar artikelen waar u meer te weten kunt komen over de lokale functionaliteit voor elk land/regio.
 
-| Regio | Land | Meer informatie |
+| Regio | Land/regio | Meer informatie |
 | --- | --- |--- |
 | Europa |  | |
 |        | Oostenrijk | [Lokale functionaliteit voor Oostenrijk](localfunctionality/austria/austria-local-functionality.md) |
@@ -48,11 +47,12 @@ Kies voor meer informatie over de lokale functionaliteit voor elk land/regio de 
 |        | India | [Lokale functionaliteit voor India](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nieuw-Zeeland | [Lokale functionaliteit voor Nieuw Zeeland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Overige landen/regio's
+### Overige landen/regio's
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is tevens in andere markten beschikbaar via lokalisatieapps. Als een Microsoft-partner een lokalisatieapp voor uw land/regio heeft ontwikkeld, kunt u deze vinden in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
+
 [Omgevingen maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Naleving](compliance/compliance-overview.md)  

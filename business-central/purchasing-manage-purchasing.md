@@ -43,12 +43,10 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/paths/purchase-items-services-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Inkoop instellen](purchasing-setup-purchasing.md)  
-[Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
+[Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Projecten beheren](projects-manage-projects.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

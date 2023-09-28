@@ -3,7 +3,7 @@ title: Assembleren voor order-artikelen verkopen
 description: Leer hoe u een artikel verkoopt dat is geassembleerd voor een order.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -60,11 +60,9 @@ In deze procedure kunt u de verkoop van een artikel verwerken dat wordt samenges
 > [!NOTE]  
 > Artikelvervangingen leiden er niet automatisch toe dat een artikel wordt vervangen door een ander artikel, bijvoorbeeld bij het maken van een verkooporder of in een stuklijst. In plaats daarvan wordt u erop gewezen dat er een vervanging beschikbaar is.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/assemble-to-order-dynamics-365-business-central/)
-
 ## Zie ook
 
-[Assemblagebeheer](assembly-assemble-items.md)  
+[Assemblage](assembly-assemble-items.md)  
 [Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)  
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad](inventory-manage-inventory.md)  

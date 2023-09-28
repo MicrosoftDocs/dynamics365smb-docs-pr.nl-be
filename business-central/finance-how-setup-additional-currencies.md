@@ -124,12 +124,10 @@ Bovendien hebben alle toekomstige posten van hetzelfde type bedragen in zowel de
 > [!NOTE]  
 > Het veld **Rapportagevaluta** wordt pas geactiveerd nadat u op de knop **OK** in de batchverwerking **Rapp.-val. herwaarderen** hebt geklikt.  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)  
-[Afsluitingsjaren en -perioden](year-close-years-periods.md)  
+[Jaren en perioden afsluiten](year-close-years-periods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

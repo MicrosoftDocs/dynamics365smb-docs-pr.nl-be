@@ -55,8 +55,6 @@ Het is mogelijk om batches in te stellen in een verzekeringsdagboeksjabloon. De 
 > [!NOTE]  
 >   Nummers hebben een speciale functie in dagboeknamen. Als een dagboeksjabloon of dagboekbatch een nummer bevat, wordt dit nummer bij elke boeking van het dagboek automatisch verhoogd. Als HH1 bijvoorbeeld is opgegeven in het veld **Naam**, verandert de naam van het dagboek in HH2 als het dagboek met de naam HH1 is geboekt.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/set-up-fixed-assets-management/)
-
 ## Zie ook
 
 [Vaste activa instellen](fa-setup.md)  

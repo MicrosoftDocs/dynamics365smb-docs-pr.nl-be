@@ -220,11 +220,9 @@ Het herindelen van artikeltracering wil zeggen dat u een lot- of serienummer wij
 8. Als u de bestaande gegevens voor het lot- of serienummer wilt wijzigen, kunt u informatie over lot- of serienummers vastleggen.  
 9. Boek het dagboek om de vernieuwde artikeltraceringsnummers of vervaldatums te koppelen aan de bijbehorende artikelpost.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/prepare-item-tracking/)
-
 ## Zie ook
 
-[Artikeltracering instellen met serie-, partij- en pakketnummers](inventory-how-setup-item-tracking.md)  
+[Artikeltracering instellen met serie-, lot- en pakketnummers](inventory-how-setup-item-tracking.md)  
 [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)  

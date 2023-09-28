@@ -22,8 +22,6 @@ Maak op de pagina **Werkstroom** een werkstroom door de betrokken stappen te ver
 2. Open de werkstroom die u wilt inschakelen.  
 3. Zet de schakelaar **Geactiveerd** aan op de pagina **Werkstroom**.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
-
 ## Zie ook
 
 [Goedkeuringswerkstromen maken](across-how-to-create-workflows.md)  

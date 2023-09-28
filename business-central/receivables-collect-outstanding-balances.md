@@ -107,11 +107,9 @@ Zodra u een aanmaning verzendt, wordt op de pagina **Aanmanings-/renteposten** e
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Zie voor meer informatie [Meerdere rentepercentages instellen](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Zie ook
 
-[De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)  
+[Termijnen, niveaus en tekst van aanmaningen instellen](finance-setup-reminders.md)  
 [Rentefactuurcondities instellen](finance-setup-finance-charges.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  

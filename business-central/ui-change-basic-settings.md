@@ -107,8 +107,6 @@ Kies de koppeling *Wijzigen wanneer ik berichten ontvang* om de berichten te zie
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

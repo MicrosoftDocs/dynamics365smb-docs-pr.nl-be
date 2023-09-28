@@ -10,7 +10,7 @@ ms.date: 12/05/2022
 ms.custom: bap-template
 ---
 
-# <a name="warehouse-management-overview"></a>Overzicht van magazijnbeheer
+# Overzicht van magazijnbeheer
 
 Er zijn twee dingen die belangrijk zijn voor alle bedrijven die goederen fysiek in en uit hun magazijn verplaatsen:
 
@@ -26,7 +26,7 @@ Om bedrijven te helpen deze dingen te bereiken, voegen magazijnfuncties in [!INC
 
 Implementeer deze functies in verschillende combinaties om uw magazijnprocessen af te stemmen op uw bedrijf. Houd rekening met toenemende complexiteit naarmate uw bedrijf groeit en uw processen veranderen.
 
-## <a name="overview-of-different-configuration-options"></a>Overzicht van verschillende configuratieopties
+## Overzicht van verschillende configuratieopties
 
 U kunt magazijnfuncties op verschillende manieren configureren. Het is belangrijk opties te kiezen die uw processen verbeteren zonder overhead te veroorzaken. De volgende tabel geeft een overzicht van typische configuraties die worden gebruikt bij het omgaan met fysieke goederen.
 
@@ -48,13 +48,13 @@ De mate van complexiteit wordt ook beïnvloed door de soorten documenten die u g
 
 Een andere factor die de complexiteit beïnvloedt, is hoe uw fysieke magazijn wordt weergegeven in [!INCLUDE[prod_short](includes/prod_short.md)]. Ga voor meer informatie naar [Het fysieke magazijn modelleren](#modeling-the-physical-warehouse).
 
-## <a name="modeling-the-physical-warehouse"></a>Het fysieke magazijn modelleren
+## Het fysieke magazijn modelleren
 
 U hebt verschillende opties om de real-world setup van uw magazijn weer te geven in [!INCLUDE[prod_short](includes/prod_short.md)]. Uw keuzes bepalen hoe u met magazijnfuncties werkt.
 
 De plaatsing van artikelen kan schappen, vestigingen of opslaglocaties zijn en er zijn voor- en nadelen voor elke optie.
 
-### <a name="locations-and-bins"></a>Vestigingen en opslaglocaties
+### Vestigingen en opslaglocaties
 
 Om fysieke goederen af te handelen, moet u ten minste één vestiging hebben. U kunt meerdere vestigingen gebruiken of opslaglocaties gebruiken om uw magazijn en organisatiestructuur te modelleren.
 
@@ -66,7 +66,7 @@ Vestigingen zijn doorgaans de voorkeursmanier om operaties te organiseren die ov
 * Stel planningsparameters in. Zie voor meer informatie [Planningsparameters](production-about-planning-functionality.md#planning-parameters).  
 * Gebruik verschillende magazijnfuncties voor elke vestiging.
 
-### <a name="shelves-and-bins"></a>Schappen en opslaglocaties
+### Schappen en opslaglocaties
 
 Als u een artikel altijd op dezelfde plek bewaart, kunt u het veld **Schapnummer** gebruiken op de pagina's **Artikel** of **SKU**. Het veld kan worden gebruikt als een handmatig basisopslagsysteem in omgevingen zonder opslaglocaties. Het wordt gekopieerd van de artikelkaart naar lijsten en documentregels, maar is niet te wijzigen. De waarde wordt niet gebruikt in magazijnactiviteiten of beschikbaarheidsberekeningen.
 
@@ -77,7 +77,7 @@ Opslaglocaties vertegenwoordigen de standaardmagazijnstructuur en worden gebruik
 * Opslaglocatiecapaciteit en gewichtsbeperkingen (alleen voor gerichte opslag en pick).
 * Opslaglocatiebeoordeling (alleen voor gestuurde opslag en pick).
 
-## <a name="typical-warehouse-workflow"></a>Typische magazijnwerkstroom
+## Typische magazijnwerkstroom
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
@@ -89,19 +89,19 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 
 Stel de magazijnprocessen in die geschikt zijn voor uw bedrijf. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
-## <a name="terminology-related-to-warehouse-management"></a>Terminologie gerelateerd aan magazijnbeheer
+## Terminologie gerelateerd aan magazijnbeheer
 
-### <a name="complexity-levels"></a>Complexiteitsniveaus
+### Complexiteitsniveaus
 
 We gebruiken de termen "basis" en "geavanceerd" om onderscheid te maken tussen niveaus van complexiteit. Deze eenvoudige differentiatie dekt verschillende niveaus van complexiteit in vestigingsinstellingen, elk ondersteund door verschillende magazijndocumenten. Het meest geavanceerde niveau van magazijnbeheer wordt "Gerichte opslag en pick" genoemd. Om gerichte opslag en pick voor een vestiging te gebruiken schakelt u **gerichte opslag en pick** in op de pagina **Vestiging**.
 
-### <a name="warehouse-flows"></a>Magazijnstromen
+### Magazijnstromen
 
 * Inkomende stroom: artikelen verplaatsen naar de magazijnvestiging en ze beschikbaar maken, zoals aankopen en inkomende transfers.
 * Uitgaande stroom: artikelen picken en verzenden naar klanten of andere vestigingen.
 * Interne stroom: artikelen verwerken binnen een vestiging. Bijvoorbeeld wanneer u componenten naar productie verplaatst of een fysieke inventarisatie uitvoert.
 
-### <a name="basic-documents"></a>Basisdocumenten
+### Basisdocumenten  
 
 De volgende documenten worden gebruikt in basismagazijnstromen.
 
@@ -111,7 +111,7 @@ De volgende documenten worden gebruikt in basismagazijnstromen.
 * Artikeldagboek
 * Artikelherindelingsdagboek
 
-### <a name="advanced-documents"></a>Geavanceerde documenten
+### Geavanceerde documenten  
 
 De volgende documenten worden gebruikt in geavanceerde magazijnstromen.
 
@@ -129,11 +129,11 @@ De volgende documenten worden gebruikt in geavanceerde magazijnstromen.
 * Magazijnartikeldagboek
 * Dagboek voor magazijnartikelherindeling
 
-### <a name="pages-and-settings"></a>Pagina's en instellingen
+### Pagina's en instellingen
 
 In dit gedeelte worden de concepten achter de belangrijkste pagina's en instellingen voor magazijnbeheer beschreven.
 
-#### <a name="bins-and-bin-content"></a>Opslaglocaties en inhoud ervan
+#### Opslaglocaties en inhoud ervan
 
 Een opslaglocatie is een opslagapparaat dat is ontworpen om afzonderlijke onderdelen te bevatten. Het is de kleinste containereenheid in [!INCLUDE[prod_short](includes/prod_short.md)]. Artikelaantallen in opslaglocaties worden *opslaglocatie-inhoud* genoemd. Een opzoekactie vanuit het veld **Artikel** of het veld **Opslaglocatie** op een magazijngerelateerde documentregel geeft de berekende beschikbaarheid van het artikel op de opslaglocatie weer.  
 
@@ -150,7 +150,7 @@ De opslaglocatie-eigenschap **Standaard** wordt door [!INCLUDE [prod_short](incl
 
 U kunt slechts één standaardopslaglocatie per artikel per vestiging hebben.  
 
-#### <a name="bin-type"></a>Opslaglocatiesoort
+#### Opslaglocatiesoort
 
 Vestigingen die gerichte opslag en pick gebruiken, kunnen opslaglocatietypes gebruiken. Opslaglocatietypes bepalen de activiteiten die u toestaat voor een opslaglocatie. De volgende typen opslaglocaties zijn beschikbaar:  
 
@@ -168,7 +168,7 @@ Met uitzondering van de opslaglocaties van het type PICK, OPSLPICK en OPSLAG def
 > [!NOTE]  
 > U moet verplaatsingen gebruiken om artikelen naar ONTVANGEN- en QC-opslaglocaties te verplaatsen en verplaatsingen gebruiken om artikelen uit VERZENDEN- en QC-opslaglocaties te verplaatsen.  
 
-#### <a name="bin-ranking"></a>Volgorde van opslaglocatie
+#### Volgorde van opslaglocatie
 
 In geavanceerd magazijnbeheer kunt u het verzamelen van artikelen in opslag- en pickwerkbladen automatiseren en optimaliseren door opslaglocaties te rangschikken. Artikelen worden voorgesteld voor picken en opslaan op basis van de opslaglocatierangen.
 
@@ -176,7 +176,7 @@ Opslagprocessen worden geoptimaliseerd op rangorde van opslaglocaties doordat op
 
 Opslaglocatierangen en opslaglocatie-inhoud zijn de basiseigenschappen die magazijnmedewerkers in het magazijn leiden.  
 
-#### <a name="bin-setup"></a>Instelling opslaglocatie
+#### Instelling opslaglocatie
 
 In geavanceerd magazijnbeheer kunt u de volgende capaciteitswaarden opgeven om te bepalen hoe en in welke opslaglocaties u artikelen opslaat:
 
@@ -193,7 +193,7 @@ Voordat u capaciteitsbeperkingen instelt voor inhoud van een opslaglocatie, moet
 > [!NOTE]  
 > U kunt alleen meerdere maateenheden gebruiken op locaties die gerichte opslag en pick gebruiken. In alle andere configuraties kan opslaglocatie-inhoud alleen worden uitgedrukt in de basismaateenheid. In alle transacties met een grotere maateenheid dan de basismaateenheid van het artikel wordt het aantal geconverteerd naar de basismaateenheid.  
 
-#### <a name="zone"></a>Regio
+#### Regio
 
 In geavanceerde magazijnomgevingen kunnen opslaglocaties in zones worden gegroepeerd om te beheren hoe de werkstroom van magazijnactiviteiten wordt gedirigeerd voor vestigingen.  
 
@@ -201,7 +201,7 @@ Een zone kan een ontvangstzone of een bevoorradingszone zijn en elke zone kan ui
 
 De meeste eigenschappen die zijn toegewezen aan een zone, worden toegewezen aan de opslaglocatie die voor de zone wordt gemaakt.  
 
-#### <a name="warehouse-class"></a>Magazijnklasse
+#### Magazijnklasse
 
 In geavanceerd magazijnbeheer kunt u magazijnklassecodes toewijzen aan de volgende entiteiten: 
 
@@ -215,11 +215,11 @@ Als u magazijnklassen en een standaardopslaglocatie voor ontvangst/verzending ge
 
 In inkomende stromen wordt de klassecode alleen gemarkeerd op inkomende regels waar de artikelklassecode niet overeenkomt met de standaardopslaglocatie. Als de juiste standaardopslaglocaties niet zijn toegewezen, kan het aantal niet worden ontvangen.  
 
-#### <a name="location"></a>Vestiging
+#### Vestiging
 
 Een vestiging is een fysieke structuur of plaats waar inventaris wordt ontvangen, opgeslagen en verzonden. Een vestiging kan een magazijn, servicewagen, showroom, fabriek of een gebied in een fabriek zijn. Voorraad is vaak georganiseerd in opslaglocaties en zones.
 
-#### <a name="first-expired-first-out"></a>First-Expired-First-Out (Eerst-vervallen-eerst-uit)
+#### First-Expired-First-Out (Eerst-vervallen-eerst-uit)
 
 Als u het selectievakje **Picken volgens FEFO** inschakelt op het sneltabblad **Opslaglocatiebeleid** op de **vestigingskaart**, worden artikelgetraceerde artikelen op de vestiging gepickt op basis van de vervaldatum. Artikelen met de vroegste vervaldatums worden eerst gepickt.  
 
@@ -227,13 +227,11 @@ Magazijnactiviteiten in alle pick- en verplaatsingsdocumenten worden gesorteerd 
 
 Bij picken volgens FEFO worden artikelen eerst verzameld in een tijdelijke artikeltraceringslijst op basis van de vervaldatum. Als twee artikelen dezelfde vervaldatum hebben, wordt het artikel met het laagste lot- of serienummer het eerste gepickt. Als de lot- of serienummers gelijk zijn, wordt het artikel dat als eerste is geregistreerd, als eerste geselecteerd. Standaardcriteria voor het selecteren van artikelen in pickopslaglocaties, zoals opslaglocatievolgorde en splitsen van bulkgoederen, worden toegepast op de tijdelijke FEFO-artikeltraceringslijst.  
 
-#### <a name="put-away-template"></a>Opslagsjabloon
+#### Opslagsjabloon
 
 Opslagsjablonen geven een set prioriteitsregels op die moeten worden aangehouden wanneer u opslagactiviteiten maakt. Een opslagsjabloon kan bijvoorbeeld vereisen dat u artikelen in een opslaglocatie plaatst met opslaglocatie-inhoud die dezelfde maateenheid heeft. Als er geen vergelijkbare opslaglocatie met voldoende capaciteit kan worden gevonden, moet het artikel in een lege opslaglocatie worden geplaatst. U wijst een opslagsjabloon toe aan een artikel en aan een vestiging.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
-
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  

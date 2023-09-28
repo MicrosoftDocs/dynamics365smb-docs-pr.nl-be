@@ -82,8 +82,6 @@ U kunt ervoor kiezen om geen waarschuwingen te ontvangen die u vertellen dat de 
     |**Openstaand saldo**|Het veld **Openstaand bedrag** op de klantenkaart wordt ingeschakeld en er wordt een waarschuwing weergegeven als de klant een openstaand saldo heeft.|
     |**Geen**|Er worden geen kredietwaarschuwingen weergegeven over de status van de klant.|
 
-## Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Betalingsmethoden definiëren](finance-payment-methods.md)  

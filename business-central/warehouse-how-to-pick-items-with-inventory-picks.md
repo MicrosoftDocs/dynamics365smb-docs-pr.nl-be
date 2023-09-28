@@ -3,7 +3,7 @@ title: Artikelen picken met een voorraadpick
 description: Ontdek hoe u voorraadpicks kunt gebruiken om pick- en verzendinformatie voor brondocumenten vast te leggen en te boeken.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -119,8 +119,6 @@ In scenario's waarbij een deel van de hoeveelheid wordt geassembleerd en een and
 
 > [!NOTE]  
 > Als artikelen op bestelling worden geassembleerd, maakt de voorraadpick voor de gekoppelde verkooporder een voorraadverplaatsing voor alle assemblagematerialen.  
-
-## Zie gerelateerde [Microsoft-training](/training/paths/pick-ship-items-business-central/)
 
 ## Zie ook
 

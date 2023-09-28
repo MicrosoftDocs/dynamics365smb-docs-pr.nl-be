@@ -118,14 +118,14 @@ Boeking voor de specifieke gebruiker beperken:
 3. Geef in het veld **Boeken toegest. vanaf** de btw-datum op vanaf wanneer u boekingen toestaat. Het boeken van een document of dagboek met een btw-datum vóór deze datum is niet toegestaan.
 4. Geef in het veld **Boeken toegest. tot** de btw-datum op tot wanneer u boekingen toestaat. Het boeken van een document of dagboek met een btw-datum na deze datum is niet toegestaan.
 
-## Btw-nummers instellen voor uw land of regio
+## Btw-nummers instellen voor uw land/regio
 
-Als u ervoor wilt zorgen dat gebruikers geldige btw-nummers invoeren, kunt u notaties definiëren voor de btw-nummers die worden gebruikt in de landen of regio's waar u zaken doet. [!INCLUDE[prod_short](includes/prod_short.md)] geeft een foutbericht weer wanneer iemand een fout maakt of een notatie gebruikt die onjuist is voor het land of de regio.
+Als u ervoor wilt zorgen dat gebruikers geldige btw-nummers invoeren, kunt u notaties definiëren voor de btw-nummers die worden gebruikt in de landen of regio's waar u zaken doet. [!INCLUDE[prod_short](includes/prod_short.md)] geeft een foutbericht weer wanneer iemand een fout maakt of een notatie gebruikt die onjuist is voor het land/regio.
 
 Als u btw-nummers wilt instellen, gaat u als volgt te werk:
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 2 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Landen/regio's** in.
-2. Kies het land of de regio, en kies de actie **Btw-nummernotaties**.
+2. Kies het land/regio, en kies de actie **Btw-nummernotaties**.
 3. Definieer in het veld **Notaties** de notatie door een of meer van de volgende tekens in te voeren:  
 
 * **#** Vereist een getal van één cijfer.  
@@ -133,7 +133,7 @@ Als u btw-nummers wilt instellen, gaat u als volgt te werk:
 * **?** Staat elk teken toe.  
 
     > [!TIP]
-    > U kunt andere tekens gebruiken zolang deze aanwezig zijn in de notatie van het land of de regio. Als u dus een punt of een streepje wilt opnemen in een reeks cijfers, kunt u de notatie definiëren als ##.####.### of @@-###-###.  
+    > U kunt andere tekens gebruiken zolang deze aanwezig zijn in de notatie van het land/regio. Als u dus een punt of een streepje wilt opnemen in een reeks cijfers, kunt u de notatie definiëren als ##.####.### of @@-###-###.  
 
 ## Btw-bedrijfsboekingsgroepen instellen
 
@@ -241,7 +241,7 @@ U kunt een btw-clausule wijzigen of verwijderen, en uw wijzigingen worden in een
 ### Uitgebreide tekst voor btw-clausules specificeren
 
 > [!NOTE]  
-> Als uw land of regio langere tekst voor de btw-clausules vereist dan de standaardversie ondersteunt, kunt u de langere tekst voor de btw-clausules opgeven als *uitgebreide tekst* zodat deze wordt afgedrukt op de verkoop- en inkooprapporten.  
+> Als uw land/regio langere tekst voor de btw-clausules vereist dan de standaardversie ondersteunt, kunt u de langere tekst voor de btw-clausules opgeven als *uitgebreide tekst* zodat deze wordt afgedrukt op de verkoop- en inkooprapporten.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent 11.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-clausules** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Uitgebreide teksten**.  
@@ -298,11 +298,9 @@ Bedragen in documenten die nog niet zijn geboekt, worden afgerond en weergegeven
 
 ## Btw-aangifte instellen
 
-U moet informatie instellen over hoe de belastingdienst in uw land of regio u verplicht om btw-aangiften in te dienen. De volgende stappen illustreren de meest gebruikte informatie. Voor uw land of regio zijn mogelijk echter aanvullende stappen vereist. Zie voor meer informatie het betreffende artikel in de sectie *Lokale functionaliteit* in het paneel aan de linkerkant.
+U moet informatie instellen over hoe de belastingdienst in uw land/regio u verplicht om btw-aangiften in te dienen. De volgende stappen illustreren de meest gebruikte informatie. Voor uw land/regio zijn mogelijk echter aanvullende stappen vereist. Zie voor meer informatie het betreffende artikel in de sectie *Lokale functionaliteit* in het paneel aan de linkerkant.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
-
-## Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## Zie ook
 

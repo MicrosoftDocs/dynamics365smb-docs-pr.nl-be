@@ -70,8 +70,6 @@ De functie **Vertel me wat u wilt doen** zoekt niet naar gegevens, zoals klantna
 
 We hebben Vertel me aan een reeks belanghebbenden laten zien, vragen die ze gemeen hadden, genoteerd en van onze aantekeningen een lijst met veelgestelde vragen gemaakt. Als u geïnteresseerd bent, gaat u naar [Veelgestelde vragen over Vertel me](ui-search-faq.md).
 
-## Zie gerelateerde [Microsoft-training](/training/modules/user-interface-dynamics-365-business-central/index)
-
 ## Zie ook
 
 [Werken met Business Central](ui-work-product.md)  

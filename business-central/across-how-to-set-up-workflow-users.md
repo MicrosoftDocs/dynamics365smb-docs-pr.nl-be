@@ -34,8 +34,6 @@ Op de pagina **Werkstroomgebruikersgroepen** kunt u opgeven waar een deelnemer e
 
 6. Herhaal stap 5 om meer werkstroomgebruikers aan de werkstroomgebruikersgroep toe te voegen.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
-
 ## Zie ook
 
 [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)  

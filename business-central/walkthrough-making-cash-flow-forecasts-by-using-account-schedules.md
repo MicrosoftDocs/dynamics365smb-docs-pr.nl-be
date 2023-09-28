@@ -133,8 +133,6 @@ Ken kan nu de kolomdefinitie toewijzen aan de naam van het financiële rapport.
 2. Op de pagina **Financieel rapport** kunt u een bedrag selecteren en vervolgens de cashflowprognoseposten weergeven waaruit het bedrag bestaat. Bovendien kunt u de formule weergegeven die voor het berekenen van dat bedrag wordt gebruikt. U kunt de bedragen ook filteren op datum en dimensie.  
 3. Kies de actie **Afdrukken** om de cashflowprognose af te drukken.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Werken met financiële rapporten](bi-how-work-account-schedule.md)  

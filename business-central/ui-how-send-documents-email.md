@@ -76,8 +76,6 @@ Sommige documenten in [!INCLUDE[prod_short](includes/prod_short.md)] hebben een 
 
 In de **E-mailoutbox** vindt u de e-mails die u als concept hebt opgeslagen en e-mails die niet konden worden verzonden, bijvoorbeeld als het e-mailadres ongeldig was. Voor berichten die niet zijn verzonden, kunt u **Fout weergeven** of **Fout onderzoeken** kiezen om het probleem op te lossen.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/set-up-email/)
-
 ## Zie ook
 
 [Rapport- en documentlay-outs beheren](ui-manage-report-layouts.md)  

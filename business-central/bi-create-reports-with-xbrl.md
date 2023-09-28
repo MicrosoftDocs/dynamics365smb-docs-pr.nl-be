@@ -114,11 +114,9 @@ Als een taxonomie verandert, moet u de huidige taxonomie overeenkomstig bijwerke
 6. U importeert de linkbase door de actie **Importeren** te kiezen.  
 7. Kies **Ja** om de linkbase op het schema toe te passen.  
 
-## Zie gerelateerde training op [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
-
 ## Zie ook
 
-[Financiële bedrijfsinformatie](bi.md)  
+[Financiële Business Intelligence](bi.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

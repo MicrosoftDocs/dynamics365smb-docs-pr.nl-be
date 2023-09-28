@@ -144,7 +144,7 @@ De pagina **Inkoopvoorstel** vermeldt artikelen die u wilt bestellen. U kunt op 
 
 - Voer de artikelen handmatig in op het voorstel en vul de relevante velden in.
 
-- Gebruik de batchverwerking **Planning berekenen**. Hiermee wordt een aanvullingsplan berekend voor artikelen en SKU's waarvoor de aanvullingsmethode **Inkoop** of **Transfer** is ingesteld. Wanneer u deze batchverwerking gebruikt, wordt het veld **Planningsboodschap** automatisch ingevuld met een aanvullingsvoorstel voor het artikel. Hierdoor kan het aantal artikelen op een bestaande order worden vergroot, of er kan bijvoorbeeld een nieuwe order worden gemaakt.
+- Gebruik de batchverwerking **Planning berekenen**. Hiermee wordt een aanvullingsplan berekend voor artikelen en eenheden waarvoor de aanvullingsmethode **Inkoop** of **Transfer** is ingesteld. Wanneer u deze batchverwerking gebruikt, wordt het veld **Planningsboodschap** automatisch ingevuld met een aanvullingsvoorstel voor het artikel. Hierdoor kan het aantal artikelen op een bestaande order worden vergroot, of er kan bijvoorbeeld een nieuwe order worden gemaakt.
 
 - Als u vanaf de pagina **Planningsvoorstel** de batchverwerking **Planning berekenen** hebt geselecteerd, kunt u de batchverwerking **Planningsboodschap uitvoeren** gebruiken om inkoop- en transferordervoorstellen te kopiëren van het planningsvoorstel naar het inkoopvoorstel. Dit is praktisch wanneer voor de verwerking van productieorders en inkoop-/transferorders aparte gebruikers verantwoordelijk zijn.
 
@@ -159,11 +159,9 @@ Zie voor details over het plannen met locaties en transfers [Planning met of zon
 > [!TIP]
 > Wanneer u aan het werk bent op de pagina's **Inkoopvoorstel** of **Planningsvoorstel**, kunt u de regels ordenen door te sorteren op een kolomnaam. Dit is vooral handig op de pagina Planningsvoorstel omdat deze kunnen worden gebruikt voor productieorders op meerdere niveaus. Standaard worden regels gesorteerd op het veld **Artikelnr.** Als u regels wilt groeperen voor een order met meerdere niveaus, sorteert u op het veld **Ref.-ordernr.**   Ook de velden **MPS-order** en **Planningsniveau** kunnen helpen om de hiërarchie van de regels weer te geven.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/plan-items-dynamics-365-business-central/)
-
 ## Zie ook
 
-[Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)  
+[Ontwerpdetails: Leveringsplanning](design-details-supply-planning.md)  
 [Gepland](production-planning.md)  
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)  

@@ -78,7 +78,7 @@ Bekijk de lijst met voorgestelde apps door de actie **Connectiviteits-apps** te 
 > [!NOTE]
 > De eerste persoon die de pagina **Connectiviteits-apps** opent, moet toestaan dat de extensie verbinding maakt met een externe service. Sta de verbinding eenmalig of altijd toe. Als u ervoor kiest om de verbinding te blokkeren, moet u de relevante apps vinden op AppSource.
 
-Deze externe service genereert een lijst met relevante apps op basis van uw land of regio
+Deze externe service genereert een lijst met relevante apps op basis van uw land/regio
 
 ## Aanbevolen apps
 
@@ -86,8 +86,6 @@ Microsoft-partners en -resellers kunnen apps maken die ze kunnen gebruiken om li
 
 > [!NOTE]
 > Als u een Microsoft-partner of -wederverkoper bent en u een lijst met aanbevolen apps wilt geven, gaat u naar [Apps aanbevelen uit AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in de beheerinhoud.
-
-## Zie gerelateerde [Microsoft-training](/training/modules/customize-dynamics-365-business-central/)
 
 ## Zie ook
 

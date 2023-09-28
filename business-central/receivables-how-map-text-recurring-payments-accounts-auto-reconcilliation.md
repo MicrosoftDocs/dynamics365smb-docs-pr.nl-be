@@ -52,8 +52,6 @@ Om uitgaven die verband houden met vergoedingen van een specifieke bank, MyBank,
 | --- | --- | --- | --- | --- |
 | MyBank |LEEG |60400|Grootboekrekening |LEEG |
 
-## Zie gerelateerde [Microsoft-training](/training/modules/use-journals-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Tegoeden beheren](receivables-manage-receivables.md)  

@@ -117,8 +117,6 @@ Als een correctie niet wordt voltooid, wordt er een waarschuwing weergegeven op 
 
 Nadat u de dimensies heeft aangepast, zijn uw gegevens voor kostprijsboekhouding niet meer gesynchroniseerd. Kostprijsboekhouding gebruikt dimensies om bedragen voor kostenplaatsen en kostenobjecten te aggregeren en om kostentoewijzingen uit te voeren. Als u de dimensies voor grootboekboekingen wijzigt, betekent dit waarschijnlijk dat u uw kostenberekeningsmodellen opnieuw uitvoert. Of u slechts een paar kostenregisters moet verwijderen en toewijzingen opnieuw moet uitvoeren of dat u alles moet verwijderen en al uw modellen opnieuw moet uitvoeren, hangt af van de gegevens die zijn bijgewerkt en hoe uw kostenberekeningsmogelijkheden zijn ingesteld. U moet handmatig identificeren waar dimensiecorrecties van invloed zijn op de kostenberekening en waar updates nodig zijn. [!INCLUDE[prod_short](includes/prod_short.md)] biedt momenteel geen geautomatiseerde manier om dat te doen.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/dimensions-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Werken met dimensies](finance-dimensions.md)  

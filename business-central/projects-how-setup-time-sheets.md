@@ -88,8 +88,6 @@ In de volgende secties wordt beschreven hoe u urenstaten kunt instellen als u de
 > [!NOTE]  
 > U kunt de ID van de urenstaatgoedkeurder niet wijzigen als er urenstaten zijn die nog niet zijn verwerkt en die de status **Ingediend** of **Open** hebben.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
-
 ## Zie ook
 
 [Urenstaten gebruiken voor projecten](projects-how-use-time-sheets.md)  

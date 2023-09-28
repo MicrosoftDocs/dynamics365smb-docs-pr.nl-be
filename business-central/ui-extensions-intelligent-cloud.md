@@ -17,8 +17,6 @@ Deze extensie leidt u door het proces om een verbinding te configureren tussen u
 
 Nadat de verbinding is geconfigureerd, kunt u gegevens van uw on-premises oplossing migreren naar [!INCLUDE[prod_short](includes/prod_short.md)] online. Deze extensie werkt in combinatie met een extensie voor gegevensreplicatie die beschikbaar is voor uw on-premises oplossing. Zie voor meer informatie [De tool Cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Tool voor cloudmigratie uitvoeren](/dynamics365/business-central/dev-itpro/administration/migration-tool)  

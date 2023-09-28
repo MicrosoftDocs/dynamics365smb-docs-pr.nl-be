@@ -3,7 +3,7 @@ title: 'Procedure: artikelen opslaan met magazijnopslag'
 description: Hier vindt u meer informatie over de verschillende manieren om magazijnopslag te gebruiken om ontvangen artikelen op te slaan.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/24/2023
@@ -111,8 +111,6 @@ Als bij een vestiging zowel opslagverwerking als ontvangstverwerking wordt gebru
     > Als het nodig is de artikelen voor een regel in meerdere opslaglocaties te plaatsen, bijvoorbeeld omdat de aangewezen opslaglocatie vol is, gebruikt u de actie **Regel splitsen** op het sneltabblad **Regels**. De actie maakt een regel voor de resterende te verwerken hoeveelheid.
 
 5. Als u alle artikelen volgens de instructies op de opslaglocaties hebt geplaatst, kiest u de actie **Opslag registreren**.  
-
-## Zie gerelateerde [Microsoft-training](/training/modules/receive-put-away-items/)
 
 ## Zie ook
 

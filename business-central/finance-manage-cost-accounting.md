@@ -24,8 +24,6 @@ Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zi
 |Op de hoogte zijn van de processen voor het maken van kostenbudgetten.|[Kostenbudgetten maken](finance-create-cost-budgets.md)|
 |Kostenbudgetposten uit het kostenbudgetregister annuleren.|[Kostenbudgetposten verwijderen](finance-how-to-delete-cost-budget-entries.md)|
 
-## Zie gerelateerde [Microsoft-training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## Zie ook  
 [Financiën](finance.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  

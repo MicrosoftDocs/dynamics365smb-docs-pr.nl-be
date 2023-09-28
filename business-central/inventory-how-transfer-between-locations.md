@@ -3,21 +3,21 @@ title: Artikelen overbrengen tussen magazijnvestigingen
 description: 'Leer hoe u voorraad verplaatst van de ene plaats of magazijn naar een andere, met het herindelingsdagboek of met transferorders.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
 ---
-# <a name="transfer-inventory-between-locations"></a>Voorraad overbrengen tussen vestigingen
+# Voorraad overbrengen tussen vestigingen
 
 U kunt voorraadartikelen tussen vestigingen overbrengen door transferorders te maken. U kunt ook het artikelherindelingsdagboek gebruiken.
 
 > [!NOTE]
 > Als u artikelen wilt overbrengen, moet u locaties en transferroutes instellen. Ga voor meer informatie over het instellen van locaties naar [Locaties instellen](inventory-how-setup-locations.md). U kunt geen transferorders gebruiken voor *lege* locaties.
 
-## <a name="transfer-orders"></a>Transferorders
+## Transferorders
 
 U kunt een uitgaande transfer vanuit de ene vestiging verzenden en een inkomende transfer op de bestemming ontvangen. U kunt het volgende doen:
 
@@ -26,7 +26,7 @@ U kunt een uitgaande transfer vanuit de ene vestiging verzenden en een inkomende
 * Gebruik verschillende magazijnfuncties voor inkomende en uitgaande locaties.
 * Met enkele beperkingen kunt u transferorders gebruiken voor directe transfers.
 
-## <a name="item-reclassification-journals"></a>Artikelherindelingsdagboeken
+## Artikelherindelingsdagboeken
 
 * Eenvoudige, directe transfer van artikelen tussen locaties.
 * Verplaats artikelen tussen opslaglocaties. Ga voor meer informatie over het overbrengen van artikelen tussen opslaglocaties naar [Artikelen ongepland verplaatsen in standaardmagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -35,7 +35,7 @@ U kunt een uitgaande transfer vanuit de ene vestiging verzenden en een inkomende
 * Herindeel artikelen van een *lege* locatie naar een daadwerkelijke locatie.
 * Magazijnactiviteiten worden niet beheerd. Er worden magazijnposten aangemaakt.
 
-## <a name="to-transfer-items-with-a-transfer-order"></a>Artikelen overbrengen met een transferorder
+## Artikelen overbrengen met een transferorder
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transferorders** in en kies vervolgens de gerelateerde koppeling
 2. Vul op de pagina **Transferorder** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -60,7 +60,7 @@ U kunt een uitgaande transfer vanuit de ene vestiging verzenden en een inkomende
     Als magazijnmedewerker op de aflevervestiging gaat u verder om de artikelen te ontvangen. De tranferorderregels zijn dezelfde als bij verzending en kunnen niet worden bewerkt.
 5. Kies de actie **Boeken**, kies de optie **Ontvangen** en kies vervolgens de knop **OK**.
 
-### <a name="post-multiple-transfer-orders-in-a-batch"></a>Meerdere overboekingsopdrachten in een batch boeken
+### Meerdere overboekingsopdrachten in een batch boeken
 
 In de volgende procedure wordt uitgelegd hoe u transferorders in een batch boekt.
 
@@ -80,7 +80,7 @@ In de volgende procedure wordt uitgelegd hoe u transferorders in een batch boekt
     > [!NOTE]
     > Het boeken van meerdere documenten kan enige tijd duren en andere gebruikers blokkeren. Overweeg om boeken op de achtergrond in te schakelen. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Plan een taakwachtrijpost om meerdere documenten in een batch te boeken
+### Plan een taakwachtrijpost om meerdere documenten in een batch te boeken
 
 U kunt ook de taakwachtrij gebruiken om boekingen te plannen op een tijdstip dat het uw organisatie uitkomt. Het kan bijvoorbeeld zinvol zijn voor uw bedrijf om bepaalde routines uit te voeren wanneer de meeste gegevensinvoer voor die dag is gedaan.
 
@@ -100,7 +100,7 @@ In de volgende procedure wordt getoond hoe u het rapport **Transferorders per ba
 8. Voer in het veld **Starttijd** de waarde **4 PM** in.
 9. Kies de actie **Status instellen op Gereed**.
 
-## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Artikelen overbrengen met het artikelherindelingsdagboek
+## Artikelen overbrengen met het artikelherindelingsdagboek
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelherindelingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Artikelherindelingsdagboeken** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -113,7 +113,7 @@ In de volgende procedure wordt getoond hoe u het rapport **Transferorders per ba
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="undo-a-transfer-shipment"></a>Een transferverzending ongedaan maken
+## Een transferverzending ongedaan maken
 
 Als u een fout vindt in een hoeveelheid op een geboekte transferorder, kunt u de hoeveelheid eenvoudig corrigeren zolang de zending niet is ontvangen. Op de pagina **Geboekte transferzending** creëert de actie **Zending ongedaan maken** als volgt corrigerende regels:
 
@@ -125,9 +125,7 @@ Als de hoeveelheid in een magazijnverzending is verzonden, wordt een correctiere
 
 Om de correctie te voltooien, heropent u de transferorder, voert u het juiste aantal in en boekt u de order. Als u een magazijnverzending gebruikt om de bestelling te verzenden, maakt en boekt u een nieuwe magazijnverzending.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/transfer-items/)
-
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Vestigingen instellen](inventory-how-setup-locations.md)  

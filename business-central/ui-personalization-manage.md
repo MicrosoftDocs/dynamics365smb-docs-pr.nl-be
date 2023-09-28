@@ -62,8 +62,6 @@ U kunt ook afzonderlijke pagina-aanpassingen verwijderen die u voor een profiel 
 
 De indeling op de geselecteerde pagina's wordt aangepast aan de wijzigingen die u hebt aangebracht.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/tailor-roles-design-ui/)
-
 ## Zie ook
 
 [Uw werkruimte personaliseren](ui-personalization-user.md)  

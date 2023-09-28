@@ -34,9 +34,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Verzekering van vaste activa inschakelen, algemene verzekeringsinformatie en een verzekeringskaart per polis instellen en dagboeken voorbereiden om verzekeringskosten te boeken. |[Verzekering van vaste activa instellen](fa-how-setup-insurance.md) |
 | Onderhoud van vaste activa inschakelen, algemene onderhoudsgegevens instellen, boekingsrekeningen voor onderhoud instellen en soorten onderhoudswerk definiëren. |[Onderhoud van vaste activa instellen](fa-how-setup-maintenance.md) |
 | Meer informatie over andere afschrijvingsmethoden voor vaste activa. |[Afschrijvingsmethoden](fa-depreciation-methods.md) |
-| Meer informatie over het toepassen van door de gebruiker gedefinieerde afschrijvingsmethoden. |[Eigen afschrijvingsmethoden instellen](fa-how-setup-user-defined-depreciation-method.md) |
-
-## Zie gerelateerde [Microsoft-training](/training/paths/set-up-fixed-assets-management/)
+| Meer informatie over het toepassen van door de gebruiker gedefinieerde afschrijvingsmethoden. |[Door de gebruiker gedefinieerde afschrijvingsmethoden instellen:](fa-how-setup-user-defined-depreciation-method.md) |
 
 ## Zie ook
 

@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 # Werken met btw op verkoop en inkoop
 
-Als uw land of regio vereist dat u belasting over de toegevoegde waarde (btw) op verkoop- en aankooptransacties berekent en rapporteert, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] instellen voor het berekenen van btw. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
+Als uw land/regio vereist dat u belasting over de toegevoegde waarde (btw) op verkoop- en aankooptransacties berekent en rapporteert, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] instellen voor het berekenen van btw. Zie [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md) voor meer informatie.
 
 Er zijn echter enkele taken met betrekking tot de berekening van btw die u handmatig kunt uitvoeren. Het kan bijvoorbeeld voorkomen dat u een geboekt bedrag moet corrigeren als u ontdekt dat een leverancier een andere afrondingsmethode gebruikt.  
 
@@ -59,7 +59,7 @@ Afhankelijk van wat u wilt doen, kunt u op de volgende manieren een btw-bedrijfs
 
 #### Voorbeelden
 
-Factoren zoals het land of de regio waarin u verkoopt of het type bedrijfstakken waaraan u verkoopt, kunnen van invloed zijn op het btw-bedrag dat u moet verantwoorden. Een restaurant kan bijvoorbeeld 6% btw in rekening brengen voor maaltijden die in huis worden gegeten en 17% voor afhaalmaaltijden. Dit kunt u bereiken door een btw-bedrijfsboekingsgroep (prijs) te maken voor in huis en een andere voor afhaalmaaltijden.
+Factoren zoals het land/regio waarin u verkoopt of het type bedrijfstakken waaraan u verkoopt, kunnen van invloed zijn op het btw-bedrag dat u moet verantwoorden. Een restaurant kan bijvoorbeeld 6% btw in rekening brengen voor maaltijden die in huis worden gegeten en 17% voor afhaalmaaltijden. Dit kunt u bereiken door een btw-bedrijfsboekingsgroep (prijs) te maken voor in huis en een andere voor afhaalmaaltijden.
 
 ## Werken met btw-datum
 
@@ -233,8 +233,6 @@ Als u een groep certificaten wilt weergeven, begint u op de pagina **Certificate
 >
 > * Handmatig een certificaat van levering maken  
 > * Een certificaat van levering afdrukken.
-
-## Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## Zie ook
 

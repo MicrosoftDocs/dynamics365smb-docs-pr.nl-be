@@ -89,12 +89,10 @@ De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder e
 
 5. Kies op de pagina **Verkoopregels** de actie **Document weergeven** om de post te bekijken.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
-[Afroepassemblyorders maken](assembly-how-to-create-blanket-assembly-orders.md)  
+[Raamassemblageorders](assembly-how-to-create-blanket-assembly-orders.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

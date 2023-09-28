@@ -119,8 +119,6 @@ U kunt zelfs direct betaalde facturen voor niet-geregistreerde klanten maken doo
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/modules/invoicing-customers-dynamics-365-business-central/index)
-
 ## Zie ook
 
 [Verkoop](sales-manage-sales.md)  

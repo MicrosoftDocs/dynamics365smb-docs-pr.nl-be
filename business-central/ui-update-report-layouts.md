@@ -58,8 +58,6 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
 Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Zie ook  
  [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
  [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  

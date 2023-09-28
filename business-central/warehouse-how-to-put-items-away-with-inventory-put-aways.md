@@ -83,8 +83,6 @@ Een magazijnmedewerker kan op basis van het vrijgegeven brondocument een nieuwe 
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/modules/receive-put-away-items/)
-
 ## Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)

@@ -224,12 +224,10 @@ De volgende procedure is gebaseerd op de pagina **Diversendagboek**, maar is van
 
 De waarden in het veld **Documentnr.** worden gewijzigd, wanneer dit is vereist, zodat het documentnummer op afzonderlijke of gegroepeerde dagboekregels in sequentiële volgorde wordt weergegeven. Nadat documenten opnieuw zijn genummerd, kunt u het dagboek boeken.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/use-journals-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  
-[Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)  
+[Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken](finance-how-reverse-journal-posting.md)  
 [Kosten en inkomsten toewijzen](year-allocate-costs-income.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

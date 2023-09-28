@@ -242,8 +242,6 @@ U kunt de rapporten specificeren die in verschillende stadia moeten worden afged
 > [!NOTE]
 > De beschikbare rapporten kunnen variëren, afhankelijk van de lokalisatie voor uw land/regio. De basistoepassing bevat geen lay-outs.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/adjust-inventory/)
-
 ## Zie ook
 
 [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)  

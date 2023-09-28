@@ -60,11 +60,9 @@ In plaats van de werkelijke en de gebudgetteerde bedragen in een bepaalde period
 3. Vul op het sneltabblad **Opties** de benodigde velden in om te definiëren wat in de tabel wordt weergegeven.  
 4. Ga op het sneltabblad **Regels** met de muisaanwijzer op een veld in de tabel staan om een korte beschrijving van het weergegeven bedrag te lezen.  
 
-## Zie gerelateerde training op [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
-
 ## Zie ook
 
-[Financiële bedrijfsinformatie](bi.md)  
+[Financiële Business Intelligence](bi.md)  
 [Werken met financiële rapporten](bi-how-work-account-schedule.md)  
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  

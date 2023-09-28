@@ -189,8 +189,6 @@ Voor elke grootboekrekening definieert u standaarddimensiewaarden in de tabel **
 > [!NOTE]  
 >  Zorg ervoor dat de vooraf gedefinieerde kostenplaats en het vooraf gedefinieerde kostenobject die u in het grootboek hebt ingesteld, automatisch naar de kostprijsboekhouding worden overgedragen, door het selectievakje **GB-boekingen controleren** op de pagina Instelling kostprijsboekhouding te selecteren.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/cost-accounting-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  

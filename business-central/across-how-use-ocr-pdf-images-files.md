@@ -120,8 +120,6 @@ De pagina **Correctie OCR-gegevens**, die u opent vanuit de pagina **Inkomend do
 
 De velden op het sneltabblad **Financiële informatie** op de pagina **Inkomende documenten** worden bijgewerkt met nieuwe waarden die u in stap 4 hebt ingevoerd.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Inkomende documentrecords maken](across-how-create-income-document-records.md)

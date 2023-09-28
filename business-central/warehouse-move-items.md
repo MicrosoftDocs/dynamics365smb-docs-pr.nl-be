@@ -3,7 +3,7 @@ title: Artikelen verplaatsen
 description: Lees meer over het verplaatsen van artikelen tussen opslaglocaties in uw magazijn.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: Conceptual
 ms.date: 01/25/2023
@@ -35,8 +35,6 @@ Tellen, corrigeren en herindelen van artikelen kunnen magazijntaken omvatten die
 |Verplaats artikelen op elk gewenst moment en zonder brondocumenten tussen opslaglocaties in standaardmagazijnconfiguraties.|[Artikelen verplaatsen in standaardmagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
 |Gebruik het magazijnverplaatsingsvoorstel, interne picking en opslag om artikelen in geavanceerde magazijnconfiguraties te verplaatsen met gestuurde opslag en pick.|[Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |De magazijnstructuur aanpassen met nieuwe opslaglocatiecodes en -kenmerken.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|  
-
-## Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
 
 ## Zie ook
 

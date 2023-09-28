@@ -32,12 +32,10 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 > [!TIP]
 > Gebruik bankreconciliatie om te controleren of uw boeken up-to-date zijn en boek de reconciliatie pas als u er tevreden mee bent.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Bankieren instellen](bank-setup-banking.md)  
-[Bankrekeningen afstemmen](bank-how-reconcile-bank-accounts-separately.md)  
+[Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md)  
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Bankfondsen overboeken](bank-how-transfer-bank-funds.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  

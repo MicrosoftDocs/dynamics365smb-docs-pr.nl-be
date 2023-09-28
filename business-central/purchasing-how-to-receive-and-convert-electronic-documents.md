@@ -52,8 +52,6 @@ In de volgende procedure wordt beschreven hoe u een leveranciersfactuur ontvangt
 
     Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende hoofdgegevens in [!INCLUDE[prod_short](includes/prod_short.md)], worden weergegeven op het sneltabblad **Foutmeldingen**.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  

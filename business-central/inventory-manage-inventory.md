@@ -55,8 +55,6 @@ De volgende tabel geeft een overzicht van gerelateerde taken.
 |De bedrijfsvoering in verkoop- of inkoopafdelingen of planningskantoren voor een fabriek voor meerdere vestigingen beheren.|[Werken met divisies](inventory-responsibility-centers.md)|
 |Resources gebruiken met specifieke functies voor verschillende services en service-items.|[Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)|
 
-## Zie gerelateerde [Microsoft-training](/training/paths/get-started-inventory-management/)
-
 ## Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)

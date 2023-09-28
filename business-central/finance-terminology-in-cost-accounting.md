@@ -43,11 +43,9 @@ Dit onderwerp beschrijft de belangrijkste termen die worden gebruikt in kostprij
 |Variabele kosten|Variabele kosten zijn kosten die wijzigen in relatie met de activiteiten van een bedrijf. Variabele kosten zijn de som van de marginale kosten over alle geproduceerde eenheden. Vaste en variabele kosten vormen de twee onderdelen van de totale kosten.|  
 |Variant|Een variant wordt gebruikt als een optioneel door de gebruiker gedefinieerd label voor toewijzingen. Het doel van het label is toegewezen groepen filteren.|  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## Zie ook
 
- [Kostprijsboekhouding](finance-about-cost-accounting.md)  
+ [Over kostprijsboekhouding](finance-about-cost-accounting.md)  
  [Kosten verantwoorden](finance-manage-cost-accounting.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

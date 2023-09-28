@@ -3,14 +3,14 @@ title: Artikelen verplaatsen in magazijnen die gebruikmaken van gestuurde opslag
 description: In dit artikel wordt uitgelegd hoe u artikelen verplaatst naar locaties die gebruikmaken van gestuurde opslag en pick.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.form: '7351,'
 ---
 
-# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Artikelen verplaatsen in geavanceerde magazijnconfiguraties die gebruikmaken van gestuurde opslag en pick
+# Artikelen verplaatsen in geavanceerde magazijnconfiguraties die gebruikmaken van gestuurde opslag en pick
 
 U kunt artikelen tussen opslaglocaties verplaatsen zonder een vraag van een brondocument. U wilt dat bijvoorbeeld doen als onderdeel van de volgende activiteiten:
 
@@ -36,9 +36,9 @@ De pagina's **Verplaatsingsvoorstel**, **Interne magazijnpick** en **Interne mag
 * Magazijnopslag maakt gebruik van opslagsjablonen
 * Picking maakt gebruik van opslaglocatievolgorde en beschikbaarheid
 
-## <a name="warehouse-movement-worksheet"></a>Magazijnverplaatsingsvoorstel
+## Magazijnverplaatsingsvoorstel
 
-### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>artikelen met het magazijnverplaatsingswerkblad verplaatsen
+### artikelen met het magazijnverplaatsingswerkblad verplaatsen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden op de voorstelregels handmatig in of gebruik een van de volgende acties om de regels automatisch in te vullen:
@@ -55,7 +55,7 @@ De pagina's **Verplaatsingsvoorstel**, **Interne magazijnpick** en **Interne mag
 
 3. Kies de actie **Verplaatsing maken** om de verplaatsing te maken. Zodra de verplaatsing klaar is, kunt u deze registreren.  
 
-### <a name="to-register-the-warehouse-movement"></a>De magazijnverplaatsing registreren
+### De magazijnverplaatsing registreren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verplaatsingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het verplaatsingsdocument om te registreren.  
@@ -71,9 +71,9 @@ De pagina's **Verplaatsingsvoorstel**, **Interne magazijnpick** en **Interne mag
 > [!NOTE]  
 > Voor vestigingen die gestuurde opslag en pick gebruiken, kunt u artikelen in opslaglocaties van het type **ONTVANGEN** niet handmatig verplaatsen omdat ze nog niet als beschikbare voorraad worden beschouwd. U moet de artikelen in deze opslaglocaties opbergen voordat ze beschikbaar zijn voor verplaatsingen.
 
-## <a name="internal-pick"></a>Interne pick
+## Interne pick  
 
-### <a name="to-create-an-internal-pick"></a>Een interne pick maken
+### Een interne pick maken  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Interne mag.-pick** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.
@@ -82,7 +82,7 @@ De pagina's **Verplaatsingsvoorstel**, **Interne magazijnpick** en **Interne mag
 5. Kies de actie **Pick maken**. De pickinstructie voor het magazijn kan nu worden uitgevoerd door een magazijnmedewerker. Als alternatief kunt u de actie **Vrijgeven** kiezen en magazijnpicks maken met de pagina **Pickvoorstel**. Zie voor meer informatie over pickvoorstellen [Bulksgewijs pickdocumenten maken met het pickvoorstel](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. Zodra de pick klaar is, kunt u deze registreren.  
 
-### <a name="to-register-the-warehouse-pick"></a>De magazijnpick registreren
+### De magazijnpick registreren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Picks** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -94,9 +94,9 @@ De pagina's **Verplaatsingsvoorstel**, **Interne magazijnpick** en **Interne mag
 
 4. Nadat u de pick hebt uitgevoerd en de artikelen op de verzendlocatie hebt geplaatst, kiest u de actie **Pick registreren**.  
 
-## <a name="internal-put-away"></a>Interne opslag
+## Interne opslag  
 
-### <a name="to-create-an-internal-put-away"></a>Een interne opslag maken
+### Een interne opslag maken  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Interne magazijnopslag** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.
@@ -110,7 +110,7 @@ De pagina's **Verplaatsingsvoorstel**, **Interne magazijnpick** en **Interne mag
 6. Kies de actie **Opslag maken**. De opslaginstructie voor het magazijn is nu klaar voor een magazijnmedewerker. Als alternatief kunt u de actie **Vrijgeven** kiezen om magazijnopslag te maken met de pagina **Opslagvoorstel**. Zie voor meer informatie over opslagvoorstellen [Bulksgewijs opslagdocumenten maken met het opslagvoorstel](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. Zodra de opslag klaar is, kunt u deze registreren.  
 
-### <a name="to-register-the-warehouse-put-away"></a>De magazijnopslag registreren
+### De magazijnopslag registreren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnopslag** in en kies vervolgens de gerelateerde koppeling.
 2. Open de magazijnopslag die klaar is om te verwerken.  
@@ -130,7 +130,7 @@ De pagina's **Verplaatsingsvoorstel**, **Interne magazijnpick** en **Interne mag
 
 5. Als u alle artikelen volgens de instructies op de opslaglocaties hebt geplaatst, kiest u de actie **Opslag registreren**.  
 
-## <a name="to-register-a-movement-that-has-already-happened"></a>Een verplaatsing registreren die al heeft plaatsgevonden
+## Een verplaatsing registreren die al heeft plaatsgevonden
 
 Als u moet registreren dat artikelen al naar andere opslaglocaties zijn verplaatst zonder opslag, pick of verplaatsing, kunt u de pagina **Mag. herindelingsdagboek** gebruiken om de verplaatsing te registreren.
 
@@ -138,9 +138,7 @@ Als u moet registreren dat artikelen al naar andere opslaglocaties zijn verplaat
 2. Vul de velden **Artikelnr.**, **Van zone**, **Van opslaglocatie**, **Naar zone** en **Naar opslaglocatie** in.  
 3. Kies de actie **Registreren**.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/manage-internal-warehouse-processes/)
-
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

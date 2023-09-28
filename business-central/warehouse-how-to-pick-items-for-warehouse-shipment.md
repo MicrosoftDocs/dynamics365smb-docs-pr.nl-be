@@ -3,7 +3,7 @@ title: Picken van artikelen voor magazijnverzending
 description: Ontdek hoe u magazijnpickdocumenten kunt gebruiken om pickinformatie te maken en te verwerken voordat u een magazijnverzending boekt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -110,8 +110,6 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 4. Nadat u de pick hebt uitgevoerd en de artikelen op de verzendlocatie hebt geplaatst, kiest u de actie **Pick registreren**.  
 
 U kunt nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het gerelateerde brondocument, op de pagina **Mag. -verzending**. Zie voor meer informatie [Artikelen verzenden](warehouse-how-ship-items.md).
-
-## Zie gerelateerde [Microsoft-training](/training/modules/pick-ship-items-warehouse/)
 
 ## Zie ook
 

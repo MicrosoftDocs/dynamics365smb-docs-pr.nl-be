@@ -95,8 +95,6 @@ Om de artikelkosten voor de gedeeltelijke ontvangst te verwerken, voert u op de 
 
 Wanneer u klaar bent om het ontbrekende artikel af te handelen, werkt u het veld **Te factureren aantal** bij en boekt u de order.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  

@@ -92,8 +92,6 @@ Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden d
 
 Nadat u de aanmaningscondities hebt ingesteld (met aanvullende niveaus en tekst), voert u een van de codes in op elke klantenkaart. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/send-reminders-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  

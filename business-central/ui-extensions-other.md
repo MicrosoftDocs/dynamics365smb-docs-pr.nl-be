@@ -16,8 +16,6 @@ Bij [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies
 
 Het overzicht van de extensies door andere bedrijven groeit elke maand. Houd een oog op [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) en krijg apps om u te helpen in uw werk in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/customize-dynamics-365-business-central/)
-
 ## Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  

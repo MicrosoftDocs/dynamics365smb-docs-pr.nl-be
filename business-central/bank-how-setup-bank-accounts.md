@@ -229,8 +229,6 @@ Nadat u de nieuwe bankrekening hebt gemaakt, moet u ook een nieuwe bankboekingsg
 
 Om een beknopter beeld te krijgen van uw kasrekeningen in financiële rapportage, gebruikt u de rekeningen **Begintotaal** en **Eindtotaal** in uw rekeningschema, de rijen **Samentelling** in financiële rapporten of grootboekrekeningcategorieën. Zie voor meer informatie het gedeelte [Business Intelligence en financiële rapportage](bi.md).
 
-## Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Bankieren instellen](bank-setup-banking.md)  

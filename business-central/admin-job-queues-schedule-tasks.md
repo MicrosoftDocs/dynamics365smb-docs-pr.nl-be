@@ -37,6 +37,14 @@ Nadat taakwachtrijen zijn ingesteld en werken, kan de status als volgt verandere
 
 Nadat een taak is voltooid, wordt deze verwijderd uit de lijst met taakwachtrij-items, tenzij het een terugkerende taak is. Voor terugkerende taken wordt het veld **Vroegste begintijd** aangepast, zodat het de volgende keer weergeeft dat de taak wordt uitgevoerd.  
 
+## De vroegste begindatum
+
+De waarde in het veld **Vroegste begindatum/-tijd** op de pagina **Kaart voor taakwachtrijpost** wordt weergegeven wanneer de taak de volgende keer wordt uitgevoerd. Er zijn verschillende factoren die van invloed kunnen zijn op de vraag of een taakwachtrij-item op dat moment daadwerkelijk wordt uitgevoerd.
+
+De meest voorkomende factoren zijn het aantal taakwachtrij-items in een omgeving en het totale aantal geplande taken. Om de prestatieniveaus te beschermen zijn er operationele limieten. Als er veel items in de wachtrij staan en er bijvoorbeeld één mislukt of de invoer langer duurt dan verwacht, start de volgende taak mogelijk niet op de verwachte tijd. Als u codeunits hebt die 100.000 of meer geplande taken genereren, moet u onderzoeken of u al deze taken daadwerkelijk nodig hebt. U kunt de lijst met alle geplande taken bekijken op de pagina **Geplande taken**.
+
+Voor meer informatie over het controleren van de status van taakwachtrij-items gaat u naar [De status voor een taak weergeven](#to-view-status-for-any-job). Ga voor meer informatie over operationele limieten naar [Asynchrone taaklimieten](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
+
 ## Status of fouten in de taakwachtrij bewaken
 
 Gegevens die de taakwachtrij genereert, worden opgeslagen, zodat u fouten kunt oplossen.  

@@ -54,8 +54,6 @@ Interne en gedelegeerde beheerders hebben toegang tot het [!INCLUDE [prod_short]
 |Beheer gebruikerssessies, inclusief het annuleren van een sessie als de gebruiker is geblokkeerd.|[Sessies beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configureer de tenant om telemetriegegevens naar Azure Application Insights te verzenden voor een betere analyse en probleemoplossing.|[Verzenden van telemetrie inschakelen naar Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## Zie gerelateerde [Microsoft-training](/training/paths/deploy-configure-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  

@@ -36,11 +36,9 @@ Als u geen aangevraagde leverdatum op de verkooporderregel hebt opgegeven of als
 - *verzenddatum + verwerkingstijd uitgaand magazijn = geplande verzenddatum*
 - *geplande verzenddatum + verzendtijd = geplande leverdatum*
 
-## Zie gerelateerde [Microsoft-training](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
-
 ## Zie ook
 
-[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)  
+[Datumberekening voor inkopen](purchasing-date-calculation-for-purchases.md)  
 [Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -35,11 +35,9 @@ De volgende tabel bevat de aanbevolen procedures voor het selecteren van de vier
 |**Vast bestelaantal**|Gebruiken voor C-producten.<br /><br /> Combineren met bestelpuntparameters.<br /><br /> Gebruiken in de productie voor onderdelen van het laagste niveau.<br /><br /> Niet gebruiken als het artikel vaak wordt gereserveerd.|C-artikelen, zoals theekopjes, zijn artikelen met een lage waarde en een hoge en regelmatige bestelsnelheid. Het beste bestelbeleid voor C-artikelen is daarom een beleid dat constante beschikbaarheid garandeert door altijd boven het bestelpunt te blijven.<br /><br /> Als de gebruiker een hoeveelheid reserveert voor een onzekere vraag, raakt de planning verstoord. Zelfs als de geplande voorraad met betrekking tot het bestelpunt aanvaardbaar is, zijn de hoeveelheden mogelijk niet beschikbaar vanwege de reservering.|  
 |**Maximum aantal**|Gebruiken voor C-artikelen met hoge transportkosten of opslagbeperkingen.<br /><br /> Combineren met een of meer orderwijzigingen (Minimum/Maximum bestelaantal of lotgrootte).|C-artikelen, zoals theekopjes, zijn artikelen met een lage waarde en een hoge en regelmatige bestelsnelheid. Het beste bestelbeleid voor C-artikelen is daarom een beleid dat constante beschikbaarheid garandeert door altijd boven het bestelpunt te blijven, maar onder een maximum voorraadhoeveelheid.<br /><br /> Om het voorgestelde order te wijzigen, kunt u het bestelaantal verlagen tot een opgegeven maximum bestelaantal, verhoogd tot een opgegeven minimum bestelaantal of afgerond tot het voldoet aan een opgegeven lotgrootte. **Opmerking:** als dit in combinatie met een bestelpunt wordt gebruikt, blijft de voorraad tussen bestelpunt en het maximum aantal.|  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/replenish-items-dynamics-365-business-central/)
-
 ## Zie ook
 
- [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
+ [Aanbevolen procedures instellen: Leveringsplanning](setup-best-practices-supply-planning.md)  
  [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)  
  [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  
  [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

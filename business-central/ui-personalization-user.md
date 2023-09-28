@@ -158,8 +158,6 @@ Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrij
    > [!TIP]
    > Als beheerder kunt u de optie **Automatisering** verbergen voor gebruikers. Zie voor meer informatie [Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## Zie gerelateerde [Microsoft-training](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## Zie ook
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

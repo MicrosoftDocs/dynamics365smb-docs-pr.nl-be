@@ -45,8 +45,6 @@ Om tijd te besparen wanneer u documenten per e-mail naar contacten van klanten e
 1. Kies op de pagina **Documentlay-outs** op de regel voor een rapportlay-out die u naar een specifiek contact voor de klant wilt verzenden, de actie **E-mail selecteren vanuit contacten**.
 2. Selecteer op de **Contacten** een of meer contacten en kies vervolgens **OK**.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Aangepaste rapportlay-outs bijwerken](ui-update-report-layouts.md)  

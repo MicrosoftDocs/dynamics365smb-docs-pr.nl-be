@@ -3,7 +3,7 @@ title: Problemen oplossen met de synchronisatie tussen Shopify en Business Centr
 description: Leer wat u moet doen als er iets mis gaat tijdens de synchronisatie van gegevens tussen Shopify en Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
@@ -143,6 +143,10 @@ Het lijkt erop dat u [App insluiten](/dynamics365/business-central/dev-itpro/dep
 ### Fout: interne fout. Het lijkt erop dat er bij ons iets is misgegaan. Aanvraag-id: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
 Neem contact op met Shopify-ondersteuning binnen 7 dagen na het optreden van deze fout en verstrek de aanvraag-id. Ga voor meer informatie naar [Ondersteuningsopties voor Shopify](shopify-faq.md#shopify).
+
+### Fout: Oauth-fout invalid_request: Uw account heeft geen machtiging om de gevraagde toegang voor deze app te verlenen. 
+
+Het lijkt erop dat de gebruiker die toegang vraagt, geen rechten heeft om apps te beheren (mogelijkheid om apps en kanalen te beheren en te installeren, en mogelijk app-kosten goed te keuren). U kunt dit probleem mogelijk oplossen door de app als accounteigenaar te installeren. Als alternatief kunt u de **App-machtiging** voor de gebruiker controleren in de [**Gebruikers en machtigingen**](https://www.shopify.com/admin/settings/account)-instellingen in uw **Shopify-beheer**.  
 
 ## Zie ook
 

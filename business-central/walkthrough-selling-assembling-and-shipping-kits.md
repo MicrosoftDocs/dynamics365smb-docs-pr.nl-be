@@ -436,8 +436,6 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Wanneer de Onderdelenwinkel betaalt voor de ontvangst van de 18 pc's uit CRONUS, worden de verkooporder en de gekoppelde assemblageorders verwijderd.  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/assemble-items-dynamics-365-business-central/)
-
 ## Zie ook
 
  [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md)   

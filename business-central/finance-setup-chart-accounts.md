@@ -49,8 +49,6 @@ Er is een nieuw veld, **Blok grootboekrekeningen verwijderen**, toegevoegd aan d
 
 Als het veld **Blok grootboekrekeningen verwijderen** wordt ingesteld op *Ja*, kan dit als een best practice worden beschouwd, evenals het instellen van de datum in het veld **Verwijdering van grootboekrek. controleren na**, bijvoorbeeld naar de datum waarop u uw financiële gegevens moet opslaan.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/chart-accounts-dynamics-365-business-central/index)
-
 ## Zie ook
 
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  

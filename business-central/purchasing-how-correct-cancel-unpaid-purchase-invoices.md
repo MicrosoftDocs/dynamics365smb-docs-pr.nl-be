@@ -51,8 +51,6 @@ Op de pagina **Geboekte inkoopfacturen** kunt u de knop **Corrigeren** of de kno
 
 Als de annulering betrekking heeft op een gedeeltelijke factuurboeking, wordt de oorspronkelijke inkooporderregel bijgewerkt om de geannuleerde gefactureerde hoeveelheid weer te geven. De velden **Te factureren aantal** en **Aantal gefactureerd** op de gerelateerde inkooporderregel worden opnieuw ingesteld op de waarden vóór de gedeeltelijke boeking.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/receive-invoice-dynamics-d365-business-central/)
-
 ## Zie ook
 
 [Inkoop](purchasing-manage-purchasing.md)  

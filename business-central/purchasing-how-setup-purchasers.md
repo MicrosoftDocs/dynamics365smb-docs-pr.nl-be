@@ -29,11 +29,9 @@ Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina i
 2. Open de desbetreffende leverancierskaart voor de leverancier waaraan een inkoper wordt toegewezen.
 3. Selecteer in het veld **Inkopercode** de juiste inkopercode en sluit vervolgens de pagina.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Zie ook
 
-[Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
+[Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md)  
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

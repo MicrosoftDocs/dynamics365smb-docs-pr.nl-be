@@ -64,8 +64,6 @@ Voordat u kunt beginnen met werkstromen gebruiken, moet u de werkstroomgebruiker
 | Geef instanties van werkstroomstappen met de status **Voltooid** weer. | [Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md) |
 | Verwijder een goedkeuringswerkstroom als u zeker weet dat u die niet meer gebruikt. | [Goedkeuringswerkstromen verwijderen](across-how-to-delete-workflows.md) |
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
-
 ## Zie ook
 
 [Goedkeuringswerkstromen instellen](across-set-up-workflows.md)  

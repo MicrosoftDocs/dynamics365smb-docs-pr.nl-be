@@ -128,12 +128,10 @@ Voordat u een artikel in de ordertoezeggingsberekening kunt opnemen, moet het zi
     - Selecteer **CTP** als u weet dat het artikel momenteel niet in voorraad is en de vroegste datum moet worden berekend waarop het artikel beschikbaar wordt door nieuwe aanvullende behoefteregels te maken.  
 5.  Kies de knop **Accepteren** om de vroegst beschikbare verzenddatum te accepteren.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
-[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)  
+[Datumberekening voor inkopen](purchasing-date-calculation-for-purchases.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

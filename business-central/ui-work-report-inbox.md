@@ -47,8 +47,6 @@ Rapporten delen met collega's is ook mogelijk op de pagina **Rapportinbox**. Sel
 >
 > De actie **Delen** maakt het gegenereerde rapportbestand alleen beschikbaar voor andere gebruikers op OneDrive voor Bedrijven en vermeldt het geplande rapport niet in hun **Rapportinbox**.
 
-## Zie gerelateerde training op [Microsoft Learn](/learn/paths/build-reports/).
-
 ## Zie ook
 
 [Rapporten uitvoeren en afdrukken](ui-work-report.md)  

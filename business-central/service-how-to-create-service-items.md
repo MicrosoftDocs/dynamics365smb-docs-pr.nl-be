@@ -56,8 +56,6 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 
     Er wordt een serviceregel van het type **Kosten** ingevoegd met het starttarief. Het starttarief is van toepassing op het geselecteerde serviceartikel.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-items/)
-
 ## Zie ook
 
 [Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md)  

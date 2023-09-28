@@ -35,7 +35,7 @@ Een derde scenario is het beheren van gegevens in Shopify maar die artikelen in 
 |**Van Shopify**| Kies deze optie als u van plan bent producten in bulk te importeren vanuit Shopify; ofwel handmatig met behulp van de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Lees meer in de sectie [Artikelen importeren vanuit Shopify](synchronize-items.md#import-items-from-shopify).|
 
 > [!NOTE]
-> **Artikel synchroniseren** wijzigen van **Van Shopify** in **Naar Shopify** heeft alleen effect als u **Kan Shopify-producten bijwerken** inschakelt.
+> **Artikel synchroniseren** wijzigen van **Van Shopify** in **Naar Shopify** heeft alleen effect als u **Kan Shopify-producten bijwerken** inschakelt. 
 
 ## Artikelen importeren vanuit Shopify
 
@@ -93,7 +93,7 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 |**SKU-veldscheidingsteken**|Definieer een scheidingsteken voor de optie **Artikelnr. + variant**.|
 |**Voorraad getraceerd**| Kies hoe het systeem het veld **Voorraad bijhouden** moet vullen voor producten die worden geëxporteerd naar Shopify. U kunt de beschikbaarheidsinformatie bijwerken vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] voor producten in Shopify waarvan voorraad traceren is ingeschakeld. Lees meer in de sectie [Voorraad](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standaardvoorraadbeleid**|Kies *Afwijzen* om negatieve voorraad aan de Shopify-kant te voorkomen.|
-|**Kan Shopify-producten bijwerken**|Definieer dit veld als [!INCLUDE[prod_short](../includes/prod_short.md)] alleen artikelen kan maken of ook artikelen kan bijwerken. Selecteer deze optie als u nadat de eerste synchronisatie is geactiveerd door de actie **Artikel toevoegen**, producten handmatig wilt bijwerken met de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Vergeet niet **Naar Shopify** te selecteren in het veld **Artikel synchroniseren**.<br>**Kan Shopify-producten bijwerken** heeft geen invloed op de synchronisatie van prijzen, afbeeldingen of voorraadniveaus, die worden geconfigureerd door onafhankelijke besturingselementen.<br>Als **Kan Shopify-producten bijwerken** is ingeschakeld, worden de volgende velden aan de Shopify-zijde bijgewerkt op product- en indien nodig variantniveau: **SKU**, **Barcode** en **Gewicht**. De velden **Titel**, **Producttype**, **Leverancier** en **Beschrijving** op van productniveau worden ook bijgewerkt als geëxporteerde waarden niet leeg zijn. Voor de beschrijving betekent dit dat u een van de volgende schakelaars moet inschakelen: **Uitgebreide tekst voor synchronisatieartikel**, **Marketingtekst van synchronisatieartikel**, **Artikelkenmerken synchroniseren**. Bovendien moeten kenmerken, uitgebreide tekst of marketingtekst waarden hebben. Als het product varianten gebruikt, wordt indien nodig een variant toegevoegd of verwijderd.|
+|**Kan Shopify-producten bijwerken**|Definieer dit veld als [!INCLUDE[prod_short](../includes/prod_short.md)] alleen artikelen kan maken of ook artikelen kan bijwerken. Selecteer deze optie als u nadat de eerste synchronisatie is geactiveerd door de actie **Artikel toevoegen**, producten handmatig wilt bijwerken met de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Vergeet niet **Naar Shopify** te selecteren in het veld **Artikel synchroniseren**.<br>**Kan Shopify-producten bijwerken** heeft geen invloed op de synchronisatie van prijzen, afbeeldingen of voorraadniveaus, die worden geconfigureerd door onafhankelijke besturingselementen.<br>Als **Kan Shopify-producten bijwerken** is ingeschakeld, worden de volgende velden aan de Shopify-zijde bijgewerkt op product- en indien nodig variantniveau: **SKU**, **Barcode** en **Gewicht**. De velden **Titel**, **Producttype**, **Leverancier** en **Beschrijving** op van productniveau worden ook bijgewerkt als geëxporteerde waarden niet leeg zijn. Voor de beschrijving betekent dit dat u een van de volgende schakelaars moet inschakelen: **Uitgebreide tekst voor synchronisatieartikel**, **Marketingtekst van synchronisatieartikel**, **Artikelkenmerken synchroniseren**. Bovendien moeten kenmerken, uitgebreide tekst of marketingtekst waarden hebben. Als het product varianten gebruikt, wordt indien nodig een variant toegevoegd of verwijderd. <br>Houd er rekening mee dat als het product in Shopify is geconfigureerd om een​variantmatrix te gebruiken die twee of meer opties combineert, de Shopify-connector geen variant voor dat product kan maken. Er is in [!INCLUDE[prod_short](../includes/prod_short.md)] geen manier om de optiematrix te definiëren. Daarom gebruikt de connector de **variantcode** als de enige optie. Shopify verwacht echter meerdere opties en weigert varianten te maken als informatie over tweede en andere opties ontbreekt. |
 
 ### Overzicht van veldtoewijzing
 
@@ -101,6 +101,7 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 |------|-----------------|-----------------|
 |Status|Volgens het veld **Status voor gemaakte producten** op de **Shopify-winkelkaart**. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |Title | **Beschrijving**. Als de taalcode is gedefinieerd en er een corresponderende artikelvertaling bestaat, wordt de artikelvertaling gebruikt in plaats van de beschrijving.|**Beschrijving**|
+|Varianttitel | **Variantcode**.|**Beschrijving** van variant|
 |Omschrijving|Combineert uitgebreide teksten, marketingtekst en kenmerken als u de corresponderende schakelaars op de Shopify-winkelkaart inschakelt. Respecteert de taalcode.|Niet gebruikt.|
 |SEO-paginatitel|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |SEO-metabeschrijving|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
@@ -147,6 +148,10 @@ De resulterende artikelen worden automatisch in Shopify gemaakt met prijzen. Afh
 Of gebruik de actie **Producten synchroniseren** op de pagina **Shopify-producten** of zoek naar de batchverwerking **Producten synchroniseren**.
 
 U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
+
+### URL en voorbeeld-URL
+
+Artikel toegevoegd aan Shopify of geïmporteerd uit Shopify heeft mogelijk de **URL** of **Voorbeeld-URL** ingevuld. Het veld **URL** is leeg als het product niet in de online winkel is gepubliceerd, bijvoorbeeld omdat de status concept is. De **URL** zal leeg zijn als de winkel met een wachtwoord is beveiligd, bijvoorbeeld omdat dit een ontwikkelingswinkel is. In de meeste gevallen kunt u **Voorbeeld-URL** gebruiken om te controleren hoe het product er na publicatie uit zal zien.
 
 ### Ad-hocupdates van Shopify-producten
 
@@ -204,7 +209,7 @@ U beheert het proces van het exporteren van prijzen met deze instellingen:
 |**Regelkorting toestaan**|Hiermee wordt opgegeven of u een regelkorting toestaat bij het berekenen van prijzen voor Shopify. Deze instelling is alleen van toepassing op prijzen van het artikel. Prijzen voor de klantprijsgroep hebben hun eigen schakelaar op regels.|
 |**Prijzen inclusief btw**|Specificeert of prijsberekeningen voor Shopify btw bevatten. Meer informatie op [Belastingen instellen](setup-taxes.md).|
 |**Btw-bedrijfsboekingsgroepen**|Hiermee wordt opgegeven welke btw-bedrijfsboekingsgroep wordt gebruikt om de prijzen te berekenen in Shopify. Dit moet de groep zijn die u gebruikt voor binnenlandse klanten. Meer informatie op [Belastingen instellen](setup-taxes.md).|
-|**Valutacode**|Voer alleen een Valutacode in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDEprod_short], laat u het veld leeg.|
+|**Valutacode**|Voer alleen een Valutacode in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDE[prod_short](../includes/prod_short.md)], laat u het veld leeg.|
 
 U kunt prijzen voor gesynchroniseerde artikelen exporteren op de twee hieronder beschreven manieren.
 

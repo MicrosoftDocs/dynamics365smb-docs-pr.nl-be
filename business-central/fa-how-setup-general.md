@@ -123,8 +123,6 @@ Als u de module Vaste activa in [!INCLUDE[prod_short](includes/prod_short.md)] v
 
 Als de vaste activa niet zijn geïntegreerd met het grootboek, slaat u de stappen 6 en 8 over.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/set-up-fixed-assets-management/)
-
 ## Zie ook
 
 [Vaste activa instellen](fa-setup.md)  

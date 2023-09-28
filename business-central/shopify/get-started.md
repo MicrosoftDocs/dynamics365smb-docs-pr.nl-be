@@ -59,7 +59,9 @@ Herhaal stap 2-6 voor alle webshops die u wilt verbinden.
 ### Bekende problemen
 
 - De browser blokkeert het pop-upvenster. Wanneer u de schakelaar **Geactiveerd** aanzet, opent [!INCLUDE [prod_short](../includes/prod_short.md)] de pagina **Wachten op een reactie. Sluit deze pagina niet** terwijl het wacht op een toegangstoken van Shopify. Als die pagina gesloten of geblokkeerd is, kunt u geen verbinding maken met Shopify. Meer informatie op [Om het toegangstoken verzoeken](troubleshoot.md#request-the-access-token)
+- Het kan een goed idee zijn om Shopify-beheer geopend te hebben in dezelfde browser als [!INCLUDE [prod_short](../includes/prod_short.md)]
 - [Fout: Oauth-fout invalid_request: Kan Shopify API-toepassing niet vinden met api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Fout: Oauth-fout invalid_request: Uw account heeft geen machtiging om de gevraagde toegang voor deze app te verlenen.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Kan geen verbinding maken vanuit sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Volgende stappen
@@ -108,8 +110,6 @@ Als u de schakelaar **Gegevenssynchronisatie naar Shopify toestaan** ingeschakel
 
 *   Selecteer **Concept** in het veld **Status voor product maken** om ervoor te zorgen dat geëxporteerde producten niet beschikbaar zijn voor kopers. U kunt controleren hoe producten er in de online winkel uitzien en prijzen, opties en voorraadniveaus synchroniseren. Zorg ervoor dat u filters gebruikt op de pagina **Artikel toevoegen aan Shopify** om het aantal geëxporteerde artikelen te beperken.
 * Schakel de schakelaar **Klant exporteren naar Shopify** uit, zodat u geen klanten naar Shopify verzendt.
-
-## Zie gerelateerde [Microsoft-training](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## Zie ook
 

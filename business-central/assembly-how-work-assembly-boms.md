@@ -106,13 +106,11 @@ De kostprijs van een assemblagestuklijst is altijd gelijk aan het totaal van de 
 
 De kosten van de artikelen waaruit de assemblagestuklijst bestaat, worden gekopieerd van artikelkaarten van de componenten. De kosten van elk artikel worden vermenigvuldigd met het aantal, en de totale kostprijs wordt weergegeven in het venster **Kostprijs** op de artikelkaart.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
-
 ## Zie ook
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Productvarianten beheren](inventory-item-variants.md)  
-[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)  
+[De beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Productiestuklijsten maken](production-how-to-create-production-boms.md)  

@@ -50,7 +50,7 @@ Gebruik analyseweergaven die u al hebt ingesteld met de matrix **Analyse per dim
 > U kunt geen periode selecteren die korter is dan de opgegeven periode voor datumcompressie op de **Analyseweergave**-kaart. De opdrachten **Volgende set** en **Vorige set** zijn niet ingeschakeld als u **Periode** in het veld **Als regels weergeven** of **Als kolommen weergeven** hebt geselecteerd.  
 
 > [!NOTE]  
-> Met de lijst **Dimensies - detail** kunt u een gedetailleerde classificatie weergeven van de wijze waarop dimensies zijn gebruikt voor posten gedurende een geselecteerde periode. Gebruik de lijst **Dimensies - totaal** voor een overzicht van de totale bedragen.  
+> Met de lijst **Dimensies - detail** kunt u voor een geselecteerde periode gedetailleerde informatie weergeven over het gebruik van dimensies op posten. Gebruik de lijst **Dimensies - totaal** voor een overzicht van de totale bedragen.  
 
 > [!TIP]  
 > U kunt de weergave ook wijzigen door de inhoud van de velden **Als regels weergeven** en **Als kolommen weergeven** te wijzigen. Als u een weergave-instelling wilt omkeren, kiest u de actie **Regels en kolommen omkeren**.
@@ -73,11 +73,9 @@ Gebruik de volgende procedure om een analyseweergave bij te werken vanuit de pag
 > [!NOTE]  
 > Als u bepaalde of alle analyseweergaven tegelijk wilt bijwerken, moet u de batchverwerking **Analyseweergaven bijwerken** gebruiken.  
 
-## Zie gerelateerde training op [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
-
 ## Zie ook
 
-[Financiële bedrijfsinformatie](bi.md)  
+[Financiële Business Intelligence](bi.md)  
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  

@@ -345,12 +345,10 @@ Voer een getal in om te zien welke maateenheid in een duurveld wordt gebruikt. V
 
 Als de maateenheid bijvoorbeeld uren is, wordt het getal 5 bijvoorbeeld naar 5 uur geconverteerd.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/explore-modify-info-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
-[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)  
+[Datumberekening voor inkopen](purchasing-date-calculation-for-purchases.md)  
 [Criteria in filters invoeren](ui-enter-criteria-filters.md)  
 
 

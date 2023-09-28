@@ -32,8 +32,6 @@ Als u uw voorraad hebt ingesteld, kunt u verschillende voorraadprocessen met bet
 |Importeer meerdere artikelafbeeldingen in één keer uit een zip-bestand waarin de bestanden zijn genoemd naar artikelnummers.|[Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## Zie gerelateerde [Microsoft-training](/training/paths/trade-get-started-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Voorraad beheren](inventory-manage-inventory.md)  

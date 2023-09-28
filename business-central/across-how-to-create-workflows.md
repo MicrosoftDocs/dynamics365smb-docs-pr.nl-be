@@ -172,8 +172,6 @@ De volgende illustratie geeft een overzicht van het resultaat van deze procedure
 
 Test vervolgens de werkstroom door een bestaande leverancierskaart te openen en de naam te wijzigen. Controleer of er een goedkeuringsverzoek is verzonden na het wijzigen van de leveranciersnaam.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
-
 ## Zie ook
 
 [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)  

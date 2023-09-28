@@ -29,10 +29,10 @@ Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporte
 * **Intrastat-instellingen**: de pagina Intrastat-instellingen wordt gebruikt om Intrastat-rapportage in te schakelen en er standaarden voor in te stellen. U kunt opgeven of u Intrastat moet rapporteren vanuit verzendingen, ontvangsten (aankomsten) of beide, afhankelijk van drempelwaarden die door uw lokale verordeningen zijn ingesteld. U kunt ook standaardtransactiesoorten instellen voor normale en retourdocumenten, die worden gebruikt voor de aard van transactierapportage.
 * **Intrastat-dagboeksjablonen**: u moet de Intrastat-dagboeksjablonen en -batches instellen die u gaat gebruiken. Aangezien Intrastat maandelijks wordt gerapporteerd, moet u 12 Intrastat-dagboekbatches maken die gebaseerd zijn op dezelfde sjabloon.  
 * **Basisproductcodes**: de belastingdienst en de douane hebben numerieke codes om artikelen en service te classificeren. U geeft deze codes op voor artikelen.
-* **Transactieaardcode**: landen/regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes op het sneltabblad **Buitenlandse handel** in verkoop- en inkoopdocumenten, en bij de verwerking van retouren.
+* **Transactieaardcode**: landen/regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land/regio. U gebruikt deze codes op het sneltabblad **Buitenlandse handel** in verkoop- en inkoopdocumenten, en bij de verwerking van retouren.
 
     > [!NOTE]
-    > Vanaf januari 2022 vereist Intrastat een andere transactie-aardcode voor verzendingen naar particulieren of niet-btw-geregistreerde bedrijven en btw-geregistreerde bedrijven. Om aan deze vereiste te voldoen raden we u aan om nieuwe transactie-aardcodes te bekijken en/of toe te voegen op de pagina **Transactietypes** volgens de vereisten in uw land/regio. U moet ook het veld **Intrastat-partnertype** controleren en bijwerken naar *Persoon* voor particuliere of niet-btw-geregistreerde zakelijke klanten op de relevante pagina **Klant**. Als u niet zeker weet welk Intrastat-partnertype of transactietype u moet gebruiken, raden we u aan een expert in uw land of regio te raadplegen.
+    > Vanaf januari 2022 vereist Intrastat een andere transactie-aardcode voor verzendingen naar particulieren of niet-btw-geregistreerde bedrijven en btw-geregistreerde bedrijven. Om aan deze vereiste te voldoen raden we u aan om nieuwe transactie-aardcodes te bekijken en/of toe te voegen op de pagina **Transactietypes** volgens de vereisten in uw land/regio. U moet ook het veld **Intrastat-partnertype** controleren en bijwerken naar *Persoon* voor particuliere of niet-btw-geregistreerde zakelijke klanten op de relevante pagina **Klant**. Als u niet zeker weet welk Intrastat-partnertype of transactietype u moet gebruiken, raden we u aan een expert in uw land/regio te raadplegen.
 
 * **Transportmethoden**: er zijn zeven eencijferige codes voor Intrastat-transportmethoden. **1** voor zee, **2** voor spoor, **3** voor weg, **4** voor lucht, **5** voor post, **7** voor vaste installaties en **9** voor eigen voortdrijving (bijvoorbeeld een auto verplaatsen door ermee te rijden). [!INCLUDE[prod_short](includes/prod_short.md)] vereist deze codes niet, maar we raden aan dat de beschrijvingen een soortgelijke betekenis hebben.  
 * **Transactieomschrijvingen**: gebruik deze als aanvulling op de omschrijvingen van de transactiesoorten.  
@@ -40,7 +40,7 @@ Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporte
 * **Btw-identificatienummer van de partneroperator in de lidstaat van invoer**: dit is het btw-nummer van de partneroperator in de lidstaat van invoer. Het btw-nummer wordt ook gebruikt bij de uitwisseling van intra-EU exportgegevens tussen de lidstaten en stelt de lidstaten in staat de ontvangen gegevens toe te wijzen aan het importerende bedrijf in hun eigen land/regio. Rapporterende eenheden moeten het btw-nummer rapporteren van het bedrijf dat de intra-unie verwerving van goederen heeft aangegeven in de lidstaat van invoer.
 
 > [!NOTE]
-> Het te gebruiken btw-nummer van de zakenpartner kan verschillen, afhankelijk van de zakelijke omstandigheden. De te gebruiken id verschilt bijvoorbeeld voor scenario's zoals ketenverkopen, waarbij een leverancier een product aan een ander land verkoopt en dat bedrijf het artikel vervolgens doorverkoopt aan een ander bedrijf in hetzelfde land, driehoekshandel, enzovoort. Als u niet zeker weet welk btw-nummer u moet gebruiken, raden we u aan een expert in uw land of regio te raadplegen.
+> Het te gebruiken btw-nummer van de zakenpartner kan verschillen, afhankelijk van de zakelijke omstandigheden. De te gebruiken id verschilt bijvoorbeeld voor scenario's zoals ketenverkopen, waarbij een leverancier een product aan een ander land verkoopt en dat bedrijf het artikel vervolgens doorverkoopt aan een ander bedrijf in hetzelfde land, driehoekshandel, enzovoort. Als u niet zeker weet welk btw-nummer u moet gebruiken, raden we u aan een expert in uw land/regio te raadplegen.
 
 Eventueel kunt u ook het volgende instellen:
 
@@ -103,7 +103,7 @@ Specifiek voor Italiaanse bedrijven moet u ook goederencodes en transactieaardco
 
 ## Intrastat rapporteren
 
-Nadat u het Intrastat-dagboek hebt ingevuld, kunt u het rapport **Controlelijstrapport** uitvoeren om te zorgen dat alle gegevens in het dagboek correct zijn. Verplichte velden die u op de pagina **Intrastat-controlelijst instellen** hebt ingesteld en waarvoor waarden ontbreken, worden weergegeven in het feitenblok Fouten en waarschuwingen op de pagina **Intrastat-dagboek**. Vervolgens kunt u een Intrastat-rapport afdrukken als formulier of een bestand maken om naar de belastingdienst in uw land of regio te verzenden.  
+Nadat u het Intrastat-dagboek hebt ingevuld, kunt u het rapport **Controlelijstrapport** uitvoeren om te zorgen dat alle gegevens in het dagboek correct zijn. Verplichte velden die u op de pagina **Intrastat-controlelijst instellen** hebt ingesteld en waarvoor waarden ontbreken, worden weergegeven in het feitenblok Fouten en waarschuwingen op de pagina **Intrastat-dagboek**. Vervolgens kunt u een Intrastat-rapport afdrukken als formulier of een bestand maken om naar de belastingdienst in uw land/regio te verzenden.  
 
 ### Intrastat-dagboeken invullen
 
@@ -116,7 +116,7 @@ Nadat u het Intrastat-dagboek hebt ingevuld, kunt u het rapport **Controlelijstr
 Met de batchverwerking worden alle artikelposten in de statistiekperiode opgehaald en als regels in het Intrastat-dagboek ingevoegd. U kunt de regels zo nodig bewerken.  
 
 > [!IMPORTANT]  
-> Tijdens de batchverwerking worden alleen de posten met een land-/regiocode opgehaald waarvoor u een Intrastat-code hebt ingevoerd op de pagina **Landen/regio's**. Het is dus belangrijk dat u Intrastat-codes invoert voor de land-/regiocodes waarvoor u de batchverwerking wilt uitvoeren. De batchverwerking stelt het veld **Btw-nummer van partner** in op *QV999999999999* voor particulieren of niet-btw-geregistreerde bedrijven (klanten met het veld **Intrastat-partnertype** ingesteld op *Persoon*) en gebruikt de waarde van het veld **Transactietype** in de geboekte artikelpost of projectgrootboekpost.
+> Tijdens de batchverwerking worden alleen de posten met een land-/regiocode opgehaald waarvoor u een Intrastat-code hebt ingevoerd op de pagina **Landen/regio's**. Het is dus belangrijk dat u Intrastat-codes invoert voor de land/regio-codes waarvoor u de batchverwerking wilt uitvoeren. De batchverwerking stelt het veld **Btw-nummer van partner** in op *QV999999999999* voor particulieren of niet-btw-geregistreerde bedrijven (klanten met het veld **Intrastat-partnertype** ingesteld op *Persoon*) en gebruikt de waarde van het veld **Transactietype** in de geboekte artikelpost of projectgrootboekpost.
 
 ### Intrastat-journaalregels wijzigen
 
@@ -169,8 +169,6 @@ Aangezien u elke maand een Intrastat-rapport moet indienen en u voor elk rapport
 In veel landen/regio's hanteren de belastingdienst en de douane goederencodes van acht tekens voor verschillende artikelen. Om te zorgen dat artikelposten de benodigde informatie bevatten wanneer het programma ze importeert naar de Intrastat-dagboekregel, moet u de informatie hebben ingevoerd over de tariefcode op de pagina **Tariefcodes**. Zoek de codes voor de artikelen waar uw bedrijf in handelt en geef ze op de pagina **Tariefcodes** op.
 
 Voeg op de pagina **Tariefcodes** alle codes toe die u gebruikt. U moet de codes invoeren op de artikelkaart voordat u kunt beginnen met boeken. Als u de codes hebt ingesteld, voert u ze in het veld **Tariefnr.** op de artikelkaart in. U moet ook het veld **Nettogewicht** op de artikelkaart invullen.
-
-## Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Zie ook
 

@@ -239,8 +239,6 @@ Gebruik geen grootboekrekening waarop direct boeken in uw boekingsgroep voor ban
 
 Deze fout komt vaak voor bij het invoeren van een beginsaldo voor een bankrekening. Het is belangrijk dat u het beginsaldo niet rechtstreeks in het grootboek boekt. Posten op de grootboekrekening die rechtstreeks naar de grootboekrekening worden geboekt, veroorzaken problemen. Deze posten kunnen er bijvoorbeeld voor zorgen dat u uw bankrekening niet kunt afstemmen. Voor bankrekeningen in vreemde valuta kunnen de posten verschillen veroorzaken nadat u meer bankreconciliaties hebt geboekt als gevolg van wisselkoersaanpassingen. Vaak boekt u het beginsaldo direct op de bankrekening en komt het bedrag dan op de grootboekrekening terecht. U kunt het ook later terugboeken naar de grootboekrekening die u gebruikt om het openingsgrootboeksaldo te compenseren. In beide gevallen moet u eventuele directe boekingen op de grootboekrekening salderen voordat u uw eerste bankafstemming start, en vooral als de bankrekening in een vreemde valuta is.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
-
 ## Zie ook
 
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  

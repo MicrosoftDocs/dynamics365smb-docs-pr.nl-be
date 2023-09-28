@@ -68,8 +68,6 @@ Net als bij budgettering in het grootboek, kunt u budgetten maken om kosten te p
 
 De meeste lijsten en statistieken zijn gebaseerd op de geboekte kostenposten. U kunt het sorteren van resultaten instellen en filters gebruiken om te bepalen welke gegevens moeten worden weergegeven. U kunt lijsten voor de analyse van de kostenverdeling maken. Bovendien kunt u de standaard financiële rapporten gebruiken om te definiëren hoe uw rapporten voor het schema van kostentypen worden weergegeven.  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  

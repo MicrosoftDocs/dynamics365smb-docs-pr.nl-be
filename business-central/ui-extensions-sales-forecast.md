@@ -59,8 +59,6 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling van verkoop- en voorraadprognose** in en kies vervolgens de gerelateerde koppeling.  
 7. Vouw het sneltabblad **Algemeen** uit en vul de velden API-URL en API-sleutel in.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/use-sales-inventory-forecast-extension/)
-
 ## Zie ook
 
 [Verkoop](sales-manage-sales.md)  

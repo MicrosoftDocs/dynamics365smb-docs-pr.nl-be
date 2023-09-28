@@ -27,8 +27,6 @@ U kunt alle relevante gegevens invoeren op de pagina **Bedrijfsgegevens** wannee
 
 Als u klaar bent met het invullen van de gegevens, kunt u de pagina sluiten.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-new-companies-dynamics-365-business-central/)
-
 ## Zie ook  
 
 [Overzicht van bedrijfsgegevens](admin-company-information.md)  

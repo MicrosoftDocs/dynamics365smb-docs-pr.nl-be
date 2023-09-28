@@ -193,14 +193,10 @@ In de meeste gevallen kunt u posten openen vanaf de betrokken kaart of het betre
 
 U kunt bepaalde velden in geboekte inkoopdocumenten bewerken, zoals het veld **Betalingsreferentie**. Zie voor meer informatie [Geboekte documenten bewerken](across-edit-posted-document.md). Voor kritiekere velden die van invloed zijn op het controlespoor, moet u het boeken omkeren of ongedaan maken. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md).
 
-## Zie gerelateerde [Microsoft-training](/training/modules/receive-invoice-dynamics-d365-business-central/index)
-
-## Zie gerelateerde [Microsoft-training](/training/modules/processing-invoices-dynamics-365-business-central/index)
-
 ## Zie ook
 
 [Offertes aanvragen](purchasing-how-request-quotes.md)  
-[Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md)  
+[Artikelen inkopen voor een verkoop](purchasing-how-purchase-products-sale.md)  
 [Doorverzendingen voorbereiden](sales-how-drop-shipment.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkoop instellen](purchasing-setup-purchasing.md)  

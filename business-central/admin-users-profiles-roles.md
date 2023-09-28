@@ -167,8 +167,6 @@ Als beheerder van [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u g
 
 Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kunt u sessies beheren met bijvoorbeeld SQL Server Management Studio. Zie voor meer informatie [Technische documentatie over SQL Server](/sql/sql-server).  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/users-security-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  

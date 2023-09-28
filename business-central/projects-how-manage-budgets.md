@@ -43,8 +43,6 @@ Op de pagina **Projectkaart** kunt u nu een overzicht zien van de totale gebudge
 
 Voor informatie over het vastleggen van gebudgetteerde versus werkelijke projectprijzen en -kosten raadpleegt u [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md).
 
-## Zie gerelateerde [Microsoft-training](/training/modules/set-up-job-planning-lines/)
-
 ## Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  

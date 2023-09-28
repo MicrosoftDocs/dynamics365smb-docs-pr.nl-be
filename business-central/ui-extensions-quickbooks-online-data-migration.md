@@ -62,8 +62,6 @@ Er zijn enkele dingen die u met name moet doen:
 * Als u btw gebruikt, hebt u mogelijk een bedrijfsboekingsgroep en een productboekingsgroep in de boekingsinstellingen nodig, zodat u btw-bedragen kunt boeken.
 * Controleer de beginsaldi voor de rekeningen in het grootboek. QuickBooks Online slaat het huidige saldo van alle rekeningen niet op, dus u moet mogelijk beginsaldi corrigeren.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/migrate-data-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  

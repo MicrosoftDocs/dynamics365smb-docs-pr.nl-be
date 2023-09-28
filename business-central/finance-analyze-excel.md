@@ -50,8 +50,6 @@ Uw [!INCLUDE [prod_short](includes/prod_short.md)]-ervaring bevat een invoegtoep
 
 Met de invoegtoepassing kunt u gegevens vernieuwen vanuit [!INCLUDE [prod_short](includes/prod_short.md)] en kunt u wijzigingen terugsturen naar [!INCLUDE [prod_short](includes/prod_short.md)]. De mogelijkheid om wijzigingen terug te sturen naar de database is niet beschikbaar voor de financiële rapporten die u kunt weergeven in Excel.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Zie ook
 
 [Weergeven en bewerken in Excel vanuit Business Central](across-work-with-excel.md)  

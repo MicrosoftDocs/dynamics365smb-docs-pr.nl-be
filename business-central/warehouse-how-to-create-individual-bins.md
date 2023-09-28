@@ -70,8 +70,6 @@ Voor gebruik van de pagina **Voorstel opslaglocatieaanmaak** moet u zijn ingeste
 
 Herhaal dit proces voor elke volgende set opslaglocaties, totdat u alle opslaglocaties van het magazijn hebt gemaakt.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-new-bins/)
-
 ## Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)

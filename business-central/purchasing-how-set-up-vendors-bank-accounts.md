@@ -26,12 +26,10 @@ Als een leverancier een of meer bankrekeningen heeft en u een voorkeursoptie wil
 2. De kaart voor de leverancier openen
 3. Kies op het sneltabblad **Betalingen** de standaardbankrekening van de leverancier in het veld **Bankrekeningcode van voorkeur**.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Inkoop instellen](purchasing-setup-purchasing.md)  
-[Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
+[Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md)  
 [Bankrekeningen instellen](bank-how-setup-bank-accounts.md)  
 [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md)  
 [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md)  

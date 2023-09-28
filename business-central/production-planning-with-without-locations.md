@@ -139,8 +139,6 @@ Zoals u in het laatste scenario kunt zien, kunt u alleen een correct resultaat k
 
 Als u vaak vraag op vestigingen plant, raden we daarom aan dat u de SKU-functionaliteit gebruikt.
 
-## Zie gerelateerde training op [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Zie ook
 
 [Gepland](production-planning.md)  

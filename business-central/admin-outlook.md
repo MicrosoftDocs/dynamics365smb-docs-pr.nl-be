@@ -11,7 +11,7 @@ ms.search.form: '1831, 1832'
 ms.date: 04/27/2022
 ms.author: jswymer
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>De Business Central-invoegtoepassing voor Outlook verkrijgen
+# De Business Central-invoegtoepassing voor Outlook verkrijgen
 
 Met [!INCLUDE[prod_short](includes/prod_short.md)] kunt u bedrijfsinteracties met uw klanten en leveranciers rechtstreeks in Microsoft Outlook beheren. Met de [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-invoegtoepassing kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers. U kunt ook financiële documenten maken en verzenden, zoals offertes en facturen.  
 
@@ -21,7 +21,7 @@ Er zijn twee manieren om de Business Central-invoegtoepassing voor Outlook te in
 
 - Installeer als gebruiker de invoegtoepassing voor eigen gebruik, als uw beheerder deze nog niet voor u heeft geïmplementeerd.
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>Over de Business Central-invoegtoepassing voor Outlook
+## Over de Business Central-invoegtoepassing voor Outlook
 
 De Business Central-invoegtoepassing voor Outlook bestaat uit twee kleinere invoegtoepassingen:
 
@@ -40,20 +40,20 @@ Elke invoegtoepassing wordt geleverd als een XML-bestand, genaamd een *manifest*
 > [!IMPORTANT]
 > Werken met meerdere omgevingen? De Business Central-invoegtoepassing voor Outlook is ontworpen om te werken met één Business Central-omgeving. Wanneer de invoegtoepassing is geïnstalleerd, wordt de naam van de omgeving opgenomen in het manifest van de invoegtoepassing. Deze configuratie betekent dat de invoegtoepassing alleen verbinding maakt met de omgeving van waaruit deze is geïnstalleerd. Om de invoegtoepassing met een andere omgeving te gebruiken, opent u de omgeving en installeert u de invoegtoepassing opnieuw.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>De invoegtoepassing implementeren met behulp van gecentraliseerde implementatie als beheerder
+## De invoegtoepassing implementeren met behulp van gecentraliseerde implementatie als beheerder
 
 Gecentraliseerde implementatie is een functie in het Microsoft 365-beheercentrum die u gebruikt om automatisch invoegtoepassingen te installeren in Office-apps van gebruikers, zoals Outlook. Dit is de aanbevolen manier voor beheerders om Office-invoegtoepassingen te implementeren voor gebruikers en groepen binnen uw organisatie.
 
 > [!NOTE]
 > Voor Business Central on-premises zie [De invoegtoepassing voor Outlook-integratie instellen met Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) in de beheerinhoud (alleen Engels).
 
-### <a name="prerequisites"></a>Vereisten
+### Vereisten
 
 - Een Microsoft 365-abonnement  
 - Aan gebruikers wordt een Microsoft 365-licentie toegewezen  
 - Uw Microsoft 365-account heeft de rol *Globale beheerder* of *Exchange-beheerder*
 
-### <a name="deploy-the-add-in"></a>De invoegtoepassing implementeren
+### De invoegtoepassing implementeren
 
 1. Kies in Business Central het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies vervolgens de gerelateerde koppeling.
 2. Kies **Gecentraliseerde implementatie van Outlook-invoegtoepassing** om de begeleide instelling te starten.
@@ -83,7 +83,7 @@ Gecentraliseerde implementatie is een functie in het Microsoft 365-beheercentrum
 
 Als u klaar bent, kunt u de implementatie altijd wijzigen in het Microsoft 365-beheercentrum, zoals het toewijzen van meer gebruikers. Zie [Invoegtoepassingen implementeren in het beheercentrum](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true) voor meer informatie over het implementeren van invoegtoepassingen in het beheercentrum.
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>De invoegtoepassing installeren voor eigen gebruik
+## <a name="install"></a>De invoegtoepassing installeren voor eigen gebruik
 
 Als uw organisatie dit toestaat, kunt u de Business Central-invoegtoepassing alleen voor uzelf installeren. Vraag het uw beheerder als u het niet zeker weet.
 
@@ -94,7 +94,7 @@ Als uw organisatie dit toestaat, kunt u de Business Central-invoegtoepassing all
 
 Business Central maakt verbinding met uw e-mailserver en installeert de invoegtoepassing in uw Outlook. Dit duurt niet lang. U bent nu klaar om de invoegtoepassing in Outlook te gaan gebruiken.
 
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Voor Business Central on-premises
+### <a name="onprem"></a>Voor Business Central on-premises
 
 Als u Business Central on-premises gebruikt, kan het installeren van de invoegtoepassing iets anders zijn.
 
@@ -116,9 +116,7 @@ Als u Business Central on-premises gebruikt, kan het installeren van de invoegto
 
 U bent nu klaar om de invoegtoepassing in Outlook te gaan gebruiken.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Business Central op mijn mobiele apparaat krijgen](install-mobile-app.md)  

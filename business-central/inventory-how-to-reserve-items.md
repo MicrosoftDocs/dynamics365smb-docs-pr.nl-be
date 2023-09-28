@@ -101,8 +101,6 @@ De volgende procedure is gebaseerd op een verkooporder.
 7. Kies de knop **OK** om de pagina **Reservering** te openen met alleen aanvoer met het opgegeven artikeltraceringsnummer. Als er niet-specifieke reserveringen zijn voor de artikeltraceringsnummers die u hebt opgegeven voor deze regel, ontvangt u een bericht over het reeds gereserveerde aantal.  
 8. Kies de actie **Autom. reservering** of **Huidige regel reserveren** om de reservering van de specifieke artikeltraceringsnummers te maken.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/manage-outbound-serial-lot-numbers/)
-
 ## Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
