@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/13/2022
 ms.custom: bap-template
 ---
-# Bankrekeningen afstemmen
+# <a name="reconcile-bank-accounts"></a>Bankrekeningen afstemmen
 
 Bankreconciliatie helpt ervoor te zorgen dat wat er in uw boeken staat, overeenkomt met de afschriften die u van uw bank ontvangt. Met bankrekeningreconciliatie worden boekingen in de bankrekeningen die u hebt ingesteld in [!INCLUDE[prod_short](includes/prod_short.md)] vergeleken en afgestemd met banktransacties bij uw bank. Met reconciliatie kunnen de saldi vervolgens naar uw bankrekeningen worden geboekt in[!INCLUDE[prod_short](includes/prod_short.md)] om ze beschikbaar te stellen aan financiële managers. Bankafstemming is ook een praktische manier om ontbrekende betalingen en boekhoudfouten te ontdekken en op te lossen.
 
@@ -49,7 +49,7 @@ U kunt het deelvenster **Bankafschriftregels** op de pagina **Bankreconciliatie*
 * Automatisch, door de functie **Bankafschrift importeren** te gebruiken om het deelvenster **Bankafschriftregels** in te vullen met banktransacties volgens een geïmporteerd bestand of een stream die door de bank is aangeleverd.
 * Handmatig, door de functie **Regels voorstellen** te gebruiken om het deelvenster **Bankafschriftregels** in te vullen volgens facturen in [!INCLUDE[prod_short](includes/prod_short.md)] met openstaande betalingen.
 
-## Bankafschriftregels toevoegen door een bankafschrift te importeren
+## <a name="to-add-bank-statement-lines-by-importing-a-bank-statement"></a>Bankafschriftregels toevoegen door een bankafschrift te importeren
 
 Het deelvenster **Bankafschriftregels** wordt gevuld met banktransacties volgens een geïmporteerd bestand of een stream die door de bank is aangeleverd.
 
@@ -66,7 +66,7 @@ Om bankafschriften als bankfeeds te importeren, moet u de service Envestnet Yodl
 6. Als u een bankafschriftbestand hebt ingesteld, kiest u de actie **Bankafschrift importeren**.
 7. Zoek het bestand en kies **Openen** om de banktransacties te importeren in het deelvenster **Bankafschriftregels** op de pagina **Bankreconciliatie**.
 
-## Bankreconciliatieregels invullen met de actie Regels voorstellen
+## <a name="to-fill-in-bank-reconciliation-lines-with-the-suggest-lines-action"></a>Bankreconciliatieregels invullen met de actie Regels voorstellen
 
 Het deelvenster **Bankafschriftregels** wordt ingevuld volgens facturen in [!INCLUDE[prod_short](includes/prod_short.md)] met openstaande betalingen.  
 
@@ -80,7 +80,7 @@ Het deelvenster **Bankafschriftregels** wordt ingevuld volgens facturen in [!INC
 4. Als u niet wilt dat de bankrekeningposten niet-afgestemde open tegengeboekte posten bevatten, kiest u de schakelaar **Tegengeboekte posten uitsluiten**. De lijst met bankrekeningposten bevat standaard tegengeboekte posten tot de afschriftdatum.
 5. Kies de knop **Ok**.
 
-## Bankafschriftregels automatisch afstemmen met bankrekeningposten
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Bankafschriftregels automatisch afstemmen met bankrekeningposten
 
 De pagina **Bankreconciliatie** biedt automatische afstemmingsfunctionaliteit op basis van een afstemming van tekst op een bankafschriftregel (linkerdeelvenster) met tekst in een of meer bankposten (rechterdeelvenster). U kunt de voorgestelde automatische afstemming overschrijven en u kunt ervoor kiezen helemaal geen automatische afstemming te gebruiken. Zie [Bankafschriftregels handmatig afstemmen met bankrekeningposten](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually) voor meer informatie.
 
@@ -98,7 +98,7 @@ U kunt de basis voor overeenkomsten onderzoeken met behulp van de actie **Afstem
 > [!TIP]
 > U kunt een mix van handmatige en automatische afstemming gebruiken. Als u handmatig afgestemde posten hebt, zal automatische afstemming uw selecties niet overschrijven.
 
-## Bankafschriftregels handmatig afstemmen met bankrekeningposten
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Bankafschriftregels handmatig afstemmen met bankrekeningposten
 
 > [!TIP]
 > Bij het handmatig afstemmen van regels en posten kunt u met de acties **Alles weergeven**, **Tegengeboekte posten weergeven**, **Tegengeboekte posten verbergen** en **Niet-afgestemd weergeven** gemakkelijker een overzicht krijgen. Standaard bevatten de bankrekeningposten geen niet-afgestemde tegengeboekte posten. Als u deze posten in de lijst wilt opnemen en ze handmatig wilt afstemmen, kiest u de actie **Tegengeboekte posten weergeven**. Als u ervoor kiest om tegengeboekte posten te verbergen nadat u een of meer afstemmingen hebt gedaan, worden de afgestemde posten nog steeds weergegeven.
@@ -123,7 +123,7 @@ U kunt de basis voor overeenkomsten onderzoeken met behulp van de actie **Afstem
 > [!TIP]
 > Als u een afstemming wilt verplaatsen, selecteert u de bankafschriftregel en kiest u vervolgens **Afstemming verwijderen**. Als u meerdere bankafschriftregels op een grootboekpost hebt afgestemd en een of meer van de afgestemde regels moet verwijderen, worden alle handmatige afstemmingen voor de grootboekboeking verwijderd wanneer u **Afstemming verwijderen** kiest.
 
-## Uw bankreconciliatie valideren
+## <a name="to-validate-your-bank-reconciliation"></a>Uw bankreconciliatie valideren
 
 Om de reconciliatie van uw bankrekening nogmaals te controleren voordat u deze boekt, gebruikt u de actie **Testrapport** om een voorbeeld van de reconciliatie te bekijken. Het rapport is beschikbaar in de volgende contexten:
 
@@ -166,7 +166,7 @@ In de volgende tabel worden de velden in het testrapport beschreven die u kunnen
 >
 > U kunt de waarde gebruiken om te vergelijken met uw bankafschrift.
 
-## Ontbrekende posten maken om bankafschriftregels af te stemmen
+## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines"></a>Ontbrekende posten maken om bankafschriftregels af te stemmen
 
 Soms bevat een bankafschrift bedragen voor in rekening gebrachte rente of toeslagen. Dergelijke bankafschriftregels kunnen niet worden afgestemd omdat er geen gerelateerde posten bestaan in [!INCLUDE[prod_short](includes/prod_short.md)]. U moet vervolgens voor elke transactie een dagboekregel boeken om een gerelateerde post te maken waarmee deze kan worden afgestemd.
 
@@ -182,7 +182,7 @@ Soms bevat een bankafschrift bedragen voor in rekening gebrachte rente of toesla
 6. Vernieuw de pagina **Bankreconciliatie** of open deze opnieuw. De nieuwe post wordt in het deelvenster **Bankposten** weergegeven.
 7. Stem de bankafschriftregel handmatig of automatisch af met de bankpost.
 
-## Openstaande transacties in vorige perioden zoeken
+## <a name="find-outstanding-transactions-in-previous-periods"></a>Openstaande transacties in vorige perioden zoeken
 
 U kunt het bankafschriftrapport gebruiken om openstaande transacties in vorige perioden te zoeken. Openstaande transacties zijn geopend vóór de afschriftdatum en zijn niet afgesloten, of ze zijn gesloten nadat de bankreconciliatie is geboekt.
 
@@ -194,22 +194,22 @@ In september ontvangen we een betaling voor post B en besluiten onze bankrekenin
 
 Als we het rapport voor augustus afdrukken, hebben we openstaande transacties voor onze B- en C-posten, ook al hebben we post B in september gesloten.
 
-## Een bankrekeningreconciliatie ongedaan maken
+## <a name="undo-a-bank-account-reconciliation"></a>Een bankrekeningreconciliatie ongedaan maken
 
 Als u een fout vindt in een geboekte bankreconciliatie, kunt u de actie **Ongedaan maken** op de pagina **Dagschriftenoverzicht** gebruiken om de fout te corrigeren. Wanneer u een geboekte bankreconciliatie ongedaan maakt, worden de posten verplaatst naar de pagina **Bankreconciliatie** en gemarkeerd als **Open**, wat betekent dat ze niet gereconcilieerd zijn. U kunt vervolgens de bankreconciliatie corrigeren en opnieuw boeken.
 
 > [!NOTE]
 > Als u in de Noord-Amerikaanse versie de functie Ongedaan maken wilt gebruiken voor geboekte bankreconciliaties en bankafschriften, moet u de schakelaar **Bankreconciliatie met automatische afstemming** inschakelen op de pagina **Grootboekinstellingen**. De functie Ongedaan maken is niet beschikbaar voor bankafschriften die zijn geboekt vanuit werkbladen voor bankreconciliatie.
 
-### Het bankafschriftnummer opnieuw gebruiken
+### <a name="reusing-the-bank-statement-number"></a>Het bankafschriftnummer opnieuw gebruiken
 
 Het nummer van het bankafschrift dat wordt gebruikt voor de nieuwe bankreconciliatie, wordt van de bankrekening overgenomen, evenals het laatste overzicht van het saldo. U kunt deze waarden wijzigen voordat u een nieuwe bankreconciliatie start. Wanneer u echter een nieuwe bankreconciliatie maakt, controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] of het afschriftnummer al is toegewezen aan een geboekt bankafschrift. Als het nummer in gebruik is, maar u wilt dat het nieuwe bankafschrift het gebruikt, kunt u de actie **Afschriftnr. wijzigen** gebruiken op de pagina **Bankreconciliatie**.
 
-### Voorbeelden
+### <a name="examples"></a>Voorbeelden
 
 De volgende voorbeelden laten zien hoe u een fout kunt herstellen in een geboekte bankreconciliatie met of zonder gebruik van hetzelfde afschriftnummer.
 
-#### Voorbeeld 1
+#### <a name="example-1"></a>Voorbeeld 1
 
 U hebt bankreconciliaties uitgevoerd voor januari, februari en maart. Het bankafschriftnummer voor maart was 100. Later ontdekt u dat maart alleen vermeldingen tot en met de 30e bevatte, wat betekent dat vermeldingen voor de 31e ontbreken. U moet dus de bankreconciliatie voor maart opnieuw uitvoeren. In dit geval opent u de pagina **Bankrekeningafschrift**, kiest u het afschrift voor maart en kiest u vervolgens **Ongedaan maken**. 
 
@@ -218,7 +218,7 @@ De nieuwe bankreconciliatie krijgt afschriftnummer 101. Als u het nummer 100 opn
 > [!TIP]
 > Vergeet niet om de juiste einddatum van het afschrift in te stellen (in dit voorbeeld is dat 31 maart) en het veld **Saldo laatste afschrift** te bewerken. 
 
-#### Voorbeeld 2
+#### <a name="example-2"></a>Voorbeeld 2
 
 U hebt bankreconciliaties uitgevoerd voor januari, februari, juni en juli. U ontdekt dat februari niet klopte. Stel dat het afschriftnummer 100 had. Net als in voorbeeld 1 gebruikt u de acties Ongedaan maken en Afschriftnr. wijzigen om het afschriftnummer te wijzigen zoals in voorbeeld 1 hierboven en u kunt nu de bankreconciliatie van februari opnieuw uitvoeren.  
 
@@ -233,13 +233,13 @@ Als de volgende bankreconciliatie die u uitvoert voor augustus is, kunt u overwe
 >
 > Het saldo laatste afschrift wordt in de bankrekening bewaard om fouten bij het uitvoeren van bankreconciliaties te minimaliseren, maar het is ook bewerkbaar, zodat u uw bankreconciliaties in elke gewenste volgorde kunt uitvoeren. Dit betekent ook dat als u een bankafschrift ongedaan maakt, het nieuwe eindsaldo mogelijk niet het laatste afschriftsaldo op het volgende bankafschrift is. Er is geen functie waarmee u een saldo naar alle volgende bankafschriften kunt verplaatsen, dus houd hier rekening mee wanneer u Ongedaan maken gebruikt.  
 
-## Direct boeken voorkomen
+## <a name="avoid-direct-posting"></a>Direct boeken voorkomen
 
 Gebruik geen grootboekrekening waarop direct boeken in uw boekingsgroep voor bankrekeningen toegestaan is. Direct boeken verbreekt de verbinding tussen de bankrekeningpost en de grootboekrekeningpost. Wanneer u uw bankrekening afstemt, worden de posten die rechtstreeks naar de grootboekrekening zijn geboekt, niet opgenomen en is het moeilijk om de reconciliatie te voltooien.
 
 Deze fout komt vaak voor bij het invoeren van een beginsaldo voor een bankrekening. Het is belangrijk dat u het beginsaldo niet rechtstreeks in het grootboek boekt. Posten op de grootboekrekening die rechtstreeks naar de grootboekrekening worden geboekt, veroorzaken problemen. Deze posten kunnen er bijvoorbeeld voor zorgen dat u uw bankrekening niet kunt afstemmen. Voor bankrekeningen in vreemde valuta kunnen de posten verschillen veroorzaken nadat u meer bankreconciliaties hebt geboekt als gevolg van wisselkoersaanpassingen. Vaak boekt u het beginsaldo direct op de bankrekening en komt het bedrag dan op de grootboekrekening terecht. U kunt het ook later terugboeken naar de grootboekrekening die u gebruikt om het openingsgrootboeksaldo te compenseren. In beide gevallen moet u eventuele directe boekingen op de grootboekrekening salderen voordat u uw eerste bankafstemming start, en vooral als de bankrekening in een vreemde valuta is.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

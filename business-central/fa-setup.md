@@ -11,7 +11,7 @@ ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Vaste activa instellen
+# <a name="setting-up-fixed-assets"></a>Vaste activa instellen
 
 Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:  
 
@@ -36,7 +36,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Meer informatie over andere afschrijvingsmethoden voor vaste activa. |[Afschrijvingsmethoden](fa-depreciation-methods.md) |
 | Meer informatie over het toepassen van door de gebruiker gedefinieerde afschrijvingsmethoden. |[Door de gebruiker gedefinieerde afschrijvingsmethoden instellen:](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  

@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
+# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
 
 Op de pagina **Toewijzing tekst aan rekening**, die u opent vanuit de pagina **Dagboek betalingsreconciliatie** , kunt u toewijzingen instellen tussen tekst op betalingen en specifieke debet-, credit- en tegenrekeningen zodat dergelijke betalingen worden geboekt naar de opgegeven rekeningen wanneer u het betalingsreconciliatiedagboek boekt.
 
@@ -24,7 +24,7 @@ Betalingen die worden geboekt op basis van tekst-naar-rekening toewijzingen, wor
 
 Op een dagboekregel van een betalingsreconciliatie waar de betaling is ingesteld op boeking volgens de tekst-aan-rekening toewijzing, bevat het veld **Zekerheid afstemming** de waarde **Hoog - Toewijzing tekst aan rekening** en bevatten de velden **Rekeningsoort** en **Rekeningnr.** de toegewezen rekeningen.
 
-## Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
+## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tekst op herhalende betalingen aan rekeningen toewijzen voor automatisch reconciliatie
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsreconciliatiedagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open een betalingreconciliatiedagboek. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
@@ -44,7 +44,7 @@ Op een dagboekregel van een betalingsreconciliatie waar de betaling is ingesteld
 
 De volgende keer dat u een bankafschriftbestand importeert of de actie **Automatisch vereffenen** kiest op de pagina **Dagboek betalingsreconciliatie**, zullen dagboekregels voor de betalingen die de opgegeven toewijzingstekst bevatten, de toegewezen rekeningen bevatten in de velden **Rekeningsoort** en **Rekeningnr.** Het veld **Zekerheid afstemming** bevat **Hoog - Toewijzing tekst aan rekening**. Hiervoor geldt de voorwaarde dat de automatische vereffeningsfunctie slechts een afstemmingszekerheid van **Laag** of **Gemiddeld** kan bieden.
 
-## Voorbeeld: tekst-aan-rekening toewijzing voor bankkosten
+## <a name="example-text-to-account-mapping-for-bank-fees"></a>Voorbeeld: tekst-aan-rekening toewijzing voor bankkosten
 
 Om uitgaven die verband houden met vergoedingen van een specifieke bank, MyBank, altijd te boeken naar de grootboekrekening voor bankkosten en vergoedingen (rekening 60400), vult u een regel op de pagina **Toewijzing tekst aan rekening** als volgt in.
 
@@ -52,7 +52,7 @@ Om uitgaven die verband houden met vergoedingen van een specifieke bank, MyBank,
 | --- | --- | --- | --- | --- |
 | MyBank |LEEG |60400|Grootboekrekening |LEEG |
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  

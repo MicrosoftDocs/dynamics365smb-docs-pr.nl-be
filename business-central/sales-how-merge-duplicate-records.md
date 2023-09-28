@@ -10,7 +10,7 @@ ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Dubbele records samenvoegen
+# <a name="merge-duplicate-records"></a>Dubbele records samenvoegen
 
 Aangezien verschillende gebruikers in de loop van de tijd nieuwe klant-, leveranciers- of contactkaarten maken, of de nieuwe records automatisch worden gemaakt tijdens migratie, kan een klant, leverancier of contact in het systeem worden voorgesteld door meer dan één record. In dit geval kunt u de pagina **Dubbele records samenvoegen** gebruiken vanaf de kaart of de record die u wilt behouden. De pagina geeft u een overzicht van dubbele veldwaarden en biedt functies om te selecteren welke waarden worden behouden of verwijderd wanneer twee records tot één worden samengevoegd.
 
@@ -56,7 +56,7 @@ De volgende procedure is gebaseerd op een klantenkaart. De stappen zijn voor lev
 > [!NOTE]
 > Voor contacten kunt u functionaliteit gebruiken om te zoeken naar dubbele contacten voordat u de pagina **Dubbele records samenvoegen** gebruikt. Zie voor meer informatie [Zoeken naar dubbele contacten](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Contacten instellen](marketing-setup-contacts.md)  

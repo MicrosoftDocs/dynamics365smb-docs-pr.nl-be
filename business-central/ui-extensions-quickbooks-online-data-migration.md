@@ -12,11 +12,11 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ---
 
-# De extensie QuickBooks Online-gegevensmigratie
+# <a name="the-quickbooks-online-data-migration-extension"></a>De extensie QuickBooks Online-gegevensmigratie
 
 Deze extensie wordt opgenomen in de begeleide instelling **Gegevensmigratie**, om u te helpen belangrijke bedrijfsgegevens te migreren van QuickBooks Online naar [!INCLUDE[prod_short](includes/prod_short.md)]. Dat is bijvoorbeeld handig als uw bedrijf groeit en u hebt besloten uw app voor bedrijfsmanagement te upgraden door [!INCLUDE[prod_short](includes/prod_short.md)] te gaan gebruiken.
 
-## Welke gegevens kan ik importeren uit QuickBooks Online?
+## <a name="what-data-can-i-import-from-quickbooks-online"></a>Welke gegevens kan ik importeren uit QuickBooks Online?
 
 U kunt de volgende gegevens uit QuickBooks Online importeren naar [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
@@ -33,7 +33,7 @@ Wij migreren alleen hele bedragen op verkoop- en inkoopdocumenten. We werken gee
 > [!NOTE]  
 > Wij migreren geen inkooporders of verkooporders.
 
-## Voordat u begint
+## <a name="before-you-start"></a>Voordat u begint
 
 Een belangrijk deel van het migratieproces is de rekeningen opgeven waarnaar transacties moeten worden gemigreerd. Het is aan te raden deze koppeling te plannen voordat u gegevens migreert. Bijvoorbeeld, de rekeningen waarnaar u transacties boekt voor:  
 
@@ -45,14 +45,14 @@ Een belangrijk deel van het migratieproces is de rekeningen opgeven waarnaar tra
 
 Als transacties in QuickBooks Online belastingbedragen hebben, moet u eerst een belastingrekening instellen voor uw belastingjurisdictie in [!INCLUDE[prod_short](includes/prod_short.md)], voordat u transacties kunt boeken.
 
-## Hoe kan ik beginnen de extensie te gebruiken?
+## <a name="how-do-i-start-using-the-extension"></a>Hoe kan ik beginnen de extensie te gebruiken?
 
 Aan de slag gaan is eenvoudig. Het enige wat u moet doen is de begeleide instelling **Gegevensmigratie** uitvoeren. U doet dat als volgt:
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Begeleide instelling** in en kies vervolgens **Bedrijfsgegevens migreren**.
 2. Volg de instructies in elke stap in de begeleide instelling.
 
-## Wat doe ik nadat ik gegevens heb gemigreerd?
+## <a name="what-do-i-do-after-i-migrate-data"></a>Wat doe ik nadat ik gegevens heb gemigreerd?
 
 Nadat u gegevens migreert, hebben transacties de status **Niet geboekt**, zodat u deze kunt controleren en correcties kunt aanbrengen. Als u de transacties wilt controleren, gaat u naar de pagina waar u deze normaal zou vinden. Als u bijvoorbeeld ongeboekte verkoopfacturen wilt controleren, gaat u naar de pagina **Verkoopfacturen**. Als u betalingsdagboeken wilt controleren, gaat u naar de pagina **Betalingsdagboeken**.  
 
@@ -62,7 +62,7 @@ Er zijn enkele dingen die u met name moet doen:
 * Als u btw gebruikt, hebt u mogelijk een bedrijfsboekingsgroep en een productboekingsgroep in de boekingsinstellingen nodig, zodat u btw-bedragen kunt boeken.
 * Controleer de beginsaldi voor de rekeningen in het grootboek. QuickBooks Online slaat het huidige saldo van alle rekeningen niet op, dus u moet mogelijk beginsaldi corrigeren.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
