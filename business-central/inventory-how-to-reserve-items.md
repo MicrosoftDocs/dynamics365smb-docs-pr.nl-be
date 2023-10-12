@@ -1,23 +1,27 @@
 ---
 title: Artikelen reserveren
-description: 'U kunt artikelen reserveren voor verkooporders, inkooporders en productieorders. U kunt artikelen ook in voorraad reserveren of inkomend op openstaande documentregels.'
+description: 'Meer informatie over het reserveren van artikelen voor verkooporders, inkooporders en productieorders.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 08/11/2022
-ms.author: bholtorf
+ms.date: 09/19/2023
+ms.custom: bap-template
 ---
-# <a name="reserve-items"></a>Artikelen reserveren
+# Artikelen reserveren
 
 U kunt artikelen reserveren voor verkooporders, inkooporders, serviceorders, assemblageorders, transferorders en productieorders. U kunt artikelen ook in voorraad reserveren of inkomend op openstaande document- of dagboekregels. Dit doet u op de pagina **Reservering**.
 
 Elke regel die u opent om artikelen te reserveren op de pagina **Reservering**, geeft informatie over één soort regel (verkoop, inkoop of dagboek) of voorraadpost. Op de regels wordt beschreven hoeveel artikelen van elk soort regel of post beschikbaar zijn voor reservering.
 
-## <a name="reserve-items-for-sales"></a>Artikelen reserveren voor verkopen
+> [!TIP]
+> Op basis van de hoeveelheden die u in voorraad heeft gereserveerd, geeft [!INCLUDE [prod_short](includes/prod_short.md)] een status weer bij de documenten, zodat u snel op de hoogte bent van de volgende stap. Om bijvoorbeeld aan te geven dat u een verkooporder kunt verzenden of aan de slag kunt gaan met een project-, assemblage- of productieorder. De status helpt ook het risico te verminderen van onbedoelde deelzendingen of vertragingen als gevolg van ontbrekende voorraad voor productie- en assemblageorders.
+>
+> Het veld **Gereserveerd uit voorraad** geeft u inzicht of u voor een specifieke order of orderregel kunt verzenden of picken. Voor regels is het veld Gereserveerd uit voorraad beschikbaar in feitenblokken. Om toegang te krijgen tot de informatie voor de hele bestelling bevindt het veld zich op de pagina **Statistieken**.
+
+## Artikelen reserveren voor verkopen
 
 In de volgende procedure wordt beschreven hoe u artikelen reserveert vanuit een verkooporder. De stappen voor inkoop-, service-, transfer- en assemblageorders komen hiermee overeen.
   
@@ -36,7 +40,7 @@ In de volgende procedure wordt beschreven hoe u artikelen reserveert vanuit een 
 > [!NOTE]  
 > Als u artikeltracering hebt ingesteld voor de verkooporder, moet u een speciale reserveringsprocedure uitvoeren: Zie voor meer informatie de sectie [Reserveren van een bepaald serie- of lotnummer](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number).  
 
-## <a name="reserve-an-item-for-a-production-order-line"></a>Een artikel voor een productieorderregel reserveren
+## Een artikel voor een productieorderregel reserveren
 
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
 
@@ -50,7 +54,7 @@ In de volgende procedure wordt een vast geplande productieorder gebruikt.
 
 Het aantal dat u hebt ingevoerd op de vast geplande productieorderregel is nu gereserveerd.
 
-## <a name="reserve-items-for-production-order-components"></a>Artikelen reserveren voor productieordermaterialen
+## Artikelen reserveren voor productieordermaterialen
 
 U kunt artikelen voor productieorders reserveren. U moet hierbij onderscheid maken tussen productieorderregels (het bovenliggende artikel) en productieordermaterialen.
 
@@ -66,27 +70,57 @@ In de volgende procedure wordt een vast geplande productieorder gebruikt.
 
 Het aantal dat u hebt ingevoerd op de materiaalregel van de vast geplande productieorder is nu gereserveerd.
 
-## <a name="change-a-reservation"></a>Een reservering wijzigen
+## Artikelen in bulk reserveren
 
-Soms wilt u een artikelreservering wijzigen.
+Gebruik de pagina **Reserveringswerkblad** om binnenkomende goederen in bulk te reserveren en toe te wijzen. Bulkreserveringen kunnen er bijvoorbeeld voor zorgen dat er hoeveelheden beschikbaar zijn voor uw verkoop- en productieorders. U kunt meerdere batches hebben voor verschillende doeleinden. U kunt bijvoorbeeld productieorders wekelijks toewijzen, maar dagelijks reserveren voor verkoop.
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Reserveringswerkblad** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies de actie **Vraag ophalen** en geef vervolgens het soort vraag op dat u wilt reserveren uit de beschikbare voorraad.
+3. In het veld **Gereserveerd uit voorraad** kiest u een van de volgende opties:
+    
+   |Veld  |Omschrijving  |
+   |---------|---------|
+   |Leeg     | De openstaande hoeveelheid is helemaal niet gereserveerd of wordt gereserveerd vanuit andere brondocumenten, zoals inkooporders.        |
+   |Volledig    |  De openstaande hoeveelheid wordt volledig gereserveerd uit beschikbare voorraad.       |
+   |Gedeeltelijk     | De openstaande hoeveelheid wordt deels gereserveerd uit beschikbare voorraad.        |
+
+4. Vul de vereiste velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+5. Optioneel: als u de artikelen meteen wilt toewijzen, kiest u de actie **Toewijzen**.
+6. Kies op de pagina **Toewijzingsbeleid** een beleid voor elke stap
+
+   |Toewijzingsbeleid  |Omschrijving  |
+   |---------|---------|
+   |Basis     | Wijst voorraad toe aan een vraag als er geen conflicten zijn en de vraag volledig kan worden gedekt. U hebt bijvoorbeeld verkooporder A met een hoeveelheid van 10 en een project met een hoeveelheid van 7. Als u er 20 op voorraad heeft, ontvangen beide aanvragen de volledige hoeveelheid. Als uw voorraad 12 is, wordt er geen voorraad toegewezen. U moet de hoeveelheid handmatig toewijzen.        |
+   |Evenredig    | Verdeelt de beschikbare voorraad gelijkmatig over de vraag. U hebt bijvoorbeeld een verkooporder A met een hoeveelheid van 10 en een project met een hoeveelheid van 7. Als uw voorraadniveau 20 is, ontvangen beide vragen de volledige hoeveelheid. Als uw voorraad 12 is, krijgen beide vragen er 6.        |
+
+7. Als u alle regels wilt reserveren waarvoor **Accepteren** is ingeschakeld, kiest u de actie **Reservering maken** .
+    
+## Een reservering wijzigen
+
+U kunt een artikelreservering wijzigen.
 
 1. Kies vanuit de documentregel vanwaar u de reservering hebt gemaakt, op het sneltabblad **Regels** de actie **Reserveren**.  
 2. Kies op de pagina **Reservering** de actie **Reserveringsposten**.
 3. Werk op de pagina **Reserveringsposten** het veld **Aantal** bij op de regel op die u wilt wijzigen.
 4. Bevestig het volgende bericht door de knop **OK** te kiezen.
 
-## <a name="cancel-a-reservation"></a>Een reservering annuleren
+## Een reservering annuleren
 
-Soms wilt u een artikelreservering annuleren.
+U kunt een artikelreservering annuleren.
 
 1. Kies vanuit de documentregel vanwaar u een reservering wilt annuleren, op het sneltabblad **Regels** de actie **Reserveren**.  
 2. Kies op de pagina **Reservering** de actie **Reserveringsposten**.  
 3. Kies op de pagina **Reservering** de actie **Reservering annuleren**.  
 4. Bevestig het volgende bericht door de knop **OK** te kiezen.  
 
-## <a name="reserve-a-specific-serial-or-lot-number"></a>Reserveren van een bepaald serie- of lotnummer
+## Reserveren van een bepaald serie- of lotnummer
 
-Van uitgaande documenten voor getraceerde artikelen, zoals verkooporders of productiecomponentlijsten, kunt u specifieke serie- of lotnummers reserveren. Dit kan nuttig zijn als u bijvoorbeeld productiecomponenten van een specifieke partij nodig hebt om consistentie met eerdere productiepartijen te waarborgen of omdat een klant een specifiek serienummer heeft aangevraagd. Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
+Van uitgaande documenten voor getraceerde artikelen, zoals verkooporders of productiecomponentlijsten, kunt u specifieke serie- of lotnummers reserveren. Het reserveren van specifieke serie- of lotnummers kan bijvoorbeeld handig zijn in de volgende situaties:
+
+* Als u productiecomponenten uit een specifieke partij nodig heeft om consistentie met eerdere productiebatches te garanderen.
+* Omdat een klant om een specifiek serienummer heeft gevraagd. 
+
+Zie voor meer informatie [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md).
 
 Dit heet een specifieke reservering, omdat u reserveert vanuit het aantal van artikel X dat hoort bij partij X. Als u daarentegen alleen uit aantallen van artikel X reserveert, is het een normale, niet-specifieke, reservering. Zie voor meer informatie [Ontwerpdetails: Artikeltracering en reservering](design-details-item-tracking-and-reservations.md).
 
@@ -101,7 +135,7 @@ De volgende procedure is gebaseerd op een verkooporder.
 7. Kies de knop **OK** om de pagina **Reservering** te openen met alleen aanvoer met het opgegeven artikeltraceringsnummer. Als er niet-specifieke reserveringen zijn voor de artikeltraceringsnummers die u hebt opgegeven voor deze regel, ontvangt u een bericht over het reeds gereserveerde aantal.  
 8. Kies de actie **Autom. reservering** of **Huidige regel reserveren** om de reservering van de specifieke artikeltraceringsnummers te maken.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  

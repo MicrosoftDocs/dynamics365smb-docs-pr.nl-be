@@ -47,8 +47,6 @@ De volgende video behandelt de basisprincipes van vaste activa.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Zie gerelateerde [Microsoft-training](/training/paths/manage-fixed-assets-transactions/)
-
 ## Zie ook
 
 [Vaste activa instellen](fa-setup.md)  

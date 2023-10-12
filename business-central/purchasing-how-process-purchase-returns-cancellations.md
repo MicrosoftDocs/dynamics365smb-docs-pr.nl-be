@@ -181,8 +181,6 @@ Wanneer retourverzendingen zijn gecombineerd op een creditnota en zijn geboekt, 
 2. Vul de overige velden desgewenst in en kies de knop **OK**.  
 3. U kunt de afzonderlijke inkoopretourorders ook handmatig verwijderen.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  

@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Procedure: varianten
+# Procedure: varianten
 
 In dit artikel nemen we u mee door de stappen waarin u de demogegevens voor Contoso Coffee gebruikt om meer te weten te komen over varianten.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken voor elke variant van artikel SP-SCM1006, AutoDripLite. Omdat ze verschillende kleuren hebben, moet u ervoor zorgen dat voor elke variant de juiste stuklijst (BOM) wordt gebruikt. Voer het planningsvoorstel uit om de voorziening te berekenen.  
 
-## <a name="steps"></a>Stappen
+## Stappen
 
 1. Stel de SKU's (voorraadhoudende eenheden) in voor artikel SP-SCM1006, AutoDripLite. Wijs een stuklijst toe voor SKU met de varianten ROOD en WIT.
 
@@ -28,17 +28,17 @@ U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken
 
     4. Stel het veld **Maken per** in op *Vestiging en variant*.
 
-    5. Stel een filter voor vestiging in op *Noord* en kies vervolgens de **OK**-knop.
+    5. Stel een filter voor vestiging in op *HOOFD* en kies vervolgens de knop **OK**.
 
     6. Kies de actie **SKU's**.  
 
     7. Werk de productiestuklijsten bij voor de volgende SKU's:
 
-        1. ROOD op NOORD, SP-SCM1006-RED instellen  
+        1. ROOD op HOOFD, SP-SCM1006-RED instellen  
 
-        2. WIT op NOORD, SP-SCM1006-WHITE instellen  
+        2. WIT op HOOFD, SP-SCM1006-WHITE instellen  
 
-        3. Laat Productiestuklijstnr. leeg voor ZWART op NOORD  
+        3. Laat Productiestuklijstnr. leeg voor ZWART op HOOFD  
 
 2. Werk de productie-instellingen bij en respecteer de vraagprognose op vestigingen en varianten.  
 
@@ -50,7 +50,7 @@ U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken
 
     4. Sluit het venster **Productie-instellingen**.
 
-3. Maak een nieuwe maandelijkse vraagprognose, *AUTODRIP*. Filter dit op het artikel SP-SCM1006 en vestiging NOORD. Stel de vraag voor mei in voor elke variant. 
+3. Maak een nieuwe maandelijkse vraagprognose, *AUTODRIP*. Filter dit op het artikel SP-SCM1006 en vestiging HOOFD. Stel de vraag voor mei in voor elke variant. 
 
     1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer *vraagprognose* in en selecteer vervolgens de gerelateerde koppeling.
 
@@ -64,17 +64,17 @@ U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken
 
     6. Schakel het veld **Prognose op vestigingen gebruiken** in.
 
-    7. In het veld **Vestigingsfilter** selecteert u *NOORD*.
+    7. In het veld **Vestigingsfilter** selecteert u *HOOFD*.
 
     8. Schakel het veld **Prognose voor variant gebruiken** in.
 
     9. Voor elke regel bijgewerkte waarden in de kolom mei
 
-        1. ROOD op NOORD, 100 instellen
+        1. ROOD op HOOFD, stel 100 in
 
-        2. WIT op NOORD, 200 instellen
+        2. WIT op HOOFD, stel 200 in
 
-        3. ZWART op NOORD, 300 instellen
+        3. ZWART op HOOFD, stel 300 in
 
     10. Vensters vraagprognose sluiten
 
@@ -98,6 +98,6 @@ U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken
 
     9. Kies voor elke gemaakte regel de actie **Materialen** en bekijk welke verf is gebruikt.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](../contoso-coffee-intro.md)  

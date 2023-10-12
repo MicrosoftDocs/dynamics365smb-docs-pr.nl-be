@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 09/01/2022
+ms.date: 09/11/2023
 ms.author: bholtorf
 ---
-# <a name="invoice-sales"></a>Verkopen factureren
+# Verkopen factureren
 
 U kunt meestal een verkoopfactuur of een verkooporder maken om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.  
 
@@ -23,23 +23,23 @@ U moet echter een verkooporder gebruiken in plaats van een verkoopfactuur als u:
 
 In alle andere situaties werken verkooporders en verkoopfacturen op dezelfde wijze. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie over hoe u verkooporders gebruikt.
 
-U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u kunt omzetten in een verkoopfactuur of verkooporder wanneer er een overeenkomst is. Zie voor meer informatie [Verkoopoffertes maken](sales-how-make-offers.md).
+U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u kunt omzetten in een verkoopfactuur wanneer er een overeenkomst is. Ga voor meer informatie naar [Verkoopoffertes maken](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Verkoopfacturen maken
+## Verkoopfacturen maken
 
-Als de klant wilt kopen, boekt u de verkoopfactuur om de gerelateerde aantallen en waarden in te voeren. Wanneer u de verkoopfactuur boekt, kunt u het ook als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf invullen met een overzicht van de factuur- en betalingsgegevens, zoals een koppeling naar PayPal opgeven. Meer informatie op [Documenten per e-mail verzenden](ui-how-send-documents-email.md). Als de klant de factuur dan betaalt, kunt u die betaling op verschillende manieren registreren, afhankelijk van de grootte en de geprefereerde werkstromen van uw organisatie. Meer informatie de sectie [Betalingen registreren](#registering-payments).  
+Als de klant wilt kopen, boekt u de verkoopfactuur om de gerelateerde aantallen en waarden in te voeren. Wanneer u de verkoopfactuur boekt, kunt u het ook als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf invullen met een overzicht van de factuur- en betalingsgegevens, zoals een koppeling naar PayPal opgeven. Meer informatie op [Documenten per e-mail verzenden](ui-how-send-documents-email.md). Als de klant de factuur betaalt, kunt u die betaling op verschillende manieren registreren, afhankelijk van de grootte en de geprefereerde werkstromen van uw organisatie. Meer informatie de sectie [Betalingen registreren](#register-payments).  
 
 Artikelkaarten kunnen van het type **Voorraad**, **Service** en **Niet-voorraad** zijn om op te geven of het artikel respectievelijk een fysieke voorraadeenheid, een eenheid voor arbeidskosten of een fysieke eenheid die niet in voorraad wordt gehouden, is. Meer informatie op [Nieuwe artikelen registreren](inventory-how-register-new-items.md). Het verkoopfactureringsproces is hetzelfde voor alle drie de artikeltypen.
 
 U kunt klantvelden op de verkoopfactuur op een van twee manieren invullen afhankelijk van de vraag of de klant reeds is geregistreerd. Zie stap 2 in de volgende procedure.
 
-### <a name="to-create-a-sales-invoice"></a>Een verkoopfactuur maken
+### Een verkoopfactuur maken
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
-2. Voer in het veld **Klant** de naam in van een bestaande klant. Als de klant echter nieuw is en daarom niet is geregistreerd, volg dan deze stappen om standaardklantinformatie in te vullen op de pagina **Verkoopfactuur**:
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
+2. Voer in het veld **Klantnaam** de naam in van een bestaande klant. Als de klant echter nieuw is en daarom niet is geregistreerd, volg dan deze stappen om standaardklantinformatie in te vullen op de pagina **Verkoopfactuur**:
 
     1. Voer in het veld **Klantnaam** de naam van de nieuwe klant in.
-    2. Kies in het dialoogvenster voor het registreren van de nieuwe klant **Ja**.
+    2. Kies in het dialoogvenster voor het registreren van de nieuwe klant **OK**.
     3. Kies op de pagina **Selecteer een sjabloon voor een nieuwe klant** een sjabloon waarop u de nieuwe klantenkaart wilt baseren en kies vervolgens **OK**.
     4. In een nieuwe klantenkaart wordt de informatie uit de geselecteerde klantensjabloon getoond. Vul de overige velden in. Meer informatie op [Nieuwe klanten registreren](sales-how-register-new-customers.md).  
     5. Wanneer u de klantenkaart hebt voltooid, kiest u de knop **Sluiten** om terug te keren naar de pagina **Verkoopfactuur**.
@@ -53,7 +53,8 @@ U kunt klantvelden op de verkoopfactuur op een van twee manieren invullen afhank
     U kunt nu het sneltabblad **Regels** invullen met producten die u aan de klant verkoopt of voor elke transactie met de klant die u in een grootboekrekening wilt registreren.
 
 4. Selecteer op het sneltabblad **Regels** in het veld **Soort** het type product, kosten of transactie die u wilt boeken voor de klant op de verkoopregel.
-   * Als u terugkerende verkoopregels voor de klant hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de order door de actie **Periodieke verkoopregels ophalen** te kiezen.
+   > [!TIP]
+   > Als u terugkerende verkoopregels voor de klant hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de order door de actie **Periodieke verkoopregels ophalen** te kiezen.
 5. Kies in het veld **Nr.** een record die u wilt boeken op basis van de waarde in het veld **Soort**.
 
     Laat het veld **Nr.** leeg in de volgende gevallen:
@@ -77,7 +78,8 @@ U kunt klantvelden op de verkoopfactuur op een van twee manieren invullen afhank
     De totalenvelden onder de regels worden automatisch bijgewerkt wanneer u regels maakt of wijzigt om de bedragen weer te geven die naar de grootboeken worden geboekt.
 
     > [!NOTE]
-    > In zeer zeldzame gevallen kunnen de geboekte bedragen afwijken van wat wordt weergegeven in de totalenvelden. Dit is meestal het gevolg van afrondingsberekeningen met betrekking tot btw of omzetbelasting.<br /><br />Om de bedragen te controleren die daadwerkelijk worden geboekt, kunt u de pagina **Statistieken** gebruiken, die rekening houdt met de afrondingsberekeningen. Als u de actie **Vrijgeven** kiest, worden de totalenvelden ook bijgewerkt met afrondingsberekeningen.
+    > In zeer zeldzame gevallen kunnen de geboekte bedragen afwijken van wat wordt weergegeven in de totalenvelden. Dit is meestal het gevolg van afrondingsberekeningen met betrekking tot btw of omzetbelasting.<br /><br />Gebruik het feitenblok de **Klantstatistieken** om de bedragen die u boekt te verifiëren. Als u de actie **Vrijgeven** kiest, worden de waarden in de totalenvelden bijgewerkt met afrondingsberekeningen.
+
 9. In het veld **Factuurkortingsbedrag excl. btw** voert u een bedrag in dat moet worden afgetrokken van de waarde in het veld **Totaal incl. btw**.
 
     Als u factuurkortingen voor de klant hebt opgegeven, wordt het opgegeven percentage automatisch ingevoegd in het veld **Factuurkorting %** als aan de kortingsvoorwaarden wordt voldaan, en het gerelateerde bedrag wordt ingevoegd in het veld **Factuurkortingsbedrag excl. btw**. Zie [Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md) voor meer informatie.
@@ -88,11 +90,11 @@ Het dialoogvenster **Boeken en verzenden bevestigen** geeft de manier aan waarop
 
 Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het systeem en de verkoopfactuur is uitvoer als een PDF-document. De verkoopfactuur wordt verwijderd uit de lijst met verkoopfacturen en wordt vervangen door een nieuw document in de lijst met geboekte verkoopfacturen.  
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Factuurkortingen op verkopen berekenen
+### Factuurkortingen op verkopen berekenen
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Geboekte facturen
+## Geboekte facturen
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -100,7 +102,7 @@ U kunt een geboekte verkoopfactuur gemakkelijk corrigeren of annuleren voordat h
 
 [Open de lijst **Geboekte verkoopfacturen**](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="registering-payments"></a>Betalingen registreren
+## Betalingen registreren
 
 Afhankelijk van uw zakelijke behoeften kunt u op verschillende manieren betaald krijgen en die betaling registreren: handmatig, automatisch en door middel van betalingsservices.  
 
@@ -113,13 +115,13 @@ In ondernemingsomgevingen waar de klant direct betaalt, bijvoorbeeld met PayPal 
 U kunt zelfs direct betaalde facturen voor niet-geregistreerde klanten maken door een kaart voor een contant betalende klant voor hen te maken, waarnaar u verwijst op de verkoopfactuur. Meer informatie op [Contant betalende klanten instellen](finance-how-to-set-up-cash-customers.md).  
 
 > [!TIP]
-> Als u uw klanten herinneringen wilt sturen over achterstallige betalingen, moet u eerst herinneringsniveaus en -voorwaarden instellen. Zie [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md) voor meer informatie.  
+> Als u uw klanten aanmaningen wilt sturen over achterstallige betalingen, moet u eerst aanmaningsniveaus en -voorwaarden instellen. Zie [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md) voor meer informatie.  
 
-## <a name="external-document-numbers"></a>Externe documentnummers
+## Externe documentnummers
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  

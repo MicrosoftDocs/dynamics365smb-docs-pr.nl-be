@@ -65,7 +65,7 @@ sections:
       - question: |
           Waar vind ik dat regelnummer?
         answer: |
-          Documenten zoals verkooporders of inkoopfacturen bestaan uit kopteksten en regels. Elke regel heeft een nummer dat [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt om deze specifieke regel te identificeren. Als gevolg hiervan ziet u mogelijk een waarschuwing of een foutmelding dat er iets mis is in regelnummer 1000, bijvoorbeeld. In de standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] zijn regelnummers verborgen. Als u de regelnummers wilt zien, moet u de huidige pagina personaliseren en het veld **Regelnr.**   Zie voor meer informatie [Uw werkruimte personaliseren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Documenten zoals verkooporders of inkoopfacturen bestaan uit kopteksten en regels. Elke regel heeft een nummer dat [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt om deze specifieke regel te identificeren. Als gevolg hiervan ziet u mogelijk een waarschuwing of een foutmelding dat er iets mis is in regelnummer 1000, bijvoorbeeld. In de standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] zijn regelnummers verborgen. Als u de regelnummers wilt zien, moet u de huidige pagina personaliseren en het veld **Regelnr.**   Zie voor meer informatie [Uw werkruimte personaliseren](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Waarom beschrijft de Help functionaliteit waartoe ik geen toegang heb?
         answer: |
@@ -90,7 +90,7 @@ sections:
 
           Als u zich aanmeldt met een niet-Microsoft 365-werkaccount (bijvoorbeeld joe@mysolution.com), en u een Microsoft 365-abonnement hebt, kunt u uw domein (*mysolution.com*) koppelen aan het abonnement op Microsoft 365. Zie voor meer informatie [Wat is een domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in de Microsoft 365-inhoud.  
 
-          Als u geen abonnement op Microsoft 365 hebt en u er geen wilt aanschaffen, leveren we u, als u zich aanmeldt, een nieuwe Azure Active Directory-tenant, zodat u toegang hebt tot de geavanceerde beheertools in de Azure Portal.  
+          Als u geen abonnement op Microsoft 365 hebt en u er geen wilt aanschaffen, leveren we u, als u zich aanmeldt, een nieuwe Microsoft Entra-tenant, zodat u toegang hebt tot de geavanceerde beheertools in de Azure Portal.  
       - question: |
           Waar gaat de integratie met Microsoft 365 over?
         answer: |

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-variance"></a>Ontwerpdetails: Verschil
+# Ontwerpdetails: Verschil
 Verschil wordt gedefinieerd als het verschil tussen de werkelijke kosten en de vaste verrekenprijs, zoals in de volgende formule wordt beschreven.  
 
  werkelijke kosten – standaardkosten = verschil  
@@ -20,7 +20,7 @@ Verschil wordt gedefinieerd als het verschil tussen de werkelijke kosten en de v
 > [!NOTE]  
 >  Herwaardering heeft geen invloed op de verschilberekening, omdat herwaardering alleen de voorraadwaarde wijzigt.  
 
-## <a name="example"></a>Opmerking
+## Opmerking  
  In het volgende voorbeeld ziet u hoe het verschil wordt berekend voor aangeschafte artikelen. Het is gebaseerd op het volgende scenario:  
 
 1.  De gebruiker koopt een artikel tegen LV 90,00, maar de vaste verrekenprijs is LV 100,00. Het inkoopverschil is dus LV -10,00.  
@@ -33,7 +33,7 @@ Verschil wordt gedefinieerd als het verschil tussen de werkelijke kosten en de v
 
  ![Berekening van het inkoopverschil.](media/design_details_inventory_costing_11_purchase_variance.png "Berekening van het inkoopverschil")  
 
-## <a name="determining-the-standard-cost"></a>De standaardkosten bepalen
+## De standaardkosten bepalen  
  De vaste verrekenprijs wordt gebruikt bij het berekenen van het te kapitaliseren verschil en aantal. Aangezien de vaste verrekenprijs na verloop van tijd kan worden gewijzigd als gevolg van handmatige updateberekeningen, hebt u een tijdstip nodig waarop de vaste verrekenprijs wordt vastgesteld voor verschilberekening. Dit punt is wanneer de voorraadtoename wordt gefactureerd. Voor geproduceerde of geassembleerde artikelen worden standaardkosten bepaald wanneer de kosten worden gewaardeerd.  
 
  De volgende tabel toont hoe verschillende kostenaandelen worden gegenereerd voor geproduceerde en geassembleerde artikelen als u de functie Vaste verrekenprijs berekenen gebruikt.  
@@ -52,7 +52,7 @@ Verschil wordt gedefinieerd als het verschil tussen de werkelijke kosten en de v
 |**Samengevouwen capaciteitsoverheadkosten**|Niet van toepassing|![Vergelijking 8.](media/design_details_inventory_costing_11_equation_8.png "Vergelijking 8")|  
 |**Prod.-overheadkosten (Alle niv.)**|Niet van toepassing|![Vergelijking 9.](media/design_details_inventory_costing_11_equation_9.png "Vergelijking 9")|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
  [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md) [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  

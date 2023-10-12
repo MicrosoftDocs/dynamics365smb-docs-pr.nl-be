@@ -9,7 +9,7 @@ Nadat u alle artikelen op regels hebt toegevoegd, kunt u de factuurkorting voor 
 De korting wordt berekend op basis van alle regels op het verkoopdocument waar het selectievakje **Factuurkorting toestaan** is gekozen. Factuurkortingen zijn standaard toegestaan. Regels met artikeltoeslagen worden bijvoorbeeld echter niet meegenomen in de berekening van de factuurkorting. Om een korting op dergelijke regels toe te passen voert u een waarde in het veld **Totale regelkorting** op de regels in.  
 
 > [!NOTE]
-> Standaard zijn de velden **Factuurkorting toestaan.** en **Totale regelkorting** verborgen op regels. Als de velden niet beschikbaar zijn, kunt u ze toevoegen door de pagina te personaliseren. Zie [Uw werkruimte personaliseren](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner) voor meer informatie.
+> Standaard zijn de velden **Factuurkorting toestaan.** en **Totale regelkorting** verborgen op regels. Als de velden niet beschikbaar zijn, kunt u ze toevoegen door de pagina te personaliseren. Zie [Uw werkruimte personaliseren](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode) voor meer informatie.
 
 > [!TIP]
 > Als het veld **Factuurkorting berekenen** is geselecteerd op de pagina **Verkoopinstellingen**, wordt de factuurkorting automatisch berekend. Wanneer de berekening plaatsvindt, verschilt afhankelijk van het type verkoopdocument dat u gebruikt.

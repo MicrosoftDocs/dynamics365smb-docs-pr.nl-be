@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650'
 ms.date: 03/07/2022
 ms.author: jswymer
 ---
-# <a name="legacy-set-the-layout-used-by-a-report"></a>(verouderd) De lay-out instellen die door een rapport wordt gebruikt
+# (verouderd) De lay-out instellen die door een rapport wordt gebruikt
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -24,7 +24,7 @@ Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit
 > [!TIP]  
 > Documentrapporten (niet -lijsten) die een Word-rapportindeling gebruiken zijn meestal sneller dan rapporten die een RDLC-rapportindeling gebruiken. Als u dus kunt kiezen tussen een Word- of een RDLC-rapportindeling voor een documentrapport, gebruik dan de Word-rapportindeling voor de beste prestaties.
 
-## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Wijzigen welke rapportlay-out moet worden gebruikt voor een rapport of document
+## Wijzigen welke rapportlay-out moet worden gebruikt voor een rapport of document
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.
   
@@ -43,7 +43,7 @@ Wanneer aangepaste rapportlay-outs zijn gedefinieerd, kunt u deze selecteren uit
 
 Als u een ingebouwde RDLC- of Word-rapportlay-out hebt geselecteerd, is er verder geen actie vereist en wordt de lay-out gebruikt als het rapport de volgende keer wordt uitgevoerd.
 
-## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>De aangepaste lay-out wijzigen die voor een rapportlay-out wordt gebruikt
+## De aangepaste lay-out wijzigen die voor een rapportlay-out wordt gebruikt
 
 Misschien wilt u ook de huidige gebruikte aangepaste lay-out wijzigen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
@@ -56,7 +56,7 @@ De naam van de geselecteerde aangepaste lay-out wordt nu weergegeven in het veld
 
 U kunt nu naar uw klanten- en leverancierskaarten gaan om op te geven welke lay-outs u wilt gebruiken voor verschillende documenten die u voor de betreffende klant of leverancier maakt, zoals orderbevestigingen of betalingsherinneringen. Zie voor meer informatie [Documentlay-outs definiëren voor klanten en leveranciers](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

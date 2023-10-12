@@ -10,11 +10,11 @@ ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="managing-database-access-intent"></a>Databasetoegangsintentie beheren
+# Databasetoegangsintentie beheren
 
 Als supergebruiker of beheerder kunt u de databasetoegangsintentie voor rapporten, pagina's van het type API en query's wijzigen om de prestaties van de service te verbeteren.
 
-## <a name="overview"></a>Overzicht
+## Overzicht
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan worden ingesteld om alleen-lezen replica's van de primaire (lezen-schrijven) database te gebruiken. Het gebruik van de databasereplica vermindert de belasting van de primaire database. In sommige gevallen verbetert het ook de prestaties bij het bekijken van gegevens in de client. Replica's zijn gunstig voor objecten, zoals rapporten, query's en API-pagina's, die alleen worden gebruikt voor het bekijken van gegevens en niet voor het wijzigen van gegevens.
 
@@ -24,7 +24,7 @@ Met de pagina **Lijst met intenties voor databasetoegang** kunt u de vooraf gede
 
 In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor meer informatie over read scale-out en datatoegangsintentie in [!INCLUDE[prod_short](includes/prod_short.md)] raadpleegt u [Read scale-out gebruiken voor betere prestaties](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) in de [!INCLUDE[prod_short](includes/prod_short.md)] Help voor ontwikkelaars en beheer.
 
-## <a name="to-change-the-database-access-intent"></a>De intentie van de databasetoegang wijzigen
+## De intentie van de databasetoegang wijzigen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerken - Lijst met intenties voor databasetoegang** in en kies vervolgens de gerelateerde koppeling.
 
@@ -43,7 +43,7 @@ In databasetermen staat deze functie algemeen bekend als *read scale-out*. Voor 
     > [!NOTE]
     > Als een object dat kan worden bewerkt, zoals de klantenkaart, is ingesteld op **Alleen-lezen**, zal de primaire database nog steeds worden gebruikt, ongeacht de toegangsintentie, zodat gebruikers normaal wijzigingen kunnen aanbrengen.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

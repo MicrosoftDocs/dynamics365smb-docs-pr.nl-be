@@ -2,19 +2,18 @@
 title: Power BI-integratie met Business Central inschakelen
 description: 'Leer hoe u de verbinding met Power BI instelt. Met Power BI-rapporten kunt u inzicht, bedrijfsinformatie en KPI''s krijgen uit uw Business Central-gegevens.'
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: get-started
 ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, business intelligence, KPI'
-ms.date: 07/13/2022
+ms.date: 09/28/2023
 ms.author: jswymer
 ---
-# <a name="enabling-power-bi-integration-with-"></a>Power BI-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] mogelijk maken
+# Power BI-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] mogelijk maken
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 In dit artikel wordt beschreven hoe u [!INCLUDE[prod_short](includes/prod_short.md)] gereedmaakt voor integratie met Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online is al gereedgemaakt voor integratie, hoewel er enige informatie over licenties beschikbaar is die u misschien wilt lezen. Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises moet u uw omgeving zodanig instellen dat deze verbinding kan maken met Power BI voordat gebruikers ermee kunnen werken.
 
-## <a name="power-bi-licensing"></a><a name="license"></a>Power BI-licenties
+## <a name="license"></a>Power BI-licenties
 
 Bij [!INCLUDE[prod_short](includes/prod_short.md)] krijgen gebruikers een gratis Power BI-licentie die toegang biedt tot de meest voorkomende functies in [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI. U kunt ook een Power BI Pro-licentie aanschaffen die toegang biedt tot extra functies. De volgende tabel geeft een overzicht van de functies die beschikbaar zijn bij elke licentie.
 
@@ -25,11 +24,11 @@ Bij [!INCLUDE[prod_short](includes/prod_short.md)] krijgen gebruikers een gratis
 
 Zie [Licenties voor de Power BI-service voor gebruikers in uw organisatie](/power-bi/admin/service-admin-licensing-organization) of [U aanmelden voor de Power BI-service als individu](/power-bi/fundamentals/service-self-service-signup-for-power-bi) voor meer informatie.
 
-## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Gegevens beschikbaar stellen via API of OData-webservices
+## <a name="exposedata"></a>Gegevens beschikbaar stellen via API of OData-webservices
 
 Business Central biedt twee manieren om gegevens beschikbaar te stellen die kunnen worden gebruikt door Power BI-rapporten of -query's: API-pagina's en Open Data Protocol (OData) webservices.
 
-### <a name="api-pages-and-queries"></a>API-pagina's en query's
+### API-pagina's en query's
 
 > **VAN TOEPASSING OP:** alleen Business Central online
 
@@ -44,21 +43,21 @@ Business Central online ondersteunt ook aangepaste API's. Applicatieontwikkelaar
 >
 > In zeldzame gevallen zal het gedrag een fout veroorzaken wanneer een gebruiker gegevens probeert op te halen vanuit de API voor een rapport in Power BI Desktop. Als er echter wijzigingen in de database nodig zijn in de aangepaste API, kunnen Power BI Desktop-gebruikers het gedrag forceren. Zie voor meer informatie [Power BI-rapporten maken om Business Central-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
-### <a name="odata-web-services"></a>OData-webservices
+### OData-webservices
 
 U kunt Business Central-toepassingsobjecten, zoals codeunits, pagina's en query's, publiceren als [OData-webservices](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Met Business Central online worden standaard veel webservices gepubliceerd. Een eenvoudige manier om de webservices te vinden is te zoeken naar *webservices* in [!INCLUDE[prod_short](includes/prod_short.md)]. Zorg dat op de pagina **Webservices** het veld **Publiceren** is geselecteerd voor de hierboven genoemde webservices. Zie [Een webservice publiceren](across-how-publish-web-service.md) voor meer informatie over het publiceren van webservices.
 
 Als u wilt weten wat u kunt doen om ervoor te zorgen dat de webservices optimaal presteren, gezien vanuit de Business Central-server (het eindpunt) en vanuit de consument (de client), leest u [Efficiënte webservices creëren](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
-### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>Kiezen of u API-pagina's of OData-webservices wilt gebruiken
+### Kiezen of u API-pagina's of OData-webservices wilt gebruiken
 
 Waar mogelijk wordt u aangemoedigd om API-pagina's te gebruiken in plaats van de OData-webservice. API-pagina's zijn over het algemeen sneller in het laden van gegevens in Power BI-rapporten dan OData-webservices. Bovendien zijn ze flexibeler omdat u gegevens kunt ophalen uit tabelvelden die niet in een paginaobject zijn gedefinieerd.
 
-## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises configureren voor integratie met Power BI
+## <a name="setup"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises configureren voor integratie met Power BI
 
 In dit gedeelte wordt uitgelegd wat de vereisten zijn voor de integratie van een implementatie van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises met Power BI.
 
-1. Configureer NavUserPassword of Azure Active Directory-verificatie voor de implementatie.  
+1. Configureer [NavUserPassword](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-navuserpassword) of [Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview) als de verificatiemethode voor de implementatie.  
     
     > [!NOTE]
     > Power BI-integratie ondersteunt geen Windows-verificatie en wordt niet ondersteund op Windows Client.
@@ -79,19 +78,19 @@ In dit gedeelte wordt uitgelegd wat de vereisten zijn voor de integratie van een
 
 4. Maak een toepassingsregistratie voor [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure.
 
-    Voor het weergeven van Power BI-rapporten die zijn ingesloten in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's, moet een toepassing zijn geregistreerd voor [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure. De geregistreerde toepassing heeft toestemming nodig voor Power BI-services. De app vereist minimaal de machtiging **User.ReadWrite.All**. Als gebruikers rapporten van gedeelde Power BI-werkruimten willen kunnen bekijken, vereist de app de machtiging **Workspace.Read.All**. Zie [[!INCLUDE[prod_short](includes/prod_short.md)] on-premises registreren in Azure AD voor integratie met andere services](/dynamics365/business-central/dev-itpro/administration/register-app-azure) voor meer informatie.
+    Voor het weergeven van Power BI-rapporten die zijn ingesloten in [!INCLUDE[prod_short](includes/prod_short.md)]-pagina's, moet een toepassing zijn geregistreerd voor [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure. De geregistreerde toepassing heeft toestemming nodig voor Power BI-services. De app vereist minimaal de machtiging **User.ReadWrite.All**. Als gebruikers rapporten van gedeelde Power BI-werkruimten willen kunnen bekijken, vereist de app de machtiging **Workspace.Read.All**. Zie [[!INCLUDE[prod_short](includes/prod_short.md)] on-premises registreren in Microsoft Entra ID voor integratie met andere services](/dynamics365/business-central/dev-itpro/administration/register-app-azure) voor meer informatie.
 
     > [!NOTE]
-    > Als voor uw implementatie NavUserPassword-verificatie wordt gebruikt, maakt [!INCLUDE[prod_short](includes/prod_short.md)] verbinding met dezelfde Power BI-service voor alle gebruikers. U kunt dit serviceaccount specificeren bij het registreren van de toepassing. Als er Azure AD-verificatie wordt gebruikt, maakt [!INCLUDE[prod_short](includes/prod_short.md)] verbinding met de Power BI-service die is gekoppeld aan de individuele gebruikersaccounts.
+    > Als voor uw implementatie NavUserPassword-verificatie wordt gebruikt, maakt [!INCLUDE[prod_short](includes/prod_short.md)] verbinding met dezelfde Power BI-service voor alle gebruikers. U kunt dit serviceaccount specificeren bij het registreren van de toepassing. Als er Microsoft Entra-verificatie wordt gebruikt, maakt [!INCLUDE[prod_short](includes/prod_short.md)] verbinding met de Power BI-service die is gekoppeld aan de individuele gebruikersaccounts.
 
     <!-- Windows authentication can also be used but you can't get data from BC in Power BI -->
 5. Maak de eerste verbinding van Business Central met Power BI.
 
     Voordat eindgebruikers Power BI in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen gebruiken, zal een Azure-applicatiebeheerder toestemming moeten geven voor de Power BI-service.
 
-    Open om de eerste verbinding te maken [!INCLUDE[prod_short](includes/prod_short.md)] en voer **Aan de slag met Power BI** uit vanaf de startpagina. Deze actie leidt u door het toestemmingsproces en controleert uw Power BI-licentie. Meld u aan met een Azure-beheerdersaccount wanneer daarom wordt gevraagd. Zie voor meer informatie [Verbinding maken met Power BI - eenmalig](across-working-with-powerbi.md#connect).
+    Open om de eerste verbinding te maken [!INCLUDE[prod_short](includes/prod_short.md)] en voer **Aan de slag met Power BI** uit vanaf de startpagina. Deze actie leidt u door het toestemmingsproces en controleert uw Power BI-licentie. Meld u aan met een Microsoft Entra-beheerdersaccount wanneer daarom wordt gevraagd. Zie voor meer informatie [Verbinding maken met Power BI - eenmalig](across-working-with-powerbi.md#connect).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Business Central en Power BI](admin-powerbi.md)  
 [Power BI-integratieonderdeel en architectuuroverzicht voor [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

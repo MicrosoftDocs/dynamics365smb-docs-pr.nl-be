@@ -137,8 +137,6 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de verkoopcijfers van de voorgaande jaren voor het berekenen van een aandeel van 1596,50 LV met 100 procent voor de pakketten voor IT-APPARATUUR. Dit betekent dat alle artikelen die vorig jaar zijn verkocht, worden toegewezen aan kostenobject IT-APPARATUUR.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/allocate-costs-dynamics-365-business-central/)
-
 ## Zie ook
 
  [Kostenboekhouding instellen](finance-set-up-cost-accounting.md)  

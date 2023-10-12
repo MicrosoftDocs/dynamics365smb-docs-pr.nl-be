@@ -46,8 +46,6 @@ Nadat u goedkeuringsgebruikers hebt ingesteld, kunt u werkstroomreacties te make
 
 De volgende stap is specificeren hoe u wilt dat [!INCLUDE [prod_short](includes/prod_short.md)] mensen informeert dat een verzoek in afwachting van hun aandacht is. Meer informatie op [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md).
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-workflows/)
-
 ## Zie ook
 
 [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)  

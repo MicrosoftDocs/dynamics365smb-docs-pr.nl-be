@@ -11,7 +11,7 @@ ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden
+# Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden
 
 Als u wilt zorgen voor goede waardering, moeten voor uw voorraadartikelen toegevoegde kosten worden berekend, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt wanneer u de artikelen inkoopt of verkoopt. Voor inkopen bestaan de werkelijke kosten van een ingekocht artikel uit de inkoopprijs van de leverancier en alle andere directe artikeltoeslagen die kunnen worden toegewezen voor afzonderlijke ontvangsten of retourzendingen. Voor verkopen is het belang van de verzendkosten van verkochte artikelen te weten net zo groot zijn als de leveringskosten van aangekochte artikelen te weten.
 
@@ -31,13 +31,13 @@ Voor zowel inkoop- als verkoopdocumenten kunt u een artikeltoeslag op twee manie
 > [!NOTE]  
 > U kunt artikeltoeslagen toewijzen aan orders, facturen en creditnota's, voor zowel verkoop- als inkopen. In de volgende procedures wordt beschreven hoe u met artikeltoeslagen werkt voor een inkoopfactuur. De stappen lijken op alle andere inkoop- en verkoopdocumenten.
 
-## <a name="example"></a>Voorbeeld
+## Voorbeeld
 
 Deze video laat zien hoe om te gaan met extra verzendkosten als onderdeel van voorraadkosten.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## <a name="to-set-up-item-charge-numbers"></a>Artikeltoeslagnummers instellen
+## Artikeltoeslagnummers instellen
 
 U gebruikt artikeltoeslagnummers om onderscheid te maken tussen de verschillende soorten artikeltoeslagen.
 
@@ -45,7 +45,7 @@ U gebruikt artikeltoeslagnummers om onderscheid te maken tussen de verschillende
 2. Kies op de pagina **Artikeltoeslagen** de actie **Nieuw** om een nieuwe regel te maken.
 3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Een artikeltoeslag rechtstreeks toewijzen aan de inkoopfactuur voor het artikel
+## Een artikeltoeslag rechtstreeks toewijzen aan de inkoopfactuur voor het artikel
 
 Als u de artikeltoeslag kent wanneer u de inkoopfactuur van het artikel boekt, volgt u deze procedure.
 
@@ -69,7 +69,7 @@ Als de artikeltoeslag volledig is toegewezen, wordt de waarde in het veld **Toe 
 
 De artikeltoeslag wordt nu toegewezen aan de inkoopfactuur. Als u de ontvangst van de inkoopfactuur boekt, worden de voorraadkosten van het artikel bijgewerkt met de kosten van de artikeltoeslag.  
 
-## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Een artikeltoeslag vanuit een aparte factuur rechtstreeks toewijzen aan de inkoopfactuur voor het artikel
+## Een artikeltoeslag vanuit een aparte factuur rechtstreeks toewijzen aan de inkoopfactuur voor het artikel
 
 Als u een factuur hebt ontvangen voor de artikeltoeslag nadat u de oorspronkelijke inkoopontvangst hebt geboekt, volgt u deze procedure.
 
@@ -80,7 +80,7 @@ Als u een factuur hebt ontvangen voor de artikeltoeslag nadat u de oorspronkelij
 
 De artikeltoeslag op de afzonderlijke inkoopfactuur wordt nu toegewezen aan het artikel op de geboekte inkoopontvangst, waardoor de voorraadwaarde van het artikel wordt bijgewerkt met de kosten van de artikeltoeslag.
 
-## <a name="handle-item-charges-for-partial-receipts"></a>Artikelkosten afhandelen voor gedeeltelijke ontvangsten
+## Artikelkosten afhandelen voor gedeeltelijke ontvangsten
 
 Laten we eens kijken naar een voorbeeld van het afhandelen van artikeltoeslagen voor een gedeeltelijke ontvangst.
 
@@ -95,7 +95,7 @@ Om de artikelkosten voor de gedeeltelijke ontvangst te verwerken, voert u op de 
 
 Wanneer u klaar bent om het ontbrekende artikel af te handelen, werkt u het veld **Te factureren aantal** bij en boekt u de order.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  

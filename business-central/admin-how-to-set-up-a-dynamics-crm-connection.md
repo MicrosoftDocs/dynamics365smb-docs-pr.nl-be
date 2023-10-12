@@ -6,30 +6,55 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 03/22/2023
+ms.date: 09/28/2023
 ms.author: bholtorf
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Verbinding maken met Microsoft Dataverse
+# Verbinding maken met Microsoft Dataverse
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 In dit artikel wordt beschreven hoe u een verbinding tot stand brengt tussen [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Bedrijven maken doorgaans de verbinding om gegevens te integreren en te synchroniseren met een andere Dynamics 365-bedrijfsapp, zoals [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-## <a name="before-you-start"></a>Voordat u begint
+## Voordat u begint
 
 Voordat u de verbinding maakt, moet u een aantal gegevens gereed hebben:  
 
 * De URL van de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving waarmee u verbinding wilt maken. Als u de begeleide instelling **Dataverse-verbinding instellen** gebruikt om de verbinding tot stand te brengen, kunnen we uw omgevingen vinden. U kunt ook de URL van een andere omgeving in uw tenant invoeren.  
 * De gebruikersnaam en het wachtwoord van een account dat beheerdersmachtigingen heeft in [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Als u een on-premises [!INCLUDE[prod_short](includes/prod_short.md)] 2020 releasewave 1, versie 16.5, hebt, leest u het artikel [Enkele bekende problemen](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). U moet de beschreven tijdelijke oplossing voltooien voordat u verbinding kunt maken met [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-* De lokale valuta voor het bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)] moet dezelfde zijn als de basistransactievaluta in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Nadat u een transactie in de basisvaluta hebt gemaakt in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], kunt u deze niet wijzigen. Zie voor meer informatie [De entiteit Transactievaluta (valuta)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Alle [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijven die u verbindt met een [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-organisatie moeten dezelfde valuta gebruiken.
+* De lokale valuta's die elk bedrijf gebruikt. [!INCLUDE [prod_short](includes/prod_short.md)]-bedrijven kunnen verbinding maken met een [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-omgeving die een andere basisvaluta heeft dan hun lokale valuta. Voor meer informatie over het omgaan met instellingen voor meerdere valuta's gaat u naar [Verschillende valuta's toestaan](#allow-for-different-currencies).
 
 > [!IMPORTANT]
 > Uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving mag niet in de beheermodus zijn. De beheermodus zorgt ervoor dat de verbinding mislukt omdat het integratiegebruikersaccount voor de verbinding geen beheerdersmachtigingen heeft. Zie [Beheermodus](/power-platform/admin/admin-mode) voor meer informatie.
 
 > [!Note]
 > Deze stappen beschrijven de procedure voor [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt en geen Azure Active Directory-account gebruikt om verbinding te maken met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], moet u ook een gebruikersnaam en wachtwoord van een gebruikersaccount opgeven voor de integratie. Dit account wordt de 'integratiegebruiker' genoemd. Als u een Azure Active Directory-account gebruikt, is het gebruikersaccount voor integratie niet vereist en wordt dit ook niet weergegeven. De integratiegebruiker wordt automatisch ingesteld en heeft geen licentie nodig.
+> Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt en geen Microsoft Entra-account gebruikt om verbinding te maken met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], moet u ook een gebruikersnaam en wachtwoord van een gebruikersaccount opgeven voor de integratie. Dit account wordt de 'integratiegebruiker' genoemd. Als u een Microsoft Entra-account gebruikt, is het gebruikersaccount voor integratie niet vereist en wordt dit ook niet weergegeven. De integratiegebruiker wordt automatisch ingesteld en heeft geen licentie nodig.
 
-## <a name="set-up-a-connection-to-"></a>Een verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] instellen
+## Verschillende valuta's toestaan
+
+[!INCLUDE [prod_short](includes/prod_short.md)]-bedrijven kunnen verbinding maken met een [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-omgeving die een andere basisvaluta heeft dan hun lokale valuta.
+
+> [!NOTE]
+> Voor het synchroniseren van meerdere valuta's is het nodig dat u een unidirectionele synchronisatie gebruikt, van [!INCLUDE [prod_short](includes/prod_short.md)] naar [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
+
+Voor meer informatie over de basisvaluta in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] gaat u naar [De entiteit Transactievaluta (valuta)](/powerapps/developer/data-platform/transaction-currency-currency-entity). 
+
+Voor meer informatie over valuta's in [!INCLUDE [prod_short](includes/prod_short.md)] gaat u naar [Valuta's in Business Central](finance-currencies.md).
+
+Om verschillende valuta's mogelijk te maken moet u ervoor zorgen dat u de volgende instellingen heeft opgegeven voordat u verbinding maakt:
+
+* De basistransactievaluta-instelling in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] heeft de valutacode die is opgegeven op de pagina **Valuta's** in [!INCLUDE [prod_short](includes/prod_short.md)].
+* Er is ten minste één wisselkoers gespecificeerd voor de valuta in [!INCLUDE [prod_short](includes/prod_short.md)] op de pagina **Valutawisselkoersen**.
+
+Wanneer u de verbinding met [!INCLUDE [cds_long_md](includes/cds_long_md.md)] inschakelt, [!INCLUDE [prod_short](includes/prod_short.md)] wordt de lokale valuta ervan toegevoegd aan de entiteit **Valuta** in [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. De lokale valuta gebruikt de wisselkoers uit het veld **Valutafactor** op de pagina **Valutawisselkoersen** .
+
+Aangezien valutasynchronisatie unidirectioneel is, van [!INCLUDE [prod_short](includes/prod_short.md)] naar [!INCLUDE [cds_long_md](includes/cds_long_md.md)], worden geldbedragen als volgt omgerekend en gesynchroniseerd:
+
+* Bedragen in de [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-basisvaluta worden omgerekend naar de lokale [!INCLUDE [prod_short](includes/prod_short.md)]-valuta op basis van de laatste wisselkoers die is gesynchroniseerd vanuit [!INCLUDE [prod_short](includes/prod_short.md)].
+* Bedragen in de lokale [!INCLUDE [prod_short](includes/prod_short.md)]-valuta worden gesynchroniseerd met de lokale [!INCLUDE [prod_short](includes/prod_short.md)]-valuta in een van de andere (niet-basis) valuta's in [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
+
+## Een verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] instellen
 
 Voor alle verificatiesoorten anders dan Microsoft 365-verificatie stelt u de verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] in op de pagina **Dataverse-verbinding instellen**. Het is raadzaam de begeleide instelling **Dataverse-verbinding instellen** te gebruiken voor Microsoft 365-verificatie. De begeleide instelling maakt het gemakkelijker om de verbinding in te stellen en geavanceerde functies op te geven, zoals het eigendomsmodel en initiële synchronisatie.  
 
@@ -42,7 +67,7 @@ Voor alle verificatiesoorten anders dan Microsoft 365-verificatie stelt u de ver
 >
 > Door namens de organisatie toestemming te geven geeft de beheerder de geregistreerde Azure-toepassing genaamd [!INCLUDE[prod_short](includes/prod_short.md)]-integratie met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] het recht gegevens te synchroniseren met de referenties van de automatisch gemaakte gebruiker van de [!INCLUDE[prod_short](includes/prod_short.md)]-integratietoepassing.
 
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>De begeleide instelling Dataverse-verbinding instellen gebruiken
+### De begeleide instelling Dataverse-verbinding instellen gebruiken
 
 De begeleide instelling Dataverse-verbinding instellen kan het gemakkelijker maken om de toepassingen te verbinden en kan u zelfs helpen bij het uitvoeren van een eerste synchronisatie. Als u ervoor kiest om de eerste synchronisatie uit te voeren, zal [!INCLUDE[prod_short](includes/prod_short.md)] de gegevens in beide applicaties bekijken en aanbevelingen doen voor het benaderen van de initiële synchronisatie. De volgende tabel beschrijft de verschillende aanbevelingen.
 
@@ -62,7 +87,7 @@ De begeleide instelling Dataverse-verbinding instellen kan het gemakkelijker mak
 > [!NOTE]
 > Als u niet wordt gevraagd om u aan te melden met uw beheerdersaccount, komt dit waarschijnlijk omdat pop-ups worden geblokkeerd. Sta pop-ups vanaf `https://login.microsoftonline.com` toe om u aan te melden.
 
-### <a name="to-create-or-maintain-the-connection-manually"></a>De verbinding handmatig maken of onderhouden
+### De verbinding handmatig maken of onderhouden
 
 In de volgende procedure wordt beschreven hoe u de verbinding op de pagina **Dataverse-verbinding instellen** handmatig instelt. De pagina **Dataverse-verbinding instellen** is de locatie waar u de integratie-instellingen beheert.
 
@@ -90,7 +115,7 @@ In de volgende procedure wordt beschreven hoe u de verbinding op de pagina **Dat
 5. Als [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-synchronisatie niet al is ingesteld, wordt u gevraagd of u de standaardinstellingen voor synchronisatie wilt gebruiken. Afhankelijk van of u records uitgelijnd wilt houden in [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)], kiest u **Ja** of **Nee**.
 
 <!--
-## <a name="show-me-the-process"></a>Show Me the Process
+## Show Me the Process
 
 The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
@@ -98,7 +123,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>De koppeling op basis van overeenkomsten aanpassen
+## De koppeling op basis van overeenkomsten aanpassen
 
 Vanaf releasewave 2 van 2021 kan een beheerder criteria invoeren om records te koppelen op basis van overeenkomsten. U kunt het algoritme voor het matchen van records starten vanaf de volgende locaties in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -130,7 +155,7 @@ In alle drie de gevallen wordt de pagina **Koppelingscriteria selecteren** geope
 
 * Geef op of u een nieuw entiteitsexemplaar wilt maken in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] in het geval dat er geen unieke ontkoppelde overeenkomst kan worden gevonden met behulp van de matchcriteria. Om deze mogelijkheid te activeren kiest u de actie **Nieuw maken als geen overeenkomst is gevonden**.  
 
-### <a name="view-the-results-of-the-coupling-job"></a>De resultaten van de koppelingstaak bekijken
+### De resultaten van de koppelingstaak bekijken
 
 Om de resultaten van de koppelingstaak te bekijken opent u de pagina **Integratietabeltoewijzingen**, selecteert u de relevante toewijzing, kiest u de actie **Koppeling** actie en kiest u vervolgens de actie **Taaklogbestand voor integratiekoppeling**.  
 
@@ -157,7 +182,7 @@ Doorgaans mislukt de koppeling om de volgende redenen:
 > [!TIP]
 > Om u te helpen een overzicht te krijgen van de voortgang van de koppeling, geeft het veld **Gekoppeld aan Dataverse** aan of een record is gekoppeld aan een [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteit. U kunt het veld **Gekoppeld aan Dataverse** gebruiken om de lijst met records die u synchroniseert te filteren.
 
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Verbindingen vanuit Business Central Online upgraden om op certificaten gebaseerde verificatie te gebruiken
+## Verbindingen vanuit Business Central Online upgraden om op certificaten gebaseerde verificatie te gebruiken
 
 > [!NOTE]
 > Deze sectie is alleen relevant voor [!INCLUDE[prod_short](includes/prod_short.md)] online-tenants die worden gehost door Microsoft. Online tenants die worden gehost door ISV's en installaties op locatie worden niet beïnvloed.
@@ -166,7 +191,7 @@ In april 2022 beëindigt [!INCLUDE[cds_long_md](includes/cds_long_md.md)] het Of
 
 Om te voorkomen dat integraties worden verstoord _moet u upgraden_ om op certificaten gebaseerde verificatie te gebruiken. Hoewel de wijziging is gepland voor maart 2022, raden we u ten zeerste aan zo snel mogelijk te upgraden. In de volgende stappen wordt beschreven hoe u kunt upgraden naar verificatie op basis van certificaten. 
 
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Uw Business Central online-verbinding upgraden om op certificaten gebaseerde verificatie te gebruiken
+### Uw Business Central online-verbinding upgraden om op certificaten gebaseerde verificatie te gebruiken
 
 1. Afhankelijk van of u integreert met Dynamics 365 Sales, voert u een van de volgende handelingen uit:
    * Als u dat doet, opent u de pagina **Microsoft Dynamics 365-verbinding instellen**.
@@ -177,15 +202,15 @@ Om te voorkomen dat integraties worden verstoord _moet u upgraden_ om op certifi
 > [!NOTE]
 > U moet deze stappen herhalen in elke [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving, inclusief zowel productie- als sandbox-omgevingen, en in elk bedrijf waar u een verbinding mee hebt [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## <a name="connecting-on-premises-versions"></a>Verbinding maken met on-premises versies
+## Verbinding maken met on-premises versies
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises wilt verbinden met [!INCLUDE[cds_long_md](includes/cds_long_md.md)], moet u wat informatie opgeven op de pagina **Dataverse-verbinding instellen**.
 
-Als u verbinding wilt maken met een Azure Active Directory-account (Azure AD), moet u een aanvraag registreren in Azure AD. U moet de toepassings-id, het sleutelkluisgeheim en de omleidings-URL opgeven die moet worden gebruikt. De omleidings-URL wordt vooraf ingevuld en zou voor de meeste installaties moeten werken. U moet uw installatie instellen om HTTPS te gebruiken. Zie voor meer informatie [SSL configureren om de Business Central Web Client-verbinding te beveiligen](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Als u uw server instelt om een andere startpagina te hebben, kunt u de URL wijzigen. Het clientgeheim wordt opgeslagen als een versleutelde tekenreeks in uw database. 
+Als u verbinding wilt maken met een Microsoft Entra-account, moet u een aanvraag registreren in Microsoft Entra ID. U moet de toepassings-id, het sleutelkluisgeheim en de omleidings-URL opgeven die moet worden gebruikt. De omleidings-URL wordt vooraf ingevuld en zou voor de meeste installaties moeten werken. U moet uw installatie instellen om HTTPS te gebruiken. Zie voor meer informatie [SSL configureren om de Business Central Web Client-verbinding te beveiligen](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Als u uw server instelt om een andere startpagina te hebben, kunt u de URL wijzigen. Het clientgeheim wordt opgeslagen als een versleutelde tekenreeks in uw database. 
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Een toepassing registreren in Azure AD voor verbinding van Business Central met Dataverse
+### Een toepassing registreren in Microsoft Entra ID voor verbinding van Business Central met Dataverse
 
-Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identiteiten en toegang te beheren. Voor meer informatie over het registreren van een toepassing in Azure AD raadpleegt u [Quickstart: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app). 
+Bij de volgende stappen wordt ervan uitgegaan dat u Microsoft Entra ID gebruikt om identiteiten en toegang te beheren. Voor meer informatie over het registreren van een toepassing in Microsoft Entra ID raadpleegt u [Quickstart: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app). 
 
 1. Kies in de Azure Portal onder **Beheren** in het navigatiedeelvenster **Verificatie**.  
 2. Voeg onder **URL's omleiden** de omleidings-URL toe die wordt voorgesteld op de pagina **Dataverse-verbinding instellen** in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -201,17 +226,17 @@ Bij de volgende stappen wordt ervan uitgegaan dat u Azure AD gebruikt om identit
 6. Kies **Overzicht** en zoek de waarde **Toepassing (client)-id**. Deze id is de client-id van uw toepassing. U moet het invoeren op de pagina **Dataverse-verbinding instellen** in het veld **Client-id** of bewaren op een veilige locatie en verschaffen in een gebeurtenisabonnee.
 7. Voer in [!INCLUDE[prod_short](includes/prod_short.md)] op de pagina **Dataverse-verbinding instellen** in het veld **Omgeving-URL** de URL voor uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving in.
 8. Als u de verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] wilt inschakelen, zet u de schakelaar **Ingeschakeld** aan.
-9. Meld u aan met uw beheerdersaccount voor Azure Active Directory (dit account moet een geldige licentie hebben voor [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en een beheerder zijn in uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving). Nadat u zich hebt aangemeld, wordt u gevraagd toe te staan dat uw geregistreerde toepassing zich aanmeldt bij [!INCLUDE[cds_long_md](includes/cds_long_md.md)] namens de organisatie. U moet toestemming geven om de instelling te voltooien.
+9. Meld u aan met uw beheerdersaccount voor Microsoft Entra ID (dit account moet een geldige licentie hebben voor [!INCLUDE[cds_long_md](includes/cds_long_md.md)] en een beheerder zijn in uw [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgeving). Nadat u zich hebt aangemeld, wordt u gevraagd toe te staan dat uw geregistreerde toepassing zich aanmeldt bij [!INCLUDE[cds_long_md](includes/cds_long_md.md)] namens de organisatie. U moet toestemming geven om de instelling te voltooien.
 
    > [!NOTE]
    > Als u niet wordt gevraagd om u aan te melden met uw beheerdersaccount, komt dit waarschijnlijk omdat pop-ups worden geblokkeerd. Sta pop-ups vanaf `https://login.microsoftonline.com` toe om u aan te melden.
 
-### <a name="to-disconnect-from-"></a>Verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verbreken
+### Verbinding met [!INCLUDE[cds_long_md](includes/cds_long_md.md)] verbreken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dataverse-verbinding instellen** in en kies vervolgens de gerelateerde koppeling.
 2. Schakel op de pagina **Dataverse-verbinding instellen** de schakelaar **Geactiveerd** uit.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [De status van een synchronisatie weergeven](admin-how-to-view-synchronization-status.md)  
 

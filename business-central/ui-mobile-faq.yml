@@ -4,12 +4,12 @@ metadata:
   description: Bekijk antwoorden op veelgestelde vragen over het gebruik van Business Central op uw telefoon of tablet.
   author: brentholtorf
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.service: dynamics365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 10/25/2021
+  ms.date: 09/21/2023
   ms.author: bholtorf
+  ms.reviewer: jswymer
+  ms.custom: bap-template
 title: Veelgestelde vragen over mobiele apps
 summary: |
   Dit artikel beantwoordt vragen die onze geavanceerde gebruikers vaak stellen over mobiele apps voor [!INCLUDE [prod_short](includes/prod_short.md)].  
@@ -38,7 +38,7 @@ sections:
           | Acties op de actiebalk | Alleen gepromote acties worden weergegeven. | Alleen gepromote acties worden weergegeven. |  |
           | Feitenblokken | Niet weergegeven op lijstpagina's of werkbladpagina's. | Niet weergegeven op lijstpagina's of werkbladpagina's. | Lijst `Customer` in het rolcentrum `Small Business`. |
           | Geavanceerde filters | Er is geen kolomspecifieke filtering beschikbaar. | Er is geen kolomspecifieke filtering beschikbaar. | Op de lijstpagina `Customer`. |
-          | Vertel me | Nog niet beschikbaar. | Nog niet beschikbaar. | Zie [Pagina's en informatie zoeken met Vertel me](ui-search.md). |  |
+          | Vertel me | Het moet ingeschakeld zijn in [Functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management) met behulp van de schakelaar **Functie: Pagina's en gegevens zoeken in de mobiele app**. De sectie **Ophalen uit Microsoft AppSource** in de resultaten voor apps is niet beschikbaar. | Hetzelfde als tablets | Zie [Pagina's en informatie zoeken met Vertel me](ui-search.md). |  |
           | Rolverkenner | Nog niet beschikbaar. | Nog niet beschikbaar. | Zie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md). |
           | Velden op sneltabbladen | Velden op sneltabbladen op lijstpagina's worden niet weergegeven. Alleen het repeaterelement wordt weergegeven in het inhoudsgebied van de pagina. | Niet beschikbaar. |  |
           | Selecteren vanuit volledige lijst | Niet beschikbaar voor zoekopdrachten. Gebruikers kunnen geen acties uitvoeren op een opzoekpagina en hebben geen toegang tot de volledige set records. | Niet beschikbaar voor zoekopdrachten. Gebruikers kunnen geen acties uitvoeren op een opzoekpagina en hebben geen toegang tot de volledige set records. | Op de `Item Card` bij het selecteren van de **Basismaateenheden**. |
@@ -61,7 +61,7 @@ sections:
       - question: |
           Kan een gastgebruiker de app gebruiken om toegang te krijgen tot onze Business Central-oplossing?
         answer: |
-          Nee. Gastgebruikers zijn uitgenodigde gebruikers van een andere Azure Active Directory (AD)-tenant dan de uwe. In dit geval zal de app zich authenticeren bij de primaire Azure AD-tenant van de gastgebruiker en proberen het Business Central-eindpunt op die tenant te openen in plaats van op die van u.  
+          Nr. Gastgebruikers zijn uitgenodigde gebruikers van een andere Microsoft Entra-tenant dan de uwe. In dit geval zal de app zich verifiëren bij de primaire Microsoft Entra-tenant van de gastgebruiker en proberen het Business Central-eindpunt op die tenant te openen in plaats van op die van u.  
 additionalContent: |
 
   ## Zie ook

@@ -79,8 +79,6 @@ De geselecteerde redencode wordt gekopieerd naar nieuwe dagboekbatches die met d
 
 Wanneer de factuur wordt geboekt, wordt de redencode gekopieerd naar elke grootboek-, klant- en leverancierspost. U kunt geen andere redencodes toewijzen aan afzonderlijke inkoop- en verkoopregels, omdat de regels als één post zijn geboekt.
 
-## Zie gerelateerde [Microsoft-training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Financiën](finance.md)  

@@ -1,66 +1,48 @@
 ---
 title: Inleiding tot de demogegevens voor Contoso Coffee
 description: Overzicht van scenario's voor hoe Contoso Coffee-demogegevens u kunnen helpen bij het leren gebruiken van de mogelijkheden in Business Central.
-ms.date: 04/01/2022
-ms.topic: article
-ms.service: dynamics365-business-central
-ms.search.form: 4760
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.date: 09/20/2023
+ms.topic: article
+ms.service: dynamics365-business-central
+ms.search.form: '5194,'
+ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Inleiding tot de demogegevens voor Contoso Coffee
+# Inleiding tot de demogegevens voor Contoso Coffee
 
-Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De apps **Contoso Coffee** voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de productiemogelijkheden in Business Central kunt benutten.  
+Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De **Contoso Coffee**-apps voor [!INCLUDE [prod_short](../includes/prod_short.md)] voegen demogegevens toe die u kunt gebruiken om te leren hoe u de mogelijkheden in [!INCLUDE [prod_short](../includes/prod_short.md)] kunt benutten.  
 
+## Gegevens voor Contoso Coffee instellen
 
-## <a name="set-up-contoso-coffee-data"></a>Gegevens voor Contoso Coffee instellen
+[!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
 
-Als u de demogegevens voor Contoso Coffee wilt gebruiken, moet u twee apps in het desbetreffende bedrijf in [!INCLUDE [prod_short](../includes/prod_short.md)] installeren:  
+Wanneer de apps zijn geïnstalleerd, gebruikt u op de pagina **Demohulpmiddel van Contoso** de actie **Configureren** om de volgende modules voor te bereiden. U kunt ervoor kiezen om alle beschikbare gegevens, inclusief installatie- en productiegegevens, of alleen installatiegegevens te installeren.
 
-- **Gegevensset voor demo van Contoso Coffee**  
+ - De **Gemeenschappelijke module** om algemene instellingen voor te bereiden die [!INCLUDE [prod_short](../includes/prod_short.md)] vereist. Bijvoorbeeld zaken als nummerreeksen. 
 
-    Deze app levert demogegevens voor de basistoepassing.  
-- **Gegevensset voor demo van Contoso Coffee (land-id)**  
+De volgende tabel beschrijft de instellingen:  
 
-    Deze app voegt landspecifieke inhoud toe bovenop de basistoepassing.
+|Veld  |Omschrijving  |
+|---------|---------|
+|**Beginjaar** |Hiermee wordt het eerste jaar opgegeven dat u wilt gebruiken voor de demonstratiegegevens van Contoso Coffee. Afhankelijk van de bedrijfsconfiguratie is het jaar een kalenderjaar of een boekjaar.|
+|**Land-/regiocode**|Hiermee wordt een land/regio voor binnenlandse klanten en leveranciers opgegeven.|
+|**Bedrijfstype**    |Hiermee wordt aangegeven of het huidige bedrijf btw of omzetbelasting moet aangeven. |
+|**Prijsfactor**     |Hiermee wordt een factor opgegeven om een prijs om te rekenen van USD/EUR naar de lokale valuta. *1* betekent dat de prijs hetzelfde bedrag is in elke valuta. Er wordt een hoger getal gebruikt om de prijs in de lokale valuta weer te geven. |
+|**Afrondingsprecisie**  |Hiermee wordt de afrondingsprecisie opgegeven waarmee u de demogegevens wilt maken.|
 
-Voeg de apps toe aan een leeg bedrijf in een betaald abonnement of als onderdeel van een proefperiode. Maak bijvoorbeeld een nieuw bedrijf zonder voorbeeldgegevens op basis van de begeleide instelling **Nieuw bedrijf maken** die u kunt openen vanuit de lijst **Bedrijven**. Voeg vervolgens de apps toe vanuit de [marktplaats](../ui-extensions-install-uninstall.md#install) als deze nog niet in de lijst op de pagina **Extensiebeheer** voorkomen.  
+ - De [Productiemodule](manufacturing/contoso-coffee-manufacturing-intro.md) ter voorbereiding op [productiescenario's](manufacturing/contoso-coffee-manufacturing-intro.md#scenarios).
+ - De [Magazijnmodule](warehousing/contoso-coffee-warehousing-intro.md) ter voorbereiding op [magazijnscenario's](warehousing/contoso-coffee-warehousing-intro.md#scenarios)
+ - De [Servicemodule](service/contoso-coffee-service-intro.md) ter voorbereiding op [servicescenario's](service/contoso-coffee-service-intro.md#scenarios).
 
-U moet dan het volgende invullen:
- - De [Productie-instellingen](manufacturing/contoso-coffee-manufacturing-intro.md) ter voorbereiding op het gebruik van de [Productiescenario's](#manufacturing-scenarios)
- - De [Magazijninstellingen](warehousing/contoso-coffee-warehousing-intro.md) ter voorbereiding op het gebruik van de [Magazijnscenario's](#warehousing-scenarios)
+Nadat u de modules heeft geconfigureerd die u wilt uitproberen, kiest u de actie **Genereren** om er demonstratiegegevens voor te maken.
 
-## <a name="manufacturing-scenarios"></a>Productiescenario's
-
-De demogegevens voor Contoso Coffee ondersteunen momenteel de volgende productiescenario's voor testen en trainen:
-
-1. [Een nieuwe productiestuklijst en stuklijstversie maken](manufacturing/create-new-production-bom-version.md)  
-2. [Een nieuw bewerkingsplan maken](manufacturing/create-new-routing.md)  
-3. [Een nieuwe vast geplande productieorder maken en deze wijzigen](manufacturing/create-firm-planned-production-order-change.md)  
-4. [Automatisch en handmatig afboeken combineren](manufacturing/combine-automatic-manual-flushing.md)  
-5. [Orderplanning gebruiken om voorraad te maken en te reserveren](manufacturing/order-planning-create-reserve-supply.md)  
-6. [Een uitbestedingsbewerkinge instellen en verwerken](manufacturing/set-up-process-subcontracting-operation.md)  
-7. [Nieuwe capaciteit instellen](manufacturing/set-up-new-capacity.md)  
-8. [Vraag voorspellen voor artikelvarianten met verschillende toegewezen stuklijsten](manufacturing/variants.md)  
-
-Lees de stappen voor elk scenario in het desbetreffende artikel.  
-
-> [!IMPORTANT]
-> De productieprocedures vereisen dat de gebruikerservaring is ingesteld op *Premium* op de pagina **Bedrijfsgegevens**.
-
-## <a name="warehousing-scenarios"></a>Magazijnscenario's
-
-De demogegevens voor Contoso Coffee ondersteunen momenteel de volgende magazijnscenario's voor testen en trainen:
-
-1.  Standaardopslaglocaties configureren, ontvangen en wegzetten met voorraadopslag, picken en verzenden met voorraadpicken op order-voor-order-wijze met [Doorlopen van de inkomende en uitgaande stroom in basismagazijnconfiguraties](warehousing/warehouse-basic-flow-putaway-pick.md)
-2.  Meerdere inkomende bestellingen tegelijk ontvangen en wegzetten met magazijnontvangst, meerdere bestellingen tegelijk verzenden met magazijnverzending, picken met magazijnpicks met [Doorloop van inkomende en uitgaande stroom in gemengde magazijnconfiguraties](warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-3.  Configureer vaste opslaglocaties voor de maateenheid van artikelen, cross-docking door gebruikers om fysieke verplaatsingen van goederen te verminderen, optimaliseer het plaatsen van goederen met het aanvullen van opslaglocaties, verdeel grote maateenheden in kleinere, verdeel het picken onder magazijnmedewerkers met een pickwerkblad met [Doorloop van inkomende en uitgaande stroom in gemengde magazijnconfiguraties](warehousing/warehouse-directed-flow.md)
-
-Lees de stappen voor elk scenario in het desbetreffende artikel.
-   
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie](../production-manage-manufacturing.md)  
-[Magazijn](../warehouse-manage-warehouse.md)  
+[Magazijnen](../warehouse-manage-warehouse.md)  
+[Onderhoud](../service-service.md)
+<!-- [Projects and Jobs](../projects-manage-projects.md) -->
 

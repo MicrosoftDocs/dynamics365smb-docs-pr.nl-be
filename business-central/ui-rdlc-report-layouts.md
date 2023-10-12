@@ -41,8 +41,6 @@ die ten grondslag liggen aan RDL/RDLC en over hoe u Report Builder gebruikt.
 > [!NOTE]
 > Report Builder herkent alleen het .rdl-bestandstype;, niet .rdlc. Lay-outbestanden die uit Business Central worden geëxporteerd, zijn .rdlc-bestandstypen. Dus om deze lay-out in Report Builder te wijzigen, hernoemt u het bestandstype naar .rdl.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Zie ook
 
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  

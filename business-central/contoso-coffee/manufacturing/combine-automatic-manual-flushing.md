@@ -8,19 +8,19 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Procedure: Automatisch en handmatig afboeken combineren
+# Procedure: Automatisch en handmatig afboeken combineren
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken bij het afboeken.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 U bent de productieplanner bij Contoso Coffee. U moet een nieuwe productieorder maken voor tien eenheden van artikel SP-SCM1004, AutoDrip. Sommige componenten en bewerkingen worden voorwaarts afgeboekt, terwijl andere achterwaarts worden afgeboekt op basis van verschillende omstandigheden.
 
-## <a name="steps"></a>Stappen
+## Stappen
 
 > [Opmerking!] Vergeet niet om de voorraad aan te passen door het artikeldagboek met beginsaldi te boeken.
 
-1. Maak een vast geplande productieorder voor vijf eenheden van artikel **SP-SCM1004, AutoDrip** in vestiging *NOORD*. Zie [Procedure: Een nieuwe vast geplande productieorder maken en deze wijzigen](create-firm-planned-production-order-change.md) voor richtlijnen.  
+1. Maak een vast geplande productieorder voor vijf eenheden van artikel **SP-SCM1004, AutoDrip** in vestiging *HOOFD*. Zie [Procedure: Een nieuwe vast geplande productieorder maken en deze wijzigen](create-firm-planned-production-order-change.md) voor richtlijnen.  
 
 2. Geef de productieorder vrij.
 
@@ -103,7 +103,7 @@ U bent de productieplanner bij Contoso Coffee. U moet een nieuwe productieorder 
 
 Dat is alles voor het handmatig en automatisch afboeken van componenten.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Componenten afboeken op basis van de output van een bewerking](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Inleiding tot de demogegevens voor Contoso Coffee](contoso-coffee-manufacturing-intro.md)  

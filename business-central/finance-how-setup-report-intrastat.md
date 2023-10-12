@@ -338,8 +338,6 @@ Het proces van werken met Intrastat-rapporten is hetzelfde als in de globale fun
 
 <!-- ### United Kingdom-->
 
-## Zie gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Zie ook
 
 [Intrasta-rapporten in Business Central](finance-how-report-intrastat.md)  

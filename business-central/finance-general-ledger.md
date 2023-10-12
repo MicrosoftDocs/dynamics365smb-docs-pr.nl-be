@@ -28,7 +28,7 @@ De instelling van het grootboek bevindt zich in de kern van financiële processe
   * Financiële rapportage
 
   > [!TIP]
-  > De pagina **Grootboekinstellingen** bevat algemene velden en velden die specifiek zijn voor uw land of regio. Als u niet zeker bent van de betekenis van een veld, raden we u aan om samen met uw accountant te bepalen of dit relevant is voor uw organisatie. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+  > De pagina **Grootboekinstellingen** bevat algemene velden en velden die specifiek zijn voor uw land/regio. Als u niet zeker bent van de betekenis van een veld, raden we u aan om samen met uw accountant te bepalen of dit relevant is voor uw organisatie. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
   Open de pagina [hier](https://businesscentral.dynamics.com/?page=118).
   
@@ -97,8 +97,6 @@ Op de pagina **Rekeningschema** worden rekeningen weergegeven in een hiërarchis
 ## Toegang om accounts en accountcategorieën te maken en te bewerken
 
 In een kleine organisatie, zoals het CRONUS-voorbeeldbedrijf, kunnen de meeste gebruikers het rekeningschema bewerken, behalve gebruikers met een TEAMLID-licentie. In grotere organisaties worden meestal rollen en machtigingen gebruikt om toegang tot het bewerken van de rekeningschema's te beperken. Als u een beheerder bent of de rol *Bedrijfsmanager* of *Accountant* hebt, kunt u de machtigingen bepalen om er zeker van te zijn dat de juiste mensen toegang hebben tot de relevante tabellen. Zie voor meer informatie de sectie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
-
-## Zie gerelateerde [Microsoft-training](/training/modules/business-central-configure-general-ledger-setup/)
 
 ## Zie ook
 

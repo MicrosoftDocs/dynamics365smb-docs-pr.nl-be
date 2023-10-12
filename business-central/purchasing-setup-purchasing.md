@@ -49,7 +49,7 @@ Op het sneltabblad **Nummerreeksen** moet u unieke identificatiecodes opgeven di
 
 De functie **Precieze kostenvereff. verplicht** helpt ervoor te zorgen dat geretourneerde goederen worden gewaardeerd tegen dezelfde kosten als toen ze oorspronkelijk uit de voorraad werden gehaald, met behulp van een vaste vereffening in plaats van een gemiddelde of FIFO-waarderingsmethode (first-in, first-out) te volgen. Lees meer in de sectie [Ontwerpdetails: vaste vereffening](design-details-item-application.md#fixed-application). Als er later aanvullende kosten worden toegevoegd aan de oorspronkelijke inkoop, wordt de waarde van de respectievelijke geretourneerde inkoop bijgewerkt.
 
-Als deze functie is ingeschakeld, kan een retourtransactie alleen worden geboekt door het artikelpostnummer in te voeren in het veld **Vereffeningsnr. artikelpost** op de inkoopretourorderregel. Het veld wordt standaard niet weergegeven op het sneltabblad **Regels**. Leer hoe u velden kunt toevoegen aan pagina's in de sectie [Uw werkruimte personaliseren](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+Als deze functie is ingeschakeld, kan een retourtransactie alleen worden geboekt door het artikelpostnummer in te voeren in het veld **Vereffeningsnr. artikelpost** op de inkoopretourorderregel. Het veld wordt standaard niet weergegeven op het sneltabblad **Regels**. Leer hoe u velden kunt toevoegen aan pagina's in de sectie [Uw werkruimte personaliseren](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
@@ -68,9 +68,7 @@ Als deze functie is ingeschakeld, kan een retourtransactie alleen worden geboekt
 | Beheer zakelijke interacties met uw leveranciers, importeer ontvangen factuurdocumenten en registreer nieuwe leveranciers met behulp van de Outlook-e-mailclient. | [De Business Central-invoegtoepassing voor Outlook instellen](admin-outlook.md) |
 | Bekijk onkostennota's, converteer papieren en elektronische documenten naar journaalregels en digitaliseer papieren facturen van leveranciers. | [Inkomende documenten instellen](across-how-setup-income-documents.md) |
 | Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt. |[Rapportselectie in Business Central](across-report-selections.md)|
-|Geef aan of gebruikers inkoopfacturen mogen boeken en of ze deze samen met een zending moeten boeken. |[Definieer een beleid voor het boeken van facturen voor gebruikers](admin-setup-invoice-posting-policy.md)|
-
-## Zie gerelateerde training op [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+|Geef aan of gebruikers inkoopfacturen mogen boeken en of ze deze samen met een zending moeten boeken. |[Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)|
 
 ## Zie ook
 

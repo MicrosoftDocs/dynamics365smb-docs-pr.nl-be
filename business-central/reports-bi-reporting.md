@@ -2,16 +2,16 @@
 title: Overzicht van bedrijfsinformatie en rapportage
 description: Biedt een overzicht van alle bedrijfsinformatie- en rapportagefuncties die worden ondersteund in Business Central.
 author: KennieNP
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.date: 09/22/2022
 ms.author: kepontop
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Overzicht van bedrijfsinformatie en rapportage
+# Overzicht van bedrijfsinformatie en rapportage
 
 Kleine en middelgrote bedrijven vertrouwen op ingebouwde analyse- en rapportagemogelijkheden die ze kant-en-klaar kunnen gebruiken om hun bedrijf bij te houden. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt gemeenschappelijke bedrijfsprocessen evenals meer complexe processen voor dergelijke organisaties. Elk van deze processen omvat rapporten en analysetools. U kunt ook ad-hocanalyses rechtstreeks vanaf uw startpagina uitvoeren.  
 
@@ -26,11 +26,9 @@ De volgende tabel behandelt de belangrijkste bedrijfsinformatie- en rapportagefu
 | Externe bedrijfsinformatietools integreren met [!INCLUDE[prod_short](includes/prod_short.md)].| [Externe bedrijfsinformatietools](reports-external-analysis.md) |
 |Rapportindelingen wijzigen of zelfs uw eigen rapporten ontwikkelen. |[Rapporten ontwikkelen](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/paths/setup-reporting-dynamics-365-business-central/).
+## Zie ook
 
-## <a name="see-also"></a>Zie ook
-
-[Financiële bedrijfsinformatie](bi.md)  
+[Financiële Business Intelligence](bi.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

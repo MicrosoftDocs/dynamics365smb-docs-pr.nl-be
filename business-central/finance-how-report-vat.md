@@ -148,8 +148,6 @@ De volgende tabel beschrijft codeunits die u voor uw lijst moet maken.
 > [!Note]
 > Wanneer u codeunits maakt voor het rapport, besteed dan aandacht aan de waarde in het veld **Btw-rapportversie**. Dit veld moet de versie reflecteren van het rapport dat is of werd vereist door de belastingdienst. U kunt bijvoorbeeld **2021** in het veld invoeren om aan te geven dat de lijst voldoet aan de vereisten die dat jaar golden. Als u de huidige versie wilt bepalen, neemt u contact op met de belastingdienst.  
 
-## Zie gerelateerde [Microsoft-training](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)  

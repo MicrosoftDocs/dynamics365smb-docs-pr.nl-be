@@ -9,7 +9,7 @@ ms.date: 03/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-locations-to-use-bins"></a>Locaties instellen om opslaglocaties te gebruiken
+# Locaties instellen om opslaglocaties te gebruiken
 
 Opslaglocaties vertegenwoordigen de basismagazijnstructuur, en u kunt ze gebruiken om te suggereren waar artikelen geplaatst moeten worden. Nadat u opslaglocaties hebt gemaakt, definieert u de inhoud van deze opslaglocaties of laat u ze dienen als vrije opslaglocaties zonder specifieke inhoud.
 
@@ -27,7 +27,7 @@ De volgende stap is het ontwerpen van de artikelstroom op de locatie door opslag
 > [!NOTE]  
 > U moet opslaglocatiecodes maken voordat u deze voor de vestiging kunt opgeven. Zie voor meer informatie [Opslaglocaties maken](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Een vestiging instellen voor het gebruik van opslaglocaties
+## Een vestiging instellen voor het gebruik van opslaglocaties
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de vestiging waarin u opslaglocaties wilt gebruiken.  
@@ -45,13 +45,13 @@ De volgende stap is het ontwerpen van de artikelstroom op de locatie door opslag
 9. Optioneel: vul de velden op het sneltabblad **Opslaglocatiebeleid** in. De belangrijkste velden zijn **Opslaglocatiecapaciteitsbeleid**, **Breakbulk toestaan** en **Opslagsjabloon**.  
 10. Vul op het sneltabblad **Magazijn** de velden **Uitslagtijd**, **Inslagtijd** en **Basisagendacode** in. Ga voor meer informatie naar [Basisagenda's instellen](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin"></a>De verbruiksopslaglocatie vullen
+## De verbruiksopslaglocatie vullen
 
 Het volgende stroomdiagram geeft weer hoe het veld **Opslaglocatie** op de productieordercomponentregels wordt ingevuld op basis van uw vestigingsinstellingen.
 
 :::image type="content" source="media/binflow.png" alt-text="Bincodeveld op productieorder-materiaalregels.":::
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

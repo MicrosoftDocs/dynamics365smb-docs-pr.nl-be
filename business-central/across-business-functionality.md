@@ -2,7 +2,7 @@
 title: Bedrijfsfunctionaliteit die door Business Central wordt ondersteund
 description: 'Levert een functieoverzicht van alle afdelingen en bedrijfsfuncties die door toepassingsgebieden worden ondersteund, zoals financiën, voorraad- en projectbeheer.'
 author: brentholtorf
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 09/13/2022
 ms.author: bholtorf
 ---
-# <a name="business-functionality"></a>Bedrijfsfunctionaliteit
+# Bedrijfsfunctionaliteit
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt functionaliteit voor algemene bedrijfsprocessen in kleine en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening. Complexere processen, zoals assemblage, productie, service en gestuurd magazijnbeheer, worden echter ook ondersteund. [Lees hier hoe u een gratis proefperiode kunt krijgen](trial-signup.md).  
 
@@ -39,7 +39,7 @@ ms.author: bholtorf
 |Gebruikers de mogelijkheid geven om gegevens uit te wisselen met externe bronnen voor dagelijkse taken, zoals het versturen/ontvangen van elektronische documenten, bankbestanden importeren/exporteren en wisselkoersen bijwerken.|[Gegevens elektronisch uitwisselen](across-data-exchange.md)|
 |Leg externe documenten vast in [!INCLUDE[prod_short](includes/prod_short.md)], inclusief de bestandbijlagen, maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Beheer](admin-setup-and-administration.md)    
 [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/)  

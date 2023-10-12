@@ -90,8 +90,6 @@ Bij het berekenen van de afschrijvingen wordt in de batchverwerking Afschrijving
 
 Als u dit veld selecteert, wordt in de batchverwerking Afschrijving berekenen het agendajaar van 365 dagen gebruikt, waarbij elke maand hetzelfde aantal dagen heeft als op de agenda. De enige uitzondering is februari in schrikkeljaren, die door de batchtaak worden beschouwd als 28 dagen en niet 29. Daarom worden alle jaren, ook schrikkeljaren, geacht 365 dagen te hebben.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/configure-depreciation-books/)
-
 ## Zie ook
 
 [Vaste activa instellen](fa-setup.md)  

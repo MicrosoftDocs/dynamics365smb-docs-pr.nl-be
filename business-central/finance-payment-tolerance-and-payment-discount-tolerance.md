@@ -275,8 +275,6 @@ Normale vereffeningsregels
 
 (2) Als de betaling binnen deze bereiken valt, kunnen er geen vereffeningsposten worden gesloten, ook niet met tolerantie.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/enter-payments-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Financiën](finance.md)  

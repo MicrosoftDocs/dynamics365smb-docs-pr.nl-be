@@ -10,7 +10,7 @@ ms.search.form: '256,'
 ms.date: 09/07/2023
 ms.custom: bap-template
 ---
-# <a name="suggest-vendor-payments"></a>Leveranciersbetalingen voorstellen
+# Leveranciersbetalingen voorstellen
 
 Op de pagina **Betalingsdagboek** kunt u door middel van de batchverwerking **Leveranciersbetalingen voorstellen** betalingsregels laten voorstellen. Op basis van uw instellingen stelt [!INCLUDE [prod_short](includes/prod_short.md)] regels voor betalingen voor:
 
@@ -29,14 +29,14 @@ Om optimaal van voorgestelde betalingen te profiteren, moet u uw leveranciers ee
 > * Achterstallige posten zonder prioriteitsnummer.  
 > * Openstaande leveranciersposten die in aanmerking komen voor betalingskortingen. De posten zijn gerangschikt op leveranciersnummer.  
 
-## <a name="to-use-the-suggest-vendor-payments-function"></a>De functie Leveranciersbetalingen voorstellen gebruiken
+## De functie Leveranciersbetalingen voorstellen gebruiken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Open het dagboek en kies vervolgens de actie **Leveranciersbetalingen voorstellen**.  
 3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Kies de knop **Ok**.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>De vervaldatum als boekingsdatum invoegen op betalingsdagboekregels
+## De vervaldatum als boekingsdatum invoegen op betalingsdagboekregels
 
 Wanneer u de batchverwerking **Leveranciersbetalingen voorstellen** gebruikt om betalingsregels voor uw leveranciers te maken, kunt u twee speciale velden invullen om te zorgen dat de gegenereerde regels de vervaldatum gebruiken om de boekingsdatum te berekenen. Deze velden zijn **Bereken boekingsdatum via vervaldatum vereffeningsdoc.** en **Vervaldatumafwijking vereffeningsdoc.**.  
 
@@ -50,7 +50,7 @@ U kunt ook handmatig betalingsregels maken, waarbij de vervaldatum wordt gebruik
 > [!NOTE]  
 > Als de inkoopfactuur achterstallig is, wordt de boekingsdatum ingesteld op de werkdatum en wordt het lettertype op de regel rood.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Betalingen uitvoeren](payables-make-payments.md)  

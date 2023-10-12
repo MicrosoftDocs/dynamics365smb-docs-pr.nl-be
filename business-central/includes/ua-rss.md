@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 08/16/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Om u te abonneren op een RSS-feed (Really Simple Syndication) van alle updates die betrekking hebben op de zakelijke functionaliteit op learn.microsoft.com voor [!INCLUDE [prod_short](prod_short.md)], gebruikt u de volgende koppeling:
 

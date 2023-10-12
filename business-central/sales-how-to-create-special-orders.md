@@ -38,8 +38,6 @@ Een inkooporder die is gemaakt als speciale order voor een verkooporder wordt ov
 > [!NOTE]  
 >  U kunt de functionaliteit voor speciale volgorde niet gebruiken als het item al is gereserveerd. Zorg er daarom voor dat voor artikelen die zijn verkocht op speciale orders het veld **Reserveren** op de artikelkaart niet is ingesteld op **Altijd**.  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-"></a>Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prod_short](includes/prod_short.md)]
+# Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] bevat een Power BI-feitenblokbesturingselement op veel belangrijke lijstpagina's. Het doel van dit feitenblok is om Power BI-rapporten weer te geven die betrekking hebben op records in de lijsten, waardoor extra inzicht in de gegevens ontstaat. Het idee is dat terwijl u van de ene naar de andere rij gaat, het rapport wordt bijgewerkt voor de geselecteerde vermelding.
 
@@ -19,7 +19,7 @@ ms.author: jswymer
 > [!NOTE]
 > Voor algemene informatie over maken en publiceren van Power BI-rapporten voor Business Central raadpleegt u [Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens](across-how-use-financials-data-source-powerbi.md) weer te geven. 
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten
 
 - Een Power BI-account.
 - Power BI Desktop.
@@ -27,7 +27,7 @@ ms.author: jswymer
 <!-- 
 For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-## <a name="create-a-report-for-a-list-page"></a>Een rapport maken voor een lijstpagina
+## Een rapport maken voor een lijstpagina
 
 1. Start Power BI Desktop.
 2. Selecteer **Gegevens verkrijgen** en begin met het kiezen van de gegevensbron voor het rapport.
@@ -75,7 +75,7 @@ For more information about getting started, see [Use [!INCLUDE[prod_short](inclu
 
     Als het correct is ontworpen, wordt het rapport weergegeven.  
 
-## <a name="set-the-report-size-and-color"></a>De rapportgrootte en kleur instellen
+## De rapportgrootte en kleur instellen
 
 De grootte van het rapport moet worden ingesteld op 325 bij 310 pixels. Deze grootte is vereist voor een juiste schaling van het rapport in de beschikbare ruimte van het Power BI-besturingselement Feitenblok in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de grootte van het rapport wilt definiëren, plaatst u de focus buiten het rapportlay-outgebied en kiest u vervolgens het pictogram met de verfroller.
 
@@ -88,37 +88,35 @@ Als u wilt dat de achtergrond van het rapport wordt vermengd met de achtergrondk
 > [!TIP]
 > Gebruik het [!INCLUDE [prod_short](includes/prod_short.md)]-themabestand om rapporten samen te stellen met dezelfde kleurstijlen als de [!INCLUDE [prod_short](includes/prod_short.md)]-apps. Zie [Het rapportthema [!INCLUDE [prod_short](includes/prod_short.md)] gebruiken](across-how-use-financials-data-source-powerbi.md#theme) voor meer informatie.
 
-## <a name="reports-with-multiple-pages"></a>Rapporten met meerdere pagina's
+## Rapporten met meerdere pagina's
 
 Met Power BI kunt u één rapport met meerdere pagina's maken. Voor rapporten die worden weergegeven met lijstpagina's, raden we echter af om meer dan één pagina te gebruiken. In het Power BI-besturingselement Feitenblok wordt alleen de eerste pagina van uw rapport weergegeven.
 
-## <a name="fixing-problems"></a>Problemen oplossen
+## Problemen oplossen
 
 In dit gedeelte vindt u instructies voor het oplossen van problemen die u kunt tegenkomen wanneer u een Power BI-rapport voor een lijstpagina in [!INCLUDE[prod_short](includes/prod_short.md)] probeert weer te geven.  
 
-### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>U kunt het feitenblok Power BI niet zien op een lijstpagina
+### U kunt het feitenblok Power BI niet zien op een lijstpagina
 
 Standaard is het feitenblok Power BI verborgen. Als u het feitenblok op een pagina wilt weergeven, selecteert u op de actiebalk **Acties** > **Weergeven** > **Power BI-rapporten weergeven/verbergen**.
 
-### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>U kunt het rapport niet zien in het deelvenster Rapport selecteren
+### U kunt het rapport niet zien in het deelvenster Rapport selecteren
 
 De naam van het rapport bevat niet de naam bevat van de lijstpagina die wordt weergegeven. Wis het filter om de volledige lijst met rapporten die beschikbaar zijn in Power BI, weer te geven.  
 
-### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Het rapport is geladen, maar is leeg, niet gefilterd of onjuist gefilterd
+### Het rapport is geladen, maar is leeg, niet gefilterd of onjuist gefilterd
 
 Controleer of het rapportfilter de juiste primaire sleutel bevat. In de meeste gevallen is dit het veld **Nr.** maar in de tabel **Grootboekpost** moet u bijvoorbeeld het veld **Postnr.** gebruiken.
 
-### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Het rapport is geladen, maar er wordt een pagina weergegeven die u niet had verwacht
+### Het rapport is geladen, maar er wordt een pagina weergegeven die u niet had verwacht
 
 Controleer of de pagina die u wilt weergeven, de eerste pagina in uw rapport is.  
 
-### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Rapporten worden met ongewenste grijze randen weergegeven, zijn te klein of te groot
+### Rapporten worden met ongewenste grijze randen weergegeven, zijn te klein of te groot
 
 Controleer of de grootte van het rapport is ingesteld op 325 x 310 pixels. Sla het rapport op en vernieuw vervolgens de lijstpagina.  
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Uw bedrijfsgegevens inschakelen voor Power BI](admin-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  

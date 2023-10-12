@@ -45,8 +45,6 @@ Als uw verlengde proefperiode is verstreken, kunt u zich binnen 90 dagen [abonne
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/modules/trial-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Proefversies en abonnementen (alleen Engels)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  

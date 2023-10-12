@@ -4,16 +4,16 @@ description: Een afdrukbaar referentieblad met de populairste toetsenbordsneltoe
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 02/09/2023
+ms.date: 09/11/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a>Snelle toetsenbordnaslag - alleen pc
+# Snelle toetsenbordnaslag - alleen pc
 
-#### <a name="general"></a>Alge&amp;meen
+#### Algemeen
 
 |Selecteer deze toetsen|Actie|  
 |-|-|
@@ -26,6 +26,7 @@ ms.custom: bap-template
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|**Posten zoeken** openen|
 |<kbd>Alt</kbd>+<kbd>Omhoog</kbd>|Knopinfo openen of validatiefout|
 |<kbd>Alt</kbd>+<kbd>Pijl omlaag</kbd>|Een vervolgkeuzelijst of opzoekactie openen|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd><kbd>Pijl-omlaag</kbd>|Open de kaart- of lijstpagina van een gerelateerde record, gefilterd op de waarde in het opzoek- of AssistEdit-veld|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|De pagina **Mijn instellingen** openen|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd>|De huidige kaart of het huidige document openen in een nieuw venster|
 |<kbd>Ctrl</kbd>+<kbd>Insert</kbd>|Een nieuwe regel in een document invoegen|
@@ -39,7 +40,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Focus verplaatsen naar volgende/vorige element|
 |<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Naar het volgende sneltabblad/onderdeel gaan|
 
-#### <a name="navigate--select-rows"></a>Navigeren en rijen selecteren
+#### Navigeren en rijen selecteren
 
 |Selecteer deze toetsen|Actie|
 |-|-|
@@ -53,14 +54,14 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Page Up</kbd>/<kbd>Omlaag</kbd>|Zichtbare rijen boven/onder selecteren|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Focus uit de lijst verplaatsen|
 
-#### <a name="copy--paste"></a>Kopiëren en plakken
+#### Kopiëren en plakken
 
 |Selecteer deze toetsen|Actie|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Rijen kopiëren/plakken|
 |<kbd>F8</kbd>|Veld erboven naar huidige rij kopiëren|
 
-#### <a name="search-filter--sort"></a>Zoeken, filteren en sorteren
+#### Zoeken, filteren en sorteren
 
 |Selecteer deze toetsen|Actie|
 |-|-|
@@ -71,20 +72,20 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Filter op een geselecteerd veld toevoegen|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Filters opnieuw instellen|
 
-#### <a name="quick-entry"></a>Snelinvoer
+#### Snelinvoer
 
 |Selecteer deze toetsen|Actie|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Naar volgende snelinvoerveld buiten een lijst gaan|
 |<kbd>Enter</kbd>/<kbd>Shift</kbd>+<kbd>Enter</kbd>|Naar volgende/vorige snelinvoerveld gaan|
 
-##### <a name="report-preview"></a>Rapportvoorbeeld
+##### Rapportvoorbeeld
 
 |Selecteer deze toetsen|Actie|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Naar de eerste/laatste pagina gaan|
 
-#### <a name="numeric-keypad"></a>Numeriek toetsenbord
+#### Numeriek toetsenbord
 
 |Selecteer deze toetsen|Actie|  
 |-|-|

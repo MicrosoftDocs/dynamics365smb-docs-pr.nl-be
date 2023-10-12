@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics-365-business-central"></a>Werkstromen in Dynamics 365 Business Central
+# Werkstromen in Dynamics 365 Business Central
 
 U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatisch boeken, kunnen als stappen in werkstromen worden opgenomen. Systeemtaken kunnen worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.
 
@@ -18,7 +18,7 @@ De standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] ondersteu
 * Power Automate-stromen
 
   * Geautomatiseerde stromen worden geactiveerd door gebeurtenissen (zoals het maken, wijzigen of verwijderen van records of documenten) in [!INCLUDE[prod_short](includes/prod_short.md)]. Ook inbegrepen zijn goedkeuringsstromen die zijn gemaakt in Power Automate, die triggeren wanneer een goedkeuring wordt aangevraagd in [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Directe stromen die handmatig worden geactiveerd door de actie **Automatiseren** vanuit lijsten, kaarten en documentpagina's.
+  * Directe stromen die handmatig worden geactiveerd door het actiemenu **Automatiseren** vanuit lijsten, kaarten en documentpagina's.
 
     Creëer en activeer handmatig een Power Automate-stroom op een [!INCLUDE[prod_short](includes/prod_short.md)]-record, zoals een klant, artikel of verkooporder, met opties om informatie zowel intern als extern te manipuleren (met behulp van geïntegreerde tools).
 
@@ -26,17 +26,17 @@ De standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] ondersteu
 
   Op de pagina **Werkstroomsjablonen** kunt u alle beschikbare werkstromen zien. De proefversie van [!INCLUDE[prod_short](includes/prod_short.md)] bevat veel vooraf geconfigureerde werkstromen die worden vertegenwoordigd door werkstroomsjablonen die u kunt kopiëren om nieuwe werkstromen te maken. Wanneer u een sjabloon opent vanuit de pagina **Werkstroomsjablonen** en de naam van de werkstroom begint met *MS-*, is de werkstroomsjabloon door Microsoft toegevoegd.
 
-## <a name="power-automate-flows"></a>Power Automate-stromen
+## Power Automate-stromen
 
 Met [!INCLUDE [prod_short](includes/prod_short.md)] Online kunt u zich aanmelden voor Power Automate om krachtige geautomatiseerde werkstromen te bouwen. U voert die werkstromen uit vanuit [!INCLUDE [prod_short](includes/prod_short.md)]. De stromen kunnen interne en externe gegevensbronnen en tools met elkaar verbinden, zonder codeerkennis.
 
-|**Als u dit wilt doen** |**Zie**|
+|**Als u dit wilt doen** |**Onderwerp**|
 |-------|-------|
 |Ga aan de slag met Power Automate en het maken en uitvoeren van directe stromen|[Power Automate-stromen gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
 |Meer informatie over het maken, bewerken en beheren van stromen|[Geautomatiseerde stromen instellen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) en [Directe stromen instellen](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Power Automate-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] instellen voor gebruikers als beheerder|[Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## <a name="approval-workflows"></a>Goedkeuringswerkstromen
+## Goedkeuringswerkstromen
 
 Maak een goedkeuringswerkstroom door als volgt te definiëren waardoor de werkstroom wordt gestart en wat er daarna gebeurt:
 
@@ -57,7 +57,7 @@ Voorbeelden van gebeurtenissen voor goedkeuringswerkstromen zijn het maken van v
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

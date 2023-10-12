@@ -2,12 +2,12 @@
 title: Ad-hoc gegevensanalyse
 description: Biedt een overzicht van de functies die ad-hocgegevensanalysetaken in het Business Central-product ondersteunen.
 author: jswymer
-ms.topic: get-started-article
+ms.topic: get-started
 ms.search.keywords: feature overview
 ms.date: 03/31/2023
 ms.author: jswymer
 ---
-# <a name="ad-hoc-data-analysis"></a>Ad-hoc gegevensanalyse
+# Ad-hoc gegevensanalyse
 
 Soms moet u gegevens analyseren in [!INCLUDE[prod_short](includes/prod_short.md)] op een manier die niet beschikbaar is in een standaardrapport. Deze taak wordt vaak ad-hocanalyse genoemd. Hieronder staan koppelingen om u te helpen leren hoe u deze kunt uitvoeren.
 
@@ -19,7 +19,7 @@ Soms moet u gegevens analyseren in [!INCLUDE[prod_short](includes/prod_short.md)
 | Financiële gegevens bekijken en analyseren met behulp van financiële rapporten | [Financiële analyse](bi.md) |
 | Lijstgegevens rechtstreeks vanaf een pagina analyseren |[Gegevens analyseren op lijstpagina's met behulp van de gegevensanalysemodus](analysis-mode.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van bedrijfsinformatie en rapportage](ui-work-report.md)
 

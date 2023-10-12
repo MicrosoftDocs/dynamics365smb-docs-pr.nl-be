@@ -91,14 +91,12 @@ Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Verkopen boeken](ui-post-sales.md)  
 [Artikelen verzenden](warehouse-how-ship-items.md)  
-[Doorverzendingen uitvoeren](sales-how-drop-shipment.md)  
+[Doorverzendingen maken](sales-how-drop-shipment.md)  
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [De picklijst afdrukken](sales-how-print-picking-list.md)  
