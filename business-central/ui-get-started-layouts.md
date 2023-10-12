@@ -11,14 +11,14 @@ ms.search.form: '9650, 9652'
 ms.date: 03/23/2022
 ms.author: jswymer
 ---
-# Aan de slag met het maken van rapportlay-outs
+# <a name="get-started-creating-report-layouts"></a>Aan de slag met het maken van rapportlay-outs
 
 Business Central wordt geleverd met veel ingebouwde lay-outs die u in uw rapporten kunt gebruiken. Andere lay-outs zijn mogelijk toegevoegd als onderdeel van andere extensies. Maar het is ook mogelijk om vanuit het niets of op basis van een bestaande lay-out uw eigen rapporten te maken.
 
 > [!IMPORTANT]
 > U kunt ook rapportlay-outs gebruiken om inhoud aan e-mailberichten toe te voegen. Rapportlay-outs kunnen bijvoorbeeld tijd besparen en zorgen voor consistentie door dezelfde inhoud opnieuw te gebruiken wanneer u met uw klanten communiceert. Als u aangepaste rapportlay-outs met e-mail wilt gebruiken, moet het bestandstype voor de lay-out Word zijn. U kunt het RDLC-bestandstype niet gebruiken. Voor meer informatie zie [Herbruikbare e-mailteksten en lay-outs instellen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## Overzicht
+## <a name="overview"></a>Overzicht
 
 Bij het werken met rapportlay-outs helpt het om de lay-out te zien als een bestand dat wordt geïmporteerd en toegewezen aan een rapport. Ongeacht het type lay-out is de manier waarop u lay-outs beheert in Business Central in principe hetzelfde. Meestal werkt u vanuit de pagina **Rapportlay-outs**. Het belangrijkste verschil is hoe u de lay-out ontwerpt, wat wordt gedaan met behulp van de toepassingssoftware waarop de lay-out is gebouwd, zoals Word, Excel of SQL Server Report Builder.
 
@@ -34,7 +34,7 @@ Met dit idee in gedachten, zijn er in principe drie of vier taken betrokken bij 
 >
 > Voor meer informatie over het verschil tussen extensielay-outs en door de gebruiker ingestelde lay-outs, zie [Lay-outbron](ui-manage-report-layouts.md#layout-sources).
 
-## Aan de slag
+## <a name="get-started"></a>Aan de slag
 
 Afhankelijk van wat uw situatie is, zullen de daadwerkelijke taken variëren. Gebruik de volgende tabel om u op weg te helpen.
 
@@ -47,7 +47,7 @@ Afhankelijk van wat uw situatie is, zullen de daadwerkelijke taken variëren. Ge
 |Van de huidige lay-out die door een rapport wordt gebruikt, overschakelen naar een andere lay-out|[De lay-out instellen die door een rapport wordt gebruikt](ui-set-report-layout.md)|
 |De naam en beschrijving van een lay-out wijzigen|[De naam van een lay-out wijzigen](#rename)|
 
-## <a name="decide"></a>Bepalen welk type lay-out u wilt
+## <a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Bepalen welk type lay-out u wilt
 
 Het eerste dat u moet doen bij het maken van een lay-out, is beslissen welk [lay-outtype](ui-manage-report-layouts.md#layout-types) u wilt. U kunt kiezen uit Word, Excel of RDLC. Het lay-outtype is afhankelijk van hoe u wilt dat het gegenereerde rapport eruitziet. Bovendien hangt het af van uw kennis van toepassingssoftware voor het maken van de lay-outs, zoals Word, Excel en SQL Server Report Builder.
 
@@ -66,7 +66,7 @@ Het eerste dat u moet doen bij het maken van een lay-out, is beslissen welk [lay
 
 * De algemene grondslagen voor Word- en RDLC-lay-outs lijken op elkaar. Elk type heeft echter bepaalde ontwerpfuncties die bepalen hoe het gegenereerde rapport eruitziet in [!INCLUDE[prod_short](includes/prod_short.md)]. Hetzelfde rapport kan er anders uitzien wanneer u de Word-lay-out gebruikt dan wanneer u de RDLC-rapportlay-out gebruikt.
 
-## <a name="create"></a>Een nieuwe lay-out maken
+## <a name="create-a-new-layout"></a><a name="create"></a>Een nieuwe lay-out maken
 
 Er zijn twee manieren om een nieuwe lay-out te maken van een bestaande lay-out. Eén manier is door de bestaande lay-out op te slaan als een kopie. De andere manier is om de bestaande lay-out te exporteren.
 
@@ -127,7 +127,7 @@ Als u wilt zien hoe het rapport eruitziet met de nieuwe lay-out, selecteert u de
 
 ---
 
-## <a name="modify"></a>Een lay-out wijzigen
+## <a name="modify-a-layout"></a><a name="modify"></a>Een lay-out wijzigen
 
 Volg deze stappen om een bestaande, door de gebruiker ingestelde lay-out te wijzigen.
 
@@ -156,7 +156,7 @@ Volg deze stappen om een bestaande, door de gebruiker ingestelde lay-out te wijz
    Het geselecteerde bestand wordt geüpload naar de lay-out en u keert terug naar de pagina **Rapportlay-outs**.
 7. Als u wilt zien hoe het rapport eruitziet met de nieuwe lay-out, selecteert u de lay-out in de lijst en selecteert u vervolgens **Rapport uitvoeren**.
 
-## <a name="replace"></a>Een lay-out vervangen
+## <a name="replace-a-layout"></a><a name="replace"></a>Een lay-out vervangen
 
 Volg deze stappen om het bestaande bestand met de door de gebruiker ingestelde lay-out te vervangen door een nieuw bestand.
 
@@ -168,7 +168,7 @@ Volg deze stappen om het bestaande bestand met de door de gebruiker ingestelde l
    Het geselecteerde bestand wordt geüpload naar de lay-out en u keert terug naar de pagina **Rapportlay-outs**.
 5. Als u wilt zien hoe het rapport eruitziet met de nieuwe lay-out, selecteert u de lay-out in de lijst en selecteert u vervolgens **Rapport uitvoeren**.
 
-## <a name="rename"></a>De naam van een lay-out wijzigen
+## <a name="rename-a-layout"></a><a name="rename"></a>De naam van een lay-out wijzigen
 
 Volg deze stappen als u de naam en beschrijving van een door de gebruiker ingestelde lay-out wilt wijzigen.
 
@@ -179,7 +179,7 @@ Volg deze stappen als u de naam en beschrijving van een door de gebruiker ingest
     > Om u te helpen de lay-out te vinden, gebruikt u het vak **Zoeken**, het deelvenster **Filter** en kolommen sorteren.
 3. Verander de **Lay-outnaam** en selecteer vervolgens **OK**.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [Werken met Word-indelingen](ui-how-add-fields-word-report-layout.md)  

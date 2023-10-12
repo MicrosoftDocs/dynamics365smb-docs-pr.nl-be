@@ -11,14 +11,14 @@ ms.search.form: 680
 ms.date: 08/08/2022
 ms.author: bholtorf
 ---
-# Rapporten delen en exporteren met de Rapportinbox
+# <a name="share-and-export-reports-with-the-report-inbox"></a>Rapporten delen en exporteren met de Rapportinbox
 
 De pagina **Rapportinbox** geeft een overzicht van geplande rapporten gegenereerd door de gebruiker in [!INCLUDE[prod_short](includes/prod_short.md)], en kan worden gebruikt om niet alleen toegang te krijgen tot de gegenereerde rapporten, maar ook om de bestanden te delen en te openen in OneDrive voor Bedrijven.
 
 > [!TIP]
 > De volgende acties zijn ook beschikbaar in het gedeelte **Rapportinbox** van het Rolcentrum. Als het onderdeel niet wordt weergegeven in uw interface, leest u hier hoe u uw rolcentrum kunt aanpassen [Uw werkruimte personaliseren](ui-personalization-user.md).
 
-## Gegenereerde rapporten downloaden
+## <a name="download-generated-reports"></a>Gegenereerde rapporten downloaden
 
 Om eerdere rapporten op te slaan, opent u de pagina **Rapportinbox** door deze stappen te volgen:
 
@@ -30,7 +30,7 @@ Om eerdere rapporten op te slaan, opent u de pagina **Rapportinbox** door deze s
 >
 > De gegenereerde bestanden worden opgeslagen in het formaat dat is gedefinieerd bij het plannen van het rapport en kunnen worden gewijzigd op de pagina **Taakwachtrijposten**, samen met de herhaling en andere instellingen. Leer hoe u de bestandsindeling van het rapport kunt wijzigen en aanvullende opties kunt instellen op [Geplande periodieke rapporten beheren](ui-work-report.md#manage-scheduled-recurring-reports).
 
-## Gegenereerde rapporten openen in OneDrive
+## <a name="open-generated-reports-in-onedrive"></a>Gegenereerde rapporten openen in OneDrive
 
 Als u het rapportbestand wilt exporteren naar Microsoft OneDrive voor Bedrijven, selecteert u het rapport op de pagina **Rapportinbox** en kiest u de actie **Openen in OneDrive**. Het rapport wordt vervolgens gekopieerd naar de map [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive en geopend in een nieuw browservenster, waar u het documentbestand kunt afdrukken en beheren.
 
@@ -38,7 +38,7 @@ Als u het rapportbestand wilt exporteren naar Microsoft OneDrive voor Bedrijven,
 >
 > Rapporten die zijn ingesteld om te verlopen op de pagina **Een rapport plannen** en naar OneDrive worden gekopieerd, worden niet automatisch uit de gedeelde map verwijderd.
 
-## Geplande rapporten delen
+## <a name="share-scheduled-reports"></a>Geplande rapporten delen
 
 Rapporten delen met collega's is ook mogelijk op de pagina **Rapportinbox**. Selecteer het rapport en kies de actie **Delen**. Selecteer op de pagina **Koppeling verzenden** wie het bestand kan openen, definieer bewerkingsmachtigingen en kies vervolgens **Verzenden** om een koppeling te verzenden om toegang te krijgen tot het opgeslagen rapport.
 
@@ -47,7 +47,7 @@ Rapporten delen met collega's is ook mogelijk op de pagina **Rapportinbox**. Sel
 >
 > De actie **Delen** maakt het gegenereerde rapportbestand alleen beschikbaar voor andere gebruikers op OneDrive voor Bedrijven en vermeldt het geplande rapport niet in hun **Rapportinbox**.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Rapporten uitvoeren en afdrukken](ui-work-report.md)  
 [Beschikbare rapporten [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

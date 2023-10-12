@@ -25,11 +25,11 @@ De informatie houdt ook rekening met andere factoren die de beschikbaarheid beï
 > [!NOTE]
 > Deze mogelijkheid vereist dat u de schakelaar **Gestuurde opslag en pick** aanzet voor de vestigingen die u gebruikt in uw pickproces.
 
-### Voorbeelden instellen
+### <a name="set-up-previews"></a>Voorbeelden instellen
 
 Voor meer informatie over wat er wel en niet wordt gepickt, schakelt u de optie **Overzicht weergeven (gestuurde opslag en pick)** in op de aanvraagpagina **Mag. - Document maken** of **Mag.-verzending - Pick maken**.
 
-### De hoeveelheid bepalen die u kunt picken
+### <a name="determine-the-quantity-you-can-pick"></a>De hoeveelheid bepalen die u kunt picken
 
 Op regels op de pagina **Overzicht van magazijnpick maken** toont het veld **Te verwerken hoeveelheid (basis)** welke en hoeveel artikelen [!INCLUDE [prod_short](prod_short.md)] probeerde te picken. Het feitenblok **Overzicht** biedt meer details.
 
@@ -56,7 +56,7 @@ De volgende afbeelding illustreert de maximale hoeveelheid die in aanmerking kom
 |B     |Opslaglocaties met inhoud van het type Pick met geblokkeerde uitgaande verplaatsing         |
 |O     |Overige opslaglocaties         |
 
-### Reserveringen
+### <a name="reservations"></a>Reserveringen
 
 Als er reserveringen zijn voor het artikel dat wordt gepickt, gaat de berekening verder. Het idee is dat gereserveerde vraag een hogere prioriteit heeft dan niet-gereserveerde vraag, wat betekent dat picken voor niet-gereserveerde vraag niet mag verhinderen dat er later voor gereserveerde vraag wordt gepickt.
 
@@ -74,7 +74,7 @@ Deze hoeveelheden zijn mogelijk beschikbaar, maar u kunt ze mogelijk nog niet pi
 
 Het verschil tussen **Beschikbare hoev. exclusief verzendopslaglocatie** en gereserveerde hoeveelheid in het magazijn is de hoeveelheid die beschikbaar is voor picken zonder dat dit invloed heeft op de gereserveerde voorraad.
 
-### Overige details
+### <a name="other-details"></a>Overige details
 
 Als voor artikelen artikeltracering vereist is, kunt u de hoeveelheid ook vinden in geblokkeerde partijen of serienummers, wat de volgende reducties veroorzaakt:
 
