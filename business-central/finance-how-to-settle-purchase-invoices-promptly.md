@@ -7,14 +7,14 @@ ms.search.form: '51, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Inkoopfacturen meteen vereffenen
+# Inkoopfacturen meteen vereffenen
 
 Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boeken op het moment dat u de factuur boekt.  
 
 > [!NOTE]  
 > Als u vaak inkoopfacturen contant, met een cheque of met een bankovermaking betaalt, is het verstandig om een bepaalde betalingswijze met een tegenrekening in te stellen en deze betalingswijze in te voeren in het veld **Betalingswijze** op de leverancierskaart. Telkens wanneer u hierna een nieuwe factuur maakt, wordt automatisch het tegenrekeningnummer op de factuurkop ingevoerd. Zie [Betalingsmethoden definiëren](finance-payment-methods.md) voor meer informatie.  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>Een inkoopfactuur meteen vereffenen
+## Een inkoopfactuur meteen vereffenen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -25,7 +25,7 @@ Als u de leverancier contant of per cheque moet betalen, kunt u de betaling boek
 >
 > Deze aanpassing is alleen vereist als u geen tegenrekeningen opgeeft op de betaalmethoden zoals hierboven beschreven.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

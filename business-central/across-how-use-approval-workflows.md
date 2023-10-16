@@ -78,8 +78,6 @@ Met de functie **Berichten over achterstallige goedkeuringen verzenden** control
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vervallen goedkeuringsaanvragen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Vervallen goedkeuringsaanvragen** de actie **Berichten over vervallen goedkeuringen verzenden**.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/use-approval-workflows/)
-
 ## Zie ook
 
 [Goedkeuringswerkstromen gebruiken](across-use-workflows.md)  

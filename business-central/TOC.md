@@ -348,6 +348,11 @@
 #### [Werken met betalingstoleranties en contantkortingstoleranties](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [De extensie Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md)
 
+### E-documenten beheren
+#### [E-documenten instellen](finance-how-setup-edocuments.md)
+#### [E-documenten gebruiken bij verkoop en inkoop](finance-how-use-edocuments.md)
+#### [Functionaliteit van e-documenten uitbreiden](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Btw beheren
 #### [Overzicht van btw-beheer](finance-manage-vat.md)
 #### [EU-inkooptransacties van derde partijen](finance-how-to-eu3party-trade-purchase.md)

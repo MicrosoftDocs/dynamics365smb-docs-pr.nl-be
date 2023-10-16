@@ -11,11 +11,11 @@ ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Bestaande items kopiëren om nieuwe items te maken
+# Bestaande items kopiëren om nieuwe items te maken
 
 Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item kopiëren** gebruiken om een bestaand item te kopiëren om als sjabloon voor een nieuw item te gebruiken.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>Een bestaand item naar een nieuw item kopiëren.
+## Een bestaand item naar een nieuw item kopiëren.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het item dat u wilt kopiëren en kies vervolgens de actie **Item kopiëren**.  
@@ -29,7 +29,7 @@ Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item 
 
 4. Om uw selecties naar het nieuwe item te kopiëren kiest u de knop **OK**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad instellen](inventory-setup-inventory.md)  

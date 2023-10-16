@@ -3,7 +3,7 @@ title: 'Projecten, prijzen en projectboekingsgroepen instellen'
 description: Beschrijft hoe u algemene informatie over taken instelt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -81,25 +81,23 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul de velden in zoals is beschreven in de volgende tabel.  
 
-| Het veld Rekeningnr. | Omschrijving |
-| --- | --- |
-| **Code** |Een ID voor de boekingsgroep. U kunt maximaal 10 tekens inclusief spaties invoeren. |
-| **Rekening OHW-kosten** |De OHW-rekening voor de berekende kosten van het OHW van het project is een financiële activarekening op de balans. |
-| **Rekening te betalen OHW-kosten** |Een rekening voor de methode Kostprijs of Verkoopprijs van OHW-berekening. Deze rekening is voor te betalen kosten op de balans. Wanneer u door een OHW-aanpassing de gebruikskosten moet verhogen die u op uw resultatenrekening boekt, boekt u op deze rekening. |
-| **Rekening vereffende projectkosten** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. |
-| **Account toegepaste artikelkosten** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. |
-| **Account toegepaste resourcekosten** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. |
-| **Rekening kosten vereffend** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. |
-| **Rekening herwaardering projectkosten** |De tegenrekening voor de rekening te betalen OHW-kosten, die een kostenrekening is. |
-| **Kostenrekening GB (budget)** |De omzetrekening die moet worden gebruikt voor grootboekkosten in projecttaken met deze boekingsgroep. Indien dit leeg wordt gelaten, wordt de grootboekrekening gebruikt die op de projectplanningsregel staat. |
-| **Rekening te realiseren omzet OHW** |De OHW-rekening voor de berekende kostprijs van het OHW, die een rekening voor te realiseren omzet op de balans is. Wanneer een herwaardering van OHW vereist dat u de verantwoorde omzet verhoogt die u naar deze rekening boekt. |
-| **Rekening gefactureerde omzet OHW** |De rekening voor de gefactureerde verkoopprijs van het OHW die niet kan worden verantwoord. Het is een rekening voor niet-gerealiseerde omzet op de balans. |
-| **Rekening projectomzetvereffening** |De tegenrekening voor de rekening gefactureerde omzet OHW, die een creditresultatenrekening is. |
-| **Rekening projectomzetwaardering** |De tegenrekening voor de OHW-omzetrekening, die een resultatenrekening is. |
-| **Rekening verantwoorde kosten** |De kostenrekening die de verantwoorde kosten voor het project bevat. Dit is normaliter een debetkostenrekening. |
-| **Rekening verantwoorde omzet** |De resultatenrekening die de verantwoorde resultaten voor het project bevat. Dit is normaliter een creditresultatenrekening. |
-
-## Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
+| Het veld Rekeningnr. | Omschrijving | Gebruikt in OHW-type |
+| --- | --- |  --- |
+| **Code** |Een ID voor de boekingsgroep. U kunt maximaal 10 tekens inclusief spaties invoeren. | |
+| **Rekening OHW-kosten** |De OHW-rekening voor de berekende kosten van het OHW van het project is een financiële activarekening op de balans. | Toegepaste kosten, Verantwoorde kosten|
+| **Rekening te betalen OHW-kosten** |Een rekening voor de methode Kostprijs of Verkoopprijs van OHW-berekening. Deze rekening is voor te betalen kosten op de balans. Wanneer u door een OHW-aanpassing de gebruikskosten moet verhogen die u op uw resultatenrekening boekt, boekt u op deze rekening. | Te betalen kosten|
+| **Rekening vereffende projectkosten** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. Gebruikt wanneer **Gebruikte boekingsmethode OHW** is ingesteld op *Taak*. | Toegepaste kosten, Verantwoorde kosten|
+| **Account toegepaste artikelkosten** |Hetzelfde als **Rekening vereffende projectkosten**, maar gebruikt wanneer **Gebruikte boekingsmethode OHW** is ingesteld op *Projectpost*.| |
+| **Account toegepaste resourcekosten** |Hetzelfde als **Rekening vereffende projectkosten**, maar gebruikt wanneer **Gebruikte boekingsmethode OHW** is ingesteld op *Projectpost*.| |
+| **Account toegepaste grootboekkosten** |Hetzelfde als **Rekening vereffende projectkosten**, maar gebruikt wanneer **Gebruikte boekingsmethode OHW** is ingesteld op *Projectpost*.| |
+| **Projectkostenwaarderingsrekening** |De tegenrekening voor de rekening te betalen OHW-kosten, die een kostenrekening is. | Te betalen kosten|
+| **Kostenrekening GB (budget)** |De omzetrekening die moet worden gebruikt voor grootboekkosten in projecttaken met deze boekingsgroep. Indien dit leeg wordt gelaten, wordt de grootboekrekening gebruikt die op de projectplanningsregel staat. | |
+| **Rekening te realiseren omzet OHW** |De OHW-rekening voor de berekende kostprijs van het OHW, die een rekening voor te realiseren omzet op de balans is. Wanneer een herwaardering van OHW vereist dat u de verantwoorde omzet verhoogt die u naar deze rekening boekt. | Te ontvangen verkoop, Verantwoorde verkoop|
+| **Rekening gefactureerde omzet OHW** |De rekening voor de gefactureerde verkoopprijs van het OHW die niet kan worden verantwoord. Het is een rekening voor niet-gerealiseerde omzet op de balans. | Verantwoorde verkoop, Toegepaste verkoop|
+| **Rekening projectomzetvereffening** |De tegenrekening voor de rekening gefactureerde omzet OHW, die een creditresultatenrekening is. | Toegepaste verkoop, Verantwoorde verkoop|
+| **Rekening projectomzetwaardering** |De tegenrekening voor de OHW-omzetrekening, die een resultatenrekening is. | Te ontvangen omzet|
+| **Rekening verantwoorde kosten** |De kostenrekening die de verantwoorde kosten voor het project bevat. Dit is normaliter een debetkostenrekening. | Verantwoorde kosten|
+| **Rekening verantwoorde omzet** |De resultatenrekening die de verantwoorde resultaten voor het project bevat. Dit is normaliter een creditresultatenrekening. | Verantwoorde verkoop|
 
 ## Zie ook
 

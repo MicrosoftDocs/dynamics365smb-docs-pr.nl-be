@@ -31,8 +31,6 @@ De pagina **Geboekte documenten zonder inkomend document** wordt geopend en toon
 
 Als er geen relevante inkomende documentrecord op de pagina **Inkomende documenten** staat, kunt u er een maken. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Inkomende documentrecords maken](across-how-create-income-document-records.md)

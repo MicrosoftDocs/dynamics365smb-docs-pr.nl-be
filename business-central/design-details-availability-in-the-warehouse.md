@@ -3,7 +3,7 @@ title: 'Ontwerpdetails: Beschikbaarheid in het magazijn'
 description: Meer informatie over de verschillende factoren die de artikelbeschikbaarheid in uw magazijn beïnvloeden.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
@@ -73,6 +73,10 @@ Het resultaat wordt weergegeven in het veld **Totaal beschikbaar aantal** op de 
 
 Op een reserveringsregel wordt het aantal dat niet kan worden gereserveerd omdat het in het magazijn is toegewezen, weergegeven in het veld **Aant. toegewezen in magazijn** op de pagina **Reservering**.  
 
+## Controleer of artikelen beschikbaar zijn om te picken
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Het aantal berekenen dat beschikbaar is voor reservering
 
 [!INCLUDE [prod_short](includes/prod_short.md)] berekent het aantal dat beschikbaar is voor reserveringen, als volgt:  
@@ -86,7 +90,7 @@ Het volgende diagram bevat de verschillende elementen van de berekening.
 ## Zie ook  
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
-[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
-
+[De beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
+[Picken voor productie, assemblage of taken in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

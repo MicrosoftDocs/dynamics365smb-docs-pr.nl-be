@@ -74,8 +74,6 @@ Als u doorgaans in andere eenheden dan de basiseenheid inkoopt of verkoopt, kunt
 4. Open voor inkopen op het sneltabblad **Aanvulling** in het veld **Ink.-eenheid** de pagina **Artikeleenheden**.
 5. Selecteer de code die u als standaardeenheid voor respectievelijk verkopen of inkopen wilt instellen en kies de knop **OK**.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Werken met productiebatcheenheden](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  

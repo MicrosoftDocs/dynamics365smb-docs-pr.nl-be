@@ -9,17 +9,17 @@ ms.workload: na
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="preview-posting-results"></a>Voorbeeld van boekingsresultaten weergeven
+# Voorbeeld van boekingsresultaten weergeven
 In elk document en elk dagboek die kunnen worden geboekt, kunt u de knop **Voorbeeld van boeking weergeven** kiezen om de verschillende soorten posten te bekijken die worden gemaakt wanneer u het document of het dagboek boekt.
 
-## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Een voorbeeld weergeven van grootboekposten die resulteren na boeking van een inkoopfactuur
+## Een voorbeeld weergeven van grootboekposten die resulteren na boeking van een inkoopfactuur
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een inkoopfactuur. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 3. Kies **Voorbeeld van boeking weergeven**.
 4. Selecteer op de pagina **Voorbeeld van boeking weergeven** **Grootboekpost** en kies vervolgens **Verwante posten weergeven**.  
    Op de pagina **Voorbeeld GB-posten** ziet u welke posten worden gemaakt wanneer u de inkoopfactuur boekt.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)

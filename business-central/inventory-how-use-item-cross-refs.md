@@ -2,29 +2,24 @@
 title: Artikelverwijzingen gebruiken
 description: 'Stel verwijzingen in tussen de beschrijvingen, eenheden en varianten die u en uw leverancier of klant voor een artikel gebruiken.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'item reference, cross reference, inventory'
 ms.search.forms: '5737, 5735, 5736'
-ms.date: 10/27/2021
-ms.author: bholtorf
+ms.date: 10/02/2023
+ms.custom: bap-template
 ---
 # Artikelverwijzingen gebruiken
 
 Als u artikelen koopt of verkoopt waarvoor u en uw leverancier of klant verschillende voorwaarden gebruiken, kunt u een verwijzing instellen tussen uw voorwaarden voor de artikelen en de voorwaarden die de klant of leverancier van dat artikel gebruikt. Op deze manier wordt de artikelbeschrijving, eenheid of variantcode van de leverancier of klant automatisch ingevoegd op de relevante documenten wanneer u het veld **Nr. van artikelreferentie** invult.  
 
 > [!NOTE]
-> [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
->
 > Niet alle bedrijven gebruiken artikelreferenties. Om rommel op pagina's tot een minimum te beperken, hebben we de gerelateerde velden en acties standaard verborgen. Als u besluit ze te gebruiken, selecteert u het veld **Artikelverwijzingen gebruiken** op de pagina **Voorraadinstellingen**. Nadat u artikelreferenties hebt ingeschakeld, zijn de velden en acties beschikbaar op de pagina's Artikelkaart, Leverancierskaart en Klantenkaart, en in verkoop- en inkoopdocumenten.
 >
 > In eerdere versies dan releasewave 2 van 2021 kan uw beheerder de functie *Langere itemreferenties schrijven* op de pagina [Functiebeheer](https://businesscentral.dynamics.com/?page=2610) inschakelen (koppeling vereist dat u een [!INCLUDE [prod_short](includes/prod_short.md)]-tenant hebt). Hoe u verwijzingen gebruikt, verandert niet, maar de namen van zaken als pagina's en knoppen wel. De pagina **Artikelkruisverwijzingposten** wordt bijvoorbeeld de pagina **Artikelverwijzingsposten**.
 
 ## Artikelreferenties gaan gebruiken
-
-[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
 1. Kies het pictogram :::image type="icon" source="media/ui-search/search_small.png" border="false":::, voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het veld **Artikelverwijzingen gebruiken**.
@@ -49,6 +44,20 @@ In de volgende procedure wordt beschreven hoe u de artikelverwijzing opgeeft in 
 4. Selecteer in het veld **Nr. van artikelreferentie** de relevante artikelverwijzing en kies vervolgens de knop **OK**.
 
 Het veld **Omschrijving** op de regel wordt overschreven met de artikelomschrijving van de leverancier, zoals ingesteld in de artikelverwijzingspost. Als de artikelverwijzing een variantcode of een eenheid bevat, worden deze waarden ook naar het document gekopieerd.  
+
+## Barcodes scannen met de mobiele Business Central-app
+
+[!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
+
+In de volgende tabel worden de pagina's vermeld die het scannen van barcodes van artikelreferenties uit de mobiele [!INCLUDE [prod_short](includes/prod_short.md)]-app ondersteunen.
+
+|Pagina  |Veldwaarde die u kunt scannen  |
+|---------|---------|
+|Artikelreferentie     | Verwijzingsnr.        |
+|Artikeldagboekregel     | Nr. van artikelreferentie        |
+|Regel van inventarisatieorder     |Nr. van artikelreferentie         |
+|Inkoopregel     |   Nr. van artikelreferentie      |
+|Verkoopregel     | Nr. van artikelreferentie        |
 
 ## Zie ook
 

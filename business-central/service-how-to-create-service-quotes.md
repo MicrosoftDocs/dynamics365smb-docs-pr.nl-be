@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="create-service-quotes"></a>Serviceoffertes maken:
+# Serviceoffertes maken:
 U kunt serviceoffertes als de basis voor serviceorders zien. Ze zijn zelfs vrijwel identiek. Ze bevatten beide informatie, bijvoorbeeld over wie de klant is, het soort order, het artikel dat service vereist, facturerings- en verzendingsgegevens, en informatie over het werkelijke servicewerk.
  
 U kunt een serviceofferte gebruiken als voorlopig ontwerp voor een serviceorder en de offerte vervolgens omzetten in een serviceorder.  
   
-## <a name="to-create-a-service-quote"></a>Serviceoffertes maken
+## Serviceoffertes maken  
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceoffertes** in en kies vervolgens de gerelateerde koppeling  
 2. Een nieuwe serviceofferte maken.  
 3. Selecteer in het veld **Nr.** een nummer op voor de serviceofferte. Als u op de pagina **Servicebeheerinstellingen** nummerreeksen voor serviceoffertes hebt ingesteld, kunt u ook op <kbd>Enter</kbd> drukken om het eerstvolgende beschikbare serviceoffertenummer in te voeren.  
@@ -28,7 +28,7 @@ U kunt een serviceofferte gebruiken als voorlopig ontwerp voor een serviceorder 
 6. Vul de serviceartikelregels in.  
 7. Registreer de geschatte kosten op de serviceregels.  
   
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Serviceorders maken](service-how-to-create-service-orders.md)  
 [Werken aan servicetaken](service-how-to-work-on-service-tasks.md)  
 
