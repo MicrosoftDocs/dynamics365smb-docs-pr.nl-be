@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Inleiding tot Contoso Coffee-productie
+# Inleiding tot Contoso Coffee-productie
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De apps **Contoso-koffie** voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de productiemogelijkheden in Business Central kunt benutten.  
 
@@ -36,7 +36,7 @@ De productieactiviteiten voor alle scenario's gebruiken de locatie *HOOFD*.
 > [!IMPORTANT]
 > Boek alle artikeldagboekregels met beginsaldi voordat u een van de scenario's voor Contoso Coffee gaat uitvoeren. Zie de sectie [Contoso Coffee-gegevens instellen](#set-up-contoso-coffee-manufacturing-data) voor meer vereisten.
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Contoso Coffee-productiegegevens instellen
+## Contoso Coffee-productiegegevens instellen
 
 [!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
@@ -47,7 +47,7 @@ De productieactiviteiten voor alle scenario's gebruiken de locatie *HOOFD*.
 
 Als u gereed bent, kiest u de actie **Demogegevens maken**. Het duurt een paar minuten om de gegevens aan de onderliggende database toe te voegen, maar dan bent u klaar om de verschillende scenario's uit te voeren.  
 
-## <a name="scenarios"></a>Scenario's
+## Scenario's
 
 De productiedemogegevens van Contoso Coffee ondersteunen momenteel de volgende scenario's voor testen en trainen:
 
@@ -65,7 +65,7 @@ Lees de stappen voor elk scenario in het desbetreffende artikel.
 > [!IMPORTANT]
 > Deze procedures vereisen dat de gebruikerservaring is ingesteld op *Premium* op de pagina **Bedrijfsgegevens**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie](../../production-manage-manufacturing.md)  
 [Productierapporten en analyses in Business Central](../../production-reports.md)  

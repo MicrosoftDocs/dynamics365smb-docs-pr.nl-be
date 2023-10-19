@@ -9,7 +9,7 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
+# Procedure: picken en verzenden in standaardmagazijnconfiguraties
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
@@ -24,7 +24,7 @@ Lees meer op [Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.m
 
 De volgende procedure geeft methode B in de vorige tabel weer.  
 
-## <a name="about-this-walkthrough"></a>Informatie over deze procedure
+## Informatie over deze procedure
 
 In standaardmagazijnconfiguraties waarbij voor uw vestiging wel een pickverwerking vereist is, maar geen verzendingsverwerking, gebruikt u de pagina **Voorraadpick** om pick- en verzendingsinformatie voor de uitgaande brondocumenten te verzamelen en boeken. Het uitgaand brondocument kan een verkooporder zijn, maar ook een inkoopretourorder, een uitgaande transferorder of een productieorder met daarop de materiaalbehoefte.  
 
@@ -36,7 +36,7 @@ In deze procedure worden de volgende taken gedemonstreerd:
 - Een voorraadpick maken op basis van een vrijgegeven brondocument.  
 - De magazijnverplaatsing van het magazijn vastleggen en tegelijkertijd de verkoopverzending voor de bronverkooporder boeken.  
 
-## <a name="roles"></a>Rollen
+## Rollen
 
 In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:  
 
@@ -51,33 +51,33 @@ To complete this walkthrough, you will need:
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
  -->
 
-## <a name="story"></a>Scenario
+## Scenario
 
 Ellen, de magazijnmanager bij CRONUS, stelt magazijn ZUID in voor basispickverwerking waarbij magazijnmedewerkers uitgaande orders afzonderlijk verwerken. De orderverwerker Suzanne maakt een verkooporder voor 30 eenheden van het artikel 1928-S om aan klant 10000 vanuit het magazijn ZUID te worden verzonden. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken op de pagina **Voorraadpick**, die automatisch verwijst naar de opslaglocaties waar 1928-S is opgeslagen.
 
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
-### <a name="setting-up-the-bin-codes"></a>De opslaglocatiecodes instellen
+### De opslaglocatiecodes instellen
 
 Nadat u de locatie hebt ingesteld, moet u twee opslaglocaties toevoegen.
 
-#### <a name="to-setup-the-bin-codes"></a>De opslaglocatiecodes instellen
+#### De opslaglocatiecodes instellen
 
 1. Selecteer de acties **Opslaglocaties**.
 2. Maak twee opslaglocaties met de codes *S-01-0001* en *S-01-0002*.
 
-### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Uzelf magazijnmedewerker maken op locatie ZUID
+### Uzelf magazijnmedewerker maken op locatie ZUID
 
 Om van deze functionaliteit gebruik te kunnen maken, moet u zichzelf als magazijnmedewerker toevoegen aan de locatie. 
 
-#### <a name="to-make-yourself-a-warehouse-employee"></a>Uzelf magazijnmedewerker maken
+#### Uzelf magazijnmedewerker maken
 
   1. Kies het ![Lampje dat de functie Vertel me opent eerste.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnmedewerkers** in en kies vervolgens de gerelateerde koppeling.  
   2. Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Magazijnmedewerkers**.
   3. Kies ZUID in het veld **Vestiging**.  
   4. Selecteer het veld **Standaard** en selecteer vervolgens de knop **Ja**.  
 
-### <a name="making-item-1928-s-available"></a>Artikel 1928-S beschikbaar maken
+### Artikel 1928-S beschikbaar maken
 
 Als u artikel 1928-S op locatie ZUID beschikbaar wilt maken, volgt u deze stappen:  
 
@@ -94,11 +94,11 @@ Als u artikel 1928-S op locatie ZUID beschikbaar wilt maken, volgt u deze stappe
   3. Kies **Acties**, vervolgens **Boeking** en kies vervolgens **Boeken**.  
   4. Selecteer de knop **Ja**.  
 
-## <a name="creating-the-sales-order"></a>De verkooporder maken
+## De verkooporder maken
 
 Verkooporders zijn de meest gebruikte soort uitgaand brondocument.  
 
-### <a name="to-create-the-sales-order"></a>De verkooporder maken
+### De verkooporder maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent derde.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -114,11 +114,11 @@ Verkooporders zijn de meest gebruikte soort uitgaand brondocument.
 
     John gaat door met het picken en verzenden van de verkochte artikelen.  
 
-## <a name="picking-and-shipping-items"></a>Artikelen picken en verzenden
+## Artikelen picken en verzenden
 
 Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor een bepaald brondocument, zoals een verkooporder, beheren. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="to-pick-and-ship-items"></a>U kunt als volgt artikels picken en verzenden
+### U kunt als volgt artikels picken en verzenden
 
 1. Kies het ![Lampje dat de functie Vertel me opent vierde.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadpicks** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -135,7 +135,7 @@ Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor ee
 
     Nu zijn de 30 lampen geregistreerd als gepickt uit de opslaglocaties S-01-0001 en S-01-0002, en een negatieve artikelpost is gemaakt om de geboekte verkoopverzending te weerspiegelen.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Artikelen picken met voorraadpicks](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Artikelen picken voor magazijnverzending](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

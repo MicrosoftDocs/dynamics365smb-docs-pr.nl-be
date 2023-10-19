@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# <a name="walkthrough-of-service-contracts-for-service-items"></a>Procedure van servicecontracten voor serviceartikelen
+# Procedure van servicecontracten voor serviceartikelen
 
 Deze procedure demonstreert verschillende kernprocessen:
 
@@ -19,13 +19,13 @@ Deze procedure demonstreert verschillende kernprocessen:
 - De tijdpost voor de serviceorder voltooien
 - De contractserviceorder boeken en factureren
 
-## <a name="creation-of-service-items"></a>Serviceartikelen maken
+## Serviceartikelen maken
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 
 Susan, de orderverwerker, boekt een verkooporder waarin een artikel wordt verkocht dat is geconfigureerd om een serviceartikel te genereren.  
 
-### <a name="steps"></a>Stappen
+### Stappen
 
 1. Controleer of voor **Artikel** **Serviceartikelgroep** is geselecteerd.
    
@@ -39,13 +39,13 @@ Susan, de orderverwerker, boekt een verkooporder waarin een artikel wordt verkoc
     2. Selecteer de order voor klant 10000. Het externe ordernr. is *SVC-1*.
     3. Kies de actie **Boeken** om het artikel naar de klant te verzenden.
 
-### <a name="results"></a>Resultaten
+### Resultaten
 
 - Er wordt een serviceartikel gemaakt voor klant 10000
 
-## <a name="invoicing-a-service-contract"></a>Een servicecontract factureren
+##  Een servicecontract factureren
 
-### <a name="scenario-1"></a>Scenario
+### Scenario
 
 Charles, de servicemanager, maakt vervolgens een servicecontract om reguliere onderhoudsbezoeken te factureren.
 
@@ -68,18 +68,18 @@ Charles, de servicemanager, maakt vervolgens een servicecontract om reguliere on
    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicefacturen** in en kies vervolgens de gerelateerde koppeling.
    2. Zoek de servicefactuur en kies de actie **Boeken**.
 
-### <a name="results-1"></a>Resultaten
+### Resultaten
 
 - Er wordt een ondertekend servicecontract gemaakt met grootboekposten
 - Er wordt een geboekte servicefactuur gemaakt
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Een serviceorder voor een servicecontract maken en resources toewijzen
+## Een serviceorder voor een servicecontract maken en resources toewijzen
 
-### <a name="scenario-2"></a>Scenario
+### Scenario  
 
 Charles, de servicemanager, maakt de serviceorders voor reguliere onderhoudsorders onder het servicecontract en beoordeelt vervolgens het planbord om ze toe te wijzen.
 
-### <a name="steps-1"></a>Stappen
+### Stappen
 
 1. Voer de serviceorders uit die voldoen aan de verplichtingen van actieve servicecontracten.
    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceorders maken** in en kies vervolgens de gerelateerde koppeling.
@@ -102,21 +102,21 @@ Charles, de servicemanager, maakt de serviceorders voor reguliere onderhoudsorde
     3. De toewijzing wordt gewijzigd in de status Actief.
     4. Als u het planbord vernieuwt, toont het dat **Aantal toewijzingen** is gewijzigd van 0 in 1 voor de serviceorder.
 
-### <a name="results-2"></a>Resultaten
+### Resultaten
 
 - Er worden serviceorders gemaakt voor de servicecontracten
 - De serviceorders worden toegewezen aan een resource om het werk te voltooien
 
-## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Voltooi de tijdpost voor de serviceorder en boek de serviceorder
+## Voltooi de tijdpost voor de serviceorder en boek de serviceorder
 
-### <a name="scenario-3"></a>Scenario
+### Scenario  
 
 De servicemonteur registreert de tijd rechtstreeks voor de serviceorder en markeert de order vervolgens als voltooid.
 
 > [!NOTE]
 > Tijdpost voor serviceorders kunt u invoeren via urenstaten. Voor meer informatie zie [koppeling naar urenstaat als deze opmerking zinvol is].
 
-### <a name="steps-2"></a>Stappen
+### Stappen
 
 1. Zoek de serviceorder en voer de tijd op de serviceregel in
    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceorders** in en kies vervolgens de gerelateerde koppeling.
@@ -131,8 +131,8 @@ De servicemonteur registreert de tijd rechtstreeks voor de serviceorder en marke
 2. Boek het verbruik op de serviceorder
    1. Kies de actie **Boeken** om de serviceorder te voltooien, selecteer de actie **Verzenden en verbruiken** en kies vervolgens de knop **OK**.
 
-### <a name="results-3"></a>Resultaten
+### Resultaten
 
 - Er worden serviceposten gemaakt die zijn gekoppeld aan het serviceartikel, het servicecontract en de resource
 
-## <a name="see-also"></a>Zie ook
+## Zie ook

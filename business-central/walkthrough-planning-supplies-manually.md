@@ -1,36 +1,36 @@
 ---
 title: 'Procedure: leveringen handmatig plannen'
 description: 'Dit overzicht demonstreert het proces van het plannen van leveringsorders om aan nieuwe vraag te voldoen, inclusief het plannen van een inkoop-, transfer- en productieorder.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/24/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="walkthrough-planning-supplies-manually"></a>Procedure: Leveringen handmatig plannen
+# Procedure: Leveringen handmatig plannen
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 In het volgende overzicht ziet u het proces voor het plannen van voorraadorders om aan nieuwe vraag te voldoen. U kunt voorraadplanning starten met vaste tussenpozen, bijvoorbeeld elke ochtend of elke maandag, of wanneer u bericht krijgt van verkoop of productie, afhankelijk van het type vraag. In dit scenario gebruikt u de pagina **Orderplanning**, een eenvoudig voorraadplanningshulpmiddel op basis van handmatige besluitvorming in plaats van automatische planning op basis van parameters.  
 
-## <a name="about-this-walkthrough"></a>Informatie over deze procedure
+## Informatie over deze procedure  
  In deze procedure worden de volgende taken beschreven:  
 
 -   Een inkooporder plannen voor het fabriceren van onderdelen.  
 -   Een transferorder plannen om aan de verkoopvraag te voldoen.  
 -   Een productieorder plannen voor een artikel met meerdere niveaus.  
 
-## <a name="roles"></a>Rollen
+## Rollen  
  In deze procedure worden taken gedemonstreerd voor de volgende gebruikersrollen:  
 
 -   Productieplanner  
 -   Inkoper  
 -   Verkooporderverwerker  
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten  
  Voordat u met dit scenario begint, moet u de [!INCLUDE[prod_short](includes/prod_short.md)] installeren. Breng de volgende wijzigingen aan in de database:  
 
 -   Verwijder alle bestaande verkooporders voor fietsen.  
@@ -39,17 +39,17 @@ In het volgende overzicht ziet u het proces voor het plannen van voorraadorders 
 
  Gebruik als algemene regel de voorgestelde gegevens uit deze procedure aangezien deze gegevens de benodigde records bevatten.  
 
-## <a name="story"></a>Scenario
+## Scenario  
  Eduardo, de productieplanner van een klein productiebedrijf is bezig met het plannen van de productie en inkooporders om te voldoen aan de nieuwe verkoopvraag.  
 
  Aangezien de producten uit slechts enkele stuklijstniveaus bestaan en de orderstroom tamelijk gering is, gebruikt Eduardo de pagina **Orderplanning** om de orders voor voorzieningen handmatig te maken, met één productniveau tegelijk.  
 
  In een meer complexe productieomgeving wordt het planningsvoorstel gebruikt om de voorraad te plannen op basis van artikelparameters als herplanningsperiode, veiligheidstijd, bestelpunt en batchberekeningen van de geconsolideerde aanvraag van alle productniveaus.  
 
-## <a name="setting-up-the-sample-data"></a>Voorbeeldgegevens instellen
+## Voorbeeldgegevens instellen  
  In het standaarddemobedrijf CRONUS is momenteel sprake van een grote hoeveelheid niet-geplande vraag. Tijdens de verschillende planningstaken in deze procedure moet u afwijken van de realistische bedrijfswerkstroom door de vraag met vervaldatums in de nabije toekomst te negeren en in plaats daarvan de vraag te gebruiken met latere vervaldatums.  
 
-## <a name="use-the-order-planning-page"></a>De pagina Orderplanning gebruiken
+## De pagina Orderplanning gebruiken  
 
 De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:  
 
@@ -58,7 +58,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 -   Inkoop, Planning  
 -   Bovendien kunt u deze pagina voor een specifieke productieorder openen door de actie **Planning** te kiezen.
 
-### <a name="to-use-the-order-planning-page"></a>De pagina Orderplanning gebruiken
+### De pagina Orderplanning gebruiken  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Orderplanning** in en kies vervolgens de gerelateerde koppeling  
 
@@ -82,10 +82,10 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      Orders zonder beschikbaarheidsproblemen worden niet weergegeven. Als er geen orders bestaan wanneer een planning wordt berekend, verschijnt een bericht en worden er geen planningsregels weergegeven.  
 
-## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Een inkooporder plannen om te voldoen aan de vraag naar onderdelen
+## Een inkooporder plannen om te voldoen aan de vraag naar onderdelen  
  In deze procedure maakt u een inkooporder voor de benodigde productieonderdelen.  
 
-### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Een inkooporder plannen om te voldoen aan de onderdelenbehoefte voor de productie
+### Een inkooporder plannen om te voldoen aan de onderdelenbehoefte voor de productie  
 
 1.  Vouw de eerste regel uit (klik op het symbool +).  
 2.  Kies de eerste vraagregel met, artikel, **LSU-15** en kies de actie **Document weergeven**.  
@@ -122,10 +122,10 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      De inkooporders worden gemaakt en opgeslagen als de laatste orders in de lijst met inkooporders.  
 
-## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Een transferorder plannen om aan de verkoopvraag te voldoen
+## Een transferorder plannen om aan de verkoopvraag te voldoen  
  In deze procedure gaat u plannen voor de vraag van een verkooporder. Vraagregels geven de verkoopregels aan en niet de onderdeelregels, zoals bij de productievraag.  
 
-### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Een transferorder plannen om aan de verkoopvraag te voldoen
+### Een transferorder plannen om aan de verkoopvraag te voldoen  
 
 1.  Verplaats de aanwijzer naar de planningsregel voor ordernummer **2008**.  
 2.  Vouw de regel uit en verplaats de aanwijzer naar de vraagregel.  
@@ -150,10 +150,10 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      De transferorder is nu gemaakt en in de lijst opgeslagen als de laatste order in de lijst met open transferorders.  
 
-## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Een productieorder met meerdere niveaus plannen om aan de verkoopvraag te voldoen
+## Een productieorder met meerdere niveaus plannen om aan de verkoopvraag te voldoen  
  In deze procedure gaat u plannen om aan de verkoopvraag te voldoen voor een geproduceerd artikel met meerdere productniveaus, waarbij de productievraag voor alle niveaus samenhangt.  
 
-### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Een productie met meerdere niveaus plannen om aan de verkoopvraag te voldoen
+### Een productie met meerdere niveaus plannen om aan de verkoopvraag te voldoen  
 
 1.  Selecteer de planningsregel met de verkoopvraag voor ordernummer **1001** (gemaakt bij de vereiste gegevens).  
 
@@ -172,7 +172,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
  Als productieplanner moet u nu een specifieke productieorder plannen.  
 
-### <a name="to-plan-a-specific-production-order"></a>Een specifieke productieorder plannen
+### Een specifieke productieorder plannen  
 
 1.  Open de productieorder **101001** (voor tien fietsen) die u hebt gemaakt met de functie **Orders maken**.  
 2.  Open de pagina **Prod.-ordermaterialen** om te controleren of de extra bel wordt weergegeven op de productieorder.  
@@ -222,7 +222,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      Bekijk op de pagina **Vast geplande productieorders** hoe de begin- en eindtijden van afzonderlijke orders nu zijn gepland volgens de productstructuur. De onderdelen op het laagste niveau worden het eerst geproduceerd. Daarom moet u orders met meerdere niveaus plannen zoals is gedemonstreerd in deze planningswerkstroom.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

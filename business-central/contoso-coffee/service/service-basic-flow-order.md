@@ -9,7 +9,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# <a name="walkthrough-of-service-orders-for-service-items"></a>Procedure van serviceorders voor serviceartikelen
+# Procedure van serviceorders voor serviceartikelen
 
 Deze procedure demonstreert verschillende kernprocessen:
 
@@ -17,13 +17,13 @@ Deze procedure demonstreert verschillende kernprocessen:
 - Een leenartikel aan de klant geven voor een reparatieperiode
 - De serviceorder boeken en factureren
     
-## <a name="creating-a-service-order"></a>Een serviceorder maken
+## Een serviceorder maken
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 
 Charles, de servicemanager, zal een serviceorder voor een reparatiescenario aanmaken en een leenauto aan de klant uitlenen voor de reparatietijd.
 
-### <a name="steps"></a>Stappen
+### Stappen
 
 1. Maak de serviceorder handmatig voor het artikel dat gerepareerd moet worden.
    1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceorders** in
@@ -40,20 +40,20 @@ Charles, de servicemanager, zal een serviceorder voor een reparatiescenario aanm
    1. Selecteer op de regels **LOANER1** als het uitleenartikelnr. Bevestig de uitgifte van het uitleenartikel door **Ja** te selecteren om het uitleenartikel uit te lenen. 
    2. Kies de Functies-actie **Std. servicecodes ophalen**, selecteer de standaardcode die is gekoppeld aan de servicegroep en klik op **OK**.
    
-### <a name="results"></a>Resultaten
+### Resultaten
 
 - Er wordt een serviceorder gemaakt voor het artikel
 - In het servicedocumentlogboek van de serviceorder worden de leenactiviteiten weergegeven.
 - De lener zal een grootboekboeking hebben om de lening weer te geven.
    
 
-## <a name="regsiter-performed-work-mark-loaner-as-returned"></a>Registreer uitgevoerd werk, markeer leentoestel als geretourneerd.
+## Registreer uitgevoerd werk, markeer leentoestel als geretourneerd.
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 
 De servicemonteur markeert het uitleenartikel als geretourneerd en registreert de uitgevoerde werkzaamheden.
 
-### <a name="steps-1"></a>Stappen
+### Stappen
 
 1. Zoek de servicetaak en registreer de tijd 
    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicetaken** in en kies vervolgens de gerelateerde koppeling.
@@ -73,13 +73,13 @@ De servicemonteur markeert het uitleenartikel als geretourneerd en registreert d
    3. Kies de actie **Ontvangen** 
    4. Bevestig de retournering van het uitleenartikel door **Ja** te selecteren om het uitleenartikel te retourneren.
       
-### <a name="results-1"></a>Resultaten
+### Resultaten
 
 - In het **servicedocumentlogboek** van de serviceorder worden de leenactiviteiten weergegeven.
 - De lener zal een grootboekboeking hebben om de ontvangst weer te geven.
 
 
-### <a name="scenario-2"></a>Scenario
+### Scenario  
 
 Charles, de servicemanager, boekt de voltooide serviceorder.
 
@@ -90,9 +90,9 @@ Charles, de servicemanager, boekt de voltooide serviceorder.
 2. Boek de factuur op de serviceorder
    1. Kies de actie **Boeken** om de serviceorder te voltooien, selecteer de actie **Verzenden en factureren** en kies vervolgens de knop **OK**.
    2. Bevestig het openen van de geboekte factuur door **Ja** te selecteren. 
-### <a name="results-2"></a>Resultaten
+### Resultaten
 
 - de **geboekte servicefactuur** wordt gemaakt.
 - de **Serviceposten** die zijn gekoppeld aan het artikel en de resource, worden gemaakt
 
-## <a name="see-also"></a>Zie ook
+## Zie ook

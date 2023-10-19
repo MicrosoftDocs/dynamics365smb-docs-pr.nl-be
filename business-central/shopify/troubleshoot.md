@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
 ---
 
-# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Problemen oplossen met de synchronisatie tussen Shopify en Business Central
+# Problemen oplossen met de synchronisatie tussen Shopify en Business Central
 
 Mogelijk komt u situaties tegen waarin u problemen moet oplossen bij het synchroniseren van gegevens tussen Shopify en [!INCLUDE[prod_short](../includes/prod_short.md)]. Deze pagina definieert stappen voor het oplossen van enkele typische scenario's.
 
-## <a name="run-tasks-in-the-foreground"></a>Taken op de voorgrond uitvoeren
+## Taken op de voorgrond uitvoeren
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u problemen wilt oplossen om de pagina **Shopify-winkelkaart** te openen.
@@ -22,7 +22,7 @@ Mogelijk komt u situaties tegen waarin u problemen moet oplossen bij het synchro
 
 Wanneer de synchronisatieactie wordt geactiveerd, wordt de taak nu op de voorgrond uitgevoerd. Als er een fout optreedt, krijgt u een foutdialoogvenster met een **Details kopiëren**-koppeling. Gebruik de koppeling om aanvullende informatie naar een teksteditor te kopiëren voor verdere analyse.
 
-## <a name="logs"></a>Logboeken
+## Logboeken
 
 Met de logboekfuncties kunt u gemakkelijker vaststellen waarom er een fout is opgetreden. Op de pagina **Shopify-winkelkaart** kunt u in het veld **Logmodus** het detailniveau opgeven dat u over fouten wilt vastleggen. Het veld biedt de volgende opties:
 
@@ -33,13 +33,13 @@ Met de logboekfuncties kunt u gemakkelijker vaststellen waarom er een fout is op
 > [!NOTE]
 > Het voortdurend registreren van fouten kan [!INCLUDE [prod_short](../includes/prod_short.md)] vertragen. Om dit te voorkomen kunt u logboekregistratie inschakelen nadat u een fout in uw synchronisatie heeft gevonden. U kunt de synchronisatie handmatig opnieuw activeren en vervolgens het logboek bekijken om erachter te komen wat er mis is gegaan.
 
-### <a name="manage-log-entry-data"></a>Logpostgegevens beheren
+### Logpostgegevens beheren
 
 Om de omvang van uw database onder controle te houden zijn logposten opgenomen in een beleid voor het bewaren van gegevens, genaamd **Shopify-logpost**. Met het bewaarbeleid kunt u opgeven hoe lang u verschillende soorten gegevens wilt bewaren. Standaard worden Shopify-logposten een maand bewaard. Zie voor meer informatie over het bewaarbeleid in [Bewaarbeleid definiëren](../admin-data-retention-policies.md).
 
 Op de pagina **Shopify-logposten** kunt u alle logposten verwijderen of alleen de posten die ouder zijn dan zeven dagen.
 
-### <a name="to-review-logs"></a>Logboeken controleren
+### Logboeken controleren
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-logposten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de gerelateerde logboekpost en open vervolgens de pagina **Shopify-logpost**.
@@ -52,7 +52,7 @@ U kunt de verzoek- en antwoordwaarden als bestanden in tekstindeling downloaden.
 
 Om effecten op de prestaties en de grootte van uw database te voorkomen kunt u overwegen of u logboekregistratie wilt uitschakelen.
 
-## <a name="data-capture"></a>Gegevensvastlegging
+## Gegevensvastlegging
 
 Ongeacht of registratie geactiveerd is ingeschakeld worden sommige Shopify-reacties altijd gelogd. U kunt de logboeken inzien of downloaden vanaf de pagina **Lijst voor gegevensvastlegging**.
 
@@ -71,13 +71,13 @@ Kies de actie **Opgehaalde Shopify-gegevens** op een van de volgende pagina's:
 - **Shopify-betalingstransacties**
 - **Shopify-transacties**
 
-## <a name="reset-sync"></a>Synchronisatie opnieuw instellen
+## Synchronisatie opnieuw instellen
 
 Voor optimale prestaties importeert de connector alleen klanten, producten en orders die zijn gemaakt of gewijzigd na de laatste synchronisatie. Op de pagina **Shopify-winkelkaart** zijn er functies beschikbaar die de datum/tijd van de laatste synchronisatie wijzigen of volledig resetten. Deze functie zorgt ervoor dat alle gegevens worden gesynchroniseerd en niet alleen de wijzigingen sinds de laatste synchronisatie.
 
 Deze functie is alleen van toepassing op synchronisaties van Shopify naar [!INCLUDE[prod_short](../includes/prod_short.md)]. Het kan handig zijn als u verwijderde gegevens zoals producten, klanten of verwijderde bestellingen moet herstellen.
 
-## <a name="request-the-access-token"></a>Om het toegangstoken verzoeken
+## Om het toegangstoken verzoeken
 
 Als [!INCLUDE[prod_short](../includes/prod_short.md)] geen verbinding kan maken met uw Shopify-account, probeer dan het toegangstoken opnieuw in te stellen vanuit Shopify. U moet mogelijk een nieuw token aanvragen als er wijzigingen zijn in de beveiligingssleutels of vereiste machtigingen (toepassingsbereiken).
 
@@ -88,7 +88,7 @@ Als [!INCLUDE[prod_short](../includes/prod_short.md)] geen verbinding kan maken 
 
 De schakelaar **Heeft toegangssleutel** is geactiveerd.
 
-## <a name="verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment"></a>Verifieer en activeer machtigingen om http-verzoeken te doen bij gebruik in een niet-productieomgeving
+## Verifieer en activeer machtigingen om http-verzoeken te doen bij gebruik in een niet-productieomgeving
 
 Om correct te kunnen werken vereist de extensie Shopify-connector toestemming om HTTP-verzoeken te doen. HTTP-verzoeken zijn voor alle extensies verboden wanneer u tests uitvoert in sandboxomgevingen.
 
@@ -97,26 +97,26 @@ Om correct te kunnen werken vereist de extensie Shopify-connector toestemming om
 3. Kies de actie **Configureren** om de pagina **Extensie-instellingen** te openen.
 4. Zorg ervoor dat de schakelaar **HttpClient-aanvragen toestaan** is ingeschakeld.
 
-## <a name="rotate-the-shopify-access-token"></a>Het Shopify-toegangstoken roteren
+## Het Shopify-toegangstoken roteren
 
 De volgende procedures beschrijven hoe u het toegangstoken kunt roteren dat wordt gebruikt door de Shopify-connector om toegang te krijgen tot uw online Shopify-winkel.
 
-### <a name="in-shopify"></a>In Shopify
+### In Shopify
 
 1. Ga vanuit uw **Shopify-beheer** naar [Apps](https://www.shopify.com/admin/apps).
 2. Selecteer **Verwijderen** in de rij met de app **Dynamics 365 Business Central**.
 3. Selecteer **Verwijderen** in het bericht dat wordt weergegeven.
 
-### <a name="in-"></a>In [!INCLUDE[prod_short](../includes/prod_short.md)]
+### In [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkels** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u het toegangstoken wilt roteren om de pagina **Shopify-winkelkaart** te openen.
 3. Kies de actie **Toegang aanvragen**.
 4. Meld u desgevraagd aan bij uw Shopify-account, controleer de privacy en machtigingen en kies vervolgens de knop **App installeren**.
 
-## <a name="known-issues"></a>Bekende problemen
+## Bekende problemen
 
-### <a name="error-the-sales-header-does-not-exist-identification-fields-and-values-document-typequotenoyour-shopify-store"></a>Fout: de verkoopkoptekst bestaat niet. Identificatievelden en waarden: Document Type='Quote',No.='YOUR SHOPIFY STORE'
+### Fout: de verkoopkoptekst bestaat niet. Identificatievelden en waarden: Document Type='Quote',No.='YOUR SHOPIFY STORE'
 
 Om prijzen te berekenen, creëert de Shopify Connector een tijdelijk verkoopdocument (offerte) voor een tijdelijke klant (winkelcode) en gebruikt de standaardlogica voor prijsberekening. Als een externe extensie zich abonneert op gebeurtenissen in een tijdelijk verkoopdocument, is de kop mogelijk niet beschikbaar. We raden u aan contact op te nemen met de extensieprovider. Vraag hen om hun code aan te passen om te controleren op tijdelijke records. In sommige gevallen hoeft u alleen de methode `IsTemporary` op de juiste plek toe te voegen. Ga voor meer informatie over `IsTemporary`IsTemporary naar [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
 
@@ -138,26 +138,26 @@ AL-aanroepstack:
 
 Vergeet niet om AL-aanroepstack-informatie te delen met de leverancier van de extensie.
 
-### <a name="error-gen-bus-posting-group-must-have-a-value-in-customer-your-shopify-store-it-cannot-be-zero-or-empty"></a>Fout: Bedrijfsboekingsgroep moet een waarde hebben in Klant: 'YOUR SHOPIFY STORE'. Het kan niet nul of leeg zijn
+### Fout: Bedrijfsboekingsgroep moet een waarde hebben in Klant: 'YOUR SHOPIFY STORE'. Het kan niet nul of leeg zijn
 
 Kies op de pagina **Shopify-winkelkaart** in het veld **Klantensjablooncode** de sjabloon waarin **Bedrijfsboekingsgroep** is ingevuld. De klantsjabloon wordt gebruikt om klanten te maken en verkoopprijzen op verkoopdocumenten te berekenen.
 
-### <a name="error-importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Fout: gegevens importeren naar uw Shopify-winkel is niet ingeschakeld. Ga naar de winkelkaart om deze in te schakelen
+### Fout: gegevens importeren naar uw Shopify-winkel is niet ingeschakeld. Ga naar de winkelkaart om deze in te schakelen
 
 Zet op de pagina **Shopify-winkelkaart** de schakelaar **Gegevenssynchronisatie naar Shopify toestaan** aan. Deze instelling is bedoeld om de online winkel te beschermen tegen het verkrijgen van demogegevens van [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### <a name="error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Fout: Oauth-fout invalid_request: kan Shopify API-toepassing niet vinden met api_key
+### Fout: Oauth-fout invalid_request: kan Shopify API-toepassing niet vinden met api_key
 
 Het lijkt erop dat u [App insluiten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) gebruikt, waarbij de client-URL deze indeling heeft: `https://[application name].bc.dynamics.com`. De Shopify-connector werkt niet voor Insluiten-apps. Als u meer wilt weten, gaat u naar [Voor welke Microsoft-producten is de Shopify-connector beschikbaar?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
-### <a name="error-internal-error-looks-like-something-went-wrong-on-our-end-request-id-xxxxxxxx-xxxx-xxxx-xxxx-xxxx"></a>Fout: interne fout. Het lijkt erop dat er bij ons iets is misgegaan. Aanvraag-id: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+### Fout: interne fout. Het lijkt erop dat er bij ons iets is misgegaan. Aanvraag-id: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
 Neem contact op met Shopify-ondersteuning binnen zeven dagen na het optreden van deze fout en verstrek de aanvraag-id. Ga voor meer informatie naar [Ondersteuningsopties voor Shopify](shopify-faq.md#shopify).
 
-### <a name="error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app"></a>Fout: Oauth-fout invalid_request: Uw account heeft geen machtiging om de gevraagde toegang voor deze app te verlenen.
+### Fout: Oauth-fout invalid_request: Uw account heeft geen machtiging om de gevraagde toegang voor deze app te verlenen. 
 
 Het lijkt erop dat de gebruiker die toegang vraagt, geen rechten heeft om apps te beheren (mogelijkheid om apps en kanalen te beheren en te installeren, en mogelijk app-kosten goed te keuren). U kunt dit probleem mogelijk oplossen door de app als accounteigenaar te installeren. Als alternatief kunt u de **App-machtiging** voor de gebruiker controleren in de [**Gebruikers en machtigingen**](https://www.shopify.com/admin/settings/account)-instellingen in uw **Shopify-beheer**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Aan de slag met de connector voor Shopify](get-started.md)

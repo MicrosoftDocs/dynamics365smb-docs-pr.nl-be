@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 11/07/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Artikelen en locaties instellen voor gestuurde opslag en pick
+# Artikelen en locaties instellen voor gestuurde opslag en pick
 
 Er is bij het instellen van een magazijnlocatie voor gestuurde opslag en pick nieuwe functionaliteit beschikbaar om u te helpen om het magazijn op de meest efficiënte wijze te beheren. Als u deze functionaliteit ten volle wilt benutten, geeft u extra informatie op over de artikelen, zodat het eenvoudiger wordt om de berekeningen uit te voeren die zijn vereist voor het voorstellen van de meest efficiënte en de meest doeltreffende wijzen voor het uitvoeren van magazijnactiviteiten. 
 
-## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>U kunt als volgt een artikelen instellen voor gestuurde opslag en pick
+## U kunt als volgt een artikelen instellen voor gestuurde opslag en pick  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de kaart voor het artikel dat u wilt instellen voor gestuurde opslag en pick.
@@ -25,7 +25,7 @@ Er is bij het instellen van een magazijnlocatie voor gestuurde opslag en pick ni
 6. Kies de actie **Opslaglocatie-inhoud**.
 7. Op de pagina **Opslaglocatie-inhoud** kunt u de vestiging en opslaglocatie definiëren waaraan u het artikel wilt toewijzen. Het veld **Standaard** wordt niet gebruikt wanneer de vestiging is ingesteld voor gestuurde opslag en pick.  
 
-## <a name="to-start-using-directed-put-away-and-pick"></a>Aan de slag gaan met gestuurde opslag en pick
+## Aan de slag gaan met gestuurde opslag en pick
 
 Met gestuurde opslag en pick beschikt u over geavanceerde magazijnconfiguratiefuncties, waardoor de efficiëntie en de betrouwbaarheid van gegevens sterk kunnen worden verbeterd. Als u deze functionaliteit wilt gebruiken, moet u eerst een aantal parameters instellen in uw magazijn.  
 
@@ -46,7 +46,7 @@ Als bepaalde artikelen onder specifieke omstandigheden moeten worden opgeslagen 
 
 U bent nu klaar om desgewenst zones in te stellen. Met zones vermindert u het aantal velden dat u moet invullen wanneer u uw opslaglocaties instelt omdat opslaglocaties die in zones zijn gemaakt verschillende eigenschappen van de zone overnemen. Zones kunnen het bovendien voor nieuwe of tijdelijke werknemers eenvoudiger maken om zich in uw magazijn te oriënteren. Houd er rekening mee dat de stroom wordt beheerd door opslaglocaties, waardoor het mogelijk is om met opslaglocaties en slechts één zone te werken.  
 
-## <a name="to-set-up-a-zone-in-your-warehouse"></a>U kunt als volgt een zone instellen in het magazijn
+## U kunt als volgt een zone instellen in het magazijn  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de vestiging waarin u een zone wilt instellen, open de vestigingskaart en kies de actie **Zones**.  
@@ -61,7 +61,7 @@ De volgende stap bestaat uit het definiëren van opslaglocaties. Zie [Gebruik va
 
 Daarnaast moet u opslagsjablonen en tellingsperioden maken. Zie voor meer informatie [Opslagsjablonen instellen](warehouse-how-to-set-up-put-away-templates.md).  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

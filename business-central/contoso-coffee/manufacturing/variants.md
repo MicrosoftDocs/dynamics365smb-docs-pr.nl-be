@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Procedure: varianten
+# Procedure: varianten
 
 In dit artikel nemen we u mee door de stappen waarin u de demogegevens voor Contoso Coffee gebruikt om meer te weten te komen over varianten.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken voor elke variant van artikel SP-SCM1006, AutoDripLite. Omdat ze verschillende kleuren hebben, moet u ervoor zorgen dat voor elke variant de juiste stuklijst (BOM) wordt gebruikt. Voer het planningsvoorstel uit om de voorziening te berekenen.  
 
-## <a name="steps"></a>Stappen
+## Stappen
 
 1. Stel de SKU's (voorraadhoudende eenheden) in voor artikel SP-SCM1006, AutoDripLite. Wijs een stuklijst toe voor SKU met de varianten ROOD en WIT.
 
@@ -98,6 +98,6 @@ U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken
 
     9. Kies voor elke gemaakte regel de actie **Materialen** en bekijk welke verf is gebruikt.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](../contoso-coffee-intro.md)  
