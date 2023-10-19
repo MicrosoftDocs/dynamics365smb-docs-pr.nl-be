@@ -11,7 +11,7 @@ ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 2514, 20350'
 ---
 
-# Extensies (apps) installeren en verwijderen in Business Central
+# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Extensies (apps) installeren en verwijderen in Business Central
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door apps te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services. Zie [Business Central aanpassen met extensies](ui-extensions.md) voor meer informatie.
 
@@ -22,7 +22,7 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door apps te inst
 
 Als u een extensie wilt gebruiken, moet u de bijbehorende machtigingensets toegewezen krijgen.
 
-## <a name="install"></a>Een extensie installeren
+## <a name="install-an-extension"></a><a name="install"></a>Een extensie installeren
 
 U beheert apps en extensies op de pagina **Extensiebeheer**. U kunt tot deze pagina toegang krijgen via de startpagina. Of kies het pictogram **Pagina of rapport zoeken** ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer in de rechterbovenhoek **Extensie** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -69,19 +69,19 @@ Microsoft biedt de volgende apps:
 * [De extensie GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [VS/CA/VK/AU/NZ/ZA - Afdrachtsadvies verzenden](ui-extensions-send-remittance-advice.md)
 
-## Een app instellen
+## <a name="set-up-an-app"></a>Een app instellen
 
 Nadat u een app hebt geïnstalleerd, moet u deze mogelijk instellen. Bijvoorbeeld voor de app **PayPal Payments Standard voor [!INCLUDE[prod_short](includes/prod_short.md)]** moet u de PayPal-rekening opgeven die u wilt gebruiken. Als dat het geval is, vraagt [!INCLUDE[prod_short](includes/prod_short.md)] wanneer de installatie is voltooid of u de app meteen wilt instellen. Er kunnen instellingen vereist zijn om de app te laten werken, of optioneel.
 
 Als u ervoor kiest om uw app meteen in te stellen en deze een vereiste configuratie heeft, opent [!INCLUDE[prod_short](includes/prod_short.md)] de vereiste instellingen. De instelling kan een pagina zijn waar u informatie invoert, of een begeleide instelling die u door de stappen helpt. Als u de instelling niet in één keer voltooit, kunt u de pagina **Instellingen voor _naam van app_** gebruiken, die alle instellingen voor de app weergeeft. Vereiste instellingen aangegeven door **vetgedrukte letters**.
 
-## Een per-tenant extensie (PTE) uploaden
+## <a name="upload-a-per-tenant-extension-pte"></a>Een per-tenant extensie (PTE) uploaden
 
 U uploadt een PTE met behulp van de pagina **Extensiebeheer**. Ga op de pagina **Extensiebeheer** naar **Beheren** en kies **Extensie uploaden**. Geef op de pagina **Extensie uploaden en implementeren** het .app-bestand op dat u wilt uploaden. Kies om verder te gaan de knop **Accepteren** en dan de knop **Implementeren**. Hierdoor wordt hiermee het proces van het implementeren van de PTE gestart.
 
 Als de PTE onderbrekende schemawijzigingen bevat, is het mogelijk om een upload ervan *af te dwingen*. Om dat te doen kiest u bij **Schemasynchronisatiemodus** de optie **Afdwingen**. U krijgt een bevestigingsdialoogvenster om te accepteren voordat u verder gaat.  
 
-## Een app verwijderen
+## <a name="uninstall-an-app"></a>Een app verwijderen
 
 U kunt een app verwijderen op de pagina **Extensiebeheer**. Om een app te verwijderen selecteert u deze op de pagina en selecteert u vervolgens de actie **Verwijderen**. Als u een app verwijdert en u vervolgens van gedachten verandert, kunt u de app opnieuw installeren.
 
@@ -94,7 +94,7 @@ Wanneer u een app verwijdert die u hebt gebruikt, worden uw gegevens standaard n
 
 Als u de gegevens van een verwijderde app wilt behouden, kunt u de gegevens later verwijderen. Op de pagina **Extensiegegevens verwijderen waarnaar niet wordt verwezen** wordt een lijst weergegeven van de apps waarvoor u nog gegevens heeft. Als u de gegevens wilt verwijderen, kiest u de app en kiest u vervolgens **Gegevens verwijderen**. 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Business Central aanpassen](ui-customizing-overview.md)  
 [Business Central-extensies van andere providers](ui-extensions-other.md)  

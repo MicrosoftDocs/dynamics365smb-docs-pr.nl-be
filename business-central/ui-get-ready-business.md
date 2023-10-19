@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 05/25/2022
 ms.author: bholtorf
 ---
-# Zich voorbereiden om zaken te doen
+# <a name="get-ready-for-doing-business"></a>Zich voorbereiden om zaken te doen
 
 Gefeliciteerd. U hebt zojuist uw eerste bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)] opgezet.
 
@@ -23,7 +23,7 @@ U kunt ook de lijst met begeleide instellingen vinden als u het ![Lampje dat de 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Aan de slag
+## <a name="get-started"></a>Aan de slag
 
 Wanneer u voor de eerste keer inlogt of een nieuw bedrijf start, begeleidt de controlelijst **Aan de slag** u door de stappen om u klaar te maken voor uw bedrijf. De stappen variëren afhankelijk van uw land/regio en eventuele branchespecifieke functionaliteit die u aan uw [!INCLUDE [prod_short](includes/prod_short.md)] hebt toegevoegd. Vanaf releasewave 2 van 2021, wanneer u voor het eerst inlogt op het CRONUS-demonstratiebedrijf, is uw startpagina geoptimaliseerd voor uw eerste ervaringen. Als u liever meer links naar meer pagina's ziet, schakelt u gewoon over naar de rol Bedrijfsmanager. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md).  
 
@@ -38,13 +38,13 @@ Als een gebied niet wordt gedekt door een begeleide instelling, kiest u het ![pi
 
 Wanneer u een begeleide instelling uitvoert, wordt deze gemarkeerd als **Voltooid**.  
 
-## Instructietips en rondleidingen
+## <a name="teaching-tips-and-tours"></a>Instructietips en rondleidingen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bevat rondleidingen in het product en instructietips die u op weg kunnen helpen. In de huidige versie zijn er rondleidingen voor de stappen in de lijst **Aan de slag** en enkele van de meest gebruikte pagina's in het demonstratiebedrijf, zoals de kaartpagina **Verkoopfactuur**.  
 
 Instructietips zijn korte berichten die u informeren, herinneren of leren over belangrijke en nieuwe mogelijkheden die automatisch worden gestart wanneer u een pagina opent. Als u bijvoorbeeld de instructietip voor de kaart **Verkoopfactuur** wilt zien, kiest u de koppeling in de linkerbovenhoek van de pagina waar *Verkoopfactuur* staat. Hierdoor wordt een callout gestart met een korte beschrijving van de pagina en wat u daar kunt doen. Als er een rondleiding voor de pagina bestaat, nodigt een koppeling u uit om de rondleiding te volgen. De koppeling *Meer informatie* brengt u naar de product-Help voor de pagina.
 
-## Rolspecifieke startpagina's
+## <a name="role-specific-home-pages"></a>Rolspecifieke startpagina's
 
 Afhankelijk van uw rol bevat de startpagina een overzicht van het bedrijf. Bovenaan ziet u een navigatiebalk die u gemakkelijk toegang geeft tot klanten, leveranciers, artikelen, enzovoort. In het midden vindt u de tegels **Activiteiten**. Bij **Activiteiten** worden actuele gegevens weergegeven en u kunt klikken en tikken op de activiteiten voor gemakkelijke toegang tot het geselecteerde document.
 
@@ -55,11 +55,11 @@ Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te ma
 > [!TIP]  
 > U kunt naar de startpagina teruggaan door de bedrijfsnaam in de linkerbovenhoek te selecteren.
 
-## Bedrijfsgegevens
+## <a name="company-information"></a>Bedrijfsgegevens
 
 Onder **Bedrijfsinstellingen** kunt u instellingsgegevens over het huidige bedrijf bekijken en bewerken. Hiervan is een groot deel vooraf ingevuld als u de begeleide instelling **Bedrijf instellen** hebt voltooid toen u zich voor [!INCLUDE[prod_short](includes/prod_short.md)] aanmeldde. Als u het bedrijfslogo, relatiegegevens, bankinstellingen of belastinggegevens wilt wijzigen, kunt u dat op deze pagina doen.  
 
-## Gebruikers en machtigingen toevoegen
+## <a name="adding-users-and-permissions"></a>Gebruikers en machtigingen toevoegen
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -67,11 +67,11 @@ U voegt gebruikers toe in het Microsoft 365-beheercentrum. Zie [Gebruikers maken
 
 Als gebruikers in Microsoft 365 worden gemaakt, kunt u ze op de pagina **Gebruikers** importeren door middel van de actie **Updates ophalen uit Office 365**. U kunt vervolgens machtigingen aan gebruikers toewijzen en hen organiseren in gebruikersgroepen. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.  
 
-## Producthelp
+## <a name="product-help"></a>Producthelp
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Zie [Bronnen voor Help en ondersteuning](product-help-and-support.md) voor meer informatie.  
 
-### Uw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-"></a>Uw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 De [snelstartgids](quick-start-business-central.md)artikelen kunnen u helpen de eerste stappen te zetten bij het instellen van [!INCLUDE [prod_short](includes/prod_short.md)] voor uw organisatie. Binnen [!INCLUDE [prod_short](includes/prod_short.md)] bevat de pagina **Begeleide instelling** de begeleide instellingen die u kunnen helpen. Afhankelijk van uw rol en land of regio, toont de pagina verschillende begeleide instellingen, zoals geïllustreerd in de volgende tabel:
 
@@ -93,11 +93,11 @@ De [snelstartgids](quick-start-business-central.md)artikelen kunnen u helpen de 
 
 De pagina **Begeleide instelling** kan andere vermeldingen bevatten. Wanneer u een instelling doorloopt, wordt deze gemarkeerd als **Voltooid**. U kunt andere gebieden van het bedrijf instellen met behulp van handmatige configuratie. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] instellen](setup.md).  
 
-## Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 
 Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe verkoop- of inkoopdocumenten. Gebruik de sectie **Acties** van uw startpagina om snel een nieuwe verkoopofferte, verkoopfactuur, verkooporder, inkoopfactuur of betalingsregistratie te maken. Bekijk de [snelstartgids](quick-start-business-central.md)artikelen om u te helpen de eerste stappen te zetten.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

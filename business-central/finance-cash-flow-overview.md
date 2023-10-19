@@ -12,15 +12,15 @@ ms.date: 12/20/2021
 ms.author: bholtorf
 ---
 
-# Cashflowoverzicht
+# <a name="cash-flow-overview"></a>Cashflowoverzicht
 
 Cash in en cash uit begrijpen is de sleutel tot een succesvol bedrijf. Cashflow kunt u gebruiken om gemakkelijk een prognose voor de korte termijn te maken om te voorspellen hoe en wanneer uw bedrijf geld verwacht te ontvangen en te moeten betalen. Het is belangrijk dat u weet dat uw bedrijf over voldoende geld beschikt om uw schuldeisers en onkosten op tijd te kunnen betalen.
 
-## Definitie van cashflow
+## <a name="definition-of-cash-flow"></a>Definitie van cashflow
 
 De term *cashflow* wordt gebruikt voor ontvangsten min contante betalingen gedurende een geselecteerde periode. Het is een schatting van de waarde van de geldstromen naar en uit uw bedrijf met daarin opgenomen de geraamde inkomsten en uitgaven.
 
-## Werken met cashflow
+## <a name="work-with-cash-flow"></a>Werken met cashflow
 
 In de volgende afbeelding ziet u een overzicht van hoe u met de cashflow kunt werken.
 
@@ -39,7 +39,7 @@ In de volgende afbeelding ziet u een overzicht van hoe u met de cashflow kunt we
 - U gebruikt een batchverwerking om informatie over te brengen van de gebieden grootboek, inkoop, verkoop, service en vaste activa naar het werkblad. Vervolgens registreert u werkbladregels om een cashflowprognose te maken.  
 - U kunt diverse vensters, rapporten en grafieken gebruiken voor het analyseren en afdrukken van een cashflowprognose die betrekking heeft op beschikbaarheids- en tijdlijnoverzichten.  
 
-## Een cashflowprognose maken
+## <a name="making-a-cash-flow-forecast"></a>Een cashflowprognose maken
 
 Op basis van de geregistreerde werkbladregels kunt u periodiek een cashflowprognose maken. De volgende indeling is een veelgebruikte indeling voor een cashflowprognose. De indeling heeft drie secties:
 
@@ -67,7 +67,7 @@ Nettocashflow of contanten in voorraad worden berekend als de totale ontvangsten
 
 De prognose kan vervolgens worden gebruikt als een hulpmiddel voor het nemen van interne managementbeslissingen. Ook u helpt de prognose u vooruit te plannen en bij het nemen van belangrijke strategische beslissingen over de bedrijfsvoering.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md)  
 [Cashflow analyseren](finance-analyze-cash-flow.md)  

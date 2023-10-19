@@ -11,7 +11,7 @@ ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
 ---
-# Problemen met connectiviteit voor Business Central oplossen
+# <a name="troubleshoot-connectivity-for-business-central"></a>Problemen met connectiviteit voor Business Central oplossen
 
 > **GELDT VOOR:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
@@ -22,7 +22,7 @@ ROBOTS: NOINDEX
 > [!NOTE]
 > De pagina **Problemen met connectiviteit oplossen** test de netwerkprestaties of betrouwbaarheid niet, zoals de snelheid van uw verbinding. Het verifieert alleen de verbinding met verschillende bronnen.
 
-## De verbindingscontrole starten 
+## <a name="start-the-connectivity-check"></a>De verbindingscontrole starten
 
 1. Open een internetbrowser.
 2. Voer in het adres de URL in die u gebruikt om Business Central te openen en voeg `/connectivity` aan het einde toe. 
@@ -51,7 +51,7 @@ ROBOTS: NOINDEX
 
 In de volgende secties worden de uitgevoerde controles uitgelegd en worden enkele tips gegeven om eventuele problemen op te lossen.
 
-## Basisinternetconnectiviteit
+## <a name="basic-internet-connectivity"></a>Basisinternetconnectiviteit
 
 Controleert of u verbinding met internet hebt door te verifiëren dat u toegang hebt tot een bekend openbaar domein, zoals www.bing.com.
 
@@ -60,7 +60,7 @@ Controleert of u verbinding met internet hebt door te verifiëren dat u toegang 
 |Uw browser ondersteunt deze controle niet|Open de pagina in een ondersteunde browser en probeer het opnieuw. Zie voor een lijst met ondersteunde browsers [Minimumvereisten voor het gebruik van Business Central - Browsers](product-requirements.md#browsers).|
 |Kan de server niet pingen op de volgende URL: {url}|Controleer de instellingen van uw firewall.|
 
-## CDN-bronnen (Content Delivery Network) laden
+## <a name="cdn-content-delivery-network-resources-loading"></a>CDN-bronnen (Content Delivery Network) laden
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt Azure Content Delivery Network (CDN) om resources te bieden die nodig zijn om de Business Central-webclient uit te voeren. Deze controle verifieert of de vereiste bronnen beschikbaar en toegankelijk zijn door het Business Central-exemplaar in CDN te pingen.
 
@@ -69,7 +69,7 @@ Controleert of u verbinding met internet hebt door te verifiëren dat u toegang 
 |Uw browser ondersteunt deze controle niet|Zie controle **Basisinternetconnectiviteit**.|
 |Kan de server niet pingen op de volgende URL: {url}|Controleer de instellingen van uw firewall.|
 
-## Gebruikersverificatie
+## <a name="user-authentication"></a>Gebruikersverificatie
 
 Controleert of de huidige gebruiker is ingelogd met een geldig Business Central-account.
 
@@ -77,7 +77,7 @@ Controleert of de huidige gebruiker is ingelogd met een geldig Business Central-
 |-------|-------------|
 |Er is momenteel geen gebruiker geverifieerd|Log in op Business Central met een geldige gebruikersnaam en wachtwoord.|
 
-## Detectie van Business Central-omgevingen
+## <a name="business-central-environments-discovery"></a>Detectie van Business Central-omgevingen
 
 Controleert op Business Central-omgevingen die beschikbaar zijn voor een geverifieerde gebruiker en verifieert vervolgens of de gebruiker kan worden geverifieerd in de omgeving.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -88,7 +88,7 @@ Controleert op Business Central-omgevingen die beschikbaar zijn voor een geverif
 |Kan de beschikbare omgevingen voor uw account niet ophalen.|Bekijk de lijst met beschikbare omgevingen in het Business Central-beheercentrum.|
 |Uw gebruikersnaam of uw wachtwoord is onjuist, of u hebt geen geldig account.| Controleer of u bent ingelogd met de juiste gebruikersnaam en wachtwoord.|
 
-## Connectiviteit van toepassingsservice
+## <a name="application-service-connectivity"></a>Connectiviteit van toepassingsservice
 
 Controleert of de geverifieerde gebruiker verbinding kan maken met een gedetecteerde omgeving, meestal beginnend met de productieomgeving.
 
@@ -99,7 +99,7 @@ Controleert of de geverifieerde gebruiker verbinding kan maken met een gedetecte
 |Geen clusteradres om deze controle voor uit te voeren|Bekijk de lijst met beschikbare omgevingen in het Business Central-beheercentrum.|
 |Versie-eindpunt bestaat niet|Bekijk de lijst met beschikbare omgevingen in het Business Central-beheercentrum.|
 
-## Verbinding met webserver
+## <a name="web-server-connectivity"></a>Verbinding met webserver
 
 Controleert of de geverifieerde gebruiker succesvol verbinding kan maken met de webserver.
 
@@ -110,7 +110,7 @@ Controleert of de geverifieerde gebruiker succesvol verbinding kan maken met de 
 |Geen clusteradres om deze controle voor uit te voeren|Bekijk de lijst met beschikbare omgevingen in het Business Central-beheercentrum.|
 |Kan geen verbinding maken met de webserver|Wis de cache en laad de pagina opnieuw.|
 
-## Servicestatus
+## <a name="service-health-status"></a>Servicestatus
 
 Rapporteert de status van de service van Business Central door te controleren op aangegeven storingen.
 
@@ -119,7 +119,7 @@ Rapporteert de status van de service van Business Central door te controleren op
 |Er is geen geverifieerde gebruiker om deze controle voor uit te voeren|Zie de controle **Gebruikersverificatie**.|
 |Business Central is tijdelijk niet beschikbaar. Probeer het later opnieuw.|Probeer het later nogmaals.|
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Resources voor Help en ondersteuning](product-help-and-support.md)  
 [Overzicht van taken om Business Central in te stellen](setup.md)  

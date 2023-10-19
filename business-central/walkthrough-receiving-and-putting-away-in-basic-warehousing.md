@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
 ---
-# Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties
+# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Procedure: ontvangen en opslaan in standaardmagazijnconfiguraties
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
@@ -23,7 +23,7 @@ Lees meer op [Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md
 
 De volgende procedure geeft methode B in de vorige tabel weer.  
 
-## Informatie over deze procedure  
+## <a name="about-this-walkthrough"></a>Informatie over deze procedure
 
 In standaardmagazijnconfiguraties waarbij voor uw vestiging de verwerking van opslag, maar niet van ontvangst vereist is, gebruikt u de pagina **Voorraadopslag** om opslag- en ontvangstinformatie voor de inkomende brondocumenten te verzamelen en boeken. De volgende documenten zijn inkomende brondocumenten:
 
@@ -50,7 +50,7 @@ In deze procedure worden de volgende taken gedemonstreerd:
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## Rollen  
+## <a name="roles"></a>Rollen
 
 De volgende gebruikerstaken voeren de taken uit die door dit overzicht worden gedemonstreerd:  
 
@@ -58,7 +58,7 @@ De volgende gebruikerstaken voeren de taken uit die door dit overzicht worden ge
 * Inkoper  
 * Magazijnmedewerker  
 
-## Vereisten  
+## <a name="prerequisites"></a>Vereisten
 
 Voor deze procedure is het volgende nodig:  
 
@@ -70,15 +70,15 @@ Voor deze procedure is het volgende nodig:
     3. Kies in het veld **Vestiging** de optie **ZILVER**.  
     4. Schakel het selectievakje **Standaard** in.  
 
-## Scenario  
+## <a name="story"></a>Scenario
 
 Ellen, de magazijnmanager bij CRONUS International Ltd., maakt een inkooporder voor 10 eenheden van artikel LS-75 en 30 eenheden van artikel LS-81 van leverancier 10000 om te worden afgeleverd bij magazijn ZILVER. Wanneer de bezorging in het magazijn aankomt, zet de magazijnmedewerker Johanna de artikelen in de standaardopslaglocaties die voor de artikelen zijn gedefinieerd. Wanneer Johanna de voorraadopslag boekt, worden de artikelen als ontvangen en beschikbaar voor verkoop of andere oproepen in de voorraad.  
 
-## De vestiging instellen  
+## <a name="setting-up-the-location"></a>De vestiging instellen
 
 De instellingen van de pagina **Vestiging** definiëren de magazijnstromen van het bedrijf.  
 
-### De vestiging instellen  
+### <a name="to-set-up-the-location"></a>De vestiging instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de vestigingskaart ZILVER.  
@@ -95,11 +95,11 @@ De instellingen van de pagina **Vestiging** definiëren de magazijnstromen van h
 7. Selecteer de velden **Vast** en **Standaard**.  
 8. Voer in het veld **Artikelnummer** de waarde **LS-81** in.  
 
-## De inkooporder maken  
+## <a name="create-the-purchase-order"></a>De inkooporder maken
 
 Inkooporders zijn de meest gebruikte soort inkomend brondocument.  
 
-### De inkooporder maken  
+### <a name="to-create-the-purchase-order"></a>De inkooporder maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling  
 2. Kies de actie **Nieuw**.  
@@ -119,11 +119,11 @@ Inkooporders zijn de meest gebruikte soort inkomend brondocument.
 
     Het leveren van luidsprekers van leverancier 10000 is aangekomen op magazijn SILVER en Jan bergt ze op.  
 
-## De artikelen ontvangen en opslaan  
+## <a name="receive-and-put-the-items-away"></a>De artikelen ontvangen en opslaan
 
 Op de pagina **Voorraadopslag** kunt u alle inkomende magazijnactiviteiten voor een bepaald brondocument beheren, zoals een inkooporder.  
 
-### De artikelen ontvangen en opslaan  
+### <a name="to-receive-and-put-the-items-away"></a>De artikelen ontvangen en opslaan
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadopslag** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -140,7 +140,7 @@ Op de pagina **Voorraadopslag** kunt u alle inkomende magazijnactiviteiten voor 
 
     Nu zijn de 40 luidsprekers geregistreerd als opgeslagen in opslaglocatie S-01-0001 en een positieve artikelpost is gemaakt om de geboekte inkoopontvangst te weerspiegelen.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 
 [Artikelen opslaan met voorraadopslag](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Standaardmagazijnen met bewerkingsgebieden instellen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

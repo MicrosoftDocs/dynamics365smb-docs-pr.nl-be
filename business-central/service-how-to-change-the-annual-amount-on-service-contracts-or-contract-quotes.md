@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen
 U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen om het bedrag te corrigeren dat jaarlijks wordt gefactureerd.  
 
-## Het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen  
+## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicecontracten** of **Servicecontractoffertes** in het tekstvak in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het contract of de contractofferte.  
@@ -22,14 +22,14 @@ U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractoffert
 5. Wijzig de inhoud van het veld **Jaarlijks bedrag**. Als het jaarlijkse bedrag negatief is, kunt u het servicecontract niet ondertekenen (omzetten in een servicecontract als u aan een contractofferte werkt) of vergrendelen. Als u het jaarlijkse bedrag instelt op nul, moet de inhoud van het veld **Factuurperiode** **Geen** zijn als u het servicecontract ondertekent of vergrendelt.  
 6. Afhankelijk van of het selectievakje **Bedragen in onbalans toestaan** is ingeschakeld, voert u de handmatige of automatische verdeling van het verschil in het jaarlijkse bedrag uit. De contractregels worden zodanig bijgewerkt dat de waarde in het veld **Berekend jaarlijks bedrag** gelijk is aan het nieuwe jaarlijkse bedrag.  
 
-## Verschillen tussen nieuwe en berekende jaarlijks bedragen verdelen
+## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Verschillen tussen nieuwe en berekende jaarlijks bedragen verdelen
 Als u het jaarlijkse bedrag van een servicecontract of contractofferte wijzigt, moet u mogelijk het verschil tussen het nieuwe en berekende jaarlijkse bedrag verdelen over de contractregels. Er zijn drie methoden om bedragen verdelen:
 
 * Gelijke verdeling  
 * Verdeling op basis van regelbedragen  
 * Verdeling op basis van winst
 
-### Gelijke verdeling
+### <a name="even-distribution"></a>Gelijke verdeling
 Als u het jaarlijkse bedrag wijzigt van een servicecontract of contractofferte, moet u mogelijk het verschil tussen het nieuwe en het berekende jaarlijkse bedrag verdelen over de contractregels. Gelijke verdeling is een van de automatische verdeelmethodes waarmee u het verschil tussen het nieuwe en het berekende jaarlijkse bedrag gelijk kunt verdelen over de regelbedragen op de contractregels. Het idee achter deze verdeelmethode wordt beschreven in de volgende procedure:  
 
 1. Het verschil tussen de nieuwe waarde in het veld **Jaarlijks bedrag** en de waarde in het veld **Berekend jaarlijks bedrag** wordt gedeeld door het aantal contractregels in het servicecontract of de servicecontractofferte.  
@@ -41,7 +41,7 @@ Als u het jaarlijkse bedrag wijzigt van een servicecontract of contractofferte, 
 
  De stappen worden herhaald voor elke contractregel.  
 
-#### Opmerking  
+#### <a name="example"></a>Opmerking
 Het selectievakje **Bedragen in onbalans toestaan** is niet ingeschakeld op het servicecontract, dat drie contractregels bevat met dergelijke informatie.  
 
 |Artikel|Regelkostprijs|Regelwaarde|Regelkorting %|Totale regelkorting|Regelbedrag|Winst|  
@@ -62,7 +62,7 @@ Uiteindelijk bevatten de contractregels de volgende gegevens.
 |Artikel 2|40,00|50.00|16.00|8.00|42.00|2.00|  
 |Artikel 3|50.00|70.00|14.29|10.00|60.00|10.00|  
 
-### Verdeling op basis van regelbedrag
+### <a name="distribution-based-on-line-amount"></a>Verdeling op basis van regelbedrag
 Als u het jaarlijkse bedrag van een servicecontract of contractofferte wijzigt, moet u mogelijk het verschil tussen het nieuwe en berekende jaarlijkse bedrag verdelen over de contractregels. Verdeling op basis van regelbedrag is een automatische methode waarmee u het verschil tussen het nieuwe en het berekende jaarlijkse bedrag kunt verdelen tussen de regelbedragen op de contractregels. Het verschil wordt proportioneel verdeeld op basis van het aandeel van het regelbedrag in het berekende jaarlijkse bedrag. Hieronder volgt een uitleg van de verdeelprocedure per contractregel:  
 
 1. De procentuele bijdrage van het regelbedrag wordt als volgt berekend: de inhoud van het veld **Regelbedrag** wordt gedeeld door de waarde in het veld **Berekend jaarlijks bedrag** op alle contractregels.  
@@ -75,7 +75,7 @@ Als u het jaarlijkse bedrag van een servicecontract of contractofferte wijzigt, 
 
 De stappen worden herhaald voor elke contractregel.  
 
-#### Opmerking  
+#### <a name="example-1"></a>Opmerking
 Het selectievakje **Bedragen in onbalans toestaan** is niet ingeschakeld op het servicecontract, dat drie contractregels bevat met dergelijke informatie.  
 
 |Artikel|Regelkostprijs|Regelwaarde|Regelkorting %|Totale regelkorting|Regelbedrag|Winst|  
@@ -102,7 +102,7 @@ Uiteindelijk bevatten de contractregels de volgende gegevens.
 |Artikel 2|20.00|23.00|8.65|1.99|21.01|1.01|  
 |Artikel 3|24.00|27.00|11.37|3.07|23.93|-0,07|  
 
-### Verdeling op basis van winst
+### <a name="distribution-based-on-profit"></a>Verdeling op basis van winst
 Als u het jaarlijkse bedrag van een servicecontract of contractofferte wijzigt, moet u mogelijk het verschil tussen het nieuwe en berekende jaarlijkse bedrag verdelen over de contractregels. Verdeling op basis van winst is een van de automatische methodes waarmee u het verschil tussen het nieuwe en het berekende jaarlijkse bedrag kunt verdelen over de regelbedragen op de contractregels. Het verschil wordt proportioneel verdeeld op basis van het winstaandeel in de totale winst op het contract of de contractofferte. Hieronder volgt een uitleg van de verdeelprocedure per contractregel:  
 
 1. De procentuele bijdrage aan de winst wordt als volgt berekend: de inhoud van het veld **Winst** wordt gedeeld door de som van de waarden in het veld **Winst** op alle contractregels.  
@@ -113,7 +113,7 @@ Als u het jaarlijkse bedrag van een servicecontract of contractofferte wijzigt, 
     * Regelkorting % = Totale regelkorting / Regelwaarde * 100  
     * Winst = Regelbedrag - Regelkostprijs  
 
-#### Opmerking  
+#### <a name="example-2"></a>Opmerking
 Het selectievakje **Bedragen in onbalans toestaan** is niet ingeschakeld in het servicecontract, dat drie contractregels bevat met dergelijke informatie.  
 
 |Artikel|Regelkostprijs|Regelwaarde|Regelkorting %|Totale regelkorting|Regelbedrag|Winst|  
@@ -140,7 +140,7 @@ Uiteindelijk bevatten de contractregels de volgende gegevens.
 |Artikel 2|50.00|58.00|9.93|5.76|52.24|2.24|  
 |Artikel 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 [Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [CRM - Service instellen](service-setup-service.md)  
 

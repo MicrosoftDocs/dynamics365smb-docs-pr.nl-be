@@ -10,26 +10,26 @@ ms.search.form: '4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709,'
 ms.date: 09/18/2023
 ---
 
-# De extensie Btw-groepsbeheer voor het Verenigd Koninkrijk
+# <a name="the-vat-group-management-extension-for-the-united-kingdom"></a>De extensie Btw-groepsbeheer voor het Verenigd Koninkrijk
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 U kunt een of meer bedrijven in het Verenigd Koninkrijk verbinden om btw-aangifte te combineren onder één btw-nummer. Dit type arrangement staat bekend als een *btw-groep*. U kunt zich met de groep bezighouden als lid of als de groepsvertegenwoordiger.
 
-## Een btw-groep vormen
+## <a name="forming-a-vat-group"></a>Een btw-groep vormen
 
 Btw-groepsleden en de groepsvertegenwoordiger kunnen de begeleide instelling **Btw-groepsbeheer instellen** gebruiken om hun betrokkenheid bij de groep te definiëren en een verbinding tot stand te brengen tussen hun [!INCLUDE[prod_short](includes/prod_short.md)]-tenants. De groepsleden gebruiken deze verbinding om hun btw-aangifte in te dienen bij de groepsvertegenwoordiger. De groepsvertegenwoordiger gebruikt vervolgens één btw-aangifte om btw van de groep bij de belastingdienst aan te geven.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt intra-groep btw-aangiftes voor bedrijven die gebruikmaken van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises of online, in welke combinatie dan ook, wat de communicatie-instelling tussen bedrijven beïnvloedt. Dit artikel beschrijft verschillende groepsinstellingen.
 
-### Licentievereisten
+### <a name="license-requirements"></a>Licentievereisten
 
 Deelnemers aan de groep moeten een licentie hebben om [!INCLUDE[prod_short](includes/prod_short.md)] te gebruiken. U kunt geen gastaccounts gebruiken in btw-groepen.
 
 * Om btw-aangiften te berekenen en in te dienen, moet een gebruiker een volledige [!INCLUDE[prod_short](includes/prod_short.md)]-gebruiker zijn.
 * Om in te loggen en basistaken uit te voeren, zoals het maken van accounts, hebt u de licentie [!INCLUDE[prod_long](includes/prod_long.md)] Teamlid nodig.
 
-## Een btw-groep instellen
+## <a name="set-up-a-vat-group"></a>Een btw-groep instellen
 
 De volgende lijst toont de aanbevolen volgorde van de stappen die een beheerder gebruikt om een btw-groep in te stellen:
 
@@ -44,7 +44,7 @@ De volgende lijst toont de aanbevolen volgorde van de stappen die een beheerder 
 > [!NOTE]
 > Om verbinding te maken met de btw-groepsvertegenwoordiger, hebben groepsleden een gebruikersaccount nodig met toegang tot de [!INCLUDE[prod_short](includes/prod_short.md)] van de btw-groepsvertegenwoordiger. De btw-groepsvertegenwoordiger moet hiervoor minimaal één gebruiker maken. Om veiligheidsredenen raden we echter aan om voor elk lid van de btw-groep een gebruiker te maken, wat een systeemgebruikersaccount kan zijn die niet is gerelateerd aan een echte persoon. Zorg ervoor dat u de gebruikersgegevens op een veilige manier onder de leden van de btw-groep verspreidt.
 
-### Microsoft Entra ID instellen voor groepsleden
+### <a name="microsoft-entra-id-setup-for-group-members"></a>Microsoft Entra ID instellen voor groepsleden
 
 Wanneer de btw-groepsvertegenwoordiger gebruikmaakt van [!INCLUDE[prod_short](includes/prod_short.md)] online of on-premises, gebruiken leden van de btw-groep Microsoft Entra ID om gebruikers te verifiëren wanneer ze btw-aangiften indienen bij de btw-groepsvertegenwoordiger. Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises moeten leden eenmalige aanmelding configureren. Zie voor meer informatie [Microsoft Entra-verificatie met WS-Federation configureren](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 
@@ -60,7 +60,7 @@ Wanneer de beheerder van het btw-groepslid de app-registratie maakt in Microsoft
 * Voeg in de sectie **API-machtigingen** machtigingen toe aan [!INCLUDE[prod_short](includes/prod_short.md)]. Schakel gedelegeerde toegang tot **Financials.ReadWrite.All** en **user_impersonation** in.
 * Let in de sectie **Overzicht** op de **Toepassing (client)-id**. De Btw-groepsleden hebben de id nodig om de verbinding met de groepsvertegenwoordiger in te stellen.
 
-### Groeps-API instellen
+### <a name="group-api-setup"></a>Groeps-API instellen
 
 De btw-groepsvertegenwoordiger maakt een API en stelt deze beschikbaar aan groepsleden. De leden gebruiken deze API om verbinding te maken met de [!INCLUDE[prod_short](includes/prod_short.md)]-tenant en btw-aangiften in te dienen. Leden van de btw-groep zullen vaak gebruik maken van [!INCLUDE[prod_short](includes/prod_short.md)] in aparte Microsoft Entra-tenants. Daarom is er instelling nodig om verbinding te maken tussen het lid van de btw-groep en de [!INCLUDE[prod_short](includes/prod_short.md)] van de vertegenwoordiger.
 
@@ -72,7 +72,7 @@ De btw-groepsvertegenwoordiger maakt een API en stelt deze beschikbaar aan groep
 1. Kopieer in de sectie **Details** de **URL**.
 1. Open Kladblok en plak de URL. Vervang `https://businesscentral.dynamics.com` door `https://api.businesscentral.dynamics.com/v2.0`.
 
-## Btw-groepsleden instellen
+## <a name="set-up-vat-group-members"></a>Btw-groepsleden instellen
 
 Leden van de btw-groep maken verbinding met de vertegenwoordiger door een webservice aan te roepen in de tenant van de vertegenwoordiger van de btw-groep. De aanroeper moet worden geverifieerd met behulp van OAuth2. Wanneer de extensie Btw-groepsbeheer is ingesteld, wordt leden gevraagd zich te verifiëren bij de vertegenwoordiger van de btw-groep. Er wordt dan een toegangstoken gegenereerd en opgeslagen. Dit toegangstoken wordt gebruikt bij het indienen van btw-aangiften bij de btw-groepsvertegenwoordiger.
 
@@ -96,14 +96,14 @@ Voordat leden van de btw-groep hun instelling starten (hieronder vermeld), moete
 
    Volg daarna de stappen in ofwel de sectie [Btw-groepsvertegenwoordiger gebruikt Business Central online](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-online) of [Btw-groepsvertegenwoordiger gebruikt Business Central on-premises](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-on-premises), hieronder.
 
-### Btw-groepsvertegenwoordiger gebruikt Business Central online
+### <a name="vat-group-representative-uses-business-central-online"></a>Btw-groepsvertegenwoordiger gebruikt Business Central online
 
 1. Voer de gebruikersgegevens in die zijn verstrekt door de btw-groepsvertegenwoordiger en voeg de vereiste machtigingen toe om het toegangstoken te genereren.
 2. Kies de btw-aangifteconfiguratie die u gebruikt om btw-aangiften in te dienen bij de belastingdienst van het Verenigd Koninkrijk. 
 
 Nadat u de installatie hebt voltooid, maakt [!INCLUDE[prod_short](includes/prod_short.md)] op basis van deze keuze een nieuwe configuratie zodat u btw-aangiften kunt indienen bij de btw-groepsvertegenwoordiger.
 
-### Btw-groepsvertegenwoordiger gebruikt Business Central on-premises
+### <a name="vat-group-representative-uses-business-central-on-premises"></a>Btw-groepsvertegenwoordiger gebruikt Business Central on-premises
 
 1. Voer de gebruikersgegevens in die zijn verstrekt door de vertegenwoordiger van de btw-groep en kies **Volgende**.
 2. Voer in het veld **Client-id** de client-id van de appregistratie in [Microsoft Entra ID instellen voor groepsleden](#microsoft-entra-id-setup-for-group-members) in.
@@ -114,7 +114,7 @@ Nadat u de installatie hebt voltooid, maakt [!INCLUDE[prod_short](includes/prod_
 7. Als u de verschillende velden hebt opgegeven, kiest u **Volgende** en bevestigt u vervolgens de verificatieverbinding om het toegangstoken te genereren.
 8. Kies de btw-aangifteconfiguratie die u gebruikt om btw-aangiften in te dienen bij de belastingdienst van het Verenigd Koninkrijk.
 
-## De btw-groepsvertegenwoordiger instellen
+## <a name="set-up-the-vat-group-representative"></a>De btw-groepsvertegenwoordiger instellen
 
 > [!NOTE]
 > Voor on-premises ondersteunt [!INCLUDE[prod_short](includes/prod_short.md)] slechts één tenantinstantie van de groepsvertegenwoordiger.
@@ -135,7 +135,7 @@ Nadat u de installatie hebt voltooid, maakt [!INCLUDE[prod_short](includes/prod_
     3. Geef in het veld **Bedrijf** het bedrijf op van waaruit het groepslid btw-aangiften zal doen in [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld **CRONUS UK Ltd**.
     4. Contactdetails voor het bedrijf opgeven.
 
-## De functies van btw-groepsbeheer gebruiken
+## <a name="use-the-vat-group-management-features"></a>De functies van btw-groepsbeheer gebruiken
 
 Leden van de btw-groep gebruiken de standaardprocessen om btw-aangiften voor te bereiden. Het enige verschil is dat leden de rapportversie **BTWGROEP** op de pagina **Btw-aangifte** moeten kiezen om de btw-aangifte in te dienen bij de btw-groepsvertegenwoordiger, in plaats van bij de belastingdienst. Zie voor meer informatie [Over het rapport Btw-aangifte](finance-how-report-vat.md#vatreturn).
 
@@ -144,14 +144,14 @@ Leden van de btw-groep gebruiken de standaardprocessen om btw-aangiften voor te 
 
 In de volgende secties worden de taken beschreven die vertegenwoordigers van btw-groepen moeten uitvoeren om de btw-groepsaangifte in te dienen.
 
-### Indieningen van groepsleden controleren
+### <a name="review-vat-member-submissions"></a>Indieningen van groepsleden controleren
 
 De pagina **Btw-groepsindieningen** geeft een overzicht van de btw-aangiften die leden hebben ingediend. De pagina dient als conceptlocatie voor de indieningen totdat de btw-groepsvertegenwoordiger ze opneemt in een btw-aangifte voor de groep. De vertegenwoordiger kan de indieningen openen om de individuele vakken te bekijken met het bedrag dat door elk lid van de btw-groep is opgegeven.
 
 > [!TIP]
 > Op de pagina **Btw-aangifteperioden** bevat het veld **Indieningen van groepsleden** hoeveel aangiften leden hebben ingediend. Om ervoor te zorgen dat dit getal up-to-date is, kiest u de actie **Btw-aangifteperioden ophalen**.
 
-### Een groeps-btw-aangifte maken
+### <a name="create-a-group-vat-return"></a>Een groeps-btw-aangifte maken
 
 Om voor de groep btw te rapporteren maakt u op de pagina **Btw-aangiften** een btw-aangifte alleen voor uw bedrijf. Voeg daarna de meest recente btw-aangiften van leden van de btw-groep toe door de actie **Groeps-btw opnemen** te kiezen.  
 
@@ -160,7 +160,7 @@ Wanneer de groepsvertegenwoordiger de btw-aangifte van de groep bij de belasting
 > [!IMPORTANT]
 > De btw-groepsfunctionaliteit wordt alleen ondersteund in markten waar [!INCLUDE[prod_short](includes/prod_short.md)] een btw-raamwerk gebruikt dat bestaat uit btw-aangiften en btw-aangifteperioden. U kunt geen btw-groepen gebruiken in andere markten met andere implementaties van lokale btw-rapportage, zoals Oostenrijk, Duitsland, Italië, Spanje en Zwitserland.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Lokale functionaliteit van het Verenigd Koninkrijk in de Britse versie](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
 [Belasting digitaal maken in het Verenigd Koninkrijk](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  

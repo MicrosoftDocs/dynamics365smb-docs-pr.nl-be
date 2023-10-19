@@ -10,11 +10,11 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-"></a>Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)]
 
 In dit artikel leert u enkele basisbeginselen over het weergeven van Power BI-rapporten, inclusief scorekaarten in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Overzicht
+## <a name="overview"></a>Overzicht
 
 Power BI-rapporten geven u inzicht in uw [!INCLUDE[prod_short](includes/prod_short.md)]. Diverse pagina's in [!INCLUDE [prod_short](includes/prod_short.md)] hebben een Power BI-rapportgedeelte waarin Power BI-rapporten kunnen worden weergegeven. Het rolcentrum is een pagina waar u gewoonlijk gedeelte voor een Power BI-rapporten aantreft. Bepaalde lijstpagina's, zoals **Artikelen**, bevatten ook een Power BI-gedeelte.
 
@@ -22,20 +22,20 @@ Power BI-rapporten geven u inzicht in uw [!INCLUDE[prod_short](includes/prod_sho
 
 ![Power BI-gedeelte in Business Central.](./media/power-bi-part.png)
 
-## Aan de slag
+## <a name="get-started"></a>Aan de slag
 
-### Vereisten
+### <a name="prerequisites"></a>Vereisten
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, moet Power BI-integratie zijn ingeschakeld. Deze taak wordt doorgaans uitgevoerd door een beheerder. Zie [[!INCLUDE[prod_short](includes/prod_short.md)] on-premises instellen voor Power BI-integratie](admin-powerbi-setup.md#setup) voor meer informatie.
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] online is al ingesteld voor integratie met Power BI.
 
-### Power BI aanmelden
+### <a name="sign-up-power-bi"></a>Power BI aanmelden
 
 Voordat u Power BI kunt gebruiken met [!INCLUDE[prod_short](includes/prod_short.md)], moet u zich aanmelden voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt uw zakelijke e-mailadres en wachtwoord.
 
-## <a name="connect"></a>Verbinding maken met Power BI - eenmalig
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Verbinding maken met Power BI - eenmalig
 
 Wanneer u zich voor het eerst aanmeldt bij [!INCLUDE [prod_short](includes/prod_short.md)], ziet u waarschijnlijk een leeg Power BI-gedeelte op verschillende pagina's (zoals weergegeven in de vorige afbeelding). Het eerste dat u moet doen, is verbinding maken met uw Power BI-account. Als de verbinding eenmaal tot stand is gebracht, worden er rapporten weergegeven. U hoeft deze stap maar één keer uit te voeren.
 
@@ -53,15 +53,15 @@ Het verbindingsproces begint. Tijdens het proces communiceert [!INCLUDE [prod_sh
 > [!TIP]
 > Als u [!INCLUDE [prod_short](includes/prod_short.md)] online gebruikt, worden met deze stap automatisch de standaard Power BI-rapporten die worden gebruikt in [!INCLUDE [prod_short](includes/prod_short.md)], naar uw Power BI-werkruimte geüpload.
 
-#### Vanuit [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
+#### <a name="from--on-premises"></a>Vanuit [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
 Het maken van een verbinding met Power BI vanuit [!INCLUDE [prod_short](includes/prod_short.md)] gaat op ongeveer dezelfde manier als in de online versie. U kunt echter op de pagina **MICROSOFT ENTRA SERVICEMACHTIGINGEN** worden gevraagd om toegang te verlenen tot Power BI-services. Selecteer om toegang te verlenen de optie **Azure-services autoriseren** en vervolgens **Accepteren**.
 
 Als de verbinding eenmaal tot stand is gebracht, kunt u een rapport selecteren uit het Power BI-gedeelte op pagina's.
 
-## Werken met Power BI-rapporten
+## <a name="work-with-power-bi-reports"></a>Werken met Power BI-rapporten
 
-### Rapporten weergeven op lijstpagina's
+### <a name="show-reports-on-list-pages"></a>Rapporten weergeven op lijstpagina's
 
 Verschillende belangrijke lijstpagina's van [!INCLUDE[prod_long](includes/prod_long.md)] bevatten een Power BI-feitenblok. Dit feitenblok geeft extra inzicht in de gegevens in de lijst. Terwijl u van de ene naar de andere rij gaat, wordt het rapport bijgewerkt en gefilterd op de geselecteerde vermelding.
 
@@ -72,13 +72,13 @@ Zie voor meer informatie over het maken van rapporten voor lijstpagina's [Power 
 >
 > Of als u een oudere versie van Business Central heeft, gaat u naar de actiebalk, selecteert u **Acties** > **Weergave** > **Power BI-rapporten weergeven/verbergen**.
 
-### Schakelen tussen rapporten
+### <a name="switch-reports"></a>Schakelen tussen rapporten
 
 In een Power BI-gedeelte op een pagina kan elk Power BI-rapport worden weergegeven dat voor u beschikbaar is. Als u wilt overschakelen naar een ander rapport, kiest u de actie **Rapport selecteren** in de vervolgkeuzelijst met opdrachten boven aan het gedeelte.  
 
 Op de pagina **Selectie van Power BI-rapporten** wordt een lijst weergegeven van alle Power BI-rapporten waartoe u toegang hebt. Deze lijst wordt opgehaald uit uw eigen werkruimten of werkruimten die met u zijn gedeeld in de Power BI-service. Selecteer het vak **Inschakelen** voor elk rapport dat u op de pagina wilt weergeven en kies vervolgens **OK**. U keert terug naar de pagina en het laatste rapport dat u hebt ingeschakeld, wordt weergegeven. Gebruik de vervolgkeuzelijst met opdrachten de opdrachten **Vorige** en **Volgende** om van het ene naar het andere rapport te navigeren.  
 
-### Meer rapporten krijgen
+### <a name="get-more-reports"></a>Meer rapporten krijgen
 
 Als er geen rapporten worden weergegeven op de pagina **Selectie van Power BI-rapporten** of als het gewenste rapport niet wordt weergegeven, kiest u **Rapporten ophalen**. Met deze actie kunt zoeken naar rapporten vanuit twee locaties: *Mijn organisatie* of *Services*.
 
@@ -88,7 +88,7 @@ Als er geen rapporten worden weergegeven op de pagina **Selectie van Power BI-ra
 > [!TIP]
 > Als u Power BI Desktop hebt, kunt u ook nieuwe Power BI-rapporten maken. Als deze rapporten eenmaal zijn gepubliceerd naar uw Power BI-werkruimte, verschijnen ze op de pagina Selectie van **Power BI-rapporten**.  
 
-### Rapporten beheren en wijzigen
+### <a name="manage-and-modify-reports"></a>Rapporten beheren en wijzigen
 
 U kunt wijzigingen aanbrengen in een rapport in het Power BI-gedeelte. De wijzigingen die u aanbrengt, worden vervolgens gepubliceerd naar de Power BI-service. Als het rapport wordt gedeeld met andere gebruikers, zien ook zij de wijzigingen, tenzij u de wijzigingen opslaat in een nieuw rapport.
 
@@ -99,7 +99,7 @@ Wanneer u terugkeert naar het rolcentrum, ziet u daar het bijgewerkte rapport ve
 > [!NOTE]
 > Deze mogelijkheid is niet beschikbaar voor [!INCLUDE [prod_short](includes/prod_short.md)] on-premises.
 
-### <a name="upload"></a>Rapporten uploaden
+### <a name="upload-reports"></a><a name="upload"></a>Rapporten uploaden
 
 Power BI-rapporten kunnen onder gebruikers worden verspreid als PBIX-bestanden. Als u PBIX-bestanden hebt, kunt u deze uploaden en delen met alle gebruikers van [!INCLUDE [prod_short](includes/prod_short.md)]. De rapporten worden binnen elk bedrijf binnen gedeeld in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -110,23 +110,23 @@ Nadat het rapport is geüpload naar uw Power BI-werkruimte, wordt het automatisc
 > [!NOTE]
 > Om een rapport te kunnen uploaden, moet u de machtigingen van een SUPER-gebruiker hebben in [!INCLUDE[prod_short](includes/prod_short.md)]. Ook kunt u geen rapporten uploaden met [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. Met on-premises moet u rapporten rechtstreeks naar uw Power BI-werkruimte uploaden. Zie [Werken met [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens in Power BI](across-working-with-business-central-in-powerbi.md) voor meer informatie.
 
-## Problemen oplossen
+## <a name="fixing-problems"></a>Problemen oplossen
 
 Als er echter iets verkeerd gaat, biedt deze sectie een oplossing voor de meest voorkomende problemen.  
 
-### U hebt geen Power BI-account
+### <a name="you-dont-have-a-power-bi-account"></a>U hebt geen Power BI-account
 
 Er is geen Power BI-account ingesteld. Als u een geldig Power BI-account wilt aanvragen, moet u een licentie hebben en moet u zich eerder hebben aangemeld bij Power BI om een Power BI-werkruimte te maken.
 
-### Bericht: Er zijn geen ingeschakelde rapporten. Kies Rapport selecteren om een lijst met rapporten te tonen die u kunt weergeven.
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Bericht: Er zijn geen ingeschakelde rapporten. Kies Rapport selecteren om een lijst met rapporten te tonen die u kunt weergeven.
 
 Dit bericht verschijnt als het standaardrapport niet kon worden geïmplementeerd in uw Power BI-werkruimte. Het bericht wordt ook weergegeven als het rapport is geïmplementeerd maar kon worden vernieuwd. Navigeer naar het rapport in uw Power BI-werkruimte, selecteer **Gegevensset**, **Instellingen** en werk vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar [!INCLUDE[prod_short](includes/prod_short.md)] en selecteert u handmatig het rapport via de pagina **Rapporten selecteren**.
 
-#### U kunt geen rapport zien op de pagina Rapport selecteren op een lijstpagina
+#### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>U kunt geen rapport zien op de pagina Rapport selecteren op een lijstpagina
 
 Dit komt waarschijnlijk omdat de naam van het rapport niet de naam van de lijstpagina bevat. Wis het filter om de volledige lijst met beschikbare Power BI-rapporten weer te geven.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Business Central en Power BI](admin-powerbi.md)  
 [Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md)  
