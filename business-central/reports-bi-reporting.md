@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.date: 09/22/2022
 ms.author: kepontop
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Overzicht van bedrijfsinformatie en rapportage
+# Overzicht van bedrijfsinformatie en rapportage
 
 Kleine en middelgrote bedrijven vertrouwen op ingebouwde analyse- en rapportagemogelijkheden die ze kant-en-klaar kunnen gebruiken om hun bedrijf bij te houden. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt gemeenschappelijke bedrijfsprocessen evenals meer complexe processen voor dergelijke organisaties. Elk van deze processen omvat rapporten en analysetools. U kunt ook ad-hocanalyses rechtstreeks vanaf uw startpagina uitvoeren.  
 
@@ -25,8 +25,9 @@ De volgende tabel behandelt de belangrijkste bedrijfsinformatie- en rapportagefu
 | Werken met ingebouwde analysetools in [!INCLUDE[prod_short](includes/prod_short.md)].| [Ingebouwde analyse](reports-built-in-analytics.md) |
 | Externe bedrijfsinformatietools integreren met [!INCLUDE[prod_short](includes/prod_short.md)].| [Externe bedrijfsinformatietools](reports-external-analysis.md) |
 |Rapportindelingen wijzigen of zelfs uw eigen rapporten ontwikkelen. |[Rapporten ontwikkelen](reports-develop-reports.md)|
+|Gegevens analyseren met Microsoft Fabric| [Inleiding in Microsoft Fabric en Business Central](admin-fabric.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiële Business Intelligence](bi.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
