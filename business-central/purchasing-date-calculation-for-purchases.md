@@ -58,8 +58,6 @@ U kunt de datumformule op regels handmatig opgeven. Anders gebruikt [!INCLUDE[pr
 3. SKU
 4. Leverancierskaart
 
-## Zie gerelateerde [Microsoft-training](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Datumberekening voor verkoop](sales-date-calculation-for-sales.md)  

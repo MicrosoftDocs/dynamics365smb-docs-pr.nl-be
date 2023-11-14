@@ -21,7 +21,7 @@ Consumenten en bedrijven betalen btw wanneer deze goederen of services inkopen. 
 * Wat u verkoopt  
 * Wat u koopt  
 
-U kunt handmatig btw-berekeningen instellen, maar dit kan lastig en tijdrovend zijn. Dat komt doordat het erg gemakkelijk is per ongeluk andere btw-tarieven te gebruiken en onjuiste btw-gerelateerde rapporten te maken. Om het instellen van de btw te vergemakkelijken, raden we u aan de begeleide instelling **Btw instellen** te gebruiken die bij het product wordt geleverd. 
+U kunt handmatig btw-berekeningen instellen, maar dit kan lastig en tijdrovend zijn. Het is gemakkelijk andere btw-tarieven te gebruiken en onjuiste btw-gerelateerde rapporten te maken. Om het instellen van de btw te vergemakkelijken, raden we u aan de begeleide instelling **Btw instellen** te gebruiken die bij het product wordt geleverd. 
 
 Als u echter de btw-berekeningen zelf wilt instellen of alleen meer informatie wilt over elke stap, bevat dit artikel beschrijvingen van elke stap:  
 
@@ -96,12 +96,37 @@ U kunt voorkomen dat mensen btw-boekingen in specifieke datumbereiken boeken of 
 
 | Soort | Omschrijving |
 |--------------------|-----------------------------------------|
-| **Boeking in afgesloten periode blokkeren en waarschuwen bij vrijgave** | Voorkom dat mensen een document of dagboek boeken of btw-boekingen wijzigen met een btw-datum binnen een gesloten **btw-aangifteperiode**. [!INCLUDE [prod_short](includes/prod_short.md)] zal ook een waarschuwing tonen als uw **btw-aangifteperiode** open is, maar de status van **btw-aangifte** **Vrijgegeven** of **Verzonden** is. |
+| **Boeking in afgesloten periode blokkeren en waarschuwen bij vrijgave** | Voorkom dat mensen een document of dagboek boeken of btw-boekingen wijzigen met een btw-datum binnen een gesloten **btw-aangifteperiode**. [!INCLUDE [prod_short](includes/prod_short.md)] toont ook een waarschuwing als uw **btw-aangifteperiode** open is, maar de status van **Btw-aangifte** **Vrijgegeven** of **Verzonden** is. |
 | **Boeking in afgesloten periode blokkeren** | Voorkom dat mensen een document of dagboek boeken of btw-boekingen wijzigen met een btw-datum binnen de gesloten **btw-aangifteperiode**. |
 | **Waarschuwen bij boeking in afgesloten periode** | Geef een waarschuwing weer, maar blokkeer het boeken niet als u een document of journaal wilt boeken met een btw-datum binnen een gesloten **btw-aangifteperiode**. |
 | **Uitgeschakeld** | Geen actie ondernemen op basis van een afgesloten **btw-aangifteperiode**. |
 
-#### Om boeken te beperken op basis van Toegest. vanaf/tot-periode
+#### Boeken beperken op basis van Toegest. vanaf/tot-periode
+
+> [!NOTE]
+> Vanaf Business Central versie 23.1 is dit besturingselement gewijzigd. In eerdere versies was er slechts één besturingselement op de pagina **Grootboekinstellingen** voor zowel Boekingsdatum als Btw-datum. Deze controles zijn nu gesplitst, dus het besturingselement op de pagina **Grootboekinstellingen** is alleen voor de **boekingsdatum** en het besturingselement op de pagina **Btw-instellingen** is alleen voor de **btw-datum** . Er zijn ook nieuwe datuminstellingen op de pagina **Gebruikersinstellingen** .  
+
+##### Versie 23.1 of nieuwer
+
+> [!IMPORTANT]
+> Wanneer u upgradet naar een nieuwe versie, houd er dan rekening mee dat de waarden worden geüpgraded in het nieuwe **Btw-datum toestaan vanaf/tot** op de pagina **Btw-instellingen** gebaseerd op de waarden in **Boeken toegest. vanaf/tot** in de **grootboekinstellingen**. Als u andere datumbesturingselementen wilt gebruiken, opent u de pagina **Btw-instellingen** en brengt u wijzigingen aan.  
+
+U kunt beperkingen instellen op bedrijfs- of specifieke gebruikersniveaus.
+
+Alle boekingen voor het hele bedrijf beperken:
+
+1. Selecteer het ![Lampje dat de functie Vertel me opent 1.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-instelling** in en selecteer vervolgens de gerelateerde koppeling.  
+2. Geef op het sneltabblad **Btw-datum** in het veld **Boeken toegest. vanaf** de btw-datum op vanaf wanneer u boeken toestaat. Het boeken van een document of dagboek met een btw-datum vóór deze datum is niet toegestaan.  
+3. Geef op het sneltabblad **Btw-datum** in het veld **Boeken toegest. tot** de btw-datum op tot wanneer u boeken toestaat. Het boeken van een document of dagboek met een btw-datum na deze datum is niet toegestaan. 
+
+Boeking voor de specifieke gebruiker beperken:  
+
+1. Selecteer het ![Lampje dat de functie Vertel me opent 1.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen** in en selecteer vervolgens de gerelateerde koppeling.  
+2. Geef in het veld **Gebruikers-id** de gebruiker op die mag boeken in een bepaalde periode.  
+3. Geef in het veld **Btw-datum toestaan vanaf** de btw-datum op vanaf wanneer u boekingen toestaat. Het boeken van een document of dagboek met een btw-datum vóór deze datum is niet toegestaan. 
+4. Geef in het veld **Btw-datum toestaan tot** de btw-datum op tot wanneer u boekingen toestaat. Het boeken van een document of dagboek met een btw-datum na deze datum is niet toegestaan.  
+
+##### Versies vóór 23.1 
 
 U kunt beperkingen instellen op bedrijfs- of specifieke gebruikersniveaus.
 
@@ -114,7 +139,7 @@ Alle boekingen voor het hele bedrijf beperken:
 Boeking voor de specifieke gebruiker beperken:
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent 1.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.  
-2. Geef in het veld **Gebruikers-id** de gebruiker op die u toestemming wilt geven om in een bepaalde periode te boeken.  
+2. Geef in het veld **Gebruikers-id** de gebruiker op die mag boeken in een bepaalde periode.  
 3. Geef in het veld **Boeken toegest. vanaf** de btw-datum op vanaf wanneer u boekingen toestaat. Het boeken van een document of dagboek met een btw-datum vóór deze datum is niet toegestaan.
 4. Geef in het veld **Boeken toegest. tot** de btw-datum op tot wanneer u boekingen toestaat. Het boeken van een document of dagboek met een btw-datum na deze datum is niet toegestaan.
 
@@ -152,11 +177,11 @@ U kunt standaard btw-bedrijfsboekingsgroepen instellen door deze aan bedrijfsboe
 
 Met btw-productboekingsgroepen worden de artikelen en resources vertegenwoordigd die u koopt of verkoopt en wordt bepaald hoe btw wordt berekend en geboekt volgens het soort artikel of resource.
 
-Het is aan te raden codes te gebruiken die u gemakkelijk kunt onthouden en waarmee het tarief wordt beschreven, zoals **Geen btw** of **Nul**, **Btw10** of **Gereduceerd** voor 10 procent btw en **Btw25** of **Standaard** voor 25 procent.
+Het is een goed idee codes te gebruiken die u gemakkelijk kunt onthouden en waarmee het tarief wordt beschreven, zoals **Geen btw** of **Nul**, **Btw10** of **Gereduceerd** voor 10 procent btw en **Btw25** of **Standaard** voor 25 procent.
 
 Ga als volgt te werk om een btw-groep voor zakelijke boekingen in te stellen:
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me 4 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-bedrijfsboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent 4.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-bedrijfsboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de vereiste velden in.
 
 ## Btw-boekingsgroepen in btw-boekingsinstellingen combineren

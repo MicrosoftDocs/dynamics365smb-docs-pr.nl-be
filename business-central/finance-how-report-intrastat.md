@@ -116,6 +116,13 @@ Wanneer u met het **Intrastat-rapport** werkt ziet u een veld **Status** in de d
 * *Vrijgegeven*: [!INCLUDE[prod_short](includes/prod_short.md)] verandert de status automatisch in *Vrijgegeven* wanneer u een bestand aanmaakt. Vanaf dat moment kunt u uw **Intrastat-rapport** wijzigen. Als u iets moet wijzigen en opnieuw moet rapporteren, kunt u de actie **Heropenen** gebruiken om het Intrastat-rapport opnieuw te openen. Zodra het document opnieuw is geopend, kunt u de actie **Vrijgeven** gebruiken om het document weer vrij te geven.
 * **Gerapporteerd**: hiermee wordt aangegeven of de post al is gemeld bij de belastingdienst. Dit is geen normale status maar een onafhankelijk veld, en zelfs als u het Intrastat-rapport opnieuw zou openen, zou het nog steeds aangeven dat het bestand al is aangemaakt voor dit rapport.
 
+### Vestigingen in Intrastat-rapportage 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] gebruikt altijd de informatie in het veld **Land/regiocode** op de pagina **Vestigingskaart** als het land voor **verzenden van** of voor **ontvangen naar** goederen. Wanneer deze informatie niet bestaat of de vestiging niet is gebruikt, gebruikt het systeem de informatie van de pagina **Bedrijfsgegevens**.   
+
+> [!NOTE]
+> Als het bedrijf vanuit meer dan één land opereert, werkt Intrastat-rapportage niet voor alle landen/regio's waar vestigingen zijn geconfigureerd. De rapportage is alleen gebaseerd op het hoofdland/regio, omdat het momenteel niet mogelijk is om rapportage voor meerdere landen/regio's te gebruiken.  
+
 ### Driehoekshandel in intrastat
 
 Bij driehoekshandel gaat het om handel tussen drie landen of regio's waarbij goederen het land van het rapporterende bedrijf omzeilen. In Business Central kan dit worden gefaciliteerd via de functionaliteit [Doorverzending](sales-how-drop-shipment.md). Om deze optie in te schakelen, activeert u het veld **Doorverzending opnemen** in de **Intrastat-rapportinstellingen**.  

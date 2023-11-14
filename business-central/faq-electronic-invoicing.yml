@@ -10,8 +10,11 @@ summary: |
   De ingebouwde documentuitwisselingsservice verzendt elektronische facturen naar TradeShift, een serviceprovider die elektronische facturen doorstuurt naar PEPPOL- of NemHandel-ontvangers. Maar de service ondersteunt een beperkt aantal versies.   
 
   Deze veelgestelde vragen beantwoorden enkele van de belangrijkste vragen over elektronische facturering.  
+
+  > [!NOTE]
+  > Deze pagina met veelgestelde vragen heeft geen betrekking op de nieuwe app E-documenten die beschikbaar is in releasewave 2 van 2023. Zie [Overzicht van e-documenten](finance-edocuments-overview.md) voor meer informatie over de nieuwe functie.  
 sections:
-  - name: Algemeen
+  - name: Alge&meen
     questions:
       - question: Wat is het probleem?
         answer: De ingebouwde ondersteuning van PEPPOL maakt gebruik van een API die wordt aangeboden door TradeShift. Maar die API ondersteunt geen nieuwere versies van PEPPOL.

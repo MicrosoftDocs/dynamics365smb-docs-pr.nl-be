@@ -18,6 +18,7 @@ De functie van verkoper wordt vaak beschouwd als een van de meest naar buiten ge
 > Dit onderwerp beschrijft de integratie van de online versies van [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)] via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Zie voor informatie over on-premises configuratie [Dynamics 365 Sales voorbereiden voor on-premises integratie](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## Integreren via Dataverse
+
 Om het gemakkelijk te maken om gegevens te verbinden en te synchroniseren met andere Dynamics 365-toepassingen integreert [!INCLUDE[prod_short](includes/prod_short.md)] ook met [!INCLUDE[prod_short](includes/cds_long_md.md)]. U kunt bijvoorbeeld verbinding maken met [!INCLUDE[crm_md](includes/crm_md.md)] of met apps die u zelf hebt gemaakt. Als u voor de eerste keer integreert, moet u dat doen via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Zie voor meer informatie [Integratie met Dataverse](admin-common-data-service.md).
 
 Als u [!INCLUDE[crm_md](includes/crm_md.md)] al hebt geïntegreerd met [!INCLUDE[prod_short](includes/prod_short.md)], kunt u gegevens blijven synchroniseren met uw setup. Als u echter een upgrade uitvoert of uw [!INCLUDE[crm_md](includes/crm_md.md)]-integratie uitschakelt, moet u om het weer in te schakelen verbinding maken via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Zie voor meer informatie [Een integratie upgraden met Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
@@ -26,16 +27,19 @@ Als u [!INCLUDE[crm_md](includes/crm_md.md)] al hebt geïntegreerd met [!INCLUDE
 > Opnieuw verbinding maken via [!INCLUDE[prod_short](includes/cds_long_md.md)] past standaard synchronisatie-instellingen toe en overschrijft alle configuraties die u hebt. Zo worden de standaardtabeltoewijzingen toegepast.
 
 ## Integratie-instellingen die specifiek zijn voor een [!INCLUDE[crm_md](includes/crm_md.md)]-integratie
+
 Integratie met [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt via [!INCLUDE[prod_short](includes/cds_long_md.md)] en er zijn veel standaardinstellingen en tabellen beschikbaar. Naast de standaardinstellingen zijn er enkele die specifiek zijn voor [!INCLUDE[crm_md](includes/crm_md.md)]. In de volgende secties worden deze instellingen vermeld.
 
 ## Machtigingen en beveiligingsrollen voor gebruikersaccounts in Sales
+
 Wanneer u de integratieoplossing installeert, worden machtigingen voor het integratiegebruikersaccount geconfigureerd. Als deze machtigingen zijn gewijzigd, moet u deze mogelijk opnieuw instellen. U kunt dat doen door de integratieoplossing opnieuw te installeren door te kiezen voor **Integratieoplossing opnieuw implementeren** op de pagina **Dynamics 365-verbinding instellen**. De volgende beveiligingsrollen worden ingezet:
 
 * Dynamics 365 Business Central-integratiebeheerder
 * Dynamics 365 Business Central-integratiegebruiker
 * Dynamics 365 Business Central-gebruiker van productbeschikbaarheid
 
-### Verbindingsinstellingen in de installatiehandleiding
+### Verbindingsinstellingen in de installatieguide
+
 U kunt een begeleide instelling gebruiken om snel de verbinding in te stellen en geavanceerde functies op te geven, zoals koppeling tussen records.
 
 1. Kies **Instellingen en extensies** en kies vervolgens **Begeleide instelling**.
@@ -47,9 +51,10 @@ U kunt een begeleide instelling gebruiken om snel de verbinding in te stellen en
 |--|--|
 | **Dynamics 365 Sales-oplossing importeren** | Installeer en configureer de integratieoplossing in [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 |**Artikelbeschikbaarheid automatisch synchroniseren**|Hiermee wordt opgegeven dat de taakwachtrij voor artikelbeschikbaarheid moet worden gepland. De taakwachtrij wordt elke 30 minuten uitgevoerd en werkt de beschikbaarheid van de gekoppelde artikelen bij.|
-| **Integratie van verkooporders inschakelen** | Wanneer mensen verkooporders maken in [!INCLUDE[crm_md](includes/crm_md.md)] en bestellingen uitvoeren in [!INCLUDE[prod_short](includes/prod_short.md)], integreert deze instelling het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). U moet referenties opgeven voor een beheerdersaccount in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie het gedeelte [Verkoopordergegevens verwerken](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
+| **Oude integratie van verkooporders activeren** | Wanneer mensen verkooporders maken in [!INCLUDE[crm_md](includes/crm_md.md)] en bestellingen uitvoeren in [!INCLUDE[prod_short](includes/prod_short.md)], integreert deze instelling het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).<br><br>**Opmerking:** u kunt deze optie niet gebruiken als u de optie **Bidirectionele synchronisatie van verkooporders** gebruikt. De twee instellingen sluiten elkaar uit. Ga voor meer informatie over deze optie naar [Enkele en bidirectionele synchronisatie van verkooporders](#single-and-bi-directional-synchronization-of-sales-orders). |
 |**Dynamics 365 Sales-verbinding inschakelen** | De verbinding met [!INCLUDE[crm_md](includes/crm_md.md)] inschakelen. |
 | **Dynamics 365 SDK-versie** | Dit is alleen relevant als u integreert met een on-premises versie van [!INCLUDE[crm_md](includes/crm_md.md)]. Deze SDK is de software-ontwikkelingskit van Dynamics 365 (ook Xrm genoemd) die u gebruikt om [!INCLUDE[prod_short](includes/prod_short.md)] te verbinden met [!INCLUDE[crm_md](includes/crm_md.md)]. De versie moet compatibel zijn met de SDK-versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)] en gelijk zijn aan of nieuwer zijn dan de versie die wordt gebruikt door [!INCLUDE[crm_md](includes/crm_md.md)]. |
+|**Bidirectionele synchronisatie van verkooporders**|Synchroniseer verkooporders in beide richtingen. Ga voor meer informatie over deze optie naar [Enkele en bidirectionele synchronisatie van verkooporders](#single-and-bi-directional-synchronization-of-sales-orders).<br><br>**Opmerking:** u kunt deze optie niet gebruiken als u de optie **Oude integratie van verkooporders activeren** gebruikt. De twee instellingen sluiten elkaar uit.|
 
 ### Verbindingsinstellingen op de pagina Microsoft Dynamics 365-verbinding instellen
 
@@ -68,11 +73,29 @@ Voer naast de bovenstaande instellingen de volgende instellingen in voor [!INCLU
 | **Verkooporderintegratie is ingeschakeld** | Gebruikers de mogelijkheid bieden verkooporders en geactiveerde offertes in te dienen in [!INCLUDE[crm_md](includes/crm_md.md)] deze vervolgens weer te geven en te verwerken in [!INCLUDE[prod_short](includes/prod_short.md)]. Deze instelling integreert het proces in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Integratie van verkooporderverwerking inschakelen](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Automatisch verkooporders maken** | Maak een verkooporder in [!INCLUDE[prod_short](includes/prod_short.md)] wanneer een gebruiker er een maakt en indient in [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Verkoopoffertes automatisch verwerken** | Verwerk een verkoopofferte in [!INCLUDE[prod_short](includes/prod_short.md)] als een gebruiker er een maakt en activeert in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Verkoopoffertegegevens verwerken](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
-|**Bidirectionele synchronisatie van verkooporders**|Synchroniseer verkooporders in beide richtingen. Als een klant bijvoorbeeld van gedachten verandert over het product of de hoeveelheid die hij of zij heeft besteld in [!INCLUDE[crm_md](includes/crm_md.md)], kunt u het verkoopdocument archiveren en een nieuw document maken in [!INCLUDE[prod_short](includes/prod_short.md)]. Hetzelfde geldt voor wijzigingen in [!INCLUDE[prod_short](includes/prod_short.md)]. Als bijvoorbeeld prijzen, belastingbedragen of verwachte verzenddatums veranderen, worden de wijzigingen automatisch gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]. Bidirectionele synchronisatie helpt uw verkopers op de hoogte te blijven van de laatste wijzigingen en de status van prijsopgaven en orders.|
-
+|**Bidirectionele synchronisatie van verkooporders**|Synchroniseer verkooporders in beide richtingen. Ga voor meer informatie over deze optie naar [Enkele en bidirectionele synchronisatie van verkooporders](#single-and-bi-directional-synchronization-of-sales-orders).|
 <!--
 ### User Account Settings
 Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
+### Enkele en bidirectionele synchronisatie van verkooporders
+
+Wanneer u uw integratie instelt, in de installatieguide of op de pagina Microsoft Dynamics 365-verbinding instellen, zijn er opties die bepalen in welke richting u verkooporders synchroniseert en hoe u deze indient.
+
+Met de optie **Bidirectionele synchronisatie van verkooporders** kunt u verkooporders synchroniseren van Sales naar [!INCLUDE [prod_short](includes/prod_short.md)] en omgekeerd. Als een klant bijvoorbeeld van gedachten verandert over het product of de hoeveelheid die hij of zij heeft besteld in [!INCLUDE[crm_md](includes/crm_md.md)], kunt u het verkoopdocument archiveren en een nieuw document maken in [!INCLUDE[prod_short](includes/prod_short.md)]. Hetzelfde geldt voor wijzigingen in [!INCLUDE[prod_short](includes/prod_short.md)]. Als bijvoorbeeld prijzen, belastingbedragen of verwachte verzenddatums veranderen, worden de wijzigingen automatisch gesynchroniseerd met [!INCLUDE[crm_md](includes/crm_md.md)]. Bidirectionele synchronisatie helpt uw verkopers op de hoogte te blijven van de laatste wijzigingen en de status van verkooporders.
+
+Voor bidirectionele synchronisatie stelt u verkooporders beschikbaar voor synchronisatie wanneer u de status ervan wijzigt in **Ingediend** in Sales. Wanneer u deze status instelt, kunt u de informatie op de orderregels niet meer wijzigen. Wanneer u synchroniseert, wordt de bestelling overgedragen naar [!INCLUDE [prod_short](includes/prod_short.md)] met de status **Vrijgegeven**. Als er een fout is gemaakt, kunt u de order terugzetten naar **Open** (in [!INCLUDE [prod_short](includes/prod_short.md)]) of **Actief** (in Sales), en voeg vervolgens regels toe of verwijder deze om de fout te corrigeren, en dien de order opnieuw in.
+
+> [!TIP]
+> Wanneer u de optie **Bidirectionele synchronisatie van verkooporders** inschakelt, maakt [!INCLUDE [prod_short](includes/prod_short.md)] een record op de pagina **Verkooporderarchieven** wanneer u informatie over een order plaatst of wijzigt. De gearchiveerde versies kunnen bijvoorbeeld handig zijn om de geschiedenis van een order te verkennen.
+
+De optie **Oude integratie van verkooporders activeren** synchroniseert alleen van Sales naar [!INCLUDE [prod_short](includes/prod_short.md)]. Voor deze optie gebruikt u de actie **Verzenden** in Sales om orders beschikbaar te maken voor synchronisatie. Wanneer u dat doet, kunt u de informatie in de order niet meer wijzigen. Wanneer u synchroniseert, wordt de bestelling overgedragen naar [!INCLUDE [prod_short](includes/prod_short.md)] met de status **Vrijgegeven**.
+
+Als u deze optie wilt gebruiken, moet u referenties opgeven voor een beheerdersaccount in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Verkoopordergegevens verwerken](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+
+> [!NOTE]
+> De opties **Bidirectionele synchronisatie van verkooporders** en **Oude integratie van verkooporders activeren** sluiten elkaar uit. U kunt niet beide opties tegelijkertijd gebruiken.
+
+Voor beide opties toont [!INCLUDE [prod_short](includes/prod_short.md)] alle verkooporders met de status **Verzonden** op de pagina **Orders - Microsoft Dynamics 365 Sales**.
 
 ### Standaardtoewijzing van Sales-entiteit voor synchronisatie
 
@@ -99,7 +122,8 @@ In de volgende tabel staat de standaardtoewijzing tussen tabellen in [!INCLUDE[p
 > [!NOTE]
 > De toewijzingen voor de tabellen Artikeleenheid, Resource-eenheid en Eenheidsgroep zijn alleen beschikbaar als uw beheerder de functieschakelaar **Functie-update: synchronisatie van meerdere maateenheden met Dynamics 365 Sales** op de pagina **Functiebeheer** heeft aangezet. Zie voor meer informatie [Artikelen en resources synchroniseren met producten in verschillende eenheden](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
-## Artikelen en resources synchroniseren met producten met verschillende eenheden
+## Artikelen en resources synchroniseren met producten met verschillende maateenheden
+
 Bedrijven produceren of kopen de artikelen vaak in één eenheid en verkopen ze vervolgens in een andere. Als u artikelen wilt synchroniseren die meerdere eenheden gebruiken, moet u de functieschakelaar **Functie-update: synchronisatie van meerdere maateenheden met Dynamics 365 Sales** aanzetten op de pagina **Functiebeheer**. 
 
 Als u de functie-update inschakelt, wordt er een nieuwe eenhedengroeptabel gemaakt en toegewezen aan elk artikel en elke resource in [!INCLUDE[prod_short](includes/prod_short.md)]. Met de tabellen kunt u de Eenhedengroep, Artikeleenheid en Resource-eenheid in [!INCLUDE[prod_short](includes/prod_short.md)] toewijzen aan de Dynamics 365 Sales-eenhedengroep in [!INCLUDE[crm_md](includes/crm_md.md)]. De volgende afbeelding toont de toewijzingen.
@@ -109,6 +133,7 @@ Als u de functie-update inschakelt, wordt er een nieuwe eenhedengroeptabel gemaa
 U kunt meerdere eenheden maken voor elke eenhedengroep en de groepen toewijzen aan producten in [!INCLUDE[crm_md](includes/crm_md.md)]. Daarna kunt u de producten synchroniseren met artikelen en bronnen in [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt handmatig artikeleenheden of resource-eenheden koppelen aan een eenhedengroep. Wanneer u dat doet en de eenhedengroep voor het artikel of de resource niet is gekoppeld aan een eenhedengroep in [!INCLUDE[crm_md](includes/crm_md.md)], bijvoorbeeld omdat de eenhedengroep niet bestond, maakt [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de eenhedengroep in [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ### Artikelen en resources toewijzen aan producten
+
 Wanneer u de functieschakelaar **Functie-update: synchronisatie van meerdere maateenheden met Dynamics 365 Sales** aanzet, gebeurt het volgende:
 
 * Er worden nieuwe toewijzingen gemaakt voor artikelen en resources.
@@ -125,7 +150,7 @@ De volgende stappen beschrijven de stappen om te beginnen eenhedengroepen toe te
 1. Zorg ervoor dat producten in [!INCLUDE[crm_md](includes/crm_md.md)] niet zijn gekoppeld aan artikelen of resources in [!INCLUDE[prod_short](includes/prod_short.md)]. Als dat wel zo is, ga dan naar de pagina **Artikelen** en/of **Resources** en gebruik de filteropties om de gekoppelde records te selecteren. Kies vervolgens de actie **Dynamics 365 Sales** en selecteer **Ontkoppelen**. Met deze actie wordt een achtergrondtaak gepland om de records te ontkoppelen. Terwijl de taak wordt uitgevoerd, kunt u de status controleren met behulp van de actie **Synchronisatielogboek**. Zie voor meer informatie [Koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md). 
 2. Omdat nieuwe producten worden gemaakt in [!INCLUDE[crm_md](includes/crm_md.md)] met nieuwe eenhedengroepen, doet u een van de volgende dingen om dubbele namen te voorkomen:
     
-    * Hernoem uw producten en stel ze vervolgens buiten gebruik in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Producten terugtrekken (Verkoophub)](/dynamics365/sales-enterprise/retire-product). Om uw producten in bulk te bewerken in Microsoft Excel meldt u zich aan bij Power Apps, kiest u uw omgeving, gaat u naar de tabel **Product** en kiest u het tabblad **Gegevens**. Wis alle filters die zijn toegepast. Kies in de groep **Gegevens** de actie **Gegevens bewerken in Excel**. Voeg een voor- of achtervoegsel toe aan de gekoppelde producten en trek ze vervolgens in.
+  * Hernoem uw producten en stel ze vervolgens buiten gebruik in [!INCLUDE[crm_md](includes/crm_md.md)]. Zie voor meer informatie [Producten terugtrekken (Verkoophub)](/dynamics365/sales-enterprise/retire-product). Om uw producten in bulk te bewerken in Microsoft Excel meldt u zich aan bij Power Apps, kiest u uw omgeving, gaat u naar de tabel **Product** en kiest u het tabblad **Gegevens**. Wis alle filters die zijn toegepast. Kies in de groep **Gegevens** de actie **Gegevens bewerken in Excel**. Voeg een voor- of achtervoegsel toe aan de gekoppelde producten en trek ze vervolgens in.
     * Trek uw producten in en verwijder ze. 
 
 3. Volg deze stappen om **Eenhedengroepen**, **Eenheden**, **Artikelen** en **Resources** te synchroniseren:
@@ -171,7 +196,7 @@ De taken worden uitgevoerd in de volgende volgorde om koppelingsafhankelijkheden
 
 ### Standaardsynchronisatieposten in de taakwachtrij
 
-De volgende tabel beschrijft de standaardsynchronisatietaken voor Sales.  
+De volgende tabel beschrijft de standaardsynchronisatietaken voor [!INCLUDE[crm_md](includes/crm_md.md)].  
 
 |Taakwachtrij-item|Omschrijving|Richting|Toewijzing van integratietabel|Standaardsynchronisatiefrequentie (minuten)|Standaardinactiviteitslaaptijd (minuten)|  
 |---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
@@ -184,6 +209,7 @@ De volgende tabel beschrijft de standaardsynchronisatietaken voor Sales.
 |Klantstatistieken - Dynamics 365 Sales-synchronisatie|Werkt [!INCLUDE[crm_md](includes/crm_md.md)]-rekeningen bij met de recentste [!INCLUDE[prod_short](includes/prod_short.md)]-klantgegevens In [!INCLUDE[crm_md](includes/crm_md.md)] wordt deze informatie in het snelle weergaveformulier **Statistiek van Business Central-account** weergegeven van accounts die zijn gekoppeld aan [!INCLUDE[prod_short](includes/prod_short.md)]-klanten.<br /><br /> Deze gegevens kunnen ook handmatig worden bijgewerkt vanuit van elke klantrecord. Zie voor meer informatie [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Opmerking:** Dit taakwachtrij-item is alleen van belang als de [!INCLUDE[prod_short](includes/prod_short.md)]-integratieoplossing is geïnstalleerd in [!INCLUDE[crm_md](includes/crm_md.md)]. |Niet van toepassing|Niet van toepassing|30|Niet van toepassing| 
 
 ## Verbinding maken met on-premises versies van Business Central 2019 releasewave 1 en Microsoft Dynamics NAV 2018
+
 Het Microsoft Power Platform-team heeft [bekend gemaakt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) dat het Office365-verificatietype wordt afgeschaft. Als u een versie van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt die ouder is dan Business Central 2019 releasewave 1, moet u het OAuth-verificatietype gebruiken om verbinding te maken met [!INCLUDE[crm_md](includes/crm_md.md)] online. In de stappen in deze sectie wordt beschreven hoe u verbinding maakt met de volgende productversies:
 
 * Business Central 2019 releasewave 1
@@ -191,15 +217,15 @@ Het Microsoft Power Platform-team heeft [bekend gemaakt](/power-platform/importa
 
 ### Vereisten
 
-- U moet een Microsoft Azure-abonnement hebben. Een proefaccount werkt voor registratie van de toepassing.
-- [!INCLUDE[crm_md](includes/crm_md.md)] is geconfigureerd om een van de volgende verificatietypen te gebruiken:
+* U moet een Microsoft Azure-abonnement hebben. Een proefaccount werkt voor registratie van de toepassing.
+* [!INCLUDE[crm_md](includes/crm_md.md)] is geconfigureerd om een van de volgende verificatietypen te gebruiken:
 
-   - Office365 (oud)
+   * Office365 (oud)
 
      > [!IMPORTANT]
      > Met ingang van april 2022 wordt Office365 (oud) niet langer ondersteund. Zie voor meer informatie [Belangrijke veranderingen (afschrijvingen) die aanstaande zijn in Power Apps, Power Automate en apps voor klantbetrokkenheid](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
 
-   - OAuth
+   * OAuth
 
 ### Verbinding maken met Business Central 2019 releasewave 1 en Dynamics NAV 2018
 
@@ -216,7 +242,7 @@ Het Microsoft Power Platform-team heeft [bekend gemaakt](/power-platform/importa
    > [!Important]
    > Deze gebruiker mag niet de beveiligingsrol Systeembeheerder hebben. U kunt het systeembeheerdersaccount ook niet gebruiken als integratiegebruiker.
 
-3.  Maak in de Azure Portal een app-registratie voor [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie Een toepassing registreren in [Microsoft Entra ID](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+3. Maak in de Azure Portal een app-registratie voor [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie Een toepassing registreren in [Microsoft Entra ID](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
   
    > [!NOTE]
    > We raden u aan de app te registreren in dezelfde tenant als uw Dataverse-omgeving, zodat u geen toestemming hoeft te geven om de app toegang te geven tot de omgeving. Als u de app in een andere omgeving registreert, moet u inloggen op Microsoft Entra ID met behulp van het beheerdersaccount voor uw Dataverse-omgeving en toestemming geven.

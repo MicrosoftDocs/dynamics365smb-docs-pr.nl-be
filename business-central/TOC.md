@@ -6,6 +6,7 @@
 ## [Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Leren
+### [Resources voor gebruikers](resources-for-users.md)
 ### [Business Central-trainingscatalogus](readiness/readiness-learning-catalog.md)
 ### [Business Central-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Procedures voor bedrijfsprocessen
@@ -349,6 +350,7 @@
 #### [De extensie Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md)
 
 ### E-documenten beheren
+#### [Overzicht van e-documenten](finance-edocuments-overview.md)
 #### [E-documenten instellen](finance-how-setup-edocuments.md)
 #### [E-documenten gebruiken bij verkoop en inkoop](finance-how-use-edocuments.md)
 #### [Functionaliteit van e-documenten uitbreiden](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
@@ -1815,6 +1817,7 @@
 
 ## Gegevens analyseren in bedrijfsinformatietools
 ### [Overzicht](reports-external-analysis.md)
+### [Microsoft Fabric en Business Central](admin-fabric.md)
 ### [Power BI gebruiken met Business Central](admin-powerbi.md)
 ### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
 ### [Gegevens extraheren naar data warehouses of data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)

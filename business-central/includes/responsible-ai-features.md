@@ -1,0 +1,3 @@
+## Op AI gebaseerde functies in deze app
+
+Deze app bevat een groeiende lijst met op AI gebaseerde functies. Selecteer een functienaam in de lijst om meer te weten te komen over de mogelijkheden en impact van specifieke functies.

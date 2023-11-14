@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ---
 
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Gegevens synchroniseren in Business Central en Microsoft Dataverse
+# Gegevens synchroniseren in Business Central en Microsoft Dataverse
 
 Wanneer u [!INCLUDE[prod_short](includes/cds_long_md.md)] met [!INCLUDE[prod_short](includes/prod_short.md)] integreert, kunt u bepalen of gegevens in geselecteerde velden van [!INCLUDE[prod_short](includes/prod_short.md)]-records (zoals klanten, contactpersonen en verkopers) worden gesynchroniseerd met equivalente rijen in [!INCLUDE[prod_short](includes/cds_long_md.md)] (zoals rekeningen, contacten en gebruikers). Afhankelijk van het type rij kunt u gegevens vanuit [!INCLUDE[prod_short](includes/cds_long_md.md)] synchroniseren met [!INCLUDE[prod_short](includes/prod_short.md)] of andersom. Zie voor meer informatie [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -34,7 +34,7 @@ Wanneer synchronisatie is ingesteld, kunt u [!INCLUDE[prod_short](includes/prod_
 > [!NOTE]
 > De synchronisatie tussen [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)] is gebaseerd op de geplande uitvoering van taakwachtrij-items en garandeert geen realtime gegevensconsistentie tussen twee services. Voor realtime gegevensconsistentie moet u [Virtuele Business Central- tabellen](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) of Business Central-API's verkennen.   
 
-## <a name="standard-table-mapping-for-synchronization"></a>Standaardtabeltoewijzing voor synchronisatie
+## Standaardtabeltoewijzing voor synchronisatie
 
 Tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)], zoals accounts, zijn geïntegreerd met equivalente soorten tabellen in [!INCLUDE[prod_short](includes/prod_short.md)], zoals klanten. Als u wilt werken met [!INCLUDE[prod_short](includes/cds_long_md.md)]-gegevens, stelt u koppelingen in tussen tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -54,11 +54,11 @@ In de volgende tabel staat de standaardtoewijzing tussen tabellen in [!INCLUDE[p
 > [!NOTE]
 > De **Dataverse**-acties zijn niet beschikbaar op pagina's, bijvoorbeeld de pagina Klantenkaart, voor records die het tabelfilter voor de integratietabeltoewijzing niet respecteren.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Tip voor beheerders: tabeltoewijzingen weergeven
+### Tip voor beheerders: tabeltoewijzingen weergeven
 
 U kunt de koppeling tussen de tabellen in [!INCLUDE[prod_short](includes/cds_long_md.md)] en de tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] bekijken op de pagina **Toewijzingen van integratietabellen**, waar u kunt ook filters kunt toepassen. U definieert de toewijzing tussen de velden in [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen en de kolommen in [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabellen op de pagina **Toewijzing van integratieveld**, waar u aanvullende toewijzingslogica kunt toevoegen. Dat kan bijvoorbeeld handig zijn als u problemen met synchronisatie moet oplossen.
 
-## <a name="use-virtual-tables-to-get-more-data"></a>Virtuele tabellen gebruiken om meer gegevens te verkrijgen
+## Virtuele tabellen gebruiken om meer gegevens te verkrijgen
 
 Wanneer u uw integratie instelt, kunt u virtuele tabellen gebruiken om meer gegevens beschikbaar te maken in [!INCLUDE[prod_short](includes/cds_long_md.md)], zonder hulp van een ontwikkelaar.
 
@@ -80,11 +80,11 @@ Nadat u de app heeft geïnstalleerd, kunt u virtuele tabellen inschakelen vanaf 
 * Vanaf de pagina's **Dataverse-verbinding instellen**, **Virtuele tabellen** en **Beschikbare virtuele tabellen**.  
 * Vanuit de Power App Maker Portal.
 
-## <a name="synchronize-data-from-multiple-companies-or-environments"></a>Gegevens van meerdere bedrijven of omgevingen synchroniseren
+## Gegevens van meerdere bedrijven of omgevingen synchroniseren
 
 U kunt gegevens van meerdere [!INCLUDE [prod_short](includes/prod_short.md)]-bedrijven of -omgevingen met een [!INCLUDE[prod_short](includes/cds_long_md.md)]-omgeving synchroniseren. Bij synchronisatiescenario's voor meerdere bedrijven zijn er verschillende zaken waarmee u rekening moet houden.
 
-### <a name="set-company-ids"></a>Bedrijfs-id's instellen
+### Bedrijfs-id's instellen
 
 Wanneer u records synchroniseert, stellen we een bedrijfs-id in voor de [!INCLUDE[prod_short](includes/cds_long_md.md)]-entiteit om duidelijk te maken van welk [!INCLUDE [prod_short](includes/prod_short.md)]-bedrijf de records vandaan komen. Integratietabeltoewijzingen hebben filtervelden voor integratietabellen die rekening houden met de bedrijfs-id. Als u een tabeltoewijzing wilt opnemen in een configuratie met meerdere bedrijven, kiest u op de pagina **Toewijzing van integratietabel** het selectievakje **Synchronisatie van meerdere bedrijven geactiveerd**. De instelling optimaliseert de manier waarop de filtervelden van de integratietabel bedrijfs-id's filteren in een instelling met meerdere bedrijven.
 
@@ -92,15 +92,15 @@ Voor integratietabeltoewijzingen die documenten synchroniseren, zoals orders, of
 
 Voor alle andere integratietabeltoewijzingen wordt het filter op bedrijfs-id verwijderd als u het selectievakje **Synchronisatie van meerdere bedrijven geactiveerd** kiest. Bij de synchronisatie wordt rekening gehouden met gerelateerde entiteiten, ongeacht hun bedrijfs-id.
 
-### <a name="specify-the-synchronization-direction"></a>De synchronisatierichting opgegeven
+### De synchronisatierichting opgegeven
 
 Als u ondersteuning voor meerdere bedrijven inschakelt voor een integratietabeltoewijzing, raden we u aan de richting van de toewijzing in te stellen op **Van integratie**. Als u de richting instelt op **Naar Integratie** of **Bidirectioneel**, is het een goed idee om **Tabelfilter** en **Filter integratietabel** te gebruiken om te bepalen welke entiteiten met welk bedrijf synchroniseren. Het is ook een goed idee om op overeenkomsten gebaseerde koppeling te gebruiken om te voorkomen dat er dubbele records ontstaan. Ga voor meer informatie over op overeenkomsten gebaseerde koppeling naar [De koppeling op basis van overeenkomsten aanpassen](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#customize-the-match-based-coupling).
 
-### <a name="use-unique-numbers"></a>Unieke nummers gebruiken
+### Unieke nummers gebruiken
 
 Als uw nummerreeks niet garandeert dat primaire sleutelwaarden uniek zijn voor elk bedrijf, raden we u aan voorvoegsels te gebruiken. Als u voorvoegsels wilt gaan gebruiken, maakt u een transformatieregel voor de integratieveldtoewijzing. Ga voor meer informatie over transformatieregels naar [Omgaan met verschillen in veldwaarden](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   

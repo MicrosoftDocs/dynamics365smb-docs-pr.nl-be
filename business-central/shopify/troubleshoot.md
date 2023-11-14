@@ -158,6 +158,10 @@ Neem contact op met Shopify-ondersteuning binnen zeven dagen na het optreden van
 
 Het lijkt erop dat de gebruiker die toegang vraagt, geen rechten heeft om apps te beheren (mogelijkheid om apps en kanalen te beheren en te installeren, en mogelijk app-kosten goed te keuren). U kunt dit probleem mogelijk oplossen door de app als accounteigenaar te installeren. Als alternatief kunt u de **App-machtiging** voor de gebruiker controleren in de [**Gebruikers en machtigingen**](https://www.shopify.com/admin/settings/account)-instellingen in uw **Shopify-beheer**.  
 
+### [{"bericht":"Toegang geweigerd voor veld FIELD.","locatids":[{"regel":0,"kolom":0}],"pad":["pad"],"extensies":{"code":"ACCESS_DENIED","documentatie":https://shopify.dev/api/usage/access-scopes}}]
+
+Vraag een nieuw token aan omdat de bijgewerkte versie van de connector meer machtigingen vereist (toepassingsbereiken). Ga voor meer informatie naar [Om toegangstoken vragen](#request-the-access-token).
+
 ## Zie ook
 
 [Aan de slag met de connector voor Shopify](get-started.md)

@@ -114,8 +114,6 @@ Als u het selectievakje **Afschrijving tot VA-boekingsdatum** niet hebt ingescha
 
 *Totale afschrijving = 100 +15 + 55,54 = LV 170,54*
 
-## Zie gerelateerde [Microsoft-training](/training/paths/manage-advanced-fixed-assets-transactions/)
-
 ## Zie ook
 
 [Vaste activa](fa-manage.md)  

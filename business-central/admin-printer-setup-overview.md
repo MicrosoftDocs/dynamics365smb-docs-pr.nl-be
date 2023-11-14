@@ -10,13 +10,13 @@ ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Overzicht van printerinstelling en -beheer
+# Overzicht van printerinstelling en -beheer
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Documenten en rapporten afdrukken vanuit [!INCLUDE[prod_short](includes/prod_short.md)] is een belangrijke taak voor zakelijke gebruikers. U wilt afdruktaken meestal rechtstreeks naar een van de printers van uw organisatie sturen&mdash;ongeacht welke [!INCLUDE[prod_short](includes/prod_short.md)]-client of -app u gebruikt. Omdat [!INCLUDE[prod_short](includes/prod_short.md)] online een cloudservice is, kan het lokale printers die zijn aangesloten op de apparaten van gebruikers niet rechtstreeks bereiken, maar het kan wel verbinding maken met cloud-compatibele printers.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>Wat zijn uw printermogelijkheden in Business Central?
+## Wat zijn uw printermogelijkheden in Business Central?
 
 Om uw printbehoeften te ondersteunen, biedt [!INCLUDE[prod_short](includes/prod_short.md)] de volgende functies:
 
@@ -31,13 +31,13 @@ Het meeste werk voor het instellen van printers kan worden gedaan vanaf de pagin
 > [!IMPORTANT]
 > Voor Business Central on-premises vereisen Universeel afdrukken en E-mail afdrukken dat Microsoft Entra ID- of NavUserPassword-verificatie wordt gebruikt.
 
-## <a name="custom-printer-extensions"></a>Aangepaste printerextensies
+## Aangepaste printerextensies
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt ook andere aangepaste printerextensies die nog meer afdrukfuncties toevoegen. Dus als u aangepaste printerextensies hebt geïnstalleerd, bevat uw toepassing mogelijk afdrukfuncties die niet in dit artikel worden beschreven.
 
 Als u een AL-ontwikkelaar bent en wilt leren hoe u printerextensies maakt, gaat u naar [Printerextensies ontwikkelen in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Volgende stappen
+## Volgende stappen
 
 - [Printers voor Universeel afdrukken instellen](admin-printer-setup-universal-print.md)  
 - [E-mailprinters instellen](admin-printer-setup-email.md)  

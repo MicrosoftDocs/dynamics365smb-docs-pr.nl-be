@@ -11,7 +11,7 @@ ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: bholtorf
 ---
-# <a name="sales"></a>Verkopen
+# Verkopen
 
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.
 
@@ -53,7 +53,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Informeer klanten over orderleverdatums door berekening van ofwel de datum waarop het artikel beschikbaar is voor toezegging (ATP) of de datum waarop het artikel kan worden toegezegd (CTP).|[Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)|
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde klant.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkopen instellen](sales-setup-sales.md)  
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)  
