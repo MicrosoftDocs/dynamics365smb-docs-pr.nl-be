@@ -8,21 +8,21 @@ ms.search.form: 'Report_5871, Report_5872, Report_99000753, Report_99000756, Rep
 ms.date: 06/01/2021
 ms.author: bholtorf
 ---
-# Productierapporten en analyses in Business Central
+# <a name="production-reports-and-analytics-in-business-central"></a>Productierapporten en analyses in Business Central
 
 Productierapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt productie- en zakelijke professionals in staat om inzichten en statistieken te krijgen over huidige en vroegere productieactiviteiten.  
 
-## Rapporten
+## <a name="reports"></a>Rapporten
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
-## Taken
+## <a name="tasks"></a>Taken
 
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw bedrijf:
 
 * [De werklast in afdelingen en bewerkingsplaatsen weergeven](production-how-to-view-the-load-on-work-centers.md)  
 * [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)  

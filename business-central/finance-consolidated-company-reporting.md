@@ -11,7 +11,7 @@ ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ---
 
-# Financiële gegevens uit meerdere bedrijven consolideren
+# <a name="consolidating-financial-data-from-multiple-companies"></a>Financiële gegevens uit meerdere bedrijven consolideren
 
 Sommige organisaties gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in meerdere bedrijfsunits of rechtspersonen. Andere gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in dochterondernemingen die moeten rapporteren aan moederorganisaties. [!INCLUDE [prod_short](includes/prod_short.md)] geeft accountants tools waarmee ze grootboekposten van twee of meer bedrijven (dochterondernemingen) kunnen overbrengen naar een geconsolideerd bedrijf.  
 
@@ -35,11 +35,11 @@ U stelt het geconsolideerde bedrijf in op dezelfde manier als waarop u andere be
 > [!TIP]
 > Consolideren van financiële gegevens kan vooral relevant zijn voor IC-processen. Ga voor meer informatie over IC-functies naar [IC-transacties beheren](intercompany-manage.md).
 
-## Gegevens consolideren
+## <a name="consolidate-data"></a>Gegevens consolideren
 
 Voordat u gaat consolideren, is het een goed idee om uw gegevens te testen voordat u deze overdraagt naar het geconsolideerde bedrijf. [!INCLUDE[prod_short](includes/prod_short.md)] zoekt naar verschillen in de gegevens in de bedrijfsunits en in het geconsolideerde bedrijf. Er wordt bijvoorbeeld gecontroleerd of rekeningnummers of dimensiecodes afwijken. Corrigeer eventuele fouten die u vindt, voordat u het rapport uitvoert. U kunt de database testen of het bestand als u gegevens uit een XML-bestand importeert.
 
-### De gegevens testen voordat u consolideert
+### <a name="test-the-data-before-you-consolidate"></a>De gegevens testen voordat u consolideert
 
 1. Open het geconsolideerde bedrijf.  
 2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsunits** in en kies vervolgens de gerelateerde koppeling.  
@@ -48,7 +48,7 @@ Voordat u gaat consolideren, is het een goed idee om uw gegevens te testen voord
     * Als u een bestand wilt testen, kiest u de actie **Bestand testen**, voert u de naam van het bestand in en kiest u **Afdrukken**.  
     * Als u de database wilt testen, kiest u **Database testen**.  
 
-### De consolidatie uitvoeren
+### <a name="run-the-consolidation"></a>De consolidatie uitvoeren
 
 Wanneer u de gegevens hebt getest, kunt deze naar het geconsolideerde bedrijf overbrengen. Een begeleide instelling helpt u door het proces.
 
@@ -59,7 +59,7 @@ Wanneer u de gegevens hebt getest, kunt deze naar het geconsolideerde bedrijf ov
 2. Kies op de pagina **Bedrijfsunits** de actie **Consolideren**.  
 3. Vul de vereiste velden in.  
 
-## Gebruik het rapport Consolidatie - Proef- en saldibalans uitvoeren
+## <a name="use-the-consolidated-trial-balance-report"></a>Gebruik het rapport Consolidatie - Proef- en saldibalans uitvoeren
 
 Het rapport **Consolidatie - Proefbalans** kan u een overzicht geven van de algehele financiële gezondheid van uw bedrijf. Het rapport combineert grootboekposten van elk van uw bedrijven in een nieuw bedrijf dat u hebt gemaakt voor de geconsolideerde gegevens. Het geconsolideerde bedrijf is slechts een container voor de geconsolideerde gegevens en bevat geen live bedrijfsgegevens. De bedrijven die u in het geconsolideerde bedrijf opneemt, worden in het rapport **bedrijfsunits**. Heeft u vier of minder bedrijfsonderdelen, dan kunt u ook gebruik maken van het rapport **Consolidatie - Proefbalans (4)**.  
 
@@ -70,7 +70,7 @@ Het rapport toont een regel voor elke rekening en volgt de structuur van het rek
 * De eliminaties die in het geconsolideerde bedrijf zijn gemaakt. Eliminaties worden altijd weergegeven voor een periode die overeenkomt met het boekjaar van het geconsolideerde bedrijf.
 * Het totaal voor het geconsolideerde bedrijf na de eliminaties, weergegeven als mutatie of als saldo tot en met datum.
 
-## Herhaalde transacties verwijderen
+## <a name="eliminate-repeated-transactions"></a>Herhaalde transacties verwijderen
 
 Nadat u de bedrijven hebt geconsolideerd, moet u alle transacties vinden en elimineren die meer dan eens in bedrijven zijn geregistreerd. Consolidatieverwijderingen boeken is een handmatig proces.  
 
@@ -95,7 +95,7 @@ Voor elke rekening wordt een regel aangemaakt volgens de structuur van het reken
 * De boekingstekst, gekopieerd uit het dagboek.
 * Het totaal voor het geconsolideerde bedrijf na de eliminaties, als deze zijn geboekt.
 
-## Geconsolideerde gegevens exporteren en importeren tussen databases
+## <a name="export-and-import-consolidated-data-between-databases"></a>Geconsolideerde gegevens exporteren en importeren tussen databases
 
 Als gegevens voor een bedrijfsunit zich in een andere database bevinden, kunt u een handmatige bestandsgebaseerde overdracht uitvoeren of het proces automatiseren met behulp van een API. Ga voor meer informatie over de API naar [Onze API gebruiken om automatisch gegevens tussen omgevingen te delen](#use-our-api-to-automatically-share-data-across-environments).
 
@@ -115,11 +115,11 @@ De geëxporteerde posten bevatten de volgende velden: **Bankrekeningnr.**, **Boe
 3. De dimensiewaarde die voor de boeking wordt geëxporteerd, is de geconsolideerde bedrijfsdimensiewaarde die is gespecificeerd in het veld **Consolidatiecode** voor die dimensiewaarde. Als er geen dimensiewaarde voor het geconsolideerde bedrijf is opgegeven in het veld **Geconsolideerde code** voor de dimensiewaarde, wordt de dimensiewaarde zelf naar de regel geëxporteerd.  
 4. Bovendien bevatten de XML-bestanden ook de valutawisselkoersen binnen de consolidatieperiode. Deze koersen worden in een apart gedeelte aan het begin van het bestand opgenomen.  
 
-## Onze API gebruiken om automatisch gegevens tussen omgevingen te delen
+## <a name="use-our-api-to-automatically-share-data-across-environments"></a>Onze API gebruiken om automatisch gegevens tussen omgevingen te delen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] biedt een API waarmee u het proces van het delen van financiële gegevens van bedrijfsunits naar het geconsolideerde bedrijf kunt automatiseren. De API is gratis te gebruiken en eenvoudig in te stellen. U kunt er zelfs gegevens mee delen tussen [!INCLUDE [prod_short](includes/prod_short.md)]. Het is bijvoorbeeld mogelijk dat u meerdere omgevingen wilt delen wanneer bedrijfsunits zich niet in dezelfde Azure-geografieën bevinden. Ga voor meer informatie over het gebruik van de API om het consolidatieproces te automatiseren naar [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md#busunit).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md)  
 [Intercompany-transacties beheren](intercompany-manage.md)  

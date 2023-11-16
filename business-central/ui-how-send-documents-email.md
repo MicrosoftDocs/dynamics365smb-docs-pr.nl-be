@@ -9,7 +9,7 @@ ms.search.form: '41,'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Documenten en e-mails verzenden
+# <a name="send-documents-and-emails"></a>Documenten en e-mails verzenden
 
 U kunt eenvoudig informatie en documenten, zoals verkoop- en inkooporders en facturen, rechtstreeks per e-mail delen vanuit [!INCLUDE[prod_short](includes/prod_short.md)], zonder een e-mailapp te hoeven openen.  
 
@@ -22,7 +22,7 @@ Als u e-mails vanuit [!INCLUDE[prod_short](includes/prod_short.md)] wilt inschak
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt alleen uitgaande e-mailcommunicatie. U kunt ook geen antwoorden ontvangen vanuit de app.
 
-## Documenten per e-mail verzenden
+## <a name="to-send-documents-by-email"></a>Documenten per e-mail verzenden
 
 In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-bestand en met documentspecifieke e-mailtekst aan een e-mail wordt toegevoegd. De stappen zijn hetzelfde voor andere documenten.
 
@@ -44,14 +44,14 @@ In deze procedure wordt beschreven hoe een geboekte verkoopfactuur als pdf-besta
 > [!NOTE]  
 > Als u geen e-mailinstellingen wilt opgeven telkens wanneer u een document e-mailt, kunt u de optie **Ja (standaardinstellingen gebruiken)** in het veld **E-mail** van de pagina **Document verzenden naar** selecteren. In dat geval wordt de pagina **E-mail verzenden** niet geopend. Zie stap 4. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.  
 
-## Een e-mail opstellen en verzenden
+## <a name="to-compose-and-send-an-email"></a>Een e-mail opstellen en verzenden
 
 U kunt snel e-mails opstellen voor contactpersonen, klanten, leveranciers, verkopers/inkopers en bankrekeningen, rechtstreeks vanaf de pagina's voor die entiteiten. Kies gewoon **Verwerken** en dan **E-mail verzenden** om de e-maileditor te openen. Voor bankrekeningen bevindt de actie **E-mail verzenden** zich onder **Acties**.
 
 > [!TIP]
 > Als u vaak e-mailberichten verstuurt die vergelijkbaar zijn, of een bulkcommunicatie wilt verzenden, bijvoorbeeld om reclame te maken voor een verkoopcampagne, kan het gebruik van Word-sjablonen met e-mail het proces versnellen. U kunt een sjabloon maken voor entiteiten zoals klanten, leveranciers en contactpersonen, die de inhoud van een e-mailbericht voor u zal genereren, en zelfs de inhoud voor de ontvanger personaliseren op basis van gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Word-sjablonen gebruiken voor bulkcommunicatie](ui-mail-merge.md).  
 
-### Een document aan een e-mail koppelen
+### <a name="attach-a-document-to-an-email"></a>Een document aan een e-mail koppelen
 
 Er zijn verschillende manieren om documenten aan e-mails toe te voegen.
 
@@ -63,11 +63,11 @@ Gebruik de volgende acties om zelf een bestand toe te voegen in de e-maileditor:
 * Kies **Bestanden uit standaardselectie toevoegen** om handmatig een bestand toe te voegen dat is gekoppeld aan het e-mailscenario.
 * Kies **Bestand toevoegen vanuit brondocument** om een bestand te kiezen dat is bijgevoegd bij het document waarmee u werkt. De bestanden worden aan het document zelf of aan een of meer regels ervan toegevoegd.
 
-## Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
+## <a name="documents-marked-as-printed-when-they-are-sent"></a>Documenten gemarkeerd als afgedrukt wanneer ze worden verzonden
 
 Sommige documenten in [!INCLUDE[prod_short](includes/prod_short.md)] hebben een veld dat aangeeft hoe vaak het document is afgedrukt. Het nummer in dat veld <!--"that field?" need a name...--> wordt ook bijgewerkt als u het document per e-mail verstuurt, omdat er een pdf-bestand voor wordt gegenereerd. Het nummer wordt bijgewerkt, zelfs als u de e-mail niet verzendt. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## Verzonden e-mails en uw e-mailpostvak
+## <a name="sent-emails-and-your-email-outbox"></a>Verzonden e-mails en uw e-mailpostvak
 
 [!INCLUDE[prod_short](includes/prod_short.md)] slaat de e-mails die u verzendt, op de pagina **Verzonden items** op. Dat is om u e-mails opnieuw te laten verzenden of door te sturen naar iemand anders. Als u geen e-mail kunt vinden in uw verzonden items, zoekt u deze op de pagina **E-mail-outbox**. 
 
@@ -76,7 +76,7 @@ Sommige documenten in [!INCLUDE[prod_short](includes/prod_short.md)] hebben een 
 
 In de **E-mailoutbox** vindt u de e-mails die u als concept hebt opgeslagen en e-mails die niet konden worden verzonden, bijvoorbeeld als het e-mailadres ongeldig was. Voor berichten die niet zijn verzonden, kunt u **Fout weergeven** of **Fout onderzoeken** kiezen om het probleem op te lossen.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Rapport- en documentlay-outs beheren](ui-manage-report-layouts.md)  
 [E-mail instellen](admin-how-setup-email.md)  

@@ -11,7 +11,7 @@ ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="add-contacts-to-segments"></a>Contacten toevoegen aan segmenten
+# <a name="adding-contacts-to-segments"></a>Contacten toevoegen aan segmenten
 Nadat u een segment hebt gemaakt en de basisinformatie ervoor hebt ingevoerd, kunt u contactpersonen toevoegen aan het segment. U kunt dit doen door de regels op de pagina **Segment** handmatig in te vullen, maar het is eenvoudiger en sneller om de functie **Contacten toevoegen** te gebruiken.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Contacten toevoegen aan een segment

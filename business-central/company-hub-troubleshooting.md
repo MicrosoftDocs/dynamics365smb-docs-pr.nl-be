@@ -11,15 +11,15 @@ ms.search.form: 1151
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Problemen met uw bedrijfshub oplossen
+# <a name="troubleshooting-your-company-hub"></a>Problemen met uw bedrijfshub oplossen
 
 Bedrijven toevoegen aan de bedrijfshub is gemakkelijk, maar in dit artikel komen problemen aan bod die zich onderweg kunnen voordoen.  
 
-## Controleren op fouten
+## <a name="check-errors"></a>Controleren op fouten
 
 Gebruik de actie **Fouten controleren** om een lijst met recente fouten te bekijken. U kunt voor elke fout aanvullende details zien en u kunt het logboek opschonen door oudere vermeldingen te verwijderen.  
 
-## Verbinding mislukt
+## <a name="connection-failed"></a>Verbinding mislukt
 
 Er kan een aantal redenen zijn waarom u geen verbinding kunt maken met een bedrijf, waaronder de volgende:
 
@@ -33,13 +33,13 @@ Er kan een aantal redenen zijn waarom u geen verbinding kunt maken met een bedri
 
   In [!INCLUDE [prod_short](includes/prod_short.md)] kan een organisatie meerdere bedrijfsunits hebben, bedrijven genaamd, en hebt u mogelijk geen toegang tot alle bedrijven. Werk samen met uw beheerder of cliënt om ervoor te zorgen dat u toegang hebt tot de bedrijven waarin u moet werken.  
 
-## Gegevens worden niet vernieuwd
+## <a name="data-does-not-refresh"></a>Gegevens worden niet vernieuwd
 
 Wanneer u een bedrijf toevoegt of om vernieuwen van de gegevens verzoekt, worden de gegevens opgehaald door [!INCLUDE [prod_short](includes/prod_short.md)]. U moet de pagina echter zelf vernieuwen, bijvoorbeeld door de actie **Alle bedrijven opnieuw laden** te kiezen, de browserpagina te vernieuwen of uit en vervolgens weer naar het dashboard te navigeren.  
 
 Als u een bedrijf hebt toegevoegd, maar het wordt niet weergegeven in de lijst, kunt u ook de actie **Alle bedrijven opnieuw laden** gebruiken om de lijst bij te werken.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Werk beheren tussen meerdere bedrijven in de bedrijfshub](company-hub.md)  
 [Bedrijven toevoegen aan uw bedrijfshub](company-hub-add-company.md)  
