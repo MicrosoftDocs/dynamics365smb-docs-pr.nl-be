@@ -65,7 +65,7 @@ sections:
       - question: |
           Waar vind ik dat regelnummer?
         answer: |
-          Documenten zoals verkooporders of inkoopfacturen bestaan uit kopteksten en regels. Elke regel heeft een nummer dat [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt om deze specifieke regel te identificeren. Als gevolg hiervan ziet u mogelijk een waarschuwing of een foutmelding dat er iets mis is in regelnummer 1000, bijvoorbeeld. In de standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] zijn regelnummers verborgen. Als u de regelnummers wilt zien, moet u de huidige pagina personaliseren en het veld **Regelnr.**   Zie voor meer informatie [Uw werkruimte personaliseren](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
+          Documenten zoals verkooporders of inkoopfacturen bestaan uit kopteksten en regels. Elke regel heeft een nummer dat [!INCLUDE [prod_short](includes/prod_short.md)] gebruikt om deze specifieke regel te identificeren. Als gevolg hiervan ziet u mogelijk een waarschuwing of een foutmelding dat er iets mis is in regelnummer 1000, bijvoorbeeld. In de standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] zijn regelnummers verborgen. Als u de regelnummers wilt zien, moet u de huidige pagina personaliseren en het veld **Regelnr.** toevoegen . Zie voor meer informatie [Uw werkruimte personaliseren](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Waarom beschrijft de Help functionaliteit waartoe ik geen toegang heb?
         answer: |
@@ -151,8 +151,8 @@ additionalContent: |
   [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
   [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
   [Antwoorden op vragen krijgen](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
-  [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
-  [Trainingscatalogus voor Business Central](readiness/readiness-learning-catalog.md)  
+  [Business Central-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)   
+  [Resources voor Help en ondersteuning](product-help-and-support.md)  
   [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
   [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Servicevoorwaarden](compliance/compliance-service-compliance.md#service-terms)  

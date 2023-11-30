@@ -11,11 +11,15 @@ ms.search.form: '1500,'
 ms.date: 08/31/2023
 ms.custom: bap-template
 ---
-# <a name="use-power-automate-flows-in-"></a>Power Automate-stromen gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)]
+
+<!-- Line 41 says there are three cloud flow types, but the table lists four. Should line 41 change? -->
+
+
+# Power Automate-stromen gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Met [!INCLUDE[prod_short](includes/prod_short.md)] krijgt u een licentie voor Microsoft Power Automate. Met deze licentie kunt u uw [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens als onderdeel van een werkstroom gebruiken in Microsoft Power Automate. U maakt stromen en maakt verbinding met uw gegevens uit interne en externe bronnen met behulp van de [!INCLUDE [prod_short](includes/prod_short.md)]-connector.
 
-Power Automate-stromen worden geactiveerd door gebeurtenissen, zoals een record is gemaakt, gewijzigd of verwijderd. Ze kunnen ook worden uitgevoerd volgens een door de gebruiker gedefinieerd schema of op aanvraag.
+Power Automate-stromen worden geactiveerd door gebeurtenissen, zoals een record is gemaakt, gewijzigd of verwijderd. Stromen kunnen ook worden uitgevoerd volgens een door de gebruiker gedefinieerd schema of op aanvraag.
 
 > [!NOTE]
 > Beheerders kunnen de toegang tot Power Automate beperken. Neem contact op met uw beheerder als u merkt dat u geen toegang heeft tot sommige of alle functies die in dit artikel worden beschreven. Als u wilt leren hoe u toegang tot Power Automate kunt bepalen als beheerder, raadpleegt u [Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
@@ -25,7 +29,7 @@ Power Automate-stromen worden geactiveerd door gebeurtenissen, zoals een record 
 > [!TIP]
 > Naast Power Automate kunt u sjablonen voor goedkeuringswerkstromen gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)]. Hoewel het twee aparte werkstroomsystemen zijn, wordt elke goedkeuringswerkstroomsjabloon die u maakt met Power Automate, toegevoegd aan de lijst met werkstromen in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Werkstromen](across-workflow.md).
 
-## <a name="about-power-automate-flows"></a>Over Power Automate-stromen
+## Over Power Automate-stromen
 
 Power Automate is een service die u helpt bij het maken van geautomatiseerde werkstromen (of stromen) tussen apps en services, zoals [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automate-stromen vereisen weinig of geen codeerkennis. Ze kunnen worden geassocieerd met een breed scala aan gebeurtenissen en reacties, zoals:
 
@@ -43,7 +47,7 @@ Er zijn drie verschillende soorten cloudstromen waarmee u kunt werken:
 |Geplande stroom|Dit type stroom wordt ook automatisch uitgevoerd, maar het wordt periodiek uitgevoerd op een geplande datum en tijd. |
 |Directe stroom|Dit stroomtype wordt op aanvraag uitgevoerd, waarbij de gebruiker het handmatig moet uitvoeren vanaf een knop of actie in een andere app of ander apparaat, in dit geval de [!INCLUDE[prod_short](includes/prod_short.md)]-cliënt. Directe stromen werken op dezelfde manier als batchsnelkoppelingen, waarbij meerdere lange stappen worden uitgevoerd met een paar drukken op een knop en worden gestart vanaf specifieke pagina's of tabellen. Een stroom kan bijvoorbeeld een knop toevoegen aan het actiemenu op de pagina **Leveranciers** om betalingen aan een leverancier te blokkeren en tegelijkertijd aanpasbare e-mails te verzenden naar de contactpersoon van de leverancier en de inkopers van uw bedrijf, en om het contact in Outlook bij te werken. |
 
-## <a name="power-automate-features"></a>Power Automate-functies
+## Power Automate-functies
 
 U kunt alle Power Automate-stromen verkennen die momenteel voor u beschikbaar zijn door u aan te melden bij [Power Automate](https://powerautomate.com) en **Mijn stromen** te selecteren vanuit de navigatiebalk aan de linkerkant. Hier vindt u alle stromen die u zelf al hebt gemaakt en stromen die met u zijn gedeeld door een beheerder of collega.
 
@@ -52,17 +56,17 @@ U kunt alle Power Automate-stromen verkennen die momenteel voor u beschikbaar zi
 - Met geautomatiseerde stromen in [!INCLUDE[prod_short](includes/prod_short.md)] hoeft u niets te doen, tenzij u ze wilt wijzigen of uitschakelen. Anders werken ze gewoon wanneer ze worden geactiveerd. 
 <!--
 
-## <a name="automated-flows"></a>Automated flows
+## Automated flows
 
 With Power Automate, you can create business flows directly in-house and rely on citizen developers. Automated workflows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)], and also be set to run periodically. Learn more and get instructions on how to create flows in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
 -->
 
-## <a name="run-instant-flows"></a>Directe stromen uitvoeren
+## Directe stromen uitvoeren
 
 Directe stromen worden geopend binnen [!INCLUDE [prod_short](includes/prod_short.md)] Online, zodat u binnen de context kunt blijven van het bedrijfsproces waar u in zat. U kunt direct een stroom uitvoeren vanuit de meeste lijsten, kaarten of documenten.
 
-1. Selecteer in de actiebalk **Automatiseren** en kies vervolgens een stroom uit de lijst met beschikbare stromen onder de actie **Power Automate**
+1. Selecteer op de actiebalk **Automatiseren** en kies vervolgens een stroom uit de lijst met beschikbare stromen onder de actie **Power Automate**.
 
     :::image type="content" source="media/power-automate-instant-menu.svg" alt-text="Toont de actie Automatiseren met directe stroomacties.":::
 
@@ -85,9 +89,9 @@ Most flows require you to fill in a field or two before you choose the **Run flo
 > [!TIP]
 > If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] probably hasn't yet been set up to use Power Automate. Learn more from your admin.-->
 
-## <a name="create-edit-and-manage-flows"></a>Stromen bewerken, maken en beheren
+## Stromen bewerken, maken en beheren
 
-Het maken van nieuwe stromen, het wijzigen en beheren van bestaande (zoals aan- of uitzetten) kan direct in Power Automate. Maar u kunt sommige van deze taken vanuit het menu Automatiseren in [!INCLUDE[prod_short](includes/prod_short.md)] starten:
+Het maken van nieuwe stromen of het wijzigen en beheren van bestaande (zoals aan- of uitzetten) kan direct in Power Automate. Maar u kunt sommige van deze taken vanuit het menu Automatiseren in [!INCLUDE[prod_short](includes/prod_short.md)] starten:
 
 :::image type="content" source="media/power-automate-menu.svg" alt-text="Toont de actie Automatiseren in de actiebalk met uitgevouwen acties.":::
 
@@ -108,20 +112,20 @@ Deze taken worden meestal uitgevoerd door een beheerder of supergebruiker. De ta
 - [Power Automate-stromen beheren](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 
 
-## <a name="add-more-automated-flows-and-instant-flows"></a>Add more automated flows and instant flows
+## Add more automated flows and instant flows
 
 You can create flows through the [powerautomate.microsoft.com](https://powerautomate.microsoft.com) website. However, if your admin has switched on the capability to run Power Automate flows from inside [!INCLUDE [prod_short](includes/prod_short.md)] online, you can start the process of building a flow from the **Automate** action on the relevant pages, which can be found under the **More Options** menu depending on the page. Then choose the **Power Automate** menu item, and then choose the **Create a flow** action. Power Automate then opens in a new browser tab, and you're signed in automatically.
 
 You can find sample templates to adapt to your company and all available trigger events, using both [!INCLUDE [prod_short](includes/prod_short.md)] and external tools, by choosing the **Connectors** menu on the Power Automate website. Learn more about available templates and triggers in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
-## <a name="create-and-manage-power-automate-flows"></a>Create and manage Power Automate flows
+## Create and manage Power Automate flows
 
 You can create new flows or manage existing Power Automate flows in [!INCLUDE [prod_short](includes/prod_short.md)] on the **Manage Power Automate Flows** page. Learn more in the [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) article in the administration content.
 
 <!--
 You can also manage available Power Automate workflows on the **Workflows** page in [!INCLUDE[prod_short](includes/prod_short.md)]. The page lists both the built-in approval and Power Automate workflows, with options for the latter to enable/disable, delete, and view the workflow on the Power Automate website.-->
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Problemen met uw [!INCLUDE[prod_short](includes/prod_short.md)] geautomatiseerde werkstromen](across-flow-troubleshoot.md) oplossen  
 [Voorbereiden om aan de slag te gaan](ui-get-ready-business.md)  
@@ -129,7 +133,7 @@ You can also manage available Power Automate workflows on the **Workflows** page
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen  
-[Financiën](finance.md)  
+[Financieel beheer](finance.md)  
 [Power Automate-stromen beheren](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)  
 [Geautomatiseerde werkstromen instellen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows)  
 [Directe stromen inschakelen](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)  
