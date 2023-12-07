@@ -11,7 +11,7 @@ ms.search.form: '377, 378, 165, 1284'
 ms.date: 10/04/2023
 ms.author: bholtorf
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Uw bankrekeningen beheren en reconciliëren
+# Uw bankrekeningen beheren en reconciliëren
 
 Voor al uw bankrekeningen moet op gezette tijden een bankafstemming worden uitgevoerd om ervoor te zorgen dat de kasgegevens van het bedrijf correct zijn. U doet dit door boekingen op uw interne bankrekeningen te vergelijken en af te stemmen met banktransacties bij uw bank en vervolgens de saldi op uw interne bankrekeningen te boeken om totalen beschikbaar te stellen voor financiële managers. Bankafstemming is ook een praktische manier om ontbrekende betalingen en boekhoudfouten te ontdekken en op te lossen.
 
@@ -32,7 +32,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 > [!TIP]
 > Gebruik bankreconciliatie om te controleren of uw boeken up-to-date zijn en boek de reconciliatie pas als u er tevreden mee bent.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bankieren instellen](bank-setup-banking.md)  
 [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md)  

@@ -160,6 +160,18 @@ Wanneer de groepsvertegenwoordiger de btw-aangifte van de groep bij de belasting
 > [!IMPORTANT]
 > De btw-groepsfunctionaliteit wordt alleen ondersteund in markten waar [!INCLUDE[prod_short](includes/prod_short.md)] een btw-raamwerk gebruikt dat bestaat uit btw-aangiften en btw-aangifteperioden. U kunt geen btw-groepen gebruiken in andere markten met andere implementaties van lokale btw-rapportage, zoals Oostenrijk, Duitsland, Italië, Spanje en Zwitserland.
 
+## Probleem met het inschakelen van multifactorverificatie (MFA)
+
+Als u een foutmelding krijgt met betrekking tot autorisatie tijdens de verlenging van de **OAuth2-token** op de pagina **Btw-rapport instellen** nadat u MFA hebt ingeschakeld, voert u de volgende stappen uit.  
+
+1. Meld u aan bij de **Azure-portal** als verificatiebeheerder.  
+2. Ga naar de **Microsoft Entra ID**.   
+3. Blader naar **Gebruikers** en selecteer vervolgens de gebruiker die u een actie wilt laten uitvoeren.  
+4. Selecteer de **Verificatiemethoden** en selecteer boven aan de pagina **Hernieuwde registratie met multifactorverificatie vereisen**. 
+5. Ga terug naar Dynamics 365 Business Central en selecteer om het token te vernieuwen vanaf de pagina **Btw-rapport instellen**.  
+
+Dit zou een eenmalige configuratie moeten zijn nadat u multifactorverificatie hebt ingeschakeld voor de geselecteerde gebruiker in **Btw-rapport instellen**.  
+
 ## Zie ook
 
 [Lokale functionaliteit van het Verenigd Koninkrijk in de Britse versie](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  

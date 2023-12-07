@@ -42,7 +42,7 @@ Voer de volgende stappen uit om marketingtekst aan een bestaand artikel toe te v
 
    1. Selecteer in de rechterbovenhoek het pictogram ![Lampje dat de functie Vertel me opent 22](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling om een lijst met beschikbare artikelen weer te geven.
 
-   2. Dubbelklik op het artikel of selecteer in de kolom **Nr.** de waarde ervan.
+   2. Dubbelklik op het artikel of selecteer in de kolom **Nr.** de waarde ervan .
 
    [![Toont een artikelkaart met het deelvenster Marketingtekst](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -120,7 +120,7 @@ Er zijn een paar stappen die u kunt nemen om de tekstsuggesties te verbeteren en
 1. Open in Business Central het artikel dat u wilt wijzigen als volgt:
 
     1. Selecteer in de rechterbovenhoek het pictogram ![Lampje dat de functie Vertel me opent 22](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling om een lijst met beschikbare artikelen weer te geven.
-    2. Om het artikel te openen dubbelklikt u erop of selecteert u in het veld **Nr.** ervan.
+    2. Om het artikel te openen dubbelklikt u erop of selecteert u in het veld **Nr.** ervan .
 
 2. Ga op een van de volgende manieren te werk:
 

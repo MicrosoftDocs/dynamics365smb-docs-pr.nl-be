@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 09/07/2023
 ms.author: bholtorf
 ---
-# <a name="update-currency-exchange-rates"></a>Valutawisselkoersen bijwerken
+# Valutawisselkoersen bijwerken
 
 U kunt verschillende valuta's definiëren in [!INCLUDE [prod_short](includes/prod_short.md)], bijvoorbeeld als u handelt in andere valuta's dan uw lokale valuta. Om wijzigingen in wisselkoersen bij te houden kunt u de koersen handmatig beheren of u kunt een wisselkoersservice instellen.
 
-## <a name="currencies"></a>Valuta's
+## Valuta's
 
 > [!TIP]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] wordt dit valuta genoemd als u op zoek bent naar realtime informatie over wisselkoersen of historische koersen. Zie naast dit artikel ook [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ U kunt verschillende valuta's definiëren in [!INCLUDE [prod_short](includes/pro
 
 U geeft de valutacodes in de lijst **Valuta's** op, inclusief extra informatie en instellingen die nodig zijn voor elke valutacode. Zie [Valuta's](finance-set-up-currencies.md#curr) voor meer informatie
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Voorbeeld van een te ontvangen valutatransactie
+### Voorbeeld van een te ontvangen valutatransactie
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Wisselkoersen
+## Wisselkoersen
 
 De wisselkoersen zijn het hulpmiddel om de lokale valutawaarde (LV) van elke valutatransactie te berekenen. De pagina **Wisselkoersen** bevat de volgende velden:
 
@@ -54,7 +54,7 @@ Het correctiewisselkoersbedrag of het relationele correctiekoersbedrag wordt geb
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## <a name="adjusting-exchange-rates"></a>Wisselkoersen herwaarderen
+## Wisselkoersen herwaarderen
 
 Aangezien wisselkoersen constant wisselen, moet u overige valuta-equivalenten periodiek aanpassen. Als u dit niet doet, kunnen de bedragen die u vanuit vreemde (of andere) valuta's hebt omgezet en in de lokale valuta naar het grootboek hebt geboekt, onjuist zijn. Bovendien moet u de dagelijks geboekte boekingen bijwerken voordat u een dagelijkse wisselkoers invoert.
 
@@ -75,36 +75,36 @@ U kunt ook specificeren hoe de herwaardering dimensies voor boekingen van niet-g
 > [!IMPORTANT]
 > Vanwege lokale vereisten in Zwitserland raden we u niet aan **Functie-update: Gebruik van nieuwe uitbreidbare wisselkoerscorrectie, inclusief boekingcontrole, inschakelen** in te schakelen in de Zwitserse landversie (CH).
 
-## <a name="preview-the-effect-of-an-adjustment"></a>Bekijk het effect van een aanpassing
+## Bekijk het effect van een aanpassing
 
 U kunt een voorbeeld bekijken van het effect dat een wisselkoersaanpassing heeft op het boeken voordat u daadwerkelijk boekt door de actie **Voorbeeld van boeking weergeven** te kiezen op de rapportlaanvraagpagina **Wisselkoersherwaardering** (rapport 596). Op de aanvraagpagina kunt u opgeven wat u in de preview wilt opnemen:
 
 * Een gedetailleerde boeking naar het grootboek krijgen per post
 * Ontvang een samengevatte boeking per valuta. Kies gewoon het veld **Herwaarderen per post** in het rapport **Wisselkoersherwaardering**.
 
-### <a name="effect-on-customers-and-vendors"></a>Effect op klanten en leveranciers
+### Effect op klanten en leveranciers
 
 Voor klanten- en leveranciersrekeningen gebruikt de batchverwerking de wisselkoers die geldig was op de boekingsdatum die voor de batchverwerking is opgegeven, om de valuta te herwaarderen. Met de batchverwerking worden de verschillen voor de afzonderlijke valutasaldo's berekend en worden de bedragen geboekt naar de opgegeven grootboekrekening in het veld **Ongereal. koerswinstrekening** of **Ongereal. koersverliesrekening** in de tabel **Valuta's**. Tegenposten worden automatisch geboekt naar de liquiditeitsrekening in het grootboek.
 
 In de batchverwerking worden alle open klantenposten en leveranciersposten verwerkt. Als er een wisselkoersverschil is voor een post, maakt de batchverwerking een nieuwe gedetailleerde klanten- of leverancierspost. De nieuwe post weerspiegelt het aangepaste bedrag op de klanten- of leverancierspost.
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensies in klanten- en leveranciersposten
+#### Dimensies in klanten- en leveranciersposten
 
 [!INCLUDE [prod_short](includes/prod_short.md)] wijst de dimensies van de klanten- of leveranciersposten toe aan de herwaarderingsposten en boekt herwaarderingen voor elke combinatie van dimensiewaarden.
 
-### <a name="effect-on-bank-accounts"></a>Effect op bankrekeningen
+### Effect op bankrekeningen
 
 Voor bankrekeningen wordt de valuta tijdens de batchverwerking geherwaardeerd met de wisselkoers die geldig is op de opgegeven boekingsdatum. Tijdens de batchverwerking worden de verschillen voor elke bankrekening met een valutacode berekend en worden de bedragen geboekt naar de opgegeven grootboekrekening in het veld **Gereal. koerswinstrekening** of **Gereal. koersverliesrekening** in de tabel **Valuta's**. Tegenposten worden automatisch geboekt naar de grootboekrekeningen die in de bankboekingsgroepen zijn opgegeven. Tijdens de batchverwerking wordt één post per valuta per boekingsgroep berekend.
 
-#### <a name="dimensions-on-bank-account-entries"></a>Dimensies op bankrekeningposten
+#### Dimensies op bankrekeningposten
 
 De herwaarderingsposten voor de grootboekrekening van de bankrekening en voor de winst-/verliesrekening krijgen de standaarddimensies van de bankrekening toegewezen.
 
-### <a name="effect-on-gl-accounts"></a>Effect op grootboekrekeningen
+### Effect op grootboekrekeningen
 
 Als u in een andere rapportagevaluta boekt, kan de batchverwerking nieuwe grootboekposten boeken voor valutaherwaarderingen tussen de lokale valuta en de overige rapportagevaluta. Met de batchverwerking worden de verschillen voor elke grootboekpost berekend en wordt de grootboekpost voor elke grootboekrekening geherwaardeerd op basis van de inhoud van het veld **Wisselkoersherwaardering**.
 
-#### <a name="dimensions-on-gl-account-entries"></a>Dimensies op grootboekrekeningposten
+#### Dimensies op grootboekrekeningposten
 
 De herwaarderingsposten krijgen de standaarddimensies toegewezen van de rekeningen waarop ze worden geboekt.
 
@@ -113,7 +113,7 @@ De herwaarderingsposten krijgen de standaarddimensies toegewezen van de rekening
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## <a name="to-set-up-a-currency-exchange-rate-service"></a>Een wisselkoersservice instellen
+## Een wisselkoersservice instellen
 
 U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, zoals FloatRates. 
 
@@ -132,21 +132,21 @@ U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, z
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## <a name="to-update-currency-exchange-rates-through-a-service"></a>Valutawisselkoersen bijwerken met een service
+## Valutawisselkoersen bijwerken met een service
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Valuta's** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Wisselkoersen bijwerken**.
 
 De waarde in het veld **Wisselkoers** op de pagina **Valuta's** wordt bijgewerkt met de laatste wisselkoers.
 
-## <a name="correct-mistakes"></a>Vergissingen corrigeren
+## Vergissingen corrigeren
 
 Zo nu en dan moet u mogelijk een fout corrigeren in een betalingstransactie die gepaard gaat met aanpassingen aan winsten en verliezen in vreemde valuta's. U kunt de actie **Transactie tegenboeken** gebruiken op de pagina's **Bankposten**, **Klantenposten** en **Leveranciersposten** om de betalingstransactie ongedaan te maken en tegen te boeken.
 
 > [!NOTE]
 > Wanneer u een betaling ongedaan maakt en tegenboekt voor een post waaraan wisselkoersaanpassingen zijn gekoppeld, boekt de tegenboeking tegenboekingen voor de aanpassingen. Mogelijk moet u de wisselkoersaanpassing opnieuw uitvoeren om het juiste huidige saldo te krijgen.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Valuta's in Business Central](finance-currencies.md)  
 [Valuta's instellen](finance-set-up-currencies.md)  

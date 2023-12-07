@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/04/2023
+ms.date: 10/24/2023
 ms.custom: bap-template
 ---
 # Bankrekeningen afstemmen
@@ -22,9 +22,15 @@ U kunt bankrekeningen echter ook afstemmen op de pagina **Betalingsreconciliatie
 
 De regels op de pagina **Bankreconciliatie** zijn verdeeld in twee deelvensters. Het deelvenster **Bankafschriftregels** bevat geïmporteerde bankafschriften of posten met openstaande betalingen. Het deelvenster **Bankposten** bevat de posten op de interne bankrekening.
 
-Reconciliatie van transacties in afschriften van uw bank met bankposten in [!INCLUDE[prod_short](includes/prod_short.md)] wordt *afstemmen* genoemd. Er zijn twee manieren om transacties af te stemmen met bankposten:
+## Over bankreconciliatie 
+
+Reconciliatie van transacties in afschriften van uw bank met bankposten in [!INCLUDE[prod_short](includes/prod_short.md)] wordt *afstemmen* genoemd. Er zijn drie manieren om transacties af te stemmen met bankposten:
 
 * Automatisch, via de actie **Automatisch afstemmen**.
+
+* Automatisch, door gebruik te maken van de actie **Reconciliëren met Copilot**.
+
+  Deze actie is beschikbaar als onderdeel van de functie hulp bij bankreconciliatie (preview), een door AI aangedreven functie. [Meer informatie over hulp bij bankreconciliatie](bank-reconciliation-with-copilot.md)
 * Handmatig, door regels te selecteren in beide deelvensters om elke bankafschriftregel te koppelen aan een of meer gerelateerde bankposten, en vervolgens de functie **Handmatig afstemmen** te gebruiken.
 
 Het selectievakje **Vereffend** is ingeschakeld op regels waar posten overeenkomen. Zie [Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md) voor meer informatie. Als u een einddatum voor het afschrift invoert op de bankreconciliatie, nadat u de regels ervan hebt afgestemd met posten, maakt [!INCLUDE [prod_short](includes/prod_short.md)] de afstemmingen ongedaan voor regels en posten die na die datum zijn.
@@ -82,7 +88,7 @@ Het deelvenster **Bankafschriftregels** wordt ingevuld volgens facturen in [!INC
 
 ## Bankafschriftregels automatisch afstemmen met bankrekeningposten
 
-De pagina **Bankreconciliatie** biedt automatische afstemmingsfunctionaliteit op basis van een afstemming van tekst op een bankafschriftregel (linkerdeelvenster) met tekst in een of meer bankposten (rechterdeelvenster). U kunt de voorgestelde automatische afstemming overschrijven en u kunt ervoor kiezen helemaal geen automatische afstemming te gebruiken. Zie [Bankafschriftregels handmatig afstemmen met bankrekeningposten](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually) voor meer informatie.
+De pagina **Bankreconciliatie** biedt automatische afstemmingsfunctionaliteit op basis van een afstemming van tekst op een bankafschriftregel (linkerdeelvenster) met tekst in een of meer bankposten (rechterdeelvenster). U kunt de voorgestelde automatische afstemming overschrijven en u kunt ervoor kiezen helemaal geen automatische afstemming te gebruiken. Zie [Bankafschriftregels handmatig afstemmen met bankrekeningposten](#match-bank-statement-lines-with-bank-account-ledger-entries-manually) voor meer informatie.
 
 U kunt de basis voor overeenkomsten onderzoeken met behulp van de actie **Afstemmingsdetails**. De details bevatten bijvoorbeeld de namen van de velden die overeenkomende waarden bevatten.  
 
@@ -239,9 +245,11 @@ Gebruik geen grootboekrekening waarop direct boeken in uw boekingsgroep voor ban
 
 Deze fout komt vaak voor bij het invoeren van een beginsaldo voor een bankrekening. Het is belangrijk dat u het beginsaldo niet rechtstreeks in het grootboek boekt. Posten op de grootboekrekening die rechtstreeks naar de grootboekrekening worden geboekt, veroorzaken problemen. Deze posten kunnen er bijvoorbeeld voor zorgen dat u uw bankrekening niet kunt afstemmen. Voor bankrekeningen in vreemde valuta kunnen de posten verschillen veroorzaken nadat u meer bankreconciliaties hebt geboekt als gevolg van wisselkoersaanpassingen. Vaak boekt u het beginsaldo direct op de bankrekening en komt het bedrag dan op de grootboekrekening terecht. U kunt het ook later terugboeken naar de grootboekrekening die u gebruikt om het openingsgrootboeksaldo te compenseren. In beide gevallen moet u eventuele directe boekingen op de grootboekrekening salderen voordat u uw eerste bankafstemming start, en vooral als de bankrekening in een vreemde valuta is.
 
+
 ## Zie ook
 
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
+[Bankrekeningen afstemmen met hulp bij bankreconciliatie (preview)](bank-reconciliation-with-copilot.md)
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Bankieren instellen](bank-setup-banking.md)  
 [Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md)  

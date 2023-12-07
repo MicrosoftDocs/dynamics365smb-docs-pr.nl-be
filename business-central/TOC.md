@@ -1,7 +1,7 @@
 
 # [Business Central-documentatie](index.yml)
 # [Welkom bij Business Central](welcome.md)
-# [Nieuw en gepland](product-news.md)
+# [Nieuw en gepland](/dynamics365/business-central/dev-itpro/whatsnew/overview)
 # Aan de slag
 ## [Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->

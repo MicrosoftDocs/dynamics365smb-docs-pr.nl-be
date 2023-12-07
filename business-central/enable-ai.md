@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: 7775
 ---
 
-# <a name="configure-copilot-and-ai-capabilities"></a>Copilot- en AI-mogelijkheden configureren
+# Copilot- en AI-mogelijkheden configureren 
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -30,12 +30,12 @@ In dit artikel wordt uitgelegd hoe u Copilot en andere AI-mogelijkheden in Busin
 
 Als aan een van deze vereisten niet wordt voldaan, is de functie niet beschikbaar voor gebruik.
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten
 
 - U gebruikt Business Central online, versie 23.1 of hoger. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - U beschikt over beheerders- of supermachtigingen in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## <a name="allow-data-movement-across-geographies"></a>Gegevensverplaatsing tussen geografieën toestaan
+## Gegevensverplaatsing tussen geografieën toestaan
 
 Deze taak is alleen van toepassing als de schakelaar **Gegevensverplaatsing toestaan** boven aan de pagina **Copilot en AI-mogelijkheden** wordt weergegeven. De schakelaar **Gegevensverplaatsing toestaan** geeft aan dat uw Business Central-omgevingslocatie&mdash;dat wil zeggen de geografie waar gegevens worden verwerkt en opgeslagen&mdash;niet hetzelfde is als de Azure OpenAI Service-geografie die door Copilot wordt gebruikt. Als u Copilot wilt inschakelen, moet u gegevensverplaatsing tussen regio's toestaan. Voor meer informatie over gegevensverplaatsing gaat u naar [Copilot-gegevensverplaatsing tussen geografieën](ai-copilot-data-movement.md). 
 
@@ -68,7 +68,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## <a name="activate-features"></a>Functies activeren
+## Functies activeren
 
 Alle Copilot- en AI-mogelijkheden zijn standaard actief wanneer ze in preview beschikbaar worden gesteld of algemeen beschikbaar worden. Met behulp van de pagina **Copilot- en AI-mogelijkheden** kunt u afzonderlijke functies voor alle gebruikers uit- of weer inschakelen.
 
@@ -82,7 +82,7 @@ Alle Copilot- en AI-mogelijkheden zijn standaard actief wanneer ze in preview be
    - Om een functie uit te schakelen selecteert u deze en selecteert u vervolgens de actie **Deactiveren**. 
 
 
-## <a name="enable-feature-in-feature-management"></a>Functie inschakelen in Functiebeheer
+## Functie inschakelen in Functiebeheer
 
 Wanneer individuele Copilot-mogelijkheden worden vrijgegeven in kleine updates van Business Central, zijn deze mogelijkheden optioneel tot de volgende grote update. **Functiebeheer** wordt gebruikt om functies in of uit te schakelen die in preview zijn, zoals bankreconciliatie, en sommige functies die algemeen beschikbaar zijn, zoals suggestie voor marketingtekst. [Meer informatie over functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -94,20 +94,20 @@ Wanneer individuele Copilot-mogelijkheden worden vrijgegeven in kleine updates v
 
    Ga voor meer informatie over functiebeheer in het algemeen naar [Functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## <a name="granting-user-access"></a>Gebruikerstoegang verlenen
+## Gebruikerstoegang verlenen 
 
 Copilot- en AI-mogelijkheden kunnen functionaliteit bieden die bedoeld is voor alle gebruikers in uw organisatie of voor specifieke gebruikersrollen. De meeste Copilot- en AI-mogelijkheden bieden toegangscontrole met behulp van machtigingen en machtigingensets in het machtigingsbeheersysteem van Business Central. [Meer informatie over machtigingen en machtigingensets](ui-define-granular-permissions.md).
 
 Als u toegang tot specifieke Copilot- en AI-mogelijkheden wilt verlenen of weigeren, raadpleegt u de documentatie of de uitgever van die functie om te bepalen welke machtigingen vereist zijn. 
 
-## <a name="next-steps"></a>Volgende stappen
+## Volgende stappen
 
 Nadat u de functies heeft ingeschakeld en ermee akkoord gaat, bent u klaar om ze uit te proberen. Ga naar:
 
 - [Marketingtekst aan artikelen toevoegen](item-marketing-text.md) 
 - [Reconciliëren met behulp van hulp bij bankrekeningreconciliatie](bank-reconciliation-with-copilot.md) 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)  
 [Overzicht van suggesties voor marketingteksten](ai-overview.md)   

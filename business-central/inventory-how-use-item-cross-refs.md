@@ -12,17 +12,7 @@ ms.custom: bap-template
 ---
 # Artikelverwijzingen gebruiken
 
-Als u artikelen koopt of verkoopt waarvoor u en uw leverancier of klant verschillende voorwaarden gebruiken, kunt u een verwijzing instellen tussen uw voorwaarden voor de artikelen en de voorwaarden die de klant of leverancier van dat artikel gebruikt. Op deze manier wordt de artikelbeschrijving, eenheid of variantcode van de leverancier of klant automatisch ingevoegd op de relevante documenten wanneer u het veld **Nr. van artikelreferentie** invult.  
-
-> [!NOTE]
-> Niet alle bedrijven gebruiken artikelreferenties. Om rommel op pagina's tot een minimum te beperken, hebben we de gerelateerde velden en acties standaard verborgen. Als u besluit ze te gebruiken, selecteert u het veld **Artikelverwijzingen gebruiken** op de pagina **Voorraadinstellingen**. Nadat u artikelreferenties hebt ingeschakeld, zijn de velden en acties beschikbaar op de pagina's Artikelkaart, Leverancierskaart en Klantenkaart, en in verkoop- en inkoopdocumenten.
->
-> In eerdere versies dan releasewave 2 van 2021 kan uw beheerder de functie *Langere itemreferenties schrijven* op de pagina [Functiebeheer](https://businesscentral.dynamics.com/?page=2610) inschakelen (koppeling vereist dat u een [!INCLUDE [prod_short](includes/prod_short.md)]-tenant hebt). Hoe u verwijzingen gebruikt, verandert niet, maar de namen van zaken als pagina's en knoppen wel. De pagina **Artikelkruisverwijzingposten** wordt bijvoorbeeld de pagina **Artikelverwijzingsposten**.
-
-## Artikelreferenties gaan gebruiken
-
-1. Kies het pictogram :::image type="icon" source="media/ui-search/search_small.png" border="false":::, voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.
-2. Selecteer het veld **Artikelverwijzingen gebruiken**.
+Als u artikelen koopt of verkoopt waarvoor u en uw leverancier of klant verschillende voorwaarden gebruiken, kunt u een verwijzing instellen tussen uw voorwaarden voor de artikelen en de voorwaarden die de klant of leverancier van dat artikel gebruikt. Op deze manier wordt de artikelbeschrijving, eenheid of variantcode van de leverancier of klant automatisch ingevoegd op de relevante documenten wanneer u het veld **Nr. van artikelreferentie** ervan.  
 
 ## Een artikelverwijzing instellen
 
