@@ -10,7 +10,7 @@ ms.date: 10/06/2023
 ms.custom: bap-template
 ---
 
-# E-mail instellen
+# <a name="set-up-email"></a>E-mail instellen
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -23,14 +23,14 @@ E-mailmogelijkheden in [!INCLUDE[prod_short](includes/prod_short.md)] zijn allee
 >
 > Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, moet u voordat u e-mail kunt instellen, een app-registratie maken voor [!INCLUDE[prod_short](includes/prod_short.md)] in de Azure-portal. Door de app-registratie kan [!INCLUDE[prod_short](includes/prod_short.md)] autoriseren en verifiëren bij uw e-mailprovider. Meer informatie op [E-mail instellen voor Business Central On-Premises](admin-how-setup-email.md#set-up-email-for-business-central-on-premises). In [!INCLUDE[prod_short](includes/prod_short.md)] online regelen wij dit voor u.
 
-## Vereisten
+## <a name="requirements"></a>Vereisten
 
 Er is een aantal vereisten voor het instellen en gebruiken van de e-mailfuncties.
 
 * Om e-mail in te stellen moet u de machtigingenset **Instelling van e-mail** hebben. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.
 * Iedereen die de e-mailfuncties gaat gebruiken, moet een volledige licentie hebben voor [!INCLUDE [prod_short](includes/prod_short.md)]. Gedelegeerde beheerders en gastgebruikers kunnen bijvoorbeeld het e-mailaccount van de tenant niet gebruiken.
 
-## E-mailaccounts toevoegen
+## <a name="add-email-accounts"></a>E-mailaccounts toevoegen
 
 U voegt e-mailaccounts toe via extensies waarmee accounts van verschillende providers verbinding kunnen maken met [!INCLUDE[prod_short](includes/prod_short.md)]. Met de standaardextensies kunt u accounts gebruiken vanuit Microsoft Exchange Online. Er zijn echter mogelijk ook andere extensies beschikbaar waarmee u accounts van andere providers kunt koppelen, zoals Gmail.
 
@@ -51,7 +51,7 @@ De volgende tabel beschrijft de e-mailextensies die standaard beschikbaar zijn.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
-## SMTP gebruiken
+## <a name="use-smtp"></a>SMTP gebruiken
 
 Als u het SMTP-protocol wilt gebruiken om e-mails te verzenden vanaf [!INCLUDE[prod_short](includes/prod_short.md)], kunt u de extensie SMTP-connector gebruiken. Wanneer u een account instelt dat SMTP gebruikt, is het veld **Type afzender** belangrijk. Als u **Specifieke gebruiker** kiest, worden e-mails verzonden met de naam en andere informatie van het account dat u instelt. Als u echter **Huidige gebruiker** kiest, worden e-mails verzonden vanaf het e-mailaccount dat is opgegeven voor het account van elke gebruiker. Huidige gebruiker is vergelijkbaar met de functie Verzenden als. Voor meer informatie zie [Een vervangend afzenderadres gebruiken voor uitgaande e-mailberichten](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
@@ -64,7 +64,7 @@ Als u het SMTP-protocol wilt gebruiken om e-mails te verzenden vanaf [!INCLUDE[p
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
-## De begeleide instelling E-mail instellen gebruiken
+## <a name="use-the-set-up-email-assisted-setup-guide"></a>De begeleide instelling E-mail instellen gebruiken
 
 De begeleide instelling **E-mail instellen** kan u helpen snel aan de slag te gaan met e-mails.
 
@@ -80,14 +80,14 @@ De begeleide instelling **E-mail instellen** kan u helpen snel aan de slag te ga
 > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
-## E-mailscenario's toewijzen aan e-mailaccounts
+## <a name="assign-email-scenarios-to-email-accounts"></a>E-mailscenario's toewijzen aan e-mailaccounts
 
 E-mailscenario's zijn processen waarbij een document wordt verzonden. Bijvoorbeeld een verkoop- of inkooporder of een melding, zoals een uitnodiging aan een externe accountant. U kunt specifieke e-mailaccounts gebruiken voor specifieke scenario's. U kunt bijvoorbeeld specificeren dat alle gebruikers altijd verkoopdocumenten verzenden vanaf het ene account, inkoopdocumenten vanuit een ander en magazijn- of productiedocumenten vanaf een derde account. U kunt scenario's toewijzen, opnieuw toewijzen en verwijderen wanneer u maar wilt. Een scenario kan slechts aan één e-mailaccount tegelijk worden toegewezen. Het standaardaccount voor e-mail wordt gebruikt voor alle scenario's die niet aan een account zijn toegewezen.
 
 Op de pagina **Toewijzing van e-mailscenario** kunt u de actie **Standaardbijlagen instellen** kiezen om bijlagen aan e-mailscenario's toe te voegen. De bijlagen zijn altijd beschikbaar wanneer u een e-mail opstelt voor een document dat betrekking heeft op het scenario. Elk e-mailscenario kan een of meer standaardbijlagen hebben. Standaardbijlagen worden automatisch toegevoegd aan e-mails voor het e-mailscenario. Als u bijvoorbeeld een verkooporder per e-mail verzendt, wordt de standaardbijlage die is opgegeven voor het scenario Verkooporder toegevoegd. Standaardbijlagen worden weergegeven in de sectie **Bijlagen** onderaan de pagina **Een e-mail opstellen**. U kunt handmatig niet-standaardbijlagen aan de e-mail toevoegen.
 
 <!--
-## To set up email
+## <a name="to-set-up-email"></a>To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -99,7 +99,7 @@ Op de pagina **Toewijzing van e-mailscenario** kunt u de actie **Standaardbijlag
 
 -->
 
-## Weergavebeleid instellen
+## <a name="set-up-view-policies"></a>Weergavebeleid instellen
 
 U kunt de e-mailberichten beheren waartoe een gebruiker toegang heeft op de pagina's Postvak UIT en Verzonden e-mails.
 
@@ -113,7 +113,7 @@ Kies bij **E-mailweergavebeleid van gebruiker** een gebruiker en kies vervolgens
 > [!NOTE]
 > Als u het veld **Gebruikers-id** leeg laat en vervolgens de actie **E-mailweergavebeleid** kiest, is het beleid dat u definieert, van toepassing op alle gebruikers.
 
-## Geef op hoeveel berichten een account per minuut kan verzenden
+## <a name="specify-how-many-messages-an-account-can-send-per-minute"></a>Geef op hoeveel berichten een account per minuut kan verzenden
 
 Sommige e-mailproviders (ISP's) beperken het aantal e-mailberichten dat een e-mailaccount in één keer, of binnen een bepaalde tijd, of beide kan verzenden. Deze praktijk staat bekend als *e-mailbeperking* en helpt ISP's het verkeer op hun servers te controleren en spam te voorkomen. Als een e-mailaccount de limiet overschrijdt, kan de ISP de berichten blokkeren. Om ervoor te zorgen dat het aantal berichten dat u verstuurt vanuit [!INCLUDE [prod_short](includes/prod_short.md)] voldoet aan de limiet van uw ISP, geeft u de limiet op voor elk van uw e-mailaccounts.
 
@@ -124,7 +124,7 @@ Er zijn twee manieren om de limiet op te geven.
 * Wanneer u de begeleide instelling voor het instellen van e-mail gebruikt om een nieuw account aan te maken, geeft u de limiet op in het veld **Frequentielimiet per minuut** .
 * Geef voor bestaande e-mailaccounts de limiet op in het veld **E-mailfrequentielimiet** van het account.
 
-## Herbruikbare e-mailteksten en lay-outs instellen
+## <a name="set-up-reusable-email-texts-and-layouts"></a>Herbruikbare e-mailteksten en lay-outs instellen
 
 U kunt rapporten gebruiken om belangrijke informatie uit verkoop-, inkoop- en servicedocumenten op te nemen in teksten voor e-mails. Rapportlay-outs bepalen de stijl en de inhoud van de tekst in de e-mail. De inhoud kan bijvoorbeeld tekst bevatten zoals een begroeting of instructies die voorafgaan aan de documentinformatie. Deze procedure beschrijft hoe u het rapport **Verkoop - Factuur** voor geboekte verkoopfacturen instelt, maar het proces is vergelijkbaar voor andere rapporten.
 
@@ -144,7 +144,7 @@ U kunt rapporten gebruiken om belangrijke informatie uit verkoop-, inkoop- en se
 
 Wanneer u nu bijvoorbeeld de actie **Verzenden** kiest op de pagina **Geboekte verkoopfactuur**, bevat de e-mailhoofdtekst de documentgegevens van rapport 1306, voorafgegaan door standaardtekst die is geformatteerd volgens de rapportlay-out die u in stap 5 hebt geselecteerd.
 
-## Een vervangend afzenderadres gebruiken voor uitgaande e-mailberichten
+## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Een vervangend afzenderadres gebruiken voor uitgaande e-mailberichten
 
 Als u de extensie SMTP-connector gebruikt, kunt u de mogelijkheden **Verzenden als** of **Verzenden namens** vanuit Microsoft Exchange gebruiken om het afzenderadres van uitgaande berichten te wijzigen. [!INCLUDE[prod_short](includes/prod_short.md)] zal het SMTP-account gebruiken om te verifiëren bij Exchange, maar zal het afzenderadres vervangen door het adres dat u opgeeft, of het wijzigen met 'namens'.
 
@@ -161,14 +161,14 @@ Hierna volgen voorbeelden van hoe Verzenden als en Verzenden namens worden gebru
 > U kunt slechts één account gebruiken om afzenderadressen te vervangen. Dat wil zeggen, u kunt niet één vervangend adres hebben voor inkoopprocessen en een ander voor verkoopprocessen.
 
 <!--
-### To set up the substitute sender address for all outbound email messages
+### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>To set up the substitute sender address for all outbound email messages
 1. In the **Exchange admin center** for your Microsoft 365 account, find the mailbox to use as the substitute address, and then copy or make a note of the address. If you need a new address, go to your Microsoft 365 admin center to create a new user and set up their mailbox.
 2. In [!INCLUDE[prod_short](includes/prod_short.md)] choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 3. In the **Send As** field, enter the substitute address.
 4. Copy or make a note of the address in the **User ID** field.
 5. In the **Exchange admin center**, find the mailbox to use as the substitute address, and then enter the address from the **User ID** field in the **Send As** field. For more information, see [Use the EAC to assign permissions to individual mailboxes](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
-### To use the substitute address in approval workflows
+### <a name="to-use-the-substitute-address-in-approval-workflows"></a>To use the substitute address in approval workflows
 1. In [!INCLUDE[prod_short](includes/prod_short.md)] choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Copy or make a note of the address in the **User ID** field.
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.
@@ -179,11 +179,11 @@ Hierna volgen voorbeelden van hoe Verzenden als en Verzenden namens worden gebru
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page. -->
 
-## Verzendprofielen van documenten instellen
+## <a name="set-up-document-sending-profiles"></a>Verzendprofielen van documenten instellen
 
 U kunt tijd besparen door voor elk van uw klanten een voorkeursmethode voor het verzenden van verkoopdocumenten in te stellen. U hoeft niet elke keer dat u een document verzendt een verzendoptie te selecteren, zoals of u het document per e-mail of als elektronisch document wilt verzenden. Zie [Verzendprofielen voor documenten instellen](sales-how-setup-document-send-profiles.md) voor meer informatie.
 
-## Optioneel: E-maillogboekregistratie instellen in Exchange Online
+## <a name="optional-set-up-email-logging-in-exchange-online"></a>Optioneel: E-maillogboekregistratie instellen in Exchange Online
 
 Haal meer uit de communicatie tussen verkopers en uw bestaande of potentiële klanten. U kunt e-mailuitwisselingen volgen en deze vervolgens omzetten in bruikbare verkoopkansen. Meer informatie op [E-mailberichtuitwisselingen volgen tussen verkopers en contactpersonen](marketing-set-up-email-logging.md).  
 <!--
@@ -191,7 +191,7 @@ Haal meer uit de communicatie tussen verkopers en uw bestaande of potentiële kl
 
 Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
-## Optioneel: bewaak het e-mailgebruik en los e-mailfouten op met telemetrie
+## <a name="optional-monitor-email-usage-and-troubleshoot-email-failures-with-telemetry"></a>Optioneel: bewaak het e-mailgebruik en los e-mailfouten op met telemetrie
 
 Beheerders kunnen de telemetriefunctie inschakelen in [!INCLUDE[prod_short](includes/prod_short.md)] om gegevens te krijgen over het gebruik en storingen van verschillende mogelijkheden in het systeem. Voor e-mail loggen we de volgende bewerkingen:
 
@@ -202,11 +202,11 @@ Beheerders kunnen de telemetriefunctie inschakelen in [!INCLUDE[prod_short](incl
 
 U kunt deze gegevens gebruiken om het e-mailgebruik te controleren en om e-mailstoringen op te lossen. Ga voor meer informatie naar [E-mailtelemetrie analyseren (beheerinhoud)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace).  
 
-## E-mail instellen voor Business Central On-Premises
+## <a name="set-up-email-for-business-central-on-premises"></a>E-mail instellen voor Business Central On-Premises
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan worden geïntegreerd met services die zijn gebaseerd op Microsoft Azure. U kunt bijvoorbeeld Cortana Intelligence voor slimmere cashflowprognoses gebruiken, Power BI gebruiken om uw bedrijf te visualiseren en Exchange Online gebruiken voor het verzenden van e-mail. Integratie met deze services is gebaseerd op een app-registratie in Microsoft Entra ID. De app-registratie biedt verificatie- en autorisatieservices voor communicatie. Om de e-mailmogelijkheden in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises te gebruiken, moet u [!INCLUDE[prod_short](includes/prod_short.md)] registreren als een app in de Azure Portal en vervolgens [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met de app-registratie. In de volgende secties wordt uitgelegd hoe u dat doet.
 
-### Een appregistratie voor Business Central maken in Azure Portal
+### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Een appregistratie voor Business Central maken in Azure Portal
 
 De stappen om [!INCLUDE[prod_short](includes/prod_short.md)] te registreren in Azure Portal worden beschreven in [Een toepassing registreren in Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
@@ -243,7 +243,7 @@ Meer informatie over algemene richtlijnen voor het registreren van een app op [Q
 > [!NOTE]
 Als u problemen ondervindt bij het gebruik van het SMTP-protocol om e-mail te verzenden nadat u [!INCLUDE[prod_short](includes/prod_short.md)] hebt verbonden met uw appregistratie, kan het zijn dat SMTP AUTH niet is ingeschakeld voor uw tenant. We raden u aan om in plaats daarvan de e-mailconnectoren Microsoft 365 en Huidige gebruiker te gebruiken, omdat deze de API's van Microsoft Graph Mail gebruiken. Als u echter het SMTP-protocol moet gebruiken, kunt u SMTP AUTH inschakelen. Zie voor meer informatie [Geverifieerde client SMTP-verzending (SMTP AUTH) in- of uitschakelen Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met uw app-registratie
+### <a name="connect--to-your-app-registration"></a>[!INCLUDE[prod_short](includes/prod_short.md)] verbinden met uw app-registratie
 
 Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUDE[prod_short](includes/prod_short.md)] de pagina **Microsoft Entra ID-registratie van e-mailtoepassing** om [!INCLUDE[prod_short](includes/prod_short.md)] ermee te verbinden.
 
@@ -276,7 +276,7 @@ Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUD
 
 -->
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Gedeelde postbussen in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -22,7 +22,7 @@ Wanneer u de voorraadartikelen ontvangt of wanneer de ingekochte service is volt
 > [!CAUTION]  
 > Boek geen inkoopfactuur voor fysieke artikelen totdat u de fysieke artikelen ontvangt en de uiteindelijke kosten van de inkoop kent, inclusief eventuele toeslagen. Anders kloppen uw voorraadwaarde en winstcijfers mogelijk niet.
 
-### <a name="create-a-and-post-purchase-invoice"></a>Een verkoopfactuur maken en boeken
+### <a name="create-and-post-a-purchase-invoice"></a>Een verkoopfactuur maken en boeken
 
 Hieronder wordt beschreven hoe u een inkoopfactuur maakt. De stappen zijn vergelijkbaar met de stappen voor een inkooporder. Het belangrijkste verschil is dat inkooporders extra velden en acties hebben voor de fysieke afhandeling van artikelen.
 

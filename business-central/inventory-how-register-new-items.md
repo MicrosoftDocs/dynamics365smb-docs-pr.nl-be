@@ -99,7 +99,7 @@ Wanneer het gevraagde aantal artikelen de hoeveelheid die in voorraad beschikbaa
 
 Zie [Productvarianten beheren](inventory-item-variants.md) voor meer informatie over varianten.  
 
-## <a name="deleting-item-cards"></a>Artikelkaarten verwijderen
+## <a name="delete-item-cards"></a>Artikelkaarten verwijderen
 
 Als u een transactie voor een artikel hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor voorraadwaardering of controle. Als u artikelkaarten met grootboekposten wilt verwijderen, neemt u contact op met de Microsoft-partner om dat via code te doen.  
 

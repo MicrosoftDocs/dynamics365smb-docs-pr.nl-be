@@ -57,7 +57,7 @@ Voordat u een dergelijke SEPA-betalingen kunt indienen, moet u de volgende behee
     |**Uitvoeringsdatum**|Voer een uitvoeringsdatum in als u op de betalingsregels een datum wilt hebben die afwijkt van de boekingsdatum.|  
     |**Bestandsnaam**|Voer de naam in van het bestand, inclusief station en map, waarin u het rapport wilt afdrukken.|  
 
-## <a name="correcting-payment-lines"></a>Betalingsregels corrigeren
+## <a name="correct-payment-lines"></a>Betalingsregels corrigeren
 
 U moet alle fouten corrigeren voordat u de regels met elektronische betalingen kunt boeken. U kunt betalingsregels op de volgende manieren corrigeren.  
 

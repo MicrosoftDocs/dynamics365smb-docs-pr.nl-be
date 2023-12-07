@@ -73,7 +73,7 @@ Charles, de servicemanager, maakt vervolgens een servicecontract om reguliere on
 - Er wordt een ondertekend servicecontract gemaakt met grootboekposten
 - Er wordt een geboekte servicefactuur gemaakt
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Een serviceorder voor een servicecontract maken en resources toewijzen
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Een serviceorder voor een servicecontract maken en resources toewijzen
 
 ### <a name="scenario-2"></a>Scenario
 
