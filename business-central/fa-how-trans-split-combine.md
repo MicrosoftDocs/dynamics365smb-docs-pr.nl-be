@@ -10,11 +10,11 @@ ms.search.form: '5638, 5636, 5640, 5637'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="transfer-split-or-combine-fixed-assets"></a>Vaste activa overboeken, splitsen of combineren
+# Vaste activa overboeken, splitsen of combineren
 
 U gebruikt het herindelingsdagboek voor vaste activa voor het verplaatsen, combineren en splitsen van vaste activa. U bekijkt de resultaten van de herindeling van vaste activa of drukt deze af met het rapport **Vast activum - Boekwaarde 02**.
 
-## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a>Een vast activum naar een andere afdeling verplaatsen
+## Een vast activum naar een andere afdeling verplaatsen
 
 Mogelijk moet u een vast activum verplaatsen naar een andere afdeling wanneer u bijvoorbeeld een activum in de productieafdeling plaatst zolang het niet af is en het vervolgens verplaatst naar de administratieafdeling wanneer het klaar is.  
 
@@ -30,7 +30,7 @@ Mogelijk moet u een vast activum verplaatsen naar een andere afdeling wanneer u 
 
 Als u aanschafkosten voor één activum hebt geboekt, kunt u het herindelingsdagboek voor vaste activa gebruiken om de aanschafkosten over meerdere activa te verdelen.  
 
-## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>Een vast activum in drie vaste activa splitsen
+## Een vast activum in drie vaste activa splitsen
 U kunt één vast activum in meerdere vaste activa splitsen, bijvoorbeeld als u een vast activum moet verdelen in drie verschillende afdelingen. In dat geval kunt u bijvoorbeeld 25 procent van de aanschafkosten en afschrijving voor het oorspronkelijke vaste activum naar het tweede vaste activum verplaatsen, en 45 procent naar het derde activum. De resterende 30 procent blijft in het oorspronkelijke vaste activum.
 
 1. Stel twee nieuwe vaste activa in. Voer de relevante afdelingen in als dimensies.  
@@ -46,7 +46,7 @@ U kunt één vast activum in meerdere vaste activa splitsen, bijvoorbeeld als u 
 9. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.
 10. Kies op de pagina **Financieel dagboek voor vaste activa** de actie **Boeken** om de herindeling te boeken die u in stap 4 tot en met 8 hebt uitgevoerd.
 
-## <a name="to-combine-two-fixed-assets-into-one"></a>Twee vaste activa combineren in één vast activum
+## Twee vaste activa combineren in één vast activum
 
 U kunt meerdere vaste activa combineren in één vast activum, bijvoorbeeld als u gedistribueerde vaste activa in één afdeling verplaatst. Als u aanschafkosten en afschrijving hebt geboekt voor het vaste activum dat moet worden verplaatst, worden deze waarden gecombineerd in het ene vaste activum.
 
@@ -60,13 +60,13 @@ U kunt meerdere vaste activa combineren in één vast activum, bijvoorbeeld als 
 6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.
 7. Kies op de pagina **Financieel dagboek voor vaste activa** de actie **Boeken** om de herindeling te boeken die u in stap 2 tot en met 5 hebt uitgevoerd.
 
-## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Gewijzigde afschrijvingsboekwaarden wegens herindeling van vaste activa bekijken
+## Gewijzigde afschrijvingsboekwaarden wegens herindeling van vaste activa bekijken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vast activum - Boekwaarde 02** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in.
 3. Kies de knop **Afdrukken** of **Voorbeeld**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  

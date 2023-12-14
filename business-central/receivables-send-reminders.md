@@ -11,11 +11,11 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: bholtorf
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Aanmaningen voor uitstaande saldi verzenden
+# Aanmaningen voor uitstaande saldi verzenden
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Meerdere rentetarieven instellen voor uitgestelde betaling](finance-how-to-set-up-multiple-interest-rates.md)  

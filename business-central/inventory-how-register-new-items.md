@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 09/26/2022
+ms.date: 11/02/2022
 ms.author: bholtorf
 ---
-# <a name="register-new-items"></a>Nieuwe artikelen registreren
+# Nieuwe artikelen registreren
 
 Artikelen vormen met andere producten de basis van uw bedrijf, de goederen of services waarin u handelt. Elk artikelproduct moet worden geregistreerd als een artikelkaart.
 
@@ -21,7 +21,7 @@ De artikelkaart kan van het type **Voorraad**, **Service** of **Niet-voorraad** 
 
 Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie over assemblagestuklijsten en productiestuklijsten.
 
-Als u hetzelfde artikel inkoopt bij meerdere leveranciers, kunt u die leveranciers aan de artikelkaart koppelen. De leveranciers worden vervolgens weergegeven op de pagina **Artikelleveranciers**, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
+Als u hetzelfde artikel inkoopt bij meerdere leveranciers, kunt u die leveranciers aan de artikelkaart koppelen. De pagina **Artikel-/leverancierscatalogus** bevat de leveranciers, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
 
 *Catalogusartikelen* zijn artikelen die u aan uw klanten aanbiedt, maar die u niet in uw systeem wilt beheren tot u ze begint te verkopen. Catalogusartikelen zijn niet hetzelfde als normale artikelen van het type **Niet-voorraad**. Meer informatie op [Werken met catalogusartikelen](inventory-how-work-nonstock-items.md).  
 
@@ -34,7 +34,7 @@ In de volgende procedure wordt uitgelegd hoe u een geheel nieuwe artikelkaart ma
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## <a name="to-create-a-new-item-card"></a>Een nieuwe artikelkaart maken
+## Een nieuwe artikelkaart maken
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -49,7 +49,7 @@ Het artikel is nu geregistreerd en de artikelkaart is klaar om voor inkoop- en v
 
 Als u deze artikelkaart als sjabloon wilt gebruiken wanneer u nieuwe artikelkaarten maakt, kunt u deze opslaan als een sjabloon. Zie de volgende onderwerpen voor meer informatie.  
 
-### <a name="to-save-the-item-card-as-a-template"></a>De artikelkaart als sjabloon opslaan
+### De artikelkaart als sjabloon opslaan
 
 1. Kies op de pagina **Artikelkaart** de actie **Opslaan als sjabloon**. De pagina **Artikelsjabloon** opent de weergave van de artikelkaart als sjabloon.
 2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,11 +59,11 @@ Als u deze artikelkaart als sjabloon wilt gebruiken wanneer u nieuwe artikelkaar
 
 De artikelsjabloon wordt toegevoegd aan de lijst met artikelsjablonen, zodat u deze kunt gebruiken om nieuwe artikelkaarten te maken.
 
-### <a name="items-used-in-production-orders"></a>Artikelen gebruikt in productieorders
+### Artikelen gebruikt in productieorders
 
 Als u artikelen wilt registreren die in productieorders worden gebruikt, geeft u het aanvulsysteem op als *Prod.-order* op het sneltabblad **Aanvulling**. Zie voor meer informatie [Over productieorders](production-about-production-orders.md).  
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>Meerdere leveranciers voor een artikel instellen
+## Meerdere leveranciers voor een artikel instellen
 
 Als u hetzelfde artikel bij meerdere leveranciers inkoopt, moet u informatie over elk van deze leveranciers invoeren, bijvoorbeeld informatie over prijzen, levertermijn, kortingen, enzovoort.  
 
@@ -74,13 +74,13 @@ Als u hetzelfde artikel bij meerdere leveranciers inkoopt, moet u informatie ove
 5. Het invullen van de overige velden is optioneel.  
 6. Herhaal stap 2 t/m 5 voor elke leverancier waarbij u het artikel wilt kunnen inkopen.
 
-Deze leveranciers worden vervolgens weergegeven op de pagina **Artikelleveranciers**, dat u opent vanuit de artikelkaart, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
+Deze leveranciers worden vervolgens weergegeven op de pagina **Artikelleveranciers**, die u opent vanuit de artikelkaart, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
 
-## <a name="set-up-item-substitutions"></a>Artikelvervangingen instellen
+## Artikelvervangingen instellen
 
 U kunt artikelen instellen om vervangingen te hebben, zoals andere artikelen die kunnen worden gebruikt in plaats van het oorspronkelijke artikel.
 
-### <a name="to-make-an-item-substitution"></a>Een artikelvervanging maken
+### Een artikelvervanging maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Zoek het relevante artikel en kies vervolgens **Artikelnr.** om de artikelkaart te openen.  
@@ -93,29 +93,29 @@ Wanneer het gevraagde aantal artikelen de hoeveelheid die in voorraad beschikbaa
 > [!NOTE]  
 > Houd er rekening mee dat artikelvervangingen er niet automatisch toe leiden dat een artikel wordt vervangen door een ander artikel, bijvoorbeeld bij het maken van een verkooporder of in een stuklijst. In plaats daarvan wordt u erop gewezen dat er een vervanging voor u beschikbaar is.
 
-## <a name="categories-attributes-and-variants"></a>Categorieën, kenmerken en varianten
+## Categorieën, kenmerken en varianten
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Zie [Productvarianten beheren](inventory-item-variants.md) voor meer informatie over varianten.  
 
-## <a name="delete-item-cards"></a>Artikelkaarten verwijderen
+## Artikelkaarten verwijderen
 
-Als u een transactie voor een artikel hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor voorraadwaardering of controle. Als u artikelkaarten met grootboekposten wilt verwijderen, neemt u contact op met de Microsoft-partner om dat via code te doen.  
+Als u een transactie voor een artikel boekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor voorraadwaardering of controle. Als u artikelkaarten met grootboekposten wilt verwijderen, neemt u contact op met de Microsoft-partner om dat via code te doen.  
 
-## <a name="manage-inventory-in-warehouses"></a>Voorraad beheren in magazijnen
+## Voorraad beheren in magazijnen
 
 Wanneer u een nieuw artikel registreert, ziet u velden die betrekking hebben op magazijnbeheer, met name op het sneltabblad **Magazijn**. Als uw organisatie geen gebruik maakt van de magazijnbeheermogelijkheden in [!INCLUDE [prod_short](includes/prod_short.md)], kunt u die velden negeren.  
 
 Als uw organisatie later magazijnbeheer instelt, raden we u aan ervoor te zorgen dat elk bestaand artikel de juiste informatie in de verschillende velden bevat. Op deze manier kunnen de magazijnprocessen verlopen zoals verwacht. De informatie kan velden bevatten zoals **Magazijnklassecode** of **Opslagsjabloon**. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).  
 
-## <a name="planning"></a>Planning
+## Planning
 
 Wanneer uw bedrijf de leveringsplanningsprocessen gebruikt in [!INCLUDE [prod_short](includes/prod_short.md)], moet u de relevante velden invullen op het sneltabblad **Planning**. Voor een inleiding tot het planningsgebied zie [Ontwerpdetails: centrale concepten van het planningssysteem](design-details-central-concepts-of-the-planning-system.md).  
 
 Voor voorbeelden van hoe u de velden op het sneltabblad **Planning** gebruikt zie [Best practices instellen: planningsparameters](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Maateenheden instellen](inventory-how-setup-units-of-measure.md)  

@@ -8,7 +8,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: bholtorf
 ---
-# <a name="approval-workflow-notifications"></a>Goedkeuringswerkstroomberichten
+# Goedkeuringswerkstroomberichten
 
 Stel uw werkstromen zo in dat gebruikers automatisch op de hoogte worden gesteld wanneer hun aandacht vereist is voor een stap in een werkstroom. In veel werkstroomreacties wordt aan een gebruiker gemeld dat er een gebeurtenis is opgetreden waarop deze moet reageren.
 
@@ -20,7 +20,7 @@ U kunt bijvoorbeeld instellen dat gebruiker 2, de fiatteur, een melding ontvangt
 > [!IMPORTANT]  
 > Alle werkstroomberichten worden verzonden via een taakwachtrij. Zorg dat de taakwachtrij in uw installatie is ingesteld om werkstroomberichten te verwerken en dat u het selectievakje **Automatisch starten van server** hebt ingeschakeld. Zie voor meer informatie [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Berichten instellen
+## Berichten instellen
 
 U kunt verschillende aspecten van werkstroomberichten op de volgende plaatsen instellen:  
 
@@ -49,7 +49,7 @@ U kunt verschillende aspecten van werkstroomberichten op de volgende plaatsen in
 
   Voeg voor goedkeuringswerkstromen een werkstroomreactiestap toe om de afzender te informeren wanneer het verzoek is goedgekeurd of afgewezen. Lees meer vanaf stap 9 in de sectie [Werkstromen maken](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)  
 [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)  

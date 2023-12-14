@@ -1,23 +1,23 @@
 ---
-title: Batchverwerking Leveranciersbetalingen voorstellen
-description: U kunt betalingsinstellingen voor leveranciers opgeven om suggesties voor betalingen te ontvangen.
+title: Leveranciersbetalingen voorstellen
+description: Gebruik de batchverwerking Leveranciersbetalingen voorstellen om betalingsregels voor uw leveranciers te maken op basis van vervaldatums en betalingskortingen.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256,'
-ms.date: 09/07/2023
+ms.date: 12/04/2023
 ms.custom: bap-template
 ---
-# <a name="suggest-vendor-payments"></a>Leveranciersbetalingen voorstellen
+# Leveranciersbetalingen voorstellen
 
-Op de pagina **Betalingsdagboek** kunt u door middel van de batchverwerking **Leveranciersbetalingen voorstellen** betalingsregels laten voorstellen. Op basis van uw instellingen stelt [!INCLUDE [prod_short](includes/prod_short.md)] regels voor betalingen voor:
+Op de pagina **Betalingsdagboek** kunt u door middel van de batchverwerking **Leveranciersbetalingen voorstellen** betalingsregels laten voorstellen. Op basis van uw instellingen stelt [!INCLUDE [prod_short](includes/prod_short.md)] regels voor het volgende voor:
 
-* Betalingen die binnenkort verschuldigd zijn
-* Betalingen waarbij een betalingskorting beschikbaar is
+- Betalingen die binnenkort verschuldigd zijn
+- Betalingen waarbij een betalingskorting beschikbaar is.
 
-Om optimaal van voorgestelde betalingen te profiteren, moet u uw leveranciers eerst naar prioriteit indelen. Ga voor meer informatie over het prioriteren van leveranciers naar [De prioriteit van leveranciers bepalen](purchasing-how-prioritize-vendors.md).  
+Om optimaal van voorgestelde betalingen te profiteren, moet u uw leveranciers naar prioriteit indelen. Ga voor meer informatie over het prioriteren van leveranciers naar [De prioriteit van leveranciers bepalen](purchasing-how-prioritize-vendors.md).  
 
 > [!NOTE]  
 > De batchverwerking sluit leveranciersposten uit die **Afwachten** of die al zijn toegepast en een waarde hebben in het veld **Vereffenings-id**.  
@@ -29,14 +29,14 @@ Om optimaal van voorgestelde betalingen te profiteren, moet u uw leveranciers ee
 > * Achterstallige posten zonder prioriteitsnummer.  
 > * Openstaande leveranciersposten die in aanmerking komen voor betalingskortingen. De posten zijn gerangschikt op leveranciersnummer.  
 
-## <a name="use-the-suggest-vendor-payments-action"></a>De functie Leveranciersbetalingen voorstellen gebruiken
+## De actie Leveranciersbetalingen voorstellen gebruiken
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
-2. Open het dagboek en kies vervolgens de actie **Leveranciersbetalingen voorstellen**.  
-3. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Kies de knop **Ok**.  
+1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsdagboeken** in en selecteer vervolgens de gerelateerde koppeling.  
+2. Open het dagboek en selecteer vervolgens de actie **Leveranciersbetalingen voorstellen**.  
+3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Selecteer de knop **OK**.  
 
-## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>De vervaldatum als boekingsdatum invoegen op betalingsdagboekregels
+## De vervaldatum als boekingsdatum invoegen op betalingsdagboekregels
 
 Wanneer u de batchverwerking **Leveranciersbetalingen voorstellen** gebruikt om betalingsregels voor uw leveranciers te maken, kunt u twee speciale velden invullen om te zorgen dat de gegenereerde regels de vervaldatum gebruiken om de boekingsdatum te berekenen. Deze velden zijn **Bereken boekingsdatum via vervaldatum vereffeningsdoc.** en **Vervaldatumafwijking vereffeningsdoc.**.  
 
@@ -50,11 +50,11 @@ U kunt ook handmatig betalingsregels maken, waarbij de vervaldatum wordt gebruik
 > [!NOTE]  
 > Als de inkoopfactuur achterstallig is, wordt de boekingsdatum ingesteld op de werkdatum en wordt het lettertype op de regel rood.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Betalingsverplichtingen beheren](payables-manage-payables.md)  
-[Betalingen uitvoeren](payables-make-payments.md)  
-[Werken met dagboeken](ui-work-general-journals.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+- [Betalingsverplichtingen beheren](payables-manage-payables.md)  
+- [Betalingen uitvoeren](payables-make-payments.md)  
+- [Werken met dagboeken](ui-work-general-journals.md)  
+- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

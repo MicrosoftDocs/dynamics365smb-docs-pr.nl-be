@@ -11,7 +11,7 @@ ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="process-purchase-returns-or-cancellations"></a>Inkoopretouren of annuleringen verwerken
+# Inkoopretouren of annuleringen verwerken
 
 Als u artikelen wilt retourneren naar uw leverancier of services die u hebt aangeschaft, wilt annuleren, kunt u een inkoopcreditnota maken en boeken met de aangevraagde wijziging voor de oorspronkelijke inkoopfactuur. Als u de correcte inkoopfactuurinformatie wilt opnemen, kunt u de inkoopcreditnota rechtstreeks vanuit de geboekte inkoopfactuur maken, of een nieuwe inkoopcreditnota maken met gekopieerde informatie uit de factuur.
 
@@ -28,7 +28,7 @@ Naast de oorspronkelijke geboekte inkoopfactuur kunt u de inkoopcreditnota of de
 
 De creditnotaboeking draait ook eventuele artikeltoeslagen terug die aan het geboekte document zijn toegewezen, zodat de waardeposten van het artikel hetzelfde zijn als voordat de artikeltoeslag is toegewezen.
 
-## <a name="inventory-costing"></a>Voorraadwaardering
+## Voorraadwaardering
 Om de juiste voorraadwaardering te behouden, wilt u meestal retourartikelen uit de voorraad picken tegen de eenheidskostprijs waarvoor ze zijn ingekocht en niet tegen de huidige eenheidskostprijs. Dit wordt exacte kostentegenboeking genoemd.
 
 Er zijn twee functies om kosten automatisch exact tegen te boeken.  
@@ -42,7 +42,7 @@ Als u exacte tegenboeking van kosten handmatig wilt toewijzen, moet u het veld *
 
 Zie voor meer informatie [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md).
 
-## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Een nieuwe inkoopcreditnota maken vanuit een geboekte inkoopfactuur
+## Een nieuwe inkoopcreditnota maken vanuit een geboekte inkoopfactuur
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Geboekte inkoopfacturen** de geboekte inkoopfactuur die u wilt tegenboeken en kies vervolgens de actie **Corrigerende creditnota maken**.
@@ -63,7 +63,7 @@ De geboekte inkoopfacturen die u met de creditnota vereffent, worden nu tegengeb
 
 De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de lijst met geboekte inkoopcreditnota's.
 
-## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Een nieuwe inkoopcreditnota maken door een geboekte inkoopfactuur te kopiëren.
+## Een nieuwe inkoopcreditnota maken door een geboekte inkoopfactuur te kopiëren.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopcreditnota's** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw** om een nieuwe lege inkoopcreditnota te openen.
@@ -75,7 +75,7 @@ De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de 
 8. Kies de knop **Ok**. De gekopieerde factuurregels worden ingevoegd in de kredietnota van de aankoop.
 9. Voltooi de inkoopcreditnota, zoals is uitgelegd in [Een nieuwe inkoopcreditnota maken vanuit een geboekte inkoopfactuur](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Een inkoopretourorder maken op basis van een of meer geboekte inkoopdocumenten
+## Een inkoopretourorder maken op basis van een of meer geboekte inkoopdocumenten
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopretourorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -125,7 +125,7 @@ De inkoopcreditnota wordt verwijderd en vervangen door een nieuw document in de 
 10. Selecteer op de pagina **Inkoopretourorder** in het veld **Retourreden** op elke regel de reden voor de retour.
 11. Kies de actie **Boeken**.
 
-## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Een vervangende inkooporder maken vanuit een inkoopretourorder
+## Een vervangende inkooporder maken vanuit een inkoopretourorder
 
 U kunt met de leverancier afspreken dat deze een ingekocht artikel vervangt. Het vervangende artikel kan hetzelfde of een ander artikel zijn. Dit kan voorkomen als de leverancier per ongeluk het verkeerde artikel verzendt.  
 
@@ -134,7 +134,7 @@ U kunt met de leverancier afspreken dat deze een ingekocht artikel vervangt. Het
 3. Vul op de pagina **Neg. inkoopregels verplaatsen** in de velden de gewenste gegevens in.
 4. Kies de knop **OK**. De negatieve regel wordt verwijderd uit de inkoopretourorder en er wordt een nieuwe inkooporder gemaakt. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).  
 
-## <a name="to-create-a-purchase-allowance"></a>Een inkooptegoed maken
+## Een inkooptegoed maken
 
 Als u van de leverancier artikelen ontvangt die niet naar wens zijn, bijvoorbeeld omdat ze licht zijn beschadigd, de verkeerde kleur of het verkeerde formaat hebben, biedt de leverancier u misschien een inkooptegoed aan.  
 
@@ -153,7 +153,7 @@ U kunt deze korting op de inkoopkosten als artikeltoeslag op een creditnota of r
 
 Wanneer u de inkoopretourorder boekt, wordt het inkooptegoed opnieuw toegevoegd aan het bedrag van de betreffende inkooppost. Op deze manier kunt u de waardering van uw voorraad correct bijhouden.  
 
-## <a name="to-combine-return-shipments"></a>Retourverzendingen combineren
+## Retourverzendingen combineren
 
 Als u artikelen wilt retourneren die onder verschillende inkoopretourorders voor dezelfde fabrikant vallen, kunt u de functie **Retourverzendingen combineren** gebruiken.  
 
@@ -175,13 +175,13 @@ Wanneer retourverzendingen zijn gecombineerd op een creditnota en zijn geboekt, 
     Als een onjuiste retourverzendregel is geselecteerd of als u opnieuw wilt beginnen, kunt u de regels op de inkoopcreditnota gewoon verwijderen en vervolgens de functie **Retourverzendregels ophalen** opnieuw gebruiken.  
 6. Kies de actie **Boeken**.  
 
-### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Open inkoopretourorders verwijderen na gecombineerde boeking van retourverzendingen
+### Open inkoopretourorders verwijderen na gecombineerde boeking van retourverzendingen  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gefactureerde inkoopretourorders verwijderen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de overige velden desgewenst in en kies de knop **OK**.  
 3. U kunt de afzonderlijke inkoopretourorders ook handmatig verwijderen.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

@@ -10,11 +10,11 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# <a name="faq-for-marketing-text-suggestions-with-copilot"></a>Veelgestelde vragen voor marketingtekstsuggesties met Copilot
+# Veelgestelde vragen voor marketingtekstsuggesties met Copilot
 
 Deze veelgestelde vragen (FAQ) beschrijven de AI-impact van de [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] functie in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="what-is-item-marketing-text-suggestions"></a>Wat zijn suggesties voor marketingtekst van artikelen?
+## Wat zijn suggesties voor marketingtekst van artikelen?
 
 Copilot biedt schrijfhulp voor gebruikers die verantwoordelijk zijn voor het schrijven van marketingtekst (ook wel kopij genoemd) voor artikelen in [!INCLUDE[prod_short](includes/prod_short.md)]. Deze functie staat bekend als [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]. De functie [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] biedt schrijfhulp voor gebruikers die verantwoordelijk zijn voor het schrijven van marketingtekst (ook wel *kopij* genoemd) voor artikelen in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -31,20 +31,20 @@ Enkele belangrijke voordelen van deze functie zijn onder meer:
 - Ontgrendelt creativiteit om aantrekkelijkere productbeschrijvingen te geven.
 - Verbetert de consistentie van marketingmateriaal voor productlijnen.
 
-## <a name="what-are-the-systems-capabilities"></a>Wat zijn de mogelijkheden van het systeem?
+## Wat zijn de mogelijkheden van het systeem?
 
 De functie [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] gebruikt de [Azure OpenAI-service van Microsoft](/azure/cognitive-services/openai/overview) om toegang te krijgen tot krachtige taalmodellen die natuurlijke taal analyseren en genereren. Deze modellen zijn getraind op een groot aantal tekstgegevenssets. Hierdoor kan Copilot voorgestelde, gepersonaliseerde antwoorden in het Engels genereren op basis van een minimale hoeveelheid invoergegevens, zoals de kenmerken, categorie of beschrijving van een artikel. 
 
-## <a name="what-is-the-systems-intended-use"></a>Wat is het beoogde gebruik van het systeem?
+## Wat is het beoogde gebruik van het systeem?
 
 Deze functie is bedoeld om gebruikers te helpen bij het maken van marketingtekst voor artikelen in [!INCLUDE[prod_short](includes/prod_short.md)]. Schrijvers gebruiken de functie om snel overtuigende en boeiende tekstsuggesties te krijgen, die vervolgens worden beoordeeld en bewerkt op nauwkeurigheid. 
 
-## <a name="how-was-item-marketing-text-evaluated-what-metrics-are-used-to-measure-performance"></a>Hoe werd artikelmarketingtekst beoordeeld? Welke statistieken worden gebruikt om de prestaties te meten?
+## Hoe werd artikelmarketingtekst beoordeeld? Welke statistieken worden gebruikt om de prestaties te meten?
 
 - De functie werd uitgebreid getest, waarbij talloze teksten in verschillende talen door taalexperts werden beoordeeld op basis van verschillende criteria. De tests waren gebaseerd op de demonstratiegegevens van [!INCLUDE[prod_short](includes/prod_short.md)] en andere fictieve productcatalogi.
 - Deze functie is gebouwd in overeenstemming met de Responsible AI Standard van Microsoft. [Lees meer over verantwoorde AI van Microsoft](https://aka.ms/RAI).
 
-## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>Hoe bewaakt Microsoft de kwaliteit van de gegenereerde inhoud?
+## Hoe bewaakt Microsoft de kwaliteit van de gegenereerde inhoud?
 
 Microsoft beschikt over verschillende systemen om ervoor te zorgen dat de mogelijkheden van Copilot operationeel blijven en inhoud van de hoogste kwaliteit genereren.
 
@@ -66,7 +66,7 @@ Microsoft beschikt over verschillende systemen om ervoor te zorgen dat de mogeli
 
    Raadpleeg [Gegevens, privacy en beveiliging voor de Azure OpenAI-service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation) voor meer informatie.
 
-## <a name="is-there-a-logging-and-human-review-process-as-part-of-azure-openai-service-and-if-so-can-i-opt-out"></a>Bestaat er een proces voor logboekregistratie en menselijke beoordeling als onderdeel van de Azure OpenAI-service, en zo ja, kan ik mij hiervoor afmelden?
+## Bestaat er een proces voor logboekregistratie en menselijke beoordeling als onderdeel van de Azure OpenAI-service, en zo ja, kan ik mij hiervoor afmelden?  
 
 Als onderdeel van het leveren van de Azure OpenAI-service verwerkt en bewaart Microsoft klantgegevens die bij de service zijn ingediend, evenals uitvoerinhoud, met als doel toezicht te houden op misbruik of schadelijk gebruik of uitvoer van de service en dit te voorkomen; en voor het ontwikkelen, testen en verbeteren van mogelijkheden die zijn ontworpen om misbruik van en schadelijke uitvoer van de service te voorkomen. 
 
@@ -74,13 +74,13 @@ Geautoriseerd Microsoft-personeel kan gegevens bekijken die onze geautomatiseerd
 
 Zodat Microsoft de service en zijn klanten kan beschermen is het niet mogelijk om u af te melden voor logboekregistratie en menselijke beoordelingsprocessen.
 
-## <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Welke gegevens worden door de functie verzameld? Hoe worden de gegevens gebruikt?
+## Welke gegevens worden door de functie verzameld? Hoe worden de gegevens gebruikt?
 
 De mogelijkheid voor marketingtekstsuggesties verzamelt de minimale gegevens die Business Central nodig heeft om de service aan te bieden. Zie [Dynamics 365-voorwaarden voor door Azure OpenAI aangedreven functies](https://go.microsoft.com/fwlink/?linkid=2236010) voor meer informatie.
 
 De mogelijkheid verzamelt ook gegevens van de feedback die gebruikers kunnen geven met behulp van de pictogrammen 'Vind ik leuk' (duim omhoog) of 'Niet leuk' (duim omlaag) bovenaan de pagina **Copilot**. De gegevens zijn anoniem en omvatten de keuze tussen leuk of niet leuk, de reden voor afkeer (indien opgegeven) en de Copilot-functie waarop de feedback van toepassing is. We gebruiken deze gegevens om de kwaliteit van de functie te beoordelen en te verbeteren.
 
-## <a name="what-are-the-limitations-of--how-can-users-minimize-the-impact-of-the-includefeature-marketing-text-suggestions-limitations-when-using-the-system"></a>Wat zijn de huidige beperkingen van [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? Hoe kunnen gebruikers de impact van de beperkingen van [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] tot een minimum terugbrengen bij het gebruik van het systeem?
+## Wat zijn de huidige beperkingen van [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? Hoe kunnen gebruikers de impact van de beperkingen van [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] tot een minimum terugbrengen bij het gebruik van het systeem?
 
 - Omdat de onderliggende technologie achter de functie AI gebruikt die is getraind op een breed scala aan bronnen, is de gegenereerde inhoud niet altijd feitelijk of geschikt. Sommige suggesties kunnen zelfs twijfelachtige of ongepaste inhoud bevatten. Het is uw verantwoordelijkheid om gegenereerde suggesties te bekijken en te bewerken om er zeker van te zijn dat deze nauwkeurig en gepast zijn.
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
@@ -88,7 +88,7 @@ De mogelijkheid verzamelt ook gegevens van de feedback die gebruikers kunnen gev
   Onnauwkeurige antwoorden kunnen worden geretourneerd wanneer gebruikers met het systeem communiceren in andere dan de ondersteunde talen. Ook kan er onnauwkeurige tekst worden gegenereerd als de taal van de gebruiker en de primaire gegevenstaal in de [!INCLUDE[prod_short](includes/prod_short.md)]-database niet identiek zijn.
 
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-system"></a>Welke operationele factoren en instellingen maken een effectief en verantwoordelijk gebruik van het systeem mogelijk?
+## Welke operationele factoren en instellingen maken een effectief en verantwoordelijk gebruik van het systeem mogelijk?
 
 Er zijn een paar dingen die u kunt doen om de functie optimaal te benutten:
 
@@ -103,7 +103,7 @@ Ga voor meer informatie naar [Tekstsuggesties verbeteren en aanpassen](item-mark
 > Controleer de suggesties altijd op nauwkeurigheid voordat u ze opslaat en publiceert voor openbaar gebruik.
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 - [Suggesties voor marketingteksten](ai-overview.md)
 

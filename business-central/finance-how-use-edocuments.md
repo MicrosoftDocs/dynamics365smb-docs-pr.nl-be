@@ -12,29 +12,36 @@ ms.date: 10/03/2023
 ms.author: altotovi
 ---
 
-# <a name="use-e-documents-in-sales-and-purchases"></a>E-documenten gebruiken in verkoop en inkoop
+# E-documenten gebruiken in verkoop en inkoop
 
 U kunt geconfigureerde elektronische documenten (e-documenten) gebruiken bij verkoop- en inkoopdocumenten.
 
-Momenteel kunt u de volgende documenten gebruiken voor e-documenten:
+U kunt de volgende documenten gebruiken met e-documenten:  
 
-- Verkoopfacturen
-- Verkooporders
-- Verkoopcreditnota's
-- Inkoopfacturen
-- Inkooporders
-- Inkoopcreditnota's
-- Dagboeken
+- Verkoop: 
+    - Verkoopfacturen
+    - Verkooporders
+    - Verkoopcreditnota's
+    - Servicefacturen
+    - Servicecreditnota's
+    - Rentefacturen
+    - Aanmaningen
+- Inkoop: 
+    - Inkoopfacturen
+    - Inkooporders (alleen nieuw document maken)
+    - Inkoopcreditnota's
+    - Dagboeken
 
-Momenteel kan een inkooporder alleen worden gebruikt als u het document maakt op basis van het e-document van uw leverancier. U kunt het bestaande document echter niet bijwerken met regels die u van uw leverancier heeft gekregen.
+> [!NOTE]
+> Momenteel kan een inkooporder alleen worden gebruikt als u het document maakt op basis van het e-document van uw leverancier. U kunt het bestaande document echter niet bijwerken met regels die u van uw leverancier heeft gekregen.  
 
-## <a name="e-documents-in-sales"></a>E-documenten bij verkoop
+## E-documenten bij verkoop
 
 Als u een e-factuur wilt maken en naar een klant wilt verzenden, moet u de verkoopfactuur maken en boeken. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie over het standaardproces.
 
 Nadat u het verkoopdocument heeft geboekt, opent u de pagina **Geboekte verkoopfactuur** om toegang te krijgen tot de gerelateerde pagina **E-document**.
 
-### <a name="view-e-documents"></a>E-documenten weergeven
+### E-documenten weergeven
 
 Volg deze stappen om bestaande e-documenten te bekijken.
 
@@ -43,7 +50,7 @@ Volg deze stappen om bestaande e-documenten te bekijken.
 3. Het veld **Record** bevat het documentnummer van de geboekte verkoopfactuur. Selecteer de koppeling om het document te openen.
 4. In het veld **Elektronische documentstatus** kunt u de realtime status van het document en de locatie ervan in de procespijplijn bekijken. Als het document is geboekt, is de status **Verwerkt**.
 
-### <a name="e-document-statuses-and-logs"></a>E-documentstatussen en -logboeken
+### E-documentstatussen en -logboeken
 
 Voor meer informatie over het servicestatusniveau van uw e-document raadpleegt u het sneltabblad **Status van e-documentservice**. Op de regels toont het systeem een of meer services waarvan het document gebruik heeft gemaakt. In het meest voorkomende scenario gebruikt elk document slechts één service. Een document kan echter meerdere services gebruiken.
 
@@ -67,11 +74,11 @@ Als er een probleem is met de serviceprovider en het document niet kan worden ve
 
 Nadat het probleem is opgelost, voert u handmatig de **Document verzenden**-acties uit. Als u andere acties nodig heeft, zoals **Document opnieuw maken**, **Document annuleren** of **Goedkeuring ophalen**, kunt u deze uitvoeren.
 
-## <a name="e-documents-in-purchases"></a>E-documenten bij inkopen
+## E-documenten bij inkopen
 
 De ontvangst van elektronische inkoopfacturen in Dynamics 365 Business Central kan als batchverwerking of handmatig worden uitgevoerd.
 
-### <a name="run-the-batch-job"></a>De batchverwerking uitvoeren
+### De batchverwerking uitvoeren
 
 > [!NOTE]
 > Deze batchverwerking is bedoeld voor het geautomatiseerd verzamelen van uw inkomende facturen. Het kan alleen werken in een land/regio waar de functionaliteit bestaat.
@@ -95,7 +102,7 @@ Er zijn twee veelvoorkomende fouten:
 
 Nadat u de fouten en waarschuwingen heeft verholpen, kunt u handmatig opgeven wanneer het systeem een inkoopfactuur moet maken op basis van uw instellingen door **Document maken** te selecteren.
 
-### <a name="manually-import-invoices"></a>Handmatig facturen importeren
+### Handmatig facturen importeren
 
 Om externe e-documenten handmatig te importeren volgt u deze stappen.
 
@@ -106,7 +113,7 @@ Om externe e-documenten handmatig te importeren volgt u deze stappen.
 5. Wanneer u klaar bent met het oplossen van de problemen, selecteert u in de groep **Handmatig importeren** de optie **Document maken**.
 6. Nadat het document in Business Central is gemaakt, kunt u het op dezelfde manier bekijken als wanneer u een batchverwerking gebruikt.
 
-## <a name="overview-of-e-document-statuses"></a>Overzicht van e-documentstatussen
+## Overzicht van e-documentstatussen
 
 Om een beter overzicht te krijgen van alle e-documenten in het bedrijf, kunt u het rolcentrum **Accountant** selecteren waar de statussen van e-documenten voorkomen. Daar vindt u e-documentactiviteiten met de volgende statussen:
 
@@ -122,7 +129,7 @@ Om een beter overzicht te krijgen van alle e-documenten in het bedrijf, kunt u h
     - Wordt uitgevoerd
     - Fout
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Hoe u belastingen instelt in Business Central](finance-how-setup-edocuments.md)  
 [Hoe u e-documenten uitbreidt in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

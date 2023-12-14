@@ -12,17 +12,17 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>E-documenten instellen
+# E-documenten instellen
 
 > [!IMPORTANT]
-> De kernmodule E-documenten is een raamwerk. Standaard is er geen veld **Documentindeling** of **Service-integratie**. Deze details maken deel uit van lokalisatie-apps, omdat ze beide specifiek zijn voor lokale vereisten.
+> De kernmodule E-documenten is een raamwerk. Standaard is er geen veld **Service-integratie**. Als u de **Documentindeling**-optie standaard vindt, moet u er rekening mee houden dat deze als voorbeeld worden aangeboden en dat de lokalisatie een gedetailleerde indeling moet bieden. Deze details maken deel uit van lokalisatie-apps, omdat ze beide specifiek zijn voor lokale vereisten.
 
 > [!NOTE]
-> Vanaf versie 23.1 is een standaard PEPPOL-documentindeling toegevoegd als globale indeling in het veld **Documentindeling**.
+> Vanaf versie 23.2 is een standaard PEPPOL-documentindeling toegevoegd als globale indeling in het veld **Documentindeling**. Houd er rekening mee dat u dit formaat waarschijnlijk niet in de huidige vorm kunt gebruiken. Het is een W1-indeling die wordt geleverd om te laten zien hoe u deze functie kunt gebruiken. We raden u aan het bestaande PEPPOL-formaat te testen voordat u dit formaat gaat gebruiken.
 
 De eerste stap bij de configuratie van elektronische documenten (e-documenten) is het opzetten van de E-documentenservice, waarin u het volledige gedrag van uw systeem configureert met betrekking tot de communicatie met e-documenten.
 
-## <a name="set-up-the-e-document-service"></a>De e-documentservice instellen
+## De e-documentservice instellen
 
 Volg deze stappen om de E-documentservice in te stellen.
 
@@ -33,11 +33,11 @@ Volg deze stappen om de E-documentservice in te stellen.
     |-------|-------------|
     | Code | Selecteer de instelcode voor elektronische export. |
     | Omschrijving | Voer een korte omschrijving in van de instelling van elektronische export. |
-    | Documentindeling | <p>De exportindeling van de instelling van elektronische export.</p><p>Standaard zijn er geen opties in dit veld in wave 1.</p> |
+    | Documentindeling | <p>De exportindeling van de instelling van elektronische export.</p><p>Standaard zijn er twee opties in dit veld. U kunt **PEPPOL BIS 3** selecteren als een generiek, op code gebaseerde indeling of **Gegevensuitwisseling** wanneer u vooraf documenten met specifieke indelingen moet instellen op het sneltabblad **Definitie van gegevensuitwisseling**.</p> |
     | Service-integratie | Selecteer de integratiecode voor de instelling van elektronische export. In wave 1 is de enige optie **Geen integratie**. |
     | Batchverwerking gebruiken | Geef op of de service batchverwerking gebruikt voor export. |
 
-4. Configureer op het sneltabblad **Geïmporteerde parameters** de velden zoals beschreven in de volgende tabel.
+3. Configureer op het sneltabblad **Geïmporteerde parameters** de velden zoals beschreven in de volgende tabel.
 
     | Veld | Omschrijving |
     |-------|-------------|
@@ -57,11 +57,22 @@ Volg deze stappen om de E-documentservice in te stellen.
     | Begintijd van batch | Geef de starttijd voor importtaken op. |
     | Minuten tussen uitvoeringen | Geef het aantal minuten op tussen importtaakuitvoeringen. |
 
-Als u de indeling **Definitie van gegevensuitwisseling** in uw lokalisatie hebt geconfigureerd, kunt u een regel toevoegen voor elk documenttype dat u nodig heeft. U moet echter eerst de optie **Type document** selecteren voor elke regel die u nodig heeft. Selecteer voor elk gegevenstype de waarde **Definitiecode van gegevensuitwisseling importeren** of **Definitiecode van gegevensuitwisseling exporteren** die u wilt gebruiken.
+4. Als u **Gegevensuitwisseling** hebt geselecteerd in het veld **Documentindeling** op het sneltabblad **Algemeen**, gebruikt u de **Definitie van gegevensuitwisseling** om de volgende velden in te stellen.
 
-Als u de indeling **Definitie van gegevensuitwisseling** niet gebruikt, kunt u indelingen configureren via de regels **Toewijzing exporteren** en **Toewijzing importeren**, waar u de tabellen en velden kunt vinden moeten worden gebruikt en waar u transformatieregels kunt configureren, indien van toepassing.
+    | Veld | Omschrijving |
+    |-------|-------------|
+    | Documenttype | Geef het documenttype op dat gegevensuitwisseling gebruikt voor het importeren/exporteren van de gegevens. Voorbeelden hiervan zijn **Verkoopfactuur**, **Verkoopcreditnota** en **Aankoopfactuur**. |
+    | Importcode van definitie van gegevensuitwisseling | Geef de code voor gegevensuitwisseling op die wordt gebruikt voor het importeren van de gegevens. Gebruik dit veld alleen om een document te ontvangen tijdens het aankoopproces. |
+    | Exportcode van definitie van gegevensuitwisseling | Geef de code voor gegevensuitwisseling op die wordt gebruikt voor het exporteren van de gegevens. Gebruik dit veld alleen om documenten aan te leveren in het verkoopproces. |
 
-## <a name="set-up-a-document-sending-profile"></a>Een verzendprofiel voor documenten instellen
+> [!NOTE]
+> Er zijn definities voor gegevensuitwisseling opgesteld voor het PEPPOL-formaat die gerelateerd zijn aan het standaard verkoop- en inkoopdocument. U kunt deze definities echter waarschijnlijk niet in de huidige vorm gebruiken. Het zij allemaal W1-indelingen die worden geleverd om te laten zien hoe u deze functie kunt gebruiken. We raden u aan het bestaande PEPPOL-formaat te testen voordat u dit formaat gaat gebruiken.
+
+Als u de indeling **Definitie van gegevensuitwisseling** in uw lokalisatie hebt geconfigureerd, kunt u een regel toevoegen voor elk documenttype dat u nodig heeft. Voeg regels toe die overeenkomen met het standaardvoorbeeld van gegevensuitwisseling voor het W1 PEPPOL-formaat. Selecteer echter eerst de optie **Type document** voor elke regel die u nodig heeft. Selecteer voor elk gegevenstype de waarde **Definitiecode van gegevensuitwisseling importeren** of **Definitiecode van gegevensuitwisseling exporteren** die u wilt gebruiken.
+
+Als u de indeling **Definitie van gegevensuitwisseling** niet gebruikt, kunt u formaten maken en configureren met behulp van de [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Pas de informatie aan op de regels **Toewijzing exporteren** en **Toewijzing importeren** , waar u de tabellen en velden kunt vinden voor het configureren van transformatieregels. In dit geval moet u een nieuwe optie toevoegen in het veld **Documentindeling** die betrekking heeft op uw indeling.
+
+## Een verzendprofiel voor documenten instellen
 
 U kunt voor elk van uw klanten een voorkeursmethode voor het verzenden van verkoopdocumenten instellen. Op deze manier hoeft u niet telkens een verzendoptie te selecteren wanneer u de actie **Boeken en verzenden** selecteert. Op de pagina **Documentverzendprofielen** kunt u verschillende verzendprofielen instellen en daar vervolgens uit kiezen in het veld **Verzendprofiel van document** op een klantenkaart. U kunt het selectievakje **Standaard** selecteren om aan te geven dat een documentverzendprofiel het standaardprofiel is voor alle klanten, behalve voor klanten waarvoor het veld **Verzendprofiel van document** is ingesteld op een ander profiel.
 
@@ -83,7 +94,7 @@ Volg deze stappen om een documentverzendprofiel in te stellen,
     > [!NOTE]
     > Als u **Uitgebreide servicestroom voor e-document** in het veld **Elektronisch document** selecteert, moet de werkstroom al zijn geconfigureerd voor uw e-documenten.
 
-## <a name="set-up-the-workflow"></a>De werkstroom instellen
+## De werkstroom instellen
 
 Volg deze stappen om de werkstroom in te stellen die wordt gebruikt in de e-documentfunctionaliteit.
 
@@ -98,7 +109,11 @@ Volg deze stappen om de werkstroom in te stellen die wordt gebruikt in de e-docu
 > [!NOTE]
 > U kunt uw eigen werkstroom voor e-documenten maken zonder vooraf gedefinieerde werkstroomsjablonen te gebruiken. Als u meer services heeft, kunt u verschillende werkstromen gebruiken.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Een bewaarbeleid instellen voor e-documenten
+Als u meer werkstromen wilt gebruiken, configureert u deze via de documentverzendprofielen voor verschillende klanten. Wanneer u de werkstroom instelt, geeft u het profiel voor het verzenden van documenten op in de kolom **Op voorwaarde** op het sneltabblad **Werkstroomstappen**, omdat u niet twee services kunt hebben die hetzelfde documentverzendprofiel gebruiken in werkstromen.
+
+Wanneer u uw werkstroom configureert op de pagina **Werkstroom**, wijst u naar het veld **Op voorwaarde** op het sneltabblad **Werkstroomstappen**. Selecteer op de pagina **Gebeurtenisvoorwaarden** in het veld **Filter** het documentverzendprofiel dat u wilt gebruiken.
+
+## Een bewaarbeleid instellen voor e-documenten
 
 E-documenten kunnen onderwerp zijn van verschillende lokale wetgevingen die verband houden met de periode dat de e-documenten worden bewaard. Daarom hebben we een bewaarbeleid toegevoegd voor alle belangrijke informatie die verband houdt met e-documenten. Beheerders kunnen een bewaarbeleid definiëren dat specificeert hoe vaak Dynamics 365 Business Central verouderde records die verband houden met e-documenten, worden verwijderd. Zie voor meer informatie over bewaarbeleid [Bewaarbeleid definiëren](admin-data-retention-policies.md).
 
@@ -112,7 +127,7 @@ Volg deze stappen om een bewaarbeleid voor e-documenten in te stellen.
     - Logbestand van toewijzing van e-document
     - Opslag van e-documentgegevens
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Hoe u e-documenten gebruikt in Business Central](finance-how-use-edocuments.md)  
 [Hoe u e-documenten uitbreidt in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

@@ -11,13 +11,13 @@ ms.search.form: '257, 259, 279'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Broncodes en redencodes instellen voor audittrails
+# Broncodes en redencodes instellen voor audittrails
 
 Aan alle geboekte posten wordt automatisch een broncode toegewezen zodat transacties tot aan hun herkomst kunnen worden getraceerd. Als u aan posten een aanvullende broncode wilt toewijzen, kunt u redencodes gebruiken. Met redencodes wordt aangegeven waarom een post is gemaakt. Wanneer u redencodes instelt, kunt u deze toewijzen aan volledige dagboeksjablonen en -batches en aan afzonderlijke dagboekregels en -documenten.  
 
 Gebruik voor zowel broncodes als redencodes codes die gemakkelijk te onthouden en beschrijvend zijn. De code moet uniek zijn en u kunt zoveel codes instellen als u maar wilt.
 
-## <a name="define-source-codes"></a>Broncodes definiëren
+## Broncodes definiëren
 
 In bepaalde gevallen wilt u nagaan hoe een bepaalde post ontstaan is, bijvoorbeeld of de post afkomstig is van de boeking van een dagboek of een inkoopfactuur. Met een broncode wordt de herkomst van een post aangeduid. Posten worden gemaakt wanneer u dagboeken en facturen boekt en bepaalde batchverwerkingen uitvoert. Elke boekingssoort heeft een bepaalde broncode, die wordt toegewezen wanneer afzonderlijke posten worden gemaakt.  
 
@@ -25,7 +25,7 @@ Bij het boeken van dagboeken, orders, facturen of creditnota's en bij het uitvoe
 
 Wanneer u een batchverwerking boekt of uitvoert, wordt de juiste broncode automatisch aan de post gekoppeld. Als u bijvoorbeeld boekt vanuit het financieel dagboek, wordt de post gecodeerd als *FINDAGB*. Vervolgens kunt u de pagina **Grootboekposten** filteren om te laten zien welke boekingen bijvoorbeeld vanuit het dagboek of uit verkoopdocumenten zijn geboekt
 
-### <a name="to-define-source-codes"></a>Broncodes definiëren
+### Broncodes definiëren
 
 1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncode-instelling** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -33,11 +33,11 @@ Wanneer u een batchverwerking boekt of uitvoert, wordt de juiste broncode automa
 
 U kunt de inhoud van een veld later wijzigen en die wijziging heeft dan invloed op toekomstige berichten.
 
-## <a name="change-source-codes"></a>Broncodes wijzigen
+## Broncodes wijzigen
 
 U wilt wellicht een broncode wijzigen. U wilt bijvoorbeeld de broncode *DAGBOEK* wijzigen in *DAGB*.
 
-### <a name="to-change-source-codes"></a>Broncodes wijzigen
+### Broncodes wijzigen
 
 1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Broncodes** in en kies vervolgens de gerelateerde koppeling.
 
@@ -47,11 +47,11 @@ U wilt wellicht een broncode wijzigen. U wilt bijvoorbeeld de broncode *DAGBOEK*
 
 De nieuwe posten die worden geboekt uit het dagboek, hebben de nieuwe broncode.
 
-## <a name="define-reason-codes"></a>Redencodes definiëren
+## Redencodes definiëren
 
 Redencodes vullen de broncodes aan en worden gebruikt om aan te geven waarom een post is gemaakt. U kunt redencodes toewijzen aan afzonderlijke posten en u kunt permanente codes toewijzen aan bepaalde dagboeksjablonen en -batches. Wanneer een redencode aan een dagboekregel of een verkoop- of inkoopkop is gekoppeld, worden alle posten met de redencode gemarkeerd wanneer deze worden geboekt.  
 
-### <a name="to-set-up-reason-codes"></a>Redencodes instellen
+### Redencodes instellen
 
 1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"),  voer **Redencodes** in en kies vervolgens de gerelateerde koppeling.
 
@@ -61,7 +61,7 @@ Herhaal de procedure voor elke code die u wilt gebruiken. U kunt een onbeperkt a
 
 De volgende procedure beschrijft hoe u een redencode aan een dagboeksjabloon kunt toevoegen, maar vergelijkbare stappen zijn van toepassing op het toevoegen van een redencode aan een dagboekregel of dagboekbatch.  
 
-### <a name="to-assign-reason-codes-to-journal-templates"></a>Redencodes toewijzen aan dagboeksjablonen
+### Redencodes toewijzen aan dagboeksjablonen
 
 1. Kies het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"),  voer **Fin. dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.
 
@@ -71,7 +71,7 @@ De volgende procedure beschrijft hoe u een redencode aan een dagboeksjabloon kun
 
 De geselecteerde redencode wordt gekopieerd naar nieuwe dagboekbatches die met deze dagboeksjabloon worden gemaakt. Op dezelfde manier kunt u redencodes toewijzen aan dagboeksjablonen in andere toepassingsgebieden.
 
-### <a name="to-use-reason-codes-on-sales-and-purchase-documents"></a>Redencodes gebruiken voor verkoop- en inkoopdocumenten
+### Redencodes gebruiken voor verkoop- en inkoopdocumenten
 
 1. Open het betreffende verkoop- of inkoopdocument.
 
@@ -79,7 +79,7 @@ De geselecteerde redencode wordt gekopieerd naar nieuwe dagboekbatches die met d
 
 Wanneer de factuur wordt geboekt, wordt de redencode gekopieerd naar elke grootboek-, klant- en leverancierspost. U kunt geen andere redencodes toewijzen aan afzonderlijke inkoop- en verkoopregels, omdat de regels als één post zijn geboekt.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën](finance.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  

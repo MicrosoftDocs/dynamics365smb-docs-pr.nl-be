@@ -4,11 +4,11 @@ description: In dit artikel maakt u kennis met de Contoso Coffee-demonstratiegeg
 author: andreipanko
 ms.author: andreipa
 ms.topic: how-to
-ms.date: 05/31/2023
+ms.date: 11/27/2023
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-service-management"></a>Inleiding tot Contoso Coffee-servicebeheer
+# Inleiding tot Contoso Coffee-servicebeheer
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De **Contoso Coffee**-apps voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de servicebeheermogelijkheden in Business Central kunt benutten.
 
@@ -22,11 +22,11 @@ Deze app biedt verschillende elementen die worden gebruikt voor de belangrijkste
 > Boek alle artikeldagboekregels met beginsaldi voordat u een van de scenario's voor Contoso Coffee gaat uitvoeren. Zie de sectie [Contoso Coffee-gegevens instellen](#set-up-contoso-coffee-service-management-data) voor meer vereisten.
 >
 > 
-## <a name="set-up-contoso-coffee-service-management-data"></a>Contoso Coffee-servicebeheergegevens instellen
+## Contoso Coffee-servicebeheergegevens instellen
 
 [!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
-Zodra de relevante apps zijn geïnstalleerd, gaat u naar de pagina [Demohulpmiddel van Contoso](https://businesscentral.dynamics.com/?page=5194) in [!INCLUDE [prod_short](../../includes/prod_short.md)], selecteert u de regel *Servicemodule* en gebruikt u de actie **Configureren** om de modules voor te bereiden. In de volgende tabellen worden de instellingen beschreven:  
+Zodra de relevante apps zijn geïnstalleerd, gaat u naar de pagina [Demohulpmiddel van Contoso](https://businesscentral.dynamics.com/?page=5194) in [!INCLUDE [prod_short](../../includes/prod_short.md)], selecteert u de regel *Servicemodule* en gebruikt u de actie **Configureren** om de modules voor te bereiden. De volgende tabel beschrijft de instellingen:  
 
 |Veld  |Omschrijving  |
 |---------|---------|
@@ -39,10 +39,9 @@ Zodra de relevante apps zijn geïnstalleerd, gaat u naar de pagina [Demohulpmidd
 |**Nr. van resource 2**  |De resource die voor de break-fixscenario's moet worden gebruikt.|
 |**Servicevestiging** |Hiermee wordt het magazijn opgegeven die u wilt gebruiken voor servicebewerkingen. De standaard is *HOOFD*, maar u kunt deze naar wens wijzigen.|
 
-
 Als u gereed bent, kiest u de actie **Demogegevens maken**. Het duurt een paar minuten om de gegevens aan de onderliggende database toe te voegen, maar dan bent u klaar om de verschillende scenario's uit te voeren.  
 
-## <a name="scenarios"></a>Scenario's
+## Scenario's
 
 De demogegevens voor Contoso Coffee ondersteunen momenteel de volgende servicescenario's voor testen en trainen:
 
@@ -55,6 +54,6 @@ Lees de stappen voor elk scenario in het desbetreffende artikel.
 > De serviceprocedures vereisen dat de gebruikerservaring is ingesteld op **Premium** op de pagina **Bedrijfsgegevens**.
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Onderhoud](../../service-service.md)

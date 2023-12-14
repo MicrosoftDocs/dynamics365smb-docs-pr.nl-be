@@ -10,7 +10,7 @@ ms.search.keywords: 'migration, Excel'
 ms.date: 05/10/2022
 ms.author: bholtorf
 ---
-# <a name="import-business-data-from-other-finance-systems"></a>Bedrijfsgegevens importeren uit andere financiële systemen
+# Bedrijfsgegevens importeren uit andere financiële systemen
 
 Wanneer u zich registreert voor [!INCLUDE[prod_short](includes/prod_short.md)], kunt u ervoor kiezen een leeg bedrijf te maken zodat u uw eigen gegevens kunt uploaden en uw nieuwe [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijf kunt testen. Afhankelijk van de financiële oplossing die uw bedrijf tegenwoordig gebruikt, kunt u gegevens over klanten, leveranciers en bankrekeningen overbrengen.  
 
@@ -21,11 +21,11 @@ Vanuit het rolcentrum kunt u een begeleide instelling starten die u helpt de bed
 > [!TIP]  
 > Het wordt aanbevolen de wizards voor gegevensmigratie te gebruiken om gegevens te importeren uit Dynamics GP, Dynamics NAV of QuickBooks. Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud of [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md).
 
-## <a name="work-with-data-in-excel"></a>Werken met gegevens in Excel
+## Werken met gegevens in Excel
 
 U kunt de Excel-invoegtoepassing gebruiken om bestaande inhoud voor te bereiden voor gebruik in [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie [Kopiëren en bewerken vanuit Business Central](across-work-with-excel.md).  
 
-## <a name="import-data-from-configuration-packages"></a>Gegevens importeren uit configuratiepakketten
+## Gegevens importeren uit configuratiepakketten
 
 Voor grotere implementatiewerkzaamheden kunt u oplossingsspecifieke configuratiepakketten opzetten. Zie voor meer informatie [Standaardconfiguratiepakketten voor bedrijven instellen](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (alleen in het Engels) in de ontwikkelaar- en beheerinhoud.  
 
@@ -42,7 +42,7 @@ Wanneer u het standaardconfiguratiepakket exporteert naar Excel, bevat de gegene
 > [!NOTE]
 > Velden van het type Blob kunnen niet worden geëxporteerd/geïmporteerd met Excel.
 
-### <a name="tables-in-the-default-configuration-package"></a>Tabellen in het standaardconfiguratiepakket
+### Tabellen in het standaardconfiguratiepakket
 
 Het standaardconfiguratiepakket ondersteunt de volgende tabellen:
 
@@ -73,7 +73,7 @@ Het standaardconfiguratiepakket ondersteunt de volgende tabellen:
 - Verkoopprijs
 - Inkoopprijs
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [On-premises gegevens migreren naar Business Central Online (alleen in het Engels)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Bedrijfsconfiguratiepakketten instellen](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  

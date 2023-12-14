@@ -12,7 +12,7 @@ ms.date: 10/10/2023
 ms.author: altotovi
 ---
 
-# <a name="e-documents-overview"></a>Overzicht van e-documenten
+# Overzicht van e-documenten
 
 Elektronische documenten (e-documenten) vormen de ruggengraat van moderne zakelijke transacties. Ze omvatten essentiële documenten, zoals facturen en ontvangstbewijzen in beide richtingen (levering en ontvangst). Ze voegen ook mogelijkheden toe voor documentstatusgerelateerde berichten tussen toegangspunten.
 
@@ -32,7 +32,7 @@ In de documentatie worden e-documenten gedetailleerd uitgelegd. Het toont de mog
 | [Functionaliteit van e-documenten uitbreiden](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Leer hoe u de functionaliteit van e-documenten kunt uitbreiden met specifieke lokale of branchevereisten door er extra apps bovenop te maken. |
 | [Gegevens elektronisch uitwisselen](across-data-exchange.md) | Leer hoe u het raamwerk voor gegevensuitwisseling gebruikt voor het beheren van de uitwisseling van gegevens in bedrijfsdocumenten, zoals bankbestanden en valutawisselkoersen. | 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financieel beheer](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

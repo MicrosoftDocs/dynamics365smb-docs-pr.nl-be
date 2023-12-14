@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="assembly-management"></a>Assemblagebeheer
+# Assemblagebeheer
 
 Bedrijven kunnen producten aan klanten leveren door materiaal te combineren zonder gebruik te maken van productiefuncties. Functies voor het assembleren van artikelen kunnen worden geïntegreerd met gerelateerde functies zoals verkoop, planning, reserveringen en magazijn.  
 
@@ -51,7 +51,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Meer informatie over het werken met assemblagestuklijsten en hoe ze verschillen van productiestuklijsten.|[Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)|
 |Meer informatie over het boeken van assemblageverbruik en -output, en hoe [!INCLUDE [prod_short](includes/prod_short.md)] artikel- en resourcekosten verdeelt over het grootboek.|[Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  
