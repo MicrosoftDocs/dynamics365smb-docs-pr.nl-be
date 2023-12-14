@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/14/2023
 ms.custom: bap-template
 ---
-# Documentdatums bijwerken met boekingsdatums
+# <a name="updating-document-dates-with-posting-dates"></a>Documentdatums bijwerken met boekingsdatums
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkopen instellen](sales-setup-sales.md)

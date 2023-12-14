@@ -10,7 +10,7 @@ ms.date: 10/10/2023
 ms.author: kepontop
 ms.custom: bap-template
 ---
-# Inleiding in Microsoft Fabric en Business Central
+# <a name="introduction-to-microsoft-fabric-and-business-central"></a>Inleiding in Microsoft Fabric en Business Central
 
 [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is een end-to-end analyseoplossing met complete mogelijkheden, waaronder gegevensverplaatsing, data lakes, gegevensengineering, gegevensintegratie, data science, realtime analyse en bedrijfsinformatie&mdash;allemaal ondersteund door een gedeeld platform dat robuuste gegevensbeveiliging, governance en compliance biedt. Uw organisatie hoeft niet langer individuele analysediensten van meerdere leveranciers te combineren. Gebruik in plaats daarvan een gestroomlijnde oplossing die eenvoudig kan worden verbonden, geïntroduceerd en bediend.
 
@@ -19,11 +19,11 @@ ms.custom: bap-template
 > 
 > Doordat regelmatig deze routekaart wordt gepubliceerd, blijft u op de hoogte van hoe [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] aan uw behoeften voldoet.
 
-## Waar past [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] in [!INCLUDE[prod_short](includes/prod_short.md)]-analyses
+## <a name="where-does--fit-into-includeprod_short-analytics"></a>Waar past [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] in [!INCLUDE[prod_short](includes/prod_short.md)]-analyses
 
 [!INCLUDE[prod_short](includes/prod_short.md)] wordt geleverd met veel kant-en-klare rapporten en mogelijkheden voor gegevensanalyse, zoals financiële rapportage, openen in Excel en analysemodi voor lijsten en query's. Bovendien is het eenvoudig Power BI-rapporten te definiëren die gegevens uit standaard- en aangepaste API's lezen, scorecards met Power BI-meetgegevens te definiëren en dit allemaal rechtstreeks in de [!INCLUDE[prod_short](includes/prod_short.md)]-cliënt in te sluiten. Maar voor klanten met geavanceerdere data science- of bedrijfsinformatiescenario's die rijkere gegevensengineering of gegevensintegratie vereisen, zou [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] een goede optie kunnen zijn. 
 
-## OneLake
+## <a name="onelake"></a>OneLake
 
 Een belangrijk onderdeel van het [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)]-aanbod is OneLake. OneLake is één enkel, verenigd, logisch data lake voor de hele organisatie. U kunt OneLake zien als de OneDrive voor gegevens. Het biedt u data lake als een service zonder dat u het zelf hoeft te bouwen. OneLake wordt automatisch meegeleverd met elke [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)]-tenant zonder infrastructuur om te beheren. Alle gegevens die in OneLake terechtkomen, nemen automatisch deel aan out-of-the-box datagovernance, zoals gegevensafstamming, gegevensbescherming, certificering en catalogusintegratie. Het breekt datasilo's af door verschillende delen van de organisatie in staat te stellen onafhankelijk te werken en toch bij te dragen aan hetzelfde data lake.
 
@@ -32,7 +32,7 @@ Een belangrijk onderdeel van het [!INCLUDE[microsoft_fabric](includes/microsoft_
 > [!NOTE]
 > We verwachten dat met een van onze toekomstige releases [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens ook beschikbaar zullen worden gesteld in OneLake voor de klanten die zowel [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] als [!INCLUDE[prod_short](includes/prod_short.md)] gebruiken en unieke vereisten hebben op de gebieden die [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] ondersteunt. De tijdlijn zal afhangen van de tijdlijn van de algemene beschikbaarheid van [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] en de componenten ervan die nodig zijn om deze ervaring mogelijk te maken. We gaan dit artikel bijwerken met een nauwkeurigere tijdlijn, zodra we meer weten.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Power BI gebruiken met Business Central](admin-powerbi.md)   
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

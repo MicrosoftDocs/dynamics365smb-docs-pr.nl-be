@@ -11,7 +11,7 @@ ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Verkopen instellen
+# <a name="setting-up-sales"></a>Verkopen instellen
 
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.
 
@@ -35,7 +35,7 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 |Geef aan of gebruikers verkoopfacturen mogen boeken en of ze deze samen met een zending moeten boeken. |[Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)|
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

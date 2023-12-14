@@ -10,7 +10,7 @@ ms.search.form: '9701, 9702'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Een gekleurde indicator voor indicatiestapels instellen voor het bedrijf of voor afzonderlijke gebruikers
+# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Een gekleurde indicator voor indicatiestapels instellen voor het bedrijf of voor afzonderlijke gebruikers
 
 Als beheerder kunt u indicatiestapels instellen die in de Rolcentra van gebruikers worden weergegeven en die een indicator bevatten die van kleur verandert afhankelijk van de gegevenswaarden in de indicatiestapels.  
 
@@ -20,7 +20,7 @@ Vanuit de pagina **Instelling indicatiestapel** kunt u indicatoren instellen voo
 
 Als u de indicator wilt instellen, geeft u maximaal twee drempelwaarden op die de drie bereiken van gegevenswaarden definiëren (laag, gemiddeld en hoog) waarop u een andere kleur (of stijl) kunt toepassen.  
 
-### Gekleurde indicatoren instellen voor indicatiestapels  
+### <a name="to-set-up-colored-indicators-on-cues"></a>Gekleurde indicatoren instellen voor indicatiestapels
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voert u **Instelling indicatiestapel** in en kiest u vervolgens de gerelateerde koppeling.  
 
      De pagina **Instelling indicatiestapel** wordt geopend. De pagina bevat de indicatoren die op het moment zijn ingesteld voor indicatiestapels. Indicators die van toepassing zijn op alle gebruikers in het bedrijf, hebben een leeg veld **Gebruikersnaam**. Indicatoren die van toepassing zijn op een specifieke gebruiker, bevatten de gebruikersnaam in het veld **Gebruikersnaam**.  
@@ -57,7 +57,7 @@ Als u de indicator wilt instellen, geeft u maximaal twee drempelwaarden op die d
     |**Dubbelzinnig**|Geel|  
     |**Ondergeschikt**|Grijs|  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

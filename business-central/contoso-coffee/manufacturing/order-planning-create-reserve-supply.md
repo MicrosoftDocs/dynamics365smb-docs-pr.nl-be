@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Procedure: Orderplanning gebruiken om voorraad te maken en te reserveren
+# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Procedure: Orderplanning gebruiken om voorraad te maken en te reserveren
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken bij orderplanning.
 
-## Scenario
+## <a name="scenario"></a>Scenario
 
 U bent de productieplanner bij Contoso Coffee. U hebt een productieorder gemaakt voor 100 eenheden van het artikel **SP-SCM1009, Airpot** en u wilt subassemblages plannen voor deze order. U gebruikt orderplanning om de benodigde productieorder voor de levering aan te maken. Omdat u de productieorder maakt om aan de vereisten van een specifieke order te voldoen, besluit u de output van de productieorder te reserveren.  
 
-## Stappen
+## <a name="steps"></a>Stappen
 
 1. Maak de nieuwe vrijgegeven productieorder voor 100 eenheden van het artikel **SP-SCM1009, Airpot**.
 
@@ -59,7 +59,7 @@ U bent de productieplanner bij Contoso Coffee. U hebt een productieorder gemaakt
 
 Zo kunt u orders plannen in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](../contoso-coffee-intro.md)  
 [Informatie over productieorders](../../production-about-production-orders.md)  

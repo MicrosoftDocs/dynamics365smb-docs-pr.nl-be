@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.date: 09/15/2023
 ---
 
-# Pagina's inspecteren in Business Central
+# <a name="inspecting-pages-in-business-central"></a>Pagina's inspecteren in Business Central
 
 Met de pagina-inspectiefunctie kunt u details opvragen over een pagina, wat inzicht biedt in het paginaontwerp, de verschillende onderdelen waaruit de pagina bestaat en de bron achter de gegevens op de pagina. Pagina-inspectie is speciaal ontworpen voor beheerders, geavanceerde gebruikers, ondersteuningsmedewerkers en ontwikkelaars. Het is ideaal voor het leren van het gegevensmodel achter een pagina en voor het oplossen van problemen. Als u bijvoorbeeld een probleem met een pagina hebt, kunt u pagina-inspectie gebruiken om informatie te krijgen die u kunt doorgeven aan uw systeembeheerder of ondersteuningsmedewerkers.
 
@@ -20,7 +20,7 @@ Met de pagina-inspectiefunctie kunt u details opvragen over een pagina, wat inzi
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## Werken met pagina-inspectie
+## <a name="work-with-page-inspection"></a>Werken met pagina-inspectie
 
 U begint pagina-inspectie vanaf de pagina **Help en ondersteuning**. Kies het vraagteken in de rechterbovenhoek, kies **Help en ondersteuning** en kies vervolgens **Pagina's en gegevens inspecteren**. Of u kunt gewoon de sneltoets <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd> gebruiken.
 
@@ -32,13 +32,13 @@ Voor meer informatie over wat wordt weergegeven in pagina-inspectie raadpleegt u
 
 Als u niet de details ziet die u verwacht te zien in het deelvenster **Pagina-inspectie**, hebt u waarschijnlijk niet de vereiste machtigingen, zoals beschreven in het volgende gedeelte.
 
-## Toegang bepalen tot details van pagina-inspectie
+## <a name="controlling-access-to-page-inspection-details"></a>Toegang bepalen tot details van pagina-inspectie
 
 Als beheerder kunt u toegang bepalen tot alle details die worden weergegeven in het deelvenster **Pagina-inspectie** door de machtigingen te configureren die gebruikers hebben. Als u een gebruikersmachtiging wilt verlenen tot de volledige details, geeft u gebruikers de machtiging **Uitvoeren** voor het **Systeem**-object **5330**. U verleent deze machtiging door een machtigingenset te gebruiken (zoals **Problemen met D365 oplossen**) of een gebruikersgroep (zoals **Problemen met D365 oplossen**). Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie over machtigingen.
 
 Gebruikers aan wie geen machtigingen zijn verleend voor **Systeemobject 5330** kunnen wel toegang krijgen tot het deelvenster **Pagina-inspectie**, maar ze zien alleen de velden **Pagina** en **Tabel**, die basisdetails bevatten die ze kunnen doorgeven aan hun ondersteuningsteam.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -11,13 +11,13 @@ ms.search.form: '374, 404'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Een cheque-indeling selecteren
+# <a name="select-a-check-layout"></a>Een cheque-indeling selecteren
 
 U kunt uw eigen cheques ontwerpen in overeenstemming met de standaards die zijn ingesteld door de plaatselijke autoriteiten. Chequeafbeeldingen kunnen worden afgedrukt in het Engels, Frans of Spaans.
 
 Cheques worden ontworpen om te worden afgedrukt in zowel Amerikaanse als Canadese chequeafbeeldingsindelingen, in een cheque-strook-cheque indeling of een strook-strook-cheque indeling.
 
-## Een cheque-indeling selecteren
+## <a name="to-select-a-check-layout"></a>Een cheque-indeling selecteren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekening van rapportselecties** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Rapportselectie - Bank** in het veld **Gebruik** de optie **Cheque**.
@@ -34,7 +34,7 @@ Wanneer u de cheque-indelingen hebt ingesteld, kunt u cheques afdrukken vanuit d
 
 Als u een van deze standaardcontrole-indelingen wilt wijzigen, gebruikt u de integratie van Word of RDLC om dit te doen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).
 
-## MICR en beveiligingslettertypen gebruiken
+## <a name="use-micr-and-security-fonts"></a>MICR en beveiligingslettertypen gebruiken
 De online versie van [!INCLUDE[prod_short](includes/prod_short.md)] bevat vooraf geïnstalleerde lettertypen op de servers die kunnen worden gebruikt bij het definiëren van cheque-indelingen. Het volgende geeft aan welke lettertypen beschikbaar zijn en bevat koppelingen naar gedetailleerde informatie van de externe leveranciers van de lettertypen.
 
 > [!Important]
@@ -45,19 +45,19 @@ In update 15.3 en nieuwer zijn MICR-lettertypen (Magnetic Ink Character Recognit
 > [!NOTE]
 > Om veiligheids- en juridische redenen kunt u geen aangepaste lettertypen uploaden naar de [!INCLUDE[prod_short](includes/prod_short.md)]-omgeving.
 
-### MICR E-13B-specificaties
+### <a name="micr-e-13b-specifications"></a>MICR E-13B-specificaties
 
 Hieronder volgt een samenvatting van de specificaties voor de MICR E-13B-lettertypen die nuttig kunnen zijn bij het kalibreren van lettertypen voor cheque-indelingen met specifieke MICR-printers.
 
 ![MICR E-13B-specificaties.](media/font_MICR_E-13B_Specifications.png "MICR E-13B-specificaties")
 
-### Scheidingstekens
+### <a name="delimiter-characters"></a>Scheidingstekens
 
 ![Scheidingstekens.](media/font-micr-letters.png "Scheidingstekens")
 
 De volledige specificatie van MICR E-13B-lettertypen vindt u in de documentatie van de leverancier: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### MICR CMC-7-specificaties
+### <a name="micr-cmc-7-specifications"></a>MICR CMC-7-specificaties
 
 De volgende CMC-7-lettertypen zijn beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
@@ -70,13 +70,13 @@ Hieronder volgt een samenvatting van de specificaties voor de MICR CMC-7-lettert
 
 ![MICR CMC-7-specificaties.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-specificaties")
 
-### Scheidingstekens
+### <a name="delimiter-characters-1"></a>Scheidingstekens
 
 ![Scheidingstekens voor CMC-7.](media/font-cmc7-letters.png "Scheidingstekens voor CMC-7")
 
 De volledige specificatie van MICR CMC-7-lettertypen vindt u in de documentatie van de leverancier: (http://www.idautomation.com/micr-fonts/cmc7/).
 
-### Specificaties voor veilige lettertypen
+### <a name="secure-font-specifications"></a>Specificaties voor veilige lettertypen
 
 Hieronder volgt een samenvatting van de specificaties voor de chequebeveiligingslettertypen die nuttig kunnen zijn bij het kalibreren van lettertypen voor cheque-indelingen met specifieke MICR-printers.
 
@@ -86,7 +86,7 @@ De volledige specificatie van chequebeveiligingslettertypen vindt u hier in de d
 
 Lettertypen voor andere doeleinden zijn ook beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)]. Voor meer informatie zie [Beschikbare lettertypen](ui-fonts.md)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md)  
 [Lettertypen in Business Central](ui-fonts.md)  

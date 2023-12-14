@@ -12,11 +12,11 @@ ms.date: 08/17/2022
 ms.author: bholtorf
 ---
 
-# Snelstartgids Bedrijfsinformatie
+# <a name="business-intelligence-quick-start"></a>Snelstartgids Bedrijfsinformatie
 
 In staat zijn om de steeds groter wordende hoeveelheden gegevens op een bruikbare manier te verzamelen en te analyseren, is tegenwoordig een onmisbaar onderdeel van het zakendoen. [!INCLUDE[prod_short](includes/prod_short.md)] biedt veel business intelligence (BI)-tools&mdash; zowel ingebouwd als geïntegreerd met andere services&mdash; om uw bedrijf te helpen bij het besluitvormingsproces.
 
-## Krijg inzicht in uw belangrijkste aandachtspunten
+## <a name="get-insights-on-your-key-points-of-interest"></a>Krijg inzicht in uw belangrijkste aandachtspunten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bevat ingebouwde grafieken die kunnen worden weergegeven in het gedeelte **Inzichten** op uw startpagina, die betrekking hebben op *inkomsten en uitgaven*, *cashflow*, *verkooptrends* en andere rapporten. Aanvullende Key Performance Indicators (KPI's) vindt u op de pagina **Intelligente cloud-inzichten**, die bruikbare informatie weergeeft van financiën, voorraad, verkoop en inkoop:
 
@@ -24,7 +24,7 @@ In staat zijn om de steeds groter wordende hoeveelheden gegevens op een bruikbar
 
 De beschikbare gegevenskaarten en inzichten kunnen worden geselecteerd om de gerelateerde grootboekpagina te openen. De pagina **Intelligente cloud-inzichten** maakt ook gebruik van een verbinding met bestaande Power BI en Azure Machine Learning-abonnementen om analyse- en prognosedashboards weer te geven.
 
-## Power BI-integratie instellen
+## <a name="set-up-power-bi-integration"></a>Power BI-integratie instellen
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met Power BI om indringende rapporten en krachtige dashboards te creëren. Power BI-integratie biedt veel opties om inzichten te geven op basis van de gegevens van uw bedrijf, waaronder een breed scala aan visuele, filter- en weergave-aanpassingen.
 
@@ -40,7 +40,7 @@ De Power BI-integratie met [!INCLUDE[prod_short](includes/prod_short.md)] bevat 
 
 U kunt ook visuele rapporten maken op basis van [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van de bestandstypeoptie **Microsoft Excel-document (alleen gegevens)** op pagina's met rapportverzoeken. Meer informatie op [Rapporten uitvoeren en afdrukken](ui-work-report.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Business Analysis en Financial Reporting](bi.md)  
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  

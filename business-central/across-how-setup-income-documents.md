@@ -10,13 +10,13 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: bholtorf
 ---
-# Inkomende documenten instellen
+# <a name="set-up-incoming-documents"></a>Inkomende documenten instellen
 
 Als u dagboekregels van inkomende documentrecords maakt, moet u op de pagina **Instellingen van inkomende documenten** vastleggen welke dagboeksjabloon en batch moeten worden gebruikt.
 
 Wanneer de functie **Inkomende documenten** is ingesteld, kunt u verschillende functies gebruiken om onkostenbewijzen te controleren, OCR-taken te beheren en inkomende documentbestanden handmatig of automatisch te converteren naar de relevante documenten of dagboekregels. De externe bestanden kunnen worden gekoppeld in elke procesfase, inclusief naar geboekte documenten en naar de resulterende leverancier, klant en grootboekposten. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.
 
-## De functie Inkomende documenten instellen
+## <a name="to-set-up-the-incoming-documents-feature"></a>De functie Inkomende documenten instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instellingen inkomende documenten** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -25,13 +25,13 @@ Als onderdeel van de instelling moet u beslissen of u goedkeuring van inkomende 
 
 Ten slotte, als u een OCR-service gebruikt om PDF- of afbeeldingsbestanden te converteren die inkomende documenten vertegenwoordigen, moet u [deze instellen](#to-set-up-an-ocr-service). Anders kunt u die sectie ook overslaan.
 
-## Fiatteurs van inkomende documentrecords instellen
+## <a name="to-set-up-approvers-of-incoming-document-records"></a>Fiatteurs van inkomende documentrecords instellen
 
 Als u niet wilt dat gebruikers facturen of dagboekregels maken van inkomende documentrecords, tenzij de documenten eerst zijn goedgekeurd, stelt u een goedkeuringsproces in voor inkomende documenten. Fiatteurs van inkomende documenten moeten worden ingesteld als gebruikers van goedkeuringswerkstromen.
 
 Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u de werkstroomgebruikers instellen die betrokken zijn bij goedkeuringsprocessen. Op de pagina **Gebruikersinstellingen voor goedkeuring** kunt u ook maximumbedragen instellen voor specifieke typen aanvragen en vervangende fiatteurs aanwijzen aan wie goedkeuringsaanvragen worden gedelegeerd als de oorspronkelijke fiatteur afwezig is. Zie voor meer informatie [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md).
 
-## Een OCR-service instellen
+## <a name="to-set-up-an-ocr-service"></a>Een OCR-service instellen
 
 Als u PDF- en afbeeldingsbestanden wilt omzetten in elektronische documenten die u kunt converteren naar facturen, creditnota's of dagboekregels, stelt u de OCR-functie in. U kunt ook handmatig items maken die de externe documenten vertegenwoordigen.
 
@@ -43,7 +43,7 @@ Als u PDF- en afbeeldingsbestanden wilt omzetten in elektronische documenten die
 
 Zie [OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md) voor meer informatie.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Inkomende documenten](across-income-documents.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

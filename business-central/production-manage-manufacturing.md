@@ -10,7 +10,7 @@ ms.search.form: '5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 932
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Productie
+# <a name="manufacturing"></a>Productie
 
 > [!NOTE]
 > Functionaliteit die in dit onderwerp wordt beschreven, is alleen zichtbaar in de gebruikersinterface als u de **Premium**-ervaring hebt. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
@@ -39,7 +39,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |De pagina **Capaciteitsdagboek** gebruiken om verbruikte capaciteit te boeken die niet is toegewezen aan een productieorder, zoals onderhoudswerkzaamheden.|[Capaciteit boeken](production-how-to-post-capacities.md)|  
 |De kosten van gereedgemelde productieartikelen en verbruikte materialen berekenen en aanpassen voor financiële reconciliatie.|[Over de kosten van de gereedgemelde productieorder](finance-about-finished-production-order-costs.md)|  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Productie instellen](production-configure-production-processes.md)  
 [Gepland](production-planning.md)  

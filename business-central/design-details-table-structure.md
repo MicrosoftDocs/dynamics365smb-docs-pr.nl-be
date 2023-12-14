@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# Ontwerpdetails: Tabelstructuur
+# <a name="design-details-table-structure"></a>Ontwerpdetails: Tabelstructuur
 Om te begrijpen hoe dimensieposten worden opgeslagen en geboekt, is het belangrijk om de tabelstructuur te begrijpen.  
 
-## Tabel 480, Dimensiesetpost  
+## <a name="table-480-dimension-set-entry"></a>Tabel 480, Dimensiesetpost
 U kunt deze tabel niet wijzigen. Nadat gegevens naar de tabel zijn geschreven, kunt u ze niet meer verwijderen of wijzigen.
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
@@ -25,7 +25,7 @@ U kunt deze tabel niet wijzigen. Nadat gegevens naar de tabel zijn geschreven, k
 |5|**Dimensienaam**|Tekst 30|CalcField. Opzoeken in tabel 348.|  
 |6|**Dimensiewaardenaam**|Tekst 30|CalcField. Opzoeken in tabel 349.|  
 
-## Tabel 481, Boomstructuurpunt dimensieset  
+## <a name="table-481-dimension-set-tree-node"></a>Tabel 481, Boomstructuurpunt dimensieset
 U kunt deze tabel niet wijzigen. De tabel wordt gebruikt om te zoeken naar een dimensieset. Als de dimensieset niet wordt gevonden, wordt een nieuwe set gemaakt.  
 
 |Veldnr.|Veldnaam|Gegevenssoort|Opmerking|  
@@ -35,7 +35,7 @@ U kunt deze tabel niet wijzigen. De tabel wordt gebruikt om te zoeken naar een d
 |3|**Dimensieset-id**|Geheel getal|AutoIncrement. Gebruikt in veld 1 in tabel 480.|  
 |4|**In gebruik**|Boolean|Onwaar indien niet in gebruik.|  
 
-## Tabel 482 Herklass. dimensiesetbuffer  
+## <a name="table-482-reclas-dimension-set-buffer"></a>Tabel 482 Herklass. dimensiesetbuffer
 Deze tabel wordt gebruikt als u een dimensiewaardecode wijzigt, bijvoorbeeld in een artikelpost met de pagina **Artikelherindelingsdagboek**.  
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
@@ -49,14 +49,14 @@ Deze tabel wordt gebruikt als u een dimensiewaardecode wijzigt, bijvoorbeeld in 
 |7|**Dimensiewaardenaam**|Tekst 30|CalcField. Opzoeken in tabel 349.|  
 |8|**Nieuwe dimensiewaardenaam**|Tekst 30|CalcField. Opzoeken in tabel 349.|  
 
-## Transactie- en budgettabellen  
+## <a name="transaction-and-budget-tables"></a>Transactie- en budgettabellen
 Naast andere dimensievelden in de tabel is dit veld belangrijk:  
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensieset-id**|Integer|Verwijst naar veld 1 in tabel 480.|  
 
-### Tabel 83, Artikeldagboekregel  
+### <a name="table-83-item-journal-line"></a>Tabel 83, Artikeldagboekregel
 Naast andere dimensievelden in de tabel zijn deze velden belangrijk.  
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
@@ -64,14 +64,14 @@ Naast andere dimensievelden in de tabel zijn deze velden belangrijk.
 |480|**Dimensieset-id**|Geheel getal|Verwijst naar veld 1 in tabel 480.|  
 |481|**Nieuwe dimensieset-id**|Integer|Verwijst naar veld 1 in tabel 480.|  
 
-### Tabel 349, Dimensiewaarde  
+### <a name="table-349-dimension-value"></a>Tabel 349, Dimensiewaarde
 Naast andere dimensievelden in de tabel zijn deze velden belangrijk.  
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensiewaarde-id**|Geheel getal|AutoIncrement. Gebruikt voor referenties in tabel 480 en tabel 481.|  
 
-### Tabellen die het veld Dimensieset-id bevatten
+### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabellen die het veld Dimensieset-id bevatten
  Het veld **Dimensieset-id** (480) bestaat in de volgende tabellen. Voor de tabellen waarin de geboekte gegevens worden opgeslagen, levert het veld alleen een niet-bewerkbare weergave van dimensies, die wordt gemarkeerd als Meer details. Voor de tabellen waarin werkdocumenten worden opgeslagen, is het veld bewerkbaar. Voor de buffertabellen die intern worden gebruikt, zijn geen bewerkbare of niet-bewerkbare voorzieningen nodig.  
 
  Veld 480 kan niet worden bewerkt in de volgende tabellen.  
@@ -174,7 +174,7 @@ Veld 480 bestaat in de volgende buffertabellen.
 |5637|**VA-fin. boekingsbuffer**|  
 |7136|**Buffer artikelbudget**|  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)  
 [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)   

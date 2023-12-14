@@ -10,10 +10,10 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: jswymer
 ---
-# Verkoopopportunity's verwerken
+# <a name="process-sales-opportunities"></a>Verkoopopportunity's verwerken
 Nadat u een opportunity hebt gemaakt, zijn er verschillende functies voor het beheren van de opportunity en het verplaatsen ervan naar voltooiing.
 
-## Opportunities weergeven
+## <a name="to-view-opportunities"></a>Opportunities weergeven
 De bestaande verkoopopportunities zijn beschikbaar op de pagina **Opportunity-overzicht**. Er zijn verschillende manieren om toegang tot deze pagina te krijgen om verkoopopportunities te verwerken:
 
 | Opportunities weergeven voor | Dan |
@@ -24,7 +24,7 @@ De bestaande verkoopopportunities zijn beschikbaar op de pagina **Opportunity-ov
 
 Al deze taken openen de pagina **Opportunity-overzicht**.
 
-## Opportunities sluiten
+## <a name="to-close-opportunities"></a>Opportunities sluiten
 U kunt opportunities afsluiten wanneer de onderhandelingen zijn afgerond. Wanneer u een opportunity afsluit, kunt u opgeven of de opportunity is gewonnen of verloren en de redenen voor het afsluiten. Als u een reden wilt opgeven, moet u codes voor gesloten opportunities instellen.
 
 1. Selecteer op de pagina **Opportunity-overzicht** de opportunity en kies de actie **Sluiten**. De pagina **Opportunity afsluiten** wordt geopend.
@@ -34,14 +34,14 @@ U kunt opportunities afsluiten wanneer de onderhandelingen zijn afgerond. Wannee
 
    In het veld **Opportunitycode afsluiten** kunt u een van de bestaande codes voor het sluiten van opportunities kiezen of een nieuwe code toevoegen. Als u een nieuwe code wilt toevoegen, kiest u in de vervolgkeuzelijst **Selecteren vanuit volledige lijst** en kiest u vervolgens **nieuw**. Vul op de nieuwe, lege regel de velden **Code**, **Soort** en **Omschrijving** in en kies vervolgens de knop **OK**.
 
-## Offertes maken voor opportunity's
+## <a name="to-create-quotes-for-opportunities"></a>Offertes maken voor opportunity's
 > [!NOTE]
 > U kunt alleen verkoopoffertes maken van opportunities waarvan het contacttype Bedrijf is.
 
 1. Selecteer op de pagina **Opportunity-overzicht** de opportunity en kies vervolgens de actie **Verkoopofferte toekennen**. De pagina **Verkoopofferte** wordt geopend.
 2. Vul de betreffende velden in.
 
-## Verkooporders voor opportunity's maken
+## <a name="to-create-sales-orders-for-opportunities"></a>Verkooporders voor opportunity's maken
 U kunt verkooporders maken van de verkoopoffertes die u hebt gemaakt voor de opportunities. Voordat u verkooporders voor uw contacten kunt maken, moet u het contact eerst als klant maken. Zie voor meer informatie [Contacten maken](marketing-create-contact-companies.md).
 
 1. Zoek de pagina **Opportunity-overzicht** de opportunity waarvoor u een verkoopofferte hebt gemaakt.
@@ -50,7 +50,7 @@ U kunt verkooporders maken van de verkoopoffertes die u hebt gemaakt voor de opp
 
 Wanneer u verkoopopportunities verwerkt, moet u wellicht een offerte maken voor het contact aan wie de opportunity is gekoppeld.
 
-## Opportunities verwijderen
+## <a name="to-delete-opportunities"></a>Opportunities verwijderen
 U kunt opportunities verwijderen, bijvoorbeeld nadat u een verkoop hebt afgesloten. U kunt echter alleen gesloten opportunities verwijderen. Er zijn twee manieren om afgesloten opportunities te verwijderen. U kunt individuele afgesloten opportunities verwijderen vanuit de pagina **Opportunity-overzicht** of u kunt de batchverwerking **Afgesloten opportunities verwijderen** uitvoeren om meerdere opportunities te verwijderen op basis van een opgegeven criterium.
 
 Als u gesloten afgesloten opportunities wilt verwijderen vanuit de pagina **Opportunity-overzicht**, selecteert u de opportunity, en kiest u vervolgens de actie **Verwijderen**.
@@ -63,7 +63,7 @@ Als u afgesloten opportunities wilt verwijderen met de batchverwerking **Afgeslo
 
 Nadat u een opportunity hebt verwijderd, wordt de opportunity verwijderd uit de pagina **Opportunity-overzicht**.
 
-## Een opportunity verplaatsen door verkoopcyclifasen
+## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Een opportunity verplaatsen door verkoopcyclifasen
 Als een opportunity een verkoopcyclus volgt, kunt u deze voorwaarts of achterwaarts door de verschillende fasen verplaatsen, bijvoorbeeld naar de volgende of vorige fase, en zelfs een fase overslaan.
 
 1. Kies op de pagina **Opportunity-overzicht** de actie **Bijwerken**. De wizard **Opportunity bijwerken** wordt geopend.
@@ -75,7 +75,7 @@ Als een opportunity een verkoopcyclus volgt, kunt u deze voorwaarts of achterwaa
    * Met **Bijwerken** kunt u informatie wijzigen (bijvoorbeeld om de evaluatie van de slagingskans en de geschatte waarden te wijzigen) zonder te verplaatsen naar een andere fase.
 3. Vul de overige velden desgewenst in en kies de knop **OK**.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

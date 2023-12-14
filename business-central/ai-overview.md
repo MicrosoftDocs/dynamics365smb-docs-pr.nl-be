@@ -8,13 +8,13 @@ ms.topic: overview
 ms.date: 10/29/2023
 ms.custom: bap-template
 ---
-# Overzicht van marketingtekstsuggesties met Copilot
+# <a name="marketing-text-suggestions-with-copilot-overview"></a>Overzicht van marketingtekstsuggesties met Copilot
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
 Dit artikel geeft een overzicht van de op AI gebaseerde mogelijkheden van Copilot in Business Central.
 
-## Wat is op AI gebaseerde artikelmarketingtekst met Copilot
+## <a name="what-is-ai-powered-item-marketing-text-with-copilot"></a>Wat is op AI gebaseerde artikelmarketingtekst met Copilot
 
 Copilot biedt op AI gebaseerde schrijfhulp voor Business Central-gebruikers die verantwoordelijk zijn voor het schrijven van marketingteksten (productbeschrijvingen) voor artikelen die in online winkels worden verkocht, zoals Shopify. Met één klik op de knop genereert Copilot tekst die boeiend en creatief is en de belangrijkste kenmerken van het specifieke artikel benadrukt. Met wat nakijken en bewerken is het klaar om te publiceren.
 
@@ -26,13 +26,13 @@ Copilot gebruikt [Microsoft Azure OpenAI Service](/azure/cognitive-services/open
 
 *De video geeft niet precies weer hoe de functie momenteel werkt of eruitziet in het product. De functie is veranderd sinds de video is geproduceerd. Maar het geeft u een algemeen idee van de functie en waarvoor u deze kunt gebruiken.*
   
-## Waar het wordt gebruikt
+## <a name="where-its-used"></a>Waar het wordt gebruikt
 
 Copilot is beschikbaar op artikelkaarten in Business Central. In Business Central zijn artikelen vergelijkbaar met producten in andere toepassingen en winkels. Elk artikel kan worden beheerd vanaf een kaart waarop u details over het artikel invoert, zoals de afmetingen, kosten of afbeelding. Deze kaart bevat ook een vak voor het invoeren van marketingtekst. Deze marketingtekst kan in uw online winkel worden gepubliceerd om het artikel te promoten. Hier komt Copilot om de hoek kijken. Door gewoon de actie **Opstellen met Copilot** te selecteren op de artikelkaart, genereert Copilot een intelligente concepttekst voor u. Zodra u de eerste versie heeft, kunt u Copilot keer op keer uitvoeren totdat u een versie krijgt die u bevalt. Als u een suggestie hebt die u leuk vindt, bekijkt en bewerkt u deze op juistheid en slaat u deze vervolgens op.
 
 Als Business Central is ingesteld om verbinding met uw online winkel te maken in Shopify, kunt u deze tekst zelfs rechtstreeks met het artikel in uw winkel publiceren door **Toevoegen aan Shopify** te selecteren.
 
-## Waarom en hoe u het gebruikt
+## <a name="why-and-how-to-use-it"></a>Waarom en hoe u het gebruikt
 
 Door AI gegenereerde tekst kan u helpen de time-to-market van producten in online winkels te versnellen door de tijd die wordt besteed aan het schrijven van teksten te beperken. Dit zijn enkele belangrijke voordelen:
 
@@ -42,7 +42,7 @@ Door AI gegenereerde tekst kan u helpen de time-to-market van producten in onlin
 
 U moet de door AI gegenereerde tekst beschouwen als slechts een *suggestie*. Suggesties kunnen in sommige gevallen fouten en zelfs ongepaste tekst bevatten, dus menselijk toezicht en beoordeling zijn vereist. Voordat u de tekst openbaar maakt, moet u deze controleren op juistheid en de juiste wijzigingen aanbrengen.
 
-## Huidige beperkingen
+## <a name="current-limitations"></a>Huidige beperkingen
 
 In dit gedeelte worden de huidige beperkingen van de door AI gegenereerde tekstmogelijkheden van Copilot uitgelegd.
 
@@ -53,7 +53,7 @@ In dit gedeelte worden de huidige beperkingen van de door AI gegenereerde tekstm
 
 <!-- Partner extensibility of the AI capability by using AL code isn't supported.-->
 
-## Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 
 Om aan de slag te gaan, hebt u een Business Central-omgeving (v23.1 en hoger) nodig die is ingeschakeld met Copilot.
 
@@ -63,7 +63,7 @@ Om aan de slag te gaan, hebt u een Business Central-omgeving (v23.1 en hoger) no
 
 Zodra u een omgeving of parcours gereed heeft, gaat u naar [Marketingtekst aan artikelen toevoegen met Copilot](item-marketing-text.md).  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Copilot- en AI-mogelijkheden configureren](enable-ai.md)  
 [Marketingtekst aan artikelen toevoegen met Copilot](item-marketing-text.md)  

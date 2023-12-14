@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# Ontwerpdetails: Voorraadboeking
+# <a name="design-details-inventory-posting"></a>Ontwerpdetails: Voorraadboeking
 
 Elke voorraadtransactie, bijvoorbeeld een inkoopontvangst of een verkoopverzending boekt twee posten van verschillende soort.  
 
@@ -27,26 +27,26 @@ Elke voorraadtransactie, bijvoorbeeld een inkoopontvangst of een verkoopverzendi
 
  ![Invoerstroom bij inventarisatie met grootboek.](media/design_details_inventory_costing_1_entry_flow.png "Invoerstroom bij inventarisatie met grootboek")  
 
-## Voorbeeld
+## <a name="example"></a>Voorbeeld
 
 In het volgende voorbeeld wordt getoond hoe artikelposten, waardeposten en artikelvereffeningsposten resulteren in grootboekposten.  
 
  U boekt een inkooporder als verzonden en gefactureerd voor 10 artikelen met een directe kostprijs van LV 7 en een overheadtarief van LV 1. De boekingsdatum is 01-01-20. De volgende posten worden gemaakt.  
 
-### Artikelposten (1)
+### <a name="item-ledger-entries-1"></a>Artikelposten (1)
 
 |Boekingsdatum|Boekingssoort|Tot. werk. kosten|Aantal|Volgnummer|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Inkoop|80,00|10|1|  
 
-### Waardeposten (1)
+### <a name="value-entries-1"></a>Waardeposten (1)
 
 |Boekingsdatum|Boekingssoort|Tot. werk. kosten|Artikelpostnr.|Volgnummer|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Directe kosten|70.00|1|1|  
 |01-01-20|Indirecte kosten|10.00|1|2|  
 
-### Artikelvereffeningsposten (1)
+### <a name="item-application-entries-1"></a>Artikelvereffeningsposten (1)
 
 |Volgnummer|Artikelpostnr.|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ In het volgende voorbeeld wordt getoond hoe artikelposten, waardeposten en artik
 
  Vervolgens boekt u een verkoop van 10 eenheden van het artikel met een boekingsdatum van 01-15-20.  
 
-### Artikelposten (2)
+### <a name="item-ledger-entries-2"></a>Artikelposten (2)
 
 |Boekingsdatum|Boekingssoort|Tot. werk. kosten|Aantal|Volgnummer|  
 |------------|----------|--------------------|--------|---------|  
 |15-01-20|Verkoop|-80,00|-10|2|  
 
-### Waardeposten (2)
+### <a name="value-entries-2"></a>Waardeposten (2)
 
 |Boekingsdatum|Boekingssoort|Tot. werk. kosten|Artikelpostnr.|Volgnummer|  
 |------------|----------|--------------------|---------------------|---------|  
 |15-01-20|Directe kosten|-80,00|2|3|  
 
-### Artikelvereffeningsposten (2)
+### <a name="item-application-entries-2"></a>Artikelvereffeningsposten (2)
 
 |Volgnummer|Artikelpostnr.|Inkomend art.-postnr.|Uitgaand art.-postnr.|Aantal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ Aan het eind van de boekhoudperiode voert u de batchverwerking **Voorraadwaarde 
 
  De volgende tabellen tonen het resultaat van de reconciliatie van de voorraadtransacties in dit voorbeeld met het grootboek.  
 
-### Waardeposten (3)  
+### <a name="value-entries-3"></a>Waardeposten (3)
 
 |Boekingsdatum|Boekingssoort|Tot. werk. kosten|Kosten geboekt naar grootboek|Artikelpostnr.|Volgnummer|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ Aan het eind van de boekhoudperiode voert u de batchverwerking **Voorraadwaarde 
 |01-01-20|Indirecte kosten|10.00|10.00|1|2|  
 |15-01-20|Directe kosten|-80,00|-80,00|2|3|  
 
-### Grootboekposten (3)
+### <a name="general-ledger-entries-3"></a>Grootboekposten (3)
 
 |Boekingsdatum|Grootboekrekening|Rekeningnr. (En-US demo)|Bedrag|Volgnummer|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ Aan het eind van de boekhoudperiode voert u de batchverwerking **Voorraadwaarde 
 
  De relatie tussen waardeposten en grootboekposten wordt opgeslagen in de tabel **Relatie GB-artikeljournaal**.  
 
-### Relatieposten in het grootboek - tabel Artikelpostrelatie (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Relatieposten in het grootboek - tabel Artikelpostrelatie (3)
 
 |Grootboekpostnr.|Waardepostnr.|Grootboekjournaalnr.|  
 |-------------|---------------|----------------|  
@@ -115,13 +115,13 @@ Aan het eind van de boekhoudperiode voert u de batchverwerking **Voorraadwaarde 
 |5|3|1|  
 |6|3|1|  
 
-## Assemblage- en productieboeking
+## <a name="assembly-and-production-posting"></a>Assemblage- en productieboeking
 
 Capaciteits- en resourceposten geven de tijd aan die is geboekt als verbruikt in productie of assemblage. Deze proceskosten worden als waardeposten naar het grootboek geboekt samen met de betrokken materiaalkosten in een soortgelijke structuur zoals voor artikelposten in dit onderwerp beschreven.  
 
 Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
  [Ontwerpdetails: Rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)  

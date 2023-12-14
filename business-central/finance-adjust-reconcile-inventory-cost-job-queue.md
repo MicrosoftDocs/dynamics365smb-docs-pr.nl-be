@@ -11,12 +11,12 @@ ms.search.form: 461
 ms.date: 09/19/2023
 ms.author: bholtorf
 ---
-# Taken plannen voor het aanpassen en afstemmen van voorraadkosten
+# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Taken plannen voor het aanpassen en afstemmen van voorraadkosten
 
 Projecten plannen voor automatische kostenaanpassing met het grootboek en boeking naar het grootboek zijn standaard ingeschakeld.
 Aangezien gegevens zich in de loop van de tijd ophopen, kan dit echter van invloed zijn op de prestaties. Om de belasting van de toepassing te verminderen, is het vaak handig om opdrachten in de wachtrij te gebruiken om taken op de achtergrond uit te voeren.
 
-## Verplaats de taak van het aanpassen van artikelkosten naar de achtergrond met behulp van begeleide instelling
+## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Verplaats de taak van het aanpassen van artikelkosten naar de achtergrond met behulp van begeleide instelling
 
 Het maken van de taakwachtrij-items kan lastig zijn, zelfs voor een ervaren consultant, dus we hebben een begeleide instelling om het proces voor het aanpassen van de artikelkosten te vergemakkelijken.  
 
@@ -30,7 +30,7 @@ Het maken van de taakwachtrij-items kan lastig zijn, zelfs voor een ervaren cons
 
 5. Selecteer het veld **De taakwachtrijposten weergeven wanneer het gereed is** om instellingen te bekijken en aan te passen. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).  
 
-## Een taakwachtrij-item maken voor het handmatig aanpassen en afstemmen van voorraadkosten
+## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Een taakwachtrij-item maken voor het handmatig aanpassen en afstemmen van voorraadkosten
 
 U kunt ook handmatig taakwachtrij-items maken. De volgende procedure laat zien hoe u de batchverwerking **Kostprijs herwaarderen - Artikelposten** instelt om automatisch dagelijks te worden uitgevoerd, maar dezelfde stappen zijn van toepassing op de batchverwerking **Voorraadwaarde boeken naar GB**.  
 
@@ -49,7 +49,7 @@ Om een taak te plannen voor het afstemmen van voorraad met het grootboek, kiest 
 > [!TIP]
 > Plan om vergrendeling te voorkomen niet tegelijkertijd taken voor de batchverwerking **Kostprijs herwaarderen - Artikelposten**, de codeunit **Voorraadwaarde boeken naar GB** en taken voor het boeken van verkoop- of inkooptransacties. Zorg er ook voor dat ze dezelfde taakwachtrijcategorie gebruiken.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Artikelprijzen herwaarderen](inventory-how-adjust-item-costs.md)  
 [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

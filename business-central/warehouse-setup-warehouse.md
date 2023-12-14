@@ -10,7 +10,7 @@ ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 732
 ms.date: 09/28/2023
 ms.author: bholtorf
 ---
-# Magazijnbeheer instellen
+# <a name="setting-up-warehouse-management"></a>Magazijnbeheer instellen
 
 De distributiestrategie van een bedrijf wordt weerspiegeld in de configuratie van zijn magazijnprocessen. Dit betreft onder andere definiëren hoe verschillende artikelen op verschillende magazijnlocaties worden afgehandeld, zoals de mate van opslaglocatiecontrole en de omvang van de werkstroom die nodig is voor activiteiten tussen magazijnen.  
 
@@ -35,7 +35,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Tips krijgen over het reorganiseren van vestigingen, opslaglocaties of zones om de magazijnactiviteiten efficiënter te laten verlopen.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Assemblage](assembly-assemble-items.md)  
