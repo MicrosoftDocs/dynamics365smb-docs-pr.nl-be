@@ -162,7 +162,7 @@ additionalContent:
             - text: Werken met Power BI-rapporten in Business Central
               url: /dynamics365/business-central/across-working-with-powerbi
             - text: Lijstgegevens analyseren met de analysemodus
-              url: /dynamics365/business-central/across-working-with-powerbi
+              url: /dynamics365/business-central/analysis-mode
             - text: Rapportgegevens analyseren met Excel
               url: /dynamics365/business-central/report-analyze-excel
         - title: Algemene bedrijfsfunctionaliteit
