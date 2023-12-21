@@ -8,15 +8,15 @@ ms.author: bholtorf
 ms.date: 12/19/2023
 ---
 
-# Aanmelden voor een gratis proefversie van Dynamics 365 Business Central
+# <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Aanmelden voor een gratis proefversie van Dynamics 365 Business Central
 
 Business Central biedt een gratis proefversie. Na een snelle registratie hebt u toegang tot veel van de belangrijkste functies van de app. Met de proefversie kunt u de app testen met voorbeeldgegevens. Als u dingen wilt uitproberen met uw eigen gegevens, schakelt u over naar een gratis proefversie van 30 dagen. [Meer informatie over functies van Business Central](across-business-functionality.md).  
 
-## Registreren voor de proefversie
+## <a name="to-sign-up-for-the-trial"></a>Registreren voor de proefversie
 
 [!INCLUDE [trial-get](includes/trial-get.md)]
 
-## Wat uit te proberen
+## <a name="what-to-try"></a>Wat uit te proberen
 
 Uw proefomgeving bevat dezelfde functies als de betaalde versie. De volgende koppelingen helpen u met enkele van de belangrijkste functies.
 
@@ -25,7 +25,7 @@ Uw proefomgeving bevat dezelfde functies als de betaalde versie. De volgende kop
 - [Word productief](ui-work-product.md)  
 - [Snelstartgidsen](quick-start-business-central.md)  
 
-## Aan de slag gaan met een abonnement
+## <a name="get-started-with-a-subscription"></a>Aan de slag gaan met een abonnement
 
 Telkens als u zich tijdens de proefperiode aanmeldt, verschijnt de resterende tijd in een melding in een blauwe balk bovenaan. Als u besluit zich te abonneren, zoekt u een [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) voor meer informatie. De wederverkoper kan u helpen bij het instellen van [!INCLUDE[prod_short](includes/prod_short.md)] voor uw bedrijf, inclusief het importeren van uw gegevens uit uw vorige systeem. U kunt ook [!INCLUDE[prod_short](includes/prod_short.md)] aanpassen door apps toe te voegen uit [de commerciële marktplaats van Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
@@ -38,7 +38,7 @@ U kunt ook contact opnemen met het [[!INCLUDE[prod_short](includes/prod_short.md
 
 Zie voor meer informatie over wat u kunt doen met [!INCLUDE [prod_short](includes/prod_short.md)] [Voorbereiden op zakendoen](ui-get-ready-business.md) en [Zakelijke functionaliteit](across-business-functionality.md).  
 
-## Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende resources
 
 - [Bezoek onze videobibliotheek](across-videos.md)  
 - [Veelgestelde vragen (FAQ) over proefversie](trial-faq.md)  
