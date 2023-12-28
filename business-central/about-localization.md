@@ -10,13 +10,13 @@ ms.search.form: null
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# Wat is lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]?
+# <a name="what-is-local-functionality-in-"></a>Wat is lokale functionaliteit in [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] heeft een gecombineerde lokalisatiestrategie die zowel door Microsoft geleide als door partners geleide modellen bevat. In dit gedeelte kunt u beschrijvingen van functionaliteit bekijken die geldt voor de landen/regio's waarin Microsoft de wettelijke naleving en andere lokale functionaliteit levert.  
 
 Ga voor een lijst met momenteel ondersteunde markten gaat u naar [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## Lokale functionaliteit
+## <a name="local-functionality"></a>Lokale functionaliteit
 
 De volgende tabel bevat koppelingen naar artikelen waar u meer te weten kunt komen over de lokale functionaliteit voor elk land/regio.
 
@@ -47,11 +47,11 @@ De volgende tabel bevat koppelingen naar artikelen waar u meer te weten kunt kom
 |        | India | [Lokale functionaliteit voor India](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nieuw-Zeeland | [Lokale functionaliteit voor Nieuw Zeeland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### Overige landen/regio's
+### <a name="other-countriesregions"></a>Overige landen/regio's
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is tevens in andere markten beschikbaar via lokalisatieapps. Als een Microsoft-partner een lokalisatieapp voor uw land/regio heeft ontwikkeld, kunt u deze vinden in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Omgevingen maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Voorbereiden om aan de slag te gaan](ui-get-ready-business.md)  
