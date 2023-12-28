@@ -70,7 +70,11 @@ Volg deze stappen om de E-documentservice in te stellen.
 
 Als u de indeling **Definitie van gegevensuitwisseling** in uw lokalisatie hebt geconfigureerd, kunt u een regel toevoegen voor elk documenttype dat u nodig heeft. Voeg regels toe die overeenkomen met het standaardvoorbeeld van gegevensuitwisseling voor het W1 PEPPOL-formaat. Selecteer echter eerst de optie **Type document** voor elke regel die u nodig heeft. Selecteer voor elk gegevenstype de waarde **Definitiecode van gegevensuitwisseling importeren** of **Definitiecode van gegevensuitwisseling exporteren** die u wilt gebruiken.
 
-Als u de indeling **Definitie van gegevensuitwisseling** niet gebruikt, kunt u formaten maken en configureren met behulp van de [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Pas de informatie aan op de regels **Toewijzing exporteren** en **Toewijzing importeren** , waar u de tabellen en velden kunt vinden voor het configureren van transformatieregels. In dit geval moet u een nieuwe optie toevoegen in het veld **Documentindeling** die betrekking heeft op uw indeling.
+Als u de indeling **Definitie van gegevensuitwisseling** niet gebruikt, kunt u formaten maken en configureren met behulp van de [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Pas de informatie aan op de regels **Toewijzing exporteren** en **Toewijzing importeren** , waar u de tabellen en velden kunt vinden voor het configureren van transformatieregels. In dit geval moet u een nieuwe optie toevoegen in het veld **Documentindeling** die betrekking heeft op uw indeling.  
+
+### Ondersteunde documenttypen 
+
+Ondersteunde documenttypen zijn gebaseerd op de gekozen **Documentindeling**. Als u wilt controleren welke documenttypen worden ondersteund, voert u op de pagina **E-documentservice** de actie **Ondersteunde documenttypen** uit. De **Ondersteunde brondocumenttypen van de e-documentservice** worden geopend en in de kolom **Brondocumenttype** vindt u alle ondersteunde documenttypen.  
 
 ## Een verzendprofiel voor documenten instellen
 

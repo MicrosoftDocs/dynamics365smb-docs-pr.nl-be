@@ -1,7 +1,7 @@
 
 # [Business Central-documentatie](index.yml)
 # [Welkom bij Business Central](welcome.md)
-# [Nieuw en gepland](/dynamics365/business-central/dev-itpro/whatsnew/overview)
+# [Nieuw en gepland](/dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json)
 # Aan de slag
 ## [Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
@@ -333,6 +333,7 @@
 #### [Overzicht van e-documenten](finance-edocuments-overview.md)
 #### [E-documenten instellen](finance-how-setup-edocuments.md)
 #### [E-documenten gebruiken bij verkoop en inkoop](finance-how-use-edocuments.md)
+#### [De connector voor e-documenten instellen met externe eindpunten](finance-how-setup-edocuments-external.md)
 #### [Functionaliteit van e-documenten uitbreiden](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Btw beheren
@@ -870,6 +871,8 @@
 ### Denemarken
 #### [Lokale functionaliteit in de Deense versie](LocalFunctionality/Denmark/denmark-local-functionality.md)
 #### [Bericht en registratie voor het NemHandelsregisteret in Denemarken](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Elektronische facturering instellen met NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### [Transactiegegevens vijf jaar bewaren in Denemarken](localfunctionality/denmark/how-to-keep-data-5years.md)
 #### Btw
 ##### [Btw-reconciliatierapporten afdrukken](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Btw-Intracomm. rapporten](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -883,7 +886,7 @@
 ##### [Klanten instellen voor OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Elektronische OIOUBL-facturering instellen](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [De OIOUBL-extensie voor elektronische facturering](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Elektronische documenten maken in een OIOUBL-indeling](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+##### [Elektronische documenten maken in een OIOUBL-indeling](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
 #### Salaris
 ##### [Loonlijstgegevensdefinities (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 #### Digitale bonnen

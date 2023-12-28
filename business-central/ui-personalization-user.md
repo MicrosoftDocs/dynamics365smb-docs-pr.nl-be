@@ -8,12 +8,16 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/14/2023
+ms.date: 12/05/2023
 ms.author: jswymer
 ---
 # Uw werkruimte personaliseren
 
-U kunt uw werkruimte aanpassen aan uw werk en voorkeuren. Wijzig pagina's zodat ze alleen de informatie weergeven die u nodig hebt, waar u die nodig hebt. Personalisatie heeft alleen invloed op uw werkruimte. Het verandert niets aan hoe anderen werken. U kunt alle soorten pagina's personaliseren, inclusief de pagina [Rolcentrum](ui-change-basic-settings.md#role-center). 
+U kunt uw werkruimte aanpassen aan uw werk en voorkeuren. Wijzig pagina's zodat ze alleen de informatie weergeven die u nodig hebt, waar u die nodig hebt. Personalisatie heeft alleen invloed op uw werkruimte. Het verandert niets aan hoe anderen werken. U kunt alle soorten pagina's personaliseren, inclusief de pagina [Rolcentrum](ui-change-basic-settings.md#role-center).
+
+> [!NOTE]
+> Vanwege beperkingen op ontwerpmogelijkheden in de webclient is het momenteel niet mogelijk om de besturingselementen binnen de rastersyntaxis aan te passen of te personaliseren.
+Het geldt voor alle ontwerpmodi, niet alleen voor personalisatie.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -184,7 +188,6 @@ Er zijn een aantal punten die u in gedachten moet houden als u beter wilt begrij
 - Sommige pagina's hebben meerdere paginavelden die aan dezelfde brontabel zijn toegewezen. In het deelvenster worden beide/al deze paginavelden onafhankelijk weergegeven. Het tonen/verbergen/verplaatsen van deze velden is ook onafhankelijk, zonder dat de een de ander beïnvloedt.
 - Als een onderdeel of groep verborgen is, worden er nog steeds vage velden in weergegeven, maar u kunt dat veld niet verslepen of toevoegen/tonen totdat u de groep/het onderdeel zichtbaar maakt.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## Zie ook
 [Pagina's aanpassen voor profielen](ui-personalization-manage.md)  

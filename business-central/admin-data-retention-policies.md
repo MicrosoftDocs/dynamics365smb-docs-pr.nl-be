@@ -3,63 +3,74 @@ title: Gegevens opschonen met bewaarbeleid
 description: U kunt aangeven hoe vaak u bepaalde soorten gegevens wilt verwijderen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
 ms.search.keywords: 'delete, data, retention, policy, policies'
 ms.search.form: '3903, 3901'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 12/15/2023
+ms.custom: bap-template
 ---
 # Bewaarbeleid definiëren
-Beheerders kunnen bewaarbeleid definiëren om aan te geven hoe vaak ze willen dat [!INCLUDE[prod_short](includes/prod_short.md)] verouderde gegevens verwijdert in tabellen die logboekvermeldingen en gearchiveerde records bevatten. Het opschonen van logboekvermeldingen kan het bijvoorbeeld gemakkelijker maken om te werken met de gegevens die echt relevant zijn. Beleid kan alle gegevens in de tabellen omvatten die de vervaldatum hebben overschreden, of u kunt filtercriteria toevoegen die alleen bepaalde verlopen gegevens in het beleid opnemen. 
+
+Dit artikel beschrijft hoe beheerders bewaarbeleid kunnen definiëren om aan te geven hoe vaak ze willen dat verouderde gegevens worden verwijderd in tabellen die logboekvermeldingen en gearchiveerde records bevatten. Het opschonen van logboekvermeldingen kan het bijvoorbeeld gemakkelijker maken om te werken met relevantere gegevens. Beleid kan gegevens verwijderen op basis van een vervaldatum, of u kunt filters toevoegen om alleen bepaalde verlopen gegevens op te nemen.
 
 ## Vereiste instellingen en machtigingen
-Voordat u bewaarbeleid kunt maken, moet u het volgende instellen.
+
+Voordat u bewaarbeleid kunt maken, moet u de tabellen instellen die moeten worden opgenomen en de perioden waarin gegevens moeten worden bewaard.
 
 |Instellen  |Omschrijving  |
 |---------|---------|
-|**Toegestane tabellen**     |We bieden een lijst met de tabellen die kunnen worden opgenomen in het bewaarbeleid. Als u echter tabellen uit een extensie aan een bewaarbeleid wilt toevoegen, moet een ontwikkelaar de tabellen aan de lijst toevoegen. Zie voor meer informatie [Uw extensie opnemen in een bewaarbeleid](admin-data-retention-policies.md#including-your-extension-in-a-retention-policy-requires-help-from-a-developer).          |
+|**Toegestane tabellen**     |We bieden een lijst met de tabellen die u kunt opnemen in het bewaarbeleid. Als u tabellen uit een extensie aan een bewaarbeleid wilt toevoegen, moet een ontwikkelaar de tabellen aan de lijst toevoegen. Ga voor meer informatie naar [Uw extensie opnemen in een bewaarbeleid](admin-data-retention-policies.md#include-your-extension-in-a-retention-policy-requires-help-from-a-developer).          |
 |**Bewaarperioden**     |Geef perioden op waarvoor gegevens in de tabellen in een beleid moeten worden bewaard. De perioden bepalen hoe vaak gegevens worden verwijderd.         |
 
-Bovendien moet u beschikken over de SUPER-gebruikersmachtigingen of de machtigingenset Bewaarbeleid instellen. Gebruikers aan wie de machtigingenset Bewaarbeleid instellen is verleend, kunnen bewaarbeleid voor tabellen definiëren, zelfs als ze geen machtigingen voor lezen en verwijderen voor die tabellen hebben. De taakwachtrij-invoer moet worden uitgevoerd als een gebruiker met machtigingen om de gegevens te lezen en te verwijderen. We raden u aan de machtigingenset Bewaarbeleid instellen niet te verlenen aan gebruikers die geen toestemming mogen krijgen om gegevens te verwijderen.
+Bovendien moet u beschikken over de **SUPER**-gebruikersmachtigingen of de machtigingenset **Bewaarbeleid instellen**. Gebruikers met de machtigingenset Bewaarbeleid instellen kunnen bewaarbeleid voor tabellen definiëren. Dat is waar, zelfs als ze geen lees- en verwijderrechten voor de tabellen hebben. De taakwachtrij-invoer moet worden uitgevoerd als een gebruiker met machtigingen om de gegevens te lezen en te verwijderen. Verleen de machtigingenset Bewaarbeleid niet aan gebruikers die geen toestemming mogen krijgen om gegevens te verwijderen.
 
 > [!NOTE]
 > Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt en u wilt bewaarbeleid uitproberen in de Cronus-demonstratiedatabase, zijn er een paar dingen die u moet doen. Het demonstratiebedrijf bevat geen tabellen die u kunt gebruiken met bewaarbeleid, dus u moet deze toevoegen. Om dat te doen maakt u een nieuw, leeg bedrijf in de demonstratiedatabase. Importeer in het nieuwe bedrijf het RapidStart-configuratiepakket voor uw land/regio, dat overeenkomt met het standaardpakket NAV17.0.W1.ENU.STANDARD.rapidstart. De instellingsgegevens voor het bewaarbeleid zijn beschikbaar in het nieuwe bedrijf.
 
 ### Bewaarperioden maken
+
 Bewaarperioden kunnen zo lang of kort zijn als u wilt. Om bewaartermijnen te maken gebruikt u op de pagina **Bewaarbeleid** de actie **Bewaarperiode**. De door u gedefinieerde perioden zijn beschikbaar voor al het beleid.
 
 > [!NOTE]
-> Om complianceredenen hebben we voor sommige tabellen een minimale bewaartermijn gedefinieerd. Als u een bewaartermijn instelt die korter is dan vereist, wordt een bericht weergegeven met de verplichte periode.
+> Om complianceredenen hebben we voor sommige tabellen een minimale bewaartermijn gedefinieerd. Als u een bewaartermijn instelt dat korter is dan vereist, wordt een bericht weergegeven met de verplichte periode.
 
 ### Een bewaarbeleid instellen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewaarbeleid** in en kies vervolgens de gerelateerde koppeling.
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewaarbeleid** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het veld **Tabel-id** de tabel die u wilt opnemen in het beleid.
 3. Geef in het veld **Bewaarperiode** op hoe lang de gegevens in de tabel moeten worden bewaard.
-4. Optioneel: als u het beleid op specifieke gegevens in een tabel wilt toepassen, schakelt u de schakelaar Toepassen op alle records uit. Het sneltabblad Bewaarbeleid van record wordt weergegeven, waar u filters kunt instellen om subsets met gegevens voor elke regel te maken. Zie [Filteren](ui-enter-criteria-filters.md#filtering) voor meer informatie.
+4. Optioneel: als u het beleid op specifieke gegevens in een tabel wilt toepassen, schakelt u de schakelaar **Toepassen op alle records** uit. Het sneltabblad **Bewaarbeleid van record** wordt weergegeven, zodat u filters kunt instellen om subsets met gegevens voor elke regel te maken. Ga voor meer informatie naar [Filtering](ui-enter-criteria-filters.md#filtering).
 
    > [!NOTE]
    > Elke regel heeft zijn eigen bewaarperiode. Als u verschillende bewaarperioden opgeeft voor dezelfde gegevens, wordt de langste periode gebruikt. Sommige tabellen bevatten ook filters die u niet kunt wijzigen of verwijderen. Om u te helpen deze filters te identificeren, worden ze weergegeven in een lichter lettertype.
 
-## Retentiebeleid toepassen
+#### Videobegeleiding
+
+Deze video geeft een voorbeeld van hoe u een bewaarbeleid instelt.
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fLeJ]
+
+## Bewaarbeleid toepassen
+
 U kunt een taakwachtrij-item gebruiken om bewaarbeleid toe te passen om gegevens automatisch te verwijderen, of u kunt handmatig beleid toepassen.
 
-Om automatisch een bewaarbeleid toe te passen hoeft u alleen maar een beleid te maken en in te schakelen. Wanneer u een beleid inschakelt, maken we een taakwachtrij-item dat het bewaarbeleid toepast volgens de bewaarperiode die u opgeeft. Al het bewaarbeleid gebruikt hetzelfde taakwachtrij-item. Standaard past het taakwachtrij-item het beleid elke dag toe om 0200. U kunt de standaardinstelling wijzigen, maar als u dat doet, raden we u aan om het buiten kantooruren te laten doen. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md). 
+Om automatisch een bewaarbeleid toe te passen hoeft u alleen maar een beleid te maken en in te schakelen. Wanneer u een beleid inschakelt, maakt [!INCLUDE [prod_short](includes/prod_short.md)] een taakwachtrij-item dat het beleid toepast volgens de bewaarperiode. Al het bewaarbeleid gebruikt hetzelfde taakwachtrij-item. Standaard past het taakwachtrij-item het beleid elke dag toe om 0200. U kunt de standaardinstelling wijzigen, maar als u dat doet, raden we u aan om het buiten kantooruren te laten doen. Ga voor meer informatie naar [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md). 
 
 U kunt handmatig een beleid toepassen met behulp van de actie **Handmatig vereffenen** op de pagina **Bewaarbeleid**. Als u een beleid altijd handmatig wilt toepassen, schakelt u de schakelaar **Handmatig** in. Het taakwachtrij-item negeert het beleid wanneer het wordt uitgevoerd.
 
 ## Logboekvermeldingen voor bewaarbeleid bekijken
-U kunt activiteiten met betrekking tot bewaarbeleid bekijken op de pagina **Logboek van bewaarbeleid**. Er worden bijvoorbeeld vermeldingen gemaakt wanneer een beleid wordt toegepast, of als er fouten zijn opgetreden toen dat gebeurde. 
+
+U kunt activiteiten met betrekking tot bewaarbeleid bekijken op de pagina **Logboek van bewaarbeleid**. Er worden bijvoorbeeld posten gemaakt wanneer een beleid wordt toegepast, of als er fouten zijn opgetreden.
 
 ## Uw extensie opnemen in een bewaarbeleid (hulp van een ontwikkelaar vereist)
-Het bewaarbeleid heeft standaard alleen betrekking op tabellen die zijn opgenomen in de lijst met [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen die we verstrekken. U kunt standaardtabellen uit de lijst verwijderen en u kunt tabellen toevoegen waarvan u de eigenaar bent. Dat wil zeggen dat u geen tabel kunt toevoegen die u niet zelf hebt gemaakt. U kunt bijvoorbeeld geen andere tabellen toevoegen vanuit [!INCLUDE[prod_short](includes/prod_short.md)] of vanuit een extensie die u hebt gekocht.
 
-Om uw tabellen toe te voegen aan de lijst met toegestane tabellen moet een ontwikkelaar wat code toevoegen, bijvoorbeeld aan de installatie-codeunit voor de extensie (een codeunit met het subtype *install*). 
+Standaard geldt het bewaarbeleid alleen voor [!INCLUDE[prod_short](includes/prod_short.md)] in de lijst die we verstrekken. U kunt standaardtabellen uit de lijst verwijderen en u kunt tabellen toevoegen waarvan u de eigenaar bent. Dat wil zeggen dat u geen tabel kunt toevoegen die u niet zelf hebt gemaakt. U kunt bijvoorbeeld geen andere tabellen toevoegen vanuit [!INCLUDE[prod_short](includes/prod_short.md)] of vanuit een extensie die u hebt gekocht.
 
-Wanneer ontwikkelaars een tabel toevoegen, kunnen ze verplichte en standaardfilters specificeren. Verplichte filters kunnen later niet worden verwijderd of gewijzigd wanneer u tabellen toevoegt om een bewaarbeleid te definiëren. Standaardfilters zijn slechts vriendelijke suggesties.
+Om uw tabellen aan de lijst met toegestane tabellen toe te voegen, moet een ontwikkelaar wat code toevoegen. Bijvoorbeeld aan de installatiecodeunit voor de extensie (een codeunit met het subtype *install*).
 
-Hieronder volgen voorbeelden van hoe u een tabel kunt toevoegen aan de lijst met toegestane tabellen met en zonder verplichte of standaardfilters. Voor een complex voorbeeld raadpleegt u codeunit 3999 'Bewaarbeleid installeren - BaseApp'. 
+Wanneer ontwikkelaars een tabel toevoegen, kunnen ze verplichte en standaardfilters specificeren. Verplichte filters kunnen later niet worden verwijderd of gewijzigd wanneer u tabellen toevoegt om een bewaarbeleid te definiëren. De standaardfilters zijn slechts suggesties.
+
+Hieronder volgen voorbeelden van hoe u een tabel kunt toevoegen aan de lijst met toegestane tabellen met en zonder verplichte of standaardfilters. Voor een complexer voorbeeld gaat u naar codeunit 3999 'Bewaarbeleid installeren - BaseApp'.
 
 ```al
  trigger OnInstallAppPerCompany()

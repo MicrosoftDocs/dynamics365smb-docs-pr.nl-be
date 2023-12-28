@@ -1,24 +1,23 @@
 ---
 title: Het rekeningschema instellen of wijzigen (bevat video)
-description: Het rekeningschema (COA) bevat de grootboekrekeningen die uw financiële gegevens bevatten. U kunt de standaardrekeningen wijzigen in het rekeningschema en u kunt nieuwe rekeningen toevoegen.
+description: Meer informatie over het instellen van uw rekeningschema (COA) om de grootboekrekeningen weer te geven die uw financiële gegevens bevatten.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
-ms.date: 01/21/2022
-ms.author: bholtorf
+ms.date: 12/19/2023
+ms.custom: bap-template
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
+# De rekeningschema's instellen of wijzigen
 
 Het rekeningschema (COA) bevat de grootboekrekeningen die uw financiële gegevens bevatten. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf. U kunt de standaardrekeningen echter wijzigen en u kunt nieuwe rekeningen toevoegen.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Rekeningen toevoegen of wijzigen
+## Rekeningen toevoegen of wijzigen
 
 Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen toevoegen of wijzigen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +28,7 @@ Voor rekeningen van het rekeningsoort **Totaal** moet u het veld **Samentelling*
 > [!IMPORTANT]
 > Als u vóór het uitvoeren van de inspringfunctie definities hebt ingevoerd in de velden **Samentelling** voor rekeningen van het type **Eindtotaal**, moet u deze daarna nogmaals invoeren, omdat de functie de waarden in alle **Eindtotaal**-velden overschrijft.
 
-## <a name="delete-accounts"></a>Rekeningen verwijderen
+## Rekeningen verwijderen
 
 U kunt een grootboekrekening verwijderen. Echter, voordat u deze verwijdert, moet het volgende waar zijn:  
 
@@ -39,17 +38,17 @@ U kunt een grootboekrekening verwijderen. Echter, voordat u deze verwijdert, moe
 
 [!INCLUDE[prod_short](includes/prod_short.md)] voorkomt dat u een grootboekrekening verwijdert die gegevens bevat die nodig zijn in het rekeningschema.  
 
-## <a name="block-deletion-of-gl-accounts"></a>Verwijderen van grootboekrekeningen blokkeren
+U kunt ook opgeven wanneer mensen rekeningen mogen verwijderen. Op de pagina **Grootboekinstellingen** werkt de schakelaar **Blok grootboekrekeningen verwijderen** samen met de datum in het veld **Verwijdering van grootboekrek. controleren na** om als extra validatie te fungeren. Als u de schakelaar **Blok grootboekrekeningen verwijderen** aanzet, kunt u geen grootboekrekeningen verwijderen die posten hebben na de datum in het veld **Verwijdering van grootboekrek. controleren na**. Om een dergelijke rekening te verwijderen moet iemand met toegang tot de pagina **Grootboekinstellingen** de schakelaar **Blok grootboekrekeningen verwijderen** uitzetten.  
 
-[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+Het veld **Blok grootboekrekeningen verwijderen** inschakelen is meestal een aanbevolen procedure, net als het instellen van de datum in het veld **Verwijdering van grootboekrek. controleren na**, bijvoorbeeld op de datum tot wanneer u financiële gegevens moet bewaren volgens de regelgeving.  
 
-In releasewave 2 van 2022 wordt een extra beveiliging tegen het per ongeluk verwijderen van grootboekrekeningen geïntroduceerd, zelfs in de scenario's waarin aan de criteria wordt voldaan.  
+### Videobegeleiding
 
-Er is een nieuw veld, **Blok grootboekrekeningen verwijderen**, toegevoegd aan de pagina **Grootboekinstellingen**. Als het veld is ingesteld op *Ja*, fungeert het als extra validatie waarbij u geen grootboekrekeningen kunt verwijderen die posten bevatten na de datum in het veld **Verwijdering van grootboekrek. controleren na**. Als een gebruiker met toegang tot de pagina **Grootboekinstellingen** een dergelijke rekening wil verwijderen, moet hij of zij dit veld eerst instellen op *Nee*.  
+In deze video ziet u hoe u kunt opgeven of en wanneer mensen grootboekrekeningen kunnen verwijderen.
 
-Als het veld **Blok grootboekrekeningen verwijderen** wordt ingesteld op *Ja*, kan dit als een best practice worden beschouwd, evenals het instellen van de datum in het veld **Verwijdering van grootboekrek. controleren na**, bijvoorbeeld naar de datum waarop u uw financiële gegevens moet opslaan.  
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
