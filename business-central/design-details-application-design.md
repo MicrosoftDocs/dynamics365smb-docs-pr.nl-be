@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# Details van toepassingsontwerp
+# <a name="application-design-details"></a>Details van toepassingsontwerp
 
 De artikelen in dit gedeelte bevatten gedetailleerde technische informatie over complexe toepassingsfuncties in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ De inhoud van ontwerpdetails is gericht op uitvoerders, ontwikkelaars en superge
 |Meer leren over historisch en huidig ontwerp van artikeltraceringsfunctionaliteit en hoe deze wordt geïntegreerd met het reserveringsysteem om serie-/lotnummers in beschikbaarheidsberekeningen op te nemen.|[Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)|  
 |Meer informatie over de functie Boekingsregel voor dagboeken.|[Ontwerpdetails: Dagboekboekingsregel](design-details-general-journal-post-line.md)|
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Gepland](production-planning.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  

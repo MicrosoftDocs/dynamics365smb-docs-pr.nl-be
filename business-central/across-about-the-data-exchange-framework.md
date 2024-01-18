@@ -11,7 +11,7 @@ ms.search.form: '189,'
 ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# Over het kader voor gegevensuitwisseling
+# <a name="about-the-data-exchange-framework"></a>Over het kader voor gegevensuitwisseling
 
 U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het beheren van de uitwisseling van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden met uw zakelijke partners of autoriteiten.
 
@@ -23,7 +23,7 @@ Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefunct
 
  ![Raamwerk voor gegevensuitwisseling &#45; exporteren.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## Elektronische documenten
+## <a name="electronic-documents"></a>Elektronische documenten
 
 Als alternatief voor het e-mailen van bedrijfsdocumenten kunt u ze elektronisch verzenden en ontvangen. Een elektronisch document is een genormeerd bestand waarin een bedrijfsdocument wordt gerepresenteerd, zoals een factuur van een leverancier die u kunt ontvangen en converteren naar een inkoopfactuur in [!INCLUDE[prod_short](includes/prod_short.md)]. Handelspartners wisselen elektronische documenten uit via externe documentuitwisselingsdiensten. De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt standaard het verzenden en ontvangen van elektronische facturen en creditnota's in de PEPPOL-indeling, die wordt ondersteund door de grootste aanbieders van documentuitwisselingsservices. Een belangrijke aanbieder van services voor documentuitwisseling, Tradeshift, is vooraf geconfigureerd en gereed om te worden ingesteld voor uw bedrijf. Als u ondersteuning voor andere elektronisch documentindelingen wilt bieden, moet u nieuwe gegevensuitwisselingsdefinities maken met het kader voor gegevensuitwisseling.  
 
@@ -35,7 +35,7 @@ Als u bijvoorbeeld een factuur van een leverancier wilt ontvangen als elektronis
 
   Als u bijvoorbeeld, een factuur wilt ontvangen als een elektronisch OCR-document, verwerkt u het als u een elektronisch PEPPOL-document ontvangt. De ontvangst en gegevensconversie van elektronische documenten via OCR worden uitgevoerd door het kader voor bestandsuitwisseling dat wordt vertegenwoordigd door de gegevensuitwisselingsdefinitie **OCR – Factuur**.  
 
-## Bankbestanden
+## <a name="bank-files"></a>Bankbestanden
 
 De bestandsindelingen voor de uitwisseling van bankgegevens met toepassingen voor bedrijfsbeheer verschillen, afhankelijk van de leverancier en het land of de regio van het bestand. [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt import en export van Single Euro Payments Area (SEPA) bankbestanden. Bovendien kunt u met de AMC Banking 365 Fundamentals-extensie verbinding maken met een AMC Banking 365 Fundamentals-extensie geleverd door een externe provider, AMC Consult. Zie voor meer informatie [Betalingen doen met de extensie AMC Banking 365 Fundamentals of SEPA-kredietoverdracht](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). Om ondersteuning te bieden voor elektronische documentindelingen, gebruikt u het kader voor gegevensuitwisseling.  
 
@@ -47,17 +47,17 @@ Om SEPA-kredietoverboekingen te exporteren, kiest u de knop **Betalingen exporte
 
  Daarnaast ondersteunen lokale versies van [!INCLUDE[prod_short](includes/prod_short.md)] verschillende andere bestandsindelingen voor het importeren en exporteren van bankgegevens, salaristransacties en andere gegevens. Zie voor meer informatie de landingspagina [Lokale functionaliteit](about-localization.md) voor uw land/regio in de Help.  
 
-## Valutawisselkoersen
+## <a name="currency-exchange-rates"></a>Valutawisselkoersen
 
 U kunt een externe service instellen om valutawisselkoersen actueel te houden. De service die de bijgewerkte valutawisselkoersen levert, wordt ingeschakeld door een gegevensuitwisselingsdefinitie. De pagina **Kaart update-instellingen wisselkoersen** is een beknopte weergave van de pagina **Definitie van gegevensuitwisseling** voor de desbetreffende definitie van gegevensuitwisseling.  
 
 Voor alle uitwisselingen van gegevens in XML-bestanden kunt u de instellingen van de gegevensuitwisseling voorbereiden door het XML-schemabestand te laden op de pagina **XML-schemaviewer**. In dit venster kunt u de gegevenselementen selecteren die u wilt uitwisselen met [!INCLUDE[prod_short](includes/prod_short.md)] en vervolgens kunt u een gegevensuitwisselingsdefinitie starten of een XMLport genereren.
 
-## Intrastat
+## <a name="intrastat"></a>Intrastat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] maakt gebruik van het raamwerk voor gegevensuitwisseling voor Intrastat-rapportage, waar u eenvoudig bestanden met tijdstempel in verschillende indelingen kunt maken om te exporteren. [!INCLUDE[prod_short](includes/prod_short.md)] bevat voorbereide indelingen voor zowel gelokaliseerde landen/regio's als voor standaardversies. Maar u kunt het kant-en-klare rapport wijzigen of uw eigen rapport maken.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)  
 [XML-schema's gebruiken om definities voor gegevensuitwisseling voor te bereiden](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  

@@ -17,7 +17,7 @@ De functie van verkoper wordt vaak beschouwd als een van de meest naar buiten ge
 > [!NOTE]
 > Dit onderwerp beschrijft de integratie van de online versies van [!INCLUDE[crm_md](includes/crm_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)] via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Zie voor informatie over on-premises configuratie [Dynamics 365 Sales voorbereiden voor on-premises integratie](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## <a name="integrating-through-dataverse"></a>Integreren via Dataverse
+## <a name="integrate-through-dataverse"></a>Integreren via Dataverse
 
 Om het gemakkelijk te maken om gegevens te verbinden en te synchroniseren met andere Dynamics 365-toepassingen integreert [!INCLUDE[prod_short](includes/prod_short.md)] ook met [!INCLUDE[prod_short](includes/cds_long_md.md)]. U kunt bijvoorbeeld verbinding maken met [!INCLUDE[crm_md](includes/crm_md.md)] of met apps die u zelf hebt gemaakt. Als u voor de eerste keer integreert, moet u dat doen via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Zie voor meer informatie [Integratie met Dataverse](admin-common-data-service.md).
 
@@ -122,7 +122,7 @@ In de volgende tabel staat de standaardtoewijzing tussen tabellen in [!INCLUDE[p
 > [!NOTE]
 > De toewijzingen voor de tabellen Artikeleenheid, Resource-eenheid en Eenheidsgroep zijn alleen beschikbaar als uw beheerder de functieschakelaar **Functie-update: synchronisatie van meerdere maateenheden met Dynamics 365 Sales** op de pagina **Functiebeheer** heeft aangezet. Zie voor meer informatie [Artikelen en resources synchroniseren met producten in verschillende eenheden](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
-## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Artikelen en resources synchroniseren met producten met verschillende maateenheden
+## <a name="synchronize-items-and-resources-with-products-with-different-units-of-measure"></a>Artikelen en resources synchroniseren met producten met verschillende maateenheden
 
 Bedrijven produceren of kopen de artikelen vaak in één eenheid en verkopen ze vervolgens in een andere. Als u artikelen wilt synchroniseren die meerdere eenheden gebruiken, moet u de functieschakelaar **Functie-update: synchronisatie van meerdere maateenheden met Dynamics 365 Sales** aanzetten op de pagina **Functiebeheer**. 
 
@@ -132,7 +132,7 @@ Als u de functie-update inschakelt, wordt er een nieuwe eenhedengroeptabel gemaa
 
 U kunt meerdere eenheden maken voor elke eenhedengroep en de groepen toewijzen aan producten in [!INCLUDE[crm_md](includes/crm_md.md)]. Daarna kunt u de producten synchroniseren met artikelen en bronnen in [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt handmatig artikeleenheden of resource-eenheden koppelen aan een eenhedengroep. Wanneer u dat doet en de eenhedengroep voor het artikel of de resource niet is gekoppeld aan een eenhedengroep in [!INCLUDE[crm_md](includes/crm_md.md)], bijvoorbeeld omdat de eenhedengroep niet bestond, maakt [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de eenhedengroep in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### <a name="mapping-items-and-resources-to-products"></a>Artikelen en resources toewijzen aan producten
+### <a name="map-items-and-resources-to-products"></a>Artikelen en resources toewijzen aan producten
 
 Wanneer u de functieschakelaar **Functie-update: synchronisatie van meerdere maateenheden met Dynamics 365 Sales** aanzet, gebeurt het volgende:
 
@@ -208,7 +208,7 @@ De volgende tabel beschrijft de standaardsynchronisatietaken voor [!INCLUDE[crm_
 |GEBOEKTEVERKOOPFACTUUR-FACT - Dynamics 365 Sales-synchronisatietaak|Synchroniseert [!INCLUDE[crm_md](includes/crm_md.md)]-facturen met [!INCLUDE[prod_short](includes/prod_short.md)] geboekte verkoopfacturen.|Van [!INCLUDE[prod_short](includes/prod_short.md)] naar [!INCLUDE[crm_md](includes/crm_md.md)]|FACTUREN-GEBOEKTE VERKOOPFACTUREN|30|1440<br> (24 uur)|
 |Klantstatistieken - Dynamics 365 Sales-synchronisatie|Werkt [!INCLUDE[crm_md](includes/crm_md.md)]-rekeningen bij met de recentste [!INCLUDE[prod_short](includes/prod_short.md)]-klantgegevens In [!INCLUDE[crm_md](includes/crm_md.md)] wordt deze informatie in het snelle weergaveformulier **Statistiek van Business Central-account** weergegeven van accounts die zijn gekoppeld aan [!INCLUDE[prod_short](includes/prod_short.md)]-klanten.<br /><br /> Deze gegevens kunnen ook handmatig worden bijgewerkt vanuit van elke klantrecord. Zie voor meer informatie [Records handmatig koppelen en synchroniseren](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Opmerking:** Dit taakwachtrij-item is alleen van belang als de [!INCLUDE[prod_short](includes/prod_short.md)]-integratieoplossing is geïnstalleerd in [!INCLUDE[crm_md](includes/crm_md.md)]. |Niet van toepassing|Niet van toepassing|30|Niet van toepassing| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Verbinding maken met on-premises versies van Business Central 2019 releasewave 1 en Microsoft Dynamics NAV 2018
+## <a name="connect-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Verbinding maken met on-premises versies van Business Central 2019 releasewave 1 en Microsoft Dynamics NAV 2018
 
 Het Microsoft Power Platform-team heeft [bekend gemaakt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) dat het Office365-verificatietype wordt afgeschaft. Als u een versie van [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt die ouder is dan Business Central 2019 releasewave 1, moet u het OAuth-verificatietype gebruiken om verbinding te maken met [!INCLUDE[crm_md](includes/crm_md.md)] online. In de stappen in deze sectie wordt beschreven hoe u verbinding maakt met de volgende productversies:
 
@@ -227,7 +227,7 @@ Het Microsoft Power Platform-team heeft [bekend gemaakt](/power-platform/importa
 
    * OAuth
 
-### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Verbinding maken met Business Central 2019 releasewave 1 en Dynamics NAV 2018
+### <a name="connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Verbinding maken met Business Central 2019 releasewave 1 en Dynamics NAV 2018
 
 1. Importeer de Microsoft Dynamics 365 Business Central-integratieoplossing in uw [!INCLUDE[crm_md](includes/crm_md.md)]-omgeving. De integratieoplossing is beschikbaar in de map CrmCustomization op uw [!INCLUDE[prod_short](includes/prod_short.md)]- of Dynamics NAV 2018-installatie-dvd. Importeer een van de volgende oplossingen, afhankelijk van uw productversie:
 
