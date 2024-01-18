@@ -1,5 +1,5 @@
 ---
-title: Ontwerpdetails van toepassing
+title: Details van toepassingsontwerp
 description: Deze inhoud bevat gedetailleerde technische informatie over complexe toepassingsfuncties in Business Central.
 author: brentholtorf
 ms.topic: conceptual
@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 11/26/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# <a name="application-design-details"></a>Ontwerpdetails van toepassing
+# Details van toepassingsontwerp
 
 De artikelen in dit gedeelte bevatten gedetailleerde technische informatie over complexe toepassingsfuncties in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -24,9 +24,9 @@ De inhoud van ontwerpdetails is gericht op uitvoerders, ontwikkelaars en superge
 |Meer leren over hoe het planningssysteem werkt en hoe de algoritmen om te voldoen aan planningsvereisten in verschillende omgevingen kunnen worden aangepast.|[Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)|  
 |Leer hoe het systeem een constante controle op artikelbeschikbaarheid in het magazijn houdt, zodat uitgaande orders efficiënt kunnen stromen en optimale leveringen kunnen worden geboden.|[Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md)|
 |Meer leren over historisch en huidig ontwerp van artikeltraceringsfunctionaliteit en hoe deze wordt geïntegreerd met het reserveringsysteem om serie-/lotnummers in beschikbaarheidsberekeningen op te nemen.|[Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)|  
-|Meer informatie over de functie Boekingsregel voor dagboeken.|[Ontwerpdetails: dagboekboekingsregel](design-details-general-journal-post-line.md)|
+|Meer informatie over de functie Boekingsregel voor dagboeken.|[Ontwerpdetails: Dagboekboekingsregel](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Gepland](production-planning.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  

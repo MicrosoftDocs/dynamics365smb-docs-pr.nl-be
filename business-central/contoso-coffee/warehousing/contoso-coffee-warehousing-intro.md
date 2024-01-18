@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Inleiding tot Contoso Coffee-magazijnbeheer
+# Inleiding tot Contoso Coffee-magazijnbeheer
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De apps **Contoso Coffee** voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de magazijnbeheermogelijkheden in Business Central kunt benutten. U kunt magazijnbeheerfuncties op verschillende manieren configureren, zie [Overzicht van verschillende configuratieopties](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,9 +27,9 @@ De app biedt vier producten die zijn geoptimaliseerd voor verschillende scenario
 
   Deze locatie maakt gebruik van de geavanceerde magazijnconfiguratie met gestuurde opslag en picks, waardoor meer geavanceerde regels mogelijk zijn voor de manier waarop artikelen door het magazijn worden verplaatst.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Gegevens voor Contoso Coffee-magazijnbeheer instellen
+## Gegevens voor Contoso Coffee-magazijnbeheer instellen
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 Zodra de relevante apps zijn geïnstalleerd, gaat u naar de pagina [Demohulpmiddel van Contoso](https://businesscentral.dynamics.com/?page=5194) in [!INCLUDE [prod_short](../../includes/prod_short.md)], selecteert u de regel *Magazijnmodule* en gebruikt u de actie **Configureren** om de modules voor te bereiden. In de volgende tabellen worden de instellingen beschreven:  
 
@@ -50,7 +50,7 @@ Als u gereed bent, kiest u de actie **Demogegevens maken**. Het duurt een paar m
 > [!IMPORTANT]
 > Als u de scenario's uitvoert, wilt u mogelijk controleren of uw gebruiker is toegevoegd zoals voor geselecteerde locaties. Zie voor meer informatie [Magazijnmedewerkers instellen](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Scenario's
+## Scenario's
 
 De magazijndemogegevens voor Contoso Coffee ondersteunen momenteel de volgende magazijnscenario's voor testen en trainen:
 
@@ -60,7 +60,7 @@ De magazijndemogegevens voor Contoso Coffee ondersteunen momenteel de volgende m
 
 Lees de stappen voor elk scenario in het desbetreffende artikel.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad instellen](../../inventory-setup-inventory.md) 
 [Procedure: vestigingen instellen](../../inventory-how-setup-locations.md) 

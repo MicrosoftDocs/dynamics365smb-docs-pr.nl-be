@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-jobs-and-project-management"></a>Inleiding tot Contoso Coffee-projecten en projectbeheer
+# Inleiding tot Contoso Coffee-projecten en projectbeheer
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De **Contoso Coffee**-apps voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de mogelijkheden in Business Central voor projecten en projectbeheer kunt benutten.
 
@@ -21,9 +21,9 @@ Deze app biedt verschillende elementen die worden gebruikt voor de belangrijkste
 > Boek alle artikeldagboekregels met beginsaldi voordat u een van de scenario's voor Contoso Coffee gaat uitvoeren. Zie de sectie [Contoso Coffee-gegevens instellen](#set-up-contoso-coffee-jobs-and-project-management-data) voor meer vereisten.
 >
 > 
-## <a name="set-up-contoso-coffee-jobs-and-project-management-data"></a>Contoso Coffee-projecten en projectbeheergegevens instellen
+## Contoso Coffee-projecten en projectbeheergegevens instellen
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 Zodra de relevante apps zijn geïnstalleerd, gaat u naar de pagina [Demogegevens van Contoso Coffee-projecten](https://businesscentral.dynamics.com/?page=4767) in [!INCLUDE [prod_short](../../includes/prod_short.md)] en wijzigt u de standaardinstellingen om aan uw wensen te voldoen. In de volgende tabellen worden de instellingen beschreven:  
 
@@ -46,4 +46,4 @@ Zodra de relevante apps zijn geïnstalleerd, gaat u naar de pagina [Demogegevens
 
 Als u gereed bent, kiest u de actie **Demogegevens maken**. Het duurt een paar minuten om de gegevens aan de onderliggende database toe te voegen, maar dan bent u klaar om de verschillende scenario's uit te voeren.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook

@@ -42,6 +42,10 @@
 ##### [Overzicht van inkomende en uitgaande stroom in standaardmagazijnconfiguraties](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Overzicht van inkomende en uitgaande stroom in gemengde magazijnconfiguraties](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Overzicht van inkomende en uitgaande stroom in geavanceerde magazijnconfiguraties met gestuurde opslag en pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Service
+##### [Inleiding tot Contoso Coffee-servicebeheer](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Procedure van serviceorders voor serviceartikelen](contoso-coffee/service/service-basic-flow-order.md)
+##### [Procedure van servicecontracten voor serviceartikelen](contoso-coffee/service/service-contract-flow.md)
 
 ### Ontwerpdetails
 #### [Overzicht van toepassingsontwerpdetails](design-details-application-design.md)

@@ -1,5 +1,5 @@
 ---
-title: 'Ontvangst, opslag, verplaatsing, picken en verzending in geavanceerde magazijnconfiguratie met gerichte pick en opslag'
+title: 'Ontvangen, opslaan, picken en verzenden in gemengde magazijnconfiguratie'
 description: 'Inkomende en uitgaande processen kunnen op verschillende manieren worden uitgevoerd, afhankelijk van het complexiteitsniveau van het magazijn.'
 author: brentholtorf
 ms.topic: conceptual
@@ -8,15 +8,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: null
-ms.date: 04/01/2021
+ms.date: 12/07/2023
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Procedure van inkomende en uitgaande stroom in geavanceerde magazijnconfiguratie met gestuurde opslag en pick
+# Procedure van inkomende en uitgaande stroom in geavanceerde magazijnconfiguratie
 
 Deze procedure laat zien hoe inkomende en uitgaande stromen worden voltooid in de geavanceerde configuratie van opslag en picken. Zie voor meer informatie [Overzicht van verschillende configuratieopties](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten  
 Om deze procedure te voltooien moet u een magazijnmedewerker maken op de vestiging *WIT* door deze stappen te volgen:  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent 1.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
@@ -24,10 +24,10 @@ Om deze procedure te voltooien moet u een magazijnmedewerker maken op de vestigi
 4. Schakel de schakelaar **Standaard** in.
 
 
-## <a name="scenario"></a>Scenario
+## Scenario  
 Ellen, de magazijnmanager, maakt gebruik van crossdocking en aanvulling van opslaglocaties om de ontvangst- en verzendtijd te verkorten.  
 
-## <a name="steps"></a>Stappen
+## Stappen
 
 1. Magazijnverzending maken.  
 
@@ -36,7 +36,7 @@ Ellen, de magazijnmanager, maakt gebruik van crossdocking en aanvulling van opsl
     3. Kies de actie **Magazijnverzending maken** om een magazijnverzending te maken voor de geselecteerde verkooporder.
     4. Kies de actie **Vrijgeven** om het magazijn te informeren dat de verzending klaar is voor magazijnverwerking.  
 
-2. Definieer opslaglocaties voor het artikel om te bepalen waar het wordt opgeslagen 
+2. Opslaglocaties definiëren voor het artikel om te bepalen waar het wordt opgeslagen 
 
     1.  Kies het pictogram ![Lampje dat de functie Vertel me opent 3.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
     2.  Selecteer *WRB-1000* en kies vervolgens de actie **Opslaglocatie-inhoud**.  
@@ -77,7 +77,7 @@ Ellen, de magazijnmanager, maakt gebruik van crossdocking en aanvulling van opsl
     4. Kies de actie **Opslag registreren**.
 
 
-6. Definieer opslaglocaties voor het artikel om te bepalen waar het wordt gepickt 
+6. Opslaglocaties definiëren voor het artikel om te bepalen waar het wordt gepickt 
 
     1.  Kies het pictogram ![Lampje dat de functie Vertel me opent 6.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
     2.  Open de *WITTE* vestigingskaart.  
@@ -136,7 +136,7 @@ Ellen, de magazijnmanager, maakt gebruik van crossdocking en aanvulling van opsl
     4. Bevestig de **Verzending**-optie.
 
 
-## <a name="results"></a>Resultaten
+## Resultaten
 - de **geboekte magazijnontvangst** wordt gemaakt
 - de **geregistreerde magazijnopslag** wordt gemaakt    
 - de **geboekte inkoopontvangst** wordt gemaakt    
@@ -150,7 +150,7 @@ Ellen, de magazijnmanager, maakt gebruik van crossdocking en aanvulling van opsl
 
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Artikelen ontvangen](../../warehouse-how-receive-items.md) 
 [Ontwerpdetails: Inkomende magazijnstroom](../../design-details-inbound-warehouse-flow.md) 
 [Artikelen verzenden](../../warehouse-how-ship-items.md) 
