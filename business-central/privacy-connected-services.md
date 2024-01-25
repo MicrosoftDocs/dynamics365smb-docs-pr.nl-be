@@ -3,13 +3,15 @@ title: Proeffuncties die verbinding maken met andere Microsoft-services
 description: Overzicht van Microsoft-services waarmee Business Central verbinding maakt met de proefversie.
 author: jswymer
 ms.topic: overview
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.keywords: 'privacy, trial, Microsoft services'
 ms.date: 12/12/2023
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.collection:
+  - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Proeffuncties die verbinding maken met andere Microsoft-services
+# Proeffuncties die verbinding maken met andere Microsoft-services 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] is een uitgebreide oplossing voor bedrijfsbeheer die diep is geïntegreerd met Microsoft 365 productiviteits-apps en het Power Platform. Uw gratis proefversie van Business Central kan verbinding maken met veel verschillende Microsoft-services die u eerst moet configureren en inschakelen. Om het meeste uit uw gratis proefperiode te halen zijn sommige van deze functies automatisch voor u ingeschakeld. Ook al is de verbinding van [!INCLUDE[prod_short](includes/prod_short.md)] ingeschakeld, deze services zijn niet inbegrepen bij uw proefversie en moeten apart worden aangeschaft, tenzij u ze al hebt.
 

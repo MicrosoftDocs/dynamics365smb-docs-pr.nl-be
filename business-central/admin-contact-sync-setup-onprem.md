@@ -4,29 +4,29 @@ description: Leer hoe u een Business Central on-premises-omgeving configureert o
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-op
 ms.topic: how-to
 ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a>Stel contactsynchronisatie in met Outlook voor Business Central on-premises
+# Stel contactsynchronisatie in met Outlook voor Business Central on-premises
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 In dit artikel leert u hoe u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises instelt om contacten in [!INCLUDE[prod_short](includes/prod_short.md)] te synchroniseren met contacten in Outlook. Ga voor meer informatie over de functie naar [Contacten in Business Central synchroniseren met contacten in Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 
-## <a name="introduction"></a>Inleiding
+## Inleiding
 
 Contactsynchronisatie vereist het gebruik van het OAuth 2.0-protocol voor verificatie met Exchange Online. Eerder werd ook basisverificatie ondersteund, maar dit is verouderd en wordt niet langer ondersteund met Exchange Online. U kunt meer lezen over de afschaffing op [Afschaffing van basisverificatie in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). Deze wijziging betekent dat contactsynchronisatie in Business Central mogelijk niet meer werkt in uw on-premises omgeving. In dit artikel wordt uitgelegd hoe u het weer kunt laten werken.
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten
 
 - Exchange Online, een zelfstandige versie of via een Microsoft 365-abonnement  
 - Toegang tot de Microsoft Entra-tenant gebruikt door Exchange Online
 - [!INCLUDE[prod_short](includes/prod_short.md)]-gebruikers hebben een Microsoft 365 of Exchange Online e-mailaccount, dat is toegewezen aan hun accounts in [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt dit controleren in de instelling **Microsoft 365-verificatie** van uw gebruikersprofiel in de lijst **Gebruikers**. 
 
-## <a name="set-up-contact-sync"></a>Contactsynchronisatie instellen
+## Contactsynchronisatie instellen
 
 Voer de volgende stappen uit om contactsynchronisatie in te stellen. Als u [!INCLUDE[prod_short](includes/prod_short.md)] Spring 2019 (v.14) gebruikt, moet u een extra stap uitvoeren die toepassingscode wijzigt of een verbinding instelt met Power BI.
 
@@ -61,6 +61,6 @@ Voer de volgende stappen uit om contactsynchronisatie in te stellen. Als u [!INC
 
    Nadat de door u gekozen oplossing is geïnstalleerd, vraagt u gebruikers om de nieuwe/gewijzigde pagina uit te voeren of [verbinding te maken met Power BI](across-working-with-powerbi.md#connect). Ze hoeven deze stap maar één keer uit te voeren.
 
-## <a name="next-steps"></a>Volgende stappen
+## Volgende stappen
 
 [Contacten in Business Central synchroniseren met contacten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)  

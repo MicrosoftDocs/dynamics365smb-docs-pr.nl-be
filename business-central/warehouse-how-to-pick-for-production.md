@@ -4,13 +4,13 @@ description: 'Als voor de magazijnvestiging vereist is dat u picks verwerkt, maa
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Picken voor productie, assemblage of taken in standaardmagazijnconfiguraties
+# Picken voor productie, assemblage of taken in standaardmagazijnconfiguraties
 
 Hoe u materialen voor productie, projecten of assemblageorders verzamelt, is afhankelijk van de vestigingsinstellingen van uw magazijn. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
@@ -21,13 +21,13 @@ Gebruik de volgende documenten voor interne doeleinden:
 * Voorraadpick
 * Voorraadverplaatsing
 
-## <a name="inventory-picks"></a>Voorraadpicks
+## Voorraadpicks
 
 * Wanneer u een voorraadpick registreert voor een interne bewerking, zoals productie of een project, wordt het verbruik van de gepickte materialen tegelijkertijd geboekt.
 * De schakelaar **Opslaglocatie verplicht** op de pagina **Locatiekaart** is optioneel.
 * Bij gebruik van voorraadpicks definieert het veld **Opslaglocatie** op de materiaalregel of projectplanningsregels op een productieorder de opslaglocatie *nemen*. Materialen worden in mindering gebracht in de opslaglocatie 'nemen' wanneer u het verbruik boekt.
 
-## <a name="inventory-movements"></a>Voorraadverplaatsingen
+## Voorraadverplaatsingen
 
 * Voor voorraadverplaatsingen moet u de schakelaar **Opslaglocatie verplicht** inschakelen op de pagina **Locatiekaart** voor de locatie.
 * Voorraadverplaatsingen werken alleen met productieordermateriaalregels en assemblageorderregels.
@@ -38,13 +38,13 @@ Gebruik de volgende documenten voor interne doeleinden:
 >[!NOTE]
 > Zelfs als de schakelaar **Pick vereist** is uitgeschakeld, kunt u een **Magazijnpick**-document gebruiken. Magazijnpick-documenten zijn vergelijkbaar met **Voorraadpick**-documenten. Dit is handig als u picks wilt gebruiken in bewerkingen en verzending in uitgaande magazijnstromen.
 
-### <a name="production"></a>Productie
+### Productie
 
 Gebruik **Voorraadpick**-documenten om productiematerialen in de stroom naar productie te picken.
 
 Voor een locatie die opslaglocaties gebruikt, kunt u de stroom uitbreiden naar productie door **Voorraadverplaatsing**-documenten te gebruiken. Voorraadverplaatsingen zijn vooral handig voor het afboeken van materialen. Zie voor meer informatie over hoe materiaalverbruik wordt afgeboekt vanuit de opslaglocaties Naar productie of Grijpvoorraad [Productiematerialen afboeken in een standaard magazijnconfiguratie](#flushing-production-components-in-a-basic-warehouse-configuration).
 
-### <a name="assembly"></a>Assemblage
+### Assemblage  
 
 Gebruik **Voorraadverplaatsing**-documenten om assemblagemateriaal naar het assemblagegebied te verplaatsen.
 
@@ -53,7 +53,7 @@ Gebruik **Voorraadverplaatsing**-documenten om assemblagemateriaal naar het asse
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ondersteunt assemblagestromen van het type op voorraad assembleren en op order assembleren. Zie voor meer informatie over op order assembleren in de uitgaande magazijnstroom [Op-order-assembleren-artikelen met voorraadpicks afhandelen](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### <a name="project-management"></a>Projectbeheer
+### Projectbeheer  
 
 Gebruik **Voorraadpick**-documenten om projectmateriaal in de stroom naar productiebeheer te picken.
 
@@ -64,7 +64,7 @@ Voor locaties die opslaglocaties gebruiken, kunt u de stroom uitbreiden naar pro
 >
 > [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de waarde in het veld **Resterend aantal** op de taakplanningsregel wanneer deze voorraadpicks maakt. Als u voorraadkeuzes voor taken wilt gebruiken, moet u de schakelaar **Gebruikslink toepassen** inschakelen op de pagina **Projectkaart** voor het project. Hiermee kunt u het gebruik volgen ten opzichte van uw plan. Als u de schakelaar niet aanzet, blijft het resterende aantal op **0** en wordt de voorraadkeuze niet gemaakt. Zie voor meer informatie [Bijhouden van projectgebruik instellen](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
 
-## <a name="pick-or-move-for-production-assembly-and-jobs-in-a-basic-warehouse-configuration"></a>Picken of verplaatsen voor productie, assemblage en projecten in een standaard magazijnconfiguratie
+## Picken of verplaatsen voor productie, assemblage en projecten in een standaard magazijnconfiguratie
 
 U kunt een voorraadpick of voorraadverplaatsing op drie manieren maken:  
 
@@ -72,26 +72,26 @@ U kunt een voorraadpick of voorraadverplaatsing op drie manieren maken:
 * Voor verschillende brondocumenten tegelijk door een batchproject te gebruiken.  
 * In twee stappen. Geef het brondocument vrij om het brondocument gereed te maken voor picken. Maak de voorraadpick of verplaatsing vanuit de **Voorraadpick**- of **Voorraadverplaatsing**-documenten. De voorraadpick of -verplaatsing zijn gebaseerd op het brondocument.  
 
-### <a name="to-create-an-inventory-pick-from-the-source-document"></a>Een voorraadpick maken vanuit het brondocument
+### Een voorraadpick maken vanuit het brondocument
 
 1. Kies in het brondocument, dat een productieorder of project kan zijn, de actie **Voorraadopslag/-pick maken**.  
 2. Schakel het selectievakje **Voorraadpick maken** in.
 3. Kies de knop **Ok**.
 
-### <a name="to-create-an-inventory-movement-from-the-source-document"></a>Een voorraadverplaatsing maken op basis van het brondocument
+### Een voorraadverplaatsing maken op basis van het brondocument
 
 1. Kies in het brondocument, dat een productieorder, assemblageorder of project kan zijn, de actie **Voorraadopslag/-pick maken**.  
 2. Schakel het selectievakje **Voorraadverplaatsing maken** in.
 3. Kies de knop **Ok**.
 
-### <a name="to-create-multiple-inventory-picks-or-movements-with-a-batch-job"></a>Meerdere voorraadpicks of -verplaatsingen maken met een batchproject
+### Meerdere voorraadpicks of -verplaatsingen maken met een batchproject
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadopslag/-pick-verplaatsing maken** in en kies de gerelateerde koppeling.  
 2. Gebruik op het sneltabblad **Magazijnverzoek** de velden **Brondocument** en **Bronnr.** om te filteren op soorten documenten of reeksen documentnummers. U kunt bijvoorbeeld picks voor alleen de productieorders maken.
 3. Schakel op het sneltabblad **Opties** de schakelaar **Voorraadpick maken** of **Voorraadverplaatsing maken** in.
 4. Kies de knop **Ok**.
 
-### <a name="to-create-inventory-picks-or-movements-in-two-steps"></a>Voorraadpicks of -verplaatsingen in twee stappen maken
+### Voorraadpicks of -verplaatsingen in twee stappen maken
 
 Om materialen voor brondocumenten in twee stappen te verzamelen of te verplaatsen, moet u het brondocument vrijgeven om het klaar te maken voor picking. Voor interne doeleinden kunnen brondocumenten op de volgende manieren vrijgegeven worden.  
 
@@ -113,7 +113,7 @@ Een magazijnmedewerker die is toegewezen aan het picken van artikelen, kan een v
 5. U kunt ook de actie **Brondocument ophalen** kiezen om het document te selecteren in een lijst met inkomende brondocumenten die gereed zijn voor picken op de locatie.  
 6. Klik op de knop **OK** om de pick- of verplaatsingsregels in te vullen op basis van het geselecteerde brondocument.  
 
-## <a name="to-record-the-inventory-pick"></a>De voorraadpick registreren
+## De voorraadpick registreren
 
 1. Open op de pagina **Voorraadpick** het document waarvoor u een pick wilt vastleggen.  
 2. In het veld **Opslaglocatie** op de pickregels, de opslaglocatie waar artikelen moeten worden gepickt uit de opslaglocatie waar het artikel beschikbaar is. U kunt de opslaglocatie indien nodig wijzigen.
@@ -129,7 +129,7 @@ Het volgende gebeurt tijdens het boekingsproces:
 
 [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="to-record-the-inventory-movement"></a>De voorraadverplaatsing registreren
+## De voorraadverplaatsing registreren
 
 1. Open op de pagina **Voorraadverplaatsing** het document waarvoor u een verplaatsing wilt vastleggen.  
 2. In het veld **Opslaglocatie** op de verplaatsingsregels wordt op basis van de standaardopslaglocatie en beschikbaarheid per artikel de opslaglocatie voorgesteld waaruit de artikelen moeten worden gepickt. U kunt de opslaglocatie indien nodig wijzigen.  
@@ -145,7 +145,7 @@ Het volgende gebeurt tijdens het boekingsproces:
 >[!NOTE]
 > In tegenstelling tot wanneer u materialen met voorraadpicks verplaatst, wordt het verbruik niet geboekt wanneer u een voorraadverplaatsing registreert. U registreert het verbruik als een aparte stap door het brondocument te boeken.
 
-## <a name="flushing-production-components-in-a-basic-warehouse-configuration"></a>Materialen voor productie afboeken in een standaard magazijnconfiguratie
+## Materialen voor productie afboeken in een standaard magazijnconfiguratie
 
 Afboekingsmethoden hebben invloed op de stroom van materialen in productie. Zie voor meer informatie [Materialen afboeken op basis van de output van een bewerking](production-how-to-flush-components-according-to-operation-output.md). Afhankelijk van de geselecteerde afboekingsmethode kunt u op de volgende manieren materialen picken voor productie:
 
@@ -154,7 +154,7 @@ Afboekingsmethoden hebben invloed op de stroom van materialen in productie. Zie 
 * Gebruik een **Voorraadverplaatsing**-document met een verwijzing naar een brondocument om picks vast te leggen voor materialen die de afboekingsmethode **Picken + Voorwaarts**, **Picken + Achterwaarts** gebruiken. Het verbruik van de materialen gebeurt automatisch wanneer u de status van de productieorder wijzigt of door een bewerking te starten of te beëindigen. Alle vereiste materialen moeten beschikbaar zijn. Anders wordt afgeboekte verbruiksboeking voor dat materiaal gestopt.
 * Gebruik een **Voorraadverplaatsing**-document zonder een verwijzing naar een brondocument of andere manieren om de verplaatsing vast te leggen van materialen die gebruikmaken van de afboekingsmethode **Voorwaarts** of **Achterwaarts**. Het verbruik van de materialen gebeurt automatisch wanneer u de status van de productieorder wijzigt of door een bewerking te starten of te beëindigen. Alle vereiste materialen moeten beschikbaar zijn. Anders wordt het boeken van afgeboekte verbruiksboeking voor dat materiaal gestopt. Zie voor meer informatie [Artikelen intern verplaatsen in basismagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-### <a name="example"></a>Voorbeeld
+### Voorbeeld
 
 U hebt een productieorder voor 15 STUKS van artikel SP-SCM1004. Enkele artikelen op de onderdelenlijst moeten handmatig in een verbruiksdagboek worden afgeboekt, en andere artikelen kunnen automatisch worden gepickt en worden afgeboekt met behulp van de afboekingsmethode **Pick + Achterwaarts**.  
 
@@ -174,7 +174,7 @@ In de volgende stappen wordt een voorbeeld gegeven van de acties die verschillen
 
 :::image type="content" source="media/binflow.png" alt-text="Overzicht van wanneer en hoe het veld Opslaglocatie wordt ingevuld.":::
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
