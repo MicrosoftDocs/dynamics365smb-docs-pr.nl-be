@@ -11,13 +11,13 @@ ms.author: bholtorf
 ms.date: 11/27/2023
 ---
 
-# Indexen ontbreken in database in [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-missing-indexes-in-"></a>Indexen ontbreken in database in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Beheerders en ontwikkelaars kunnen de database efficiënter maken en uiteindelijk de prestaties van de applicatie verbeteren door informatie te gebruiken die is geëxtraheerd door: **Indexen ontbreken in database** in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 **Indexen ontbreken in database** biedt u een lijst met mogelijke kolommen die kunnen worden geïndexeerd en wat nuttige informatie daarover. Deze informatie helpt u betere beslissingen te nemen voor de optimale prestaties van uw database en applicatie. Voor meer informatie over ontbrekende indexen en hoe deze u helpen bij het bereiken van prestatiedoelstellingen door middel van [!INCLUDE[prod_short](includes/prod_short.md)] zie [Indexen ontbreken in database in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/database-missing-indexes).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Beschrijving van geclusterde en niet-geclusterde indexen](/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described)  
 [De prestaties van SQL Server optimaliseren met Business Central](/dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance)  
