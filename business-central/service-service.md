@@ -3,14 +3,13 @@ title: CRM - Service
 description: Leer functies te gebruiken in Business Central ontworpen beheer- en traceringsservices ter ondersteuning van reparatiewerkplaatsen en buitendienstactiviteiten.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="service-management"></a>CRM - Service
+# CRM - Service
 > [!NOTE]
 > Functionaliteit die in dit onderwerp wordt beschreven, is alleen zichtbaar in de gebruikersinterface als u de **Premium**-ervaring hebt. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 
@@ -36,7 +35,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Contractuele overeenkomsten tussen u en uw klanten maken en beheren.|[Servicecontracten voldoen](service-fulfill-service-contracts.md)|  
 |Service aan klanten bieden en serviceorders factureren.|[Service leveren](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Tegoeden beheren](receivables-manage-receivables.md)   
 [Projecten](projects-how-create-jobs.md)   
 [Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)

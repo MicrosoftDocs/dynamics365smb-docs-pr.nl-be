@@ -3,14 +3,13 @@ title: Financiële processen instellen
 description: 'Meer informatie over de vereiste taken om financiën in uw bedrijf in te stellen voor al uw boekhoudings-, controle- of boekingsbehoeften.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-finance"></a>Financiën instellen
+# Financiën instellen
 
 Voordat u kunt beginnen met de uitvoering van uw bedrijf, moet u opgeven hoe u financiële processen voor het bedrijf wilt beheren. Als eerste stelt u de kern van de boekhoudadministratie van het bedrijf in: het rekeningschema (COA). Vervolgens stelt u de boekingsgroepen in, waarmee standaard-grootboekrekeningen efficiënter kunnen worden toegewezen aan klanten, leveranciers en artikelen.
 
@@ -51,7 +50,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 > [!TIP]
 > Afhankelijk van uw geografische locatie bevatten sommige Business Central-pagina's mogelijk velden die niet worden beschreven in de bovengenoemde artikelen, omdat ze van toepassing zijn op lokale functionaliteit of aanpassingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën](finance.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  

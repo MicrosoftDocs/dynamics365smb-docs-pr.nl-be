@@ -3,15 +3,14 @@ title: Overzicht van taken om inkoop in te stellen
 description: Beschrijft de taken voor het definiëren van het inkoopbeleid van uw bedrijf en het instellen van uw inkoopprocessen.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'procurement, supply, vendor order'
 ms.search.form: '175, 176, 177, 178, 456, 460, 5727, 5729'
 ms.date: 08/30/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-purchasing"></a>Inkoop instellen
+# Inkoop instellen
 
 Voordat u inkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het inkoopbeleid van het bedrijf configureren.
 
@@ -21,11 +20,11 @@ Een aparte reeks van taken die verband houdt met het registreren van nieuwe leve
 
 Inkoopinstellingen met betrekking tot financiën, zoals betalingswijzen en valuta's, worden behandeld in het gedeelte Instelling van financiën. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie. Op dezelfde manier zijn voorraadgerelateerde inkoopinstellingen, zoals maateenheden en artikeltraceringscodes, te vinden in de [sectie Voorraadinstelling](inventory-setup-inventory.md).
 
-## <a name="purchases-and-payables-setup"></a>Inkoopinstellingen
+## Inkoopinstellingen
 
 Voordat u met inkopen gaat werken, specificeert u op de pagina **Inkoopinstellingen** hoe inkoopwaarden worden geboekt en welke nummerreeksen worden gebruikt voor leveranciers en inkoopdocumenten.
 
-### <a name="general-settings"></a>Algemene instellingen
+### Algemene instellingen
 
 Op het sneltabblad **Algemeen** geeft u aan hoe kortingen moeten worden berekend en geboekt en of factuurbedragen moeten worden afgerond. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -37,15 +36,15 @@ Ook veranderen sommige velden hun gedrag of zijn afhankelijk van hoe andere veld
 
 Lees hieronder details over de velden [**Extern documentnr. verplicht**](#external-document-number) en [**Precieze kostenvereff. verplicht**](#exact-cost-reversing).
 
-### <a name="number-series-settings"></a>Instellingen voor nummerreeksen
+### Instellingen voor nummerreeksen
 
 Op het sneltabblad **Nummerreeksen** moet u unieke identificatiecodes opgeven die worden gebruikt voor leveranciers, facturen en andere inkoopdocumenten. Nummering is niet alleen belangrijk voor interne processen, maar moet mogelijk ook voldoen aan lokale regelgeving. Het is dus misschien de moeite waard om te overwegen om alle series vooraf in te stellen op de pagina **Nr.-reeks** in plaats van nieuwe te maken vanuit **Inkoopinstellingen**. Zie [Nummerreeksen maken](ui-create-number-series.md) voor meer informatie.
 
-## <a name="external-document-number"></a>Externe documentnummer
+## Externe documentnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="exact-cost-reversing"></a>Precieze kostentegenboeking
+## Precieze kostentegenboeking
 
 De functie **Precieze kostenvereff. verplicht** helpt ervoor te zorgen dat geretourneerde goederen worden gewaardeerd tegen dezelfde kosten als toen ze oorspronkelijk uit de voorraad werden gehaald, met behulp van een vaste vereffening in plaats van een gemiddelde of FIFO-waarderingsmethode (first-in, first-out) te volgen. Lees meer in de sectie [Ontwerpdetails: vaste vereffening](design-details-item-application.md#fixed-application). Als er later aanvullende kosten worden toegevoegd aan de oorspronkelijke inkoop, wordt de waarde van de respectievelijke geretourneerde inkoop bijgewerkt.
 
@@ -53,7 +52,7 @@ Als deze functie is ingeschakeld, kan een retourtransactie alleen worden geboekt
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## <a name="more-purchasing-setups"></a>Meer inkoopconfiguraties
+## Meer inkoopconfiguraties
 
 | Tot | Zie |
 | --- | --- |
@@ -70,7 +69,7 @@ Als deze functie is ingeschakeld, kan een retourtransactie alleen worden geboekt
 | Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt. |[Rapportselectie in Business Central](across-report-selections.md)|
 |Geef aan of gebruikers inkoopfacturen mogen boeken en of ze deze samen met een zending moeten boeken. |[Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inkoop](purchasing-manage-purchasing.md)  
 [Overzicht instellen](setup.md)  

@@ -7,12 +7,13 @@ ms.search.keywords: 'setup, reporting'
 ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
 ms.date: 06/09/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="report-selection-for-documents-in-business-central"></a>Rapportselectie voor documenten in Business Central
+# Rapportselectie voor documenten in Business Central
 
 U kunt standaardrapporten instellen om documenten af te drukken voor verkopen, aankopen en service, zoals orders, offertes en facturen. Als u bijvoorbeeld een specifieke lay-out voor verkoopfacturen heeft, kunt u dat rapport specificeren op de pagina **Rapportselecties - Verkoop**, zodat het wordt gebruikt om verkoopfacturen te verzenden of af te drukken.  
 
-## <a name="available-report-selections"></a>Beschikbare rapportselecties
+## Beschikbare rapportselecties
 
 De **Rapportselecties**-pagina's specificeren welk rapport in verschillende situaties zal worden afgedrukt. [!INCLUDE [prod_short](includes/prod_short.md)] biedt standaardconfiguraties, maar u kunt deze indien nodig wijzigen. U kunt bijvoorbeeld ook lijsten aan de **Rapportselecties**-pagina's toevoegen als u meer dan één rapport per documentsoort wilt afdrukken. 
 
@@ -39,7 +40,7 @@ De standaardversie van [!INCLUDE [prod_short](includes/prod_short.md)] omvat de 
 * **Rapportselectie - Taak**  
 * **Rapportselectie - service**
 
-## <a name="example-report-selection-for-sales-documents"></a>Voorbeeld: Rapportselectie voor verkoopdocumenten
+## Voorbeeld: Rapportselectie voor verkoopdocumenten
 
 De pagina **Rapportselectie - verkoop** bevat standaardrapporten voor gebruik in verschillende scenario's voor elk gerelateerd documenttype. Kies een documenttype in het veld **Gebruik** en voeg vervolgens de rapportselectie toe of controleer deze. U kunt meer dan één rapport instellen en de volgorde opgeven waarin de rapporten moeten worden verzonden of afgedrukt.  
 
@@ -55,7 +56,7 @@ Op de pagina's **Rapportselectie - verkoop** en **Rapportselectie - aankoop** he
 |**Gebruiken voor e-mailbijlage**| Voeg het gerelateerde document toe aan de e-mail.|
 |**Indelingsomschrijving van hoofdtekst van e-mailbericht**|Geef de lay-out van de hoofdtekst van de e-mail op die u wilt gebruiken. Meestal is de lay-out een aangepaste rapportlay-out. |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Herbruikbare e-mailteksten en lay-outs instellen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Een cheque-indeling selecteren](finance-how-define-check-layouts.md)  

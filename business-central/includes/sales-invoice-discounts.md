@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/05/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Nadat u alle artikelen op regels hebt toegevoegd, kunt u de factuurkorting voor het hele verkoopdocument berekenen door de actie **Factuurkorting berekenen** te kiezen.
 

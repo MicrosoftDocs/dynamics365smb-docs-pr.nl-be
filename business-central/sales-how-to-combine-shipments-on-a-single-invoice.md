@@ -3,20 +3,19 @@ title: 'Procedure: Verzendingen combineren op één factuur | Microsoft Docs'
 description: 'Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Verzamelfacturering gebruiken.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/16/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="combine-shipments-on-a-single-invoice"></a>Verzendingen combineren op één factuur
+# Verzendingen combineren op één factuur
 
 Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Verzamelfacturering gebruiken.  
 
 Voordat u een verzamelfactuur kunt maken, moet u meerdere verkoopverzendingen voor dezelfde klant in dezelfde valuta boeken. U moet dus twee of meer verkooporders hebben gemaakt en deze als verzonden maar niet als gefactureerd boeken. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Verzendingen handmatig op één factuur combineren
+## Verzendingen handmatig op één factuur combineren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
@@ -33,7 +32,7 @@ Voordat u een verzamelfactuur kunt maken, moet u meerdere verkoopverzendingen vo
 > [!TIP]  
 > Als u orders hebt verzonden waarvoor de waarde voor **Orderklantnr.** anders is dan de waarde voor **Factuurklantnr.**, worden die regels niet weergegeven in het rapport **Verzendregels ophalen**. Gebruik personalisatie om het veld **Orderklant** toe te voegen aan de pagina en het filter te verwijderen. U kunt nu zendingsregels aan de factuur toevoegen, ongeacht de waarde in het veld **Orderklantnr.** zolang het veld **Factuurklantnr.** op de verzendregels overeenkomt met de waarde op de verkoopfactuur.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Verzendingen automatisch op één factuur combineren
+## Verzendingen automatisch op één factuur combineren
 
 [!INCLUDE[prod_short](includes/prod_short.md)] selecteert alleen verkooporders waar **Verzendingen combineren** is gekozen. 
 
@@ -45,7 +44,7 @@ Voordat u een verzamelfactuur kunt maken, moet u meerdere verkoopverzendingen vo
 > [!NOTE]  
 >  U moet de facturen handmatig boeken als het selectievakje **Facturen boeken** niet was ingeschakeld bij de batchverwerking.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Openstaande verkooporders verwijderen na boeking van een verzamelfactuur
+## Openstaande verkooporders verwijderen na boeking van een verzamelfactuur
 
 Als verzendingen worden gecombineerd op een factuur en worden geboekt, wordt er een geboekte verkoopfactuur gemaakt voor de gefactureerde regel. Het veld **Verzonden aantal** op het oorspronkelijke verkoopraamcontract of de oorspronkelijke verkooporder wordt bijgewerkt op basis van het gefactureerde aantal.  
 
@@ -59,7 +58,7 @@ U kunt afzonderlijke verkooporders ook handmatig verwijderen.
 
 Herhaal stap 1 t/m 3 voor alle andere betrokken documenten, zoals verkoopraamcontracten.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

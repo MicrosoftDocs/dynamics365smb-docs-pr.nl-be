@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Nadat de factuur is geboekt, vindt u deze in de lijst met geboekte facturen. Zowel de lijst **Geboekte verkoopfacturen** als de lijst **Geboekte inkoopfacturen** bevat de geboekte facturen met de uiteindelijke factuurnummers. In de lijst kunt u elke geboekte factuur opzoeken en u kunt een geboekte factuur corrigeren of annuleren.  
 

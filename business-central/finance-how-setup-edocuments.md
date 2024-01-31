@@ -3,16 +3,15 @@ title: E-documenten instellen
 description: Leer hoe u de e-documentfunctionaliteit instelt.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
 ms.date: 10/05/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-e-documents"></a>E-documenten instellen
+# E-documenten instellen
 
 > [!IMPORTANT]
 > De kernmodule E-documenten is een raamwerk. Standaard is er geen veld **Service-integratie**. Als u de **Documentindeling**-optie standaard vindt, moet u er rekening mee houden dat deze als voorbeeld worden aangeboden en dat de lokalisatie een gedetailleerde indeling moet bieden. Deze details maken deel uit van lokalisatie-apps, omdat ze beide specifiek zijn voor lokale vereisten.
@@ -22,7 +21,7 @@ ms.author: altotovi
 
 De eerste stap bij de configuratie van elektronische documenten (e-documenten) is het opzetten van de E-documentenservice, waarin u het volledige gedrag van uw systeem configureert met betrekking tot de communicatie met e-documenten.
 
-## <a name="set-up-the-e-document-service"></a>De e-documentservice instellen
+## De e-documentservice instellen
 
 Volg deze stappen om de E-documentservice in te stellen.
 
@@ -72,11 +71,11 @@ Als u de indeling **Definitie van gegevensuitwisseling** in uw lokalisatie hebt 
 
 Als u de indeling **Definitie van gegevensuitwisseling** niet gebruikt, kunt u formaten maken en configureren met behulp van de [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Pas de informatie aan op de regels **Toewijzing exporteren** en **Toewijzing importeren** , waar u de tabellen en velden kunt vinden voor het configureren van transformatieregels. In dit geval moet u een nieuwe optie toevoegen in het veld **Documentindeling** die betrekking heeft op uw indeling.  
 
-### <a name="supported-document-types"></a>Ondersteunde documenttypen
+### Ondersteunde documenttypen 
 
 Ondersteunde documenttypen zijn gebaseerd op de gekozen **Documentindeling**. Als u wilt controleren welke documenttypen worden ondersteund, voert u op de pagina **E-documentservice** de actie **Ondersteunde documenttypen** uit. De **Ondersteunde brondocumenttypen van de e-documentservice** worden geopend en in de kolom **Brondocumenttype** vindt u alle ondersteunde documenttypen.  
 
-## <a name="set-up-a-document-sending-profile"></a>Een verzendprofiel voor documenten instellen
+## Een verzendprofiel voor documenten instellen
 
 U kunt voor elk van uw klanten een voorkeursmethode voor het verzenden van verkoopdocumenten instellen. Op deze manier hoeft u niet telkens een verzendoptie te selecteren wanneer u de actie **Boeken en verzenden** selecteert. Op de pagina **Documentverzendprofielen** kunt u verschillende verzendprofielen instellen en daar vervolgens uit kiezen in het veld **Verzendprofiel van document** op een klantenkaart. U kunt het selectievakje **Standaard** selecteren om aan te geven dat een documentverzendprofiel het standaardprofiel is voor alle klanten, behalve voor klanten waarvoor het veld **Verzendprofiel van document** is ingesteld op een ander profiel.
 
@@ -98,7 +97,7 @@ Volg deze stappen om een documentverzendprofiel in te stellen,
     > [!NOTE]
     > Als u **Uitgebreide servicestroom voor e-document** in het veld **Elektronisch document** selecteert, moet de werkstroom al zijn geconfigureerd voor uw e-documenten.
 
-## <a name="set-up-the-workflow"></a>De werkstroom instellen
+## De werkstroom instellen
 
 Volg deze stappen om de werkstroom in te stellen die wordt gebruikt in de e-documentfunctionaliteit.
 
@@ -117,7 +116,7 @@ Als u meer werkstromen wilt gebruiken, configureert u deze via de documentverzen
 
 Wanneer u uw werkstroom configureert op de pagina **Werkstroom**, wijst u naar het veld **Op voorwaarde** op het sneltabblad **Werkstroomstappen**. Selecteer op de pagina **Gebeurtenisvoorwaarden** in het veld **Filter** het documentverzendprofiel dat u wilt gebruiken.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Een bewaarbeleid instellen voor e-documenten
+## Een bewaarbeleid instellen voor e-documenten
 
 E-documenten kunnen onderwerp zijn van verschillende lokale wetgevingen die verband houden met de periode dat de e-documenten worden bewaard. Daarom hebben we een bewaarbeleid toegevoegd voor alle belangrijke informatie die verband houdt met e-documenten. Beheerders kunnen een bewaarbeleid definiëren dat specificeert hoe vaak Dynamics 365 Business Central verouderde records die verband houden met e-documenten, worden verwijderd. Zie voor meer informatie over bewaarbeleid [Bewaarbeleid definiëren](admin-data-retention-policies.md).
 
@@ -131,7 +130,7 @@ Volg deze stappen om een bewaarbeleid voor e-documenten in te stellen.
     - Logbestand van toewijzing van e-document
     - Opslag van e-documentgegevens
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Hoe u e-documenten gebruikt in Business Central](finance-how-use-edocuments.md)  
 [Hoe u e-documenten uitbreidt in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

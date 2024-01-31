@@ -3,14 +3,13 @@ title: Interacties met contacten maken en beheren
 description: In Business Central wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Lees meer over de manieren om uw contacten te maken en te beheren.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Interacties beheren met uw contacten
+# Interacties beheren met uw contacten
 In [!INCLUDE[prod_short](includes/prod_short.md)] wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, e-mail, telefoon, vergaderingen, enzovoort zijn.
 
 U kunt alle interactie registreren die u met uw contacten hebt, om de verkoop en marketinginspanningen bij te houden die u op uw contacten hebt gericht en om uw toekomstige bedrijfsinteracties met hen te verbeteren.

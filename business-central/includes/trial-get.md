@@ -1,11 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/05/2022
+ms.date: 01/17/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-1. Ga naar [de proefsite](https://go.microsoft.com/fwlink/?linkid=847861), kies *Financiën en bedrijfsactiviteiten* en kies vervolgens, op de **Dynamics 365 Business Central**-kaart, de knop **Gratis proberen**.  
-2. Voer uw e-mailadres voor werk of school en andere details in. U wordt omgeleid naar uw proefversie op [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
+<!--1. Go to **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page, and choose the **Try for free** button.-->  
 
 Het laden van de proefversie duurt enkele ogenblikken. Vervolgens kunt u aan de slag gaan met de app. De checklist **Aan de slag** begeleidt u door de stappen om u klaar te maken voor zaken. De stappen variëren afhankelijk van uw land/regio en eventuele branchespecifieke functionaliteit die u aan uw [!INCLUDE [prod_short](prod_short.md)] hebt toegevoegd.  
 

@@ -3,19 +3,18 @@ title: Modellen voor gegevenseigendom voor synchronisatie
 description: Bedrijven zijn zowel juridische als zakelijke constructies en worden gebruikt om bedrijfsgegevens te beveiligen en te visualiseren.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'CDS, Dataverse, integration, sync'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="data-ownership-models-for-synchronization"></a>Modellen voor gegevenseigendom voor synchronisatie
+# Modellen voor gegevenseigendom voor synchronisatie
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] vereist dat u een eigenaar opgeeft voor de gegevens die u opslaat. Zie voor meer informatie [Typen tabellen](/powerapps/maker/data-platform/types-of-entities) in de Power Apps-documentatie. Wanneer u integratie instelt tussen [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)], moet u het eigendomsmodel **Gebruiker of team** kiezen voor records die worden gesynchroniseerd. Acties die op deze records kunnen worden uitgevoerd, kunnen op gebruikersniveau worden beheerd. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
-## <a name="team-ownership"></a>Teameigendom
+## Teameigendom
 In [!INCLUDE[prod_short](includes/prod_short.md)] is een bedrijf een juridische en zakelijke entiteit die manieren biedt om bedrijfsgegevens te beveiligen en te visualiseren. Gebruikers werken altijd in de context van een bedrijf. [!INCLUDE[prod_short](includes/cds_long_md.md)] komt hier het dichtst bij in de buurt met de entiteit bedrijfsunit, die geen juridische of zakelijke implicaties heeft.
 
 Omdat bedrijfsunits juridische en zakelijke implicaties missen, kunt u geen één-op-één (1: 1) toewijzing afdwingen om gegevens tussen een bedrijf en een bedrijfsunit te synchroniseren, hetzij eenrichting, hetzij bidirectioneel. Om synchronisatie mogelijk te maken wanneer u synchronisatie voor een bedrijf inschakelt [!INCLUDE[prod_short](includes/prod_short.md)], gebeurt het volgende in [!INCLUDE[prod_short](includes/cds_long_md.md)]:
@@ -49,21 +48,21 @@ Synchronisatie bepaalt welk team records moet bezitten. Dit wordt bepaald door h
 > [!NOTE]
 > Records worden alleen-lezen nadat een bedrijf is toegevoegd en opgeslagen, dus zorg ervoor dat u het juiste bedrijf kiest.
 
-## <a name="choosing-a-different-business-unit"></a>Een andere bedrijfsunit kiezen
+## Een andere bedrijfsunit kiezen
 U kunt de selectie van de bedrijfsunit wijzigen als u het eigendomsmodel Teams gebruikt. Als u het eigendomsmodel Persoon gebruikt, wordt altijd de standaardbedrijfsunit geselecteerd. 
 
 Als u bijvoorbeeld een andere bedrijfsunit kiest, een die u eerder in [!INCLUDE[prod_short](includes/cds_long_md.md)] hebt gemaakt, behoudt deze de oorspronkelijke naam. Dat wil zeggen, de naam krijgt niet als achtervoegsel de bedrijfs-ID. We stellen een team samen dat de naamgevingsconventie gebruikt.
 
 Bij het wijzigen van een bedrijfsunit kunt u alleen de bedrijfsunits kiezen die één niveau lager liggen dan de hoofdbedrijfsunit.
 
-## <a name="person-ownership"></a>Persoonseigendom
+## Persoonseigendom
 Als u het eigendomsmodel Persoon kiest, moet u elke verkoper specificeren die eigenaar zal zijn van nieuwe records. De bedrijfsunit en het team worden gemaakt zoals beschreven in de sectie [Teameigendom](admin-cds-company-concept.md#team-ownership).
 
 De standaardbedrijfsunit wordt gebruikt wanneer het eigendomsmodel Persoon wordt gekozen en u kunt geen andere bedrijfsunit kiezen. Het team dat is gekoppeld aan de standaardbedrijfsunit is eigenaar van records voor gemeenschappelijke tabellen, zoals de producttabel, die niet zijn gerelateerd aan specifieke verkopers.
 
 Wanneer u verkopers in [!INCLUDE[prod_short](includes/prod_short.md)] koppelt aan gebruikers in [!INCLUDE[prod_short](includes/cds_long_md.md)], voegt [!INCLUDE[prod_short](includes/prod_short.md)] de gebruiker toe aan het standaardteam in [!INCLUDE[prod_short](includes/cds_long_md.md)]. U kunt controleren of er gebruikers zijn toegevoegd door naar de kolom **Standaardteamlid** te kijken op de pagina **Gebruikers - Common Data Service**. Als de gebruiker niet is toegevoegd, kunt u deze handmatig toevoegen met de actie **Gekoppelde gebruikers toevoegen aan team**. Zie [Gegevens in Business Central synchroniseren met Dataverse](admin-synchronizing-business-central-and-sales.md) voor meer informatie.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Informatie over [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

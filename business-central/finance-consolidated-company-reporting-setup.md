@@ -9,9 +9,10 @@ ms.date: 09/25/2023
 ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-company-consolidation"></a>Een bedrijfsconsolidatie instellen
+# Een bedrijfsconsolidatie instellen
 
 Voordat u de grootboekposten van twee of meer bedrijven (dochterondernemingen) in een geconsolideerd bedrijf kunt consolideren, moet u de rekeningschema's en het consolidatiebedrijf voorbereiden.  
 
@@ -22,7 +23,7 @@ Afhankelijk van de complexiteit van uw bedrijven kunt u consolidatie op twee man
   * Specificeer de grootboekrekeningen die van elke bedrijfsunit moeten worden opgenomen in de consolidatie en geef de consolidatievertaalmethode voor elke rekening op.
   * Stel in het geconsolideerde bedrijf een bedrijfsunitkaart in voor elk bedrijf dat moet worden opgenomen in de consolidatie. De bedrijfsunitkaart bevat informatie zoals de datums van het boekjaar van de bedrijfsunit en het percentage van elke rekening die moet worden opgenomen in de consolidatie.
 
-## <a name="simple-consolidation-setup"></a>Eenvoudige consolidatie instellen
+## Eenvoudige consolidatie instellen
 
 Als de consolidatie ongecompliceerd is, bijvoorbeeld omdat u de enige eigenaar van de te consolideren bedrijfsunits bent, wordt u door de guide **Bedrijfconsolidatie** door de volgende stappen geleid:
 
@@ -34,11 +35,11 @@ Ga als volgt te werk om de begeleide instelling te gebruiken:
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies vervolgens de gerelateerde koppeling.
 2. Kies **Consolidaties verwerken** en voltooi elke stap in de begeleide instelling Bedrijfsconsolidatie.
 
-## <a name="advanced-consolidation-setup"></a>Geavanceerde consolidatie instellen
+## Geavanceerde consolidatie instellen
 
 Als u meer geavanceerde instellingen voor de consolidatie nodig hebt, kunt u de consolidatie handmatig instellen. U kunt dit bijvoorbeeld doen als u bedrijven hebt die deels uw eigendom zijn of die u niet wilt opnemen.  
 
-### <a name="set-up-the-consolidated-company"></a>Stel het geconsolideerde bedrijf in
+### Stel het geconsolideerde bedrijf in
 
 U moet eerst het geconsolideerde bedrijf instellen. U stelt het geconsolideerde bedrijf in op dezelfde manier als waarop u andere bedrijven instelt. Ga voor meer informatie over het opzetten van een bedrijf naar [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).  
 
@@ -62,7 +63,7 @@ De volgende lijst illustreert de belangrijkste aspecten van het geconsolideerde 
 
     Ga voor meer informatie naar de sectie [Dimensies opnemen of uitsluiten](#dim).
 
-### <a name="add-business-units"></a><a name="busunit"></a>Bedrijfsunits toevoegen
+### <a name="busunit"></a>Bedrijfsunits toevoegen
 
 Stel in het geconsolideerde bedrijf elk bedrijf waaruit u gegevens wilt consolideren, in als een bedrijfsunit. Voordat u een consolidatie uitvoert en uw consolidatierapport genereert, is het een goed idee om de financiële gegevens in elke bedrijfsunit te verifiëren.
 
@@ -88,7 +89,7 @@ Een groot deel van het opzetten van de bedrijfsunit bestaat uit het specificeren
         Om de eindpunt-URL op te halen opent u in de [!INCLUDE [prod_short](includes/prod_short.md)] van de bedrijfsunit de pagina **Bedrijfsunitkaart** en kiest u de actie **Instellingen**. 
    * Als u een .xml-bestand wilt exporteren en handmatig wilt delen, kiest u **Bestandsindeling**.
 
-### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Grootboekrekeningen voor consolidatie voorbereiden
+### <a name="glacc"></a>Grootboekrekeningen voor consolidatie voorbereiden
 
 Het rekeningschema van een bedrijf dat geconsolideerd wordt, moet u rekeningen voor de consolidatie specificeren. Voor elke boekingsgrootboekrekening in elk bedrijf moet u de grootboekrekening in het geconsolideerde bedrijf opgeven waarnaar de balans moet worden overgebracht. Met deze toewijzing kunt u bedrijven consolideren die verschillende rekeningschema's hebben.
 
@@ -97,7 +98,7 @@ Als het rekeningschema van de bedrijfsunit afwijkt van dat van het geconsolideer
 1. Kies in elke bedrijfsunit [!INCLUDE [prod_short](includes/prod_short.md)], kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de gerelateerde koppeling.  
 2. Open de kaart voor de rekening en vul de velden op het sneltabblad **Consolidatie** in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Wisselkoersen opgeven voor consolidaties
+### <a name="exchrates"></a>Wisselkoersen opgeven voor consolidaties
 
 Als een bedrijfsunit een andere valuta dan het geconsolideerde bedrijf gebruikt, moet u wisselkoersmethoden voor elke rekening opgeven voordat u de consolidatie uitvoert. Voor elke rekening bepaalt de inhoud van het veld **Consol.-vertaalmethode** de wisselkoers. Op elke bedrijfsunitkaart specificeert u in het veld **Wisselkoerstabel** of de consolidatie de wisselkoersen van de bedrijfsunit of van het geconsolideerde bedrijf moet gebruiken. Als u de wisselkoersen van het geconsolideerde bedrijf gebruikt, kunt u de wisselkoersen wijzigen voor een bedrijfseenheid. Als het veld **Wisselkoerstabel** op de bedrijfsunitkaart de waarde **Lokaal** bevat, kunt u de wisselkoers van de bedrijfsunitkaart wijzigen. De wisselkoersen worden overgenomen uit de tabel **Valutawisselkoers**, maar u kunt ze vóór de consolidatie wijzigen.
 
@@ -120,7 +121,7 @@ Ga als volgt te werk om wisselkoersen voor bedrijfsunits op te geven:
 4. Kies de actie **Wisselkoers (Balans)**.  
 5. Voer in het veld **Gerel. wisselkoersbedrag** de wisselkoers in.
 
-### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Dimensies opnemen of uitsluiten
+### <a name="dim"></a>Dimensies opnemen of uitsluiten
 
 U kunt dimensiegegevens en grootboekrekeningen consolideren.
 
@@ -130,15 +131,15 @@ U kunt dimensiegegevens en grootboekrekeningen consolideren.
   * Als u de dimensiewaardecode in de bedrijfsunit wilt consolideren met een andere dimensiewaardecode in het geconsolideerde bedrijf, vult u het veld **Consolidatiecode** voor de dimensies in.  
 * Voeg de dimensies toe aan de grootboekrekeningen.
 
-### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Een bedrijf uitsluiten van consolidatie
+### <a name="exclude"></a>Een bedrijf uitsluiten van consolidatie
 
 Als u een bedrijfsunit niet wilt opnemen in de consolidatie, kunt u deze uitsluiten. Hiervoor gaat u naar de bedrijfsunitkaart en schakelt u het selectievakje **Consolideren** uit.
 
-### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Een bedrijf dat deels eigendom is, opnemen in een consolidatie
+### <a name="include"></a>Een bedrijf dat deels eigendom is, opnemen in een consolidatie
 
 Als u slechts een deel van een bedrijf bezit, kunt u een percentage van elke transactie opnemen dat overeenkomt met het percentage dat in uw bezit is. Als u voor 70% eigenaar van het bedrijf bent, bevat de consolidatie bijvoorbeeld € 70 van een factuur voor € 100. Als u het percentage wilt opgeven dat het bedrijf van u is, gaat u naar de bedrijfsunitkaart en voert u het percentage in het veld **Consolidatie %** in.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)  
 [Intercompany-transacties beheren](intercompany-manage.md)  

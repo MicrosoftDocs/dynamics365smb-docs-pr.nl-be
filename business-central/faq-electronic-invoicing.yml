@@ -5,6 +5,7 @@ metadata:
   ms.topic: faq
   author: brentholtorf
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Veelgestelde vragen over elektronische facturering
 summary: |
   De ingebouwde documentuitwisselingsservice verzendt elektronische facturen naar TradeShift, een serviceprovider die elektronische facturen doorstuurt naar PEPPOL- of NemHandel-ontvangers. Maar de service ondersteunt een beperkt aantal versies.   

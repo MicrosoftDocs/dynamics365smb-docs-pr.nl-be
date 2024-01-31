@@ -9,12 +9,13 @@ ms.search.keywords: 'item reference, cross reference, inventory'
 ms.search.forms: '5737, 5735, 5736'
 ms.date: 10/02/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-item-references"></a>Artikelverwijzingen gebruiken
+# Artikelverwijzingen gebruiken
 
 Als u artikelen koopt of verkoopt waarvoor u en uw leverancier of klant verschillende voorwaarden gebruiken, kunt u een verwijzing instellen tussen uw voorwaarden voor de artikelen en de voorwaarden die de klant of leverancier van dat artikel gebruikt. Op deze manier wordt de artikelbeschrijving, eenheid of variantcode van de leverancier of klant automatisch ingevoegd op de relevante documenten wanneer u het veld **Nr. van artikelreferentie** ervan.  
 
-## <a name="to-set-up-an-item-reference"></a>Een artikelverwijzing instellen
+## Een artikelverwijzing instellen
 
 1. Kies het pictogram :::image type="icon" source="media/ui-search/search_small.png" border="false":::, voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor een artikel waarvoor u een referentie wilt maken.
@@ -26,7 +27,7 @@ Als u artikelen koopt of verkoopt waarvoor u en uw leverancier of klant verschil
 
 In de volgende procedure wordt beschreven hoe u de artikelverwijzing opgeeft in een inkooporder. Soortgelijke stappen zijn van toepassing op verkoopdocumenten en andere inkoopdocumenten.  
 
-## <a name="to-enter-a-vendors-item-description-on-a-document"></a>De artikelomschrijving van een leverancier invoeren in een document
+## De artikelomschrijving van een leverancier invoeren in een document
 
 1. Kies het pictogram :::image type="icon" source="media/ui-search/search_small.png" border="false":::, voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een inkooporder voor de leverancier voor wie u een artikelverwijzing hebt ingesteld in de vorige procedure.
@@ -35,7 +36,7 @@ In de volgende procedure wordt beschreven hoe u de artikelverwijzing opgeeft in 
 
 Het veld **Omschrijving** op de regel wordt overschreven met de artikelomschrijving van de leverancier, zoals ingesteld in de artikelverwijzingspost. Als de artikelverwijzing een variantcode of een eenheid bevat, worden deze waarden ook naar het document gekopieerd.  
 
-## <a name="scan-barcodes-with-the-business-central-mobile-app"></a>Barcodes scannen met de mobiele Business Central-app
+## Barcodes scannen met de mobiele Business Central-app
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
@@ -49,7 +50,7 @@ In de volgende tabel worden de pagina's vermeld die het scannen van barcodes van
 |Inkoopregel     |   Nr. van artikelreferentie      |
 |Verkoopregel     | Nr. van artikelreferentie        |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad](inventory-manage-inventory.md)  

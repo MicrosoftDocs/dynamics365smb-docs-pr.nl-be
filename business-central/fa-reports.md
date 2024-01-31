@@ -7,16 +7,17 @@ ms.search.keywords: reporting
 ms.search.form: 'Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610'
 ms.date: 07/13/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Vaste-activarapporten en -analyses in Business Central
+# Vaste-activarapporten en -analyses in Business Central
 
 Om u te helpen bij het beheren van uw vaste activa in [!INCLUDE [prod_short](includes/prod_short.md)] zijn standaardrapporten en -analyses ingebouwd. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen.  
 
-## <a name="reports"></a>Rapporten
+## Rapporten
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md)  
 [Werken met dimensies](finance-dimensions.md)  

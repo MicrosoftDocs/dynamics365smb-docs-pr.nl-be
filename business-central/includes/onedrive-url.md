@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 U hebt een URL nodig om verbinding te kunnen maken met OneDrive vanuit Business Central. De eenvoudigste manier om de URL op te vragen, is door zich aan te melden bij [OneDrive](https://onedrive.live.com) voor uw organisatie. In het browseradres ziet u een URL met de volgende indeling:
 
 `https://<your Microsoft 365 tenant name>-my.sharepoint.com/personal/<your user name>`

@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 
 # [Business Central-documentatie](index.yml)
 # [Welkom bij Business Central](welcome.md)
@@ -286,6 +289,7 @@
 ## Financiën
 ### [Overzicht van financiën](finance.md)
 ### [Financiële rapporten](finance-reports.md)
+
 ### Tegoeden beheren
 #### [Overzicht van tegoeden](receivables-manage-receivables.md)
 #### [Debiteurenrapporten en -analyses](receivables-reports.md)
@@ -298,6 +302,7 @@
 ##### [Regels instellen voor automatische vereffening van betalingen](receivables-how-set-up-payment-application-rules.md)
 #### [Klantbetalingen uit een lijst met onbetaalde verkoopdocumenten reconciliëren](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten](receivables-how-apply-sales-transactions-manually.md)
+#### [Saldi consolideren voor een bedrijf dat een klant en een leverancier is](finance-consolidate-customer-vendor-balances.md)
 #### [Openstaande saldi innen](receivables-collect-outstanding-balances.md)
 #### [Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Aanmaningen voor uitstaande saldi verzenden](receivables-send-reminders.md)
@@ -326,34 +331,13 @@
 ##### [Betalingen reconciliëren die niet automatisch kunnen worden vereffend](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Tekst op periodieke betalingen aan rekeningen toewijzen voor automatisch reconciliëren](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Leveranciersbetalingen reconciliëren met het betalingsdagboek of vanuit leveranciersposten](payables-how-apply-purchase-transactions-manually.md)
+#### [Saldi consolideren voor een bedrijf dat een klant en een leverancier is](finance-consolidate-customer-vendor-balances.md)
 #### [Openstaande saldi innen](receivables-collect-outstanding-balances.md)
 #### [Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Leveranciers blokkeren](payables-how-block-vendors.md)
 #### [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)
 #### [Werken met betalingstoleranties en contantkortingstoleranties](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [De extensie Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md)
-
-### E-documenten beheren
-#### [Overzicht van e-documenten](finance-edocuments-overview.md)
-#### [E-documenten instellen](finance-how-setup-edocuments.md)
-#### [E-documenten gebruiken bij verkoop en inkoop](finance-how-use-edocuments.md)
-#### [De connector voor e-documenten instellen met externe eindpunten](finance-how-setup-edocuments-external.md)
-#### [Functionaliteit van e-documenten uitbreiden](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-
-### Btw beheren
-#### [Overzicht van btw-beheer](finance-manage-vat.md)
-#### [EU-inkooptransacties van derde partijen](finance-how-to-eu3party-trade-purchase.md)
-#### Btw instellen
-##### [Btw instellen](finance-setup-vat.md)
-##### [Instelling van boekingsgroep](finance-posting-groups.md#tax-posting-groups)
-##### [Niet-aftrekbare btw instellen](finance-setup-nondeductible-vat.md)
-##### [Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)
-##### [Een btw-aangifte instellen](finance-how-setup-vat-statement.md)
-#### [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)
-#### [Niet-aftrekbare btw gebruiken](finance-how-use-non-deductible-vat.md)
-#### [Btw-aangiften indienen bij de belastingdienst](finance-how-report-vat.md)
-#### [Wijzigingen in btw-tarieven beheren](finance-how-use-vat-rate-change-tool.md)
-#### [Btw-nummers valideren](finance-how-validate-vat-registration-number.md)
 
 ### Vooruitbetalingen factureren
 #### [Overzicht van vooruitbetalingen](finance-invoice-prepayments.md)
@@ -366,13 +350,8 @@
 #### [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md)
 #### [Bankrekeningen reconciliëren met Copilot (preview)](bank-reconciliation-with-copilot.md)
 #### [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### IC-transacties beheren
-#### [Overzicht van IC](intercompany-manage.md)
-#### [IC instellen](intercompany-how-setup.md)
-#### [Werken met IC-documenten en -dagboeken](intercompany-how-work-documents-journals.md)
-#### [De IC-inbox en -outbox beheren](intercompany-how-manage-intercompany-inbox.md)
-#### [Kosten toewijzen aan IC-partners](intercompany-allocate-costs.md)
+#### [Bankfondsen overboeken](bank-how-transfer-bank-funds.md)
+#### [Bankstortingen maken](bank-create-bank-deposits.md)
 
 ### Kosten verantwoorden
 #### [Overzicht van kostprijsboekhouding](finance-manage-cost-accounting.md)
@@ -408,6 +387,8 @@
 ### Cashflow beheren
 #### [Overzicht van cashflow](finance-cash-flow-overview.md)
 #### [Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md)
+#### [Procedure: Cashflowprognoses maken met behulp van financiële rapporten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ### Jaren en perioden afsluiten
 #### [Overzicht van jaarafsluiting](year-close-years-periods.md)
@@ -424,38 +405,63 @@
 #### [Resultatenrekeningen sluiten](year-close-income-statement.md)
 #### [De jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md)
 
-### Financiële gegevens uit meerdere bedrijven consolideren
-#### [Bedrijfsconsolidatie](finance-consolidated-company-reporting.md)
-#### [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md)
-
-### Werken met het rekeningschema en het grootboek
+### Werken met het rekeningschema en het grootboek (GB)
 #### [Het grootboek en het rekeningschema begrijpen](finance-general-ledger.md)
 #### [Rekeningen controleren](finance-review-accounts.md)
+#### [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
+#### [Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken](finance-how-reverse-journal-posting.md)
+#### [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)
+#### [Grootboekbudgetten maken](finance-how-create-budgets.md)
+#### [Export van controlebestand](finance-how-to-export-audit-files.md)
+#### [Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)
+#### [Periodieke kosten en inkomsten toewijzen](year-allocate-costs-income.md)
+#### [Opbrengsten en kosten toewijzen aan meerdere grootboekrekeningen](finance-allocate-revenue-costs.md)
 
-### [Saldi consolideren voor een bedrijf dat een klant en een leverancier is](finance-consolidate-customer-vendor-balances.md)
-### [Werken met dimensies](finance-dimensions.md)
-### [Problemen met dimensies oplossen en corrigeren](finance-troubleshooting-correcting-dimensions.md)
-### [Valuta's in Business Central](finance-currencies.md)
-### [Grootboekbudgetten maken](finance-how-create-budgets.md)
-### [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
-### [Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken](finance-how-reverse-journal-posting.md)
-### [Export van controlebestand](finance-how-to-export-audit-files.md)
-### [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)
-### [Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)
-### [Periodieke kosten en inkomsten toewijzen](year-allocate-costs-income.md)
-### [Opbrengsten en kosten toewijzen aan meerdere grootboekrekeningen](finance-allocate-revenue-costs.md)
-### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
-### [Salaristransacties importeren](finance-how-import-payroll-transactions.md)
-### [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)
-### [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md)
-### [Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)
-### [Wijzigingen in btw-tarieven beheren](finance-how-use-vat-rate-change-tool.md)
-### [Procedure: Cashflowprognoses maken met behulp van financiële rapporten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-### [Financiële overzichten analyseren in Excel](finance-analyze-excel.md)
-### [Bankfondsen overboeken](bank-how-transfer-bank-funds.md)
-### [Bankstortingen maken](bank-create-bank-deposits.md)
-### [Accountantervaringen in Business Central](finance-accounting.md)
+### Werken met dimensies
+#### [Overzicht van dimensies](finance-dimensions.md)
+#### [Problemen met dimensies oplossen en corrigeren](finance-troubleshooting-correcting-dimensions.md)
+#### [Salaristransacties importeren](finance-how-import-payroll-transactions.md)
+
+### Werken met valuta's
+#### [Valuta's in Business Central](finance-currencies.md)
+#### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
+
+### Werken met btw
+#### [Overzicht van btw-beheer](finance-manage-vat.md)
+#### [EU-inkooptransacties van derde partijen](finance-how-to-eu3party-trade-purchase.md)
+#### Btw instellen
+##### [Btw instellen](finance-setup-vat.md)
+##### [Instelling van boekingsgroep](finance-posting-groups.md#tax-posting-groups)
+##### [Niet-aftrekbare btw instellen](finance-setup-nondeductible-vat.md)
+##### [Ongerealiseerde btw instellen](finance-setup-unrealized-vat.md)
+##### [Een btw-aangifte instellen](finance-how-setup-vat-statement.md)
+#### [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)
+#### [Niet-aftrekbare btw gebruiken](finance-how-use-non-deductible-vat.md)
+#### [Btw-aangiften indienen bij de belastingdienst](finance-how-report-vat.md)
+#### [Wijzigingen in btw-tarieven beheren](finance-how-use-vat-rate-change-tool.md)
+#### [Btw-nummers valideren](finance-how-validate-vat-registration-number.md)
+#### [Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md)
+
+### E-documenten instellen en gebruiken
+#### [Overzicht van e-documenten](finance-edocuments-overview.md)
+#### [E-documenten instellen](finance-how-setup-edocuments.md)
+#### [E-documenten gebruiken bij verkoop en inkoop](finance-how-use-edocuments.md)
+#### [De connector voor e-documenten instellen met externe eindpunten](finance-how-setup-edocuments-external.md)
+#### [Functionaliteit van e-documenten uitbreiden](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### [Multi-site en internationale organisaties](finance-multi-site-organizations.md)
+#### Financiële gegevens uit meerdere bedrijven consolideren
+##### [Bedrijfsconsolidatie](finance-consolidated-company-reporting.md)
+##### [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md)
+#### IC-transacties beheren
+##### [Overzicht van IC](intercompany-manage.md)
+##### [IC instellen](intercompany-how-setup.md)
+##### [Werken met IC-documenten en -dagboeken](intercompany-how-work-documents-journals.md)
+##### [De IC-inbox en -outbox beheren](intercompany-how-manage-intercompany-inbox.md)
+##### [Kosten toewijzen aan IC-partners](intercompany-allocate-costs.md)
+
+### [Accountantervaringen in Business Central](finance-accounting.md)
+
 
 ## Financiële Business Intelligence en rapportage
 ### [Overzicht van financiële Business Intelligence en rapportage](bi.md)
@@ -466,8 +472,11 @@
 ### [KPI-webservices instellen en publiceren op basis van financiële rapporten](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)
 ### [Analyserapporten maken](bi-how-create-analysis-views-reports.md)
+### [Financiële overzichten analyseren in Excel](finance-analyze-excel.md)
 ### [Rapporten met XBRL maken](bi-create-reports-with-xbrl.md)
 ### [Intentie databasetoegang beheren](admin-data-access-intent.md)
+### [Procedure: Cashflowprognoses maken met behulp van financiële rapporten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ## Verkoop
 ### [Overzicht van verkoop](sales-manage-sales.md)
@@ -874,9 +883,13 @@
 
 ### Denemarken
 #### [Lokale functionaliteit in de Deense versie](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### [Bericht en registratie voor het NemHandelsregisteret in Denemarken](localfunctionality/denmark/how-to-nemhandel-register.md)
-#### [Elektronische facturering instellen met NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### Naleving
 #### [Transactiegegevens vijf jaar bewaren in Denemarken](localfunctionality/denmark/how-to-keep-data-5years.md)
+##### [Digitale bonnen instellen in Denemarken](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
+#### Controle
+##### [De SAF-T-controlebestandsindeling exporteren in Denemarken](LocalFunctionality/Denmark/how-to-use-saft-audit-files-export.md)
+##### [Openbaar standaardrekeningschema in Denemarken](LocalFunctionality/Denmark/how-to-set-up-standard-coa.md)
+##### [Boekhoudgegevens exporteren naar Regnskab Basis in Denemarken](LocalFunctionality/Denmark/how-to-use-regnskabbasis-export.md)
 #### Btw
 ##### [Btw-reconciliatierapporten afdrukken](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Btw-Intracomm. rapporten](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -890,11 +903,11 @@
 ##### [Klanten instellen voor OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Elektronische OIOUBL-facturering instellen](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [De OIOUBL-extensie voor elektronische facturering](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Elektronische documenten maken in een OIOUBL-indeling](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
+##### [Elektronische documenten maken in een OIOUBL-indeling](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+#### [Bericht en registratie voor het NemHandelsregisteret in Denemarken](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Elektronische facturering instellen met NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
 #### Salaris
 ##### [Loonlijstgegevensdefinities (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
-#### Digitale bonnen
-##### [Digitale bonnen instellen in Denemarken](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finland
 #### [Lokale functionaliteit in de Finse versie](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1832,19 +1845,6 @@
 #### [Handleiding voor rapportontwikkeling](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Handleiding voor het afstemmen van rapportprestaties](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
-# Copilot- en AI-mogelijkheden
-## Copilot- en AI-mogelijkheden beheren
-### [Copilot- en AI-mogelijkheden configureren](enable-ai.md)
-### [Copilot-gegevensverplaatsing tussen geografieën](ai-copilot-data-movement.md)
-### [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)
-## Hulp bij reconciliatie van bankrekeningen (preview)
-### [Bankrekeningen reconciliëren met Copilot](bank-reconciliation-with-copilot.md)
-### [Veelgestelde vragen over hulp bij bankreconciliatie](faqs-bank-reconciliation.md)
-## Suggesties voor marketingteksten
-### [Overzicht van suggesties voor marketing](ai-overview.md)
-### [Marketing maken met Copilot](item-marketing-text.md)
-### [Veelgestelde vragen over suggesties voor marketing](faqs-marketing-text.md)
-
 # Beveiliging, privacy en naleving
 ## Beveiliging en bescherming
 ### [Overzicht van beveiliging en bescherming (alleen in het Engels)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
@@ -2023,6 +2023,18 @@
 ## [Beveiliging en bescherming](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Prestaties](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Verwijderde of afgeschafte functies](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Copilot- en AI-mogelijkheden
+## Copilot- en AI-mogelijkheden beheren
+### [Copilot- en AI-mogelijkheden configureren](enable-ai.md)
+### [Copilot-gegevensverplaatsing tussen geografieën](ai-copilot-data-movement.md)
+### [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)
+## Hulp bij reconciliatie van bankrekeningen (preview)
+### [Bankrekeningen reconciliëren met Copilot](bank-reconciliation-with-copilot.md)
+### [Veelgestelde vragen over hulp bij bankreconciliatie](faqs-bank-reconciliation.md)
+## Suggesties voor marketingteksten
+### [Overzicht van suggesties voor marketing](ai-overview.md)
+### [Marketing maken met Copilot](item-marketing-text.md)
+### [Veelgestelde vragen over suggesties voor marketing](faqs-marketing-text.md)
 # Verantwoordelijke AI
 ## [Overzicht](responsible-ai-overview.md)
 ## [Veelgestelde vragen over hulp bij bankreconciliatie (preview)](faqs-bank-reconciliation.md)

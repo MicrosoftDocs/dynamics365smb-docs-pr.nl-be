@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 |Optie|Omschrijving|
 |------|----------|
 |**OneDrive voor app-functies gebruiken**|Als u deze optie inschakelt, worden de acties **Openen in OneDrive** en **Delen** beschikbaar gemaakt in bestanden in Business Central, zoals bestanden die zijn bijgevoegd bij documenten of in de Rapportinbox. Met deze acties kunnen gebruikers bestanden kopiëren, openen en delen in OneDrive. <ul><li>Business Central-functies die documenten en andere bestanden opslaan of vastleggen en de acties Openen in OneDrive en Delen bieden om die bestanden uit Business Central op te halen, zoals Inkomende documenten en recordbijlagen.</li><li>Bedrijfsfuncties die aangepaste Excel-werkmappen genereren, zoals verkoopbudgetten.</li><li>Rapporten die worden verzonden naar de Rapportinbox</li><li>Als je aanpassingen of extensies hebt geïnstalleerd, kunnen deze meer functies toevoegen die gebruikmaken van OneDrive.</li></ul>Zie [Business Central-bestanden openen en delen in OneDrive](../across-share-onedrive.md) voor meer informatie.

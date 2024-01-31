@@ -3,15 +3,14 @@ title: Bankieren instellen
 description: 'Met bankrekeningkaarten kunt u uw bankrekeningen bijhouden en bankfeeds instellen, zoals Yodlee, om gegevens uit te wisselen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-banking"></a>Bankieren instellen
+# Bankieren instellen
 
 Met bankrekeningkaarten kunt al uw bankrekeningen bijhouden, in willekeurige valuta's. Nadat u de bankrekeningen hebt ingesteld, kunt u ook de optie voor het afdrukken van cheques gebruiken.
 
@@ -25,7 +24,7 @@ Als u elektronische bankierservices wilt gebruiken om bankafschriften te importe
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  

@@ -10,8 +10,9 @@ ms.search.keywords: null
 ms.search.form: '11300, 11301,11303,11306,11307,11308'
 ms.date: 03/02/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="belgian-vat"></a>Belgische btw
+# Belgische btw
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] bevat Belgische uitbreidingen naar de btw-rapportagefuncties zodat u btw-transactiedetails kunt afdrukken. U moet de volgende rapporten aan de Belgische belastingdienst versturen:  
 
@@ -27,7 +28,7 @@ ms.author: bholtorf
 
 U moet ook een gedrukt afschrift met details van de btw-transacties verstrekken aan de Belgische belastingdienst. Zie Btw-aangifte voor meer informatie.  
 
-## <a name="non-deductible-vat"></a>Niet-aftrekbare btw
+## Niet-aftrekbare btw
 
 In België kan btw volledig of gedeeltelijk aftrekbaar zijn. Kosten zoals representatiekosten of aankopen van auto's zijn slechts deels aftrekbaar en de transactie moet opgeven hoeveel van de btw niet-aftrekbaar is. U maakt bijvoorbeeld een grootboekrekening voor vaste activa, bijvoorbeeld auto's, en een andere rekening voor representatiekosten. Voor elke rekening moet u opgeven hoeveel van de gerapporteerde btw niet-aftrekbaar is door het veld **Percentage niet-aftrekbare btw** in te stellen. Wanneer u een transactie boekt wordt de aftrekbare btw dan geboekt naar de corresponderende btw-rekening en wordt de niet-aftrekbare btw opgeteld bij het basisbedrag en geboekt naar dezelfde rekening als een materieel of immaterieel activum.  
 
@@ -35,7 +36,7 @@ Voor vaste activa wordt de niet-aftrekbare btw afgeschreven zoals de basisaansch
 
 Als u het veld **Inclusief niet-aftrekbare btw** inschakelt op een btw-aangifteregel, wordt niet aftrekbare btw opgenomen in het btw-bedrag. Het rapport **Btw-vereffening berekenen en boeken** telt het niet-aftrekbare deel van dat bedrag op bij de velden **Niet-aftrekbaar btw-bedrag** en **Niet-aftrekbaar btw-bedrag (bronvaluta)** in de resulterende btw-posten.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Belgische lokale functionaliteit](belgium-local-functionality.md)  
 [Periodieke btw-rapporten afdrukken](how-to-print-periodic-vat-reports.md)  

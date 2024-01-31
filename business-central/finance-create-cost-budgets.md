@@ -3,14 +3,13 @@ title: Kostenbudgetten maken
 description: In dit onderwerp wordt aangegeven waar u kostenbudgetten kunt maken en analyseren. Budgettering in kostprijsboekhouding lijkt op budgettering in het grootboek.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133'
 ms.date: 06/16/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="creating-cost-budgets"></a>Kostenbudgetten maken
+# Kostenbudgetten maken
 
 Budgettering in kostprijsboekhouding lijkt op budgettering in het grootboek. Een kostenbudget wordt gemaakt op basis van kostensoorten zoals een budget voor het grootboek wordt gemaakt op basis van grootboekrekeningen.  
 
@@ -26,7 +25,7 @@ U gebruikt de volgende pagina's om kostenbudgetten te maken en te analyseren. Ki
 |Zie de kostenbudgetregisters en de kostenbudgetposten.|Pagina **Kostenbudgetregisters**|  
 |Vergelijkingen tussen kostenbudgetten afdrukken met behulp van diverse rapporten.|Rapport **Saldo/Budget kostprijsboekhouding**<br /><br /> Rapport **Rekeningoverzicht/Budget kostprijsboekhouding**<br /><br /> Rapport **Kostenbudget per kostenplaats**<br /><br /> Rapport **Kostenbudget per kostenobject**|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  
 [Grootboekbudgetten maken](finance-how-create-budgets.md)  

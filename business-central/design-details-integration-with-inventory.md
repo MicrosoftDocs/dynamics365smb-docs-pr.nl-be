@@ -3,18 +3,17 @@ title: 'Ontwerpdetails: Integratie met voorraad'
 description: De module Warehouse Management en het toepassingsgebied Voorraad kunnen met elkaar communiceren in inventarisatie en in voorraad- of magazijnherwaardering.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-integration-with-inventory"></a>Ontwerpdetails: Integratie met voorraad
+# Ontwerpdetails: Integratie met voorraad
 
 Magazijnbeheer- en inventarisfuncties werken met elkaar samen in fysieke inventarisatie en in voorraad- of magazijnaanpassing.  
 
-## <a name="physical-inventory"></a>Fysieke inventaris
+## Fysieke inventaris  
 
 De pagina **Mag.-inventarisatiedagboek** wordt gebruikt met de pagina **Inventarisatiedagboek** voor alle geavanceerd magazijnvestigingen. De voorraad op het niveau van opslaglocaties wordt berekend en er wordt een afgedrukte lijst geleverd voor de magazijnmedewerker. Het overzicht toont welke artikelen in welke opslaglocaties moeten worden geteld.  
   
@@ -30,7 +29,7 @@ Wanneer u het inventarisatiedagboek boekt, wordt de voorraad en de standaardherw
 
 [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
   
-## <a name="warehouse-adjustments-to-the-item-ledger"></a>Magazijncorrecties in de artikelpost
+## Magazijncorrecties in de artikelpost  
 
 U gebruikt de pagina **Artikeldagboek** en de functie **Magazijnherwaardering berekenen** om voorraad op de artikelpost aan te passen in overeenstemming met een aanpassing die is gemaakt in het artikelaantal in een magazijnopslaglocatie. Als u een koppeling tussen de voorraad en het magazijn wilt maken, moet u een standaardherwaarderingsopslaglocatie per vestiging definiëren.  
   
@@ -43,7 +42,7 @@ Om de inhoud van de opslaglocatie aan te passen, gebruikt u een magazijnartikeld
   
 Als u een positief aantal invoert en de regel boekt, wordt de voorraad die in de opslaglocatie is opgeslagen vergroot en wordt het aantal dat in de standaardherwaarderingsopslaglocatie is opgeslagen, even veel verkleind.  
   
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)  
 [Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md)  

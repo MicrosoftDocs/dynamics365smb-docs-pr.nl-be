@@ -3,14 +3,13 @@ title: Details van toepassingsontwerp
 description: Deze inhoud bevat gedetailleerde technische informatie over complexe toepassingsfuncties in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="application-design-details"></a>Details van toepassingsontwerp
+# Details van toepassingsontwerp
 
 De artikelen in dit gedeelte bevatten gedetailleerde technische informatie over complexe toepassingsfuncties in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,12 +25,12 @@ De inhoud van ontwerpdetails is gericht op uitvoerders, ontwikkelaars en superge
 |Meer leren over historisch en huidig ontwerp van artikeltraceringsfunctionaliteit en hoe deze wordt geïntegreerd met het reserveringsysteem om serie-/lotnummers in beschikbaarheidsberekeningen op te nemen.|[Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)|  
 |Meer informatie over de functie Boekingsregel voor dagboeken.|[Ontwerpdetails: Dagboekboekingsregel](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Gepland](production-planning.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
-[Overzicht van magazijnbeheer](design-details-warehouse-management.md)
-[Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  
+[Overzicht van magazijnbeheer](design-details-warehouse-management.md)  
+[Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

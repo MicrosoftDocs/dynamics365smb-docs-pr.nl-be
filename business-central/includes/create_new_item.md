@@ -3,9 +3,10 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me 22 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me 22 opent.](../media/ui-search/search_small.png "Vergrootglas Zoeken"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Artikelen** de actie **Nieuw**.
 
     Als er slechts één artikelsjabloon bestaat, wordt vervolgens een nieuwe artikelkaart geopend waarin enkele velden zijn ingevuld met informatie van de sjabloon.

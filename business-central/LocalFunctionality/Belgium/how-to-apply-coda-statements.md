@@ -3,14 +3,13 @@ title: 'CODA-afschriften vereffenen [BE]'
 description: 'Nadat een CODA-afschrift is geïmporteerd, kunnen de afschriftregels worden geopend vanuit de pagina Bankrekeningkaart.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 2000040
 ms.date: 06/25/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="apply-coda-statements-in-the-belgian-version"></a>CODA-afschriften vereffenen in de Belgische versie
+# CODA-afschriften vereffenen in de Belgische versie
 
 Nadat een CODA-afschrift is geïmporteerd, kunnen de afschriftregels worden geopend vanuit de pagina **Bankrekeningkaart**. De vereffeningsstatus is op elke regel leeg omdat de afschriftbedragen niet zijn vereffend met openstaande posten.  
 
@@ -19,7 +18,7 @@ Afschriftbedragen kunnen als volgt worden vereffend met openstaande posten:
 -   Door CODA-afschriftregels handmatig te vereffenen.  
 -   Door CODA-afschriftbedragen automatisch te vereffenen met de betreffende posten en rekeningen. De automatische verwerking van CODA-afschriftregels wordt aanbevolen.  
 
-## <a name="to-manually-apply-the-coda-statement-lines"></a>De CODA-afschriftregels handmatig vereffenen
+## De CODA-afschriftregels handmatig vereffenen  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de bankrekening en kies de actie **CODA-afschriften**.  
@@ -33,7 +32,7 @@ Afschriftbedragen kunnen als volgt worden vereffend met openstaande posten:
 
 5.  Kies de knop **OK**.  
 
-## <a name="to-automatically-apply-the-coda-statement-lines"></a>De CODA-afschriftregels automatisch vereffenen
+## De CODA-afschriftregels automatisch vereffenen  
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de bankrekening en kies de actie **CODA-afschriften**.  
@@ -50,7 +49,7 @@ Afschriftbedragen kunnen als volgt worden vereffend met openstaande posten:
 
     Wanneer u de batchverwerking start, worden de afschriftbedragen vereffend met bestaande posten op basis van de transactiecodes. Zie voor meer informatie [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [CODA-bankafschriften](coda-bank-statements.md)   
  [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md)   
  [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)   

@@ -1,17 +1,18 @@
 ---
 title: Belgische lokale functionaliteit
-description: In de volgende onderwerpen worden verschillende lokale functionaliteiten in de Belgische versie van Business Central beschreven.
+description: In de volgende artikelen worden verschillende lokale functionaliteiten in de Belgische versie van Business Central beschreven.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 06/17/2021
+ms.date: 01/17/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
+# Belgische lokale functionaliteit
 
-In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[prod_short](../../includes/prod_short.md)]  
+In de volgende artikelen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Beschikbaarheid van functies
+## Beschikbaarheid van functie
 
 * Btw
     * [Belgische btw](belgian-vat.md) **Nu beschikbaar**
@@ -42,22 +43,25 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Betalingsvoorstellen genereren](how-to-generate-payment-suggestions.md) **Nu beschikbaar**
     * [CODA-afschriften importeren](how-to-import-coda-statements.md) **Nu beschikbaar**
     * [CODA-afschriften handmatig overbrengen en boeken](how-to-manually-transfer-and-post-coda-statements.md) **Nu beschikbaar**
-    * [Betalingsbestanden afdrukken](how-to-print-payment-files.md) **Nu beschikbaar**
-    * [SEPA-betalingen activeren](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments) **Nu beschikbaar**
-    * [SEPA-betalingen in andere valuta's dan de euro indienen](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments) **Nu beschikbaar**
+    * [Betalingsbestanden afdrukken](how-to-print-payment-files.md#to-print-a-payment-file) **Nu beschikbaar**
+    * [SEPA-betalingen activeren](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#activate-sepa-payments-in-the-belgian-version) **Nu beschikbaar**
+    * [SEPA-betalingen in andere valuta's dan de euro indienen](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#file-non-euro-sepa-payments) **Nu beschikbaar**
     * [Incasso via domiciliëring](direct-debit-using-domiciliation.md) **Nu beschikbaar**
-    * [Domiciliëringen instellen](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Nu beschikbaar**
-    * [Domiciliëringsregels bewerken en verwijderen](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Nu beschikbaar**
-    * [Domiciliëringen testen](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Nu beschikbaar**
-    * [Domiciliëringen exporteren en boeken](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Nu beschikbaar**
+    * [Domiciliëringen instellen](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#set-up-domiciliations) **Nu beschikbaar**
+    * [Domiciliëringsregels bewerken en verwijderen](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#edit-and-delete-domiciliation-lines) **Nu beschikbaar**
+    * [Domiciliëringen testen](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#test-domiciliations) **Nu beschikbaar**
+    * [Domiciliëringen exporteren en boeken](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#export-and-post-domiciliations) **Nu beschikbaar**
     * [Domiciliëringsvoorstellen genereren](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Nu beschikbaar**
     * [Betalingsregels en dagboekregels samenvatten](summarizing-payment-lines-and-general-journal-lines.md) **Nu beschikbaar**
-    
+
+* Elektronische facturering
+    * [Elektronische facturering in België via PEPPOL-toegangspunt](../../finance-how-setup-edocuments-external.md) **Nu beschikbaar**
+  
 * Hoofdfinanciën
     * [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md) **Nu beschikbaar**
     * [Financiële dagboeken maken](how-to-create-financial-journals.md) **Nu beschikbaar**
     * [Exporteren naar Accon](how-to-export-to-accon.md) **Nu beschikbaar**
-    * [[Dagboeksjablonen verplicht maken]](specify-journal-template-mandatory.md) **Nu beschikbaar**
+    * [Dagboeksjablonen verplicht maken](specify-journal-template-mandatory.md) **Nu beschikbaar**
 
 * Algemeen
     * [Ondernemingnummers en filiaalnummers](enterprise-numbers-and-branch-numbers.md) **Nu beschikbaar**
@@ -66,15 +70,14 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Dagboeksjablonen verplicht maken](specify-journal-template-mandatory.md) **Nu beschikbaar**
     * [Uitstel in rapporten van het Verkoopdagboek en Inkoopdagboek](how-to-use-deferrals.md) **Nu beschikbaar**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Toekomstige wetgevingseisen worden onderzocht
+## Toekomstige wetgevingseisen worden onderzocht
 
-* Opnieuw ontworpen en bijgewerkte niet-aftrekbare btw **augustus - september 2023**
-* Ontvangst van e-facturen **onderzoeksfase**
+* Opnieuw ontworpen en bijgewerkte niet-aftrekbare btw **Gepland voor 23.5**
 
 Als u op de hoogte bent van nieuwe regelgeving, dient u een [Waarschuwing voor regelgeving voor functies](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u) in.
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Beschikbaarheid voor land/regio en ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

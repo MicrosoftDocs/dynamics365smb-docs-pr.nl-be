@@ -4,16 +4,15 @@ description: Leren hoe de extensie Essentiële zakelijke inzichten een reeks zak
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'BI, add-in, insight, headline, data'
 ms.search.form: '1439,'
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-essential-business-insights-extension"></a>De extensie Essentiële zakelijke inzichten
+# De extensie Essentiële zakelijke inzichten
 
 De extensie Essentiële zakelijke inzichten zoekt interessante bedrijfsfeiten in uw bedrijfsgegevens en geeft ze weer als krantenkoppen in rolcentra. Afhankelijk van wat de extensie in de gegevens vindt, worden de inzichten van de vorige week, maand, of drie maanden vanaf de huidige datum weergegeven. De inzichten worden om de 10 minuten bijgewerkt.  
 
@@ -32,7 +31,7 @@ De volgende tabel beschrijft de inzichten die deze extensie biedt voor elk rolce
 |Projectleider| Geeft een begroeting weer en een koppeling met productinformatie.|
 |Beheerder| Geeft een begroeting weer en een koppeling met productinformatie.|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)
 

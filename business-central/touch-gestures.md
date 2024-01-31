@@ -3,15 +3,14 @@ title: Aanraak- en penbewegingen
 description: Lees meer over aanraak- en penbewegingen waarmee u efficiënt kunt werken met uw gegevens op tablets en telefoons.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Aanraak- en penbewegingen voor tablets en telefoons
+# Aanraak- en penbewegingen voor tablets en telefoons 
 
 Dit artikel bevat enkele van de speciale gebaren die u kunt gebruiken wanneer u met [!INCLUDE[prod_short](includes/prod_short.md)] werkt op een tablet of telefoon.
 
@@ -30,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)  
 [Assisterende functies](ui-accessibility.md)  

@@ -3,19 +3,18 @@ title: Algemene voorraadgegevens instellen
 description: 'Beschrijft hoe u de algemene voorraadinstellingen definieert, zodat u uw magazijn en voorraad kunt beheren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-general-inventory-information"></a>Algemene voorraadgegevens instellen
+# Algemene voorraadgegevens instellen
 
 U geeft uw algemene voorraadinstellingen op de pagina **Voorraadinstelling** op.
 
-## <a name="to-set-up-general-inventory-information"></a>Algemene voorraadgegevens instellen
+## Algemene voorraadgegevens instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Voorraadinstelling** de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +30,7 @@ Als u een inslagtijd wilt instellen voor de berekening van de ordertoezegging op
 >
 > Als alternatief kunt u de kosten met regelmatige tussenpozen handmatig aanpassen met de batchverwerking Kostprijs herwaarderen - Artikelposten. U kunt het automatisch boeken van kosten ook uitschakelen of het veld **Automatische kostenaanpassing** instellen op *Nooit*. In beide gevallen wordt een melding weergegeven van waaruit u een begeleide instelling kunt starten om u te helpen bij het plannen van taken voor de taakwachtrij. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad instellen](inventory-setup-inventory.md)  
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  

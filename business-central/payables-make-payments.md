@@ -3,15 +3,14 @@ title: Overzicht van taken om betalingen aan leveranciers te beheren
 description: 'Schetst taken om betalingen aan leveranciers en schuldeisers te beheren, bijvoorbeeld het boeken van betalingsregels en het ophalen van een overzicht van het verschuldigde saldo.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="making-payments"></a>Betalingen uitvoeren
+# Betalingen uitvoeren
 
 Als u betalingen aan leveranciers of klanten doet of vergoedingen aan uw werknemers uitvoert, boekt u de gerelateerde betalingsregels op de pagina **Betalingsdagboek**. Het betalingsdagboek is een diversendagboek dat is geoptimaliseerd voor het doen van betalingen en bevat een aantal krachtige functies zoals de functie **Leveranciersbetalingen voorstellen**, die verschuldigde betalingen zoekt, en het rapport **Leverancier - Open posten** dat een overzicht bevat van verschuldigde leveranciersbetalingen.  
 
@@ -35,7 +34,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Een leverancier contant of per cheque betalen en de betaling boeken op het moment dat u de factuur boekt. |[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. |[Een Positive Pay-bestand exporteren](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  

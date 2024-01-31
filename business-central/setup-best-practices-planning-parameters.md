@@ -3,14 +3,13 @@ title: 'Aanbevolen procedures instellen: Planningparameters'
 description: In dit onderwerp worden aanbevolen procedures beschreven voor het instellen van geselecteerde planningsparametervelden met het sneltabblad Planning op de artikelkaart.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Aanbevolen procedures instellen: Planningparameters
+# Aanbevolen procedures instellen: Planningparameters
 
 Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsketen van een bedrijf. De juiste planningsparameters instellen is zeer belangrijk voor efficiënt voorraadbeheer en sterke klantenservice.  
 
@@ -34,7 +33,7 @@ Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsk
 >
 > Als bedrijven de vraag voor verschillende vestigingen plannen, dan is het ten zeerste aanbevolen om SKU's te definiëren voor elke locatie en om alle vraag te maken met een waarde in het veld **vestigingscode**. Zie voor meer informatie [Ontwerpdetails: Planning met of zonder vestigingen](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
 [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)  
 [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  

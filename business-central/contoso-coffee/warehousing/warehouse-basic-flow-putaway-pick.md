@@ -3,26 +3,25 @@ title: 'Ontvangen, opslaan, picken en verzenden in standaardmagazijnconfiguratie
 description: 'In Business Central kunnen de inkomende en uitgaande processen op verschillende manieren worden uitgevoerd, afhankelijk van het complexiteitsniveau van het magazijn.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a>Procedure van de inkomende en uitgaande stroom in standaardmagazijnconfiguraties
+# Procedure van de inkomende en uitgaande stroom in standaardmagazijnconfiguraties
 
 Deze procedure laat zien hoe inkomende en uitgaande stromen worden voltooid in de configuratie Basis: order voor order. Zie voor meer informatie [Overzicht van verschillende configuratieopties](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten  
 Om deze procedure te voltooien moet u een magazijnmedewerker maken op de vestiging *ZILVER* door deze stappen te volgen:  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent 1.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het veld **Gebruikers-ID** en selecteer uw eigen gebruikersaccount op de pagina **Gebruikers**.  
 3. Voer in het veld **Vestiging** *ZILVER* in.  
 
-## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Inkomende stroom: ontvangen en opslaan in standaardmagazijnconfiguraties
+## Inkomende stroom: ontvangen en opslaan in standaardmagazijnconfiguraties
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunnen de inkomende processen voor ontvangst en opslag op vier manieren worden uitgevoerd met verschillende functionaliteiten, afhankelijk van het complexiteitsniveau van het magazijn.  
 
@@ -37,10 +36,10 @@ Zie voor meer informatie [Ontwerpdetails: Inkomende magazijnstroom](../../design
 
 De volgende procedure geeft methode B in de vorige tabel weer.  
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 Alicia, de inkoopagent, maakt een inkooporder voor verschillende geroosterde bonen. Wanneer de levering in het magazijn aankomt, zet John, de magazijnmedewerker, de artikelen in geschikte opslaglocaties. Wanneer John de opslag boekt, worden de artikelen als ontvangen in de voorraad geboekt en beschikbaar voor verkoop of andere vraag.  
 
-### <a name="steps"></a>Stappen
+### Stappen
 1. Stel de pagina **Vestiging** in om de inkomende magazijnstromen van het bedrijf te definiëren.  
 
     1.  Kies het pictogram ![Lampje dat de functie Vertel me opent 2.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
@@ -96,7 +95,7 @@ Alicia, de inkoopagent, maakt een inkooporder voor verschillende geroosterde bon
 
     5.  Kies de actie **Boeken**, selecteer de actie **Ontvangen** en kies vervolgens de knop **OK**.  
 
-### <a name="results"></a>Resultaten
+### Resultaten 
  - De geroosterde bonen staan nu geregistreerd als opgeslagen in gespecificeerde opslaglocaties
  - de **Geboekte voorraadopslag** wordt gemaakt
  - de **geboekte inkoopontvangst** wordt gemaakt
@@ -104,7 +103,7 @@ Alicia, de inkoopagent, maakt een inkooporder voor verschillende geroosterde bon
  - de artikel**voorraad** wordt verhoogd met de gekozen hoeveelheid
     
 
-## <a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a>Uitgaande stroom: picken en verzenden in standaardmagazijnconfiguraties
+## Uitgaande stroom: picken en verzenden in standaardmagazijnconfiguraties
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.  
 
@@ -119,10 +118,10 @@ Zie voor meer informatie [Ontwerpdetails: Uitgaande magazijnstroom](../../design
 
 De volgende procedure geeft methode B in de vorige tabel weer.
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 Susan, de orderverwerker, maakt een verkooporder voor verschillende geroosterde bonen en geeft deze door aan het magazijn. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken op de pagina **Voorraadpick**, die automatisch verwijst naar de opslaglocaties waar geroosterde bonen zijn opgeslagen.
 
-### <a name="steps-1"></a>Stappen
+### Stappen
 Dit is een voortzetting van [Inkomende stroom: ontvangen en opslaan in standaardmagazijnconfiguraties](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Stel de pagina **Vestiging** in om de inkomende magazijnstromen van het bedrijf te definiëren.  
@@ -159,7 +158,7 @@ Dit is een voortzetting van [Inkomende stroom: ontvangen en opslaan in standaard
 
 5. Kies de actie **Boeken**, selecteer **Verzenden** en kies de knop **OK**.  
 
-### <a name="results-1"></a>Resultaten
+### Resultaten
  - de geroosterde bonen staan nu geregistreerd als gepickt uit gespecificeerde opslaglocaties
  - de **Geboekte voorraadpick** wordt gemaakt
  - de **geboekte verkoopverzending** wordt gemaakt
@@ -167,7 +166,7 @@ Dit is een voortzetting van [Inkomende stroom: ontvangen en opslaan in standaard
  - de artikel**voorraad** wordt verlaagd met de gekozen hoeveelheid
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Artikelen opslaan met voorraadopslag](../../warehouse-how-to-put-items-away-with-inventory-put-aways.md) 
 [Standaardmagazijnen met bewerkingsgebieden instellen](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md) 
 [Ontwerpdetails: Inkomende magazijnstroom](../../design-details-inbound-warehouse-flow.md) 

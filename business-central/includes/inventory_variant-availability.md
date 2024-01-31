@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Als u de pagina **Artikelbeschikbaarheid per variant** vanuit een documentregel opent, kunt u vervolgens een variant op de documentregel invoegen door de regel te selecteren met de variant die u wilt invoegen en vervolgens de knop OK te kiezen. Als u de pagina alleen hebt gebruikt om de beschikbaarheid te bekijken en geen variant wilt invoegen, moet u de pagina sluiten zonder de knop OK te kiezen.
 

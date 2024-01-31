@@ -3,15 +3,14 @@ title: Vaste activa instellen
 description: 'Leren over de reeks taken die u moet uitvoeren om vaste activa in te stellen, zoals machines of gebouwen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-fixed-assets"></a>Vaste activa instellen
+# Vaste activa instellen
 
 Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:  
 
@@ -36,7 +35,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Meer informatie over andere afschrijvingsmethoden voor vaste activa. |[Afschrijvingsmethoden](fa-depreciation-methods.md) |
 | Meer informatie over het toepassen van door de gebruiker gedefinieerde afschrijvingsmethoden. |[Door de gebruiker gedefinieerde afschrijvingsmethoden instellen:](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  
