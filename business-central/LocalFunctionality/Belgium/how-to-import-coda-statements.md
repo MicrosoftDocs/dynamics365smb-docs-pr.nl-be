@@ -3,9 +3,7 @@ title: 'CODA-afschriften importeren [BE]'
 description: 'Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in Business Central met CODA-bestand importeren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: bholtorf

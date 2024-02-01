@@ -3,9 +3,7 @@ title: Vaste activa afschrijven of aflossen
 description: 'U moet bepalen hoe u elk van uw vaste activa, zoals machines en uitrusting, afschrijft of aflost over hun afschrijfbare levensduur.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: write down
 ms.search.form: '5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666'
 ms.date: 06/15/2021

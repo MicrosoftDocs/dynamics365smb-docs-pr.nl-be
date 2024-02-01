@@ -3,9 +3,7 @@ title: Standaard terugkerende inkoopregels
 description: Stel veelgebruikte inkoopregels in om in te voegen in inkoopdocumenten en snel de regels in te vullen met standaardgegevens.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
 ms.date: 07/06/2022

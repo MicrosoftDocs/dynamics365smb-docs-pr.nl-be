@@ -5,8 +5,9 @@ metadata:
   author: brentholtorf
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 07/14/2023
+  ms.date: 12/19/2023
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Veelgestelde vragen over het gebruik van Business Central
 summary: |
   Deze sectie bevat antwoorden op veelgestelde vragen over de aanmelding bij een proefversie, het aanschaffen van een abonnement en het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)]. U leest ook hoe u technische ondersteuning krijgt.  
@@ -22,7 +23,7 @@ sections:
         answer: |
           U kunt zich aanmelden voor een gratis proefversie om [!INCLUDE[prod_short](includes/prod_short.md)] uit te proberen. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Als u meer tijd wilt om rond te kijken, kunt u [uw proeftijd verlengen](#can-i-extend-my-30-day--new-company--trial-period-).  
 
-          Start voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten in [!INCLUDE[prod_short](includes/prod_short.md)] begeleide instellingen, video's of Help-onderwerpen voor geselecteerde instellingstaken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+          Start voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten in [!INCLUDE[prod_short](includes/prod_short.md)] begeleide instellingen, video's of Help-artikelen voor geselecteerde instellingstaken. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 
           Wanneer u gereed bent om [!INCLUDE[prod_short](includes/prod_short.md)] aan te schaffen, vindt u een [!INCLUDE[prod_short](includes/prod_short.md)]-partner op de pagina [Ik zoek een oplossingsprovider](https://go.microsoft.com/fwlink/?linkid=2038145). Zie voor meer informatie [Hoe vind ik een partner-reseller?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -44,7 +45,7 @@ sections:
       - question: |
           Zijn er verschillen tussen een on-premises implementatie en Business Central online?
         answer: |
-          Ja. [!INCLUDE [prod_short](includes/prod_short.md)] is geoptimaliseerd voor online implementatie en sommige mogelijkheden kunnen alleen onder bepaalde omstandigheden op locatie worden uitgevoerd, terwijl andere helemaal niet worden ondersteund. Zie voor meer informatie [Functies die niet zijn geïmplementeerd in on-premises implementaties van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (alleen beschikbaar in het Engels).
+          Ja. [!INCLUDE [prod_short](includes/prod_short.md)] is geoptimaliseerd voor online implementatie en sommige mogelijkheden kunnen mogelijk alleen onder bepaalde omstandigheden op locatie worden uitgevoerd, terwijl andere helemaal niet worden ondersteund. Zie voor meer informatie [Functies die niet zijn geïmplementeerd in on-premises implementaties van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (alleen beschikbaar in het Engels).
       - question: |
           Kan ik training krijgen in Business Central?
         answer: |
@@ -69,7 +70,7 @@ sections:
       - question: |
           Waarom beschrijft de Help functionaliteit waartoe ik geen toegang heb?
         answer: |
-          Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).  
+          Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-artikelen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).  
       - question: |
           Waarom is nieuwe informatie niet beschikbaar in mijn taal?
         answer: |
@@ -143,7 +144,7 @@ additionalContent: |
 
   [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
   [Veelgestelde vragen over Vertel me](ui-search-faq.md)  
-  [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.yml)  
+  [Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.yml)  
   [Veelgestelde vragen over lijstweergaven](ui-views-faq.yml)  
   [Taal en landinstellingen wijzigen](about-locale-language.md)  
   [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)  

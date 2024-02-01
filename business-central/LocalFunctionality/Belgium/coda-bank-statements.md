@@ -3,9 +3,7 @@ title: 'Belgische CODA-bankafschriften [BE]'
 description: 'CODA (geCOdeerd DAgafschrift) is een nationale bankstandaard, ontworpen door de Belgische Vereniging van Banken, om elektronische bankafschriften automatisch te verwerken.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '2000040, 2000041, 2000042, 2000043, 2000045'
 ms.date: 02/08/2022

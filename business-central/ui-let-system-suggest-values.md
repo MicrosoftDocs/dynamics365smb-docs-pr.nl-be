@@ -3,9 +3,7 @@ title: Business Central waarden laten voorstellen
 description: 'Als u handmatige berekeningen wilt voorkomen en taken snel en accuraat wilt voltooien, kunt u automatische gegevensinvoer instellen, zodat Business Central geselecteerde velden invult.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '39, 251, 981'
 ms.date: 04/01/2021
 ms.author: bholtorf

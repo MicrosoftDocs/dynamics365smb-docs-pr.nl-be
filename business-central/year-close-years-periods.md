@@ -3,9 +3,7 @@ title: Boekjaren en boekingsperioden afsluiten
 description: 'Schetst de taken om een boekjaar of boekhoudperiode te sluiten, bijvoorbeeld, ervoor zorgen dat documenten en dagboeken worden geboekt en banksaldi verifiëren.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 08/18/2022

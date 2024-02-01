@@ -3,9 +3,7 @@ title: Verzekering van vaste activa instellen
 description: U stelt een verzekeringskaart en algemene verzekeringsbeleidsgegevens in om verzekeringsdekking voor vaste activa te beheren.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'policy, coverage'
 ms.search.form: '5607, 5648, 5644, 5651'
 ms.date: 04/01/2021

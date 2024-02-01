@@ -3,9 +3,7 @@ title: De lay-out opgeven van een cheque
 description: 'U kunt uw cheques ontwerpen en afdrukken in verschillende indelingen, om te voldoen aan standaards van uw lokale autoriteiten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'print check, customize'
 ms.search.form: '374, 404'
 ms.date: 06/16/2021

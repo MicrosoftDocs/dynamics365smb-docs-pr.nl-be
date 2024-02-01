@@ -3,9 +3,7 @@ title: Business Central aanpassen
 description: 'Lees over de verschillende manieren om Business Central aan te passen om de toegang tot functionaliteit en functies te verbeteren die u het meest nodig heeft, passend bij uw dagelijkse werk.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'personalize, add-in, extend, customize'
 ms.search.form: '2500, 2502'
 ms.date: 06/23/2021

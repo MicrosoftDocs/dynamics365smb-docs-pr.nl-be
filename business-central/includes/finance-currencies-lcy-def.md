@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij kunnen handelen en de financiële gegevens kunnen controleren en rapporteren in meer dan één valuta. De lokale valuta (LV) wordt gedefinieerd op de pagina **Grootboekinstellingen** zoals beschreven in het artikel [Het grootboek en het rekeningschema begrijpen](../finance-general-ledger.md). Zodra de lokale valuta (LV) is gedefinieerd, wordt deze weergegeven als een blanco valuta, dus wanneer het veld **Valuta** leeg is, betekent dit dat de valuta LV is.  
 

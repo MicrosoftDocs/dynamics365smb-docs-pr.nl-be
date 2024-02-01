@@ -3,9 +3,7 @@ title: Voorraadkosten reconciliëren met het grootboek
 description: Aan het einde van boekhoudperioden moet een reeks kostenbeheersings- en controletaken worden uitgevoerd om een correcte en evenwichtige voorraadwaarde te rapporteren.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: 9297
 ms.date: 06/16/2021

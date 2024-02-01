@@ -3,9 +3,7 @@ title: Problemen met dimensies oplossen en dimensies corrigeren
 description: Leer hoe u typische dimensiefouten oplost en hoe u dimensies corrigeert nadat ze zijn gebruikt voor geboekte transacties.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'dimension, correction, correct, business intelligence'
 ms.search.form: '116, 540, 2588'
 ms.date: 09/27/2021

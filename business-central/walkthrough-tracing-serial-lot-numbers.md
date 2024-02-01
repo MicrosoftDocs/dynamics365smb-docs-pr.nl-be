@@ -3,9 +3,7 @@ title: 'Procedure: Serie-/lotnummers traceren'
 description: 'Dit onderwerp beschrijft de acties die moeten worden ondernomen om te voorkomen dat een defect artikel wordt verkocht, en ook hoe artikelen te traceren en terug te roepen wanneer dat nodig is.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf

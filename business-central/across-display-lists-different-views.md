@@ -3,9 +3,7 @@ title: De hoeveelheid details aanpassen die u ziet in overzichten
 description: 'U kunt lijsten weergeven als gedetailleerde rijen die de meeste informatie bieden, of als tegels die gemakkelijk visueel te scannen zijn en miniaturen van afbeeldingen kunnen bevatten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021

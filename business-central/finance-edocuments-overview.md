@@ -3,23 +3,22 @@ title: Overzicht van e-documenten
 description: Dit artikel geeft een overzicht van de module E-documenten.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: null
-ms.date: 10/10/2023
+ms.date: 01/16/2024
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="e-documents-overview"></a>Overzicht van e-documenten
+# Overzicht van e-documenten
 
 Elektronische documenten (e-documenten) vormen de ruggengraat van moderne zakelijke transacties. Ze omvatten essentiële documenten, zoals facturen en ontvangstbewijzen in beide richtingen (levering en ontvangst). Ze voegen ook mogelijkheden toe voor documentstatusgerelateerde berichten tussen toegangspunten.
 
 Onze toewijding aan het verbeteren van uw bedrijfsprocessen heeft geleid tot de ontwikkeling van een baanbrekende app speciaal voor e-documenten in Microsoft Dynamics 365 Business Central. Deze app dient als een robuust platform voor efficiënt e-documentbeheer.
 
 > [!NOTE]
-> Om deze mogelijkheden te gebruiken installeert u de app E-documentkern in uw omgeving.
+> Om deze mogelijkheden te gebruiken installeert u de app E-documentkern in uw omgeving.  
 
 De app E-documentkern kan worden gebruikt in landen/regio's waar bedrijven gespecialiseerde verwerking van e-documenten nodig hebben om te voldoen aan lokale regelgeving. De app biedt een solide basis die eenvoudig kan worden uitgebreid om aan specifieke lokale of branchevereisten te voldoen.
 
@@ -30,9 +29,10 @@ In de documentatie worden e-documenten gedetailleerd uitgelegd. Het toont de mog
 | [E-documenten instellen](finance-how-setup-edocuments.md) | Leer hoe u de functionaliteit van e-documenten instelt, inclusief services, werkstromen, verzendprofielen en bewaarbeleid. |
 | [E-documenten gebruiken bij verkoop en inkoop](finance-how-use-edocuments.md) | Leer hoe u de functionaliteit van e-documenten kunt gebruiken die verband houdt met verkoop- en inkoopfacturen, hun statussen, logboeken en actieberichten.| 
 | [Functionaliteit van e-documenten uitbreiden](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Leer hoe u de functionaliteit van e-documenten kunt uitbreiden met specifieke lokale of branchevereisten door er extra apps bovenop te maken. |
+| [De connector voor e-documenten instellen met externe eindpunten](finance-how-setup-edocuments-external.md) | Leer hoe u externe toegangspunten kunt gebruiken voor automatisering bij het bezorgen en ontvangen van uw e-documenten. |
 | [Gegevens elektronisch uitwisselen](across-data-exchange.md) | Leer hoe u het raamwerk voor gegevensuitwisseling gebruikt voor het beheren van de uitwisseling van gegevens in bedrijfsdocumenten, zoals bankbestanden en valutawisselkoersen. | 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financieel beheer](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

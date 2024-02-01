@@ -3,9 +3,7 @@ title: Business Central gebruiken zonder Outlook
 description: 'Als u Outlook niet hebt, kunt u Business Central niet gebruiken als uw bedrijfsinbox in Outlook, maar u kunt in een browser werken of op uw mobiele apparaat.'
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 12/11/2023
 ms.author: bholtorf

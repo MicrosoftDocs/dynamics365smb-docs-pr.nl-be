@@ -3,9 +3,7 @@ title: Servicenaleving en serviceovereenkomst
 description: Vanuit een serviceperspectief voldoet Business Central aan de strenge eisen en SLA-compliance in verschillende ISO- en branchespecifieke certificeringen.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
 ms.date: 06/14/2021

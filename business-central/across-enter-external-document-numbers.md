@@ -3,9 +3,7 @@ title: Externe documentnummers invoeren
 description: 'U kunt externe documentnummers voor klanten en leveranciers invoeren in alle verkoop- en inkooporders, facturen en creditnota''s. U kunt deze nummers gebruiken om later geboekte verkoop- en inkoopregels te zoeken.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 05/28/2021
 ms.author: bholtorf

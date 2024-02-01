@@ -8,9 +8,10 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: 1752
 ms.date: 06/14/2021
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="classifying-data-sensitivity-fields"></a>Gegevensvertrouwelijkheidsvelden classificeren
+# Gegevensvertrouwelijkheidsvelden classificeren
 
 Om velden te classificeren die vertrouwelijke of persoonlijke gegevens bevatten, kan een Microsoft-partner de eigenschap ```DataClassification``` van velden instellen. Dit vereist toegang tot de databasetabellen, met de ontwikkelingsomgeving of door een Windows PowerShell-script uit te voeren. Zie voor meer informatie [Gegevens classificeren](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
@@ -28,7 +29,7 @@ De volgende tabel beschrijft gegevensgevoeligheidsniveaus die u kunt toewijzen.
 |Vertrouwelijk | Bedrijfsgegevens die u voor de boekhouding of andere bedrijfsdoeleinden gebruikt en die u niet aan andere entiteiten wilt blootstellen. Dit kan bijvoorbeeld posten omvatten.|
 |Normaal | Algemene gegevens die niet in andere categorieën horen.|
 
-## <a name="how-do-i-classify-my-data"></a>Hoe classificeer ik mijn gegevens?
+## Hoe classificeer ik mijn gegevens?
 
 De vertrouwelijkheid van een groot aantal velden één voor één classificeren zou lang duren. Om het proces te versnellen bieden we hulpmiddelen die u kunt gebruiken om de vertrouwelijkheid van velden bulksgewijs te classificeren. Daarna verfijnt u de classificaties voor specifieke velden. U kunt hulpmiddelen vinden in het werkblad Gegevensclassificatie, dat beschikbaar is in het rolcentrum Beheer van gebruikers, gebruikersgroepen en machtigingen. U moet een systeembeheerder zijn om het werkblad te gebruiken.
  
@@ -44,7 +45,7 @@ Met het werkblad Gegevensclassificatie kunt u bijvoorbeeld het volgende doen:
 > [!Tip]  
 > Wij hebben voorbeelden van vertrouwelijkheidsclassificaties gedefinieerd voor de tabellen en velden in het demonstratiebedrijf Cronus. U kunt deze indelingen als inspiratie gebruiken wanneer u uw eigen tabellen en velden classificeert.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 <!-- [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data) -->
 [!INCLUDE[footer-include](includes/footer-banner.md)]

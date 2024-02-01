@@ -3,9 +3,7 @@ title: De status van synchronisatietaken weergeven (bevat video)
 description: Gebruik de pagina Synchronisatiefouten met gekoppelde gegevens om de status weer te geven van synchronisatietaken die zijn uitgevoerd voor gekoppelde records in integraties.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.search.form: 6250
 ms.date: 06/14/2021

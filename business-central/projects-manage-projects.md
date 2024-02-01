@@ -3,7 +3,6 @@ title: Projectbeheer
 description: 'In dit onderwerp wordt beschreven hoe u resources, urenstaten en taken gebruikt om projecten en hun budgetten te beheren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: projects
 ms.search.form: '89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015'
 ms.date: 06/22/2021

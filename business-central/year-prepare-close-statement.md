@@ -3,14 +3,13 @@ title: Overzicht van rapporten om ultimoafschriften te helpen voorbereiden | Mic
 description: Levert een overzicht van de lijsten die u kunt gebruiken om gegevens te verzamelen om de ultimoafschriften van uw bedrijf voor te bereiden wanneer het financiële jaar wordt gesloten.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="preparing-closing-statements"></a>Afsluitingsoverzichten voorbereiden
+# Afsluitingsoverzichten voorbereiden
 Er staat een aantal standaardrapporten tot uw beschikking voor het verzamelen van de informatie die u nodig hebt voor het voorbereiden van de afsluitingsoverzichten van uw bedrijf.
 
 In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die nuttig kunnen zijn in dit proces.  
@@ -27,7 +26,7 @@ In de volgende tabel wordt een beschrijving gegeven van een aantal rapporten die
 
 Als u een rapport wilt zien, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Bedrijfsinformatie](bi.md)

@@ -4,12 +4,11 @@ metadata:
   description: Bekijk antwoorden op veelgestelde vragen over het gebruik van de Business Central-invoegtoepassing voor Outlook.
   author: jswymer
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.devlang: al
   ms.search.keywords: 'phone, tablet'
   ms.date: 04/27/2022
   ms.author: jswymer
+  ms.service: dynamics-365-business-central
 title: Veelgestelde vragen over de Business Central-invoegtoepassing voor Outlook
 summary: |
   Dit artikel beantwoordt vragen die gebruikers vaak stellen over de Business Central-invoegtoepassing voor Outlook.   

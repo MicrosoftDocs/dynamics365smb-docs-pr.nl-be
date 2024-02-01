@@ -3,9 +3,7 @@ title: Saldi consolideren voor een bedrijf dat een klant en een leverancier is
 description: Hierin wordt beschreven hoe u saldi kunt consolideren voor een klant die tevens leverancier is.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment process, cash receipt'
 ms.search.form: '5052, 21, 5050'
 ms.date: 10/11/2023

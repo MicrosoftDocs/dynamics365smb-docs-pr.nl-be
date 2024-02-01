@@ -9,8 +9,9 @@ ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
+ms.service: dynamics-365-business-central
 ---
-# <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Op-order-assembleren-artikelen en voorraadartikelen samen verkopen
+# Op-order-assembleren-artikelen en voorraadartikelen samen verkopen
 
 Als het veld **Assemblagebeleid** op de artikelkaart van een component **Op voorraad assembleren** bevat, neemt het standaardproces voor de verkooporder aan dat het artikel al is geassembleerd en uit voorraad kan worden gepickt, als het beschikbaar is. Daarom wordt er geen assemblageorder automatisch gemaakt en gekoppeld aan de verkooporderregel. Als de hoeveelheid echter deels of helemaal niet beschikbaar is, kunt u een assemblageorder maken voor de resterende hoeveelheid. Vul hiervoor het veld **Op order te assembleren aantal** op de verkooporderregel in. Met deze instelling kunt u het artikel op order assembleren, ook al is het standaard ingesteld om op voorraad te worden geassembleerd.  
 
@@ -22,7 +23,7 @@ U hebt vergelijkbare flexibiliteit wanneer u op-order-assembleren artikelen verk
 > [!NOTE]  
 > De volgende procedure bevat niet de verkooporderstappen die u moet volgen voordat u een assemblageorder kunt maken voor hoeveelheden die niet beschikbaar zijn.
 
-## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Op-order-assembleren-artikelen en voorraadartikelen samen verkopen
+## Op-order-assembleren-artikelen en voorraadartikelen samen verkopen
 
 1. Op een verkooporderregel voor assembleren-op-voorraad een artikel voert u in het veld **Aantal** een aantal in dat groter is dan de voorraad. De pagina **Beschikbaarheid controleren** verschijnt. Ga voor meer informatie over de beschikbaarheid van artikelen naar [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md).
 2. Voer in het veld **Op order te assembleren aantal** de waarde uit het veld **Totaal aantal** in.  
@@ -32,7 +33,7 @@ U hebt vergelijkbare flexibiliteit wanneer u op-order-assembleren artikelen verk
 > [!CAUTION]  
 > Het veld **Opslaglocatie** in de verkooporder kan de waarde bevatten uit het veld **Opslaglocatiecode assembleren-op-order verzending** of **Opslagloc.code Vanuit-assembl.** op de locatiekaart. In dat geval is het veld **Opslaglocatie** op de verkooporderregel mogelijk onjuist voor deze combinatie van hoeveelheden van assembleren-naar-order en assembleren-naar-voorraad. Het is verstandig om het veld **Opslaglocatie** te bekijken en te controleren of de opslaglocatie voor alle hoeveelheden werkt. U kunt ook twee verschillende hoeveelheden invoeren op aparte verkooporderregels.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)  

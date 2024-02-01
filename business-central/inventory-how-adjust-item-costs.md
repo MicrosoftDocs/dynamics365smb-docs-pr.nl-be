@@ -3,9 +3,7 @@ title: Artikelkosten handmatig herwaarderen
 description: U kunt de voorraadwaardering van een artikel handmatig aanpassen met behulp van de FIFO- of Gemiddelde-waarderingsmethoden wanneer de kosten van producten veranderen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'cost adjustment, cost forwarding, costing method, inventory valuation, costing'
 ms.date: 06/16/2021
 ms.author: bholtorf

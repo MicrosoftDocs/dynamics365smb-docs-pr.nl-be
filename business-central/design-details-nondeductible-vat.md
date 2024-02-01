@@ -3,9 +3,7 @@ title: Ontwerpdetails - Niet-aftrekbare btw
 description: 'Dit artikel bevat informatie over niet-aftrekbare btw die een koper moet betalen, maar die niet aftrekbaar is van de eigen btw-aansprakelijkheid van de koper.'
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 07/04/2023
 ms.author: altotovi

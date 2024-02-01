@@ -3,9 +3,7 @@ title: 'Niet-aftrekbare btw instellen [BE]'
 description: U kunt de btw-bedragen voor bepaalde soorten onkosten berekenen die gedeeltelijk als btw kunnen worden aangegeven.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: bholtorf

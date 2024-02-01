@@ -3,9 +3,7 @@ title: Business Central op uw desktop krijgen
 description: In dit artikel wordt beschreven hoe u de Business Central-app op een Windows- of MACiOS-desktop kunt krijgen.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'phone, tablet'
 ms.date: 01/11/2022
 ms.author: jswymer

@@ -3,9 +3,7 @@ title: Werken met inkomende documenten
 description: 'U kunt inkomende externe bedrijfsdocumenten, zoals betalingsontvangsten of PDF''s beheren, OCR-taken beheren en elektronische bestanden naar documenten en records omzetten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: bholtorf

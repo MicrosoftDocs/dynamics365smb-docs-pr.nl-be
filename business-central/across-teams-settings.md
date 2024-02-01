@@ -3,9 +3,7 @@ title: Bedrijf en andere instellingen in Teams wijzigen
 description: Lees meer over het wijzigen van de verbindingsinstellingen van Business Central vanuit Microsoft Teams.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer

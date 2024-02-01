@@ -3,9 +3,7 @@ title: Een bladwijzer van een pagina of rapport maken in uw rolcentrum
 description: Met het bladwijzerpictogram kunt u een actie toevoegen waarmee een pagina of rapport wordt geopend vanuit het navigatiemenu van uw rolcentrum.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 06/23/2021

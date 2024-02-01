@@ -3,9 +3,7 @@ title: Elektronische documenten ontvangen en converteren
 description: Dit onderwerp beschrijft hoe u elektronische documenten rechtstreeks van handelspartners of via een OCR-service ontvangt.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021

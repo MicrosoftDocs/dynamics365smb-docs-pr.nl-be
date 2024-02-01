@@ -3,9 +3,7 @@ title: Overzicht van taken om debiteuren te beheren
 description: Dit onderwerp beschrijft taken om tegoeden te beheren en betalingen te vereffenen met klanten- of leveranciersposten.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/23/2021
 ms.author: bholtorf

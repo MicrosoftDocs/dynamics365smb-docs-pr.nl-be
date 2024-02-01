@@ -9,9 +9,10 @@ ms.date: 03/08/2023
 ms.custom: bap-template
 ms.search.keywords: non-inventoriable
 ms.search.forms: '5725, 5726, 5732'
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="work-with-catalog-items"></a>Werken met catalogusartikelen
+# Werken met catalogusartikelen
 
 Catalogusartikelen zijn artikelen die u niet beheert in [!INCLUDE[prod_short](includes/prod_short.md)] totdat u ze verkoopt. Wanneer u de actie **Catalogusartikelen selecteren** gebruikt om een catalogusartikel toe te voegen aan een regel op een verkooporder, offerte of verkoopraamcontract, wordt het catalogusartikel geconverteerd naar een regulier artikel.
 
@@ -23,20 +24,20 @@ Een catalogusartikel heeft doorgaans het artikelnummer van de leverancier die he
 > [!IMPORTANT]
 > Catalogusartikelen moeten niet worden verward met niet-voorraadartikelen. Dat zijn normale artikelen die het type **Niet-voorraad krijgen** om ze uit beschikbaarheid en kostprijsberekeningen te houden, bijvoorbeeld omdat ze alleen intern worden gebruikt en lage kosten hebben. Ga voor meer informatie over niet-voorraadartikelen naar [Over artikeltypen](inventory-about-item-types.md).
 
-## <a name="create-a-catalog-item"></a>Een catalogusartikel maken
+## Een catalogusartikel maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Catalogusartikelen** in en kies vervolgens de gerelateerde koppeling
 2. Kies de actie **Nieuw**.
 3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="specify-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Opgeven hoe catalogusartikelnummers naar uw eigen nummering worden geconverteerd
+## Opgeven hoe catalogusartikelnummers naar uw eigen nummering worden geconverteerd
 
 Voordat u een catalogusartikel kunt converteren naar een regulier artikel, moet u opgeven hoe artikelnummers van leveranciers moeten worden geconverteerd naar de structuur die u voor artikelnummers gebruikt.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van catalogusartikel** in en kies vervolgens de gerelateerde koppeling
 2. Kies de gewenste optie in het veld **Nr.-formaat**.
 
-## <a name="convert-a-catalog-item-to-a-normal-item"></a>Een catalogusartikel converteren naar een normaal artikel
+## Een catalogusartikel converteren naar een normaal artikel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Catalogusartikelen** in en kies vervolgens de gerelateerde koppeling
 2. Open de kaart voor een catalogusartikel dat u wilt converteren naar een normaal artikel.
@@ -44,7 +45,7 @@ Voordat u een catalogusartikel kunt converteren naar een regulier artikel, moet 
 
 Er worden een nieuwe artikelkaart, die vooraf is ingevuld met gegevens van het catalogusartikel, en een relevante artikelsjabloon gemaakt. U kunt indien nodig de informatie over het nieuwe artikel bewerken. Ga voor meer informatie over het maken van artikelen naar [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
-## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Een catalogusartikel verkopen en converteren naar een normaal artikel
+## Een catalogusartikel verkopen en converteren naar een normaal artikel
 
 In het volgende proces wordt een verkooporder gebruikt, maar de stappen zijn hetzelfde voor verkoopraamcontracten en offertes.
 
@@ -58,7 +59,7 @@ In het volgende proces wordt een verkooporder gebruikt, maar de stappen zijn het
 > [!NOTE]  
 > Er wordt automatisch een artikelverwijzing gemaakt tussen het artikelnummer van de leverancier en uw nieuwe artikelnummer. Ga voor meer informatie over artikelreferenties naar [Artikelreferenties gebruiken](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Speciale orders maken](sales-how-to-create-special-orders.md)  

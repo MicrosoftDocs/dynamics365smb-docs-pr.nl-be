@@ -3,9 +3,7 @@ title: Overzicht van taken om verkoop te beheren
 description: 'Lees alles over hoe u de services van Business Central kunt gebruiken voor het beheren van verkoopactiviteiten met uw klanten met verkoopfacturen, bestellingen, offertes en meer.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022

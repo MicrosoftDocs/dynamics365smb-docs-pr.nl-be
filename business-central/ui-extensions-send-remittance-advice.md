@@ -3,9 +3,7 @@ title: Extensie Afdrachtsadvies verzenden | Microsoft Docs
 description: 'Beschrijft de extensie Afdrachtsadvies verzenden, waarmee afdrachtsadviezen kunnen worden ge-e-maild en opnieuw worden verzonden vanuit de betalingsdagboek- en leveranciersposten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize, stream, remittance, advice'
 ms.date: 07/06/2021
 ms.author: bholtorf

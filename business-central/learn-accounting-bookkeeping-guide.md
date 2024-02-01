@@ -3,9 +3,7 @@ title: Boekhouding
 description: Dit artikel bevat informatie die u zal helpen Microsoft Dynamics 365 Business Central te gebruiken om de boekhouding voor uw bedrijf correct uit te voeren.
 author: altotovi
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, bookkeeping'
 ms.search.form: '16, 39, 108'
 ms.date: 03/14/2023

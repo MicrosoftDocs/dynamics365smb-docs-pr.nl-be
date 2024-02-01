@@ -6,8 +6,9 @@ ms.topic: conceptual
 ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Voorraadwaardering en kostprijsberekening instellen
+# Voorraadwaardering en kostprijsberekening instellen
 
 Als u ervoor wilt zorgen dat voorraadkosten correct worden vastgelegd, moet u verschillende velden en pagina's instellen voordat u artikeltransacties gaat maken. Bedrijven kiezen doorgaans een specifieke kostprijsmethode en passen die bijvoorbeeld toe op voorraadartikelen om hen te helpen de waarde van artikelen op voorraad bij te houden.  
 
@@ -30,7 +31,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 |Zorg dat inkoopretouren worden vereffend met de oorspronkelijke inkomende transactie om voorraadwaarde te behouden.|Het veld **Precieze kostenvereff. verplicht** op de pagina **Inkopen en Leveranciers**|
 |De afrondingsregels in te stellen die van toepassing zijn bij het aanpassen of suggereren van artikelprijzen en bij het aanpassen of suggereren van vaste verrekenprijzen.|De pagina **Afrondingsmethode**|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Algemene voorraadgegevens instellen](inventory-how-setup-general.md)  

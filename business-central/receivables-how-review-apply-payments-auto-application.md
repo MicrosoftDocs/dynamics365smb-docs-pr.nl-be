@@ -3,9 +3,7 @@ title: Betalingen na automatische vereffening handmatig controleren en vereffene
 description: 'Nadat betalingen automatisch zijn toegepast, kunt u alle posten voor een betaling controleren en handmatig de posten die verkeerd zijn vereffend, opnieuw vereffenen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment process, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021

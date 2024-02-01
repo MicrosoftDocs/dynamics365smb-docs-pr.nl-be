@@ -3,9 +3,7 @@ title: Opmerkingen toevoegen aan kaarten en documenten
 description: 'Voeg extra informatie toe aan rekeningen, klantenkaarten of verkooporders om overeenkomsten, zoals een speciale prijs of leveringsmethode, te doen toekomen aan andere gebruikers.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tasks, work'
 ms.search.form: '124, 30'
 ms.date: 04/01/2021

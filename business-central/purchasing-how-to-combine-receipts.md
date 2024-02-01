@@ -3,9 +3,7 @@ title: Ontvangsten combineren op één factuur
 description: 'Als u meer dan één inkoopontvangst tegelijk wilt factureren, kunt u de functie Ontvangsten combineren gebruiken.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '136, 145, 146, 9308'
 ms.date: 08/03/2022

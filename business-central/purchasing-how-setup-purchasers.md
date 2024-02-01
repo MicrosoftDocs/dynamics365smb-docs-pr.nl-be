@@ -3,9 +3,7 @@ title: Inkopers instellen en toewijzen aan leveranciers (bevat video)
 description: 'Als meerdere inkopers of inkoopagents bij uw bedrijf werken, kunt u deze voor statistische analyses organiseren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: purchasing agent
 ms.search.form: '14, 5116'
 ms.date: 04/01/2021

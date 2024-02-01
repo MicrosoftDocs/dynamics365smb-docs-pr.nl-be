@@ -3,9 +3,7 @@ title: Codes instellen voor audittrails
 description: Lees meer over de taken om broncodes en redencodes in te stellen die u kunt gebruiken om audittrails bij te houden.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.search.form: '257, 259, 279'
 ms.date: 04/01/2021

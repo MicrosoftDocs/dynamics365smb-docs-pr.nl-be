@@ -3,9 +3,7 @@ title: Documenten en dagboeken boeken
 description: Dit onderwerp beschrijft boekingsacties en de manieren waarop u documenten en dagboeken in de verschillende bedrijfsgrootboeken kunt boeken.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 06/24/2021
 ms.search.form: null
 ms.author: bholtorf

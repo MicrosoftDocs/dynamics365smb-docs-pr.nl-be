@@ -3,18 +3,17 @@ title: Boekingsdatum in waardeposten
 description: Leren hoe de batchverwerking Kostprijs herwaarderen - Artikelposten een boekingsdatum bepaalt en toewijst aan de waardeposten die de batchverwerking gaat maken.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-posting-date-on-adjustment-value-entry"></a>Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost
+# Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost
 
 Dit artikel biedt richtlijnen voor gebruikers van de functionaliteit Voorraadwaardering in [!INCLUDE[prod_short](includes/prod_short.md)] en in het bijzonder voor hoe de batchverwerking **Kostprijs herwaarderen - Artikelposten** een boekingsdatum identificeert en toewijst aan de waardeposten die de batchtaak gaat maken.
 
-## <a name="how-posting-dates-are-assigned"></a>Hoe boekingsdatums worden toegewezen
+## Hoe boekingsdatums worden toegewezen
 
 De batchverwerking **Kostprijs herwaarderen - Artikelposten** wijst een boekingsdatum toe aan de waardepost die gaat worden gemaakt in de volgende stappen:  
 
@@ -26,7 +25,7 @@ De batchverwerking **Kostprijs herwaarderen - Artikelposten** wijst een boekings
 
 Laten we dit proces eens in de praktijk bekijken. Stel dat we een artikelpost Verkoop hebben. Het artikel is verzonden op 5 september 2020 en de dag erna gefactureerd.  
 
-#### <a name="item-ledger-entry"></a>Artikelpost
+#### Artikelpost
 
 |Volgnummer  |Artikelnr.  |Boekingsdatum  |Boekingssoort  | Documentnr. |Vestiging  |Aantal  |Tot. werk. kosten  |Geboekt aantal  |Resterend aantal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -52,7 +51,7 @@ Om de boekingsdatum toe te wijzen voor **Postnr. 391** zijn de volgende stappen 
 
 Laten we de hierboven genoemde Verkoop bekijken door instelling van toegestane boekingsdatumbereiken toe te voegen.  
   
-#### <a name="inventory-periods"></a>Voorraadperioden
+#### Voorraadperioden
 
 |Einddatum  |Name  |Gesloten  |
 |---------|---------|---------|
@@ -71,7 +70,7 @@ Laten we de hierboven genoemde Verkoop bekijken door instelling van toegestane b
 
 De eerste toegestane boekingsdatum is de eerste dag van de eerste open periode, namelijk 1 september 2020.  
 
-#### <a name="general-ledger-setup"></a>Grootboekinstellingen
+#### Grootboekinstellingen
 
 |Veld|Waarde  |
 |---------|---------|
@@ -93,19 +92,19 @@ De aanvankelijke toegewezen Boekingsdatum was 6 september, zoals in stap 1 wordt
 |381     |  A       |    09-2020-06     |    Verkoop     | Directe kosten   | 103022        |319     | Blauw        |  0       |-1        |-10       |    10     | Nee  |0      |       Verkoop   |
 |391     |  A       |    **2020-09-10**     |    Verkoop     | Directe kosten   | 103022        |319     | Blauw        |  0       |0         |-1        |    0     |Ja   |    181   | VRDWAARDNG   |
 
-## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Veelvoorkomende problemen met de batchverwerking Kostprijs herwaarderen - Artikelposten
+## Veelvoorkomende problemen met de batchverwerking Kostprijs herwaarderen - Artikelposten
 
 Er zijn twee scenario's die het ondersteuningsteam vaak genoeg tegenkomt om hun eigen probleemoplossingsartikelen te rechtvaardigen.
 
-### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Foutbericht: "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums..."
+### Foutbericht: "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums..."
 
 Als u deze fout tegenkomt, moet u de datums aanpassen waarop de gebruiker boekingen mag plaatsen. Zie voor meer informatie [Foutbericht "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md).
 
-### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Boekingsdatum op Herwaarderingswaardepost versus Boekingsdatum op post die de correctie veroorzaakt, zoals Herwaardering of Artikeltoeslag
+### Boekingsdatum op Herwaarderingswaardepost versus Boekingsdatum op post die de correctie veroorzaakt, zoals Herwaardering of Artikeltoeslag
 
 Zie voor meer informatie [Boekingsdatum op correctiewaardepost in vergelijking met de bronpost](design-details-inventory-adjustment-value-entry-source-entry.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  

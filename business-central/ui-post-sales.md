@@ -3,9 +3,7 @@ title: Verkoopdocumenten boeken
 description: Meer informatie over de verschillende boekingsfuncties om verkoopdocumenten te boeken en hoe u geboekte documenten kunt bijwerken.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021

@@ -7,13 +7,14 @@ ms.search.keywords: 'environments, companies, tenants, organization'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 08/16/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="switching-to-another-company-or-environment"></a>Overschakelen naar een ander bedrijf of een andere omgeving
+# Overschakelen naar een ander bedrijf of een andere omgeving
 
 [!INCLUDE [prod_short](includes/prod_short.md)] is beschikbaar in veel verschillende landen/regio's en ondersteunt veel verschillende soorten organisaties. Uw organisatie kan ervoor kiezen om het werk in [!INCLUDE [prod_short](includes/prod_short.md)] te organiseren in meerdere *bedrijven* en *omgevingen*. Dit artikel helpt u de belangrijkste verschillen te begrijpen en hoe u hiermee om kunt gaan.
 
-## <a name="about-companies-and-environments"></a>Bedrijven en omgevingen
+## Bedrijven en omgevingen
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -25,7 +26,7 @@ ms.author: bholtorf
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## <a name="features-for-switching-company-or-environment"></a>Functies voor het overschakelen naar een ander bedrijf of een andere omgeving
+## Functies voor het overschakelen naar een ander bedrijf of een andere omgeving
 
 Er zijn een paar functies die u kunt gebruiken om tussen bedrijven of omgevingen te schakelen terwijl u werkt. De volgende tabel vergelijkt de mogelijkheden van de functie, die in de volgende secties in meer detail worden uitgelegd.
 
@@ -36,7 +37,7 @@ Er zijn een paar functies die u kunt gebruiken om tussen bedrijven of omgevingen
 |[Mijn instellingen](#use-my-settings)|![vinkje](media/check.png "vinkje")|||![vinkje](media/check.png "vinkje")|
 |[Bedrijfshub](#use-company-hub)|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")|![vinkje](media/check.png "vinkje")||
 
-## <a name="use-the-company-switcher"></a>De bedrijfsschakelaar gebruiken
+## De bedrijfsschakelaar gebruiken
 
 Het gebruik van de bedrijfsschakelaar is waarschijnlijk de snelste en meest veelzijdige manier om van bedrijf te veranderen. De bedrijfsschakelaar is een venster dat direct vanaf elke pagina beschikbaar is. Het deelvenster geeft een overzicht van alle bedrijven in alle omgevingen waartoe u toegang hebt, en laat u direct overschakelen naar een ervan&mdash;hetzij op hetzelfde browsertabblad of op een nieuw. Het is vooral handig wanneer u in veel bedrijven in verschillende omgevingen werkt.
 
@@ -57,7 +58,7 @@ Het gebruik van de bedrijfsschakelaar is waarschijnlijk de snelste en meest veel
 > [!TIP]
 > Druk op <kbd>F5</kbd> om de lijst met omgevingen en bedrijven te vernieuwen.
 
-## <a name="use-the-app-launcher"></a>Het app-opstartprogramma gebruiken
+## Het app-opstartprogramma gebruiken
 
 Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], zijn de omgevingen waartoe u toegang hebt, beschikbaar op Office.com.  
 
@@ -73,7 +74,7 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## <a name="use-my-settings"></a>Mijn instellingen gebruiken
+## Mijn instellingen gebruiken
 
 Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], kunt u snel overschakelen naar een ander bedrijf in dezelfde omgeving. Nadat u de overstap hebt gemaakt, wordt het bedrijf dat u kiest uw standaardbedrijf en wordt het de volgende keer dat u zich aanmeldt geopend.
 
@@ -88,13 +89,13 @@ Als u bent aangemeld bij [!INCLUDE[prod_short](includes/prod_short.md)], kunt u 
 > [!TIP]
 > Een goede manier om direct naar uw standaardbedrijf te gaan wanneer u zich aanmeldt, en om te voorkomen dat u een omgeving hoeft op te geven, is door de URL toe te voegen aan uw lijst met favorieten nadat u zich hebt aangemeld.
 
-## <a name="use-company-hub"></a>Bedrijfshub gebruiken
+## Bedrijfshub gebruiken
 
 *Bedrijfshub* is een zeer gespecialiseerd rolcentrum dat een financieel overzicht geeft van bedrijven en omgevingen. Verkrijgbaar als een [extensie](ui-extensions-company-hub.md), biedt de bedrijfshub een dashboard met overzichtsgegevens voor elk bedrijf waartoe u toegang hebt. De startpagina toont gebruikers financiële KPI's en een directe koppeling naar de individuele omgevingen en bedrijven. Zie voor meer informatie [Werk in meerdere bedrijven beheren in de bedrijfshub](company-hub.md).
 
 [![Toont de bedrijfshubpagina met een lijst van alle bedrijven.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  

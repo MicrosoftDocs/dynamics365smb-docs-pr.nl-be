@@ -3,9 +3,7 @@ title: Goedkeuringswerkstromen instellen (bevat video)
 description: 'Stel werkstromen, werkstroomgebruikers en goedkeuringsgebruikers in om de systeemtaken van de bedrijfsprocessen die door deze verschillende gebruikers worden uitgevoerd, met elkaar te verbinden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: bholtorf

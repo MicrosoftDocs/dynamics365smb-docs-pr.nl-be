@@ -3,9 +3,7 @@ title: De QuickBooks-extensie Salarisbestand importeren gebruiken | Microsoft Do
 description: Dit artikel beschrijft hoe u de extensie gebruikt om salaris- en loontransacties te importeren uit de salarisservice van QuickBooks.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'app, add-in, manifest, customize, salary, wage'
 ms.date: 12/07/2023
 ms.author: bholtorf

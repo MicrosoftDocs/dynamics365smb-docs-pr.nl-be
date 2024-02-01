@@ -3,9 +3,7 @@ title: Belgische btw
 description: Met Belgische uitbreidingen van de btw-rapportagefunctie kunt u eenvoudig btw-transactiedetails afdrukken.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '11300, 11301,11303,11306,11307,11308'
 ms.date: 03/02/2022

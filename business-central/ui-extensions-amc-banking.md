@@ -3,9 +3,7 @@ title: De extensie AMC Banking 365 Fundamentals gebruiken
 description: Leer hoe u gemakkelijk gegevens met uw banken uitwisselt door gegevens om te zetten in de indeling die ze nodig hebben.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bank, format, data'
 ms.search.form: '20100, 20101, 20102, 20105, 20106, 20107, 20109,'
 ms.date: 09/20/2022

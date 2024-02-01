@@ -6,8 +6,9 @@ ms.topic: conceptual
 ms.search.form: 2000001
 ms.date: 01/10/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="export-payment-files-in-the-belgian-version"></a>Betalingsbestanden exporteren in de Belgische versie
+# Betalingsbestanden exporteren in de Belgische versie
 
 Als u een testrapport hebt afgedrukt en alle fouten hebt gecorrigeerd, kunt u betalingsdagboekregels naar een betalingsbestand exporteren.  
 
@@ -15,7 +16,7 @@ Een betalingsbestand bevat binnenlandse, internationale of SEPA-betalingen (in e
 
 In het betalingsdagboek wordt het veld **Status** op de geëxporteerde regels ingesteld op **Geboekt**.  
 
-## <a name="to-print-a-payment-file"></a>Een betalingsbestand afdrukken
+## Een betalingsbestand afdrukken  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer *Betalingsdagboek* in en kies de koppeling om de pagina **EB-betalingsdagboek** te openen.  
 2. Selecteer in het veld **Batchnaam** de vereiste dagboekbatch.  
@@ -49,7 +50,7 @@ In het betalingsdagboek wordt het veld **Status** op de geëxporteerde regels in
 
     Het rapport dat u in het betreffende exportprotocol hebt opgegeven, verwerkt de betalingregels en genereert het bestand.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Elektronisch bankieren voor België](belgian-electronic-banking.md)  
 [Belgische elektronische betalingen](belgian-electronic-payments.md)  
