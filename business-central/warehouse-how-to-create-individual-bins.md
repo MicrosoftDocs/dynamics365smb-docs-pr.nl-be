@@ -9,37 +9,37 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Opslaglocaties maken
+# <a name="create-bins"></a>Opslaglocaties maken
 
 De meest effectieve manier om opslaglocaties te maken voor uw magazijn, is door groepen van gelijke opslaglocaties te genereren. U doet dit in het opslaglocatiemaakvoorstel, maar u kunt uw opslaglocaties ook stuksgewijs maken via de vestigingskaart. U kunt ook een functie op de pagina **Voorstel opslaglocatieaanmaak** gebruiken om automatisch opslaglocaties te maken.  
 
-## Een opslaglocatie maken vanaf de vestigingskaart
+## <a name="to-create-a-bin-from-the-location-card"></a>Een opslaglocatie maken vanaf de vestigingskaart
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de vestiging waarvan u een opslaglocatie wilt maken en kies de actie **Opslaglocaties**.  
 3. Kies de actie **Nieuw**.
 4. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### Het speciale veld
+### <a name="the-dedicated-field"></a>Het speciale veld
 
 Het veld **Speciaal** op de pagina **Opslaglocaties** geeft op dat aantallen op de opslaglocatie worden beschermd tegen picken voor andere vraag. Hoeveelheden op speciale opslaglocaties kunnen echter nog steeds worden gereserveerd. De hoeveelheden in specifieke opslaglocaties kunnen dus worden opgenomen in het veld **Totaal beschikbaar aantal** op de pagina **Reservering**.
 
 Een opslaglocatie speciaal maken biedt vergelijkbare functionaliteit als typen opslaglocaties in standaardmagazijnbeheer, die alleen beschikbaar is in geavanceerd magazijnbeheer. Zie [Typen opslaglocaties instellen](warehouse-how-to-set-up-bin-types.md) voor meer informatie.
 
-### Voorbeeld
+### <a name="example"></a>Voorbeeld
 
 Een afdeling wordt ingesteld met een opslaglocatiecode in het veld **Code verbruikslocatie**. Productieordermateriaalregels met deze opslaglocatie eisen dat voorwaarts afgeboekte materialen daar worden geplaatst. Echter, totdat de materialen uit de opslaglocatie worden verbruikt, kunnen andere eisen materialen uit die opslaglocatie picken of verbruiken omdat ze nog steeds worden beschouwd als beschikbare opslaglocatie-inhoud. Om ervoor te zorgen dat de opslaglocatie-inhoud alleen beschikbaar is voor materiaalvragen die deze opslaglocatie voor productie gebruiken, moet u het veld **Speciaal** kiezen op de regel voor die opslaglocatie.
 
 > [!Caution]
 > Artikelen in specifieke opslaglocaties worden niet beveiligd wanneer deze worden gepickt en verbruikt als productie- of assemblycomponenten met de pagina **Voorraadpick**. Zie voor meer informatie [Picken voor productie of assemblage in standaardmagazijnconfiguraties](warehouse-how-to-pick-for-production.md).
 
-## Individuele opslaglocaties maken op het maakvoorstel voor opslaglocaties
+## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Individuele opslaglocaties maken op het maakvoorstel voor opslaglocaties
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorstel opslaglocatieaanmaak** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op elke regel de velden in die nodig zijn om de opslaglocaties een naam te geven en speciale kenmerken in te stellen voor de opslaglocaties die u maakt.  
 3.  Kies de actie **Opslaglocaties maken**.  
 
-## Automatisch opslaglocaties maken in het voorstel voor opslaglocatieaanmaak
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Automatisch opslaglocaties maken in het voorstel voor opslaglocatieaanmaak
 
 Voordat u begint met het automatisch maken van opslaglocaties, moet u bepalen welke soort opslaglocatie essentieel is voor uw bedrijf. Bovendien moet u weten welke artikelenstroom het meest praktisch is voor de fysieke structuur van uw magazijn.  
 
@@ -69,7 +69,7 @@ Voor gebruik van de pagina **Voorstel opslaglocatieaanmaak** moet u zijn ingeste
 
 Herhaal dit proces voor elke volgende set opslaglocaties, totdat u alle opslaglocaties in het magazijn hebt gemaakt.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)  
 [Voorraad](inventory-manage-inventory.md)  

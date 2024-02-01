@@ -9,11 +9,11 @@ ms.date: 03/15/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Valuta's in Business Central
+# <a name="currencies-in-business-central"></a>Valuta's in Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## Valuta's
+## <a name="currencies"></a>Valuta's
 
 > [!TIP]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] wordt dit valuta genoemd als u op zoek bent naar realtime informatie over wisselkoersen of historische koersen. Zie naast dit artikel ook [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md).
@@ -22,15 +22,15 @@ ms.service: dynamics-365-business-central
 
 U geeft de valutacodes in de lijst **Valuta's** op, inclusief extra informatie en instellingen die nodig zijn voor elke valutacode. Zie [Valuta's](finance-set-up-currencies.md#curr) voor meer informatie
 
-### Voorbeeld van een te ontvangen valutatransactie
+### <a name="example-of-a-receivable-currency-transaction"></a>Voorbeeld van een te ontvangen valutatransactie
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Wisselkoersen
+## <a name="exchange-rates"></a>Wisselkoersen
 
 De wisselkoersen zijn het hulpmiddel om de lokale valutawaarde (LV) van elke valutatransactie te berekenen. Zie voor meer informatie [Valutawisselkoersen bijwerken](finance-how-update-currencies.md).  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Valuta's instellen](finance-set-up-currencies.md)  
 [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)  

@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Vereffening van posten in verschillende valuta's inschakelen
+# <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Vereffening van posten in verschillende valuta's inschakelen
 
 Als de betaling in een andere valuta dan de valuta van de inkoop wordt ingediend, kunt u de betaling met de inkoop vereffenen.
 
@@ -18,7 +18,7 @@ Als u aan een klant verkoopt in een bepaalde valuta en een betaling in een ander
 
 In de volgende procedure wordt beschreven hoe u dit instelt voor leveranciersposten op de pagina **Inkoopinstellingen**. De instelling is soortgelijk voor klantenposten op de pagina **Verkoopinstellingen**.
 
-## Vereffening van leveranciersposten in verschillende valuta's inschakelen
+## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Vereffening van leveranciersposten in verschillende valuta's inschakelen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een van de volgende opties in het veld **Valuta's vereffenen**.
@@ -29,7 +29,7 @@ In de volgende procedure wordt beschreven hoe u dit instelt voor leverancierspos
 | EMU |De vereffening tussen EMU-valuta's is toegestaan. |
 | Alle |De vereffening tussen alle valuta's is toegestaan. |
 
-## Grootboekrekeningen voor afrondingsverschillen bij valutaberekeningen instellen
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Grootboekrekeningen voor afrondingsverschillen bij valutaberekeningen instellen
 
 Als u posten in verschillende valuta's vereffent, moet u instellen naar welke grootboekrekening u de afrondingsverschillen wilt boeken.  
 
@@ -41,7 +41,7 @@ Als u posten in verschillende valuta's vereffent, moet u instellen naar welke gr
 3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciersboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 4. In de velden **Afr.-rek. valutavereff. (Deb.)** en  **Afr.-rek. val.-vereff. (Cred.)** voert u de grootboekrekeningen waarnaar u de afrondingsverschillen wilt boeken in.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  

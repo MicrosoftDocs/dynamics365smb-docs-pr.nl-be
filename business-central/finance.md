@@ -10,7 +10,7 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Financieel beheer
+# <a name="financial-management"></a>Financieel beheer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardconfiguratie voor de meeste financiële processen, maar u kunt deze aanpassen aan uw zakelijke behoeften. Zie [Financiën instellen](finance-setup-finance.md) voor meer informatie.
 
@@ -48,13 +48,13 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Werken met financiële overzichten in Excel Microsoft Excel. |[Financiële overzichten analyseren in Excel:](finance-analyze-excel.md) |
 |Leer hoe u het rolcentrum Accountant gebruikt, een externe accountant aanstelt en de bedrijfshub gebruikt om rekeningen van meerdere cliënten te beheren.|[Accountantervaringen in Business Central](finance-accounting.md)|  
 
-## Een videorondleiding volgen
+## <a name="take-a-video-tour"></a>Een videorondleiding volgen
 
 Deze video introduceert enkele van de belangrijkste mogelijkheden voor het beheren van financiën. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiën instellen](finance-setup-finance.md)  
 [Verkoop](sales-manage-sales.md)  

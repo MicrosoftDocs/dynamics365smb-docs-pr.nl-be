@@ -9,15 +9,15 @@ ms.date: 09/07/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Werken met [!INCLUDE [prod_short](includes/prod_short.md)] -gegevens in Power BI
+# <a name="work-with--data-in-power-bi"></a>Werken met [!INCLUDE [prod_short](includes/prod_short.md)] -gegevens in Power BI
 
 In dit artikel leert u enkele basisbeginselen kennen van het werken met rapporten en dashboards in Power BI, dat gebruikmaakt van [!INCLUDE [prod_short](includes/prod_short.md)] als gegevensbron. In het artikel worden enkele aspecten besproken die u op weg helpen als [!INCLUDE[prod_short](includes/prod_short.md)]-gebruiker. Raadpleeg voor algemene richtlijnen en instructies voor het gebruik van Power BI de [Power BI-documentatie voor consumenten](/power-bi/consumer).
 
-## Bereid u voor
+## <a name="get-ready"></a>Bereid u voor
 
 Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt een zakelijk e-mailadres en wachtwoord.
 
-## Aan de slag
+## <a name="get-started"></a>Aan de slag
 
 Als u eenmaal een Power BI-account hebt, kunt u zich aanmelden via [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
 
@@ -29,21 +29,21 @@ Met [!INCLUDE[prod_short](includes/prod_short.md)] online hebt u automatisch de 
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt, moet u alle rapporten zelf maken met Power BI Desktop. Power BI-rapporten kunnen desgewenst worden gedistribueerd als bestanden die kunnen worden geüpload.
 
-## De meest recente gegevens ophalen
+## <a name="get-the-latest-data"></a>De meest recente gegevens ophalen
 
 Elk Power BI-rapport is gebaseerd op een gegevensset die gegevens ophaalt uit de [!INCLUDE[prod_short](includes/prod_short.md)]-bronnen. U wilt er uiteraard zeker van zijn dat de gegevens in uw Power BI-rapporten altijd up-to-date zijn, dus overeenkomen met de gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]. Dit concept wordt *vernieuwen* genoemd.  Of de gegevens automatisch worden vernieuwd, hangt af van de manier waarop uw organisatie Power BI heeft geconfigureerd. Er zijn twee manieren om gegevens te vernieuwen: handmatig of via een geplande automatische vernieuwingsactie. Handmatig vernieuwen kan op aanvraag, wanneer dat nodig is. Met gepland vernieuwen kunt u de gegevens steeds automatisch laten vernieuwen na een bepaald tijdsinterval.
 
-### Handmatig vernieuwen
+### <a name="refresh-manually"></a>Handmatig vernieuwen
 
 Selecteer in het navigatievenster onder **Gegevenssets** de opdracht **Meer opties (...)** naast de gegevensset en selecteer vervolgens **Nu vernieuwen**.
 
-### Het vernieuwen van gegevens plannen
+### <a name="schedule-a-refresh"></a>Het vernieuwen van gegevens plannen
 
 Selecteer in het navigatievenster onder Gegevenssets de opdracht Meer opties (...) naast de gegevensset en selecteer vervolgens **Vernieuwen plannen**. Vul de gegevens in in het gedeelte **Vernieuwen plannen** en selecteer **Toepassen**.
 
 Zie [Geplande vernieuwing configureren](/power-bi/connect-data/refresh-scheduled-refresh) voor meer informatie.
 
-## <a name="upload"></a>Rapporten uploaden vanuit bestanden
+## <a name="upload-reports-from-files"></a><a name="upload"></a>Rapporten uploaden vanuit bestanden
 
 Power BI-rapporten kunnen onder gebruikers worden verspreid als PBIX-bestanden. Als u een PBIX-bestand heeft, kunt u het bestand uploaden naar een werkruimte. Voer de volgende stappen uit om een rapport te uploaden:
 
@@ -61,7 +61,7 @@ Zie [Het rapport uploaden naar de service](/power-bi/paginated-reports/paginated
 > [!TIP]
 > Als u [!INCLUDE[prod_short](includes/prod_short.md)] online gebruikt, kunt u ook een rapport uploaden vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [Werken met Power BI-rapporten in [!INCLUDE [prod_short](includes/prod_short.md)] - Rapporten uploaden](across-working-with-powerbi.md#upload) voor meer informatie.
 
-## <a name="share"></a>Rapporten met anderen delen
+## <a name="share-reports-with-others"></a><a name="share"></a>Rapporten met anderen delen
 
 Zodra een rapport zich in uw werkruimte bevindt, kunt u het delen met anderen in uw organisatie.
 
@@ -70,7 +70,7 @@ Als u een rapport wilt delen, selecteert u in een lijst met rapporten of in een 
 > [!NOTE]
 > U moet een [Power BI Pro-licentie](/power-bi/service-features-license-type) hebben en dat geldt ook voor de mensen met wie u het rapport deelt. De inhoud moet zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports) voor meer informatie.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Business Central en Power BI](admin-powerbi.md)  
 [Power BI-rapporten maken om [!INCLUDE [prod_long](includes/prod_long.md)]-gegevens weer te geven](across-how-use-financials-data-source-powerbi.md)  

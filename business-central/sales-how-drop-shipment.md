@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Doorverzendingen uitvoeren
+# <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
 
 Een doorverzending is de directe verzending van artikelen van een van uw leveranciers naar een van uw klanten.
 
@@ -18,7 +18,7 @@ Wanneer een verkooporder gemarkeerd is voor doorverzending en u een inkooporder 
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## Een verkooporder voor doorverzending maken
+## <a name="to-create-a-sales-order-for-drop-shipment"></a>Een verkooporder voor doorverzending maken
 
 Ter voorbereiding op een doorverzending maakt u een verkooporder voor een artikel en geeft u op de verkoopregel aan dat voor de verkoop doorverzending vereist is.
 
@@ -28,7 +28,7 @@ Ter voorbereiding op een doorverzending maakt u een verkooporder voor een artike
 > [!TIP]
 > Het selectievakje Doorverzending is niet beschikbaar op de regels. Als dit niet het geval is, kunt u het toevoegen door het gedeelte van de pagina dat de regels bevat te personaliseren. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
-## De inkooporder voor doorverzendingen maken
+## <a name="to-create-the-purchase-order-for-drop-shipment"></a>De inkooporder voor doorverzendingen maken
 
 Om een doorverzending voor te bereiden geeft u op de inkooporder aan dat deze naar uw klant moet worden verzonden, niet naar uzelf.
 
@@ -45,7 +45,7 @@ U kunt uw leverancier nu vertellen om de artikelen rechtstreeks naar de klant te
 
 Als uw leverancier een traceringsnummer of soortgelijke informatie verstrekt, kunt u die informatie toevoegen in een inkooporderregel van het type *Opmerking*.  
 
-## Meerdere inkooporders voor doorverzendingen maken
+## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Meerdere inkooporders voor doorverzendingen maken
 
 U kunt ook het inkoopvoorstel gebruiken om de inkooporder voor de leverancier te maken. 
 
@@ -57,11 +57,11 @@ Het voordeel van het gebruik van het inkoopvoorstel is dat het inkooporders kan 
 4. Bekijk de inkooporderregels en selecteer in het veld **Leveranciersnr.** de leverancier die de benodigde goederen levert. 
 5. Kies de actie **Planningsboodschap uitvoeren** om beoordeelde regels om te zetten in een inkooporder.
 
-## De gekoppelde inkooporder weergeven op basis van de verkooporder
+## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>De gekoppelde inkooporder weergeven op basis van de verkooporder
 
 * Selecteer de verkooporderregel van de doorverzending, kies de actie **Order**, kies de actie **Doorverzending** en kies vervolgens de actie **Inkooporder**.
 
-## Een doorverzending boeken
+## <a name="to-post-a-drop-shipment"></a>Een doorverzending boeken
 
 Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken als verzonden. U kunt de inkooporder ook boeken, maar alleen met de optie **Ontvangen**, totdat de verkooporder is gefactureerd.
 
@@ -71,7 +71,7 @@ Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken
 4. Kies de actie **Boeken** of **Boeken en verzenden**.
 5. Kies vervolgens **de optie Verzenden** om later te factureren of de optie **Verzenden en factureren** om meteen te factureren.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Speciale orders maken](sales-how-to-create-special-orders.md)  
 [Artikelen inkopen voor een verkoop](purchasing-how-purchase-products-sale.md)  

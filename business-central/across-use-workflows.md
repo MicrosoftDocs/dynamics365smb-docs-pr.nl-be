@@ -10,7 +10,7 @@ ms.date: 09/13/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Goedkeuringswerkstromen gebruiken
+# <a name="use-approval-workflows"></a>Goedkeuringswerkstromen gebruiken
 
 Een werkstroom is een reeks taken die worden geactiveerd door een actie, een voorwaarde of een regel. Werkstromen worden meestal geïmplementeerd om bedrijfslogica in een organisatie te integreren, zoals het scheiden van taken, het verenigen van processen of het toepassen van best practices.
 
@@ -63,7 +63,7 @@ Voordat u kunt beginnen met werkstromen gebruiken, moet u de werkstroomgebruiker
 | Geef instanties van werkstroomstappen met de status **Voltooid** weer. | [Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md) |
 | Verwijder een goedkeuringswerkstroom als u zeker weet dat u die niet meer gebruikt. | [Goedkeuringswerkstromen verwijderen](across-how-to-delete-workflows.md) |
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Goedkeuringswerkstromen instellen](across-set-up-workflows.md)  
 [Werkstroom](across-workflow.md)  

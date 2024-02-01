@@ -9,11 +9,11 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Capaciteit boeken
+# <a name="post-capacities"></a>Capaciteit boeken
 
 In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegewezen aan de productieorder. Onderhoudswerk moet bijvoorbeeld worden toegewezen aan capaciteit, maar niet aan een productieorder.  
 
-## Capaciteit boeken  
+## <a name="to-post-capacities"></a>Capaciteit boeken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Capaciteitsdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden **Boekingsdatum** en **Documentnr.** in.  
@@ -24,7 +24,7 @@ In het capaciteitsdagboek boekt u de verbruikte capaciteit die niet is toegeweze
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Afdelingsposten weergeven  
+## <a name="to-view-work-center-ledger-entries"></a>Afdelingsposten weergeven
 
 Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de geboekte capaciteit als gevolg van gereedgemelde productieorders bekijken.    
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Afdelingen** in en kies vervolgens de gerelateerde koppeling.  
@@ -32,7 +32,7 @@ Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de geboekte capacitei
 
     De pagina **Capaciteitsposten** bevat de geboekte posten van de afdeling, in de volgorde waarin deze zijn geboekt.   
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 
 [Productie](production-manage-manufacturing.md)  
 [Productie instellen](production-configure-production-processes.md)  

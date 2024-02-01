@@ -9,11 +9,11 @@ ms.date: 08/29/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Overzicht van taken voor het sluiten van boekingsperioden
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Overzicht van taken voor het sluiten van boekingsperioden
 
 [!INCLUDE[prod_short](includes/prod_short.md)] dwingt u niet om perioden te sluiten, maar er zijn veel activiteiten voor periode-einden (maandeinden) die u kunt uitvoeren. In dit onderwerp vindt u een overzicht van optionele processen en activiteiten voor het afsluiten van perioden.  
 
-## Grootboek
+## <a name="general-ledger"></a>Grootboek
 
 * Geef de boekingsperioden voor het gehele systeem of een specifieke gebruiker op.  
 
@@ -24,7 +24,7 @@ ms.service: dynamics-365-business-central
 * Voer financiële rapporten als volgt uit:  
   * Open de pagina **Financiële rapporten** en kies de actie **Afdrukken**.  
 
-## Verkopen en tegoeden
+## <a name="sales-and-receivables"></a>Verkopen en tegoeden
 
 * Boek alle verkooporders, facturen, creditnota's en retourorders.  
 * Boek alle ontvangstendagboeken.  
@@ -32,7 +32,7 @@ ms.service: dynamics-365-business-central
 * Reconcilieer klanten met het grootboek.  
 * Voer de batchverwerking **Gefactureerde verkooporders verwijderen** uit.  
 
-## Inkopen en schulden
+## <a name="purchases-and-payables"></a>Inkopen en schulden
 
 * Boek alle inkooporders, facturen, creditnota's en retourorders.  
 * Boek alle betalingsdagboeken.  
@@ -40,7 +40,7 @@ ms.service: dynamics-365-business-central
 * Voer het rapport **Vervallen betalingen** uit en reconcilieer leveranciers met het grootboek.  
 * Voer de batchverwerking **Gefactureerde inkooporders verwijderen** uit.  
 
-## Vaste activa
+## <a name="fixed-assets"></a>Vaste activa
 
 * Boek alle onderhoudskosten die zijn geboekt via de VA-dagboeken of -facturen.
 * Boek herwaarderingen.
@@ -48,15 +48,15 @@ ms.service: dynamics-365-business-central
 * Boek afschrijving.
 * Wijzig en boek het periodiek VA-dagboek.
 
-## Intercomp
+## <a name="intercompany"></a>Intercomp
 
 * IC-transacties verwerken.
 
-## Btw berekenen en verwerken
+## <a name="calculate-and-process-sales-tax"></a>Btw berekenen en verwerken
 
 * Belastingaangiften invullen.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Jaren en perioden afsluiten](year-close-years-periods.md)  
 [Boeken afsluiten](year-close-books.md)  

@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Elektronische documenten verzenden
+# <a name="send-electronic-documents"></a>Elektronische documenten verzenden
 
 > [!NOTE]
 > De inhoud in dit artikel is alleen van toepassing op versies van Dynamics 365 Business Central die zijn uitgebracht vóór releasewave 2 van 2023. In releasewave 2 van 2023 is nieuwe functionaliteit voor e-documenten opgenomen. Zie [E-documenten instellen](finance-how-setup-edocuments.md) voor meer informatie.  
@@ -20,7 +20,7 @@ De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteun
 
  Als u een verkoopfactuur als elektronisch PEPPOL-document wilt verzenden, selecteert u de optie **Elektronisch document** in het dialoogvenster **Boeken en verzenden**. U kunt ook het standaardprofiel voor documentverzending van de klant instellen vanuit dat dialoogvenster. Eerst moet u diverse stamgegevens instellen, zoals bedrijfsgegevens, klanten, artikelen en eenheden. Deze worden gebruikt om de zakelijke partners en artikelen te identificeren wanneer gegevens worden geconverteerd in velden in [Verzending en ontvangst van elektronische documenten instellen](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-### Een elektronische verkoopfactuur verzenden
+### <a name="to-send-an-electronic-sales-invoice"></a>Een elektronische verkoopfactuur verzenden
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -45,7 +45,7 @@ De algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteun
     > [!NOTE]  
     >  U kunt ook een geboekte verkoopfactuur als een elektronisch document verzenden. De procedure is hetzelfde als beschreven in dit onderwerp voor niet-geboekte verkoopdocumenten. Kies op de pagina **Geboekte verkoopfactuur** de actie **Activiteitenlogboek** om de status van en elektronische document weer te geven.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Documentverzendprofielen instellen](sales-how-setup-document-send-profiles.md)  

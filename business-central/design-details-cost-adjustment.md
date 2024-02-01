@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ontwerpdetails: Kostenwaardering
+# <a name="design-details-cost-adjustment"></a>Ontwerpdetails: Kostenwaardering
 
 Het belangrijkste doel van kostenherwaardering is wijzigingen in kosten van kostenbronnen door te sturen naar kostenontvangers, volgens de waarderingsmethode van een artikel, om de juiste voorraadwaardering te bieden.  
 
@@ -26,7 +26,7 @@ Hierna volgen secundaire doelen, of functies, van kostenherwaardering:
 
 Voorraadkosten moeten worden bijgewerkt als de gerelateerde waardeposten kunnen worden afgestemd met het grootboek. Zie voor meer informatie [Ontwerpdetails: reconciliatie met het grootboek](design-details-reconciliation-with-the-general-ledger.md).  
 
-## De correctie detecteren
+## <a name="detecting-the-adjustment"></a>De correctie detecteren
 
 De taak van het detecteren of kostenwaardering moet worden uitgevoerd, wordt hoofdzakelijk uitgevoerd door de routine Artikeldagboek. - Regel boeken. De taak van het berekenen en genereren van kostenherwaarderingsposten wordt uitgevoerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten**.  
 
@@ -36,21 +36,21 @@ Voor het doorsturen van kosten bepaalt het detectiemechanisme welke bronnen zijn
 * Invoerpunt gemiddelde kostprijscorrectie  
 * Orderniveau  
 
-### Artikelvereffeningspost
+### <a name="item-application-entry"></a>Artikelvereffeningspost
 
 Deze detectiefunctie wordt gebruikt voor artikelen die de waarderingsmethoden FIFO, LIFO, Standaard en Specifiek gebruiken en voor vaste vereffeningenscenario's. De functie werkt als volgt:  
 
 * Kostenherwaardering wordt gedetecteerd door de bronartikelposten te markeren als *Vereff. post herwaarderen* wanneer een artikelpost of waardepost wordt geboekt.  
 * Kosten worden doorgestuurd volgens de ketens van de kosten die zijn vastgelegd in de tabel **Artikelvereffeningspost**.  
 
-### Invoerpunt gemiddelde kostprijscorrectie
+### <a name="average-cost-adjustment-entry-point"></a>Invoerpunt gemiddelde kostprijscorrectie
 
 Deze detectiefunctie wordt gebruikt voor artikelen die de waarderingsmethode Gemiddeld gebruiken. De functie werkt als volgt:  
 
 * Kostenherwaardering wordt gedetecteerd door een record in de tabel **Gem. kostprijsaanpassing invoerhaven** te markeren wanneer een waardepost wordt geboekt.  
 * Kosten wordt doorgestuurd door de kosten toe te passen op waardeposten met een latere waarderingsdatum.  
 
-### Orderniveau
+### <a name="order-level"></a>Orderniveau
 
 Deze detectiefunctie wordt gebruikt voor conversiescenario's, productie en assemblage. De functie werkt als volgt:  
 
@@ -63,7 +63,7 @@ De functie op orderniveau wordt gebruikt om correcties in assemblageboekingen te
 
 Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie.  
 
-## Handmatige versus automatische kostenwaardering
+## <a name="manual-versus-automatic-cost-adjustment"></a>Handmatige versus automatische kostenwaardering
 
 Kostenherwaardering kan op twee manieren worden uitgevoerd:  
 
@@ -78,25 +78,25 @@ Ongeacht of u kostenwaardering handmatig of automatisch uitvoert, het waardering
 
 De nieuwe waardeposten voor herwaardering en afronding hebben de boekingsdatum van de bijbehorende factuur. Uitzonderingen zijn als de waardeposten in een afgesloten voorraadperiode of boekhoudperiode vallen of als de boekingsdatum eerder is dan de datum in het veld **Boeken toegest. vanaf** op de pagina **Grootboekinstellingen**. Als dit gebeurt, wordt door de batchverwerking de boekingsdatum toegewezen als de eerste datum van de volgende open periode.  
 
-## Batchverwerking Voorraadwaarde (Werk.-kosten)
+## <a name="adjust-cost---item-entries-batch-job"></a>Batchverwerking Voorraadwaarde (Werk.-kosten)
 
 Wanneer u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert, hebt u de mogelijkheid de batchverwerking voor alle artikelen of alleen voor bepaalde artikelen of categorieën uit te voeren.  
 
 > [!NOTE]  
 > We adviseren altijd de batchverwerking uit te voeren voor alle artikelen en de filteroptie alleen te gebruiken om de uitvoeringstijd van de batchverwerking te beperken of de kosten van een bepaald artikel te corrigeren.  
 
-### Opmerking
+### <a name="example"></a>Opmerking
 
 In het volgende voorbeeld wordt getoond dat u een aangeschaft artikel boekt als ontvangen en gefactureerd op 01-01-20. U boekt het verkochte artikel later als verzonden en gefactureerd op 15-01-20. Vervolgens voert u de batchverwerkingen **Kostprijs herwaarderen - Artikelposten** en **Voorraadwaarde boeken** uit. De volgende posten worden gemaakt.  
 
-#### Waardeposten (1) 
+#### <a name="value-entries-1"></a>Waardeposten (1)
 
 |Boekingsdatum|Artikelboekingssoort|Tot. werk. kosten|Vrd.-waarde geboekt|Geboekt aantal|Volgnummer|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Inkoop|10.00|10.00|1|1|  
 |15-01-20|Verkoop|-10,00|-10,00|-1|2|  
 
-#### Relatieposten in het grootboek - tabel Artikelpostrelatie (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Relatieposten in het grootboek - tabel Artikelpostrelatie (1)
 
 |Grootboekpostnr.|Waardepostnr.|Grootboekjournaalnr.|  
 |-------------|---------------|----------------|  
@@ -105,7 +105,7 @@ In het volgende voorbeeld wordt getoond dat u een aangeschaft artikel boekt als 
 |3|2|1|  
 |4|2|1|  
 
-#### Grootboekposten (1)
+#### <a name="general-ledger-entries-1"></a>Grootboekposten (1)
 
 |Boekingsdatum|Grootboekrekening|Rekeningnr. (En-US demo)|Bedrag|Volgnummer|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -116,14 +116,14 @@ In het volgende voorbeeld wordt getoond dat u een aangeschaft artikel boekt als 
 
 Later boekt u een gerelateerde inkoopartikeltoeslag voor 2,00 LV, gefactureerd op 02-10-20. U voert de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit en voert vervolgens de batchverwerking **Voorraadwaarde boeken** uit. De batchverwerking voor het herwaarderen van de kosten past de kosten van de verkoop dienovereenkomstig aan met 2,00 LV en de batchverwerking **Voorraadwaarde boeken** boekt de nieuwe waardeposten in het grootboek. Dit is het resultaat.  
 
-#### Waardeposten (2)  
+#### <a name="value-entries-2"></a>Waardeposten (2)
 
 |Boekingsdatum|Artikelpostsoort|Tot. werk. kosten|Kosten geboekt naar grootboek|Geboekt aantal|Herwaardering|Volgnummer|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |10-02-20|Inkoop|2.00|2.00|0|Nee|3|  
 |15-01-20|Verkoop|-2,00|-2,00|0|Ja|4|  
 
-#### Relatieposten in het grootboek - tabel Artikelpostrelatie (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Relatieposten in het grootboek - tabel Artikelpostrelatie (2)
 
 |Grootboekpostnr.|Waardepostnr.|Grootboekjournaalnr.|  
 |-------------|---------------|----------------|  
@@ -132,7 +132,7 @@ Later boekt u een gerelateerde inkoopartikeltoeslag voor 2,00 LV, gefactureerd o
 |7|4|2|  
 |8|4|2|  
 
-#### Grootboekposten (2)
+#### <a name="general-ledger-entries-2"></a>Grootboekposten (2)
 
 |Boekingsdatum|Grootboekrekening|Rekeningnr. (En-US demo)|Bedrag|Volgnummer|  
 |------------|-----------|------------------------|------|---------|  
@@ -141,7 +141,7 @@ Later boekt u een gerelateerde inkoopartikeltoeslag voor 2,00 LV, gefactureerd o
 |15-01-20|[Voorraadrekening]|2130|-2,00|7|  
 |15-01-20|[KPV-rekening]|7290|2.00|8|  
 
-## Automatische kostenwaardering
+## <a name="automatic-cost-adjustment"></a>Automatische kostenwaardering
 
 Als u kostenwaardering wilt instellen die automatisch wordt uitgevoerd wanneer u een voorraadtransactie boekt, gebruikt u het veld **Automatische kostenwaardering** op de pagina **Voorraadinstelling**. Dit veld biedt u de mogelijkheid te selecteren hoe lang vóór de huidige werkdatum automatische kostenwaardering mag worden uitgevoerd. De volgende opties zijn mogelijk.  
 
@@ -157,7 +157,7 @@ Als u kostenwaardering wilt instellen die automatisch wordt uitgevoerd wanneer u
 
 De keuze die u in het veld **Automatische kostenwaardering** maakt is belangrijk voor de prestaties en nauwkeurigheid van de kosten. Kortere perioden, bijvoorbeeld **Dag** of **Week**, hebben invloed op systeemprestaties omdat hiermee de strengere vereiste geldt dat alleen kosten die op de laatste dag of in de laatste week zijn geboekt, automatisch kunnen worden aangepast. Dit betekent dat de automatische kostenwaardering niet zo frequent wordt uitgevoerd, wat invloed heeft op systeemprestaties. Dit betekent echter ook dat de kostprijs minder nauwkeurig kan zijn.  
 
-### Opmerking
+### <a name="example-1"></a>Opmerking
 
 In het volgende voorbeeld wordt een automatisch kostenherwaarderingscenario getoond:  
 
@@ -169,7 +169,7 @@ Als u de automatische kostenwaardering hebt ingesteld om toe te passen op boekin
 
 Als u automatische kostenwaardering hebt ingesteld om toe te passen op boekingen die plaatsvinden binnen een dag of een week vanaf de huidige werkdatum, wordt de automatische kostprijsaanpassing niet uitgevoerd, en worden de kosten van de inkoop niet naar de verkoop doorgestuurd totdat u de batchverwerking **Kostprijs herwaarderen - Artikelposten** uitvoert.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Artikelkosten herwaarderen](inventory-how-adjust-item-costs.md)  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  

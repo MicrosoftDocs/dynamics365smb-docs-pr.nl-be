@@ -11,7 +11,7 @@ ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.service: dynamics-365-business-central
 ---
-# Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="create-new-companies-in-"></a>Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] worden de container voor bedrijfsgegevens die behoort tot een bedrijfsunit of rechtspersoon, een *bedrijf* genoemd. Wanneer u zich registreert voor [!INCLUDE[prod_short](includes/prod_short.md)], krijgt u een demonstratiebedrijf en een leeg bedrijf, *Mijn bedrijf*. Tussen bedrijven schakelen is gemakkelijk: ga naar **Mijn instellingen** en ga naar het andere bedrijf. U kunt echter ook nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)], afhankelijk van de behoeften van uw bedrijf.  
 
@@ -22,7 +22,7 @@ Wanneer u een nieuw bedrijf maakt, helpt een begeleide instelling u de basis in 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## De juiste sjabloon kiezen
+## <a name="choose-the-right-template"></a>De juiste sjabloon kiezen
 
 Als u besluit een bedrijf toe te voegen aan uw [!INCLUDE[prod_short](includes/prod_short.md)], kunt u de begeleide instelling **Nieuw bedrijf maken** gebruiken om aan de slag te gaan. The begeleide instelling is beschikbaar vanaf de pagina **Bedrijven** en via de zoekfunctie in het veld **Bedrijf** op de pagina **Mijn instellingen**.  
 
@@ -44,7 +44,7 @@ Tijdens uw proef van 30 dagen kunt u een willekeurig aantal nieuwe bedrijven mak
 
 Uw beheerder kan [hier](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions) meer te weten komen over proefversies en abonnementen.  
 
-## Een bedrijf kopiëren
+## <a name="copy-a-company"></a>Een bedrijf kopiëren
 
 Op de pagina **Bedrijven** kunt u de actie **Kopiëren** gebruiken om een tweede bedrijf te maken op basis van de inhoud van een bestaand bedrijf. Dit is bijvoorbeeld handig als u een bedrijf wilt testen zonder de productiegegevens te verstoren.
 
@@ -53,7 +53,7 @@ Op de pagina **Bedrijven** kunt u de actie **Kopiëren** gebruiken om een tweede
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
-## Het bedrijf instellen
+## <a name="set-up-the-company"></a>Het bedrijf instellen
 
 Als u zich aanmeldt bij een nieuw bedrijf, wordt de wizard **Bedrijfsinstelling** automatisch uitgevoerd en wordt u geholpen aan de slag te gaan. U wordt gevraagd om gegevens over uw bedrijf, zoals het adres, de bankgegevens en de voorraadwaarderingsmethode. We vragen deze informatie omdat deze wordt gebruikt als basis voor veel gebieden in [!INCLUDE[prod_short](includes/prod_short.md)], die u vervolgens later niet handmatig hoeft in te stellen.  
 
@@ -61,24 +61,24 @@ Bijvoorbeeld, [!INCLUDE [prod_short](includes/prod_short.md)] neemt uw bedrijfsa
 
 Nadat u de basis hebt ingesteld, kunt u resterende kerngebieden instellen. Vervolgens bent u klaar om bedrijfsgegevens, zoals klanten en leveranciers, toe te voegen. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen.  
 
-## Bedrijven en omgevingen
+## <a name="companies-and-environments"></a>Bedrijven en omgevingen
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Zie voor meer informatie [Overstappen naar een ander bedrijf of een andere omgeving](ui-organization-switch.md). Zie [Understanding the Infrastructure of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (uitsluitend in het Engels) voor meer informatie over omgevingen.  
 
-## De naam van een bedrijf wijzigen
+## <a name="changing-a-companys-name"></a>De naam van een bedrijf wijzigen
 
 Als een bedrijf eenmaal is gemaakt, kunt u de naam ervan niet meer wijzigen. Maar u kunt de **weergavenaam** ervan wijzigen. Dat is tekst die in de toepassing voor het bedrijf wordt weergegeven.  
 
 > [!TIP]
 > U kunt een bedrijf hernoemen als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt.
 
-## Contoso Coffee toevoegen
+## <a name="add-contoso-coffee"></a>Contoso Coffee toevoegen
 
 De Contoso Coffee-app biedt demonstratiegegevens waarmee u de geavanceerde mogelijkheden van [!INCLUDE [prod_short](includes/prod_short.md)] kunt verkennen. Zoek de app in AppSource en installeer deze in een leeg bedrijf, bijvoorbeeld een bedrijf in een sandbox-omgeving. Zie [Inleiding tot demogegevens van Contoso Coffee](contoso-coffee/contoso-coffee-intro.md) voor meer informatie.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Business Central aanpassen](ui-customizing-overview.md)  
 [Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
