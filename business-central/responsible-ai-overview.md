@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="responsible-ai-faqs-for-dynamics-365-business-central"></a>Veelgestelde vragen over verantwoorde AI voor Dynamics 365 Business Central
+# Veelgestelde vragen over verantwoorde AI voor Dynamics 365 Business Central
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 
