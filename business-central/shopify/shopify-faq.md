@@ -1,7 +1,7 @@
 ---
 title: Veelgestelde vragen voor technische details
 description: Implementatiedetails met betrekking tot de Shopify-connector
-ms.date: 03/27/2023
+ms.date: 01/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -70,8 +70,7 @@ U kunt ook de [Experts Marketplace](https://experts.shopify.com/) verkennen om d
 ## Functies die momenteel niet worden ondersteund, houden we echter bij en we kunnen overwegen ze toe te voegen
 
 - B2B-functies, waaronder bedrijven, prijslijsten van bedrijven en betalingsvoorwaarden
-  - Momenteel is het mogelijk om via B2B aangemaakte orders te importeren. Als u meerdere kopers aan uw bedrijf hebt gekoppeld, moet u het automatisch maken van klanten niet inschakelen, maar elke Shopify-koper handmatig aan een betreffende klant koppelen.
-  - U moet bedrijfsprijslijsten bijhouden in Shopify.
+  - Uitgebreide ondersteuning voor B2B zal beschikbaar zijn in releasewave 1 van 2024. Zie [Business Central verbinden met Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b) voor meer informatie
 - Markten
   - Meerdere vertalingen van hoofdgegevens. U kunt één taal kiezen die wordt gebruikt voor het exporteren van productinformatie.
   - Prijzen per land/regio. Er is één prijslijst beschikbaar voor de geselecteerde valuta. De conversie naar andere valuta's wordt afgehandeld door Shopify.
@@ -84,6 +83,16 @@ Ja, de Shopify-connector is uitbreidbaar. Controleer GitHub om toegang te krijge
 ## Staat de Shopify-connector open voor bijdragen?
 
 Ja, deze extensie staat open voor bijdragen vanuit de community. U vindt de [broncode](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) in de opslagplaats voor add-ons voor Microsoft AL-toepassingen.
+
+## Uw versie van Shopify-connector maken
+
+Als u volgens Shopify een connector-app op de Shopify marktplaats wilt bouwen en publiceren met als voornaamste doel het overdragen of delen van verkopersgegevens aan een derde partij ([!INCLUDE [prod_short](../includes/prod_short.md)]), moet u schriftelijke toestemming hebben van Shopify. Als onderdeel van dit proces moet u toestemming krijgen van Microsoft via het "formulier voor gegevensbevestiging van eindontvangers". We moeten u vragen de zaak af te handelen met Shopify omdat Microsoft geen overeenkomsten met derden kan ondertekenen.
+
+### Wat u moet doen
+
+Controleer de Shopify-vereisten, omdat u mogelijk nog steeds een niet-vermelde app hebt.
+
+Als alternatief krijgt de Shopify-connector voor [!INCLUDE [prod_short](../includes/prod_short.md)] voortdurend nieuwe functies en nieuwe klanten. Als u een specifiek hiaat ontdekt, kunt u overwegen een productsuggestie (https://aka.ms/bcideas) of een codebijdrage aan [!INCLUDE [prod_short](../includes/prod_short.md)] in te dienen. Voor vereisten die mogelijk niet relevant zijn voor de meerderheid van de klanten en die niet gemakkelijk kunnen worden aangepakt door het huidige uitbreidbaarheidsmodel, kunt u contact opnemen met het [!INCLUDE [prod_short](../includes/prod_short.md)]-ontwikkelteam om het praktijkgeval te bespreken. We moeten een haalbare oplossing kunnen vinden.
 
 ## Zie ook
 

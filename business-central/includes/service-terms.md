@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 [!INCLUDE[prod_short](prod_short.md)] online valt onder de [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). De voorwaarden van de dienstverleningsovereenkomst worden beschreven in het document dat u kunt downloaden uit de sectie **Dienstverleningsovereenkomsten voor Microsoft Online Services** op de pagina [Licentievoorwaarden](https://www.microsoft.com/licensing/product-licensing/products).  
 

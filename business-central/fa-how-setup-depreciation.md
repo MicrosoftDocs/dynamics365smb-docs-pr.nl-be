@@ -6,9 +6,10 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-fixed-asset-depreciation"></a>Afschrijving van vaste activa instellen
+# Afschrijving van vaste activa instellen
 
 U kunt diverse afschrijvingsmethoden gebruiken ter voorbereiding van financiële stukken en de aangifte van inkomstenbelasting. Veel grote ondernemingen gebruiken lineaire afschrijving voor hun jaarverslag omdat deze methode in het algemeen tot hogere netto-inkomsten leidt. Voor inkomstenbelastingdoeleinden gebruiken veel bedrijven echter een versnelde afschrijvingsmethode, zoals boekwaarde-afschrijving. U definieert de afschrijvingsmethode van een activum met het veld **Afschrijvingsmethode** op de pagina **Vast activum**. Zie voor meer informatie over wat de verschillende methoden doen [Afschrijvingsmethoden](fa-depreciation-methods.md).
 
@@ -16,7 +17,7 @@ U stelt afschrijvingsboeken in waarin u de verschillende manieren definieert waa
 
 Wanneer u de betreffende afschrijvingsboeken hebt ingesteld, moet u aan elk vast activum een of meer afschrijvingsboeken toewijzen. Naar een afschrijvingsboek dat aan een vast activum wordt toegewezen, wordt als een afschrijvingsboek voor vaste activa verwezen. Het aantal afschrijvingsboeken dat u kunt instellen, is oneindig voor een vast activum.  
 
-## <a name="to-create-a-depreciation-book"></a>Een afschrijvingsboek maken
+## Een afschrijvingsboek maken
 
 In een afschrijvingsboek voor vaste activa geeft u op hoe vaste activa worden afgeschreven. Het is mogelijk om meerdere afschrijvingsboeken in te stellen om diverse afschrijvingsmethoden toe te passen.  
 
@@ -34,7 +35,7 @@ In een afschrijvingsboek voor vaste activa geeft u op hoe vaste activa worden af
 
 Als u bijvoorbeeld een vast activum uit gebruik neemt waarbij in het afschrijvingsboek geen afronding is gespecificeerd, maar het grootboek van uw bedrijf afronding vereist, ziet u bij het uit gebruik nemen van het vaste activum een foutmelding dat een bedrag moet worden afgerond in een post.  
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Een afschrijvingsboek aan een vast activum toewijzen
+## Een afschrijvingsboek aan een vast activum toewijzen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het vaste activum waarvoor u een afschrijvingsboek voor vaste activa wilt instellen.
@@ -48,7 +49,7 @@ Als u bijvoorbeeld een vast activum uit gebruik neemt waarbij in het afschrijvin
     > [!NOTE]  
     > Wanneer u de door de gebruiker gedefinieerde afschrijvingsmethode gebruikt, moet u het afschrijvingsboek op een andere manier toewijzen. Zie voor meer informatie [Door de gebruiker gedefinieerde afschrijvingsmethode instellen](fa-how-setup-user-defined-depreciation-method.md).
 
-## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Een afschrijvingsboek aan meerdere vaste activa toewijzen met een batchverwerking
+## Een afschrijvingsboek aan meerdere vaste activa toewijzen met een batchverwerking
 
 Als u een afschrijvingsboek wilt toewijzen aan meerdere vaste activa, kunt u de batchverwerking **VA-afschr.-boeken maken** gebruiken om VA-afschrijvingsboeken te maken.  
 
@@ -62,7 +63,7 @@ Als u een afschrijvingsboek wilt toewijzen aan meerdere vaste activa, kunt u de 
 6. Op het sneltabblad **Vast activum** kunt u met behulp van een filter aangeven voor welke activa u de afschrijvingsboeken voor vaste activa wilt maken.
 7. Kies de knop **Ok**.
 
-## <a name="to-set-up-depreciation-posting-types"></a>Boekingssoorten voor afschrijving instellen
+## Boekingssoorten voor afschrijving instellen
 
 Voor elk afschrijvingsboek moet u instellen hoe [!INCLUDE[prod_short](includes/prod_short.md)] diverse boekingssoorten moet verwerken. Bijvoorbeeld, of de boeking debet of credit moet zijn, en of het boekingssoort moet worden opgenomen in de afschrijvingsbasis.  
 
@@ -75,7 +76,7 @@ Voor elk afschrijvingsboek moet u instellen hoe [!INCLUDE[prod_short](includes/p
 
 Het wordt aangeraden om de instellingen van afschrijvingsboeken waarvoor al posten zijn geboekt niet te wijzigen. De wijzigingen gelden namelijk niet voor reeds geboekte posten, waardoor de statistische gegevens van het afschrijvingsboek onjuist worden.
 
-## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Standaardsjablonen en batches instellen voor afschrijvingsboeken voor vaste activa
+## Standaardsjablonen en batches instellen voor afschrijvingsboeken voor vaste activa
 
 Voor elk afschrijvingsboek definieert u een standaardinstelling van sjablonen en batches. U gebruikt deze standaardwaarden om regels van het ene dagboek naar het andere dagboek te dupliceren, dagboekregels te maken met de batchverwerkingen **Afschrijving berekenen** of **Vaste activa indexeren** of aanschafkosten in het verzekeringsdagboek te dupliceren.  
 
@@ -84,13 +85,13 @@ Voor elk afschrijvingsboek definieert u een standaardinstelling van sjablonen en
 3. Als u voor elke gebruiker een standaardinstelling wilt gebruiken, kiest u het veld **Gebruikers-id** om een selectie te maken op de pagina **Gebruikers**.  
 4. In de andere velden selecteert u de dagboeksjabloon of dagboekbatch die standaard moet worden gebruikt.  
 
-## <a name="fiscal-year-365-days-field-depreciation"></a>Afschrijving met Veld Boekjaar (365 dagen)
+## Afschrijving met Veld Boekjaar (365 dagen)
 
 Bij het berekenen van de afschrijvingen wordt in de batchverwerking Afschrijving berekenen gewoonlijk een standaardjaar van 360 gebruikt waarbij elk van de 12 maanden 30 dagen telt.
 
 Als u dit veld selecteert, wordt in de batchverwerking Afschrijving berekenen het agendajaar van 365 dagen gebruikt, waarbij elke maand hetzelfde aantal dagen heeft als op de agenda. De enige uitzondering is februari in schrikkeljaren, die door de batchtaak worden beschouwd als 28 dagen en niet 29. Daarom worden alle jaren, ook schrikkeljaren, geacht 365 dagen te hebben.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vaste activa instellen](fa-setup.md)  
 [Vaste activa](fa-manage.md)  

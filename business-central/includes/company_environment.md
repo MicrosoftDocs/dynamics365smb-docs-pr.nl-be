@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 [!INCLUDE[prod_short](prod_short.md)]-gebruikers ondersteunen soms meer dan één afdeling of suborganisatie binnen een business unit. Een bedrijf kan bijvoorbeeld verkoopkantoren hebben in verschillende steden en meerdere landen/regio's, dus heeft het voor elk kantoor een afzonderlijke bedrijfseenheid gemaakt. De kantoren in hetzelfde land/regio zijn opgezet als aparte *bedrijven* in een gedeelde *omgeving*. Andere kantoren zijn gemaakt als bedrijven in afzonderlijke omgevingen omdat ze geografisch gevestigd zijn in andere landen/regio's.
 
