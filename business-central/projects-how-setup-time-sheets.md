@@ -59,7 +59,7 @@ Aan het einde van de begeleide instelling kunt u ervoor kiezen om [!INCLUDE [pro
 
 In de volgende secties wordt beschreven hoe u urenstaten kunt instellen als u de begeleide instelling **Urenstaten instellen** niet gebruikt.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Algemene informatie handmatig instellen voor urenstaten
+### <a name="set-up-general-information-for-time-sheets-manually"></a>Algemene informatie handmatig instellen voor urenstaten
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resources instellen** in en kies vervolgens de gerelateerde koppeling.  
 1. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ In de volgende secties wordt beschreven hoe u urenstaten kunt instellen als u de
 | **Altijd** |De gebruiker in het veld **Verantwoordelijke** op de projectkaart keurt de urenstaat goed. |
 | **Alleen machine** |Als de urenstaat van een machine is gekoppeld aan een project, keurt de gebruiker in het veld **Verantwoordelijke** op de projectkaart de urenstaat goed. Als de urenstaat van een machine is gekoppeld aan een resource, keurt de gebruiker in het veld **Gebruikers-id van fiatteur van urenstaat** op de resourcekaart de urenstaat goed. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>Handmatig een beheerder van urenstaten toewijzen
+### <a name="assign-a-time-sheet-administrator-manually"></a>Handmatig een beheerder van urenstaten toewijzen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 3. Selecteer de gebruiker die de urenstaatbeheerder wordt en schakel vervolgens het selectievakje **Urenstaat-admin** in.  
@@ -82,7 +82,7 @@ In de volgende secties wordt beschreven hoe u urenstaten kunt instellen als u de
 > [!TIP]  
 > Het is raadzaam dat u slechts één gebruiker als beheerder van urenstaten van een bedrijf aanwijst. In de volgende procedure stelt u een urenstaateigenaar en fiatteur in waarbij de urenstaatfiatteur voor elke resource wordt toegewezen.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Handmatig een urenstaateigenaar en -fiatteur toewijzen
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Handmatig een urenstaateigenaar en -fiatteur toewijzen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resources** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de resource waarvoor u de mogelijkheid wilt instellen om urenstaten te gebruiken, en schakel vervolgens het selectievakje **Urenstaat gebruiken** in.  

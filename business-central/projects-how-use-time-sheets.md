@@ -131,7 +131,7 @@ Urenstaatregistratie wordt bijgehouden in uren, de standaard basiseenheid voor r
     > Een beheerder kan een urenstaatregel weigeren die ter goedkeuring is verzonden. Als een regel de status **Geweigerd** heeft, kunt u wijzigingen aanbrengen in de regel en opnieuw **Indienen** kiezen.  
 6. Kies de knop **Ok**.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Een urenstaat goedkeuren of weigeren
+## <a name="approve-or-reject-a-time-sheet"></a>Een urenstaat goedkeuren of weigeren
 
 Een urenstaat moet ter goedkeuring worden ingediend om te worden gebruikt. U kunt afzonderlijke regels goedkeuren en weigeren op een urenstaat of deze terugsturen naar de indiener. U kunt een urenstaat op twee manieren goedkeuren:
 
@@ -207,7 +207,7 @@ Nadat u de urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken
 5. Kies de actie **Boeken**.  
 6. Als u de boeking wilt controleren, kiest u de actie **Posten**. De pagina **Projectposten** wordt geopend met de resultaten van het boeken van het resourcedagboek.
 
-## <a name="to-archive-time-sheets"></a>Urenstaten verplaatsen naar archief
+## <a name="archive-time-sheets"></a>Urenstaten verplaatsen naar archief
 
 Nadat u urenstaten hebt geboekt, kunt u ze archiveren voor latere naslag. U moet alle regels op een urenstaat boeken voordat u deze kunt archiveren.
 
