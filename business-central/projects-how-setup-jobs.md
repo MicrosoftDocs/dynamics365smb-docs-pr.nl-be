@@ -11,7 +11,7 @@ ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# Projecten, prijzen en projectboekingsgroepen instellen
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Projecten, prijzen en projectboekingsgroepen instellen
 
 Als projectmanager kunt u taken instellen die alle projecten definiëren die u beheert in [!INCLUDE[prod_short](includes/prod_short.md)]. Gebruik de pagina **Projectinstellingen** om te definiëren hoe u projectfuncties gaat gebruiken.
 
@@ -22,7 +22,7 @@ Geef voor elk project verschillende informatie op:
 * Projectgrootboekrekeningen
 * Projectboekingsgroepen (vereist)
 
-## Algemene gegevens voor projecten instellen
+## <a name="to-set-general-information-for-jobs"></a>Algemene gegevens voor projecten instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Geef voor elk project verschillende informatie op:
 > [!NOTE]
 > Met de schakelaar **Gebruikslink standaard toepassen** op de pagina **Projectinstellingen** wordt aangegeven of projectposten standaard zijn gekoppeld aan projectplanningsregels. Schakel de schakelaar in om deze instelling toe te passen op alle nieuwe projecten. U kunt het bijhouden van het projectgebruik voor een specifiek project in- of uitschakelen door de schakelaar **Gebruikslink toepassen** op de pagina **Projectkaart** aan of uit te zetten.
 
-### Bijhouden van projectgebruik instellen
+### <a name="to-set-up-job-usage-tracking"></a>Bijhouden van projectgebruik instellen
 
 Als u aan een project werkt, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om gebruik te verkennen kunt u een koppeling tussen uw projectplanningsregels en het werkelijke verbruik maken. Met de koppeling kunt u uw kosten volgen en begrijpen hoeveel werk er nog is. Standaard is het soort projectplanningsregel **Budget**, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
 
@@ -44,7 +44,7 @@ Als u de schakelaar **Gebruikslink standaard toepassen** inschakelt, kunt u gege
 > [!IMPORTANT]
 > Als u geen waarde opgeeft in het veld **Regelsoort** op de projectdagboekregel of inkoopregel, worden er geen projectplanningsregels gemaakt wanneer u het projectdagboek of inkoopdocument boekt.
 
-## Prijzen instellen voor resources, artikelen en grootboekrekeningen voor projecten
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Prijzen instellen voor resources, artikelen en grootboekrekeningen voor projecten
 
 > [!NOTE]
 > In releasewave 2 van 2020 hebben we nieuwe processen uitgebracht voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd in **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -72,7 +72,7 @@ Wanneer u een resource, artikel of grootboekrekening voor een project kiest, geb
 
 ---
 
-## Projectboekingsgroepen instellen
+## <a name="to-set-up-job-posting-groups"></a>Projectboekingsgroepen instellen
 
 Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen moeten worden gebruikt voor projectwaardering. Om projecten te kunnen boeken, moet u rekeningen instellen voor het boeken voor elke projectboekingsgroep. Een boekingsgroep vertegenwoordigt een koppeling tussen het project en de wijze waarop het moet worden behandeld in het grootboek. Wanneer u een project maakt, geeft u een boekingsgroep op en wordt elk project dat u voor de taak maakt standaard gekoppeld aan die boekingsgroep. Als u echter taken maakt, kunt u de standaardinstellingen overschrijven en een boekingsgroep selecteren die meer geschikt is.  
 
@@ -100,7 +100,7 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 | **Rekening verantwoorde kosten** |De kostenrekening die de verantwoorde kosten voor het project bevat. Dit is normaliter een debetkostenrekening. | Verantwoorde kosten|
 | **Rekening verantwoorde omzet** |De resultatenrekening die de verantwoorde resultaten voor het project bevat. Dit is normaliter een creditresultatenrekening. | Verantwoorde verkoop|
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Projectbeheer instellen](projects-setup-projects.md)  
 [Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
