@@ -63,16 +63,19 @@ De volgende tabel beschrijft de waarden van het veld **Status**.
 |--|--|
 | Gereed | Het taakwachtrij-item is klaar om te worden uitgevoerd. |
 | In verwerking | Het taakwachtrij-item wordt verwerkt. Dit veld wordt bijgewerkt terwijl de taakwachtrij wordt uitgevoerd. |
-| Afwachten | De standaardstatus van het taakwachtrij-item wanneer het wordt gemaakt. Kies de actie **Status instellen op Gereed** om de status te wijzigen in **Gereed**. Kies de actie **Instellen op afwachten** om de status terug te zetten naar **Afwachten**. |
+| Afwachten | De standaardstatus van het taakwachtrij-item wanneer het wordt gemaakt. Kies de actie **Status instellen op Gereed** om de status te wijzigen in **Gereed**. Kies de actie **Instellen op afwachten** om de status terug te zetten naar **Afwachten**. Ga voor meer informatie naar [Over afwachten](#about-on-hold).|
 | Fout | Er is iets fout gegaan. Kies **Fout weergeven** om het foutbericht weer te geven. |
 | Voltooid | Het taakwachtrij-item is voltooid. |
 
-> [!Tip]  
+> [!TIP]  
 > Taakwachtrij-items worden niet meer uitgevoerd wanneer er een fout is. Dit kan bijvoorbeeld een probleem zijn wanneer een item verbinding maakt met een externe service, zoals een bankfeed. Als de service tijdelijk niet beschikbaar is en het item in de taakwachtrij geen verbinding kan maken, geeft het item een fout weer en stopt het met werken. U moet het taakwachtrij-item handmatig opnieuw starten. De velden **Maximaal aantal pogingen** en **Vertraging bij opnieuw uitvoeren (sec.)** kunnen u echter helpen deze situatie te voorkomen. Met het veld **Maximaal aantal pogingen** kunt u specificeren hoe vaak het invoeren van het taakwachtrij-item kan mislukken voordat het stopt met proberen te worden uitgevoerd. Met het veld **Vertraging bij opnieuw uitvoeren (sec.)** kunt u de hoeveelheid tijd, in seconden, tussen pogingen specificeren. De combinatie van deze twee velden kan ervoor zorgen dat het taakwachtrij-item actief blijft totdat de externe service beschikbaar komt.
 
+### Over afwachten
+
+Het instellen van een taakwachtrij-item op **Afwachten** heeft geen invloed op een taak die al wordt uitgevoerd. Zodra een taak in de taakwachtrij is gestart, blijft deze lopen totdat deze is voltooid, ongeacht eventuele latere wijzigingen in de taakwachtrij, zoals het in de wacht zetten ervan.<br><br>De status **Afwachten** wordt doorgaans gebruikt om te voorkomen dat een taak automatisch wordt gestart wanneer de geplande starttijd wordt bereikt. Hiermee kunt u de uitvoering van een taak tijdelijk onderbreken voordat deze wordt verwerkt. Zodra een taak al actief is, heeft het wijzigen van de status in Afwachten echter geen invloed op de uitvoering van de taak.<br><br>Als u een lopende taak moet beëindigen of annuleren, kunt u dit doen door handmatig in het proces in te grijpen, bijvoorbeeld door de bijbehorende sessie of het proces dat verantwoordelijk is voor het uitvoeren van de taak te beëindigen.
 ### De status voor een taak weergeven
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Taakwachtrijposten** een taakwachtrijpost en kies vervolgens de actie **Logboekvermeldingen**.  
 
 > [!TIP]
@@ -125,7 +128,7 @@ Als een taakwachtrijpost een fout vertoont, is uw eerste optie om het probleem o
 
 Als opnieuw starten niet helpt, ligt het probleem mogelijk in de code. U vindt de eigenaar (ook wel de *uitgever*) van de code in de AL-stacktracering in het taakwachtrijlogboek. Neem contact op met uw Microsoft-partner als de fout afkomstig is van een app/extensie. Als de fout afkomstig is van een Microsoft-toepassing, open dan een ondersteuningsverzoek bij Microsoft.
 
-Als u contact opneemt met uw Microsoft-partner of Microsoft voor ondersteuning, geef dan de volgende informatie door:
+Als u contact opneemt met uw Microsoft-partner of Microsoft voor ondersteuning, geeft u de volgende informatie door:
 
 * De id van de taakwachtrijpost waar de fout optrad
 * Het tijdstempel van wanneer de fout optrad

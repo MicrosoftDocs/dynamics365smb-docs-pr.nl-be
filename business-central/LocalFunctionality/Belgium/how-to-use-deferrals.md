@@ -3,9 +3,7 @@ title: Uitstel in rapporten van het Verkoopdagboek en Inkoopdagboek
 description: Leer hoe u uitstellingen kunt instellen en gebruiken in rapporten van het Verkoopdagboek en Inkoopdagboek in de Belgische versie van Business Central.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'deferral, sales ledger, purchase ledger'
 ms.search.form: '279, 1700, 1701'
 ms.date: 03/13/2023
@@ -13,11 +11,11 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="deferrals-in-sales-ledger-and-purchase-ledger-reports"></a>Uitstel in rapporten van het Verkoopdagboek en Inkoopdagboek
+# Uitstel in rapporten van het Verkoopdagboek en Inkoopdagboek
 
 Wanneer u uitstellingen gebruikt, moeten de rapporten van het Verkoopdagboek en Inkoopdagboek in de Belgische versie van Dynamics 365 Business Central alleen de originele vermeldingen weergeven uit facturen en creditnota´s en niet de vermeldingen die zijn gemaakt met uitstellingen.
 
-## <a name="set-up-deferrals"></a>Uitstellingen instellen
+## Uitstellingen instellen
 
 1. Selecteer het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Broncode instellen** in en selecteer vervolgens de gerelateerde koppeling.  
 2. Vul op het sneltabblad **Algemeen** de vereiste veldgegevens in, zoals in de volgende tabel is beschreven.  
@@ -33,7 +31,7 @@ Wanneer u uitstellingen gebruikt, moeten de rapporten van het Verkoopdagboek en 
 > [!NOTE]
 > U kunt specifieke broncodes configureren voor uitstelboekingen of dezelfde broncode gebruiken voor het algemene dagboek, verkoopdagboeken en inkoopdagboeken.  
 
-## <a name="belgium-sales-ledger-and-purchase-ledger-reports"></a>Belgische rapporten van het Verkoopdagboek en Inkoopdagboek
+## Belgische rapporten van het Verkoopdagboek en Inkoopdagboek
 
 Als de uitstelvermeldingen een specifieke broncode hebben, kunt u de rapportweergave aanpassen door **Uitstelvermeldingen uitsluiten** te selecteren in de rapporten van het Verkoopdagboek en het Inkoopdagboek. 
 
@@ -42,7 +40,7 @@ Wanneer u de optie instelt op **Uit**, geeft het rapport alle vermeldingen weer 
 > [!NOTE]
 > De volgende perioden van één maand bevat geen uitstelvermeldingen als de schakelaar op **Aan** staat.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Belgische lokale functionaliteit](belgium-local-functionality.md)
 [Dagboeksjablonen verplicht maken in de Belgische versie](specify-journal-template-mandatory.md)  

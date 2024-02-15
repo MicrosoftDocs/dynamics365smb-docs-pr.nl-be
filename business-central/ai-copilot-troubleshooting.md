@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: troubleshooting
 ms.collection:
   - bap-ai-copilot
-ms.date: 11/15/2023
+ms.date: 02/01/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -29,6 +29,10 @@ Wanneer u Copilot probeert te gebruiken en u een foutmelding krijgt die lijkt op
 
 - Zorg er eerst voor dat de functie is geactiveerd op de pagina **Copilot en AI-mogelijkheden**. [Meer informatie over het activeren van Copilot- en AI-mogelijkheden](enable-ai.md#activate-features). 
 - Zorg er vervolgens voor dat de privacyverklaring voor Azure OpenAI-integratie niet is ingesteld op **Voor iedereen afwijzen**. Als dat zo is, wijzig dit dan in **Voor iedereen accepteren**. [Meer informatie over privacyverklaringen](privacy-notices-status.md).
+
+## Copilot-mogelijkheden van Microsoft die ​​niet worden vermeld op de pagina Copilot- en AI-mogelijkheden
+
+Als geen van de AI-functies van Microsoft wordt weergegeven op de pagina **Copilot- en AI-mogelijkheden**, komt dit waarschijnlijk doordat u een of meer ingesloten apps in uw omgeving hebt geïnstalleerd. Ingesloten apps kunnen hun eigen Copilot-mogelijkheden bieden, maar door Microsoft gepubliceerde mogelijkheden zijn niet compatibel met omgevingen waarin apps zijn ingesloten.
 
 ## Zie ook
 

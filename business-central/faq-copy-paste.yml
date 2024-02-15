@@ -3,6 +3,7 @@ metadata:
   title: Veelgestelde vragen over gegevens kopiëren en plakken
   description: Krijg antwoorden op veelgestelde vragen over het kopiëren en plakken van gegevens uit velden en rijen van Business Central-pagina's.
   ms.topic: faq
+  ms.service: dynamics-365-business-central
 title: Veelgestelde vragen over kopiëren en plakken
 summary: |
   U kunt een of meer rijen (records) uit een lijst of een enkel veld op een pagina kopiëren en vervolgens wat u hebt gekopieerd, plakken op dezelfde pagina, een andere pagina of een extern document (zoals Microsoft Excel en Outlook-e-mail).  

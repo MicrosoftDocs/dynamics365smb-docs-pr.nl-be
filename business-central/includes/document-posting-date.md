@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 11/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 De velden **Documentdatum** en **Boekingsdatum** op verkoop- en inkoopdocumenten kunnen u helpen te voldoen aan de boekhoudnormen en nauwkeurige financiële berekeningen te garanderen. De velden dienen verschillende doeleinden:

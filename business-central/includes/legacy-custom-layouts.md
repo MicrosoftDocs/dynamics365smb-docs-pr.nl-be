@@ -1,2 +1,5 @@
+---
+ms.service: dynamics-365-business-central
+---
 > [!NOTE]
 > Aangepaste rapportlay-outs is een verouderde functie die wordt uitgefaseerd. In plaats daarvan moet u door de gebruiker gedefinieerde lay-outs maken zoals [hier](../ui-get-started-layouts.md) wordt beschreven.
