@@ -12,7 +12,7 @@ ms.date: 07/27/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="set-up-time-sheets"></a>Urenstaten instellen
+# Urenstaten instellen
 
 Urenstaten in [!INCLUDE[prod_short](includes/prod_short.md)] verwerken tijdsregistraties in wekelijkse termijnen van zeven dagen. U kunt ze gebruiken om de tijd te volgen die aan projecten wordt besteed en u kunt ze gebruiken om eenvoudige registratie van resourcetijd vast te leggen. Voordat u urenstaten kunt gebruiken, moet u specificeren welke gebruikers urenstaten moeten indienen en hoe u urenstaten wilt configureren.  
 
@@ -26,7 +26,7 @@ Geef desgewenst op of en hoe urenstaten worden goedgekeurd. Afhankelijk van de w
 
 Wanneer u urenstaten hebt ingesteld, kunt u urenstaten maken voor resources en de resources kunnen urenstaatregels boeken. Wijs desgewenst urenstaten toe aan projectplanningsregels. Ga voor meer informatie naar [Urenstaten beheren](projects-how-use-time-sheets.md).  
 
-## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Urenstaten instellen met de begeleide instelling
+## Urenstaten instellen met de begeleide instelling
 
 Een begeleide instelling kan u helpen urenstaten in te stellen.  
 
@@ -55,11 +55,11 @@ Aan het einde van de begeleide instelling kunt u ervoor kiezen om [!INCLUDE [pro
 > [!IMPORTANT]
 > Als u releasewave 1 (v22) van 2023 of later gebruikt en wilt zorgen dat u urenstaten op mobiele apparaten kunt beheren, moet u de optie **Nieuwe urenstaatervaring gebruiken** voor de urenstaatinstelling inschakelen, zoals beschreven in de volgende procedure.
 
-## <a name="set-up-time-sheets-manually"></a>Urenstaten handmatig instellen
+## Urenstaten handmatig instellen
 
 In de volgende secties wordt beschreven hoe u urenstaten kunt instellen als u de begeleide instelling **Urenstaten instellen** niet gebruikt.  
 
-### <a name="set-up-general-information-for-time-sheets-manually"></a>Algemene informatie handmatig instellen voor urenstaten
+### Algemene informatie handmatig instellen voor urenstaten
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resources instellen** in en kies vervolgens de gerelateerde koppeling.  
 1. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ In de volgende secties wordt beschreven hoe u urenstaten kunt instellen als u de
 | **Altijd** |De gebruiker in het veld **Verantwoordelijke** op de projectkaart keurt de urenstaat goed. |
 | **Alleen machine** |Als de urenstaat van een machine is gekoppeld aan een project, keurt de gebruiker in het veld **Verantwoordelijke** op de projectkaart de urenstaat goed. Als de urenstaat van een machine is gekoppeld aan een resource, keurt de gebruiker in het veld **Gebruikers-id van fiatteur van urenstaat** op de resourcekaart de urenstaat goed. |
 
-### <a name="assign-a-time-sheet-administrator-manually"></a>Handmatig een beheerder van urenstaten toewijzen
+### Handmatig een beheerder van urenstaten toewijzen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 3. Selecteer de gebruiker die de urenstaatbeheerder wordt en schakel vervolgens het selectievakje **Urenstaat-admin** in.  
@@ -82,7 +82,7 @@ In de volgende secties wordt beschreven hoe u urenstaten kunt instellen als u de
 > [!TIP]  
 > Het is raadzaam dat u slechts één gebruiker als beheerder van urenstaten van een bedrijf aanwijst. In de volgende procedure stelt u een urenstaateigenaar en fiatteur in waarbij de urenstaatfiatteur voor elke resource wordt toegewezen.  
 
-### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Handmatig een urenstaateigenaar en -fiatteur toewijzen
+### Handmatig een urenstaateigenaar en -fiatteur toewijzen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resources** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de resource waarvoor u de mogelijkheid wilt instellen om urenstaten te gebruiken, en schakel vervolgens het selectievakje **Urenstaat gebruiken** in.  
@@ -92,7 +92,7 @@ In de volgende secties wordt beschreven hoe u urenstaten kunt instellen als u de
 > [!NOTE]  
 > U kunt de id van de urenstaatgoedkeurder niet wijzigen als er urenstaten zijn die nog niet zijn verwerkt en die de status **Ingediend** of **Open** hebben.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Urenstaten gebruiken voor projecten](projects-how-use-time-sheets.md)  
 [Urenstaten maken](projects-how-use-time-sheets.md#to-create-time-sheets)  

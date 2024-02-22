@@ -2,13 +2,14 @@
 title: Een klantverkooporder maken en producten verkopen
 description: Beschrijft hoe u een verkooporder maakt om uw overeenkomst vast te leggen met een klant om producten onder bepaalde voorwaarden te verkopen of te verhandelen.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Producten verkopen met een klantverkooporder
 
@@ -89,6 +90,12 @@ Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het
 ## Externe documentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Werken met bedragvelden
+
+De waarden in velden die bedragen weergeven kunnen positief of negatief zijn, afhankelijk van of de waarde een credit of een debet vertegenwoordigt. In deze video ziet u hoe u werkt met velden die bedragen weergeven.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## Zie ook
 

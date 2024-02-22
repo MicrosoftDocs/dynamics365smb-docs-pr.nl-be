@@ -1560,6 +1560,7 @@ ms.service: dynamics-365-business-central
 #### [Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)
 #### [Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)
 #### [Documentdatums bijwerken met boekingsdatums](across-link-doc-dates-to-posting-dates.md)
+#### [Een voorraadwaarschuwing weergeven](sales-setup-show-stockout-warning.md)
 ### Inkoop instellen
 #### [Inkoop instellen](purchasing-setup-purchasing.md)
 #### [Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md)
