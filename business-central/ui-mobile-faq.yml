@@ -38,13 +38,13 @@ sections:
           | Acties op de actiebalk | Alleen gepromote acties worden weergegeven. | Alleen gepromote acties worden weergegeven. |  |
           | Feitenblokken | Niet weergegeven op lijstpagina's of werkbladpagina's. | Niet weergegeven op lijstpagina's of werkbladpagina's. | Lijst `Customer` in het rolcentrum `Small Business`. |
           | Geavanceerde filters | Er is geen kolomspecifieke filtering beschikbaar. | Er is geen kolomspecifieke filtering beschikbaar. | Op de lijstpagina `Customer`. |
-          | Vertel me | Het moet ingeschakeld zijn in [Functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management) met behulp van de schakelaar **Functie: Pagina's en gegevens zoeken in de mobiele app**. De sectie **Ophalen uit Microsoft AppSource** in de resultaten voor apps is niet beschikbaar. | Hetzelfde als tablets | Zie [Pagina's en informatie zoeken met Vertel me](ui-search.md). |  |
-          | Rolverkenner | Nog niet beschikbaar. | Nog niet beschikbaar. | Zie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md). |
+          | Vertel me | Het moet ingeschakeld zijn in [Functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management) met behulp van de schakelaar **Functie: Pagina's en gegevens zoeken in de mobiele app**. De sectie **Ophalen uit Microsoft AppSource** in de resultaten voor apps is niet beschikbaar. | Hetzelfde als tablets | Ga naar [Pagina's en informatie zoeken met Vertel me](ui-search.md). |  |
+          | Rolverkenner | Nog niet beschikbaar. | Nog niet beschikbaar. | Ga naar [Pagina's zoeken met de rolverkenner](ui-role-explorer.md). |
           | Velden op sneltabbladen | Velden op sneltabbladen op lijstpagina's worden niet weergegeven. Alleen het repeaterelement wordt weergegeven in het inhoudsgebied van de pagina. | Niet beschikbaar. |  |
           | Selecteren vanuit volledige lijst | Niet beschikbaar voor zoekopdrachten. Gebruikers kunnen geen acties uitvoeren op een opzoekpagina en hebben geen toegang tot de volledige set records. | Niet beschikbaar voor zoekopdrachten. Gebruikers kunnen geen acties uitvoeren op een opzoekpagina en hebben geen toegang tot de volledige set records. | Op de `Item Card` bij het selecteren van de **Basismaateenheden**. |
-          | Zoeken in lijstkolommen | Gedeeltelijk ondersteund. Zoeken omvat geen FlowFields. | Gedeeltelijk ondersteund. Zoeken omvat geen FlowFields. | Zie voorbeelden op de lijstpagina `Customers`. |
-          | Opzoekacties | Beschikbaar. | Beschikbaar, met het verschil dat geavanceerde en eenvoudige zoekacties zich op dezelfde manier gedragen op de telefoon. De zoekopdracht zal de kaart, feitenblokken of veldgroepen niet weergeven. | Zie voorbeelden op de pagina `Customer Card`. |
-          | Matrix-besturingselementen | Niet beschikbaar. | Niet beschikbaar. | Zie voorbeeld in `G/L Budget`. |
+          | Zoeken in lijstkolommen | Gedeeltelijk ondersteund. Zoeken omvat geen FlowFields. | Gedeeltelijk ondersteund. Zoeken omvat geen FlowFields. | Ga naar voorbeelden op de lijstpagina `Customers`. |
+          | Opzoekacties | Beschikbaar. | Beschikbaar, met het verschil dat geavanceerde en eenvoudige zoekacties zich op dezelfde manier gedragen op de telefoon. De zoekopdracht zal de kaart, feitenblokken of veldgroepen niet weergeven. | Ga naar voorbeelden op de pagina `Customer Card`. |
+          | Matrix-besturingselementen | Niet beschikbaar. | Niet beschikbaar. | Ga naar het voorbeeld in `G/L Budget`. |
           | Bestand downloaden | Beschikbaar. Kan niet meerdere bestanden tegelijk downloaden. | Beschikbaar. Kan niet meerdere bestanden tegelijk downloaden. | Rapport `Trial Balance` in het selectievakje **Afdrukken naar Excel**. |
           | Werkbladpagina's | Beschikbaar. | Niet beschikbaar; er wordt een foutmelding weergegeven. | Werkblad `Sales Price` of `Cash Flow`. |
           | Lijsten | Beschikbaar. | Beschikbaar, met het verschil dat deze in een baksteenlay-out worden weergegeven. | Pagina's met klanten of verkooporders. |
@@ -53,11 +53,11 @@ sections:
       - question: |
           Is het dezelfde ervaring op tablets en telefoons?
         answer: |
-          Bijna, maar niet helemaal. Zie de lijst in de sectie [Is het dezelfde ervaring in de apps als in de browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
+          Bijna, maar niet helemaal. Ga naar de lijst in de sectie [Is het dezelfde ervaring in de apps als in de browser?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
       - question: |
           Kan ik de app verbinden met onze on-premise oplossing?
         answer: |
-          Ja, dat kan. Het is een iets andere manier om aan te melden, dat is alles. Zie [Business Central on-premises gebruiken?](install-mobile-app.md#use-business-central-on-premises) voor meer informatie.  
+          Ja, dat kan. Het is een iets andere manier om aan te melden, dat is alles. Ga naar [Business Central on-premises gebruiken?](install-mobile-app.md#use-business-central-on-premises) voor meer informatie.  
       - question: |
           Kan een gastgebruiker de app gebruiken om toegang te krijgen tot onze Business Central-oplossing?
         answer: |

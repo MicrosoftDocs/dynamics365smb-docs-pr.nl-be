@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-De velden **Documentdatum** en **Boekingsdatum** op verkoop- en inkoopdocumenten kunnen u helpen te voldoen aan de boekhoudnormen en nauwkeurige financiële berekeningen te garanderen. De velden dienen verschillende doeleinden:
+De velden **Documentdatum** en **Boekingsdatum** op verkoop- en inkoopdocumenten helpen u te voldoen aan de boekhoudnormen en nauwkeurige financiële berekeningen op te halen. De velden dienen verschillende doeleinden:
 
 - Wil [!INCLUDE [prod_short](prod_short.md)] de financieringskosten en het verschuldigde bedrag op verkoopfacturen correct berekenen, dan moet de **Documentdatum** overeenkomen met een van de volgende datums:
 

@@ -2,14 +2,16 @@
 title: Overzicht van taken voor het toewijzen van kosten en inkomsten
 description: Beschrijft de taken om een post in een periodiek dagboek te verdelen over verschillende rekeningen wanneer u het dagboek boekt.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: overview
 ms.devlang: al
 ms.search.form: '283, 5629'
-ms.date: 09/26/2023
-ms.author: bholtorf
+ms.date: 02/05/2024
+ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="allocate-recurring-costs-and-income"></a>Periodieke kosten en inkomsten toewijzen
+# Periodieke kosten en inkomsten toewijzen
 
 U kunt een post in een periodiek dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. Voor meer informatie over terugkerende algemene dagboeken gaat u naar [Werken met periodieke dagboeken](ui-work-general-journals.md#work-with-recurring-journals). 
 
@@ -24,7 +26,7 @@ De toewijzingsfuncties werken met periodieke dagboeken en in VA-dagboeken.
 
 In de volgende procedures wordt beschreven hoe voorbereidingen moeten worden getroffen om kosten in een periodiek dagboek te verdelen door verdeelsleutels te definiëren. Wanneer verdeelsleutels worden gedefinieerd, voltooit en boekt u het dagboek zoals elk ander periodiek dagboek. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 
-## <a name="to-set-up-allocation-keys"></a>Verdeelsleutels instellen
+## Verdeelsleutels instellen
 
 U kunt een post in een periodiek dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. De verdeling kan plaatsvinden op basis van aantal, percentage of bedrag.  
 
@@ -42,15 +44,17 @@ U kunt een post in een periodiek dagboek verdelen over verschillende rekeningen 
 10. Kies **OK** na het invoeren van de verdeelsleutelregels om terug te keren naar de pagina **Periodiek dagboek**. Het veld **Verdeeld bedrag (LV)** wordt ingevuld en de inhoud komt overeen met het veld **Bedrag**.
 11. Boek het dagboek.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Een reeds ingestelde verdeelsleutel wijzigen
+## Een reeds ingestelde verdeelsleutel wijzigen
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Periodiek dagboek** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina **Periodiek dagboek** het dagboek met de verdeling.
-3. Kies de regel met de verdeelsleutel en kies vervolgens **Verdeelsleutels**.
-4. Pas de relevante velden aan en kies vervolgens de knop **OK**.
+3. Kies de regel met de verdeelsleutel en kies vervolgens de actie **Verdeelsleutels**.
+4. Pas de relevante velden aan en kies vervolgens **OK**.
 
-## <a name="see-also"></a>Zie ook
-[Afsluitingsjaren en -perioden](year-close-years-periods.md)  
-[Werken met diversendagboeken](ui-work-general-journals.md)    
+## Zie ook
+
+[Jaren en perioden afsluiten](year-close-years-periods.md)  
+[Werken met dagboeken](ui-work-general-journals.md)    
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

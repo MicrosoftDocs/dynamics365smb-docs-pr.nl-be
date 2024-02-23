@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Op inkoopdocumenten en dagboeken kunt u een documentnummer opgeven dat verwijst naar het nummeringssysteem van de leverancier. Gebruik dit veld om het nummer vast te leggen dat de leverancier aan de order, factuur of creditnota heeft toegewezen. U kunt dit externe documentnummer later gebruiken als u om de een of andere reden de geboekte post moet zoeken met dit nummer.
