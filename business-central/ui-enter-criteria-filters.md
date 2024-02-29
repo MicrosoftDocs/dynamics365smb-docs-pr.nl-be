@@ -273,7 +273,7 @@ Wanneer u filtercriteria invoert, kunt u ook woorden typen die een speciale bete
 > [!TIP]
 > Uw organisatie kan aangepaste tokens gebruiken. Als u informatie wilt over de volledige set tokens die voor u beschikbaar zijn of als u aangepaste tokens wilt toevoegen, overlegt u met uw beheerder. Voor technische informatie raadpleegt u [Filtertokens toevoegen](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### <a name="me-or-userid-records-assigned-to-you"></a>(%me of %userid) Records die aan u zijn toegewezen
+#### <a name="me-or-user-records-assigned-to-you"></a>(%me of %userid) Records die aan u zijn toegewezen
 
 Gebruik `%me` of `%userid` wanneer u velden filtert die de gebruikers-id bevatten, zoals het veld **Toegewezen aan gebruikers-id**, om alle records weer te geven die aan u zijn toegewezen.
 
