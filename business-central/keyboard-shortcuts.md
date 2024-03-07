@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-shortcuts"></a>Sneltoetsen
+# Sneltoetsen
 
 Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,7 +23,7 @@ Zie [Sneltoetsen (alleen pc)](keyboard-shortcuts-cheatsheet.md) voor een overzic
 
 
 
-## <a name="overview"></a>Overzicht
+## Overzicht
 
 Sneltoetsen vergroten de toegankelijkheid en maken het gemakkelijker en efficiënter te navigeren naar verschillende gebieden en elementen op een pagina. De meeste webbrowsers ondersteunen deze sneltoetsen, maar het gedrag kan enigszins variëren.
 
@@ -38,7 +38,7 @@ De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows 
 > [!NOTE]
 > Naast de algemene sneltoetsen die in dit artikel worden beschreven, is er een aantal bedrijfsspecifieke sneltoetsen beschikbaar. Bijvoorbeeld in de generieke versie van [!INCLUDE[prod_short](includes/prod_short.md)] boekt <kbd>F9</kbd> een document en toont <kbd>Ctrl</kbd>+<kbd>F7</kbd> de financiële posten voor een record wanneer u de record opent in een kaart. Dit artikel bevat enkele van de meest voorkomende bedrijfsspecifieke sneltoetsen, die cursief worden weergegeven. Houd er rekening mee dat de daadwerkelijke snelkoppelingen in uw oplossing kunnen verschillen. In de gebruikersinterface wordt de sneltoets weergegeven in de knopinfo voor de betreffende actie.
 
-## <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a>Algemene sneltoetsen
+##  <a name="Keyboard"></a> Algemene sneltoetsen
 
 De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschillende elementen van een pagina. Elementen omvatten zaken als acties, vervolgkeuzelijsten, zoekopdrachten en meer. Voor details over sneltoetsen voor het navigeren door records wanneer u zich in een lijst bevindt, kunt u het volgende gedeelte raadplegen.
 
@@ -73,14 +73,14 @@ De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschill
 |<kbd>Shift</kbd>+<kbd>Tab</kbd>|De focus verplaatsen naar het vorige (besturings)element op een pagina, bijvoorbeeld acties, knoppen, velden of lijstkoppen.|
 |<kbd>J</kbd> en <kbd>N</kbd>|De knoppen **Ja** en **Nee** activeren in dialoogvensters. De werkelijke toetsen zijn afhankelijk van uw huidige taal die is opgegeven in **Mijn instellingen**. Selecteer bijvoorbeeld <kbd>J</kbd> om de knop **Ja** te activeren bij gebruik van de Nederlandse taal.|
 
-## <a name="keyboard-shortcuts-in-lists"></a>Sneltoetsen in lijsten
+## Sneltoetsen in lijsten
 
 De volgende tabel beschrijft de sneltoetsen die u op een lijstpagina kunt gebruiken. De sneltoetsactie is afhankelijk van of de pagina in de lijstweergave of de tegelweergave wordt weergegeven.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
-### <a name="general"></a>Algemeen
+### Algemeen
 
 |Selecteer deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave|Als u dit wilt doen in een tegelweergave |
 |--------------------------------|-------------------------|--------------------------|
@@ -96,7 +96,7 @@ De volgende tabel beschrijft de sneltoetsen die u op een lijstpagina kunt gebrui
 |<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>|Voorgestelde regels op de pagina **Cashflowvoorstel** verzenden.|Niet van toepassing.|
 |<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>|Serienummers en lotnummers weergeven of bewerken die zijn toegewezen aan het regelartikel in het document of dagboek.|Niet van toepassing.|
 
-### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigeren tussen rijen en kolommen
+### <a name="navigateshortcuts"></a> Navigeren tussen rijen en kolommen
 
 Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rasters met rijen en kolommen, zoals lijstpagina's en **Regels**-onderdelen in documenten. Het verplaatsen van de ene cel naar de andere over een raster is volledig toetsenbordcompatibel.
 
@@ -117,7 +117,7 @@ Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rast
 | <kbd>Tab</kbd> | In een bewerkbare lijst in dezelfde rij naar het volgende veld naar rechts gaan. | Niet van toepassing. | 
 | <kbd>Shift</kbd>+<kbd>Tab</kbd> | In een bewerkbare lijst in dezelfde rij naar het vorige veld naar links gaan. | Niet van toepassing. |
 
-### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Selecteren, kopiëren en plakken
+### <a name="CopyRows"></a>Selecteren, kopiëren en plakken
 
 |Selecteer deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |
 |--------------------------------|--------------------------|--------------------------|
@@ -135,7 +135,7 @@ Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rast
 |<kbd>Shift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Shift</kbd>+<kbd>Fn</kbd>+<kbd>pijl omlaag</kbd>)|De selectie van rijen uitbreiden en alle zichtbare rijen onder de huidige selectie van rijen toevoegen.|Niet van toepassing.|
 |<kbd>F8</kbd>|Het veld kopiëren in dezelfde kolom van de rij erboven en het in de huidige rij plakken. U kunt dit alleen doen in bewerkbare lijsten. Gebruik deze sneltoets gevolgd door een <kbd>Tab</kbd> om snel velden te vullen in regelartikelen die u dezelfde waarde wilt geven als de rij erboven.|Niet van toepassing.|
 
-### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Lijsten doorzoeken en filteren
+### <a name="KeyboardFilter"></a>Lijsten doorzoeken en filteren
 
 |Selecteer deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
@@ -147,14 +147,14 @@ Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rast
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Filters opnieuw instellen. Dit doet hetzelfde als **Filters opnieuw instellen** kiezen in het filterdeelvenster en geldt voor veld- en totalenfilters.<br /><br /> Filters krijgen weer de standaardfilters voor de huidige weergave. Als de huidige weergave **Alle** is, is dit het equivalent van terugkeren naar een ongefilterde weergave met alle records. |
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Focus wijzigen van het filterdeelvenster terug naar de lijst.|
 
-## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Sneltoetsen in kaarten en documenten
+## Sneltoetsen in kaarten en documenten
 
 De volgende sneltoetsen zijn beschikbaar op kaartpagina's, zoals **Klant**, en documentpagina's, zoals **Verkooporder**, voor het weergeven en wijzigen van records.
 
 |Selecteer deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>D</kbd>|De dimensiesetposten openen.|
-|<kbd>Alt</kbd>+<kbd>F6</kbd>|Schakelen tussen samenvouwen en uitvouwen voor het huidige <kbd>sneltabblad</kbd> of onderdeel (subpagina).|
+|<kbd>Alt</kbd>+<kbd>F6</kbd>|Schakelen tussen samenvouwen en uitvouwen voor het huidige sneltabblad of onderdeel (subpagina).|
 |<kbd>Alt</kbd>+<kbd>F9</kbd>|Nieuw document en maken en boeken.|
 |<kbd>Alt</kbd>+<kbd>G</kbd>|Open de pagina **Posten zoeken** om posten te zoeken die betrekking hebben op het geboekte document. Werkt ook op lijsten.|
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Een pagina openen om een nieuwe record te maken; dezelfde manier als de actie **Nieuw** kiezen. |
@@ -168,15 +168,15 @@ De volgende sneltoetsen zijn beschikbaar op kaartpagina's, zoals **Klant**, en d
 |<kbd>Ctrl</kbd>+<kbd>F7</kbd>|Posten, logboekposten, kostenposten, enzovoort openen.|
 |<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Document vrijgeven.|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> |Het gedeelte met regelitems maximaliseren op een documentpagina. Druk nogmaals op de toetsen om terug te keren naar de normale weergave. Zie voor meer informatie [Focussen op regelitems](ui-enter-data.md#Focus).|
-|<kbd>F6</kbd>|Naar het volgende <kbd>sneltabblad</kbd> of onderdeel (subpagina) gaan.|
+|<kbd>F6</kbd>|Naar het volgende sneltabblad of onderdeel (subpagina) gaan.|
 |<kbd>F7</kbd>|Statistieken openen.|
 |<kbd>F9</kbd>|Document boeken, registreren of tegenboeken.|
 |<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Magazijnontvangst boeken, afdrukken en opslaan.|
-|<kbd>Shift</kbd>+<kbd>F6</kbd>|Naar het vorige <kbd>sneltabblad</kbd> of onderdeel (subpagina) gaan.|
+|<kbd>Shift</kbd>+<kbd>F6</kbd>|Naar het vorige sneltabblad of onderdeel (subpagina) gaan.|
 |<kbd>Shift</kbd>+<kbd>F9</kbd>|Een document boeken en afdrukken.|
 |<kbd>Shift</kbd>+<kbd>F11</kbd>|Posten vereffenen, brondocumenten ophalen of magazijndocumenten ophalen.|
 
-## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Sneltoetsen voor snelle invoer voor velden
+## <a name="QuickEntry"></a>Sneltoetsen voor snelle invoer voor velden
 
 De volgende sneltoetsen behoren tot de functie Snelinvoer op kaarten, documenten en lijstpagina's. In lijsten kunnen de sneltoetsen worden gebruikt wanneer de lijst in de tegelweergave is. Zie voor meer informatie over snelinvoer [Gegevensinvoer versnellen met snelinvoer](ui-enter-data.md#QuickEntry).
 
@@ -186,7 +186,7 @@ De volgende sneltoetsen behoren tot de functie Snelinvoer op kaarten, documenten
 |<kbd>Shift</kbd>+<kbd>Enter</kbd>|De waarde in het huidige veld bevestigen en naar het vorige snelinvoerveld gaan.||
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|De waarde in de huidige kolom bevestigen en naar het volgende snelinvoerveld buiten de lijst gaan.<br /><br />Deze snelkoppeling geldt voor ingesloten lijsten op een pagina, zoals regelartikelen op een verkooporder. U kunt hiermee snel uit de lijst gaan en doorgaan met het invoeren van gegevens in andere velden op de pagina.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a>Sneltoetsen in de kalender (datumkiezer)
+## <a name="calendarshortcuts"></a> Sneltoetsen in de kalender (datumkiezer)
 
 Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agenda (datumkiezer) openen waarin u de gewenste datum kunt selecteren. De volgende tabel beschrijft de sneltoetsen voor de agenda.
 
@@ -204,14 +204,14 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |<kbd>Page Down</kbd>|Naar de volgende maand gaan.|
 |<kbd>Page up</kbd>|Naar de vorige maand gaan.|  
 
-## <a name="keyboard-shortcuts-in-date-fields"></a>Sneltoetsen in datumvelden
+## Sneltoetsen in datumvelden
 
 |Selecteer deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
 |<kbd>h</kbd>|Voer de huidige datum in. "T" betekent "today" (vandaag).|
 |<kbd>w</kbd>|Voer de werkdatum in. Zie [Werkdatum](ui-change-basic-settings.md#work-date) voor meer informatie.|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Sneltoetsen in de rapport-preview
+## <a name="reportpreviewshortcuts"></a>Sneltoetsen in de rapport-preview
 
 |Selecteer deze toetsen<br />(in macOS)|Actie|
 |--------------------------------|----------|
@@ -225,7 +225,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |<kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>pijl omlaag</kbd>)|Naar de volgende pagina's van het rapport gaan.|
 |<kbd>Page up</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pijl omhoog</kbd>)|Naar de vorige pagina's van het rapport gaan.|
 
-## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Sneltoetsen voor in- en uitzoomen
+## <a name="zoomshortcuts"></a>Sneltoetsen voor in- en uitzoomen
 
 |Selecteer deze toetsen|Actie|
 |--------------------------------|----------|
@@ -233,7 +233,7 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |<kbd>Ctrl</kbd>+<kbd>-</kbd>|Uitzoomen op de huidige pagina.|  
 |<kbd>Ctrl</kbd>+<kbd>0</kbd>|Inzoomen of uitzoomen tot 100% op de huidige pagina.|  
 
-## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Sneltoetsen voor rollenverkenner
+## <a name="roleexplorer"></a>Sneltoetsen voor rollenverkenner
 
 Rollenverkenner geeft u een overzicht en snelle toegang tot alle zakelijke functies die beschikbaar zijn voor uw rol. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md).
 
@@ -245,7 +245,7 @@ Rollenverkenner geeft u een overzicht en snelle toegang tot alle zakelijke funct
 |<kbd>Shift</kbd> <kbd>F3</kbd> of <kbd>Ctrl</kbd>+<kbd>Pijl omhoog</kbd>|Verplaatst de focus naar de vorige gevonden functie in de rollenverkenner.|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>|Alle subknooppunten uitvouwen of samenvouwen, naast knooppunten op het hoogste niveau, wanneer u de actie **Uitvouwen** of **Samenvouwen** kiest.|
 
-## <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a>Sneltoetsen voor numeriek toetsenblok
+##  <a name="keypad"></a> Sneltoetsen voor numeriek toetsenblok
 
 De volgende tabel beschrijft de sneltoetsen op een numeriek toetsenblok.
 
@@ -254,7 +254,7 @@ De volgende tabel beschrijft de sneltoetsen op een numeriek toetsenblok.
 |<kbd>Alt</kbd>+<kbd>Decimaalteken</kbd>|Wijzig de uitvoer van de decimaaltekentoets naar een punt (.) of het teken dat wordt bepaald door de instelling **Regio** op de pagina **Mijn instellingen**. Zie [Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden](ui-enter-data.md#decimal) voor meer informatie.|
 
 
-## <a name="access-keys-for-action-bar-and-navigation-menu"></a>Toegangstoetsen voor actiebalk en navigatiemenu
+## Toegangstoetsen voor actiebalk en navigatiemenu
 
 Toegangstoetsen zijn sneltoetsen waarmee u specifieke acties op de actiebalk en in het navigatiemenu kunt selecteren. Hiermee kunt u door acties navigeren om naar de gewenste pagina te gaan. Toegangssleutels zijn beschikbaar in de Business Central-webclient en zijn vergelijkbaar met toegangssleutels in Excel en Word Online.  
 
@@ -266,7 +266,7 @@ Om een actie te selecteren, selecteert u de toetsencombinatie die wordt weergege
 - Als de actie opent naar een submenu met andere acties, worden de toetstips voor het submenu weergegeven, zodat u de toegangstoetsen kunt blijven gebruiken als u dat wilt.
 - Als de actie een andere pagina opent, zijn belangrijke tips uitgeschakeld. Selecteer de toets <kbd>Alt</kbd> om ze opnieuw weer te geven. 
  
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)  
 [Ondersteunende functies](ui-accessibility.md)  

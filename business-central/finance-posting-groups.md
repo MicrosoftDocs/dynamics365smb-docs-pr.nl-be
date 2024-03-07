@@ -7,7 +7,7 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: 'posting setup, initialize'
 ms.search.form: '312, 313'
-ms.date: 12/21/2023
+ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -111,9 +111,21 @@ Op deze manier krijgt u een bericht wanneer u aan een document werkt dat gebruik
 > [!NOTE]
 > Om u rechtstreeks naar de boekingsgroep of instelling te brengen waarvoor een grootboekrekening ontbreekt, wordt in [!INCLUDE[prod_short](includes/prod_short.md)] een tijdelijke plaatsingsgroep of instelling gemaakt. Boekingsgroepen en -instellingen zijn een manier voor de accountant om te bepalen hoe boekingen naar het grootboek worden geboekt, dus het net op tijd maken van boekingsgroepen en -instellingen is mogelijk niet toegestaan in uw organisatie.  
 >
-> Schakel in dat geval het bericht *Grootboekrekening ontbreekt in boekingsgroep of instelling* uit en werk vervolgens samen met uw accountant om de relevante wijzigingen aan te brengen in de boekingsgroep, de instellingen of uw document. Dit is een belangrijke stap, want zodra documenten zijn geboekt, kunnen onjuist gebruikte boekingsgroepen of instellingen niet meer worden verwijderd omdat er grootboekposten voor zijn aangemaakt.
+> Schakel in dat geval het bericht *Grootboekrekening ontbreekt in boekingsgroep of instelling* uit en werk vervolgens samen met uw accountant om de relevante wijzigingen aan te brengen in de boekingsgroep, de instellingen of uw document. Dit is een belangrijke stap, want nadat documenten zijn geboekt, kunt u onjuist gebruikte boekingsgroepen of instellingen niet meer verwijderen omdat er grootboekposten voor worden gemaakt.
 
-Vanaf releasewave 1 in 2022 kunt u het veld **Geblokkeerd** op de pagina **Boekingsgroepinstellingen** gebruiken om te voorkomen dat gebruikers per ongeluk een instelling gebruiken die niet langer relevant is voor nieuwe boekingen.  
+Gebruik het veld **Geblokkeerd** op de pagina **Boekingsgroepinstellingen** om te voorkomen dat gebruikers per ongeluk een instelling gebruiken die niet langer relevant is voor nieuwe boekingen. 
+
+## Krijg toegang tot alle velden en rekeningen wanneer u een boekingsgroep instelt  
+
+Het kan ingewikkeld zijn om boekingsgroepen in te stellen. Omdat sommige typen rekeningen niet vaak worden gebruikt, worden deze in [!INCLUDE [prod_short](includes/prod_short.md)] niet weergegeven als kolommen op de regels. Om het kiezen van de juiste rekeningen iets eenvoudiger te maken, filtert [!INCLUDE [prod_short](includes/prod_short.md)] de rekeningen die u kunt kiezen bij het opzoeken van velden. 
+
+Als u toegang wilt krijgen tot alle rekeningen op de regels en in de veldzoekopdrachten, is er een aantal instellingen dat u kan helpen:
+
+* Als u alle rekeningen als kolommen op de regels wilt weergeven, zet u de schakelaar **Alle rekeningen weergeven** aan.
+* Als u op afzonderlijke regels toegang wilt krijgen tot alle rekeningen in de veldzoekopdrachten, kiest u het selectievakje **Alle rekeningen van opzoekactie weergeven**.
+
+> [!NOTE]
+> Het lijkt erop dat de schakelaar **Alle rekeningen weergeven** niet werkt op de pagina **Boekingsgroepinstellingen** . Dat komt doordat [!INCLUDE [prod_short](includes/prod_short.md)] alle rekeningen altijd als kolommen op de regels op die pagina weergeeft.
 
 ## Problemen met boekingsgroepfouten
 
