@@ -65,10 +65,10 @@ Als u wijzigingen aanbrengt in de invoegtoepassing, moet u deze opnieuw laden om
 
 Wanneer **Bewerken in Excel** wordt gebruikt op lijstpagina's voor tabellen met veel kolommen, heeft de resulterende werkmap mogelijk te veel kolommen om het bestand te kunnen bekijken in Excel voor het web. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt de geëxporteerde werkmap automatisch beperkt tot 100 kolommen wanneer OneDrive is geconfigureerd voor systeemfuncties. 
 
-## Zie de verschillen tussen de opties
+<!--## See the differences between the options
 <br><br>  
 
-> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
 ## Zie ook
 
