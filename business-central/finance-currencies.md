@@ -1,36 +1,38 @@
 ---
 title: Valuta's in Business Central
-description: krijg een overzicht van hoe Business Central uw lokale valuta definieert in vergelijking met de vreemde valuta's waarin u handelt.
+description: 'Leer hoe u uw lokale valuta en de vreemde valuta''s die uw bedrijf gebruikt, definieert.'
 author: brentholtorf
-ms.topic: conceptual
-ms.search.keywords: multiple currencies
-ms.search.form: '5, 118'
-ms.date: 03/15/2022
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.keywords: currencies
+ms.search.form: '5, 118'
+ms.date: 03/04/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-currencies
 ---
-# <a name="currencies-in-business-central"></a>Valuta's in Business Central
+# Valuta's in Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="currencies"></a>Valuta's
+## Valuta's
 
 > [!TIP]  
-> In [!INCLUDE[prod_short](includes/prod_short.md)] wordt dit valuta genoemd als u op zoek bent naar realtime informatie over wisselkoersen of historische koersen. Zie naast dit artikel ook [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md).
+> In [!INCLUDE[prod_short](includes/prod_short.md)] wordt dit valuta genoemd als u op zoek bent naar realtime informatie over vreemde valuta's, wisselkoersen of historische koersen. Zie naast dit artikel ook [Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md).
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
 U geeft de valutacodes in de lijst **Valuta's** op, inclusief extra informatie en instellingen die nodig zijn voor elke valutacode. Zie [Valuta's](finance-set-up-currencies.md#curr) voor meer informatie
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Voorbeeld van een te ontvangen valutatransactie
+### Voorbeeld van een te ontvangen valutatransactie
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Wisselkoersen
+## Wisselkoersen
 
 De wisselkoersen zijn het hulpmiddel om de lokale valutawaarde (LV) van elke valutatransactie te berekenen. Zie voor meer informatie [Valutawisselkoersen bijwerken](finance-how-update-currencies.md).  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Valuta's instellen](finance-set-up-currencies.md)  
 [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)  
