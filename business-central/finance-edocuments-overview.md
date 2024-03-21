@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Overzicht van e-documenten
+# <a name="e-documents-overview"></a>Overzicht van e-documenten
 
 Elektronische documenten (e-documenten) vormen de ruggengraat van moderne zakelijke transacties. Ze omvatten essentiële documenten, zoals facturen en ontvangstbewijzen in beide richtingen (levering en ontvangst). Ze voegen ook mogelijkheden toe voor documentstatusgerelateerde berichten tussen toegangspunten.
 
@@ -32,7 +32,7 @@ In de documentatie worden e-documenten gedetailleerd uitgelegd. Het toont de mog
 | [De connector voor e-documenten instellen met externe eindpunten](finance-how-setup-edocuments-external.md) | Leer hoe u externe toegangspunten kunt gebruiken voor automatisering bij het bezorgen en ontvangen van uw e-documenten. |
 | [Gegevens elektronisch uitwisselen](across-data-exchange.md) | Leer hoe u het raamwerk voor gegevensuitwisseling gebruikt voor het beheren van de uitwisseling van gegevens in bedrijfsdocumenten, zoals bankbestanden en valutawisselkoersen. | 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financieel beheer](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

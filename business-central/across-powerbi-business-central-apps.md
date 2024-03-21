@@ -9,7 +9,7 @@ ms.date: 09/07/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
+# <a name="use-the--apps-in-power-bi"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-apps gebruiken in Power BI
 
 > **GELDT VOOR:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Finance  
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Sales
 
-## Overzicht
+## <a name="overview"></a>Overzicht
 
 Elke app bevat verschillende rapporten waarin u gegevens kunt analyseren met behulp van onder andere de volgende functies:
 
@@ -33,7 +33,7 @@ De apps zijn ontworpen om te werken met gegevens van elk bedrijf in [!INCLUDE[pr
 > [!NOTE]
 > U kunt ook uw eigen rapporten en dashboards in Power BI samenstellen op basis van de [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens. Zie voor meer informatie [Uw bedrijfsgegevens verbinden met Power BI](across-how-use-financials-data-source-powerbi.md). 
 
-## Vereisten
+## <a name="prerequisites"></a>Vereisten
 
 Power BI-apps hebben machtigingen nodig voor toegang tot de tabellen waaruit gegevens worden opgehaald en toegang tot de webservices die worden gebruikt om gegevens op te halen. In de volgende tabel worden de webservices vermeld die voor elke Power BI-app vereist zijn:
     
@@ -46,11 +46,11 @@ Power BI-apps hebben machtigingen nodig voor toegang tot de tabellen waaruit geg
 > [!TIP] 
 > Een eenvoudige manier om de webservices te vinden is te zoeken naar *webservices* in [!INCLUDE[prod_short](includes/prod_short.md)]. Zorg op de pagina **Webservices** dat het veld **Publiceren** is geselecteerd voor de hierboven genoemde webservices. Zie [Een webservice publiceren](across-how-publish-web-service.md) voor meer informatie.
 
-## Bereid u voor
+## <a name="get-ready"></a>Bereid u voor
 
 Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Gebruik wanneer u zich aanmeldt uw zakelijke e-mailadres en wachtwoord.
 
-## Een [!INCLUDE[prod_short](includes/prod_short.md)]-app installeren in Power BI
+## <a name="install-a--app-in-power-bi"></a>Een [!INCLUDE[prod_short](includes/prod_short.md)]-app installeren in Power BI
 
 1. Open uw browser, ga naar [https://powerbi.microsoft.com](https://powerbi.microsoft.com) en meld u aan bij uw account.
 2. Selecteer **Apps** in het navigatievenster.
@@ -71,7 +71,7 @@ Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u 
 
     Na voltooiing is de app beschikbaar via **Apps** in het navigatiemenu in Power BI.
 
-## De [!INCLUDE[prod_short](includes/prod_short.md)]-app verbinden met uw gegevens
+## <a name="connect-the--app-to-your-data"></a>De [!INCLUDE[prod_short](includes/prod_short.md)]-app verbinden met uw gegevens
 
 1. Selecteer onder **Apps** de Business Central-app en selecteer vervolgens **Verbinden**.
 2. Voer desgevraagd in de velden **Bedrijfsnaam** en **Omgeving** informatie in over het [!INCLUDE[prod_short](includes/prod_short.md)]-exemplaar waarmee u verbinding wilt maken.
@@ -86,23 +86,23 @@ Meld u aan voor de Power BI-service. Als u zich nog niet hebt aangemeld, gaat u 
 
     ![Selecteer Dynamics 365 Business Central en selecteer Nu ophalen.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-## Problemen oplossen
+## <a name="fixing-problems"></a>Problemen oplossen
 
 Het Power BI-dashboard is voor zijn gegevens afhankelijk van de gepubliceerde webservices die hierboven worden vermeld. Op het dashboard worden gegevens weergegeven van het voorbeeldbedrijf of van uw eigen bedrijf als u gegevens importeert uit uw huidige financiële oplossing. Als er echter iets verkeerd gaat, biedt deze sectie een oplossing voor de meest voorkomende problemen.  
 
-### U hebt geen Power BI-account
+### <a name="you-dont-have-a-power-bi-account"></a>U hebt geen Power BI-account
 
 Er is geen Power BI-account ingesteld. U moet een licentie hebben om een geldig Power BI-account te verkrijgen. Ook moet u zich eerder hebben aangemeld Power BI om uw Power BI-werkruimte te maken.  
 
-### Bericht: Er zijn geen ingeschakelde rapporten. Kies een rapport om een lijst met rapporten te tonen die u kunt weergeven.
+### <a name="message-there-are-no-enabled-reports-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Bericht: Er zijn geen ingeschakelde rapporten. Kies een rapport om een lijst met rapporten te tonen die u kunt weergeven.
 
 Dit bericht verschijnt als het standaardrapport niet kon worden geïmplementeerd in uw Power BI-werkruimte. Of het rapport is geïmplementeerd maar is niet vernieuwd. Als dit probleem zich voordoet, navigeert u naar het rapport in uw Power BI-werkruimte, selecteert u **Gegevensset**, **Instellingen** en werkt u vervolgens de referenties handmatig bij. Nadat de gegevensset met succes is vernieuwd, navigeert u terug naar [!INCLUDE[prod_short](includes/prod_short.md)] en selecteert u handmatig het rapport vanaf de pagina **Rapporten selecteren**.
 
-### U hebt een Power BI Pro-licentie nodig om de [!INCLUDE[prod_short](includes/prod_short.md)]-app in Power BI te installeren
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi"></a>U hebt een Power BI Pro-licentie nodig om de [!INCLUDE[prod_short](includes/prod_short.md)]-app in Power BI te installeren
 
 U hebt een [Power BI Pro-licentie](/power-bi/service-features-license-type) nodig om uw inhoud te delen en de mensen met wie u deze inhoud deelt, hebben die licentie ook nodig. De inhoud moet zich in een werkruimte in een [Premium-capaciteit](/power-bi/service-premium-what-is) bevinden. Zie voor meer informatie [Manieren om uw werk te delen in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
-### "Parametervalidatie mislukt; zorg dat alle parameters geldig zijn"
+### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Parametervalidatie mislukt; zorg dat alle parameters geldig zijn"
 
 Deze fout geeft aan dat een of meer parameters niet geldig zijn.
 
@@ -111,7 +111,7 @@ Deze fout geeft aan dat een of meer parameters niet geldig zijn.
 - Als u verbinding maakt met [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, hebt u een URL ingevoerd die niet geldig is. U kunt de URL verifiëren op de pagina **Webservices** in [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Er staat geen poort open om het verzoek door uw firewall te laten gaan.
 
-### Kan me niet aanmelden
+### <a name="cant-sign-in"></a>Kan me niet aanmelden
 
 Als u de fout 'Aanmelding mislukt' krijgt nadat u zich hebt aangemeld met uw [!INCLUDE[prod_short](includes/prod_short.md)]-aanmeldingsgegevens, kan dat een van de volgende oorzaken hebben:
 
@@ -119,34 +119,34 @@ Als u de fout 'Aanmelding mislukt' krijgt nadat u zich hebt aangemeld met uw [!I
 - U hebt een ander verificatietype dan Basis geselecteerd als u verbinding maakt met [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
 - U hebt geen geldige gebruikersnaam of wachtwoord ingevoerd.
 
-### Bericht: uw gegevensbron kan niet worden vernieuwd omdat de aanmeldingsgegevens ongeldig zijn. Werk uw aanmeldingsgegevens bij en probeer het opnieuw
+### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Bericht: uw gegevensbron kan niet worden vernieuwd omdat de aanmeldingsgegevens ongeldig zijn. Werk uw aanmeldingsgegevens bij en probeer het opnieuw
 
 Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises is het probleem mogelijk dat de OData-URL alleen wordt weergegeven op het lokale netwerk.
 
-### Onjuiste bedrijfsnaam
+### <a name="incorrect-company-name"></a>Onjuiste bedrijfsnaam
 
 Een veel voorkomende fout is de weergavenaam van het bedrijf in te voeren in plaats van de bedrijfsnaam. Als u de bedrijfsnaam wilt vinden, zoekt u naar **Bedrijven**. Gebruik vervolgens het veld **Naam** wanneer u uw bedrijfsnaam invoert.
 
-### De sleutel kwam met geen rijen uit de tabel overeen
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>De sleutel kwam met geen rijen uit de tabel overeen
 
 Als u een ongeldige bedrijfsnaam invoert tijdens het verbindingsproces, kunt u de foutmelding "De sleutel kwam met geen rijen uit de tabel overeen" krijgen. Geef de juiste bedrijfsnaam op en probeer opnieuw verbinding te maken.
 
-### Historische gegevens lijken te ontbreken
+### <a name="historical-data-appears-to-be-missing"></a>Historische gegevens lijken te ontbreken
 
 Als de Power BI-app eenmaal is geïnstalleerd en uw gegevens in Power BI worden weergegeven, merkt u dat niet al uw gegevens worden weergegeven. De gegevenssets worden gefilterd om alleen de voorgaande 365 dagen aan gegevens te retourneren. Deze standaard is aanwezig om de rapporten sneller te maken.  
 
-### Ik zie alleen gegevens voor één bedrijf
+### <a name="i-only-see-data-for-a-single-company"></a>Ik zie alleen gegevens voor één bedrijf
 
 De Power BI-app toont alleen gegevens van het [!INCLUDE[prod_short](includes/prod_short.md)]-bedrijf dat is gedefinieerd toen de Power BI-app werd geïnstalleerd. Gegevens van extra bedrijven kunnen aan de rapporten worden toegevoegd door nieuwe query's toe te voegen die verschillende bedrijven als gegevensbron gebruiken.  
 
-### Wat nu?
+### <a name="what-now"></a>Wat nu?
 
 - Probeer [een vraag te stellen in het vraag- en antwoordvak](/power-bi/service-q-and-a-tips) boven aan het dashboard.
 - [Wijzig de tegels](/power-bi/service-dashboard-edit-tile) in het dashboard.  
 - [Selecteer een tegel](/power-bi/service-dashboard-tiles) om het onderliggende rapport te openen.  
 - Standaard wordt uw gegevensset niet volgens een schema vernieuwd. U kunt het vernieuwingsschema wijzigen of de gegevensset op aanvraag proberen te vernieuwen met de opdracht **Nu vernieuwen**. Zie [Gepland vernieuwen configureren](/power-bi/refresh-scheduled-refresh) voor meer informatie.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Business Central en Power BI](admin-powerbi.md)  
 [Power BI-integratieonderdeel en architectuuroverzicht voor [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

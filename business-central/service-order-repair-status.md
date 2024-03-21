@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Statussen instellen voor serviceorders en reparaties
+# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Statussen instellen voor serviceorders en reparaties
 
 U moet herstelstatusopties instellen waarmee u de voortgang van herstel en onderhoud van serviceartikelen in serviceorders kunt aangeven. U moet minimaal negen herstelstatusopties instellen om situaties of ondernomen acties met betrekking tot de service voor serviceartikelen aan te duiden.  
 
@@ -19,7 +19,7 @@ Wanneer u de herstelstatus van een serviceartikel in een serviceorder wijzigt, w
 
 Voordat u een reparatiestatus kunt instellen, moet u servicestatusprioriteiten instellen.
 
-## Servicestatusprioriteiten instellen
+## <a name="to-set-up-service-status-priorities"></a>Servicestatusprioriteiten instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceorderstatus** in en kies vervolgens de gerelateerde koppeling  
 2. Selecteer de serviceorderstatus waarvoor u een prioriteit wilt instellen.  
@@ -27,7 +27,7 @@ Voordat u een reparatiestatus kunt instellen, moet u servicestatusprioriteiten i
 
 Herhaal stap 2 en 3 totdat u de prioriteit voor elk van de vier statusopties hebt ingesteld: **In behandeling**, **In verwerking**, **Gereedgemeld** en **Afwachten**.  
 
-## Herstelstatus instellen
+## <a name="to-set-up-a-repair-status"></a>Herstelstatus instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Herstelstatus** in en kies vervolgens de gerelateerde koppeling.
 2. Maak een nieuwe herstelstatus.  
@@ -40,7 +40,7 @@ Herhaal stap 2 en 3 totdat u de prioriteit voor elk van de vier statusopties heb
 
 Herhaal deze stappen voor elke herstelstatusoptie die u wilt maken.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Serviceorderstatus en herstelstatus](service-service-order-status-and-repair-status.md)  
 [CRM - Service instellen](service-setup-service.md)  

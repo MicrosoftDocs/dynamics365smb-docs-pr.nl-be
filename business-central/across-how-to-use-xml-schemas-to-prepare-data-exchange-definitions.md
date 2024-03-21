@@ -9,7 +9,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-schema's gebruiken om gegevensuitwisselingsdefinities voor te bereiden
 
 Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor gegevensuitwisseling in [!INCLUDE[prod_short](includes/prod_short.md)] mogelijk te maken, kunt u XML-schema's gebruiken om te bepalen welke gegevenselementen u wilt uitwisselen met [!INCLUDE[prod_short](includes/prod_short.md)]. Hiertoe opent u de pagina **XML-schemaviewer** en laadt u het XML-schemabestand, selecteert u de relevante gegevenselementen en initialiseert u vervolgens een definitie van gegevensuitwisseling.  
 
@@ -23,7 +23,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
 - De definitie van een gegevensuitwisseling genereren die is gebaseerd op een XML-schema  
 
-## Een XML-schemabestand laden
+## <a name="to-load-an-xml-schema-file"></a>Een XML-schemabestand laden
 
 1. Zorg dat het relevante XML-schemabestand beschikbaar is. De bestandextensie is .xsd.  
 
@@ -47,7 +47,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
     > [!NOTE]  
     >  De structuur van het geladen XML-schema is standaard samengevouwen. U kunt een knooppunt uitvouwen door de knop **+** op het knooppunt te kiezen. Kies **Alles uitvouwen** op het lint om alle knooppunten uit te vouwen.  
 
-### Knooppunten in een XML-schema selecteren of wissen  
+### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Knooppunten in een XML-schema selecteren of wissen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **XML-schemaviewer** in en kies vervolgens de gerelateerde koppeling  
 
@@ -85,7 +85,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 
      Het veld **Keuze** geeft aan of het knooppunt twee of meer knooppunten op hetzelfde niveau heeft die functioneren als opties.  
 
-### De definitie van een gegevensuitwisseling genereren die is gebaseerd op een XML-schema  
+### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>De definitie van een gegevensuitwisseling genereren die is gebaseerd op een XML-schema
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XML-schema's** in en kies vervolgens de gerelateerde koppeling  
 
@@ -103,7 +103,7 @@ Om het importeren/exporteren van gegevens in XML-bestanden via het kader voor ge
 > [!NOTE]
 > In releasewave 1 van 2019 en eerdere versies kon u een XMLport genereren die was gebaseerd op het schema en die vervolgens importeren in uw oplossing. Dit wordt niet langer ondersteund.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md)  
 [Betalingen naar een bankbestand exporteren](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

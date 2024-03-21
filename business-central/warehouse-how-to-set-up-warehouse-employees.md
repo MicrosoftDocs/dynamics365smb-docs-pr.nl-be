@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ms.service: dynamics-365-business-central
 ---
-# Magazijnmedewerkers instellen
+# <a name="set-up-warehouse-employees"></a>Magazijnmedewerkers instellen
 
 U moet elke gebruiker die magazijnactiviteiten uitvoert, instellen als magazijnmedewerker en aan een standaardvestiging toewijzen. [!INCLUDE [prod_short](includes/prod_short.md)] filtert magazijnactiviteiten naar de standaardvestiging van de werknemer. Zij kunnen alleen de magazijnwerkzaamheden op de vestiging uitvoeren. U kunt een gebruiker ook toewijzen aan andere vestigingen. Ze hebben wel toegang tot vestigingen, maar kunnen geen activiteiten uitvoeren op die vestigingen.
 
-## Magazijnmedewerkers instellen  
+## <a name="to-set-up-warehouse-employees"></a>Magazijnmedewerkers instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -26,9 +26,9 @@ U moet elke gebruiker die magazijnactiviteiten uitvoert, instellen als magazijnm
 > [!TIP]
 > U kunt ook de actie **Mij toevoegen als magazijnmedewerker** gebruiken om uzelf snel toe te voegen aan de lijst met magazijnmedewerkers. Dit is bijvoorbeeld handig wanneer u de mogelijkheden test.
 
-## Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

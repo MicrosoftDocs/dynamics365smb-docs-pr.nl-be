@@ -9,7 +9,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Voorraad- en productiekosten verwerken
+# <a name="handling-inventory-and-manufacturing-costs"></a>Voorraad- en productiekosten verwerken
 
 Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt in onderliggende processen zonder interactie van de gebruiker, zoals vereffening van posten en automatische herwaardering van kosten, is een aantal velden, pagina's en lijsten gericht op gebruikers die direct of indirect de kosten van artikelen en bewerkingen beheren.  
 
@@ -28,7 +28,7 @@ Hoewel de functionaliteit voor kostenadministratie grotendeels wordt uitgedrukt 
 |Een artikelvereffening handmatig ongedaan maken of door de toepassing gemaakte artikelposten opnieuw vereffenen.|[Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Gebruik het veld **Vereffenen van post** in het artikeldagboek om een vaste vereffening tussen een inkomende transactie en de oorspronkelijke uitgaande transactie te maken.|[Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)
 [Ontwerpdetails: Voorraadkosten](design-details-inventory-costing.md)

@@ -11,14 +11,14 @@ ms.date: 12/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# De rekeningschema's instellen of wijzigen
+# <a name="set-up-or-change-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
 
 Het rekeningschema (COA) bevat de grootboekrekeningen die uw financiële gegevens bevatten. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf. U kunt de standaardrekeningen echter wijzigen en u kunt nieuwe rekeningen toevoegen.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Rekeningen toevoegen of wijzigen
+## <a name="add-or-change-accounts"></a>Rekeningen toevoegen of wijzigen
 
 Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen toevoegen of wijzigen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Voor rekeningen van het rekeningsoort **Totaal** moet u het veld **Samentelling*
 > [!IMPORTANT]
 > Als u vóór het uitvoeren van de inspringfunctie definities hebt ingevoerd in de velden **Samentelling** voor rekeningen van het type **Eindtotaal**, moet u deze daarna nogmaals invoeren, omdat de functie de waarden in alle **Eindtotaal**-velden overschrijft.
 
-## Rekeningen verwijderen
+## <a name="delete-accounts"></a>Rekeningen verwijderen
 
 U kunt een grootboekrekening verwijderen. Echter, voordat u deze verwijdert, moet het volgende waar zijn:  
 
@@ -43,13 +43,13 @@ U kunt ook opgeven wanneer mensen rekeningen mogen verwijderen. Op de pagina **G
 
 Het veld **Blok grootboekrekeningen verwijderen** inschakelen is meestal een aanbevolen procedure, net als het instellen van de datum in het veld **Verwijdering van grootboekrek. controleren na**, bijvoorbeeld op de datum tot wanneer u financiële gegevens moet bewaren volgens de regelgeving.  
 
-### Videobegeleiding
+### <a name="video-guidance"></a>Videobegeleiding
 
 In deze video ziet u hoe u kunt opgeven of en wanneer mensen grootboekrekeningen kunnen verwijderen.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  

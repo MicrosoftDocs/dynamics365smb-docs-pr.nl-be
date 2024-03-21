@@ -9,7 +9,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Meerdere rentetarieven instellen voor uitgestelde betaling
+# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Meerdere rentetarieven instellen voor uitgestelde betaling
 
 U kunt verschillende rentepercentages gebruiken voor verschillende perioden voor vertraagde betalingen in handelstransacties. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -17,7 +17,7 @@ Bijvoorbeeld, een overheid specificeert de maximumrente die voor een klant mag w
 
 Wanneer u rentefactuurcondities maakt en aanmaningscondities, als sanctie voor vertraagde betaling, kunt u meerdere rentepercentages opgeven zodat de sanctietoeslag wordt berekend op basis van verschillende rentepercentages in verschillende perioden.  
 
-## Meerdere rentetarieven instellen
+## <a name="to-set-up-multiple-interest-rates"></a>Meerdere rentetarieven instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rentefactuurcondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Rentefactuurcondities** de gewenste rentefactuurconditie en kies de actie **Rentepercentages**.  
@@ -29,7 +29,7 @@ Wanneer u rentefactuurcondities maakt en aanmaningscondities, als sanctie voor v
 
 Wanneer u een rentefactuur verzendt, bevat de factuur de rentefacturen met meerdere rentepercentages in een bepaalde periode. De factuur bevat ook de contactgegevens van de klant, het bedrijf dat de factuur verzendt, het extra bedrag en het totale bedrag. De openingspost op de factuur wordt vet weergegeven. De rentefacturen worden berekend met meerdere rentepercentages voor een bepaalde periode en worden afgedrukt na de openingspost van de factuur.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Financiën instellen](finance-setup-finance.md)

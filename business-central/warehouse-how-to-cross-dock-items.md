@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '15, 5703, 7302, 7332, 5768'
 ms.service: dynamics-365-business-central
 ---
-# Artikelen cross-docken
+# <a name="cross-dock-items"></a>Artikelen cross-docken
 
 Cross-dockartikelen zijn artikelen die u ontvangt en verzendt zonder ze op te slaan. De opslag- en pickprocessen vereisen een beperkte afhandeling van artikelen. Het cross-docken van artikelen is mogelijk voor verzendingen en productieorders.
 
-## Cross-dockopslaglocaties en -zones
+## <a name="cross-dock-bins-and-zones"></a>Cross-dockopslaglocaties en -zones
 
 Als u opslaglocaties gebruikt, stelt u ten minste één cross-dockopslaglocatie in en specificeert u de opslaglocatie in het veld **Cross-dockopslaglocatie** op uw vestigingen. Stel een cross-dockzone in als u met gestuurde opslag en pick werkt.
 
@@ -22,13 +22,13 @@ Wanneer u een verzending voorbereidt of artikelen voor de productie pickt, wordt
 
 Als u cross-dockaantallen hebt berekend, worden voor de resultaten automatisch opslagregels gemaakt voor de cross-docklocatie wanneer u de ontvangst boekt. De overige opslagregels worden op de gebruikelijke wijze gemaakt.  
 
-## Geselecteerde regels cross-docken voor een ontvangst
+## <a name="cross-dock-select-lines-for-a-receipt"></a>Geselecteerde regels cross-docken voor een ontvangst
 
 Als u de cross-dockartikelen direct wilt boeken zodat u ze kunt picken, moet u ook een opslag registreren voor de overige artikelen op de ontvangstregel die moeten worden opgeslagen. Als slechts een gedeelte van de artikelen op een ontvangstregel bestemd is voor cross-docking, is het van belang dat u de overige artikelen zo snel mogelijk opslaat. Mogelijk is uw magazijnbeleid erop gericht om ontvangstregels waar mogelijk volledig te cross-docken.
 
 Verwijder in de opslaginstructie de instructieregels Nemen en Plaatsen voor elke ontvangstregel voor de artikelen die moeten worden opgeslagen. U kunt de instructieregels later opnieuw maken als opslagregels uit het opslagvoorstel of de geboekte ontvangst. Nadat u de instructieregels hebt verwijderd, kunt u de regels voor cross-dockartikelen opslaan en registreren.  
 
-## Informatie over de pagina Opslagvoorstel
+## <a name="about-the-put-away-worksheet-page"></a>Informatie over de pagina Opslagvoorstel
 
 Als u de schakelaar **Opslagvoorstel gebruiken** op de pagina **Vestigingskaart** hebt aangezet en de ontvangst met berekende cross-docks hebt geboekt, worden alle ontvangstregels doorgestuurd naar het voorstel. De cross-dockgegevens gaan dan verloren en kunnen niet opnieuw worden gemaakt. Voor het gebruik van de cross-dockfunctie is het daarom beter dat u de regels naar het opslagvoorstel doorstuurt door opslaginstructies te verwijderen en de automatische doorgavefunctie van **Opslagvoorstel gebruiken** uit te schakelen.  
 
@@ -40,7 +40,7 @@ Als u de magazijnontvangst boekt en de schakelaar **Opslagvoorstel gebruiken** u
 
 [!INCLUDE [prod_short](includes/prod_short.md)] houdt geen aparte records bij voor cross-dockartikelen. Het registreert ze als gewone opslaginstructies.  
 
-## U kunt als volgt het magazijn instellen voor cross-docking  
+## <a name="to-set-up-the-warehouse-for-cross-docking"></a>U kunt als volgt het magazijn instellen voor cross-docking
 
 1. Als u met opslaglocaties werkt, moet u ten minste één cross-dockopslaglocatie instellen. Stel een cross-dockzone in als u met gestuurde opslag en pick werkt.  
 
@@ -62,7 +62,7 @@ Als u de magazijnontvangst boekt en de schakelaar **Opslagvoorstel gebruiken** u
 > [!NOTE]  
 >  Cross-docken is alleen mogelijk als voor de vestiging magazijnontvangst- en magazijnopslagverwerking is vereist.  
 
-## U kunt als volgt artikelen cross-docken zonder de mogelijkheden te bekijken  
+## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>U kunt als volgt artikelen cross-docken zonder de mogelijkheden te bekijken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een magazijnontvangst voor een artikel dat is aangekomen en voor cross-docken kan worden gebruik. Ga voor meer informatie over ontvangst naar [Artikelen ontvangen](warehouse-how-receive-items.md).  
@@ -80,7 +80,7 @@ Als u de magazijnontvangst boekt en de schakelaar **Opslagvoorstel gebruiken** u
 6. Druk de opslaginstructie voor de resterende regels af en plaats de ontvangen aantallen die u wilt opslaan in de betreffende opslaglocaties of betreffende ruimte in het magazijn. Plaats de cross-dockartikelen in de ruimte of de opslaglocatie die daartoe is aangewezen volgens het magazijnbeleid. Soms kan het magazijnbeleid bepalen dat de artikelen op de plaats van ontvangst moeten blijven.  
 7. Klik op de actie **Registreren** om de artikelen na cross-docking als opgeslagen en pickbaar te registreren.  
 
-## Artikelen cross-docken na de mogelijkheden bekeken te hebben  
+## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Artikelen cross-docken na de mogelijkheden bekeken te hebben
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnontvangsten** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een magazijnontvangst voor een artikel dat is aangekomen en voor cross-docken kan worden gebruik.  
@@ -100,7 +100,7 @@ Als u de magazijnontvangst boekt en de schakelaar **Opslagvoorstel gebruiken** u
     > [!NOTE]  
     > In de magazijnopslag kunt u desgewenst verdere wijzigingen aanbrengen in de aantallen die u wilt opslaan of cross-docken. U zou bijvoorbeeld een extra aantal kunnen cross-docken om de registratie te bespoedigen.  
 
-## Cross-dockartikelen bekijken in verzendingen of pickvoorstellen  
+## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>Cross-dockartikelen bekijken in verzendingen of pickvoorstellen
 
 Als u met opslaglocaties werkt, wordt iedere keer dat u een zending of het pickvoorstel opent, de hoeveelheid van elk artikel in de crossdock-opslaglocaties bijgewerkt. Wanneer het artikel beschikbaar is in de crossdock-opslaglocatie, kunt u een pick maken voor de artikelen op de zending. In het pickvoorstel kunt u de regels naar wens bewerken.  
 
@@ -108,7 +108,7 @@ Wanneer een productorder wordt vrijgegeven, zijn de regels beschikbaar in het pi
 
 Als u geen opslaglocaties gebruikt, is het verstandig de cross-dockruimte regelmatig te controleren. Anders bent u afhankelijk van de berichten over de ontvangst van artikelen voor productieorders.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
