@@ -10,7 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="enable-customer-payments-through-payment-services"></a>Klantbetalingen via betalingsservices inschakelen
+# Klantbetalingen via betalingsservices inschakelen
 
 Als alternatief voor het innen van betalingen door middel van bankoverschrijving of creditcards kunt u klanten laten betalen via hun account door middel van betalingsservices zoals PayPal of WorldPay.  
 
@@ -21,7 +21,7 @@ De extensies , PayPal Payments Standard en WorldPay Payments Standard zijn geïn
 > [!CAUTION]
 > De extensie WorldPay Payments Standard wordt beëindigd. De code is verouderd vanaf releasewave 2 van 2023. De app is actief voor de volgende drie grote releases en wordt daarna verwijderd.   
 
-## <a name="to-enable-a-payment-service-in-"></a>Een betalingsservice inschakelen in [!INCLUDE[prod_short](includes/prod_short.md)]
+## Een betalingsservice inschakelen in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsservices** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Betalingsservices** de actie **Nieuw**.  
@@ -30,7 +30,7 @@ De extensies , PayPal Payments Standard en WorldPay Payments Standard zijn geïn
 5. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Sluit de pagina.  
 
-## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Een betalingsservice selecteren op een verkoopfactuur
+## Een betalingsservice selecteren op een verkoopfactuur
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de verkoopfactuur die u wilt betalen door middel van de betalingsservice.  
@@ -39,7 +39,7 @@ De extensies , PayPal Payments Standard en WorldPay Payments Standard zijn geïn
     > [!NOTE]  
     > Het veld **Betalingsservice** is alleen beschikbaar als u betalingsservices hebt ingeschakeld.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  

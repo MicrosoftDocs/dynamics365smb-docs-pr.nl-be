@@ -9,18 +9,18 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-general-fixed-assets-information"></a>Algemene gegevens voor vaste activa instellen
+# Algemene gegevens voor vaste activa instellen
 
 Voordat u vaste activa kunt beheren, moet u de standaardgrootboekrekeningen, verdeelsleutels, dagboeksjablonen en - batches instellen voor de boeking en herindeling van vaste activa en kunt u vaste activa in categorieën indelen, zoals materiële en immateriële activa.
 
-## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Algemene standaardwaarden instellen voor vaste activa
+## Algemene standaardwaarden instellen voor vaste activa
 
 U definieert het algemene gedrag of de functionaliteit voor vaste activa en stelt de documentnummerreeks op de pagina **VA-instellingen** in.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-instellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-fixed-asset-posting-groups"></a>Boekingsgroepen voor vaste activa instellen
+## Boekingsgroepen voor vaste activa instellen
 
 Met behulp van boekingsgroepen kunt u groepen van vaste activa definiëren. Posten voor deze boekingsgroepen worden naar dezelfde grootboekrekeningen geboekt.
 
@@ -34,7 +34,7 @@ Met behulp van boekingsgroepen kunt u groepen van vaste activa definiëren. Post
 
 Zie voor meer informatie over het gebruik van de actie **VA-tegenrekening invoegen** voor regels van het financieel dagboek voor vaste activa bijvoorbeeld [Vaste activa herwaarderen](fa-how-revalue.md).
 
-## <a name="to-set-up-fixed-asset-allocation-keys"></a>Verdeelsleutels voor vaste activa instellen
+## Verdeelsleutels voor vaste activa instellen
 
 Transacties kunnen over diverse afdelingen of projecten worden verdeeld, volgens een zelfgedefinieerde verdeelsleutel. U kunt bijvoorbeeld een verdeelsleutel instellen waarbij de afschrijvingskosten op bedrijfswagens voor 35 procent worden toegewezen aan de administratie en voor 65 procent aan de verkoopafdeling. Zie voor meer informatie [Kosten en inkomsten toewijzen](year-allocate-costs-income.md).
 
@@ -45,7 +45,7 @@ Verdeelsleutels zijn van toepassing op klassen voor vaste activa en niet op afzo
 3. Vul indien nodig op de pagina **VA-verdeelsleutels** de velden in.
 4. Herhaal stap 2 en 3 voor elk boekingssoort waarvoor u verdeelsleutels wilt definiëren.
 
-## <a name="to-set-up-fixed-asset-journal-templates"></a>Dagboeksjablonen voor vaste activa instellen
+## Dagboeksjablonen voor vaste activa instellen
 
 Een sjabloon is een vooraf gedefinieerd model voor een dagboek. De sjabloon bevat informatie over traceringscodes, lijsten en nummerreeksen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
 
@@ -54,7 +54,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] wordt automatisch een dagboeks
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
 
-## <a name="to-set-up-fixed-asset-journal-batches"></a>Dagboekbatches voor vaste activa instellen
+## Dagboekbatches voor vaste activa instellen
 
 U kunt meerdere dagboekbatches instellen, die individuele dagboeken voor elke dagboeksjabloon zijn. Werknemers kunnen bijvoorbeeld hun eigen dagboekbatch hebben, waarbij de initialen van de werknemer als batchnaam worden gebruikt. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).  
 
@@ -62,14 +62,14 @@ U kunt meerdere dagboekbatches instellen, die individuele dagboeken voor elke da
 2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches**.
 3. Vul op de pagina **VA-dagboekbatches** indien nodig de velden in.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Herindelingsdagboeksjablonen voor vaste activa instellen
+## Herindelingsdagboeksjablonen voor vaste activa instellen
 
 U kunt specifieke herindelingsdagboeken gebruiken wanneer u vaste activa moet verplaatsen, combineren of splitsen. In [!INCLUDE[prod_short](includes/prod_short.md)] wordt automatisch een herindelingsdagboeksjabloon voor vaste activa gemaakt wanneer u de pagina **VA-herindelingsdagboek** voor het eerst opent, maar u kunt extra VA-herindelingsdagboeksjablonen instellen. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-herindelingsdagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Herindelingsdagboekbatches voor vaste activa instellen
+## Herindelingsdagboekbatches voor vaste activa instellen
 
 U kunt meerdere dagboekbatches instellen, die individuele dagboeken voor elke herindelingsdagboeksjabloon zijn. Werknemers kunnen bijvoorbeeld hun eigen herindelingsdagboekbatch hebben, waarbij de initialen van de werknemer als herindelingsbatchnaam worden gebruikt. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).
 
@@ -77,28 +77,28 @@ U kunt meerdere dagboekbatches instellen, die individuele dagboeken voor elke he
 2. Selecteer de betreffende dagboeksjabloon en kies vervolgens de actie **Batches**.
 3. Vul op de pagina **VA-herindelingsdagboekbatches** indien nodig de velden in.
 
-## <a name="to-set-up-fixed-asset-class-codes"></a>Categorieën voor vaste activa instellen
+## Categorieën voor vaste activa instellen
 
 U kunt categorieën voor vaste activa gebruiken om vaste activa te groeperen, bijvoorbeeld in materiële en immateriële activa.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-categorieën** in en kies vervolgens de gerelateerde koppeling.
 2. Voer codes en namen in voor de categorieën die u wilt maken.
 
-## <a name="to-set-up-fixed-asset-subclass-codes"></a>Subcategorieën voor vaste activa instellen
+## Subcategorieën voor vaste activa instellen
 
 U kunt subcategorieën voor vaste activa gebruiken om uw vaste activa in categorieën te groeperen, bijvoorbeeld gebouwen, voertuigen, meubels of machines.  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-subcategorieën** in en kies vervolgens de gerelateerde koppeling.
 2. Voer codes en namen in voor de categorieën die u wilt maken.
 
-## <a name="to-set-up-fixed-asset-location-codes"></a>Vestigingscodes voor vaste activa instellen
+## Vestigingscodes voor vaste activa instellen
 
 U gebruikt vestigingen voor vaste activa om de locatie van het vaste activum te registreren, bijvoorbeeld afdeling verkoop, receptie, administratie, productie of magazijn. Dit is nuttige informatie voor de verzekering en voorraadbepaling.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-locaties** in en kies vervolgens de gerelateerde koppeling.
 2. Voer codes en namen in voor de vestigingen van vaste activa die u wilt maken.
 
-## <a name="to-register-opening-entries"></a>Beginsaldi registreren
+## Beginsaldi registreren
 
 Als u de module Vaste activa in [!INCLUDE[prod_short](includes/prod_short.md)] voor het eerst gebruikt, moet u eerst het toepassingsgebied Financieel instellen voordat u vaste activa gaat instellen. Bepalend voor de manier waarop deze informatie wordt ingevuld, is de vraag of vaste activa is geïntegreerd met het grootboek.  
 
@@ -122,7 +122,7 @@ Als u de module Vaste activa in [!INCLUDE[prod_short](includes/prod_short.md)] v
 
 Als de vaste activa niet zijn geïntegreerd met het grootboek, slaat u de stappen 6 en 8 over.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vaste activa instellen](fa-setup.md)  
 [Vaste activa](fa-manage.md)  

@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Voorraadartikelen in assembleren-op-order-stromen verkopen
+# Voorraadartikelen in assembleren-op-order-stromen verkopen
 
 Als het veld **Assemblagebeleid** op de artikelkaart van een assemblageartikel **Op order assembleren** bevat, neemt het standaardproces voor de verkooporder aan dat het item niet in voorraad is en voor verkooporders geassembleerd moet worden. Wanneer u het artikel toevoegt aan een verkooporderregel, maakt [!INCLUDE [prod_short](includes/prod_short.md)] automatisch een assemblageorder die is gekoppeld aan de verkooporder. Ga voor meer informatie over het verkopen van assembleren-op-order artikelen naar [Assembleren voor order-artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md). Echter als een deel van de hoeveelheid van de verkooporder al beschikbaar in voorraad is, kunt u de assemblageorder verkleinen door het veld **Aantal voor op order assembleren** op de verkooporderregel te veranderen.  
 
@@ -31,7 +31,7 @@ Vervang in deze procedure de aantallen voor assembleren op basis van orders met 
 2. Die hoeveelheid verminderen van de gekoppelde assemblageorder.
 3. De voorraadhoeveelheid reserveren om ervoor te zorgen dat deze wordt gepickt en verzonden voor de order.  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Voorraadartikelen in assembleren-op-order-stromen verkopen
+## Voorraadartikelen in assembleren-op-order-stromen verkopen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2. Een verkooporder maken. Ga voor meer informatie over het maken van verkooporders naar [Producten verkopen](sales-how-sell-products.md).  
@@ -48,7 +48,7 @@ Vervang in deze procedure de aantallen voor assembleren op basis van orders met 
 > [!CAUTION]  
 > Het veld **Opslaglocatie** in de verkooporder kan de waarde bevatten uit het veld **Opslaglocatiecode assembleren-op-order verzending** of **Opslagloc.code Vanuit-assembl.** op de locatiekaart. In dat geval is het veld **Opslaglocatie** op de verkooporderregel mogelijk onjuist voor deze combinatie van hoeveelheden van assembleren-naar-order en assembleren-naar-voorraad. Het is verstandig om het veld **Opslaglocatie** te bekijken en te controleren of de opslaglocatie voor alle hoeveelheden werkt. U kunt ook twee verschillende hoeveelheden invoeren op aparte verkooporderregels.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Assemblage](assembly-assemble-items.md)  
 [Artikelen reserveren](inventory-how-to-reserve-items.md)  

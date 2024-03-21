@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="project-reports-and-analytics-in-business-central"></a>Projectrapporten en analyses in Business Central
+# Projectrapporten en analyses in Business Central
 
 Projectrapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt project- en zakelijke professionals in staat om inzichten en statistieken te krijgen over huidige en vroegere projectactiviteiten.  
 
-## <a name="reports"></a>Rapporten
+## Rapporten
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## <a name="tasks"></a>Taken
+## Taken
 
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw bedrijf:
 
 * [Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md)  
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Projectbeheer instellen](projects-setup-projects.md)  
 [Projectbeheer](projects-manage-projects.md)  

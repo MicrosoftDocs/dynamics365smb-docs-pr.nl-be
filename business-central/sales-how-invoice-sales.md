@@ -10,7 +10,7 @@ ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="invoice-sales"></a>Verkopen factureren
+# Verkopen factureren
 
 U kunt meestal een verkoopfactuur of een verkooporder maken om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.  
 
@@ -24,7 +24,7 @@ In alle andere situaties werken verkooporders en verkoopfacturen op dezelfde wij
 
 U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u kunt omzetten in een verkoopfactuur wanneer er een overeenkomst is. Ga voor meer informatie naar [Verkoopoffertes maken](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Verkoopfacturen maken
+## Verkoopfacturen maken
 
 Als de klant wilt kopen, boekt u de verkoopfactuur om de gerelateerde aantallen en waarden in te voeren. Wanneer u de verkoopfactuur boekt, kunt u het ook als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf invullen met een overzicht van de factuur- en betalingsgegevens, zoals een koppeling naar PayPal opgeven. Meer informatie op [Documenten per e-mail verzenden](ui-how-send-documents-email.md). Als de klant de factuur betaalt, kunt u die betaling op verschillende manieren registreren, afhankelijk van de grootte en de geprefereerde werkstromen van uw organisatie. Meer informatie de sectie [Betalingen registreren](#register-payments).  
 
@@ -32,7 +32,7 @@ Artikelkaarten kunnen van het type **Voorraad**, **Service** en **Niet-voorraad*
 
 U kunt klantvelden op de verkoopfactuur op een van twee manieren invullen afhankelijk van de vraag of de klant reeds is geregistreerd. Zie stap 2 in de volgende procedure.
 
-### <a name="to-create-a-sales-invoice"></a>Een verkoopfactuur maken
+### Een verkoopfactuur maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Voer in het veld **Klantnaam** de naam in van een bestaande klant. Als de klant echter nieuw is en daarom niet is geregistreerd, volg dan deze stappen om standaardklantinformatie in te vullen op de pagina **Verkoopfactuur**:
@@ -89,11 +89,11 @@ Het dialoogvenster **Boeken en verzenden bevestigen** geeft de manier aan waarop
 
 Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het systeem en de verkoopfactuur is uitvoer als een PDF-document. De verkoopfactuur wordt verwijderd uit de lijst met verkoopfacturen en wordt vervangen door een nieuw document in de lijst met geboekte verkoopfacturen.  
 
-### <a name="calculate-invoice-discounts-on-sales"></a>Factuurkortingen op verkopen berekenen
+### Factuurkortingen op verkopen berekenen
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Geboekte facturen
+## Geboekte facturen
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -101,7 +101,7 @@ U kunt een geboekte verkoopfactuur gemakkelijk corrigeren of annuleren vóór de
 
 [Open de lijst **Geboekte verkoopfacturen**](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="register-payments"></a>Betalingen registreren
+## Betalingen registreren
 
 Afhankelijk van uw zakelijke behoeften kunt u op verschillende manieren betaald krijgen en die betaling registreren: handmatig, automatisch en door middel van betalingsservices.  
 
@@ -116,11 +116,11 @@ U kunt zelfs direct betaalde facturen voor niet-geregistreerde klanten maken doo
 > [!TIP]
 > Als u uw klanten aanmaningen wilt sturen over achterstallige betalingen, moet u eerst aanmaningsniveaus en -voorwaarden instellen. Zie [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md) voor meer informatie.  
 
-## <a name="external-document-numbers"></a>Externe documentnummers
+## Externe documentnummers
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  

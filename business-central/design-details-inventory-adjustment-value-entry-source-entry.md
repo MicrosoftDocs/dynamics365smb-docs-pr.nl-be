@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Boekingsdatum op correctiewaardepost in vergelijking met de bronpost
+# Boekingsdatum op correctiewaardepost in vergelijking met de bronpost
 
 In dit artikel wordt Boekingsdatum op Herwaarderingswaardepost vergeleken met Boekingsdatum op post die de uitvoering veroorzaakt van de batchverwerking Kostprijs herwaarderen - Artikelposten, met name een herwaarderingsscenario en een artikeltoeslagscenario.
 
 De batchverwerking **Kostprijs herwaarderen - Artikelposten** verwerkt uw gegevens afhankelijk van uw scenario en configuratie van [!INCLUDE[prod_short](includes/prod_short.md)]. In deze sectie beschrijven we twee afzonderlijke processen, en voor elk proces tonen we het type impact dat de batchverwerking Kostprijs herwaarderen - Artikelposten heeft op de gegevens.
 
-## <a name="revaluation-scenario"></a>Herwaarderingsscenario
+## Herwaarderingsscenario
 
-### <a name="prerequisites"></a>Vereisten
+### Vereisten  
 
 Voer de volgende waarden in:
 
@@ -44,7 +44,7 @@ Voer de volgende waarden in:
 
 - Boeken toegest. tot = leeg  
 
-### <a name="to-test-the-scenario"></a>Het scenario testen
+### Het scenario testen
 
 Test dit scenario door de volgende stappen uit te voeren.
 
@@ -149,15 +149,15 @@ De herwaardering die wordt aangebracht voor de Negatieve herwaardering in stap 3
 
 Om herwaardering in december te bereiken van de negatieve correctie in stap 3, moet het veld Boeken toegest. vanaf in de boekhoudinstellingen een datum in december bevatten.  
 
-### <a name="conclusion"></a>Conclusie
+### Conclusie
 
 Met de ervaring die in dit scenario is opgedaan, kunt u bij het overwegen van de meest geschikte instelling voor een toegestane boekingsperiode voor een bedrijf rekening houden met het volgende. Zolang u toestaat dat wijzigingen in de voorraadwaarde worden geboekt in een periode, zoals in dit geval december, moet de instelling die het bedrijf gebruikt voor toegestane boekingsdatumbereiken worden afgestemd op deze beslissing. Het veld Boeken toegest. in de boekhoudinstellingen, dat 1 december bevat, zou toestaan dat de herwaardering die in december is aangebracht, wordt doorgestuurd naar betrokken uitgaande posten in dezelfde periode.  
 
 Gebruikersgroepen die niet in december mogen boeken, maar in januari, een beperking die waarschijnlijk de bedoeling was van de boekhoudinstellingen in dit scenario, moeten in plaats daarvan worden geregeld met de gebruikersinstellingen.  
 
-## <a name="item-charge-scenario"></a>Artikeltoeslagscenario
+## Artikeltoeslagscenario  
 
-### <a name="prerequisites-1"></a>Vereisten
+### Vereisten  
 
 Voer de volgende waarden in:
 
@@ -183,7 +183,7 @@ Voer de volgende waarden in:
 
 - Boeken toegest. tot = leeg  
 
-### <a name="to-test-the-scenario-1"></a>Het scenario testen
+### Het scenario testen  
 
 Test dit scenario door de volgende stappen uit te voeren:
 
@@ -349,7 +349,7 @@ Het is een uitdaging om het rapport Voorraadwaardering Aantal = 0 aan te laten g
 
 In dit scenario zou één scenario kunnen zijn het veld Boekhoudinstellingen, Boeken toegest. vanaf voor enkele dagen een datum in december te geven en de boeking van de eerste artikeltoeslag uit te stellen om mogelijk te maken dat alle kosten voor de vorige periode/boekjaar eerst worden herkend voor de periode waartoe ze behoren, de batchverwerking Kosten herwaarderen - Artikelposten uit te voeren en daarna de toegestane boekingsdatum te verplaatsen naar de nieuwe periode\/boekjaar. De eerste artikeltoeslag met boekingsdatum 2 januari kan dan worden geboekt.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  

@@ -10,18 +10,18 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="export-a-positive-pay-file"></a>Een Positive Pay-bestand exporteren
+# Een Positive Pay-bestand exporteren
 Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen verrekent, kunt u een Positive Pay-bestand exporteren dat leveranciersgegevens, het chequenummer en het betalingsbedrag bevat, die u naar de bank verzendt wanneer u betalingen verwerkt.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is vooraf geconfigureerd om Positive Pay-bestanden te ondersteunen voor Bank of America en City Bank.
 
-## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Een bankrekening voor Positive Pay instellen
+## Een bankrekening voor Positive Pay instellen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart voor de bank waarvoor u Positive Pay wilt gebruiken.
 3. Voer in het veld **Positive Pay-exportcode** POSPAYBANK in.
 4. Sluit de pagina.
 
-## <a name="to-export-a-positive-pay-file"></a>Een Positive Pay-bestand exporteren
+## Een Positive Pay-bestand exporteren
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de bankrekening waarvoor u een Positive Pay-bestand wilt exporteren.
 3. Kies de actie **Positive Pay exporteren**.
@@ -51,7 +51,7 @@ Positive Pay-bestanden opnieuw exporteren
 4. Selecteer de regel van het Positive Pay-exportbestand dat u opnieuw wilt exporteren.
 5. Kies op de pagina **Positive Pay-posten** de actie **Positive Pay opnieuw exporteren naar bestand**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="convert-service-contracts-that-include-vat-amounts"></a>Servicecontracten met btw-bedragen converteren
+# Servicecontracten met btw-bedragen converteren
 
 Omdat de wijzigingstool voor btw-tarieven servicecontracten niet kan converteren, moeten deze contracten handmatig worden geconverteerd. In dit artikel worden diverse alternatieve methoden beschreven die u voor de conversie van het servicecontract kunt gebruiken.  
 
@@ -22,7 +22,7 @@ Omdat de wijzigingstool voor btw-tarieven servicecontracten niet kan converteren
 > [!NOTE]  
 > In dit voorbeeld moet u de werkdatum wijzigen in 01.01.2017.  
 
-## <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Een factuur voor een vooruitbetaald servicecontract corrigeren
+## Een factuur voor een vooruitbetaald servicecontract corrigeren  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Contractbeheer** in en kies vervolgens de gerelateerde koppeling.  
 2. Onder **Lijsten** kiest u **Servicecontracten**.  
@@ -35,14 +35,14 @@ Omdat de wijzigingstool voor btw-tarieven servicecontracten niet kan converteren
 > [!NOTE]  
 > Wijzig de niet-geboekte servicefactuur niet. Aangezien de serviceposten worden gemaakt wanneer de factuur is gemaakt, zal een wijziging in de niet geboekte factuur de reeds gemaakte serviceposten niet wijzigen. De btw-posten worden echter gemaakt wanneer de factuur wordt geboekt. Zo kunt u de algemene productboekingsgroep en de APS productboekingsgroep op de niet geboekte servicefactuur wijzigen.  
 
-### <a name="to-create-a-credit-memo-for-vat-difference"></a>Creditnota's voor het btw-verschil maken
+### Creditnota's voor het btw-verschil maken 
  
 In de volgende procedure wordt beschreven hoe u een creditnota kunt maken die alleen het btw-verschil bevat voor de reeds gefactureerde periode die begint op **01-07-2017**. In dit voorbeeld wordt het btw-bedrag alleen geboekt naar de module Financieel beheer en niet naar de module Servicebeheer. De btw-posten die zijn gekoppeld aan de servicepost worden niet gecorrigeerd.  
 
 1. Een nieuwe grootboekrekening maken voor het btw-verschil. Deze rekening wordt gebruikt voor de directe boeking van de btw-correctie.  
 2. Voeg een nieuwe regel toe aan de btw-boekingsinstellingen.  
 
-## <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Contractvervaldatums in contractregels maken
+## Contractvervaldatums in contractregels maken  
 
 In de volgende procedure wordt beschreven hoe u nieuwe contracten kunt maken door te werken met contractvervaldatums in servicecontractregels.  
 
@@ -50,7 +50,7 @@ In de volgende procedure wordt beschreven hoe u nieuwe contracten kunt maken doo
 2. Kies de actie **Creditnota maken** om automatisch een creditnota te maken voor juli 2017 tot december 2017.  
 3. Omdat het contract is verlopen, moet u een nieuw contract maken voor de periode met het nieuwe btw-tarief voor 1 juli 2017 tot en met 31 december 2017.  
 
-### <a name="to-create-a-new-credit-memo"></a>Een nieuwe creditnota maken
+### Een nieuwe creditnota maken  
 
 In de volgende procedure wordt beschreven hoe u een nieuwe creditnota met de batchtaak **Vooruitbetaalde contractposten ophalen** kunt maken. Posten van januari 2017 tot en met juni 2017 die u niet wilt corrigeren, worden verwijderd.  
 
@@ -61,7 +61,7 @@ In de volgende procedure wordt beschreven hoe u een nieuwe creditnota met de bat
 5. Kies de actie **Vooruitbet. contractposten ophalen**.  
 6. Nadat de conversie is voltooid, zijn de btw en de serviceposten correct.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Werken met servicecontracten en servicecontractoffertes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Financiën](finance.md)  

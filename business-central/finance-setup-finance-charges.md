@@ -10,11 +10,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-finance-charge-terms"></a>Rentefactuurcondities instellen
+# Rentefactuurcondities instellen
 
 Wanneer een klant niet op de vervaldatum betaalt, kunt u automatisch aanmaningskosten laten berekenen en die optellen bij de openstaande bedragen op de rekening van de klant. U kunt klanten op de hoogte stellen van de toeslagen door rentefacturen te versturen. Maar u moet eerst een code instellen die elke renteberekening vertegenwoordigt. Vervolgens kunt u deze code opgeven in het veld Rentefactuurconditie op de klantenkaarten.  
 
-## <a name="finance-charge-terms"></a>Rentefactuurcondities
+## Rentefactuurcondities
 
 U moet rentefactuurcondities instellen voor elke berekening van financieringskosten en vervolgens de voorwaarden toewijzen aan de klant in het veld **Rentefactuurconditie** op de pagina **Klant**.
 
@@ -32,7 +32,7 @@ U berekent rentefacturen via de rentedagenmethode of de methode voor openstaande
 
 Elke conditie in de tabel Rentefactuurcondities is bovendien gekoppeld aan de subtabel Rentefactuurtekst. Voor elke set rentefactuurcondities kunt u een begin- en/of eindtekst definiëren die in de rentefactuur wordt opgenomen.
 
-### <a name="to-set-up-finance-charge-terms"></a>Rentefactuurcondities instellen
+### Rentefactuurcondities instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rentefactuurcondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
@@ -61,7 +61,7 @@ Elke conditie in de tabel Rentefactuurcondities is bovendien gekoppeld aan de su
 |%8|Inhoud van het veld **Valutacode** in de rentefactuurkoptekst|  
 |%9|Inhoud van het veld **Boekingsdatum** in de rentefactuurkoptekst|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)  

@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="quote-an-assemble-to-order-sale"></a>Een offerte maken voor een assembleren voor order-verkoop
+# Een offerte maken voor een assembleren voor order-verkoop
 
 U kunt assemblagebeheer gebruiken om een assemblageartikel op verzoek van een klant aan te passen tijdens het verkoopproces. Zie voor meer informatie [Op order geassembleerde artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -19,7 +19,7 @@ Als u een ander soort artikel verkoopt, kunt u ook een verkoopofferte maken voor
 > [!NOTE]  
 >  Zoals alle soorten van offertes worden de aantallen op assemblageoffertes niet gebruikt in beschikbaarheid, plannen of reserveringen.  
 
-## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Een verkoopofferte voor een op-order-assembleren-artikel maken
+## Een verkoopofferte voor een op-order-assembleren-artikel maken
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopofferte** in en kies vervolgens de gerelateerde koppeling.  
 2.  Maak een nieuwe verkoopofferteregel met één regel voor een assemblageartikel. Zie voor meer informatie [Verkoopoffertes maken](sales-how-make-offers.md).  
@@ -33,7 +33,7 @@ Als u een ander soort artikel verkoopt, kunt u ook een verkoopofferte maken voor
 6.  Wanneer u de assemblageorderregels hebt bijgewerkt volgens de offerte sluit u de pagina **Op orderregels assembleren** om terug te keren naar de pagina **Verkoopofferte**.  
 7.  Als de klant de offerte heeft geaccepteerd, maakt u een verkooporder voor het genoteerde assemblageartikel. Zie voor meer informatie [Verkoopoffertes maken](sales-how-make-offers.md). De gekoppelde assemblageofferte en eventuele aanpassingen zijn gekoppeld aan die nieuwe verkooporder, als voorbereiding op de assemblage van het artikel of de artikelen die verkocht worden.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Assemblage](assembly-assemble-items.md)  
 [Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)  

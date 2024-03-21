@@ -11,7 +11,7 @@ ms.date: 02/05/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="use-time-sheets"></a>Urenstaten gebruiken
+# Urenstaten gebruiken
 
 In dit artikel wordt beschreven hoe u urenstaten kunt gebruiken om afwezigheid bij te houden en om de tijd en resources die aan een project worden besteed bij te houden. Tijd bijhouden helpt u problemen vroeg te identificeren en vertragingen of budgetoverschrijdende kosten te voorkomen. Met urenstaten is het gemakkelijk voor een resource om tijdgebruik te rapporteren voor een persoon of een machine, zodat beheerders het gebruik en de toewijzing ervan kunnen bekijken. 
 
@@ -24,7 +24,7 @@ Voordat u urenstaten kunt gebruiken, moet u algemene informatie instellen en een
 > [!TIP]
 > U kunt urenstaten gebruiken op een mobiel apparaat. Om dat te doen moet u mogelijk de schakelaar **Nieuwe urenstaatervaring gebruiken** aanzetten op de pagina [Resources instellen](https://businesscentral.dynamics.com/?page=462) .
 
-## <a name="create-time-sheets"></a>Urenstaten maken
+## Urenstaten maken
 
 U kunt de pagina **Urenstaten maken** gebruiken om urenstaten in te stellen voor specifieke perioden of weken. Vervolgens kan de eigenaar van de urenstaat deze openen en tijd vastleggen die aan een taak is besteed. U kunt ook [de automatische uitvoering van de batchtaak plannen](ui-work-report.md#ScheduleReport).  
 
@@ -68,7 +68,7 @@ In dit hypothetische voorbeeld kunt u dan de uren registreren over de relevante 
 >
 > Kies het werktype door de knop :::image type="icon" source="media/assist-edit-icon.png" border="false"::: te kiezen in het veld **Omschrijving**, door de actie **Activiteitsdetails** te kiezen en deze vervolgens op te geven op de pagina die wordt geopend, of door deze te kiezen in respectievelijk het veld **Werktypecode** of het veld **Afwezigheidstypecode**. In dit geval kunt u het gedeelte [Werksoorten definiëren en er een toevoegen aan een urenstaat](#define-work-types-and-add-one-to-a-time-sheet) negeren.  
 
-## <a name="reuse-time-sheet-lines-in-other-time-sheets"></a>Urenstaatregels in andere urenstaten opnieuw gebruiken
+## Urenstaatregels in andere urenstaten opnieuw gebruiken
 
 Als uw urenstaatinformatie van periode tot periode gelijk blijft, kopieert u de regels uit de vorige periode om tijd te besparen. Voer daarna alleen het tijdsgebruik voor de nieuwe periode in.
 
@@ -78,7 +78,7 @@ Als uw urenstaatinformatie van periode tot periode gelijk blijft, kopieert u de 
 
 De regels worden gekopieerd, inclusief details zoals het type en beschrijving. Als de regel bijvoorbeeld is gekoppeld aan een project, wordt het **Projectnr.** gekopieerd. Alle gekopieerde regels hebben de status **Open**. U kunt nu indien nodig de regels wijzigen.
 
-## <a name="copy-job-planning-lines-to-a-time-sheet"></a>Projectplanningsregels kopiëren naar een urenstaat
+## Projectplanningsregels kopiëren naar een urenstaat
 
 De volgende procedure beschrijft hoe u snel projectplanningsregels toevoegt aan een urenstaat.
 
@@ -86,7 +86,7 @@ De volgende procedure beschrijft hoe u snel projectplanningsregels toevoegt aan 
 2. Selecteer op de pagina **Urenstaten** een urenstaat voor de betreffende periode.  
 3. Kies de actie **Regels maken van projectplanning**. Alle projectplanningsregels in de urenstaatperiode worden gekopieerd naar het veld **Resourcenr.** op de urenstaat voor de machine of persoon.
 
-## <a name="define-work-types-and-add-one-to-a-time-sheet"></a>Werksoorten definiëren en er een toevoegen aan een urenstaat
+## Werksoorten definiëren en er een toevoegen aan een urenstaat
 
 U kunt het werksoort voor alle urenstaatregels voor serviceorders, projectorders en resources definiëren. Op deze manier kunt u gegevens toevoegen die u nodig hebt om de klant te factureren voor verschillende soorten werk.  
 
@@ -100,7 +100,7 @@ U kunt het werksoort voor alle urenstaatregels voor serviceorders, projectorders
 > [!TIP]
 > U kunt soortgelijke stappen volgens om afwezigheidscodes te definiëren.
 
-## <a name="fill-in-time-sheet-lines-and-submit-for-approval"></a>Urenstaatregels invullen en ter goedkeuring verzenden
+## Urenstaatregels invullen en ter goedkeuring verzenden
 
 Urenstaatregistratie wordt bijgehouden in uren, de standaard basiseenheid voor resources. Een urenstaat bevat standaard de algemene werkdagen van maandag tot en met vrijdag.  
 
@@ -131,7 +131,7 @@ Urenstaatregistratie wordt bijgehouden in uren, de standaard basiseenheid voor r
     > Een beheerder kan een urenstaatregel weigeren die ter goedkeuring is verzonden. Als een regel de status **Geweigerd** heeft, kunt u wijzigingen aanbrengen in de regel en opnieuw **Indienen** kiezen.  
 6. Kies de knop **Ok**.
 
-## <a name="approve-or-reject-a-time-sheet"></a>Een urenstaat goedkeuren of weigeren
+## Een urenstaat goedkeuren of weigeren
 
 Een urenstaat moet ter goedkeuring worden ingediend om te worden gebruikt. U kunt afzonderlijke regels goedkeuren en weigeren op een urenstaat of deze terugsturen naar de indiener. U kunt een urenstaat op twee manieren goedkeuren:
 
@@ -151,7 +151,7 @@ Een urenstaat moet ter goedkeuring worden ingediend om te worden gebruikt. U kun
 
 Zodra u een urenstaat goedkeurt of weigert, kan deze niet meer worden gewijzigd tenzij deze eerst opnieuw wordt geopend. In de volgende procedure wordt uitgelegd hoe u een goedgekeurde of geweigerde urenstaat opnieuw opent.
 
-## <a name="reopen-a-time-sheet"></a>Een urenstaat opnieuw openen
+## Een urenstaat opnieuw openen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Urenstatenmanager** of **Urenstaten** in en kies vervolgens de gerelateerde koppeling.
 2. Open een urenstaat uit de lijst.  
@@ -161,14 +161,14 @@ Zodra u een urenstaat goedkeurt of weigert, kan deze niet meer worden gewijzigd 
 3. Kies op de pagina **Urenstaat** de actie **Opnieuw openen** en kies vervolgens de actie **Alle verzonden regels** om alle regels opnieuw te openen of kies de actie **Alleen geselecteerde regels** om alleen de regels opnieuw te openen die zijn geselecteerd op de pagina **Urenstaat**.
 4. Kies de knop **OK**. De status van de urenstaatregel of -regels verandert in **Verzonden**.  
 
-## <a name="view-and-approve-time-sheets-by-job"></a>Urenstaten per project bekijken en goedkeuren
+## Urenstaten per project bekijken en goedkeuren
 
 U kunt voor een project een persoon opgeven die verantwoordelijk is voor het project. Die informatie is gekoppeld aan urenstaatregels. De link geeft projectmanagers een lijst met de urenstaten die moeten worden goedgekeurd. De teamprojectmanager kan bijvoorbeeld verantwoordelijk zijn voor bepaalde projecten in uw bedrijf. In dat geval moet de manager worden aangewezen als de **Verantwoordelijke** op de pagina Projectkaart. In deze weergave met urenstaatinformatie ziet u de projecttaken die zijn gekoppeld aan een project en het aantal uren dat is verbruikt.
 
 > [!NOTE]
 > Om urenstaten te kunnen goedkeuren op de pagina **Urenstaat manager op taak** moet u eerst een optie bij **Urenstaat op taakgoedkeuring** op de pagina **Resource-instellingen** selecteren. Ga voor meer informatie over het instellen van goedkeuringen voor resources naar [Resources instellen](projects-how-setup-resources.md).
 
-### <a name="approve-or-reject-a-time-sheet-by-job"></a>Een urenstaat per project goedkeuren of weigeren
+### Een urenstaat per project goedkeuren of weigeren
 
 1. Voer in het tekstvak **Zoeken** **Urenstaat manager op taak** in en kies vervolgens de gerelateerde koppeling. [!INCLUDE[prod_short](includes/prod_short.md)] geeft een lijst met urenstaatregels weer die zijn gekoppeld aan de projecten waarvoor u verantwoordelijk bent.
 2. Kies de actie **Goedkeuren** en kies vervolgens de actie **Alle verzonden regels** om alle regels goed te keuren of kies de actie **Alleen geselecteerde regel(s)** om alleen de regels goed te keuren die zijn geselecteerd op de pagina **Urenstaat**.
@@ -182,7 +182,7 @@ U kunt voor een project een persoon opgeven die verantwoordelijk is voor het pro
 > [!NOTE]
 > Nadat u een urenstaatregel per taak heeft goedgekeurd of afgewezen, kunt u deze niet opnieuw openen of wijzigen op de pagina **Urenstaat**.
 
-## <a name="post-time-sheet-lines-in-a-resource-journal"></a>Urenstaatregels naar een resourcedagboek boeken
+## Urenstaatregels naar een resourcedagboek boeken
 
 Nadat u de urenstaatposten voor een resource hebt goedgekeurd, kunt u deze boeken naar het relevante resourcedagboek.
 
@@ -193,7 +193,7 @@ Nadat u de urenstaatposten voor een resource hebt goedgekeurd, kunt u deze boeke
 5. Kies de actie **Boeken**.  
 6. Als u de boeking wilt controleren, kiest u de actie **Posten**. De pagina **Resourceposten** wordt geopend met de resultaten van het boeken van het resourcedagboek.
 
-## <a name="post-time-sheet-lines-in-a-job-journal"></a>Urenstaatregels in een projectdagboek boeken
+## Urenstaatregels in een projectdagboek boeken
 
 Nadat u de urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken naar het relevante projectdagboek.
 
@@ -207,7 +207,7 @@ Nadat u de urenstaatposten voor een project hebt goedgekeurd, kunt u deze boeken
 5. Kies de actie **Boeken**.  
 6. Als u de boeking wilt controleren, kiest u de actie **Posten**. De pagina **Projectposten** wordt geopend met de resultaten van het boeken van het resourcedagboek.
 
-## <a name="archive-time-sheets"></a>Urenstaten archiveren
+## Urenstaten archiveren
 
 Nadat u urenstaten hebt geboekt, kunt u ze archiveren voor latere naslag. U moet alle regels op een urenstaat boeken voordat u deze kunt archiveren.
 
@@ -219,7 +219,7 @@ Nadat u urenstaten hebt geboekt, kunt u ze archiveren voor latere naslag. U moet
 3. Vul op de pagina **Urenstaten verplaatsen naar archief** de benodigde velden in en kies de knop **OK**.  
 4. Om gearchiveerde urenstaten te bekijken kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Urenstaatarchieven** of **Urenstaatarchiefbeheer** in en kiest u vervolgens de gerelateerde koppeling.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Projectbeheer instellen](projects-setup-projects.md)  

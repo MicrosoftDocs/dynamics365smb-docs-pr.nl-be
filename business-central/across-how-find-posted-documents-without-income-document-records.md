@@ -9,11 +9,11 @@ ms.date: 06/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="find-posted-documents-without-incoming-document-records"></a>Geboekte documenten zonder inkomende documentrecords zoeken
+# Geboekte documenten zonder inkomende documentrecords zoeken
 
 Vanuit de pagina's **Rekeningschema** en **Grootboekposten** kunt u zoeken naar grootboekposten voor geboekte inkoop- en verkoopdocumenten die geen inkomende documentrecords hebben, en deze centraal koppelen aan bestaande records of nieuwe records maken met gekoppelde documentbestanden.
 
-## <a name="to-find-posted-documents-without-incoming-document-records"></a>Geboekte documenten zonder inkomende documentrecords zoeken
+## Geboekte documenten zonder inkomende documentrecords zoeken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies de gerelateerde koppeling.
 2. Selecteer een regel voor een grootboekrekening waarvan de grootboekposten die u wilt zien, geboekte inkoop- en verkoopdocumenten zijn zonder inkomende documentrecords en kies vervolgens de actie **Geboekte documenten zonder inkomend document**.
@@ -22,7 +22,7 @@ Vanuit de pagina's **Rekeningschema** en **Grootboekposten** kunt u zoeken naar 
 
 De pagina **Geboekte documenten zonder inkomend document** wordt geopend en toont geboekte inkoop- en verkoopdocumenten zonder inkomende documentrecords die worden gerepresenteerd door grootboekposten in de Grootboekrekening waarvoor u de pagina hebt geopend. De pagina kan maximaal 1000 regels weergeven. Standaard bevat het veld **Datumfilter** daarom een filter dat de regels beperkt tot posten met een boekingsdatum vanaf het begin van de boekhoudperiode tot de werkdatum.
 
-## <a name="to-connect-found-documents-to-existing-incoming-document-records"></a>Gevonden documenten koppelen aan bestaande inkomende documentrecords
+## Gevonden documenten koppelen aan bestaande inkomende documentrecords
 
 1. Selecteer op de pagina **Geboekte documenten zonder inkomend document** de regel voor een geboekt document dat u wilt koppelen aan een bestaande inkomende documentrecord en kies vervolgens de actie **Inkomend document selecteren** .
 2. Selecteer op de pagina **Inkomende documenten** de inkomende documentrecord die u wilt koppelen aan het gevonden geboekte document en kies vervolgens de knop **OK**.
@@ -30,7 +30,7 @@ De pagina **Geboekte documenten zonder inkomend document** wordt geopend en toon
 
 Als er geen relevante inkomende documentrecord op de pagina **Inkomende documenten** staat, kunt u er een maken. Zie [Inkomende documentrecords maken](across-how-create-income-document-records.md) voor meer informatie.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inkomende documentrecords maken](across-how-create-income-document-records.md)
 [OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten](across-how-use-ocr-pdf-images-files.md)

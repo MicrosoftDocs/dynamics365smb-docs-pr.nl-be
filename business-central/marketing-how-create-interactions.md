@@ -11,13 +11,13 @@ ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Interacties maken voor contacten en segmenten
+# Interacties maken voor contacten en segmenten
 
 U kunt interacties maken om de communicatie bij te houden die u met één contactpersoon of met meerdere contactpersonen in uw segmenten heeft. Om het gemakkelijk te maken om interacties tot stand te brengen biedt [!INCLUDE [prod_short](includes/prod_short.md)] de begeleide instelling **Interactie maken**. De guide helpt u de belangrijke details van de interactie vast te leggen.
 
 Voordat u echter interacties maakt, moet u interactiesjablonen instellen. Ga voor meer informatie over interactiesjablonen naar [Interactiesjablonen instellen](marketing-interactions.md).
 
-## <a name="to-create-an-interaction-with-a-contact"></a>Een interactie maken met een contact
+## Een interactie maken met een contact
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Contacten**, **Verkoper** of **Interactielogpost** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Interactie maken**.
@@ -26,7 +26,7 @@ Voordat u echter interacties maakt, moet u interactiesjablonen instellen. Ga voo
 > [!NOTE]  
 > Als u wilt stoppen voordat u de interactie heeft voltooid, kunt u **Annuleren** kiezen en vervolgens opgeven of u uw instellingen wilt opslaan, zodat u later kunt doorgaan. Ga voor meer informatie over uitgestelde interacties naar [Instellen van een uitgestelde interactie voltooien](#to-finish-setting-up-a-postponed-interaction).
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Een interactie voor een segment maken
+## Een interactie voor een segment maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Interactie maken**.
@@ -41,12 +41,12 @@ Voordat u echter interacties maakt, moet u interactiesjablonen instellen. Ga voo
 
 Een interactie wordt geregistreerd voor elk contact binnen het segment in de tabel **Interactielogpost** en het segment wordt geregistreerd. Geregistreerde segmenten zijn beschikbaar op de pagina **Geregistreerd segment**.
 
-## <a name="to-finish-setting-up-a-postponed-interaction"></a>Het instellen van een uitgestelde interactie voltooien
+## Het instellen van een uitgestelde interactie voltooien
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Uitgestelde interacties** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de interactie die u wilt voltooien, en kies vervolgens de actie **Hervatten**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Interacties registreren](marketing-interactions.md)  
 [Contactpersonen beheren](marketing-contacts.md)  

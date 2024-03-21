@@ -9,7 +9,7 @@ ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten
+# Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten
 
 U kunt het veld **Vereffenen van post** op de pagina **Artikeldagboek** gebruiken om een vaste vereffening tussen een inkomende transactie en de oorspronkelijke uitgaande transactie te maken. Bijvoorbeeld om de uitgaande transactie te corrigeren of de retourzending te verwerken.  
 
@@ -22,7 +22,7 @@ U kunt vereffeningsposten in bepaalde omstandigheden wijzigen en opnieuw toepass
 
 De volgende procedure laat zien hoe u dergelijke posten kunt sluiten door het uitvoeren van twee corrigerende boekingen in het artikeldagboek.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Openstaande artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten
+## Openstaande artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten  
 
 1. Gebruik het veld **Vereffenen van post** om een positieve aanpassing met de overeenkomstige hoeveelheid te boeken. De oorspronkelijke negatieve post met een vaste vereffening wordt gesloten.  
 
@@ -31,7 +31,7 @@ De volgende procedure laat zien hoe u dergelijke posten kunt sluiten door het ui
 
     Met het veld **Vereffenen met post** wordt opgegeven of het aantal op de artikeldagboekregel moet worden vereffend met een reeds geboekt document. Als dat het geval is, voert u hier het nummer in van de artikelpost waarmee de artikeldagboekregel moet worden vereffend.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)  
 [Verkoopretouren en annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)  
