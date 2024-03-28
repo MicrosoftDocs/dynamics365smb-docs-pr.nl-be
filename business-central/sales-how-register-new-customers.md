@@ -10,7 +10,7 @@ ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="register-new-customers"></a>Nieuwe klanten registreren
+# Nieuwe klanten registreren
 
 Klanten zijn uw bron van uw inkomsten. U moet elke klant aan wie u verkoopt registreren als een klantenkaart. Klantenkaarten bevatten de informatie die is vereist om producten aan de klant te verkopen. Zie voor meer informatie [Verkopen factureren](sales-how-invoice-sales.md) en [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
 
@@ -19,7 +19,7 @@ Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes inst
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## <a name="add-new-customers"></a>Nieuwe klant toevoegen
+## Nieuwe klant toevoegen
 
 U kunt nieuwe klanten handmatig toevoegen door de pagina **Klantenkaart** in te vullen of u kunt sjablonen gebruiken die vooraf gedefinieerde informatie bevatten. U kunt bijvoorbeeld een sjabloon maken voor verschillende typen klantprofielen. Het gebruik van sjablonen bespaart tijd bij het toevoegen van nieuwe klanten en helpt ervoor te zorgen dat de informatie elke keer correct is. 
 
@@ -34,7 +34,7 @@ Nadat u een sjabloon heeft gemaakt, kunt u de actie **Sjabloon toepassen** gebru
 
 U kunt ook een klant maken op basis van een contact. Zie voor meer informatie de sectie [Een klant, leverancier, werknemer of bankrekening maken van een contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-### <a name="to-create-a-new-customer-card"></a>Een nieuwe klantenkaart maken
+### Een nieuwe klantenkaart maken
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -42,7 +42,7 @@ De actie **Prijzen en kortingen** biedt opties voor het beheren van speciale pri
 
 De klant is nu geregistreerd en de klantenkaart is klaar om voor verkoopdocumenten te worden gebruikt.  
 
-### <a name="to-save-the-customer-card-as-a-template"></a>De klantenkaart als sjabloon opslaan
+### De klantenkaart als sjabloon opslaan
 
 U kunt een klantenkaart als sjabloon gebruiken wanneer u nieuwe klantenkaarten maakt.
 
@@ -54,11 +54,11 @@ U kunt een klantenkaart als sjabloon gebruiken wanneer u nieuwe klantenkaarten m
 
 De klantensjabloon wordt toegevoegd aan de lijst met klantensjabloon en u kunt deze gebruiken om nieuwe klantenkaarten te maken.
 
-## <a name="delete-customer-cards"></a>Klantenkaarten verwijderen
+## Klantenkaarten verwijderen
 
 Als u een transactie voor een klant boekt, kunt u de klantenkaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor controle. Als u klantenkaarten met grootboekposten wilt verwijderen, neemt u contact op met uw Microsoft-partner om dat via code te doen.  
 
-## <a name="manage-credit-limits"></a>Kredietlimieten beheren
+## Kredietlimieten beheren
 
 Op basis van kredietlimieten, saldobedragen en betalingscondities kan [!INCLUDE [prod_short](includes/prod_short.md)] een kredietwaarschuwing of een waarschuwing voor openstaande saldo's genereren zodra u een verkooporder invoert. Bovendien kunt u met aanmaningscondities en rentefactuurcondities rente en/of extra kosten factureren.  
 
@@ -68,7 +68,7 @@ U kunt zelfs boeken als de kredietlimiet is overschreden. Een leeg veld betekent
 
 U kunt ervoor kiezen om geen waarschuwingen te ontvangen wanneer de kredietlimiet van de klant is overschreden, en u kunt aangeven welke soorten waarschuwingen u wilt zien.
 
-### <a name="to-specify-credit-limit-warnings"></a>Waarschuwingen voor kredietlimieten opgeven
+### Waarschuwingen voor kredietlimieten opgeven
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
 
@@ -81,7 +81,7 @@ U kunt ervoor kiezen om geen waarschuwingen te ontvangen wanneer de kredietlimie
     |**Openstaand saldo**|Het veld **Openstaand bedrag** op de klantenkaart wordt ingeschakeld en er wordt een waarschuwing weergegeven als de klant een openstaand saldo heeft.|
     |**Geen**|Er worden geen kredietwaarschuwingen weergegeven over de status van de klant.|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsmethoden definiëren](finance-payment-methods.md)  
 [Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)  

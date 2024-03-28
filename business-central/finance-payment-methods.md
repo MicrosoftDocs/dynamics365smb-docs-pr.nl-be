@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-payment-methods"></a>Betalingsmethoden instellen
+# Betalingsmethoden instellen
 
 Betalingswijzen definiëren hoe u wilt dat klanten u betalen en hoe u uw leveranciers wilt betalen. De methode kan voor elke klant of leverancier variëren. Voorbeelden van gangbare betalingswijzen zijn **bank**, **contant**, **cheque** of **rekening**.
 
@@ -22,7 +22,7 @@ Creditnota's voor retouren zijn echter uitzonderingen, omdat geld in tegenoverge
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a>Een betalingswijze instellen
+## Een betalingswijze instellen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt een paar betalingswijzen die bedrijven vaak gebruiken. U kunt er echter zo veel toevoegen als u wilt.
 
@@ -31,12 +31,12 @@ Creditnota's voor retouren zijn echter uitzonderingen, omdat geld in tegenoverge
 
 Wijs desgewenst betalingsvoorwaarden toe aan uw betalingsmethode. Zie voor meer informatie [Betalingsvoorwaarden instellen](finance-payment-terms.md) voor meer informatie.  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Een betalingswijze aan een klant of leverancier toewijzen
+## Een betalingswijze aan een klant of leverancier toewijzen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klant** of **Leverancier** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in het veld **Betalingswijze** de methode die standaard moet worden gebruikt voor de klant of leverancier.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)  
 [Betalingsvoorwaarden instellen](finance-payment-terms.md)  

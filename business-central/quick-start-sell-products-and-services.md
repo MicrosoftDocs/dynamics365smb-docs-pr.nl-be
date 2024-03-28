@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales-quick-start"></a>Snelstartgids Verkoop
+# Snelstartgids Verkoop
 
 Om producten en services te kunnen verkopen moet u eerst artikelen en klanten instellen. Zodra dat is gebeurd, kunt u beginnen met het registreren van verkooporders en het verzenden van facturen.
 
-## <a name="set-up-items-to-sell"></a>Te verkopen artikelen instellen
+## Te verkopen artikelen instellen
 
 Deze video laat zien hoe u een artikel instelt om te verkopen in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -22,13 +22,13 @@ Deze video laat zien hoe u een artikel instelt om te verkopen in [!INCLUDE[prod_
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
 
-### <a name="set-up-a-new-item"></a>Een nieuw artikel instellen
+### Een nieuw artikel instellen
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 Voor meer informatie en aanvullende dingen die u kunt doen wanneer u artikelen instelt, zie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
 
-## <a name="set-up-customers"></a>Klanten instellen
+## Klanten instellen
 
 Deze video laat zien hoe u een nieuwe klant maakt in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -36,17 +36,17 @@ Deze video laat zien hoe u een nieuwe klant maakt in [!INCLUDE[prod_short](inclu
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-### <a name="set-up-a-new-customer"></a>Een nieuwe klant instellen
+### Een nieuwe klant instellen
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Voor meer informatie en aanvullende dingen die u kunt doen wanneer u klanten instelt, zie [Nieuwe klanten registreren](sales-how-register-new-customers.md)
 
-## <a name="create-a-sales-order"></a>Een verkooporder maken
+## Een verkooporder maken  
 
 Wanneer u iets aan een klant verkoopt, hebt u twee opties. De eerste en eenvoudigste is om gewoon een verkoopfactuur te maken. Als uw verkoopproces echter complexer is, bijvoorbeeld als u situaties heeft waarin u slechts delen van een orderhoeveelheid verzendt, gebruikt u een verkooporder.
 
-### <a name="to-create-a-sales-order"></a>Een verkooporder maken
+### Een verkooporder maken  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 10 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer **Nieuw** om een nieuwe post te maken.
@@ -76,11 +76,11 @@ Wanneer u iets aan een klant verkoopt, hebt u twee opties. De eerste en eenvoudi
 
 Voor meer informatie en aanvullende dingen die u kunt doen bij het maken van klantenverkooporders zie [Producten verkopen met een klantenverkooporder](sales-how-sell-products.md).  
 
-## <a name="create-a-sales-invoice"></a>Een verkoopfactuur maken
+## Een verkoopfactuur maken
 
 Wanneer u een verkoopfactuur maakt en boekt, maakt u niet alleen het factuurdocument dat u naar de klant verzendt, maar maakt u ook de gerelateerde hoeveelheid- en waardeposten in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### <a name="to-create-and-post-a-sales-invoice"></a>Een verkoopfactuur maken en boeken
+### Een verkoopfactuur maken en boeken  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 20 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -106,7 +106,7 @@ Wanneer u een verkoopfactuur maakt en boekt, maakt u niet alleen het factuurdocu
 
 Voor meer informatie en aanvullende dingen die u kunt doen bij het maken van klantenverkoopfacturen zie [Verkopen factureren](sales-how-invoice-sales.md)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Snelstartgidsen voor Business Central](quick-start-business-central.md)  
 [Verkoopoverzicht](sales-manage-sales.md)  

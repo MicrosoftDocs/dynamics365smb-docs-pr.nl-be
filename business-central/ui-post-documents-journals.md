@@ -9,7 +9,7 @@ ms.search.form: null
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="posting-documents-and-journals"></a>Documenten en dagboeken boeken
+# Documenten en dagboeken boeken
 
 Boeking staat voor de boekhoudingsactie waarbij zakelijke transacties in de verschillende bedrijfsgrootboeken worden geregistreerd.
 
@@ -26,7 +26,7 @@ In de volgende tabel worden gerelateerde taken beschreven met koppelingen naar d
 | Bekijk op een pagina een voorbeeld van de posten die worden gemaakt wanneer u boekt. |[Voorbeeld van boekingsresultaten weergeven](ui-how-preview-post-results.md) |
 | Bekijk in een rapport een voorbeeld van de posten die worden gemaakt wanneer u boekt. |[Controlelijsten weergeven vóór boeken](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Geboekte documenten bewerken](across-edit-posted-document.md)  
 [Gerelateerde posten zoeken voor documenten](ui-find-entries.md)  

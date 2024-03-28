@@ -9,7 +9,7 @@ ms.devlang: al
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ms.service: dynamics-365-business-central
 ---
-# <a name="receive-items-with-warehouse-receipts"></a>Artikelen ontvangen met magazijnontvangsten
+# Artikelen ontvangen met magazijnontvangsten
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
@@ -24,7 +24,7 @@ Ga voor meer informatie over het afhandelen van inkomende artikelen naar [Inkome
 
 Het volgende artikel verwijst naar methoden C en D in de vorige tabel.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a>Artikelen ontvangen met een magazijnontvangst
+## Artikelen ontvangen met een magazijnontvangst
 
 Bij ontvangst van artikelen in een magazijn waarvoor magazijnontvangstverwerking is ingesteld, moet u de regels ophalen van het vrijgegeven brondocument waaruit de ontvangst voortkomt. Als u opslaglocaties gebruikt, kunt u de standaardopslaglocatie accepteren of de opslaglocatie specificeren om de items weg te zetten. Dit laatste kan nodig zijn wanneer u een artikel voor de eerste keer ontvangt. Vervolgens moet u de aantallen van de ontvangen artikelen invullen en de ontvangst boeken.  
 
@@ -65,7 +65,7 @@ U kunt een magazijnontvangst op twee manieren maken:
     > [!NOTE]  
     > Als uw magazijn crossdocking gebruikt, kunt u controleren of u artikelen kunt crossdocken zonder ze op te slaan. Ga voor meer informatie over cross-docking naar [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Filters gebruiken om brondocumenten op te halen
+## Filters gebruiken om brondocumenten op te halen
 
 U kunt vanuit een magazijnontvangst de pagina **Filters om brondocumenten op te halen** gebruiken voor het ophalen van de vrijgegeven brondocumentregels die bepalen welke artikelen moeten worden ontvangen.
 
@@ -81,7 +81,7 @@ Alle vrijgegeven brondocumentregels die voldoen aan de filtercriteria worden toe
 
 U kunt een onbeperkt aantal filtercombinaties maken. Filters worden opgeslagen op de pagina **Filters om brondocumenten op te halen** en ze zijn beschikbaar als u ze nodig hebt. U kunt de criteria op elk moment wijzigen door de actie **Wijzigen** te kiezen.
 
-## <a name="zone-and-bin-codes"></a>Zone- en opslaglocatiecodes
+## Zone- en opslaglocatiecodes
 
 Als u artikelen wilt ontvangen met andere magazijnklassen dan de magazijnklasse van de opslaglocatie in het veld **Opslaglocatie** op de documentkop, wist u het veld **Opslaglocatie** op de kop voordat u de brondocumentregels voor de artikelen ophaalt.  
 <!-- TBD, table with comparison of various options-->
@@ -91,7 +91,7 @@ Als opslaglocaties verplicht zijn voor een locatie, worden zone- en opslaglocati
 * Voor geavanceerde configuraties die gestuurde opslag en pick gebruiken, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de ontvangstopslaglocatie van de pagina **Vestiging** voor de vestiging. Als er geen ontvangstopslaglocatie is opgegeven, wordt er geen opslaglocatie opgegeven. Als het artikel en de ontvangstopslaglocaties niet overeenkomen, is de ontvangstopslaglocatie leeg.
 * In andere configuraties, als er geen ontvangstopslaglocatie is opgegeven, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de opslaglocatie van het brondocument.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

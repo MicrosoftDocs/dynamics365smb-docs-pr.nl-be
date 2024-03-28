@@ -12,11 +12,11 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="use-non-deductible-vat"></a>Niet-aftrekbare btw gebruiken
+# Niet-aftrekbare btw gebruiken
 
 In dit artikel wordt uitgelegd hoe u niet-aftrekbare btw gebruikt en aangeeft in Microsoft .
 
-## <a name="create-a-purchase-invoice-with-non-deductible-vat"></a>Een inkoopfactuur met niet-aftrekbare btw maken
+## Een inkoopfactuur met niet-aftrekbare btw maken
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent 3.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en selecteer vervolgens de gerelateerde koppeling
 2. Selecteer **Nieuw** om een inkoopfactuur te maken en voer de juiste informatie in op de factuurkop.
@@ -27,7 +27,7 @@ In dit artikel wordt uitgelegd hoe u niet-aftrekbare btw gebruikt en aangeeft in
 
 5. Boek de factuur.
 
-## <a name="create-a-purchase-order-with-non-deductible-vat"></a>Een inkooporder met niet-aftrekbare btw maken
+## Een inkooporder met niet-aftrekbare btw maken
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent 3.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en selecteer vervolgens de gerelateerde koppeling
 2. Selecteer **Nieuw** om een inkooporder te maken en voer de juiste informatie in op de documentkop.
@@ -38,7 +38,7 @@ In dit artikel wordt uitgelegd hoe u niet-aftrekbare btw gebruikt en aangeeft in
 
 5. Boek de inkooporder.
 
-## <a name="adjust-rounded-vat-amounts-before-document-posting"></a>Pas afgeronde btw-bedragen aan voordat u documenten boekt
+## Pas afgeronde btw-bedragen aan voordat u documenten boekt
 
 Als btw-bedragen in uw omgeving en in de externe boekhouding (het originele factuurdocument) niet op dezelfde manier worden afgerond, kunt u het btw-bedrag aanpassen voordat u het document boekt. Om deze aanpassing te maken, volgt u deze stappen voordat u het document boekt.
 
@@ -61,7 +61,7 @@ U kunt de waarden van de velden **Btw-bedrag** en **Niet-aftrekbaar btw-bedrag**
 > [!IMPORTANT]
 > Op de vooruitbetalingsfacturen kunt u geen niet-aftrekbare btw gebruiken.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financieel beheer](finance.md)
 

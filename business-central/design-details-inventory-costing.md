@@ -10,13 +10,13 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-inventory-costing"></a>Ontwerpdetails: Voorraadwaardering
+# Ontwerpdetails: Voorraadwaardering
 
 Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Voorraadwaardering, ook wel kostenbeheer genoemd, heeft betrekking op het vastleggen en rapporteren van operationele bedrijfskosten.  
 
-## <a name="in-this-section"></a>In dit gedeelte
+## In dit gedeelte
 
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
