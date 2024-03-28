@@ -10,7 +10,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Vaste activa beheren
+# <a name="managing-fixed-assets"></a>Vaste activa beheren
 
 De functionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.
 
@@ -40,13 +40,13 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Buitengebruikstellingstransacties boeken, buitengebruikstellingsposten bekijken en gedeeltelijke buitengebruikstellingen boeken. |[Vaste activa afstoten of van de hand doen](fa-how-dispose-retire.md) |
 | Budgetten voor vaste activa beheren, aanschafkosten budgetteren, buitengebruikstellingen van vaste activa budgetteren en afschrijving budgetteren. |[Budgetten voor vaste activa beheren.](fa-how-manage-budgets.md) |
 
-## Video-overzicht
+## <a name="video-overview"></a>Video-overzicht
 
 De volgende video behandelt de basisprincipes van vaste activa.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Vaste activa instellen](fa-setup.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  

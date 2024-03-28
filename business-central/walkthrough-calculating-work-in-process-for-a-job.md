@@ -9,13 +9,13 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Procedure: Onderhanden werk voor een project berekenen
+# <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedure: Onderhanden werk voor een project berekenen
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse kosten bijhouden die samenhangen met het resourceverbruik voor een bepaald project. Projecten brengen het verbruik met zich mee van arbeidsuren, machine-uren, voorraadartikelen en andere soorten verbruik die moeten worden bijgehouden terwijl het project voortduurt. Als een project over langere tijd loopt, moet u deze kosten mogelijk overdragen naar een OHW-rekening (Onderhanden werk) op de balans terwijl het project wordt voltooid. Vervolgens kunt u de kosten en verkopen indien van toepassing verantwoorden in uw resultatenrekeningen.  
 
-## Informatie over deze procedure
+## <a name="about-this-walkthrough"></a>Informatie over deze procedure
 
  In deze procedure worden de volgende taken beschreven:  
 
@@ -27,19 +27,19 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
  In elke stap van het proces wordt de waarde berekend en worden de projecttransacties naar het grootboek verplaatst. De berekenings- en boekingsstappen zijn van elkaar gescheiden zodat u uw gegevens kunt controleren en wijzigingen kunt aanbrengen voordat de posten naar het grootboek worden geboekt. Daarom moet u controleren of alle gegevens correct zijn nadat u de batchverwerking voor berekening hebt uitgevoerd en voordat u de batchverwerking voor boeking hebt uitgevoerd.  
 
-## Rollen
+## <a name="roles"></a>Rollen
 
  In deze procedure is projectteamlid Tricia de hoofdpersoon.  
 
-## Vereisten
+## <a name="prerequisites"></a>Vereisten
 
  Voordat u de stappen in dit overzicht kunt uitvoeren, moet [!INCLUDE[prod_short](includes/prod_short.md)] op uw computer zijn geïnstalleerd.  
 
-## Scenario
+## <a name="story"></a>Scenario
 
  In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- en consultancyfirma die nieuwe infrastructuren ontwerpt (conferentiezalen en kantoren) en inricht met meubels, accessoires en opslagruimten. Het werk bij CRONUS is voor het grootste deel projectgericht en projectteamlid Tricia gebruikt projecten om een overzicht te krijgen van de lopende projecten waaraan CRONUS werkt en de projecten die zijn voltooid. De projecten kunnen soms lang zijn en meerdere maanden lopen. Tricia gebruikt een OHW-rekening voor het vastleggen van het onderhanden werk en het bijhouden van de kosten gedurende het project.  
 
-## OHW berekenen
+## <a name="calculating-wip"></a>OHW berekenen
 
  CRONUS heeft een langdurig project aangenomen dat nu is uitgebreid tot over meerdere rapportageperioden. Tricia, een lid van het projectteam berekent het onderhanden werk (OHW) om ervoor te zorgen dat de financiële rapportage van het bedrijf accuraat is.  
 
@@ -55,7 +55,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
  In het volgende scenario past Tricia de methode Kostprijs toe op hun bedrijfsstandaard om het OHW berekenen. Tricia geeft aan welk deel van het project wordt meegenomen in de OHW-berekening door OHW-totaalwaarden toe te wijzen aan verschillende projecttaakregels.  
 
-### OHW berekenen  
+### <a name="to-calculate-wip"></a>OHW berekenen
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in de lijst **Projecten** het project **Deerfield** en kies de actie **Bewerken**. Hiermee opent u de projectkaart in de bewerkmodus.  
@@ -87,7 +87,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
  Zoals u ziet, bedraagt de waarde voor **Verantw. totale kosten** 215,60 in de kolom **Te boeken**. Dit reflecteert de totale kostprijs van twee van de artikelen in groep projecttaken 1110 – 1130. Het derde artikel was ingesteld op **Uitgesloten** en dus is niet opgenomen in de OHW-berekening.  
 
-### OHW-waarschuwingen bekijken  
+### <a name="to-review-wip-warnings"></a>OHW-waarschuwingen bekijken
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cockpit OHW taak** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het project **Deerfield** en kies vervolgens de actie **Waarschuwingen weergeven**.  
@@ -95,7 +95,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 
  Na deze boekingsperiode moet Tricia het OHW opnieuw berekenen om het tot dan toe voltooide werk op te nemen.  
 
-### OHW opnieuw berekenen  
+### <a name="to-recalculate-wip"></a>OHW opnieuw berekenen
 
 1.  Op de kaart **Project** kiest u de actie **OHW-posten** om de OHW-berekening weer te geven.  
 
@@ -107,11 +107,11 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 > [!NOTE]  
 >  Onderhanden werk en Verantwoording worden alleen berekend. Het wordt niet geboekt in het grootboek. Als u dat wel wilt doen, moet u de batchverwerking **OHW naar GB boeken** uitvoeren nadat u OHW en verantwoording hebt berekend.
 
-## OHW boeken naar het grootboek
+## <a name="posting-wip-to-general-ledger"></a>OHW boeken naar het grootboek
 
  Nadat Tricia het OHW voor dit project heeft berekend, kan het naar het grootboek worden geboekt.  
 
-### OHW naar het grootboek boeken  
+### <a name="to-post-wip-to-general-ledger"></a>OHW naar het grootboek boeken
 
 1.  Selecteer het project **Deerfield** in de lijst **Projecten**.  
 2.  Kies de actie **OHW** en kies vervolgens de actie **OHW naar GB boeken**.  
@@ -131,11 +131,11 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
 10. Zoals u ziet is nu op het sneltabblad **OHW en verantwoording** in de kolom **Geboekt** het veld **Verantw. totale kosten GB** ingevuld, waarmee wordt aangegeven met het OHW met succes naar het grootboek is geboekt.  
 11. Kies de knop **OK** om de kaart te sluiten.  
 
-## Een OHW-boeking tegenboeken
+## <a name="reversing-a-wip-posting"></a>Een OHW-boeking tegenboeken
 
  Tricia bepaalt dat de projecttaken die zijn uitgesloten van de berekening van OHW hadden moeten worden berekend in OHW. Gelukkig kan Tricia de onjuiste boeking terugdraaien zonder dat ze nieuwe OHW-boekingen hoeft te boeken.  
 
-### Een OHW-boeking tegenboeken  
+### <a name="to-reverse-a-wip-posting"></a>Een OHW-boeking tegenboeken
 
 1.  Selecteer het project **Deerfield** in de lijst **Projecten**.  
 2.  Kies de actie **OHW** en kies vervolgens de actie **OHW naar GB boeken**.  
@@ -154,11 +154,11 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
     > [!NOTE]  
     >  Stel Tricia OHW had berekend en geboekt voor een project met onjuiste datums. Volgens de methode die eerder werd beschreven, kan Tricia de onjuiste boekingen tegenboeken, de datums corrigeren en de boekingen opnieuw naar het grootboek posten.  
 
-## Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 
  In dit scenario heeft u de stappen doorgenomen voor het berekenen van OHW in [!INCLUDE[prod_short](includes/prod_short.md)]. Bij grotere projecten kan het handig zijn om de kosten periodiek over te dragen naar een OHW-rekening terwijl het project wordt voltooid. In dit overzicht hebt u gezien hoe u taakregels uitsluit van een berekening. Ook hebt u gezien wanneer u een herberekening moet uitvoeren. En tot slot dit wordt in dit scenario aangegeven hoe u de OHW naar het grootboek boekt. Ook is een voorbeeld opgenomen van hoe u een OHW-post naar het grootboek kunt tegenboeken.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
  [Procedure: Projecten plannen](walkthrough-managing-projects-with-jobs.md)  

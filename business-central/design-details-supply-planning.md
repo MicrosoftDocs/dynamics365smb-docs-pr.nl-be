@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ms.service: dynamics-365-business-central
 ---
-# Ontwerpdetails: Voorzieningsplanning
+# <a name="design-details-supply-planning"></a>Ontwerpdetails: Voorzieningsplanning
 
 Deze sectie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor leveringsplanning in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -21,7 +21,7 @@ In de artikelen wordt uitgelegd hoe het planningssysteem werkt:
 * Beschrijft de logica van het centrale mechanisme, namelijk het afstemmen van het aanbod
 * Leg uit hoe u bestelbeleid kunt gebruiken bij voorraadplanning  
 
-## In dit gedeelte  
+## <a name="in-this-section"></a>In dit gedeelte
 
 [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)  
 [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  

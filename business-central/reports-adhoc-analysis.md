@@ -8,7 +8,7 @@ ms.date: 03/31/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Ad-hoc gegevensanalyse
+# <a name="ad-hoc-data-analysis"></a>Ad-hoc gegevensanalyse
 
 Soms moet u gegevens analyseren in [!INCLUDE[prod_short](includes/prod_short.md)] op een manier die niet beschikbaar is in een standaardrapport. Deze taak wordt vaak ad-hocanalyse genoemd. Hieronder staan koppelingen om u te helpen leren hoe u deze kunt uitvoeren.
 
@@ -20,7 +20,7 @@ Soms moet u gegevens analyseren in [!INCLUDE[prod_short](includes/prod_short.md)
 | Financiële gegevens bekijken en analyseren met behulp van financiële rapporten | [Financiële analyse](bi.md) |
 | Lijstgegevens rechtstreeks vanaf een pagina analyseren |[Gegevens analyseren op lijstpagina's met behulp van de gegevensanalysemodus](analysis-mode.md)|
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van bedrijfsinformatie en rapportage](ui-work-report.md)
 

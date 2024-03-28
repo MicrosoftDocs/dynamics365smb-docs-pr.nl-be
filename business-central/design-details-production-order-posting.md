@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ontwerpdetails: Productieorderboeking
+# <a name="design-details-production-order-posting"></a>Ontwerpdetails: Productieorderboeking
 Net als bij assemblageorderboeking worden de verbruikte materialen en de gebruikte computertijd omgezet en uitgevoerd als het geproduceerde artikel wanneer de productieorder is voltooid. Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie. De kostenstroom voor assemblageorders is echter minder complex, met name omdat de assemblagekostenboeking slechts eenmaal plaatsvindt en daarom geen OHW-voorraad genereert.
 
 
@@ -45,7 +45,7 @@ De waarden van toenames en afnames worden in de verschillende soorten geproducee
 
 Hoewel de waarden van transacties die zijn gerelateerd aan aangeschafte goederen, alleen worden geboekt als artikelposten met gerelateerde waardeposten, worden transacties die gerelateerd zijn aan geproduceerde artikelen, geboekt als capaciteitsposten met gerelateerde waardeposten, naast de artikelposten.  
 
-## Boekingsstructuur  
+## <a name="posting-structure"></a>Boekingsstructuur
 Het boeken van productieorders naar OHW-voorraad betreft output, verbruik en capaciteit.  
 
 Het volgende diagram bevat de betrokken boekingsroutines in codeunit 22.  
@@ -68,12 +68,12 @@ Een waardepost die OHW-voorraadwaarde beschrijft, kan worden gekoppeld aan een v
 
 Voor meer informatie over hoe kosten van productie en assemblage worden geboekt naar het grootboek raadpleegt u [Ontwerpdetails: voorraadboeking](design-details-inventory-posting.md).  
 
-## Capaciteitsboeking  
+## <a name="capacity-posting"></a>Capaciteitsboeking
 Output boeken vanuit de laatste productieorderbewerkingsplanregel leidt tot een capaciteitspost voor het eindartikel, naast de voorraadtoename ervan.  
 
  De capaciteitspost is een record van de tijd die is besteed om het artikel te produceren. De gerelateerde waardepost beschrijft de toename van de OHW-voorraadwaarde, hetgeen de waarde van de conversiekosten is. Zie voor meer informatie “Van het capaciteitsgrootboek” in [Ontwerpdetails: Rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md).  
 
-## Kostprijsberekening voor productieorder  
+## <a name="production-order-costing"></a>Kostprijsberekening voor productieorder
  Voor het beheer van voorraad- en productiekosten moet een productiebedrijf de kosten van productieorders meten, omdat de vooraf bepaalde vaste verrekenprijs van elk geproduceerd artikel wordt gekapitaliseerd in de balans. Voor informatie over waarom geproduceerde artikelen de standaardwaarderingsmethode gebruiken raadpleegt u [Ontwerpdetails: waarderingsmethoden](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -97,7 +97,7 @@ In standaardkostenomgevingen is de kostprijsberekening van een productieorder ge
     >  Dit verschilt van assemblageorderboeking, waarbij altijd werkelijke kosten worden geboekt. Zie [Ontwerpdetails: assemblageorderboeking](design-details-assembly-order-posting.md) voor meer informatie.  
 2.  Wanneer de productieorder is ingesteld op **Gereedgemeld**, wordt de order gefactureerd door de batchverwerking **Kostprijs herwaarderen - Artikelposten**. Hierdoor worden de totale kosten van de order berekend op basis van de standaardkosten van de verbruikte materialen en de capaciteit. De verschillen tussen de berekende vaste verrekenprijs en de werkelijke productiekosten worden berekend en geboekt.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
  [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)   
  [Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md) [Financiën](finance.md)  
