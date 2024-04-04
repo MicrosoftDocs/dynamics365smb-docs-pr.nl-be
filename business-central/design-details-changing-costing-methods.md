@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen
+# <a name="design-details-change-the-costing-method-for-items"></a>Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u een waarderingsmethode voor een artikel niet wijzigen nadat u het artikel in een transactie hebt opgenomen. Bijvoorbeeld nadat u het artikel hebt gekocht of verkocht. Als aan het artikel of de artikelen een onjuiste waarderingsmethode is toegewezen, ontdekt u het probleem mogelijk pas wanneer u uw financiële rapportage uitvoert.
 
@@ -23,7 +23,7 @@ In dit onderwerp wordt beschreven hoe u deze situatie kunt oplossen. De aanbevol
 > [!TIP]
 > Om vertrouwd te raken met het proces raden we u aan het conversieproces te starten met een enkel artikel of een kleine set artikelen.
 
-## Over waarderingsmethoden
+## <a name="about-costing-methods"></a>Over waarderingsmethoden
 
 Waarderingsmethode bepalen de kostenberekeningen wanneer goederen worden gekocht, ontvangen in voorraad en verkocht. Waarderingsmethoden zijn van invloed op de timing van in KPV geregistreerde bedragen die van invloed zijn op de brutowinst. Het is deze stroom die KPV berekent. De kosten van verkochte goederen (KPV) en inkomsten worden als volgt gebruikt om de brutowinst te bepalen:
 
@@ -39,7 +39,7 @@ Wanneer u voorraadartikelen instelt, moet u een waarderingsmethode toewijzen. De
 
 Zie [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md) voor meer informatie.
 
-## Assemblageorders gebruiken om toewijzingen van waarderingsmethoden te wijzigen
+## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Assemblageorders gebruiken om toewijzingen van waarderingsmethoden te wijzigen
 
 In deze sectie worden de volgende stappen beschreven voor het wijzigen van de waarderingsmethode die aan een artikel is toegewezen:
 
@@ -52,21 +52,21 @@ In deze sectie worden de volgende stappen beschreven voor het wijzigen van de wa
 7. Voorraadhoeveelheden verwerken die zijn toegewezen aan de vraag.
 8. Het oorspronkelijke artikel voor verder gebruik blokkeren.  
 
-### Een standaardwaarderingsmethode opgeven
+### <a name="define-a-default-costing-method"></a>Een standaardwaarderingsmethode opgeven
 
 Om toekomstige fouten te voorkomen kunt u een standaardwaarderingsmethode voor nieuwe artikelen specificeren. Telkens wanneer iemand een nieuw artikel maakt, stelt [!INCLUDE[prod_short](includes/prod_short.md)] de standaardwaarderingsmethode voor. U specificeert de standaardmethode in het veld **Standaardwaarderingsmethode** op de pagina **Voorraadinstellingen**. 
 
-### De artikelen identificeren waarvoor u de waarderingsmethode wilt wijzigen en deze hernummeren
+### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>De artikelen identificeren waarvoor u de waarderingsmethode wilt wijzigen en deze hernummeren
 
 Mogelijk wilt u uw nieuwe artikelen dezelfde nummers geven als de artikelen die ze vervangen. Wijzig hiervoor de nummers van de bestaande artikelen. Als het bestaande artikelnummer bijvoorbeeld 'P1000' is, kunt u dit wijzigen in 'X-P1000'. Dit is een handmatige wijziging die u voor elk artikel moet aanbrengen.
 
-### Handmatig nieuwe artikelen met het oude nummeringsschema maken en de hoofdgegevens in een batch kopiëren
+### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Handmatig nieuwe artikelen met het oude nummeringsschema maken en de hoofdgegevens in een batch kopiëren
 
 Maak de nieuwe artikelen met het huidige nummeringschema. Met uitzondering van het veld **Waarderingsmethode** moeten de nieuwe artikelen dezelfde stamgegevens bevatten als de bestaande. Gebruik om de hoofdgegevens voor het artikel en gerelateerde gegevens van andere functies over te dragen de actie **Item kopiëren** op de pagina **Artikelkaart**. Zie voor meer informatie [Bestaande items kopiëren om nieuwe items te maken](inventory-how-copy-items.md).
 
 Nadat u de nieuwe artikelen hebt gemaakt en de hoofdgegevens hebt overgedragen, wijst u de juiste waarderingsmethode toe.
 
-### Handmatig gerelateerde hoofdgegevens van het oorspronkelijke artikel naar het nieuwe artikel kopiëren
+### <a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a>Handmatig gerelateerde hoofdgegevens van het oorspronkelijke artikel naar het nieuwe artikel kopiëren
 
 Om de nieuwe artikelen volledig bruikbaar te maken moet u sommige hoofdgegevens uit andere gebieden handmatig kopiëren, zoals beschreven in de volgende tabel.
 
@@ -88,7 +88,7 @@ Om de nieuwe artikelen volledig bruikbaar te maken moet u sommige hoofdgegevens 
 > [!IMPORTANT]
 > Als de nieuwe waarderingsmethode Standaard is, moet u een waarde invoeren in het veld **Vaste verrekenprijs** op de pagina **Artikelkaart**. U kunt de pagina **Vaste-verrekenprijsvoorstel** gebruiken om de kostenaandelen dienovereenkomstig in te stellen. Zie [Vaste verrekenprijzen aanpassen](finance-how-to-update-standard-costs.md) voor meer informatie.
 
-### De voorraadhoeveelheid bepalen die u wilt converteren van het oorspronkelijke artikel naar het nieuwe artikel
+### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>De voorraadhoeveelheid bepalen die u wilt converteren van het oorspronkelijke artikel naar het nieuwe artikel
 
 > [!NOTE]
 > Deze stap houdt geen rekening met hoeveelheden die zijn opgenomen in niet-verzonden bestellingen. Zie voor meer informatie [Voorraadhoeveelheden verwerken die zijn toegewezen aan de vraag](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
@@ -100,13 +100,13 @@ Gebruik een fysiek voorraadjournaal om een lijst met de hoeveelheden in voorraad
 
 Beide dagboeken kunnen de voorraadhoeveelheid van het artikel berekenen, inclusief de locatie, de variant en de opslaglocatie. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)
 
-### De inventaris overbrengen naar het nieuwe artikel
+### <a name="transfer-the-inventory-to-the-new-item"></a>De inventaris overbrengen naar het nieuwe artikel
 
 Maak en boek assemblageorders om de kosten en het voorraadaantal over te dragen van het oorspronkelijke artikel naar het nieuwe artikel. Assemblageorders kunnen het ene artikel naar het andere converteren met behoud van de kosten. Dit helpt ervoor te zorgen dat de nettototalen voor de voorraadrekening en KPV niet worden beïnvloed (behalve wanneer de nieuwe waarderingsmethode Standaard is, in welk geval de kosten kunnen worden verdeeld over verschilrekeningen). Zie voor meer informatie [Assemblagebeheer](assembly-assemble-items.md).
 
 Gebruik bij het maken van assemblageorders de informatie uit het inventarisatiedagboek of het magazijninventarisatiedagboek. De volgende tabellen beschrijven de informatie in de rapporten die in de koptekst en regels van de assemblageorder moeten worden ingevoerd.
 
-#### Koptekst
+#### <a name="header"></a>Koptekst
 
 |Veld  |In te voeren waarde  |
 |---------|---------|
@@ -117,7 +117,7 @@ Gebruik bij het maken van assemblageorders de informatie uit het inventarisatied
 |Code van maateenheid |Hetzelfde als in het fysieke voorraadjournaal. |
 |Opslaglocatie |Hetzelfde als in het fysieke voorraadjournaal. |
 
-#### Regels
+#### <a name="lines"></a>Regels
 
 |Veld  |In te voeren waarde  |
 |---------|---------|
@@ -134,7 +134,7 @@ Gebruik bij het maken van assemblageorders de informatie uit het inventarisatied
 > [!NOTE]
 > Voor een magazijnlocatie moet u mogelijk picks maken voordat u de assemblageorder kunt boeken. Om dat te onderzoeken bekijkt u de instelling voor picken op de pagina **Locatiekaart**. Zie voor meer informatie [Artikelen en locaties instellen voor gestuurde opslag en pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
-### Voorraadhoeveelheden verwerken die zijn toegewezen aan vraag
+### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Voorraadhoeveelheden verwerken die zijn toegewezen aan vraag
 
 Idealiter zou de voorraad voor het oorspronkelijke artikel naar nul moeten gaan nadat u de voorraadaantallen hebt overgeboekt. Er kunnen echter openstaande orders, werkbladen en dagboeken zijn (zie onderstaande tabel) waarvoor nog steeds een hoeveelheid van het oorspronkelijke artikel nodig is. De hoeveelheid kan ook worden geblokkeerd door een reservering of artikeltracering.
 
@@ -157,11 +157,11 @@ De volgende tabel vermeldt functionele gebieden waar er mogelijk uitstaande hoev
 |Service |Servicedocumenten en servicecontracten |
 |Productie |Productieorders (gepland, vast gepland en vrijgegeven) |
 
-### Het oorspronkelijke artikel voor verder gebruik blokkeren
+### <a name="block-the-original-item-from-further-use"></a>Het oorspronkelijke artikel voor verder gebruik blokkeren
 
 Als de voorraad voor het oorspronkelijke artikel nul is, kunt u het artikel blokkeren om te voorkomen dat het wordt gebruikt in nieuwe transacties. Om het artikel te blokkeren zet u op de pagina **Artikelkaart** de schakelaar **Geblokkeerd** aan. Zie voor meer informatie [Artikelen blokkeren vanuit Verkoop of Inkoop](inventory-how-block-items.md).
 
-## Overzicht
+## <a name="summary"></a>Overzicht
 
 Het wijzigen van de waarderingsmethode voor artikelen die in transacties zijn gebruikt, is een proces en geen standaardactie in [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt de in dit onderwerp beschreven stappen gebruiken als sjabloon voor het proces.
 
@@ -172,7 +172,7 @@ We raden het volgende aan:
 1. Beoordeel de haalbaarheid van het proces door één of misschien een paar representatieve artikelen door het hele proces te halen.
 2. Overweeg contact op te nemen met een ervaren partner die u bij het proces kan helpen.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Overzicht](design-details-inventory-costing.md)

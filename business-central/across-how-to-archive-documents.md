@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.service: dynamics-365-business-central
 ---
-# Documenten archiveren
+# <a name="archive-documents"></a>Documenten archiveren
 
 U kunt verkoop- en inkooporders, offertes, retourorders en raamcontracten archiveren. U kunt een verkoop- of inkoopdocument meerdere keren archiveren, waarbij u steeds een verschillende gearchiveerde versie opslaat.
 
@@ -18,7 +18,7 @@ Voor gearchiveerde verkoopdocumenten waarvan het origineel nog bestaat en niet i
 
 Voor gearchiveerde documenten waarvan het origineel is verwijderd, kunt u de inhoud alleen opnieuw gebruiken door de gegevens te kopiëren, bijvoorbeeld met de actie **Kopiëren uit document**.  
 
-## Automatische documentarchivering instellen
+## <a name="to-set-up-automatic-document-archiving"></a>Automatische documentarchivering instellen
 
 U kunt automatische archivering van verkoop- en inkooporders, offertes, raamcontracten en retourorders instellen. Als automatisch archiveren is ingeschakeld, wordt er een nieuwe versie van het gearchiveerde document gemaakt wanneer iemand de volgende dingen doet:
 
@@ -40,7 +40,7 @@ In de volgende tabel worden de opties voor het veld **Offertes archiveren** besc
 |**Vraag**|Vraag de gebruiker te kiezen of verkoopoffertes moeten worden gearchiveerd wanneer ze worden verwijderd.|
 |**Altijd**|Verkoopoffertes automatisch archiveren wanneer deze worden verwijderd.|
 
-## Een verkooporder handmatig archiveren
+## <a name="to-manually-archive-a-sales-order"></a>Een verkooporder handmatig archiveren
 
 In de volgende procedure wordt beschreven hoe u een verkooporder handmatig archiveert. De stappen zijn vergelijkbaar voor alle orders, raamcontracten, retourorders en offertes.
 
@@ -50,7 +50,7 @@ In de volgende procedure wordt beschreven hoe u een verkooporder handmatig archi
 
 De verkooporder wordt gearchiveerd. U kunt deze bekijken op de pagina **Gearchiveerde verkooporders**.
 
-## Een niet-geboekte verkooporder vanuit het archief herstellen
+## <a name="to-restore-a-non-posted-sales-document-or-a-project-from-the-archive"></a>Een niet-geboekte verkooporder vanuit het archief herstellen
 
 In de volgende procedure wordt beschreven hoe een gearchiveerde verkooporder wordt hersteld tot de oorspronkelijke verkooporder. Een document herstellen kan alleen als het oorspronkelijke document niet is geboekt. De stappen zijn vergelijkbaar voor alle orders, raamcontracten, retourorders en offertes.
 
@@ -59,7 +59,7 @@ In de volgende procedure wordt beschreven hoe een gearchiveerde verkooporder wor
 
 De inhoud van de oorspronkelijke verkooporder wordt vervangen door de gearchiveerde versie.
 
-## Gearchiveerde verkooporders verwijderen
+## <a name="to-delete-archived-versions"></a>Gearchiveerde verkooporders verwijderen
 
 Gebruik een bewaarbeleid om gearchiveerde documenten op te ruimen die u niet langer nodig hebt. Met bewaarbeleid kunnen beheerders bepalen hoe lang ze gegevens willen bewaren. Ze kunnen bijvoorbeeld een beleid instellen dat gegevens na een vervaldatum verwijdert. Zie voor meer informatie [Bewaarbeleid definiëren](admin-data-retention-policies.md).
 
@@ -69,7 +69,7 @@ Er zijn een paar dingen waar u op moet letten bij het maken van bewaarbeleid voo
 * Wanneer u het bewaarbeleid instelt, kunt u opgeven dat u wilt dat het beleid alle gearchiveerde versies van een document verwijdert, behalve de meest recente. U hebt bijvoorbeeld tien versies van een document en wilt een kopie van de laatste versie bewaren. 
 * Business Central berekent de vervaldatum voor documenten op basis van de datum van de meest recente gearchiveerde versie.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Documentregels traceren](across-how-to-track-document-lines.md)  
 [Verkoop](sales-manage-sales.md)  

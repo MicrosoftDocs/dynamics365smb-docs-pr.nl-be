@@ -10,7 +10,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kosten van werknemers registreren en terugbetalen
+# <a name="record-and-reimburse-employees-expenses"></a>Kosten van werknemers registreren en terugbetalen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt transacties voor werknemers op dezelfde manier als voor leveranciers. Daarom zijn er werknemersboekingsgroepen om te zorgen dat werknemersposten worden geboekt naar de relevante rekeningen in het grootboek.
 
@@ -24,7 +24,7 @@ Als medewerkers hun eigen geld uitgeven tijdens zakelijke activiteiten, kunt u d
 
 [!INCLUDE [prod_short](includes/prod_short.md)] is flexibel genoeg voor veel verschillende praktijken. De exacte rekeningnummers die moeten worden gebruikt, zijn afhankelijk van de configuratie en processen van uw organisatie.  
 
-## Onkosten van een werknemer registreren
+## <a name="to-record-an-employees-expense"></a>Onkosten van een werknemer registreren
 
 U boekt onkosten van een werknemer op de pagina **Diversendagboek**.
 
@@ -40,7 +40,7 @@ U boekt onkosten van een werknemer op de pagina **Diversendagboek**.
     > Als u meerdere onkostenregels boven één tegenrekeningsregel wilt invoeren voor de bankrekening van de werknemer, selecteert u het selectievakje **Salderingsbedrag voorstellen** op de regel voor uw batch op de pagina **Fin. dagboekbatches**. Vervolgens wordt het veld **Bedrag** op de tegenrekeningsregel automatisch ingevuld met de waarde die nodig is om de onkosten in balans te brengen.
 5. Kies de actie **Boeken** om de kosten op de rekening van de werknemer te registreren.
 
-## Een werknemer terugbetalen
+## <a name="to-reimburse-an-employee"></a>Een werknemer terugbetalen
 
 U betaalt werknemers terug door betalingen te boeken naar hun bankrekening op de pagina **Betalingsdagboek**.  
 
@@ -50,11 +50,11 @@ U betaalt werknemers terug door betalingen te boeken naar hun bankrekening op de
 4. Of kies de actie **Werknemersbetalingen voorstellen** om automatisch dagboekregels in te voegen voor werknemersterugbetalingen die in behandeling zijn.
 5. Kies de actie **Boeken** om de terugbetaling te registreren.  
 
-## Terugbetalingen reconciliëren met werknemersposten
+## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Terugbetalingen reconciliëren met werknemersposten
 
 U vereffent werknemersbetalingen met de gerelateerde open werknemersposten op dezelfde manier als u dat doet voor leveranciersbetalingen, bijvoorbeeld op de pagina **Betalingsreconciliatiedagboek**, op basis van de gerelateerde bankafschriftposten. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md). U kunt ook handmatig vereffenen op de pagina **Werknemerposten**. Zie voor meer informatie het gerelateerde [Leveranciersbetalingen reconciliëren met het betalingsdagboek of vanuit leveranciersposten](payables-how-apply-purchase-transactions-manually.md).  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
