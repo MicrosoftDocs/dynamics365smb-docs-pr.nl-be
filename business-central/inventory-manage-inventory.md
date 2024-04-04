@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="manage-inventory"></a>Voorraad beheren
+# Voorraad beheren
 
 Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het type **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
 
@@ -24,13 +24,13 @@ Om het overzicht van artikelen te verbeteren en deze te helpen zoeken, kunt u ar
 
 Planning voor artikelen om aan vraag te voldoen, wordt behandeld als onderdeel van de functionaliteit voor vraagplanning. Lees meer op [Planning](production-planning.md).  
 
-## <a name="inventory-reconciliation"></a>Voorraadreconciliatie
+## Voorraadreconciliatie
 
 Als u voorraadtransacties (bijvoorbeeld verkoopverzendingen, inkoopfacturen of voorraadherwaarderingen) boekt, worden de gewijzigde artikelkosten vastgelegd in artikelwaardeposten. Om deze wijziging van voorraadwaarde door te voeren in uw financiële boeken, worden de voorraadkosten automatisch geboekt naar de gerelateerde voorraadrekeningen in het grootboek. Voor iedere voorraadtransactie die u boekt, worden overeenkomende waarden geboekt naar de voorraadrekening, de correctierekening en de KPV-rekening in het grootboek. Lees meer op [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Hoewel voorraadkosten automatisch naar het grootboek worden geboekt, moeten de kosten van goederen toch worden doorgestuurd naar de gerelateerde uitgaande verkooptransactie, vooral in situaties waarin u goederen verkoopt voordat u de inkoop van die goederen factureert. Dit wordt kostenwaardering genoemd. Artikelkosten worden automatisch aangepast als u artikeltransacties boekt, maar u kunt artikelkosten ook handmatig wijzigen. Lees meer op [Artikelkosten aanpassen](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Verwante taken
+## Verwante taken
 
 De volgende tabel geeft een overzicht van gerelateerde taken.
 
@@ -54,7 +54,7 @@ De volgende tabel geeft een overzicht van gerelateerde taken.
 |De bedrijfsvoering in verkoop- of inkoopafdelingen of planningskantoren voor een fabriek voor meerdere vestigingen beheren.|[Werken met divisies](inventory-responsibility-centers.md)|
 |Resources gebruiken met specifieke functies voor verschillende services en service-items.|[Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Inkoop](purchasing-manage-purchasing.md)  

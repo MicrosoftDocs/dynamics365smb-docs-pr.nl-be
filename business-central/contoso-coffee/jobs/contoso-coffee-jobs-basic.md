@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Procedure van basistaken
+# Procedure van basistaken
 
 Deze procedure demonstreert verschillende kernprocessen:
 
@@ -16,13 +16,13 @@ Deze procedure demonstreert verschillende kernprocessen:
 - Registratie van tijd en materiaalkosten voor een project
 - Een project factureren
 
-## <a name="adding-a-job-task-to-a-job"></a>Een projecttaak aan een project toevoegen
+## Een projecttaak aan een project toevoegen
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 
 Simon, de projectmanager, wil tijd die wordt besteed aan het opleiden van de klant in het gebruik van espressomachines, registreren in een aparte taak in het project voor het ter plaatse installeren van een commerciële machine.
 
-### <a name="steps"></a>Stappen
+### Stappen
 
 1. De projecttaak maken  
 
@@ -38,17 +38,17 @@ Simon, de projectmanager, wil tijd die wordt besteed aan het opleiden van de kla
    1. Zoek in het gebied Taken de actie **Projecttaken inspringen**
    2. Bevestig dat u taken wilt laten inspringen door **Ja** te selecteren.
 
-### <a name="results"></a>Resultaten
+### Resultaten
 
  - Nu kunnen tijd en kosten worden vastgelegd voor de nieuwe projecttaak
 
-## <a name="record-time-and-material-expenses-to-a-job"></a>Registratie van tijd en materiaalkosten voor een project
+## Registratie van tijd en materiaalkosten voor een project
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 
 Edgin, de technicus die de machine installeert, moet zijn tijd en de gebruikte materialen tijdens de installatie voor het project registreren voor de facturering.  Hij heeft de reiskosten en materialen al toegevoegd, en moet nu ook de tijd toevoegen voor het onderwijzen van het personeel om de machine te gebruiken.
 
-### <a name="steps-1"></a>Stappen
+### Stappen
 
 1. De aanvullende projectdagboekregels maken
 
@@ -64,19 +64,19 @@ Edgin, de technicus die de machine installeert, moet zijn tijd en de gebruikte m
    1. Kies de actie **Boeken**
    2. Bevestig dat u de regels wilt boeken door **Ja** te selecteren.
 
-### <a name="results-1"></a>Resultaten
+### Resultaten
 
  - Projectposten en resourceposten van het type *Gebruik* worden gemaakt
  - Er worden artikelposten gemaakt om de voorraad negatief aan te passen
  - Op de projectkaart geven de kosten en prijzen in het gebied Taken de nieuwe saldi weer die wachten om te worden gefactureerd
  - Op de projectkaart geeft het feitenblok Projectdetails de totalen van de prijzen weer
 
-## <a name="creating-a-sales-invoice-for-a-job"></a>Een verkoopfactuur voor een project maken
+## Een verkoopfactuur voor een project maken
 
-### <a name="scenario-2"></a>Scenario
+### Scenario  
 Simon moet een factuur maken en boeken die met de tijd en kosten van het project naar de klant moet worden verzonden.
 
-### <a name="steps-2"></a>Stappen
+### Stappen
 1. De verkoopfactuur maken
 
     1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
@@ -89,7 +89,7 @@ Simon moet een factuur maken en boeken die met de tijd en kosten van het project
    2. Selecteer de laatste factuur om deze ter beoordeling te openen.
    3. Kies de actie **Boeken**.
 
-### <a name="results-2"></a>Resultaten
+### Resultaten
 
  - Projectposten en resourceposten van het type *Verkoop* worden gemaakt
  - Op de projectkaart geven de kosten en prijzen in het gebied Taken de nieuwe gefactureerde saldi weer

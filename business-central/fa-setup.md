@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-fixed-assets"></a>Vaste activa instellen
+# Vaste activa instellen
 
 Voordat u met vaste activa kunt werken, moet u enkele zaken definiëren:  
 
@@ -35,7 +35,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | Meer informatie over andere afschrijvingsmethoden voor vaste activa. |[Afschrijvingsmethoden](fa-depreciation-methods.md) |
 | Meer informatie over het toepassen van door de gebruiker gedefinieerde afschrijvingsmethoden. |[Door de gebruiker gedefinieerde afschrijvingsmethoden instellen:](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  
