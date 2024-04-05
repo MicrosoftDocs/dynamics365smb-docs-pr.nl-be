@@ -139,6 +139,7 @@ ms.service: dynamics-365-business-central
 ## Productief worden in Business Central
 ### [Overzicht van algemene functionaliteit](ui-work-product.md)
 ### [Afdrukbare cheatsheet](ui-work-product.md#cheatsheet)
+### [Chatten met Copilot (preview)](chat-with-copilot.md)
 ### [Pagina's en informatie zoeken met Vertel me](ui-search.md)
 ### [Veelgestelde vragen over Vertel me](ui-search-faq.md)
 ### [Specifieke gegevens zoeken](ui-search-data.md)
@@ -201,6 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligente inzichten (alleen online)](about-intelligent-cloud.md)
 ## Veelgestelde vragen
 ### [Veelgestelde vragen](across-faq.yml)
+### [Veelgestelde vragen over chatten met Copilot (preview)](chat-with-copilot-faq.md)
 ### [Veelgestelde vragen over Vertel me](ui-search-faq.md)
 ### [Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.yml)
 ### [Veelgestelde vragen over lijstweergaven](ui-views-faq.yml)
@@ -374,6 +376,7 @@ ms.service: dynamics-365-business-central
 #### [Voorraadwaardering en -waarde instellen](finance-set-up-inventory-valuation-and-costing.md)
 #### [Voorraad herwaarderen](inventory-how-revalue-inventory.md)
 #### [Artikelprijzen herwaarderen](inventory-how-adjust-item-costs.md)
+#### [Herwaarderingen van artikelkosten traceren](finance-track-inventory-costs.md)
 #### [Voorraad- en productiekosten verwerken](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Vaste verrekenprijzen bijwerken](finance-how-to-update-standard-costs.md)
 #### [Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)
@@ -388,7 +391,6 @@ ms.service: dynamics-365-business-central
 #### [Overzicht van cashflow](finance-cash-flow-overview.md)
 #### [Cashflows in uw bedrijf analyseren](finance-analyze-cash-flow.md)
 #### [Procedure: Cashflowprognoses maken met behulp van financiële rapporten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
 
 ### Jaren en perioden afsluiten
 #### [Overzicht van jaarafsluiting](year-close-years-periods.md)
@@ -408,6 +410,7 @@ ms.service: dynamics-365-business-central
 ### Werken met het rekeningschema en het grootboek (GB)
 #### [Het grootboek en het rekeningschema begrijpen](finance-general-ledger.md)
 #### [Rekeningen controleren](finance-review-accounts.md)
+#### [Saldi van grootboekrekening herwaarderen](finance-revalue-account-balances.md)
 #### [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
 #### [Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken](finance-how-reverse-journal-posting.md)
 #### [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)
@@ -459,24 +462,34 @@ ms.service: dynamics-365-business-central
 ##### [Werken met IC-documenten en -dagboeken](intercompany-how-work-documents-journals.md)
 ##### [De IC-inbox en -outbox beheren](intercompany-how-manage-intercompany-inbox.md)
 ##### [Kosten toewijzen aan IC-partners](intercompany-allocate-costs.md)
-
 ### [Accountantervaringen in Business Central](finance-accounting.md)
 
+## Financiële analyse 
+### [Overzicht van financiële analyse](bi.md)
+### [Financiële rapportage verwerken voor verschillende bedrijfseenheden of rechtspersonen](finance-consolidated-company-reporting.md)
+<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
-## Financiële Business Intelligence en rapportage
-### [Overzicht van financiële Business Intelligence en rapportage](bi.md)
-### [Financiële rapporten](finance-reports.md)
-### [Gegevens analyseren met statistiekrekeningen](bi-use-statistical-accounts.md)
-### [Werkelijke bedragen analyseren in vergelijking met gebudgetteerde bedragen](bi-how-analyze-actual-versus-budget.md)
-### [Financiële rapportage voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md)
-### [KPI-webservices instellen en publiceren op basis van financiële rapporten](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-### [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)
-### [Analyserapporten maken](bi-how-create-analysis-views-reports.md)
-### [Financiële overzichten analyseren in Excel](finance-analyze-excel.md)
-### [Rapporten met XBRL maken](bi-create-reports-with-xbrl.md)
-### [Intentie databasetoegang beheren](admin-data-access-intent.md)
-### [Procedure: Cashflowprognoses maken met behulp van financiële rapporten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### Financiële rapportage (financiële overzichten en KPI’s implementeren)
+#### [Financiële rapportage voorbereiden](bi-how-work-account-schedule.md)
+#### [Procedure: financiële rapporten gebruiken voor een cashflowprognose](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [KPI-webservice instellen en publiceren op basis van financiële rapporten](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Gegevens analyseren met statistiekrekeningen](bi-use-statistical-accounts.md)
+#### [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)
+#### [Analyserapporten maken](bi-how-create-analysis-views-reports.md)
 
+<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+
+### Ingebouwde hulpmiddelen voor financiële analyse
+#### [Financiële gegevens uit het rekeningschema analyseren](finance-general-ledger.md)
+#### [Werkelijke bedragen analyseren in vergelijking met gebudgetteerde bedragen](bi-how-analyze-actual-versus-budget.md)
+#### [Cashflow analyseren](finance-analyze-cash-flow.md)
+
+### Ingebouwde financiële rapporten
+#### [Ingebouwde financiële Excel-rapporten](finance-analyze-excel.md)
+#### [Ingebouwde belangrijke financiële rapporten](finance-reports.md)
+#### [Ingebouwde vaste-activarapporten](fa-reports.md)
+#### [Ingebouwde debiteurenrapporten](receivables-reports.md)
+#### [Ingebouwde crediteurenrapporten](payables-reports.md)
 
 ## Verkoop
 ### [Overzicht van verkoop](sales-manage-sales.md)
@@ -553,14 +566,16 @@ ms.service: dynamics-365-business-central
 ### [Resources gebruiken voor projecten](projects-how-use-resources.md)
 ### [Urenstaten gebruiken](projects-how-use-time-sheets.md)
 ### [Projectbudgetten beheren](projects-how-manage-budgets.md)
-### [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md)
-### [Projectgoederen beheren](projects-how-manage-project-supplies.md)
+### [Gebruik voor project vastleggen](projects-how-record-job-usage.md)
+### [Projectvoorraden beheren](projects-how-manage-project-supplies.md)
 ### [OHW-methoden begrijpen](projects-understanding-wip.md)
-### [Projectvoortgang en -prestaties bewaken](projects-how-monitor-progress-performance.md)
+### [Projectvoortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)
 ### [Projecten factureren](projects-how-invoice-jobs.md)
 
 ## Vaste activa
 ### [Overzicht van vaste activa](fa-manage.md)
+### [Vaste activa instellen](fa-setup.md)
+### [Afschrijvingsmethoden](fa-depreciation-methods.md)
 ### [Rapporten en analyses voor vaste activa](fa-reports.md)
 ### [Vaste activa aanschaffen](fa-how-acquire.md)
 ### [Vaste activa onderhouden](fa-how-maintain.md)
@@ -723,12 +738,12 @@ ms.service: dynamics-365-business-central
 ## Online winkel met Shopify
 ### [Aan de slag met de Shopify-connector](shopify/get-started.md)
 #### [Een Shopify-account maken en instellen](shopify/shopify-account.md)
-### [Artikelen synchroniseren met Shopify](shopify/synchronize-items.md)
-### [Klanten synchroniseren met Shopify](shopify/synchronize-customers.md)
+### [Artikelen en inventaris synchroniseren met Shopify](shopify/synchronize-items.md)
+### [Klanten en bedrijven synchroniseren met Shopify](shopify/synchronize-customers.md)
 ### [Verkooporders synchroniseren en afhandelen met Shopify](shopify/synchronize-orders.md)
 ### [Transacties en uitbetalingen synchroniseren](shopify/transactions-and-payouts.md)
 ### [Belastingen instellen voor de Shopify-verbinding](shopify/setup-taxes.md)
-### [Taken op de achtergrond uitvoeren](shopify/background.md)
+### [Shopify-synchronisatie automatiseren met taakwachtrij](shopify/background.md)
 ### [Problemen oplossen met de Shopify-connector](shopify/troubleshoot.md)
 ### [Veelgestelde vragen over de Shopify-connector](shopify/shopify-faq.md)
 ### [Procedure: De Shopify-connector instellen en gebruiken](shopify/walkthrough-setting-up-and-using-shopify.md)
@@ -848,38 +863,71 @@ ms.service: dynamics-365-business-central
 ##### [Problemen met rapporten oplossen](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
 ##### [Werken met GIFI-codes](LocalFunctionality/Canada/work-gifi-codes.md)
 
-### Tsjechië
+### Tsjechische Republiek
 #### [Lokale functionaliteit in de Tsjechische versie](LocalFunctionality/Czech/czech-local-functionality.md)
 #### [Kernlokalisatiepakket voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
-#### [Geavanceerd lokalisatiepakket voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
+#### [Geavanceerd lokalisatiepakket voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Hoofdfinanciën  
-##### [Financiën](LocalFunctionality/Czech/finance.md)
+##### [Correctieboeking (rode storno)](LocalFunctionality/Czech/how-to-use-corrections-posting.md)
+##### [Statutaire informatie over het bedrijf](LocalFunctionality/Czech/statutory-company-information.md)
+##### [Interne financiële documenten](LocalFunctionality/Czech/internal-financial-documents.md)
+##### [Boekhoudkundige uitvoerdocumenten](LocalFunctionality/Czech/accounting-output-documents.md)
+##### [Functie voor boekhoudschema](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
+##### [Statutaire verklaringen](LocalFunctionality/Czech/statutory-statements.md)
 ##### [Werkzaamheden jaarafsluiting](LocalFunctionality/Czech/year-close-operations.md)
 ##### [Vereffening van grootboekposten](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Wisselkoersen bijwerken](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [Boekhouding met meerdere circuits](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
 #### Btw
-##### [Financiën - btw](LocalFunctionality/Czech/finance-vat.md)
+##### [Btw-datum](LocalFunctionality/Czech/how-to-setup-vat-date.md)
+##### [Btw-aangifte](LocalFunctionality/Czech/vat-statement.md)
+##### [Aanvullende btw-aangifte](LocalFunctionality/Czech/supplementary-vat-statement.md)
+##### [VIES](LocalFunctionality/Czech/vies-cz.md)
+##### [VIES – CZ exporteren](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
+##### [Onbetrouwbare betaler](LocalFunctionality/Czech/unreliable-payer.md)
+##### [Wisselkoers btw](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
+##### [Verlegging instellen en boeken](LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md)
 ##### [Btw-controlerapport](LocalFunctionality/Czech/vat-control-report.md)
-#### Vaste activa
-##### [Vaste activa](LocalFunctionality/Czech/fixed-assets.md)
-##### [Lokalisatie van vaste activa voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
-#### Bankieren en betalingen
-##### [Bankfunctie](LocalFunctionality/Czech/bank-feature.md)
-##### [Lokalisatie van bankdocumenten voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
-##### [Kasbeheer](LocalFunctionality/Czech/cash-desk-management.md)
-##### [Lokalisatie van kas voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
-##### [Registratie van verkoop (EET)](LocalFunctionality/Czech/eet.md)
-##### [Voorschotten](LocalFunctionality/Czech/advances.md)
-##### [Lokalisatie van vooruitbetalingen voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
-#### Tegoeden en schulden
-##### [Tegoeden en schulden](LocalFunctionality/Czech/receivables-payables.md)
+##### [Btw-rapporten](LocalFunctionality/Czech/vat-reports-cz.md)
+##### [Btw-correctie in lokale valuta](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Lokalisatie van compensatie voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+##### [Intrastat voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
+#### Vaste activa
+##### [Lokalisatie van vaste activa voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
+#### Bankieren en betalingen
+##### [Lokalisatie van bankdocumenten voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
+##### [Lokalisatie van kas voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
+##### [Registratie van verkoop (EET)](LocalFunctionality/Czech/eet.md)
+##### [Lokalisatie van vooruitbetalingen voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
+#### Tegoeden en schulden
+##### [Functie voor wisselkoersherwaardering](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
+##### [Meerdere crediteuren- en debiteurenrekeningen](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
+##### [Reconciliaties van klant- en leveranciersrekeningen](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
+##### [Correctie verkoopdocumenten](LocalFunctionality/Czech/sales-correcting-documents.md)
+##### [Contacten van ARES bijwerken](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
+##### [Nieuw ontwerp van uitvoerdocumenten](LocalFunctionality/Czech/new-design-of-output-documents.md)
+##### [Vergoedingen](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Voorraad
-##### [Voorraad](LocalFunctionality/Czech/inventory.md)
+##### [Boekhouding in voorraad afronden](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
+##### [Verbeteringen voor afstemming voorraadgrootboek](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
+##### [Geavanceerde functie van fysieke inventaris](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
+##### [Voorraadtellingsdocumenten](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
+##### [Document met voorraadbewerkingen](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
+##### [Groepen boeken in transferorders](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
 #### Algemeen
 ##### [Uitgebreide gebruikerscontrole](LocalFunctionality/Czech/general.md)
-##### [Aanbevolen procedures](LocalFunctionality/Czech/best-practices.md)
+##### [Controle over wijzigingen voor boekingsgroepen](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Controle van tijdvolgorde van de uitgaande voorraad](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
+##### [Sjablonen voor voorraadverplaatsing](LocalFunctionality/Czech/inventory-movement-templates.md)
+##### [SKU-sjablonen](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
+##### [Verplichte exacte kostenretour bij productie](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+##### [Standaard zakelijke boekingsgroep in productie](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
+##### [Standaard zakelijke boekingsgroep in assemblageorders](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
+##### [Automatisch maken en bijwerken van dimensies](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
+##### [Velden toevoegen aan artikelposten](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
+##### [Algemene productieboekingsgroep in SKU](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
+##### [Update voor SKU overslaan bij boeking](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
+##### [Nummering niet-voorraadartikel](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
 
 ### Denemarken
 #### [Lokale functionaliteit in de Deense versie](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1523,6 +1571,7 @@ ms.service: dynamics-365-business-central
 #### [Werken met betalingstoleranties en contantkortingstoleranties](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Werken met boekingsperioden en fiscale jaren](finance-accounting-periods-and-fiscal-years.md)
 #### [Termijnen, niveaus en tekst van aanmaningen instellen](finance-setup-reminders.md)
+#### [Aanmaningen in incasso's automatiseren](finance-automate-reminders.md)
 #### [Rentefactuurcondities instellen](finance-setup-finance-charges.md)
 #### [Btw instellen](finance-setup-vat.md)
 #### [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)
@@ -1584,7 +1633,7 @@ ms.service: dynamics-365-business-central
 #### [Artikelen categoriseren](inventory-how-categorize-items.md)
 #### [Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md)
 ### Projectbeheer instellen
-#### [Projecten instellen](projects-setup-projects.md)
+#### [Projectbeheer instellen](projects-setup-projects.md)
 #### [Resources instellen](projects-how-setup-resources.md)
 #### [Urenstaten instellen](projects-how-setup-time-sheets.md)
 #### [Projecten instellen](projects-how-setup-jobs.md)
@@ -1592,7 +1641,6 @@ ms.service: dynamics-365-business-central
 #### [Vaste activa instellen](fa-setup.md)
 #### [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md)
 #### [Afschrijving van vaste activa instellen](fa-how-setup-depreciation.md)
-#### [Afschrijvingsmethoden definiëren](fa-depreciation-methods.md)
 #### [Door de gebruiker gedefinieerde afschrijvingsmethoden instellen:](fa-how-setup-user-defined-depreciation-method.md)
 #### [Verzekering van vaste activa instellen](fa-how-setup-insurance.md)
 #### [Onderhoud van vaste activa instellen](fa-how-setup-maintenance.md)
@@ -1727,10 +1775,13 @@ ms.service: dynamics-365-business-central
 ### [Online kaarten instellen](across-online-maps-setup.md)
 ### [Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)
 ### [Business Central op uw desktop krijgen](install-desktop-app.md)
-<!--Reporting landing page-->
-# Business Intelligence en rapportage 
 
-## [Overzicht](reports-bi-reporting.md)
+<!--Reporting landing page-->
+# Analyse, Business Intelligence en rapportage 
+
+## [Overzicht van analyses](reports-bi-reporting.md)
+## [KPI's gebruiken om uw bedrijfsdoelen te halen](./analytics-about-kpis.md)
+## [Financiële rapportage gebruiken](bi-how-work-account-schedule.md)
 
 ## Rapporten gebruiken in het dagelijkse werk
 ### [Overzicht](reports-use-reports.md)
@@ -1775,8 +1826,8 @@ ms.service: dynamics-365-business-central
 
 ### Project
 #### [Projectrapporten](project-reports.md)
-#### [Schattingen van projectgebruik weergeven](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
-#### [Projectvoortgang en -prestaties bewaken](projects-how-monitor-progress-performance.md)
+#### [Schattingen van projectgebruik weergeven](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
+#### [Projectvoortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)
 
 ### Vaste activa
 #### [VA-rapporten](fa-reports.md)
@@ -1933,6 +1984,7 @@ ms.service: dynamics-365-business-central
 #### [Business Central-extensies van andere providers](ui-extensions-other.md)
 ## Integreren met andere Dynamics 365-toepassingen
 ### [Integreren met Dynamics 365 Sales via gegevenssynchronisatie](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Integreren met Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)
 ## Integreren met Microsoft Dataverse
 ### [Integreren met Dataverse via gegevenssynchronisatie](admin-common-data-service.md)
 ### [Modellen voor gegevenseigendom voor synchronisatie](admin-cds-company-concept.md)
@@ -2025,18 +2077,36 @@ ms.service: dynamics-365-business-central
 ## [Prestaties](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Verwijderde of afgeschafte functies](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot- en AI-mogelijkheden
+## [Over Copilot in Business Central](copilot-overview.md)
 ## Copilot- en AI-mogelijkheden beheren
 ### [Copilot- en AI-mogelijkheden configureren](enable-ai.md)
 ### [Copilot-gegevensverplaatsing tussen geografieën](ai-copilot-data-movement.md)
 ### [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)
+## Analysehulp (preview)
+### [Gegevens analyseren in lijsten met Copilot](analysis-assist.md)
+### [Veelgestelde vragen over analysehulp](faqs-analysis-assist.md)
 ## Hulp bij reconciliatie van bankrekeningen (preview)
 ### [Bankrekeningen reconciliëren met Copilot](bank-reconciliation-with-copilot.md)
 ### [Veelgestelde vragen over hulp bij bankreconciliatie](faqs-bank-reconciliation.md)
+## Chatten met Copilot (preview)
+### [Chatten met Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [Veelgestelde vragen over chatten met Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Veelgestelde vragen van verantwoorde AI over chatten met Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Suggesties voor marketingteksten
 ### [Overzicht van suggesties voor marketing](ai-overview.md)
 ### [Marketing maken met Copilot](item-marketing-text.md)
 ### [Veelgestelde vragen over suggesties voor marketing](faqs-marketing-text.md)
-# Verantwoordelijke AI
+## Verkoopregels voorstellen (preview)
+### [Regels op verkooporders voorstellen met Copilot](sales-suggest-sales-lines-with-copilot.md)
+### [Veelgestelde vragen over verkoopregels voorstellen met Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## E-documenten toewijzen (preview)
+### [E-documenten toewijzen aan inkooporderregels met Copilot](map-edocuments-with-copilot.md)
+### [Veelgestelde vragen over het toewijzen van e-documenten aan inkooporders met Copilot](faqs-map-edocuments.md)
+# Verantwoorde AI
 ## [Overzicht](responsible-ai-overview.md)
+## [Veelgestelde vragen over analysehulp (preview)](faqs-analysis-assist.md)
 ## [Veelgestelde vragen over hulp bij bankreconciliatie (preview)](faqs-bank-reconciliation.md)
+## [Veelgestelde vragen over chatten met Copilot (preview)](faqs-chat-with-copilot.md)
 ## [Veelgestelde vragen over suggesties voor marketing](faqs-marketing-text.md)
+## [Veelgestelde vragen over verkoopregels voorstellen met Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
+## [Veelgestelde vragen over het toewijzen van e-documenten aan inkooporders met Copilot (preview)](faqs-map-edocuments.md)

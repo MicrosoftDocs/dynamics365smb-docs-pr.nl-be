@@ -11,13 +11,13 @@ ms.date: 12/06/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="defer-revenues-and-expenses"></a>Procedure: Inkomsten en kosten uitstellen
+# Procedure: Inkomsten en kosten uitstellen
 
 Als u inkomsten of kosten wilt verantwoorden in een andere periode dan waarin de transactie is geboekt, kunt u deze functionaliteit gebruiken om kosten en inkomsten automatisch uit te stellen via een opgegeven schema.
 
 Om kosten of omzet over de betrokken boekhoudperioden te verdelen stelt u een uitstelsjabloon in voor de bron, het artikel of de grootboekrekening waarnaar de inkomsten of kosten worden geboekt. Wanneer u het gerelateerde verkoop- of inkoopdocument boekt, worden de inkomsten of kosten uitgesteld tot de betrokken boekhoudperioden, volgens een uitstelschema dat wordt bepaald door instellingen in de uitstelsjabloon en de boekingsdatum.
 
-## <a name="to-set-up-a-gl-account-for-deferral"></a>Een grootboekrekening instellen voor uitstel
+## Een grootboekrekening instellen voor uitstel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
@@ -26,7 +26,7 @@ Om kosten of omzet over de betrokken boekhoudperioden te verdelen stelt u een ui
 
 Selecteer voor beide soorten uitstel **Balans** in het veld **Type** en geef de rekeningen geschikte namen, zoals "Niet-gerealiseerde onkosten" voor uitgestelde inkomsten en "Niet-gerealiseerde onkosten" voor uitgestelde onkosten.
 
-## <a name="to-set-up-a-deferral-template"></a>Een uitstelsjabloon instellen
+## Een uitstelsjabloon instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Uitstelsjablonen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
@@ -48,7 +48,7 @@ Selecteer voor beide soorten uitstel **Balans** in het veld **Type** en geef de 
 
 Voorbeeld: de boekingsdatum is 06-02-2016. Als u 'Kosten uitgesteld voor %4%6' invoert, wordt de weergegeven beschrijving 'Kosten uitgesteld voor februari 2016'.
 
-## <a name="to-assign-a-deferral-template-to-an-item"></a>Een uitstelsjabloon toewijzen aan een artikel
+## Een uitstelsjabloon toewijzen aan een artikel
 
 > [!NOTE]  
 > De stappen in deze procedure zijn hetzelfde als wanneer u een uitstelsjabloon toewijst aan een grootboekrekening of een resource.
@@ -57,7 +57,7 @@ Voorbeeld: de boekingsdatum is 06-02-2016. Als u 'Kosten uitgesteld voor %4%6' i
 2. Open de kaart voor het artikel waarvoor de inkomsten en de kosten moeten worden uitgesteld naar de boekhoudperioden waarin het artikel is verkocht of gekocht.
 3. Selecteer in het veld **Standaarduitstellingssjabloon** de relevante uitstelsjabloon.
 
-## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>Een uitstelschema wijzigen vanuit een verkoopfactuur
+## Een uitstelschema wijzigen vanuit een verkoopfactuur
 
 > [!NOTE]  
 > De stappen in deze procedure zijn hetzelfde als wanneer u een uitstelschema voor onkosten wijzigt vanuit een inkoopfactuur.
@@ -71,7 +71,7 @@ Voorbeeld: de boekingsdatum is 06-02-2016. Als u 'Kosten uitgesteld voor %4%6' i
 5. Kies de actie **Schema berekenen**.
 6. Kies de knop **Ok**. Het uitstelschema wordt bijgewerkt voor de verkoopfactuur. De relateerde uitstelsjabloon is ongewijzigd.
 
-## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Zien hoe uitgestelde kosten of inkomsten naar het grootboek worden geboekt
+## Zien hoe uitgestelde kosten of inkomsten naar het grootboek worden geboekt
 
 > [!NOTE]  
 > De stappen in deze procedure zijn hetzelfde als wanneer u bekijkt hoe uitgestelde onkosten worden geboekt.
@@ -81,7 +81,7 @@ Voorbeeld: de boekingsdatum is 06-02-2016. Als u 'Kosten uitgesteld voor %4%6' i
 
 Grootboekposten die moeten worden geboekt naar de opgegeven uitstelrekening, bijvoorbeeld Niet-gerealiseerde inkomsten, worden aangegeven door de beschrijving die u hebt ingevoerd in het veld **Periodebeschrijving** in de uitstelsjabloon, bijvoorbeeld 'Uitgestelde kosten voor februari 2016'.
 
-## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Geboekte uitstellingen bekijken in het rapport Overzicht van verkoopuitstel
+## Geboekte uitstellingen bekijken in het rapport Overzicht van verkoopuitstel
 
 > [!NOTE]  
 > De stappen in deze procedure zijn hetzelfde als wanneer u het rapport Overzicht van inkoopuitstel bekijkt.
@@ -90,7 +90,7 @@ Grootboekposten die moeten worden geboekt naar de opgegeven uitstelrekening, bij
 2. Voer op de pagina **Overzicht van verkoopuitstel** in het veld **Saldo per** de datum in tot wanneer u uitgestelde inkomsten wilt zien.
 3. Kies de knop **Voorbeeld**.
 
-## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Een periode opgeven waarin uitstelboeking wordt toegestaan
+## Een periode opgeven waarin uitstelboeking wordt toegestaan
 
 U kunt een periode opgeven waarin mensen transacties kunnen boeken door datums in de velden **Boeken toestaan vanaf** en **Boeken toestaan tot** als volgt in te voeren:
 
@@ -102,13 +102,13 @@ Als u dat hebt gedaan, moet u een uitzondering maken voor uitstel, zodat ze buit
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekinstellingen** of **Gebruikerisnstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Voer in de velden **Uitstelboeking toestaan vanaf** en **Uitstelboeking toestaan tot** een begin- en einddatum voor de periode in.
 
-### <a name="video-guidance"></a>Videobegeleiding
+### Videobegeleiding
 
 In de volgende video ziet u hoe u de periode definieert waarin u mensen toestaat uitgestelde inkomsten en uitgaven te boeken, en hoe u uitzonderingen kunt opgeven.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fG6C]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
