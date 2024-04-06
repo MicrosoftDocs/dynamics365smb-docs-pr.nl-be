@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Werken met verkoopraamcontracten of inkoopraamcontracten
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Werken met verkoopraamcontracten of inkoopraamcontracten
 
 Een verkoopraamcontract biedt een kader voor een langdurige overeenkomst tussen u en uw klant. Evenzo gebruikt u inkoopraamcontracten om langetermijnovereenkomsten tussen u en uw leverancier te beheren.
 
@@ -22,7 +22,7 @@ Een verkoopraamcontract kan bijvoorbeeld worden gebruikt als een klant belt om e
 > [!NOTE]
 > Inkoopraamcontracten functioneren op een soortgelijke manier als verkoopraamcontracten. Deze documentatie beschrijft alleen verkoopraamcontracten.
 
-## Een verkoopraamcontract maken.
+## <a name="to-create-a-blanket-sales-order"></a>Een verkoopraamcontract maken.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopraamcontracten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -30,7 +30,7 @@ Een verkoopraamcontract kan bijvoorbeeld worden gebruikt als een klant belt om e
 4. Laat het veld **Besteldatum** leeg. Als de afzonderlijke verkooporders worden gemaakt uit het raamcontract, wordt de orderdatum van de verkoopdatum ingesteld op de werkelijke werkdatum.
 5. Maak op het sneltabblad **Regels** afzonderlijke regels voor elke zending. Als uw klant bijvoorbeeld 1000 eenheden wil die gelijkmatig over vier weken moeten worden verdeeld, voert u vier afzonderlijke regels van elk 250 eenheden in.  
 
-## Een verkooporder maken uit een verkoopraamcontract  
+## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Een verkooporder maken uit een verkoopraamcontract
 
 1. Als u een order wilt maken voor een van de regels uit het verkoopraamcontract, verwijdert u het aantal uit het veld **Te verzenden aantal** op alle regels die u op dit moment niet wilt verzenden.  
 2. Wanneer u klaar bent om orders te maken, kiest u de actie **Order maken** en klikt u vervolgens op **Ja**. Er wordt een bericht weergegeven waarin u wordt meegedeeld dat aan het raamcontract een ordernummer is toegewezen. Het raamcontract is echter niet verwijderd.  
@@ -49,7 +49,7 @@ Het volgende geldt voor verkooporders nadat ze zijn gemaakt uit verkoopraamcontr
 - Het gefactureerde verkoopraamcontract blijft in het systeem aanwezig totdat het wordt verwijderd, hetzij door afzonderlijke raamcontracten te verwijderen, hetzij door de batchverwerking **Gefact. raamcontracten verwijderen** uit te voeren.  
 - Wanneer een klant ook als contact is vastgelegd in de module Marketing en u een interactiesjablooncode voor een verkoopraamcontract hebt opgegeven op de pagina **Marketinginstellingen**, wordt zodra u op **Afdrukken** klikt om het verkoopraamcontract af te drukken, automatisch een interactie in de tabel Interactielogpost vastgelegd.
 
-## De status van een verkoopraamcontract weergeven
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>De status van een verkoopraamcontract weergeven
 
 U kunt de status van een verkoopraamcontract op de pagina **Raamverkooporderstatistiek** bekijken. Dit kan nodig zijn wanneer u de order die is gemaakt vanuit het verkoopraamcontract gaat factureren.  
 
@@ -62,7 +62,7 @@ U kunt de status van een verkoopraamcontract op de pagina **Raamverkooporderstat
 - Op het sneltabblad **Vooruitbetaling** vindt u algemene informatie bekijken over eventuele vooruitbetaalde bedragen.  
 - Op het sneltabblad **Leverancier** kunt u bepaalde basisgegevens over de leverancier bekijken.
 
-## Niet-geboekte en geboekte verkoopraamcontractregels weergeven
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Niet-geboekte en geboekte verkoopraamcontractregels weergeven
 
 De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder en een eventueel ander verkoopdocument blijft na het boeken behouden als een lijst van geboekte en niet-geboekte verkooporderfactuurregels.  
 
@@ -88,7 +88,7 @@ De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder e
 
 5. Kies op de pagina **Verkoopregels** de actie **Document weergeven** om de post te bekijken.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Raamassemblageorders](assembly-how-to-create-blanket-assembly-orders.md)  
