@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Artikelen voor een verkoop inkopen door inkoopfacturen te maken
+# Artikelen voor een verkoop inkopen door inkoopfacturen te maken
 
 Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopdocumenten te maken voor ontbrekende artikelaantallen die vereist worden door de verkoop. U kunt twee verschillende functies gebruiken, afhankelijk van de documentsoort.
 
@@ -22,7 +22,7 @@ Vanuit verkooporders en verkoopfacturen kunt u functie gebruiken om snel inkoopd
 |**Inkooporders maken**|Vanuit een verkooporder maakt deze functie een inkooporder voor elk van de artikelen op de verkooporder. U kunt het inkoopaantal wijzigen voordat u de inkooporders maakt. Alleen niet-beschikbare verkoopaantallen worden voorgesteld.
 |**Inkoopfactuur maken**|Vanuit een verkooporder en vanuit een verkoopfactuur maakt deze functie een inkoopfactuur voor een geselecteerde leverancier voor alle regels of geselecteerde regels op het verkoopdocument. Het volledige verkoopaantal wordt voorgesteld.|
 
-## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Een of meerdere inkooporders van een verkooporder maken
+## Een of meerdere inkooporders van een verkooporder maken
 Als u een inkooporder wilt maken voor elk niet-beschikbaar artikelaantal op de verkooporder, gebruikt u de functie **Inkooporders maken**.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
@@ -42,7 +42,7 @@ Als u een inkooporder wilt maken voor elk niet-beschikbaar artikelaantal op de v
 7. Ga verder met het verwerken van de inkooporder of -orders, bijvoorbeeld door inkooporderregels te bewerken of toe te voegen. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
 
-## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Een inkoopfactuur van een verkooporder of verkoopfactuur maken
+## Een inkoopfactuur van een verkooporder of verkoopfactuur maken
 Als u één inkoopfactuur wilt maken voor een of meer regels in een verkoopdocument door eerst te selecteren van welke leverancier wordt gekocht, gebruikt u de functie **Inkoopfactuur maken**.
 
 > [!NOTE]  
@@ -58,7 +58,7 @@ Als u één inkoopfactuur wilt maken voor een of meer regels in een verkoopdocum
     Er wordt een inkoopfactuur gemaakt die één, meerdere of alle regels op de verkoopfactuur bevat.
 7. Ga verder met het verwerken van de inkoopfactuur, bijvoorbeeld door inkoopfactuurregels te bewerken of toe te voegen. Zie voor meer informatie [Inkopen vastleggen](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  

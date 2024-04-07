@@ -10,7 +10,7 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="use-resources-for-projects"></a>Resources gebruiken voor projecten
+# Resources gebruiken voor projecten
 
 U legt het gebruik van resources vast in het projectdagboek om kosten, prijzen en de werksoorten bij te houden die zijn gekoppeld aan projecten. Zie voor meer informatie [Gebruik vastleggen voor projecten](projects-how-record-job-usage.md).
 
@@ -19,11 +19,11 @@ U legt het gebruik van resources vast in het projectdagboek om kosten, prijzen e
 
 U kunt ook het verbruik van een resource boeken in een resourcedagboek. Posten die in een resourcedagboek zijn geboekt, werken niet door in het grootboek.
 
-## <a name="to-assign-resources-to-projects"></a>Resources toewijzen aan projecten
+## Resources toewijzen aan projecten
 
 U wijst resources aan projecten toe door projectplanningsregels voor het project te maken. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).
 
-## <a name="to-record-resource-usage-for-a-project"></a>Resourceverbruik voor een project vastleggen
+## Resourceverbruik voor een project vastleggen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.
 2. Open een relevante projectdagboekbatch en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +31,7 @@ U wijst resources aan projecten toe door projectplanningsregels voor het project
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-adjust-resource-prices"></a>Resourceprijzen aanpassen
+## Resourceprijzen aanpassen
 
 Als u kost- of verkoopprijzen wilt wijzigen voor een groot aantal resources, kunt u een batchverwerking gebruiken.  
 
@@ -41,7 +41,7 @@ Als u kost- of verkoopprijzen wilt wijzigen voor een groot aantal resources, kun
 > [!NOTE]  
 > Met deze batchverwerking worden geen alternatieve kosten of prijzen voor resources gemaakt of aangepast. Dit verandert alleen de inhoud van het veld op de resourcekaart voor het veld **Aan te passen prijs** dat u hebt geselecteerd in de batchtaak. De aanpassing werkt onmiddellijk door voor de resources. Controleer daarom uw herwaarderingsfactoren zorgvuldig voordat u de batchverwerking uitvoert.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Suggesties voor wijzigingen van resourceprijzen krijgen op basis van bestaande alternatieve prijzen
+## Suggesties voor wijzigingen van resourceprijzen krijgen op basis van bestaande alternatieve prijzen
 
 Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, kunt u een batchverwerking gebruiken om meerdere alternatieve resourceprijzen in te stellen.
 
@@ -50,7 +50,7 @@ Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, ku
 3. Kies de knop **OK**.  
 4. Nadat de batchverwerking is voltooid, bevat de pagina **Resourceprijswijzigingen** de resultaten van de batchverwerking.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Resourceprijsvoorstellen ophalen op basis van standaardverkoopprijzen
+## Resourceprijsvoorstellen ophalen op basis van standaardverkoopprijzen
 
 Als u meerdere alternatieve resourceprijzen wilt instellen op basis van de standaardverkoopprijzen op de resourcekaarten, kunt u een batchverwerking gebruiken.  
 
@@ -59,7 +59,7 @@ Als u meerdere alternatieve resourceprijzen wilt instellen op basis van de stand
 3. Kies de knop **Ok**.  
 4. Nadat de batchverwerking is voltooid, opent u de pagina **Resourceprijswijzigingen** om de resultaten van de batchverwerking te bekijken.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Suggesties voor wijzigingen van resourceprijzen krijgen op basis van alternatieve prijzen
+## Suggesties voor wijzigingen van resourceprijzen krijgen op basis van alternatieve prijzen
 
 Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, kunt u een batchverwerking gebruiken om meerdere alternatieve resourceprijzen in te stellen.
 
@@ -68,7 +68,7 @@ Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, ku
 3. Kies de knop **Ok**.  
 4. Nadat de batchverwerking is voltooid, opent u de pagina **Resourceprijswijzigingen** om de resultaten van de batchverwerking te bekijken.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Financiën](finance.md)  
