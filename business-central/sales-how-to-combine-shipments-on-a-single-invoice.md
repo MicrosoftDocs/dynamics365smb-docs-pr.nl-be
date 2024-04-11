@@ -1,11 +1,11 @@
 ---
-title: 'Procedure: Verzendingen combineren op één factuur | Microsoft Docs'
+title: Verzendingen combineren op één factuur | Microsoft Docs
 description: 'Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Verzamelfacturering gebruiken.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/16/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

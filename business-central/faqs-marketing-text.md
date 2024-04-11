@@ -80,7 +80,7 @@ Zodat Microsoft de service en zijn klanten kan beschermen is het niet mogelijk o
 
 De mogelijkheid voor marketingtekstsuggesties verzamelt de minimale gegevens die Business Central nodig heeft om de service aan te bieden. Zie [Dynamics 365-voorwaarden voor door Azure OpenAI aangedreven functies](https://go.microsoft.com/fwlink/?linkid=2236010) voor meer informatie.
 
-De mogelijkheid verzamelt ook gegevens van de feedback die gebruikers kunnen geven met behulp van de pictogrammen 'Vind ik leuk' (duim omhoog) of 'Niet leuk' (duim omlaag) bovenaan de pagina **Copilot**. De gegevens zijn anoniem en omvatten de keuze tussen leuk of niet leuk, de reden voor afkeer (indien opgegeven) en de Copilot-functie waarop de feedback van toepassing is. We gebruiken deze gegevens om de kwaliteit van de functie te beoordelen en te verbeteren.
+De mogelijkheid verzamelt ook gegevens van de feedback die gebruikers kunnen geven met behulp van de pictogrammen 'Vind ik leuk' (duim omhoog) of 'Niet leuk' (duim omlaag) bovenaan de pagina **Copilot**. De gegevens zijn anoniem en omvatten de keuze tussen Vind ik leuk of Niet leuk, de reden voor Niet leuk (indien opgegeven) en de Copilot-functie waarop de feedback van toepassing is. We gebruiken deze gegevens om de kwaliteit van de functie te beoordelen en te verbeteren.
 
 ## Wat zijn de huidige beperkingen van [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? Hoe kunnen gebruikers de impact van de beperkingen van [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] tot een minimum terugbrengen bij het gebruik van het systeem?
 
@@ -88,7 +88,6 @@ De mogelijkheid verzamelt ook gegevens van de feedback die gebruikers kunnen gev
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
   Onnauwkeurige antwoorden kunnen worden geretourneerd wanneer gebruikers met het systeem communiceren in andere dan de ondersteunde talen. Ook kan er onnauwkeurige tekst worden gegenereerd als de taal van de gebruiker en de primaire gegevenstaal in de [!INCLUDE[prod_short](includes/prod_short.md)]-database niet identiek zijn.
-
 
 ## Welke operationele factoren en instellingen maken een effectief en verantwoordelijk gebruik van het systeem mogelijk?
 

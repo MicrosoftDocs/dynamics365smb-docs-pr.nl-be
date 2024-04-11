@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'find, search, Tell Me'
 ms.search.form: TellMe
-ms.date: 09/21/2023
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -41,7 +41,7 @@ U kunt Vertel me gebruiken in de on-premises webclient om acties, pagina's en ra
 
 ## Is Vertel me beschikbaar voor alle formulierfactoren?
 
-Ja. Het werd geïntroduceerd op telefoons en tablets in Business Central 2023 releasewave 2, maar moet worden ingeschakeld in [Functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management) met de schakelaar **Functie: Pagina's en gegevens zoeken in de mobiele app**. 
+Ja. Het werd geïntroduceerd op telefoons en tablets in Business Central 2023 releasewave 2. In releasewave 2 van 2023 moet het zijn ingeschakeld in [Functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management) met behulp van de schakelaar **Functie: Pagina's en gegevens zoeken in de mobiele app**. In releasewave 1 van 2024 en later is dit altijd ingeschakeld.
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?

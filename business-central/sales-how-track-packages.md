@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: rfq
 ms.search.form: '142, 800, 806'
-ms.date: 06/23/2021
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -30,7 +30,7 @@ De volgende procedure laat zien hoe u een pakket kunt traceren vanaf een geboekt
 [Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)  
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Documenten verzenden via e-mail](ui-how-send-documents-email.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

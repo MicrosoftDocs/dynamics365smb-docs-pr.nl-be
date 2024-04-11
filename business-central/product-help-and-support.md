@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 09/28/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -17,9 +17,20 @@ ms.service: dynamics-365-business-central
 
 Organisaties die [!INCLUDE[prod_long](includes/prod_long.md)] gebruiken, kunnen technische ondersteuning krijgen voor eventuele problemen. In dit artikel laten we u de volgende informatie en vele andere tips zien voor het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)]:
 
+- Meer informatie over hoe uw door AI aangestuurde assistent [kan begeleiden en uitleggen](#chat-with-copilot)
 - Ontdek hoe u [de blokkering kunt opheffen](#in-product-tips)  
-- Lees waar u [meer informatie kunt vinden](#help-pane)    
-- Leer hoe u [de technische informatie](#help--support-page) vindt die u nodig hebt om een ondersteuningsverzoek in te dienen    
+- Lees waar u [meer informatie kunt vinden](#help-pane)
+- Leer hoe u [de technische informatie](#help--support-page) vindt die u nodig hebt om een ondersteuningsverzoek in te dienen
+
+## Chatten met Copilot
+
+[!INCLUDE [online_only](includes/online_only.md)]
+
+Chatten met Copilot is een door AI aangestuurde tool die vragen beantwoordt en bedrijfsgegevens zoekt die zijn gerelateerd met Business Central. Het is beschikbaar vanaf elke pagina door het pictogram ![Toont het pictogram voor chatten met Copilot](media/chat-copilot-icon.png) **Copilot** in de rechterbovenhoek te selecteren. [Meer informatie over chatten met Copilot](chat-with-copilot.md).
+
+### Hulp met velden
+
+Copilot kan u helpen het doel en het typische gebruik van individuele velden te begrijpen. Wanneer u **Copilot vragen** in de knopinfo van een veld kiest, wordt de chat geopend met een uitlegprompt voor de veldnaam en geeft Copilot informatie hierover. Copilot geeft een koppeling naar de artikelen waarnaar wordt verwezen, zodat u de beschrijving eenvoudig kunt verifiëren.
 
 ## Tips in het product
 
@@ -35,14 +46,9 @@ In [!INCLUDE [prod_short](includes/prod_short.md)] geeft de menuoptie Help (het 
 
 De volgende lijst beschrijft hoe u toegang krijgt tot het Help-venster en of er kaarten aan zijn toegevoegd:
 
-- Kies de koppeling *Meer informatie* in de knopinfo voor een veld
-
-  De volgende kaart is toegevoegd aan het Help-venster:
-
-  - Knopinfo van het veld
-- Kies de koppeling *Meer informatie* in de knopinfo voor een actie
 - Kies het menu-item Help (het vraagteken in de rechterbovenhoek)
 - Gebruik overal de sneltoets <kbd>Ctrl</kbd>+<kbd>F1</kbd>
+- Kies indien beschikbaar de koppeling *Meer informatie* in de knopinfo voor een veld De koppeling *Meer informatie* is alleen beschikbaar in de mobiele app of in aangepaste velden (dat wil zeggen velden van niet-Microsoft-extensies) in de webclient.
 
 > [!TIP]
 > Wanneer u een koppeling kiest, wordt het doelartikel geopend in een nieuw browsertabblad. U kunt ervoor kiezen om het browsertabblad los te koppelen, zodat u de relevante informatie naast elkaar kunt bekijken met [!INCLUDE [prod_short](includes/prod_short.md)]. Het deelvenster blijft open terwijl u navigeert door [!INCLUDE [prod_short](includes/prod_short.md)] zodat de door u gezochte inhoud zichtbaar blijft.  

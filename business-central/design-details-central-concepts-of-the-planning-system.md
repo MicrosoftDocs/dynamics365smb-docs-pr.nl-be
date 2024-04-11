@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 # Ontwerpdetails: Centrale begrippen van het planningssysteem
 
-De planningsfuncties bevinden zich in een batchverwerking die eerst de relevante artikelen en periode selecteert voor de planning. Vervolgens roept de batchverwerking, op basis van de low-levelcode (stuklijstpositie) van elk artikel, een code-eenheid aan die een aanbodplan berekent. De code-eenheid stemt vraag/aanbod-combinaties af en stelt acties voor die de gebruiker kan ondernemen. De voorgestelde acties worden als regels weergegeven in het planningsvoorstel of inkoopvoorstel.  
+De planningsfuncties bevinden zich in een batchproject dat eerst de relevante artikelen en periode selecteert voor de planning. Vervolgens roept de batchverwerking, op basis van de low-levelcode (stuklijstpositie) van elk artikel, een code-eenheid aan die een aanbodplan berekent. De code-eenheid stemt vraag/aanbod-combinaties af en stelt acties voor die de gebruiker kan ondernemen. De voorgestelde acties worden als regels weergegeven in het planningsvoorstel of inkoopvoorstel.  
 
 ![Inhoud van de pagina Planningsvoorstellen.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Inhoud van de pagina Planningsvoorstellen")  
 
@@ -75,7 +75,7 @@ Nadat u de planning hebt uitgevoerd, bevat de tabel Planningsboodschappost geen 
 
 ## Volgorde en prioriteit in planning
 
-De volgorde van berekeningen in uw plan is belangrijk om de taak binnen een redelijke tijd te voltooien. De prioriteit van vereisten en resources speelt ook een belangrijke rol in het behalen van de beste resultaten.  
+De volgorde van de berekeningen in uw plan is belangrijk om het project binnen een redelijke tijd te voltooien. De prioriteit van vereisten en resources speelt ook een belangrijke rol in het behalen van de beste resultaten.  
 
 Het planningssysteem wordt gestuurd door vraag. Artikelen op hoog niveau moeten vóór artikelen op laag niveau worden gepland, omdat deze mogelijk vraag naar artikelen op lager niveau genereren. Plan bijvoorbeeld winkellocaties vóór distributiecentra, omdat de winkellocatie mogelijk vraag vanuit het distributiecentrum omvat. Als een vrijgegeven aanvulorder op een gedetailleerd afstemmingsniveau een verkooporder kan dekken, zou het systeem geen nieuwe aanvulorder moeten maken. Een aanbod met een specifiek lotnummer moet ook niet worden toegewezen om aan algemene vraag te voldoen als er andere vraag bestaat die deze specifieke lot vereist.  
 
@@ -267,7 +267,7 @@ Als het veld niet is geselecteerd, wordt de batchverwerking **Planning berekenen
 
 ## Planningsflexibiliteit
 
-Het is niet altijd praktisch om een bestaande aanvulorder te plannen. Bijvoorbeeld wanneer de productie is gestart of u op een bepaalde dag extra mensen inhuurt om de klus te klaren. Om aan te geven of een bestaande order kan worden gewijzigd door het planningssysteem, hebben alle aanvulorderregels een veld **Planningsflexibiliteit** met twee opties: **Onbeperkt** of **Geen**. Als het veld is ingesteld op **Geen**, wordt niet geprobeerd de aanvulorderregel te wijzigen.  
+Het is niet altijd praktisch om een bestaande aanvulorder te plannen. Bijvoorbeeld wanneer de productie is gestart of u op een bepaalde dag extra mensen inhuurt om het project uit te voeren. Om aan te geven of een bestaande order kan worden gewijzigd door het planningssysteem, hebben alle aanvulorderregels een veld **Planningsflexibiliteit** met twee opties: **Onbeperkt** of **Geen**. Als het veld is ingesteld op **Geen**, wordt niet geprobeerd de aanvulorderregel te wijzigen.  
 
 U kunt handmatig een optie in het veld kiezen, maar in sommige gevallen wordt het automatisch ingesteld door [!INCLUDE [prod_short](includes/prod_short.md)]. Het feit dat u de planningsflexibiliteit handmatig kunt instellen is belangrijk omdat hierdoor het gebruik van de functie eenvoudig kan worden aangepast aan verschillende werkstromen en bedrijfsgevallen. Zie voor meer informatie over hoe dit veld wordt gebruikt [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md).  
 

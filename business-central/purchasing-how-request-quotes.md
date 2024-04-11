@@ -1,12 +1,12 @@
 ---
-title: Een inkoopofferte maken om een aanbod op te vragen
+title: Een inkoopofferte maken om een offerte op te vragen
 description: Beschrijft hoe u een verkoopaanbieding of een offerteaanvraagdocument maakt om uw aanbod aan een klant vast te leggen om producten onder bepaalde voorwaarden te verkopen.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '49, 97, 9306, 9346'
-ms.date: 08/08/2022
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

@@ -80,7 +80,7 @@ Om de nieuwe artikelen volledig bruikbaar te maken moet u sommige hoofdgegevens 
 |Inkoop |Vooruitbetalingspercentage inkoop |Controleer of er voor het oorspronkelijke artikel inkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Inkopen** en dan **Vooruitbetalingspercentages**. |
 |Magazijn |Opslaglocatie-inhoud |Bekijk de opslaglocatie-inhoud die voor het originele artikel is gedefinieerd. Als kolommen zoals Min. aantal, Max. aantal, Standaard en Speciaal afzonderlijk zijn ingevoerd, moet u handmatig opslaglocatie-inhoud maken voor het nieuwe artikel. Als dat niet het geval is, is er geen actie vereist. [!INCLUDE[prod_short](includes/prod_short.md)] houdt records bij wanneer u magazijndocumenten en tijdschriften registreert.|
 |Project |Projectprijzen |Controleer of er voor het oorspronkelijke artikel projectprijzen zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Deze informatie is beschikbaar op de pagina **Projectkaart** in het gedeelte **Projectdetails - Aantal prijzen** in het **deelvenster Feitenblok**. |
-|Service |Serviceresourcevaardigheid |Controleer of er serviceresourcevaardigheden voor het oorspronkelijke artikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Als u resourcevaardigheden wilt weergeven, gebruikt u de actie **Resourcevaardigheden** op de pagina **Artikelkaart**.  |
+|Onderhoud |Serviceresourcevaardigheid |Controleer of er serviceresourcevaardigheden voor het oorspronkelijke artikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Als u resourcevaardigheden wilt weergeven, gebruikt u de actie **Resourcevaardigheden** op de pagina **Artikelkaart**.  |
 | |Serviceartikelonderdelen |Controleer of er onderdelen voor het oorspronkelijke serviceartikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om onderdelen van serviceartikelen te bekijken gebruikt u op de pagina **Artikelkaart** de actie **Serviceartikel** om de lijst met gerelateerde serviceartikelen te openen en kiest u vervolgens de actie **Materialen**.  |
 |Productie |Productiestuklijsten |Controleer of productiestuklijsten het originele artikel bevatten en vervang het door het nieuwe artikel. Om het originele artikel te vervangen kiest u op de pagina **Productiestuklijsten** de actie **Prod.-stuklijstartikel vervangen**. |
 |Assemblage |Assemblagestuklijsten |Controleer of assemblagestuklijsten het originele artikel bevatten en vervang het handmatig door het nieuwe artikel. |
@@ -154,7 +154,7 @@ De volgende tabel vermeldt functionele gebieden waar er mogelijk uitstaande hoev
 |Magazijn |Transferorders, magazijnzendingen, magazijnjournalen en magazijnpicks, opslagactiviteiten en verplaatsingen, interne picks en opslagactiviteiten en maakvoorstellen voor opslaglocaties |
 |Assemblage |Assemblagedocumenten, inclusief orders, retourorders en raamcontracten |
 |Projecten |Projectplanningsregels en projectdagboekregels |
-|Service |Servicedocumenten en servicecontracten |
+|Onderhoud |Servicedocumenten en servicecontracten |
 |Productie |Productieorders (gepland, vast gepland en vrijgegeven) |
 
 ### Het oorspronkelijke artikel voor verder gebruik blokkeren

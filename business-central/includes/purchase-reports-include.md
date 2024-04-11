@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -21,6 +21,6 @@ De volgende tabel beschrijft enkele van de belangrijkste rapporten in inkooprapp
 |[Voorraad - Beschikbaarheid per periode](https://businesscentral.dynamics.com?report=707)|Als u een overzicht wilt hebben van specifieke artikelen/voorraadeenheden en hun beschikbaarheid. Dit rapport toont u gecumuleerde waarden zoals brutobehoeften, geplande en geplande ontvangsten, de voorraad, enzovoort. |707|
 |[Voorraad - Leveranciersstatistiek](https://businesscentral.dynamics.com?report=714)|Geeft een lijst met leveranciers weer waarbij uw bedrijf in een geselecteerde periode artikelen heeft ingekocht. De gefactureerde aantallen, bedragen en kortingen worden weergegeven. U kunt de lijst gebruiken voor een analyse van de artikelinkopen van het bedrijf.|714|
 |[Voorraad - Inkooporders](https://businesscentral.dynamics.com?report=709)|Geeft de lijst met artikelen weer die bij leveranciers zijn besteld. U vindt hier ook de verwachte ontvangstdatum en het aantal en bedrag in backorders. Met de lijst kunt u bijvoorbeeld vaststellen wanneer artikelen moeten worden ontvangen en of een herinnering van een backorder moet worden verzonden|709|
-|[Beschikbaar voor ontvangst](https://businesscentral.dynamics.com?report=409)|Hier wordt weergegeven welke artikelen op inkoopdocumenten, zoals retourorders voor verzending beschikbaar zijn. U bepaalt of in de lijst de status van een document of van een inkoopregel wordt weergegeven. <br>Wanneer u de lijst afdrukt, kunt u ook het aantal dat voor verzending beschikbaar is, bijwerken in het veld **Te ontvangen aantal** op de inkoopregels. Het veld **Te ontvangen aantal** in inkoopcreditnota's en negatieve inkooporderregels bevat het te verzenden aantal. Vervolgens kunt u de lijst gebruiken om te bepalen welke documenten moeten worden verzonden. **opmerking**: dit rapport is niet beschikbaar voor geavanceerde magazijnfunctionaliteit.|409|
+|[Beschikbaar voor ontvangst](https://businesscentral.dynamics.com?report=409)|Hier wordt weergegeven welke artikelen op inkoopdocumenten, zoals retourorders voor verzending beschikbaar zijn. U bepaalt of in de lijst de status van een document of van een inkoopregel wordt weergegeven. <br>Wanneer u de lijst afdrukt, kunt u ook het aantal dat voor verzending beschikbaar is, bijwerken in het veld **Te ontvangen aantal** op de inkoopregels. Het veld **Te ontvangen aantal** in inkoopcreditnota's en negatieve inkooporderregels bevat het te verzenden aantal. Vervolgens kunt u de lijst gebruiken om te bepalen van welke documenten de artikelen moeten worden verzonden. **Opmerking**: dit rapport is niet beschikbaar voor geavanceerde magazijnfunctionaliteit.|409|
 <!--|[](https://businesscentral.dynamics.com?report=)Vervallen posten leverancier|11006| DACH-specifiek: een rapport dat zowel door de teamleider van uw ingekochte afdeling als de boekhouding kan worden gebruikt. Hier heeft u een overzicht van de onbetaalde leveranciersfacturen inclusief de vervaldata, valuta's en bedragen. Basis zijn de openstaande leveranciersposten.| -->
 

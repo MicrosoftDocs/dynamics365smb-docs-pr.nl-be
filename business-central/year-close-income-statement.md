@@ -3,21 +3,23 @@ title: Resultatenrekeningen sluiten
 description: Bij jaarafsluiting moet u de batchverwerking Afsluiten WenV-rekening uitvoeren om de boekhoudperioden te sluiten die het boekjaar vormen.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
-ms.date: 06/25/2021
+ms.date: 02/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 # Resultatenrekeningen sluiten
+
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten. Voer hiervoor de batchverwerking **Afsluiten WenV-rekening** uit. Met deze taak wordt het jaarresultaat overgeboekt naar een rekening op de balans en worden de resultatenrekeningen afgesloten. In een dagboek worden regels gemaakt die u vervolgens kunt boeken.
 
 ## De batchverwerking Afsluiten WenV-rekening uitvoeren
+
 1. Sluit het boekjaar. Het boekjaar moet zijn afgesloten voordat u de batchverwerking kunt uitvoeren. Zie [Boekingsperioden afsluiten](year-close-account-periods.md) voor meer informatie.
 2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Resultatenrekening sluiten** in en kies vervolgens de gerelateerde koppeling.
 3. Kies **OK** om de batchverwerking te starten.
 
-## Informatie over de batchverwerking Afsluiten WenV-rekening
+## Informatie over de batchverwerking Resultatenrekening afsluiten
+
 De batchverwerking verwerkt alle grootboekrekeningen van het soort Resultaten en maakt tegenboekingen voor de bijbehorende saldo's. Dat wil zeggen, dat elke post de som is van alle grootboekposten op de rekening van het boekjaar. Deze nieuwe posten worden geplaatst in een dagboek waarin u een tegenrekening en resultatenrekening in de balans moet opgeven voordat u boekt. Wanneer u het dagboek boekt, wordt een post geboekt in elke resultatenrekening zodat het saldo nul wordt en het jaarresultaat tegelijkertijd wordt overgebracht naar de balans.
 
 U moet het dagboek zelf boeken. De batchverwerking boekt de posten niet automatisch, behalve wanneer een extra rapportagevaluta wordt gebruikt. Wanneer een extra rapportagevaluta wordt gebruikt, boekt de batchverwerking posten direct naar het grootboek.
@@ -30,7 +32,7 @@ U kunt de batchverwerking **Afsluiten WenV-rekening** meerdere keren gebruiken. 
 
 [Boeken afsluiten](year-close-books.md)  
 [De jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md)  
-[Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)  
+[Werken met boekingsperioden en fiscale jaren](finance-accounting-periods-and-fiscal-years.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

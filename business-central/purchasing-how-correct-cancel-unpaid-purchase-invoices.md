@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '138, 140, 146'
-ms.date: 04/01/2021
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -16,13 +16,13 @@ U kunt een geboekte inkoopfactuur corrigeren of annuleren. Dit is handig als u e
 
 Als u al hebt betaald voor producten op de geboekte inkoopfactuur, kunt u deze niet corrigeren of annuleren vanuit de geboekte inkoopfactuur zelf. In plaats hiervan moet u handmatig een inkoopcreditnota maken om de aankoop tegen te boeken, optioneel aangestuurd met een inkoopretourorder. Hetzelfde geldt als u een geboekte inkoopfactuur wilt wijzigen die is gebaseerd op gecombineerde inkoopontvangsten. Zie voor meer informatie [Inkoopretouren of annuleringen verwerken](purchasing-how-process-purchase-returns-cancellations.md).
 
-Op de pagina **Geboekte inkoopfacturen** kunt u de knop **Corrigeren** of de knop **Annuleren** kiezen. Wanneer u een geboekte inkoopfactuur wijzigt of annuleert, wordt de corrigerende inkoopcreditnota toegepast op alle algemene grootboekposten en inventarisatieposten die werden gemaakt toen de aanvankelijke inkoopfactuur werd geboekt. Hiermee voert u een tegenboeking uit van de geboekte inkoopfactuur in uw financiële records en laat u de gecorrigeerde inkoopcreditnota staan voor uw auditcontrole. Hieronder wordt het gebruik van **Corrigeren** en **Annuleren** beschreven.
+Op de pagina **Geboekte inkoopfacturen** kunt u de knop **Corrigeren** of de knop **Annuleren** kiezen. Wanneer u een geboekte inkoopfactuur wijzigt of annuleert, wordt de corrigerende inkoopcreditnota toegepast op alle algemene grootboekposten en inventarisatieposten die werden gemaakt toen de aanvankelijke inkoopfactuur werd geboekt. Hiermee voert u een tegenboeking uit van de geboekte inkoopfactuur in uw financiële records en laat u de gecorrigeerde inkoopcreditnota staan voor uw auditcontrole. De video beschrijft het gebruik van **Corrigeren** en **Annuleren**.
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## Een geboekte inkoopfactuur corrigeren
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de geboekte inkoopfactuur die u wilt corrigeren.  
 
     > [!NOTE]  

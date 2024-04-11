@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf
-ms.date: 04/01/2021
+ms.date: 03/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ Veel bedrijven gaan over van een bedrijfsinkomstenmodel waarbij inkomsten worden
 
 ## Inkomsten registreren met een periodiek dagboek
 
-Een periodiek dagboek is een dagboek met specifieke velden voor het beheer van transacties die u regelmatig boekt met weinig of geen wijzigingen, zoals huur, abonnementen, elektriciteit of verwarming. Met de speciale velden voor periodieke transacties kunt u zowel vaste als variabele bedragen boeken. Als u een periodiek dagboek gebruikt, hoeft u de gegevens slechts éénmaal in te voeren. De ingevulde gegevens, zoals rekeningen, dimensies en dimensiewaarden, worden na het boeken in het dagboek bewaard. Later kunt u eventueel wijzigingen aanbrengen en de informatie opnieuw boeken.
+Een periodiek dagboek is een dagboek met specifieke velden voor het beheer van transacties die u regelmatig boekt met weinig of geen wijzigingen, zoals huur, abonnementen, elektriciteit of verwarming. Met de speciale velden voor periodieke transacties kunt u zowel vaste als variabele bedragen boeken. Als u een periodiek dagboek gebruikt, hoeft u de posten die worden geboekt slechts éénmaal in te voeren. De ingevulde gegevens, zoals rekeningen, dimensies en dimensiewaarden, worden na het boeken in het dagboek bewaard. Later kunt u eventueel wijzigingen aanbrengen en de informatie opnieuw boeken.
 
 ### Waarom deze optie gebruiken?
 
@@ -28,19 +28,19 @@ Met deze optie kunt u echter geen facturen afdrukken en verzenden in de standaar
 
 Zie [Werken met periodieke dagboeken](ui-work-general-journals.md#work-with-recurring-journals) voor meer informatie.  
 
-## Meerdere facturen maken op basis van een periodiek taakdagboek
+## Meerdere facturen maken op basis van een periodiek projectdagboek
 
-Het periodieke taakdagboek is een geavanceerder alternatief voor het dagboek. U definieert artikelen, resources en grootboekrekeningen, die voor elke taak moeten worden herhaald, en u specificeert de frequentie van herhaling.  
+Het periodieke taakdagboek is een geavanceerder alternatief voor het dagboek. U definieert artikelen, resources en grootboekrekeningen, die voor elke taak moeten worden herhaald, en u geeft de frequentie van herhaling op.  
 
-Na het plaatsen van een periodiek taakdagboek, kunt u meerdere facturen maken met de taak **Projectverkoopfactuur maken**. U kunt gemaakte facturen bekijken en boeken op de pagina **Verkoopfacturen**.
+Na het boeken van een periodiek projectdagboek kunt u meerdere facturen maken met de taak **Projectverkoopfactuur maken**. U kunt gemaakte facturen bekijken en boeken op de pagina **Verkoopfacturen**.
 
 ### Waarom deze optie gebruiken?
 
-Met deze optie volgt u de standaardfactureringsprocedure met alle voordelen daarvan, inclusief standaard- en klantlay-outs voor communicatievoorkeuren. U kunt ook prijzen voor elke taak afzonderlijk definiëren.
+Met deze optie volgt u de standaardfactureringsprocedure met alle voordelen daarvan, inclusief standaard- en klantlay-outs voor communicatievoorkeuren. U kunt ook prijzen voor elk project afzonderlijk definiëren.
 
-Voor elke nieuwe klant moet u echter een nieuwe taak maken en regels toevoegen aan het periodieke dagboek. 
+Voor elke nieuwe klant moet u echter een nieuw project maken en regels toevoegen aan het periodieke dagboek. 
 
-Zie voor meer informatie [Projectdagboekregels maken](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) en [Meerdere projectverkoopfacturen maken](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Zie voor meer informatie [Projectdagboekregels maken](projects-how-record-job-usage.md#to-create-project-journal-lines-manually) en [Meerdere projectverkoopfacturen maken](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices).
 
 ## Meerdere facturen maken op basis van periodieke verkoopregels
 
@@ -50,7 +50,7 @@ Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u p
 
 Met deze optie kunt u dezelfde terugkerende regels aan meerdere klanten toewijzen. U kunt een geldigheidsperiode definiëren voor de periodieke verkoopregels voor een specifieke klant. U kunt meerdere periodieke regels aan dezelfde klant toewijzen en ze worden allemaal op de factuur vermeld.
 
-Er is echter geen manier om vaste prijzen voor artikelen in te stellen, omdat [!INCLUDE[prod_short](includes/prod_short.md)] de werkelijke prijzen en kortingen zal gebruiken die geldig zijn op documentdatum, in een poging de beste combinatie te vinden die de laagste prijs oplevert.  
+Er is echter geen manier om vaste prijzen voor artikelen in te stellen, omdat [!INCLUDE[prod_short](includes/prod_short.md)] de werkelijke prijzen en kortingen zal gebruiken die geldig zijn op de documentdatum, in een poging de beste combinatie te vinden die de laagste prijs oplevert.  
 
 Zie voor meer informatie [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md).
 
@@ -75,7 +75,7 @@ Er zijn verschillende gerelateerde mogelijkheden in [!INCLUDE[prod_short](includ
 ### Verkoopraamcontracten
 
 Een verkoopraamcontract biedt een kader voor een langdurige overeenkomst tussen uw bedrijf en uw klant.
-Een raamcontract wordt meestal gemaakt als uw klant ermee heeft ingestemd grote hoeveelheden aan te kopen die in meerdere kleinere zendingen moeten worden geleverd gedurende een bepaalde periode. Inkoopraamcontracten hebben vaak betrekking op slechts één artikel met vooraf vastgestelde leverdatums. De belangrijkste reden voor het gebruik van een raamcontract in plaats van een verkooporder is dat de ingevoerde hoeveelheden op een raamcontract niet van invloed zijn op de artikelbeschikbaarheid, maar echter wel gebruikt kunnen worden voor planningsdoeleinden.
+Een raamcontract wordt meestal gemaakt als uw klant ermee heeft ingestemd grote hoeveelheden aan te kopen die in meerdere kleinere zendingen moeten worden geleverd gedurende een bepaalde periode. Inkoopraamcontracten hebben vaak betrekking op slechts één artikel met vooraf vastgestelde leverdatums. De belangrijkste reden voor het gebruik van een raamcontract in plaats van een verkooporder is dat de ingevoerde hoeveelheden op een raamcontract niet van invloed zijn op de artikelbeschikbaarheid, maar echter wel kunnen worden gebruikt voor planningsdoeleinden.
 
 #### Waarom deze optie gebruiken?
 
@@ -106,8 +106,8 @@ Op [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies 
 
 [Datumformules](ui-enter-date-ranges.md#use-date-formulas)  
 [Werken met periodieke dagboeken](ui-work-general-journals.md#work-with-recurring-journals)  
-[Projectdagboekregels maken](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Meerdere projectverkoopfacturen maken](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Projectdagboekregels maken](projects-how-record-job-usage.md#to-create-project-journal-lines-manually)  
+[Meerdere projectverkoopfacturen maken](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Periodieke verkoop- en inkoopregels maken](sales-how-work-standard-lines.md)  
 [Werken met servicecontracten en servicecontractoffertes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Meerdere servicecontracten factureren](service-how-create-invoices.md#to-invoice-several-service-contracts)  

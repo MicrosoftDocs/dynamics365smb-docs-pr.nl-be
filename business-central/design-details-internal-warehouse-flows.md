@@ -1,6 +1,6 @@
 ---
 title: 'Ontwerpdetails: Stromen voor productie, assemblage en projecten'
-description: 'Meer informatie over de stroom tussen opslaglocaties voor het picken van componenten en het opslaan van eindproducten voor assemblage, productie of projectorders.'
+description: 'Meer informatie over de stroom tussen opslaglocaties voor het picken van onderdelen en het opslaan van eindproducten voor assemblage, productie of projectorders.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 # Stromen voor productie, assemblage en projecten
 
-Interne stromen, zoals het picken van componenten en het opslaan van eindproducten voor assemblage, projecten en productieorders, zijn vergelijkbaar met inkomende of uitgaande stromen. Veel van de processen kunnen dus bekend voorkomen. Dit artikel bevat informatie over het werken met interne magazijnstromen met verschillende niveaus van complexiteit.
+Interne stromen, zoals het picken van onderdelen en het opslaan van eindproducten voor assemblage, projecten en productieorders, zijn vergelijkbaar met inkomende of uitgaande stromen. Veel van de processen kunnen dus bekend voorkomen. Dit artikel bevat informatie over het werken met interne magazijnstromen met verschillende niveaus van complexiteit.
 
 ## Overzicht van verschillende configuratieopties
 
@@ -21,8 +21,8 @@ U kunt magazijnfuncties op verschillende manieren configureren. Het is belangrij
 
 |Complexiteitniveau|Omschrijving|Instellingen|Opslaglocatie|Inkomende stroom van productieorder|Inkomende stroom van assemblageorder|Inkomende stroom van projecten|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|Geen specifieke magazijnactiviteit.|Boeken van orders en dagboeken.||Optioneel. Bepaald door de instelling **Opslaglocatiecode is verplicht**.|Productiejournaal -> Uitvoerjournaal</br><br/> **OPMERKING**: u kunt output boeken met behulp van **Productiejournaal**.|Assemblageorder|Opslag is niet van toepassing op projecten|  
-|Basis|Order-voor-order.|Opslag vereist, </br><br/> **Opmerking**: hoewel de instelling **Opslag vereist** heet, kunt u nog wel output vanuit de brondocumenten boeken op vestigingen waar u dit selectievakje hebt ingeschakeld. |Optioneel. Bepaald door de instelling **Opslaglocatiecode is verplicht**.|Productieorder - Voorraadopslag|Assemblageorder|Opslag is niet van toepassing op projecten|
+|Geen specifieke magazijnactiviteit.|Boeken van orders en dagboeken.||Optioneel. Bepaald door de instelling **Opslaglocatiecode is verplicht**.|Productiejournaal -> Uitvoerjournaal</br><br/> **OPMERKING**: u kunt output boeken met behulp van **Productiejournaal**.|Assemblyorder|Opslag is niet van toepassing op projecten|  
+|Basis|Order-voor-order.|Opslag vereist, </br><br/> **Opmerking**: hoewel de instelling **Opslag vereist** heet, kunt u nog wel output vanuit de brondocumenten boeken op vestigingen waar u dit selectievakje hebt ingeschakeld. |Optioneel. Bepaald door de instelling **Opslaglocatiecode is verplicht**.|Productieorder - Voorraadopslag|Assemblyorder|Opslag is niet van toepassing op projecten|
 |Geavanceerd|Geconsolideerde opslagactiviteiten voor meerdere brondocumenten.|Ontvangst vereist + Opslag vereist|Optioneel. Bepaald door de instelling **Opslaglocatiecode is verplicht**.|Productieorder(s) -> Outputdagboek|Assemblageorder(s) -> interne verplaatsingen | Opslag is niet van toepassing op projecten|
 |Geavanceerd|Hetzelfde als hierboven + gerichte pick-/opslagactiviteiten|Gerichte pick en opslag (afhankelijke schakelaars worden automatisch ingeschakeld)|Verplicht|Hetzelfde als hierboven|Hetzelfde als hierboven| Opslag is niet van toepassing op projecten|
 
@@ -32,7 +32,7 @@ Bij sommige configuraties kunt u geen speciale magazijndocumenten gebruiken om o
 
 |Complexiteitniveau|Omschrijving|Instellingen|Opslaglocatie|Uitgaande stroom van productieorder|Uitgaande stroom van assemblageorder|Uitgaande stroom van projecten|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|Geen specifieke magazijnactiviteit.|Boeken van orders en dagboeken.||Optioneel. Bepaald door de instelling **Opslaglocatiecode is verplicht**.|Productiejournaal -> Verbruiksdagboek </br><br/> **OPMERKING**: u kunt verbruik boeken met behulp van een **Productiejournaal**.|Assemblageorder|Project -> Projectdagboek|  
+|Geen specifieke magazijnactiviteit.|Boeken van orders en dagboeken.||Optioneel. Bepaald door de instelling **Opslaglocatiecode is verplicht**.|Productiejournaal -> Verbruiksdagboek </br><br/> **OPMERKING**: u kunt verbruik boeken met behulp van een **Productiejournaal**.|Assemblyorder|Project -> Projectdagboek|  
 |Basis|Order-voor-order.|Pick vereist. </br><br/> **Opmerking**: hoewel de instelling **Pick vereist** heet, kunt u nog wel output vanuit de brondocumenten boeken op vestigingen waar u dit selectievakje hebt ingeschakeld. <!-- ToDo Test prod output-->|Optioneel. Bepaald door de instelling **Opslaglocatiecode is verplicht**.|Productieorder - Voorraadpick|Assemblageorder -> Voorraadverplaatsing</br><br/>De **voorraadverplaatsing** kan alleen worden gebruikt met opslaglocaties.|Project -> Voorraadpick|
 |Geavanceerd|Geconsolideerde pickactiviteiten voor meerdere brondocumenten.|Verzending vereist + Pick vereist|Optioneel. Bepaald door de instelling Opslaglocatiecode is verplicht|Productieorder(s) -> Magazijnpick -> Verbruiksdagboek |Assemblageorders -> Magazijnpick| Project(en) -> Magazijnpick -> Projectdagboek |
 |Geavanceerd|Hetzelfde als hierboven + gerichte pick-/opslagactiviteiten|Gerichte pick en opslag (afhankelijke schakelaars worden automatisch ingeschakeld)|Verplicht|Hetzelfde als hierboven|Hetzelfde als hierboven| Gericht picken en opslaan wordt niet ondersteund voor projecten|
@@ -44,7 +44,7 @@ Net als bij de inkomende stroom kunt u bij sommige configuraties geen speciale m
 Zelfs als u geen speciale magazijnactiviteiten hebt, wilt u waarschijnlijk toch zaken als verbruik en productie-output bijhouden. De volgende artikelen bevatten informatie over het verwerken van ontvangsten voor brondocumenten.
 
 * [Verbruik en output registreren voor één vrijgegeven productieorderregel](production-how-to-register-consumption-and-output.md)
-* [Artikelen samenstellen](assembly-how-to-assemble-items.md)
+* [Artikelen assembleren](assembly-how-to-assemble-items.md)
 * [Verbruik of gebruik voor projecten registreren](projects-how-record-job-usage.md)
 
 ## Standaardmagazijnconfiguratie
@@ -83,9 +83,9 @@ Voor vestigingen die opslaglocaties gebruiken:
 
 ### Stromen voor projectmanagement in een basismagazijnconfiguratie
 
-Gebruik **Voorraadpick**-documenten om projectmateriaal in de stroom naar productiebeheer te picken.
+Gebruik **Voorraadpick**-documenten om projeconderdelen in de stroom naar productiebeheer te picken.
 
-Voor een vestiging die opslaglocaties gebruikt, definieert het veld **Naar - Opslaglocatiecode van project** op de vestiging de standaardstromen naar projectbeheer.
+Voor een vestiging die opslaglocaties gebruikt, worden met het veld **Naar - Opslaglocatiecode van project** op de vestiging de standaardstromen naar projectbeheer gedefinieerd.
 
 ## Geavanceerde magazijnconfiguraties  
 
@@ -121,7 +121,7 @@ Op voorraad assembleren maakt deel uit van de interne magazijnstroom en op order
 
 Gebruik **Magazijnpick**-documenten en de pagina **Pickvoorstel** om materiaal te picken in de stroom naar projectbeheer.
 
-Voor vestigingen die opslaglocaties gebruiken, definieert het veld **Naar - Opslaglocatiecode van project** op de vestiging de standaardstromen naar het projectgebied.
+Voor vestigingen die opslaglocaties gebruiken, worden met het veld **Naar - Opslaglocatiecode van project** op de vestiging de standaardstromen naar het projectgebied gedefinieerd.
 
 ## Zie ook  
 

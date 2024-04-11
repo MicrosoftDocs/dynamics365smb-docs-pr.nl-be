@@ -1,12 +1,12 @@
 ---
 title: Elektronische documenten ontvangen en converteren
-description: Dit onderwerp beschrijft hoe u elektronische documenten rechtstreeks van handelspartners of via een OCR-service ontvangt.
+description: Dit artikel beschrijft hoe u elektronische documenten rechtstreeks van handelspartners of via een OCR-service ontvangt.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
-ms.date: 06/23/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

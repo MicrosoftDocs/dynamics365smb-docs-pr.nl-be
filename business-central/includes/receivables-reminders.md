@@ -1,11 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 U kunt aanmaningen gebruiken om klanten te herinneren aan openstaande bedragen. U kunt aanmaningen ook gebruiken om aanmaningskosten zoals rente en boetes te berekenen en deze op te nemen op de aanmaning.
+
+> [!TIP]
+> De informatie in dit artikel is juist, maar beschrijft een grotendeels handmatig proces. [!INCLUDE [prod_short](prod_short.md)] biedt hulpmiddelen waarmee u de processen voor het maken, uitgeven en verzenden van aanmaningen kunt automatiseren. Het automatiseren van deze stappen kan u een aanzienlijke hoeveelheid tijd besparen die u aan incasso's besteedt. Ga voor meer informatie naar [Aanmaningen in incasso's automatiseren](../finance-automate-reminders.md).
 
 Voor u aanmaningen kunt maken, moet u aanmaningscondities instellen en deze toewijzen aan uw klanten. Zie voor meer informatie [De termijnen en niveaus van aanmaningen instellen](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] De inhoud van de pagina **Rentefactuurcondities** bepaalt of er rente in rekening wordt gebracht op de aanmaning.  
 

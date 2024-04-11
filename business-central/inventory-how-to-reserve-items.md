@@ -7,7 +7,7 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 09/19/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -79,13 +79,13 @@ Gebruik de pagina **Reserveringswerkblad** om binnenkomende goederen in bulk te 
 2. Kies de actie **Vraag ophalen** en geef vervolgens het soort vraag op dat u wilt reserveren uit de beschikbare voorraad.
 3. Vul de vereiste filters in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. Optioneel: als u de artikelen meteen wilt toewijzen, kiest u de actie **Toewijzen**.
-5. Kies op de pagina **Toewijzingsbeleid** een beleid voor elke stap
+5. Kies op de pagina **Toewijzingsbeleid** een beleid voor elke stap.
 
    |Toewijzingsbeleid  |Omschrijving  |
    |---------|---------|
    |Basis     | Wijst voorraad toe aan een vraag als er geen conflicten zijn en de vraag volledig kan worden gedekt. U hebt bijvoorbeeld verkooporder A met een hoeveelheid van 10 en een project met een hoeveelheid van 7. Als u er 20 op voorraad heeft, ontvangen beide aanvragen de volledige hoeveelheid. Als uw voorraad 12 is, wordt er geen voorraad toegewezen. U moet de hoeveelheid handmatig toewijzen.        |
    |Evenredig    | Verdeelt de beschikbare voorraad gelijkmatig over de vraag. U hebt bijvoorbeeld een verkooporder A met een hoeveelheid van 10 en een project met een hoeveelheid van 7. Als uw voorraadniveau 20 is, ontvangen beide vragen de volledige hoeveelheid. Als uw voorraad 12 is, krijgen beide vragen er 6.        |
-   |Op klantprioriteit|Verdeling op basis van het veld Prioriteit in de klantenkaart. In geval van onvoldoende hoeveelheden geeft het systeem prioriteit aan het leveren van klanten met de hoogste prioriteit.|
+   |Op klantprioriteit|Verdeling op basis van het veld **Prioriteit** op de pagina **Klantenkaart**. In gevallen van lage voorraadhoeveelheden levert Business Central eerst aan klanten met een hogere prioriteit.|
 
 6. Als u alle regels wilt reserveren waarvoor **Accepteren** is ingeschakeld, kiest u de actie **Reservering maken** .
     

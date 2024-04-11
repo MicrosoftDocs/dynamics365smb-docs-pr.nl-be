@@ -6,7 +6,7 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'procurement, supply, vendor order'
 ms.search.form: '460, 9307'
-ms.date: 04/01/2021
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -22,16 +22,16 @@ Producten kunnen zowel voorraadartikelen als services zijn. Zie voor meer inform
 
 Voor alle inkoopprocessen kunt u een goedkeuringswerkstroom opnemen, bijvoorbeeld om te vereisen dat grote inkopen worden goedgekeurd door de administrateur. Zie voor meer informatie [Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md).
 
-De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
-| Aan | Zie |
+| Tot | Zie |
 | --- | --- |
 | Maak een inkoopfactuur om uw overeenstemming met een leverancier vast te leggen om producten tegen bepaalde leverings- en betalingscondities te kopen. |[Inkopen vastleggen](purchasing-how-record-purchases.md) |
 |Maak een inkoopofferte om een offerteaanvraag van uw leverancier weer te geven, die u later in een inkooporder kunt omzetten.|[Offertes aanvragen](purchasing-how-request-quotes.md)|
 | Maak een inkoopfactuur voor alle of voor geselecteerde regels op een verkoopfactuur. |[Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md) |
 |Begrijpen wat er gebeurt wanneer u aankoopdocumenten boekt.|[Inkopen boeken](ui-post-purchases.md)|
 | Voer een actie op een onbetaalde, geboekte inkoopfactuur uit om automatisch een creditmemo te maken en de inkoopfactuur te annuleren of opnieuw te maken zodat u correcties kunt aanbrengen. |[Niet-betaalde verkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
-| Maak een inkoopcreditnota om een bepaalde geboekte inkoopfactuur terug te boeken om te weerspiegelen welke producten u naar de leverancier terugstuurt en welk betalingsbedrag u zult innen. |[Inkoopretouren of annuleringen verwerken](purchasing-how-register-new-vendors.md) |
+| Maak een inkoopcreditnota om een bepaalde geboekte inkoopfactuur terug te boeken om te weerspiegelen welke producten u naar de leverancier terugstuurt en welk betalingsbedrag u zult innen. |[Inkoopretouren of annuleringen verwerken](purchasing-how-process-purchase-returns-cancellations.md) |
 |Tref voorbereidingen om meerdere ontvangsten van dezelfde leverancier in één keer te factureren, door de ontvangsten in een factuur te combineren.|[Ontvangsten combineren op één factuur](purchasing-how-to-combine-receipts.md)|
 |Converteer bijvoorbeeld elektronische facturen van uw leveranciers naar inkoopfacturen in Business Central.|[Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Leer hoe [!INCLUDE[prod_short](includes/prod_short.md)] berekent wanneer u een artikel moet bestellen, zodat u het op een bepaalde datum ontvangt.|[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)|

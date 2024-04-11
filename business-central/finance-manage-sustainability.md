@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Overzicht van duurzaamheidsbeheer
+# Overzicht van duurzaamheidsbeheer
 
 >[!IMPORTANT]
 >Deze functie zal beschikbaar zijn in Business Central vanaf **releasewave 1 van 2024** en alle verwijzingslinks worden ingeschakeld zodra ze beschikbaar zijn.
@@ -43,7 +43,7 @@ Raadpleeg de volgende artikelen om aan de slag te gaan met Duurzaamheidsbeheer.
 |Procedure: uitstoot vastleggen | Gebruik dit artikel om te leren werken met alle soorten duurzaamheidsjournalen. |
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Financiën](finance.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Veelgestelde vragen over hulp bij bankrekeningreconciliatie (preview) met Copilot
 description: 'Deze veelgestelde vragen bieden informatie over de AI-technologie die wordt gebruikt voor het reconciliëren van bankrekeningen en afschriften in Business Central. Dit bevat belangrijke overwegingen en details over hoe AI wordt gebruikt, hoe het is getest en geëvalueerd en eventuele specifieke beperkingen.'
-ms.date: 11/07/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -13,11 +13,13 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Veelgestelde vragen over hulp bij bankrekeningreconciliatie (preview) met Copilot
+# Veelgestelde vragen over hulp bij bankrekeningreconciliatie met Copilot (preview)
+
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
+
+Deze veelgestelde vragen (FAQ) beschrijven de AI-impact van Copilot-hulp bij bankrekeningreconciliatie [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
-Deze veelgestelde vragen (FAQ) beschrijven de AI-impact van Copilot-hulp bij bankrekeningreconciliatie [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## Wat is hulp bij bankreconciliatie?
 

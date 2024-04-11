@@ -1,14 +1,14 @@
 ---
 title: Aanmaningen voor uitstaande saldi verzenden
-description: Lees hoe u een klant een herinnering stuurt over een achterstallige betaling.  verschuldigd is en vanwege de vertraging kosten of vergoedingen bij de betaling optellen.
+description: Lees hoe u een klant een herinnering stuurt over een achterstallige betaling.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '436, 437, 442, 431, 432, 434'
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Aanmaningen voor uitstaande saldi verzenden
 

@@ -60,9 +60,9 @@ Gebruik **Voorraadpick**-documenten om projectmateriaal in de stroom naar produc
 Voor locaties die opslaglocaties gebruiken, kunt u de stroom uitbreiden naar projecten met **Voorraadverplaatsing**-documenten.
 
 > [!NOTE]
-> De mogelijkheid om componenten voor taakplanningsregels te picken is toegevoegd aan [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 releasewave 2. Om de mogelijkheid te gebruiken, moet een beheerder **Functie-update: Voorraad- en magazijnpicks vanuit projecten inschakelen** inschakelen op de pagina **Functiebeheer**.
+> De mogelijkheid om componenten voor projectplanningsregels te picken is toegevoegd aan [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 releasewave 2. Om de mogelijkheid te gebruiken, moet een beheerder **Functie-update: Voorraad- en magazijnpicks vanuit projecten inschakelen** inschakelen op de pagina **Functiebeheer**.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de waarde in het veld **Resterend aantal** op de taakplanningsregel wanneer deze voorraadpicks maakt. Als u voorraadkeuzes voor taken wilt gebruiken, moet u de schakelaar **Gebruikslink toepassen** inschakelen op de pagina **Projectkaart** voor het project. Hiermee kunt u het gebruik volgen ten opzichte van uw plan. Als u de schakelaar niet aanzet, blijft het resterende aantal op **0** en wordt de voorraadkeuze niet gemaakt. Zie voor meer informatie [Bijhouden van projectgebruik instellen](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de waarde in het veld **Resterend aantal** op de projectplanningsregel wanneer deze voorraadpicks maakt. Als u voorraadkeuzes voor taken wilt gebruiken, moet u de schakelaar **Gebruikslink toepassen** inschakelen op de pagina **Projectkaart** voor het project. Hiermee kunt u het gebruik volgen ten opzichte van uw plan. Als u de schakelaar niet aanzet, blijft het resterende aantal op **0** en wordt de voorraadkeuze niet gemaakt. Zie voor meer informatie [Bijhouden van projectgebruik instellen](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
 ## Picken of verplaatsen voor productie, assemblage en projecten in een standaard magazijnconfiguratie
 

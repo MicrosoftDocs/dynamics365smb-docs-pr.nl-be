@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, sell, replenishment'
 ms.search.form: 172
-ms.date: 07/06/2022
+ms.date: 02/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -52,7 +52,7 @@ Wijs een of meer periodieke verkoopregels aan een klant toe zodat deze beschikba
 
 Als er periodieke verkoopregels voor de klant zijn, kunt u deze invoegen of laten invoegen op alle typen verkoopdocumenten, zoals een verkoopfactuur. Als u de **Altijd vragen**-opties hebt geactiveerd terwijl u periodieke verkoopregels toewijst aan klanten, wordt u geïnformeerd als er periodieke verkoopregels bestaan.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de verkoopfactuur waarin u een of meer standaardverkoopregels wilt invoegen.
 3. Kies de actie **Periodieke verkoopregels ophalen**.
 4. Kies op de pagina **Periodieke verkoopregels** de opzoekknop in het veld **Code** en selecteer een set standaardverkoopregels.

@@ -133,7 +133,7 @@ Als de gebruiker niet de vaste vereffening tussen de inkoopcreditnota en de inko
 
 De volgende tabel toont het resultaat van de waardeposten van het artikel als stap 2 in het vorige scenario zonder een vaste vereffening wordt uitgevoerd.  
 
-|Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffeningsnr. artikelpost|Gewaardeerd volgens gem. ink.-prijs|Artikelpostnr.|Postnr.|  
+|Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Kostenbedrag (werkelijk)||Gewaardeerd volgens gem. ink.-prijs|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Inkoop|1|200.00||Nr.|1|1|  
 |01-01-20|Inkoop|1|1000.00||Nee|2|2|  

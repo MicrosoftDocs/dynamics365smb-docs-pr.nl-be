@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
-ms.date: 07/06/2022
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -47,7 +47,7 @@ Wijs een of meer periodieke inkoopregels aan een leverancier toe zodat deze besc
 
 Als er periodieke inkoopregels voor de leverancier zijn, kunt u deze invoegen of automatisch laten invoegen op alle typen inkoopdocumenten, zoals een inkoopfactuur. Als u de **Altijd vragen**-opties hebt geactiveerd terwijl u periodieke inkoopregels toewijst aan leveranciers, wordt u geïnformeerd als er periodieke inkoopregels bestaan.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de inkoopfactuur waarin u een of meer standaardinkoopregels wilt invoegen.
 3. Kies de actie **Periodieke inkoopregels ophalen**.
 4. Kies op de pagina **Periodieke inkoopregels** de opzoekknop in het veld **Code** en selecteer een set standaardinkoopregels.

@@ -1,15 +1,15 @@
 ---
-title: Leveringsdatumberekening voor verkoop
+title: Berekening van leveringsdatum voor verkoop
 description: De toepassing berekent automatisch de datum waarop u een artikel moet bestellen zodat u het op een bepaalde datum in voorraad hebt en beschikbaar hebt voor picken.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/22/2022
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Leveringsdatumberekening voor verkoop
+# Berekening van leveringsdatum voor verkoop
 
 [!INCLUDE[prod_short](includes/prod_short.md)] berekent automatisch de vroegst mogelijke datum waarop een artikel op een verkooporderregel kan worden verzonden.
 
@@ -30,7 +30,7 @@ Als de artikelen op de verzenddatum kunnen worden gepickt, kan het verkoopproces
 
 ## De eerst mogelijke leverdatum berekenen
 
-Als u geen aangevraagde leverdatum op de verkooporderregel hebt opgegeven of als u niet aan de aangevraagde leverdatum kunt voldoen, wordt gezocht naar de vroegste datum waarop de artikelen beschikbaar zijn. Vervolgens wordt deze datum ingevuld op de regel in het veld **Verzenddatum** waarna de volgende formules worden gebruikt om te bepalen op welke datum de artikelen volgens planning worden verzonden en geleverd aan de klant.
+Als u geen aangevraagde leverdatum op de verkooporderregel hebt opgegeven of als u niet aan de aangevraagde leverdatum kunt voldoen, wordt gezocht naar de vroegste datum waarop de artikelen beschikbaar zijn. Vervolgens wordt deze datum ingevuld op de regel in het veld **Verzenddatum** waarna de volgende formules worden gebruikt om te bepalen op welke datum de artikelen volgens planning worden verzonden en op welke datum ze worden geleverd aan de klant:
 
 - *verzenddatum + verwerkingstijd uitgaand magazijn = geplande verzenddatum*
 - *geplande verzenddatum + verzendtijd = geplande leverdatum*

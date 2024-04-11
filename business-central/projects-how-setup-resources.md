@@ -2,13 +2,14 @@
 title: 'Projectresourcekosten, prijzen en capaciteit instellen'
 description: 'Als u resources wilt gebruiken en projectbeheer wilt mogelijk maken, geeft u kosten en prijzen voor afzonderlijke resources of resourcegroepen op en stelt u de resourcecapaciteit in.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '72, 76, 77, 203, 204'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Resources instellen voor projecten
 
@@ -44,7 +45,7 @@ U kunt meerdere resources in één resourcegroep combineren. De capaciteit en bu
 
 Om te berekenen hoeveel tijd een resource aan projecten kan besteden moet de capaciteit ervan eerst worden ingesteld als beschikbare tijd per periode op de werkagenda. Deze instelling wordt gebruikt als u projectplanningsregels invult die de resource bevatten. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resources** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Resources** in en kies vervolgens de gerelateerde koppeling.
 2. Open de desbetreffende resourcekaart en kies vervolgens de actie **Resourcecapaciteit**.
 3. Geef op de pagina **Resourcecapaciteit** in het veld **Weergeven per** de lengte van de periode op, zoals **Dag**, die wordt weergegeven in kolommen op het sneltabblad **Resourcecapaciteitsmatrix**.
 4. Geef voor elke resource op een regel voor elke periode in de kolommen het aantal uren op dat de resource beschikbaar is.
@@ -68,7 +69,7 @@ Naast de kosten die op de resourcekaart worden opgegeven, kunt u alternatieve ko
 
 Naast de prijs die op de resourcekaart wordt opgegeven, kunt u alternatieve prijzen voor elke resource instellen. Deze alternatieve prijzen kunnen voorwaardelijk zijn. Ze kunnen afhankelijk zijn van of de resource met een bepaald project of werksoort wordt gebruikt.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Resources** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Resources** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de resource waarvoor u een of meerdere alternatieve prijzen wilt instellen, en kies vervolgens de actie **Prijzen**.
 3. Vul op de pagina **Resourceprijzen** indien nodig de velden op een regel in.
 4. Herhaal stap 3 voor elke alternatieve resourceprijs die u wilt instellen.

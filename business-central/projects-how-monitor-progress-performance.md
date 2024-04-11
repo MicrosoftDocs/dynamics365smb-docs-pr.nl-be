@@ -1,21 +1,21 @@
 ---
-title: Voortgang en prestaties van projecten bewaken
+title: Projectvoortgang en prestaties bewaken
 description: Beschrijft hoe u een OHW-methode (onderhanden werk) kunt maken en OHW kunt berekenen om de financiële waarde van projecten in te schatten terwijl ze bezig zijn.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# Voortgang en prestaties van projecten bewaken
+# Projectvoortgang en prestaties bewaken
 
 Met de functie Onderhanden werk (OHW) kunt u de financiële waarde van lopende projecten in het grootboek schatten.
 
-Naarmate een project vordert, worden materialen en resources verbruikt en treden kosten op die naar het project moeten worden geboekt. In veel gevallen kunt u kosten voor een project boeken voordat u factureert. Maar als alleen kosten zijn geboekt, klopt uw financiële afschrift niet. Om de werkelijke waarde van de taak bij te houden, berekent u OHW en boekt u deze in het grootboek. Zie voor meer informatie [OHW-methoden](projects-understanding-wip.md).
+Naarmate een project vordert, worden materialen en resources verbruikt en treden kosten op die naar het project moeten worden geboekt. In veel gevallen kunt u kosten voor een project boeken voordat u factureert. Maar als alleen kosten zijn geboekt, klopt uw financiële afschrift niet. Om de werkelijke waarde van het project bij te houden, berekent u OHW en boekt u deze in het grootboek. Zie voor meer informatie [OHW-methoden](projects-understanding-wip.md).
 
 U kunt het OHW-bedrag berekenen op basis van de volgende zaken:
 
@@ -35,17 +35,17 @@ Maak een OHW-methode voor een project taken die voldoet aan de behoeften van uw 
 > [!NOTE]
 > Nadat u uw nieuwe methode hebt gebruikt om OHW-posten te maken, kunt u de methode niet meer verwijderen of wijzigen.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **OHW-methoden taak** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **OHW-methoden voor project** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Sluit de pagina.   
-4. Om van deze nieuwe methode de standaard te maken, kiest u het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **projectinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+4. Om van deze nieuwe methode de standaard te maken, kiest u het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Projectinstellingen** in en kiest u vervolgens de gerelateerde koppeling.  
 5. Kies in het veld **Standaard OHW-methode** de methode uit de lijst.
 
 ## Een OHW-methode voor een project definiëren
 
 Wanneer u een nieuw project maakt, moet u opgeven welke OHW-methode voor het project van toepassing is. In sommige gevallen is de OHW-methode voor een project al als standaard ingesteld.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **projecten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voert u **Projecten** in en kiest u vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).  
 3. Selecteer op de pagina **Projectkaart** in het veld **OHW-methode** een OHW-methode uit de lijst. Als een standaardmethode is gedefinieerd, kunt u indien nodig een andere optie selecteren.  
 
@@ -67,8 +67,8 @@ De volgende tabel beschrijft de volgende drie opties:
 | Veld | Omschrijving |
 |--|--|
 | **\<blank\>** | Leeg laten als de projecttaak deel uitmaakt van een groep taken. |
-| **Totaal** | Definieert de reeks of groep taken die zijn opgenomen in de berekening van OHW en verantwoording. Binnen de groep wordt elke projecttaak waarvoor **Taaksoort project** is ingesteld op **Boeken**, opgenomen in het OHW-totaal tenzij het veld **OHW-totaal** van de taak is ingesteld op **Uitgesloten**. |
-| **Uitgesloten** | Geldt alleen voor een taak met **Soort projecttaak** **Boeken**, in welk geval de taak niet wordt opgenomen wanneer OHW en verantwoording worden berekend. |
+| **Totaal** | Definieert de reeks of groep taken die zijn opgenomen in de berekening van OHW en verantwoording. Binnen de groep wordt elke projecttaak waarvoor **Soort projecttaak** is ingesteld op **Boeken**, opgenomen in het OHW-totaal tenzij het veld **OHW-totaal** van de taak is ingesteld op **Uitgesloten**. |
+| **Exclusief** | Geldt alleen voor een taak met **Soort projecttaak** **Boeken**, in welk geval de taak niet wordt opgenomen wanneer OHW en verantwoording worden berekend. |
 
 In het volgende voorbeeld zijn projecttaken verdeeld in twee OHW-totaalgroepen, waarmee wordt gedemonstreerd hoe het veld **OHW-totaal** werkt:
 
@@ -96,32 +96,32 @@ U zult merken:
 
 ## OHW berekenen
 
-U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor eindrapportage van een periode. U gebruikt hiervoor de batchverwerking **OHW voor project berekenen**.  
+U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor eindrapportage van een periode. Gebruik hiervoor de batchverwerking **OHW voor project berekenen**.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voert u **ohw voor project berekenen** in en kiest u vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **OHW voor project berekenen** in en kiest u vervolgens de gerelateerde koppeling.  
 2. Kies de actie **OHW berekenen**.
 3. Vul op de pagina **OHW voor project berekenen** indien nodig de velden in.
-4. Kies de knop **OK**.  
+4. Kies de knop **Ok**.  
 
 > [!NOTE]  
->   Met de batchverwerking wordt het OHW alleen berekend en niet naar het grootboek geboekt. Om het te boeken moet u de batchverwerking **OHW naar GB boeken** uitvoeren nadat u het OHW hebt berekend. Zie voor meer informatie de volgende procedure.
+> Met de batchverwerking voor het project wordt het OHW alleen berekend en niet naar het grootboek geboekt. Om het te boeken moet u de batchverwerking voor het project **OHW naar GB boeken** uitvoeren nadat u het OHW hebt berekend. Zie voor meer informatie de volgende procedure.
 
 ## OHW boeken
 
 Wanneer u OHW hebt berekend, kunt u het boeken naar balansrekeningen voor de einddatumrapportage. Hiervoor gebruikt u de batchverwerking **Project-OHW naar GB boeken**.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **project-ohw naar gb boeken** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Project-OHW naar GB boeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul op de pagina **Project-OHW naar GB boeken** indien nodig de velden in.  
-3. Kies de knop **OK**.
+3. Kies de knop **Ok**.
 
 ## Projectvoltooiingsposten berekenen en boeken
 
-Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiksboekingen en -facturering, moet u het project bijwerken om de **Status** in te stellen op **Voltooid**. Vervolgens moet u eventueel OHW tegenboeken dat naar het grootboek is geboekt.
+Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiksboekingen en -facturering, moet u de projectstatus bijwerken naar **Voltooid**. Vervolgens moet u eventueel OHW tegenboeken dat naar het grootboek is geboekt.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Projecten** in en kiest u vervolgens de gerelateerde koppeling.  
 2. Selecteer een open project en kies vervolgens de actie **Bewerken**.
 3. Selecteer in het veld **Status** de optie **Voltooid**.
-4. Volg de hulpstappen om OHW te berekenen en te boeken. Of volg stap 5 en 6 om dit handmatig te doen.  
+4. Volg de hulpstappen om de OHW te berekenen en te boeken, of volg stap 5 en 6 om dit handmatig te doen.  
 5. Kies de actie **OHW berekenen**.
 6. Vul op de pagina **OHW voor project berekenen** indien nodig de velden in.  
 
@@ -129,13 +129,13 @@ Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiks
 7. Kies de actie **Project-OHW naar GB boeken**.
 8. Vul op de pagina **Project-OHW naar GB boeken** indien nodig de velden in.  
 
-     De OHW-grootboekposten voor het project die worden gemaakt door het uitvoeren van de batchverwerking hebben nu een vinkje in het selectievak **Project voltooid** om aan te geven dat het voltooide posten zijn.
+     De OHW-grootboekposten voor het project die worden gemaakt door het uitvoeren van de batchverwerking hebben nu een vinkje in het selectievakje **Project voltooid** om aan te geven dat het voltooide posten zijn.
 
-## Projectposten bekijken
+## Projectposten weergeven
 
 Alle posten met betrekking tot een project worden in projectjournalen opgeslagen en sequentieel genummerd, te beginnen met 1. Vanuit het projectjournaal hebt u een overzicht van alle projectposten.    
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **projectjournalen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer een relevant journaal en kies vervolgens de actie **Projectposten**.
 
 De pagina **Projectposten** wordt geopend, waarin u de posten die zijn gekoppeld aan een project, kunt bekijken.  

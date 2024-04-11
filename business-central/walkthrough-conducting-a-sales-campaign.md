@@ -1,15 +1,15 @@
 ---
-title: 'Procedure: Een verkoopcampagne uitvoeren'
+title: Procedure voor een verkoopcampagne uitvoeren
 description: Dit overzicht geeft een gedetailleerd overzicht van alle taken die betrokken zijn bij het uitvoeren van een verkoopcampagne in Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/24/2021
+ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Procedure: Een verkoopcampagne uitvoeren
+# Procedure voor een verkoopcampagne uitvoeren
 
 Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zijn betrokken. Een belangrijk deel van het opzetten van een campagne bestaat uit het selecteren van de doelgroep voor de campagne. In [!INCLUDE[prod_short](includes/prod_short.md)] maakt u hiervoor met behulp van filters een segment, oftewel een groep contacten.  
 
@@ -47,7 +47,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 
  De marketingmedewerker van de marketingafdeling verzorgt het produceren, distribueren en plaatsen van het marketingmateriaal.  
 
- Het bedrijf heeft net een nieuw product geïntroduceerd met de naam Rome Guest Chair. Het product is onlangs gepromoot op de Office Futurus-beurs. Veel klanten waren zeer geïnteresseerd in het product en als onderdeel van de promotiecampagne krijgen klanten die tijdens de campagneperiode een Rome Guest Chair aanschaffen, een speciale campagneprijs aangeboden.  
+ Het bedrijf heeft een nieuw product geïntroduceerd met de naam Rome Guest Chair. Het product is onlangs gepromoot op de Office Futurus-beurs. Veel klanten waren zeer geïnteresseerd in het product en als onderdeel van de promotiecampagne krijgen klanten die tijdens de campagneperiode een Rome Guest Chair aanschaffen, een speciale campagneprijs aangeboden.  
 
  Een van de taken van de marketingmedewerker na de beurs is het invoeren van alle mogelijke klanten als contacten in het systeem.  
 
@@ -67,7 +67,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 4. Kies het veld **Statuscode** en selecteer de statuscode "1-PLAN". 
 5. Vul de velden **Begindatum** en **Einddatum** van de campagne in.  
 
-## De doelgroep selecteren
+## De doelgroep kiezen
 
  De marketingmanager maakt een segment om de contacten te selecteren waarmee hij of zij wil werken.  
  
@@ -115,7 +115,7 @@ De pagina **Segment** bevat nu een lijst met contacten op basis van het ingevoer
 1. Kies op de pagina **Segment** de actie **Segment**.
 2. Kies de actie **Ga terug**.
 
-De contactpersonen die u zojuist hebt verwijderd worden weer toegevoegd aan de lijst met contactpersonen.
+De contactpersonen die u hebt verwijderd worden weer toegevoegd aan de lijst met contactpersonen.
 
 ## Een segment aan een campagne koppelen
 

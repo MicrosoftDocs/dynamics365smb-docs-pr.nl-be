@@ -24,7 +24,7 @@ Het voortdurend kunnen bieden van service aan klanten vormt een belangrijk onder
 
 Daarnaast kunt u codering standaardiseren, contracten opstellen, een kortingsbeleid implementeren en routebeschrijvingen voor het servicepersoneel genereren.  
 
-Servicebeheer kent doorgaans twee aspecten: het configureren en instellen van het systeem en het gebruik ervan voor prijzen vaststellen, contracten en orders opstellen, servicepersoneel uitzenden en taken plannen.  
+Servicebeheer kent doorgaans twee aspecten: het configureren en instellen van het systeem en het gebruik ervan voor prijzen vaststellen, contracten en orders opstellen, servicepersoneel uitzenden en projecten plannen.  
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
 

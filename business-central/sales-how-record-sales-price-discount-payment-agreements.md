@@ -35,7 +35,7 @@ Om een basisprijsmodel te gebruiken hoeft u alleen een eenheidsprijs op te geven
 * Minimumhoeveelheid
 * Datums die de periode bepalen waarvoor de prijzen geldig zijn.
 
-Nadat u speciale prijzen heeft ingesteld, kan [!INCLUDE[prod_short](includes/prod_short.md)] de beste prijzen berekenen op verkoop- en inkoopdocumenten, en voor regels van taken en artikeljournalen. Meer informatie op [Beste prijsberekening](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Nadat u speciale prijzen heeft ingesteld, kan [!INCLUDE[prod_short](includes/prod_short.md)] de beste prijzen berekenen op verkoop- en inkoopdocumenten, en voor regels van projecten en artikeljournalen. Meer informatie op [Beste prijsberekening](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Voor verkoopkortingen kunt twee soorten instellen:
 
@@ -223,7 +223,7 @@ Om prijzen voor meerdere artikelen bij te werken moet u een nieuwe prijslijst ma
 
 ## Berekening van beste prijs
 
-Nadat u speciale prijzen en regelkortingen voor verkopen en aankopen hebt vastgelegd, berekent [!INCLUDE[prod_short](includes/prod_short.md)] de beste prijs op verkoop- en inkoopdocumenten en op taak- en artikeldagboekregels.
+Nadat u speciale prijzen en regelkortingen voor verkopen en aankopen hebt vastgelegd, berekent [!INCLUDE[prod_short](includes/prod_short.md)] de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels.
 
 De beste prijs is de laagst prijs met de hoogst regelkorting die toegestaan is op een bepaalde datum. In [!INCLUDE[prod_short](includes/prod_short.md)] worden de beste prijzen berekend wanneer eenheidsprijzen en de regelkortingspercentages worden opgeteld op document- en dagboekregels.
 

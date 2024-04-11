@@ -2,23 +2,27 @@
 title: Openstaande saldi innen
 description: 'Leer hoe u uw klanten herinnert aan openstaande betalingen. Een klantenoverzicht, een aanmaning of een rentefactuur versturen.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '6, 25, 440, 443, 448, 452'
-ms.date: 02/09/2022
-ms.author: bholtorf
+ms.date: 03/13/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Openstaande saldi innen
 
 Tijdens het beheer van tegoeden moet u ook controleren of openstaande bedragen op tijd worden betaald. Als klanten betalingen hebben openstaan, kunt u beginnen met het rapport **Rekeningoverzicht van klant** als een herinnering te sturen. U kunt ook aanmaningen sturen.
 
-U kunt aanmaningen gebruiken om klanten te herinneren aan openstaande bedragen. U kunt aanmaningen ook gebruiken om rentefacturen zoals rente en boetes te berekenen en deze op te nemen op de aanmaning. Gebruik rentefacturen als u klanten rente en aanmaningskosten wilt laten betalen zonder ze te herinneren aan openstaande bedragen.
+Gebruik aanmaningen om klanten te herinneren aan openstaande bedragen. U kunt aanmaningen ook gebruiken om rentefacturen zoals rente en boetes te berekenen en deze op te nemen op de aanmaning. Gebruik rentefacturen als u klanten rente en aanmaningskosten wilt laten betalen zonder ze te herinneren aan openstaande bedragen.
 
 ## Afschriften
 
-Vanaf de klantenkaart kunt u een overzicht maken met de transacties van die klant met u. Vervolgens stuurt u de klant het gegenereerde pdf-bestand. U kunt ook het rapport **Rekeningoverzicht van klant** gebruiken om uw klanten een overzicht van hun zaken met u te sturen. Het klantoverzicht kan naar Excel worden gestuurd voor verdere verwerking.  
+Vanaf de klantenkaart kunt u een overzicht maken met de transacties van die klant met u. Vervolgens kunt u een PDF-bestand genereren en naar de klant sturen. U kunt ook het rapport **Rekeningoverzicht van klant** gebruiken om uw klanten een overzicht van hun zaken met u te sturen. 
+
+> [!TIP]
+> Indien nodig kunt u de verklaring naar Excel sturen om wijzigingen aan te brengen.  
 
 ### Het rekeningoverzichten van de klant verzenden
 
@@ -42,7 +46,7 @@ Wanneer een klant niet op de vervaldatum betaalt, kunt u automatisch aanmaningsk
 
 Voordat u rentefacturen kunt maken, moet u condities instellen. Zie voor meer informatie [Rentefactuurcondities instellen](finance-setup-finance-charges.md).  
 
-U kunt handmatig rentefacturen maken voor een afzonderlijke klant en de regels automatisch in laten vullen. U kunt ook de functietaak **Rentefacturen maken** gebruiken om rentefacturen te maken voor alle of geselecteerde klanten met achterstallige saldo's.  
+U kunt handmatig rentefacturen maken voor een afzonderlijke klant en de regels automatisch in laten vullen. U kunt ook de functie **Rentefacturen maken** gebruiken om rentefacturen te maken voor alle of geselecteerde klanten met achterstallige saldo's.  
 
 Nadat u de rentefacturen hebt gemaakt, kunt u ze aanpassen. De tekst die wordt afgedrukt aan het begin of eind van de rentefactuur wordt bepaald door de rentefactuurtermijnen en kan worden bekeken in de kolom **Omschrijving** in de regels. Als een berekend bedrag automatisch is ingevoegd in de begin-, of eindtekst, wordt de tekst niet aangepast wanneer u regels verwijdert. In dat geval moet u de functie **Rentefactuurtekst bijwerken** gebruiken.  
 
@@ -59,9 +63,10 @@ Een rentefactuur is te vergelijken met een factuur. U kunt een kop handmatig en 
 
     > [!NOTE]
     > Hoewel ze worden vermeld heeft het selecteren van **Betaling** en **Creditnota** als **Documentsoort**-filters geen effect omdat de functie **Rentefactuurregels voorstellen** alleen positieve bedragen verwerkt.
-5.  Kies **OK** om de batchverwerking te starten.  
+5. Kies **OK** om de batchverwerking te starten.  
 
-### De rentefactuurteksten bijwerken  
+### De rentefactuurteksten bijwerken
+
 Het kan zijn dat u de begin- en eindtekst die u voor de rentefactuurcondities hebt ingesteld, wilt bijwerken. Als u dat doet op een moment waarop u de rentefacturen hebt gemaakt, maar nog niet hebt verzonden, kunt u de facturen bijwerken met de gewijzigde tekst.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 3 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rentefactuur** in en kies vervolgens de gerelateerde koppeling.  
@@ -70,9 +75,10 @@ Het kan zijn dat u de begin- en eindtekst die u voor de rentefactuurcondities he
 4. Klik op **OK** om de begin- en eindtekst bij te werken.  
 
 ### Rentefacturen verzenden
-Nadat u de rentefacturen hebt gemaakt en eventuele aanpassingen hebt gedaan, kunt u testrapporten afdrukken of de rentefacturen versturen.
 
-Wanneer een aanmaning is verzonden, worden de posten geboekt volgens uw specificaties op de pagina **Rentefactuurcondities**. Op basis van deze specificatie wordt bepaald welke rente en/of toeslagen worden geboekt naar de klantenrekening en het grootboek. De instelling op de pagina **Klantboekingsgroepen** bepaalt naar welke rekening de boekingen worden uitgevoerd.
+Nadat u de rentefacturen hebt gemaakt en eventuele aanpassingen hebt aangebracht, kunt u testrapporten afdrukken of de rentefacturen versturen.
+
+Wanneer een aanmaning wordt verzonden, worden de posten geboekt volgens uw specificaties op de pagina **Rentefactuurcondities**. Op basis van deze specificatie wordt bepaald welke rente en/of toeslagen worden geboekt naar de klantenrekening en het grootboek. De instellingen op de pagina **Klantboekingsgroepen** bepalen naar welke rekenen rente of kosten worden geboekt.
 
 Voor elke klantenpost op de rentefactuur wordt een post gemaakt op de pagina **Aanmanings-/rentefactuurposten**.
 
@@ -92,12 +98,16 @@ Daarnaast kunnen btw-posten worden gemaakt als u de rentefactuur verzendt.
 Een rentefactuur wordt afgedrukt of verzonden naar een opgegeven e-mailadres als PDF-bijlage.
 
 ### Een verzonden rentefactuur annuleren
+
 Als rentefacturen ten onrechte zijn uitgegeven, kunt u ze annuleren voordat ze worden verzonden. U kunt dit één voor één of als een batch doen.
+
 1. Selecteer op de pagina **Verzonden rentefacturen** een of meer regels voor verzonden rentefacturen die u wilt annuleren en kies vervolgens de actie **Annuleren**.
 2. Vul op de pagina **Verzonden rentefacturen annuleren** desgewenst de velden in en kies vervolgens de knop **OK**.
 
 ### Aanmanings- en renteposten weergeven  
-Zodra u een aanmaning verzendt, wordt op de pagina **Aanmanings-/renteposten** een aanmaningspost gemaakt voor elke aanmaningsregel met een klantenpost. U kunt vervolgens in een overzicht weergeven welke aanmaningsposten u voor een bepaalde klant hebt gemaakt.    
+
+Zodra u een aanmaning verzendt, wordt op de pagina **Aanmanings-/renteposten** een aanmaningspost gemaakt voor elke aanmaningsregel met een klantenpost. U kunt vervolgens in een overzicht weergeven welke aanmaningsposten u voor een bepaalde klant hebt gemaakt.
+
 1. Kies het pictogram ![Lampje dat de functie Vertel me 5 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de desbetreffende klantenkaart en kies vervolgens de actie **Posten**.
 3. Selecteer op de pagina **Klantenposten** de regel met de post waarvan u de aanmaningsposten wilt weergeven, en kies de actie **Aanmanings-/rentefactuurposten**.
@@ -113,6 +123,5 @@ Zodra u een aanmaning verzendt, wordt op de pagina **Aanmanings-/renteposten** e
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

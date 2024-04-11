@@ -1,7 +1,7 @@
 ---
 title: Veelgestelde vragen over verantwoorde AI voor Dynamics 365 Business Central
 description: 'Veelgestelde vragen over verantwoorde AI bieden informatie over de AI-technologie die wordt gebruikt in Business Central, samen met belangrijke overwegingen en details over hoe de AI wordt gebruikt, hoe deze werd getest en geëvalueerd, en eventuele specifieke beperkingen.'
-ms.date: 10/29/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -18,5 +18,9 @@ ms.collection:
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
+- [Analysehulp (preview)](faqs-analysis-assist.md)
 - [Hulp bij bankreconciliatie (preview)](faqs-bank-reconciliation.md)
+- [Chatten met Copilot (preview)](faqs-chat-with-copilot.md)
 - [Suggesties voor marketingteksten](faqs-marketing-text.md)
+- [Verkoopregels voorstellen met Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
+- [E-documenten toewijzen aan inkooporderregels met Copilot (preview)](map-edocuments-with-copilot.md)

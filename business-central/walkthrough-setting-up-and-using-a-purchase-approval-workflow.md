@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/13/2022
+ms.date: 03/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken
+# Procedure: Een goedkeuringswerkstroom voor inkoop instellen en gebruiken
 
 U kunt het proces van het goedkeuren van nieuwe of gewijzigde records, zoals documenten, dagboekregels en klantenkaarten automatiseren door werkstromen te maken met stappen voor de goedkeuringen in kwestie.
 
@@ -59,7 +59,7 @@ Wanneer u bent aangemeld als uzelf, stelt u Alicia in als een goedkeuringsgebrui
     |U||Geselecteerd|
     |ALICIA|U||
 
-### Meldingen instellen
+### Berichten instellen
 
 In deze procedure wordt de gebruiker door een interne notitie geïnformeerd over goed te keuren aanvragen. Goedkeuringsberichten kunnen ook per e-mail worden verzonden en u kunt een werkstroomreactiestap toevoegen die de afzender op de hoogte stelt wanneer een aanvraag is goedgekeurd of afgewezen. Meer informatie op [Opgeven wanneer en hoe gebruikers berichten ontvangen](across-how-to-specify-when-and-how-to-receive-notifications.md).
 

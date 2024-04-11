@@ -1,33 +1,46 @@
 ---
 title: Klanten synchroniseren
 description: Klanten importeren uit of exporteren naar Shopify
-ms.date: 06/06/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
-# Klanten synchroniseren
+# Klanten en bedrijven synchroniseren
 
 Wanneer u een order uit Shopify importeert, is verkrijgen van de informatie over de klant essentieel voor de verdere verwerking van het document in [!INCLUDE[prod_short](../includes/prod_short.md)]. Er zijn twee hoofdopties hiervoor en verschillende combinaties:
 
 * Gebruik een speciale klant voor alle orders.
-* Importeer de actuele klantinformatie uit Shopify. Deze optie is ook beschikbaar wanneer u klanten eerst exporteert naar Shopify vanuit [!INCLUDE[prod_short](../includes/prod_short.md)].
+* Importeer de klantinformatie uit Shopify. Deze optie is ook beschikbaar wanneer u klanten exporteert naar Shopify vanuit [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## Belangrijke instellingen bij het importeren van klanten uit Shopify
+Shopify stelt u in staat uw B2B- en DTC-activiteiten vanaf één plek te runnen met de kracht en het gemak van het alles-in-één-platform van Shopify. Shopify -connector werkt ook met verschillende smaken van e-Commerce.
+
+Shopify werkt met de twee entiteiten klant en bedrijf, maar [!INCLUDE[prod_short](../includes/prod_short.md)] heeft alleen de klantentiteit, wat van invloed is op de manier waarop synchronisatie werkt.
+
+Wanneer u DTC uitvoert, wordt de koper in Shopify aangemaakt als klant. Vervolgens wordt de klant geïmporteerd in [!INCLUDE[prod_short](../includes/prod_short.md)]  als een Shopify-klant, en gekoppeld of geconverteerd naar een klant.
+
+Als u B2B uitvoert, wordt de koper aangemaakt in Shopify als een klant die verbonden is aan een bedrijf. De klant wordt geïmporteerd in [!INCLUDE[prod_short](../includes/prod_short.md)] als een Shopify-klant en het bedrijf wordt geïmporteerd in [!INCLUDE[prod_short](../includes/prod_short.md)] als een Shopify-bedrijf en gekoppeld of omgezet in een klant.
+
+Om een ​​klant te exporteren uit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify, zijn de stappen enigszins verschillend, afhankelijk van wat u wilt doen:
+
+* Exporteer een klant als een Shopify-klant voor DTC.
+* Exporteer een klant als een bedrijf-en-klantenpaar voor de B2B-stroom.
+
+## Belangrijke instellingen bij het importeren van DTC-klanten uit Shopify
 
 Of u nu klanten uit Shopify in bulk importeert of samen met de import van orders, met de volgende instellingen kunt u het proces beheren:
 
 |Veld|Omschrijving|
 |------|-----------|
 |**Klant importeren vanuit Shopify**|Selecteer **Alle klanten** als u van plan bent klanten in bulk te importeren vanuit Shopify ofwel handmatig met behulp van de actie **Klanten synchroniseren** of via de taakwachtrij voor terugkerende updates. Ongeacht de selectie wordt de klantinformatie altijd samen met de order geïmporteerd. Het gebruik van deze informatie is echter afhankelijk van de **Shopify-klantsjablonen** en instellingen in het veld **Type klanttoewijzing**.|
-|**Type klanttoewijzing**|Definieer hoe u wilt dat de connector de toewijzing uitvoert.<br>- **Op e-mail/telefoon** als u wilt dat de connector de geïmporteerde Shopify-klanten toewijst aan een bestaande klant in [!INCLUDE[prod_short](../includes/prod_short.md)], met behulp van e-mailadres en telefoon.</br>- **Op factureringsadresinfo** als u wilt dat de connector het adres van de factuurontvanger gebruikt om de geïmporteerde Shopify-klant toe te wijzen aan een bestaande klant in [!INCLUDE[prod_short](../includes/prod_short.md)].</br>- Selecteer **Altijd de standaardklant nemen** als u wilt dat het systeem een klant uit het veld **Standaardklantnr.** gebruikt. |
+|**Type klanttoewijzing**|Definieer hoe u wilt dat de connector de toewijzing uitvoert.</br></br>- **Op e-mail/telefoon** als u wilt dat de connector met behulp van het e-mailaccount en telefoongegevens de geïmporteerde Shopify-klant toewijst aan een bestaande klant in Business Central.</br></br>- **Op factureringsadresinfo** als u wilt dat de connector het adres van de factuurontvanger gebruikt om de geïmporteerde Shopify-klant toe te wijzen aan een bestaande klant in Business Central.</br></br>Selecteer **Altijd de standaardklant nemen** als u wilt dat het systeem een klant uit het veld **Standaardklantnr.** gebruikt. |
 |**Shopify kan klanten bijwerken**| Selecteer dit veld als u wilt dat de connector de gevonden klanten bijwerkt wanneer de opties **Op e-mail/telefoon** of **Op factureringsadresinfo** zijn geselecteerd in het veld **Type klanttoewijzing**.|
 |**Automatisch onbekende klanten maken**| Selecteer dit veld als u wilt dat de connector ontbrekende klanten maakt wanneer de opties **Op e-mail/telefoon** of **Op factureringsadresinfo** zijn geselecteerd in het veld **Type klanttoewijzing**. Er wordt een nieuwe klant gemaakt met behulp van geïmporteerde gegevens en de **Klantensjablooncode** gedefinieerd op de pagina **Shopify-winkelkaart** of **Shopify-klantensjabloon**. Merk op dat de Shopify-klant minimaal één adres moet hebben. Bij orders die zijn gemaakt via het verkoopkanaal Shopify POS ontbreken vaak adresgegevens. Als deze optie niet is ingeschakeld, moet u een klant handmatig maken en deze koppelen aan de Shopify-klant.|
-|**Klantensjablooncode**|Dit veld wordt gebruikt samen met **Automatisch onbekende klanten maken**.<br>- Kies de standaardsjabloon die moet worden gebruikt voor automatisch gemaakte klanten. Zorg ervoor dat de geselecteerde sjabloon de verplichte velden bevat, zoals de **Bedrijfsboekingsgroep**, **Klantboekingsgroep** en btw- of belastinggerelateerde velden.<br>- U kunt sjablonen per land/regio definiëren op de pagina **Shopify-klantensjablonen**, wat handig is voor een juiste belastingberekening. <br>- Meer informatie op [Belastingen instellen](setup-taxes.md).|
+|**Klant-/bedrijfssjablooncode**|Gebruik dit veld samen met **Automatisch onbekende klanten maken**.</br></br> Kies de standaardsjabloon die moet worden gebruikt voor automatisch gemaakte klanten. Zorg ervoor dat de geselecteerde sjabloon de verplichte velden bevat, zoals de **Bedrijfsboekingsgroep**, **Klantboekingsgroep** en btw- of belastinggerelateerde velden.</br></br>U kunt sjablonen per land/regio definiëren op de pagina **Shopify-klantensjablonen**, wat handig is voor een juiste belastingberekening.</br></br>Meer informatie op [Belastingen instellen](setup-taxes.md).|
 
 ### Klantensjabloon per land/regio
 
@@ -43,19 +56,19 @@ U kunt voor elke klant het volgende doen met behulp van de **Shopify-klantensjab
 > [!NOTE]  
 > De land/regio-codes zijn ISO 3166-1 alpha-2-land/regio-codes. Meer informatie op [Land/regio-code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Klanten exporteren naar Shopify
+## Belangrijke instellingen bij het exporteren van DTC-klanten naar Shopify
 
 U kunt bestaande klanten in bulk exporteren naar Shopify. In elk geval worden een klant en één standaardadres gemaakt. U kunt het proces beheren met de volgende instellingen:
 
 |Veld|Omschrijving|
 |------|-----------|
-|**Klanten exporteren naar Shopify**|Selecteer deze optie als u alle klanten in bulk wilt exporteren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify. U kunt het handmatig doen, met behulp van de actie **Klanten synchroniseren** of automatisch, met behulp van een taakwachtrij voor periodieke updates.<br> Zorg er bij het exporteren van klanten met adressen die provincies/staten bevatten, voor dat **ISO-code** is ingevuld voor landen/regio's.|
-|**Kan Shopify-klanten bijwerken**|Deze optie wordt gebruikt samen met de instelling **Klant exporteren naar Shopify**. Schakel deze optie in als u later updates wilt genereren vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] voor klanten die al bestaan in Shopify.|
+|**Kan Shopify-klanten bijwerken**| Schakel deze optie in als u later updates wilt genereren vanuit Business Central voor klanten die al bestaan in Shopify.|
 
 De volgende vereisten zijn voor het exporteren van een klant:
 
 * De klant moet een geldig e-mailadres hebben.
-* Een land/regio is geselecteerd op de klantenkaart. Voor lokale klanten, met blanco land/regio, moet voor het land/regio dat is opgegeven op de pagina **Bedrijfsgegevens** een ISO-code zijn gedefinieerd.
+* Zorg er bij het exporteren van klanten met adressen die provincies/staten bevatten, voor dat **ISO-code** is ingevuld voor landen/regio's.|
+* Als land/regio is geselecteerd op de klantenkaart, gebruik dan de **ISO-code**. Voor lokale klanten, met blanco land/regio, gebruikt de Shopify-connector het land/de regio dat/die is opgegeven in de **Bedrijfsgegevens**.
 * Als de klant een telefoonnummer heeft, moet het nummer uniek zijn omdat Shopify geen tweede klant met hetzelfde telefoonnummer accepteert.
 * Als de klant een telefoonnummer heeft, moet dit het E.164-formaat hebben. Verschillende formaten worden ondersteund als ze een nummer vertegenwoordigen dat overal ter wereld kan worden gebeld. De volgende formaten zijn geldig:
 
@@ -85,8 +98,22 @@ Een klant in Shopify heeft ook een standaardadres. Het adres kan een bedrijf en 
 
 Voor adressen waar de regio/provincie wordt gebruikt, selecteert u **Code** of **Naam** in het veld **Regiobron** op de pagina **Shopify-winkelkaart**. De code of naam specificeert het type gegevens dat is opgeslagen in [!INCLUDE[prod_short](../includes/prod_short.md)] in het veld **Provincie**. Vergeet niet om klantsjablonen per land/regio te initialiseren, zodat de provinciecode/naam-toewijzing gereed is. 
 
+## DTC-klanten exporteren naar Shopify
 
-## Klanten synchroniseren
+### Initiële synchronisatie van klanten van Business Central naar Shopify
+
+1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-klanten** in en kies de gerelateerde koppeling.
+2. Kies de actie **Klant toevoegen**.
+3. Voer in het veld **Winkelcode** de code in. Als u het venster **Shopify-klanten** opent vanaf de pagina **Winkelkaart**, wordt de winkelcode automatisch ingevuld.
+4. Definieer desgewenst filters voor klanten. Filter bijvoorbeeld op Kand/-regiocode.
+5. Klik op **OK**.
+
+De resulterende klanten worden automatisch in Shopify gemaakt met adres.
+
+> [!NOTE]  
+> Bij de eerste synchronisatie van klanten uit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify, wordt niet rekening behouden met de instellingen voor **Kan Shopify-klanten bijwerken**.
+
+### Klanten synchroniseren
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de specifieke winkel waarvoor u klanten wilt synchroniseren.
@@ -95,6 +122,62 @@ Voor adressen waar de regio/provincie wordt gebruikt, selecteert u **Code** of *
 Of gebruik de actie **Synchronisatie van klanten starten** in het venster **Shopify-klanten** of zoek de batchverwerking **Klanten synchroniseren**.
 
 U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
+
+## B2B-bedrijven
+
+Als u B2B gebruikt in Shopify, kunt u behalve klanten ook bedrijven aanmaken. U kunt één of meerdere individuele klanten aan een bedrijf koppelen. U kunt ook betalingsvoorwaarden, locaties en catalogi definiëren.
+
+## Belangrijke instellingen bij het importeren van B2B-bedrijven uit Shopify
+
+Of u nu bedrijven uit Shopify in bulk importeert of samen met de import van orders, met de instellingen in de volgende tabel kunt u het proces beheren:
+
+|Veld|Omschrijving|
+|------|-----------|
+|**Bedrijf importeren vanuit Shopify**|Selecteer **Alle bedrijven** als u van plan bent klanten in bulk te importeren vanuit Shopify ofwel handmatig met behulp van de actie **Bedrijven synchroniseren** of via de taakwachtrij voor terugkerende updates. Ongeacht de selectie wordt de klantinformatie altijd samen met de order geïmporteerd. Het gebruik van deze informatie is echter afhankelijk van de **Shopify-bedrijfsjablonen** en instellingen in het veld **Type bedrijfstoewijzing**.|
+|**Type bedrijfstoewijzing**|Definieer hoe u wilt dat de connector de toewijzing uitvoert.</br></br>- **Op e-mail/telefoon** als u wilt dat de connector de geïmporteerde Shopify-bedrijventoewijst aan een bestaande klant in Business Central, met behulp van e-mailadres en telefoon van de hoofdcontactpersoon.</br></br>- Selecteer **Altijd de standaardbedrijf nemen** als u wilt dat het systeem het bedrijf uit het veld **Standaardbedrijfsnr.** . |
+|**Shopify kan bedrijf bijwerken**| Selecteer dit veld als u wilt dat de connector de gevonden klanten bijwerkt wanneer de optie **Op e-mail/telefoon** is geselecteerd in het veld **Type klanttoewijzing**.|
+|**Automatisch onbekende bedrijven maken**| Selecteer dit veld als u wilt dat de connector nieuwe klanten maakt wanneer de optie **Op e-mail/telefoon** is geselecteerd in het veld **Type bedrijfstoewijzing**. Er wordt een nieuwe klant gemaakt met de geïmporteerde gegevens en de **Klant-/bedrijfsjablooncode** die is gedefinieerd op de pagina **Shopify-winkelkaart** of **Shopify-klantensjabloon**.|
+|**Klant-/bedrijfssjablooncode**|Gebruik dit veld samen met **Automatisch onbekend bedrijf maken**.</br></br>- Kies de standaardsjabloon die moet worden gebruikt voor automatisch gemaakte klanten. Zorg ervoor dat de sjabloon de verplichte velden bevat, zoals de **Bedrijfsboekingsgroep**, **Klantboekingsgroep** en **Btw** of andere belastinggerelateerde velden.</br></br>- U kunt sjablonen per land/regio definiëren op de pagina **Shopify-klantensjablonen**, wat handig is voor een juiste belastingberekening.</br></br>Zie voor meer informatie [Belastingen instellen](setup-taxes.md).|
+
+> [!NOTE]  
+> Het bedrijf moet een hoofdcontactpersoon hebben. Anders gaat de connector verder naar bedrijf.
+> Er wordt slechts één oudste locatie geïmporteerd.
+> Alleen de hoofdcontactpersoon wordt geïmporteerd.
+
+## Belangrijke instellingen bij het exporteren van B2B-bedrijven naar Shopify
+
+U kunt bestaande klanten in bulk als een bedrijf exporteren naar Shopify. In elk geval worden een bedrijf, één standaardlocatie en één hoofdcontactpersoon aangemaakt. Het is ook mogelijk om een ​​catalogus aan te maken.
+
+|Veld|Omschrijving|
+|------|-----------|
+|**Kan Shopify-bedrijven bijwerken**| Schakel deze optie in als u later updates wilt genereren vanuit Business Central voor bedrijven die al bestaan in Shopify.|
+|**Standaardmachtigingen van contact**| Geef op welke rechten aan de hoofdcontactpersoon moeten worden toegewezen. U kunt kiezen tussen **Geen**, **Alleen bestellen** en **Locatiebeheerder**.|
+|**Automatisch catalogus maken**| Schakel deze optie in als u een catalogus wilt maken die alle producten bevat. Voor elk geëxporteerd bedrijf wordt een catalogus aangemaakt.|
+
+## B2B-bedrijf exporteren naar Shopify
+
+### Initiële synchronisatie van B2B-bedrijven uit Business Central naar Shopify
+
+1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") Voer **Shopify-bedrijf** in en kies de gerelateerde koppeling.
+2. Kies de actie **Bedrijf toevoegen**.
+3. Voer in het veld **Winkelcode** de code in. Als u het venster **Shopify-bedrijf** opent vanaf de pagina **Winkelkaart**, wordt de winkelcode automatisch ingevuld.
+4. Definieer desgewenst filters voor klanten. Filter bijvoorbeeld op Kand/-regiocode.
+5. Klik op **OK**.
+
+Het resulterende bedrijf worden automatisch in Shopify gemaakt.
+
+> [!NOTE]  
+> Bij de eerste synchronisatie van bedrijven uit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify, wordt niet rekening behouden met de instellingen voor **Kan Shopify-bedrijf bijwerken**.
+
+### B2B-bedrij synchroniseren
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer de specifieke winkel waarvoor u klanten wilt synchroniseren.
+3. Kies de actie **Bedrijf synchroniseren**.
+
+Of gebruik de actie **Bedrijf synchroniseren starten** op de pagina **Shopify-bedrijf** of zoek naar de batchverwerking **Bedrijf synchroniseren**.
+
+U kunt de volgende taken plannen om geautomatiseerd uit te voeren. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
 
 ## Zie ook
 

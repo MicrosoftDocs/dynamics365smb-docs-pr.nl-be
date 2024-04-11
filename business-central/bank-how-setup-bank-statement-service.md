@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Yodlee, feed, stream, payment process'
 ms.search.form: '1280, 1290'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# De Envestnet Yodlee Bank Feeds-service instellen
+# De service Envestnet Yodlee Bank Feeds instellen
 
 U kunt elektronische bankafschriften van uw bank importeren om snel de pagina **Betalingsreconciliatiedagboek** te vullen, zodat u betalingen kunt vereffenen en de bankrekening kunt reconciliëren. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
@@ -18,7 +18,7 @@ U kunt elektronische bankafschriften van uw bank importeren om snel de pagina **
 > Vanwege de nieuwe Payment Services Directive in Europa (PSD2) kunt u na 14 september 2019 niet langer automatisch bankafschriften van banken in het Verenigd Koninkrijk importeren in [!INCLUDE[prod_short](includes/prod_short.md)]. We onderzoeken de mogelijkheid om deze functie in de toekomst opnieuw aan te bieden.
 
 > [!NOTE]
-> De Envestnet Yodlee Bank Feeds-service wordt alleen ondersteund in de online versie van Business Central. Om deze functionaliteit on-premises te gebruiken moet u een cobrand-account verkrijgen van Envestnet en moet u code toevoegen om te integreren met de Yodlee API.
+> De Envestnet Yodlee Bank Feeds-service wordt alleen ondersteund in de online versie van Business Central. Deze functionaliteit wordt niet ondersteund voor on-premises versies van [!INCLUDE [prod_short](includes/prod_short.md)], of voor [!INCLUDE [prod_short](includes/prod_short.md)]-omgevingen die worden gehost op ingesloten ISV-toepassingsservices. Als u deze functionaliteit on-premises wilt gebruiken, moet u een cobrand-account verkrijgen van Envestnet en moet u code toevoegen om te integreren met de Yodlee API.
 >
 > De Envestnet Yodlee Bank Feeds-service wordt alleen ondersteund in de VS en Canada.
 > Alleen banken die in deze landen/regio's zijn gevestigd, worden ondersteund, ook al kunnen banken uit andere landen/regio's ook worden vermeld in het bankselectievenster van Envestnet Yodlee Bank Feeds in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,9 +41,10 @@ Als de bankfeedservice is ingeschakeld, kunt u een bankrekening instellen om elk
 > Als u de begeleide instelling Bedrijf instellen gebruikt, worden sommige stappen in de volgende procedures automatisch uitgevoerd wanneer u de instelling van de bedrijfsbankrekening uitvoert. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md).
 
 ## De bankfeedservice inschakelen
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
-2. Open de bankrekening die u voor de bankfeedservice wilt gebruiken.
-3. Selecteer op de pagina **Bankrekening** in het veld **Importindeling van bankafschrift** YODLEEBANKFEED.  
+2. Open de bankrekening die u voor de bankfeedservice gebruikt.
+3. Selecteer op de pagina **Bankrekeningkaart** in het veld **Importindeling van bankafschrift** YODLEEBANKFEED.  
 
 De bankfeedservice wordt ingeschakeld als u een bankrekening koppelt aan de gerelateerde online bankrekening. Zie de volgende procedure.  
 
@@ -51,6 +52,7 @@ De bankfeedservice wordt ingeschakeld als u een bankrekening koppelt aan de gere
 > Als u de begeleide instelling **Bedrijfsinstelling** gebruikt, schakelt u de service in door het selectievakje **Een bankfeedservice gebruiken** te selecteren. Zie voor meer informatie [Nieuwe bedrijven maken in Business Central](about-new-company.md).
 
 ## Een nieuwe gekoppelde bankrekening maken
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de betreffende bankrekening en kies vervolgens **Nieuwe gekoppelde bankrekening maken**. De pagina **Bankrekening koppelen** opent na een aantal ogenblikken.
 
@@ -65,7 +67,7 @@ De bankfeedservice wordt ingeschakeld als u een bankrekening koppelt aan de gere
     > Als u meer dan één online bankrekening bij de bank hebt, moet u er extra bankrekeningen voor maken in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie stap 8 t/m 10.  
 
     Nadat het proces is voltooid, wordt de naam van de bank in het deelvenster **Mijn rekeningen** op het tabblad **Gekoppeld** weergegeven. Het nummer tussen haakjes geeft aan hoeveel online bankrekeningen zijn gekoppeld.  
-7. Kies de knop **OK**.
+7. Kies de knop **Ok**.
 
     Als u slechts één online bankrekening koppelt, wordt de pagina **Bankrekeningkaart** geopend en wordt de naam van de online bankrekening weergegeven. In dit geval is de koppeling van de bankrekening voltooid. Alleen de bankrekening hoeft nog te worden ingesteld. Zie voor meer informatie [Bankrekeningen instellen](bank-how-setup-bank-accounts.md).
 
@@ -79,6 +81,7 @@ De bankfeedservice wordt ingeschakeld als u een bankrekening koppelt aan de gere
 10. Selecteer op de pagina **Bankenoverzicht** de bankrekening waarmee u wilt koppelen, en kies vervolgens de knop **OK**.
 
 ## Een bankrekening koppelen aan een online bankrekening
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel voor een bankrekening die niet is gekoppeld aan een online bankrekening, en kies vervolgens de actie **Koppelen aan online bankrekening**. De pagina **Koppeling aan online bankrekening** wordt geopend met de naam van de bank al ingevuld in het deelvenster **Rekening koppelen**.
 3. Kies de banknaam. Het deelvenster **Aanmelden** wordt geopend.
@@ -92,11 +95,13 @@ De bankfeedservice wordt ingeschakeld als u een bankrekening koppelt aan de gere
 Op de pagina **Bankenoverzicht** is het selectievakje **Gekoppeld** ingeschakeld.
 
 ## De inloggegevens voor een online bankrekening bewerken
+
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies de desbetreffende koppeling.  
 2. Kies de regel voor een bankrekening die is gekoppeld aan een online bankrekening, en kies vervolgens de actie **Online bankrekeninggegevens bewerken**.
 3. Werk de inloggegevens bij.
 
 ## Een bankrekening ontkoppelen
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de regel voor een gekoppelde bankrekening die u wilt ontkoppelen van de gerelateerde online bankrekening, en kies de actie **Online bankrekening ontkoppelen**.
 
@@ -104,12 +109,14 @@ Op de pagina **Bankenoverzicht** is het selectievakje **Gekoppeld** ingeschakeld
 > Als u **Ja** kiest in het bevestigingsdialoogvenster, wordt de koppeling met de online bankrekening verwijderd en worden de logdetails gewist. Om de bankrekening weer te koppelen aan de online bankrekening, moet u zich weer aanmelden bij de bank. Zie voor meer informatie het gedeelte “Een bankrekening koppelen aan een online bankrekening“.
 
 ## Koppeling aan bankrekening bijwerken
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de betreffende bankrekening en kies vervolgens de actie **Koppeling aan bankrekening bijwerken**.
 
 Als er problemen voor de gekoppelde bankrekeningen zijn op de pagina **Bankenoverzicht**, wordt de pagina **Bankrekening koppelen** geopend, waarin wordt aangegeven welke bankrekeningen problemen hebben. Problemen kunnen het beste worden opgelost door de online bankrekening te ontkoppelen en de koppeling vervolgens opnieuw te maken. Zie voor meer informatie het gedeelte “Een bankrekening koppelen aan een online bankrekening“.
 
 ## Automatisch importeren van bankafschriften inschakelen
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de regel voor een gekoppelde bankrekening, en kies vervolgens de actie **Instelling van automatische import van bankafschriften**.
 3. Geef op de pagina **Instelling van automatische import van bankafschriften** in het veld **Aantal opgenomen dagen** op hoe ver in het verleden u banktransacties wilt ophalen.
@@ -124,6 +131,7 @@ Op de pagina **Betalingsreconciliatiedagboek** worden elk uur nieuwe betalingen 
 > Transacties voor betalingen die reeds zijn geboekt als vereffend en/of gereconcilieerd op de pagina **Betalingsreconciliatiedagboek**, worden niet geïmporteerd.
 
 ## Zie ook
+
 [Bankieren instellen](bank-setup-banking.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

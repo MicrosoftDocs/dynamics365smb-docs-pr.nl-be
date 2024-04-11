@@ -132,9 +132,9 @@ U ziet in **Shopify-beheer** dat de order nu is gemarkeerd als *Afgehandeld*. U 
 
 ### Scenario
 
-Na een succesvolle snelle opening van uw nieuwe online winkel, wilt u dat uw huidige klanten deze bezoeken en beginnen met het plaatsen van orders. Afhankelijk van uw Shopify-plan en -proces kunt u B2B- en D2C-stromen proberen.
+Na een succesvolle snelle opening van uw nieuwe online winkel, wilt u dat uw huidige klanten deze bezoeken en beginnen met het plaatsen van orders. Afhankelijk van uw Shopify-plan en -proces kunt u B2B- en DTC-stromen proberen.
 
-### D2C-stappen
+### DTC-stappen
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)] doet u het volgende:
 

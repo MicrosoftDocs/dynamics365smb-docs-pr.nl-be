@@ -2,13 +2,13 @@
 title: Resourcegebruik en prijzen vastleggen en aanpassen
 description: 'Beschrijft hoe u het resourcegebruik of -verbruik kunt vastleggen dat is gekoppeld aan een project, om kosten, prijzen en werksoorten bij te houden en te beheren.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: how-to
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Resources gebruiken voor projecten
 
@@ -25,7 +25,7 @@ U wijst resources aan projecten toe door projectplanningsregels voor het project
 
 ## Resourceverbruik voor een project vastleggen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Open een relevante projectdagboekbatch en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Wanneer het dagboek compleet is, kiest u de actie **Boeken**.
 
@@ -75,6 +75,5 @@ Als u al alternatieve resourceprijzen hebt ingesteld voor bepaalde resources, ku
 [Inkoop](purchasing-manage-purchasing.md)         
 [Verkoop](sales-manage-sales.md)     
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

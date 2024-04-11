@@ -2,11 +2,12 @@
 title: Verbinding maken met Microsoft Dataverse (bevat video)
 description: Een verbinding instellen tussen Business Central en Dataverse. Bedrijven maken doorgaans de verbinding om gegevens te integreren met een andere Dynamics 365-bedrijfsapp.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 09/28/2023
-ms.author: bholtorf
+ms.date: 02/28/2024
 ms.service: dynamics-365-business-central
 ---
 # Verbinding maken met Microsoft Dataverse
@@ -30,6 +31,12 @@ Voordat u de verbinding maakt, moet u een aantal gegevens gereed hebben:
 > [!Note]
 > Deze stappen beschrijven de procedure voor [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > Als u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises gebruikt en geen Microsoft Entra-account gebruikt om verbinding te maken met [!INCLUDE [cds_long_md](includes/cds_long_md.md)], moet u ook een gebruikersnaam en wachtwoord van een gebruikersaccount opgeven voor de integratie. Dit account wordt de 'integratiegebruiker' genoemd. Als u een Microsoft Entra-account gebruikt, is het gebruikersaccount voor integratie niet vereist en wordt dit ook niet weergegeven. De integratiegebruiker wordt automatisch ingesteld en heeft geen licentie nodig.
+
+## Uw Business Central- en Dataverse-omgevingen koppelen
+
+Bedrijven willen hun gegevens veilig houden binnen hun privacygrenzen, en vooral wanneer hun bedrijfsbeheertoepassing kan worden geïntegreerd met andere apps. Door [!INCLUDE [prod_short](includes/prod_short.md)]- en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-omgevingen te koppelen, houdt u niet alleen rekening hiermee, maar biedt u uw beheerders ook een eenvoudigere manier om uw integraties met andere Dynamics 365-apps te maken en te onderhouden.
+
+In het [!INCLUDE [prod_short](includes/prod_short.md)]-beheercentrum kunt u uw [!INCLUDE [prod_short](includes/prod_short.md)]-omgeving aan uw [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-omgeving koppelen. [!INCLUDE [prod_short](includes/prod_short.md)] kan de informatie uit de koppeling gebruiken om de integratie met andere Dynamics 365-apps, zoals Sales en Field Service, eenvoudiger en veiliger te maken. De gekoppelde [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-omgevings-URL is bijvoorbeeld standaard beschikbaar op de pagina **Dataverse-verbinding instellen** en wanneer u de begeleide instelling **Dataverse-verbinding instellen** uitvoert.
 
 ## Verschillende valuta's toestaan
 

@@ -52,7 +52,7 @@ Gebruik **Magazijnpick**-documenten om assemblagematerialen naar het assemblageg
 Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar projectbeheer te picken.
 
 > [!NOTE]
-> De mogelijkheid om componenten voor taakplanningsregels te picken is toegevoegd aan [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 releasewave 2. Om de mogelijkheid te gebruiken, moet een beheerder **Functie-update: Voorraad- en magazijnpicks vanuit projecten inschakelen** inschakelen op de pagina **Functiebeheer**.
+> De mogelijkheid om componenten voor projectplanningsregels te picken is toegevoegd aan [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 releasewave 2. Om de mogelijkheid te gebruiken, moet een beheerder **Functie-update: Voorraad- en magazijnpicks vanuit projecten inschakelen** inschakelen op de pagina **Functiebeheer**.
 >
 > Projecten bieden geen ondersteuning voor geavanceerde configuraties waarbij de schakelaar **Gericht picken en opslaan** is ingeschakeld.
 
@@ -138,7 +138,7 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
     U kunt de artikelen nu naar het betreffende gebied brengen en het gebruik of verbruik van de gepickte materialen boeken door het verbruiksdagboek, de assemblageorder of het projectdagboek te boeken. De volgende artikelen bieden meer informatie:
 
     * [Verbruik en output registreren voor één vrijgegeven productieorderregel](production-how-to-register-consumption-and-output.md)
-    * [Artikelen samenstellen](assembly-how-to-assemble-items.md)
+    * [Artikelen assembleren](assembly-how-to-assemble-items.md)
     * [Verbruik of gebruik voor projecten registreren](projects-how-record-job-usage.md)
 
 ## Materialen afboeken voor productie in een geavanceerde magazijnconfiguratie

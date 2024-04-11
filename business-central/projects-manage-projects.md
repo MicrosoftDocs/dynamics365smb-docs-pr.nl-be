@@ -1,6 +1,6 @@
 ---
 title: Projectbeheer
-description: 'In dit onderwerp wordt beschreven hoe u resources, urenstaten en taken gebruikt om projecten en hun budgetten te beheren.'
+description: 'In dit onderwerp wordt beschreven hoe u resources, urenstaten en projecten gebruik om budgetten te beheren.'
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: projects
@@ -17,17 +17,17 @@ Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt gebruiken om proje
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Als u dit wilt doen | Zie |
+| Tot | Zie |
 | --- | --- |
 | Maak projecten, wijs projecttaken toe en bereid projectplanningsregels voor. |[Projecten maken](projects-how-create-jobs.md) |
 | Ken resources toe aan projecten en beheer resourceprijzen. |[Resources gebruiken voor projecten](projects-how-use-resources.md) |
 | Maak een urenstaat met geïntegreerde projecttaak en planningsregels en boek urenstaatregels naar een projectdagboek. |[Urenstaten gebruiken voor projecten](projects-how-use-time-sheets.md) |
-| Budgetteer voor resources die in projecten worden gebruikt en vergelijk werkelijk artikel- en resourcegebruik om de kwaliteit en de kostenefficiëntie van toekomstige projecten te verbeteren. |[Projectbudgetten maken](projects-how-manage-budgets.md) |
-| Bekijk en registreer gebruik voor verschillende delen van uw project. Dit wordt automatisch bijgewerkt wanneer u gegevens wijzigt en overbrengt vanuit projectplanningsregels of projectfacturen voor boeking. |[Gebruik voor projecten vastleggen](projects-how-record-job-usage.md) |
+| Budgetteer voor resources die in projecten worden gebruikt en vergelijk werkelijk artikel- en resourcegebruik om de kwaliteit en de kostenefficiëntie van toekomstige projecten te verbeteren. |[Projectbudgetten beheren](projects-how-manage-budgets.md) |
+| Bekijk en registreer gebruik voor verschillende delen van uw project. Dit wordt automatisch bijgewerkt wanneer u gegevens wijzigt en overbrengt vanuit projectplanningsregels of projectfacturen voor boeking. |[Gebruik voor project vastleggen](projects-how-record-job-usage.md) |
 | Koop voorraden voor een project, op inkooporders of facturen, en leg artikel- en tijdgebruik vast. |[Projectvoorraden beheren](projects-how-manage-project-supplies.md) |
 | Leer meer over OHW (onderhanden werk), een functie die zorgt voor correcte financiële afschriften waarmee u de financiële waarde kunt schatten van lopende projecten. |[OHW-methoden](projects-understanding-wip.md) |
-| Boek het verbruik van materiaal, resources en andere onkosten van OHW voor projecten om de financiële waarde ervan te controleren en juiste financiële afschriften te onderhouden, zelfs als u projectonkosten boekt voordat u het project factureert. |[Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md) |
-| Leg projectkosten vast voor resourceverbruik, materialen en aan het project gerelateerde inkopen op een doorlopende basis en factureer de klant wanneer het project is voltooid of op basis van een factureringsschema. |[Projecten factureren](projects-how-invoice-jobs.md) |
+| Boek het verbruik van materiaal, resources en andere onkosten van OHW voor projecten om de financiële waarde ervan te controleren en juiste financiële afschriften te onderhouden, zelfs als u projectonkosten boekt voordat u het project factureert. |[Projectvoortgang en prestaties bewaken](projects-how-monitor-progress-performance.md) |
+| Leg projectkosten vast voor resourceverbruik, materialen en aan het project gerelateerde inkopen op een doorlopende basis en factureer de klant wanneer het project is voltooid of op basis van een factureringsschema. |[Project factureren](projects-how-invoice-jobs.md) |
 
 ## Aan de slag met projecten
 
@@ -44,6 +44,5 @@ Projectbeheer is al gecompliceerd genoeg en leren hoe u projecten maakt en onder
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

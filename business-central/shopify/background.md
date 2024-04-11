@@ -1,7 +1,7 @@
 ---
 title: Taken uitvoeren op de achtergrond en periodiek
 description: Synchronisatie van gegevens configureren tussen Business Central en Shopify op de achtergrond.
-ms.date: 05/11/2022
+ms.date: 03/26/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -22,7 +22,7 @@ Het is efficiënt om sommige taken gelijktijdig en geautomatiseerd uit te voeren
 2. Selecteer de winkel waarvoor u synchronisatie op de achtergrond wilt uitvoeren om de **Shopify-winkelkaart** te openen.
 3. Zet de schakelaar **Synchronisatie op achtergrond toestaan** in.
 
-Wanneer de synchronisatieactie nu wordt geactiveerd, wordt u gevraagd te wachten in plaats van dat er een taak op de voorgrond wordt uitgevoerd. Wanneer het is voltooid, kunt u doorgaan naar de volgende actie. De taak wordt gemaakt als een **Taakwachtrij-item** en start onmiddellijk.
+Wanneer de synchronisatieactie nu wordt gestart, wordt u gevraagd te wachten in plaats van dat er een taak op de voorgrond wordt uitgevoerd. Wanneer de actie is voltooid, kunt u doorgaan naar de volgende actie. De taak wordt gemaakt als een **Taakwachtrij-item** en start onmiddellijk.
 
 ## Terugkerende taken plannen
 
@@ -37,7 +37,10 @@ U kunt de volgende terugkerende activiteiten plannen om geautomatiseerd te worde
 |**Voorraad synchroniseren**|Rapport 30102 Voorraad synchroniseren met Shopify|
 |**Afbeeldingen synchroniseren**|Rapport 30107 Shopify-afbeeldingen synchroniseren|
 |**Klanten synchroniseren**|Rapport 30100 Shopify-klanten synchroniseren|
+|**Bedrijven synchroniseren**|Rapport 30114 Shopify-bedrijven (B2B) synchroniseren|
 |**Betalingen synchroniseren**|Rapport 30105 Shopify-betalingen synchroniseren|
+|**Catalogi synchroniseren**|Rapport 30115 Shopify-catalogi (B2B) synchroniseren|
+|**Catalogusprijzen synchroniseren**|Rapport 30116 Shopify-catalogusprijzen synchroniseren (B2B)|
 
 > [!NOTE]
 > Sommige elementen kunnen door verschillende taken worden bijgewerkt, bijvoorbeeld wanneer u orders importeert, afhankelijk van de instelling op de **Shopify-winkelkaart**, kan het systeem ook klant- en/of productgegevens importeren en bijwerken. Vergeet niet om dezelfde taakwachtrijcategorie te gebruiken om conflicten te voorkomen.
@@ -50,6 +53,17 @@ Andere taken die nuttig kunnen zijn om de verdere verwerking van verkoopdocument
 U kunt het veld **Shopify-ordernr.** gebruiken om verkoopdocumenten te identificeren die zijn geïmporteerd uit Shopify.
 
 Ga voor meer informatie over het boeken van verkooporders in een batch naar [Een taakwachtrijitem maken voor het batchgewijs boeken van verkooporders](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
+
+## De status van synchronisatie controleren
+
+In **Rolcentrum bedrijfsmanager** biedt het gedeelte **Shopify-activiteiten** verschillende aanwijzingen waarmee u snel kunt vaststellen of er problemen zijn met Shopify-connector.
+
+- **Niet-toegewezen klanten** - Shopify-klant wordt geïmporteerd, maar wordt niet gekoppeld aan een corresponderende klantinvoer in [!INCLUDE [prod_short](../includes/prod_short.md)].
+- **Niet-toegewezen producten** - Shopify-product wordt geïmporteerd, maar wordt niet gekoppeld aan een corresponderende artikelinvoer in [!INCLUDE [prod_short](../includes/prod_short.md)].
+- **Niet-verwerkte orders** - Shopify-orders worden geïmporteerd, maar verkoopdocumenten in [!INCLUDE [prod_short](../includes/prod_short.md)] zijn niet gemaakt, vaak vanwege niet-toegewezen producten of klanten.
+- **Niet-verwerkte verzendingen** - geboekte verkoopverzendingen die afkomstig zijn van Shopify-orders worden niet gesynchroniseerd met Shopify.
+- **Verzendingsfouten** - Shopify-connector kan geboekte verkoopverzendingen niet synchroniseren met Shopify.
+- **Synchronisatiefouten** - er zijn mislukte taakwachtrij-items gerelateerd aan synchronisatie met Shopify.
 
 ## Zie ook
 

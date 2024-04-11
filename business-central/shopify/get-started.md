@@ -51,6 +51,10 @@ Voor bestaande instanties van [!INCLUDE[prod_short](../includes/prod_short.md)] 
 2. Kies de actie **Nieuw**.  
 3. Voer in het veld **Code** een code in die gemakkelijk te vinden is in [!INCLUDE[prod_short](../includes/prod_short.md)]. De naam kan bijvoorbeeld weerspiegelen wat een winkel verkoopt, zoals 'Meubels' of 'Koffie', of het land/regio die de winkel bedient.
 4. Voer in het veld **Shopify-URL** de URL in van de online winkel waarmee u verbinding maakt. Gebruik de volgende indeling: `https://{shop}.myshopify.com/`.
+
+   > [!TIP]
+   > U kunt de URL kopiëren van Shopify - Beheerder, zoals `https://admin.shopify.com/store/{shop}`, en met de connector wordt deze naar de vereiste indeling geconverteerd.
+
 5. Activeer de schakelaar **Geactiveerd** en bekijk en accepteer vervolgens de algemene voorwaarden.
 6. Als daarom wordt gevraagd, logt u in bij uw Shopify-account. Bekijk de privacyvoorwaarden en machtigingen en kies vervolgens de knop **App installeren**.
 
@@ -69,7 +73,7 @@ Herhaal stap 2-6 voor alle webshops die u wilt verbinden.
 
 Nu is uw online winkel verbonden met [!INCLUDE[prod_short](../includes/prod_short.md)]. In de volgende stappen definieert u hoe en wat u wilt synchroniseren.
 
-- [Artikelen synchroniseren](synchronize-items.md)
+- [Artikelen en voorraad synchroniseren](synchronize-items.md)
 - [Klanten synchroniseren](synchronize-customers.md)
 - [Orders synchroniseren](synchronize-orders.md)
 

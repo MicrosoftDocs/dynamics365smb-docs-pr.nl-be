@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: direct shipment
-ms.date: 04/01/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Doorverzendingen uitvoeren
+# Doorverzendingen maken
 
 Een doorverzending is de directe verzending van artikelen van een van uw leveranciers naar een van uw klanten.
 

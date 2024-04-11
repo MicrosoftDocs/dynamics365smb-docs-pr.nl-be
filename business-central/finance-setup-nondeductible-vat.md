@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Niet-aftrekbare btw instellen
 
-Niet-aftrekbare btw is de btw die een koper moet betalen, maar die niet aftrekbaar is van de eigen btw-aansprakelijkheid van de koper. Bedrijven kunnen btw meestal terugkrijgen op de aankoop van goederen en diensten die verband houden met hun bedrijfsactiviteiten. In sommige situaties betaalt een bedrijf echter btw die niet aftrekbaar is. Deze situaties houden meestal verband met de lokale regelgeving en kunnen tussen landen/regio's verschillen. Het model van het gebruik van niet-aftrekbare of gedeeltelijk aftrekbare btw is echter vergelijkbaar. U kunt de proportionele btw gebruiken om de btw te berekenen wanneer er sprake is van aftrekbare en niet-aftrekbare btw.
+Niet-aftrekbare btw is de btw die een koper moet betalen, maar die niet aftrekbaar is van de eigen btw-aansprakelijkheid van de koper. Bedrijven kunnen btw meestal terugkrijgen op de aankoop van goederen en diensten die verband houden met hun bedrijfsactiviteiten. In sommige situaties betaalt een bedrijf echter btw die niet aftrekbaar is. Deze situaties houden meestal verband met de lokale regelgeving en kunnen tussen landen/regio's verschillen. Het model voor het gebruik van niet-aftrekbare of gedeeltelijk aftrekbare btw is echter vergelijkbaar. U kunt de proportionele btw gebruiken om de btw te berekenen wanneer er sprake is van aftrekbare en niet-aftrekbare btw.
 
 Over het algemeen kan de btw voor sommige aankopen niet worden afgetrokken vanwege de volgende factoren:
 
 - **Het type goederen of diensten dat wordt gekocht** – btw is geheel of gedeeltelijk niet-aftrekbaar op grond van een wettelijke bepaling over goederen zoals auto's, mobiele telefoons en voedsel dat in restaurants wordt gekocht.
 - **Gedeeltelijk aftrekbare pro rata btw**: btw wordt pro rata berekend volgens de verhouding tussen de verkooptransacties waarvoor btw verschuldigd is en alle verrichtingen die zijn uitgevoerd. Btw die dit percentage overschrijdt, is niet aftrekbaar.
 
-Omdat het moeilijk kan zijn om te weten waar en hoe een artikel wordt gebruikt, moet u op basis van historische gegevens contact opnemen met de lokale belastingdienst in uw land/regio om te bepalen of een bepaald percentage van de btw aftrekbaar is. 
+Omdat het lastig kan zijn om te weten waar en hoe een artikel wordt gebruikt, kunt u contact opnemen met de lokale belastingdienst in uw land/regio. Zij kunnen u helpen bepalen of u op basis van historische gegevens een bepaald percentage van de btw kunt aftrekken.
 
 > [!IMPORTANT]
 > Deze wereldwijde functie is beschikbaar in alle landen/regio's met ingeschakelde btw, **behalve in België, Italië en Noorwegen**. Deze lokalisaties hebben al een bestaande lokale functie en zullen in de toekomst worden bijgewerkt. Gebruik deze functie niet in deze landen/regio's omdat de upgradeprocedure niet bestaat.
@@ -34,7 +34,7 @@ Omdat het moeilijk kan zijn om te weten waar en hoe een artikel wordt gebruikt, 
     > [!IMPORTANT]
     > Nadat u niet-aftrekbare btw hebt ingeschakeld, kunt u deze niet meer uitschakelen, omdat de functie wijzigingen in gegevens kan bevatten en een upgrade van sommige databasetabellen kan initiëren. Microsoft raadt ten zeerste aan om deze functie eerst in te schakelen en te testen in de sandbox-omgeving voordat u deze inschakelt in de productieomgeving.
 
-3. Configureer hoe het systeem niet-aftrekbare btw-waarden zal behandelen.
+3. Configureer hoe in [!INCLUDE [prod_short](includes/prod_short.md)] niet-aftrekbare btw-waarden worden behandeld.
 
     1. Geef in het veld **Gebruiken voor artikelkosten** aan of de niet-aftrekbare btw moet worden toegevoegd aan de artikelkosten wanneer u artikelen koopt. Anders heeft de niet-aftrekbare btw geen invloed op de artikelprijs en wordt het volledige bedrag alleen op grootboekniveau geboekt.
     2. Schakel het selectievakje **Gebruiken voor kosten van vaste activa** in om de niet-aftrekbare btw toe te voegen aan de kosten van vaste activa wanneer u nieuwe vaste activa aanschaft. Anders heeft de niet-aftrekbare btw geen invloed op de VA-kosten en wordt het volledige bedrag alleen op grootboekniveau geboekt.

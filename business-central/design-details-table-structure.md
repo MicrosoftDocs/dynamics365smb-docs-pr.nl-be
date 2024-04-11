@@ -9,10 +9,12 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ontwerpdetails: Tabelstructuur
+# Ontwerpdetails: tabelstructuur
+
 Om te begrijpen hoe dimensieposten worden opgeslagen en geboekt, is het belangrijk om de tabelstructuur te begrijpen.  
 
 ## Tabel 480, Dimensiesetpost  
+
 U kunt deze tabel niet wijzigen. Nadat gegevens naar de tabel zijn geschreven, kunt u ze niet meer verwijderen of wijzigen.
 
 |Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
@@ -20,14 +22,14 @@ U kunt deze tabel niet wijzigen. Nadat gegevens naar de tabel zijn geschreven, k
 |1|**Id**|Integer|>0,0 is gereserveerd voor de lege dimensieset. Verwijst naar veld 3 in tabel 481.|  
 |2|**Dimensiecode**|Code 20|Tabelrelatie met tabel 348.|  
 |3|**Dimensiewaardecode**|Code 20|Tabelrelatie met tabel 349.|  
-|4|**Dimensiewaarde-id**|Geheel getal|Verwijst naar veld 12 in tabel 349. Het is de secundaire sleutel die wordt gebruikt wanneer tabel 481 wordt doorlopen.|  
+|4|**Dimensiewaarde-id**|Integer|Verwijst naar veld 12 in tabel 349. Het is de secundaire sleutel die wordt gebruikt wanneer tabel 481 wordt doorlopen.|  
 |5|**Dimensienaam**|Tekst 30|CalcField. Opzoeken in tabel 348.|  
 |6|**Dimensiewaardenaam**|Tekst 30|CalcField. Opzoeken in tabel 349.|  
 
 ## Tabel 481, Boomstructuurpunt dimensieset  
 U kunt deze tabel niet wijzigen. De tabel wordt gebruikt om te zoeken naar een dimensieset. Als de dimensieset niet wordt gevonden, wordt een nieuwe set gemaakt.  
 
-|Veldnr.|Veldnaam|Gegevenssoort|Opmerking|  
+|Veldnr.|Veldnaam|Gegevenstype|Opmerking|  
 |---------------|----------------|---------------|-------------|  
 |1|**Bovenliggende dimensieset-id**|Geheel getal|0 voor knooppunt bovenste niveau.|  
 |2|**Dimensiewaarde-id**|Geheel getal|Tabelrelatie met veld 12 in tabel 349.|  
@@ -166,7 +168,7 @@ Veld 480 bestaat in de volgende buffertabellen.
 |Tabelnr.|Tabelnaam|  
 |---------------|----------------|  
 |49|**Factuurboekingsbuffer**|  
-|212|**Projectboekingsbuffer**|  
+|212|**Boekingsbuffer van project**|  
 |372|**Betalingsbuffer**|  
 |382|**K/L-postbuffer**|  
 |461|**Regelbuffer vooruitbetalingsfactuur**|  

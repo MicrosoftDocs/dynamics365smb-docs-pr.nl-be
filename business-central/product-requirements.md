@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 12/13/2023
+ms.date: 03/11/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -35,7 +35,7 @@ We raden u aan een stabiele kanaalversie van een webbrowser te gebruiken, omdat 
 
 ## Outlook
 
-**Outlook-toepassingen**: als u [!INCLUDE[prod_short](includes/prod_short.md)] online wilt gebruiken als uw zakelijke Postvak IN in Outlook, hebt u Outlook 2019 of hoger of Outlook op het web nodig. Uw organisatie moet ook Microsoft 365 gebruiken. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt. 
+**Outlook-toepassingen**: als u [!INCLUDE[prod_short](includes/prod_short.md)] online wilt gebruiken als uw zakelijke Postvak IN in Outlook, hebt u Outlook 2021 of hoger of Outlook op het web nodig. Uw organisatie moet ook Microsoft 365 gebruiken. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] online niet als uw bedrijfsinbox in Outlook gebruiken als uw organisatie Exchange Server on-premises gebruikt. 
 
 **Browsers:** wanneer u [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt als uw zakelijke Postvak IN in Outlook in een browser, is het voor de invoegtoepassing nodig dat op uw computer een van de ondersteunde browsers is geïnstalleerd die eerder in dit artikel zijn vermeld. 
 
@@ -51,7 +51,7 @@ We raden u aan een stabiele kanaalversie van een webbrowser te gebruiken, omdat 
 
 ## Excel
 
-**Bewerken Excel:** als u de Excel-invoegtoepassing wilt gebruiken om wijzigingen in Excel aan te brengen en de wijzigingen naar [!INCLUDE[prod_short](includes/prod_short.md)] terug te sturen, hebt u Excel 2019 of hoger nodig. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
+**Bewerken Excel:** als u de Excel-invoegtoepassing wilt gebruiken om wijzigingen in Excel aan te brengen en de wijzigingen naar [!INCLUDE[prod_short](includes/prod_short.md)] terug te sturen, hebt u Excel 2021 of hoger nodig. Zie voor meer informatie [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="TAC"></a> Het beheercentrum van Business Central gebruiken
 

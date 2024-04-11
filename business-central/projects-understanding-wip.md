@@ -2,13 +2,14 @@
 title: OHW-methoden gebruiken om projectvooruitgang te berekenen en te registreren
 description: 'Beschrijft de verschillende OHW-methoden die u kunt gebruiken om financiële gegevens voor lopende projecten te boeken, te controleren en te berekenen die bezig zijn.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: 'work in process, work in progress, calculate project WIP'
-ms.search.form: 1010
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords: 'work in process, work in progress, calculate project WIP'
+ms.search.form: '1010,'
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # WIP-methoden in projectbeheer begrijpen
 

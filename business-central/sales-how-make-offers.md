@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
-ms.date: 07/12/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Verkoopoffertes maken
 
-U maakt een verkoopofferte om uw aanbod aan een klant of prospect vast te leggen om producten tegen bepaalde leverings- en betalingscondities te verkopen. U kunt de verkoopofferte aan de klant verzenden om het aanbod te bevestigen. U kunt het document als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf laten invullen met een overzicht van de offerte. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
+U maakt een verkoopofferte om uw aanbod aan een klant of prospect vast te leggen om producten tegen bepaalde leverings- en betalingscondities te verkopen. U kunt de verkoopofferte aan de klant verzenden om het aanbod te bevestigen. U kunt het document als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf laten invullen met een overzicht van de offerte. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md#to-send-documents-by-email) voor meer informatie.
 
 Terwijl u met de klant of prospect onderhandelt, kunt u zo veel als u wenst de verkoopofferte wijzigen en opnieuw zenden. Als de klant de offerte accepteert, zet u de verkoopofferte om in een verkoopfactuur of een verkooporder waarin u de verkoop verwerkt. Zie [Verkopen factureren](sales-how-invoice-sales.md) of [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 
@@ -45,7 +45,7 @@ In de meeste gevallen stuurt u verkoopoffertes naar potentiële klanten. Vaak he
     Als u terugkerende verkoopregels voor de klant hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de order door de actie **Terugkerende verkoopregels ophalen** te kiezen.  
 
 4. Selecteer op het sneltabblad **Regels** in het veld **Soort** het type product, kosten of transactie die u wilt boeken voor de klant met deze verkoopregel.
-5. Voer in het veld **Nr.** een record die u wilt boeken op basis van de waarde in het veld **Soort**.
+5. In het veld **Nr.** een record die u wilt boeken op basis van de waarde in het veld **Soort**.
 
     Laat het veld **Nr.** leeg in de volgende gevallen:
     - Als de regel voor een opmerking is. Schrijf de opmerking in het veld **Omschrijving**.
@@ -73,7 +73,7 @@ In de meeste gevallen stuurt u verkoopoffertes naar potentiële klanten. Vaak he
     > Als u het veld **Offerte geldig tot datum** automatisch wilt laten invullen met een bepaald aantal dagen na het maken van de offerte, kunt u het veld **Berekening van geldigheid van offerte** op de pagina **Verkopen en Klanten** invullen.
 
 10. Wanneer de verkoopofferteregels zijn ingevuld, kiest u de actie **Verzenden via e-mail**.
-11. Vul op de pagina **E-mail verzenden** eventuele overige velden in en controleer de ingesloten verkoopofferte. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md) voor meer informatie.
+11. Vul op de pagina **E-mail verzenden** eventuele overige velden in en controleer de ingesloten verkoopofferte. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md#to-send-documents-by-email) voor meer informatie.
 12. Als het contact de offerte accepteert, kiest u de actie **Order maken**.  
 
     Als uw organisatie de voorkeur geeft aan dat proces, kiest u de actie **Factuur maken**.  
@@ -95,7 +95,7 @@ De conversie verwijdert de verkoopofferte uit de database. Een verkoopfactuur of
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Documenten verzenden via e-mail](ui-how-send-documents-email.md)  
+[Documenten verzenden via e-mail](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Documenten archiveren](across-how-to-archive-documents.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

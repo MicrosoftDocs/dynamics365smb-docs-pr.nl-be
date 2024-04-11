@@ -7,11 +7,11 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: stock
 ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390'
-ms.date: 09/21/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Beschikbaarheid van artikelen weergeven
+# De beschikbaarheid van artikelen weergeven
 
 Vanuit de context van een zakelijke taak kunt u geavanceerde informatie krijgen over waar en wanneer een artikel beschikbaar is, zoals wanneer u met een klant praat over een leverdatum.
 
@@ -57,9 +57,9 @@ U geeft de beschikbaarheid van een artikel in de loop van de tijd voor bepaalde 
 
 ## De beschikbaarheid weergeven van een artikel op de vestigingen waar het is opgeslagen
 
-U geeft de beschikbaarheid van een artikel op de verschillende vestigingen waar het is opgeslagen, weer op de pagina **Artikelbeschikbaarheid per vestiging**.
+U geeft de beschikbaarheid van een artikel in de verschillende vestigingen waar het is opgeslagen, weer op de pagina **Artikelbeschikbaarheid per vestiging**.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
 2. Open de kaart van het artikel waarvoor u beschikbaarheid wilt weergeven.
 3. Kies de actie **Artikelbeschikbaarheid per** en kies vervolgens de actie **Vestiging**.
 
@@ -127,7 +127,7 @@ Op de pagina **Beschikbaarheid assemblage** vindt u gedetailleerde beschikbaarhe
 
 - Automatisch vanuit een verkooporderregel bij assembleren op order wanneer u een aantal invoert dat zorgt voor een beschikbaarheidsprobleem van een onderdeel.
 - Automatisch vanuit een assemblage-orderkop wanneer u in het veld Aantal een waarde invoert die zorgt voor een beschikbaarheidsprobleem van een onderdeel.
-- Handmatig wanneer u het opent vanuit een assemblageorder. Klik op het tabblad Acties, in de groep Functies, op Beschikbaarheid tonen.
+- Handmatig wanneer u het opent vanuit een assemblageorder. Selecteer op het tabblad Acties in de groep Functies de optie Beschikbaarheid tonen.
 
 Het sneltabblad **Details** toont gedetailleerde beschikbaarheidsinformatie voor de component, inclusief het aantal assemblageorders dat op de vervaldatum samengesteld kan zijn op basis van de beschikbaarheid van de vereiste onderdelen. Dit wordt weergegeven in het veld Kan assembleren op het sneltabbald Details.
 

@@ -1,11 +1,11 @@
 ---
 title: 'Projecten, prijzen en projectboekingsgroepen instellen'
-description: Beschrijft hoe u algemene informatie over taken instelt.
+description: Beschrijft hoe u algemene informatie over projecten instelt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.topic: how-to
-ms.date: 04/25/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Projecten, prijzen en projectboekingsgroepen instellen
 
-Als projectmanager kunt u taken instellen die alle projecten definiëren die u beheert in [!INCLUDE[prod_short](includes/prod_short.md)]. Gebruik de pagina **Projectinstellingen** om te definiëren hoe u projectfuncties gaat gebruiken.
+Als projectmanager kunt u projecten instellen die alle projecten definiëren die u beheert in [!INCLUDE[prod_short](includes/prod_short.md)]. Gebruik de pagina **Projectinstellingen** om te definiëren hoe u projectfuncties gaat gebruiken.
 
 Geef voor elk project verschillende informatie op:
 
@@ -24,11 +24,29 @@ Geef voor elk project verschillende informatie op:
 
 ## Algemene gegevens voor projecten instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > Met de schakelaar **Gebruikslink standaard toepassen** op de pagina **Projectinstellingen** wordt aangegeven of projectposten standaard zijn gekoppeld aan projectplanningsregels. Schakel de schakelaar in om deze instelling toe te passen op alle nieuwe projecten. U kunt het bijhouden van het projectgebruik voor een specifiek project in- of uitschakelen door de schakelaar **Gebruikslink toepassen** op de pagina **Projectkaart** aan of uit te zetten.
+
+### Geef een standaardlocatie op voor projectartikelen
+
+U kunt tijd besparen bij het invoeren van gegevens door een standaardlocatie en opslaglocatie voor projecten op te geven op de  pagina **Projectkaart**. Wanneer u projecttaken, projectplanningsregels en projectdagboekregels voor het project aanmaakt, worden de standaardlocatie en de opslaglocatie automatisch toegewezen. U kunt echter indien nodig de locatiecode en de opslaglocatie voor taken en regels wijzigen.
+
+Als u een **Bin Code naar project** op de locatie definieert, wordt de opslaglocatie ingevuld wanneer u de locatiecode selecteert. Als uw magazijnstroom magazijnpicks vereist, kunt u ook andere opslaglocaties definiëren waaruit u artikelen wilt verbruiken.
+
+Deze velden zijn de standaardwaarden wanneer u projecttaken maakt. Bestaande projecttaken veranderen niet.
+
+Er zijn een paar dingen die u moet weten over het gebruik van standaardlocaties:
+
+* Als u voor projecttaken een **Bin Code naar project** op de locatie definieert, wordt de opslaglocatie toegewezen wanneer u de locatiecode selecteert. Als uw magazijnstroom magazijnpicks vereist, kunt u ook andere opslaglocaties definiëren waaruit u artikelen wilt verbruiken.
+* Voor projectplanningsregels is de **Locatiecode** gebaseerd op de waarde die is geselecteerd op de projectplanningsregel wanneer u een artikel selecteert. Als er geen bin code is gedefinieerd voor de projecttaak, wordt de opslaglocatie uit de standaard inhoud geselecteerd. U kunt de beide waarden handmatig wijzigen.
+* Voor projectjournaalregels is de **Locatiecode** gebaseerd op de waarde die is geselecteerd op de projectjournaalregel wanneer u een artikel selecteert. Als er geen bin code is gedefinieerd voor de projecttaak, wordt de opslaglocatie uit de standaard inhoud geselecteerd. U kunt de beide waarden handmatig wijzigen.
+
+### Meerdere klanten factureren voor projecttaken 
+
+Wanneer bij projecten meerdere klanten betrokken zijn, kan het een uitdaging zijn om de juiste klanten voor de juiste taken te factureren. [!INCLUDE [prod_short](includes/prod_short.md)] maakt facturering minder complex doordat u op elke projecttaakregel de factuur- en orderklanten kunt specificeren, zodat u automatisch facturen voor de juiste klanten kunt genereren. Voor meer informatie over het factureren van meerdere klanten gaat u naar [Een of meer klanten factureren voor projecttaken](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
 ### Bijhouden van projectgebruik instellen
 
@@ -53,7 +71,7 @@ U kunt prijzen instellen voor de artikelen, resources en grootboekrekeningen die
 
 #### [Huidige ervaring](#tab/current-experience)
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Project** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het betreffende project en kies vervolgens de actie **Resource**, **Artikel** of **Grootboekrekening**.
 3. Vul op de pagina **Resourceprijzen project**, **Artikelprijzen project** of **GB-rekeningprijzen project** de velden zoals nodig in.
 
@@ -79,7 +97,7 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 > [!NOTE]  
 > U moet rekeningen instellen in het rekeningschema voordat u boekingsgroepen instelt. Voor meer informatie raadpleegt u [Het Rekeningschema instellen of wijzigen](finance-setup-chart-accounts.md).  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectboekingsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul de velden in zoals is beschreven in de volgende tabel.  
 
 | Het veld Rekeningnr. | Omschrijving | Gebruikt in OHW-type |
@@ -87,16 +105,16 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 | **Code** |Een ID voor de boekingsgroep. U kunt maximaal 10 tekens inclusief spaties invoeren. | |
 | **Rekening OHW-kosten** |De OHW-rekening voor de berekende kosten van het OHW van het project is een financiële activarekening op de balans. | Toegepaste kosten, Verantwoorde kosten|
 | **Rekening te betalen OHW-kosten** |Een rekening voor de methode Kostprijs of Verkoopprijs van OHW-berekening. Deze rekening is voor te betalen kosten op de balans. Wanneer u door een OHW-aanpassing de gebruikskosten moet verhogen die u op uw resultatenrekening boekt, boekt u op deze rekening. | Te betalen kosten|
-| **Rekening vereffende projectkosten** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. Gebruikt wanneer **Gebruikte boekingsmethode OHW** is ingesteld op *Taak*. | Toegepaste kosten, Verantwoorde kosten|
+| **Rekening vereffende projectkosten** |Een tegenrekening voor de rekening OHW-kosten, die een tegenhanger is voor een negatieve kostenrekening. Gebruikt wanneer **Gebruikte boekingsmethode OHW** is ingesteld op *P:roject*. | Toegepaste kosten, Verantwoorde kosten|
 | **Account toegepaste artikelkosten** |Hetzelfde als **Rekening vereffende projectkosten**, maar gebruikt wanneer **Gebruikte boekingsmethode OHW** is ingesteld op *Projectpost*.| |
 | **Account toegepaste resourcekosten** |Hetzelfde als **Rekening vereffende projectkosten**, maar gebruikt wanneer **Gebruikte boekingsmethode OHW** is ingesteld op *Projectpost*.| |
 | **Account toegepaste grootboekkosten** |Hetzelfde als **Rekening vereffende projectkosten**, maar gebruikt wanneer **Gebruikte boekingsmethode OHW** is ingesteld op *Projectpost*.| |
-| **Projectkostenwaarderingsrekening** |De tegenrekening voor de rekening te betalen OHW-kosten, die een kostenrekening is. | Te betalen kosten|
+| **Rekening kostenherwaardering van project** |De tegenrekening voor de rekening te betalen OHW-kosten, die een kostenrekening is. | Te betalen kosten|
 | **Kostenrekening GB (budget)** |De omzetrekening die moet worden gebruikt voor grootboekkosten in projecttaken met deze boekingsgroep. Indien dit leeg wordt gelaten, wordt de grootboekrekening gebruikt die op de projectplanningsregel staat. | |
 | **Rekening te realiseren omzet OHW** |De OHW-rekening voor de berekende kostprijs van het OHW, die een rekening voor te realiseren omzet op de balans is. Wanneer een herwaardering van OHW vereist dat u de verantwoorde omzet verhoogt die u naar deze rekening boekt. | Te ontvangen verkoop, Verantwoorde verkoop|
 | **Rekening gefactureerde omzet OHW** |De rekening voor de gefactureerde verkoopprijs van het OHW die niet kan worden verantwoord. Het is een rekening voor niet-gerealiseerde omzet op de balans. | Verantwoorde verkoop, Toegepaste verkoop|
-| **Rekening projectomzetvereffening** |De tegenrekening voor de rekening gefactureerde omzet OHW, die een creditresultatenrekening is. | Toegepaste verkoop, Verantwoorde verkoop|
-| **Rekening projectomzetwaardering** |De tegenrekening voor de OHW-omzetrekening, die een resultatenrekening is. | Te ontvangen omzet|
+| **Rekening vereffende projectverkoop** |De tegenrekening voor de rekening gefactureerde omzet OHW, die een creditresultatenrekening is. | Toegepaste verkoop, Verantwoorde verkoop|
+| **Rekening omzetwaardering van project** |De tegenrekening voor de OHW-omzetrekening, die een resultatenrekening is. | Te ontvangen omzet|
 | **Rekening verantwoorde kosten** |De kostenrekening die de verantwoorde kosten voor het project bevat. Dit is normaliter een debetkostenrekening. | Verantwoorde kosten|
 | **Rekening verantwoorde omzet** |De resultatenrekening die de verantwoorde resultaten voor het project bevat. Dit is normaliter een creditresultatenrekening. | Verantwoorde verkoop|
 
@@ -109,6 +127,5 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

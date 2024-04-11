@@ -1,25 +1,28 @@
 ---
-title: 'Procedure: Inkomsten en kosten uitstellen'
-description: 'Als u inkomsten en kosten wilt verantwoorden in perioden waarin de transactie niet is geboekt, kunt u kosten en inkomsten automatisch uitstellen via een opgegeven schema.'
+title: Inkomsten en kosten uitstellen
+description: Meer informatie over hoe u inkomsten en kosten automatisch kunt uitstellen in perioden waarin de transactie niet is geboekt of hoe u kosten en inkomsten kunt uitstellen via een opgegeven schema.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
-ms.date: 12/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Procedure: Inkomsten en kosten uitstellen
+# Inkomsten en kosten uitstellen
 
-Als u inkomsten of kosten wilt verantwoorden in een andere periode dan waarin de transactie is geboekt, kunt u deze functionaliteit gebruiken om kosten en inkomsten automatisch uit te stellen via een opgegeven schema.
+Als u inkomsten of kosten wilt verantwoorden in een andere periode dan waarin de transactie is geboekt, kunt u kosten en inkomsten automatisch uitstellen via een opgegeven schema.
 
 Om kosten of omzet over de betrokken boekhoudperioden te verdelen stelt u een uitstelsjabloon in voor de bron, het artikel of de grootboekrekening waarnaar de inkomsten of kosten worden geboekt. Wanneer u het gerelateerde verkoop- of inkoopdocument boekt, worden de inkomsten of kosten uitgesteld tot de betrokken boekhoudperioden, volgens een uitstelschema dat wordt bepaald door instellingen in de uitstelsjabloon en de boekingsdatum.
 
+> [!NOTE]
+> Verkoop- en inkoopdagboeken valideren de broncode. Voor de validatie is vereist dat de broncode voor respectievelijk verkoop en verkoopdagboeken en inkoop- en inkoopdagboeken niet identiek is als u gebruikmaakt van uitstel. Als de broncode identiek is, kunt u deze beperking omzeilen door een sjabloon en batch te maken die een andere broncode gebruiken.
+
 ## Een grootboekrekening instellen voor uitstel
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rekeningschema** in en kies de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.
 3. Vul de velden in om een grootboekrekening te maken voor uitgestelde inkomsten. Zie voor meer informatie [Het grootboek en het rekeningschema](finance-general-ledger.md).
 4. Herhaal stap 2 en 3 om een nieuwe grootboekrekening te maken voor uitgestelde kosten.

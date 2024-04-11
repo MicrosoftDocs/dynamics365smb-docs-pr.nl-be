@@ -22,7 +22,6 @@ Zie [Sneltoetsen (alleen pc)](keyboard-shortcuts-cheatsheet.md) voor een overzic
 > [ ![Pictogram voor het PDF-bestand.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Pictogram dat een PDF opent")
 
 
-
 ## Overzicht
 
 Sneltoetsen vergroten de toegankelijkheid en maken het gemakkelijker en efficiënter te navigeren naar verschillende gebieden en elementen op een pagina. De meeste webbrowsers ondersteunen deze sneltoetsen, maar het gedrag kan enigszins variëren.
@@ -194,12 +193,12 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |--------------------------------|----------|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>|De agenda openen als deze is gesloten. **Opmerking**: dit werkt niet als het datumveld in een raster staat, waar <kbd>Ctrl</kbd>+<kbd>Home</kbd> naar de eerste rij springt.|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Naar de huidige maand, huidige dag gaan.|
-|<kbd>Ctrl</kbd>+<kbd>Pijl links</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pijl links</kbd>)|Naar de vorige dag gaan.|
-|<kbd>Ctrl</kbd>+<kbd>Pijl rechts</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pijl rechts</kbd>)|Naar de volgende dag gaan.|
-|<kbd>Ctrl</kbd>+<kbd>Pijl omhoog</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pijl omhoog</kbd>)|Naar de vorige week, dezelfde dag van de week gaan.|
-|<kbd>Ctrl</kbd>+<kbd>pijl omlaag</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>pijl omlaag</kbd>)|Naar de volgende week, dezelfde dag van de week gaan.|
+|<kbd>Pijl links</kbd><br /><br />(<kbd>Pijl links</kbd>)|Naar de vorige dag gaan.|
+|<kbd>Pijl rechts</kbd><br /><br />(<kbd>Pijl rechts</kbd>)|Naar de volgende dag gaan.|
+|<kbd>Pijl omhoog</kbd><br /><br />(<kbd>Pijl omhoog</kbd>)|Naar de vorige week, dezelfde dag van de week gaan.|
+|<kbd>Pijl-omlaag</kbd><br /><br />(<kbd>Pijl omlaag</kbd>)|Naar de volgende week, dezelfde dag van de week gaan.|
 |<kbd>Voer in</kbd>|De datum met de focus selecteren.|
-|<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Sluit de agenda en verwijder de huidige datum.|
+|<kbd>Einde</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Sluit de agenda en verwijder de huidige datum.|
 |<kbd>Esc</kbd>|Sluit de agenda zonder een selectie; behoud de huidige datum.|
 |<kbd>Page Down</kbd>|Naar de volgende maand gaan.|
 |<kbd>Page up</kbd>|Naar de vorige maand gaan.|  

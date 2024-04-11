@@ -1,13 +1,13 @@
 ---
 title: Verkooporders synchroniseren en uitvoeren
 description: Import en verwerking van verkooporders vanuit Shopify instellen en uitvoeren.
-ms.date: 06/06/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
 # Verkooporders synchroniseren en uitvoeren
@@ -30,10 +30,12 @@ Schakel **Automatisch orders maken** in om automatisch verkoopdocumenten te make
 
 Als u automatisch een verkoopdocument wilt vrijgeven, schakelt u de schakelaar **Verkooporder automatisch vrijgeven** in.
 
+Als u geen automatische verzendbevestigingen naar klanten wilt sturen, schakelt u de schakelaar **Verzendbevestiging verzenden** uit. Het uitschakelen van de schakelaar kan handig zijn als u digitale goederen verkoopt of een ander meldingsmechanisme wilt gebruiken.
+
 Als u het veld **Shopify-order-nr. op documentregel** selecteert, wordt deze informatie door [!INCLUDE [prod_short](../includes/prod_short.md)] herhaald op de verkoopregels van het type **Opmerking**, met het Shopify-ordernummer.
 
->[!NOTE]
->Het verkoopdocument in [!INCLUDE[prod_short](../includes/prod_short.md)] linkt naar de Shopify-order en u kunt het **Shopify-ordernummer toevoegen** aan de lijst- of kaartpagina's voor verkooporders, facturen en verzendingen. Ga voor meer informatie over het toevoegen van een veld naar [Een pagina personaliseren via de modus Personaliseren](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+> [!NOTE]
+> Het verkoopdocument in [!INCLUDE[prod_short](../includes/prod_short.md)] linkt naar de Shopify-order en u kunt het **Shopify-ordernummer toevoegen** aan de lijst- of kaartpagina's voor verkooporders, facturen en verzendingen. Ga voor meer informatie over het toevoegen van een veld naar [Een pagina personaliseren via de modus Personaliseren](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 In het veld **Prioriteit van belastinggebied** kunt u de prioriteit definiëren voor het selecteren van de btw-gebiedscode voor adressen in orders. De Shopify-order die u importeert, bevat informatie over belastingen. Belastingen worden opnieuw berekend wanneer u verkoopdocumenten maakt, dus het is belangrijk dat de btw-/belastinginstellingen correct zijn in [!INCLUDE[prod_short](../includes/prod_short.md)]. Voor meer informatie over belastingen zie [Belastingen instellen voor de Shopify-verbinding](setup-taxes.md).
 
@@ -131,7 +133,11 @@ De pagina **Shopify - Te importeren orders** is handig voor het oplossen van pro
 Zodra het importeren is voltooid, kunt u de Shopify-order verkennen en alle gerelateerde informatie zoeken, zoals de betalingstransacties, verzendkosten, risiconiveau, orderkenmerken en -tags of afhandelingen, als de order al is afgehandeld in Shopify. U kunt ook een orderbevestiging zien die naar de klant is verzonden door de actie **Shopify-statuspagina** te kiezen.
 
 > [!NOTE]  
-> U kunt rechtstreeks navigeren naar het venster **Shopify-orders** en u ziet dan orders met de status *Geopend* van alle winkels. Om voltooide orders te bekijken moet u de pagina **Shopify-orders** openen vanuit het specifieke **Shopify-winkelkaart** venster.
+> U kunt rechtstreeks navigeren naar het venster **Shopify-orders** en u ziet dan orders met de status *Geopend* van alle winkels. Om voltooide orders te bekijken moet u de pagina **Shopify-orders** openen vanuit de specifieke pagina **Shopify-winkelkaart**.
+
+Voordat verkoopdocumenten worden aangemaakt in [!INCLUDE[prod_short](../includes/prod_short.md)], kunt u de actie **Order van Shopify synchroniseren** gebruiken op de pagina **Shopify-order** om specifieke bestellingen opnieuw te importeren.
+
+U kunt een bestelling ook als betaald markeren, wat handig is in een B2B-scenario waarin betalingen buiten de Shopify-kassa worden verwerkt. Kies de actie **Markeren als betaald** op de pagina **Shopify-order**. U kunt een bestelling ook als geannuleerd markeren om het teruggaveproces in Shopify te starten. Kies de actie **Order annuleren** op de pagina **Shopify -order**, vul indien nodig de velden in op de pagina **Shopify-order annuleren** en druk op **OK**. U moet ordersynchronisatie uitvoeren om de updates te importeren naar [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Verkoopdocument maken in Business Central
 
@@ -147,15 +153,17 @@ Als de schakelaar **Automatisch orders maken** is ingeschakeld op de **Shopify-w
 
 Als de Shopify-order afhandeling vereist, wordt een **verkooporder** gemaakt. Voor volledig afgehandelde Shopify-orders, zoals bestellingen die alleen een cadeaubon bevatten of die al zijn afgehandeld in Shopify, wordt een **verkoopfactuur** gemaakt.
 
-Er wordt nu een verkoopdocument gemaakt en het kan worden beheerd met behulp van de standaardfunctionaliteit van [!INCLUDE[prod_short](../includes/prod_short.md)].
+Er wordt een verkoopdocument gemaakt en het kan worden beheerd met behulp van de standaardfunctionaliteit van [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+Als u een verkoopdocument opnieuw wilt maken, gebruikt u de actie **Verwerkte documenten ontkoppelen** op de pagina **Shopify-order**. Houd er rekening mee dat u met deze actie het reeds gemaakte verkoopdocument niet verwijdert. U moet het handmatig verwerken.
 
 ### Ontbrekende klanten beheren
 
-Als uw instellingen voorkomen dat automatisch een klant wordt gemaakt en geen juiste bestaande klant kan worden gevonden, moet u handmatig een klant toewijzen aan een Shopify-order. Dit kunt u op enkele manieren doen:
+Als uw instellingen voorkomen dat automatisch een klant wordt gemaakt en geen juiste overeenkomstige klant kan worden gevonden, moet u handmatig een klant toewijzen aan een Shopify-order. Er zijn een paar manieren om klanten aan orders toe te wijzen:
 
-* U kunt het **orderklantnr.** toewijzen, en **Factuurklantnr.** rechtstreeks op de pagina **Shopify-orders** door een klant te kiezen uit de lijst met bestaande klanten.
-* U kunt een klantsjablooncode selecteren en vervolgens de klant maken en toewijzen via de actie **Nieuwe klant maken** op de pagina **Shopify-orders**. Merk op dat de Shopify-klant minimaal één adres moet hebben. Bij orders die zijn gemaakt via het verkoopkanaal Shopify POS ontbreken vaak adresgegevens.
-* U kunt een bestaande klant toewijzen aan de gerelateerde **Shopify-klant** in het venster **Shopify-klanten** en vervolgens de actie **Toewijzing zoeken** kiezen op de pagina **Shopify-orders**.
+* Wijs **Orderklantnr.** en **Factuurklantnr.** toe rechtstreeks op de pagina **Shopify-orders** door een klant te kiezen uit de lijst met bestaande klanten.
+* Selecteer een klantsjablooncode, maak vervolgens de klant en wijs deze toe via de actie **Nieuwe klant maken** op de pagina **Shopify-orders**. De Shopify-klant moet minimaal één adres hebben. Bij orders die u maakt via het verkoopkanaal Shopify POS ontbreken vaak adresgegevens.
+* Wijs een bestaande klant toe aan de gerelateerde **Shopify-klant** op de pagina **Shopify-klanten** en kies vervolgens de actie **Toewijzing zoeken** kiezen op de pagina **Shopify-orders**.
 
 ### Hoe de connector kiest welke klant te gebruiken
 
@@ -172,6 +180,8 @@ De volgende stappen zijn afhankelijk van het **Type klanttoewijzing**.
 
 > [!NOTE]  
 > De connector gebruikt informatie van het factuuradres en creëert de factuurklant [!INCLUDE[prod_short](../includes/prod_short.md)]. De orderklant is dezelfde als de factuurklant.
+
+Voor B2B-orders is de stroom vergelijkbaar, hoewel de connector de velden **Standaardbedrijfsnr.**, **Bedrijf importeren uit Shopify**, **Type bedrijfstoewijzing** op de pagina **Shopify-Winkelkaart** gebruikt. Merk op dat er geen **Standaardbedrijfsnr.** is In de **Shopify -klantsjabloon** omdat bij B2B wordt verwacht dat klanten met naam worden aangegeven.
 
 ### Verschillende verwerkingsregels voor orders
 
@@ -199,27 +209,32 @@ Elke taakwachtrij importeert en verwerkt orders binnen de gedefinieerde filters 
 
 In Shopify:
 
-|Bewerken|Gevolgen voor reeds geïmporteerde order|Gevolgen voor order die voor het eerst wordt geïmporteerd|
+|Bewerken|Impact op Shopify-orders die nog niet zijn verwerkt in [!INCLUDE[prod_short](../includes/prod_short.md)] | Impact op Shopify-orders die al zijn verwerkt in [!INCLUDE[prod_short](../includes/prod_short.md)] |
 |------|-----------|-----------|
-|De afhandelingslocatie wijzigen | Oorspronkelijke vestiging is in regels | De afhandelingsvestiging is gesynchroniseerd met [!INCLUDE[prod_short](../includes/prod_short.md)].|
-|Een order bewerken en de hoeveelheid verhogen| De orderkop en de aanvullende tabellen worden bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], regels niet.| Geïmporteerde order gebruikt nieuwe hoeveelheid|
-|Een order bewerken en de hoeveelheid verlagen| De orderkop en de aanvullende tabellen worden bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], regels niet.| Geïmporteerde order gebruikt de oorspronkelijke hoeveelheid, het veld Afhandelbare hoeveelheid bevat een nieuwe waarde.|
-|Een order bewerken en een bestaand artikel verwijderen | De orderkop en de aanvullende tabellen worden bijgewerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], regels niet.| Verwijderde artikelen worden nog steeds geïmporteerd, het veld Afhandelbare hoeveelheid bevat nul. |
-|Een order bewerken en een nieuw artikel toevoegen | De orderkop wordt bijgewerkt, de regels niet. | Originele en toegevoegde artikelen worden geïmporteerd. |
-|Order verwerken: afhandelen, betalingsinformatie bijwerken | De orderkop wordt bijgewerkt, maar de regels niet. |De wijziging heeft geen invloed op hoe de order wordt geïmporteerd.|
-|Order annuleren | De orderkop wordt bijgewerkt, maar de regels niet. |Geannuleerde order wordt niet geïmporteerd |
+|De afhandelingslocatie wijzigen | De afhandelingsvestiging is gesynchroniseerd met [!INCLUDE[prod_short](../includes/prod_short.md)]. | De afhandelingsvestiging is gesynchroniseerd met [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Een order bewerken en de hoeveelheid verhogen|Geïmporteerde order gebruikt nieuwe hoeveelheid.| Connector detecteert wijzigingen en markeert orders. |
+|Een order bewerken en de hoeveelheid verlagen|Geïmporteerde order gebruikt nieuwe hoeveelheid. Shopify-restitutie met een bedrag van 0 wordt geïmporteerd en kan niet worden omgezet in een creditnota.| Connector detecteert wijzigingen en markeert orders. |
+|Een order bewerken en een bestaand artikel verwijderen |Het verwijderde item wordt niet geïmporteerd. Shopify-restitutie met een bedrag van 0 wordt geïmporteerd en kan niet worden omgezet in een creditnota.| Connector detecteert wijzigingen en markeert orders. |
+|Een order bewerken en een nieuw artikel toevoegen | Originele en toegevoegde artikelen worden geïmporteerd. | Connector detecteert wijzigingen en markeert orders. |
+|Order verwerken: afhandelen, betalingsinformatie bijwerken | De orderkop wordt bijgewerkt. |De orderkop wordt bijgewerkt. De afhandeling wordt niet gesynchroniseerd met Shopify.|
+|Betaalde order annuleren | De orderkop wordt bijgewerkt en afzonderlijk verwerkt |Connector detecteert wijzigingen en markeert orders. |
+|Niet-betaalde order annuleren | Het verwijderde item wordt niet geïmporteerd. Shopify-restitutie met een bedrag van 0 wordt geïmporteerd en kan niet worden omgezet in een creditnota. |Connector detecteert wijzigingen en markeert orders. |
 
-Zoals u kunt zien, kan het in sommige gevallen redelijk zijn om een bewerkte order te verwijderen in [!INCLUDE[prod_short](../includes/prod_short.md)] en deze als nieuw te importeren.
+Als de order al is verwerkt in [!INCLUDE[prod_short](../includes/prod_short.md)], geeft de connector het volgende foutbericht weer: *De order is reeds verwerkt in Business Central, maar er is een editie ontvangen uit Shopify. Wijzigingen zijn niet doorgevoerd in de verwerkte order in Business Central. Werk de verwerkte documenten bij zodat ze overeenkomen met de ontvangen gegevens van Shopify. Als u de synchronisatie wilt afdwingen, gebruik dan de actie Order van Shopify synchroniseren op de kaartpagina van de Shopify-order.*
+
+Afhankelijk van de status van het aangemaakte verkoopdocument kunt u de volgende acties uitvoeren:
+1. Gemaakte verkoopdocument verwijderen
+2. Kies de actie **Verwerkte documenten ontkoppelen** om de indicator **Verwerkt** opnieuw in te stellen.
+3. Kies de actie **Order van Shopify synchroniseren** om een afzonderlijke bestelling bij te werken met recente gegevens uit Shopify.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Bewerken|Impact|
 |------|-----------|
-|De vestiging wijzigen in een andere vestiging, toegewezen aan de Shopify-vestigingen. Verzending boeken | De order wordt gemarkeerd als afgehandeld. De oorspronkelijke vestiging wordt gebruikt. |
-|De vestiging wijzigen in een andere vestiging, niet toegewezen aan de Shopify-vestigingen. Verzending boeken | De afhandeling wordt niet gesynchroniseerd met Shopify. |
+|Wijzig de vestiging in een andere vestiging. Verzending boeken | De order wordt gemarkeerd als afgehandeld. Afhandelingsvestiging van Shopify  wordt gebruikt. |
 |De hoeveelheid verlagen. Verzending boeken | De Shopify-order wordt gemarkeerd als gedeeltelijk vervuld. |
-|De hoeveelheid verhogen. Verzending boeken | De afhandeling wordt niet gesynchroniseerd met Shopify. |
-|Een nieuw artikel toevoegen. Verzending boeken | De Shopify-order wordt gemarkeerd als afgehandeld. Regels worden niet bijgewerkt. |
+|De hoeveelheid verhogen. Verzending boeken | De afhandeling wordt niet gesynchroniseerd met Shopify. Hetzelfde als de afhandeling is opgesplitst in Shopify maar verwerkt als één regel in [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Een nieuw artikel toevoegen. Verzending boeken | De Shopify-order wordt gemarkeerd als afgehandeld. Er worden geen nieuwe regels toegevoegd. |
 
 ## Verzendingen synchroniseren met Shopify
 

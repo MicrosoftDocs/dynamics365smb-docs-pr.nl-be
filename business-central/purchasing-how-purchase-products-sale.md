@@ -1,12 +1,12 @@
 ---
-title: Artikelen kopen voor een verkoop
+title: Artikelen inkopen voor een verkoop
 description: 'Vanuit een verkoopfactuur kunt u, om producten te kopen, een inkoopfactuur maken voor een leverancier.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'supply planning, sales demand, replenish'
 ms.search.form: '50, 51, 56, 9308'
-ms.date: 04/01/2021
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -62,7 +62,7 @@ Als u één inkoopfactuur wilt maken voor een of meer regels in een verkoopdocum
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Verkopen factureren](sales-how-invoice-sales.md)  
-[Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
+[Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

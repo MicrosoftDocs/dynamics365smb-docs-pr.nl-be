@@ -25,23 +25,26 @@ Met de Shopify-connector kunnen bedrijven hun Shopify winkel aan [!INCLUDE[prod_
 - Ondersteuning voor meer dan één Shopify-winkel
   - Elke winkel heeft zijn eigen opzet, waaronder een verzameling producten en vestigingen die worden gebruikt om de voorraad en prijslijsten te berekenen.  
 - Bidirectionele synchronisatie van artikelen of producten
-  - De connector synchroniseert afbeeldingen, artikelvarianten, streepjescodes, artikelnummers van leveranciers, uitgebreide teksten en tags.  
+  - De connector synchroniseert afbeeldingen, artikelvarianten, streepjescodes, artikelnummers van leveranciers, uitgebreide marketingteksten en tags.  
   - Artikelkenmerken exporteren naar Shopify.  
-  - Gebruik geselecteerde klantprijsgroepen en kortingen om prijzen te definiëren die worden geëxporteerd naar Shopify.  
-  - Bepaal of items automatisch kunnen worden gemaakt of alleen updates van bestaande producten toestaan.  
+  - Gebruik geselecteerde klantprijsgroepen en kortingen om prijzen te definiëren die worden geëxporteerd naar Shopify.
+  - Definieer prijzen en kortingen voor productcatalogi gekoppeld aan B2B-bedrijven.
+  - Bepaal of items automatisch kunnen worden gemaakt of alleen updates van bestaande producten toestaan.
 - Synchronisatie van voorraadniveaus
   - Kies enkele of alle beschikbare locaties in [!INCLUDE [prod_short](../includes/prod_short.md)].  
   - Werk voorraadniveaus op meerdere locaties bij in Shopify.  
-- Bidirectionele synchronisatie van klanten
+- Bidirectionele synchronisatie van klanten en bedrijven
   - Wijs klanten slim toe per telefoon en e-mail.  
   - Gebruik land/regio-specifieke sjablonen bij het maken van klanten, zodat u zeker weet dat de belastinginstellingen correct zijn.  
 - Importeren van orders uit Shopify
-  - Voeg bestellingen toe die zijn gemaakt in verschillende verkoopkanalen, zoals een online winkel of **Shopify POS**.
+  - Voeg bestellingen toe die zijn gemaakt in verschillende verkoopkanalen, zoals een online winkel, **Shopify POS** of **B2B**.
   - Verzendkosten, cadeaubonnen, fooien, verzend- en betaalmethoden, transacties en risico op fraude.  
   - Tijdens het importeren kunt u automatisch klanten maken in [!INCLUDE [prod_short](../includes/prod_short.md)] of besluiten de klanten te beheren in Shopify.  
   - Uitbetalingsinformatie ontvangen van Shopify Payments.
 - Afhandelingsinformatie volgen
-  - Kies er optioneel voor om trackinginformatie uit [!INCLUDE [prod_short](../includes/prod_short.md)] over te dragen naar Shopify.  
+  - Kies er optioneel voor om trackinginformatie uit [!INCLUDE [prod_short](../includes/prod_short.md)] over te dragen naar Shopify.
+- Headless-integratie
+  - Maak automatische synchronisatie van producten, voorraad, bestellingen, afhandelingen en meer mogelijk.
 
 ## Waarom hebben Microsoft en Shopify deze samenwerking gecreëerd?
 
@@ -52,6 +55,8 @@ Met de Shopify-connector kunnen bedrijven hun Shopify winkel aan [!INCLUDE[prod_
 Deze functie is alleen beschikbaar voor [!INCLUDE[prod_short](../includes/prod_short.md)] online, te beginnen met versie 20.1. Het is niet beschikbaar voor on-premises implementaties. De connector wordt vooraf geïnstalleerd voor nieuwe omgevingen. Organisaties met bestaande omgevingen kunnen de connector downloaden en installeren vanaf AppSource. De organisatie moet zowel een [!INCLUDE [prod_short](../includes/prod_short.md)]-licentie als een Shopify-licentie hebben om de connector te kunnen gebruiken. Ga voor meer informatie over ondersteunde landen/regio's, talen en edities van [!INCLUDE[prod_short](../includes/prod_short.md)] naar [Shopify-connector op de AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
 De Shopify-connector werkt niet voor [App insluiten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), waarbij de client-URL de indeling `https://[application name].bc.dynamics.com` heeft.
+
+De Shopify-connector werkt niet met andere producten in Dynamics 365-portfolio.
 
 ## Welke ondersteuning wordt geboden voor de Shopify-connector?
 
@@ -69,8 +74,6 @@ U kunt ook de [Experts Marketplace](https://experts.shopify.com/) verkennen om d
 
 ## Functies die momenteel niet worden ondersteund, houden we echter bij en we kunnen overwegen ze toe te voegen
 
-- B2B-functies, waaronder bedrijven, prijslijsten van bedrijven en betalingsvoorwaarden
-  - Uitgebreide ondersteuning voor B2B zal beschikbaar zijn in releasewave 1 van 2024. Zie [Business Central verbinden met Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b) voor meer informatie
 - Markten
   - Meerdere vertalingen van hoofdgegevens. U kunt één taal kiezen die wordt gebruikt voor het exporteren van productinformatie.
   - Prijzen per land/regio. Er is één prijslijst beschikbaar voor de geselecteerde valuta. De conversie naar andere valuta's wordt afgehandeld door Shopify.
@@ -78,7 +81,7 @@ U kunt ook de [Experts Marketplace](https://experts.shopify.com/) verkennen om d
 
 ## Is de Shopify-connector uitbreidbaar?
 
-Ja, de Shopify-connector is uitbreidbaar. Controleer GitHub om toegang te krijgen tot de [lijst met uitbreidbaarheidspunten](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) en verken enkele [voorbeelden](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
+Ja, de Shopify-connector is uitbreidbaar. Controleer GitHub om toegang te krijgen tot de [lijst met uitbreidbaarheidspunten](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) en verken enkele [voorbeelden](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
 
 ## Staat de Shopify-connector open voor bijdragen?
 

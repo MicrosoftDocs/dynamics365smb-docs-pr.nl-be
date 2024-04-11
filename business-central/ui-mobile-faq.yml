@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.service: dynamics-365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 09/21/2023
+  ms.date: 03/18/2024
   ms.author: bholtorf
   ms.reviewer: jswymer
   ms.custom: bap-template
@@ -36,9 +36,7 @@ sections:
           | Activiteitengroepen | Alleen de activiteitengroep **Home** wordt weergegeven. | Alleen de activiteitengroep **Home** wordt weergegeven. | **Home** en **Geboekte documenten** in het rolcentrum `Sales Order Processor`. |  |
           | Meerdere records in lijsten selecteren | Niet beschikbaar. | Niet beschikbaar. | <kbd>Ctrl</kbd>+<kbd>A</kbd> of <kbd>Ctrl</kbd>+<kbd>klik</kbd> op rijen in een lijst in de browser. |
           | Acties op de actiebalk | Alleen gepromote acties worden weergegeven. | Alleen gepromote acties worden weergegeven. |  |
-          | Feitenblokken | Niet weergegeven op lijstpagina's of werkbladpagina's. | Niet weergegeven op lijstpagina's of werkbladpagina's. | Lijst `Customer` in het rolcentrum `Small Business`. |
           | Geavanceerde filters | Er is geen kolomspecifieke filtering beschikbaar. | Er is geen kolomspecifieke filtering beschikbaar. | Op de lijstpagina `Customer`. |
-          | Vertel me | Het moet ingeschakeld zijn in [Functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management) met behulp van de schakelaar **Functie: Pagina's en gegevens zoeken in de mobiele app**. De sectie **Ophalen uit Microsoft AppSource** in de resultaten voor apps is niet beschikbaar. | Hetzelfde als tablets | Ga naar [Pagina's en informatie zoeken met Vertel me](ui-search.md). |  |
           | Rolverkenner | Nog niet beschikbaar. | Nog niet beschikbaar. | Ga naar [Pagina's zoeken met de rolverkenner](ui-role-explorer.md). |
           | Velden op sneltabbladen | Velden op sneltabbladen op lijstpagina's worden niet weergegeven. Alleen het repeaterelement wordt weergegeven in het inhoudsgebied van de pagina. | Niet beschikbaar. |  |
           | Selecteren vanuit volledige lijst | Niet beschikbaar voor zoekopdrachten. Gebruikers kunnen geen acties uitvoeren op een opzoekpagina en hebben geen toegang tot de volledige set records. | Niet beschikbaar voor zoekopdrachten. Gebruikers kunnen geen acties uitvoeren op een opzoekpagina en hebben geen toegang tot de volledige set records. | Op de `Item Card` bij het selecteren van de **Basismaateenheden**. |
@@ -46,7 +44,6 @@ sections:
           | Opzoekacties | Beschikbaar. | Beschikbaar, met het verschil dat geavanceerde en eenvoudige zoekacties zich op dezelfde manier gedragen op de telefoon. De zoekopdracht zal de kaart, feitenblokken of veldgroepen niet weergeven. | Ga naar voorbeelden op de pagina `Customer Card`. |
           | Matrix-besturingselementen | Niet beschikbaar. | Niet beschikbaar. | Ga naar het voorbeeld in `G/L Budget`. |
           | Bestand downloaden | Beschikbaar. Kan niet meerdere bestanden tegelijk downloaden. | Beschikbaar. Kan niet meerdere bestanden tegelijk downloaden. | Rapport `Trial Balance` in het selectievakje **Afdrukken naar Excel**. |
-          | Werkbladpagina's | Beschikbaar. | Niet beschikbaar; er wordt een foutmelding weergegeven. | Werkblad `Sales Price` of `Cash Flow`. |
           | Lijsten | Beschikbaar. | Beschikbaar, met het verschil dat deze in een baksteenlay-out worden weergegeven. | Pagina's met klanten of verkooporders. |
           | Inspringing in repeaterbesturingselementen | Beschikbaar. | Niet beschikbaar. Het repeaterbesturingselement wordt weergegeven als een normale platte baksteenlay-out. | Pagina's met rekeningschema's en contactoverzichten. |
           | Automatische invoerfocus op het eerste bewerkbare veld van een pagina | Niet beschikbaar. | Niet beschikbaar. | Pagina `Customer Card`.<BR /><BR />In de browser wordt de focus automatisch op het eerste bewerkbare veld (zoals het veld `Name`) gezet, zodat u de waarde meteen kunt wijzigen.<BR /><BR />In de tablet- en telefoon-app heeft dit veld niet de focus. In plaats daarvan moet u het veld eerst handmatig selecteren om wijzigingen aan te brengen.|

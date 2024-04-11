@@ -1,12 +1,12 @@
 ---
 title: Een geboekte verkoopfactuur corrigeren of annuleren
-description: 'Dit onderwerp beschrijft hoe u een geboekte verkoopfactuur corrigeert, ongedaan maakt of annuleert en een verkoopcreditnota vereffent.'
+description: 'Dit artikel beschrijft hoe u een geboekte verkoopfactuur corrigeert, ongedaan maakt of annuleert en een verkoopcreditnota vereffent.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: 'undo, credit memo, return'
-ms.date: 02/20/2024
+ms.date: 03/05/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

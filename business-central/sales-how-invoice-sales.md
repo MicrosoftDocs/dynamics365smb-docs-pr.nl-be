@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 11/01/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u 
 
 ## Verkoopfacturen maken
 
-Als de klant wilt kopen, boekt u de verkoopfactuur om de gerelateerde aantallen en waarden in te voeren. Wanneer u de verkoopfactuur boekt, kunt u het ook als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf invullen met een overzicht van de factuur- en betalingsgegevens, zoals een koppeling naar PayPal opgeven. Meer informatie op [Documenten per e-mail verzenden](ui-how-send-documents-email.md). Als de klant de factuur betaalt, kunt u die betaling op verschillende manieren registreren, afhankelijk van de grootte en de geprefereerde werkstromen van uw organisatie. Meer informatie de sectie [Betalingen registreren](#register-payments).  
+Als de klant wilt kopen, boekt u de verkoopfactuur om de gerelateerde aantallen en waarden in te voeren. Wanneer u de verkoopfactuur boekt, kunt u het ook als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf invullen met een overzicht van de factuur- en betalingsgegevens, zoals een koppeling naar PayPal opgeven. Meer informatie op [Documenten per e-mail verzenden](ui-how-send-documents-email.md#to-send-documents-by-email). Als de klant de factuur betaalt, kunt u die betaling op verschillende manieren registreren, afhankelijk van de grootte en de geprefereerde werkstromen van uw organisatie. Meer informatie de sectie [Betalingen registreren](#register-payments).  
 
 Artikelkaarten kunnen van het type **Voorraad**, **Service** en **Niet-voorraad** zijn om op te geven of het artikel respectievelijk een fysieke voorraadeenheid, een eenheid voor arbeidskosten of een fysieke eenheid die niet in voorraad wordt gehouden, is. Meer informatie op [Nieuwe artikelen registreren](inventory-how-register-new-items.md). Het verkoopfactureringsproces is hetzelfde voor alle drie de artikeltypen.
 
@@ -126,7 +126,7 @@ U kunt zelfs direct betaalde facturen voor niet-geregistreerde klanten maken doo
 [Verkopen instellen](sales-setup-sales.md)  
 [De picklijst afdrukken](sales-how-print-picking-list.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Documenten per e-mail verzenden](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Massaal factureren vanuit Microsoft Bookings in Business Central ](finance-bookings.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cancel, undo, correct'
 ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
-ms.date: 04/01/2021
+ms.date: 03/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -143,7 +143,7 @@ U kunt deze korting op de inkoopkosten als artikeltoeslag op een creditnota of r
 2. Kies de actie **Nieuw** om een nieuwe lege inkoopcreditnota te openen.  
 3. Vul op de creditnotakop de gegevens in van de leverancier die u het inkooptegoed heeft gestuurd.  
 4. Selecteer **Toeslag (artikel)** in het veld **Soort** op het sneltabblad **Regels**.  
-5. Selecteer in het veld **Nr.** de juiste artikeltoeslagwaarde.  
+5. In het veld **Nr.** de juiste artikeltoeslagwaarde.  
 
     Stel desgewenst een speciaal artikeltoeslagnummer voor inkooptegoeden in.  
 6. Geef **1** op in het veld **Aantal**.  

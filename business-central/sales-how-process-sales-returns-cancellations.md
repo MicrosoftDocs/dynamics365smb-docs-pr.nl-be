@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/27/2021
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Verkoopretouren of annuleringen verwerken
 
-Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Om de juiste verkoopfactuurgegevens op te nemen kunt u het volgende doen:  
+Als een klant artikelen wil retourneren of terugbetaling wil krijgen voor artikelen of services die u klant hebt verkocht en waarvoor u een betaling hebt ontvangen, moet u een verkoopcreditnota maken en boeken waarmee de gevraagde wijziging wordt opgegeven. Om de juiste verkoopfactuurgegevens op te nemen kunt u de volgende taken uitvoeren:  
 
 - Maak de verkoopcreditnota rechtstreeks vanuit de geboekte verkoopfactuur.
 - Maak een nieuwe verkoopcreditnota met gekopieerde factuurgegevens.
@@ -72,7 +72,7 @@ U kunt deze gereduceerde prijs als artikeltoeslag boeken in een creditnota of re
 2. Kies de actie **Nieuw** om een nieuwe lege verkoopcreditnota te openen.
 3. Vul in de creditnotakop de betreffende gegevens in over de klant aan wie u de verkoopprijskorting wilt geven.  
 4. Selecteer **Toeslag (artikel)** in het veld **Soort** op het sneltabblad **Regels**.  
-5. Selecteer in het veld **Nr.** de juiste artikeltoeslagwaarde.  
+5. In het veld **Nr.** de juiste artikeltoeslagwaarde.  
      Mogelijk wilt u een speciaal artikeltoeslagnummer toewijzen voor verkoopprijskortingen.  
 6. Geef **1** op in het veld **Aantal**.  
 7. Geef het bedrag voor de verkoopprijskorting op in het veld **Eenheidsprijs excl. btw**.  

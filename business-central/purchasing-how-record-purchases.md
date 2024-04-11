@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ Wanneer u de voorraadartikelen ontvangt of wanneer de ingekochte service is volt
 Hieronder wordt beschreven hoe u een inkoopfactuur maakt. De stappen voor het maken van een inkooporder zijn vergelijkbaar. Het belangrijkste verschil is dat inkooporders enkele extra velden en acties hebben voor de fysieke afhandeling van artikelen.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
-2. Voer in het veld **Leverancier** de naam in van een bestaande leverancier.
+2. Voer in het veld **Leveranciersnaam** de naam in van een bestaande leverancier.
 
     Overige velden op de pagina **Inkoopfactuur** worden nu ingevuld met de standaardinformatie voor de geselecteerde leverancier. Als de leverancier niet is geregistreerd, volgt u deze stappen:
 
-    1. Voer in het veld **Leverancier** de naam van de nieuwe leverancier in.
+    1. Voer in het veld **Leveranciersnaam** de naam van de nieuwe leverancier in.
     2. Kies in dialoogvenster voor het registreren van de nieuwe leverancier **Ja**.
     3. Zie voor meer informatie over het invullen van de leverancierskaart [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md).  
     4. Wanneer u de leverancierskaart hebt voltooid, kiest u **OK** om terug te keren naar de pagina **Inkoopfactuur**.
@@ -79,7 +79,7 @@ De regels op een inkoopfactuur kunnen van het type **Bron** of **Artikel** zijn.
 > [!NOTE]
 > Met de inkoopregelsoort **Resource** kunt u ook externe resources aanschaffen, bijvoorbeeld om een leverancier te factureren voor geleverd werk. Meer informatie op [Resources instellen](projects-how-setup-resources.md).
 >
-> Om een gekochte resource te gebruiken moet u mogelijk de capaciteit van de resource instellen en deze handmatig aan een taak toewijzen. Als u een resource koopt, wordt er een resourcepost gemaakt, maar resourceposten worden niet bijgehouden voor hoeveelheid en waarde, zoals bijvoorbeeld artikelen. Als het bijhouden van hoeveelheden en waarden vereist is, overweeg dan om andere typen regelartikelen te gebruiken.
+> Om een gekochte resource te gebruiken moet u mogelijk de capaciteit van de resource instellen en deze handmatig aan een project toewijzen. Als u een resource koopt, wordt er een resourcepost gemaakt, maar resourceposten worden niet bijgehouden voor hoeveelheid en waarde, zoals bijvoorbeeld artikelen. Als het bijhouden van hoeveelheden en waarden vereist is, overweeg dan om andere typen regelartikelen te gebruiken.
 
 ## Wanneer inkooporders gebruiken?
 

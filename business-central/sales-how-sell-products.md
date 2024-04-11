@@ -7,7 +7,7 @@ ms.reviewer: soalex
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ U kunt zelfs direct betaalde orders voor niet-geregistreerde klanten maken door 
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer **Nieuw** om een nieuwe post te maken.
-3. Voer in het veld **Klant** de naam in van een bestaande klant.
+3. Voer in het veld **Klantnaam** de naam in van een bestaande klant.
 
     Overige velden op de pagina **Verkooporder** worden nu ingevuld met de standaardinformatie over de geselecteerde klant.  
 

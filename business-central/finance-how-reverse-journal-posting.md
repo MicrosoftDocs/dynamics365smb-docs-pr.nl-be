@@ -28,7 +28,7 @@ U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure
 > [!NOTE]
 > De post moet afkomstig zijn uit een dagboekboeking.
 >
-> U kunt ook geen posten tegenboeken die zijn ingevoerd met informatie uit een taak, of die winsten en verliezen hebben gerealiseerd binnen dezelfde transactie.
+> U kunt ook geen posten tegenboeken die zijn ingevoerd met informatie uit een project, of die winsten en verliezen hebben gerealiseerd binnen dezelfde transactie.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekposten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de post die u wilt tegenboeken en kies vervolgens de actie **Transactie tegenboeken**.

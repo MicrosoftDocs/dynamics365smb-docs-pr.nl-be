@@ -7,32 +7,27 @@ ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: 'write down, depreciate, depreciation'
 ms.search.form: '5629, 5633'
-ms.date: 09/22/2023
+ms.date: 03/25/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
+
 # Afschrijvingsmethoden voor vaste activa
 
-U hebt de beschikking over acht afschrijvingsmethoden in [!INCLUDE [prod_short](includes/prod_short.md)]:  
+[!INCLUDE [prod_short](includes/prod_short.md)] ondersteunt acht verschillende afschrijvingsmethoden voor vaste activa:
 
-* Lineair  
-* Boekwaarde 1  
-* Boekwaarde 2  
-* BW1/Lin  
-* BW2/Lin  
-* Eigen definitie  
-
-  Definieer uw eigen afschrijvingsmethode door afschrijvingstabellen te gebruiken. Voor informatie over het toepassen van een door de gebruiker gedefinieerde afschrijvingsmethode gaat u naar [Door de gebruiker gedefinieerde afschrijvingsmethode instellen](fa-how-setup-user-defined-depreciation-method.md).
-* Handmatig  
-
-  Gebruik deze handmatige methode voor activa waarop niet wordt afgeschreven, bijvoorbeeld grond. U moet afschrijving invoeren in het VA-financiële dagboek. Uit de batchverwerking **Afschrijving berekenen** worden de vaste activa weggelaten die handmatig worden afgeschreven.  
-* Halfjaarlijkse afspraak  
-
-  Deze methode schrijft een vast activum elk jaar met hetzelfde bedrag af.  
+* Lineair
+* Boekwaarde-afschrijving 1 (BW1)
+* Boekwaarde-afschrijving 2 (BW2)
+* BW1/Lin
+* BW2/Lin
+* Halfjaarlijkse afspraak
+* Handmatig
+* Door de gebruiker gedefinieerde afschrijving
 
 ## Lineaire afschrijving
 
-Als u de lineaire afschrijvingsmethode gebruikt, moet u een van de volgende opties opgeven in het afschrijvingsboek voor vaste activa:  
+Bij lineaire afschrijving schrijft u de activumwaarde af met een vast jaarlijks percentage of met een vast jaarlijks bedrag over de afschrijvingsperiode. Als u de lineaire afschrijvingsmethode gebruikt, moet u een van de volgende opties opgeven in het afschrijvingsboek voor vaste activa:  
 
 * De afschrijvingsperiode (jaren of maanden) of een einddatum voor de afschrijving  
 * Een vast jaarpercentage  
@@ -43,9 +38,9 @@ Als u de lineaire afschrijvingsmethode gebruikt, moet u een van de volgende opti
 
 Als u de afschrijvingsperiode invoert (aantal afschrijvingsjaren, aantal afschrijvingsmaanden of de einddatum voor de afschrijving), wordt de volgende formule gebruikt om het afschrijvingsbedrag te berekenen:  
 
-*Afschrijvingsbedrag = ((Boekwaarde - Restwaarde) x Aantal afschrijvingsdagen) / Resterende afschrijvingsdagen*  
+* Afschrijvingsbedrag = ((Boekwaarde - Restwaarde) x Aantal afschrijvingsdagen) / Resterende afschrijvingsdagen*  
 
-Resterende afschrijvingsdagen zijn het aantal afschrijvingsdagen min het aantal dagen tussen de begindatum van de afschrijving en de datum van de laatste post voor vaste activa.  
+De resterende afschrijvingsdagen zijn het aantal afschrijvingsdagen min het aantal dagen tussen de begindatum van de afschrijving en de datum van de laatste post voor vaste activa.  
 
 De boekwaarde kan worden verminderd door de geboekte waardevermeerdering, waardevermindering, bedragen voor vrij 1 en vrij 2. Bepalend hiervoor is of het veld **Opnemen in afschr.-berekening** is uitgeschakeld en of het veld **Deel v. boekwaarde** op de pagina **VA-boekingssoortinstellingen** is ingeschakeld. Deze berekening zorgt ervoor dat het vaste activum volledig is afgeschreven op de einddatum van de afschrijving.  
 
@@ -53,13 +48,13 @@ De boekwaarde kan worden verminderd door de geboekte waardevermeerdering, waarde
 
 Als u een vast jaarpercentage invoert, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de volgende formule om het afschrijvingsbedrag te berekenen:  
 
-*Afschrijvingsbedrag = (Lineair % x Afschrijvingsbasis x Aantal afschrijvingsdagen) / (100 x 360)*  
+* Afschrijvingsbedrag = (Lineair % x Afschrijvingsbasis x Aantal afschrijvingsdagen) / (100 x 360)*  
 
 ### Vast jaarbedrag
 
 Als u een vast jaarbedrag invoert, gebruikt [!INCLUDE [prod_short](includes/prod_short.md)] de volgende formule om het afschrijvingsbedrag te berekenen:  
 
-* *Afschrijvingsbedrag = (Vast afschrijvingsbedrag x Aantal afschrijvingsdagen) /360*  
+* Afschrijvingsbedrag = (Vast afschrijvingsbedrag x Aantal afschrijvingsdagen) /360*  
 
 ### Voorbeeld: lineaire afschrijving
 
@@ -68,14 +63,15 @@ De aanschafkosten van een vast activum bedragen LV 100.000. De verwachte levensd
 Voor dit voorbeeld ziet de post voor vaste activa er als volgt uit:  
 
 | Datum | VA-boekingssoort | Dagen | Bedrag | Boekwaarde |
-| --- | --- | --- | --- | --- |
+| ---- | --------------- | ---- | ------ | ---------- |
 | 01/01/20 |Aanschafkosten |(Begindatum afschrijving) |100,000.00 |100,000.00 |
 | 06/30/20 |Afschrijvingen |180 |-6.250,00 |93,750.00 |
 | 12/31/20 |Afschrijvingen |180 |-6.250,00 |87,500.00 |
 | 06/30/21 |Afschrijvingen |180 |-6.250,00 |81,250.00 |
-| 12/31/21 |Afschrijvingen |180 |-6.250,00 |75,000.00 |
-| 06/30/27 |Afschrijvingen |180 |-6.250,00 |6,250.00 |
-| 31-12-27 |Afschrijvingen |180 |-6.250,00 |0 |
+| 31-12-21 |Afschrijvingen |180 |-6.250,00 |75,000.00 |
+| ...      |             |    |          |          |
+| 30-06-27 |Afschrijvingen |180 |-6.250,00 |6,250.00  |
+| 31-12-27 |Afschrijvingen |180 |-6.250,00 |0         |
 
 ## Boekwaarde-afschrijving 1
 
@@ -83,7 +79,7 @@ Dit is een afschrijvingsmethode waarbij het grootste gedeelte van de kostprijs v
 
 Met de volgende formule worden afschrijvingsbedragen berekend:  
 
-* *Afschrijvingsbedrag = (Boekwaarde afschr. % x Aantal afschrijvingsdagen x Afschrijvingsbasis) / (100 x 360)*  
+* Afschrijvingsbedrag = (Boekwaarde afschr. % x Aantal afschrijvingsdagen x Afschrijvingsbasis) / (100 x 360)*  
 
 De afschrijvingsbasis wordt berekend als de boekwaarde aan het begin van het jaar. Het aantal afschrijvingsdagen bestaat uit het aantal dagen tussen de boekingsdatum en de laatste afschrijvingsdatum. [!INCLUDE [prod_short](includes/prod_short.md)] berekent de afschrijving ervan uitgaande dat alle afschrijvingen in het fiscale jaar met deze formule worden gedaan.  
 
@@ -96,7 +92,7 @@ De aanschafkosten van een vast activum bedragen LV 100.000. Het veld **Boekwaard
 In de volgende tabel ziet u hoe de posten van een vast activum eruit zien.  
 
 | Datum | VA-boekingssoort | Dagen | Bedrag | Boekwaarde |
-| --- | --- | --- | --- | --- |
+| ---- | --------------- | ---- | ------ | ---------- |
 | 01/01/20 |Aanschafkosten |(Begindatum afschrijving) |100,000.00 |100,000.00 |
 | 06/30/20 |Afschrijvingen |180 |-12.500,00 |87,500.00 |
 | 12/31/20 |Afschrijvingen |180 |-12.500,00 |75,000.00 |
@@ -108,14 +104,14 @@ In de volgende tabel ziet u hoe de posten van een vast activum eruit zien.
 | 12/31/23 |Afschrijvingen |180 |-5.273,44 |31,640.62 |
 | 06/30/24 |Afschrijvingen |180 |-3.955,08 |27,685.54 |
 | 31-12-24 |Afschrijvingen |180 |-3.955,08 |23,730.46 |
+| ...      |             |    |          |          |
 
 Berekeningsmethode:  
 
 * Jaar 1: *25% van 100.000 = 25.000 = 12.500 + 12.500*
-
 * Jaar 2: *25% van 75.000 = 18.750 = 9.375 + 9.375*
-
 * Jaar 3: *25% van 56.250 = 14.062,50 = 7.031,25 + 7.031,25*
+* ...
 
 De berekening gaat door totdat de boekwaarde gelijk is aan het maximale restbedrag na afschrijving of aan de opgegeven restwaarde.  
 
@@ -127,7 +123,7 @@ De boekwaarde van een activum is 100.000 op 31-12-2022. U boekt een afschrijving
 
 ### Voorbeeld 3: boekwaarde-afschrijving 1
 
-Als u een bedrag boekt dat niet overeenkomt met de afschrijvingsmethode Boekwaarde-afschrijving 1, bijvoorbeeld 5000, zal [!INCLUDE [prod_short](includes/prod_short.md)] het restant van het verwachte bedrag voorstellen.
+Als u een bedrag boekt dat niet overeenkomt met de afschrijvingsmethode Boekwaarde-afschrijving 1, bijvoorbeeld 5000, stelt [!INCLUDE [prod_short](includes/prod_short.md)] het restant van het verwachte bedrag voor.
 
 De boekwaarde van een activum is 100.000 op 31-12-2022. U boekt een afschrijving van 5000 op 2-2-2023, wat meer is dan het verwachte (proportionele) bedrag op 2-2-2023 op 32 dagen. Als u afschrijving uitvoert op 30-6-2023, stelt [!INCLUDE [prod_short](includes/prod_short.md)] 8222 voor, omdat er 148 dagen zijn van 2-2-2023 tot 30-6-2023. De verwachte resterende afschrijving voor 30-06-2023 wordt berekend aan de hand van de volgende formule:
 
@@ -149,13 +145,14 @@ Met de methoden Boekwaarde-afschrijving 1 en Boekwaarde-afschrijving 2 wordt voo
 
 De aanschafkosten van een vast activum bedragen LV 100.000. Het veld **Boekwaarde afschr. %** is 25. De batchverwerking **Afschrijving berekenen** wordt elk half jaar uitgevoerd. De VA-posten zien er als volgt uit:  
 
-| Datum | VA-boekingssoort | Dagen | Bedrag | Boekwaarde |
-| --- | --- | --- | --- | --- |
+| Datum     | VA-boekingssoort  | Dagen                       | Bedrag    | Boekwaarde |
+| -------- | ---------------- | -------------------------  | --------- | ---------- |
 | 01/01/20 |Aanschafkosten |(Begindatum afschrijving)|100,000.00 |100,000.00 |
-| 06/30/20 |Afschrijvingen |180 |-13.397,46 |86,602.54 |
-| 12/31/20 |Afschrijvingen |180 |-11.602,54 |75,000.00 |
-| 06/30/21 |Afschrijvingen |180 |-10.048,09 |64,951.91 |
-| 12/31/21 |Afschrijvingen |180 |-8.701,91 |56,250.00 |
+| 06/30/20 |Afschrijvingen      |180                         |-13.397,46 | 86,602.54 |
+| 12/31/20 |Afschrijvingen      |180                         |-11.602,54 | 75,000.00 |
+| 06/30/21 |Afschrijvingen      |180                         |-10.048,09 | 64,951.91 |
+| 31-12-21 |Afschrijvingen      |180                         |-8.701,91  | 56,250.00 |
+| ...      |                  |                            |           |           |
 
 Berekeningsmethode:  
 
@@ -167,16 +164,17 @@ Berekeningsmethode:
 
 De formule voor het berekenen van de afschrijvingsbedragen luidt als volgt:  
 
-*AB* = *BW* x (1 – (1 –P)<sup>D</sup>)
+* *AB* = *BW* x (1 – (1 –P)<sup>D</sup>)
 
 De afschrijvingswaarden zijn:  
 
-| Datum | Berekening |
-| --- | --- |
+| Datum     | Berekening                                                |
+| -------- | -----------                                                |
 | 06/30/20 |AB = 100.000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 13.397,46 |
 | 12/31/20 |AB = 86.602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11.602,54 |
 | 06/30/21 |AB = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
-| 31-12-21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
+| 31-12-21 |AB = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91  |
+| ...      |                                                            |
 
 ## BW1/Lineaire afschrijving
 
@@ -195,7 +193,7 @@ Als u deze methode gebruikt, moet u de verwachte gebruiksduur en een boekwaarde-
 
 ### Voorbeeld: boekwaarde 1/Lineaire afschrijving
 
-De aanschafkosten van een vast activum bedragen LV 100.000. Op de pagina **VA-afschrijvingsboeken** bevat het veld **Boekwaarde afschr. %** 25, en het veld **Aantal afschr.-jaren** 8. De batchverwerking **Afschrijving berekenen** wordt elk half jaar uitgevoerd.  
+De aanschafkosten van een vast activum bedragen LV 100.000. Op de pagina **VA-afschrijvingsboeken** bevat het veld **Boekwaarde afschr. %** 25, en het veld **Aantal afschr.-jaren** **8**. De batchverwerking **Afschrijving berekenen** wordt elk half jaar uitgevoerd.  
 
 De VA-posten zien er als volgt uit:  
 
@@ -229,27 +227,27 @@ Berekeningsmethode:
 
     *Lineair afschrijvingsbedrag = 100.000/8 = 12.500 + 6.250 + 6.250*  
 
-    Het boekwaarde-afschrijvingsbedrag wordt gebruikt, omdat dit het hoogste bedrag is.  
-
+    Het boekwaarde-afschrijvingsbedrag wordt gebruikt omdat dit het hoogste bedrag is.  
+* ...
 * Jaar 5 (2025):  
 
     *Boekwaarde-afschrijvingsbedrag: 25% van 23,730.46 = 4,943.85 = 2,471.92 + 2,471.92*  
 
-    *Lineair afschrijvingsbedrag = 23.730,46/3 = 7.910,15 = 3.995,07 + 3.995,08*  
+    *Lineair afschrijvingsbedrag = 23,730.46/3 = 7,910.15 + 3,995.07 + 3,995.08*  
 
     Het lineaire afschrijvingsbedrag wordt gebruikt, omdat dit het hoogste bedrag is.  
 
 ## Afschrijving volgens halfjaarlijkse afspraak
 
-De halfjaarlijkse afspraak wordt alleen toegepast als het veld **Halfjaarlijkse afspraak nemen** op de pagina **VA-afschrijvingsboeken** is ingeschakeld.  
+De methode van halfjaarlijkse afspraak wordt alleen toegepast als u de schakeloptie **Halfjaarlijkse afspraak gebruiken** voor het vaste activum op de pagina **Vast activum** inschakelt.  
 
-Deze afschrijvingsmethode kan worden gebruikt met de volgende afschrijvingsmethoden:  
+U kunt deze afschrijvingsmethode met de volgende afschrijvingsmethoden gebruiken:  
 
 * Lineair  
 * Boekwaarde 1  
 * BW1/Lin  
 
-Als u de halfjaarlijkse afspraak toepast, heeft een vast activum een afschrijving van zes maanden in het eerste boekjaar, ongeacht de inhoud van het veld **Begindatum afschrijving**.  
+Als u de methode van halfjaarlijkse afspraak toepast, heeft een vast activum een afschrijving van zes maanden in het eerste boekjaar, ongeacht de inhoud van het veld **Begindatum afschrijving**.  
 
 > [!NOTE]  
 > De verwachte levensduur van een vast activum na het eerste boekjaar, bedraagt altijd een half jaar bij de halfjaarlijkse afspraak. Om de halfjaarlijkse afspraak dus juist toe te passen, moet het veld **Einddatum afschr.** op de pagina **VA-afschrijvingsboek** altijd een datum bevatten die precies zes maanden voor de laatste datum van het boekjaar ligt waarin het vaste activum volledig wordt afgeschreven.  
@@ -294,26 +292,26 @@ Berekeningsmethode:
 
     *Boekwaarde-afschrijvingsbedrag = Volledig jaarbedrag = 40% van 100.000 = 40.000.* Voor een half jaar is dit dus 40.000/2 = 20.000  
 
-    *Lineair bedrag = Volledig jaarbedrag = 100.000/5 = 20.000.* Voor een half jaar is dit dus 20.000/2 = 10.000  
+    *Lineair bedrag = Volledig jaarbedrag = 100.000/5 = 20.000.* Voor een half jaar is dit dus 20.000 / 2 = 10.000  
 
     Het boekwaarde-afschrijvingsbedrag wordt gebruikt omdat dit het hoogste bedrag is.  
-
+* ...
 * Jaar 5 (2024):  
 
     *Boekwaarde-afschrijvingsbedrag = 40% van 17.280,00 = 6.912,00*  
 
-    *Lineair afschrijvingsbedrag = 28.800 / 1,5 = 11.520,00*  
+    *Lineair bedrag = 28.800/1,5 = 11.520,00*  
 
     Het lineaire afschrijvingsbedrag wordt gebruikt, omdat dit het hoogste bedrag is.  
 
-## Posten dupliceren naar meer afschrijvingsboeken
+## Posten dupliceren naar andere afschrijvingsboeken
 
-Als er drie afschrijvingsboeken zijn, B1, B2 en B3, en u wilt posten uit B1 naar B2 en B3 dupliceren, schakelt u het selectievakje **Deel v. duplicatielijst** in op de kaarten voor de afschrijvingsboeken B2 en B3. Deze instelling kan bijvoorbeeld handig zijn in de volgende situaties:
+Als er drie afschrijvingsboeken zijn, B1, B2 en B3, en u wilt posten uit B1 naar B2 en B3 dupliceren, schakelt u de schakeloptie **Deel van duplicatielijst** in op de kaarten voor de afschrijvingsboeken B2 en B3. Deze instelling kan bijvoorbeeld handig zijn in de volgende situaties:
 
 * Afschrijvingsboek B1 is geïntegreerd met het grootboek en maakt gebruik van het grootboekjournaal voor vaste activa.
 * Afschrijvingsboeken B2 en B3 zijn geïntegreerd met het grootboek en maken gebruik van het grootboekjournaal voor vaste activa.  
 
-Als u een post boekt in B1 in het financieel dagboek voor vaste activa en het selectievakje **Duplicatielijst gebruiken** inschakelt, dupliceert [!INCLUDE [prod_short](includes/prod_short.md)] de post tijdens het boeken naar B2 en B3 in het dagboek voor vaste activa.  
+Als u een post boekt in B1 in het financieel dagboek voor vaste activa en de schakeloptie **Deel van duplicatielijst** inschakelt, dupliceert [!INCLUDE [prod_short](includes/prod_short.md)] de post naar B2 en B3 in het dagboek voor vaste activa wanneer u de post boekt.  
 
 > [!NOTE]  
 > U kunt niet in hetzelfde dagboek en dezelfde dagboekbatch dupliceren als waar u vanuit dupliceert. Als u posten in het financieel dagboek voor vaste activa boekt, kunt u deze met behulp van een andere batch dupliceren in het dagboek voor vaste activa of in het financieel dagboek voor vaste activa.  
@@ -321,9 +319,17 @@ Als u een post boekt in B1 in het financieel dagboek voor vaste activa en het se
 > [!NOTE]  
 > U kunt niet dezelfde nummerreeks gebruiken in het financieel dagboek voor vaste activa en het dagboek voor vaste activa. Wanneer u posten in het VA-financieel dagboek boekt, moet u het veld **Documentnr.** leeg laten. Als u een getal in het veld invoert, wordt het getal gedupliceerd in het VA-dagboek. U moet het documentnummer handmatig wijzigen voordat u het dagboek kunt boeken.  
 
+## Handmatige afschrijving
+
+Gebruik deze handmatige methode voor activa waarop niet wordt afgeschreven, bijvoorbeeld grond. U moet afschrijving invoeren in het VA-financiële dagboek. Uit de batchverwerking **Afschrijving berekenen** worden de vaste activa weggelaten die handmatig worden afgeschreven.
+
+## Door de gebruiker gedefinieerde afschrijving
+
+Als de ingebouwde afschrijvingsmethoden niet aan uw behoeften voldoen, kunt u uw eigen afschrijvingsmethode definiëren met behulp van afschrijvingstabellen. Voor informatie over het toepassen van een door de gebruiker gedefinieerde afschrijvingsmethode gaat u naar [Door de gebruiker gedefinieerde afschrijvingsmethode instellen](fa-how-setup-user-defined-depreciation-method.md).
+
 ## Zie ook
 
-[Vaste activa](fa-manage.md)  
+[Overzicht van vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  

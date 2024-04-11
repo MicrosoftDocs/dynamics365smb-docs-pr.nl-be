@@ -8,15 +8,17 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/25/2023
+ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
 # Bankrekeningen reconciliëren met Copilot (preview)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
 In dit artikel wordt uitgelegd hoe u hulp bij het afstemmen van bankrekeningen kunt gebruiken om banktransacties af te stemmen met grootboekposten in Business Central.
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## Over hulp bij bankrekeningreconciliatie
 
@@ -25,7 +27,7 @@ Hulp bij bankrekeningreconciliatie is een reeks door AI aangedreven functies die
 - Verbeterde afstemming van transacties met grootboekposten
 
    U bent wellicht al vertrouwd met de actie **Automatisch afstemmen** op de pagina **Bankreconciliatie**, waarmee de meeste banktransacties automatisch worden afgestemd met grootboekposten. We noemen deze bewerking *automatisch afstemmen*. Hoewel automatisch afstemmen goed werkt, kunnen de algoritmen die het gebruikt, soms resulteren in veel niet-afgestemde transacties. Copilot gebruikt AI-technologie om resterende transacties te inspecteren en meer overeenkomsten te identificeren, op basis van de datums, bedragen en beschrijvingen. Als bijvoorbeeld meerdere facturen als één forfaitair bedrag door een klant zijn betaald, stemt Copilot de enkele bankafschriftregel af met de meerdere factuurposten.
-   
+
    Ga naar [Bankrekeningen reconciliëren met Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Voorgestelde grootboekrekeningen
@@ -34,11 +36,9 @@ Hulp bij bankrekeningreconciliatie is een reeks door AI aangedreven functies die
   
    Ga naar [Niet-afgestemde banktransacties overbrengen naar voorgestelde grootboekrekeningen](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-
-   
 ## Vereisten
 
-- Hulp bij bankrekeningreconciliatie is ingeschakeld en geactiveerd. Deze taak wordt uitgevoerd door een beheerder. [Meer informatie over het inschakelen van Copilot- en AI-mogelijkheden](enable-ai.md).
+- Hulp bij bankrekeningreconciliatie is geactiveerd. Deze taak wordt uitgevoerd door een beheerder. [Meer informatie over het configureren van Copilot- en AI-mogelijkheden](enable-ai.md).
 - Bankrekeningen in Business Central die u wilt reconciliëren, zijn gekoppeld aan een online bankrekening of zijn ingesteld met het importformaat voor bankafschriften. 
 - U bent bekend met bankrekeningreconciliatie in Business Central, zoals beschreven in [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md). 
 

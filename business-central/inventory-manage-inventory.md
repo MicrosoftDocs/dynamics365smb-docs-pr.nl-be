@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
 # Voorraad beheren
 
-Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het type **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
+Voor elk fysiek product dat u verhandelt, moet u een artikelkaart van het type **Voorraad** maken. Artikelen die u aan klanten aanbiedt maar niet in voorraad houdt, kunt u als catalogusartikelen registreren, die u indien nodig naar voorraadartikelen kunt converteren. U kunt de hoeveelheid van een artikel in voorraad verhogen of verlagen door rechtstreeks naar de artikelposten te boeken, bijvoorbeeld na een fysieke telling of als u geen inkopen registreert.
 
 Positieve en negatieve voorraadmutaties worden natuurlijk ook geregistreerd wanneer u respectievelijk inkoop- en verkoopdocumenten boekt. Zie voor meer informatie [Inkopen registreren](purchasing-how-record-purchases.md), [Producten verkopen](sales-how-sell-products.md) en [Verkopen factureren](sales-how-invoice-sales.md). De transfers tussen vestigingen wijzigen de voorraadaantallen in alle magazijnen van het bedrijf.
 
@@ -56,11 +56,11 @@ De volgende tabel geeft een overzicht van gerelateerde taken.
 
 ## Zie ook
 
-[Overzicht van magazijnbeheer](design-details-warehouse-management.md)
-[Inkoop](purchasing-manage-purchasing.md)  
-[Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
+[Overzicht van magazijnbeheer](design-details-warehouse-management.md)    
+[Inkoop](purchasing-manage-purchasing.md)    
+[Verkoop](sales-manage-sales.md)    
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

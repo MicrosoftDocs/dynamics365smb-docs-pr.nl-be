@@ -2,20 +2,20 @@
 title: Nieuwe klanten registreren door een klantenkaart te maken (bevat video)
 description: Beschrijft hoe u een klantenkaart maakt om informatie te registreren over elke nieuwe klant of cliënt aan wie u verkoopt.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
 ms.search.keywords: 'client, customer, credit'
 ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
-ms.date: 11/01/2023
-ms.author: bholtorf
+ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Nieuwe klanten registreren
 
 Klanten zijn uw bron van uw inkomsten. U moet elke klant aan wie u verkoopt registreren als een klantenkaart. Klantenkaarten bevatten de informatie die is vereist om producten aan de klant te verkopen. Zie voor meer informatie [Verkopen factureren](sales-how-invoice-sales.md) en [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
 
 Voordat u nieuwe klanten kunt vastleggen, moet u verschillende verkoopcodes instellen waaruit u kunt kiezen bij het invullen van klantenkaarten. Zie voor meer informatie [Verkopen instellen](sales-setup-sales.md).
-
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
@@ -80,6 +80,14 @@ U kunt ervoor kiezen om geen waarschuwingen te ontvangen wanneer de kredietlimie
     |**Kredietlimiet**|De waarde in het veld **Kredietlimiet** op de klantenkaart wordt vergeleken met het klantsaldo en er wordt een waarschuwing weergegeven als het klantsaldo dit bedrag overschrijdt.|
     |**Openstaand saldo**|Het veld **Openstaand bedrag** op de klantenkaart wordt ingeschakeld en er wordt een waarschuwing weergegeven als de klant een openstaand saldo heeft.|
     |**Geen**|Er worden geen kredietwaarschuwingen weergegeven over de status van de klant.|
+
+## Een verkoper toewijzen
+
+U kunt verkopers toewijzen aan het verzendadres van de klant in plaats van hun factuuradres, zodat uw verkooprapporten de werkelijke geografische spreiding van uw verkopen weerspiegelen. Door een verkoper aan het verzendadres van een klant toe te wijzen, krijgt u nauwkeurigere inzichten en wordt de toewijzing van middelen geoptimaliseerd.
+
+Wijs een verkoper toe op de kaartpagina **Klant** door **Klant** te kiezen en dan **Verzendadressen** om de pagina **Lijst met verzendadressen** te te openen. Kies **Beheren** en dan **Bewerken** om de pagina **Verzendadres** te openen. Voer een **Verkoperscode** in of kies een code om de verkoper te selecteren.
+
+Wanneer u kiest voor de optie **Alternatief verzendadres** als een **Verzend**locatie op een verkoopdocument, wordt de **Verkoperscode** bijgewerkt om overeen te komen met de verkoper van het **Verzendadres** in plaats van het **Factuuradres**. 
 
 ## Zie ook
 

@@ -5,14 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 09/25/2023
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Een bedrijfsconsolidatie instellen
+# Bedrijfsconsolidatie instellen
 
 Voordat u de grootboekposten van twee of meer bedrijven (dochterondernemingen) in een geconsolideerd bedrijf kunt consolideren, moet u de rekeningschema's en het consolidatiebedrijf voorbereiden.  
 
@@ -75,6 +75,19 @@ Een groot deel van het opzetten van de bedrijfsunit bestaat uit het specificeren
 > [!NOTE]
 > Met de API-optie kunt u ook grootboekposten delen uit andere [!INCLUDE [prod_short](includes/prod_short.md)]-omgevingen. Om de API-optie te kunnen gebruiken moet de gebruiker die de consolidatie configureert, toestemming hebben voor toegang tot grootboekposten. De machtigingensets D365 Basis en D365 Lezen bieden bijvoorbeeld toegang.
 
+#### Valuta's van bedrijfsunit instellen
+
+Wanneer u consolidatie uitvoert voor bedrijfsunits die een vreemde valuta gebruiken, moet u speciale aandacht besteden aan de wisselkoersen die in verschillende delen van het proces worden gebruikt, en nog meer wanneer u de consolidatie opnieuw uitvoert. Gebruik hiervoor de pagina **Valuta's van bedrijfsunit instellen** om eenvoudig de koersen bij te houden.
+
+Op de pagina **Valuta's van bedrijfsunit instellen** vindt u de laatste koersen voor de gemiddelde koers, de wisselkoers en de laatste wisselkoers. U kunt de wisselkoersen opzoeken in de tabel met wisselkoersen, waardoor u de koersen gemakkelijker kunt valideren. U kunt de koersen voor de huidige uitvoering wijzigen door de waarden in te voeren of deze uit eerdere uitvoeringen te kopiëren. Als u koersen wilt kopiëren, kiest u **Selecteren uit vorige consolidatie**. Deze pagina is met name waardevol als u een eerdere consolidatie opnieuw wilt uitvoeren, waarbij u een eerdere wisselkoers moet gebruiken. Dit is nodig om uw balansposten correct te kunnen herwaarderen. De pagina **Selecteren uit vorige consolidatie** is ook handig als u alleen de koersen wilt bekijken die zijn gebruikt, bijvoorbeeld bij het oplossen van problemen. De pagina wordt gefilterd op uitvoeringen die de geselecteerde bedrijfsunit omvatten.
+
+U start de batchverwerking **Consolidatie uitvoeren** vanaf de lijstpagina **Bedrijfsunits**. U kunt de pagina **Valuta's van bedrijfsunit instellen** ook vinden door de actie **Wisselkoersen** te kiezen.
+
+> [!NOTE]
+> De pagina's voor het instellen van Gemiddelde koers, Wisselkoers en Laatste wisselkoers die momenteel beschikbaar zijn op de kaart **Bedrijfsunit**, worden in een toekomstige versie afgeschaft. U kunt deze koersen echter nog steeds behouden als u bedrijfsunits hebt die u via bestanden importeert.
+
+#### Een bedrijfsunit maken
+
 1. Meld u aan bij het geconsolideerde bedrijf.
 2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsunits** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies **Nieuw** en vul vervolgens de verplichte velden in op de sneltabbladen **Algemeen** en **Grootboekrekeningen**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -100,7 +113,7 @@ Als het rekeningschema van de bedrijfsunit afwijkt van dat van het geconsolideer
 
 ### <a name="exchrates"></a>Wisselkoersen opgeven voor consolidaties
 
-Als een bedrijfsunit een andere valuta dan het geconsolideerde bedrijf gebruikt, moet u wisselkoersmethoden voor elke rekening opgeven voordat u de consolidatie uitvoert. Voor elke rekening bepaalt de inhoud van het veld **Consol.-vertaalmethode** de wisselkoers. Op elke bedrijfsunitkaart specificeert u in het veld **Wisselkoerstabel** of de consolidatie de wisselkoersen van de bedrijfsunit of van het geconsolideerde bedrijf moet gebruiken. Als u de wisselkoersen van het geconsolideerde bedrijf gebruikt, kunt u de wisselkoersen wijzigen voor een bedrijfseenheid. Als het veld **Wisselkoerstabel** op de bedrijfsunitkaart de waarde **Lokaal** bevat, kunt u de wisselkoers van de bedrijfsunitkaart wijzigen. De wisselkoersen worden overgenomen uit de tabel **Valutawisselkoers**, maar u kunt ze vóór de consolidatie wijzigen.
+Als een bedrijfsunit een andere valuta dan het geconsolideerde bedrijf gebruikt, moet u wisselkoersmethoden voor elke rekening opgeven voordat u de consolidatie uitvoert. Voor elke rekening bepaalt de inhoud van het veld **Consol.-vertaalmethode** de wisselkoers. In het geconsolideerde bedrijf geeft u op elke bedrijfsunitkaart in het veld **Wisselkoerstabel** op of in de consolidatie de wisselkoersen van de bedrijfsunit of van het geconsolideerde bedrijf moeten worden gebruikt. Als u de wisselkoersen van het geconsolideerde bedrijf gebruikt, kunt u de wisselkoersen wijzigen voor een bedrijfseenheid. Als het veld **Wisselkoerstabel** op de bedrijfsunitkaart de waarde **Lokaal** bevat, kunt u de wisselkoers van de bedrijfsunitkaart wijzigen. De wisselkoersen worden overgenomen uit de tabel **Valutawisselkoers**, maar u kunt ze vóór de consolidatie wijzigen.
 
 In de volgende tabel worden de wisselkoersmethoden beschreven die u voor rekeningen kunt gebruiken.
 
@@ -113,13 +126,11 @@ In de volgende tabel worden de wisselkoersmethoden beschreven die u voor rekenin
 |Samengestelde koers | De bedragen van de huidige periode worden vertaald tegen de gemiddelde koers en worden toegevoegd aan de eerder geregistreerde balans in het geconsolideerde bedrijf. Normaal gesproken gebruikt u deze methode voor ingehouden winstrekeningen. Deze rekeningen bevatten bedragen uit verschillende perioden en bevatten dus bedragen die zijn omgerekend met verschillende wisselkoersen.|
 |Aandelenkoers | Deze optie lijkt op **Samengestelde koers**. Verschillen worden geboekt naar verschillende grootboekrekeningen.|
 
-Ga als volgt te werk om wisselkoersen voor bedrijfsunits op te geven:
+Ga als volgt te werk om wisselkoersen voor een bedrijfsunit op te geven:
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsunits** in en kies vervolgens de gerelateerde koppeling.  
-2. Kies op de pagina **Overzicht bedrijfsunits** de bedrijfsunit en kies vervolgens de actie **Gemiddelde koers (Handmatig)**.  
-3. Op de pagina **Wisselkoers wijzigen** is de inhoud van het veld **Gerel. wisselkoers** gekopieerd uit de tabel **Valutawisselkoers**, maar u kunt deze wijzigen. Sluit de pagina.  
-4. Kies de actie **Wisselkoers (Balans)**.  
-5. Voer in het veld **Gerel. wisselkoersbedrag** de wisselkoers in.
+2. Kies op de pagina **Overzicht bedrijfsunits** de bedrijfsunit en kies vervolgens de actie **Wisselkoersen**.  
+3. Vul op de pagina **Valuta's van bedrijfsunit instellen** indien nodig de velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="dim"></a>Dimensies opnemen of uitsluiten
 

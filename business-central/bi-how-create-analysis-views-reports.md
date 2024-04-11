@@ -1,24 +1,24 @@
 ---
-title: Analyselijsten maken
+title: Analyserapporten maken
 description: 'Beschrijft hoe u nieuwe analyselijsten maakt voor verkopen, inkopen en voorraad, en analysesjablonen instelt.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Analyselijsten maken
+# Analyserapporten maken
 
 Verkoopmanagers moeten de omzet, de brutowinst en andere belangrijke indicatoren voor verkoopprestaties regelmatig analyseren. Inkopers zijn meer geïnteresseerd in de dynamiek van inkoopvolumes, prestaties van leveranciers en inkoopprijzen. Logistieke managers zijn gebaat bij gegevens over de omloopsnelheid van de voorraad, analyses van voorraadverplaatsingen en statistieken over de voorraadwaarde. Er is dus geen analyselijst die voor alle doeleinden kan worden gebruikt.
 
-U kunt analyselijsten aanpassen op basis van uw records van geboekte transacties, bijvoorbeeld verkoop, inkoop, transfers en voorraadherwaarderingen. In persoonlijke lijsten kunt u de brongegevens, die worden afgeleid van artikelposten (met bijbehorende waardeposten), combineren, vergelijken en presenteren op de door u gewenste manier. In deze zin lijkt de analyselijst in grote mate op een draaitabelrapport in Microsoft Excel.  
+U kunt analyselijsten aanpassen op basis van uw records van geboekte transacties, bijvoorbeeld verkoop, inkoop, transfers en voorraadherwaarderingen. In persoonlijke lijsten kunt u de brongegevens, die worden afgeleid van artikelposten (met bijbehorende waardeposten), combineren, vergelijken en presenteren op de door u gewenste manier. In dit verband lijkt de analyselijst op een draaitabelrapport in Microsoft Excel.  
 
 U kunt bijvoorbeeld een persoonlijke lijst maken die zich richt op uw belangrijkste accounts voor wat betreft totale productomzet in verkochte bedragen en hoeveelheden, brutowinst en brutowinstpercentage gedurende de huidige maand. Dan kunt u die cijfers laten vergelijken met de resultaten van voorgaande maanden of dezelfde maand vorig jaar, en afwijkingen laten berekenen. Dit kan allemaal in één weergave, wat u de mogelijkheid geeft om te navigeren naar de oorzaak van geïdentificeerde probleemgebieden en zelfs door de vervolgkeuzeknop te kiezen om in te zoomen op details tot op het niveau van afzonderlijke transacties.  
 
-De analyselijst bestaat uit de te analyseren objecten (bijvoorbeeld klanten, klantgroepen, verkopers, enzovoort, weergegeven als regels) en de analyseparameters. Dat is de wijze waarop u het object wilt analyseren (bijvoorbeeld winstberekeningen, periodieke vergelijkingen van totale omzet en volumes of periodieke vergelijkingen van werkelijke en gebudgetteerde cijfers, weergegeven als kolommen). 
+De analyselijst bestaat uit de te analyseren objecten (bijvoorbeeld klanten, klantgroepen, verkopers enzovoort, weergegeven als regels) en de analyseparameters. Dat is de wijze waarop u het object wilt analyseren (bijvoorbeeld winstberekeningen, periodieke vergelijkingen van totale omzet en volumes of periodieke vergelijkingen van werkelijke en gebudgetteerde cijfers, weergegeven als kolommen). 
 
 Naast analyselijsten kunt u soortgelijke informatie maken en weergeven in analyseweergaven (gebaseerd op dimensies). Meer informatie vindt u op [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md).
 
@@ -95,7 +95,7 @@ Met analyselijsten kunt u de dynamiek van uw omzet analyseren op basis van indic
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopanalyselijsten** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Analyserapport verkoop** de actie **Nieuw**.
-3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de actie **Analyserapport bewerken**.
 5. Kies op de pagina **Verkoopanalyserapport** de actie **Matrix weergeven**.  
 

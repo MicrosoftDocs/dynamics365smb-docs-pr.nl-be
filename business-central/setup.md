@@ -30,7 +30,7 @@ Naast de begeleide instellingen kan sommige functionaliteit, zowel algemene als 
 | De regels en waarden configureren die het inkoopbeleid van uw bedrijf vormen, nieuwe leveranciers registreren en aan uw leveranciers prioriteiten toekennen voor voor betalingverwerking. |[Inkoop instellen](purchasing-setup-purchasing.md) |
 | Configureer de regels en waarden die het voorraadbeleid van uw bedrijf vormen, locaties configureren als u voorraden aanhoudt in verschillende magazijnen en uw artikelen categoriseren om het zoeken en sorteren te verbeteren. |[Voorraad instellen](inventory-setup-inventory.md) |
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie voor documenten](across-report-selections.md)|
-| Resources, urenstaten en taken instellen om projecten te beheren. |[Projectbeheer instellen](projects-setup-projects.md) |
+| Resources, urenstaten en projecten instellen om projecten te beheren. |[Projectbeheer instellen](projects-setup-projects.md) |
 | Configureren hoe u vaste activa wilt verzekeren, onderhouden en afschrijven en instellen hoe u de kosten van vaste activa in de boekhouding van uw bedrijf vastlegt. |[Vaste activa instellen](fa-setup.md) |
 |De algemene regels en waarden voor magazijnprocessen en de specifieke afhandeling op iedere vestiging definiëren.|[Magazijnbeheer instellen](warehouse-setup-warehouse.md)|
 |Productiestuklijsten en bewerkingsplannen voorbereiden om te bepalen hoe eindartikelen worden geproduceerd en bewerkingsplaatsen of afdelingen voorbereiden om de vereiste bewerkingen uit te voeren.|[Productie instellen](production-configure-production-processes.md)|

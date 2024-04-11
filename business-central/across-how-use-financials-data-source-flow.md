@@ -107,7 +107,7 @@ Het maken van nieuwe stromen of het wijzigen en beheren van bestaande (zoals aan
 Deze taken worden meestal uitgevoerd door een beheerder of supergebruiker. De taken vereisen een bredere kennis van de bedrijfsprocessen in [!INCLUDE[prod_short](includes/prod_short.md)]. Ga voor meer informatie naar de volgende artikelen in de Help voor Business Central-ontwikkelaars en de IT Pro Help:
 
 - [Power Automate-integratie](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
-- [Geautomatiseerde stromen maken](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (heeft ook betrekking op goedkeuringsstromen)
+- [Geautomatiseerde stromen maken](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) (heeft ook betrekking op goedkeuringsstromen)
 - [Directe stromen maken](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Power Automate-stromen beheren](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 

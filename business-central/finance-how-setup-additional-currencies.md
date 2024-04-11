@@ -12,16 +12,15 @@ ms.service: dynamics-365-business-central
 ---
 # Een extra rapportagevaluta instellen.
 
-Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij de financiële gegevens in meer dan één valuta kunnen controleren en rapporteren.
+Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat ze de financiële gegevens in meer dan één valuta kunnen controleren en rapporteren.
 
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] wordt dit valuta genoemd als u op zoek bent naar realtime informatie over wisselkoersen of historische koersen. Zie naast dit artikel ook [Valutawisselkoersen bijwerken](finance-how-update-currencies.md).
 
-
 Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het ook instellen om een andere valuta te gebruiken, waaraan een huidige wisselkoers is toegewezen. Door een tweede valuta in te stellen als een zogenaamde aanvullende rapportagevaluta, legt [!INCLUDE[prod_short](includes/prod_short.md)] bedragen automatisch vast in zowel de LV als deze aanvullende rapportagevaluta voor elke grootboekpost en andere posten, zoals btw-posten.
 
 > [!Warning]
-> De functionaliteit Extra rapportagevaluta maken moet niet worden gebruikt als een basis voor vertaling van financiële overzichten, tenzij u de beperkingen begrijpt. Het is geen programma dat een vertaling kan uitvoeren van financiële overzichten van buitenlandse dochterondernemingen als onderdeel van een bedrijfsconsolidatie. De extra rapportagevalutafunctie kan alleen worden gebruikt om rapporten in een andere valuta voor te bereiden, alsof die valuta de lokale valuta van het bedrijf was.
+> De functionaliteit Extra rapportagevaluta maken moet niet worden gebruikt als een basis voor vertaling van financiële overzichten, tenzij u de beperkingen begrijpt. Met deze functie kunnen geen financiële overzichten van buitenlandse dochterondernemingen als onderdeel van een bedrijfsconsolidatie worden vertaald. De extra rapportagevalutafunctie kan alleen worden gebruikt om rapporten in een andere valuta voor te bereiden, alsof die valuta de lokale valuta van het bedrijf was.
 >
 > U hebt bijvoorbeeld een groot aantal debiteuren in Britse ponden (GBP) en u hebt uw aanvullende rapportagevaluta (ACY) ingesteld op GBP. In dit scenario worden bedragen in de debiteuren die GBP gebruiken niet gecorrigeerd voor valutakoerswinsten/-verliezen in de aanvullende rapportagevaluta, alleen bedragen op de debiteuren die in andere valuta's zijn. Dat betekent dat als u aanvullende rapportagevaluta gebruikt om uw financiële overzichten te rapporteren, dit kan leiden tot te lage of te hoge uitstaande saldi van debiteuren.
 
@@ -31,7 +30,7 @@ Het gebruik van een extra rapportagevaluta kan in de volgende gevallen hulp bied
 - Bedrijven in landen/regio's die niet bij de EU horen en die grote hoeveelheden transacties aangaan met bedrijven in EU-landen/regio's. In dit geval wil het bedrijf buiten de EU mogelijk tevens in euro rapporteren om de financiële rapporten beter bruikbaar te maken voor handelspartners in de EU.
 - Bedrijven die tevens rapporten in een internationale handelsvaluta in plaats van hun eigen lokale valuta willen weergeven.
 
-Verschillende financiële rapporten worden gebaseerd op grootboekposten. Als u rapportgegevens in de extra rapportagevaluta wilt weergeven, plaatst u eenvoudigweg een vinkje in het veld **Bedragen in rapp.-valuta weergeven** van het sneltabblad **Opties** voor het betreffende grootboekrapport.
+Verschillende financiële rapporten worden gebaseerd op grootboekposten. Als u rapportgegevens in de extra rapportagevaluta wilt weergeven, schakelt u het selectievakje **Bedragen in rapportagevaluta weergeven** van het sneltabblad **Opties** in voor het betreffende grootboekrapport.
 
 ## Wisselkoersen corrigeren
 
@@ -105,7 +104,7 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
 5. De batchtaak **Rapp.-val. herwaarderen** wordt geopend.
 
     Met deze batchverwerking worden LV-bedragen van bestaande posten geconverteerd in de rapportagevaluta. Voor de batchverwerking wordt een standaardwisselkoers gebruikt die gekopieerd wordt van de wisselkoers die geldig is op de werkdatum op de pagina **Valutawisselkoersen**. Verschillenbedragen die ontstaan bij de conversie van LV naar de rapportagevaluta worden geboekt naar de verschillenrekeningen (winst of verlies) die zijn opgegeven op de pagina **Valuta's**. De boekingsdatum en het documentnummer van deze posten zijn gelijk aan de oorspronkelijke grootboekpost. Nadat alle verschilposten zijn geboekt, boekt de batchverwerking vervolgens een afrondingspost op de sluitdatum van elk afgesloten jaar naar de rekening voor ingehouden winst. Hiermee wordt ervoor gezorgd dat het eindsaldo van de resultatenrekeningen voor elk afgesloten jaar 0 is voor de LV en de rapportagevaluta.
-6. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Kies **OK** om de batchverwerking te starten.  
 
 Nadat u de batchverwerking hebt uitgevoerd, staan de bedragen van de volgende bestaande posten zowel in de LV als in de rapportagevaluta:  

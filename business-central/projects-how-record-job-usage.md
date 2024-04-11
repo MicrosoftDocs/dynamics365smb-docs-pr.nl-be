@@ -3,15 +3,15 @@ title: Verbruik of gebruik van projectresources en -artikelen registreren
 description: In dit artikel wordt beschreven hoe u het verbruik of gebruik van artikelen of resources voor projecten registreert in projectbeheer.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ---
 # Verbruik of gebruik voor projecten registreren
 
-Vanaf de pagina **Projectkaart** kunt u de pagina **Taakplanningsregels** openen om het gebruik van verschillende onderdelen van uw project te bekijken en vast te leggen. Deze informatie wordt automatisch bijgewerkt wanneer u informatie wijzigt en overdraagt tussen projecten en projectdagboeken of projectfacturen. Dit vereist dat u de optie **Gebruikslink standaard toepassen** inschakelt op de pagina **Projectinstellingen**. Meer informatie op [Projecten instellen](projects-how-setup-jobs.md).  
+Vanaf de pagina **Projectkaart** kunt u de pagina **Projectplanningsregels** openen om het gebruik van verschillende onderdelen van uw project te bekijken en vast te leggen. Deze informatie wordt automatisch bijgewerkt wanneer u informatie wijzigt en overdraagt tussen projecten en projectdagboeken of projectfacturen. Dit vereist dat u de optie **Gebruikslink standaard toepassen** inschakelt op de pagina **Projectinstellingen**. Zie voor meer informatie [Projecten instellen](projects-how-setup-jobs.md).  
 
 Zo kunt u bijvoorbeeld voor planningsregels van het type **Budget** de hoeveelheid van een resource invoeren en aangeven welke hoeveelheid moet worden overgebracht naar het projectdagboek. Als het type van de planningsregel **Factureerbaar** is, kunt u de hoeveelheid van de resource invoeren en aangeven welke hoeveelheid moet worden overgebracht naar een factuur. Zie voor meer informatie over het factureren van de klant [Projecten factureren](projects-how-invoice-jobs.md). Door de oorspronkelijke hoeveelheid, de resterende hoeveelheid of de geboekte hoeveelheid te vergelijken, kunt u snel gebruiksinformatie bekijken. Voor informatie over het inschatten van gebudgetteerde waarden tijdens planning raadpleegt u [Projectbudgetten beheren](projects-how-manage-budgets.md).  
 
@@ -19,7 +19,7 @@ In de volgende procedures wordt beschreven hoe u werkelijke (gebudgetteerde) hoe
 
 ## Gebruik vastleggen voor een projectplanningsregel van het soort Budget
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het project en kies vervolgens de actie **Projectplanningsregels**. 
 3. Selecteer een projectplanningsregel van het soort **Budget** of het soort **Budget en factureerbaar** waarvoor u gebruik wilt vastleggen.   
 
@@ -32,8 +32,8 @@ In de volgende procedures wordt beschreven hoe u werkelijke (gebudgetteerde) hoe
 5. Kies de actie **Projectdagboekregels maken**.
 
     > [!TIP]
-    > Als u meer taakplanningsregels voor deze taak gaat toevoegen, wacht dan met deze stap totdat u alle taakplanningsregels hebt toegevoegd.
-6. Vul op de pagina **Projectplanningsregel taakoverdracht** de velden in zoals gewenst en kies vervolgens de knop **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+    > Als u meer projectplanningsregels voor dit project gaat toevoegen, wacht dan met deze stap totdat u alle projectplanningsregels hebt toegevoegd.
+6. Vul op de pagina **Projectplanningsregel projectoverdracht** de velden in zoals gewenst en kies vervolgens de knop **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Kies de actie **Projectdagboek openen**.  
 8. Selecteer op de pagina **Projectdagboek** de relevante regel en kies vervolgens de actie **Boeken**.
 
@@ -44,7 +44,7 @@ In de volgende procedures wordt beschreven hoe u werkelijke (gebudgetteerde) hoe
 
 ## Handmatig projectdagboekregels maken
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies in het veld **Batchnaam** een relevante projectdagboekbatch.  
 3. Voer op een nieuwe regel documentnummer, projectnummer, projecttaaknummer, soort en aantal van het verbruikte soort in.  
 4. Wanneer de projectdagboekregels zijn voltooid, kiest u de actie **Boeken**.  
@@ -60,7 +60,7 @@ Op deze manier kunt u uw oorspronkelijke schattingen volgen en vergelijken met d
 > [!NOTE]  
 > Artikelposten maken artikeljournaalposten en verkleinen de voorraadhoeveelheid. De batchverwerking **Voorraadwaarde boeken** brengt de kosten van de voorraad over naar het grootboek. Resourceposten maken resourceposten.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een relevant projectdagboek en kies vervolgens de actie **Resterend gebruik berekenen**.  
 3. Voer op de pagina **Project - Resterend gebruik berekenen** het documentnummer en de boekingsdatum in die in het dagboek moeten worden ingevoegd, en kies vervolgens de knop **OK**.  
 4. Werk het dagboek bij met eventuele wijzigingen die nodig zijn.  
@@ -68,14 +68,12 @@ Op deze manier kunt u uw oorspronkelijke schattingen volgen en vergelijken met d
 
 ## Voorraad- en magazijnpickdocumenten maken voor een project
 
-Om voorraad- en magazijnpickdocumenten voor projecten te maken moet uw beheerder de **Functie-update: Voorraad- en magazijnpicks vanuit projecten inschakelen** op de pagina **Functiebeheer** inschakelen.
-
-De functie voegt de acties **Voorraadpick maken** en **Magazijnpick maken** toe aan de **Projectkaart**. Om een pickdocument te maken of te registreren gebruikt u de acties **Opslag-/pick-/verplaatsingsregels** of **Geregistreerde pickregels**. Meer informatie op [Stromen voor productie, assemblage en projecten](design-details-internal-warehouse-flows.md).
+Gebruik de acties **Voorraadpick maken** en **Magazijnpick maken** toe op de pagina **Projectkaart**. Om een pickdocument te maken of te registreren gebruikt u de acties **Opslag-/pick-/verplaatsingsregels** of **Geregistreerde pickregels**. Meer informatie op [Stromen voor productie, assemblage en projecten](design-details-internal-warehouse-flows.md).
 
 U kunt de acties onder de volgende voorwaarden gebruiken:
 
 * De **Status** van het project is **Open**.
-* De **Regelsoort** van de taakplanningsregel is **Budget** of **Zowel Budget als Factureerbaar**.
+* De **Regelsoort** van de projectplanningsregel is **Budget** of **Zowel Budget als Factureerbaar**.
 * Het **Type** van de projectplanningsregel is **Artikel**.
 * **Pick vereist** is ingeschakeld voor de gerelateerde locatie.
 * **Gestuurde opslag en pick** is uitgeschakeld.
@@ -90,9 +88,9 @@ U kunt de acties onder de volgende voorwaarden gebruiken:
 Nadat u projectdagboekregels hebt geboekt, kunt u de planningsregels zien die zijn gekoppeld aan de projectdagboekposten die zijn geboekt.
 
 > [!NOTE]  
-> Hiervoor moet het selectievakje **Gebruikslink toepassen** zijn ingeschakeld voor het project. Zie [Projecten instellen](projects-how-setup-jobs.md) voor meer informatie.  
+> Hiervoor moet het selectievakje **Gebruikslink toepassen** zijn ingeschakeld voor het project. Zie voor meer informatie [Projecten instellen](projects-how-setup-jobs.md).  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projectjournalen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Projectdagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer een relevant projectdagboek en kies vervolgens de actie **Posten**.  
 3. Kies op de pagina **Projectposten** de actie **Gekoppelde projectplanningsregels weergeven**.
 
@@ -103,6 +101,5 @@ Nadat u projectdagboekregels hebt geboekt, kunt u de planningsregels zien die zi
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

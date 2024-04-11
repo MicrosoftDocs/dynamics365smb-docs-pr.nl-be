@@ -5,10 +5,11 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 03/24/2023
+ms.date: 02/21/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Gebruikers maken volgens licenties
 
@@ -94,8 +95,11 @@ Als deze standaardconfiguratie niet de juiste instelling is voor een bepaalde om
 
 Nadat u gebruikers heeft toegevoegd of gebruikersinformatie heeft gewijzigd in het Microsoft 365-beheercentrum, kunt u de gebruikersinformatie snel importeren naar [!INCLUDE[prod_short](includes/prod_short.md)]. De import omvat licentietoewijzingen.  
 
+> [!TIP]
+> Als u gebruikersinformatie moet bijwerken en u veel gebruikers hebt, kunt u het filtervenster gebruiken om de lijst te beperken. U kunt filteren op basisgegevens zoals de gebruikersnaam, of meer technische filters instellen, zoals de beveiligings-id van de gebruiker.
+
 1. Meld u met een beheerdersaccount aan bij [!INCLUDE[prod_short](includes/prod_short.md)].
-2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.  
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies **Gebruikers bijwerken vanuit Microsoft 365**.
 
 > [!IMPORTANT]  

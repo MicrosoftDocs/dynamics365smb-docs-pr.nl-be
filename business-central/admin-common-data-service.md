@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.date: 06/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -70,6 +70,12 @@ Valutasynchronisatie is unidirectioneel, van [!INCLUDE [prod_short](includes/pro
 
 * Bedragen in de [!INCLUDE[prod_short](includes/cds_long_md.md)] basisvaluta worden omgerekend naar de [!INCLUDE [prod_short](includes/prod_short.md)] lokale valuta op basis van de laatste wisselkoers die is gesynchroniseerd vanuit [!INCLUDE [prod_short](includes/prod_short.md)].
 * Bedragen in de [!INCLUDE [prod_short](includes/prod_short.md)] lokale valuta worden gesynchroniseerd met de [!INCLUDE [prod_short](includes/prod_short.md)] lokale valuta in een van de andere (niet-basis) valuta's in [!INCLUDE[prod_short](includes/cds_long_md.md)].
+
+## Wat er gebeurt als u een bedrijf kopieert
+
+U kunt bedrijven die worden geïntegreerd met [!INCLUDE[prod_short](includes/cds_long_md.md)] of [!INCLUDE[crm_md](includes/crm_md.md)], veilig kopiëren. Het kopiëren van bedrijven helpt het risico op inconsistenties in de gegevens te verminderen en kan u kostbare tijd besparen. Ga voor meer informatie over het kopiëren van bedrijven naar [Een bedrijf kopiëren](about-new-company.md#copy-a-company).
+
+[!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
 ## Zie ook
 

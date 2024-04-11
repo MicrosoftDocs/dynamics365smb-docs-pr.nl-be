@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/08/2023
+ms.date: 03/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -28,6 +28,11 @@ In dit artikel leert u hoe u gegevens vanaf lijstpagina's en query's analyseert 
 > Mogelijk ziet u op sommige lijstpagina's geen **Analyseren**-schakelaar voor het overschakelen naar de analysemodus. De reden hiervoor is dat ontwikkelaars de analysemodus op specifieke pagina's kunnen uitschakelen door de [eigenschap AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL te gebruiken.
 
 ## Aan de slag
+
+Voer deze stappen uit om aan de slag te gaan met het analyseren van gegevens met de analysemodus.
+
+>[!TIP]
+> De analysemodus bevat ook de Copilot-functie *Hulp bij analyse* die u op weg kan helpen. [Meer informatie over hulp bij analyse met Copilot](analysis-assist.md).
 
 1. Open de lijstpagina of query.
 

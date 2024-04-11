@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -34,7 +34,7 @@ Een verkoopraamcontract kan bijvoorbeeld worden gebruikt als een klant belt om e
 
 1. Als u een order wilt maken voor een van de regels uit het verkoopraamcontract, verwijdert u het aantal uit het veld **Te verzenden aantal** op alle regels die u op dit moment niet wilt verzenden.  
 2. Wanneer u klaar bent om orders te maken, kiest u de actie **Order maken** en klikt u vervolgens op **Ja**. Er wordt een bericht weergegeven waarin u wordt meegedeeld dat aan het raamcontract een ordernummer is toegewezen. Het raamcontract is echter niet verwijderd.  
-3. Kies de knop **OK**.  
+3. Kies de knop **Ok**.  
 4. Als u de resultaten wilt zien van de voorgaande stappen, kiest u eerst de actie **Regel**, vervolgens de actie **Ongeboekte regels** en daarna de actie **Orders**.  
 5. Selecteer op de pagina **Verkoopregels** de gewenste verkooporder. Klik op de actie **Regel** en vervolgens op de actie **Document weergeven**.  
 
