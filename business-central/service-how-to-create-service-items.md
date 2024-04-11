@@ -10,18 +10,18 @@ ms.date: 03/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Serviceartikelen maken
+# <a name="create-service-items"></a>Serviceartikelen maken
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] verwijst de term serviceartikel naar de apparatuur of artikelen die service vereisen. Wanneer u een serviceorder maakt, geeft u de artikelen op die service nodig hebben. In de order kunt u een serviceartikel aan een artikel in de voorraad of aan een serviceartikelgroep koppelen.
 
 Wanneer u een artikel ontvangt dat service vereist, kunt u dit artikel registreren als serviceartikel. Dit kunt u op verschillende manieren doen. U kunt bijvoorbeeld via de pagina **Serviceartikelen** een serviceartikel maken of als onderdeel van een ander proces, bijvoorbeeld wanneer u met een serviceorder werkt.
 
-## Een serviceartikel maken
+## <a name="to-create-a-service-item"></a>Een serviceartikel maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceartikelen** in en kies vervolgens de gerelateerde koppeling
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Serviceartikelen maken in serviceorders
+## <a name="to-create-service-items-within-a-service-order"></a>Serviceartikelen maken in serviceorders
 
 Wanneer u artikelen voor service ontvangt die u wilt registreren als serviceartikelen, kunt u deze instellen als serviceartikelen op de pagina **Serviceorder** of **Serviceofferte**.  
 
@@ -31,7 +31,7 @@ Wanneer u artikelen voor service ontvangt die u wilt registreren als servicearti
 
     Er wordt een nummer aan het serviceartikel toegewezen en een kaart voor het serviceartikel gemaakt. Het nummer van het nieuwe serviceartikel wordt ingevuld in het veld **Serviceartikelnr.**
 
-## Serviceartikelen maken tijdens het verzenden van artikelen
+## <a name="to-create-a-service-item-when-shipping-items"></a>Serviceartikelen maken tijdens het verzenden van artikelen
 
 Als u artikelen verzendt door verkooporders of verkoopfacturen te boeken, worden de verzonden artikelen automatisch als serviceartikelen geregistreerd als aan de volgende voorwaarde wordt voldaan. De artikelen moeten behoren tot een serviceartikelgroep waarvoor het selectievakje **Serviceartikel maken** is ingeschakeld. Als voor de artikelen serienummers zijn geregistreerd op de pagina Artikeltraceringsregels, worden deze gegevens tijdens het maken van serviceartikelen automatisch gekopieerd naar het veld **Serienummer** op de serviceartikelkaart.  
 
@@ -48,7 +48,7 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 >
 > Is een artikel ingesteld als stuklijst en hebt u de stuklijst niet getoond, dan wordt hiervoor een serviceartikel gemaakt op basis van de voorwaarde serviceartikelgroep en optioneel de voorwaarde serienummers.  
 
-## Starttarieven invoegen voor serviceartikelen
+## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Starttarieven invoegen voor serviceartikelen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicetaken** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Artikelwerkbon**.
@@ -56,7 +56,7 @@ Hieronder wordt aangegeven hoe u serviceartikelen kunt maken tijdens het verzend
 
     Er wordt een serviceregel van het type **Kosten** ingevoegd met het starttarief. Het starttarief is van toepassing op het geselecteerde serviceartikel.
 
-## Artikelen, artikelvarianten of specifieke serviceartikelen blokkeren
+## <a name="block-items-item-variants-or-specific-service-items"></a>Artikelen, artikelvarianten of specifieke serviceartikelen blokkeren
 
 U kunt voorkomen dat artikelen, artikelvarianten of serviceartikelen worden gebruikt in servicebeheertransacties, zoals servicecontracten, serviceorders en servicefacturen. Dit kan handig zijn als u de beschikbaarheid van bepaalde artikelen of serviceartikelen voor servicedoeleinden wilt beperken, bijvoorbeeld vanwege stopgezette ondersteuning, beperkte voorraad of contractuele overeenkomsten.
 
@@ -79,7 +79,7 @@ Als u bovendien servicecontracten, servicecontractoffertes of serviceorders hebt
 - **Vrijgeven voor verzending** of **Boeken** op de pagina **Serviceorder**.
 - **Boeken** op de pagina **Servicefactuur**.
 
-### Een serviceartikel blokkeren
+### <a name="block-a-service-item"></a>Een serviceartikel blokkeren
 
 Als u wilt voorkomen dat een serviceartikel wordt gebruikt in servicebeheertransacties, kiest u op de pagina **Serviceartikelkaart** in het veld **Geblokkeerd** een van de volgende opties:
 
@@ -107,14 +107,14 @@ U kunt de geblokkeerde serviceartikelen ook bekijken door een filter toe te pass
 - Serviceart. buiten garantie (rapport 5937)
 - Servicewinst (Serviceart.) (rapport 5938)
 
-### Gegevensupgrade
+### <a name="data-upgrade"></a>Gegevensupgrade
 
 Voor deze functie zijn geen aanvullende instellingen vereist. Bij het upgraden van uw [!INCLUDE [prod_short](includes/prod_short.md)], moet u echter rekening houden met het volgende:
 
 - Als u artikelen, artikelvarianten of artikelsjablonen hebt waarbij de schakelaar **Verkoop geblokkeerd** is ingeschakeld, wordt het veld **Service geblokkeerd** ook ingeschakeld voor die records tijdens de upgrade. Dit zorgt ervoor dat de bestaande logica voor het blokkeren van verkopen ook van toepassing is op servicebeheertransacties.
 - Gegevensupgrades zijn alleen mogelijk als u ten minste één serviceartikel in uw bedrijf hebt, wat betekent dat u de servicebeheerfunctionaliteit gebruikt en de gegevensupgrade nodig heeft. Als u geen serviceartikelen hebt, wordt de gegevensupgrade overgeslagen en is de schakelaar **Service geblokkeerd** standaard uitgeschakeld voor alle artikelen, artikelvarianten en artikelsjablonen.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md)  
 [CRM - Service instellen](service-setup-service.md)  

@@ -10,7 +10,7 @@ ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Analyserapporten maken
+# <a name="create-analysis-reports"></a>Analyserapporten maken
 
 Verkoopmanagers moeten de omzet, de brutowinst en andere belangrijke indicatoren voor verkoopprestaties regelmatig analyseren. Inkopers zijn meer geïnteresseerd in de dynamiek van inkoopvolumes, prestaties van leveranciers en inkoopprijzen. Logistieke managers zijn gebaat bij gegevens over de omloopsnelheid van de voorraad, analyses van voorraadverplaatsingen en statistieken over de voorraadwaarde. Er is dus geen analyselijst die voor alle doeleinden kan worden gebruikt.
 
@@ -22,7 +22,7 @@ De analyselijst bestaat uit de te analyseren objecten (bijvoorbeeld klanten, kla
 
 Naast analyselijsten kunt u soortgelijke informatie maken en weergeven in analyseweergaven (gebaseerd op dimensies). Meer informatie vindt u op [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md).
 
-## Opmerking
+## <a name="example"></a>Opmerking
 
 U kunt deze regels instellen (objecten die u wilt analyseren):  
 
@@ -36,7 +36,7 @@ Vervolgens kunt u deze kolommen instellen (hoe u de objecten wilt laten analyser
 - Omzet vorige maand  
 - % van omzet vorige maand  
 
-## Regel- en kolomindelingen instellen
+## <a name="setting-up-line-and-column-layouts"></a>Regel- en kolomindelingen instellen
 
 Op de pagina **Analyselijst** kunt u afhankelijk van uw instellingen verschillende regel- en kolomindelingen bekijken die u instelt op de:
 
@@ -56,7 +56,7 @@ Op basis van de regels en de kolommen die u hebt ingesteld, aggregeert [!INCLUDE
 
 U kunt, bijvoorbeeld, één groep met regels en verschillende groepen met kolomindelingen instellen, bijvoorbeeld om lijsten per maand en per jaar weer te geven.
 
-## Analysekolomsjablonen instellen
+## <a name="set-up-analysis-column-templates"></a>Analysekolomsjablonen instellen
 
 De volgende procedure is gebaseerd op verkoopanalyseweergaven. De stappen lijken hierop voor inkoop- en voorraadanalyseweergaven.
 
@@ -73,7 +73,7 @@ Een analysekolomsjabloon bevat een set regels, die elk een analysekolom vertegen
     Als u **Artikelposten** selecteert in het veld **Boekingssoort grootboek**, worden de werkelijke cijfers van de artikelpost ook gekopieerd. Selecteert u hier **Artikelbudgetposten**, dan worden de gebudgetteerde cijfers van het budget gekopieerd.  
 5. Kies **OK** om de wijzigingen op te slaan.  
 
-## Analyseregelsjablonen instellen
+## <a name="set-up-analysis-line-templates"></a>Analyseregelsjablonen instellen
 
 De volgende procedure is gebaseerd op analyserapporten voor verkopen. De stappen lijken hierop voor inkoop- en voorraadanalyserapporten.
 
@@ -87,7 +87,7 @@ Een analyseregelsjabloon bevat een set regels, die elk een analyseregel vertegen
 > [!NOTE]  
 > Als u per artikel, klant, enzovoort een groot aantal afzonderlijke regels wilt maken, kunt u ook de juiste invoegoptie selecteren. Alle betreffende velden op de regel worden dan ingevuld. Indien nodig kunt u de regels vervolgens handmatig bewerken. Om regels in te voegen kiest u de actie **Artikelen invoegen** of **Artikelgroepen invoegen**.  
 
-## Een nieuwe verkoopanalyselijst maken
+## <a name="create-a-new-sales-analysis-report"></a>Een nieuwe verkoopanalyselijst maken
 
 De volgende procedure is gebaseerd op analyserapporten voor verkopen. De stappen lijken hierop voor inkoop- en voorraadanalyserapporten.
 
@@ -102,7 +102,7 @@ Met analyselijsten kunt u de dynamiek van uw omzet analyseren op basis van indic
 > [!NOTE]  
 > Optioneel kunt u rapporten maken op basis van een combinatie van regel- en kolomsjablonen en hier unieke namen aan toewijzen. Als u hiervoor kiest, hoeft u geen regel- en kolomsjablonen te selecteren op de pagina **Verkoopanalyselijst**. Nadat u een rapportnaam hebt gekozen, kunt u regel- en kolomsjablonen onafhankelijk van elkaar wijzigen en de rapportnaam later weer selecteren om de oorspronkelijke combinatie te herstellen.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiële bedrijfsinformatie](bi.md)  
 [Financiën](finance.md)  

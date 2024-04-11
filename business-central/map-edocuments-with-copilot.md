@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# E-documenten toewijzen aan inkooporderregels met Copilot (preview)
+# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>E-documenten toewijzen aan inkooporderregels met Copilot (preview)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ U kunt nu een bestaande inkooporder in Business Central bijwerken met de informa
 > - AI-generated content may be incorrect.-->
 
 
-## Inkooporders identificeren
+## <a name="identify-purchase-orders"></a>Inkooporders identificeren
 
 Ten eerste kunt u de inkooporders identificeren die u automatisch kunt afstemmen.
 
-## Regels toewijzen
+## <a name="map-lines"></a>Regels toewijzen
 
 Copilot helpt u bij het automatisch afstemmen van e-factuurregels met inkooporderregels en biedt extra afstemmingsinformatie om de overeenkomsten te verbeteren.
 
 Nadat inkooporders zijn afgestemd en toegewezen, werkt Business Central de gekoppelde inkooporder bij met de relevante ontvangstinformatie om ervoor te zorgen dat de juiste hoeveelheden op de orderregels worden ontvangen.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van e-documenten](finance-edocuments-overview.md)  
 [E-documenten gebruiken bij verkoop en inkoop](finance-how-use-edocuments.md)  
