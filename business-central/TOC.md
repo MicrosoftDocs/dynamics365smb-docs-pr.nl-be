@@ -471,6 +471,8 @@ ms.service: dynamics-365-business-central
 
 ### Financiële rapportage (financiële overzichten en KPI’s implementeren)
 #### [Financiële rapportage voorbereiden](bi-how-work-account-schedule.md)
+#### [Rijdefinities in financiële rapportage](bi-row-definitions.md)
+#### [Kolomdefinities in financiële rapportage](bi-column-definitions.md)
 #### [Procedure: financiële rapporten gebruiken voor een cashflowprognose](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [KPI-webservice instellen en publiceren op basis van financiële rapporten](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Gegevens analyseren met statistiekrekeningen](bi-use-statistical-accounts.md)
@@ -1045,10 +1047,11 @@ ms.service: dynamics-365-business-central
 ##### [EU-verkooplijst in Duitsland](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 ##### [Registratienummers van bedrijven opnemen in verkoop- en inkooprapporten](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 ##### [Informatie van grootboekinstellingen afdrukken](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
-##### [Certificering van Business Central voor Duitse markt (document is in Duits)](https://go.microsoft.com/fwlink/?linkid=875256)
+##### [Certificering van Business Central voor Duitse markt (document is in het Duits)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ### IJsland
 #### [Lokale functionaliteit in de IJslandse versie](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Installatie van de W1-kernapp voor IJsland](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### Btw
 ##### [Btw-overzichtsinformatie afdrukken in documenten](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Speciale gegevensoutput en -rapporten voor de belastingdienst](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1057,6 +1060,7 @@ ms.service: dynamics-365-business-central
 #### Algemeen  
 ##### [IRS-nummers toewijzen aan het rekeningschema](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Geboekte facturen en creditnota's verwijderen](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Registratienummer in de lokalisatie voor IJslands](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### India
 #### [Overzicht](LocalFunctionality/India/india-local-functionality.md)
