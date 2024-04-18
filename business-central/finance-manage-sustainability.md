@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 02/12/2024
+ms.date: 03/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Overzicht van duurzaamheidsbeheer
+# Overzicht van duurzaamheidsbeheer
 
 >[!IMPORTANT]
 >Deze functie zal beschikbaar zijn in Business Central vanaf **releasewave 1 van 2024** en alle verwijzingslinks worden ingeschakeld zodra ze beschikbaar zijn.
@@ -38,13 +38,16 @@ Raadpleeg de volgende artikelen om aan de slag te gaan met Duurzaamheidsbeheer.
 
 |  Artikel  |  Omschrijving  |  
 |--------|--------------| 
-|Duurzaamheidsinstelling | Dit artikel biedt informatie om u te helpen de hele Duurzaamheidsmodule correct te configureren. |
-|Duurzaamheidsrekeningschema en -grootboek | Dit artikel biedt informatie over hoe u het duurzaamheidsrekeningschema, rekeningcategorieën en subcategorieën correct kunt instellen, en hoe u informatie in duurzaamheidsgegevens kunt analyseren. |
-|Procedure: uitstoot vastleggen | Gebruik dit artikel om te leren werken met alle soorten duurzaamheidsjournalen. |
+|[Duurzaamheidsinstelling](finance-sustainability-setup.md) | Dit artikel biedt informatie om u te helpen de hele Duurzaamheidsmodule correct te configureren. |
+|[Duurzaamheidsrekeningschema en -grootboek](finance-sustainability-accounts-ledger.md) | Dit artikel biedt informatie over hoe u het duurzaamheidsrekeningschema, rekeningcategorieën en subcategorieën correct kunt instellen, en hoe u informatie in duurzaamheidsgrootboekposten kunt analyseren. |
+|[Hoe u uitstoot van broeikasgassen vastlegt](finance-sustainability-journal.md) | Gebruik dit artikel om te leren werken met alle soorten duurzaamheidsjournalen. |
 
 
-## <a name="see-also"></a>Zie ook
-[Financiën](finance.md)    
+## Zie ook  
+[Duurzaamheidsinstelling](finance-sustainability-setup.md) 
+[Duurzaamheidsrekeningschema en -grootboek](finance-sustainability-accounts-ledger.md) 
+[Hoe u uitstoot van broeikasgassen vastlegt](finance-sustainability-journal.md)
+[Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

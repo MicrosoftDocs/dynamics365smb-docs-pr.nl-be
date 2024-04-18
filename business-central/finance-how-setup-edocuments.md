@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
-ms.date: 10/05/2023
+ms.date: 03/29/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -73,11 +73,11 @@ Als u de indeling **Definitie van gegevensuitwisseling** niet gebruikt, kunt u f
 
 ### Ondersteunde documenttypen 
 
-Ondersteunde documenttypen zijn gebaseerd op de gekozen **Documentindeling**. Als u wilt controleren welke documenttypen worden ondersteund, voert u op de pagina **E-documentservice** de actie **Ondersteunde documenttypen** uit. De **Ondersteunde brondocumenttypen van de e-documentservice** worden geopend en in de kolom **Brondocumenttype** vindt u alle ondersteunde documenttypen.  
+Ondersteunde documenttypen zijn gebaseerd op de gekozen **Documentindeling**. Als u wilt controleren welke documenttypen worden ondersteund, kiest u op de pagina **E-documentservice** de actie **Ondersteunde documenttypen**. De **Ondersteunde brondocumenttypen van de e-documentservice** worden geopend en u kunt in de kolom **Brondocumenttype** verschillende documenttypen kiezen om ze zo te maken dat ze worden ondersteund voor de indeling die u wilt gebruiken. Zorg ervoor dat u het documenttype niet gebruikt als dat document niet op deze pagina is geselecteerd.   
 
 ## Een verzendprofiel voor documenten instellen
 
-U kunt voor elk van uw klanten een voorkeursmethode voor het verzenden van verkoopdocumenten instellen. Op deze manier hoeft u niet telkens een verzendoptie te selecteren wanneer u de actie **Boeken en verzenden** selecteert. Op de pagina **Documentverzendprofielen** kunt u verschillende verzendprofielen instellen en daar vervolgens uit kiezen in het veld **Verzendprofiel van document** op een klantenkaart. U kunt het selectievakje **Standaard** selecteren om aan te geven dat een documentverzendprofiel het standaardprofiel is voor alle klanten, behalve voor klanten waarvoor het veld **Verzendprofiel van document** is ingesteld op een ander profiel.
+U kunt voor elk van uw klanten een voorkeursmethode voor het verzenden van verkoopdocumenten instellen. Op deze manier hoeft u niet telkens een verzendoptie te kiezen wanneer u de actie **Boeken en verzenden** kiest. Op de pagina **Documentverzendprofielen** kunt u verschillende verzendprofielen instellen en daar vervolgens uit kiezen in het veld **Verzendprofiel van document** op een klantenkaart. U kunt het selectievakje **Standaard** selecteren om aan te geven dat een documentverzendprofiel het standaardprofiel is voor alle klanten, behalve voor klanten waarvoor het veld **Verzendprofiel van document** is ingesteld op een ander profiel.
 
 Deze functionaliteit wordt gebruikt om automatisering van elektronische facturering in te stellen. Wanneer u **Boeken en verzenden** in een verkoopdocument kiest, wordt in het dialoogvenster **Boeken en verzenden bevestigen** het gebruikte verzendprofiel getoond. Dit is het voor de klant ingestelde profiel of het standaardprofiel voor alle klanten.
 
@@ -104,10 +104,10 @@ Volg deze stappen om de werkstroom in te stellen die wordt gebruikt in de e-docu
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstroomsjablonen** in en selecteer vervolgens de gerelateerde koppeling.
 2. Als u **Werkstroomsjablonen van e-document** niet kunt vinden op de pagina **Werkstroomsjablonen**, selecteert u **Microsoft-sjablonen opnieuw instellen**. **Werkstroomsjablonen van e-document** zouden dan moeten verschijnen. De pagina sluiten.
 3. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en selecteer vervolgens de gerelateerde koppeling.
-4. Voer de actie **Nieuwe werkstroom uit sjabloon** uit om een sjabloon voor het e-documentproces te selecteren. De beschikbare sjablonen zijn **Verzenden naar één service** en **Verzenden naar meerdere services**.
+4. Kies de actie **Nieuwe werkstroom uit sjabloon** om een sjabloon voor het e-documentproces te selecteren. De beschikbare sjablonen zijn **Verzenden naar één service** en **Verzenden naar meerdere services**.
 5. Selecteer **OK** om het instellen van de werkstroom te voltooien.
 6. Selecteer in het veld **Dan reactie** **E-document verzenden met instelling** om de werkstroomreacties te configureren.
-7. Selecteer de e-documentservice die u als optie hebt gemaakt, selecteer **OK** en schakel vervolgens de werkstroom in.
+7. Selecteer de e-documentservice die u als optie hebt gemaakt, kies **OK** en schakel vervolgens de werkstroom in.
 
 > [!NOTE]
 > U kunt uw eigen werkstroom voor e-documenten maken zonder vooraf gedefinieerde werkstroomsjablonen te gebruiken. Als u meer services heeft, kunt u verschillende werkstromen gebruiken.
@@ -122,13 +122,28 @@ E-documenten kunnen onderwerp zijn van verschillende lokale wetgevingen die verb
 
 Volg deze stappen om een bewaarbeleid voor e-documenten in te stellen.
 
-1. Voer op de pagina **E-documentservices** de actie **Bewaarbeleid** uit.
+1. Kies op de pagina **E-documentservices** de actie **Bewaarbeleid**.
 2. Wanneer de actie is voltooid, selecteert u een van de volgende bewaarbeleidsregels om in te stellen:
 
     - Logbestand van e-document
     - Logbestand van e-documentintegratie
     - Logbestand van toewijzing van e-document
     - Opslag van e-documentgegevens
+
+## Demogegevens van e-documenten  
+
+> [!NOTE]
+> Vanaf Business Central versie 24.0 is het mogelijk demogegevens voor e-documenten in te stellen.
+
+Om eenvoudigere manieren te bieden voor het testen en demonstreren van de mogelijkheden van **e-documenten** heeft Microsoft een nieuwe demomodule voor elektronische documenten gemaakt. Om deze module in te schakelen, volgt u de stappen:  
+
+1.  Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Demohulpmiddel van Contoso** in en selecteer vervolgens de gerelateerde koppeling.  
+2.  Voordat u de **Contoso-module E-document** inschakelt, moet u vanwege afhankelijkheden de volgende modules hebben ingeschakeld: **Gemeenschappelijke module** en **Magazijnmodule**. 
+3.  Nadat u deze modules hebt ingeschakeld, selecteert u de **Contoso-module E-documenten** en kiest u vervolgens de actie **Genereren**. 
+4.  Voer de stappen uit.  
+5.  De pagina sluiten.   
+
+Zodra u een ingeschakelde module heeft, heeft u nieuwe demo-items gemaakt, zes elektronische documenten geïmporteerd (gebaseerd op Peppol BIS 3) en de **E-documentservice** al geconfigureerd met gemaakte werkstromen.  
 
 ## Zie ook
 
