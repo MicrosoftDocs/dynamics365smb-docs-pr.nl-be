@@ -10,11 +10,11 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Het grootboek en het rekeningschema begrijpen
+# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Het grootboek en het rekeningschema begrijpen
 
 In het grootboek (GB) worden uw financiële gegevens opgeslagen en het rekeningschema (COA) bevat de rekeningen waarnaar alle grootboekposten worden geboekt. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
 
-## Grootboekinstellingen en algemene boekingsinstellingen
+## <a name="general-ledger-setup-and-general-posting-setup"></a>Grootboekinstellingen en algemene boekingsinstellingen
 
 De instelling van het grootboek bevindt zich in de kern van financiële processen omdat hiermee wordt bepaald hoe u gegevens boekt. Twee pagina's spelen in het bijzonder een belangrijke rol bij het configureren van uw financiële processen:  
 
@@ -40,7 +40,7 @@ De instelling van het grootboek bevindt zich in de kern van financiële processe
 
   Open de pagina [hier](https://businesscentral.dynamics.com/?page=314).
 
-## Het rekeningschema
+## <a name="the-chart-of-accounts"></a>Het rekeningschema
 
 In het rekeningschema worden alle grootboekrekeningen weergegeven. In het rekeningschema kunt u onder andere het volgende doen:  
 
@@ -52,7 +52,7 @@ In het rekeningschema worden alle grootboekrekeningen weergegeven. In het rekeni
 
 U kunt grootboekrekeningen toevoegen, wijzigen of verwijderen. Om verschillen te voorkomen, kunt u echter geen grootboekrekening verwijderen als deze gegevens worden gebruikt in het rekeningschema. Vanaf releasewave 2 van 2022 kunt u ook het per ongeluk verwijderen van accounts in gevoelige perioden blokkeren. Lees meer in de sectie [Rekeningen verwijderen](finance-setup-chart-accounts.md#delete-accounts).  
 
-## Rekeningcategorieën
+## <a name="account-categories"></a>Rekeningcategorieën
 
 U kunt de structuur van uw financiële overzichten personaliseren door grootboekrekeningen toe te wijzen aan rekeningcategorieën.  
 
@@ -62,7 +62,7 @@ U kunt een categoriegroep maken door andere subcategorieën onder een regel te l
 
 U kunt definiëren of specifieke soorten lijsten de rekeningen in elke subcategorie moeten bevatten. De rekeningcategorieën helpen de indeling te definiëren van uw financiële overzichten.  
 
-### Voorbeeld
+### <a name="example"></a>Voorbeeld
 
 Het standaardsaldo-overzicht heeft bijvoorbeeld één subcategorie voor *Kas* onder *Huidige activa*. Als u wilt dat het saldo-overzicht rekening houdt met kleine kas en betaalrekening, moet u de volgende stappen zetten:
 
@@ -89,15 +89,15 @@ Wanneer u kiest voor de actie **Financiële rapporten genereren** - of de volgen
 > [!NOTE]
 > Als u een grootboekrekening maakt zonder een rekeningcategorie toe te wijzen en u de rekening toewijst aan een boekingsgroep, wijst [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de rekeningcategorie toe van de grootboekrekening direct boven de rekening in uw rekeningschema. Om de nieuwe rekening in uw financiële rapporten op te nemen, moet u echter de actie **Financiële rapporten genereren** kiezen op de pagina **GB-rekeningcategorieën**. U kunt ook de pagina grootboekrekeningkaart openen, de rekeningcategorie specificeren en vervolgens uw financiële rapport opnieuw genereren.
 
-## Een snel overzicht krijgen
+## <a name="get-a-quick-overview"></a>Een snel overzicht krijgen
 
 Op de pagina **Rekeningschema** worden rekeningen weergegeven in een hiërarchische lijst die snelle toegang biedt tot de belangrijkste informatie voor elke rekening. De lijst is echter statisch en als u veel rekeningen hebt, moet u misschien een beetje scrollen om informatie voor verschillende rekeningen te bekijken. Als u gewoon een snel overzicht wilt van de basisprincipes, zoals nettowijzigingen en saldi, is de pagina **Overzicht van rekeningschema** een handig alternatief. De kolomindeling op de pagina is nu hetzelfde als op de pagina **Rekeningschema** (maar met minder kolommen), zodat u zich niet hoeft te heroriënteren. U kunt de hiërarchische niveaus uitvouwen of samenvouwen om de weergave compacter te maken. Om het schakelen tussen de pagina's gemakkelijk te maken is de pagina **Overzicht van rekeningschema** beschikbaar op de pagina **Rekeningschema**.
 
-## Toegang om accounts en accountcategorieën te maken en te bewerken
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Toegang om accounts en accountcategorieën te maken en te bewerken
 
 In een kleine organisatie, zoals het CRONUS-voorbeeldbedrijf, kunnen de meeste gebruikers het rekeningschema bewerken, behalve gebruikers met een TEAMLID-licentie. In grotere organisaties worden meestal rollen en machtigingen gebruikt om toegang tot het bewerken van de rekeningschema's te beperken. Als u een beheerder bent of de rol *Bedrijfsmanager* of *Accountant* hebt, kunt u de machtigingen bepalen om er zeker van te zijn dat de juiste mensen toegang hebben tot de relevante tabellen. Zie voor meer informatie de sectie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [De rekeningschema's instellen of wijzigen](finance-setup-chart-accounts.md)  
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
