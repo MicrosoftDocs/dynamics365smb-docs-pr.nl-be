@@ -9,7 +9,7 @@ metadata:
   ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/16/2023
+  ms.date: 04/11/2024
   hide_bc: true
 highlightedContent:
   items:
@@ -71,6 +71,14 @@ additionalContent:
               url: /dynamics365/business-central/across-onedrive-overview
     - title: Beheren en ontwikkelen
       items:
+        - title: Copilot- en AI-mogelijkheden
+          links:
+            - text: Copilot- en AI-mogelijkheden configureren
+              url: /dynamics365/business-central/enable-ai
+            - text: Copilot uitbreiden in Business Central
+              url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+            - text: Veelgestelde vragen over functies en verantwoorde AI
+              url: /dynamics365/business-central/responsible-ai-overview
         - title: Gebruikerstoegang beheren
           links:
             - text: Gebruikers maken
@@ -127,12 +135,26 @@ additionalContent:
           links:
             - text: 'Webservices (OData, SOAP)'
               url: /dynamics365/business-central/dev-itpro/webservices/web-services
-            - text: Connect apps
+            - text: Connect Apps
               url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps
             - text: Business Central-API
               url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
     - title: Productief zijn
       items:
+        - title: Copilot
+          links:
+            - text: Lijstgegevens analyseren
+              url: /dynamics365/business-central/analysis-assist
+            - text: Chatten met Copilot
+              url: /dynamics365/business-central/chat-with-copilot
+            - text: Suggesties voor marketingteksten ontvangen
+              url: /dynamics365/business-central/ai-overview
+            - text: E-documenten afstemmen
+              url: /dynamics365/business-central/map-edocuments-with-copilot
+            - text: Bankrekeningen reconciliëren
+              url: /dynamics365/business-central/bank-reconciliation-with-copilot
+            - text: Regelsuggesties voorstellen
+              url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Werkruimte-instellingen
           links:
             - text: 'Taal, regio, werkdatum, tijdzone en meer'
@@ -153,7 +175,7 @@ additionalContent:
               url: /dynamics365/business-central/across-share-onedrive
             - text: Samenwerken in Excel
               url: /dynamics365/business-central/across-work-with-excel
-        - title: 'Business intelligence, rapportage en gegevensanalyse'
+        - title: 'BI, rapportage en gegevensanalyse'
           links:
             - text: Overzicht
               url: /dynamics365/business-central/reports-bi-reporting
@@ -165,7 +187,9 @@ additionalContent:
               url: /dynamics365/business-central/analysis-mode
             - text: Rapportgegevens analyseren met Excel
               url: /dynamics365/business-central/report-analyze-excel
-        - title: Algemene bedrijfsfunctionaliteit
+    - title: Zakendoen
+      items:
+        - title: Algemeen
           links:
             - text: Dagboeken
               url: /dynamics365/business-central/ui-work-general-journals
@@ -175,8 +199,6 @@ additionalContent:
               url: /dynamics365/business-central/admin-job-queues-schedule-tasks
             - text: Inkomende documenten
               url: /dynamics365/business-central/across-income-documents
-    - title: Zakendoen
-      items:
         - title: Financiën
           links:
             - text: Overzicht

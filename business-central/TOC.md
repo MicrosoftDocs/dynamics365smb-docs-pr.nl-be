@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [OHW-methoden begrijpen](projects-understanding-wip.md)
 ### [Projectvoortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)
 ### [Projecten factureren](projects-how-invoice-jobs.md)
+### [Assembleren voor project](projects-assemble-to-project.md)
 
 ## Vaste activa
 ### [Overzicht van vaste activa](fa-manage.md)
