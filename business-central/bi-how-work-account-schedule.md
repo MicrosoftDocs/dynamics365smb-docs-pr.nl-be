@@ -127,11 +127,42 @@ U kunt een financieel rapport gebruiken om een rekeningoverzicht te maken waarin
 
 Nu kunt u het budgetoverzicht kopiëren en in een spreadsheet plakken.  
 
+## Financiële rapporten integreren met Excel
+
+U kunt een financieel rapport integreren met een Excel-werkmapsjabloon, de lay-out aanpassen aan uw behoeften en vervolgens de Excel-sjabloon bijwerken met gegevens uit [!INCLUDE[prod_short](includes/prod_short.md)]. Deze integratie maakt het bijvoorbeeld eenvoudiger om uw maandelijkse en jaarlijkse financiële overzichten te genereren in een indeling die voor u werkt.
+
+### Excel-integratie instellen voor een financieel rapport (een Excel-sjabloon maken)
+
+Om Excel-integratie voor een financieel rapport in te stellen volgt u deze stappen om een ​​Excel-sjabloon voor een rapport te maken.
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent 4.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële rapporten** in en kies vervolgens de gerelateerde koppeling.
+1. Selecteer op de pagina **Financiële rapporten** het financiële rapport dat u met Excel wilt inschakelen en kies vervolgens de actie **Exporteren naar Excel**.
+1. Kies de actie **Nieuw document maken**. Met deze actie wordt een Excel-sjabloonwerkmap gedownload met één werkblad genoemd naar de rapportnaam.
+1. Kopieer het werkblad en hernoem het naar **Gegevens**.
+1. Hernoem het rapportwerkblad naar wens.
+1. Markeer in het rapportwerkblad alle cellen die gegevens uit het financiële rapport weergeven (inclusief kolom- en rijkoppen). Ga op het lint **Home** naar het menu **Nummer** en kies **Algemeen** als de indeling.
+1. Kies de meest linkse cel van het gebied met gegevens uit het financiële rapport en stel een verwijzing in naar de equivalente cel in het werkblad Gegevens. Sleep de formule naar rechts om deze uit te breiden naar alle cellen in de eerste rij, en sleep de rij vervolgens omlaag om alle rijen in het financiële rapport te bestrijken.
+1. Verberg het werkblad **Gegevens**.
+1. Deel het rapportwerkblad in volgens uw behoeften.
+1. Sla de werkmap op in OneDrive of een vergelijkbare plaats waar een back-up van het bestand wordt gemaakt en versiebeheer wordt uitgevoerd.
+1. Sluit de werkmap.
+
+### Een financieel rapport uitvoeren met een Excel-sjabloon
+
+Volg deze stappen om een financieel rapport uit te voeren met een Excel-sjabloon:
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me 4 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële rapporten** in en kies vervolgens de gerelateerde koppeling.
+1. Selecteer op de pagina **Financiële rapporten** het financiële rapport dat u met Excel wilt inschakelen en kies vervolgens de actie **Exporteren naar Excel**.
+1. Kies de actie **Kopie van bestaand document bijwerken**.
+1. Upload uw Excel-sjabloon (sluit de Excel-werkmap voordat u deze uploadt).
+1. Kies op de pagina **Naam/waarde Opzoeken** het werkblad Gegevens.
+1. [!INCLUDE[prod_short](includes/prod_short.md)] voert het financiële rapport uit en voegt de resulterende gegevens samen met uw Excel-sjabloon.
+
 ## Financiële rapporten afdrukken en opslaan
 
 U kunt financiële rapporten afdrukken met de afdrukservices van uw apparaat. [!INCLUDE[prod_short](includes/prod_short.md)] biedt ook opties om rapporten op te slaan als Excel-werkmappen, Word-documenten, pdf- en XML-bestanden.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent 4.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële rapporten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me 4 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële rapporten** in en kies vervolgens de gerelateerde koppeling.
 1. Selecteer op de pagina **Financiële rapporten** het rapport dat u wilt afdrukken en kies vervolgens de actie **Afdrukken**.
 1. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 1. Selecteer in het veld **Printer** het apparaat waarnaar het rapport wordt verzonden.
@@ -147,6 +178,7 @@ U kunt een financieel rapport opslaan in bestandsindelingen, zoals PDF, XML, Wor
 1. Stel het rapport dienovereenkomstig in en kies vervolgens de actie **Verzenden naar**.
 1. Selecteer de bestandsindeling of de actie **Schema** en kies **OK**.
 1. Vul de velden in om een gepland of terugkerend financieel rapport te genereren. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Stel voor terugkerende financiële rapporten de velden **Vroegste begindatum/-tijd** en **Vervaldatum/-tijd** met respectievelijk de eerste en laatste datum om het financiële rapport te genereren. Selecteer ook op welke dagen het rapport wordt gegenereerd door het veld **Formule voor volgende uitvoeringsdatum** in te stellen conform de indeling uitgelegd in de sectie [Datumformules gebruiken](ui-enter-date-ranges.md#use-date-formulas).
+
 
 ## Best practices voor het werken met definities van financiële rapporten
 
@@ -165,7 +197,7 @@ U kunt definities van financiële rapporten importeren en exporteren als RapidSt
 
 Volg deze stappen om definities van financiële rapporten te importeren of exporteren:
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me 4 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële rapporten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent 4.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële rapporten** in en kies vervolgens de gerelateerde koppeling.
 1. Kies het financiële rapport en kies vervolgens de actie **Financieel rapport importeren** of **Financieel rapport exporteren**, afhankelijk van wat u wilt doen.
 
 Ga naar de volgende artikelen voor meer informatie over het importeren of exporteren van rij- of kolomdefinities voor financiële rapporten: 

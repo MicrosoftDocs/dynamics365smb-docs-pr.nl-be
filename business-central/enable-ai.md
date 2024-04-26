@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 02/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -35,12 +35,12 @@ In dit artikel wordt uitgelegd hoe u Copilot en andere AI-mogelijkheden in Busin
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-Als aan een van deze vereisten niet wordt voldaan, is de functie niet beschikbaar voor gebruik.-->
+Als aan een van deze vereisten niet wordt voldaan, is de functie niet beschikbaar voor gebruik.
 
 ## Vereisten
 
-- U gebruikt Business Central Online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
-- U beschikt over beheerders- of supermachtigingen in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
+- U gebruikt Business Central Online.
+- U bent een [beheerder](#requirements-for-being-an-administrator) in Business Central.
 
 ## Gegevensverplaatsing tussen geografieën toestaan
 
@@ -119,24 +119,43 @@ In de volgende tabel worden de machtigingen weergegeven die vereist zijn om Copi
 |Hulp bij analyse|De machtigingenset **GEGEVENSANALYSE - EXEC** of uitvoermachtiging voor het systeemobject 9640 **Gegevensanalysemodus toestaan**. Dit zijn dezelfde machtigingen die nodig zijn om toegang te krijgen tot de analysemodus.|
 |Hulp bij bankreconciliatie|Machtiging op pagina 7250 **AI-voorstel voor bankrekeningreconciliatie** en pagina 7252 **AI-voorstel voor transactie naar grootboekrekening**.|
 |Chatten |Er zijn geen machtigingen of machtigingensets die de toegang tot chatten per gebruiker regelen. Als chatten is geactiveerd, is dit beschikbaar voor alle gebruikers.|
+|E-document toewijzen |Machtiging op pagina 6166 **Copilot-eig. IO e-doc.**|
 |Suggesties voor marketingteksten |Machtiging op pagina 5836 **Copilot-marketingtekst**|
+|Suggesties voor verkoopregels |Machtiging op pagina 7275 **AI-suggesties voor verkoopregels** en pagina 7276 **AI-suggesties voor verkoopregels Sub**|
 
 Als u toegang tot specifieke niet-Microsoft Copilot- en AI-mogelijkheden wilt verlenen of weigeren, raadpleegt u de documentatie of de uitgever van die functie om te bepalen welke machtigingen vereist zijn.
+
+## Vereisten om beheerder te zijn
+
+U moet SUPER-machtigingen hebben in het Business Central-gebruikersaccount of een van de volgende Business Central-licenties:
+
+- Gedelegeerde beheerder
+- Gedelegeerde helpdesk
+- Globale beheerder
+- BC-beheerder
+- D365 Beheer
+
+Business Central biedt nog geen gedetailleerde machtigingen op objectniveau, zodat alleen specifieke beheerders Copilot kunnen configureren.
 
 ## Volgende stappen
 
 Nadat u de functies heeft ingeschakeld en ermee akkoord gaat, bent u klaar om ze uit te proberen. Ga naar:
 
-- [Marketingtekst aan artikelen toevoegen](item-marketing-text.md)
-- [Gegevens analyseren in analysemodus me Copilot](analysis-assist.md)  
+- [Marketingtekst aan artikelen toevoegen met Copilot](item-marketing-text.md)
+- [Lijstgegevens analyseren met behulp van Copilot](analysis-assist.md)  
 - [Chatten met Copilot](chat-with-copilot.md)
-- [Reconciliëren met behulp van hulp bij bankrekeningreconciliatie](bank-reconciliation-with-copilot.md)
+- [E-documenten toewijzen aan inkooporderregels met Copilot](map-edocuments-with-copilot.md)
+- [Bankrekeningen reconciliëren met Copilot](bank-reconciliation-with-copilot.md)
+- [Regels op verkooporders voorstellen met Copilot](sales-suggest-sales-lines-with-copilot.md)  
 
 ## Zie ook
 
 [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)  
-[Veelgestelde vragen over hulp bij analyse](faqs-analysis-assist.md)  
+[Veelgestelde vragen over analysehulp](faqs-analysis-assist.md)  
 [Veelgestelde vragen over hulp bij bankreconciliatie](faqs-bank-reconciliation.md)  
 [Veelgestelde vragen over chatten met Copilot](faqs-chat-with-copilot.md)  
+[Veelgestelde vragen over het toewijzen van e-documenten aan inkooporders](faqs-map-edocuments.md)  
 [Veelgestelde vragen over suggesties voor marketing](faqs-marketing-text.md)  
+[Veelgestelde vragen over suggesties voor verkoopregels](faq-sales-suggest-sales-lines-with-copilot.md)  
+
 [Overzicht van suggesties voor marketing](ai-overview.md)  

@@ -36,10 +36,10 @@ Zie voor meer informatie [Gedelegeerde beheerderstoegang tot Business Central On
 
 |Als u dit wilt doen:  |Zie  |
 |---------|---------|
-|Om het gemakkelijker te maken om machtigingen voor meerdere gebruikers te beheren, kunt u ze organiseren in beveiligingsgroepen en dan in één actie één machtigingsset voor meerdere gebruikers toewijzen of wijzigen.| [Machtigingen beheren via gebruikersgroepen](#to-manage-permissions-through-user-groups) |
-|Machtigingensets beheren voor specifieke gebruikers | [Machtigingssets toewijzen aan gebruikers](#to-assign-permission-sets-to-users) |
-|Leren hoe u een machtigingenset definieert|[Een machtigingenset maken](#to-create-a-permission-set)|
-|Machtigingen van een gebruiker weergeven of problemen oplossen|[Een overzicht krijgen van de machtigingen van een gebruiker](#to-get-an-overview-of-a-users-permissions)|
+|Om het gemakkelijker te maken om machtigingen voor meerdere gebruikers te beheren, kunt u ze organiseren in beveiligingsgroepen en dan in één actie één machtigingsset voor meerdere gebruikers toewijzen of wijzigen.| [Machtigingen beheren via gebruikersgroepen](#manage-permissions-through-user-groups) |
+|Machtigingensets beheren voor specifieke gebruikers | [Machtigingssets toewijzen aan gebruikers](#assign-permission-sets-to-users) |
+|Leren hoe u een machtigingenset definieert|[Een machtigingenset maken](#create-a-permission-set)|
+|Machtigingen van een gebruiker weergeven of problemen oplossen|[Een overzicht krijgen van de machtigingen van een gebruiker](#get-an-overview-of-a-users-permissions)|
 |Voor meer informatie over beveiliging op recordniveau|[Beveiligingsfilters beperken de toegang van een gebruiker tot specifieke records in een tabel](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
@@ -184,6 +184,14 @@ Beheerders kunnen perioden definiëren waarin bepaalde gebruikers kunnen posten.
 3. Voer in het veld **Gebruikers-id** de id van een gebruiker in of kies het veld om alle huidige Windows-gebruikers in het systeem te zien.
 4. Vul de vereiste velden in.
 
+## Toegang tot specifieke bedrijven beheren
+
+Wanneer u meerdere bedrijven in Business Central heeft, vereist het beheren van machtigingen tussen bedrijven extra aandacht. Mogelijk wilt u niet dat gebruikers dezelfde toegangsrechten hebben tot alle bedrijven. In plaats daarvan moet u mogelijk gebruikersmachtigingen verlenen op basis van hun bedrijfsrelaties. Ter ondersteuning van dit scenario heeft u, wanneer u machtigingensets toewijst aan individuele gebruikers of beveiligingsgroepen, de mogelijkheid om een specifiek bedrijf te selecteren waarop de machtigingenset van toepassing is. Het bedrijf wordt niet expliciet gespecificeerd binnen de machtigingenset, maar wanneer de machtigingenset wordt toegewezen aan de gebruiker of beveiligingsgroep.
+
+Als u bij het toewijzen van een machtigingenset het bedrijf niet opgeeft, geldt de machtigingenset voor alle bedrijven. Als u wilt dat een machtigingenset voor meer dan één bedrijf geldt, maar niet voor alle bedrijven, voegt u de machtigingenset specifiek voor elk bedrijf afzonderlijk toe.
+
+Leer hoe op [Machtigingensets toewijzen aan gebruikers](#assign-permission-sets-to-users) of [Machtigingen toe aan een beveiligingsgroep](ui-security-groups.md#assign-permissions-to-a-security-group).
+
 ## Machtigingen beheren via gebruikersgroepen
 
 Met gebruikersgroepen kunt u machtigingensets in het hele bedrijf beheren. [!INCLUDE [prod_short](includes/prod_short.md)] online bevat standaard gebruikersgroepen die automatisch aan gebruikers worden toegewezen op basis van hun licentie. U kunt gebruikers handmatig toevoegen aan een gebruikersgroep en u kunt nieuwe gebruikersgroepen maken als kopieën van bestaande.  
@@ -227,7 +235,7 @@ De nieuwe gebruikersgroep wordt toegevoegd aan de pagina **Gebruikersgroepen**. 
 3. Kies de actie **Machtigingssets voor gebruikers** om de pagina **Machtigingssets voor gebruikers** te openen.
 4. Vul op de pagina **Machtigingssets voor gebruikers** op een nieuwe regel de vereiste velden in.
 
-### Een machtigingsset toewijzen op de pagina **Machtigingsset per gebruikersgroep**
+### Een machtigingsset toewijzen op de pagina Machtigingsset per gebruikersgroep
 
 De volgende procedure licht toe hoe u machtigingssets aan een gebruikersgroep toewijst vanaf de pagina **Machtigingsset per gebruikersgroep**.
 
@@ -242,7 +250,7 @@ U kunt machtigingssets ook rechtstreeks aan een gebruiker toewijzen.
 
 Een machtigingsset is een verzameling machtigingen voor specifieke databaseobjecten. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Een [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing bevat vooraf gedefinieerde machtigingssets die door Microsoft of uw oplossingsprovider zijn toegevoegd. U kunt ook nieuwe machtigingssets toevoegen die zijn afgestemd op de behoeften van uw organisatie. Zie voor meer informatie het gedeelte [Een machtigingset maken](#to-create-a-permission-set).
+Een [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing bevat vooraf gedefinieerde machtigingssets die door Microsoft of uw oplossingsprovider zijn toegevoegd. U kunt ook nieuwe machtigingssets toevoegen die zijn afgestemd op de behoeften van uw organisatie. Zie voor meer informatie het gedeelte [Een machtigingset maken](#create-a-permission-set).
 
 > [!NOTE]
 > Als u de toegang van een gebruiker niet meer wilt beperken dan in de licentie is gedefinieerd, kunt u een speciale machtigingsset met de naam SUPER toewijzen aan de gebruiker. Deze machtigingsset zorgt ervoor dat de gebruiker toegang heeft tot alle objecten die in de licentie zijn opgegeven.
@@ -257,18 +265,22 @@ U kunt machtigingssets op twee manieren aan gebruikers toewijzen:
 ### Een machtigingenset op een gebruikerskaart toewijzen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
-2. Selecteer de gebruiker waaraan u machtigingen wilt toewijzen.
-Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven in het feitenblok **Machtigingensets**.
-3. Kies de actie **Bewerken** om de pagina **Gebruikerskaart** te openen.
-4. Vul op het sneltabblad **Gebruikersmachtigingensets** waar nodig de velden in op een nieuwe regel. Zie voor meer informatie [Een machtigingenset maken of bewerken](ui-define-granular-permissions.md#to-create-a-permission-set).
+1. Selecteer de gebruiker waaraan u machtigingen wilt toewijzen.
 
-   Gebruik het veld **Bedrijf** om de machtigingenset voor een specifiek bedrijf toe te passen. Als u het veld leeg laat, geldt het voor alle bedrijven.
+   Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven in het feitenblok **Machtigingensets**.
+1. Kies de actie **Bewerken** om de pagina **Gebruikerskaart** te openen.
+1. Vul op het sneltabblad **Gebruikersmachtigingensets** waar nodig de velden in op een nieuwe regel. Zie voor meer informatie [Een machtigingenset maken of bewerken](ui-define-granular-permissions.md#create-a-permission-set).
+
+   Als u wilt dat de machtigingenset van toepassing is op een specifiek bedrijf, stelt u het veld **Bedrijf** in op dat bedrijf. Als u wilt dat de machtigingenset voor alle bedrijven geldt, laat u het veld **Bedrijf** leeg. [Meer informatie](#control-access-to-specific-companies).
 
 ## Een machtigingenset op de pagina Machtigingenset per gebruiker toewijzen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
-2. Kies op de pagina **Gebruikers** de actie **Machtigingenset per gebruiker**.
-3. Selecteer op de pagina **Machtigingenset per gebruiker** het selectievakje **[gebruikersnaam]** op een regel voor de betreffende machtigingenset om de set aan de gebruiker toe te wijzen.
+Met deze methode wordt het gemakkelijker voor u om verschillende machtigingensets aan meerdere gebruikers toe te wijzen. 
+
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.
+1. Kies op de pagina **Gebruikers** de actie **Machtigingenset per gebruiker**.
+1. Als u wilt dat de machtigingensets alleen van toepassing zijn op een specifiek bedrijf, stelt u het veld **Bedrijfsnaam** in op dat bedrijf. Als u wilt dat de machtigingenset voor alle bedrijven geldt, laat u het veld **Bedrijfsnaam** leeg. [Meer informatie](#control-access-to-specific-companies).
+1. Selecteer op de pagina **Machtigingenset per gebruiker** het selectievakje **[gebruikersnaam]** op een regel voor de betreffende machtigingenset om de set aan de gebruiker toe te wijzen.
 
     Selecteer het selectievakje **Alle gebruikers** om de machtigingenset aan alle gebruikers toe te wijzen.
 
@@ -293,7 +305,7 @@ De pagina **Effectieve machtigingen** biedt aanvullende informatie over de bron 
     >
     > Rijen bronrechten afkomstig uit de abonnementslicentie. De machtigingswaarden van het recht hebben voorrang op waarden in andere machtigingensets als deze een hogere volgorde hebben. Een waarde in een niet-recht machtigingenset met een hogere volgorde dan de gerelateerde waarde in het recht worden geplaatst tussen haakjes om aan te geven dat het niet effectief is omdat het wordt overschreven door het recht.
     >
-    > Zie voor een uitleg van volgorde [Een machtigingenset maken](ui-define-granular-permissions.md#to-create-a-permission-set).  
+    > Zie voor een uitleg van volgorde [Een machtigingenset maken](ui-define-granular-permissions.md#create-a-permission-set).  
 
 4. Als u een machtigingenset wilt bewerken, kiest u in het gedeelte **Op machtigingenset-id**, op de regel voor een relevante machtigingenset van het soort **Door gebruiker gedefinieerd**, een van de vijf toegangstypevelden en selecteert u een andere waarde.
 
@@ -305,6 +317,7 @@ De pagina **Effectieve machtigingen** biedt aanvullende informatie over de bron 
 ### Beveiligingsfilters beperken de toegang van een gebruiker tot specifieke records in een tabel
 
 Voor beveiliging op recordniveau in [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt u beveiligingsfilters om de toegang van een gebruiker tot gegevens in een tabel te beperken. U maakt beveiligingsfilters voor tabelgegevens. Een beveiligingsfilter beschrijft een set records in een tabel waarvoor een gebruiker toegangsrechten heeft. U kunt bijvoorbeeld opgeven dat een gebruiker alleen de records kan lezen die gegevens over een bepaalde klant bevatten. Zo heeft de gebruiker geen toegang tot de records die informatie over andere klanten bevatten. Zie voor meer informatie [Beveiligingsfilters gebruiken](/dynamics365/business-central/dev-itpro/security/security-filters) in de beheerinhoud.
+
 
 ## Telemetrie van machtigingswijzigingen weergeven
 

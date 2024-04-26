@@ -103,7 +103,7 @@ Prompt: `How does I save my filterrings to do them later?`
 
 In dit voorbeeld vraagt u Copilot om begeleiding bij het uitvoeren van een bepaalde taak in Business Central. Copilot begrijpt meestal de bedoeling van uw vraag, zelfs als er enkele grammaticale fouten, spelfouten of afkortingen in voorkomen.
 
-Prompt: `Provide feedback on answers`
+## Feedback geven op antwoorden
 
 U kunt de antwoorden die u krijgt van Copilot beoordelen door de knop Vind ik leuk (duim omhoog) te gebruiken voor een goede beoordeling of de knop Niet leuk (duim omlaag) voor een slechte beoordeling. Wanneer u de knop 'Niet leuk' selecteert, kunt u een reden kiezen, waaronder onnauwkeurig, ongepast of iets anders. Deze informatie kan ons helpen suggesties te verbeteren.
 

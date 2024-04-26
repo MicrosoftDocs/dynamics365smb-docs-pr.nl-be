@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 03/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Microsoft Copilot is de door AI aangestuurde assistent die de creativiteit stimu
 
 Copilot bevat een voortdurend uitbreidende reeks mogelijkheden die gebruikers in verschillende rollen en taken helpen. U kunt meer lezen over Copilot en andere AI-functies in Business Central via [aka.ms/BCAI](https://aka.ms/BCAI). 
 
-## Is Copilot gratis? 
+## Is Copilot gratis?
 
 Op dit moment is Copilot in Business Central zonder extra kosten inbegrepen bij uw Business Central-licentie. Dit sluit niet uit dat beleid voor redelijk gebruik, quota of prijzen op een later tijdstip wordt ingevoerd.
 
@@ -38,7 +38,11 @@ Business Central biedt tal van door AI aangestuurde functies. Sommige functies, 
 
 ## Is Copilot in Business Central wereldwijd beschikbaar? 
 
-Copilot bevat een voortdurend uitbreidende reeks mogelijkheden die gebruikers in verschillende rollen en taken helpen. Elke Copilot-mogelijkheid definieert een eigen lijst met ondersteunde regio's en ondersteunde talen. Hoewel de meeste functies in eerste instantie waarschijnlijk alleen in het Engels beschikbaar zullen zijn, streven we ernaar om in de loop van de tijd meer talen en regio's te ontgrendelen. Een overzicht van de Copilot-talen en -regio's die beschikbaar zijn voor zakelijke toepassingen vindt u op [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+Copilot bevat een voortdurend uitbreidende reeks mogelijkheden die gebruikers in verschillende rollen en taken helpen. Elke Copilot-mogelijkheid definieert een eigen lijst met ondersteunde regio's en ondersteunde talen. Hoewel de meeste functies in eerste instantie waarschijnlijk alleen in het Engels beschikbaar zullen zijn, streven we ernaar om in de loop van de tijd meer talen en regio's te ontgrendelen. U kunt een overzicht krijgen van de Copilot-talen en -regio's die beschikbaar zijn voor zakelijke toepassingen op [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+
+## Is Copilot op de hoogte van mijn omgevingsaanpassingen?
+
+Sommige, maar niet alle Copilot-functies kunnen werken met uw aangepaste pagina's en tabellen. U kunt bijvoorbeeld [analysis assist](analysis-assist.md) gebruiken in uw aangepaste lijsten, of [chatten met Copilot](chat-with-copilot.md) om records in aangepaste tabellen te vinden. Raadpleeg de artikelen voor elke functie om te begrijpen welke Copilot-functies met aanpassingen werken.
 
 ## Kan ik mijn eigen Copilot voor Business Central ontwikkelen?
 

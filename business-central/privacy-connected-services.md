@@ -5,13 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'privacy, trial, Microsoft services'
-ms.date: 12/12/2023
+ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Proeffuncties die verbinding maken met andere Microsoft-services
+# Proeffuncties die verbinding maken met andere Microsoft-services 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] is een uitgebreide oplossing voor bedrijfsbeheer die diep is geïntegreerd met Microsoft 365 productiviteits-apps en het Power Platform. Uw gratis proefversie van Business Central kan verbinding maken met veel verschillende Microsoft-services die u eerst moet configureren en inschakelen. Om het meeste uit uw gratis proefperiode te halen zijn sommige van deze functies automatisch voor u ingeschakeld. Ook al is de verbinding van [!INCLUDE[prod_short](includes/prod_short.md)] ingeschakeld, deze services zijn niet inbegrepen bij uw proefversie en moeten apart worden aangeschaft, tenzij u ze al hebt.
 
@@ -21,8 +21,8 @@ De volgende tabel geeft de verbindingen met Microsoft-services weer die automati
 |------------|-------------|--------|------------|-------------|
 |Microsoft Teams|Ja|Nr.|Actie **Delen met teams** op**artikel**kaart |[Teams-integratie met Business Central beheren](admin-teams-integration.md)|  
 |Microsoft OneDrive voor Bedrijven|Ja|Nr.|Actie **Openen in OneDrive** in **artikel**bijlagen |[OneDrive-integratie met Business Central beheren](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
-| Microsoft Power Automate |Ja|Nee|**Automatiseren**-acties op **artikel**kaart |[Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
-| Microsoft Azure OpenAI automatiseren |Ja |Nee|**Copilot (preview)** |[Door AI aangestuurde artikelmarketingtekst met Copilot configureren](enable-ai.md)|
+| Microsoft Power Automate |Ja|Nr.|**Automatiseren**-acties op **artikel**kaart |[Power Automate-integratie instellen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
+| Microsoft Azure OpenAI-service |Ja |Nr.|**Copilot** |[Door AI aangestuurde artikelmarketingtekst met Copilot configureren](enable-ai.md)|
 
 > [!NOTE]
 > Door functies te gebruiken die verbinding maken met deze services: 
