@@ -148,7 +148,7 @@ Er zijn een aantal manieren om rapporten beschikbaar te maken voor uw collega's 
 
 ## <a name="fixing-problems"></a>Problemen oplossen
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Kan geen record invoegen. De huidige verbindingsintentie is alleen-lezen." fout bij het verbinden met aangepaste API-pagina
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Kan geen record invoegen. De huidige verbindingsintentie is alleen-lezen." fout bij het verbinden met aangepaste API-pagina
 
 > **VAN TOEPASSING OP:** Business Central online
 

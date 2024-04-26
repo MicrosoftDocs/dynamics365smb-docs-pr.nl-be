@@ -11,7 +11,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Copilot-gegevensverplaatsing tussen geografieën 
+# <a name="copilot-data-movement-across-geographies"></a>Copilot-gegevensverplaatsing tussen geografieën
 
 Copilot is beschikbaar in alle ondersteunde [geografische Business Central-landen/regio's](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Copilot gebruikt echter Microsoft Azure OpenAI Service, wat momenteel alleen in bepaalde geografische regio's beschikbaar is voor Business Central. Dit betekent dat als uw omgeving zich elders bevindt, gegevens van de Copilot- en generatieve AI-functies buiten uw geografische regio moeten worden verzonden en mogelijk buiten uw nalevingsgrenzen worden verwerkt en opgeslagen. Gegevens omvatten de AI-prompts en uw bedrijfsgegevens die worden gebruikt of gegenereerd door Copilot. In dit geval moet u inschakelen dat u gegevensverplaatsing naar een Azure OpenAI Service in een andere geografie toestaat. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
@@ -23,7 +23,7 @@ Copilot is beschikbaar in alle ondersteunde [geografische Business Central-lande
 > 
 > Copilot- en generatieve AI-functies van niet-Microsoft-uitgevers, zoals die afkomstig zijn van aanpassingen of AppSource-apps die u installeert, definiëren elk hun eigen specifieke Azure OpenAI Service-regio's. Neem contact op met de uitgever van de extensie om na te gaan welke regionale Azure-services door de extensie worden gebruikt. 
 
-### Azure OpenAI Service-geografieën
+### <a name="azure-openai-service-geographies"></a>Azure OpenAI Service-geografieën
 
 In de volgende tabel ziet u de geografie van de Azure OpenAI Service die door Copilot wordt gebruikt, gebaseerd op de Azure-regio van een Business Central-omgeving. Deze informatie is belangrijk bij de beslissing of u zich wilt aanmelden voor gegevensverplaatsing tussen geografische gebieden. U kunt de Azure-regio voor uw omgeving identificeren in het Business Central-beheercentrum (zie [Omgevingen beheren in het beheercentrum](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
@@ -109,6 +109,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 
 U meldt zich aan (of af) voor gegevensverplaatsing tussen geografieën vanaf de pagina [Copilot- en AI-mogelijkheden](https://businesscentral.dynamics.com/?page=7775). Ga voor meer informatie naar [Gegevensverplaatsing tussen geografische gebieden toestaan](enable-ai.md#allow-data-movement-across-geographies).

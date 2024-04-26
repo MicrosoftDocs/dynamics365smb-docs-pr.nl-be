@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="introduction-to--and-power-bi"></a>Inleiding in [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
+# <a name="introduction-to-business-central-and-power-bi"></a>Inleiding in [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ Het is gemakkelijk inzicht te krijgen in uw [!INCLUDE[prod_short](includes/prod_
 
 ![Power BI en Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-"></a>Wat u kunt doen met Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="what-you-can-do-with-power-bi-and-business-central"></a>Wat u kunt doen met Power BI en [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI. Sommige dingen kunt u doen vanuit Power BI, terwijl u andere dingen kunt doen vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige functies zijn ook alleen beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)] online en niet in on-premises. De volgende tabel biedt u een overzicht.
 
