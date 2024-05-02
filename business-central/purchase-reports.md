@@ -9,21 +9,21 @@ ms.date: 02/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Inkooprapporten en analyses in Business Central
+# <a name="purchase-reporting-and-analytics"></a>Inkooprapporten en analyses in Business Central
 
 Inkooprapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt aanschaf- en zakelijke professionals in staat om inzichten en statistieken te krijgen over huidige en vroegere inkoopactiviteiten.  
 
-## Rapporten
+## <a name="reports"></a>Rapporten
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## Taken
+## <a name="tasks"></a>Taken
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw bedrijf:
 
 * [Analyselijsten maken](bi-how-create-analysis-views-reports.md)  
 * [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)  
 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Inkopen instellen](purchasing-setup-purchasing.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 

@@ -68,7 +68,7 @@ Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 1
 > [!NOTE]  
 > Als op locatie gebaseerde prognoses los van elkaar worden bekeken, is de totale prognose mogelijk niet representatief.
 
-### <a name="do-not-use-forecast-by-locations"></a>Gebruik prognose per vestiging niet
+### <a name="if-you-dont-use-forecast-by-locations"></a>Gebruik prognose per vestiging niet
 
 Als u de schakelaar **Prognose per vestiging gebruiken** uitschakelt, negeert [!INCLUDE[prod_short](includes/prod_short.md)] alle vestigingscodes die zijn opgegeven voor elk vraagprognose-item en combineert het de prognoses tot een prognose voor lege vestigingen.  
 

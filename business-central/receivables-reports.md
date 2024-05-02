@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Debiteurenrapporten en -analyses in Business Central
+# <a name="accounts-receivable-reports-and-analytics"></a>Debiteurenrapporten en -analyses in Business Central
 
 Om u te helpen bij het beheren van uw vorderingen in [!INCLUDE [prod_short](includes/prod_short.md)] zijn standaardrapporten en -analyses ingebouwd. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen.  
 

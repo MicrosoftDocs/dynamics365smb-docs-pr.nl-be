@@ -9,7 +9,7 @@ ms.date: 01/11/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="get-business-central-desktop-app"></a>Business Central-desktop-app verkrijgen
+# <a name="get-the-business-central-desktop-app"></a>Business Central-desktop-app verkrijgen
 
 Als u een Windows-pc of macOS-computer hebt, kunt u een Business Central-app op uw desktop installeren. De app werkt met Business Central online en on-premises.
 
@@ -24,7 +24,7 @@ De Business Central-app lijkt op de webclient, maar biedt een aantal voordelen, 
 
      Wanneer u de app voor een specifieke omgeving opent, wordt de omgevingsnaam opgenomen in de titel van het venster. Wanneer u werkt in meerdere [!INCLUDE[prod_short](includes/prod_short.md)]-omgevingen, wordt elk app-venster afzonderlijk weergegeven. De naam maakt het voor u gemakkelijker om te zien welk venster bij elke omgeving hoort.
 
-## <a name="install-the-app-for-business-central-online"></a>De app voor Business Central online installeren
+## <a name="install-the-app-for--online"></a>De app voor Business Central online installeren
 
 Er zijn twee manieren om de app voor Business Central online te installeren. U kunt de app rechtstreeks vanuit de browser of vanuit de Microsoft Store installeren. Welke aanpak u ook gebruikt, het is dezelfde app. Het verschil is dat u bij installatie vanuit de browser de app voor elke omgeving kunt installeren als er meer dan één is.
 
@@ -56,7 +56,7 @@ De volgende keer dat u de app wilt openen, zoekt u deze in het menu **Start**.
 
 Na installatie verschijnt de app in het menu **Start**. Als u een specifieke omgeving voor de app hebt geselecteerd, wordt de omgevingsnaam toegevoegd aan de app-naam in het menu **Start**.
 
-## <a name="install-the-app-for-business-central-on-premises"></a>De app voor Business Central on-premises installeren
+## <a name="install-the-app-for--on-premises"></a>De app voor Business Central on-premises installeren
 
 Het installeren van de app wanneer u Business Central on-premises gebruikt, gebeurt rechtstreeks vanuit de browser, [zoals hierboven beschreven](#from-the-browser). Als u slechts één tenant hebt, opent u gewoon Business Central in uw browser en selecteert u ![pictogram voor het installeren van een app in Edge.](media/ui-edge-install-app-icon.png) **App beschikbaar. Business Central installeren** of ![pictogram voor het installeren van een app in Chrome.](media/ui-chrome-install-app-icon.png) **Business Central installeren** zoals hierboven getoond.
 

@@ -9,14 +9,14 @@ ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Verkooprapporten en analyses in Business Central
+# <a name="sales-reports-and-analytics-in-business-central"></a>Verkooprapporten en analyses in Business Central
 
 Verkooprapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt verkoop- en zakelijke professionals in staat om inzichten en statistieken te krijgen over huidige en vroegere verkoopactiviteiten.  
 
-## Rapporten
+## <a name="reports"></a>Rapporten
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Taken
+## <a name="tasks"></a>Taken
 
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw bedrijf:
 
@@ -24,7 +24,7 @@ In de volgende artikelen worden enkele van de belangrijkste taken beschreven voo
 * [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
