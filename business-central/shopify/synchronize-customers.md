@@ -154,7 +154,7 @@ U kunt bestaande klanten in bulk als een bedrijf exporteren naar Shopify. In elk
 |**Standaardmachtigingen van contact**| Geef op welke rechten aan de hoofdcontactpersoon moeten worden toegewezen. U kunt kiezen tussen **Geen**, **Alleen bestellen** en **Locatiebeheerder**.|
 |**Automatisch catalogus maken**| Schakel deze optie in als u een catalogus wilt maken die alle producten bevat. Voor elk geëxporteerd bedrijf wordt een catalogus aangemaakt.|
 
-## <a name="export-b2b-company-to-shopify"></a>B2B-bedrijf exporteren naar Shopify
+## <a name="export-a-b2b-company-to-shopify"></a>B2B-bedrijf exporteren naar Shopify
 
 ### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Initiële synchronisatie van B2B-bedrijven uit Business Central naar Shopify
 

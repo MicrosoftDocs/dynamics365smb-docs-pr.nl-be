@@ -50,7 +50,7 @@ Met de Shopify-connector kunnen bedrijven hun Shopify winkel aan [!INCLUDE[prod_
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] werkt samen met Shopify om onze klanten te helpen een betere winkelervaring te creëren. Shopify biedt handelaren een eenvoudige handelsoplossing en [!INCLUDE[prod_short](../includes/prod_short.md)] is een alles-in-één oplossing voor bedrijfsmanagement waarmee bedrijven hun financiën, verkoop, service en activiteiten kunnen beheren. Gebruik de naadloze verbinding tussen de applicaties om orders, voorraad en klantinformatie te synchroniseren om orders sneller uit te voeren en klanten beter van dienst te zijn.
 
-## <a name="which-microsoft-products-is-the-shopify-connector-available-for"></a>Voor welke Microsoft-producten is de Shopify-connector beschikbaar?
+## <a name="which-microsoft-products-work-with-the-shopify-connector"></a>Voor welke Microsoft-producten is de Shopify-connector beschikbaar?
 
 Deze functie is alleen beschikbaar voor [!INCLUDE[prod_short](../includes/prod_short.md)] online, te beginnen met versie 20.1. Het is niet beschikbaar voor on-premises implementaties. De connector wordt vooraf geïnstalleerd voor nieuwe omgevingen. Organisaties met bestaande omgevingen kunnen de connector downloaden en installeren vanaf AppSource. De organisatie moet zowel een [!INCLUDE [prod_short](../includes/prod_short.md)]-licentie als een Shopify-licentie hebben om de connector te kunnen gebruiken. Ga voor meer informatie over ondersteunde landen/regio's, talen en edities van [!INCLUDE[prod_short](../includes/prod_short.md)] naar [Shopify-connector op de AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
@@ -87,7 +87,7 @@ Ja, de Shopify-connector is uitbreidbaar. Controleer GitHub om toegang te krijge
 
 Ja, deze extensie staat open voor bijdragen vanuit de community. U vindt de [broncode](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) in de opslagplaats voor add-ons voor Microsoft AL-toepassingen.
 
-## <a name="building-your-version-of-shopify-connector"></a>Uw versie van Shopify-connector maken
+## <a name="building-your-version-of-the-shopify-connector"></a>Uw versie van Shopify-connector maken
 
 Als u volgens Shopify een connector-app op de Shopify marktplaats wilt bouwen en publiceren met als voornaamste doel het overdragen of delen van verkopersgegevens aan een derde partij ([!INCLUDE [prod_short](../includes/prod_short.md)]), moet u schriftelijke toestemming hebben van Shopify. Als onderdeel van dit proces moet u toestemming krijgen van Microsoft via het "formulier voor gegevensbevestiging van eindontvangers". We moeten u vragen de zaak af te handelen met Shopify omdat Microsoft geen overeenkomsten met derden kan ondertekenen.
 

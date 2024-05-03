@@ -327,7 +327,7 @@ Vanuit het [!INCLUDE[prod_short](../includes/prod_short.md)]-perspectief, wilt u
 * gebruik de schakelaar **Standaardproductvestiging** om aan te geven of dit artikel wordt afgehandeld door Shopify of 3PL. Er is altijd **Business Central-afhandelingsservice**, maar er kunnen meer afhandelingsservices zijn als er meer apps zijn geïnstalleerd. U kunt **Standaardproductvestiging** slechts in één record inschakelen als u de afhandelingsservice wilt gebruiken. 
 * Gebruik de schakelaar **Standaardproductvestiging** om op te geven welke locaties u wilt gebruiken om de voorraad bij te houden. U kunt **Standaardproductvestiging** aanzetten voor meerdere locaties waar **Is afhandelingsservice** is uitgeschakeld. Houd er rekening mee dat de voorraad altijd wordt bijgehouden voor de primaire locatie. 
  
-#### <a name="what-is-the-difference"></a>Wat is het verschil?
+#### <a name="whats-the-difference"></a>Wat is het verschil?
 
 Shopify-afhandeling is handig bij gebruik Shopify POS en als er meerdere fysieke winkels zijn. U wilt dat de medewerker in de fysieke winkel zijn huidige voorraad kent. In dit geval maakt u meerdere locaties in Shopify, meerdere locaties in [!INCLUDE[prod_short](../includes/prod_short.md)], en activeert u **Standaardproductvestiging** voor al deze locaties.  
 

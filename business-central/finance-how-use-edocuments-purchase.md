@@ -157,7 +157,7 @@ Als u enige tolerantie wilt toevoegen en rekening wilt houden met het verschil t
 3. Deze instelling is van toepassing op alle overeenkomende regels, maar houdt opnieuw rekening met de tolerantie voor het totale bedrag, zoals voor **Directe kostprijs** samen met het toegepaste **Regelkorting %**.  
 4. De pagina sluiten.   
 
-##### <a name="to-match-lines-from-e-document"></a>Regels uit een e-document afstemmen
+##### <a name="matching-lines-from-e-document"></a>Regels uit een e-document afstemmen
 
 U kunt de regels op de pagina **E-document** afstemmen. Voer de volgende stappen uit om hiermee te beginnen:  
 
