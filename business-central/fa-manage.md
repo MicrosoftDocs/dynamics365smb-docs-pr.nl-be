@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Vaste activa beheren
+# Vaste activa beheren
 
 De functionaliteit in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van uw vaste activa en zorgt voor een juiste periodieke afschrijving. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen voor vaste activa beheren, transacties voor vaste activa boeken en verschillende lijsten en statistieken genereren.
 
-## <a name="video-overview"></a>Video-overzicht
+## Video-overzicht
 
 De volgende video behandelt de basisprincipes van vaste activa:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="fixed-assets-overview"></a>Overzicht van vaste activa
+## Overzicht van vaste activa
 
 Voor elk vast activum moet u een kaart maken met informatie over het activum. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. Vervolgens kunt u beginnen met het aanschaffen, onderhouden en verkopen van de vaste activa. U kunt ook gebudgetteerde activa instellen. Met budgettering kunt u verwachte aan- en verkopen opnemen in rapporten.
 
@@ -46,7 +46,7 @@ U kunt elk vast activum koppelen aan een of meer verzekeringspolissen en control
 > [!NOTE]  
 > U kunt transacties voor vaste activa registreren op de pagina **VA fin. dagboek** of op de pagina **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. In de Help voor vaste activa wordt alleen het gebruik van de pagina **Financieel dagboek voor vaste activa** beschreven. Zie [Afschrijving voor vaste activa instellen](fa-how-setup-depreciation.md) voor meer informatie.
 
-## <a name="how-to-use-fixed-assets"></a>Vaste activa gebruiken
+## Vaste activa gebruiken
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
@@ -64,7 +64,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 | Budgetten voor vaste activa beheren, aanschafkosten budgetteren, buitengebruikstellingen van vaste activa budgetteren en afschrijving budgetteren. |[Budgetten voor vaste activa beheren](fa-how-manage-budgets.md) |
 | Meer informatie over ingebouwde rapportage- en analysemogelijkheden voor vaste activa. | [Rapporten en analyses voor vaste activa](fa-reports.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vaste activa instellen](fa-setup.md)  
 [Overzicht van financiën](finance.md)  

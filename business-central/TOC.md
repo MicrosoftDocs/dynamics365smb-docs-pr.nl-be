@@ -408,7 +408,8 @@ ms.service: dynamics-365-business-central
 #### [De jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md)
 
 ### Werken met het rekeningschema en het grootboek (GB)
-#### [Het grootboek en het rekeningschema begrijpen](finance-general-ledger.md)
+#### [Het grootboek begrijpen](finance-general-ledger.md)
+#### [Het rekeningschema begrijpen](finance-chart-of-accounts.md)
 #### [Rekeningen controleren](finance-review-accounts.md)
 #### [Saldi van grootboekrekening herwaarderen](finance-revalue-account-balances.md)
 #### [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
@@ -477,7 +478,6 @@ ms.service: dynamics-365-business-central
 #### [KPI-webservice instellen en publiceren op basis van financiële rapporten](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Gegevens analyseren met statistiekrekeningen](bi-use-statistical-accounts.md)
 #### [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)
-#### [Analyserapporten maken](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -495,7 +495,12 @@ ms.service: dynamics-365-business-central
 
 ## Verkoop
 ### [Overzicht van verkoop](sales-manage-sales.md)
-### [Verkooprapporten](sales-reports.md)
+### Verkoopanalyses 
+#### [Overzicht van verkoopanalyses](sales-analytics-overview.md)
+#### [Rapporten met verkoopanalyses maken](bi-how-create-analysis-views-reports.md)
+#### [Ad-hocanalyse van verkoopgegevens](ad-hoc-analysis-sales.md)
+#### [Ingebouwde verkooprapporten](sales-reports.md)
+
 ### [Procedure: Een verkoopcampagne uitvoeren](walkthrough-conducting-a-sales-campaign.md)
 ### [Procedure: Verkoopvooruitbetalingen instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Nieuwe klanten registreren](sales-how-register-new-customers.md)
@@ -522,7 +527,10 @@ ms.service: dynamics-365-business-central
 
 ## Inkoop
 ### [Overzicht van inkoop](purchasing-manage-purchasing.md)
-### [Inkooprapporten](purchase-reports.md)
+### Inkoopanalyses 
+#### [Overzicht van inkoopanalyses](purchasing-analytics-overview.md)
+#### [Ad-hocanalyse van inkoopgegevens](ad-hoc-analysis-purchasing.md)
+#### [Ingebouwde inkooprapporten](purchase-reports.md)
 ### [Procedure: Een goedkeuringswerkstroom voor inkoop instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Inkopen vastleggen](purchasing-how-record-purchases.md)
 ### [Offertes aanvragen](purchasing-how-request-quotes.md)
@@ -577,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Vaste activa
 ### [Overzicht van vaste activa](fa-manage.md)
+### Analyses van vaste activa
+#### [Overzicht van analyses van vaste activa](fa-analytics-overview.md)
+#### Ingebouwde analysehulpmiddelen voor vaste activa
+##### [Onderhoudskosten controleren](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Verzekeringsdekking controleren](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [Gewijzigde afschrijvingsboekwaarden weergeven](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [Buitengebruikstellingsposten weergeven](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [Voorspelde buitengebruikstellingswaarden weergeven](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Ingebouwde vaste-activarapporten](fa-reports.md)
 ### [Vaste activa instellen](fa-setup.md)
 ### [Afschrijvingsmethoden](fa-depreciation-methods.md)
-### [Rapporten en analyses voor vaste activa](fa-reports.md)
+### [Budgetten voor vaste activa beheren](fa-how-manage-budgets.md)
 ### [Vaste activa aanschaffen](fa-how-acquire.md)
 ### [Vaste activa onderhouden](fa-how-maintain.md)
 ### [Vaste activa verzekeren](fa-how-insure.md)
@@ -587,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Vaste activa herwaarderen](fa-how-revalue.md)
 ### [Vaste activa afschrijven of aflossen](fa-how-depreciate-amortize.md)
 ### [Vaste activa buiten gebruik stellen of wegdoen](fa-how-dispose-retire.md)
-### [Budgetten voor vaste activa beheren](fa-how-manage-budgets.md)
 ### [Problemen oplossen met VA-posten](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Relatiebeheer
 ### [Overzicht van relatiebeheer](marketing-relationship-management.md)
@@ -1758,7 +1775,7 @@ ms.service: dynamics-365-business-central
 ###### [Rapporten maken voor het weergeven van lijstgegevens](across-how-use-powerbi-reports-factbox.md)
 ##### Bedrijfsgebruiker
 ###### [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md)
-###### [Werken met Business Central-gegevens in Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Verbinden met Power BI vanuit Business Central on-premises](across-working-with-business-central-in-powerbi.md)
 ###### [De Business Central-apps gebruiken in Power BI](across-powerbi-business-central-apps.md)
 ##### [Veelgestelde vragen](power-bi-faq.md)
 #### Power Automate gebruiken met Business Central
@@ -1787,6 +1804,20 @@ ms.service: dynamics-365-business-central
 ## [Overzicht van analyses](reports-bi-reporting.md)
 ## [KPI's gebruiken om uw bedrijfsdoelen te halen](./analytics-about-kpis.md)
 ## [Financiële rapportage gebruiken](bi-how-work-account-schedule.md)
+
+## Ad-hocgegevensanalyse
+### [Overzicht](reports-adhoc-analysis.md)
+### [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)
+### [Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.yml)
+### [Paginagegevens analyseren in Excel](across-work-with-excel.md)
+### [Rapportgegevens analyseren met Excel](report-analyze-excel.md)
+### [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md)
+
+## Ingebouwde analysehulpmiddelen
+### [Overzicht](reports-built-in-analytics.md)
+### [Werken met Power BI-rapporten](across-working-with-powerbi.md)
+### [Intelligente inzichten (on-premises)](about-intelligent-cloud.md)
+### [Gebruikstelemetrie rapporteren](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 ## Rapporten gebruiken in het dagelijkse werk
 ### [Overzicht](reports-use-reports.md)
@@ -1857,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Overzicht van serviceoffertes](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Overzicht van geboekte servicedocumenten](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Ad-hocgegevensanalyse
-### [Overzicht](reports-adhoc-analysis.md)
-### [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)
-### [Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.yml)
-### [Paginagegevens analyseren in Excel](across-work-with-excel.md)
-### [Rapportgegevens analyseren met Excel](report-analyze-excel.md)
-### [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md)
-### [Financiële Business Intelligence](bi.md)
-
-## Ingebouwde analyse 
-### [Overzicht](reports-built-in-analytics.md)
-### [Intelligente inzichten](about-intelligent-cloud.md)
-### [Werken met Power BI-rapporten](across-working-with-powerbi.md)
-### [Financiële Business Intelligence](bi.md)
-### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
-### [Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)
-### [Gebruikstelemetrie rapporteren](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Gegevens analyseren in bedrijfsinformatietools
-### [Overzicht](reports-external-analysis.md)
-### [Microsoft Fabric en Business Central](admin-fabric.md)
-### [Power BI gebruiken met Business Central](admin-powerbi.md)
-### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
-### [Gegevens extraheren naar data warehouses of data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Gegevens lezen met de Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Rapporten ontwikkelen
 ### [Overzicht](reports-develop-reports.md)
 ### Rapportlay-outs ontwikkelen
@@ -1901,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Rapportgegevenssets ontwikkelen
 #### [Handleiding voor rapportontwikkeling](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Handleiding voor het afstemmen van rapportprestaties](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Gegevens analyseren in bedrijfsinformatietools
+### [Overzicht](reports-external-analysis.md)
+### [Microsoft Fabric en Business Central](admin-fabric.md)
+### [Power BI gebruiken met Business Central](admin-powerbi.md)
+### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
+### [Gegevens extraheren naar data warehouses of data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Gegevens lezen met de Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Beveiliging, privacy en naleving
 ## Beveiliging en bescherming

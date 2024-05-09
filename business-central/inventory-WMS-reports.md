@@ -11,22 +11,22 @@ ms.date: 03/21/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics"></a>Voorraad- en magazijnrapporten en analyses
+# Voorraad- en magazijnrapporten en analyses
 
 Voorraad- en magazijnrapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt voorraad- en zakelijke professionals in staat om inzichten en statistieken te krijgen over huidige en vroegere voorraad- en magazijnactiviteiten.  
 
-## <a name="reports"></a>Rapporten
+## Rapporten
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## <a name="tasks"></a>Taken
+## Taken
 
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw bedrijf:
 
 * [Analyserapporten maken](bi-how-create-analysis-views-reports.md)  
 * [De beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
 
-## <a name="print-and-scan-barcodes"></a>Barcodes afdrukken en scannen
+## Barcodes afdrukken en scannen
 
 Het gebruik van barcodes kan u helpen uw inkomende, uitgaande en interne magazijnprocessen te stroomlijnen. 
 
@@ -44,7 +44,7 @@ Nadat u de app heeft geïnstalleerd, kunt u de actie **Label afdrukken** gebruik
 > [!NOTE]
 > Sommige printers en barcode/QR-code-indelingen vereisen een specifieke implementatie. Mogelijk moet u een andere Word-sjabloon uploaden of het rapport klonen om uw eigen aangepaste versie te maken.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad instellen](inventory-setup-inventory.md)  
 [Voorraad](inventory-manage-inventory.md)  
