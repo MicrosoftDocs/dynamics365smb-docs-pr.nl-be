@@ -27,7 +27,11 @@ sections:
         answer: |
           Ja. Als beheerder, ontwikkelaar of partner kunt u uw eigen manifesten voor invoegtoepassingen aanpassen en bouwen. Eén manier is om het Contact Insights-manifest te downloaden van elke omgeving waarmee de gebruikers verbinding willen maken. Pas vervolgens de tags `<Id>` en `<DisplayName>` aan zodat meerdere versies van de invoegtoepassing kunnen worden geïnstalleerd. Door deze aanpassingen kan de gebruiker meerdere Business Central-invoegtoepassingen installeren, elk verwijzend naar zijn eigen omgeving.
 
-          ![Meerdere Business Central-invoegtoepassingen voor Outlook.](media/outlook-multiple-addins.png) 
+          ![Meerdere Business Central-invoegtoepassingen voor Outlook.](media/outlook-multiple-addins.png)
+      - question: |
+          De Outlook-invoegtoepassing vertelt mij dat de pagina niet wordt ondersteund. Waarom?
+        answer: |
+          Sommige functies in Business Central vereisen aanzienlijke werkruimte om een geweldige ervaring te bieden en zijn niet beschikbaar bij gebruik van het Outlook-invoegtoepassingsvenster. Niet elke stapsgewijze wizardpagina is bijvoorbeeld beschikbaar in het deelvenster. Om dit te verhelpen kunt u de pagina in de invoegtoepassing uitklappen met behulp van de actie Nieuw venster. Het pop-outvenster kan tot elk formaat worden uitgerekt, inclusief uitvouwen om uw scherm te vullen.
 additionalContent: |
 
   ## Zie ook

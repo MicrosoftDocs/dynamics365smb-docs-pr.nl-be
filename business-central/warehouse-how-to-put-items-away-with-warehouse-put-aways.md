@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/19/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Artikelen opslaan met magazijnopslag
+# Artikelen opslaan met magazijnopslag
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
@@ -31,7 +31,7 @@ Afhankelijk van de waarde in het veld **Opslagvoorstel gebruiken** op de **Vesti
 
 Naast de standaard manieren waarop magazijnopslag gemaakt kan worden die in dit artikel worden beschreven, kunt u opslag maken vanuit de bijbehorende geboekte magazijnontvangst. Dit is nuttig als u opslagregels hebt verwijderd of als u het opslagvoorstel niet wilt gebruiken omdat u opslaginstructies (opnieuw) kunt maken van de geboekte ontvangstregels.
 
-## <a name="zone-and-bin-codes"></a>Zone- en opslaglocatiecodes
+## Zone- en opslaglocatiecodes
 
 Op vestigingen die zijn ingesteld voor gestuurde opslag en pick, zijn de volgende instellingen vereisten om te bepalen wat de beste plek voor het plaatsen van de artikelen is:  
 
@@ -41,7 +41,7 @@ Op vestigingen die zijn ingesteld voor gestuurde opslag en pick, zijn de volgend
 
 De opslaglocatievolgorde wordt gebruikt wanneer meerdere opslaglocaties voldoen aan de opslagsjablooncriteria. Als meerdere opslaglocaties voldoen aan de criteria van de opslagsjabloon en dezelfde rang in de opslaglocatievolgorde hebben, wordt de opslaglocatie met het hoogste opslaglocatienummer gebruikt.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Bulksgewijs opslagdocumenten maken met het opslagvoorstel
+## Bulksgewijs opslagdocumenten maken met het opslagvoorstel  
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
@@ -54,12 +54,12 @@ U kunt opslagdocumenten voor meerdere ontvangsten tegelijk maken op de pagina **
 3. Selecteer de documenten waaraan u wilt werken. U kunt tegelijkertijd werken aan regels uit verschillende documenten.  
 
     > [!NOTE]  
-    >  Als u een ontvangstdocument of interne-opslagdocument selecteert waarvoor u al instructies hebt gemaakt voor alle regels, meldt [!INCLUDE[prod_short](includes/prod_short.md)] dat er niets is om te verwerken.  
+    > Als u een ontvangstdocument of interne-opslagdocument selecteert waarvoor u al instructies hebt gemaakt voor alle regels, meldt [!INCLUDE[prod_short](includes/prod_short.md)]] dat er niets is om te verwerken.  
 
 4. Vul het veld **Sorteermethode** in om de regels te sorteren.  
 
     > [!NOTE]  
-    >  De manier waarop de regels in het werkblad worden gesorteerd, wordt niet automatisch doorgevoerd in de opslaginstructie. Er zijn echter dezelfde mogelijkheden voor sorteren en opslaglocatievolgorde. U kunt de regelvolgorde die u in het voorstel plant opnieuw maken wanneer u de opslaginstructies maakt of sorteert.
+    > De manier waarop de regels in het werkblad worden gesorteerd, wordt niet automatisch doorgevoerd in de opslaginstructie. Er zijn echter dezelfde mogelijkheden voor sorteren en opslaglocatievolgorde. U kunt de regelvolgorde die u in het voorstel plant opnieuw maken wanneer u de opslaginstructies maakt of sorteert.
 
 5. Vul het veld **Te verwerken aantal** in. Kies de actie **Te verwerken aantal autom. invullen** of vul de velden handmatig in.  
 6. U kunt de regels zo nodig handmatig bewerken. U kunt bijvoorbeeld regels verwijderen als artikelen moeten worden opgeslagen in opslaglocaties die ver van elkaar liggen.  
@@ -77,7 +77,7 @@ U kunt opslagdocumenten voor meerdere ontvangsten tegelijk maken op de pagina **
 
 8. Kies **OK** om de opslag te maken.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Een magazijnopslag maken vanuit een geboekte ontvangst
+## Een magazijnopslag maken vanuit een geboekte ontvangst
 
 Als bij een vestiging zowel opslagverwerking als ontvangstverwerking wordt gebruikt en u opslagregels hebt verwijderd, of als u gestuurde opslag en pick gebruikt en het opslagwerkblad niet wilt gebruiken, kunt u opslaginstructies (opnieuw) maken voor de geboekte ontvangstregels.
 
@@ -90,7 +90,7 @@ Als bij een vestiging zowel opslagverwerking als ontvangstverwerking wordt gebru
 4. Als de ontvangst gedeeltelijk is opgeslagen of nog niet is opgeslagen, kiest u de actie **Opslag maken**.  
 5. Vul de overige velden desgewenst in en kies **OK**.  
 
-## <a name="to-put-items-away"></a>Artikelen opslaan
+## Artikelen opslaan
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnopslag** in en kies de gerelateerde koppeling.
 
@@ -101,6 +101,9 @@ Als bij een vestiging zowel opslagverwerking als ontvangstverwerking wordt gebru
 
     * Als de regels voor Nemen en Plaatsen op de ontvangstregels niet opeenvolgend worden weergegeven, kunt u de regels sorteren door **Artikel** te selecteren in het veld **Sorteermethode**.  
     * Als de volgorde van de opslaglocaties de fysieke indeling van het magazijn weerspiegelt, gebruikt u de sorteermethode **Opslaglocatievolgorde** om het werk volgens de opslaglocaties te organiseren.
+
+  > [!NOTE]  
+  > Regels worden in oplopende volgorde gesorteerd op de geselecteerde criteria. Als u op document sorteert, wordt er eerst gesorteerd op documenttype op basis van het veld **Brondocument magazijnactiviteit**. Als u op verzending sorteert, wordt er eerst gesorteerd op bestemming op basis van het veld **Type magazijnbestemming**.
 
 4. Voer de acties uit.
 
@@ -114,7 +117,7 @@ Als bij een vestiging zowel opslagverwerking als ontvangstverwerking wordt gebru
 
 5. Als u alle artikelen volgens de instructies op de opslaglocaties hebt geplaatst, kiest u de actie **Opslag registreren**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  

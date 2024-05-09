@@ -11,17 +11,17 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Inleiding tot de demogegevens voor Contoso Coffee
+# Inleiding tot de demogegevens voor Contoso Coffee
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De **Contoso Coffee**-apps voor [!INCLUDE [prod_short](../includes/prod_short.md)] voegen demogegevens toe die u kunt gebruiken om te leren hoe u de mogelijkheden in [!INCLUDE [prod_short](../includes/prod_short.md)] kunt benutten.  
 
-## <a name="set-up-contoso-coffee-data"></a>Gegevens voor Contoso Coffee instellen
+## Gegevens voor Contoso Coffee instellen
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
 Wanneer de apps zijn geïnstalleerd, gebruikt u op de pagina **Demohulpmiddel van Contoso** de actie **Configureren** om de volgende modules voor te bereiden. U kunt ervoor kiezen om alle beschikbare gegevens, inclusief installatie- en productiegegevens, of alleen installatiegegevens te installeren.
 
- - De **Gemeenschappelijke module** om algemene instellingen voor te bereiden die [!INCLUDE [prod_short](../includes/prod_short.md)] vereist. Bijvoorbeeld zaken als nummerreeksen. 
+ - De **Gemeenschappelijke module** om algemene instellingen voor te bereiden die [!INCLUDE [prod_short](../includes/prod_short.md)] vereist. Bijvoorbeeld zaken als nummerreeksen. Houd er rekening mee dat **Gemeenschappelijke module** alleen aanvullende gegevens bevat voor de scenario's Magazijn, Productie en Service. Het wordt niet aanbevolen om het afzonderlijk uit te voeren.
 
 De volgende tabel beschrijft de instellingen:  
 
@@ -39,7 +39,7 @@ De volgende tabel beschrijft de instellingen:
 
 Nadat u de modules heeft geconfigureerd die u wilt uitproberen, kiest u de actie **Genereren** om er demonstratiegegevens voor te maken.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie](../production-manage-manufacturing.md)  
 [Magazijnen](../warehouse-manage-warehouse.md)  

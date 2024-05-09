@@ -1,16 +1,16 @@
 ---
-title: Picken van artikelen voor magazijnverzending
+title: Artikelen picken voor magazijnverzending
 description: Ontdek hoe u magazijnpickdocumenten kunt gebruiken om pickinformatie te maken en te verwerken voordat u een magazijnverzending boekt.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
+# Artikelen picken voor magazijnverzending
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
@@ -39,11 +39,11 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 >  
 > Zie [Picken voor productie, assemblage of projecten in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) voor meer informatie over het picken van materialen voor assemblageorders, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Controleer of artikelen beschikbaar zijn om te picken
+## Controleer of artikelen beschikbaar zijn om te picken
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Bulksgewijs pickdocumenten maken met het pickvoorstel
+## Bulksgewijs pickdocumenten maken met het pickvoorstel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -93,7 +93,7 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 
 8. Klik op **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] maakt de keuze op basis van uw selecties.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Picken van artikelen voor een magazijnverzending
+## Picken van artikelen voor een magazijnverzending
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -110,12 +110,20 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 
     > [!NOTE]
     > Als het nodig is de artikelen voor een regel in meerdere opslaglocaties te picken of te plaatsen, bijvoorbeeld omdat de aangewezen opslaglocatie vol is, gebruikt u de actie **Regel splitsen** op het sneltabblad **Regels**. De actie maakt een regel voor de resterende te verwerken hoeveelheid.
+        
+    U kunt de pickregels op grond van diverse criteria sorteren, bijvoorbeeld op artikel, schapnummer of vervaldatum. Sorteren kan helpen bij het optimaliseren van het opslagproces, bijvoorbeeld:
+
+    * Als de regels voor Nemen en Plaatsen voor elke verzendregel niet opeenvolgend worden weergegeven, kunt u de regels sorteren door **Artikel** te selecteren in het veld **Sorteermethode**.  
+    * Als de volgorde van de opslaglocaties de fysieke indeling van het magazijn weerspiegelt, gebruikt u de sorteermethode **Opslaglocatievolgorde** om het werk volgens de opslaglocaties te organiseren.
+
+  > [!NOTE]  
+  > Regels worden in oplopende volgorde gesorteerd op de geselecteerde criteria. Als u op document sorteert, wordt er eerst gesorteerd op documenttype op basis van het veld **Brondocument magazijnactiviteit**. Als u op verzending sorteert, wordt er eerst gesorteerd op bestemming op basis van het veld **Type magazijnbestemming**.
 
 4. Nadat u de pick hebt uitgevoerd en de artikelen op de verzendlocatie hebt geplaatst, kiest u de actie **Pick registreren**.  
 
 U kunt nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het gerelateerde brondocument, op de pagina **Mag. -verzending**. Zie voor meer informatie [Artikelen verzenden](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 - [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 - [Voorraad beheren](inventory-manage-inventory.md)  

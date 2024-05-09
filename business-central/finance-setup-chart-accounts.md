@@ -1,35 +1,35 @@
 ---
 title: Het rekeningschema instellen of wijzigen (bevat video)
-description: Meer informatie over het instellen van uw rekeningschema (COA) om de grootboekrekeningen weer te geven die uw financiële gegevens bevatten.
+description: Meer informatie over het instellen van uw rekeningschema met de grootboekrekeningen die uw financiële gegevens bevatten.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
-ms.date: 12/19/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>De rekeningschema's instellen of wijzigen
+# Het rekeningschema instellen of wijzigen
 
 Het rekeningschema (COA) bevat de grootboekrekeningen die uw financiële gegevens bevatten. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf. U kunt de standaardrekeningen echter wijzigen en u kunt nieuwe rekeningen toevoegen.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Rekeningen toevoegen of wijzigen
+## Rekeningen toevoegen of wijzigen
 
 Vanuit het rekeningschema kunt u elke grootboekrekening openen en instellingen toevoegen of wijzigen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
 Desgewenst kunt u meerdere regels gebruiken voor de naam van een grootboekrekening. Kies op de pagina **Grootboekrekening** de groep **Rekening**, kies **Uitgebreide teksten** en vul vervolgens een of meer regels in met de accountnaam en gekopieerde tekst.  
 
-Voor rekeningen van het rekeningsoort **Totaal** moet u het veld **Samentelling** invullen. Voor rekeningen met het soort **Eindtotaal** wordt dit veld automatisch ingevuld met de inspringfunctie. Nadat u alle accounts heeft ingesteld, kiest u de actie **Verwerken** en vervolgens **Rekeningschema inspringen**.  
+Voor rekeningen van het rekeningsoort **Totaal** moet u het veld **Samentelling** invullen. Voor rekeningen met het soort **Eind-totaal** wordt dit veld automatisch ingevuld met de inspringfunctie. Nadat u alle rekeningen heeft ingesteld, kiest u de actie **Verwerken** en vervolgens **Rekeningschema inspringen**.  
 
 > [!IMPORTANT]
 > Als u vóór het uitvoeren van de inspringfunctie definities hebt ingevoerd in de velden **Samentelling** voor rekeningen van het type **Eindtotaal**, moet u deze daarna nogmaals invoeren, omdat de functie de waarden in alle **Eindtotaal**-velden overschrijft.
 
-## <a name="delete-accounts"></a>Rekeningen verwijderen
+## Rekeningen verwijderen
 
 U kunt een grootboekrekening verwijderen. Echter, voordat u deze verwijdert, moet het volgende waar zijn:  
 
@@ -43,13 +43,17 @@ U kunt ook opgeven wanneer mensen rekeningen mogen verwijderen. Op de pagina **G
 
 Het veld **Blok grootboekrekeningen verwijderen** inschakelen is meestal een aanbevolen procedure, net als het instellen van de datum in het veld **Verwijdering van grootboekrek. controleren na**, bijvoorbeeld op de datum tot wanneer u financiële gegevens moet bewaren volgens de regelgeving.  
 
-### <a name="video-guidance"></a>Videobegeleiding
+### Videobegeleiding
 
 In deze video ziet u hoe u kunt opgeven of en wanneer mensen grootboekrekeningen kunnen verwijderen.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="see-also"></a>Zie ook
+## Leertraject: Het rekeningschema instellen in Dynamics 365 Business Central
+
+Wilt u weten hoe u het rekeningschema instelt in [!INCLUDE [prod_short](includes/prod_short.md)]? Begin dan met het volgende leertraject [Het rekeningschema instellen in Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
+
+## Zie ook
 
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  

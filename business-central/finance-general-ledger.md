@@ -1,48 +1,51 @@
 ---
-title: Het grootboek en rekeningschema begrijpen
+title: Het grootboek en het rekeningschema begrijpen
 description: 'Beschrijft het grootboek, het rekeningschema en rekeningcategorieën. Gebruik de pagina Grootboekinstellingen om op te geven hoe boekhoudkwesties in uw bedrijf worden afgehandeld.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'analysis, history, track'
 ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
-ms.date: 12/19/2023
+ms.date: 04/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Het grootboek en het rekeningschema begrijpen
 
-In het grootboek (GB) worden uw financiële gegevens opgeslagen en het rekeningschema (COA) bevat de rekeningen waarnaar alle grootboekposten worden geboekt. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
+In het grootboek (GB) worden uw financiële gegevens opgeslagen en het rekeningschema bevat de rekeningen waarnaar u grootboekposten boekt. [!INCLUDE[prod_short](includes/prod_short.md)] bevat een standaardrekeningschema dat gereed is voor ondersteuning van uw bedrijf.
 
 ## Grootboekinstellingen en algemene boekingsinstellingen
 
 De instelling van het grootboek bevindt zich in de kern van financiële processen omdat hiermee wordt bepaald hoe u gegevens boekt. Twee pagina's spelen in het bijzonder een belangrijke rol bij het configureren van uw financiële processen:  
 
-* De pagina **Boekhoudinstellingen**
+* **Boekhoudinstellingen**
+* **Boekingsgroepinstellingen**
 
-  Op de pagina **Grootboekinstellingen** geeft u op hoe bepaalde boekhoudkwesties in uw bedrijf worden afgehandeld, zoals:  
+### De pagina **Boekhoudinstellingen**
 
-  * Factuurafrondingsdetails  
-  * Adresindelingen  
-  * Financiële rapportage
+Gebruik de pagina **Grootboekinstellingen** om op te geven hoe bepaalde boekhoudkwesties in uw bedrijf worden afgehandeld, zoals:  
 
-  > [!TIP]
-  > De pagina **Grootboekinstellingen** bevat algemene velden en velden die specifiek zijn voor uw land/regio. Als u niet zeker bent van de betekenis van een veld, raden we u aan om samen met uw accountant te bepalen of dit relevant is voor uw organisatie. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+* Factuurafrondingsdetails  
+* Adresindelingen  
+* Financiële rapportage
 
-  Open de pagina [hier](https://businesscentral.dynamics.com/?page=118).
-  
-* De pagina **Boekingsgroepinstellingen**
+> [!TIP]
+> De pagina **Grootboekinstellingen** bevat algemene velden en velden die specifiek zijn voor uw land/regio. Als u niet zeker bent van de betekenis van een veld, raden we u aan om samen met uw accountant te bepalen of dit relevant is voor uw organisatie. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-  Op de pagina **Boekingsgroepinstelling** geeft u op dezelfde manier op hoe u combinaties van algemene bedrijfsgroepen en algemene productboekingsgroepen wilt instellen. Met boekingsgroepen worden entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten aan grootboekrekeningen gekoppeld. U vult een regel in voor elke combinatie van bedrijfs- en productboekingsgroep. Maar u kunt ook elke regel openen in een eigen instellingskaart voor boekingen. Zie voor meer informatie [Instellingen voor boekingsgroepen](finance-posting-groups.md).  
+Om de pagina nu te openen, gebruikt u de volgende link [Grootboekinstellingen](https://businesscentral.dynamics.com/?page=118).
 
-  > [!TIP]
-  > Als u de velden die u zoekt niet ziet op de pagina **Boekingsgroepinstellingen**, gebruikt u de horizontale schuifbalk onder aan de pagina om naar rechts te schuiven.  
+### De pagina **Boekingsgroepinstellingen**
 
-  Open de pagina [hier](https://businesscentral.dynamics.com/?page=314).
+Gebruik de pagina **Boekingsgroepinstellingen** om combinaties van algemene bedrijfs- en productboekingsgroepen in te stellen. Met boekingsgroepen worden entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten aan grootboekrekeningen gekoppeld. U vult een regel in voor elke combinatie van bedrijfs- en productboekingsgroep. Maar u kunt ook elke regel openen in een eigen instellingskaart voor boekingen. Zie voor meer informatie [Instellingen voor boekingsgroepen](finance-posting-groups.md).  
+
+> [!TIP]
+> Als u de velden die u zoekt niet ziet op de pagina **Boekingsgroepinstellingen**, gebruikt u de horizontale schuifbalk onder aan de pagina om naar rechts te schuiven.  
+
+Om de pagina nu te openen, gebruikt u de volgende link [Boekingsgroepinstellingen](https://businesscentral.dynamics.com/?page=314).
 
 ## Het rekeningschema
 
-In het rekeningschema worden alle grootboekrekeningen weergegeven. In het rekeningschema kunt u onder andere het volgende doen:  
+Op de pagina **Rekeningschema** worden alle grootboekrekeningen weergegeven. In het rekeningschema kunt u onder andere het volgende doen:  
 
 * Rapporten weergeven waarin grootboekposten en saldi worden weergegeven.  
 * Sluit uw resultatenrekening.  
@@ -50,7 +53,7 @@ In het rekeningschema worden alle grootboekrekeningen weergegeven. In het rekeni
 * Bekijk een lijst met boekingsgroepen voor die rekening.
 * Afzonderlijke debet- en creditsaldo's voor één rekening bekijken.
 
-U kunt grootboekrekeningen toevoegen, wijzigen of verwijderen. Om verschillen te voorkomen, kunt u echter geen grootboekrekening verwijderen als deze gegevens worden gebruikt in het rekeningschema. Vanaf releasewave 2 van 2022 kunt u ook het per ongeluk verwijderen van accounts in gevoelige perioden blokkeren. Lees meer in de sectie [Rekeningen verwijderen](finance-setup-chart-accounts.md#delete-accounts).  
+Ga voor meer informatie naar [Het rekeningschema begrijpen](finance-chart-of-accounts.md).
 
 ## Rekeningcategorieën
 
@@ -64,9 +67,9 @@ U kunt definiëren of specifieke soorten lijsten de rekeningen in elke subcatego
 
 ### Voorbeeld
 
-Het standaardsaldo-overzicht heeft bijvoorbeeld één subcategorie voor *Kas* onder *Huidige activa*. Als u wilt dat het saldo-overzicht rekening houdt met kleine kas en betaalrekening, moet u de volgende stappen zetten:
+Het standaardsaldo-overzicht heeft bijvoorbeeld één subcategorie voor *Kas* onder *Huidige activa*. Als u wilt dat het saldo-overzicht rekening houdt met kleingeld en cheques, voert u de volgende stappen uit:
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **GB-rekeningcategorieën** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **GB-rekeningcategorieën** in en kies vervolgens de gerelateerde koppeling.
    1. Een andere optie is om [de pagina hier te openen](https://businesscentral.dynamics.com/?page=790).
 2. Kies de actie **Lijst bewerken**.
 3. Voeg twee nieuwe subcategorieën toe: een voor kleine kas en een voor uw betaalrekening:
@@ -81,25 +84,28 @@ Het standaardsaldo-overzicht heeft bijvoorbeeld één subcategorie voor *Kas* on
    3. Kies de actie **Omlaag**.
    4. Kies de **Inspringen** actie om in te springen onder de subcategorie **Contant geld**.
 
-Wanneer u kiest voor de actie **Financiële rapporten genereren** - of de volgende keer dat het rapport wordt gegenereerd - toont uw saldo-overzicht de volgende regels:
+Wanneer u kiest voor de actie **Financiële rapporten genereren**, of de volgende keer dat het rapport wordt gegenereerd, toont uw saldo-overzicht de volgende regels:
 
 * Totaal saldo voor contant geld.
 * Regels met saldi voor kleingeld en de betaalrekening.  
 
 > [!NOTE]
-> Als u een grootboekrekening maakt zonder een rekeningcategorie toe te wijzen en u de rekening toewijst aan een boekingsgroep, wijst [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de rekeningcategorie toe van de grootboekrekening direct boven de rekening in uw rekeningschema. Om de nieuwe rekening in uw financiële rapporten op te nemen, moet u echter de actie **Financiële rapporten genereren** kiezen op de pagina **GB-rekeningcategorieën**. U kunt ook de pagina grootboekrekeningkaart openen, de rekeningcategorie specificeren en vervolgens uw financiële rapport opnieuw genereren.
+> Als u een grootboekrekening maakt zonder een rekeningcategorie toe te wijzen en u de rekening toewijst aan een boekingsgroep, wijst [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de rekeningcategorie toe van de grootboekrekening direct boven de rekening in uw rekeningschema. Om de nieuwe rekening in uw financiële rapporten op te nemen, moet u echter de actie **Financiële rapporten genereren** kiezen op de pagina **GB-rekeningcategorieën**. U kunt ook de pagina Grootboekrekening openen, de rekeningcategorie specificeren en vervolgens uw financiële rapport opnieuw genereren.
 
-## Een snel overzicht krijgen
+## Toegang om GB-rekeningen en rekeningcategorieën te maken en te bewerken
 
-Op de pagina **Rekeningschema** worden rekeningen weergegeven in een hiërarchische lijst die snelle toegang biedt tot de belangrijkste informatie voor elke rekening. De lijst is echter statisch en als u veel rekeningen hebt, moet u misschien een beetje scrollen om informatie voor verschillende rekeningen te bekijken. Als u gewoon een snel overzicht wilt van de basisprincipes, zoals nettowijzigingen en saldi, is de pagina **Overzicht van rekeningschema** een handig alternatief. De kolomindeling op de pagina is nu hetzelfde als op de pagina **Rekeningschema** (maar met minder kolommen), zodat u zich niet hoeft te heroriënteren. U kunt de hiërarchische niveaus uitvouwen of samenvouwen om de weergave compacter te maken. Om het schakelen tussen de pagina's gemakkelijk te maken is de pagina **Overzicht van rekeningschema** beschikbaar op de pagina **Rekeningschema**.
+In een kleine organisatie, zoals het CRONUS-demonstratiebedrijf, kunnen de meeste gebruikers financiële entiteiten bewerken, zoals grootboekrekeningen, rekeningcategorieën en het rekeningschema, behalve gebruikers met een TEAM MEMBER-licentie. In grotere organisaties worden meestal rollen en machtigingen gebruikt om toegang tot het bewerken van deze entiteiten te beperken. Als u een beheerder bent of de rol *Bedrijfsmanager* of *Accountant* hebt, kunt u de machtigingen bepalen om er zeker van te zijn dat de juiste mensen toegang hebben tot de relevante tabellen. Ga voor meer informatie naar [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
-## Toegang om accounts en accountcategorieën te maken en te bewerken
+## Dimensies gebruiken om uw rekeningschema te vereenvoudigen
 
-In een kleine organisatie, zoals het CRONUS-voorbeeldbedrijf, kunnen de meeste gebruikers het rekeningschema bewerken, behalve gebruikers met een TEAMLID-licentie. In grotere organisaties worden meestal rollen en machtigingen gebruikt om toegang tot het bewerken van de rekeningschema's te beperken. Als u een beheerder bent of de rol *Bedrijfsmanager* of *Accountant* hebt, kunt u de machtigingen bepalen om er zeker van te zijn dat de juiste mensen toegang hebben tot de relevante tabellen. Zie voor meer informatie de sectie [Een overzicht krijgen van de machtigingen van een gebruiker](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
+Dimensies zijn waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren in documenten, zoals verkooporders. Dimensies kunnen bijvoorbeeld aangeven tot welk project of welke afdeling een post behoort. Dus in plaats van voor elke afdeling en project aparte grootboekrekeningen in te stellen, kunt u bijvoorbeeld dimensies gebruiken als basis voor analyse en hoeft u geen ingewikkeld rekeningschema te maken.
+
+Ga voor meer informatie over dimensies naar [Standaarddimensies voor klanten, leveranciers en andere accounts instellen](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
 ## Zie ook
 
-[De rekeningschema's instellen of wijzigen](finance-setup-chart-accounts.md)  
+[Het rekeningschema begrijpen](finance-chart-of-accounts.md)  
+[Werken met dimensies](finance-dimensions.md)  
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
 [Bedrijfsinformatie](bi.md)  
 [Financiën](finance.md)  

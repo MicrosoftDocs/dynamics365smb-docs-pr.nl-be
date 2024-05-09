@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ De informatie houdt ook rekening met andere factoren die de beschikbaarheid beï
 > [!NOTE]
 > Deze mogelijkheid vereist dat u de schakelaar **Gestuurde opslag en pick** aanzet voor de vestigingen die u gebruikt in uw pickproces.
 
-### <a name="set-up-previews"></a>Voorbeelden instellen
+### Voorbeelden instellen
 
 Voor meer informatie over wat er wel en niet wordt gepickt, schakelt u de optie **Overzicht weergeven (gestuurde opslag en pick)** in op de aanvraagpagina **Mag. - Document maken** of **Mag.-verzending - Pick maken**.
 
-### <a name="determine-the-quantity-you-can-pick"></a>De hoeveelheid bepalen die u kunt picken
+### De hoeveelheid bepalen die u kunt picken
 
 Op regels op de pagina **Overzicht van magazijnpick maken** toont het veld **Te verwerken hoeveelheid (basis)** welke en hoeveel artikelen [!INCLUDE [prod_short](prod_short.md)] probeerde te picken. Het feitenblok **Overzicht** biedt meer details.
 
@@ -57,7 +57,7 @@ De volgende afbeelding illustreert de maximale hoeveelheid die in aanmerking kom
 |B     |Opslaglocaties met inhoud van het type Pick met geblokkeerde uitgaande verplaatsing         |
 |O     |Overige opslaglocaties         |
 
-### <a name="reservations"></a>Reserveringen
+### Reserveringen
 
 Als er reserveringen zijn voor het artikel dat wordt gepickt, gaat de berekening verder. Het idee is dat gereserveerde vraag een hogere prioriteit heeft dan niet-gereserveerde vraag, wat betekent dat picken voor niet-gereserveerde vraag niet mag verhinderen dat er later voor gereserveerde vraag wordt gepickt.
 
@@ -70,12 +70,29 @@ Het veld **Beschikbare hoev. exclusief verzendopslaglocatie** toont de hoeveelhe
 * Ze zijn al gepickt voor verzendingen.
 * Ze bevinden zich in geblokkeerde artikelpartijen of serienummers.
 * Ze zitten in geblokkeerde opslaglocaties.
+* Ze zitten in speciale opslaglocaties.
 
 Deze hoeveelheden zijn mogelijk beschikbaar, maar u kunt ze mogelijk nog niet picken. Ze kunnen zich nog steeds in de ontvangst-, opslag- of kwaliteitscontroleruimte bevinden. U kunt ze naar het pickgebied verplaatsen door een opslag- of verplaatsingsvoorstel te verwerken.
 
 Het verschil tussen **Beschikbare hoev. exclusief verzendopslaglocatie** en gereserveerde hoeveelheid in het magazijn is de hoeveelheid die beschikbaar is voor picken zonder dat dit invloed heeft op de gereserveerde voorraad.
 
-### <a name="other-details"></a>Overige details
+De volgende afbeelding illustreert de toewijzing van beschikbare hoeveelheid aan gereserveerde hoeveelheid.
+
+:::image type="content" source="../media/Warehouse_Reservation_Pick.png" alt-text="Maximale hoeveelheid die in aanmerking komt voor picken als er sprake is van een reservering.":::
+
+**Legenda**
+
+|Letter  |Omschrijving  |
+|---------|---------|
+|P     |Te picken hoeveelheid         |
+|TR    |Totaal gereserveerde hoev. in magazijn.         |
+|RS    |Gereserveerde hoeveelheden die al zijn gepickt en gereed zijn voor verzending, gebruik of verbruik       |
+|A     |Beschikbare hoev. exclusief verzendopslaglocatie         |
+|B     |Hoeveelheid in speciale of geblokkeerde opslaglocaties, geblokkeerde artikelpartijen of serienummers         |
+
+Hoewel er voldoende beschikbare hoeveelheid in het magazijn is om volledig aan de pick te voldoen, zal dit ertoe leiden dat de totale gereserveerde hoeveelheid wordt toegewezen aan de hoeveelheden in speciale of geblokkeerde opslaglocaties, waardoor picken voor deze vraag wordt voorkomen. Omdat de gereserveerde vraag een hogere prioriteit heeft, vermindert [!INCLUDE [prod_short](prod_short.md)] de te verzamelen hoeveelheid om negatieve gevolgen, zoals het onvermogen om te picken, op de gereserveerde vraag te voorkomen.
+
+### Overige details
 
 Als voor artikelen artikeltracering vereist is, kunt u de hoeveelheid ook vinden in geblokkeerde partijen of serienummers, wat de volgende reducties veroorzaakt:
 

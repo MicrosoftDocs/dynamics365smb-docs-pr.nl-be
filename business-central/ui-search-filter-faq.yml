@@ -7,7 +7,7 @@ metadata:
   ms.reviewer: bholtorf
   ms.search.keywords: 'keyboarding, productivity, how do i, filter pane'
   ms.search.form: TellMe
-  ms.date: 04/01/2021
+  ms.date: 04/19/2024
   ms.author: bholtorf
   ms.service: dynamics-365-business-central
 title: Veelgestelde vragen over zoeken en filteren
@@ -60,7 +60,7 @@ sections:
       - question: |
           Zal Microsoft het filterdeelvenster uitbreiden?
         answer: |
-          Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende gebruikers en handelen we naar de beste suggesties. Als u geïnteresseerd bent in het uitbreiden van het filterdeelvenster naar meer formulierfactoren en meer typen lijsten, of een goed idee hebt om het te verbeteren, voegt u een idee of een stem op bestaande ideeën toe aan [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas)
+          Bij Microsoft luisteren we constant naar feedback van onze zeer uiteenlopende gebruikers en handelen we naar de beste suggesties. Als u geïnteresseerd bent in het uitbreiden van het filterdeelvenster naar meer formulierfactoren en meer typen lijsten, of een goed idee hebt om het te verbeteren, voegt u een idee of een stem op bestaande ideeën toe aan [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
       - question: |
           Hoe wijzig ik de uitvoer van de decimaalscheidingstoets op mijn numerieke toetsenbord?
         answer: |

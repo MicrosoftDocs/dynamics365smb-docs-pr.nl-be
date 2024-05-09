@@ -11,30 +11,30 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="record-sustainability-entries"></a>Duurzaamheidsposten vastleggen
+# Duurzaamheidsposten vastleggen  
 
 Op dit moment is de enige manier om de uitstoot van broeikasgassen in het **Duurzaamheidsgrootboek** te registreren, het gebruik van de **Duurzaamheidsdagboeken**.   
 
-## <a name="sustainability-journals"></a>Duurzaamheidsdagboek
+## Duurzaamheidsdagboek  
 
 **Duurzaamheidsdagboeken** zijn ontworpen om duurzaamheidsgerelateerde activiteiten bij te houden en vast te leggen met behulp van dezelfde gebruikerservaring als andere dagboeken in Business Central. Binnen het dagboek hebben gebruikers de mogelijkheid om uitstoot handmatig in te voeren als zij over de benodigde informatie beschikken. Als ze deze gegevens niet hebben, kunnen ze ook ingebouwde formules gebruiken om de uitstoot nauwkeurig te berekenen op basis van specifieke bekende parameters die overeenkomen met verschillende soorten bronnen en rekeningen. 
 
 De informatie die u invoert in een dagboek is tijdelijk en kan in het dagboek worden gewijzigd. Wanneer u het dagboek boekt, wordt de informatie overgebracht naar **Duurzaamheidsposten** op afzonderlijke **Duurzaamheidsrekeningen**, waar deze niet kan worden gewijzigd. U kunt echter wel tegenboekingen of correcties boeken.  
 
-### <a name="use-journal-templates-and-batches"></a>Dagboeksjablonen en -batches gebruiken
+### Dagboeksjablonen en -batches gebruiken 
 
 Er zijn standaard twee **Duurzaamheidsdagboeksjablonen**: de standaard en de terugkerende. Voor elke dagboeksjabloon kunt u uw eigen persoonlijke dagboek instellen als een dagboekbatch. Om dit te doen moet u de actie **Batches** op de pagina **Sjablonen van duurzaamheidsdagboek** kiezen en de nieuwe **Duurzaamheidsdagboekbatch** op de nieuwe pagina maken. U kunt bijvoorbeeld voor elk uitstootbereik uw eigen dagboekbatch definiëren met behulp van de optie **Uitstootbereik**, waarbij u kunt kiezen uit drie bestaande bereiken. U kunt ook de **Broncode** en **Redencode** voor elk van de batches toevoegen of wijzigen. 
 
 >[!TIP]
 >U kunt voor elk uitstoottype één dagboekbatch hebben als u veel regels heeft, omdat dit de kans op fouten verkleint, maar u kunt ook de gemeenschappelijke batch voor alle soorten uitstoot gebruiken.   
 
-### <a name="validate-sustainability-journals"></a>Duurzaamheidsdagboeken valideren
+### Duurzaamheidsdagboeken valideren 
 
 U kunt op de pagina **Duurzaamheidsinstelling** een achtergrondcontrole inschakelen om vertragingen bij het boeken te voorkomen. De controle geeft een melding wanneer er tijdens het werken een fout optreedt in het **Duurzaamheidsdagboek** en dat zorgt ervoor dat u het dagboek niet kunt boeken.  
 
 Wanneer u de validatie inschakelt, toont het feitenblok **Dagboekcontrole** problemen op de huidige regel en in de hele batch. Validatie vindt plaats wanneer u een dagboekbatch laadt en wanneer u een andere dagboekregel kiest. De tegel **Totaal aantal problemen** in het feitenblok toont het totale aantal problemen dat [!INCLUDE [prod_short](includes/prod_short.md)] heeft gevonden en u kunt ervoor kiezen om een overzicht van de problemen te openen. 
 
-### <a name="work-with-sustainability-journals"></a>Werken met duurzaamheidsdagboeken
+### Werken met duurzaamheidsdagboeken 
 
 Volg de stappen om aan de slag te gaan met de **Duurzaamheidsdagboeken**:   
 
@@ -55,7 +55,7 @@ Volg de stappen om aan de slag te gaan met de **Duurzaamheidsdagboeken**:
 
 In het geval dat uw formule is gebaseerd op de optie **Berekenen op basis van grootboek** in de **Categorie van duurzaamheidsrekening**, moet u de actie **Bedrag van grootboekposten innen** gebruiken voordat u het dagboek boekt om de uitstoot te berekenen op basis van deze gegevensbron. Als u na het invullen van de dagboekregels enkele wijzigingen in de uitstootfactoren heeft aangebracht, moet u ook de actie **Herberekenen** kiezen om het juiste bedrag in het dagboek te krijgen.  
 
-### <a name="recurring-journals"></a>Periodieke dagboeken
+### Periodieke dagboeken 
 
 Een periodiek dagboek is een **Duurzaamheidsdagboek** met specifieke velden voor het beheer van transacties die u vaak boekt met weinig of geen wijzigingen. Bijvoorbeeld duurzaamheidstransacties zoals elektriciteit, warmte of andere soortgelijke transacties. Met terugkerende dagboeken kunt u vaste en variabele bedragen boeken. Met een periodiek dagboek maakt u posten die regelmatig worden geboekt, slechts eenmaal. De rekeningen, dimensies, dimensiewaarden enzovoort worden bijvoorbeeld na het boeken in het dagboek bewaard. Als er wijzigingen nodig zijn, kunt u deze elke keer dat u een bericht plaatst, aanbrengen. 
 
@@ -65,7 +65,7 @@ U moet ook de **Periodieke frequentie** configureren, omdat dit datumformuleveld
 
 De **Vervaldatum** bepaalt de datum waarop de regel voor het laatst mag worden geboekt. De regel wordt niet geboekt na deze datum. Het voordeel van het gebruik van het veld **Vervaldatum** is dat de regel niet onmiddellijk uit het dagboek wordt verwijderd. U kunt een latere datum invoeren, zodat u de regel in de toekomst kunt gebruiken. Als het veld leeg is, wordt de regel steeds geboekt totdat deze uit het dagboek wordt verwijderd.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Financiën](finance.md)    
 [Overzicht van duurzaamheidsbeheer](finance-manage-sustainability.md)   
 [Duurzaamheidsinstelling](finance-sustainability-setup.md)   

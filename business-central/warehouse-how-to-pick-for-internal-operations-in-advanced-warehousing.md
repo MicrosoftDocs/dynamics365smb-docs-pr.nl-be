@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
     > [!NOTE]
     > Als het nodig is de artikelen voor een regel in meerdere opslaglocaties te picken of te plaatsen, bijvoorbeeld omdat de aangewezen opslaglocatie vol is, gebruikt u de actie **Regel splitsen** op het sneltabblad **Regels**. De actie maakt een regel voor de resterende te verwerken hoeveelheid.
 
+      U kunt de pickregels op grond van diverse criteria sorteren, bijvoorbeeld op artikel, schapnummer of vervaldatum. Sorteren kan helpen bij het optimaliseren van het opslagproces, bijvoorbeeld:
+
+    * Als de regels voor Nemen en Plaatsen voor elke verzendregel niet opeenvolgend worden weergegeven, kunt u de regels sorteren door **Artikel** te selecteren in het veld **Sorteermethode**.  
+    * Als de volgorde van de opslaglocaties de fysieke indeling van het magazijn weerspiegelt, gebruikt u de sorteermethode **Opslaglocatievolgorde** om het werk volgens de opslaglocaties te organiseren.
+
+  > [!NOTE]  
+  > Regels worden in oplopende volgorde gesorteerd op de geselecteerde criteria. Als u op document sorteert, wordt er eerst gesorteerd op documenttype op basis van het veld **Brondocument magazijnactiviteit**. Als u op verzending sorteert, wordt er eerst gesorteerd op bestemming op basis van het veld **Type magazijnbestemming**.
+
 4. Als u de pick hebt uitgevoerd en de artikelen op de productie-, assemblage- of projectlocatie of de opslaglocatie hebt geplaatst, kiest u de actie **Pick registreren**.  
 
     U kunt de artikelen nu naar het betreffende gebied brengen en het gebruik of verbruik van de gepickte materialen boeken door het verbruiksdagboek, de assemblageorder of het projectdagboek te boeken. De volgende artikelen bieden meer informatie:
@@ -171,6 +179,14 @@ In de volgende stappen worden de acties beschreven die verschillende gebruikers 
 De volgende illustratie geeft aan wanneer het veld **Opslaglocatie** in de materialenlijst wordt gevuld volgens de instelling van uw vestiging of bewerkingsplaats/afdeling.  
 
 :::image type="content" source="media/binflow.png" alt-text="Overzicht van wanneer en hoe het veld Opslaglocatie wordt ingevuld.":::
+
+## Op order produceren productiemateriaal in een geavanceerde magazijnconfiguratie
+
+In scenario's waarin een geproduceerd artikel bestaat uit grondstoffen en halffabrikaten en het productiebeleid is ingesteld op **Op order produceren**, wordt de magazijnpick voor die halffabrikaten toegevoegd aan dezelfde productieorder waarbij het veld **Planningsniveau** is ingevuld. Er wordt verwacht dat de halffabrikaten onmiddellijk beschikbaar zijn voor verbruik en niet hoeven te worden gepickt. Daarom worden ze niet opgenomen in het magazijnpickdocument. De gemaakte magazijnpicks bevatten alleen grondstoffen voor geproduceerde artikelen en voor halffabrikaten.
+
+Als er echter halffabrikaten op voorraad zijn, suggereert het planningssysteem dat u deze verbruikt in plaats van de hele hoeveelheid te produceren. Voor een geproduceerd artikel zijn bijvoorbeeld vijf halffabrikaten nodig, maar er zijn er al drie op voorraad. In dit geval worden er vijf halffabrikaten vermeld in de productieordercomponenten, maar worden er slechts twee geproduceerd in dezelfde productieorder als een afzonderlijke productieorderregel.
+Een dergelijke opzet is niet compatibel met magazijnpicks en, afhankelijk van de frequentie, moet u het productiebeleid voor dergelijke halffabrikaten wijzigen in **Op voorraad produceren** of de componentenregel van de productieorder handmatig splitsen wanneer u de eerder geproduceerde halffabrikaten moet picken.
+
 
 ## Zie ook
 

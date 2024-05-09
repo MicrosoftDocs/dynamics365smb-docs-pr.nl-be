@@ -20,12 +20,14 @@ Verkooprapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt verko
 
 In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw bedrijf:
 
-* [Analyselijsten maken](bi-how-create-analysis-views-reports.md)  
-* [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
+* [Analyserapporten maken](bi-how-create-analysis-views-reports.md)  
+* [De beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
 
 
 ## Zie ook
 
+[Overzicht van verkoopanalyses](sales-analytics-overview.md)   
+[Adhoc-analyse van verkoopgegevens](ad-hoc-analysis-sales.md)    
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
 [Artikelen reserveren](inventory-how-to-reserve-items.md)
