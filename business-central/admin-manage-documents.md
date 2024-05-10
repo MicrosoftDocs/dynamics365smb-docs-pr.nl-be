@@ -10,14 +10,14 @@ ms.date: 04/16/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Opslag beheren door documenten te verwijderen of gegevens te comprimeren
+# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Opslag beheren door documenten te verwijderen of gegevens te comprimeren
 
 Een centrale rol, bijvoorbeeld de toepassingsbeheerder, moet regelmatig de verzamelde historische documenten verwijderen of comprimeren.  
 
 > [!TIP]
 > Lees voor meer informatie over andere manieren om de hoeveelheid gegevens die in een database is opgeslagen, te verminderen [Gegevens opgeslagen in Business Central-databases verminderen](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) in onze documentatie voor ontwikkelaars en IT-professionals.
 
-## Documenten verwijderen
+## <a name="delete-documents"></a>Documenten verwijderen
 
 Het kan voorkomen dat u gefactureerde inkooporders moet verwijderen. U kunt ze echter pas verwijderen als u de artikelen in de inkooporders volledig hebt gefactureerd en ontvangen. [!INCLUDE[prod_short](includes/prod_short.md)] helpt u door dat te controleren.
 
@@ -29,7 +29,7 @@ Bedrijven verwijderen gefactureerde serviceorders meestal nadat ze volledig zijn
 
 Serviceorders worden echter niet automatisch verwijderd als het totale aantal op de order niet via de pagina **Servicefactuur** is geboekt, maar via de serviceorder zelf. Mogelijk moet u dergelijke gefactureerde orders handmatig verwijderen door de batchverwerking **Gefactureerde serviceorders verwijderen** uit te voeren.  
 
-## Gegevens comprimeren met datumcompressie
+## <a name="compress-data-with-date-compression"></a>Gegevens comprimeren met datumcompressie
 
 U kunt gegevens comprimeren in [!INCLUDE [prod_short](includes/prod_short.md)] zodat u ruimte bespaart in de database&mdash;wat u in [!INCLUDE [prod_short](includes/prod_short.md)] online zelfs geld kan besparen. De compressie, gebaseerd op datums en functies, combineert meerdere oude posten in één nieuwe post.
 
@@ -58,7 +58,7 @@ Wanneer u criteria voor de compressie definieert, kunt u de inhoud van bepaalde 
 
 Na de compressie blijft de inhoud van de volgende velden altijd behouden: **Boekingsdatum**, **Leveranciersnr.**, **Documentsoort**, **Valutacode**, **Boekingsgroep**, **Bedrag**, **Restbedrag**, **Oorspronkelijk bedrag (LV)**, **Restbedrag (LV)**, **Bedrag (LV)**, **Inkoop (LV)**, **Factuurkorting (LV)**, **Contantkorting verleend (LV)** en **Contantkorting**.
 
-## Gecomprimeerde posten boeken
+## <a name="posting-compressed-entries"></a>Gecomprimeerde posten boeken
 
 Gecomprimeerde posten worden iets anders geboekt dan standaardboekingen. Dit verschil is bedoeld om het aantal nieuwe grootboekposten dat wordt gecreëerd door datumcompressie te verminderen, en is vooral belangrijk wanneer u informatie bewaart, zoals dimensies en documentnummers. Met datacompressie worden als volgt nieuwe posten gemaakt:
 
@@ -75,7 +75,7 @@ Het aantal posten dat resulteert van een datumcompressie is afhankelijk van hoev
 > [!WARNING]
 > Tijdens datumcompressie worden posten verwijderd. Het is daarom verstandig altijd eerst een reservekopie van de database te maken, voordat u de batchverwerking start.
 
-### Een datumcompressie uitvoeren
+### <a name="to-run-a-date-compression"></a>Een datumcompressie uitvoeren
 
 1. Kies het pictogram ![Pagina of rapport zoeken](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Gegevensbeheer** in en kies de gerelateerde koppeling.
 2. Doe een van de volgende dingen, afhankelijk van uw wensen:
@@ -86,7 +86,7 @@ Het aantal posten dat resulteert van een datumcompressie is afhankelijk van hoev
    > U kunt alleen gegevens comprimeren die ouder zijn dan vijf jaar. Neem contact op met uw Microsoft-partner als u gegevens wilt comprimeren die minder dan vijf jaar oud zijn. Ze moeten de gebeurtenis `OnSetMinimumNumberOfYearsToKeep` in de codeunit Datumcompressie gebruiken om de drempelwaarde in te stellen.
 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Beheer](admin-setup-and-administration.md)  
 
