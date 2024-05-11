@@ -10,21 +10,21 @@ ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-reminder-terms-and-levels"></a>De termijnen en niveaus van aanmaningen instellen
+# De termijnen en niveaus van aanmaningen instellen
 
 U kunt aanmaningen gebruiken om klanten te herinneren aan openstaande bedragen en om betaling te verzoeken. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
 > [!TIP]
 > Nadat u de aanmaningstermijnen en -niveaus hebt ingesteld, kunt u deze opnemen in geautomatiseerde processen voor het maken, afgeven en verzenden van aanmaningen. Ga voor meer informatie over het geautomatiseerde proces naar [Aanmaningen in incasso's automatiseren](finance-automate-reminders.md).
 
-## <a name="reminder-terms"></a>Aanmaningscondities
+## Aanmaningscondities
 
 Als klanten betalingen hebben openstaan, moet u bepalen wanneer en hoe u hen wilt aanmanen. Daarnaast kunt u hun rekening eventueel debiteren met rente of kosten. U kunt zoveel aanmaningscondities instellen als u wilt.  
 
 > [!NOTE]
 > Als u rente wilt berekenen op te late betalingen, kunt u dit doen wanneer u aanmaningen maakt. Als u echter alleen rente wilt berekenen en u uw klanten hiervan op de hoogte wilt stellen zonder een aanmaning te verzenden, gebruikt u een [rentefactuur](finance-setup-finance-charges.md). Zie voor meer informatie [Aanmaningen](receivables-collect-outstanding-balances.md#reminders) of [Financiële kosten](receivables-collect-outstanding-balances.md#finance-charges).
 
-### <a name="set-up-attachment-and-email-body-texts-for-communications"></a>Bijlagen en e-mailteksten voor communicatie instellen
+### Bijlagen en e-mailteksten voor communicatie instellen
 
 Op de pagina **Instellen van aanmaningstermijnen** kunt u bijlageteksten en standaard e-mailberichten instellen die u voor alle aanmaningsniveaus kunt gebruiken, of kunt u voor elk niveau specifieke berichten maken. Het bericht dat u voor het eerste aanmaningsniveau verzendt, kan bijvoorbeeld een andere toon of inhoud hebben dan het tweede of derde niveau. Als u bijlagen en e-mailberichtteksten voor alle niveaus wilt maken, kiest u **Klantcommunicatie** boven aan de pagina. Als u berichten voor specifieke regels wilt maken, kiest u op het sneltabblad **Aanmaningsniveau** een regel en kiest u vervolgens de actie **Klantcommunicatie** op het sneltabblad.
 
@@ -35,19 +35,19 @@ Wanneer u een e-mail verzendt, bestaat de aanmaning uit een rapport dat u bij de
 > [!NOTE]
 > Als u rechtstreeks vanuit [!INCLUDE [prod_short](includes/prod_short.md)] per e-mail wilt communiceren, moet u dat hebben ingesteld. Ga voor meer informatie over het verbinden van e-mailaccounts met [!INCLUDE [prod_short](includes/prod_short.md)] naar [E-mail instellen](admin-how-setup-email.md).
 
-### <a name="set-up-reminder-terms"></a>Aanmaningstermijnen instellen
+### Aanmaningstermijnen instellen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningscondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Als u meer dan één combinatie van aanmaningscondities wilt gebruiken, stelt u een code in voor elke.
 
-## <a name="reminder-levels"></a>Aanmaningsniveaus
+## Aanmaningsniveaus
 
 Voor elke aanmaningstermijn kunt u een onbeperkt aantal aanmaningsniveaus definiëren, hoewel de meeste bedrijven slechts twee of drie niveaus gebruiken. De instelling van niveau 1 wordt gebruikt als er voor het eerst een aanmaning wordt gemaakt voor een klant. Wanneer de aanmaning wordt verstuurd, wordt het niveau geregistreerd in de aanmaningsposten die worden gemaakt en gekoppeld aan de individuele klantposten. Als het nodig is om de klant nog eens aan te manen, worden alle aanmaningposten die zijn gekoppeld aan open klantposten gecontroleerd op wat het hoogst gebruikte niveau is. De voorwaarden van het volgende niveau worden dan gebruikt voor de nieuwe aanmaning.
 
 Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden de voorwaarden van het hoogste niveau gebruikt. U kunt zoveel aanmaning maken als ingesteld in het veld **Max. aantal aanmaningen** in de aanmaningscondities.
 
-### <a name="to-set-up-reminder-levels"></a>Aanmaningsniveaus volgt instellen
+### Aanmaningsniveaus volgt instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Aanmaningscondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **Aanmaningscondities** de regel met de condities waarvoor u niveaus wilt instellen en kies vervolgens de actie **Niveaus**.  
@@ -107,7 +107,7 @@ Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden d
 
 Nadat u de aanmaningstermijnen hebt ingesteld, kunt u deze op de klantkaartpagina's aan klanten toewijzen. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Aanmaningen voor uitstaande saldi verzenden](receivables-send-reminders.md)  
