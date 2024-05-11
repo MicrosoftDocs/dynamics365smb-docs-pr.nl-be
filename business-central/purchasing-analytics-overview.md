@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analyse bij inkoop
+# <a name="analytics-in-purchasing"></a>Analyse bij inkoop
 
 Bedrijven leggen tijdens dagelijkse activiteiten een veel gegevens vast die waardevolle business intelligence (BI) voor inkoopmanagers ondersteunen:
 
@@ -30,7 +30,7 @@ Elk van deze functies heeft voor- en nadelen, afhankelijk van het type gegevensa
 
 In dit artikel wordt beschreven hoe u deze analytische functies kunt gebruiken om inkoopinzichten te verschaffen.
 
-## Analysebehoefte in inkoop
+## <a name="analytics-needs-in-purchasing"></a>Analysebehoefte in inkoop
 
 Bij het in kaart brengen van de analysebehoeften in inkoop kan het helpen om een model te gebruiken dat gebaseerd is op persona's en dat verschillende analysebehoeften op een hoog niveau beschrijft.
 
@@ -47,14 +47,14 @@ Mensen in verschillende rollen hebben verschillende behoeften als het om gegeven
 |Inkoper/Inkoopagent | Gedetailleerde gegevens     | Ingebouwde operationele rapporten <br> Taakgegevens op het scherm |
 
 <!-- 
-## Purchasing KPIs
+## <a name="purchasing-kpis"></a>Purchasing KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
 
 - TODO  
 -->
 
-## Financiële rapportage gebruiken om financiële overzichten en KPI’s te produceren (in verband met inkoop)
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-purchasing"></a>Financiële rapportage gebruiken om financiële overzichten en KPI’s te produceren (in verband met inkoop)
 
 De functie **Financiële rapportage** geeft u inzichten in de financiële gegevens die in uw rekeningschema zijn opgeslagen. U kunt financiële rapporten instellen om cijfers in grootboekrekeningen (GB) te analyseren en grootboekposten te vergelijken met budgetposten. Specifiek voor inkoop kunt u financiële rapporten instellen voor de grootboekrekeningen die u gebruikt om inkoopboekingen bij te houden.
 
@@ -62,13 +62,13 @@ Dimensies spelen een belangrijke rol bij bedrijfsinformatie. Een dimensie bestaa
 
 Als u meer wilt weten over financiële rapporten, gaat u naar [Financiële rapporten voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md).
 
-## Financiële rapportage voor bedrijfseenheden of rechtspersonen (in verband met inkoop)
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-purchasing"></a>Financiële rapportage voor bedrijfseenheden of rechtspersonen (in verband met inkoop)
 
 Sommige organisaties gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in meerdere bedrijfsunits of rechtspersonen. Anderen gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in dochterondernemingen die rapporteren aan moederorganisaties. [!INCLUDE [prod_short](includes/prod_short.md)] geeft accountants tools waarmee ze grootboekposten van twee of meer bedrijven (dochterondernemingen) kunnen overbrengen naar een geconsolideerd bedrijf. Specifiek voor inkoopbeheer wilt u mogelijk grootboekposten voor uw inkooprekeningen consolideren om verkoop-KPI's voor bedrijfsunits of rechtspersonen bij te houden.
 
 Ga naar [Bedrijfsconsolidatie](finance-consolidated-company-reporting.md) voor meer informatie.
 
-## Adhoc-analyse van inkoopgegevens
+## <a name="ad-hoc-analysis-of-purchasing-data"></a>Adhoc-analyse van inkoopgegevens
 
 Soms hoeft u alleen maar te controleren of de getallen correct zijn, of snel een cijfer bevestigen. De volgende functies zijn ideaal voor ad-hocanalyses:
 
@@ -88,7 +88,7 @@ Op dezelfde manier kunt u de actie **Openen in Excel** gebruiken om een lijstpag
 
 Voor meer informatie over het uitvoeren van ad-hocanalyses van inkoopgegevens gaat u naar [Ad-hocanalyse van inkoopgegevens](ad-hoc-analysis-purchasing.md).
 
-## Ingebouwde rapporten voor inkoop
+## <a name="built-in-reports-for-purchasing"></a>Ingebouwde rapporten voor inkoop
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bevat verschillende ingebouwde rapporten, traceringsfuncties en tools waarmee inkooporganisaties kunnen rapporteren over hun gegevens.
 
@@ -103,13 +103,13 @@ Om een overzicht te krijgen van beschikbare rapporten kiest u **Alle rapporten**
 
 Ga naar [Ingebouwde rapporten voor inkoop](purchase-reports.md) voor meer informatie over rapporten die relevant zijn voor inkopen.
 
-## Inkoopanalyses op het scherm
+## <a name="on-screen-purchasing-analytics"></a>Inkoopanalyses op het scherm
 
 [!INCLUDE [prod_short](includes/prod_short.md)] heeft een aantal pagina's waarop u inkoopoverzichten en taken kunt vinden. Hier is een voorbeeld om u op weg te helpen:
 
 - [Datums berekenen voor inkoop](purchasing-date-calculation-for-purchases.md)
 
-### Aan inkoop gerelateerde grootboekposten en saldi weergeven via de pagina Rekeningschema
+### <a name="show-purchasing-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Aan inkoop gerelateerde grootboekposten en saldi weergeven via de pagina Rekeningschema
 
 Op de pagina Rekeningschema worden alle grootboekrekeningen weergegeven met samengevoegde cijfers die naar het grootboek zijn geboekt. Vanaf deze pagina kunt u het volgende doen:  
 
@@ -123,7 +123,7 @@ Specifiek voor inkoop kunt u op de pagina Rekeningschema een weergave maken waar
 
 Ga voor meer informatie naar [Het rekeningschema begrijpen](finance-general-ledger.md#the-chart-of-accounts).
 
-### Gegevens analyseren per dimensie (in verband met inkoop)
+### <a name="analyze-data-by-dimensions-related-to-purchasing"></a>Gegevens analyseren per dimensie (in verband met inkoop)
 
 Dimensies zijn waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren in documenten, zoals inkooporders. Dimensies kunnen bijvoorbeeld aangeven tot welk project of welke afdeling een post behoort.  
 
@@ -131,7 +131,7 @@ In plaats van voor elke afdeling of locatie aparte grootboekrekeningen in te ste
 
 Ga voor meer informatie naar [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bedrijfsconsolidatie](finance-consolidated-company-reporting.md)  
 [Financiële rapporten voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md)  
