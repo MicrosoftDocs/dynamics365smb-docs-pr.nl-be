@@ -1,19 +1,21 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Gegevens in documenten en dagboeken controleren terwijl u werkt
+## Gegevens in documenten en dagboeken controleren terwijl u werkt
 
-In releasewave 1 van 2022 hebben we een functie geïntroduceerd die de gegevens valideert die u invoert in documenten en tijdschriften terwijl u deze invoert. Als u deze functie inschakelt, kunt u bijvoorbeeld fouten bij het invoeren van gegevens voorkomen of kunt u iets niet boeken vanwege een fout. 
-
-Uw beheerder kan de functie **Documenten en dagboeken controleren terwijl u werkt** op de pagina **Functiebeheer** inschakelen. Daarna ontvangt u een melding wanneer u een pagina opent om aan een document of dagboek te gaan werken. Als u wilt beginnen met het gebruiken van de functie, kiest u de koppeling **Dit voor mij inschakelen** in de melding. 
+Uw beheerder kan [!INCLUDE [prod_short](prod_short.md)] de mogelijkheid bieden de gegevens die u invoert in documenten en dagboeken in realtime te valideren.
 
 Als u de functie inschakelt, wordt in het deelvenster Feitenblok een feitenblok **Document controleren** of **Dagboek controleren** weergegeven, afhankelijk van het type document waaraan u werkt. Het feitenblok somt de fouten op de pagina op, zodat u ze snel kunt oplossen.
 
-Als u besluit dat u de functie niet nodig hebt, zijn er twee manieren om deze uit te schakelen:
+Om de functie in te schakelen vinkt u op de pagina **Mijn meldingen** de volgende selectievakjes aan:
 
-* Zet voor dagboeken de schakelaar **Gegevenscontrole inschakelen** op de pagina **Grootboekinstellingen** uit.
-* Schakel voor documenten het selectievakje **Het feitenblok Documentcontrole weergeven** op de pagina **Mijn meldingen** in.
+* Voor tijdschriften selecteert u het selectievakje **Ingeschakeld** voor **Gegevenscontrole inschakelen**.
+* Voor documenten schakelt u het selectievakje **Ingeschakeld** in voor **Het feitenblok Documentcontrole weergeven**.
+
+In de volgende video wordt de realtime gegevenscontrole uitgelegd.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l0pR]

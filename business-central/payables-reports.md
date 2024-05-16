@@ -12,18 +12,21 @@ ms.service: dynamics-365-business-central
 ---
 # Crediteurenrapporten en -analyses
 
-Om u te helpen bij het beheren van uw betalingsverplichtingen in [!INCLUDE [prod_short](includes/prod_short.md)] zijn standaardrapporten en -analyses ingebouwd. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen.  
+Om u te helpen bij het beheren van uw betalingsverplichtingen heeft [!INCLUDE [prod_short](includes/prod_short.md)] ingebouwde rapporten en analyses. De tools gaan verder dan traditionele rapportagebeperkingen en maken het gemakkelijk verschillende soorten rapporten te ontwerpen.  
 
 ## Rapporten
+
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
+
+## Financiële rapporten verkennen met Rapportverkenner
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## Zie ook
 
-[Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md)  
-[Werken met dimensies](finance-dimensions.md)  
-[Vaste activa beheren](fa-manage.md)  
-[Overzicht van lokale functionaliteit](about-localization.md)  
+[Adhoc-analyse van financiële gegevens](ad-hoc-analysis-finance.md)  
+[Financiële analyse](bi.md)  
+[Inkoopanalyses](purchasing-analytics-overview.md)  
 [Accountantervaringen binnen [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

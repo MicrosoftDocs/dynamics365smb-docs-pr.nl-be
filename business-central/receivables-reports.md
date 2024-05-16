@@ -14,16 +14,23 @@ ms.service: dynamics-365-business-central
 
 Om u te helpen bij het beheren van uw vorderingen in [!INCLUDE [prod_short](includes/prod_short.md)] zijn standaardrapporten en -analyses ingebouwd. Het gaat verder dan traditionele rapportagebeperkingen om u te helpen efficiënt verschillende soorten rapporten te ontwerpen.  
 
+
 ## Rapporten
+
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
+
+
+## Financiële rapporten verkennen met Rapportverkenner
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
 
 ## Zie ook
 
-[Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md)  
-[Werken met dimensies](finance-dimensions.md)  
-[Vaste activa beheren](fa-manage.md)  
-[Overzicht van lokale functionaliteit](about-localization.md)  
+[Belangrijkste financiële rapporten](finance-reports.md)  
+[Adhoc-analyse van financiële gegevens](ad-hoc-analysis-finance.md)   
+[Financiële analyse](bi.md)   
+[Verkoopanalyses](sales-analytics-overview.md)  
 [Accountantervaringen binnen [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

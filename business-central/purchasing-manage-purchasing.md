@@ -22,21 +22,66 @@ Producten kunnen zowel voorraadartikelen als services zijn. Zie voor meer inform
 
 Voor alle inkoopprocessen kunt u een goedkeuringswerkstroom opnemen, bijvoorbeeld om te vereisen dat grote inkopen worden goedgekeurd door de administrateur. Zie voor meer informatie [Goedkeuringswerkstromen gebruiken](across-how-use-approval-workflows.md).
 
-De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
+De volgende secties beschrijven een reeks taken, met koppelingen naar de artikelen waarin deze worden behandeld.
+
+## Aan de slag met inkoopmogelijkheden
+
+Voordat u goederen koopt, geeft u aan hoe u de inkoopprocessen van uw bedrijf wilt beheren.
+
+|Actie| Zie |
+|---|---|
+| De regels en waarden configureren die het inkoopbeleid van uw bedrijf bepalen. | [Inkoop instellen](purchasing-setup-purchasing.md) |
+| Elke leverancier van wie u inkoopt, registreren met een leverancierskaart. | [Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md) |
+
+## Inkoopanalyses
+
+In dit gedeelte worden de analytische hulpmiddelen beschreven die u kunt gebruiken om inzicht te krijgen in uw inkoopprocessen.
+
+| Actie | Zie |
+| --- | --- |
+| Leer meer over de mogelijkheden voor het analyseren van inkoopgegevens. | [Overzicht van inkoopanalyses](purchasing-analytics-overview.md) |
+| Voer ad-hocanalyses uit van inkoopgegevens rechtstreeks op lijstpagina's en query's. | [Adhoc-analyse van inkoopgegevens](ad-hoc-analysis-purchasing.md) |
+| Ingebouwde inkooprapporten verkennen | [Ingebouwde inkooprapporten](purchase-reports.md) |
+
+## Van offerte naar order naar inkoopfactuur
+
+In de volgende tabel wordt beschreven hoe u eenvoudige inkoopprocessen kunt gebruiken.
 
 | Tot | Zie |
 | --- | --- |
-| Maak een inkoopfactuur om uw overeenstemming met een leverancier vast te leggen om producten tegen bepaalde leverings- en betalingscondities te kopen. |[Inkopen vastleggen](purchasing-how-record-purchases.md) |
 |Maak een inkoopofferte om een offerteaanvraag van uw leverancier weer te geven, die u later in een inkooporder kunt omzetten.|[Offertes aanvragen](purchasing-how-request-quotes.md)|
-| Maak een inkoopfactuur voor alle of voor geselecteerde regels op een verkoopfactuur. |[Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md) |
+| Maak een inkoopfactuur voor alle of voor geselecteerde regels op een verkoopfactuur. |[Artikelen inkopen voor een verkoop](purchasing-how-purchase-products-sale.md) |
+| Maak een inkoopfactuur om uw overeenstemming met een leverancier vast te leggen om producten tegen bepaalde leverings- en betalingscondities te kopen. |[Inkopen vastleggen](purchasing-how-record-purchases.md) |
+| Leer hoe [!INCLUDE[prod_short](includes/prod_short.md)] berekent wanneer u een artikel moet bestellen, zodat u het op een bepaalde datum ontvangt.|[Datumberekening voor inkopen](purchasing-date-calculation-for-purchases.md)|
 |Begrijpen wat er gebeurt wanneer u aankoopdocumenten boekt.|[Inkopen boeken](ui-post-purchases.md)|
+
+Als u complexere inkoopprocessen nodig heeft, vindt u in de volgende tabel artikelen waarin wordt uitgelegd wat u kunt doen met [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Tot | Zie |
+| --- | --- |
 | Voer een actie op een onbetaalde, geboekte inkoopfactuur uit om automatisch een creditmemo te maken en de inkoopfactuur te annuleren of opnieuw te maken zodat u correcties kunt aanbrengen. |[Niet-betaalde verkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Maak een inkoopcreditnota om een bepaalde geboekte inkoopfactuur terug te boeken om te weerspiegelen welke producten u naar de leverancier terugstuurt en welk betalingsbedrag u zult innen. |[Inkoopretouren of annuleringen verwerken](purchasing-how-process-purchase-returns-cancellations.md) |
+|Beheer uw toezegging aan een leverancier om grote hoeveelheden te kopen die in meerdere verzendingen worden geleverd.|[Werken met inkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)|
+
+
+## Geannuleerde orders, terugbetalingen en retourzendingen
+
+In de volgende tabel wordt beschreven hoe u omgaat met geannuleerde orders, terugbetalingen en retourzendingen van goederen die u inkoopt.
+
+| Tot | Zie |
+| --- | --- |
 |Tref voorbereidingen om meerdere ontvangsten van dezelfde leverancier in één keer te factureren, door de ontvangsten in een factuur te combineren.|[Ontvangsten combineren op één factuur](purchasing-how-to-combine-receipts.md)|
 |Converteer bijvoorbeeld elektronische facturen van uw leveranciers naar inkoopfacturen in Business Central.|[Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Leer hoe [!INCLUDE[prod_short](includes/prod_short.md)] berekent wanneer u een artikel moet bestellen, zodat u het op een bepaalde datum ontvangt.|[Datumberekening voor inkoop](purchasing-date-calculation-for-purchases.md)|
+
+
+## Andere processen in verkoop
+
+In de volgende tabel wordt beschreven hoe u met andere inkoopprocessen werkt.
+
+| Tot | Zie |
+| --- | --- |
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde leverancier.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
-|Beheer uw toezegging aan een leverancier om grote hoeveelheden te kopen die in meerdere verzendingen worden geleverd.|[Werken met inkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)|
+
 
 ## Externe documentnummers
 
@@ -46,8 +91,8 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md)  
+[Overzicht van inkoopanalyses](purchasing-analytics-overview.md)   
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
-[Projecten beheren](projects-manage-projects.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
 

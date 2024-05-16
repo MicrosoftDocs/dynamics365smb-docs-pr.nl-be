@@ -202,7 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligente inzichten (alleen online)](about-intelligent-cloud.md)
 ## Veelgestelde vragen
 ### [Veelgestelde vragen](across-faq.yml)
-### [Veelgestelde vragen over chatten met Copilot (preview)](chat-with-copilot-faq.md)
+### [Veelgestelde vragen over Chatten met Copilot (preview)](chat-with-copilot-faq.md)
 ### [Veelgestelde vragen over Vertel me](ui-search-faq.md)
 ### [Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.yml)
 ### [Veelgestelde vragen over lijstweergaven](ui-views-faq.yml)
@@ -449,9 +449,16 @@ ms.service: dynamics-365-business-central
 ### E-documenten instellen en gebruiken
 #### [Overzicht van e-documenten](finance-edocuments-overview.md)
 #### [E-documenten instellen](finance-how-setup-edocuments.md)
-#### [E-documenten gebruiken bij verkoop en inkoop](finance-how-use-edocuments.md)
+#### [E-documenten gebruiken bij verkoop](finance-how-use-edocuments.md)
+#### [E-documenten gebruiken bij inkoop](finance-how-use-edocuments-purchase.md)
 #### [De connector voor e-documenten instellen met externe eindpunten](finance-how-setup-edocuments-external.md)
 #### [Functionaliteit van e-documenten uitbreiden](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Duurzaamheidsbeheer
+#### [Overzicht van duurzaamheidsbeheer](finance-manage-sustainability.md)
+#### [Duurzaamheidsinstellingen](finance-sustainability-setup.md)
+#### [Duurzaamheidsrekeningschema en grootboek](finance-sustainability-accounts-ledger.md)
+#### [Hoe u uitstoot van broeikasgassen vastlegt](finance-sustainability-journal.md)
 
 ### [Multi-site en internationale organisaties](finance-multi-site-organizations.md)
 #### Financiële gegevens uit meerdere bedrijven consolideren
@@ -479,7 +486,7 @@ ms.service: dynamics-365-business-central
 #### [Gegevens analyseren met statistiekrekeningen](bi-use-statistical-accounts.md)
 #### [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Ad-hocanalyse van financiële gegevens](ad-hoc-analysis-finance.md)
 
 ### Ingebouwde hulpmiddelen voor financiële analyse
 #### [Financiële gegevens uit het rekeningschema analyseren](finance-general-ledger.md)
@@ -549,7 +556,10 @@ ms.service: dynamics-365-business-central
 
 ## Voorraad
 ### [Overzicht van voorraad](inventory-manage-inventory.md)
-### [Voorraad- en magazijnrapporten](inventory-WMS-reports.md)
+### Voorraadanalyse 
+#### [Overzicht van voorraadanalyse](inventory-analytics-overview.md)
+#### [Ad-hocanalyse van voorraadgegevens](ad-hoc-analysis-inventory.md)
+#### [Ingebouwde voorraad- en magazijnrapporten](inventory-WMS-reports.md)
 ### [Nieuwe artikelen registreren](inventory-how-register-new-items.md)
 ### [Werken met stuklijsten](inventory-how-work-BOMs.md)
 ### [Artikelen categoriseren](inventory-how-categorize-items.md)
@@ -585,8 +595,10 @@ ms.service: dynamics-365-business-central
 
 ## Vaste activa
 ### [Overzicht van vaste activa](fa-manage.md)
+
 ### Analyses van vaste activa
 #### [Overzicht van analyses van vaste activa](fa-analytics-overview.md)
+#### [Ad-hocanalyse van vaste-activagegevens](ad-hoc-analysis-fa.md)
 #### Ingebouwde analysehulpmiddelen voor vaste activa
 ##### [Onderhoudskosten controleren](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Verzekeringsdekking controleren](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -594,6 +606,7 @@ ms.service: dynamics-365-business-central
 ##### [Buitengebruikstellingsposten weergeven](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [Voorspelde buitengebruikstellingswaarden weergeven](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Ingebouwde vaste-activarapporten](fa-reports.md)
+
 ### [Vaste activa instellen](fa-setup.md)
 ### [Afschrijvingsmethoden](fa-depreciation-methods.md)
 ### [Budgetten voor vaste activa beheren](fa-how-manage-budgets.md)
@@ -776,6 +789,7 @@ ms.service: dynamics-365-business-central
 <!--LF-->
 ## Lokale functionaliteit
 ### [Overzicht van lokale functionaliteit](about-localization.md)
+### [Ontwikkeling van gevalideerde lokalisatie-apps](about-validated-localization-apps.md)
 
 ### Australië
 #### [Overzicht van de Australische versie](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -1567,8 +1581,12 @@ ms.service: dynamics-365-business-central
 #### [Lokale functionaliteit in de Amerikaanse versie](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Belasting
 ##### [Elementaire belastinginstellingen](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Sales Tax rapporteren in de Verenigde Staten](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [Het IRS 1099-formulier instellen en gebruiken](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Sales Tax rapporteren in de Verenigde Staten](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Inleiding bij IRS 1099-formulieren en hun functionaliteit](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Het IRS 1099-formulier instellen en gebruiken voor versie 24 (releasewave 1 van 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+#### [IRS 1099-formulieren gebruiken](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+#### [IRS 1099-formulieren indienen en rapporteren](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
+##### [IRS 1099-formulier instellen en gebruiken](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Regelgeving 1099 Indelingswijzigingen en details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Het IRS 1096-formulier instellen en gebruiken](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
 ##### [Gebruiks- en inkoopbelasting instellen](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
@@ -1802,8 +1820,14 @@ ms.service: dynamics-365-business-central
 # Analyse, Business Intelligence en rapportage 
 
 ## [Overzicht van analyses](reports-bi-reporting.md)
-## [KPI's gebruiken om uw bedrijfsdoelen te halen](./analytics-about-kpis.md)
-## [Financiële rapportage gebruiken](bi-how-work-account-schedule.md)
+## [Analyses per functioneel gebied](analytics-by-functional-area.md)
+
+## KPI's, dashboards en financiële rapporten
+### [KPI's gebruiken om uw bedrijfsdoelen te halen](analytics-about-kpis.md)
+### [Inleiding bij Business Central en Power BI](admin-powerbi.md)
+### [Werken met Power BI-rapporten](across-working-with-powerbi.md)
+### [KPI's volgen met Power BI-statistieken](track-kpis-with-power-bi-metrics.md)
+### [Financial Reporting gebruiken](bi-how-work-account-schedule.md)
 
 ## Ad-hocgegevensanalyse
 ### [Overzicht](reports-adhoc-analysis.md)
@@ -1812,12 +1836,7 @@ ms.service: dynamics-365-business-central
 ### [Paginagegevens analyseren in Excel](across-work-with-excel.md)
 ### [Rapportgegevens analyseren met Excel](report-analyze-excel.md)
 ### [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md)
-
-## Ingebouwde analysehulpmiddelen
-### [Overzicht](reports-built-in-analytics.md)
-### [Werken met Power BI-rapporten](across-working-with-powerbi.md)
-### [Intelligente inzichten (on-premises)](about-intelligent-cloud.md)
-### [Gebruikstelemetrie rapporteren](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Ad-hoc gegevensanalyse per functioneel gebied](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Rapporten gebruiken in het dagelijkse werk
 ### [Overzicht](reports-use-reports.md)
@@ -1834,44 +1853,21 @@ ms.service: dynamics-365-business-central
 ## Ingebouwde rapporten
 ### [Rapportoverzicht](reports-available-reports.md)
 ### Financiën
-#### [Financiële Business Intelligence](bi.md)
-#### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
+#### [Financiële rapportage voorbereiden](bi-how-work-account-schedule.md)
 #### [Belangrijkste financiële rapporten](finance-reports.md)
 #### [Debiteurenrapporten](receivables-reports.md)
 #### [Crediteurenrapporten](payables-reports.md)
-#### [Cashflowanalyse](finance-setup-cash-flow-analyses.md)
-#### [Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)
 
-### Verkoop
-#### [Verkooprapporten](sales-reports.md)
-#### [Status van verkoopraamcontract](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Pakkettracering](sales-how-track-packages.md)
-#### [Niet-geboekte en geboekte verkoopraamcontractregels weergeven](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Inkopen
-#### [Inkooprapporten](purchase-reports.md)
-#### [Inkoopposten weergeven](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Voorraad en magazijn
-#### [Voorraad- en magazijnrapporten](inventory-wms-reports.md)
-#### [Artikelbeschikbaarheid](inventory-how-availability-overview.md)
-#### [Artikeltracering instellen met serie-, lot- en pakketnummers](inventory-how-work-item-tracking.md)
-#### [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)
-#### [De reconciliatie controleren tussen het voorraadgrootboek en het grootboek.](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Cross-dockartikelen bekijken in een verzending of pickvoorstel](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Verkooprapporten](sales-reports.md)
+### [Inkooprapporten](purchase-reports.md)
+### [Voorraad- en magazijnrapporten](inventory-wms-reports.md)
 
 ### Project
 #### [Projectrapporten](project-reports.md)
 #### [Schattingen van projectgebruik weergeven](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Projectvoortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)
 
-### Vaste activa
-#### [VA-rapporten](fa-reports.md)
-#### [Onderhoudskosten controleren](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Verzekeringsdekking controleren](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Gewijzigde afschrijvingsboekwaarden weergeven](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Buitengebruikstellingsposten weergeven](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Voorspelde buitengebruikstellingswaarden weergeven](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [VA-rapporten](fa-reports.md)
 
 ### Assemblage
 #### [Assemblagerapporten](assembly-reports.md)
@@ -1887,6 +1883,9 @@ ms.service: dynamics-365-business-central
 #### [Overzicht van serviceorders](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Overzicht van serviceoffertes](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Overzicht van geboekte servicedocumenten](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+### [Gebruikstelemetrie rapporteren](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 
 ## Rapporten ontwikkelen
 ### [Overzicht](reports-develop-reports.md)
@@ -1909,11 +1908,9 @@ ms.service: dynamics-365-business-central
 ## Gegevens analyseren in bedrijfsinformatietools
 ### [Overzicht](reports-external-analysis.md)
 ### [Microsoft Fabric en Business Central](admin-fabric.md)
-### [Power BI gebruiken met Business Central](admin-powerbi.md)
-### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
 ### [Gegevens extraheren naar data warehouses of data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Gegevens lezen met de Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
+### [Intelligente inzichten (on-premises)](about-intelligent-cloud.md)
 
 
 # Beveiliging, privacy en naleving

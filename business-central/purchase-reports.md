@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Inkooprapportage en analyses
 
-Inkooprapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt aanschaf- en zakelijke professionals in staat om inzichten en statistieken te krijgen over huidige en vroegere inkoopactiviteiten.  
+Inkooprapportage stelt aanschaf- en zakelijke professionals in staat inzichten en statistieken te krijgen over huidige en vroegere inkoopactiviteiten.  
 
 ## Rapporten
 
@@ -20,13 +20,25 @@ Inkooprapportage in [!INCLUDE [prod_short](includes/prod_short.md)] stelt aansch
 
 ## Taken
 
-In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw bedrijf:
+In de volgende artikelen worden enkele van de belangrijkste taken beschreven voor het analyseren van de toestand van uw inkoop:
 
-* [Analyselijsten maken](bi-how-create-analysis-views-reports.md)  
-* [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)  
+- [De beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)  
+- [Datums berekenen voor inkoop](purchasing-date-calculation-for-purchases.md)
+- [Inkoopposten weergeven](purchasing-how-record-purchases.md#viewing-ledger-entries)
+
+## Inkooprapporten verkennen met Rapportverkenner
+
+Om een overzicht te krijgen van de beschikbare rapporten voor inkoop kiest u **Alle rapporten** op uw startpagina. Met deze actie gaat u naar de Rolverkenner, die wordt gefilterd op de functies in de optie **Rapport en analyse**. Kies onder het kopje **Inkoop** **Verkennen**.
+
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Voorbeeld van rapporten over het rolcentrum XXX." lightbox="media/report-explorer-purchasing.png":::
+
+Ga voor meer informatie naar [Rapporten zoeken met de Rolverkenner](ui-role-explorer.md). 
 
 ## Zie ook
+
+[Ad-hocanalyse van inkoopgegevens](ad-hoc-analysis-purchasing.md)  
+[Overzicht van inkoopanalyses](purchasing-analytics-overview.md)   
 [Inkopen instellen](purchasing-setup-purchasing.md)  
-[Inkoop](purchasing-manage-purchasing.md)  
+[Overzicht van inkoop](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

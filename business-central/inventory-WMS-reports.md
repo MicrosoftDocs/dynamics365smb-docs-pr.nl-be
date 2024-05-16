@@ -44,8 +44,20 @@ Nadat u de app heeft geïnstalleerd, kunt u de actie **Label afdrukken** gebruik
 > [!NOTE]
 > Sommige printers en barcode/QR-code-indelingen vereisen een specifieke implementatie. Mogelijk moet u een andere Word-sjabloon uploaden of het rapport klonen om uw eigen aangepaste versie te maken.
 
+
+## Voorraadrapporten verkennen met Rapportverkenner
+
+Om een overzicht te krijgen van de beschikbare rapporten voor voorraad kiest u **Alle rapporten** op uw startpagina. Met deze actie gaat u naar de Rolverkenner, die wordt gefilterd op de functies in de optie **Rapport en analyse**. Kies onder het kopje **Verkoop en marketing** **Verkennen**.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Voorbeeld van rapporten over het financiële rolcentrum." lightbox="media/report-explorer-sales.png":::
+
+Ga voor meer informatie naar [Rapporten zoeken met de Rolverkenner](ui-role-explorer.md).
+
+
 ## Zie ook
 
+[Adhoc-analyse van voorraadgegevens](ad-hoc-analysis-inventory.md)  
+[Overzicht van voorraadanalyse](inventory-analytics-overview.md)   
 [Voorraad instellen](inventory-setup-inventory.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  

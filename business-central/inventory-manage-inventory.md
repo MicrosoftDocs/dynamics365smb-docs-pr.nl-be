@@ -24,6 +24,16 @@ Om het overzicht van artikelen te verbeteren en deze te helpen zoeken, kunt u ar
 
 Planning voor artikelen om aan vraag te voldoen, wordt behandeld als onderdeel van de functionaliteit voor vraagplanning. Lees meer op [Planning](production-planning.md).  
 
+## Voorraadanalyse
+
+In dit gedeelte worden de analytische hulpmiddelen beschreven die u kunt gebruiken om inzicht te krijgen in uw voorraadgegevens.
+
+| Actie | Zie |
+| --- | --- |
+| Leer meer over de mogelijkheden voor het analyseren van voorraadgegevens. | [Overzicht van verkoopanalyses](inventory-analytics-overview.md) |
+| Voer ad-hocanalyses uit van voorraadgegevens rechtstreeks op lijstpagina's en query's. | [Adhoc-analyse van voorraadgegevens](ad-hoc-analysis-inventory.md) |
+| Ingebouwde voorraadrapporten verkennen. | [Ingebouwde voorraad- en magazijnrapporten](inventory-WMS-reports.md) |
+
 ## Voorraadreconciliatie
 
 Als u voorraadtransacties (bijvoorbeeld verkoopverzendingen, inkoopfacturen of voorraadherwaarderingen) boekt, worden de gewijzigde artikelkosten vastgelegd in artikelwaardeposten. Om deze wijziging van voorraadwaarde door te voeren in uw financiële boeken, worden de voorraadkosten automatisch geboekt naar de gerelateerde voorraadrekeningen in het grootboek. Voor iedere voorraadtransactie die u boekt, worden overeenkomende waarden geboekt naar de voorraadrekening, de correctierekening en de KPV-rekening in het grootboek. Lees meer op [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md).

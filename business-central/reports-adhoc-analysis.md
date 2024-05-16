@@ -21,6 +21,13 @@ Soms moet u gegevens analyseren in [!INCLUDE[prod_short](includes/prod_short.md)
 | Gegevens uit een rapportgegevensset bekijken en analyseren in Excel | [Rapportgegevens analyseren met Excel en XML](report-analyze-excel.md) |
 | Lijstgegevens rechtstreeks vanaf een pagina analyseren |[Gegevens analyseren op lijstpagina's met behulp van de gegevensanalysemodus](analysis-mode.md)|
 
+## Ad-hocgegevensanalyse per functioneel gebied
+
+De algemene inhoud over adhoc-gegevensanalyse is ook in speciale versies van de functionele gebieden in [!INCLUDE[prod_short](includes/prod_short.md)] beschikbaar. 
+
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
+
+
 ## Zie ook
 
 [Overzicht van bedrijfsinformatie en rapportage](ui-work-report.md)

@@ -17,9 +17,15 @@ Om u te helpen bij het beheren van uw vaste activa in [!INCLUDE [prod_short](inc
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
+## Financiële rapporten verkennen met Rapportverkenner
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## Zie ook
 
+[Adhoc-analyse van vaste-activagegevens](ad-hoc-analysis-fa.md)     
 [Overzicht van VA-analyse](fa-analytics-overview.md)   
+[Overzicht van financiële analyse](bi.md)   
 [Vaste activa beheren](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

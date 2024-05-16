@@ -14,22 +14,22 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144,
 
 > **VAN TOEPASSING OP:** openbare preview in Business Central 2023 releasewave 1 en hoger voor het analyseren van lijstpagina's; algemeen beschikbaar in Business Central 2023 releasewave 2 voor het analyseren van gegevens van lijstpagina's en query's.
 
-In dit artikel leert u hoe u gegevens vanaf lijstpagina's en query's analyseert met behulp van de functie *gegevensanalyse*. Met de functie gegevensanalyse kunt u gegevens rechtstreeks vanaf de pagina analyseren, zonder dat u een rapport hoeft uit te voeren of naar een andere toepassing zoals Excel hoeft te schakelen. Het biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. In plaats van rapporten uit te voeren met verschillende opties en filters, kunt u meerdere tabbladen toevoegen die verschillende taken of weergaven van de gegevens vertegenwoordigen. Voorbeelden kunnen zijn "Mijn klanten", "Opvolgitems", "Onlangs toegevoegde leveranciers", "Verkoopstatistieken" of elke andere weergave die u maar kunt bedenken.
+In dit artikel leert u hoe u de functie voor gegevensanalyse gebruikt vanaf lijstpagina's en query's. Met gegevensanalyse kunt u gegevens rechtstreeks vanaf de pagina analyseren, zonder dat u een rapport hoeft uit te voeren of te openen of naar een andere toepassing zoals Excel hoeft te schakelen. De functie biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. In plaats van rapporten uit te voeren met verschillende opties en filters, kunt u meerdere tabbladen toevoegen die verschillende taken of weergaven van de gegevens vertegenwoordigen. Sommige voorbeelden zijn 'Mijn klanten', 'Opvolgitems', 'Onlangs toegevoegde leveranciers', 'Verkoopstatistieken' of elke andere weergave die u maar kunt bedenken.
 
 > [!TIP]
-> Een goede zaak van de gegevensanalysefunctie is dat het geen van de onderliggende gegevens van de lijstpagina of query of de lay-out van de pagina of query verandert wanneer deze zich niet in de analysemodus bevindt. Dus de beste manier om te leren wat u kunt doen in de analysemodus, is door dingen uit te proberen.
+> Het goede aan de functie voor gegevensanalyse is dat deze de onderliggende gegevens van een lijstpagina of query niet verandert. Het verandert ook de lay-out van de pagina of query niet als deze niet in de analysemodus staat. Dus de beste manier om te leren wat u kunt doen in de analysemodus, is door dingen uit te proberen.
 
-## Vereisten 
+## Vereisten
 
-- Als u Business Central versie 22 gebruikt, is de gegevensanalysefunctie in preview. Een beheerder moet het dus inschakelen voordat u het kunt gebruiken. Om dit in te schakelen gaat u naar de pagina **Functiebeheer** en schakelt u **Functie-update: snel gegevens rechtstreeks in Business Central analyseren** in. [Meer informatie over functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Als u [!INCLUDE [prod_short](includes/prod_short.md)] versie 22 gebruikt, is de gegevensanalysefunctie in preview. Een beheerder moet het dus inschakelen voordat u het kunt gebruiken. Om dit in te schakelen gaat u naar de pagina **Functiebeheer** en schakelt u **Functie-update: snel gegevens rechtstreeks in Business Central analyseren** in. [Meer informatie over functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - In versie 23 en hoger moet aan uw account de machtigingenset **DATA ANALYSIS - EXEC** zijn toegewezen of moet deze de uitvoermachtiging bevatten voor het systeemobject **9640 Gegevensanalysemodus toestaan**. Als beheerder kunt u deze machtigingen uitsluiten voor gebruikers die u geen toegang wilt hebben tot de analysemodus.
 
 > [!NOTE]
-> Mogelijk ziet u op sommige lijstpagina's geen schakelaar **Analysemodus openen** voor het overschakelen naar de analysemodus. De reden hiervoor is dat ontwikkelaars de analysemodus op specifieke pagina's kunnen uitschakelen door de [eigenschap AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL te gebruiken.
+> Sommige lijstpagina's bieden niet de schakelaar **Analysemodus openen** voor het inschakelen van de analysemodus. De reden hiervoor is dat ontwikkelaars de analysemodus op specifieke pagina's kunnen uitschakelen door de [eigenschap AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL te gebruiken.
 
 ## Aan de slag
 
-Voer deze stappen uit om aan de slag te gaan met het analyseren van gegevens met de analysemodus.
+Volg deze stappen om de analysemodus te gaan gebruiken.
 
 >[!TIP]
 > De analysemodus bevat ook de Copilot-functie *Hulp bij analyse* die u op weg kan helpen. [Meer informatie over hulp bij analyse met Copilot](analysis-assist.md).
@@ -64,15 +64,15 @@ In de analysemodus is de pagina verdeeld in twee gebieden:
 
 ### Gegevensgebied (1)
 
-In het gegevensgebied worden de rijen en kolommen van de lijstpaginaquery weergegeven en worden de gegevens samengevat. Het gegevensgebied biedt een veelzijdige manier om de lay-out van kolommen te regelen en een snelle manier om een samenvatting van de gegevens te krijgen. Voor kolommen die numerieke waarden bevatten, wordt de som van alle waarden in de kolom weergegeven in een laatste rij, tenzij u rijgroepen hebt gedefinieerd. In dit geval verschijnen de sommen als een subtotaal voor de groepen.  
+In het gegevensgebied worden de rijen en kolommen van de lijstpaginaquery weergegeven en worden de gegevens samengevat. Het gegevensgebied biedt een veelzijdige manier om de lay-out van kolommen te regelen en een snelle manier om een samenvatting van de gegevens te krijgen. Voor kolommen die numerieke waarden bevatten, wordt de som van alle waarden in de kolom weergegeven in een laatste rij, tenzij u rijgroepen definieert. In dit geval verschijnen de sommen als een subtotaal voor de groepen.  
 
 ![Toont een overzicht van een gegevensgebied op een pagina in de analysemodus](media/analysis-mode-data-area.png)
 
 - Als u een kolom wilt verplaatsen, selecteert u deze en sleept u deze naar de plaats waar deze het meest logisch is in uw analyse.
 - Om op een kolom te sorteren selecteert u de kolomkop. Als u op meerdere kolommen wilt sorteren, selecteert u en houdt u de <kbd>Shift</kbd>-toets ingedrukt terwijl u de kolomkoppen selecteert waarop u wilt sorteren.
-- Klik met de rechtermuisknop op de kolom of plaats de muisaanwijzer erop en selecteer het menupictogram ![Toont het pictogram op een kolom in de analysemodus waarmee een menu met acties wordt geopend](media/analysis-mode-column-menu-icon.png) om toegang te krijgen tot verschillende acties die u op kolommen kunt uitvoeren. Voorbeeld:
+- Om toegang te krijgen tot verschillende acties die u op kolommen kunt uitvoeren, klikt u met de rechtermuisknop op de kolom of beweegt u zich eroverheen en selecteert u het menupictogram ![Toont het pictogram op een kolom in de analysemodus waarmee een menu met acties wordt geopend](media/analysis-mode-column-menu-icon.png). Voorbeeld:
 
-  - Als u een kolom links of rechts van het gegevensgebied wilt vastzetten zodat deze niet van het scherm af beweegt wanneer u schuift, selecteert u ![Toont het pictogram op een kolom in de analysemodus waarmee een menu met acties wordt geopend](media/analysis-mode-column-menu-icon.png) > **Kolom vastmaken** > **Links vastmaken** het kolomgedeelte.
+  - Als u een kolom op het gegevensgebied wilt vastzetten zodat deze niet van het scherm af beweegt wanneer u schuift, selecteert u ![Toont het pictogram op een kolom in de analysemodus waarmee een menu met acties wordt geopend](media/analysis-mode-column-menu-icon.png) > **Kolom vastmaken** > **Links vastmaken** het kolomgedeelte.
   - Definieer gegevensfilters rechtstreeks op de kolomdefinitie in plaats van naar de **Analysefilters**-deelvensters te gaan. U kunt nog steeds details bekijken over gerelateerde gegevens en voor elke regel, en de kaart openen voor meer informatie over een bepaalde entiteit.
 - Gebruik het gegevensgebied om met de gegevens te werken. Voor kolommen die numerieke, optelbare waarden bevatten, kunt u beschrijvende statistieken voor een reeks velden verkrijgen door ze te markeren. De statistieken verschijnen in de statusbalk (2) onder aan de pagina.
 - Exporteer gegevens in Excel- of csv-indeling. Klik met de rechtermuisknop op het gegevensgebied of een selectie van cellen om te exporteren.
@@ -104,7 +104,7 @@ De volgende tabel beschrijft de verschillende getallen die worden weergegeven in
 
 |Districten|Omschrijving|
 |-|-|
-|Zoeken/alle vakjes in- of uitschakelen|Zoeken naar kolommen. Schakel het selectievakje in om alle kolommen te selecteren/wissen.|
+|Zoeken/alle vakjes in- of uitschakelen|Zoeken naar kolommen. Als u alle kolommen wilt selecteren/wissen, schakelt u het selectievakje in.|
 |Selectievakjes|Dit gebied bevat een selectievakje voor elk veld in de brontabel van de lijst of query. Gebruik dit gebied om te wijzigen welke kolommen worden weergegeven. Schakel een selectievakje in om de kolom voor het veld op de pagina weer te geven; schakel het selectievakje uit om de kolom te verbergen. |
 |Rijgroepen|Gebruik dit gebied om gegevens te groeperen en op te tellen op een of meer velden. U kunt alleen niet-numerieke velden opnemen, zoals tekst-, datum- en tijdvelden. Rijgroepen worden vaak gebruikt in de draaimodus.|
 |Waarden|Gebruik dit gebied om velden op te geven waarvoor u een totaal wilt hebben. U kunt alleen velden opnemen die getallen bevatten die bij elkaar kunnen worden opgeteld; bijvoorbeeld geen tekst-, datum- of tijdvelden.|
@@ -130,13 +130,13 @@ Hier volgen enkele tips voor het werken met meerdere analysetabbladen:
 - Selecteer de pijl-omlaag op een tabblad om toegang te krijgen tot een lijst met acties die u op een tabblad kunt uitvoeren, zoals hernoemen, dupliceren, verwijderen en verplaatsen.
 
    - **Verwijderen** verwijdert het tabblad dat u momenteel hebt geopend. **Alles verwijderen** verwijdert alle tabbladen die u hebt toegevoegd, behalve het standaardtabblad **Analyse 1**.
-- U kunt **Analyse 1** niet volledig verwijderen, maar u kunt de naam wel wijzigen met de actie **Hernoemen** en de wijzigingen wissen die u hebt aangebracht met behulp van **Verwijderen** of **Alles verwijderen**.  
+- U kunt **Analyse 1** niet volledig verwijderen, maar u kunt de naam wel wijzigen met de actie **Naam wijzigen** en de wijzigingen wissen die u hebt aangebracht met behulp van **Verwijderen** of **Alles verwijderen**.  
 
-- De analysetabbladen die u hebt toegevoegd en geconfigureerd, blijven staan totdat u ze verwijdert. Dus als u weer terugkeert naar de analysemodus, ziet u ze precies zoals u ze achterliet.
+- De analysetabbladen die u toevoegt en configureert, blijven staan totdat u ze verwijdert. Als u weer terugkeert naar de analysemodus, ziet u ze precies zoals u ze achterliet.
 
    > [!TIP]
    > De tabbladen die u instelt, zijn alleen voor u zichtbaar. Andere gebruikers zien alleen tabbladen die ze hebben ingesteld.
-- U kunt analysetabbladen kopiëren. Kopiëren kan handig zijn als u wilt experimenteren met het wijzigen van een tabblad zonder het origineel te wijzigen, of als u verschillende varianten van dezelfde analyse wilt maken.
+- U kunt analysetabbladen kopiëren. Kopiëren kan bijvoorbeeld handig zijn als u wilt experimenteren met het wijzigen van een tabblad zonder het origineel te wijzigen. Kopiëren is ook handig als u verschillende varianten van dezelfde analyse wilt maken.
 
 ## Datumhiërarchieën
 
@@ -179,7 +179,7 @@ Als de gegevensset die u wilt analyseren groter is dan 100.000 rijen, wordt u aa
    - tijdzones
 - Velden die in de draaitabelmodus worden gebruikt en aan kolomlabels worden toegevoegd, moeten een klein aantal afzonderlijke waarden hebben.
 
-   Als u de draaitabelmodus inschakelt en een veld naar het gebied **Kolomlabels** sleept, waar de onderliggende gegevens voor dat veld te veel verschillende waarden bevatten, reageert het browsertabblad mogelijk niet meer en wordt het uiteindelijk gesloten, waardoor u opnieuw moet beginnen in een nieuwe sessie. In dit geval moet u niet op dat veld draaien of een filter op het veld instellen voordat u het toevoegt aan het gebied **Kolomlabels**.
+   Als u de draaimodus inschakelt en een veld naar het gebied **Kolomlabels** sleept, waar de onderliggende gegevens voor dat veld te veel verschillende waarden hebben, reageert uw browsertabblad mogelijk niet meer. De browser wordt uiteindelijk gesloten, waardoor u opnieuw moet beginnen in een nieuwe sessie. In dit geval moet u niet op dat veld draaien of een filter op het veld instellen voordat u het toevoegt aan het gebied **Kolomlabels**.
 
 ## Gegevensanalyse delen
 
@@ -196,56 +196,36 @@ Nadat u een analyse op een tabblad heeft voorbereid, kunt u deze rechtstreeks va
    ![Toont het dialoogvenster voor kopiëren van een koppeling voor een analysetabblad](media/analysis-link-copied.svg)
 
 1. Selecteer **Kopiëren**.
-1. Plak de koppeling in de communicatiemedia van uw keuze, zoals Word, Outlook, Teams, OneNote, enzovoort. 
-1. Na ontvangst kunnen ontvangers vervolgens de koppeling selecteren en de analyse voor de pagina of query openen in Business Central. Ze worden gevraagd een naam op te geven voor het nieuwe analysetabblad dat wordt gemaakt.  
+1. Plak de koppeling in de communicatiemedia van uw keuze, zoals Word, Outlook, Teams, OneNote, enzovoort.
+1. Na ontvangst kunnen ontvangers de koppeling selecteren en de analyse voor de pagina of query openen in [!INCLUDE [prod_short](includes/prod_short.md)]. Ze worden gevraagd een naam op te geven voor het nieuwe analysetabblad dat ze maken.  
 
 ## Voorbeelden van het analyseren van gegevens
 
-De functie *Gegevens analyseren* is bedoeld voor snelle feitencontrole en ad-hocanalyse als u geen rapport wilt uitvoeren, als er een rapport voor uw specifieke behoeften bestaat of als u snel wilt herhalen om een goed overzicht te krijgen van een deel van uw bedrijf.
+Gebruik de functie **Gegevensanalyse** voor snelle feitencontrole en ad-hocanalyse:
 
-In de volgende secties vindt u voorbeelden van gebruiksscenario's voor veel van de functionele gebieden in de Business Central-toepassing.
+- Als u geen rapport wilt uitvoeren.
+- Als er geen rapport voor uw specifieke behoefte bestaat.
+- Als u snel wilt herhalen om een goed overzicht te krijgen van een deel van uw bedrijf.
 
-| Vlak | Actie | Deze pagina openen in de analysemodus | Deze velden gebruiken |
-| ---- | ----- | ------------------------------- |------------------- |
-| [Financiën (Tegoeden)](#example-finance-accounts-receivables) | Bekijk bijvoorbeeld wat uw klanten u verschuldigd zijn, uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald. | [Klantenposten](https://businesscentral.dynamics.com/?page=25) | **Klantnaam**, **Deadline** en **Resterend bedrag** |
-| [Financiën (Resultatenrekening)](#example-finance-income-statement) | Bekijk uw inkomsten over de inkomstenrekeningen uit het rekeningschema, bijvoorbeeld opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt. | [Grootboekposten](https://businesscentral.dynamics.com/?page=20) | **Grootboekrekeningnr.**, **Boekingsdatum** en **Bedrag**. |
-| [Financiën (totale activa)](#example-finance-total-assets) | Bekijk uw activa over de activarekeningen uit het rekeningschema, bijvoorbeeld opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt. | [Grootboekposten](https://businesscentral.dynamics.com/?page=20) | **Grootboekrekeningnr.**, **Boekingsdatum** en **Bedrag**. |
+De volgende secties geven voorbeelden van scenario's voor veel van de functionele gebieden in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ### Voorbeeld: Financiën (Tegoeden)
 
-Als u wilt zien wat uw klanten u verschuldigd zijn, wellicht uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald, doet u het volgende.
+Als u wilt zien wat uw klanten u verschuldigd zijn, wellicht uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald, doet u het volgende:
 
-1. Open de lijst [Klantenposten](https://businesscentral.dynamics.com/?page=25) en schakel de analysemodus in.
-1. Ga naar het menu **Kolommen** en verwijder alle kolommen (selecteer het vakje naast het veld *Zoeken*).
-1. Zet **Draaimodus*** aan (direct boven het veld **Zoeken**).
-1. Sleep nu het veld *Klantnaam* naar het gebied **Rijgroepen** en sleep **Resterend bedrag** naar het gebied **Waarden**. 
-1. Zoek ten slotte het veld **Vervaldatum (maand)** en sleep het naar het gebied **Kolomlabels**. 
-1. Als u de analyse wilt beperken tot een bepaald jaar/kwartaal, past u een filter toe in het menu **Extra filters** (aan de rechterkant, net onder het menu **Kolommen**). 
-1. Hernoem uw analysetabblad naar 'Oudere accounts per maand' of iets dat deze analyse voor u beschrijft. 
+1. Open de lijst [Klantenposten](https://businesscentral.dynamics.com/?page=25) en kies :::image type="content" source="media/analysis-mode-icon.png" alt-text="Analysemodus openen"::: om de analysemodus in te schakelen.
+1. Ga naar het menu **Kolommen** en verwijder alle kolommen (selecteer het vakje naast het veld *Zoeken*, rechts).
+1. Schakel de schakelaar **Draai*modus** in (bevindt zich boven het veld **Zoeken**, rechts).
+1. Sleep het veld **Klantnaam** naar het gebied **Rijgroepen** en sleep **Resterend bedrag** naar het gebied **Waarden**.
+1. Sleep het veld **Vervaldatum (maand)** naar het gebied **Kolomlabels**.
+1. Als u de analyse wilt uitvoeren voor een bepaald jaar of kwartaal, past u een filter toe in het menu **Analysefilters** (aan de rechterkant onder het menu **Kolommen**).
+1. Hernoem uw analysetabblad naar **Oudere accounts per maand** of iets dat deze analyse beschrijft.
 
-### Voorbeeld: Financiën (Resultatenrekening)
+### Voorbeelden van ad-hocgegevensanalyse per functioneel gebied
 
-Als u uw inkomsten wilt zien over de inkomstenrekeningen uit het rekeningschema, opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt, doet u het volgende:
+Veel van de functionele gebieden in [!INCLUDE[prod_short](includes/prod_short.md)] hebben artikelen met voorbeelden van ad-hocgegevensanalyse.
 
-1. Open de lijst [Grootboekposten](https://businesscentral.dynamics.com/?page=20) en schakel de analysemodus in.
-1. Ga naar het menu **Kolommen** en verwijder alle kolommen (selecteer het vakje naast het veld **Zoeken**).
-1. Zet **Draaimodus** aan (direct boven het veld **Zoeken**).
-1. Sleep nu het veld **Grootboekrekeningnr.** naar het gebied **Rijgroepen** en sleep **Bedrag** naar het gebied **Waarden**.
-1. Zoek ten slotte het veld **Boekingsdatum (maand)** en sleep het naar het gebied **Kolomlabels**.
-1. Voor de resultatenrekening moet u filteren op de rekeningen die u hiervoor gebruikt. In de demogegevens van Business Central zijn dit rekeningen die beginnen met '4'. Uw rekeningschema kan anders zijn ingesteld. (Als u het rapport [Proefbalans per periode](https://businesscentral.dynamics.com/?report=38) uitvoert, kunt u eenvoudig zien welke accounts in uw instelling worden gebruikt.) Stel een filter in voor de juiste rekeningen in het menu **Extra filters** (aan de rechterkant, net onder het menu **Kolommen**).
-1. Hernoem uw analysetabblad naar 'Inkomen per maand' of iets dat deze analyse voor u beschrijft.
-
-### Voorbeeld: Financiën (totale activa)
-
-Als u uw activa wilt zien over de activarekeningen uit het rekeningschema, opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt, doet u het volgende:
-
-1. Open de lijst [Grootboekposten](https://businesscentral.dynamics.com/?page=20) en schakel de analysemodus in.
-1. Ga naar het menu **Kolommen** en verwijder alle kolommen (selecteer het vakje naast het veld **Zoeken**).
-1. Zet **Draaimodus** aan (direct boven het veld **Zoeken**).
-1. Sleep nu het veld **Grootboekrekeningnr.** naar het gebied **Rijgroepen** en sleep **Bedrag** naar het gebied **Waarden**.
-1. Zoek ten slotte het veld **Boekingsdatum (maand)** en sleep het naar het gebied **Kolomlabels**.
-1. Voor het overzicht van totale activa dient u te filteren op de rekeningen die u hiervoor gebruikt. In de Business Central-demogegevens zijn dit rekeningen die beginnen met '10'. Uw rekeningschema kan afwijken. Als u het rapport [Proefsaldo per periode](https://businesscentral.dynamics.com/?report=38) uitvoert, kunt u eenvoudig zien welke rekeningen in uw instelling worden gebruikt. Stel een filter in voor de juiste rekeningen in het menu **Extra filters** (aan de rechterkant, net onder het menu **Kolommen**).
-1. Hernoem uw analysetabblad naar 'Inkomen per maand' of iets dat deze analyse voor u beschrijft.
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 ## Beperkingen in releasewave 1 van 2023 (preview)
 
@@ -257,5 +237,6 @@ De openbare preview van deze functie heeft de volgende beperkingen:
 
 ## Zie ook
 
+[Ad-hocgegevensanalyse per functioneel gebied](ad-hoc-data-analysis-by-functional-area.md)   
 [Ad-hocgegevensanalyse](reports-adhoc-analysis.md)  
 [Weergeven en bewerken in Excel](across-work-with-excel.md)  

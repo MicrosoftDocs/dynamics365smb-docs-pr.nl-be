@@ -40,7 +40,7 @@ Financiële rapporten geven u inzicht in de financiële gegevens die in uw reken
 
 :::image type="content" source="media/acc_schedule_13_columns.jpg" alt-text="Schermopname van een financieel rapport." lightbox="media/acc_schedule_13_columns.jpg":::
 
-Dimensies spelen een belangrijke rol bij bedrijfsinformatie. Een dimensie bestaat uit gegevens die u kunt toevoegen aan een post als een parameter. Met dimensies kunt u invoergegevens groeperen met vergelijkbare kenmerken, zoals klanten, regio's, producten en verkopers, en kunt u deze groepen eenvoudig ophalen voor analyse. U kunt dimensies onder andere ook gebruiken wanneer u analyseweergaven definieert en wanneer u financiële rapporten maakt. Zie [Werken met dimensies](finance-dimensions.md) voor meer informatie.
+Dimensies spelen een belangrijke rol bij bedrijfsinformatie. Een dimensie bestaat uit gegevens die u kunt toevoegen aan een post als een parameter. Met dimensies kunt u posten groeperen die vergelijkbare kenmerken hebben. Bijvoorbeeld groepen klanten, regio's, producten en verkopers. Groepen maken het gemakkelijker om gegevens op te halen voor analyse. U kunt dimensies onder andere ook gebruiken wanneer u analyseweergaven definieert en wanneer u financiële rapporten maakt. Zie [Werken met dimensies](finance-dimensions.md) voor meer informatie.
 
 Voor meer informatie over financiële overzichten en KPI's gaat u naar [Financiële rapportage gebruiken om financiële overzichten en KPI's te produceren](bi.md).
 
@@ -61,7 +61,7 @@ Meer informatie over KPI's vindt u in [KPI's gebruiken om uw bedrijfsdoelen te h
 
 ## Ad-hocgegevensanalyse
 
-Soms wilt u misschien gewoon controleren of de cijfers kloppen, snel een hypothese over het bedrijf bevestigen of ontkrachten, of op zoek gaan naar afwijkingen in uw financiële gegevens. Voor ad-hocanalyses beschikt u mogelijk niet over een ingebouwd rapport dat u helpt uw ​​vragen te beantwoorden. Gebruik deze twee functies voor ad-hocanalyses:
+U wilt misschien gewoon controleren of de cijfers kloppen, snel een hypothese over het bedrijf bevestigen of ontkrachten, of op zoek gaan naar afwijkingen in uw financiële gegevens. Voor ad-hocanalyses beschikt u mogelijk niet over een ingebouwd rapport dat u helpt uw ​​vragen te beantwoorden. Gebruik deze twee functies voor ad-hocanalyses:
 
 - Gegevensanalyse op grootboeklijstpagina´s
 - Openen in Excel
@@ -107,7 +107,7 @@ In de volgende tabel vindt u artikelen over het gebruik van ingebouwde rapporten
 
 ## Externe bedrijfsinformatie- en rapportagetools
 
-Als u liever bedrijfsinformatietools gebruikt die niet zijn ingesloten in [!INCLUDE[prod_short](includes/prod_short.md)], vindt u in de volgende tabel links naar hulpprogramma's en manieren om externe tools te gebruiken.
+Als u wilt, kunt u business intelligence-tools gebruiken die niet zijn ingebed in [!INCLUDE[prod_short](includes/prod_short.md)]. De volgende tabel bevat koppelingen naar richtlijnen en manieren om externe hulpmiddelen te gebruiken.
 
 | Tot  | Zie |
 | --- | --- |
@@ -116,6 +116,18 @@ Als u liever bedrijfsinformatietools gebruikt die niet zijn ingesloten in [!INCL
 | Gegevens extraheren naar data warehouses of data lakes| [Gegevens extraheren naar datawarehouses of data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Business Central-gegevens analyseren met Microsoft Fabric| [Inleiding bij Microsoft Fabric en Business Central](admin-fabric.md) |
 | Gegevens lezen uit Business Central met API's | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
+
+## Analyse per functioneel gebied
+
+De inhoud van dit algemene artikel is voor veel functionele gebieden ook in speciale versies beschikbaar [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Als u werkt met... | Zie |
+| --- | --- |
+| Financiën | [Financiële analyse](bi.md) |
+| Verkopen | [Verkoopanalyses](sales-analytics-overview.md) |
+| Inkoop | [Inkoopanalyses](purchasing-analytics-overview.md) |
+| Beheer van vaste activa | [Analyses van vaste activa](fa-analytics-overview.md) |
+
 
 ## Zie ook
 
