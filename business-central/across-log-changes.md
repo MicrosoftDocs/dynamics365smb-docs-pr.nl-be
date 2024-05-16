@@ -11,11 +11,11 @@ ms.date: 05/03/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Wijzigingen controleren
+# <a name="auditing-changes"></a>Wijzigingen controleren
 
 Een veelvoorkomende uitdaging bij veel bedrijfsbeheertoepassingen is het vermijden van ongewenste wijzigingen in gegevens. Het probleem kan variëren van een foutief telefoonnummer van een klant tot een foutieve boeking naar het grootboek. In dit artikel worden de mogelijkheden beschreven om erachter te komen wat er is gewijzigd, wie het heeft gewijzigd en wanneer de wijziging is aangebracht.
 
-## Over het wijzigingslogbestand
+## <a name="about-the-change-log"></a>Over het wijzigingslogbestand
 
 Met het wijzigingslogbestand kunt u alle directe wijzigingen bijhouden die een gebruiker aanbrengt in de databasegegevens. U moet elke tabel en elk veld opgeven dat u door het systeem wilt laten registreren. Vervolgens activeert u het wijzigingslogbestand. Het wijzigingslogbestand is gebaseerd op wijzigingen die worden aangebracht in gegevens in de tabellen die u bijhoudt. Op de pagina **Wijzigingslogposten** worden posten chronologisch geordend en worden alle wijzigingen weergeven die worden aangebracht in de waarden in velden in tabellen die u opgeeft.
 
@@ -37,7 +37,7 @@ Ook om prestatieredenen wordt het wijzigingslogboek uitgeschakeld tijdens het up
 > - De gebruiker heeft een ander bedrijf of rolcentrum geselecteerd.
 > - De gebruiker heeft zich af- en weer aangemeld.
 
-## Het wijzigingslogboek instellen
+## <a name="setting-up-the-change-log"></a>Het wijzigingslogboek instellen
 
 Op de pagina **Wijzigingslogbestandinstellingen** kunt u het wijzigingslogboek in- of uitschakelen. Wanneer u dat doet, wordt de activiteit geregistreerd, zodat u altijd kunt zien wie de wijziging heeft aangebracht.
 
@@ -48,11 +48,11 @@ Op de pagina **Wijzigingslogbestandinstellingen** kunt u als u de actie **Tabell
 
 Nadat u het wijzigingslogboek hebt ingesteld, hebt geactiveerd en gegevens hebt gewijzigd, kunt u de wijzigingen weergeven en filteren op de pagina **Wijzigingslogposten**. Als u posten wilt verwijderen, stelt u een bewaarbeleid in, waarbij u filters kunt instellen op basis van datums en tijden. Zie voor meer informatie over het bewaarbeleid in [Bewaarbeleid definiëren](admin-data-retention-policies.md).  
 
-## Gegevens in het wijzigingslogboek analyseren
+## <a name="analyze-data-in-the-change-log"></a>Gegevens in het wijzigingslogboek analyseren
 
 U kunt de functie **Gegevensanalyse** gebruiken om gegevens in het Wijzigingslogboek te analyseren op de pagina [Wijzigingslogposten](https://businesscentral.dynamics.com/?page=595) . U hoeft geen rapport uit te voeren of een andere toepassing, zoals Excel, te openen. De functie biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. In plaats van rapporten uit te voeren met opties en filters, kunt u meerdere tabbladen toevoegen die verschillende taken of weergaven van de gegevens vertegenwoordigen. Enkele voorbeelden zijn 'Wie heeft welke gegevens gewijzigd, en wanneer', of 'Gegevenswijzigingen per tabel/veld', of welke andere weergave dan ook die u maar kunt bedenken. Voor meer informatie over het gebruik van de functie **Gegevensanalyse** gaat u naar [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md).
 
-### Ad-hocanalysescenario's voor wijzigingslogboek
+### <a name="change-log-ad-hoc-analysis-scenarios"></a>Ad-hocanalysescenario's voor wijzigingslogboek
 
 In de volgende secties vindt u voorbeelden van scenario's waarin het analyseren van het wijzigingslogboek u kan helpen bij het bewaken en controleren van belangrijke wijzigingen.
 
@@ -61,7 +61,7 @@ In de volgende secties vindt u voorbeelden van scenario's waarin het analyseren 
 | [Wie heeft welke gegevens gewijzigd, en wanneer](#example-who-changed-what-data-and-when) | Zien wie heeft welke gegevens heeft gewijzigd. | [Wijzigingslogposten](https://businesscentral.dynamics.com/?page=595) | **Gebruikers-id**, **Datum en tijd**, **Tabelbijschrift**, **Veldbijschrift**, **Primaire sleutelwaarde 2**, **Primaire sleutelwaarde 3**, **Wijzigingssoort**, **Oude waarde** en **Nieuwe waarde**. |
 | [Gegevenswijzigingen per tabel/veld](#example-data-changes-by-tablefield) | Bekijk gegevenswijzigingen per tabel/veld en wie de wijziging heeft aangebracht. | [Wijzigingslogposten](https://businesscentral.dynamics.com/?page=595) | **Tabelbijschrift**, **Veldbijschrift**, **Gebruikers-id**, **Datum en tijd**, **Primaire sleutelwaarde 2**, **Primaire sleutelwaarde 3**, **Wijzigingssoort**, **Oude waarde** en **Nieuwe waarde**. |
 
-### Voorbeeld: Wie heeft welke gegevens gewijzigd, en wanneer
+### <a name="example-who-changed-what-data-and-when"></a>Voorbeeld: Wie heeft welke gegevens gewijzigd, en wanneer
 
 Om te analyseren wie welke gegevens wanneer heeft gewijzigd, volgt u deze stappen:
 
@@ -82,7 +82,7 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source=" media/data-analysis-change-log-entries-Who-changed-What-data-When.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina Wijzigingslogposten (wie heeft welke gegevens wanneer gewijzigd)." lightbox="media/data-analysis-change-log-entries-Who-changed-What-data-When.png":::
 
-### Voorbeeld: gegevenswijzigingen per tabel/veld
+### <a name="example-data-changes-by-tablefield"></a>Voorbeeld: gegevenswijzigingen per tabel/veld
 
 Volg deze stappen om gegevenswijzigingen per tabel/veld te analyseren:
 
@@ -102,22 +102,22 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source=" media/data-analysis-change-log-entries-data-changes-by-table-field.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina Wijzigingslogposten (gegevenswijzigingen per tabel/veld)." lightbox="media/data-analysis-change-log-entries-data-changes-by-table-field.png":::
 
-## Over activiteitenlogboeken
+## <a name="about-activity-logs"></a>Over activiteitenlogboeken
 
 Vanaf enkele pagina's in [!INCLUDE [prod_short](includes/prod_short.md)] kunt u een activiteitenlogboek bekijken dat de status en eventuele fouten weergeeft van bestanden waarnaar u exporteert vanuit of importeert in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### Werken met activiteitenlogboeken
+### <a name="work-with-activity-logs"></a>Werken met activiteitenlogboeken
 
 De informatie wordt weergegeven op de pagina **Activiteitenlogboek**, volgens de context van waaruit u deze hebt geopend. U kunt de pagina bijvoorbeeld openen vanuit de pagina's **Documentuitwisselingsservice instellen**, **Inkomend document**, **Geboekte verkoopfactuur** en **Geboekte verkoopcreditnota**. U kunt de lijst met logboekvermeldingen leegmaken of gewoon de lijst met vermeldingen ouder dan zeven dagen wissen.  
 
-## Vertrouwelijke velden bewaken
+## <a name="monitor-sensitive-fields"></a>Vertrouwelijke velden bewaken
 
 Het veilig en privé houden van gevoelige gegevens is voor de meeste bedrijven een belangrijk aandachtspunt. Om een beveiligingslaag toe te voegen kunt u belangrijke velden controleren en een e-mail ontvangen wanneer iemand een waarde wijzigt. U wilt bijvoorbeeld een melding ontvangen als iemand het IBAN-nummer van uw bedrijf wijzigt.
 
 > [!NOTE]
 > Voor het verzenden van meldingen per e-mail moet u de e-mailfunctie instellen in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [E-mail instellen](admin-how-setup-email.md) voor meer informatie.
 
-### Veldcontrole instellen
+### <a name="set-up-field-monitoring"></a>Veldcontrole instellen
 
 U kunt de begeleide instelling **Instelling van controle van veldwijziging** gebruiken om de velden te specificeren die u wilt bewaken op basis van filtercriteria, zoals de gegevensgevoeligheidsclassificatie voor de velden. Zie voor meer informatie [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md). In de handleiding kunt u ook de persoon specificeren die een e-mailmelding ontvangt wanneer er een wijziging plaatsvindt, en het e-mailaccount dat de e-mailmelding verzendt. Geef zowel de te informeren gebruiker op als het account van waaruit het bericht moet worden verzonden. Nadat u de begeleide instelling hebt voltooid, kunt u instellingen voor veldbewaking beheren op de pagina **Instelling van veldcontrole**.
 
@@ -133,7 +133,7 @@ U kunt instellingen voor veldbewaking beheren, zoals of u een e-mailmelding wilt
 > [!NOTE]
 > Nadat u een of meer velden hebt toegevoegd en de controle hebt gestart, moet u zich afmelden bij [!INCLUDE[prod_short](includes/prod_short.md)] en u opnieuw aanmelden om uw instellingen toe te passen.
 
-### Werken met veldbewaking
+### <a name="work-with-field-monitoring"></a>Werken met veldbewaking
 
 Invoer voor alle gewijzigde waarden voor bewaakte velden is beschikbaar op de pagina **Logboekvermeldingen van gecontroleerde velden**. Posten bevatten bijvoorbeeld de volgende informatie:
 
@@ -143,18 +143,18 @@ Invoer voor alle gewijzigde waarden voor bewaakte velden is beschikbaar op de pa
 
 Om een wijziging verder te onderzoeken kiest u een waarde om de pagina te openen waarop deze is aangebracht. Kies om een lijst met alle vermeldingen weer te geven **Veldwijzigingsposten**.
 
-### Veldbewakingstelemetrie bekijken
+### <a name="view-field-monitoring-telemetry"></a>Veldbewakingstelemetrie bekijken
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] instellen om veldbewakingsactiviteit naar een Application Insights-bron in Microsoft Azure te sturen. Vervolgens maakt u met behulp van Azure Monitor rapporten en stelt u waarschuwingen in voor de verzamelde gegevens. Zie voor meer informatie de volgende artikelen in de [!INCLUDE[prod_short](includes/prod_short.md)] Ontwikkelaar en IT Pro Help:
 
 - [Telemetrie bewaken en analyseren - inschakelen Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview?toc=/dynamics365/business-central/toc.json#enable)
 - [Veldbewakingstelemetrie bekijken](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)
 
-## Bewaarbeleid definiëren
+## <a name="define-retention-policies"></a>Bewaarbeleid definiëren
 
 U kunt bewaarbeleid maken om onnodige gegevens in logboeken te verwijderen na een door u opgegeven periode. Zo kan het aantal vermeldingen in een logboek na verloop van tijd toenemen. Door oude vermeldingen op te schonen kunt u het gemakkelijker maken om u te concentreren op recentere en waarschijnlijk relevantere vermeldingen. Zie voor meer informatie over het bewaarbeleid [Bewaarbeleid definiëren](admin-data-retention-policies.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Vertrouwelijke velden bewaken](across-log-changes.md#monitor-sensitive-fields)  
 [Veldbewakingstelemetrie bekijken](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)  

@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Gebruikers maken volgens licenties
+# <a name="create-users-according-to-licenses"></a>Gebruikers maken volgens licenties
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -26,7 +26,7 @@ Voor meer informatie over de verschillende soorten licenties en hoe licenties we
 > [!NOTE]
 > Het proces van het beheren van gebruikers en licenties is afhankelijk van of [!INCLUDE[prod_short](includes/prod_short.md)] online of on-premises wordt geïmplementeerd. Voor [!INCLUDE [prod_short](includes/prod_short.md)] online moet u gebruikers toevoegen vanuit Microsoft 365. In on-premises implementaties kunt u rechtstreeks gebruikers maken, bewerken en verwijderen.  
 
-## Gebruikers en licenties beheren in online-tenants
+## <a name="manage-users-and-licenses-in-online-tenants"></a>Gebruikers en licenties beheren in online-tenants
 
 Gebruikersaccounts in [!INCLUDE[prod_short](includes/prod_short.md)] moeten eerst worden gemaakt in het Microsoft 365-beheercentrum. Deze gebruikersaccounts zijn niet exclusief voor [!INCLUDE [prod_short](includes/prod_short.md)]. Als u zich abonneert op andere abonnementen, kunnen deze worden gebruikt om u aan te melden bij andere applicaties, zoals Power BI. Ga voor informatie over het maken van gebruikers in het Microsoft 365-beheercentrum naar [Gebruikers toevoegen in het Microsoft-beheercentrum](/microsoft-365/admin/add-users/add-users).
 
@@ -61,7 +61,7 @@ Beide benaderingen hebben hun eigen voordelen en u kunt ze tegelijkertijd gebrui
 
 Zie voor meer informatie [Gedelegeerde beheerderstoegang tot Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="licensespermissions"></a>Machtigingen configureren op basis van licenties
+### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Machtigingen configureren op basis van licenties
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -91,7 +91,7 @@ Als deze standaardconfiguratie niet de juiste instelling is voor een bepaalde om
 > [!IMPORTANT]
 > Deze aanpassing van machtigingen wordt alleen van kracht voor nieuwe gebruikers die u de betreffende licentie toewijst. Bestaande gebruikers worden niet bijgewerkt. We raden u aan de machtigingen aan te passen voordat u gebruikerslicenties gaat toewijzen in het Microsoft 365-beheercentrum.
 
-### <a name="adduser"></a>Gebruikers toevoegen of gebruikersgegevens en licentietoewijzingen bijwerken in Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Gebruikers toevoegen of gebruikersgegevens en licentietoewijzingen bijwerken in Business Central
 
 Nadat u gebruikers heeft toegevoegd of gebruikersinformatie heeft gewijzigd in het Microsoft 365-beheercentrum, kunt u de gebruikersinformatie snel importeren naar [!INCLUDE[prod_short](includes/prod_short.md)]. De import omvat licentietoewijzingen.  
 
@@ -118,7 +118,7 @@ Voor meer informatie over het synchroniseren van gebruikersinformatie met Micros
 > [!NOTE]
 > Als u een externe auditor gebruikt om uw boeken en financiële rapportage beheren, kunt u deze uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens. Zie voor meer informatie [Uw externe accountant uitnodigen voor uw Business Central](finance-accounting.md#inviteaccountant).
 
-### De toegang van een gebruiker tot het systeem verwijderen
+### <a name="to-remove-a-users-access-to-the-system"></a>De toegang van een gebruiker tot het systeem verwijderen
 
 U kunt de toegang van een gebruiker tot [!INCLUDE[prod_short](includes/prod_short.md)] online verwijderen. Alle verwijzingen naar de gebruiker blijven behouden. De gebruiker kan zich echter niet aanmelden en actieve sessies voor de gebruiker worden gestopt.
 
@@ -128,7 +128,7 @@ U kunt de toegang van een gebruiker tot [!INCLUDE[prod_short](includes/prod_shor
 
 U kunt de licentie ook verwijderen van een gebruiker in het Microsoft 365-beheercentrum. De gebruiker kan zich dan niet meer aanmelden. Zie voor meer informatie [Licenties van gebruikers verwijderen](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="m365"></a>Synchronisatie met Microsoft 365
+### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synchronisatie met Microsoft 365
 
 Wanneer u een licentie voor [!INCLUDE[prod_short](includes/prod_short.md)] toewijst aan een gebruiker in Microsoft 365, zijn er twee manieren om de gebruiker te maken in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -153,13 +153,13 @@ Lees meer over het beveiligen van toegang tot omgevingen met behulp van beveilig
 
 Krijg een overzicht van toegang tot [!INCLUDE[prod_short](includes/prod_short.md)] in Teams met Microsoft 365-licenties op [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
-## Gebruikers en licenties beheren in on-premises implementaties
+## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Gebruikers en licenties beheren in on-premises implementaties
 
 Voor on-premises implementaties wordt het aantal gebruikerslicenties opgegeven in het licentiebestand (.bclicense of .flf). Wanneer een beheerder of Microsoft-partner het licentiebestand uploadt, kan deze opgeven welke gebruikers zich kunnen aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Voor on-premises implementaties maakt de beheerder gebruikers rechtstreeks op de pagina **Gebruikers**.
 
-### Een gebruiker in een on-premises implementatie bewerken of verwijderen
+### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Een gebruiker in een on-premises implementatie bewerken of verwijderen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
 2. Selecteer de gebruiker die u wilt bewerken en kies vervolgens de actie **Bewerken**.
@@ -171,11 +171,11 @@ Voor on-premises implementaties maakt de beheerder gebruikers rechtstreeks op de
 >
 > Zie voor meer informatie [Verificatie en referentietypen](/dynamics365/business-central/dev-itpro/administration/users-credential-types) in de beheer-Help voor [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## De gebruikersstatus analyseren per licentietype
+## <a name="analyze-user-status-by-license-type"></a>De gebruikersstatus analyseren per licentietype
 
 U kunt gebruik maken van de functie **Gegevensanalyse** om gegevens op de pagina [Gebruikers](https://businesscentral.dynamics.com/?page=9800) te analyseren. U hoeft geen rapport uit te voeren of een andere toepassing, zoals Excel, te openen. De functie biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. In plaats van rapporten uit te voeren met opties en filters, kunt u meerdere tabbladen toevoegen die verschillende taken of weergaven van de gegevens vertegenwoordigen. Enkele voorbeelden zijn 'Gebruikers op status' of 'Gebruikers op licentietype' of welke andere weergave dan ook die u maar kunt bedenken. Voor meer informatie over het gebruik van de functie **Gegevensanalyse** gaat u naar [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md).
 
-### Scenario's voor gebruikersanalyse
+### <a name="user-analysis-scenarios"></a>Scenario's voor gebruikersanalyse
 
 In de volgende secties vindt u voorbeelden van scenario's waarin het analyseren van de gebruikerslijst u kan helpen bij het bewaken van de status van uw gebruikers.
 
@@ -184,7 +184,7 @@ In de volgende secties vindt u voorbeelden van scenario's waarin het analyseren 
 | [Gebruikers op status](#example-users-by-status) | Een lijst bekijken met gebruikers op basis van hun status (ingeschakeld/uitgeschakeld). | [Gebruikers](https://businesscentral.dynamics.com/?page=9800) | **Status**, **Gebruikersnaam**, **Volledige naam**, **Autorisatie-e-mail** en **Licentie type**. |
 | [Gebruikers per licentietype](#example-users-by-license-type) | Een lijst met gebruikers bekijken op basis van hun licentietype. | [Gebruikers](https://businesscentral.dynamics.com/?page=9800) | **Licentietype**, **Status**, **Gebruikersnaam**, **Volledige naam** en **Autorisatie-e-mail**. |
 
-### Voorbeeld: gebruikers op status
+### <a name="example-users-by-status"></a>Voorbeeld: gebruikers op status
 
 Volg deze stappen om gebruikers op status te analyseren:
 
@@ -198,7 +198,7 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source=" media/data-analysis-users.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina Wijzigingslogposten (wie heeft welke gegevens wanneer gewijzigd)." lightbox="media/data-analysis-users.png":::
 
-### Voorbeeld: gebruikers per licentietype
+### <a name="example-users-by-license-type"></a>Voorbeeld: gebruikers per licentietype
 
 Volg deze stappen om gebruikers op licentietype te analyseren:
 
@@ -208,7 +208,7 @@ Volg deze stappen om gebruikers op licentietype te analyseren:
 1. Kies de velden **Gebruikersnaam**, **Volledige naam** en **Autorisatie-e-mail**.
 1. Hernoem uw analysetabblad naar **Gebruikers op licentietype** of iets dat deze analyse voor u beschrijft.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
 [Profielen beheren](admin-users-profiles-roles.md)  

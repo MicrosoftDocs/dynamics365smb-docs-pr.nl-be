@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Overzicht van analyses, bedrijfsinformatie en rapportage
+# <a name="analytics-business-intelligence-and-reporting-overview"></a>Overzicht van analyses, bedrijfsinformatie en rapportage
 
 Kleine en middelgrote bedrijven vertrouwen op ingebouwde analyse- en rapportagemogelijkheden die ze kant-en-klaar kunnen gebruiken om hun bedrijf bij te houden. [!INCLUDE[prod_short](includes/prod_short.md)] biedt rapporten en analysetools die basis- en complexe bedrijfsprocessen voor dergelijke organisaties bestrijken. U kunt ook ad-hocanalyses rechtstreeks vanaf uw startpagina uitvoeren.  
 
-## Analysebehoefte in organisaties
+## <a name="analytics-needs-in-organizations"></a>Analysebehoefte in organisaties
 
 Bij het in kaart brengen van analysebehoeften in organisaties kan het helpen om een mentaal model te gebruiken dat gebaseerd is op persona's die op een hoog niveau worden beschreven en hun verschillende analysebehoeften.
 
@@ -34,7 +34,7 @@ Gebruik de volgende secties voor meer informatie over manieren om gegevens te ge
 - Ad-hocanalyse
 - Rapporten
 
-## Financiële rapporten gebruiken om financiële overzichten en KPI’s te produceren
+## <a name="using-financial-reports-to-produce-financial-statements-and-kpis"></a>Financiële rapporten gebruiken om financiële overzichten en KPI’s te produceren
 
 Financiële rapporten geven u inzicht in de financiële gegevens die in uw rekeningschema (COA) zijn opgeslagen. U kunt financiële rapporten instellen om cijfers in grootboekrekeningen (GB) te analyseren en grootboekposten te vergelijken met budgetposten.
 
@@ -44,7 +44,7 @@ Dimensies spelen een belangrijke rol bij bedrijfsinformatie. Een dimensie bestaa
 
 Voor meer informatie over financiële overzichten en KPI's gaat u naar [Financiële rapportage gebruiken om financiële overzichten en KPI's te produceren](bi.md).
 
-## KPI's gebruiken om uw bedrijfsdoelen te halen
+## <a name="using-key-performance-indicators-to-meet-your-business-goals"></a>KPI's gebruiken om uw bedrijfsdoelen te halen
 
 Een Key Performance Indicator (KPI) is een meetbare waarde die laat zien hoe effectief u uw doelen bereikt. Beschouw KPI's als de scorekaart van uw bedrijf, een manier om te meten of u uw doelstellingen wel haalt.
 
@@ -59,7 +59,7 @@ Door KPI's te identificeren en bij te houden, weet u of uw bedrijf op de goede w
 
 Meer informatie over KPI's vindt u in [KPI's gebruiken om uw bedrijfsdoelen te halen](./analytics-about-kpis.md)
 
-## Ad-hocgegevensanalyse
+## <a name="ad-hoc-data-analysis"></a>Ad-hocgegevensanalyse
 
 U wilt misschien gewoon controleren of de cijfers kloppen, snel een hypothese over het bedrijf bevestigen of ontkrachten, of op zoek gaan naar afwijkingen in uw financiële gegevens. Voor ad-hocanalyses beschikt u mogelijk niet over een ingebouwd rapport dat u helpt uw ​​vragen te beantwoorden. Gebruik deze twee functies voor ad-hocanalyses:
 
@@ -79,7 +79,7 @@ Op dezelfde manier kunt u de actie **Openen in Excel** gebruiken om een lijstpag
 
 Ga voor meer informatie over ad-hocanalyses naar [Ad-hocgegevensanalyse](reports-adhoc-analysis.md).
 
-## Rapporten
+## <a name="reports"></a>Rapporten
 
 Een rapport in [!INCLUDE[prod_short](includes/prod_short.md)] verzamelt informatie op basis van een gespecificeerde set criteria. Rapoorten organiseren en presenteren de informatie in een gemakkelijk te lezen formaat dat u kunt gebruiken in Excel, afdrukken of opslaan als een bestand.  
 
@@ -105,7 +105,7 @@ In de volgende tabel vindt u artikelen over het gebruik van ingebouwde rapporten
 | Meer informatie over de ingebouwde rapporten vindt u in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Rapportoverzicht](reports-available-reports.md)| 
 | Gebruik de Rapportverkenner om alle ingebouwde rapporten te bekijken. | [Rapporten per rol verkennen](ui-role-explorer.md) |
 
-## Externe bedrijfsinformatie- en rapportagetools
+## <a name="external-business-intelligence-and-reporting-tools"></a>Externe bedrijfsinformatie- en rapportagetools
 
 Als u wilt, kunt u business intelligence-tools gebruiken die niet zijn ingebed in [!INCLUDE[prod_short](includes/prod_short.md)]. De volgende tabel bevat koppelingen naar richtlijnen en manieren om externe hulpmiddelen te gebruiken.
 
@@ -117,7 +117,7 @@ Als u wilt, kunt u business intelligence-tools gebruiken die niet zijn ingebed i
 | Business Central-gegevens analyseren met Microsoft Fabric| [Inleiding bij Microsoft Fabric en Business Central](admin-fabric.md) |
 | Gegevens lezen uit Business Central met API's | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
-## Analyse per functioneel gebied
+## <a name="analytics-by-functional-area"></a>Analyse per functioneel gebied
 
 De inhoud van dit algemene artikel is voor veel functionele gebieden ook in speciale versies beschikbaar [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -129,7 +129,7 @@ De inhoud van dit algemene artikel is voor veel functionele gebieden ook in spec
 | Beheer van vaste activa | [Analyses van vaste activa](fa-analytics-overview.md) |
 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiële rapportage gebruiken om financiële overzichten en KPI’s te produceren](bi.md)  
 [KPI's gebruiken om uw bedrijfsdoelen te halen](analytics-about-kpis.md)  

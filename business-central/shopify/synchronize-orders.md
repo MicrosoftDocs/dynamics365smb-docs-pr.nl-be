@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ---
 
-# Verkooporders synchroniseren en uitvoeren
+# <a name="synchronize-and-fulfill-sales-orders"></a>Verkooporders synchroniseren en uitvoeren
 
 In dit artikel worden de benodigde instellingen en stappen beschreven die u moet uitvoeren om verkooporders te synchroniseren en af te handelen met Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## De import van orders instellen op de Shopify-winkelkaart
+## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>De import van orders instellen op de Shopify-winkelkaart
 
 Voer een **Valutacode** in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDE[prod_short](../includes/prod_short.md)], laat u het veld leeg. 
 
@@ -52,7 +52,7 @@ Geef een vestiging op voor retouren en grootboekrekeningen voor terugbetalingen 
 
 Lees meer op [Retouren en terugbetalingen](synchronize-orders.md#returns-and-refunds)
 
-### Toewijzing van verzendwijzen
+### <a name="shipment-method-mapping"></a>Toewijzing van verzendwijzen
 
 De **Code van verzendwijze** voor verkoopdocumenten die worden geïmporteerd uit Shopify; kan automatisch worden ingevuld. U moet de **Toewijzing van verzendwijzen** configureren.
 
@@ -65,7 +65,7 @@ De **Code van verzendwijze** voor verkoopdocumenten die worden geïmporteerd uit
 > [!NOTE]  
 > Als er meerdere verzendkosten aan een verkooporder zijn gekoppeld, wordt er slechts één geselecteerd als de verzendmethode en toegewezen aan het verkoopdocument.
 
-### Locatietoewijzing
+### <a name="location-mapping"></a>Locatietoewijzing
 
 De vestigingstoewijzing is vereist om de **Vestigingscode** in te vullen voor verkoopdocumentregels geïmporteerd uit Shopify. Dat is belangrijk wanneer de schakelaar **Vestiging verplicht** is ingeschakeld op de kaart **Voorraadinstellingen**, anders kunt u geen verkoopdocumenten maken.
 
@@ -78,7 +78,7 @@ De vestigingstoewijzing is vereist om de **Vestigingscode** in te vullen voor ve
 > [!NOTE]  
 > Locatietoewijzing wordt ook gebruikt om de inventaris te synchroniseren. Ga voor meer informatie naar [Voorraad synchroniseren aan Shopify](synchronize-items.md#sync-inventory-to-shopify).
   
-## De ordersynchronisatie uitvoeren
+## <a name="run-the-order-synchronization"></a>De ordersynchronisatie uitvoeren
 
 In de volgende procedure wordt beschreven hoe u de verkooporders importeert en bijwerkt.
 
@@ -102,7 +102,7 @@ U kunt ook zoeken naar de batchverwerking **Orders synchroniseren vanuit Shopify
 
 U kunt plannen dat de taak automatisch wordt uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
 
-### Onder de motorkap
+### <a name="under-the-hood"></a>Onder de motorkap
 
 De Shopify-connector importeert orders in twee stappen:
 
@@ -128,7 +128,7 @@ De pagina **Shopify - Te importeren orders** is handig voor het oplossen van pro
 * Verwerk alleen specifieke orders. U moet het veld **Winkelcode** invullen, een of meer orders selecteren en vervolgens de actie **Geselecteerde orders importeren** kiezen.
 * Verwijder orders van de pagina **Shopify - Te importeren orders** om ze uit te sluiten van de synchronisatie.
 
-## Geïmporteerde bestellingen bekijken
+## <a name="review-imported-orders"></a>Geïmporteerde bestellingen bekijken
 
 Zodra het importeren is voltooid, kunt u de Shopify-order verkennen en alle gerelateerde informatie zoeken, zoals de betalingstransacties, verzendkosten, risiconiveau, orderkenmerken en -tags of afhandelingen, als de order al is afgehandeld in Shopify. U kunt ook een orderbevestiging zien die naar de klant is verzonden door de actie **Shopify-statuspagina** te kiezen.
 
@@ -139,11 +139,11 @@ Voordat verkoopdocumenten worden aangemaakt in [!INCLUDE[prod_short](../includes
 
 U kunt een bestelling ook als betaald markeren, wat handig is in een B2B-scenario waarin betalingen buiten de Shopify-kassa worden verwerkt. Kies de actie **Markeren als betaald** op de pagina **Shopify-order**. U kunt een bestelling ook als geannuleerd markeren om het teruggaveproces in Shopify te starten. Kies de actie **Order annuleren** op de pagina **Shopify -order**, vul indien nodig de velden in op de pagina **Shopify-order annuleren** en druk op **OK**. U moet ordersynchronisatie uitvoeren om de updates te importeren naar [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## Verkoopdocument maken in Business Central
+## <a name="create-sales-documents-in-business-central"></a>Verkoopdocument maken in Business Central
 
 Als de schakelaar **Automatisch orders maken** is ingeschakeld op de **Shopify-winkelkaart**, probeert [!INCLUDE[prod_short](../includes/prod_short.md)] een verkoopdocument te maken nadat de order is geïmporteerd. Als er problemen optreden, zoals een ontbrekende klant of product, moet u de problemen oplossen en vervolgens de verkooporder opnieuw maken.
 
-### Verkoopdocumenten maken
+### <a name="to-create-sales-documents"></a>Verkoopdocumenten maken
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkels** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u orders wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
@@ -157,7 +157,7 @@ Er wordt een verkoopdocument gemaakt en het kan worden beheerd met behulp van de
 
 Als u een verkoopdocument opnieuw wilt maken, gebruikt u de actie **Verwerkte documenten ontkoppelen** op de pagina **Shopify-order**. Houd er rekening mee dat u met deze actie het reeds gemaakte verkoopdocument niet verwijdert. U moet het handmatig verwerken.
 
-### Ontbrekende klanten beheren
+### <a name="manage-missing-customers"></a>Ontbrekende klanten beheren
 
 Als uw instellingen voorkomen dat automatisch een klant wordt gemaakt en geen juiste overeenkomstige klant kan worden gevonden, moet u handmatig een klant toewijzen aan een Shopify-order. Er zijn een paar manieren om klanten aan orders toe te wijzen:
 
@@ -165,7 +165,7 @@ Als uw instellingen voorkomen dat automatisch een klant wordt gemaakt en geen ju
 * Selecteer een klantsjablooncode, maak vervolgens de klant en wijs deze toe via de actie **Nieuwe klant maken** op de pagina **Shopify-orders**. De Shopify-klant moet minimaal één adres hebben. Bij orders die u maakt via het verkoopkanaal Shopify POS ontbreken vaak adresgegevens.
 * Wijs een bestaande klant toe aan de gerelateerde **Shopify-klant** op de pagina **Shopify-klanten** en kies vervolgens de actie **Toewijzing zoeken** kiezen op de pagina **Shopify-orders**.
 
-### Hoe de connector kiest welke klant te gebruiken
+### <a name="how-the-connector-chooses-which-customer-to-use"></a>Hoe de connector kiest welke klant te gebruiken
 
 De functie *Order importeren uit Shopify* probeert de klant in de volgende volgorde te selecteren:
 
@@ -183,7 +183,7 @@ De volgende stappen zijn afhankelijk van het **Type klanttoewijzing**.
 
 Voor B2B-orders is de stroom vergelijkbaar, hoewel de connector de velden **Standaardbedrijfsnr.**, **Bedrijf importeren uit Shopify** en **Type bedrijfstoewijzing** op de pagina **Shopify-Winkelkaart** gebruikt. Merk op dat er geen **Standaardbedrijfsnr.** is. In de **Shopify -klantsjabloon** omdat bij B2B wordt verwacht dat klanten met naam worden aangegeven.
 
-### Verschillende verwerkingsregels voor orders
+### <a name="different-processing-rules-for-orders"></a>Verschillende verwerkingsregels voor orders
 
 Misschien wilt u orders anders verwerken op basis van een regel. Voor bestellingen van een specifiek verkoopkanaal, zoals POS, moet bijvoorbeeld de standaardklant worden gebruikt, maar u wilt dat uw online winkel echte informatie over de klant heeft.
 
@@ -205,7 +205,7 @@ Elke taakwachtrij importeert en verwerkt orders binnen de gedefinieerde filters 
 > [!Important]
 > Om conflicten bij het verwerken van orders te voorkomen moet u eraan denken dezelfde taakwachtrijcategorie te gebruiken voor beide taakwachtrij-items.
 
-### Impact van bewerkingen van orders
+### <a name="impact-of-order-editing"></a>Impact van bewerkingen van orders
 
 In Shopify:
 
@@ -237,7 +237,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 |De hoeveelheid verhogen. Verzending boeken | De afhandeling wordt niet gesynchroniseerd met Shopify. Hetzelfde als de afhandeling is opgesplitst in Shopify maar verwerkt als één regel in [!INCLUDE[prod_short](../includes/prod_short.md)]. |
 |Een nieuw artikel toevoegen. Verzending boeken | De Shopify-order wordt gemarkeerd als afgehandeld. Er worden geen nieuwe regels toegevoegd. |
 
-## Verzendingen synchroniseren met Shopify
+## <a name="synchronize-shipments-to-shopify"></a>Verzendingen synchroniseren met Shopify
 
 Wanneer een verkooporder die is gemaakt op basis van een Shopify-order, wordt verzonden, kunt u de verzendingen synchroniseren met Shopify.
 
@@ -256,7 +256,7 @@ U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie vo
 
 Vergeet niet **Orders synchroniseren vanuit Shopify** uit te voeren om de afhandelingsstatus van een order bij te werken in [!INCLUDE[prod_short](../includes/prod_short.md)]. De connectorfunctionaliteit archiveert ook volledig betaalde en afgehandelde orders in zowel Shopify als [!INCLUDE[prod_short](../includes/prod_short.md)], mits aan de voorwaarden is voldaan. 
 
-### Expediteurs en tracerings-URL
+### <a name="shipping-agents-and-tracking-url"></a>Expediteurs en tracerings-URL
 
 Als het document van de **geboekte verkoopverzending** de **Expediteurscode** en/of **Traceringsnummer (zending)** bevat, wordt deze informatie in de e-mail met de verzendbevestiging verzonden naar Shopify en naar de klant.
 
@@ -268,7 +268,7 @@ Het traceringsbedrijf wordt ingevuld in de volgende volgorde (van hoog naar laag
 
 Als het veld **Tracerings-URL van pakket** is ingevuld voor de expediteursrecord, bevat de verzendbevestiging ook een tracerings-URL.
 
-## Retouren en terugbetalingen
+## <a name="returns-and-refunds"></a>Retouren en terugbetalingen
 
 Bij een integratie tussen Shopify en [!INCLUDE[prod_short](../includes/prod_short.md)] is het belangrijk om zoveel mogelijk bedrijfsgegevens te kunnen synchroniseren. Dat maakt het gemakkelijker om uw financiën en voorraadniveaus up-to-date te houden in [!INCLUDE[prod_short](../includes/prod_short.md)]. De gegevens die u kunt synchroniseren, omvatten retouren en terugbetalingen die zijn geregistreerd in Shopify-beheer of Shopify POS.
 
@@ -290,7 +290,7 @@ U kunt verkoopcreditnota's voor terugbetalingen maken. De creditnota's kunnen de
 > [!Note]
 > De retourvestiging, inclusief lege vestigingen, gedefinieerd op de **Shopify-winkelkaart**, worden gebruikt op de gemaakte creditnota. Het systeem negeert de oorspronkelijke vestigingen van ordes of zendingen.
 
-## Geschenkbonnen
+## <a name="gift-cards"></a>Geschenkbonnen
 
 In de Shopify-winkel kunt u cadeaubonnen verkopen, die kunnen worden gebruikt om voor echte producten te betalen.
 
@@ -298,6 +298,6 @@ Bij het omgaan met cadeaubonnen is het belangrijk om een waarde in te voeren in 
 
 Om de uitgegeven en toegepaste cadeaubonnen te bekijken kiest u het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Geschenkbonnen** in en kiest u vervolgens de gerelateerde koppeling.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Aan de slag met de Shopify-connector](get-started.md)  

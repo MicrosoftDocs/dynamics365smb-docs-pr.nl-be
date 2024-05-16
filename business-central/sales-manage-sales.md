@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Verkopen
+# <a name="sales"></a>Verkopen
 
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.
 
@@ -34,7 +34,7 @@ Voor alle verkoopprocessen kunt u een goedkeuringswerkstroom inbouwen. Een goedk
 
 De volgende secties beschrijven een reeks taken, met koppelingen naar de artikelen waarin deze worden behandeld.
 
-## Aan de slag met verkoopmogelijkheden
+## <a name="get-started-with-sales-capabilities"></a>Aan de slag met verkoopmogelijkheden
 
 Voordat u gaat verkopen, geeft u aan hoe u de verkoopprocessen van uw bedrijf wilt beheren.
 
@@ -43,7 +43,7 @@ Voordat u gaat verkopen, geeft u aan hoe u de verkoopprocessen van uw bedrijf wi
 | Maak een klantenkaart voor elke klant aan wie u verkoopt.|[Nieuwe klanten registreren](sales-how-register-new-customers.md) |
 | Stel in hoe u verkoopt, zoals prijzen en kortingen, klantprijs- en kortingsgroepen, verkopers, verzendmethoden en agenten. | [Verkopen instellen](sales-setup-sales.md) |
 
-## Verkoopanalyses
+## <a name="sales-analytics"></a>Verkoopanalyses
 
 In dit gedeelte worden de analytische hulpmiddelen beschreven die u kunt gebruiken om inzicht te krijgen in uw verkoopgegevens.
 
@@ -53,7 +53,7 @@ In dit gedeelte worden de analytische hulpmiddelen beschreven die u kunt gebruik
 | Voer ad-hocanalyses uit van verkoopgegevens rechtstreeks op lijstpagina's en query's. | [Rapporten met verkoopanalyses maken](bi-how-create-analysis-views-reports.md) |
 | Ingebouwde verkooprapporten verkennen | [Ingebouwde verkooprapporten](sales-reports.md) |
 
-## Van offerte naar order naar verkoopfactuur
+## <a name="quote-to-order-to-sales-invoice"></a>Van offerte naar order naar verkoopfactuur
 
 In de volgende tabel wordt beschreven hoe u eenvoudige verkoopprocessen kunt gebruiken.
 
@@ -74,7 +74,7 @@ Als u complexere verkoopprocessen nodig heeft, vindt u in de volgende tabel arti
 |Factureer een klant één keer voor meerdere zendingen, door de zendingen te combineren op een factuur.|[Verzendingen combineren op één factuur](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Verkoop assemblageartikelen die momenteel niet beschikbaar zijn door een gekoppelde assemblageorder te maken. De assemblageorder kan de volledige of gedeeltelijke hoeveelheid van de verkooporder leveren.|[Assembleren voor order-artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md)|
 
-## Picken en verzenden
+## <a name="pick-and-ship"></a>Picken en verzenden
 
 In de volgende tabel wordt beschreven hoe u artikelen voor een verkooporder pickt en naar de klant verzendt.
 
@@ -86,7 +86,7 @@ In de volgende tabel wordt beschreven hoe u artikelen voor een verkooporder pick
 |Informeer klanten over orderleverdatums door berekening van ofwel de datum waarop het artikel beschikbaar is voor toezegging (ATP) of de datum waarop het artikel kan worden toegezegd (CTP).|[Ordertoezeggingsdatums berekenen](sales-how-to-calculate-order-promising-dates.md)|
 | Leer hoe u een pakket van een geboekte verkoopverzending kunt volgen. | [Pakketten traceren](sales-how-track-packages.md) |
 
-## Geannuleerde orders, terugbetalingen en retourzendingen
+## <a name="canceled-orders-refunds-and-returns"></a>Geannuleerde orders, terugbetalingen en retourzendingen
 
 In de volgende tabel wordt beschreven hoe u omgaat met geannuleerde orders, terugbetalingen en retourzendingen van goederen.
 
@@ -95,7 +95,7 @@ In de volgende tabel wordt beschreven hoe u omgaat met geannuleerde orders, teru
 | Voer een actie op een onbetaalde geboekte verkoopfactuur uit om automatisch een creditnota te maken en de verkoopfactuur te annuleren of opnieuw te maken zodat u correcties kunt aanbrengen. |[Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md) |
 | Maak een verkoopcreditnota om een bepaalde geboekte verkoopfactuur terug te boeken om de klantretouren en het terugbetalingsbedrag te weerspiegelen. |[Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md) |
 
-## Andere processen in verkoop
+## <a name="other-processes-in-sales"></a>Andere processen in verkoop
 
 In de volgende tabel wordt beschreven hoe u met andere verkoopprocessen werkt.
 
@@ -103,7 +103,7 @@ In de volgende tabel wordt beschreven hoe u met andere verkoopprocessen werkt.
 | --- | --- |
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde klant.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkopen instellen](sales-setup-sales.md)  
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)  
