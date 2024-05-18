@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="fixed-assets-analytics"></a>Analyse van vaste activa
+# Analyse van vaste activa
 
 Bedrijven met vaste activa verzamelen tijdens hun dagelijkse activiteiten veel gegevens over deze activa. Die gegevens ondersteunen waardevolle business intelligence (BI) voor beheerders van vaste activa:
 
@@ -36,7 +36,7 @@ Elke functie heeft voor- en nadelen, afhankelijk van het type gegevensanalyse en
 
 In dit artikel worden manieren beschreven waarop u deze analytische functies kunt gebruiken om inzicht te krijgen in uw vaste activa.
 
-## <a name="analytics-needs-in-asset-management"></a>Analytics-behoeften op het gebied van activamanagement
+## Analytics-behoeften op het gebied van activamanagement
 
 Bij het in kaart brengen van de analysebehoeften in activamanagement kan het helpen om een model te gebruiken dat gebaseerd is op persona's en dat hun analysebehoeften op een hoog niveau beschrijft.
 
@@ -52,14 +52,14 @@ Als het gaat om gegevens, hebben mensen in verschillende rollen verschillende be
 |Activabeheer/Controller   | Trends, overzichten | Ingebouwde managementrapporten <br> Ad-hocanalyse      | 
 |Boekhouder                      | Gedetailleerde gegevens     | Ingebouwde operationele rapporten <br> Taakgegevens op het scherm |
 
-## <a name="asset-management-kpis"></a>Activabeheer-KPI's
+## Activabeheer-KPI's
 
 Een Key Performance Indicator (KPI) is een meetbare waarde die laat zien hoe effectief u uw doelen bereikt. In activabeheer gebruiken mensen vaak de volgende KPI’s om het gebruik van activa in hun organisatie te monitoren:
 
 - Omzet totale activa
 - Rendement op activa
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-fixed-assets"></a>Financiële rapportage gebruiken om financiële overzichten en KPI’s te produceren in verband met vaste activa
+## Financiële rapportage gebruiken om financiële overzichten en KPI’s te produceren in verband met vaste activa
 
 De functie **Financiële rapportage** geeft u inzichten in de financiële gegevens die in uw rekeningschema zijn opgeslagen. U kunt financiële rapporten instellen om cijfers in grootboekrekeningen (GB) te analyseren en grootboekposten te vergelijken met budgetposten. Specifiek voor activamanagement kunt u financiële rapporten instellen voor de grootboekrekeningen die u gebruikt om vaste-activaboekingen bij te houden.
 
@@ -67,13 +67,13 @@ Dimensies spelen een belangrijke rol bij bedrijfsinformatie. Een dimensie bestaa
 
 Als u meer wilt weten over financiële rapportage, gaat u naar [Financiële rapporten voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-fixed-assets"></a>Financiële rapportage voor bedrijfsunits of rechtspersonen (in verband met vaste activa)
+## Financiële rapportage voor bedrijfsunits of rechtspersonen (in verband met vaste activa)
 
 Sommige organisaties gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in meerdere bedrijfsunits of rechtspersonen. Anderen gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in dochterondernemingen die rapporteren aan moederorganisaties. [!INCLUDE [prod_short](includes/prod_short.md)] geeft accountants tools waarmee ze grootboekposten van twee of meer bedrijven (dochterondernemingen) kunnen overbrengen naar een geconsolideerd bedrijf. Specifiek voor activabeheer wilt u mogelijk grootboekposten voor uw vaste-activarekeningen consolideren om vaste-activa-KPI's voor bedrijfsunits of rechtspersonen bij te kunnen houden.
 
 Ga naar [Bedrijfsconsolidatie](finance-consolidated-company-reporting.md) voor meer informatie.
 
-## <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Adhoc-analyse van vaste-activagegevens
+## Adhoc-analyse van vaste-activagegevens
 
 Soms hoeft u alleen maar te controleren of de getallen correct zijn, of snel een cijfer bevestigen. De volgende functies zijn ideaal voor ad-hocanalyses:
 
@@ -94,7 +94,7 @@ Op dezelfde manier kunt u de actie **Openen in Excel** gebruiken om een lijstpag
 Voor meer informatie over het uitvoeren van ad-hocanalyses van vaste-activagrootboeken zie [Ad-hocanalyse van vaste-activagegevens](ad-hoc-analysis-fa.md).
 
 
-## <a name="built-in-reports-for-fixed-assets"></a>Ingebouwde rapporten voor vaste activa
+## Ingebouwde rapporten voor vaste activa
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bevat verschillende ingebouwde rapporten, traceerfuncties en tools die auditors of controllers helpen die rapporteren over vaste activa.
 
@@ -109,7 +109,7 @@ Om een overzicht te krijgen van beschikbare rapporten kiest u **Alle rapporten**
 
 Voor meer informatie over rapporten die relevant zijn voor vaste activa, zie [Ingebouwde VA-rapporten](fa-reports.md).
 
-## <a name="on-screen-fixed-assets-analytics"></a>Analyse van vaste activa op het scherm
+## Analyse van vaste activa op het scherm
 
 [!INCLUDE [prod_short](includes/prod_short.md)] heeft een aantal pagina's waarop u VA-overzichten en taken kunt vinden. Hier zijn enkele voorbeelden om u op weg te helpen:
 
@@ -120,7 +120,7 @@ Voor meer informatie over rapporten die relevant zijn voor vaste activa, zie [In
 - [Buitengebruikstellingsposten weergeven](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 - [Voorspelde buitengebruikstellingswaarden weergeven](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
-### <a name="show-fixed-asset-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>VA-grootboekposten en -saldi weergeven via de pagina Rekeningschema
+### VA-grootboekposten en -saldi weergeven via de pagina Rekeningschema
 
 Op de pagina Rekeningschema worden alle grootboekrekeningen weergegeven met samengevoegde cijfers in het grootboek. Vanaf deze pagina kunt u het volgende doen:  
 
@@ -134,7 +134,7 @@ Specifiek voor vaste activa kunt u op de pagina Rekeningschema een weergave make
 
 Ga voor meer informatie naar [Het rekeningschema begrijpen](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-data-by-dimensions-related-to-fixed-assets"></a>Gegevens analyseren per dimensie (in verband met vaste activa)
+### Gegevens analyseren per dimensie (in verband met vaste activa)
 
 Dimensies zijn waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren in documenten, zoals VA-dagboeken. Dimensies kunnen bijvoorbeeld aangeven van welke afdeling of locatie een post afkomstig is.  
 
@@ -142,7 +142,7 @@ In plaats van voor elke afdeling of locatie aparte grootboekrekeningen in te ste
 
 Ga voor meer informatie naar [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiële rapportage verwerken voor verschillende bedrijfseenheden of rechtspersonen](finance-consolidated-company-reporting.md)  
 [Financiële rapporten voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md)  

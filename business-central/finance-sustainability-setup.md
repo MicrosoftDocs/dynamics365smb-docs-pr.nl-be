@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Duurzaamheidsinstelling
+# Duurzaamheidsinstelling  
 
 Om de Duurzaamheidsmodule goed te laten werken moet u eerst een aantal basisbedieningen en instructies instellen die betrekking hebben op de gehele functionaliteit.  
 
@@ -53,7 +53,7 @@ Om een ​​duurzaamheidsmodule op te zetten volgt u deze stappen:
 >[!NOTE]
 > In versie 24.0 ondersteunt [!INCLUDE[prod_short](includes/prod_short.md)] geen rapportage aan welke autoriteit dan ook. Dus een veld gerelateerd aan de configuratie op het sneltabblad **Rapportage** zal worden gebruikt voor toekomstige rapportagemogelijkheden, maar kan ook door partners in gelokaliseerde versies worden gebruikt.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Financiën](finance.md)  
 [Overzicht van duurzaamheidsbeheer](finance-manage-sustainability.md)    
 [Duurzaamheidsrekeningschema en -grootboek](finance-sustainability-accounts-ledger.md)    

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# <a name="analyze-list-page-and-query-data-using-data-analysis-feature"></a>Lijstpagina- en querygegevens analyseren met behulp van de gegevensanalysefunctie
+# Lijstpagina- en querygegevens analyseren met behulp van de gegevensanalysefunctie
 
 > **VAN TOEPASSING OP:** openbare preview in Business Central 2023 releasewave 1 en hoger voor het analyseren van lijstpagina's; algemeen beschikbaar in Business Central 2023 releasewave 2 voor het analyseren van gegevens van lijstpagina's en query's.
 
@@ -19,7 +19,7 @@ In dit artikel leert u hoe u de functie voor gegevensanalyse gebruikt vanaf lijs
 > [!TIP]
 > Het goede aan de functie voor gegevensanalyse is dat deze de onderliggende gegevens van een lijstpagina of query niet verandert. Het verandert ook de lay-out van de pagina of query niet als deze niet in de analysemodus staat. Dus de beste manier om te leren wat u kunt doen in de analysemodus, is door dingen uit te proberen.
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten
 
 - Als u [!INCLUDE [prod_short](includes/prod_short.md)] versie 22 gebruikt, is de gegevensanalysefunctie in preview. Een beheerder moet het dus inschakelen voordat u het kunt gebruiken. Om dit in te schakelen gaat u naar de pagina **Functiebeheer** en schakelt u **Functie-update: snel gegevens rechtstreeks in Business Central analyseren** in. [Meer informatie over functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - In versie 23 en hoger moet aan uw account de machtigingenset **DATA ANALYSIS - EXEC** zijn toegewezen of moet deze de uitvoermachtiging bevatten voor het systeemobject **9640 Gegevensanalysemodus toestaan**. Als beheerder kunt u deze machtigingen uitsluiten voor gebruikers die u geen toegang wilt hebben tot de analysemodus.
@@ -27,7 +27,7 @@ In dit artikel leert u hoe u de functie voor gegevensanalyse gebruikt vanaf lijs
 > [!NOTE]
 > Sommige lijstpagina's bieden niet de schakelaar **Analysemodus openen** voor het inschakelen van de analysemodus. De reden hiervoor is dat ontwikkelaars de analysemodus op specifieke pagina's kunnen uitschakelen door de [eigenschap AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL te gebruiken.
 
-## <a name="get-started"></a>Aan de slag
+## Aan de slag
 
 Volg deze stappen om de analysemodus te gaan gebruiken.
 
@@ -55,14 +55,14 @@ Volg deze stappen om de analysemodus te gaan gebruiken.
 > [!NOTE]
 > De gegevens die in de analysemodus worden weergegeven, worden beheerd door de filters of weergaven die op de lijstpagina zijn ingesteld. Hierdoor kunt u gegevens vooraf filteren voordat u naar de analysemodus gaat.
 
-## <a name="work-with-analysis-mode"></a>Werken met de analysemodus
+## Werken met de analysemodus
 
 In de analysemodus is de pagina verdeeld in twee gebieden:
 
 - Het hoofdgebied, dat bestaat uit het gegevensgebied (1), overzichtsbalk (2) en tabbladenbalk (5).
 - Het gebied voor gegevensmanipulatie, dat bestaat uit twee deelvensters: kolommen (3) en analysefilters (4).
 
-### <a name="data-area-1"></a>Gegevensgebied (1)
+### Gegevensgebied (1)
 
 In het gegevensgebied worden de rijen en kolommen van de lijstpaginaquery weergegeven en worden de gegevens samengevat. Het gegevensgebied biedt een veelzijdige manier om de lay-out van kolommen te regelen en een snelle manier om een samenvatting van de gegevens te krijgen. Voor kolommen die numerieke waarden bevatten, wordt de som van alle waarden in de kolom weergegeven in een laatste rij, tenzij u rijgroepen definieert. In dit geval verschijnen de sommen als een subtotaal voor de groepen.  
 
@@ -77,7 +77,7 @@ In het gegevensgebied worden de rijen en kolommen van de lijstpaginaquery weerge
 - Gebruik het gegevensgebied om met de gegevens te werken. Voor kolommen die numerieke, optelbare waarden bevatten, kunt u beschrijvende statistieken voor een reeks velden verkrijgen door ze te markeren. De statistieken verschijnen in de statusbalk (2) onder aan de pagina.
 - Exporteer gegevens in Excel- of csv-indeling. Klik met de rechtermuisknop op het gegevensgebied of een selectie van cellen om te exporteren.
 
-### <a name="summary-bar-2"></a>Overzichtsbalk (2)
+### Overzichtsbalk (2)
 
 De overzichtsbalk bevindt zich onder aan de pagina en geeft statistieken weer over de gegevens in de lijstpagina of query. Terwijl u werkt met kolommen waarvan de waarden kunnen worden opgeteld, zoals het selecteren van meerdere rijen in een kolom die bedragen bevat, worden de gegevens bijgewerkt.
 
@@ -96,7 +96,7 @@ De volgende tabel beschrijft de verschillende getallen die worden weergegeven in
 |Max|De maximale waarde in alle geselecteerde optelbare velden.|
 |Som|Het totaal van alle waarden in de geselecteerde optelbare velden.|
 
-### <a name="columns-3"></a>Kolommen (3)
+### Kolommen (3)
 
 **Kolommen** is een van de twee deelvensters die samenwerken om uw analyse te definiëren. Het andere gebied is het deelvenster **Analysefilters**. Het deelvenster **Kolommen** wordt gebruikt om de gegevens samen te vatten. Gebruik het deelvenster **Kolommen** om te definiëren welke kolommen in de analyse moeten worden opgenomen.
 
@@ -111,7 +111,7 @@ De volgende tabel beschrijft de verschillende getallen die worden weergegeven in
 
 Selecteer het grijppictogram om een veld van het ene gebied naar het andere te verplaatsen ![Toont de knop voor het oppakken van een veld in de analysemodus](media/column-grab-icon.png) naast de kolom in de bovenstaande lijst en sleep naar het doelgebied. U mag een veld niet verplaatsen naar een gebied waar het niet is toegestaan.
 
-### <a name="analysis-filters-4"></a>Analysefilters (4)
+### Analysefilters (4)
 
 Met het deelvenster **Analysefilters** kunt u verdere gegevensfilters op kolommen instellen om de vermeldingen in de lijst te beperken. Stel filters in op kolommen om de vermeldingen in de lijst en de daaropvolgende sommen te beperken tot alleen die vermeldingen waarin u bent geïnteresseerd op basis van een criterium dat u definieert. Stel dat u alleen geïnteresseerd bent in gegevens van een specifieke klant of verkooporders die een bepaald bedrag overschrijden. Om een filter in te stellen selecteert u de kolom, kiest u de vergelijkingsbewerking uit de lijst (zoals **Is gelijk aan** of **Begint met**) en voert u de waarde in.
 
@@ -120,7 +120,7 @@ Met het deelvenster **Analysefilters** kunt u verdere gegevensfilters op kolomme
 > [!NOTE]
 > De extra filters zijn alleen van toepassing op het huidige analysetabblad. Hierdoor kunt u precies de extra datafilters definiëren die nodig zijn voor een specifieke analyse.
 
-### <a name="tabs-5"></a>Tabbladen (5)
+### Tabbladen (5)
 
 In het tabbladengebied bovenaan kunt u verschillende configuraties (kolommen en analysefilters) maken op afzonderlijke tabbladen, waar u gegevens op de tabbladen onafhankelijk van elkaar kunt manipuleren. Er is altijd minimaal één tabblad, standaard genaamd **Analyse 1** . Het toevoegen van meer tabbladen is gunstig voor het opslaan van veelgebruikte analyseconfiguraties op een gegevensset. U kunt bijvoorbeeld tabbladen hebben voor het analyseren van gegevens in de draaimodus en andere tabbladen die filteren op een subset van rijen. Sommige tabbladen tonen mogelijk een gedetailleerde weergave met veel kolommen en andere geven slechts enkele sleutelkolommen weer.
 
@@ -138,7 +138,7 @@ Hier volgen enkele tips voor het werken met meerdere analysetabbladen:
    > De tabbladen die u instelt, zijn alleen voor u zichtbaar. Andere gebruikers zien alleen tabbladen die ze hebben ingesteld.
 - U kunt analysetabbladen kopiëren. Kopiëren kan bijvoorbeeld handig zijn als u wilt experimenteren met het wijzigen van een tabblad zonder het origineel te wijzigen. Kopiëren is ook handig als u verschillende varianten van dezelfde analyse wilt maken.
 
-## <a name="date-hierarchies"></a>Datumhiërarchieën
+## Datumhiërarchieën
 
 In de analysemodus worden datumvelden van de gegevensset gegenereerd in een jaar-kwartaal-maand-hiërarchie van drie afzonderlijke velden. Deze hiërarchie is gebaseerd op de normale kalender, niet op eventuele fiscale kalenders die zijn gedefinieerd in Business Central.
 
@@ -147,7 +147,7 @@ De extra velden heten *\<field name\> jaar*, *\<field name\> kwartaal* en *\<fie
 > [!NOTE]
 > De datumhiërarchie is momenteel alleen van toepassing op velden van het type datum, niet op velden van het type datumtijd.
 
-## <a name="pivot-mode"></a>Draaimodus
+## Draaimodus
 
 U kunt de draaimodus gebruiken om grote hoeveelheden numerieke gegevens te analyseren, waarbij gegevens worden opgeteld op categorieën en subcategorieën. De draaimodus is vergelijkbaar met [draaitabellen in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
@@ -167,7 +167,7 @@ Het opbouwen van de gegevensanalyse in de draaimodus omvat het verplaatsen van v
 > [!TIP]
 > Kolommen die maar een paar mogelijke waarden hebben, zijn de beste kandidaten voor gebruik in de kolom **Waarden**.
 
-## <a name="analyze-large-amounts-of-data"></a>Grote hoeveelheden gegevens analyseren
+## Grote hoeveelheden gegevens analyseren
 
 Als de gegevensset die u wilt analyseren groter is dan 100.000 rijen, wordt u aangeraden een analysemodus in te voeren die is geoptimaliseerd voor grote gegevenssets. Er zijn momenteel twee beperkingen als u naar deze modus overschakelt: 
 
@@ -181,7 +181,7 @@ Als de gegevensset die u wilt analyseren groter is dan 100.000 rijen, wordt u aa
 
    Als u de draaimodus inschakelt en een veld naar het gebied **Kolomlabels** sleept, waar de onderliggende gegevens voor dat veld te veel verschillende waarden hebben, reageert uw browsertabblad mogelijk niet meer. De browser wordt uiteindelijk gesloten, waardoor u opnieuw moet beginnen in een nieuwe sessie. In dit geval moet u niet op dat veld draaien of een filter op het veld instellen voordat u het toevoegt aan het gebied **Kolomlabels**.
 
-## <a name="share-data-analysis"></a>Gegevensanalyse delen
+## Gegevensanalyse delen
 
 Nadat u een analyse op een tabblad heeft voorbereid, kunt u deze rechtstreeks vanuit de client als koppeling delen met collega's en anderen in uw organisatie. Alleen ontvangers die machtiging hebben voor het bedrijf en de gegevens kunnen de koppeling gebruiken.
 
@@ -199,7 +199,7 @@ Nadat u een analyse op een tabblad heeft voorbereid, kunt u deze rechtstreeks va
 1. Plak de koppeling in de communicatiemedia van uw keuze, zoals Word, Outlook, Teams, OneNote, enzovoort.
 1. Na ontvangst kunnen ontvangers de koppeling selecteren en de analyse voor de pagina of query openen in [!INCLUDE [prod_short](includes/prod_short.md)]. Ze worden gevraagd een naam op te geven voor het nieuwe analysetabblad dat ze maken.  
 
-## <a name="examples-of-how-to-analyze-data"></a>Voorbeelden van het analyseren van gegevens
+## Voorbeelden van het analyseren van gegevens
 
 Gebruik de functie **Gegevensanalyse** voor snelle feitencontrole en ad-hocanalyse:
 
@@ -209,7 +209,7 @@ Gebruik de functie **Gegevensanalyse** voor snelle feitencontrole en ad-hocanaly
 
 De volgende secties geven voorbeelden van scenario's voor veel van de functionele gebieden in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="example-finance-accounts-receivables"></a>Voorbeeld: Financiën (Tegoeden)
+### Voorbeeld: Financiën (Tegoeden)
 
 Als u wilt zien wat uw klanten u verschuldigd zijn, wellicht uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald, doet u het volgende:
 
@@ -221,13 +221,13 @@ Als u wilt zien wat uw klanten u verschuldigd zijn, wellicht uitgesplitst in tij
 1. Als u de analyse wilt uitvoeren voor een bepaald jaar of kwartaal, past u een filter toe in het menu **Analysefilters** (aan de rechterkant onder het menu **Kolommen**).
 1. Hernoem uw analysetabblad naar **Oudere accounts per maand** of iets dat deze analyse beschrijft.
 
-### <a name="ad-hoc-data-analysis-examples-by-functional-area"></a>Voorbeelden van ad-hocgegevensanalyse per functioneel gebied
+### Voorbeelden van ad-hocgegevensanalyse per functioneel gebied
 
 Veel van de functionele gebieden in [!INCLUDE[prod_short](includes/prod_short.md)] hebben artikelen met voorbeelden van ad-hocgegevensanalyse.
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
-## <a name="limitations-in-2023-release-wave-1-preview"></a>Beperkingen in releasewave 1 van 2023 (preview)
+## Beperkingen in releasewave 1 van 2023 (preview)
 
 De openbare preview van deze functie heeft de volgende beperkingen:
 
@@ -235,7 +235,7 @@ De openbare preview van deze functie heeft de volgende beperkingen:
 - De functie voor het analyseren van gegevens voor delen is niet beschikbaar.
 - De mogelijkheid om voorkeurskeuzes voor gegevensanalyse op lijstpagina's op te slaan en analysemenu's per analysetabblad op te slaan, is momenteel niet beschikbaar.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Ad-hocgegevensanalyse per functioneel gebied](ad-hoc-data-analysis-by-functional-area.md)   
 [Ad-hocgegevensanalyse](reports-adhoc-analysis.md)  
