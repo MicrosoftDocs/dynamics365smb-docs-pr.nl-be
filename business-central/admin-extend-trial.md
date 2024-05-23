@@ -2,21 +2,22 @@
 title: Uw proefversie van Business Central verlengen
 description: 'Als u meer tijd nodig hebt om te bepalen of u een abonnement op Dynamics 365 Business Central wilt, kunt u uw proefversie eenmaal verlengen. Lees meer over uw opties.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hebt u meer tijd nodig om na te denken over een abonnement?
+# Hebt u meer tijd nodig om na te denken over een abonnement?
 
 Het is belangrijk de juiste bedrijfstoepassing te kiezen en we weten dat het tijd kost om alle aspecten van [!INCLUDE[prod_short](includes/prod_short.md)] te bekijken. Als u meer tijd nodig hebt om de evaluatie te voltooien, kunt u de proefperiode zelf nog eens 30 dagen verlengen. Wanneer de vervaldatum voor de proefperiode nadert, geven we een bericht weer om u te waarschuwen wanneer u zich aanmeldt. Het bericht bevat een koppeling naar de gids **Proefperiode verlengen**, die u kunt gebruiken om de proefperiode te verlengen. De extra 30 dagen starten op het moment dat u **Proef verlengen** kiest in de gids.
 
-U kunt slechts eenmaal de proefperiode zelf verlengen. U kunt deze niet tweemaal verlengen, althans niet zelf. Als u de periode al hebt verlengd, kan uw Microsoft-partner dat nog een keer voor u doen. Dat is ook eenmalig. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) als u nog niet met een partner werkt.  
+U kunt slechts eenmaal de proefperiode zelf verlengen. U kunt het niet tweemaal verlengen, althans niet zelf. Als u de periode al hebt verlengd, kan uw Microsoft-partner dat nog een keer voor u doen, maar dat is ook eenmalig. Zie [Hoe vind ik een partner-reseller?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) als u nog niet met een partner werkt.  
 
-## <a name="to-extend-your-trial-period"></a>Uw proefperiode verlengen
+## Uw proefperiode verlengen
 
 1. Meld u aan bij [!INCLUDE[prod_short](includes/prod_short.md)] op [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -30,21 +31,21 @@ U kunt slechts eenmaal de proefperiode zelf verlengen. U kunt deze niet tweemaal
 > [!TIP]
 > Als u de melding niet kunt zien, kunt u [!INCLUDE [prod_short](includes/prod_short.md)] dwingen de begeleide instelling **Proef verlengen** uit te voeren door de parameter ```?page=1828``` toe te voegen aan de URL, zoals in het volgende voorbeeld: [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
 
-## <a name="what-happens-if-my-trial-period-is-expired"></a>Wat gebeurt er als mijn proefperiode is verstreken?
+## Wat gebeurt er als mijn proefperiode is verstreken?
 
-Als uw eerste proefperiode van 30 dagen is verlopen, kunt u deze zelf verlengen, zoals hierboven beschreven. U kunt dan weer normaal werken. Meld u gewoon aan bij het demonstratiebedrijf en start de gids **Proefperiode verlengen** vanuit het bericht.  
+Als uw eerste proefperiode van 30 dagen is verstreken, kunt u deze zelf verlengen. Meld u gewoon aan bij het demonstratiebedrijf en start de gids **Proefperiode verlengen** vanuit het bericht.  
 
-Als u uw eigen bedrijf hebt gemaakt, meldt u zich af en vervolgens weer aan met de referenties voor dat bedrijf.  
+Nadat u uw eigen bedrijf hebt gemaakt, meldt u zich af en vervolgens weer aan met de referenties voor dat bedrijf.  
 
-Als uw organisatie een wederverkoperrelatie met een partner heeft opgebouwd, kunnen zij zich aanmelden bij uw [!INCLUDE[prod_short](includes/prod_short.md)] als gedelegeerde beheerder en dezelfde instelling **Proefperiode verlengen** uitvoeren. Zie voor meer informatie [Proeven verlengen (als beheerder)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
+Als uw organisatie een wederverkoperrelatie met een partner heeft opgebouwd, kunnen zij zich aanmelden bij uw [!INCLUDE[prod_short](includes/prod_short.md)] als gedelegeerde beheerder en dezelfde guide **Proefperiode verlengen** uitvoeren. Zie voor meer informatie [Proeven verlengen (als beheerder)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
 
-Na deze tweede verlenging die uw organisatie een proef van 90 dagen heeft gebracht, moet u zich echter abonneren op [!INCLUDE[prod_short](includes/prod_short.md)] of [!INCLUDE[prod_short](includes/prod_short.md)] opgeven. Als u besluit niet door te gaan, raden we u aan alle gegevens te exporteren waarop u in uw bedrijf vertrouwt.
+Nadat deze tweede verlenging uw organisatie een proef van maximaal 90 dagen heeft gegeven, moet u zich echter abonneren op [!INCLUDE[prod_short](includes/prod_short.md)] of stoppen met het gebruik ervan. Als u besluit niet door te gaan, raden we u aan alle gegevens te exporteren waarop u in uw bedrijf vertrouwt.
 
 Als uw verlengde proefperiode is verstreken, kunt u zich binnen 90 dagen [abonneren](https://go.microsoft.com/fwlink/?linkid=828659) op [!INCLUDE[prod_short](includes/prod_short.md)] en doorwerken in het bedrijf dat u hebt gemaakt. 90 dagen nadat de verlengde proefperiode is verlopen, zullen we uw bedrijf en gegevens verwijderen, tenzij u zich abonneert.  
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Proefversies en abonnementen (alleen Engels)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Nieuwe bedrijven maken](about-new-company.md)  

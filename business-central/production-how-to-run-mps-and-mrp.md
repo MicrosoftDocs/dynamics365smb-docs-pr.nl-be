@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.search.form: '99000852, 99000860'
 ms.date: 01/24/2024
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="run-full-planning-mps-or-mrp"></a>Volledige planning, MPS of MRP uitvoeren
+# Volledige planning, MPS of MRP uitvoeren
 
 De termen "planningsvoorstel uitvoeren" en "MRP uitvoeren" verwijzen naar het berekenen van het hoofdproductieschema en de benodigde materialen op basis van de werkelijke en de geprognosticeerde behoefte. De berekening is gebaseerd op de werkelijke en voorspelde vraag. Met het planningssysteem kan op verzoek de MPS (Master Production Schedule) of MRP (Material Requirements Planning) worden berekend, of beide tegelijk.  
 
@@ -23,7 +23,7 @@ U kunt de koppelingen die door de planningsengine tussen vraag en bijbehorend aa
 
 De juistheid van de planningsresultaten hangt af van de instellingen in de artikelkaarten, productiestuklijsten en bewerkingsplannen.  
 
-## <a name="methods-for-generating-a-plan"></a>Methoden voor het genereren van een plan
+## Methoden voor het genereren van een plan  
 
 - **Regeneratief plan berekenen:** het materiaalplan verwerken of regenereren. Dit proces begint met het verwijderen van alle geplande voorzieningenorders die op dat moment geladen zijn. Alle artikelen in de database worden herpland.  
 - **Mutatieplan berekenen**: een mutatieplan verwerken. Artikelen worden meegenomen in een mutatieplanning van twee soorten wijzigingen:  
@@ -38,7 +38,7 @@ Voor elke geplande methode, maakt [!INCLUDE[prod_short](includes/prod_short.md)]
 >
 > U kunt Planningsboodschappen ophalen uitvoeren tussen regeneratieve en netto wijzigingsplanningsruns om direct inzicht te krijgen in het effect van planningswijzigingen. Het is echter niet bedoeld om de volledige regeneratieve of netto veranderingsplanningsprocessen te vervangen.  
 
-## <a name="to-calculate-the-planning-worksheet"></a>Een planningsvoorstel berekenen
+## Een planningsvoorstel berekenen
   
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planningsvoorstellen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Regeneratief plan berekenen** om de pagina **Planning berekenen** te openen.  
@@ -58,7 +58,7 @@ Voor elke geplande methode, maakt [!INCLUDE[prod_short](includes/prod_short.md)]
 4. Op het sneltabblad **Artikel** kunt u filters instellen om de planning uit te voeren op basis van het artikel, de artikelomschrijving of de vestiging.  
 5. Kies de knop **Ok**. De batchverwerking wordt uitgevoerd en er worden planningsregels toegevoegd aan het planningsvoorstel.  
 
-## <a name="to-perform-action-messages"></a>Planningsboodschappen uitvoeren
+## Planningsboodschappen uitvoeren
   
 1. Kies op de pagina **Planningsvoorstel** de actie **Planningsboodschap uitvoeren**.  
 2. Op het sneltabblad **Opties** moet u opgeven hoe de voorzieningen gemaakt moeten worden. Vul de velden in zoals beschreven in de volgende tabel.  
@@ -77,7 +77,7 @@ Voor elke geplande methode, maakt [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Bij de batchverwerking worden de regels in het planningsvoorstel verwijderd nadat de planningsboodschap is uitgevoerd. De overige regels blijven in het planningsvoorstel staan totdat deze op een latere datum worden geaccepteerd of worden verwijderd. U kunt de regels ook handmatig verwijderen.  
 
-## <a name="action-messages"></a>Planningsboodschappen
+## Planningsboodschappen
   
 Planningsboodschappen worden afgegeven door het ordertraceringssysteem wanneer geen balans te verkrijgen is binnen het bestaande ordernetwerk. De berichten kunnen worden beschouwd als een suggestie aan u om wijzigingen te verwerken die zorgen voor een nieuwe balans tussen aanbod en vraag.  
 
@@ -100,7 +100,7 @@ Als reactie op een gebrek aan evenwichtigheid tussen voorzieningen en vraag word
 |**Herplannen en aantal wijzigen**|Als zowel de datums als de hoeveelheden van een order veranderen, moet u plannen in verband daarmee wijzigen. Bij het planningsboodschapproces worden beide acties - **Herplannen en Aantal wijzigen** - in één boodschap samengebracht, om ervoor te zorgen dat het evenwicht in het ordernetwerk wordt hersteld.|  
 |**Annuleren**|Als een vraag die wordt gedekt op basis van order-op-order wordt verwijderd, wordt de planningsboodschap gegenereerd om de bijbehorende aanvulorder te annuleren. Als de relatie niet order-op-order is, wordt de planningsboodschap voor wijziging gegenereerd om het aanbod te verminderen. Als door andere factoren, zoals voorraadherwaarderingen, een aanvulorder niet nodig is op het moment waarop u de planningsboodschappen genereert, suggereert [!INCLUDE[prod_short](includes/prod_short.md)] de planningsboodschap **Annuleren** in het voorstel.|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Gepland](production-planning.md)  
 [Productie instellen](production-configure-production-processes.md)  

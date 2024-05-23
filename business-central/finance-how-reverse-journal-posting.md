@@ -1,15 +1,15 @@
 ---
-title: Een boeking ongedaan maken door een tegenboeking te boeken
+title: Een boeking ongedaan maken door een tegenpost te boeken
 description: 'Als u een fout vindt in een geboekt dagboek, kunt u de actie Transactie storneren gebruiken om de boeking ongedaan te maken met een correcte audittrail.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken
+# Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken
 
 Tegenjournaalboekingen zijn bijvoorbeeld nuttig voor het corrigeren van fouten en het wissen van een oude transitoriapost voordat een nieuwe wordt ingevoerd. Een corrigerende post is hetzelfde als de oorspronkelijke post, maar heeft een tegenovergesteld teken in het veld **Bedrag**. De tegenboekingspost moet hetzelfde documentnummer en dezelfde boekingsdatum hebben als de oorspronkelijke post. Nadat een post is tegengeboekt, moet u de juiste post maken.
 
@@ -27,10 +27,8 @@ U kunt posten vanuit alle **Posten**-pagina's tegenboeken. De volgende procedure
 
 > [!NOTE]
 > De post moet afkomstig zijn uit een dagboekboeking.
->
-> U kunt ook geen posten tegenboeken die zijn ingevoerd met informatie uit een project, of die winsten en verliezen hebben gerealiseerd binnen dezelfde transactie.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekposten** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboekposten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de post die u wilt tegenboeken en kies vervolgens de actie **Transactie tegenboeken**.
 3. Kies op de pagina **Transactieposten tegenboeken** de actie **Tegenboeken**.
 4. Kies **Ja** om de tegenboeking te bevestigen.
@@ -84,9 +82,20 @@ De stappen zijn vergelijkbaar met de stappen voor geboekte ontvangsten.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
+## Een klanten- en leverancierspost ongedaan met een gerealiseerde winst- of verliespost
+
+U kunt de actie **Transactie tegenboeken** gebruiken om betalingen terug te boeken die zijn vereffend met posten die afkomstig zijn uit vreemde valuta's en die zijn aangepast met de batchverwerking Wisselkoersherwaardering. De functie werkt voor zowel aankopen als verkopen.
+
+Het volgende is een eenvoudig scenario dat illustreert hoe het werkt:
+
+1. Boek een verkoopfactuur voor een klant in een vreemde valuta.
+2. Pas de wisselkoers voor die valuta aan.
+3. Boek een betaling die met de factuur wordt vereffend.
+4. Maak de vereffening ongedaan en draai de betalingstransactie terug, bijvoorbeeld vanaf de pagina **Klantenposten**.
+
 ## Zie ook
 
-[Boeken van assemblage ongedaan maken](assembly-how-to-undo-assembly-posting.md)  
+[Assemblageboeking ongedaan maken](assembly-how-to-undo-assembly-posting.md)  
 [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Financiën](finance.md)  

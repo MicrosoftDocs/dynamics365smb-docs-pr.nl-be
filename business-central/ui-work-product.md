@@ -3,14 +3,14 @@ title: Werken met Business Central (bevat video)
 description: Beschrijft hoe u met gegevens kunt omgaan in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-"></a>Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
+# Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Terwijl u aan het werk bent in [!INCLUDE [prod_short](includes/prod_short.md)], communiceert u op verschillende manieren met gegevens. U kunt bijvoorbeeld records maken, gegevens invoeren, gegevens sorteren en filteren, notities schrijven en gegevens naar andere toepassingen exporteren.
 
@@ -24,14 +24,14 @@ Als u de horizontale schuifbalk wilt gebruiken om alle kolommen op een lijstpagi
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips en trucs
+## <a name="cheatsheet"></a>Tips en trucs
 
 > [!TIP]
 > Voor een printvriendelijk overzicht van de meest gebruikte functies kiest u de volgende afbeelding en downloadt u het PDF-bestand.
 >
 > [ ![Pictogram voor het PDF-bestand.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Pictogram dat een PDF opent")
 
-## <a name="links-to-learn-more"></a>Koppelingen voor meer informatie
+## Koppelingen voor meer informatie
 
 In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergegeven met koppelingen naar artikelen waarin deze worden beschreven.
 
@@ -57,13 +57,13 @@ In de volgende tabel wordt een gedeelte van de algemene functionaliteit weergege
 |Beheer de inhoud en opmaak van rapporten en documenten. Geef op welke veldgegevens u wilt opnemen en hoe deze worden weergegeven. Kies bijvoorbeeld een tekststijl, voeg afbeeldingen toe en meer.|[Rapport- en documentlay-outs beheren](ui-manage-report-layouts.md) |
 |Leer meer over functies die ervoor zorgen dat [!INCLUDE[prod_short](includes/prod_short.md)] toegankelijk is voor mensen met een beperking.|[Toegankelijkheid en sneltoetsen](ui-accessibility.md)|
 
-## <a name="getting-around-in-business-central"></a>Werken in Business Central
+## Werken in Business Central
 
 Hier volgt een korte video van hoe u werkt in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="choosing-a-desktop-browser"></a>Een desktopbrowser kiezen
+## Een desktopbrowser kiezen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt meerdere browsers en elke browser biedt verschillende functies. De browser speelt een belangrijke rol in het reactievermogen en de soepelheid van de gebruikersinterface. Bekijk de lijst met ondersteunde, aanbevolen browsers voor [Business Central online](./product-requirements.md) en browsers voor [Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -73,7 +73,7 @@ Hier volgt een korte video van hoe u werkt in [!INCLUDE[prod_short](includes/pro
     > Internet Explorer wordt niet langer ondersteund. Ga voor meer informatie naar [Microsoft Edge-documentatie](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Houd uw browser up-to-date met de nieuwste versie.
 
-## <a name="action-bars"></a>Actiebalken
+## Actiebalken
 
 Binnen [!INCLUDE [prod_short](includes/prod_short.md)] doet u het meeste van uw werk in een lijst, een document of een kaart. Alle pagina's hebben een balk met acties die voor hen relevant zijn. De acties zijn vrijwel hetzelfde voor de individuele kaart of document en de lijst met entiteiten. Op deze manier kunt u een individuele verkooporder beheren op de pagina **Verkooporder** en in de lijst **Verkooporders**, inclusief het boeken en factureren ervan.  
 
@@ -90,7 +90,7 @@ Wanneer u zoekt naar een lijstpagina en deze opent, zoals de lijst **Verkooporde
 
 Wanneer u dezelfde lijstpagina opent vanaf uw startpagina, is de actie **Beheren** niet beschikbaar. Kies in plaats daarvan om een individuele verkooporder te openen het veld **Aantal**. In deze weergave kunt u de actiebalk niet vastzetten.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Business Central instellen](setup.md)  

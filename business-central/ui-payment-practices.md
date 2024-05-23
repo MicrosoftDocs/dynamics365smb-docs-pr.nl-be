@@ -10,7 +10,7 @@ ms.date: 04/23/2024
 ms.author: altotovi
 --- 
 
-# <a name="payment-practices-report"></a>Rapport over betalingspraktijken
+# Rapport over betalingspraktijken  
 
 Sommige landen/regio's vereisen dat bedrijven betalingstijden voor hun leveranciers rapporteren, zoals gedefinieerd door de lokale autoriteiten. Deze rapportage kan gebaseerd zijn op verschillende bronnen en kan leveranciers sorteren op basis van hun omvang of gedefinieerde betalingsvoorwaarden, waardoor leveranciers rapportage kunnen krijgen over het volgende, zoals vereist door de lokale autoriteiten:  
 
@@ -23,7 +23,7 @@ Gebruikers kunnen de periode selecteren waarvoor ze een berekening willen uitvoe
 > [!NOTE]
 > Deze rapportage is tot nu toe in sommige landen/regio's vereist, maar dit is een wereldwijde functie en kan overal worden gebruikt. Momenteel moeten Zweedse bedrijven met 250 of meer werknemers elk jaar aan het Zweedse bedrijvenregistratiebureau rapporteren welke betalingstermijnen zij hebben voor aankopen bij bedrijven die kleiner zijn dan zijzelf. Soortgelijke handelingen bestaan ​​in het Verenigd Koninkrijk, Australië en Nieuw-Zeeland.  
 
-## <a name="generate-the-report"></a>Het rapport genereren
+## Het rapport genereren 
 
 Voer de volgende stappen uit om het rapport **Betalingspraktijken** uit te voeren:
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om het rapport **Betalingspraktijken** uit te voere
 6. Vanuit alle berekende velden kunt u dieper ingaan om te zien hoe dit resultaat is berekend. Hiervoor opent u de pagina **Lijst met gegevens over betalingsmethoden**.
 7. Als u het document wilt afdrukken, kunt u dit doen door de actie **Afdrukken** uit te voeren.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiële rapporten](finance-reports.md)  
 [Financiële overzichten analyseren in Microsoft Excel](finance-analyze-excel.md)  

@@ -3,18 +3,18 @@ title: De te synchroniseren tabellen en velden toewijzen
 description: Hier vindt u informatie over het toewijzen van tabellen en velden voor de synchronisatie van gegevens tussen Business Central en Microsoft Dataverse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/31/2023
 ms.custom: bap-template
 ms.search.keywords: 'sales, crm, integration, sync, synchronize, table mapping'
 ms.service: dynamics-365-business-central
 ---
-# <a name="mapping-the-tables-and-fields-to-synchronize"></a>De te synchroniseren tabellen en velden toewijzen
+# De te synchroniseren tabellen en velden toewijzen
 
 De basis voor de synchronisatie van gegevens is de toewijzing van de tabellen en velden in [!INCLUDE[prod_short](includes/prod_short.md)] aan tabellen en kolommen in [!INCLUDE[prod_short](includes/cds_long_md.md)], zodat de gegevens kunnen worden uitgewisseld. Toewijzing gebeurt via integratietabellen.
 
-## <a name="mapping-integration-tables"></a>Integratietabellen in kaart brengen
+## Integratietabellen in kaart brengen
 
 Een integratietabel is een tabel in de [!INCLUDE[prod_short](includes/prod_short.md)]-database die een tabel vertegenwoordigt, zoals een account, in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integratietabellen bevatten velden die overeenkomen met kolommen in de tabel voor de [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabel. De tabel Accountintegratie maakt bijvoorbeeld verbinding met de tabel Accounts in [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Voor elke tabel in [!INCLUDE[cds_short_md](includes/cds_short_md.md)] die u wilt synchroniseren met gegevens in [!INCLUDE[prod_short](includes/prod_short.md)], moet er een integratietabeltoewijzing zijn.
 
@@ -28,15 +28,15 @@ Wanneer u de verbinding tussen de apps maakt, stelt [!INCLUDE[prod_short](includ
 >
 > Om trage prestaties te voorkomen, kunt u op de pagina **Toewijzingen van integratietabellen** gebeurtenisgebaseerde gegevenssynchronisatie voor elke tabel in- of uitschakelen. Op gebeurtenissen gebaseerde synchronisatie is standaard ingeschakeld, zodat bestaande integraties niet worden beïnvloed. Uw beheerder kan het voor specifieke tabellen in- of uitschakelen.
 
-### <a name="additional-mappings"></a>Aanvullende toewijzingen
+### Aanvullende toewijzingen
 
 Betalingscondities, verzendmethoden en expediteurs kunnen veranderen en het kan belangrijk zijn om deze aan te kunnen passen. Als u de functie **Functie-update: zonder code aan optiesets toewijzen in Dataverse** inschakelt op de pagina [Functiebeheer](https://businesscentral.dynamics.com/?page=2610), kunt u handmatig integratietabeltoewijzingen toevoegen voor betalingsvoorwaarden (BETALINGSVOORWAARDEN), verzendmethoden (VERZENDMETHODE) en expediteurs (EXPEDITEUR). Deze toewijzing kan ervoor zorgen dat uw beleid hetzelfde is voor deze instellingen in [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-### <a name="synchronization-rules"></a>Synchronisatieregels
+### Synchronisatieregels
 
 Een integratietabeltoewijzing bevat ook regels die bepalen hoe integratie-synchronisatietaken records in een [!INCLUDE[prod_short](includes/prod_short.md)]-tabel en een tabel in [!INCLUDE[prod_short](includes/cds_long_md.md)] synchroniseren. Ga voor voorbeelden van regels voor een integratie met Sales naar [Synchronisatieregels](#synchronization-rules).
 
-### <a name="strategies-for-auto-resolving-conflicts"></a>Strategieën voor het automatisch oplossen van conflicten
+### Strategieën voor het automatisch oplossen van conflicten
 
 Gegevensconflicten kunnen gemakkelijk optreden wanneer bedrijfsapplicaties voortdurend gegevens uitwisselen. Iemand kan bijvoorbeeld een rij in een van de toepassingen of beide verwijderen of wijzigen. Om het aantal conflicten dat u handmatig moet oplossen te verminderen kunt u oplossingsstrategieën specificeren en [!INCLUDE[prod_short](includes/prod_short.md)] lost dan automatisch conflicten op volgens de regels in de strategieën.
 
@@ -48,7 +48,7 @@ In de kolom **Updateconflicten oplossen** kunt u ervoor kiezen om [!INCLUDE[prod
 
 Nadat u de strategie hebt gespecificeerd, kunt u op de pagina **Synchronisatiefouten met gekoppelde gegevens** de actie **Alles opnieuw proberen** kiezen om conflicten automatisch op te lossen.
 
-## <a name="mapping-integration-fields"></a>Integratievelden toewijzen
+## Integratievelden toewijzen
 
 Het toewijzen van tabellen is slechts de eerste stap. U moet ook de velden in de tabellen toewijzen. Integratieveldtoewijzingen koppelen velden in [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen aan overeenkomstige kolommen in [!INCLUDE[prod_short](includes/cds_long_md.md)] en bepalen of gegevens in elke tabel moeten worden gesynchroniseerd. De standaardtabeltoewijzing die [!INCLUDE[prod_short](includes/prod_short.md)] biedt, bevat veldtoewijzingen, maar u kunt deze desgewenst wijzigen. Zie [Tabeltoewijzingen weergeven](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-table-mappings) voor meer informatie.
 
@@ -57,15 +57,15 @@ Het toewijzen van tabellen is slechts de eerste stap. U moet ook de velden in de
 
 U kunt de velden handmatig toewijzen of u kunt het proces automatiseren door meerdere velden tegelijk toe te wijzen op basis van criteria voor het afstemmen van hun waarden. Voor meer informatie zie [Meerdere records koppelen op basis van veldwaardeovereenkomst](admin-how-to-couple-and-synchronize-records-manually.md).
 
-### <a name="handle-differences-in-field-values"></a>Omgaan met verschillen in veldwaarden
+### Omgaan met verschillen in veldwaarden
 
 Soms verschillen de waarden in de velden die u wilt toewijzen. In [!INCLUDE[crm_md](includes/crm_md.md)] is de taalcode voor de Verenigde Staten bijvoorbeeld 'V.S.', maar in [!INCLUDE[prod_short](includes/prod_short.md)] is het 'VS'. Dat betekent dat u de waarde moet transformeren wanneer u gegevens synchroniseert. Dit gebeurt door middel van transformatieregels die u voor de velden definieert. U definieert transformatieregels op de pagina **Toewijzingen van integratietabellen** door **Toewijzing** te kiezen en vervolgens **Velden**. Er zijn vooraf gedefinieerde regels beschikbaar, maar u kunt ook uw eigen regels maken. Zie [Transformatieregels](across-how-to-set-up-data-exchange-definitions.md#transformation-rules) voor meer informatie.
 
-### <a name="handle-missing-option-values"></a>Ontbrekende optiewaarden verwerken
+### Ontbrekende optiewaarden verwerken
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] bevat optiesetkolommen die waarden bieden die u kunt toewijzen aan [!INCLUDE[prod_short](includes/prod_short.md)]-velden van het type **Optie**, voor automatische synchronisatie. Tijdens synchronisatie worden niet-toegewezen opties genegeerd en worden de ontbrekende opties toegevoegd aan de gerelateerde [!INCLUDE[prod_short](includes/prod_short.md)]-tabel en toegevoegd aan de systeemtabel **Toewijzing van CDS-optie** om later handmatig af te handelen. Bijvoorbeeld door de ontbrekende opties in beide producten toe te voegen en vervolgens de toewijzing bij te werken. Zie voor meer informatie [Afhandeling van ontbrekende optiewaarden](admin-cds-missing-option-values.md).
 
-## <a name="couple-records"></a>Koppelrecords
+## Koppelrecords
 
 Koppeling koppelt rijen in [!INCLUDE[prod_short](includes/cds_long_md.md)] aan records in [!INCLUDE[prod_short](includes/prod_short.md)]. Bijvoorbeeld: accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)] worden meestal gekoppeld aan klanten in [!INCLUDE[prod_short](includes/prod_short.md)]. Records koppelen biedt de volgende voordelen:
 
@@ -74,7 +74,7 @@ Koppeling koppelt rijen in [!INCLUDE[prod_short](includes/cds_long_md.md)] aan r
 
 Koppelingen kunnen automatisch worden ingesteld met behulp van de synchronisatietaken of door de record handmatig te bewerken in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [Gegevens synchroniseren in [!INCLUDE[prod_short](includes/prod_short.md)] en [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md) en [Records handmatig koppelen en synchroniseren](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings) voor meer informatie.
 
-## <a name="filter-records-and-rows"></a>Records en rijen filteren
+## Records en rijen filteren  
 
 Als u niet alle rijen voor een bepaalde tabel in [!INCLUDE[prod_short](includes/cds_long_md.md)] of [!INCLUDE[prod_short](includes/prod_short.md)] wilt synchroniseren, kunt u filters instellen om de gegevens te beperken die worden gesynchroniseerd. U stelt filters in op de pagina **Toewijzingen van integratietabellen**.  
 
@@ -82,18 +82,18 @@ Als u niet alle rijen voor een bepaalde tabel in [!INCLUDE[prod_short](includes/
 2. Als u de [!INCLUDE[prod_short](includes/prod_short.md)]-records wilt filteren, stelt u het veld **Tabelfilter** in.  
 3. Als u de [!INCLUDE[prod_short](includes/cds_long_md.md)]-rijen wilt filteren, stelt u het veld **Filter integratietabel** in.  
 
-## <a name="create-new-records"></a>Nieuwe records maken
+## Nieuwe records maken  
 
 Standaard worden alleen records in [!INCLUDE[prod_short](includes/prod_short.md)] en rijen in [!INCLUDE[prod_short](includes/cds_long_md.md)] die zijn gekoppeld, door de integratiesynchronisatietaken gesynchroniseerd. U kunt tabeltoewijzingen zo instellen dat nieuwe records of rijen worden gemaakt op de bestemming (bijvoorbeeld [!INCLUDE[prod_short](includes/prod_short.md)]) voor elke rij in de bron (bijvoorbeeld [!INCLUDE[prod_short](includes/cds_long_md.md)]) die nog niet is gekoppeld.  
 
 De Dynamics 365 Sales-synchronisatietaak gebruikt bijvoorbeeld de tabeltoewijzing VERKOPERS. De synchronisatietaak kopieert gegevens uit gebruikers in [!INCLUDE[prod_short](includes/cds_long_md.md)] naar verkopers in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de tabeltoewijzing instelt om nieuwe records te maken, wordt voor elke gebruiker in [!INCLUDE[prod_short](includes/cds_long_md.md)] die niet al is gekoppeld aan een verkoper in [!INCLUDE[prod_short](includes/prod_short.md)], een nieuwe verkopersrij gemaakt in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-create-new-records-during-synchronization"></a>Nieuwe records maken tijdens synchronisatie
+### Nieuwe records maken tijdens synchronisatie  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Toewijzingen van integratietabellen** in en kies vervolgens de gerelateerde koppeling.
 2. Wis in het tabeltoewijzingsitem in de lijst het veld **Alleen gekoppelde records synchr.**.  
 
-## <a name="use-configuration-templates-on-table-mappings"></a>Configuratiesjablonen gebruiken met tabeltoewijzingen
+## Configuratiesjablonen gebruiken met tabeltoewijzingen
 
 U kunt configuratiesjablonen aan tabeltoewijzingen toewijzen om te gebruiken voor nieuwe records of rijen die worden gemaakt in [!INCLUDE[prod_short](includes/prod_short.md)] of [!INCLUDE[prod_short](includes/cds_long_md.md)]. Voor elke tabeltoewijzing kunt u een configuratiesjabloon opgeven voor nieuwe [!INCLUDE[prod_short](includes/prod_short.md)]-records en een andere sjabloon om nieuwe [!INCLUDE[prod_short](includes/cds_long_md.md)]-rijen te gebruiken.  
 
@@ -105,13 +105,13 @@ Als u de standaardsynchronisatie-instelling installeert, worden meestal automati
 
 * **CDSACCOUNT** maakt en synchroniseert nieuwe accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)] op basis van een account in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Configuratiesjablonen opgeven voor een tabeltoewijzing
+### Configuratiesjablonen opgeven voor een tabeltoewijzing  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Toewijzingen van integratietabellen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies in de tabeltoewijzingspost in de lijst in het veld **Sjablooncode voor tabelconfiguratie** de configuratiesjabloon die moet worden gebruikt voor nieuwe records in [!INCLUDE[prod_short](includes/prod_short.md)].  
 3. Stel het veld **Sjablooncode voor int. tabelconfig.** in op de configuratiesjabloon die moet worden gebruikt voor nieuwe records in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Over integratie van Dynamics 365 Business Central met [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md )  
 [Gegevens synchroniseren in Business Central en [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  

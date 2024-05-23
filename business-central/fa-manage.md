@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Vaste activa beheren
+# Vaste activa beheren
 
 De functionaliteit voor vaste activa in [!INCLUDE[prod_short](includes/prod_short.md)] biedt een overzicht van uw vaste activa en helpt zorgen dat de afschrijving ervan klopt. U kunt hiermee ook uw onderhoudskosten bijhouden, verzekeringspolissen beheren, transacties voor vaste activa boeken en verschillende rapporten en statistieken genereren.
 
-## <a name="video-overview"></a>Video-overzicht
+## Video-overzicht
 
 De volgende video behandelt de basisprincipes van vaste activa:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="initial-setup-of-fixed-assets"></a>Initiële instelling van vaste activa
+## Initiële instelling van vaste activa
 
 Voordat u vaste activa kunt beheren, moet u de volgende instellingen voltooien:
 
@@ -34,7 +34,7 @@ Voordat u vaste activa kunt beheren, moet u de volgende instellingen voltooien:
 
 Ga voor informatie naar [Vaste activa instellen](fa-setup.md).
 
-## <a name="fixed-assets-analytics"></a>Analyses van vaste activa
+## Analyses van vaste activa
 
 In dit gedeelte worden de analytische hulpmiddelen beschreven die u kunt gebruiken om inzicht te krijgen in gegevens over uw vaste activa.
 
@@ -48,7 +48,7 @@ In dit gedeelte worden de analytische hulpmiddelen beschreven die u kunt gebruik
 | Buitengebruikstellingsposten bekijken. | [Buitengebruikstellingsposten weergeven](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Geschatte buitengebruikstellingswaarden bekijken. | [Voorspelde buitengebruikstellingswaarden weergeven](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="register-fixed-assets"></a>Vaste activa registreren
+## Vaste activa registreren
 
 Voor elk vast activum moet u een kaart maken met informatie erover. Gebouwen of productiemateriaal kunnen bijvoorbeeld als hoofdactivum worden ingesteld, met een onderdelenlijst. U kunt activa op verschillende manieren groeperen, bijvoorbeeld per klasse, afdeling of vestiging. Vervolgens kunt u beginnen met het aanschaffen, onderhouden en verkopen van de vaste activa. U kunt ook gebudgetteerde activa instellen. Met budgettering kunt u verwachte aan- en verkopen opnemen in rapporten.
 
@@ -57,7 +57,7 @@ Voor elk vast activum moet u een kaart maken met informatie erover. Gebouwen of 
 | Budgetten voor vaste activa beheren, aanschafkosten budgetteren, buitengebruikstellingen van vaste activa budgetteren en afschrijving budgetteren. |[Budgetten voor vaste activa beheren](fa-how-manage-budgets.md) |
 | Vaste activa maken, afschrijvingsmethoden toewijzen, aankopen boeken, restwaarden boeken en VA-lijsten afdrukken. |[Vaste activa aanschaffen](fa-how-acquire.md) |
 
-## <a name="set-up-depreciations-for-your-fixed-assets"></a>Afschrijvingen instellen voor uw vaste activa
+## Afschrijvingen instellen voor uw vaste activa
 
 Om afschrijvingen van vaste activa en andere financiële transacties voor vaste activa bij te houden, kunt u een of meer afschrijvingsboeken voor elk vast activum instellen. Er zijn een aantal stappen voor het afschrijven van activa:
 
@@ -74,7 +74,7 @@ Om afschrijvingen van vaste activa en andere financiële transacties voor vaste 
 | Gewijzigde afschrijvingsboekwaarden bekijken. | [Gewijzigde afschrijvingsboekwaarden weergeven](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Registreer vaste activa handmatig op de pagina **Financieel dagboek voor vaste activa** of op de pagina **VA-dagboek**, afhankelijk van de vraag of de transacties zijn bedoeld voor financiële rapportage of intern beheer. | [Afschrijving van vaste activa instellen](fa-how-setup-depreciation.md) |
 
-## <a name="fixed-assets-maintenance-and-insurance"></a>Onderhoud en verzekering van vaste activa
+## Onderhoud en verzekering van vaste activa
 
 Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastleggen. Het bijhouden van onderhoudskosten is belangrijk voor budgetdoeleinden en bij het maken van een beslissing over het al dan niet vervangen van een vast activum. U kunt elk vast activum koppelen aan een of meer verzekeringspolissen en controleren of de polispremies overeenkomen met de waarde van de activa.
 
@@ -85,7 +85,7 @@ Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastl
 | Verzekeringsinformatie bijwerken, aanschafkosten boeken naar verzekeringspolissen, verzekeringsdekking wijzigen, verzekeringsstatistieken bekijken en een lijst met verzekeringspolissen weergeven. |[Vaste activa verzekeren](fa-how-insure.md) |
 | Verzekeringsdekking controleren. | [Verzekeringsdekking controleren](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Vaste activa herclassificeren, overdragen, opsplitsen/combineren, van waarde aanpassen, afschrijven en afstoten
+## Vaste activa herclassificeren, overdragen, opsplitsen/combineren, van waarde aanpassen, afschrijven en afstoten
 
 | Tot  | Zie |
 | --- | --- |
@@ -95,7 +95,7 @@ Voor elk activum kunt u de onderhoudskosten en de volgende onderhoudsbeurt vastl
 | Buitengebruikstellingsposten bekijken. | [Buitengebruikstellingsposten weergeven](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Geschatte buitengebruikstellingswaarden bekijken. | [Voorspelde buitengebruikstellingswaarden weergeven](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Vaste activa instellen](fa-setup.md)  
 [Overzicht van VA-analyse](fa-analytics-overview.md)  

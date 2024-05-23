@@ -10,7 +10,7 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchasing"></a>Inkopen
+# Inkopen
 
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u een voorraad moeten controleren, worden inkoopfacturen ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
 
@@ -24,7 +24,7 @@ Voor alle inkoopprocessen kunt u een goedkeuringswerkstroom opnemen, bijvoorbeel
 
 De volgende secties beschrijven een reeks taken, met koppelingen naar de artikelen waarin deze worden behandeld.
 
-## <a name="get-started-with-purchase-capabilities"></a>Aan de slag met inkoopmogelijkheden
+## Aan de slag met inkoopmogelijkheden
 
 Voordat u goederen koopt, geeft u aan hoe u de inkoopprocessen van uw bedrijf wilt beheren.
 
@@ -33,7 +33,7 @@ Voordat u goederen koopt, geeft u aan hoe u de inkoopprocessen van uw bedrijf wi
 | De regels en waarden configureren die het inkoopbeleid van uw bedrijf bepalen. | [Inkoop instellen](purchasing-setup-purchasing.md) |
 | Elke leverancier van wie u inkoopt, registreren met een leverancierskaart. | [Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md) |
 
-## <a name="purchase-analytics"></a>Inkoopanalyses
+## Inkoopanalyses
 
 In dit gedeelte worden de analytische hulpmiddelen beschreven die u kunt gebruiken om inzicht te krijgen in uw inkoopprocessen.
 
@@ -43,7 +43,7 @@ In dit gedeelte worden de analytische hulpmiddelen beschreven die u kunt gebruik
 | Voer ad-hocanalyses uit van inkoopgegevens rechtstreeks op lijstpagina's en query's. | [Adhoc-analyse van inkoopgegevens](ad-hoc-analysis-purchasing.md) |
 | Ingebouwde inkooprapporten verkennen | [Ingebouwde inkooprapporten](purchase-reports.md) |
 
-## <a name="quote-to-order-to-purchase-invoice"></a>Van offerte naar order naar inkoopfactuur
+## Van offerte naar order naar inkoopfactuur
 
 In de volgende tabel wordt beschreven hoe u eenvoudige inkoopprocessen kunt gebruiken.
 
@@ -64,7 +64,7 @@ Als u complexere inkoopprocessen nodig heeft, vindt u in de volgende tabel artik
 |Beheer uw toezegging aan een leverancier om grote hoeveelheden te kopen die in meerdere verzendingen worden geleverd.|[Werken met inkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)|
 
 
-## <a name="canceled-orders-refunds-and-returns"></a>Geannuleerde orders, terugbetalingen en retourzendingen
+## Geannuleerde orders, terugbetalingen en retourzendingen
 
 In de volgende tabel wordt beschreven hoe u omgaat met geannuleerde orders, terugbetalingen en retourzendingen van goederen die u inkoopt.
 
@@ -74,7 +74,7 @@ In de volgende tabel wordt beschreven hoe u omgaat met geannuleerde orders, teru
 |Converteer bijvoorbeeld elektronische facturen van uw leveranciers naar inkoopfacturen in Business Central.|[Elektronische documenten ontvangen en converteren](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
 
-## <a name="other-processes-in-sales"></a>Andere processen in verkoop
+## Andere processen in verkoop
 
 In de volgende tabel wordt beschreven hoe u met andere inkoopprocessen werkt.
 
@@ -83,11 +83,11 @@ In de volgende tabel wordt beschreven hoe u met andere inkoopprocessen werkt.
 |Los verwarring op wanneer twee of meer records bestaan voor dezelfde leverancier.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 
 
-## <a name="external-document-numbers"></a>Externe documentnummers
+## Externe documentnummers
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inkoop instellen](purchasing-setup-purchasing.md)  
 [Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md)  

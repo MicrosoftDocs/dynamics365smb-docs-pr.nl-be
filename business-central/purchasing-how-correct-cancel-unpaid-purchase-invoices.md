@@ -10,7 +10,7 @@ ms.search.form: '138, 140, 146'
 ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Niet-betaalde inkoopfacturen corrigeren of annuleren
+# Niet-betaalde inkoopfacturen corrigeren of annuleren
 
 U kunt een geboekte inkoopfactuur corrigeren of annuleren. Dit is handig als u een typefout wilt corrigeren of als u de aankoop in het begin van het orderproces wilt wijzigen.
 
@@ -20,7 +20,7 @@ Op de pagina **Geboekte inkoopfacturen** kunt u de knop **Corrigeren** of de kno
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
-## <a name="to-correct-a-posted-purchase-invoice"></a>Een geboekte inkoopfactuur corrigeren
+## Een geboekte inkoopfactuur corrigeren
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de geboekte inkoopfactuur die u wilt corrigeren.  
@@ -34,7 +34,7 @@ Op de pagina **Geboekte inkoopfacturen** kunt u de knop **Corrigeren** of de kno
     Een inkoopcreditnota wordt automatisch gemaakt en geboekt om de oorspronkelijke geboekte inkoopfactuur nietig te verklaren.
 4. Kies **Corrigerende creditnota tonen** om de geboekte inkoopcreditnota weer te geven die de in eerste instantie geboekte inkoopfactuur nietig verklaart.
 
-## <a name="to-cancel-a-posted-purchase-invoice"></a>Een geboekte inkoopfactuur annuleren
+## Een geboekte inkoopfactuur annuleren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de geboekte inkoopfactuur die u wilt annuleren.
@@ -46,11 +46,11 @@ Op de pagina **Geboekte inkoopfacturen** kunt u de knop **Corrigeren** of de kno
     Een inkoopcreditnota wordt automatisch gemaakt en geboekt om de oorspronkelijke geboekte inkoopfactuur nietig te verklaren. Het veld **Geannuleerd** op de eerste geboekte inkoopfactuur is gewijzigd in **Ja**.
 4. Kies **Corrigerende creditnota tonen** om de geboekte inkoopcreditnota weer te geven die de in eerste instantie geboekte inkoopfactuur nietig verklaart.
 
-### <a name="partial-invoice-posting-also-supported"></a>Gedeeltelijke factuurboeking wordt ook ondersteund
+### Gedeeltelijke factuurboeking wordt ook ondersteund
 
 Als de annulering betrekking heeft op een gedeeltelijke factuurboeking, wordt de oorspronkelijke inkooporderregel bijgewerkt om de geannuleerde gefactureerde hoeveelheid weer te geven. De velden **Te factureren aantal** en **Aantal gefactureerd** op de gerelateerde inkooporderregel worden opnieuw ingesteld op de waarden vóór de gedeeltelijke boeking.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  

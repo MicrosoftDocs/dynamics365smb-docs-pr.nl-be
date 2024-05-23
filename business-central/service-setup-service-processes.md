@@ -3,7 +3,7 @@ title: Servicebeheerprocessen instellen
 description: Leer hoe u processen instelt om ervoor te zorgen dat uw klanten tevreden zijn over uw services.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 02/27/2024
@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="configure-service-management-processes"></a>Processen voor servicebeheer configureren
+# Processen voor servicebeheer configureren
 
 Hier volgende enkele voorbeelden van de instellingen die u op processen voor servicebeheer kunt toepassen:  
   
@@ -21,12 +21,12 @@ Hier volgende enkele voorbeelden van de instellingen die u op processen voor ser
 * Instellingen voor contracten, zoals het maximumaantal dagen dat u voor contractserviceorders kunt gebruiken, of er redencodes moeten worden gebruikt wanneer een contract wordt geannuleerd, standaardteksten voor omschrijvingen en contractwaarden.  
 * De nummerreeksen die moeten worden gebruikt voor servicegerelateerde documenten en artikelen.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a>Algemene en verplichte instellingen opgeven
+## Algemene en verplichte instellingen opgeven
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicebeheerinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="set-up-service-invoice-posting-policies-for-users"></a>Boekingsbeleid voor servicefacturen instellen voor gebruikers
+## Boekingsbeleid voor servicefacturen instellen voor gebruikers
 
 Bedrijven hebben vaak unieke processen voor facturen en zendingen. Processen kunnen bijvoorbeeld variëren van één persoon die alles op een serviceorder plaatst tot meerdere medewerkers die elk met hun eigen pagina's werken.
 
@@ -55,7 +55,7 @@ De volgende tabel beschrijft de effecten op verschillende documenten.
 > [!NOTE]
 > Wanneer u servicefacturen en creditnota's boekt, hebt u geen boekingsopties. De documenten boeken altijd fysieke en financiële transacties samen. U kunt servicefacturen en creditnota's niet gedeeltelijk boeken.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Foutrapportage instellen](service-how-setup-fault-reporting.md)  
 [Resourcetoewijzing instellen](service-how-setup-resource-allocation.md)  

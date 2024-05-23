@@ -7,11 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 02/08/2023
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="assign-permissions-to-users-and-groups"></a>Machtigingen toewijzen aan gebruikers en groepen
+# Machtigingen toewijzen aan gebruikers en groepen
 
 [!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
@@ -47,7 +48,7 @@ Zie voor meer informatie [Gedelegeerde beheerderstoegang tot Business Central On
 >
 > U kunt ook definiëren welke functies voor gebruikers beschikbaar zijn en hoe ze ermee omgaan op pagina's. Dit doet u door middel van profielen die u toewijst aan verschillende soorten gebruikers, afhankelijk van hun functie of afdeling. Zie voor meer informatie [Profielen beheren](admin-users-profiles-roles.md) en [Aanpassen [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
-## <a name="create-a-permission-set"></a>Een machtigingenset maken
+## Een machtigingenset maken
 
 > [!NOTE]
 > In releasewave 2 van 2022 hebben we het gemakkelijker gemaakt om machtigingen toe te voegen aan machtigingensets. In plaats van afzonderlijke machtigingen toe te voegen, kunt u volledige machtigingensets toevoegen. Indien nodig kunt u vervolgens individuele machtigingen daarin uitsluiten. Zie [Andere machtigingensets toewijzen](#to-add-other-permission-sets) voor meer informatie. Om dat mogelijk te maken, hebben we de pagina Machtigingenset vervangen door een nieuwe. De belangrijkste verschillen zijn de nieuwe deelvensters **Machtigingensets** en **Resultaten** en het feitenblok **Opgenomen machtigingen**. Om door te gaan met het gebruiken van de vervangen pagina **Machtigingensets** kiest u de actie **Machtigingen (verouderd)**.
@@ -90,13 +91,13 @@ Het onderhoud is ook gemakkelijker. Wanneer u een systeemmachtiging toevoegt, wo
 > [!IMPORTANT]
 > Wees voorzichtig bij het toewijzen van **Invoegmachtiging** of **Wijzigmachtiging** aan de tabel **9001 Gebruikersgroepslid** of **9003 Machtigingenset van gebruikersgroep**. Alle gebruikers die aan de machtigingenset zijn toegewezen, kunnen zichzelf mogelijk toewijzen aan andere gebruikersgroepen, die hen op hun beurt onbedoelde machtigingen kunnen geven.
 
-### <a name="example---indirect-permission"></a>Voorbeeld: indirecte machtiging
+### Voorbeeld: indirecte machtiging
 
 U kunt een indirecte machtiging toewijzen om een gebruiker toe te staan een object te gebruiken, maar alleen door middel van een ander object. Een gebruiker kan bijvoorbeeld de machtiging hebben om codeunit 80, Verkoop-boeken uit te voeren. De codeunit Verkoop-boeken voert veel taken uit, waaronder het wijzigen van tabel 37, Inkoopregel. Wanneer de gebruiker een verkoopdocument boekt met de codeunit Verkoop-boeken, controleert [!INCLUDE[prod_short](includes/prod_short.md)] of de gebruiker de machtiging heeft om de tabel Verkoopregel te wijzigen. Als dat niet het geval is, kan de codeunit de taken niet uitvoeren en ontvangt de gebruiker een foutmelding. Indien dit wel zo is, wordt de codeunit uitgevoerd.
 
 De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel Inkoopregel om de codeunit uit te voeren. Als de gebruiker een indirecte machtiging heeft voor de tabel Verkoopregel, kan de codeunit Verkoop-boeken worden uitgevoerd. Wanneer een gebruiker een indirecte machtiging heeft, kan die gebruiker enkel de tabel Inkoopregel wijzigen door de codeunit Verkoop-boeken of een ander object uit te voeren dat de machtiging heeft om de tabel Inkoopregel te wijzigen. De gebruiker kan alleen de tabel Inkoopregel wijzigen vanuit de ondersteunde toepassingsgebieden. De gebruiker kan de functie niet per ongeluk of opzettelijk op andere manieren uitvoeren.
 
-### <a name="to-add-other-permission-sets"></a>Andere machtigingensets toevoegen
+### Andere machtigingensets toevoegen
 
 Breid een machtigingenset uit door er andere machtigingensets aan toe te voegen. Daarna kunt u specifieke machtigingen of volledige machtigingensets opnemen of uitsluiten in elke set die u toevoegt. Dit omvat machtigingen in de machtigingensets Extensie en Systeemtype, die anders niet zijn toegestaan. Uitsluitingen zijn alleen van toepassing op de machtigingenset die u uitbreidt. De originele set wordt niet aangetast.
 
@@ -116,7 +117,7 @@ Als u een machtigingenset uitsluit, worden alle machtigingen in de set uitgeslot
 2. Bereken de volledige lijst met uitgesloten machtigingen
 3. Verwijder uitgesloten machtigingen uit de lijst met opgenomen machtigingen (het verwijderen van een indirecte machtiging is hetzelfde als Reduceren tot indirect)
 
-## <a name="copy-a-permission-set"></a>Een machtigingenset kopiëren
+## Een machtigingenset kopiëren
 
 Maak een nieuwe machtigingenset door een andere te kopiëren. De nieuwe set bevat alle machtigingen en machtigingensets van de set die u hebt gekopieerd. Hoe de machtigingen en machtigingensets in de nieuwe machtigingenset zijn gerangschikt, verschilt, afhankelijk van uw keuze in het veld **Kopieerbewerking**. De volgende tabel beschrijft de opties.
 
@@ -134,7 +135,7 @@ Maak een nieuwe machtigingenset door een andere te kopiëren. De nieuwe set beva
 > [!NOTE]
 > Het bericht vereist dat het bericht **Oorspronkelijke systeemmachtigingenset gewijzigd** is ingeschakeld op de pagina **Mijn berichten**.
 
-## <a name="create-or-modify-permissions-by-recording-your-actions"></a>Machtigingen maken of wijzigen door uw acties op te nemen
+## Machtigingen maken of wijzigen door uw acties op te nemen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Machtigingensets** in en kies vervolgens de gerelateerde koppeling.
 
@@ -150,7 +151,7 @@ Maak een nieuwe machtigingenset door een andere te kopiëren. De nieuwe set beva
 8. Kies de knop **Ja** om de opgenomen toegangsrechten aan de nieuwe machtigingenset toe te voegen.
 9. Geef voor elk object in de opgenomen lijst aan of gebruikers records mogen invoegen, wijzigen of verwijderen in de opgenomen tabellen.
 
-### <a name="to-export-and-import-a-permission-set"></a>Een machtigingenset exporteren en importeren
+### Een machtigingenset exporteren en importeren
 
 Om snel machtigingen in te stellen kunt u machtigingensets importeren die u vanuit een andere [!INCLUDE[prod_short](includes/prod_short.md)]-tenant hebt geëxporteerd.
 
@@ -171,11 +172,11 @@ In multitenant-omgevingen wordt een machtigingenset geïmporteerd in een specifi
 
 De machtigingensets worden geïmporteerd.
 
-## <a name="remove-obsolete-permissions-from-all-permission-sets"></a>Verouderde machtigingen uit alle machtigingensets verwijderen
+## Verouderde machtigingen uit alle machtigingensets verwijderen
 
 Kies op de pagina **Machtigingensets** de actie **Verouderde machtigingen verwijderen**.
 
-## <a name="set-up-time-constraints-for-users"></a>Tijdsbeperkingen voor gebruikers instellen
+## Tijdsbeperkingen voor gebruikers instellen
 
 Beheerders kunnen perioden definiëren waarin bepaalde gebruikers kunnen posten. Beheerders kunnen ook specificeren of het systeem registreert hoe lang gebruikers zijn ingelogd. Zo kunnen beheerders ook divisies toewijzen aan gebruikers. Zie [Werken met divisies](inventory-responsibility-centers.md) voor meer informatie.
 
@@ -184,7 +185,7 @@ Beheerders kunnen perioden definiëren waarin bepaalde gebruikers kunnen posten.
 3. Voer in het veld **Gebruikers-id** de id van een gebruiker in of kies het veld om alle huidige Windows-gebruikers in het systeem te zien.
 4. Vul de vereiste velden in.
 
-## <a name="control-access-to-specific-companies"></a>Toegang tot specifieke bedrijven beheren
+## Toegang tot specifieke bedrijven beheren
 
 Wanneer u meerdere bedrijven in Business Central heeft, vereist het beheren van machtigingen tussen bedrijven extra aandacht. Mogelijk wilt u niet dat gebruikers dezelfde toegangsrechten hebben tot alle bedrijven. In plaats daarvan moet u mogelijk gebruikersmachtigingen verlenen op basis van hun bedrijfsrelaties. Ter ondersteuning van dit scenario heeft u, wanneer u machtigingensets toewijst aan individuele gebruikers of beveiligingsgroepen, de mogelijkheid om een specifiek bedrijf te selecteren waarop de machtigingenset van toepassing is. Het bedrijf wordt niet expliciet gespecificeerd binnen de machtigingenset, maar wanneer de machtigingenset wordt toegewezen aan de gebruiker of beveiligingsgroep.
 
@@ -192,7 +193,7 @@ Als u bij het toewijzen van een machtigingenset het bedrijf niet opgeeft, geldt 
 
 Leer hoe op [Machtigingensets toewijzen aan gebruikers](#assign-permission-sets-to-users) of [Machtigingen toe aan een beveiligingsgroep](ui-security-groups.md#assign-permissions-to-a-security-group).
 
-## <a name="manage-permissions-through-user-groups"></a>Machtigingen beheren via gebruikersgroepen
+## Machtigingen beheren via gebruikersgroepen
 
 Met gebruikersgroepen kunt u machtigingensets in het hele bedrijf beheren. [!INCLUDE [prod_short](includes/prod_short.md)] online bevat standaard gebruikersgroepen die automatisch aan gebruikers worden toegewezen op basis van hun licentie. U kunt gebruikers handmatig toevoegen aan een gebruikersgroep en u kunt nieuwe gebruikersgroepen maken als kopieën van bestaande.  
 
@@ -200,7 +201,7 @@ Maak eerst een gebruikersgroep. Wijs daarna machtigingssets toe aan de groep om 
 
 Machtigingensets die via een gebruikersgroep aan een gebruiker zijn toegewezen, blijven gesynchroniseerd. Een wijziging in de gebruikersgroeprechten wordt automatisch doorgegeven aan de gebruikers. Als u een gebruiker uit een gebruikersgroep verwijdert, worden de desbetreffende machtigingen automatisch ingetrokken.
 
-### <a name="to-add-users-to-a-user-group"></a>Gebruikers aan een gebruikersgroep toevoegen
+### Gebruikers aan een gebruikersgroep toevoegen
 
 De onderstaande procedure licht toe hoe u handmatig gebruikersgroepen maakt. Zie [Een gebruikersgroep en alle bijbehorende machtigingssets kopiëren](#to-copy-a-user-group-and-all-its-permission-sets) als u automatisch gebruikersgroepen wilt maken.
 
@@ -210,7 +211,7 @@ De onderstaande procedure licht toe hoe u handmatig gebruikersgroepen maakt. Zie
 2. Kies op de pagina **Gebruikersgroep** de actie **Gebruikersgroepsleden**.
 3. Kies op de pagina **Gebruikersgroep** de actie **Gebruikers toevoegen**.
 
-### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Een gebruikersgroep en alle bijbehorende machtigingensets kopiëren
+### Een gebruikersgroep en alle bijbehorende machtigingensets kopiëren
 
 Als u snel een nieuwe gebruikersgroep wilt definiëren, kopieert u alle machtigingensets van een bestaande gebruikersgroep naar de nieuwe gebruikersgroep.
 
@@ -226,7 +227,7 @@ De nieuwe gebruikersgroep wordt toegevoegd aan de pagina **Gebruikersgroepen**. 
 > [!IMPORTANT]
 > U krijgt een validatiefout als u probeert een gebruikersgroep aan de gebruiker toe te wijzen die verwijst naar een machtigingenset die is gedefinieerd in een niet-geïnstalleerde extensie. Dit komt doordat de app-ID van de extensie wordt gevalideerd wanneer ernaar wordt verwezen. Als u die gebruikersgroep aan een gebruiker wilt toewijzen, kunt u de extensie opnieuw installeren, de verwijzing naar de niet-geïnstalleerde extensie uit de machtigingenset verwijderen of die machtigingenset uit de gebruikersgroep verwijderen.
 
-### <a name="to-assign-permission-sets-to-user-groups"></a>Machtigingssets toewijzen aan gebruikersgroepen
+### Machtigingssets toewijzen aan gebruikersgroepen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de gebruikersgroep waaraan u een machtiging wilt toewijzen.  
@@ -235,7 +236,7 @@ De nieuwe gebruikersgroep wordt toegevoegd aan de pagina **Gebruikersgroepen**. 
 3. Kies de actie **Machtigingssets voor gebruikers** om de pagina **Machtigingssets voor gebruikers** te openen.
 4. Vul op de pagina **Machtigingssets voor gebruikers** op een nieuwe regel de vereiste velden in.
 
-### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>Een machtigingsset toewijzen op de pagina Machtigingsset per gebruikersgroep
+### Een machtigingsset toewijzen op de pagina Machtigingsset per gebruikersgroep
 
 De volgende procedure licht toe hoe u machtigingssets aan een gebruikersgroep toewijst vanaf de pagina **Machtigingsset per gebruikersgroep**.
 
@@ -246,7 +247,7 @@ De volgende procedure licht toe hoe u machtigingssets aan een gebruikersgroep to
 
 U kunt machtigingssets ook rechtstreeks aan een gebruiker toewijzen.
 
-## <a name="assign-permission-sets-to-users"></a>Machtigingssets toewijzen aan gebruikers
+## Machtigingssets toewijzen aan gebruikers
 
 Een machtigingsset is een verzameling machtigingen voor specifieke databaseobjecten. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -262,7 +263,7 @@ U kunt machtigingssets op twee manieren aan gebruikers toewijzen:
 - Vanaf de pagina **Gebruikerskaart** door machtigingssets te selecteren om aan de gebruiker toe te wijzen.
 - Vanaf de pagina **Machtigingsset per gebruiker** door gebruikers te selecteren aan wie een machtigingsset is toegewezen.
 
-### <a name="to-assign-a-permission-set-on-a-user-card"></a>Een machtigingenset op een gebruikerskaart toewijzen
+### Een machtigingenset op een gebruikerskaart toewijzen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
 1. Selecteer de gebruiker waaraan u machtigingen wilt toewijzen.
@@ -273,7 +274,7 @@ U kunt machtigingssets op twee manieren aan gebruikers toewijzen:
 
    Als u wilt dat de machtigingenset van toepassing is op een specifiek bedrijf, stelt u het veld **Bedrijf** in op dat bedrijf. Als u wilt dat de machtigingenset voor alle bedrijven geldt, laat u het veld **Bedrijf** leeg. [Meer informatie](#control-access-to-specific-companies).
 
-## <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Een machtigingenset op de pagina Machtigingenset per gebruiker toewijzen
+## Een machtigingenset op de pagina Machtigingenset per gebruiker toewijzen
 
 Met deze methode wordt het gemakkelijker voor u om verschillende machtigingensets aan meerdere gebruikers toe te wijzen. 
 
@@ -284,7 +285,7 @@ Met deze methode wordt het gemakkelijker voor u om verschillende machtigingenset
 
     Selecteer het selectievakje **Alle gebruikers** om de machtigingenset aan alle gebruikers toe te wijzen.
 
-## <a name="get-an-overview-of-a-users-permissions"></a>Een overzicht krijgen van de machtigingen van een gebruiker
+## Een overzicht krijgen van de machtigingen van een gebruiker
 
 U kunt effectieve machtigingen van andere gebruikers alleen zien als u bent toegewezen aan de machtiging SECURITY of SUPER. 
 
@@ -314,23 +315,23 @@ De pagina **Effectieve machtigingen** biedt aanvullende informatie over de bron 
 > [!NOTE]  
 > Wanneer u een machtiging bewerkt, worden de wijzigingen ook toegepast op andere gebruikers aan wie de machtigingenset is toegewezen.
 
-### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Beveiligingsfilters beperken de toegang van een gebruiker tot specifieke records in een tabel
+### Beveiligingsfilters beperken de toegang van een gebruiker tot specifieke records in een tabel
 
 Voor beveiliging op recordniveau in [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt u beveiligingsfilters om de toegang van een gebruiker tot gegevens in een tabel te beperken. U maakt beveiligingsfilters voor tabelgegevens. Een beveiligingsfilter beschrijft een set records in een tabel waarvoor een gebruiker toegangsrechten heeft. U kunt bijvoorbeeld opgeven dat een gebruiker alleen de records kan lezen die gegevens over een bepaalde klant bevatten. Zo heeft de gebruiker geen toegang tot de records die informatie over andere klanten bevatten. Zie voor meer informatie [Beveiligingsfilters gebruiken](/dynamics365/business-central/dev-itpro/security/security-filters) in de beheerinhoud.
 
 
-## <a name="view-permission-changes-telemetry"></a>Telemetrie van machtigingswijzigingen weergeven
+## Telemetrie van machtigingswijzigingen weergeven
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] instellen om wijzigingen die zijn aangebracht in een machtiging, naar een Application Insights-resource in Microsoft Azure te sturen. Vervolgens maakt u met behulp van Azure Monitor rapporten en stelt u waarschuwingen in voor de verzamelde gegevens. Zie voor meer informatie de volgende artikelen in de [!INCLUDE[prod_short](includes/prod_short.md)] Help voor ontwikkelaar en beheerders:
 
 - [Telemetrie bewaken en analyseren - inschakelen Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Veldbewakingstelemetrie bekijken](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
 
-## <a name="delegated-admin-users"></a>Gedelegeerde beheerders
+## Gedelegeerde beheerders
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Gebruikers maken volgens licenties](ui-how-users-permissions.md)  
 [Profielen beheren](admin-users-profiles-roles.md)  

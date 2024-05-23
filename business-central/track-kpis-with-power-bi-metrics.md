@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="track-your-business-kpis-with-power-bi-metrics"></a>Uw bedrijfs-KPI's bijhouden met Power BI-meetgegevens
+# Uw bedrijfs-KPI's bijhouden met Power BI-meetgegevens
 
 Als u Power BI met [!INCLUDE[prod_short](includes/prod_short.md)]-gegevens gebruikt, is het eenvoudig om KPI's of meetgegevens bij te houden die voor u belangrijk zijn.
 
@@ -32,7 +32,7 @@ Zie voor meer informatie over Power BI-meetgegevens [Aan de slag met meetgegeven
 > [!NOTE]
 > Vanaf releasewave 2 van Business Central 2023 is het mogelijk om scorekaarten uit Power BI-meetgegevens in te sluiten in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [KPI's gebruiken om uw bedrijfsdoelen te halen](analytics-about-kpis.md)  
 [Inleiding in Business Central en Power BI](admin-powerbi.md)  

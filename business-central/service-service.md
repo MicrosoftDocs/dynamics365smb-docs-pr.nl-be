@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="service-management"></a>Servicebeheer
+# Servicebeheer
 
 > [!NOTE]
 > De functionaliteit die in dit onderwerp wordt beschreven, is alleen zichtbaar in de gebruikersinterface als u de **Premium**-ervaring hebt. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
@@ -34,7 +34,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Contractuele overeenkomsten tussen u en uw klanten maken en beheren.|[Servicecontracten voldoen](service-fulfill-service-contracts.md)|  
 |Service aan klanten bieden en serviceorders factureren.|[Service leveren](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Projecten](projects-how-create-jobs.md)  

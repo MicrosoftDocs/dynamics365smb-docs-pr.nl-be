@@ -3,7 +3,7 @@ title: Inleiding tot de demogegevens voor Contoso Coffee
 description: Overzicht van scenario's voor hoe Contoso Coffee-demogegevens u kunnen helpen bij het leren gebruiken van de mogelijkheden in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.date: 09/20/2023
 ms.topic: article
 ms.service: dynamics-365-business-central
@@ -11,11 +11,11 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Inleiding tot de demogegevens voor Contoso Coffee
+# Inleiding tot de demogegevens voor Contoso Coffee
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De **Contoso Coffee**-apps voor [!INCLUDE [prod_short](../includes/prod_short.md)] voegen demogegevens toe die u kunt gebruiken om te leren hoe u de mogelijkheden in [!INCLUDE [prod_short](../includes/prod_short.md)] kunt benutten.  
 
-## <a name="set-up-contoso-coffee-data"></a>Gegevens voor Contoso Coffee instellen
+## Gegevens voor Contoso Coffee instellen
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
@@ -39,7 +39,7 @@ De volgende tabel beschrijft de instellingen:
 
 Nadat u de modules heeft geconfigureerd die u wilt uitproberen, kiest u de actie **Genereren** om er demonstratiegegevens voor te maken.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie](../production-manage-manufacturing.md)  
 [Magazijnen](../warehouse-manage-warehouse.md)  

@@ -34,13 +34,14 @@ In de volgende secties vindt u voorbeelden van vaste-activascenario's in [!INCLU
 | Vlak | Actie | Deze pagina openen in de analysemodus | Deze velden gebruiken |
 | ---- | ----- | ------------------------------- |------------------- |
 | [Vaste activa (huidige waarde)](#example-fixed-assets-current-value) | Volg activawaarde, zowel voor alle activa als voor één enkel activum. | [VA-posten](https://businesscentral.dynamics.com/?page=5604) | **Afschrijvingsboek**, **VA-nr.**, **VA-boekingsdatum**, **VA-boekingssoort** en **Bedrag** |
-|[Voorbeeld: afschrijvingen op vaste activa in de loop van de tijd](#example-fixed-asset-depreciations-over-time) | Volg afschrijvingen in de loop van de tijd, zowel voor alle activa als voor één enkel activum. | [VA-posten](https://businesscentral.dynamics.com/?page=5604) | **Afschrijvingsboek**, **VA-nr.**, **VA-boekingsjaar**, **VA-boekingsmaand**, en **Bedrag** en **VA-boekingssoort** |
+| [De waarde van activa verandert in de loop van de tijd](#example-asset-value-changes-over-time) | Wijzigingen in de waarde van activa bijhouden in de loop van de tijd. | [VA-posten](https://businesscentral.dynamics.com/?page=5604) | Kies de velden **VA-boekingssoort**, **VA-boekingsdatum** en **Bedrag** |
+|[Afschrijvingen op vaste activa in de loop van de tijd](#example-fixed-asset-depreciations-over-time) | Volg afschrijvingen in de loop van de tijd, zowel voor alle activa als voor één enkel activum. | [VA-posten](https://businesscentral.dynamics.com/?page=5604) | **Afschrijvingsboek**, **VA-nr.**, **VA-boekingsjaar**, **VA-boekingsmaand**, en **Bedrag** en **VA-boekingssoort** |
 
 ### Voorbeeld: vaste activa (huidige waarde)
 
 Volg deze stappen om de waarde van een of meer vaste activa bij te houden:
 
-1. Open de lijst [VA-posten](https://businesscentral.dynamics.com/?page=5604) en kies :::image type="content" source="media/analysis-mode-icon.png" alt-text="Analysemodus openen":::. om de analysemodus in te schakelen.
+1. Open de lijst [VA-posten](https://businesscentral.dynamics.com/?page=5604) en kies :::image type="content" source="media/analysis-mode-icon.png" alt-text="Analysemodus openen."::: om de analysemodus in te schakelen.
 1. Ga naar het menu **Kolommen** en verwijder alle kolommen (selecteer het vakje naast het veld **Zoeken**, rechts).
 1. Sleep de velden **Afschrijvingsboek** en **VA-nr.** naar het gebied **Rijgroepen**.
 1. Kies de velden **VA-boekingsdatum** en **VA-boekingssoort**.
@@ -51,13 +52,29 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina VA-posten om de waarde van een activum te bekijken." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
+### Voorbeeld wijzigingen in de waarde van activa in de loop van de tijd
+
+Volg deze stappen om veranderingen in de waarde van activa in de loop van de tijd bij te houden:
+
+1. Open de lijst [VA-posten](https://businesscentral.dynamics.com/?page=5604) en kies :::image type="content" source="media/analysis-mode-icon.png" alt-text="Analysemodus openen."::: om de analysemodus in te schakelen.
+1. Ga naar het menu **Kolommen** en verwijder alle kolommen (selecteer het vakje naast het veld **Zoeken**, rechts).
+1. Schakel de schakelaar **Draaimodus** in (bevindt zich boven het veld **Zoeken**, rechts).
+1. Sleep het veld **VA-boekingssoort** naar het gebied **Rijgroepen**.
+1. Sleep de velden **VA-boekingsjaar** en **VA-boekingsmaand** naar het gebied **Kolomlabels**.
+1. Sleep het veld **Bedrag** naar het gebied **Waarden**.
+1. Hernoem uw analysetabblad naar **De waarde van activa verandert in de loop van de tijd** of iets dat deze analyse voor u beschrijft.
+
+De volgende afbeelding toont het resultaat van deze stappen.
+
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina VA-posten om wijzigingen van activawaarden in de loop van de tijd te bekijken." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
+
 ### Voorbeeld: afschrijvingen op vaste activa in de loop van de tijd
 
 Volg deze stappen om de afschrijving van een of meer vaste activa bij te houden:
 
-1. Open de lijst [VA-posten](https://businesscentral.dynamics.com/?page=5604) en kies :::image type="content" source="media/analysis-mode-icon.png" alt-text="Analysemodus openen":::. om de analysemodus in te schakelen.
+1. Open de lijst [VA-posten](https://businesscentral.dynamics.com/?page=5604) en kies :::image type="content" source="media/analysis-mode-icon.png" alt-text="Analysemodus openen."::: om de analysemodus in te schakelen.
 1. Ga naar het menu **Kolommen** en verwijder alle kolommen (selecteer het vakje naast het veld **Zoeken**, rechts).
-1. Schakel de schakelaar **Draai*modus** in (bevindt zich boven het veld **Zoeken**, rechts).
+1. Schakel de schakelaar **Draaimodus** in (bevindt zich boven het veld **Zoeken**, rechts).
 1. Sleep de velden **Afschrijvingsboek** en **VA-nr.** naar het gebied **Rijgroepen**.
 1. Sleep de velden **VA-boekingsjaar** en **VA-boekingsmaand** naar het gebied **Kolomlabels**.
 1. Sleep het veld **Bedrag** naar het gebied **Waarden**.
@@ -72,10 +89,16 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 Wanneer u vaste activa boekt, [!INCLUDE [prod_short](includes/prod_short.md)] worden er posten gemaakt in de tabel **VA-post**. Daarom wordt een ad-hocanalyse van vaste activa doorgaans uitgevoerd op de pagina [VA-posten](https://businesscentral.dynamics.com/?page=5604).
 
+## Bijdragers
+
+*Microsoft handhaaft dit artikel. Delen van de voorbeelden zijn oorspronkelijk geschreven door de volgende bijdrager.*
+
+* [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] Consulent
+
 ## Zie ook
 
 [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md)  
-[Overzicht van VA-analyse](fa-analytics-overview.md)  
+[Overzicht van analyses van vaste activa](fa-analytics-overview.md)  
 [Overzicht van analyses, bedrijfsinformatie en rapportage](reports-bi-reporting.md)  
 [Overzicht van vaste activa](fa-manage.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

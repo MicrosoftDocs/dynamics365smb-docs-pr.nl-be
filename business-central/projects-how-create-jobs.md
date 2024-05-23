@@ -3,7 +3,7 @@ title: Een projectkaart voor een project maken en taken opgeven
 description: Voor een nieuw project maakt u een projectkaart met projecttaken en planningsregels om u te helpen voortgang en budgetten te beheren.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'project management, task'
 ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-projects"></a>Projecten maken
+# Projecten maken
 
 Wanneer u een nieuw project start, moet u een projectkaart maken met geïntegreerde projecttaken en projectplanningsregels, die uit twee lagen wordt gestructureerd.  
 
@@ -24,7 +24,7 @@ Dankzij de laagstructuur kunt u het project in kleinere taken onderverdelen en d
 > [!TIP]
 > Kies de actie **Nieuw project** in het rolcentrum **Projectmanager** om een begeleide instelling te starten die u begeleidt bij de stappen voor het maken van een project met geïntegreerde taken en planningsregels. In de volgende procedure wordt beschreven hoe u handmatig de stappen uitvoert. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Meerdere klanten factureren voor projecttaken
+## Meerdere klanten factureren voor projecttaken
 
 Soms wijkt de partij die een service ontvangt, af van de partij die de rekening betaalt. Soms moet u ook meerdere klanten factureren voor taken in het project. Gebruik op de pagina **Projectkaart** het veld **Factureringsmethode voor taken** om op te geven of u één klant factureert, of meerdere klanten.
 
@@ -36,7 +36,7 @@ Als u meerdere klanten factureert, kunt u voor elke taak in het project de klant
 * Voeg informatie over externe referenties toe om de communicatie over het project te vereenvoudigen.
 * Overschrijf de standaard financiële voorwaarden van het project.
 
-## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Eén klant factureren voor meerdere projecttaken
+## Eén klant factureren voor meerdere projecttaken
 
 U kunt uw facturatieproces vereenvoudigen door voor meerdere projecten één factuur naar een klant te sturen. Voeg projectplanningsregels uit meerdere projecten in één keer toe aan een verkoopfactuur. Dit proces is vergelijkbaar met het maken van een verkoopfactuur op basis van een projectplanningsregel en het invoeren van een waarde in het veld **Toevoegen aan verkoopfactuurnr.** .
 
@@ -54,7 +54,7 @@ Herhaal deze stappen als u nog een set projectplanningsregels wilt toevoegen. U 
 > * De actie **Projectplanningsregels ophalen** is niet beschikbaar voor verkooporders of verkoopoffertes.
 > * U kunt niet filteren op de velden **Verzendcode** of **Contactnr.** .
 
-## <a name="to-create-a-project-card"></a>Een projectkaart maken
+## Een projectkaart maken
 
 U maakt een projectkaart en maakt vervolgens projecttaakregels en projectplanningsregels hiervoor.
 
@@ -73,7 +73,7 @@ Markeer optioneel acties op het project als geblokkeerd met behulp van het veld 
 |Boeking    |U kunt wel met planningsregels werken, maar het project kan niet worden geboekt. Het boeken van projectgebruik of -omzet is niet mogelijk.|
 |Alle  |Alle acties zijn geblokkeerd.|
 
-## <a name="to-create-tasks-for-a-project"></a>Taken maken voor een project
+## Taken maken voor een project
 
 Een essentieel onderdeel bij het maken van een nieuw project is dat de verschillende taken worden opgegeven die bij het project horen. U geeft taken op door één regel per taak op te geven op het sneltabblad **Taken** op de pagina **Projectkaart**. Elk project moet minimaal één taak hebben.
 
@@ -84,7 +84,7 @@ Een essentieel onderdeel bij het maken van een nieuw project is dat de verschill
 5. Herhaal stap 3 en 4 voor alle taken die u voor het project nodig hebt.
 6. Als u de projecttaken wilt opgeven met informatie over andere projecttaken, kiest u de actie **Projecttaken kopiëren vanuit**, vult u de benodigde velden in en kiest u de knop **OK**.
 
-## <a name="to-create-planning-lines-for-a-project"></a>Planningsregels voor een project maken
+## Planningsregels voor een project maken
 
 U kunt de nieuwe projecttaken op projectplanningsregels verfijnen. Een planningsregel kan worden gebruikt voor het vastleggen van de gegevens die u voor een project wilt bijhouden. U kunt bijvoorbeeld de resources bijhouden die voor het project nodig zijn, of de items die nodig zijn. U heeft bijvoorbeeld een taak om een klant een project te laten goedkeuren. Die taak kan vervolgens worden gekoppeld aan planningsregels voor artikelen, zoals bijeenkomst met de klant en het toewijzen van een resource.  
 
@@ -105,7 +105,7 @@ Een projectplanningsregel kan van de volgende soorten zijn.
 4. Vul op de pagina **Projectplanningsregels** op een nieuwe regel de benodigde velden in.
 5. Herhaal stap 3 en 4 voor alle planningsregels die u voor de projecttaak nodig hebt.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Projectbeheer](projects-manage-projects.md)  
 [Video: Hoe u een project maakt in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

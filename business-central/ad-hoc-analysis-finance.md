@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-finance-data"></a>Adhoc-analyse van financiële gegevens
+# Adhoc-analyse van financiële gegevens
 
 In dit artikel leert u hoe u de functie **Gegevensanalyse** gebruikt om financiële gegevens te analyseren direct vanaf lijstpagina's en query's. U hoeft geen rapport uit te voeren of over te stappen naar een andere toepassing, zoals Excel. De functie biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. In plaats van rapporten uit te voeren met opties en filters, kunt u meerdere tabbladen toevoegen die verschillende taken of weergaven van de gegevens vertegenwoordigen. Enkele voorbeelden zijn 'Totale activa in de loop van de tijd', 'Debiteuren', 'Crediteuren' of welke andere weergave dan ook die u maar kunt bedenken. Voor meer informatie over het gebruik van de functie **Gegevensanalyse** gaat u naar [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md).
 
@@ -22,7 +22,7 @@ Gebruik de volgende lijstpagina's om te beginnen met ad-hocanalyse van financië
 - [Klantenposten](https://businesscentral.dynamics.com/?page=25)
 - [Leveranciersposten](https://businesscentral.dynamics.com/?page=29)
 
-## <a name="finance-ad-hoc-analysis-scenarios"></a>Ad-hocanalysescenario's voor financiën
+## Ad-hocanalysescenario's voor financiën
 
 Gebruik de functie **Gegevensanalyse** voor snelle feitencontrole en ad-hocanalyse:
 
@@ -39,7 +39,7 @@ In de volgende secties vindt u voorbeelden van financiële scenario's in [!INCLU
 | [Financiën (Resultatenrekening)](#example-finance-income-statement) | Bekijk uw inkomsten over de inkomstenrekeningen uit het rekeningschema, bijvoorbeeld opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt. | [Grootboekposten](https://businesscentral.dynamics.com/?page=20) | **Grootboekrekeningnr.**, **Boekingsdatum** en **Bedrag**. |
 | [Financiën (totale activa)](#example-finance-total-assets) | Bekijk uw activa over de activarekeningen uit het rekeningschema, bijvoorbeeld opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt. | [Grootboekposten](https://businesscentral.dynamics.com/?page=20) | **Grootboekrekeningnr.**, **Boekingsdatum** en **Bedrag**. |
 
-### <a name="example-finance-accounts-receivables"></a>Voorbeeld: Financiën (Tegoeden)
+### Voorbeeld: Financiën (Tegoeden)
 
 Als u wilt zien wat uw klanten u verschuldigd zijn, wellicht uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald, doet u het volgende:
 
@@ -51,7 +51,7 @@ Als u wilt zien wat uw klanten u verschuldigd zijn, wellicht uitgesplitst in tij
 1. Als u de analyse wilt uitvoeren voor een bepaald jaar of kwartaal, past u een filter toe in het menu **Analysefilters** (aan de rechterkant onder het menu **Kolommen**).
 1. Hernoem uw analysetabblad naar **Oudere accounts per maand** of iets dat deze analyse beschrijft.
 
-### <a name="example-finance-accounts-payable"></a>Voorbeeld: Financiën (Schulden)
+### Voorbeeld: Financiën (Schulden)
 
 Als u wilt zien wat u uw leveranciers verschuldigd bent, wellicht uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald, doet u het volgende:
 
@@ -67,7 +67,7 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina Klantenposten." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-### <a name="example-finance-income-statement"></a>Voorbeeld: Financiën (Resultatenrekening)
+### Voorbeeld: Financiën (Resultatenrekening)
 
 Als u uw inkomsten wilt zien over de inkomstenrekeningen uit het rekeningschema, opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt, volgt u deze stappen:
 
@@ -83,7 +83,7 @@ Als u uw inkomsten wilt zien over de inkomstenrekeningen uit het rekeningschema,
 
 1. Hernoem uw analysetabblad naar **Inkomen per maand** of iets dat deze analyse voor u beschrijft.
 
-### <a name="example-finance-total-assets"></a>Voorbeeld: Financiën (totale activa)
+### Voorbeeld: Financiën (totale activa)
 
 Als u uw activa wilt zien over de activarekeningen uit het rekeningschema, opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt, doet u het volgende:
 
@@ -99,7 +99,7 @@ Als u uw activa wilt zien over de activarekeningen uit het rekeningschema, opges
 
 1. Hernoem uw analysetabblad naar **Inkomen per maand** of iets dat deze analyse voor u beschrijft.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-finance"></a>Gegevensbasis voor ad-hocanalyse van financiën
+## Gegevensbasis voor ad-hocanalyse van financiën
 
 Wanneer u dagboeken boekt, [!INCLUDE [prod_short](includes/prod_short.md)] worden er posten gemaakt in de tabel **Grootboekpost**. Daarom wordt een ad-hocanalyse van algemene financiën doorgaans uitgevoerd op de pagina [Grootboekposten](https://businesscentral.dynamics.com/?page=20). Voor debiteuren- en crediteuren kunt u respectievelijk [Klantenposten](https://businesscentral.dynamics.com/?page=25) en [Leveranciersposten](https://businesscentral.dynamics.com/?page=29) analyseren.
 
@@ -108,7 +108,7 @@ Ga voor meer informatie naar de volgende artikelen:
 - [Gegevensbasis voor ad-hocanalyse van verkopen](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Gegevensbasis voor ad-hocanalyse van inkopen](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md)  
 [Overzicht van financiële analyse](bi.md)  

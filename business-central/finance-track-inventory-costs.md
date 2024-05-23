@@ -3,7 +3,7 @@ title: Herwaarderingen van artikelkosten traceren
 description: Meer informatie over hoe het bijhouden van artikelkostenherwaarderingen u kan helpen uw artikelkostengegevens accuraat te houden.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: null
 ms.search.form: null
@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="track-item-cost-adjustments"></a>Herwaarderingen van artikelkosten traceren
+# Herwaarderingen van artikelkosten traceren
 
 Het is belangrijk om de artikelkosten accuraat te houden en de tijd te verkorten tussen het moment waarop u een post boekt en het moment waarop het grootboek de kosten weergeeft. U kunt de prestaties van de kostenherwaarderingen voor individuele herwaarderingen en artikelen volgen. Als er fouten optreden, kunt u de problematische artikelen identificeren en correcties aanbrengen. U kunt de artikelen bijvoorbeeld uitsluiten van berekeningen om ervoor te zorgen dat herwaarderingen niet worden onderbroken voor andere artikelen. U kunt de kosten voor afzonderlijke artikelen aanpassen, of batches van artikelen aanmaken en deze allemaal tegelijk aanpassen.
 
-## <a name="start-tracking-cost-adjustments"></a>Beginnen met het bijhouden van kostenherwaarderingen
+## Beginnen met het bijhouden van kostenherwaarderingen
 
 Het is gemakkelijk om aan de slag te gaan. Op de pagina **Voorraad instellen** bevat het veld **Logboekregistratie van kostenherwaardering** een aantal opties:
 
@@ -29,11 +29,11 @@ Het is gemakkelijk om aan de slag te gaan. Op de pagina **Voorraad instellen** b
 
 U moet ook de taakwachtrijpost **Voorraadkosten boeken naar grootboek (1002)** instellen. Met deze taakwachtrijpost worden de kosten automatisch aangepast volgens een schema. Ga voor meer informatie over taakwachtrijposten naar [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md).
 
-## <a name="manage-cost-adjustments"></a>Kostenherwaarderingen beheren
+## Kostenherwaarderingen beheren
 
 Gebruik de pagina **Herwaardering van voorraadkosten** om het kostenherwaarderingsproces te beheren en te controleren. Op deze pagina worden de artikelen weergegeven, samen met hun kostprijsparameters en de status van de kostenherwaardering. U kunt de lijst filteren om te focussen op artikelen die moeten worden aangepast of die zijn uitgesloten van het kostenherwaarderingsproces.
 
-### <a name="about-item-batches"></a>Over artikelbatches
+### Over artikelbatches
 
 U kunt voor meerdere artikelen een kostenherwaardering uitvoeren door ze in batches te groeperen. Door batches is het eenvoudig om sommige artikelen afzonderlijk aan te passen, omdat de herwaardering ervan bijvoorbeeld langer duurt. Batches kunnen ook helpen bij het identificeren van artikelen met problemen.
 
@@ -54,7 +54,7 @@ Wanneer een herwaardering voor een batch wordt voltooid, heeft de batch een van 
 
 > [TIP!] Elke batch wordt in een aparte sessie uitgevoerd. Gebruik de actie **Vernieuwen** om de voortgang te volgen.
 
-### <a name="run-cost-adjustment"></a>Kostenherwaardering uitvoeren
+### Kostenherwaardering uitvoeren
 
 Gebruik de pagina **Herwaardering van voorraadkosten** om herwaarderingen door te voeren.
 
@@ -69,7 +69,7 @@ Gebruik de pagina **Herwaardering van voorraadkosten** om herwaarderingen door t
     
     Ga voor meer informatie over batches naar [Over artikelbatches](#about-item-batches).
 
-### <a name="explore-item-details"></a>Artikeldetails verkennen
+### Artikeldetails verkennen
 
 Gebruik het menu **Artikel** voor toegang tot informatie over kostenherwaarderingen voor een geselecteerd artikel.
 
@@ -78,24 +78,24 @@ Gebruik het menu **Artikel** voor toegang tot informatie over kostenherwaarderin
 * **Startpunten van kostenherwaardering**: open de pagina **Startpunt gemiddelde kostenherwaardering** die u voornamelijk gebruikt om de gemiddelde kosten te berekenen. Op de pagina worden combinaties van artikelen, locaties, varianten en waarderingsdatums weergegeven waarvoor kostenherwaarderingen worden of moeten worden uitgevoerd.
 * **Kostenherwaarderingsorders**: open de pagina **Voorraadherwaarderingspost (order)**, waar u productie- en assemblageorders aanpast. Het laat zien dat de orders zijn aangepast of aanpassing behoeven.
 
-### <a name="view-the-outcome"></a>Het resultaat weergeven
+### Het resultaat weergeven
 
 Gebruik het menu **Logboek per** om het resultaat van kostenherwaarderingen weer te geven:
 
 * **Uitvoeren**: geef logboeken van kostenwaarderingen voor elke uitvoering weer. Het logboek bevat gegevens over het artikelfilter, de status (Geslaagd/Mislukt/Time-out), begin- en einddatum/-tijd, duur en de kostenverschillen die door de uitvoering worden veroorzaakt.
 * **Artikel**: geef gedetailleerde informatie weer over het herwaarderingsproces voor het geselecteerde artikel.
 
-### <a name="include-or-exclude-items-from-adjustments"></a>Artikelen opnemen in of uitsluiten van herwaarderingen
+### Artikelen opnemen in of uitsluiten van herwaarderingen
 
 Als een of meer artikelen mislukken, kunt u de artikelen uitsluiten van de herwaarderingsuitvoering en ze vervolgens opnemen in latere uitvoeringen. Kies een van de volgende mogelijkheden in het menu **Functies**.
 
 * **Artikel van herwaardering uitsluiten** en **Artikel opnemen in herwaardering**: schakel kostenherwaardering tijdelijk uit en weer in voor een geselecteerd artikel. Met kostenherwaardering blijven de kosten voor andere artikelen accuraat terwijl u een probleem met een specifiek artikel onderzoekt.
 
-## <a name="post-adjusted-costs-to-the-general-ledger"></a>Geherwaardeerde kosten naar het grootboek boeken
+## Geherwaardeerde kosten naar het grootboek boeken
 
 Doorgaans worden nieuwe waardeposten naar het grootboek geboekt volgens het schema voor de taakwachtrijpost **Voorraadkosten boeken naar grootboek (1002)** . U kunt herwaarderingen echter onmiddellijk in het grootboek boeken vanaf de pagina **Herwaardering van voorraadkosten**. Kies in het menu **Functies** **Voorraadkosten boeken naar grootboek**.
 
-## <a name="troubleshoot-cost-adjustments"></a>Problemen met kostenherwaarderingen oplossen
+## Problemen met kostenherwaarderingen oplossen
 
 Gebruik de volgende opties in het menu **Diagnose** om problemen met kostenherwaarderingen op te lossen.
 
@@ -105,7 +105,7 @@ Gebruik de volgende opties in het menu **Diagnose** om problemen met kostenherwa
 * **Rapport Waarderingsproblemen detecteren**: stel een diagnose voor typische gegevensproblemen waarmee berekeningsfouten bij de kostenberekening worden veroorzaakt. Er wordt gecontroleerd of de artikelposten, waardeposten, artikelvereffeningsposten en capaciteitsposten correct zijn.
 * **Artikelgegevens verwijderen**: wis alle artikelgerelateerde tabellen in de database. Deze actie is alleen beschikbaar in sandbox-omgevingen of evaluatiebedrijven.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Artikelprijzen herwaarderen](inventory-how-adjust-item-costs.md)  
 [Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)  
