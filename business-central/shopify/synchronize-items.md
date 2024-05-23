@@ -11,7 +11,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Artikelen en voorraad synchroniseren
+# <a name="synchronize-items-and-inventory"></a>Artikelen en voorraad synchroniseren
 
 De **artikelen** in [!INCLUDE[prod_short](../includes/prod_short.md)] zijn het equivalent van de *producten* in Shopify en omvatten fysieke goederen, digitale downloads, services en cadeaubonnen die u verkoopt. Er zijn twee belangrijke redenen om artikelen te synchroniseren:
 
@@ -22,7 +22,7 @@ De voorgaande twee scenario's zijn altijd ingeschakeld.
 
 Een derde scenario is het beheren van gegevens in Shopify maar die artikelen in bulk importeren naar [!INCLUDE[prod_short](../includes/prod_short.md)]. Dit scenario kan handig zijn voor gegevensmigratiegebeurtenissen, zoals wanneer u een bestaande online winkel wilt verbinden met een nieuwe [!INCLUDE[prod_short](../includes/prod_short.md)]-omgeving.
 
-## Artikelsynchronisaties definiëren
+## <a name="define-item-synchronizations"></a>Artikelsynchronisaties definiëren
 
 1. Kies het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") en voer **Shopify-winkel** in. Open de winkel waarvoor u de artikelsynchronisatie wilt configureren.
 2. Kies in het veld **Artikel synchroniseren** de juiste optie.
@@ -38,7 +38,7 @@ Een derde scenario is het beheren van gegevens in Shopify maar die artikelen in 
    > [!NOTE]
    > **Artikel synchroniseren** wijzigen van **Van Shopify** in **Naar Shopify** heeft alleen effect als u **Kan Shopify-producten bijwerken** inschakelt.
 
-## Artikelen importeren vanuit Shopify
+## <a name="import-items-from-shopify"></a>Artikelen importeren vanuit Shopify
 
 Eerst importeert u artikelen in bulk vanuit Shopify of samen met bestellingen om ze toe te voegen aan de tabellen **Shopify-product** en **Shopify-variant**. Wijs vervolgens geïmporteerde producten en varianten toe aan artikelen en varianten in [!INCLUDE[prod_short](../includes/prod_short.md)]. Met de volgende instellingen kunt u het proces beheren:
 
@@ -53,7 +53,7 @@ Eerst importeert u artikelen in bulk vanuit Shopify of samen met bestellingen om
 |**Maateenheid als variant**| Kies deze optie als u wilt dat alle artikeleenheden als afzonderlijke varianten worden geëxporteerd. Personaliseer de pagina om het veld toe te voegen. Meer informatie vindt u in het gedeelte [Maateenheid als variant](synchronize-items.md#unit-of-measure-as-variant).|
 |**Naam van variantoptie voor maateenheid**| Gebruik dit veld met **Maateenheid als variant** om op te geven onder welke optie varianten worden toegevoegd die maateenheden vertegenwoordigen. De standaardwaarde is *Maateenheid*. Gebruik personalisatie om het veld aan de pagina toe te voegen.|
 
-## Artikelen exporteren naar Shopify
+## <a name="export-items-to-shopify"></a>Artikelen exporteren naar Shopify
 
 Er zijn meerdere manieren om artikelen te exporteren naar Shopify:
 
@@ -85,9 +85,9 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 > [!NOTE]
 > Als u veel artikelen en varianten wilt exporteren, zijn er mogelijk enkele geblokkeerd. Geblokkeerde artikelen en varianten kunt u niet meenemen in prijsberekeningen en worden daarom niet geëxporteerd. De Connector slaat deze artikelen en varianten over, dus u hoeft ze niet te filteren op de aanvraagpagina **Artikel toevoegen aan Shopify**.
 
-## Geavanceerde details
+## <a name="advanced-details"></a>Geavanceerde details
 
-### Effect van Shopify-product-SKU's en barcodes op het toewijzen en maken van artikelen en varianten in Business Central
+### <a name="effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central"></a>Effect van Shopify-product-SKU's en barcodes op het toewijzen en maken van artikelen en varianten in Business Central
 
 Wanneer producten worden geïmporteerd uit Shopify naar tabellen met **Shopify-producten** en **Shopify-varianten**, probeert [!INCLUDE[prod_short](../includes/prod_short.md)] bestaande records te vinden.
 
@@ -111,7 +111,7 @@ De volgende tabel geeft een overzicht van het effect van het veld **Barcode**.
 > [!NOTE]  
 > U kunt toewijzing activeren van het geselecteerde product/de varianten door **Producttoewijzing zoeken** te kiezen of van alle geïmporteerde niet-toegewezen producten door **Toewijzingen zoeken** te kiezen.
 
-### Overzicht van veldtoewijzing
+### <a name="fields-mapping-overview"></a>Overzicht van veldtoewijzing
 
 |Shopify|Bron bij export vanuit [!INCLUDE[prod_short](../includes/prod_short.md)]|Doel bij import naar [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
@@ -136,13 +136,13 @@ De volgende tabel geeft een overzicht van het effect van het veld **Barcode**.
 |Belastbaar|Vaste waarde: ingeschakeld.|Niet gebruikt.|
 |Belastingcodes|**Belastinggroepcode**. Alleen relevant voor omzetbelasting. Meer informatie op [Belastingen instellen](setup-taxes.md).|Niet gebruikt.|
 
-### Labels
+### <a name="tags"></a>Labels
 
 Bekijk de geïmporteerde labels in het feitenblok **Labels** op de pagina **Shopify-product**. Om labels te bewerken op dezelfde pagina kiest u de actie **Labels**.
 
 Als de optie **Naar Shopify** is geselecteerd in het veld **Artikel synchroniseren**, worden toegewezen labels geëxporteerd naar Shopify bij de volgende synchronisatie.
 
-### Maateenheid als variant
+### <a name="unit-of-measure-as-variant"></a>Maateenheid als variant
 
 Shopify ondersteunt niet meerdere maateenheden. Als u hetzelfde product als bijvoorbeeld stuks en sets wilt verkopen en verschillende prijzen of kortingen wilt gebruiken, moet u maateenheden aanmaken als productvarianten.
 Shopify-connector kan worden geconfigureerd om maateenheden als varianten te exporteren of varianten als maateenheden te importeren.
@@ -155,15 +155,15 @@ Om deze mogelijkheid in te schakelen gebruikt u de velden **Maateenheid als vari
 * Als u te maken hebt met een matrix van varianten, bijvoorbeeld Kleur en Maateenheid, en u producten wilt importeren, moet u *Artikelnr. + Variantcode* instellen in het veld **SKU-toewijzing** en zorgen dat het veld **SKU** in Shopify dezelfde waarde heeft voor alle maateenheden en het artikelnummer en de variantcode bevat.
 * De beschikbaarheid wordt berekend per artikel/artikelvariant en niet per maateenheid in [!INCLUDE[prod_short](../includes/prod_short.md)]. Dit betekent dat dezelfde beschikbaarheid wordt toegewezen aan elke variant die de maateenheid vertegenwoordigt (met betrekking tot **Aantal per maateenheid**), wat kan leiden tot gevallen waarin de beschikbare hoeveelheid in Shopify is niet juist. Voorbeeld: Artikel dat wordt verkocht per stuk en per doos van 6. De voorraad in [!INCLUDE[prod_short](../includes/prod_short.md)] is 6 stuks. Artikel geëxporteerd naar Shopify als Product met twee varianten. Zodra de voorraadsynchronisatie is uitgevoerd, is het voorraadniveau in Shopify 6 voor varaint stuks en 1 voor variant doos. De koper kan in de winkel zien dat het product in beide opties beschikbaar is en een bestelling plaatsen voor 1 DOOS. De volgende koper zal zien dat DOOS niet beschikbaar is, maar er zijn nog 6 STUKS. Dit wordt opgelost na de volgende voorraadsynchronisatie.
 
-### URL en voorbeeld-URL
+### <a name="url-and-preview-url"></a>URL en voorbeeld-URL
 
 Een artikel toegevoegd aan Shopify of geïmporteerd uit Shopify heeft mogelijk de **URL** of **Voorbeeld-URL** ingevuld. Het veld **URL** is leeg als het product niet in de online winkel is gepubliceerd, bijvoorbeeld omdat de status concept is. De **URL** zal leeg zijn als de winkel met een wachtwoord is beveiligd, bijvoorbeeld omdat dit een ontwikkelingswinkel is. In de meeste gevallen kunt u de **Voorbeeld-URL** gebruiken om te controleren hoe het product er na publicatie uit zal zien.
 
-## Artikelsynchronisatie uitvoeren
+## <a name="run-item-synchronization"></a>Artikelsynchronisatie uitvoeren
 
 Volledige of gedeeltelijke artikelsynchronisatie kan op veel verschillende manieren worden uitgevoerd.
 
-### Initiële synchronisatie van artikelen van Business Central naar Shopify
+### <a name="initial-sync-of-items-from-business-central-to-shopify"></a>Initiële synchronisatie van artikelen van Business Central naar Shopify
 
 1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-producten** in en kies de gerelateerde koppeling.
 2. Kies de actie **Artikelen toevoegen**.
@@ -179,7 +179,7 @@ Als alternatief kunt u één artikel synchroniseren door de actie **Optellen bij
 > [!NOTE]  
 > De eerste synchronisatie van artikelen uit [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify houdt geen rekening met de instellingen **Artikel synchroniseren** en **Kan Shopify-producten bijwerken**. 
 
-### Producten synchroniseren vanuit Shopify naar Business Central
+### <a name="sync-products-from-shopify-to-business-central"></a>Producten synchroniseren vanuit Shopify naar Business Central
 
 1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u artikelen wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
@@ -189,7 +189,7 @@ Of gebruik de actie **Producten synchroniseren** op de pagina **Shopify-producte
 
 U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
 
-### Ad-hocupdates van Shopify-producten
+### <a name="ad-hoc-updates-of-shopify-products"></a>Ad-hocupdates van Shopify-producten
 
 Wanneer de records worden bijgewerkt in de tabel **Shopify-product**, worden de volgende wijzigingen gesynchroniseerd met Shopify.
 
@@ -207,7 +207,7 @@ Op basis van de waarde in **Actie voor verwijderde producten** op de pagina **Sh
 * **Status naar Concept**: de status van het product in Shopify wordt ingesteld op *Concept*.
 * **Status naar Gearchiveerd**: het product wordt gearchiveerd in Shopify.
 
-## Artikelafbeeldingen synchroniseren
+## <a name="sync-item-images"></a>Artikelafbeeldingen synchroniseren
 
 Synchronisatie van afbeeldingen kan worden geconfigureerd voor gesynchroniseerde artikelen. Kies uit de volgende opties:
 
@@ -217,24 +217,24 @@ Synchronisatie van afbeeldingen kan worden geconfigureerd voor gesynchroniseerde
 
 Afbeeldingssynchronisatie kan op de hieronder beschreven twee manieren worden geïnitialiseerd.
 
-### Productafbeeldingen synchroniseren vanaf de pagina Shopify-winkel
+### <a name="sync-product-images-from-the-shopify-shop-page"></a>Productafbeeldingen synchroniseren vanaf de pagina Shopify-winkel
 
 1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkels** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u afbeeldingen wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
 3. Kies de actie **Productafbeeldingen synchroniseren**.
 
-### Productafbeeldingen synchroniseren vanaf de pagina Shopify-producten
+### <a name="sync-product-images-from-the-shopify-products-page"></a>Productafbeeldingen synchroniseren vanaf de pagina Shopify-producten
 
 1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-producten** in en kies de gerelateerde koppeling.
 2. Kies de actie **Productafbeeldingen synchroniseren**.
 
-### Opmerkingen over afbeeldingssynchronisatie
+### <a name="image-synchronization-remarks"></a>Opmerkingen over afbeeldingssynchronisatie
 
 * Wanneer u afbeeldingen exporteert van [!INCLUDE[prod_short](../includes/prod_short.md)] naar Shopify, vervangen de afbeeldingen de afbeeldingen die u eerder hebt geëxporteerd. De eerdere afbeeldingen zijn niet langer beschikbaar.
 * Als u een afbeelding in [!INCLUDE[prod_short](../includes/prod_short.md)] verwijdert, wordt de afbeelding in Shopify niet ook verwijderd. U moet de oude afbeeldingen handmatig verwijderen in de **Shopify-beheer**.
 * Afbeeldingen die u naar Shopify exporteert, moeten voldoen aan de vereisten van Shopify. Anders kunt u ze niet importeren. Ga voor meer informatie over mediavereisten naar [productmediatypen op help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
-## Prijzen synchroniseren met Shopify
+## <a name="sync-prices-with-shopify"></a>Prijzen synchroniseren met Shopify
 
 U beheert het proces van het exporteren van prijzen met deze instellingen:
 
@@ -249,25 +249,25 @@ U beheert het proces van het exporteren van prijzen met deze instellingen:
 
 U kunt prijzen voor gesynchroniseerde artikelen exporteren op de twee hieronder beschreven manieren.
 
-### Prijzen synchroniseren vanaf de pagina Shopify-producten
+### <a name="sync-prices-from-the-shopify-products-page"></a>Prijzen synchroniseren vanaf de pagina Shopify-producten
 
 1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-producten** in en kies de gerelateerde koppeling.
 2. Kies de actie **Prijzen synchroniseren met Shopify**.
 
-### Opmerkingen over prijsberekening
+### <a name="price-calculation-remarks"></a>Opmerkingen over prijsberekening
 
 * Bij het bepalen van een prijs gebruikt [!INCLUDE[prod_short](../includes/prod_short.md)] 'laagste prijs'-logica. De logica voor de laagste prijs negeert echter de eenheidsprijs die is gedefinieerd op de artikelkaart als er een prijs is gedefinieerd in de prijsgroep. Dit geldt zelfs als de eenheidsprijs van de artikelkaartprijs lager is.
 * Om prijzen te berekenen, maakt de connector een tijdelijke verkoopofferte voor het artikel met een hoeveelheid van 1 en gebruikt standaard prijsberekeningslogica. Alleen prijzen en kortingen die gelden voor hoeveelheid 1 worden gebruikt. U kunt geen verschillende prijzen of kortingen exporteren op basis van hoeveelheid.
 * De connector verzendt een verzoek om prijzen bij te werken in Shopify als de prijs in [!INCLUDE[prod_short](../includes/prod_short.md)] is veranderd. Als u bijvoorbeeld producten en prijzen synchroniseert en vervolgens de prijs wijzigt in Shopify, heeft het kiezen van de actie **Prijzen synchroniseren met Shopify** geen enkele invloed op de prijs in Shopify, aangezien de nieuwe prijs, berekend door de connector, hetzelfde is als de prijs die is opgeslagen in de Shopify-variant vanuit een vorige synchronisatie. De **Prijs vergelijken** wordt alleen bijgewerkt als de hoofdprijs is gewijzigd.
 
-## Voorraad synchroniseren met Shopify
+## <a name="sync-inventory-to-shopify"></a>Voorraad synchroniseren met Shopify
 
 Voorraad synchronisatie kan worden geconfigureerd voor reeds gesynchroniseerde artikelen. Er zijn twee voorwaarden waaraan moet worden voldaan:
 
 1. Voorraad bijhouden moet zijn ingeschakeld voor een product in Shopify. Als artikelen worden geëxporteerd naar Shopify, overweeg dan **Voorraad getraceerd** in te schakelen op de pagina **Shopify-winkel**. Lees meer in de sectie [Artikelen exporteren naar Shopify](synchronize-items.md#export-items-to-shopify).
 2. Voorraadsynchronisatie moet zijn ingeschakeld voor **Shopify-vestigingen**.
 
-### Voorraadsynchronisatie inschakelen
+### <a name="to-enable-inventory-sync"></a>Voorraadsynchronisatie inschakelen
 
 1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u voorraad wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
@@ -279,18 +279,18 @@ Voorraad synchronisatie kan worden geconfigureerd voor reeds gesynchroniseerde a
 
 U kunt afbeeldingssynchronisatie op de hieronder beschreven twee manieren initialiseren.
 
-### Voorraad synchroniseren vanaf de pagina Shopify-winkel
+### <a name="sync-inventory-from-the-shopify-shop-page"></a>Voorraad synchroniseren vanaf de pagina Shopify-winkel
 
 1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-winkels** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de winkel waarvoor u voorraad wilt synchroniseren om de pagina **Shopify-winkelkaart** te openen.
 3. Kies de actie **Voorraad synchroniseren**.
 
-### Voorraad synchroniseren vanaf de pagina Shopify-producten
+### <a name="sync-inventory-from-the-shopify-products-page"></a>Voorraad synchroniseren vanaf de pagina Shopify-producten
 
 1. Ga naar het pictogram zoeken ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Shopify-producten** in en kies de gerelateerde koppeling.
 2. Kies de actie **Voorraad synchroniseren**.
 
-### Opmerkingen over voorraad
+### <a name="inventory-remarks"></a>Opmerkingen over voorraad
 
 * Er zijn twee standaardmethoden voor voorraadberekening: **Voorspelde beschikbare voorraad op datum** en **Gratis voorraad (niet gereserveerd)**. Met uitbreidbaarheid kunt u meer opties toevoegen. Ga voor meer informatie over uitbreidbaarheid naar [voorbeelden](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * U kunt de voorraadinformatie inspecteren die u hebt ontvangen van Shopify op de pagina **Feitenblok Shopify-voorraad**. In dit feitenblok krijgt u een overzicht van de Shopify-voorraad en de laatst berekende voorraad in [!INCLUDE[prod_short](../includes/prod_short.md)]. Er is één record per vestiging.
@@ -298,7 +298,7 @@ U kunt afbeeldingssynchronisatie op de hieronder beschreven twee manieren initia
 * Wanneer u een nieuwe locatie toevoegt in Shopify, moet u er ook inventarisrecords voor toevoegen. Shopify doet dat niet automatisch voor bestaande producten en varianten, en de connector synchroniseert geen voorraadniveaus voor dergelijke artikelen op de nieuwe vestiging. Ga voor meer informatie naar [Voorraad toewijzen aan vestigingen](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 * Zowel **Business Central-afhandelingsservices** als normale vestigingen worden ondersteund en kunnen worden gebruikt voor verzending en voorraad.
 
-#### Voorbeeld van berekening van voorspeld beschikbaar saldo
+#### <a name="example-of-calculation-of-projected-available-balance"></a>Voorbeeld van berekening van voorspeld beschikbaar saldo
 
 Er zijn tien stuks van artikel A beschikbaar en twee openstaande verkooporders. Eén voor maandag met aantal *Eén* en één voor donderdag met aantal *Twee*. Afhankelijk van wanneer u de voorraad synchroniseert, werkt het systeem het voorraadniveau in Shopify bij met verschillende hoeveelheden:
 
@@ -307,7 +307,7 @@ Er zijn tien stuks van artikel A beschikbaar en twee openstaande verkooporders. 
 |Dinsdag|9|Voorraad tien minus verkooporder ingesteld op verzending op maandag|
 |Vrijdag|7|Voorraad tien minus beide verkooporders|
 
-### Twee benaderingen om afhandeling te beheren
+### <a name="two-approaches-to-manage-fulfillments"></a>Twee benaderingen om afhandeling te beheren
 
 Er zijn twee manieren om met afhandeling in Shopify om te gaan:
 
@@ -329,13 +329,13 @@ Vanuit het [!INCLUDE[prod_short](../includes/prod_short.md)]-perspectief, wilt u
 * Gebruik de schakelaar **Standaardproductvestiging** om aan te geven of dit artikel wordt afgehandeld door Shopify of 3PL. Er is altijd **Business Central-afhandelingsservice**, maar er kunnen meer afhandelingsservices zijn als er meer apps zijn geïnstalleerd. U kunt **Standaardproductvestiging** slechts in één record inschakelen als u de afhandelingsservice wilt gebruiken. 
 * Gebruik de schakelaar **Standaardproductvestiging** om op te geven welke locaties u wilt gebruiken om de voorraad bij te houden. U kunt **Standaardproductvestiging** aanzetten voor meerdere locaties waar **Is afhandelingsservice** is uitgeschakeld. Houd er rekening mee dat de voorraad altijd wordt bijgehouden voor de primaire locatie.
 
-#### Wat is het verschil?
+#### <a name="whats-the-difference"></a>Wat is het verschil?
 
 Shopify-afhandeling is handig bij gebruik Shopify POS en als er meerdere fysieke winkels zijn. U wilt dat medewerkers in de fysieke winkel de huidige voorraad kennen. In dit geval maakt u meerdere vestigingen in Shopify, meerdere vestigingen in [!INCLUDE[prod_short](../includes/prod_short.md)], en activeert u **Standaardproductvestiging** voor al deze vestigingen.  
 
 Als de logistiek wordt afgehandeld in [!INCLUDE[prod_short](../includes/prod_short.md)] waar u zoveel vestigingen kunt hebben als er nodig zijn om distributiecentra te vertegenwoordigen, maakt u geen vestigingen in Shopify. De connector maakt automatisch Business Central-afhandelingsservices en u kunt de voorraad via vestigingsfilters van verschillende vestigingen koppelen aan één afhandelingsservicerecord. Als gevolg hiervan is er in Shopify geen informatie over waar goederen vandaan worden verzonden. Er is alleen trackinginformatie, terwijl u in [!INCLUDE[prod_short](../includes/prod_short.md)] kunt selecteren op basis van beschikbaarheid en nabijheid van de bestemming.
 
-#### Voorbeeld van het gebruik van de schakelaar Standaardproductvestiging
+#### <a name="example-of-using-default-product-location-toggle"></a>Voorbeeld van het gebruik van de schakelaar Standaardproductvestiging
 
 Nadat u de actie **Shopify-vestigingen ophalen** hebt gekozen op de pagina **Shopify-vestigingen**, ziet u de volgende vestigingen:
 
@@ -354,6 +354,6 @@ Bekijk de impact van het inschakelen van de schakelaar Standaardproductvestiging
 |Business Central-afhandelingsservice|Voorraad wordt opgeslagen bij: Business Central-afhandelingsservice; Geselecteerde locaties: (App) Business Central-afhandelingsservice|
 |Business Central-afhandelingsservice en hoofd| Fout: U kunt geen standaard Shopify-vestigingen gebruiken met vestigingen voor afhandelingsservices|
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Aan de slag met de connector voor Shopify](get-started.md)  

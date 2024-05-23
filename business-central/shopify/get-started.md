@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Aan de slag met de Shopify-connector
+# <a name="get-started-with-the-shopify-connector"></a>Aan de slag met de Shopify-connector
 
 Verbind uw Shopify-winkel met [!INCLUDE [prod_short](../includes/prod_short.md)] en maximaliseer de productiviteit van uw bedrijf. Beheer en bekijk inzichten van uw bedrijf en uw Shopify-winkel als één geheel.
 
 Als u Shopify wilt gebruiken met [!INCLUDE [prod_short](../includes/prod_short.md)], moet u eerst een paar dingen doen. Dit artikel dient als een gids om uw Shopify-winkel te integreren met [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-## Vereisten voor Shopify
+## <a name="prerequisites-for-shopify"></a>Vereisten voor Shopify
 
 U moet over het volgende beschikken:
 
@@ -25,7 +25,7 @@ U moet over het volgende beschikken:
 
 Meer informatie over het maken van Shopify-proefversies en de aanbevolen instellingen vindt u op [Shopify-account maken en instellen](shopify-account.md).
 
-## Vereisten voor Business Central
+## <a name="prerequisites-for-business-central"></a>Vereisten voor Business Central
 
 - Zorg ervoor dat de app **[Shopify-connector](https://go.microsoft.com/fwlink/?linkid=2196238)** is geïnstalleerd.
 
@@ -33,7 +33,7 @@ Meer informatie over het maken van Shopify-proefversies en de aanbevolen instell
 
 - Zorg ervoor dat de gebruiker de juiste machtigingen heeft. Shopify-connector valt onder de machtigingenset **Shopify – beheer (SHPFY – ADMIN)**. Lees meer op [Gebruikers maken volgens licenties](../ui-how-users-permissions.md) en [Machtigingen toewijzen aan gebruikers en groepen](../ui-define-granular-permissions.md).
 
-## De Dynamics 365 Business Central-app installeren in uw online Shopify-winkel
+## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store"></a>De Dynamics 365 Business Central-app installeren in uw online Shopify-winkel
 
 Voor bestaande instanties van [!INCLUDE[prod_short](../includes/prod_short.md)] is deze stap optioneel en kan deze worden overgeslagen.
 
@@ -45,7 +45,7 @@ Voor bestaande instanties van [!INCLUDE[prod_short](../includes/prod_short.md)] 
 4. Kies **Nu aanmelden** om de [!INCLUDE[prod_short](../includes/prod_short.md)]-proef te starten of kies **Aanmelden** als u [!INCLUDE[prod_short](../includes/prod_short.md)] al hebt. U wordt omgeleid naar uw pagina [Business Central](https://businesscentral.dynamics.com).
 5. Voer de volgende stappen uit in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## Business Central verbinden met de online Shopify-winkel
+## <a name="connect-business-central-to-the-shopify-online-store"></a>Business Central verbinden met de online Shopify-winkel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.  
@@ -60,7 +60,7 @@ Voor bestaande instanties van [!INCLUDE[prod_short](../includes/prod_short.md)] 
 
 Herhaal stap 2-6 voor alle webshops die u wilt verbinden.
 
-### Bekende problemen
+### <a name="known-issues"></a>Bekende problemen
 
 - De browser blokkeert het pop-upvenster. Wanneer u de schakelaar **Geactiveerd** aanzet, opent [!INCLUDE [prod_short](../includes/prod_short.md)] de pagina **Wachten op een reactie. Sluit deze pagina niet** terwijl het wacht op een toegangstoken van Shopify. Als die pagina gesloten of geblokkeerd is, kunt u geen verbinding maken met Shopify. Meer informatie op [Om het toegangstoken verzoeken](troubleshoot.md#request-the-access-token).
 - Het kan een goed idee zijn om het Shopify-beheer geopend te hebben in dezelfde browser als [!INCLUDE [prod_short](../includes/prod_short.md)]
@@ -69,7 +69,7 @@ Herhaal stap 2-6 voor alle webshops die u wilt verbinden.
 - [Kan geen verbinding maken vanuit sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 - Zorg ervoor dat u de juiste URL invoert in het veld **Shopify-URL**. U kunt de URL samenstellen door de winkel-id van de beheerders-URL te combineren. Bijvoorbeeld `admin.shopify.com/store/{shop}` en `.myshopify.com` om `https://{shop}.myshopify.com/` te krijgen.
 
-## Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 
 Nu is uw online winkel verbonden met [!INCLUDE[prod_short](../includes/prod_short.md)]. In de volgende stappen definieert u hoe en wat u wilt synchroniseren.
 
@@ -77,7 +77,7 @@ Nu is uw online winkel verbonden met [!INCLUDE[prod_short](../includes/prod_shor
 - [Klanten synchroniseren](synchronize-customers.md)
 - [Orders synchroniseren](synchronize-orders.md)
 
-## Strategieën testen
+## <a name="testing-strategies"></a>Strategieën testen
 
 Er zijn verschillende benaderingen voor het testen van een integratie, en elke benadering heeft zijn voor- en nadelen.
 
@@ -85,13 +85,13 @@ U kunt [!INCLUDE[prod_short](../includes/prod_short.md)]- en Shopify-accounts zo
 
 Het is eenvoudig om synchronisatietests opnieuw uit te voeren. Met de connector kunt u geïmporteerde gegevens, zoals producten, klanten en orders, verwijderen en vervolgens weer importeren. U moet gewoon de [synchronisatie resetten](troubleshoot.md#reset-sync).
 
-### Shopify-sandbox en Business Central-sandbox
+### <a name="shopify-sandbox-and-business-central-sandbox"></a>Shopify-sandbox en Business Central-sandbox
 
 Dit is waarschijnlijk de veiligste manier om integratie te testen. In plaats van een Shopify-sandbox te gebruiken, kunt u ook een proefabonnement of Ontwikkelingswinkel gebruiken. In [!INCLUDE[prod_short](../includes/prod_short.md)] kunt u ook gebruik maken van een testbedrijf in een productieomgeving.
 
 Ga voor meer informatie over [!INCLUDE[prod_short](../includes/prod_short.md)]-sandboxen naar [Een nieuwe omgeving maken](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
-### Shopify-sandbox en Business Central-productie
+### <a name="shopify-sandbox-and-business-central-production"></a>Shopify-sandbox en Business Central-productie
 
 Dit is *geen* aanbevolen configuratie om te testen, omdat de Shopify-connector artikelen en klanten kan maken of wijzigen. Het kan ook verkoopdocumenten creëren, zoals orders en facturen. Deze documenten kunnen moeilijk ongedaan te maken zijn.
 
@@ -105,7 +105,7 @@ Als u deze configuratie moet gebruiken, raden we u aan de volgende instellingen 
 
 Zie [Een omgeving herstellen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore) voor meer informatie.
 
-### Shopify-productie en Business Central-sandbox
+### <a name="shopify-production-and-business-central-sandbox"></a>Shopify-productie en Business Central-sandbox
 
 Het kan een goed idee zijn om een ​​back-up van uw gegevens te maken. Exporteer bijvoorbeeld uw producten en klanten. Zie voor meer informatie [CSV-bestanden gebruiken om een ​​back-up te maken van winkelinformatie](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
@@ -116,7 +116,7 @@ Als u de schakelaar **Gegevenssynchronisatie naar Shopify toestaan** ingeschakel
 - Selecteer **Concept** in het veld **Status voor product maken** om ervoor te zorgen dat geëxporteerde producten niet beschikbaar zijn voor kopers. U kunt controleren hoe producten er in de online winkel uitzien en prijzen, opties en voorraadniveaus synchroniseren. Zorg ervoor dat u filters gebruikt op de pagina **Artikel toevoegen aan Shopify** om het aantal geëxporteerde artikelen te beperken.
 - Schakel de schakelaar **Klant exporteren naar Shopify** uit, zodat u geen klanten naar Shopify verzendt.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Procedure: Shopify-connector instellen en gebruiken](walkthrough-setting-up-and-using-shopify.md)  
 

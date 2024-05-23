@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Verkoopanalyse
+# <a name="sales-analytics"></a>Verkoopanalyse
 
 Bedrijven leggen tijdens dagelijkse activiteiten een veel gegevens vast die waardevolle business intelligence (BI) voor verkoopmanagers ondersteunen:
 
@@ -32,7 +32,7 @@ Elk van deze functies heeft voor- en nadelen, afhankelijk van het type gegevensa
 
 In dit artikel wordt beschreven hoe u deze analytische functies kunt gebruiken om verkoopinzichten te verschaffen.
 
-## Analysebehoefte in verkoop
+## <a name="analytics-needs-in-sales"></a>Analysebehoefte in verkoop
 
 Bij het in kaart brengen van de analysebehoeften in verkoopmanagement kan het helpen om een model te gebruiken dat gebaseerd is op persona's en dat verschillende analysebehoeften op een hoog niveau beschrijft.
 
@@ -49,14 +49,14 @@ Mensen in verschillende rollen hebben verschillende behoeften als het om gegeven
 |Accountmanager/verkoopmedewerker | Gedetailleerde gegevens     | Ingebouwde operationele rapporten <br> Taakgegevens op het scherm |
 
 <!-- 
-## Sales KPIs
+## <a name="sales-kpis"></a>Sales KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In sales management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## Financiële rapportage gebruiken om financiële overzichten en KPI’s te produceren (in verband met verkoop)
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-sales"></a>Financiële rapportage gebruiken om financiële overzichten en KPI’s te produceren (in verband met verkoop)
 
 De functie **Financiële rapportage** geeft u inzichten in de financiële gegevens die in uw rekeningschema zijn opgeslagen. U kunt financiële rapporten instellen om cijfers in grootboekrekeningen (GB) te analyseren en grootboekposten te vergelijken met budgetposten. Specifiek voor verkoopmanagement kunt u financiële rapporten instellen voor de grootboekrekeningen die u gebruikt om verkoopboekingen bij te houden.
 
@@ -64,13 +64,13 @@ Dimensies spelen een belangrijke rol bij bedrijfsinformatie. Een dimensie bestaa
 
 Als u meer wilt weten over financiële rapporten, gaat u naar [Financiële rapporten voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md).
 
-## Financiële rapportage voor bedrijfsunits of rechtspersonen in verband met verkoop
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-sales"></a>Financiële rapportage voor bedrijfsunits of rechtspersonen in verband met verkoop
 
 Sommige organisaties gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in meerdere bedrijfsunits of rechtspersonen. Anderen gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in dochterondernemingen die rapporteren aan moederorganisaties. [!INCLUDE [prod_short](includes/prod_short.md)] geeft accountants tools waarmee ze grootboekposten van twee of meer bedrijven (dochterondernemingen) kunnen overbrengen naar een geconsolideerd bedrijf. Specifiek voor verkoopbeheer wilt u mogelijk grootboekposten voor uw verkooprekeningen consolideren om verkoop-KPI's voor bedrijfsunits of rechtspersonen bij te kunnen houden.
 
 Ga naar [Bedrijfsconsolidatie](finance-consolidated-company-reporting.md) voor meer informatie.
 
-## Adhoc-analyse van verkoopgegevens
+## <a name="ad-hoc-analysis-of-sales-data"></a>Adhoc-analyse van verkoopgegevens
 
 Soms hoeft u alleen maar te controleren of de getallen correct zijn, of snel een cijfer bevestigen. De volgende functies zijn ideaal voor ad-hocanalyses:
 
@@ -90,7 +90,7 @@ Op dezelfde manier kunt u de actie **Openen in Excel** gebruiken om een lijstpag
 
 Voor meer informatie over het uitvoeren van ad-hocanalyses van verkoopgegevens gaat u naar [Ad-hocanalyse van verkoopgegevens](ad-hoc-analysis-sales.md). 
 
-## Ingebouwde verkooprapporten
+## <a name="built-in-reports-for-sales"></a>Ingebouwde verkooprapporten
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bevat verschillende ingebouwde rapporten, traceringsfuncties en tools waarmee verkooporganisaties kunnen rapporteren over hun gegevens.
 
@@ -105,7 +105,7 @@ Er zijn twee soorten ingebouwde rapporten:
 
 Ga naar [Ingebouwde rapporten voor verkoop](sales-reports.md) voor meer informatie over rapporten die relevant zijn voor verkopen.
 
-## Verkoopanalyses op het scherm
+## <a name="on-screen-sales-analytics"></a>Verkoopanalyses op het scherm
 
 [!INCLUDE [prod_short](includes/prod_short.md)] heeft een aantal pagina's waarop u verkoopoverzichten en taken kunt vinden. Hier zijn enkele voorbeelden om u op weg te helpen:
 
@@ -121,7 +121,7 @@ Ga naar [Ingebouwde rapporten voor verkoop](sales-reports.md) voor meer informat
 - [Niet-geboekte en geboekte verkoopraamcontractregels weergeven](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
 
-### Aan verkoop gerelateerde grootboekposten en saldi weergeven vanaf de pagina Rekeningschema
+### <a name="show-sales-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Aan verkoop gerelateerde grootboekposten en saldi weergeven vanaf de pagina Rekeningschema
 
 Op de pagina Rekeningschema worden alle grootboekrekeningen weergegeven met samengevoegde cijfers die naar het grootboek zijn geboekt. Vanaf deze pagina kunt u het volgende doen:  
 
@@ -135,7 +135,7 @@ Specifiek voor verkoop kunt u op de pagina Rekeningschema een weergave maken waa
 
 Ga voor meer informatie naar [Het rekeningschema begrijpen](finance-general-ledger.md#the-chart-of-accounts).
 
-### Gegevens analyseren per dimensie (in verband met verkoop)
+### <a name="analyze-data-by-dimensions-related-to-sales"></a>Gegevens analyseren per dimensie (in verband met verkoop)
 
 Dimensies zijn waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren in documenten, zoals verkooporders. Dimensies kunnen bijvoorbeeld aangeven tot welk project of welke afdeling een post behoort.  
 
@@ -143,7 +143,7 @@ In plaats van voor elke afdeling of locatie aparte grootboekrekeningen in te ste
 
 Ga voor meer informatie naar [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bedrijfsconsolidatie](finance-consolidated-company-reporting.md)   
 [Financiële rapporten voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md)  

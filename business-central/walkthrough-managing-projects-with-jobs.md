@@ -36,7 +36,7 @@ In deze procedure maakt u kennis met de functies voor projectbeheer. Projecten z
 - Bekijken hoe contractuele en gefactureerde waarden worden vastgesteld.  
 - Extra (niet gefactureerd) werk dat niet is gefactureerd, in het schema opnemen.  
 
-### <a name="copying-a-job"></a>Een project kopiëren
+### <a name="copying-a-project"></a>Een project kopiëren
 
  In dit deel van het overzicht wordt besproken hoe u een project geheel of gedeeltelijk kunt kopiëren om het handmatig invoeren van gegevens te beperken en de nauwkeurigheid te verhogen. Dit omvat het volgende:  
 
@@ -223,11 +223,11 @@ In de volgende procedure maakt u een projectdagboekbatch voor Tricia om het gebr
 
 De regels worden nu geboekt.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Een projectverkoopfactuur maken en boeken
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Een projectverkoopfactuur maken en boeken
 
  Tricia kan vervolgens een nieuwe factuur maken voor het hele project of voor een deel van een project. Tricia kan de factuur ook aan een andere factuur voor dezelfde klant en voor hetzelfde project koppelen. In dit geval factureert Tricia voor het volledige project, aangezien het project nu is voltooid.  
 
-### <a name="to-create-a-job-sales-invoice"></a>Een projectverkoopfactuur maken
+### <a name="to-create-a-project-sales-invoice"></a>Een projectverkoopfactuur maken
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer het project dat u eerder hebt gemaakt en kies de actie **Projectverkoopfactuur maken**.  
@@ -261,7 +261,7 @@ De regels worden nu geboekt.
 
  CRONUS heeft een contract afgesloten voor het opzetten van vergaderruimten. Als projectleider wil Prakash een goed overzicht hebben van de taken die nodig zijn voor het project met de bijbehorende gebudgetteerde en gemaakte kosten voor elke taak. Bovendien wil Prakash weten wat de totale contractprijs voor het project is en wat het bedrag is dat tot nu toe is gefactureerd. Ze hebben met de klant een vaste prijs voor een project afgesproken.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a>Vaste prijzen beheren in projecten
+### <a name="to-manage-fixed-pricing-in-projects"></a>Vaste prijzen beheren in projecten
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Projecten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het projectnummer **Guildford** en kies de actie **Projecttaakregels**.  

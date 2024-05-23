@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Goedkeuringswerkstromen gebruiken
+# <a name="how-to-use-approval-workflows"></a>Goedkeuringswerkstromen gebruiken
 
 Wanneer een record, zoals een inkoopdocument of klantenkaart, door iemand in uw organisatie moet worden goedgekeurd, stuurt u een goedkeuringsaanvraag als onderdeel van een werkstroom. Op basis van de instellingen van de werkstroom krijgt de betreffende fiatteur vervolgens het bericht dat hij of zij de record moet goedkeuren.
 
@@ -21,7 +21,7 @@ Naast de werkstromen voor goedkeuring die in dit artikel worden beschreven kunt 
 
 Kerngoedkeuringswerkstromen voor inkoopdocumenten, verkoopdocumenten, betalingsdagboeken, klantenkaarten en artikelkaarten zijn gereed om als begeleide instellingen te dienen. Zie voor meer informatie [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
 
-## Goedkeuring van een record aanvragen
+## <a name="request-a-record-approval"></a>Goedkeuring van een record aanvragen
 
 De volgende taak wordt uitgevoerd door een fiatteurgebruiker.
 
@@ -32,7 +32,7 @@ De status van de goedkeuringsvermelding wordt bijgewerkt van **Gemaakt** naar **
 
 Als alle vereiste fiatteurs de record hebben goedgekeurd, wordt de status gewijzigd in **Vrijgegeven**. U kunt dan doorgaan met werken met de record.
 
-## Goedkeuringsaanvragen annuleren
+## <a name="cancel-approval-requests"></a>Goedkeuringsaanvragen annuleren
 
 De volgende taak wordt uitgevoerd door een fiatteurgebruiker met fiatteursrechten.
 
@@ -42,7 +42,7 @@ Het kan voorkomen dat een klant wijzigingen wil aanbrengen in een order nadat de
 
 Als de goedkeuringsaanvraag is geannuleerd, wordt de status voor de gerelateerde goedkeuringspost veranderd in **Geannuleerd**. De status van de record wordt bijgewerkt van **Wacht op goedkeuring** naar **Open**. Het goedkeuringsproces kan op dit moment opnieuw beginnen.
 
-## Aanvragen voor goedkeuring goedkeuren of afwijzen
+## <a name="approve-or-reject-approval-requests"></a>Aanvragen voor goedkeuring goedkeuren of afwijzen
 
 De volgende taak wordt uitgevoerd door een fiatteurgebruiker met fiatteursrechten.
 
@@ -58,7 +58,7 @@ Als er een fiatteurshiërarchie is ingesteld, is de recordstatus **Wacht op goed
 
 Tegelijkertijd wordt de goedkeuringsstatus gewijzigd van **Gemaakt** in **Open** zodra een goedkeuringsaanvraag voor de record is gemaakt. Als het verzoek wordt afgewezen, wordt de goedkeuringsstatus gewijzigd in **Afgewezen**. De status blijft **Open** of **Afgewezen** totdat alle fiatteurs het verzoek hebben goedgekeurd.
 
-## Goedkeuringsaanvragen delegeren
+## <a name="delegate-approval-requests"></a>Goedkeuringsaanvragen delegeren
 
 De volgende taak wordt uitgevoerd door een fiatteurgebruiker met fiatteursrechten.
 
@@ -69,7 +69,7 @@ De aanvrager en de goedkeuringsbeheerder kunnen een goedkeuringsaanvraag deleger
 
 Er wordt een bericht met het verzoek om de aanvraag goed te keuren, verstuurd naar de vervangende fiatteur.
 
-## Vervallen goedkeuringsaanvragen beheren
+## <a name="manage-overdue-approval-requests"></a>Vervallen goedkeuringsaanvragen beheren
 
 De volgende taak wordt uitgevoerd door een fiatteurgebruiker met fiatteursrechten.
 
@@ -80,7 +80,7 @@ Met de functie **Berichten over achterstallige goedkeuringen verzenden** control
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vervallen goedkeuringsaanvragen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Vervallen goedkeuringsaanvragen** de actie **Berichten over vervallen goedkeuringen verzenden**.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Goedkeuringswerkstromen gebruiken](across-use-workflows.md)  
 [Werkstroom](across-workflow.md)  

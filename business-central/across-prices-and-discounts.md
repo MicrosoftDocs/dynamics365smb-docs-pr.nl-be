@@ -11,14 +11,14 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Prijzen en kortingen instellen
+# <a name="set-up-prices-and-discounts"></a>Prijzen en kortingen instellen
 
 > [!NOTE]
 > In releasewave 2 van 2020 hebben we gestroomlijnde processen uitgebracht voor het instellen en beheren van prijzen en kortingen. Als u een nieuwe klant bent en die versie gebruikt, gebruikt u de nieuwe ervaring. Als u een bestaande klant bent, hangt of u de nieuwe ervaring gebruikt, af van de vraag of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd op de pagina **Functiebeheer**. Zie voor meer informatie [Aankomende functies van tevoren inschakelen](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Prijs- en kortingsstrategieën voor de aan- en verkoop van artikelen en diensten zijn fundamentele instrumenten voor succesvolle bedrijven. Nadat u de artikelen en services hebt ingesteld die uw bedrijf koopt en verkoopt, kunt u bepalen wat u ervoor betaalt of in rekening brengt, en die bedragen worden automatisch toegevoegd aan verkoop- en inkoopdocumenten. 
 
-## Prijzen en kortingen instellen
+## <a name="setting-up-prices-and-discounts"></a>Prijzen en kortingen instellen
 
 Voordat u prijslijsten maakt, moet u uw prijs- en kortingsstrategieën definiëren op de pagina's **Verkoopinstellingen** en **Instellingen Inkoop en betalingen**.
 
@@ -34,11 +34,11 @@ Doordat verkoopprijzen en verkoopregelkortingen worden gebaseerd op een combinat
 > [!TIP]  
 > Als u niet wilt dat een artikel ooit met korting wordt verkocht, laat u de kortingsvelden op de artikelpagina leeg en neemt u het artikel niet op in instellingen van regelkorting.
 
-## Over prijslijsten
+## <a name="about-price-lists"></a>Over prijslijsten
 
 Prijslijsten zijn flexibel en laten u de zakenpartner of activiteit specificeren waarop ze van toepassing zijn. U kunt bijvoorbeeld één prijslijst opstellen die van toepassing is op alle leveranciers en klanten, of speciale prijzen of kortingen aanbieden voor elke zakenpartner, misschien gebaseerd op een minimumhoeveelheid op inkoop- of verkooporders, of een bepaalde combinatie van klant, artikel, minimumhoeveelheid, maateenheid of tijdsperiode. De prijzen en kortingen die u definieert, worden automatisch toegepast op inkoop- en verkoopdocumenten. 
 
-## Prijzen instellen
+## <a name="set-up-prices"></a>Prijzen instellen
 
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. 
 
@@ -68,7 +68,7 @@ Als u prijslijsten en prijzen wilt bekijken die van toepassing zijn op specifiek
 
 ---
 
-## Een verkoopregelkorting instellen voor een klant
+## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Een verkoopregelkorting instellen voor een klant
 
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. 
 
@@ -98,7 +98,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 ---
 
-## Werken met factuurkortingen en servicekosten
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Werken met factuurkortingen en servicekosten
 
 Wanneer u factuurkortingen gebruikt, wordt op basis van het factuurbedrag bepaald welke korting wordt verleend. Op de pagina **Factuurkortingen** kunt u ook een bepaald bedrag aan administratiekosten toevoegen aan facturen.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -115,7 +115,7 @@ Naast (of in plaats van) een kortingspercentage kunt u administratiekosten aan e
 > [!TIP]  
 > Voordat u begint met het invoeren van deze informatie, is het een goed idee om van tevoren uw kortingsstructuur voor te bereiden, zodat u gemakkelijker kunt zien welke klanten aan dezelfde factuurkortingspagina moeten worden gekoppeld. Zie [Kortingen instellen voor uw klanten](/training/modules/customer-discounts-dynamics-365-business-central/index) voor meer informatie over kortingen bij verkopen.
 
-### Een factuurkorting voor een klant instellen
+### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Een factuurkorting voor een klant instellen
 
 Nadat u hebt bepaald welke klanten in aanmerking komen voor factuurkortingen, geeft u de factuurkortingscode op de klantenkaarten op en stelt u de voorwaarden voor elke code in.
 
@@ -136,7 +136,7 @@ Ga door met het instellen van de voorwaarden voor de nieuwe verkoopfactuurkortin
 
 De factuurkorting is nu ingesteld en toegewezen aan de klant in kwestie. Wanneer u de klantcode selecteert in het veld **Factuurkortingscode** op andere klantenkaarten, wordt dezelfde factuurkorting toegewezen aan die klanten.
 
-## Verkoopprijzen kopiëren
+## <a name="to-copy-sales-prices"></a>Verkoopprijzen kopiëren
 
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. 
 
@@ -167,7 +167,7 @@ De status van de prijslijstregel moet **Concept** zijn.
   
 ---
 
-## Artikelprijzen bulksgewijs bijwerken
+## <a name="to-bulk-update-item-prices"></a>Artikelprijzen bulksgewijs bijwerken
 
 Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Nieuwe verkoopprijservaring** heeft geactiveerd. 
 
@@ -195,11 +195,11 @@ Om prijzen voor meerdere artikelen bij te werken moet u een nieuwe prijslijst ma
 
 ---
 
-## De beste prijs berekenen
+## <a name="calculating-the-best-price"></a>De beste prijs berekenen
 
 Wanneer u speciale prijzen en regelkortingen voor verkopen en inkopen hebt geregistreerd, wordt er in [!INCLUDE[d365fin](includes/d365fin_md.md)] voor gezorgd dat uw winst op artikelhandel altijd optimaal is door de beste prijs op verkoop- en inkoopdocumenten en op project- en artikeldagboekregels automatisch te berekenen. Zie [De beste prijs berekenen](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation) voor meer informatie.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  

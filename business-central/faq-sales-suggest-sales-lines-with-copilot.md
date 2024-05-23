@@ -12,7 +12,7 @@ ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
 ---
 
-# Veelgestelde vragen over suggesties voor verkoopregels met Copilot (preview)
+# <a name="faq-for-sales-line-suggestions-with-copilot-preview"></a>Veelgestelde vragen over suggesties voor verkoopregels met Copilot (preview)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,11 +20,11 @@ Deze veelgestelde vragen (FAQ) beschrijven de AI-impact van de functie voor verk
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## Wat houdt Suggesties voor verkoopregels met Copilot in?
+## <a name="what-is-sales-line-suggestions-with-copilot"></a>Wat houdt Suggesties voor verkoopregels met Copilot in?
 
 Verkoopregelsuggesties met Copilot kunnen helpen bij het maken van regels in verkoopdocumenten zoals verkoopoffertes, orders en facturen op basis van gestructureerde invoer of natuurlijke taal. De functie is geen chat voor algemene doeleinden, maar een zeer specifieke en geïntegreerde ervaring die u kunt gebruiken voor verkoopdocumenten. De functie biedt twee verschillende vaardigheden waarmee u gegevens over afzonderlijke producten of volledige documenten kunt vinden.
 
-## Wat zijn de mogelijkheden van verkoopregelsuggesties met Copilot?
+## <a name="what-are-capabilities-of-sales-line-suggestions-with-copilot"></a>Wat zijn de mogelijkheden van verkoopregelsuggesties met Copilot?
 
 * Producten vinden
 
@@ -34,7 +34,7 @@ Verkoopregelsuggesties met Copilot kunnen helpen bij het maken van regels in ver
 
   Vaak herhalen mensen een eerdere bestelling of gebruiken ze deze op zijn minst als uitgangspunt. Maar het kan lastig zijn om de juiste volgorde in een reeks bestellingen te vinden. Mogelijk herinnert u zich een deel van de id van de bestelling. Dit kan een door het bedrijf toegewezen nummer zijn of een referentienummer dat u van een klant hebt ontvangen. Als u prompts kunt gebruiken als *Laatste factuur van april nodig*, zou u een bestelling sneller moeten kunnen vinden.
 
-## Wat is het beoogde gebruik van verkoopregelsuggesties met Copilot?
+## <a name="what-is-the-intended-use-of-sales-line-suggestions-with-copilot"></a>Wat is het beoogde gebruik van verkoopregelsuggesties met Copilot?
 
 * Producten vinden
 
@@ -59,13 +59,13 @@ Verkoopregelsuggesties met Copilot kunnen helpen bij het maken van regels in ver
   * *Haal producten van order 103031 op*
   * *Producten nodig van laatste factuur in augustus*
 
-## Hoe is de evaluatie van verkoopregelsuggesties met Copilot verlopen? Welke statistieken worden gebruikt om de prestaties te meten?
+## <a name="how-was-sales-line-suggestions-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>Hoe is de evaluatie van verkoopregelsuggesties met Copilot verlopen? Welke statistieken worden gebruikt om de prestaties te meten?
 
 De functie is uitgebreid getest, waarbij talloze prompts in het Amerikaans-Engels zowel typisch gebruik als gebruik door slechte actoren vertegenwoordigden. Het testen was gebaseerd op de demonstratiegegevens van [!INCLUDE [prod_short](includes/prod_short.md)] en een grote gelabelde productcatalogus die beschikbaar was als open source.
 
 Deze functie is gebouwd in overeenstemming met de Responsible AI Standard van Microsoft. [Lees meer over verantwoorde AI van Microsoft](https://aka.ms/RAI).
 
-## Wat zijn de beperkingen van verkoopregelsuggesties met Copilot? Hoe kunnen gebruikers de impact van de beperkingen van verkoopregelsuggesties met Copilot minimaliseren wanneer het systeem wordt gebruikt?
+## <a name="what-are-the-limitations-of-sales-line-suggestions-with-copilot-how-can-users-minimize-the-impact-of-the-sales-line-suggestions-with-copilot-limitations-when-using-the-system"></a>Wat zijn de beperkingen van verkoopregelsuggesties met Copilot? Hoe kunnen gebruikers de impact van de beperkingen van verkoopregelsuggesties met Copilot minimaliseren wanneer het systeem wordt gebruikt?
 
 * Producten vinden
   
@@ -113,15 +113,15 @@ Voor producten bevat de volgende tabel de tabellen en velden waarin Copilot zoek
 
   Copilot retourneert niet alle regels van het type Artikel. Alleen artikelnummers, variantcodes en hoeveelheden worden overgebracht. Hoeveelheden uit het brondocument worden omgezet naar de **Verkoopeenheid**.
 
-## In welke geografieën en talen zijn verkoopregelsuggesties beschikbaar?
+## <a name="in-which-geographies-and-languages-is-sales-lines-suggestions-available"></a>In welke geografieën en talen zijn verkoopregelsuggesties beschikbaar?
 
 Met uitzondering van Canada is deze functie beschikbaar voor alle land-/regiolokalisaties in de omgeving en in alle ondersteunde talen. Vanwege de beperkte taalondersteuning is de functie in eerste instantie niet beschikbaar voor Canadese klanten omdat niet wordt voldaan aan de regelgeving voor taal. Om deze mogelijkheid beschikbaar te maken voor klantomgevingen in landen/regio's waar de Azure OpenAI-service niet wordt geïmplementeerd, moeten beheerders eerst toestemming geven om verplaatsing van hun gegevens over de grenzen heen toe te staan voor [!INCLUDE [prod_short](includes/prod_short.md)] om verbinding te maken met de Azure OpenAI-service.  
 
-## Welke operationele factoren en instellingen maken een effectief en verantwoordelijk gebruik van de functie mogelijk?
+## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>Welke operationele factoren en instellingen maken een effectief en verantwoordelijk gebruik van de functie mogelijk?
 
 Suggesties op basis van AI kunnen soms onjuist of onvolledig zijn. U dient altijd de juistheid van de suggesties van Copilot te beoordelen voordat u beslist of u deze wilt behouden. Suggesties van Copilot worden pas in de [!INCLUDE [prod_short](includes/prod_short.md)]-database opgeslagen als u de knop **Behouden** kiest en het Copilot-venster sluit. U kunt suggesties bewerken en corrigeren voordat u ervoor kiest deze te behouden, of nadat ze in een verkoopdocument zijn ingevoegd.
 
-### Wat wordt er van beheerders en eindgebruikers verwacht bij het gebruik van verkoopregelsuggesties?
+### <a name="what-is-expected-of-administrators-and-end-users-when-using-sales-lines-suggestions"></a>Wat wordt er van beheerders en eindgebruikers verwacht bij het gebruik van verkoopregelsuggesties?
 
 Elke individuele gebruiker kiest zelf voor het wel of niet gebruiken van **Suggesties voor verkoopregels**. Zelfs als de functie is ingeschakeld door beheerders en beschikbaar is, kunt u ervoor kiezen deze altijd, soms of nooit te gebruiken.  
 
@@ -131,15 +131,15 @@ Beheerders nemen de algemene beslissing over het al dan niet gebruiken van de Co
 > - We ondersteunen deze functie niet in [!INCLUDE [prod_short](includes/prod_short.md)] on-premises of in de privécloud.
 > - Partners kunnen deze functie niet uitbreiden. Dat betekent dat partnerontwikkelaars de functie niet kunnen wijzigen, vervangen of uitbreiden.
 
-## Is Copilot het enige middel om verkoopregels te maken?  
+## <a name="is-copilot-the-only-means-to-create-sales-lines"></a>Is Copilot het enige middel om verkoopregels te maken?
 
 Nee, het gebruik van Copilot is optioneel. [!INCLUDE [prod_short](includes/prod_short.md)] biedt niet door AI aangestuurde manieren om verkoopregels in te voegen of documenten te kopiëren. Organisaties kunnen beide benaderingen tegelijkertijd gebruiken.  
 
-## Hoe geef ik feedback over door AI gegenereerde inhoud?  
+## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Hoe geef ik feedback over door AI gegenereerde inhoud?
 
 Elke keer dat Copilot suggesties biedt, kunt u rechtstreeks vanuit het Copilot-venster feedback aan Microsoft geven met behulp van de knoppen Vind ik leuk en Niet leuk. Uw feedback blijft anoniem en wij gebruiken deze gegevens om de kwaliteit van de dienstverlening te verbeteren.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Regels op verkooporders voorstellen met Copilot](sales-suggest-sales-lines-with-copilot.md)  
 [Copilot- en AI-mogelijkheden configureren](enable-ai.md)  

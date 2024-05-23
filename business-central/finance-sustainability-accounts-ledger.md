@@ -11,9 +11,9 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Diagram van duurzaamheidsrekeningschema en -grootboek
+# <a name="chart-of-sustainability-accounts-and-ledger"></a>Diagram van duurzaamheidsrekeningschema en -grootboek
 
-## Duurzaamheidsrekeningschema
+## <a name="chart-of-sustainability-accounts"></a>Duurzaamheidsrekeningschema
 
 Het duurzaamheidsrekeningschema (CoSA) vormt de fundamentele gestructureerde lijst die wordt gebruikt voor het vastleggen van alle uitstootgegevens. Het dient als een raamwerk dat duurzaamheidsrekeningen categoriseert en organiseert op basis van hun kenmerken, zoals de reikwijdte of andere groeperingen. Aan elke rekening wordt doorgaans een unieke code of nummer toegewezen, zodat u deze gemakkelijk kunt raadplegen en volgen. Het heeft dezelfde structuur als een traditioneel rekeningschema, maar is specifiek aangepast om duurzaamheidsgerelateerde gegevens en statistieken in een organisatie te monitoren.
 
@@ -36,7 +36,7 @@ Vanuit het duurzaamheidsrekeningschema kunt u onder andere het volgende doen:
 
 U kunt duurzaamheidsrekeningen toevoegen, wijzigen of verwijderen. Om discrepanties te voorkomen kunt u echter een duurzaamheidsrekening niet verwijderen als er een of meer grootboekposten aan deze rekening zijn gekoppeld.
 
-### Rekeningen toevoegen of wijzigen
+### <a name="add-or-change-accounts"></a>Rekeningen toevoegen of wijzigen
 
 1. Selecteer het ![Lampje dat de functie Vertel me opent 3.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Duurzaamheidsrekeningschema** in en selecteer de gerelateerde koppeling.
 2. Op de pagina **Duurzaamheidsrekeningschema** kunt u elke duurzaamheidsrekening openen en vervolgens instellingen toevoegen of veranderen. Wijs een veld aan om een korte omschrijving te lezen.
@@ -48,11 +48,11 @@ Voor rekeningen van het type **Eindtotaal** stelt de functie Inspringen automati
 > [!IMPORTANT]
 > De functie Inspringen overschrijft de waarde van alle velden voor **Eindtotaal**-rekeningen. Als u definities in de velden **Samentelling** voor **Eindtotaal**-rekeningen hebt ingevoerd voordat u de inspringfunctie uitvoerde, moet u deze daarna daarom opnieuw invoeren.
 
-### Rekeningen verwijderen
+### <a name="delete-accounts"></a>Rekeningen verwijderen
 
 U kunt een duurzaamheidsrekening verwijderen. U moet er echter eerst voor zorgen dat er geen grootboekposten aan zijn gekoppeld. Business Central voorkomt dat u een duurzaamheidsrekening verwijdert als er een of meer grootboekposten aan zijn gekoppeld.
 
-## Rekeningcategorieën
+## <a name="account-categories"></a>Rekeningcategorieën
 
 Gebruikers moeten een duurzaamheidsrekeningcategorie aan elke duurzaamheidsrekening toevoegen om te definiëren hoe het systeem zich gedraagt. Ze kunnen uitstootbereiken selecteren, specifieke uitstoot om formules en soortgelijke configuraties bij te houden.
 
@@ -93,7 +93,7 @@ Als u het veld **Berekeningsbasis** instelt, legt de volgende tabel uit hoe het 
 | | Aangepast | *Uitstoot* = *Aangepast bedrag* &times; *EF* | *Aangepast bedrag* = hotelverblijven |
 | | Brandstof/elektriciteit | *Uitstoot* = *Brandstof* &times; *EF* | *Brandstof* = hoeveelheid brandstof die is verbruikt in de bedrijfswagen, enzovoort |
 
-## Rekeningsubcategorieën
+## <a name="account-subcategories"></a>Rekeningsubcategorieën
 
 Gebruikers moeten een duurzaamheidsrekeningsubcategorie aan elke duurzaamheidsrekening toevoegen. Deze subcategorie definieert de uitstootfactoren die in de formules worden gebruikt, op basis van de keuze voor het volgen van uitstoot in de duurzaamheidsrekeningcategorie.
 
@@ -113,7 +113,7 @@ Volg de stappen om duurzaamheidsrekeningsubcategorieën te bekijken:
 > [!NOTE]
 > De velden **Gegevens importeren** **Importeren van** zijn bedoeld voor mogelijke integratie met externe systemen die worden gebruikt om uitstootfactoren te verzamelen. Echter, in **releasewave 1 van 2024** kunnen deze velden standaard niet als een functie worden gebruikt.
 
-## Duurzaamheidsposten
+## <a name="sustainability-ledger-entries"></a>Duurzaamheidsposten
 
 Het duurzaamheidsgrootboek slaat de geschiedenis van alle geboekte duurzaamheidstransacties en ordent alle uitstootgegevens volgens het duurzaamheidsrekeningschema. Wanneer een gebruiker het duurzaamheidsdagboek boekt, worden daar alle cruciale gegevens vastgelegd. Alle actieve rapporten worden gegenereerd op basis van de duurzaamheidsposten.
 
@@ -122,7 +122,7 @@ Om dit grootboek voor één specifieke rekening te openen gebruikt u de actie **
 > [!IMPORTANT]
 > Nadat u uw gegevens in het duurzaamheidsgrootboek hebt geboekt, kunt u ze niet meer verwijderen. Als u een fout hebt gemaakt, kunt u de omgekeerde transactie boeken met dezelfde gegevens, maar met een minteken voor het bedrag.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Financiën](finance.md)  
 [Overzicht van duurzaamheidsbeheer](finance-manage-sustainability.md)  

@@ -11,7 +11,7 @@ ms.date: 04/04/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Een reeks werkstroomgebruikers instellen
+# <a name="set-up-a-sequence-of-workflow-users"></a>Een reeks werkstroomgebruikers instellen
 
 Voordat u goedkeuringswerkstromen kunt maken, moet u de gebruikers instellen die aanvragen kunnen indienen, en hun fiatteurs. U kunt bijvoorbeeld opgeven wie een bericht ontvangt als er moet worden gereageerd op een werkstroomstap. U stelt deelnemers aan goedkeuringswerkstromen in op de **Gebruikersinstellingen voor goedkeuring**. Meer informatie op [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ Op de pagina **Werkstroomgebruikersgroepen** kunt u opgeven waar een deelnemer e
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## Een werkstroomgebruikersgroep instellen
+## <a name="to-set-up-a-workflow-user-group"></a>Een werkstroomgebruikersgroep instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstroomgebruikersgroepen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. De pagina **Werkstroomgebruikersgroep** wordt geopend.  
@@ -36,7 +36,7 @@ Op de pagina **Werkstroomgebruikersgroepen** kunt u opgeven waar een deelnemer e
    > Normaal gesproken zijn volgnummers opeenvolgend voor gebruikers in een werkstroomgebruikersgroep. Meerdere gebruikers kunnen echter hetzelfde volgnummer hebben. Wanneer dat het geval is, hoeft slechts één van de gebruikers een verzoek goed te keuren voordat de werkstroom naar de volgende stap gaat. Als gebruiker A en gebruiker B bijvoorbeeld allebei nummer twee in de reeks zijn, gaat de werkstroom naar stap drie wanneer gebruiker A of gebruiker B het verzoek goedkeurt.
 6. Herhaal stap 5 om meer werkstroomgebruikers aan de werkstroomgebruikersgroep toe te voegen.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)  
 [Goedkeuringswerkstromen instellen](across-set-up-workflows.md)  
