@@ -9,7 +9,7 @@ ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-finance"></a>Financiën instellen
+# Financiën instellen
 
 Voordat u kunt beginnen met de uitvoering van uw bedrijf, moet u opgeven hoe u financiële processen voor het bedrijf wilt beheren. Als eerste stelt u de kern van de boekhoudadministratie van het bedrijf in: het rekeningschema (COA). Vervolgens stelt u de boekingsgroepen in, waarmee standaard-grootboekrekeningen efficiënter kunnen worden toegewezen aan klanten, leveranciers en artikelen.
 
@@ -21,21 +21,21 @@ Veel van de instellingstaken moeten worden voltooid voordat u financiële transa
 
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
-| Tot | Zie |
+| Aan | Zie |
 | --- | --- |
 |Grootboekrekeningen bekijken of bewerken waarnaar alle grootboekposten worden geboekt|[De rekeningschema's instellen of wijzigen](finance-setup-chart-accounts.md)|
 | Geef aan hoe u wilt worden betaald door klanten en hoe u uw leveranciers wilt betalen. |[Betalingsmethoden instellen](finance-payment-methods.md) |
 | Geef betalingsvoorwaarden op voor het beheren van vervaldatums en het berekenen van mogelijke betalingskortingen.|[Betalingsvoorwaarden instellen](finance-payment-terms.md) |
 | Geef de boekingsgroepen op die entiteiten zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten toewijzen aan grootboekrekeningen. |[Boekingsgroepen instellen](finance-posting-groups.md)|
-|Maak financiële rapporten en definieer rekeningcategorieën om de inhoud van financiële grafieken en rapporten te bepalen, zoals de rapporten Balans en Resultatenrekening.|[Financiële rapportage voorbereiden met financiële gegevens en accountcategorieën](bi-how-work-account-schedule.md)|
-|Stel een tolerantie in waarmee het systeem een factuur sluit zelfs indien de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Stel boekperioden in. |[Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md) |
-|Stel factuurvoorwaarden in die uw klanten eraan herinneren om te betalen.|[De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)|
+|Maak financiële rapporten en definieer rekeningcategorieën om de inhoud van financiële grafieken en rapporten te bepalen, zoals de rapporten Balans en Resultatenrekening.|[Financiële rapportage voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md)|
+|Stel een tolerantie in waarmee het systeem een factuur sluit zelfs indien de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt.|[Werken met betalingstoleranties en contantkortingstoleranties](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+| Stel boekperioden in. |[Werken met boekingsperioden en fiscale jaren](finance-accounting-periods-and-fiscal-years.md) |
+|Stel factuurvoorwaarden in die uw klanten eraan herinneren om te betalen.|[Termijnen, niveaus en tekst van aanmaningen instellen](finance-setup-reminders.md)|
 | Definiëren hoe u btw-bedragen die u hebt geïnd voor verkopen, rapporteert aan de belastingdienst. |[Btw instellen](finance-setup-vat.md)|
 |Verwerking voorbereiden van niet gerealiseerde btw in verband met op kas gebaseerde boekhoudingsmethoden.|[Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen](finance-setup-unrealized-vat.md)|
 |Definieer de vreemde valuta's waarin u handelt of transacties rapporteert.|[Valuta's instellen](finance-set-up-currencies.md)|
 | Stel uw verkoop- en inkoopfuncties in om betalingen in vreemde valuta's te verwerken.|[Vereffening van posten in verschillende valuta's inschakelen](finance-how-enable-application-ledger-entries-different-currencies.md)
-|Definieer een of meer extra valuta's, zodat bedragen automatisch worden gerapporteerd in zowel de lokale valuta (LV) als de extra rapportagevaluta in elke grootboekpost en in andere posten.|[Een extra rapportagevaluta instellen.](finance-how-setup-additional-currencies.md)|
+|Definieer een of meer extra valuta's, zodat bedragen automatisch worden gerapporteerd in zowel de lokale valuta (LV) als de extra rapportagevaluta in elke grootboekpost en in andere posten.|[Een extra rapportagevaluta instellen](finance-how-setup-additional-currencies.md)|
 |Pas periodiek extra valuta-equivalenten aan in verband met schommelende wisselkoersen.|[Valutawisselkoersen bijwerken](finance-how-update-currencies.md)|
 |Definieer meerdere rentepercentages voor verschillende perioden voor vertraagde betalingen in handelstransacties.|[Meerdere rentetarieven instellen](finance-how-to-set-up-multiple-interest-rates.md)|
 |Zorg ervoor dat bedragen automatisch worden afgerond bij het maken van facturen.|[Factuurafronding instellen](finance-set-up-invoice-rounding.md)|
@@ -50,7 +50,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 > [!TIP]
 > Afhankelijk van uw geografische locatie bevatten sommige Business Central-pagina's mogelijk velden die niet worden beschreven in de bovengenoemde artikelen, omdat ze van toepassing zijn op lokale functionaliteit of aanpassingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën](finance.md)  
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  

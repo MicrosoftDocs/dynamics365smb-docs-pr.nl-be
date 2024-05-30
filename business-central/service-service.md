@@ -1,5 +1,5 @@
 ---
-title: CRM - Service
+title: Servicebeheer
 description: Leer functies te gebruiken in Business Central ontworpen beheer- en traceringsservices ter ondersteuning van reparatiewerkplaatsen en buitendienstactiviteiten.
 author: brentholtorf
 ms.author: bholtorf
@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="service-management"></a>Servicebeheer
+# Servicebeheer
 
 > [!NOTE]
 > De functionaliteit die in dit onderwerp wordt beschreven, is alleen zichtbaar in de gebruikersinterface als u de **Premium**-ervaring hebt. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
@@ -27,14 +27,14 @@ Daarnaast kunt u codering standaardiseren, contracten opstellen, een kortingsbel
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
-|**Als u dit wilt doen**|**Onderwerp**|  
+|**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
 |Servicebeheer instellen, met inbegrip van storingscodes, beleid, standaarddocumenten en sjablonen.|[CRM - Service instellen](service-setup-service.md)|  
 |Serviceprijzen beheren, serviceartikelen maken en begrijpen hoe u de voortgang bijhoudt.|[Service plannen](service-plan-service.md)|  
 |Contractuele overeenkomsten tussen u en uw klanten maken en beheren.|[Servicecontracten voldoen](service-fulfill-service-contracts.md)|  
 |Service aan klanten bieden en serviceorders factureren.|[Service leveren](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Projecten](projects-how-create-jobs.md)  

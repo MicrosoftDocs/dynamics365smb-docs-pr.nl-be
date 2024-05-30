@@ -10,13 +10,13 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="set-up-approval-workflows"></a>Goedkeuringswerkstromen instellen
+# Goedkeuringswerkstromen instellen
 
 U kunt werkstromen instellen en gebruiken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen. Zie voor meer informatie [Goedkeuringswerkstromen gebruiken](across-use-workflows.md).
 
 Voordat u kunt beginnen met goedkeuringswerkstromen gebruiken, moet u de werkstroomgebruikers en goedkeuringgebruikers instellen, opgeven hoe gebruikers berichten ontvangen over werkstroomstappen en vervolgens de werkstromen maken.
 
-Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomreactie, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen met behulp van lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.
+Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen met behulp van lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
@@ -35,14 +35,14 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Werkstromen delen met andere [!INCLUDE[prod_short](includes/prod_short.md)]-databases.|[Goedkeuringswerkstromen exporteren en importeren](across-how-to-export-and-import-workflows.md)|  
 |Lees meer informatie over het instellen van een werkstroom voor de goedkeuring van verkoopdocumenten door een end-to-end procedure te volgen.|[Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Voorbeeld van een goedkeuringswerkstroom
+## Voorbeeld van een goedkeuringswerkstroom
 
 Deze video laat zien hoe u een werkstroom instelt waarvoor een gebruiker de goedkeuring van iemand anders moet vragen voordat deze informatie over een bestaande klant kan wijzigen of een nieuwe klant kan maken.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Goedkeuringswerkstromen gebruiken](across-use-workflows.md)  
 [Werkstroom](across-workflow.md)  

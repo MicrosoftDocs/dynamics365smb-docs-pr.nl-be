@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Overzicht van duurzaamheidsbeheer
+# Overzicht van duurzaamheidsbeheer
 
 > [!IMPORTANT]
 > Deze functie is beschikbaar in Business Central vanaf **releasewave 1 van 2024**. Alle referentielinks worden ingeschakeld zodra ze beschikbaar zijn.
@@ -36,16 +36,16 @@ Met deze functie kunt u het volgende doen:
 
 Raadpleeg de volgende artikelen om aan de slag te gaan met duurzaamheidsbeheer.
 
-| Artikel | Omschrijving |
+| Artikel | Beschrijving |
 |---------|-------------|
 | [Duurzaamheidsinstellingen](finance-sustainability-setup.md) | Dit artikel biedt informatie om u te helpen de hele Duurzaamheidsmodule correct te configureren. |
 | [Duurzaamheidsrekeningschema en grootboek](finance-sustainability-accounts-ledger.md) | Dit artikel biedt informatie over hoe u het duurzaamheidsrekeningschema, rekeningcategorieën en -subcategorieën correct kunt instellen, en hoe u informatie in duurzaamheidsgrootboekposten kunt analyseren. |
 | [Duurzaamheidsposten vastleggen](finance-sustainability-journal.md) | Gebruik dit artikel om te leren werken met alle soorten duurzaamheidsdagboeken. |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Duurzaamheidsinstellingen](finance-sustainability-setup.md)  
-[Diagram van duurzaamheidsrekeningschema en -grootboek](finance-sustainability-accounts-ledger.md)  
+[Duurzaamheidsrekeningschema en grootboek](finance-sustainability-accounts-ledger.md)  
 [Duurzaamheidsposten vastleggen](finance-sustainability-journal.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

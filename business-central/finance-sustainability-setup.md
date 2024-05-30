@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Duurzaamheidsinstellingen
+# Duurzaamheidsinstellingen
 
 Om de Duurzaamheidsmodule goed te laten werken moet u eerst een aantal basisbedieningen en instructies instellen die betrekking hebben op de gehele functionaliteit.
 
@@ -20,7 +20,7 @@ Om de duurzaamheidsmodule in te stellen volgt u deze stappen:
 1. Selecteer het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Duurzaamheidsinstelling** in en kies vervolgens de gerelateerde koppeling.
 2. Configureer op het sneltabblad **Algemeen** de vereiste velden met betrekking tot de duurzaamheidsmodule.
 
-    | Veld | Omschrijving |
+    | Veld | Beschrijving |
     |-------|-------------|
     | **Code van eenheid voor uitstoot** | Geef de code op van de maateenheid die wordt gebruikt om uitstoot te registreren. |
     | **Decimalen voor uitstoot** | Geef het aantal decimalen op dat wordt weergegeven voor uitstoothoeveelheden. De standaardinstelling, *2:5*, geeft aan dat alle bedragen met minimaal 2 decimalen en maximaal 5 decimalen worden weergegeven. U kunt ook een vast getal invoeren. Als u bijvoorbeeld *2* invoert, worden bij alle bedragen twee decimalen weergegeven. |
@@ -34,7 +34,7 @@ Om de duurzaamheidsmodule in te stellen volgt u deze stappen:
 
 3. Configureer op het sneltabblad **Berekeningen** de verplichte velden die verband houden met de formules die worden gebruikt voor het berekenen van uitstoot.
 
-    | Veld | Omschrijving |
+    | Veld | Beschrijving |
     |-------|-------------|
     | **Decimalen brandstof/elektriciteit** | Geef het aantal decimalen op dat wordt weergegeven voor brandstof/elektriciteit-hoeveelheden. De standaardinstelling, *2:5*, geeft aan dat alle bedragen met minimaal 2 decimalen en maximaal 5 decimalen worden weergegeven. U kunt ook een vast getal invoeren. Als u bijvoorbeeld *2* invoert, worden bij alle bedragen twee decimalen weergegeven. |
     | **Decimalen voor afstand** | Geef het aantal decimalen op dat wordt weergegeven voor afstandsmetingen. De standaardinstelling, *2:5*, geeft aan dat alle bedragen met minimaal 2 decimalen en maximaal 5 decimalen worden weergegeven. U kunt ook een vast getal invoeren. Als u bijvoorbeeld *2* invoert, worden bij alle bedragen twee decimalen weergegeven. |
@@ -45,18 +45,18 @@ Om de duurzaamheidsmodule in te stellen volgt u deze stappen:
     > [!NOTE]
     > In versie 24.0 ondersteunt [!INCLUDE[prod_short](includes/prod_short.md)] geen rapportage aan welke autoriteit dan ook. Daarom zijn de velden die gerelateerd zijn aan de configuratie van deze functionaliteit op het sneltabblad **Rapportage** bedoeld voor toekomstige rapportagemogelijkheden. Partners kunnen deze velden echter ook in gelokaliseerde versies gebruiken.
 
-    | Veld | Omschrijving |
+    | Veld | Beschrijving |
     |-------|-------------|
     | **Code van eenheid voor uitstootrapportage** | Geef de maateenheidscode op die wordt gebruikt om uitstoot te rapporteren, omdat u bij rapportage aan autoriteiten een andere maateenheid kunt gebruiken. Dit veld is niet van toepassing op de standaardrapporten. |
     | **Maateenheidsfactor voor rapportage** | Geef de maateenheidsfactor op die wordt gebruikt om uitstoot te registreren als u bij rapportage aan autoriteiten een andere maateenheid kunt gebruiken. |
     | **Afrondingsprecisie voor uitstoot** | Geef de grootte op van het interval dat moet worden gebruikt voor het afronden van uitstoothoeveelheden wanneer u rapporteert aan autoriteiten. |
     | **Type afronding van uitstoot** | Geef op hoe het programma uitstootbedragen afrondt wanneer u rapporteert aan de autoriteiten. De volgende opties zijn beschikbaar: **Dichtstbijzijnd**, **Omhoog** en **Omlaag**. |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën](finance.md)  
 [Overzicht van duurzaamheidsbeheer](finance-manage-sustainability.md)  
-[Diagram van duurzaamheidsrekeningschema en -grootboek](finance-sustainability-accounts-ledger.md)  
+[Duurzaamheidsrekeningschema en grootboek](finance-sustainability-accounts-ledger.md)  
 [Duurzaamheidsposten vastleggen](finance-sustainability-journal.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
