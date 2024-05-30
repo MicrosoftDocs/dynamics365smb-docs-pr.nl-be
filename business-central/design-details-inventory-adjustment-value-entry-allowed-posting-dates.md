@@ -26,7 +26,7 @@ Deze foutmelding geeft aan dat de gebruiker geen boekingen mag plaatsen voor de 
 
 De gebruiker heeft in dit geval een toegestane boekingsdatumreeks van 11 september tot 30 september en mag daarom de herwaarderingswaardepost niet boeken met boekingsdatum 10 september.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Overzicht van betrokken instelling van boekingsdatum
+### <a name="overview-of-the-posting-date-setup"></a>Overzicht van betrokken instelling van boekingsdatum
 
 #### <a name="inventory-periods"></a>Voorraadperioden
 

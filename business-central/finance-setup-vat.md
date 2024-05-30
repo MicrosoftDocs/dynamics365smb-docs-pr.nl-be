@@ -142,7 +142,7 @@ Boeking voor de specifieke gebruiker beperken:
 3. Geef in het veld **Boeken toegest. vanaf** de btw-datum op vanaf wanneer u boekingen toestaat. Het boeken van een document of dagboek met een btw-datum vóór deze datum is niet toegestaan.
 4. Geef in het veld **Boeken toegest. tot** de btw-datum op tot wanneer u boekingen toestaat. Het boeken van een document of dagboek met een btw-datum na deze datum is niet toegestaan.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Btw-nummers instellen voor uw land/regio
+## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Btw-nummers instellen voor uw land/regio
 
 Als u ervoor wilt zorgen dat gebruikers geldige btw-nummers invoeren, kunt u notaties definiëren voor de btw-nummers die worden gebruikt in de landen of regio's waar u zaken doet. [!INCLUDE[prod_short](includes/prod_short.md)] geeft een foutbericht weer wanneer iemand een fout maakt of een notatie gebruikt die onjuist is voor het land/regio.
 
@@ -232,7 +232,7 @@ In de volgende gedeelten wordt beschreven hoe u btw-boekingsgroepen aan afzonder
     * Vouw op de kaart **Resource** het sneltabblad **Facturering** uit.  
 3. Kies de btw-productboekingsgroep.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Clausules instellen om btw-vrijstelling of niet-standaard btw-tarieven uit te leggen
+## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Clausules instellen om btw-vrijstelling of niet-standaard btw-tarieven uit te leggen
 
 U stelt een btw-clausule in om informatie te geven over het soort btw dat wordt toegepast. De informatie kan nodig zijn voor overheidsregelgeving. Nadat u een btw-clausule hebt ingesteld en deze hebt gekoppeld aan een btw-boekingsinstelling, wordt de btw-clausule weergegeven op afgedrukte verkoopdocumenten waarin de btw-boekingsinstellingengroep wordt gebruikt.
 
@@ -293,7 +293,7 @@ Ga als volgt te werk om codes voor import-btw in te stellen:
 5. Kies in het veld **Btw-berekening** **Volledig**.  
 6. Voer in het veld **Inkoop-btw-rekening** de grootboekrekening in die moet worden gebruikt om import-btw te boeken. Alle andere rekeningen zijn optioneel.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Verlegging van btw gebruiken voor handel tussen EU-landen of -regio's
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>Verlegging van btw gebruiken voor handel tussen EU-landen of -regio's
 
 Sommige bedrijven moeten verlegging van btw gebruiken wanneer zaken worden gedaan met andere bedrijven. Deze regel is bijvoorbeeld van toepassing op inkopen van EU-landen/-regio's en verkopen aan EU-landen/-regio's.  
 
@@ -303,7 +303,7 @@ Sommige bedrijven moeten verlegging van btw gebruiken wanneer zaken worden gedaa
 > [!TIP]  
 > U kunt controleren of een bedrijf btw-plichtig is in een ander EU-land/regio door de EU-service voor btw-nummervalidatie te gebruiken. De service is gratis beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Btw-nummers controleren](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a>Verkopen aan EU-landen of -regio's
+### <a name="sales-to-eu-countriesregions"></a>Verkopen aan EU-landen of -regio's
 
 Btw wordt niet berekend op verkopen aan btw-plichtige bedrijven in andere EU-landen/-regio's. U moet de waarde van deze verkopen aan EU-landen/-regio's apart op uw btw-aangifte vermelden.  
 
