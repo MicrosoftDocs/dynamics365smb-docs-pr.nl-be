@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Artikelen verplaatsen
+# Artikelen verplaatsen
 
 U kunt artikelen in uw magazijn op verschillende manieren verplaatsen, afhankelijk van de configuratie van uw magazijn. De complexiteit kan variëren:
 
@@ -29,14 +29,14 @@ Tellen, corrigeren en herindelen van artikelen kunnen magazijntaken omvatten die
 
  De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
-|**Functie**|**Zie**|  
+|**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
 |Artikelen tussen vestigingen verplaatsen|[Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)|
 |Verplaats artikelen op elk gewenst moment en zonder brondocumenten tussen opslaglocaties in standaardmagazijnconfiguraties.|[Artikelen verplaatsen in standaardmagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
 |Gebruik het magazijnverplaatsingsvoorstel, interne picking en opslag om artikelen in geavanceerde magazijnconfiguraties te verplaatsen met gestuurde opslag en pick.|[Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |De magazijnstructuur aanpassen met nieuwe opslaglocatiecodes en -kenmerken.|[Magazijnen herstructureren](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)  
 [Voorraad](inventory-manage-inventory.md)  

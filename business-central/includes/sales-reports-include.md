@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 
 De volgende tabel beschrijft enkele van de belangrijkste rapporten in verkooprapportage.
 
-| Rapport | Omschrijving | Id | 
+| Rapporteren | Beschrijving | Id | 
 |---------|---------|---------|
 |[Klant - Samenvatting orders](https://businesscentral.dynamics.com?report=107)| Toont de orderdetails met het nog niet verzonden aantal voor elke klant in drie perioden van dertig dagen, vanaf de opgegeven datum. Er zijn ook kolommen met orders die voor en na deze drie perioden moeten worden verzonden en een kolom met het totale orderoverzicht voor elke klant. Gebruik het rapport om het verwachte verkoopvolume van een bedrijf te analyseren. |107|
 |[Klant - Top 10](https://businesscentral.dynamics.com?report=111)| Toont gegevens over inkopen en saldi van klanten voor een geselecteerde periode. U kunt de nummers opgeven van de klanten die u in de lijst wilt opnemen. Klanten worden alleen opgenomen als ze tijdens de periode inkopen hebben gedaan of aan het einde van de periode een saldo hebben.<br>De klanten worden op bedrag gesorteerd en u kunt aangeven of op verkoopbedrag of op saldo moet worden gesorteerd. In het rapport kunt u in een oogopslag zien welke klanten de meeste inkopen hebben gedaan of het hoogste saldo hebben openstaan.|111|

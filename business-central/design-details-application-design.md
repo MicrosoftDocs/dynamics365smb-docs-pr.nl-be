@@ -9,7 +9,7 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="application-design-details"></a>Details van toepassingsontwerp
+# Details van toepassingsontwerp
 
 De artikelen in dit gedeelte bevatten gedetailleerde technische informatie over complexe toepassingsfuncties in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -18,14 +18,14 @@ De inhoud van ontwerpdetails is gericht op uitvoerders, ontwikkelaars en superge
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
 |Inzicht in de mechanismen van de kostenengine, zoals waarderingsmethode en kostenwaardering, en voor welke boekhoudprincipes ze zijn ontworpen.|[Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)|  
-|Leren hoe de batchverwerking Kostprijs herwaarderen - Artikelposten een boekingsdatum bepaalt en toewijst aan de waardeposten die de batchverwerking gaat maken.|[Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)|
+|Leren hoe de batchverwerking Kostprijs herwaarderen - Artikelposten een boekingsdatum bepaalt en toewijst aan de waardeposten die de batchverwerking gaat maken.|[Ontwerpdetails: Boekingsdatum van herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)|
 |Meer informatie over het ontwerp voor het opslaan en boeken van dimensies, inclusief codevoorbeelden voor het migreren en upgraden van dimensiecode.|[Ontwerpdetails: Dimensiesetposten](design-details-dimension-set-entries-overview.md)|
 |Meer leren over hoe het planningssysteem werkt en hoe de algoritmen om te voldoen aan planningsvereisten in verschillende omgevingen kunnen worden aangepast.|[Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)|  
 |Leer hoe het systeem een constante controle op artikelbeschikbaarheid in het magazijn houdt, zodat uitgaande orders efficiënt kunnen stromen en optimale leveringen kunnen worden geboden.|[Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md)|
 |Meer leren over historisch en huidig ontwerp van artikeltraceringsfunctionaliteit en hoe deze wordt geïntegreerd met het reserveringsysteem om serie-/lotnummers in beschikbaarheidsberekeningen op te nemen.|[Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)|  
-|Meer informatie over de functie Boekingsregel voor dagboeken.|[Ontwerpdetails: Dagboekboekingsregel](design-details-general-journal-post-line.md)|
+|Meer informatie over de functie Boekingsregel voor dagboeken.|[Ontwerpdetails: dagboekboekingsregel](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Gepland](production-planning.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  

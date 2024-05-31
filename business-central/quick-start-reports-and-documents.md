@@ -1,21 +1,22 @@
 ---
-title: Snelstartgids Basisrapporten en documentuitvoer
+title: Snelle start van basisrapporten en documentenuitvoer
 description: 'Business Central biedt ingebouwde sjablonen voor rapporten en documenten, met veel aanpassingsopties om ze aan te passen aan de behoeften van uw bedrijf.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
-ms.date: 08/15/2022
-ms.author: bholtorf
+ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start"></a>Snelstartgids Basisrapporten en documentuitvoer
+# Snelle start van basisrapporten en documentenuitvoer
 
 Als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt aanpassen aan uw bedrijfsbehoeften, configureert en gebruikt u rapporten en aangepaste documenten die passen bij uw bedrijfsprocessen en visuele identiteit.
 
-## <a name="add-your-company-logo-to-documents"></a>Uw bedrijfslogo toevoegen aan documenten
+## Uw bedrijfslogo toevoegen aan documenten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] heeft sjablonen ingesteld om het logo van uw bedrijf te gebruiken om u tijd te besparen bij het aanpassen van documenten zoals facturen, bestellingen en afschriften.
 
@@ -23,9 +24,9 @@ Als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt aanpassen aan uw bedri
 2. Kies de actie **Afbeelding** en selecteer vervolgens **Kiezen**.
 3. Selecteer het afbeeldingsbestand op uw apparaat.
 
-U kunt de bovenstaande instructies zien in [deze YouTube-video](https://www.youtube.com/watch?v=AatXbKF1NGg). Zodra de afbeelding wordt weergegeven in het veld **Afbeelding**, kunt u de pagina **Bedrijfsgegevens** sluiten.
+Nadat de afbeelding wordt weergegeven in het veld  **Afbeelding**, kunt u de pagina  **Bedrijfsinformatie**  sluiten.
 
-## <a name="run-reports"></a>Rapporten uitvoeren
+## Rapporten uitvoeren
 
 Rapporten ordenen informatie uit verschillende bronnen in [!INCLUDE[prod_short](includes/prod_short.md)] en presenteren die op een leesbare manier die gemakkelijk kan worden afgedrukt of digitaal kan worden gedeeld. Rapporten zijn te vinden op de pagina's waaraan ze contextueel zijn gekoppeld. Bijvoorbeeld de pagina **Artikelen** bevat rapporten met betrekking tot voorraadniveaus, aankopen, verkopen en meer.
 
@@ -37,7 +38,7 @@ Rapporten ordenen informatie uit verschillende bronnen in [!INCLUDE[prod_short](
 
 Lees meer over het filteren van gegevens, het plannen van rapporten en meer op [Rapporten uitvoeren en afdrukken](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Rapporten opslaan als PDF-, Excel- of Word-bestand
+## Rapporten opslaan als PDF-, Excel- of Word-bestand
 
 Als u snel rapporten wilt delen, kunt u [!INCLUDE[prod_short](includes/prod_short.md)]-rapporten rechtstreeks opslaan naar PDF-, Microsoft Excel-, of Microsoft Word-documenten.
 
@@ -46,7 +47,7 @@ Als u snel rapporten wilt delen, kunt u [!INCLUDE[prod_short](includes/prod_shor
 3. Selecteer het bestandstype en kies **OK**.
 Het gegenereerde rapportbestand wordt automatisch opgeslagen in de downloadmap van uw browser.
 
-### <a name="change-report-and-document-layouts"></a>Rapport- en documentindelingen wijzigen
+### Rapport- en documentindelingen wijzigen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] wordt geleverd met veel ingebouwde lay-outs voor uw rapporten en andere gegenereerde documenten, zoals verkoopfacturen. U kunt toepassingen gebruiken zoals Microsoft Word of Excel om de indelingssjablonen voor documenten en rapporten te bewerken, zoals beschreven in het volgende voorbeeld:
 
@@ -63,7 +64,7 @@ Het gegenereerde rapportbestand wordt automatisch opgeslagen in de downloadmap v
 
 Lees meer over het aanpassen van rapporten en documenten aan uw zakelijke behoeften op [Rapport- en documentindelingen](ui-manage-report-layouts.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Rapporten gebruiken in het dagelijkse werk](reports-use-reports.md)  
 [Beschikbare rapporten [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

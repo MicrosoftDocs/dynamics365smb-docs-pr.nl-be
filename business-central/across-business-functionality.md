@@ -10,7 +10,7 @@ ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="business-functionality"></a>Bedrijfsfunctionaliteit
+# Bedrijfsfunctionaliteit
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt functionaliteit voor algemene bedrijfsprocessen in kleine en middelgrote bedrijven, vooral in groothandel en professionele dienstverlening. Complexere processen, zoals assemblage, productie, service en gestuurd magazijnbeheer, worden echter ook ondersteund. Lees [hier](trial-signup.md) hoe u een gratis proefperiode kunt krijgen.  
 
@@ -18,10 +18,10 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan uw zakelijke behoeften. Vanuit uw rolcentrum kunt u toegang krijgen tot begeleide instellingen die u helpen bij de configuratie van bepaalde scenario's en functies toevoegen aan [!INCLUDE[prod_short](includes/prod_short.md)]. Verschillende gebieden van bedrijfsfunctionaliteit moet u handmatig instellen. De artikelen van de [snelstartgids voor Business Central](quick-start-business-central.md) helpen u de eerste stappen te zetten bij het maken van uw eigen [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] instellen](setup.md).
 
-| Tot | Zie |
+| Aan | Zie |
 | --- | --- |
 |Betalingen verrichten en innen, uw cashflow beheren, inkomsten en omzet uitstellen, jaarafsluiting voorbereiden en vaste activa beheren.|[Financiën](finance.md)|
-|Krijg inzicht in de prestaties van uw zakelijke activiteiten met budgetten, rapportageschema's en analyseweergaven.|[Financiële bedrijfsinformatie](bi.md)|
+|Krijg inzicht in de prestaties van uw zakelijke activiteiten met budgetten, rapportageschema's en analyseweergaven.|[Financiële Business Intelligence](bi.md)|
 |Verkoopprocessen en informatie beheren, waaronder offertes, orders, retouren, en klantaccounts, en doorverzendingen aanmaken.|[Verkoop](sales-manage-sales.md)|
 |Inkoopprocessen en informatie beheren, zoals facturen, orders, retouren en leveranciersaccounts, en artikelen inkopen van verkoopdocumenten. |[Inkoop](purchasing-manage-purchasing.md)|
 |Nieuwe voorraad of service-artikelen registreren, artikelen categoriseren om ze eenvoudig te vinden, voorraadniveaus aanpassen en algemene taken voor voorraadwaardering uitvoeren.|[Voorraad](inventory-manage-inventory.md)|
@@ -38,7 +38,7 @@ ms.service: dynamics-365-business-central
 |Gebruikers de mogelijkheid geven om gegevens uit te wisselen met externe bronnen voor dagelijkse taken, zoals het versturen/ontvangen van elektronische documenten, bankbestanden importeren/exporteren en wisselkoersen bijwerken.|[Gegevens elektronisch uitwisselen](across-data-exchange.md)|
 |Leg externe documenten vast in [!INCLUDE[prod_short](includes/prod_short.md)], inclusief de bestandbijlagen, maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Beheer](admin-setup-and-administration.md)    
 [De mogelijkheden van Dynamics 365 Business Central verkennen](https://dynamics.microsoft.com/business-central/capabilities/)  

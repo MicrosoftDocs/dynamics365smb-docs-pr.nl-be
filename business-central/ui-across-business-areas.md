@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
+# Algemene bedrijfsfunctionaliteit
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. Zie voor meer informatie [Bedrijfsfunctionaliteit](across-business-functionality.md).
 
@@ -22,7 +22,7 @@ Om de taken te ondersteunen die specifiek zijn voor uw bedrijfsgebied, kunt u ge
 
 De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar artikelen waarin deze worden beschreven.
 
-| Tot | Zie |
+| Aan | Zie |
 | --- | --- |
 |Voeg extra informatie toe aan rekeningen, klantenkaarten of verkooporders om overeenkomsten, zoals een speciale prijs of leveringsmethode, te doen toekomen aan andere gebruikers.|[Opmerkingen toevoegen aan kaarten en documenten](across-how-use-comments.md)|
 |Lopende, geboekte of gearchiveerde documenten weergeven die gerelateerd zijn aan verkoop- en inkooporderregels.|[Documentregels traceren](across-how-to-track-document-lines.md)|
@@ -37,7 +37,7 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar arti
 |Bewerk geselecteerde velden in geboekte verkoop- of inkoopdocumenten.|[Geboekte documenten bewerken](across-edit-posted-document.md)|
 |Leer hoe u documenten en posten kunt vinden die aan elkaar gerelateerd zijn op basis van een document, contact of artikelgegevens. | [Gerelateerde posten zoeken voor documenten](ui-find-entries.md) |
 |Begrijp de beschikbare status voor offertes, orders en creditnotadocumenten, zoals **Open** en **Vrijgegeven** | [Statusveld in documenten](ui-document-status.md) |
-|Leer meer over het werken met dagboeken die worden gebruikt voor boeking naar grootboekrekeningen en andere rekeningen, zoals bank-, klant-, leveranciers- en VA-rekeningen. |[Werken met diversendagboeken](ui-work-general-journals.md) |
+|Leer meer over het werken met dagboeken die worden gebruikt voor boeking naar grootboekrekeningen en andere rekeningen, zoals bank-, klant-, leveranciers- en VA-rekeningen. |[Werken met dagboeken](ui-work-general-journals.md) |
 | Plan een rapport voor uitvoering op een bepaalde datum en tijd. |[Een rapport plannen voor uitvoering](ui-work-report.md#ScheduleReport) |
 |Laat het systeem u helpen taken sneller en correcter te voltooien door velden vooraf te vullen of regels te vullen met gegevens die u anders zelf moet berekenen en invoeren.|[Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)|
 |Leg externe documenten vast, inclusief de bestandsbijlagen, en maak vervolgens handmatig de gerelateerde documenten of converteer de bestanden automatisch naar elektronische documenten.|[Inkomende documenten](across-income-documents.md)|
@@ -45,7 +45,7 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar arti
 | Stel definities in voor de uitwisseling van gegevens, zodat u elektronische documenten kunt verzenden en ontvangen. |[Gegevens elektronisch uitwisselen](across-data-exchange.md) |
 | Gebruik online kaarten om vestigingen en routebeschrijvingen naar klanten, leveranciers en adressen in het algemeen te vinden. | [Online kaarten gebruiken om locaties en routebeschrijvingen te vinden](across-online-maps.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Beheer](admin-setup-and-administration.md)  

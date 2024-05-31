@@ -10,7 +10,7 @@ ms.author: mikebc
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Nieuwe en aankomende functies van tevoren inschakelen
+# Nieuwe en aankomende functies van tevoren inschakelen
 
 Sommige nieuwe functies kunnen van tevoren worden ingeschakeld, zodat u er zo vroeg mogelijk gebruik van kunt maken. Als u functies vroegtijdig inschakelt, heeft u de tijd om uw organisatie te testen en voor te bereiden op verandering.
 
@@ -18,7 +18,7 @@ Wanneer Microsoft functies of verbeteringen in het ontwerp van functies uitbreng
 
 Meer informatie over [functiebeheer](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Nieuwe en geplande functies](/dynamics365-release-plan/2021wave1/)  
 

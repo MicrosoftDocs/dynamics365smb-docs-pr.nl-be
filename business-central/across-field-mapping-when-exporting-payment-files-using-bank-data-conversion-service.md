@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Veldtoewijzing bij de export van betalingsbestanden met behulp van de extensie AMC Banking 365 Fundamentals
+# Veldtoewijzing bij de export van betalingsbestanden met behulp van de extensie AMC Banking 365 Fundamentals
 Wanneer u betalingsbestanden exporteert met de extensie AMC Banking 365 Fundamentals, zijn de gegevens die u exporteert, zichtbaar voor de serviceprovider. De serviceprovider is verantwoordelijk voor de privacy van deze informatie. Zie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md) voor meer informatie over de extensie AMC Banking 365 Fundamentals.  
 
 > [!CAUTION]  
@@ -20,9 +20,9 @@ Wanneer u betalingsbestanden exporteert met de extensie AMC Banking 365 Fundamen
 
 De volgende tabel bevat de velden in [!INCLUDE[prod_short](includes/prod_short.md)] vanwaar u gegevens kunt exporteren.  
 
-|Toegewezen veld|Veld in tabel|Tafel|Omschrijving|  
+|Toegewezen veld|Veld in tabel|Tafel|Beschrijving|  
 |------------------|--------------------|-----------|---------------------------------------|  
-|Crediteurnummer|Crediteurnummer|Bankrekening|De identificatie die door uw bank aan uw bedrijf is toegewezen om betalingen te innen|  
+|Crediteurnr.|Crediteurnummer|Bankrekening|De identificatie die door uw bank aan uw bedrijf is toegewezen om betalingen te innen|  
 |Bankrekeningnummer afzender|Bankrekeningnr./IBAN|Bankrekening|Het bankrekeningnummer van uw bedrijf (IBAN of ander) dat is opgegeven op de bankrekeningkaart|  
 |Verrekeningsstandaard bank afzender|Verrekeningsstandaard bank|Bankrekening|Het nationale banknamenregister dat voor de bankrekening van de afzender wordt gebruikt|  
 |Verrekeningscode bank afzender|Verrekeningscode bank|Bankrekening|De identificatie van de bankrekening van de afzender met betrekking tot het gebruikte banknamenregister|  
@@ -62,7 +62,7 @@ De volgende tabel bevat de velden in [!INCLUDE[prod_short](includes/prod_short.m
 |Batchnaam financieel dagboek|Dagboekbatch|Dagboekregel|De dagboekbatchnaam die wordt gebruikt voor de betalingsregel|  
 |Banknaam afzender - Gegevensconv.|Banknaam - Gegevensconversie|Bankrekening|De naam van de bankrekening van de afzender die is aangevraagd door de extensie AMC Banking 365 Fundamentals en die wordt vermeld op de bankpas|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)  
 [Gegevens elektronisch uitwisselen](across-data-exchange.md)
 [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md)   

@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 
 De volgende tabel beschrijft enkele van de belangrijkste rapporten in projectrapportage.
 
-| Rapporteren | Omschrijving | Id | 
+| Rapporteren | Beschrijving | Id | 
 |---------|---------|---------|
 | [Projectanalyse](https://businesscentral.dynamics.com?report=1008)|Analyseert uw project met behulp van instellingen die u opgeeft. U kunt bijvoorbeeld een lijst opvragen die de gebudgetteerde prijzen, de gebruiksprijzen en de factureerbare prijzen bevat en dan de drie prijsgroepen met elkaar vergelijkt.<br>Gebruik een combinatie van de beschikbare **Bedrag**-velden om uw eigen analyse te maken. Selecteer voor elk veld een van de volgende prijzen, kosten of winstwaarden: Planning, Gebruik, Contract of Gefactureerd. <br>Geef aan of de bedragen in de lokale valuta of een buitenlandse valuta worden opgegeven. |1008|
 | [Projectplanningsregels](https://businesscentral.dynamics.com?report=1006) |Dit rapport toont de verschillende taakplanning- en projecttaakregels - inclusief het regeltype, hoeveelheden, maateenheid, totale kosten, enzovoort.|1006|

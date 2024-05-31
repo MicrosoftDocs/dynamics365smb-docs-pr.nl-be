@@ -17,7 +17,7 @@ Verkoop- en inkooporders hebben vaak verschillende soorten zaken op hun regels. 
 
 Als u magazijnmedewerkers in staat wilt stellen artikelen die niet op voorraad zijn, te verzenden en te ontvangen, vult u het veld **Autom. niet-voorraad posten via mag.** in op de pagina's **Verkoopinstellingen** en **Inkoopinstellingen**. Het veld biedt de volgende opties:
 
-|Optie  |Omschrijving  |
+|Optie  |Beschrijving  |
 |---------|---------|
 |Geen     |Verzend of ontvang geen artikelen die niet op voorraad zijn.         |
 |Gekoppeld/toegewezen     | Artikeltoeslagen en andere niet-voorraadartikelregels boeken die zijn toegewezen aan of gekoppeld aan fysieke artikelen. Als u niet-voorraadregels aan fysieke artikelen wilt koppelen, gebruikt u de actie **Koppelen aan voorraadregel**.        |

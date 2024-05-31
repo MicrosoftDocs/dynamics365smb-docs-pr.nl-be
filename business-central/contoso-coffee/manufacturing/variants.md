@@ -8,19 +8,19 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Procedure: varianten
+# Procedure: varianten
 
 In dit artikel nemen we u mee door de stappen waarin u de demogegevens voor Contoso Coffee gebruikt om meer te weten te komen over varianten.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken voor elke variant van artikel SP-SCM1006, AutoDripLite. Omdat ze verschillende kleuren hebben, moet u ervoor zorgen dat voor elke variant de juiste stuklijst (BOM) wordt gebruikt. Voer het planningsvoorstel uit om de voorziening te berekenen.  
 
-## <a name="steps"></a>Stappen
+## Stappen
 
 1. Stel de SKU's (voorraadhoudende eenheden) in voor artikel SP-SCM1006, AutoDripLite. Wijs een stuklijst toe voor SKU met de varianten ROOD en WIT.
 
-    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer *artikelen* in en kies vervolgens de gerelateerde koppeling.  
+    1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer *artikelen* in en kies vervolgens de gerelateerde koppeling.  
 
     2. Open het artikel **SP-SCM1006, AutoDripLite**.
 
@@ -42,7 +42,7 @@ U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken
 
 2. Werk de productie-instellingen bij en respecteer de vraagprognose op vestigingen en varianten.  
 
-    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer *productie-instellingen* in en kies vervolgens de gerelateerde koppeling.  
+    1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer *productie-instellingen* in en kies vervolgens de gerelateerde koppeling.  
 
     2. Schakel het veld **Prognose op vestigingen gebruiken** in.
 
@@ -52,7 +52,7 @@ U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken
 
 3. Maak een nieuwe maandelijkse vraagprognose, *AUTODRIP*. Filter dit op het artikel SP-SCM1006 en vestiging HOOFD. Stel de vraag voor mei in voor elke variant. 
 
-    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer *vraagprognose* in en selecteer vervolgens de gerelateerde koppeling.
+    1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer *vraagprognose* in en selecteer vervolgens de gerelateerde koppeling.
 
     2. Maak een nieuwe vraagprognose met de naam *AUTODRIP*.
 
@@ -98,6 +98,6 @@ U bent de productieplanner bij Contoso Coffee. U moet de vraagprognose bijwerken
 
     9. Kies voor elke gemaakte regel de actie **Materialen** en bekijk welke verf is gebruikt.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](../contoso-coffee-intro.md)  

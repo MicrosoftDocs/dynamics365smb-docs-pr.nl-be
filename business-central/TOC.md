@@ -611,11 +611,11 @@ ms.service: dynamics-365-business-central
 ### [Afschrijvingsmethoden](fa-depreciation-methods.md)
 ### [Budgetten voor vaste activa beheren](fa-how-manage-budgets.md)
 ### [Vaste activa aanschaffen](fa-how-acquire.md)
+### [Vaste activa afschrijven of aflossen](fa-how-depreciate-amortize.md)
 ### [Vaste activa onderhouden](fa-how-maintain.md)
 ### [Vaste activa verzekeren](fa-how-insure.md)
 ### [Vaste activa overboeken, splitsen of combineren](fa-how-trans-split-combine.md)
 ### [Vaste activa herwaarderen](fa-how-revalue.md)
-### [Vaste activa afschrijven of aflossen](fa-how-depreciate-amortize.md)
 ### [Vaste activa buiten gebruik stellen of wegdoen](fa-how-dispose-retire.md)
 ### [Problemen oplossen met VA-posten](fa-troubleshooting-fa-ledger-entries.md)
 

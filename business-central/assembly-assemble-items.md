@@ -1,5 +1,5 @@
 ---
-title: Assemblagebeheer
+title: Assemblage
 description: Leer hoe u producten aan klanten kunt leveren door materiaal in eenvoudige processen te combineren zonder gebruik te maken van productiefuncties.
 author: brentholtorf
 ms.author: bholtorf
@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-management"></a>Assemblagebeheer
+# Assemblage
 
 Bedrijven kunnen producten aan klanten leveren door materiaal te combineren zonder gebruik te maken van productiefuncties. Functies voor het assembleren van artikelen kunnen worden geïntegreerd met gerelateerde functies zoals verkoop, planning, reserveringen en magazijn.  
 
@@ -38,21 +38,21 @@ Zie voor meer informatie over assembleren-op-order artikelen en voorraadpicks [O
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
-|**Functie**|**Zie**|  
+|**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|  
 |Meer informatie over het assembleren van artikelen voor verkooporders en opslag.|[Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md)|
 |Gebruik vestigingskaarten en uw voorraadinstellingen om te bepalen hoe artikelen van en naar assemblage stromen.|[Standaardmagazijnen met bewerkingsgebieden instellen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
 |Maak een offerte voor een op maat gemaakte component en zet de offerte vervolgens om in een verkoop wanneer de klant deze accepteert.|[Een offerte maken voor een assembleren voor order-verkoop](assembly-how-to-quote-an-assemble-to-order-sale.md)|
-|Combineer materiaal om een op-order artikel of een voorraadartikel te maken.|[Artikelen samenstellen](assembly-how-to-assemble-items.md)|  
+|Combineer materiaal om een op-order artikel of een voorraadartikel te maken.|[Artikelen assembleren](assembly-how-to-assemble-items.md)|  
 |Verkoop componenten die nu niet verkrijgbaar zijn door een gekoppelde assemblageorder te maken om het volledige of gedeeltelijke verkooporderaantal te leveren.|[Assembleren voor order-artikelen verkopen](assembly-how-to-sell-items-assembled-to-order.md)|
-|Als sommige op-order-assembleren-artikelen al in voorraad zijn, trekt u die hoeveelheid af van de assemblageorder en reserveert u deze vanuit voorraad.|[Voorraadartikelen in assembleren-op-order-stromen verkopen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
-|Wanneer componenten niet in voorraad zijn, gebruikt u een assemblageorder om een deel of de gehele hoeveelheid te leveren.|[Op-order-assembleren-artikelen en voorraadartikelen samen verkopen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
-|Maak aangepaste componenten voor verkoopraamcontracten voordat u de verkooporders maakt.|[Afroepassemblyorders maken](assembly-how-to-create-blanket-assembly-orders.md)|
-|Een geboekte assemblyorder ongedaan maken, bijvoorbeeld omdat de order met fouten is geboekt.|[Boeken van assemblage ongedaan maken](assembly-how-to-undo-assembly-posting.md)|
+|Als sommige op-order-assembleren-artikelen al in voorraad zijn, trekt u die hoeveelheid af van de assemblageorder en reserveert u deze vanuit voorraad.|[Voorraadartikelen in assembleren voor order-stromen verkopen](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
+|Wanneer componenten niet in voorraad zijn, gebruikt u een assemblageorder om een deel of de gehele hoeveelheid te leveren.|[Assembleren voor order-artikelen en voorraadartikelen samen verkopen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Maak aangepaste componenten voor verkoopraamcontracten voordat u de verkooporders maakt.|[Raamassemblageorders](assembly-how-to-create-blanket-assembly-orders.md)|
+|Een geboekte assemblyorder ongedaan maken, bijvoorbeeld omdat de order met fouten is geboekt.|[Assemblageboeking ongedaan maken](assembly-how-to-undo-assembly-posting.md)|
 |Meer informatie over het werken met assemblagestuklijsten en hoe ze verschillen van productiestuklijsten.|[Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)|
 |Meer informatie over het boeken van assemblageverbruik en -output, en hoe [!INCLUDE [prod_short](includes/prod_short.md)] artikel- en resourcekosten verdeelt over het grootboek.|[Ontwerpdetails: Assemblageorderboeking](design-details-assembly-order-posting.md)|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  

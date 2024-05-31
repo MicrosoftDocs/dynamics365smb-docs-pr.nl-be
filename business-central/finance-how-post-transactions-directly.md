@@ -10,7 +10,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Transacties direct naar het grootboek boeken
+# Transacties direct naar het grootboek boeken
 
 Met diversendagboeken kunt u financiële transacties direct naar grootboekrekeningen en andere rekeningen boeken, zoals bank-, klant-, leveranciers- en werknemersrekeningen.  
 
@@ -20,10 +20,10 @@ Dagboeken boeken financiële transacties direct naar grootboekrekeningen en ande
 
 In tegenstelling tot posten die zijn geboekt met documenten, die een creditnotaproces vereisen, kunt posten correct tegenboeken die met het diversendagboek zijn geboekt. Zie voor meer informatie [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Een transactie direct naar het grootboek boeken
+## Een transactie direct naar het grootboek boeken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
-2. Open de relevante dagboekbatch. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.
+2. Open de relevante dagboekbatch. Zie voor meer informatie [Werken met diversendagboeken](ui-work-general-journals.md).
 3. Vul op een nieuwe dagboekregel de velden indien nodig in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
     > [!NOTE]
@@ -34,11 +34,11 @@ In tegenstelling tot posten die zijn geboekt met documenten, die een creditnotap
     > Als u meerdere transactieregels boven één tegenrekeningsregel wilt invoeren, bijvoorbeeld, voor één bankrekening, selecteert u het selectievakje **Salderingsbedrag voorstellen** op de regel voor uw batch op de pagina **Fin. dagboekbatches**. Vervolgens wordt het veld **Bedrag** op de tegenrekeningsregel automatisch ingevuld met de waarde die nodig is om de transacties in balans te brengen.
 5. Kies de actie **Boeken** om de transacties op de betreffende grootboekrekeningen te registreren.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Werken met diversendagboeken](ui-work-general-journals.md)  
+[Werken met dagboeken](ui-work-general-journals.md)  
 [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)  
-[Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)  
+[Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken](finance-how-reverse-journal-posting.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

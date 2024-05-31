@@ -9,7 +9,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a>Productieorders rechtstreeks opnieuw plannen of vernieuwen
+# Productieorders direct opnieuw plannen of vernieuwen
 
 De functie **Herplannen** in productieorders wordt doorgaans gebruikt nadat er materialen zijn toegevoegd of gewijzigd die onderliggende productieorders hebben. Met de functie worden wijzigingen berekend die in materiaal- en bewerkingsplanregels zijn aangebracht. De functie heeft betrekking op lagere productiestuklijstniveaus en er kunnen nieuwe productieorders mee worden gegenereerd.  
 
@@ -27,7 +27,7 @@ U kunt de productieorderregels handmatig invoegen of de functie gebruiken waarme
 > [!NOTE]
 > Als u de functie Vernieuwen gebruikt om productieorderregels opnieuw te berekenen, worden de oude productieorderregels verwijderd en nieuwe regels berekend.  
 
-## <a name="to-replan-a-production-order"></a>Een productieorder herplannen
+## Een productieorder herplannen
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorders** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de productieorderregel die u opnieuw wilt plannen.  
@@ -56,7 +56,7 @@ U kunt de productieorderregels handmatig invoegen of de functie gebruiken waarme
 > [!NOTE]  
 > Wijzigingen die met de functie **Herplannen** worden doorgevoerd, veranderen doorgaans de capaciteitsbehoefte van de productieorder. Het kan dan ook zijn dat u de bewerkingen naderhand opnieuw moet plannen.  
 
-## <a name="to-refresh-a-production-order"></a>Een productieorder vernieuwen
+## Een productieorder vernieuwen
 
 Als u productieorderregels, materialen of bewerkingsplanregels hebt aangepast, moet u de informatie in de productieorder ook vernieuwen. In de volgende procedure worden de materialen berekend voor een vast geplande productieorder. De stappen zijn vergelijkbaar voor bewerkingsplanregels.
 
@@ -65,7 +65,7 @@ Als u productieorderregels, materialen of bewerkingsplanregels hebt aangepast, m
 3. Kies de actie **Vernieuwen**.
 4. Selecteer op de pagina **Productieorder vernieuwen** een van de volgende opties:
 
-    |Veld|Optie|Omschrijving|  
+    |Veld|Optie|Beschrijving|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Planningsrichting**|**Voorwaarts**|De planning begint op de begindatum en verloopt in de richting van de einddatum. U moet de begindatum voor het gebruik van deze optie invullen.|  
     ||**Achterwaarts**|De planning begint op de einddatum en verloopt in de richting van de begindatum.|  
@@ -79,7 +79,7 @@ Als u productieorderregels, materialen of bewerkingsplanregels hebt aangepast, m
 > [!NOTE]  
 > Als u productieordermaterialen berekent, worden de vorige materiaalwijzigingen verwijderd.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Gepland](production-planning.md)  
 [Productie instellen](production-configure-production-processes.md)  

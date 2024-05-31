@@ -10,14 +10,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-inventory"></a>Voorraad instellen
+# Voorraad instellen
 Voordat u magazijnactiviteiten en voorraadwaardering kunt beheren, moet u de regels en waarden configureren die het voorraadbeleid van het bedrijf definiëren.
 
 U kunt betere klantenservice bieden en uw leveringsketen optimaliseren door uw voorraad op verschillende adressen te organiseren. U kunt vervolgens artikelen op verschillende vestigingen kopen, opslaan of verkopen en voorraad overbrengen tussen vestigingen.
 
 Als u uw voorraad hebt ingesteld, kunt u verschillende voorraadprocessen met betrekking tot artikeltransacties beheren. Zie voor meer informatie [Voorraad beheren](inventory-manage-inventory.md) en [Overzicht van magazijnbeheer](design-details-warehouse-management.md).
 
-| Functie | Zie |
+| Aan | Zie |
 | --- | --- |
 | Definieer de algemene voorraadinstellingen, zoals nummerreeksen en hoe u vestigingen gebruikt. |[Algemene voorraadgegevens instellen](inventory-how-setup-general.md) |
 |Een efficiënt distributiemodel configureren met een combinatie van verschillende locaties en divisies die aan zakelijke partners of medewerkers zijn toegewezen.|[Werken met divisies](inventory-responsibility-centers.md)|
@@ -31,7 +31,7 @@ Als u uw voorraad hebt ingesteld, kunt u verschillende voorraadprocessen met bet
 |Importeer meerdere artikelafbeeldingen in één keer uit een zip-bestand waarin de bestanden zijn genoemd naar artikelnummers.|[Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Inkopen beheren](purchasing-manage-purchasing.md)  

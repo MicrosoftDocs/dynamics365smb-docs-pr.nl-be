@@ -10,7 +10,7 @@ De volgende tabel beschrijft enkele van de belangrijkste rapporten in inkooprapp
 
 
 
-| Rapport | Omschrijving | Id | 
+| Rapporteren | Beschrijving | Id | 
 |---------|---------|---------|
 |[Inkoopstatistiek](https://businesscentral.dynamics.com?report=312)|[!INCLUDE [reports-purchase-statistics](reports-purchase-statistics.md)]|312|
 |[Leverancier - Top 10](https://businesscentral.dynamics.com?report=311)|Hier wordt voor een geselecteerde periode informatie weergegeven over de inkoop bij leveranciers. U kunt het aantal leveranciers opgeven dat u wilt opnemen in de lijst.<br>De leveranciers worden op bedrag gesorteerd en u kunt aangeven of op inkoopbedrag of op saldo moet worden gesorteerd. De lijst biedt u een kort overzicht van de leveranciers waarbij u het meeste inkoopt of de grootste schulden hebt.|311|

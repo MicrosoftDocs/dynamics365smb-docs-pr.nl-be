@@ -9,7 +9,7 @@ Als u de pagina **Artikelbeschikbaarheid per variant** vanuit een documentregel 
 
 De pagina bevat één regel voor elke periode. Elke regel bevat de beschikbaarheidscijfers van het artikel in de volgende hoofdvelden:
 
-| Veld | Omschrijving |
+| Veld | Beschrijving |
 |--|--|
 | **Brutobehoefte**| Bevat de totale vraag naar een artikel. De brutobehoefte bestaat uit *onafhankelijke vraag* en *afhankelijke vraag*. De *onafhankelijke vraag* omvat verkooporders, serviceorders, transferorders en productieprognoses. De *afhankelijke vraag* omvat productieordermaterialen voor geplande, vast geplande en vrijgegeven productieorders. Het bevat ook regels voor inkoop- en planningsvoorstelregels.|
 | **Geplande ontvangst** | Hiermee wordt het totale aantal artikelen uit aanvullingsorders opgegeven. De berekening omvat vast geplande en vrijgegeven productieorders, inkooporders en transferorders. |

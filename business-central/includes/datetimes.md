@@ -18,8 +18,8 @@ In de volgende tabel wordt aangegeven op welke manier u de datum/tijd kunt invoe
 |1-12-22 10|01-12-22 10:00:00|
 |1.12.22 5|01-12-22 05:00:00|
 |1.12.22|01-12-22 00:00:00|
-|11 12|11.huidige maand.huidig jaar 12:00:00|
-|1112 12|11.12.huidig jaar 12:00:00|
+|11 12|11-huidige maand-huidig jaar 12:00:00|
+|1112 12|11-12-huidig jaar 12:00:00|
 |h of huidige datum|huidige datum 00:00:00|
 |h tijd|huidige datum werkelijke tijd|
 |h 10:30|huidige datum 10:30:00|

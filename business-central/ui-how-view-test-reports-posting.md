@@ -9,20 +9,20 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="view-test-reports-before-posting"></a>Controlelijsten weergeven vóór boeken
+# Controlelijsten weergeven vóór boeken
 Wanneer u een document, zoals een order, factuur of een creditnota, wilt boeken, kunt u het document testen om ervoor te zorgen dat er geen problemen bestaan die de boeking kunnen blokkeren.
 
 > [!NOTE]  
 >   De volgende procedure is over het testen vóór het boeken van een inkoopdocument. De functionaliteit werkt op dezelfde manier voor verkoopdocumenten.
 
-## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Een controlelijst afdrukken vóór het boeken van een inkoopfactuur
+## Een controlelijst afdrukken vóór het boeken van een inkoopfactuur
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en selecteer vervolgens de gerelateerde koppeling
 2. Open de inkoopfactuur die u wilt controleren.
 3. Kies de actie **Testrapport**.  
 
 Alle delen van de inkoopfactuur worden getest en het resultaat wordt weergegeven in een rapport. Als de lijst aangeeft dat er fouten of ontbrekende gegevens zijn, moet u het probleem oplossen voordat u de inkoopfactuur boekt.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

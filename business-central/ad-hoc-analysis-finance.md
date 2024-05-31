@@ -22,7 +22,7 @@ Gebruik de volgende lijstpagina's om te beginnen met ad-hocanalyse van financië
 - [Klantenposten](https://businesscentral.dynamics.com/?page=25)
 - [Leveranciersposten](https://businesscentral.dynamics.com/?page=29)
 
-## Ad-hocanalysescenario's voor financiën
+## Ad-hocanalysescenario's in de financiële wereld
 
 Gebruik de functie **Gegevensanalyse** voor snelle feitencontrole en ad-hocanalyse:
 
@@ -34,12 +34,13 @@ In de volgende secties vindt u voorbeelden van financiële scenario's in [!INCLU
 
 | Vlak | Actie | Deze pagina openen in de analysemodus | Deze velden gebruiken |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Financiën (Tegoeden)](#example-finance-accounts-receivables) | Bekijk bijvoorbeeld wat uw klanten u verschuldigd zijn, uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald. | [Klantenposten](https://businesscentral.dynamics.com/?page=25) | **Klantnaam**, **Deadline** en **Resterend bedrag** |
-| [Financiën (crediteuren)](#example-finance-accounts-payable) | Bekijk wat u uw leveranciers verschuldigd bent, uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald. | [Leveranciersposten](https://businesscentral.dynamics.com/?page=29) | **Leveranciersnaam**, **Documenttype**, **Documentnr.**, **Vervaldatum (jaar)**, **Vervaldatum (maand)** en **Resterend bedrag**. |
+|[Voorbeeld: Financiën (debiteuren)](#example-finance-accounts-receivable) | Bekijk bijvoorbeeld wat uw klanten u verschuldigd zijn, uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald. | [Klantenposten](https://businesscentral.dynamics.com/?page=25) | **Klantnaam**, **Deadline** en **Resterend bedrag** |
+| [Financiën (crediteuren)](#example-finance-accounts-payable) | Bekijk wat u uw leveranciers verschuldigd bent, uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald. | [Leveranciersposten](https://businesscentral.dynamics.com/?page=29) | **Leveranciersnaam**, **Documentsoort**, **Documentnr.**, **Vervaldatum (jaar)**, **Vervaldatum (maand)** en **Resterend bedrag**. |
+| [Financiën (verkoopfacturen per grootboekrekening)](#example-finance-sales-invoices-by-gl-account) | Bekijk vanuit het rekeningschema hoe uw verkoopfacturen over de grootboekrekeningen worden verdeeld, bijvoorbeeld opgesplitst in tijdsintervallen voor het moment waarop bedragen zijn geboekt. | [Grootboekposten](https://businesscentral.dynamics.com/?page=20) | **Naam grootboekrekening**, **Broncode**, **Naam grootboekrekening**,  **G/L-rekeningnr.**, **Debetbedrag**, **Creditbedrag**, **Postdatum Jaar**, **Postdatum Kwartaal** en **Posting Datum Maand** |
 | [Financiën (Resultatenrekening)](#example-finance-income-statement) | Bekijk uw inkomsten over de inkomstenrekeningen uit het rekeningschema, bijvoorbeeld opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt. | [Grootboekposten](https://businesscentral.dynamics.com/?page=20) | **Grootboekrekeningnr.**, **Boekingsdatum** en **Bedrag**. |
 | [Financiën (totale activa)](#example-finance-total-assets) | Bekijk uw activa over de activarekeningen uit het rekeningschema, bijvoorbeeld opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt. | [Grootboekposten](https://businesscentral.dynamics.com/?page=20) | **Grootboekrekeningnr.**, **Boekingsdatum** en **Bedrag**. |
 
-### Voorbeeld: Financiën (Tegoeden)
+### Voorbeeld: Financiën (debiteuren)
 
 Als u wilt zien wat uw klanten u verschuldigd zijn, wellicht uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald, doet u het volgende:
 
@@ -67,12 +68,32 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina Klantenposten." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
+### Voorbeeld: Financiën (verkoopfacturen per grootboekrekening)
+
+Om te zien hoe uw verkoopfacturen vanuit het rekeningschema over de grootboekrekeningen worden verdeeld, bijvoorbeeld uitgesplitst in tijdsintervallen voor het moment waarop bedragen zijn geboekt, volgt u deze stappen:
+
+1. Open de pagina  [grootboekposten](https://businesscentral.dynamics.com/?page=20) .
+1. Voeg de velden  **G/L Account Name** en **Broncode**  toe door de pagina te personaliseren. Kies in het menu **Instellingen** **Personaliseren**.
+1. Verlaat de personalisatiemodus.
+1. Kies :::image type="content" source="media/analysis-mode-icon.png" alt-text="Analysemodus openen."::: om de analysemodus in te schakelen.
+1. Stel in het menu  **Analysefilters**  een filter in het veld  **Broncode**  in op **VERKOOP**. Als u aanpassingen heeft die andere waarden toevoegen, kunt u deze ook toevoegen.
+1. Verwijder in naar het menu **Kolommen** alle kolommen (selecteer het vakje naast het veld **Zoeken**).
+1. Schakel de schakelaar **Draaimodus** in (bevindt zich boven het veld **Zoeken**, rechts).
+1. Sleep de velden  **G/L-rekeningnaam** en **G/L-rekeningnummer** naar de **Rijgroepen** gebied.
+1. Sleep de velden  **Debetbedrag** en **Creditbedrag** naar de **Waarden** gebied.
+1. Versleep de  **Postdatum Jaar**, **Postdatum Kwartaal** en **Postdatum Maand** velden naar het gebied  **Kolomlabels** .
+1. Hernoem het tabblad Analyse naar **Factuurspecificatie per account**, of iets dat deze analyse beschrijft.
+
+De volgende afbeelding toont het resultaat van deze stappen.
+
+:::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina grootboekposten (om verkoopboekingen te begrijpen)." lightbox="media/data-analysis-gl-entries-invoices.png":::
+
 ### Voorbeeld: Financiën (Resultatenrekening)
 
 Als u uw inkomsten wilt zien over de inkomstenrekeningen uit het rekeningschema, opgesplitst in tijdsintervallen voor wanneer bedragen zijn geboekt, volgt u deze stappen:
 
 1. Open de lijst [Grootboekposten](https://businesscentral.dynamics.com/?page=20) en kies :::image type="content" source="media/analysis-mode-icon.png" alt-text="Analysemodus openen."::: om de analysemodus in te schakelen.
-1. Ga naar het menu **Kolommen** en verwijder alle kolommen (selecteer het vakje naast het veld **Zoeken**).
+1. Ga naar het menu **Kolommen** en verwijder alle kolommen (selecteer het vakje naast het veld **Zoeken**, rechts).
 1. Schakel de schakelaar **Draaimodus** in (bevindt zich boven het veld **Zoeken**, rechts).
 1. Sleep het veld **Grootboekrekeningnr.** naar het gebied **Rijgroepen** en sleep **Bedrag** naar het gebied **Waarden**.
 1. Sleep het veld **Boekingsdatum (maand)** naar het gebied **Kolomlabels** .
@@ -113,7 +134,7 @@ Ga voor meer informatie naar de volgende artikelen:
 [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md)  
 [Overzicht van financiële analyse](bi.md)  
 [Overzicht van analyses, bedrijfsinformatie en rapportage](reports-bi-reporting.md)  
-[Overzicht van financiën](finance.md)   
+[Overzicht van financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

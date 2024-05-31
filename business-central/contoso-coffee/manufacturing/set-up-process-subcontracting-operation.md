@@ -8,21 +8,21 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Een uitbestedingsbewerking instellen en verwerken
+# Een uitbestedingsbewerking instellen en verwerken
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken bij het uitbesteden.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 U bent de productieplanner bij Contoso Coffee. Wegens capaciteitsbeperkingen bent u van plan een onderaannemer in te schakelen om het artikel **SP-SCM1009, Airpot** te produceren.
 
 Hier maakt u een nieuwe vrijgegeven productieorder voor 12 eenheden van artikel SP-SCM1009, Airpot, met behulp van Routing - SP-SCM1009-SUB-2. Gebruik het uitbestedingsvoorstel om een inkooporder voor de productie te genereren en voltooi de bewerking door de inkooporder te ontvangen en te factureren.
 
-## <a name="steps"></a>Stappen
+## Stappen
 
 1. Maak een nieuwe vrijgegeven productieorder voor 12 eenheden van het artikel SP-SCM1009, Airpot.
 
-    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven productieorder** in en kies vervolgens de gerelateerde koppeling.  
+    1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vrijgegeven productieorder** in en kies vervolgens de gerelateerde koppeling.  
 
     2. Kies de actie **Nieuw** en vul de velden in zoals is beschreven in de volgende tabel.  
 
@@ -45,7 +45,7 @@ Hier maakt u een nieuwe vrijgegeven productieorder voor 12 eenheden van artikel 
 
 3. Gebruik het uitbestedingsvoorstel om een inkooporder te genereren voor de uitbestede bewerking op de productieorder die u in stap 2 hebt gemaakt.  
 
-    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Uitbestedingsvoorstellen** in en kies vervolgens de gerelateerde koppeling.  
+    1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Uitbestedingsvoorstellen** in en kies vervolgens de gerelateerde koppeling.  
 
     2. Kies de actie **Uitbestedingen berekenen**.
 
@@ -59,7 +59,7 @@ Hier maakt u een nieuwe vrijgegeven productieorder voor 12 eenheden van artikel 
 
 4. Ontvang en factuureer de inkooporder.  
 
-    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **inkooporders** in en kies vervolgens de gerelateerde koppeling.  
+    1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **inkooporders** in en kies vervolgens de gerelateerde koppeling.  
 
     2. Zoek in de lijst **Inkooporders** zoek de inkooporder van de leverancier 82000 Onderaannemer.
 
@@ -73,6 +73,6 @@ Hier maakt u een nieuwe vrijgegeven productieorder voor 12 eenheden van artikel 
 
 De uitvoer van artikel SP-SCM1009 Airpot is nu geregistreerd.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Inleiding tot de demogegevens voor Contoso Coffee](../contoso-coffee-intro.md)  

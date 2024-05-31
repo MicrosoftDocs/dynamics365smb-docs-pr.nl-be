@@ -9,7 +9,7 @@ ms.date: 04/24/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Werkstromen maken om taken in bedrijfsprocessen met elkaar te verbinden
+# Werkstromen maken om taken in bedrijfsprocessen met elkaar te verbinden
 
 U kunt werkstromen maken om taken in bedrijfsprocessen te verbinden die door verschillende gebruikers worden uitgevoerd. U kunt systeemtaken, zoals automatische boekingen, opnemen als stappen in werkstromen die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.  
 
@@ -43,9 +43,9 @@ Een werkstroom is onderverdeeld in drie secties:
 
 De opties voor gebeurtenissen en responsen zijn door het systeem gedefinieerd. Om nieuwe opties toe te voegen, moet u een extensie ontwikkelen.
 
-## <a name="to-create-a-workflow"></a>Een workflow maken
+## Een workflow maken
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**. De pagina **Werkstroom** verschijnt.  
 3. Voer in het veld **Code** maximaal 20 tekens in om de werkstroom te identificeren.  
 4. Als u de werkstroom wilt maken vanuit een werkstroomsjabloon, kiest u op de pagina **Werkstromen** de actie **Nieuwe werkstroom uit sjabloon**. Meer informatie op [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)  
@@ -72,7 +72,7 @@ De opties voor gebeurtenissen en responsen zijn door het systeem gedefinieerd. O
     > [!NOTE]
     > Deze velden variëren, afhankelijk van het door u gekozen antwoord.
 
-       |Veld|Omschrijving|
+       |Veld|Beschrijving|
        |-----|-----------|
        |**Afzender informeren**|Geef op of de aanvrager van de goedkeuring op de hoogte wordt gebracht in plaats van de ontvanger van de goedkeuringsaanvraag. Als u het selectievakje inschakelt, wordt het veld **Gebruikers-id ontvanger** uitgeschakeld omdat de aanvrager van de goedkeuring, de afzender, wordt geïnformeerd in plaats van de ontvanger. De naam van de werkstroomreactie verandert dienovereenkomstig in **Maak een bericht voor &lt;afzender&gt;**. Als het selectievakje niet is ingeschakeld, is de naam van de werkstroomreactie **Maak een bericht voor &lt;gebruiker&gt;**.|
        |**Gebruikers-id ontvanger**|Geef de gebruiker op die het bericht moet ontvangen. **Opmerking**: deze optie is alleen beschikbaar voor werkstroomreacties met een tijdelijke aanduiding voor een bepaalde gebruiker. Voor werkstroomreacties zonder tijdelijke aanduidingen voor gebruikers wordt de meldingsontvanger meestal bepaald door de **Gebruikersinstellingen voor goedkeuring**.|
@@ -82,7 +82,7 @@ De opties voor gebeurtenissen en responsen zijn door het systeem gedefinieerd. O
 
     2. Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het maken van een goedkeuringsaanvraag, vult u de velden in de volgende tabel in.  
 
-       |Veld|Omschrijving|  
+       |Veld|Beschrijving|  
        |-----|-----------|  
        |**Formule van vervaldatum**|Geef het aantal dagen op dat de fiatteur heeft om het verzoek op te lossen. De termijn gaat in op het moment dat het verzoek is verzonden.|
        |**Delegeren na**|Geef op of en wanneer een goedkeuringsaanvraag automatisch aan de vervanger wordt gedelegeerd. U kunt selecteren dat één, twee of, vijf dagen na de datum automatisch wordt gedelegeerd als de goedkeuring is aangevraagd.|
@@ -92,7 +92,7 @@ De opties voor gebeurtenissen en responsen zijn door het systeem gedefinieerd. O
 
     3. Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het maken van dagboekregels vult u de velden in de volgende tabel in.  
 
-       |Veld|Omschrijving|  
+       |Veld|Beschrijving|  
        |-----|-----------|  
        |**Sjabloonnaam van financieel dagboek**|Geef de naam op van de dagboeksjabloon die binnen de opgegeven dagboekregels worden gemaakt.|  
        |**Batchnaam van financieel dagboek**|Geef de naam op van de dagboekbatch die binnen de opgegeven dagboekregels worden gemaakt.|  
@@ -114,7 +114,7 @@ De opties voor gebeurtenissen en responsen zijn door het systeem gedefinieerd. O
 > [!TIP]  
 > Als u relaties wilt verkennen tussen de tabellen die in werkstromen worden gebruikt, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), en voert u vervolgens **Werkstroom – Tabelrelaties** in.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Voorbeeld van het maken van een nieuwe werkstroom met bestaande gebeurtenissen
+## Voorbeeld van het maken van een nieuwe werkstroom met bestaande gebeurtenissen
 
 In het volgende voorbeeld wordt een nieuwe werkstroom gemaakt om een wijziging in de naam van een leverancier goed te keuren:
 
@@ -173,12 +173,12 @@ De volgende illustratie geeft een overzicht van het resultaat van deze procedure
 
 Test vervolgens de werkstroom door een bestaande leverancierskaart te openen en de naam te wijzigen. Controleer of er een goedkeuringsverzoek is verzonden na het wijzigen van de leveranciersnaam.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md)  
 [Goedkeuringsgebruikers instellen](across-how-to-set-up-approval-users.md)  
 [Goedkeuringswerkstroomberichten instellen](across-setting-up-workflow-notifications.md)  
-[Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md)  
+[Gearchiveerde werkstroomstapexemplaren weergeven](across-how-to-view-archived-workflow-step-instances.md)  
 [Goedkeuringswerkstromen verwijderen](across-how-to-delete-workflows.md)  
 [Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Goedkeuringswerkstromen instellen](across-set-up-workflows.md)  

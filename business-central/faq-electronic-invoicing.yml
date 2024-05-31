@@ -15,7 +15,7 @@ summary: |
   > [!NOTE]
   > Deze pagina met veelgestelde vragen heeft geen betrekking op de nieuwe app E-documenten die beschikbaar is in releasewave 2 van 2023. Zie [Overzicht van e-documenten](finance-edocuments-overview.md) voor meer informatie over de nieuwe functie.  
 sections:
-  - name: Alge&meen
+  - name: Algemeen
     questions:
       - question: Wat is het probleem?
         answer: De ingebouwde ondersteuning van PEPPOL maakt gebruik van een API die wordt aangeboden door TradeShift. Maar die API ondersteunt geen nieuwere versies van PEPPOL.
@@ -23,7 +23,7 @@ sections:
         answer: 'De laatste versie van PEPPOL die wordt ondersteund door de TradeShift API, is **PEPPOL BIS 2.1**.'
       - question: Wat is de laatste versie van PEPPOL die wordt ondersteund door Business Central?
         answer: 'De laatste versie van PEPPOL die wordt ondersteund door de standaardversie van Business Central, is **PEPPOL BIS 3.0**. We zullen de bestaande documentuitwisselingsservice op basis van TradeShift laten draaien zolang TradeShift de huidige API ondersteunt. Bovendien blijven we de momenteel ondersteunde indelingen voor elektronische facturering ondersteunen.'
-  - name: '-apps'
+  - name: Apps
     questions:
       - question: Zijn er apps die ons kunnen helpen met elektronische facturering?
         answer: |

@@ -9,7 +9,7 @@ ms.date: 05/31/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-approval-users"></a>Goedkeuringsgebruikers instellen
+# Goedkeuringsgebruikers instellen
 
 Voordat u werkstromen met goedkeuringsstappen kunt maken, moet u op de pagina **Gebruikersinstellingen voor goedkeuring** de gebruikers instellen die betrokken zijn bij de goedkeuringsprocessen. U kunt ook bedraglimieten instellen voor verschillende soorten aanvragen, vervangende goedkeurders definiëren en berichten instellen.  
 
@@ -18,14 +18,14 @@ Nadat u goedkeuringsgebruikers hebt ingesteld, kunt u werkstroomreacties te make
 > [!TIP]
 > U kunt vereisen dat meerdere goedkeurders reageren op een goedkeuringsaanvraag door een groep goedkeurders te maken op de pagina **Werkstroomgebruikersgroep**. Meer informatie op [Werkstroomgebruikersgroepen instellen](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Een goedkeuringsgebruiker instellen
+## Een goedkeuringsgebruiker instellen
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikersinstellingen voor goedkeuring** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikersinstellingen voor goedkeuring** in en kies vervolgens de gerelateerde koppeling.  
 2. Maak een nieuwe regel op de pagina **Gebruikersinstellingen voor goedkeuring** en vul de velden in zoals is beschreven in de volgende tabel.  
 
-   |Veld|Omschrijving|
+   |Veld|Beschrijving|
    |-----|-----------|
    |**Gebruikers-ID**|Selecteer de gebruikers-id van de gebruiker die is betrokken bij het goedkeuringsproces.|
    |**Verkoper/inkoper**|Geef de verkopers- of inkoperscode die op de gebruiker van toepassing is.<br /><br /> U vult het veld **Verkoper/inkoper** meestal in als de verkoper of inkoper die verantwoordelijk is voor de klant of leverancier, ook de persoon is die een verkoop- of inkoopaanvraag moet goedkeuren.|
@@ -45,7 +45,7 @@ Nadat u goedkeuringsgebruikers hebt ingesteld, kunt u werkstroomreacties te make
 
 De volgende stap is specificeren hoe u wilt dat [!INCLUDE [prod_short](includes/prod_short.md)] mensen informeert dat een verzoek in afwachting van hun aandacht is. Meer informatie op [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werkstroomgebruikers instellen](across-how-to-set-up-workflow-users.md)  
 [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)  

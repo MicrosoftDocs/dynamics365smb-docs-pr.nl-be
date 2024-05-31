@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="business-process-walkthroughs"></a>Procedures voor bedrijfsprocessen
+# Procedures voor bedrijfsprocessen
 
 Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen die u kunt uitvoeren met behulp van het demobedrijf CRONUS. De scenario's bestaan uit meerdere procedures, waarvan sommige normaliter zouden worden uitgevoerd door één gebruiker, terwijl bij andere diverse verschillende gebruikersrollen zijn betrokken. Teneinde de werkomgeving na te bootsen, bevatten sommige van de scenario's instellingsstappen die nodig zijn voor het uitvoeren van de oefeningen zoals beschreven. Deze stappen kunnen inzicht bieden in de aard van de informatie die gebruikers moeten delen met de IT-professionals van hun bedrijf.  
 
@@ -18,14 +18,14 @@ Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen di
 > [!NOTE]
 > Sommige procedures vereisen voorbeeldgegevens die niet beschikbaar zijn in het standaarddemonstratiebedrijf [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments.md). -->
 
-|Als u dit wilt doen:|Zie|  
+|Aan|Zie|  
 |--------|---------|  
-|Stel een marketingcampagne in.|[Procedure: Een verkoopcampagne uitvoeren](walkthrough-conducting-a-sales-campaign.md)|  
+|Stel een marketingcampagne in.|[Procedure: Een verkoopcampagne organiseren](walkthrough-conducting-a-sales-campaign.md)|  
 |Gebruik vooruitbetalingen om deelbetalingen te beheren voor verkopen en inkopen. <!-- **Requires complete sample data** --> |[Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Stel goedkeuringsgebruikers in, geef aan wanneer en hoe de gebruikers bericht ontvangen over goedkeuringswerkstromen en wijzig en schakel vervolgens de relevante goedkeuringswerkstroom in.|[Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Een project plannen van begin tot eind. <!-- **Requires complete sample data** --> |[Procedure: Projecten plannen](walkthrough-managing-projects-with-jobs.md)|  
-|De kosten van een project rapporteren. <!-- **Requires complete sample data** --> |[Procedure: Onderhanden werk voor een project berekenen](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Artikelen voor verzending in standaardmagazijnconfiguraties picken. <!-- **Requires complete sample data** --> |[Procedure: picken en verzenden in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
+|De kosten van een project rapporteren. <!-- **Requires complete sample data** --> |[Procedure: Onderhanden werk voor een taak berekenen](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Artikelen voor verzending in standaardmagazijnconfiguraties picken. <!-- **Requires complete sample data** --> |[Procedure: Picken en verzenden in standaardmagazijnconfiguraties](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
 |Bedrijfsgegevens exporteren voor controledoeleinden in Duitsland.|[Procedure: Gegevens exporteren voor een digitale controle](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 <!-- |Assemble and ship items that are customized on the sales order. **Requires complete sample data** |[Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)|   -->
@@ -35,7 +35,7 @@ Deze selectie van procedures biedt stapsgewijze, end-to-end bedrijfsprocessen di
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

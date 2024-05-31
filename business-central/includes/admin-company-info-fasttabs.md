@@ -5,9 +5,9 @@ ms.date: 03/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-|Veld|Omschrijving|  
+|Veld|Beschrijving|  
 |-------------|---------------------------------------|  
-|**Algemeen**|Voer de algemene informatie over uw bedrijf in, inclusief een logo, aangezien dat zal verschijnen op extern gerichte documenten, zoals facturen die u verstuurt. |  
+|**Alge&meen**|Voer de algemene informatie over uw bedrijf in, inclusief een logo, aangezien dat zal verschijnen op extern gerichte documenten, zoals facturen die u verstuurt. |  
 |**Communicatie**|Voer de basiscontactgegevens van het bedrijf in, zoals telefoonnummer en e-mailadres.|  
 |**Betalingen**| Vul de relevante bankgegevens in om er zeker van te zijn dat uw klanten u kunnen betalen.|  
 |**Verzenden**|Vul de relevante verzendgegevens in, zodat u goederen van en naar uw bedrijf kunt verzenden en ontvangen.|  

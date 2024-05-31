@@ -10,15 +10,15 @@ ms.date: 09/26/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-bills-of-material"></a>Werken met stuklijsten
+# Werken met stuklijsten
 
 U gebruikt stuklijsten om bovenliggende artikelen te structureren die door resources of bewerkingsplaatsen moeten worden geassembleerd uit andere artikelen of geproduceerd van onderdelen.
 
-## <a name="assembly-boms-or-production-boms"></a>Assemblagestuklijsten of productiestuklijsten
+## Assemblagestuklijsten of productiestuklijsten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt twee verschillende typen stuklijsten:
 
-| Type stuklijst | Algemene categorie | Opmerking |
+| Type stuklijst | Algemene categorie | Voorbeeld |
 | -------- | ---------------- | ------- |
 | [Assemblagestuklijsten](assembly-how-work-assembly-boms.md) | Magazijn/assemblage | Artikelen die bestaan uit andere artikelen, geassembleerd met basis- of geen resources. |
 | [Productiestuklijsten](production-how-to-create-production-boms.md) | Productie | Artikelen die bestaan uit verschillende componenten en subassemblages, geproduceerd in een werk- of bewerkingsplaats. |
@@ -35,7 +35,7 @@ Het concept van bronnen in de productie is veel geavanceerder dan in de assembla
 
 Zowel assemblage- als productieorders kunnen rechtstreeks aan verkooporders worden gekoppeld. U kunt echter alleen assemblageorders gebruiken om het eindartikel rechtstreeks voor een klantverzoek aan de verkooporder te koppelen.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met assemblagestuklijsten](assembly-how-work-assembly-boms.md)  
 [Productiestuklijsten maken](production-how-to-create-production-boms.md)  

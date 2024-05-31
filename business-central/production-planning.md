@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="planning"></a>Planning
+# Planning
 
 De productiebewerkingen die vereist zijn om input om te zetten in gereed product, moeten per dag of per week worden gepland afhankelijk van het volume en de aard van de producten. [!INCLUDE[prod_short](includes/prod_short.md)] bevat functies voor de verwachte en werkelijke vraag van verkoop, montage en productie, en functies voor distributieplanning met SKU's en transfers.
 
@@ -36,10 +36,10 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Een productieorder starten of bijwerken als ruw geplande bewerkingen in het hoofdproductieschema.|[Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md)|
 |Afdelings- of bewerkingsplaatsagenda's opnieuw berekenen wegens planningswijzigingen.|[Een afdelingsagenda berekenen](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |De ordervraag (getraceerd aantal), prognose , raamverkooporder of planningparameter (niet-getraceerd aantal) traceren die een planningregel heeft doen stijgen.|[Relaties tussen vraag en aanbod bijhouden](production-how-track-demand-supply.md)|
-|De geplande beschikbare voorraad voor een artikel bekijken in verschillende weergaven en nagaan welke brutobehoeften, geplande ontvangsten en andere gebeurtenissen hierop in de loop van de tijd van invloed zijn.|[Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)|  
+|De geplande beschikbare voorraad voor een artikel bekijken in verschillende weergaven en nagaan welke brutobehoeften, geplande ontvangsten en andere gebeurtenissen hierop in de loop van de tijd van invloed zijn.|[De beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)|  
 <!--|Geselecteerde planningsactiviteiten, zoals het wijzigen of toevoegen van planningsvoorstelregels, in een grafische weergave van de toeleveringsketen uitvoeren.|[Planningsuggesties in een grafische weergave wijzigen](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)  

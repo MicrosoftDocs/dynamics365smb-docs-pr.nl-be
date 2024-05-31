@@ -10,7 +10,7 @@ ms.date: 12/20/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Cashflow in uw bedrijf analyseren
+# Cashflow in uw bedrijf analyseren
 De diagrammen in het rolcentrum Accountant bevatten inzichten aan de hand waarvan u op een onderbouwde manier kunt bepalen wat u met uw contante geld moet doen.  
 
 | Ter beantwoording van vragen als onderstaande | Dit diagram gebruiken. |
@@ -35,13 +35,13 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 * Schulden aftrekt en tegoeden optelt.  
 * Dubbele verkooporders en inkooporders overslaat.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Een cashflowvoorstel weergeven
+## Een cashflowvoorstel weergeven
 
 1. Zoek **Cashflowinstellingen** en kies vervolgens de verwante koppeling.  
 2. Kies een cashflowprognose en kies vervolgens de actie **Cashflowvoorstel**.  
 3. Kies op de pagina **Cashflowvoorstel** de actie **Voorstelregels voorstellen**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

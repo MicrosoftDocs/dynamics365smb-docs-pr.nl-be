@@ -10,11 +10,11 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-financial-journals-in-the-belgian-version"></a>Financiële dagboeken maken in de Belgische versie
+# Financiële dagboeken maken in de Belgische versie
 
 In financiële dagboeken worden bankrekeningtransacties geregistreerd. In een financieel dagboek kunt u een beginsaldo en eindsaldo opgeven om het verschil automatisch te laten berekenen, zodat u kunt controleren of alle transacties zijn geregistreerd.  
 
-## <a name="to-create-a-financial-journal"></a>Een financieel dagboek maken
+## Een financieel dagboek maken  
 
 1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dagboeksjablonen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -28,7 +28,7 @@ In financiële dagboeken worden bankrekeningtransacties geregistreerd. In een fi
 
 4. Kies de knop **Ok**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Belgische lokale functionaliteit](belgium-local-functionality.md)
 [Dagboeksjablonen verplicht maken in de Belgische versie](specify-journal-template-mandatory.md)  

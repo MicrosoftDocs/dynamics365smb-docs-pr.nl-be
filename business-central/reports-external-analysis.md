@@ -9,19 +9,19 @@ ms.date: 02/03/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="analyze-data-in-business-intelligence-tools"></a>Gegevens analyseren in bedrijfsinformatietools
+# Gegevens analyseren in bedrijfsinformatietools
 
 Als u liever bedrijfsinformatietools gebruikt die niet zijn ingebed in [!INCLUDE[prod_short](includes/prod_short.md)], biedt deze pagina richtlijnen voor tools en methoden om dit te bereiken.
 
-| Tot | Zie |
+| Aan | Zie |
 | --- | --- |
-|Gegevens analyseren met Microsoft Fabric| [Inleiding in Microsoft Fabric en Business Central](admin-fabric.md) |
+|Analyseer gegevens met Microsoft Fabric| [Inleiding bij Microsoft Fabric en Business Central](admin-fabric.md) |
 |Gegevens analyseren met uw eigen Power BI-resource| [Power BI gebruiken met Business Central](admin-powerbi.md) |
 |Financiële overzichten analyseren met Excel| [Financiële overzichten analyseren met Excel](finance-analyze-excel.md) |
-|Gegevens extraheren naar een datawarehouse of een data lake. |[Gegevens extraheren naar datawarehouses of data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
+|Gegevens extraheren naar een datawarehouse of een data lake. |[Gegevens extraheren naar data warehouses of data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
 |Business Central-gegevens lezen met de API.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van bedrijfsinformatie en rapportage](reports-use-reports.md)
 

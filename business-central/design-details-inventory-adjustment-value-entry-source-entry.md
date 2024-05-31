@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Boekingsdatum op correctiewaardepost in vergelijking met de bronpost
+# Boekingsdatum op correctiewaardepost in vergelijking met de bronpost
 
 In dit artikel wordt Boekingsdatum op Herwaarderingswaardepost vergeleken met Boekingsdatum op post die de uitvoering veroorzaakt van de batchverwerking Kostprijs herwaarderen - Artikelposten, met name een herwaarderingsscenario en een artikeltoeslagscenario.
 
 De batchverwerking **Kostprijs herwaarderen - Artikelposten** verwerkt uw gegevens afhankelijk van uw scenario en configuratie van [!INCLUDE[prod_short](includes/prod_short.md)]. In deze sectie beschrijven we twee afzonderlijke processen, en voor elk proces tonen we het type impact dat de batchverwerking Kostprijs herwaarderen - Artikelposten heeft op de gegevens.
 
-## <a name="revaluation-scenario"></a>Herwaarderingsscenario
+## Herwaarderingsscenario
 
-### <a name="prerequisites"></a>Vereisten
+### Vereisten  
 
 Voer de volgende waarden in:
 
@@ -44,7 +44,7 @@ Voer de volgende waarden in:
 
 - Boeken toegest. tot = leeg  
 
-### <a name="to-test-the-scenario"></a>Het scenario testen
+### Het scenario testen
 
 Test dit scenario door de volgende stappen uit te voeren.
 
@@ -100,41 +100,41 @@ De volgende **artikelposten** en **waardeposten** zijn geboekt:
 
 **Artikelpost - inkoop**:  
 
-|Volgnummer  |Artikelnr.  |Boekingsdatum  |Boekingssoort  |Documentnr.  |Aantal  |Tot. werk. kosten  |Resterend aantal  |
+|Postnummer  |Artikelnr.  |Boekingsdatum  |Postsoort  |Documentnr.  |Hoeveelheid  |Kostenbedrag (werkelijk)  |Resterend aantal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |317     |TEST         |2020-12-15         |Inkoop         |T00001         |100         |4000         |95        |
 
 **Waardeposten**  
 
-|Volgnummer  |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelpostsoort  |Boekingssoort  |Documentnr.  |Aantal op artikelnummerpost  |Tot. werk. kosten  |Kosten geboekt naar grootboek  |Herwaardering  |Wordt vereffend met post  |Broncode  |
+|Postnummer  |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelboekingssoort  |Postsoort  |Documentnr.  |Aantal op artikelnummerpost  |Kostenbedrag (werkelijk)  |Vrd.-waarde geboekt  |Aanpassing  |Wordt vereffend met post  |Broncode  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|376     |TEST|   2020-12-15    |317         |Inkoop         |Directe kosten         |T00001         |100         |1 000,00          |1 000,00    |Nee         |0         |ITEMNL         |
-|379     |TEST   |**2020-12-15**    |317         |Inkoop         |Herwaardering         |T04002         |0         |3 000,00         |3 000,00         |Nee         |0         |REVALINL         |
+|376     |TEST|   2020-12-15    |317         |Inkoop         |Directe kosten         |T00001         |100         |1 000,00          |1 000,00    |Nr.         |0         |ITEMNL         |
+|379     |TEST   |**2020-12-15**    |317         |Inkoop         |Herwaardering         |T04002         |0         |3 000,00         |3 000,00         |Nr.         |0         |REVALINL         |
 
 **Artikelpost - negatieve correctie, stap 3**  
 
-|Volgnummer  |Artikelnr.  |Boekingsdatum  |Boekingssoort  |Documentnr.  |Aantal  |Tot. werk. kosten  |Resterend aantal  |
+|Postnr.  |Artikelnr.  |Boekingsdatum  |Postsoort  |Documentnr.  |Hoeveelheid  |Kostenbedrag (werkelijk)  |Resterend aantal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |318     |TEST      |2020-12-20   |Negatieve correctie  |T00002         |-2         |-80         | 0        |
 
 **Waardeposten**  
 
-|Volgnummer  |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelpostsoort  |Boekingssoort  |Documentnr.  |Aantal op artikelnummerpost  |Tot. werk. kosten  |Kosten geboekt naar grootboek  |Herwaardering  |Wordt vereffend met post  |Broncode  |
+|Postnummer  |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelboekingssoort  |Postsoort  |Documentnr.  |Aantal op artikelnummerpost  |Kostenbedrag (werkelijk)  |Vrd.-waarde geboekt  |Aanpassing  |Wordt vereffend met post  |Broncode  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|377     |TEST|   12-2020-20    |318         |Negatieve correctie         |Directe kosten         |T00002         |-2         |-20          |-20    |Nee         |0         |ITEMNL         |
+|377     |TEST|   2020-12-20    |318         |Negatieve correctie         |Directe kosten         |T00002         |-2         |-20          |-20    |Nr.         |0         |ITEMNL         |
 |380     |TEST   |**2021-01-01**    |318         |Negatieve correctie         |Directe kosten         |T04002         |0         |-60         |-60         |Ja         |377         |VRDWAARDNG         |
 
 **Artikelpost - negatieve correctie, stap 4**  
 
-|Volgnummer  |Artikelnr.  |Boekingsdatum  |Boekingssoort  |Documentnr.  |Aantal  |Tot. werk. kosten  |Resterend aantal  |
+|Postnr.  |Artikelnr.  |Boekingsdatum  |Postsoort  |Documentnr.  |Hoeveelheid  |Kostenbedrag (werkelijk)  |Resterend aantal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |319     |TEST      |2021-01-15   |Negatieve correctie  |T00003         |-3         |-120         | 0        |
 
 **Waardeposten**  
 
-|Volgnummer  |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelpostsoort  |Boekingssoort  |Documentnr.  |Aantal op artikelnummerpost  |Tot. werk. kosten  |Kosten geboekt naar grootboek  |Herwaardering  |Wordt vereffend met post  |Broncode  |
+|Postnummer  |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelboekingssoort  |Postsoort  |Documentnr.  |Aantal op artikelnummerpost  |Kostenbedrag (werkelijk)  |Vrd.-waarde geboekt  |Aanpassing  |Wordt vereffend met post  |Broncode  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|378     |TEST|   2021-01-15    |319         |Negatieve correctie         |Directe kosten         |T00003         |-3         |-30          |-30    |Nee         |0         |ITEMNL         |
+|378     |TEST|   2021-01-15    |319         |Negatieve correctie         |Directe kosten         |T00003         |-3         |-30          |-30    |Nr.         |0         |ITEMNL         |
 |381     |TEST   |**2021-01-15**    |319         |Negatieve correctie         |Directe kosten         |T04003         |0         |-90         |-90         |Ja         |378         |VRDWAARDNG         |
 
 De batchverwerking **Kostprijs herwaarderen - Artikelposten** heeft een wijziging in kosten herkend en de negatieve herwaarderingen aangepast.  
@@ -149,15 +149,15 @@ De herwaardering die wordt aangebracht voor de Negatieve herwaardering in stap 3
 
 Om herwaardering in december te bereiken van de negatieve correctie in stap 3, moet het veld Boeken toegest. vanaf in de boekhoudinstellingen een datum in december bevatten.  
 
-### <a name="conclusion"></a>Conclusie
+### Conclusie
 
 Met de ervaring die in dit scenario is opgedaan, kunt u bij het overwegen van de meest geschikte instelling voor een toegestane boekingsperiode voor een bedrijf rekening houden met het volgende. Zolang u toestaat dat wijzigingen in de voorraadwaarde worden geboekt in een periode, zoals in dit geval december, moet de instelling die het bedrijf gebruikt voor toegestane boekingsdatumbereiken worden afgestemd op deze beslissing. Het veld Boeken toegest. in de boekhoudinstellingen, dat 1 december bevat, zou toestaan dat de herwaardering die in december is aangebracht, wordt doorgestuurd naar betrokken uitgaande posten in dezelfde periode.  
 
 Gebruikersgroepen die niet in december mogen boeken, maar in januari, een beperking die waarschijnlijk de bedoeling was van de boekhoudinstellingen in dit scenario, moeten in plaats daarvan worden geregeld met de gebruikersinstellingen.  
 
-## <a name="item-charge-scenario"></a>Artikeltoeslagscenario
+## Artikeltoeslagscenario  
 
-### <a name="prerequisites-1"></a>Vereisten
+### Vereisten  
 
 Voer de volgende waarden in:
 
@@ -183,7 +183,7 @@ Voer de volgende waarden in:
 
 - Boeken toegest. tot = leeg  
 
-### <a name="to-test-the-scenario-1"></a>Het scenario testen
+### Het scenario testen  
 
 Test dit scenario door de volgende stappen uit te voeren:
 
@@ -197,7 +197,7 @@ Test dit scenario door de volgende stappen uit te voeren:
 
 2.  Maak een nieuwe **Inkooporder** met de volgende waarden:  
 
-     - Leveranciersnr.: 10000  
+     - Orderleveranciersnr.: 10000  
 
      - Boekingsdatum = 15 december 2020
 
@@ -237,7 +237,7 @@ Test dit scenario door de volgende stappen uit te voeren:
 
 5.  Maak een nieuwe **Inkooporder** met de volgende waarden:  
 
-     - Leveranciersnr.: 10000  
+     - Orderleveranciersnr.: 10000  
 
      - Boekingsdatum = 2 januari 2021  
 
@@ -258,35 +258,35 @@ Test dit scenario door de volgende stappen uit te voeren:
 
 **Statusartikelpost van inkoop stap 2**:  
   
-|Volgnummer  |Artikelnr.  |Boekingsdatum  |Boekingssoort  |Documentnr.  |Aantal  |Tot. werk. kosten  |Resterend aantal  |
+|Postnummer  |Artikelnr.  |Boekingsdatum  |Postsoort  |Documentnr.  |Hoeveelheid  |Kostenbedrag (werkelijk)  |Resterend aantal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-|324     |TOESLAG         |2020-12-15         |Inkoop         |107030         |1         |105         |0        |
+|324     |TOESLAG         |2020-12-15         |Inkoop         |107030         |0         |105         |0        |
 
 **Waardeposten**  
 
-|Volgnummer |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelpostsoort  |Boekingssoort  |Documentnr.  | Artikeltoeslagnr.    |  Aantal op artikelpost   |Tot. werk. kosten     |Kosten geboekt naar grootboek |Herwaardering |Vereffenen met post |
+|Postnummer |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelboekingssoort  |Postsoort  |Documentnr.  | Artikeltoeslagnr.    |  Aantal op artikelpost   |Kostenbedrag (werkelijk)     |Vrd.-waarde geboekt |Aanpassing |Vereffenen met post |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|397      |TOESLAG|   2020-12-15    |324         |Inkoop         |Directe kosten         |108029         |         |1          |100    |100         |NEE         |0         |
-|399      |TOESLAG   |2021-01-02    |324         |Inkoop         |Directe kosten         |108009         |JB-VRACHT         |0         |3         |3         |NEE         |0         |
+|397      |TOESLAG|   2020-12-15    |324         |Inkoop         |Directe kosten         |108029         |         |0          |100    |100         |NO         |0         |
+|399      |TOESLAG   |2021-01-02    |324         |Inkoop         |Directe kosten         |108009         |JB-VRACHT         |0         |3         |3         |NO         |0         |
 
 **Statusartikelpost verkoop**:  
   
-|Volgnummer  |Artikelnr.  |Boekingsdatum  |Boekingssoort  |Documentnr.  |Aantal  |Tot. werk. kosten  |Resterend aantal  |
+|Postnr.  |Artikelnr.  |Boekingsdatum  |Postsoort  |Documentnr.  |Hoeveelheid  |Kostenbedrag (werkelijk)  |Resterend aantal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 |325     |TOESLAG         |2020-12-16         |Verkoop         |102035         |-1         |-105         |0        |
 
 **Waardeposten**  
 
-|Volgnummer |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelpostsoort  |Boekingssoort  |Documentnr.  | Artikeltoeslagnr.    |  Aantal op artikelpost   |Tot. werk. kosten     |Kosten geboekt naar grootboek |Herwaardering |Vereffenen met post |
+|Postnummer |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelboekingssoort  |Postsoort  |Documentnr.  | Artikeltoeslagnr.    |  Aantal op artikelpost   |Kostenbedrag (werkelijk)     |Vrd.-waarde geboekt |Aanpassing |Vereffenen met post |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|398      |TOESLAG|   2020-12-16    |325         |Verkoop         |Directe kosten         |109024         |         |-1          |-100    |-100         |NEE         |0         |
+|398      |TOESLAG|   2020-12-16    |325         |Verkoop         |Directe kosten         |109024         |         |-1          |-100    |-100         |NO         |0         |
 |400      |TOESLAG   |2021-01-01    |325         |Verkoop         |Directe kosten         |109024         |         |0         |-3         |-3         |Ja         |398         |
 
 6.  Op werkdatum 3 januari arriveert een inkoopfactuur met een aanvullende artikeltoeslag boven op de inkoop die in stap 2 is gedaan. Deze factuur heeft documentdatum 30 december en is dus geboekt met boekingsdatum 30 december 2020.  
 
      Maak een nieuwe **Inkooporder** met de volgende waarden:  
 
-     - Leveranciersnr.: 10000  
+     - Orderleveranciersnr.: 10000  
 
      - Boekingsdatum = 30 december 2020  
 
@@ -307,29 +307,29 @@ Test dit scenario door de volgende stappen uit te voeren:
 
 **Statusartikelpost van inkoop**:  
 
-|Volgnummer  |Artikelnr.  |Boekingsdatum  |Boekingssoort  |Documentnr.  |Aantal  |Tot. werk. kosten  |Resterend aantal  |
+|Postnummer  |Artikelnr.  |Boekingsdatum  |Postsoort  |Documentnr.  |Hoeveelheid  |Kostenbedrag (werkelijk)  |Resterend aantal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-|324     |TOESLAG         |2020-12-15         |Inkoop         |107030         |1         |105         |0        |
+|324     |TOESLAG         |2020-12-15         |Inkoop         |107030         |0         |105         |0        |
 
 **Waardeposten**  
 
-|Volgnummer |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelpostsoort  |Boekingssoort  |Documentnr.  | Artikeltoeslagnr.    |  Aantal op artikelpost   |Tot. werk. kosten     |Kosten geboekt naar grootboek |Herwaardering |Vereffenen met post |
+|Postnr. |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelboekingssoort  |Postsoort  |Documentnr.  | Artikeltoeslagnr.    |  Aantal op artikelpost   |Kostenbedrag (werkelijk)     |Vrd.-waarde geboekt |Aanpassing |Vereffenen met post |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|397      |TOESLAG   |2020-12-15    |324         |Inkoop         |Directe kosten         |108029         |            |1         |100    |100         |Nee         |0         |
-|399      |TOESLAG   |2021-01-02    |324         |Inkoop         |Directe kosten         |108030         |JB-VRACHT   |0         |3         |3         |Nee         |0         |
-|401      |TOESLAG   |**2020-12-30**    |324         |Inkoop         |Directe kosten         |108031         |JB-VRACHT   |0         |2         |2         |Nee         |0         |
+|397      |TOESLAG   |2020-12-15    |324         |Inkoop         |Directe kosten         |108029         |            |0         |100    |100         |Nr.         |0         |
+|399      |TOESLAG   |2021-01-02    |324         |Inkoop         |Directe kosten         |108030         |JB-VRACHT   |0         |3         |3         |Nr.         |0         |
+|401      |TOESLAG   |**2020-12-30**    |324         |Inkoop         |Directe kosten         |108031         |JB-VRACHT   |0         |2         |2         |Nr.         |0         |
 
 **Statusartikelpost verkoop**:  
   
-|Volgnummer  |Artikelnr.  |Boekingsdatum  |Boekingssoort  |Documentnr.  |Aantal  |Tot. werk. kosten  |Resterend aantal  |
+|Postnummer  |Artikelnr.  |Boekingsdatum  |Postsoort  |Documentnr.  |Hoeveelheid  |Kostenbedrag (werkelijk)  |Resterend aantal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
-|325     |TOESLAG         |12-2020-16         |Verkoop         |102035         |-1         |-105         |0        |
+|325     |TOESLAG         |2020-12-16         |Verkoop         |102035         |-1         |-105         |0        |
 
 **Waardeposten**  
 
-|Volgnummer |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelpostsoort  |Boekingssoort  |Documentnr.  | Artikeltoeslagnr.    |  Aantal op artikelpost   |Tot. werk. kosten     |Kosten geboekt naar grootboek |Herwaardering |Vereffenen met post |
+|Postnr. |Artikelnr.  |Boekingsdatum  |Artikelpostnr.  |Artikelboekingssoort  |Postsoort  |Documentnr.  | Artikeltoeslagnr.    |  Aantal op artikelpost   |Kostenbedrag (werkelijk)     |Vrd.-waarde geboekt |Aanpassing |Vereffenen met post |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|398      |TOESLAG   |12-2020-16        |325         |Verkoop         |Directe kosten         |103024         |            |-1         |-100       |-100         |Nee         |0         |
+|398      |TOESLAG   |2020-12-16        |325         |Verkoop         |Directe kosten         |103024         |            |-1         |-100       |-100         |Nr.         |0         |
 |400      |TOESLAG   |2021-01-01        |325         |Verkoop         |Directe kosten         |103024         |            |0          |-3         |-3         |Ja         |398         |
 |402      |TOESLAG   |**2021-01-01**    |325         |Verkoop         |Directe kosten         |103024         |            |0          |-2         |-2         |Ja         |398         |
 
@@ -349,9 +349,9 @@ Het is een uitdaging om het rapport Voorraadwaardering Aantal = 0 aan te laten g
 
 In dit scenario zou één scenario kunnen zijn het veld Boekhoudinstellingen, Boeken toegest. vanaf voor enkele dagen een datum in december te geven en de boeking van de eerste artikeltoeslag uit te stellen om mogelijk te maken dat alle kosten voor de vorige periode/boekjaar eerst worden herkend voor de periode waartoe ze behoren, de batchverwerking Kosten herwaarderen - Artikelposten uit te voeren en daarna de toegestane boekingsdatum te verplaatsen naar de nieuwe periode\/boekjaar. De eerste artikeltoeslag met boekingsdatum 2 januari kan dan worden geboekt.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 
-[Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Ontwerpdetails: Boekingsdatum van herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
 

@@ -10,7 +10,7 @@ ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="make-sales-quotes"></a>Verkoopoffertes maken
+# Verkoopoffertes maken
 
 U maakt een verkoopofferte om uw aanbod aan een klant of prospect vast te leggen om producten tegen bepaalde leverings- en betalingscondities te verkopen. U kunt de verkoopofferte aan de klant verzenden om het aanbod te bevestigen. U kunt het document als een PDF-bijlage via e-mail versturen. U kunt ook de hoofdtekst van de e-mail vooraf laten invullen met een overzicht van de offerte. Zie [Documenten per e-mail verzenden](ui-how-send-documents-email.md#to-send-documents-by-email) voor meer informatie.
 
@@ -18,12 +18,12 @@ Terwijl u met de klant of prospect onderhandelt, kunt u zo veel als u wenst de v
 
 In de meeste gevallen stuurt u verkoopoffertes naar potentiële klanten. Vaak hebt u een contactpersoon met wie u onderhandelt. Als zij uw aanbod vervolgens accepteren, maakt u van de verkoopofferte een order en registreert u de prospect als klant in [!INCLUDE [prod_short](includes/prod_short.md)]. In de volgende procedure richten we ons op contacten, maar u kunt ook offertes sturen naar bestaande klanten.  
 
-## <a name="to-create-a-sales-quote"></a>Een verkoopofferte maken
+## Een verkoopofferte maken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkoopoffertes** in en kies vervolgens de gerelateerde koppeling.
 2. Geef het contact of de klant op naar wie u de verkoopofferte wilt sturen.
 
-    - Als de verkoopofferte voor een bestaand contact is, geef dan de naam op in het veld **Contactnr.** toevoegen.  
+    - Als de verkoopofferte voor een bestaand contact is, geef dan de naam op in het veld **Contactnr.** .  
 
         Als de verkoopofferte voor een bestaande klant is, geeft u de naam op in het veld **Klant**.
     - Als het contact niet is geregistreerd, volgt u deze stappen:
@@ -45,7 +45,7 @@ In de meeste gevallen stuurt u verkoopoffertes naar potentiële klanten. Vaak he
     Als u terugkerende verkoopregels voor de klant hebt ingesteld, zoals een maandelijkse aanvullingsorder, kunt u deze regels invoegen op de order door de actie **Terugkerende verkoopregels ophalen** te kiezen.  
 
 4. Selecteer op het sneltabblad **Regels** in het veld **Soort** het type product, kosten of transactie die u wilt boeken voor de klant met deze verkoopregel.
-5. In het veld **Nr.** een record die u wilt boeken op basis van de waarde in het veld **Soort**.
+5. Voer in het veld **Nr.** een record die u wilt boeken op basis van de waarde in het veld **Soort**.
 
     Laat het veld **Nr.** leeg in de volgende gevallen:
     - Als de regel voor een opmerking is. Schrijf de opmerking in het veld **Omschrijving**.
@@ -87,11 +87,11 @@ In de meeste gevallen stuurt u verkoopoffertes naar potentiële klanten. Vaak he
 
 De conversie verwijdert de verkoopofferte uit de database. Een verkoopfactuur of een verkooporder wordt gemaakt op basis van de informatie in de verkoopofferte, zodat u de verkoop kunt verwerken. Op de verkoopfactuur of verkooporder vermeldt het veld **Offertenr.** het nummer van de verkoopofferte van waaruit het is gemaakt. Zie [Verkopen factureren](sales-how-invoice-sales.md) of [Producten verkopen](sales-how-sell-products.md) voor meer informatie.  
 
-## <a name="external-document-number"></a>Externe documentnummer
+## Externe documentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  

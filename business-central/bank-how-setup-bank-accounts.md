@@ -11,7 +11,7 @@ ms.date: 08/03/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-bank-accounts"></a>Bankrekeningen instellen
+# Bankrekeningen instellen
 
 U gebruikt bankrekeningen in [!INCLUDE[prod_short](includes/prod_short.md)] om uw banktransacties bij te houden. Bedragen op rekeningen kunnen worden uitgedrukt in de lokale valuta of in een vreemde valuta. Nadat u bankrekeningen hebt ingesteld, kunt u ook de optie voor het afdrukken van cheques gebruiken. De bankrekeningen bevatten extra functionaliteit voor [betalingsreconciliatie](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bankreconciliatie](bank-how-reconcile-bank-accounts-separately.md) en het importeren en exporteren van bankbestanden. De bankrekeningen kunnen ook worden opgenomen in transacties in de dagboeken. Elke bankrekening is gekoppeld aan een rekening in het rekeningschema via de toegewezen boekingsgroep voor bankrekeningen. Als u een bankrekening gebruikt bij een betalingstransactie, wordt er automatisch een post gemaakt op zowel de bankrekening als de gekoppelde grootboekrekening.  
 
@@ -81,11 +81,11 @@ Bekijk in de video hieronder de basisstappen om een bankrekening in te stellen i
 > [!WARNING]
 > Sommige velden kunnen gevoelige gegevens bevatten, zoals de velden **Bankfiliaalnr.**, **Bankrekeningnr.**, **SWIFT-code** en **IBAN-code**. Zie voor meer informatie [Vertrouwelijke velden bewaken](across-log-changes.md#monitor-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts"></a>Bankrekeningen instellen
+## Bankrekeningen instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent 1.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.
 2. Kies op de pagina **Bankrekeningen** de actie **Nieuw**.
-3. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Een voorbeeld is het veld **Boekingsgroep van bankrekening** dat de bankrekening verbindt met de onderliggende grootboekrekening in de balans. Zie voor meer informatie [Boekingsgroepen instellen](finance-posting-groups.md).
 
@@ -151,7 +151,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance"></a>Een beginsaldo invoeren
+## Een beginsaldo invoeren
 
 Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een bankrekeningpost boeken met het bedrag in kwestie. U kunt dit doen door een bankrekeningreconciliatie uit te voeren. Zie voor meer informatie [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -160,7 +160,7 @@ Als u wilt dat in het veld **Saldo** een beginsaldo wordt ingevuld, moet u een b
 > [!IMPORTANT]
 > U moet het beginsaldo niet rechtstreeks naar het grootboek boeken. Als u posten in de grootboekrekening hebt die er rechtstreeks naar zijn geboekt, leidt dit er doorgaans toe dat u de bankrekening niet kunt afstemmen. Bij bankrekeningen in vreemde valuta resulteert een dergelijke praktijk in toenemende verschillen naarmate u meer bankreconciliaties boekt. Gewoonlijk boekt u het beginsaldo direct op de bankrekening en komt het bedrag op de grootboekrekening terecht. U kunt het ook later terugboeken naar de grootboekrekening die u gebruikt om het beginsaldo van het grootboek te salderen. In beide gevallen moet u eventuele directe boekingen op de grootboekrekening salderen voordat u uw eerste bankreconciliatie start&mdash;vooral als de bankrekening in een vreemde valuta is.
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Uw bankrekening instellen om bankbestanden te importeren of te exporteren
+## Uw bankrekening instellen om bankbestanden te importeren of te exporteren
 
 De velden met betrekking tot de import en export van bankfeeds en -bestanden bevinden zich op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart**. Zie voor meer informatie [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md) en [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).
 
@@ -200,9 +200,9 @@ De onderstaande afbeelding toont de route van uitgaande betalingen (nummers in d
     :::column:::
 
 6. De transacties die zijn ingevuld in een betalingsjournaal dat is voorbereid voor het exporteren van betalingen naar een bestand.
-7. Met de *indeling voor import van bankafschriften* worden de importinstellingen aan de bankrekening gekoppeld.
+7. Het *importformaat bankafschriften* koppelt de importinstellingen aan de bankrekening.
 8. Met de *instellingen voor gegevensexport/-import* worden de export of import gedefinieerd en wordt een koppeling gemaakt met de gegevensuitwisselingsdefinitie.
-9. Met de *definitie van gegevensuitwisseling* wordt de informatie in het bestand toegewezen aan de velden in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)
+9. De *definitie van gegevensuitwisseling* wijst de informatie in het bestand toe aan de velden in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Gegevensuitwisseling instellen](across-set-up-data-exchange.md)
 10. De betalingen worden geëxporteerd vanuit het betalingsdagboek en geïmporteerd naar de bankrekening.
 
   :::column-end:::
@@ -213,13 +213,13 @@ De onderstaande afbeelding toont de route van uitgaande betalingen (nummers in d
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Bankrekeningen van leveranciers instellen voor de export van bankbestanden
+## Bankrekeningen van leveranciers instellen voor de export van bankbestanden
 
 Velden op het sneltabblad **Transfer** op de pagina **Bankrekeningkaart leverancier** zijn gerelateerd aan de export van bankfeeds en -bestanden. Zie voor meer informatie [De AMC Banking 365 Fundamentals-extensie gebruiken](ui-extensions-amc-banking.md) en [Betalingen exporteren naar een bankbestand](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account"></a>Uw bankrekening wijzigen
+## Uw bankrekening wijzigen
 
 Als u een andere bankrekening voor uw bedrijf wilt gebruiken, moet u de nieuwe bankrekening in [!INCLUDE[prod_short](includes/prod_short.md)] maken. We raden u aan om niet zomaar de informatie over de rekening die u momenteel gebruikt te vervangen, omdat dit kan leiden tot onjuiste gegevens. Uw beginsaldo kan bijvoorbeeld onjuist zijn of uw bankfeed werkt mogelijk niet meer correct. Het is belangrijk dat u de huidige en nieuwe rekeningen gescheiden houdt.
 
@@ -230,7 +230,7 @@ Nadat u de nieuwe bankrekening hebt gemaakt, moet u ook een nieuwe bankboekingsg
 
 Om een beknopter beeld te krijgen van uw kasrekeningen in financiële rapportage, gebruikt u de rekeningen **Begintotaal** en **Eindtotaal** in uw rekeningschema, de rijen **Samentelling** in financiële rapporten of grootboekrekeningcategorieën. Zie voor meer informatie het gedeelte [Business Intelligence en financiële rapportage](bi.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bankieren instellen](bank-setup-banking.md)  
 [Boekingsgroepen instellen](finance-posting-groups.md)  

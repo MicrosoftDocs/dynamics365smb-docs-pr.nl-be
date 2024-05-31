@@ -10,19 +10,19 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-customer-price-groups"></a>Klantenprijsgroepen instellen
+# Klantenprijsgroepen instellen
   
 U kunt de verkoopprijzen laten afhangen van de klantengroepen waarmee u zaken doet. Dit worden klantenprijsgroepen genoemd.
 
 Voordat u klantenprijsgroepen instelt, moet u eerst bepalen hoeveel groepen u wilt maken en welke klanten aan elke groep worden toegewezen.  
 
-## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>Verkoopprijzen voor een groep klanten maken
+## Verkoopprijzen voor een groep klanten maken  
 
 Als u overeenstemming hebt bereikt over de prijs die de groep klanten betaalt voor bepaalde artikelen, kunt u de overeenkomst per artikel registreren op de regels van de pagina **Verkoopprijzen**.
 
-### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Verkoopprijzen voor een groep klanten maken
+### Verkoopprijzen voor een groep klanten maken
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klantenprijsgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klantenprijsgroepen** in en kies vervolgens de gerelateerde koppeling.  
 
 2. De regel voor de klantenprijsgroep selecteren. Als er nog geen regel bestaat, kunt u een nieuwe regel maken. Selecteer **Nieuw** om een nieuwe entiteit te maken en deze een naam te geven.  
     
@@ -42,24 +42,24 @@ Als u overeenstemming hebt bereikt over de prijs die de groep klanten betaalt vo
 
 Herhaal stap 4 tot en met 8 voor elk artikel waarvoor u een verkoopprijs wilt invoeren.
 
-## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>Klantenprijsgroepcodes invoeren op klantenkaarten
+## Klantenprijsgroepcodes invoeren op klantenkaarten  
 
 Nadat u de klantenprijsgroepen hebt ingesteld, kunt u klantenprijsgroepcodes invoeren op de klantenkaarten.
 
-### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Klantenprijsgroepcodes invoeren op een klantenkaart
+### Klantenprijsgroepcodes invoeren op een klantenkaart  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Klanten** in en kies vervolgens de gerelateerde koppeling.  
 
 2. Open de **klantenkaart** voor een klant die u in een klantenprijsgroep wilt plaatsen.  
 
 3. Selecteer op het sneltabblad **Facturering** in het veld **Klantenprijsgroep** de code van de **Klantenprijsgroep**.  
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
-[Speciale verkoopprijzen en kortingen registreren](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Speciale verkoopprijzen en kortingen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md)  
 [Klantenkortingsgroepen instellen](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

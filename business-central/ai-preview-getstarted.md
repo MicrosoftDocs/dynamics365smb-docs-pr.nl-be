@@ -9,13 +9,13 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Aan de slag met een preview-versie van Business Central voor Copilot
+# Aan de slag met een preview-versie van Business Central voor Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 U kunt met Copilot door AI aangestuurde artikelmarketingtekst uitproberen, of u nu een bestaande Business Central-klant bent of een potentiële klant, dat wil zeggen iemand die alleen geïnteresseerd is in het verkennen van Business Central en het uitproberen van de nieuwe mogelijkheid. Om aan de slag te gaan, hebt u toegang nodig tot een online versie van Business Central Online die de nieuwe mogelijkheid ondersteunt. Vul hieronder het gedeelte in dat voor u van toepassing is.
 
-## <a name="your-organization-already-uses-business-central"></a>Uw organisatie maakt al gebruik van Business Central
+## Uw organisatie maakt al gebruik van Business Central
 
 Als bestaande klant of partner hebt u een beheerder nodig met toegang tot het Business Central-beheercentrum om een sandbox-omgeving in te stellen waarop de preview-versie met Copilot wordt uitgevoerd. Zodra de omgeving actief is, kunnen gebruikers de nieuwe functie uitproberen.
 
@@ -39,7 +39,7 @@ Ga voor meer informatie over het maken van sandbox-omgevingen naar [Een omgeving
 > [!IMPORTANT]
 > Als u preview-sandboxen hebt die draaien op **22.0.54157.54311 (Preview - Copilot-editie)**, houd er dan rekening mee dat deze omgevingen slechts beschikbaar zijn tot 1 mei 2023. Na deze datum moet u een nieuwe omgeving inrichten of een van uw andere omgevingen upgraden naar versie 22.0 of hoger om de preview van door AI aangedreven artikelmarketingtekst te blijven proberen.
 
-## <a name="your-organization-doesnt-use-business-central"></a>Uw organisatie maakt geen gebruik van Business Central
+## Uw organisatie maakt geen gebruik van Business Central
 
 Als u geen Business Central-klant bent, meld u dan aan voor een gratis proefversie om de nieuwe AI-mogelijkheden uit te proberen. Aanmelden voor de proefperiode is eenvoudig. U wordt door een paar stappen geleid waarbij u wat informatie moet verstrekken, zoals uw e-mailadres, telefoonnummer en naam. Voer de volgende stappen uit om de proef te krijgen:
 
@@ -95,7 +95,7 @@ Als u geen Business Central-klant bent, meld u dan aan voor een gratis proefvers
    > [!TIP]
    > Als u **Uw controlelijst** niet ziet, selecteert u eerst de knop **Rondleidingen weergeven** .
 
-## <a name="next-steps"></a>Volgende stappen
+## Volgende stappen
 
 De AI-mogelijkheden van Copilot moeten worden ingeschakeld voordat u of iemand anders Copilot kan gebruiken. Om de AI-mogelijkheden in te schakelen moet een beheerder instemmen met de voorwaarden van de [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) en de [Microsoft-privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=521839) namens de organisatie.
 
@@ -106,9 +106,9 @@ Er zijn twee manieren om toestemming te geven als beheerder:
 
 - De gemakkelijkste manier is om Copilot te gebruiken. De eerste keer dat u Copilot als beheerder gebruikt, wordt u gevraagd de voorwaarden te lezen en vervolgens te accepteren of af te wijzen. Ga voor meer informatie over het gebruik van Copilot naar [Marketingtekst toevoegen aan artikelen](item-marketing-text.md).  
 
-- De andere manier is om de pagina **Status van privacyverklaringen** in Business Central te gebruiken en akkoord te gaan met de **Azure OpenAI**-integratie voor alle gebruikers. Ga voor meer informatie naar [Instemmen met voorwaarden](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
+- De andere manier is om de pagina **Privacykennisgevingenstatus** in Business Central te gebruiken en akkoord te gaan met de **Azure OpenAI** integratie voor iedereen gebruikers. Ga voor meer informatie naar [Instemmen met voorwaarden](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van op AI gebaseerde artikelmarketingtekst met Copilot configureren](ai-overview.md)  
 [Op AI gebaseerde artikelmarketingtekst met Copilot configureren als beheerder](enable-ai.md)  

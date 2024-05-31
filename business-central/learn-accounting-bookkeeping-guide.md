@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="accounting-and-bookkeeping"></a>Boekhouding
+# Boekhouding
 
 Boekhouding is een kritieke functie in elke ERP-oplossing (Enterprise Resource Planning), en ook in de meeste bedrijven. Boekhouding vertegenwoordigt het proces van het registreren en catalogiseren van de financiële transacties van een bedrijf en het vervolgens ophalen, meten, samenvatten en presenteren van de resultaten door gebruik te maken van verschillende rapporten die vaak vereist zijn door de lokale wetgeving. Het primaire doel van dit proces is om het management van het bedrijf te helpen de financiële gegevens van het bedrijf te begrijpen en de resultaten van de economische activiteiten van het bedrijf te meten.
 
@@ -33,7 +33,7 @@ De volgende tabel beschrijft een reeks taken en biedt koppelingen naar de artike
 | Geef de boekingsgroepen op die entiteiten (zoals klanten, leveranciers, artikelen, resources en verkoop- en inkoopdocumenten) toewijzen aan grootboekrekeningen. | [Boekingsgroepen instellen](finance-posting-groups.md)|
 | Maak financiële rapporten en definieer rekeningcategorieën om de inhoud van financiële grafieken en rapporten te bepalen, zoals de rapporten **Balans** en **Resultatenrekening**. | [Financiële rapportage voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md)|
 | Stel de tolerantie in waarmee het systeem een factuur sluit zelfs als de betaling, inclusief een eventuele korting, het bedrag op de factuur niet volledig dekt. | [Werken met betalingstoleranties en contantkortingstoleranties](finance-payment-tolerance-and-payment-discount-tolerance.md) |
-| Stel boekperioden in. | [Werken met boekingsperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md) |
+| Stel boekperioden in. | [Werken met boekingsperioden en fiscale jaren](finance-accounting-periods-and-fiscal-years.md) |
 | Stel factuurvoorwaarden in die uw klanten eraan herinneren om te betalen. | [Termijnen, niveaus en tekst van aanmaningen instellen](finance-setup-reminders.md)|
 | Definieer hoe u btw-bedragen die u hebt geïnd voor verkopen, rapporteert aan de belastingdienst. | [Btw instellen](finance-setup-vat.md) |
 | Bepaal hoe u niet gerealiseerde btw in verband met op kas gebaseerde boekhoudingsmethoden verwerkt. | [Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen](finance-setup-unrealized-vat.md) |
@@ -65,17 +65,17 @@ De volgende tabel beschrijft een reeks taken en biedt koppelingen naar de artike
 | Voeg dimensies toe voor rijkere BI. | [Werken met dimensies](finance-dimensions.md) |
 | Maak grootboekbudgetten om verschillende financiële activiteiten te prognosticeren en wijs dimensies toe voor BI-doeleinden. | [Grootboekbudgetten maken](finance-how-create-budgets.md) |
 | Inkomsten en kosten rechtstreeks in het grootboek registreren zonder specifieke bedrijfsdocumenten te boeken. | [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md) |
-| Posten tegenboeken om waardeboekingen ongedaan te maken in het dagboek of aantalboekingen in inkoop- en verkoopdocumenten. | [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md) |
-| Een post in een dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. | [Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
+| Posten tegenboeken om waardeboekingen ongedaan te maken in het dagboek of aantalboekingen in inkoop- en verkoopdocumenten. | [Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken](finance-how-reverse-journal-posting.md) |
+| Verdeel een post in een dagboek over verschillende rekeningen wanneer u het dagboek boekt. | [Kosten en inkomsten toewijzen](year-allocate-costs-income.md) |
 | Wijs extra kosten, zoals onkosten voor vracht en fysieke verwerking die u maakt tijdens handel, toe aan de betrokken artikelen. De kosten worden dan weerspiegeld in de voorraadwaardering. | [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md) |
 | Personeelskosten boeken voor werkgerelateerde activiteiten en terugbetalingen uitvoeren rechtstreeks op de bankrekeningen van werknemers. | [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md) |
 | Kosten en inkomsten toewijzen aan andere perioden dan de perioden waarin de transacties daadwerkelijk zijn geboekt. | [Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md) |
 | Meer informatie over de beschikbare opties om te automatiseren hoe u abonnementsfacturen naar klanten verzendt en periodieke inkomsten registreert. | [Werken met periodieke inkomsten](finance-recurring-invoicing.md) |
 | Extra valuta's gebruiken en valutawisselkoersen automatisch bijwerken. | [Valutawisselkoersen bijwerken](finance-how-update-currencies.md) |
-| Salaristransacties van uw leverancier importeren vanuit salarisverwerking in het grootboek. | [Salaristransacties importeren](finance-how-import-payroll-transactions.md) |
+| Importeer salaristransacties van uw leverancier van salarisverwerking in het grootboek. | [Salaristransacties importeren](finance-how-import-payroll-transactions.md) |
 | Btw berekenen op verkoop- en inkooptransacties, zodat u de bedragen kunt rapporteren aan de belastingdienst. | [Werken met btw op verkoop en inkoop](finance-work-with-vat.md) |
 | Een rapport voorbereiden met btw van verkopen en het rapport verzenden aan een belastingdienst in de Europese Unie (EU). | [Btw rapporteren aan de belastingdienst](finance-how-report-vat.md) |
-| Handmatig servicecontracten converteren om het btw-percentage ervan te wijzigen. | [Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md) |
+| Converteer handmatig servicecontracten om het btw-percentage ervan te wijzigen. | [Servicecontracten met btw-bedragen converteren](service-how-to-convert-service-contracts.md) |
 | Werken met financiële overzichten in Excel Microsoft Excel. | [Financiële overzichten analyseren in Excel:](finance-analyze-excel.md) |
 | Het rolcentrum Accountant gebruiken, een externe accountant aanstellen en de bedrijfshub gebruiken om de rekeningen van meerdere cliënten te beheren. | [Accountantervaringen in Business Central](finance-accounting.md) |
 | Intrastat-rapportage instellen om handel met andere EU-leden te verzorgen volgens de lokale wetgeving. | [Intrastat-rapportage instellen]( finance-how-setup-report-intrastat.md) |
@@ -91,23 +91,23 @@ De volgende tabel beschrijft een reeks taken en biedt koppelingen naar de artike
 | Budgetten voor vaste activa beheren, aanschafkosten budgetteren, buitengebruikstellingen van vaste activa budgetteren en afschrijving budgetteren. | [Budgetten voor vaste activa beheren](fa-how-manage-budgets.md) |
 | Gebruikers van goedkeuringswerkstromen instellen, opgeven hoe gebruikers berichten krijgen en nieuwe werkstromen maken. Als u nieuwe werkstromen wilt maken voor niet-ondersteunde scenario's, implementeert u de vereiste werkstroomelementen door de toepassingscode aan te passen. | [Goedkeuringswerkstromen instellen](across-set-up-workflows.md) |
 | Goedkeuringswerkstromen inschakelen, reageren op werkstroommeldingen (bijvoorbeeld door een werkstroomstap aan te vragen en goed te keuren) en werkstromen archiveren en verwijderen. | [Goedkeuringswerkstromen gebruiken](across-use-workflows.md) |
-| Werkelijke bedragen bekijken vergeleken met gebudgetteerde bedragen voor alle rekeningen en voor verschillende perioden. | [Werkelijke bedragen analyseren in vergelijking met budgetbedragen](bi-how-analyze-actual-versus-budget.md) |
-| Nieuwe financiële rapporten maken voor financiële overzichten voor rapportage of voor weergave als grafieken. | [Financiële rapporten voorbereiden met financiële gegevens en accountcategorieën](bi-how-work-account-schedule.md) |
+| Werkelijke bedragen bekijken vergeleken met gebudgetteerde bedragen voor alle rekeningen en voor verschillende perioden. | [Werkelijke bedragen analyseren in vergelijking met gebudgetteerde bedragen](bi-how-analyze-actual-versus-budget.md) |
+| Nieuwe financiële rapporten maken voor financiële overzichten voor rapportage of voor weergave als grafieken. | [Financiële rapporten voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md) |
 | Uw financiële prestaties analyseren door KPI's (Key Performance Indicators) in te stellen op basis van financiële rapporten en de KPI's vervolgens publiceren als webservices. De gepubliceerde KPI's voor financiële rapporten kunnen worden weergegeven op een website of in Excel worden geïmporteerd met OData-webservices. | [KPI-webservices instellen en publiceren op basis van financiële rapporten](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md) |
 | Weergaven instellen om gegevens te analyseren met dimensies. | [Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md) |
-| Nieuwe analyselijsten te maken voor verkopen, inkopen en voorraad en om analysesjablonen in te stellen. | [Analyselijsten maken](bi-how-create-analysis-views-reports.md) |
-| Internationale accountantsorganisaties de mogelijkheid geven om wereldwijd financiële rapporten te maken met behulp van de eXtensible Business Reporting Language-standaard (XBRL). | [Lijsten met XBRL maken](bi-create-reports-with-xbrl.md) |
+| Nieuwe analyselijsten te maken voor verkopen, inkopen en voorraad en om analysesjablonen in te stellen. | [Analyserapporten maken](bi-how-create-analysis-views-reports.md) |
+| Internationale accountantsorganisaties de mogelijkheid geven om wereldwijd financiële rapporten te maken met behulp van de eXtensible Business Reporting Language-standaard (XBRL). | [Rapporten met XBRL maken](bi-create-reports-with-xbrl.md) |
 | De databasetoegangsintentie voor rapporten, pagina's van het API-type en query's wijzigen om te helpen de belasting te verminderen en de prestaties te verbeteren. | [Intentie databasetoegang beheren](admin-data-access-intent.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën instellen](finance-setup-finance.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Boekperioden afsluiten](year-close-years-periods.md)  
 [Projecten beheren](projects-manage-projects.md)  
-[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
-[Werken met diversendagboeken](ui-work-general-journals.md)  
+[Gegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md).  
+[Werken met dagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]

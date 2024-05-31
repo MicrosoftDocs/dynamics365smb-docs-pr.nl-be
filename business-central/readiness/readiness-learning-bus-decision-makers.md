@@ -7,21 +7,21 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-decision-makers-learning-catalog"></a>Trainingscatalogus voor zakelijke besluitvormers
+# Trainingscatalogus voor zakelijke besluitvormers
 
 Beslist u over investeringen in nieuwe technologieën?
 
 De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en van eenvoudige tot ingewikkelde onderwerpen. Voor inhoud die in meerdere indelingen bestaat, laten we u dat weten, zodat u kunt kiezen welk type training het beste aan uw behoeften voldoet.  
 
-## <a name="business-value"></a><a name="busvalue"></a>Bedrijfswaarde
+## Bedrijfswaarde<a name="busvalue"></a>
 
-| Inhoud                                                                 | Omschrijving                                                                                                | Opmaak                                | Lengte     |
+| Inhoud                                                                 | Beschrijving                                                                                                | Indeling                                | Lengte     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | In deze module worden functies, voordelen en voorbeelden van Dynamics 365 Business Central in actie getoond. | Gratis online leertraject voor zelfstudie | 24 minuten |
 
-## <a name="getting-started"></a><a name="get-started"></a>Aan de slag
+## Aan de slag<a name="get-started"></a>
 
-| Inhoud                                                                                                                             | Omschrijving                                                                                                                                                                                                                                                                                      | Opmaak                                | Lengte             |
+| Inhoud                                                                                                                             | Beschrijving                                                                                                                                                                                                                                                                                      | Indeling                                | Lengte             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Aan de slag met Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/)                          | Wilt u graag meer weten over Business Central? Dan is dit leertraject een goede introductie. Hierin wordt besproken hoe u een proef opzet, u krijgt basisinformatie over wat er beschikbaar is en u ziet enkele personaliseringsopties om Business Central aan uw gebruik aan te passen. | Gratis online leertraject voor zelfstudie | 3 uur, 4 minuten  |
 | [Werken met de gebruikersinterface van Microsoft Dynamics 365 Business Central](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Wilt u meer weten over de gebruikersinterface van Business Central? In dit leertraject ziet u de gebruikersinterface en leert u hoe u deze op uw persoonlijke wensen kunt afstemmen. Hierin komen ook andere interfaces aan de orde, zoals een smartphone.                                                                               | Gratis online leertraject voor zelfstudie | 2 uur, 27 minuten |

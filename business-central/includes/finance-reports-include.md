@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 
 In de volgende tabel worden enkele belangrijke financiële rapporten beschreven.
 
-| Rapporteren | Omschrijving | Id | 
+| Rapporteren | Beschrijving | ID | 
 |--|--|--|
 | [Proef- en saldibalans](https://businesscentral.dynamics.com?report=6) | Geeft het rekeningschema weer met saldo's en mutaties. U kunt bijvoorbeeld een proef- en saldibalans bekijken voor geselecteerde dimensies of het rapport gebruiken bij het afsluiten van een boekingsperiode of boekjaar. | 6 |
 | [Proef- en saldibalans per periode](https://businesscentral.dynamics.com?report=38) | Geeft het beginsaldo per grootboekrekening, de verplaatsingen in de geselecteerde periode (maand, kwartaal of jaar) en het resulterende eindsaldo weer. <br>Tip: Kan worden gebruikt om winst en verlies weer te geven met een totaal voor elke maand.| 38 |

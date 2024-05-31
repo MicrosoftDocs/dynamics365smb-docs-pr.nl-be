@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Procedure: Automatisch en handmatig afboeken combineren
+# Procedure: Automatisch en handmatig afboeken combineren
 
 In dit artikel voeren we u door de stappen om de demogegevens voor Contoso Coffee te gebruiken bij het afboeken.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 U bent de productieplanner bij Contoso Coffee. U moet een nieuwe productieorder maken voor tien eenheden van artikel SP-SCM1004, AutoDrip. Sommige componenten en bewerkingen worden voorwaarts afgeboekt, terwijl andere achterwaarts worden afgeboekt op basis van verschillende omstandigheden.
 
-## <a name="steps"></a>Stappen
+## Stappen
 
 > [Opmerking!] Vergeet niet om de voorraad aan te passen door het artikeldagboek met beginsaldi te boeken.
 
@@ -34,7 +34,7 @@ U bent de productieplanner bij Contoso Coffee. U moet een nieuwe productieorder 
 
 3. Bekijk de artikel- en capaciteitsposten voor de productieorder.
 
-    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vrijgegeven productieorder** in en kies vervolgens de gerelateerde koppeling.  
+    1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vrijgegeven productieorder** in en kies vervolgens de gerelateerde koppeling.  
 
     2. Open de productieorder met de vijf eenheden van de AutoDrip-koffiemachine.  
 
@@ -46,7 +46,7 @@ U bent de productieplanner bij Contoso Coffee. U moet een nieuwe productieorder 
 
     U kunt componentartikelen handmatig afboeken met behulp van het verbruiks- of productiejournaal. Met handmatig afboeken kunt u de hoeveelheid aanpassen voordat u deze boekt. Bijvoorbeeld als er extra hoeveelheid nodig is om grondstoffen van lage kwaliteit te dekken.
 4. Boek componenten handmatig af.  
-    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verbruiksdagboek** in en kies vervolgens de gerelateerde koppeling.  
+    1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verbruiksdagboek** in en kies vervolgens de gerelateerde koppeling.  
 
     2. Kies de actie **Verbruik berekenen**.  
 
@@ -58,7 +58,7 @@ U bent de productieplanner bij Contoso Coffee. U moet een nieuwe productieorder 
 
     U moet de velden **Insteltijd** en **Bewerkingstijd** handmatig invullen. U kunt ook de werkelijk geproduceerde hoeveelheid en uitval opgeven. Voer *3* in als outputhoeveelheid en boek de output.
 
-    1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
+    1. Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
 
     2. Maak op de pagina **Outputdagboek** een nieuwe journaalregel.  
 
@@ -103,7 +103,7 @@ U bent de productieplanner bij Contoso Coffee. U moet een nieuwe productieorder 
 
 Dat is alles voor het handmatig en automatisch afboeken van componenten.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Componenten afboeken op basis van de output van een bewerking](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Inleiding tot de demogegevens voor Contoso Coffee](contoso-coffee-manufacturing-intro.md)  

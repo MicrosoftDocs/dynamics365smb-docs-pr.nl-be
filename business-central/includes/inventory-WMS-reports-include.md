@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 
 De volgende tabel beschrijft enkele van de belangrijkste rapporten in voorraad- en magazijnbeheer.
 
-| Rapporteren | Omschrijving | Id | 
+| Rapporteren | Beschrijving | ID | 
 |---------|---------|---------|
 |[Voorraad - Beschikbaarheid per periode](https://businesscentral.dynamics.com?report=707)|Krijg een overzicht van specifieke artikelen en voorraadeenheden, en hun beschikbaarheid. Dit rapport toont gecumuleerde waarden zoals brutobehoeften, geplande ontvangsten, voorraad, enzovoort. |707|
 |[Voorraadwaardering](https://businesscentral.dynamics.com?report=1001)|Toont voorraadwaardering van specifieke artikelen in uw voorraad. De lijst bevat tevens informatie over positieve en negatieve voorraadmutaties in de loop van de tijd.<br><br>De verwachte kosten van posten die als ontvangen of verzonden zijn geboekt, worden ook in het rapport afgedrukt als u het selectievakje **Inclusief verwachte kosten** inschakelt.<br><br>Als u **Inclusief verwachte kosten** inschakelt, worden de posten gegroepeerd en wordt een groepstotaal van gefactureerde en verwachte kosten voor elke voorraadboekingsgroep weergegeven.<br><br>U kunt uw rapportuitvoer ook verfijnen met de vestigings- en variantfilters. Omdat het rapport echter bovenop een waardepost wordt gemaakt, kunt u opslaglocatiefilter niet gebruiken.<br><br>Om ervoor te zorgen dat het rapport **Voorraadwaardering** up-to-date is, wordt het aangeraden de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit te voeren voordat dit rapport wordt uitgevoerd.<br><br>In de VS, Canada en Mexico is dit rapport niet beschikbaar. Gebruik in plaats daarvan de gelokaliseerde versie van het rapport Voorraadwaardering (10139).|1001|

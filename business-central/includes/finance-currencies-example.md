@@ -11,10 +11,10 @@ In het volgende voorbeeld wordt op 1 januari een factuur ontvangen met het valut
 
 |Datum|Actie|Valutabedrag|Documentkoers|LV-bedrag in document|Vereffeningskoers|Ongerealiseerd winstbedrag|Betalingskoers|Gerealiseerd verliesbedrag|  
 |-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
-|1/1|**Factuur**|1000|1,123|1123|||||
-|1/31|**Herwaardering**|1000||1125|1,125|2|||
+|1/1|**Factuur**|1000|1.123|1123|||||
+|1/31|**Herwaardering**|1000||1125|1.125|2|||
 |2/15|**Herwaarderingsterugboeking bij betaling**|1000||||-2|||
-|2/15|**Betaling**|1000||1120|||1,120|-3|
+|2/15|**Betaling**|1000||1120|||1.120|-3|
 
 Aan het einde van de maand wordt een valuta-aanpassing uitgevoerd waarbij de aanpassingsvalutakoers is ingesteld op 1,125, wat een niet-gerealiseerde winst van 2 veroorzaakt.
 

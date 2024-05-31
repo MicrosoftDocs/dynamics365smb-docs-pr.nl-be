@@ -10,7 +10,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-sales"></a>Verkopen instellen
+# Verkopen instellen
 
 Voordat u verkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het verkoopbeleid configureren.
 
@@ -27,14 +27,14 @@ Verkoopinstellingen met betrekking tot financiën, zoals betalingsmethoden en va
 | Het invoeren van de verschillende kortingen en speciale prijzen voor de klanten afhankelijk van artikel, aantallen en/of datum. |[Afspraken over prijzen, kortingen en betalingen van verkopen vastleggen](sales-how-record-sales-price-discount-payment-agreements.md) |
 | Stel verkopers in zodat u ze kunt toewijzen aan klantcontactpersonen of meet de prestaties van verkopers als basis om de commissie of bonus voor verkopen te berekenen. |[Verkopers instellen](sales-how-setup-salespeople.md) |
 | Geef voor individuele klanten of voor alle klanten op hoe verkoopdocumenten standaard worden verzonden wanneer u de actie **Boeken en verzenden** kiest. |[Verzendprofielen van documenten instellen](sales-how-setup-document-send-profiles.md) |
-| Stel uw e-mail zo in dat deze een overzicht bevat van informatie in het verkoopdocument dat wordt verzonden. |[Documenten per e-mail verzenden](ui-how-send-documents-email.md) |
+| Stel uw e-mail zo in dat deze een overzicht bevat van informatie in het verkoopdocument dat wordt verzonden. |[Documenten verzenden via e-mail](ui-how-send-documents-email.md) |
 |Verifieer het btw-nummer van een klant door middel van een EU-webservice.|[Btw-nummers controleren](finance-setup-vat.md)|
 |Definieer de verschillende incoterms die u aan klanten aanbiedt of die uw leveranciers u aanbieden.|[Verzendmethoden instellen](sales-how-set-up-shipment-methods.md)|
 |Informatie invoeren over de verschillende transporteurs die u gebruikt, met een koppeling naar hun service voor het traceren van pakketten.|[Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)|
 |Geef standaardrapporten op die voor verschillende documenttypen moeten worden gebruikt.|[Rapportselectie in Business Central](across-report-selections.md)|
 |Geef aan of gebruikers verkoopfacturen mogen boeken en of ze deze samen met een zending moeten boeken. |[Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

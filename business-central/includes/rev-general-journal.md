@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Dagboeken terugdraaien om fouten te corrigeren
+### Dagboeken terugdraaien om fouten te corrigeren
 
 Wanneer u werkt met dagboeken met veel regels en er gaat iets mis, is het belangrijk om een gemakkelijke manier te hebben om fouten te corrigeren. De pagina **Geboekt financieel dagboek** biedt een aantal acties die kunnen helpen.
 

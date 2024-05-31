@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="e-documents-overview"></a>Overzicht van e-documenten
+# Overzicht van e-documenten
 
 Elektronische documenten (e-documenten) vormen de ruggengraat van moderne zakelijke transacties. Ze omvatten essentiële documenten, zoals facturen en ontvangstbewijzen in beide richtingen (levering en ontvangst). Ze voegen ook mogelijkheden toe voor documentstatusgerelateerde berichten tussen toegangspunten.
 
@@ -24,7 +24,7 @@ De app E-documentkern kan worden gebruikt in landen/regio's waar bedrijven gespe
 
 In de documentatie worden e-documenten gedetailleerd uitgelegd. Het toont de mogelijkheden van de app en laat zien hoe deze zich naadloos aanpast om tegemoet te komen aan de unieke behoeften van uw organisatie. Om aan de slag te gaan met e-documenten kunt u de volgende artikelen raadplegen.
 
-| Artikel | Omschrijving | 
+| Artikel | Beschrijving | 
 |---------|-------------|
 | [E-documenten instellen](finance-how-setup-edocuments.md) | Leer hoe u de functionaliteit van e-documenten instelt, inclusief services, werkstromen, verzendprofielen en bewaarbeleid. |
 | [E-documenten gebruiken bij verkoop](finance-how-use-edocuments.md) | Leer hoe u de functionaliteit van e-documenten kunt gebruiken voor verkoopfacturen, hun statussen, logboeken en actieberichten.| 
@@ -34,7 +34,7 @@ In de documentatie worden e-documenten gedetailleerd uitgelegd. Het toont de mog
 | [Gegevens elektronisch uitwisselen](across-data-exchange.md) | Leer hoe u het raamwerk voor gegevensuitwisseling gebruikt voor het beheren van de uitwisseling van gegevens in bedrijfsdocumenten, zoals bankbestanden en valutawisselkoersen. | 
 | [E-documenten toewijzen aan inkooporderregels met Copilot (preview)](map-edocuments-with-copilot.md) | Leer hoe u Copilot kunt gebruiken om uw efficiëntie te verbeteren bij het werken met e-documenten. |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financieel beheer](finance.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

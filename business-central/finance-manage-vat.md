@@ -10,10 +10,10 @@ ms.date: 01/31/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
-# <a name="vat-management-overview"></a>Overzicht van btw-beheer
+# Overzicht van btw-beheer
 Btw is een indirecte belasting op het verbruik van goederen en diensten. Btw wordt geheven in elke fase van de toeleveringsketen waar waarde wordt toegevoegd vanaf de eerste productie tot aan het verkooppunt. Om aan de slag te gaan met btw-beheer kunt u de volgende onderwerpen raadplegen.  
 
-|  Artikel  |  Omschrijving  |  
+|  Artikel  |  Beschrijving  |  
 |--------|--------------|  
 | [Werken met btw op verkoop en inkoop](finance-work-with-vat.md) | Dit artikel bevat de verschillende manieren om met btw te werken met behulp van een handmatige of automatische instelling. In dit artikel leest u hoe u kunt voldoen aan land/regio-specifieke voorschriften.|
 | [Btw instellen](finance-setup-vat.md) | Dit artikel bevat informatie om u te helpen bij het correct berekenen, boeken en rapporteren van btw voor verkopen en aankopen.|
@@ -28,7 +28,7 @@ Btw is een indirecte belasting op het verbruik van goederen en diensten. Btw wor
 | [Btw-nummers valideren](finance-how-validate-vat-registration-number.md) | In dit artikel wordt uitgelegd hoe u Business Central-validatie gebruikt voor btw-registratienummers en andere bedrijfsinformatie voor uw contacten, klanten en leveranciers, op basis van de VIES btw-nummervalidatieservice van de Europese Unie.|
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

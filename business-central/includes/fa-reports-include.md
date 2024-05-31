@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 
 De volgende tabel beschrijft enkele van de belangrijkste rapporten in vaste-activarapportage.
 
-| Rapport | Omschrijving | Id | 
+| Rapporteren | Beschrijving | Id | 
 |--|--|--|
 | [Overzicht van vaste activa](https://businesscentral.dynamics.com?report=5601)| Toont de lijst met vaste activa en hun instellingsinformatie voor een bepaald afschrijvingsboek. |5601 |
 | [Vast activum - Overzicht aanschafkosten](https://businesscentral.dynamics.com?report=5608) |  Maak een lijst van alle activa die binnen een bepaald datumbereik zijn verworven. U kunt ook vaste activa opnemen die zijn gemaakt maar nog niet zijn verworven. |5608 |

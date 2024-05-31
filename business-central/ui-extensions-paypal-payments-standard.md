@@ -10,7 +10,7 @@ ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="the-paypal-payments-standard-extension"></a>De extensie PayPal Payments Standard
+# De extensie PayPal Payments Standard
 
 Klanten stellen steeds meer eisen aan de klantenservice, zowel met betrekking tot productkwaliteit als met betrekking tot betalings- en leveringsmogelijkheden. De service PayPal Payments Standard helpt u uw klantenservice te verbeteren.
 
@@ -28,7 +28,7 @@ De service PayPal Payments Standard biedt de volgende voordelen:
 
 Zie [Klantbetalingen via PayPal inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  

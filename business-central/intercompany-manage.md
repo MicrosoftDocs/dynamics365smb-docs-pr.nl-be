@@ -11,7 +11,7 @@ ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-intercompany-transactions"></a>Intercompany-transacties beheren
+# Intercompany-transacties beheren
 
 Bedrijven met meer dan één rechtspersoon met afzonderlijke boekhoudfuncties kunnen profiteren van IC-transacties. Het is bijvoorbeeld handig voor bedrijven die dochterondernemingen hebben in meerdere internationale markten of regio's. Of een organisatie bestaat uit meerdere bedrijven, maar heeft mogelijk niet hetzelfde aantal boekhoud- en administratieteams. IC-transacties vereenvoudigen en stroomlijnen de zakelijke processen en transacties tussen bedrijven in de IC-partnerschap.
 
@@ -24,7 +24,7 @@ De IC-functionaliteit heeft vier belangrijke voordelen:
 * Complete audittrail en volledige zichtbaarheid van zakelijke activiteiten en transactiegeschiedenissen.  
 * Efficiënte en kosteneffectieve transacties met filialen en dochterondernemingen.  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Stroomlijning van de stroom van zakelijke activiteiten
+## Stroomlijning van de stroom van zakelijke activiteiten  
 
 Met IC-transacties kunt u verkoop- en inkoopdocumenten en grootboekposten naar al uw satellietkantoren, verkoopkantoren of dochterondernemingen verspreiden. Het distribueren van transacties bespaart tijd en verhoogt de efficiëntie in de hele organisatie door de invoer van gegevens te verminderen. Het vermindert de noodzaak om verkoop- en inkoopdocumenten te verzenden, te ontvangen, af te drukken en te archiveren.  
 
@@ -62,18 +62,18 @@ Consolideren van financiële gegevens kan relevant zijn voor IC-processen. Zie v
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
-|Functie |Zie|
+|Aan |Zie|
 |---|---|
-|Maak uw IC-leveranciers en -klanten als partners en stel een IC-rekeningschema in.|[Intercompany instellen](intercompany-how-setup.md)|
+|Maak uw IC-leveranciers en -klanten als partners en stel een IC-rekeningschema in.|[IC instellen](intercompany-how-setup.md)|
 |Gebruik IC-documenten of -dagboeken om transacties met uw IC-partners te boeken.|[Werken met intercompany-documenten en -dagboeken](intercompany-how-work-documents-journals.md)|
-|Organiseer en verwerk inkomend en uitgaande transacties die u uitwisselt met uw IC-partners.|[De intercompany-inbox en outbox beheren](intercompany-how-manage-intercompany-inbox.md)|
-|Gebruik intercompany-transacties om kosten tussen partnerbedrijven te verdelen.|[Kosten toewijzen aan intercompany-partners](intercompany-allocate-costs.md)|
+|Organiseer en verwerk inkomend en uitgaande transacties die u uitwisselt met uw IC-partners.|[De IC-inbox en -outbox beheren](intercompany-how-manage-intercompany-inbox.md)|
+|Gebruik intercompany-transacties om kosten tussen partnerbedrijven te verdelen.|[Kosten toewijzen aan IC-partners](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
-[Werken met diversendagboeken](ui-work-general-journals.md)  
+[Werken met dagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -9,7 +9,7 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="overview-of-tasks-to-set-up-"></a>Overzicht van taken om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen
+# Overzicht van taken om [!INCLUDE[prod_short](includes/prod_short.md)] in te stellen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bevat standaardconfiguraties voor de meeste bedrijfsprocessen, maar u kunt de configuratie aanpassen aan de behoeften van uw organisatie. De artikelen van de [snelstartgids voor Business Central](quick-start-business-central.md) helpen u de eerste stappen te zetten bij het maken van uw eigen [!INCLUDE [prod_short](includes/prod_short.md)]. Dit artikel geeft een overzicht van hoe u [!INCLUDE [prod_short](includes/prod_short.md)] kunt configureren voor uw organisatie.
 
@@ -22,7 +22,7 @@ Vanuit het ![pictogram Tand om het menu Instellingen te openen.](media/ui-experi
 
 Naast de begeleide instellingen kan sommige functionaliteit, zowel algemene als voor specifieke bedrijfsprocessen, handmatig worden ingesteld. De volgende tabel bevat een overzicht van enkele functies die u handmatig kunt configureren.
 
-| Tot | Zie |
+| Aan | Zie |
 | --- | --- |
 | Betalingsmethoden, valuta's en het rekeningschema configureren en regels en standaardwaarden voor het beheren van financiële transacties instellen. |[Financiën instellen](finance-setup-finance.md) |
 | De bankrekeningen van uzelf en uw leveranciers configureren en services inschakelen voor het importeren en exporteren van bankbestanden. |[Bankieren instellen](bank-setup-banking.md) |
@@ -44,7 +44,7 @@ Naast de begeleide instellingen kan sommige functionaliteit, zowel algemene als 
 |Maak uw Business Central-gegevens als een gegevensbron beschikbaar in Power Apps.|[Verbinding met uw Business Central-gegevens maken om een bedrijfsapp te maken met Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Gebruik speciale Quickbooks-migratiehandleidingen.|[Overstappen van een QuickBooks-app naar Business Central](across-quickbooks-to-business-edition.md)|
 |Toegang tot uw Business Central-gegevens krijgen vanaf uw mobiele apparaat.|[Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)|
-|Afspraken massaal factureren in Microsoft Bookings.|[Massaal factureren voor Microsoft Bookings](finance-bookings.md)|
+|Afspraken massaal factureren in Microsoft Bookings.|[In bulk factureren voor Microsoft Bookings](finance-bookings.md)|
 |Stel een SMTP-server in om communicatie per e-mail in en vanuit [!INCLUDE[prod_short](includes/prod_short.md)] in te schakelen.| [E-mail handmatig instellen of de begeleide instelling gebruiken](admin-how-setup-email.md)|
 | Unieke id-codes toewijzen voor records zoals kaarten, documenten, en dagboekregels, zodat u ze in het systeem kunt bijhouden. |[Nummerreeksen maken](ui-create-number-series.md) |
 |Stel een basisagenda in en wijs deze toe aan uw bedrijf en aan uw zakelijke partners, zoals klanten, leveranciers of vestigingen. Leverdatums en ontvangstdatums op regels voor toekomstige verkooporders, inkooporders, transferorders en productieorders worden dan berekend aan de hand van de werkdagen die zijn opgegeven in de agenda.|[Basisagenda's instellen](across-how-to-assign-base-calendars.md)|
@@ -54,13 +54,13 @@ Voor sommige gebieden moet u een beheerder in uw [!INCLUDE[prod_short](includes/
 > [!NOTE]
 > Als beheerder kunt u een nieuw bedrijf instellen in [!INCLUDE[prod_short](includes/prod_short.md)] met behulp van RapidStart Services, een hulpmiddel dat is ontworpen om implementatietijden te verkorten, de kwaliteit van de implementatie te verbeteren, een herhaalbare aanpak van implementaties te introduceren en de productiviteit te verbeteren door terugkerende taken te automatiseren en vereenvoudigen. Meer informatie op [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Apps instellen
+## Apps instellen
 
 Boven op de kernmogelijkheden in [!INCLUDE [prod_short](includes/prod_short.md)] Microsoft voegt enkele apps toe die worden vermeld op de pagina [**Extensiebeheer**](https://businesscentral.dynamics.com/?page=2500). Vanaf oktober 2022 biedt elke app een link om de opstartpagina te openen - kies gewoon de actie **Instellen**.  
 
 U kunt ook mogelijkheden toevoegen aan uw [!INCLUDE [prod_short](includes/prod_short.md)] door AppSource-apps toe te voegen. Meer informatie op [Business Central Online aanpassen met extensies](ui-extensions.md).  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van bedrijfsgegevens](admin-company-information.md)  
 [Beheer](admin-setup-and-administration.md)  

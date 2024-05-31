@@ -10,7 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Regels instellen voor automatische vereffening van betalingen
+# Regels instellen voor automatische vereffening van betalingen
 
 Op de pagina **Regels betalingsvereffening** stelt u de regels in die bepalen hoe betalingstekst (op een banktransactie) automatisch moet worden afgestemd met de gerelateerde openstaande (onbetaalde) facturen, creditnota's of andere posten wanneer u de functie **Automatisch vereffenen** gebruikt in het venster **Betalingsreconciliatiedagboek**. Zie voor meer informatie [Betalingen vereffenen met automatische vereffening](receivables-how-reconcile-payments-auto-application.md).
 
@@ -28,11 +28,11 @@ Behalve de afstemmingscriteria is het volgende van toepassing met betrekking tot
 - Voor negatieve bedragen wordt eerst afgestemd met openstaande posten die klantfacturen vertegenwoordigen, en vervolgens met creditnota's van leveranciers.
 - Voor positieve bedragen wordt eerst een afstemming uitgevoerd met openstaande posten die leveranciersfacturen vertegenwoordigen en dan met creditnota's van klanten.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Een betalingsvereffeningsregel instellen
+## Een betalingsvereffeningsregel instellen
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Regels betalingsvereffening** in en kies vervolgens de gerelateerde koppeling.
 2. Definieer een nieuwe of bewerkte betalingsvereffeningsregel door de velden op een regel in te vullen, zoals beschreven in de volgende tabel.
 
-|Veld|Omschrijving|
+|Veld|Beschrijving|
 |-|-|
 |**Zekerheid afstemming**|Geeft aan hoe zeker u bent over de vereffeningsregel die u op de regel definieert. <br /></br>Een waarde die u in dit veld opgeeft, wordt in het veld **Zekerheid afstemming** op de pagina **Betalingsreconciliatiedagboek** weergegeven, afhankelijk van de kwaliteit van de automatische betalingsvereffening op de dagboekregel.|
 |**Prioriteit**|Geeft de prioriteit aan van de vereffeningsregel in verhouding tot andere vereffeningsregels die als regels zijn gedefinieerd op de pagina **Regels betalingsvereffening**. 1 is de hoogste prioriteit.|
@@ -48,32 +48,32 @@ De volgende tabel beschrijft de standaardregels voor betalingsvereffening in [!I
 
 | Zekerheid afstemming | Prioriteit | Gerelateerde partij afgestemd | Doc.nr./extern documentnr. Afgestemd | Bedrag incl. tolerantie afgestemd |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
-| Hoog             | 1        | Volledig                 | Ja - Meerdere                 | Eén overeenkomst                      |
+| Hoog             | 0        | Volledig                 | Ja - Meerdere                 | Eén overeenkomst                      |
 | Hoog             | 2        | Volledig                 | Ja - Meerdere                 | Meerdere overeenkomsten               |
 | Hoog             | 3        | Volledig                 | Ja                            | Eén overeenkomst                      |
 | Hoog             | 4        | Volledig                 | Ja                            | Meerdere overeenkomsten               |
 | Hoog             | 5        | Gedeeltelijk             | Ja - Meerdere                 | Eén overeenkomst                      |
 | Hoog             | 6        | Gedeeltelijk             | Ja - Meerdere                 | Meerdere overeenkomsten               |
 | Hoog             | 7        | Gedeeltelijk             | Ja                            | Eén overeenkomst                      |
-| Hoog             | 8        | Volledig                 | Nee                             | Eén overeenkomst                      |
-| Hoog             | 9        | Nee                    | Ja - Meerdere                 | Eén overeenkomst                      |
-| Hoog             | 10       | Nee                    | Ja - Meerdere                 | Meerdere overeenkomsten               |
-| Gemiddeld           | 1        | Volledig                 | Ja - Meerdere                 | Niet in aanmerking genomen                 |
+| Hoog             | 8        | Volledig                 | Nr.                             | Eén overeenkomst                      |
+| Hoog             | 9        | Nr.                    | Ja - Meerdere                 | Eén overeenkomst                      |
+| Hoog             | 10       | Nr.                    | Ja - Meerdere                 | Meerdere overeenkomsten               |
+| Gemiddeld           | 0        | Volledig                 | Ja - Meerdere                 | Niet in aanmerking genomen                 |
 | Gemiddeld           | 2        | Volledig                 | Ja                            | Niet in aanmerking genomen                 |
-| Gemiddeld           | 3        | Volledig                 | Nee                             | Meerdere overeenkomsten               |
+| Gemiddeld           | 3        | Volledig                 | Nr.                             | Meerdere overeenkomsten               |
 | Gemiddeld           | 4        | Gedeeltelijk             | Ja - Meerdere                 | Niet in aanmerking genomen                 |
 | Gemiddeld           | 5        | Gedeeltelijk             | Ja                            | Niet in aanmerking genomen                 |
-| Gemiddeld           | 6        | Nee                    | Ja                            | Eén overeenkomst                      |
-| Gemiddeld           | 7        | Nee                    | Ja - Meerdere                   | Niet in aanmerking genomen                 |
-| Gemiddeld           | 8        | Gedeeltelijk             | Nee                             | Eén overeenkomst                      |
-| Gemiddeld           | 9        | Nee                    | Ja                            | Niet in aanmerking genomen                 |
-| Laag              | 1        | Volledig                 | Nee                             | Geen overeenkomsten                     |
-| Laag              | 2        | Gedeeltelijk             | Nee                             | Meerdere overeenkomsten               |
-| Laag              | 3        | Gedeeltelijk             | Nee                             | Geen overeenkomsten                     |
+| Gemiddeld           | 6        | Nr.                    | Ja                            | Eén overeenkomst                      |
+| Gemiddeld           | 7        | Nr.                    | Ja - Meerdere                   | Niet in aanmerking genomen                 |
+| Gemiddeld           | 8        | Gedeeltelijk             | Nr.                             | Eén overeenkomst                      |
+| Gemiddeld           | 9        | Nr.                    | Ja                            | Niet in aanmerking genomen                 |
+| Laag              | 0        | Volledig                 | Nr.                             | Geen overeenkomsten                     |
+| Laag              | 2        | Gedeeltelijk             | Nr.                             | Meerdere overeenkomsten               |
+| Laag              | 3        | Gedeeltelijk             | Nr.                             | Geen overeenkomsten                     |
 | Laag              | 4        | Nr.                    | Nr.                             | Eén overeenkomst                      |
 | Laag              | 5        | Nr.                    | Nr.                             | Meerdere overeenkomsten               |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  

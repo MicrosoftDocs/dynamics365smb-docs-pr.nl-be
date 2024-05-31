@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Procedure: kits verkopen, assembleren en verzenden
+# Procedure: kits verkopen, assembleren en verzenden
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -19,18 +19,18 @@ Er zijn speciale functies beschikbaar om de verzending van aantallen voor assemb
 
 Wanneer in basismagazijnconfiguraties een aantal voor assembleren op basis van orders klaar is om te worden verzonden, boekt de verantwoordelijke magazijnmedewerker een voorraadpick voor de verkooporderregels. Dit leidt tot het maken van een voorraadverplaatsing voor de componenten, tot het boeken van de assemblage-uitvoer en tot de verkooporderverzending. Zie [Op-order-assembleren-artikelen in voorraadpicks afhandelen](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks) voor meer informatie.  
 
-## <a name="about-this-walkthrough"></a>Informatie over deze procedure
+## Informatie over deze procedure
 
 In deze procedure worden de volgende taken gedemonstreerd:  
 
-### <a name="setting-up-assembly-items"></a>Assemblageartikelen instellen
+### Assemblageartikelen instellen
 
 Assemblageartikelen worden gekenmerkt door hun aanvullingsmethode en assemblagestuklijst. Het assemblagebeleid voor het artikel kan assembleren op order (ATO) of assembleren op voorraad (ATS) zijn. In deze sectie komen de volgende taken aan bod:  
 
 -   De juiste aanvullingsmethode en het juiste assemblagebeleid instellen op een nieuwe assemblageartikelkaart.  
 -   Een assemblagestuklijst maken die assemblageonderdelen en de resource voor het assemblageartikel aangeeft.  
 
-### <a name="selling-customized-assembly-items"></a>Aangepaste assemblageartikelen verkopen
+### Aangepaste assemblageartikelen verkopen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt de flexibiliteit om een voorraadaantal en een hoeveelheid voor assembleren op order in te voeren op één verkooporderregel. In deze sectie komen de volgende taken aan bod:  
 
@@ -40,14 +40,14 @@ Assemblageartikelen worden gekenmerkt door hun aanvullingsmethode en assemblages
 -   Een gemengde verkooporderregel maken waarbij delen van de verkoophoeveelheid uit voorraad worden geleverd en het resterende deel vóór verzending moet worden geassembleerd.  
 -   ATO-beschikbaarheidswaarschuwingen.  
 
-### <a name="planning-for-assembly-items"></a>Assemblageartikelen plannen
+### Assemblageartikelen plannen
 
 Assemblagevraag en -aanbod worden verwerkt door het planningssysteem, net als voor inkoop, transfer en productie. In deze sectie komen de volgende taken aan bod:  
 
 -   Een regeneratief plan voor artikelen uitvoeren met verkoopvraag voor geassembleerde levering.  
 -   Een assemblageorder genereren om te voldoen aan een verkoopregelaantal voor de gevraagde verzenddatum.  
 
-### <a name="assembling-items"></a>Artikelen samenstellen
+### Artikelen samenstellen
 
 Assemblageorders werken op een soortgelijke manier als productieorders, behalve dat het verbruik en de uitvoer rechtstreeks vanuit de order wordt vastgelegd en geboekt. Wanneer de artikelen worden samengesteld voor voorraad, heeft de assemblagemedewerker volledige toegang tot alle kop- en regelvelden. Wanneer de artikelen worden samengesteld voor een order waarbij de hoeveelheid en de datum zijn toegezegd aan de klant, kunnen bepaalde velden in de assemblageorder niet worden bewerkt. In dat geval wordt de assemblageboeking uitgevoerd vanuit de magazijnverzending voor de gekoppelde verkooporder. In deze sectie komen de volgende taken aan bod.  
 
@@ -55,7 +55,7 @@ Assemblageorders werken op een soortgelijke manier als productieorders, behalve 
 -   Een magazijnverzendingsregel openen vanuit een ATO-assemblageorder om assemblageactiviteiten vast te leggen.  
 -   Een ATO-assemblageorder openen vanuit een magazijnverzendingsregel om de automatisch ingevoerde gegevens te bekijken.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Assemblageartikelen vanuit de voorraad en die op order zijn geassembleerd verzenden
+### Assemblageartikelen vanuit de voorraad en die op order zijn geassembleerd verzenden
 
 Er bestaan speciale functies voor het beheren van aantallen voor assemblage op basis van orders. In deze sectie komen de volgende taken aan bod:  
 
@@ -65,7 +65,7 @@ Er bestaan speciale functies voor het beheren van aantallen voor assemblage op b
 -   Hoeveelheden voor assembleren op order verzenden.  
 -   Voorraadcomponenten verzenden.  
 
-## <a name="roles"></a>Rollen
+## Rollen
 
 In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:  
 
@@ -75,7 +75,7 @@ In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:
 -   Picker  
 -   Verantwoordelijke voor verzending  
 
-## <a name="prerequisites"></a>Vereisten
+## Vereisten
 
 Voordat u de stappen in deze procedure kunt uitvoeren, moet u het volgende doen:  
 
@@ -92,7 +92,7 @@ Voordat u de stappen in deze procedure kunt uitvoeren, moet u het volgende doen:
 
 Bereid de vestiging WIT voor assemblageverwerking voor door de volgende stappen uit te voeren:  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de vestigingskaart voor de vestiging WIT.  
 3.  Voer op het sneltabblad **Opslaglocaties** in het veld **Opslaglocatie Naar-assemblage** de waarde **W-10-0001** in.  
 
@@ -104,12 +104,12 @@ Bereid de vestiging WIT voor assemblageverwerking voor door de volgende stappen 
 
 Verwijder de standaarddoorlooptijd voor interne processen door de volgende stappen uit te voeren:  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Productie-instellingen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Productie-instellingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Verwijder op de pagina **Productie-instellingen** op het sneltabblad **Planning** de waarde in het veld **Std. veiligheidstijd**.  
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Scenario
+## Scenario
 
 Op 23 januari neemt Susan, de verkooporderprocessor, een order uit de onderdelenwinkel voor drie eenheden van Kit B aan. Dit is een ATO-artikel. Alle drie eenheden worden aangepast en moeten de sterke grafische kaart en een extra RAM-blok bevatten. De schijfstations worden bijgewerkt naar dvd omdat er geen cd-stations beschikbaar zijn. Susan weet dat de eenheden meteen kunnen worden samengevoegd, en laat de voorgestelde verzenddatum op 23 januari staan.  
 
@@ -137,9 +137,9 @@ Sammy pakt de tien ATS-eenheden in met de vijf ATO-eenheden die Linda eerder die
 
 Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de verkooporder en de gekoppelde assemblageorders verwijderd.  
 
-## <a name="prepare-sample-data"></a>Voorbeeldgegevens voorbereiden
+## Voorbeeldgegevens voorbereiden
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Mag.-artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Mag.-artikeldagboeken** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies het veld **Batchnaam** en selecteer vervolgens het standaarddagboek.  
 3.  Maakt positieve voorraadherwaarderingen bij vestiging WIT op de werkdatum, 23 januari, door de volgende informatie in te voeren.  
 
@@ -148,20 +148,20 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
     |80001|PICK|W-01-0001|20|  
     |80005|PICK|W-01-0001|20|  
     |80011|PICK|W-01-0001|20|  
-    |80014|PICK|W-01-0001|20|  
-    |80203|PICK|W-01-0001|20|  
-    |80209|PICK|W-01-0001|20|  
+    |80014|PICK|W-01-0001|2.0|  
+    |80203|PICK|W-01-0001|2.0|  
+    |80209|PICK|W-01-0001|2.0|  
 
 4.  Kies de actie **Registreren** en kies vervolgens de knop **Ja**.  
 
     Synchroniseer vervolgens de nieuwe magazijnposten met de voorraad.  
 
-5.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling. De pagina **Artikeldagboek** wordt geopend.  
+5.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikeldagboeken** in en kies vervolgens de gerelateerde koppeling. De pagina **Artikeldagboek** wordt geopend.  
 6.  Kies de actie **Magazijnherwaardering berekenen**.  
 7.  Klik op de pagina **Magazijnherwaardering berekenen** op de knop **OK**.  
 8.  Kies op de pagina **Artikeldagboek** de actie **Boeken** en kies vervolgens de knop **Ja**.  
 
-### <a name="creating-the-assembly-items"></a>De assemblageartikelen maken
+### De assemblageartikelen maken  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
@@ -212,7 +212,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
     |Artikel|80210|1|  
     |Bron|Tsing|1|  
 
-### <a name="selling-the-assembly-items"></a>De assemblageartikelen verkopen
+### De assemblageartikelen verkopen  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
@@ -235,7 +235,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
     Pas vervolgens de verkooporder aan.  
 
 4.  Selecteer de verkooporderregel voor drie eenheden van Kit B.  
-5.  Kies op het sneltabblad **Regels** de optie **Regel** en kies vervolgens **Op order assembleren** en **Op orderregels assembleren**.  
+5.  Kies op het sneltabblad **Regels** de optie **Regel** en vervolgens **Op order assembleren** en **Op orderregels assembleren**.  
 6.  Voer op de pagina **Op orderregels assembleren** op de assemblageorderregel voor artikel 80014 in het veld **Aantal per** de waarde **2** in.  
 7.  Selecteer in de planningsregel voor artikel 80210 het veld **Nummer**. Selecteer in plaats hiervan artikel 80209.  
 8.  Maak een nieuwe assemblageorderregel met de volgende gegevens.  
@@ -251,7 +251,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 10. Kies op het sneltabblad **Regels**, **Regel**, **Op order assembleren** en vervolgnes **Prijs samenvoegen**.  
 11. Kies de knop **Ja**. Let op de verhoogde waarde in het veld **Eenheidsprijs excl. btw**.  
 12. Selecteer de verkooporderregel voor 15 eenheden van Kit A.  
-13. Kies op het sneltabblad **Regels** de optie **Regel** en kies vervolgens **Op order assembleren** en **Op orderregels assembleren**.  
+13. Kies op het sneltabblad **Regels** de optie **Regel** en vervolgens **Op order assembleren** en **Op orderregels assembleren**.  
 14. Maak op de pagina **Op orderregels assembleren** een nieuwe assemblageorderregel met de volgende gegevens.  
 
     |Soort|Nr.|Aantal per|  
@@ -265,9 +265,9 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 17. Kies de actie **Mag.-verzending maken**.  
 18. Sluit de verkooporder.  
 
-### <a name="planning-for-the-unavailable-ats-items"></a>Planning voor de niet-beschikbare ATS-artikelen
+### Planning voor de niet-beschikbare ATS-artikelen  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Planningsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Regeneratief plan berekenen**.  
 3.  Stel op de pagina **Plan berekenen** de volgende filters in.  
 
@@ -283,7 +283,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 6.  Kies op de pagina **Planningsboodschap uitvoeren** het veld **Assemblageorder** en selecteer vervolgens **Assemblageorders maken**.  
 7.  Kies de knop **OK**.  
 
-### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Het eerste ATO-aantal assembleren en verzenden
+### Het eerste ATO-aantal assembleren en verzenden  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnverzending** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -304,7 +304,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Voer vervolgens de taak van de picker uit.  
 
-4.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Picks** in en kies vervolgens de gerelateerde koppeling.  
+4.  Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Picks** in en kies vervolgens de gerelateerde koppeling.  
 5.  Open het magazijnpickdocument dat u hebt gemaakt in stap 3 van deze sectie.  
 
     Let op de waarde in het veld **Brondocument**. Bovendien ziet u dat alle pickregels assemblageonderdelen betreffen.  
@@ -343,7 +343,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Er worden magazijnactiviteiten uitgevoerd om de eerste verkooporderregel op 23 januari te vervullen. Vervul daarna de verkooporderregels die op 27 januari worden verzonden  
 
-### <a name="assembling-and-recording-the-second-ato-quantity"></a>De tweede ATO-hoeveelheid assembleren en vastleggen
+### De tweede ATO-hoeveelheid assembleren en vastleggen  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Assemblageorders** in en kies vervolgens de gerelateerde koppeling  
 
@@ -367,7 +367,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
 5.  Sluit de pagina **Assemblageorder**.  
 
-### <a name="assembling-the-ats-quantity"></a>Het ATS-aantal assembleren
+### Het ATS-aantal assembleren  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Assemblageorders** in en kies vervolgens de gerelateerde koppeling  
 2.  Open de assemblageorder voor tien eenheden van Kit A.  
@@ -395,7 +395,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Zoals u ziet, wordt de assemblageorder verwijderd uit de lijst met openstaande orders.  
 
-### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>De overige artikelen verzenden gedeeltelijk uit voorraad en gedeeltelijk geassembleerd op de order
+### De overige artikelen verzenden gedeeltelijk uit voorraad en gedeeltelijk geassembleerd op de order  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnverzending** in en kies vervolgens de gerelateerde koppeling.  
 2.  Open de meest recente magazijnverzending die bij vestiging WIT is gemaakt.  
@@ -435,7 +435,7 @@ Wanneer de verkooporder later als volledig gefactureerd wordt geboekt, worden de
 
     Wanneer de Onderdelenwinkel betaalt voor de ontvangst van de 18 pc's uit CRONUS, worden de verkooporder en de gekoppelde assemblageorders verwijderd.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
  [Op voorraad assembleren of Op order assembleren begrijpen](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [artikelen samenstellen](assembly-how-to-assemble-items.md)   

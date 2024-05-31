@@ -11,5 +11,5 @@ ms.service: dynamics-365-business-central
 
     Wanneer er meer dan één leveranciersjabloon bestaat, opent er een pagina waarin u een leveranciersjabloon kunt selecteren. In dat geval volgt u de volgende twee stappen.
     1. Kies op de pagina **Selecteer een sjabloon voor een nieuwe leverancier** de sjabloon die u wilt gebruiken voor de nieuwe leverancierskaart.
-    2. Kies de knop **OK**. Een nieuwe leverancierskaart wordt geopend met enkele velden ingevuld met informatie uit de sjabloon.
+    2. Kies de knop **Ok**. Een nieuwe leverancierskaart wordt geopend met enkele velden ingevuld met informatie uit de sjabloon.
 3. Ga door met velden op de leverancierskaart in te vullen of te wijzigen. [!INCLUDE[tooltip-inline-tip](tooltip-inline-tip_md.md)]

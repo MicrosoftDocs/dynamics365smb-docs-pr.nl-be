@@ -9,7 +9,7 @@ ms.date: 07/06/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="send-remittance-advice"></a>Afdrachtsadvies verzenden
+# Afdrachtsadvies verzenden
 
 Als afdrachtsadvies wordt gebruikt om leveranciers te informeren over gedane betalingen, kunt u nu afdrachtsadviezen in bulk verzenden vanuit het betalingsdagboek en deze opnieuw verzenden nadat betalingen vanuit leveranciersposten zijn gedaan, met behulp van documentverzendprofielen.
 
@@ -21,12 +21,12 @@ U kunt afdrachtsadvies op twee verschillende manieren verzenden:
 * Kies in het **Betalingsdagboek** **Gerelateerd**, **Betalingen**, **Afdrachtsadvies verzenden** om afdrachtsadvies te verzenden voor een of meer betalingsdagboekregels
 * Kies op de pagina **Leveranciersposten** op **Acties**, **Functies**, **Afdrachtsadvies verzenden** om afdrachtsadvies te e-mailen na boeking van leveranciersbetalingen voor een of meer leveranciersposten
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Leveranciersbetalingen voorstellen](payables-how-suggest-vendor-payments.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies ](ui-extensions.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Documenten verzenden via e-mail](ui-how-send-documents-email.md)  
 [Elektronische overboeking (EFT) in de Australische versie](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
 [Elektronische betalingen doen (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Elektronische overboeking (EFT) in de Nieuw-Zeelandse versie](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  

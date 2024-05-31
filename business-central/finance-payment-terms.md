@@ -8,7 +8,7 @@ ms.date: 09/05/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-payment-terms"></a>Betalingsvoorwaarden instellen
+# Betalingsvoorwaarden instellen
 
 Betalingscondities bepalen hoe u omgaat met vervaldata en betalingskortingen. U kunt elk gewenst aantal betalingsconditiecodes instellen en datumformules gebruiken om de betalingscondities te bepalen. Wanneer u zich voor het eerst aanmeldt voor [!INCLUDE [prod_short](includes/prod_short.md)] biedt het demonstratiebedrijf een aantal betaalmethoden aan die bedrijven vaak gebruiken. U kunt er echter zo veel toevoegen als u wilt.  
 
@@ -20,10 +20,10 @@ Evenzo, wanneer u een creditnota plaatst, berekent [!INCLUDE [prod_short](includ
 
 Als u uw klanten herinneringen wilt sturen over achterstallige betalingen, moet u herinneringsniveaus en -voorwaarden instellen. Ga voor meer informatie over aanmaningen naar [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>Betalingscondities instellen
+## Betalingscondities instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Betalingsvoorwaarden** in en kies vervolgens de gerelateerde koppeling.  
-2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Betalingsvoorwaarden** in en kies vervolgens de gerelateerde koppeling.  
+2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Nadat u de betalingscondities hebt ingesteld, wijst u deze toe aan klanten en leveranciers. Wijs eventueel betalingsvoorwaarden toe aan uw betalingsmethoden.  
 
@@ -32,13 +32,13 @@ Nadat u de betalingscondities hebt ingesteld, wijst u deze toe aan klanten en le
 >
 > In bepaalde landen/regio's *kunt* u betalingsvoorwaarden instellen met gedeeltelijke betalingen. Om te zien of deze mogelijkheid in uw land/regio wordt ondersteund, raadpleegt u de sectie **Lokale functionaliteit** in de inhoudsopgave aan de linkerkant van een [Microsoft Learn](about-localization.md)-artikel.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsmethoden instellen](finance-payment-methods.md)  
 [Vooruitbetalingen instellen](finance-set-up-prepayments.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Nieuwe klanten registreren](sales-how-register-new-customers.md)  
-[Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
+[Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 

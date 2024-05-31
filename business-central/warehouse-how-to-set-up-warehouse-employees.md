@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-warehouse-employees"></a>Magazijnmedewerkers instellen
+# Magazijnmedewerkers instellen
 
 U moet elke gebruiker die magazijnactiviteiten uitvoert, instellen als magazijnmedewerker en aan een standaardvestiging toewijzen. [!INCLUDE [prod_short](includes/prod_short.md)] filtert magazijnactiviteiten naar de standaardvestiging van de werknemer. Zij kunnen alleen de magazijnwerkzaamheden op de vestiging uitvoeren. U kunt een gebruiker ook toewijzen aan andere vestigingen. Ze hebben wel toegang tot vestigingen, maar kunnen geen activiteiten uitvoeren op die vestigingen.
 
-## <a name="to-set-up-warehouse-employees"></a>Magazijnmedewerkers instellen
+## Magazijnmedewerkers instellen  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnmedewerkers** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Selecteer het veld **Gebruikers-id** en selecteer vervolgens de gebruiker die als een magazijnwerknemer moet worden toegevoegd. Kies de knop **Ok**.  
 4. Voer in het veld **Vestigingscode** de code in van de vestiging waar de gebruiker gaat werken.  
@@ -26,15 +26,15 @@ U moet elke gebruiker die magazijnactiviteiten uitvoert, instellen als magazijnm
 > [!TIP]
 > U kunt ook de actie **Mij toevoegen als magazijnmedewerker** gebruiken om uzelf snel toe te voegen aan de lijst met magazijnmedewerkers. Dit is bijvoorbeeld handig wanneer u de mogelijkheden test.
 
-## <a name="see-related-microsoft-training"></a>Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
+## Zie gerelateerde [Microsoft-training](/training/modules/get-started-warehouse-management/)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Definieer een beleid voor het boeken van facturen voor gebruikers](admin-setup-invoice-posting-policy.md)  
+[Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

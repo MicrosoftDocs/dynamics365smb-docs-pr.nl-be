@@ -8,14 +8,14 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Voorraadwaardering en kostprijsberekening instellen
+# Voorraadwaardering en kostprijsberekening instellen
 
 Als u ervoor wilt zorgen dat voorraadkosten correct worden vastgelegd, moet u verschillende velden en pagina's instellen voordat u artikeltransacties gaat maken. Bedrijven kiezen doorgaans een specifieke kostprijsmethode en passen die bijvoorbeeld toe op voorraadartikelen om hen te helpen de waarde van artikelen op voorraad bij te houden.  
 
 > [!TIP]
 > Voor een inleiding in kostenberekening in [!INCLUDE [prod_short](includes/prod_short.md)] raadpleegt u [Over voorraadwaardering](finance-learn-about-costing.md).
 
-De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.
+In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
 
 |**Als u dit wilt doen**|**Zie**|  
 |------------|-------------|
@@ -31,14 +31,14 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 |Zorg dat inkoopretouren worden vereffend met de oorspronkelijke inkomende transactie om voorraadwaarde te behouden.|Het veld **Precieze kostenvereff. verplicht** op de pagina **Inkopen en Leveranciers**|
 |De afrondingsregels in te stellen die van toepassing zijn bij het aanpassen of suggereren van artikelprijzen en bij het aanpassen of suggereren van vaste verrekenprijzen.|De pagina **Afrondingsmethode**|  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Algemene voorraadgegevens instellen](inventory-how-setup-general.md)  
 [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Best Practices voor instellen: Waarderingsmethode](setup-best-practices-costing-method.md)  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)  
-[Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen](design-details-changing-costing-methods.md)  
+[Ontwerpdetails: De waarderingsmethode voor artikelen wijzigen](design-details-changing-costing-methods.md)  
 [Werken met Business Central](ui-work-product.md)  
 [Financiën](finance.md)  
 
