@@ -9,14 +9,14 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Uitval handmatig boeken
+# <a name="post-scrap-manually"></a>Uitval handmatig boeken
 
 Als er uitval wordt geproduceerd tijdens de verwerking, kan dit worden ingevoerd in het outputdagboek.  
 
 > [!NOTE]
 > Het outputaantal neemt echter niet toe door het uitvalaantal.  
 
-## Uitval handmatig boeken
+## <a name="to-post-scrap-manually"></a>Uitval handmatig boeken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -26,7 +26,7 @@ Als er uitval wordt geproduceerd tijdens de verwerking, kan dit worden ingevoerd
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Productie](production-manage-manufacturing.md)
 [Productie instellen](production-configure-production-processes.md)  

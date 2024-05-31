@@ -9,7 +9,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Inleiding tot Contoso Coffee-servicebeheer
+# <a name="introduction-to-contoso-coffee-service-management"></a>Inleiding tot Contoso Coffee-servicebeheer
 
 Contoso Coffee is een fictief bedrijf dat koffiezetapparaten voor consumenten en bedrijven maakt. De **Contoso Coffee**-apps voor Business Central voegen demogegevens toe die u kunt gebruiken om te leren hoe u de servicebeheermogelijkheden in Business Central kunt benutten.
 
@@ -23,7 +23,7 @@ Deze app biedt verschillende elementen die worden gebruikt voor de belangrijkste
 > Boek alle artikeldagboekregels met beginsaldi voordat u een van de scenario's voor Contoso Coffee gaat uitvoeren. Zie de sectie [Contoso Coffee-gegevens instellen](#set-up-contoso-coffee-service-management-data) voor meer vereisten.
 >
 > 
-## Contoso Coffee-servicebeheergegevens instellen
+## <a name="set-up-contoso-coffee-service-management-data"></a>Contoso Coffee-servicebeheergegevens instellen
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -42,7 +42,7 @@ Zodra de relevante apps zijn geïnstalleerd, gaat u naar de pagina [Demohulpmidd
 
 Als u gereed bent, kiest u de actie **Demogegevens maken**. Het duurt een paar minuten om de gegevens aan de onderliggende database toe te voegen, maar dan bent u klaar om de verschillende scenario's uit te voeren.  
 
-## Scenario's
+## <a name="scenarios"></a>Scenario's
 
 De demogegevens voor Contoso Coffee ondersteunen momenteel de volgende servicescenario's voor testen en trainen:
 
@@ -55,6 +55,6 @@ Lees de stappen voor elk scenario in het desbetreffende artikel.
 > De serviceprocedures vereisen dat de gebruikerservaring is ingesteld op **Premium** op de pagina **Bedrijfsgegevens**.
 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Onderhoud](../../service-service.md)
