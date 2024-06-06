@@ -11,9 +11,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Snelle toetsenbordnaslag - alleen pc
+# <a name="keyboard-quick-reference---pc-only"></a>Snelle toetsenbordnaslag - alleen pc
 
-#### Algemeen
+#### <a name="general"></a>Algemeen
 
 |Selecteer deze toetsen|Actie|  
 |-|-|
@@ -40,7 +40,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Focus verplaatsen naar volgende/vorige element|
 |<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Naar het volgende sneltabblad/onderdeel gaan|
 
-#### Navigeren en rijen selecteren
+#### <a name="navigate--select-rows"></a>Navigeren en rijen selecteren
 
 |Selecteer deze toetsen|Actie|
 |-|-|
@@ -54,14 +54,14 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Page Up</kbd>/<kbd>Omlaag</kbd>|Zichtbare rijen boven/onder selecteren|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Focus uit de lijst verplaatsen|
 
-#### Kopiëren en plakken
+#### <a name="copy--paste"></a>Kopiëren en plakken
 
 |Selecteer deze toetsen|Actie|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Rijen kopiëren/plakken|
 |<kbd>F8</kbd>|Veld erboven naar huidige rij kopiëren|
 
-#### Zoeken, filteren en sorteren
+#### <a name="search-filter--sort"></a>Zoeken, filteren en sorteren
 
 |Selecteer deze toetsen|Actie|
 |-|-|
@@ -72,20 +72,20 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Filter op een geselecteerd veld toevoegen|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Filters opnieuw instellen|
 
-#### Snelinvoer
+#### <a name="quick-entry"></a>Snelinvoer
 
 |Selecteer deze toetsen|Actie|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Naar volgende snelinvoerveld buiten een lijst gaan|
 |<kbd>Enter</kbd>/<kbd>Shift</kbd>+<kbd>Enter</kbd>|Naar volgende/vorige snelinvoerveld gaan|
 
-##### Rapportvoorbeeld
+##### <a name="report-preview"></a>Rapportvoorbeeld
 
 |Selecteer deze toetsen|Actie|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Naar de eerste/laatste pagina gaan|
 
-#### Numeriek toetsenbord
+#### <a name="numeric-keypad"></a>Numeriek toetsenbord
 
 |Selecteer deze toetsen|Actie|  
 |-|-|

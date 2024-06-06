@@ -8,15 +8,15 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Resources voor gebruikers
+# <a name="resources-for-users"></a>Resources voor gebruikers
 
 Gebruikt u [!INCLUDE [prod_short](includes/prod_short.md)] en bent u op zoek naar relevante resources? Vind alles wat je nodig hebt in dit artikel en vergeet niet een bladwijzer te maken van [aka.ms/BCUsers](https://aka.ms/BCUsers).
 
-## Populaire onderwerpen op dit moment
+## <a name="hot-topics-right-now"></a>Populaire onderwerpen op dit moment
 
 - Schrijf u in voor het [!INCLUDE [prod_short](includes/prod_short.md)]-introductie-evenement op [aka.ms/BCLE](https://aka.ms/BCLE)
 
-## Nieuwste release en updates  
+## <a name="latest-release-and-updates"></a>Nieuwste release en updates
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-releaseplan: [aka.ms/BCReleasePlan](https://aka.ms/BCReleasePlan) 
 - Belangrijke updates: [aka.ms/BCUpdates](https://aka.ms/BCUpdates)
@@ -28,11 +28,11 @@ Gebruikt u [!INCLUDE [prod_short](includes/prod_short.md)] en bent u op zoek naa
 - Waarschuw Microsoft over een aankomende regelgevende functie: [aka.ms/BCAlerts](https://aka.ms/BCAlerts)
 - Optionele functies die nu verplicht zijn: [aka.ms/BCFeatureMgmt](https://aka.ms/BCFeatureMgmt)
 
-## Blijf op de hoogte van wat er nieuw is
+## <a name="stay-up-to-date-on-whats-new"></a>Blijf op de hoogte van wat er nieuw is
 
 - Bekijk de [!INCLUDE [prod_short](includes/prod_short.md)]-introductie-evenementsessies: [aka.ms/BCLE](https://aka.ms/BCLE) 
 
-## Sociaal en blogs
+## <a name="social-and-blogs"></a>Sociaal en blogs
 
 - Blijf op de hoogte van wat er speelt in de #MSDyn365BC-gemeenschap: [twitter.com/MSDYN365BC](https://twitter.com/MSDYN365BC) (Gebruik #BCALHelp op X, voorheen bekend als Twitter, voor snelle tips over hoe u dingen kunt doen) 
 - Volg ons op LinkedIn: [aka.ms/BCLinkedIn](https://aka.ms/BCLinkedIn)
@@ -40,7 +40,7 @@ Gebruikt u [!INCLUDE [prod_short](includes/prod_short.md)] en bent u op zoek naa
 - Blog voor IT-professionals: [cloudblogs.microsoft.com/dynamics365/it/product/business-central](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
 - Blog voor beslissers: [cloudblogs.microsoft.com/dynamics365/bdm](https://cloudblogs.microsoft.com/dynamics365/bdm)
 
-## Klantonboarding en resources 
+## <a name="customer-onboarding-and-resources"></a>Klantonboarding en resources
 
 - Ontdek alle [!INCLUDE [prod_short](includes/prod_short.md)]-apps op AppSource : [aka.ms/BCAppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=dynamics-365-business-central)
 - [!INCLUDE [prod_short](includes/prod_short.md)] krijgen op uw mobiele apparaten: [aka.ms/BusinessCentralApp](https://aka.ms/BusinessCentralApp)
@@ -49,30 +49,30 @@ Gebruikt u [!INCLUDE [prod_short](includes/prod_short.md)] en bent u op zoek naa
 - Productiviteitstips: [aka.ms/BCProductivity](https://aka.ms/BCProductivity) 
 - Toetsenbordsneltoetsen: [aka.ms/BCKeys](https://aka.ms/BCKeys)
 
-## Rapportage en bedrijfsinformatie
+## <a name="reporting-and-business-intelligence"></a>Rapportage en bedrijfsinformatie
 
 - Aan de slag gaan met rapportage: [aka.ms/BCReporting](https://aka.ms/BCReporting)
 - Voorbeelden van Excel-lay-outs: [aka.ms/BCExcelSamples](https://aka.ms/BCExcelSamples)
 - [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI: [aka.ms/BCPBI](https://aka.ms/BCPBI)
 
-## Power Platform
+## <a name="power-platform"></a>Power Platform
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] en Power BI: [aka.ms/BCPBI](https://aka.ms/BCPBI)
 - [!INCLUDE [prod_short](includes/prod_short.md)] en Power Automate: [aka.ms/BCAutomate](https://aka.ms/BCAutomate) 
 - [!INCLUDE [prod_short](includes/prod_short.md)] en Power Apps: [aka.ms/BCPApps](https://aka.ms/BCPApps)
 
-## Migreren van on-premises naar online
+## <a name="migrating-from-on-premises-to-online"></a>Migreren van on-premises naar online
 
 - Ontdek troeven voor de transitie van Dynamics GP, Dynamics NAV, Dynamics SL, [!INCLUDE [prod_short](includes/prod_short.md)] on premises klanten naar [!INCLUDE [prod_short](includes/prod_short.md)] online: [aka.ms/BCMigrations](https://aka.ms/BCMigrations)  
 - Migratietools gebruiken: [Gegevens migreren](/dynamics365/business-central/dev-itpro/administration/migrate-data) 
 
-## Telemetrie en prestaties
+## <a name="telemetry-and-performance"></a>Telemetrie en prestaties
 
 - Documentatie over app-prestaties: [aka.ms/BCPerformance](https://aka.ms/BCPerformance)
 - Telemetriedocumentatie: [aka.ms/BCTelemetry](https://aka.ms/BCTelemetry) 
 - Omgevingstelemetriegegevens analyseren met Power BI: [aka.ms/BCTelemetryReport](https://aka.ms/BCTelemetryReport) 
 
-## Beveiliging, privacy en naleving
+## <a name="security-privacy-and-compliance"></a>Beveiliging, privacy en naleving
 
 - Beveiliging en privacydocumentatie: [aka.ms/BCSecurity](https://aka.ms/BCSecurity) 
 - Beveiliging in [!INCLUDE [prod_short](includes/prod_short.md)]: [aka.ms/BCSecurity](https://aka.ms/BCSecurity)
@@ -80,24 +80,24 @@ Gebruikt u [!INCLUDE [prod_short](includes/prod_short.md)] en bent u op zoek naa
 - Overzicht van naleving: [aka.ms/BCCompliance](https://aka.ms/BCCompliance)
 - Toepassingsnaleving: [aka.ms/BCAppCompliance](https://aka.ms/BCAppCompliance)
 
-## Licenties en prijzen
+## <a name="licensing-and-pricing"></a>Licenties en prijzen
 
 - [Business Central-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)
 
-## Shopify-integratie
+## <a name="shopify-integration"></a>Shopify-integratie
 
 - Shopify-start: [aka.ms/BCShopifyStart](https://aka.ms/BCShopifyStart)
 - Veelgestelde vragen over Shopify: [aka.ms/BCShopifyFAQ](https://aka.ms/BCShopifyFAQ)
 - Shopify-consultant: [aka.ms/BCShopifyConsultant](https://aka.ms/BCShopifyConsultant)
 
-## Evenementen voor klanten
+## <a name="events-for-customers"></a>Evenementen voor klanten
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-introductie-evenement: [aka.ms/BCLE](https://aka.ms/BCLE)
 - [DynamicsMinds](https://www.dynamicsminds.com/)
 - [UG Summit](https://www.summitna.com/)
 - [DynamicsCon](https://dynamicscon.com/)
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Welkom bij [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Bedrijfsfunctionaliteit](across-business-functionality.md)  

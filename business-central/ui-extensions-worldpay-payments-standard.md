@@ -9,7 +9,7 @@ ms.date: 12/11/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# De extensie WorldPay Payments Standard
+# <a name="the-worldpay-payments-standard-extension"></a>De extensie WorldPay Payments Standard
 
 > [!CAUTION]
 > De extensie WorldPay Payments Standard wordt beëindigd. De code is gemarkeerd als verouderd vanaf releasewave 2 van 2023. De app is actief voor de volgende drie grote releases en wordt daarna verwijderd.
@@ -20,7 +20,7 @@ Als u de extensie inschakelt wanneer u een verkoopfactuur per e-mail verzendt, b
 
 Het inschakelen van extensies voor betalingsservices is in [!INCLUDE[prod_short](includes/prod_short.md)] gratis. U moet wel contact opnemen met de betalingsservice om een account aan te vragen. Zie [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md) voor meer informatie.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Verkopen instellen](sales-setup-sales.md)  

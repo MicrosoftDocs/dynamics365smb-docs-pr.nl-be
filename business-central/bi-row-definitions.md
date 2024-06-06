@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# Rijdefinities in financiële rapportage
+# <a name="row-definitions-in-financial-reporting"></a>Rijdefinities in financiële rapportage
 
 Rijdefinities in financiële rapporten bieden een plaats voor berekeningen die niet rechtstreeks in het rekeningschema kunnen worden uitgevoerd. U kunt bijvoorbeeld subtotalen maken voor groepen rekeningen en dat totaal vervolgens opnemen in andere totalen. Ook kunt u tussenstappen berekenen die niet in het eindrapport staan.
 
-## Een rijdefinitie maken of bewerken
+## <a name="create-or-edit-a-row-definition"></a>Een rijdefinitie maken of bewerken
 
 Volg deze stappen om een rijdefinitie te maken of te bewerken:
 
@@ -29,7 +29,7 @@ Volg deze stappen om een rijdefinitie te maken of te bewerken:
 > [!NOTE]
 > De kolommen die u voor elke regel in de rijdefinitie definieert, vertegenwoordigen kolom drie en hoger op de pagina **Financieel rapport**. De eerste twee kolommen, **Rijnr.** en **Omschrijving** zijn vast.  
 
-## Ingebouwde rijdefinities
+## <a name="built-in-row-definitions"></a>Ingebouwde rijdefinities
 
 [!INCLUDE[prod_short](includes/prod_short.md)] biedt voorbeeldrijdefinities waarmee u snel aan de slag kunt gaan met het opstellen van financiële rapporten die aan uw behoeften voldoen.
 
@@ -45,7 +45,7 @@ Volg deze stappen om een rijdefinitie te maken of te bewerken:
 > [!NOTE]
 > De voorbeeldfinancieringsrapporten in [!INCLUDE[prod_short](includes/prod_short.md)] zijn niet kant-en-klaar voor gebruik. Afhankelijk van de manier waarop u uw grootboekrekeningen, dimensies, grootboekrekeningcategorieën en budgetten instelt, moet u de voorbeeldrij- en kolomdefinities en de financiële rapporten die er gebruik van maken, aanpassen aan uw instellingen.
 
-## GB-rekeningcategorieën gebruiken om de indeling van uw financiële overzichten te wijzigen
+## <a name="use-gl-account-categories-to-change-the-layout-of-your-financial-statements"></a>GB-rekeningcategorieën gebruiken om de indeling van uw financiële overzichten te wijzigen
 
 U kunt GB-rekeningcategorieën gebruiken om de indeling te wijzigen van uw financiële overzichten. Nadat u de rekeningcategorieën hebt ingesteld op de pagina **GB-rekeningcategorieën** kunt u bijvoorbeeld de actie **Financiële rapporten genereren** kiezen en de onderliggende financiële rapporten voor de financiële kernrapporten bijwerken. De volgende keer dat u een van deze rapporten uitvoert, zoals het rapport **Balans**, worden nieuwe totalen en subposten toegevoegd.
 
@@ -56,7 +56,7 @@ Een ander voordeel van het gebruik van grootboekrekeningcategorieën ten opzicht
 >
 > U moet uw eigen categorieën van grootboekrekeningen op lager niveau helemaal zelf maken en structureren, indien nodig in een hiërarchie, in plaats van te proberen de bestaande categorieën te herschikken. U kunt bijvoorbeeld het knooppunt **Passiva** herstructureren met een nieuw knooppunt **Eigen vermogen**, gevolgd door de knooppunten **Vlottende verplichtingen** en **LT-verplichtingen**. Meer informatie is te vinden bij [Grootboekrekeningen toewijzen aan rekeningcategorieën](finance-general-ledger.md#account-categories).
 
-## Best practices voor het werken met rijdefinities
+## <a name="best-practices-for-working-with-row-definitions"></a>Best practices voor het werken met rijdefinities
 
 Er is geen versiebeheer voor rijdefinities. Wanneer u een rijdefinitie wijzigt, wordt de oude versie vervangen wanneer uw wijziging in de database wordt opgeslagen. De volgende lijst bevat enkele best practices voor het werken met rijdefinities:
 
@@ -64,7 +64,7 @@ Er is geen versiebeheer voor rijdefinities. Wanneer u een rijdefinitie wijzigt, 
 - Voordat u een rijdefinitie wijzigt, kunt u overwegen er een kopie van te maken als back-up, voor het geval uw wijziging niet werkt zoals verwacht. U kunt de definitie gewoon kopiëren (geef deze een goede naam) of exporteren. Als u meer wilt weten, gaat u naar [Rijdefinities importeren of exporteren](#import-or-export-financial-reporting-row-definitions).
 - Als u een nieuwe kopie nodig heeft van een definitie die [!INCLUDE[prod_short](includes/prod_short.md)] voorziet, kunt u er eenvoudig een krijgen door een nieuw bedrijf op te richten dat alleen instellingsgegevens bevat. Exporteer vervolgens de definitie en importeer deze in het bedrijf waar de definitie moet worden vernieuwd.
 
-## Rijdefinities van financiële rapporten importeren of exporteren
+## <a name="import-or-export-financial-reporting-row-definitions"></a>Rijdefinities van financiële rapporten importeren of exporteren
 
 U kunt rijdefinities importeren en exporteren als RapidStart-configuratiepakketten. Configuratiepakketten zijn bijvoorbeeld handig om informatie te delen met andere bedrijven. Het pakket wordt gemaakt vanuit een .rapidstart-bestand, dat de inhoud comprimeert.
 
@@ -76,7 +76,7 @@ Volg deze stappen om rijdefinities van financiële rapporten te importeren of ex
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent 4.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rijdefinities** in en kies vervolgens de gerelateerde koppeling.
 1. Kies de rijdefinitie en kies vervolgens de actie **Rijdefinitie importeren** of **Rijdefinitie exporteren**, afhankelijk van wat u wilt doen.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Kolomdefinities in financiële rapportage](bi-column-definitions.md)  
 [Financiële rapportage voorbereiden](bi-how-work-account-schedule.md)  

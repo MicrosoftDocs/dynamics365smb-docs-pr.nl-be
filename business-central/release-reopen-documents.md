@@ -10,11 +10,11 @@ ms.custom: bap-template
 author: jswymer
 ---
 
-# Verkoop- en inkoopdocumenten vrijgeven en opnieuw openen
+# <a name="release-and-reopen-sales-and-purchase-documents"></a>Verkoop- en inkoopdocumenten vrijgeven en opnieuw openen
 
 In dit artikel leert u hoe u verkoop- en inkoopdocumenten, zoals orders, facturen en offertes, kunt vrijgeven of opnieuw kunt openen. U geeft verkoop- en inkoopdocumenten vrij om ze naar de volgende verwerkingsfase te verplaatsen voordat ze worden geboekt. Wanneer een order is vrijgegeven, wordt deze in alle beschikbaarheidsberekeningen opgenomen vanaf de verwachte ontvangstdatum van de artikelen.
 
-## Een verkoop- of inkoopdocument vrijgeven
+## <a name="release-a-sales-or-purchase-document"></a>Een verkoop- of inkoopdocument vrijgeven
 
 1. Open het document dat u wilt vrijgeven als volgt:
 
@@ -25,7 +25,7 @@ In dit artikel leert u hoe u verkoop- en inkoopdocumenten, zoals orders, facture
 
    Het veld **Status** verandert in **Vrijgegeven**.
 
-## Een verkoop- of inkoopdocument opnieuw openen
+## <a name="reopen-a-sales-or-purchase-document"></a>Een verkoop- of inkoopdocument opnieuw openen
 
 U kunt wijzigingen aanbrengen in een vrijgegeven verkoop- of inkoopdocument door het opnieuw te openen.
 
@@ -43,7 +43,7 @@ U kunt nu wijzigingen in het document aanbrengen voordat u het opnieuw vrijgeeft
 > [!NOTE]
 > Op documentregels die al in het magazijn zijn verwerkt, kunt u alleen de hoeveelheid wijzigen.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
   
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
