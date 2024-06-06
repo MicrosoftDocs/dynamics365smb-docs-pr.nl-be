@@ -9,7 +9,7 @@ ms.date: 01/18/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="report-and-document-layouts-overview"></a>Overzicht van lay-outs van rapporten en documenten beheren
+# Overzicht van lay-outs van rapporten en documenten beheren
 
 Een rapportlay-out bepaalt de inhoud en de indeling van het rapport, inclusief welke gegevensvelden van een rapportgegevensset in het rapport worden weergegeven, hoe ze worden gerangschikt, welke tekststijl en afbeeldingen worden gebruikt, enzovoort. Vanuit [!INCLUDE[prod_short](includes/prod_short.md)] kunt u bepalen welke lay-out wordt gebruikt in een rapport, een nieuwe lay-out maken of de huidige lay-outs wijzigen.
 
@@ -18,7 +18,7 @@ Een rapportlay-out bepaalt de inhoud en de indeling van het rapport, inclusief w
 
 U kunt ook rapportlay-outs gebruiken om inhoud aan e-mailberichten toe te voegen. Rapportlay-outs kunnen bijvoorbeeld tijd besparen en zorgen voor consistentie door dezelfde inhoud opnieuw te gebruiken wanneer u met uw klanten communiceert. Als u aangepaste rapportlay-outs met e-mail wilt gebruiken, moet het bestandstype voor de lay-out Word zijn. U kunt het RDLC-bestandstype niet gebruiken. Voor meer informatie zie [Herbruikbare e-mailteksten en lay-outs instellen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="introduction"></a>Inleiding
+## Inleiding
 
 Met een rapportlay-out worden met name de volgende zaken ingesteld:
 
@@ -33,11 +33,11 @@ Een rapport kan worden ingesteld met meerdere rapportlay-outs, waartussen u indi
 
 Er zijn twee belangrijke aspecten van rapportlay-outs die van invloed zijn op hoe u ermee werkt: het *lay-outtype* en de *lay-out bron*. Het lay-outtype geeft aan op welk type bestand de lay-out is gebaseerd. De lay-outbron geeft de oorsprong van de lay-out aan.
 
-## <a name="layout-types"></a>Lay-outtypen
+## Lay-outtypen
 
 Er zijn vier typen rapportlay-outs die u in rapporten kunt gebruiken: Word, RDLC, Excel en extern.
 
-### <a name="word"></a>Word
+### Word
 
 Word-rapportlay-outs worden gebaseerd op Word-documenten (.docx-bestandstype). Met Word-lay-outs kunt u rapportlay-outs ontwerpen met behulp van Microsoft Word. Een Word-lay-out bepaalt de inhoud van het rapport: hoe de inhoudelementen worden gerangschikt en hoe ze eruitzien. Een Word-document met een lay-out gebruikt meestal tabellen om inhoud te rangschikken. De cellen kunnen gegevensvelden, tekst of afbeeldingen bevatten.
 
@@ -47,7 +47,7 @@ Word-rapportlay-outs worden gebaseerd op Word-documenten (.docx-bestandstype). M
 
 Zie voor meer informatie [Werken met Word-lay-outs](ui-how-add-fields-word-report-layout.md).
 
-### <a name="excel"></a>Excel
+### Excel
 
 Excel-lay-outs zijn gebaseerd op Microsoft Excel-werkmappen (.xlsx-bestandstype). Hiermee kunt u rapporten maken met behulp van vertrouwde Excel-functies voor het samenvatten, analyseren en presenteren van gegevens met hulpmiddelen zoals onder meer formules, draaitabellen en draaigrafieken.
 
@@ -55,7 +55,7 @@ Excel-lay-outs zijn gebaseerd op Microsoft Excel-werkmappen (.xlsx-bestandstype)
 
 Zie voor meer informatie [Werken met Excel-lay-outs](ui-excel-report-layouts.md).
 
-### <a name="rdlc"></a>RDLC
+### RDLC
 
 RDLC-lay-outs zijn gebaseerd op clientrapportdefinitielay-outs (.rdl- of .rdlc-bestandstypen). Deze lay-outs worden gemaakt en gewijzigd vanuit SQL Server Report Builder of Microsoft RDLC Report Designer. De grondslag voor het ontwerp van RDLC-lay-outs is vergelijkbaar met Word-lay-outs, waarbij de lay-out bepaalt welke velden moeten worden weergegeven en hoe ze zijn gerangschikt. RDLC-lay-outs ontwerpen is echter veel geavanceerder dan Word-lay-outs ontwerpen.
 
@@ -63,13 +63,13 @@ RDLC-lay-outs zijn gebaseerd op clientrapportdefinitielay-outs (.rdl- of .rdlc-b
 
 Zie voor meer informatie [Werken met RDLC-lay-outs](ui-rdlc-report-layouts.md).
 
-### <a name="external"></a>Extern
+### Extern
 
 Een extern lay-outtype verwijst naar een geavanceerd type dat speciaal is ontworpen voor specifieke rapporten. De rapporten en de lay-outs zelf worden doorgaans geleverd door partners, niet door Microsoft. Het daadwerkelijke bestandstype van de lay-out is afhankelijk van de provider.
 
 Voor meer informatie, zie [Een aangepaste rapportweergave ontwikkelen](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## <a name="layout-sources"></a>Lay-outbronnen
+## Lay-outbronnen
 
 Naast het type zijn lay-outs verder onderverdeeld in drie categorieën, op basis van hun bron of herkomst.
 
@@ -95,7 +95,7 @@ Voor informatie die u zal helpen beslissen welk type het beste voor u is, zie [B
 > Een belangrijk ding om te onthouden is dat u extensielay-outs niet kunt wijzigen vanuit de Business Central-client. U mag bijvoorbeeld de lay-outnaam of het type niet wijzigen of dit uploaden en vervangen door een andere versie. Als u het probeert, verschijnt er een foutmelding. U moet in plaats daarvan een door de gebruiker ingestelde of aangepaste lay-out maken op basis van de extensielay-out.
 
 <!--
-### <a name="built-in-and-custom-report-layouts"></a>Built-in and custom report layouts
+### Built-in and custom report layouts
 
 
 
@@ -115,7 +115,7 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Aangepaste rapportlay-outs bijwerken](ui-update-report-layouts.md)  
 [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md)  

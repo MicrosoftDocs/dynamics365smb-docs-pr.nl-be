@@ -13,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="faq-for-analysis-assist-preview"></a>Veelgestelde vragen over hulp bij analyse (preview)
+# Veelgestelde vragen over hulp bij analyse (preview)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -21,25 +21,25 @@ Deze veelgestelde vragen (FAQ) beschrijven de AI-impact van de functie voor hulp
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-analysis-assist"></a>Wat is hulp bij analyse?
+## Wat is hulp bij analyse?
 
 Hulp bij analyse is een Copilot die hulp biedt bij het werken met de [gegevensanalysemodus](analysis-mode.md) in Business Central. Met de gegevensanalysemodus kunt u gegevens op pagina's en query's ordenen, aggregeren en samenvatten, zodat deze geschikter worden voor het analyseren en verkrijgen van betekenisvolle inzichten. Met hulp bij analyse kunt u automatisch de weergave van de gegevens samenstellen die u wilt analyseren door uw behoeften in eenvoudige, natuurlijke taal uit te drukken, zoals 'toon leveranciers op locatie, gesorteerd op aantal aankopen'. Hulp bij analyse maakt het gemakkelijker om met gegevens te werken zonder de noodzaak van complexe technische vaardigheden.
 
-## <a name="what-are-capabilities-of-analysis-assist"></a>Wat zijn de mogelijkheden van hulp bij analyse?
+## Wat zijn de mogelijkheden van hulp bij analyse?
 
 Hulp bij analyse is gebaseerd op de ontwikkelaarstools voor Copilot in Business Central. Het maakt gebruik van Azure OpenAI om ongestructureerde instructies om te zetten in een gestructureerd ontwerp voor het weergeven van gegevens in de analysemodus, zonder zelf bedrijfsgegevens van klanten te make, wijzigen of bijwerken.
 
-## <a name="what-is-the-intended-use-of-analysis-assist"></a>Wat is het beoogde gebruik van hulp bij analyse?
+## Wat is het beoogde gebruik van hulp bij analyse?
 
 Het beoogde gebruik van hulp bij analyse is om analysetabbladen te helpen maken in de gegevensanalysemodus om gegevens te presenteren op een manier die het gemakkelijker maakt om conclusies te trekken. Het is echter belangrijk er rekening mee te houden dat hulp bij analyse geen directe inzichten of conclusies over de gegevens biedt. Het is een tool waarmee gebruikers hun gegevens kunnen ordenen en weergeven. Het is echter aan de gebruiker om bruikbare informatie te verzamelen, trends te ontdekken en weloverwogen beslissingen te nemen om de bedrijfswaarde te vergroten.
 
-## <a name="how-was-analysis-assist-evaluated-what-metrics-are-used-to-measure-performance"></a>Hoe is hulp bij analyse beoordeeld? Welke statistieken worden gebruikt om de prestaties te meten?
+## Hoe is hulp bij analyse beoordeeld? Welke statistieken worden gebruikt om de prestaties te meten?
 
 - De functie is uitgebreid getest gebaseerd op de demonstratiegegevens van [!INCLUDE[prod_short](includes/prod_short.md)] en andere fictieve productcatalogi. Copilot kreeg talloze aanwijzingen in de ondersteunde Engelse landinstellingen. De prompts bestreken een breed scala aan instructies voor gegevensanalyse en stijlen voor het uiten van intenties. De resultaten werden beoordeeld op nauwkeurigheid, relevantie en veiligheid.
 
 - De functie is gebouwd in overeenstemming met de verantwoorde AI-standaard van Microsoft. [Lees meer over verantwoorde AI van Microsoft](https://aka.ms/RAI).
 
-## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>Hoe bewaakt Microsoft de kwaliteit van de gegenereerde inhoud?
+## Hoe bewaakt Microsoft de kwaliteit van de gegenereerde inhoud?
 
 Microsoft beschikt over verschillende systemen om ervoor te zorgen dat de door Copilot gegenereerde inhoud van de hoogste kwaliteit is, misbruik op te sporen en de veiligheid van onze klanten en hun gegevens te garanderen.
 
@@ -53,7 +53,7 @@ Gebruikers hebben de mogelijkheid om feedback te geven op elke Copilot-reactie e
 
 - Microsoft schakelt mogelijk de door Copilot aangestuurde functies uit voor geselecteerde klanten als misbruik van de functionaliteit wordt gedetecteerd.
 
-## <a name="what-are-the-limitations-of-analysis-assist-how-can-users-minimize-the-impact-of-the-analysis-assist-limitations-when-using-the-system"></a>Wat zijn de beperkingen van hulp bij analyse? Hoe kunnen gebruikers de impact van de beperkingen van hulp bij analyse minimaliseren bij het gebruik van het systeem?
+## Wat zijn de beperkingen van hulp bij analyse? Hoe kunnen gebruikers de impact van de beperkingen van hulp bij analyse minimaliseren bij het gebruik van het systeem?
 
 - Algemene AI-beperkingen
 
@@ -77,12 +77,12 @@ Gebruikers hebben de mogelijkheid om feedback te geven op elke Copilot-reactie e
 
   Organisaties die actief zijn in bepaalde bedrijfsdomeinen, zoals de medische sector, de drugssector, de juridische sector en de wapensector, kunnen te maken krijgen met een lagere kwaliteit van de dienstverlening.
 
-## <a name="what-data-does-analysis-collect-and-how-is-it-used"></a>Welke gegevens worden door analyse verzameld en hoe worden deze gebruikt?
+## Welke gegevens worden door analyse verzameld en hoe worden deze gebruikt?
 
 Met de mogelijkheid van hulp bij analyse wordt het minimum aan gegevens verzameld die Business Central nodig heeft om de service aan te bieden. Microsoft gebruikt uw bedrijfsgegevens, inclusief de tekst die u naar Copilot verzendt, niet om de fundamentele modellen te trainen ten behoeve van anderen. Zie [Dynamics 365-voorwaarden voor door Azure OpenAI aangedreven functies](https://go.microsoft.com/fwlink/?linkid=2236010) voor meer informatie.
 
 Met de mogelijkheid worden ook gegevens verzameld van de feedback die gebruikers kunnen geven met behulp van de pictogrammen 'Vind ik leuk' (duim omhoog) of 'Niet leuk' (duim omlaag) in hulp bij analyse op de pagina **Copilot**. De gegevens zijn anoniem en omvatten de keuze van Vind ik leuk of Niet leuk, de reden voor het niet leuk vinden en de Copilot-functie waarop de feedback van toepassing is.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Gegevens analyseren in Copilot (preview)](analysis-assist.md)

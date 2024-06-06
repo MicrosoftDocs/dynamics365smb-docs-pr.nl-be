@@ -11,7 +11,7 @@ ms.date: 10/04/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-segments"></a>Segmenten beheren
+# Segmenten beheren
 U kunt segmenten maken om een groep contacten te selecteren overeenkomstig een bepaald criterium. Een segment kan bijvoorbeeld de sector zijn waartoe de contacten behoren of uw zakenrelatie met de contacten. U kunt een segment maken om te selecteren op welke contacten u een campagne wilt richten.
 
 Er zijn twee hoofdtaken voor het maken van een segment:
@@ -27,7 +27,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 | De contacten beheren die zijn toegewezen aan segmenten. |[Contacten toevoegen aan segmenten](marketing-add-contact-segment.md) |
 | Meer informatie over interacties voor segmenten, inclusief registratie. |[Interactie voor segmenten beheren](marketing-interaction-segments.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Contactpersonen beheren](marketing-contacts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -9,11 +9,11 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reverse-output-posting"></a>Outputboeking tegenboeken
+# Outputboeking tegenboeken
 
 Het kan voorkomen dat een outputboeking moet worden tegengeboekt. Dit is bijvoorbeeld het geval als er een gegevensinvoerfout is gemaakt en er een onjuiste hoeveelheid output is geboekt op een productieorder.  
 
-## <a name="to-reverse-an-output-posting"></a>Een outputboeking tegenboeken
+## Een outputboeking tegenboeken
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Outputdagboek** in en kies vervolgens de gerelateerde koppeling. Selecteer uw batch.  
 2. Vul de benodigde velden in. Zie voor meer informatie [Output en bewerkingstijd in batches boeken](production-how-to-post-output-quantity.md).
@@ -22,7 +22,7 @@ Het kan voorkomen dat een outputboeking moet worden tegengeboekt. Dit is bijvoor
 
 De posten van het outputdagboek worden als positieve herwaardering geboekt op de artikelposten.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
  [Productie](production-manage-manufacturing.md) [Productie instellen](production-configure-production-processes.md)  
  [Gepland](production-planning.md)  

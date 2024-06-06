@@ -8,11 +8,11 @@ ms.date: 02/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="belgium-local-functionality"></a>Belgische lokale functionaliteit
+# Belgische lokale functionaliteit
 
 In de volgende artikelen wordt de lokale functionaliteit beschreven die uniek is voor de Belgische versie van [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Beschikbaarheid van functie
+## Beschikbaarheid van functie
 
 * Btw
     * [Belgische btw](belgian-vat.md) **Nu beschikbaar**
@@ -70,14 +70,14 @@ In de volgende artikelen wordt de lokale functionaliteit beschreven die uniek is
     * [Dagboeksjablonen verplicht maken](specify-journal-template-mandatory.md) **Nu beschikbaar**
     * [Uitstel in rapporten van het Verkoopdagboek en Inkoopdagboek](how-to-use-deferrals.md) **Nu beschikbaar**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Toekomstige wetgevingseisen worden onderzocht
+## Toekomstige wetgevingseisen worden onderzocht
 
 * Opnieuw ontworpen en bijgewerkte niet-aftrekbare btw **Gepland voor 2024-releasewave 2**
 
 Als u op de hoogte bent van nieuwe regelgeving, dient u een [Waarschuwing voor regelgeving voor functies](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u) in.
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Beschikbaarheid voor land/regio en ondersteunde talen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

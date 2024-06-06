@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analytics-by-functional-area"></a>Analyse per functioneel gebied
+# Analyse per functioneel gebied
 
 De algemene inhoud over analyses is ook in speciale versies van de functionele gebieden in [!INCLUDE[prod_short](includes/prod_short.md)] beschikbaar. 
 
@@ -24,7 +24,7 @@ De algemene inhoud over analyses is ook in speciale versies van de functionele g
 | Beheer van vaste activa | [Analyses van vaste activa](fa-analytics-overview.md) |
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Overzicht van analyses](reports-bi-reporting.md)  
 

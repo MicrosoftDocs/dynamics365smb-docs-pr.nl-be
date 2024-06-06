@@ -11,17 +11,17 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="configure-api-templates"></a>API-sjablonen configureren
+# API-sjablonen configureren
 
 De API-bibliotheek voor [!INCLUDE[prod_short_md](includes/prod_short.md)] biedt een vereenvoudigde weergave van de onderliggende entiteiten. Niet alle eigenschappen in de toepassing zijn beschikbaar via de bijbehorende API. Met de pagina **API-instelling** kunt u sjablonen definiëren die worden gebruikt om lege eigenschappen te vullen van een entiteit wanneer u een POST-actie maakt met behulp van de API. 
 
 Als bijvoorbeeld een configuratiesjabloon voor de artikelentiteit wordt gedefinieerd, wanneer een nieuwe artikelrecord wordt gemaakt met de artikelen-API, worden eigenschappen van het nieuwe artikel die niet zijn gedefinieerd in de API-aanroep, gevuld vanuit de geselecteerde sjabloon. Als met de API bijvoorbeeld geen waarde wordt gedefinieerd voor het veld **Productieboekingsgroep**, maar een waarde is gedefinieerd in de geselecteerde sjabloon, wordt de boekingsgroepswaarde die in de sjabloon is gedefinieerd, toegepast op het nieuwe artikel. 
 
-## <a name="setting-up-the-entity-template"></a>De entiteitsjabloon instellen
+## De entiteitsjabloon instellen
 
 Als u sjablonen wilt gebruiken met de API-bibliotheek, moet u eerst eigenschappen voor de sjablonen instellen en definiëren. U kunt deze sjablonen instellen op de pagina **Configuratiesjablonen**. Zie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) (alleen in het Engels) in de beheerdersinhoud.  
 
-## <a name="assign-the-template-to-an-api"></a>De sjabloon toewijzen aan een API
+## De sjabloon toewijzen aan een API
 
 Als u een sjabloon wilt toewijzen aan een API, moet u de volgende stappen uitvoeren.
 
@@ -44,7 +44,7 @@ Als u een sjabloon wilt toewijzen aan een API, moet u de volgende stappen uitvoe
 
     De gedefinieerde sjabloon wordt toegepast op een nieuwe record die met de API wordt gemaakt als en alleen als aan de voorwaarden die in het veld **Voorwaarden** zijn gedefinieerd, wordt voldaan door de waarden die al zijn gedefinieerd voor het nieuwe exemplaar van de entiteit.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [API-documentatie](/dynamics-nav/fin-graph)  
 [Connect Apps ontwikkelen voor [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

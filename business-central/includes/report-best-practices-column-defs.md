@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-## <a name="best-practices-for-working-with-column-definitions"></a>Best practices voor het werken met kolomdefinities
+## Best practices voor het werken met kolomdefinities
 
 Er is geen versiebeheer voor kolomdefinities. Wanneer u een kolomdefinitie wijzigt, wordt de oude versie vervangen wanneer uw wijziging in de database wordt opgeslagen. De volgende lijst bevat enkele best practices voor het werken met kolomdefinities.
 

@@ -10,7 +10,7 @@ ms.date: 11/10/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="working-with-microsoft-excel-layouts"></a>Werken met Microsoft Excel-lay-outs
+# Werken met Microsoft Excel-lay-outs
 
 Microsoft Excel-rapportlay-outs zijn gebaseerd op Excel-werkmappen (.xlsx-bestanden). Hiermee kunt u rapporten maken die vertrouwde Excel-functies bevatten voor het samenvatten, analyseren en presenteren van gegevens zoals formules, draaitabellen en draaigrafieken.
 
@@ -18,7 +18,7 @@ Microsoft Excel-rapportlay-outs zijn gebaseerd op Excel-werkmappen (.xlsx-bestan
 
 In dit artikel worden enkele belangrijke dingen uitgelegd die u moet weten om aan de slag te gaan met Excel-lay-outs.
 
-## <a name="why-use-excel-layouts"></a>Waarom Excel-lay-outs gebruiken?
+## Waarom Excel-lay-outs gebruiken?
 
 Voordelen van het gebruik van Excel-lay-outs:
 
@@ -31,14 +31,14 @@ Voordelen van het gebruik van Excel-lay-outs:
   - [Prognose en analyse](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Geïnstalleerde invoegtoepassingen en app-integraties gebruiken, zoals Power Automate-stromen of OneDrive.
 
-## <a name="get-started"></a>Aan de slag
+## Aan de slag
 
 Er zijn in principe twee taken betrokken bij het instellen van een Excel-lay-out van een rapport:
 
 1. Maak het bestand met de nieuwe Excel-lay-out.
 2. Voeg de nieuwe lay-out toe aan het rapport.
 
-## <a name="task-1-create-the-excel-layout-file"></a>Taak 1: het bestand met de nieuwe Excel-lay-out maken
+## Taak 1: het bestand met de nieuwe Excel-lay-out maken
 
 Dit zijn de drie manieren om een Excel-lay-outbestand voor een rapport te maken.
 
@@ -57,13 +57,13 @@ Volg deze stappen om een Excel-lay-out te maken vanuit een willekeurig rapport, 
 
 Als er al een Excel-lay-out voor een rapport is, kunt u de bestaande lay-out als uitgangspunt gebruiken. Er zijn twee manieren om een kopie van de lay-out te krijgen. U kunt de bestaande lay-out exporteren vanaf de pagina **Rapportlay-outs** of de lay-out downloaden vanaf de aanvraagpagina van het rapport. Met beide manieren wordt een Excel-lay-outbestand gedownload dat alle bladen van het bestaande bestand bevat. Het verschil is dat wanneer u deze downloadt vanaf de aanvraagpagina, de lay-out feitelijke gegevens zal bevatten. (De gegevens zijn niet vereist, maar helpen bij het ontwerpen van de lay-out.)
 
-#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Manier 1: de lay-out vanaf de pagina **Rapportlay-outs** exporteren
+#### Manier 1: de lay-out vanaf de pagina **Rapportlay-outs** exporteren
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Selecteer de Excel-lay-out in de lijst en kies vervolgens de actie **Lay-out exporteren** boven aan de pagina.
 3. Open het bestand in Excel, breng de wijzigingen aan en sla het bestand op.
 
-#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Manier 2: de lay-out vanaf de aanvraag pagina van het rapport downloaden
+#### Manier 2: de lay-out vanaf de aanvraag pagina van het rapport downloaden
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Kies op de pagina **Rapportlay-outs** een lay-out voor het rapport en kies vervolgens de actie **Rapport uitvoeren**.
@@ -76,7 +76,7 @@ Dit is de meest geavanceerde methode om een Excel-rapportlay-out te maken. Het v
 
 ---
 
-## <a name="task-2-add-the-excel-layout-to-the-report"></a>Taak 2: de Excel-lay-out toevoegen aan het rapport
+## Taak 2: de Excel-lay-out toevoegen aan het rapport
 
 Zodra u het Excel-lay-outbestand hebt, is de volgende taak om het toe te voegen als een nieuwe lay-out voor het rapport.
 
@@ -106,7 +106,7 @@ Zodra u het Excel-lay-outbestand hebt, is de volgende taak om het toe te voegen 
 3. Report metadata 
 -->
 
-## <a name="understanding-excel-layouts"></a>Excel-lay-outs begrijpen
+## Excel-lay-outs begrijpen
 
 Er zijn een paar dingen die u moet weten of overwegen wanneer u begint met het maken of wijzigen van Excel-lay-outs. Elke Excel-lay-out moet twee elementen bevatten: een blad **Gegevens** en een tabel **Gegevens**. Deze elementen vormen de basis van de lay-out door de bedrijfsgegevens uit Business Central te definiëren waarmee u aan de slag kunt. Zie het blad **Gegevens** als een soort contract tussen de lay-out en de bedrijfsgegevens. U gebruikt deze gegevens als bron van berekeningen en visualisaties die u op andere werkbladen wilt presenteren.
 
@@ -128,7 +128,7 @@ Samengevat, dit is wat u wel en niet moet doen op het blad **Gegevens**:
 - Voeg geen kolommen toe, tenzij deze zijn opgenomen in de rapportgegevensset.
 - U kunt de bladen in willekeurige volgorde plaatsen, met het blad **Gegevens** als eerste of laatste.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
 [De huidige rapportindeling wijzigen](ui-how-change-layout-currently-used-report.md)  

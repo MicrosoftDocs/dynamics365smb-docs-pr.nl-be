@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.service: dynamics-365-business-central
 ---
-# <a name="archive-documents"></a>Documenten archiveren
+# Documenten archiveren
 
 U kunt verkoop- en inkooporders, offertes, retourorders en raamcontracten archiveren. Als u de functies voor projectbeheer gebruikt, kunt u uw projecten ook archiveren. U kunt documenten en projecten meerdere keren archiveren, waarbij u steeds een verschillende gearchiveerde versie opslaat.
 
@@ -21,7 +21,7 @@ Voor verkoopdocumenten waarvan het origineel nog bestaat en niet is geboekt, kun
 
 Voor gearchiveerde documenten waarvan het origineel is verwijderd, kunt u de inhoud opnieuw gebruiken door de gegevens te kopiëren, bijvoorbeeld met de actie **Kopiëren uit document**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Automatische documentarchivering instellen
+## Automatische documentarchivering instellen
 
 U kunt archiveren automatiseren om een nieuwe versie van het gearchiveerde document te maken wanneer iemand de volgende dingen doet:
 
@@ -43,7 +43,7 @@ In de volgende tabel worden de opties voor het veld **Offertes archiveren** besc
 |**Vraag**|Vraag de gebruiker te kiezen of verkoopoffertes moeten worden gearchiveerd wanneer ze worden verwijderd.|
 |**Altijd**|Verkoopoffertes automatisch archiveren wanneer deze worden verwijderd.|
 
-## <a name="to-manually-archive-a-sales-order"></a>Een verkooporder handmatig archiveren
+## Een verkooporder handmatig archiveren
 
 In de volgende procedure wordt beschreven hoe u een verkooporder handmatig archiveert. De stappen zijn vergelijkbaar voor alle documenten en projecten die u kunt archiveren.
 
@@ -53,7 +53,7 @@ In de volgende procedure wordt beschreven hoe u een verkooporder handmatig archi
 
 De verkooporder wordt gearchiveerd. U kunt deze bekijken op de pagina **Gearchiveerde verkooporders**.
 
-## <a name="to-restore-a-non-posted-sales-document-or-a-project-from-the-archive"></a>Een niet-geboekt verkoopdocument of een project vanuit het archief herstellen
+## Een niet-geboekt verkoopdocument of een project vanuit het archief herstellen
 
 In de volgende procedure wordt beschreven hoe een gearchiveerde verkooporder wordt hersteld tot de oorspronkelijke verkooporder. Een document herstellen kan alleen als het oorspronkelijke document niet is geboekt. De stappen zijn vergelijkbaar voor alle orders, raamcontracten, retourorders en offertes en ook voor projecten.
 
@@ -62,7 +62,7 @@ In de volgende procedure wordt beschreven hoe een gearchiveerde verkooporder wor
 
 De inhoud van de oorspronkelijke verkooporder of het oorspronkelijke project wordt vervangen door de gearchiveerde versie.
 
-## <a name="to-delete-archived-versions"></a>Gearchiveerde versies verwijderen
+## Gearchiveerde versies verwijderen
 
 Gebruik een bewaarbeleid om gearchiveerde versies op te ruimen die u niet langer nodig hebt. Met bewaarbeleid kunnen beheerders bepalen hoe lang ze gegevens willen bewaren. Ze kunnen bijvoorbeeld een beleid instellen dat gegevens na een vervaldatum verwijdert. Ga voor meer informatie naar [Bewaarbeleid definiëren](admin-data-retention-policies.md).
 
@@ -72,7 +72,7 @@ Er zijn een paar dingen waar u op moet letten bij het maken van bewaarbeleid voo
 * Wanneer u het bewaarbeleid instelt, kunt u opgeven dat u wilt dat het beleid alle gearchiveerde versies verwijdert, behalve de meest recente. U hebt bijvoorbeeld tien versies en wilt een kopie van de laatste versie bewaren. 
 * [!INCLUDE [prod_short](includes/prod_short.md)] berekent de vervaldatum voor documenten op basis van de datum van de meest recente gearchiveerde versie.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Documentregels traceren](across-how-to-track-document-lines.md)  
 [Verkoop](sales-manage-sales.md)  

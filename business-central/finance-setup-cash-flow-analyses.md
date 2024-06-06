@@ -10,7 +10,7 @@ ms.date: 08/23/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-cash-flow-analysis"></a>Cashflowanalyse instellen
+# Cashflowanalyse instellen
 
 Als u wat hulp wilt bij het bepalen wat u met uw contant geld moet doen, kunt de diagrammen bekijken in het rolcentrum Accountant:
 
@@ -24,7 +24,7 @@ In dit artikel wordt beschreven waar de gegevens in de diagrammen van afkomstig 
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
 
-## <a name="the-cash-cycle-and-income--expense-charts"></a>De diagrammen Cashcyclus en Inkomsten en uitgaven
+## De diagrammen Cashcyclus en Inkomsten en uitgaven
 
 De diagrammen **Cashcyclus** en **Inkomsten en uitgaven** zijn gereed voor gebruik, gebaseerd op de rekeningschema's en financiële rapporten. De rekeningen bevinden zich waar de gegevens uit afkomstig zijn en met financiële rapporten wordt de relatie tussen verkopen en tegoeden berekend. Er worden enkele rekeningen en financiële rapporten verschaft. U kunt deze ongewijzigd gebruiken, ze aanpassen en nieuwe toevoegen. Als u grootboekrekeningen toevoegt aan uw rekeningschema, bijvoorbeeld door deze te importeren uit QuickBooks, moet u een koppeling maken naar de rekeningen op de pagina **Financiële rapporten** voor de volgende rapporten:
 
@@ -43,7 +43,7 @@ Voer rekeningen in het veld **Samentelling** voor **Totale opbrengsten**, **Tota
 > [!TIP] 
 > Controleer uw koppeling door de actie **Overzicht** te kiezen.  
 
-## <a name="set-up-the-cash-flow-chart"></a>Het cashflowdiagram instellen
+## Het cashflowdiagram instellen
 
 Het cashflowdiagram is gebaseerd op:  
 
@@ -54,7 +54,7 @@ Om u te helpen aan de slag te gaan zijn er enkele rekeningen en cashflowinstelli
 
 Als u de rekeningen wilt instellen, zoekt u naar **Cashflowrekeningschema**, kiest u de koppeling en vult u vervolgens de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Herhaal deze stappen voor **Cashflowinstellingen**.
 
-## <a name="set-up-cash-flow-forecasts"></a>Cashflowprognoses instellen
+## Cashflowprognoses instellen
 
 In het diagram **Cashflowprognose** worden cashflowrekeningen, cashflowinstellingen en cashflowprognoses gebruikt. Sommige worden verschaft, maar u kunt die van uzelf instellen met behulp van een begeleide instelling. Met de gids kunt u zaken opgeven zoals het aantal keren dat de prognose moet worden bijgewerkt, op welke rekeningen de prognose moet worden gebaseerd, wanneer u belastingen betaalt en of [Azure AI](https://azure.microsoft.com/overview/ai-platform/) moet worden ingeschakeld.  
 
@@ -79,7 +79,7 @@ Een handmatig proces gebruiken:
 > [!TIP]  
 > Overweeg de lengte van de perioden die de service in de berekeningen gebruikt. Hoe meer gegevens u biedt, hoe nauwkeuriger de voorspellingen zullen zijn. Let ook op grote variaties in perioden. Deze zijn ook van invloed op voorspellingen. Als Azure AI niet voldoende gegevens vindt of de gegevens sterk variëren, doet de service geen voorspelling.  
 
-## <a name="design-details"></a>Ontwerpdetails
+## Ontwerpdetails
 
 Abonnementen voor [!INCLUDE[prod_short](includes/prod_short.md)] komen met toegang tot verschillende voorspellende webservices in alle regio's waar [!INCLUDE[prod_short](includes/prod_short.md)] beschikbaar is. Lees meer in de licentiehandleiding voor Microsoft Dynamics 365 Business Central. De gids kan worden gedownload op de [Business Central](https://dynamics.microsoft.com/business-central/overview/)-website.
 
@@ -89,11 +89,11 @@ Deze webservices zijn staatloos, wat betekent dat ze gegevens alleen gebruiken o
 >
 > U kunt ook uw eigen voorspellende webservice gebruiken in plaats van de onze. Zie [Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken](#AnchorText).
 
-### <a name="data-required-for-forecast"></a>Vereiste gegevens voor prognoses
+### Vereiste gegevens voor prognoses
 
 Om voorspellingen te doen over toekomstige inkomsten en uitgaven hebben webservices historische gegevens nodig van vorderingen, schulden en belastingen.
 
-#### <a name="receivables"></a>Tegoeden
+#### Tegoeden
 
 Velden **Vervaldatum** en **Bedrag (LV)** van de pagina **Klantenposten**, waar:
 
@@ -102,7 +102,7 @@ Velden **Vervaldatum** en **Bedrag (LV)** van de pagina **Klantenposten**, waar:
 
 Voordat de voorspellende webservice wordt gebruikt, comprimeert [!INCLUDE[prod_short](includes/prod_short.md)] transacties op **Vervaldatum**, gebaseerd op de waarde in het veld **Periodesoort** op de pagina **Cashflowinstellingen**.
 
-#### <a name="payables"></a>Schulden
+#### Schulden
 
 Velden **Vervaldatum** en **Bedrag (LV)** op de pagina **Leveranciersposten**, waar:
 
@@ -111,7 +111,7 @@ Velden **Vervaldatum** en **Bedrag (LV)** op de pagina **Leveranciersposten**, w
 
 Voordat de voorspellende webservice wordt gebruikt, comprimeert [!INCLUDE[prod_short](includes/prod_short.md)] transacties op **Vervaldatum**, gebaseerd op de waarde in het veld **Periodesoort** op de pagina **Cashflowinstellingen**.
 
-#### <a name="tax"></a>Belasting
+#### Belasting
 
 Velden **Documentdatum** en **Bedrag (LV)** op de pagina **Btw-posten**, waar:
 
@@ -120,7 +120,7 @@ Velden **Documentdatum** en **Bedrag (LV)** op de pagina **Btw-posten**, waar:
 
 Voordat de voorspellende webservice wordt gebruikt, comprimeert [!INCLUDE[prod_short](includes/prod_short.md)] transacties op **Documentdatum**, gebaseerd op de waarde in het veld **Periodesoort** op de pagina **Cashflowinstellingen**.
 
-## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"></a>Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken
+## <a name="AnchorText"></a>Uw eigen voorspellende webservice voor cashflowprognoses maken en gebruiken
 
 U kunt uw eigen voorspellende webservice maken op basis van een openbaar model met de naam **Prognosemodel voor Business Central**. Dit voorspellend model is online beschikbaar in de Azure AI-galerie. Ga als volgt te werk om het model te gebruiken:  
 
@@ -133,7 +133,7 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 7. Vouw het sneltabblad **Azure AI** uit en vul vervolgens de velden in, inclusief de API-URL en API-sleutel die zijn geleverd door Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Kies in het rolcentrum Accountant de actie **Prognose herberekenen** onder het diagram **Cashflowprognose**.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
 [Financiën instellen](finance-setup-finance.md)  
