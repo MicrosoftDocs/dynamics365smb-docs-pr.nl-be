@@ -10,11 +10,11 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Business Central-desktop-app verkrijgen
+# <a name="get-the-business-central-desktop-app"></a>Business Central-desktop-app verkrijgen
 
 Als u een Windows-pc of macOS-computer hebt, kunt u een [!INCLUDE [prod_short](includes/prod_short.md)]-app op uw desktop installeren. De app werkt met [!INCLUDE [prod_short](includes/prod_short.md)] online en on-premises.
 
-## Waarom zou u de app gebruiken?
+## <a name="why-use-the-app"></a>Waarom zou u de app gebruiken?
 
 De [!INCLUDE [prod_short](includes/prod_short.md)]-app lijkt op de webclient, maar biedt een aantal voordelen, zoals:
 
@@ -25,11 +25,11 @@ De [!INCLUDE [prod_short](includes/prod_short.md)]-app lijkt op de webclient, ma
 
      Wanneer u de app voor een specifieke omgeving opent, wordt de omgevingsnaam opgenomen in de titel van het venster. Wanneer u werkt in meerdere [!INCLUDE[prod_short](includes/prod_short.md)]-omgevingen, wordt elk app-venster afzonderlijk weergegeven. De naam maakt het voor u gemakkelijker om te zien welk venster bij elke omgeving hoort.
 
-## De app installeren voor [!INCLUDE [prod_short](includes/prod_short.md)] Online
+## <a name="install-the-app-for--online"></a>De app installeren voor [!INCLUDE [prod_short](includes/prod_short.md)] Online
 
 Er zijn twee manieren om de app voor [!INCLUDE [prod_short](includes/prod_short.md)] Online te installeren. U kunt de app rechtstreeks vanuit de browser of vanuit de Microsoft Store installeren. Welke aanpak u ook gebruikt, het is dezelfde app. Het verschil is dat u bij installatie vanuit de browser de app voor elke omgeving kunt installeren als er meer dan één is.
 
-### Vanuit de Microsoft Store
+### <a name="from-microsoft-store"></a>Vanuit de Microsoft Store
 
 1. Ga naar [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Kies **Ophalen** > **Installeren**. 
@@ -37,7 +37,7 @@ Er zijn twee manieren om de app voor [!INCLUDE [prod_short](includes/prod_short.
 
 De volgende keer dat u de app wilt openen, zoekt u deze in het menu **Start**.
 
-### Vanuit de browser
+### <a name="from-the-browser"></a>Vanuit de browser
 
 1. Open de [!INCLUDE[prod_short](includes/prod_short.md)]-webclient in een Microsoft Edge of Google Chrome.
 
@@ -57,13 +57,13 @@ De volgende keer dat u de app wilt openen, zoekt u deze in het menu **Start**.
 
 Na installatie verschijnt de app in het menu **Start**. Als u een specifieke omgeving voor de app hebt geselecteerd, wordt de omgevingsnaam toegevoegd aan de app-naam in het menu **Start**.
 
-## De app voor [!INCLUDE [prod_short](includes/prod_short.md)] on-premises installeren
+## <a name="install-the-app-for--on-premises"></a>De app voor [!INCLUDE [prod_short](includes/prod_short.md)] on-premises installeren
 
 Het installeren van de desktop-app wanneer u [!INCLUDE [prod_short](includes/prod_short.md)] on-premises gebruikt, gebeurt rechtstreeks vanuit de browser, zoals [hierboven beschreven](#from-the-browser). Als u slechts één tenant hebt, opent u gewoon [!INCLUDE [prod_short](includes/prod_short.md)] in uw browser en selecteert u ![pictogram voor het installeren van een app in Edge.](media/ui-edge-install-app-icon.png) **App beschikbaar. Business Central installeren** of ![pictogram voor het installeren van een app in Chrome.](media/ui-chrome-install-app-icon.png) **Business Central installeren** zoals hierboven getoond.
 
 Het verschil is wanneer u meerdere tenants hebt. In tegenstelling tot [!INCLUDE[prod_short](includes/prod_short.md)] online, waar u de app voor verschillende omgevingen kunt installeren, kunt u de app slechts voor één tenant installeren. Zorg er dus voor dat u, voordat u de app installeert wanneer u meerdere tenants heeft, overschakelt naar de juiste tenant. Eenmaal geïnstalleerd, wanneer u de app opent, wordt de tenant rechtstreeks geopend.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Veelgestelde vragen over mobiele apps](ui-mobile-faq.yml)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  

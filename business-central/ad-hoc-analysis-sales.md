@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Adhoc-analyse van verkoopgegevens
+# <a name="ad-hoc-analysis-of-sales-data"></a>Adhoc-analyse van verkoopgegevens
 
 In dit artikel leert u hoe u de functie **Gegevensanalyse** gebruikt om verkoopgegevens te analyseren direct vanaf lijstpagina's en query's. U hoeft geen rapport uit te voeren of over te stappen naar een andere toepassing, zoals Excel. De functie biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. In plaats van rapporten uit te voeren met opties en filters, kunt u meerdere tabbladen toevoegen die verschillende taken of weergaven van de gegevens vertegenwoordigen. Enkele voorbeelden zijn 'Mijn klanten' of 'Verkoopstatistieken', of elke andere weergave die u maar kunt bedenken. Voor meer informatie over het gebruik van de functie **Gegevensanalyse** gaat u naar [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md).
 
@@ -25,7 +25,7 @@ Gebruik de volgende lijstpagina's voor ad-hocanalyse van verkoopprocessen:
 - Geboekte verkoopfacturen
 - Verkoopretourorders
 
-## Ad-hocanalysescenario's voor verkoop
+## <a name="sales-ad-hoc-analysis-scenarios"></a>Ad-hocanalysescenario's voor verkoop
 
 Gebruik de functie **Gegevensanalyse** voor snelle feitencontrole en ad-hocanalyse:
 
@@ -41,7 +41,7 @@ In de volgende secties vindt u voorbeelden van verkoopscenario's in [!INCLUDE [p
 | [Verkoop (klantverkopen naar volume)](#example-sales-customer-sales-by-volume) | Een overzicht krijgen van welke klanten de meeste inkopen hebben gedaan of het hoogste saldo hebben openstaan. | [Klantenposten](https://businesscentral.dynamics.com/?page=25) | **Klantnaam**, **Documentnr.**, **Bedrag** en **Resterend bedrag**. |
 | [Financiën (Tegoeden)](#example-finance-accounts-receivables) | Bekijk bijvoorbeeld wat uw klanten u verschuldigd zijn, uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald. | [Klantenposten](https://businesscentral.dynamics.com/?page=25) | **Klantnaam**, **Vervaldatum** en **Resterend bedrag**. |
 
-## Voorbeeld: Verkoop (verwacht verkoopvolume)
+## <a name="example-sales-expected-sales-volume"></a>Voorbeeld: Verkoop (verwacht verkoopvolume)
 
 Volg deze stappen om uw verwachte verkoopvolume en verkoopbedragen voor niet-verzonden orders voor elke klant per jaar of maand te analyseren:
 
@@ -54,7 +54,7 @@ Volg deze stappen om uw verwachte verkoopvolume en verkoopbedragen voor niet-ver
 1. Om de analyse voor een bepaald jaar of kwartaal uit te voeren, past u een filter toe in het menu **Extra filters**. Het menu bevindt zich aan de rechterkant van de pagina, net onder het menu **Kolommen**.
 1. Hernoem uw analysetabblad naar **Verwacht verkoopvolume** of iets dat deze analyse voor u beschrijft.
 
-## Voorbeeld: Verkoop (klantverkopen naar volume)
+## <a name="example-sales-customer-sales-by-volume"></a>Voorbeeld: Verkoop (klantverkopen naar volume)
 
 Als u een overzicht wilt produceren van de klanten die de meeste inkopen doen of het hoogste saldo hebben openstaan, volgt u deze stappen:
 
@@ -69,7 +69,7 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina Klantenposten." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
-## Voorbeeld: Financiën (Tegoeden)
+## <a name="example-finance-accounts-receivables"></a>Voorbeeld: Financiën (Tegoeden)
 
 Als u wilt zien wat uw klanten u verschuldigd zijn, wellicht uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald, doet u het volgende:
 
@@ -81,7 +81,7 @@ Als u wilt zien wat uw klanten u verschuldigd zijn, wellicht uitgesplitst in tij
 1. Om de analyse voor een bepaald jaar of kwartaal uit te voeren, past u een filter toe in het menu **Extra filters**. Het menu bevindt zich aan de rechterkant van de pagina, net onder het menu **Kolommen**.
 1. Hernoem uw analysetabblad naar **Oudere accounts per maand** of iets dat deze analyse voor u beschrijft.
 
-## Gegevensbasis voor ad-hocanalyse van verkopen
+## <a name="data-foundation-for-ad-hoc-analysis-on-sales"></a>Gegevensbasis voor ad-hocanalyse van verkopen
 
 Nadat u informatie over een verkooporder hebt ingevoerd en alle verkooporderregels hebt toegevoegd, kunt u de order boeken. Met boeken worden een verzending en een factuur gemaakt. [!INCLUDE [prod_short](includes/prod_short.md)] werkt de rekening van de klant, het grootboek en de artikelposten bij:
 
@@ -90,7 +90,7 @@ Nadat u informatie over een verkooporder hebt ingevoerd en alle verkooporderrege
 
 Ga voor meer informatie over direct verkopen naar [Verkopen boeken](ui-post-sales.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkopen boeken](ui-post-sales.md)  
 [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md)  

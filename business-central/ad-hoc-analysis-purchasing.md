@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad-hoc analyses bij inkoop
+# <a name="ad-hoc-analyses-in-purchasing"></a>Ad-hoc analyses bij inkoop
 
 In dit artikel leert u hoe u inkoopgegevens vanaf lijstpagina's en query's analyseert met behulp van de functie **Gegevensanalyse**. Met de functie kunt u gegevens rechtstreeks vanaf de pagina analyseren, zonder dat u een rapport hoeft uit te voeren of te openen of naar een andere toepassing zoals Excel hoeft te schakelen. Gegevensanalyse biedt een interactieve en veelzijdige manier om gegevens te berekenen, samen te vatten en te onderzoeken. In plaats van rapporten uit te voeren met opties en filters, kunt u meerdere tabbladen toevoegen die verschillende taken of weergaven van de gegevens vertegenwoordigen. Enkele voorbeelden zijn 'Mijn leveranciers' of 'Inkoopstatistieken', of elke andere weergave die u maar kunt bedenken. Voor meer informatie over het gebruik van de functie **Gegevensanalyse** gaat u naar [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md).
 
@@ -24,7 +24,7 @@ Gebruik de volgende lijstpagina's voor ad-hocanalyse van inkoopprocessen:
 - [Leveranciersposten](https://businesscentral.dynamics.com/?page=29)
 - [Grootboekposten](https://businesscentral.dynamics.com/?page=20)
 
-## Ad-hoc analysescenario's voor inkoop
+## <a name="ad-hoc-analysis-scenarios-for-purchasing"></a>Ad-hoc analysescenario's voor inkoop
 
 Gebruik de functie **Gegevensanalyse** voor snelle feitencontrole en ad-hocanalyse:
 
@@ -39,7 +39,7 @@ In de volgende secties vindt u voorbeelden van inkoopscenario's in [!INCLUDE [pr
 | [Overzicht van GRNI](#example-goods-received-not-invoiced-grni-overview) | Ontvang een overzicht van ontvangen goederen, niet gefactureerd (GRNI) voor alle leveranciers. | [Inkoopregels](https://businesscentral.dynamics.com/?page=518) | **Type**, **Ontv./Niet gefact. bedrag (LV)** (filter op deze velden), **Leveranciersnr.**, **Documentnr.**, **Nr.** en **Ontv./Niet gefact. bedrag (LV)** <br><br> **Opmerking:** Om deze velden toe te voegen moet u de pagina personaliseren. Zie voor meer informatie [Uw werkruimte personaliseren](ui-personalization-user.md). | 
 | [Financiën (crediteuren)](#example-finance-accounts-payable) | Bekijk wat u uw leveranciers verschuldigd bent, uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald. | [Leveranciersposten](https://businesscentral.dynamics.com/?page=29) | **Leveranciersnaam**, **Documentsoort**, **Documentnr.**, **Vervaldatum (jaar)**, **Vervaldatum (maand)** en **Resterend bedrag**. |
 
-## Voorbeeld: overzicht ontvangen goederen, niet gefactureerd (GRNI)
+## <a name="example-goods-received-not-invoiced-grni-overview"></a>Voorbeeld: overzicht ontvangen goederen, niet gefactureerd (GRNI)
 
 Volg deze stappen om een overzicht van ontvangen, niet gefactureerde goederen (GRNI) voor leveranciers te maken:
 
@@ -55,7 +55,7 @@ Volg deze stappen om een overzicht van ontvangen, niet gefactureerde goederen (G
 1. Om de analyse voor een bepaald jaar of kwartaal uit te voeren, past u een filter toe in het menu **Analysefilters**. Het menu bevindt zich aan de rechterkant van de pagina, net onder het menu **Kolommen**.
 1. Hernoem uw analysetabblad naar **Overzicht ontvangen goederen, niet gefactureerd (GRNI)** of iets dat deze analyse beschrijft.
 
-## Voorbeeld: financiën (schulden)
+## <a name="example-finance-accounts-payable"></a>Voorbeeld: financiën (schulden)
 
 Als u wilt zien wat u uw leveranciers verschuldigd bent, wellicht uitgesplitst in tijdsintervallen voor wanneer bedragen moeten worden betaald, doet u het volgende:
 
@@ -71,7 +71,7 @@ De volgende afbeelding toont het resultaat van deze stappen.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Voorbeeld van hoe u gegevensanalyse uitvoert op de pagina Klantenposten." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-## Gegevensbasis voor ad-hocanalyse van inkopen
+## <a name="data-foundation-for-ad-hoc-analysis-on-purchasing"></a>Gegevensbasis voor ad-hocanalyse van inkopen
 
 Wanneer u een inkoopdocument boekt, werkt [!INCLUDE [prod_short](includes/prod_short.md)] de rekening van de leverancier, het grootboek, de artikelposten en de resourceposten bij:
 
@@ -85,7 +85,7 @@ Wanneer u een inkoopdocument boekt, werkt [!INCLUDE [prod_short](includes/prod_s
 
 Ga voor meer informatie naar [Inkopen boeken](purchasing-how-record-purchases.md#posting-purchases).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Inkopen boeken](purchasing-how-record-purchases.md#posting-purchases)  
 [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md)  

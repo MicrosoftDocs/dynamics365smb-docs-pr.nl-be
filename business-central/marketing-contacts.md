@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Contactpersonen beheren
+# <a name="managing-contacts"></a>Contactpersonen beheren
 
 Werknemers in uw bedrijf ontmoeten regelmatig potentiële zakenrelaties die in de toekomst formele zakenrelaties kunnen worden. Al dergelijke externe contacten en hun gedetailleerde informatie moeten in het systeem worden vastgelegd, zodat de communicatie succesvoller is en ze gemakkelijk kunnen worden omgezet in formele klant-, leverancier- of bankrelaties.
 
@@ -26,7 +26,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 |Stel profielvragenlijsten in die u wilt gebruiken wanneer u gegevens voor profielen van uw contacten invoert.|[Profielvragenlijsten gebruiken om bedrijfscontactpersonen te classificeren](marketing-create-contact-profile-questionnaire.md)|
 |Los verwarring op wanneer twee of meer records bestaan voor hetzelfde contact.|[Dubbele records samenvoegen](sales-how-merge-duplicate-records.md)|
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)  

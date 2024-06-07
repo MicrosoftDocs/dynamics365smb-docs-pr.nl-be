@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Betalingsverplichtingen beheren
+# <a name="managing-payables"></a>Betalingsverplichtingen beheren
 
 Een belangrijk deel van het beheer van uw betalingsverplichtingen is het betalen van uw leveranciers of het vergoeden van kosten die uw werknemers maken. U kunt functies gebruiken om op de pagina **Betalingsdagboek** automatisch betalingsregels toe te voegen voor inkoopfacturen die betaald moeten worden. Als u banktransacties naar uw bank wilt verzenden, kunt u meerdere betalingsdagboekregels naar een bestand exporteren, dat u vervolgens naar uw bank uploadt. U kunt ook betalingen per cheque doen, inclusief deze verzenden als elektronische betalingen.
 
@@ -28,7 +28,7 @@ In de volgende tabel wordt een reeks taken beschreven binnen crediteuren, met ko
 |Zorg voor correcte voorraadwaardering door artikelkosten toe te voegen, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt wanneer u inkoopt.|[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|
 |Vergoed werknemers voor kosten die zij tijdens zakelijke bezigheden maken door de vergoeding over te maken naar hun bankrekening.|[Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)|
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)  

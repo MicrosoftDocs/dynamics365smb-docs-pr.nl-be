@@ -10,7 +10,7 @@ ms.search.form: '1002, 1007,'
 ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ---
-# Projecten factureren
+# <a name="invoice-projects"></a>Projecten factureren
 
 Tijdens het project kunnen projectkosten van resourceverbruik, materialen en aan het project gerelateerde inkopen, zich ophopen. Naarmate het project vordert, worden deze transacties geboekt in het projectdagboek. Het is van belang dat alle kosten worden vastgelegd in het projectdagboek voordat u het project aan de klant factureert.
 
@@ -24,7 +24,7 @@ U kunt het hele project factureren vanuit de pagina **Projecttaakregels** of all
 
 U kunt ook een bedrijf factureren dat niet de eindklant is. Soms wijkt de partij waarvoor een project bestemd is, af van de partij die de rekening betaalt. Op de pagina **Projecten** geeft u de klant die van het project profiteert op in de velden **Verkopen aan** en de te factureren partij in de velden **Factureren aan**.
 
-## Meerdere projectverkoopfacturen maken
+## <a name="to-create-multiple-project-sales-invoices"></a>Meerdere projectverkoopfacturen maken
 
 U kunt een factuur voor een project of voor een of meer projecttaken voor een klant maken wanneer het werk dat moet worden gefactureerd, voltooid is of de datum voor facturering op basis van een factureringsschema is bereikt.
 
@@ -40,7 +40,7 @@ U kunt gemaakte facturen bekijken en boeken in het venster **Verkoopfacturen**.
 > [!NOTE]
 > U kunt ook een klant factureren door het project te selecteren en vervolgens de actie **Projectverkoopfactuur** maken te kiezen. 
 
-## Projectverkoopfacturen maken en boeken vanuit projectplanningsregels
+## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>Projectverkoopfacturen maken en boeken vanuit projectplanningsregels
 
 U kunt een factuur maken vanuit een projectplanningsregel en op dat moment de hoeveelheid van het artikel, resource of grootboekrekening die u wilt factureren, aangeven.
 
@@ -59,7 +59,7 @@ U kunt een factuur maken vanuit een projectplanningsregel en op dat moment de ho
 > [!NOTE]  
 > De bovengenoemde procedure is soortgelijk voor het maken, controleren en boeken van een aan een project gerelateerde verkoopcreditnota.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Projecten beheren](projects-manage-projects.md)  
 [Financiën](finance.md)  

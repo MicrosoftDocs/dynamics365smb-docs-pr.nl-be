@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Inleiding in Business Central en Power BI
+# <a name="introduction-to-business-central-and-power-bi"></a>Inleiding in Business Central en Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ Het is gemakkelijk inzicht te krijgen in uw [!INCLUDE[prod_short](includes/prod_
 
 ![Power BI en Business Central.](media/power-bi-intro.png)
 
-## Wat u kunt doen met Power BI en Business Central
+## <a name="what-you-can-do-with-power-bi-and-business-central"></a>Wat u kunt doen met Power BI en Business Central
 
 Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](includes/prod_short.md)] en Power BI. Sommige dingen kunt u doen vanuit Power BI, terwijl u andere dingen kunt doen vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Sommige functies zijn ook alleen beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)] online en niet in on-premises. De volgende tabel biedt u een overzicht.
 
@@ -33,7 +33,7 @@ Er zijn verschillende functies voor het werken met [!INCLUDE[prod_short](include
 
 <a name="onprem"><sup>*</sup></a> Deze functie vereist een geregistreerde toepassing voor Business Central in Microsoft Azure. Zie [Business Central On-Premises registeren in Microsoft Entra ID voor integratie met andere services](/dynamics365/business-central/dev-itpro/administration/register-app-azure) voor meer informatie.
 
-## Voorbereiden voor het gebruik van Power BI
+## <a name="get-ready-to-use-power-bi"></a>Voorbereiden voor het gebruik van Power BI
 
 Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan gebruiken in combinatie met [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> De taken zijn afhankelijk van uw rol in uw organisatie en wat u wilt doen met Power BI:
 
@@ -49,12 +49,12 @@ Er zijn een paar taken die moeten worden uitgevoerd voordat u Power BI kunt gaan
 |Power BI-integratie inschakelen<br />(alleen voor on-premises)||![het is een vinkje.](media/check.png)||[Business Central on-premises instellen voor Power BI-integratie](across-working-with-business-central-in-powerbi.md#setup)|
 
 
-## Volgende stappen
+## <a name="next-steps"></a>Volgende stappen
 
 - Als u een beheerder bent die Power BI moet instellen in [!INCLUDE[prod_short](includes/prod_short.md)], gaat u naar [Power BI-integratie inschakelen](admin-powerbi-setup.md).
 - Als Power BI al is ingesteld en u de functies wilt uitproberen, gaat u naar [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md).
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Overzicht van analyses](reports-bi-reporting.md)   
 [KPI's bijhouden met Power BI statistieken](track-kpis-with-power-bi-metrics.md)   
