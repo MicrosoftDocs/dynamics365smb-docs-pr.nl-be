@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-analytics"></a>Financiële analyse
+# Financiële analyse
 
 Bedrijven leggen tijdens dagelijkse activiteiten een enorme hoeveelheid gegevens vast die waardevolle business intelligence (BI) voor besluitvormers ondersteunen:
 
@@ -33,7 +33,7 @@ Elk van deze functies heeft eigen voor- en nadelen, afhankelijk van het type geg
 
 In dit artikel wordt beschreven hoe u deze analytische functies kunt gebruiken om financiële inzichten te verschaffen.
 
-## <a name="analytics-needs-in-finance"></a>Analysebehoefte in de financiële wereld
+## Analysebehoefte in de financiële wereld
 
 Bij het in kaart brengen van analysebehoeften in de financiële wereld kan het helpen om een mentaal model te gebruiken dat gebaseerd is op persona's die op een hoog niveau worden beschreven en hun verschillende analysebehoeften.
 
@@ -49,7 +49,7 @@ Mensen in verschillende rollen hebben verschillende behoeften als het om gegeven
 |Financieel beheer | Trends, overzichten | Ingebouwde managementrapporten <br> Ad-hocanalyse      | 
 |Boekhouder         | Gedetailleerde gegevens     | Ingebouwde operationele rapporten <br> Taakgegevens op het scherm |
 
-## <a name="finance-kpis"></a>Financiële KPI's
+## Financiële KPI's
 
 Een Key Performance Indicator (KPI) is een meetbare waarde die laat zien hoe effectief u uw doelen bereikt. In de financiële wereld gebruiken mensen vaak de volgende KPI’s om de financiële gezondheid van hun organisatie te monitoren:
 
@@ -67,7 +67,7 @@ Een Key Performance Indicator (KPI) is een meetbare waarde die laat zien hoe eff
 For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
 -->
 
-## <a name="using-financial-reporting-to-produce-financial-statements-and-kpis"></a>Financiële rapportage gebruiken om financiële overzichten en KPI’s te produceren
+## Financiële rapportage gebruiken om financiële overzichten en KPI’s te produceren
 
 De functie **Financiële rapporten** geeft u inzichten in de financiële gegevens die in uw rekeningschema zijn opgeslagen. U kunt financiële rapporten instellen om cijfers in grootboekrekeningen (GB) te analyseren en grootboekposten te vergelijken met budgetposten. De resultaten worden weergegeven in grafieken en rapporten op uw startpagina, zoals het cashflowdiagram, en de rapporten Resultatenrekening en Balans.
 
@@ -87,13 +87,13 @@ De volgende tabel beschrijft een reeks taken in financiële rapportage, met kopp
 | Weergaven instellen om gegevens te analyseren met dimensies.|[Gegevens analyseren per dimensie](bi-how-analyze-data-dimension.md)|
 | Nieuwe analyselijsten te maken voor verkopen, inkopen en voorraad en om analysesjablonen in te stellen. |[Analyserapporten maken](bi-how-create-analysis-views-reports.md)|
 
-## <a name="finance-reporting-across-business-units-or-legal-entities"></a>Financiële rapportage verwerken voor verschillende bedrijfseenheden of rechtspersonen
+## Financiële rapportage verwerken voor verschillende bedrijfseenheden of rechtspersonen
 
 Sommige organisaties gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in meerdere bedrijfsunits of rechtspersonen. Andere gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in dochterondernemingen die moeten rapporteren aan moederorganisaties. [!INCLUDE [prod_short](includes/prod_short.md)] geeft accountants tools waarmee ze grootboekposten van twee of meer bedrijven (dochterondernemingen) kunnen overbrengen naar een geconsolideerd bedrijf.  
 
 Ga naar [Bedrijfsconsolidatie](finance-consolidated-company-reporting.md) voor meer informatie.
 
-## <a name="ad-hoc-analysis-of-finance-data"></a>Adhoc-analyse van financiële gegevens
+## Adhoc-analyse van financiële gegevens
 
 Soms hoeft u alleen maar te controleren of de getallen correct zijn, of snel een cijfer bevestigen. De volgende functies zijn ideaal voor ad-hocanalyses:
 
@@ -114,7 +114,7 @@ Op dezelfde manier kunt u de actie **Openen in Excel** gebruiken om een lijstpag
 
 Voor meer informatie over het uitvoeren van ad-hocanalyses van grootboeken, zie [Ad-hocanalyse van financiële gegevens](ad-hoc-analysis-finance.md). 
 
-## <a name="built-in-reports-for-finance"></a>Ingebouwde financiële rapporten
+## Ingebouwde financiële rapporten
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bevat verschillende ingebouwde rapporten, traceerfuncties en tools die auditors of controllers helpen die verantwoordelijk zijn voor rapportage aan de financiële afdeling.
 
@@ -141,11 +141,11 @@ Zie voor meer informatie deze overzichten voor rapporten die relevant zijn voor 
 * [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
 -->
 
-## <a name="on-screen-finance-task-pages"></a>Financiële taakpagina's op het scherm
+## Financiële taakpagina's op het scherm
 
 [!INCLUDE [prod_short](includes/prod_short.md)] heeft een aantal pagina's waarop u financiële overzichten en taken kunt vinden.
 
-### <a name="show-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Grootboekposten en saldi weergeven via de pagina Rekeningschema
+### Grootboekposten en saldi weergeven via de pagina Rekeningschema
 
 Op de pagina Rekeningschema worden alle grootboekrekeningen weergegeven met samengevoegde cijfers die naar het grootboek zijn geboekt. Vanaf deze pagina kunt u het volgende doen:  
 
@@ -157,13 +157,13 @@ Op de pagina Rekeningschema worden alle grootboekrekeningen weergegeven met same
 
 Ga voor meer informatie naar [Het rekeningschema begrijpen](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="view-actual-amounts-compared-to-budgeted-amounts-for-all-accounts-and-for-several-periods"></a>Werkelijke bedragen vergeleken met gebudgetteerde bedragen weergeven voor alle rekeningen en voor verschillende perioden
+### Werkelijke bedragen vergeleken met gebudgetteerde bedragen weergeven voor alle rekeningen en voor verschillende perioden
 
 Als onderdeel van het verzamelen, analyseren en delen van uw bedrijfsgegevens kunt u werkelijke bedragen in vergelijking met gebudgetteerde bedragen weergeven voor alle rekeningen en voor verschillende perioden. U kunt deze vergelijking uitvoeren dit doen via de pagina **Rekeningschema** door de actie **Saldo/Budget (Grootboek)** te kiezen.
 
 Ga voor meer informatie naar [Werkelijke bedragen analyseren in vergelijking met budgetbedragen](bi-how-analyze-actual-versus-budget.md).
 
-### <a name="analyze-data-by-dimensions"></a>Gegevens analyseren per dimensie
+### Gegevens analyseren per dimensie
 
 Dimensies zijn waarden waarmee posten worden gecategoriseerd, zodat u ze kunt bijhouden en analyseren in documenten, zoals verkooporders. Dimensies kunnen bijvoorbeeld aangeven tot welk project of welke afdeling een post behoort.  
 
@@ -171,7 +171,7 @@ In plaats van voor elke afdeling en project aparte grootboekrekeningen in te ste
 
 In financiële analyses is een dimensie informatie die u toevoegt aan een grootboekpost als een soort markering. Deze informatie wordt gebruikt om grootboekposten met vergelijkbare kenmerken te groeperen, zoals klanten, regio's, producten en verkopers, en om deze groepen eenvoudig te kunnen opvragen voor analyse. U kunt dimensies gebruiken voor posten in dagboeken, documenten en budgetten. Zie voor meer informatie [Gegevens analyseren per dimensies](bi-how-analyze-data-dimension.md)
 
-### <a name="analyzing-cash-flow"></a>Cashflow analyseren
+### Cashflow analyseren
 
 Op de startpagina Accountant vindt u onder **Rapportageschema** de diagrammen Cashcyclus, Cashflow en Inkomsten en uitgaven waarmee u cashflow kunt analyseren:
 
@@ -189,7 +189,7 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 
 Ga voor meer informatie naar [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Financiële rapportage verwerken voor verschillende bedrijfseenheden of rechtspersonen](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->

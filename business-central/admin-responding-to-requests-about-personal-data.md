@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="responding-to-requests-about-users-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens van gebruikers
+# Reageren op aanvragen over persoonlijke gegevens van gebruikers
 
 Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder privacywetgeving en -voorschriften hebben ze bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Deze verzoeken worden *aanvragen van betrokkenen* genoemd. Als u de gevoeligheid van uw gegevens hebt geclassificeerd en zeker weet dat deze correct zijn, kan een beheerder op verzoeken reageren met behulp van de opties op het tabblad **Gegevensprivacy** in het rolcentrum **IT-beheerder**.
 
-## <a name="types-of-requests"></a>Soorten aanvragen
+## Soorten aanvragen
 
 De volgende tabel bevat voorbeelden van de typen aanvragen waarop beheerders kunnen reageren.
 
@@ -27,11 +27,11 @@ De volgende tabel bevat voorbeelden van de typen aanvragen waarop beheerders kun
 |Aanvragen van verwijdering|Een gegevensonderwerp kan erom verzoeken dat u de persoonlijke gegevens ervan verwijdert. Er zijn verschillende manieren om persoonlijke gegevens te verwijderen met de mogelijkheden voor aanpassing, maar de beslissing en implementatie is uw verantwoordelijkheid. In sommige gevallen kunt u ervoor kiezen om uw gegevens direct te bewerken. Verwijder bijvoorbeeld een contactpersoon en voer vervolgens de batchverwerking Geannuleerde interactie verwijderen uit om interacties voor de contactpersoon te verwijderen. <br><br> **Opmerking:** als u een datum hebt opgegeven in het veld **Documentverwijdering toestaan voor** op de pagina **Instellingen van verkoop en tegoeden** of **Inkoopinstellingen**, moet u de datum mogelijk wijzigen, zodat u geboekte verkoop- en inkoopdocumenten kunt verwijderen die u hebt afgedrukt en die een boekingsdatum hebben op of vóór die datum.|
 |Aanvragen van correcties|Een gegevensonderwerp kan aanvragen dat u onnauwkeurige persoonlijke gegevens corrigeert. Dit kunt u op verschillende manieren doen. In sommige gevallen kunt u lijsten naar Excel exporteren om snel bulksgewijs meerdere records te bewerken en vervolgens de bijgewerkte gegevens importeren. Zie voor meer informatie [Uw bedrijfsgegevens exporteren naar Excel](about-export-data.md). U kunt velden ook handmatig bewerken die persoonlijke gegevens bevatten, zoals informatie over een klant op de klantenkaart wijzigen. Records zoals algemene, klant- en belastingposten zijn echter belangrijk. Als u persoonlijke gegevens in bedrijftransactierecords opslaat, denk dan na over de aanpassingsmogelijkheden om dergelijke persoonlijke gegevens te wijzigen.|
 
-## <a name="restrict-data-processing-for-a-data-subject"></a>Gegevensverwerking voor een betrokkene beperken
+## Gegevensverwerking voor een betrokkene beperken
 
 Een gegevensonderwerp kan aanvragen dat u tijdelijk stopt met verwerking van de persoonlijke gegevens. Als u dergelijke aanvragen honoreert, kunt u de record van het gegevensonderwerp registreren als geblokkeerd vanwege privacy om de verwerking van de gegevens te stoppen. Wanneer een record als geblokkeerd is gemarkeerd, kunt u geen nieuwe transacties maken die de record gebruiken. Bijvoorbeeld, u kunt geen nieuwe factuur voor een klant maken wanneer de klant of de verkoper is geblokkeerd. Als u een gegevensonderwerp als geblokkeerd wilt markeren, opent u de kaart voor het gegevensonderwerp, bijvoorbeeld de klanten-, leveranciers- of contactkaart en schakelt u het selectievakje **Geblokkeerd vanwege privacy** in. U moet mogelijk **Meer tonen** kiezen om het veld weer te geven.  
 
-## <a name="handling-data-subject-requests-when-using-a-trial-version"></a>Afhandelen van verzoeken van betrokkenen bij gebruik van een proefversie
+## Afhandelen van verzoeken van betrokkenen bij gebruik van een proefversie
 
 Bepaalde soorten persoonsgegevens maken deel uit van een Microsoft 365-account en alleen beheerders kunnen de gegevens exporteren. Het proces voor het afhandelen van aanvragen van gegevensonderwerpen verschilt afhankelijk van het type [!INCLUDE[prod_short](includes/prod_short.md)]-tenant.
 
@@ -43,21 +43,21 @@ Op de pagina Privacy op werk en school kunt u ook uw account sluiten. We raden u
 
 U kunt nog steeds personen als geblokkeerd vanwege privacy markeren en transacties exporteren, bewerken of verwijderen, zoals elders in dit artikel uitgelegd.  
 
-## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Gegevens uit tabellen exporteren die niet zijn geclassificeerd op betrokkene
+## Gegevens uit tabellen exporteren die niet zijn geclassificeerd op betrokkene
 
 Als u gegevens moet exporteren die niet zijn geclassificeerd op een manier waardoor deze automatisch worden geëxporteerd, zoals gegevens uit de tabel Profielantwoorden, moet u het volgende doen:
 
 * Overweeg of u aanvullende gegevens die niet direct gerelateerd zijn aan het contact, echt moet exporteren.
 * Voeg de tabel en relatie handmatig toe aan het Rapid Start-pakket en exporteer deze direct vanuit het Rapid Start-pakket. Wij maken voor u een Rapid Start-pakket, zodat u daar in dergelijke situaties op kunt inspelen.
 
-## <a name="handling-data-about-minors"></a>Gegevens over minderjarigen verwerken
+## Gegevens over minderjarigen verwerken
 
 Als de leeftijd van een contactpersoon onder de wettelijke meerderjarigheidsleeftijd ligt volgens de wetgeving in uw regio, kunt u dat aangeven door het selectievakje **Minderjarig** in te schakelen op de **Contact**kaart. Wanneer u dat doet, wordt het selectievakje **Geblokkeerd vanwege privacy** automatisch ingeschakeld. Wanneer u toestemming van de ouder of wettelijke voogd van de minderjarige ontvangt, kunt u het selectievakje **Toestemming van ouders ontvangen** kiezen om het contact te deblokkeren. Hoewel u persoonlijke gegevens voor minderjarigen kunt verwerken, kunt u de profileringsfunctionaliteit in Dynamics 365 Sales niet gebruiken.
 
 > [!Note]
 > In het wijzigingslogbestand kan informatie worden geregistreerd, zoals wanneer en door wie het selectievakje **Toestemming van ouders ontvangen** is ingeschakeld. Een beheerder kan dat instellen met de gids **Wijzigingslogbestandinstellingen** en door ook het selectievakje **Gereg. wijziging van toestemming van ouders ontvangen** in te schakelen op de **Contact**kaart. Zie [Wijzigingen registreren](across-log-changes.md) voor meer informatie.  
 
-### <a name="see-also"></a>Zie ook
+### Zie ook
 
 <!-- [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->
