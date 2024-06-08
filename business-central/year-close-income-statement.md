@@ -8,17 +8,17 @@ ms.date: 02/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Resultatenrekeningen sluiten
+# <a name="closing-income-statement-accounts"></a>Resultatenrekeningen sluiten
 
 Wanneer een boekjaar is afgelopen, moet u de hierin opgenomen perioden afsluiten. Voer hiervoor de batchverwerking **Afsluiten WenV-rekening** uit. Met deze taak wordt het jaarresultaat overgeboekt naar een rekening op de balans en worden de resultatenrekeningen afgesloten. In een dagboek worden regels gemaakt die u vervolgens kunt boeken.
 
-## De batchverwerking Afsluiten WenV-rekening uitvoeren
+## <a name="to-run-the-close-income-statement-batch-job"></a>De batchverwerking Afsluiten WenV-rekening uitvoeren
 
 1. Sluit het boekjaar. Het boekjaar moet zijn afgesloten voordat u de batchverwerking kunt uitvoeren. Zie [Boekingsperioden afsluiten](year-close-account-periods.md) voor meer informatie.
 2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Resultatenrekening sluiten** in en kies vervolgens de gerelateerde koppeling.
 3. Kies **OK** om de batchverwerking te starten.
 
-## Informatie over de batchverwerking Resultatenrekening afsluiten
+## <a name="about-the-close-income-statement-batch-job"></a>Informatie over de batchverwerking Resultatenrekening afsluiten
 
 De batchverwerking verwerkt alle grootboekrekeningen van het soort Resultaten en maakt tegenboekingen voor de bijbehorende saldo's. Dat wil zeggen, dat elke post de som is van alle grootboekposten op de rekening van het boekjaar. Deze nieuwe posten worden geplaatst in een dagboek waarin u een tegenrekening en resultatenrekening in de balans moet opgeven voordat u boekt. Wanneer u het dagboek boekt, wordt een post geboekt in elke resultatenrekening zodat het saldo nul wordt en het jaarresultaat tegelijkertijd wordt overgebracht naar de balans.
 
@@ -28,7 +28,7 @@ De datum op de regels die tijdens de batchverwerking in het dagboek worden opgen
 
 U kunt de batchverwerking **Afsluiten WenV-rekening** meerdere keren gebruiken. Als u de batchverwerking opnieuw uitvoert, kunt ook naar vorige boekjaren boeken, zelfs nadat de WenV-rekeningen zijn afgesloten.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Boeken afsluiten](year-close-books.md)  
 [De jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md)  

@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Bankieren instellen
+# <a name="setting-up-banking"></a>Bankieren instellen
 
 Met bankrekeningkaarten kunt al uw bankrekeningen bijhouden, in willekeurige valuta's. Nadat u de bankrekeningen hebt ingesteld, kunt u ook de optie voor het afdrukken van cheques gebruiken.
 
@@ -24,7 +24,7 @@ Als u elektronische bankierservices wilt gebruiken om bankafschriften te importe
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  

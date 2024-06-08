@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# E-documenten gebruiken in het verkoopproces
+# <a name="use-e-documents-in-the-sales-process"></a>E-documenten gebruiken in het verkoopproces
 
 U kunt geconfigureerde elektronische documenten (e-documenten) gebruiken bij verkoopdocumenten.
 
@@ -25,13 +25,13 @@ U kunt de volgende verkoopdocumenten gebruiken met e-documenten:
 - Rentefacturen
 - Aanmaningen
 
-## E-documenten bij verkoop  
+## <a name="e-documents-in-sales"></a>E-documenten bij verkoop
 
 Als u een e-factuur wilt maken en naar een klant wilt verzenden, moet u de verkoopfactuur maken en boeken. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie over het standaardproces.
 
 Nadat u het verkoopdocument heeft geboekt, opent u de pagina **Geboekte verkoopfacturen** om toegang te krijgen tot de gerelateerde pagina **E-documenten**.
 
-### E-documenten weergeven   
+### <a name="view-e-documents"></a>E-documenten weergeven
 
 Volg deze stappen om bestaande e-documenten te bekijken.
 
@@ -40,7 +40,7 @@ Volg deze stappen om bestaande e-documenten te bekijken.
 3. Het veld **Record** bevat het documentnummer van de geboekte verkoopfactuur. Selecteer de koppeling om het document te openen.
 4. In het veld **Elektronische documentstatus** kunt u de realtime status van het document en de locatie ervan in de procespijplijn bekijken. Als het document is geboekt, is de status **Verwerkt**.
 
-### E-documentstatussen en -logboeken 
+### <a name="e-document-statuses-and-logs"></a>E-documentstatussen en -logboeken
 
 Voor meer informatie over het servicestatusniveau van uw e-document raadpleegt u het sneltabblad **Status van e-documentservice**. Op de regels toont het systeem een of meer services waarvan het document gebruik heeft gemaakt. In het meest voorkomende scenario gebruikt elk document slechts één service. Een document kan echter meerdere services gebruiken.
 
@@ -64,7 +64,7 @@ Als er een probleem is met de serviceprovider en het document niet kan worden ve
 
 Nadat het probleem is opgelost, voert u handmatig de **Document verzenden**-acties uit. Als u andere acties nodig heeft, zoals **Document opnieuw maken**, **Document annuleren** of **Goedkeuring ophalen**, kunt u deze uitvoeren.
 
-## Overzicht van e-documentstatussen
+## <a name="overview-of-e-document-statuses"></a>Overzicht van e-documentstatussen
 
 Om een beter overzicht te krijgen van alle e-documenten in het bedrijf, kunt u het rolcentrum **Accountant** selecteren waar de statussen van e-documenten voorkomen. Daar vindt u e-documentactiviteiten met de volgende statussen:
 
@@ -75,7 +75,7 @@ Om een beter overzicht te krijgen van alle e-documenten in het bedrijf, kunt u h
     - Fout
 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Hoe u e-documenten instelt in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-how-setup-edocuments.md)    
 [E-documenten gebruiken bij inkoop](finance-how-use-edocuments-purchase.md)  

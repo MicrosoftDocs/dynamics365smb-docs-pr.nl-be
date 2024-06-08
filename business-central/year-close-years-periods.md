@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Jaren en perioden afsluiten
+# <a name="closing-years-and-periods"></a>Jaren en perioden afsluiten
 
 Aan het einde van een boekjaar moet u een aantal administratieve taken uitvoeren, zoals ervoor zorgen dat alle documenten en dagboeken worden geboekt, zorgen dat valutagegevens actueel zijn, de boeken afsluiten, enzovoort. De werkelijke taken hangen van uw bedrijf af.
 
@@ -29,7 +29,7 @@ De volgende tabel bevat een overzicht van taken die u gewoonlijk uitvoert om een
 | Rapporten af te drukken die u kunnen helpen bij het maken van financiële overzichten. |[Afsluitingsoverzichten voorbereiden](year-prepare-close-statement.md) |
 | Boekingsperioden en boekjaar sluiten, saldi van resultatenrekeningen overdragen naar balansrekeningen en de jaareinde-ultimopost boeken. |[Boeken afsluiten](year-close-books.md) |
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Werken met boekingsperioden en fiscale jaren](finance-accounting-periods-and-fiscal-years.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

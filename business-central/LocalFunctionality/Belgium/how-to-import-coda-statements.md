@@ -9,10 +9,10 @@ ms.date: 06/17/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# CODA-afschriften importeren in de Belgische versie
+# <a name="import-coda-statements-in-the-belgian-version"></a>CODA-afschriften importeren in de Belgische versie
 Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!INCLUDE[prod_short](../../includes/prod_short.md)]. Zie voor meer informatie [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md).  
 
-## Een CODA-afschrift importeren  
+## <a name="to-import-a-coda-statement"></a>Een CODA-afschrift importeren
 
 1.  Kies het pictogram ![lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bankrekeningen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de bankrekening en kies actie **CODA-bestand importeren**.  
@@ -20,7 +20,7 @@ Wanneer u een CODA-afschrift van de bank ontvangt, moet u het importeren in [!IN
 
 Het CODA-afschrift wordt geïmporteerd. Vervolgens moet u de CODA-afschriftregels verwerken. Zie [CODA-afschriften vereffenen](how-to-apply-coda-statements.md) voor meer informatie.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
  [CODA-bankafschriften](coda-bank-statements.md)   
  [Bankrekeningen instellen voor CODA](how-to-set-up-bank-accounts-for-coda.md)   
  [IBLC-BLWI-transactiecodes instellen](how-to-set-up-iblc-blwi-transaction-codes.md)   
